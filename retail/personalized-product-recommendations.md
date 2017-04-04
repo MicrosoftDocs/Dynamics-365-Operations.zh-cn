@@ -41,14 +41,14 @@ ms.lasthandoff: 03/31/2017
 
 [] (![proddetails。/media/proddetails.png)](。/media/proddetails.png)
 
-1.  ** **在交易记录页：
+2.  ** **在交易记录页：
 
 -   建议基于建议引擎物料整个列表的物料。的购物车。
 -   如果商店关联客户添加到交易记录中，则使用物料和客户的交易记录的列表。篮，建议的引擎提供个人建议。
 
 **注释**查看有关建议** **的交易记录页，该零售商需要更新在 Dynamics 365 的屏幕布局操作。 **必须删除建议**控件。** **交易记录页。 [] (![transactionscreenmultipleproductslargemessengersbag-5。/media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](。/media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-1.  ** **在客户详细信息"页面上：
+3.  ** **在客户详细信息"页面上：
     -   建议引擎建议为基于在客户端中的用户 ID 的物料和物料。
 
 [] (![customerdetailsrecommendations。/media/customerdetailsrecommendations.png)](。/media/customerdetailsrecommendations.png)
