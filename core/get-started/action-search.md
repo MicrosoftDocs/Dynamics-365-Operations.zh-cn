@@ -59,7 +59,7 @@ ms.lasthandoff: 03/31/2017
 
 例如，您在**操作搜索**字段中键入 **tot**，现在正在检查结果列表。 第一个条目，将命名的按钮** **合计，请突出显示。 **销售订单** **按钮 &gt; 查看路径**还显示。 **路径的销售订单**部件对应于操作窗格上的销售订单** **选项卡上，并且，路径的** **部件查看对应于该选项卡视图** **的组。 **同样，总折扣**按钮的路径 (**销售** &gt; ** **则计算) 通知您此按钮在定位**计算** ** **销售组的操作窗格的选项卡。 因此，此帮助"按钮信息将由您的搜索操作触发正确地了解结果 (如果您选择该列表中该按钮)。 
 
-操作![[] (与搜索字段数据。{{/media/action:/media/action-search-field-with-data.png}} {{搜索：/media/action-search-field-with-data.png}} {{字段：/media/action-search-field-with-data.png}} {{与：/media/action-search-field-with-data.png}} {{data.png:/media/action-search-field-with-data.png}})](。{{/media/action:/media/action-search-field-with-data.png}} {{搜索：/media/action-search-field-with-data.png}} {{字段：/media/action-search-field-with-data.png}} {{与：/media/action-search-field-with-data.png}} {{data.png:/media/action-search-field-with-data.png}}) 
+
 
 在之前的示例中，操作搜索在页面顶部显示了标准操作窗格的结果。 但是，操作搜索还显示位于页面其他位置的可见工具栏的结果。 例如，您按照上的搜索** **现有库存量按** **销售订单行 FastTab 中。 在这种情况下，结果列表的路径 (按钮**销售订单行** &gt; **库存** &gt; ** **视图) 通知您此按钮位于库存** **菜单按钮的**视图**标题下在销售订单行 FastTab ** **。 
 
