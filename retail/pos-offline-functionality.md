@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
+audience: IT Pro
 ms.reviewer: annbe
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 27041
