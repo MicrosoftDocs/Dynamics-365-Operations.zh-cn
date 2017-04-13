@@ -56,10 +56,6 @@ ms.lasthandoff: 03/31/2017
 您可以创建描述基本任务的作业任务，位于针对该作业的职位的工作人员必须完成该任务。 同一作业任务可以添加到多个作业，而针对这些作业的职位将继承这些作业任务。 下表中列出了一些工作任务示例。
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>作业</th>
