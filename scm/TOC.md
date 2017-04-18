@@ -1,0 +1,157 @@
+# [Cost management](cost-management/TOC.md)
+# [Inventory management](inventory/TOC.md)
+# 主计划
+## 创建销售预测
+### [需求预测概述](master-planning/introduction-demand-forecasting.md)
+### [建立销售预测](master-planning/demand-forecasting-setup.md)
+### [生成的统计基线预测](master-planning/generate-statistical-baseline-forecast.md)
+### [手动调整的基线预测](master-planning/manual-adjustments-baseline-forecast.md)
+### [授权的调整后的预测](master-planning/authorize-adjusted-forecast.md)
+### [准确预测监视器](master-planning/monitor-forecast-accuracy.md)
+### [删除历史记录交易记录数据的离群值](master-planning/remove-historical-outliers-calculating-demand-forecast.md)
+### [Reduction keys](master-planning/reduction-keys.md)
+## 主计划
+### [行动消息](master-planning/action-messages.md)
+### [覆盖范围设置](master-planning/coverage-settings.md)
+### [Delays](master-planning/delays.md)
+### [Master plans](master-planning/master-plans.md)
+### [主计划和多站点功能](master-planning/master-plan-multisite-functionality.md)
+#### [必备仓库的站点覆盖范围计划](master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+#### [规划站点覆盖范围，仓库不是必需的](master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+#### [规划站点和仓库覆盖范围，仓库必需](master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+#### [规划站点和仓库覆盖范围，仓库不是必需的](master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+#### [确定物料清单版本](master-planning/master-plan-bom-version-determined.md)
+### [物料清单版本的爆炸式增长](master-planning/master-plan-explosion-bom-version.md)
+### [Maintain planned orders](master-planning/maintain-planned-orders.md)
+### [追踪爆炸式增长](master-planning/trace-explosion.md)
+# 采购
+## [Procurement and sourcing overview](procurement/procurement-sourcing-overview.md)
+## [应付帐款工作流](procurement/procurement-sourcing-workflows.md)
+## [Purchasing policies](procurement/purchase-policies.md)
+## [Procurement catalogs](procurement/procurement-catalogs.md)
+## [Purchase requisitions](procurement/purchase-requisitions-overview.md)
+### [采购申请工作流](procurement/purchase-requisitions-workflow.md) 
+## [询价 (Rfq)](procurement/request-quotations.md)
+## 采购订单
+### [Purchase order overview](procurement/purchase-order-overview.md)
+### [Create purchase orders](procurement/purchase-order-creation.md)
+### [审核并确认采购订单](procurement/purchase-order-approval-confirmation.md)
+## 供应商管理和协作
+### [设置和维护供应商协作](procurement/set-up-maintain-vendor-collaboration.md)
+### [管理供应商协作用户](procurement/manage-vendor-collaboration-users.md)
+### [设置供应商帐户](procurement/set-up-vendor-accounts.md)
+### [供应商与外部供应商协作](procurement/vendor-collaboration-work-external-vendors.md)
+### [供应商与客户协作](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [通过使用供应商门户与供应商进行协作](procurement/collaborate-vendors-vendor-portal.md)
+### [供应商协作移动工作区](procurement/vendor-collaboration-mobile-workspace.md)
+### [供应商门户用户的安全](procurement/configure-security-vendor-portal-users.md)
+## 价格和折扣
+### [Purchase agreements](procurement/purchase-agreements.md)
+## 装箱单和发票
+### [采购订单的产品收据](procurement/product-receipt-against-purchase-orders.md)
+### [供应商发票概览](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
+### [Vendor posting profiles](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+# 产品信息管理
+## 产品信息
+### [物料清单和公式](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Product dimension](pim/product-dimensions.md)
+### [产品编号命名法](pim/product-variant-identification-nomenclature.md)
+### [与产品相关的翻译常见问题](pim/translations-product-related-information.md)
+### [在销售过程中注册序列号](sales-marketing/register-serial-numbers-sales-process.md)
+### [订单输入过程中搜索产品](pim/search-products-product-variants.md)
+## 创建产品配置
+### [创建产品配置模型](pim/build-product-configuration-model.md)
+### [计算产品配置模型的常见问题解答](pim/calculate-product-configuration-models.md)
+### [配置规则](pim/configuration-rules.md)
+### [Dimension-based configuration](pim/dimension-based-product-configuration.md)
+### [表达式约束和表约束](pim/expression-constraints-table-constraints-product-configuration-models.md)
+### [重复使用产品配置](pim/reuse-product-configurations.md)
+### [设置配置模型](pim/set-up-maintain-product-configuration-model.md)
+### [系统定义和用户定义的表约束](pim/system-defined-user-defined-table-constraints.md)
+# 生产控制
+## 生产过程    
+### [基于活动的转包](production-control/activity-based-subcontracting.md)
+### [Batch attributes](production-control/batch-attributes.md)
+### [BOMs and formulas](production-control/bill-of-material-bom.md)
+### [BOM designer functionality](production-control/bom-designer-functionality.md)
+### [Consolidated batch orders](production-control/consolidated-batch-orders.md)
+### [管理生产中的转包工作](production-control/manage-subcontract-work-production.md)
+### [Mixed mode planning: Combine discrete, process, and lean sourcing](production-control/mixed-mode-plan.md)
+### [生产过程](production-control/production-process-overview.md)
+### [Production setup requirements](production-control/production-set-up-requirements.md)
+### [路由和操作](production-control/routes-operations.md)
+## 生产订单
+### [Create production orders](production-control/create-production-orders.md)
+### [默认订单设置的维度和产品变型](production-control/default-order-settings.md)
+### [Release production orders](production-control/release-production-orders.md)
+### [冲销生产订单状态](production-control/reverse-production-order-status.md)
+### [报告为已完工入库的物料](production-control/report-boms-as-finished.md)
+### [Report production orders as finished](production-control/report-production-orders-as-finished.md)
+## 精益生产 
+### [条形码扫描器的支持转移的看板面板](production-control/kanban-transfer-board-support-barcode-scanner.md) 
+### [看板作业级排产的精益制造](production-control/lean-manufacturing-kanban-job-scheduling.md)
+### [精益制造概述](production-control/lean-manufacturing-overview.md)
+### [精益组织的模型](production-control/lean-manufacturing-modeling-lean-organization.md)
+## 工序和作业计划
+### [分配给作业捆绑中作业的时间](production-control/allocate-time-jobs-job-bundle.md)
+### [Job scheduling](production-control/job-scheduling.md)
+### [Operations scheduling options](production-control/operation-scheduling-options.md)
+### [Operations scheduling](production-control/operations-scheduling.md)
+## 资源
+### [Operations resources](production-control/operations-resources.md)
+### [Resource capabilities](production-control/resource-capabilities.md)
+### [Time and attendance registration](production-control/time-attendance-registrations.md)
+## 制造执行
+### [Material substitution in manufacturing](production-control/substitute-items-bom-lines.md)
+### [计算物料消耗量](production-control/consumption.md)
+### [Production feedback](production-control/production-feedback.md)
+### [生产订单的默认设置制造执行](production-control/production-order-defaults-manufacturing-execution.md)
+### [Production posting](cost-management/production-posting.md)
+### [Registration for manufacturing execution](production-control/registration-manufacturing-execution.md)
+# 销售和市场营销
+## [Marketing](sales-marketing/overview-sales-marketing.md)
+## 销售订单
+### [Order promising](sales-marketing/delivery-dates-available-promise-calculations.md)
+### [Order entry deadlines](sales-marketing/order-entry-deadlines.md)
+### [Direct deliveries](sales-marketing/direct-deliveries.md)
+### [Delivery schedules](sales-marketing/delivery-schedules.md)
+### [在销售过程中的序列号](sales-marketing/register-serial-numbers-sales-process.md)
+### [从相同批次预留](sales-marketing/reserve-same-batch-sales-order.md)
+## [Sales agreements](sales-marketing/sales-agreements.md)
+## 销售报价单
+### [Price simulation](sales-marketing/price-simulation.md)
+## 退货
+### [Sales returns](warehousing/sales-returns.md)
+# 运输管理
+## [一种新型运输引擎](transportation/create-new-transportation-management-engine.md)
+## [创建提单](transportation/create-bill-of-lading.md)
+## [计划货运运输路线](transportation/plan-freight-transportation-routes-multiple-stops.md)
+## [使用中心合并计划装载量](transportation/plan-loads-hub-consolidation.md)
+## [协调运费](transportation/reconcile-freight-transportation-management.md)
+## [Transportation management](transportation/transportation-management-overview.md)
+## [运输引擎](transportation/transportation-management-engines.md)
+# 仓库管理
+## 设置 
+### [通过使用工作模板和位置指令控制工作](warehousing/control-warehouse-location-directives.md)
+### [管理仓库工作人员](warehousing/manage-warehouse-workers.md)
+### [设置布局](warehousing/warehouse-configuration.md)
+### [Warehouse work policies](warehousing/warehouse-work-policies.md)
+### [度量单位和库存政策](warehousing/unit-measure-stocking-policies.md)
+## 领料和打包
+### [包装材料和费用](warehousing/pack-materials-packing-material-fees.md)
+## 库存盘点
+### [Block inventory](inventory/inventory-blocking.md)
+### [Cycle counting](warehousing/cycle-counting.md)
+### [Inventory journal](inventory/inventory-journals.md)
+### [Inventory location](inventory/inventory-locations.md)
+### [Inventory status](inventory/inventory-statuses.md)
+### [库存标签盘点](inventory/inventory-tag-counting.md)
+## 集装化 
+## 补货
+### [补货](warehousing/replenishment.md)
+## 移动设备
+### [在仓库应用程序中配置字段名称](warehousing/configure-app-field-names-priorities-warehouse.md)
+### [设置仓库工作的移动设备](warehousing/configure-mobile-devices-warehouse.md)
+### [仓库设备移动门户网站 (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
+### [仓库移动设备的显示设置](warehousing/change-warehouse-mobile-device-displays.md)

@@ -1,0 +1,43 @@
+# 电源 BI 内容包
+## [成本的管理内容包](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+# 预先确定的成本
+## [Costing sheet](costing-sheets.md)
+## [Costing version](costing-versions.md)
+## [通过使用计划成本的成本计算版本模拟成本变化](simulate-cost-changes-costing-version-planned-costs.md)
+# 库存成本计算
+## [调整现有库存量的成本价值](adjust-hand-inventory-cost-values.md)
+## [Cost object](cost-object.md)
+## [Cost entry](cost-entries.md)
+## [Cost group](cost-groups.md)
+## [具有实际成本和标记的先进先出](fifo-physical-value-marking.md)
+## [Include physical value](include-physical-value.md)
+## [库存的对象值](physical-quantity.md)
+## [Inventory close](inventory-close.md)
+## [具有实际成本和标记的后进先出日期](lifo-date-physical-value-marking.md)
+## [LIFO with physical value and marking](lifo-physical-value-marking.md)
+## [Moving average](moving-average.md)
+## [实际和财务更新](physical-financial-updates.md)
+## [Running average cost price](running-average-cost-price.md)
+## [Tracking running average cost per inventory dimension](track-running-average-cost-per-inventory-dimension.md)
+## [Weighted average date](weighted-average-date.md)
+## [具有实际成本和标记的加权平均](weighted-average-physical-value-marking.md)
+# 制造成本计算
+## [物料清单计算组](bom-calculation-groups.md)
+## [生产差异的常见来源](common-sources-of-production-variances.md)
+## [在布线生产中使用的成本的类别](cost-categories-used-production-routings.md)
+## [生产控制和项目管理核算中使用的成本的类别](cost-categories-used-production-control-project-management-accounting.md)
+## [Production order cost analysis](production-order-cost-analysis.md)
+## [Production order cost estimation](production-order-cost-estimation.md)
+## [Production posting](production-posting.md)
+## [设置可以生产或购买的产品](manufactured-items-treated-as-purchased-items.md)
+## [Total cost allocation method](methodology-total-cost-allocation.md)
+# 标准成本
+## [具有标准成本物料清单计算](information-used-bom-calculations-standard-costs.md)
+## [管理标准成本更新](manage-standard-cost-updates.md)
+## [标准成本转换的先决条件](prerequisites-standard-cost-conversion.md)
+## [Standard cost conversion overview](standard-cost-conversion-overview.md)
+## [更新制造环境中的标准成本](update-standard-costs-manufacturing-environment.md)
+## [更新为新的制造物料的标准成本](update-standard-costs-new-manufactured-item.md)
+## [更新非制造环境中的标准成本](update-standard-costs-non-manufacturing-environment.md)
+
+
