@@ -1,7 +1,7 @@
 {
   "build": {
     "content": [
-      {
+        {
         "files": [
           "**/*.md"
         ],
@@ -29,7 +29,11 @@
     ],
     "overwrite": [],
     "externalReference": [],
-    "globalMetadata": {},
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "search_scope": ["Dynamics365Operations"]
+
+    },
     "fileMetadata": {},
     "template": [],
     "dest": "d365OpsRetail"
