@@ -55,3 +55,5 @@ ms.lasthandoff: 04/12/2017
 ## <a name="elearning-courses"></a>电子教学课程
 有关 Microsoft Dynamics 365 的操作培训，请参阅<a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics 教育门户网站</a>。 （需要 CustomerSource 帐户） 
 
+
+

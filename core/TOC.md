@@ -75,3 +75,4 @@
 # 其他资源
 ## [术语表操作的动态 365](get-started/glossary.md)
 ## [新增功能或更改功能](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+

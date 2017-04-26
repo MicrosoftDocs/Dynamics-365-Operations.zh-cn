@@ -27,6 +27,9 @@ ms.lasthandoff: 04/12/2017
 
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 
+[!include[banner](../includes/banner.md)]
+
+
 您可以使用现金和银行管理以维护法人的银行账户与这些银行帐户相关联的财务票据。 
 
 这些票据包括存款单、支票、汇票和本票。 您还可以对银行对帐单进行对帐，以及在标准报表上打印银行数据。
@@ -69,4 +72,6 @@ ms.lasthandoff: 04/12/2017
 -   [Scenario: Settle a partial customer payment that has discounts on credit notes](../accounts-receivable/settle-partial-customer-payment-discounts-credit-notes.md)
 -   [Scenario: Settle a partial customer payment that has multiple discount periods](../accounts-receivable/settle-partial-customer-payment-multiple-discount-periods.md)
 -   [方案︰ 使用一个客户付款结算跨越多个折扣期的多个发票](../accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+
+
 
