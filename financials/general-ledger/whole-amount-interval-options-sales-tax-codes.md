@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="whole-amount-and-interval-calculation-options-for-sales-tax-codes"></a>全部金额和销售税代码的间隔计算选项
 
+[!include[banner](../includes/banner.md)]
+
+
 本文说明销售税代码上的“计算方法”字段选项，以及如何为间隔和全部金额计算销售税。
 
 您可以设置基于整个金额或间隔金额将计算出的增值税代码。 在“销售税代码”页中，使用字段“计算方法”（在“计算”快速选项卡上）选择如何计算销售税代码。
@@ -82,7 +85,9 @@ ms.lasthandoff: 03/31/2017
 
  
 
-有关详细信息，请参阅标识 [基于边际收益的基础和计算方法"字段的增值税税率] () field.md 少量基础。
+有关详细信息，请参阅[基于“边际基数”和“计算方法”字段确定销售税比率](marginal-base-field.md)。
+
+
 
 
 

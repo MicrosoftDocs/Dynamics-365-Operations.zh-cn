@@ -1,6 +1,6 @@
 ---
 title: "Power BI 主页"
-description: "此主题所列资源帮助您为工序使用 Dynamics 365 的 Power BI。"
+description: "此主题列举可帮助您使用 Power BI with Dynamics 365 for Operations 的资源。"
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,49 +26,54 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="power-bi-home-page"></a>Power BI 主页
 
-此主题所列资源帮助您为工序使用 Dynamics 365 的 Power BI。
+[!include[banner](../includes/banner.md)]
 
-<a name="power-bi-content-for-dynamics-365-for-operations"></a>Dynamics 365 Power BI 的内容的工序
+
+此主题列举可帮助您使用 Power BI with Dynamics 365 for Operations 的资源。
+
+<a name="power-bi-content-for-dynamics-365-for-operations"></a>Dynamics 365 for Operations 的 Power BI 内容
 ------------------------------------------------
 
-| **Feature area**                  | ** Power BI 审核**                          | **位置查找 Power BI **内容                                                                                                                                                                                         | **请了解**                                                                                                                                                               |
+| **特征区域**                  | **Power BI 内容**                          | **Power BI 内容的位置**                                                                                                                                                                                         | **了解更多**                                                                                                                                                               |
 |-----------------------------------|-----------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 财务管理              | 财务业绩                         | Microsoft Dynamics Lifecycle Services (LCS) (内容包的此版本支持工序版本的 Dynamics (LCS)。365) (PowerBI.com 内容包的此版本支持工序的 7.0.1 1611 和 Microsoft Dynamics PowerBI.com。) | [] Power BI 财务业绩内容 (财务绩效 BI 的内容 pack.md)                                               |
-|                                   | 贷方和管理催款             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| 人力资本管理          | 招聘的报表                            | LCS                                                                                                                                                                                                                            | [其进行招聘的 Power BI 审核] (招聘分析的内容 pack.md BI)                                                       |
-|                                   | 员工开发能力和报表 | LCS                                                                                                                                                                                                                            | [员工开发能力和 Power BI 内容] (员工开发能力和分析功能 BI 的内容 pack.md) |
-|                                   | 培训组织报表               | LCS                                                                                                                                                                                                                            | [组织培训 Power BI 内容] (组织培训分析 BI 的内容 pack.md)                             |
-|                                   | 人才度量。                             | LCS                                                                                                                                                                                                                            | 人才 [] (度量 Power BI 内容人才分析的 BI 的内容 pack.md)                                                 |
-|                                   | 薪酬福利和报表。             | LCS                                                                                                                                                                                                                            | [薪酬福利和 Power BI 内容] (薪酬福利和分析功能 BI 的内容 pack.md)                         |
-| 项目管理与核算 | 练习经理                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-| 零售和商业               | 零售通道性能                    | PowerBI.com                                                                                                                                                                                                                    | [零售渠道性能 Power BI 内容] (零售通道性能仪表板高级 BI data.md)                 |
-| 供应链管理           | 成本管理                               | PowerBI.com                                                                                                                                                                                                                    |  Power BI 的内容管理成本 [] (成本管理"内容 pack.md)                                                          |
-|                                   | 销售和现金流入能力性能           | LCS                                                                                                                                                                                                                            | [销售和现金流入能力性能 Power BI 内容] (增值收益率能力性能 pack.md 内容)          |
-|                                   | 采购花费分析                       | LCS                                                                                                                                                                                                                            | [采购花费分析 Power BI 内容 (采购] 内容包为高级 bi.md)                                                 |
-|                                   | 成本核算分析                      | LCS                                                                                                                                                                                                                            | [成本核算分析 Power BI 内容] (成本核算 pack.md -分析内容)                                         |
+| 财务管理              | 财务绩效                         | Microsoft Dynamics Lifecycle Services (LCS)（此版本的内容包支持 Dynamics 365 for Operations 版本 1611。）PowerBI.com（此版本的内容包支持 Microsoft Dynamics 365 for Operations 7.0 和 7.0.1。） | [财务绩效 Power BI 内容](financial-performance-power-bi-content-pack.md)                                               |
+|                                   | 信用和收款管理             | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| 人力资本管理          | 招聘报告                            | LCS                                                                                                                                                                                                                            | [招聘 Power BI 内容](recruiting-analysis-power-bi-content-pack.md)                                                       |
+|                                   | 员工能力与发展报告 | LCS                                                                                                                                                                                                                            | [员工能力与发展 Power BI 内容](employee-competencies-and-development-analysis-power-bi-content-pack.md) |
+|                                   | 培训组织报告               | LCS                                                                                                                                                                                                                            | [组织培训 Power BI 内容](organizational-training-analysis-power-bi-content-pack.md)                             |
+|                                   | 劳动力指标                             | LCS                                                                                                                                                                                                                            | [劳动力指标 Power BI 内容](workforce-analysis-power-bi-content-pack.md)                                                 |
+|                                   | 薪酬和福利报告             | LCS                                                                                                                                                                                                                            | [薪酬和福利 Power BI 内容](compensation-and-benefits-analysis-power-bi-content-pack.md)                         |
+| 项目管理与核算 | 实践经理                              | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+| 零售和商业               | 零售渠道绩效                    | PowerBI.com                                                                                                                                                                                                                    | [零售渠道绩效 Power BI 内容](retail-channel-performance-dashboard-power-bi-data.md)                 |
+| 供应链管理           | 成本管理                               | PowerBI.com                                                                                                                                                                                                                    |  [成本管理 Power BI 内容](cost-management-content-pack.md)                                                          |
+|                                   | 销售和收益率性能           | LCS                                                                                                                                                                                                                            | [销售和收益率绩效 Power BI 内容](sales-profitability-performance-content-pack.md)          |
+|                                   | 采购花费分析                       | LCS                                                                                                                                                                                                                            | [采购花费分析 Power BI 内容](purchase-content-pack-for-power-bi.md)                                                 |
+|                                   | 成本核算分析                      | LCS                                                                                                                                                                                                                            | [成本核算分析 Power BI 内容](cost-accounting-analysis-content-pack.md)                                         |
 |                                   | 仓库性能                         | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
-|                                   | 生产性能                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
+|                                   | 生产业绩                        | LCS                                                                                                                                                                                                                            |                                                                                                                                                                              |
 
-## <a name="access-power-bi-content-from-lcs"></a>从" LCS Power BI 的内容
-有关如何下载 Power BI 的信息并将它连接使审核与组织之间的数据，请参阅在 [LCS 的 Power BI 的内容是从 Microsoft 和您的合作伙伴] (Microsoft partners.md BI 的内容。)
+## <a name="access-power-bi-content-from-lcs"></a>从 LCS 访问 Power BI 内容
+有关如何下载 Power BI 内容并将其连接到组织的数据的信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
 
-## <a name="access-power-bi-content-from-powerbicom"></a>从" PowerBI.com Power BI 的内容
-1.  登录 PowerBI.com [] (https://www.powerbi.com/)。
-2.  ** **单击"获取数据。
-3.  **在服务** "框中，单击** **获取。
-4.  所需的内容包，然后单击** **获取。
-5.  输入 URL 您的环境的 Dynamics 365。工序 URL 必须位于格式** https://YourAOSTenant.cloudax.dynamics.com**&lt;&gt;。 Click **Next**.
-6.  **选择，在 oAuth2 **身份验证方法，然后单击** **请登录。
-7.  在提示时，您输入有权访问您的环境工序的 Dynamics 365 的 Microsoft Office 365 科目。
-8.  在登录后，自动开始导入过程。 在导入完成时，"内容包包含的报表显示在导航窗格中。 选择此报告显示您的导入的数据。
+## <a name="access-power-bi-content-from-powerbicom"></a>从 PowerBI.com 访问 Power BI 内容
+1.  登录 [PowerBI.com](https://www.powerbi.com/)，
+2.  单击**获取数据**。
+3.  在**服务**框中，单击**获取**。
+4.  选择所需内容包，然后单击**确认**。
+5.  输入您的 Dynamics 365 for Operations 环境的 URL。 此 URL 的格式必须为 **https://&lt;YourAOSTenant&gt;.cloudax.dynamics.com**。 单击**下一步**。
+6.  身份验证方法选择 **oAuth2**，然后单击**登录**。
+7.  系统提示时，输入有权访问您的 Dynamics 365 for Operations 的 Microsoft Office 365 帐户。
+8.  在登录后，将自动开始执行导入过程。 导入完成时，导航窗格中将显示内容包中包含的报告。 选择一个报告以显示您导入的数据。
 
-## <a name="learn-more-about-the-power-bi-integration"></a>了解有关 Power BI 集成
--   [Power BI integration](power-bi-integration.md)
--   [Power BI 集成概览与实体商店] (BI 集成功能) 的 store.md 实体
--   [作者和分配与实体商店分配功能作者] () reports.md BI 的 Power BI 报表
--   [固定 Power BI 向工作区] (固定的 BI reports.md 报告)
--   LCS 在 [的 Power BI 的内容是从 Microsoft 和您的合作伙伴] (Microsoft partners.md BI 的内容)
+## <a name="learn-more-about-the-power-bi-integration"></a>了解有关 Power BI 集成的详细信息
+-   [Power BI 集成](power-bi-integration.md)
+-   [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)
+-   [使用实体商店撰写和分发 Power BI 报告](author-distribute-power-bi-reports.md)
+-   [将 Power BI 报告固定到工作区](pin-power-bi-reports.md)
+-   [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)
 -   [使用电子申报配置为 Power BI 提供来自 Dynamics 365 for Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+
 
 
 

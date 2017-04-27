@@ -1,6 +1,6 @@
 ---
-title: "使用 Excel 外接程序"
-description: "使用 Excel 的 Office，Microsoft Dynamics 外接程序此主题说明如何到 Microsoft Excel 中对数据实体，然后更新，显示，以及编辑数据。 若要打开数据实体，则可以从 Excel 或 Microsoft Dynamics 365 开始的工序。"
+title: "使用 Excel 加载项"
+description: "此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Microsoft Dynamics 365 for Operations 开始。"
 author: ChrisGarty
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,69 +24,69 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-the-excel-add-in"></a>使用 Excel 外接程序
+# <a name="use-the-excel-add-in"></a>使用 Excel 加载项
 
-使用 Excel 的 Office，Microsoft Dynamics 外接程序此主题说明如何到 Microsoft Excel 中对数据实体，然后更新，显示，以及编辑数据。 若要打开数据实体，则可以从 Excel 或 Microsoft Dynamics 365 开始的工序。
+此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Microsoft Dynamics 365 for Operations 开始。
 
-使用 Excel 的 Office，Microsoft Dynamics 外接程序"按在 Microsoft Excel 中对数据实体，可以轻松快捷地查看和编辑的数据。 此外接程序需要 Microsoft Excel 2016 年。 **注释：**，如果您的 Microsoft Azure Active Directory (Azure 的 AD) 有关配置使用 Active Directory 选择身份验证服务 (AD FS)，则您必须确保，5 月 2016 更新应用，因此，Excel 外接程序可以正确。您。
+通过在 Microsoft Excel 中打开实体数据，可以使用适用于 Excel 的 Microsoft Dynamics Office 加载项快速、轻松地查看和编辑这些数据。 此加载项需要 Microsoft Excel 2016。 **注释：**如果将您的 Microsoft Azure Active Directory (Azure AD) 租户配置为使用 Active Directory Federation Services (AD FS)，则必须确保已应用了 2016 年 5 月的更新，以便 Excel 加载项可以让您正确登录。
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>在 Excel 数据实体的开票，在从 Dynamics 365 开始的工序
-1.  在一页。Microsoft Dynamics 365 中的工序，请单击**在 Microsoft Office **打开。 如果根数据源 ("表") 页的与所有实体的根目录数据源，默认的相同的**在 Excel 中打开。**页面选项生成。 **在 Excel **未结的选项可以在中频繁使用的页面找到，例如**所有供应商** ** **和所有客户。
-2.  **单击打开在 Excel **选项，并且打开生成的工作簿。 此工作簿具有实体、指针到您的环境和指针约束的信息。外接程序 Excel。
-3.  **在 Excel，启用"启用编辑**对运行的 Excel 外接程序单击"。 Excel 外接程序窗格中运行以在 Excel 窗口的权限。
-4.  如果您是运行一次外接程序 Excel，请单击**此委托外接程序**。
-5.  如果提示您登录，请单击**登录**登录，然后使用您使用登录到工序的 Dynamics 365 的相同凭据。 则可以外接程序，Excel 将使用来自 Internet Explorer 中前登录上下文和自动签入您。 因此，请验证用户名。在 Excel 外接程序的右上角中。
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>从 Dynamics 365 for Operations 开始时在 Excel 中打开实体数据
+1.  在 Microsoft Dynamics 365 for Operations 中的一个页面内，单击**在 Microsoft Office 中打开**。 如果该页面的根数据源（表）与任何实体的根数据源相同，将为该页面生成默认**在 Excel 中打开**选项。 可以在常用页面（如**所有供应商**和**所有客户**）中找到**在 Excel 中打开**选项。
+2.  单击**在 Excel 中打开**选项，然后打开生成的工作簿。 此工作簿中包含实体的绑定信息、指向您的环境的指针，以及指向 Excel 加载项的指针。
+3.  在 Excel 中，单击**启用编辑**以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
+4.  如果首次运行此 Excel 加载项，请单击**信任此加载项**。
+5.  如果系统提示您登录，单击**登录**，然后使用用于登录 Dynamics 365 for Operations 的相同凭据登录。 此 Excel 加载项将使用 Internet Explorer 中之前的登录上下文，并自动让您登录（如果可以）。 因此，请验证此 Excel 加载项右上角中的用户名。
 
-Excel 外接程序读取数据自动为您所选实体。 这不会注意在工作簿中数据，在 Excel 外接程序写入它。
+此 Excel 加载项自动读取您所选实体的数据。 请注意，Excel 加载项读入数据之前，工作簿中无任何数据。
 
-## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>在 Excel 数据实体的开票，在从 Excel 开始
-1.  在 Excel，在插入** **请在**组中的选项卡上，Addins **，**开设 Office 商店的商店。单击**
-2.  在 Office 商店，在"搜索关键字“Dynamics”，然后单击"添加** **的旁边** Microsoft Dynamics 外接程序** Office Excel (外接程序)。
-3.  如果您是运行一次，请外接程序 Excel **此委托外接程序**启用对运行的 Excel 外接程序单击"。 Excel 外接程序窗格中运行以在 Excel 窗口的权限。
-4.  **请添加服务器信息**打开**选项**窗格中单击。
-5.  复制 URL 从您的工序的目标 Dynamics 365 实例的浏览器，将数据粘贴到**在服务器 URL **主机名后"，然后删除所有内容 (例如，删除**/? ** cmp=usmf&mi=CustTableListPage)。 发生的 URL 应与主机名 (例如，https://xxx.dynamics.com**) **。
-6.  **好**单击，然后单击** **为确认更改。 添加 Excel 重新启动负荷和元数据。 ** Design **现在按钮才可用。 如果 Excel 外接程序具有**。负荷小程序**，请按您可能没有正确身份登录到的用户。 有关详细信息，请参阅“小程序负荷按钮{{在此：in}}主题的“排除”部分显示”。
-7.  ** Design **单击。 Excel 外接程序检索实体元数据。
-8.  **单击表**添加。 实体列表中会出现相应 实体“名称列表-标记”格式。
-9.  在列表中选择某一实体，例如-客户** **客户，然后单击"下一步** **。
-10. **从可用字段**列表要添加字段。**所选字段**列表中，请单击该字段，然后单击** **添加。 或者，请双击字段。
-11. 在您添加了所需字段。** **选择的字段列表后，确保游标工作表中的正确位置 (例如，A1 单元格)，然后单击** **执行。 然后单击**执行**退出设计器。
-12. **一组可提取**单击"刷新数据。
+## <a name="open-entity-data-in-excel-when-you-start-from-excel"></a>从 Excel 开始时在 Excel 中打开实体数据
+1.  在 Excel 中**插入**选项卡上的**加载项**组中，单击**应用商店**打开 Office 应用商店。
+2.  在 Office 应用商店中，搜索关键字“Dynamics”，然后单击 **Microsoft Dynamics Office 加载项**（即此 Excel 加载项）旁边的**添加**。
+3.  如果首次运行此 Excel 加载项，请单击**信任此加载项**以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
+4.  单击**添加服务器信息**打开**选项**页面。
+5.  从目标 Dynamics 365 for Operations 实例复制浏览器 URL，将其粘贴到**服务器 URL** 字段中，然后删除主机名后的所有内容（例如，删除 **/?cmp=usmf&mi=CustTableListPage**）。 产生的 URL 中应仅包含主机名（例如，**https://xxx.dynamics.com**）。
+6.  单击**确定**，然后单击**是**确认更改。 此 Excel 加载项将重新启动并加载元数据。 **设计**按钮现在可用。 如果此 Excel 加载项有**加载小程序**按钮，您可能无法作为正确用户登录。 有关详细信息，请参阅本主题“故障排除”部分中的“显示‘加载小程序’按钮”。
+7.  单击**设计**。 此 Excel 加载项将检索实体元数据。
+8.  单击**添加表**。 将显示实体列表。 将以“名称 - 标签”格式列出实体。
+9.  选择列表中的实体（如**客户 - 客户**），然后单击**下一步**。
+10. 若要将**可用字段**列表中的字段添加到**所选字段**列表，单击该字段，然后单击**添加**。 或者双击该字段。
+11. 将所需字段添加到**所选字段**列表之后，请确保光标在工作表中的正确位置（如单元格 A1），然后单击**完成**。 然后单击**完成**退出设计器。
+12. 单击**刷新**以提取一组数据。
 
-## <a name="view-and-update-entity-data-in-excel"></a>查看和实体在 Excel 数据更新
-在 Excel 外接程序读取数据实体到工作簿后，可以通过单击"更新数据刷新**在任何时间**在 Excel 外接程序。
+## <a name="view-and-update-entity-data-in-excel"></a>在 Excel 中查看和更新实体数据
+此 Excel 加载项将实体数据读入工作簿之后，随时可通过单击 Excel 加载项中的**刷新**更新这些数据。
 
-## <a name="edit-entity-data-in-excel"></a>编辑在 Excel 数据实体的
-您可更改数据实体，然后通过单击您需要将其发布**请发布**在 Excel 外接程序。 若要编辑记录，请选择工作表中的单元格，然后更改单元格值。 若要创建新记录，请按以下步骤之一：
+## <a name="edit-entity-data-in-excel"></a>在 Excel 中编辑实体数据
+可根据需要更改实体数据，然后通过单击 Excel 加载项中的**发布**将其发布回来。 若要编辑记录，请在工作表中选择单元格，然后更改单元格值。 若要创建新记录，请执行以下步骤之一：
 
--   单击想要在工作表，然后单击新** **在 Excel 外接程序。
--   单击在工作表的最后一行，然后按搬出游标标记键，直到该行结束列，并且新的行进行创建。
--   单击"行立即在工作表下，并会使启动输入在单元格的数据。 当您移动该焦点不足单元格中时，该工作表展开到涵盖新行。
+-   单击工作表中的任意位置，然后单击此 Excel 加载项中的**新建**。
+-   在工作表最后一行中单击，然后按 Tab 键，直到光标移出该行的最后一列，并创建一个新行。
+-   在工作表正下方的行中单击，然后开始在单元格中输入数据。 将光标移出该单元格时，工作表将扩展以容纳新行。
 
-若要删除记录，请按以下步骤之一：
+若要删除记录，请执行以下步骤之一：
 
--   单击该工作表行旁边行号删除右键单击，然后单击** **删除。
--   右键单击在工作表删除行，然后单击"删除** &gt; ** **表**行。
+-   右键单击要删除的工作表行旁边的行号，然后单击**删除**。
+-   在要删除的工作表行中右键单击，然后单击**删除** &gt; **表行**。
 
 ## <a name="add-or-remove-columns"></a>添加或删除列
-您可以使用设计器调整自动添加到工作表的列。
+可以使用设计器调整自动添加到工作表的列。
 
-1.  **通过单击选项** (按齿轮符号) 然后选择**启用"设计**此复选框可以启动 Excel 外接程序的数据源设计器。
-2.  **单击 Design **在 Excel 外接程序。 所有数据源中。
-3.  "数据源旁，请单击"编辑** ** "按钮 (铅笔符号)。
-4.  在调整的列表**所选字段**列表，您需要：
-    -   **从可用字段**列表要添加字段。**所选字段**列表中，请单击该字段，然后单击** **添加。 或者，请双击字段。
-    -   从字段**若要删除所选字段**列表中，请单击该字段，然后单击** **中删除。 或者，请双击字段。
-    -   若要更改字段顺序，单击所选字段的字段** **列出，然后单击** ** **或向下**。
+1.  通过单击**选项**按钮（齿轮符号），然后选中**启用设计**复选框，启动 Excel 加载项的数据源设计器。
+2.  单击此 Excel 加载项中的**设计**。 将列出所有数据源。
+3.  单击数据源旁边的**编辑**按钮（铅笔符号）。
+4.  根据需要调整**所选字段**列表中的列表。
+    -   若要将**可用字段**列表中的字段添加到**所选字段**列表，单击该字段，然后单击**添加**。 或者双击该字段。
+    -   若要删除**所选字段**列表中的字段，请单击该字段，然后单击**删除**。 或者双击该字段。
+    -   若要更改字段的顺序，请在**所选字段**列表中单击字段，然后单击**向上**或**向下**。
 
-5.  通过单击应用对数据的来源更改** **更新。 然后单击**执行**退出设计器。 如果您添加了一字段 (列)，单击**刷新**组使用更新数据。
+5.  通过单击**更新**应用对数据源的更改。 然后单击**完成**退出设计器。 如果添加了字段（列），单击**刷新**提取更新后的数据集。
 
-## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)Troubleshooting
-具有可以通过最便捷的某些步骤以解析的一些问题。
+## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)疑难解答
+可通过某些简单步骤解决一些问题。
 
--   **负荷小程序"按钮进行查看。** 如果 Excel 外接程序具有**。负荷小程序**登录，则在以后可能按未登录为正确的用户。 为了解决此问题，请确认正确的用户名。显示在 Excel 外接程序的右上角中。 如果了不正确显示用户名，它，请单击"注销"，然后签名。
--   **您收到“取消”的消息。** 如果您接收“禁止的”消息，在 Excel 外接程序加载元数据时，登录到 Excel 外接程序的帐户无权在使用所针对的服务、实例或数据库。 为了解决此问题，请确认正确的用户名。显示在 Excel 外接程序的右上角中。 如果了不正确显示用户名，它，请单击"注销"，然后签名。
--   **一个空白部件显示在 Excel。** 如果一个空白 Web 在登录过程中打开，帐户 AD FS，要求，但运行外接程序 Excel 的版本不是最近的足够加载登录对话框。 为了解决此问题，请更新您使用 Excel 的版本。 若要更新 Excel 的版本，当您是在延迟的通道的企业中，请将 [Office 部署工具 https://technet.microsoft.com/library/jj219422.aspx) 从 [] (延迟的通道的移到当前通道] (https://technet.microsoft.com/library/mt455210.aspx)。
+-   **将显示“加载小程序”按钮。** 如果登录后此 Excel 加载项有**加载小程序**按钮，您可能无法作为正确用户登录。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请单击该用户名，注销，然后再次登录。
+-   **您收到“已禁止”消息。** 如果此 Excel 加载项加载元数据时收到“已禁止”消息，则登录了该 Excel 加载项的帐户无权使用目标服务、实例或数据库。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请单击该用户名，注销，然后再次登录。
+-   **Excel 上方显示空白网页。** 如果登录过程中打开空白网页，则帐户需要 AD FS，但是正在运行此加载项的 Excel 版本不够高，无法加载登录对话框。 若要解决此问题，请更新正在使用的 Excel 版本。 若要当您在处于推迟渠道中的企业内时更新 Excel 版本，请使用 [Office 部署工具](https://technet.microsoft.com/library/jj219422.aspx)[从推迟渠道转到当前渠道](https://technet.microsoft.com/library/mt455210.aspx)。
 
 
 

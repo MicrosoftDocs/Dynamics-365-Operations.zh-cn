@@ -1,5 +1,5 @@
 ---
-title: "在增值序列号的登记流程"
+title: "在销售流程中登记序列号"
 description: "本文说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。"
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="register-serial-numbers-in-the-sales-process"></a>在增值序列号的登记流程
+# <a name="register-serial-numbers-in-the-sales-process"></a>在销售流程中登记序列号
+
+[!include[banner](../includes/banner.md)]
+
 
 本文说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。
 
@@ -65,7 +68,7 @@ ms.lasthandoff: 03/31/2017
 ## <a name="can-i-view-the-serialized-items-that-i-have-on-hand"></a>可以查看现有序列化物料吗？
 不可以，您不能查看现有序列化物料，因为直到物料销售才会为物料登记序列号。
 
-## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>我可以登记 catchweight 物料序列号的？
+## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>可以为实际称重物料登记序列号吗？
 不可以，在销售流程中不能为实际称重物料登记序列号。 此外，如果产品设置为非定重物料，您无法将产品分配到设置为仅在销售流程中使用序列号的跟踪维度组。
 我可以在 Retail POS 登记序列号吗？
 ------------------------------------------------
@@ -76,6 +79,8 @@ ms.lasthandoff: 03/31/2017
 此功能对可以维护销售装箱单和销售发票的所有角色均可用。 以下职责使工作人员可更正序列号，为无法读取或扫描的序列号登记空白项：
 -   维护序列号更正
 -   维护不可读序列号的登记
+
+
 
 
 

@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="workflow-actions"></a>工作流操作
 
+[!include[banner](../includes/banner.md)]
+
+
 本文说明每个工作流审核流程的参与者可以采取的操作。
 
-工作流可能涉及若干组人员：发起方、任务受托人、决策者和审核人。 例如，在以下支出报表工作流中，Sam 是发起方，队列的成员是任务受托人，John 是决策者，Frank、Sue 和 Ann 是审核人。   [![工作流\_] (WithManualDecision。/media/workflow_withmanualdecision.gif)](。/media/workflow_withmanualdecision.gif) 以下部分说明每个组可以执行的工作流操作。
+工作流可能涉及若干组人员：发起方、任务受托人、决策者和审核人。 例如，在以下支出报表工作流中，Sam 是发起方，队列的成员是任务受托人，John 是决策者，Frank、Sue 和 Ann 是审核人。   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) 以下部分说明每个组可以执行的工作流操作。
 
 ## <a name="actions-that-an-originator-can-perform"></a>发起方可以执行的操作
 发起方通过提交文档进行审查来启动工作流实例。 例如，Sam 必须在“支出报表”****页上单击“提交”****按钮，才能提交其支出报表。
@@ -63,7 +66,7 @@ ms.lasthandoff: 03/31/2017
 ## <a name="actions-that-a-decision-maker-can-perform"></a>决策者可以执行的操作
 通常，文档分配给决策者，因为有必须由决策者回答的问题。 该问题的答案通常是“**是**”或“**否**”或者是“**True**”或“**False**”。 如果决策者不选择这些选项之一，他或她可以委托决策。
 
-### <a name="choice-1-or-choice-2"></a>\[选择\[\] 或 \[选择 1\]
+### <a name="choice-1-or-choice-2"></a>\[选择 1\] 或\[选择 2\]
 
 决策者必须回答与文档相关的问题。 该问题的答案通常是“**是**”或“**否**”或者是“**True**”或“**False**”。 决策者选择的回答确定使用哪个分支处理文档。 例如，Sam 的支出报表分配给 John。 John 必须确定文档中的信息是否要求致电 Sam 的经理。 如果 John 确定需要呼叫，则支出报表分配给 Aretha，然后 Aretha 必须致电 Sam 的经理。 如果 John 决定不需要通话，则支出报表分配给 Frank 进行审核。
 
@@ -89,5 +92,7 @@ ms.lasthandoff: 03/31/2017
 ### <a name="request-change"></a>请求更改
 
 如果审核人请求对单据进行更改，该单据将发还发起方。 例如，Sam 提交了一份 12,000 美元的支出报表，而且该文档分配给 Sue。 如果 Sue 请求更改，该支出报表将发还 Sam。 Sam 可以重新提交该支出报表。 他可以首先进行所请求的更改，或者可以重新提交支出报表的原始版本。 如果 Sam 重新提交了该支出报表，该报表将发送给 Frank 审核，因为 Frank 是审核流程中的第一位审核人。
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "成本核算分析 Power BI 的内容"
-description: "此主题描述在成本核算分析 Power BI 内容中。 该说明如何访问用于创建内容的 Power BI 报表，并且提供有关数据模型和实体的信息。"
+title: "成本核算分析 Power BI 内容"
+description: "此主题介绍成本核算分析 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2017-04-04
@@ -24,88 +24,88 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="cost-accounting-analysis-power-bi-content"></a>成本核算分析 Power BI 的内容
+# <a name="cost-accounting-analysis-power-bi-content"></a>成本核算分析 Power BI 内容
 
-此主题描述在成本核算分析 Power BI 内容中。 该说明如何访问用于创建内容的 Power BI 报表，并且提供有关数据模型和实体的信息。
+此主题介绍成本核算分析 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 <a name="overview"></a>概览
 --------
 
-对于执行组织的成本控制负责的**成本核算分析** Microsoft Power BI 内容为成本的财务总监或人员使用。 它按实际成本、预算成本和可变预算成本包含关键度量。，例如费用、度量值和成本率。 已在 Microsoft Dynamics 在 365 中使用一申报币种通过成本核算的交易记录数据。工序为整个的组织提供成本的合计视图。 经理可由成本组进行筛选数据对象执行其组织单位成本控制，即使，组织可能具有多个法人。 **由于成本核算分析** Power BI 突出显示在物料实际成本和预算成本之间的差异，经理可以将通知有关其单位的操作正值和负值趋势。 经理可以深化到详细了解到成本差异如何发生，然后执行有效成本的措施要素层次结构或单独的成本要素。 **成本核算分析** Power BI 内容通过成本会计员成本分析如何人士的整个组织的成本对象。 若要了解有关成本核算，请参阅成本核算主页 [] (/dynamics365/operations/financials/cost 核算/成本核算-主 page.md)。 通过定义在成本核算安全和合并的访问级别。它在 Power BI 的行级别的安全，您可以访问所有成本对象的所有者。**成本核算分析** Power BI 的内容输入。 的"可视化的数据基于在成本核算中控制的访问级别将筛选。 若要了解有关安全访问级别和行级别安全性，请参阅物料的 [成本核算设置安全的 Power BI 的] (成本核算设置安全 pack.md 内容)。
+**成本核算分析** Microsoft Power BI 内容面向成本总监或负责执行组织的成本控制的任何人。 其中包含关键指标，如成本、度量值，以及按实际成本、预算成本和可变预算成本的成本率。 它使用来自 Microsoft Dynamics 365 for Operations 的成本核算中的交易记录数据，并使用一种申报货币提供整个组织的成本聚合视图。 经理可以按成本对象筛选这些数据，以便对其组织单元执行成本控制，即使该组织有多个法人。 由于**成本核算分析** Power BI 内容突出显示实际成本与预算成本之间的差异，所以可以通知经理有关其运营单位正负趋势的信息。 经理可以向下钻取到成本元素层次结构或单独的成本元素，以便深入洞察出现成本差异的原因，然后采取有效措施。 成本会计师可通过**成本核算分析** Power BI 内容分析成本在整个组织的成本对象中的流向。 若要了解有关成本核算的详细信息，请参阅[成本核算主页](/dynamics365/operations/financials/cost-accounting/cost-accounting-home-page.md)。 通过在成本核算中定义访问级安全并将其与 Power BI 中的行级安全结合，可以授予所有成本对象所有者**成本核算分析** Power BI 内容的访问权限。 然后将根据成本核算中控制的访问级别筛选可视化中的所有数据。 若要了解有关访问级安全和行级安全的详细信息，请参阅[设置成本核算 Power BI 内容的安全](setup-security-cost-accounting-content-pack.md)。
 
-## <a name="accessing-the-power-bi-content"></a>访问 Power BI 的内容
-您在 Microsoft Dynamics Lifecycle Services (LCS) 可以找到**成本核算分析** Power BI 的内容。共享资产库中。 有关如何将它连接和下载内容的更多信息。您的运营有关的数据，请参阅 Dynamics 365 在 [LCS 的 Power BI 的内容是从 Microsoft 和您的合作伙伴] (Microsoft partners.md BI 的内容。) **注释：**是一 KB4011327 ** **的先决条件。**成本核算分析** Power BI 的内容。  在登录到 Lifecycle Services 后，您可以访问 KB 此处：<https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>。
+## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
+Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**成本核算分析** Power BI。 有关如何下载该内容并将其连接到您的 Dynamics 365 for Operations 数据的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 **注释：**KB4011327 是**成本核算分析** Power BI 内容的必备条件。  登录 Lifecycle Services 之后，可以在以下位置访问该 KB：<https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>。
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>Power BI 的内容包括在量化指标
-内容包含一组报表页面。 每页包括为图表直观、平铺和一组表的度量。 以下表提供在**成本核算分析** Power BI 的可视化内容的概览。
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
+此内容中包含一组报表页面。 每个页面中包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**成本核算分析** Power BI 内容中的可视化。
 
-| 报表页面                      | 图表                                                                                                                         | 磁贴                                          |
+| 报表页                      | 图表                                                                                                                         | 磁贴                                          |
 |----------------------------------|-------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------|
-| 成本控制按会计期间之前    | 实际成本和预算成本。要素层次结构级别成本。                                                                   | 实际成本{{与：vs}}预算成本                    |
-|                                  | 按成本要素预算差异的层次结构级别                                                                               | 实际成本率{{与：vs}}预算成本率          |
-|                                  | 前 10 位 (用百分比表示) 按成本预算差异要素                                                                          | 实际度量值{{与：vs}}预算度量值          |
-| 成本控制年初至今     | 日历年度期间所用的实际成本和预算                                                                           | 实际成本{{与：vs}}预算成本                    |
-|                                  | 预算差异按日历年度的期间                                                                                       | 实际成本率{{与：vs}}预算成本率          |
-|                                  | 前 10 位 (用百分比表示) 按成本预算差异要素                                                                          | 实际度量值{{与：vs}}预算度量值          |
-| 按会计年度前成本率         | 由成本组的行为的实际成本率                                                                                             | 实际成本率{{与：vs}}预算成本率          |
-|                                  | 实际成本的成本率，预算差异，预算成本率百分比和预算成本的成本率。要素层次结构级别 | 实际度量值{{与：vs}}预算度量值          |
-|                                  | 按成本要素预算差异的层次结构级别                                                                               |                                               |
-|                                  | 前 10 位 (用百分比表示) 按成本预算差异要素                                                                          |                                               |
-| 可变预算按会计期间之前 | 实际成本，预算成本和可变预算成本。要素层次结构级别成本。                                             | 实际度量值{{与：vs}}预算度量值          |
-|                                  | 预算差异和可变预算差异按成本要素层次结构级别                                                  | 实际成本{{与：vs}}可变预算成本           |
-|                                  | 实际成本，预算成本和可变成本由成本组的行为和成本要素层次结构级别                                  | 实际成本率{{与：vs}}预算可变成本率 |
-| 成本报表按会计期间之前  | 按成本要素层次结构成本对象级别和维度成员名称的实际成本                                             |                                               |
-|                                  | 由成本组进行对象维度成员名称要素成本和维度成员名称的实际成本                                       |                                               |
+| 按会计期间的成本控制    | 按成本元素层次结构的实际成本和预算成本                                                                   | 实际成本与预算成本                    |
+|                                  | 按成本元素层次结构的预算差异                                                                               | 实际成本率与预算成本率          |
+|                                  | 按成本元素排名前 10 位的预算差异（百分比）                                                                          | 实际度量值与预算度量值          |
+| 按年初至今的成本控制     | 按日历年期间的实际成本和预算成本                                                                           | 实际成本与预算成本                    |
+|                                  | 按日历年期间的预算差异                                                                                       | 实际成本率与预算成本率          |
+|                                  | 按成本元素排名前 10 位的预算差异（百分比）                                                                          | 实际度量值与预算度量值          |
+| 按会计年度的成本率         | 按成本行为的实际成本率                                                                                             | 实际成本率与预算成本率          |
+|                                  | 按成本元素层次结构级别的实际成本率、预算成本率差异、预算成本率百分比和预算成本率 | 实际度量值与预算度量值          |
+|                                  | 按成本元素层次结构的预算差异                                                                               |                                               |
+|                                  | 按成本元素排名前 10 位的预算差异（百分比）                                                                          |                                               |
+| 按会计期间的可变预算 | 按成本元素层次结构级别的实际成本、预算成本和可变预算成本                                             | 实际度量值与预算度量值          |
+|                                  | 按成本元素层次结构的预算差异和可变预算差异                                                  | 实际成本与可变预算成本           |
+|                                  | 按成本行为和成本元素层次结构的实际成本、预算成本和可变预算成本                                  | 实际成本率与可变预算成本率 |
+| 按会计期间的成本报表  | 按成本元素层次结构级别和成本对象维度成员名称的实际成本                                             |                                               |
+|                                  | 按成本对象维度成员名称和成本元素维度成员名称的实际成本                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-工序数据的 Dynamics 365 用于填充在**成本核算分析** Power BI 内容的报表页面。 此数据表示为实体商店阶段，这是 Microsoft SQL 数据库为逻辑分析方法优化的聚合量化指标。 有关详细信息，请参阅 [Power BI 集成概览与实体商店] (BI 集成功能) 的 store.md 实体。 以下参数聚合量化指标时作为物料的基础。
+Dynamics 365 for Operations 数据用于填充**成本核算分析** Power BI 内容中的报表页面。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL 数据库）中暂存的聚合度量。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。 以下关键聚合度量用作该内容的基础。
 
-| 实体                  | 关键度量合计 | Dynamics 365 数据的源的工序 | 字段     | 说明                                   |
+| 实体                  | 关键聚合度量 | Dynamics 365 for Operations 的数据源 | 字段     | 说明                                   |
 |-------------------------|---------------------------|---------------------------------------------|-----------|-----------------------------------------------|
-| 成本核算条目 | 总和 (金额)               | CAMDATAAggregatedCostEntry                  | 本币金额    | 成本核算的会计币种金额。 |
-| 统计条目     | 总和 (度量值)            | CAMDATAAggregatedStatisctialEntry           | 度量值 |                                               |
+| 成本核算条目 | SUM(Amount)               | CAMDATAAggregatedCostEntry                  | 本币金额    | 成本核算分类帐币种金额 |
+| 统计条目     | SUM(Magnitude)            | CAMDATAAggregatedStatisctialEntry           | 度量值 |                                               |
 
-下表显示如何聚合关键度量用于创建在内容的数据集的若干计算度量值。
+下表显示如何使用关键聚合度量在该内容的数据集中创建若干计算度量。
 
-| 度量                                       | 如何计算量化指标                                                                                          |
+| 度量                                       | 该度量的计算方法                                                                                          |
 |-----------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| 实际成本                                   | 计算 (“成本核算 entries'entity_PLACEHOLDER \ [度量\]，"交易记录 versions'entity_PLACEHOLDER \ ISSOURCEVERSIONBUDGET [\_值\] =\])            |
-| 预算成本                                   | 计算 (“成本核算 entries'entity_PLACEHOLDER \ [度量\]，"交易记录 versions'entity_PLACEHOLDER \ ISSOURCEVERSIONBUDGET [\_值\] =\])            |
-| 预算成本差异                          | \[预算成本的\] - \[entity_PLACEHOLDER\[\]成本\]                                                                                      |
-| 预算差异百分比                    | 如果 (\[预算成本的\] = (\[，为空)，\[预算差异\] / \[entity_PLACEHOLDER\[预算成本\]entity_PLACEHOLDER\])                                                |
-| 实际度量值                              | 计算 (‘统计 entries'entity_PLACEHOLDER \ FullMagnitude [\]，"交易记录 versions'entity_PLACEHOLDER \ ISSOURCEVERSIONBUDGET [\_值\] =\])          |
-| 预算度量值                              | 计算 (\[FullMagnitude\]，"交易记录 versions'entity_PLACEHOLDER \ ISSOURCEVERSIONBUDGET [\_值\] =\[)                               |
-| 统计预算差异                   | \[预算、维度值\] - \[entity_PLACEHOLDER\[实际\]值                                                                            |
-| 统计预算差异百分比        | 如果 (\[预算、维度值\] =\[，为空)，\[统计 (预算差异\] / \[entity_PLACEHOLDER\[预算\]维度值 entity_PLACEHOLDER\])                          |
-| 实际成本率                              | 如果 (\[实际度量值 (\] =\[，为空)，\[实际成本\] / \[实际 entity_PLACEHOLDER\[\]值 entity_PLACEHOLDER\])                                          |
-| 预算成本率                              | 如果 (\[预算、维度值\] = (\[，为空)，\[预算成本的\] / \[entity_PLACEHOLDER\[预算\]维度值 entity_PLACEHOLDER\])                                          |
-| 成本率预算差异                     | \[预算\]成本率 - \[entity_PLACEHOLDER\[实际成本率\]                                                                            |
-| 成本率预算差异百分比          | 如果 (\[预算成本的\] =\[，为空)，\[成本率 (预算差异\] / \[entity_PLACEHOLDER\[预算\]entity_PLACEHOLDER\])                                 |
-| 固定的预算成本                             | 计算 (\[预算成本的\]，" [COSTBEHAVIOR 成本核算 entries'entity_PLACEHOLDER \\] =\[)                                              |
-| 可变预算的成本                          | 计算 (\[预算成本的\]，" [COSTBEHAVIOR 成本核算 entries'entity_PLACEHOLDER \\] =\[)                                              |
-| 固定的可变预算成本                    | \[固定的预算成本\]                                                                                                  |
-| 可变的可变预算成本                 | 如果 (\[预算、维度值\] = (\[，为空)，\[(可变预算的成本\]的 / \[entity_PLACEHOLDER\[预算\]维度值 entity_PLACEHOLDER\] \*\[entity_PLACEHOLDER\[实际度量值 entity_PLACEHOLDER\])       |
-| 可变预算成本                          | \[维修可变预算的成本\] + \[entity_PLACEHOLDER\[可变的可变预算的成本\]                                                     |
-| 可变预算差异                      | \[可变预算的成本\] - \[entity_PLACEHOLDER\[\]成本\]                                                                             |
-| 可变预算差异百分比           | 如果 (\[可变预算的成本\] =\[，为空)，\[(可变预算差异\] / \[entity_PLACEHOLDER\[可变预算的\]entity_PLACEHOLDER\])                     |
-| 预算可变成本率                     | 如果 (\[实际度量值\] =\[，为空)，\[(可变预算的成本\] / \[实际 entity_PLACEHOLDER\[\]值 entity_PLACEHOLDER\])                                 |
-| 可变预算差异成本率            | \[可变预算\]成本率 - \[entity_PLACEHOLDER\[实际成本率\]                                                                   |
-| 可变预算差异百分比成本率 | 如果 (\[预算可变成本率\] =\[，为空)，\[(可变预算差异\]成本率 / \[entity_PLACEHOLDER\[预算可变\]entity_PLACEHOLDER\]) |
+| 实际成本                                   | CALCULATE('Cost accounting entries'\[Measure\], 'Transaction versions'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)            |
+| 预算成本                                   | CALCULATE('Cost accounting entries'\[Measure\], 'Transaction versions'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)            |
+| 预算成本差异                          | \[预算成本\] - \[实际成本\]                                                                                      |
+| 预算差异百分比                    | IF(\[Budget cost\] = 0, blank(), \[Budget variance\] / \[Budget cost\])                                                |
+| 实际度量值                              | CALCULATE('Statistical entries'\[FullMagnitude\], 'Transaction versions'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 0)          |
+| 预算度量值                              | CALCULATE(\[FullMagnitude\], 'Transaction versions'\[ISSOURCEVERSIONBUDGET\_VALUE\] = 1)                               |
+| 统计预算差异                   | \[预算度量值\] - \[实际度量值\]                                                                            |
+| 统计预算差异百分比        | IF(\[Budget magnitude\] = 0, blank(), \[Statistical budget variance\] / \[Budget magnitude\])                          |
+| 实际成本率                              | IF(\[Actual magnitude\] = 0, BLANK(), \[Actual cost\] / \[Actual magnitude\])                                          |
+| 预算成本率                              | IF(\[Budget magnitude\] = 0, BLANK(), \[Budget cost\] / \[Budget magnitude\])                                          |
+| 预算成本率差异                     | \[预算成本率\] - \[实际成本率\]                                                                            |
+| 预算成本率差异百分比          | IF(\[Budget cost\] = 0, blank(), \[Budget cost rate variance\] / \[Budget cost rate\])                                 |
+| 固定预算成本                             | CALCULATE(\[Budget cost\], 'Cost accounting entries'\[COSTBEHAVIOR\] = 1)                                              |
+| 可变预算成本                          | CALCULATE(\[Budget cost\], 'Cost accounting entries'\[COSTBEHAVIOR\] = 2)                                              |
+| 固定可变预算成本                    | \[固定预算成本\]                                                                                                  |
+| 可变预算成本                 | IF(\[Budget magnitude\] = 0, BLANK(), (\[Variable budget cost\] / \[Budget magnitude\]) \* \[Actual magnitude\])       |
+| 可变预算成本                          | \[固定可变预算成本\] + \[可变预算成本\]                                                     |
+| 可变预算差异                      | \[可变预算成本\] - \[实际成本\]                                                                             |
+| 可变预算差异百分比           | IF(\[Flexible budget cost\] = 0, BLANK(), \[Flexible budget variance\] / \[Flexible budget cost\])                     |
+| 可变预算成本率                     | IF(\[Actual magnitude\] = 0, BLANK(), \[Flexible budget cost\] / \[Actual magnitude\])                                 |
+| 可变预算成本率差异            | \[可变预算成本率\] - \[实际成本率\]                                                                   |
+| 可变预算成本率差异百分比 | IF(\[Flexible budget cost rate\] = 0, BLANK(), \[Flexible budget cost rate variance\] / \[Flexible budget cost rate\]) |
 
-以下关键度量维度用作切聚合的筛选器实现更佳的精细程度并提供更深入的见解分析。
+以下关键维度用作筛选器以切分聚合度量，以便获得粒度更细微，更深入的分析洞察。
 
-| 实体                             | 属性的示例                                                                                               |
+| 实体                             | 属性示例                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
 | 成本核算分类帐            | 成本核算分类帐                                                                                               |
 | 成本控制单元                 | 成本控制单元名称                                                                                               |
-| 成本元素维度            | 成本要素维度名称，成本要素维度成员名称，成本要素维度成员描述          |
-| 成本对象维度             | 成本的对象维度名称，成本对象维度成员名称，成本对象描述维度成员              |
-| 统计维度             | 统计维度名称，统计维度成员名称，成员描述维度统计              |
-| 成本对象的维度层次结构  | 成本对象的维度层次结构，对象名称成本维度层次结构级别，成本对象树维度层次结构    |
-| 成本要素维度层次结构 | 成本要素维度层次结构成本，名称要素维度层次结构级别成本要素，维度层次树结构 |
-| 统计维度层次结构  | 统计维度层次结构名称，统计维度层次结构级别，统计维度层次树结构    |
+| 成本元素维度            | 成本元素维度名称、成本元素维度成员名称、成本元素维度成员描述          |
+| 成本对象维度             | 成本对象维度名称、成本对象维度成员名称、成本对象维度成员描述              |
+| 统计维度             | 统计维度名称、统计维度成员名称、统计维度成员描述              |
+| 成本对象维度层次结构  | 成本对象维度层次结构名称、成本对象维度层次结构级别、成本对象维度层次结构树    |
+| 成本元素维度层次结构 | 成本元素维度层次结构名称、成本元素维度层次结构级别、成本元素维度层次结构树 |
+| 统计维度层次结构  | 统计维度层次结构名称、统计维度层次结构级别、统计维度层次结构树    |
 | 交易记录版本               | 版本名                                                                                                         |
-| 会计日历                   | 日历，日历描述                                                                                       |
+| 会计日历                   | 日历、日历描述                                                                                       |
 | 会计年度                       | 日历年度                                                                                                        |
 | 会计期间                     | 日历年度期间                                                                                                 |
 
@@ -116,6 +116,6 @@ ms.lasthandoff: 03/31/2017
 -   [创建组织内容包](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [使用 Power BI 的数据建模](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [将 Power BI 磁贴添加到工作区](configure-power-bi-integration.md)
--   [设置成本核算安全内容的 Power BI 的] (成本核算设置安全 pack.md 内容)
+-   [设置成本核算 Power BI 内容的安全](setup-security-cost-accounting-content-pack.md)
 
 

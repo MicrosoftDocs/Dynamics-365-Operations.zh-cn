@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-overview"></a>采购申请概览
 
+[!include[banner](../includes/banner.md)]
+
+
 本文介绍采购申请工作流和采购申请可能具有的不同状态。
 
 根据您的组织的设置，您可以创建您组织使用的产品的采购申请。 采购申请是授权采购部门购买物料或服务的内部文档。  
@@ -48,7 +51,7 @@ ms.lasthandoff: 03/31/2017
 
 下图显示了分配给采购申请和采购申请行的状态（当它们在工作流程中移动时）。  
 
-[![Purchase requisition header and line statuses](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
+[![采购申请标题和行状态](./media/purchasereq_headerline_statuses.jpg)](./media/purchasereq_headerline_statuses.jpg)
 
 ### <a name="purchase-requisition-header-and-line-status-relationships"></a>采购申请标头和行状态关系
 
@@ -77,7 +80,7 @@ ms.lasthandoff: 03/31/2017
 <td>如果已将工作流配置为将采购申请行传送给各个审核者，则每个行都可以具有状态<strong>正在审核</strong>或<strong>已拒绝</strong>。 为所有采购申请行完成了审查流程，而且没有针对采购申请的剩余审查步骤时，将会更新该采购申请状态。
 <ul>
 <li><strong>正在审核</strong> – 已提交采购申请行以供审查。 当为采购申请行完成了工作流流程时，该行将保持为状态<strong>正在审核</strong>，直到审查了所有其余采购申请行。</li>
-<li><strong>拒绝</strong> 拒绝–采购申请行。 拒绝的采购申请行可以修改和重新提交。</li>
+<li><strong>已拒绝</strong> – 已拒绝采购申请行。 已拒绝的采购申请行可以修改和重新提交。</li>
 </ul>
 如果您重新提交已被拒绝的采购申请行，将针对仍处于审核状态的采购申请行中的所有行重新开始审查流程。 <strong>注意：</strong>您可以撤回已提交的采购申请。 当您撤回了某个采购申请时，也撤回了所有其他采购申请行。 可以删除已被撤回的采购申请行。</td>
 </tr>
@@ -133,7 +136,7 @@ ms.lasthandoff: 03/31/2017
 您可以将包括在采购申请中的产品的成本分摊到多个财务科目。 如果您的组织使用维度，如成本中心和部门，则您可以将产品的成本分摊到财务账户的维度。
 
 ## <a name="requisition-purposes"></a>申请用途
-申请用途让履行申请需求的流程更灵活。 在您创建申请时，可以将两个目的之一分配给它：消耗量或补货。 根据和申请目的设置申请，您的组织需求可通过采购订单、转移单、生产订单或看板执行。  
+申请用途让履行申请需求的流程更灵活。 在您创建申请时，可以将两个目的之一分配给它：消耗量或补货。 根据申请用途和您的组织设置，申请需求可通过采购订单、转移单、生产订单或看板履行。  
 
 在采购政策中，当为您的组织创建申请时，您可以控制可用的申请目的。
 
@@ -152,7 +155,7 @@ ms.lasthandoff: 03/31/2017
 ## <a name="purchase-requisitions-and-requests-for-quotation"></a>采购申请和询价
 有时候，您必须开始询价 (RFQ) 流程以确定在采购申请中申请的产品的供应商和价格。 在采购申请正在审核时，可以生成询价。 当您接受出价时，有关供应商、价格等的信息将转移到申请。  
 
-您可通过选中**暂停**复选框可以在采购申请放暂停**详细信息**采购申请页上。 处理采购申请可继续，在通过清除此复选框以删除暂停后立即进行。  
+您可以通过选中**采购申请详细信息**页上的**暂停**复选框来将采购申请置于暂停状态。 处理采购申请只能在您通过清除此复选框删除暂停后继续。  
 
 **注意：**在电子采购中，您的采购申请的询价可能允许供应商添加备选行。 在此情况下，采购申请将反映已审核的备选项。
 
@@ -178,7 +181,7 @@ ms.lasthandoff: 03/31/2017
 
 在工作流中的采购申请审核时，以及如果为您的组织配置了预算控制，记录预算预留和预留款后，将启动要求合并的流程。 下图显示需求合并的流程。  
 
-需求 [] (合并的![流程。/media/demand-consolidation.gif)](。/media/demand-consolidation.gif)  
+[![需求合并的流程流](./media/demand-consolidation.gif)](./media/demand-consolidation.gif)  
 
 若要合并已审核的采购申请行，请执行以下步骤：
 
@@ -192,8 +195,10 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[(创建消耗的任务指南)] 一申请 (https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[创建消耗量申请（任务指南）](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [采购申请工作流](purchase-requisitions-workflow.md)
+
+
 
 

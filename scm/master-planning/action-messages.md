@@ -1,5 +1,5 @@
 ---
-title: "无官方文档"
+title: "未记录"
 description: "行动消息是系统生成的关于更改现有计划订单或确定订单的建议。"
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,7 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="undocumented"></a>无官方文档
+# <a name="undocumented"></a>未记录
 
 行动消息是系统生成的关于更改现有计划订单或确定订单的建议。
 

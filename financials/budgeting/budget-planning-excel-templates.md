@@ -1,6 +1,6 @@
 ---
-title: "预算的 Excel 计划模板"
-description: "此主题描述如何创建可与预算计划的 Microsoft Excel 模板。"
+title: "预算计划的 Excel 模板"
+description: "此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,102 +24,107 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="budget-planning-templates-for-excel"></a>预算的 Excel 计划模板
+# <a name="budget-planning-templates-for-excel"></a>预算计划的 Excel 模板
 
-此主题描述如何创建可与预算计划的 Microsoft Excel 模板。
+[!include[banner](../includes/banner.md)]
 
-本主题说明如何创建使用标准演示数据集和管理员用户，将使用登录与预算计划的 Excel 模板。 有关预算计划的详细信息，请参阅预算计划的概览。[] (预算计划概览 configuration.md) 您还可以按照 [101] (预算计划的基本了解模块配置和使用预算的原则 plan.md 教程)。
 
-## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>使用预算计划文档的布局，生成工作表
-使用一个或多个布局，预算计划文档可以查看和编辑的。 每个布局可以具有一个关联的编辑预算计划文档模板和查看将 Excel 工作表的预算计划数据。 使用现有的布局配置，{{在此：In}}主题，预算计划文档模板生成。 **打开预算计划列出** ** (预算**&gt; ** **预算计划)。 **单击新**创建一个新的预算计划文档。 [] (![bpt1。/media/bpt11-1024x552.png)](。/media/bpt11.png) 
+此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。
 
-** **使用添加行"选项添加行。 **查看预算计划文档的布局配置单击**布局。 
-[] (![bpt2。/media/bpt2-1024x274.png)](。/media/bpt2.png) 
+此主题显示如何使用标准演示数据集和 Admin 用户登录创建可用于预算计划的 Excel 模板。 有关预算计划的详细信息，请参阅[预算计划概览](budget-planning-overview-configuration.md)。 也可以按照[预算计划 101](budget-plan.md) 教程了解基本模块配置和使用原则。
 
-您可以查看和调整布局配置它根据需要。 **转到模板** &gt; ** **则生成创建此布局的 Excel 文件。 在模板生成后，是**模板** &gt; **视图**打开和查看预算计划文档模板。 您可以保存该 Excel 文件。您当地的驱动器。 [] (![bpt3。/media/bpt3-1024x545.png)](。/media/bpt3.png) 
+## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>使用预算计划文档布局生成工作表
+可使用一种或多种布局查看和编辑预算计划文档。 每种布局可以有一个关联预算计划文档模板，用于使用 Excel 工作表查看和编辑预算计划数据。 在此主题中，将使用现有布局配置生成预算计划文档模板。 打开**预算计划列表**（**预算编制**&gt; **预算计划**）。 单击“新建”****创建新的预算计划文档。 [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-> [!NOTE] 
-> 在 Excel 模板与后，预算计划文档的布局不能编辑。 若要修改布局，请删除与 Excel 模板文件和成重新生成它。 这在同步的工作表布局和需要保留字段。 
+使用**添加**行选项添加行。 单击**布局**查看预算计划文档布局配置。 
+[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-Excel 模板将包含所有从预算计划文档的布局，**元素可用于列将工作表** true。 重叠元素在 Excel 模板不允许。 例如，布局包含，如果请求 Q1，请求，Q3 Q2 请求和请求 Q4 列和季度 4 表示所有列的一个总额的总计列，则请求，每季度列"列提供使用 Excel 模板。 因为数据表中可能也就废弃和不精确，Excel 文件不能重叠时更新列在更新期间。
-
-[] (![bpt4。/media/bpt4-1024x615.png)](。/media/bpt4.png)
+可以检查布局配置并根据需要调整。 转至**模板** &gt; **生成**，为该布局生成一个 Excel 文件。 生成模板之后，转至**模板** &gt; **查看**以打开并检查预算计划文档模板。 可将该 Excel 文件保存到本地驱动器。 [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
 
 > [!NOTE] 
-> 使用 Excel，为了避免与查看和编辑预算计划数据的潜在问题，同一用户应将记录到工序的 Dynamics 365 和 Microsoft Dynamics Office 扩展数据连接器程序。
+> 为预算计划文档布局关联 Excel 模板之后，不能编辑该布局。 若要修改此布局，请删除关联的 Excel 模板文件并重新生成。 若要让布局中的字段和工作表中的字段保持同步，需执行此操作。 
 
-## <a name="add-a-header-to-budget-plan-document-template"></a>表头添加到预算计划文档模板
-若要添加页眉信息，请选择在 Excel 文件的顶行并插入空白行。 **单击 Design ** **在数据连接器**添加页眉字段到的 Excel 文件。
+该 Excel 模板中将包含预算计划文档模板中的所有元素，其中的**在工作表中可用**列设置为 True。 Excel 模板中不允许重叠元素。 例如，如果布局中包含 Request Q1、Request Q2、Request Q3 和 Request Q4 列，以及表示所有 4 个季度列总和的请求总计列，则只能在 Excel 模板中使用季度列或总计列。 更新期间，此 Excel 文件不能更新重叠列，因为表中的数据可能超出日期范围，因此不精确。
 
-[] (![bpt5。/media/bpt5-1024x615.png)](。/media/bpt5.png) 
+[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
-** Design **在选项卡上，依次单击** ** ** **添加字段，然后选择 BudgetPlanHeader ** **为实体数据源。
+> [!NOTE] 
+> 若要避免使用 Excel 查看和编辑预算计划数据时可能出现问题，应使用相同用户登录 Dynamics 365 for Operations 和 Microsoft Dynamics Office 加载项数据连接器。
 
-[] (![bpt6。/media/bpt6-1024x615.png)](。/media/bpt6.png)
+## <a name="add-a-header-to-budget-plan-document-template"></a>为预算计划文档模板添加标题
+若要添加标题信息，请选择 Excel 文件中的首行，然后插入空行。 单击**数据连接器**中的**设计**向 Excel 文件添加标题字段。
 
-利游标到 Excel 文件的所需位置。 **字段添加标签的单击**标签添加到所选的库位。 **选择添加值**添加值字段到所选位置。 **单击"完成**设计器关闭。
+[![bpt5](./media/bpt5-1024x615.png)](./media/bpt5.png) 
 
-## <a name="bpt7mediabpt7pngmediabpt7png"></a>[] (![bpt7。/media/bpt7.png)](。/media/bpt7.png)
+在**设计**选项卡中，单击**添加**字段，然后选择 **BudgetPlanHeader** 作为实体数据源。
 
-<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>添加一计算列到预算计划文档表模板
+[![bpt6](./media/bpt6-1024x615.png)](./media/bpt6.png)
+
+将光标指向 Excel 文件中的所需位置。 单击**添加标签**向所选位置添加字段标签。 选择**添加值**向所选位置添加值字段。 单击**确定**关闭该设计器。
+
+## <a name="bpt7mediabpt7pngmediabpt7png"></a>[![bpt7](./media/bpt7.png)](./media/bpt7.png)
+
+<a name="add-a-calculated-column-to-budget-plan-document-template-table"></a>向预算计划文档模板表添加计算列
 --------------------------------------------------------------
 
-接下来，计算列将添加到生成的预算计划文档模板。 **请求**总 A 列，汇总 Q1 请求：请求 Q4 列和**列，根据调整**一个预定义的系数**重新计算总请求**列。
+接下来，将把计算列添加到生成的预算计划文档模板。 一个**请求总计**列，用于计算 Request Q1 到 Request Q4 列之和，以及一个**调整**列，用于按预定义的系数重新计算**请求总数**列。
 
-**单击 Design ** **在数据 Connector **添加列到的表。 单击** **编辑。BudgetPlanWorksheet ** **启动添加的数据源旁边的列。
+单击**数据连接器**中的**设计**向表添加列。 单击 **BudgetPlanWorksheet** 数据源旁边的**编辑**开始添加列。
 
-[] (![bpt8。/media/bpt8-1024x301.png)](。/media/bpt8.png) 
+[![bpt8](./media/bpt8-1024x301.png)](./media/bpt8.png) 
 
-所选字段组显示可用模板中的列。 **添加一个新列的**单击"配方"。 给定新列然后将其粘贴配方**到配方**字段。 ** **单击插入列的更新。
+所选字段组将显示模板中的可用列。 单击**公式**添加新列。 为新列命名，然后将公式粘贴到**公式**字段中。 单击**更新**以插入该列。
 
-[] (![bpt12。/media/bpt12-1024x565.png)](。/media/bpt12.png)
+[![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> 若要定义配方，创建在电子表格的配方，然后复制到** **设计窗口。 工序必须表的 Dynamics 365。通常称作“AXTable1”。 例如，汇总 Q1 请求：请求 Q4 在电子表格中，AxTable1 公式=\[请求\]Q1 +AxTable1 请求\[Q2\]+AxTable1\[请求 Q3\]+AxTable1\[请求 Q4\]列。
+> 若要定义公式，请在电子表格中创建公式，然后将其复制到**设计**窗口中。 Dynamics 365 for Operations 绑定表通常命名为“AXTable1”。 例如，若要计算电子表格中的 Request Q1 到 Request Q4 列之和，则公式 = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]。
 
-重复上述步骤插入**调整**列。 中此列所使用公式= AxTable1\[合计\]请求\*$I$1。 这将采取的单元格中的 I1 值并乘以**的请求**请在列的值计算调整金额。
+重复此步骤以插入**调整**列。 为此列使用公式 = AxTable1\[Total request\]\*$I$1。 这将提取单元格 I1 中的值并乘以**请求总数**列中的值，以计算调整金额。
 
-保存然后关闭该 Excel 文件。 后退工序的 Dynamics 365，和布局** **，单击**模板 &gt; 上载**上载为预算规划使用的保存的 Excel 模板。 
+保存然后关闭该 Excel 文件。 返回 Dynamics 365 for Operations，然后在**布局**中，单击**模板 &gt; 上传**，上传要用于预算计划的所保存 Excel 模板。 
 
-[] (![bpt10。/media/bpt10-1024x352.png)](。/media/bpt10.png) 
+[![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 
-**关闭布局**滑块。 **在预算计划文档，** **查看和编辑将在 Excel 的单据单击**工作表。 注意调整的 Excel 模板用于创建此预算计划工作表，还计算更新列使用上面步骤定义的配方。 
+关闭**布局**滑块。 在**预算计划**文档中，单击**工作表**，以便在 Excel 中查看和编辑文档。 请注意，此预算计划工作表是使用调整后的 Excel 模板创建的，并使用在前面的步骤中定义的公式更新计算列。 
 
-[] (![bpt11。/media/bpt111-1024x431.png)](。/media/bpt111.png)
+[![bpt11](./media/bpt111-1024x431.png)](./media/bpt111.png)
 
-## <a name="tips--tricks-for-creating-budget-plan-templates"></a>用于创建计划打翻和欺骗预算模板
-### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>我和添加可用于附加数据源到预算计划模板？
+## <a name="tips--tricks-for-creating-budget-plan-templates"></a>有关如何创建预算计划模板的提示和技巧
+### <a name="can-i-add-and-use-additional-data-sources-to-a-budget-plan-template"></a>是否可以为预算计划模板添加和使用更多数据源？
 
-是，您可以使用** Design **添加菜单的到同一记分卡或其他实体在 Excel 模板的其他表。 例如，您可以添加 BudgetPlanProposedProject ** **数据源同时创建和维护一建议的项目列表，在进行在 Excel 中的数据。使用预算计划。 注意，包括容积大数据源可能会影响性能的 Excel 工作簿。 
+可以，可以使用**设计**菜单向 Excel 模板中的同一个或其他工作表添加更多实体。 例如，可以添加 **BudgetPlanProposedProject** 数据源，以便在 Excel 中处理预算计划数据的同时，创建和维护一列建议的项目。 请注意，包含大量数据源可能影响 Excel 工作簿的性能。 
 
-在可以使用这个** **筛选器选项**数据连接器**预期添加到筛选器附加数据源。
+可使用**数据连接器**中的**筛选器**选项向更多数据源添加所需筛选器。
 
-### <a name="can-i-hide-the-design-option-in-the-data-connector-for-other-users"></a>我可以隐藏在数据 Connector Design 选项的其他用户的？
+### <a name="can-i-hide-the-design-option-in-the-data-connector-for-other-users"></a>是否可以在数据连接器中对其他用户隐藏“设计”选项？
 
-"是"，请打开**数据连接器**隐藏选项从其他用户的** Design **选项。
+可以，请打开**数据连接器**选项，以便对其他用户隐藏**设计**选项。
 
-[] (![bpt13。/media/bpt13-1024x565.png)](。/media/bpt13.png)
+[![bpt13](./media/bpt13-1024x565.png)](./media/bpt13.png)
 
-**扩展数据连接选项**符和兑现**启用设计**复选框。 这将隐藏从的** Design **选项** Connector **数据。
+展开**数据连接器选项**并清除**启用设计**复选框。 这将在**数据连接器**中隐藏**设计**选项。
 
-[] (![bpt14。/media/bpt14-1024x592.png)](。/media/bpt14.png)
+[![bpt14](./media/bpt14-1024x592.png)](./media/bpt14.png)
 
-### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>我可以防止用户意外数据关闭 Connector，在进行数据时？
+### <a name="can-i-prevent-users-from-accidently-closing-the-data-connector-while-working-with-data"></a>是否可以阻止用户在处理数据时意外关闭数据连接器？
 
-我们建议尽可能锁定模板会阻止用户关闭它。 若要启动锁，请单击**数据 Connector **，在右上角的箭头将显示。 
+我们建议锁定模板，以防用户将其关闭。 若要开启锁定，请单击**数据连接器**；将在右上角显示一个箭头。 
 
-[] (![bpt15。/media/bpt15-1024x285.png)](。/media/bpt15.png) 
+[![bpt15](./media/bpt15-1024x285.png)](./media/bpt15.png) 
 
-单击其他的菜单中的箭头。 **锁定**选择。
+单击箭头以再显示一个菜单。 选择**锁定**。
 
-### <a name="bpt16mediabpt16-1024x614pngmediabpt16png"></a>[] (![bpt16。/media/bpt16-1024x614.png)](。/media/bpt16.png)
+### <a name="bpt16mediabpt16-1024x614pngmediabpt16png"></a>[![bpt16](./media/bpt16-1024x614.png)](./media/bpt16.png)
 
-### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>我可以使用任何其他功能，例如 Excel 单元格格式、颜色、条件格式和图表。我的预算计划模板？
+### <a name="can-i-use-other-excel-features-like-cell-formatting-colors-conditional-formatting-and-charts-with-my-budget-plan-templates"></a>是否可以在我的预算计划模板中使用其他 Excel 功能，如单元格格式、颜色、条件格式和图表？
 
-大多数是标准 Excel 功能在预算计划模板将工作。 我们建议使用用户的颜色编码可以区分为只读和可编辑的各列之间。 条件格式可用于查看突出预算的有问题的区域。 使用创建表中，列的 Excel 的标准配方可以轻松地存在。
+可以，预算计划模板中支持大多数标准的 Excel 功能。 我们建议使用颜色编码，以便用户区分只读列和可编辑列。 可使用条件格式突出显示预算的问题区域。 可通过使用标准 Excel 公式在表上方轻松表示列总计。
 
-您还可以为附加分组 (创建和使用预算数据中的数据透视表和图表和可视化项。 **在数据** **在"连接**组中，请单击选项卡上，请刷新所有** **，然后单击**属性**连接。 **使用**单击选项卡。 **在刷新**，请选择**数据，请刷新当打开文件**选中此复选框。 
+还可以为预算数据的更多分组和可视化创建和使用透视表和图表。 在**数据**选项卡上的**连接**组中，单击**全部刷新**，然后单击**连接属性**。 单击**用法**选项卡。 在**刷新**下，选中**打开文件时刷新数据**复选框。 
 
-[] (![bpt17。/media/bpt17-1024x614.png)](。/media/bpt17.png)
+[![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "呼叫中心功能"
-description: "文章此工序为在 Microsoft Dynamics 365 呼叫中心销售功能中提供的概览。"
+description: "本文提供 Microsoft Dynamics 365 for Operations 中呼叫中心销售功能的概览。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16361
 ms.assetid: c8ed2ba4-8d06-4d99-9728-2a83e6d95ca9
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="call-center-functionality"></a>呼叫中心功能
 
-文章此工序为在 Microsoft Dynamics 365 呼叫中心销售功能中提供的概览。
+[!include[banner](includes/banner.md)]
 
-Microsoft Dynamics AX 中的“零售和商业”支持呼叫中心作为一种零售渠道。 在呼叫中心，工作人员通过电话从客户那儿接单并创建销售订单。 呼叫中心功能包括旨在简化接收电话订单并通过订单填写流程处理客户服务。 例如，在订单之前，提交，呼叫中心输入付款信息工作人员直接为销售订单，并且可以查看费用和付款的详细信息。 工作人员还可以控制定价，以及在**“销售订单”**页中访问有关客户、产品和价格的各种数据。 此外，呼叫中心也增强了跟踪客户历史记录和订单状态的功能。 每个呼叫中心可以拥有自己的用户、付款方式、价格组、财务维度和交货方式。 当您创建呼叫中心时，可以配置这些选项。 此外，您还可以使用**“呼叫中心”**页来启用或禁用对呼叫中心唯一的以下功能组：
+
+本文提供 Microsoft Dynamics 365 for Operations 中呼叫中心销售功能的概览。
+
+Microsoft Dynamics AX 中的“零售和商业”支持呼叫中心作为一种零售渠道。 在呼叫中心，工作人员通过电话从客户那儿接单并创建销售订单。 呼叫中心功能包括旨在简化接收电话订单并通过订单填写流程处理客户服务。 例如，呼叫中心员工可直接将付款信息输入到销售订单，并可以在提交订单前查看费用和付款的详细摘要。 工作人员还可以控制定价，以及在**“销售订单”**页中访问有关客户、产品和价格的各种数据。 此外，呼叫中心也增强了跟踪客户历史记录和订单状态的功能。 每个呼叫中心可以拥有自己的用户、付款方式、价格组、财务维度和交货方式。 当您创建呼叫中心时，可以配置这些选项。 此外，您还可以使用**“呼叫中心”**页来启用或禁用对呼叫中心唯一的以下功能组：
 
 -   **订单完成** - 此组包括与**“销售订单”**页上的付款和订单完成相关的功能。
 -   **直接销售** - 此组包括与源代码、脚本和目录请求相关的功能。
@@ -44,6 +47,8 @@ Microsoft Dynamics AX 中的“零售和商业”支持呼叫中心作为一种�
 -   销售员可将零售商添加优惠券到订单。
 -   销售员可销售连续性计划。
 -   可以手动或自动暂停订单，以指示需要先进行额外调查才能处理订单。
+
+
 
 
 

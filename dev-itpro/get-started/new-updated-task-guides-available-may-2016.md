@@ -1,6 +1,6 @@
 ---
-title: "新建或更新任务指南 (5 月 2016)"
-description: "文章列出此发放到 Microsoft Dynamics AX 的 Microsoft 新的或更新任务指南 (2016 年 5 月-所有语言) APQC 统一的库。 没有发布新入门库。"
+title: "新的或更新任务指南（2016 年 5 月）"
+description: "本文列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 5 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-may-2016"></a>新建或更新任务指南 (5 月 2016)
+# <a name="new-or-updated-task-guides-may-2016"></a>新的或更新任务指南（2016 年 5 月）
 
-文章列出此发放到 Microsoft Dynamics AX 的 Microsoft 新的或更新任务指南 (2016 年 5 月-所有语言) APQC 统一的库。 没有发布新入门库。 
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[] () 在" Microsoft Dynamics AX (2016 年 5 月-所有语言) APQC 统一的库中分摊指南
+
+本文列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 5 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。 
+
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 5 月 - 所有语言）
 ------------------------------------------------------------------------------------------------
 
-(5 月 2016) APQC 统一的库包含真实与 Microsoft Dynamics AX 为 5 月 2016 更新和 Microsoft Dynamics AX 2016 年 2 月的帮助使用的任务指南。 在任务指南的本地化版本 2016 (二月) APQC 统一的库中的发放{{在此：in}}库中使用。 有关连接方式帮助系统的详细信息。库请参阅任务指南，请以帮助 [] (帮助 overview.md)。 **注释：**一个星号 (\*** **) 的业务流程建模器 (BPM) 的标题行旁边指示该业务流程的任务指南 Dynamics AX 为 5 月\*来更新在 Microsoft Dynamics AX 早期版本创建和不支持。
+（2016 年 5 月）APQC 标准库包含旨在用于帮助 Microsoft Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月发布的任务指南。 （2016 年 2 月）APQC 标准库中发布的任务指南的本地化版本在此库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。 **注意**︰业务流程建模器 (BPM) 行的标题旁边的星号 (**\***) 表示该业务流程的任务指南是为 Dynamics AX 2016 年 5 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。
 
 ### <a name="countryregion-functionality"></a>国家/地区功能
 
@@ -65,7 +68,7 @@ ms.lasthandoff: 03/31/2017
 | ER 设计以 OPENXML 格式生成报表的配置         | 全局         |
 | ER 使用格式配置生成付款的电子单据 | 全局         |
 | ER 从 Lifecycle Services 导入配置                          | 全局         |
-| **\***ER Select service provider                                           | 全局         |
+| **\***ER 选择服务提供商                                           | 全局         |
 | ER 通过采用该格式的新的基本版本升级格式      | 全局         |
 | ER 上载配置到 Lifecycle Services                          | 全局         |
 
@@ -126,7 +129,7 @@ ms.lasthandoff: 03/31/2017
 | BPM line / 磁墨字符识别行                                                 | 国家/地区 |
 |----------------------------------------------------------|----------------|
 | 创建新产品                                     | 全局         |
-| 创建。财务维度\ \基于维度配置                    | 全局         |
+| 创建 ..\财务维度\基于维度的配置                    | 全局         |
 | 创建预定义的产品变型                       | 全局         |
 | 创建销售价选择条件                    | 全局         |
 | 输入可配置产品的订单                   | 全局         |
@@ -176,22 +179,24 @@ ms.lasthandoff: 03/31/2017
 | BPM line / 磁墨字符识别行                                                            | 国家/地区 |
 |---------------------------------------------------------------------|----------------|
 | 配置波次处理                                           | 全局         |
-| **请\***报告为已完工入库的非牌照许可证受控制位置 | 全局         |
+| **\***完工入库到非牌照控制的库位 | 全局         |
 | 设置最小-最大补货流程                              | 全局         |
 | 设置集装化                                             | 全局         |
 | 设置手动包装                                               | 全局         |
 | 设置物料的运输约束                       | 全局         |
-| **\***Set up warehouse work policies                                | 全局         |
+| **\***设置仓库工作策略                                | 全局         |
 
 
 
 <a name="see-also"></a>请参阅
 --------
 
-[新任务指南 2016] (二月)(新任务指南可用 2 月 2016.md)
+[新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
 
-[或更新新任务指南 (8 月 2016)](新更新任务指南威严可用 2016.md)
+[新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
 
-[或更新新任务指南)] (2016 年 11 月 (新任务指南 2016.md 11 月)
+[新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
+
+
 
 

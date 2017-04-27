@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="configure-the-properties-of-a-workflow"></a>配置工作流的属性
 
+[!include[banner](../includes/banner.md)]
+
+
 本主题说明如何配置工作流的各个属性。
 
 要配置工作流的属性，在工作流编辑器中打开工作流。 单击工作流编辑器的画布，并随后单击**属性**以打开**属性**页面。 然后可以使用以下过程配置工作流的各个属性。
@@ -147,10 +150,10 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>工序的特定用户 Dynamics 365</td>
+    <td>特定 Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在<strong>接收人</strong>选项卡上，单击<strong>用户</strong>。</li>
-    <li>在 <strong>用户</strong> " <strong>可用的用户</strong> "选项卡上，包括工序列表用户的所有 Dynamics 365。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
+    <li>在<strong>用户</strong>选项卡上，<strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
     </ol></td>
     </tr>
     </tbody>
@@ -165,6 +168,8 @@ ms.lasthandoff: 03/31/2017
 2.  在**输入有关工作流的注释**字段中，输入注释。
 3.  请查看您的注释。 在添加注释后，您不能修改注释。
 4.  单击**添加**将注释添加到**注释历史记录**区域。
+
+
 
 
 

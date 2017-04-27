@@ -1,6 +1,6 @@
 ---
 title: "试算平衡表财务报表"
-description: "文章此描述默认试算平衡表的报表。 它还描述与这些报表的构建基块，以及如何可以修改报表满足您的业务要求。"
+description: "本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 
-文章此描述默认试算平衡表的报表。 它还描述与这些报表的构建基块，以及如何可以修改报表满足您的业务要求。 
+[!include[banner](../includes/banner.md)]
+
+
+本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。 
 
 <a name="default-trial-balance-reports"></a>默认试算平衡表
 -----------------------------
@@ -51,7 +54,7 @@ ms.lasthandoff: 03/31/2017
 
 ### <a name="row-definition"></a>行定义
 
-行定义，试算平衡表–默认，使用包含所有主科目的一个行。 因此，任何人都可以生成报表，而不必进行任何修改。 在您查看报表时，您深化到单个行可以查看有关每个科目的详细信息。 您可以修改行定义，以便包括更多详细信息。 若要修改“试算平衡表 – 默认”行定义，以便包括所有科目的行，请执行以下步骤。
+行定义，试算平衡表 – 默认，包含拉取所有主科目的单行 因此，任何人都可以生成报表，而不必进行任何修改。 在您查看报表时，您深化到单个行可以查看有关每个科目的详细信息。 您可以修改行定义，以便包括更多详细信息。 若要修改“试算平衡表 – 默认”行定义，以便包括所有科目的行，请执行以下步骤。
 
 1.  单击**编辑**，然后单击**从维度插入行**。 **从维度插入行**命令允许您选择希望哪些维度在您的行定义中。 对于此行定义，则使用**主科目**。
 2.  确保**主科目**包含所有符号 (&)，然后单击**确定**。
@@ -100,10 +103,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[财务申报](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[查看财务报表](view-financial-reports.md)
 
-[] (博客 Dynamics 财务报告 http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics 财务申报博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="project-contracts"></a>项目合同
 
+[!include[banner](../includes/banner.md)]
+
+
 本文举例说明可以为不同类型的项目和融资来源创建的项目合同，以及如何在 Microsoft Dynamics 365 for Operations 中管理合同和发票项目客户。
 
 为项目合同所创建项目的类型会确定用于向项目客户开票的方法。 您可以更改项目合同和相关的项目，但不能更改项目类型。 
@@ -80,7 +83,7 @@ ms.lasthandoff: 03/31/2017
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><strong>Scenario</strong></td>
+<td><strong>方案</strong></td>
 <td><strong>融资来源</strong></td>
 <td><strong>分配百分比</strong></td>
 <td><strong>分配优先级</strong></td>
@@ -192,7 +195,7 @@ ms.lasthandoff: 03/31/2017
 <tbody>
 <tr class="odd">
 <td><strong>焦点</strong></td>
-<td><strong>Details</strong></td>
+<td><strong>详细信息</strong></td>
 </tr>
 <tr class="even">
 <td>融资规则</td>
@@ -220,16 +223,16 @@ ms.lasthandoff: 03/31/2017
 </tr>
 <tr class="odd">
 <td>交易记录 2</td>
-<td><strong>交易记录金额：</strong> 5,000.00<strong>投资：</strong> 交易记录所有三规则是根据付薪。<strong>序列 1</strong>
+<td><strong>交易记录金额：</strong>5,000.00<strong>融资： </strong>交易记录将根据所有三个规则支付。<strong>规则 1</strong>
 <ul>
 <li>融资来源 2：450.00</li>
 <li>融资来源 3：450.00</li>
 </ul>
-<strong>序列 2</strong>
+<strong>规则 2</strong>
 <ul>
 <li>融资来源 3：250.00 (= 750.00 – 50.00 – 450.00)</li>
 </ul>
-<strong>序列 3</strong>
+<strong>规则 3</strong>
 <ul>
 <li>融资来源 1：3,850.00 (= 5,000.00 – 450.00 – 450.00 – 250.00)</li>
 </ul></td>
@@ -339,5 +342,7 @@ ms.lasthandoff: 03/31/2017
 -   在项目进行过程中，您在每个日历月末创建客户发票。
 
 在第一个月期间，由该项目的顾问记录总计 800 个小时。 向项目收取的办公用品成本为 2,000。 因此，在本月底，创建了 122,000 的发票：以 800 个小时，每小时 150 进行计算，外加 2,000 的办公用品费用。
+
+
 
 

@@ -36,9 +36,9 @@ Microsoft Dynamics 365 for Operations 具有某些较为复杂的字段的描述
 如果您有权访问 Dynamics 365 for Operations 开发环境，则可添加新字段描述并自定义现有描述。 例如，您可以添加特定于公司的信息到字段描述。 有关详细信息，请参阅[自定义字段帮助](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)。
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>参阅用户界面的字段描述
-您可以通过将鼠标悬停到字段上查看字段描述。 如果没有提供描述，当您将鼠标悬停在字段上时将看到字段名。 (注释：在"版本 7.0.0，字段描述在**字段描述**页可以仅显示。) 下图显示出现的字段描述在您为"柔性"键盘**在盘点期间锁定物料**字段。 
+您可以通过将鼠标悬停到字段上查看字段描述。 如果没有提供描述，当您将鼠标悬停在字段上时将看到字段名。 （注意：在版本 7.0.0 中，仅可在**字段描述**页上查看字段描述。）下面的插图显示将鼠标悬停在**盘点期间锁定物料**字段上时将显示的字段描述。 
 
-[字段的描述![] (示例。/media/field-description.png)](。/media/field-description.png)
+[![字段描述的示例](./media/field-description.png)](./media/field-description.png)
 
 ## <a name="use-the-field-descriptions-page-to-view-and-export-field-help"></a>使用字段说明页查看和导出字段帮助
 **字段描述**页允许查看和导出字段描述。 您可以一次查看一页的可用描述。
@@ -73,7 +73,7 @@ Microsoft Dynamics 365 for Operations 具有某些较为复杂的字段的描述
     -   如果有多个精确匹配，则不显示描述。 您必须打开下拉列表并选择所需的网页。
     -   如果您键入的名称是另一个页面的名称的一部分，您会看到您的页面的描述。 但是，如果打开下拉列表，您将看到包含该名称的其他页面。
 
-例如，未描述显示，在您输入时**** **盘点**选择页****字段。 您打开下拉列表，将看到具有名称**盘点**的两个页面，以及名称中包含字词“盘点”的若干页面。 如果选择 AOT 名称为 **InventJournalCount** 的页，将显示该页的字段描述。 但是，如果再次打开下拉列表，将看到列表中现在包含 AOT 名中包含“InventJournalCount”的所有页。
+例如，当您在 ****选择页面**** 字段键入**盘点**时，将不显示描述。 您打开下拉列表，将看到具有名称**盘点**的两个页面，以及名称中包含字词“盘点”的若干页面。 如果选择 AOT 名称为 **InventJournalCount** 的页，将显示该页的字段描述。 但是，如果再次打开下拉列表，将看到列表中现在包含 AOT 名中包含“InventJournalCount”的所有页。
 
 ## <a name="troubleshooting"></a>疑难解答
 此部分提供的信息帮助您解决使用字段描述页时可能遇到的问题。

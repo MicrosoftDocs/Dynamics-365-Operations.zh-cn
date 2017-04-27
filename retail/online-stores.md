@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16161
 ms.assetid: 646d560c-f856-4701-b4ca-44e357ef09b8
 ms.search.region: Global
@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 ---
 
 # <a name="online-store-overview"></a>在线商店概述
+
+[!include[banner](includes/banner.md)]
+
 
 本文提供有关 Retail 在线商店以及如何在 Microsoft Dynamics 365 for Operations 中设置它们的信息。
 
@@ -50,5 +53,7 @@ Dynamics 365 for Operations 中的“零售和商业”支持多个零售渠道�
 
 ## <a name="organization-hierarchies"></a>组织层次结构
 组织层次结构用于构造零售渠道。 组织层次结构表示构成贵企业组织之间的关系。 设置在线商店时，您可以将这些商店添加到组织层次结构。 然后，商店共享用于分类、补货和报告的数据。 在您创建某一组织层次结构时，将目标分配给它。 目标指示层次结构如何在业务结构中使用。 您可以为商店运营创建一个组织层次结构，并使用层次结构为您的商店分类、补货和报告。 或者，您可以为每个目标创建单独的组织层次结构。 您还可以创建具有相同目标的多个层次结构，然后将单独渠道分配给每个层次结构。 如果您计划将零售产品目录发布到在线商店，则您应该至少将在线商店添加到组织层次结构中以便进行分类。 目录中的产品是从分配给在线商店的分类中选择的。 发布目录时，发布流程会将分配给在线商店的分类的有效日期与目录中包括的产品作比较，以便确定要使哪些产品在在线商店中可用。
+
+
 
 

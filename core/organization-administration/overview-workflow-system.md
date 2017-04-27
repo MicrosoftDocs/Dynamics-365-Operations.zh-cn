@@ -1,6 +1,6 @@
 ---
-title: "工作流系统的概览"
-description: "文章此工序中 Microsoft Dynamics 365 中描述工作流系统。"
+title: "工作流系统概览"
+description: "本文介绍了 Microsoft Dynamics 365 for Operations 中的工作流系统。"
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,9 +24,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="workflow-system-overview"></a>工作流系统的概览
+# <a name="workflow-system-overview"></a>工作流系统概览
 
-文章此工序中 Microsoft Dynamics 365 中描述工作流系统。
+[!include[banner](../includes/banner.md)]
+
+
+本文介绍了 Microsoft Dynamics 365 for Operations 中的工作流系统。
 
 <a name="what-is-workflow"></a>什么是工作流？
 -----------------
@@ -34,7 +37,7 @@ ms.lasthandoff: 03/31/2017
 术语*工作流*可以通过两种方式定义：作为系统和作为业务流程。
 ### <a name="workflow-is-a-system"></a>工作流是一个系统
 
-"工作流"是使用安装与工序的 Dynamics 365，并在应用程序对象服务器 (AOS) 上运行的系统。 使用工作流系统提供的功能，您可以创建单独的工作流或业务流程。
+工作流是随 Dynamics 365 for Operations 一起安装，并且在应用程序对象服务器 (AOS) 上运行的系统。 使用工作流系统提供的功能，您可以创建单独的工作流或业务流程。
 
 ### <a name="workflow-is-a-business-process"></a>工作流是一个业务流程
 
@@ -46,6 +49,7 @@ ms.lasthandoff: 03/31/2017
 -   **一致的流程** - 您可定义处理特定文档（如采购申请和支出报表）的方法。 通过使用工作流系统，您可以确保以一致且有效的方式来处理和审核文档。
 -   **流程可见性** - 您可跟踪工作流实例的状态、历史记录和绩效指标。 这帮助您确定是否需要对该工作流做出更改，以提高效率。
 -   **工作列表集中化** - 用户可以查看集中化的工作列表，该列表显示分配给他们的工作流任务和审核任务。
+
 
 
 

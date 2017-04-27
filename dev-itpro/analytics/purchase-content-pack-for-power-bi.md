@@ -1,6 +1,6 @@
 ---
-title: "采购花费分析 Power BI 的内容"
-description: "此主题描述在 Microsoft Power BI 的内容包采购花费分析中。 该说明如何访问在内容包包括的报表，并提供有关用于创建内容包的数据模型和实体的信息。"
+title: "采购支出分析 Power BI 内容"
+description: "此主题描述 Microsoft Power BI 的采购支出分析内容包中的内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 2016-12-30 09 - 40 - 51
@@ -24,23 +24,23 @@ ms.lasthandoff: 03/29/2017
 
 ---
 
-# <a name="purchase-spend-analysis-power-bi-content"></a>采购花费分析 Power BI 的内容
+# <a name="purchase-spend-analysis-power-bi-content"></a>采购支出分析 Power BI 内容
 
-此主题描述在 Microsoft Power BI 的内容包采购花费分析中。 该说明如何访问在内容包包括的报表，并提供有关用于创建内容包的数据模型和实体的信息。
+此主题描述 Microsoft Power BI 的采购支出分析内容包中的内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。
 
 <a name="overview"></a>概览
 --------
 
-Microsoft Power BI 的内容包采购花费分析为该负责采购预算经理和经理用于创建。 它用于帮助他们注视密切采购成本的。 为某工序使用从 Microsoft Dynamics 365 的采购交易记录数据，并按供应商和提供产品采购公司范围形象中的合计视图和采购成本细分。 在报表热点随着时间的推移花费的采购将更改。 因此，它们可用于告知有关正值和负值花费趋势的经理单独供应商和产品的。 图表显示不同的采购类别和供应商组的采购成本。 类别和地区经理可能会大有使用这些图表帮助标识在成本行为的变化。 内容包允许采购经理，并负责以下预算的方法：采购经理花费的分析
+Microsoft Power BI 的采购支出分析内容包是为采购经理和负责预算的经理创建的。 它用于帮助他们密切关注采购支出。 它使用来自 Microsoft Dynamics 365 for Operations 的采购交易数据，并且同时提供公司范围的采购数据聚合视图和按供应商与产品分类的采购支出分解。 报表突出显示一段时间的采购支出变化。 因此，可将其用于提醒经理有关单个供应商和产品的正负支出趋势的信息。 图表显示不同采购类别和供应商组的采购支出。 目录和区域经理可能发现这些图表非常有用，可用于帮助识别支出行为的变化。 采购经理和负责预算的经理可使用此内容包按照以下方式分析采购支出：
 
--   年初至今采购 (按供应商组和个体供应商、采购类别和产品和个体供应商位置)
--   连续多年的采购将更改 (按供应商组类别和采购)
+-   本年迄今的采购（按供应商组和单个供应商、采购类别和单个产品，以及供应商位置）
+-   各年的采购变化（按供应商组和采购类别）
 
 ## <a name="accessing-the-content-pack"></a>访问内容包
-采购花费分析内容包在 Microsoft Dynamics Lifecycle Services (LCS) 过帐为实施资产，可以来自运营的 Microsoft Dynamics (LCS) 访问。 有关如何访问打开和 Power BI 报表的详细信息，请参阅在 [LCS 的 Power BI 的内容是从 Microsoft 和您的合作伙伴] (Microsoft partners.md BI 的内容。)
+“采购支出分析”内容包发布为 Microsoft Dynamics Lifecycle Services (LCS) 中的实施资产，并且可以从 Microsoft Dynamics 365 for Operations 访问。 有关如何访问和打开 Power BI 报表的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
 
-## <a name="metrics-that-are-included-in-the-content-pack"></a>在内容包包括的量化指标
-采购花费分析内容包包括的度量。包含一组报表。 这些度量。为图表直观、平铺和表。 下表显示在内容包的可视化的概览。
+## <a name="metrics-that-are-included-in-the-content-pack"></a>此内容包中包含的指标
+“采购支出分析”内容包中包含一个由一组指标构成的报表。 这些指标显示为图表、磁贴和表。 下表概要介绍此内容包中的可视化。
 
 <table>
 <colgroup>
@@ -50,110 +50,110 @@ Microsoft Power BI 的内容包采购花费分析为该负责采购预算经理�
 </colgroup>
 <thead>
 <tr class="header">
-<th>报表页面</th>
+<th>报表页</th>
 <th>图表</th>
-<th>Tiles</th>
+<th>磁贴</th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>按供应商的采购</td>
 <td><ul>
-<li>按采购 (一堆方式条形图) 前 10 位的供应商</li>
-<li>按供应商组/国家/地区名称 (饼图) 的总采购</li>
-<li>按供应商组/国家/地区名称 (柱形图) 的采购</li>
-<li>按供应商组/国家/地区名称 (柱形图) 的平均采购</li>
+<li>按采购排名前 10 位的供应商（堆积条形图）</li>
+<li>按供应商组/国家或地区/名称的采购总额（饼图）</li>
+<li>按供应商组/国家或地区/名称的采购（柱形图）</li>
+<li>按供应商组/国家或地区/名称的平均采购（柱形图）</li>
 </ul></td>
 <td><ul>
 <li>采购总额</li>
-<li>采购 YOY 增长</li>
-<li>合计 # 供应商</li>
-<li>合计 # 合作中供应商</li>
+<li>YOY 采购增长</li>
+<li>供应商总数</li>
+<li>有效供应商总数</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>采购副产品</td>
+<td>按产品的采购</td>
 <td><ul>
-<li>按采购类别/产品名称 (柱形图) 的采购</li>
-<li>按采购类别/产品名称 (饼图) 的总采购</li>
-<li>按采购 (一堆方式条形图前 10 位) 的产品</li>
+<li>按采购类别/产品名称的采购（柱形图）</li>
+<li>按采购类别/产品名称的采购总额（饼图）</li>
+<li>按采购排名前 10 位的产品（堆积条形图）</li>
 </ul></td>
 <td><ul>
-<li>合计 # 产品</li>
-<li>合计的总可用产品百分比 # 产品</li>
-<li>占 80% 的采购的产品编号</li>
+<li>产品总数</li>
+<li>产品总数中有效产品所占总百分比</li>
+<li>占采购中的 80% 的产品的数量</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td>按 period*的采购</td>
+<td>按期间的采购*</td>
 <td><ul>
-<li>按采购表示将柱形图 (天数) 之前</li>
-<li>累计 YOY 采购差异 (瀑布图表)</li>
-<li>总采购 YOY 柱形图 (增加)</li>
-<li>采购矩阵 (报表)</li>
+<li>按月/天的采购（柱形图）</li>
+<li>累积采购 YOY 差异（瀑布图）</li>
+<li>采购 YOY 增长总额（柱形图）</li>
+<li>采购报表（矩阵）</li>
 </ul></td>
 <td><ul>
-<li>采购 YOY 增长</li>
-<li>采购 YOY 增长。</li>
+<li>YOY 采购增长</li>
+<li>YOY 采购增长百分比</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>按供应商采购的位置</td>
+<td>按供应商位置的采购</td>
 <td><ul>
 <li>按城市的采购</li>
-<li>采购 YOY 增长。</li>
+<li>采购 YOY 增长百分比</li>
 <li>按国家/地区的采购</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td>采购花费分析按时间排序</td>
+<td>按时间的采购支出分析</td>
 <td><ul>
-<li>按采购当前年度 (天/月线形图) 之前</li>
-<li>当前采购和之前年度 (行和图表列)</li>
+<li>按月/日的本年采购（折线图）</li>
+<li>本年和去年的采购（折现柱形图）</li>
 </ul></td>
 <td></td>
 </tr>
 <tr class="even">
-<td>采购供应商显示的支出分析</td>
+<td>按供应商的采购支出分析</td>
 <td><ul>
-<li>前 10 位的供应商采购的采购 (漏斗)</li>
-<li>在增加的消耗的 YOY 前 10 位的供应商</li>
-<li>具有减少的消耗的 YOY 前 10 位的供应商</li>
+<li>排名前 10 位的供应商所占采购百分比（漏斗图）</li>
+<li>排名前 10 位的供应商（带 YOY 的增加支出）</li>
+<li>排名前 10 位的供应商（带 YOY 的降低支出）</li>
 </ul></td>
 <td></td>
 </tr>
 </tbody>
 </table>
 
-\* 则采购和本年度学习和发展按采购类别
+\* 今年和去年的采购，以及按采购类别的增长
 
 ## <a name="data-model-and-entities"></a>数据模型和实体
-工序数据的 Dynamics 365 用于报表在采购花费分析内容包。 此数据表示为实体商店阶段，这是 Microsoft SQL 数据库为逻辑分析方法优化的聚合量化指标。 实体有关商店的详细信息，请参阅商店 [与实体的 Power BI 集成 Dynamics 的 https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)] (博客过帐。 {{在此：in}}内容包的聚合度量是可用于采购采用 Microsoft Dynamics 2012 和 Microsoft Dynamics AX 365 R3 工序中为 2012 个部分聚合的度量。 若要阶段多维数据集的度量中聚合实体商店，必须使它们可以部署。 有关详细信息，请参阅为某阶段聚合度量的方法。实体商店 [与实体商店的 Power BI 集成 Dynamics 的 https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)] (博客过帐。 以下参数聚合度量直接从发票行中获取和实体使用，因为内容包的基础。
+Dynamics 365 for Operations 数据用于“采购支出分析”内容包中的报表。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL 数据库）中暂存的聚合度量。 有关实体商店的详细信息，请参阅 [Power BI 与 Dynamics 中的实体商店之间的集成](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)博客文章。 此内容包中的聚合度量是 Microsoft Dynamics AX 2012 和 Microsoft Dynamics 365 for Operations 2012 R3 中的采购多维数据集中提供的聚合度量子集。 若要在实体商店中暂存多维数据集的聚合度量，必须将其设置为可部署。 有关详细信息，请参阅 [Power BI 与 Dynamics 中的实体商店之间的集成](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)博客文章中在实体商店中暂存聚合度量的过程。 以下关键聚合度量直接从发票行实体提供，并用作此内容包的基础。
 
-| 实体        | Key aggregate measurements | Dynamics 365 数据的源的工序 | 字段              | 说明                           |
+| 实体        | 关键聚合度量 | Dynamics 365 for Operations 的数据源 | 字段              | 说明                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
-| 发票行 | 采购                   | VendInvoiceTrans                            | 总计 (LineAmountMST) | 以记帐币种计算的金额 |
+| 发票行 | 采购                   | VendInvoiceTrans                            | SUM(LineAmountMST) | 以记帐币种计算的金额 |
 
-下表显示在从实体发票行的内容包计算的关键度量。
+下表显示内容包中通过发票行实体计算出的关键度量。
 
 | 度量               | 计算                                                                                         |
 |-----------------------|-----------------------------------------------------------------------------------------------------|
-| 采购当前年度 | 采购合计“当前年度= (发票 lines'entity_PLACEHOLDER \ [采购\])                                            |
-| 则采购    | 则采购计算总计 (“= (发票 lines'entity_PLACEHOLDER \ [采购\])，SAMEPERIODLASTYEAR (日期\[日期\])) |
-| 采购 YOY 增长   | 采购 YOY 增长= \[采购当前年度\] –则 \[采购\]                            |
+| 本年的采购 | 本年的采购 = SUM('Invoice lines'\[Purchase\])                                            |
+| 去年的采购    | 去年的采购 = CALCULATE(SUM('Invoice lines'\[Purchase\]), SAMEPERIODLASTYEAR(Dates\[Date\])) |
+| YOY 采购增长   | YOY 采购增长 = \[Purchase current year\] – \[Purchase last year\]                            |
 
-在内容包的以下关键度量维度用作切聚合的筛选器，这样，您可以获得详细精细程度和更深入的见解分析。
+内容包中的以下关键维度用作筛选器以切分聚合度量，以便获得粒度更细微，更深入的分析洞察。
 
-| 实体                 | 属性的示例                                |
+| 实体                 | 属性示例                                |
 |------------------------|-------------------------------------------------------|
-| 供应商                | 供应商组、供应商国家或地区，供应商名称。 |
-| 产品               | 产品编号，产品名称，物料组名称        |
-| 采购类别 | 采购类别，采购类别名称      |
+| 供应商                | 供应商组、供应商国家或地区、供应商名称 |
+| 产品               | 产品编号、产品名称、物料组名称        |
+| 采购类别 | 采购类别、采购类别名称      |
 | 法人         | 法人姓名                                     |
-| 日期                  | 日期，年度的偏移                                    |
+| 日期                  | 日期、年偏移                                    |
 
-默认情况下，显示内容包数据当前日历年度。 但是，您可以更改在报表部分日期筛选的筛选器。 您还可以更改公司筛选器。
+默认情况下，此内容包显示当前日历年的数据。 但是，您可以更改报表筛选器部分中的数据筛选器。 还可以更改公司筛选器。
 
 ## <a name="additional-resources"></a>其他资源
 以下是与实体和构建 Power BI 内容相关的一些有用的链接：

@@ -1,6 +1,6 @@
 ---
-title: "添加一控件。建议在 POS 设备的交易记录页"
-description: "本主题介绍 Microsoft Dynamics 365 中介绍如何向添加建议控制到已销售点 (POS) 设备的屏幕交易记录使用屏幕布局设计器操作。"
+title: "向 POS 设备上的交易记录页添加建议控件"
+description: "本主题介绍如何使用 Microsoft Dynamics 365 for Operations 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,55 +25,60 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>添加一控件。建议在 POS 设备的交易记录页
+# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>向 POS 设备上的交易记录页添加建议控件
 
-本主题介绍 Microsoft Dynamics 365 中介绍如何向添加建议控制到已销售点 (POS) 设备的屏幕交易记录使用屏幕布局设计器操作。
+[!include[banner](includes/banner.md)]
 
-如果某工序时，可以使用 Microsoft Dynamics 365 可以查看有关您的设备 POS 产品的建议。 *Recommendations*是物料基于的采购历史记录、为感物料兴趣其利息和物料可以是客户的在线购买和其他客户砖在和泥商店。 使用屏幕布局设计器，为了查看产品建议，您需要添加交易记录控制到屏幕。
 
-## <a name="open-layout-designer"></a>打开设计器版式
-1.  **是零售和商务** &gt; **的设置渠道** &gt; **的设置 POS ** &gt; ** ** &gt; ** ** POS 屏幕布局。
-2.  使用快速查找要添加筛选器屏幕控制。 例如，可筛选**屏幕布局 ID **值，使用“F2CP16 字段：9M”。
-3.  在列表中，找到并选择所需记录。 例如，选择“名称：F2CP16: 9M 屏幕布局 ID:F2CP16: 9M”。
-4.  **单击"设计器**版式。
-5.  按照提示启动布局设计器。 在提示输入凭据，请输入正在使用的相同凭据，在屏幕布局设计器版式从** **页开始。
-6.  在登录时，这个页面类似于下面。 布局根据为您的商店进行的自定义将不同。
+本主题介绍如何使用 Microsoft Dynamics 365 for Operations 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。
 
-[] (![screenlayout PIC 1![。/media/screenlayout PIC1.png)](。/media/screenlayout PIC 1.png 选择显示选项)
+使用 Microsoft Dynamics 365 for Operations 时，可以在 POS 设备上显示产品建议。 *建议*是客户可能根据其购买历史记录感兴趣的商品、其愿望列表中的商品，以及其他客户在线商店和实体商店购买的商品。 若要显示产品建议，需要使用屏幕布局设计器向交易记录屏幕添加控件。
+
+## <a name="open-layout-designer"></a>打开布局设计器
+1.  转至**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS** &gt; **屏幕布局**。
+2.  使用快速筛选查找要为其添加控件的屏幕。 例如，使用值“F2CP16:9M”在**屏幕布局 ID** 字段中筛选：
+3.  在列表中，找到并选择所需记录。 例如，选择“名称: F2CP16:9M 屏幕布局 ID: F2CP16:9M”。
+4.  单击**布局设计器**。
+5.  按照提示启动布局设计器。 在提示输入凭据时，输入从**屏幕布局**页启动布局设计器时使用的相同凭据。
+6.  在登录时，将显示如下页面。 布局将由为您的商店执行的自定义决定。
+
+[![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png) 选择显示选项
 -----------------------
 
-有以下两个的配置选项。 选择在您的商店的最佳的选项，并且按照剩余的说明完成设置控制。 两个选项如下：
--   建议始终可见的。
--   A ** **建议选项卡显示在网格以在屏幕的权限。
+可用配置选项有两个。 选择最适合您的商店的选项，然后按照其余说明完成控件的设置。 这两个选项是：
+-   始终显示建议。
+-   在屏幕右侧的网格中显示**建议**选项卡。
 
-#### <a name="to-make-recommendations-always-visible"></a>为其提供建议始终可见
+#### <a name="to-make-recommendations-always-visible"></a>始终显示建议
 
-1.  减少交易记录行明细信息"区域的高度、高度和客户，以便其在左侧面板相同。[] (。/media/picture-2.png)![[] (screenlayout PIC 2 /media/picture-2.png。/media/screenlayout PIC2.png)](。/media/screenlayout PIC2.png)
-2.  从左侧的菜单，请拖放建议用于控制针对在交易记录行明细信息"区域和中心在底部的按钮网格间屏幕的交易记录。 尺寸调整更改它成为该空格的控制。[] (。/media/picture-3.png)![[] (screenlayout PIC 3 /media/picture-3.png。/media/screenlayout PIC3.png)](。/media/screenlayout PIC3.png)
-3.  ** X **单击"保存并退出该布局设计器"。
-4.  在工序的 Dynamics 365，为**零售和商务** &gt; **零售 IT ** &gt; ** **分配计划。
-5.  在"列表，选择 1090 ** **登记。
-6.  单击** **立即运行。
+1.  缩小交易记录行明细区域的高度，使其与其左侧的客户面板高度相同。[](./media/pic-2.png)[![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+2.  将建议控件从左侧菜单拖放到交易记录屏幕底部中央的交易记录行明细与按钮窗格之间。 调整控件大小，使其适合该空间。[](./media/pic-3.png)[![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+3.  单击 **X** 保存并退出布局设计器。
+4.  在 Dynamics 365 for Operations 中，转至**零售和商务** &gt; **零售 IT** &gt; **分配计划**。
+5.  在列表中，选择 **1090 收银机**。
+6.  单击**立即运行**。
 
-#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>添加建议选项卡上分配给按钮网格以在屏幕的权限
+#### <a name="to-add-a-recommendations-tab-to-the-button-grid-on-the-right-side-of-the-screen"></a>向屏幕右侧的按钮网格添加“建议”选项卡
 
-1.  右键单击在空白间距低于在仅在右侧的页面中的按钮网格的最后一选项卡下。
-2.  **自定义**请单击。[] (![图片。/media/picture-5.png)](。/media/picture-5.png)
-3.  单击** **新的选项卡。
-4.  查找您添加的新的选项卡。 您可能需要下移。
-5.  **在下拉选择** **内容，建议的产品**。 [] (![图片。/media/picture-6.png)](。/media/picture-6.png)
-6.  **在标签** "字段中，键入名称。建议选项卡。 例如，键入“建议的产品”。
-7.  ** **在"图像"字段中，选择该图像出现在"选项卡。
-8.  Click **OK**. 将出现新的选项卡显示按钮网格。
-9.  ** X **单击"保存并退出该布局设计器"。
-10. 在工序的 Dynamics 365，为**零售和商务** &gt; **零售 IT ** &gt; ** **分配计划。
-11. 在"列表，选择 1090 ** **登记。
-12. 单击** **立即运行。
+1.  在页面右侧按钮网格中最后一个选项卡下空白区域中右键单击。
+2.  单击**自定义**。[![pic-5](./media/pic-5.png)](./media/pic-5.png)
+3.  单击**新建选项卡**。
+4.  找到刚添加的新选项卡。 您可能需要向下滚动。
+5.  在**目录**下拉菜单中，选择**建议的产品**。 [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+6.  在**标签**字段中，键入建议选项卡的名称。 例如，键入“建议的产品”。
+7.  在**图像**字段中，选择要在该选项卡上显示的图像。
+8.  单击**确定**。 将在按钮网格中显示新选项卡。
+9.  单击 **X** 保存并退出布局设计器。
+10. 在 Dynamics 365 for Operations 中，转至**零售和商务** &gt; **零售 IT** &gt; **分配计划**。
+11. 在列表中，选择 **1090 收银机**。
+12. 单击**立即运行**。
 
 
 <a name="see-also"></a>请参阅
 --------
 
-[个性化的产品建议概览] (产品 recommendations.md 个性化)
+[个性化产品建议概览](personalized-product-recommendations.md)
+
+
 
 

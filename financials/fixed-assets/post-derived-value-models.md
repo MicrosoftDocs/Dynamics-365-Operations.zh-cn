@@ -1,5 +1,5 @@
 ---
-title: "派生的具有帐簿过帐"
+title: "使用衍生帐簿过帐"
 description: "本文介绍如何使用衍生帐簿。"
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="post-with-derived-books"></a>派生的具有帐簿过帐
+# <a name="post-with-derived-books"></a>使用衍生帐簿过帐
+
+[!include[banner](../includes/banner.md)]
+
 
 本文介绍如何使用衍生帐簿。
 
@@ -49,11 +52,13 @@ ms.lasthandoff: 03/31/2017
 
 然后，可将帐簿附加到特定的固定资产。 
 
-在购置使用帐簿 VM 1 的固定资产过帐时，该购置不仅在 VM 1，派生的，而且在帐簿 VM 2。 两固定资产帐簿状态更新未结。
+当固定资产的购置使用帐簿 VM 1 过帐时，该购置不仅在 VM 1 中过帐，而且在衍生帐簿 VM 2 中过帐。 两种固定资产帐簿的状态将更新为“未完成”。
 
 > [!NOTE]                                                                                                         
 > 如果不使用衍生帐簿，则必须在帐簿 VM 1 和帐簿 VM 2 中都对固定资产购置过帐。
 
-有关详细信息，请参阅 books.md 的 [] ("派生") 派生的帐簿
+有关详细信息，请参阅[衍生帐簿](derived-books.md)
+
+
 
 

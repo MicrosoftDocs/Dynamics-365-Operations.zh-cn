@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="info-codes"></a>信息代码
 
+[!include[banner](includes/banner.md)]
+
+
 本文提供有关信息代码、信息代码组以及如何使用它们的概览。
 
 信息代码为您提供一个在销售终端 (POS) 收银机捕获数据的方法。 您可以使用此信息代码提示出纳在各种 POS 操作（例如物料销售，物料退还或选择客户）期间输入信息。 出纳可以从列表中选择输入或输入代码、数字、日期或文本。 您可以将信息代码分配给预定义的商店操作、零售物料、付款方式、客户或特定的销售终端活动。 您可以使用信息代码进行以下操作：
@@ -38,7 +41,7 @@ ms.lasthandoff: 03/31/2017
 -   当出纳代在未执行销售操作时打开暂存器抽屉时，提示出纳输入值或从子代码列表中选择。
 
 ## <a name="info-codes-group-in-retail-and-commerce"></a>零售和商业中的信息代码组
-在工序的-零售 Dynamics 365，您可以创建代码组的信息。 信息代码组通过允许您定义少数的信息代码来增加灵活性，然后以更多样化的方式使用它们。 您可以通过以下方式使用信息代码组：
+在 Dynamics 365 for Operations - Retail 中，可以创建信息代码组。 信息代码组通过允许您定义少数的信息代码来增加灵活性，然后以更多样化的方式使用它们。 您可以通过以下方式使用信息代码组：
 -   定义少数信息代码，轻松重复使用。 信息代码组中包括的信息代码没有预定义依赖其他信息代码。 多个信息代码组可以包含相同的信息代码，然后使用优先级按照在任意情形下都有效的顺序为相同的信息代码排序。
 -   将信息代码链接到其他信息代码或信息代码组以收集关于产品或交易的信息，而无需为每个场景定义单独的信息代码或链接的信息代码。
 
@@ -47,6 +50,8 @@ ms.lasthandoff: 03/31/2017
 
  
 -
+
+
 
 
 

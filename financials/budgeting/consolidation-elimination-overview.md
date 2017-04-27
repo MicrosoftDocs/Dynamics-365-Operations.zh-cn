@@ -86,5 +86,5 @@ ms.lasthandoff: 03/31/2017
 通过使用**导出公司余额**选项从一个实例导出，然后使用其他实例的**与导入合并**选项，可以合并数据。
 
 
-有关详细信息，请参阅币种 revalution [在合并的公司中 finanicials 总帐] (\ \ \重估合并公司币种)。
+有关详细信息，请参阅[合并公司中的币种重估](\finanicials\general-ledger\currency-revaluation-consolidation-company)。
 

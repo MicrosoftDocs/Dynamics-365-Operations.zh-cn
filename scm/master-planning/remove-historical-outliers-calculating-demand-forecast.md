@@ -28,11 +28,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a>在计算需求预测时，需从历史交易记录数据中删除离群值
 
+[!include[banner](../includes/banner.md)]
+
+
 本文描述如何从用于计算需求预测的历史数据中排除外离群值。 通过排除离群值，您可以提高预测准确性。
 
-您可以排除离群值提高绩效指标。 这是可选任务。 下面是流程的概述：
+可以排除离群值以提高预测的精确度。 这是可选任务。 下面是流程的概述：
 
-1.  **单击主计划** &gt; ** ** &gt; **设置需求预测** &gt; **离群值删除** **未结离群值删除**页上，可以使用查询选择交易记录中。
+1.  单击**主计划** &gt; **设置** &gt; **需求预测** &gt; **离群值删除**以打开**离群值删除**页，从中可以使用查询选择要排除的交易记录。
 2.  选择查询申请的公司，然后输入名称和描述。 “查询日期”****字段自动设置为当前日期。
 3.  选中“有效”****复选框可以从历史数据中排除由查询找到的交易记录。 在您创建基准预测时，此设置将生效。
 4.  在“离群值删除查询”****页上，当计算基准预测时，您可以删除、添加和选择定义将被排除的交易记录的标准。 例如，选择要排除的特定物料或订单交易记录。
@@ -43,8 +46,10 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Introduction to demand forecasting](introduction-demand-forecasting.md)
+[需求预测简介](introduction-demand-forecasting.md)
 
-[Monitoring forecast accuracy](monitor-forecast-accuracy.md)
+[监控预测准确性](monitor-forecast-accuracy.md)
+
+
 
 

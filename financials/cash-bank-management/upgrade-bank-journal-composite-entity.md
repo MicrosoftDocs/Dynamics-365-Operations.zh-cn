@@ -1,5 +1,5 @@
 ---
-title: "更新银行日志复合实体"
+title: "更新银行日记帐组合实体"
 description: "需按照以下步骤将更多 BankTransactionType 字段添加到组合 BankJournalEntity 中。"
 author: twheeloc
 manager: AnnBe
@@ -24,20 +24,23 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="update-the-bank-journal-composite-entity"></a>更新银行日志复合实体
+# <a name="update-the-bank-journal-composite-entity"></a>更新银行日记帐组合实体
+
+[!include[banner](../includes/banner.md)]
+
 
 需按照以下步骤将更多 BankTransactionType 字段添加到组合 BankJournalEntity 中。
 
 按照以下步骤将更多 BankTransactionType 字段添加到组合 BankJournalEntity 中。
 
 1.  编译和同步以下银行日记帐组合实体、实体和暂存表：
-    -   综合实体\\BankJournalEntity
+    -   组合实体\\BankJournalEntity
     -   实体\\BankJournalHeaderEntity
     -   实体\\BankJournalLineEntity
     -   表\\BankJournalHeaderStaging
     -   表\\BankJournalLineStaging
 
-2.  数据\\数据管理项目
+2.  数据管理\\数据项目
     -   在“**源数据**”版式上公开“**银行交易记录**”类型。
         -   源数据格式 = XML-元素
         -   实体名称 = 银行日记帐
@@ -49,6 +52,8 @@ ms.lasthandoff: 03/31/2017
             -   验证“银行交易记录”类型是否已从源映射到暂存。
 
 3.  导入新的对帐单。
+
+
 
 
 

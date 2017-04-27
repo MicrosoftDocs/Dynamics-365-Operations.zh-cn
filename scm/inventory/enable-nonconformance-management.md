@@ -1,5 +1,5 @@
 ---
-title: "管理未达标"
+title: "不符合项管理"
 description: "本文介绍使用未达标所需的基本设置。 如果要使用质检订单还需要其他设置。"
 author: YuyuScheller
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="nonconformance-management"></a>管理未达标
+# <a name="nonconformance-management"></a>不符合项管理
+
+[!include[banner](../includes/banner.md)]
+
 
 本文介绍使用未达标所需的基本设置。 如果要使用质检订单还需要其他设置。 
 
@@ -34,7 +37,7 @@ ms.lasthandoff: 03/31/2017
 1.  定义与未达标有关的库存和仓库管理参数：
     -   将**使用质量管理**选项设置为**是**。
     -   在**小时工资率**字段中用本币输入人工小时工资率。 小时工资率用于计算与未达标相关的工序的成本。 小时工资率和计算的成本为未达标提供了参考信息。 它们不与其他功能交互。
-    -   **使用在的设置报表** **质量管理**页的选项卡来定义单据类型打印。 可以打印未达标报表、更正报表还是未达标标记。 您可以定义多个记录在报表上打印不同的文档类型，或打印内部和外部注释。 您可能发现使用**单据类型**页为未达标并且更正的唯一单据类型来定义唯一的文档类型很有帮助。 例如，要通过未达标的唯一单据类型，输入与未达标有关的注释。 在这种情况下，请在报表选项中确定唯一单据类型。
+    -   使用**报表设置**页上的**质量管理**选项卡定义要打印的单据类型。 您可以打印未达标报表，未达标标记或更正报表。 您可以定义多个记录在报表上打印不同的文档类型，或打印内部和外部注释。 您可能发现使用**单据类型**页为未达标并且更正的唯一单据类型来定义唯一的文档类型很有帮助。 例如，要通过未达标的唯一单据类型，输入与未达标有关的注释。 在这种情况下，请在报表选项中确定唯一单据类型。
     -   启用未达标和更正参考的编号规则。
 
 2.  支持用户审核未达标。 使用**用户**页的**姓名**字段向必须审核未达标的每个用户分配员工。 系统将使用更改未达标的状态以跟踪未达标历史记录的员工。 除非用户被分配员工标识符，否则他们无法审核未达标。
@@ -47,10 +50,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[创建和处理一未达标 (任务指南)](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
+[创建和处理未达标（任务指南）](https://ax.help.dynamics.com/en/wiki/create-and-process-a-nonconformance/)
 
-[Quality management processes](quality-management-processes.md)
+[质量管理流程](quality-management-processes.md)
 
-[的设置先决条件未达标 (管理任务指南)](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+[设置不符合项管理的先决条件（任务指南）](https://ax.help.dynamics.com/en/wiki/set-up-prequisites-for-nonconformance-management/)
+
+
 
 

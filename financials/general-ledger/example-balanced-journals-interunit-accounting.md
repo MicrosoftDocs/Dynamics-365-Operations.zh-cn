@@ -1,5 +1,5 @@
 ---
-title: "单位的余额会计核算日志"
+title: "平衡单位间核算的日记帐"
 description: "本文显示当在分类帐页中选择平衡财务维度时日记帐如何自动平衡。"
 author: twheeloc
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="balanced-journals-for-interunit-accounting"></a>单位的余额会计核算日志
+# <a name="balanced-journals-for-interunit-accounting"></a>平衡单位间核算的日记帐
+
+[!include[banner](../includes/banner.md)]
+
 
 本文显示当在分类帐页中选择平衡财务维度时日记帐如何自动平衡。 
 
@@ -34,9 +37,9 @@ ms.lasthandoff: 03/31/2017
 
 |                      |           |
 |----------------------|-----------|
-| 6100 – MSP – OU\_ | 100.00 " DR " |
-| 6100 – NY – OU\_  | 100.00 " DR " |
-| 2100 – MSP – OU\_ | 并 200.00 |
+| 6100 – MSP – OU\_256 | 100.00 DR |
+| 6100 – NY – OU\_249  | 100.00 DR |
+| 2100 – MSP – OU\_256 | 200.00 CR |
 
 在这种情况下，以下余额确定：
 
@@ -47,8 +50,10 @@ ms.lasthandoff: 03/31/2017
 
 |                                   |           |
 |-----------------------------------|-----------|
-| (Interunit 借方) – MSP – OU\_ | 100.00 " DR " |
-| (Interunit 贷方) – NY – OU\_ | 并 100.00 |
+| （单位间借方）– MSP – OU\_256 | 100.00 DR |
+| （单位间贷方）– NY – OU\_249 | 100.00 CR |
+
+
 
 
 

@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="fixed-asset-depreciation"></a>固定资产折旧
 
+[!include[banner](../includes/banner.md)]
+
+
 文本提供固定资产折旧的概览。
 
 折旧是一种期间交易记录，通常会减少资产负债表中固定资产的价值，并且在损益科目中作为支出计费。 因此，主科目通常用于将折旧定期贷计到资产负债表中。 对方科目是会计科目表中的损益部分中的科目。
@@ -51,6 +54,8 @@ ms.lasthandoff: 03/31/2017
 
 您可以在总帐中使用“**会计日历**”页创建共享日历。
 
-有关详细信息，请参阅折旧法和惯例 [] (折旧方法 conventions.md)。
+有关详细信息，请参阅[折旧法和惯例](depreciation-methods-conventions.md)。
+
+
 
 

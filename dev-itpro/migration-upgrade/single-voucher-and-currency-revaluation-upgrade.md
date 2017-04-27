@@ -1,6 +1,6 @@
 ---
-title: "Microsoft Dynamics 365 的唯一凭证和货币升值升级版本 1611 的工序"
-description: "某些组织输入包含单个凭证有多个客户或供应商的日志，以及还运行，应收帐款或应付帐款外币重新计算流程。 此主题描述这些组织是否应跟随的步骤，在升级到版本工序 365 的 Microsoft Dynamics 1611 时。"
+title: "Microsoft Dynamics 365 for Operations 版本 1611 的单一凭证和币种重估升级"
+description: "某些组织输入的日记帐中包含有多位客户或供应商的单一凭证，并且还运行应收帐款或应付帐款外币重估流程。 此主题描述这些组织在升级到 Microsoft Dynamics 365 for Operations 版本 1611 时应执行的步骤。"
 author: twheeloc
 manager: AnnBe
 ms.date: 2016-12-28 16 - 04 - 17
@@ -24,15 +24,15 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Microsoft Dynamics 365 的唯一凭证和货币升值升级版本 1611 的工序
+# <a name="single-voucher-and-currency-revaluation-upgrade-for-microsoft-dynamics-365-for-operations-version-1611"></a>Microsoft Dynamics 365 for Operations 版本 1611 的单一凭证和币种重估升级
 
-某些组织输入包含单个凭证有多个客户或供应商的日志，以及还运行，应收帐款或应付帐款外币重新计算流程。 此主题描述这些组织是否应跟随的步骤，在升级到版本工序 365 的 Microsoft Dynamics 1611 时。
+某些组织输入的日记帐中包含有多位客户或供应商的单一凭证，并且还运行应收帐款或应付帐款外币重估流程。 此主题描述这些组织在升级到 Microsoft Dynamics 365 for Operations 版本 1611 时应执行的步骤。
 
-当您升级到版本工序 365 的 Microsoft Dynamics 1611 后，请执行以下步骤。
+升级到 Microsoft Dynamics 365 for Operations 版本 1611 时，请执行以下步骤。
 
-1.  在升级到工序的之前，请运行 Dynamics 365 应收帐款和应付帐款配合的外币重新计算流程。 **设置方法**字段** **发票日期。 撤消上一外币重估的重估交易创建记录。 因此，未结交易记录将按在其原始记帐币种。
-2.  升级到版本工序 Dynamics 365 的 1611。
-3.  运行应收帐款和应付帐款，外币将再次处理重新计算。 此时，安装**字段方法** ** **标准。 基于当前汇率的新创建重估交易记录。 此交易记录或有损益和正确的汇总会计科目。
+1.  升级到 Dynamics 365 for Operations 之前，请为应收帐款和应付帐款运行外币重估流程。 将**方法**字段设置为**发票日期**。 将创建一条重估交易记录，用于冲销上一笔外币重估。 因此，将以原始会计币种计算这笔未结交易记录的价值。
+2.  升级到 Dynamics 365 for Operations 版本 1611。
+3.  再次运行应付帐款和应收帐款外币重估流程。 此时，将**方法**字段设置为**标准**。 将根据当前汇率创建一条新的重估交易记录。 此交易记录记录或有利润/损失和正确的汇总会计科目。
 
 
 

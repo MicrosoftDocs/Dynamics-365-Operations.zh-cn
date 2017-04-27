@@ -1,5 +1,5 @@
 ---
-title: "使用跟踪分解。"
+title: "使用跟踪进行分解"
 description: "本文说明如何可以使用跟踪来探索订单分解结果背后的原因。"
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="use-tracing-for-explosion"></a>使用跟踪分解。
+# <a name="use-tracing-for-explosion"></a>使用跟踪进行分解
+
+[!include[banner](../includes/banner.md)]
+
 
 本文说明如何可以使用跟踪来探索订单分解结果背后的原因。
 
@@ -43,6 +46,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Master plans](master-plans.md)
+[主计划](master-plans.md)
+
+
 
 

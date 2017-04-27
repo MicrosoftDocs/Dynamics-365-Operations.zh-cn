@@ -1,5 +1,5 @@
 ---
-title: "配置在工作流中的手动数据"
+title: "在工作流中配置手动决策"
 description: "本主题说明如何配置手动决策的属性。"
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-decision-in-a-workflow"></a>配置在工作流中的手动数据
+# <a name="configure-a-manual-decision-in-a-workflow"></a>在工作流中配置手动决策
+
+[!include[banner](../includes/banner.md)]
+
 
 本主题说明如何配置手动决策的属性。
 
@@ -95,8 +98,8 @@ ms.lasthandoff: 03/31/2017
 
 1.  在左窗格中，单击**通知**。
 2.  选中应针对其发送通知的事件旁边的复选框：
-    -   **\[选择\[\]** –分配的用户\[选择**选择 1\]**。
-    -   **\[选择\[\]** –分配的用户\[选择**选择 2\]**。
+    -   **\[选择 1\]** – 分配的用户选择了**\[选择 1\]**。
+    -   **\[选择 2\]** – 分配的用户选择了**\[选择 2\]**。
     -   **委托** – 分配的用户将决策分配给其他用户。
     -   **呈报** – 分配的用户未在分配的时间内制定决策。
 
@@ -148,10 +151,10 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>工序特定用户的 Microsoft Dynamics 365</td>
+    <td>特定 Microsoft Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong> 列表包括工序用户的所有 Dynamics 365。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
+    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
     </ol></td>
     </tr>
     </tbody>
@@ -213,10 +216,10 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="even">
     <td>用户</td>
-    <td>工序的特定用户 Dynamics 365</td>
+    <td>特定 Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong> 列表包括工序用户的所有 Dynamics 365。 选择要向其分配决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其分配决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -234,8 +237,8 @@ ms.lasthandoff: 03/31/2017
     <li>在<strong>队列类型</strong>列表中，选择<strong>条件工作项队列</strong>。</li>
     <li>在<strong>队列名称</strong>列表中，选择<strong>条件队列</strong>。</li>
     </ol></li>
-    </ol>此选项用于
-    <strong>注意：</strong> 很少工作流使用，例如"箱"管理。</td>
+    </ol>
+    <strong>注意：</strong>此选项仅用于几个工作流，如案例管理。</td>
     </tr>
     </tbody>
     </table>
@@ -258,9 +261,9 @@ ms.lasthandoff: 03/31/2017
     |----------|----------------------------|
     | 1        | 分配给：Donna           |
     | 2        | 分配给：Erin            |
-    | 3        | 最后一个行动：\[选择 \[\] |
+    | 3        | 最后操作：\[选择 1\] |
 
-    在此示例中，系统将逾期决策分配给 Donna。 如果 Donna 未在分配的时间内制定决策，则系统将决策分配给 Erin。 如果未进行艾林以定量的时间的决策，系统将选择\[**选择\[\]**用作决策。
+    在此示例中，系统将逾期决策分配给 Donna。 如果 Donna 未在分配的时间内制定决策，则系统将决策分配给 Erin。 如果 Erin 未在分配的时间内制定决策，则系统选择**\[选择 1\]** 作为决策。
 3.  要将用户添加到呈报路线中，单击**添加呈报**。 选择下表中的选项之一，然后按照该选项的其他步骤转到第 4 步。
     <table>
     <colgroup>
@@ -303,10 +306,10 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>工序的特定用户 Dynamics 365</td>
+    <td>特定 Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong> 列表包括工序用户的所有 Dynamics 365。 选择要向其呈报决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其呈报决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     </tbody>
@@ -335,6 +338,8 @@ ms.lasthandoff: 03/31/2017
     -   **年** – 选择决策必须在哪一天、哪一周和哪一月前制定。 例如，您可能希望决策在十二月第三周的周五之前制定。
 
 4.  如果超出时间限制，系统将制定决策。 在**操作**列表中选择系统应选择的选项。
+
+
 
 
 

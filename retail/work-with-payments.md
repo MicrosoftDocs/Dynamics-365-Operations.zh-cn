@@ -1,5 +1,5 @@
 ---
-title: "付款方式回答电话中心"
+title: "电话中心内的付款方法"
 description: "本主题介绍可以在“零售和商业”的呼叫中心使用的不同付款方法。"
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>付款方式回答电话中心
+# <a name="payment-methods-in-a-call-center"></a>电话中心内的付款方法
+
+[!include[banner](includes/banner.md)]
+
 
 本主题介绍可以在“零售和商业”的呼叫中心使用的不同付款方法。
 
@@ -43,6 +46,8 @@ ms.lasthandoff: 03/31/2017
 
 -   支票保留让财务人员可以处理已暂停的订单，这些订单因为将支票用作付款方式，并且支票保留金额超过了阈值金额而暂停。 可以手动释放保留，或在配置期间结束时自动到期。
 -   您可以设置必须手动审核通过支票和信用卡发出的退款高出阈值。 超过阈值金额的任何退款均被添加至审核队列。 在审核退款后，可对返还销售订单开具发票。
+
+
 
 
 

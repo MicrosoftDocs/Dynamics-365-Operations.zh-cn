@@ -1,5 +1,5 @@
 ---
-title: "配置在工作流中的手动任务"
+title: "在工作流中配置手动任务"
 description: "本主题说明如何配置手动任务的属性。"
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-a-manual-task-in-a-workflow"></a>配置在工作流中的手动任务
+# <a name="configure-a-manual-task-in-a-workflow"></a>在工作流中配置手动任务
+
+[!include[banner](../includes/banner.md)]
+
 
 本主题说明如何配置手动任务的属性。
 
@@ -124,10 +127,10 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="even">
     <td>用户</td>
-    <td>工序特定用户的 Microsoft Dynamics 365</td>
+    <td>特定 Microsoft Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong> 列表包括工序用户的所有 Dynamics 365。 选择要向其分配任务的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其分配任务的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -145,8 +148,8 @@ ms.lasthandoff: 03/31/2017
     <li>在<strong>队列类型</strong>列表中，选择<strong>条件工作项队列</strong>。</li>
     <li>在<strong>队列名称</strong>列表中，选择<strong>条件队列</strong>。</li>
     </ol></li>
-    </ol>此选项用于
-    <strong>注意：</strong> 很少工作流使用，例如"箱"管理。</td>
+    </ol>
+    <strong>注意：</strong>此选项仅用于几个工作流，如案例管理。</td>
     </tr>
     </tbody>
     </table>
@@ -214,10 +217,10 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>工序的特定用户 Dynamics 365</td>
+    <td>特定 Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong> 列表包括工序用户的所有 Dynamics 365。 选择要向其呈报任务的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其呈报任务的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     </tbody>
@@ -234,7 +237,7 @@ ms.lasthandoff: 03/31/2017
 6.  如果呈报路线中的用户未在分配的时间内完成任务，则系统对该任务采取操作。 若要指定系统执行的操作，选择**操作**行，然后，在**结束操作**选项卡上，选择一项操作。
 
 ## <a name="specify-when-the-system-automatically-acts-on-the-task"></a>指定系统何时对任务采取操作
-可以配置系统在满足特定条件时对手动任务采取操作。 例如，某个任务要求支出报表部门的成员审查与支出报表一起提交的收据。 根据公司政策，此任务，如果支出报表的总金额超过 USD 100，为详细必须执行。 {{在此：In}}方案，可以配置系统自动标记任务**，请完成**在"金额合计少于时是 100。 按照以下步骤指定系统何时对手动任务采取操作。
+可以配置系统在满足特定条件时对手动任务采取操作。 例如，某个任务要求支出报表部门的成员审查与支出报表一起提交的收据。 根据公司政策，此任务必须在支出报表的总金额超过 100 美元时执行。 在这种情况下，您可以将系统配置为在总金额 < 100 时自动将任务标记为**完成**。 按照以下步骤指定系统何时对手动任务采取操作。
 
 1.  在左窗格中，单击**自动操作**。
 2.  选中**启用自动操作**复选框。
@@ -308,10 +311,10 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>工序的特定用户 Dynamics 365</td>
+    <td>特定 Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong> 列表包括工序用户的所有 Dynamics 365。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
+    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
     </ol></td>
     </tr>
     </tbody>
@@ -325,8 +328,8 @@ ms.lasthandoff: 03/31/2017
 1.  在左侧窗格中，单击**高级设置**。
 2.  选中**为工作流元素设置时间限制**复选框。
 3.  在**持续时间**字段中，指定必须在何时完成任务。 选择以下选项之一：
-    -   ** **工时–工时数输入必须完成的任务。 然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。
-    -   **天**天数–输入必须完成的任务。 然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。
+    -   **小时** – 输入必须在几小时内完成任务。 然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。
+    -   **天** – 输入必须在几天内完成任务。 然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。
     -   **周** – 输入必须在几周内完成任务。
     -   **月** – 选择必须在哪一天和哪一周前完成任务。 例如，您可能希望任务在当月第三周的周五之前完成。
     -   **年** – 选择任务必须在哪一天、哪一周和哪一月前完成。 例如，您可能希望任务在十二月的第三周的周五之前完成。
@@ -343,6 +346,8 @@ ms.lasthandoff: 03/31/2017
 5.  如果用户应该能够将此任务分配给其他用户，则请选中“**委托**”复选框。
 6.  如果用户应该能够将任务分配给工作项队列中的其他用户，则选中“**重新分配**”复选框。
 7.  如果用户应该能够将任务分配给工作项队列，则选中“**下达**”复选框。 其他用户可以完成该任务。
+
+
 
 
 

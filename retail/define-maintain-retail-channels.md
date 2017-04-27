@@ -1,6 +1,6 @@
 ---
 title: "定义和维护零售渠道"
-description: "文章此窗体可以设置砖和商店流程的概览，泥提供在 Microsoft Dynamics 365 中引用零售店操作。 它包含有关在设置零售商店前后必须完成的任务的信息。"
+description: "本文提供设置实体商店（在 Microsoft Dynamics 365 for Operations 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16481
 ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
@@ -28,12 +28,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="define-and-maintain-retail-channels"></a>定义和维护零售渠道
 
-文章此窗体可以设置砖和商店流程的概览，泥提供在 Microsoft Dynamics 365 中引用零售店操作。 它包含有关在设置零售商店前后必须完成的任务的信息。
+[!include[banner](includes/banner.md)]
 
-零售和商务 Dynamics 中 365 操作的支持多个零售通道，例如商店、网络呼叫中心和砖和泥商店。 在“零售和商业”中，实体商店也称作“零售商店”。 每个零售商店可以有自己的付款方式、价格组、销售终端 (POS) 收银机、收入帐户和支出帐户以及职员。 您必须先为零售商店设置所有这些元素，然后再创建零售商店。 在创建零售商店后，分配您希望其提供的产品。 您还可以将员工、收银机和客户分配到商店。 最后，您将新商店添加到组织层次结构。
+
+本文提供设置实体商店（在 Microsoft Dynamics 365 for Operations 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。
+
+Dynamics 365 for Operations 中的零售和商业支持多个零售渠道，如在线商店、呼叫中心和实体商店。 在“零售和商业”中，实体商店也称作“零售商店”。 每个零售商店可以有自己的付款方式、价格组、销售终端 (POS) 收银机、收入帐户和支出帐户以及职员。 您必须先为零售商店设置所有这些元素，然后再创建零售商店。 在创建零售商店后，分配您希望其提供的产品。 您还可以将员工、收银机和客户分配到商店。 最后，您将新商店添加到组织层次结构。
 
 ## <a name="setting-up-retail-stores"></a>设置零售商店
-在您可以设置在 Dynamics 365 的一个的零售店工序之前，必须完成某些任务的先决条件。 然后，您可以创建零售商店并添加详细信息。
+您必须先完成一些先决任务，然后才能在 Dynamics 365 for Operations 中设置零售商店。 然后，您可以创建零售商店并添加详细信息。
 
 ### <a name="prerequisites"></a>必备项
 
@@ -49,7 +52,7 @@ ms.lasthandoff: 03/31/2017
 8.  设置零售产品。 作为此任务的一部分，您还可设置零售产品层次结构、产品变型和产品分类。
 9.  设置产品价格组。
 10. 设置零售产品定价。 作为此任务的一部分，您还可设置价格调整、折扣和折扣期间。
-11. 设置职员。 **注释：**还必须分配适当的权限。工作人员，因此，它们可以登录和执行任务使用工序 365 的 Dynamics Retail POS 的系统。
+11. 设置职员。 **注意：**您还必须向工作人员分配适当的权限，以便他们可使用适用于 Retail POS 系统的 Dynamics 365 for Operations 登录并执行任务。
 12. 配置要分配给商店的 Retail POS 配置文件。 此任务包括许多其他任务，例如，设置收银机、设置脱机配置文件和设置收据格式和配置文件。
 
 查看包含在先决任务中的所有任务，并仅完成适用于您的任务。
@@ -77,5 +80,7 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="organization-hierarchies"></a>组织层次结构
 Retail 在 Microsoft Dynamics AX 中使用组织层次结构以构造零售渠道。 组织层次结构表示构成贵企业组织之间的关系。 在您设置商店时，您可以添加到组织层次结构。 存储然后共享用于分类、补货和报告的数据。
+
+
 
 

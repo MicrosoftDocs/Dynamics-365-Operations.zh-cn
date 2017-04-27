@@ -1,6 +1,6 @@
 ---
 title: "主计划"
-description: "使用各种主计划来支持公司的日常运营、，模拟要监控的不同计划策略，并实现公司策略，如有关内部绩效或客户满意的策略。"
+description: "使用各种主计划来支持公司的日常运营、模拟要监控的不同计划策略、实现公司策略，例如有关内部绩效或客户满意度的政策。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="master-plans"></a>主计划
 
-使用各种主计划来支持公司的日常运营、，模拟要监控的不同计划策略，并实现公司策略，如有关内部绩效或客户满意的策略。 
+[!include[banner](../includes/banner.md)]
+
+
+使用各种主计划来支持公司的日常运营、模拟要监控的不同计划策略、实现公司策略，例如有关内部绩效或客户满意度的政策。 
 
 您可以配置**主计划**页上的主计划。
 
@@ -50,8 +53,10 @@ ms.lasthandoff: 03/31/2017
 
 [覆盖范围设置](coverage-settings.md)
 
-[分隔主计划编制的 http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)] (作战和有效的计划
+[主计划编制的分离策略和作业计划](http://blogs.msdn.com/b/axmfg/archive/2012/10/12/separating-tactical-and-operative-planning-for-master-scheduling.aspx)
 
-[主计划：使用的静态计划和动态主计划或使用计划？] (https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+[主计划：使用静态和动态主计划或使用一个计划？](https://community.dynamics.com/ax/b/msdynaxlessonslearned/archive/2014/01/16/master-planning-use-a-static-and-dynamic-master-plan-or-use-one-plan)
+
+
 
 

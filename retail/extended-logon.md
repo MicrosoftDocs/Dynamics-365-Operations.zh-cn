@@ -1,5 +1,5 @@
 ---
-title: "云和 POS 的安装端登录扩展的功能"
+title: "设置 Cloud POS 和 MPOS 的扩展登录功能"
 description: "此 wiki 介绍设置 Cloud POS 和 Retail Modern POS (MPOS) 扩展登录的选项。"
 author: josaw1
 manager: AnnBe
@@ -25,14 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>云和 POS 的安装端登录扩展的功能
+# <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>设置 Cloud POS 和 MPOS 的扩展登录功能
 
 此 wiki 介绍设置 Cloud POS 和 Retail Modern POS (MPOS) 扩展登录的选项。
 
 <a name="setting-up-extended-logon"></a>设置扩展登录
 =========================
 
-您可以查找条码掩码的设置在**零售和商务** &gt; **的设置渠道** &gt; **的设置 POS ** &gt; ** POS 模板** &gt; ** **功能配置文件。 **功能**快速选项卡包括与扩展登录有关的以下选项。
+您可以在**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **功能配置文件**找到条码掩码的设置。 **功能**快速选项卡包括与扩展登录有关的以下选项。
 
 ### <a name="staff-bar-code-logon"></a>职员条码登录
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 03/31/2017
 <a name="assigning-an-extended-logon"></a>分配扩展登录
 ===========================
 
-默认情况下，只有经理可以将扩展登录分配给工作人员。 若要分配扩展的登录到，请对**扩展的登录**在 POS。 多个工作的人员通过搜索为它们输入在搜索字段来的操作员 ID。 选择工作人员，然后单击**分配**。 在下一个页面，刷卡或扫描扩展登录以分配给工作人员。 如果成功读取刷卡或扫描，**确定**按钮将可用。 单击**确定**为该工作人员保存扩展登录。
+默认情况下，只有经理可以将扩展登录分配给工作人员。 要分配扩展登录，转到 POS 中的**扩展登录**。 然后通过在搜索字段中输入他或她的操作员 ID 搜索工作人员。 选择工作人员，然后单击**分配**。 在下一个页面，刷卡或扫描扩展登录以分配给工作人员。 如果成功读取刷卡或扫描，**确定**按钮将可用。 单击**确定**为该工作人员保存扩展登录。
 
 <a name="deleting-an-extended-logon"></a>删除扩展登录
 ==========================

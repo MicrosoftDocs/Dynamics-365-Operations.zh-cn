@@ -1,5 +1,5 @@
 ---
-title: "职位预算的故障排除"
+title: "职位预算编制疑难解答"
 description: "本文提供对配置职位预算时可能有的问题的解答。 其定位关于如何创建预算成本要素、薪酬组和薪酬网格的常见问题。"
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="position-budgeting-troubleshooting"></a>职位预算的故障排除
+# <a name="position-budgeting-troubleshooting"></a>职位预算编制疑难解答
+
+[!include[banner](../includes/banner.md)]
+
 
 本文提供对配置职位预算时可能有的问题的解答。 其定位关于如何创建预算成本要素、薪酬组和薪酬网格的常见问题。 
 
@@ -58,6 +61,8 @@ ms.lasthandoff: 03/31/2017
 -   职位的激活和报废日期。
 -   预算成本要素的激活日期和到期日期。
 -   与预测职位的预算计划流程相关的预算周期的开始日期和结束日期。
+
+
 
 
 

@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reuse-product-configurations"></a>重复使用产品配置
 
+[!include[banner](../includes/banner.md)]
+
+
 可以指定要自动重用产品的现有配置。 然后，当用户完成配置会话后，系统会验证匹配用户选择的配置是否存在。 如果找到匹配配置，则再用配置 ID、相应的物料清单 (BOM) 以及路径。
 
 <a name="requirements-for-reusing-configurations"></a>要再用配置的要求
@@ -41,5 +44,7 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="resetting-configuration-reuse"></a>重置配置重复使用
 在您重置配置重复使用后，不再考虑以前创建的配置。 更改物料清单或工艺路线，但不更改相关属性时，您可能要重置配置重复使用。 在该组件的“**常规**”快速选项卡上重置配置重复使用。
+
+
 
 

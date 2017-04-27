@@ -1,6 +1,6 @@
 ---
 title: "键盘快捷方式"
-description: "以下键盘快捷方式在 Microsoft Dynamics 365 会计申请操作。"
+description: "以下键盘快捷方式在整个 Microsoft Dynamics 365 for Operations. 中都适用。"
 author: jasongre
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
-以下键盘快捷方式在 Microsoft Dynamics 365 会计申请操作。 
+[!include[banner](../includes/banner.md)]
+
+
+以下键盘快捷方式在整个 Microsoft Dynamics 365 for Operations. 中都适用。 
 
 **注意：**此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
 
@@ -40,7 +43,7 @@ ms.lasthandoff: 03/31/2017
 | 移到菜单中的下一个/上一个选项            | 向下箭头/向上箭头            |
 | 在操作窗格或菜单中关闭一个选项卡          | Esc                              |
 | 模拟右键单击                            | Shift+F10                        |
-| 打开工序上下文菜单的 Dynamics 365 | Ctrl+F10                         |
+| 打开 Dynamics 365 for Operations. 上下文菜单 | Ctrl+F10                         |
 | 在窗体/对话框中执行默认按钮       | Alt+Enter                        |
 | 单击按钮或磁贴                            | Enter 或 Space                   |
 | 查看计数磁贴的刷新信息         | Alt+向上箭头                     |
@@ -64,7 +67,7 @@ ms.lasthandoff: 03/31/2017
 | 打开“速见表”窗格（或将焦点移至“速见表”窗格，如果它已经打开） | Ctrl+F2                                   |
 | 关闭“速见表”窗格（焦点在“速见表”窗格内）                         | Esc                                       |
 | 移到下一个/上一个速见表（焦点在“速见表”窗格内）              | Alt+Shift+向下箭头/Alt+Shift+向上箭头 |
-| 移到 &lt;&gt;第 n FactBox (与在 FactBox 窗格的焦点时)                | Alt+n&lt;&gt; n&gt; (&lt;= 1-9)           |
+| 移到第 &lt;n&gt; 个速见表（焦点在“速见表”窗格内）                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
 | 展开速见表（焦点在“速见表”窗格内）                             | Space 或 Enter                            |
 | 折叠当前速见表                                                    | Alt+0                                     |
 
@@ -111,8 +114,8 @@ ms.lasthandoff: 03/31/2017
 | 移到下一个/上一个字段                     | Tab / Shift+Tab                              |
 | 移到下一个/上一个选项卡                       | Alt+Shift+右箭头/Alt+Shift+左箭头 |
 | 移到下一个/上一个快速选项卡                   | Alt+Shift+向下箭头/Alt+Shift+向上箭头    |
-| 移到 &lt;&gt;第 FastTab n                     | Alt+n&lt;&gt; n&gt; (&lt;= 1-9)              |
-| 移到 &lt;&gt;第 n 选项卡                         | Alt+Shift+n&lt;&gt; n&gt; (&lt;= 1-9)        |
+| 移到第 &lt;n&gt; 个快速选项卡                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
+| 移到第 &lt;n&gt; 个选项卡                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
 | 展开快速选项卡（焦点在快速选项卡标头上） | Space 或 Enter                               |
 | 折叠当前快速选项卡                        | Alt+0                                        |
 | 切换到网格视图                                 | Ctrl+Shift+G                                 |
@@ -152,7 +155,7 @@ ms.lasthandoff: 03/31/2017
 | 打开查找、组合框、日期选择器、拖放对话框           | Alt+向下箭头                |
 | 关闭查找、组合框、日期选择器、拖放对话框          | Esc                           |
 | 将焦点移到查找内（在查找已打开时） | Alt+向下箭头                |
-| 打开"控制的预览。                        | Alt+向上箭头                  |
+| 打开控件的增强预览。                        | Alt+向上箭头                  |
 | 在当前字段中选择文本                           | Ctrl+A                        |
 | 进入/离开 HTML 编辑器控制中的文本区域        | Alt+向下箭头/Alt+向上箭头 |
 
@@ -174,18 +177,18 @@ ms.lasthandoff: 03/31/2017
 | 转到仪表板                                                       | Alt+Shift+Home  |
 | 转到导航栏                                                  | Alt+Shift+F1    |
 | 转到导航窗格                                                 | Alt + F1          |
-| Favorite/un 收藏窗体 (使用针对一个窗体的作为在导航窗格) | Shift+F         |
+| 收藏/取消收藏窗体（焦点位于导航窗格中的窗体） | Shift+F         |
 | 转到公司选择器                                                  | Ctrl+Shift+O    |
 | 转到导航搜索                                                   | Ctrl+/ 或 Alt+G |
-| 打开"帮助"窗格                                                        | Ctrl+?          |
-| 打开"跟踪将分析应用程序                                                     | Alt+Shift+T     |
+| 打开帮助窗格                                                        | Ctrl+?          |
+| 打开跟踪分析器                                                     | Alt+Shift+T     |
 
  
 
 ## <a name="segmented-entry-shortcuts"></a>细分的输入快捷方式
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **To do this**                                                                                                          | **Press**                        |
+| **要完成的任务**                                                                                                          | **按**                        |
 | 打开下拉列表（在下拉列表关闭时）                                                             | Alt+向下箭头                   |
 | 将焦点移到下拉列表中当前段的输入字段中（在下拉列表已打开时）。 | Alt+向下箭头                   |
 | 关闭下拉列表                                                                                                | Alt+向上箭头                     |
@@ -199,5 +202,7 @@ ms.lasthandoff: 03/31/2017
 | 移到查找的顶部/底部                                                                                    | Home / End                       |
 
  
+
+
 
 

@@ -1,6 +1,6 @@
 ---
-title: "配置产品建模 FAQ 的计算"
-description: "文章描述此配置的产品建模和计算与约束说明如何处理计算。"
+title: "产品配置模型的计算常见问题"
+description: "本文描述产品配置模型的计算。并说明如何与约束一起使用计算。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,9 +27,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="calculations-for-product-configuration-models-faq"></a>配置产品建模 FAQ 的计算
+# <a name="calculations-for-product-configuration-models-faq"></a>产品配置模型的计算常见问题
 
-文章描述此配置的产品建模和计算与约束说明如何处理计算。
+[!include[banner](../includes/banner.md)]
+
+
+本文描述产品配置模型的计算。并说明如何与约束一起使用计算。
 
 计算可以用于算术运算或逻辑运算。 它们补充产品配置模型的表达式约束。 您可以在**基于约束的产品配置模型详细信息**页上定义计算，然后在表达式编辑器中构建计算表达式。 有关详细信息，请参阅“创建计算”。
 
@@ -45,9 +48,9 @@ ms.lasthandoff: 03/31/2017
 
 在下面的表达式中，目标属性是桌布度量：  
 
-**表达式：**，如果\[decimalAttribute1 &lt;= decimalAttribute2，为 True，错误\]  
+**表达式：** If\[decimalAttribute1 &lt;= decimalAttribute2, True, False\]  
 
-** DecimalAttribute1 **长度是表，并且 decimalAttribute2 ** **是桌布长度。 如果 **decimalAttribute2** 大于或等于 **decimalAttribute1**，则表达式返回 **True** 值到目标属性。 否则，该表达式返回 **False** 值。 因此，如果桌布长度等于或超过桌子长度，则可接受桌布度量。
+**DecimalAttribute1** 是桌子长度，而 **decimalAttribute2** 是桌布长度。 如果 **decimalAttribute2** 大于或等于 **decimalAttribute1**，则表达式返回 **True** 值到目标属性。 否则，该表达式返回 **False** 值。 因此，如果桌布长度等于或超过桌子长度，则可接受桌布度量。
 
 ## <a name="what-attribute-types-can-be-set-to-target-attributes"></a>对目标属性可以设置何种属性类型？
 除了没有固定列表的文本，产品配置器支持的所有属性类型均可设置为目标属性。
@@ -57,11 +60,11 @@ ms.lasthandoff: 03/31/2017
 
 ### <a name="example"></a>示例
 
-在以下表达式，计算的目的是电源行的长度，并且输入值为颜色：  
+在下面的表达式中，计算的目标是电源线的长度，并且输入值为颜色：  
 
-**表达式：** \[，如果==颜色“绿色”，\[，1.5\]  
+**表达式：**\[If Color == "Green", 1.5, 1.0\]  
 
-在配置物料时，电源行的长度设置** ** 1.5，则指定**颜色为绿色**属性值。 如果您指定其他颜色，该长度设置为 **1.0**。 但是，由于计算为单向，如果您指定长度为 **1.5**，计算不能将颜色属性的值设置为**绿色**。
+果您指定**绿色**为颜色属性的值，则设置电源线的长度为 **1.5**。 如果您指定其他颜色，该长度设置为 **1.0**。 但是，由于计算为单向，如果您指定长度为 **1.5**，计算不能将颜色属性的值设置为**绿色**。
 
 ## <a name="what-happens-if-a-calculation-has-a-target-attribute-of-the-integer-type-but-a-calculation-generates-a-decimal-number"></a>如果计算具有整数类型的目标属性，但是计算生成了一个小数，此时将发生什么情况？
 如果目标属性是整数类型，不过，计算生成小数，则只返回计算结果的整数部分。 移除小数部分，且不舍入结果。 例如，结果为 12.70 将显示为 12。
@@ -72,16 +75,16 @@ ms.lasthandoff: 03/31/2017
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>我可以覆盖为目标属性计算的值吗？
 您可以覆盖为目标属性计算的值，除非目标属性被设置为隐藏或只读状态。
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>如何设置目标属性为隐藏或只读？
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>如何将目标属性设置为隐藏或只读？
 若要设置处于隐藏或只读状态的属性，请执行以下步骤。
 
-1.  **单击产品信息管理** &gt; **常见** &gt; ** **配置产品建模。
+1.  单击**产品信息管理** &gt; **通用** &gt; **产品配置模型**。
 2.  选择产品配置模型，然后在“操作窗格”上，单击 **编辑**。
 3.  在”**基于约束的产品配置模型详细信息**“页上，选择用作目标属性的属性。
 4.  在**属性**快速选项卡上，选择**隐藏**或**只读**。
 
 ## <a name="can-a-calculation-overwrite-the-values-that-i-set"></a>计算可以覆盖我设置的值吗？
-编号 您可以设置，在配置产品时使用的值。 在计算中更改输入值时出现的计算不能覆盖您为特定属性提供的值。
+编号 在您配置产品时您设置的值即为所使用的值。 在计算中更改输入值时出现的计算不能覆盖您为特定属性提供的值。
 
 ## <a name="what-happens-if-i-remove-an-input-value-in-a-calculation"></a>如果我移除计算中的输入值会发生什么情况？
 如果您移除计算中的输入值，目标属性的值也将被移除。
@@ -93,13 +96,15 @@ ms.lasthandoff: 03/31/2017
 -   冲突存在于以下两个元素之间：
     -   可用于属性的值与由约束限制的值
     -   由计算产生的值
--   由计算返回的值超出属性的域之外。 示例是从计算为 0 \[1..10 将一\] 整数。
+-   由计算返回的值超出属性的域之外。 示例是计算为 0 的从 \[1..10\] 的一个整数。
 
 ## <a name="why-do-i-receive-an-error-message-even-though-i-successfully-validated-my-product-model"></a>为什么即使在我成功验证了我的产品模型后仍收到错误消息？
 验证中并不包括计算。 您必须测试产品配置模型以查找计算中的错误。 若要测试产品配置模型，请按照下面的步骤执行。
 
-1.  **单击产品信息管理** &gt; **常见** &gt; ** **配置产品建模。
+1.  单击**产品信息管理** &gt; **通用** &gt; **产品配置模型**。
 2.  选择产品配置模型，然后在“操作窗格”上，在**运行**组中单击**测试**。
+
+
 
 
 

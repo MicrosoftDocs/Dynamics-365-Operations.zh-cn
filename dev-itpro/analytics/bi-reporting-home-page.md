@@ -1,6 +1,6 @@
 ---
-title: "BI &amp; 报告主页"
-description: "此主题所列 BI &amp; 可用于以&quot; Microsoft Dynamics 365 中为报告工序的资源。"
+title: "BI &amp; 申报主页"
+description: "本主题列出了 Microsoft Dynamics 365 for Operations 中可用的 BI &amp; 申报资源。"
 author: sericks007
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,26 +24,29 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="bi-amp-reporting-home-page"></a>BI &amp; 报告主页
+# <a name="bi-amp-reporting-home-page"></a>BI &amp; 申报主页
 
-此主题所列 BI &amp; 可用于以" Microsoft Dynamics 365 中为报告工序的资源。
+[!include[banner](../includes/banner.md)]
+
+
+本主题列出了 Microsoft Dynamics 365 for Operations 中可用的 BI &amp; 申报资源。 
 
 <a name="working-with-aggregate-data"></a>处理聚合数据
 ---------------------------
 
--   [Analytics](analytics.md)
+-   [分析](analytics.md)
 -   [内存中实时聚合模型替代 SSAS 多维数据集](..\migration-upgrade\in-memory-real-time-aggregate-models.md)
--   [建模和使用聚合数据模型 data.md] (合计)
--   [则迁移呈报的 Dynamics AX 2012 R3 多维数据集转移到销售实体商店] (。迁移升级\ \迁移升级多维数据集实体 store.md)
+-   [建模和使用聚合数据](model-aggregate-data.md)
+-   [将升级的 Dynamics AX 2012 R3 销售多维数据集迁移到实体商店](..\migration-upgrade\migrate-upgraded-cube-entity-store.md)
 
 ## <a name="self-service-reporting"></a>自助服务报告
--   [Power BI integration](power-bi-integration.md)
+-   [Power BI 集成](power-bi-integration.md)
 -   [为工作区配置 Power BI 集成](configure-power-bi-integration.md)
 -   [通过使用 Microsoft Dynamics 365 for Operations 数据创建 Power BI 报表](create-powerbi-report-data.md)
--   [为 Power BI 报表和仪表板] (创建 powerbi 报表 dashboard.md)
--   [零售渠道性能 Power BI 内容] (零售通道性能仪表板高级 BI data.md)
--   [] Power BI 财务业绩内容 (财务绩效 BI 的内容 pack.md)
--   [销售和现金流入能力性能 Power BI 内容] (增值收益率能力性能 pack.md 内容)
+-   [创建 Power BI 报表和仪表板](create-powerbi-report-dashboard.md)
+-   [零售渠道绩效 Power BI 内容](retail-channel-performance-dashboard-power-bi-data.md)
+-   [财务绩效 Power BI 内容](financial-performance-power-bi-content-pack.md)
+-   [销售和收益率绩效 Power BI 内容](sales-profitability-performance-content-pack.md)
 -   [使用电子申报配置为 Power BI 提供来自 Dynamics 365 for Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
 ## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>在 Dynamics 365 for Operations 客户端构建嵌入式分析体验
@@ -95,6 +98,8 @@ ms.lasthandoff: 03/31/2017
 -   [ER 在格式输出中使用票据管理文件（第 5 部分：修改和运行格式）](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/)（任务指南）
 -   [ER 使用格式配置生成付款的电子单据](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/)（任务指南）
 -   [ER 通过采用该格式的新的基本版本升级格式](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/)（任务指南）
+
+
 
 
 

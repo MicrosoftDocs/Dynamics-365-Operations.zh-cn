@@ -1,5 +1,5 @@
 ---
-title: "配置在工作流中的任务自动化"
+title: "在工作流中配置自动化任务"
 description: "本主题说明如何配置自动化任务的属性。"
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>配置在工作流中的任务自动化
+# <a name="configure-an-automated-task-in-a-workflow"></a>在工作流中配置自动化任务
+
+[!include[banner](../includes/banner.md)]
+
 
 本主题说明如何配置自动化任务的属性。
 
@@ -92,16 +95,18 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>工序特定用户的 Microsoft Dynamics 365</td>
+    <td>特定 Microsoft Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong> 列表包括工序用户的所有 Dynamics 365。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
+    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
     </ol></td>
     </tr>
     </tbody>
     </table>
 
 8.  对您在第 2 步中选择的每个事件重复 第 3 步到第 7 步。
+
+
 
 
 

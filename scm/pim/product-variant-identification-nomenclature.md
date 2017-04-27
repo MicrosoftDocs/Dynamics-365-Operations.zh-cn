@@ -1,6 +1,6 @@
 ---
-title: "产品编号命名原则"
-description: "此主题介绍如何设置产品编号替换命名原则此类窗体中，固定 [基础产品编号-配置-尺寸-颜色-样式]，其中包括您的选择基础产品编号、有效产品维度文本和分隔符中针对的格式。 您还可以构建命名法以识别由基于约束的产品配置器创建的配置。 这些命名法可包含您选择的属性。"
+title: "产品编号命名法"
+description: "本主题介绍您可以如何设置产品编号命名法以替换固定格式，[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式]，其中目标格式包括基础产品编号、有效的产品维度以及您选择的文本分隔符。 您还可以构建命名法以识别由基于约束的产品配置器创建的配置。 这些命名法可包含您选择的属性。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="product-number-nomenclature"></a>产品编号命名原则
+# <a name="product-number-nomenclature"></a>产品编号命名法
 
-此主题介绍如何设置产品编号替换命名原则此类窗体中，固定 [基础产品编号-配置-尺寸-颜色-样式]，其中包括您的选择基础产品编号、有效产品维度文本和分隔符中针对的格式。 您还可以构建命名法以识别由基于约束的产品配置器创建的配置。 这些命名法可包含您选择的属性。
+[!include[banner](../includes/banner.md)]
+
+
+本主题介绍您可以如何设置产品编号命名法以替换固定格式，[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式]，其中目标格式包括基础产品编号、有效的产品维度以及您选择的文本分隔符。 您还可以构建命名法以识别由基于约束的产品配置器创建的配置。 这些命名法可包含您选择的属性。
 
 新的产品变型编号命名法允许您将细分信息包括在产品变型标识符中。 这些细分信息可能包括基础产品编号、产品维度、编号规则、文本常量和属性。 在您创建销售订单或采购订单时，此功能可以快速查找特定产品变型。
 
@@ -66,8 +69,8 @@ T 恤衫 (TS1234) 生产 3 种不同尺寸（小码，中码，大码），4 种
 
 红色小码 Polo 衫的产品变型编号为：TS1234-Red-Small-Polo。
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>配置 constraintbased 命名原则
-对于基于约束的配置，一个专用的命名该原则可以为配置产品维度建立。 您可以选择以下**产品命名法**页面上的细分信息。
+## <a name="nomenclature-of-constraintbased-configurations"></a>基于约束的配置命名法
+对于基于约束的配置，可以为配置产品维度构建专门的命名法。 您可以选择以下**产品命名法**页面上的细分信息。
 
 -   编号规则值
 -   文本常量
@@ -90,8 +93,8 @@ T 恤衫 (TS1234) 生产 3 种不同尺寸（小码，中码，大码），4 种
 
 长度为 78 的木质材料的配置 ID 将具有以下配置 ID：WoodAAA78。
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>配置 dimensionbased 命名原则
-对于基于维度的配置，一个专用的命名该原则可以为配置产品维度建立。 您可以选择以下**产品命名法**页面上的细分信息。
+## <a name="nomenclature-of-dimensionbased-configurations"></a>基于维度的配置命名法
+对于基于维度的配置，可以为配置产品维度构建专门的命名法。 您可以选择以下**产品命名法**页面上的细分信息。
 
 -   编号规则值
 -   文本常量
@@ -132,7 +135,7 @@ T 恤衫 (TS1234) 生产 3 种不同尺寸（小码，中码，大码），4 种
 在此示例中，您可以使用包括以下细分信息的产品变型编号命名法：
 
 1.  基础产品编号
-2.  文本"定额"“\_”
+2.  文本常量“\_”
 3.  配置
 
 配置命名法可以由以下细分信息组成：
@@ -147,7 +150,7 @@ T 恤衫 (TS1234) 生产 3 种不同尺寸（小码，中码，大码），4 种
 -   材料 = 塑料
 -   长度 = 12
 
-产品变型编号将成为：M0099\_PlasticAAA12。
+产品变型编号将为：M0099\_PlasticAAA12。
 
 ### <a name="example-for-dimension-based-configurations"></a>基于维度的配置示例
 
@@ -180,7 +183,7 @@ T 恤衫 (TS1234) 生产 3 种不同尺寸（小码，中码，大码），4 种
 
 ### <a name="constraint-based-configurations"></a>基于约束的配置
 
-根据命名法，系统可能尝试为配置分配一个非唯一的产品变型编号。 在这种情况下，系统为配置维度将使用编号规则为产品变型编号。 如果发生这种情况，将收到警告。 为避免出现这种情况，您应在命名法中包含足够的属性，以确保唯一性，且确保打开该组件的“**重复使用**”选项。
+根据命名法，系统可能尝试为配置分配一个非唯一的产品变型编号。 在这种情况下，系统将使用配置维度的编号规则作为产品变型编号。 如果发生这种情况，您将收到警告。 为避免出现这种情况，您应在命名法中包含足够的属性，以确保唯一性，且确保打开该组件的“**重复使用**”选项。
 
 ### <a name="dimension-based-configurations"></a>基于维度的配置
 
@@ -191,8 +194,10 @@ T 恤衫 (TS1234) 生产 3 种不同尺寸（小码，中码，大码），4 种
 <a name="see-also"></a>请参阅
 --------
 
-[创建预定义的产品变型 (的任务指南)] 一个命名原则产品编号 (http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
+[为预定义的产品变型创建产品编号命名法（任务指南）](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-predefined-product-variants/)
 
-[请创建已配置的产品变型 (的任务指南)] 一个命名原则产品编号 (http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+[为配置的产品变型创建产品编号命名法（任务指南）](http://ax.help.dynamics.com/en/wiki/create-a-product-number-nomenclature-for-configured-product-variants/)
+
+
 
 

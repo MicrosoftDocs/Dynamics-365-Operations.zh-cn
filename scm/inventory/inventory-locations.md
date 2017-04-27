@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-locations"></a>库存库位
 
+[!include[banner](../includes/banner.md)]
+
+
 库存库位用于与基本仓库 (WMS I) 一同确定物料的存储位置和从 WMS I 仓库领取物料的位置。
 
 此主题适用于库存管理模块中的功能。 它不适用于仓库管理模块中的功能。
@@ -64,6 +67,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[请创建一个新的布局 (仓库)] 任务指南 (https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+[创建新仓库布局（任务指南）](https://ax.help.dynamics.com/en/wiki/create-a-new-warehouse-layout/)
+
+
 
 

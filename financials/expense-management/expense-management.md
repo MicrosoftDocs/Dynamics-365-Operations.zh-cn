@@ -26,8 +26,13 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="expense-management"></a>费用报销管理
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 [计划支出管理](plan-expense-management.md) 稍后将添加更多信息；请尽快返回查看。
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="time-and-attendance-registration"></a>考勤管理登记
 
+[!include[banner](../includes/banner.md)]
+
+
 时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。 本文介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。 
 
 <a name="registrations"></a>登记
@@ -62,7 +65,7 @@ ms.lasthandoff: 03/31/2017
 -   间接活动，即，工作人员可能在工作日期间涉及的非生产活动。 这些活动的示例包括会议或清洁其工作区。
 -   加班，可以登记为额外工时、弹性工作时间或加班时间。
 
-## <a name="adding-clockout-registrations"></a>添加 clockout 登记
+## <a name="adding-clockout-registrations"></a>添加下班打卡登记
 如果某个员工忘记在工作日结束时下班打卡，则可以通过运行批处理作业添加遗漏的登记。 系统将根据工作人员的关联模板比较上班打卡时间和下班打卡时间，而且自动插入遗漏的下班打卡登记并与模板的结束时间匹配。 上班打卡和下班打卡登记对于时间登记的后续计算和审核很重要，然后它们才能转移到工资单。
 
 ## <a name="calculating-registrations"></a>计算登记
@@ -113,6 +116,8 @@ ms.lasthandoff: 03/31/2017
 -   时间消耗量
 -   项目费用
 -   项目物料
+
+
 
 
 

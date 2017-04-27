@@ -26,12 +26,15 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="close-accounts-receivable"></a>关闭应收帐款
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 下表列出了支持应收帐款关帐业务流程的页面。
 
 > [!NOTE] 
-> 若要打开特定页。表中，您必须指定输入信息或参数设置。
+> 要打开该表中的一些页面，您必须输入信息或指定参数设置。
 
 **业务流程组件任务**                   
 
@@ -43,13 +46,13 @@ ms.lasthandoff: 03/31/2017
 |确认销售订单                   | 更新销售订单。                                                                       |
 |外币重估          | 生成以外币更新未结客户交易记录的值的交易记录。                                                                                                                         |
 | 生产订单日记帐                              | 过帐发票、付款和本票。                                             |
-| 日记帐凭证                      | -   **Payment journal** – Generate, process, and post payments.
+| 日记帐凭证                      | -   **付款日志** – 生成、处理和过帐付款。
                                          -   **Draw bill of exchange journal** – Post bills of exchange.
                                          -   **Protest bill of exchange journal** – Post protested bills of exchange.
                                          -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
                                          -   **Remittance journal** – Post remittances.
                                          -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-_=_过帐装箱单_=_更新销售订单的装箱单。                                                     _=__=_过帐普通发票_=_过帐普通发票。                                                                   _=__=_过帐发票_=_过帐销售订单的发票。                                                            _=__=_过帐领料单_=_更新销售订单的领料单。                                                      |
+| 装箱单过帐                 | 更新销售订单的装箱单。                                                     | | 过帐普通发票               | 过帐普通发票。                                                                   | | 过帐发票                      | 过帐销售订单的发票。                                                            | | 过帐领料单                 |更新销售订单的领料单。                                                      |
 
 **业务流程组件任务**   
 
@@ -58,6 +61,8 @@ _=_过帐装箱单_=_更新销售订单的装箱单。                          
 | 页面名称                            | 用法                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------|
 |欧盟销售清单                         | 出于增值税 (VAT) 申报目的向税务主管机构申报的欧盟 (EU) 销售                                                                                                                           |
+
+
 
 
 

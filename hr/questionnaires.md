@@ -1,6 +1,6 @@
 ---
 title: "调查表"
-description: "此主题提供与调查表有关的一般信息，并链接到更多详细。 调查表是一组问题，用于收集信息以达到各种目的。 您可以设计、创建、分发和完成调查表，然后对结果进行分析。"
+description: "本主题提供了有关调查表的一般信息以及指向更多详细信息的链接。 调查表是一组问题，用于收集信息以达到各种目的。 您可以设计、创建、分发和完成调查表，然后对结果进行分析。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="questionnaires"></a>调查表
 
-此主题提供与调查表有关的一般信息，并链接到更多详细。 调查表是一组问题，用于收集信息以达到各种目的。 您可以设计、创建、分发和完成调查表，然后对结果进行分析。 
+[!include[banner](includes/banner.md)]
 
-您可以自定义调查表满足您特定的需求通过使用可用于以" Microsoft Dynamics 365。工序中的各种功能。 以下是有关如何使用调查表的一些示例：
+
+本主题提供了有关调查表的一般信息以及指向更多详细信息的链接。 调查表是一组问题，用于收集信息以达到各种目的。 您可以设计、创建、分发和完成调查表，然后对结果进行分析。 
+
+通过使用 Microsoft Dynamics 365 for Operations 中提供的各种功能，您可以自定义调查表来满足您的特定要求。 以下是有关如何使用调查表的一些示例：
 
 -   测试员工和申请人的职业技能。
 -   评估课程参与者是否已学习课程材料。
@@ -42,9 +45,9 @@ ms.lasthandoff: 03/31/2017
 
 | 主题| 说明|
 |------|------------|
-| [Design a questionnaire](design-questionnaires.md)  | 本文提供了有关如何设计调查表的信息。 设计流程包括设置先决条件、回答和问题，然后将这些内容并入调查表中。 |
-| [Distribute and complete a questionnaire](distribute-questionnaires.md)  | 本文提供了有关如何向回应者分发调查表以及如何完成调查表的信息。                                                                       |
-| [View and evaluate the results of a questionnaire](evaluate-questionnaire-results.md) | 本文提供了有关如何查看和评估已完成调查表的结果的信息。                                                                                        |
+| [设计调查表](design-questionnaires.md)  | 本文提供了有关如何设计调查表的信息。 设计流程包括设置先决条件、回答和问题，然后将这些内容并入调查表中。 |
+| [分配和完成调查表](distribute-questionnaires.md)  | 本文提供了有关如何向回应者分发调查表以及如何完成调查表的信息。                                                                       |
+| [查看和评估调查表的结果](evaluate-questionnaire-results.md) | 本文提供了有关如何查看和评估已完成调查表的结果的信息。                                                                                        |
 
 
 
@@ -55,6 +58,8 @@ ms.lasthandoff: 03/31/2017
 
 [分发和完成调查表](distribute-questionnaires.md)
 
-查看调查表结果和评估 [] (评估调查表 results.md)
+[查看和评估调查表的结果](evaluate-questionnaire-results.md)
+
+
 
 

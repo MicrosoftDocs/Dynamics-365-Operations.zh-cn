@@ -1,6 +1,6 @@
 ---
 title: "预算计划数据分配"
-description: "文章此描述可用于以&quot; Microsoft Dynamics 365 中的工序不同的方法分配，以及如何可以使用它们。"
+description: "本文介绍 Microsoft Dynamics 365 for Operations 中可用的不同分配方法以及如何使用它们。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,15 +28,18 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="budget-planning-data-allocation"></a>预算计划数据分配
 
-文章此描述可用于以" Microsoft Dynamics 365 中的工序不同的方法分配，以及如何可以使用它们。  
+[!include[banner](../includes/banner.md)]
+
+
+本文介绍 Microsoft Dynamics 365 for Operations 中可用的不同分配方法以及如何使用它们。  
 
 您可以采用各种方式分配预算计划中的数据以准确地描述预计金额。
 
 ## <a name="allocation-methods"></a>分配方法
 三种分配方法（“跨期分配”、“分配到维度”和“使用分类帐分配规则”）可创建基于同一预算计划中的行的预算计划行。 另外三种方法（“聚合”、“分配”和“从预算计划复制”）可创建其他预算计划中的预算计划行。 对于所有六种分配方法，您指定目标方案。 目标方案可以是与源方案相同或不相同的方案。 或者，您可以指定新行是否追加到预算计划或替换预算计划中的当前行。
 
-[] (![AllocateAcrossPeriods。/media/allocateacrossperiods-300x259.png)](。/media/allocateacrossperiods.png)
-** {{请：across}}在期间中分配** –期间分配类别用于分配预算的源计划方案行在预算计划在目标方案的期间中。 源金额将基于期间分配类别中定义的百分比和日期分配到目标方案中的多行。         
+[![AllocateAcrossPeriods](./media/allocateacrossperiods-300x259.png)](./media/allocateacrossperiods.png)
+ **跨期分配** - 期间分配类别用于跨目标方案中的期间分配源预算计划方案中的预算计划行。 源金额将基于期间分配类别中定义的百分比和日期分配到目标方案中的多行。         
 
 [![AllocateToDimensions](./media/allocatetodimensions.jpg)](./media/allocatetodimensions.jpg)
 **分配到维度** - 预算计划行将基于所选预算期限中定义的百分比和财务维度从源预算计划方案中分配到目标方案中的一行或多行。           
@@ -56,9 +59,9 @@ ms.lasthandoff: 03/31/2017
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>在预算计划中使用分配方法
 要在预算计划页面上执行分配，请选择要分配的行，然后单击**“分配预算”**。
 
-[] (![AllocateBudgetButton。/media/allocatebudgetbutton-300x84.png)](。/media/allocatebudgetbutton.png) 
+[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
-接下来，选择要使用的分配方法。 然后基于所选的方法设置剩余字段。 这些字段包含预算计划数据的源和目标以及一个选项，利用此选项，您可以在创建目标金额时用源乘以某个指定的系数，以便简化大量调整。 您还可以设置**“追加到计划”**选项。 选择**“否”**替换现有预算计划行，或者选择**“是”**保留现有预算计划行并为分配的金额添加新行。
+接下来，选择分配方法。 然后基于所选的方法设置剩余字段。 这些字段包含预算计划数据的源和目标以及一个选项，利用此选项，您可以在创建目标金额时用源乘以某个指定的系数，以便简化大量调整。 您还可以设置**“追加到计划”**选项。 选择**“否”**替换现有预算计划行，或者选择**“是”**保留现有预算计划行并为分配的金额添加新行。
 
 ## <a name="automating-allocations-during-a-workflow"></a>自动工作流期间的分配
 一种强大的功能使得分配能够作为预算计划工作流中的一部分自动执行。 由于预算计划在其工作流中移动，因此自动化任务可在某个指定预算计划阶段中调用分配。 
@@ -69,6 +72,8 @@ ms.lasthandoff: 03/31/2017
 
 最后，在所需的工作流阶段处为预算计划阶段分配添加自动化任务。 在以下示例中，两个预算计划阶段分配（用红色标出）已插入到工作流中。
 
-[] (![BudgetPlanningStageAllocations。/media/budgetplanningstageallocations-300x300.png)](。/media/budgetplanningstageallocations.png)
+[![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
+
+
 
 

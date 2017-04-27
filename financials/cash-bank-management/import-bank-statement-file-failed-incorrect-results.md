@@ -1,6 +1,6 @@
 ---
 title: "银行对帐单文件导入故障排除"
-description: "很重要的匹配从银行的银行对帐单文件工序的 Microsoft Dynamics 365 支持的布局。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
+description: "银行的银行对帐单文件与 Microsoft Dynamics 365 for Operations 支持的布局匹配非常重要。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="bank-statement-file-import-troubleshooting"></a>银行对帐单文件导入故障排除
 
-很重要的匹配从银行的银行对帐单文件工序的 Microsoft Dynamics 365 支持的布局。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
+[!include[banner](../includes/banner.md)]
+
+
+银行的银行对帐单文件与 Microsoft Dynamics 365 for Operations 支持的布局匹配非常重要。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
 
 <a name="what-is-the-error"></a>错误是什么？
 ------------------
@@ -34,16 +37,16 @@ ms.lasthandoff: 03/31/2017
 在尝试导入银行对帐单文件后，请转到数据管理作业历史记录及其执行详细信息查找错误。 错误可以通过指定报表、余额或报表行提供帮助。 但是，不大可能提供足够的信息来帮助您确定导致问题的字段或元素。
 
 ## <a name="what-are-the-differences"></a>有哪些差异？
-比较银行文件格式定义的工序定义的导入 Microsoft Dynamics 365，并注明在字段和元素中的任何差异。 比较银行对帐单文件与工序相关示例文件的 Dynamics 365。 在文件 ISO20022 差额，应易于查看。
+比较银行文件布局定义与 Microsoft Dynamics 365 for Operations 导入定义，注意字段和元素中的任何差异。 比较银行对帐单文件与相关示例 Dynamics 365 for Operations 文件。 在 ISO20022 文件中，应易于查看任何差异。
 
 ## <a name="transformations"></a>转换
 通常，必须在三个转换之一中进行更改。 每个转换为特定标准写入。
 
 | 资源名称                                         | 文件名                          |
 |-------------------------------------------------------|------------------------------------|
-| BankStmtImport\_到\_BAI2XML\_xslt 的 BAI2CSV\_            | BAI2CSV-to-BAI2XML.xslt            |
-| BankStmtImport\_到\_对帐\_xslt 的 ISO20022XML\_ | ISO20022XML-to-Reconciliation.xslt |
-| BankStmtImport\_到\_MT940XML\_xslt 的 MT940TXT\_          | MT940TXT-to-MT940XML.xslt          |
+| BankStmtImport\_BAI2CSV\_to\_BAI2XML\_xslt            | BAI2CSV-to-BAI2XML.xslt            |
+| BankStmtImport\_ISO20022XML\_to\_Reconciliation\_xslt | ISO20022XML-to-Reconciliation.xslt |
+| BankStmtImport\_MT940TXT\_to\_MT940XML\_xslt          | MT940TXT-to-MT940XML.xslt          |
 
 ## <a name="debugging-transformations"></a>调试转换
 ### <a name="adjust-the-bai2-and-mt940-files"></a>调整 BAI2 和 MT940 文件
@@ -68,7 +71,7 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 5.  设置对银行对帐单文件位置的输入。
 6.  定义输出的位置和文件名。
 7.  设置必需的断点。
-8.  在菜单中，单击** XML ** &gt; **则启动 XSLT **调试。
+8.  在菜单上，单击 **XML** &gt; **启动 XSLT 调试**。
 
 ### <a name="format-the-xslt-output"></a>设置 XSLT 输出格式
 
@@ -76,7 +79,7 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 
 ### <a name="adjust-the-transformation"></a>调整转换
 
-调整转换以获取银行对帐单文件中的相应字段或元素。 则该字段映射或元素分配给工序元素的相应 Dynamics 365。
+调整转换以获取银行对帐单文件中的相应字段或元素。 然后将该字段或元素映射到相应的 Dynamics 365 for Operations 元素。
 
 ### <a name="debitcredit-indicator"></a>借方/贷方指示符
 
@@ -87,7 +90,7 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator 模板
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>银行对帐单格式和技术布局的示例
-下表列出了高级银行对帐导入文件技术布局定义的示例和三个相关银行对帐单示例文件。 实例可以下载文件和技术布局此处：https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+下表列出了高级银行对帐导入文件技术布局定义的示例和三个相关银行对帐单示例文件。 可从以下网址下载示例文件和技术布局：https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | 技术布局定义                             | 银行对帐单示例文件          |
@@ -95,6 +98,8 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
+
+
 
 
 

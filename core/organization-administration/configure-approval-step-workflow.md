@@ -1,5 +1,5 @@
 ---
-title: "配置在工作流的审核步骤"
+title: "配置工作流中的审核步骤"
 description: "本主题说明如何配置审核步骤的属性。"
 author: sericks007
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-step-in-a-workflow"></a>配置在工作流的审核步骤
+# <a name="configure-an-approval-step-in-a-workflow"></a>配置工作流中的审核步骤
+
+[!include[banner](../includes/banner.md)]
+
 
 本主题说明如何配置审核步骤的属性。
 
@@ -124,10 +127,10 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="even">
     <td>用户</td>
-    <td>工序特定用户的 Microsoft Dynamics 365</td>
+    <td>特定 Microsoft Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong> 列表包括工序用户的所有 Dynamics 365。 选择要向其分配步骤的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其分配步骤的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +232,10 @@ ms.lasthandoff: 03/31/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>工序的特定用户 Dynamics 365</td>
+    <td>特定 Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong> 列表包括工序用户的所有 Dynamics 365。 选择要向其呈报文档的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其呈报文档的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     </tbody>
@@ -247,6 +250,8 @@ ms.lasthandoff: 03/31/2017
 
 5.  对每个应添加到呈报路线的用户重复第 3 步到第 4 步。 您可以更改用户的顺序。
 6.  如果呈报路线中的用户未在分配的时间内响应，则系统将自动对该文档采取操作。 若要指定系统执行的操作，选择**操作**行，然后，在**结束操作**选项卡上，选择一项操作。
+
+
 
 
 

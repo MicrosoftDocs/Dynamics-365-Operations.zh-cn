@@ -26,9 +26,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-orders-for-a-project"></a>项目的采购订单
 
+[!include[banner](../includes/banner.md)]
+
+
 本文介绍您可用于为项目创建采购订单的不同方法。 使用的方法取决于当消耗采购物料和将采购物料费用计入项目时，采购订单的用途。
 
-在工序的 Microsoft Dynamics 365 中，您可以使用多个方法创建项目的采购订单。 使用的方法取决于当消耗采购物料和将采购物料费用计入项目时，采购订单的用途。
+在 Microsoft Dynamics 365 for Operations 中，您可以使用多种方法创建项目的采购订单。 使用的方法取决于当消耗采购物料和将采购物料费用计入项目时，采购订单的用途。
 
 ### <a name="methods-for-creating-a-purchase-order"></a>创建采购订单的方法
 
@@ -71,6 +74,8 @@ ms.lasthandoff: 03/31/2017
 </table>
 
 > [!NOTE] 
-> 当您更新供应商发票或装箱单时，系统将提示您根据物料需求更新该装箱单。
+> 更新供应商发票或装箱单时，系统将提示您根据物料需求更新该装箱单。
+
+
 
 

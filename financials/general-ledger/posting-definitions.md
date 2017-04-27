@@ -59,5 +59,5 @@ ms.lasthandoff: 03/31/2017
 -   您可以分配过帐定义到任何交易记录类型，但是，交易记录类型必须作为过帐定义在同一模块。 使用**交易记录过帐定义**页可以查看交易记录类型在哪个模块。
 
 
-有关详细信息，请参阅过帐定义示例 [] (/general ledger/example 过帐 definitions.md)。 
+有关详细信息，请参阅[过帐定义示例](/general-ledger/example-posting-definitions.md)。 
 

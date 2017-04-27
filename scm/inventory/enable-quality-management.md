@@ -1,5 +1,5 @@
 ---
-title: "质量管理概览"
+title: "质量管理概述"
 description: "本文介绍如何在 Microsoft Dynamics 365 for Operations 中使用质量管理来帮助改进您的供应链中的产品质量。"
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="quality-management-overview"></a>质量管理概览
+# <a name="quality-management-overview"></a>质量管理概述
+
+[!include[banner](../includes/banner.md)]
+
 
 本文介绍如何在 Microsoft Dynamics 365 for Operations 中使用质量管理来帮助改进您的供应链中的产品质量。
 
@@ -344,7 +347,7 @@ ms.lasthandoff: 03/31/2017
 </tr>
 <tr class="even">
 <td>测试变量结果</td>
-<td>使用此页面可以设置、编辑和查看与定性测试关联的测试变量的可能测试结果。 对于每个结果，您分配“通过”<strong></strong>或“未通过”<strong></strong>状态。 您必须在“测试”<strong></strong>页上定义的每个定性测试定义变量及其结果。 (有关质量测试，该测试类型。{{至：to}} <strong>选项</strong> {{开：on}} <strong>测试</strong> 页面设置。) 页面来 <strong>测试组</strong> 分配测试变量和默认结果到单个质量测试。</td>
+<td>使用此页面可以设置、编辑和查看与定性测试关联的测试变量的可能测试结果。 对于每个结果，您分配“通过”<strong></strong>或“未通过”<strong></strong>状态。 您必须在“测试”<strong></strong>页上定义的每个定性测试定义变量及其结果。 （对于定性测试，测试类型在<strong>测试</strong>页上设置为<strong>选项</strong>。）使用<strong>测试组</strong>页可以将测试变量和默认结果分配给单独的定性测试。</td>
 <td>一个生产饼干的制造公司对成品使用检查测试。 此检查测试具有多个变量。 一个变量是味道，并且此变量的可能结果是好和坏。 第二个变量是颜色，其可能结果是过暗、过浅和正好。 会为每个结果分配一个“通过”<strong></strong>或“未通过”<strong></strong>的状态。 在各个变量的检查测试期间，检查员将通过选择其中一个结果报告测试结果。</td>
 </tr>
 </tbody>
@@ -355,8 +358,10 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Quality management processes](quality-management-processes.md)
+[质量管理流程](quality-management-processes.md)
 
 [启用未达标管理](enable-nonconformance-management.md)
+
+
 
 

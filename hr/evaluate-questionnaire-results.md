@@ -1,6 +1,6 @@
 ---
 title: "查看和评估调查表的结果"
-description: "本主题说明了如何查看评估和回应者已完成调查表的结果。"
+description: "本主题介绍如何查看和评估回应者完成的调查表的结果。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>查看和评估调查表的结果
 
-本主题说明了如何查看评估和回应者已完成调查表的结果。 
+本主题介绍如何查看和评估回应者完成的调查表的结果。 
 
 调查对象完成调查表后，您可以以下列方式查看和评估调查表结果：
 

@@ -1,6 +1,6 @@
 ---
-title: "供应商安全门户用户"
-description: "本文说明如何设置使用供应商门户的外部供应商的安全性。 此信息仅适用于 Dynamics AX 2016 &amp; 2 月 2016 5 月版本。"
+title: "供应商门户用户安全性"
+description: "本文说明如何设置使用供应商门户的外部供应商的安全性。 此信息仅适用于 Dynamics AX 2016 年 2 月 &amp; 2016 年 5 月版本。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -25,11 +25,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="vendor-portal-user-security"></a>供应商安全门户用户
+# <a name="vendor-portal-user-security"></a>供应商门户用户安全性
 
-本文说明如何设置使用供应商门户的外部供应商的安全性。 此信息仅适用于 Dynamics AX 2016 &amp; 2 月 2016 5 月版本。
+[!include[banner](../includes/banner.md)]
 
-供应商门户功能用 Dynamics 365 的延伸供应商协作功能更换了工序 1611 版中。 有关设置供应商协作的安全的详细信息，请参阅设置 [和维护供应商协作] (设置维护供应商 collaboration.md)。 供应商门户向外部供应商公开了有关采购订单 (PO) 的一组有限的信息。 请您务必在 Microsoft Dynamics AX 中为供应商门户正确设置用户权限，这样供应商就不会意外访问您 Dynamics AX 安装中的其他信息。 **重要信息：**与其他用户不同，外部供应商不应具有**“系统用户”**角色。 **“系统用户”**角色将授予对一组不适用于外部用户的特权的访问权限。
+
+本文说明如何设置使用供应商门户的外部供应商的安全性。 此信息仅适用于 Dynamics AX 2016 年 2 月 &amp; 2016 年 5 月版本。
+
+在 Dynamics 365 for Operations 1611 版本中，供应商门户功能被扩展的供应商协作功能所取代。 有关设置供应商协作安全性的详细信息，请参阅[设置和维护供应商协作](set-up-maintain-vendor-collaboration.md)。 供应商门户向外部供应商公开了有关采购订单 (PO) 的一组有限的信息。 请您务必在 Microsoft Dynamics AX 中为供应商门户正确设置用户权限，这样供应商就不会意外访问您 Dynamics AX 安装中的其他信息。 **重要信息：**与其他用户不同，外部供应商不应具有**“系统用户”**角色。 **“系统用户”**角色将授予对一组不适用于外部用户的特权的访问权限。
 
 ## <a name="setting-up-a-vendor-portal-user"></a>设置供应商门户用户
 在为即将使用供应商门户的人创建用户帐户之前，您必须设置供应商以允许供应商门户协作。 在**“供应商”**页面的**“常规”**选项卡上，使用**“采购订单协作”**字段。 使用供应商门户的外部供应商必须具有以下设置：
@@ -44,6 +47,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Vendor collaboration](collaborate-vendors-vendor-portal.md)
+[供应商协作](collaborate-vendors-vendor-portal.md)
+
+
 
 

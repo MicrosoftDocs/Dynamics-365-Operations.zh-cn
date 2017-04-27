@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 
+[!include[banner](../includes/banner.md)]
+
+
 本文介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。
 
 在创建采购订单 (PO) 之后，它可能必须经过审核流程。 供应商已同意订单后，采购订单被设置**已确认**状态。
@@ -73,12 +76,14 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[采购订单概览](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[采购订单创建](purchase-order-creation.md)
 
 [采购订单的产品收据](product-receipt-against-purchase-orders.md)
 
 [供应商发票概览](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

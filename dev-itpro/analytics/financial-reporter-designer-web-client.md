@@ -1,5 +1,5 @@
 ---
-title: "Management Reporter -设计者和 Web 客户端"
+title: "Management Reporter - 设计器加 Web 客户端"
 description: 
 author: twheeloc
 manager: AnnBe
@@ -25,7 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter -设计者和 Web 客户端
+# <a name="management-reporter----the-designer-and-web-client"></a>Management Reporter - 设计器加 Web 客户端
+
+[!include[banner](../includes/banner.md)]
+
+
+
 
 
 

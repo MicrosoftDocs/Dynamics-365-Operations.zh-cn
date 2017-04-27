@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-element-dimensions"></a>成本元素维度
 
+[!include[banner](../includes/banner.md)]
+
+
 作为成本核算中的其中一个核心支柱，成本元素维度用来对成本分类和跟踪成本流向。 
 
 一个成本元素对应于会计科目表的成本相关物料。 基本上它可以是成本流向的公司中的最低级别的任何元素类型。 成本元素的概念范围从会计科目到所有与成本相关的资源。 目前，成本核算支持会计科目。
@@ -64,12 +67,14 @@ ms.lasthandoff: 03/31/2017
 ## <a name="cost-element-dimensions-and-cost-element-dimension-members"></a>成本元素维度和成本元素维度成员
 成本元素被称为“*成本元素维度*”。 各个维度值被称为“*成本元素维度成员*”。 例如，你将美国会计科目表结构 (COA) 作为法定申报的基础。 此 COA 用作成本元素维度。 科目为主要成本元素，在成本核算中表示为成本元素维度成员。 以下屏幕截图举例说明了作为成本元素维度的主科目及其作为成本元素维度成员的实际主科目。 
 
-[] (![成本维度元素。/media/cost 元素 dimensions.png)](。/media/cost 元素 dimensions.png)
+[![成本元素维度](./media/cost-element-dimensions.png)](./media/cost-element-dimensions.png)
 
 ## <a name="import-cost-element-dimension-members-through-data-connectors"></a>通过数据连接器导入成本元素维度成员
 为了便于设置成本核算中的成本元素维度成员，您可以使用预构建或您自定义构建的数据连接器检索一个或多个源系统中的主要成本元素。
 
 ## <a name="implementation-considerations"></a>实施注意事项
 由于成本元素表示最低级别的成本详细信息，因此您应当确保在实施成本元素结构时包括管理报告所必需的所有成本元素。 为成本控制找出合适的成本元素数量是一项挑战。 如果有上千个成本元素，则难以控制每一个成本元素。 作为替代方案，您可以将成本元素分组，在聚合级别管理成本控制。
+
+
 
 

@@ -1,5 +1,5 @@
 ---
-title: "为销售订单预留&quot;相同批次"
+title: "为销售订单预留相同批次"
 description: "本文说明如何设置产品以对照单个库存批次预留库存。"
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="reserve-the-same-batch-for-a-sales-order"></a>为销售订单预留"相同批次
+# <a name="reserve-the-same-batch-for-a-sales-order"></a>为销售订单预留相同批次
+
+[!include[banner](../includes/banner.md)]
+
 
 本文说明如何设置产品以对照单个库存批次预留库存。
 
@@ -42,6 +45,8 @@ ms.lasthandoff: 03/31/2017
 -   批处置代码将销售的**“阻止预留”**标记为**“已阻止”**。
 -   根据到期日期以及任何适用的客户适售期，该批次已经到期。 如果物料的物料模型组受先过期先出 (FEFO) 日期控制并且已选择最佳使用日期作为选择标准，则仍可考虑预留该物料。
 -   根据到期日期和最佳使用日期以及任何客户适售期，该批次的保质期剩余天数不足。
+
+
 
 
 

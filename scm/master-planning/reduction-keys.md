@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reduction-keys"></a>缩减参数
 
+[!include[banner](../includes/banner.md)]
+
+
 文本提供显示如何设置缩减参数的示例。 它包含有关各种缩减参数设置以及每个结果的信息。 可以使用缩减参数以定义如何缩减预测需求。
 
 <a name="example-1-percent---reduction-key-forecast-reduction-principle"></a>示例 1：百分比 - 缩减参数预测缩减原则
@@ -58,7 +61,7 @@ ms.lasthandoff: 03/31/2017
 | 四月                | 750                       |
 | 五月到十二月 | 1,000                     |
 
-## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>示例 2:缩减参数预测交易记录的缩减原则
+## <a name="example-2-transactions--reduction-key-forecast-reduction-principle"></a>示例 2：交易记录 - 缩减参数预测缩减原则
 此示例显示如何实际订单，这将在由缩减参数和缩减需求预测要求定义的期间发生。
 
 -   在**“主计划”**页上，在**“缩减原则”**字段中，选择**“交易记录 - 缩减参数”**。
@@ -82,7 +85,7 @@ ms.lasthandoff: 03/31/2017
 | 四月                | 881                       |
 | 五月到十二月 | 1,000                     |
 
-## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>示例 3:动态预测交易记录期间缩减原则
+## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a>示例 3：交易记录 - 动态期间预测缩减原则
 在大多数情况下，会设置系统以使交易记录在特定预测期间减少需求预测：周、月，等等。 这些期间是在缩减参数中定义的。 但是，两个需求预测行之间的时间还可*提示*期间。
 
 1.  为以下日期和数量创建需求预测。
@@ -129,6 +132,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Master plans](master-plans.md)
+[主计划](master-plans.md)
+
+
 
 

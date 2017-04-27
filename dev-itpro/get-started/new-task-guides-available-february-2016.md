@@ -1,6 +1,6 @@
 ---
-title: "新任务指南 2016 (二月)"
-description: "此 wiki 列出发放到 Microsoft BPM 库在 2016 年 2 月的任务指南。  发布中的库 2016 (二月) APQC 确保 Microsoft Dynamics 的库工序 365 和 2016 (二月) 开始的。"
+title: "新任务指南（2016 年 2 月）"
+description: "此 wiki 列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,14 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-task-guides-february-2016"></a>新任务指南 2016 (二月)
+# <a name="new-task-guides-february-2016"></a>新任务指南（2016 年 2 月）
 
-此 wiki 列出发放到 Microsoft BPM 库在 2016 年 2 月的任务指南。  发布中的库 2016 (二月) APQC 确保 Microsoft Dynamics 的库工序 365 和 2016 (二月) 开始的。
+此 wiki 列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>在 2016 (二月) APQC 的任务指南确保 Microsoft Dynamics 365 的库的工序
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Microsoft Dynamics 365 for Operations 的 APQC 标准库中的任务指南（2016 年 2 月）
 ---------------------------------------------------------------------------------
 
-2016 (二月) APQC 统一的库包含预期为 Dynamics 365 的帮助使用工序 7.0.0 下达的任务指南。 如果您需要这些任务指南本地化版本，它们在 (5 月 2016) APQC 统一的库中可用于 Microsoft Dynamics 365。工序。 有关连接方式帮助系统的详细信息。库请参阅任务指南，请以帮助 [] (帮助 overview.md)。
+（2016 年 2 月）APQC 标准库包含用于帮助 Dynamics 365 for Operations 7.0.0 发布的任务指南。 如果您需要这些任务指南的本地化版本，它们将在 Microsoft Dynamics 365 for Operations 的（2016 年 5 月）APQC 标准库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
 
 ### <a name="accounts-payable"></a>应付帐款
 
@@ -531,7 +531,7 @@ ms.lasthandoff: 03/31/2017
 | 将计算添加到产品配置模型    | 全局             |
 | 审核产品配置模型                 | 全局             |
 | 完成已发布基础产品的基本设置 | 全局             |
-| 创建钱柜。财务维度\ \维度根据产品基础               | 全局             |
+| 创建 ..\财务维度\基于维度的基础产品               | 全局             |
 | 创建产品分类的层次结构          | 全局             |
 | 创建产品配置模型                  | 全局             |
 | 创建基础产品                               | 全局             |
@@ -544,7 +544,7 @@ ms.lasthandoff: 03/31/2017
 | 维护产品配置模型的物料清单        | 全局             |
 | 维护产品模型路线                    | 全局             |
 | 管理已发布产品                              | 全局             |
-| 下达"。财务维度\ \维度根据产品基础              | 全局             |
+| 发布 ..\财务维度\基于维度的基础产品              | 全局             |
 | 转移产品模型数据                      | 全局             |
 
  
@@ -718,10 +718,10 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[或更新新任务指南 (5 月 2016)](请新更新任务指南提供可以 2016.md)
+[新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
 
-[或更新新任务指南 (8 月 2016)](新更新任务指南威严可用 2016.md)
+[新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
 
-[或更新新任务指南)] (2016 年 11 月 (新任务指南 2016.md 11 月)
+[新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
 
 

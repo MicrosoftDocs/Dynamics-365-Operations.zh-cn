@@ -1,5 +1,5 @@
 ---
-title: "工序词汇表的 Dynamics 365"
+title: "Dynamics 365 for Operations 词汇表"
 description: "Microsoft Dynamics 365 for Operations 词汇表定义 Dynamics 365 for Operations 产品中的重要术语和概念。"
 author: tonyafehr
 manager: AnnBe
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>工序词汇表的 Dynamics 365
+# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 for Operations 词汇表
+
+[!include[banner](../includes/banner.md)]
+
 
 Microsoft Dynamics 365 for Operations 词汇表定义 Dynamics 365 for Operations 产品中的重要术语和概念。 
 
@@ -249,7 +252,7 @@ Dynamics 365 for Operations 中的典型起始页。 在仪表板中，用户将
 
 用于创建、更新和检查您的模型元素的 Visual Studio 工具。
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**。财务维度\ \ **基于维度配置
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**  \财务维度\基于维度的配置**
 
 通过选择产品维度值用于创建产品变型的配置技术。
 
@@ -499,7 +502,7 @@ Dynamics 365 for Operations 中的典型起始页。 在仪表板中，用户将
 
 ###### <a name="product-dimension"></a>**产品维度**
 
-使用。的大小、颜色或配置产品属性。\ \维度配置基于财务维度。
+用于..\财务维度\基于维度的配置的大小、颜色或配置产品属性。
 
 ###### <a name="product-family"></a>**产品系列**
 
@@ -697,7 +700,7 @@ Dynamics 365 for Operations 中的典型起始页。 在仪表板中，用户将
 
 基础产品建模方法和搜索产品变型配置。
 
-###### <a name="vat-value-added-tax"></a>**增值税 (增值税) **
+###### <a name="vat-value-added-tax"></a>**VAT（增值税）**
 
 基于该阶段期间增加的值，在其生产的每一个阶段期间的一种税收。
 
@@ -722,5 +725,7 @@ Dynamics 365 for Operations 中的典型起始页。 在仪表板中，用户将
 ###### <a name="workspace"></a>**工作区**
 
 提供用户执行的一个活动的概览的页面。 此页面使用磁贴、列表和图表显示待定工作和来自多个来源的相关数据，而且此页面显示与此数据相关的常见任务。 在工作区的汇总部分中显示的磁贴也在仪表板的相关部分显示。
+
+
 
 

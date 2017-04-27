@@ -1,5 +1,5 @@
 ---
-title: "配置在工作流的审核流程"
+title: "配置工作流中的审核流程"
 description: "使用以下过程配置审核流程的属性。"
 author: sericks007
 manager: AnnBe
@@ -24,11 +24,11 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-an-approval-process-in-a-workflow"></a>配置在工作流的审核流程
+# <a name="configure-an-approval-process-in-a-workflow"></a>配置工作流中的审核流程
 
 使用以下过程配置审核流程的属性。
 
-若要配置审核流程，在工作流编辑器，右键单击，然后单击**审核元素打开属性** ** **属性窗体。
+要配置审核流程，在“工作流”编辑器中，右键单击审核元素，然后单击“**属性**”以打开“**属性**”窗体。
 为审核流程命名
 -------------------------
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 03/31/2017
 如果满足特定条件，可将系统配置为自动对对文档采取操作。 例如，系统可审核总金额小于 100 美元的支出报表。 按照以下步骤指定系统何时对文档采取操作。
 1.  在左窗格中，单击**自动操作**。
 2.  选中**启用自动操作**复选框。
-3.  Click **Add condition**.
+3.  单击“**添加条件**”。
 4.  输入条件。
 5.  按需输入附加条件。
 6.  要验证输入的条件是否正确配置，请完成以下步骤：
@@ -112,11 +112,11 @@ ms.lasthandoff: 03/31/2017
     </ol></td>
     </tr>
     <tr class="odd">
-    <td><strong>User</strong></td>
-    <td>工序特定用户的 Microsoft Dynamics 365</td>
+    <td><strong>用户</strong></td>
+    <td>特定 Microsoft Dynamics 365 for Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用的用户</strong>:列表包括工序用户的所有 Microsoft Dynamics 365。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>：列表中。</li>
+    <li><strong>可用用户:</strong> 列表包含所有 Microsoft Dynamics 365 for Operations 用户。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>：列表中。</li>
     </ol></td>
     </tr>
     </tbody>

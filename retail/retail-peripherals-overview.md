@@ -1,6 +1,6 @@
 ---
 title: "零售外设概览"
-description: "此主题介绍与零售外设的概念。 它描述不同方式负责管理与 POS 连接的负责的外围可以连接到销售点 (POS) 和组件。"
+description: "此主题介绍与零售外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,208 +27,211 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="retail-peripherals-overview"></a>零售外设概览
 
-此主题介绍与零售外设的概念。 它描述不同方式负责管理与 POS 连接的负责的外围可以连接到销售点 (POS) 和组件。
+[!include[banner](includes/banner.md)]
+
+
+此主题介绍与零售外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。
 
 <a name="concepts"></a>概念
 --------
 
 ### <a name="pos-registers"></a>POS 收银机
 
-中：**单击零售和商务** &gt; **的设置渠道** &gt; **的设置 POS ** &gt; ** **登记。 销售终端 (POS) 登记是用于定义 POS 的特定实例特性的实体。 包括这些特性硬件配置文件或设置要在收银机使用的外设，零售商店登记映射到和外观经验的登录到该登记的用户的。
+导航：单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 销售点 (POS) 收银机是用来定义特定 POS 实例的特征的实体。 这些特征包括硬件配置文件或设置，它们将被零售外设用于收银机、收银机映射到的商店，以及登录该收银机的用户的视觉体验。
 
 ### <a name="devices"></a>设备
 
-中：**单击零售和商务** &gt; **的设置渠道** &gt; **的设置 POS ** &gt; ** **设备。 设备是表示映射到 POS 收银机的设备的物理实例的实体。 设备在创建时，则映射到 POS 收银机。 设备实体跟踪 POS 收银机何时被激活，正在使用的客户端的类型，以及已经部署到特定设备应用程序包的信息。 设备可以映射到核销以下类型：Retail Modern POS、零售云 POS、Retail Modern POS – Windows "，Retail Modern POS –机器人和 Retail Modern POS – iOS。
+导航：单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **设备**。 设备是表示映射到 POS 收银机的设备的物理实例的实体。 当创建一个设备时，它被映射到 POS 收银机。 设备实体跟踪 POS 收银机何时被激活，正在使用的客户端的类型，以及已经部署到特定设备应用程序包的信息。 设备可以映射到以下应用类型：Retail Modern POS、Retail Cloud POS、Retail Modern POS – Windows Phone、Retail Modern POS – Android 和 Retail Modern POS – iOS。
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
-Modern POS 是 Microsoft Windows 的 POS 程序。 它在 Windows 上可以部署 10 操作系统 (厄申)。
+Modern POS 是适用于 Microsoft Windows 的 POS 程序。 它可以部署到 Windows 10 操作系统 (OS) 上。
 
 ### <a name="cloud-pos"></a>云 POS
 
-云 POS 是在查看器中访问 Modern POS 程序的基于浏览器的版本。
+Cloud POS 是基于浏览器且可以通过 Web 浏览器访问的 Modern POS 程序版本。
 
-### <a name="modern-pos-for-ios"></a>iOS 的 Modern POS
+### <a name="modern-pos-for-ios"></a>Modern POS for iOS
 
-iOS 的 Modern POS 是在 iOS 设备可以部署 Modern POS 的程序基于 iOS 的版本。
+Modern POS for iOS 是基于 iOS 且可部署到 iOS 设备上的 Modern POS 程序版本。
 
-### <a name="modern-pos-for-android"></a>机器人的 Modern POS
+### <a name="modern-pos-for-android"></a>Modern POS for Android
 
-机器人的 Modern POS 是在机器人设备可以部署 Modern POS 的程序基于机器人的版本。
+Modern POS for Android 是基于 Android 且可部署到 Android 设备上的 Modern POS 程序版本。
 
 ### <a name="pos-peripherals"></a>POS 外设
 
-POS 外设是为 POS 功能明确支持的设备。 这些外设通常划分为特定类。 有关这些类的详细信息，请参阅此主题的分类“设备”部分。
+POS 外设是为满足 POS 功能而明确支持的设备。 这些外设通常划分为特定类。 有关这些类的详细信息，请参阅此主题的“设备分类”部分。
 
 ### <a name="hardware-station"></a>硬件工作站
 
-中：**单击零售和商务** &gt; **通道** &gt; **零售店** &gt; **零售店**所有。 选择一个商店，然后单击**硬件工作站**快速选项卡。 **硬件工作站**设置是用于定义这个实例将部署零售外围逻辑的通道级别设置。 通道在级别的设置用于确定此硬件工作站的特征。 它还列出可用于 Modern POS 实例是可用于特定商店的硬件工作站。 硬件工作站生成到 Windows Modern POS 的程序。 硬件工作站可以独立还会部署为独立 Microsoft Internet Information Services (IIS) 程序。 在这种情况下，可以通过网络访问。
+导航：单击**零售和商业** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**。 选择一个商店，然后单击**硬件工作站**快速选项卡。 **硬件工作站**设置是一种基于渠道的设置，用于定义将部署零售外设逻辑的实例。 渠道级别的此设置用于确定硬件工作站的特征。 还用于列出指定商店中可用于 Modern POS 实例的硬件工作站。 硬件工作站内置在适用于 Windows 的 Modern POS 程序内。 硬件工作站也可以作为单机 Microsoft Internet Information Services (IIS) 程序独立部署。 在这种情况下，可以通过网络访问。
 
 ### <a name="hardware-profile"></a>硬件配置文件
 
-中：**单击零售和商务** &gt; **的设置渠道** &gt; **的设置 POS ** &gt; ** POS 配置文件** &gt; ** **硬件配置文件。 硬件配置文件是为 POS 收银机或硬件工作站配置设备的列表。 硬件配置文件可以映射直接向 POS 收银机或硬件工作站。
+导航：单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 硬件配置文件是为 POS 收银机或硬件工作站配置的设备的列表。 硬件配置文件可以直接映射到 POS 收银机或硬件工作站。
 
 ## <a name="devices-classes"></a>设备分类
 POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设备的概览。
 
 ### <a name="printer"></a>打印机
 
-打印机包括传统 POS 收据打印机和范围"页的打印机。 打印机 POS 通过 Retail (OPOS) 和 Microsoft Windows 驱动程序的对象链接和嵌入支持界面。 可以同时使用这两打印机。 此功能支持自运付现的收据打印机接收客户收据上打印的方案，而客户订单，查看附有详细信息，在一打印机打印范围的页。 收据打印机接收可以直接连接到计算机 USB 通过，连接到网络通过以太网或通过 Bluetooth 连接。
+外设包括传统 POS 收据打印机和整页打印机。 通过适用于 Retail POS (OPOS) 和 Microsoft Windows 的对象链路与嵌入驱动程序接口为打印机提供支持。 最多可以同时使用两台打印机。 此功能支持在收据打印机上打印付现自提的客户收据的方案，虽然包含更多信息的客户订单在整页打印机上打印。 收据打印机可以通过 USB 直接连接到计算机，通过以太网连接到网络，或通过 Bluetooth 连接。
 
 ### <a name="scanner"></a>扫描仪
 
-可以同时使用这两条码扫描仪。 此功能支持更大以要求移动的扫描或大量物料扫描仪的方案，固定的，而嵌入的扫描仪对于大多数标准尺寸的物料使用，可以加速签出时间。 扫描仪可以通过 OPOS、一般 Windows 平台 (UWP) 键盘或楔形接口支持。 USB 或 Bluetooth 可用于连接扫描仪到计算机。
+最多可以同时使用两台条码扫描仪。 此功能支持需要移动性更高的扫描仪来扫描体积大或重量高的物品的方案，而嵌入式固定扫描仪则用于大多数标准尺寸的物品或加快收银速度。 可以通过 OPOS、通用 Windows 平台 (UWP) 或键盘 wedge 界面为扫描仪提供支持。 可使用 USB 或 Bluetooth 将扫描仪连接到计算机。
 
 ### <a name="msr"></a>MSR
 
-使用 OPOS 司机，一 USB 磁条阅读器 (MSR) 可以设置。 如果您要出于电子资金转帐 (EFT) 付款交易记录使用单独 MSR，必须由付款管理 MSR Connector。 独立 MSRs 可用于客户会员条目、员工登录和礼品卡付款条目使用，使用不受 Connector。
+可通过使用 OPOS 设置一台 USB 磁条阅读器 (MSR)。 如果要将单机 MSR 用于电子资金转帐 (EFT) 付款交易，则必须通过付款连接器管理 MSR。. 单机 MSR 可用于独立于付款连接器执行客户会员信息录入、员工签到和礼品卡录入。
 
 ### <a name="cash-drawer"></a>银箱
 
-两银箱可以按硬件配置文件支持。 此功能允许同时按收银机两个有效班次才可用。 对于共享的倒班或多个同时移动设备 POS 使用的现金，银箱，只有一银箱允许每个硬件配置文件。 银箱可以直接连接到计算机 USB 通过，连接到网络或连接到收据打印机接收通过 RJ12 界面。 银箱在某些情况下，可以通过 Bluetooth 还连接。
+每个硬件配置文件可以支持两个银箱。 此功能允许每台收银机同时被两个班次使用。 为了防止共享班次或一个银箱同时被多个移动 POS 设备使用，每个硬件配置文件仅允许一个银箱。 银箱可以通过 USB 直接连接到计算机，连接到网络，或通过 RJ12 接口连接到收据打印机。 在某些情况下，还可以通过 Bluetooth 连接银箱。
 
 ### <a name="line-display"></a>行显示内容
 
-查看用于行查看产品、交易记录余额和其他有用信息。客户在交易过程。 使用 OPOS 司机，一行显示。通过 USB 连接到计算机。
+行显示器用于在交易期间向客户显示产品、交易余额和其他有用信息。 可以使用 OPOS 驱动程序通过 USB 将一台行显示器连接到计算机。
 
 ### <a name="signature-capture"></a>签名捕获
 
-使用 OPOS 司机签名，签名将捕获该设备可以直接连接到计算机。通过 USB 在签名在配置时，客户进行设备提示签名。 在提供签名后，它会显示已对接受的出纳。
+可以使用 OPOS 驱动程序通过 USB 将签名捕获设备直接连接到计算机。 在配置签名捕获时，将提示客户在设备上签名。 提供签名后，它会对收银员显示，待其接受。
 
 ### <a name="scale"></a>比例
 
-使用 OPOS 斯科尔斯司机，可以通过 USP 连接到计算机。 在标记为“进行称重”产品时的产品添加到交易记录中，则读取 POS 刻度的重量，产品添加到交易记录，并使用刻度提供的数量。
+可以使用 OPOS 驱动程序通过 USP 将秤连接到计算机。 标记为“已称重”产品的产品添加到交易记录时，POS 从秤读取重量，将该产品添加到交易记录，然后使用秤提供的数量。
 
 ### <a name="pin-pad"></a>PIN 小键盘
 
-个人标识号 (PIN) 通过填充 OPOS 支持，礼品，但必须通过付款管理。Connector。
+通过 OPOS 为个人标识号 (PIN) 小键盘提供支持，但是必须通过付款连接器管理 PIN 小键盘。
 
-### <a name="secondary-display"></a>附属显示
+### <a name="secondary-display"></a>辅助显示器
 
-如果辅助查看配置期间，则第 2 Windows 查看用于显示基本信息。 因为不足框以外，以便显示不可配置并不显示内容，以便显示有限的目的是支持独立软件供应商 (ISV) 扩展名。
+如果配置了辅助显示器，将使用第二台 Windows 显示器显示基本信息。 辅助显示器用于为独立软件供应商 (ISV) 扩展提供支持，因为原始辅助显示器不可配置，显示的内容有限。
 
 ### <a name="payment-device"></a>付款设备
 
-付款设备支持通过付款 Connector 实施。 付款设备可以执行其他设备提供之一或分类的许多功能。 例如，可能付款设备功能用作 MSR/card 阅读器、行、查看签名捕获设备、PIN 小键盘。 付款设备的使用不受支持。其他设备提供在硬件配置文件支持设备无关包括实施。
+对付款设备的支持通过付款连接器实现。 付款设备可以执行其他设备类提供的一项或多项功能。 例如，一种付款设备可以充当 MSR/卡阅读器、行显示器、签名捕获设备或 PIN 小键盘。 对付款设备的支持独立于为硬件配置文件中包含的其他设备提供的单机设备支持实现。
 
 ## <a name="supported-interfaces"></a>支持的接口
 ### <a name="opos"></a>OPOS
 
-为了帮助保障的最大范围可使用设备与 Microsoft Dynamics 365。工序，-零售业标准的 OLE for POS 是在工序 365 的 Microsoft Dynamics 中支持的主要-零售外围设备平台零售销售"。 OLE for POS 标准由国家/地区选择零售 (NRF) 执行生产，建立零售业标准外围设备的通信协议。 OPOS 是标准的 OLE for POS 一次多个阶段的实现方式。 它在 20 世纪 90 年代中期将开发的开始和配置后更新若干次。 OPOS 提供支持 POS 硬件的简便集成。Microsoft 视窗 POS 系统中一种设备驱动程序体系结构。 OPOS 兼容硬件和软件手柄控制 POS 之间的通信。 OPOS 控制包括两部分：
+为了帮助确保最大范围的设备可以与 Microsoft Dynamics 365 for Operations - Retail 配合使用，OLE for POS 行业标准成为了 Microsoft Dynamics 365 for Operations - Retail 中支持的主要零售外设平台。 OLE for POS 标准由美国零售联合会 (NRF) 制订，建立了针对零售外设的行业标准通信协议。 OPOS 是广泛采用的 OLE for POS 标准实施。 它开发于 20 世纪 90 年代，之后经过了多次更新。 OPOS 提供设备驱动程序架构，以便将 POS 硬件与基于 Windows 的 POS 系统轻松集成。 OPOS 控件处理兼容硬件与 POS 软件之间的通信。 OPOS 控件包含两部分：
 
--   **控件对象**设备–分类的控件对象 (如行显示) 提供程序为软件界面。 向服务的门罗 (www.monroecs.com [] (http://www.monroecs.com/)) 提供标准化的 OPOS 公共控件对象组 ((CCOs) 控制的对象。 CCOs 用于测试 POS 组件零售的工序的 Microsoft Dynamics 365 -。 因此，帮助，测试保障，则工序的 Microsoft Dynamics 365 -通过支持零售 OPOS 设备分类，多种设备类型，可以支持，将制造商提供为 OPOS 生成的服务对象情况下。 没有明确必须测试设备每个类型。
--   ** **服务对象–服务提供对象控件对象 (CCO) 和设备之间的通信。 通常，设备制造商提供设备的服务对象。 但是，在某些情况下，您可能必须下载来自制造商的网站的服务对象。 例如，最近一服务对象可能可用。 若要查找制造商的网站地址，请参阅您的硬件文档。
+-   **控件对象** – 设备类（如行显示器）的控件对象提供软件程序的界面。 Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) 提供一组标准的 OPOS 控件对象，称为公共控件对象 (CCO)。 CCO用于测试 Microsoft Dynamics 365 for Operations - Retail 的 POS 组件。 因此，如果 Microsoft Dynamics 365 for Operations - Retail 通过 OPOS 为设备类提供支持，并且制造商提供为 OPOS 构建的服务对象，此项测试有助于确保可以支持多种设备类型。 无需明确测试每个设备类型。
+-   **服务对象** – 服务对象提供控件对象 (CCO) 与设备之间的通信。 设备的服务对象通常由设备制造商提供。 但是在某些情况下，您可能必须从制造商的网站下载服务对象。 例如，可能提供了更新的服务对象。 若要查找制造商的网站地址，请参阅您的硬件文档。
 
-控制![[] (服务对象和对象。/media/retail_peripherals_overview01.png)](。OLE for POS 的 OPOS 实施的/media/retail_peripherals_overview01.png) 支持的，帮助保障，如果设备制造商和 POS 发布者正确实施，标准 POS 系统和支持的设备可以，它们一起以前，即使尚未测试。 **注释：** OPOS 支持未 OPOS 司机的所有设备保障的支持。 工序的第一个必需-零售支持 Microsoft Dynamics 365 类型或设备类，通过 OPOS。 此外，服务对象可能并不始终是最新的 CCOs 的最新版本。 还应了解，服务的质量，一般来说对象更改。
-
-### <a name="windows"></a>窗口
-
-在 POS 打印收据的 OPOS 为优化。 OPOS 于打印倾向于通过快速 Windows。 因此，它是一个最好使用 OPOS，尤其是在 40 列打印收货的零售环境，交易记录是时间必须快的。 对于多数设备，您将使用 OPOS 控制。 但是，某些 OPOS 收据打印机接收还支持 Windows 司机。 通过使用 Windows 司机，您可以访问的最近一网络字体和打印机的多个收银机。 不过，在缺点到使用 Windows 司机。 这是这些缺点的一些示例：
-
--   在使用时，Windows 司机图像呈现，在打印前。 因此，超过其打印上使用 OPOS 打印机的控制倾向于慢。
--   通过的打印机设备 (“菊花链") 附加可能无法正确地工作，以便在使用时 Windows 司机。 例如，可能尚未打开银箱，或者打印机清单可能不短语，您预期。
--   OPOS 还支持特定于零售收据打印机的更多组的变量，如表或将布料清单打印。
-
-如果是用于控制 Windows 打印机可使用打印机，您应正确地仍与零售的工序的 Microsoft Dynamics 365 -使用。
-
-### <a name="universal-windows-platform"></a>一般 Windows 平台
-
-UWP，如果零售外设，帮助与设备的 Windows 支持。 当一即插即用设备连接到支持这种设备的 Windows "操作系统版本司机时，不需要遵循使用设备所需的计划。 例如，则 Windows Bluetooth 检测到一扬声器设备，知道设备** "操作系统具有扬声器**类型分类。 因此和该物料将被视作扬声器为该设备。 不需要进一步的设置。 在 POS 设备，可以 USB 接通多种设备，并且，Windows 将识别。为人类相互关系 (HIDs) 设备。 但是，可能不能确定设备提供的功能，设备，因为未指定，类或类型，的设备。 在 Windows 10，条码扫描仪的设备分类和 MSRs 已添加。 因此，如果设备，声明到 Windows 10 为设备这些类之一，Windows 将细听来自设备的事件。的相应时间。 支持 UWP Modern POS 和 MSRs 扫描仪。 因此，准备，将从这些设备之一时输入的和属于这些类之一的设备连接，设备可以使用。 例如，如果 UWP，条码扫描仪插入到 Windows 10 计算机和条码登录为 Modern POS 配置，条码扫描仪将要生效在登录屏幕。 不需要进一步的设置。 问题附加的类的服务 UWP 设备添加到 Windows。 这些类包含为银箱和收据打印机接收分类。 这些新设备分类的支持。Modern POS 是未决的。
-
-### <a name="keyboard-wedge"></a>键盘楔形
-
-键盘楔形设备将数据发送到计算机，才能将该数据上键盘时输入了。 因此，默认情况下处于活动状态，在 POS 的字段将接收"扫描或刷的数据。 在某些情况下，此行为会导致错误的数据类型扫描到错误的字段。 例如，可能条码扫描到为信用卡数据使用输入的字段。 在大多数情况下，具有在逻辑确定的 POS 是否是条码扫描或刷卡或刷的数据。 因此，数据正确处理。 但是，当设置 OPOS 设备，为{{而不是：instead_of}}键盘楔形设备时，在对来自这些设备的数据的详细如何控制，因为可以使用，详细了解有关”"的数据来自设备。 例如，从条码扫描仪的数据都会自动将被标识为，条码，并在数据库中记录。与和快速地找到比，如果使用了一个一般串搜索，如果楔形键盘设备。
-
-### <a name="native-printer"></a>局部的打印机
-
-局部的 (或“设备”，当类型的"硬件配置文件将命名) 打印机可以配置提示用户选择用于计算机配置的打印机。 **在设备**时类型的配置，如果打印机，Modern POS 打印订单，用户遇到系统提示选择列表中的某一打印机。 此行为与 Windows 司机的行为，不同，因为** Windows 打印机键入**硬件配置文件。显示打印机的列表。 相反，它要求命名在**打印机设备名称**字段提供。
+[![控件对象和服务对象](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) 对 OLE for POS 的 OPOS 实施的支持有助于确保当设备制造商和 POS 发布商正确实施标准时，POS 系统和支持的设备可以协同工作，即使以前未一起测试时也不例外。 **注释：**支持 OPOS 不保证支持采用了 OPOS 驱动设备的所有设备。 Microsoft Dynamics 365 for Operations - Retail 必须首先通过 OPOS 支持该设备类型（即类）。 此外，服务对象可能并非始终安装了最新版本的 CCO。 您还应注意，服务对象的质量往往参差不齐。
 
 ### <a name="windows"></a>窗口
 
-** Windows **设备类型只需要使用的打印机。 在 Windows 打印机的"硬件配置文件时配置，必须提供特定打印机名称。 如果遇到 Modern POS 打印，事件，则 Windows 打印机配置，事件将传递到指定的 Windows 打印机。 用户将不提示选择打印机。
+POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Windows 打印快得多。 因此，最好使用 OPOS 进行打印，特别是在零售环境中，此类环境中需要打印 40 列收据，并且交易时间必须非常快。 对于大多数设备，您将使用 OPOS 控件。 但是，某些 OPOS 收据打印机也支持 Windows 驱动程序。 通过使用 Windows 驱动程序，您可以通过一台打印机访问多台收银机的最新字体和网络。 但是使用 Windows 驱动程序有一些缺点。 以下是这些缺点的一些示例：
+
+-   使用 Windows 驱动程序时，图像在打印前渲染。 因此，打印速度往往比使用 OPOS 控件的打印机慢。
+-   使用 Windows 驱动程序时，通过打印机连接（菊链方式）的设备可能无法正常工作。 例如，银箱可能无法打开，或者票据打印机可能无法正常工作。
+-   OPOS 还支持特定于零售收据打印机的更多变体集合，如裁纸或票据打印。
+
+如果 OPOS 控件适用于您在使用的 Windows 打印机，该打印机仍然可以与 Microsoft Dynamics 365 for Operations - Retail 配合正常工作。
+
+### <a name="universal-windows-platform"></a>通用 Windows 平台
+
+对于零售外设，UWP 与 Windows 对即插即用设备的支持有关。 当即插即用设备连接到支持这种设备的 Windows 操作系统版本时，该设备不需要驱动程序即可正常使用。 例如，如果 Windows 检测到 Bluetooth 扬声器设备，该操作系统知道此设备的类类型为**扬声器**。 因此，它将把此设备视为扬声器。 无需再执行任何设置。 对于 POS 设备，可以插入大量 USB 设备，并且 Windows 将把其识别为人机接口设备 (HID)。 但是，可能不能确定设备提供的功能，因为设备不指定设备的类（即类型）。 在 Windows 10 中，已增加了条码扫描仪 和 MSR 的设备类。 因此，如果设备向 Windows 10 声明自己是这些类之一的设备，Windows 将在相应时间注意来自该设备的事件。 Modern POS 支持 UWP MSR 和扫描仪。 因此，准备好从这些设备之一输入，并且已连接属于这些类之一的设备时，可以使用该设备。 例如，如果在 Windows 10 计算机中插入一台 UWP 条码扫描仪，并且为 Modern POS 配置了条码签到，将在签到屏幕上激活该条码扫描仪。 无需再执行任何设置。 正在向 Windows 添加更多服务点 UWP 设备类。 这些类中包括银箱和收据打印机的类。 Modern POS 中对这些新设备的支持待定。
+
+### <a name="keyboard-wedge"></a>键盘 wedge
+
+键盘 wedge 设备向计算机发送数据，就像数据是从键盘键入的。 因此默认情况下，POS 上的活动字段将收到扫描或刷卡的数据。 在某些情况下，此行为可能导致将错误类型的数据扫描到错误的字段中。 例如，可能将条码扫描到本应输入信用卡数据的字段。 在大多数情况下，POS 中有逻辑可确定扫描的数据是条码还是刷卡。 因此可以正确处理数据。 但是，当设备设置为 OPOS 而不是键盘 wedge 设备时，对来自这些设备的数据的使用方式控制更严格，因为对数据的来源设备的“了解”更深。 例如，来自条码扫描仪的数据自动识别为条码，并且相比过去使用的一般字符串搜索（如使用键盘 wedge 设备时），可以更轻松、更快地找到数据库中的关联记录。
+
+### <a name="native-printer"></a>本机打印机
+
+可以将本机（或“设备”，因为类型是在硬件配置文件中命名的）配置为提示用户选择为计算机配置的打印机。 配置了**设备**类型的打印机时，如果 Modern POS 收到了打印命令，将提示用户在列表中选择打印机。 此行为与 Windows 驱动程序的行为不同，因为硬件配置文件中的 **Windows** 打印机类型不显示打印机列表。 相反，它要求在**设备名称**字段中提供命名的打印机。
+
+### <a name="windows"></a>窗口
+
+**Windows** 设备类型仅用于打印机。 在硬件配置文件中配置了 Windows 打印机时，必须指定具体的打印机名称。 在 Modern POS 遇到打印事件时，如果配置了 Windows 打印机，将把该事件传递到指定的 Windows 打印机。 将不提示用户选择打印机。
 
 ### <a name="network"></a>网络
 
-网络可以解决的收据打印机、银箱和付款终端可以使用通过网络，以下内容之一通过直接生成到 Modern POS 的 Windows 应用程序或通过其他 Modern POS 客户 IIS 的硬件工作站的进程中申报 (IPC 硬件工作站)。
+可通过 Modern POS for Windows 应用程序中内置的进程间通信 (IPC) 硬件工作站或其他 Modern POS 客户端的 IIS 硬件工作站，通过网络使用网络可寻址银箱、收据打印机和付款终端。
 
 ## <a name="hardware-station-deployment-options"></a>硬件工作站部署选项
-### <a name="ipc-built-in"></a>IPC 内 (日期)
+### <a name="ipc-built-in"></a>IPC（内置）
 
-进程中申报 (IPC) 硬件工作站生成到程序的 Windows 应用 Modern POS。 IPC 若要使用硬件工作站，请将硬件配置文件分配给为 Windows 应用程序将利用 Modern POS 的登记。 然后创建硬件工作站**专用**登记为要使用的商店键入。 当您启动 Modern POS IPC，硬件工作站的有效期，然后配置的 POS 外设将立即可用。 如果因为某些原因您不需要暂时位置硬件，请使用**请管理硬件工作站**工序关闭硬件工作站功能。 IPC Modern POS 还可以使用硬件工作站直接与外围网络通信。
+进程间通信 (IPC) 硬件工作站内置在 Modern POS for Windows 应用程序中。 若要使用 IPC 硬件工作站，请为将使用 Modern POS for Windows 应用程序的收银机分配硬件配置文件。 然后为将使用该收银机的商店创建一个类型为**专用**的硬件工作站。 启动 Modern POS 时，将激活 IPC 硬件工作站，而已配置的 POS 外设将准备就绪，可供使用。 如果因为某种原因暂时不需要本地硬件，请使用**管理硬件工作站**关闭硬件工作站功能。 Modern POS 也可以使用 IPC 硬件工作站直接与网络外设通信。
 
 ### <a name="iis"></a>IIS
 
-可以用以下两种方式可以使用硬件工作站的 IIS 或独立版本。 IIS”POS“描述符暗示应用程序连接到硬件工作站通过 Microsoft Internet 信息服务。 POS 应用程序连接到 IIS 通过硬件工作站上运行的计算机设备连接的 Web 服务。 在使用时，连接到 IIS 硬件工作站的零售外设可由位于网络和 IIS 硬件工作站相同的所有 POS 收银机。 由于 Windows 的仅包括零售 Modern POS 外设的支持，内置其他 Modern POS 应用程序必须使用 IIS 硬件工作站配置文件用在硬件配置的 POS 外设通信。 因此 IIS，硬件工作站的要求每个实例运行 Web 服务和应用程序与设备连接的计算机。 IIS 硬件工作站对于某些非 Windows Modern POS 应用程序所需的。
+可以通过两种方式使用硬件工作站的 IIS 或单机版本。 描述符“IIS”暗示 POS 应用程序通过 Microsoft Internet Information Services 连接到硬件工作站。 POS 应用程序通过连接设备的计算机上运行的 Web 服务连接到 IIS 硬件工作站。 使用 IIS 时，与 IIS 硬件工作站在同一个网络中的任何 POS 收银机都可以使用与该硬件工作站相连的零售外设。 由于只有 Modern POS for Windows 中才包含对零售外设的内置支持，所以其他所有 Modern POS 应用程序都必须使用 IIS 硬件工作站才能与硬件配置文件中配置的 POS 外设通信。 因此，IIS 硬件工作站的每个实例都需要运行与设备通信的 Web 服务和应用程序的计算机。 所有非 Windows Modern POS 应用程序都需要 IIS 硬件工作站。
 
 #### <a name="dedicated"></a>专门
 
-Modern POS 使用硬件工作站**专用**键入检测外设直接连接到应用使用的计算机。 **但是，专用**类型可以为 IIS。还可以使用硬件工作站 在 POS 使用覆盖的传统，固定的 POS 方案，POS 应用程序，专用** **硬件工作站类型。IIS 在同一计算机运行云部署 POS 硬件工作站的使用。 从一个零售外设，专用中的 IIS 硬件工作站具有传统，固定的 POS 方案的更好的零售外围网络支持。 专用的硬件工作站支持"硬件配置文件支持的所有外设。
+Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连接到正在使用该应用程序的计算机。 但是，**专用**类型也可用于 IIS 硬件工作站。 在将 Cloud POS 用作 POS 应用程序的传统固定式 POS 方案中，**专用**硬件工作站用于运行 Cloud POS 的同一计算机上部署的 IIS 硬件工作站。 从零售外设的角度，专用 IIS 硬件工作站对零售外设的支持比传统的固定式 POS 方案更出色。 专用硬件工作站支持硬件配置文件中支持的所有外设。
 
 #### <a name="shared"></a>共享的
 
-共享的硬件工作站想按多个 POS 设备通过使用日的课程。 共享的硬件工作站支持优化收据打印机、银箱和终端只有付款。 您不能直接连接独立条码扫描仪、行显示，MSRs、缩放比例，或其他设备。 否则，当多尝试设备 POS 外设这些要求同时，将发生冲突。 这是冲突如何为支持的设备管理：
+共享硬件工作站应该可以全天供多个 POS 设备使用。 共享硬件工作站已经过优化，只能支持银箱、收据打印机和付款终端。 不能直接连接单机条码扫描仪、行显示器，MSR、秤或其他设备。 否则，多个 POS 设备同时尝试声明这些外设时，将发生冲突。 下面是如何管理受支持设备的冲突：
 
--   **银箱**银箱–通过发送到设备的事件将打开。 可能得到的唯一的，在发货银箱调用时发生，则已打开银箱。 对于共享的硬件工作站，应设置银箱**到共享**在硬件配置文件。 此设置为禁止 POS 检查银箱是否已打开，则发送打开命令时。
--   ** **收据打印机–，如果两打印收货订单同时发送到硬件工作站，某一命令可以根据设备，丢失。 设备某些可能阻止此发货中存储或合并。 如果打印订单不成功，出纳将收到错误消息，然后重试可以从" POS 打印的订单。
--   **终端**付款–如果出纳，支付-尝试在已使用的付款终端的交易记录，消息通知终端出纳使用并要求出纳后重试。 通常，出纳可以看到已使用终端和等待，在其他交易完成，在尝试再次前支付方式。
+-   **银箱** – 银箱通过发送到设备的事件打开。 仅当银箱已打开时，才会在调用银箱时发生问题。 对于共享硬件工作站，应在硬件配置文件中将银箱设置为**共享**。 发送打开命令时，此设置阻止 POS 检查银箱是否已打开。
+-   **收据打印机** – 如果同时向硬件工作站发送两条收据打印命令，可能丢失其中一条命令，具体取决于设备。 某些设备有内存或池，可以防止此问题。 如果打印命令不成功，收银员将收到错误消息，可以从 POS 重试该打印命令。
+-   **付款终端** – 如果收银员尝试在已在使用的付款终端上处理交易的支付，将显示消息，通知收银员正在使用该终端，请收银员稍后重试。 通常，收银员可以看到终端已在使用并等待其他交易完成，再尝试处理付款。
 
-验证。一计划从将来版本中，会检测到不支持的设备是否为映射到共享的硬件的硬件工作站配置文件设置。 如果检测到任何不支持的设备，用户将收到该的消息，指出该设备不要共享该硬件工作站支持。 对于共享的硬件工作站，该**选择时支付**选项设置** **是在收银机级别。 时，或者在将支付方式选择在 POS 时，记录的交易的 POS 用户然后系统提示选择硬件工作站。 在硬件工作站在支付方式时，只有所选类添加硬件车站选择直接到移动方案的 POS 工作流。 作为一种附加利益，付款在终端的行显示没有为共享的情况而设计的。 如果付款为终端使用行显示，其他终端使用该用户可能会被锁定，直到完成交易记录。 移动在方案，行可能会添加到交易记录通过长时间。 因而，这个**选择时支付**选项要求确保最佳设备可用性。
+为将来的版本计划了验证，以便检测是否为映射到共享硬件工作站的硬件配置文件设置了不受支持的设备。 如果检测到不受支持的设备，用户将收到消息，说明共享硬件工作站不支持这些设备。 对于共享硬件工作站，**付款后即可选择**选项在收银机级别设置为**是**。 然后在 POS 中为交易选择了付款时，将提示 POS 用户选择硬件工作站。 仅在付款时选择了硬件工作站时，将把对硬件工作站的选择直接添加到移动方案的 POS 工作流。 额外福利是，付款终端上的行显示器不用于共享方案。 如果付款终端用作行显示器，交易完成前，可能阻止其他用户使用该终端。 在移动方案中，可能在较长一段时间内向交易添加行。 因此，需要**付款后即可选择**选项以确保最适宜的设备可用性。
 
-### <a name="network-peripherals"></a>外围网络
+### <a name="network-peripherals"></a>网络外设
 
-设备的标识网络在硬件配置文件中启用收据打印机、银箱和通过网络连接将附加了付款终端。
+硬件配置文件中为设备指派的网络让银箱、收据打印机和付款终端可以通过网络连接来连接。
 
-#### <a name="modern-pos-for-windows"></a>Windows 的 Modern POS
+#### <a name="modern-pos-for-windows"></a>Modern POS for Windows
 
-可以为网络外设指定 IP 地址。这两个位置。 如果 Modern POS Windows 客户使用独特外设网络组，您应该设置这些设备的 IP 地址。使用操作窗格上的 IP ** **配置登记的选项。 对于在中将 POS 的共享网络设备登记，具有的硬件设备网络配置文件分配给它可以映射直接分配给共享的硬件工作站。 若要分配 IP 地址，选择"零售店** **页面的硬件工作站，在硬件工作站** **部分然后使用该** IP 配置**指定选项分配给该硬件工作站的网络设备。 对于具有只网络设备的硬件工作站，则不必部署硬件工作站。 在这种情况下，硬件工作站以根据要求的概念的零售店这个位置上只网络组可以解决的设备。
+可以为两处的网络外设指定 IP 地址。 如果 Modern POS Windows 客户端使用一组网络外设，您应该通过使用收银机自身的“操作窗格”上的 **IP 配置**选项为这些设备设置 IP 地址。 对于将在 POS 收银机之间共享的网络设备，可以将为其指派的硬件配置文件直接映射到共享硬件工作站。 若要分配 IP 地址，请在**零售商店**页中选择该硬件工作站，然后使用**硬件工作站**部分中的 **IP 配置**选项指定为该硬件工作站分配的网络设备。 对于只有网络设备的硬件工作站，则不必部署硬件工作站本身。 在这种情况下，仅当要在概念上根据可网络寻址的设备在零售商店中的位置为这些设备分组时，才需要硬件工作站。
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>覆盖 POS、Modern POS 的 iOS Modern POS 和机器人的
+#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS、Modern POS for iOS 和 Modern POS for Android
 
-驱动器实际连接的逻辑和解决的外围网络。"硬件工作站包含。 因此，适用于除 Modern POS 的所有客户 POS Windows 的 IIS，硬件工作站必须部署和活动支持 POS 外设与通信，而不管这些外设是否实际连接到硬件工作站通过网络或解决。
+硬件工作站中包含驱动以物理方式相连且可网络寻址的外设的逻辑。 因此，对于除 Modern POS for Windows 之外的所有 POS 客户端，必须部署并激活 IIS 硬件工作站，以便让 POS 可以与外设通信，无论这些外设是以物理方式连接到硬件工作站还是通过网络寻址。
 
 ## <a name="setup-and-configuration"></a>设置和配置
-### <a name="hardware-station-installation"></a>设置硬件工作站
+### <a name="hardware-station-installation"></a>硬件工作站安装
 
-有关信息，请参阅 Retail 硬件工作站 [] (配置和安装 Retail 硬件工作站配置 installation.md)。
+有关新信息，请参阅 [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)。
 
-### <a name="modern-pos-for-windows-setup-and-configuration"></a>Windows 的设置和配置进行 Modern POS
+### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS for Windows 设置和配置
 
-有关信息，请参阅" Retail Modern POS [] (配置和安装 Retail POS activation.md 现代化设备)。
+有关新信息，请参阅 [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)。
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS 设备设置和配置
 
-OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。 通常，设备制造商提供 OPOS 司机。 当安装 OPOS 设备驱动程序后，该程序在下列位置之一的参数添加到 Windows 注册表：
+有关 OPOS 组件的详细信息，请参阅本文的“支持的接口”。 OPOS 驱动程序通常由设备制造商提供。 安装 OPOS 设备驱动程序时，将在 Windows 注册表中的以下位置添加一个键：
 
--   **位 32 系统：** HKEY\_本机\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **位 64 系统：** HKEY\_本机\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **32 位系统：**HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
+-   **64 位系统：**HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
-在注册表中，ServiceOPOS 位置配置的设备根据 OPOS 设备分类进行组织。 多种设备保存驱动程序。
+在 ServiceOPOS 注册表位置中，配置的设备根据 OPOS 设备类组织。 将保存多个设备驱动程序。
 
-## <a name="supported-scenarios-by-hardware-station-type"></a>按硬件工作站支持的方案的类型
-### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>客户–硬件工作站支持 IPC 与 IIS 硬件工作站
+## <a name="supported-scenarios-by-hardware-station-type"></a>硬件工作站类型支持的方案
+### <a name="client-support--ipc-hardware-station-vs-iis-hardware-station"></a>客户端支持 – IPC 硬件工作站与 IIS 硬件工作站
 
 下表显示支持的拓扑和部署方案。
 
 | 客户      | IPC 硬件工作站 | IIS 硬件工作站 |
 |-------------|----------------------|----------------------|
-| Windows 应用 | 是                  | 是                  |
+| Windows 应用程序 | 是                  | 是                  |
 | 云 POS   | 无                   | 是                  |
-| 机器人     | 无                   | 是                  |
+| Android     | 无                   | 是                  |
 | iOS         | 无                   | 是                  |
 
-### <a name="network-peripherals"></a>外围网络
+### <a name="network-peripherals"></a>网络外设
 
-网络外设可以直接通过建立到程序的 Windows 应用 Modern POS 的硬件工作站支持。 对于其他客户，则必须部署 IIS 硬件工作站。
+可以直接通过 Modern POS for Windows 应用程序中内置的硬件工作站支持网络外设。 对于其他所有客户端，则必须部署 IIS 硬件工作站。
 
 | 客户      | IPC 硬件工作站 | IIS 硬件工作站 |
 |-------------|----------------------|----------------------|
-| Windows 应用 | 是                  | 是                  |
+| Windows 应用程序 | 是                  | 是                  |
 | 云 POS   | 无                   | 是                  |
-| 机器人     | 无                   | 是                  |
+| Android     | 无                   | 是                  |
 | iOS         | 无                   | 是                  |
 
-## <a name="supported-device-types-by-hardware-station-type"></a>按类型的硬件工作站支持的设备的类型
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Windows 的 Modern POS 的 IPC (日期) 内硬件工作站
+## <a name="supported-device-types-by-hardware-station-type"></a>硬件工作站类型支持的设备类型
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>带 IPC（内置）硬件工作站的 Modern POS for Windows
 
 <table>
 <colgroup>
@@ -237,7 +240,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 </colgroup>
 <thead>
 <tr class="header">
-<th>支持的设备分类</th>
+<th>支持的设备类</th>
 <th>支持的接口</th>
 </tr>
 </thead>
@@ -272,38 +275,38 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 <td>MSR</td>
 <td><ul>
 <li>OPOS</li>
-<li>UWP (不需要设置。)</li>
-<li>键盘楔形 (不需要设置。)</li>
+<li>UWP（不需要设置。）</li>
+<li>键盘 wedge（不需要设置。）</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>开票人</td>
 <td><ul>
 <li>OPOS</li>
-<li>如果 <strong>注意：</strong> 针对银箱，配置网络仅 <strong>使用共享的倒班</strong> 为银箱可以设置。</li>
+<li>网络 <strong>注释：</strong>如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>开票人 2</td>
 <td><ul>
 <li>OPOS</li>
-<li>如果 <strong>注意：</strong> 针对银箱，配置网络仅 <strong>使用共享的倒班</strong> 为银箱可以设置。</li>
+<li>网络 <strong>注释：</strong>如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>扫描仪</td>
 <td><ul>
 <li>OPOS</li>
-<li>UWP (不需要设置。)</li>
-<li>键盘楔形 (不需要设置。)</li>
+<li>UWP（不需要设置。）</li>
+<li>键盘 wedge（不需要设置。）</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>扫描仪 2</td>
 <td><ul>
 <li>OPOS</li>
-<li>UWP (不需要设置。)</li>
-<li>键盘楔形 (不需要设置。)</li>
+<li>UWP（不需要设置。）</li>
+<li>键盘 wedge（不需要设置。）</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -312,7 +315,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 </tr>
 <tr class="odd">
 <td>PIN 小键盘</td>
-<td>OPOS (支持通过付款 Connector 的自定义提供)。</td>
+<td>OPOS（通过自定义付款连接器提供支持。）</td>
 </tr>
 <tr class="even">
 <td>签名捕获</td>
@@ -321,16 +324,16 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 <tr class="odd">
 <td>付款终端</td>
 <td><ul>
-<li>设备支持自定义</li>
-<li>网络 (有关详细信息，请参阅付款 Connector 文档。)</li>
+<li>自定义设备支持</li>
+<li>网络（有关详细信息，请参阅付款连接器文档。）</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>具有一个专用的 IIS 硬件工作站的所有 Modern POS 客户
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>有专用 IIS 硬件工作站的所有 Modern POS 客户端
 
-**注释：**在 IIS，硬件工作站为“专用的时，具有”POS 硬件工作站和客户之间的一对一关系。
+**注释：**当 IIS 硬件工作站为“专用”时，POS 客户端与硬件工作站之间存在一对一关系。
 
 <table>
 <colgroup>
@@ -339,7 +342,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 </colgroup>
 <thead>
 <tr class="header">
-<th>支持的设备分类</th>
+<th>支持的设备类</th>
 <th>支持的接口</th>
 </tr>
 </thead>
@@ -348,7 +351,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 <td>打印机</td>
 <td><ul>
 <li>OPOS</li>
-<li>Windows <strong>注意：</strong> 打印机的 Windows 司机在网络，硬件工作站的用户必须拥有访问权限打印机。</li>
+<li>Windows 驱动程序 <strong>注释：</strong>对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</li>
 <li>网络</li>
 </ul></td>
 </tr>
@@ -372,7 +375,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 <td>开票人</td>
 <td><ul>
 <li>OPOS</li>
-<li>如果 <strong>注意：</strong> 针对银箱，配置网络仅每个硬件 <strong>使用共享的倒班</strong> 配置文件。银箱可以设置。</li>
+<li>网络 <strong>注释：</strong>如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -396,25 +399,25 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 </tr>
 <tr class="even">
 <td>PIN 小键盘</td>
-<td>OPOS (支持通过付款 Connector 的自定义提供)。</td>
+<td>OPOS（通过自定义付款连接器提供支持。）</td>
 </tr>
 <tr class="odd">
-<td>符号。 捕获</td>
+<td>签到 捕获</td>
 <td>OPOS</td>
 </tr>
 <tr class="even">
 <td>付款终端</td>
 <td><ul>
-<li>设备支持自定义</li>
-<li>网络 (有关详细信息，请参阅付款 Connector 文档。)</li>
+<li>自定义设备支持</li>
+<li>网络（有关详细信息，请参阅付款连接器文档。）</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>具有共享的 IIS 硬件工作站的所有 Modern POS 客户
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>有共享 IIS 硬件工作站的所有 Modern POS 客户端
 
-**注释：**在 IIS，硬件工作站“共享多个期间，”设备能同时使用硬件工作站。 对于此情况，您应该使用在下表中列出的仅设备。 如果您尝试在此处列出未共享，例如条码扫描仪和 MSRs，错误的设备将发生，当多尝试设备要求相同的外设。 将来，此配置中明确会阻止。
+**注释：**当 IIS 硬件工作站为“共享”时，多台设备可同时使用该硬件工作站。 对于此方案，应仅使用下表中列出的设备。 如果尝试共享此处未列出的设备（如条码扫描仪和 MSR），多台设备尝试声明同一外设时，将出错。 将来将明确阻止此类配置。
 
 <table>
 <colgroup>
@@ -423,7 +426,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 </colgroup>
 <thead>
 <tr class="header">
-<th>支持的设备分类</th>
+<th>支持的设备类</th>
 <th>支持的接口</th>
 </tr>
 </thead>
@@ -432,7 +435,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 <td>打印机</td>
 <td><ul>
 <li>OPOS</li>
-<li>Windows <strong>注意：</strong> 打印机的 Windows 司机在网络，硬件工作站的用户必须拥有访问权限打印机。</li>
+<li>Windows 驱动程序 <strong>注释：</strong>对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</li>
 <li>网络</li>
 </ul></td>
 </tr>
@@ -448,7 +451,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 <td>开票人</td>
 <td><ul>
 <li>OPOS</li>
-<li>如果 <strong>注意：</strong> 针对银箱，配置网络仅每个硬件 <strong>使用共享的倒班</strong> 配置文件。银箱可以设置。</li>
+<li>网络 <strong>注释：</strong>如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -461,173 +464,173 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 <tr class="odd">
 <td>付款终端</td>
 <td><ul>
-<li>设备支持自定义</li>
-<li>网络 (有关详细信息，请参阅付款 Connector 文档。)</li>
+<li>自定义设备支持</li>
+<li>网络（有关详细信息，请参阅付款连接器文档。）</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>支持的方案的配置
-有关如何创建硬件配置文件的详细信息，请参阅将 [定义和维护客户，包括通道登记和硬件工作站] (通道定义维护客户登记 hw stations.md)。 **注释：**版本对于工序 365 的 Microsoft Dynamics 1611，硬件工作站配置文件不能再使用。 属性您在硬件工作站配置文件为已设置现在硬件工作站的一部分。
+有关如何创建硬件配置文件的详细信息，请参阅[定义和维护渠道客户端，包括收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)。 **注释：**对于 Microsoft Dynamics 365 for Operations 版本 1611，将不再使用硬件工作站配置文件。 以前在硬件工作站中设置的属性现在成为了硬件工作站本身的一部分。
 
-### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>Windows 的 Modern POS 的 IPC (日期) 内硬件工作站
+### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>带 IPC（内置）硬件工作站的 Modern POS for Windows
 
-此 Configuration 是传统，固定的 POS 收银机的最一般的配置。 对于此方案，硬件配置文件信息直接到登记表。 在收银机还应设置 EFT 终端编号。 若要设置此 Configuration，请执行以下步骤。
+此配置是传统固定式 POS 收银机最典型的配置。 对于此方案，硬件配置文件信息直接映射到收银机。 还必须在收银机本身中设置 EFT 终端号。 若要设置此配置，请执行以下步骤。
 
-1.  创建所需的外围配置的硬件配置文件。
-2.  映射硬件配置文件。POS 收银机。
-3.  创建硬件工作站**专用**为将使用 POS 收银机的零售店键入。 描述是可选的。 **注释：**您不必设置在硬件工作站的任何其他属性。 必需的信息，例如其他硬件配置文件，将来自登记。
-4.  **单击零售和商务** &gt; **零售 IT ** &gt; ** **分配计划。
-5.  ** **选择 1090 分配计划的新同步硬件配置文件分配给商店。 ** POS 的更改同步到的单击**立即运行。
-6.  ** **选择 1040 分配计划同步新的硬件工作站到商店。 ** POS 的更改同步到的单击**立即运行。
-7.  安装和启用 Windows 的 Modern POS。
-8.  启动用于 Windows 的 Modern POS，然后开始用于连接的外围设备。
+1.  创建在其中配置所有所需外设的硬件配置文件。
+2.  将硬件配置文件映射到 POS 收银机。
+3.  为将使用该 POS 收银机的零售商店创建一个类型为**专用**的硬件工作站。 描述可选。 **注释：**不必在硬件工作站中设置其他任何属性。 其他所有所需信息（如硬件配置文件）将来自收银机本身。
+4.  单击**零售和商业** &gt; **零售 IT** &gt; **配送计划**。
+5.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
+6.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
+7.  安装并激活 Modern POS for Windows。
+8.  启动 Modern POS for Windows，然后登录到连接的外设。
 
-### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>具有一个专用的 IIS 硬件工作站的所有 Modern POS 客户
+### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>有专用 IIS 硬件工作站的所有 Modern POS 客户端
 
-此 Configuration 可以为有一个硬件工作站一个 POS 收银机使用完全 Modern POS 使用的所有客户。 若要设置此 Configuration，请执行以下步骤。
+可将此配置用于有一个硬件工作站仅供一台 POS 收银机专用的所有 Modern POS 客户端。 若要设置此配置，请执行以下步骤。
 
-1.  创建所需的外围配置的硬件配置文件。
-2.  创建硬件工作站**专用**为将使用 POS 收银机的零售店键入。
-3.  在单个的硬件工作站，设置以下属性：
-    -   ** **主机名–硬件工作站将运行主计算机的名称。 **注释：**云 POS 可以确定解决** localhost **云 POS 运行的本地计算机。 但是，要求以匹配与 POS 硬件工作站的云的证书还必须具有“Localhost”为计算机名称。 若要避免发货，我们建议您列出每个专用的硬件工作站的商店实例，然后根据需求。 对于每个硬件工作站，主机名应是硬件工作站将部署的特定计算机名称。
-    -   ** **端口–所使用的端口。可以使用硬件工作站 Modern POS 客户进行通信。
-    -   ** ** –硬件配置文件，则在硬件工作站提供，不分配给收银机的硬件配置文件中使用硬件配置文件。
-    -   ** EFT POS 编号** EFT 授权–使用什么时候 EFT 的终端 ID 发送。 信用卡处理程序提供此 ID。
-    -   ** **使用包装名称–硬件工作站什么时候的硬件工作站包装部署。
+1.  创建在其中配置所有所需外设的硬件配置文件。
+2.  为将使用该 POS 收银机的零售商店创建一个类型为**专用**的硬件工作站。
+3.  在专用硬件工作站中，设置以下属性：
+    -   **主机名** – 将运行硬件工作站的主计算机的名称。 **注释：**Cloud POS 可以解析 **localhost** 以确定运行 Cloud POS 的本地计算机。 但是，将 Cloud POS 与硬件工作站配对所需证书必须也采用“Localhost”来充当计算机名称。 若要避免问题，建议您根据列出商店每个专用硬件工作站的实例。 对于每个硬件工作站，主机名应该是将部署硬件工作站的具体计算机名称。
+    -   **端口** – 硬件工作站用于与 Modern POS 客户端通信的端口。
+    -   **硬件配置文件** – 如果硬件工作站本身中不提供硬件配置文件，将使用为收银机分配的硬件配置文件。
+    -   **EFT POS 号** – 发送 EFT 授权时使用的 EFT 终端 ID。 此 ID 由信用卡处理方提供。
+    -   **包名** – 部署硬件工作站时要使用的硬件工作站包。
 
-4.  **单击零售和商务** &gt; **零售 IT ** &gt; ** **分配计划。
-5.  ** **选择 1090 分配计划的新同步硬件配置文件分配给商店。 ** POS 的更改同步到的单击**立即运行。
-6.  ** **选择 1040 分配计划同步新的硬件工作站到商店。 ** POS 的更改同步到的单击**立即运行。
-7.  设置硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅 Retail 硬件工作站 [] (配置和安装 Retail 硬件工作站配置 installation.md)。
-8.  设置并激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅" Retail Modern POS [] (配置和安装 Retail POS activation.md 现代化设备)。
-9.  登录到并选择** Modern POS，请执行非银箱**工序。
-10. 管理启动**硬件工作站**工序。
-11. **管理**请单击。
-12. 在硬件车站管理页面，请设置硬件工作站打开此选项。
-13. 选择使用硬件工作站，然后单击**对**。
-14. 在硬件工作站匹配后，单击** **结转。
-15. 在硬件车站选择页，请单击新选定的硬件工作站需使它处于活动状态。
+4.  单击**零售和商业** &gt; **零售 IT** &gt; **配送计划**。
+5.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
+6.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
+7.  安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅 [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)。
+8.  安装和激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅 [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)。
+9.  登录 Modern POS，然后选择**执行非开票人操作**。
+10. 启动**管理硬件工作站**操作。
+11. 单击**管理**。
+12. 在硬件工作站管理页中，设置用于打开硬件工作站的选项。
+13. 选择要使用的硬件工作站，然后单击**配对**。
+14. 在硬件工作站配对后，单击**关闭**。
+15. 在硬件工作站选择页中，单击最近选择的硬件工作站将其激活。
 
-### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>具有共享的 IIS 硬件工作站的所有 Modern POS 客户
+### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>有共享 IIS 硬件工作站的所有 Modern POS 客户端
 
-此 Configuration 可以为共享与其他设备的硬件工作站的所有 Modern POS 客户使用。 若要设置此 Configuration，请执行以下步骤。
+此配置可用于与其他设备共享硬件工作站的所有 Modern POS 客户端。 若要设置此配置，请执行以下步骤。
 
-1.  创建所需的外围配置的硬件配置文件。
-2.  创建硬件工作站** **共享为将使用 POS 收银机的零售店键入。
-3.  在共享的硬件工作站，设置以下属性：
-    -   ** **主机名–硬件工作站将运行主计算机的名称。
-    -   **将帮助标识硬件工作站的描述** –短消息，如退货** ** **前面**或商店。
-    -   ** **端口–所使用的端口。可以使用硬件工作站 Modern POS 客户进行通信。
-    -   ** **硬件配置文件–共享的硬件工作站的，为每个硬件工作站应将硬件配置文件。 硬件配置文件可在硬件工作站中共享，但必须映射到每个硬件工作站。 此外，我们建议您使用共享的倒班，当多使用共享相同设备的硬件工作站时。 若要设置共享的倒班，请单击**零售和商务** &gt; **的设置渠道** &gt; **的设置 POS ** &gt; ** POS 模板** &gt; ** **硬件配置文件。 对于每个共享的硬件配置文件，请选择针对银箱，并且设置该**共享的倒班银箱**是** **选项。
-    -   ** EFT POS 编号** EFT 授权–使用什么时候 EFT 的终端 ID 发送。 信用卡处理程序提供此 ID。
-    -   ** **使用包装名称–硬件工作站什么时候的硬件工作站包装部署。
+1.  创建在其中配置所需外设的硬件配置文件。
+2.  为将使用该 POS 收银机的零售商店创建一个类型为**共享**的硬件工作站。
+3.  在共享硬件工作站中，设置以下属性：
+    -   **主机名** – 将运行硬件工作站的主计算机的名称。
+    -   **描述** – 用于帮助识别硬件工作站的文本，如**退货**或**店前**。
+    -   **端口** – 硬件工作站用于与 Modern POS 客户端通信的端口。
+    -   **硬件配置文件** – 对于共享硬件工作站，每个硬件工作站都应该有一个硬件配置文件。 可以在硬件工作站之间共享硬件配置文件，但必须将其映射到每个硬件工作站。 此外，建议在多个设备共享同一个共享硬件工作站时使用共享班次。 若要设置共享班次，单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 对于每个共享硬件配置文件，选择银箱，然后将**共享班次银箱**选项设置为**是**。
+    -   **EFT POS 号** – 发送 EFT 授权时使用的 EFT 终端 ID。 此 ID 由信用卡处理方提供。
+    -   **包名** – 部署硬件工作站时要使用的硬件工作站包。
 
-4.  重复中商店需的每个附加的硬件工作站的步骤 2 和 3。
-5.  **单击零售和商务** &gt; **零售 IT ** &gt; ** **分配计划。
-6.  ** **选择 1090 分配计划的新同步硬件配置文件分配给商店。 ** POS 的更改同步到的单击**立即运行。
-7.  ** **选择 1040 分配计划同步新的硬件工作站到商店。 ** POS 的更改同步到的单击**立即运行。
-8.  设置在您的设置步骤 2 和 3. 的每个主计算机的硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅 Retail 硬件工作站 [] (配置和安装 Retail 硬件工作站配置 installation.md)。
-9.  设置并激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅" Retail Modern POS [] (配置和安装 Retail POS activation.md 现代化设备)。
-10. 登录到并选择** Modern POS，请执行非银箱**工序。
-11. 管理启动**硬件工作站**工序。
+4.  为商店中所需其他每个硬件工作站重复步骤 2 和 3。
+5.  单击**零售和商业** &gt; **零售 IT** &gt; **配送计划**。
+6.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
+7.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
+8.  在步骤 2 和 3 中设置的每个主机上安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅 [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)。
+9.  安装和激活 Modern POS。 有关如何安装 Modern POS 的详细信息，请参阅 [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)。
+10. 登录 Modern POS，然后选择**执行非开票人操作**。
+11. 启动**管理硬件工作站**操作。
 
-12. **管理**请单击。
-13. 在硬件车站管理页面，请设置硬件工作站打开此选项。
-14. 选择使用硬件工作站，然后单击**对**。
-15. 重复 Modern POS 将使用的每个硬件工作站的第 14 步。
-16. 在所有所需的硬件工作站匹配后，单击** **结转。
-17. 在硬件车站选择页，请单击新选定的硬件工作站需使它处于活动状态。 **注释：**设备，则通常使用不同的硬件工作站，我们建议您通过配置 Modern POS 会提示出纳选择硬件工作站，在开始流程时支付方式。 **单击零售和商务** &gt; **的设置渠道** &gt; **的设置 POS ** &gt; ** **登记。 选择登记，然后设置该**选择时支付方式**是** **选项。 ** **使用 1090 分配计划同步到通道数据库的更改。
+12. 单击**管理**。
+13. 在硬件工作站管理页中，设置用于打开硬件工作站的选项。
+14. 选择要使用的硬件工作站，然后单击**配对**。
+15. 为 Modern POS 将使用的每个硬件工作站重复步骤 14。
+16. 为所需全部硬件工作站配对之后，单击**关闭**。
+17. 在硬件工作站选择页中，单击最近选择的硬件工作站将其激活。 **注释**：如果设备经常使用不同硬件工作站，建议将 Modern POS 配置为收银员开始收款过程时提示其选择硬件工作站。 单击**零售和商业** &gt; **渠道设置** &gt; POS 设置 **** &gt; **收银机**。 选择收银机，然后将**收款后即可选择**选项设置为**是**。 使用 **1090** 配送计划将更改同步到渠道数据库。
 
 ## <a name="extensibility"></a>可扩展性
-有关硬件工作站的扩展性方案的信息，请参阅 [] (dev 扩展性硬件工作站 itpro/硬件工作站 extensibility.md)。
+有关硬件工作站的可扩展性方案的信息，请参阅[硬件工作站可扩展性](dev-itpro/hardware-station-extensibility.md)。
 
 ## <a name="security"></a>安全性
-根据当前安全标准，以下设置应在生产环境：**注释：**硬件工作站安装程序将自动进行编辑这些登记表作为安装的一部分通过自助服务。
+根据当前安全标准，可以在生产环境中使用以下设置：**注释：**硬件工作站安装程序将在安装期间通过自助服务自动执行这些注册表编辑。
 
 -   应禁用安全套接字层 (SSL)。
--   传输层安全性应启用和使用 (TLS) 版本 (TLS) (或者只当前最高的版本。) **注释：**默认情况下，TLS SSL 和所有版本只有 1.2 的 TLS 禁用。 若要编辑或启用这些值，请执行以下步骤：
-    1.  按 Windows 徽标 key+R 运行** **打开"窗口。
-    2.  **在打开** "字段中，键入 Regedit ** **，然后单击** **好。
-    3.  如果用户帐户。**控制**此时出现，则单击**是**。
-    4.  **在注册表编辑器**窗口，导航** HKEY\_本机\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols **。 以下参数自动输入只允许 TLS 1.2:
-        -   TLS 1.2Server: Enabled=1
-        -   TLS 1.2Server: DisabledByDefault=0
-        -   TLS 1.2Client: Enabled=1
-        -   TLS 1.2Client: DisabledByDefault=0
-        -   TLS 1.1Server: Enabled=0
-        -   TLS 1.1Client: Enabled=0
-        -   TLS 1.0Server: Enabled=0
-        -   TLS 1.0Client: Enabled=0
-        -   SSL 3.0Server: Enabled=0
-        -   SSL 3.0Client: Enabled=0
-        -   SSL 2.0Server: Enabled=0
-        -   SSL 2.0Client: Enabled=0
--   网络应的其他端口尚未打开，除非它们。了解是必需的，指定的原因。
--   必须禁用跨来源资源共享和必须指定所接受的允许的来源。
--   仅应信任认证主管机构使用的计算机上运行。使用硬件工作站的证书。
+-   应启用并使用传输层安全性 (TLS) 版本 1.2（或当前最高版本）。 **注释：**默认情况下，已禁用 SSL 和除 TLS 1.2 外的所有 TLS 版本。 要编辑或启用这些值，请执行以下步骤：
+    1.  按 Windows 徽标键+R 打开**运行**窗口。
+    2.  在**打开**字段中，键入 **Regedit**，然后单击**确定**。
+    3.  如果显示**用户帐户控制**消息框，请单击**是**。
+    4.  在**注册表编辑器**窗口中，导航至 **HKEY\_LOCAL\_MACHINESystemCurrentControlSetSecurityProvidersSCHANNELProtocols**。 以自动输入了以下键，以便仅允许 TLS 1.2。
+        -   TLS 1.2Server:Enabled=1
+        -   TLS 1.2Server:DisabledByDefault=0
+        -   TLS 1.2Client:Enabled=1
+        -   TLS 1.2Client:DisabledByDefault=0
+        -   TLS 1.1Server:Enabled=0
+        -   TLS 1.1Client:Enabled=0
+        -   TLS 1.0Server:Enabled=0
+        -   TLS 1.0Client:Enabled=0
+        -   SSL 3.0Server:Enabled=0
+        -   SSL 3.0Client:Enabled=0
+        -   SSL 2.0Server:Enabled=0
+        -   SSL 2.0Client:Enabled=0
+-   除非已知的具体原因所需，否则不应开放其他任何网络端口。
+-   必须禁用跨源资源共享，并且必须指定允许接受的源。
+-   应仅使用可信证书机构获取将在运行硬件工作站的计算机上使用的证书。
 
-**注释：**非常重要的您在 IIS 和支付卡行业 (PCI) 需求的安全准则。
+**注释：**请务必仔细阅读 IIS 和 Payment Card Industry (PCI) 要求的安全指南。
 
 ## <a name="peripheral-simulator"></a>外围设备模拟器
-有关信息，请参阅零售 [外围模拟程序] (零售外设 simulator.md)。
+有关信息，请参阅 [Retail 外设模拟器](retail-peripheral-simulator.md)。
 
-## <a name="microsofttested-peripheral-devices"></a>Microsofttested 外围设备
-### <a name="ipc-built-in-hardware-station"></a>IPC (日期) 内硬件工作站
+## <a name="microsofttested-peripheral-devices"></a>经过 Microsoft 测试的外设
+### <a name="ipc-built-in-hardware-station"></a>IPC（内置）硬件工作站
 
-以下测试外围使用生成到 Windows 的 Modern POS 硬件工作站的 IPC。
+已通过 Modern POS for Windows 中的内置 IPC 硬件工作站测试了以下外设。
 
 #### <a name="printer"></a>打印机
 
 | 制造商 | 型号    | 接口 | 评论                |
 |--------------|----------|-----------|-------------------------|
-| 爱普生        | TmT88IV | OPOS      |                         |
-| 爱普生        | TM-T88V  | OPOS      |                         |
-| 星级         | TSP650II | OPOS      |                         |
-| 星级         | TSP650II | 自定义    | 连接通过网络   |
-| 星级         | mPOP     | OPOS      | 通过 Bluetooth 连接 |
-| HP           | F7M67AA  | OPOS      | 结算的 USB             |
+| Epson        | Tm-T88IV | OPOS      |                         |
+| Epson        | TM-T88V  | OPOS      |                         |
+| Star         | TSP650II | OPOS      |                         |
+| Star         | TSP650II | 自定义    | 通过网络连接   |
+| Star         | mPOP     | OPOS      | 通过 Bluetooth 连接 |
+| HP           | F7M67AA  | OPOS      | 带电 USB             |
 
-#### <a name="bar-code-scanner"></a>条码扫描器
+#### <a name="bar-code-scanner"></a>条码扫描仪
 
 | 制造商  | 型号         | 接口 | 评论 |
 |---------------|---------------|-----------|----------|
-| 摩托罗拉      | DS9208        | OPOS      |          |
-| 霍尼韦尔     | 1900          | UWP       |          |
+| Motorola      | DS9208        | OPOS      |          |
+| Honeywell     | 1900          | UWP       |          |
 | 符号        | LS2208        | OPOS      |          |
-| 集成的 HP | E1L07AA       | OPOS      |          |
-| Datalogic     | 麦哲伦 8400 | OPOS      |          |
+| HP Integrated | E1L07AA       | OPOS      |          |
+| Datalogic     | Magellan 8400 | OPOS      |          |
 
 #### <a name="pin-pad"></a>PIN 小键盘
 
 | 制造商 | 型号  | 接口 | 评论                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | 需要付款 Connector 的自定义 |
+| VeriFone     | 1000SE | OPOS      | 需要自定义付款连接器 |
 
 #### <a name="payment-terminal"></a>付款终端
 
 | 制造商 | 型号 | 接口 | 评论                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| 昼夜平分利      | L5300 | 自定义    | 需要付款 Connector 的自定义                                |
-| VeriFone     | MX925 | 自定义    | 需要付款 Connector 的自定义功能；连接和 USB 通过网络 |
-| VeriFone     | MX915 | 自定义    | 需要付款 Connector 的自定义功能；连接和 USB 通过网络 |
+| Equinox      | L5300 | 自定义    | 需要自定义付款连接器                                |
+| VeriFone     | MX925 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
+| VeriFone     | MX915 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
 
 #### <a name="cash-drawer"></a>银箱
 
 | 制造商 | 型号     | 接口 | 评论                |
 |--------------|-----------|-----------|-------------------------|
-| 星级         | mPOP      | OPOS      | 通过 Bluetooth 连接 |
-| APG          | 爱特伍    | 自定义    | 连接通过网络   |
-| 星级         | SMD2-1317 | OPOS      |                         |
+| Star         | mPOP      | OPOS      | 通过 Bluetooth 连接 |
+| APG          | Atwood    | 自定义    | 通过网络连接   |
+| Star         | SMD2-1317 | OPOS      |                         |
 | HP           | QT457AA   | OPOS      |                         |
 
 #### <a name="line-display"></a>行显示内容
 
 | 制造商  | 型号   | 接口 | 评论 |
 |---------------|---------|-----------|----------|
-| 集成的 HP | G6U79AA | OPOS      |          |
-| 爱普生         | M58DC   | OPOS      |          |
+| HP Integrated | G6U79AA | OPOS      |          |
+| Epson         | M58DC   | OPOS      |          |
 
 #### <a name="signature-capture"></a>签名捕获
 
@@ -639,7 +642,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 
 | 制造商 | 型号         | 接口 | 评论 |
 |--------------|---------------|-----------|----------|
-| Datalogic    | 麦哲伦 8400 | OPOS      |          |
+| Datalogic    | Magellan 8400 | OPOS      |          |
 
 #### <a name="msr"></a>MSR
 
@@ -649,57 +652,57 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 | Magtek       | 21073062    | OPOS      |          |
 | HP           | IDRA-334133 | OPOS      |          |
 
-### <a name="dedicated-iis-hardware-station"></a>专用的 IIS 硬件工作站
+### <a name="dedicated-iis-hardware-station"></a>专用 IIS 硬件工作站
 
-以下测试外围使用一个专用 (") 未共享的 IIS 硬件工作站和 Windows 身份的 Modern POS 一起并覆盖 POS。
+已使用专用（而非共享）IIS 硬件工作站和 Modern POS for Windows 及 Cloud POS 测试了以下外设。
 
 #### <a name="printer"></a>打印机
 
 | 制造商 | 型号    | 接口 | 评论                  |
 |--------------|----------|-----------|---------------------------|
-| 爱普生        | TmT88IV | OPOS      |                           |
-| 爱普生        | TM-T88V  | OPOS      |                           |
-| 星级         | TSP650II | OPOS      |                           |
-| 星级         | TSP650II | 自定义    | 连接通过网络     |
-| 星级         | TSP100   | OPOS      | 要求 TSP650II 司机 |
-| HP           | F7M67AA  | OPOS      | 结算的 USB               |
+| Epson        | Tm-T88IV | OPOS      |                           |
+| Epson        | TM-T88V  | OPOS      |                           |
+| Star         | TSP650II | OPOS      |                           |
+| Star         | TSP650II | 自定义    | 通过网络连接     |
+| Star         | TSP100   | OPOS      | 需要 TSP650II 驱动程序 |
+| HP           | F7M67AA  | OPOS      | 带电 USB               |
 
-#### <a name="bar-code-scanner"></a>条码扫描器
+#### <a name="bar-code-scanner"></a>条码扫描仪
 
 | 制造商  | 型号   | 接口 | 评论 |
 |---------------|---------|-----------|----------|
-| 摩托罗拉      | DS9208  | OPOS      |          |
+| Motorola      | DS9208  | OPOS      |          |
 | 符号        | LS2208  | OPOS      |          |
-| 集成的 HP | E1L07AA | OPOS      |          |
+| HP Integrated | E1L07AA | OPOS      |          |
 
 #### <a name="pin-pad"></a>PIN 小键盘
 
 | 制造商 | 型号  | 接口 | 评论                                        |
 |--------------|--------|-----------|-------------------------------------------------|
-| VeriFone     | 1000SE | OPOS      | 需要付款 Connector 的自定义 |
+| VeriFone     | 1000SE | OPOS      | 需要自定义付款连接器 |
 
 #### <a name="payment-terminal"></a>付款终端
 
 | 制造商 | 型号 | 接口 | 评论                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| 昼夜平分利      | L5300 | 自定义    | 需要付款 Connector 的自定义                                |
-| VeriFone     | MX925 | 自定义    | 需要付款 Connector 的自定义功能；连接和 USB 通过网络 |
-| VeriFone     | MX915 | 自定义    | 需要付款 Connector 的自定义功能；连接和 USB 通过网络 |
+| Equinox      | L5300 | 自定义    | 需要自定义付款连接器                                |
+| VeriFone     | MX925 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
+| VeriFone     | MX915 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
 
 #### <a name="cash-drawer"></a>银箱
 
 | 制造商 | 型号     | 接口 | 评论              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | 爱特伍    | 自定义    | 连接通过网络 |
-| 星级         | SMD2-1317 | OPOS      |                       |
+| APG          | Atwood    | 自定义    | 通过网络连接 |
+| Star         | SMD2-1317 | OPOS      |                       |
 | HP           | QT457AA   | OPOS      |                       |
 
 #### <a name="line-display"></a>行显示内容
 
 | 制造商  | 型号   | 接口 | 评论 |
 |---------------|---------|-----------|----------|
-| 集成的 HP | G6U79AA | OPOS      |          |
-| 爱普生         | M58DC   | OPOS      |          |
+| HP Integrated | G6U79AA | OPOS      |          |
+| Epson         | M58DC   | OPOS      |          |
 
 #### <a name="signature-capture"></a>签名捕获
 
@@ -711,7 +714,7 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 
 | 制造商 | 型号         | 接口 | 评论 |
 |--------------|---------------|-----------|----------|
-| Datalogic    | 麦哲伦 8400 | OPOS      |          |
+| Datalogic    | Magellan 8400 | OPOS      |          |
 
 #### <a name="msr"></a>MSR
 
@@ -721,87 +724,89 @@ OPOS 组件有关的详细信息，请参阅单据“支持的接口”部分。
 | Magtek       | 21073062    | OPOS      |          |
 | HP           | IDRA-334133 | OPOS      |          |
 
-### <a name="shared-iis-hardware-station"></a>共享的 IIS 硬件工作站
+### <a name="shared-iis-hardware-station"></a>共享 IIS 硬件工作站
 
-以下测试外围使用共享的 IIS 硬件工作站和 Windows 身份的 Modern POS 一起并覆盖 POS。 **注释：**仅付款和终端打印机、银箱支持。
+已使用共享 IIS 硬件工作站和 Modern POS for Windows 及 Cloud POS 测试了以下外设。 **注释：**仅支持打印机、付款终端和银箱。
 
 #### <a name="printer"></a>打印机
 
 | 制造商 | 型号    | 接口 | 评论                  |
 |--------------|----------|-----------|---------------------------|
-| 爱普生        | TmT88IV | OPOS      |                           |
-| 爱普生        | TM-T88V  | OPOS      |                           |
-| 星级         | TSP650II | OPOS      |                           |
-| 星级         | TSP650II | 自定义    | 连接通过网络     |
-| 星级         | TSP100   | OPOS      | 要求 TSP650II 司机 |
-| HP           | F7M67AA  | OPOS      | 结算的 USB               |
+| Epson        | Tm-T88IV | OPOS      |                           |
+| Epson        | TM-T88V  | OPOS      |                           |
+| Star         | TSP650II | OPOS      |                           |
+| Star         | TSP650II | 自定义    | 通过网络连接     |
+| Star         | TSP100   | OPOS      | 需要 TSP650II 驱动程序 |
+| HP           | F7M67AA  | OPOS      | 带电 USB               |
 
 #### <a name="payment-terminal"></a>付款终端
 
 | 制造商 | 型号 | 接口 | 评论                                                                       |
 |--------------|-------|-----------|--------------------------------------------------------------------------------|
-| VeriFone     | MX925 | 自定义    | 需要付款 Connector 的自定义功能；连接和 USB 通过网络 |
-| VeriFone     | MX915 | 自定义    | 需要付款 Connector 的自定义功能；连接和 USB 通过网络 |
+| VeriFone     | MX925 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
+| VeriFone     | MX915 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
 
 #### <a name="cash-drawer"></a>银箱
 
 | 制造商 | 型号     | 接口 | 评论              |
 |--------------|-----------|-----------|-----------------------|
-| APG          | 爱特伍    | 自定义    | 连接通过网络 |
-| 星级         | SMD2-1317 | OPOS      |                       |
+| APG          | Atwood    | 自定义    | 通过网络连接 |
+| Star         | SMD2-1317 | OPOS      |                       |
 | HP           | QT457AA   | OPOS      |                       |
 
 ## <a name="troubleshooting"></a>疑难解答
-### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS 可以检测到在其选择列表的硬件工作站的，但是，无法完成。匹配
+### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS 可以在其列表中检测硬件工作站以进行选择，但是不能完成配对。
 
-**解决方案：**请验证潜在的故障积分以下列表：
+**解决方案：**验证以下潜在故障点列表：
 
--   是连续 Modern POS 的计算机委托计算机上运行使用硬件工作站的证书。
-    -   若要验证此设置，在查看器，转到下面的 URL:https://Computer&lt;名称&gt;:&lt;端口号&gt;/HardwareStation/ping。
-    -   使用 ping 验证此 URL 一计算机，可以访问，并且指示浏览器证书是否委托人。 (例如，在 Internet Explorer，锁图标将地址栏出现。 当您单击此图标时，Internet Explorer 验证证书是否正在委托人。 您可以查看通过查看证书的详细信息)。安装在本地计算机的证书
--   在运行硬件工作站的计算机上，硬件工作站将使用的端口。防火墙已打开。
--   硬件工作站通过运行在硬件工作站安装程序安装时结束的商人信息正确设置工具商人帐户信息。
+-   运行 Modern POS 的计算机信任运行硬件工作站的计算机上使用的证书。
+    -   若要验证此设置，请转至以下 URL：https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping。
+    -   此 URL 使用 ping 验证计算机是否可访问，而浏览器则指示证书是否可信。 （例如，在 Internet Explorer 中，地址栏中显示锁图标。 当您单击此图标时，Internet Explorer 验证证书当前是否可信。 您可以通过查看显示的证书的详细信息，将证书安装到本地计算机上。）
+-   在运行硬件工作站的计算机上，防火墙中将打开硬件工作站使用的端口。
+-   硬件工作站已通过硬件工作站安装程序结束时运行的安装商家信息工具正确安装了商家帐户信息。
 
-### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>检测 Modern POS 不能在列表其的硬件工作站的选择
+### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS 不能在其列表中检测到硬件工作站来进行选择。
 
-**解决方案：**以下因素可能导致此发货之一：
+**解决方案：**以下因素之一可能导致此问题：
 
--   硬件工作站尚未在总部设置正确。 使用下一主题{{在此：in}}验证硬件工作站配置文件和硬件工作站正确地输入。
--   作业未运行更新通道配置。 在这种情况下，请运行的作业。1070 配置通道
+-   硬件工作站尚未在总部正确设置。 使用本主题前面的步骤验证是否正确输入了硬件工作站配置文件和硬件工作站。
+-   尚未运行作业以更新渠道配置。 在这种情况下，请运行作业 1070 以配置渠道。
 
-### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS 不反映新银箱设置
+### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS 不体现新的银箱设置
 
-**解决方案：**请关闭当前批处理。 更改为银箱没有更新到 Modern POS，关闭当前批处理。
+**解决方案：**关闭当前批处理。 关闭当前批处理之前，不会将对银箱的更改更新到 Modern POS。
 
-### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS 报告与零售外设的发货
+### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS 报告零售外设有问题
 
-**解决方案：**这是此问题的一些典型的原因如下：
+**解决方案：**下面是此问题的一些典型原因：
 
--   确保其他设备驱动程序关闭配置实用程序。 如果这些实用程序打开，他们可能会阻止 Modern POS 硬件工作站未申报或设备。
--   如果零售 POS 外设共享与多种设备，请注意它属于到以下类别之一：
+-   确保关闭了其他设备驱动程序配置实用程序。 如果打开了这些实用程序，可能会阻止 Modern POS 或硬件工作站声明设备。
+-   如果将零售外设与多台 POS 设备共享，请确保其属于以下类别之一：
     -   银箱
     -   收据打印机
     -   付款终端
 
-    如果不在外围到这些类别之一，硬件工作站不启用设计在多个 POS 中将共享的外围设备。
--   在某些情况下，设备驱动程序可以归入"公共控件对象 (CCOs) 停止正确工作。 设备如果最新安装，但是，无法正常运行。请注意您或其他问题，可以通过重新安装 CCOs 通常解决该问题。 若要下载 CCOs，请访问<http://monroecs.com/oposccos_current.htm>。
--   在测试或故障排除，则期间对频繁的外围更改，您可能必须重置 IIS {{而不是：instead_of}}等待缓存以刷新。 要重置 IIS，请执行以下步骤：
-    1.  **从开始**菜单上，CMD ** **类型。
-    2.  在搜索结果，右键单击"命令提示符** **，然后单击** **请以管理员身份运行"。
-    3.  **在命令提示符窗口** **，键入" iisreset " /Restart **然后按 Enter。
-    4.  在 IIS 重新启动后，重新启动 Modern POS。
--   当您对外围设备时的常见的更改，因此，如果您需经常还将开始并退出，从客户 POS 上次 POS 会话的 dllhost 流程可以干涉当前会话。 设备在这种情况下，可能不可用，直到您结算上次会话管理的动态链接库 (DLL) 主机。 若要关闭 DLL 主机，请执行以下步骤：
-    1.  **从开始**菜单，请键入**管理器**任务。
-    2.  在搜索结果，单击**管理器**任务。
-    3.  在任务管理器，** **详细信息，请单击选项卡中标记的列标题名称** **按字母顺序名义上表。
-    4.  下移，则在您查找 dllhost.exe。
-    5.  选择每 DLL 主机，然后单击** **结束任务。
-    6.  主机在 DLL 关闭后，重新启动 Modern POS。
+    如果外设不属于这些类别之一，则硬件工作站的设计不支持在多台 POS 设备之间共享该外设。
+-   有时，设备驱动程序可能导致公共控件对象 (CCO) 停止正常工作。 如果最近安装了设备，但是该设备无法正常工作，或您发现了其他问题，通常可以通过重新安装 CCO 来解决问题。 若要下载 CCO，请访问 <http://monroecs.com/oposccos_current.htm>。
+-   如果在测试或故障排除期间频繁更改外设，可能必须重置 IIS，而不是等待高速缓存自行刷新。 若要重置 IIS，请执行以下步骤:
+    1.  在**开始**菜单中键入 **CMD**。
+    2.  在搜索结果中，右键单击**命令提示符**，然后单击**以管理员身份运行**。
+    3.  在**命令提示符**窗口中，键入 **iisreset /Restart**，然后按 Enter。
+    4.  IIS 重新启动后，重新启动 Modern POS。
+-   频繁更改外设时，如果也频繁启动和退出 POS 客户端，则上一个 POS 会话的 dllhost 进程可能干扰当前会话。 在这种情况下，关闭正在管理上一个会话的动态链接库 (DLL) 主机之前，设备可能不可用。 若要关闭 DLL 主机，请执行以下步骤：
+    1.  在**开始**菜单中键入 **Task manager**。
+    2.  在搜索结果中，单击**任务管理器**。
+    3.  在“任务管理器”中的**详细信息**选项卡上，单击带有**名称**标签的列标题，按名称以字母顺序为表排序。
+    4.  向下滚动，直到找到 dllhost.exe。
+    5.  选择每个 DLL 主机，然后单击**结束任何**。
+    6.  关闭 DLL 主机后，重新启动 Modern POS。
 
 
 <a name="see-also"></a>请参阅
 --------
 
-[零售外围模拟程序] (零售外设 simulator.md)
+[零售外设模拟器](retail-peripheral-simulator.md)
+
+
 
 

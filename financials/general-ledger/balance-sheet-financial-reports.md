@@ -1,6 +1,6 @@
 ---
 title: "资产负债表财务报表"
-description: "此描述文章资产负债表的默认报表。 它还描述与这些报表的构建基块。"
+description: "本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="balance-sheet-financial-reports"></a>资产负债表财务报表
 
-此描述文章资产负债表的默认报表。 它还描述与这些报表的构建基块。 
+[!include[banner](../includes/banner.md)]
+
+
+本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。 
 
 <a name="default-balance-sheet-reports"></a>默认资产负债表
 -----------------------------
@@ -72,10 +75,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[财务申报](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[查看财务报表](view-financial-reports.md)
 
-[] (博客 Dynamics 财务报告 http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics 财务申报博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

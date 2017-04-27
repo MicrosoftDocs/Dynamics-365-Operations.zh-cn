@@ -1,5 +1,5 @@
 ---
-title: "和包装材料费用"
+title: "包装材料和费用"
 description: "定期向回收公司支付包装材料费用。 为包装单位中包含的每种材料支付每个单位重量的金额。 程序将计算和报告包装材料费用，但是不过帐分录，因为没有将这些费用视为要向主管机构缴纳的税款。"
 author: YuyuScheller
 manager: AnnBe
@@ -26,7 +26,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="packing-materials-and-fees"></a>和包装材料费用
+# <a name="packing-materials-and-fees"></a>包装材料和费用
+
+[!include[banner](../includes/banner.md)]
+
 
 定期向回收公司支付包装材料费用。 为包装单位中包含的每种材料支付每个单位重量的金额。 程序将计算和报告包装材料费用，但是不过帐分录，因为没有将这些费用视为要向主管机构缴纳的税款。
 
@@ -52,7 +55,7 @@ ms.lasthandoff: 03/31/2017
 ## <a name="packing-units-on-purchase-order-lines"></a>采购订单行的包装单位
 采购订单行的包装材料交易记录不是由系统创建的。 您将手动在“包装材料交易记录”****页中为已开票采购订单行创建交易记录。
 
-## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>安装客户 packagingmaterialfee 许可证编号
+## <a name="set-up-customer-packagingmaterialfee-license-numbers"></a>设置客户的包装材料费用许可证编号
 如果客户支付包装材料费用，请在“客户”****页中指定客户的包装材料费用许可证编号。 如果为客户指定了许可证编号，则对销售订单开票时将自动计算包装材料费用。 开票后，“计算费用”****复选框将在“包装材料交易记录”****页中被取消选中，因为您不必计算和打印报表。 您可以在发票上打印包装材料重量并告知客户由他们支付该费用。 
 
 如果您的公司支付包装材料费用，请不要指定客户许可证编号。 开票后，“计算费用”****复选框在“包装材料交易记录”****页中被选中。 这表示创建报表时计算费用。 您可以在发票上打印重量并指明由您的公司支付费用。
@@ -60,6 +63,8 @@ ms.lasthandoff: 03/31/2017
 ## <a name="print-packaging-material-weights-on-invoices"></a>在发票上打印包装材料重量
 可以在发票上打印包装材料重量并指明由谁来支付包装材料费用。 重量按包装代码来汇总。
  
+
+
 
 
 

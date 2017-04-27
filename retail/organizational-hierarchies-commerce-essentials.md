@@ -1,6 +1,6 @@
 ---
-title: "组织和组织层次结构 (商务精英)"
-description: "商务精英具有可以定义帮助组织执行业务流程完成目标或内部组织的三种类型。"
+title: "组织和组织层次结构（商业要素）"
+description: "商业要素有三种类型的内部组织，可定义来帮助开展业务流程和达成目标。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 21251
 ms.assetid: 2bfc6bfe-784b-42e8-8bf0-116e9f0a558e
 ms.search.region: global
@@ -25,9 +25,12 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>组织和组织层次结构 (商务精英)
+# <a name="organizations-and-organizational-hierarchies-commerce-essentials"></a>组织和组织层次结构（商业要素）
 
-商务精英具有可以定义帮助组织执行业务流程完成目标或内部组织的三种类型。 
+[!include[banner](includes/banner.md)]
+
+
+商业要素有三种类型的内部组织，可定义来帮助开展业务流程和达成目标。 
 
 组织是共同工作以执行业务流程或实现目标的群体。 组织层次结构表示构成您的组织的业务单位之间的关系。
 
@@ -47,7 +50,7 @@ ms.lasthandoff: 03/31/2017
 | 零售渠道          | 表示实体商店的运营单位。                             | 用于管理和控制法人内或跨多个法人的一个或多个商店。                                                               |
 
 ## <a name="organizational-hierarchies"></a>组织的层次结构
-在”商业要素“中，每个层次结构都将分配一个用途。 层次结构用途确定可以包括在层次结构中的组织的类型。 该用途还决定着哪些应用程序方案能够在该层次结构中使用。 例如，"零售层次结构进行买卖用于在一个零售店的产品。 层次结构中的组织可以共享参数、策略和交易记录。 组织可以继承或覆盖其父级组织的参数。 但是，产品和地址簿等共享的主数据适用于整个组织，但是不能被单个组织覆盖。
+在”商业要素“中，每个层次结构都将分配一个用途。 层次结构用途确定可以包括在层次结构中的组织的类型。 该用途还决定着哪些应用程序方案能够在该层次结构中使用。 例如，零售层次结构可用于在零售商店购买和销售产品。 层次结构中的组织可以共享参数、策略和交易记录。 组织可以继承或覆盖其父级组织的参数。 但是，产品和地址簿等共享的主数据适用于整个组织，但是不能被单个组织覆盖。
 ### <a name="best-practices-for-setting-up-an-organization-in-a-hierarchy"></a>在层次结构中设置组织的最佳实践
 
 在您执行个组织层次结构时，请考虑以下最佳实践:
@@ -68,6 +71,8 @@ ms.lasthandoff: 03/31/2017
 | 零售补货管理                                                    | 根据补货规则对商店进行分类。                                                                                                                                                                                                                                          | 零售补货 |
 | 为商店报告数据                                                         | 根据报告对商店进行分类。                                                                                                                                                                                                                                                                                | 零售报表     |
 | 为一组商店过帐库存、计算报表或过帐报表 | 将可分配到一个批处理作业组的商店创建一个组。 如果您定义了某个批处理作业组，要库存过帐、做报表或过帐报表时，您可以指定该作业适用于哪个层次结构。 当您将某些商店添加到或从某层次结构中删除时，您不必修改该批处理作业。 | Retail POS 过帐   |
+
+
 
 
 

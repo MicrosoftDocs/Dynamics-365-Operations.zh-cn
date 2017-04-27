@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="product-receipt-against-purchase-orders"></a>采购订单的产品收货
 
+[!include[banner](../includes/banner.md)]
+
+
 本文介绍了用于将产品登记为已接收状态的各种选项。
 
 产品收货是录制已收到所订购的产品的流程，以便可以处理采购订单 (PO) 以进行开票。 在某些情况下，产品经过预登记，其中在收到产品前记录来自供应商的其他信息。 当产品到达时，它们第一次被标记为**已登记**。 在产品最后被标记为**已接收**前，它们可能经过其他流程，如质量管理。
@@ -52,19 +55,21 @@ ms.lasthandoff: 03/31/2017
 
 可能从其中的**直接交运**选项被选中的销售订单创建采购订单。 当使用直接交运时，产品将永远不会到达您的仓库，但从供应商直接发货给客户。 在这种情况下，通常直接在采购订单上记录收货。 收货可以自动完成，例如通过与供应商的电子数据交换 (EDI) 集成。 或者，如果采购订单是内部公司采购订单，Microsoft Dynamics 365 for Operations 发货发生时自动执行内部公司销售订单的收货。 当使用直接交运时，产品仍作为库存核算，即使它们不实际到达仓库。 因此，在采购订单上登记产品收货时，销售订单会使用装箱单自动更新，以使对库存的总体更改为 0（零）。 在直接交运的情况下，您应该不需要预登记。 如果您使用已启用仓库管理的仓库，可以通过指定虚拟仓库解决牌照需求。 您在产品的**直接交运仓库**字段中指定此仓库。 
 
-在将产品收据" PO 处理后，采购订单到收到** **状态将指示为订单发票进行处理。 您可以通过使用**产品收据日记帐**页审查有关已收到产品的详细信息。  
+在采购订单上处理产品收货后，采购订单的状态设置为**已接收**以表示可以为订单处理发票。 您可以通过使用**产品收据日记帐**页审查有关已收到产品的详细信息。  
 
 您可以从**采购订单**页的**收货**操作组访问此页面。 日记帐中的信息包括有关数量、日期和维度的详细信息。
 
 <a name="see-also"></a>请参阅
 --------
 
-[Purchase order overview](purchase-order-overview.md)
+[采购订单概览](purchase-order-overview.md)
 
-[Purchase order creation](purchase-order-creation.md)
+[采购订单创建](purchase-order-creation.md)
 
 [采购订单审核和确认](purchase-order-approval-confirmation.md)
 
 [供应商发票概览](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+
+
 
 

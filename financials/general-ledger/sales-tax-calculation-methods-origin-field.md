@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a>“源”字段中的销售税计算方法
 
+[!include[banner](../includes/banner.md)]
+
+
 本文说明销售税代码页上“来源”字段中的选项，以及如何基于销售税代码的所选选项计算销售税。
 
 对于您在“销售税代码”页中创建的每个增值税代码，必须选择应用于“源”字段中的增值税基础金额的计算方法。
@@ -124,5 +127,7 @@ SALESTAX：原始金额 = 净额百分比 为 DUTY 计算选择“在征收销�
 [基于“边际基数”和“计算方法”字段确定销售税比率](marginal-base-field.md)
 
 [全部金额和销售税代码的间隔计算选项](whole-amount-interval-options-sales-tax-codes.md)
+
+
 
 

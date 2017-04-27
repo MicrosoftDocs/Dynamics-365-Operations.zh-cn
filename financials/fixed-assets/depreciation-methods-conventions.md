@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-methods-and-conventions"></a>折旧方法和惯例
 
+[!include[banner](../includes/banner.md)]
+
+
 本文提供 Microsoft Dynamics AX 支持的折旧惯例和折旧方法的概览。
 
 您可以选择不同的折旧法和惯例。 这些方法的目的是将固定资产的可折旧价值分摊到各会计期间中。 固定资产的可折旧价值是购置价格减去残值（如果有）。 
@@ -66,26 +69,27 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[固定资产折旧](fixed-asset-depreciation.md)
 
-[Straight line service life depreciation](Straight-line-service-life-depreciation.md)
+[直线法折旧](Straight-line-service-life-depreciation.md)
 
-[Reducing balance depreciation](reduce-balance-depreciation.md)
+[余额递减法](reduce-balance-depreciation.md)
 
-[Manual depreciation](manual-depreciation.md)
+[手动折旧](manual-depreciation.md)
 
-[Factor depreciation](factor-depreciation.md)
+[因素/系数折旧](factor-depreciation.md)
 
-[Consumption depreciation](consumption-depreciation.md)
+[工作量法折旧](consumption-depreciation.md)
 
-[Straight line life remaining depreciation](straight-line-life-remaining-depreciation.md)
+[剩余年限法折旧](straight-line-life-remaining-depreciation.md)
 
-125% 余额递减法折旧 [] (125% 余额递减 depreciation.md)
+[125% 余额递减法](125-percent-reducing-balance-depreciation.md)
 
-150% 余额递减法折旧 [] (150% 余额递减 depreciation.md)
+[150% 余额递减法](150-percent-reducing-balance-depreciation.md)
 
-175% 余额递减法折旧 [] (175% 余额递减 depreciation.md)
+[175% 余额递减法](175-percent-reducing-balance-depreciation.md)
 
-[200 percent reducing balance depreciation](200-percent-reducing-balance-depreciation.md)
+[200% 余额递减法](200-percent-reducing-balance-depreciation.md)
+
 
 

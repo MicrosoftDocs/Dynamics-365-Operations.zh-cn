@@ -1,5 +1,5 @@
 ---
-title: "使用快速导出/导入"
+title: "使用快速导入/导出"
 description: "快速导入导出的目的是让您使用较少的步骤导入和导出。"
 author: margoc
 manager: AnnBe
@@ -24,7 +24,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>运行测试数据传输工具 (beta) Dynamics AX (AX 2012)
+# <a name="run-the-test-data-transfer-tool-beta-for-dynamics-ax-ax-2012"></a>运行 Dynamics AX (AX 2012) 的数据传输工具（beta 版）
+
+[!include[banner](../../includes/banner.md)]
+
 
 快速导入导出的目的是让您使用较少的步骤导入和导出。
 
@@ -36,5 +39,7 @@ ms.lasthandoff: 03/31/2017
 -   您不需要创建一个处理组来使用快速导入/导出，在执行导入或导出作业时系统将自动创建。 您也可以选择保留由快速导入/导出导入的数据的历史记录。
 
   请注意，快速导入导出假定您熟悉 DIXF 的概念。
+
+
 
 

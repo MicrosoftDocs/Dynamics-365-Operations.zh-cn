@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-journals"></a>库存日记帐
 
+[!include[banner](../includes/banner.md)]
+
+
 本文介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。 
 
 Microsoft Dynamics 365 for Operations 中的库存日记帐用于过帐多种类型的实际库存交易记录，如发货和收货的过帐、库存变动、物料清单的创建，以及实际库存的对帐。 所有这些库存日记帐以相同的方式被使用，不过，它们划分为不同类型。
@@ -72,7 +75,7 @@ Microsoft Dynamics 365 for Operations 中的库存日记帐用于过帐多种类
 
 ### <a name="counting"></a>正在盘点
 
-盘点日记帐能让您纠正为物料或物料组登记的现有库存量，然后过帐实际盘点，因此，您可以进行为对帐差异而需要的调整。 您可以将盘点策略与盘点组关联，以帮助对具有多种特征的物料进行分组，因此，这些物料可以包括到盘点日记帐中。 例如，您可以设置盘点组以盘点具有特定频率的物料，或在存货下跌到特定级别时盘点物料。 有关如何定义盘点的信息组，请参阅 [请定义库存盘点过程 (任务指南)](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/)。
+盘点日记帐能让您纠正为物料或物料组登记的现有库存量，然后过帐实际盘点，因此，您可以进行为对帐差异而需要的调整。 您可以将盘点策略与盘点组关联，以帮助对具有多种特征的物料进行分组，因此，这些物料可以包括到盘点日记帐中。 例如，您可以设置盘点组以盘点具有特定频率的物料，或在存货下跌到特定级别时盘点物料。 有关如何定义盘点组的信息，请参阅[定义库存盘点流程（任务指南）](http://ax.help.dynamics.com/en/wiki/define-inventory-counting-processes/)。
 
 ### <a name="tag-counting"></a>标签盘点
 
@@ -89,5 +92,7 @@ Microsoft Dynamics 365 for Operations 中的库存日记帐用于过帐多种类
 
 ## <a name="posting-journal-lines"></a>记帐日志行
 您可以在任何时间过帐您创建的日记帐行，直到您锁定了来自附加交易记录的物料。 在日记帐中输入的数据保留在该日记帐中，即使您关闭该日记帐而不过帐这些行。
+
+
 
 

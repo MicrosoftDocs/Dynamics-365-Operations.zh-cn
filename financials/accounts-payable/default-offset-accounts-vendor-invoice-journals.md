@@ -26,6 +26,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>供应商发票日记帐和发票审核日记帐的默认对方科目
 
+[!include[banner](../includes/banner.md)]
+
+
 
 
 在以下供应商发票日记帐页中使用默认的对方帐户：
@@ -92,6 +95,8 @@ ms.lasthandoff: 03/31/2017
 </tr>
 </tbody>
 </table>
+
+
 
 
 

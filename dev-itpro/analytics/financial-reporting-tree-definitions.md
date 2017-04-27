@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="reporting-tree-definitions-in-financial-reports"></a>财务报表中的报告结构树定义
 
+[!include[banner](../includes/banner.md)]
+
+
 本文提供了有关报告结构树定义的信息。 报告结构树定义是报表组件或构造基块，可帮助定义组织的结构和层次结构。
 
 财务报告支持灵活报告，以便在您的业务结构发生变化时您可以轻松进行更改。 报表通过不同的组件或构建基块构建。 这些构建基块之一是报告结构树定义。 报告结构树定义帮助定义您组织的结构和层次结构。 这是基于财务数据中的维度关系的跨维层次结构。 它在报告单位级别和摘要级别为结构树中的所有单位提供信息。 可将报告结构树定义与列定义和报表定义组合以创建可由多个公司使用的构建基块组。 为组织结构图中的每个框使用一个报告单位。 报告单位可以是来自财务数据的单独部门，也可以是合并来自其他报告单位的信息的更高级别的汇总单位。 对于包含报告结构树的报表定义，为每个报告单位和汇总级别生成一个报表。 除非报表定义指定应使用来自行定义的报告结构树，否则所有这些报表将使用报表定义中指定的行和列定义。 行和列定义是财务报表中的设计和功能的重要组件。 在业务结构发生更改时，报告结构树会增强组件的功能并支持灵活报告。 未基于报告结构树的财务报表仅使用财务报告的部分功能。 您可以使用多个报告结构树定义以及相同行和列定义来以各种方式查看组织的数据。
@@ -49,7 +52,7 @@ ms.lasthandoff: 03/31/2017
 
 | 报告结构树列 | 说明|
 |---|---|
-| 公司               | 报告单位的公司名称。 **@ANY**值，通常只分派给汇总级别，将报告树用于所有公司。 所有子分支都具有已分配的公司。|
+| 公司               | 报告单位的公司名称。 **@ANY** 值（通常仅分配给汇总级别），使报告结构树能够用于所有公司。 所有子分支都具有已分配的公司。|
 | 单位名称             | 用于在图形报告结构树中标识此报告单位的代码。 请一定要建立一个一致的而且便于用户理解的唯一编码系统。 |
 | 单位描述      | 如果您输入 **UnitDesc** 作为报表定义的**“页眉和页脚”**选项卡上的代码，则报告单位标题将显示在报表页面或页脚中。 如果在行定义的**“描述”**单元格中输入 **UnitDesc**，则标题将显示在报表行描述中。|
 | 维度            | 直接从财务数据中提取信息的报告单位。 它定义帐户和相关细分市场的逻辑定位和长度。 每个报告单位行必须在此列具有维度。 您还可以将维度放置在汇总单位行（例如，与该单位直接有关的费用）。 如果您在汇总单位行中输入维度，则不应在子单位中使用父单位中使用的帐户。 否则，金额可能会出现重复。|
@@ -58,15 +61,15 @@ ms.lasthandoff: 03/31/2017
 | 外部链接         | 要用于此报告单位的行链接。 为行定义定义行链接以标识要链接到的报表。|
 | 外部文件         | 从中提取数据的财务报告工作表的文件路径。|
 | 页面选项          | 此列控制在查看或打印报表时是否取消报告单位的详细信息。|
-| 累积百分比              | 应分配给父单位的报告单位的百分比。 在将行中的值添加到父报表之前，您在此列中输入的百分比适用于行定义的每个行。 例如，如果必须在两个部门之间均匀划分子单位，则会先将每个行中的金额乘以 50%，然后再将该值添加到部门报表。 一个报告单位不能具有两个父单位。 要将一个报告单位中的金额分配给两个父单位，可创建另一个具有相同维度的报告单位以累积额外的 50%。 键入完整百分比（不带小数点）。 例如，**25** 表示 25% 分配给父单位。 如果包含小数点 (**.25**)，0.25% 分配给父单位。 若要使用少于 1% 为使百分比，使用该**允许累积 &lt;1% **选项在报表定义。 此选项位于**“报表设置”**对话框中的**“其他选项”**选项卡上。 从报表定义的**设置**选项卡上的**其他**按钮访问此对话框。 |
+| 累积百分比              | 应分配给父单位的报告单位的百分比。 在将行中的值添加到父报表之前，您在此列中输入的百分比适用于行定义的每个行。 例如，如果必须在两个部门之间均匀划分子单位，则会先将每个行中的金额乘以 50%，然后再将该值添加到部门报表。 一个报告单位不能具有两个父单位。 要将一个报告单位中的金额分配给两个父单位，可创建另一个具有相同维度的报告单位以累积额外的 50%。 键入完整百分比（不带小数点）。 例如，**25** 表示 25% 分配给父单位。 如果包含小数点 (**.25**)，0.25% 分配给父单位。 要使用小于 1% 的百分比，可使用报表定义中的**允许累积 &lt;1%** 选项。 此选项位于**“报表设置”**对话框中的**“其他选项”**选项卡上。 从报表定义的**设置**选项卡上的**其他**按钮访问此对话框。 |
 | 单位安全性         | 有关哪些用户和组可访问报告单位的信息的限制。|
 | 附加文本       | 包括在报表中的文本。|
 
 要创建报告结构树定义，请完成以下步骤。
 
 1.  打开报表设计器。
-2.  ** ** &gt; **文件单击新** &gt; ** **报告树定义。
-3.  **编辑** &gt; **单击"插入维度中的报告单位。**
+2.  单击**文件** &gt; **新建** &gt; **报告结构树定义**。
+3.  单击**编辑**&gt; **从维度插入报告单位**。
 4.  在**“从维度插入报告单位”**对话框中，选中要包含在报告结构树中的每个维度的复选框。 **“从维度插入报告单位”**对话框包含以下部分。
 
     | 部分                          | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -85,7 +88,7 @@ ms.lasthandoff: 03/31/2017
 
 9.  对于**段层次结构和范围**区域中的每个维度，重复步骤 7 和 8。
 10. 在定义完将报告单位引入新报告结构树的方式后，单击**确定**。
-11. **单击"文件** &gt; **保存**以保存报告树。 为报告结构树输入一个唯一的名称和描述，然后单击**“确定”**。
+11. 单击**文件** &gt; **保存**以保存报告结构树。 为报告结构树输入一个唯一的名称和描述，然后单击**“确定”**。
 
 ### <a name="open-an-existing-reporting-tree-definition"></a>打开现有报告结构树定义
 
@@ -121,7 +124,7 @@ ms.lasthandoff: 03/31/2017
 1.  在报表设计器中，打开要修改的报告结构树定义。
 2.  在报告结构树定义的图形视图中，选择一个报告单位。
 3.  将单位拖动到新位置。 或者，右键单击单位并选择**升级报告单位**或**降级报告单位**。
-4.  **单击"文件** &gt; **保存**保存您的更改。
+4.  单击**文件** &gt; **保存**以保存您的更改。
 
 ### <a name="add-text-about-a-reporting-unit"></a> 添加有关报告单位的文本
 
@@ -181,15 +184,15 @@ ms.lasthandoff: 03/31/2017
 -   最低级别的详细信息报告单位（Home Sales、Auto Sales、Client Services 和 Operations）代表财务数据中的部门。 这些报告单位在图中的阴影区域中。
 -   更高级别的汇总单位汇总了详细信息单位中的信息。
 
-[] (![ContosoEntertainmentSummaryReportStructure。/media/contosoentertainmentsummaryreportstructure.png)](。/media/contosoentertainmentsummaryreportstructure.png)
+[![ContosoEntertainmentSummaryReportStructure](./media/contosoentertainmentsummaryreportstructure.png)](./media/contosoentertainmentsummaryreportstructure.png)
 
 ### <a name="reporting-unit-structure--example-2"></a>报告单位结构 – 示例 2
 
-在下图中，报告结构树具有按业务职能划分的组织结构树。 [] (![summaryofallunitscontoso。/media/summaryofallunitscontoso.png)](。/media/summaryofallunitscontoso.png)
+在下图中，报告结构树具有按业务职能划分的组织结构树。 [![summaryofallunitscontoso](./media/summaryofallunitscontoso.png)](./media/summaryofallunitscontoso.png)
 
 ### <a name="example-of-the-insert-reporting-units-from-dimensions-dialog-box"></a>“从维度插入报告单位”对话框的示例
 
-下图显示了**从维度插入报告单位**对话框的示例。 在本示例中，结果将返回业务单位、成本中心和部门的组合。 [] (![InsertReportingUnits。/media/insertreportingunits.png)](。/media/insertreportingunits.png) 得到的报告树定义按业务单位订购，然后按成本中心，然后按部门。 第五个报告单位的维度是 \[**业务单位= \[\]，Cost Center =\[\]，部门 \[= 001\]**，并且还标识特定于业务单位\]和\[部门的会计科目的报告单位。 [] (![ReportingTree。/media/reportingtree-1024x646.png)](。/media/reportingtree.png)
+下图显示了**从维度插入报告单位**对话框的示例。 在本示例中，结果将返回业务单位、成本中心和部门的组合。 [![InsertReportingUnits](./media/insertreportingunits.png)](./media/insertreportingunits.png) 结果报告结构树定义按业务单位排序，然后按成本中心，再然后按部门。 第五个报告单位的维度是**业务单位 = \[001\]、成本中心 =\[\]、部门 = \[022\]**，标识特定于业务单位 001 和部门 022 的帐户的报告单位。 [![ReportingTree](./media/reportingtree-1024x646.png)](./media/reportingtree.png)
 
 ### <a name="examples-of-data-roll-up"></a>数据累积的示例
 
@@ -197,14 +200,16 @@ ms.lasthandoff: 03/31/2017
 
 #### <a name="example-1"></a>示例 1
 
-[] (![MutliCompanyRollUp。/media/mutlicompanyrollup.png)](。/media/mutlicompanyrollup.png)
+[![MutliCompanyRollUp](./media/mutlicompanyrollup.png)](./media/mutlicompanyrollup.png)
 
 #### <a name="example-2"></a>示例 2
 
-[] (![CrossCompanyDepartmentRollUp。/media/crosscompanydepartmentrollup.png)](。/media/crosscompanydepartmentrollup.png)
+[![CrossCompanyDepartmentRollUp](./media/crosscompanydepartmentrollup.png)](./media/crosscompanydepartmentrollup.png)
 
 # <a name="see-also"></a>请参阅
 
-[Financial reporting](financial-reporting-intro.md)
+[财务申报](financial-reporting-intro.md)
+
+
 
 

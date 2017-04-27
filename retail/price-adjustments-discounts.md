@@ -1,6 +1,6 @@
 ---
 title: "价格调整和折扣"
-description: "文章此工序为在 Microsoft Dynamics 365 中提供有关调整价格和折扣的信息在零售和商务。"
+description: "本文提供有关 Microsoft Dynamics 365 for Operations 中“零售和商业”中的价格调整和折扣的信息。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 15891
 ms.assetid: bab5adf3-ddf0-4c22-a2eb-b4d25b88de99
 ms.search.region: global
@@ -28,9 +28,12 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="price-adjustments-and-discounts"></a>价格调整和折扣
 
-文章此工序为在 Microsoft Dynamics 365 中提供有关调整价格和折扣的信息在零售和商务。
+[!include[banner](includes/banner.md)]
 
-在零售的工序的 Dynamics 365 -，所进行价格调整到产品，还可以设置应用对行项或交易记录销售终端 (POS)，回答电话中心销售订单，或者在联机订单的折扣。 价格调整和折扣都可以链接到价格组。 对于价格调整和折扣，您可以指定单一开始日期和结束日期或重复期间、折扣代码和若干其他属性。 价格调整和折扣可以应用于产品、变型或类别。 如果对某一产品应用多个折扣，客户可能根据折扣的配置接收折扣或组合折扣的一个折扣。 工序的 Dynamics 365 自动应用授予客户最佳的折扣或价格折扣的组合。 在设置价格调整或折扣时，请确保确认价格组分配给您希望折扣应用于的正确渠道、类别、隶属关系或会员计划。 而且，如果您想要自动生成折扣 ID，可以在定义新的价格调整或折扣前在**零售参数**页中设置编号序列。 **注意：**您可以删除价格调整或折扣。 但是，统计信息会丢失。
+
+本文提供有关 Microsoft Dynamics 365 for Operations 中“零售和商业”中的价格调整和折扣的信息。
+
+在 Dynamics 365 for Operations - Retail 中，您可以对产品进行价格调整，并且还可以设置应用于销售点 (POS)、呼叫中心销售订单或者联机订单的行项或交易记录的折扣。 价格调整和折扣都可以链接到价格组。 对于价格调整和折扣，您可以指定单一开始日期和结束日期或重复期间、折扣代码和若干其他属性。 价格调整和折扣可以应用于产品、变型或类别。 如果对某一产品应用多个折扣，客户可能根据折扣的配置接收折扣或组合折扣的一个折扣。 Dynamics 365 for Operations 将自动应用提供最佳价格给客户的折扣或折扣组合。 在设置价格调整或折扣时，请确保确认价格组分配给您希望折扣应用于的正确渠道、类别、隶属关系或会员计划。 而且，如果您想要自动生成折扣 ID，可以在定义新的价格调整或折扣前在**零售参数**页中设置编号序列。 **注意：**您可以删除价格调整或折扣。 但是，统计信息会丢失。
 
 ### <a name="types-of-discounts"></a>折扣类型
 
@@ -42,5 +45,7 @@ ms.lasthandoff: 03/31/2017
 -   **阈值折扣** – 交易记录合计大于指定金额时应用的折扣。
 
 价格调整和折扣都可以关联到价格组。 价格组可与渠道、类别、隶属关系和会员计划关联。
+
+
 
 

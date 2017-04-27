@@ -1,6 +1,6 @@
 ---
-title: Depreciation methods for fixed assets
-description: "此主题描述在中国为法人设置的折旧方法。"
+title: "固定资产折旧法"
+description: "此主题描述为中国法人设置的折旧法。"
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,19 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="depreciation-methods-for-fixed-assets"></a>Depreciation methods for fixed assets
+# <a name="depreciation-methods-for-fixed-assets"></a>固定资产折旧法
 
-此主题描述在中国为法人设置的折旧方法。
+[!include[banner](../includes/banner.md)]
 
-积分的数字方法的总和 (折旧) 是基于 SYD 假定的加速折旧一个技术资产通常更具有生产的工作上，当它们是新的时间和其的减少，因为它们将变为旧。 折旧计算的配方" SYD 下方法是：
 
-> 折旧*SYD =可折旧×的基本 (年数字的剩余的使用寿命/金额之和) *
+此主题描述为中国法人设置的折旧法。
 
-创建折旧模板：
+年数总和折旧法 (SYD) 是一种基于以下假设的加速折旧技术：资产越新，生产率越高，如果变旧，生产率随之下降。 SYD 法的折旧计算公式为：
 
-1. **在固定资产参数** **页，请选择 SYDM 和 DRBM **折旧方法。
-2. 创建新的折旧模板。 **请使用方法或合计年度**请将数字或**余额递减**。
-3. 创建折旧方法的书籍，请使用或**合计年度**请将数字或**余额递减**。
+> *SYD 折旧 = 折旧基数 × (剩余使用寿命/年数总和法)*
+
+若要创建折旧模板：
+
+1. 在**固定资产参数**页上，选择 **SYDM 和 DRBM** 折旧法。
+2. 创建一个新折旧模板。 使用**年数总和法**或**双倍余额递减法**。
+3. 为该折旧法创建一个帐簿，请使用**年数总和法**或**双倍余额递减法**。
+
+
 
 
 

@@ -1,6 +1,6 @@
 ---
-title: Display debit and credit amounts for ledger accounts
-description: "本主题说明如何查看会计科目的贷方和借方金额在总帐的两个不同中国的列。"
+title: "显示会计科目的借方和贷方金额"
+description: "本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。"
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,15 +24,20 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="display-debit-and-credit-amounts-for-ledger-accounts"></a>Display debit and credit amounts for ledger accounts
+# <a name="display-debit-and-credit-amounts-for-ledger-accounts"></a>显示会计科目的借方和贷方金额
 
-本主题说明如何查看会计科目的贷方和借方金额在总帐的两个不同中国的列。 
+[!include[banner](../includes/banner.md)]
 
-可以查看会计科目的贷方和借方金额在** **凭证交易记录查询页的两个单独列。 还可以查看与冲销条目的负金额。 **所有负金额在凭证交易记录查询为红色信件**页将显示。
 
-1.  **单击"总帐** &gt; **分类帐设置。** &gt; ** **总帐参数。
-2.  **设置查看用借方/贷方列**滑块到**是**。
-3.  打开** ** &gt; **总帐查询和报表** &gt; ** **确认凭证交易记录。
+本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。 
+
+您可以查看**凭证交易记录**查询页面中的两个单独列中的会计科目的贷方和借方金额。 还可以查看与冲销条目的负金额。 所有负金额在**凭证交易记录**查询页面中以红色字母显示。
+
+1.  单击**总帐** &gt; **分类帐设置** &gt; **总帐参数**。
+2.  将**在借方/贷方列中显示金额**滑块设置为**是**。
+3.  打开**总帐** &gt; **查询和报表** &gt; **凭证交易记录** 进行确认。
+
+
 
 
 

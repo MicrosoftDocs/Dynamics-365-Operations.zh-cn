@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-requisition-workflow"></a>采购申请工作流
 
+[!include[banner](../includes/banner.md)]
+
+
 工作流在审核过程中移动采购申请，从“草稿”的初始状态到“已审核”最终状态。 在采购申请被提交审核时，该工作流流程开始。 在审核采购申请后，采购订单可为采购申请行生成并提交到供应商进行订单执行。
 
 在可提交采购申请供查看前，您必须配置工作流。 工作流流程可以包括以任何顺序的一个或多个审核步骤。 工作流流程可被配置为跳过审核任务和自动审核该采购申请。 您可以配置工作流将采购申请作为单个文档传送，也可以将各个采购申请行传送到相应的审核人。 您还可以创建采购申请作为单个文档将传送到某些审核人，并选择传送到其他审核人的采购申请行。  
@@ -106,12 +109,14 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[(创建消耗的任务指南)] 一申请 (https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[创建消耗量申请（任务指南）](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
 
 [定义采购申请的业务流程工作流](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[Procurement and sourcing workflows](procurement-sourcing-workflows.md)
+[采购工作流](procurement-sourcing-workflows.md)
 
-[Purchase requisition overview](purchase-requisitions-overview.md)
+[采购申请概览](purchase-requisitions-overview.md)
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "收入报表财务报表"
-description: "文章此描述的默认利润表报表。 它还描述与此报表的构建基块。"
+description: "本文介绍默认收入报表。 还介绍此报表的关联构建块。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="income-statement-financial-report"></a>收入报表财务报表
 
-文章此描述的默认利润表报表。 它还描述与此报表的构建基块。 
+[!include[banner](../includes/banner.md)]
+
+
+本文介绍默认收入报表。 还介绍此报表的关联构建块。 
 
 <a name="default-income-statement-report"></a>默认收入报表
 -------------------------------
@@ -61,10 +64,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Financial reporting](financial-reporting-getting-started.md)
+[财务申报](financial-reporting-getting-started.md)
 
-[View financial reports](view-financial-reports.md)
+[查看财务报表](view-financial-reports.md)
 
-财务 Reportign 博客 Dynamics [] (http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[Dynamics 财务报表博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+
+
 
 

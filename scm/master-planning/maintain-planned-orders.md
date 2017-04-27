@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="maintain-planned-orders"></a>维护计划订单
 
+[!include[banner](../includes/banner.md)]
+
+
 本文提供有关如何管理计划订单的信息。 介绍如何更新计划订单的状态，确定计划订单，并筛选与所选计划订单具有相同状态的计划订单。
 
 您可以从**“主计划”**工作区、**“计划订单”**列表或**“计划生产订单”**、**“计划采购订单”**和**“计划转移”**列表中管理计划订单。 您可以使用**“状态”**字段帮助跟踪您的进度。 使用了以下值：
@@ -48,6 +51,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Master plans](master-plans.md)
+[主计划](master-plans.md)
+
+
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="set-up-and-process-recurring-invoices"></a>设置和处理重复发票
 
+[!include[banner](../includes/banner.md)]
+
+
 本文说明如何设置和处理重复发票。 如果您必须定期为客户开具相同金额的发票，可以使用重复发票。
 
 <a name="create-a-recurring-free-text-invoice-template"></a>创建重复执行普通发票的模板
@@ -61,5 +64,7 @@ ms.lasthandoff: 03/31/2017
 ----------------------------------
 
 在重复发票过帐后，可以从普通发票列表页打印发票。 您可以打印选择的发票，或者可以选择要打印的发票范围。
+
+
 
 

@@ -1,6 +1,6 @@
 ---
 title: "物料清单版本的分解"
-description: "文章此说明涉及物料清单 (BOM) 版本的分解主计划方案。"
+description: "本文介绍涉及物料清单 (BOM) 版本分解的主计划方案。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -29,7 +29,10 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="explosion-of-a-bom-version"></a>物料清单版本的分解
 
-文章此说明涉及物料清单 (BOM) 版本的分解主计划方案。
+[!include[banner](../includes/banner.md)]
+
+
+本文介绍涉及物料清单 (BOM) 版本分解的主计划方案。
 
 某一物料清单版本的需求分解将创建在特定站点以及可能在特定仓库的每个物料清单行物料的需求。 在特定于站点的物料清单中，可为每一物料清单行定义特定的仓库。 此外，对于每个物料清单行，该物料的维度设置将确定该仓库是否是必需的。 然后，为每一物料清单行物料产生的这一需求将成为其他需求分解的起始点。 此主计划方案涉及以下情况：
 
@@ -41,8 +44,10 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[主计划-物料清单版本如何确定的] (主计划物料清单版本 determined.md)
+[主计划 - 如何确定物料清单版本](master-plan-bom-version-determined.md)
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[主计划和多站点功能](master-plan-multisite-functionality.md)
+
+
 
 

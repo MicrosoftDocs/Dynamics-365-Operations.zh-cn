@@ -1,6 +1,6 @@
 ---
-title: "新建或更新任务指南 (8 月 2016)"
-description: "此主题所列发放到 Microsoft Dynamics AX 的 Microsoft 新的或更新任务指南 (2016 年 8 月-所有语言) APQC 统一的库。 没有发布新入门库。"
+title: "新的或更新任务指南（2016 年 8 月）"
+description: "本主题列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -24,14 +24,17 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-august-2016"></a>新建或更新任务指南 (8 月 2016)
+# <a name="new-or-updated-task-guides-august-2016"></a>新的或更新任务指南（2016 年 8 月）
 
-此主题所列发放到 Microsoft Dynamics AX 的 Microsoft 新的或更新任务指南 (2016 年 8 月-所有语言) APQC 统一的库。 没有发布新入门库。
+[!include[banner](../includes/banner.md)]
 
-<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[] () 在" Microsoft Dynamics AX (2016 年 8 月-所有语言) APQC 统一的库中分摊指南
+
+本主题列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
+
+<a name="task-guides-in-the-august-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 8 月 - 所有语言）
 ---------------------------------------------------------------------------------------------------
 
-(2016 年 8 月-所有语言) APQC 统一的库包含是用于 Microsoft Dynamics AX 2 的一个平台更新任务指南 (8 月 2016)，Dynamics AX 2016 年 5 月应用程序更新和 Microsoft Dynamics AX 2016 年 2 月的帮助使用。 有关这些版本的详细信息，请参阅或更改哪些是新 [] (新 changed.md 的内容的 ISS -)。 任务指南的本地化版本{{在此：in}}库中使用。 有关连接方式帮助系统的详细信息。库请参阅任务指南，请以帮助 [] (帮助 overview.md)。
+（2016 年 8 月 - 所有语言）APQC 标准库包含旨在用于帮助 Microsoft Dynamics AX 平台更新 2（2016 年 8 月）、Dynamics AX 2016 年 5 月应用程序更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅[新增和更改内容](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
 
 ### <a name="data-access"></a>数据访问
 
@@ -97,10 +100,12 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[新任务指南 2016] (二月)(新任务指南可用 2 月 2016.md)
+[新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
 
-[或更新新任务指南 (5 月 2016)](请新更新任务指南提供可以 2016.md)
+[新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
 
-[或更新新任务指南)] (2016 年 11 月 (新任务指南 2016.md 11 月)
+[新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
+
+
 
 

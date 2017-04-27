@@ -1,5 +1,5 @@
 ---
-title: "分配时间。在&quot;作业捆绑作业"
+title: "分配时间到作业捆绑中的作业"
 description: "在“制造执行”中，您可以捆绑作业。 然后您可以在工作列表页同时开始多个作业。"
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>分配时间。在"作业捆绑作业
+# <a name="allocate-time-to-jobs-in-a-job-bundle"></a>分配时间到作业捆绑中的作业
+
+[!include[banner](../includes/banner.md)]
+
 
 在“制造执行”中，您可以捆绑作业。 然后您可以在工作列表页同时开始多个作业。
 
@@ -107,5 +110,7 @@ ms.lasthandoff: 03/31/2017
 | 作业 3 | (3.33 ÷ 5) × USD 12.00                 | 8.00 美元                | 5 小时        | 40.00 美元         |
 
 更正后的每小时成本和作业时间都在生产日志中过帐。 **注意：**如果您在**生产订单默认值**页的**常规**选项卡上选择**成本类别**选项，每个作业的实际时间转移到生产日记帐，在其中成本应用于特定作业的成本类别。
+
+
 
 

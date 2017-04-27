@@ -85,6 +85,6 @@ Dynamics 365 for Operations 的财务报告允许财务和业务专业人员创�
 
 #<a name="see-also"></a>请参阅
 
-[则生成财务报表 (dynamics365] (\ \ \ \总帐财务工序生成财务报告)
+[生成财务报表（dynamics365\操作\财务\总帐\总财务报表）
 
 

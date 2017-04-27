@@ -1,5 +1,5 @@
 ---
-title: "&quot; POS 硬件外设"
+title: "POS 硬件外围设备"
 description: "Retail Modern 销售点 (POS) 和 Cloud POS 可以使用一系列广泛的 POS 硬件外设，具有多个界面和部署选项以满足零售商的各种业务场景。"
 author: josaw1
 manager: AnnBe
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36
 ms.search.region: global
@@ -25,7 +25,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>" POS 硬件外设
+# <a name="pos-hardware-peripherals"></a>POS 硬件外围设备
+
+[!include[banner](includes/banner.md)]
+
 
 Retail Modern 销售点 (POS) 和 Cloud POS 可以使用一系列广泛的 POS 硬件外设，具有多个界面和部署选项以满足零售商的各种业务场景。 
 
@@ -63,6 +66,8 @@ Retail Modern 销售点 (POS) 和 Cloud POS 可以使用一系列广泛的 POS �
 
 -   条码 – 霍尼韦尔 1900，HP LS2208
 -   MSR – Magtek PN - 21073075
+
+
 
 
 

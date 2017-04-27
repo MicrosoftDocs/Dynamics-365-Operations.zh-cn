@@ -27,11 +27,14 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="quarantine-orders"></a>检验单
 
+[!include[banner](../includes/banner.md)]
+
+
 本文介绍检验单如何用于锁定库存。 
 
-检验单可用于锁定库存。 例如，您可能要检验质量控制原因的物料。 检验库存转移到检验仓库。 **注意：**如果您使用高级仓库管理流程（在仓库管理中），仅为退货销售订单使用检验单。
+检验单可用于锁定库存。 例如，您可能要检验质量控制原因的物料。 将把已检验的库存转移到检验仓库。 **注意：**如果您使用高级仓库管理流程（在仓库管理中），仅为退货销售订单使用检验单。
 
-## <a name="quarantine-onhand-inventory-items"></a>检验 onhand 库存物料
+## <a name="quarantine-onhand-inventory-items"></a>检验现有库存物料
 在检验物料时，您可以手动创建检验单或设置该系统以在收货处理期间自动创建检验单。 若要自动创建检验单，请在**物料模型组**页的**库存策略**选项卡上选择**检验管理**选项。 您还必须在**检验仓库**字段中为接收仓库指定默认检验仓库。 当实际现有库存量在采购订单或生产订单中记录时，检验物料会自动移至 Microsoft Dynamics 365 for Operations 中的检验仓库中。 因为检验单的状态改为**已开始**，所以发生此移动。 当您手动创建检验单时，则不必需在相关的物料模型组中为检验管理设置物料。 对于此流程，必须指定应检验的现有库存量和应使用的检验仓库。 您可以使用检验单状态来帮助计划流程。
 
 ## <a name="quarantine-order-statuses"></a>检验单状态
@@ -64,6 +67,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Inventory blocking](inventory-blocking.md)
+[库存锁定](inventory-blocking.md)
+
+
 
 

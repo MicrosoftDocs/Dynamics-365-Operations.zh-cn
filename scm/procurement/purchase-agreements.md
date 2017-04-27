@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="purchase-agreements"></a>采购协议
 
+[!include[banner](../includes/banner.md)]
+
+
 文本提供有关采购协议的信息。 采购协议是提交到某一组织，随时间推移通过使用多个采购订单购买指定的数量或金额的合同。 以此承诺作为交换，买方接收特价和折扣。 
 
 采购协议可应用于采购类别中的产品的特定数量、产品的特定币种金额或该产品的特定币种金额。 采购协议的价格和折扣覆盖存在的所有贸易协议中指定的价格和折扣。  
@@ -70,7 +73,7 @@ ms.lasthandoff: 03/31/2017
 您可以通过选择采购订单行和发票行上或采购协议的标题上的“相关信息”****操作，来访问对履行计算有贡献的采购订单行和发票行。
 
 ## <a name="confirmations-and-version-history-for-purchase-agreements"></a>采购协议的确认和版本历史记录
-在确认某一采购协议时，将采购协议的当前版本存储在历史记录表中。 如果您更改该采购协议，您可以在历史记录中再次确认，以存储采购协议的其他版本。 如果您未确认采购协议，您仍可以使用此窗体来创建 POs。 但是，采购协议的历史记录信息不存储。 您可以预览或打印协议的所有版本。 然后可以与您的供应商共享该修订供审核。
+在确认某一采购协议时，将采购协议的当前版本存储在历史记录表中。 如果您更改该采购协议，您可以在历史记录中再次确认，以存储采购协议的其他版本。 如果未确认某一采购协议，您还可以将其用于创建采购订单。 但是，不存储采购协议的历史记录信息。 您可以预览或打印协议的所有版本。 然后可以与您的供应商共享该修订供审核。
 
 ## <a name="applying-purchase-agreements-in-the-ordering-process"></a>将采购协议应用于订购过程
 在创建采购订单时，可以对它应用采购协议。 协议条款中的信息，例如付款期限、交货期限和交货地址，随后会复制到采购订单的标题中。 如果采购订单包含协议所涉及的一个或多个产品或类别行，则采购协议中的价格和折扣用于这些行。 订单行上的金额或数量对履行采购协议中的承诺有贡献。 同一个采购订单可以包括不与采购协议和具有采购协议承诺的行的两行。  
@@ -91,8 +94,10 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[创建采购协议 (任务指南)](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
+[选择采购协议（任务指南）](https://ax.help.dynamics.com/en/wiki/create-a-purchase-agreement/)
 
-[创建从采购协议 (任务指南)] 的采购下达单 (https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+[从采购协议创建采购下达订单（任务指南）](https://ax.help.dynamics.com/en/wiki/create-a-purchase-release-order-from-a-purchase-agreement/)
+
+
 
 

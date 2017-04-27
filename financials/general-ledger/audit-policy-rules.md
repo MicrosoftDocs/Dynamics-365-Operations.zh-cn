@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="audit-policy-rules"></a>审计策略规则
 
+[!include[banner](../includes/banner.md)]
+
+
 您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过账都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。 
 
 <a name="queries-and-query-types"></a>查询和查询类型
@@ -97,5 +100,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [审计策略违规记录和案例](audit-policy-violations-cases.md)
+
+
 
 

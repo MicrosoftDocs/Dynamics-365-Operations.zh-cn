@@ -1,5 +1,5 @@
 ---
-title: "高级的银行对帐 MT940 导入–综合数据实体升级"
+title: "高级银行对帐 MT940 导入 - 综合数据实体升级"
 description: "需要将序列号添加到银行对帐单导入实体以支持 MT940 格式。"
 author: twheeloc
 manager: AnnBe
@@ -24,21 +24,24 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>高级的银行对帐 MT940 导入–综合数据实体升级
+# <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>高级银行对帐 MT940 导入 - 综合数据实体升级
+
+[!include[banner](../includes/banner.md)]
+
 
 需要将序列号添加到银行对帐单导入实体以支持 MT940 格式。 
 
 使用以下步骤添加银行对帐单导入实体以支持 MT940 格式。
 
 1.  编译并同步以下操作：
-    -   综合实体\\BankStatementImportEntity
+    -   组合实体\\BankStatementImportEntity
     -   实体\\BankStatementBalanceEntity
     -   实体\\BankStatementDocumentEntity
     -   实体\\BankStatementEntity
     -   实体\\BankStatementLineEntity
     -   表\\BankStatementStaging
 
-2.  数据\\项目管理数据。
+2.  数据管理\\数据项目。
     1.  负荷 MT940 导入项目
         1.  变更 XSLT。
             -   单击“**查看映射**”。
@@ -58,6 +61,8 @@ ms.lasthandoff: 03/31/2017
                 -   验证“**SequenceNumber**”是否已从源映射到暂存。
 
 3.  导入新的对帐单。
+
+
 
 
 

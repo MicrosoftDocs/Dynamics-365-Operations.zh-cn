@@ -1,5 +1,5 @@
 ---
-title: "涉及站点覆盖范围 (仓库的，必需的主计划"
+title: "站点覆盖范围的主计划，仓库为必需"
 description: "此主题介绍如何计划将站点作为覆盖范围维度的物料。 仓库是必填维度。"
 author: YuyuScheller
 manager: AnnBe
@@ -27,7 +27,10 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>涉及站点覆盖范围 (仓库的，必需的主计划
+# <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>站点覆盖范围的主计划，仓库为必需
+
+[!include[banner](../includes/banner.md)]
+
 
 此主题介绍如何计划将站点作为覆盖范围维度的物料。 仓库是必填维度。
 
@@ -39,9 +42,9 @@ ms.lasthandoff: 03/31/2017
 -   不为覆盖范围计划设置仓库维度。 因此，按站点和还可能按其他覆盖范围计划维度聚合供应和需求。
 
 下图说明如何继续主计划。 图中引用的参数及其位置如下所示：
--   为物料定义物料覆盖范围。 **单击产品信息管理 &gt; 产品&gt; 发放**产品。 选择某个项目，然后单击** **请计划 &gt; 物料覆盖范围。
--   为仓库定义重填关系。 **单击"库存 &gt; 管理设置 &gt; 库存仓库**细分 &gt;。 在**主计划**选项卡上，查看**主仓库**字段组。
--   默认订单类型设置为“生产”、“采购订单”或“看板”。 **单击产品信息管理 &gt; 产品&gt; 发放**产品。 选择某个项目，然后单击**请计划 &gt; **默认订单设置。 在**“默认订单设置”**窗体中，查看**“默认订单类型”**。
+-   为物料定义物料覆盖范围。 单击**产品信息管理 &gt; 产品 &gt; 已发布产品**。 选择物料，然后单击**计划 &gt; 物料覆盖范围**。
+-   为仓库定义重填关系。 单击**库存管理 &gt; 设置 &gt; 库存细分 &gt; 仓库**。 在**主计划**选项卡上，查看**主仓库**字段组。
+-   默认订单类型设置为“生产”、“采购订单”或“看板”。 单击**产品信息管理 &gt; 产品 &gt; 已发布产品**。 选择物料，然后依次单击**计划 &gt; 默认订单设置**。 在**“默认订单设置”**窗体中，查看**“默认订单类型”**。
 
 ![站点需求（覆盖范围仓库必需）](./media/multisitedemandexplosionscenarioforsitecoveragewarehousemandatory.jpg)
 
@@ -50,14 +53,16 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Master planning and multisite functionality](master-plan-multisite-functionality.md)
+[主计划和多站点功能](master-plan-multisite-functionality.md)
 
 [主计划 - 站点和仓库覆盖范围，仓库是必需的](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[主计划-站点覆盖范围。必需的仓库] (主计划涉及站点覆盖范围 (仓库 mandatory.md)
+[主计划 - 站点覆盖范围，仓库是必需的](master-plan-site-coverage-warehouse-mandatory.md)
 
 [主计划 - 站点和仓库覆盖范围，仓库不是必需的](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
 [主计划 - 如何确定物料清单版本](master-plan-bom-version-determined.md)
+
+
 
 

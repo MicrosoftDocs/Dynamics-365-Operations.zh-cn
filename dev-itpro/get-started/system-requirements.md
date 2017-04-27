@@ -1,6 +1,6 @@
 ---
 title: "系统要求"
-description: "此主题列出当前版本中的系统要求工序的 Microsoft Dynamics 365。"
+description: "此主题列出了当前版本的 Microsoft Dynamics 365 for Operations 的系统要求。"
 author: sericks007
 manager: AnnBe
 ms.date: 2017-04-04
@@ -26,102 +26,102 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="system-requirements"></a>系统要求
 
-此主题列出当前版本中的系统要求工序的 Microsoft Dynamics 365。
+此主题列出了当前版本的 Microsoft Dynamics 365 for Operations 的系统要求。
 
 <a name="supported-web-browsers"></a>支持的 Web 浏览器
 ----------------------
 
-工序 Web 应用程序的 Microsoft Dynamics 365 在指定的行动的系统运行可以运行在以下任何网页/网站/web 浏览器：
+Microsoft Dynamics 365 for Operations Web 应用程序可在指定操作系统上运行的以下任一 Web 浏览器中运行：
 
--   Microsoft 边缘 (最新的公共版本) 可用在 Windows 上 10
+-   Windows 10 上的 Microsoft Edge（最新公开提供的版本）
 -   Windows 10、Windows 8.1 或 Windows 7 上的 Internet Explorer 11
--   谷歌镶边 (最新的公共版本) 可用在 Windows 上 10，Windows 8.1，Windows 8、Windows 谷歌 7 或 10 连结平板
--   Apple 徒步出差队 (最新的公共可用在"操作系统版本) Mac X 10.10 (优胜美地)，10.11 (El) 或 Capitan 10.12 (山脉)，或 Apple iPad
+-   Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）
+-   Mac OS X 10.10 (Yosemite)、10.11 (Capitan)、10.12 (Sierra) 或 Apple iPad 上的 Apple Safari（最新公开提供的版本）
 
 要查看每个 Web 浏览器的最新版本，请转至软件制造商的网站。 **注意：**
 
--   若要捕捉来自任务录制器生成，并包括它们在 Microsoft Word 文档的图像，必须安装有镶边扩展名。 <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
--   工作流作为 ClickOnce 编辑器启动应用程序。 只有边缘和 Microsoft Internet Explorer 支持一 (" Microsoft Windows 的版本 ClickOnce) 支持应用程序。 工作流 ClickOnce 编辑器应用程序要求一个 64 位操作系统兼容。
--   财务报告的启动报表设计器 ClickOnce 作为应用程序。 它要求的一个 64 位操作系统兼容。 如果您使用镶边，必须安装 ClickOnce 扩展名以便下载报表设计器客户。 如果将隐姓氏埋名的模式的镶边，请确保 ClickOnce 扩展为隐姓氏埋名的模式也会启用。
+-   若要捕获从任务录制器生成的图像并插入到 Microsoft Word 文档中，必须安装 Chrome 扩展。 <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
+-   Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
+-   适用于财务申报的报表设计器作为 ClickOnce 应用程序启动。 它需要 64 位兼容操作系统。 如果使用的是 Chrome，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式使用 Chrome，请确保也为匿名模式启用 ClickOnce 扩展。
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Retail Cloud POS 支持的 Web 浏览器
 
-Dynamics 365 的零售 POS 操作的云在指定的行动的系统运行可以运行在以下任何网页/网站/web 浏览器：
+适用于 Dynamics 365 for Operations 的 Retail Cloud POS 可在指定操作系统上运行的以下任一 Web 浏览器中运行：
 
--   Microsoft 边缘 (最新的公共版本) 可用在 Windows 上 10
+-   Windows 10 上的 Microsoft Edge（最新公开提供的版本）
 -   Windows 10、Windows 8.1 或 Windows 7 上的 Internet Explorer 11
--   为铬 (最新的公共版本) 可用在 Windows 上 10，Windows 8.1、Windows 7
+-   Windows 10、Windows 8.1 或 Windows 7 上的 Chrome（最新公开提供的版本）
 
-## <a name="network-requirements"></a>网络需求
--   工序的 Dynamics 365 为 150 少于毫秒延迟的网络 (ms) 设计。 这是从浏览器客户的延期到 Microsoft Azure 数据中心工序该主机 Dynamics 365。 我们建议您在<http://www.azurespeed.com>延迟测试网络。
--   Dynamics 365 的带宽需求工序的依赖于您的项目。 大多数典型情况要求带宽 50 多千字节每秒 (Kbps)。 但是，由为具有更高净载重量需求的情况，如包括全面的自定义工作区或方案，详细带宽建议。
+## <a name="network-requirements"></a>网络要求
+-   Dynamics 365 for Operations 适用于延迟低于 150 毫秒 (ms) 的网络。 这是从浏览器客户端到主管 Dynamics 365 for Operations 的 Microsoft Azure 数据中心的延迟。 建议在 <http://www.azurespeed.com> 测试网络延迟。
+-   Dynamics 365 for Operations 的带宽要求取决于您的方案。 大多数典型方案要求带宽超过每秒 50 千字节 (KBps)。 但是，对于需要高负载要求的方案（如涉及大量自定义的工作区或方案），建议提供更多带宽。
 
-一般来说，工序的 Dynamics 365 为 Internet 优化。 往返的客户数量从一个浏览器的 Azure 的数据中心的很小一些，并将整个的净载重量压缩。 **警告：**将{{要：by}}通过将用户的数量计算从客户位置的带宽需求与最低带宽的需求。 特定位置的并发使用很困难计算。 对于关注带宽要求的客户，因此为工序请使用一版本预览 Dynamics 365。
+Dynamics 365 for Operations 通常已针对 Internet 进行了优化。 从浏览器客户端到 Azure 数据中心的往返次数很小，并且整个负载经过压缩。 **警告：**请勿通过将用户数乘以最低带宽要求来计算客户端位置的带宽要求。 给定位置的并行使用很难计算。 对于注重带宽要求的客户，请使用 Dynamics 365 for Operations 预览版本。
 
-## <a name="net-framework-requirements"></a>.NET Framework 需求
-工序的 Dynamics 365 为所有需要 .NET Framework 版本 4.6.2 后，单击应用程序文档，例如工艺路线代理。 有关设置说明，请参阅 SQL 安装 .NET Framework [] (https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx)。
+## <a name="net-framework-requirements"></a>.NET Framework 要求
+Dynamics 365 for Operations 需要 .NET Framework 版本 4.6.2 以满足一键式应用程序的要求，如文档路由代理程序。 有关安装说明，请参阅[安装 .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx)。
 
 ## <a name="supported-microsoft-office-applications"></a>支持的 Microsoft Office 应用程序
--   若要运行 Microsoft Excel 短语和加载项，您必须拥有 Windows 的安装 Microsoft Office 2016 或 Mac。 有关更详细信息，请参阅需求有关版本 [] (/dynamics365/operations/dev Office 集成故障排除 itpro/office 集成 integration/office 故障排除。)
--   若要查看到由生成的 Excel 导出或短语导出功能的文档，必须对于 Microsoft Office 设置的 2007 或更晚的日期。
+-   若要运行 Microsoft Excel 和 Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的更多详细信息，请参阅 [Office 集成疑难解答](/dynamics365/operations/dev-itpro/office-integration/office-integration-troubleshooting)。
+-   若要查看“导出到 Excel”或“导出到 Word”功能生成的文档，必须安装 Microsoft Office 2007 或更高版本。
 
 ## <a name="retail-modern-pos-requirements"></a>Retail Modern POS 要求
 ### <a name="supported-operating-systems"></a>支持的操作系统
 
--   Retail Modern POS 应用程序为 32 位，不过，在和 x86 后 x64 体系结构中运行。
--   Retail Modern POS 在 Windows 上 10 同意，仅支持企业和企业分支长期服务的 (LTSB) 编辑。
+-   Retail Modern POS 是 32 位应用程序，但是在 x86 和 x64 架构上都可以运行。
+-   只有 Windows 10 Pro, Enterprise 和 Enterprise Long Term Servicing Branch (LTSB) 版本才支持 Retail Modern POS。
 
-### <a name="minimum-system-requirements"></a>最小的系统要求
+### <a name="minimum-system-requirements"></a>最低系统要求
 
--   支持的最小数量为 1280 × 1024 解决方法。
--   Retail Modern POS 运行的计算机必须满足以下要求：
-    -   它必须具有，至少运行，在不少于 2 千兆赫的 (GHz) 双重核心处理程序。
-    -   它必须具有，至少，(GB) 3 GB RAM，1.5。
-    -   它必须能够访问 Internet。
+-   支持的最低分辨率为 1280 × 1024。
+-   运行 Retail Modern POS 的计算机必须满足以下要求：
+    -   必须配备以最低不低于 2 千兆赫兹 (GHz) 的速度运行的双核处理器。
+    -   必须配备最低 3 千兆字节 (GB) 的 RAM。
+    -   必须可以访问 Internet。
 
-## <a name="retail-hardware-station-requirements"></a>Retail 硬件工作站需求
+## <a name="retail-hardware-station-requirements"></a>零售硬件工作站要求
 ### <a name="supported-operating-systems"></a>支持的操作系统
 
--   Retail 硬件工作站应用程序为 32 位，不过，在和 x86 后 x64 体系结构中运行。
--   Retail 硬件工作站支持：在以下操作系统
-    -   Windows 7 专业版企业、最终**注释和编辑：只有当，Internet Explorer 11 上系统，手动设置** Windows 7 支持。
-    -   Windows 8.1 更新 1 专业的、企业和嵌入的编辑
-    -   Windows 10 同意，企业和企业 LTSB 编辑
+-   零售硬件工作站是 32 位应用程序，但是在 x86 和 x64 架构上都可以运行。
+-   以下操作系统支持零售硬件工作站：
+    -   Windows 7 Professional、Enterprise 和 Ultimate 版本 **注释：**仅当系统上手动安装了 Internet Explorer 11，才支持 Windows 7。
+    -   Windows 8.1 Update 1 Professional、Enterprise 和 Embedded 版本
+    -   Windows 10 Pro、Enterprise 和 Enterprise LTSB 版本
 
-### <a name="minimum-system-requirements"></a>最小的系统要求
+### <a name="minimum-system-requirements"></a>最低系统要求
 
-计算机必须遵守所有系统要求提供了安装和使用以下项：
+计算机必须满足安装和使用以下项的所有系统要求：
 
 -   Internet 信息服务 (IIS)
 -   第三方硬件
 
-## <a name="retail-store-scale-unit-requirements"></a>Retail Store 秤需求单位
+## <a name="retail-store-scale-unit-requirements"></a>零售商店扩展单位要求
 ### <a name="supported-operating-systems"></a>支持的操作系统
 
--   Retail Store 秤单位应用程序为 32 位，不过，在和 x86 后 x64 体系结构中运行。
--   Retail Store 秤单位。以下操作系统支持：
-    -   Windows 7 专业版企业、终端和编辑
-    -   Windows 8.1 更新 1 专业的、企业和嵌入的编辑
-    -   Windows 10 同意，企业和企业 LTSB 编辑
+-   零售商店扩展单位是 32 位应用程序，但是在 x86 和 x64 架构上都可以运行。
+-   以下操作系统支持零售商店扩展单位：
+    -   Windows 7 Professional、Enterprise 和 Ultimate 版本
+    -   Windows 8.1 Update 1 Professional、Enterprise 和 Embedded 版本
+    -   Windows 10 Pro、Enterprise 和 Enterprise LTSB 版本
 
-### <a name="minimum-system-requirements"></a>最小的系统要求
+### <a name="minimum-system-requirements"></a>最低系统要求
 
--   4 GB RAM，1.5
--   1.6 GHz 高峰 CPU 速度。核心 (两核心是最小数量。)
--   至少 10 GB 可用空间 (通道数据库可能需要数空格。)
+-   4 GB 的 RAM
+-   每个核心 1.6 GHz 的峰值 CPU 速度（至少两个核心。）
+-   至少 10 GB 的可用空间（渠道数据库肯需要大量空间。）
 
-### <a name="recommended-system-requirements"></a>建议使用的系统要求
+### <a name="recommended-system-requirements"></a>建议的系统要求
 
--   6 GB RAM，1.5
--   2.4 GHz 或视同 i7 () 高峰 CPU 速度。核心 (荐使用四个核心。)
--   至少 10 GB 可用空间 (通道数据库可能需要数空格。)
+-   6 GB 的 RAM
+-   每个核心 2.4 GHz i7（或等效）峰值 CPU 速度（建议四个核心。）
+-   至少 10 GB 的可用空间（渠道数据库肯需要大量空间。）
 
-## <a name="requirements-for-development-on-local-vms"></a>开发 VMs 本机的需求。
-有关开发的需求的信息在本地的 (VMs) 虚拟机，请参阅 [] (/dynamics365/operations/dev VM 本地运行 itpro/dev tools/access 在针对 instances#vm 是运行)。
+## <a name="requirements-for-development-on-local-vms"></a>本地虚拟机上的部署要求
+有关本地虚拟机 (VM) 上的部署要求的信息，请参阅[本地运行虚拟机](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises)。
 
 <a name="see-also"></a>请参阅
 --------
 
-[时得到评估复制工序的/dynamics365/operations/dev] (itpro/dev 评估) 复制 tools/get Dynamics /dynamics365/operations/dev
+[获取 Dynamics 365 for Operations 评估副本](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
 
 

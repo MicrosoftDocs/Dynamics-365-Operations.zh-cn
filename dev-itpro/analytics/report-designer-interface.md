@@ -49,7 +49,7 @@ ms.lasthandoff: 03/29/2017
 | 另存为                           | 在新名称下方保存当前的行定义、列定义、报告树定义或报表定义。                                                                            |
 | 属性                        | 打开**“属性”**对话框，您可以在此对话框中更改报表的名称和描述。                                                                                                   |
 | 生成                          | 生成当前报表。 报表定义中提供此命令。                                                                                                                 |
-| 查看报表                       | 打开所生成报表的最新版本置于 Dynamics 365 的操作。 如果您已生成至少一个报表，则报表定义中将提供此命令。                                 |
+| 查看报表                       | 在 Dynamics 365 for Operations 中打开生成的最新版本报表。 如果您已生成至少一个报表，则报表定义中将提供此命令。                                 |
 | 最近报表定义         | 显示最近已创建或修改的报表列表。 然后，您可以在此列表中选择一个报表。                                                                                    |
 | 最近行定义            | 显示最近已创建或修改的行定义列表。 然后，您可以在此列表中选择一个行定义。                                                                    |
 | 最近列定义         | 显示最近已创建或修改的列定义列表。 然后，您可以在此列表中选择一个列定义。                                                              |
@@ -80,7 +80,7 @@ ms.lasthandoff: 03/29/2017
 | 插入列                          | 将空列插入列定义中。 列定义中提供此命令。                                                                                                             |
 | 删除列                          | 从列定义中删除所选列。 列定义中提供此命令。                                                                                                         |
 | 从维度插入报告单元 | 打开**“从维度插入报告单元”**对话框，您可以在此对话框中选择要包含在报告树定义中的维度值。 报告树定义中提供此命令。 |
-| 导入维度集层次结构         | 打开**“维度集层次结构”**对话框，您可以在此对话框中导入财务数据中的维度集层次结构。 此命令从报告树定义获取。"。\ \财务维度系统基于维度。  |
+| 导入维度集层次结构         | 打开**“维度集层次结构”**对话框，您可以在此对话框中导入财务数据中的维度集层次结构。 ...\财务维度\基于维度的系统的报告树定义中提供此命令。  |
 | 插入报告单元                  | 将空行插入报告树定义中。 报告树定义中提供此命令。                                                                                                |
 | 删除报告单元                  | 从报告树定义中删除所选报告单元行。 报告树定义中提供此命令。                                                                             |
 
@@ -159,7 +159,7 @@ ms.lasthandoff: 03/29/2017
 
 | 命令 | 说明                                                  |
 |---------|--------------------------------------------------------------|
-| 帮助    | 打开工序帮助 wiki 页面的 Dynamics 365 的财务报表。 |
+| 帮助    | 打开财务报告的 Dynamics 365 for Operations 帮助 wiki 页。 |
 |         |                                                              |
 
 ## <a name="report-designer-toolbar-buttons"></a>报表设计器工具栏按钮
@@ -171,24 +171,24 @@ ms.lasthandoff: 03/29/2017
 
 | 按钮                                                                                                                                                                                   | 描述                                                                                                                                                                            |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [![New button](./media/rowc130389.png)](./media/rowc130389.png)                              | 创建新的（空的）报表定义、行定义、列定义或报告树定义。                                                                               |
-| [] (!["打开按钮。/media/openfolderc130389.png)](。/media/openfolderc130389.png)               | 打开现有行定义、列定义、报告树定义或报表定义。                                                                                   |
-| [] (![保存"按钮。/media/savec130389.png)](。/media/savec130389.png)                           | 保存当前的行定义、列定义、报告树定义或报表定义。                                                                                   |
-| [] (![复制"按钮。/media/copyc130389.png)](。/media/copyc130389.png)                           | 将所选文本复制到剪贴板。                                                                                                                                               |
-| [] (例如![按钮。/media/cutc130389.png)](。/media/cutc130389.png)                              | 删除所选文本，然后将其复制到剪贴板。                                                                                                                                |
-| [] (![粘贴按钮。/media/pastec130389.png)](。/media/pastec130389.png)                        | 插入剪贴板中的文本。                                                                                                                                                    |
-| [] (冲销![按钮。/media/undoc130389.png)](。/media/undoc130389.png)                           | 撤消上次操作。                                                                                                                                                                  |
-| [] (![恢复按钮。/media/redoc130389.png)](。/media/redoc130389.png)                           | 退回上次撤消的操作。                                                                                                                                                          |
-| [] (![查找按钮。/media/findc130389.png)](。/media/findc130389.png)                           | 打开**“查找和替换”**对话框，您可以在此对话框中搜索和替换活动窗口中的文本。                                                                                  |
-| [] (![插入行"按钮。/media/insertrowc130389.png)](。/media/insertrowc130389.png)           | 将空行插入行定义中，或者将空标题行插入列定义中。 行定义或列定义中提供此按钮。                    |
-| [] (![插入列按钮。/media/insertcolumnc130389.png)](。/media/insertcolumnc130389.png)  | 将空列插入列定义中。 列定义中提供此按钮。                                                                                  |
-| [] (锁定![按钮。/media/lockc130389.png)](。/media/lockc130389.png)                           | 将密码应用于当前构建基块。 此按钮适用于具有**“设计人员”**或**“管理员”**角色的用户。                                                 |
-| [] (按钮![行链接。/media/rowlinkc130389.png)](。/media/rowlinkc130389.png)                 | 打开**“行链接”**对话框，您可以在此对话框中指定行定义和报告树定义中数据链接的源。 行定义中提供此按钮。 |
-| [] (![提升按钮。/media/promotec130389.png)](。/media/promotec130389.png)                  | 升级报告树定义的单位。 当您选择子单位然后单击**“升级”**时，此子单位将移至同一级别作为其父单位。                |
-| [] (![降级"按钮。/media/demotec130389.png)](。/media/demotec130389.png)                     | 降级报告树定义的单元。 当您选择一个单位然后单击**“降级”**时，此单位将成为其之前的单位的子级。                               |
-| [] (![展开"按钮。/media/expandtreebuttonc130389.png)](。/media/expandtreebuttonc130389.png) | 展开处于所选单位级别的报告树定义的所有单位。                                                                                                   |
-| [] (![折叠按钮。/media/collapsec130389.png)](。/media/collapsec130389.png)               | 折叠报告树。                                                                                                                                                           |
-| [] (![帮助"按钮。/media/helpc130389.png)](。/media/helpc130389.png)                           | 打开帮助。                                                                                                                                                                             |
+| [![新建按钮](./media/rowc130389.png)](./media/rowc130389.png)                              | 创建新的（空的）报表定义、行定义、列定义或报告树定义。                                                                               |
+| [![打开按钮](./media/openfolderc130389.png)](./media/openfolderc130389.png)               | 打开现有行定义、列定义、报告树定义或报表定义。                                                                                   |
+| [![保存按钮](./media/savec130389.png)](./media/savec130389.png)                           | 保存当前的行定义、列定义、报告树定义或报表定义。                                                                                   |
+| [![复制按钮](./media/copyc130389.png)](./media/copyc130389.png)                           | 将所选文本复制到剪贴板。                                                                                                                                               |
+| [![剪切按钮](./media/cutc130389.png)](./media/cutc130389.png)                              | 删除所选文本，然后将其复制到剪贴板。                                                                                                                                |
+| [![粘贴按钮](./media/pastec130389.png)](./media/pastec130389.png)                        | 插入剪贴板中的文本。                                                                                                                                                    |
+| [![撤消按钮](./media/undoc130389.png)](./media/undoc130389.png)                           | 撤消上次操作。                                                                                                                                                                  |
+| [![重做按钮](./media/redoc130389.png)](./media/redoc130389.png)                           | 退回上次撤消的操作。                                                                                                                                                          |
+| [![查找按钮](./media/findc130389.png)](./media/findc130389.png)                           | 打开**“查找和替换”**对话框，您可以在此对话框中搜索和替换活动窗口中的文本。                                                                                  |
+| [![插入行按钮](./media/insertrowc130389.png)](./media/insertrowc130389.png)           | 将空行插入行定义中，或者将空标题行插入列定义中。 行定义或列定义中提供此按钮。                    |
+| [![插入列按钮](./media/insertcolumnc130389.png)](./media/insertcolumnc130389.png)  | 将空列插入列定义中。 列定义中提供此按钮。                                                                                  |
+| [![锁定按钮](./media/lockc130389.png)](./media/lockc130389.png)                           | 将密码应用于当前构建基块。 此按钮适用于具有**“设计人员”**或**“管理员”**角色的用户。                                                 |
+| [![行链接按钮](./media/rowlinkc130389.png)](./media/rowlinkc130389.png)                 | 打开**“行链接”**对话框，您可以在此对话框中指定行定义和报告树定义中数据链接的源。 行定义中提供此按钮。 |
+| [![升级按钮](./media/promotec130389.png)](./media/promotec130389.png)                  | 升级报告树定义的单位。 当您选择子单位然后单击**“升级”**时，此子单位将移至同一级别作为其父单位。                |
+| [![降级按钮](./media/demotec130389.png)](./media/demotec130389.png)                     | 降级报告树定义的单元。 当您选择一个单位然后单击**“降级”**时，此单位将成为其之前的单位的子级。                               |
+| [![展开按钮](./media/expandtreebuttonc130389.png)](./media/expandtreebuttonc130389.png) | 展开处于所选单位级别的报告树定义的所有单位。                                                                                                   |
+| [![折叠按钮](./media/collapsec130389.png)](./media/collapsec130389.png)               | 折叠报告树。                                                                                                                                                           |
+| [![帮助按钮](./media/helpc130389.png)](./media/helpc130389.png)                           | 打开帮助。                                                                                                                                                                             |
 
 ### <a name="formatting-toolbar"></a>设置格式工具栏
 
@@ -196,16 +196,16 @@ ms.lasthandoff: 03/29/2017
 
 | 按钮                                                                                                                                                                                                   | 描述                                             |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------|
-| [] (按钮![字体样式。/media/formattingc130389.png)](。/media/formattingc130389.png)                         | 将所选字体样式应用于当前文本。      |
-| [] (![字体按钮。/media/fonttype.png)](。/media/fonttype.png)                                                 | 将当前文本设置为所选字体。              |
-| [] (![字号按钮。/media/fontsize.png)](。/media/fontsize.png)                                            | 将当前文本设置为所选字体大小（以点为单位）。 |
-| [] (![粗体"按钮。/media/boldc130389.png)](。/media/boldc130389.png)                                           | 使当前文本变粗。                             |
-| [] (![倾斜按钮。/media/italicsc130389.png)](。/media/italicsc130389.png)                                   | 使当前文本变为斜体。                           |
-| [] (按钮![下划线。/media/underlinec130389.png)](。/media/underlinec130389.png)                            | 为当前文本加下划线。                             |
-| [] (按钮![减少缩进。/media/outdentlsc130389.png)](。/media/outdentlsc130389.png)                      | 减少当前文本的缩进。                |
-| [] (按钮![增加缩进。/media/indentlsc130389.png)](。/media/indentlsc130389.png)                        | 增加当前文本的缩进。                |
-| [] (按钮![背景的颜色。/media/fillbackgroundcolorc130389.png)](。/media/fillbackgroundcolorc130389.png) | 更改当前单元格的背景色。        |
-| [] (按钮![字体颜色。/media/fontcolorc130389.png)](。/media/fontcolorc130389.png)                           | 更改当前文本的颜色。                   |
+| [![字体样式按钮](./media/formattingc130389.png)](./media/formattingc130389.png)                         | 将所选字体样式应用于当前文本。      |
+| [![字体按钮](./media/fonttype.png)](./media/fonttype.png)                                                 | 将当前文本设置为所选字体。              |
+| [![字体大小按钮](./media/fontsize.png)](./media/fontsize.png)                                            | 将当前文本设置为所选字体大小（以点为单位）。 |
+| [![加粗按钮](./media/boldc130389.png)](./media/boldc130389.png)                                           | 使当前文本变粗。                             |
+| [![斜体按钮](./media/italicsc130389.png)](./media/italicsc130389.png)                                   | 使当前文本变为斜体。                           |
+| [![加下划线按钮](./media/underlinec130389.png)](./media/underlinec130389.png)                            | 为当前文本加下划线。                             |
+| [![减少缩进按钮](./media/outdentlsc130389.png)](./media/outdentlsc130389.png)                      | 减少当前文本的缩进。                |
+| [![增加缩进按钮](./media/indentlsc130389.png)](./media/indentlsc130389.png)                        | 增加当前文本的缩进。                |
+| [![背景色按钮](./media/fillbackgroundcolorc130389.png)](./media/fillbackgroundcolorc130389.png) | 更改当前单元格的背景色。        |
+| [![字体颜色按钮](./media/fontcolorc130389.png)](./media/fontcolorc130389.png)                           | 更改当前文本的颜色。                   |
 
 ### <a name="report-designer-toolbar"></a>报表设计器工具栏
 
@@ -213,12 +213,12 @@ ms.lasthandoff: 03/29/2017
 
 | 按钮                                                                                                                                                                                          | 说明                                                                                                                                                                  |
 |-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [] (按钮![报表定义。/media/reportc130389.png)](。/media/reportc130389.png)                 | 显示在**“窗口”**菜单中列出的报表定义。                                                                                                            |
-| [] (按钮![行定义。/media/rowc130389.png)](。/media/rowc130389.png)                          | 显示分配到活动报表定义的行定义。                                                                                                    |
-| [] (按钮![列定义。/media/columnc130389.png)](。/media/columnc130389.png)                 | 显示分配到活动报表定义的列定义。                                                                                                 |
-| 报告树定义![[] (按钮。/media/treec130389.png)](。/media/treec130389.png)             | 显示分配到活动报表定义的报告树定义。                                                                                         |
-| 报表查看器![[] (按钮。/media/reportviewerc130389.png)](。/media/reportviewerc130389.png)         | 启动报表查看器并显示生成的最新版本报表。 如果您已生成至少一个报表，则报表定义中将提供此按钮。 |
-| [] (按钮![生成报表。{{/media/generate:/media/generate-to-ddvc130389.png}} {{对：/media/generate-to-ddvc130389.png}} {{ddvc130389.png:/media/generate-to-ddvc130389.png}})](。{{/media/generate:/media/generate-to-ddvc130389.png}} {{对：/media/generate-to-ddvc130389.png}} {{ddvc130389.png:/media/generate-to-ddvc130389.png}}) | 从活动报表定义中生成报表。 报表定义中提供此按钮。                                                                      |
+| [![报表定义按钮](./media/reportc130389.png)](./media/reportc130389.png)                 | 显示在**“窗口”**菜单中列出的报表定义。                                                                                                            |
+| [![行定义按钮](./media/rowc130389.png)](./media/rowc130389.png)                          | 显示分配到活动报表定义的行定义。                                                                                                    |
+| [![列定义按钮](./media/columnc130389.png)](./media/columnc130389.png)                 | 显示分配到活动报表定义的列定义。                                                                                                 |
+| [![报告树定义按钮](./media/treec130389.png)](./media/treec130389.png)             | 显示分配到活动报表定义的报告树定义。                                                                                         |
+| [![报表查看器按钮](./media/reportviewerc130389.png)](./media/reportviewerc130389.png)         | 启动报表查看器并显示生成的最新版本报表。 如果您已生成至少一个报表，则报表定义中将提供此按钮。 |
+| [![生成报表按钮](./media/generate-to-ddvc130389.png)](./media/generate-to-ddvc130389.png) | 从活动报表定义中生成报表。 报表定义中提供此按钮。                                                                      |
 
 
 
@@ -227,6 +227,6 @@ ms.lasthandoff: 03/29/2017
 
 [Microsoft Dynamics ERP 的财务报告](financial-reporting-intro.md)
 
-[Generate a financial report](\financials\general-ledger\generate-financial-report.md)
+[生成财务报表](\financials\general-ledger\generate-financial-report.md)
 
 

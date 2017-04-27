@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="electronic-signature-overview"></a>电子签名概览
 
+[!include[banner](../includes/banner.md)]
+
+
 本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Operations 中使用它们。
 
 <a name="what-is-an-electronic-signature"></a>什么是电子签名？
@@ -35,7 +38,7 @@ ms.lasthandoff: 03/31/2017
 电子签名确认要启动或审核计算流程的人员的身份。 在一些行业中，电子签名与手写签名在法律上具有相同效力。 电子签名是一些受管制行业（如制药业、食品和饮料业以及航空和国防）的法规遵从性要求。 它们也是遵循 21 CFR 第 11 部分（由美国食品和药品管理局颁发）中的法规所必需的。 **注意：**电子签名本身与数字签名不同。 电子签名只是手写签名的替代品，而数字签名还提供其他安全措施。 数字签名可以帮助标识其他用户或进程是否篡改了数据。 还可以验证数字签名，并且用于对数据签名的证书所有者不能驳倒此验证。 如下所述，Microsoft Dynamics 365 for Operations 中的电子签名具有内置数字签名功能。
 
 ## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Dynamics 365 for Operations 中的电子签名
-在 Dynamics 365 for Operations 中，可以对关键业务流程使用电子签名。 一些流程具有内置电子签名功能。 还可以为任意数据库表和字段创建自定义签名要求。 电子签名具有内置数字签名功能。 对文档签名的每个用户必须获取有效的加密证书。 对文档签名时，与此证书相关的私钥进行验证。 Dynamics 365 for Operations 在日志中记录电子签名信息以提供审计线索。 若要设置电子签名，请参阅设置电子签名的 [(任务指南)](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/)。
+在 Dynamics 365 for Operations 中，可以对关键业务流程使用电子签名。 一些流程具有内置电子签名功能。 还可以为任意数据库表和字段创建自定义签名要求。 电子签名具有内置数字签名功能。 对文档签名的每个用户必须获取有效的加密证书。 对文档签名时，与此证书相关的私钥进行验证。 Dynamics 365 for Operations 在日志中记录电子签名信息以提供审计线索。 若要设置电子签名，请参阅[设置电子签名（任务指南）](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/)。
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>需要访问电子签名的用户
 以下三类用户通常要求电子签名的安全访问权限：电子签名管理员、签名人和电子签名审计员。
@@ -78,6 +81,8 @@ ms.lasthandoff: 03/31/2017
 1.  在**选项**页，在**帐户**选项卡上，单击**指定审核人**。
 2.  在**审核人用户 ID** 字段中，选择必须为其他用户的更改签名的用户的 ID。
 3.  在**为其签名的用户 ID** 字段中，选择必须为其更改签名的用户的 ID。
+
+
 
 
 

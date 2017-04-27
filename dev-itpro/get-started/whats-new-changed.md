@@ -41,23 +41,23 @@ ms.lasthandoff: 03/31/2017
 <thead>
 <tr class="header">
 <th><strong>下达</strong></th>
-<th><strong><strong>Version</strong></strong></th>
-<th><strong><strong>Build number</strong></strong></th>
-<th><strong><strong>Availability</strong></strong></th>
-<th><strong><strong>了解更多信息</strong></strong></th>
+<th><strong><strong>版本</strong></strong></th>
+<th><strong><strong>内部版本号</strong></strong></th>
+<th><strong><strong>可用性</strong></strong></th>
+<th><strong><strong>了解更多</strong></strong></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Operations 平台</td>
-<td>更新 4 平台</td>
+<td>平台更新 4</td>
 <td>7.0.4425.16160</td>
 <td>2017 年 2 月</td>
 <td><ol>
-<li>到 的 <a href="https://roadmap.dynamics.com/">Dynamics 365 模式</a>转到。</li>
-<li>选择 <strong>新增功能</strong> 选项卡。</li>
-<li>在 <strong>应用程序</strong> "部分，选择 <strong>工序的 Dynamics 365</strong>。</li>
-<li>在 <strong>区域</strong> "部分，选择 <strong>云平台</strong>。</li>
+<li>转至 <a href="https://roadmap.dynamics.com/">Dynamics 365 路线图</a>。</li>
+<li>选择<strong>新增功能</strong>选项卡。</li>
+<li>在<strong>应用程序</strong>部分中，选择 <strong>Dynamics 365 for Operations</strong>。</li>
+<li>在<strong>区域</strong>部分中，选择<strong>云平台</strong>。</li>
 </ol></td>
 </tr>
 <tr class="even">

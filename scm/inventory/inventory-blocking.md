@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="inventory-blocking"></a>库存锁定
 
+[!include[banner](../includes/banner.md)]
+
+
 本文提供库存锁定的概览，这是 Microsoft Dynamics AX 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 
 您可以按照以下方法锁定库存物料：
@@ -53,17 +56,19 @@ ms.lasthandoff: 03/31/2017
 | 质量关联指定在采购订单装箱单过帐时必须生成质检订单。 质检订单的物料抽样设置指定必须检查 10% 的采购订单行数量。 此外，由于在物料抽样设置中选择了**完全锁定**选项，因此不管发送以供检查的数量，在检查期间必须锁定采购订单行的整个数量。 | 过账装箱单。 | 生成质量订单。 将物料的 10% 的采购订单数量送检。 锁定该采购订单行的整个数量。 |
 
 ## <a name="blocking-items-by-using-inventory-status-blocking"></a>通过使用库存状态锁定锁定物料
-您指定可以通过使用在"符合性** **库存状态页，锁定** **的库存参数。库存状态被锁定状态。 您不能使用库存状态作为生产订单、销售订单、转移单、传出交易记录或项目集成的锁定状态。 对于出货工作，使用具有个可用库存状态的物料。 如果物料具有**中断**状态，并且主计划在这些物料上运行，则将物料视为缺失，库存会自动补货。
+您可以使用**库存状态**页上的**锁定库存**参数指定哪些库存状态是锁定状态。 您不能使用库存状态作为生产订单、销售订单、转移单、传出交易记录或项目集成的锁定状态。 对于出货工作，使用具有个可用库存状态的物料。 如果物料具有**中断**状态，并且主计划在这些物料上运行，则将物料视为缺失，库存会自动补货。
 
 
 
 <a name="see-also"></a>请参阅
 --------
 
-[创建和维护库存 (锁定)] 任务指南 (https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[创建和维护库存锁定（任务指南）](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
 
-[Quality management processes](quality-management-processes.md)
+[质量管理流程](quality-management-processes.md)
 
-[请检查货物 ()] 质量的任务指南 (https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[检查货物的质量（任务指南）](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+
+
 
 

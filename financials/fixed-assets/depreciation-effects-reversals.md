@@ -27,6 +27,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="depreciation-effects-with-reversals"></a>使用冲销的折旧影响
 
+[!include[banner](../includes/banner.md)]
+
+
 本文讨论冲销固定资产交易记录的潜在影响。 
 
 您可以冲销固定资产交易记录，以及与某一固定资产相关联的应付帐款和应收帐款交易记录。 您还可以撤消某一已冲销的交易记录。 
@@ -90,6 +93,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Fixed asset depreciation](fixed-asset-depreciation.md)
+[固定资产折旧](fixed-asset-depreciation.md)
+
+
 
 

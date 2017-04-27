@@ -29,6 +29,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="cost-objects"></a>成本对象
 
+[!include[banner](../includes/banner.md)]
+
+
 本文提供有关成本对象的信息，并说明如何累计成本和数量。 成本对象是为其累计成本和数量的实体。 成本对象实体可以是产品或产品变型，例如样式和颜色的变型。  
 
 <a name="cost-objects"></a>成本对象
@@ -65,19 +68,21 @@ ms.lasthandoff: 03/31/2017
     -   已过帐的数量
 -   **“平均单位成本”**字段为计算字段。 该值通过用**“值”**值除以**“数量”**值得出。
 
-**注释：** **包括实际成本**参数不影响之前的计算的影响。
+**注意：****包括实际成本** 参数不影响之前的计算。
 
 <a name="see-also"></a>请参阅
 --------
 
-[Product dimension group](https://technet.microsoft.com/en-us/library/aa499382.aspx)
+[产品维度组](https://technet.microsoft.com/en-us/library/aa499382.aspx)
 
-[Storage dimension group](https://technet.microsoft.com/en-us/library/hh209317.aspx)
+[存储维度组](https://technet.microsoft.com/en-us/library/hh209317.aspx)
 
-[Tracking dimension group](https://technet.microsoft.com/en-us/library/hh209465.aspx)
+[跟踪维度组](https://technet.microsoft.com/en-us/library/hh209465.aspx)
 
-[最后更新或更改在 Microsoft Dynamics AX ISS] (-新更改的/dynamics365/operations/dev-itpro/get-started/what)
+[Microsoft Dynamics AX 中的新增功能和变更功能](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
 
-[Cost entries](cost-entries.md)
+[成本条目](cost-entries.md)
+
+
 
 

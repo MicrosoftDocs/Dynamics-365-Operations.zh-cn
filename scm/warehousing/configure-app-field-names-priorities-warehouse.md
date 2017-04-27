@@ -1,6 +1,6 @@
 ---
-title: "配置应用在仓库的应用字段名称"
-description: "此主题描述如何定义并配置仓库字段名称和应用优先级 Dynamics 中 365 操作。"
+title: "配置 Warehousing 应用程序中的应用程序字段名"
+description: "此主题介绍如何在 Dynamics 365 for Operations 中定义和配置仓库应用程序字段名和优先级。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 04/04/2017
@@ -26,16 +26,19 @@ ms.lasthandoff: 03/31/2017
 
 ---
 
-# <a name="configure-app-field-names-in-warehousing-app"></a>配置应用在仓库的应用字段名称
+# <a name="configure-app-field-names-in-warehousing-app"></a>配置 Warehousing 应用程序中的应用程序字段名
 
-此主题描述如何定义并配置仓库字段名称和应用优先级 Dynamics 中 365 操作。 
+[!include[banner](../includes/banner.md)]
 
-**注释：**此主题适用于在仓库管理"中的功能。 在不适用于库存管理"中的功能。 工序的 Dynamics 365 -仓库是您可以使用仓库执行任务的应用程序。 您可以定义和配置用于应用的字段名称，以及配置字段名称应分配的优先级。 本主题说明如何定义和配置应用这些仓库字段名称，和优先级，以及如何在 Dynamics 365。工序-仓库。 有关如何配置到 Dynamics 365 的连接的详细信息的工序的仓库-仓库，请参阅本指南 [则安装和配置操作的 Dynamics 365 -安装 Configuration app.md] (仓库)。
 
-<a name="configure-warehouse-app-field-names"></a>配置应用仓库字段名称
+此主题介绍如何在 Dynamics 365 for Operations 中定义和配置仓库应用程序字段名和优先级。 
+
+**注意：**本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 Dynamics 365 for Operations - Warehousing 是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 此主题说明如何在 Dynamics 365 for Operations - Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。 有关如何配置与 Dynamics 365 for Operations - Warehousing 之间的连接的详细信息，请参阅教程[安装和配置 Dynamics 365 for Operations - Warehousing](install-configure-warehousing-app.md)。
+
+<a name="configure-warehouse-app-field-names"></a>配置仓库应用程序字段名
 ===================================
 
-如果某工序所使用 Dynamics 365 -在您的仓库移动设备时，可以配置如何在您的设备上应显示数据的元**应用仓库字段名称**页。 在 Dynamics 中 365 的新公司中的工序，选择**创建的设置默认**生成用于仓库移动设备工作流的所有字段名称，则分配一首选的输入模式和输入类型。它们。 在您生成了所有字段名称后，您可以选择以下输入选项。
+在移动设备上使用 Dynamics 365 for Operations - Warehousing 时，可在**仓库应用字段名**页面中配置应如何在设备上显示元数据。 在 Dynamics 365 for Operations 中的新公司中，选择**创建默认设置**以生成将在仓库移动设备工作流中使用的所有字段名，然后为其分配首选输入模式和输入类型。 生成所有字段名之后，可以选择以下输入选项。
 
 <table>
 <colgroup>
@@ -51,25 +54,25 @@ ms.lasthandoff: 03/31/2017
 <tbody>
 <tr class="odd">
 <td>首选输入类型</td>
-<td>此选项定义是否应为所选字段名称显示用于扫描或手动输入一字段输入域。 如果条码用于字段，则使用此功能非常有用。根据部分字段。 <strong>注意：</strong> 对于用于首选的输入模式的字段名称，如果 <strong>扫描</strong>条码不可读取或损坏，设置到，可以手动输入信息。</td>
+<td>此选项定义应如何为所选字段名显示扫描字段或手动输入的输入字段。 这对根据条码是否用于字段来区分字段十分有用。 <strong>注释：</strong>对于首选输入模式设置为<strong>扫描</strong>的字段名，如果条码不可识别或已损坏，则可手动输入信息。</td>
 </tr>
 <tr class="even">
 <td>输入类型</td>
-<td>此选项定义应为所选字段名称使用的输入类型。 四个可用选项：
+<td>此选项定义应对所选字段名使用哪种输入类型。 有四个选项：
 <ul>
-<li><strong>选择</strong>包含 - -选择从选项的列表。 此选项使用的字段名称不可编辑。</li>
-<li><strong>日期</strong>为指定的日期 - -将字段名称显示具有一个标签的日期格式。 -在输入日期的格式所帮助仓库工人查看。 此选项使用的字段名称不可编辑。</li>
-<li><strong>Alpha</strong>- -，如果选中，将在应用设备键盘时使用，则手动输入信息。 键盘体验可以更改要使用的设备。</li>
-<li><strong>数字</strong>仅使用数字输入的字段的名称 - -上，您可以选中此选项显示具有输入域的自定义{{而数字键盘不是：instead_of}}设备键盘。</li>
+<li><strong>选择</strong> - 包含可供选择的选项的列表。 使用此选项选择的字段名不可编辑。</li>
+<li><strong>日期</strong> - 指定为日期的字段名将显示带标签的日期格式。 这将帮助仓库工作人员了解要使用哪种格式输入日期。 使用此选项选择的字段名不可编辑。</li>
+<li><strong>字母</strong> - 如果选择此选项，在应用程序中手动输入信息时，将使用设备键盘。 可根据所用设备更改键盘体验。</li>
+<li><strong>数字</strong> - 对于仅使用数字输入的字段名，可选择此选项以显示带输入字段的自定义数字键盘，而不是设备键盘。</li>
 </ul></td>
 </tr>
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a>配置应用仓库字段优先级
+<a name="configure-warehouse-app-field-priority"></a>配置仓库应用字段优先级
 ======================================
 
-**请在应用仓库字段**优先级"页面中，您可以为不同地方字段名称的优先级。组 这样便可以在决定主要任务页应显示哪些信息使用应用时，仓库，此时工作人员执行任务。 如果单击**创建的设置默认**默认组，优先级组生成。 创建多个组。根据需要优先级可能的，但是，仅三个优先级。组任务页将显示。 在工序的 Dynamics 365 发送元数据对应用，则分配每个字段相对优先级物料组，其优先级，并且应用将显示在对任务的页面的元数据包含前三个优先级组。 溢出的元数据的其余上辅助详细信息页将显示。 下表显示五个优先级组的示例。
+在**仓库应用字段优先级**页面中，可将字段名放入不同优先级组。 这样就可以定义当仓库工作人员使用此应用程序执行任务时，应在主任务页面中显示哪些信息。 如果单击**创建默认设置**，将生成一组默认优先级组。 可以根据需要创建任意数量的优先级组，但是任务页面中将仅显示三个优先级组。 当 Dynamics 365 for Operations 向该应用程序发送元数据时，将根据每个字段的优先级组为字段分配一个相对优先级，并且该应用程序将在任务页面中显示元数据中包含的前三个优先级组。 将在第二详细信息页面中显示其余过剩元数据。 下表显示五个优先级组的示例。
 
 <table>
 <colgroup>
@@ -84,7 +87,7 @@ ms.lasthandoff: 03/31/2017
 </thead>
 <tbody>
 <tr class="odd">
-<td> 优先级为 10</td>
+<td> 优先级 10</td>
 <td><ul>
 <li>项目</li>
 <li>数量</li>
@@ -92,20 +95,20 @@ ms.lasthandoff: 03/31/2017
 </ul></td>
 </tr>
 <tr class="even">
-<td> 优先级为 20</td>
+<td> 优先级 20</td>
 <td><ul>
 <li>群集职位</li>
 <li>群集</li>
 </ul></td>
 </tr>
 <tr class="odd">
-<td> 优先级为 30</td>
+<td> 优先级 30</td>
 <td><ul>
 <li>物料描述</li>
 </ul></td>
 </tr>
 <tr class="even">
-<td> 优先级为 40</td>
+<td> 优先级 40</td>
 <td><ul>
 <li>配置</li>
 <li>颜色</li>
@@ -114,7 +117,7 @@ ms.lasthandoff: 03/31/2017
 </ul></td>
 </tr>
 <tr class="odd">
-<td> 优先级为 50</td>
+<td> 优先级 50</td>
 <td><ul>
 <li>库位</li>
 <li>牌照</li>
@@ -123,7 +126,7 @@ ms.lasthandoff: 03/31/2017
 </tbody>
 </table>
 
-例如，工作人员，在仓库上执行的任务，移动设备，如果应用中显示数据的元包括以下字段：
+例如，当仓库工作人员在移动设备上执行任务时，如果应用程序中将显示的元数据包含以下字段：
 
 -   项目
 -   数量
@@ -131,17 +134,19 @@ ms.lasthandoff: 03/31/2017
 -   物料描述
 -   尺寸和位置
 
-应用基于仓库字段优先级设置在上述表中，行上 3 信息以下任务页将显示：
+将根据上表中设置的仓库应用程序字段优先级，在任务页面中显示以下 3 行信息：
 
--   第 1 行：物料数量，度量单位，
+-   第 1 行：物料、数量、度量单位
 -   第 2 行：物料描述
--   第 3 行：大小
+-   第 3 行：尺寸
 
-剩余的元数据，例如，位置，任务页上详细信息"页面上，将不显示，而是将显示。 若要了解和查看用户界面的示例，请参阅过帐博客 [过帐工序的 Dynamics 365 -仓库] (https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)。
+其余元数据（如位置）将不在任务页面中显示，但是将在详细信息页面中显示。 若要详细了解和查看用户界面的示例，请参阅博客文章[介绍 Dynamics 365 for Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)。
 
 <a name="see-also"></a>请参阅
 --------
 
-[则安装和配置操作的 Microsoft Dynamics 365 –安装配置仓库] (仓库 app.md)
+[安装和配置 Microsoft Dynamics 365 for Operations – Warehousing](install-configure-warehousing-app.md)
+
+
 
 

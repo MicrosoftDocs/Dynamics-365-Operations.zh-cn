@@ -40,7 +40,7 @@ ms.lasthandoff: 03/30/2017
 
 ### <a name="example-of-a-table-constraint"></a>表约束示例
 
-此示例显示如何如何将扬声器的配置限制到特定的机柜表面处理和格栅。 第一个表显示通常可用于配置的机柜表面处理和格栅。 **值。内阁完成** **和前格栅**属性类型定义。
+此示例显示如何如何将扬声器的配置限制到特定的机柜表面处理和格栅。 第一个表显示通常可用于配置的机柜表面处理和格栅。 这些值是针对 **机柜表面处理** 和**格栅**属性类型定义的。
 
 | 属性类型 | 值                      |
 |----------------|-----------------------------|
@@ -60,8 +60,8 @@ ms.lasthandoff: 03/30/2017
 
 您可以创建系统定义的表约束和用户定义的表约束 有关详细信息，请参阅[系统定义的和用户定义的表约束](system-defined-user-defined-table-constraints.md)。
 
-## <a name="what-syntax-should-be-used-to-write-constraints"></a>什么语法应将写入约束？
-编写约束时，必须使用优化建模语言 (OML) 语法。 系统使用 Microsoft 难题解人基础约束解难题人解决约束。
+## <a name="what-syntax-should-be-used-to-write-constraints"></a>应使用何种语法来编写约束？
+编写约束时，必须使用优化建模语言 (OML) 语法。 此系统使用 Microsoft Solver Foundation 约束求解器来求解这些约束。
 
 ## <a name="should-i-use-table-constraints-or-expression-constraints"></a>我应该使用表约束还是表达式约束？
 您可以使用表达式约束或表约束，具体取决于您喜欢生成约束的方式。 您建立的表约束为一个矩阵表，而表达式约束则是单个报表。 在您配置产品时，可以随意使用约束条件。 以下示例显示两种方法有何不同。  
@@ -110,32 +110,32 @@ ms.lasthandoff: 03/30/2017
 <td>如果第一个条件为 false，则为 true；第二个条件为 true 或两者都为 true。</td>
 <td>提示[a, b]，中缀：a -: b</td>
 <td><ul>
-<li><strong>运算符：</strong> [暗示 x! = 0，y &gt;] = 0</li>
-<li><strong>中缀批注：</strong> ! x- 0 =:y &gt;= 0</li>
+<li><strong>运算符：</strong>Implies[x != 0, y &gt;= 0]</li>
+<li><strong>中缀表示法：</strong>x != 0 -: y &gt;= 0</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>并</td>
 <td>只有所有条件为 true，则为 true。 如果条件数为 0 （零），则产生 <strong>True</strong>。</td>
-<td>和 args []，缀中：b &amp; z… &amp;</td>
+<td>And[args], infix: a &amp; b &amp; ... &amp; z</td>
 <td><ul>
-<li><strong>运算符：</strong> [x 和==，y &lt;2] = 2</li>
-<li><strong>中缀批注：</strong> == y &lt;x 2 &amp; = 2</li>
+<li><strong>运算符：</strong>And[x == 2, y &lt;= 2]</li>
+<li><strong>中缀表示法：</strong>x == 2 &amp; y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>或</td>
 <td>如有条件为 true，则为 true。 如果条件数为 0 (零)，则产生 <strong>False</strong>。</td>
-<td>或 args []，缀中：。_=_窗体_=__=_…z</td>
+<td>Or[args], infix: a | b | ... | z</td>
 <td><ul>
-<li><strong>运算符：</strong> 或 [2 x ==，y &lt;] = 2</li>
-<li><strong>中缀批注：</strong> == x 2_=_y &lt;= 2</li>
+<li><strong>运算符：</strong>Or[x == 2, y &lt;= 2]</li>
+<li><strong>中缀表示法：</strong>x == 2 | y &lt;= 2</li>
 </ul></td>
 </tr>
 <tr class="even">
 <td>加</td>
 <td>这将合计其条件。 如果条件数为 0 （零），则产生 <strong>0</strong>。</td>
-<td>正 args []，缀中：" + + + z 窗体…</td>
+<td>Plus[args], infix: a + b + ... + z</td>
 <td><ul>
 <li><strong>运算符：</strong>Plus[x, y, 2] == z</li>
 <li><strong>中缀表示法：</strong>x + y + 2 == z</li>
@@ -159,7 +159,7 @@ ms.lasthandoff: 03/30/2017
 <tr class="odd">
 <td>时间</td>
 <td>取其条件的产物。 如果条件数为 0 （零），则产生 <strong>1</strong>。</td>
-<td>时间 args []，缀中：* "窗体* z *…</td>
+<td>Times[args], infix: a * b * ... * z</td>
 <td><ul>
 <li><strong>运算符：</strong>Times[x, y, 2] == z</li>
 <li><strong>中缀表示法：</strong>x * y * 2 == z</li>
@@ -167,8 +167,8 @@ ms.lasthandoff: 03/30/2017
 </tr>
 <tr class="even">
 <td>能力</td>
-<td>取指数。 它从右到左求幂。 (换言之，它是权限关联的。) 因此，<strong>高级 []，其余，窗体。</strong> 一定等效 <strong>高级" [，高层级 []，其余] 窗体</strong>的。 只有指数为正常数时才可以使用 <strong>Power</strong>。</td>
-<td>高级 args []，缀中：^ b ^… ^ z</td>
+<td>取指数。 它从右到左求幂。 （换言之，它是权限相关。）因此，<strong>Power[a, b, c]</strong> 等于 <strong>Power[a, Power[b, c]]</strong>。 只有指数为正常数时才可以使用 <strong>Power</strong>。</td>
+<td>Power[args], infix: a ^ b ^ ... ^ z</td>
 <td><ul>
 <li><strong>运算符：</strong>Power[x, 2] == y</li>
 <li><strong>中缀表示法：</strong>x ^ 2 == y</li>
@@ -191,7 +191,7 @@ ms.lasthandoff: 03/30/2017
 <td>生成其条件的相反逻辑。 它必须只有一个条件。</td>
 <td>非[expr]，中缀：!expr</td>
 <td><ul>
-<li><strong>运算符：</strong> 未 x [] &amp; 不 [y == 3]</li>
+<li><strong>运算符：</strong>Not[x] &amp; Not[y == 3]</li>
 <li><strong>中缀表示法：</strong>!x!(y == 3)</li>
 </ul></td>
 </tr>
@@ -206,12 +206,12 @@ ms.lasthandoff: 03/30/2017
 | x \* y \* z       | 乘                                                                                |
 | x - y             | 二进制减法的转换方式与第二个数为负的二进制加法相同。 |
 | x ^ y ^ z         | 具有右关联的求幂                                                   |
-| ! x                | 布尔值“非”。                                                                                   |
-| x -:y            | 布尔值影响                                                                           |
+| !x                | 布尔值“非”。                                                                                   |
+| x -: y            | 布尔值影响                                                                           |
 |  x | y | z         | 布尔值“或”                                                                                    |
-| & y x 和 z         | 布尔值“与”                                                                                   |
+| x & y & z         | 布尔值“与”                                                                                   |
 | x == y == z       | 等式                                                                                      |
-| ! x! y == z       | 明确的                                                                                      |
+| x != y != z       | 明确的                                                                                      |
 | x &lt; y &lt; z   | 小于                                                                                     |
 | x &gt; y &gt; z   | 大于                                                                                  |
 | x &lt;= y &lt;= z | 小于等于                                                                         |
@@ -219,7 +219,7 @@ ms.lasthandoff: 03/30/2017
 | (x)               | 括号覆盖默认优先级顺序。                                                      |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>为什么我的表达式约束验证为错误？
-您不能使用预留的关键字作为产品配置模型中的属性、组件或子组件的求解器名称。 这是不能预留使用的关键字的列表：
+您不能使用预留的关键字作为产品配置模型中的属性、组件或子组件的求解器名称。 下面是不能使用的预留关键字的列表：
 
 -   上限
 -   分项指标
@@ -245,8 +245,8 @@ ms.lasthandoff: 03/30/2017
 <a name="see-also"></a>请参阅
 --------
 
-[创建表达式约束 (任务指南)](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
+[创建一个表达式约束（任务指南）](http://ax.help.dynamics.com/en/wiki/create-an-expression-constraint/)
 
-[请一个计算添加到配置产品模型 (任务指南)](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
+[将计算添加到产品配置模型（任务指南）](http://ax.help.dynamics.com/en/wiki/add-a-calculation-to-a-product-configuration-model/)
 
 

@@ -28,6 +28,9 @@ ms.lasthandoff: 03/31/2017
 
 # <a name="operations-scheduling-options"></a>工序级排产选项
 
+[!include[banner](../includes/banner.md)]
+
+
 本主题介绍工序级排产的选项。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
 
 工序级排产是计算某个生产订单的以下信息：
@@ -128,6 +131,8 @@ ms.lasthandoff: 03/31/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Operations scheduling](operations-scheduling.md)
+[工序级排产](operations-scheduling.md)
+
+
 
 
