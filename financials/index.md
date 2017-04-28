@@ -1,6 +1,6 @@
 ---
 title: "财务管理主页"
-description: "本主题列出了 Microsoft Dynamics 365 for Operations 的帮助主题以及可用于财务管理功能的其他资源。"
+description: "本主题提供了针对 Microsoft Dynamics 365 for Operations 中的财务管理功能的一系列帮助主题和其他资源。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -28,18 +28,18 @@ ms.lasthandoff: 04/12/2017
 
 [!include[banner](includes/banner.md)]
 
-本主题列出了 Microsoft Dynamics 365 for Operations 的帮助主题以及可用于财务管理功能的其他资源。 
+本主题提供了针对 Microsoft Dynamics 365 for Operations 中的财务管理功能的一系列帮助主题和其他资源。 
 
-选择一个功能区域以了解更多。
-- [Accounts payable](accounts-payable\accounts-payable.md) 
-- [Accounts receivable](accounts-receivable\accounts-receivable.md) 
-- [Cash and bank management](cash-bank-management\cash-bank-management.md)
-- [Cost accounting](cost-accounting\cost-accounting-home-page.md)
-- [Fixed assets](fixed-assets\fixed-assets.md)
-- [General ledger](general-ledger\general-ledger.md) 
-- [Project management](project-management\overview-project-management-accounting.md)
-- [Public sector](public-sector\public-sector-functionality.md) 
-- [Budgeting](budgeting\budgeting-overview.md) 
+选择一个功能区域以了解有关它的更多信息。
+- [应付帐款](accounts-payable\accounts-payable.md) 
+- [应收帐款](accounts-receivable\accounts-receivable.md) 
+- [现金和银行管理](cash-bank-management\cash-bank-management.md)
+- [成本核算](cost-accounting\cost-accounting-home-page.md)
+- [固定资产](fixed-assets\fixed-assets.md)
+- [总帐](general-ledger\general-ledger.md) 
+- [项目管理](project-management\overview-project-management-accounting.md)
+- [公共部门](public-sector\public-sector-functionality.md) 
+- [预算编制](budgeting\budgeting-overview.md) 
 
 
 
