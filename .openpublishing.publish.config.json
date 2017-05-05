@@ -6,7 +6,7 @@
       "docset_name": "d365OpsCore",
       "build_source_folder": "core",
       "build_output_subfolder": "d365OpsCore",
-      "locale": "tr-tr",
+      "locale": "zh-cn",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -22,7 +22,7 @@
       "docset_name": "d365OpsDevITPro",
       "build_source_folder": "dev-itpro",
       "build_output_subfolder": "d365OpsDevITPro",
-      "locale": "tr-tr",
+      "locale": "zh-cn",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -38,7 +38,7 @@
       "docset_name": "d365OpsFinancials",
       "build_source_folder": "financials",
       "build_output_subfolder": "d365OpsFinancials",
-      "locale": "tr-tr",
+      "locale": "zh-cn",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -54,7 +54,7 @@
       "docset_name": "d365OpsHR",
       "build_source_folder": "hr",
       "build_output_subfolder": "d365OpsHR",
-      "locale": "tr-tr",
+      "locale": "zh-cn",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -70,7 +70,7 @@
       "docset_name": "d365OpsRetail",
       "build_source_folder": "retail",
       "build_output_subfolder": "d365OpsRetail",
-      "locale": "tr-tr",
+      "locale": "zh-cn",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -86,7 +86,7 @@
       "docset_name": "d365OpsSCM",
       "build_source_folder": "scm",
       "build_output_subfolder": "d365OpsSCM",
-      "locale": "tr-tr",
+      "locale": "zh-cn",
       "monikers": [],
       "open_to_public_contributors": false,
       "type_mapping": {
@@ -106,7 +106,7 @@
   "dependent_repositories": [
     {
       "path_to_root": "_themes",
-      "url": "https://github.com/Microsoft/templates.docs.msft.tr-tr",
+      "url": "https://github.com/Microsoft/templates.docs.msft.zh-cn",
       "branch": "master",
       "branch_mapping": {}
     },
