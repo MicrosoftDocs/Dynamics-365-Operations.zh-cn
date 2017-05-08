@@ -170,6 +170,7 @@
 ## [成本元素维度](cost-accounting/cost-elements.md)
 ## [成本对象维度](cost-accounting/cost-objects.md)
 ## [将成本元素维度成员映射到一组常用维度成员](cost-accounting/map-cost-elements-dimension-members.md)
+## [开销计算](cost-accounting/overhead-calculation.md)
 ## [成本控制移动工作区](cost-accounting/cost-controlling-mobile-workspace.md)
 ## [成本核算分析 Power BI 内容](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/operations/financials/toc.json)
 ## [设置成本核算分析 Power BI 内容的安全性](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/operations/financials/toc.json)
@@ -206,4 +207,18 @@
 ## [项目报价单](project-management/project-quotations.md)
 ## [项目资源](project-management/project-resourcing.md)
 ## [工作分解结构](project-management/work-breakdown-structures.md)
+## [项目时间条目移动工作区](project-management/project-time-entry-mobile-workspace.md)
 # [本地化](localizations/TOC.md)
+
+# [人力资源](/dynamics365/operations/human-resources/index)
+
+# [零售](/dynamics365/operations/retail/index)
+
+# [供应链管理](/dynamics365/operations/supply-chain/index)
+
+# [开发人员和管理员](/dynamics365/operations/dev-itpro/index)
+
+# 其他资源
+## [Dynamics 365 for Operations 词汇表](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/financials/toc.json)
+## [新增功能或更改的功能](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/financials/toc.json)
+

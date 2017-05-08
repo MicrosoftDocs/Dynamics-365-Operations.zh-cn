@@ -17,29 +17,40 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: b77b61089c359127a7404437c29ef63a01416779
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 4a3ecb4cb643d63333666f8d5d49760caacc4e58
+ms.openlocfilehash: e14d0836ee16db4fba9ef49df9a49564aa4c0402
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>本地化和监管功能
 
-Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法规和流程的功能。 此功能基于有效法人的主要地址启用。 本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。 
+[!include[banner](../includes/banner.md)]
 
-## <a name="developer-and-isv-information"></a>开发人员和 ISV 信息
-以下资源提供的信息可帮助开发人员和 ISV 创建特定于国家/地区的自定义项。
+
+Microsoft Dynamics 365 for Operations 包含适用于[产品可用性指南](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
+
+本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。 
+
+## <a name="developing-localized-solutions"></a>开发本地化的解决方案
+以下资源提供了可帮助正在创建特定于国家/地区的自定义或已创建适用于 Microsoft 不支持的国家/地区的解决方案的开发人员和 ISV 的指南和信息。
 -   [分离本地化模型](separate-localization-models.md)
 -   [应用国家/地区上下文](apply-country-context.md)
 -   [监管认证](regulatory-certifications.md)
 -   [为本地化功能分类](classify-localization-features.md)
 -   [国家/地区代码 - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates"></a>本地化更新
+## <a name="localization-updates-and-communication"></a>本地化更新和通信
 以下资源提供了有关计划的本地化功能和新本地化功能的信息。 
--   [本地化门户](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)
+
+### <a name="localization-updates"></a>本地化更新
+-   [本地化门户](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)（每周更新）
+-   [LCS 问题搜索](../lifecycle-services/issue-search-lcs.md)（每天更新）
+
+### <a name="communication-and-alerts"></a>通信和预警
 -   [监管观察和监管更新通信](regulatory-watch-communication.md)
 -   [向 Microsoft 告知国家/地区监管预警并跟踪监管功能的状态](submit-localization-alerts.md)
 
@@ -51,7 +62,15 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 -   [扩展电子申报功能的列表](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [电子申报目标](../analytics/electronic-reporting-destinations.md)
 -   [从 Lifecycle Services 下载电子申报配置](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [利用 Power BI 设置电子申报](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [配置电子申报以将数据拉入到 Power BI 中](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+
+## <a name="task-guides"></a>任务指南
+任务指南可从产品帮助窗格中找到，它们将指导您演练关键业务流程。 您可以打开任务指南以读取业务流程步骤，也可以播放任务指南以演练业务流程和输入数据。
+
+要查找任务指南，请导航到 Microsoft Dynamics 365 for Operations 中的页面并单击“帮助”。 使用该页面的任务指南将在帮助窗格中列出。 您也可以使用帮助窗格按标题搜索任务指南。
+
+若要了解更多信息，请参阅[任务指南](/dynamics365/operations/dev-itpro/get-started/help-overview#task-guides)。
+
 
 ## <a name="countryregion-specific-help-topics"></a>特定于国家/地区的帮助主题
 以下各节按国家/地区列出了资源。
@@ -62,17 +81,17 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 -   [营业活动报表](/dynamics365/operations/financials/localizations/apac-aus-business-activity-statement)
 -   [低价值池折旧](/dynamics365/operations/financials/localizations/apac-aus-low-value-pool-depreciation)
 
-
 ### <a name="austria"></a>奥地利
 
+-   [半年折旧](/dynamics365/operations/financials/localizations/emea-aut-half-year-depreciation)
 -   [包装材料费用](/dynamics365/operations/financials/localizations/emea-aut-packing-material-fee-calculation)
 -   [增值税报表](/dynamics365/operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>比利时
 
 -   [CODA 银行对帐单](/dynamics365/operations/financials/localizations/emea-bel-coda-bank-statement-import)
+-   [Intervat 纳税申报](/dynamics365/operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM 报告设置](/dynamics365/operations/financials/localizations/emea-bel-prodcom-report)
-
 
 ### <a name="brazil"></a>巴西
 
@@ -93,7 +112,6 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 -   [税金支付](/dynamics365/operations/financials/localizations/latam-bra-tax-payments)
 -   [税金](/dynamics365/operations/financials/localizations/latam-bra-calculate-taxes)
 
-
 ### <a name="china"></a>中国
 -   [物料清单比较](/dynamics365/operations/financials/localizations/apac-chn-bom-comparison)
 -   [中国式凭证](/dynamics365/operations/financials/localizations/apac-chn-vouchers)
@@ -105,12 +123,14 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 -   [按站点过帐库存主科目](/dynamics365/operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site)
 -   [显示会计科目的借方和贷方金额](/dynamics365/operations/financials/localizations/apac-chn-negative-debits-credits)
 
-
 ### <a name="the-czech-republic"></a>捷克共和国
+
+-   [贷方通知单上的现金折扣](/dynamics365/operations/financials/localizations/emea-cze-credit-note-cash-discount)
 -   [折旧舍入](/dynamics365/operations/financials/localizations/emea-cze-depreciation-rounding)
--       [捷克共和国的固定资产处置的半年折旧](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
-    -   [折旧挂起（假期）](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
-    -   [捷克共和国的固定资产折旧方法](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+-   [捷克共和国的固定资产处置的半年折旧](/dynamics365/operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
+-   [折旧挂起（假期）](/dynamics365/operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
+-   [捷克共和国的固定资产折旧方法](/dynamics365/operations/financials/localizations/emea-cze-fixed-assets-depreciation)
+
 -   [过帐购置前的固定资产](/dynamics365/operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [捷克共和国的增值税报表](/dynamics365/operations/financials/localizations/emea-cze-vat-statement-details)
 -   [拆分期间日记帐中的期间](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
@@ -127,6 +147,7 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 -   [编辑销售订单上的发票 ID](/dynamics365/operations/financials/localizations/emea-edit-invoice-id-sales-orders)
 -   [欧盟入境证](/dynamics365/operations/financials/localizations/emea-entry-certificates)
 -   [欧盟销售清单报表](/dynamics365/operations/financials/localizations/emea-eu-sales-list)
+-   [汇率调整](/dynamics365/operations/financials/localizations/emea-exchange-rate-adjustments)
 -   [付款方式的文件格式](/dynamics365/operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 -   [爱沙尼亚和立陶宛的固定资产处置](/dynamics365/operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 -   [内部统计](/dynamics365/operations/financials/localizations/emea-intrastat)
@@ -143,11 +164,9 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 -   [设置打印表格的签名人](/dynamics365/operations/financials/localizations/emea-set-up-signers-for-printing-forms)
 -   [拆分期间日记帐中的期间](/dynamics365/operations/financials/localizations/emea-create-post-periodic-journals)
 -   [更新金额在报表和单据上显示的方式](/dynamics365/operations/financials/localizations/emea-amount-printing-forms)
-
+-   [增值税汇率](/dynamics365/operations/financials/localizations/emea-vat-exchange-rate)
 -   [欧洲的增值税申报](/dynamics365/operations/financials/localizations/emea-vat-reporting)
-
 -   [查看有关结算的交易记录](/dynamics365/operations/financials/localizations/emea-transactions-settlement-form)
-
 
 ### <a name="france"></a>法国
 -   [按时间顺序排序的发票和凭证编号](/dynamics365/operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -164,15 +183,16 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
    -   [Titres de recette](/dynamics365/operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [供应商发票付款暂停](/dynamics365/operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
 
-
 ### <a name="germany"></a>德国
 -   [其他购置折旧](/dynamics365/operations/financials/localizations/emea-deu-additional-acquisition-depreciation)
 -   [德国审计文件 (GDPdU/GoBD)](/dynamics365/operations/financials/localizations/emea-deu-gdpdu-audit-data-export)
 -   [德国日记帐清单报告](/dynamics365/operations/financials/localizations/emea-deu-journal-list-report)
--   [为源自销售的贷项通知单打印单独的标签（任务指南）](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
+-   [为源自销售的贷项通知单打印单独的标签](/dynamics365/operations/financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales)
 
 ### <a name="hungary"></a>匈牙利
 
+-   [固定资产折旧方法](/dynamics365/operations/financials/localizations/emea-hun-fixed-assets-depreciation-methods)    
+-   [将固定资产移动到库存](/dynamics365/operations/financials/localizations/emea-hun-fixed-asset-to-inventory)
 -   [低成本固定资产](/dynamics365/operations/financials/localizations/emea-hun-low-cost-fixed-assets)
 
 ### <a name="italy"></a>意大利
@@ -184,6 +204,7 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 -   [意大利的发票上的装箱单日期验证](/dynamics365/operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [意大利销售税帐簿](/dynamics365/operations/financials/localizations/emea-ita-fiscal-books)
 -   [拆分签发给公共行政部门的发票的付款](/dynamics365/operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
+-   [预缴税金](/dynamics365/operations/financials/localizations/emea-ita-withholding tax)
 
 ### <a name="japan"></a>日本
 
@@ -240,6 +261,9 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 -   [重复销售发票编号](/dynamics365/operations/financials/localizations/emea-pol-sales-invoice-duplicates-numbering)
 -   [固定资产折旧](/dynamics365/operations/financials/localizations/emea-pol-fixed-assets-depreciation)
 -   [固定资产处置](/dynamics365/operations/financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension)
+-   [可回收包装](/dynamics365/operations/financials/localizations/emea-pol-returnable-packages)
+-   [销售税报表](/dynamics365/operations/financials/localizations/emea-pol-sales-tax-reports)
+-   [标准审计文件 (SAF)](/dynamics365/operations/financials/localizations/emea-pol-standard-audit-file-saf)
 -   [交易额和余额对帐单](/dynamics365/operations/financials/localizations/emea-pol-turnover-balances-statement)
 
 ### <a name="saudi-arabia"></a>沙特阿拉伯
@@ -252,15 +276,16 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 
 ### <a name="spain"></a>西班牙
 
-
--   [西班牙汇票选项](/dynamics365/operations/financials/localizations/emea-esp-spanish-bill-of-exchange-options)
+-   [西班牙汇票选项](/dynamics365/operations/financials/localizations/emea-esp-bill-of-exchange-options)
 -   [在发票参数中应用现金折扣](/dynamics365/operations/financials/localizations/emea-esp-cash-discount-applied-invoice)
--   [使用来自发票帐户的财务数据](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
+-   [特殊销售税](/dynamics365/operations/financials/localizations/emea-esp-conditional-sales-tax)
 -   [固定资产重估组](/dynamics365/operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
+-   [集团内部增值税](/dynamics365/operations/financials/localizations/emea-esp-intra-community-vat)
 -   [零星客户](/dynamics365/operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
 -   [西班牙本票选项](/dynamics365/operations/financials/localizations/emea-esp-promissory-note-options)
 -   [销售和采购周期](/dynamics365/operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [特殊条目和期初单](/dynamics365/operations/financials/localizations/emea-esp-opening-sheets-spain)
+-   [使用来自发票帐户的财务数据](/dynamics365/operations/financials/localizations/emea-esp-fiscal-data-invoice-account)
 
 ### <a name="sweden"></a>瑞典
 
@@ -286,4 +311,7 @@ Microsoft Dynamics 365 for Operations 包含针对某些国家/地区特定法�
 -   [年末 1099 申报](/dynamics365/operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [工资单](/dynamics365/operations/human-resources/localizations/noam-usa-payroll)
 -   [公共部门](/dynamics365/operations/financials/public-sector/public-sector-functionality)
+
+
+
 

@@ -17,10 +17,11 @@ ms.search.industry:
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: aacfc3da818690df6a12e0924efd24371b93f5ce
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 79d60400f3c3eb6a175848e14254126d1e792c57
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

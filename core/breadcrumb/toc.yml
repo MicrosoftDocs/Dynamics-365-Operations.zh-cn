@@ -1,0 +1,23 @@
+- name: "Dynamics 365"
+  tocHref: /dynamics365/
+  topicHref: /dynamics365
+  items:
+  - name: "运营"
+    tocHref: /dynamics365/operations/
+    topicHref: /dynamics365/operations/index
+    items:
+    - name: "开发人员和管理员"
+      tocHref: /dynamics365/operations/dev-itpro/
+      topicHref: /dynamics365/operations/dev-itpro/index
+    - name: "财务"
+      tocHref: /dynamics365/operations/financials/
+      topicHref: /dynamics365/operations/financials/index
+    - name: "人力资源"
+      tocHref: /dynamics365/operations/human-resources/
+      topicHref: /dynamics365/operations/human-resources/index
+    - name: "零售"
+      tocHref: /dynamics365/operations/retail/
+      topicHref: /dynamics365/operations/retail/index
+    - name: "供应链"
+      tocHref: /dynamics365/operations/supply-chain/
+      topicHref: /dynamics365/operations/supply-chain/index

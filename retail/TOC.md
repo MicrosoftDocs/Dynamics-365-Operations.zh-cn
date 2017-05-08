@@ -68,3 +68,16 @@
 ## [商业要素概览](commerce-essentials.md)
 ## [组织和组织层次结构（商业要素）](organizational-hierarchies-commerce-essentials.md)
 # [IT 专业人员和开发人员内容](dev-itpro/TOC.md)
+
+# [财务](/dynamics365/operations/financials/index)
+
+# [人力资源](/dynamics365/operations/human-resources/index)
+
+# [供应链管理](/dynamics365/operations/supply-chain/index)
+
+# [开发人员和管理员](/dynamics365/operations/dev-itpro/index)
+
+# 其他资源
+## [Dynamics 365 for Operations 词汇表](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
+## [新增功能或更改的功能](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+

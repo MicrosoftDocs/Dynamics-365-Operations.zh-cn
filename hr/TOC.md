@@ -60,3 +60,15 @@
 #### [工资单数据更新常见问题](localizations/noam-usa-payroll-data-updates.md)
 #### [生成工资单报表](localizations/noam-usa-generate-payroll-reports.md)
 
+# [财务](/dynamics365/operations/financials/index)
+
+# [零售](/dynamics365/operations/retail/index)
+
+# [供应链管理](/dynamics365/operations/supply-chain/index)
+
+# [开发人员和管理员](/dynamics365/operations/dev-itpro/index)
+
+# 其他资源
+## [Dynamics 365 for Operations 词汇表](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/human-resources/toc.json)
+## [新增功能或更改的功能](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/human-resources/toc.json)
+

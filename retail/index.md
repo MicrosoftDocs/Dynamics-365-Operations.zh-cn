@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: 0d00f33ce8059acd877d1c177e3def0b5f0b73b1
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a8385e7103b74be33fd79c1143e481ad8edca31c
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,11 +35,9 @@ Dynamics 365 for Operations - Retail 提供了完整的购物体验，其中包�
 本页面指向可帮助您更有效地使用 Microsoft Dynamics 365 for Operations - Retail 的资源。 在最左侧的窗格中，选择一个功能区域以了解有关它的更多信息。 
 
 ## <a name="set-up-retail-channels"></a>设置零售渠道
-当您设置您的零售体验时，您将决定如何定义和配置您的实体店（在 Dynamics 365 for Operations 中称为*零售商店*）和在线商店运营。 
+当您设置您的零售体验时，您将决定如何定义和配置您的商店 -- 实体店、在线商店和呼叫中心。 
 
-每个零售店都可以有自己的付款方式、价格组、POS 解决方案、损益表、支出帐户和员工。 在创建零售商店后，您可以分配您希望商店经营的产品。 您还可以将员工、收银机和客户分配到商店。 最后，您可以将新商店添加到一个组织层次结构。
-
-在创建在线商店时，您必须设置分类、属性、付款方式和运输方式等组件。 您还可以定义特定于在线商店的价格、促销、折扣和送货条款。
+每个零售店都可以有自己的付款方式、交货方法、价格组、收入/支出帐户、收银机和员工。 在创建零售商店后，您可以创建您希望商店经营的产品的分类。 您还可以定义特定于商店的价格和折扣，这些价格和折扣适用于该商店提供的产品。
 
 -   [定义零售渠道](define-maintain-retail-channels.md)
 -   [在线商店概览](online-stores.md)
@@ -49,10 +48,10 @@ Dynamics 365 for Operations - Retail 提供了完整的购物体验，其中包�
 -   [呼叫中心功能](call-center-functionality.md)
 -   [创建呼叫中心目录](create-call-center-catalogs.md)
 
-## <a name="define-your-pos-and-mpos-solutions"></a>定义您的 POS 和 MPOS 解决方案
-Retail Modern POS (MPOS) 是 PC、平板电脑和手机的销售终端应用。 销售人员可在商店内的任何位置利用移动设备处理销售交易记录、客户订单并执行日常的运营和库存管理，也可以在基于 PC 的收银机上执行这些操作。 云 POS 是基于浏览器的 POS。 
+## <a name="define-your-pos-solutions"></a>定义您的 POS 解决方案
+Retail Modern POS (MPOS) 是 PC、平板电脑和手机的销售终端应用。 销售人员可在商店内的任何位置利用移动设备处理销售交易记录和客户订单，执行客户服务解决方案活动，并执行日常的运营和库存管理，也可以在基于 PC 的收银机上执行这些操作。 云 POS 是一种基于浏览器的 POS，它可以在任何标准浏览器上启动。 
 
-您需要设置几个组件之后，才能定义商店、商店内的 POS 收银机或渠道，以及这些收银机或渠道用来处理交易的零售外围设备之间的关系。 您还需要定义 POS 的特定实例的特征，包括硬件配置文件或将在收银机上使用的零售外围设备的设置、收银机映射到的商店以及用户登录到收银机的视觉体验。
+您需要设置几个组件之后，才能定义商店、商店内的 POS 收银机以及这些收银机用来处理交易的零售外围设备之间的关系。 您还需要定义 POS 的特定实例的特征，包括硬件配置文件或将在收银机上使用的零售外围设备的设置、收银机映射到的商店、用户登录到收银机的视觉体验以及收银机中启用的功能。 您还可以定义收银机是否可以在断开连接或离线状态下运行。
 
 -   [定义和维护渠道客户端、收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)
 -   [配置和安装 MPOS](retail-modern-pos-device-activation.md)
@@ -92,4 +91,6 @@ Retail Modern POS (MPOS) 是 PC、平板电脑和手机的销售终端应用。 
 <a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX 产品团队博客</a>上有很多有关零售的主题。 其中一些文章是针对 Dynamics 365 for Operations 的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
 
 <a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operations 合作伙伴社区博客</a>可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
+
+
 

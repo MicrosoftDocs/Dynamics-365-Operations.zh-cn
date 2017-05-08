@@ -42,6 +42,7 @@
 ## [编辑销售订单上的发票 ID](emea-edit-invoice-id-sales-orders.md)
 ## [欧盟入境证](emea-entry-certificates.md)
 ## [欧盟销售清单报表](emea-eu-sales-list.md)
+## [汇率调整](emea-exchange-rate-adjustments.md)
 ## [付款方式的文件格式](emea-select-file-formats-for-the-method-of-payments.md)
 ## [爱沙尼亚和立陶宛的固定资产处置](emea-credit-note-reverse-fixed-asset-sale.md)
 ## [内部统计](emea-intrastat.md)
@@ -56,18 +57,19 @@
 ## [SEPA 贷方转帐概览](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA 直接借记概览](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [设置打印表格的签名人](emea-set-up-signers-for-printing-forms.md)
-## [拆分期间日记帐中的期间](emea-create-post-periodic-journals.md)
-## [更新金额在报表和单据上显示的方式](emea-amount-printing-forms.md)
-## [增值税报告](emea-vat-reporting.md)
+## [增值税汇率](emea-vat-exchange-rate.md)
 ## [查看有关结算的交易记录](emea-transactions-settlement-form.md)
 ## 奥地利
+### [半年折旧](emea-aut-half-year-depreciation.md)
 ### [包装材料费用](emea-aut-packing-material-fee-calculation.md)
 ### [增值税报表](emea-aut-vat-statement-details.md)
 ## 比利时
 ### [CODA 银行对帐单](emea-bel-coda-bank-statement-import.md)
+### [Intervat 纳税申报](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM 报告设置](emea-bel-prodcom-report.md)
 
 ## 捷克共和国
+### [贷方通知单上的现金折扣](emea-cze-credit-note-cash-discount.md)
 ### [折旧舍入](emea-cze-depreciation-rounding.md)
 ### [折旧挂起](emea-cze-depreciation-suspension-holidays.md)
 ### [固定资产折旧](emea-cze-fixed-assets-depreciation.md)
@@ -94,7 +96,9 @@
 ### [日志清单报告](emea-deu-journal-list-report.md)
 ### [为源自销售的贷项通知单打印单独的标签](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## 匈牙利
+### [固定资产折旧方法](emea-hun-fixed-assets-depreciation-methods.md)    
 ### [低成本固定资产](emea-hun-low-cost-fixed-assets.md)
+### [将固定资产移动到库存](emea-hun-fixed-asset-to-inventory.md)
 ## 意大利
 ### [增值税报表明细](emea-ita-vat-statements-details.md)
 ### [黑名单报告](emea-ita-black-list-report.md)
@@ -103,6 +107,7 @@
 ### [发票上的装箱单日期验证](emea-ita-packing-slip-date-verification-on-invoice.md)
 ### [销售税帐簿](emea-ita-fiscal-books.md)
 ### [拆分签发给公共行政部门的发票的付款](emea-ita-split-payment-invoices-issued-public-administration.md)
+### [预缴税金](emea-ita-withholding tax.md)
 ## 拉脱维亚
 ### [固定资产科目](emea-lva-fixed-assets-accounting.md)
 ### [固定资产位置更改跟踪](emea-lva-fixed-assets-location-fields-change.md)
@@ -119,12 +124,17 @@
 ### [重复销售发票编号](emea-pol-sales-invoice-duplicates-numbering.md)
 ### [固定资产折旧](emea-pol-fixed-assets-depreciation.md)
 ### [固定资产处置功能扩展](emea-pol-fixed-asset-disposal-functionality-extension.md)
+### [可回收包装](emea-pol-returnable-packages.md)
+### [销售税报表](emea-pol-sales-tax-reports.md)
+### [标准审计文件 (SAF)](emea-pol-standard-audit-file-saf.md)
 ### [交易额余额对帐单](emea-pol-turnover-balances-statement.md)
 ## 西班牙
-### [汇票选项](emea-esp-bill-of-exchange-options.md)
 ### [发票中含现金折扣](emea-esp-cash-discount-applied-invoice.md)
+### [汇票选项](emea-esp-bill-of-exchange-options.md)
+### [特殊销售税](emea-esp-conditional-sales-tax.md)
 ### [发票帐户的财务数据](emea-esp-fiscal-data-invoice-account.md)
 ### [固定资产重估组](emea-esp-fixed-asset-group-revaluation.md)
+### [集团内部增值税](emea-esp-intra-community-vat.md)
 ### [零星客户](emea-esp-no-one-time-customer-for-project-contracts.md)
 ### [本票选项](emea-esp-promissory-note-options.md)
 ### [销售和采购周期](emea-esp-sales-purchase-cycle.md)
@@ -163,3 +173,4 @@
 
 # 北美
 ## [美国的年终 1099 申报](noam-usa-year-end-1099-reporting.md)
+

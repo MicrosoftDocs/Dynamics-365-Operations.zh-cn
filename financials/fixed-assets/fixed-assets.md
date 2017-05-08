@@ -1,6 +1,6 @@
 ---
 title: "固定资产主页"
-description: "固定资产是个体或组织所拥有的有价值的物料，即建筑物、车辆、土地和设备。"
+description: "固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 00f022da597b1de2454e93123de31731c6a65962
-ms.openlocfilehash: cdcf247f33a35ebae4af4ff22c10083642e9f97a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: dd17842365e357ecb5cb6034ed8878fcd60be5fc
+ms.openlocfilehash: 9d2c591b4a3f30ac9a3a842161ee7aa0e6c1db35
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -30,9 +31,9 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-固定资产是个体或组织所拥有的有价值的物料，即建筑物、车辆、土地和设备。 
+固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。 
 
-您可以设置和输入固定资产的购置信息，然后通过对资产进行折旧并设置资本化阈值来确定折旧，对您的资产进行管理。 可以计算固定资产调整值以及处置资产。 在您将总帐用于固定资产时，可以查看所有固定资产的当前价值。 处理固定资产的方式必须与国际会计标准和各国家/地区的会计法相符。 有关要求可能包括用于记录固定资产的购置和处置交易记录、折旧、生命期、调高和调低的规则。 固定资产功能整合了许多这些标准和规则。
+您可以设置和输入固定资产的购置信息，然后通过对固定资产进行折旧并设置资本化阈值来确定折旧，对固定资产进行管理。 可以计算固定资产调整值以及处置固定资产。 在您将总帐与固定资产一起使用时，可以查看所有固定资产的当前价值。 处理固定资产的方式必须与国际会计标准和各国家/地区的会计法相符。 有关要求可能包括用于记录固定资产的购置和处置交易记录、折旧、生命期、调高和调低的规则。 固定资产功能整合了许多这些标准和规则。
 
 
 

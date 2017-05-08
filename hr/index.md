@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 03f54d7cf25b928d51d7d382ec490295dcbbbefe
-ms.openlocfilehash: d434b2169fa39fde65d261acb0b30cda7a37b143
-ms.lasthandoff: 04/12/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 58ff41cbaaeea0ed74a3326df1b6d3541cc2ae89
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

@@ -22,10 +22,14 @@
 ## [加权平均日期](weighted-average-date.md)
 ## [具有实际成本和标记的加权平均](weighted-average-physical-value-marking.md)
 # 制造成本计算
+## [为制造物料摊销固定成本](amortize-constant-costs-manufactured-item.md)
+## [倒冲成本计算法](backflush-costing.md)
+## [物料清单计算](bom-calculations.md)
 ## [物料清单计算组](bom-calculation-groups.md)
 ## [生产差异的常见来源](common-sources-of-production-variances.md)
 ## [在生产工艺路线中使用的成本类别](cost-categories-used-production-routings.md)
 ## [用于项目控制和项目管理核算的成本类别](cost-categories-used-production-control-project-management-accounting.md)
+## [显示制造物料的费用](charges-manufactured-item.md)
 ## [生产订单成本分析](production-order-cost-analysis.md)
 ## [生产订单成本估计](production-order-cost-estimation.md)
 ## [生产过帐](production-posting.md)
@@ -39,5 +43,6 @@
 ## [更新制造环境中的标准成本](update-standard-costs-manufacturing-environment.md)
 ## [为新的制造物料更新标准成本](update-standard-costs-new-manufactured-item.md)
 ## [更新非制造环境中的标准成本](update-standard-costs-non-manufacturing-environment.md)
+
 
 
