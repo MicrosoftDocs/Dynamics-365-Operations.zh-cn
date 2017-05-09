@@ -1,0 +1,45 @@
+{
+  "build": {
+    "content": [
+      {
+        "files": [
+          "**/**.md",
+          "**/**.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE"
+        ]
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "**/**.png",
+          "**/**.jpg",
+          "**/**.jpeg",
+          "**/**.gif",
+          "**/**.svg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**"
+        ]
+      }
+    ],
+    "overwrite": [],
+    "externalReference": [],
+    "globalMetadata": {
+      "layout": "Conceptual",
+      "searchScope": ["Operations"],
+      "breadcrumb_path": "/dynamics365/operations/breadcrumb/toc.json",
+      "brand": "dyn-ops"
+    },
+    "fileMetadata": {},
+    "template": [],
+    "dest": "d365OpsCore"
+  }
+}
