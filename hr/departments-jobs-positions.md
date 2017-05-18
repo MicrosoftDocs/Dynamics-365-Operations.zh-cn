@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: f1bbc66ecefb12d14d7d707ada2b99ca42b3fdd8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2354f5e529ade6af1efc092980f53a8778fa2edf
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

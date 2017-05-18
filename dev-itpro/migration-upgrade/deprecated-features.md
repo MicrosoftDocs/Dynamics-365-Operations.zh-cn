@@ -3,7 +3,7 @@ title: "弃用功能"
 description: "本主题介绍 Dynamics 365 for Operations 中已经删除或计划删除的功能。 它还列出在 Dynamics AX 7.0 版本中被启用的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/18/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -15,16 +15,20 @@ ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
-ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e9ba7239b9ff8b9b97c9dabc06fb2c68760d19d4
-ms.lasthandoff: 03/31/2017
+ms.dyn365.ops.version: Platform update 6
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8fbfc8c91c836eb9922f2bf1165ec887d8a0bc8e
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="deprecated-features"></a>弃用功能
+
+[!include[banner](../includes/banner.md)]
+
 
 本主题介绍 Dynamics 365 for Operations 中已经删除或计划删除的功能。 它还列出在 Dynamics AX 7.0 版本中被启用的功能。
 
@@ -474,6 +478,16 @@ ICMS 税联邦报税单
 | 被另一个功能取代？ | 新的 Web 客户端基于已经过修改可提供丰富 Web 平台的桌面窗体元数据和编程模型。 |
 | 受影响的模块             | 全部                                                                                                                                    |
 
+### <a name="direct-database-connection"></a>直接数据库连接
+
+在 Dynamics AX 2012 R3 中，Retail Modern POS 可以直接连接到与 Enterprise POS 方式相似的通道 DB。 这是除通过 Retail Server 的 Retail Modern POS 通信的标准通信方法以外的方法。  
+
+|                              |                                                                                         |
+|------------------------------|-----------------------------------------------------------------------------------------|
+| 折旧的原因       | 直接数据库连接要求较低的安全协议，主要用于达到最高性能级别。 由于 Dynamics 365 for Operations 发生的性能和安全性提高，此功能现在导致的问题比解决的问题更多。 |
+| 被另一个功能取代？ | 编号 现在只支持标准零售服务器通信。    |
+| 受影响的模块             | 通道 DB/Retail Modern POS                                    |
+
 ### <a name="dutch-swift-mt940"></a>荷兰 SWIFT MT940
 
 |                              |                                                                                                                                                                                                                                       |
@@ -560,12 +574,12 @@ ICMS 税联邦报税单
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS 报表
 
-包括以下菜单项的报表已被删除：“试算平衡表(汇总)”****、“试算平衡表(明细)”****、“会计科目表”****、“审计线索”****、“余额”****和“余额表”****。
+包括以下菜单项的报表已被删除：**“试算平衡表(汇总)”**、**“试算平衡表(明细)”**、**“会计科目表”**、**“审计线索”**、**“余额”**和**“余额表”**。
 
 |                              |                                                                                                                                              |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
 | 折旧的原因       | 财务 Microsoft SQL Server Reporting Services (SSRS) 报表已经被 Management Reporter 功能和默认报表取代。 |
-| 被另一个功能取代？ | Management Reporter（在 Dynamics AX 的当前版本中标记为“财务报告”****。）                                                  |
+| 被另一个功能取代？ | Management Reporter（在 Dynamics AX 的当前版本中标记为**“财务报告”**。）                                                  |
 | 受影响的模块             | 总帐                                                                                                                               |
 
 ### <a name="infopart-and-formpart-metadata"></a>InfoPart 和 FormPart 元数据
@@ -582,8 +596,8 @@ ICMS 税联邦报税单
 
 |                              |                                                                                                                                                                                    |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 折旧的原因       | 余额信息现在在“试算余额表”****列表页上按帐户和维度提供。                                                                                      |
-| 被另一个功能取代？ | “主科目”****包含“主科目”****列表页所包含的相同科目列表。 “主科目”****中的网格视图还显示一个更小的、如网格般的视图。 |
+| 折旧的原因       | 余额信息现在在**“试算余额表”**列表页上按帐户和维度提供。                                                                                      |
+| 被另一个功能取代？ | **“主科目”**包含**“主科目”**列表页所包含的相同科目列表。 **“主科目”**中的网格视图还显示一个更小的、如网格般的视图。 |
 | 受影响的模块             | 总帐                                                                                                                                                                     |
 
 ### <a name="malaysia-and-singapore-bank-cash-flow-report"></a>马来西亚和新加坡银行现金流量报表
@@ -661,8 +675,18 @@ Microsoft Dynamics AX 2012 通过使用“未实现的增值税”的墨西哥�
 |                              |                                                                               |
 |------------------------------|-------------------------------------------------------------------------------|
 | 折旧的原因       | Dynamics AX 的当前版本在运行时不支持标签。 |
-| 被另一个功能取代？ | 否                                                                            |
+| 被另一个功能取代？ | 无                                                                            |
 | 受影响的模块             | 产品信息管理                                                |
+
+### <a name="retail-server-connectivity-using-http"></a>使用 HTTP 的零售服务器连接
+
+在 Dynamics AX 2012 R3 中，零售服务器可以使用 HTTP 通信（不受安全保护）运行。 这是除使用 HTTPS 的标准通信之外的方法。
+
+|                              |                                                                               |
+|------------------------------|-------------------------------------------------------------------------------|
+| 折旧的原因       | 因为新的安全要求，现在只支持使用 TLS 1.2（或更高版本，如果可用）的安全通信。 自助服务安装程序将自动配置此通信的计算机。 |
+| 被另一个功能取代？ | 编号 现在只支持标准 HTTPS 通信。                                                                           |
+| 受影响的模块             | 零售服务器                                                |
 
 ### <a name="role-center-pages"></a>角色中心页
 
@@ -782,8 +806,10 @@ Dynamics AX 中不再支持虚拟公司功能。 虚拟公司功能允许用户�
 |                              |                                                                                             |
 |------------------------------|---------------------------------------------------------------------------------------------|
 | 折旧的原因       | 此功能已被另一个功能取代。                                    |
-| 被另一个功能取代？ | Management Reporter（在 Dynamics AX 的当前版本中标记为“财务报告”****。） |
+| 被另一个功能取代？ | Management Reporter（在 Dynamics AX 的当前版本中标记为**“财务报告”**。） |
 | 受影响的模块             | 总帐                                                                              |
+
+
 
 
 

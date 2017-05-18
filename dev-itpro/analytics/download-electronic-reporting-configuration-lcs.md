@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 9dca5dec846670da25926826f59d7bce0fa0dcea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e2f3a352ca70472de838271fdedfede575cb839d
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>从 Lifecycle Services 下载电子申报配置
+
+[!include[banner](../includes/banner.md)]
+
 
 本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载电子申报 (ER) 配置。
 
@@ -43,9 +47,10 @@ ms.lasthandoff: 03/31/2017
     1.  单击**添加**添加新存储库。
     2.  选择 **LCS** 作为存储库类型。
     3.  单击**创建存储库**。
-    4.  输入存储库的名称和描述。
-    5.  单击**确定**确认新存储库条目。
-    6.  在网格中，选择 **LCS** 类型的新存储库。
+    4. 如果系统提示，请按照授权说明操作。
+    5.  输入存储库的名称和描述。
+    6.  单击**确定**确认新存储库条目。
+    7.  在网格中，选择 **LCS** 类型的新存储库。
 
 6.  单击**打开**查看选择的存储库的 ER 配置列表。 [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  在左侧窗格的配置树中，选择您所需的 ER 配置。
@@ -58,5 +63,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [电子申报概览](general-electronic-reporting.md)
+
+
 
 

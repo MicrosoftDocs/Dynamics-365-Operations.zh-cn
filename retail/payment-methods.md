@@ -18,10 +18,11 @@ ms.search.industry: Retail
 ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b887fc5d03ea8982515e92725ce98cc416e56f9e
-ms.openlocfilehash: 011beec07bf1ab858892ab1c374f1acf3839e877
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: c372d9bd3bb8b2cc3a4d334f2603cbd57e941689
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: c86d01fec3d8d7c210c7e73a034f4e9e384a0dcf
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a1a00d646624b6e0d6c79b1c1efcee98203e191b
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

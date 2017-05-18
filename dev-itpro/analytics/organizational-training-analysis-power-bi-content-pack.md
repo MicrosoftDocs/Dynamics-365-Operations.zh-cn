@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 104164f8ffd0d2bc3a64bf15d2fb5213234046ce
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 197bcecf21074413848bb1b22d46f17bf236fbc4
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

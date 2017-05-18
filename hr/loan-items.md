@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 720a1f272948eb310dc3cd02588aeec40b556d20
-ms.openlocfilehash: 905d6656a2664d5a043680164f70b5f3d680b978
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5c17c2fa572ee1b7b53a6f22da3171e3472eaeef
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

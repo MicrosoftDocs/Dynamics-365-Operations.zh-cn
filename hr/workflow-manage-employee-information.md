@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: f286436aa4833babaeb3de875ee393d18e5f8eea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a03b9aa61d754b47905d86114e0da29f1da64b81
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -65,7 +66,7 @@ ms.lasthandoff: 03/31/2017
     3.  添加停止条件，然后关闭该页。
 
 8.  完成其他所有说明（不应存在更多警告）。
-9.  单击“保存并关闭”****。 对话框打开时激活新工作流，然后选择**激活**。
+9.  单击**“保存并关闭”**。 对话框打开时激活新工作流，然后选择**激活**。
 10. 转至**人力资源** &gt; **职位** &gt; **职位层次结构类型**。
 11. 选择**矩阵**。
 12. 将**工作人员标识号**工作流添加到列表。

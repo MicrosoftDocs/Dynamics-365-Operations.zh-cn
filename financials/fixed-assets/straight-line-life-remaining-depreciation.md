@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b41901d573e977a89fcd1a7c1ebf7185e162c654
-ms.openlocfilehash: 9b690b80f148e7ccecba19850bd78c81216d8658
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3b424d34a1469ac37e96927dea5627f5f2fed8ee
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

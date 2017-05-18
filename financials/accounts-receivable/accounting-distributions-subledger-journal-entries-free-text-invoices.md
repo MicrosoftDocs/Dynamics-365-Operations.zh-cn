@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: e7a40509a50d7c059574c85952501f8a7a926e0f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8bb97875f4d775169179522ceaa9a4a7ac4982b9
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,7 +42,7 @@ ms.lasthandoff: 03/31/2017
 -   **分摊金额** — 查看和更改单独行和任何子行的会计分配，例如税金或费用。 您还可以直接从“销售税交易记录”页或“费用交易记录”页查看和更改子行的会计分配。
     -   更改普通发票抬头金额，如费用或币种整金额。
     -   更改普通发票行金额。
--   “查看分配”****— 查看文档中所有行的会计分配。 您无法从此视图更改会计分配。
+-   **“查看分配”** - 查看文档中所有行的会计分配。 您无法从此视图更改会计分配。
     -   查看标题和单行金额。
 
 ## <a name="distributing-amounts"></a>分配金额

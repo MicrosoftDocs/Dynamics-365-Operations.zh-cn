@@ -16,10 +16,11 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f7fd20ef0c78bc781f0ef9f17fc612723906ac78
-ms.openlocfilehash: f14d5ca33ca5baa1a3bd08f2c2565ca1f4388f61
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 19373112353a541ae40ba8f8767ea74f0adaa409
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -55,7 +56,7 @@ ms.lasthandoff: 03/31/2017
 若要自定义增值税客户发票，使其包括其他详细信息，请执行以下步骤：
 
 -   在**电子申报**页中，选择**申报配置**以打开**配置**，然后选择树结构中的**金税(CN)**。
--   单击“设计器”****。 在树结构中的**导出的发票** &gt; **发票**下添加其他字段，然后保存 GER 模型。
+-   单击**“设计器”**。 在树结构中的**导出的发票** &gt; **发票**下添加其他字段，然后保存 GER 模型。
 -   单击**将模型映射到数据源**，然后选择**金税** &gt; **设计器**。
 
 若要将添加的字段映射到表，请执行以下步骤：

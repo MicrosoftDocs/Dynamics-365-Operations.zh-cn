@@ -1,9 +1,9 @@
 ---
 title: "还原数据库后重置财务申报数据市场"
 description: "此主题介绍如何在还原 Microsoft Dynamics 365 for Operations 数据库之后重置财务申报数据市场。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-12-08 16 - 20 - 13
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3967cbb869fbb23d5d7716f619e4c22b4a273921
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d4ce390c62cbfb1f693410b004aa296c0ed75eb2
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="reset-the-financial-reporting-data-mart-after-restoring-a-database"></a>还原数据库后重置财务申报数据市场
+
+[!include[banner](../includes/banner.md)]
+
 
 此主题介绍如何在还原 Microsoft Dynamics 365 for Operations 数据库之后重置财务申报数据市场。 
 
@@ -43,7 +47,11 @@ ms.lasthandoff: 03/29/2017
 5.  输入文件名，然后选择要用于保存所导出报表定义的安全位置。
 6.  单击**保存**。
 
-可将文件复制或上传到安全位置，使其可在其他时间导入到其他环境中。 可在[使用 AzCopy 命令行实用程序传输数据](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy)中找到有关使用 Microsoft Azure 存储帐户的信息。 **注释：**根据您的 Dynamics 365 for Operations 协议，Microsoft 不提供存储帐户。 您必须购买存储帐户，或使用单独 Azure 订阅的存储帐户。 **重要信息：**请注意 Azure 虚拟机 D 盘的行为。 请勿将导出的构建块永久保留在此处。 有关临时驱动器的详细信息，请参阅[了解 Windows Azure 虚拟机上的临时驱动器](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/)。
+可将文件复制或上传到安全位置，使其可在其他时间导入到其他环境中。 可在[使用 AzCopy 命令行实用程序传输数据](https://docs.microsoft.com/en-gb/azure/storage/storage-use-azcopy)中找到有关使用 Microsoft Azure 存储帐户的信息。 
+> [!NOTE]
+> 根据您的 Dynamics 365 for Operations 协议，Microsoft 不提供存储帐户。 您必须购买存储帐户，或使用单独 Azure 订阅的存储帐户。 
+> [!WARNING]
+> 请注意 Azure 虚拟机 D 盘的行为。 请勿将导出的构建块永久保留在此处。 有关临时驱动器的详细信息，请参阅[了解 Windows Azure 虚拟机上的临时驱动器](https://blogs.msdn.microsoft.com/mast/2013/12/06/understanding-the-temporary-drive-on-windows-azure-virtual-machines/)。
 
 ## <a name="stop-services"></a>停止服务
 使用远程桌面连接到环境中的所有计算机，并通过使用 services.msc 停止以下 Windows 服务：
@@ -96,7 +104,9 @@ ms.lasthandoff: 03/29/2017
 使用导出期间创建的文件从报表设计器导入您的报表设计：
 
 1.  在报表设计器中，转至**公司** &gt; **构建基块组**。
-2.  选择要导出的构建基块组，然后单击**导出**。 **注释：**对于 Dynamics 365 for Operations，仅支持一个构建块组（即**默认**）。
+2.  选择要导出的构建基块组，然后单击**导出**。 
+    > [!NOTE]
+    > 对于 Dynamics 365 for Operations，仅支持一个构建块组（即**默认**）。
 3.  选择**默认**构建块，然后单击**导入**。
 4.  选择包含所导出报表定义的文件，然后单击**打开**。
 5.  在“导入”对话框中，选择要导入的报表定义：
@@ -104,6 +114,8 @@ ms.lasthandoff: 03/29/2017
     -   要导入特定报表、行、列、树或维度集，请选择要导入的报表、行、列、树或维度集。
 
 6.  单击**导入**。
+
+
 
 
 

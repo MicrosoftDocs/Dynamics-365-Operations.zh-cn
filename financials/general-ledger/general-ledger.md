@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: db4b05bc55d735513d7580ca5908a1e84eb760c6
-ms.openlocfilehash: 2579f86c793031d445667c82f74147a2097ef78e
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b2460e51fd5f0c1a198dc6cebeb0daf48e20ce40
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

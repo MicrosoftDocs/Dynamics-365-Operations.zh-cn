@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: 2e46fdd869cb8651ab7ee04cf58fe6f1e0e27c0b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8e388e0ea758651bb74483e410385bfaa9a07046
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

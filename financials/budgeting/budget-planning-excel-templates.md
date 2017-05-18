@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 0e2eb6e7c130f03edbf60a185d397d94b5d61d7d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2ae8255a84f36af624e915e85bc769a8ca37fa7e
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,7 +35,7 @@ ms.lasthandoff: 03/31/2017
 此主题显示如何使用标准演示数据集和 Admin 用户登录创建可用于预算计划的 Excel 模板。 有关预算计划的详细信息，请参阅[预算计划概览](budget-planning-overview-configuration.md)。 也可以按照[预算计划 101](budget-plan.md) 教程了解基本模块配置和使用原则。
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>使用预算计划文档布局生成工作表
-可使用一种或多种布局查看和编辑预算计划文档。 每种布局可以有一个关联预算计划文档模板，用于使用 Excel 工作表查看和编辑预算计划数据。 在此主题中，将使用现有布局配置生成预算计划文档模板。 打开**预算计划列表**（**预算编制**&gt; **预算计划**）。 单击“新建”****创建新的预算计划文档。 [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+可使用一种或多种布局查看和编辑预算计划文档。 每种布局可以有一个关联预算计划文档模板，用于使用 Excel 工作表查看和编辑预算计划数据。 在此主题中，将使用现有布局配置生成预算计划文档模板。 打开**预算计划列表**（**预算编制**&gt; **预算计划**）。 单击**“新建”**创建新的预算计划文档。 [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 使用**添加**行选项添加行。 单击**布局**查看预算计划文档布局配置。 
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 

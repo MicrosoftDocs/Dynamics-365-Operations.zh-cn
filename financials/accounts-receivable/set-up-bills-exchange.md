@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: ce2142d946085d8bfc577accf1bb31a89ea29156
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8556b8ae543c33a11b94cf2484ddf456fa457715
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

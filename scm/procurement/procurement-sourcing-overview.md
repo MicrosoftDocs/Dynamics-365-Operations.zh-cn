@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 758c516b378b4858c248fbca2befc6b9c47cc32a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: e8a12f846bb24c9fc79c3533d4e65a2d3ece257b
+ms.openlocfilehash: 6d4d476e294e1b5cbe91a61a7ffe151a6c865ea6
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -40,7 +41,7 @@ ms.lasthandoff: 03/31/2017
   
 采购部门为所需的产品和服务确定供应商，这可能涉及发送给多个潜在供应商的*询价*。 可以共享请求产品的规格，并且供应商能够查看这些信息来确定其能否交付符合这些规格的产品。 供应商返回出价，采购部门然后在选择要采购的供应商前审查该出价。  
 
-采购订单包括将*采购查询*发送到供应商的选项，作为更为全面的询价流程的备选。 采购查询可用于帮助设定诸如订单的价格、折扣和交货日期等期限。 如果供应商被设置为使用**供应商**门户，* * 采购查询功能将禁用。 而如果该订单在**供应商**门户共享，当*确认请求*发送时，供应商可以直接确认该订单。  
+采购订单包括将*采购查询*发送到供应商的选项，作为更为全面的询价流程的备选。 采购查询可用于帮助设定诸如订单的价格、折扣和交货日期等期限。 如果供应商被设置为使用**供应商**门户，采购查询功能将禁用。 而如果该订单在**供应商**门户共享，当*确认请求*发送时，供应商可以直接确认该订单。  
 
 *供应商目录*可以用于收集有关供应商可以供应的产品分类的信息。 供应商可以发布他们自己的目录，因此，更易保持最新目录。 可以将*核准供应商列表*附加到产品，这可以帮助在打开新采购订单时指导供应商选择，并防止使用意外的供应商。
 

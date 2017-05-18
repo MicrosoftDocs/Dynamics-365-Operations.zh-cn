@@ -3,7 +3,7 @@ title: "系统要求"
 description: "此主题列出了当前版本的 Microsoft Dynamics 365 for Operations 的系统要求。"
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 9220c093d3f6d6700127c93651db4083be300311
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="system-requirements"></a>系统要求
+
+[!include[banner](../includes/banner.md)]
+
 
 此主题列出了当前版本的 Microsoft Dynamics 365 for Operations 的系统要求。
 
@@ -43,6 +47,8 @@ Microsoft Dynamics 365 for Operations Web 应用程序可在指定操作系统�
 -   若要捕获从任务录制器生成的图像并插入到 Microsoft Word 文档中，必须安装 Chrome 扩展。 <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
 -   适用于财务申报的报表设计器作为 ClickOnce 应用程序启动。 它需要 64 位兼容操作系统。 如果使用的是 Chrome，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式使用 Chrome，请确保也为匿名模式启用 ClickOnce 扩展。
+-   若要预览 PDF 文件，我们建议您使用现代浏览器，如 Windows 10 上的 Microsoft Edge（最新公开提供的版本）或 Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）。
+
 
 ### <a name="supported-web-browsers-for-retail-cloud-pos"></a>Retail Cloud POS 支持的 Web 浏览器
 
@@ -117,11 +123,13 @@ Dynamics 365 for Operations 需要 .NET Framework 版本 4.6.2 以满足一键�
 -   至少 10 GB 的可用空间（渠道数据库肯需要大量空间。）
 
 ## <a name="requirements-for-development-on-local-vms"></a>本地虚拟机上的部署要求
-有关本地虚拟机 (VM) 上的部署要求的信息，请参阅[本地运行虚拟机](/dynamics365/operations/dev-itpro/dev-tools/access-instances#vm-that-is-running-in-premises)。
+有关本地虚拟机 (VM) 上的部署要求的信息，请参阅[本地运行虚拟机](../dev-tools/access-instances.md)。
 
 <a name="see-also"></a>请参阅
 --------
 
 [获取 Dynamics 365 for Operations 评估副本](/dynamics365/operations/dev-itpro/dev-tools/get-evaluation-copy)
+
+
 
 

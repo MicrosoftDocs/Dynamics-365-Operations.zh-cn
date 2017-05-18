@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 1c8143ec9b18bf95d7cc10f966ce00e5a398a147
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 233846b3e2fc962ef27c713724ce10e8fa9b88fd
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

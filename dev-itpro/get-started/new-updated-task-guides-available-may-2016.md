@@ -16,10 +16,11 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-translationtype: Human Translation
-ms.sourcegitcommit: 8904a5d19d5f1a65e411694f4858a4b61a69bd53
-ms.openlocfilehash: 69365c3dfc2734d55690bccdb2a658982a829f0f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d54240eb29ede3c1361f14dea186776f6d11a4d8
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

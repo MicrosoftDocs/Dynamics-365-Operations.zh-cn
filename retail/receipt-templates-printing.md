@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: fabaacbc7187b38a1745c2139a9eb7760f2be987
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a0a105ade7e47d7c554d62ee112ed03437bb7521
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -61,7 +62,7 @@ ms.lasthandoff: 03/31/2017
     -   **字符** – 指定如果元素包含变量，字段可包含的最大字符数。 如果该字段中的文本长于您指定最长的编号，该文本被截断以适合该字段。
     -   **变量** – 如果该元素包含变量且无法自定义，则会自动选中此复选框。
     -   **字体类型** – 设置字体为**标准**或**粗体**。 粗体字母使用的空间是标准字母的两倍。 因此，一些字符可能被截断。
-    -   ****“删除” – 单击此按钮可从窗体布局中删除所选的组成部分。
+    -   **“删除”** – 单击此按钮可从窗体布局中删除所选的组成部分。
 
 ## <a name="assign-receipt-profiles"></a>分配收据模板
 收据模板通过硬件配置文件直接分配到打印机。

@@ -3,7 +3,7 @@ title: "总成本分摊方法"
 description: "本文提供使用总成本分摊 (TCA) 的指南。 TCA 是计算批次订单的主要配方物料和为配方定义的联产品之间的成本的方法。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: c26dcc5a8caa461bce90f931bb5c584f1816526b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a5c5788a3145dd6cabeed097d25a03a243577b8f
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="total-cost-allocation-method"></a>总成本分摊方法
+
+[!include[banner](../includes/banner.md)]
+
 
 本文提供使用总成本分摊 (TCA) 的指南。 TCA 是计算批次订单的主要配方物料和为配方定义的联产品之间的成本的方法。
 
@@ -36,6 +40,11 @@ ms.lasthandoff: 03/31/2017
 以下是使用联产品的 TCA 的某些指南：
 
 -   如果您为配方版本将**总成本分摊**滑块设置为**是**，联产品必须具有大于 0（零）的成本价。 该值可以从同一个站点的有效成本版本或非特定于站点的配方的第一个站点中检索。 在审核配方时，此条件已验证。
+
+    -   您无需手动输入联产品的成本分摊百分比。 而系统自动创建成本分摊百分比作为联产品有效成本价的平均值。 
+    -   您不需要为属于联产品的非标准成本物料输入标准成本。 系统中存在两个成本计算版本类型：标准成本与计划成本 
+    -   如果物料不通过标准成本评估方法评估，我们建议您在计划成本版本中使用有效的成本价。 此价格用于成本估计，例如，库存估价流程中的物料清单计算、生产成本估计和回退价格。 
+
 -   如果您设置配方版本的**总成本分摊**滑块为**是**且以下条件成立，成本分摊方法为 **TCA**，并且成本分摊百分比将不更改：
     -   您添加了联产品。
     -   为联产品您使用了成本分配不同的方法。
@@ -53,6 +62,8 @@ ms.lasthandoff: 03/31/2017
 -   **“百分比”**─ 成本额按在生产中消耗的原材料总成本的百分比计算。 在字段中输入用于该计算的百分比。
 -   **“按系列”**─ 成本金额按照生产订单的每条件批次规模的金额计算。 此金额与在生产中报告的数量无关。 在字段中输入用于该计算的金额。
 -   **按数量** ─ 成本金额按照生产中每配方物料报告的数量的金额计算。 在字段中输入用于该计算的金额。
+
+
 
 
 

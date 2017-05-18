@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 1a4f07ce983271f36a58adaded1aec50d24d9e25
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e98b5f3629c0b5b554b85b8a08a35624d50b8824
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -39,11 +40,11 @@ ms.lasthandoff: 03/31/2017
 ## <a name="select-a-depreciation-year"></a>选择折旧年份
 您可以在**“折旧模板”**页上的**“折旧年份”**字段中选择**“日历”**或**“会计”**。 默认值是**“日历”**。 
 
-您的选择将决定“**期间频率**”字段中可用的选项。 此字段定义整个日历年度的折旧应计过帐日期和金额。
+您的选择将决定**“期间频率”**字段中可用的选项。 此字段定义整个日历年度的折旧应计过帐日期和金额。
 
 ### <a name="calendar"></a>日历
 
-可以保留“**折旧年份**”字段中的默认值，即“**日历**”。 
+可以保留**“折旧年份”**字段中的默认值，即**“日历”**。 
 
 **“日历”**选项在每年的 1 月 1 日更新折旧基数。 通常，折旧基数为帐面净值减去残值所得的结果。 在此主题后面的示例中，折旧基数是计算列中第一个表达式的分子。 
 

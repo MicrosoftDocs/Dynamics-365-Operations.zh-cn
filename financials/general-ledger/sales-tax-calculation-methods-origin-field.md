@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 0a716310a3b813e08d46ac609e8ac6ce9a2db3e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5f3d0e2016a3ffe5500ecae9508d44a115c56880
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

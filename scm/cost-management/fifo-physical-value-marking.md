@@ -3,7 +3,7 @@ title: "具有实际成本和标记的先进先出"
 description: "先进先出 (FIFO) 是一种库存模型，其中，最先的收货将最先发货。 基于库存交易记录的财务日期，按照最先财务更新的入库结算从库存的财务更新的发货。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 18 - 57 - 00
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 8e3d189fc4dbc5c747a3473d3a221c739c323050
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b0be852bde33e8dfc82ceb42dd98be10537f318d
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
+
+[!include[banner](../includes/banner.md)]
+
 
 先进先出 (FIFO) 是一种库存模型，其中，最先的收货将最先发货。 基于库存交易记录的财务日期，按照最先财务更新的入库结算从库存的财务更新的发货。 
 
@@ -50,7 +54,9 @@ ms.lasthandoff: 03/29/2017
 -   5b. 数量 1（单件成本价为 USD 20.00）的库存财务发货（财务更新的交易记录的移动平均）。
 -   6. 执行库存结转。 基于先进先出方法，将针对最先财务更新的收货来结算最先财务更新的发货。 将对发货交易记录执行 USD 10.00 的调整。
 
-新的移动平均成本价反映财务更新的交易记录的平均值。 下图说明了在未使用**“包括实际成本”**选项时，先进先出库存模型对此系列的交易记录的影响。 ![没有“包括实际成本”的先进先出](./media/fifowithoutincludephysicalvalue.gif) **插图的要点**
+新的移动平均成本价反映财务更新的交易记录的平均值。 下图说明了在未使用**“包括实际成本”**选项时，先进先出库存模型对此系列的交易记录的影响。 ![不具有“包括实际成本”的先进先出](./media/fifowithoutincludephysicalvalue.gif) 
+
+**图形要点**
 
 -   库存交易记录用垂直箭头表示。
 -   入库用时间线上的垂直箭头表示。
@@ -78,7 +84,9 @@ ms.lasthandoff: 03/29/2017
 -   6a. 数量 1（单件成本价为 USD 21.25）的库存实际发货。
 -   7. 执行库存结转。 基于先进先出方法，将针对最先更新的收货（可以是财务的或实际的）调整或结算第一个财务发货交易记录。
 
-将针对收货交易记录 1b 结算交易记录 5b。 将存在对此发货交易记录的 USD 11.25 的调整。 新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 下图说明了在使用**“包括实际成本”**选项时，先进先出库存模型对此系列的交易记录的影响。 ![具有“包括实际成本”的先进先出](./media/fifowithincludephysicalvalue.gif) **插图的要点**
+将针对收货交易记录 1b 结算交易记录 5b。 将存在对此发货交易记录的 USD 11.25 的调整。 新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 下图说明了在使用**“包括实际成本”**选项时，先进先出库存模型对此系列的交易记录的影响。 ![具有“包括实际成本”的先进先出](./media/fifowithincludephysicalvalue.gif) 
+
+**图形要点**
 
 -   库存交易记录用垂直箭头表示。
 -   入库用时间线上的垂直箭头表示。
@@ -106,7 +114,9 @@ ms.lasthandoff: 03/29/2017
 -   6a. 数量 1（单件成本价为 USD 21.25）的库存实际发货。
 -   7. 执行库存结转。 由于财务更新的先进先出交易记录标记为现有收货，因此将彼此结算这些交易记录并且不进行调整。
 
-新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 下图说明在使用发货和收货之间的标记时，先进先出库存模型对此系列的交易记录的影响。 ![具有标记的先进先出](./media/fifowithmarking.gif) **插图的要点**
+新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 下图说明在使用发货和收货之间的标记时，先进先出库存模型对此系列的交易记录的影响。 ![具有标记的先进先出](./media/fifowithmarking.gif) 
+
+**图形要点**
 
 -   库存交易记录用垂直箭头表示。
 -   入库用时间线上的垂直箭头表示。
@@ -118,6 +128,8 @@ ms.lasthandoff: 03/29/2017
 -   每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
 -   库存结转用红色的垂直虚线以及*“库存结转”*标签表示。
 -   由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。
+
+
 
 
 

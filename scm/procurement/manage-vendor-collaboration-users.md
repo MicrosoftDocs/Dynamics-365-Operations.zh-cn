@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 380f1bcdf7109dc12fd898199033eac7710d863c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 1f1df1e69f3933125bff3eba73d14e8615d7a2a6
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -90,7 +91,7 @@ Microsoft Dynamics 365 for Operations 中的供应商协作界面向外部供应
 1.  在**所有联系人**页面上，单击**维护****供应商用户角色**。
 2.  在“**业务理由**”字段中写入备注。
 3.  在“**维护用户角色**”部分，选择要分配的安全角色，或者清除要删除的安全角色。
-4.  单击**提交**。
+4.  单击“**提交**”。
 
 
 

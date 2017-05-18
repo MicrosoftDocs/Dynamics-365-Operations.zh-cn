@@ -1,6 +1,6 @@
 ---
 title: "新任务指南（2016 年 2 月）"
-description: "此 wiki 列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。"
+description: "此主题列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -16,17 +16,21 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 6462951cba3c289368887a037d4b71187f4523df
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d9e6620c1f4c808646e6f5c3b9f5b607c64c51df
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="new-task-guides-february-2016"></a>新任务指南（2016 年 2 月）
 
-此 wiki 列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。
+[!include[banner](../includes/banner.md)]
+
+
+此主题列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。
 
 <a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Microsoft Dynamics 365 for Operations 的 APQC 标准库中的任务指南（2016 年 2 月）
 ---------------------------------------------------------------------------------
@@ -723,5 +727,7 @@ ms.lasthandoff: 03/31/2017
 [新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
 
 [新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
+
+
 
 

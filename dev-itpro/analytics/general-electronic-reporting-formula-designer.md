@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ac8d6c064ca826cc1c2fed07578ca9ce0c66ef66
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 335a0d7ca466028e8b157cb4e04df7d0f4880e73
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -153,7 +154,7 @@ ER 表达式可以包含任意或所有以下元素：
 
 在表达式设计期间当前 ER 组件（模型或格式）的所有数据源均可用作指定引用。 例如，当前的 ER 数据模型包含数据源 **ReportingDate** 数据源，该数据源返回 **DATETIME** 数据类型的值。 若要获取在生成文档中正确格式化的值，您可以按照如下方法在表达式中引用数据源：<**DATETIMEFORMAT (ReportingDate, "dd-MM-yyyy")** 不代表字母的引用数据源的名称中的所有字符必须前加单引号 (')。 如果引用数据源的名称包含至少一个不代表字母的符号（例如，标点符号或任何其他文字符号），名称必须以单引号括起。 下面举了一些示例加以说明：
 
--   **Today's date & time** 数据源必须在 ER 表达式中引用，如下所示：**'Today''s date & time'**
+-   **今日日期和时间**数据源必须在 ER 表达式中引用，如下所示：**“今日日期和时间”**
 -   **Customers** 数据源的 **name()** 方法必须在 ER 表达式中引用，如下所示：**Customers.'name()'**
 
 #### <a name="path"></a>路径
@@ -257,7 +258,7 @@ ER 表达式可以包含任意或所有以下元素：
 <tr class="odd">
 <td>ORDERBY（列表 [，表达式 1，表达式 2，...]）</td>
 <td>返回指定的列表，其根据指定可以定义为表达式的指定参数排序。</td>
-<td>在<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源时，<strong> ORDERBY (Vendors, Vendors.'name()')</strong> 返回升序排列的按名称排序的供应商列表。</td>
+<td>在<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源时，<strong>ORDERBY (Vendors, Vendors.'name()')</strong> 返回升序排列的按名称排序的供应商列表。</td>
 </tr>
 <tr class="even">
 <td>REVERSE（列表）</td>

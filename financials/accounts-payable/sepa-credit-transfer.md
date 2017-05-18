@@ -3,7 +3,7 @@ title: "SEPA 贷方转帐概览"
 description: "此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。 SEPA 贷方转帐是从一个公司或个人到另一个公司或个人的一种特定类型的付款（用欧元）。 本主题还讨论如何设置和传输贷方转帐付款文件。"
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 848df5e3898f37284d7746c59bff8b38d35ac883
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f7adaf2f3a14d2c0e094314f0b36b5d4bdb0a65c
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a>SEPA 贷方转帐概览
+
+[!include[banner](../includes/banner.md)]
+
 
 此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。 SEPA 贷方转帐是从一个公司或个人到另一个公司或个人的一种特定类型的付款（用欧元）。 本主题还讨论如何设置和传输贷方转帐付款文件。
 
@@ -55,7 +59,7 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 应始终转至 Microsoft Dynamics Lifecycle services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置**的可用文件的最新列表。 下一部分“必须执行哪些设置？”提供一个主题的链接，该主题说明如何创建 LCS 存储库以检查可用配置和导入所选配置。
 
 ## <a name="what-do-i-have-to-set-up"></a>我必须设置什么？
--   在您可以创建贷方转帐文件前，必须导入至少一个有效的贷方转帐配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
+-   在您可以创建贷方转帐文件前，必须导入至少一个有效的贷方转帐配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
 -   在配置应付帐款付款方式时，请选中**一般电子申报**复选框，并选择相应的贷方转帐格式（如 **ISO 20022 贷方转帐 (AT)**）作为导出格式配置。
 -   还必须在 Dynamics 365 for Operations 中设置法人和银行帐户信息。
 -   需要银行帐号、IBAN，有时还需要 SWIFT 代码 (BIC) 或其他 ID，才能创建有效的贷方转帐付款。 必须为供应商银行帐户和请求转帐的银行帐户设置这些信息。
@@ -121,5 +125,7 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>如何将付款文件发送到银行？
 在您生成付款时，将生成付款文件，并且，系统会请求您从 Web 浏览器中将其保存到任何可用的位置。 下一步是将该 XML 文件发送到您的银行。 此流程根据银行的不同而变。 按照您的银行的说明将文件提交给银行以进行处理。
+
+
 
 

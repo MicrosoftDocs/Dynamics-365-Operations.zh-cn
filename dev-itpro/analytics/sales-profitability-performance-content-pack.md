@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 3e6b48768bb8e69d46f1555d9300f3b878b01ff1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 35d34f9a356f8a041f2abf0aa8d6c3a6d9ca4a46
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a>销售和收益率绩效 Power BI 内容
+
+[!include[banner](../includes/banner.md)]
+
 
 此主题介绍适用于 Microsoft Power BI 的 Dynamics 365 for Operations - 销售和收益率绩效内容包中的内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。
 
@@ -44,6 +48,7 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="accessing-the-content-pack"></a>访问内容包
 “销售和利润率绩效 Power BI ”内容包发布为 Lifecycle Services (LCS) 中的实施资产，并且可以从 Dynamics 365 for Operations 访问。 有关如何访问和启动 Power BI 报表的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
+**注意：**KB 4011327 是此 Power BI 内容的先决条件。 登录 Lifecycle Services 之后，可以在以下位置访问该 KB：<a href="https://fix.lcs.dynamics.com/issue/results/?q=kb4011327">https://fix.lcs.dynamics.com/issue/results/?q=kb4011327</a>。
 
 ## <a name="metrics-included-in-the-content-pack"></a>此内容包中包含的指标
 此内容包中包含一个由一组显示为图表、磁贴和表的指标构成的报表。 下表概要介绍此内容包中的可视化。
@@ -110,6 +115,8 @@ Dynamics 365 for Operations 数据用于填充销售和收益率绩效内容包�
 -   [创建组织内容包](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [使用 Power BI 的数据建模](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [将 Power BI 磁贴添加到工作区](configure-power-bi-integration.md)
+
+
 
 
 

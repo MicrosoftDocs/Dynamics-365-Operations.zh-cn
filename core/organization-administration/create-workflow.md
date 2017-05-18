@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 1255cf90498f1968568dd2fa5a1377d989f40182
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: b4d4f14753f1755c251e1ae12dd9addec31d2fdd
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

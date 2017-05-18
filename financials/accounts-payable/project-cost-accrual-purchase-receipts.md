@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: 27a0a71095dce46c0119b32a92f8c4dce0f42e43
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9caa1f7818e21ae448effc6169e1fe02c8edf510
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

@@ -3,7 +3,7 @@ title: "普通日记帐处理"
 description: "本文介绍 Microsoft Dynamics 365 for Operations 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 04/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: 50cd203025be8857de943e458fc32315e494fb7a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: c020566928cecc15bd7de504164f5adbf34eda44
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍 Microsoft Dynamics AX 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。  
+本文介绍 Microsoft Dynamics 365 for Operations 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。  
 
 日记帐名称
 
@@ -82,6 +83,7 @@ ms.lasthandoff: 03/31/2017
 科目结构和高级规则结构对于确保在一般日记帐处理和任何单据化期间捕获财务报告所需的数据以及绩效跟踪极其重要。 科目结构和高级规则结构可让您定制数据输入体验。 您可以仅对在所有情况下都相关的财务维度允许数据输入，还可以强制实施“始终捕获必需和正确的数据”这一要求。
 
 有关详细信息，请参阅[计划：会计科目表](plan-chart-of-accounts.md)。 
+
 
 
 

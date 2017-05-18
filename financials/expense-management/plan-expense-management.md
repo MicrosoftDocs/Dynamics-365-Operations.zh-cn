@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 88cdf531b6da615034f9982d3503b9add0100479
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 447ba56a279a29392b00119730c3594fa4ea80f6
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -124,7 +125,7 @@ ms.lasthandoff: 03/31/2017
 -   销售税是否包括在费用金额中？
 -   是否在费用上启用退税？
 
-请注意，如果在您计划总帐期间，您决定应用美国销售税并且使用销项税规则（通过将“应用销售税税务规则”****字段切换为“是”），则无法在费用上启用退税。
+请注意，如果在您计划总帐期间，您决定应用美国销售税并且使用销项税规则（通过将**“应用销售税税务规则”**字段切换为“是”），则无法在费用上启用退税。
 
 ## <a name="policies"></a>政策
 您可以创建费用报表策略，以便您的组织可以在员工产生代表自己产生费用时节省时间和金钱。 策略可确保员工保持在预算中，提供所有必需的信息，并且只在需要时花钱。 您必须为您创建的每个费用报表策略和每个费用报表审核策略做出以下决策。 **决策：**

@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: a76ec0cd86bcc810b42ae3cd8efd8a584e6c4da3
-ms.openlocfilehash: 8e09c6b042d557e3b2d608fb5e278169fc3c1d88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4a5e6164f8aea2d4a6a063966c10f33a5e1f0cdd
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="distribute-and-complete-a-questionnaire"></a>分配和完成调查表
+
+[!include[banner](includes/banner.md)]
+
 
 本主题描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。 
 
@@ -45,7 +49,7 @@ ms.lasthandoff: 03/31/2017
 
 可以从以下页面创建调查表组：
 
--   **调查表组 **– 只有调查表组中的个人可以完成选定的调查表组。 例如，您的预期受众是承包商，因此您可以创建特定于这些调查对象的调查表组。
+-   **调查表组**– 只有调查表组中的个人可以完成选定的调查表组。 例如，您的预期受众是承包商，因此您可以创建特定于这些调查对象的调查表组。
 -   **调查表组成员** – 您可以向调查表组添加人员。
 
 若要将调查表组分配给某一调查表，请在**调查表**页上，单击**用户权限**。 在调查表保存为有效后，调查表组的成员可以完成调查表。 如果您想要先对一组特定的人员测试某一调查表，然后再将其展开到一个更大的组，或者，如果您想要使调查表面向非常具体的受众，则此功能很有用。
@@ -53,7 +57,8 @@ ms.lasthandoff: 03/31/2017
 ## <a name="planned-answer-sessions-in-a-questionnaire"></a>调查表中的计划应答期
 计划应答期是您设计并选择调查对象的调查表。 
 
-**注释：**在您可以设置计划应答期之前，必须设计调查表。 
+> **注意**
+>  在您可以设置计划应答期之前，必须设计调查表。 
 
 在**“计划应答期”**页上，您可为单独的员工创建计划应答期。 该页面上的列表显示所有已编制的调查表。 
 
@@ -99,7 +104,8 @@ ms.lasthandoff: 03/31/2017
 ## <a name="notifying-respondents-about-questionnaires-that-are-available-to-them"></a>告知调查对象调查表对其可用
 在分发调查表时，您必须通知调查对象调查表对其可用。 
 
-**注释：**调查对象必须是 Microsoft Dynamics 365 for Operations 中的用户，才能完成调查表。
+> **注意**
+>  调查对象必须是 Microsoft Dynamics 365 for Operations 中的用户，才能完成调查表。
 
 ### <a name="notifying-respondents-about-a-planned-answer-session"></a>向调查对象通知计划应答期
 
@@ -109,12 +115,14 @@ ms.lasthandoff: 03/31/2017
 
 使用“**调查表计划**”页可以准备电子邮件并将其发送给分配有调查表的调查对象。 在**“员工自助服务的电子邮件”**选项卡上输入电子邮件文本。 在计划开始后，单击**功能** &gt; **发送电子邮件**以生成电子邮件并将其发送给调查对象。 然后调查对象可以登录到该网站并完成调查表。 
 
-**注释：**在您可以使用电子邮件功能之前，您的 IT 管理员必须在**“电子邮件参数”**页上输入电子邮件设置。
+> **注意**
+>  在您可以使用电子邮件功能之前，您的 IT 管理员必须在**电子邮件参数**页上输入电子邮件设置。
 
 ## <a name="ending-a-scheduled-questionnaire"></a>结束预定的调查表
 您可以在所有回应者都已完成他们的分配的应答期后，结束计划的调查表。 在结束后某一计划的调查表，您不能将其设置为新计划编制。 
 
-**注释：**如果一个或多个调查对象尚未完成调查表并且您仍要结束计划编制，则首先在“**计划应答期**”页上的列表中删除这些调查对象。 然后，即可结束计划。
+> **注意**
+>  如果一个或多个调查对象尚未完成调查表并且您仍要结束计划编制，则首先在**计划应答期**页上的列表中删除这些调查对象。 然后，即可结束计划。
 
 ## <a name="completing-questionnaires"></a>填写调查表
 在您设计并分配某一调查表后，该调查表可由所选调查对象完成。 您可以从以下两个位置完成可供您使用的调查表：
@@ -132,5 +140,7 @@ ms.lasthandoff: 03/31/2017
 [使用调查表](questionnaires.md)
 
 [查看和评估调查表的结果](evaluate-questionnaire-results.md)
+
+
 
 

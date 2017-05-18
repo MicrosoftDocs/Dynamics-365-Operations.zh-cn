@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af7e7288f741b3c519227e2778c4c4311c3a2012
-ms.openlocfilehash: 8af663b47117759ed3b2e2ed8eee85ae4df100d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f80d5d49cae3107390a605e9605d8af65bf2342d
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="use-the-excel-add-in"></a>使用 Excel 加载项
+
+[!include[banner](../includes/banner.md)]
+
 
 此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Microsoft Dynamics 365 for Operations 开始。
 
@@ -44,13 +48,14 @@ ms.lasthandoff: 03/31/2017
 2.  在 Office 应用商店中，搜索关键字“Dynamics”，然后单击 **Microsoft Dynamics Office 加载项**（即此 Excel 加载项）旁边的**添加**。
 3.  如果首次运行此 Excel 加载项，请单击**信任此加载项**以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
 4.  单击**添加服务器信息**打开**选项**页面。
-5.  从目标 Dynamics 365 for Operations 实例复制浏览器 URL，将其粘贴到**服务器 URL** 字段中，然后删除主机名后的所有内容（例如，删除 **/?cmp=usmf&mi=CustTableListPage**）。 产生的 URL 中应仅包含主机名（例如，**https://xxx.dynamics.com**）。
+5.  从目标 Dynamics 365 for Operations 实例复制浏览器 URL，将其粘贴到**服务器 URL** 字段中，然后删除主机名后的所有内容。 产生的 URL 应只有一个主机名。
+例如，如果 URL 为 https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage，则应删除除 **https://xxx.dynamics.com** 以外的所有信息。
 6.  单击**确定**，然后单击**是**确认更改。 此 Excel 加载项将重新启动并加载元数据。 **设计**按钮现在可用。 如果此 Excel 加载项有**加载小程序**按钮，您可能无法作为正确用户登录。 有关详细信息，请参阅本主题“故障排除”部分中的“显示‘加载小程序’按钮”。
 7.  单击**设计**。 此 Excel 加载项将检索实体元数据。
 8.  单击**添加表**。 将显示实体列表。 将以“名称 - 标签”格式列出实体。
 9.  选择列表中的实体（如**客户 - 客户**），然后单击**下一步**。
 10. 若要将**可用字段**列表中的字段添加到**所选字段**列表，单击该字段，然后单击**添加**。 或者双击该字段。
-11. 将所需字段添加到**所选字段**列表之后，请确保光标在工作表中的正确位置（如单元格 A1），然后单击**完成**。 然后单击**完成**退出设计器。
+11. 将字段添加到**所选字段**列表之后，请确保光标在工作表中的正确位置（如单元格 A1），然后单击**完成**。 然后单击**完成**退出设计器。
 12. 单击**刷新**以提取一组数据。
 
 ## <a name="view-and-update-entity-data-in-excel"></a>在 Excel 中查看和更新实体数据
@@ -59,14 +64,17 @@ ms.lasthandoff: 03/31/2017
 ## <a name="edit-entity-data-in-excel"></a>在 Excel 中编辑实体数据
 可根据需要更改实体数据，然后通过单击 Excel 加载项中的**发布**将其发布回来。 若要编辑记录，请在工作表中选择单元格，然后更改单元格值。 若要创建新记录，请执行以下步骤之一：
 
--   单击工作表中的任意位置，然后单击此 Excel 加载项中的**新建**。
--   在工作表最后一行中单击，然后按 Tab 键，直到光标移出该行的最后一列，并创建一个新行。
--   在工作表正下方的行中单击，然后开始在单元格中输入数据。 将光标移出该单元格时，工作表将扩展以容纳新行。
+-   单击数据源表中的任意位置，然后单击此 Excel 加载项中的**新建**。
+-   在数据源表最后一行中单击，然后按 Tab 键，直到光标移出该行的最后一列，并创建一个新行。
+-   在数据源表正下方的行中单击，然后开始在单元格中输入数据。 将光标移出该单元格时，表将扩展以容纳新行。
+-   要进行标题记录的字段绑定，单击其中一个字段，然后在 Excel 加载项中单击**新建**。
 
+请注意，只有当所有重要的必填字段在工作表中绑定时，或当使用筛选条件填写默认值时，才能够创建新记录。
 若要删除记录，请执行以下步骤之一：
 
 -   右键单击要删除的工作表行旁边的行号，然后单击**删除**。
 -   在要删除的工作表行中右键单击，然后单击**删除** &gt; **表行**。
+如果数据源添加为相关项，标题在行前面发布。 如果其他数据源之间存在相关性，您可能必须更改默认发布订单。 若要更改发布订单，在 Excel 加载项中，单击**选项**按钮（齿轮符号）。 然后，在**数据连接器**快速选项卡上，单击**配置发布订单**。
 
 ## <a name="add-or-remove-columns"></a>添加或删除列
 可以使用设计器调整自动添加到工作表的列。
@@ -77,9 +85,10 @@ ms.lasthandoff: 03/31/2017
 4.  根据需要调整**所选字段**列表中的列表。
     -   若要将**可用字段**列表中的字段添加到**所选字段**列表，单击该字段，然后单击**添加**。 或者双击该字段。
     -   若要删除**所选字段**列表中的字段，请单击该字段，然后单击**删除**。 或者双击该字段。
-    -   若要更改字段的顺序，请在**所选字段**列表中单击字段，然后单击**向上**或**向下**。
+    -   若要更改字段的顺序，在**所选字段**列表中单击字段，单击某个字段，然后单击**向上**或**向下**。
 
-5.  通过单击**更新**应用对数据源的更改。 然后单击**完成**退出设计器。 如果添加了字段（列），单击**刷新**提取更新后的数据集。
+5. 若要应用对数据源的更改，单击**更新**。 然后单击**完成**退出设计器。 
+6. 如果添加了字段（列），单击**刷新**提取更新后的数据集。
 
 ## <a name="httpspowerappsmicrosoftcomenustutorialsdataplatforminteractiveexceltroubleshootingtroubleshooting"></a>[](https://powerapps.microsoft.com/enus/tutorials/dataplatforminteractiveexcel/#troubleshooting)疑难解答
 可通过某些简单步骤解决一些问题。
@@ -87,6 +96,8 @@ ms.lasthandoff: 03/31/2017
 -   **将显示“加载小程序”按钮。** 如果登录后此 Excel 加载项有**加载小程序**按钮，您可能无法作为正确用户登录。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请单击该用户名，注销，然后再次登录。
 -   **您收到“已禁止”消息。** 如果此 Excel 加载项加载元数据时收到“已禁止”消息，则登录了该 Excel 加载项的帐户无权使用目标服务、实例或数据库。 若要解决此问题，请验证此 Excel 加载项右上角中是否显示正确的用户名。 如果显示错误的用户名，请单击该用户名，注销，然后再次登录。
 -   **Excel 上方显示空白网页。** 如果登录过程中打开空白网页，则帐户需要 AD FS，但是正在运行此加载项的 Excel 版本不够高，无法加载登录对话框。 若要解决此问题，请更新正在使用的 Excel 版本。 若要当您在处于推迟渠道中的企业内时更新 Excel 版本，请使用 [Office 部署工具](https://technet.microsoft.com/library/jj219422.aspx)[从推迟渠道转到当前渠道](https://technet.microsoft.com/library/mt455210.aspx)。
+
+
 
 
 

@@ -3,7 +3,7 @@ title: "安装和配置 Microsoft Dynamics 365 for Operations - Warehousing。"
 description: "此主题描述如何安装和配置 Microsoft Dynamics 365 for Operations - Warehousing。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 231c087ddc976aa552fc9cd6c89188f82a0247d1
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: bbf6df8d43889e7a62bfe28921997c45c8b4c632
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-operations-8211-warehousing"></a>安装和配置 Microsoft Dynamics 365 for Operations - Warehousing。
+
+[!include[banner](../includes/banner.md)]
+
 
 此主题描述如何安装和配置 Microsoft Dynamics 365 for Operations - Warehousing。
 
@@ -41,7 +45,7 @@ Dynamics 365 for Operations - Warehousing 是 Google Play Store 和 Windows 应�
 | Windows (UWP)               | Windows 10（所有版本）                                                                                                                                                   |
 | Dynamics 365 for Operations | Microsoft Dynamics 365 for Operations 版本 1611 或 Microsoft Dynamics Dynamics AX 版本 7.0/7.0.1，以及带修补程序 KB 3210014 的 Microsoft Dynamics AX 平台更新 2 |
 
-## <a name="get-the-app"></a>获取应用程序
+## <a name="get-the-app"></a>获取应用
 -   Windows (UWP) - [Windows 应用商城中的 Dynamics 365 for Operations - Warehousing](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android - [Google Play Store 中的 Dynamics 365 for Operations - Warehousing](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
 
@@ -67,7 +71,7 @@ Dynamics 365 for Operations - Warehousing 是 Google Play Store 和 Windows 应�
 ## <a name="create-and-configure-a-user-account-in-dynamics-365-for-operations"></a>在 Dynamics 365 for Operations 中创建和配置用户帐户
 要使 Dynamics 365 for Operations 使用您的 Azure AD 应用程序，需要完成以下配置步骤：
 
-1.  在 Azure Active Directory 中为 Dynamics 365 for Operations 租户创建一个新用户帐户。 此用户帐户用于访问 Dynamics 365 for Operations 服务器提供的 Warehousing 应用程序的特定自定义服务。 完成此步骤之后，您将拥有 WMDP 用户凭据，其中包含 WMDP 电子邮件地址和 WMDP 密码。 若要了解有关如何向 Azure AD 和 Dynamics 365 for Operations 添加用户的基本步骤，请参阅以下教程：[注册 Microsoft Dynamics 365 for Operations 订阅](/dynamics365/operations/dev-itpro/sign-up-preview-subscription)。
+1.  在 Azure Active Directory 中为 Dynamics 365 for Operations 租户创建一个新用户帐户。 此用户帐户用于访问 Dynamics 365 for Operations 服务器提供的 Warehousing 应用程序的特定自定义服务。 完成此步骤之后，您将拥有 WMDP 用户凭据，其中包含 WMDP 电子邮件地址和 WMDP 密码。 若要了解有关如何向 Azure AD 和 Dynamics 365 for Operations 添加用户的基本步骤，请参阅以下教程：[注册 Microsoft Dynamics 365 for Operations 订阅](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription)。
 2.  创建与 Warehousing 应用程序用户凭据对应的 Dynamics 365 for Operations 用户
     1.  在 Dynamics 365 for Operations 中，转至**系统管理** &gt; **常用** &gt; **用户**。
     2.  创建新用户。
@@ -98,6 +102,8 @@ Dynamics 365 for Operations - Warehousing 是 Google Play Store 和 Windows 应�
 6.  单击**配置**选项卡，向下滚动并确保应用程序的**客户端 ID** 与此部分的步骤 2 中的相同。
 7.  单击命令栏中的**删除**按钮。
 8.  单击确认消息中的**是**。
+
+
 
 
 

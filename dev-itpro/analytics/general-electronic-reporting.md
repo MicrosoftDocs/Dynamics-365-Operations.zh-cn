@@ -18,10 +18,11 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: b3e8174d07c9b9fd4210486c369c640fe07c49eb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: abe9212372fb7429d68c1fb6b32ec1d15c20a6d7
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -125,7 +126,7 @@ ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型：**
 ## <a name="supported-scenarios"></a>支持的方案
 ### <a name="building-a-data-model"></a>构建数据模型
 
-ER 提供了一个模型设计器，可以用于为特定业务域构建数据模型。 所有特定于域的业务实体以及这些实体之间的关系可在数据模型以层次结构的形式呈现。 下图显示这种类型的数据模型（付款域数据模型）的示例。 [![数据模型的示例](./media/pic-data-model-1024x550.png)](./media/pic-data-model.png) 若要详细了解此方案，播放 **ER 设计域特定数据模型**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) **业务流程的一部分）以。
+ER 提供了一个模型设计器，可以用于为特定业务域构建数据模型。 所有特定于域的业务实体以及这些实体之间的关系可在数据模型以层次结构的形式呈现。 下图显示这种类型的数据模型（付款域数据模型）的示例。 [![数据模型的示例](./media/pic-data-model-1024x550.png)](./media/pic-data-model.png) 若要详细了解此方案，播放 **ER 设计域特定数据模型**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)**业务流程的一部分）以。
 
 ### <a name="translating-data-model-content"></a>翻译数据模型内容
 
@@ -142,11 +143,11 @@ ER 提供模型映射设计器，可让用户将他们所设计的数据模型�
 
 ### <a name="storing-a-designed-model-component-as-a-model-configuration"></a>将设计的模型组件存储为模型配置
 
-ER 能够将设计的数据模型（与关联的数据映射一起）存储为当前 Dynamics 365 for Operations 实例的模型配置。 下图显示这种类型的数据模型配置（付款模型配置）的示例。 [![数据模型配置的示例](./media/pic-model-configuration-1024x585.png)](./media/pic-model-configuration.png) 若要详细了解此方案，播放 **ER 将数据模型映射到所选数据源**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) **业务流程的一部分）。
+ER 能够将设计的数据模型（与关联的数据映射一起）存储为当前 Dynamics 365 for Operations 实例的模型配置。 下图显示这种类型的数据模型配置（付款模型配置）的示例。 [![数据模型配置的示例](./media/pic-model-configuration-1024x585.png)](./media/pic-model-configuration.png) 若要详细了解此方案，播放 **ER 将数据模型映射到所选数据源**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)**业务流程的一部分）。
 
 ### <a name="building-a-format-that-uses-a-data-model-as-a-base"></a>构建使用数据模型作为基础的格式
 
-ER 支持格式设计器，您可以通过选择模型组件作为基础来使用此设计器构建特定电子单据的格式。 同一 ER 格式设计器让您可以将创建的格式作为数据源映射到所选域的数据模型映射。 下面的插图显示了这种格式的示例（支持英国 **BACS** 付款格式的格式配置）。 [![使用数据模型作为基础的格式示例](./media/pic-format-1024x690.png)](./media/pic-format.png) 若要详细了解此方案，播放 **ER 设计域特定格式**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) **业务流程的一部分）以。
+ER 支持格式设计器，您可以通过选择模型组件作为基础来使用此设计器构建特定电子单据的格式。 同一 ER 格式设计器让您可以将创建的格式作为数据源映射到所选域的数据模型映射。 下面的插图显示了这种格式的示例（支持英国 **BACS** 付款格式的格式配置）。 [![使用数据模型作为基础的格式示例](./media/pic-format-1024x690.png)](./media/pic-format.png) 若要详细了解此方案，播放 **ER 设计域特定格式**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)**业务流程的一部分）以。
 
 ### <a name="building-a-configuration-to-generate-electronic-documents-in-openxml-worksheet-format"></a>构建配置以生成使用 OPENXML 工作表格式的电子单据
 

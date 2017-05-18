@@ -3,7 +3,7 @@ title: "库存对象值"
 description: "本文提供有关库存对象的值如何计算的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-12-07 09 - 09 - 05
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -19,19 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 7a0a2af2094e3e5be757d3dd82255769677b96ea
-ms.openlocfilehash: 8898d5d91ffb4f73ea68f1251e1a99440e81bcd4
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d177903e3c79226e90a1f2eb3d55e3c670446a44
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="inventory-object-values"></a>库存对象值
 
+[!include[banner](../includes/banner.md)]
+
+
 本文提供有关库存对象的值如何计算的信息。 
 
-利用名为 **实际数量** 的新功能，可以查看特定库存对象的值。 成本对象表示执行库存盘点的实体级别。 有关成本对象的更多信息，请参阅[成本对象](cost-object.md)。 要查看特定库存对象的值，请在**“成本对象**页面上单击**实际数量**。 以下为计算库存对象的值的方法：Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity。以下示例说明如何计算库存对象和成本对象的值。 在物料 A 上登记两个产品收据事件：
+利用名为**“实际数量”**的新功能，可以查看特定库存对象的值。 
+
+成本对象表示执行库存盘点的实体级别。 有关成本对象的更多信息，请参阅[成本对象](cost-object.md)。 
+
+要查看特定库存对象的值，请在**“成本对象**页面上单击**实际数量**。 以下是如何计算库存对象的值： 
+
+Inventory object.Value = Cost object.Average unit cost × Inventory object.Quantity 
+
+以下示例显示如何计算库存对象和成本对象的值。 在物料 A 上登记两个产品收据事件：
 
 -   产品收据 1：数量 = 100 pcs.，金额 = $1,000.00，站点 = 1，仓库 =11，批号 = = B1
 -   产品收据 2：数量 = 50 pcs.，金额 = $800.00，站点 = 1，仓库 =11，批号 = B2
@@ -135,5 +147,7 @@ ms.lasthandoff: 03/29/2017
 [成本条目](cost-entries.md)
 
 [Microsoft Dynamics AX 体系结构中的新增功能和更改](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+
+
 
 

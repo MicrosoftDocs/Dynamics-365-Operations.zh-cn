@@ -3,7 +3,7 @@ title: "处理分配"
 description: "本文提供有关分配、在 Microsoft Dynamics 365 for Operations 中处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。"
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,21 +18,25 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: 37f4df5d0b79208a8c565bc9101ddde193a6ef5b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f66414beeacafdbbe3b6f7bcba8481096636e025
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="process-allocations"></a>处理分配
 
+[!include[banner](../includes/banner.md)]
+
+
 本文提供有关分配、在 Microsoft Dynamics 365 for Operations 中处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
 
 Microsoft Dynamics 365 for Operations 提供以下功能支持此流程：
 
--   通过在会计分配中使用“分解”操作，或者通过将财务维度默认模板应用到文档，手动分配交易记录金额。 有关详细信息，请参阅[会计分配](\accounts-payable\accounting-distributions.md)。
+-   通过在会计分配中使用“分解”操作，或者通过将财务维度默认模板应用到文档，手动分配交易记录金额。 有关详细信息，请参阅[会计分配](../accounts-payable/accounting-distributions.md)。
 -   将基于在单个主科目中定义的分配期限自动分配交易记录。 分配科目条目将基于百分比和目标会计科目为每个日记帐生成，只要会计条目满足定义为源会计科目的条件。
 -   将基于分类帐分配规则自动分配分类帐余额或固定金额。 使用分配日记帐定期处理分类帐分配规则。 
 
@@ -42,6 +46,8 @@ Microsoft Dynamics 365 for Operations 提供以下功能支持此流程：
 
 > [!NOTE]
 > 您不能为预算计划使用内部公司的分类帐分配规则。
+
+
 
 
 

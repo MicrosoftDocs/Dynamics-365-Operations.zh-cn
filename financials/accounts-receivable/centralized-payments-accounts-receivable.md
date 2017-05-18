@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: 17a6a25d99bcefe88af3ced72c9e62e1f9393d14
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d3fd164ded7feabff716f3d4a71f77aab85418d9
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,8 +41,8 @@ ms.lasthandoff: 03/31/2017
 以下示例说明如何在不同的环境中处理过帐。 假定所有这些示例都采用以下配置：
 
 -   法人分别为 Fabrikam、Fabrikam East 和 Fabrikam West。 客户付款输入 Fabrikam。
--   “内部公司”****页上的“过帐现金折扣”****字段设置为“发票法人”****。
--   “内部公司”****页上的“过帐币种汇兑损益”****字段设置为“付款法人”****。
+-   **“内部公司”**页上的**“过帐现金折扣”**字段设置为**“发票法人”**。
+-   **“内部公司”**页上的**“过帐币种汇兑损益”**字段设置为**“付款法人”**。
 -   客户 Northwind Traders 在每个法人中设置为一个客户。 来自不同法人的客户被标识为同一客户，因为他们共享相同的全球通讯簿 ID。
 
 | 通讯簿 ID | 客户帐户 | 姓名              | 法人  |

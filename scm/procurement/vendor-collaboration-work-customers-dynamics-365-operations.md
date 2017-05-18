@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 11cd2242b5a575ae87b0dbcf6f8ce268fcea5377
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: d9dafdc211a866aa7d0b2ea139628ec530a2b6d4
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

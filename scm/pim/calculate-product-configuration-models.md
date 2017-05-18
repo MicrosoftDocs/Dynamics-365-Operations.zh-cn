@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: 3a82fdb8532c79e33c167c43554a3de7d3061fcb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 34bebe1f7a324f2d77668d0eb3d6b2303f2544a4
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

@@ -10,7 +10,7 @@ ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
@@ -18,15 +18,19 @@ ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 26c628e10aaa5f47bc87d7510ca8f41ab3630204
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: a5c45bb0b9ed10c989a3222a751df3f454b14a0b
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="create-and-manage-attributes"></a>创建和管理属性
+
+[!include[banner](includes/banner.md)]
+
 
 本文介绍 Microsoft Dynamics 365 for Operations 中的属性。 属性可让您通过用户定义字段描述产品及其特征。
 
@@ -34,110 +38,28 @@ ms.lasthandoff: 03/31/2017
 
 #### <a name="examples"></a>示例
 
-类别
+| 类别   | 属性                | 允许的值          | 默认值 |
+|------------|--------------------------|-----------------------------|---------------|
+| 电视和视频 | 品牌                    | 任何有效的品牌值       | 无          |
+| 电视         | 屏幕尺寸              | 20″–80″                     | 无          |
+| 电视         | 垂直行业解决方案      | 480i、720p、1080i 或 1080p | 1080p         |
+| 电视         | 屏幕刷新率      | 60hz、120hz 或 240hz       | 60hz          |
+| 电视         | HDMI 输入              | 0–10                        | 3             |
+| 电视         | DVI 输入               | 0–10                        | 1             |
+| 电视         | 复合输入         | 0–10                        | 2             |
+| 电视         | 组件输入         | 0–10                        | 1             |
+| LCD        | 3D 已就绪                 | 是或否                   | 是           |
+| LCD        | 3D 已启用               | 是或否                   | 无            |
+| 等离子     | 最低工作温度      | 32–110 度              | 32            |
+| 等离子     | 最高工作温度        | 32–110 度              | 100           |
+| 投影 | 投影管保修 | 6、12 或 18 个月         | 12            |
+| 投影 | # 投影管     | 1–5                         | 3             |
 
-属性
-
-允许的值
-
-默认值
-
-电视和视频
-
-品牌
-
-任何有效的**品牌**值
-
-无
-
-电视
-
-屏幕尺寸
-
-**20"**–**80"**
-
-无
-
-垂直行业解决方案
-
-**480i**、**720p**、**1080i** 或 **1080p**
-
-**1080p**
-
-屏幕刷新率
-
-**60hz**、**120hz** 或 **240hz**
-
-**60hz**
-
-HDMI 输入
-
-**0**–**10**
-
-**3**
-
-DVI 输入
-
-**0**–**10**
-
-**1**
-
-复合输入
-
-**0**–**10**
-
-**2**
-
-组件输入
-
-**0**–**10**
-
-**1**
-
-LCD
-
-3D 已就绪
-
-**是**或**否**
-
-**是**
-
-3D 已启用
-
-**是**或**否**
-
-**否**
-
-等离子
-
-最低工作温度
-
-**32**–**110** 度
-
-**32**
-
-最高工作温度
-
-**32**–**110** 度
-
-**100**
-
-投影
-
-投影管保修
-
-**6**、**12** 或 **18** 个月
-
-**12**
-
-投影管 \#
-
-**1**–**5**
-
-**3**
 
 ## <a name="attribute-type"></a>属性类型
-  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 属性基于属性类型。 属性类型用于确定可为特定属性输入的数据的类型。 当前，Microsoft Dynamics 365 for Operations 支持以下属性类型：
+  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+  
+属性基于属性类型。 属性类型用于确定可为特定属性输入的数据的类型。 当前，Microsoft Dynamics 365 for Operations 支持以下属性类型：
 
 -   **货币** - 此属性类型支持货币值。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。
 -   **日期时间** - 此属性类型支持日期和时间值。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。
@@ -174,5 +96,7 @@ LCD
 ### <a name="at-the-retail-channel-level"></a>在零售渠道级别
 
   [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) 属性的默认值可为针对特定渠道的特定目录中的单独产品覆盖。
+
+
 
 

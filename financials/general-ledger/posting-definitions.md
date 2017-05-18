@@ -3,7 +3,7 @@ title: "过帐定义"
 description: "本文提供有关过帐定义以及如何定义和关联它们的信息。 对于支持的过帐类型和文档，则可以使用过帐定义而不是过帐模板来分类会计条目中的主科目和财务维度。"
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: 357ae498e84ef27e46142c7dcc0f90ecb0ee9f1c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: aea0a5c078e4fb3a47cce3a7b427b56bf7a9bcf5
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="posting-definitions"></a>过帐定义
+
+[!include[banner](../includes/banner.md)]
+
 
 本文提供有关过帐定义以及如何定义和关联它们的信息。 对于支持的过帐类型和文档，则可以使用过帐定义而不是过帐模板来分类会计条目中的主科目和财务维度。
 
@@ -59,5 +63,7 @@ ms.lasthandoff: 03/31/2017
 -   您可以分配过帐定义到任何交易记录类型，但是，交易记录类型必须作为过帐定义在同一模块。 使用**交易记录过帐定义**页可以查看交易记录类型在哪个模块。
 
 
-有关详细信息，请参阅[过帐定义示例](/general-ledger/example-posting-definitions.md)。 
+有关详细信息，请参阅[过帐定义示例](example-posting-definitions.md)。 
+
+
 

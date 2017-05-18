@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: dfefdede8f3bc884b230109d6c915127a1361ecd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: f92d81512d84b819d411775d67bfa6934642bcb5
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

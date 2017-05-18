@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: e43bcea67d9c408c93258f9b64565560b59fbb88
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 39056251c868c5683ed64a2e18168ed45bc27d61
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -51,7 +52,7 @@ Fabrikam 允许客户在部分付款以及贷方通知单上获得现金折扣�
 | 已选择 | 标准            | FTI-10050  | 4035    | 6/28/2015 | 7/28/2015 | 10050    | 1,000.00                       | 美元      | 990.00           |
 | 选定 | 标准            | CCRN-10050 | 4035    | 6/28/2015 | 7/28/2015 | CR-10050 | -100.00                        | 美元      | -99.00           |
 
-折扣信息显示在“结算交易记录”****页的底部。
+折扣信息显示在**“结算交易记录”**页的底部。
 
 |                              |           |
 |------------------------------|-----------|

@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 5b4030e7f02b14d0e5a9cf62ddc8a1809dfa91f3
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6ce2f0e08caecff17efc19abe29cb9d7d9e40755
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
