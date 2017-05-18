@@ -15,8 +15,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     },
     {
       "docset_name": "d365OpsDevITPro",
@@ -31,8 +30,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     },
     {
       "docset_name": "d365OpsFinancials",
@@ -47,8 +45,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     },
     {
       "docset_name": "d365OpsHR",
@@ -63,8 +60,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     },
     {
       "docset_name": "d365OpsRetail",
@@ -79,8 +75,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     },
     {
       "docset_name": "d365OpsSCM",
@@ -95,8 +90,7 @@
         "RestApi": "Content"
       },
       "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
+      "template_folder": "_themes"
     }
   ],
   "notification_subscribers": [],
