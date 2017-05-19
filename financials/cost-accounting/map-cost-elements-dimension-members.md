@@ -1,9 +1,9 @@
 ---
-title: "将不同的成本元素维度成员映射到一组通用的维度成员"
+title: "将成本元素维度成员映射到一组常用维度成员"
 description: "通过将不同的成本元素维度成员映射到一组通用的成本元素维度成员，您可以将数据合并为通用格式进行分析。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-11-01 13 - 45 - 07
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: global
 ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: a1e9817b6ee596ad516531d7597a2a39e115749c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 24794f371e1914f8466cd9a7407fd263e94b00aa
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="map-different-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>将不同的成本元素维度成员映射到一组通用的维度成员
+# <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a>将成本元素维度成员映射到一组常用维度成员
+
+[!include[banner](../includes/banner.md)]
+
 
 通过将不同的成本元素维度成员映射到一组通用的成本元素维度成员，您可以将数据合并为通用格式进行分析。
 
@@ -48,5 +52,7 @@ ms.lasthandoff: 03/31/2017
 
 ## <a name="update-mappings-at-any-time"></a>在任何时间更新映射
 您可以在任何时间更新成本元素维度的映射定义。 由于映射不是按日期生效，因此将在您下一次处理成本交易记录或运行成本计算时应用更改。
+
+
 
 

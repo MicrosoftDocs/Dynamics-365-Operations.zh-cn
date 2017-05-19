@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 79a43c35691f16d773b88faad63c4ab79cb93f1f
-ms.openlocfilehash: c6fb3922ba2c4b15f1043d0bcbac40ff2da9a469
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 82891b44a3ba3da23f3ce7a9b86be5e8f88d2afd
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -541,7 +542,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 14. 选择要使用的硬件工作站，然后单击**配对**。
 15. 为 Modern POS 将使用的每个硬件工作站重复步骤 14。
 16. 为所需全部硬件工作站配对之后，单击**关闭**。
-17. 在硬件工作站选择页中，单击最近选择的硬件工作站将其激活。 **注释**：如果设备经常使用不同硬件工作站，建议将 Modern POS 配置为收银员开始收款过程时提示其选择硬件工作站。 单击**零售和商业** &gt; **渠道设置** &gt; POS 设置 **** &gt; **收银机**。 选择收银机，然后将**收款后即可选择**选项设置为**是**。 使用 **1090** 配送计划将更改同步到渠道数据库。
+17. 在硬件工作站选择页中，单击最近选择的硬件工作站将其激活。 **注释**：如果设备经常使用不同硬件工作站，建议将 Modern POS 配置为收银员开始收款过程时提示其选择硬件工作站。 单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 选择收银机，然后将**收款后即可选择**选项设置为**是**。 使用 **1090** 配送计划将更改同步到渠道数据库。
 
 ## <a name="extensibility"></a>可扩展性
 有关硬件工作站的可扩展性方案的信息，请参阅[硬件工作站可扩展性](dev-itpro/hardware-station-extensibility.md)。
@@ -794,7 +795,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
     3.  在**命令提示符**窗口中，键入 **iisreset /Restart**，然后按 Enter。
     4.  IIS 重新启动后，重新启动 Modern POS。
 -   频繁更改外设时，如果也频繁启动和退出 POS 客户端，则上一个 POS 会话的 dllhost 进程可能干扰当前会话。 在这种情况下，关闭正在管理上一个会话的动态链接库 (DLL) 主机之前，设备可能不可用。 若要关闭 DLL 主机，请执行以下步骤：
-    1.  在**开始**菜单中键入 **Task manager**。
+    1.  在**开始**菜单中键入**任务管理器**。
     2.  在搜索结果中，单击**任务管理器**。
     3.  在“任务管理器”中的**详细信息**选项卡上，单击带有**名称**标签的列标题，按名称以字母顺序为表排序。
     4.  向下滚动，直到找到 dllhost.exe。

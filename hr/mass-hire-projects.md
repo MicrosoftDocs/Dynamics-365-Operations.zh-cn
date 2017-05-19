@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: d330f73ee9cbdd6bdcc197c3783a9230b26e04d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 5ba5816b65bcaa3a71ab3367cfbe6a115e52062a
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="mass-hire-projects"></a>大批雇用项目
+
+[!include[banner](includes/banner.md)]
+
 
 大型雇用项目允许人力资源专员创建多个职位，并且高效地为这些职位雇用工作人员。
 
@@ -46,7 +50,7 @@ ms.lasthandoff: 03/31/2017
 
 在为实习职位选择要雇用的学员后，您可以在**职位详细信息**中为您雇用学生所从事的职位输入每个学生的信息。 在输入所有职位详细信息后，请选择“大批雇用项目”页的职位，然后单击**雇用**。 将为每个职位创建职位记录，然后将创建某一工作人员记录并将其分配到您雇用的每个人员的正确职位。
 
-## <a name="masshire-project-statuses"></a>大批雇用项目状态
+## <a name="mass-hire-project-statuses"></a>成批雇用项目状态
 大批雇用项目可以具有以下状态。
 -   创建时间
 -   未完成
@@ -92,6 +96,8 @@ ms.lasthandoff: 03/31/2017
 </table>
 
  
+
+
 
 
 

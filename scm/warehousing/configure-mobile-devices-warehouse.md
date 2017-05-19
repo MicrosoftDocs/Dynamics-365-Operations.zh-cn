@@ -3,7 +3,7 @@ title: "为仓库工作设置移动设备"
 description: "本文介绍如何配置仓库工作人员用于在移动设备上执行工作的菜单项。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 34d7b246d74d1546b54494944903d160e31f7678
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: a964587fa5dd48f0ed4e9f2c67fb52e5071ac98d
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>为仓库工作设置移动设备
+
+[!include[banner](../includes/banner.md)]
+
 
 本文介绍如何配置仓库工作人员用于在移动设备上执行工作的菜单项。
 
@@ -267,7 +271,7 @@ ms.lasthandoff: 03/31/2017
 <tbody>
 <tr class="odd">
 <td>允许拆分工作</td>
-<td>选择此选项可允许用户将工作指令项输入到多个目标牌照中。 此选项很有用，例如，当一个目标牌照已满时，工作人员必须将剩余的物料添加到另一个牌照中。 工作人员可以单击“满”<strong></strong>，从而说明牌照已满，停止接收领料工作。 然后将显示已领物料放置的位置，已经完成的领料工作将移到一个新的工作订单中。 目标牌照的剩余领料工作仍然在原来的工作订单中。</td>
+<td>选择此选项可允许用户将工作指令项输入到多个目标牌照中。 此选项很有用，例如，当一个目标牌照已满时，工作人员必须将剩余的物料添加到另一个牌照中。 工作人员可以单击<strong>“满”</strong>，从而说明牌照已满，停止接收领料工作。 然后将显示已领物料放置的位置，已经完成的领料工作将移到一个新的工作订单中。 目标牌照的剩余领料工作仍然在原来的工作订单中。</td>
 </tr>
 <tr class="even">
 <td>定位</td>
@@ -315,7 +319,7 @@ ms.lasthandoff: 03/31/2017
 </tr>
 <tr class="even">
 <td>显示库存状态</td>
-<td>选中此选项可以显示仓库中的物料状态。 有关详细信息，请参阅<a href="/inventory/inventory-statuses.md">使用库存状态的优点</a>。 除周期盘点之外，此选项可用于使用现有工作的所有菜单项。</td>
+<td>选中此选项可以显示仓库中的物料状态。 除周期盘点之外，此选项可用于使用现有工作的所有菜单项。</td>
 </tr>
 <tr class="odd">
 <td>显示领料屏幕的摘要</td>
@@ -360,7 +364,7 @@ ms.lasthandoff: 03/31/2017
 </tr>
 <tr class="even">
 <td>系统分组字段</td>
-<td>选择决定 Microsoft Dynamics 365 for Operations 如何为工作人员领料工作进行分组的字段。 例如，如果您选择“ShipmentId”<strong></strong>字段，工作人员将扫描装运 ID 来对领料工作进行分组。 然后将装运的所有工作分配给工作人员。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 您还必须在<strong>系统分组标签</strong>字段中输入文本以通知工作人员需要扫描哪些内容。</td>
+<td>选择决定 Microsoft Dynamics 365 for Operations 如何为工作人员领料工作进行分组的字段。 例如，如果您选择<strong>“ShipmentId”</strong>字段，工作人员将扫描装运 ID 来对领料工作进行分组。 然后将装运的所有工作分配给工作人员。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 您还必须在<strong>系统分组标签</strong>字段中输入文本以通知工作人员需要扫描哪些内容。</td>
 </tr>
 <tr class="odd">
 <td>系统分组标签</td>
@@ -372,11 +376,11 @@ ms.lasthandoff: 03/31/2017
 </tr>
 <tr class="odd">
 <td>已验证用户导向的字段</td>
-<td>选择工作人员需要用来扫描以分组工作的字段。 例如，如果您选择“LoadId”<strong></strong>，工作人员可以挑选与所选负载相关的任何工作。 您还必须在<strong>已验证用户导向的标签</strong>字段中输入文本以通知工作人员需要扫描哪些内容。</td>
+<td>选择工作人员需要用来扫描以分组工作的字段。 例如，如果您选择<strong>“LoadId”</strong>，工作人员可以挑选与所选负载相关的任何工作。 您还必须在<strong>已验证用户导向的标签</strong>字段中输入文本以通知工作人员需要扫描哪些内容。</td>
 </tr>
 <tr class="even">
 <td>已验证用户导向的标签</td>
-<td>当领料工作是由已验证的用户指导字段分组时，输入文本告知工作人员需要扫描的内容。 例如，如果您正在使用“LoadId”<strong></strong>字段来对负载的领料工作进行分组，您可以在字段中输入<strong>负载 ID</strong>。</td>
+<td>当领料工作是由已验证的用户指导字段分组时，输入文本告知工作人员需要扫描的内容。 例如，如果您正在使用<strong>“LoadId”</strong>字段来对负载的领料工作进行分组，您可以在字段中输入<strong>负载 ID</strong>。</td>
 </tr>
 <tr class="odd">
 <td>工作模板代码</td>
@@ -412,5 +416,7 @@ ms.lasthandoff: 03/31/2017
 [设置用于完成采购订单类型工作的移动设备菜单项（任务指南）](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
 
 [设置登记已接收物料的移动设备菜单项（任务指南）](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[使用库存状态的优点](../inventory/inventory-statuses.md)
+
 
 

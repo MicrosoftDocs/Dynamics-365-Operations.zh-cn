@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 81a52acd1d9baa12fcfe9d848441901894fa5682
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3f13e07a1adf74982a8b220296ae72d71075e0e3
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -37,7 +38,7 @@ ms.lasthandoff: 03/31/2017
 在使用一般日记帐实体导入之前，请验证以下设置︰
 
 -   **日记帐批处理号的编号规则设置** – 默认情况下，当您使用一般日记帐实体导入时，日记帐批处理号将使用在总帐参数中定义的编号规则。 对于到日记帐批处理号，如果设置编号规则为**手动**，则不应用默认编号。 不支持此设置。
--   **财务维度配置** – 当实体用于导入交易记录时，每个组织必须定义财务维度的顺序。 为**分类帐维度集成**格式定义顺序，在**总帐** &gt; **会计科目表** &gt; **维度** &gt; **用于集成应用程序的财务维度配置 **&gt; **选择数据实体**。 导入的会计科目的段必须具有相同的顺序。 否则，导入过程中将发生错误。
+-   **财务维度配置** – 当实体用于导入交易记录时，每个组织必须定义财务维度的顺序。 为**分类帐维度集成**格式定义顺序，在**总帐** &gt; **会计科目表** &gt; **维度** &gt; **用于集成应用程序的财务维度配置**&gt; **选择数据实体**。 导入的会计科目的段必须具有相同的顺序。 否则，导入过程中将发生错误。
 
 ## <a name="general-journal-entity-setup"></a>普通日记帐实体设置
 数据管理的两个设置影响如何应用默认日记帐批处理号或凭证号︰

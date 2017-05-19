@@ -3,7 +3,7 @@ title: "帮助概览"
 description: "本文提供 Microsoft Dynamics 365 for Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。"
 author: margoc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 240060606c8a2955c3f0a0d47fb25b0cde64c187
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="help-overview"></a>帮助概览
+
+[!include[banner](../includes/banner.md)]
+
 
 本文提供 Microsoft Dynamics 365 for Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。 
 
@@ -37,18 +41,18 @@ Dynamics 365 for Operations 包括一个帮助系统，基于两个主要组件�
 您可以从 Dynamics 365 for Operations 中的“帮助”窗格访问文章和任务指南，如下面的屏幕快照所示。 [![“帮助”窗格](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png)本文描述帮助系统，并说明如何为您的组织创建自定义文档和培训资源。
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com 中的“帮助”
-docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) 是 Dynamics 365 for Operations 的产品文档的主要来源。 该站点提供以下功能：
+docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) 是 Dynamics 365 for Operations 的产品文档的主要来源。 该站点提供以下功能：
 
 -   **访问最新的内容** – 该站点能让我们以更快、更灵活的方式创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。
--    **由专家编写的内容** – 该站点提供更丰富的产品文档集，可由 Microsoft 内外的社区成员增强。
--   **访问不同类型的内容** – 该站点能让您快速访问有关 Dynamics 365 for Operations 的不同类型的内容，如 Microsoft Office 组合演示文稿、任务指南、视频和 wiki 文章。
--    **支持您的业务流程的内容** – 该站点包括侧重于业务流程的内容，这些内容利用 Microsoft Dynamics Lifecycle Services (LCS) 中的 Business Process Modeler (BPM)。
+-   **由专家编写的内容** – 该站点提供更丰富的产品文档集，可由 Microsoft 内外的社区成员增强。
+-   **访问不同类型的内容** – 该站点能让您快速访问有关 Dynamics 365 for Operations 的不同类型的内容，如 Microsoft Office 组合演示文稿、任务指南、视频和主题。
+-   **支持您的业务流程的内容** – 该站点包括侧重于业务流程的内容，这些内容利用 Microsoft Dynamics Lifecycle Services (LCS) 中的 Business Process Modeler (BPM)。
 
 我们已将以前的帮助 wiki 中的所有内容迁移到了 docs。 我们对新的站点感到非常激动，希望您也是。
 
 ### <a name="when-can-we-use-it"></a>我们什么时候可以使用它？
 
-您可以立即阅读 docs 上的内容 -- 它是完全公共的、可搜索的，而无需登录。 您可以使用您喜爱的任何搜索引擎查找内容。 如果您愿意，可以通过使用 GitHub 帐户登录以评论该站点中的文章。
+您可以立即阅读 docs 上的内容 -- 它是完全公共的、可搜索的，而无需登录。 您可以使用您喜爱的任何搜索引擎查找内容。 如果您愿意，可以通过登录评论该站点的文章。
 
 
 ## <a name="task-guides"></a>任务指南
@@ -68,7 +72,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](https://d
 您可以创建自己的任务录制，也可以下载 Microsoft 提供的自定义任务录制。 因此，您可以为您的组织创建反映您的特定 Dynamics 365 for Operations 实施的自定义帮助。 若要在 Dynamics 365 for Operations 的“帮助”窗格中显示任务录制并将其作为任务指南播放，您必须将录制保存到 LCS 中的 BPM 库。 如果您是合作伙伴，并且您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。 有关完整指南，请参阅[使用任务录制创建文档或培训](../user-interface/task-recorder.md)。
 
 ## <a name="in-product-help"></a>产品内帮助
-若要访问 Dynamics 365 for Operations 内的帮助内容，请单击**“帮助”**(**?**) 图标，然后选择“帮助”或按 Ctrl+Shift+?。 在这两种情况下，“帮助”窗格将会打开。 从“帮助”窗格中，您可以访问文章或任务指南。 [![](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+若要访问 Dynamics 365 for Operations 内的帮助内容，请单击**“帮助”**(**?**) 图标，然后选择“帮助”或按 Ctrl+Shift+?。 在这两种情况下，“帮助”窗格将会打开。 从“帮助”窗格中，您可以访问文章或任务指南。 [![帮助窗格](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>从“帮助”窗格中访问文章
 
@@ -101,13 +105,13 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](https://d
 
 | 站点                                                                     | 说明                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| [Docs.microsoft.com](https://docs.microsoft.com/en-us/dynamics365/#pivot=solutions&panel=solutions_operations) | 承载或链接到 Dynamics 365 for Operations 的所有产品文档。                                                                                                                                                               |
+| [Docs.microsoft.com](/dynamics365/#pivot=solutions&panel=solutions_operations) | 承载或链接到 Dynamics 365 for Operations 的所有产品文档。                                                                                                                                                               |
 | [Lifecycle Services](http://lcs.dynamics.com/en/)\*                      | 提供基于云的协作工作区，可供客户和合作伙伴用来从售前到执行和运营阶段管理 Dynamics 365 for Operations 项目。 此站点在执行的所有阶段都很有用。 |
 | [CustomerSource](http://www.customersource.com/)\*                       | 承载广泛的培训资源，并且是 Dynamics 365 for Operations 的主要支持站点。 可能需要登录才能访问该站点上的特定资源。                                                                      |
 | [支持博客](http://aka.ms/AXSupportBlog)                              | 提供 Dynamics 365 for Operations 支持团队发布的提示和窍门。                                                                                                                                                  |
 | [MSDN](http://aka.ms/AXMSDN)                                             | 承载为开发人员编写的来自以前版本的内容。                                                                                                                                                                       |
 | [TechNet](http://aka.ms/TechNet)                                         | 承载 IT 专业和应用程序用户编写的来自以前版本的内容。                                                                                                                                           |
-| [Dynamics 社区](http://community.dynamics.com/en/)                  | 承载博客、论坛和视频。                                                                                                                                                                                                           |
+| [Dynamics 社区](http://community.dynamics.com/)                  | 承载博客、论坛和视频。                                                                                                                                                                                                           |
 | [Microsoft.com/Dynamics/](http://www.microsoft.com/dynamics/)                 | 提供评估和销售信息。                                                                                                                                                                                                 |
 
 
@@ -125,6 +129,8 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](https://d
 [新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
 [新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
 [新的或更新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
+
+
 
 
 

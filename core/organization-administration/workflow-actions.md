@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: adcb0443f5ad07ae7178e9fde963184951e6b8d9
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 005c4ecb81c650945aba19e001547967f594412b
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -34,7 +35,7 @@ ms.lasthandoff: 03/31/2017
 工作流可能涉及若干组人员：发起方、任务受托人、决策者和审核人。 例如，在以下支出报表工作流中，Sam 是发起方，队列的成员是任务受托人，John 是决策者，Frank、Sue 和 Ann 是审核人。   [![Workflow\_WithManualDecision](./media/workflow_withmanualdecision.gif)](./media/workflow_withmanualdecision.gif) 以下部分说明每个组可以执行的工作流操作。
 
 ## <a name="actions-that-an-originator-can-perform"></a>发起方可以执行的操作
-发起方通过提交文档进行审查来启动工作流实例。 例如，Sam 必须在“支出报表”****页上单击“提交”****按钮，才能提交其支出报表。
+发起方通过提交文档进行审查来启动工作流实例。 例如，Sam 必须在**“支出报表”**页上单击**“提交”**按钮，才能提交其支出报表。
 
 ## <a name="actions-that-a-task-assignee-can-perform"></a>任务受托人可执行的操作
 一个任务可分配给多个人员或到由若干人员监控的工作项队列。 不过，只能由一个人来完成任务。 例如，Sam 提交了一份支出报表并将其收据发送到其组织的支出报表部门进行审查。 Adventure Works 支出报表部门的成员监控该队列。 该部门的成员 Julie 接受了审查 Sam 的支出报表和收据的任务。 她现在可以执行以下操作之一：完成、拒绝、委托、请求更改、重新分配或下达。 **注释：**可用操作将随软件开发人员设计任务的方式而变化。

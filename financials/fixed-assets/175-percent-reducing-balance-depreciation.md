@@ -3,7 +3,7 @@ title: "175% 余额递减法"
 description: "本文提供了 175% 余额递减法折旧方法的概览。"
 author: twheeloc
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: 812fbb3cc3159783e9908e537c366ffc7f934092
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: cf428d61f89ea70a83e440c656fbc84d7dbded8d
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="175-percent-reducing-balance-depreciation"></a>175% 余额递减法
+
+[!include[banner](../includes/banner.md)]
+
 
 本文提供了 175% 余额递减法折旧方法的概览。
 
@@ -54,7 +58,7 @@ ms.lasthandoff: 03/31/2017
 
 ### <a name="fiscal"></a>会计
 
-如果在**“折旧年份”**字段中选择**“会计”**，则 175% 余额递减法将基于用于帐簿中指定的会计日历的会计年度或者在**“分类帐”**页面上选择的会计日历的会计年度进行计算。 会计年度是在**“会计日历”**页上设置的。 有关详细信息，请参阅[会计日历、会计和年度期间](\financials\budgeting\fiscal-calendars-fiscal-years-periods.md)。
+如果在**“折旧年份”**字段中选择**“会计”**，则 175% 余额递减法将基于用于帐簿中指定的会计日历的会计年度或者在**“分类帐”**页面上选择的会计日历的会计年度进行计算。 会计年度是在**“会计日历”**页上设置的。 有关详细信息，请参阅[会计日历、会计和年度期间](..\budgeting\fiscal-calendars-fiscal-years-periods.md)。
 
 例如，对于会计年度 7 月 1 日至次年 6 月 30 日，折旧计算从 7 月 1 日开始。 会计年度可以长于或短于 12 个月。 对于每个期间，折旧都可以自动调整，下一个会计年度的长度取决于**“财务日历”**页面上的期间的设置。 
 
@@ -82,5 +86,7 @@ ms.lasthandoff: 03/31/2017
 
 > [!NOTE] 
 > 通常，当使用 175% 余额递减折旧法计算的金额小于使用直线法计算的金额时，对剩余年限转换到直线法。
+
+
 
 

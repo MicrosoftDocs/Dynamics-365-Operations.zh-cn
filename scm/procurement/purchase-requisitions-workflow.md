@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 7c5986dbce88a1cb704dddfc2afbcf2ac8c4b0dd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 2a39054e5736c1162634cf9b1dd3f7e0c0c4ec16
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -104,7 +105,7 @@ ms.lasthandoff: 03/31/2017
 
 您可以在**“采购申请支出审核人”**页上设置支出审核人。 创建支出审核人配置，并为您的组织中的每个法人输入值。 对于分配到项目的申请，您可以指定负责审核申请的角色：项目经理、项目审计员或项目销售经理。 支出将传送到分配到指定角色的用户。 您还可以通过在**“组织分配”**选项卡上选择相应的财务维度选项将支出传送到财务维度拥有者。  
 
-若要使用您在工作流中设置的某一支出审核人，您必须在相关工作流元素属性的** “分配”**属性中将**“参与者的类型”**选项设置为**“支出参与者”**。
+若要使用您在工作流中设置的某一支出审核人，您必须在相关工作流元素属性的**“分配”**属性中将**“参与者的类型”**选项设置为**“支出参与者”**。
 
 <a name="see-also"></a>请参阅
 --------

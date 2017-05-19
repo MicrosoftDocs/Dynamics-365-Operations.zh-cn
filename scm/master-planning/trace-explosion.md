@@ -19,10 +19,11 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: b21fd97426b331726c12ea29f89817a46dd445c3
-ms.openlocfilehash: 7709e9defbd866593c3300fd740098d3a11d1aec
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dc4328bfd04b338decc237b2300eab59c072ab21
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -41,7 +42,7 @@ ms.lasthandoff: 03/31/2017
 -   模拟计划结果以确定计划参数是否最佳。
 -   标识如何确定信息（如订单的生产日期、数量和优先级）。
 
-您可以查看有关所选订单的预期和操作的详细信息。 在“分解”****页中，跟踪信息在上部窗格的“说明”****选项卡中提供。 跟踪在分解订单时进行。 若要开始跟踪计划订单，请单击“更新”****，然后选中“启用跟踪功能”****复选框。 您可以使用“查找文本”****字段搜索记录的特定信息。 搜索结果在树中突出显示。
+您可以查看有关所选订单的预期和操作的详细信息。 在**“分解”**页中，跟踪信息在上部窗格的**“说明”**选项卡中提供。 跟踪在分解订单时进行。 若要开始跟踪计划订单，请单击**“更新”**，然后选中**“启用跟踪功能”**复选框。 您可以使用**“查找文本”**字段搜索记录的特定信息。 搜索结果在树中突出显示。
 
 <a name="see-also"></a>请参阅
 --------

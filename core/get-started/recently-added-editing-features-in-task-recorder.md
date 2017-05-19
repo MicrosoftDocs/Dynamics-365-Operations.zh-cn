@@ -1,6 +1,6 @@
 ---
 title: "任务录制器中最近增加的编辑功能"
-description: "如果您使用任务录制器创建任务指南，您可以使用此 wiki 中介绍的内容提高此功能的使用效率。"
+description: "如果您使用任务录制器创建任务指南，您可以使用此主题中介绍的内容提高此功能的使用效率。"
 author: josaw1
 manager: AnnBe
 ms.date: 04/04/2017
@@ -17,17 +17,21 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: c4f9ac515eab6ed8b194fc8985f6d3fae40ced38
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3be54879494948f75b192fcc22239b9064173220
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="recently-added-editing-features-in-task-recorder"></a>任务录制器中最近增加的编辑功能
 
-如果您使用任务录制器创建任务指南，您可以使用此 wiki 中介绍的内容提高此功能的使用效率。
+[!include[banner](../includes/banner.md)]
+
+
+如果您使用任务录制器创建任务指南，您可以使用此主题中介绍的内容提高此功能的使用效率。
 
 这些功能位于**设置 &gt; 任务录制器 &gt; 编辑录制**菜单中。
 
@@ -86,5 +90,7 @@ ms.lasthandoff: 03/31/2017
 [使用任务录制创建文档或培训](/dynamics365/operations/dev-itpro/user-interface/task-recorder)
 
 [任务录制器快速参考](/dynamics365/operations/dev-itpro/user-interface/task-recorder-quick-reference)
+
+
 
 

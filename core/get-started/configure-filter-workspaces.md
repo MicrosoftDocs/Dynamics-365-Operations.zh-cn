@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: af071e009cd3f5edd918a6ab2d6d4c0119900a4e
-ms.openlocfilehash: 30d86674bce2ed65b0ccdac0862f208b02b02e5c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9a47b3b2e11674353af8113a023e98d1ed8643b9
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

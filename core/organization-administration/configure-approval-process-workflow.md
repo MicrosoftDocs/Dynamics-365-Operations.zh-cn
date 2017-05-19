@@ -3,7 +3,7 @@ title: "配置工作流中的审核流程"
 description: "使用以下过程配置审核流程的属性。"
 author: sericks007
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 579e393ef64bc5ad72d129ac08ac215c524d5c55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="configure-an-approval-process-in-a-workflow"></a>配置工作流中的审核流程
+
+[!include[banner](../includes/banner.md)]
+
 
 使用以下过程配置审核流程的属性。
 
@@ -161,7 +165,9 @@ ms.lasthandoff: 03/31/2017
 审核流程包括多个审核步骤。 完成以下过程以将步骤添加到审核流程并配置这些步骤。
 1.  在工作流编辑器中，双击审核流程。 工作流编辑器显示审核流程的步骤。
 2.  要添加审核步骤，请将步骤从“**工作流元素**”区域拖到画布。
-3.  要配置审核步骤，请参阅“[配置审核步骤](http://axhelp.dynamics.com/en/wiki/configure-an-approval-step/)”。
+3.  要配置审核步骤，请参阅“[配置审核步骤](configure-approval-step-workflow.md)”。
+
+
 
 
 

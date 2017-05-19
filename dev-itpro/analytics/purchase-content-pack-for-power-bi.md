@@ -3,7 +3,7 @@ title: "采购支出分析 Power BI 内容"
 description: "此主题描述 Microsoft Power BI 的采购支出分析内容包中的内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-12-30 09 - 40 - 51
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: global
 ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 8cb928cbf1316e63a8c7de833587168cd36a455c
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: d392b88942f4b7d7365b000df1cd69809060b910
+ms.openlocfilehash: e39b1677038037cd91cfad8d104d0130bc20fb9b
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a>采购支出分析 Power BI 内容
+
+[!include[banner](../includes/banner.md)]
+
 
 此主题描述 Microsoft Power BI 的采购支出分析内容包中的内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。
 
@@ -38,6 +42,7 @@ Microsoft Power BI 的采购支出分析内容包是为采购经理和负责预�
 
 ## <a name="accessing-the-content-pack"></a>访问内容包
 “采购支出分析”内容包发布为 Microsoft Dynamics Lifecycle Services (LCS) 中的实施资产，并且可以从 Microsoft Dynamics 365 for Operations 访问。 有关如何访问和打开 Power BI 报表的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
+注意：KB 4011327 是此 Power BI 内容的先决条件。 登录 Lifecycle Services 之后，可以在以下位置访问该 KB：https://fix.lcs.dynamics.com/issue/results/?q=kb4011327。
 
 ## <a name="metrics-that-are-included-in-the-content-pack"></a>此内容包中包含的指标
 “采购支出分析”内容包中包含一个由一组指标构成的报表。 这些指标显示为图表、磁贴和表。 下表概要介绍此内容包中的可视化。
@@ -129,7 +134,7 @@ Microsoft Power BI 的采购支出分析内容包是为采购经理和负责预�
 \* 今年和去年的采购，以及按采购类别的增长
 
 ## <a name="data-model-and-entities"></a>数据模型和实体
-Dynamics 365 for Operations 数据用于“采购支出分析”内容包中的报表。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL 数据库）中暂存的聚合度量。 有关实体商店的详细信息，请参阅 [Power BI 与 Dynamics 中的实体商店之间的集成](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)博客文章。 此内容包中的聚合度量是 Microsoft Dynamics AX 2012 和 Microsoft Dynamics 365 for Operations 2012 R3 中的采购多维数据集中提供的聚合度量子集。 若要在实体商店中暂存多维数据集的聚合度量，必须将其设置为可部署。 有关详细信息，请参阅 [Power BI 与 Dynamics 中的实体商店之间的集成](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)博客文章中在实体商店中暂存聚合度量的过程。 以下关键聚合度量直接从发票行实体提供，并用作此内容包的基础。
+Dynamics 365 for Operations 数据用于“采购支出分析”内容包中的报表。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL 数据库）中暂存的聚合度量。 有关实体商店的详细信息，请参阅 [Power BI 与 Dynamics 中的实体商店之间的集成](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)博客文章。 此内容包中的聚合度量是 Microsoft Dynamics AX 2012 和 Microsoft Dynamics AX 2012 R3 中的采购多维数据集中提供的聚合度量子集。 若要在实体商店中暂存多维数据集的聚合度量，必须将其设置为可部署。 有关详细信息，请参阅 [Power BI 与 Dynamics 中的实体商店之间的集成](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)博客文章中在实体商店中暂存聚合度量的过程。 以下关键聚合度量直接从发票行实体提供，并用作此内容包的基础。
 
 | 实体        | 关键聚合度量 | Dynamics 365 for Operations 的数据源 | 字段              | 说明                           |
 |---------------|----------------------------|---------------------------------------------|--------------------|---------------------------------------|
@@ -162,6 +167,8 @@ Dynamics 365 for Operations 数据用于“采购支出分析”内容包中的�
 -   [创建组织内容包](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 -   [使用 Power BI 的数据建模](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
 -   [将 Power BI 磁贴添加到工作区](configure-power-bi-integration.md)
+
+
 
 
 

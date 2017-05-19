@@ -1,9 +1,9 @@
 ---
-title: "设置电子申报为 Power BI 提供来自 Dynamics 365 for Operations 的数据"
+title: "配置电子申报以将数据拉入到 Power BI 中"
 description: "本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的 Dynamics 365 for Operations 实例转移至 Power BI 服务。 例如，本主题使用内部统计交易记录作为必须转移的业务数据。 Power BI 地图可视化使用此内部统计交易记录数据显示 Power BI 报表上的公司导入/导出活动的分析视图。"
 author: kfend
 manager: AnnBe
-ms.date: 2016-10-31 13 - 22 - 29
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: ed0192c44b6d7e88120c64e539ebb0ac3b379831
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 4bbc77eb1edfe0c109434ce4d26228ed031f48bc
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="set-up-electronic-reporting-to-provide-power-bi-with-data-from-dynamics-365-for-operations"></a>设置电子申报为 Power BI 提供来自 Dynamics 365 for Operations 的数据
+# <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>配置电子申报以将数据拉入到 Power BI 中
+
+[!include[banner](../includes/banner.md)]
+
 
 本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的 Dynamics 365 for Operations 实例转移至 Power BI 服务。 例如，本主题使用内部统计交易记录作为必须转移的业务数据。 Power BI 地图可视化使用此内部统计交易记录数据显示 Power BI 报表上的公司导入/导出活动的分析视图。
 
@@ -66,7 +70,7 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
 ## <a name="design-an-er-format-configuration"></a>设计 ER 格式配置
 您必须创建使用**内部统计**数据模型作为业务数据源的新 ER 格式配置。 此格式配置必须将输出结果生成为 OpenXML（Excel 文件）格式的电子文档。 有关详细信息，请播放“**ER 创建 OPENXML 格式的报表配置**”任务指南。 将新配置命名为“**导入/导出活动**”，如下图所示。 使用“[ER 数据导入和导出详细信息](https://go.microsoft.com/fwlink/?linkid=845208)”Excel 文件作为设计 ER 格式时的模板。 （有关如何导入格式模板的信息，请播放任务指南。）[![导入/导出活动配置](media/ger-power-bi-format-configuration.png)](media/ger-power-bi-format-configuration.png) 要修改**导入/导出活动**格式配置，请执行以下步骤。
 
-1.  单击“设计器”****。
+1.  单击**“设计器”**。
 2.  在“**格式**”选项卡上，将此格式的文件元素命名为“**Excel 输出文件**”。 [![Excel 输出文件元素](./media/ger-power-bi-format-configuration-file-element-name-1024x395.png)](./media/ger-power-bi-format-configuration-file-element-name.png)
 3.  在“**映射**”选项卡上，指定在任何时候运行此格式时将生成的 Excel 文件名。 将相关表达式配置为返回值“**导入和导出详细信息**”（将自动添加 .xlsx 文件扩展名）。 [![格式设计器](./media/ger-power-bi-format-configuration-output-file-name-1024x396.png)](./media/ger-power-bi-format-configuration-output-file-name.png)
 4.  为此格式添加新的数据源项目。 （进一步绑定数据将需要此枚举。）
@@ -119,5 +123,7 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
 [电子申报目标](electronic-reporting-destinations.md)
 
 [电子申报概览](general-electronic-reporting.md)
+
+
 
 

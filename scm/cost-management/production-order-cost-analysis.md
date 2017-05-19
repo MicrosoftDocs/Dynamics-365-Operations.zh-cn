@@ -3,7 +3,7 @@ title: "生产订单成本分析"
 description: "本文提供有关可为已完成和当前生产订单执行的成本分析的信息。 您可以使用价格计算页或成本预估和成本计算报表分析估计成本和实际成本。 您可以查看有关每个组件物料的估计和实际成本（和数量）、工艺路线工序以及间接成本的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-04-11 13 - 25 - 42
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: f931432f6dc919d448ed690a1deae3d64bebe455
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: acb8e49ed86d3e22ba8e343280f77c0644f057c6
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="production-order-cost-analysis"></a>生产订单成本分析
+
+[!include[banner](../includes/banner.md)]
+
 
 本文提供有关可为已完成和当前生产订单执行的成本分析的信息。 您可以使用价格计算页或成本预估和成本计算报表分析估计成本和实际成本。 您可以查看有关每个组件物料的估计和实际成本（和数量）、工艺路线工序以及间接成本的信息。
 
@@ -40,7 +44,11 @@ ms.lasthandoff: 03/29/2017
 -   生产价差异
 -   生产替代差异
 
-在该生产订单结束时，下图为物料的成本记录内生成订单的实际成本和计算的成本之间的差异显示帐户的四个差异。 ![说明完成生产订单的差别的差异](./media/control.jpg)您可以使用**差异**页或**生产差异**报表分析生产差异。 使用显示选项卡按物料和运营资源，或按成本组查看详细差异。 库存参数中的成本细分策略确定是否按成本组跟踪差异。 您还可以使用**单个**、**多个**和**总计**显示选项查看汇总的差异。 有关详细差异的信息可以帮助您理解每个差异的来源。 为了在结束生产订单前预测差异，应分析在**成本预估和成本计算**报表中提供的详细信息。
+在该生产订单结束时，下图为物料的成本记录内生成订单的实际成本和计算的成本之间的差异显示帐户的四个差异。 
+
+![计入已完成生产订单差异的差异](./media/control.jpg) 
+
+可以通过使用**差异**页或**生产差异**报表分析生产差异。 使用显示选项卡按物料和运营资源，或按成本组查看详细差异。 库存参数中的成本细分策略确定是否按成本组跟踪差异。 您还可以使用**单个**、**多个**和**总计**显示选项查看汇总的差异。 有关详细差异的信息可以帮助您理解每个差异的来源。 为了在结束生产订单前预测差异，应分析在**成本预估和成本计算**报表中提供的详细信息。
 
 ## <a name="cost-analysis-for-current-production-orders"></a>当前生产订单的成本分析
 单独的报表提供与各个交易记录类型有关的信息。 使用这些报表可以分析报告的生产活动的成本。 只为状态为**已开始**或**完工入库**的当前生产订单显示信息。
@@ -56,5 +64,7 @@ ms.lasthandoff: 03/29/2017
 --------
 
 [生产差异的常见来源](common-sources-of-production-variances.md)
+
+
 
 

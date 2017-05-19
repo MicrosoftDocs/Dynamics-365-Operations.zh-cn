@@ -3,7 +3,7 @@ title: "Lean manufacturing 的 看板作业计划"
 description: "文本提供有关看板作业计划和各种看板作业计划方法的可视化控制的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-24 15 - 02 - 36
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,22 +18,28 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ccbe5815ebb54e00265e130be9c82491aebabce
-ms.openlocfilehash: 062cbbc8a4fd3b4dc738f24ee0606a3741736377
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 019974b96985748c82641b73e40a3131d5b27232
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Lean manufacturing 的 看板作业计划
 
+[!include[banner](../includes/banner.md)]
+
+
 文本提供有关看板作业计划和各种看板作业计划方法的可视化控制的信息。  
 
 **“看板作业计划”**页提供了对 lean manufacturing 工作单元的计划的可视化控制。 它概述了所有看板作业并提供了多种筛选功能。 您可以从该页移至所有其他与看板配置和执行相关的页面。
 
 ## <a name="automatic-scheduling-of-kanban-jobs"></a>自动计划看板作业
-如果您在看板规则上设置**自动计划数量**参数，则会自动触发计划。 如果您将**自动计划数量**设置为 <**1**，则会在创建每个看板作业后立即计划该作业。 该结果为一系列先拉先运行操作。 如果您将**“自动计划数量”**设置为一个大于 1 的值，则会先对看板作业进行分组，然后再计划这些看板作业。 此概念支持减小看板大小，直至其小于实际经济批次大小。 例如，某个特定物料（或物料系列）的经济批次大小为 30。 您可以配置看板规则，使其产品数量为 10 且**“自动计划数量”**值为 **3**，而不是创建使用产品数量 30 的看板。 虽然自动计划仅在存在 3 个未计划的作业时为工作单元计划看板作业，但规划员或车间经理可以很清楚地知道，两个未计划的作业可能正在等待执行。 随后，规划员或车间经理可通过手动计划这两个作业或创建附加看板来将二者投入生产中。
+如果您在看板规则上设置**自动计划数量**参数，则会自动触发计划。 如果您将**自动计划数量**设置为 <**1**，则会在创建每个看板作业后立即计划该作业。 该结果为一系列先拉先运行操作。 如果您将**“自动计划数量”**设置为一个大于 1 的值，则会先对看板作业进行分组，然后再计划这些看板作业。 
+
+此概念支持减小看板大小，直至其小于实际经济批次大小。 例如，某个特定物料（或物料系列）的经济批次大小为 30。 您可以配置看板规则，使其产品数量为 10 且**自动计划数量**值为 **3**，而不是创建使用产品数量 30 的看板。 虽然自动计划仅在存在 3 个未计划的作业时为工作单元计划看板作业，但规划员或车间经理可以很清楚地知道，两个未计划的作业可能正在等待执行。 随后，规划员或车间经理可通过手动计划这两个作业或创建附加看板来将二者投入生产中。
 
 ## <a name="manual-scheduling"></a>手动计划
 对于手动计划，Microsoft Dynamics AX 2012 引入了看板计划板。 手动计划可与自动计划结合使用。 利用看板计划板，您可以计划和取消计划作业、按顺序移动作业或在各个期间之间移动作业。 可手动取消计划基于看板规则（其中，**“自动计划”**值大于 **0**）的作业。 但是，在下一个自动计划事件发生时（即，在创建新的看板时），将重新计划这些作业。 以下选项可用于手动计划：
@@ -66,5 +72,7 @@ ms.lasthandoff: 03/29/2017
 
 <a name="see-also"></a>请参阅
 --------
+
+
 
 

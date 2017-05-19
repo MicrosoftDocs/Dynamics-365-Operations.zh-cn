@@ -1,65 +1,55 @@
 ---
-title: "Microsoft Dynamics 365 for Operations 应用程序的成本控制移动工作区"
-description: "成本中心经理随时随地可通过成本控制移动工作区查看成本中心性能。"
+title: "成本控制移动工作区"
+description: "此主题提供有关成本控制移动工作区的信息，用于 Microsoft Dynamics 365 for Operations 移动应用。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2017-01-12 16 - 53 - 04
+ms.date: 05/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
+ms.reviewer: annbe
 ms.search.scope: Operations, Core
 ms.custom: 267114
-ms.assetid: 84740472-494f-444c-9b74-f83b7342fd25
+ms.assetid: 612f2988-b2b9-420d-9825-40b99dc0e204
 ms.search.region: global
 ms.author: yuyus
+ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: c8c96dc9705688308dd4a5c720700ddc17657d75
-ms.openlocfilehash: 8136efb1d2669c39fcc0f80b60e80ecae983d5d8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 31a9650774b2ddb70827ffa210154ca10c761236
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
-# <a name="cost-controlling-mobile-workspace-for-microsoft-dynamics-365-for-operations-app"></a>Microsoft Dynamics 365 for Operations 应用程序的成本控制移动工作区
+# <a name="cost-controlling-mobile-workspace"></a>成本控制移动工作区
 
-成本中心经理随时随地可通过成本控制移动工作区查看成本中心性能。 
+[!include[banner](../includes/banner.md)]
 
-<a name="prerequisites"></a>先决条件
--------------
 
-| 必备项                                                         | 说明                                                                                                                                                                   |
-|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 了解 Microsoft Dynamics 365 for Operations 移动平台 | [Dynamics 365 for Operations 移动平台](/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform)                                                              |
-| Dynamics 365 for Operations                                          | 确保使用的环境中已安装了 Microsoft Dynamics 365 for Operations 版本 1611 和 Microsoft Dynamics for Operations 平台更新 3（2016 年 11 月）。 |
-| 修补程序 KB 3215650                                                    | 安装此修补程序以启用 Microsoft Dynamics 365 for Operations 中提供的工作区。                                                                       |
-| 已安装了 Dynamics 365 for Operations 应用程序的移动设备 | 从移动应用商店下载 Dynamics 365 for Operations 应用程序。                                                                                                      |
+此主题提供有关成本控制移动工作区的信息，用于 Microsoft Dynamics 365 for Operations 移动应用。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。 
 
-## <a name="introduction"></a>简介
-成本控制移动工作区通过比较实际成本与预算成本，提供成本中心当前绩效的即时视图。 可以向下钻取单个成本元素的状态。
+<a name="overview-of-the-cost-controlling-mobile-workspace"></a>成本控制移动工作区概览
+-------------------------------------------------
 
-### <a name="example"></a>示例
-
-员工收到国际会议的邀请。 组织必须承担所有出差费用。 员工询问经理是否可参加此会议。 经理使用自己的手机快速打开成本控制移动工作区，查看是否有员工参加此会议的预算。
+**成本控制**移动工作区通过比较实际成本与预算成本，提供成本中心当前绩效的即时视图。 可以向下钻取单个成本元素的状态。 例如，员工收到国际会议的邀请，但组织必须支付所有差旅费。 员工询问经理是否可参加此会议。 经理使用自己的移动设备打开**成本控制**移动工作区，查看她是否有员工参加此会议的预算。
 
 ### <a name="data-security"></a>数据安全
 
-成本控制工作区中的数据受到用户凭据的保护。 只有成本中心经理才能查看自己的成本中心的数据。 访问级别安全在成本核算模板内管理。 成本会计员定义成本核算模块中的成本控制移动工作区配置。 此工作区发布到 Microsoft Dynamics 365 for Operations 应用程序之后，可在 Dynamics 365 for Operations 移动应用程序中使用。 这确保组织中的所有成本中心经理均可以相同格式查看数据。
+**成本控制**移动工作区中的数据通过用户凭据加以保护。 成本中心经理只能查看自己成本中心的数据。 访问级别安全在**成本核算**模板内管理。 成本会计员定义**成本核算**模块中的**成本控制**移动工作区的配置。 此工作区发布到 Microsoft Dynamics 365 for Operations 移动应用之后，可在此应用程序中使用。 因此，组织中的所有成本中心经理均可以相同格式查看数据。
 
 ### <a name="actions-views-and-links"></a>操作、视图和链接
 
-Dynamics 365 for Operations 应用程序的成本控制移动工作区提供以下操作、视图和链接：
+Dynamics 365 for Operations 应用程序的**成本控制**移动工作区提供以下操作、视图和链接：
 
--   行动 
-    -   选择**配置**以选择布局。
-    -   选择**成本对象**以选择要对其筛选数据的成本中心。 **注释：**将根据成本核算模块中授予的访问权显示列表。
-
-<!-- -->
-
--   可以根据**操作**下的选择和成本核算模块中的配置查看“卡”中的以下信息。 请注意，金额以相同格式选择：“实际值”、“预算”、“差异”和“差异百分比”。 
+-   **操作：**
+    -   使用**选择配置**选择布局。
+    -   使用**选择成本对象**选择要筛选数据的成本中心。 **注意：**显示在列表中的成本中心取决于**成本核算**模块中授予的访问权限。
+-   **视图：**基于选择的操作和**成本核算**模块中的配置，可以查看卡中的以下信息。
     -   实际值与预算（当前期间）
     -   实际值与已修订的预算（当前期间）
     -   实际值与预算（上一期间）
@@ -67,46 +57,92 @@ Dynamics 365 for Operations 应用程序的成本控制移动工作区提供以�
     -   实际值与预算（本年迄今）
     -   实际值与已修订的预算（本年迄今）
 
-<!-- -->
+    以下金额在每个卡显示：实际值、预算、差异和差异百分比。
+-   **链接：**
+    -   当前期间的详细信息
+    -   上一期间的详细信息
+    -   本年迄今的详细信息
 
--   链接
-    -   当前期间的详细信息。
-    -   上一期间的详细信息。
-    -   本年迄今的详细信息。
+    当您选择链接时，为各成本要素显示卡。 将显示每个卡中的以下金额：“实际值”、“预算差异”、“预算差异百分比”、“已修订的预算”、“已修订的预算差异”和“已修订的预算差异百分比”。 
+    
+    [![成本元素的卡](./media/cost-controlling.png)](./media/cost-controlling.png)
 
-选择其中一个链接时，将显示一个“按成本的卡”元素。 “卡”中的金额以以下格式显示：“实际值”、“预算差异”、“预算差异百分比”、“已修订的预算”、“已修订的预算差异”和“已修订的预算差异百分比”。  [![成本控制](./media/cost-controlling.png)](./media/cost-controlling.png)
+## <a name="prerequisites"></a>必备项
+在使用**成本控制**移动工作区之前，请确保您的系统管理员具备以下先决条件。
 
-## <a name="get-started"></a>开始
-执行以下步骤开始在移动设备上使用成本控制移动应用程序。
+<table>
+<colgroup>
+<col width="33%" />
+<col width="33%" />
+<col width="33%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>必备项</th>
+<th>角色</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>必须实施具有工序平台更新 3 或更高版本的 Dynamics 365 for Operations 版本 1611。</td>
+<td>系统管理员</td>
+<td>如果您尚未在您的组织中部署 Dynamics 365 for Operations，系统管理员应看到<a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">部署 Microsoft Dynamics 365 for Operations 演示环境</a>。</td>
+</tr>
+<tr class="even">
+<td>必须实施 KB 4013633。</td>
+<td>系统管理员</td>
+<td>KB 4013633（X++ 更新或元数据修补程序）包含用于供应链管理的四个移动工作区。 若要实施 KB 4013633，系统管理员必须遵循这些步骤：
+<ol>
+<li>从 Microsoft Dynamics Lifecycle Services (LCS) 下载 KB 4013633。</li>
+<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">安装元数据修补程序</a>。</li>
+<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">将可部署包</a>应用到您的 Dynamics 365 for Operations 系统。</li>
+</ol></td>
+</tr>
+<tr class="odd">
+<td><strong>成本控制</strong>移动工作区必须发布到 Dynamics 365 for Operations 移动应用。</td>
+<td>系统管理员</td>
+<td><ol>
+<li>在在您的浏览器中启动 Dynamics 365 for Operations。</li>
+<li>在<strong>系统参数</strong>页面，选择<strong>管理移动工作区</strong>。</li>
+<li>选择<strong>成本对象概览</strong>工作区。</li>
+<li>单击<strong>发布移动工作区</strong>。</li>
+</ol></td>
+</tr>
+</tbody>
+</table>
 
-1.  在移动应用商店中，下载并安装 Microsoft Dynamics 365 for Operations 应用程序。
-2.  在设备上启动应用程序。
-3.  输入您的 Dynamics 365 URL。
-4.  输入要登录的公司。 例如，输入 **USMF**。
-5.  首次登录时，系统将提示您提供您的 Microsoft Dynamics 365 for Operations 帐户用户名和密码。 输入凭据。 登录后，您将看到您的公司的可用工作区。
+## <a name="download-and-install-the-dynamics-365-for-operations-mobile-app"></a>下载并安装 Dynamics 365 for Operations 移动应用
+从移动应用商店中下载并安装 Dynamics 365 for Operations 移动应用。
 
-若要在移动应用程序中查看工作区，必须先将所需工作区发布到 Dynamics 365 for Operations 应用程序。
+-   Android：[Google Play Store 中的 Dynamics 365 for Operations](https://play.google.com/store/apps/details?id=com.microsoft.dynamics365.operations.mobile)
+-   iPhone：[iTunes 应用商店中的 Dynamics 365 for Operations](https://itunes.apple.com/us/app/dynamics-365-for-operations/id1180836730?mt=8)
 
-1.  启动 Dynamics 365 for Operations。
-2.  转到**系统管理** &gt; **设置** &gt; **系统参数**。
-3.  选择**管理移动应用程序**。
-4.  选择要发布到移动平台的 **成本控制** 工作区。
-5.  选择**发布工作区**。
-6.  刷新设备以查看发布的工作区。
+## <a name="sign-in-to-the-dynamics-365-for-operations-mobile-app"></a>登录到 Dynamics 365 for Operations 移动应用
+1.  在移动设备上启动应用程序。
+2.  输入 Dynamics 365 for Operations URL。
+3.  输入要登录的公司。 例如，输入 **USMF**。
+4.  首次登录时，系统将提示您提供您的 Dynamics 365 for Operations 帐户用户名和密码。 输入凭据。
+5.  登录后，您将看到您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您可以下拉刷新移动工作区列表。 
 
-## <a name="view-the-performance-of-your-cost-center"></a>查看成本中心的绩效
+    [![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+
+## <a name="view-the-performance-of-your-cost-center-by-using-the-cost-controlling-mobile-workspace"></a>使用成本控制移动工作区查看成本中心的绩效
 1.  在移动设备上，选择**成本控制**工作区。
 2.  选择**成本对象控制**。
-3.  单击**操作**。
-4.  单击**选择配置**以选择成本控制布局。
-5.  单击**完成**。
-6.  单击**操作**。
-7.  单击**选择成本对象**以启动为您授予了访问权限的成本中心。
-8.  单击**完成**。
+3.  选择**操作**。
+4.  选择**选择配置**以选择成本控制布局。
+5.  选择**完成**。
+6.  选择**操作**。
+7.  选择**选择成本对象**以选择为您授予了访问权限的成本中心。
+8.  选择**完成**。
 9.  查看成本中心的整体绩效。
-10. 单击**当前期间的详细信息**。
+10. 选择**当前期间的详细信息**链接。
 11. 查看单个成本元素的绩效。
 12. 也可以搜索特定成本元素。
+
+
 
 
 

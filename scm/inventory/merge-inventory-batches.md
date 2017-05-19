@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 5abf8cf272924669cec6987a96f6565fffa54642
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 49ed9255e58053b747bc66af8a0f8e0400eee1b0
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

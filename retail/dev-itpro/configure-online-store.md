@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 29938d962db42a521dd8dc03b8e45e0e34410e4d
-ms.openlocfilehash: 4da710b57d03621fdf9abbf5a9598859e1e9aafd
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 563d11fb99c8aebce78f8962dbeeac41fb469041
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: eb32cf1b96dfef75131b8c7541e20a93615a87f7
-ms.openlocfilehash: c29c95fc6abd13e668c44d3ccf437bb0e879e46b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 11755e4ab4b3c1f55da80e57ff96e0b13c84c697
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -104,7 +105,7 @@ ms.lasthandoff: 03/31/2017
 7.  单击**保存**，然后关闭页面。
 
 ## <a name="create-a-new-project"></a>创建新项目
-1.  单击**项目管理与核算** &gt; 工作区 **** &gt; **项目管理**。
+1.  单击**项目管理与核算** &gt; **工作区** &gt; **项目管理**。
 2.  单击**新项目**，然后输入以下值：
     -   **项目类型** - 时间和材料
     -   **项目名称** - XYZ 升级第 2 阶段
@@ -324,7 +325,7 @@ ms.lasthandoff: 03/31/2017
 1.  单击**项目管理与核算** &gt; **项目** &gt; **所有项目**。
 2.  在列表中，选择 **XYZ 升级第 2 阶段**项目。
 3.  单击**项目**。
-4.  单击“编辑”****。
+4.  单击**“编辑”**。
 5.  在**项目团队和计划编制**选项卡上，** **单击**添加**。
 6.  在**添加角色**对话框中，选择**软件开发人员**角色。
 7.  单击“**创建**”。

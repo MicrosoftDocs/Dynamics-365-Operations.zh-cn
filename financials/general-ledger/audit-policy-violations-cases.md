@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: ecd32549b6067ed4c1211996e846e210f77f5013
-ms.openlocfilehash: 77f72c9414f1fad720055e58e3f704b9c713072f
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: fbc8dd8f14bd6607081f7c479830c142a912339a
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

@@ -1,16 +1,16 @@
 ---
 title: "整理报表设计器中的报表组件"
 description: "在您设计构建基块并生成报表后，组织这些对象以便用户更容易地找到它们，这种方法非常有用。 本文介绍了如何组织现有报表、构建基块和报表设计器中的对象。"
-author: RobinARH
+author: ShylaThompson
 manager: AnnBe
-ms.date: 2016-03-07 19 - 06 - 25
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: RobinARH
+ms.reviewer: ShylaThompson
 ms.search.scope: Management Reporter, Core
 ms.custom: 59161
 ms.assetid: 32e728c5-3b06-4049-8070-ade01e951d49
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: c8efd57805cd89eb8cdfabe81a60704bb4390194
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: ca6d02d41be67447719819e27fbcf3f615eced63
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="organize-report-components-in-report-designer"></a>整理报表设计器中的报表组件
+
+[!include[banner](../includes/banner.md)]
+
 
 在您设计构建基块并生成报表后，组织这些对象以便用户更容易地找到它们，这种方法非常有用。 本文介绍了如何组织现有报表、构建基块和报表设计器中的对象。
 
@@ -154,6 +158,8 @@ ms.lasthandoff: 03/29/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Microsoft Dynamics 365 for Operations 财务报告](financial-reporting-intro.md)
+[财务申报](financial-reporting-intro.md)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0d8af341c8020f756f1a736f6f74402e992d6e16
-ms.openlocfilehash: c6372e366db6abc7b586c2f1185ecd44bbf28502
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: dd9f65e045367aeba081d026da53894679ee7ed0
+ms.contentlocale: zh-cn
+ms.lasthandoff: 05/10/2017
 
 
 ---
@@ -42,7 +43,7 @@ Microsoft Dynamics 365 for Operations 词汇表定义 Dynamics 365 for Operation
 
 控制原则、方法与分类、记录和报告会计事件财务影响的程序的会计系统中的规则。
 
-###### <a name="ach-automated-clearing-house"></a>**ACH（自动化清算中心）**
+###### <a name="ach-automated-clearing-house"></a>**ACH（自动化清算中心**
 
 电子资金转帐系统在接收当事方和源当事方之间便于资金转账的美国可用。
 
@@ -84,7 +85,7 @@ Microsoft Dynamics 365 for Operations 词汇表定义 Dynamics 365 for Operation
 
 通过将银行对帐单物料与会计科目惯例进行匹配表示银行帐户的对帐会计科目实践。
 
-###### <a name="batch-attribute"></a>**batch attribute / 批次属性 **
+###### <a name="batch-attribute"></a>**batch attribute / 批次属性**
 
 处理批或转移批处理的产品属性。
 
@@ -174,7 +175,7 @@ Microsoft Dynamics 365 for Operations 词汇表定义 Dynamics 365 for Operation
 
 用于合计制造产品和附有库存财务影响的会计类别。
 
-###### <a name="commodity-pricing"></a>**commodity pricing / 商品定价 **
+###### <a name="commodity-pricing"></a>**commodity pricing / 商品定价**
 
 从生产主题到常用的价格变更生产的更新销售物料价格的价格策略。
 
@@ -186,7 +187,7 @@ Microsoft Dynamics 365 for Operations 词汇表定义 Dynamics 365 for Operation
 
 参与和法人的承包商雇主关系的人员假定的角色。
 
-###### <a name="co-product"></a>**co-product / 联产品 **
+###### <a name="co-product"></a>**co-product / 联产品**
 
 与其他物料共同生成的物料。
 
@@ -252,7 +253,7 @@ Dynamics 365 for Operations 中的典型起始页。 在仪表板中，用户将
 
 用于创建、更新和检查您的模型元素的 Visual Studio 工具。
 
-###### <a name="financial-dimensionsdimension-based-configuration"></a>**  \财务维度\基于维度的配置**
+###### <a name="financial-dimensionsdimension-based-configuration"></a>**..\财务维度\基于维度的配置**
 
 通过选择产品维度值用于创建产品变型的配置技术。
 
@@ -622,7 +623,7 @@ Dynamics 365 for Operations 中的典型起始页。 在仪表板中，用户将
 
 设计用于分隔记录、验证、资产权限和参与、提供或记录经济交易财政影响的人员的缩减欺骗风险、不规则性和错误的原则。
 
-###### <a name="sequencing"></a>**sequencing / 排序 **
+###### <a name="sequencing"></a>**sequencing / 排序**
 
 处理作业或工序在生产设备执行以实现目标的订单。
 

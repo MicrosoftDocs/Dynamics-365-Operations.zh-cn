@@ -3,7 +3,7 @@ title: "查看日记帐分录和交易记录"
 description: "本文说明您可以查看日记帐条目和交易记录的各种方式。"
 author: RobinARH
 manager: AnnBe
-ms.date: 2017-04-04
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 9ef99caf4570969d2b920cec8b53669ce2094965
-ms.openlocfilehash: a6848ea9c05536ac18a038b1864c9ccb9408964c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 021a74811212f65977407b8454086b0e7b703a2f
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>查看日记帐分录和交易记录
+
+[!include[banner](../includes/banner.md)]
+
 
 本文说明您可以查看日记帐条目和交易记录的各种方式。 
 
@@ -52,6 +56,11 @@ ms.lasthandoff: 03/31/2017
 -   **交易记录来源** – 此交易记录报表按日记帐，以及按交易记录、核算和申报币种显示帐户。 它还显示用作对方的每一行。
 
 
-有关详细信息，请参阅[总帐科目余额](general-ledger-account-balances.md)、[会计源资源管理器](\financials\accounts-payable\accounting-source-explorer)和[财务申报](financial-reporting-getting-started.md)
+##<a name="see-also"></a>请参阅
+- [总帐科目余额](general-ledger-account-balances.md) 
+- [会计源资源管理器](..\accounts-payable\accounting-source-explorer.md)
+- [财务申报](financial-reporting-getting-started.md)
+
+
 
 

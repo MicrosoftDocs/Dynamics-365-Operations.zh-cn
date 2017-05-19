@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 2928b86a9dbf001451933f9d17287400cafaf089
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 36d4aec3936ef99b880f3affc75df1b952cb3133
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
+
+[!include[banner](../includes/banner.md)]
+
 
 本文介绍了 Microsoft Dynamics AX 7.0 中的新功能和更改的功能。 此版本包含平台和应用程序功能，于 2016 年 2 月发布。
 
@@ -55,7 +59,7 @@ ms.lasthandoff: 03/31/2017
 <tr class="even">
 <td>与库存会计和生产会计相关的过帐类型已更新。</td>
 <td><strong>InventPosting</strong>、<strong>资源</strong>、<strong>ResourceGroup</strong> 和 <strong>ProductionGroup</strong> 窗体中的标签始终不与实际使用的 <strong>LedgerPostingType</strong> 标签一致。 了解标签中使用的术语并不容易。</td>
-<td>这些标签已经更新，因此“InventPosting”<strong></strong>、“资源”<strong></strong>、“ResourceGroup”<strong></strong>和“ProductionGroup”<strong></strong>页上的标签始终与实际“LedgerPostingType”<strong></strong>标签匹配。 还需重命名所有标签，以便标签与操作事件匹配。 请注意，未更改实际过帐逻辑。</td>
+<td>这些标签已经更新，因此<strong>“InventPosting”</strong>、<strong>“资源”</strong>、<strong>“ResourceGroup”</strong>和<strong>“ProductionGroup”</strong>页上的标签始终与实际<strong>“LedgerPostingType”</strong>标签匹配。 还需重命名所有标签，以便标签与操作事件匹配。 请注意，未更改实际过帐逻辑。</td>
 <td>配置系统更加简单，因为新的标签与使用此过帐类型的操作事件有关。</td>
 </tr>
 <tr class="odd">
@@ -71,13 +75,13 @@ ms.lasthandoff: 03/31/2017
 <tr class="even">
 <td>可快速概览成本对象的库存余额和平均单位成本。</td>
 <td>用户必须打开现有量窗体并选择反映成本对象的库存维度。 因此，用户必须知道为特定产品的财务库存标记了哪些库存维度。</td>
-<td>引入了新的“成本对象”<strong></strong>页。 默认情况下，此页显示与产品相关的所有成本对象。 此页显示每个成本对象的当前库存数量、值和平均单位成本。</td>
+<td>引入了新的<strong>“成本对象”</strong>页。 默认情况下，此页显示与产品相关的所有成本对象。 此页显示每个成本对象的当前库存数量、值和平均单位成本。</td>
 <td>它消除一些复杂性，使得更容易当一名成本总监。</td>
 </tr>
 <tr class="odd">
 <td>在库存控制期间使用新<strong>成本条目</strong>页。</td>
 <td>对登记的库存交易记录和相关的结算进行库存控制会很复杂，因为相同的交易记录可以是实际的或财务的。</td>
-<td>“成本条目”<strong></strong>页提供一个新的方式来查看库存交易记录。
+<td><strong>“成本条目”</strong>页提供一个新的方式来查看库存交易记录。
 <ul>
 <li>交易记录按时间顺序显示。</li>
 <li>仅包括对成本有贡献的交易记录。</li>
@@ -331,8 +335,8 @@ ms.lasthandoff: 03/31/2017
 <tr class="even">
 <td>通过单击**帮助**，访问引导式程序帮助（任务指南）和概念主题。</td>
 <td>AX 2012 帮助系统指向本地 Web 服务器上存储的 HTML 主题。 客户和合作伙伴可以创建自己的帮助。</td>
-<td>Dynamics AX 的当前版本中的帮助系统显示在 Microsoft Dynamics Lifecycle Services (LCS) BPM 中存储的任务指南。 该帮助系统还显示 Microsoft wiki 中的主题。 有关详细信息，请参阅 [Dynamics AX 帮助 - 入门](help-overview.md)和[新推出的任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md).</td>
-<td>任务指南提供引导、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以下载和自定义 Microsoft 提供的任务指南。 Wiki 提供了更快、更灵活的方式来创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。</td>
+<td>Dynamics AX 的当前版本中的帮助系统显示在 Microsoft Dynamics Lifecycle Services (LCS) BPM 中存储的任务指南。 该帮助系统还显示 Microsoft 文档站点中的主题。 有关详细信息，请参阅 [Dynamics AX 帮助 - 入门](help-overview.md)和[新推出的任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md).</td>
+<td>任务指南提供引导、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以下载和自定义 Microsoft 提供的任务指南。 本主题提供了更快、更灵活的方式来创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。</td>
 </tr>
 </tbody>
 </table>
@@ -561,7 +565,7 @@ ms.lasthandoff: 03/31/2017
 |                                                                                                                            |                                                                                                                                                                                                                                                                                               |                                                                                                                                                                                                                                                                                                                                                                   |                                                                                                                                                         |
 |----------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **您能怎么做？**                                                                                                       | **Dynamics AX 2012**                                                                                                                                                                                                                                                                          | **Dynamics AX 7.0**                                                                                                                                                                                                                                                                                                                                               | **为什么如此重要**                                                                                                                              |
-| 如果销售订单或生产订单没有做好按计划日期交货的准备，则将警告用户。                         | 由主计划创建的警告叫做“预期消息”**。 *预期*是两个当事方之间的合同，用于按照今天议定的价格（*预期价格*）采购或销售资产，但交货和付款在未来的时间点（*交货日期*）发生。 | *预期消息*和*将来日期*各自重命名了*计算的延迟*和 *延期的日期*。                                                                                                                                                                                                                                                   | AX 2012 中使用的术语不准确，导致不正确的翻译。                                                               |
+| 如果销售订单或生产订单没有做好按计划日期交货的准备，则将警告用户。                         | 由主计划创建的警告叫做*预期消息*。 *预期*是两个当事方之间的合同，用于按照今天议定的价格（*预期价格*）采购或销售资产，但交货和付款在未来的时间点（*交货日期*）发生。 | *预期消息*和*将来日期*各自重命名了*计算的延迟*和 *延期的日期*。                                                                                                                                                                                                                                                   | AX 2012 中使用的术语不准确，导致不正确的翻译。                                                               |
 | 用户可以快速了解主计划运行的状态、紧急计划订单和导致延迟的计划订单。 | 该信息可用，但分散在多个窗体中。                                                                                                                                                                                                                       | **主计划**工作区提供有关上次主计划运行何时完成、是否发生任何错误、紧急计划订单是什么、以及哪个计划订单导致延迟的概览信息。                                                                                                                                   | 您可从工作区提供的概览中获益。 相关信息组合起来，可引导主计划和帮助提高生产率。 |
 | 使用 Excel 更新需求预测。                                                                                      | 不可用                                                                                                                                                                                                                                                                                 | 当您输入需求预测、进行更新和删除需求预测时，可以利用与 Excel 的无缝集成。                                                                                                                                                                                                                             | 它有助于提高效率和生产率。                                                                                                          |
 | 根据历史交易记录数据来估计未来需求并创建需求预测。                                  | 在 Microsoft Dynamics AX 2012 R3 中，Microsoft SQL Server 分析服务中的预测模型用于创建需求预测。                                                                                                                                                | 通过使用 Microsoft Azure 机器学习云服务的功能和可扩展性来估计未来需求。 它易于使用和扩展机器学习中的预测模型以满足客户要求。 该服务执行最符合模型选择，并提供可用于计算预测的准确性 (KPI) 的关键绩效指标 (KPI)。 | 通过使用机器学习技术，生成更准确的预测。                                                                              |
@@ -612,7 +616,7 @@ Microsoft Azure 承载的 Retail HQ 能让您通过 Web 客户端集中管理和
 <li>配套件</li>
 <li>价格 &amp; 折扣</li>
 </ul></td>
-<td>“类别和产品管理”<strong></strong>工作区启用以下功能：
+<td><strong>“类别和产品管理”</strong>工作区启用以下功能：
 <ul>
 <li>分类管理。</li>
 <li>分类生命周期跟踪。</li>
@@ -672,7 +676,7 @@ Microsoft Azure 承载的 Retail HQ 能让您通过 Web 客户端集中管理和
 <tr class="even">
 <td>管理零售 IT 运营。 </td>
 <td>用户必须访问多个窗体。</td>
-<td>“零售 IT”<strong></strong>工作区针对给定渠道在单个位置启用 Commerce Data Exchange 查询，因此，您可以执行以下任务：
+<td><strong>“零售 IT”</strong>工作区针对给定渠道在单个位置启用 Commerce Data Exchange 查询，因此，您可以执行以下任务：
 <ul>
 <li>下载会话。</li>
 <li>上载会话。</li>
@@ -696,7 +700,7 @@ Microsoft Azure 承载的 Retail HQ 能让您通过 Web 客户端集中管理和
 <tr class="odd">
 <td>通过使用“监控零售渠道绩效”Power BI 内容来分析零售渠道销售数据。</td>
 <td>不可用</td>
-<td>在 PowerBI.com 上，选择“获取数据”<strong></strong>，然后选择“Dynamics AX – 零售渠道绩效”<strong></strong>内容包。 输入您的 Dynamics AX 终结点的 URL 以查看反映在仪表板中的数据。</td>
+<td>在 PowerBI.com 上，选择<strong>“获取数据”</strong>，然后选择<strong>“Dynamics AX – 零售渠道绩效”</strong>内容包。 输入您的 Dynamics AX 终结点的 URL 以查看反映在仪表板中的数据。</td>
 <td>通过三到四次单击，组织可以部署一个包含重要财务数据的 Power BI 仪表板。 内容可由组织个性化。 此外，用户可以将 Power BI 仪表板磁贴嵌入到其在 Dynamics AX 中的个性化工作区，因此，用户随后可以快速查看分析信息。</td>
 </tr>
 <tr class="even">
@@ -1012,8 +1016,8 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 <tr class="odd">
 <td>监控系统的运行状况，并且诊断错误和问题。</td>
 <td>此功能需要<a href="http://www.microsoft.com/en-us/download/details.aspx?id=42636">适用于 Microsoft Dynamics AX 2012 R3 CU8 Retail 的 System Center 2012 管理包</a>。</td>
-<td>现在可以通过 LCS 中的“运营见解”<strong></strong>仪表板来监控和诊断 Retail 组件。</td>
-<td>“运营见解”<strong></strong>仪表板是一个基于云的监控门户，有了它便不再需要安装 System Center Operations Manager (SCOM) 基础结构。</td>
+<td>现在可以通过 LCS 中的<strong>“运营见解”</strong>仪表板来监控和诊断 Retail 组件。</td>
+<td><strong>“运营见解”</strong>仪表板是一个基于云的监控门户，有了它便不再需要安装 System Center Operations Manager (SCOM) 基础结构。</td>
 </tr>
 <tr class="even">
 <td>通过使用自助服务，创建、配置、下载并安装 Retail Hardware Station 和设备。</td>
@@ -1042,13 +1046,13 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 <tr class="even">
 <td>在您向客户承诺订单时，可快速概览交货备选方案。</td>
 <td>当有产品可用性约束，而且客户在订单上请求的一个或多个产品的交货日期不能满足时，订单承诺任务就成为挑战。 若要查找可以抵消可用性和装运时间问题的备选方案，以便客户请求的日期可以满足，或为客户提供可以接受和信任的发货解决方案，则订单处理人员可能必须打开多个窗体，每个窗体都仅提供一部分必需信息。 具体而言，一个窗体显示跨站点的现有数量，另一个窗体显示内部公司设置的现有数量，第三个窗体能让用户一次一个站点/款式地计算最早可用日期，第四个窗体显示供应订单。 因此，用户不认为自己考虑了所有相关选项，而不是仅选择了一个眼前的但次优的解决方法。 用户也不觉得有效，因为在订单承诺流程期间在他们打开和关闭多个页面以及组合见解和选项时发生了许多中断。</td>
-<td>基于交货日期计算的现有算法，“交货备选方案”<strong></strong>页提供订单承诺的新用户体验：
+<td>基于交货日期计算的现有算法，<strong>“交货备选方案”</strong>页提供订单承诺的新用户体验：
 <ul>
 <li>它将多个窗体中的相关信息合并到一个空间。</li>
 <li>它基于用户可以从中选择的最快交货（最早可用日期）条件，提供“现成的”备选交货包，例如站点/仓库/款式/运输方式组合。</li>
 <li>它能让用户从模拟界面选择选项并将其转移到销售订单行。</li>
 </ul></td>
-<td>想要在致力于库存优化策略的同时提供高质量客户服务的公司，必须能够可靠而有竞争力地承诺订单。 毕竟，其客户自己的业务需要产品按时上市。 “交货备选方案”<strong></strong>任务页通过在一个交互式位置标识和建议最佳备选订单交货日期，使得订单承诺任务更快速、简便和系统化。</td>
+<td>想要在致力于库存优化策略的同时提供高质量客户服务的公司，必须能够可靠而有竞争力地承诺订单。 毕竟，其客户自己的业务需要产品按时上市。 <strong>“交货备选方案”</strong>任务页通过在一个交互式位置标识和建议最佳备选订单交货日期，使得订单承诺任务更快速、简便和系统化。</td>
 </tr>
 </tbody>
 </table>
@@ -1076,5 +1080,7 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 [新增功能或更改功能](whats-new-changed.md)
 
 [新任务指南可用（2016 年 2 月）](new-task-guides-available-february-2016.md)
+
+
 
 

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 8e89a57dda8f2d392483ed13c686ea97b74926b0
-ms.openlocfilehash: f717e9de361b5511ac4af360cddb1ea16ad4a1e2
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8bf0bbdf3fec72761f5db0ffd6d60140e52581c1
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: e7cc68b1b40b6a0361d7c215af466ae5a17a2aaa
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 6bf6194b2e198cdbb8e0acf9efda7d7279b072f6
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -40,8 +41,8 @@ ms.lasthandoff: 03/31/2017
 以下示例说明如何在不同的环境中处理过帐。 假定所有这些示例都采用以下配置：
 
 -   法人分别为 Fabrikam、Fabrikam East 和 Fabrikam West。 从 Fabrikam 进行付款。
--   “内部公司”****页上的“过帐现金折扣”****字段设置为“发票法人”****。
--   “内部公司”****页上的“过帐币种汇兑损益”****字段设置为“付款法人”****。
+-   **“内部公司”**页上的**“过帐现金折扣”**字段设置为**“发票法人”**。
+-   **“内部公司”**页上的**“过帐币种汇兑损益”**字段设置为**“付款法人”**。
 -   客户 Fourth Coffee 在每个法人中设置为一个供应商。 来自不同法人的供应商被标识为同一供应商，因为他们共享相同的全球通讯簿 ID。
 
 | 名录 ID | 供应商帐户 | 姓名          | 法人  |

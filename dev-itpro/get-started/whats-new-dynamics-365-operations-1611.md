@@ -16,15 +16,19 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 82d03b6bc190fb612dd2cc7a25dc11875212f1ea
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fbca041e0663fad4437207146bcfff8f93f4a7fc
+ms.openlocfilehash: 67faa02d445cc4c6e78fe5471605d8c0a2da21de
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/27/2017
 
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容
+
+[!include[banner](../includes/banner.md)]
+
 
 本主题介绍了 Dynamics 365 for Operations 版本 1611 中的新功能和更改的功能。
 
@@ -514,6 +518,11 @@ ms.lasthandoff: 03/31/2017
 <li>瑞士 ESR 银行对帐单导入格式</li>
 </ul></td>
 </tr>
+<tr class="even">
+<td>德国 – 以 DTAZV 格式导出供应商付款</td>
+<td>德国要求具有外国格式规范的 DTAZV，这表示根据德国跨境付款规范执行的贷方转帐（供应商付款）的消息传入外国银行或使用外币的国内银行的某个帐户。 
+</td>
+</tr>
 </tbody>
 </table>
 
@@ -675,7 +684,7 @@ ms.lasthandoff: 03/31/2017
 
 ### <a name="store-system-providing-a-seamless-on-premises-store-experience"></a>商店系统：提供无缝的本地商店体验
 
-商店系统是为零售商提供的一种部署选择，有助于推进一组商店操作，无论是在本地商店、Microsoft 公有云或客户自己的私有云中。 对于 Microsoft Dynamics AX 应用程序版本 7.1，作用域仅限于商店内。 要为网络连接速度慢和不可靠的环境提供更好的支持，我们必须为零售商提供在商店内部署渠道数据库和零售服务器的选项。 即使他们无法连接到总部 (HQ)，也可以继续运行自己的核心业务场景。 基于不同数据点，包括工程团队讨论、客户调查结果和竞争对手分析，我们确定了以下解决方案作用域完美适合我们的目标客户：
+商店系统是为零售商提供的一种部署选择，有助于推进一组商店操作，无论是在本地商店、Microsoft 公有云或客户自己的私有云中。 此版本范围只覆盖商店内。 要为网络连接速度慢和不可靠的环境提供更好的支持，我们必须为零售商提供在商店内部署渠道数据库和零售服务器的选项。 即使他们无法连接到总部 (HQ)，也可以继续运行自己的核心业务场景。 基于不同数据点，包括工程团队讨论、客户调查结果和竞争对手分析，我们确定了以下解决方案作用域完美适合我们的目标客户：
 
 -   自助服务包对商店系统可用。
 -   默认安装为一体化部署，但允许自定义部署。
@@ -718,7 +727,7 @@ ms.lasthandoff: 03/31/2017
 | 作为供应商，获取关于转移至客户的托运库存量的信息。                                                                      | 若要向客户开票，供应商要求获得关于从托运库存购买的原材料和购买日期的信息。 供应商还可以使用供应商协作界面在客户站点监控现有库存。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 使用转移日记帐移动供应商拥有的库存。                                                                                                                       | 要跟踪供应商拥有的库存的物理位置，必须能够在系统中记录位置。 使用转移日记帐可以记录库存的物理移动，例如从仓库中的一个位置移动到该仓库中的另一个位置。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | 使用盘点日记帐调整供应商拥有的库存。                                                                                                                     | 重要的一点是要保持系统现有库存与实际物理库存同步。 使用盘点流程（例如数量调整）和盘点日记帐流程可以调整供应商拥有的库存的进出。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 进一步了解 Dynamics 365 for Operations 中的托运支持                                                                                                         | 有关托运流程支持的更多信息，请参阅[托运](/dynamics365/operations/scm/inventory/consignment)，[设置托运](/dynamics365/operations/scm/inventory/set-up-consignment)，[创建托运补货订单（任务指南）](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/)，以及[基于生产需求更改托运库存的所有权（任务指南）](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/)。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 进一步了解 Dynamics 365 for Operations 中的托运支持                                                                                                         | 有关托运流程支持的更多信息，请参阅[托运](/dynamics365/operations/supply-chain/inventory/consignment)，[设置托运](/dynamics365/operations/supply-chain/inventory/set-up-consignment)，[创建托运补货订单（任务指南）](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/)，以及[基于生产需求更改托运库存的所有权（任务指南）](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/)。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>供应商协作（以前称作供应商门户）
 
@@ -728,7 +737,7 @@ ms.lasthandoff: 03/31/2017
 | 启用供应商管理联系人信息。                                 | 供应商可以维护其公司的联系人信息。 此信息包括姓名、电子邮件地址和电话号码。 通过专门的安全角色可以授予此功能的访问权限。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | 与供应商共享与采购订单有关的文档。                    | 必须与供应商共享文档时，例如关于要求的文档，一个方便的方法是将文档与相关采购订单相关联。 之后，供应商可以与客户共享注释和附件，方法是将该文档与他或她对该采购订单的响应相关联。 文档管理是基础的支持框架，仅分类为“外部”的注释和附件可以与供应商共享。                                                                                                                                                                                                                                                                                                                              |
 | 供应新供应商用户。                                                          | 如果您的供应商使用供应商协作界面，则当新联系人要求访问供应商协作时，他们能够无缝地请求新用户帐户。 采购专业人员可以为供应商组织的联系人提交用户帐户请求。 已经是供应商协作用户的供应商联系人也可以提交此类请求。 此请求最终在 Dynamics 365 for Operations 中创建具有特定供应商安全角色的新用户。 它还便于向 Microsoft Azure B2B 门户请求向用户提供新的 Azure Active Directory (Azure AD) 用户帐户。 供应商还可以请求禁用具体供应商用户帐户或修改该安全角色。 |
-| 进一步了解 Dynamics 365 for Operations 中的供应商协作支持。 | 有关供应商协作的更多信息，请参阅[供应商与外部供应商协作](/dynamics365/operations/scm/procurement/vendor-collaboration-work-external-vendors)，[供应商与客户协作](/dynamics365/operations/scm/procurement/vendor-collaboration-work-customers-dynamics-365-operations)，[管理供应商协作用户](/dynamics365/operations/scm/procurement/manage-vendor-collaboration-users)，[设置和维护供应商协作](/dynamics365/operations/scm/procurement/set-up-maintain-vendor-collaboration)，和[供应商协作开票工作区](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)。                                                         |
+| 进一步了解 Dynamics 365 for Operations 中的供应商协作支持。 | 有关供应商协作的更多信息，请参阅[供应商与外部供应商协作](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-external-vendors)，[供应商与客户协作](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)，[管理供应商协作用户](/dynamics365/operations/supply-chain/procurement/manage-vendor-collaboration-users)，[设置和维护供应商协作](/dynamics365/operations/supply-chain/procurement/set-up-maintain-vendor-collaboration)，和[供应商协作开票工作区](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)。                                                         |
 
 ### <a name="intercompany-order-processing"></a>内部公司订单处理
 
@@ -846,5 +855,7 @@ ms.lasthandoff: 03/31/2017
 --------
 
 [新增功能或更改功能](whats-new-changed.md)
+
+
 
 

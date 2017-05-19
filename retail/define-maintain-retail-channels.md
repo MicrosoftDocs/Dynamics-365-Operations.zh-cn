@@ -18,10 +18,11 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b775ba34ef7d88dd0b47904e4a3e9be79664f14b
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 2d5e8fae7c05ceb6b0bb0541d16d0f4de45d3c7e
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---

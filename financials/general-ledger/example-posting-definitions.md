@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4afe88012b28b74e25c30befb261b5ea2f633ce9
-ms.openlocfilehash: 1091a37007146b36ba05aee3d047c4ae58f87168
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 06d789d83b623e76c67a6ec4c9fc1fea673d3294
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

@@ -3,7 +3,7 @@ title: "起始位置"
 description: "请在此处开始快速参加培训并了解 Microsoft Dynamics 365 for Operations UI。"
 eauthor: sericks007
 manager: AnnBe
-ms.date: 2015-12-11 15 - 19 - 40
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -18,15 +18,19 @@ o# ms.search.industry:
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: f707d45290682e79ee439ba0d504852429defa90
-ms.openlocfilehash: 8f75131c6be6ce0f23cce456405d5e211912f19a
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 69995d2f8a463e82e7a26b673737889b4ea17402
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="where-to-start"></a>起始位置
+
+[!include[banner](../includes/banner.md)]
+
 
 请在此处开始快速参加培训并了解 Microsoft Dynamics 365 for Operations UI。
 
@@ -36,7 +40,7 @@ ms.lasthandoff: 03/30/2017
 - [Microsoft FastTrack for Dynamics 365 概览](/dynamics365/operations/get-started/fasttrack-dynamics-365-overview) 
 - [注册订阅](../dev-tools/sign-up-preview-subscription.md) 
 - [Lifecycle Services (LCS) for Microsoft Dynamics 365 for Operations customers](../lifecycle-services/lcs-works-lcs.md) 
-- [通过云服务提供商购买 Microsoft Dynamics 365 for Operations 的客户如何获取 Dynamics 365 for Operations 2012 本地部署版本](../deployment/csp-download-customersource.md)
+- [通过云服务提供商购买 Microsoft Dynamics 365 for Operations 的客户如何获取 Dynamics AX 2012 本地部署版本](../deployment/csp-download-customersource.md)
 
 ## <a name="user-interface"></a>用户界面
 以下资源提供有关 Dynamics 365 for Operations 用户体验的信息。 
@@ -71,12 +75,12 @@ ms.lasthandoff: 03/30/2017
 <a name="see-also"></a>请参阅
 --------
 
-[使用任务录制器（外部链接）在 Lifecycle Services 内创建 Dynamics 365 for Operations 的新培训库](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
 
 [新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
 
 [新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
+
+
 
 

@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: dbcf6d2ca3a6009c1631636309ff55cebb0551e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: e144b05ec516d297c3cf81081936d306b9cb9026
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---

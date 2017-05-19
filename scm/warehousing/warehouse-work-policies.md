@@ -18,10 +18,11 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: f77012e7b64b7f153103e9bbe91e8ded202b509a
-ms.openlocfilehash: 5660e5c8e3329564fc4262b5ad4f2547347bbb1a
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 32b401a6faa381c77845347db6aa5e89db5e38c3
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -35,7 +36,7 @@ Microsoft Dynamics AX 7.0.1（2016 年 5 月更新）引入了新的仓库工作
 
 此工作策略控制是否为生产中的仓库流程创建仓库工作。 您可以使用“**工作订单类型**”、“**库存库位**”和“**产品**”组合设置工作策略。 例如，产品 L0101 报告为完工入库到输出库位 001。 成品稍后将在输出库位 001 的另一个生产订单中使用。 在这种情况下，您可以设置工作策略，阻止在您将产品 L0101 报告为完工入库到输出库位 001 时创建产品储存的工作。 工作策略是可以通过以下信息描述的单个实体：
 
--   **工作策略名称 **（工作策略的唯一标识符）
+-   **工作策略名称**（工作策略的唯一标识符）
 -   **工作订单类型**和**工作创建方法**
 -   **库存库位**
 -   **产品**

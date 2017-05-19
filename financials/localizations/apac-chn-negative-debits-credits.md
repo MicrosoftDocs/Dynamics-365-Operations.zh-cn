@@ -16,10 +16,11 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 6bb98cc72c2ec0c1551412dd39d5bea3ce10e2cd
-ms.openlocfilehash: d454ae9c2a113ee13ac13966c6027b0dbaccb5e6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: db772ad4f7d3ef3d83eb3407ee3e60e8830d223e
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

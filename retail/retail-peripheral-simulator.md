@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-translationtype: Human Translation
-ms.sourcegitcommit: 42dc414ff2bb6359b47d89c3bd3c510e4258f816
-ms.openlocfilehash: b2229466040351d8c2b9494b30b4c928651820b8
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 11a4633b0a1254f3a8cbdcba8d7aa99bb7c936c1
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -91,7 +92,7 @@ Microsoft Dynamics 365 for Operations - Retail 外设模拟器是一款工具，
 
 1.  创建硬件配置文件之后，请转至**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
 2.  在 **POS 收银机**列表中，单击应使用外设模拟器的收银机的**收银机编号**字段中的链接。
-3.  单击“编辑”****。
+3.  单击**“编辑”**。
 4.  在**配置文件**部分中**硬件配置文件**字段内，选择为虚拟外设创建的硬件配置文件。
 5.  单击**保存**。
 
@@ -112,7 +113,7 @@ Microsoft Dynamics 365 for Operations - Retail 外设模拟器是一款工具，
 除了外设模拟器，还必须从 Monroe Consulting Services 安装公共控件对象。 否则，外围模拟程序无法正常工作。 若要下载公共控件对象，请转至 <http://monroecs.com/oposccos_current.htm>。
 
 ## <a name="using-the-peripheral-simulator"></a>使用外设模拟器
-若要启动外设模拟器，请在计算机上单击**开始**，键入 **Retail peripheral simulator**，然后在该应用程序在搜索结果中显示时将其选中。 启动外设模拟器之后，单击设备名称查看支持的设备。 这些设备将在窗口左侧以选项卡的形式列出。 若要显示特定设备，请单击该设备的选项卡。
+若要启动外设模拟器，请在计算机上单击**开始**，键入**售外围设备模拟器**，然后在该应用程序在搜索结果中显示时将其选中。 启动外设模拟器之后，单击设备名称查看支持的设备。 这些设备将在窗口左侧以选项卡的形式列出。 若要显示特定设备，请单击该设备的选项卡。
 
 ### <a name="line-display-capabilities"></a>行显示器功能
 
@@ -176,9 +177,9 @@ Microsoft Dynamics 365 for Operations - Retail 外设模拟器是一款工具，
 
 1.  转至**零售和商业** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**。
 2.  选择零售商店。
-3.  单击“编辑”****。
+3.  单击**“编辑”**。
 4.  单击**设置**，然后在**设置**部分单击**付款方式**。
-5.  单击“编辑”****。
+5.  单击**“编辑”**。
 6.  选择需要签名的付款方式。
 7.  在**常规**部分中的**签名捕获**下，将**使用签名捕获设备**选项设置为**是**。
 8.  在**签名捕获最小金额**字段中，输入应触发签名捕获的最小金额。

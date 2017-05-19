@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 2f466dfe53ccf0be15ed0793b4a6dd371bdacc0d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: 557ddaeb9253566d512bf76bd6a5e8f798f7d69d
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---

@@ -16,10 +16,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 9f4d7fdd8cfa7a540fce219f6ae4792e57dfbe44
-ms.openlocfilehash: f9c5aaa389c9c2f85d1ab91cbf3d2222cbebef55
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: eeba79c99f6eb730a2e5cb14aeeceaa2f5894434
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

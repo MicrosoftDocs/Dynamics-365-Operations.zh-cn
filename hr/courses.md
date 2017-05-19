@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 6f4429202efd0506378d681188035c5cc69f56a1
-ms.openlocfilehash: aa97950a22572fb4c934687b550c13dcc8acce0d
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 29739bf848e545dc00c9b775960b20c16bbbe38a
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -47,7 +48,7 @@ ms.lasthandoff: 03/31/2017
 -   **教师**
 
 ## <a name="course-types"></a>课程类型
-您可以使用课程类型根据课程结构或内容对课程进行分类。 您可以在“课程类型”****页上创建课程类型。 创建课程记录时，必须选择课程类型。
+您可以使用课程类型根据课程结构或内容对课程进行分类。 您可以在**“课程类型”**页上创建课程类型。 创建课程记录时，必须选择课程类型。
 
 ## <a name="course-setup-type"></a>课程设置类型
 下表列出了课程的三种设置类型。 设置类型确定课程结构。
@@ -72,8 +73,8 @@ ms.lasthandoff: 03/31/2017
 <td><strong>课程安排 + 会话</strong></td>
 <td>为更复杂的课程选择此类型。 例如，您可以将课程日程分为轨道和会话。
 <ul>
-<li>“班组”<strong></strong>– 班组是课程特定的主题区域。</li>
-<li>“学期”<strong></strong>– 学期将班组划分开来，并且帮助确定与轨道相关的特定流程或技巧。</li>
+<li><strong>“班组”</strong>– 班组是课程特定的主题区域。</li>
+<li><strong>“学期”</strong>– 学期将班组划分开来，并且帮助确定与轨道相关的特定流程或技巧。</li>
 </ul></td>
 </tr>
 </tbody>
@@ -105,7 +106,7 @@ ms.lasthandoff: 03/31/2017
 <td><strong>已创建</strong></td>
 <td><ul>
 <li>输入并修改课程信息。</li>
-<li>将课程状态更改为“打开”<strong></strong>，这样工作人员可以登记该课程。</li>
+<li>将课程状态更改为<strong>“打开”</strong>，这样工作人员可以登记该课程。</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -114,8 +115,8 @@ ms.lasthandoff: 03/31/2017
 <li>为课程登记参与者。</li>
 <li>将参与者从课程中移除。</li>
 <li>确认课程的参与者。</li>
-<li>将课程状态更改为“已关闭”<strong></strong>或“已取消”<strong></strong>。</li>
-<li>为状态为“已确认”<strong></strong>的参与者规划调查表。</li>
+<li>将课程状态更改为<strong>“已关闭”</strong>或<strong>“已取消”</strong>。</li>
+<li>为状态为<strong>“已确认”</strong>的参与者规划调查表。</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -130,7 +131,7 @@ ms.lasthandoff: 03/31/2017
 </table>
 
 ## <a name="course-participants"></a>课程参与者
-课程参与者有工作人员、申请者或参加培训课程或事件的承包商。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在“课程”****页上的“常规”****快速选项卡中进行了定义。
+课程参与者有工作人员、申请者或参加培训课程或事件的承包商。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在**“课程”**页上的**“常规”**快速选项卡中进行了定义。
 
 <a name="workflow"></a>工作流
 --------

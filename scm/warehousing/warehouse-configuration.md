@@ -3,7 +3,7 @@ title: "仓库配置"
 description: "本文说明如何配置仓库。 它包含有关如何启用仓库布局和仓库流程的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2015-10-30 12 - 52 - 43
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: afa59439e06aad9d669eb352a9837a013f447249
-ms.openlocfilehash: 437f2348603db432df6d7589e4043d8145c52a1e
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e312f953d6a29d26b98794ed213d6ec70f6aa4b7
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="warehouse-configuration"></a>仓库配置
+
+[!include[banner](../includes/banner.md)]
+
 
 本文说明如何配置仓库。 它包含有关如何启用仓库布局和仓库流程的信息。
 
@@ -66,7 +70,7 @@ Microsoft Dynamics 365 for Operations 中的仓库管理系统允许您以灵活
 
 ### <a name="location-setup-wizard"></a>库位设置向导
 
-若要快速在仓库内创建位置，您可以使用 **设置位置** 向导。 作为此流程的一部分，您可以轻松地维护位置名称的格式。
+若要快速在仓库内创建位置，您可以使用**“设置位置”**向导。 作为此流程的一部分，您可以轻松地维护位置名称的格式。
 
 ## <a name="warehouse-processes"></a>仓库流程
 作为仓库部署的一部分，您一定要根据业务要求启用仓库流程。 必须配置的最重要组件是通知波次模板、工作模板、工作池和位置指令。
@@ -75,7 +79,12 @@ Microsoft Dynamics 365 for Operations 中的仓库管理系统允许您以灵活
 
 波次模板可帮助启用传出版本“发放到仓库”流程。 在下达订单行（直接从源文档、通过批处理作业流程，或者通过已经创建的负载）后，会使用波次模板功能。 
 
-您可以创建三种类型的波次模板：**装运**、**生产订单**和**看板**。 参数用于定义系统在传出工作处理中应自动运行的程度。 波次模板是基于在模板中指定的波次模板顺序和标准而选择的。 如果模板列在该序列的顶部，则首先检查该模板中的条件。 如果可以满足条件，则会处理波次模板。 否则，会检查下一个模板中的条件，等等。 因此，最好将具有最具体条件的模板放在波次模板顺序列表顶部，因此，它会首先被处理。 例如，如果您要处理今天特定承运人的所有工作并临时延迟处理其他承运人的工作。 在这种情况下，为该承运人选择工作的波次模板应列在序列中比其他模板更高的位置。 否则，其他承运人的工作可能在该承运人的工作完成前处理。 
+您可以创建三类波次模板： 
+-   **装运**
+-   **生产订单**
+-   **看板** 
+
+参数用于定义系统在传出工作处理中应自动运行的程度。 波次模板是基于在模板中指定的波次模板顺序和标准而选择的。 如果模板列在该序列的顶部，则首先检查该模板中的条件。 如果可以满足条件，则会处理波次模板。 否则，会检查下一个模板中的条件，等等。 因此，最好将具有最具体条件的模板放在波次模板顺序列表顶部，因此，它会首先被处理。 例如，如果您要处理今天特定承运人的所有工作并临时延迟处理其他承运人的工作。 在这种情况下，为该承运人选择工作的波次模板应列在序列中比其他模板更高的位置。 否则，其他承运人的工作可能在该承运人的工作完成前处理。 
 
 您必须在每个波次模板中指定波次流程方法。 可用的方法根据波次模板类型而不同。
 
@@ -107,6 +116,8 @@ Microsoft Dynamics 365 for Operations 中的仓库管理系统允许您以灵活
 <a name="see-also"></a>请参阅
 --------
 
-[在启用 WMS 的仓库中配置位置（任务指南）](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehousing/)
+[在启用 WMS 的仓库中配置位置（任务指南）](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+
+
 
 

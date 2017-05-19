@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: ab16c517abfd3fa2b59625fff04b7427ee3471bb
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: df94cf12accd2b18c1f8cfd43d7de5dff16e7aea
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -45,7 +46,7 @@ ms.lasthandoff: 03/31/2017
 
 您可以通过两种方式标识取消和更正发票：
 
--   “所有普通发票”****页包括“更正”****列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。
+-   **“所有普通发票”**页包括**“更正”**列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。
 -   普通发票的标题显示状态**正在取消发票‘\[发票编号\]**或**已更正的发票‘\[发票编号\]**。
 
 > [!NOTE]

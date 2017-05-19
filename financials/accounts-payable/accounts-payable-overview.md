@@ -1,6 +1,6 @@
 ---
 title: "配置应付帐款"
-description: "本文介绍您用于在 Microsoft Dynamics AX 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。"
+description: "本文介绍您用于在 Microsoft Dynamics 365 for Operations 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 926ee087a0e0c4743f29315b1d82c7d37e95be28
-ms.openlocfilehash: b06623a0eb754654f41c50b92af67dc94a069663
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 8581401bfefe4ddf29f32691b5678317e392db96
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 03/31/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍您用于在 Microsoft Dynamics AX 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。
+本文介绍您用于在 Microsoft Dynamics 365 for Operations 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。
 
 <a name="prerequisites-for-accounts-payable-setup"></a>应付帐款设置的先决条件
 ----------------------------------------
@@ -145,6 +146,7 @@ ms.lasthandoff: 03/31/2017
 **现金和银行管理**
 
 -   在“付款目的代码”页上，设置主办银行目的代码。
+
 
 
 

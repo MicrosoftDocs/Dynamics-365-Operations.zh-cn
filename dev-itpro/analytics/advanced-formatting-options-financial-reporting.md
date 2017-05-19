@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
-translationtype: Human Translation
-ms.sourcegitcommit: 388b6398488e6f316c1ec07a00182e81c1dc8d08
-ms.openlocfilehash: 631fec1dc135565e6d38e7faf193a7a898b508cb
-ms.lasthandoff: 03/29/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 9e9e6a9900f7a20da71596c6effaf37f3f8b5354
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

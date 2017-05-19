@@ -18,23 +18,27 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: b33cbf67c00b6baea4393e82d19300085781af29
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: e60994f5c4fa38fc2be17b4021e2def904c87b7f
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="install-the-retail-pos-layout-designer"></a>安装 Retail POS 布局设计器
 
+[!include[banner](includes/banner.md)]
+
+
 您可以使用一键式设计器在横向或纵向模式下为商店、收银机、出纳和经理设计不同的 Retail Modern POS (MPOS) 和 Cloud POS 布局。
 
 MPOS 或 Cloud POS 的图形设计界面由钱柜布局控制。 格式控制各种对象的位置。 示例包括总体布局、物料网格布局、客户版式、付款版式和各种菜单按钮格式。 布局还包括销售界面显示给销售人员的整体外观。
 
-## <a name="install-the-oneclick-designer"></a>安装一键式设计器
+## <a name="install-the-one-click-designer"></a>安装一键式设计器。
 1.  在 Microsoft Dynamics 365 for Operations 中，使用左上角的菜单导航到**零售****和商务** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS** &gt; **屏幕布局**。
-2.  选择应用程序类型为 **Modern POS for Windows** 或 **Cloud POS** 的任何布局，然后单击“**布局设计器**”。
+2.  选择应用程序类型为**适用于 Windows 的 Modern POS** 或**云 POS** 的任何布局，然后单击**布局设计器**。
 3.  在出现在 Internet Explorer 窗口底部的通知栏上，单击“**打开**”开始安装一键式设计器。 （通知栏可能在其他浏览器的不同位置显示。）
 4.  在显示的“**应用程序运行 - 安全警告**”消息框中，单击“**运行**”以安装 Retail 设计器主机。 进度指示器显示安装进度。
 5.  在安装完成后，在“**登录**”页面上输入您的 Microsoft Dynamics 365 for Operations 用户名和密码，然后单击“**登录**”以启动设计器。
@@ -52,5 +56,7 @@ MPOS 或 Cloud POS 的图形设计界面由钱柜布局控制。 格式控制各
 --------
 
 [配置、下载、安装和激活 Retail Modern POS](retail-modern-pos-device-activation.md)
+
+
 
 

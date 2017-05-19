@@ -3,7 +3,7 @@ title: "周期盘点"
 description: "本文介绍如何使用仓库管理中提供的仓库解决方案使用周期盘点。 本文不适用于可用于库存管理的仓库解决方案。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 2016-02-18 11 - 46 - 20
+ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Operations
@@ -17,15 +17,19 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 3d02a15387231160f5b8a237aa11008b91ef1223
-ms.openlocfilehash: ffc1523d53732616d77511f39b72efc8f97744eb
-ms.lasthandoff: 03/30/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 387d114936567fc471cdcafcb2e93c1704db7ead
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
 
 # <a name="cycle-counting"></a>周期盘点
+
+[!include[banner](../includes/banner.md)]
+
 
 本文介绍如何使用仓库管理中提供的仓库解决方案使用周期盘点。 本文不适用于可用于库存管理的仓库解决方案。
 
@@ -39,7 +43,6 @@ ms.lasthandoff: 03/30/2017
 
 ## <a name="cycle-counting-prerequisites"></a>周期盘点先决条件
 下表显示必须先就绪然后才能开始使用周期盘点。
-
 <table>
 <colgroup>
 <col width="50%" />
@@ -82,7 +85,7 @@ ms.lasthandoff: 03/30/2017
 <li>周期盘点分组</li>
 <li>现货周期盘点</li>
 </ul>
-有关详细信息，请参阅<a href="configure-mobile-devices-warehouse">为仓库工作配置移动设备</a>。</li>
+</li>
 <li>设置移动设备的菜单。</li>
 <li>创建一个工作用户帐户并向工作用户 ID 分配一个移动设备菜单。</li>
 </ul></td>
@@ -133,6 +136,9 @@ ms.lasthandoff: 03/30/2017
 -   盘点结果值与现有库存数量不同，且没有设置偏差限制。
 
 您可以调整盘点结果值的差异，然后在**待审阅的周期盘点**页上接受该盘点结果值。 您可以在**按库位显示的现有量**页中验证修改后的物料数量的盘点。 如果差异未被批准则盘点结果值将被拒绝。
+
+# <a name="see-also"></a>请参阅
+[为仓库工作配置移动设备](configure-mobile-devices-warehouse.md)
 
 
 

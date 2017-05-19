@@ -1,7 +1,7 @@
 ---
 title: "查看和设计财务报表"
-description: "本文提供练习，引导您为 Microsoft Dynamics 365 for Operations 查看和创建财务报表。 财务申报包含 Dynamics 365 for Operations 内的查看体验和供您创建和编辑财务报表的一键式报表设计器。"
-author: twheeloc
+description: "本文提供练习，引导您为 Microsoft Dynamics 365 for Operations 查看和创建财务报表。"
+author: jcart1106
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: shylaw
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4d6cf88788dcc5e982e509137aa444a020137a5e
-ms.openlocfilehash: 3319fa0a919ca5e2737319f5cdc4190cf32d59b6
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
+ms.openlocfilehash: 635e9e90c63330b3d8b0cc46f16a36fa44ef915d
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/27/2017
 
 
 ---
@@ -182,8 +183,8 @@ ms.lasthandoff: 03/31/2017
 18. **保存**所做更改并**生成**。 在报表完成生成并打开后，可以探索报表。
 
 ## <a name="additional-resources"></a>其他资源
-[财务报表](\financials\general-ledger\financial-reporting-getting-started.md) 
-[查看财务报表](\financials\general-ledger\view-financial-reports.md) 
+[财务报表](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
+[查看财务报表](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
 [Dynamics 财务报表博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

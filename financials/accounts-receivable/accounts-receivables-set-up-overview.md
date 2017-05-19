@@ -18,10 +18,11 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 2cb439e871d57f74c296697cfc42705fb0121bb7
-ms.openlocfilehash: ee12dbc3621df8f72e71c9731d315b530755e67c
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 0740ee62a1d7873fdab3d8951f296ec917d95c7f
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---
@@ -36,7 +37,7 @@ ms.lasthandoff: 03/31/2017
 您可以设置客户组、客户、过帐模板、不同的付款选项、利息单、催款单、佣金、与客户有关的参数、计费、交货和目的地、汇票和其他类型的应收帐款以及信用和收款信息。
 下表列出了支持应收帐款以及信用和收款的配置和维护的页面。 先按任务、然后按页面名称的字母顺序排列表条目。
 
-| ![注意](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "注意")**注意 **          |
+| ![注意](https://i-technet.sec.s-msft.com/areas/global/content/clear.gif "注意")**注意**          |
 |--------------------------------------------------------------------------------------------------|
 | 下表中的某些页面需要信息或参数设置以导航到它们。 |
 

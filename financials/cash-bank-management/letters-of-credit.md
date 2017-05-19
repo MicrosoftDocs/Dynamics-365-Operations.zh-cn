@@ -17,10 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 4bb647cfd3f012efbffa93a81462c538a24ac850
-ms.openlocfilehash: 9c9afaa7829143c8accac0f7a51a33ea9d22bd67
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
+ms.openlocfilehash: 3d8225fb38049df3144237b3af869b16d7535206
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/25/2017
 
 
 ---

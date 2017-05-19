@@ -17,10 +17,11 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-translationtype: Human Translation
-ms.sourcegitcommit: 0c6a7bdc4ba82dd57ab3e395e6dfb0ae4de31fc4
-ms.openlocfilehash: 09c7fce1fa83d6a8d6391db667b7260d2a199390
-ms.lasthandoff: 03/31/2017
+ms.translationtype: Human Translation
+ms.sourcegitcommit: 6b1f91f863c8da35362ebb3036e76aa10d95ba65
+ms.openlocfilehash: bca8431e88ea73060c75774ae55611f95016e9a1
+ms.contentlocale: zh-cn
+ms.lasthandoff: 04/26/2017
 
 
 ---
@@ -45,7 +46,7 @@ ms.lasthandoff: 03/31/2017
 2.  选择要用于独立班次的硬件配置文件。
 3.  在**开票人**快速选项卡上，确认**共享班次开票人**选项设置为**无**。
 4.  单击**保存**。
-5.  单击**零售和商业** &gt; **渠道设置** &gt; POS 设置 **** &gt; **收银机**。
+5.  单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
 6.  选择需要独立班次的收银机，然后单击**编辑**。
 7.  在**硬件配置文件**字段中，选择您在步骤 2 中选定的硬件配置文件。
 8.  单击**保存**。
@@ -73,7 +74,7 @@ ms.lasthandoff: 03/31/2017
 2.  选择要用于共享班次的硬件配置文件。
 3.  在**开票人**快速选项卡上，将**共享班次开票人**选项设置为**是**。
 4.  单击**保存**。
-5.  单击**零售和商业** &gt; **渠道设置** &gt; POS 设置 **** &gt; **收银机**。
+5.  单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
 6.  选择需要共享班次的收银机，然后单击**编辑**。
 7.  在**硬件配置文件**字段中，选择您在步骤 2 中选定的硬件配置文件。
 8.  单击**保存**。
