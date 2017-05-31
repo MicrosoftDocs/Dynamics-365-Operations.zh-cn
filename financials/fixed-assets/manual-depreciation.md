@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetDepreciationProfile
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e0648d7f89b3e3a1f8fee6501ceb7443be16aa1a
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 75d176623b4fdf2198440becd0345628f873f6da
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -67,7 +67,7 @@ ms.lasthandoff: 04/25/2017
 | 一月  | (11,000 – 1,000) × 10% = 1,000 |
 | 二月 | (11,000 – 1,000) × 50% = 5,000 |
 
-如果在 ****期间频率**** 字段中选择“**每半年**”，则表示设置了两个手动计划间隔。 下表显示这两个间隔的折旧金额。
+如果在 ****期间频率**** 字段中选择**每半年**，则表示设置了两个手动计划间隔。 下表显示这两个间隔的折旧金额。
 
 | 间期    | 折旧金额            |
 |-------------|--------------------------------|

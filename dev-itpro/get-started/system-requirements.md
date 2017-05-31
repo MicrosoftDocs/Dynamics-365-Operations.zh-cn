@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: Core
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 86053196a3aad6b7b5d7830860e1af347dd969d8
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: de2f71a21c5aac953349559c84283d0f76082d42
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -42,7 +42,9 @@ Microsoft Dynamics 365 for Operations Web 应用程序可在指定操作系统�
 -   Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）
 -   Mac OS X 10.10 (Yosemite)、10.11 (Capitan)、10.12 (Sierra) 或 Apple iPad 上的 Apple Safari（最新公开提供的版本）
 
-要查看每个 Web 浏览器的最新版本，请转至软件制造商的网站。 **注意：**
+要查看每个 Web 浏览器的最新版本，请转至软件制造商的网站。 
+
+**注意：**
 
 -   若要捕获从任务录制器生成的图像并插入到 Microsoft Word 文档中，必须安装 Chrome 扩展。 <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/operations/dev-itpro/user-interface/task-recorder).-->
 -   Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
@@ -59,10 +61,12 @@ Microsoft Dynamics 365 for Operations Web 应用程序可在指定操作系统�
 -   Windows 10、Windows 8.1 或 Windows 7 上的 Chrome（最新公开提供的版本）
 
 ## <a name="network-requirements"></a>网络要求
--   Dynamics 365 for Operations 适用于延迟低于 150 毫秒 (ms) 的网络。 这是从浏览器客户端到主管 Dynamics 365 for Operations 的 Microsoft Azure 数据中心的延迟。 建议在 <http://www.azurespeed.com> 测试网络延迟。
+-   Dynamics 365 for Operations 适用于延迟在 250-300 毫秒 (ms) 或更低的网络。 这是从浏览器客户端到主管 Dynamics 365 for Operations 的 Microsoft Azure 数据中心的延迟。 建议在 <http://www.azurespeed.com> 测试网络延迟。
 -   Dynamics 365 for Operations 的带宽要求取决于您的方案。 大多数典型方案要求带宽超过每秒 50 千字节 (KBps)。 但是，对于需要高负载要求的方案（如涉及大量自定义的工作区或方案），建议提供更多带宽。
 
-Dynamics 365 for Operations 通常已针对 Internet 进行了优化。 从浏览器客户端到 Azure 数据中心的往返次数很小，并且整个负载经过压缩。 **警告：**请勿通过将用户数乘以最低带宽要求来计算客户端位置的带宽要求。 给定位置的并行使用很难计算。 对于注重带宽要求的客户，请使用 Dynamics 365 for Operations 预览版本。
+Dynamics 365 for Operations 通常已针对 Internet 进行了优化。 从浏览器客户端到 Azure 数据中心的往返次数很小，并且整个负载经过压缩。 
+
+**警告：**请勿通过将用户数乘以最低带宽要求来计算客户端位置的带宽要求。 给定位置的并行使用很难计算。 对于注重带宽要求的客户，请使用 Dynamics 365 for Operations 预览版本。
 
 ## <a name="net-framework-requirements"></a>.NET Framework 要求
 Dynamics 365 for Operations 需要 .NET Framework 版本 4.6.2 以满足一键式应用程序的要求，如文档路由代理程序。 有关安装说明，请参阅[安装 .NET Framework](https://msdn.microsoft.com/en-us/library/5a4x27ek(v=vs.110).aspx)。

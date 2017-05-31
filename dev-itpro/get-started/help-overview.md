@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6f785ac8b9a8be503bf9122f21716f745b17115b
-ms.openlocfilehash: f08434b4c818460009644e77da1b37ba86cc1d54
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 181ad9a7ab4e83ce9eb34312e93b1ebdeb2e04eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -38,10 +38,14 @@ Dynamics 365 for Operations 包括一个帮助系统，基于两个主要组件�
 -   文档站点
 -   任务指南
 
-您可以从 Dynamics 365 for Operations 中的“帮助”窗格访问文章和任务指南，如下面的屏幕快照所示。 [![“帮助”窗格](./media/help-pane-ops-task-guides-1024x741.png)](./media/help-pane-ops-task-guides.png)本文描述帮助系统，并说明如何为您的组织创建自定义文档和培训资源。
+您可以从 Dynamics 365 for Operations 中的“帮助”窗格访问文章和任务指南，如下面的屏幕快照所示。
+
+![帮助窗格](./media/help-pane-ops-task-guides-1024x741.png)
+
+本文描述帮助系统，并说明如何为您的组织创建自定义文档和培训资源。
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com 中的“帮助”
-docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations) 是 Dynamics 365 for Operations 的产品文档的主要来源。 该站点提供以下功能：
+docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) 是 Dynamics 365 for Operations 的产品文档的主要来源。 该站点提供以下功能：
 
 -   **访问最新的内容** – 该站点能让我们以更快、更灵活的方式创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。
 -   **由专家编写的内容** – 该站点提供更丰富的产品文档集，可由 Microsoft 内外的社区成员增强。
@@ -50,13 +54,48 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 
 我们已将以前的帮助 wiki 中的所有内容迁移到了 docs。 我们对新的站点感到非常激动，希望您也是。
 
-### <a name="when-can-we-use-it"></a>我们什么时候可以使用它？
+### <a name="searching-on-docsmicrosoftcom"></a>在 docs.microsoft.com 上搜索
+有关如何搜索我们的内容，我们收到了很多问题。 在我们的站点上，如果您从与 Dynamics 365 for Operations 有关的页面开始，我们只将您的搜索限定为 Dynamics 365 for Operations 内容。 您可以通过单击搜索框中“操作”旁边的 X 来删除限定范围。 
+![搜索](./media/search-scope.png)
 
-您可以立即阅读 docs 上的内容 -- 它是完全公共的、可搜索的，而无需登录。 您可以使用您喜爱的任何搜索引擎查找内容。 如果您愿意，可以通过登录评论该站点的文章。
+您还可以使用任何搜索引擎查找我们的内容。 为达到最佳效果，建议您使用站点搜索，如 site:docs.microsoft.com“搜索词”  
+![站点搜索](./media/site-search.png)
+
+![站点搜索结果](./media/site-search-results.png)
+
+
+### <a name="how-can-i-contribute"></a>我如何作出贡献？ 
+
+对我们作出评论！ 
+
+1 单击**评论**到达页面底部的评论。
+
+![评论](./media/comments.png)
+
+2 开始键入您的评论，然后单击**发布评论**。
+
+![发布评论](./media/before-signin.png)
+
+3 选择要用于登录的帐户的类型：  
+单击左侧图标之一，将此站点与现有帐户关联，如 Twitter、Facebook 或 Microsoft 帐户。 
+
+或 
+
+在右边，输入电子邮件地址和新密码来创建站点的新帐户。 
+
+![登录选项](./media/signin-options.png)
 
 
 ## <a name="task-guides"></a>任务指南
-任务指南是受控的、引导式、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以从“帮助”窗格中打开（播放）任务指南。 当您首次单击任务指南时，“帮助”窗格将显示任务的分步说明。 本地化的任务指南现已提供。 [![任务指南阅读视图](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png) 若要开始引导式、交互式的体验，请在“帮助”窗格底部单击**启动任务指南**。 黑色指针打开并指示您必须执行的操作。 按照 UI 中显示的指导进行操作，并按照指示输入数据。 [![任务指南步骤说明](./media/task-guide-step-1-ops.png)](./media/task-guide-step-1-ops.png) **重要信息：**您在播放任务指南时输入的数据是真实的。 如果您处于生产环境中，则数据将输入您当前使用的公司中。
+任务指南是受控的、引导式、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以从“帮助”窗格中打开（播放）任务指南。 当您首次单击任务指南时，“帮助”窗格将显示任务的分步说明。 本地化的任务指南现已提供。 
+
+![任务指南阅读视图](./media/task-guide-ops-1024x742.png)
+
+若要开始引导式、交互式的体验，请在“帮助”窗格底部单击**启动任务指南**。 黑色指针打开并指示您必须执行的操作。 按照 UI 中显示的指导进行操作，并按照指示输入数据。 
+![任务指南步骤说明](./media/task-guide-step-1-ops.png)
+
+> [!IMPORTANT] 
+> 您在播放任务指南时输入的数据是真实的。 如果您处于生产环境中，则数据将输入您当前使用的公司中。
 
 ### <a name="it-all-begins-with-task-recorder"></a>它全都从任务录制器开始
 
@@ -72,7 +111,9 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 您可以创建自己的任务录制，也可以下载 Microsoft 提供的自定义任务录制。 因此，您可以为您的组织创建反映您的特定 Dynamics 365 for Operations 实施的自定义帮助。 若要在 Dynamics 365 for Operations 的“帮助”窗格中显示任务录制并将其作为任务指南播放，您必须将录制保存到 LCS 中的 BPM 库。 如果您是合作伙伴，并且您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。 有关完整指南，请参阅[使用任务录制创建文档或培训](../user-interface/task-recorder.md)。
 
 ## <a name="in-product-help"></a>产品内帮助
-若要访问 Dynamics 365 for Operations 内的帮助内容，请单击**“帮助”**(**?**) 图标，然后选择“帮助”或按 Ctrl+Shift+?。 在这两种情况下，“帮助”窗格将会打开。 从“帮助”窗格中，您可以访问文章或任务指南。 [![帮助窗格](./media/help-pane-wiki-1024x684.png)](./media/help-pane-wiki.png)
+若要访问 Dynamics 365 for Operations 内的帮助内容，请单击**“帮助”**(**?**) 图标，然后选择“帮助”或按 Ctrl+Shift+?。 在这两种情况下，“帮助”窗格将会打开。 从“帮助”窗格中，您可以访问文章或任务指南。 
+
+![帮助窗格](./media/help-pane-wiki-1024x684.png)
 
 ### <a name="accessing-articles-from-the-help-pane"></a>从“帮助”窗格中访问文章
 
@@ -80,19 +121,24 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 
 ### <a name="accessing-task-guides-from-the-help-pane"></a>从“帮助”窗格中访问任务指南
 
-在您可以从“帮助”窗格中访问任务指南前，系统管理员必须转到 Dynamics 365 for Operations 中的**系统参数**页并配置某些设置。 **注意：**
+在您可以从“帮助”窗格中访问任务指南前，系统管理员必须转到 Dynamics 365 for Operations 中的**系统参数**页并配置某些设置。 
 
--   为了配置帮助，您必须使用在其中部署 Dynamics 365 for Operations 的租户的帐户登录。
--   不能从在本地虚拟硬盘 (VHD) 中运行的 Dynamics 365 for Operations 的实例连接到 LCS 库。
+> [!NOTE]
+> -   为了配置帮助，您必须使用在其中部署 Dynamics 365 for Operations 的租户的帐户登录。
+> -   不能从在本地虚拟硬盘 (VHD) 中运行的 Dynamics 365 for Operations 的实例连接到 LCS 库。
 
-[![具有帮助设置的系统参数窗体](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) 在**系统参数**页上，执行以下步骤：
+![具有帮助设置的系统参数窗体](./media/system-parameters_ops-1024x437.png)
 
-1.  **重要：**首次打开"帮助"选项卡时，必须连接到 Lifecycle Services。 请确保单击窗体中间的链接，等待连接，关闭对话框，单后单击“确定”以转至参数窗体。[![连接至 LCS](./media/connect-to-lcs-crop-1024x365.png)](./media/connect-to-lcs-crop.png)
+在**系统参数**页上，执行以下步骤：
+
+1.  **重要：**首次打开"帮助"选项卡时，必须连接到 Lifecycle Services。 请确保单击窗体中间的链接，等待连接，关闭对话框，单后单击“确定”以转至参数窗体。
+![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png)
 2.  选择要连接到的 Lifecycle Services 项目。
 3.  选择要从中检索任务录制的 BPM 库（在所选项目内）。
 4.  选择 BPM 库的显示顺序。 它决定库中的任务录制在“帮助”窗格中的显示顺序。
 
-在系统管理员完成这些步骤后，您可以打开“帮助”窗格并单击**任务指南**选项卡。 您现在将看到应用于您当前在 Dynamics 365 for Operations 中所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。 您在“帮助”窗格中单击一个任务指南后，“帮助”窗格会显示分步说明，而且您可以播放该任务指南。 [![任务指南阅读视图](./media/task-guide-ops-1024x742.png)](./media/task-guide-ops.png)
+在系统管理员完成这些步骤后，您可以打开“帮助”窗格并单击**任务指南**选项卡。 您现在将看到应用于您当前在 Dynamics 365 for Operations 中所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。 您在“帮助”窗格中单击一个任务指南后，“帮助”窗格会显示分步说明，而且您可以播放该任务指南。 
+![任务指南阅读视图](./media/task-guide-ops-1024x742.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>翻译的任务指南在哪里？
 

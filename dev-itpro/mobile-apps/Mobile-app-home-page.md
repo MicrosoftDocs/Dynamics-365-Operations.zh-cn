@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
@@ -18,17 +18,15 @@ ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e1a9e0eeb45f011ccb2aa091e68aff92782e1ae7
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 5962fa36b061382e7f0ad55c08c81ac2cebc047d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
 
 # <a name="dynamics-365-for-operations-mobile-app-home-page"></a>Dynamics 365 for Operations 移动应用主页
-
-[!include[banner](../includes/banner.md)]
 
 [!include[banner](../includes/banner.md)]
 
@@ -61,7 +59,7 @@ Microsoft Dynamics 365 for Operations 移动应用让您的组织可以允许移
 ## <a name="implementation-process"></a>实施流程
 下图显示在您的组织实现 Dynamics 365 for Operations 移动应用的流程。 
 
-[![](./media/mobile-implementation-process_4.png)](./media/mobile-implementation-process_4.png) 
+![移动应用实现流程](./media/mobile-implementation-process_4.png)
 
 下表包括可以帮助您在组织中实施 Dynamics 365 for Operations 移动应用的资源的链接。 第一列的数字对应上一图中已编号的步骤。
 
@@ -85,7 +83,7 @@ Microsoft Dynamics 365 for Operations 移动应用让您的组织可以允许移
 <td>1</td>
 <td>系统管理员</td>
 <td>为组织实施 Dynamics 365 for Operations。</td>
-<td>如果您尚未在您的组织中部署 Dynamics 365 for Operations，请参阅<a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">部署 Microsoft Dynamics 365 for Operations 演示环境</a>。</td>
+<td>如果您尚未在您的组织中部署 Dynamics 365 for Operations，请参阅<a href="../deployment/deploy-demo-environment.md">部署 Microsoft Dynamics 365 for Operations 演示环境</a>。</td>
 </tr>
 <tr class="even">
 <td>2</td>
@@ -93,32 +91,27 @@ Microsoft Dynamics 365 for Operations 移动应用让您的组织可以允许移
 <td>下载并安装支持 Microsoft 提供的移动工作区的 KB。</td>
 <td>请参阅主题中有关您的组织希望使用的移动工作区的&quot;先决条件&quot;部分：
 <ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">成本控制移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">现有库存量移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">销售订单移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">供应商协作移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">项目时间条目移动工作区</a></li>
+<li><a href="/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">成本控制移动工作区</a></li>
+<li><a href="/dynamics365/operations/supply-chain/inventory/inventory-on-hand-mobile-workspace">现有库存量移动工作区</a></li>
+<li><a href="/dynamics365/operations/supply-chain/sales-marketing/sales-orders-mobile-workspace">销售订单移动工作区</a></li>
+<li><a href="/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">供应商协作移动工作区</a></li>
+<li><a href="/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">项目时间条目移动工作区</a></li>
+<li><a href="/dynamics365/operations/financials/expense-management/expense-management-mobile-workspace">费用管理移动工作区</a></li>
 </ul></td>
 </tr>
 <tr class="odd">
 <td>3</td>
 <td>系统管理员</td>
 <td>发布 Microsoft 提供的移动工作区。</td>
-<td>请参阅主题中有关您的组织希望使用的移动工作区的&quot;先决条件&quot;部分：
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">成本控制移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">现有库存量移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">销售订单移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">供应商协作移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">项目时间条目移动工作区</a></li>
-</ul></td>
+<td><a href="publish-mobile-workspace.md">发布移动工作区</a>
+</td>
 </tr>
 <tr class="even">
 <td>4</td>
 <td>开发商或独立软件供应商 (ISV)</td>
 <td>使用 Dynamics 365 for Operations 移动框架创建自定义移动工作区。</td>
 <td><ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/mobile-platform">Dynamics 365 for Operations 移动框架</a></li>
+<li><a href="mobile-platform.md">Dynamics 365 for Operations 移动框架</a></li>
 <li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">Dynamics 365 for Operations 工作区 X++ API</a></li>
 </ul></td>
 </tr>
@@ -126,19 +119,19 @@ Microsoft Dynamics 365 for Operations 移动应用让您的组织可以允许移
 <td>5</td>
 <td>ISV / 独立软件供应商</td>
 <td>创建包含自定义移动工作区的可部署包，并上载包到 Microsoft Dynamics Lifecycle Services (LCS)。</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">生成可部署包</a></td>
+<td><a href="../deployment/create-apply-deployable-package.md">创建可部署包</a></td>
 </tr>
 <tr class="even">
 <td>6</td>
 <td>系统管理员</td>
 <td>应用包含 ISV 提供的自定义工作区的可部署包。</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">在 Microsoft Dynamics 365 for Operations 系统中应用可部署包</a></td>
+<td><a href="../deployment/apply-deployable-package-system.md">在 Microsoft Dynamics 365 for Operations 系统中应用可部署包</a></td>
 </tr>
 <tr class="odd">
 <td>7</td>
 <td>系统管理员</td>
 <td>发布 ISV 提供的自定义移动工作区。</td>
-<td><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a></td>
+<td><a href="publish-mobile-workspace.md">发布移动工作区</a></td>
 </tr>
 <tr class="even">
 <td>8</td>
@@ -153,24 +146,12 @@ Microsoft Dynamics 365 for Operations 移动应用让您的组织可以允许移
 <td>9</td>
 <td>用户</td>
 <td>登录并使用 Dynamics 365 for Operations 移动应用。 此应用中包括已发布的移动工作区。</td>
-<td>Microsoft 提供了以下移动工作区：
-<ul>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/cost-accounting/cost-controlling-mobile-workspace">成本控制移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/inventory-on-hand-mobile-workspace">现有库存量移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/production-control/sales-orders-mobile-workspace">销售订单移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/supply-chain/procurement/vendor-collaboration-mobile-workspace">供应商协作移动工作区</a></li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/financials/project-management/project-time-entry-mobile-workspace">项目时间条目移动工作区</a></li>
-</ul></td>
+<td>若要查看 Microsoft 提供的移动工作区的列表，请参阅 <a href="mobile-workspaces-released.md">用于工序移动电话应用的 Dynamics 最近发放的移动 365 工作区</a>
+</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="see-also"></a>请参阅
---------
-
-[Dynamics 365 for Operations 移动应用最近发布的移动工作区](mobile-workspaces-released.md)
 
 
 

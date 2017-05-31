@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 99decd86602e7537af6393c6d28c262f20ca1f00
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 159fe64b7a37ffdcbcd6c122116c2e110300122b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -141,7 +141,7 @@ ms.lasthandoff: 04/25/2017
 | 在这些步骤中选择的选项将覆盖您在每个审核步骤的“**分配**”和“**呈报**”区域选择的选项。 |
 
 1.  在左侧窗格中，单击**高级设置**。
-2.  选中“**为工作流元素****设置时间限制**”复选框。
+2.  选中**为工作流元素****设置时间限制**复选框。
 3.  在“**持续时间**”字段中，指定必须在何时完成审核流程。 选择以下选项之一：
     -   **小时** – 输入必须在几小时内完成审核流程。 然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。
     -   **天** – 输入必须在几天内完成审核流程。 然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。

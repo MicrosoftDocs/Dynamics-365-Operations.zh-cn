@@ -3,10 +3,10 @@ title: "设置集中付款"
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/09/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 474453e7f33526bc7bebc60ef68f560d489a1841
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -41,7 +41,7 @@ ms.lasthandoff: 04/25/2017
 -   设置内部公司会计。
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>为集中付款设置组织的层次结构。
-您必须为集中付款设置组织的层次结构。 将相同的组织层次结构用于处理集中的供应商付款和集中的客户付款。 **注意：**对于集中付款，该层次结构的结构不会产生影响。 层次结构中的任何法人都将能代表层次结构中的任何其他法人处理付款。 在**组织层次结构**页上，您可以创建一个新的组织层次结构。
+您必须为集中付款设置组织的层次结构。 将相同的组织层次结构用于处理集中的供应商付款和集中的客户付款。 **注意：**对于集中付款，该层次结构的结构不会产生影响。 层次结构中的任何法人都将能代表层次结构中的任何其他法人处理付款。 在**组织层次结构**页上，您可以创建一个新的组织层次结构。 在**用途**字段中，必须选择**集中付款**。 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>为集中付款设置内部公司帐户
 在对照其他法人中的发票结算当前法人中的付款交易记录时，将为每个法人创建相应的应付和应收交易记录。 您必须指定过帐任何适用现金折扣和已有损益金额的法人。 在开始前，确定您将使用哪一法人处理供应商和客户付款。 如果一个法人处理供应商付款，另一个法人处理客户付款，您必须切换到各法人。 在**内部公司会计**页上，可以为将代表其处理付款的法人选择内部公司关系记录。 在**集中付款**选项卡上，您可以选择是将现金折扣过帐到付款（或减少供应商帐户余额的其他交易记录）法人还是发票（或增加供应商帐户余额的其他交易记录）法人。 此选择与**应付帐款参数**和**应收帐款参数**页的**现金折扣管理**字段一起工作。 对于超额付款和尾差容差，使用付款的法人中的设置。 对于支付不足和尾差容差，使用发票的法人中的设置。

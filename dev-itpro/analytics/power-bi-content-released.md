@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/21/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: end user, IT Pro
 ms.reviewer: annbe
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: c66e466584b09c1034cf28118c253508c6c4fdd2
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 675e2a929e084e5289564fbd59cd623b1f4b8d77
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---

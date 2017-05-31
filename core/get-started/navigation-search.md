@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 650c8b60ba8204e8990cf607c1c9901b8f0bb762
-ms.openlocfilehash: 9f2cbafa3e21006f458067baf99ea5abaef8bb86
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: df804f79d6639c118e3e0534a21423f207ceb2c7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/28/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -36,7 +36,7 @@ Dynamics 365 for Operations 提供了面向一系列广泛的行业和类别的�
 
 要使用此功能，请单击**“搜索”**图标以显示**“搜索”**框。 然后，您可以在该框中键入一个或多个词。 系统将立即在该应用程序中搜索与您输入的词匹配的相关页面。 例如，您可键入“供应商发票”作为输入，然后系统将显示匹配该输入的结果。 
 
-**注意：****“搜索”**框可帮助您查找并导航至页面。 它不会帮助您查找特定的数据或操作。 
+**注意：****搜索**框可帮助您查找并导航至页面。 它不会帮助您查找特定的数据或操作。 
 
 [![搜索框](media/navigation-search.png "搜索框") 
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.search.scope: Operations
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fbca041e0663fad4437207146bcfff8f93f4a7fc
-ms.openlocfilehash: 67faa02d445cc4c6e78fe5471605d8c0a2da21de
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 65cb3247b2b894a0e51f479ba3fae04ed0fe4a56
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/27/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -171,7 +171,7 @@ ms.lasthandoff: 04/27/2017
 </tr>
 <tr class="even">
 <td>从共享页面定义内部公司核算设置。</td>
-<td>现在可以共享<strong>内部公司核算设置"页面</strong>，因此，组织可以定义可以相互交易的所有法人配对。 此外，您现在还可以在源法人中（而不是从目标法人）输入交易。 如果任何一个法人都可以发起内部公司交易，则必须定义互惠配对。 因此，目标法人还设置为源法人。</td>
+<td>现在可以共享<strong>内部公司核算设置页面</strong>，因此，组织可以定义可以相互交易的所有法人配对。 此外，您现在还可以在源法人中（而不是从目标法人）输入交易。 如果任何一个法人都可以发起内部公司交易，则必须定义互惠配对。 因此，目标法人还设置为源法人。</td>
 </tr>
 <tr class="odd">
 <td>提交预算计划的理由文档。</td>
