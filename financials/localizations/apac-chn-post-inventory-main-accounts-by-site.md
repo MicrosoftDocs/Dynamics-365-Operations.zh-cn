@@ -10,6 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventPostingParameters
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 262754
 ms.assetid: f8e0b34d-006a-4baf-86ae-60625ba4b442

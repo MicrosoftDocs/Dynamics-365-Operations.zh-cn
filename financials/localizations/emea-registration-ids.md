@@ -10,9 +10,9 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 264824
-ms.assetid: e86f0a35-be58-4ef5-b5ab-bcfc495eaa13
 ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30

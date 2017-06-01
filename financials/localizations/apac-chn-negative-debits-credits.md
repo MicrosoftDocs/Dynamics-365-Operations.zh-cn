@@ -9,6 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 265884
 ms.assetid: 0f23b25b-45e5-4156-9e38-621a97046552
