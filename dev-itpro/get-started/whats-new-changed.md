@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: c9f1e32986238739fc7eee519fd1d17a6ce6731e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 55a3252aa2d84ac5af68a1a6eebeaa909d95b33b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -34,6 +34,9 @@ ms.lasthandoff: 04/25/2017
 此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Operations 最新版本的新功能的主题。
 
 若要升级到最新版本，请参阅“[升级到 Dynamics 365 for Operations 最新更新的流程](../migration-upgrade/upgrade-latest-update.md)”。
+
+若要更多了解近期发布的移动工作区和 Power BI 内容，请参阅 [Dynamics 365 for Operations 应用近期发布的移动工作区](../mobile-apps/mobile-workspaces-released.md)和 [Dynamics 365 for Operations 近期发布的 Power BI 内容](../analytics/power-bi-content-released.md)
+
 <table>
 <colgroup>
 <col width="20%" />
@@ -44,7 +47,7 @@ ms.lasthandoff: 04/25/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>下达</strong></th>
+<th><strong>发布</strong></th>
 <th><strong><strong>版本</strong></strong></th>
 <th><strong><strong>内部版本号</strong></strong></th>
 <th><strong><strong>可用性</strong></strong></th>
@@ -53,6 +56,12 @@ ms.lasthandoff: 04/25/2017
 </thead>
 <tbody>
 <tr class="odd">
+<td>Microsoft Dynamics 365 for Operations 平台</td>
+<td>平台更新 7</td>
+<td> 7.0.4542.16189</td>
+<td>2017 年 5 月</td>
+<td><a href="whats-new-platform-update-7.md">Dynamics 365 for Operations 平台更新 7（2017 年 5 月）的新增功能和更改内容</a></td>
+</tr><tr class="odd">
 <td>Microsoft Dynamics 365 for Operations 平台</td>
 <td>平台更新 6</td>
 <td> 7.0.4509.16180</td>

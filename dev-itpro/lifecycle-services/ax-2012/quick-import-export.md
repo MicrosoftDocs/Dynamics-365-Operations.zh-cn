@@ -5,7 +5,7 @@ author: margoc
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: dynamics-ax-2012
 ms.service: Dynamics365Operations
 ms.technology: 
 audience: Application User
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 
 ms.dyn365.ops.version: AX 2012 R3 CU8
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: f35e7b7d987d6caa19a32460259f07322f2b85cb
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11cf53af2db453471175cec5de63d38f8b680c9b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 1ab51f90be918ee60e99fe11e5425383beefb26e
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -47,13 +47,11 @@ ms.lasthandoff: 04/25/2017
 |确认销售订单                   | 更新销售订单。                                                                       |
 |外币重估          | 生成以外币更新未结客户交易记录的值的交易记录。                                                                                                                         |
 | 生产订单日记帐                              | 过帐发票、付款和本票。                                             |
-| 日记帐凭证                      | -   **付款日志** – 生成、处理和过帐付款。
-                                         -   **Draw bill of exchange journal** – Post bills of exchange.
-                                         -   **Protest bill of exchange journal** – Post protested bills of exchange.
-                                         -   **Redraw bill of exchange journal** – Post redrawn bills of exchange.
-                                         -   **Remittance journal** – Post remittances.
-                                         -   **Settle bill of exchange journal** – Post settled bills of exchange                   |
-| 装箱单过帐                 | 更新销售订单的装箱单。                                                     | | 过帐普通发票               | 过帐普通发票。                                                                   | | 过帐发票                      | 过帐销售订单的发票。                                                            | | 过帐领料单                 |更新销售订单的领料单。                                                      |
+| 日记帐凭证                      |<ul><li>**付款日志** – 生成、处理和过帐付款。</li><li>**签发汇票日志** – 过帐汇票。</li><li>**拒付汇票日志** – 过帐拒付汇票。</li><li>**重新签发汇票日志** – 过帐重新签发汇票。</li><li>**汇款日志** – 过帐汇款。</li><li>**结算汇票日志** – 过帐已结算汇票</li></ul>                   |
+| 装箱单过帐                 | 更新销售订单的装箱单。                                                     |
+| 过帐普通发票               | 过帐普通发票。                                                                   |
+| 过帐发票                      | 过帐销售订单的发票。                                                            |
+| 过帐领料单                 |更新销售订单的领料单。                                                      |
 
 **业务流程组件任务**   
 

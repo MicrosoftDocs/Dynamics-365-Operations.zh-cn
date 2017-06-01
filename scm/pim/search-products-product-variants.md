@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: MCRFullTextIndexField, MCRFullTextParameters, PurchTable, SalesTable
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 9848b70dd6df4d9e3ff616e1a103a5e6ec5b5d05
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 3960cc3eb9b8d488973d258db45aa0ab9f1dd988
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -75,7 +75,7 @@ ms.lasthandoff: 04/25/2017
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>第 2 步：填充用于产品搜索的数据库表格
 
-在“**搜索条件**"页面，单击"**更新搜索数据**”按钮。 在“**更新搜索数据**”对话框中，确保将“**来源**”设置为“**产品**”，然后单击“**确定**”。 系统将在第 1 步指定的所有选定搜索条件聚合到一个表格中。 如果您有许多产品和产品变型，这一操作将非常耗时，因此您可能收到警告。 我们建议您安排在服务器不忙时在批处理服务器上进行搜索表填充。  
+在**搜索条件**页面，单击**更新搜索数据**按钮。 在“**更新搜索数据**”对话框中，确保将“**来源**”设置为“**产品**”，然后单击“**确定**”。 系统将在第 1 步指定的所有选定搜索条件聚合到一个表格中。 如果您有许多产品和产品变型，这一操作将非常耗时，因此您可能收到警告。 我们建议您安排在服务器不忙时在批处理服务器上进行搜索表填充。  
 
 填充完表格之前，产品搜索不会提供正确的结果。 如果您无法获得任何搜索结果，请确保此表已填充。  
 

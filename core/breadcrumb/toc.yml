@@ -18,6 +18,7 @@
     - name: 零售
       tocHref: /dynamics365/operations/retail/
       topicHref: /dynamics365/operations/retail/index
-    - name: 供应链 
+    - name: 供应链
+ 
       tocHref: /dynamics365/operations/supply-chain/
       topicHref: /dynamics365/operations/supply-chain/index

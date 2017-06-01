@@ -4,6 +4,7 @@
 ## 创建需求预测
 ### [需求预测概览](master-planning/introduction-demand-forecasting.md)
 ### [设置需求预测](master-planning/demand-forecasting-setup.md)
+### [导入历史数据以进行需求预测](master-planning/import-historical-data.md)
 ### [生成统计基准预测](master-planning/generate-statistical-baseline-forecast.md)
 ### [对基准预测进行手动调整](master-planning/manual-adjustments-baseline-forecast.md)
 ### [授权调整后的预测](master-planning/authorize-adjusted-forecast.md)

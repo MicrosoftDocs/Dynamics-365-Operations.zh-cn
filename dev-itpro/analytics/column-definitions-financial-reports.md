@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 
 ms.dyn365.ops.version: 
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bf42b287e2e9235fd50f78a6fadc3f9efbd1fbe5
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ca82d24f591aaeb0d675716857cf94a4696785ad
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -91,7 +91,7 @@ ms.lasthandoff: 04/25/2017
     | 理由                                                         | 左对齐、居中对齐或右对齐在行定义中指定的描述文本。 |
 
 ## <a name="column-restrictions-in-a-column-definition"></a>行定义中的列限制
-您可使用列限制指定列定义使用数据或计算信息的方式。 您还可将报表列限制为特定单位或特定日期。 **注意：****“列限制”**代码将覆盖行定义中分配的任何冲突设置。
+您可使用列限制指定列定义使用数据或计算信息的方式。 您还可将报表列限制为特定单位或特定日期。 **注意：****列限制**代码将覆盖行定义中分配的任何冲突设置。
 
 ### <a name="column-restrictions-cell"></a>“列限制”单元格
 
@@ -350,8 +350,7 @@ Phyllis 双击列标题单元格以打开**“列标题”**对话框，其中�
     <tbody>
     <tr class="odd">
     <td>FD</td>
-    <td>当您在行定义中使用<strong>“至财务维度的链接”</strong>列或<strong>“至工作表的链接”</strong>列时，显示财务数据或 Excel 工作表中的数据。 当您选择 <strong>FD</strong> 列类型时，将为下列行自动指定默认设置：
-    <ul>
+    <td>当您在行定义中使用<strong>“至财务维度的链接”</strong>列或<strong>“至工作表的链接”</strong>列时，显示财务数据或 Excel 工作表中的数据。 当您选择 <strong>FD</strong> 列类型时，将为下列行自动指定默认设置： <ul>
     <li><strong>帐簿代码/属性类别：</strong>ACTUAL</li>
     <li><strong>帐簿代码/属性类别：</strong>ACTUAL</li>
     <li><strong>会计年度：</strong>BASE</li>
@@ -359,7 +358,7 @@ Phyllis 双击列标题单元格以打开**“列标题”**对话框，其中�
     <li><strong>包括的期间：</strong>定期</li>
     <li><strong>列宽：</strong>14</li>
     </ul>
-    您可更改这些默认设置。</td>
+您可更改这些默认设置。</td>
     </tr>
     <tr class="even">
     <td>CALC</td>
@@ -387,12 +386,11 @@ Phyllis 双击列标题单元格以打开**“列标题”**对话框，其中�
     </tr>
     <tr class="even">
     <td>WKS</td>
-    <td>显示从 Excel 工作表提取的数据。 当您选择 <strong>WKS</strong> 列类型时，将为下列行自动指定默认设置：
-    <ul>
+    <td>显示从 Excel 工作表提取的数据。 当您选择 <strong>WKS</strong> 列类型时，将为下列行自动指定默认设置： <ul>
     <li><strong>会计年度：</strong>PERIODIC</li>
     <li><strong>期间：</strong>BASE</li>
     </ul>
-    您可更改这些默认设置。</td>
+您可更改这些默认设置。</td>
     </tr>
     <tr class="odd">
     <td>ATTR</td>

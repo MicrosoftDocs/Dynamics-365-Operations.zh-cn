@@ -3,10 +3,10 @@ title: "销售订单移动工作区"
 description: "此主题提供有关销售订单移动工作区的信息，用于 Microsoft Dynamics 365 for Operations 移动应用。 此工作区帮助您随时随地掌握最新的销售订单。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 119b80e5d8067ffbf75d8b067f4803558c2c94b0
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 11898146a13756a6bb22a769e37e8773484e0d04
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -37,7 +37,9 @@ ms.lasthandoff: 04/25/2017
 <a name="overview-of-the-sales-orders-mobile-workspace"></a>销售订单移动工作区概览
 ---------------------------------------------
 
-**销售订单**移动工作区访问 Microsoft Dynamics 365 for Operations，并允许您查看有关各销售订单的详细信息。 此信息包括订单状态、客户的联系信息和订单员的联系信息。 **销售订单**移动工作区提供销售订单的即时视图。 您可以查看所有销售订单，按客户查看销售订单，或查看有关特定销售订单的信息。 此移动工作区提供两种视图来帮助您深入分析销售订单。
+**销售订单**移动工作区访问 Microsoft Dynamics 365 for Operations，并允许您查看有关各销售订单的详细信息。 此信息包括订单状态、客户的联系信息和订单员的联系信息。 **销售订单**移动工作区提供销售订单的即时视图。 您可以查看所有销售订单，按客户查看销售订单，或查看有关特定销售订单的信息。 
+
+此移动工作区提供两种视图来帮助您深入分析销售订单。
 
 ### <a name="view-all-sales-orders"></a>查看所有销售订单
 
@@ -50,6 +52,7 @@ ms.lasthandoff: 04/25/2017
     -   按状态搜索
     -   按发布状态搜索
     -   按创建日期和时间搜索
+    
 -   选择销售订单之后，可以查看特定订单的详细信息。 特别是，您可以查看以下信息：
     -   客户名称和地址信息
     -   各个销售订单日期，如要求装运日期和确认装运日期
@@ -65,6 +68,7 @@ ms.lasthandoff: 04/25/2017
 -   使用以下筛选器之一查看某个客户的订单：
     -   按名称:搜索
     -   按帐户搜索
+
 -   在选择某一客户后，您可以查看以下信息：
     -   客户名称和组
     -   客户联系信息
@@ -96,7 +100,7 @@ ms.lasthandoff: 04/25/2017
 <tr class="odd">
 <td>必须实施具有工序平台更新 3 或更高版本的 Dynamics 365 for Operations 版本 1611。</td>
 <td>系统管理员</td>
-<td>如果您尚未在您的组织中部署 Dynamics 365 for Operations，系统管理员应看到<a href="http://ax.help.dynamics.com/en/wiki/deploy-an-ax7-demo-environment/">部署 Microsoft Dynamics 365 for Operations 演示环境</a>。</td>
+<td>如果您尚未在您的组织中部署 Dynamics 365 for Operations，系统管理员应看到<a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment/">部署 Microsoft Dynamics 365 for Operations 演示环境</a>。</td>
 </tr>
 <tr class="even">
 <td>必须实施 KB 4013633。</td>
@@ -104,9 +108,9 @@ ms.lasthandoff: 04/25/2017
 <td>KB 4013633（X++ 更新或元数据修补程序）包含用于供应链管理的四个移动工作区。 若要实施 KB 4013633，系统管理员必须遵循这些步骤：
 <ol>
 <li>从 Microsoft Dynamics Lifecycle Services (LCS) 下载 KB 4013633。</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/configuring-and-installing-a-metadata-hotfix-package/">安装元数据修补程序</a>。</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/create-and-apply-a-deployable-package/">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/apply-a-deployable-package-on-a-dynamics-ax-system/">将可部署包</a>应用到您的 Dynamics 365 for Operations 系统。</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>SCMMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">将可部署包</a>应用到您的 Dynamics 365 for Operations 系统。</li>
 </ol></td>
 </tr>
 <tr class="odd">

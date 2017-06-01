@@ -67,6 +67,7 @@
 ### [CODA 银行对帐单](emea-bel-coda-bank-statement-import.md)
 ### [Intervat 纳税申报](emea-bel-intervat-tax-declaration.md)
 ### [PRODCOM 报告设置](emea-bel-prodcom-report.md)
+### [对帐报表](emea-bel-reconciliation-reports.md)
 
 ## 捷克共和国
 ### [贷方通知单上的现金折扣](emea-cze-credit-note-cash-discount.md)
@@ -74,6 +75,7 @@
 ### [折旧挂起](emea-cze-depreciation-suspension-holidays.md)
 ### [固定资产折旧](emea-cze-fixed-assets-depreciation.md)
 ### [半年折旧](emea-cze-half-depreciation-fixed-asset-disposal.md)
+### [销售税申报](emea-cze-intra-community-vat-transactions.md)
 ### [增值税报表](emea-cze-vat-statement-details.md)
 ## 爱沙尼亚
 ### [增值税报表](emea-est-vat-statement-details.md)

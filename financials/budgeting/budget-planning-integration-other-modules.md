@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: f2b29978fd0e0cb5e90937a15bd5be6b3674b06c
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 3828416b7da366aa53757ea1b5ed7d2e84446344
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,7 @@ ms.lasthandoff: 04/25/2017
 
 对于每个生成流程，有三个操作可用：
 
--   **创建新的预算计划**创建具有在"目标"部分选择的属性的新计划。 这些属性不必是唯一的。 因此，两个计划可以具有相同的名称和其他值。
+-   **创建新的预算计划**创建具有在**目标**部分选择的属性的新计划。 这些属性不必是唯一的。 因此，两个计划可以具有相同的名称和其他值。
 -   **更换现有预算计划方案**删除所选预算计划方案中目标预算计划的所有数据，并创建使用所选源数据的新行。
 -   **更新现有预算计划方案并追加新数据**更新与源行匹配的目标计划中的现有行和添加新数据的新行。 匹配基于会计科目、日期、预算类和各个其他字段。 例如，当您从预测职位生成预算计划时，该职位编号是一个重要字段。 具有与该源职位编号匹配的职位编号的所有行将使用来自该源的新行替换。
 

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: bb02e0756d675726f6c3b9f456b980a7ed695463
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -53,7 +53,8 @@ ms.lasthandoff: 04/25/2017
 -   会计年度
 -   会计期间
 
-开销计算独立于版本运行。 因此，可以在实际版本前计算预算版本。 开销计算包括四个步骤，如下图所示。 在每个步骤中，创建包含日记帐条目的日记帐标头。 此日记帐标头为每个计算步骤保留输入数据。 政策和规则应用于每个日记帐行，成本条目生成为输出。 因此，您始终具有完全的可跟踪性。 [![开销计算](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+开销计算独立于版本运行。 因此，可以在实际版本前计算预算版本。 开销计算包括四个步骤，如下图所示。 在每个步骤中，创建包含日记帐条目的日记帐标头。 此日记帐标头为每个计算步骤保留输入数据。 政策和规则应用于每个日记帐行，成本条目生成为输出。 因此，您始终具有完全的可跟踪性。 
+[![开销计算](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
 
 ## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>计算和分摊电间接成本
 在财务会计中，有些成本（如电）登记为总计。 因此，不为成本核算提供详细的管理洞察。 在成本核算中，为提供跨所有组织单位和级别的正确的管理洞察，成本必须流过各个组织单位。 此流必须基于消耗量的准确记录或公平评估。 在总帐中，可以过帐电成本，如下表所示。
@@ -622,7 +623,7 @@ ms.lasthandoff: 04/25/2017
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>步骤 4：处理成本分摊计算
 
-分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。 Microsoft Dynamics 365 for Operations 支持互惠分摊方法。 在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。 系统自动确定执行分摊的正确顺序。 成本对象的余额按单一分配基础分配。 支持跨成本对象维度及其各自成员的分摊。 分摊顺序由成本控制单元控制。 [![](./media/reciprocal-method.png)](./media/reciprocal-method.png)
+分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。 Microsoft Dynamics 365 for Operations 支持互惠分摊方法。 在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。 系统自动确定执行分摊的正确顺序。 成本对象的余额按单一分配基础分配。 支持跨成本对象维度及其各自成员的分摊。 分摊顺序由成本控制单元控制。 [![互惠方法](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>定义成本分摊
 

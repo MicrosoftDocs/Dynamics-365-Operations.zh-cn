@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: ac4f520d17c721e249737b4ae95c10685f914497
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: ac86ffa794b5fd92ca9aba24537fbc05057fe824
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -195,13 +195,11 @@ ms.lasthandoff: 04/25/2017
     <td>特定组织层次结构中的用户</td>
     <td><ol>
     <li>在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其分配决策的层次结构的类型。</li>
-    <li>系统必须从层次结构中检索一系列用户姓名。 这些姓名代表可向其分配决策的用户。 按照以下步骤指定系统检索的用户名范围的起点和终点：
-    <ol>
+    <li>系统必须从层次结构中检索一系列用户姓名。 这些姓名代表可向其分配决策的用户。 按照以下步骤指定系统检索的用户名范围的起点和终点： <ol>
     <li>若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</li>
     <li>若要指定终点，请单击“<strong>添加条件</strong>”。 然后输入一个确定系统停止检索姓名的层次结构的条件。</li>
     </ol></li>
-    <li>在<strong>层次结构选项</strong>选项卡上，指定应向其分配决策的范围内的用户：
-    <ul>
+    <li>在<strong>层次结构选项</strong>选项卡上，指定应向其分配决策的范围内的用户： <ul>
     <li><strong>分配给所有检索到的用户</strong> – 此决策将分配给范围内的所有用户。</li>
     <li><strong>仅分配给最后检索到的用户</strong> – 此决策将分配给范围内的最后一名用户。</li>
     <li><strong>排除满足以下条件的用户</strong> – 此决策不分配给满足特定条件的范围内的所有用户。 单击“<strong>添加条件</strong>”以指定条件。</li>
@@ -228,13 +226,11 @@ ms.lasthandoff: 04/25/2017
     <td>工作项队列</td>
     <td><ol>
     <li>在选择<strong>队列</strong>后，单击<strong>基于队列</strong>选项卡。</li>
-    <li>要将决策分配到特定的队列，请执行以下步骤：
-    <ol>
+    <li>要将决策分配到特定的队列，请执行以下步骤： <ol>
     <li>在<strong>队列类型</strong>列表中，选择<strong>工作项队列</strong>。</li>
     <li>在<strong>队列名称</strong>列表中，选择该队列。</li>
     </ol></li>
-    <li>如果特定条件应确定将决策分配到的队列，请执行以下步骤：
-    <ol>
+    <li>如果特定条件应确定将决策分配到的队列，请执行以下步骤： <ol>
     <li>在<strong>队列类型</strong>列表中，选择<strong>条件工作项队列</strong>。</li>
     <li>在<strong>队列名称</strong>列表中，选择<strong>条件队列</strong>。</li>
     </ol></li>
@@ -285,13 +281,11 @@ ms.lasthandoff: 04/25/2017
     <td>特定组织层次结构中的用户</td>
     <td><ol>
     <li>在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其呈报决策的层次结构的类型。</li>
-    <li>系统必须从层次结构中检索一系列用户姓名。 这些姓名代表可向其呈报决策的用户。 按照以下步骤指定系统检索的用户名范围的起点和终点：
-    <ol>
+    <li>系统必须从层次结构中检索一系列用户姓名。 这些姓名代表可向其呈报决策的用户。 按照以下步骤指定系统检索的用户名范围的起点和终点： <ol>
     <li>若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</li>
     <li>若要指定终点，请单击“<strong>添加条件</strong>”。 然后输入一个确定系统停止检索姓名的层次结构的条件。</li>
     </ol></li>
-    <li>在<strong>层次结构选项</strong>选项卡上，指定应向其呈报决策的范围内的用户：
-    <ul>
+    <li>在<strong>层次结构选项</strong>选项卡上，指定应向其呈报决策的范围内的用户： <ul>
     <li><strong>分配给所有检索到的用户</strong> – 决策将呈报给范围内的所有用户。</li>
     <li><strong>仅分配给最后检索到的用户</strong> – 决策将呈报给范围内的最后一名用户。</li>
     <li><strong>排除满足以下条件的用户：</strong> – 此决策不呈报给满足特定条件的范围内的所有用户。 单击“<strong>添加条件</strong>”以指定条件。</li>

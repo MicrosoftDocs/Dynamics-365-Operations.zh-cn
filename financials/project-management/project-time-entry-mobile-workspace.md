@@ -3,10 +3,10 @@ title: "Dynamics 365 for Operations 应用程序的项目时间条目移动工�
 description: "此主题提供有关项目时间条目移动工作区的信息。 此工作区让用户可以使用其移动设备根据项目输入和保存时间。"
 author: annbe
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 05/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: annbe
@@ -19,10 +19,10 @@ ms.author: annbe
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: e3e0be36c045acc3750efbb739d79d81ab937c65
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 9c592c301908898915164e9236850759b73543fe
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -31,7 +31,6 @@ ms.lasthandoff: 04/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
 
 
 此主题提供有关 Dynamics 365 for Operations 移动应用的项目时间条目移动工作区的信息。 此工作区让用户可以使用其移动设备根据项目输入和保存时间。
@@ -71,7 +70,7 @@ ms.lasthandoff: 04/25/2017
 <tr class="odd">
 <td>必须实施具有工序平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611。</td>
 <td>系统管理员</td>
-<td>如果您尚未在您的组织中部署 Dynamics 365 for Operations，系统管理员应看到<a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">部署 Microsoft Dynamics 365 for Operations 演示环境</a>。</td>
+<td>如果您尚未在您的组织中部署 Dynamics 365 for Operations，系统管理员应看到<a href="/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment">部署 Microsoft Dynamics 365 for Operations 演示环境</a>。</td>
 </tr>
 <tr class="even">
 <td>必须实施 KB 4018050。</td>
@@ -79,9 +78,9 @@ ms.lasthandoff: 04/25/2017
 <td>KB 4018050 是包含<strong>项目时间条目</strong>移动工作区的 X++ 更新或元数据修补程序。 若要实施 KB 4018050，系统管理员必须遵循这些步骤。
 <ol>
 <li>从 Microsoft Dynamics Lifecycle Services (LCS) 下载 KB 4018050。</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>ApplicationSuite</strong> 和 <strong>ProjectMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
-<li><a href="https://docs.microsoft.com/en-us/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">将可部署包</a>应用到您的 Dynamics 365 for Operations 系统。</li>
+<li><a href="/dynamics365/operations/dev-itpro/migration-upgrade/install-metadata-hotfix-package">安装元数据修补程序</a>。</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/create-apply-deployable-package">创建</a>包含 <strong>ApplicationSuite</strong> 和 <strong>ProjectMobile</strong> 模型的可部署包，然后将可部署包上载到 LCS。</li>
+<li><a href="/dynamics365/operations/dev-itpro/deployment/apply-deployable-package-system">将可部署包</a>应用到您的 Dynamics 365 for Operations 系统。</li>
 </ol></td>
 </tr>
 <tr class="odd">

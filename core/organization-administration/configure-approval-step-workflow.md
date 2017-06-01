@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.search.scope: AX 7.0.0, Operations, Core
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: fd3392eba3a394bd4b92112093c1f1f9b894426d
-ms.openlocfilehash: 052cec3010c0d5ecbb9ed341fb23d0ec64682467
+ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
+ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2017
+ms.lasthandoff: 05/25/2017
 
 
 ---
@@ -106,13 +106,11 @@ ms.lasthandoff: 04/25/2017
     <td>特定组织层次结构中的用户</td>
     <td><ol>
     <li>在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其分配步骤的层次结构的类型。</li>
-    <li>系统必须从层次结构中检索一系列用户姓名。 这些姓名代表可向其分配步骤的用户。 按照以下步骤指定系统检索的用户名范围的起点和终点：
-    <ol>
+    <li>系统必须从层次结构中检索一系列用户姓名。 这些姓名代表可向其分配步骤的用户。 按照以下步骤指定系统检索的用户名范围的起点和终点： <ol>
     <li>若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</li>
     <li>若要指定终点，请单击“<strong>添加条件</strong>”。 然后输入一个确定系统停止检索姓名的层次结构的条件。</li>
     </ol></li>
-    <li>在<strong>层次结构选项</strong>选项卡上，指定应向其分配步骤的范围内的用户：
-    <ul>
+    <li>在<strong>层次结构选项</strong>选项卡上，指定应向其分配步骤的范围内的用户： <ul>
     <li><strong>分配给所有检索到的用户</strong> – 此步骤将分配给范围内的所有用户。</li>
     <li><strong>仅分配给最后检索到的用户</strong> – 此步骤将分配给范围内的最后一名用户。</li>
     <li><strong>排除满足以下条件的用户</strong> – 此步骤不分配给满足特定条件的范围内的所有用户。 单击“<strong>添加条件</strong>”以指定条件。</li>
@@ -211,13 +209,11 @@ ms.lasthandoff: 04/25/2017
     <td>特定组织层次结构中的用户</td>
     <td><ol>
     <li>在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其呈报文档的层次结构的类型。</li>
-    <li>系统必须从层次结构中检索一系列用户姓名。 这些姓名代表可向其呈报文档的用户。 按照以下步骤指定系统检索的用户名范围的起点和终点：
-    <ol>
+    <li>系统必须从层次结构中检索一系列用户姓名。 这些姓名代表可向其呈报文档的用户。 按照以下步骤指定系统检索的用户名范围的起点和终点： <ol>
     <li>若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</li>
     <li>若要指定终点，请单击“<strong>添加条件</strong>”。 然后输入一个确定系统停止检索姓名的层次结构的条件。</li>
     </ol></li>
-    <li>在<strong>层次结构选项</strong>选项卡上，指定应向其呈报文档的范围内的用户：
-    <ul>
+    <li>在<strong>层次结构选项</strong>选项卡上，指定应向其呈报文档的范围内的用户： <ul>
     <li><strong>分配给所有检索到的用户</strong> – 文档将呈报给范围内的所有用户。</li>
     <li><strong>仅分配给最后检索到的用户</strong> – 文档将呈报给范围内的最后一名用户。</li>
     <li><strong>排除满足以下条件的用户</strong> – 文档不呈报给满足特定条件的范围内的所有用户。 单击“<strong>添加条件</strong>”以指定条件。</li>
