@@ -3,22 +3,22 @@
   topicHref: /dynamics365
   items:
   - name: Operations
-    tocHref: /dynamics365/operations/
-    topicHref: /dynamics365/operations/index
+    tocHref: /dynamics365/unified-operations/
+    topicHref: /dynamics365/unified-operations/fin-and-ops/index
     items:
     - name: 开发人员和管理员
-      tocHref: /dynamics365/operations/dev-itpro/
-      topicHref: /dynamics365/operations/dev-itpro/index
+      tocHref: /dynamics365/unified-operations/dev-itpro/
+      topicHref: /dynamics365/unified-operations/dev-itpro/index
     - name: 财务
-      tocHref: /dynamics365/operations/financials/
-      topicHref: /dynamics365/operations/financials/index
+      tocHref: /dynamics365/unified-operations/financials/
+      topicHref: /dynamics365/unified-operations/financials/index
     - name: 人力资源
-      tocHref: /dynamics365/operations/human-resources/
-      topicHref: /dynamics365/operations/human-resources/index
+      tocHref: /dynamics365/unified-operations/talent/
+      topicHref: /dynamics365/unified-operations/talent/index
     - name: 零售
-      tocHref: /dynamics365/operations/retail/
-      topicHref: /dynamics365/operations/retail/index
+      tocHref: /dynamics365/unified-operations/retail/
+      topicHref: /dynamics365/unified-operations/retail/index
     - name: 供应链
  
-      tocHref: /dynamics365/operations/supply-chain/
-      topicHref: /dynamics365/operations/supply-chain/index
+      tocHref: /dynamics365/unified-operations/supply-chain/
+      topicHref: /dynamics365/unified-operations/supply-chain/index
