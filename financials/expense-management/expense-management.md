@@ -1,7 +1,7 @@
 ---
 title: "费用报销管理"
 description: 
-author: kfend
+author: twheeloc
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -13,7 +13,7 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 15001
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
