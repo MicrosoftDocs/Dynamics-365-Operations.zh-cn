@@ -1,5 +1,5 @@
 # Power BI 内容包
-## [成本管理内容包](/dynamics365/operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/operations/supply-chain/toc.json)
+## [成本管理内容包](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # 预先确定的成本
 ## [成本计算单](costing-sheets.md)
 ## [成本计算版本](costing-versions.md)

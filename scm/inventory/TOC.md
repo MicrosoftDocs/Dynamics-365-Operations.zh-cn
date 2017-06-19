@@ -18,7 +18,8 @@
 ## [不符合项管理](enable-nonconformance-management.md)
 ## [检验单](quarantine-orders.md)
 ## [质量管理流程](quality-management-processes.md)
-# 跟踪物料和批
+# 跟踪物料和批次
 ## [合并库存批次](merge-inventory-batches.md)
 ## [跟踪物料和原材料](trace-items-raw-materials-inventory-production-sales.md)
+## [在销售流程中登记序列号](../sales-marketing/register-serial-numbers-sales-process.md)
 

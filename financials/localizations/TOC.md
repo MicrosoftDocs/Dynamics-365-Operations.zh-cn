@@ -1,4 +1,4 @@
-# [本地化概览](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/financials/toc.json)
+# [本地化概览](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/toc.json)
 # 亚太
 ## 澳大利亚
 ### [银行文件格式](apac-aus-method-of-payment-pay-vendors-banks.md)
@@ -54,6 +54,7 @@
 ## [过帐购置前的固定资产](emea-pre-acquisition-acquisition-fixed-asset.md)
 ## [邮政编码](emea-import-create-postal-codes-manually.md)
 ## [登记 ID](emea-registration-ids.md)
+## [反向增值税](emea-reverse-charge.md)
 ## [SEPA 贷方转帐概览](../accounts-payable/sepa-credit-transfer.md)
 ## [SEPA 直接借记概览](../accounts-receivable/sepa-direct-debit-overview.md)
 ## [设置打印表格的签名人](emea-set-up-signers-for-printing-forms.md)
@@ -98,7 +99,7 @@
 ### [日志清单报告](emea-deu-journal-list-report.md)
 ### [为源自销售的贷项通知单打印单独的标签](emea-deu-print-separate-label-credit-memo-originating-sales.md)
 ## 匈牙利
-### [固定资产折旧方法](emea-hun-fixed-assets-depreciation-methods.md)    
+### [固定资产折旧方法](emea-hun-fixed-assets-depreciation-methods.md)   
 ### [低成本固定资产](emea-hun-low-cost-fixed-assets.md)
 ### [将固定资产移动到库存](emea-hun-fixed-asset-to-inventory.md)
 ## 意大利
@@ -138,6 +139,7 @@
 ### [固定资产重估组](emea-esp-fixed-asset-group-revaluation.md)
 ### [集团内部增值税](emea-esp-intra-community-vat.md)
 ### [零星客户](emea-esp-no-one-time-customer-for-project-contracts.md)
+### [以西班牙版式打印支票](emea-esp-print-checks-with-spanish-layout.md)
 ### [本票选项](emea-esp-promissory-note-options.md)
 ### [销售和采购周期](emea-esp-sales-purchase-cycle.md)
 ### [特殊条目和期初单](emea-esp-opening-sheets-spain.md)
@@ -153,7 +155,9 @@
 ### [会计帐簿](latam-bra-fiscal-books.md)
 #### [ICMS 缴税会计单据](latam-bra-icms-tax-fiscal-documents.md)
 #### [导入会计单据](latam-bra-import-fiscal-documents.md)
+#### [从总帐合并中导出和导入法人交易](latam-bra-general-ledger-consolidation-transactions.md)
 #### [导入和验证 NF-e XML 文档和 DANFE 文件](latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+#### [处理电子付款汇款](latam-bra-process-electronic-payment-remittances.md)
 #### [会计单据](latam-bra-fiscal-documents-fiscal-document-framework.md)
 #### [会计单据文本占位符](latam-bra-fiscal-document-text-placeholders.md)
 #### [采购补充会计单据](latam-bra-purchase-complementary-fiscal-documents.md)
@@ -163,6 +167,8 @@
 ### [在电子付款退回过程中生成日记帐](latam-bra-examples-journals-generated-electronic-payment-return-process.md)
 ### [NF-e 流程](latam-bra-nf-e-process.md)
 ### [法人的参数](latam-bra-legal-entity-parameters.md)
+### [获取 CIAP 固定资产](latam-bra-ciap-fixed-asset.md)
+### [处置 CIAP 固定资产](latam-bra-ciap-fixed-asset.md)
 ### [税金](latam-bra-calculate-taxes.md)
 #### [税务属性](latam-bra-tax-attributes.md)
 #### [税金支付](latam-bra-tax-payments.md)

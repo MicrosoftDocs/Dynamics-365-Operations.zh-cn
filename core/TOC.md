@@ -1,34 +1,34 @@
 # [简介](index.md)
 
-# [Dynamics 365 for Operations 培训](get-started/onboarding-home.md)
-## Dynamics 365 for Operations 简介
+# [Finance and Operations 培训](get-started/onboarding-home.md)
+## Finance and Operations 简介
 ### [Microsoft FastTrack for Dynamics 365 入门](get-started/fasttrack-dynamics-365-overview.md)
-### [注册订阅](/dynamics365/operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/operations/toc.json)
-### [如何获取 Dynamics AX 2012 的本地版本](/dynamics365/operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/operations/toc.json)
-## [部署演示环境](/dynamics365/operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/operations/toc.json)
+### [注册订阅](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [如何获取 Dynamics AX 2012 的本地版本](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+## [部署演示环境](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## 浏览用户界面
 ### [操作搜索](get-started/action-search.md)
 ### [高级筛选和查询语法](get-started/advanced-filtering-query-options.md)
-### [Dynamics 365 for Operations 客户端常见问题](get-started/client-faq.md)
+### [Finance and Operations 客户端常见问题](get-started/client-faq.md)
 ### [配置和筛选工作区](get-started/configure-filter-workspaces.md)
 ### [使用“在新窗口中打开”图标并排显示页面](get-started/display-pages-side-by-side.md)
 ### [导航搜索](get-started/navigation-search.md)
 ### [打造个性化的用户体验](get-started/personalize-user-experience.md)
 ### [键盘快捷方式](get-started/shortcut-keys.md)
 ### [管理页面的显示方式](get-started/window-management.md)
-### [了解 Lifecycle Services](/dynamics365/operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/operations/toc.json)
+### [了解 Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 ## 获取帮助和支持
-### [帮助概览](/dynamics365/operations/dev-itpro/get-started/help-overview?toc=/dynamics365/operations/toc.json)
-### [连接帮助](/dynamics365/operations/dev-itpro/get-started/help-connect?toc=/dynamics365/operations/toc.json)
+### [帮助概览](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+### [连接帮助](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 ### [查看和导出字段描述](get-started/view-export-field-descriptions.md)
 
 ### 任务指南和任务录制器
-#### [任务录制器](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
-#### [创建文档或培训](/dynamics365/operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/operations/toc.json)
+#### [任务录制器](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
+#### [创建文档或培训](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
-## [特定于国家/地区的帮助内容](/dynamics365/operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/operations/toc.json)
+## [特定于国家/地区的帮助内容](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 
 # [配置您的组织](organization-administration/organization-administration-home-page.md)
 ## [组织和组织层次结构](organization-administration/organizations-organizational-hierarchies.md)
@@ -63,17 +63,17 @@
 ## [配置消息处理批处理作业](organization-administration/workflow-batch-job-critical.md)
 ## [工作流类型报告](organization-administration/workflow-types-report.md)
 
-# [财务](/dynamics365/operations/financials/index)
+# [财务](/dynamics365/unified-operations/financials/index)
 
-# [人力资源](/dynamics365/operations/human-resources/index)
+# [人力资源](/dynamics365/unified-operations/talent/index)
 
-# [零售](/dynamics365/operations/retail/index)
+# [零售](/dynamics365/unified-operations/retail/index)
 
-# [供应链管理](/dynamics365/operations/supply-chain/index)
+# [供应链管理](/dynamics365/unified-operations/supply-chain/index)
 
-# [开发人员和管理员](/dynamics365/operations/dev-itpro/index)
+# [开发人员和管理员](/dynamics365/unified-operations/dev-itpro/index)
 
 # 其他资源
-## [Dynamics 365 for Operations 词汇表](get-started/glossary.md)
-## [新增功能或更改的功能](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/toc.json)
+## [Finance and Operations 词汇表](get-started/glossary.md)
+## [新增功能或更改的功能](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
 

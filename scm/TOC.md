@@ -43,6 +43,8 @@
 ### [设置供应商帐户](procurement/set-up-vendor-accounts.md)
 ### [供应商与外部供应商的协作](procurement/vendor-collaboration-work-external-vendors.md)
 ### [供应商与客户的协作](procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+### [针对电子采购发包使用外部目录](procurement/use-external-catalogs-for-punchout.md)
+### [为电子采购发包设置外部目录](procurement/set-up-external-catalog-for-punchout.md)
 ### [使用供应商门户与供应商协作](procurement/collaborate-vendors-vendor-portal.md)
 ### [供应商协作移动工作区](procurement/vendor-collaboration-mobile-workspace.md)
 ### [供应商门户用户安全](procurement/configure-security-vendor-portal-users.md)
@@ -50,19 +52,37 @@
 ### [采购协议](procurement/purchase-agreements.md)
 ## 产品收入和开票
 ### [针对采购订单的产品收据](procurement/product-receipt-against-purchase-orders.md)
-### [供应商发票的概览](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
-### [供应商过帐模板](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+### [供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+### [供应商过帐模板](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 # 产品信息管理
-## 产品信息
-### [物料清单和配方](production-control/bill-of-material-bom.md)
-### [物料清单设计器功能](production-control/bom-designer-functionality.md)
-### [产品维度](pim/product-dimensions.md)
-### [维度和产品变型的默认订单设置](production-control/default-order-settings.md)
-### [产品编号命名法](pim/product-variant-identification-nomenclature.md)
-### [与产品相关的转换常见问题](pim/translations-product-related-information.md)
-### [在销售流程中登记序列号](sales-marketing/register-serial-numbers-sales-process.md)
-### [在订单输入期间搜索产品](pim/search-products-product-variants.md)
-## 创建产品配置
+## [产品信息概览](pim/product-information.md)
+## 维护产品类别
+## 维护产品信息
+### 维护产品定义
+#### [产品编号命名法](pim/product-variant-identification-nomenclature.md)
+#### 产品模板
+#### [产品维度](pim/product-dimensions.md)
+#### 产品属性
+#### 产品图片和附件
+#### 产品标识符
+#### [产品信息翻译常见问题](pim/translations-product-related-information.md)
+### 向法人发布产品
+### 搜索产品
+#### [在订单输入期间搜索产品](pim/search-products-product-variants.md)
+### 准备用于计划的产品
+#### [维度和产品变型的默认订单设置](production-control/default-order-settings.md)
+#### 预测模型和物料分配参数
+### 准备用于生产的产品
+#### 物料清单和配方
+##### [物料清单和配方](production-control/bill-of-material-bom.md)
+##### [使用物料清单设计器](production-control/bom-designer-functionality.md)
+##### [使用配方设计器](production-control/formula-designer.md)
+#### 工艺路线
+#### 精益生产
+### 准备用于仓库和物流的产品
+### 产品估计成本
+#### [物料清单计算](cost-management/bom-calculations.md)
+## 维护产品配置模型
 ### [生成产品配置模型](pim/build-product-configuration-model.md)
 ### [产品配置模型的计算常见问题](pim/calculate-product-configuration-models.md)
 ### [配置规则](pim/configuration-rules.md)
@@ -71,6 +91,8 @@
 ### [重复使用产品配置](pim/reuse-product-configurations.md)
 ### [设置配置模型](pim/set-up-maintain-product-configuration-model.md)
 ### [系统定义和用户定义的表约束](pim/system-defined-user-defined-table-constraints.md)
+## 导入产品信息数据
+## 导出产品信息数据
 # 生产控制
 ## [生产流程概览](production-control/production-process-overview.md)
 ## [混合模式计划：合并不同的流程和精益采购](production-control/mixed-mode-plan.md)
@@ -96,6 +118,8 @@
 #### [反转生产订单状态](production-control/reverse-production-order-status.md)
 #### [将生产订单报告为已完工入库](production-control/report-production-orders-as-finished.md)
 #### [将物料清单报告为已完工入库](production-control/report-boms-as-finished.md)
+#### [从生产订单到出货台的越库配送](production-control/cross-docking-opportunities.md)
+#### [使用移动设备登记物料消耗量](production-control/register-material-consumption-hand-held-device.md)
 #### [生产中的物料替换](production-control/substitute-items-bom-lines.md)
 #### [制造执行的登记](production-control/registration-manufacturing-execution.md)
 #### [生产反馈](production-control/production-feedback.md)
@@ -111,6 +135,7 @@
 #### [为精益组织建模](production-control/lean-manufacturing-modeling-lean-organization.md)
 #### [运营资源](production-control/operations-resources.md)
 ### 计划看板作业
+#### [用于精益生产的可视排产](production-control/visual-scheduling-lean-manufacturing.md)
 #### [用于精益生产的看板作业级排产](production-control/lean-manufacturing-kanban-job-scheduling.md)
 #### [作业级排产](production-control/job-scheduling.md)
 ### 执行看板作业
@@ -128,8 +153,9 @@
 #### [工序级排产](production-control/operations-scheduling.md)
 #### [工序级排产选项](production-control/operation-scheduling-options.md)
 #### [作业级排产](production-control/job-scheduling.md)
+#### [用于作业级排产的甘特图](production-control/visual-scheduling-production.md)
 ### 执行生产作业
-#### [合并的批订单](production-control/consolidated-batch-orders.md)
+#### [合并的批次订单](production-control/consolidated-batch-orders.md)
 #### [生产中的物料替换](production-control/substitute-items-bom-lines.md)
 #### [制造执行的登记](production-control/registration-manufacturing-execution.md)
 #### [生产反馈](production-control/production-feedback.md)
@@ -162,18 +188,26 @@
 ## [运输管理](transportation/transportation-management-overview.md)
 ## [运输引擎](transportation/transportation-management-engines.md)
 # 仓库管理
+## 高级仓库管理
+### [从 AX 2012 迁移至 Finance and Operations](warehousing/upgrade-migration-warehouse-management-processes.md)
 ## 设置 
 ### [使用工作模板和位置指令控制工作](warehousing/control-warehouse-location-directives.md)
 ### [管理仓库工作人员](warehousing/manage-warehouse-workers.md)
 ### [设置布局](warehousing/warehouse-configuration.md)
 ### [仓库工作策略](warehousing/warehouse-work-policies.md)
 ### [度量单位和库存策略](warehousing/unit-measure-stocking-policies.md)
-### [仓库 Power BI 内容](/dynamics365/operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/operations/scm/toc.json)
+### [仓库 Power BI 内容](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/scm/toc.json)
+### [批次和牌照确认](warehousing/batch-and-license-plate-confirmation.md)
+### [包含关联工作的库存移动](warehousing/move-inventory-associated-work.md)
+### [对未结工作列表的系统分组](warehousing/system-group-on-open-work-list.md)
+### [用于群集领料的产品确认](warehousing/cluster-picking-item-confirmation.md)
 ## 领料和打包
 ### [包装材料和费用](warehousing/pack-materials-packing-material-fees.md)
+### [单件领料确认](warehousing/piece-picking-confirmation.md)
 ## 库存盘点
 ### [锁定库存](inventory/inventory-blocking.md)
 ### [周期盘点](warehousing/cycle-counting.md)
+### [部分库位周期盘点](warehousing/partial-location-cycle-counting.md)
 ### [库存日记帐](inventory/inventory-journals.md)
 ### [库存库位](inventory/inventory-locations.md)
 ### [库存状态](inventory/inventory-statuses.md)
@@ -181,6 +215,7 @@
 ## 集装化 
 ## 补货
 ### [补货](warehousing/replenishment.md)
+### [通过提领看板补货](warehousing/material-replenishment-withdrawal-kanban.md)
 ## 移动设备
 ### [安装和配置仓库应用](warehousing/install-configure-warehousing-app.md)
 ### [在仓库应用中配置字段名称](warehousing/configure-app-field-names-priorities-warehouse.md)
@@ -188,15 +223,15 @@
 ### [仓库移动设备门户 (WMDP)](warehousing/warehouse-mobile-devices-portal.md)
 ### [显示设置的仓库移动设备](warehousing/change-warehouse-mobile-device-displays.md)
 
-# [财务](/dynamics365/operations/financials/index)
+# [财务](/dynamics365/unified-operations/financials/index)
 
-# [人力资源](/dynamics365/operations/human-resources/index)
+# [人力资源](/dynamics365/unified-operations/talent/index)
 
-# [零售](/dynamics365/operations/retail/index)
+# [零售](/dynamics365/unified-operations/retail/index)
 
-# [开发人员和管理员](/dynamics365/operations/dev-itpro/index)
+# [开发人员和管理员](/dynamics365/unified-operations/dev-itpro/index)
 
 # 其他资源
-## [Dynamics 365 for Operations 词汇表](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/supply-chain/toc.json)
-## [新增功能或更改的功能](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/supply-chain/toc.json)
+## [Finance and Operations 词汇表](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+## [新增功能或更改的功能](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 

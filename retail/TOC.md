@@ -15,8 +15,9 @@
 ## [配置并安装零售硬件工作站](retail-hardware-station-configuration-installation.md)
 ## [零售考勤管理](retail-time-attendance.md)
 # 现代化销售点 (MPOS) 和云 POS
-## 硬件外围设备
-### [硬件外围设备概览](retail-peripherals-overview.md)
+## 硬件和外围设备
+### [零售外围设备概览](retail-peripherals-overview.md)
+### [零售外围设备模拟器](retail-peripheral-simulator.md)
 ### [Microsoft 测试的 POS 硬件外围设备](microsoft-tested-pos-hardware-peripherals.md)
 ### [定义和维护渠道客户端、收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)
 ## 屏幕布局
@@ -42,6 +43,7 @@
 ## 收据
 ### [设置收据模板](receipt-templates-printing.md) 
 ### [从 MPOS 发送电子邮件收据](email-receipts.md)
+## [POS 的任务录制器和帮助](task-recorder-retail-pos.md)
 # 监控和分析
 ## [监控销售和利润率](monitor-sales-margin-performance.md)
 ## [分析销售趋势和模式](analyze-sales-trends-patterns.md)
@@ -53,6 +55,7 @@
 ## [价格调整和折扣](price-adjustments-discounts.md)
 ## [确定叠加折扣的最佳组合](optimal-combination-overlapping-discounts.md)
 ## [定义特定于渠道的折扣](define-channel-specific-discounts.md)
+## [创建零售销售优惠券](retail-coupons.md)
 # 产品和促销
 ## [零售层次结构](retail-hierarchies.md)
 ## [创建和管理属性](create-manage-attributes.md)
@@ -60,7 +63,8 @@
 ## [设置条码](set-up-bar-codes.md)
 ## [设置条码掩码](set-up-bar-code-masks.md)
 ## [设置分类](set-up-assortments.md)
-# 会员
+## [销售和退回不属此类的产品](sell-return-outside-assortments.md)
+# 忠诚度
 ## [设置客户会员计划](set-up-customer-loyalty-program.md)
 # 库存
 ## [管理商店库存](work-with-store-inventory.md)
@@ -69,15 +73,15 @@
 ## [组织和组织层次结构（商业要素）](organizational-hierarchies-commerce-essentials.md)
 # [IT 专业人员和开发人员内容](dev-itpro/TOC.md)
 
-# [财务](/dynamics365/operations/financials/index)
+# [财务](/dynamics365/unified-operations/financials/index)
 
-# [人力资源](/dynamics365/operations/human-resources/index)
+# [人力资源](/dynamics365/unified-operations/talent/index)
 
-# [供应链管理](/dynamics365/operations/supply-chain/index)
+# [供应链管理](/dynamics365/unified-operations/supply-chain/index)
 
-# [开发人员和管理员](/dynamics365/operations/dev-itpro/index)
+# [开发人员和管理员](/dynamics365/unified-operations/dev-itpro/index)
 
 # 其他资源
-## [Dynamics 365 for Operations 词汇表](/dynamics365/operations/get-started/glossary?toc=/dynamics365/operations/retail/toc.json)
-## [新增功能或更改的功能](/dynamics365/operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/operations/retail/toc.json)
+## [Dynamics 365 for Retail 词汇表](/dynamics365/unified-operations/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
+## [新增功能或更改的功能](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
 
