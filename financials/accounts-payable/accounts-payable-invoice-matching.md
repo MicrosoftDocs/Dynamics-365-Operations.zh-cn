@@ -3,7 +3,7 @@ title: "应付帐款发票匹配"
 description: "应付帐款发票匹配是匹配供应商发票、采购订单和装箱单信息的一个流程。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

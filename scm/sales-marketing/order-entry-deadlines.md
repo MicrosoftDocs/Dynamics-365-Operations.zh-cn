@@ -3,7 +3,7 @@ title: "订单输入截止时间"
 description: "本文提供有关订单条目截止时间的信息。 订单条目截止日期是确定客户订单是否被视作（并履行）在当前日期或第二天接收。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,10 +3,10 @@ title: "使用部门、工作和职位组织您的员工"
 description: "部门、作业和职位在人力资源中维护的组织元素。 本主题介绍有关这些元素的概念信息。"
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
@@ -17,7 +17,7 @@ ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 688550888e5e029e38e945cec633170465df73f9

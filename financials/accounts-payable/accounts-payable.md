@@ -3,7 +3,7 @@ title: "应付帐款主页"
 description: "此主题概要介绍了应付帐款。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

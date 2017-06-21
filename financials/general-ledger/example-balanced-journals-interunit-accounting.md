@@ -3,7 +3,7 @@ title: "平衡单位间核算的日记帐"
 description: "本文显示当在分类帐页中选择平衡财务维度时日记帐如何自动平衡。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

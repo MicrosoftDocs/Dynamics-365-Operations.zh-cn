@@ -3,7 +3,7 @@ title: "站点和仓库覆盖范围主计划，仓库是必需的"
 description: "此主题介绍如何计划将站点和仓库作为覆盖范围维度的物料。 仓库维度是必填的。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

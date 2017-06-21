@@ -3,7 +3,7 @@ title: "结算在供应商贷方通知单上已折扣的部分供应商付款"
 description: "本文向您介绍根据发票结算贷项通知单的情况。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

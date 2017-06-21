@@ -3,7 +3,7 @@ title: "会计分配"
 description: "本文提供有关会计分配的信息并介绍可用于处理它们的选项。 会计分配用于将原始凭证的货币金额分配到特定会计科目。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

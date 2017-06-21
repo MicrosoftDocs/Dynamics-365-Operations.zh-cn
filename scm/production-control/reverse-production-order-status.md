@@ -3,7 +3,7 @@ title: "冲销生产订单状态"
 description: "此主题描述如何反转生产订单状态。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "供应商门户用户安全性"
 description: "本文说明如何设置使用供应商门户的外部供应商的安全性。 此信息仅适用于 Dynamics AX 2016 年 2 月 &amp; 2016 年 5 月版本。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "现金和银行管理主页"
 description: "您可使用现金和银行管理来维护法人的银行帐户以及与这些银行帐户关联的财务票据。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

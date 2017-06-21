@@ -3,7 +3,7 @@ title: "成本元素维度"
 description: "作为成本核算中的其中一个核心支柱，成本元素维度用来对成本分类和跟踪成本流向。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

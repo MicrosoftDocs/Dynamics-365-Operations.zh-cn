@@ -3,7 +3,7 @@ title: "财务报表中的报告结构树定义"
 description: "本文提供了有关报告结构树定义的信息。 报告结构树定义是报表组件或构造基块，可帮助定义组织的结构和层次结构。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

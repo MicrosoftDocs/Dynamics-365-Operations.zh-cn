@@ -3,7 +3,7 @@ title: "冲销供应商付款"
 description: "文本介绍冲销、删除、取消和拒绝付款之间的差异。 此外，还说明冲销供应商支票的两种方法。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "包括实际成本"
 description: "您使用“物料模型组”页的“库存模型”选项卡上的“包括实际成本”复选框来指定在为物料计算移动平均成本价时是否考虑了实际更新的交易记录。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

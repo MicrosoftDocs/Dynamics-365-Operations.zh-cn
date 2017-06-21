@@ -3,7 +3,7 @@ title: "会计源资源管理器"
 description: "本文提供有关会计源资源管理器的信息，您可用此信息来进行总帐会计条目后源信息的详细分析。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

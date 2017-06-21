@@ -3,7 +3,7 @@ title: "整理报表设计器中的报表组件"
 description: "在您设计构建基块并生成报表后，组织这些对象以便用户更容易地找到它们，这种方法非常有用。 本文介绍了如何组织现有报表、构建基块和报表设计器中的对象。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

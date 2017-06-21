@@ -3,7 +3,7 @@ title: "预留库存数量"
 description: "此主题介绍预留库存时可用的不同选项。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

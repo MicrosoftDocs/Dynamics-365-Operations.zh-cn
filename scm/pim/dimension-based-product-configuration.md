@@ -3,7 +3,7 @@ title: "基于维度的产品配置"
 description: "基于维度的产品配置表示从单个基础产品和物料清单创建多个产品变型的简单解决方案。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "合并的批次订单"
 description: "本文介绍合并的批次订单的概念。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "中国的物料清单比较"
 description: "本主题提供了有关中国的物料清单比较的信息。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "新的或更新任务指南（2016 年 11 月）"
 description: "本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 11 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

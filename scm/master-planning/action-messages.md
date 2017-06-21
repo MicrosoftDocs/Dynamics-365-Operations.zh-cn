@@ -3,7 +3,7 @@ title: "未记录"
 description: "行动消息是系统生成的关于更改现有计划订单或确定订单的建议。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

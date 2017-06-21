@@ -3,7 +3,7 @@ title: "使用付款方案创建供应商付款"
 description: "本主题提供付款方案选项的概览并包括显示付款方案如何工作的一些示例。 付款方案通常用于创建供应商付款，因为查询可以用于基于到期日期和现金折扣等条件快速选择付款的供应商发票。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

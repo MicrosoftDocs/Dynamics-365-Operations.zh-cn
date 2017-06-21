@@ -3,7 +3,7 @@ title: "结算具有多个折扣期的部分客户付款"
 description: "本文显示在存在多个折扣期间时部分客户付款如何结算。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

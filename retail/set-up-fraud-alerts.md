@@ -3,12 +3,13 @@ title: "设置欺诈预警"
 description: "此主题说明在订单处理过程中，如何设置预警规则来通知客户服务代表潜在的欺诈信息。 您可以定义特别的代码用以自动或手动地暂停可疑订单。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 79103
 ms.assetid: e342af8d-7498-4d20-8483-ab368429c578
@@ -16,12 +17,13 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail Version
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 7255f2b7e49f56a731d0e3745b4752091013668b
 ms.contentlocale: zh-cn
 ms.lasthandoff: 05/25/2017
+
 
 
 ---

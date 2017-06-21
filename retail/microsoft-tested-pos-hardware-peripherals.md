@@ -3,12 +3,13 @@ title: "POS 硬件外围设备"
 description: "Retail Modern 销售点 (POS) 和 Cloud POS 可以使用一系列广泛的 POS 硬件外设，具有多个界面和部署选项以满足零售商的各种业务场景。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 215234
 ms.assetid: 1893d4b3-e1b7-4b66-be58-0102addd5b36

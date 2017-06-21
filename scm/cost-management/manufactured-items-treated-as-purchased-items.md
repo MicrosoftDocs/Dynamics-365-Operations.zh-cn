@@ -3,7 +3,7 @@ title: "设置可以生产或采购的产品"
 description: "产品可以以各种方式采购：可以生产（制造）或采购（购买）。 本文介绍在您配置产品以支持多方采购时要考虑的一些典型问题。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

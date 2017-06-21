@@ -3,7 +3,7 @@ title: "工序级排产选项"
 description: "本主题介绍工序级排产的选项。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

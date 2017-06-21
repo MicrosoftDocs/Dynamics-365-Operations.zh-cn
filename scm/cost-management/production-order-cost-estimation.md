@@ -3,7 +3,7 @@ title: "生产订单成本估计"
 description: "本文提供有关生产成本估计的信息。 生产成本估计提供按计划的生产订单数量生产一个物料的预计材料和产能消耗成本。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

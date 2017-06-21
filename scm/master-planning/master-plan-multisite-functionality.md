@@ -3,7 +3,7 @@ title: "主计划和多站点功能"
 description: "主计划考虑站点和仓库库存维度的设置。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

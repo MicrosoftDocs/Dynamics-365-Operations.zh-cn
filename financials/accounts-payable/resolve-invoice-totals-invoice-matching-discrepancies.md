@@ -3,7 +3,7 @@ title: "解决发票合计匹配期间出现的差异"
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

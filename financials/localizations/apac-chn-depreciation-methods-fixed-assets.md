@@ -3,7 +3,7 @@ title: "固定资产折旧法"
 description: "此主题描述为中国法人设置的折旧法。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

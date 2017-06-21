@@ -3,7 +3,7 @@ title: "在折扣日期之前完全结算部分供应商付款和最后付款"
 description: "本文向您展示为供应商发票进行多个部分付款并执行现金折扣的情况。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

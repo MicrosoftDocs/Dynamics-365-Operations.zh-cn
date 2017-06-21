@@ -3,12 +3,13 @@ title: "使用销售组在 POS 中跟踪佣金"
 description: "零售业中经常由与客户打交道的销售员跟踪销售 — 提供协助、追加销售、交叉销售和处理交易记录。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations, Core
 ms.custom: 261234
 ms.assetid: 7cd68ecc-cc09-48ab-8cb8-48d5c304effa

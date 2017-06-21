@@ -3,7 +3,7 @@ title: "在期间结束时关闭总帐"
 description: "本主题介绍为总帐执行定期结算时通常完成的任务。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "在使用最后付款的折扣日期之前的折扣日期之后结算部
 description: "本文向您介绍执行多个部分付款的情况，部分在现金折扣期间内，其他在现金折扣期间外。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "询价 (RFQ)"
 description: "本文提供询价 (RFQ) 概览，即当组织必须购买物料或服务，且他们要从几个供应商接收竞争性的报价时，他们要发出的询价。 询价时，您要求供应商提供您指定的物料数量的价格和交货时间。 您还可以就有关是否存在任何附加费用，如运费，或者是否对订购数量多的大订单有折扣价或能否提前支付供应商发票等问题询问供应商。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

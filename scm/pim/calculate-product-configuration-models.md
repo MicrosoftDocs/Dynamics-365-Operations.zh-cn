@@ -3,7 +3,7 @@ title: "产品配置模型的计算常见问题"
 description: "本文描述产品配置模型的计算。并说明如何与约束一起使用计算。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

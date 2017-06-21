@@ -3,7 +3,7 @@ title: "使用一个客户的付款来结算跨多个折扣期的多个发票"
 description: "本文显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "预付款发票与预付款"
 description: "本文提供组织可以用于预付款（预先付款）的两种方法的介绍和对比。 在一种方法中，您创建与采购订单相关联的预付款发票。 在另一种方法中，您通过创建日志条目并将它们标记为预付款日志凭证来创建预付款日志凭证。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

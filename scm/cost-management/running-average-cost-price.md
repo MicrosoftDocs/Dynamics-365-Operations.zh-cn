@@ -3,7 +3,7 @@ title: "移动平均成本价"
 description: "库存结转过程基于在物料的物料模型组中选择的库存评估方法将发货交易记录结算到收货交易记录。 但在运行库存结转前，此系统将计算通常在过帐发货交易记录时使用的移动平均成本价。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

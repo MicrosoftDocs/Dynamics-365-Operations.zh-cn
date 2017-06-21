@@ -3,7 +3,7 @@ title: "手动折旧"
 description: "本文提供手动折旧法的概览。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

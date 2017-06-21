@@ -3,7 +3,7 @@ title: "覆盖范围设置"
 description: "主计划编制使用覆盖范围设置计算物料需求。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "计算化整折旧金额"
 description: "本文讨论在“帐簿设置”页找到的“化整折旧”字段。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

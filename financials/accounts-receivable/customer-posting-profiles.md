@@ -3,7 +3,7 @@ title: "客户过帐模板"
 description: "客户过帐模板控制将客户交易记录过帐到总帐。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

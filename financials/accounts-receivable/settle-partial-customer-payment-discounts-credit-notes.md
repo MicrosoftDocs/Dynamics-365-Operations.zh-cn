@@ -3,7 +3,7 @@ title: "结算在贷方通知单上已折扣的部分客户付款"
 description: "本文向您介绍当原始发票也具有现金折扣时，在贷方通知单中执行的现金折扣的情况。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

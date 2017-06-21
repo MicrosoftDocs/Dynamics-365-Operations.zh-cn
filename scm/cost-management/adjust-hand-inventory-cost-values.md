@@ -3,7 +3,7 @@ title: "调整现有库存量成本价值"
 description: "使用”现有库存量调整“页调整库存结转流程运行后的现有库存量数量的成本价值。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

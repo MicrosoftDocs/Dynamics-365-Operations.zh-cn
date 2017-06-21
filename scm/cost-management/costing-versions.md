@@ -3,7 +3,7 @@ title: "成本计算版本"
 description: "本文提供有关成本计算版本、如何维护它们以及可在其中包括的数据类型的信息。 成本计算版本主要用于包含与物料、成本类别和间接成本计算公式有关的成本记录。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

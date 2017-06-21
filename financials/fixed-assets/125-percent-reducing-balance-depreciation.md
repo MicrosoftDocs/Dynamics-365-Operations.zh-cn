@@ -3,7 +3,7 @@ title: "125% 余额递减法"
 description: "本文提供了 125% 余额递减法折旧方法的概览。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

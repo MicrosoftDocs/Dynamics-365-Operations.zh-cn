@@ -3,7 +3,7 @@ title: "发票匹配和内部公司采购订单"
 description: "涉及内部公司交易的采购法人设置为使用应付帐款发票匹配。 在这种情况下，内部公司交易和应付帐款发票匹配的过帐需求必须满足（在内部公司供应商过帐发票前）。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

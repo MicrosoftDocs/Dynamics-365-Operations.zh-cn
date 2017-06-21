@@ -3,7 +3,7 @@ title: "查看日记帐分录和交易记录"
 description: "本文说明您可以查看日记帐条目和交易记录的各种方式。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

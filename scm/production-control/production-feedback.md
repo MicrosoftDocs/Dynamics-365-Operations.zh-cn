@@ -3,7 +3,7 @@ title: "生产反馈"
 description: "本文提供有关向工作人员提供生产作业反馈的生产反馈的信息。 本文包括有关可以更新生产反馈的各个方法的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

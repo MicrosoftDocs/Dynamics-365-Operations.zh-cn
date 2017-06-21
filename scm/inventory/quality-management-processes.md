@@ -3,7 +3,7 @@ title: "质量管理流程"
 description: "本文提供有关未达标产品的质量管理流程的信息。 它介绍了如何使用质量控制功能、如何定义和维护不符合项以及如何处理更正。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

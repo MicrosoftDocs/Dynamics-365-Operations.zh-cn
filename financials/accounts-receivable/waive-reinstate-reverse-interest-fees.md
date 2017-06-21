@@ -3,7 +3,7 @@ title: "停征、复征或冲销利息费"
 description: "本文描述如何停止、复征和反向利息和费用的支出。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

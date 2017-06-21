@@ -3,7 +3,7 @@ title: "成本计算单"
 description: "设置成本计算单涉及两个目标。 作为第一个目标，您定义用于显示与制造物料或生产订单有关的所售货物成本信息的格式。 采用此格式的显示称作成本计算单。 作为第二个目标，您定义用于计算间接成本的基数。 成本计算单设置建立在用于显示信息和用于间接成本计算公式的成本组功能的基础上。 本文介绍两个成本计算单设置的目标。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

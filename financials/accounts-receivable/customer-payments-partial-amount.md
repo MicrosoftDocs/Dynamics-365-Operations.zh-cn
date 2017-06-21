@@ -3,7 +3,7 @@ title: "部分金额的客户付款"
 description: "有时客户付款低于的发票金额。 本文介绍处理此情况不同的选项。 可供您使用的选项取决于您的业务要求和配置。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

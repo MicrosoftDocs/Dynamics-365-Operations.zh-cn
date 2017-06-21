@@ -3,7 +3,7 @@ title: "审计策略违规记录和案例"
 description: "本文说明如何从审计政策规则违规生成审计案例。 它还包括有关审计策略使用文档选择日期范围的各个方式的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

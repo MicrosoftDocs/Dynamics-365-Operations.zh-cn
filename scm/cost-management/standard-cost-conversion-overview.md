@@ -3,7 +3,7 @@ title: "标准成本转换概览"
 description: "本文提供帮助您设置和运行标准成本转换的流程概览。 列出的步骤用于在您完成了标准成本转换的先决条件后完成。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

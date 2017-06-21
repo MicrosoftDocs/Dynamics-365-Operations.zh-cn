@@ -3,7 +3,7 @@ title: "在工作流中配置有条件决策"
 description: "使用以下过程配置有条件决策的属性。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

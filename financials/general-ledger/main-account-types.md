@@ -3,7 +3,7 @@ title: "主科目类型"
 description: "主科目类型确定主科目如何用于会计科目表。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

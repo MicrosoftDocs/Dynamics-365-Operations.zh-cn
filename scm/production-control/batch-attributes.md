@@ -3,7 +3,7 @@ title: "批次属性"
 description: "文本提供有关批属性的信息。 批次属性是构成库存批次的原材料和成品的特征。 本文还说明如何分配批属性，以及如何在预留批处理时对它们进行搜索。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "职位预算编制疑难解答"
 description: "本文提供对配置职位预算时可能有的问题的解答。 其定位关于如何创建预算成本要素、薪酬组和薪酬网格的常见问题。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

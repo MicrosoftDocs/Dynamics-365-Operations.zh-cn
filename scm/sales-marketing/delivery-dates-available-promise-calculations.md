@@ -3,7 +3,7 @@ title: "订单承诺"
 description: "本文提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

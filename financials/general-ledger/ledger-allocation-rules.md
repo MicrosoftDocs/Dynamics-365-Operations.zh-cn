@@ -3,7 +3,7 @@ title: "分类帐分配规则"
 description: "本文提供有关分类帐分配规则的信息。 介绍这些分配规则的各个组件和可为其使用的分配方法。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

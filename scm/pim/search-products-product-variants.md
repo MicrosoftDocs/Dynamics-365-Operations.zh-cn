@@ -3,7 +3,7 @@ title: "在输入订单时搜索产品和产品变型"
 description: "当您手动创建销售订单行或采购订单行时，使用“<strong>物料编号</strong>”字段搜索产品和产品变型。  当您仅有配置字符串或一个产品维度可用时，它可以让您迅速找到产品变型。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

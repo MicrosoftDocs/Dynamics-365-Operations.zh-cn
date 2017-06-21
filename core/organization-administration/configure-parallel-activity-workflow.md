@@ -3,7 +3,7 @@ title: "配置工作流中的并行活动"
 description: "要配置并行活动，请在工作流编辑器中完成以下过程。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

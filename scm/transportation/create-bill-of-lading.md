@@ -3,7 +3,7 @@ title: "创建提单"
 description: "此主题介绍在使用仓库管理流程时如何创建提单。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

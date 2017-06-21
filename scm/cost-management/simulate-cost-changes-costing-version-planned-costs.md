@@ -3,7 +3,7 @@ title: "通过将成本计算版本用于计划成本，模拟成本变化"
 description: "本文说明您如何使用针对计划成本的某一单独成本计算版本模拟成本变化对制造物料的计算成本的影响。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

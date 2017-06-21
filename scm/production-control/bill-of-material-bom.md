@@ -3,7 +3,7 @@ title: "物料清单和配方"
 description: "本文提供有关物料清单 (BOM) 和配方的信息，物料清单和配方是产品和产品变型定义的核心部分。 物料清单和配方指定特定产品必需的成分或材料。 配方还指定特定生产环境中接收的联产品和副产品。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

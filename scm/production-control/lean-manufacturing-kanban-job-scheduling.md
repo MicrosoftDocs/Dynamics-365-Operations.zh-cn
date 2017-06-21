@@ -3,7 +3,7 @@ title: "Lean manufacturing 的 看板作业计划"
 description: "文本提供有关看板作业计划和各种看板作业计划方法的可视化控制的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

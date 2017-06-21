@@ -3,7 +3,7 @@ title: "计算物料消耗量"
 description: "本文提供有关与物料消耗量的计算相关的不同选项的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

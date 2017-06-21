@@ -3,7 +3,7 @@ title: "从交易记录科目和合计科目创建预算"
 description: "本文提供基于合计科目创建预算的流程的概览。 还说明如果需要预算控制，如何启用合计科目的预算控制。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

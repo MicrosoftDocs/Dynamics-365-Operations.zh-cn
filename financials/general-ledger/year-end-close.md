@@ -3,7 +3,7 @@ title: "年终结算"
 description: "此主题描述运行总帐年终结算流程所需设置和步骤。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

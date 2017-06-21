@@ -3,7 +3,7 @@ title: "设置产品配置模型"
 description: "本文介绍设置和创建产品模型配置的步骤。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

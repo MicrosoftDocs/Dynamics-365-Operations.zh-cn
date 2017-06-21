@@ -3,7 +3,7 @@ title: "集中付款结算概览"
 description: "包括多个法人的组织可以使用处理所有付款的法人创建和管理付款。 这样，就无需在多个法人分别输入相同的交易记录，通过优化付款方案流程、结算流程、未结交易记录编辑和针对集中式付款的已结算交易记录编辑来节约时间。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

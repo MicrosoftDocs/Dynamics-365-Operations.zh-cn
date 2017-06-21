@@ -3,7 +3,7 @@ title: "物料清单版本的分解"
 description: "本文介绍涉及物料清单 (BOM) 版本分解的主计划方案。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

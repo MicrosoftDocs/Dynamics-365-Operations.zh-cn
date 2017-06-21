@@ -3,7 +3,7 @@ title: "生产过帐"
 description: "本文提供有关生产流程中不同过帐类型的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

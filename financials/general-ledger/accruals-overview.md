@@ -3,7 +3,7 @@ title: "应计概览"
 description: "本文介绍应计项目，并且提供有关如何设置和创建交易记录的信息。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

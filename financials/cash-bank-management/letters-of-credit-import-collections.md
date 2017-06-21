@@ -3,7 +3,7 @@ title: "信用证和进口托收"
 description: "本文提供有关信用证和进口托收的一般信息。 两种银行单据类型经常用于跨国界限的货物采购和销售。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

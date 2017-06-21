@@ -3,7 +3,7 @@ title: "度量单位和库存政策"
 description: "本文介绍如何在仓库流程中使用默认单位、单位序列和单位换算。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

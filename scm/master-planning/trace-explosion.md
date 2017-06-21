@@ -3,7 +3,7 @@ title: "使用跟踪进行分解"
 description: "本文说明如何可以使用跟踪来探索订单分解结果背后的原因。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

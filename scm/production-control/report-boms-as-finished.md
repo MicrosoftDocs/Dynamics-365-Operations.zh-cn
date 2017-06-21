@@ -3,7 +3,7 @@ title: "将物料清单报告为已完工入库"
 description: "本文提供了有关将物料清单报告为已完工入库的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "财务报表设计器中的报表定义"
 description: "本文提供了有关报表定义的信息。 报表定义是使用行定义、列定义和可选报告结构树定义创建报表的报表组件（或构建基块）。 报表定义还提供自定义报表的选项和设置。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

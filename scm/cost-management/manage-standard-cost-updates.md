@@ -3,7 +3,7 @@ title: "管理标准成本更新"
 description: "可以使用两种不同的方法管理对标准成本数据的更新 - 单版本方法和双版本方法。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

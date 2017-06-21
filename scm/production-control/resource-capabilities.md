@@ -3,7 +3,7 @@ title: "资源功能"
 description: "此期限提供有关资源功能的信息。 功能指执行特定活动的运营资源的能力。 本文章说明功能和相关概念（例如熟练程度和优先级）如何用于选择活动的相应资源。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

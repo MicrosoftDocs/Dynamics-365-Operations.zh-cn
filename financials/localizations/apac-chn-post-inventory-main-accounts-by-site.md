@@ -3,7 +3,7 @@ title: "按站点过帐主库存科目"
 description: "此主题提供有关按中国的站点过帐库存主科目过帐的信息。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

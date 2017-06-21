@@ -3,7 +3,7 @@ title: "站点覆盖范围的主计划，仓库非必需"
 description: "此主题介绍如何计划为覆盖范围设置站点维度的物料。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

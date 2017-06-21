@@ -3,7 +3,7 @@ title: "现金折扣"
 description: "为应付帐款和应收帐款设置和共享现金折扣。  可用现金折扣可以在客户发票或供应商发票上定义，并在现金折扣日期内支付发票时执行。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

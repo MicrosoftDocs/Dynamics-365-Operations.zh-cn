@@ -3,7 +3,7 @@ title: "成本对象维度"
 description: "在分析成本时，使用成本元素维度确定成本流向。 您可以使用成本对象维度确定应在何处分配成本。。 本主题提供了有关成本对象维度的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

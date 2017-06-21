@@ -3,7 +3,7 @@ title: "考勤管理登记"
 description: "时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。 本文介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "Operations 资源"
 description: "运营资源执行项目或生产流程的活动。 它们可以是不同类型，可以具有不同功能。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

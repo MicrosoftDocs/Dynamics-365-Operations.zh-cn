@@ -3,7 +3,7 @@ title: "固定资产购置过帐帐户"
 description: "本文说明如何为购置资产设置总帐过帐科目。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
