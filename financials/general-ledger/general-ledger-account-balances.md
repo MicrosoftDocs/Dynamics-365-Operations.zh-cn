@@ -3,7 +3,7 @@ title: "总帐科目余额"
 description: "本文说明查看总帐科目余额的两种方法：试算平衡表列表页和财务报表。 它还讨论如何更新维度集余额。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

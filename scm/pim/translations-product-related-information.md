@@ -3,7 +3,7 @@ title: "与产品相关的翻译常见问题"
 description: "此主题描述了如何管理产品、产品维度值和产品属性的转换。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

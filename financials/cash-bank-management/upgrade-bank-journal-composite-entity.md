@@ -3,7 +3,7 @@ title: "更新银行日记帐组合实体"
 description: "需按照以下步骤将更多 BankTransactionType 字段添加到组合 BankJournalEntity 中。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

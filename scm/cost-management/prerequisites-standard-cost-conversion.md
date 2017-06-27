@@ -3,7 +3,7 @@ title: "用于标准成本转换的先决条件"
 description: "本主题讨论在运行标准成本转换前需执行的任务。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

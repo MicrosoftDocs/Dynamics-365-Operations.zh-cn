@@ -3,7 +3,7 @@ title: "财务报表设计器中的用户首选项"
 description: "本文介绍如何设置用户首选项来自定义财务报表设计器中的用户交互和控制初始登录体验。 您还可以控制各个报表、报表库和默认文件位置的显示方式。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform

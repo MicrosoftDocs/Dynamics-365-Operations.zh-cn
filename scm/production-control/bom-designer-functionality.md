@@ -3,7 +3,7 @@ title: "物料清单设计器功能"
 description: "本文介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。 您可以单击“设置”选择不同的配置并指定要在树的行上显示哪些信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

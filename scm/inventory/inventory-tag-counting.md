@@ -3,7 +3,7 @@ title: "库存标签盘点"
 description: "本文提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

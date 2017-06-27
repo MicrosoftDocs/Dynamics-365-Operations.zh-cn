@@ -3,7 +3,7 @@ title: "将成本元素维度成员映射到一组常用维度成员"
 description: "通过将不同的成本元素维度成员映射到一组通用的成本元素维度成员，您可以将数据合并为通用格式进行分析。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

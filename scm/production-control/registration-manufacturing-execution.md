@@ -3,7 +3,7 @@ title: "制造执行的登记"
 description: "此主题描述您需要理解才能配置和使用制造执行的重要概念和术语。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "分配时间到作业捆绑中的作业"
 description: "在“制造执行”中，您可以捆绑作业。 然后您可以在工作列表页同时开始多个作业。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

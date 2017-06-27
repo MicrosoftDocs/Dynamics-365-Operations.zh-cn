@@ -3,7 +3,7 @@ title: "设置托运"
 description: "本主题介绍如何配置入站托运库存工序。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

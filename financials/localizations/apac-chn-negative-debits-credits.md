@@ -3,12 +3,13 @@ title: "显示会计科目的借方和贷方金额"
 description: "本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 265884
 ms.assetid: 0f23b25b-45e5-4156-9e38-621a97046552

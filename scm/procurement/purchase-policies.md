@@ -3,7 +3,7 @@ title: "采购策略"
 description: "文本提供有关采购策略的信息。 采购策略是控制申请流程的规则的集合。 采购策略通过创建符合组织的战略采购需求的策略结构帮助采购管理员实现其采购战略。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

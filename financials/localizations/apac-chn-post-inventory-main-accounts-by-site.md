@@ -3,13 +3,14 @@ title: "按站点过帐主库存科目"
 description: "此主题提供有关按中国的站点过帐库存主科目过帐的信息。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventPostingParameters
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 262754
 ms.assetid: f8e0b34d-006a-4baf-86ae-60625ba4b442

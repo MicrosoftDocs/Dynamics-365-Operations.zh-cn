@@ -3,12 +3,13 @@ title: "配置中国的税务集成"
 description: "本主题描述配置中国的税务集成的流程。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 265264
 ms.assetid: e5dbbbe1-935f-4fb4-a014-447916051628

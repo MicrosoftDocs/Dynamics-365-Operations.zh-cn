@@ -3,7 +3,7 @@ title: "应收帐款主页"
 description: "使用应收帐款可以跟踪客户发票和收入付款。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

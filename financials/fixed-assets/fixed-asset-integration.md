@@ -3,7 +3,7 @@ title: "固定资产集成"
 description: "固定资产可以与总帐、库存管理、应收帐款和应付帐款一起集成。 您也可以设置固定资产，以便与采购订单相集成。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

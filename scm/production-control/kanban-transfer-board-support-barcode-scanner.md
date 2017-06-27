@@ -3,7 +3,7 @@ title: "条码扫描仪的看板转移面板支持"
 description: "看板转移面板支持从小组件条码扫描器到选择、开始、完成和清空看板作业的扫描器输入。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

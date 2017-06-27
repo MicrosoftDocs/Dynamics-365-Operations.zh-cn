@@ -3,7 +3,7 @@ title: "具有标准成本的物料清单计算"
 description: 
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "处理超额支付的现金折扣"
 description: "本文提供显示在客户执行现金折扣同时超额支付时如何处理付款的情况。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

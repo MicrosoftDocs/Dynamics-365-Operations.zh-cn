@@ -3,7 +3,7 @@ title: "应付帐款和应收帐款的外币重估"
 description: "汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本文提供有关您运行的以更新应收帐款和应付帐款的未结交易记录的值的外币重估流程的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

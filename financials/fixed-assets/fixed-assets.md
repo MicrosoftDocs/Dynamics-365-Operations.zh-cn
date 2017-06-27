@@ -3,7 +3,7 @@ title: "固定资产主页"
 description: "固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications

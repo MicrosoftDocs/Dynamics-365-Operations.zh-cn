@@ -3,7 +3,7 @@ title: "更正普通发票"
 description: "本文说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "直接交货"
 description: "本文提供有关直接交运的信息。 直接交运是直接从供应商发送到您的客户的交货。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

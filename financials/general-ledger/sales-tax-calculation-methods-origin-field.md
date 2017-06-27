@@ -3,7 +3,7 @@ title: "“源”字段中的销售税计算方法"
 description: "本文说明销售税代码页上“来源”字段中的选项，以及如何基于销售税代码的所选选项计算销售税。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

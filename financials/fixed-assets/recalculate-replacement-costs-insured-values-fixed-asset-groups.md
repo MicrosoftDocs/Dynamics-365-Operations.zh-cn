@@ -3,7 +3,7 @@ title: "重新计算重置成本和固定资产组的保险额"
 description: "本文说明更新重置成本和固定资产的保险额的流程。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

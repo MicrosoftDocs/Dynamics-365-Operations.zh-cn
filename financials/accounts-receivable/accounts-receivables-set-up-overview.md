@@ -3,7 +3,7 @@ title: "配置应收帐款以及信用和收款"
 description: "配置“应收帐款”和“信用和收款”以跟踪来自客户的发票和收入。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "配置和筛选工作区"
 description: "本文提供有关如何配置和筛选工作区的概览。"
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

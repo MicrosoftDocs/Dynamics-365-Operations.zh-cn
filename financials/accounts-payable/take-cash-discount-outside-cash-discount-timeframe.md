@@ -3,7 +3,7 @@ title: "在现金折扣期间之外执行现金折扣"
 description: "本文提供显示即使在现金折扣期间外进行付款时也可以执行的现金折扣的两种情况。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

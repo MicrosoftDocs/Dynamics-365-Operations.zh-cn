@@ -3,7 +3,7 @@ title: "结算具有多个折扣期的部分供应商付款"
 description: "本文向您展示向提供多个现金折扣的供应商进行多个部分付款的情况。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

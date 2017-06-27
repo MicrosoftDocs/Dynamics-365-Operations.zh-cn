@@ -3,7 +3,7 @@ title: "托运"
 description: "本主题介绍如何使用入站托运库存流程。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

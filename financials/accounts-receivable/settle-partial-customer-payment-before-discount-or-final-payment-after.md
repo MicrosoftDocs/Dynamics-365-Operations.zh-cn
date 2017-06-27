@@ -3,7 +3,7 @@ title: "在使用最后付款的折扣日期之前的折扣日期之后结算部
 description: "文本讨论结算客户发票付款的影响。 此情况关注对子分类帐而不是总帐的影响。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

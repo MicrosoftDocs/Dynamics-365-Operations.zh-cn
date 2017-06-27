@@ -3,7 +3,7 @@ title: "全部金额和销售税代码的间隔计算选项"
 description: "本文说明销售税代码上的“计算方法”字段选项，以及如何为间隔和全部金额计算销售税。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "采购目录"
 description: "本文介绍在高级别，采购专业人员能够如何设置和维护采购目录。 采购目录定义公司员工可以订购供内部使用的物料和服务。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

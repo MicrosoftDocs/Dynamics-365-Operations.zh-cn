@@ -3,7 +3,7 @@ title: "库存结转"
 description: "作为结算具有收货交易记录的发货交易记录的流程的一部分，您还可以选择更新总帐以反映已进行的调整。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "工作流元素"
 description: "本文介绍构成工作流的不同元素。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

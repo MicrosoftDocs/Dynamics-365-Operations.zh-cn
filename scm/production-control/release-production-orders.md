@@ -3,7 +3,7 @@ title: "下达生产订单"
 description: "下达的生产订单是已授权进行生产的订单。 “已下达”一词用于描述生产订单生命周期中的状态，在其中，生产订单可用于生产车间和仓库流程的执行。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

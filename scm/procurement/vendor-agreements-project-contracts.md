@@ -3,7 +3,7 @@ title: "即收即付的供应商协议"
 description: "本文说明供应商协议的即收即付 (PWP) 条款。 PWP 条款让您可以部分或全部预扣对供应商的付款，直到您的项目的客户支付您的款项。 本文还提供一个真实示例显示如何为项目使用 PWP 条件。"
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

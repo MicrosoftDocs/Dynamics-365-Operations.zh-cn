@@ -3,7 +3,7 @@ title: "为新的制造物料更新标准成本"
 description: "本文提供更新新制造物料的标准成本的指导。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

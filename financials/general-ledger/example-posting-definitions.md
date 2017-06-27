@@ -3,14 +3,14 @@ title: "过帐定义"
 description: "本文提供示例以显示如何将过帐定义用于采购订单保留款和预算拨款。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 15772
 ms.assetid: 3864e4da-853f-403d-b906-79631d80b363

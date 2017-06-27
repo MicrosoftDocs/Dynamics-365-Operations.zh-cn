@@ -3,7 +3,7 @@ title: "设置信用和收款"
 description: "本文介绍如何设置收款功能。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

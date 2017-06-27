@@ -3,7 +3,7 @@ title: "具有实际成本和标记的先进先出"
 description: "后进先出 (LIFO) 是一种库存模型，其中，最后（最新）的收货将最先发货。 基于库存交易记录的日期，按照最后入库的收货结算库存发货。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

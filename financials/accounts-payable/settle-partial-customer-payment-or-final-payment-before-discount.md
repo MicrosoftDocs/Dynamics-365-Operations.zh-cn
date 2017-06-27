@@ -3,7 +3,7 @@ title: "在折扣日期之前完全结算部分客户付款和最后付款"
 description: "本文提供显示如何记录客户的部分付款以及在现金折扣期间内执行现金折扣的情况。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

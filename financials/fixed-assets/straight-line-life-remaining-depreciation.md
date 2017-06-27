@@ -3,7 +3,7 @@ title: "剩余年限法折旧"
 description: "本文提供了直线法（剩余年限）折旧方法的概览。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

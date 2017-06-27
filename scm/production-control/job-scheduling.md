@@ -3,7 +3,7 @@ title: "作业级排产"
 description: "本文提供有关作业级排产的信息，其是比工序级排产更详细的排产形式。 您可以使用作业级排产来计划单独的作业或车间订单和控制制造环境。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

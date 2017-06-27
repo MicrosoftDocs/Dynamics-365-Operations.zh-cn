@@ -3,7 +3,7 @@ title: "固定资产交易记录选项"
 description: "本文介绍可用来创建固定资产交易记录的不同方法。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

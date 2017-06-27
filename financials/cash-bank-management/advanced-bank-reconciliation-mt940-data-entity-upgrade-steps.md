@@ -3,7 +3,7 @@ title: "高级银行对帐 MT940 导入 - 综合数据实体升级"
 description: "需要将序列号添加到银行对帐单导入实体以支持 MT940 格式。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

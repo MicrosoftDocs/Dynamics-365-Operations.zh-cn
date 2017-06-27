@@ -3,7 +3,7 @@ title: "供应商发票日记帐和发票审核日记帐的默认对方科目"
 description: 
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

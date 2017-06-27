@@ -3,7 +3,7 @@ title: "总帐的外币重估"
 description: "本主题概述了总帐外币重估流程的以下内容 - 设置，运行流程，流程计算，以及在必要时如何冲销重估交易记录。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

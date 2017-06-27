@@ -10,6 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerVoucherType_CN, VoucherTypeWizard_CN
 audience: Application User
+ms.reviewer: shylaw
 ms.search.scope: Operations, Core
 ms.custom: 261454
 ms.assetid: b5a50142-b48c-4b1b-8828-6c436ea91238

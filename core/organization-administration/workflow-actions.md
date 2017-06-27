@@ -3,7 +3,7 @@ title: "工作流操作"
 description: "本文说明每个工作流审核流程的参与者可以采取的操作。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

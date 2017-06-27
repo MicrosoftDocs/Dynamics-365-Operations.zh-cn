@@ -3,7 +3,7 @@ title: "成本条目"
 description: "本文提供有关成本条目及其何时创建的信息。 成本条目是登记指定事件的数量和成本的记录。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

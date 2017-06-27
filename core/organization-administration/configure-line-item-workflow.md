@@ -3,7 +3,7 @@ title: "配置行项工作流"
 description: "本主题说明如何配置行项工作流元素。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

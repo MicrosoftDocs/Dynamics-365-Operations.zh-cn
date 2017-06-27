@@ -3,7 +3,7 @@ title: "会计日历、会计年度和期间"
 description: "本文讨论会计日历、会计年度和期间以及如何为法人、固定资产和预算使用它们。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

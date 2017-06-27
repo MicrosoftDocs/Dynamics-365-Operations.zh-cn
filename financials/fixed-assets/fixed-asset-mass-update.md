@@ -3,7 +3,7 @@ title: "固定资产成批更新"
 description: "如果您使用帐簿，则可以更改同属于一个帐簿的资产组的折旧惯例。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

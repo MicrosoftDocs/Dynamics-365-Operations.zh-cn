@@ -3,7 +3,7 @@ title: "供应商过帐模板"
 description: "供应商过帐模板控制将供应商交易记录过帐到总帐。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

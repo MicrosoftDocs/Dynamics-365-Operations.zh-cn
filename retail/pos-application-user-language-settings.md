@@ -3,13 +3,14 @@ title: "POS 应用程序和用户语言设置"
 description: "此主题介绍如何在 Retail Modern POS (MPOS) 和 Cloud POS 中更改语言设置。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: HcmWorker, RetailStoreTable
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: AX 7.0.0, Operations, Core, Retail
 ms.custom: 78891
 ms.assetid: 0030940c-e0a5-4345-9511-8c3bd1f487ad
@@ -17,12 +18,13 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: b2cbdb8bc65a3bfa84620a50480c503c3bb07991
 ms.contentlocale: zh-cn
 ms.lasthandoff: 05/25/2017
+
 
 
 ---

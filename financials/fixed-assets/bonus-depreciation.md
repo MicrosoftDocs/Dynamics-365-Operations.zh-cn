@@ -3,7 +3,7 @@ title: "额外折旧"
 description: "本文提供红利折旧功能的概览。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

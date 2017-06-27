@@ -3,7 +3,7 @@ title: "采购申请工作流"
 description: "工作流在审核过程中移动采购申请，从“草稿”的初始状态到“已审核”最终状态。 在采购申请被提交审核时，该工作流流程开始。 在审核采购申请后，采购订单可为采购申请行生成并提交到供应商进行订单执行。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

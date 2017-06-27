@@ -3,10 +3,10 @@ title: "设置呼叫中心的连续性计划"
 description: "本文介绍如何为呼叫中心设置连续性计划。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
@@ -17,12 +17,13 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: c0a9eec6bdf67deca885b30082b958869e64aae2
 ms.contentlocale: zh-cn
 ms.lasthandoff: 05/25/2017
+
 
 
 ---

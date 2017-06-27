@@ -3,13 +3,13 @@ title: "资产负债表财务报表"
 description: "本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: twheeloc
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 12274
 ms.assetid: 52f78229-f531-4d16-b337-e2628994acb6

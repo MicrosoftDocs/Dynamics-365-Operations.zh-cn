@@ -3,7 +3,7 @@ title: "财务申报中的高级格式设置选项"
 description: "当您在财务申报中创建报表时，其他格式设置功能可用，包括维度筛选器、列和报告单位限制、非打印行和计算中的 IF/THEN/ELSE 语句。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,8 +16,8 @@ ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: cc22e564c68ab04c61f2a2fc9d0a70335dc05b06

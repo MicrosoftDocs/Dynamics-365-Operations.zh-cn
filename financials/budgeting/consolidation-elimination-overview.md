@@ -3,7 +3,7 @@ title: "合并和清除概览"
 description: "本文提供有关合并和清除流程的一般信息。 它包含对一些常见问题的回答。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

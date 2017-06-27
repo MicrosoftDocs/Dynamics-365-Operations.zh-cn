@@ -3,7 +3,7 @@ title: "不符合项管理"
 description: "本文介绍使用未达标所需的基本设置。 如果要使用质检订单还需要其他设置。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

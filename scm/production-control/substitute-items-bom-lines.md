@@ -3,7 +3,7 @@ title: "生产中的物料替换"
 description: "本主题描述如何在生产流程中替换物料。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
