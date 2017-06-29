@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3381
 ms.assetid: e55b9c0e-597b-46d4-b453-81c780939b6d
 ms.search.region: Global

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53401
 ms.assetid: 9cff88e4-0425-4707-9178-3c2cb10df7c2
 ms.search.region: Global
