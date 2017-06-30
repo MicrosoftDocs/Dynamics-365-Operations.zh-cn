@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 4051
 ms.assetid: 00df5537-b148-4e32-a248-3e35876ad4e1
 ms.search.region: Global

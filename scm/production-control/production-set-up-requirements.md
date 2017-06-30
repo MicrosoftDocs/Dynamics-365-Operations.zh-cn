@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 55561
 ms.assetid: 1953059f-478d-4706-b461-25b89ace5fc3
 ms.search.region: Global

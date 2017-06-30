@@ -10,7 +10,7 @@ ms.service:
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 63243
 ms.assetid: 93ca09b2-90e8-4c15-b206-5c6f7b30b85f
 ms.search.region: Global

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 78153
 ms.assetid: a3fdc76c-0a27-4723-b1c7-4322f707d89e
 ms.search.region: Global

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2454
 ms.assetid: aa135030-f98c-48bf-902c-e52f680dc247
 ms.search.region: Global

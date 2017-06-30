@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 70131
 ms.assetid: b1e0df43-b388-4326-8fb7-501f30c89776
 ms.search.region: Global

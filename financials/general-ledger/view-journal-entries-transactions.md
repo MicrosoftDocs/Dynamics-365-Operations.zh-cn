@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerTransVoucher
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13031
 ms.assetid: 281c7ea6-4dfd-4d1f-994f-c361ee299dbe
 ms.search.region: Global

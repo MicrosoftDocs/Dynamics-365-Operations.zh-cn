@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ProdParmRelease
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2414
 ms.assetid: 50c2257b-2924-44f5-b7c1-11f498092053
 ms.search.region: Global
