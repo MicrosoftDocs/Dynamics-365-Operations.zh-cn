@@ -1,15 +1,15 @@
 ---
 title: "BI 和申报主页"
-description: "本主题列出了 Microsoft Dynamics 365 for Operations 中可用的 BI 和申报资源。"
+description: "本主题列出了 Microsoft Dynamics 365 for Finance and Operations 中可用的 BI 和申报资源。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3e97fda52acf6b61bf47eb30d53ce6597b4929d3
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 448517531112636d553dc895b17c5644c9c1f0bc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本主题列出了 Microsoft Dynamics 365 for Operations 中可用的 BI 和申报资源。 
+本主题列出了 Microsoft Dynamics 365 for Finance and Operations 中可用的 BI 和申报资源。 
 
 <a name="working-with-aggregate-data"></a>处理聚合数据
 ---------------------------
@@ -43,14 +43,14 @@ ms.lasthandoff: 05/25/2017
 ## <a name="self-service-reporting"></a>自助服务报告
 -   [Power BI 集成](power-bi-integration.md)
 -   [为工作区配置 Power BI 集成](configure-power-bi-integration.md)
--   [通过使用 Microsoft Dynamics 365 for Operations 数据创建 Power BI 报告](create-powerbi-report-data.md)
+-   [通过使用 Microsoft Dynamics 365 for Finance and Operations 数据创建 Power BI 报告](create-powerbi-report-data.md)
 -   [创建 Power BI 报告和仪表板](create-powerbi-report-dashboard.md)
 -   [零售渠道绩效 Power BI 内容](retail-channel-performance-dashboard-power-bi-data.md)
 -   [财务绩效 Power BI 内容](financial-performance-power-bi-content-pack.md)
 -   [销售和收益率绩效 Power BI 内容](sales-profitability-performance-content-pack.md)
--   [使用电子申报配置为 Power BI 提供来自 Dynamics 365 for Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [使用电子申报配置为 Power BI 提供来自 Finance and Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 
-## <a name="building-embedded-analytical-experiences-in-the-dynamics-365-for-operations-client"></a>在 Dynamics 365 for Operations 客户端构建嵌入式分析体验
+## <a name="building-embedded-analytical-experiences-in-the-finance-and-operations-client"></a>在 Finance and Operations 客户端构建嵌入式分析体验
 -   [嵌入式商业智能](analytics.md#embedded-business-intelligence)
 -   [KPI 建模和自定义](analytics.md#kpi-modeling-and-customization)
 -   [将 BI 添加到工作区](add-bi-workspaces.md)
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="document-reporting-and-printing"></a>文档报告和打印
 -   [文档报告服务概览](document-reporting-services.md)
--   [在 Dynamics 365 for Operations 应用程序中打印](print-documents.md)
+-   [在 Finance and Operations 应用程序中打印](print-documents.md)
 -   [安装文档路线选择代理以启用网络打印机设备](install-document-routing-agent.md)
 -   [作为 Windows 服务运行文档路线选择代理](run-document-routing-agent-as-windows-service.md)
 -   [创建下一代报告解决方案](create-nextgen-reporting-solutions.md)
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/25/2017
 -   [电子申报中的配方设计器](general-electronic-reporting-formula-designer.md)
 -   [电子申报目标](electronic-reporting-destinations.md)
 -   [从 Lifecycle Services 下载电子申报配置](download-electronic-reporting-configuration-lcs.md)
--   [使用电子申报配置为 Power BI 提供来自 Dynamics 365 for Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [使用电子申报配置为 Power BI 提供来自 Finance and Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)
 -   [ER 创建一个配置提供程序，并标记其为当前运行的](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/)（任务指南）
 -   [ER 设计特定于域的数据模型](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/)（任务指南）
 -   [ER 定义模型映射并选择数据源](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/)（任务指南）
