@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 265244
 ms.assetid: c7ee6b6a-cb92-4d1a-b4bb-37df3107dac8
 ms.search.region: China (PRC)

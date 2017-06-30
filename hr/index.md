@@ -1,12 +1,12 @@
 ---
-title: "人力资源"
-description: "“人力资源”简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 它还提供了一个框架，供人力资源员工管理监督领域。 这些领域包括员工招聘和挽留、福利管理、培训、绩效评审和变更管理。"
+title: Microsoft Dynamics 365 for Talent
+description: "Talent 简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 这些流程包括员工挽留、福利管理、培训、绩效评审和变更管理。"
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
@@ -16,23 +16,25 @@ ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 213d1dc69ac0f6dc10138e185625a142e107f073
+ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
+ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="welcome-to-human-resources"></a>欢迎使用“人力资源”
+# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>欢迎使用 Microsoft Dynamics 365 for Talent
 
 [!include[banner](includes/banner.md)]
 
-“人力资源”简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 它还提供了一个框架，供人力资源员工管理监督领域。 这些领域包括员工招聘和挽留、福利管理、培训、绩效评审和变更管理。
+Microsoft Dynamics 365 for Talent 简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。这些流程包括员工挽留、福利管理、培训、绩效评审和变更管理。 它还提供了一个框架，供人力资源员工管理监督领域。
 
-您可以使用“人力资源”完成以下任务：
+Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations, Enterprise edition 中的“人力资源”密切相关。 这两种产品的功能可能存在重合。 因此，在主要涉及“人力资源”的主题中，产品名称将为 Dynamics 365 for Finance and Operations, Enterprise edition；在主要涉及 Talent 的主题中，产品名称将为 Dynamics 365 for Talent。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+
+您可以使用 Talent 完成以下任务：
 
 > + 管理组织结构。
 > + 维护工作人员从雇用到退休的全面信息。
@@ -42,25 +44,19 @@ ms.lasthandoff: 05/25/2017
 > + 管理工作人员能力。
 > + 评审绩效和实现工作人员目标。
 > + 设置、提供并分析包含议程、授课和跟踪的培训课程。
-> + 招聘工作人员和跟踪申请人。
 
-<a name="develop-a-human-resources-strategy"></a>制定人力资源战略
+<a name="develop-a-strategy-for-managing-your-human-resources"></a>制定人力资源管理策略
 ---------------------------------------------------------
 
-当您使用“人力资源”时，您将决定如何使用部门、工作和职位等元素构建您的组织的结构。 这些元素是您将在“人力资源”中配置的基本元素的一部分。 各个员工都将被分配到与工作关联的职位。
+当您使用 Talent 时，您将决定如何使用部门、工作和职位等元素构建您的组织结构。 这些元素是您将配置的基本元素的一部分。 各个员工都将被分配到与工作关联的职位。
 
 -   [使用部门、工作和职位组织您的劳动力](departments-jobs-positions.md)
 -   [设置特定于公司的 HR 参数](set-up-company-specific-hr-parameters.md)
 -   [跨法人设置 HR 参数](set-up-hr-parameters-across-legal-entities.md) 
 
-## <a name="recruit-hire-and-motivate-employees"></a>招聘、雇用和激励员工
+## <a name="retain-and-motivate-employees"></a>保留和激励员工
 
-招聘项目可管理空缺职位广告中使用的内容，并可帮助您管理对空缺职位的申请。 您可以使用它们来跟踪对特定招聘项目的空缺职位的回应或跟踪特定的申请人，以及更新空缺职位的状态。 您还可以雇用一个申请人或管理便于雇用多个工作人员的“大批雇用项目”（例如，为满足季节性的业务需求）。
-
--   [管理招聘流程](manage-recruiting-process.md)
--   [大批雇用项目](mass-hire-projects.md) 
-
-雇用员工后，您可以制定计划来有效公平地管理薪酬以及管理您的组织借给员工的物品（如计算机或手机）。 您可以创建固定和可变的薪酬计划，并定义应用薪酬计划以满足该计划的条件的规则。
+您可以制定计划来有效公平地管理薪酬以及管理您的组织借给员工的物品（如计算机或手机）。 您可以创建固定和可变的薪酬计划，并定义应用薪酬计划以满足该计划的条件的规则。
 
 -   [薪酬计划](compensation-plans.md)
 -   [创建固定薪酬计划](create-fixed-compensation-plans.md)
@@ -84,10 +80,10 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>维护工作场所的安全和合规
 
-Microsoft Dynamics AX 可帮助您维护符合适用法律的安全工作环境，包括美国残疾人法案和移民与入籍法，等等。 例如，您可以管理特定工作的物理要求，并跟踪可以帮助您的组织优化其劳动力技能的便利设施要求。
+Talent 可帮助您维护符合适用法律的安全工作环境，包括美国残疾人法案和移民与入籍法，等等。 例如，您可以管理特定工作的物理要求，并跟踪可以帮助您的组织优化其劳动力技能的便利设施要求。
 
--   [表格 I-9 雇用验证](localizations/noam-usa-form-i-9-verification.md)
--   [符合《美国残疾人法案》](localizations/noam-usa-comply-ada.md)
+-   [表格 I-9 雇用验证](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
+-   [符合《美国残疾人法案》](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-comply-ada)
 
 ## <a name="gather-information-using-questionnaires"></a>使用调查表收集信息
 
@@ -97,7 +93,4 @@ Microsoft Dynamics AX 可帮助您维护符合适用法律的安全工作环境�
 -   [设计调查表](design-questionnaires.md)
 -   [分配和完成调查表](distribute-questionnaires.md)
 -   [查看和评估调查表的结果](evaluate-questionnaire-results.md)
-
-
-
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 83852
 ms.assetid: 7c14c3e5-9476-4a79-a210-e77fc91cc7fc
 ms.search.region: Global

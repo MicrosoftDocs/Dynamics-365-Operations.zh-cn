@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 79693
 ms.assetid: ba64b70f-3f4c-4373-9a7d-8fd07c45a8cf
 ms.search.region: Global

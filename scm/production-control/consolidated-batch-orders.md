@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PmfAddToConsOrder, PmfBulkItemConv, PmfBulkPackOnHand, PmfConsOrderListPage
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19291
 ms.assetid: e97f1d3d-1306-4c42-b2bc-d1755fe574d5
 ms.search.region: Global

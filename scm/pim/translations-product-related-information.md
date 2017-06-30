@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysTranslationDetail, SysTranslationLanguage, SysTranslationList
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 201853
 ms.assetid: c0286bba-f54b-42de-904c-81fd796bdd1d
 ms.search.region: global

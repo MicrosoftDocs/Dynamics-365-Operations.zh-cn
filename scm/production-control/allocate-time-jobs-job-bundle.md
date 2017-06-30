@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 55591
 ms.assetid: 358efce7-73c8-4d2a-a7f7-cb99b88ab6ee
 ms.search.region: Global

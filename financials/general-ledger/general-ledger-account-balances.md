@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13191
 ms.assetid: ea3650ac-34a0-4516-b75b-801c2164107d
 ms.search.region: Global

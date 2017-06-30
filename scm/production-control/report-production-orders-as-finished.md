@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ProdJournalTransJob, ProdJournalTransProd, ProdJournalTransRoute, ProdParmReportFinished, ProdRouteOprOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 27061
 ms.assetid: 1c2dfc54-a293-49f2-9b96-5a912ac5762c
 ms.search.region: Global

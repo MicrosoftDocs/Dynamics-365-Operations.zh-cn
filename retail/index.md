@@ -1,96 +1,99 @@
 ---
-title: "零售主页"
-description: "Dynamics 365 for Operations - Retail 的主页"
+title: Microsoft Dynamics 365 for Retail
+description: "Dynamics 365 for Retail 的主页"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.search.validFrom: 2017-6-19
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a1004022b1b9dfc43bd2ef5b9f59c759397a3af1
+ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
+ms.openlocfilehash: 6684e1f3703df8eb821b442c98d187ffcf931796
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/21/2017
 
 
 ---
 
-# <a name="retail-home-page"></a>零售主页
+# <a name="welcome-to-dynamics-365-for-retail"></a>欢迎使用 Dynamics 365 for Retail
 
 [!include[banner](includes/banner.md)]
 
-Dynamics 365 for Operations - Retail 提供了完整的购物体验，其中包含无缝且与众不同的 Omni 渠道解决方案，该解决方案具有现代化、移动化和全球化的特点。 从现代化的销售点 (POS) 软件解决方案、商店运营、促销、电子商务、呼叫中心、营销和客户关怀到供应链和财务等的端到端功能可通过一种对您的企业最有意义的方式进行部署。
+Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供跨所有渠道的统一商务。 其中包括销售、移动性、智能和工作效率解决方案，帮助零售商和工作人员以云优先和移动优先的方式实现更多目标。 Retail 为实施各类业务流程提供全面的支持，如促销活动、库存和渠道管理功能。 它还跨所有接触点提供沉浸式客户体验。
 
-本页面指向可帮助您更有效地使用 Microsoft Dynamics 365 for Operations - Retail 的资源。 在最左侧的窗格中，选择一个功能区域以了解有关它的更多信息。 
+以下三种产品密切相关：
 
-## <a name="set-up-retail-channels"></a>设置零售渠道
-当您设置您的零售体验时，您将决定如何定义和配置您的商店 -- 实体店、在线商店和呼叫中心。 
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
+- Microsoft Dynamics 365 for Retail
+- Microsoft Dynamics 365 for Talent
 
-每个零售店都可以有自己的付款方式、交货方法、价格组、收入/支出帐户、收银机和员工。 在创建零售商店后，您可以创建您希望商店经营的产品的分类。 您还可以定义特定于商店的价格和折扣，这些价格和折扣适用于该商店提供的产品。
+这三种产品的功能可能存在重合。 因此，在主要涉及到 Retail 的主题中，产品名称将为 Microsoft Dynamics 365 for Retail。 在主要涉及到 Talent 的主题中，产品名称将为 Microsoft Dynamics 365 for Talent。 最后，与涉及核心产品 (Finance and Operations) 的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
--   [定义零售渠道](define-maintain-retail-channels.md)
--   [在线商店概览](online-stores.md)
+在左侧窗格中，选择一个功能区域以了解有关它的更多信息。
 
-## <a name="set-up-a-call-center"></a>设置呼叫中心
-您可以将呼叫中心设置为一种零售渠道。 在呼叫中心，工作人员通过电话接收客户的订单并创建销售订单。 为了帮助您的工作人员接收订单并在整个订单履行过程中处理客户服务，您可以设置销售订单将包含什么、如何控制定价以及可访问有关客户、产品和定价的哪些数据。 对于每个呼叫中心，您还可以设置用户、付款方式、价格组、财务维度和交货方式。
+## <a name="channel-management"></a>渠道管理
+在设置 Retail 体验时，您可以决定如何定义和配置您的商店。 商店可以是实体商店、在线商店或呼叫中心。
 
--   [呼叫中心功能](call-center-functionality.md)
--   [创建呼叫中心目录](create-call-center-catalogs.md)
+每个零售商店都可以有自己的付款方式、交货方法、价格组、收入和支出帐户、收银机和员工。 在创建零售商店后，您可以创建您希望商店经营的产品的分类。 您还可以定义特定于商店的价格和折扣，这些价格和折扣适用于该商店提供的产品。
 
-## <a name="define-your-pos-solutions"></a>定义您的 POS 解决方案
-Retail Modern POS (MPOS) 是 PC、平板电脑和手机的销售终端应用。 销售人员可在商店内的任何位置利用移动设备处理销售交易记录和客户订单，执行客户服务解决方案活动，并执行日常的运营和库存管理，也可以在基于 PC 的收银机上执行这些操作。 云 POS 是一种基于浏览器的 POS，它可以在任何标准浏览器上启动。 
+## <a name="clienteling-and-loyalty"></a>客户服务解决方案和忠诚度
+客户需要不断改变。 您必须能够快速、有效地适应购买习惯和趋势的变化，以便能够定位和吸引新客户，同时维持现有客户群的满意度。
 
-您需要设置几个组件之后，才能定义商店、商店内的 POS 收银机以及这些收银机用来处理交易的零售外围设备之间的关系。 您还需要定义 POS 的特定实例的特征，包括硬件配置文件或将在收银机上使用的零售外围设备的设置、收银机映射到的商店、用户登录到收银机的视觉体验以及收银机中启用的功能。 您还可以定义收银机是否可以在断开连接或离线状态下运行。
+此外，客户可以随意选择购买哪种产品、何时购买产品及以期望的价格购买产品。 为了维持客户忠诚度，您可以使用可简化购物流程的个性化通知和服务。
 
--   [定义和维护渠道客户端、收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)
--   [配置和安装 MPOS](retail-modern-pos-device-activation.md)
--   [脱机 POS 功能](pos-offline-functionality.md)
+## <a name="hardware-and-peripherals"></a>硬件和外围设备
+Retail Modern 销售点 (MPOS) 和 Cloud POS 可以使用各种硬件外设。 MPOS 和 Cloud POS 均提供多个界面和部署选项，帮助您应对各种业务场景。
 
-## <a name="set-up-a-customer-loyalty-program"></a>设置客户会员计划
-您可以设置一项让客户基于特定条件赚取积分的会员计划，并且积分可通过不同的方式计算。 您可以在所有零售渠道设置简单或复杂的应用于整个法人的会员计划。
--   [设置客户会员计划](set-up-customer-loyalty-program.md)
+Retail 的外围设备模拟器包括一个虚拟外围设备模拟器和一个 POS 模拟器。 虚拟外围设备模拟器主要支持对通常需要实际 POS 外围设备的方案进行测试。 使用 POS 模拟器，您可以通过 Retail 测试实际外围设备的兼容性，而不必部署 POS 客户端。
 
-## <a name="set-up-discounts-and-price-adjustments"></a>设置折扣和价格调整
-您可以对产品进行价格调整，并可以设置应用于 POS 上、呼叫中心销售订单中或在线订单中的一个行项或交易记录的折扣。 
--   [价格调整和折扣](price-adjustments-discounts.md)
--   [定义特定于渠道的折扣](define-channel-specific-discounts.md)
--   [确定叠加折扣的最佳组合](optimal-combination-overlapping-discounts.md)
+## <a name="intelligence"></a>智能
+高级分析方法可以利用机器学习功能来应对零售挑战，并提供经过优化的前瞻性和个性化见解，从而帮助实现业务增长、提高收益率。 使用 Retail，您可以在任何一台设备上生成可视化报表，无论设备处于联机还是脱机状态。 此外，您还可以帮助客户在采购前发现能够满足其需求的产品和服务。
 
-## <a name="set-up-retail-products"></a>设置零售产品
-您需要在 Dynamics 365 for Operations 中创建和配置产品，然后才能提供在您的零售渠道中销售的产品。 您可以创建产品，定义产品属性和特性并将产品分配到零售类别层次结构。 要使产品在零售渠道中可用并将其添加到有效的分类，您需要将产品发放给其适用的法人。
--   [设置零售产品](set-up-retail-products.md)
+## <a name="monitoring-and-diagnosis"></a>监控和诊断
+使用 Retail，您可以跨各个组织层次结构级别实时监控销售情况和利润率。
 
-## <a name="monitor-and-analyze-performance"></a>监控和分析性能
-利用 Dynamics 365 for Operations 数据，您可以分析商店业绩、客户和产品收益率、销售趋势等。
--   [评估客户和产品收益率](assess-customer-product-profitability.md)
--   [分析商店业绩](store-performance-information.md)
+## <a name="merchandising"></a>商品促销
+您必须在 Retail 中创建和配置产品，然后才能将产品投入零售渠道中销售。 您可以创建产品，定义产品属性和特性并将产品分配到零售类别层次结构。 要使产品进入零售渠道并将其添加到有效的分类，您必须将产品发放给合适的法人。
+
+您可以对产品进行价格调整，并可以设置应用于 POS 上、呼叫中心销售订单中或在线订单中的一个行项或交易记录的折扣。
+
+## <a name="store-operations-and-pos"></a>商店运营和 POS
+MPOS 是适用于 PC、平板电脑和手机的 POS 应用。 销售人员可在商店内的任何位置通过移动设备处理销售交易记录和客户订单，执行客户服务解决方案活动，并执行日常的运营和库存管理，也可以在基于 PC 的收银机上执行这些操作。 云 POS 是一种基于浏览器的 POS，它可以在任何标准浏览器上启动。
+
+您需要安装若干组件，才能定义商店、商店内的 POS 收银机以及这些收银机用来处理交易的零售外围设备之间的关系。 您还需要定义特定 POS 实例的特征。 这些特征包括硬件配置文件或将在收银机上使用的零售外围设备的设置、收银机映射到的商店、用户登录到收银机的视觉体验以及收银机中启用的功能。 您还可以定义收银机是否可以在断开连接或离线状态下运行。
+
+## <a name="workforce-management"></a>劳动力管理
+为了在毛利减少的环境下盈利，零售商经常会尝试降低运营成本。 对于多数零售商而言，零售人员成本是运营成本的重要部分。 因此，零售商可以通过控制此成本对最终盈利产生重要影响。 此外，获得授权的高效团队能够自主改进客户体验。
+
+使用 Retail，商店经理能够为商店工作人员创建和发布班次和时间表，对班次加以注释说明，并可以将时间表从上一周复制到当前周。 此外，经理可以查看零售工作人员提交的缺勤请求，并可以审核或拒绝这些请求。 经理还可以查看“班次交换”和“班次提议”请求，并且可以审核或拒绝这些请求。
+
+商店店员可以查看班次和分配的时间表，阅读班次说明，并查看分配到各班次的同事。 店员还可以提交缺勤请求、与同事交换班次的请求和班次提议请求。
 
 ## <a name="customize-and-administer-retail-environments"></a>自定义和管理零售环境
-如果您被要求自定义您的环境，或者您接受了部署和维护您的系统的任务，请查看特定于零售的开发人员和系统管理员内容，以及针对 Microsoft Dynamics 365 for Operations 的更常规的内容。 
--   [面向 IT 专业人员和开发人员的 Dynamics 365 for Operations - Retail](dev-itpro/dev-retail-home-page.md)
--   [面向开发人员和 IT 专业人员的 Microsoft Dynamics 365 for Operations](/dynamics365/operations/dev-itpro/dev-tools/developer-home-page)
+如果您需要自定义您的环境，或者您负责部署和维护系统，则除一些更常规的内容外，请务必查看特定于 Retail 的开发人员和系统管理员内容。
+
+- [面向 IT 专业人员和开发人员的 Dynamics 365 for Retail](dev-itpro/dev-retail-home-page.md)
+- [面向开发人员和 IT 专业人员的 Microsoft Dynamics 365 for Retail](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page)
 
 ## <a name="additional-resources"></a>其他资源
 ### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
-转到 <a href="https://roadmap.dynamics.com/">Dynamics 365 路线图</a>以了解已发布和正在开发的新功能。 
+转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。
 
 ### <a name="blogs"></a>博客
-您可以在 <a href="https://community.dynamics.com/b/msftdynamicsblog">Microsoft Dynamics 365 博客</a>上查找有关 Microsoft Dynamics 365 for Operations - Retail 的意见、新闻和其他信息以及其他解决方案。
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog)上查找有关 Retail 的意见、新闻和其他信息以及其他解决方案。
 
-<a href="https://blogs.msdn.microsoft.com/dax/">Microsoft Dynamics AX 产品团队博客</a>上有很多有关零售的主题。 其中一些文章是针对 Dynamics 365 for Operations 的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
+[Microsoft Dynamics AX 产品团队博客](https://blogs.msdn.microsoft.com/dax/)上有很多有关 Retail 的帖子。 虽然其中某些帖子是针对以前版本的 Retail 撰写的，但同一概念仍然适用， 而且相关程序也与当前版本类似。
 
-<a href="https://community.dynamics.com/partner/b/operationspartnercommunityblog">Microsoft Dynamics Operations 合作伙伴社区博客</a>可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
-
-
+[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
 

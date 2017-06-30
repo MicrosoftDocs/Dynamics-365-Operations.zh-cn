@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgRegistration, ProdJournalTransJob, ProdJournalTransRoute, ProdParmReportFinished
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19351
 ms.assetid: bcc9e242-b4b8-4144-b14d-c3c106fb40ec
 ms.search.region: Global
