@@ -3,23 +3,38 @@
 ## [开始](/dynamics365/unified-operations/fin-and-ops/get-started/onboarding-home?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [Microsoft FastTrack for Dynamics 365](/dynamics365/unified-operations/fin-and-ops/get-started/fasttrack-dynamics-365-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [注册订阅](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/retail/toc.json)
-### [如何获取 Dynamics AX 2012 的 on-premise 版本](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
+### [如何获取 Finance and Operations 的本地版本](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+### [通过云服务提供程序购买 Finance and Operations 的客户的信息](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [部署演示环境](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [新增功能或更改的功能](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [弃用的功能](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [尚未实现的 AX 2012 功能](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [未在 on-premise 部署中实现的功能](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Finance and Operations Enterprise Edition 2017 年 7 月更新](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-application-July-2017-update?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [平台更新 8（2017 年 6 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-8?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [平台更新 7（2017 年 5 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [平台更新 6（2017 年 4 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [平台更新 5（2017 年 3 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [平台更新 4（2017 年 2 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Operations 版本 1611（2016 年 11 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [平台更新 3（2016 年 11 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [平台更新 2（2016 年 8 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/retail/toc.json) 
+#### [Dynamics AX 7.0.1 版（2016 年 5 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [平台更新 1（2016 年 5 月）](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Dynamics AX 7.0 (2016 年 2 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+### [弃用的功能](/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features?toc=/dynamics365/unified-operations/retail/toc.json)
+### [尚未实现的 AX 2012 功能](/dynamics365/unified-operations/dev-itpro/get-started/ax-2012-features-not-implemented-but-not-deprecated?toc=/dynamics365/unified-operations/retail/toc.json)
+### [未在本地部署中实现的功能](/dynamics365/unified-operations/dev-itpro/get-started/features-not-implemented-on-prem?toc=/dynamics365/unified-operations/retail/toc.json)
+### [生命周期策略](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### 浏览用户界面
+#### [客户端 UI 常见问题](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [操作搜索](/dynamics365/unified-operations/fin-and-ops/get-started/action-search?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [高级筛选和查询语法](/dynamics365/unified-operations/fin-and-ops/get-started/advanced-filtering-query-options?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Dynamics 365 for Finance and Operations Enterprise Edition 客户端常见问题](/dynamics365/unified-operations/fin-and-ops/get-started/client-faq?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [配置和筛选工作区](/dynamics365/unified-operations/fin-and-ops/get-started/configure-filter-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [使用“在新窗口中打开”图标并排显示页面](/dynamics365/unified-operations/fin-and-ops/get-started/display-pages-side-by-side?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [导航搜索](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [打造个性化的用户体验](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [键盘快捷方式](/dynamics365/unified-operations/fin-and-ops/get-started/shortcut-keys?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [管理页面的显示方式](/dynamics365/unified-operations/fin-and-ops/get-started/window-management?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [导航搜索](/dynamics365/unified-operations/fin-and-ops/get-started/navigation-search?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [打造个性化的用户体验](/dynamics365/unified-operations/fin-and-ops/get-started/personalize-user-experience?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [使用查询来查找信息](/dynamics365/unified-operations/fin-and-ops//get-started/use-lookups-to-find-information?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [了解 Lifecycle Services](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### 获取帮助和支持
@@ -28,8 +43,12 @@
 #### [查看和导出字段描述](/dynamics365/unified-operations/fin-and-ops/get-started/view-export-field-descriptions?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 任务指南和任务录制器
 ##### [任务录制器](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [创建文档或培训](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [特定于国家/地区的帮助内容](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [创建文档或培训](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [2016 年 11 月任务指南](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [2016 年 8 月任务指南](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [2016 年 5 月任务指南](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [2016 年 2 月任务指南](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [本地化和监管功能](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [词汇表](/dynamics365/unified-operations/fin-and-ops/get-started/glossary?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## 符合性
@@ -38,52 +57,52 @@
 
 ## 成本管理
 ### Power BI 内容包
-#### [成本管理内容包](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+#### [成本管理内容包](/dynamics365/unified-operations/dev-itpro/analytics/cost-management-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 ### 预先确定的成本
-#### [成本计算单](/dynamics365/unified-operations/supply-chain/costing-sheets?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [成本计算版本](/dynamics365/unified-operations/supply-chain/costing-versions?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [通过将成本计算版本用于计划成本来模拟成本变化](/dynamics365/unified-operations/supply-chain/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [成本计算单](/dynamics365/unified-operations/supply-chain/cost-management/costing-sheets?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [成本计算版本](/dynamics365/unified-operations/supply-chain/cost-management/costing-versions?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [通过将成本计算版本用于计划成本来模拟成本变化](/dynamics365/unified-operations/supply-chain/cost-management/simulate-cost-changes-costing-version-planned-costs?toc=/dynamics365/unified-operations/retail/toc.json)
 ### 库存成本计算
-#### [调整现有库存量成本价值](/dynamics365/unified-operations/supply-chain/inventory/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [成本对象](/dynamics365/unified-operations/supply-chain/inventory/cost-object?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [成本条目](/dynamics365/unified-operations/supply-chain/inventory/cost-entries?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [成本组](/dynamics365/unified-operations/supply-chain/inventory/cost-groups?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [具有实际成本和标记的先进先出](/dynamics365/unified-operations/supply-chain/inventory/fifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [包括实际成本](/dynamics365/unified-operations/supply-chain/inventory/include-physical-value?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [库存对象价值](/dynamics365/unified-operations/supply-chain/inventory/physical-quantity?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [库存结转](/dynamics365/unified-operations/supply-chain/inventory/inventory-close?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [具有实际成本和标记的后进先出日期](/dynamics365/unified-operations/supply-chain/inventory/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [具有实际成本和标记的后进先出](/dynamics365/unified-operations/supply-chain/inventory/lifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [移动平均](/dynamics365/unified-operations/supply-chain/inventory/moving-average?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [实际和财务更新](/dynamics365/unified-operations/supply-chain/inventory/physical-financial-updates?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [移动平均成本价](/dynamics365/unified-operations/supply-chain/inventory/running-average-cost-price?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [按库存维度跟踪移动平均成本](/dynamics365/unified-operations/supply-chain/inventory/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [加权平均日期](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-date?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [具有实际成本和标记的加权平均](/dynamics365/unified-operations/supply-chain/inventory/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [调整现有库存量成本价值](/dynamics365/unified-operations/supply-chain/cost-management/adjust-hand-inventory-cost-values?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [成本对象](/dynamics365/unified-operations/supply-chain/cost-management/cost-object?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [成本条目](/dynamics365/unified-operations/supply-chain/cost-management/cost-entries?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [成本组](/dynamics365/unified-operations/supply-chain/cost-management/cost-groups?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [具有实际成本和标记的先进先出](/dynamics365/unified-operations/supply-chain/cost-management/fifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [包括实际成本](/dynamics365/unified-operations/supply-chain/cost-management/include-physical-value?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [库存对象价值](/dynamics365/unified-operations/supply-chain/cost-management/physical-quantity?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [库存结转](/dynamics365/unified-operations/supply-chain/cost-management/inventory-close?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [具有实际成本和标记的后进先出日期](/dynamics365/unified-operations/supply-chain/cost-management/lifo-date-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [具有实际成本和标记的后进先出](/dynamics365/unified-operations/supply-chain/cost-management/lifo-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [移动平均](/dynamics365/unified-operations/supply-chain/cost-management/moving-average?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [实际和财务更新](/dynamics365/unified-operations/supply-chain/cost-management/physical-financial-updates?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [移动平均成本价](/dynamics365/unified-operations/supply-chain/cost-management/running-average-cost-price?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [按库存维度跟踪移动平均成本](/dynamics365/unified-operations/supply-chain/cost-management/track-running-average-cost-per-inventory-dimension?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [加权平均日期](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-date?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [具有实际成本和标记的加权平均](/dynamics365/unified-operations/supply-chain/cost-management/weighted-average-physical-value-marking?toc=/dynamics365/unified-operations/retail/toc.json)
 ### 制造成本计算
-#### [为制造物料摊销固定成本](/dynamics365/unified-operations/supply-chain/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [倒冲成本计算法](/dynamics365/unified-operations/supply-chain/backflush-costing?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [物料清单计算](/dynamics365/unified-operations/supply-chain/bom-calculations?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [物料清单计算组](/dynamics365/unified-operations/supply-chain/bom-calculation-groups?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [生产差异的常见来源](/dynamics365/unified-operations/supply-chain/common-sources-of-production-variances?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [在生产工艺路线中使用的成本类别](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [用于项目控制和项目管理核算的成本类别](/dynamics365/unified-operations/supply-chain/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [显示制造物料的费用](/dynamics365/unified-operations/supply-chain/charges-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [生产订单成本分析](/dynamics365/unified-operations/supply-chain/production-order-cost-analysis?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [生产订单成本估计](/dynamics365/unified-operations/supply-chain/production-order-cost-estimation?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [生产过帐](/dynamics365/unified-operations/supply-chain/production-posting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [设置可以生产或采购的产品](/dynamics365/unified-operations/supply-chain/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [总成本分摊方法](/dynamics365/unified-operations/supply-chain/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [为制造物料摊销固定成本](/dynamics365/unified-operations/supply-chain/cost-management/amortize-constant-costs-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [倒冲成本计算法](/dynamics365/unified-operations/supply-chain/cost-management/backflush-costing?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [物料清单计算](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculations?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [物料清单计算组](/dynamics365/unified-operations/supply-chain/cost-management/bom-calculation-groups?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [生产差异的常见来源](/dynamics365/unified-operations/supply-chain/cost-management/common-sources-of-production-variances?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [在生产工艺路线中使用的成本类别](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-routings?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [用于项目控制和项目管理核算的成本类别](/dynamics365/unified-operations/supply-chain/cost-management/cost-categories-used-production-control-project-management-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [显示制造物料的费用](/dynamics365/unified-operations/supply-chain/cost-management/charges-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [生产订单成本分析](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-analysis?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [生产订单成本估计](/dynamics365/unified-operations/supply-chain/cost-management/production-order-cost-estimation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [生产过帐](/dynamics365/unified-operations/supply-chain/cost-management/production-posting?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [设置可以生产或采购的产品](/dynamics365/unified-operations/supply-chain/cost-management/manufactured-items-treated-as-purchased-items?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [总成本分摊方法](/dynamics365/unified-operations/supply-chain/cost-management/methodology-total-cost-allocation?toc=/dynamics365/unified-operations/retail/toc.json)
 ### 标准成本
-#### [具有标准成本的物料清单计算](/dynamics365/unified-operations/supply-chain/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [管理标准成本更新](/dynamics365/unified-operations/supply-chain/manage-standard-cost-updates?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [用于标准成本转换的先决条件](/dynamics365/unified-operations/supply-chain/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [标准成本转换概览](/dynamics365/unified-operations/supply-chain/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [更新制造环境中的标准成本](/dynamics365/unified-operations/supply-chain/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [为新的制造物料更新标准成本](/dynamics365/unified-operations/supply-chain/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [更新非制造环境中的标准成本](/dynamics365/unified-operations/supply-chain/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [具有标准成本的物料清单计算](/dynamics365/unified-operations/supply-chain/cost-management/information-used-bom-calculations-standard-costs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [管理标准成本更新](/dynamics365/unified-operations/supply-chain/cost-management/manage-standard-cost-updates?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [用于标准成本转换的先决条件](/dynamics365/unified-operations/supply-chain/cost-management/prerequisites-standard-cost-conversion?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [标准成本转换概览](/dynamics365/unified-operations/supply-chain/cost-management/standard-cost-conversion-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [更新制造环境中的标准成本](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [为新的制造物料更新标准成本](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-new-manufactured-item?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [更新非制造环境中的标准成本](/dynamics365/unified-operations/supply-chain/cost-management/update-standard-costs-non-manufacturing-environment?toc=/dynamics365/unified-operations/retail/toc.json)
 
-## [财务管理](/dynamics365/unified-operations/financials/TOC)
+## 财务管理
 
 ### [总帐](/dynamics365/unified-operations/financials/general-ledger/general-ledger?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 帐户
@@ -124,6 +143,10 @@
 ##### [销售税支付和舍入规则](/dynamics365/unified-operations/financials/general-ledger/round-sales-tax-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [“源”字段中的销售税计算方法](/dynamics365/unified-operations/financials/general-ledger/sales-tax-calculation-methods-origin-field?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [全部金额和销售税代码的间隔计算选项](/dynamics365/unified-operations/financials/general-ledger/whole-amount-interval-options-sales-tax-codes?toc=/dynamics365/unified-operations/retail/toc.json)
+#### 费用报销管理
+##### [计划费用报销管理](/dynamics365/unified-operations/financials/expense-management/plan-expense-management?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [费用报销管理参数](/dynamics365/unified-operations/financials/expense-management/Expense-Management-Parameters?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [费用报销管理移动工作区](/dynamics365/unified-operations/financials/expense-management/expense-management-mobile-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [应付帐款](/dynamics365/unified-operations/financials/accounts-payable/accounts-payable?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [供应商发票概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -140,14 +163,14 @@
 #### [应付帐款和应收帐款的外币重估](/dynamics365/unified-operations/financials/cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [移动发票审核](/dynamics365/unified-operations/financials/accounts-payable/mobile-invoice-approvals?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [供应商协作开票工作区](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [供应商发票自动化](/dynamics365/unified-operations/financials/vendor-invoice-automation?toc=/dynamics365/unified-operations/retail/toc.json) 
+#### [供应商发票自动化](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoice-automation?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### 付款和结算
 ##### [应付帐款的集中付款](/dynamics365/unified-operations/financials/accounts-payable/centralized-payments-accounts-payable?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [配置结算](/dynamics365/unified-operations/financials/cash-bank-management/configure-settlement?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [供应商付款工作区](/dynamics365/unified-operations/financials/vendor-payments-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [供应商付款工作区](/dynamics365/unified-operations/financials/accounts-payable/vendor-payments-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [使用付款方案创建供应商付款](/dynamics365/unified-operations/financials/accounts-payable/create-vendor-payments-payment-proposal?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [冲销供应商付款](/dynamics365/unified-operations/financials/accounts-payable/reverse-vendor-payment?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [供应商支票的电子申报](/dynamics365/unified-operations/financials/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [供应商支票的电子申报](/dynamics365/unified-operations/financials/accounts-payable/electronic-reporting-sample-vendor-checks?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [预付款发票和预付款概览](/dynamics365/unified-operations/financials/accounts-payable/prepayments-invoices-vs-prepayments?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [在折扣日期之前结算部分供应商付款](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [结算在供应商贷方通知单上已折扣的部分供应商付款](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-vendor-payment-discounts-vendor-credit-notes?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -166,6 +189,7 @@
 #### [会计分配和普通发票的子分类日记帐分录](/dynamics365/unified-operations/financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [客户过帐模板](/dynamics365/unified-operations/financials/accounts-receivable/customer-posting-profiles?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [SEPA 直接借记概览](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [SEPA 直接借记授权单](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-mandate?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [信用卡设置、授权和捕获](/dynamics365/unified-operations/financials/accounts-receivable/credit-card-authorizations?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [更正普通发票](/dynamics365/unified-operations/financials/accounts-receivable/correct-free-text-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [为利息代码设置多种利率](/dynamics365/unified-operations/financials/accounts-receivable/set-up-interest-rates-interest-code?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -177,7 +201,7 @@
 #### 付款和结算
 ##### [使用一次客户付款来结算跨多个折扣期间的多张发票](/dynamics365/unified-operations/financials/accounts-receivable/customer-payment-settle-multiple-invoices-multiple-discount-periods?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [应收帐款的集中付款](/dynamics365/unified-operations/financials/accounts-receivable/centralized-payments-accounts-receivable?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [在折扣之前结算部分客户付款或最终付款](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/retail/toc.json) 
+##### [在折扣之前结算部分客户付款或最终付款](/dynamics365/unified-operations/financials/accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount?toc=/dynamics365/unified-operations/retail/toc.json) 
 ##### [在折扣日期之前结算部分客户付款并在折扣日期之后完成最后付款](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-before-discount-or-final-payment-after?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [结算在贷方通知单上已折扣的部分客户付款](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-discounts-credit-notes?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [结算具有多个折扣期间的部分客户付款](/dynamics365/unified-operations/financials/accounts-receivable/settle-partial-customer-payment-multiple-discount-periods?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -185,9 +209,10 @@
 ##### [部分金额的客户付款](/dynamics365/unified-operations/financials/accounts-receivable/customer-payments-partial-amount?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [现金和银行管理](/dynamics365/unified-operations/financials/cash-bank-management/cash-bank-management?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [现金流预测](/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [银行管理工作区](/dynamics365/unified-operations/financials/cash-bank-management/bank-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [现金折扣](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [现金流量预测](/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [银行管理工作区](/dynamics365/unified-operations/financials/cash-bank-management/Bank-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [现金折扣](/dynamics365/unified-operations/financials/cash-bank-management/cash-discounts?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [超额支付的现金折扣](/dynamics365/unified-operations/financials/cash-bank-management/cash-discount-handling-overpayments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [结算概览](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [集中付款的结算概览](/dynamics365/unified-operations/financials/cash-bank-management/settlement-overview-centralized-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [信用证](/dynamics365/unified-operations/financials/cash-bank-management/letters-of-credit?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -210,7 +235,7 @@
 ##### [更新银行日记帐组合实体](/dynamics365/unified-operations/financials/cash-bank-management/upgrade-bank-journal-composite-entity?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [固定资产](/dynamics365/unified-operations/financials/fixed-assets/fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [固定资产工作区](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [固定资产工作区](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [折旧帐簿升级概览](/dynamics365/unified-operations/financials/fixed-assets/depreciation-book-upgrade-considerations?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [派生帐簿](/dynamics365/unified-operations/financials/fixed-assets/derived-books?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [固定资产价值模型和折旧帐簿合并](/dynamics365/unified-operations/financials/fixed-assets/fixed-asset-value-model-depreciation-book-merge?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -256,15 +281,15 @@
 #### [预算计划与其他模块的集成](/dynamics365/unified-operations/financials/budgeting/budget-planning-integration-other-modules?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [申报](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [资产负债表财务报表](/dynamics365/unified-operations/financials/general-ledger/balance-sheet-financial-reports?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [生成财务报表](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [生成财务报表](/dynamics365/unified-operations/dev-itpro/analytics/generate-financial-report?toc=/dynamics365/unified-operations/financials/toc.json)
 #### [收入报表财务报告](/dynamics365/unified-operations/financials/general-ledger/income-statement-financial-report?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [试算平衡表财务报表](/dynamics365/unified-operations/financials/general-ledger/trial-balance-financial-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [查看财务报表](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [报表设计器](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [报表设计器](/dynamics365/unified-operations/dev-itpro/analytics/report-designer-interface?toc=/dynamics365/unified-operations/financials/toc.json)
 
 ### [成本核算](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [条款](/dynamics365/unified-operations/financials/cost-accounting/terms-cost-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [动手实验室(/dynamics365/unified-operations/financials/白皮书)](/dynamics365/unified-operations/financials/https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
+#### [动手实验室（白皮书）](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)
 #### [成本元素维度](/dynamics365/unified-operations/financials/cost-accounting/cost-elements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [成本对象维度](/dynamics365/unified-operations/financials/cost-accounting/cost-objects?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [将成本元素维度成员映射到一组常用维度成员](/dynamics365/unified-operations/financials/cost-accounting/map-cost-elements-dimension-members?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -276,8 +301,8 @@
 #### [成本对象控制器的访问权限](/dynamics365/unified-operations/financials/cost-accounting/access-rights-cost-object-controller?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [成本控制工作区](/dynamics365/unified-operations/financials/cost-accounting/cost-control-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [成本控制移动工作区](/dynamics365/unified-operations/financials/cost-accounting/cost-controlling-mobile-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [成本核算分析 Power BI 内容](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
-#### [设置成本核算分析 Power BI 内容的安全性](/dynamics365/unified-operations/financials//dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [成本核算分析 Power BI 内容](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
+#### [设置成本核算分析 Power BI 内容的安全性](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack?toc=/dynamics365/unified-operations/financials/toc.json)
 
 ### [公共部门](/dynamics365/unified-operations/financials/public-sector/public-sector-functionality?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [计划公共部门功能](/dynamics365/unified-operations/financials/public-sector/plan-public-sector-functionality?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -316,7 +341,7 @@
 ### [修改行定义单元格](/dynamics365/unified-operations/dev-itpro/analytics/modify-row-definition-cells-financial-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [还原数据库后重置财务申报数据市场](/dynamics365/unified-operations/dev-itpro/analytics/reset-financial-reporting-datamart-after-restore?toc=/dynamics365/unified-operations/retail/toc.json)
 
-### [本地化概览](/dynamics365/unified-operations/financials/localizations//dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/financials/localizations/toc.json)
+## [本地化和监管功能](/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region?toc=/dynamics365/unified-operations/retail/toc.json)
 ### 亚太
 #### 澳大利亚
 ##### [银行文件格式](/dynamics365/unified-operations/financials/localizations/apac-aus-method-of-payment-pay-vendors-banks?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -327,25 +352,25 @@
 ##### [物料清单比较](/dynamics365/unified-operations/financials/localizations/apac-chn-bom-comparison?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [中国式凭证](/dynamics365/unified-operations/financials/localizations/apac-chn-vouchers?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [配置税务集成](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [增值税客户发票常见问题](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [增值税客户发票常见问题](/dynamics365/unified-operations/financials/localizations/apac-chn-tax-integration-vat-customer-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [固定资产折旧方法](/dynamics365/unified-operations/financials/localizations/apac-chn-depreciation-methods-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [导入中国金税数据实体](/dynamics365/unified-operations/financials/localizations/apac-chn-import-golden-tax-data-entity?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [每月平均成本模型](/dynamics365/unified-operations/financials/localizations/apac-chn-monthly-average-cost-model?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [按站点过帐库存主科目](/dynamics365/unified-operations/financials/localizations/apac-chn-post-inventory-main-accounts-by-site?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [设置负借记和贷记](/dynamics365/unified-operations/financials/localizations/apac-chn-negative-debits-credits?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 日本
+##### [分配规则](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [供应商涵盖的银行付款费用](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [合并的发票](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
-##### 固定资产
-###### [分配规则](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [折旧常见问题](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [均匀划分的折旧方法](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [会计减损](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [CGU 上的会计减损](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [设置 ARO](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [设置缩减条目](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [折旧常见问题](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [均匀划分的折旧方法](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [会计减损](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [CGU 上的会计减损](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [导入邮政编码](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes?toc=/dynamics365/unified-operations/retail/toc.json) 
 ##### [通过背书汇票向供应商付款](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [累进预缴税金计算](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [设置 ARO](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [设置缩减条目](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 马来西亚
 ##### [商品劳务税](/dynamics365/unified-operations/financials/localizations/apac-mys-gst?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 新加坡
@@ -357,13 +382,20 @@
 
 ### 欧洲
 #### [预付款持有人](/dynamics365/unified-operations/financials/localizations/emea-advance-holders?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [预付款持有人交易记录](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [预付款开票](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [银行对帐](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [可更正开票](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [创建并过帐期间日记帐](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [编辑销售订单上的发票 ID](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [欧盟入境证](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [欧盟销售清单报表](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [汇率调整](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [付款方式的文件格式](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [爱沙尼亚和立陶宛的固定资产处置](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [导入 ISO20022 文件](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [内部统计](/dynamics365/unified-operations/financials/localizations/emea-intrastat?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [库存日记帐报表](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [立陶宛和拉脱维亚的发票和装箱单编号](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [发票签发截止时间](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [OIOUBL 标准](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -372,14 +404,22 @@
 #### [过帐购置前的固定资产](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [邮政编码](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [登记 ID](/dynamics365/unified-operations/financials/localizations/emea-registration-ids?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [冲销费用](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [SEPA 贷方转帐概览](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [SEPA 直接借记概览](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [设置客户和供应商薪酬](/dynamics365/unified-operations/financials/accounts-receivable/emea-compensation-customer-vendor-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [设置打印表格的签名人](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Storno 核算](/dynamics365/unified-operations/financials/localizations/emea-storno?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [税务指令](/dynamics365/unified-operations/financials/localizations/emea-tax-directives?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [更新金额在报表和单据上显示的方式](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### [增值税汇率](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [东欧增值税登记簿交易记录](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [增值税申报](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [查看有关结算的交易记录](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 奥地利
 ##### [半年折旧](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [包装材料费用](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [进项税](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [增值税报表](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 比利时
 ##### [CODA 银行对帐单](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -388,7 +428,7 @@
 ##### [对帐报表](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 
 #### 捷克共和国
-##### [贷方通知单上的现金折扣](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [有关现金折扣的贷方通知单](/dynamics365/unified-operations/financials/localizations/emea-cze-credit-note-cash-discount?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [折旧舍入](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-rounding?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [折旧挂起](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [固定资产折旧](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -402,6 +442,7 @@
 ###### [公共部门会计](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [承诺](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Mandats de paiement](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [采购](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [供应商发票付款暂停](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [按时间顺序排序的发票凭证](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -427,7 +468,7 @@
 ##### [发票上的装箱单日期验证](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [销售税帐簿](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [拆分签发给公共行政部门的发票的付款](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [预缴税金](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [预缴税金](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 拉脱维亚
 ##### [固定资产科目](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-accounting?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [固定资产位置更改跟踪](/dynamics365/unified-operations/financials/localizations/emea-lva-fixed-assets-location-fields-change?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -438,6 +479,7 @@
 ##### [增值税报表明细](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 挪威
 ##### [净导入格式](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [增值税报表](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### 波兰
 ##### [根据单位价格计算行折扣](/dynamics365/unified-operations/financials/localizations/emea-pol-line-discount-calculation-from-unit-price?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [更正说明](/dynamics365/unified-operations/financials/localizations/emea-pol-correction-notes?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -473,7 +515,8 @@
 ###### [ICMS 缴税会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-icms-tax-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [导入会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [从总帐合并中导出和导入法人交易](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [导入和验证 NF-e XML 文档和 DANFE 文件](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [导入并验证 NF-e XML 文档和 DANFE 文件](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [设置 NF-e 和 DANFE 文件](/dynamics365/unified-operations/financials/localizations/Set-up-import-nf-e-documents?toc=/dynamics365/unified-operations/retail/toc.json) 
 ###### [处理电子付款汇款](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [会计单据文本占位符](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -481,7 +524,7 @@
 ###### [引用的会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [销售购补充会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [服务电子会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [在电子付款退回过程中生成日记帐](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在电子付款退回过程中生成日记帐](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [NF-e 流程](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [法人的参数](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [获取 CIAP 固定资产](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -495,11 +538,13 @@
 ##### [电子发票](/dynamics365/unified-operations/financials/localizations/latam-mex-CFDI-electronic-invoices?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [电子分类科目报表](/dynamics365/unified-operations/financials/localizations/latam-mex-electronic-ledger-accounting-statements?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [ISR 申报报表](/dynamics365/unified-operations/financials/localizations/latam-mex-isr-declaration-report-supporting-processes?toc=/dynamics365/unified-operations/retail/toc.json)
-
+### 中东
+#### [沙特阿拉伯 Zakat 申报](/dynamics365/unified-operations/financials/localizations/emea-sau-zakat-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
 ### 北美
-#### [美国的年终 1099 申报](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
-## 人力资源
+#### [美国年终 1099 申报](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [公共部门 1099 表格](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector?toc=/dynamics365/unified-operations/retail/toc.json)
 
+## 人力资源
 ### 招聘
 #### [管理招聘流程](/dynamics365/unified-operations/fin-and-ops/hr/manage-recruiting-process?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [大批雇用项目](/dynamics365/unified-operations/fin-and-ops/hr/mass-hire-projects?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -538,6 +583,7 @@
 ### [访问 Power BI 内容](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-content-microsoft-partners?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [已发布的 Power BI 内容](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [实际与预算](/dynamics365/unified-operations/dev-itpro/analytics/ledger-budgets-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [福利](/dynamics365/unified-operations/dev-itpro/analytics/benefits-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [现金概览](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 #### [CFO 概览](/dynamics365/unified-operations/dev-itpro/analytics/CFO-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -550,7 +596,7 @@
 #### [员工能力和发展](/dynamics365/unified-operations/dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [员工发展](/dynamics365/unified-operations/dev-itpro/analytics/employee-development-PBI?toc=/dynamics365/unified-operations/retail/toc.json) 
 #### [财务绩效](/dynamics365/unified-operations/dev-itpro/analytics/financial-performance-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [固定资产管理](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
+#### [固定资产管理](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [学习](/dynamics365/unified-operations/dev-itpro/analytics/learning-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [组织培训](/dynamics365/unified-operations/dev-itpro/analytics/organizational-training-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [实践经理](/dynamics365/unified-operations/dev-itpro/analytics/practice-manager-power-bi?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -559,7 +605,7 @@
 #### [招聘](/dynamics365/unified-operations/dev-itpro/analytics/recruiting-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [零售渠道绩效 ](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [销售和收益率绩效](/dynamics365/unified-operations/dev-itpro/analytics/sales-profitability-performance-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [供应商付款](/dynamics365/unified-operations/dev-itpro/analytics//dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
+#### [供应商付款](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [仓库绩效](/dynamics365/unified-operations/dev-itpro/analytics/warehouse-power-bi-content?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [劳动力指标](/dynamics365/unified-operations/dev-itpro/analytics/workforce-analysis-power-bi-content-pack?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -567,6 +613,7 @@
 #### [文档报告服务概览](/dynamics365/unified-operations/dev-itpro/analytics/document-reporting-services?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [打印](/dynamics365/unified-operations/dev-itpro/analytics/print-documents?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [启用网络打印机设备](/dynamics365/unified-operations/dev-itpro/analytics/install-document-routing-agent?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [本地部署中的文档生成、发布和打印功能](/dynamics365/unified-operations/dev-itpro/analytics/printing-capabilities-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [将文档路线选择代理作为 Windows 服务运行](/dynamics365/unified-operations/dev-itpro/analytics/run-document-routing-agent-as-windows-service?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [帮助防止长时间运行的报表超时](/dynamics365/unified-operations/dev-itpro/analytics/prevent-long-running-reports-timing-out?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [SQL Server Reporting Services 报表的列表](/dynamics365/unified-operations/dev-itpro/analytics/SSRS-report?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -593,6 +640,7 @@
 ### 分析工具和可视化效果
 #### [分析、聚合度量和 KPI 建模](/dynamics365/unified-operations/dev-itpro/analytics/analytics?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [建模和聚合数据](/dynamics365/unified-operations/dev-itpro/analytics/model-aggregate-data?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [向聚合度量添加财务维度](/dynamics365/unified-operations/dev-itpro/analytics/add-financial-dimensions-aggregate-measurements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [将上下文 BI 添加到窗体](/dynamics365/unified-operations/dev-itpro/analytics/add-contextual-bi-forms?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [聚合度量报表](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-measurements-report?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [聚合数据实体报表](/dynamics365/unified-operations/dev-itpro/analytics/aggregate-data-entities-report?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -600,10 +648,13 @@
 #### [Power BI 集成](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Power BI Embedded 集成](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-embedded-integration?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [工作区中的嵌入 Power BI](/dynamics365/unified-operations/dev-itpro/analytics/embed-power-bi-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [使用 Power BI Embedded 将分析添加到工作区](/dynamics365/unified-operations/dev-itpro/analytics/secure-analytical-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [使用 Power BI Embedded 帮助保护分析工作区和报表](/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [将 Power BI 添加到工作区](/dynamics365/unified-operations/dev-itpro/analytics/add-bi-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [将 Power BI 报表固定到工作区](/dynamics365/unified-operations/dev-itpro/analytics/pin-power-bi-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Power BI 与实体商店的集成](/dynamics365/unified-operations/dev-itpro/analytics/power-bi-integration-entity-store?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [使用实体商店创作和分发 Power BI 报表](/dynamics365/unified-operations/dev-itpro/analytics/author-distribute-power-bi-reports?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [将实体导出到您自己的 Azure SQL 数据库](/dynamics365/unified-operations/dev-itpro/analytics/export-entities-to-your-own-database?toc=/dynamics365/unified-operations/retail/toc.json)
 
 
 ## 库存管理
@@ -657,6 +708,7 @@
 ##### [对未结工作列表的系统分组](/dynamics365/unified-operations/supply-chain/warehousing/system-group-on-open-work-list?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 领料和打包
 ##### [在移动设备上领取最早的批次](/dynamics365/unified-operations/supply-chain/warehousing/pick-oldest-batch?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [在移动设备上配置“显示仓库内的更早批次”](/dynamics365/unified-operations/supply-chain/warehousing/display-older-batches-within-warehouses?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [单件领料确认](/dynamics365/unified-operations/supply-chain/warehousing/piece-picking-confirmation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [包装材料和费用](/dynamics365/unified-operations/supply-chain/warehousing/pack-materials-packing-material-fees?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 库存盘点
@@ -677,6 +729,8 @@
 ##### [为仓库工作设置移动设备](/dynamics365/unified-operations/supply-chain/warehousing/configure-mobile-devices-warehouse?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [仓库移动设备门户 (WMDP)](/dynamics365/unified-operations/supply-chain/warehousing/warehouse-mobile-devices-portal?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [仓库移动设备显示设置](/dynamics365/unified-operations/supply-chain/warehousing/change-warehouse-mobile-device-displays?toc=/dynamics365/unified-operations/retail/toc.json)
+#### 升级和迁移
+##### [从 AX 2012 迁移至 Finance and Operations](/dynamics365/unified-operations/supply-chain/warehousing/upgrade-migration-warehouse-management-processes?toc=/dynamics365/unified-operations/retail/toc.json)
 
 
 ## 主计划
@@ -719,12 +773,13 @@
 ##### [采购订单概览](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [创建采购订单](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-creation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [审核和确认采购订单](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-approval-confirmation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [采购订单审核移动工作区](/dynamics365/unified-operations/supply-chain/procurement/purchase-order-mobile-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 价格和折扣
 ##### [采购协议](/dynamics365/unified-operations/supply-chain/procurement/purchase-agreements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 物料收货和开票
-##### [针对采购订单的产品收货](/dynamics365/unified-operations/supply-chain/procurement/product-receipt-against-purchase-orders?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
-##### [供应商过帐模板](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+##### [针对采购订单的物料收货](/dynamics365/unified-operations/supply-chain/procurement/product-receipt-against-purchase-orders?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [供应商过帐模板](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 供应商管理和协作
 ##### [设置和维护供应商协作](/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [管理供应商协作用户](/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-users?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -762,6 +817,7 @@
 ### [电子签名概览](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [案例管理概览](/dynamics365/unified-operations/fin-and-ops/organization-administration/cases?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [配置案例安全、流程和类别](/dynamics365/unified-operations/fin-and-ops/organization-administration/plan-case-management?toc=/dynamics365/unified-operations/retail/toc.json)
+### [配置文档管理](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-document-management?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [创建记录模板](/dynamics365/unified-operations/fin-and-ops/organization-administration/record-templates?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [配置和发送电子邮件](/dynamics365/unified-operations/fin-and-ops/organization-administration/configure-email?toc=/dynamics365/unified-operations/retail/toc.json)
 ### [日期/时间数据和时区](/dynamics365/unified-operations/fin-and-ops/organization-administration/date-time-zones?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -822,6 +878,9 @@
 #### 管理原材料
 ##### [从生产订单到出货台的越库配送](/dynamics365/unified-operations/supply-chain/production-control/cross-docking-opportunities?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [使用移动设备登记物料消耗量](/dynamics365/unified-operations/supply-chain/production-control/register-material-consumption-hand-held-device?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [采用耗用原则控制原材料消耗量](/dynamics365/unified-operations/supply-chain/production-control/flushing-principles?toc=/dynamics365/unified-operations/retail/toc.json) 
+#### 管理成品
+##### [设置成品的生产输出位置](/dynamics365/unified-operations/supply-chain/production-control/production-output-location?toc=/dynamics365/unified-operations/retail/toc.json)
 ### 精益生产 
 #### [精益生产概览](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [基于活动的转包](/dynamics365/unified-operations/supply-chain/production-control/activity-based-subcontracting?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -912,35 +971,17 @@
 
 ## [使用统一运营平台开发和管理](/dynamics365/unified-operations/dev-itpro/index)
 
-### [开发和管理概览](/dynamics365/unified-operations/dev-itpro/get-started/getting-started-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [系统要求](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [演示数据概览](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/retail/toc.json)
-#### 帮助系统
-##### [帮助系统概览](/dynamics365/unified-operations/dev-itpro/get-started/help-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [连接帮助系统](/dynamics365/unified-operations/dev-itpro/get-started/help-connect?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [新增功能或更改的功能](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations 平台更新 7 (2017 年 5 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-7?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations 平台更新 6 (2017 年 4 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-6?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations 平台更新 5 (2017 年 3 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-5?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations 平台更新 4 (2017 年 2 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-4?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations 版本 1611 (2016 年 11 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-dynamics-365-operations-1611?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Operations 平台更新 3 (2016 年 11 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-3?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Dynamics AX 平台更新 2 (2016 年 8 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-platform-update-2?toc=/dynamics365/unified-operations/retail/toc.json) 
-##### [Dynamics AX 应用程序 7.0.1 版(2016 年 5 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-application-version-7-0-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Dynamics AX 平台更新 1 (2016 年 5 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-platform-version-7-1-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [Dynamics AX 7.0 (2016 年 2 月)](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed-7-0-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-##### 更新的任务指南
-###### [2016 年 11 月任务指南](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-november-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [2016 年 8 月任务指南](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-august-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [2016 年 5 月任务指南](/dynamics365/unified-operations/dev-itpro/get-started/new-updated-task-guides-available-may-2016?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [2016 年 2 月任务指南](/dynamics365/unified-operations/dev-itpro/get-started/new-task-guides-available-february-2016?toc=/dynamics365/unified-operations/retail/toc.json)
+### [系统要求](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
+### [演示数据](/dynamics365/unified-operations/dev-itpro/get-started/demo-data?toc=/dynamics365/unified-operations/retail/toc.json)
+### [数据验证](/dynamics365/unified-operations/dev-itpro/user-interface/data-validation-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
 
 
-### [使用 Visual Studio 开发和自定义](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
+
+### [使用 Visual Studio 进行开发和自定义](/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [应用程序堆栈和服务器体系结构](/dynamics365/unified-operations/dev-itpro/dev-tools/application-stack-server-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [获取评估副本](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [注册订阅](/dynamics365/unified-operations/dev-itpro/dev-tools/sign-up-preview-subscription?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [访问 Dynamics 365 for Finance and Operations Enterprise Edition 实例](/dynamics365/unified-operations/dev-itpro/dev-tools/dev-tools/access-instances?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [访问实例](/dynamics365/unified-operations/dev-itpro/dev-tools/access-instances?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [开发系统要求](/dynamics365/unified-operations/dev-itpro/dev-tools/development-system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 车队管理示例应用程序
 ##### [车队管理示例应用程序](/dynamics365/unified-operations/dev-itpro/dev-tools/fleet-management-sample?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -955,7 +996,6 @@
 ##### [创建模型和数据模型元素](/dynamics365/unified-operations/dev-itpro/dev-tools/create-data-model-elements?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [在开发计算机上创建新用户](/dynamics365/unified-operations/dev-itpro/dev-tools/enable-development-machine?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [定制分析报表](/dynamics365/unified-operations/dev-itpro/dev-tools/customization-analysis-report?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [开发工具](/dynamics365/unified-operations/dev-itpro/dev-tools/development-tools?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [元素设计器](/dynamics365/unified-operations/dev-itpro/dev-tools/element-designers?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [元素使用](/dynamics365/unified-operations/dev-itpro/dev-tools/element-usage?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [导出和导入模型](/dynamics365/unified-operations/dev-itpro/dev-tools/models-export-import?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -970,9 +1010,9 @@
 ##### [针对生产数据库的副本调试 X++](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-x-issue-against-copy-of-production?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [调试 X++ 代码](/dynamics365/unified-operations/dev-itpro/dev-tools/debug-xpp?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [请求或响应方案中的 EventHandlerResult 类](/dynamics365/unified-operations/dev-itpro/dev-tools/event-handler-result-class?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [使用 C#### 和 X++ 源代码编写业务逻辑](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [使用 C\# 和 X++ 源代码编写业务逻辑](/dynamics365/unified-operations/dev-itpro/dev-tools/write-business-logic?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [编程语言支持](/dynamics365/unified-operations/dev-itpro/dev-tools/programming-language-support?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [C# 的 LINQ 提供程序](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [C\# 的 LINQ 提供程序](/dynamics365/unified-operations/dev-itpro/dev-tools/linq-provider-c?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [创作最佳实践](/dynamics365/unified-operations/dev-itpro/dev-tools/author-best-practice-rules?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [应用程序资源管理器属性](/dynamics365/unified-operations/dev-itpro/dev-ref/application-explorer-aot-properties?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### X++ 语言参考
@@ -985,7 +1025,7 @@
 ###### [X++ 数据选择和操作](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-data-query?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [X++ 宏](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-macros?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [X++ 属性类](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-attribute-classes?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [X++ 和 C#### 比较](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [X++ 和 C\# 比较](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-cs-comparison?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [X++ 语法](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-syntax?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 编译时函数
 ##### [X++ 编译时函数](/dynamics365/unified-operations/dev-itpro/dev-ref/xpp-compile-time-functions?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1039,7 +1079,7 @@
 ##### [W 类](/dynamics365/unified-operations/dev-itpro/dev-ref/w-classes?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [X 类](/dynamics365/unified-operations/dev-itpro/dev-ref/x-classes?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 通过扩展和覆盖进行自定义
-##### 可扩展性
+##### [可扩展性](/dynamics365/unified-operations/dev-itpro/extensibility/extensibility-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [使用扩展自定义模型元素](/dynamics365/unified-operations/dev-itpro/extensibility/customize-model-elements-extensions?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [通过扩展和覆盖进行自定义](/dynamics365/unified-operations/dev-itpro/extensibility/customization-overlayering-extensions?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [类扩展](/dynamics365/unified-operations/dev-itpro/extensibility/class-extensions?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1048,8 +1088,11 @@
 ##### 数据库同步
 #### 在环境之间移动包装
 ##### 创建和应用可部署包装
-##### [连续交货](/dynamics365/unified-operations/dev-itpro/continuous-delivery-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
-
+#### [连续交货主页](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [开发和连续交货常见问题](/dynamics365/unified-operations/dev-itpro/dev-tools/continuous-delivery-faq?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [从生成输出中排除测试包](/dynamics365/unified-operations/dev-itpro/dev-tools/exclude-test-packages?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [使用源代码管理来管理第三方模型和运行时包](/dynamics365/unified-operations/dev-itpro/dev-tools/manage-runtime-packages?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [自动生成中的版本模型](/dynamics365/unified-operations/dev-itpro/dev-tools/version-models-build?toc=/dynamics365/unified-operations/retail/toc.json)
 
 #### 性能主页
 ##### [使用跟踪分析器跟踪](/dynamics365/unified-operations/dev-itpro/perf-test/trace-trace-tutorial?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1086,8 +1129,8 @@
 ##### [筛选器](/dynamics365/unified-operations/dev-itpro/user-interface/filtering?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [PowerApps 主机控制](/dynamics365/unified-operations/dev-itpro/user-interface/powerapps-host-control?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 窗口管理
-##### [迁移上下文菜单代码](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [迁移鼠标双击代码](/dynamics365/unified-operations/dev-itpro/user-interface/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [迁移上下文菜单代码](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-context-menus?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [迁移鼠标双击代码](/dynamics365/unified-operations/dev-itpro/migration-upgrade/code-migration-double-click?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [查找的上下文数据条目](/dynamics365/unified-operations/dev-itpro/user-interface/contextual-data-entry-lookups?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [HierarchyViewer 控件](/dynamics365/unified-operations/dev-itpro/user-interface/hierarchy-viewer-control?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [查找控件](/dynamics365/unified-operations/dev-itpro/user-interface/lookups-controls?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1128,8 +1171,8 @@
 ##### [速见表窗体模式](/dynamics365/unified-operations/dev-itpro/user-interface/factbox-form-patterns?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 子模式
 ##### [自定义筛选器组子模式](/dynamics365/unified-operations/dev-itpro/user-interface/custom-filter-group-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [维度条目控件子模式](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [维度表达式生成器子模式](/dynamics365/unified-operations/dev-itpro/user-interface/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [维度条目控件子模式](/dynamics365/unified-operations/dev-itpro/financial/dimension-entry-control-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [维度表达式生成器子模式](/dynamics365/unified-operations/dev-itpro/financial/dimension-expression-builder-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [字段和字段组子模式](/dynamics365/unified-operations/dev-itpro/user-interface/fields-field-groups-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [筛选器和工具栏子模式](/dynamics365/unified-operations/dev-itpro/user-interface/filters-toolbar-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [填充文本子模式](/dynamics365/unified-operations/dev-itpro/user-interface/fill-text-subpattern?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1158,9 +1201,9 @@
 #### 构建工作区
 ##### [构建运营工作区](/dynamics365/unified-operations/dev-itpro/user-interface/build-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [工作区的磁贴和列表缓存](/dynamics365/unified-operations/dev-itpro/user-interface/tile-list-caching-workspaces?toc=/dynamics365/unified-operations/retail/toc.json)
-#### 任务录制器
-##### [Dynamics 365 for Finance and Operations Enterprise Edition 中的任务录制器](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [任务录制器](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [任务录制器快速参考](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-quick-reference?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [使用任务录制器创建文档或培训](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder-training-docs?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### 使用 Lifecycle Services 发布解决方案
 #### [开发和发布](/dynamics365/unified-operations/dev-itpro/lcs-solutions/lcs-solutions-app-source)
@@ -1181,7 +1224,7 @@
 ##### [提交监管预警](/dynamics365/unified-operations/dev-itpro/lcs-solutions/submit-localization-alerts)
 
 
-### [数据实体](/dynamics365/unified-operations/dev-itpro/data-entities?toc=/dynamics365/unified-operations/retail/toc.json)
+### [数据实体](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 默认数据实体
 ##### [数据实体报表](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-report?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [数据实体：应付帐款和税](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-accounts-payable-taxes?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1211,7 +1254,9 @@
 
 #### 迁移实体
 ##### [配置数据项目](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-projects?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [配置数据包](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-packages?toc=/dynamics365/unified-operations/retail/toc.json)
 ###### [配置数据模板](/dynamics365/unified-operations/dev-itpro/data-entities/configuration-data-templates?toc=/dynamics365/unified-operations/retail/toc.json)
+
 ###### [在公司间复制配置数据](/dynamics365/unified-operations/dev-itpro/data-entities/copy-configuration?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [使用总帐实体导入凭证的最佳实践](/dynamics365/unified-operations/dev-itpro/data-entities/tips-tricks-import-general-journal-entity?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1248,7 +1293,7 @@
 ### Office 集成
 #### [Office 集成](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Office 集成教程](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-tutorial?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [使用 Excel 加载项](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [使用 Excel 加载项](/dynamics365/unified-operations/dev-itpro/office-integration/use-excel-add-in?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [创建“在 Excel 中打开”体验](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-edit-excel?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [将模板添加到“在 Excel 中打开行”菜单](/dynamics365/unified-operations/dev-itpro/user-interface/add-templates-open-lines-excel-menu?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [自定义“在 Microsoft Office 中打开”菜单](/dynamics365/unified-operations/dev-itpro/office-integration/customize-open-office-menu?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1278,19 +1323,30 @@
 #### [甘特图开发指南](/dynamics365/unified-operations/dev-itpro/user-interface/gantt-development-guide?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [创建新的运输管理引擎](/dynamics365/unified-operations/supply-chain/transportation/create-new-transportation-management-engine?toc=/dynamics365/unified-operations/retail/toc.json)
 
-### [零售开发库](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### 部署
-#### [部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 演示环境](/dynamics365/unified-operations/dev-itpro/deploy-demo-environment?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Azure Resource Manager 使用培训](/dynamics365/unified-operations/dev-itpro/arm-onboarding?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations Enterprise Edition](/dynamics365/unified-operations/dev-itpro/expressroute?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 演示环境](/dynamics365/unified-operations/dev-itpro/deployment/deploy-demo-environment?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Azure Resource Manager 使用培训](/dynamics365/unified-operations/dev-itpro/deployment/arm-onboarding?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations Enterprise Edition](/dynamics365/unified-operations/dev-itpro/deployment/expressroute?toc=/dynamics365/unified-operations/retail/toc.json)
+
+#### [部署本地 Microsoft Dynamics 365 for Finance and Operations](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-deployment-landing-page)
+##### [Dynamics 365 for Finance and Operations Enterprise Edition（本地）概览](/dynamics365/unified-operations/dev-itpro/deployment/on-premises-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [系统要求](/dynamics365/unified-operations/dev-itpro/get-started/system-requirements?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [针对本地环境的硬件规模调整](/dynamics365/unified-operations/dev-itpro/get-started/hardware-sizing-on-premises-environments?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [联机服务和本地软件生命周期策略](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [购买 Dynamics 365 for Finance and Operations Enterprise Edition（本地）](/dynamics365/unified-operations/dev-itpro/https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [在 Lifecycle Services 中创建本地项目](/dynamics365/unified-operations/dev-itpro/deployment/lifecycle-services/lbd-create-lcs-on-prem-project?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [设置并部署本地环境](/dynamics365/unified-operations/dev-itpro/deployment/setup-deploy-on-premises-environments?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [为本地部署配置 SQL Server Reporting Services](/dynamics365/unified-operations/dev-itpro/analytics/configure-ssrs-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [开发自定义模型并将其部署到本地环境](/dynamics365/unified-operations/dev-itpro/deployment/develop-deploy-custom-models-on-premises?toc=/dynamics365/unified-operations/retail/toc.json)
+
 
 #### 部署自定义代码
-##### [创建可部署包](/dynamics365/unified-operations/dev-itpro/create-apply-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [应用可部署包](/dynamics365/unified-operations/dev-itpro/apply-deployable-package-system?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [安装可部署包](/dynamics365/unified-operations/dev-itpro/install-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [创建可部署包](/dynamics365/unified-operations/dev-itpro/deployment/create-apply-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [应用可部署包](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [安装可部署包](/dynamics365/unified-operations/dev-itpro/deployment/install-deployable-package?toc=/dynamics365/unified-operations/retail/toc.json)
 
-#### [云服务提供程序下载和 Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [云服务提供程序下载和 Dynamics AX 2012](/dynamics365/unified-operations/dev-itpro/deployment/csp-download-customersource?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### [升级和迁移](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [从 AX 2012 升级到 Dynamics 365 for Finance and Operations](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-overview-2012?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1301,7 +1357,7 @@
 ##### [升级 - AX 2012 数据升级任务](/dynamics365/unified-operations/dev-itpro/migration-upgrade/data-upgrade-2012?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [升级 - 沙盒环境中的数据升级](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-data-sandbox?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [验证 - 直接转换测试](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-cutover-testing?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [验证 - 应用验证流程](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [验证 - 在升级后要执行的任务](/dynamics365/unified-operations/dev-itpro/migration-upgrade/app-validation-process?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [验证 - 功能测试](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-functional-validation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [验证 - 准备实施](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-go-live-prep?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1321,7 +1377,7 @@
 
 #### 升级到最近更新
 ##### [准备移至最新更新](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-update?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [版本和更新策略](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [生命周期策略](/dynamics365/unified-operations/dev-itpro/migration-upgrade/versions-update-policy?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [升级到最新平台更新](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-latest-platform-update?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [将 Dynamics 平台升级到 2016 年 8 月的版本](/dynamics365/unified-operations/dev-itpro/migration-upgrade/update-platform-each-release?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [升级沙盒环境](/dynamics365/unified-operations/dev-itpro/migration-upgrade/upgrade-sandbox-environment?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1341,116 +1397,118 @@
 
 
 ### 系统管理
-#### [平台每月更新常见问题](/dynamics365/unified-operations/dev-itpro/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [添加指向您的组织的法律条款和隐私声明的链接](/dynamics365/unified-operations/dev-itpro/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [许可证代码和 Configuration Key 报表](/dynamics365/unified-operations/dev-itpro/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [跨公司数据共享](/dynamics365/unified-operations/dev-itpro/cross-company-data-sharing?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [维护模式](/dynamics365/unified-operations/dev-itpro/maintenance-mode?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [平台每月更新常见问题](/dynamics365/unified-operations/dev-itpro/sysadmin/faq-platform-monthly-updates?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [添加指向您的组织的法律条款和隐私声明的链接](/dynamics365/unified-operations/dev-itpro/sysadmin/legal-terms-privacy-statement?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [许可证代码和 Configuration Key 报表](/dynamics365/unified-operations/dev-itpro/sysadmin/license-codes-configuration-keys-report?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [跨公司数据共享](/dynamics365/unified-operations/dev-itpro/sysadmin/cross-company-data-sharing?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [维护模式](/dynamics365/unified-operations/dev-itpro/sysadmin/maintenance-mode?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 安全性
-##### [基于角色的安全性](/dynamics365/unified-operations/dev-itpro/role-based-security?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [安全体系结构](/dynamics365/unified-operations/dev-itpro/security-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [基于角色的安全性](/dynamics365/unified-operations/dev-itpro/sysadmin/role-based-security?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [安全体系结构](/dynamics365/unified-operations/dev-itpro/sysadmin/security-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [安全报告](/dynamics365/unified-operations/dev-itpro/sysadmin/security-reports?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 批处理
-##### [批处理概览](/dynamics365/unified-operations/dev-itpro/batch-processing-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [批处理服务器概览](/dynamics365/unified-operations/dev-itpro/batch-server-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [批处理概览](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-processing-overview?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [批处理服务器概览](/dynamics365/unified-operations/dev-itpro/sysadmin/batch-server-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Lifecycle Services
-#### [Lifecycle Services 概览](/dynamics365/unified-operations/dev-itpro/lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [适用于客户的 LCS](/dynamics365/unified-operations/dev-itpro/lcs-works-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [适用于合作伙伴的 LCS](/dynamics365/unified-operations/dev-itpro/getting-started-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [新增功能](/dynamics365/unified-operations/dev-itpro/whats-new-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [已知问题](/dynamics365/unified-operations/dev-itpro/known-issues?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Dynamics Lifecycle Services 用户指南](/dynamics365/unified-operations/dev-itpro/lcs-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [配置安全性](/dynamics365/unified-operations/dev-itpro/configure-lcs-security?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [问题搜索](/dynamics365/unified-operations/dev-itpro/issue-search-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [配置管理器](/dynamics365/unified-operations/dev-itpro/configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [设置配置管理器 ](/dynamics365/unified-operations/dev-itpro/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [配置代码升级服务](/dynamics365/unified-operations/dev-itpro/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [创建方法 ](/dynamics365/unified-operations/dev-itpro/create-methodology?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [业务流程建模器](/dynamics365/unified-operations/dev-itpro/business-process-modeler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [业务流程建模器中的业务流程库](/dynamics365/unified-operations/dev-itpro/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [业务流程建模器流程图](/dynamics365/unified-operations/dev-itpro/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [上载自定义业务流程](/dynamics365/unified-operations/dev-itpro/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [监控和诊断 ](/dynamics365/unified-operations/dev-itpro/monitoring-diagnostics?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Lifecycle Services 概览](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [适用于客户的 LCS](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-works-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [适用于合作伙伴的 LCS](/dynamics365/unified-operations/dev-itpro/lifecycle-services/getting-started-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [新增功能](/dynamics365/unified-operations/dev-itpro/lifecycle-services/whats-new-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [已知问题](/dynamics365/unified-operations/dev-itpro/lifecycle-services/known-issues?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Dynamics Lifecycle Services 用户指南](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [配置安全性](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-lcs-security?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [问题搜索](/dynamics365/unified-operations/dev-itpro/lifecycle-services/issue-search-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [配置管理器](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [设置配置管理器 ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/set-up-configuration-manager-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [配置代码升级服务](/dynamics365/unified-operations/dev-itpro/lifecycle-services/configure-execute-code-upgrade?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [创建方法 ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/create-methodology?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [业务流程建模器](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-modeler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [业务流程建模器中的业务流程库](/dynamics365/unified-operations/dev-itpro/lifecycle-services/business-process-libraries-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [业务流程建模器流程图](/dynamics365/unified-operations/dev-itpro/lifecycle-services/flowcharts-business-process-modeler?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [上载自定义业务流程](/dynamics365/unified-operations/dev-itpro/lifecycle-services/upload-business-processes-bpm-task-recorder?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [监控和诊断 ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/monitoring-diagnostics?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [资产库](/dynamics365/unified-operations/dev-itpro/lifecycle-services/asset-library?toc=/dynamics365/unified-operations/retail/toc.json)
 
 #### Dynamics AX 2012 Lifecycle Services 功能
 ##### 部署
-###### [云托管的环境](/dynamics365/unified-operations/dev-itpro/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [复制配置](/dynamics365/unified-operations/dev-itpro/copy-configuration-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [计划在 Azure 上部署 Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [在 Azure 上部署 Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [部署 Dynamics AX 2012 R3 演示环境](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [在 Azure 上部署开发环境](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [在 Azure 上部署高可用性环境](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [在 Azure 上部署测试环境](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [管理您在 Azure 上部署的 Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [将企业门户服务器联接到单个服务器场](/dynamics365/unified-operations/dev-itpro/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [在 Dynamics AX 企业门户中记录入口点](/dynamics365/unified-operations/dev-itpro/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [在 Azure 上部署零售电子商务开发/测试环境](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [在 Azure 上部署零售要素演示环境](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [在 Azure 上部署零售要素开发/测试环境](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [在 Azure 上部署零售移动性开发/测试环境](/dynamics365/unified-operations/dev-itpro/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [对您在 Azure 上部署的 Dynamics AX 2012 R3 执行故障排除](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Dynamics AX 2012 R3 的更新](/dynamics365/unified-operations/dev-itpro/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [数据导入/导出框架用户指南](/dynamics365/unified-operations/dev-itpro/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [安装](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [安装 AX 2012 R3](/dynamics365/unified-operations/dev-itpro/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [安装适用于 SQL Server 2014 的 Dynamics AX 2012 R2 CU7 版本](/dynamics365/unified-operations/dev-itpro/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [迁移数据](/dynamics365/unified-operations/dev-itpro/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [配置 SSIS 的版本](/dynamics365/unified-operations/dev-itpro/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [复制并比较公司间的实体数据](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [复制 Dynamics AX 公司间的数据](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [复制 Dynamics AX 实例间的数据](/dynamics365/unified-operations/dev-itpro/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [创建自定义目标实体](/dynamics365/unified-operations/dev-itpro/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [数据导入/导出框架实体](/dynamics365/unified-operations/dev-itpro/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [从 CSV 数据源导入数据](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [从 ODBC 数据源导入数据](/dynamics365/unified-operations/dev-itpro/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [演示文件](/dynamics365/unified-operations/dev-itpro/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [快速导入/导出](/dynamics365/unified-operations/dev-itpro/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [云托管的环境](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/cloud-hosted-environments-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [复制配置](/dynamics365/unified-operations/dev-itpro/lifecycle-services/copy-configuration-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [计划在 Azure 上部署 Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/plan-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在 Azure 上部署 Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [部署 Dynamics AX 2012 R3 演示环境](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在 Azure 上部署开发环境](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-development-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在 Azure 上部署高可用性环境](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-high-availability-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在 Azure 上部署测试环境](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-test-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [管理您在 Azure 上部署的 Dynamics AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/manage-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [将企业门户服务器联接到单个服务器场](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在 Dynamics AX 企业门户中记录入口点](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/record-entry-points-enterprise-portal?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在 Azure 上部署零售电子商务开发/测试环境](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在 Azure 上部署零售要素演示环境](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在 Azure 上部署零售要素开发/测试环境](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [在 Azure 上部署零售移动性开发/测试环境](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [对您在 Azure 上部署的 Dynamics AX 2012 R3 执行故障排除](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Dynamics AX 2012 R3 的更新](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/update-2012-r3-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [数据导入/导出框架用户指南](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/user-guide-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [安装](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [安装 AX 2012 R3](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-ax-2012-r3?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [安装适用于 SQL Server 2014 的 Dynamics AX 2012 R2 CU7 版本](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [迁移数据](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/migrate-data-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [配置 SSIS 的版本](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [复制并比较公司间的实体数据](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [复制 Dynamics AX 公司间的数据](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-companies-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [复制 Dynamics AX 实例间的数据](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/copy-data-between-instances-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [创建自定义目标实体](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-custom-target-entity-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [数据导入/导出框架实体](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/entities-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [从 CSV 数据源导入数据](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-csv-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [从 ODBC 数据源导入数据](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-data-odbc-data-source-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [演示文件](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/demo-files-dixf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [快速导入/导出](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/quick-import-export?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### 表 
-###### [创建表](/dynamics365/unified-operations/dev-itpro/ax-2012/create-tables?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [表属性](/dynamics365/unified-operations/dev-itpro/ax-2012/table-properties?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [创建表](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-tables?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [表属性](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/table-properties?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### Dynamics AX 2012 LCS 工具
-###### [项目](/dynamics365/unified-operations/dev-itpro/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [方法](/dynamics365/unified-operations/dev-itpro/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [定制分析 ](/dynamics365/unified-operations/dev-itpro/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [基础架构估算器](/dynamics365/unified-operations/dev-itpro/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [许可证规模估算器](/dynamics365/unified-operations/dev-itpro/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [招标书 (/dynamics365/unified-operations/dev-itpro/RFP) 响应](/dynamics365/unified-operations/dev-itpro/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [系统诊断](/dynamics365/unified-operations/dev-itpro/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [安装并运行系统诊断](/dynamics365/unified-operations/dev-itpro/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [升级分析](/dynamics365/unified-operations/dev-itpro/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [使用情况分析器](/dynamics365/unified-operations/dev-itpro/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [项目](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/projects-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [方法](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/methodologies-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [定制分析 ](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/customization-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [基础架构估算器](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/infrastructure-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [许可证规模估算器](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/license-sizing-estimator-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [招标书 (/dynamics365/unified-operations/dev-itpro/lifecycle-services/RFP) 响应](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/rfp-responses-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [系统诊断](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [安装并运行系统诊断](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-run-system-diagnostics-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [升级分析](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/upgrade-analysis-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [使用情况分析器](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/usage-profiler-lcs?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### Dynamics AX 2012 可下载的工具
-###### [代码升级工具用户指南(已弃用)](/dynamics365/unified-operations/dev-itpro/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [Lifecycle Services 可下载的工具](/dynamics365/unified-operations/dev-itpro/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [测试数据传输工具(测试版)](/dynamics365/unified-operations/dev-itpro/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [安装](/dynamics365/unified-operations/dev-itpro/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [运行](/dynamics365/unified-operations/dev-itpro/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [导入 AX 2012 R3 的演示数据](/dynamics365/unified-operations/dev-itpro/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [安全开发工具](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [安装](/dynamics365/unified-operations/dev-itpro/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [用户指南](/dynamics365/unified-operations/dev-itpro/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [定义或编辑入口点权限](/dynamics365/unified-operations/dev-itpro/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [绩效基准软件开发工具包](/dynamics365/unified-operations/dev-itpro/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [安全升级顾问工具](/dynamics365/unified-operations/dev-itpro/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [智能数据管理框架 (IDMF)](/dynamics365/unified-operations/dev-itpro/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [概览](/dynamics365/unified-operations/dev-itpro/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [安装指南](/dynamics365/unified-operations/dev-itpro/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [配置](/dynamics365/unified-operations/dev-itpro/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [分析](/dynamics365/unified-operations/dev-itpro/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [清除和存档对象](/dynamics365/unified-operations/dev-itpro/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [创建存档对象](/dynamics365/unified-operations/dev-itpro/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [创建清除对象](/dynamics365/unified-operations/dev-itpro/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [计划清除和分析任务](/dynamics365/unified-operations/dev-itpro/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [查看清除或存档作业](/dynamics365/unified-operations/dev-itpro/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [维护](/dynamics365/unified-operations/dev-itpro/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
-####### [故障排除](/dynamics365/unified-operations/dev-itpro/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [代码升级工具用户指南 (已弃用)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/code-upgrade-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [Lifecycle Services 可下载的工具](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [测试数据传输工具(测试版)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [安装](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [运行](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/run-test-data-transfer-tool-beta?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [导入 AX 2012 R3 的演示数据](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [安全开发工具](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-security-development-tool-user-interface?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [安装](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/install-security-development-tool?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [用户指南](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-development-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [定义或编辑入口点权限](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/define-edit-entry-point-permissions?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [绩效基准软件开发工具包](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [安全升级顾问工具](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [智能数据管理框架 (IDMF)](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/microsoft-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [概览](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/overview-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [安装指南](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/installation-guide-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [配置](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/configuration-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [分析](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/analysis-functionality-idmf-workspace?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [清除和存档对象](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/work-with-purge-objects-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [创建存档对象](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-archive-objects?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [创建清除对象](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/create-purge-objects?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [计划清除和分析任务](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/schedule-purge-analysis-tasks?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [查看清除或存档作业](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/view-status-purge-archive-jobs?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [维护](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/maintain-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
+####### [故障排除](/dynamics365/unified-operations/dev-itpro/lifecycle-services/ax-2012/troubleshoot-idmf?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### 数据库管理
-#### [将数据库从 Azure SQL 数据库复制到 SQL Server 环境](/dynamics365/unified-operations/dev-itpro/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [将数据库从 SQL Server 复制到 Azure SQL 数据库生产环境](/dynamics365/unified-operations/dev-itpro/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [在非生产环境中还原数据库](/dynamics365/unified-operations/dev-itpro/request-point-in-time-restore?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [导出数据库的副本以便今后还原](/dynamics365/unified-operations/dev-itpro/copy-operations-database?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [将数据库从 Azure SQL 数据库复制到 SQL Server 环境](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-azure-sql-to-sql-server?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [将数据库从 SQL Server 复制到 Azure SQL 数据库生产环境](/dynamics365/unified-operations/dev-itpro/database/copy-database-from-sql-server-to-azure-sql?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [在非生产环境中还原数据库](/dynamics365/unified-operations/dev-itpro/database/request-point-in-time-restore?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [导出数据库的副本以便今后还原](/dynamics365/unified-operations/dev-itpro/database/copy-operations-database?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### 支持
 #### [获取对 Dynamics 365 for Finance and Operations Enterprise Edition 和 Lifecycle Services 的支持](/dynamics365/unified-operations/dev-itpro/lifecycle-services/lcs-support)
@@ -1466,6 +1524,7 @@
 
 ## 付款
 ### [付款方式](/dynamics365/unified-operations/retail/payment-methods?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [付款常见问题](/dynamics365/unified-operations/retail/dev-itpro/payments-retail?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## 呼叫中心
 ### [呼叫中心概览](/dynamics365/unified-operations/retail/call-center-functionality?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1487,7 +1546,8 @@
 ## 现代化销售点 (MPOS) 和云 POS
 ### 硬件外围设备
 #### [硬件外围设备概览](/dynamics365/unified-operations/retail/retail-peripherals-overview?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Microsoft 测试的 POS 硬件外围设备](/dynamics365/unified-operations/retail/microsoft-tested-pos-hardware-peripherals?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Microsoft 测试过的 POS 硬件外围设备](/dynamics365/unified-operations/retail/microsoft-tested-pos-hardware-peripherals?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [零售外围设备模拟器](/dynamics365/unified-operations/retail/dev-itpro/retail-peripheral-simulator?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [定义和维护渠道客户端、收银机和硬件工作站](/dynamics365/unified-operations/retail/define-maintain-channel-clients-registers-hw-stations?toc=/dynamics365/unified-operations/retail/toc.json)
 ### 屏幕布局
 #### [配置 POS 的屏幕布局](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1539,9 +1599,6 @@
 
 ## 库存
 ### [管理商店库存](/dynamics365/unified-operations/retail/work-with-store-inventory?toc=/dynamics365/unified-operations/retail/toc.json)
-## 商业要素
-### [商业要素概览](/dynamics365/unified-operations/retail/commerce-essentials?toc=/dynamics365/unified-operations/retail/toc.json)
-### [商业要素中的组织和组织层次结构](/dynamics365/unified-operations/retail/organizational-hierarchies-commerce-essentials?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## [零售开发和管理](/dynamics365/unified-operations/retail/dev-itpro/dev-retail-home-page?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1551,16 +1608,16 @@
 #### [零售渠道通信](/dynamics365/unified-operations/retail/dev-itpro/define-retail-channel-communications-cdx?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [MPOS 体系结构](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [零售在线商店发布体系结构](/dynamics365/unified-operations/retail/dev-itpro/retail-online-store-publishing-architecture?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [零售渠道绩效 Power BI 内容](/dynamics365/unified-operations/retail/dev-itpro//dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
+#### [零售渠道绩效 Power BI 内容](/dynamics365/unified-operations/dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data)
 
 ### 部署和修补程序
 #### [零售商店扩展单位配置和安装](/dynamics365/unified-operations/retail/dev-itpro/retail-store-scale-unit-configuration-installation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [零售商店系统，在您开始之前](/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Retail Modern POS 配置和安装](/dynamics365/unified-operations/retail//retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
-##### [从总部管理零售帐户和设备](/dynamics365/unified-operations/retail//set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Retail Modern POS 配置和安装](/dynamics365/unified-operations/retail/retail-modern-pos-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [从总部管理零售帐户和设备](/dynamics365/unified-operations/retail/set-up-activation-accounts-validate-devices-hq?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [Retail POS 设备启用](/dynamics365/unified-operations/retail/dev-itpro/retail-device-activation?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [安全零售云 POS](/dynamics365/unified-operations/retail/dev-itpro/secure-retail-cloud-pos?toc=/dynamics365/unified-operations/retail/toc.json)
-#### [Retail 硬件工作站配置和安装](/dynamics365/unified-operations/retail//retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Retail 硬件工作站配置和安装](/dynamics365/unified-operations/retail/retail-hardware-station-configuration-installation?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [零售组件的诊断和故障排除事件](/dynamics365/unified-operations/retail/dev-itpro/retail-component-events-diagnostics-troubleshooting?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [应用可部署包](/dynamics365/unified-operations/dev-itpro/deployment/apply-deployable-package-system?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1570,8 +1627,8 @@
 
 ### 可扩展性
 #### 销售点
-##### [Retail POS 屏幕布局](/dynamics365/unified-operations/retail//pos-screen-layouts?toc=/dynamics365/unified-operations/retail/toc.json)
-###### [安装 POS 布局设计器](/dynamics365/unified-operations/retail//install-pos-layout-designer?toc=/dynamics365/unified-operations/retail/toc.json)
+##### [Retail POS 屏幕布局](/dynamics365/unified-operations/retail/pos-screen-layouts?toc=/dynamics365/unified-operations/retail/toc.json)
+###### [安装 POS 布局设计器](/dynamics365/unified-operations/retail/install-pos-layout-designer?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [配置脱机模式的 MPOS](/dynamics365/unified-operations/retail/dev-itpro/retail-modern-pos-offline?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [MPOS 和云 POS 触发器可扩展性](/dynamics365/unified-operations/retail/dev-itpro/modern-pos-trigger-extensibility?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [创建零售体验应用](/dynamics365/unified-operations/retail/dev-itpro/create-retail-experience-app?toc=/dynamics365/unified-operations/retail/toc.json)
@@ -1596,7 +1653,7 @@
 ##### [电子商务平台](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [电子商务平台 SDK](/dynamics365/unified-operations/retail/dev-itpro/ecommerce-platform-sdk?toc=/dynamics365/unified-operations/retail/toc.json)
 #### 付款连接器
-##### [实施付款连接器和付款设备(白皮书)](/dynamics365/unified-operations/retail/dev-itpro/http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+##### [实施付款连接器和付款设备(白皮书)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ##### [部署付款连接器](/dynamics365/unified-operations/retail/dev-itpro/deploy-payment-connector?toc=/dynamics365/unified-operations/retail/toc.json)
 ##### [为付款连接器创建 Windows 安装程序](/dynamics365/unified-operations/retail/dev-itpro/create-windows-installer-payment-connector?toc=/dynamics365/unified-operations/retail/toc.json)
 
@@ -1604,13 +1661,14 @@
 #### [Retail SDK 概述](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-overview?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [将 Retail SDK 与连续生成系统集成](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK 可扩展性示例](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-extensibility-samples?toc=/dynamics365/unified-operations/retail/toc.json)
+#### [Retail POS 与瑞典控制主机集成示例](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-control-unit-sample?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK 包装](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-packaging?toc=/dynamics365/unified-operations/retail/toc.json)
 #### [Retail SDK 示例 ](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/retail-sdk-samples?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ### Commerce Runtime
 #### [会员扩展](/dynamics365/unified-operations/retail/dev-itpro/retail-sdk/loyalty-extension-sample?toc=/dynamics365/unified-operations/retail/toc.json)
 
-# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index)
+# [Dynamics 365 for Talent](/dynamics365/unified-operations/talent/index?toc=/dynamics365/unified-operations/retail/toc.json)
 
 ## 制定人力资源战略
 ### [使用部门、工作和职位组织您的劳动力](/dynamics365/unified-operations/talent/departments-jobs-positions?toc=/dynamics365/unified-operations/retail/toc.json)
