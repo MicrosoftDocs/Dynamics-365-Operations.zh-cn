@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: c8684bf17946edff8230f0b6d324d355e61dc89b
-ms.openlocfilehash: 8703b3bc5642e6dbe9dd399ced5af6da25f9b226
+ms.sourcegitcommit: bb0700ad317fa8faf5dc83ea523dd151f0f4a811
+ms.openlocfilehash: 713178e79000e4358104038295452db0ba025195
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/28/2017
 
 
 ---
@@ -41,21 +41,21 @@ Microsoft Dynamics 365 for Finance and Operations 是 Microsoft 面向企业的�
 <tbody>
 <tr class="odd">
 <td><h3>财务</h3>
-<p>符合性</p>
+<p><a href="../financials/general-ledger/audit-policy-rules">符合性</a></p>
 <p>财务管理</p>
-<ul><li><a href="../financials/accounts-payable/accounts-payable">应付帐款</a></li>
+<ul style="list-style-type:none">
+<li><a href="../financials/accounts-payable/accounts-payable">应付帐款</a></li>
 <li><a href="../financials/accounts-receivable/accounts-receivable">应收帐款</a></li>
 <li><a href="../financials/budgeting/budgeting-overview">预算编制</a></li>
 <li><a href="../financials/cash-bank-management/cash-bank-management">现金和银行管理</a></li>
 <li><a href="../financials/cost-accounting/cost-accounting-home-page">成本核算</a></li>
 <li><a href="../financials/fixed-assets/fixed-assets">固定资产</a></li>
 <li><a href="../financials/general-ledger/general-ledger">总帐</a></li>
-
 <li><a href="../financials/public-sector/public-sector-functionality">公共部门</a></li>
 <li><a href="../dev-itpro/lcs-solutions/country-region">地区监管功能</a></li></ul>
 <p><a href="../financials/project-management/overview-project-management-accounting">项目管理</a></p>
 <H3>人力资源</h3>
-  <ul>
+  <ul style="list-style-type:none">
 <li><a href="hr/manage-recruiting-process">招聘</a></li>
 <li><a href="hr/localizations/noam-usa-payroll">美国工资单</a></li>
 </ul>
@@ -63,19 +63,19 @@ Microsoft Dynamics 365 for Finance and Operations 是 Microsoft 面向企业的�
 <p><a href="../supply-chain/cost-management/costing-sheets">成本管理</a></p>
 <p><a href="../supply-chain/inventory/inventory-locations">库存管理</a></p>
 <p>物流</p>
-<ul><li><a href="../supply-chain/transportation/transportation-management-overview">运输管理</a></li>
-<li><a href="../supply-chain/warehousing/warehouse-configuration">仓库管理</a></li></ul></li>
+<ul style="list-style-type:none"><li><a href="../supply-chain/transportation/transportation-management-overview">运输管理</a></li>
+<li><a href="../supply-chain/warehousing/warehouse-configuration">仓库管理</a></li></ul>
 <p><a href="../supply-chain/master-planning/master-plans">规划</a></p>
   <p><a href="../supply-chain/pim/set-up-maintain-product-configuration-model">产品信息管理</a></p>
   <p><a href="../supply-chain/production-control/create-production-orders">生产控制</a></p>
 <p>订单管理</p>
-  <ul><li><a href="../supply-chain/procurement/procurement-sourcing-overview">采购</a></li>
+  <ul style="list-style-type:none"><li><a href="../supply-chain/procurement/procurement-sourcing-overview">采购</a></li>
   <li><a href="../supply-chain/sales-marketing/overview-sales-marketing">销售和市场营销</a></li></ul>
 </td>
 <td>
 <h3>统一运营平台</h3>
 <p>智能</p>
-<ul><li><a href="../dev-itpro/analytics/analytics">分析</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/analytics/analytics">分析</a></li>
  <li><a href="../dev-itpro/analytics/document-reporting-services">业务文档</a></li>
 <li><a href="../dev-itpro/analytics/financial-reporting-intro">财务申报</a></li>
 <li><a href="../dev-itpro/analytics/general-electronic-reporting">法规报告</a></li></ul>
@@ -83,33 +83,34 @@ Microsoft Dynamics 365 for Finance and Operations 是 Microsoft 面向企业的�
 <p><a href="../dev-itpro/mobile-apps/mobile-platform">移动平台</a></p>
 
  <p>开发人员功能</p>
-<ul>
-<li><a href="../dev-itpro/continuous-delivery-home-page">连续交货</a></li>
+<ul style="list-style-type:none">
+<li><a href="../dev-itpro/dev-tools/continuous-delivery-home-page">连续交货</a></li>
 <li><a href="../dev-itpro/get-started/demo-data">演示数据</a></li>
 <li><a href="../dev-itpro/dev-tools/developer-home-page">开发人员工具</a></li>
 <li><a href="../dev-itpro/extensibility/customize-model-elements-extensions">可扩展性</a></li>
 <li><p>集成</p>
-<ul><li><a href="../dev-itpro/data-entities/data-entities">数据实体</a></li>
+<ul style="list-style-type:none"><li><a href="../dev-itpro/data-entities/data-entities">数据实体</a></li>
 <li><a href="../dev-itpro/office-integration/office-integration">Office 集成</a></li></ul></li></ul>
 
 <p>管理员功能<p>
-<ul>
-<li><a href="../get-started/onboarding-home">组织培训</a></li>
-<li><a href="../dev-itpro/deploy-demo-environment">部署和服务</a></li>
+<ul style="list-style-type:none">
+<li><a href="../fin-and-ops/get-started/onboarding-home">组织培训</a></li>
+<li><a href="../dev-itpro/deployment/deploy-demo-environment">部署和服务</a></li>
 <li><a href="../dev-itpro/migration-upgrade/upgrade-home-page">升级</a></li>
 <li><a href="../dev-itpro/data-entities/data-management-integration-data-entity">数据管理</a></li>
 <li><a href="../dev-itpro/lifecycle-services/lcs">Lifecycle Services</a></li>
 <li><a href="../fin-and-ops/organization-administration/organization-administration-home-page">组织管理</a></li>
 <li><a href="../dev-itpro/sysadmin/system-administration-home-page">系统管理</a></li>
-<ul>
+</ul>
 </td>
 <td>
-<h3>Dynamics 365 for Talent</h3>
+<h3>相关产品</h3>
+<h4>Dynamics 365 for Talent</h4>
 <p><a href="../talent/manage-benefit-program">福利</a></p>
 <p><a href="../talent/performance-management-overview">员工发展和培训</a></p>
 <p><a href="../talent/questionnaires">调查表</a></p>
 
-<h3>Dynamics 365 for Retail</h3>
+<h4>Dynamics 365 for Retail</h4>
 <p><a href="../retail/call-center-functionality">呼叫中心</p>
 <p><a href="../retail/define-maintain-retail-channels">通道设置和管理</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS 和云 POS</p>

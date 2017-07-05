@@ -2,7 +2,13 @@
   tocHref: /dynamics365/
   topicHref: /dynamics365
   items:
-  - name: Finance and Operations Enterprise
+  - name: Dynamics 365 简介
+    tocHref: /dynamics365/get-started/what-is/
+    topicHref: /dynamics365/get-started/what-is/index
+  - name: 新增功能
+    tocHref: /dynamics365/get-started/whats-new/
+    topicHref: /dynamics365/get-started/whats-new/index
+  - name: 'Finance and Operations, Enterprise'
     tocHref: /dynamics365/unified-operations/fin-and-ops/
     topicHref: /dynamics365/unified-operations/fin-and-ops/index
     items:
