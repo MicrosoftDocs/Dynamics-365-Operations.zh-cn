@@ -31,6 +31,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[Retail name](../includes/retail-name.md)]
 
 当您手动创建销售订单行或采购订单行时，使用“<strong>物料编号</strong>”字段搜索产品和产品变型。  当您仅有配置字符串或一个产品维度可用时，它可以让您迅速找到产品变型。
 
