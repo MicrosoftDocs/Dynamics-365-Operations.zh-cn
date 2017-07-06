@@ -40,7 +40,7 @@ Microsoft Dynamics 365 for Finance and Operations 是 Microsoft 面向企业的�
 </colgroup>
 <tbody>
 <tr class="odd">
-<td><h3>财务</h3>
+<td><h3>Financials</h3>
 <p><a href="../financials/general-ledger/audit-policy-rules">符合性</a></p>
 <p>财务管理</p>
 <ul style="list-style-type:none">

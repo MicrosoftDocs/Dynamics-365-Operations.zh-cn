@@ -15,16 +15,16 @@
     - name: 开发人员和管理员
       tocHref: /dynamics365/unified-operations/dev-itpro/
       topicHref: /dynamics365/unified-operations/dev-itpro/index
-    - name: 财务
+    - name: Financials
       tocHref: /dynamics365/unified-operations/financials/
       topicHref: /dynamics365/unified-operations/financials/index
     - name: 供应链
  
       tocHref: /dynamics365/unified-operations/supply-chain/
       topicHref: /dynamics365/unified-operations/supply-chain/index
-  - name: 人才
+  - name: Talent
     tocHref: /dynamics365/unified-operations/talent/
     topicHref: /dynamics365/unified-operations/talent/index
-  - name: 零售
+  - name: Retail
     tocHref: /dynamics365/unified-operations/retail/
     topicHref: /dynamics365/unified-operations/retail/index
