@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: e0f41445c621a317fcdccef6cb08766dd6fac279
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -32,18 +32,19 @@ ms.lasthandoff: 06/21/2017
 
 Microsoft Dynamics 365 for Talent 简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。这些流程包括员工挽留、福利管理、培训、绩效评审和变更管理。 它还提供了一个框架，供人力资源员工管理监督领域。
 
-Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations, Enterprise edition 中的“人力资源”密切相关。 这两种产品的功能可能存在重合。 因此，在主要涉及“人力资源”的主题中，产品名称将为 Dynamics 365 for Finance and Operations, Enterprise edition；在主要涉及 Talent 的主题中，产品名称将为 Dynamics 365 for Talent。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
-
 您可以使用 Talent 完成以下任务：
 
-> + 管理组织结构。
-> + 维护工作人员从雇用到退休的全面信息。
-> + 定义和管理福利计划、招收工作人员、分配相关保险和指定受益人。
-> + 制定和监督缺勤政策。
-> + 实施和跟踪基于模板的时间管理，生成导出到工资单系统的报酬信息。
-> + 管理工作人员能力。
-> + 评审绩效和实现工作人员目标。
-> + 设置、提供并分析包含议程、授课和跟踪的培训课程。
++ 管理组织结构。
++ 维护工作人员从雇用到退休的全面信息。
++ 定义和管理福利计划、招收工作人员、分配相关保险和指定受益人。
++ 制定和监督缺勤政策。
++ 实施和跟踪基于模板的时间管理，生成导出到工资单系统的报酬信息。
++ 管理工作人员能力。
++ 评审绩效和实现工作人员目标。
++ 设置、提供并分析包含议程、授课和跟踪的培训课程。
+
+> [!NOTE] 
+> Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations Enterprise edition 中的“人力资源”密切相关。 这两种产品的功能可能存在重合。 因此，在主要涉及“人力资源”的主题中，产品名称将为 Dynamics 365 for Finance and Operations, Enterprise edition；在主要涉及 Talent 的主题中，产品名称将为 Dynamics 365 for Talent。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>制定人力资源管理策略
 ---------------------------------------------------------

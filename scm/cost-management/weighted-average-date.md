@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -31,6 +31,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="weighted-average-date"></a>加权平均日期
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 加权平均日期是基于加权平均原则的库存模型。 对于加权平均原则，来自库存的发货按照物料的平均价值进行估价，这些物料是在库存结转期间中的每一天接收到库存中的物料。 当您使用加权平均日期运行库存结转时，所有每日收货将根据虚拟发货结算。 此虚拟发货保留该日期的收货总量和值。 此虚拟发货具有对应的虚拟收货，并将根据此虚拟收货结算发货。 因此，所有发货都接收相同的平均成本。 虚拟发货和虚拟收货可以视为虚拟转移，称为*加权平均库存结转转移*。 

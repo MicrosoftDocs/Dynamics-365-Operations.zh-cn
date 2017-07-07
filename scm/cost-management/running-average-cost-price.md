@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventModelGroup, InventOnhandItem, InventTrans
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 79003
 ms.assetid: adc3f245-dc9d-4327-88fb-6a579194a5fe
 ms.search.region: Global
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="running-average-cost-price"></a>移动平均成本价
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 库存结转过程基于在物料的物料模型组中选择的库存评估方法将发货交易记录结算到收货交易记录。 但在运行库存结转前，此系统将计算通常在过帐发货交易记录时使用的移动平均成本价。

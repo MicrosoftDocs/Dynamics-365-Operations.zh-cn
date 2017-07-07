@@ -6,22 +6,21 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
 ms.prod: 
-ms.service: dynamics-ax-platform
+ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
-ms.assetid: 2e299a38-16e5-474e-b993-d88cebfadca0
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 6e2feeadd7cef8273d94810a13df6c5dfe6f1d4a
-ms.openlocfilehash: 25a9885a31871a19285cdd30987e3d1caa99bc04
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/21/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
@@ -54,6 +53,9 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 -   [监管观察和监管更新通信](regulatory-watch-communication.md)
 -   [向 Microsoft 告知国家/地区监管预警并跟踪监管功能的状态](submit-localization-alerts.md)
 
+### <a name="dynamics-365-roadmap"></a>Dynamics 365 路线图
+[Dynamics 365 路线图](https://roadmap.dynamics.com/) 可提供我们当前工作内容的快照。 使用此路线图可了解通常可用的功能以及仍在开发中的功能。 开发中的所有日期和功能都是基于当前预期的初步设计，如有更改，恕不另行通知。
+
 ## <a name="electronic-reporting"></a>电子申报
 电子申报 (ER) 工具可让您根据各个国家/地区的法律要求配置电子单据的格式。 ER 可让您在电子单据的生命周期中管理它们。 有关详细信息，请参阅以下主题之一：
 -   [电子申报概览](../analytics/general-electronic-reporting.md)
@@ -62,7 +64,9 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 -   [扩展电子申报功能的列表](../analytics/general-electronic-reporting-formulas-list-extension.md)
 -   [电子申报目标](../analytics/electronic-reporting-destinations.md)
 -   [从 Lifecycle Services 下载电子申报配置](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [配置电子申报以将数据拉入到 Power BI 中](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [导入电子申报配置](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [配置电子申报以便将数据导入 Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [使用电子申报工具生成电子文档并更新申请表数据](../analytics/generate-electronic-documents-update-application-data.md)
 
 ## <a name="task-guides"></a>任务指南
 任务指南可从产品帮助窗格中找到，它们将指导您演练关键业务流程。 您可以打开任务指南以读取业务流程步骤，也可以播放任务指南以演练业务流程和输入数据。
@@ -83,9 +87,10 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 
 ### <a name="austria"></a>奥地利
 
--   [半年折旧](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
--   [包装材料费用](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
--   [增值税报表](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
+- [半年折旧](/dynamics365/unified-operations/financials/localizations/emea-aut-half-year-depreciation)
+- [包装材料费用](/dynamics365/unified-operations/financials/localizations/emea-aut-packing-material-fee-calculation)
+- [进项税](/dynamics365/unified-operations/financials/localizations/emea-aut-purchase-duties)
+- [增值税报表](/dynamics365/unified-operations/financials/localizations/emea-aut-vat-statement-details)
 
 ### <a name="belgium"></a>比利时
 
@@ -130,7 +135,6 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 -   [捷克共和国的固定资产处置的半年折旧](/dynamics365/unified-operations/financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal)
 -   [折旧挂起（假期）](/dynamics365/unified-operations/financials/localizations/emea-cze-depreciation-suspension-holidays)
 -   [捷克共和国的固定资产折旧方法](/dynamics365/unified-operations/financials/localizations/emea-cze-fixed-assets-depreciation)
-
 -   [过帐购置前的固定资产](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
 -   [捷克共和国的增值税报表](/dynamics365/unified-operations/financials/localizations/emea-cze-vat-statement-details)
 -   [销售税申报](/dynamics365/unified-operations/financials/localizations/emea-cze-intra-community-vat-transactions)
@@ -144,30 +148,39 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 -   [固定资产处置](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
 
 ### <a name="europe"></a>欧洲
--   [预付款持有人](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
--   [编辑销售订单上的发票 ID](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
--   [欧盟入境证](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
--   [欧盟销售清单报表](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
--   [汇率调整](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
--   [付款方式的文件格式](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
--   [爱沙尼亚和立陶宛的固定资产处置](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
--   [内部统计](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
--   [立陶宛和拉脱维亚的发票和装箱单编号](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
--   [发票签发截止时间](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
--   [OIOUBL 标准](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
--   [付款单报表](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
--   [备用金](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
--   [过帐购置前的固定资产](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
--   [邮政编码](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
--   [登记 ID](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
--   [SEPA 贷方转帐概览](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
--   [SEPA 直接借记概览](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
--   [设置打印表格的签名人](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
--   [拆分期间日记帐中的期间](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
--   [更新金额在报表和单据上显示的方式](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms)
--   [增值税汇率](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
--   [欧洲的增值税申报](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
--   [查看有关结算的交易记录](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
+- [预付款持有人](/dynamics365/unified-operations/financials/localizations/emea-advance-holders)
+- [预付款持有人交易记录](/dynamics365/unified-operations/financials/localizations/emea-advance-holders-transactions)
+- [预付款开票](/dynamics365/unified-operations/financials/localizations/emea-advance-invoice)
+- [银行对帐](/dynamics365/unified-operations/financials/localizations/emea-bank-reconciliation)
+- [可更正开票](/dynamics365/unified-operations/financials/localizations/emea-corrective-invoice)
+- [创建并过帐期间日记帐](/dynamics365/unified-operations/financials/localizations/emea-create-post-periodic-journals)
+- [编辑销售订单上的发票 ID](/dynamics365/unified-operations/financials/localizations/emea-edit-invoice-id-sales-orders)
+- [欧盟入境证](/dynamics365/unified-operations/financials/localizations/emea-entry-certificates)
+- [欧盟销售清单报表](/dynamics365/unified-operations/financials/localizations/emea-eu-sales-list)
+- [汇率调整](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
+- [付款方式的文件格式](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
+- [爱沙尼亚和立陶宛的固定资产处置](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [内部统计](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
+- [库存日记帐报表](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
+- [立陶宛和拉脱维亚的发票和装箱单编号](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+- [发票签发截止时间](/dynamics365/unified-operations/financials/localizations/emea-invoice-issue-deadline)
+- [OIOUBL 标准](/dynamics365/unified-operations/financials/localizations/emea-oioubl-standards-electronic-invoicing)
+- [付款单报表](/dynamics365/unified-operations/financials/localizations/emea-eur-payment-slip-report-giro)
+- [备用金](/dynamics365/unified-operations/financials/localizations/emea-petty-cash)
+- [过帐购置前的固定资产](/dynamics365/unified-operations/financials/localizations/emea-pre-acquisition-acquisition-fixed-asset)
+- [邮政编码](/dynamics365/unified-operations/financials/localizations/emea-import-create-postal-codes-manually)
+- [登记 ID](/dynamics365/unified-operations/financials/localizations/emea-registration-ids)
+- [冲销费用](/dynamics365/unified-operations/financials/localizations/emea-reverse-charge)
+- [SEPA 贷方转帐概览](/dynamics365/unified-operations/financials/accounts-payable/sepa-credit-transfer)
+- [SEPA 直接借记概览](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
+- [设置客户和供应商薪酬](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
+- [设置打印表格的签名人](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [税务指令](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
+- [更新金额在报表和单据上显示的方式](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
+- [增值税汇率](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
+- [东欧的增值税登记簿交易记录](/dynamics365/unified-operations/financials/localizations/emea-vat-register-transactions)
+- [增值税申报](/dynamics365/unified-operations/financials/localizations/emea-vat-reporting)
+- [查看有关结算的交易记录](/dynamics365/unified-operations/financials/localizations/emea-transactions-settlement-form)
 
 ### <a name="france"></a>法国
 -   [按时间顺序排序的发票和凭证编号](/dynamics365/unified-operations/financials/localizations/emea-fra-chronological-invoices-vouchers)
@@ -180,6 +193,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 #### <a name="public-sector"></a>公共部门
    -   [公共部门中的承诺](/dynamics365/unified-operations/financials/localizations/emea-fra-commitments-public-sector)
    -   [公共部门中的 Mandats de paiement](/dynamics365/unified-operations/financials/localizations/emea-fra-mandats-de-paiement)
+   -   [采购](/dynamics365/unified-operations/financials/localizations/emea-fra-procurement-sourcing-public-sector?toc=/dynamics365/unified-operations/fin-and-ops/toc.json)
    -   [公共部门会计](/dynamics365/unified-operations/financials/localizations/emea-fra-public-sector-accounting)
    -   [Titres de recette](/dynamics365/unified-operations/financials/localizations/emea-fra-titres-de-recette-public-sector)
    -   [供应商发票付款暂停](/dynamics365/unified-operations/financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector)
@@ -205,22 +219,21 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 -   [意大利的发票上的装箱单日期验证](/dynamics365/unified-operations/financials/localizations/emea-ita-packing-slip-date-verification-on-invoice)
 -   [意大利销售税帐簿](/dynamics365/unified-operations/financials/localizations/emea-ita-fiscal-books)
 -   [拆分签发给公共行政部门的发票的付款](/dynamics365/unified-operations/financials/localizations/emea-ita-split-payment-invoices-issued-public-administration)
--   [预缴税金](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding tax)
+-   [预缴税金](/dynamics365/unified-operations/financials/localizations/emea-ita-withholding-tax)
 
 ### <a name="japan"></a>日本
 
--   [供应商涵盖的银行付款费用](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
--   [合并的发票](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
-
-#### <a name="fixed-assets"></a>固定资产
-   -  [固定资产的分配规则](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
-   -  [均匀划分的折旧方法](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
-   -  [固定资产折旧](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
-   -  [现金产出单元上的固定资产减损管理](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
-   -  [设置固定资产的资产报废义务](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
-   -  [设置固定资产的缩减条目](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
--   [通过背书汇票向供应商付款](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
--   [累进预缴税金计算](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
+-  [供应商涵盖的银行付款费用](/dynamics365/unified-operations/financials/localizations/apac-jpn-bank-payment-fees-vendors)
+-  [合并的发票](/dynamics365/unified-operations/financials/localizations/apac-jpn-consolidate-invoices)
+-  [固定资产的分配规则](/dynamics365/unified-operations/financials/localizations/apac-jpn-allocation-rules-fixed-assets)
+-  [均匀划分的折旧方法](/dynamics365/unified-operations/financials/localizations/apac-jpn-equally-divided-depreciation-method)
+-  [固定资产折旧](/dynamics365/unified-operations/financials/localizations/apac-jpn-fixed-asset-depreciation)
+-  [现金产出单元上的固定资产减损管理](/dynamics365/unified-operations/financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit)
+-  [导入邮政编码](/dynamics365/unified-operations/financials/localizations/apac-jpn-import-postal-codes)
+-  [设置固定资产的资产报废义务](/dynamics365/unified-operations/financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets)
+-  [设置固定资产的缩减条目](/dynamics365/unified-operations/financials/localizations/apac-jpn-reduction-entry-fixed-assets)
+-  [通过背书汇票向供应商付款](/dynamics365/unified-operations/financials/localizations/apac-jpn-endorse-bill-of-exchange)
+-  [累进预缴税金计算](/dynamics365/unified-operations/financials/localizations/apac-jpn-progressive-withholding-tax-calculation)
 
 ### <a name="latvia"></a>拉脱维亚
 
@@ -254,6 +267,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 ### <a name="norway"></a>挪威
 
 -   [净导入格式](/dynamics365/unified-operations/financials/localizations/emea-nor-nets-import-format)
+-   [增值税报表](/dynamics365/unified-operations/financials/localizations/emea-nor-sales-tax-payment-report)
 
 ### <a name="poland"></a>波兰
 
@@ -290,7 +304,8 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 
 ### <a name="sweden"></a>瑞典
 
--   [导入瑞典的付款形式](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
+-   [导入适用于瑞典的付款形式](/dynamics365/unified-operations/financials/localizations/emea-swe-payment-formats-import)
+-   [适用于瑞典的收银机](/dynamics365/unified-operations/retail/localizations/emea-swe-cash-registers)
 
 ### <a name="switzerland"></a>瑞士
 
