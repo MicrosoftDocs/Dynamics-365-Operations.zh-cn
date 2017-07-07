@@ -3,14 +3,14 @@ title: "库存状态"
 description: "本文介绍如何使用库存状态来分类和跟踪库存。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResStorageDimensionGroup, WHSInventStatus
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 21331
 ms.assetid: b35f495f-de4f-48a0-9d09-4d06781d7650
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1565b7738260270a986b515dfd21931296ce83bd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b3ec66c805d028c20f3d3f95e7af9d78252828c7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -44,7 +44,7 @@ ms.lasthandoff: 05/25/2017
 
 库存状态是存储维度组中的一个维度。 库存状态可归类为可用或不可用，您可以使用**库存锁定**参数锁定具有不可用库存状态的物料。 具有锁定状态的物料被视为实际库存，并且不能在生产订单、销售订单、转移定单或出货交易记录中使用。 
 
-您可以为进货工作使用具有可用或不可用库存状态的仓库物料。 例如，您创建名为**就绪**的可用状态，名为**已损坏**的不可用状态，和名为**已锁定**的锁定状态。 在您创建已接收或退回物料的采购订单时，如果任何物料已损坏或已中断，您可以在采购订单行上更改这些物料的库存状态为**已损坏**。 在这些物料接收后，状态自动设置为**已锁定**。 如果您通过使用移动设备扫描已损坏的物料，Microsoft Dynamics 365 for Operations 可以使用位置指令和工作模板来显示有关您可以将这些物料入库的适当位置或位置范围的信息。 对于退回的物料，在**库存交易记录**页中创建**预留**的发货类型。 
+您可以为进货工作使用具有可用或不可用库存状态的仓库物料。 例如，您创建名为**就绪**的可用状态，名为**已损坏**的不可用状态，和名为**已锁定**的锁定状态。 在您创建已接收或退回物料的采购订单时，如果任何物料已损坏或已中断，您可以在采购订单行上更改这些物料的库存状态为**已损坏**。 在这些物料接收后，状态自动设置为**已锁定**。 如果您通过使用移动设备扫描已损坏的物料，Microsoft Dynamics 365 for Finance and Operations 可以使用库位指令和工作模板来显示有关您可以将这些物料入库的适当库位或库位范围的信息。 对于退回的物料，在**库存交易记录**页中创建**预留**的发货类型。 
 
 对于出货工作，使用具有个可用库存状态的物料。 如果您有处于**已中断**状态的物料，并且主计划运行这些物料，则将物料视为缺失，库存会自动补货。 
 

@@ -3,14 +3,14 @@ title: "为仓库工作设置移动设备"
 description: "本文介绍如何配置仓库工作人员用于在移动设备上执行工作的菜单项。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSRFMenuItem
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6a7658c56e2d0712c6aa27a4bb8ffc02bbd01d6c
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: dfb738e41f4b3f7d475a551dca0aba7a071dd989
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -165,7 +165,7 @@ ms.lasthandoff: 05/25/2017
 </tr>
 <tr>
 <td>根据模板变动</td>
-<td>以半自动的方式将物料从一个位置移动到另一个位置。 工作人员选择移动物料的起始位置，并且 Microsoft Dynamics 365 for Operations 使用位置指令来确定物料要移动到的位置。</td>
+<td>以半自动的方式将物料从一个位置移动到另一个位置。 工作人员选择移动物料的起始位置，并且 Finance and Operations 使用位置指令来确定物料要移动到的位置。</td>
 </tr>
 <tr>
 <td>仓库转移</td>
@@ -214,7 +214,7 @@ ms.lasthandoff: 05/25/2017
 </tr>
 <tr class="even">
 <td>系统导向的</td>
-<td>Microsoft Dynamics 365 for Operations 控制分配给工作人员的工作类型，以及工作人员执行该工作的顺序。 当您选择此选项时，您可以单击“操作”窗格上的<strong>系统导向的工作</strong>来打开<strong>系统导向的排序顺序</strong>页，从中可以设置该工作的排序条件。 排序条件控制工作人员执行工作的顺序。 您可以根据需要添加任意数目的条件。</td>
+<td>Microsoft Dynamics 365 for Finance and Operations 控制分配给工作人员的工作类型，以及工作人员执行该工作的顺序。 当您选择此选项时，您可以单击“操作”窗格上的<strong>系统导向的工作</strong>来打开<strong>系统导向的排序顺序</strong>页，从中可以设置该工作的排序条件。 排序条件控制工作人员执行工作的顺序。 您可以根据需要添加任意数目的条件。</td>
 </tr>
 <tr class="odd">
 <td>用户导向的</td>
@@ -226,7 +226,7 @@ ms.lasthandoff: 05/25/2017
 </tr>
 <tr class="odd">
 <td>系统分组</td>
-<td>Microsoft Dynamics 365 for Operations 根据指定的字段为工作人员进行工作分组。 例如，当工作人员扫描装运 ID、负载 ID 或者与每个工作单位链接的任何值时，分组领料工作。 如果您选择此选项，需要下列字段：
+<td>Microsoft Dynamics 365 for Finance and Operations 根据指定的字段为工作人员进行工作分组。 例如，当工作人员扫描装运 ID、负载 ID 或者与每个工作单位链接的任何值时，分组领料工作。 如果您选择此选项，需要下列字段：
 <ul>
 <li><strong>系统分组字段</strong> - 选择工作人员需要用来扫描以分组工作的字段。</li>
 <li><strong>系统分组标签</strong> - 输入文本，通知工作人员需要扫描哪些内容，才能将工作分组。</li>
@@ -247,7 +247,7 @@ ms.lasthandoff: 05/25/2017
 </tr>
 <tr class="even">
 <td>周期盘点分组</td>
-<td>工作人员选择一个区域、工作池或地点，Microsoft Dynamics 365 for Operations 将根据选择情况分配工作。 如果您选择此选项，则可以单击“操作”窗格上的<strong>周期盘点</strong>，指定要显示的其他信息，您还可以指定在发现任何差异的情况下，工作人员需要重复盘点的次数。</td>
+<td>工作人员选择一个区域、工作池或地点，Microsoft Dynamics 365 for Finance and Operations 将根据选择情况分配工作。 如果您选择此选项，则可以单击“操作”窗格上的<strong>周期盘点</strong>，指定要显示的其他信息，您还可以指定在发现任何差异的情况下，工作人员需要重复盘点的次数。</td>
 </tr>
 </tbody>
 </table>
@@ -331,7 +331,7 @@ ms.lasthandoff: 05/25/2017
 </tr>
 <tr class="odd">
 <td>组储存</td>
-<td>选中此选项以便对入库工作进行分组。 当您创建工作且工作创建流程为 Microsoft Dynamics 365 for Operations 时，此选项可用。 当工作人员完成组中所有的领料工作时，将创建同一组的入库工作。</td>
+<td>选中此选项以便对入库工作进行分组。 当您创建工作且工作创建流程为 Microsoft Dynamics 365 for Finance and Operations 时，此选项可用。 当工作人员完成组中所有的领料工作时，将创建同一组的入库工作。</td>
 </tr>
 <tr class="even">
 <td>库存调整类型</td>
@@ -364,11 +364,11 @@ ms.lasthandoff: 05/25/2017
 </tr>
 <tr class="even">
 <td>系统分组字段</td>
-<td>选择决定 Microsoft Dynamics 365 for Operations 如何为工作人员领料工作进行分组的字段。 例如，如果您选择<strong>“ShipmentId”</strong>字段，工作人员将扫描装运 ID 来对领料工作进行分组。 然后将装运的所有工作分配给工作人员。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 您还必须在<strong>系统分组标签</strong>字段中输入文本以通知工作人员需要扫描哪些内容。</td>
+<td>选择决定 Microsoft Dynamics 365 for Finance and Operations 如何为工作人员领料工作进行分组的字段。 例如，如果您选择<strong>“ShipmentId”</strong>字段，工作人员将扫描装运 ID 来对领料工作进行分组。 然后将装运的所有工作分配给工作人员。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 您还必须在<strong>系统分组标签</strong>字段中输入文本以通知工作人员需要扫描哪些内容。</td>
 </tr>
 <tr class="odd">
 <td>系统分组标签</td>
-<td>输入文本，这些文本将通知工作人员当 Microsoft Dynamics 365 for Operations 分组领料工作时，需要扫描的内容。 例如，如果您正在使用 <strong>ShipmentId</strong> 字段以按照装运分组领料工作，您可以在字段中输入<strong>装运 ID</strong>。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 您还必须在<strong>系统分组字段</strong>字段中选择要按其分组的字段。</td>
+<td>输入文本，这些文本将通知工作人员当 Microsoft Dynamics 365 for Finance and Operations 分组领料工作时，需要扫描的内容。 例如，如果您正在使用 <strong>ShipmentId</strong> 字段以按照装运分组领料工作，您可以在字段中输入<strong>装运 ID</strong>。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 您还必须在<strong>系统分组字段</strong>字段中选择要按其分组的字段。</td>
 </tr>
 <tr class="even">
 <td>使用默认数据</td>
@@ -384,13 +384,13 @@ ms.lasthandoff: 05/25/2017
 </tr>
 <tr class="odd">
 <td>工作模板代码</td>
-<td>选择用于创建工作流程的工作模板。 例如，如果您接收了工作订单中的某个物料，那么会基于工作模板生成入库工作。 如果您没有选择某一个工作模板，Microsoft Dynamics 365 for Operations 将基于查询条件分配模板。 有关工作模板的详细信息，请参阅<a href="control-warehouse-location-directives.md">使用工作模板和库位指令控制仓库的工作</a>。</td>
+<td>选择用于创建工作流程的工作模板。 例如，如果您接收了工作订单中的某个物料，那么会基于工作模板生成入库工作。 如果您没有选择某一个工作模板，Microsoft Dynamics 365 for Finance and Operations 将基于查询条件分配模板。 有关工作模板的详细信息，请参阅<a href="control-warehouse-location-directives.md">使用工作模板和库位指令控制仓库的工作</a>。</td>
 </tr>
 </tbody>
 </table>
 
 ## <a name="require-workers-to-confirm-the-product-location-or-quantity-when-they-pick-items"></a>在工作人员领取物料时，要求他们确定产品、位置或数量
-您可以设置工作确认，从而要求工作人员在执行仓库内的工作时，使用移动设备登记位置或数量。 工作确认帮助确保工作人员处于正确的位置，或者处理的物料数量正确。 您还可以启用 Microsoft Dynamics 365 for Operations 自动确认工作人员的登记信息。 如果您启用自动确认，您将不能要求位置或数量的确认。 工作确认还包括产品和产品变型。 另外，您还可以通过扫描条形码登记确认。 若要确定产品和产品变型，您必须输入一个产品或产品变型 ID。 引 ID 可以是产品 ID、产品搜索 ID、外部 ID、GTIN 或条形码。 当您输入 ID 或扫描条形码之后，产品变型的维度将显示在移动设备中。 
+您可以设置工作确认，从而要求工作人员在执行仓库内的工作时，使用移动设备登记位置或数量。 工作确认帮助确保工作人员处于正确的位置，或者处理的物料数量正确。 您还可以启用 Microsoft Dynamics 365 for Finance and Operations 自动确认工作人员的登记信息。 如果您启用自动确认，您将不能要求位置或数量的确认。 工作确认还包括产品和产品变型。 另外，您还可以通过扫描条形码登记确认。 若要确定产品和产品变型，您必须输入一个产品或产品变型 ID。 引 ID 可以是产品 ID、产品搜索 ID、外部 ID、GTIN 或条形码。 当您输入 ID 或扫描条形码之后，产品变型的维度将显示在移动设备中。 
 
 下表介绍可用于工作确认的不同的工作类型。
 

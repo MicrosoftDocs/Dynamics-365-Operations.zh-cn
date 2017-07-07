@@ -1,16 +1,16 @@
 ---
 title: "管理仓库工作人员"
-description: "本文介绍如何使用 Microsoft Dynamics AX 帮助监控由您仓库的员工执行的工作。"
+description: "本文介绍如何使用 Dynamics 365 for Finance and Operations 帮助监控由您仓库的员工执行的工作。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmWorker, InventLocation, WHSLaborStandards, WHSWorker, WHSWorkTable, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72891
 ms.assetid: feaa6f15-49d2-41f5-9b87-453463c52e4e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b4e2cb91cac210a659f261c5fcabb5f3643cdbec
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 52753c21862a2955e15140bb1cdb5ef6f6efe31a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍如何使用 Microsoft Dynamics AX 帮助监控由您仓库的员工执行的工作。
+本文介绍如何使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 帮助监控由您仓库的员工执行的工作。
 
 如果在仓库管理中使用此功能，所有仓库工作人员的操作称作*工作*。 领料、移动和盘点现有库存量等工作使用移动设备记录。 在仓库工作人员可以执行工作之前，他或她必须与人力资源的工作人员关联。 每个**工作人员**帐户可以有多个仓库工作用户与它关联。 这些工作用户可以在不同的仓库工作，并且可具有不同级别的各个移动设备菜单的访问权限。 您可以将仓库工作用户视作所选工作人员的多重登录。 每个工作用户具有默认仓库，并且特定工作流由可用于该工作用户的菜单项显示。 
 

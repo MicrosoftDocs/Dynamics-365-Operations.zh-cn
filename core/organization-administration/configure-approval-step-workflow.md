@@ -3,13 +3,13 @@ title: "配置工作流中的审核步骤"
 description: "本主题说明如何配置审核步骤的属性。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192161
 ms.assetid: 8b478e3d-d6b4-403b-aae0-f639a71ca36c
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1924562f866ecdbb6fa6d3d0a9dc7627387f2d6a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 61b3107516c7af8d1c0f4c427bdffa9be0fbc18d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -126,10 +126,10 @@ ms.lasthandoff: 05/25/2017
     </tr>
     <tr class="even">
     <td>用户</td>
-    <td>特定 Microsoft Dynamics 365 for Operations 用户</td>
+    <td>特定的 Microsoft Dynamics 365 for Finance and Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其分配步骤的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。 选择要向其分配步骤的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     </tbody>
@@ -229,10 +229,10 @@ ms.lasthandoff: 05/25/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>特定 Dynamics 365 for Operations 用户</td>
+    <td>特定 Finance and Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其呈报文档的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。 选择要向其呈报文档的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     </tbody>

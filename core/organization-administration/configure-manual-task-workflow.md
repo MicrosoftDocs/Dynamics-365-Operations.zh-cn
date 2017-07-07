@@ -3,13 +3,13 @@ title: "在工作流中配置手动任务"
 description: "本主题说明如何配置手动任务的属性。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d2a69066a1245d5b86d27d01db4b67d4a490488
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 242abaae1aa17578ba8eab4b2664794ff2c2caec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -126,10 +126,10 @@ ms.lasthandoff: 05/25/2017
     </tr>
     <tr class="even">
     <td>用户</td>
-    <td>特定 Microsoft Dynamics 365 for Operations 用户</td>
+    <td>特定的 Microsoft Dynamics 365 for Finance and Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其分配任务的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。 选择要向其分配任务的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     <tr class="odd">
@@ -212,10 +212,10 @@ ms.lasthandoff: 05/25/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>特定 Dynamics 365 for Operations 用户</td>
+    <td>特定 Finance and Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择要向其呈报任务的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
+    <li><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。 选择要向其呈报任务的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</li>
     </ol></td>
     </tr>
     </tbody>
@@ -306,10 +306,10 @@ ms.lasthandoff: 05/25/2017
     </tr>
     <tr class="odd">
     <td>用户</td>
-    <td>特定 Dynamics 365 for Operations 用户</td>
+    <td>特定 Finance and Operations 用户</td>
     <td><ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
-    <li><strong>可用用户</strong>列表包含所有 Dynamics 365 for Operations 用户。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
+    <li><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。 选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</li>
     </ol></td>
     </tr>
     </tbody>

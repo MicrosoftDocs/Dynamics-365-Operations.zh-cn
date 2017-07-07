@@ -3,13 +3,14 @@ title: "供应商协作开票工作区"
 description: "本主题介绍如何通过供应商协作开票工作区查看供应商发票和提交发票。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c8fe2fea08dbad625cd373ca316135ac4e29e13
+ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
+ms.openlocfilehash: 2171a454c763abab82f6555950994237b4de7b8b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/14/2017
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 本主题介绍如何通过供应商协作开票工作区查看供应商发票和提交发票。
 
-“**供应商协作开票**”工作区可用于查看供应商发票信息和使用工作流功能提交发票至 Microsoft Dynamics 365 for Operations。
+“**供应商协作开票**”工作区可用于查看供应商发票信息和使用工作流功能提交发票至 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition。
 供应商协作开票工作区
 ----------------------------------------
 
@@ -40,9 +41,9 @@ ms.lasthandoff: 05/25/2017
 
 **汇总**磁贴提供了所选供应商的发票概览。 您可以按其状态查看发票。
 -   草稿发票尚未提交到工作流。
--   已提交但未审核的发票为供应商已经提交，但未在 Dynamics 365 for Operations 中过帐的发票。
--   已审核但未付款的发票为已经在 Dynamics 365 for Operations 中过帐但尚未付清的发票。
--   已付款发票为已经在 Dynamics 365 for Operations 中全额付清的发票。
+-   已提交但未审核的发票为供应商已经提交，但未在 Finance and Operations 中过帐的发票。
+-   已审核但未付款的发票为已经在 Finance and Operations 中过帐但尚未付清的发票。
+-   已付款发票为已经在 Finance and Operations 中全额付清的发票。
 
 单击磁贴将打开“**发票列表**”页面的筛选视图。
 ### <a name="tabular-lists"></a>表格式列表
@@ -59,7 +60,7 @@ ms.lasthandoff: 05/25/2017
 
 
 
-有关详细信息，请参阅[通过使用供应商门户与供应商协作](/dynamics365/operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
+有关详细信息，请参阅[通过使用供应商门户与供应商协作](/dynamics365/unified-operations/supply-chain/procurement/collaborate-vendors-vendor-portal)
 
 
 

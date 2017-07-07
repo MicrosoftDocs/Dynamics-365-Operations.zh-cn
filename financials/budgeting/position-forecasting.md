@@ -1,16 +1,16 @@
 ---
 title: "职位预测"
-description: 
+description: "与工作人员相关的费用通常在组织成本中占较大比例。 职位预测让您计划这些费用并将它们包含在预算计划中。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 03645693c5101c48ef9d35bdbe14debef1e69fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,7 +29,6 @@ ms.lasthandoff: 05/25/2017
 # <a name="position-forecasting"></a>职位预测
 
 [!include[banner](../includes/banner.md)]
-
 
 
 
@@ -97,7 +96,7 @@ Jodi 不希望经理更改福利金额。 因此，她在**预测职位覆盖**�
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>创建现有职位的预测职位
 
-为获得最准确的预算计划，您可以通过使用 Microsoft Dynamics 365 for Operations 中现有职位的详细信息来创建预测职位，不论该职位当前是否填写。 
+为获得最准确的预算计划，您可以通过使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中现有职位的详细信息来创建预测职位，不论该职位当前是否填写。 
 
 **添加现有职位**功能显示组织的所有职位。 通过设置**假设**日期，您可以更改职位列表，以使它包含在过去日期存在的职位或在将来日期（例如，下一个预算周期的开始）的职位（更为常见）。 选择预算计划流程和预算计划方案，在列表中选择职位，然后单击**确定**创建所选职位的预测职位。 请注意，在预算计划流程和方案中您只能为每个现有职位创建一个预测职位。 但是，您可以通过分配不同的预算计划方案创建附加版本。 
 

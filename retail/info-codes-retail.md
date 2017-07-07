@@ -3,26 +3,27 @@ title: "信息代码"
 description: "本文提供有关信息代码、信息代码组以及如何使用它们的概览。"
 author: mugunthanm
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 22761
 ms.assetid: 99877dba-a6e3-4d88-ba0a-ee5913aea17e
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5790f54a531336b30ee140ebf8b9c782d8b347f7
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: b7417a8fece55963dcde53e7016e4d41793a6102
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -41,8 +42,8 @@ ms.lasthandoff: 05/25/2017
 -   销售的产品为常规销售、折扣销售或免费产品。
 -   当出纳代在未执行销售操作时打开暂存器抽屉时，提示出纳输入值或从子代码列表中选择。
 
-## <a name="info-codes-group-in-retail-and-commerce"></a>零售和商业中的信息代码组
-在 Dynamics 365 for Operations - Retail 中，可以创建信息代码组。 信息代码组通过允许您定义少数的信息代码来增加灵活性，然后以更多样化的方式使用它们。 您可以通过以下方式使用信息代码组：
+## <a name="info-codes-group"></a>信息代码组
+在 Dynamics 365 for Retail 中，可以创建信息代码组。 信息代码组通过允许您定义少数的信息代码来增加灵活性，然后以更多样化的方式使用它们。 您可以通过以下方式使用信息代码组：
 -   定义少数信息代码，轻松重复使用。 信息代码组中包括的信息代码没有预定义依赖其他信息代码。 多个信息代码组可以包含相同的信息代码，然后使用优先级按照在任意情形下都有效的顺序为相同的信息代码排序。
 -   将信息代码链接到其他信息代码或信息代码组以收集关于产品或交易的信息，而无需为每个场景定义单独的信息代码或链接的信息代码。
 

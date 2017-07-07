@@ -1,27 +1,29 @@
 ---
 title: "设置客户会员计划"
-description: "本文介绍如何设置会员计划。 通过奖励购买您零售店产品的客户，会员计划有助于增加客户忠诚度。 在 Microsoft Dynamics 365 for Operations 中，您可以在所有零售渠道设置简单或复杂的应用于整个法人实体的会员计划。"
+description: "本文介绍如何设置会员计划。 通过奖励购买您零售店产品的客户，会员计划有助于增加客户忠诚度。 在 Microsoft Dynamics 365 for Retail 中，您可以在所有零售渠道设置简单或复杂的应用于整个法人实体的会员计划。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16201
 ms.assetid: f79559d2-bc2d-4f0b-a938-e7a61524ed80
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 04521c20ddeca1154b134b23c1db69f45c554ed3
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-本文介绍如何设置会员计划。 通过奖励购买您零售店产品的客户，会员计划有助于增加客户忠诚度。 在 Microsoft Dynamics 365 for Operations 中，您可以在所有零售渠道设置简单或复杂的应用于整个法人实体的会员计划。
+本文介绍如何设置会员计划。 通过奖励购买您零售店产品的客户，会员计划有助于增加客户忠诚度。 在 Microsoft Dynamics 365 for Retail 中，您可以在所有零售渠道设置简单或复杂的应用于整个法人实体的会员计划。
 
 <a name="loyalty-features"></a>会员功能
 ----------------
@@ -45,7 +47,7 @@ ms.lasthandoff: 05/25/2017
 -   手动调整会员卡或将会员奖励从一个卡转移到另一个卡以满足或奖励客户。
 
 ## <a name="setting-up-loyalty-programs"></a>设置会员计划
-您必须设置多个组件才可以启用 Dynamics 365 for Operations - Retail 中的会员功能。 下图介绍了会员组件，以及如何相互联系。 ![会员设置流程](./media/loyaltyprocess.gif)
+您必须设置多个组件才可以启用 Dynamics 365 for Retail 中的会员功能。 下图介绍了会员组件，以及如何相互联系。 ![会员设置流程](./media/loyaltyprocess.gif)
 
 ## <a name="loyalty-components"></a>会员组件
 下表描述了每个组件和用于会员设置的位置。
@@ -68,7 +70,7 @@ ms.lasthandoff: 05/25/2017
 
 | 流程名称                         | 描述                                                                                                                                                                                                                                                                                                                                                                                                    | 页面名称                            |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------|
-| 1050 （会员信息）           | 运行此流程将会员数据从 Dynamics 365 for Operations 发送到零售商店。 最好计划此流程经常运行，以便会员数据传送给所有商店。                                                                                                                                                                                               | 配送计划                |
+| 1050 （会员信息）           | 运行此流程将会员数据从 Dynamics 365 for Retail 发送到零售商店。 最好计划此流程经常运行，以便会员数据传送给所有商店。                                                                                                                                                                                               | 配送计划                |
 | 处理会员计划              | 运行此流程将会员方案与会员方案分配给的零售渠道关联。 此流程可以计划为批处理。 如果您更改会员配置数据，例如会员方案、会员计划或会员奖励分，您必须运行此流程。                                                                                               | 处理会员计划              |
 | 脱机处理会员交易记录 | 运行此流程更新会员卡以便它们包括已处理脱机的事务。 只有当**脱机收益**复选框在 **零售共享参数** 页上处于选中状态时，此流程才适用，因此奖励可以脱机获取。                                                                                                                                               | 脱机处理会员交易记录 |
 | 更新会员卡层            | 运行此流程根据会员计划的层规则评估客户的收益活动和更新客户的层状态。 只有当更改会员计划的层规则，以及您希望更新规则以倒溯的形式应用于已经签发的会员卡时，才需要此流程。 此过程可以作为批处理或为个人卡运行。 | 更新会员卡层            |

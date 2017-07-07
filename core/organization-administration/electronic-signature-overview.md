@@ -1,16 +1,16 @@
 ---
 title: "电子签名概览"
-description: "本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Operations 中使用它们。"
+description: "本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Finance and Operations 中使用它们。"
 author: maertenm
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13611
 ms.assetid: 98dc6b79-1895-45d8-9dd1-2c8a351b58af
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5adf45769657e4da81af00b2114a2c1a98655207
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 0cebd30a560ff033efab89c2055827b62cf31576
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,15 +31,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Operations 中使用它们。
+本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Finance and Operations 中使用它们。
 
 <a name="what-is-an-electronic-signature"></a>什么是电子签名？
 --------------------------------
 
-电子签名确认要启动或审核计算流程的人员的身份。 在一些行业中，电子签名与手写签名在法律上具有相同效力。 电子签名是一些受管制行业（如制药业、食品和饮料业以及航空和国防）的法规遵从性要求。 它们也是遵循 21 CFR 第 11 部分（由美国食品和药品管理局颁发）中的法规所必需的。 **注意：**电子签名本身与数字签名不同。 电子签名只是手写签名的替代品，而数字签名还提供其他安全措施。 数字签名可以帮助标识其他用户或进程是否篡改了数据。 还可以验证数字签名，并且用于对数据签名的证书所有者不能驳倒此验证。 如下所述，Microsoft Dynamics 365 for Operations 中的电子签名具有内置数字签名功能。
+电子签名确认要启动或审核计算流程的人员的身份。 在一些行业中，电子签名与手写签名在法律上具有相同效力。 电子签名是一些受管制行业（如制药业、食品和饮料业以及航空和国防）的法规遵从性要求。 它们也是遵循 21 CFR 第 11 部分（由美国食品和药品管理局颁发）中的法规所必需的。 **注意：**电子签名本身与数字签名不同。 电子签名只是手写签名的替代品，而数字签名还提供其他安全措施。 数字签名可以帮助标识其他用户或进程是否篡改了数据。 还可以验证数字签名，并且用于对数据签名的证书所有者不能驳倒此验证。 如下所述，Microsoft Dynamics 365 for Finance and Operations 中的电子签名具有内置数字签名功能。
 
-## <a name="electronic-signatures-in-dynamics-365-for-operations"></a>Dynamics 365 for Operations 中的电子签名
-在 Dynamics 365 for Operations 中，可以对关键业务流程使用电子签名。 一些流程具有内置电子签名功能。 还可以为任意数据库表和字段创建自定义签名要求。 电子签名具有内置数字签名功能。 对文档签名的每个用户必须获取有效的加密证书。 对文档签名时，与此证书相关的私钥进行验证。 Dynamics 365 for Operations 在日志中记录电子签名信息以提供审计线索。 若要设置电子签名，请参阅[设置电子签名（任务指南）](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/)。
+## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations 中的电子签名
+在 Finance and Operations 中，可以对关键业务流程使用电子签名。 一些流程具有内置电子签名功能。 还可以为任意数据库表和字段创建自定义签名要求。 电子签名具有内置数字签名功能。 对文档签名的每个用户必须获取有效的加密证书。 对文档签名时，与此证书相关的私钥进行验证。 Finance and Operations 在日志中记录电子签名信息以提供审计线索。 若要设置电子签名，请参阅[设置电子签名（任务指南）](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/)。
 
 ## <a name="users-who-require-access-to-electronic-signatures"></a>需要访问电子签名的用户
 以下三类用户通常要求电子签名的安全访问权限：电子签名管理员、签名人和电子签名审计员。
@@ -62,7 +62,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="signing-documents-electronically"></a>对文档进行电子签名
 ### <a name="get-a-certificate"></a>获取证书
 
-在 Dynamics 365 for Operations 中对文档进行电子签名前，每个签名人必须申请证书。 **注意：**Dynamics 365 for Operations 使用 Microsoft SQL Server 功能来创建证书并允许进行电子签名。 不需要其他证书或公钥基础结构 (PKI)。 申请证书时，会在 Dynamics 365 for Operations 数据库中为您创建一个公钥和一个私钥。 私钥是通过使用只有您知道的密码进行加密。 当对文档进行电子签名时，通过输入密码来验证您的身份。 要请求证书，在**选项**页，在**帐户**选项卡上，单击**获取证书**。 您必须输入并确认您将用于签名的密码。 使用该密码来保护您的私钥并授权使用您的证书。 该密码不存储在数据库中，对于任何其他人（甚至 Dynamics 365 for Operations 管理员）都不可用。 如果您忘记与证书连接的密码，证书必须重置。 如果重置证书，您不会影响使用旧证书签名的文档。 若要重置证书，在**选项**页上，单击**重置证书**。
+在 Finance and Operations 中对文档进行电子签名前，每个签名人必须申请证书。 **注意：**Finance and Operations 使用 Microsoft SQL Server 功能来创建证书并允许进行电子签名。 不需要其他证书或公钥基础结构 (PKI)。 申请证书时，会在 Finance and Operations 数据库中为您创建一个公钥和一个私钥。 私钥是通过使用只有您知道的密码进行加密。 当对文档进行电子签名时，通过输入密码来验证您的身份。 要请求证书，在**选项**页，在**帐户**选项卡上，单击**获取证书**。 您必须输入并确认您将用于签名的密码。 使用该密码来保护您的私钥并授权使用您的证书。 该密码不存储在数据库中，对于任何其他人（甚至 Finance and Operations 管理员）都不可用。 如果您忘记与证书连接的密码，证书必须重置。 如果重置证书，您不会影响使用旧证书签名的文档。 若要重置证书，在**选项**页上，单击**重置证书**。
 
 ### <a name="sign-a-document-electronically"></a>对文档进行电子签名
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="sign-for-another-users-changes"></a>为其他用户的更改签名
 
-有时您可能需要用户为其他用户的更改签名。 例如，可能要求主管为员工所做的物料清单 (BOM) 更改签名。 使用此过程可以将 Dynamics 365 for Operations 用户指定为其他用户的签名人。 **注意：**当某用户为其他用户的更改签名时，必须在执行更改的用户的工作站提供签名。 只有提供签名后，该用户才能保存更改。 若要指定审核人，请执行以下步骤。
+有时您可能需要用户为其他用户的更改签名。 例如，可能要求主管为员工所做的物料清单 (BOM) 更改签名。 使用此过程可以将 Finance and Operations 用户指定为其他用户的签名人。 **注意：**当某用户为其他用户的更改签名时，必须在执行更改的用户的工作站提供签名。 只有提供签名后，该用户才能保存更改。 若要指定审核人，请执行以下步骤。
 
 1.  在**选项**页，在**帐户**选项卡上，单击**指定审核人**。
 2.  在**审核人用户 ID** 字段中，选择必须为其他用户的更改签名的用户的 ID。

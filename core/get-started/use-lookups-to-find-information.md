@@ -1,15 +1,15 @@
 ---
 title: "使用查询查找信息"
-description: "在 Microsoft Dynamics 365 for Operations 中，许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。"
+description: "在 Microsoft Dynamics 365 for Finance and Operations 中，许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。"
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269934
 ms.assetid: f20cbd2c-14e0-47e7-b351-8e60d3537f96
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 652fbdb7a96c516ca1fc17357683d94b85cd93f3
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a5d0a9edd2cb5747fc799c6fdca45dd9ba5720f7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-在 Microsoft Dynamics 365 for Operations 中，许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。  
+在 Microsoft Dynamics 365 for Finance and Operations 中，许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。  
 
 <a name="responsive-lookups"></a>查询响应速度快
 ------------------
 
-在 Dynamics 365 for Operations 之前版本中，与查询控件交互时，用户必须采取明确的操作才能打开下拉菜单。 具体方法可能是，在控件中键入星号 (\*) 以基于控件的当前值筛选查询，单击下拉按钮，或使用 **Alt**+**向下键**键盘快捷方式。 已在以下方面修改了查询控件，以便更好地适应当前 Web 实践：
+在以前版本的 Finance and Operations 中，与查询控件交互时，用户必须采取明确的操作才能打开下拉菜单。 具体方法可能是，在控件中键入星号 (\*) 以基于控件的当前值筛选查询，单击下拉按钮，或使用 **Alt**+**向下键**键盘快捷方式。 已在以下方面修改了查询控件，以便更好地适应当前 Web 实践：
 
 -   现在在键入时如果稍作暂停，将自动打开查询下拉菜单，并根据查询控件的值筛选下拉菜单内容。
     -   请注意，已弃用了键入星号 (\*) 后自动打开下拉菜单这一原有行为。
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/25/2017
 ![changingSelectionLookup](./media/changingselectionlookup.png)
 
 ## <a name="typing-in-more-than-ids"></a>键入多个 ID
-输入数据时，用户自然会尝试通过名称而不是表示实体的标识来确定实体（如客户还是供应商）。 在 Dynamics 365 for Operations 当前版本中，大量（而非全部）查询限制允许上下文数据输入。 用户可通过这项强大的功能在查询控件中键入 ID 或相应名称。 
+输入数据时，用户自然会尝试通过名称而不是表示实体的标识来确定实体（如客户还是供应商）。 在当前版本的 Finance and Operations 中，大量（而非全部）查询限制允许上下文数据输入。 用户可通过这项强大的功能在查询控件中键入 ID 或相应名称。 
 
 例如，创建销售订单时考虑**客户帐户**。 此字段显示客户的**帐户 ID**，但是创建销售订单时，用户通常更愿意为该字段输入**帐户名称**而不是**帐户 ID**，如“Forest Wholesales”而不是“US-003”。
 

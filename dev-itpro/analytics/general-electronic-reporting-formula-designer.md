@@ -3,7 +3,7 @@ title: "电子申报中的配方设计器"
 description: "本主题说明如何在电子申报 (ER) 中使用配方设计器。 在您在 ER 中为特定电子文档设计格式时，您可以使用与 Microsoft Excel 类似的数据换算公式满足该文档的履行和格式的要求。 支持的各种函数类型 - 文本、日期和时间、数学逻辑、信息、数据类型转换和其他（企业域特定函数）。"
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5726a6fc60977a82b49e00ca653696e4051cbb10
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本主题说明如何在电子申报 (ER) 中使用配方设计器。 在您在 ER 中为特定电子文档设计格式时，您可以使用与 Microsoft Excel 类似的数据换算公式满足该文档的履行和格式的要求。 支持的各种函数类型 - 文本、日期和时间、数学逻辑、信息、数据类型转换和其他（企业域特定函数）。
+本主题说明如何在电子申报 (ER) 中使用配方设计器。 在您在 ER 中为特定电子文档设计格式时，您可以使用与 Microsoft Excel 类似的数据换算公式满足该文档的履行和格式的要求。 支持的各种函数类型 - 文本、日期和时间、数学、逻辑、信息、数据类型转换和其他（企业域特定函数）。
 
 <a name="formula-designer-overview"></a>配方设计器概述
 -------------------------
 
 电子申报 (ER) 支持配方设计器。 因此，在设计时间，您可以配置可用于运行时间以下任务的表达式：
 
--   将从 Microsoft Dynamics 365 for Operations 数据库接收的数据以及应填充的数据转换为设计作为 ER 格式的数据源的 ER 数据模型（筛选、分组、数据类型转换等）。
+-   将从 Microsoft Dynamics 365 for Finance and Operations 数据库接收的数据以及应填充的数据转换为设计作为 ER 格式的数据源的 ER 数据模型（筛选、分组、数据类型转换等）。
 -   根据特定 ER 格式的布局和条件（根据请求的语言或文化、编码等）设置必须发送到生成的电子文档的数据的格式。
 -   控制电子文档生成的过程（启用/禁用特定格式元素的输出，具体取决于处理数据、中断文档创建、丢弃最终用户的消息等）。
 
@@ -59,11 +59,11 @@ ms.lasthandoff: 05/25/2017
 
 ER 配方设计器可以用于定义转换接收自数据源的数据的表达式，以便数据在运行时可以在数据用户中填充：
 
--   从 Dynamics 365 for Operations 数据源和运行时参数转换为 ER 数据模型。
+-   从 Finance and Operations 数据源和运行时参数转换为 ER 数据模型。
 -   从 ER 数据模型转换为 ER 格式。
--   从 Dynamics 365 for Operations 数据源和运行时参数转换为 ER 格式。
+-   从 Finance and Operations 数据源和运行时参数转换为 ER 格式。
 
-下图显示了此类表达式的设计。 在此示例中，表达式返回 Dynamics 365 for Operations **内部统计**表的 **Intrastat.AmountMST** 字段的值（在该值舍入到两位小数后）。 [![picture-expression-binding](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg) 下图显示如何使用此类表达式。 在此示例中，设计的表达式的结果填充在**纳税申报模型**数据模型的 **Transaction.InvoicedAmount** 组件中。 [![picture-expression-binding2](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg) 在运行时，设计的配方，**ROUND (Intrastat.AmountMST, 2)** 会将**内部统计**表的每个记录的 **AmountMST** 字段的值舍入到两位小数，并将舍入值填充到**纳税申报**数据模型的 **Transaction.InvoicedAmount** 组件。
+下图显示了此类表达式的设计。 在此示例中，表达式返回 Finance and Operations **内部统计**表的 **Intrastat.AmountMST** 字段的值（在该值舍入到两位小数后）。 [![picture-expression-binding](./media/picture-expression-binding.jpg)](./media/picture-expression-binding.jpg) 下图显示如何使用此类表达式。 在此示例中，设计的表达式的结果填充在**纳税申报模型**数据模型的 **Transaction.InvoicedAmount** 组件中。 [![picture-expression-binding2](./media/picture-expression-binding2.jpg)](./media/picture-expression-binding2.jpg) 在运行时，设计的配方，**ROUND (Intrastat.AmountMST, 2)** 会将**内部统计**表的每个记录的 **AmountMST** 字段的值舍入到两位小数，并将舍入值填充到**纳税申报**数据模型的 **Transaction.InvoicedAmount** 组件。
 
 ### <a name="data-formatting"></a>数据格式设置
 
@@ -157,6 +157,18 @@ ER 表达式可以包含任意或所有以下元素：
 -   **今日日期和时间**数据源必须在 ER 表达式中引用，如下所示：**“今日日期和时间”**
 -   **Customers** 数据源的 **name()** 方法必须在 ER 表达式中引用，如下所示：**Customers.'name()'**
 
+请注意，以下语法用于调用具有以下参数的 Dynamics 365 for Operation 数据源的方法：
+
+- 具有字符串数据类型参数 EN-US 的系统数据源的 isLanguageRTL 方法必须在 ER 表达式中被引用为：System.’isLanguageRTL’(“EN-US”)。
+- 当方法名称仅包含一个字母数字符号时，引号不是必需的。 当名称包含括号时，它们是表方法所必需的。
+
+当系统数据源被添加到引用 Dynamics 365 for Operation 应用程序类“全局”的 ER 映射时，表达式返回布尔值 FALSE。 已修改表达式，System.’ isLanguageRTL’(“AR”) 返回布尔值 TRUE。
+
+请注意，传递到此方法参数可以使用如下限制定义：
+
+- 仅常量可以传递到此方法，其值在设计时进行定义。
+- 仅对此类参数（整数、实数、布尔值、字符串等）支持原始（基础）数据类型。
+
 #### <a name="path"></a>路径
 
 在表达式引用结构化的数据源时，可以使用路径定义选择该数据源的特定基本元素。 点字符 (.) 用于分离结构化数据源的各个元素。 例如，当前的 ER 数据模型包含 **InvoiceTransactions** 数据源，该数据源返回记录列表。 **InvoiceTransactions** 记录结构包含 **AmountDebit** 和 **AmountCredit** 字段，这两个字段将返回数值。 因此，您可以设计以下表达式来计算发票金额：**InvoiceTransactions.AmountDebit - InvoiceTransactions.AmountCredit**
@@ -173,18 +185,29 @@ ER 表达式可以包含任意或所有以下元素：
 | 职能                                   | 描述                                                                                                                                                                                                                                                                                                                                                      | 示例                                                                                                                                                                                                                                                                                               |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ADDDAYS（日期时间，天）                   | 添加指定的天数到指定的日期时间值。                                                                                                                                                                                                                                                                                                | **ADDDAYS (NOW(), 7)** 返回未来七天的日期和时间。                                                                                                                                                                                                                            |
-| DATETODATETIME（日期）                      | 转换指定日期值为一个日期时间值。                                                                                                                                                                                                                                                                                                            | **DATETODATETIME (CompInfo. 'getCurrentDate()')** 返回当前的 Dynamics 365 for Operations 会话日期 12/24/2015 为 **12/24/2015 12:00:00 AM**。 在此示例中，**CompInfo** 为引用 CompanyInfo 表的 **Dynamics 365 for Operations/Table** 类型的 ER 数据源。 |
-| NOW ()                                     | 返回当前的 Dynamics 365 for Operations 应用程序服务器日期和时间作为日期时间值。                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                       |
-| TODAY ()                                   | 返回当前的 Dynamics 365 for Operations 应用程序服务器日期作为日期值。                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                       |
+| DATETODATETIME（日期）                      | 转换指定日期值为一个日期时间值。                                                                                                                                                                                                                                                                                                            | **DATETODATETIME (CompInfo. 'getCurrentDate()')** 返回当前的 Finance and Operations 会话日期 12/24/2015 为 **12/24/2015 12:00:00 AM**。 在此示例中，**CompInfo** 为引用 CompanyInfo 表的 **Finance and Operations/Table** 类型的 ER 数据源。 |
+| NOW ()                                     | 返回当前的 Finance and Operations 应用程序服务器日期和时间作为日期时间值。                                                                                                                                                                                                                                                             |                                                                                                                                                                                                                                                                                                       |
+| TODAY ()                                   | 返回当前的 Finance and Operations 应用程序服务器日期作为日期值。                                                                                                                                                                                                                                                                          |                                                                                                                                                                                                                                                                                                       |
 | NULLDATE ()                                | 返回**空**日期值。                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                       |
 | NULLDATETIME ()                            | 返回**空**日期时间值。                                                                                                                                                                                                                                                                                                                                |                                                                                                                                                                                                                                                                                                       |
-| DATETIMEFORMAT（日期时间，格式）          | 转换指定的日期时间值为指定格式的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。）                                                                        | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** 根据指定的自定义格式返回当前的 Dynamics 365 for Operations 应用程序服务器日期 12/24/2015 为 **"24-12-2015"**。                                                                                                          |
-| DATETIMEFORMAT（日期时间，格式，区域性） | 转换指定的日期时间值为指定格式和[区域性](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。） | **DATETIMEFORMAT (NOW(), "d", "de")** 根据所选的德国区域性返回当前的 Dynamics 365 for Operations 应用程序服务器日期 12/24/2015 为 **"24.12.2015"**。                                                                                                             |
-| SESSIONTODAY ()                            | 返回当前的 Dynamics 365 for Operations 会话日期作为日期值。                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                       |
-| SESSIONNOW ()                              | 返回当前的 Dynamics 365 for Operations 会话日期和时间作为日期时间值。                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
-| DATEFORMAT（日期，格式）                  | 使用指定格式返回日期的字符串表示形式。                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** 根据指定的自定义格式返回当前的 Dynamics 365 for Operations 会话日期 12/24/2015 为 “**24-12-2015**”。                                                                                                                      |
-| DATEFORMAT（日期，格式，区域性）         | 转换指定的日期值为指定格式和[区域性](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。）     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** 根据所选的德国区域性返回当前的 Dynamics 365 for Operations 会话时间 12/24/2015 为 **“24.12.2015”**。                                                                                                                       |
+| DATETIMEFORMAT（日期时间，格式）          | 转换指定的日期时间值为指定格式的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。）                                                                        | **DATETIMEFORMAT (NOW(), "dd-MM-yyyy")** 根据指定的自定义格式返回当前的 Finance and Operations 应用程序服务器日期 12/24/2015 为 **"24-12-2015"**。                                                                                                          |
+| DATETIMEFORMAT（日期时间，格式，区域性） | 转换指定的日期时间值为指定格式和[区域性](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。） | **DATETIMEFORMAT (NOW(), "d", "de")** 根据所选的德国区域性返回当前的 Finance and Operations 应用程序服务器日期 12/24/2015 为 **"24.12.2015"**。                                                                                                             |
+| SESSIONTODAY ()                            | 返回当前的 Dynamics 365 for Finance and Operations 会话日期作为日期值。                                                                                                                                                                                                                                                                                      |                                                                                                                                                                                                                                                                                                       |
+| SESSIONNOW ()                              | 返回当前的 Dynamics 365 for Finance and Operations 会话日期和时间作为日期时间值。                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
+| DATEFORMAT（日期，格式）                  | 使用指定格式返回日期的字符串表示形式。                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** 根据指定的自定义格式返回当前的 Dynamics 365 for Finance and Operations 会话日期 12/24/2015 为 “**24-12-2015**”。                                                                                                                      |
+| DATEFORMAT（日期，格式，区域性）         | 转换指定的日期值为指定格式和[区域性](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。）     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** 根据所选的德国区域性返回当前的 Finance and Operations 会话日期 12/24/2015 为 **“24.12.2015”**。                                                                                                                       |
+| DAYOFYEAR（日期）              | 返回 1 月 1 日与指定日期之间的天数的整数表现形式。       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** 返回 **61**。
+**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** 返回 **1**。                                                                                                                       |
 
+**数据转换函数**
+
+| 职能                                   | 说明                                                                                                                                                                                                                                                                                                                                                      | 示例                                                                                                                                                                                                                                                                                               |
+|--------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| DATETODATETIME（日期）                 | 转换指定日期值为一个日期时间值。           | **DATETODATETIME (CompInfo. 'getCurrentDate()')** 返回当前的 Finance and Operations 会话日期 12/24/2015 为 **12/24/2015 12:00:00 AM**。 在此示例中，**CompInfo** 为引用 **CompanyInfo** 表的 **Finance and Operations/Table** 类型的 ER 数据源。                                                                                                                       |
+| DATEVALUE（字符串，格式）              | 使用指定格式返回字符串的日期表示形式。       | **DATEVALUE ("21-Dec-2016", "dd-MMM-yyyy")** 根据指定的自定义格式和默认应用程序的 **EN-US** 区域性返回日期 12/21/2016。                                                                                                                       |
+| DATEVALUE（字符串，格式，区域性）              | 使用指定格式和区域性返回字符串的日期表示形式。       | **DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", “IT”)** 根据指定的自定义格式和区域性返回日期 01/21/2016。 将对此函数的调用引发异常，**DATEVALUE ("21-Gen-2016", "dd-MMM-yyyy", “EN-US”)** 通知给定的字符串无法被识别为有效的日期。                                                                                                                       |
+| DATETIMEVALUE（字符串，格式）              | 使用指定格式返回字符串的日期时间表示形式。       | **DATETIMEVALUE ("21-Dec-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss")** 根据指定的自定义格式和默认应用程序的 **EN-US** 区域性返回 2016 年 12 月 21 日 2:55:00 AM。                                                                                                                       |
+| DATETIMEVALUE（字符串，格式，区域性）              | 使用指定格式和区域性返回字符串的日期时间表示形式。       | **DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", “IT”)** 根据指定的自定义格式和区域性返回 2016 年 12 月 21 日 2:55:00 AM。 将对此函数的调用引发异常，**DATETIMEVALUE ("21-Gen-2016 02:55:00", "dd-MMM-yyyy hh:mm:ss", “EN-US”)** 通知给定的字符串无法被识别为有效的日期时间。                                                                                                                       |
 ### <a name="list-functions"></a>列表函数
 
 <table>
@@ -329,7 +352,7 @@ ER 表达式可以包含任意或所有以下元素：
 
 | 职能                                                                                | 说明                                                                                                                                                                                                                                                                     | 示例                                                                                                                                                                                                                                                      |
 |-----------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CASE (expression, option 1, result 1 \[, option 2, result 2\] ... \[, default result\]) | 根据指定的备选选项评估指定的表达式值。 返回与表达式的值相等的选项的结果。 否则，将返回可以选择输入的默认结果（前面不加选项的最后一个参数）。 | 当前 Dynamics 365 for Operations 会话日期为 10 月至 12 月之间时，**CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** 返回字符串 **"WINTER"**。 否则，它返回一个空字符串。 |
+| CASE (expression, option 1, result 1 \[, option 2, result 2\] ... \[, default result\]) | 根据指定的备选选项评估指定的表达式值。 返回与表达式的值相等的选项的结果。 否则，将返回可以选择输入的默认结果（前面不加选项的最后一个参数）。 | 当当前的 Finance and Operations 会话日期是在 10 月和 12 月之间时，**CASE( DATETIMEFORMAT( NOW(), "MM"), "10", "WINTER", "11", "WINTER", "12", "WINTER", "")** 返回字符串 **"WINTER"**。 否则，它返回一个空字符串。 |
 | IF（条件，值 1，值 2）                                                        | 在满足指定条件时，返回指定值 1。 否则，返回值 2。 如果值 1 和值 2 是记录或记录列表，结果将只包含两个列表都存在的字段。                                                                     | **IF (1=2, "condition is met", "condition is not met")** 返回字符串 **"condition is not met"**。                                                                                                                                                      |
 | NOT（条件）                                                                         | 返回指定条件的冲销逻辑值。                                                                                                                                                                                                                   | **NOT (TRUE)** 返回 **FALSE**。                                                                                                                                                                                                                            |
 | AND (condition 1\[, condition 2, ...\])                                                 | 如果指定的*所有*条件均为 True，返回 **TRUE**。 否则，返回 **FALSE**。                                                                                                                                                                                            | **AND (1=1, "a"="a")** 返回 **TRUE**。 **AND (1=2, "a"="a")** 返回 **FALSE**。                                                                                                                                                                           |
@@ -394,9 +417,22 @@ ER 表达式可以包含任意或所有以下元素：
 </tbody>
 </table>
 
+**数据转换函数**
+
+| 职能             | 说明                                                                                                                                                                                                                                     | 示例                                                                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| VALUE（字符串） | 将指定的字符串转换为数字。 逗号和点字符 (.) 被视为小数分隔符，前导连字符 (-) 用作负号。 如果其他非数值字符在指定字符串中出现，则发生错误。                                                                                  | **VALUE ("1 234,56")** 引发异常。   |
+| NUMBERVALUE（字符串，小数分隔符，数字分组分隔符） | 将指定的字符串转换为数字。 指定的符号用于分隔十进制数的的整数和小数部分，并且也使用指定的千位分隔符。                                                                                  | **NUMBERVALUE("1 234,56", ",", " ")** 返回值 **1234.56**。    |
+| INTVALUE（字符串） | 退回字符串的整数表现形式。 所有可用的小数部分将被截断。                                                                                  | **INTVALUE (“100.77 ")** 返回 **100**。 |
+| INTVALUE（编号） | 返回数字的整数表现形式。 所有可用的小数部分将被截断。                                                                                  | **INTVALUE (-100.77)** 返回 **-100**。 |
+| INT64VALUE（字符串） | 返回字符串的 int64 表现形式。 所有可用的小数部分将被截断。                                                                                  | **INT64VALUE (“22565422744”)** 返回 **22565422744**。 |
+| INT64VALUE（数字） | 返回数字的 int64 表现形式。 所有可用的小数部分将被截断。                                                                                  | **INT64VALUE (22565422744.00)** 返回 **22565422744**。 |
+
+
+
 ### <a name="record-functions"></a>记录函数
 
-| 职能             | 描述                                                                                                                                                                                                                                     | 示例                                                                                                                                             |
+| 职能             | 说明                                                                                                                                                                                                                                     | 示例                                                                                                                                             |
 |----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
 | NULLCONTAINER（列表） | 返回与指定的记录列表或记录具有相同结构的**空**记录。 **注意：**此函数已废弃。 使用 **EMPTYRECORD**。                                                                                  | **NULLCONTAINER (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。 |
 | EMPTYRECORD（记录） | 返回与指定的记录列表或记录具有相同结构的**空**记录。 **注意：****空**记录是所有字段为空值的记录（**0** \[zero\] 表示数字，空字符串表示字符串等）。 | **EMPTYRECORD (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。   |
@@ -469,29 +505,29 @@ ER 表达式可以包含任意或所有以下元素：
 </tr>
 <tr class="odd">
 <td>TEXT（输入）</td>
-<td>返回指定的输入，其转换为根据当前 Dynamics 365 for Operations 实例的服务器区域设置设置格式的文本字符串。 对于 <strong>real</strong> 类型的值，字符串转换被限制为两位小数。</td>
-<td>如果 Dynamics 365 for Operations 实例服务器区域设置被定义为 <strong>EN-US</strong>，则 <strong>TEXT (NOW ())</strong> 返回当前 Dynamics 365 for Operations 会话日期 12/17/2015 为文本字符串 <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>。 <strong>TEXT (1/3)</strong> 返回 <strong>&quot;0.33&quot;</strong>。</td>
+<td>返回指定的输入，其转换为根据当前 Finance and Operations 实例的服务器区域设置设置格式的文本字符串。 对于 <strong>real</strong> 类型的值，字符串转换被限制为两位小数。</td>
+<td>如果将 Finance and Operations 实例服务器区域定义为 <strong>EN-US</strong>，<strong>TEXT (NOW ())</strong> 返回当前 Finance and Operations 会话日期 12/17/2015 为文本字符串 <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>。 <strong>TEXT (1/3)</strong> 返回 <strong>&quot;0.33&quot;</strong>。</td>
 </tr>
 <tr class="even">
 <td>FORMAT（字符串 1，字符串 2 [，字符串 3，...]）</td>
 <td>返回指定字符串，其通过代替任何出现的带有 <em>n</em> 参数的 <strong>%N</strong> 设置格式。 这些参数是字符串。 如果参数不是为参量提供，则参量在字符串中返回为 <strong>&quot;%N&quot;</strong>。 对于 <strong>real</strong> 类型的值，字符串转换被限制为两位小数。</td>
 <td>在此示例中，数据源 <strong>PaymentModel</strong> 通过<strong>客户</strong>组件返回客户记录列表，通过 <strong>ProcessingDate</strong> 字段返回处理日期值。 <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 在指定用于为所选客户生成电子文件的 ER 格式中，<strong>PaymentModel</strong> 被选择为数据源并控制流程。 当所选客户在处理报表的日期停止时，将引发最终用户异常。 为此类处理控制设计的配方可以使用以下资源：
 <ul>
-<li>Dynamics 365 for Operations 标签 SYS70894，具有以下文本：
+<li>Finance and Operations 标签 SYS70894，具有以下文本：
 <ul>
 <li><strong>对于 EN-US 语言：</strong>&quot;Nothing to print&quot;</li>
 <li><strong>对于 DE 语言：</strong>&quot;Nichts zu drucken&quot;</li>
 </ul></li>
-<li>Dynamics 365 for Operations 标签 SYS18389，具有以下文本：
+<li>Finance and Operations 标签 SYS18389，具有以下文本：
 <ul>
 <li><strong>对于 EN-US 语言：</strong>&quot;Customer %1 is stopped for %2&quot;。</li>
 <li><strong>对于 DE 语言：</strong>&quot;Debitor '%1' wird für %2 gesperrt&quot;。</li>
 </ul></li>
 </ul>
-这是一个可设计的公式：FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;。 &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) 如果报表于 2015 年 12 月 17 日为 <strong>Litware 零售客户</strong>处理，在 <strong>EN-US</strong> 区域性和 <strong>EN-US</strong> 语言中，此公式返回以下文本，其可能呈现为最终用户的异常消息：&quot;Nothing to print。 客户 Litware 零售已于 2015 年 12 月 17 日停止。&quot; 如果 2015 年 12 月 17 日为 <strong>Litware 零售客户</strong>处理同一个报表，在 <strong>DE</strong> 区域性和 <strong>DE</strong> 语言中，此公式返回以下文本（使用不同的日期格式）：&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt。&quot; <strong>注意：</strong>以下语法在标签的 ER 公式中应用：
+这是一个可设计的公式：FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;。 &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) 如果报表于 2015 年 12 月 17 日为 <strong>Litware 零售客户</strong>处理，在 <strong>EN-US</strong> 区域性和 <strong>EN-US</strong> 语言中，此公式返回以下文本，其可能呈现为最终用户的异常消息：&quot;Nothing to print。 客户 Litware 零售已于 2015 年 12 月 17 日停止。&quot;如果 2015 年 12 月 17 日为 <strong>Litware 零售客户</strong>处理同一个报表，在 <strong>DE</strong> 区域性和 <strong>DE</strong> 语言中，此公式返回以下文本（使用不同的日期格式）：&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt。&quot; <strong>注意：</strong>以下语法在标签的 ER 公式中应用：
 <ul>
-<li><strong>对于 Dynamics 365 for Operations 资源的标签：</strong> <strong>@&quot;X&quot;</strong>，其中 X 是应用程序对象树 (AOT) 中的标签 ID</li>
-<li><strong>对于位于 ER 配置中的标签：</strong> <strong>@&quot;ER_LABEL:X&quot;</strong>，其中 X 是 ER 配置中的标签 ID</li>
+<li><strong>对于 Finance and Operations 资源的标签：</strong> <strong>@&quot;X&quot;</strong>，其中 X 是应用程序对象树 (AOT) 中的标签 ID</li>
+<li><strong>对于位于 ER 配置中的标签：</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>，其中 X 是 ER 配置中的标签 ID</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -501,7 +537,7 @@ ER 表达式可以包含任意或所有以下元素：
 </tr>
 <tr class="even">
 <td>NUMERALSTOTEXT（数字，语言，币种，打印币种名称标志，小数点）</td>
-<td>返回拼写（转换）成指定语言的文本字符串的数字。 语言代码可选：定义为空字符串时，将使用运行上下文语言代码（为生成文件夹或文件定义）。 币种代码可选。 定义为空字符串时，采用公司币种。 注意，仅分析以下语言代码的<strong>打印币种名称</strong>参数和<strong>小数点</strong>参数：<strong>CS</strong>、<strong>ET</strong>、<strong>HU</strong>、<strong>LT</strong>、<strong>LV</strong>、<strong>PL</strong>、<strong>RU</strong>。 请注意，仅对国家/地区上下文支持币种偏差的 Dynamics 365 for Operations 公司分析<strong>打印币种名称</strong>参数。</td>
+<td>返回拼写（转换）成指定语言的文本字符串的数字。 语言代码可选：定义为空字符串时，将使用运行上下文语言代码（为生成文件夹或文件定义）。 币种代码可选。 定义为空字符串时，采用公司币种。 注意，仅分析以下语言代码的<strong>打印币种名称</strong>参数和<strong>小数点</strong>参数：<strong>CS</strong>、<strong>ET</strong>、<strong>HU</strong>、<strong>LT</strong>、<strong>LV</strong>、<strong>PL</strong>、<strong>RU</strong>。 请注意，仅对国家/地区上下文支持币种偏差的 Finance and Operations 公司分析<strong>打印币种名称</strong>参数。</td>
 <td>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2) 返回“One Thousand Two Hundred Thirty Four and 56”，NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0) 返回“Sto dwadzieścia”，NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2) 返回“Сто двадцать евро 21 евроцент”</td>
 </tr>
 <tr class="odd">
@@ -509,57 +545,60 @@ ER 表达式可以包含任意或所有以下元素：
 <td>返回指定长度的字符串，其中当前字符串的开头是使用指定字符填充的。</td>
 <td>PADLEFT (“1234”, 10, “ “) 返回字符串 “      1234”</td>
 </tr>
+<tr class="even">
+<td>TRIM（字符串）</td>
+<td>前导和尾随空格截断后，返回给定文本，并删除单词之间的多个空格。 </td>
+<td><strong>TRIM（“     示例     文本     ”）</strong>返回<strong>“示例文本”。</strong></td>
+=======
+<td>GETENUMVALUEBYNAME（枚举数据源路径，枚举值标签文本）</td>
+<td>按此枚举标签指定的文本返回指定枚举数据源的值。</td>
+<td>以下示例显示在数据模型中引入的枚举 ReportDirection。 请注意，为枚举值定义标签。
+将显示以下示例：
+<ul><li>作为数据源 <strong>$Direction</strong> 插入报表的模型枚举 <strong>ReportDirection</strong>。</li>
+<li>设计为使用模型枚举作为此功能参数的 ER 表达式 <strong>$IsArrivals</strong>。 此表达式的值为 <strong>TRUE</strong></li></ul></td>
+</tr>
 </tbody>
 </table>
 
+**数据转换函数**
+
+| 职能             | 说明                                                                                                                                                                                                                                     | 示例                                                                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| TEXT（输入） | 返回指定的输入，其转换为根据当前 Finance and Operations 实例的服务器区域设置设置格式的文本字符串。
+对于 real 类型的值，字符串转换被限制为两位小数。| 如果将 Finance and Operations 实例服务器区域定义为 **EN-US，TEXT (NOW ())**，当前的 Finance and Operations 会话日期 12/17/2015 返回为文本字符串 **"12/17/2015 07:59:23 AM"**。
+**TEXT (1/3) 返回 "0.33"**。 |
+| QRCODE（字符串） | 为给定的字符串返回 64 位二进制格式的 QR 代码图像。 | **QRCODE（“示例文本”）**返回 **U2FtcGxlIHRleHQ=**。   |
+
 ### <a name="data-collection-functions"></a>数据收集功能
 
-职能
+| 职能             | 说明                                                                                                                                                                                                                                     | 示例                                                                                                                                             |
+|----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------|
+| FORMATELEMENTNAME () | 返回当前格式的元素的名称。 在当前文件的标记**收集输出详细信息**关闭时返回空字符串。| 请参阅**盘点和合计格式输出的 ER 使用数据**（**购置/开发 IT 服务/解决方案组件**业务流程的一部分）任务指南了解有关这些功能使用的更多信息。 |
+| SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) |返回 XML 节点（具有定义为键的名称）值的总和，该总和在此格式执行期间收集且满足输入的条件（范围和值配对）。 在当前文件的标记**收集输出详细信息**关闭时返回零值。 |            |
+| SUMIF（要合计的键字符串，条件范围字符串，条件值字符串） | 返回 XML 节点（具有定义为键的名称）值的总和，该总和在此格式执行期间收集且满足输入的条件（范围和值）。 关闭标记当前文件的**收集输出详细信息**时，返回零值。|           |
+| COUNTIFS (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 返回 XML 节点的数量，该数量在此格式执行期间收集且满足输入的条件（范围和值配对）。 关闭标记当前文件的**收集输出详细信息**时，返回零值。|     |
+| COUNTIF（范围条件字符串，条件值字符串） | 返回 XML 节点的数量，该数量在此格式执行期间收集且满足输入的条件（范围和值）。 关闭标记当前文件的**收集输出详细信息**时，返回零值。|          |
+| COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 返回 XML 节点值的列表，该列表在此格式执行期间收集且满足输入的条件（范围和值）。 在当前文件的标记**收集输出详细信息**关闭时返回空列表。|               |   
 
-说明
 
-示例
 
-FORMATELEMENTNAME ()
-
-返回当前格式的元素的名称。 在当前文件的标记**收集输出详细信息**关闭时返回空字符串。
-
-请参阅**盘点和合计格式输出的 ER 使用数据**（**购置/开发 IT 服务/解决方案组件**业务流程的一部分）任务指南了解有关这些功能使用的更多信息。
-
-SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\])
-
-返回 XML 节点（具有定义为键的名称）值的总和，该总和在此格式执行期间收集且满足输入的条件（范围和值配对）。 在当前文件的标记**收集输出详细信息**关闭时返回零值。
-
-SUMIF（要合计的键字符串，条件范围字符串，条件值字符串）
-
-返回 XML 节点（具有定义为键的名称）值的总和，该总和在此格式执行期间收集且满足输入的条件（范围和值）。 关闭标记当前文件的**收集输出详细信息**时，返回零值。
-
-COUNTIFS (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\])
-
-返回 XML 节点的数量，该数量在此格式执行期间收集且满足输入的条件（范围和值配对）。 关闭标记当前文件的**收集输出详细信息**时，返回零值。
-
-COUNTIF（范围条件字符串，条件值字符串）
-
-返回 XML 节点的数量，该数量在此格式执行期间收集且满足输入的条件（范围和值）。 关闭标记当前文件的**收集输出详细信息**时，返回零值。
-
-COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\])
-
-返回 XML 节点值的列表，该列表在此格式执行期间收集且满足输入的条件（范围和值）。 在当前文件的标记**收集输出详细信息**关闭时返回空列表。
 
 ### <a name="other-business-domainspecific-functions"></a>其他（业务域特定的）函数
 
 | 职能                                                                         | 说明                                                                                                                                                                                                                                                        | 示例                                                                                                                                                                                                                                                                                                       |
 |----------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| CONVERTCURRENCY（金额，源币种，目标币种，日期，格式）        | 通过使用指定日期的指定 Dynamics 365 for Operations 公司的设置，将指定的货币金额从源币种转换为目标币种。                                                                            | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** 基于 DEMF 公司的设置返回当前会话日期一欧元的等额美元。                                                                                                                                  |
-| ROUNDAMOUNT（数字，小数位，舍入规则）                                       | 根据指定的舍入规则和指定小数位数舍入指定金额。 **注意：**舍入规则必须指定为 Dynamics 365 for Operations **RoundOffType** 枚举的值。                          | 如果 **model.RoundOff** 参数设置为 ****Downward****，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.78**。 如果 **model.RoundOff** 参数设置为 **Normal** 或 **Rounding-up**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.79**。 |
+| CONVERTCURRENCY（金额，源币种，目标币种，日期，格式）        | 通过使用指定日期的指定 Finance and Operations 公司的设置，将指定的货币金额从源币种转换为目标币种。                                                                            | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** 基于 DEMF 公司的设置返回当前会话日期一欧元的等额美元。                                                                                                                                  |
+| ROUNDAMOUNT（数字，小数位，舍入规则）                                       | 根据指定的舍入规则和指定小数位数舍入指定金额。 **注意：**舍入规则必须指定为 Finance and Operations **RoundOffType** 枚举的值。                          | 如果 **model.RoundOff** 参数设置为 ****Downward****，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.78**。 如果 **model.RoundOff** 参数设置为 **Normal** 或 **Rounding-up**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.79**。 |
 | CURCredRef（位数）                                                              | 基于指定发票编号的数字返回贷方引用。                                                                                                                                                                                  | **CURCredRef ("VEND-200002")** 返回 **"2200002"**。                                                                                                                                                                                                                                                         |
 | MOD\_97（位数）                                                                 | 基于指定发票编号的数字返回贷方引用为 MOD97 表达式。                                                                                                                                                            | **MOD\_97 ("VEND-200002")** 返回 **"20000285"**。                                                                                                                                                                                                                                                           |
 | ISOCredRef（位数）                                                              | 基于指定发票编号的数字和字母符号返回 ISO 贷方引用。 **注意：**若要从不是 ISO 兼容的字母表中清除符号，输入参数必须在传递给此函数前转换。 | **ISOCredRef ("VEND-200002")** 返回 **"RF23VEND-200002"**。                                                                                                                                                                                                                                                 |
 | CN\_GBT\_AdditionalDimensionID （字符串，数字）                                  | 获取额外财务维度 ID。 维度在此字符串中显示为以逗号分隔的 ID。 数字定义所请求的维度在此字符串中的序列代码。                                                                            | CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3) 返回“CC”                                                                                                                                                                                                                                      |
-| GetCurrentCompany ()                                                             | 返回当前登录的公司的代码。                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                               |
+| GetCurrentCompany ()                                                             | 返回用户目前已登录到的法人(公司)的代码的文本表示形式。                                                                                                                                                                                                                    | **GETCURRENTCOMPANY ()** 为登录到 Finance and Operations 公司**美国 Contoso 娱乐系统**的用户返回 **USMF**。                                                                                                                                                                                                                                                                                                              |
 | CH\_BANK\_MOD\_10（位数）                                                       | 基于指定发票编号的数字返回贷方引用为 MOD10 表达式。                                                                                                                                                                      | CH\_BANK\_MOD\_10 ("VEND-200002") 返回 3                                                                                                                                                                                                                                                                   |
 | FA\_SUM（固定资产代码，值模型代码，开始日期，结束日期）               | 返回固定资产金额在一段期间的已准备的数据容器。                                                                                                                                                                                         | FA\_SUM ("COMP-000001", “Current”, Date1, Date2) 返回具有值模型 “Current” 的固定资产 "COMP-000001" 从日期 1 到日期 2 期间的已准备的数据容器。                                                                                                                        |
-| FA\_BALANCE（固定资产代码，值模型代码，报告年度，报告日期） | 返回固定资产余额的准备的数据容器。 报告年度必须指定为 Dynamics 365 for Operations 枚举 **AssetYear** 的值。                                                                                           | FA\_SUM ("COMP-000001", “Current”, AxEnumAssetYear.ThisYear, SESSIONTODAY ()) 返回具有值模型 “Current” 的固定资产 "COMP-000001" 的余额在当前 365 for Operations 会话日期的准备的数据容器。                                                                |
+| FA\_BALANCE（固定资产代码，值模型代码，报告年度，报告日期） | 返回固定资产余额的准备的数据容器。 报告年度必须指定为 Finance and Operations 枚举 **AssetYear** 的值。                                                                                           | FA\_SUM ("COMP-000001", “Current”, AxEnumAssetYear.ThisYear, SESSIONTODAY ()) 返回具有值模型 “Current” 的固定资产 "COMP-000001" 的余额在当前 365 for Finance and Operations 会话日期的准备的数据容器。                                                                |
+| TABLENAME2ID（字符串）                                                       | 为给定的表名返回表 ID 的整数表示形式。                                                                                                                                                                      | **TABLENAME2ID（“内部统计”）**返回 **1510**。                                                                                                                                                                                                                                                                   |
+| ISVALIDCHARACTERISO7064（字符串）                                                       | 当给定的字符串表示有效的国际银行帐号 (IBAN) 时，返回布尔值 **TRUE**。 否则返回布尔型 **FALSE**。                                                                                                                                                                      | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** 返回 **TRUE**。 **ISVALIDCHARACTERISO7064 ("AT61")** 返回 **FALSE**。                                                                                                                                                                                                                                                                   |
 
 ### <a name="functions-list-extension"></a>函数的列表扩展
 

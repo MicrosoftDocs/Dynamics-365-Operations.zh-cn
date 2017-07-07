@@ -3,7 +3,7 @@ title: "结算概览"
 description: "本文提供有关结算流程的一般信息。 介绍可以结算的交易记录类型，可以在何时和如何结算交易记录，以及结算流程的结果。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6ff44d517eb64d6472802ad057b680f4d2c7c1d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -43,7 +43,7 @@ ms.lasthandoff: 05/25/2017
 交易记录可以在输入付款时结算。 例如，在您向供应商付款时，您通常选择要付款的发票。 通过选择发票，您将其标记为对照付款结算。 当应收帐款付款职员记录客户付款时，他们可以基于包括在客户付款中的信息标记相应发票为结算。 **结算交易记录**页用来标记交易记录为结算。 此页可以从所有未过帐的发票或付款打开。 当过帐交易记录时，也过帐结算。 交易记录还可以在过帐后结算。 您可以输入和过帐客户付款，而不对照任何发票进行结算。 不过，您可能必须首先进行一些研究，以确保付款对照正确的发票结算。 **结算交易记录**页可以将从**所有客户**或**所有供应商**页打开，或从任意客户或供应商的**交易记录**页打开。 您还可以通过标记付款为对照采购订单或销售订单结算来预留发票的已过帐预付款。 在这种情况下，付款将仍然具有未结余额，但无法对照其他发票结算。 付款将对照从采购订单或销售订单创建的发票自动结算。
 
 ## <a name="how-to-settle-transactions"></a>如何结算交易记录
-可以手动、自动或通过使用两种方法的组合结算交易记录。 结算方法的选择取决于业务流程，其然后可以通过应付帐款参数和应收帐款参数中结算的设置实施。 您可以使用用于选择要付款的发票的付款方案，创建供应商付款和客户直接借记付款。 付款方案手动启动，但 Microsoft Dynamics 365 for Operations 然后会在创建付款时自动将所选发票标记为结算。 如果手动创建付款，则可以使用**结算交易记录**页选择用于结算的发票。 您可以手动选择发票，或者可以使用**按优先级标记**选项将发票自动标记为结算。 **按优先级标记**选项仅对应收帐款可用。 若要启用此选项，请使用应收帐款参数中的**结算优先级**页。 如果付款职员输入付款，但他或她在过帐前不结算该付款，则付款可以自动结算。 您可以在应收帐款参数和应付帐款参数中启用自动结算。 在您使用自动结算时，您可以使用预定义的结算订单，或可以在应收帐款参数中定义自己的结算优先级顺序。 此功能只可用于应收帐款。
+可以手动、自动或通过使用两种方法的组合结算交易记录。 结算方法的选择取决于业务流程，其然后可以通过应付帐款参数和应收帐款参数中结算的设置实施。 您可以使用用于选择要付款的发票的付款方案，创建供应商付款和客户直接借记付款。 付款方案手动启动，但 Microsoft Dynamics 365 for Finance and Operations 然后会在创建付款时自动将所选发票标记为结算。 如果手动创建付款，则可以使用**结算交易记录**页选择用于结算的发票。 您可以手动选择发票，或者可以使用**按优先级标记**选项将发票自动标记为结算。 **按优先级标记**选项仅对应收帐款可用。 若要启用此选项，请使用应收帐款参数中的**结算优先级**页。 如果付款职员输入付款，但他或她在过帐前不结算该付款，则付款可以自动结算。 您可以在应收帐款参数和应付帐款参数中启用自动结算。 在您使用自动结算时，您可以使用预定义的结算订单，或可以在应收帐款参数中定义自己的结算优先级顺序。 此功能只可用于应收帐款。
 
 ## <a name="results-of-settlement"></a>结算的结果
 由于结算交易记录，每个交易记录的未付余额将相应增加或减少。 在发票和付款结算的典型情况中，每个交易记录的状态和余额将根据以下规则更新：

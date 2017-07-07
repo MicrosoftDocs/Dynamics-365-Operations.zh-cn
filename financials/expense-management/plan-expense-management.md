@@ -1,27 +1,28 @@
 ---
 title: "配置费用管理"
-description: "本文介绍您在 Microsoft Dynamics AX 中配置“费用管理”前在计划流程中的考虑事项和必须做的决定。 在“费用管理”区域中，除其他信息外，您可以存储有关付款方式、出差申请、支出报表和政策的信息。"
-author: kfend
+description: "本文介绍您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置费用管理前在计划流程中的考虑事项和必须做的决定。 在“费用管理”区域中，除其他信息外，您可以存储有关付款方式、出差申请、支出报表和政策的信息。"
+author: KimANelson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 62bef78c143f7ad83e78982dbecb1c9e4542187d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: edd3d8ca760c1453ae7cf8d5ff2fdfdedbb022c4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍您在 Microsoft Dynamics AX 中配置“费用管理”前在计划流程中的考虑事项和必须做的决定。 在“费用管理”区域中，除其他信息外，您可以存储有关付款方式、出差申请、支出报表和政策的信息。 
+本文介绍您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置费用管理前在计划流程中的考虑事项和必须做的决定。 在“费用管理”区域中，除其他信息外，您可以存储有关付款方式、出差申请、支出报表和政策的信息。 
 
 由于您在计划费用管理的配置时所做的许多决策基于您的组织的层次结构和财务结构，因此您必须是引用这些领域的计划文档。
 

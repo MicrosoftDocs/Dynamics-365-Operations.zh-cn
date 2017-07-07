@@ -3,14 +3,14 @@ title: "建模精益组织"
 description: "文本提供有关建模精益组织的重要概念的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53141
 ms.assetid: 4f272f2f-ec2c-4b0d-a652-00a63b719b9e
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ec9191054a1b3587ebbde16acf278084cbd22660
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: c5bb642df692451e975be74bd8aa7d856b964a68
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -41,7 +41,7 @@ ms.lasthandoff: 05/25/2017
 
 为了缩短交货提前期和减少批量生产导致的工作中心之间的过量库存，lean manufacturing 在制造和仓库补货中引入了看板补货和看板超市。 通常，这些功能会中断部分独立的看板周期的生产。 针对半成品的看板补货不再由成品的订单触发。 
 
-为了为在 Microsoft Dynamics AX 中建议的各种看板方案重新建立生产和成本上下文，我们引入了基于活动的生产流程以作为 lean manufacturing 的支柱。 所有看板规则都引用了此预定义结构。 基于活动的模型支持比支持的 Dynamics AX 之前的 Lean manufacturing 版本更广泛的方案设置。 不过，由于所有方案使用相同的基于活动的用户界面，此模型不会为车间工作人员增加复杂性。
+为了为在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中建议的各种看板方案重新建立生产和成本上下文，我们引入了基于活动的生产流程以作为 lean manufacturing 的支柱。 所有看板规则都引用了此预定义结构。 基于活动的模型支持比支持的 Dynamics AX 之前的 Lean manufacturing 版本更广泛的方案设置。 不过，由于所有方案使用相同的基于活动的用户界面，此模型不会为车间工作人员增加复杂性。
 
 ## <a name="semi-finished-products-non-bom-levels"></a>半成品（非物料清单级别）
 Lean Manufacturing for Dynamics AX 将库产品和半成品整合到单个框架中，从而为所有案例提供统一的用户体验。 由于此体系结构，附加的物料清单层将不再需要引入以启用用于半成品的看板。 此体系结构还有助于使库存交易记录缩减为最小数量。

@@ -3,7 +3,7 @@ title: "清除规则"
 description: "本主题提供有关清除规则和有关清除的不同报告选项的信息。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ab1d8fb5bfc9413652d222e701c44b3b91a4c842
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -133,7 +133,7 @@ ms.lasthandoff: 05/25/2017
 所有这些交易记录创建过帐到应付帐户和应收帐户的内部公司交易记录。 此外，在内部公司销售金额和所售货物成本金额不相等时，这些交易记录可能包括加价和减价金额。
 
 ## <a name="set-up-elimination-rules"></a>设置清除规则
-在 Dynamics 365 for Operations 中设置清除规则时，建议专门为清除目的创建财务维度。 大多数客户将其命名为“贸易合作伙伴”或类似名称。 如果决定不使用财务维度，请务必设置专用于内部公司交易记录的主科目。 
+在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中设置清除规则时，建议专门为清除目的创建财务维度。 大多数客户将其命名为“贸易合作伙伴”或类似名称。 如果决定不使用财务维度，请务必设置专用于内部公司交易记录的主科目。 
 
 “合并”模块的“设置”区域中包含清除设置。 输入规则的描述之后，必须选择消除日记帐将过帐到的公司。 该公司应该是可过帐到在法人设置中选择了**用于财务清除过程**的所有公司。 
 

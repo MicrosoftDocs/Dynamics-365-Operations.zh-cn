@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3a95ce92fe40f7e1c52bba554b82bd73d627c6b4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cf6d4756ae706316a342590ab76b4a5cbdd7e4f9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -57,11 +57,11 @@ ms.lasthandoff: 05/25/2017
 -   [供应商与客户协作](vendor-collaboration-work-customers-dynamics-365-operations.md)
 -   [管理供应商协作用户](manage-vendor-collaboration-users.md)
 -   [设置和维护供应商协作](set-up-maintain-vendor-collaboration.md)
--   [Microsoft Dynamics 365 for Operations 的入站托运库存演示脚本](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)（白皮书）
+-   [Microsoft Dynamics 365 for Finance and Operations 的入站托运库存演示脚本](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/InboundConsignmentInventoryDemoScriptDynamics365Operations)（白皮书）
 -   [使用供应商协作监视托运库存](http://ax.help.dynamics.com/en/wiki/monitor-consignment-inventory-using-vendor-collaboration/)
--   [使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)（仅限 Dynamics 365 for Operations 2016 年 2 月版本和 2016 年 5 月版本）
--   [为供应商门户用户配置安全性](configure-security-vendor-portal-users.md)（仅限 Dynamics 365 for Operations 2016 年版本和 2016 年 5 月版本）
--   [Microsoft Dynamics 365 for Operations 应用程序的供应商协作移动工作区](vendor-collaboration-mobile-workspace.md)
+-   [使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)（仅限 Dynamics AX 2016 年 2 月版本和 2016 年 5 月版本）
+-   [为供应商门户用户配置安全性](configure-security-vendor-portal-users.md)（仅限 Finance and Operations 2016 年版本和 2016 年 5 月版本）
+-   [Microsoft Dynamics 365 for Finance and Operations 应用程序的供应商协作移动工作区](vendor-collaboration-mobile-workspace.md)
 
 ## <a name="procurement-product-management"></a>采购产品管理
 -   [采购目录](procurement-catalogs.md)
@@ -92,8 +92,8 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="product-receipt-and-invoicing"></a>产品收货和开票
 -   [采购订单的产品收据](product-receipt-against-purchase-orders.md)
--   [供应商发票的概览](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/operations/supply-chain/toc.json)
--   [供应商过帐模板](/dynamics365/operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/operations/supply-chain/toc.json)
+-   [供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview?toc=/dynamics365/unified-operations/supply-chain/toc.json)
+-   [供应商过帐模板](/dynamics365/unified-operations/financials/accounts-payable/vendor-posting-profiles?toc=/dynamics365/unified-operations/supply-chain/toc.json)
 
 ## <a name="procurement-and-sourcing-workflows"></a>采购工作流
 -   [采购概览](procurement-sourcing-overview.md)

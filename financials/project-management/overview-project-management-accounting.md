@@ -3,24 +3,24 @@ title: "项目管理与核算"
 description: "项目管理和核算功能可在多个行业提供服务、生产产品或实现结果。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a6235f36af6dfb2f4164405d384f13a7c1cde06
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="projects-across-industries"></a>跨行业的项目
 项目管理和核算功能可在多个行业中使用，如下图所示。 [![跨行业的项目](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-在呼叫中心，票据可用于描述解决呼叫所需的一系列行动。 咨询公司（如管理或技术咨询组织或广告代理）将其活动称为项目。 在市场营销中，市场活动表示必须完成的一系列工作。 在基于项目的制造中，生产订单与必须完成才能生产某些成品的各种工作相关。 无论对这类项目使用哪种名称，它都涉及资源、计划和成本，而 Microsoft Dynamics 365 for Operations 中的项目管理和核算功能可帮助规划、执行和分析这些项目。
+在呼叫中心，票据可用于描述解决呼叫所需的一系列行动。 咨询公司（如管理或技术咨询组织或广告代理）将其活动称为项目。 在市场营销中，市场活动表示必须完成的一系列工作。 在基于项目的制造中，生产订单与必须完成才能生产某些成品的各种工作相关。 无论对这类项目使用哪种名称，它都涉及资源、计划和成本，而 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的项目管理和核算功能可帮助规划、执行和分析这些项目。
 
 ## <a name="project-phases"></a>项目阶段
 尽管以下流程针对的是外部项目或为一个或多个客户完成的项目，但该功能还适用于内部的仅成本项目。 
@@ -75,11 +75,11 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 
 ### <a name="create-project-forecasts-and-budgets"></a>创建项目预测及预算
 
-如果您的组织有工序方面的考虑并且重点关注从特定交易产生的收入和成本，您可以使用预测。 但是，如果您的组织更关注财务金额，您可以使用预算。 每个方法都有自己的优点。 有关详细信息，请参阅[项目预测和预算](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/)。
+如果您的组织有工序方面的考虑并且重点关注从特定交易产生的收入和成本，您可以使用预测。 但是，如果您的组织更关注财务金额，您可以使用预算。 每个方法都有自己的优点。 有关详细信息，请参阅[项目预测和预算](project-forecasts-budgets.md)。
 
 ### <a name="create-projects"></a>创建项目
 
-您可以在 Microsoft Dynamics 365 for Operations 中创建六种类型的项目。 每种项目类型的设置方式各不相同，这是为了方便成本和收入确认。 项目类型的选择取决于项目的用途。 下表描述了每个项目类型的典型用法。
+您可以在 Microsoft Dynamics 365 for Finance and Operations 中创建六种类型的项目。 每种项目类型的设置方式各不相同，这是为了方便成本和收入确认。 项目类型的选择取决于项目的用途。 下表描述了每个项目类型的典型用法。
 
                                                                                                                                                                          |
 | 项目类型      | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
@@ -118,7 +118,7 @@ WBS 是将为项目完成的工作的描述。 WBS 是任务的层次结构。 �
 
 可通过两种方式管理和控制您的项目:项目预测和项目预算。 如果您的组织有工序方面的考虑并且重点关注从特定交易产生的收入和成本，您可以使用预测。 但是，如果您的组织更关注财务金额，您可以使用预算。
 
-有关详细信息，请参阅[项目预测和预算](project-forecasts-budgets.mdhttps:/ax.help.dynamics.com/en/wiki/project-forecasts-and-budgets/)。
+有关详细信息，请参阅[项目预测和预算](project-forecasts-budgets.md)。
 
 ### <a name="create-production-orders"></a>创建生产订单
 
@@ -228,7 +228,7 @@ WBS 是将为项目完成的工作的描述。 WBS 是任务的层次结构。 �
 <tbody>
 <tr class="odd">
 <td>总成本 - 实际</td>
-<td>估计成本必须手动输入。 填写<strong>“成本预估”</strong>页上的<strong>“总成本”</strong>或<strong>“总数量”</strong>列后，应将用户输入的总计减去实际成本。 结果就是完成项目的成本。通常，成本进度的跟踪不是基于每个期间内记录的酒店住宿和餐饮次数。 相反， 跟踪通常基于与估计工时的总量的较。 此方法不需要预测模型，并且可以手动更改总成本或总数量。 在<strong>总成本</strong>或<strong>总数量</strong>列中输入值后，Microsoft Dynamics 365 for Operations 会将此值与相应期间内过帐的实际交易记录进行比较，然后减小<strong>要完成的数量</strong>或<strong>完工尚需成本</strong>列中的值。</td>
+<td>估计成本必须手动输入。 填写<strong>“成本预估”</strong>页上的<strong>“总成本”</strong>或<strong>“总数量”</strong>列后，应将用户输入的总计减去实际成本。 结果就是完成项目的成本。通常，成本进度的跟踪不是基于每个期间内记录的酒店住宿和餐饮次数。 相反， 跟踪通常基于与估计工时的总量的较。 此方法不需要预测模型，并且可以手动更改总成本或总数量。 在<strong>总成本</strong>或<strong>总数量</strong>列中输入值后，Finance and Operations 会将此值与相应期间内过帐的实际交易记录进行比较，然后减小<strong>要完成的数量</strong>或<strong>完工尚需成本</strong>列中的值。</td>
 </tr>
 <tr class="even">
 <td>总预算 - 实际</td>
@@ -238,7 +238,7 @@ WBS 是将为项目完成的工作的描述。 WBS 是任务的层次结构。 �
 <li>预测交易记录与实际交易记录进行比较。</li>
 <li>维护、减少或增加为下一期间的估计。</li>
 </ol>
-Microsoft Dynamics 365 for Operations 不会自动减小预测的估计值。 因此，最好在固定价格项目上保留原始预测模型，以建立在完成项目时进行比较的基准。 
+Finance and Operations 不会自动减小预测的估计值。 因此，最好在固定价格项目上保留原始预测模型，以建立在完成项目时进行比较的基准。 
 > [!NOTE]选择此方法时，请至少使用两个预测模型。 一个模型应包含原始预测。 对于其他模型，应从另一个模型中复制预测交易记录。 此方法仅对固定价格项目和投资项目有效。</td>
 > </tr>
 <tr class="odd">

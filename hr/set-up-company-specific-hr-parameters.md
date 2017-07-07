@@ -3,25 +3,26 @@ title: "设置特定于公司的 HR 参数"
 description: "某些人力资源 (HR) 参数的设置在公司间共享，而其他参数设置是特定于公司的。 本文说明如何设置特定于公司的人力资源参数。"
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HRMParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e1a3560013271fc1b83bdb931aef2153b1d07317
+ms.sourcegitcommit: f83bc127f7bf3cdceb39a79c1e69f4f7e96f6462
+ms.openlocfilehash: ef84ad6e90e7c58ea921930e23b67228d393bc7e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -36,7 +37,7 @@ ms.lasthandoff: 05/25/2017
 提供了两个页面来设置人力资源 (HR) 参数。 对于跨公司共享的参数，您可使用**“人力资源共享参数”**页。 对于特定于公司的参数（换句话说，这些设置将应用于单个公司），您可使用**“人力资源参数”**页。 在**“人力资源参数”**页上，设置在 6 个选项卡之间分配：
 
 -   常规
--   招聘
+-   招聘 - 不包括在 Dynamics 365 for Talent 中
 -   薪酬
 -   编号规则
 -   家庭医疗休假法 (FMLA)
@@ -48,7 +49,11 @@ ms.lasthandoff: 05/25/2017
 
 **薪酬**选项卡上的设置定义用户是否必须确认是希望保存固定薪酬计划的信息还是可变薪酬计划的信息。 如果您选中**启用保存验证**复选框，则只要用户关闭与薪酬相关的页面，他们就会收到一条消息，询问是否需要保存记录。薪酬管理中的某些页面不允许用户删除信息。 薪酬管理中的某些页面不允许用户删除信息。 因此，通过提示用户验证是否要保存信息，您也许能够限制可保存但稍后无法删除的信息量。 如果清除**“启用保存验证”**复选框，则始终将立即保存记录（可能在用户准备就绪之前）。 如果您使用绩效管理，则也可使用**“薪酬”**选项卡来选择要使用的评级模型，而不是选择在对绩效进行评级时分配给薪酬计划的模型。 
 
-**“编号规则”**选项卡上的设置确定用于自动将 ID 分配到人力资源中的项目（例如，申请、缺勤登记、薪酬流程结果、案例编号、课程和课程安排）的顺序。 要维护编号规则引用和代码，可使用**编号规则**列表页（单击**组织管理** &gt; **编号规则** &gt; **编号规则**）。 
+### <a name="previously-released-functionality"></a>以前发布的功能
+**“编号规则”**选项卡上的设置确定用于自动将 ID 分配到人力资源中的项目（例如，申请、缺勤登记、薪酬流程结果、案例编号、课程和课程安排）的顺序。 要维护编号规则引用和代码，可使用**编号规则**列表页（单击**组织管理** &gt; **编号规则** &gt; **编号规则**）。
+
+### <a name="if-youre-using-dynamics-365-for-talent"></a>如果您正在使用 Dynamics 365 for Talent
+**“编号规则”**选项卡上的设置确定用于自动将 ID 分配到人力资源中的项目（例如，申请、缺勤登记、薪酬流程结果、案例编号、课程和课程安排）的顺序。 要维护编号规则引用和代码，可使用**编号规则**列表页（单击**系统管理** &gt; **链接选项卡** &gt; **编号规则** &gt; **编号规则**）。 
 
 **“FMLA”**选项卡上的设置定义员工为获得享受 FMLA 权益的资格而必须工作的小时数、获得资格所需的雇用时长以及用于确定雇用时长的雇用开始日期。 此类设置还定义员工有资格获得的 FMLA 小时数以及用于计算员工已使用的 FMLA 小时数的 FMLA 假期日历。 **“FMLA”**选项卡仅对位于美国的公司可用。 
 

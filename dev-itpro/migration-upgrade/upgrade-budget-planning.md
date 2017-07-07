@@ -1,6 +1,6 @@
 ---
 title: "升级预算计划"
-description: "Microsoft Dynamics AX 2012 和 Microsoft Dynamics 365 for Operations 的预算计划之间存在显著差异。 某些功能尚未升级，因此需要重新配置。 本主题说明必须重新配置的功能，描述完成升级后应考虑的新功能。"
+description: "Microsoft Dynamics AX 2012 和 Microsoft Dynamics 365 for Finance and Operations 的预算计划之间存在显著差异。 某些功能尚未升级，因此需要重新配置。 本主题说明必须重新配置的功能，描述完成升级后应考虑的新功能。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/10/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272923
 ms.assetid: 17cdfe74-bdfd-466a-9bdd-c12583f250c7
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fafa323c3949c09707c81ec41edae25ad2677eeb
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 83e93df3284760c46cb95b931f32cc9990ef2db1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics AX 2012 和 Microsoft Dynamics 365 for Operations 的预算计划之间存在显著差异。 某些功能尚未升级，因此需要重新配置。 本主题说明必须重新配置的功能，描述完成升级后应考虑的新功能。  
+Microsoft Dynamics AX 2012 和 Microsoft Dynamics 365 for Finance and Operations 的预算计划之间存在显著差异。 某些功能尚未升级，因此需要重新配置。 本主题说明必须重新配置的功能，描述完成升级后应考虑的新功能。  
 
-Microsoft Dynamics 365 for Operations 的预算计划有很多 Microsoft Dynamics AX 2012 未提供的增强功能。 本主题说明升级客户必须进行的更改。 还指出了升级过程中应考虑的新功能。 由于更改范围原因，任何现有预算计划将无法打开，直到进行了本主题列出的更改。 但是，报表应继续工作，无需其他更改。
+Microsoft Dynamics 365 for Finance and Operations 的预算计划有很多 Microsoft Dynamics AX 2012 未提供的增强功能。 本主题说明升级客户必须进行的更改。 还指出了升级过程中应考虑的新功能。 由于更改范围原因，任何现有预算计划将无法打开，直到进行了本主题列出的更改。 但是，报表应继续工作，无需其他更改。
 
 ## <a name="overview-of-changes"></a>更改概览
-Dynamics 365 for Operations 的预算进行了许多重大更改。 这些更改用于让预算计划配置更加轻松且更有可能重用，进而减少年复一年的维护和设置。 AX 2012 的以下区域不再出现在 Dynamics 365 for Operations 中：
+Finance and Operations 的预算进行了许多重大更改。 这些更改用于让预算计划配置更加轻松且更有可能重用，进而减少年复一年的维护和设置。 AX 2012 的以下区域不再出现在 Finance and Operations 中：
 
 -   预算计划模板（预算计划配置）
 -   预算计划文件夹（预算计划配置）
@@ -53,15 +53,15 @@ Dynamics 365 for Operations 的预算进行了许多重大更改。 这些更改
 
 ### <a name="layouts"></a>布局
 
-布局是替换 Excel 模板的新概念。 布局包含定义应显示哪个预算或实际数据和期间的列。 布局还在客户和 Excel 加载项之间共享。 因此，当您在 Dynamics 365 for Operations 客户端输入或查看数据时的用户体验要好于 AX 2012 的用户体验。 若要在 Dynamics 365 for Operations 客户端输入数据，您将不再被限制只查看和输入事务视图中的一个方案。 而比较视图让您可以同时查看和输入多个期间和帐户的金额。 还可以定义布局，以便您可以输入和查看币种、注释和其他可选数据。 布局还允许您定义应显示的分类帐维度和维度描述。 布局还包含了方案约束来定义模板中哪些列可以编辑，以及哪些列应在 Excel 中提供。 在您定义了一个布局后，将为其生成模板。 反之，此模板创建相应的 Excel 模板。 然后，您可以编辑 Excel 模板以包含更多公式和格式，然后将它们再次上载。 布局随后被分配到**预算计划流程**页的每个阶段规则。 因此，布局替换模板，并以相同方式分配和使用。
+布局是替换 Excel 模板的新概念。 布局包含定义应显示哪个预算或实际数据和期间的列。 布局还在客户和 Excel 加载项之间共享。 因此，当您在 Finance and Operations 客户端输入或查看数据时的用户体验要好于 AX 2012 的用户体验。 若要在 Finance and Operations 客户端输入数据，您将不再被限制只查看和输入事务视图中的一个方案。 而比较视图让您可以同时查看和输入多个期间和帐户的金额。 还可以定义布局，以便您可以输入和查看币种、注释和其他可选数据。 布局还允许您定义应显示的分类帐维度和维度描述。 布局还包含了方案约束来定义模板中哪些列可以编辑，以及哪些列应在 Excel 中提供。 在您定义了一个布局后，将为其生成模板。 反之，此模板创建相应的 Excel 模板。 然后，您可以编辑 Excel 模板以包含更多公式和格式，然后将它们再次上载。 布局随后被分配到**预算计划流程**页的每个阶段规则。 因此，布局替换模板，并以相同方式分配和使用。
 
 ### <a name="budget-planning-processes"></a>预算计划过程
 
-预算计划流程在 AX 2012 中大致相同。 最重要的更改是模板替换为布局。 如果之前有任何流程在 AX 2012 完成，流程状态将更新为进行中，以便可以进行更改。 必须分配布局，以便每个阶段规则确定在客户端中打开计划时显示哪些方案和时间期间。 布局还确定哪些 Excel 模板在 Dynamic 365 for Operations 外部打开，以便您可以查看预算。 **默认科目结构**是预算计划流程的新的必填字段。 对于每个预算计划流程，应指定应该用于预算的主科目结构。
+预算计划流程在 AX 2012 中大致相同。 最重要的更改是模板替换为布局。 如果之前有任何流程在 AX 2012 完成，流程状态将更新为进行中，以便可以进行更改。 必须分配布局，以便每个阶段规则确定在客户端中打开计划时显示哪些方案和时间期间。 布局还确定哪些 Excel 模板在 Dynamic 365 for Finance and Operations 外部打开，以便您可以查看预算。 **默认科目结构**是预算计划流程的新的必填字段。 对于每个预算计划流程，应指定应该用于预算的主科目结构。
 
 ### <a name="attachments"></a>附件
 
-在 AX 2012 中，理由文档保存到附件文件夹。 以前的理由文档将不升级。 理由文档现在存储于数据库中。 如果此信息应保存在升级的版本中，您可以通过使用操作窗格中的**理由**按钮，作为附件为每个计划上载最终理由文档。 在 AX 2012 中，每个预算计划的 Excel 工作表基于模板创建。 在 Dynamics 365 for Operations 中，所有计划打开布局的副本。 但是，不保存对 Excel 文件的更改。 每个计划分别使用的所有公式或支持信息必须通过文档、理由文档或某些其他补充流程添加。
+在 AX 2012 中，理由文档保存到附件文件夹。 以前的理由文档将不升级。 理由文档现在存储于数据库中。 如果此信息应保存在升级的版本中，您可以通过使用操作窗格中的**理由**按钮，作为附件为每个计划上载最终理由文档。 在 AX 2012 中，每个预算计划的 Excel 工作表基于模板创建。 在 Finance and Operations 中，所有计划打开布局的副本。 但是，不保存对 Excel 文件的更改。 每个计划分别使用的所有公式或支持信息必须通过文档、理由文档或某些其他补充流程添加。
 
 ## <a name="configuring-an-upgraded-environment-from-ax-2012"></a>从 AX 2012 配置升级后的环境
 为了帮助您确定如何配置升级的系统，以下示例使用来自 AX 2012 演示数据的升级的预算流程。 列的默认配置数据已创建，为升级流程提供帮助。 如果不能满足您的配置要求，您可以更新或删除此默认数据。 **注意：**系统中存在不进行设置的新的必填字段。 如果您在某个页面上被卡住，如**预算计划配置**页，并且不能导航，您可以关闭您的浏览器，然后重新打开不同的页面，按正确顺序输入详细信息。 存在没有设置的必填字段。 因此，在完成所有配置并设置所有必填字段前可能出现问题。 本主题说明如何根据需要设置这些字段。 以下是这些必填字段的一部分：
@@ -75,7 +75,7 @@ Dynamics 365 for Operations 的预算进行了许多重大更改。 这些更改
     -   预算计划方案：实际、基准、预算请求、已审核的预算
     -   2017 年所有方案的预算计划行和 2017 年和 2016 年的实际值
 
-    以下列将在 Dynamics 365 for Operations 中创建：
+    以下列将在 Finance and Operations 中创建：
     | 列名    | 预算计划方案 | 列时段 | 年偏移 |
     |----------------|----------------------|--------------------|-------------|
     | 一月方案 1 | 实际值              | 1                  | 0           |
@@ -128,7 +128,7 @@ Dynamics 365 for Operations 的预算进行了许多重大更改。 这些更改
 
 ### <a name="more-complete-tracking-of-amounts"></a>更完整的金额跟踪
 
-在 AX 2012 中，预算计划有为每个值都存储的单个计划金额。 在 Dynamics 365 for Operations 中，数据模型已展开。 现在每个值有记帐币种、交易币种和申报币种。 在升级期间，将自动为现有数据填充这些新列。
+在 AX 2012 中，预算计划有为每个值都存储的单个计划金额。 在 Finance and Operations 中，数据模型已展开。 现在每个值有记帐币种、交易币种和申报币种。 在升级期间，将自动为现有数据填充这些新列。
 
 ### <a name="do-not-convert-currency-in-aggregation"></a>不要转换合并中的币种
 

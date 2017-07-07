@@ -3,14 +3,14 @@ title: "周期盘点"
 description: "本文介绍如何使用仓库管理中提供的仓库解决方案使用周期盘点。 本文不适用于可用于库存管理的仓库解决方案。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4446dfec1fa8eabb45e14b3f2ff685b3b1d68e2c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ebc7789d7b0be5db4a0faf4309bc3640f51956c6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2017
 周期盘点是用于审计现有库存项目的仓库流程。 周期盘点流程可以在三个步骤中介绍：
 
 1.  **创建周期盘点工作** – 周期盘点工作可以是基于物料的临界值参数或通过周期盘点计划自动创建的。 或者，您可以通过在**按物料分类的周期盘点工作**页面或**按位置分类的周期盘点工作**页面中使用物料或仓库参数手动创建周期盘点计数工作。
-2.  **处理周期盘点** – 在创建周期盘点工作之后，您通过盘点仓库库位的物料执行周期盘点，然后使用移动设备将结果输入到 Microsoft Dynamics 365 for Operations 中。 或者，您可以在不创建周期盘点的情况下在仓库场所盘点物料。 此过程被称为*现场周期盘点*。
+2.  **处理周期盘点** – 在创建周期盘点工作之后，您通过盘点仓库库位的物料执行周期盘点，然后使用移动设备将结果输入到 Microsoft Dynamics 365 for Finance and Operations 中。 或者，您可以在不创建周期盘点的情况下在仓库场所盘点物料。 此过程被称为*现场周期盘点*。
 3.  **解决周期盘点值中的差异** – 周期盘点之后，与盘点值有差异的任何物料必须在**所有工作**页中设定为**待核查**的工作状态。 您可以在**周期盘点工作待审阅**页上解决这些差异。
 
 下图显示了周期盘点流程。 ![周期盘点流程](./media/performcyclecountinginawarehouselocation.jpg)
@@ -115,10 +115,10 @@ ms.lasthandoff: 05/25/2017
 若要手动创建周期盘点工作，则可以使用 **按物料分类的周期盘点工作**或**按位置分类的周期盘点工作**页。 您可以指定创建的周期盘点的最大数量。 例如，如果仓库经理指定该值为 **5**，那么将为五个场所创建周期盘点工作，即使该物料存放于 10 个不同的场所。 您还可以选择一个将所创建的周期盘点工作 ID 分配至的工作池 ID。 当一个工作池 ID 被处理用于周期盘点，分配至此工作池的周期盘点工作 ID 被处理为一个组。
 
 ## <a name="perform-a-cycle-count-by-using-a-mobile-device"></a>使用移动设备执行周期盘点
-使用移动设备上的 Dynamics 365 for Operations 可以有几种方法处理周期盘点工作：
+使用移动设备上的 Finance and Operations 可以有几种方法处理周期盘点工作：
 
 -   **用户导向** – 工作人员可以指定处于**未结**状态的周期盘点工作 ID。
--   **系统导向** – Dynamics 365 for Operations 分配一个周期盘点工作 ID 给工作人员。
+-   **系统导向** – Finance and Operations 分配一个周期盘点工作 ID 给工作人员。
 -   **周期盘点分组** – 工作人员可以对特定场所、地带或工作池的特定的周期盘点工作 ID 进行分组。
 -   **现场周期盘点** – 工作人员可以随时盘点一个仓库库位中的物料，而无需创建周期盘点工作。 若要在库位中执行现场周期盘点，工人人员输入库位 ID。
 

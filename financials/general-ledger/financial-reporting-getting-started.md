@@ -1,16 +1,16 @@
 ---
 title: "财务申报"
-description: "本主题介绍从哪里访问 Microsoft Dynamics 365 for Operations 中的财务申报，以及如何使用财务申报功能。 其中包括提供的默认财务报表的描述。"
+description: "本主题介绍从哪里访问 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的财务申报，以及如何使用财务申报功能。 其中包括提供的默认财务报表的描述。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10444
 ms.assetid: 3eae6dc3-ee06-4b6d-9e7d-1ee2c3b10339
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 39db754df7edeca414752ce1844d7f9e85df0b36
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fedde78a563939fd7080e748c412c89c71586823
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本主题介绍从哪里访问 Microsoft Dynamics 365 for Operations 中的财务申报，以及如何使用财务申报功能。 其中包括提供的默认财务报表的描述。
+本主题介绍从哪里访问 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的财务申报，以及如何使用财务申报功能。 其中包括提供的默认财务报表的描述。
 
 <a name="accessing-financial-reporting"></a>访问财务申报
 -----------------------------
 
-您可以在 Dynamics 365 for Operations 中的以下位置查找**财务申报**菜单：
+您可以在 Finance and Operations 中的以下位置查找**财务申报**菜单：
 
 -   **总帐** &gt; **查询和报表**
 -   **预算编制** &gt; **查询和报表** &gt; **基本预算编制**
@@ -83,7 +83,7 @@ ms.lasthandoff: 05/25/2017
 在添加用户或更改角色后，用户应该在几分钟内就能访问财务报表。 **注释：**将向财务申报中的所有角色添加 sysadmin 角色。
 
 ## <a name="default-reports"></a>默认报表
-财务报表提供 22 个默认财务报表。 每个报表都使用 Dynamics 365 for Operations 中的默认主科目类别。 您可以按原样使用这些报表，或者针对您的财务报表需要将其作为起点。 除了传统财务报表（例如收入报表和资产负债表）之外，这些默认报表还包括显示您可以创建的不同类型财务报表的报表。 下表中的每个报表链接到一个有关该报表的 Office Mix 演示文稿。
+财务报表提供 22 个默认财务报表。 每个报表都使用 Finance and Operations 中的默认主科目类别。 您可以按原样使用这些报表，或者针对您的财务报表需要将其作为起点。 除了传统财务报表（例如收入报表和资产负债表）之外，这些默认报表还包括显示您可以创建的不同类型财务报表的报表。 下表中的每个报表链接到一个有关该报表的 Office Mix 演示文稿。
 
 | 默认报表                                                                                         | 说明                                                                                                                                                                                                                                                                                                          |
 |--------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -114,7 +114,7 @@ ms.lasthandoff: 05/25/2017
 在您单击**“财务申报”**按钮时，会显示公司的默认财务报表列表。 然后您可以打开或修改报表。 若要打开一个默认报表，请选择报表名称。 首次打开报表，它将为上个月自动生成。 例如，如果在 2016 年 8 月首次打开报表，将为 2016 年 7 月 31 日生成报表。 在打开报表后，可以通过深化到特定的数据部分并更改报表选项来开始探索报表。
 
 ## <a name="creating-and-modifying-financial-reports"></a>创建和修改财务报表
-从财务报表列表中，您可以创建一个新的报表或修改现有的报表。 如果您具有相应的权限，则可以通过单击操作窗格上的**新建**以创建新财务报表 。 报表设计器程序将下载到您的设备。 报表设计器启动之后，您就可以创建新报表。 在您保存新的报表后，它显示在财务报表列表中。 此列表仅显示为您在 Dynamics 365 for Operations 中使用的公司创建的报表。 有关在 Dynamics 365 for Operations 中创建和修改财务报表的过程的详细信息，请参阅 Dynamics 财务申报博客中的[博客文章](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/)。 **注释：**您用于下载报表设计器客户端的计算机上必须已安装了 Microsoft .NET Framework 版本 4.6.2。 可从[此处](https://www.microsoft.com/en-us/download/details.aspx?id=53345)下载和安装此版本的 Microsoft .NET Framework。 如果使用的是 Chrome，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。 您还可以修改在财务报表列表中显示的报表。 当选择围绕报告名称的区域时，请在操作窗格上单击**“编辑”**。 报表设计器程序将会启动。
+从财务报表列表中，您可以创建一个新的报表或修改现有的报表。 如果您具有相应的权限，则可以通过单击操作窗格上的**新建**以创建新财务报表 。 报表设计器程序将下载到您的设备。 报表设计器启动之后，您就可以创建新报表。 在您保存新的报表后，它显示在财务报表列表中。 此列表仅显示为您在 Finance and Operations 中使用的公司创建的报表。 有关在 Finance and Operations 中创建和修改财务报表的过程的详细信息，请参阅 Dynamics 财务申报博客中的 [博客文章](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/)。 **注释：**您用于下载报表设计器客户端的计算机上必须已安装了 Microsoft .NET Framework 版本 4.6.2。 可从[此处](https://www.microsoft.com/en-us/download/details.aspx?id=53345)下载和安装此版本的 Microsoft .NET Framework。 如果使用的是 Chrome，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。 您还可以修改在财务报表列表中显示的报表。 当选择围绕报告名称的区域时，请在操作窗格上单击**“编辑”**。 报表设计器程序将会启动。
 
 <a name="see-also"></a>请参阅
 --------

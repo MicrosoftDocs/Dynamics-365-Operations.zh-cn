@@ -1,16 +1,16 @@
 ---
 title: "仓库工作策略"
-description: "Microsoft Dynamics AX 7.0.1（2016 年 5 月更新）引入了新的仓库工作策略。 此工作策略控制是否为生产中的仓库流程创建仓库工作。"
+description: "仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSWorkPolicy
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 196561
 ms.assetid: cbf48ec6-1836-48d5-ad66-a9b534af1786
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6c9cdf361e4d4543e6aca962e9ec712428bc76e6
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 7612003bc20f91f173629893750478b034cff27b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics AX 7.0.1（2016 年 5 月更新）引入了新的仓库工作策略。 此工作策略控制是否为生产中的仓库流程创建仓库工作。
+Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。
 
 此工作策略控制是否为生产中的仓库流程创建仓库工作。 您可以使用“**工作订单类型**”、“**库存库位**”和“**产品**”组合设置工作策略。 例如，产品 L0101 报告为完工入库到输出库位 001。 成品稍后将在输出库位 001 的另一个生产订单中使用。 在这种情况下，您可以设置工作策略，阻止在您将产品 L0101 报告为完工入库到输出库位 001 时创建产品储存的工作。 工作策略是可以通过以下信息描述的单个实体：
 

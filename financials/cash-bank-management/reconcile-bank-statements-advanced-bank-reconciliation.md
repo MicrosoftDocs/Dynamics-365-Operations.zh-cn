@@ -1,15 +1,15 @@
 ---
 title: "使用高级银行对帐对银行对帐单进行对帐"
-description: "高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Operations 中的银行交易记录自动对帐。 本主题说明对帐流程。"
+description: "高级银行对帐功能允许您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中导入电子银行对帐单，并与银行交易记录自动对帐。 本主题说明对帐流程。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 98243
 ms.assetid: 9df13adf-aa9d-4f6b-bde6-25a214611692
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81368294164ca4ca1915d73f8f5622e61f5d1fc8
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: eb7fd01874b08417933ddf575c7d6ff866b4e6f8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Operations 中的银行交易记录自动对帐。 本主题说明对帐流程。  
+高级银行对帐功能允许您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中导入电子银行对帐单，并与银行交易记录自动对帐。 本主题说明对帐流程。  
 
 <a name="import-an-electronic-bank-statement"></a>导入电子银行对帐单
 -----------------------------------
@@ -44,7 +44,7 @@ ms.lasthandoff: 05/25/2017
 
 如果电子文件中的任何对帐单无法通过使用标识字段与银行帐户相关联，则不会导入。 但是可以导入文件中的其他对帐单。 随后用户将收到消息，指出特定银行帐户的银行对帐单导入不成功。 注意导入银行对帐单文件的用户必须具有访问法人以导入该法人银行帐户对帐单的权限。 
 
-您可以使用 zip 文件在一个流程中将多个对帐单文件上载到 Microsoft Dynamics 365 for Operations。 要导入多个帐户的多个银行对帐单文件，将所有银行对帐单文件合并到一个 zip 文件。 在**导入银行对帐单**对话框中，将**导入所有法人的多个银行帐户的对帐单**选项设为**是**。 单击**浏览**以选择包含银行对帐单文件的 zip 文件，然后单击**上载**。 导入流程将识别 zip 文件并上载包含在其中的每一个对帐单，无论银行帐户的法人。 
+您可以使用 zip 文件在一个流程中将多个对帐单文件上载到 Finance and Operations。 要导入多个帐户的多个银行对帐单文件，将所有银行对帐单文件合并到一个 zip 文件。 在**导入银行对帐单**对话框中，将**导入所有法人的多个银行帐户的对帐单**选项设为**是**。 单击**浏览**以选择包含银行对帐单文件的 zip 文件，然后单击**上载**。 导入流程将识别 zip 文件并上载包含在其中的每一个对帐单，无论银行帐户的法人。 
 
 **在导入后对帐**选项可用。 将此选项设置为**是**时，系统自动验证银行对帐单，创建一个新的银行对帐和工作表，并在上载银行对帐单时运行默认匹配规则集。 此功能自动将流程运行到必须手动匹配交易记录的阶段。
 
@@ -76,7 +76,7 @@ ms.lasthandoff: 05/25/2017
 
 -   将交易记录与 Operations 银行交易记录匹配。
 -   将交易记录与冲销银行对帐单交易记录匹配。
--   将交易记录标记为**新**，以使其稍后能够在 Dynamics 365 for Operations 中作为银行交易记录过帐。
+-   将交易记录标记为**新**，以使其稍后能够在 Finance and Operations 中作为银行交易记录过帐。
 
 若要手动匹配交易记录，在**银行对帐单交易记录**网格中选择交易记录，在 **Operations 银行交易记录**网格中选择对应的交易记录，然后单击**匹配**。 所选交易记录从未匹配交易记录的上部网格移至匹配交易记录的下部网格。 而且，匹配和未匹配的总额将更新。 您可以进行一对一、多对一和多对多交易记录匹配。 匹配必须遵守允许的日期差异和交易记录类型映射规则。 这些规则在**现金和银行管理参数**页设置。
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 05/25/2017
 
 冲销 Operations 银行交易记录必须使用“**Operations 银行交易记录**”页对帐。 如果单据具有相同的银行帐户、单据类型和付款参考，且它们具有相反金额，您可以同时对帐两个 Operations 银行交易记录。 您还可以对帐单个取消的支票以阻止这些交易出现在对帐工作表中。 
 
-如果有新的银行发起的不在 Dynamics 365 for Operations 中的交易，如利息、费用和收费，您可以将这些交易添加到与所选银行对帐单对帐关联的日记帐中。 在未匹配交易记录的**银行对帐单交易记录**网格中选择银行对帐单交易记录，然后单击**标记为新交易记录**。 交易记录的状态将设置为**新**，且交易记录将移至匹配交易记录的**银行对帐单交易记录**网格。 稍后，您将从**银行对帐单**页过帐标记为**新**的交易记录。 
+如果有新的银行发起的不在 Finance and Operations 中的交易，如利息、费用和收费，您可以将这些交易添加到与所选银行对帐单对帐关联的日记帐中。 在未匹配交易记录的**银行对帐单交易记录**网格中选择银行对帐单交易记录，然后单击**标记为新交易记录**。 交易记录的状态将设置为**新**，且交易记录将移至匹配交易记录的**银行对帐单交易记录**网格。 稍后，您将从**银行对帐单**页过帐标记为**新**的交易记录。 
 
 您可以取消匹配未正确匹配的交易记录。 选择匹配的银行对帐单交易记录，然后单击**取消匹配**。 所有相关交易记录将移回未匹配交易记录的上部网格，匹配和未匹配总额将更新。 
 

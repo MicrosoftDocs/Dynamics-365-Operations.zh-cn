@@ -3,7 +3,7 @@ title: "生产流程概览"
 description: "本文提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19832
 ms.assetid: 0e83c7ea-feba-4ed6-8717-8b48a3b8804a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 311debe610b58af7cd986bd33ce9473e41cb3d8b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b73ec05442c8b089435d5813ea93b997c473cbb4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -39,12 +39,12 @@ ms.lasthandoff: 05/25/2017
 
 **生产控制**模块与其他模块相关联，例如**产品信息管理**、**库存管理**、**总帐**、**仓库管理**、**项目会计**和**组织管理**。 这一集成支持完成成品制造所需的信息流。  
 
-生产流程通常受为特定生产流程选择的成本核算和库存估价方法影响。 Dynamics 365 for Operations 支持实际成本（先进先出 \[FIFO\]；后进先出 \[LIFO\]；移动平均；和定期加权平均）和标准成本方法。 lean manufacturing 基于倒冲成本计算法原则实施。  
+生产流程通常受为特定生产流程选择的成本核算和库存估价方法影响。 Finance and Operations 支持实际成本（先进先出 \[FIFO\]；后进先出 \[LIFO\]；移动平均；和定期加权平均）和标准成本方法。 lean manufacturing 基于倒冲成本计算法原则实施。  
 
 成本度量方法的选择也定义在生产流程期间报告有关材料和资源消耗的需求。 通常，实际成本方法要求作业级别的准确报告，而定期成本计算方法允许材料和资源消耗报告相对粗略。
 
 ## <a name="mixed-mode-manufacturing"></a>混合模式制造
-不同的产品和生产拓扑要求应用不同的订单类型。 Dynamics 365 for Operations 可以在混合模式中应用各种订单类型。 换言之，所有订单类型可以在生产一件成品的端到端流程期间发生。
+不同的产品和生产拓扑要求应用不同的订单类型。 Finance and Operations 可以在混合模式中应用各种订单类型。 换言之，所有订单类型可以在生产一件成品的端到端流程期间发生。
 
 -   **生产订单** – 这是在特定日期生产指定数量的特定产品或产品变型的经典订单类型。 生产订单基于物料清单 (BOM) 和工艺路线。
 -   **批次订单** – 此订单类型用于处理工业和离散流程，在其中，制造换算基于公式，或联产品和副产品可以是终产品，是或不是主产品。 批次订单使用**公式**类型物料清单和工艺路线。

@@ -3,13 +3,13 @@ title: "预算计划理由文档"
 description: "理由文档让请求预算的人员可以说明为何必须获得特定预算。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6178addb9226912feb1974793525ab4ba9441193
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1d23c0e1725a39d25d2be8971f541b2c31bbe859
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -46,7 +46,7 @@ ms.lasthandoff: 05/25/2017
 
 1.  登录后，单击 Microsoft Dynamics Office Add-in 中的**设计**。
 2.  对于标题信息，请使用**添加字段**按钮。
-3.  选择实体数据源 BudgetPlanJustification，然后单击**下一步**。 **注释：**所有理由文档都需要此实体。 可以使用其他实体，但是如果不包含此实体，上传回 Microsoft Dynamics 365 for Operations 将失败。
+3.  选择实体数据源 BudgetPlanJustification，然后单击**下一步**。 **注释：**所有理由文档都需要此实体。 可以使用其他实体，但是如果不包含此实体，上传回 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 将失败。
 4.  在 Word 文档中添加 BudgetPlanName、BudgetPlanPreparer、ResponsibilityCenter 和 DocumentNumber 标签和值。 **注释：**如果需要，您可以使用之间的自定义标签，而不是标准标签。
 5.  单击**完成**完成标题部分。
 6.  对于预算计划金额的行级别详细信息，请单击**添加表**。
@@ -57,7 +57,7 @@ ms.lasthandoff: 05/25/2017
 
 ##### <a name="set-up-the-budget-planning-process-to-use-the-justification-template"></a>设置预算计划流程以使用理由模板
 
-1.  在 Microsoft Dynamics 365 for Operations 中，转至**预算编制** &gt; **设置** &gt; **预算计划** &gt; **理由文档模板**。
+1.  在 Finance and Operations 中，转至**预算编制** &gt; **设置** &gt; **预算计划** &gt; **理由文档模板**。
 2.  单击**新建**并浏览至新创建的 Microsoft Word 文档。
 3.  输入模板显示名称和描述。 单击**确定**。
 4.  转至**预算编制** &gt; **设置** &gt; **预算** **计划** &gt; **预算计划流程**。
@@ -66,7 +66,7 @@ ms.lasthandoff: 05/25/2017
 
 ##### <a name="edit-and-save-personalized-justification-documents"></a>编辑并保存个性化的理由文档
 
-1.  在 Dynamics 365 for Operations 中，新建预算计划或打开现有预算计划。
+1.  在 Finance and Operations 中，新建预算计划或打开现有预算计划。
 2.  在**理由**下拉菜单中，选择**创建新理由**。
 3.  填写详细信息之后，选择从**理由**下拉菜单上传个性化的文档。
 

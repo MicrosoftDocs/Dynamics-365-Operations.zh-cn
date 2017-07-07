@@ -3,25 +3,27 @@ title: "POS 的任务录制器和帮助"
 description: "此主题介绍如何在 Retail Modern POS 和 Cloud POS 中使用任务录制器。"
 author: mugunthanm
 manager: AnnBe
-ms.date: 2017-05-15
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+audience: Application User
 ms.reviewer: 41
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 1205393
 ms.assetid: 2f13e9cf-55b5-458b-8c32-3f8cd98c9ecf
 ms.search.region: Global
 ms.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3ca86a3353d3f613057dd77754266fc69975229f
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 007a7e8a34f3f5a2d0d18eb3955822a8fd8bdd0a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 ---
 
@@ -40,11 +42,11 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 ## <a name="basic-configuration"></a>基本配置
 要在 POS 启用任务录制，请执行以下步骤。
 
-1.  单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
+1.  单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
 2.  单击收银机启用任务录制。
 3.  在**收银机**选项卡，在**常规**快速选项卡，将**启用任务录制**选项设置为**是**。
 4.  单击**保存**。
-5.  转到**零售和商务** &gt; **零售 IT** &gt; **分配计划**。
+5.  转到**零售** &gt; **零售 IT** &gt; **配送计划**。
 6.  选择**收银机 (1090)** 作业，然后单击**立即运行**。
 
 ## <a name="create-a-recording"></a>创建录制
@@ -54,7 +56,9 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 2.  在**设置**页，在**任务录制器**部分，单击**打开任务录制器**。 **任务录制器**窗格出现。 在开始新录制前，您可以单击右上角的**关闭**按钮 (**X**) 关闭**任务录制器**窗格。 若要重新打开窗格，请重复执行步骤 2。
 [![任务录制器窗格](./media/newrecording-1024x450.jpg)](./media/newrecording.jpg)
 
-3.  输入录制的名称和描述，然后单击**开始**。 单击**开始**后，录制会话随即开始。 **注意：**，如果您在录制正在进行时单击右上角的**关闭**按钮 (**X**)，**任务录制器**窗格将关闭，但录制会话不会结束。 若要重新打开任务录制器窗格，单击屏幕顶部的“帮助”按钮（问号）。 
+3.  输入录制的名称和描述，然后单击**开始**。 单击**开始**后，录制会话随即开始。
+
+**注意：**，如果您在录制正在进行时单击右上角的**关闭**按钮 (**X**)，**任务录制器**窗格将关闭，但录制会话不会结束。 若要重新打开任务录制器窗格，单击屏幕顶部的**帮助**按钮（问号）。 
 
 [![问号](./media/help.jpg)](./media/help.jpg)
 
@@ -95,7 +99,10 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 
 ### <a name="capture-screenshots"></a>捕获屏幕快照
 
-任务录制器可以在您录制业务流程时捕获 Retail Modern POS UI 的屏幕快照。 如果您将录制下载为 Word 文档，任务录制器将使用屏幕快照。 若要开启屏幕快照捕获功能，将**捕捉屏幕快照**选项设置为**是**。 注意：Cloud POS 不支持捕获屏幕快照功能。
+任务录制器可以在您录制业务流程时捕获 Retail Modern POS UI 的屏幕快照。 如果您将录制下载为 Word 文档，任务录制器将使用屏幕快照。 若要开启屏幕快照捕获功能，将**捕捉屏幕快照**选项设置为**是**。 
+
+#### <a name="note"></a>单据
+> Cloud POS 不支持捕获屏幕快照功能。
 
 ### <a name="start-task-and-end-task"></a>开始任务和结束任务
 
@@ -119,11 +126,13 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 
 在**注释**字段中输入的文本将在任务指南的步骤文本*下方*显示。 若要阅读注释文本，用户必须在弹出窗口中展开步骤文本。 此位置适合可能对用户有用，但用户完成操作所不需要的可选阅读材料或其他信息。
 
-## <a name="help-at-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS 和 Cloud POS 的帮助
-要在 Retail Modern POS 和 Cloud POS 的“帮助”窗格中显示您自己的自定义任务录制以便它们可作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅[连接帮助系统](https://ax.help.dynamics.com/en/wiki/working-with-help/#connecting-the-help-system)。 Retail Modern POS 和 Cloud POS 帮助实时搜索 LCS。 它搜索在 Microsoft Dynamics AX 帮助系统参数中选择的所有 BPM 库，并显示相关结果。 若要访问**帮助**菜单，单击屏幕顶部的**帮助**按钮，然后在搜索框中键入流程名称并点击搜索按钮。 
+## <a name="help-in-retail-modern-pos-and-cloud-pos"></a>Retail Modern POS 和 Cloud POS 中的帮助
+要在 Retail Modern POS 和 Cloud POS 的“帮助”窗格中显示您自己的自定义任务录制以便它们可作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅 [连接帮助系统](/dynamics365/unified-operations/dev-itpro/get-started/help-connect)。 Retail Modern POS 和 Cloud POS 帮助实时搜索 LCS。 它搜索在 Microsoft Dynamics 365 for Retail 帮助系统参数中选择的所有 BPM 库，并显示相关结果。 若要访问**帮助**菜单，单击屏幕顶部的**帮助**按钮（问号），然后在搜索框中键入流程名称并点击搜索按钮。 
 
 [![帮助按钮](./media/help.jpg)](./media/help.jpg) 
 
-当您在搜索结果中单击任务指南时，可以作为帮助主题查看步骤或将步骤导出到 Word 文档。 注意：Retail Modern POS 和 Cloud POS 的帮助系统不会基于您的表单或操作自动给出任务指南，您必须在搜索框中键入流程名称，并点击搜索按钮来获得结果。
+当您在搜索结果中单击任务指南时，可以作为帮助主题查看步骤或将步骤导出到 Word 文档。 
+#### <a name="note"></a>单据
+> Retail Modern POS 和 Cloud POS 中的帮助不会根据您所处的窗体或正在执行的操作提供任务指南。 您必须输入在搜索框中键入流程名称，然后单击**搜索**。
 
 

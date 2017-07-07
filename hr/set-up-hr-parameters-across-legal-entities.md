@@ -3,25 +3,26 @@ title: "设置法人之间的 HR 参数"
 description: "您必须为在公司间共享的记录设置共享参数，例如职位记录。 本文说明如何设置跨法人的人力资源参数。"
 author: rschloma
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmSharedParameters
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: rschloma
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 51891
 ms.assetid: c7d8f58c-d78a-4035-abbf-2b0ce16109fe
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f93d548adc4ae81eb89ac7c01cdae79d20b763aa
+ms.sourcegitcommit: f83bc127f7bf3cdceb39a79c1e69f4f7e96f6462
+ms.openlocfilehash: 1a23ec184538510527573de8dd334603dc973ae6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/19/2017
 
 
 ---
@@ -37,6 +38,10 @@ ms.lasthandoff: 05/25/2017
 
 在**“人力资源共享参数”**页上，将根据区域的功能将参数分组到相应区域中。 
 
+### <a name="previously-released-functionality"></a>以前发布的功能
+在**“标识”**选项卡上，您必须选择表示页面上列出的标识号的标识类型。 在您可以输入工作的人员的标识信息之前，必须设置标识类型。 有关社会保险号、国家/地区 ID 号、侨民 ID 号和个人 ID 代码的信息保留在**“标识类型”**页上。 要定义新的标识类型或检查现有类型的列表，请单击**人事管理** &gt; **链接选项卡** &gt; **设置** &gt; **标识类型**。 您可以输入简单的代码和描述。 
+
+### <a name="if-youre-using-dynamics-365-for-talent"></a>如果您正在使用 Dynamics 365 for Talent
 在**“标识”**选项卡上，您必须选择表示页面上列出的标识号的标识类型。 在您可以输入工作的人员的标识信息之前，必须设置标识类型。 有关社会保险号、国家/地区 ID 号、侨民 ID 号和个人 ID 代码的信息保留在**“标识类型”**页上。 要定义新的标识类型或检查现有类型的列表，请单击**人力资源** &gt; **设置** &gt; **标识类型**。 您可以输入简单的代码和描述。 
 
 在**“编号规则”**选项卡上，您可以选择用于以下记录的编号规则：人员编号、职位、用户请求 ID、I-9 文档、申请人、讨论、福利 ID 和人事操作（如果此记录类型已启用）。 要维护编号规则引用和代码，请使用**“编号规则”**列表页。 要查找此页，请使用页搜索功能。 

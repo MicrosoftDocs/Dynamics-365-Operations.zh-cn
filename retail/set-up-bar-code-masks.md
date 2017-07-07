@@ -3,25 +3,27 @@ title: "设置条码掩码"
 description: "此主题介绍如何设置条码掩码字符和条码掩码，以及如何为条码分配条码掩码。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 265994
 ms.assetid: 5831c74d-d2a1-4fa5-9a9a-a5aba8848381
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7b71cbe75f2d7e8f20201e8fa50df8ea1021c4de
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 <a name="set-up-bar-code-mask-characters"></a>设置条码掩码字符
 -------------------------------
 
-条码掩码用于创建条码，以及快速标识扫描到销售点 (POS) 中的条码。 掩码包含充当占位符的字符，用于表示将创建的条码的格式。 若要配置条码掩码，需要设置条码掩码字符。 转到**零售和商业** &gt; **库存管理** &gt; **条码和标签** &gt; **掩码字符**。 单击**新建**创建条码掩码字符。 可创建掩码字符以表示以下条码数据。
+条码掩码用于创建条码，以及快速标识扫描到销售点 (POS) 中的条码。 掩码包含充当占位符的字符，用于表示将创建的条码的格式。 若要配置条码掩码，需要设置条码掩码字符。 转到**零售** &gt; **库存管理** &gt; **条码和标签** &gt; **掩码字符**。 单击**新建**创建条码掩码字符。 可创建掩码字符以表示以下条码数据。
 
 |                      |                                                                                                                 |
 |----------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -53,12 +55,13 @@ ms.lasthandoff: 05/25/2017
 | **员工**         | 指示用于登录条码 POS 的员工 ID 编号的代码段。                                  |
 | **客户**         | 指示客户 ID 段。                                                                                  |
 | **数据输入**       | *尚未实现。*                                                                                          |
-| **折扣代码**    | 指示用于向销售点销售交易记录添加折扣的条码的折扣代码。             |
+| **折扣代码**    | 从 Dynamics 365 for Retail 2017 年春季版本开始的*折旧*。 以前：指示用于向销售点销售交易记录添加折扣的条码的折扣代码。                                                                   |
+| **优惠券代码**      | 指示用于向零售订单添加折扣的条码的优惠券代码。 它替代折扣代码。     |
 | **礼品卡**        | 颁发或使用礼品卡付款时指示礼品卡编号。                                               |
 | **会员卡**     | 向交易记录添加会员客户，可在以会员价付款时使用。                             |
 
 ## <a name="define-bar-code-masks"></a>定义条码掩码
-为必要的条码掩码指定了条码掩码字符之后，请转至**零售和商务** &gt; **库存管理** &gt; **条码和标签** &gt; **条码掩码设置**。 在此页面中，可以定义使用前面指定的字符的条码掩码。 这些条码掩码在生成条码时使用，也有助于识别 POS 中扫描的条码。
+为必要的条码掩码指定了条码掩码字符之后，请转至**零售** &gt; **库存管理** &gt; **条码和标签** &gt; **条码掩码设置**。 在此页面中，可以定义使用前面指定的字符的条码掩码。 这些条码掩码在生成条码时使用，也有助于识别 POS 中扫描的条码。
 
 1.  单击**新建**创建新的条码掩码。
 2.  在**掩码 ID** 和**描述**字段中输入值，然后在**类型**字段中选择条码掩码类型。

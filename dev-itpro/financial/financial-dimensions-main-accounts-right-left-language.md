@@ -1,15 +1,15 @@
 ---
 title: "从右到左语言的财务维度和主科目"
-description: "本主题介绍当您在 Microsoft Dynamics 365 for Operations 中使用从右到左的语言时应考虑的一些实施决策以及您必须设置财务维度和主科目。"
+description: "本主题介绍当您使用从右到左的语言时应考虑的一些实施决策以及您必须设置财务维度和主科目。"
 author: RobinARH
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 222564
 ms.assetid: 875dcebb-1bbb-4841-a8c6-9e134da07e96
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1f196d2a13bba49647dd4f008cd39b7417940f1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: e28d3b318c2efa0b9d0da1154692f8e64c553e64
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本主题介绍当您在 Microsoft Dynamics 365 for Operations 中使用从右到左的语言时应考虑的一些实施决策以及您必须设置财务维度和主科目。
+本主题介绍当您使用从右到左的语言时应考虑的一些实施决策以及您必须设置财务维度和主科目。
 
 财务维度和主科目是实施的计划阶段的关键组件。 在系统中创建财务维度和主科目后，它们在“**配置科目结构**”、“**高级规则结构**”和“**用于集成应用程序的财务维度配置**”页使用。 在这些页面上定义的顺序在系统中针对数据输入和消耗量使用。 在系统中的某些位置，财务维度和主科目在单独的字段中显示。 但是在其他位置，例如日记帐，财务维度和主科目作为一个字符串显示。
 

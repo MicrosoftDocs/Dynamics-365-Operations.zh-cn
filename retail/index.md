@@ -80,7 +80,7 @@ MPOS 是适用于 PC、平板电脑和手机的 POS 应用。 销售人员可在
 
 商店店员可以查看班次和分配的时间表，阅读班次说明，并查看分配到各班次的同事。 店员还可以提交缺勤请求、与同事交换班次的请求和班次提议请求。
 
-## <a name="customize-and-administer-retail-environments"></a>自定义和管理零售环境
+## <a name="customize-and-administer-retail-environments"></a>自定义和管理 Retail 环境
 如果您需要自定义您的环境，或者您负责部署和维护系统，则除一些更常规的内容外，请务必查看特定于 Retail 的开发人员和系统管理员内容。
 
 - [面向 IT 专业人员和开发人员的 Dynamics 365 for Retail](dev-itpro/dev-retail-home-page.md)

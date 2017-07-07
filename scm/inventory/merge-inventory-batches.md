@@ -3,14 +3,14 @@ title: "合并库存批次"
 description: "本文提供有关如何将两个或多个库存批次整合到单个合并批次的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e97257955f4f8fa86c8bf957a182aa71d4fbc8ef
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: aec97976ef6a2b4c66118289f7f76b14351456f8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -91,7 +91,7 @@ ms.lasthandoff: 05/25/2017
 不，您只可以合并全部批次数量。 批次合并功能作为库存功能，而非生产功能。
 
 ## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>批次具有不同的批次属性值怎么办？
-选择要结合在合并批次中的源批次时，Microsoft Dynamics 365 for Operations 验证所有批次是否具有特征或属性值。 如果属性值相同，则会为合并批次建议一个值。 可以更改该值。 合并批次的不同属性值将留空，您可以手动输入这些值。 如果属性值的批次属性类型是整数或分数，且所有源批次的值不同，则将会使用加权平均计算来计算值。 计算的值将四舍五入为最接近的增量。 如果源批次的值为空，则批次和数量不会包括在计算中。 **示例**下面举例显示了合并批次的加权平均计算。 两个源批次对于为整数的批次属性类型提供了空值。 以下属性分配给了源批次。
+选择要结合在合并批次中的源批次时，Finance and Operations 验证所有批次是否具有特征或属性值。 如果属性值相同，则会为合并批次建议一个值。 可以更改该值。 合并批次的不同属性值将留空，您可以手动输入这些值。 如果属性值的批次属性类型是整数或分数，且所有源批次的值不同，则将会使用加权平均计算来计算值。 计算的值将四舍五入为最接近的增量。 如果源批次的值为空，则批次和数量不会包括在计算中。 **示例**下面举例显示了合并批次的加权平均计算。 两个源批次对于为整数的批次属性类型提供了空值。 以下属性分配给了源批次。
 
 | 属性 | 最小值 | 增量 | 最大值 |
 |-----------|---------|-----------|---------|

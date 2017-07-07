@@ -3,14 +3,14 @@ title: "基于活动的转包"
 description: "此主题介绍如何在用于 lean manufacturing 的生产流中使用已转包活动。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4cf93c861345ad11b995ac2fe50c9a94dddcbd56
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 43c95c8ab8599a048b1c8c732d6dcac1c3e8b9e9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 此主题介绍如何在用于 lean manufacturing 的生产流中使用已转包活动。
 
-在 Microsoft Dynamics 365 for Operations 中，可通过两种方法转包生产订单和 lean manufacturing。 在 lean manufacturing 方法中，转包工作建模为与生产流活动有关的服务。 已引入了名称为**直接外包**的一种特殊类型的成本组类型，并且转包服务不再属于物料清单 (BOM)。 转包工作的成本核算已完全集成到 lean manufacturing 的成本计算解决方案。
+在 Microsoft Dynamics 365 for Finance and Operations 中，有两种转包方法：生产订单和 lean manufacturing。 在 lean manufacturing 方法中，转包工作建模为与生产流活动有关的服务。 已引入了名称为**直接外包**的一种特殊类型的成本组类型，并且转包服务不再属于物料清单 (BOM)。 转包工作的成本核算已完全集成到 lean manufacturing 的成本计算解决方案。
 
 ## <a name="production-flows-that-involve-subcontractors"></a>涉及转包商的生产流
 生产流的基本原则是转包活动时生产流不改变。 物料仍然在位置之间流转，处理活动将物料转换为产品，而运输活动则将物料或产品从一个位置转移到另一个位置。 可以通过为仓库或资源组的资源分配供应商帐户，将位置和工作单元建模为供应商所管。  
@@ -104,7 +104,7 @@ ms.lasthandoff: 05/25/2017
 
 可通过 lean manufacturing 中基于活动的转包集成在生产流的位置之间运输物料和产品的承运人和运输供应商。 通过为运输活动建模，可以分配承运人或供应商。 运输活动/作业基于服务和采购协议，而您可以基于实际运输作业创建采购订单和收货公告。 此功能与已转包流程活动的功能相同。  
 
-因此，Dynamics 365 for Operations 现在支持包含运输服务的物料清单计算、创建相关采购订单、集成收货登记和将运输服务成本集成到生产流成本计算中。
+因此，Finance and Operations 现在支持包含运输服务的物料清单计算、创建相关采购订单、集成收货登记和将运输服务成本集成到生产流成本计算中。
 
 
 

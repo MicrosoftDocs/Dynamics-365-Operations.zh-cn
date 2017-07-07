@@ -3,7 +3,7 @@ title: "产品配置模型概述"
 description: "本文定义与产品配置模型有关的术语和概念。 可通过产品配置模型构建可用于为单个产品配置大量产品变型的通用产品结构。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 30580b059a4c240ad540a9c347b0551df0ab5c02
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1270c35bc7dbe4c85a1aa991a0387b33e1cb6990
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -121,7 +121,7 @@ ms.lasthandoff: 05/25/2017
 </tr>
 </tbody>
 </table>
-系统定义的表约束表示 Dynamics 365 for Operations 表中属性类型与字段之间的映射。 系统定义的表约束将属性类型与字段动态链接。 链接能让产品配置模型中的属性反映 Dynamics 365 for Operations 中的字段的数据。</td>
+系统定义的表约束表示 Finance and Operations 表中属性类型与字段之间的映射。 系统定义的表约束将属性类型与字段动态链接。 链接能让产品配置模型中的属性反映 Finance and Operations 表中的字段的数据。</td>
 </tr>
 <tr class="odd">
 <td>计算</td>

@@ -1,9 +1,9 @@
 ---
 title: "弃用功能"
-description: "本主题介绍 Dynamics 365 for Operations 中已经删除或计划删除的功能。 它还列出在 Dynamics AX 7.0 版本中被启用的功能。"
+description: "本主题介绍已经删除或计划删除的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/18/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 46a6f054f1cc5162e19d962964eb6eeb780087a6
+ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
+ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/16/2017
 
 
 ---
@@ -29,8 +29,40 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+本主题介绍已经删除或计划删除的功能。
 
-本主题介绍 Dynamics 365 for Operations 中已经删除或计划删除的功能。 它还列出在 Dynamics AX 7.0 版本中被启用的功能。
+## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>在 Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新中已经弃用的功能
+
+### <a name="warehouse-mobile-devices-portal"></a>仓库移动设备门户
+
+仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。 此组件在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中不再受支持。 一个可提高用户体验的本机应用已替代 WMDP 的功能。 
+
+|                                  |                                                 |
+|----------------------------------|-------------------------------------------------|
+| **弃用原因**       | 重复的功能。                        |
+| **被另一个功能取代？** | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅 [安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app)。 |
+| **受影响的模块**             | 仓库管理，运输管理 |
+
+### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>用于手动匹配的高级银行对帐匹配规则
+
+匹配规则用于在对帐工作表中手动匹配单据时选择和标记银行单据。
+
+|                                  |                                                                                        |
+|----------------------------------|----------------------------------------------------------------------------------------|
+| **弃用原因**       | 有限使用。                                                                         |
+| **被另一个功能取代？** | 编号 应使用列筛选功能查找用于对帐的单据。 |
+| **受影响的模块**             | 现金和银行管理                                                               |
+
+### <a name="windows-8-tablet-app"></a>Windows 8 平板电脑应用
+
+Windows 8 平板电脑应用提供用于费用录入和审核的功能。
+
+|                                  |                                                                                          |
+|----------------------------------|------------------------------------------------------------------------------------------|
+| **弃用原因**       | Finance and Operations 与平板电脑兼容。 无需再使用平板电脑应用。 |
+| **被另一个功能取代？** | 编号                                                                                      |
+| **受影响的模块**             | 费用报销管理                                                                       |
+
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>在具有平台更新 3 的 Dynamics 365 for Operations 1611 中被弃用的功能
 ---------------------------------------------------------------------------------------------
@@ -301,7 +333,7 @@ Telepay 付款格式包括供应商付款导出（贷方转帐）和客户付款
 
 |                              |                                                                                                                                                                                                                                                                                                                                        |
 |------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 折旧的原因       | 绩效管理在 Microsoft Dynamics 365 for Operations 中已经完全重新设计。                                                                                                                                                                                                                                        |
+| 折旧的原因       | 绩效管理在 Microsoft Dynamics 365 for Finance and Operations 中已经完全重新设计。                                                                                                                                                                                                                                        |
 | 被另一个功能取代？ | 经过重新设计的绩效管理功能能够更好地控制目标内容、用来跟踪进度的衡量指标以及支持文档的附加。 目标可以存储为模板并重复使用。 此功能可以帮助您更加快速地为您的员工设置额外目标。 |
 | 受影响的模块             | 人力资本管理                                                                                                                                                                                                                                                                                                               |
 
@@ -484,7 +516,7 @@ ICMS 税联邦报税单
 
 |                              |                                                                                         |
 |------------------------------|-----------------------------------------------------------------------------------------|
-| 折旧的原因       | 直接数据库连接要求较低的安全协议，主要用于达到最高性能级别。 由于 Dynamics 365 for Operations 发生的性能和安全性提高，此功能现在导致的问题比解决的问题更多。 |
+| 折旧的原因       | 直接数据库连接要求较低的安全协议，主要用于达到最高性能级别。 由于 Finance and Operations 发生的性能和安全性提高，此功能现在导致的问题比解决的问题更多。 |
 | 被另一个功能取代？ | 编号 现在只支持标准零售服务器通信。    |
 | 受影响的模块             | 通道 DB/Retail Modern POS                                    |
 
@@ -808,9 +840,5 @@ Dynamics AX 中不再支持虚拟公司功能。 虚拟公司功能允许用户�
 | 折旧的原因       | 此功能已被另一个功能取代。                                    |
 | 被另一个功能取代？ | Management Reporter（在 Dynamics AX 的当前版本中标记为**“财务报告”**。） |
 | 受影响的模块             | 总帐                                                                              |
-
-
-
-
 
 

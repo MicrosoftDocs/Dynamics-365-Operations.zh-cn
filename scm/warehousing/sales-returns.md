@@ -3,13 +3,13 @@ title: "销售退货"
 description: "此主题提供有关退货单流程的信息。 其中包含有关客户退货及其对成本计算和现有库存数量的影响的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdec28ba1fe3650f59520cb42a71497c54a7d93e
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 
 此主题提供有关退货单流程的信息。 其中包含有关客户退货及其对成本计算和现有库存数量的影响的信息。
 
-客户可能因为各种原因退货。 例如，物品可能有瑕疵，或者可能不满足客户的期望。 客户发出退货请求时，退货流程开始。 收到客户的请求后，将在 Microsoft Dynamics 365 for Operations 中创建退货单。
+客户可能因为各种原因退货。 例如，物品可能有瑕疵，或者可能不满足客户的期望。 客户发出退货请求时，退货流程开始。 收到客户的请求后，将在 Microsoft Dynamics 365 for Finance and Operations 中创建退货单。
 
 ## <a name="return-order-process"></a>退货单流程
 下图提供退货单流程的概览。  
@@ -264,7 +264,7 @@ ms.lasthandoff: 05/25/2017
 
 [![简单内部公司退货](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
 
-买方公司中创建了供应商退货单或销售公司中创建了客户退货单时，可以建立订单链。 Dynamics 365 for Operations 将在另一家公司中创建相应订单，并确保供应商订单中的标题和行信息体现客户退货单中的设置。 建立的退货单中可以包含或排除对现有客户发票的引用（**查找销售订单**）。 可以分开处理这两个订单的装箱单和发票。 例如，为客户退货单生成装箱单之前，无需为供应商退货单生成装箱单。
+买方公司中创建了供应商退货单或销售公司中创建了客户退货单时，可以建立订单链。 Finance and Operations 将在另一家公司中创建相应订单，并确保供应商订单中的标题和行信息体现客户退货单中的设置。 建立的退货单中可以包含或排除对现有客户发票的引用（**查找销售订单**）。 可以分开处理这两个订单的装箱单和发票。 例如，为客户退货单生成装箱单之前，无需为供应商退货单生成装箱单。
 
 ### <a name="direct-delivery-shipment-returns-among-three-parties"></a>三方之间的直接交运装运退货
 

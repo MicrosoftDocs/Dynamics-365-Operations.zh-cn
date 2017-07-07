@@ -3,13 +3,13 @@ title: "新任务指南（2016 年 2 月）"
 description: "此主题列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 102083
 ms.assetid: f50585e8-4ef6-4cd8-90d8-c8d6a65b22b8
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3c99753f22e537fdc026342dce12389fb9acc83a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cdad1d6c2466b47b07133a5335866ef6881609ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,12 +30,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。
+此主题列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics AX 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。
 
-<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-365-for-operations"></a>Microsoft Dynamics 365 for Operations 的 APQC 标准库中的任务指南（2016 年 2 月）
+<a name="task-guides-in-the-february-2016-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 2 月）
 ---------------------------------------------------------------------------------
 
-（2016 年 2 月）APQC 标准库包含用于帮助 Dynamics 365 for Operations 7.0.0 发布的任务指南。 如果您需要这些任务指南的本地化版本，它们将在 Microsoft Dynamics 365 for Operations 的（2016 年 5 月）APQC 标准库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
+（2016 年 2 月）APQC 标准库包含用于帮助 Dynamics AX 7.0.0 发布的任务指南。 如果您需要这些任务指南的本地化版本，它们将在 Microsoft Dynamics AX 的（2016 年 5 月）APQC 标准库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
 
 ### <a name="accounts-payable"></a>应付帐款
 

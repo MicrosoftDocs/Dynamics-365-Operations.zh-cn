@@ -3,14 +3,14 @@ title: "生成统计基准预测"
 description: "本文提供有关用于需求预测计算的参数和筛选器的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72683
 ms.assetid: 42190463-2a64-4f63-b653-10cac3df0692
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d5232b0862d02962c6524ddc5ef37a6ad49d4143
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 93646e37ee511d433097bb284fccc73c230aee32
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,13 +49,13 @@ ms.lasthandoff: 05/25/2017
 
 为了避免生产计划的混淆，特定预测时段数目可以锁定。 此数目在字段**锁定时限**中设置。 在**调整后的需求预测**页上，锁定时段的单元格将禁用，以给予不应更改的那些值以直观显示。 
 
-基准需求预测的开始日期不必为当前日期或未来日期。 若要设置不同的开始日期，请使用**基准预测开始日期 - 开始日期**字段。 例如，在六月，用户可以生成明年的预测。 由于历史需求的结束和基准的开始之间的预测时段缺少，预测可能不准确。 如果您使用 Microsoft Dynamics 365 for Operations 需求预测服务，您可以有四种方法填补缺失。 您可以通过在**需求预测参数**页上设置 MISSING\_VALUE\_SUBSTITUTION 参数来选择需要的方法。 
+基准需求预测的开始日期不必为当前日期或未来日期。 若要设置不同的开始日期，请使用**基准预测开始日期 - 开始日期**字段。 例如，在六月，用户可以生成明年的预测。 由于历史需求的结束和基准的开始之间的预测时段缺少，预测可能不准确。 如果您使用 Microsoft Dynamics 365 for Finance and Operations 需求预测服务，您可以有四种方法填补缺失。 您可以通过在**需求预测参数**页上设置 MISSING\_VALUE\_SUBSTITUTION 参数来选择需要的方法。 
 
 **基准预测开始日期**  -  **开始日期**字段必须设置为预测时段的开始，例如，在美国，如果预测时段是周则为星期日。 此系统自动调整**基准预测开始日期**  -  **开始日期**字段为与预测时段的开始匹配。 
 
 **基准预测开始日期**  -  **开始日期**字段可以设置为过去的日期。 换言之，可以生成过去的需求预测。 这很有用，因为它允许用户调整预测服务参数，以便过去生成的统计预测与实际历史需求匹配。 用户然后可以继续使用这些参数设置来生成将来的统计基准预测。 
 
-如果选中**转移对需求预测进行的手动调整**复选框，在以前需求预测迭代进行的手动调整可以自动应用于新的基准预测。 如果清除此复选框，手动调整不添加到基准预测 – 但它们不删除。 对预测进行的手动调整只能在预测导入时删除，方法是通过清除**保存对基准需求预测进行的手动调整**复选框。 手动调整在授权时保存。 因此，如果用户对预测进行手动调整，但不授权预测回 Dynamics 365 for Operations，则更改将丢失。 有关手动调整以及它们的工作方式的详细信息，请参阅[授权已调整的预测](authorize-adjusted-forecast.md)。 
+如果选中**转移对需求预测进行的手动调整**复选框，在以前需求预测迭代进行的手动调整可以自动应用于新的基准预测。 如果清除此复选框，手动调整不添加到基准预测 – 但它们不删除。 对预测进行的手动调整只能在预测导入时删除，方法是通过清除**保存对基准需求预测进行的手动调整**复选框。 手动调整在授权时保存。 因此，如果用户对预测进行手动调整，但不授权预测返回 Finance and Operations，则更改将丢失。 有关手动调整以及它们的工作方式的详细信息，请参阅[授权已调整的预测](authorize-adjusted-forecast.md)。 
 
 需求预测生成可以有名称和注释以帮助用户确定已生成的预测。 这些值在**统计基准预测生成历史记录**页的预测生成历史记录中可见。 
 

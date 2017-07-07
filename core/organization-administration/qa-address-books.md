@@ -3,7 +3,7 @@ title: "通讯簿"
 description: 
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23601
 ms.assetid: b177fa0f-ac9a-415e-9498-15438e132f60
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 568000b37fa067dfd34b4ee0642e4ba6cbe3aa54
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7b3bed2bec4b109c6e3b557b8c3651f15f25169c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -67,7 +67,7 @@ ms.lasthandoff: 05/25/2017
 -   **在您知道实体类型时，创建一个当事方记录** – 如果您知道当事方的实体类型，则您可以为该类型在适用的页面上创建记录。 例如，在**“客户”**页上为客户创建一个记录。 通过使用适用的实体页创建和保存记录时，该记录在全球通讯簿中自动创建。
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>是否可以转换当事方记录的地址信息？
-您可以设置地址信息的转换以便该信息在 Microsoft Dynamics 365 for Operations 中用您的用户语言（系统语言）显示，不过在文档上用其他语言，如用销售订单。 您可以输入国家/地区名称的转换、地址目的和姓名顺序。 例如，您的系统语言为丹麦语，并且您用法语为客户创建销售订单。 在这种情况下，您可以在程序中用丹麦语查看客户记录，但在打印的销售订单上用法语显示地址信息。 在您设置转换时，在列表中应输入每个物料的一个转换。 未输入转换的所有物料将出现在系统语言。 例如，您的系统语言为丹麦语，并且您用西班牙语发送文档到一个客户。 如果您未输入地址信息的西班牙语 (ESP) 转换，该信息在程序中和文档上用丹麦语显示。
+您可以设置地址信息的转换以便该信息在 Microsoft Dynamics 365 for Finance and Operations 中用您的用户语言（系统语言）显示，但在文档上用其他语言，如销售订单。 您可以输入国家/地区名称的转换、地址目的和姓名顺序。 例如，您的系统语言为丹麦语，并且您用法语为客户创建销售订单。 在这种情况下，您可以在程序中用丹麦语查看客户记录，但在打印的销售订单上用法语显示地址信息。 在您设置转换时，在列表中应输入每个物料的一个转换。 未输入转换的所有物料将出现在系统语言。 例如，您的系统语言为丹麦语，并且您用西班牙语发送文档到一个客户。 如果您未输入地址信息的西班牙语 (ESP) 转换，该信息在程序中和文档上用丹麦语显示。
 
 
 

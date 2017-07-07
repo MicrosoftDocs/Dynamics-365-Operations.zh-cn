@@ -3,14 +3,14 @@ title: "实际和财务更新"
 description: "本主题提供哪些类型的交易记录将增减库存数量的概要。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75023
 ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 72984b951b88bef565377a7470194437ad0137ce
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a0eeb5a57f9b82150150752c64e89c2c91856889
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 本主题提供哪些类型的交易记录将增减库存数量的概要。 
 
-库存交易记录可以在 Microsoft Dynamics 365 for Operations 中完成实际更新和财务更新。 某些实际交易记录和财务交易记录类型会增加库存数量，而其他则会减少数量。
+库存交易记录可以在 Microsoft Dynamics 365 for Finance and Operations 中完成实际更新和财务更新。 某些实际交易记录和财务交易记录类型会增加库存数量，而其他则会减少数量。
 
 ## <a name="physical-increases"></a>实际增加
 在过帐某一实际交易记录时，该交易记录的状态为**已接收**。 以下交易记录被视为实际增加：
@@ -53,10 +53,10 @@ ms.lasthandoff: 05/25/2017
 -   正数量库存日记帐，例如移动、损益、盘点、物料清单和转移
 
 ## <a name="transactions-that-increase-quantity"></a>增加数量的交易记录
-以移动平均成本价过帐增加数量的交易记录。 Dynamics 365 for Operations 计算移动平均成本价（基于每个财务跟踪的库存维度的上述各交易记录的成本）。 有关移动平均成本价的信息，请参阅[移动平均成本价](running-average-cost-price.md)。
+以移动平均成本价过帐增加数量的交易记录。 Finance and Operations 计算移动平均成本价（基于每个财务跟踪的库存维度的上述各交易记录的成本）。 有关移动平均成本价的信息，请参阅[移动平均成本价](running-average-cost-price.md)。
 
 ## <a name="transactions-that-decrease-quantity"></a>减少数量的交易记录
-过帐减少数量的交易记录时，Dynamics 365 for Operations 使用计算出的移动平均成本价，而不考虑与该库存关联的库存模型。 减少数量的交易记录不得在另一个交易记录过帐前标记为该交易记录。 如果实际现有库存量变为负值，Dynamics 365 for Operations 使用为**物料**页上的物料定义的库存成本。 **注意：**如果启用多站点功能，则该成本将改为在**默认订单设置**页上定义的库存成本。
+过帐减少数量的交易记录时，Finance and Operations 使用计算出的移动平均成本价，而不考虑与该库存关联的库存模型。 减少数量的交易记录不得在另一个交易记录过帐前标记为该交易记录。 如果实际现有库存量变为负值，Finance and Operations 使用为**物料**页上的物料定义的库存成本。 **注意：**如果启用多站点功能，则该成本将改为在**默认订单设置**页上定义的库存成本。
 
 ## <a name="physical-issues-vs-financial-issues"></a>实际发货与财务发货
 在过帐某一实际发货交易记录时，该交易记录的状态为**已减少**。 以下交易记录被视为实际发货：

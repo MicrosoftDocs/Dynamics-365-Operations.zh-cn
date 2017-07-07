@@ -114,7 +114,7 @@ Microsoft Dynamics 365 for Finance and Operations 是 Microsoft 面向企业的�
 <p><a href="../retail/call-center-functionality">呼叫中心</p>
 <p><a href="../retail/define-maintain-retail-channels">通道设置和管理</p>
 <p><a href="../retail/retail-peripherals-overview">MPOS 和云 POS</p>
-<p><a href="../retail/dev-itpro/dev-retail-home-page">零售开发人员和管理</p>
+<p><a href="../retail/dev-itpro/dev-retail-home-page">Retail 开发人员和管理</p>
 
 </td>
 </tr>

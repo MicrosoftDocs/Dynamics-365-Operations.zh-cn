@@ -3,14 +3,14 @@ title: "构建产品配置模型"
 description: "“将产品配置为可满足特定要求”这一需求在“企业对企业”和“企业对消费者”关系中都正在成为规则而不是特例。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 901d5dd18f0da6f05c185c24b3f11fe32fdc400b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5bc19e95266e8f1bec8744da688387dca559373f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/25/2017
 
 用户定义的表约束由用户构建。 用户选择用于表示表列的属性类型的组合，然后输入来自所选属性类型的域并用于在表约束中形成行的值。  
 
-系统定义的表约束通过以下方式定义：选择要用作引用的 Microsoft Dynamics 365 for Operations 表，然后从此表中选择用于在约束中形成列的字段。 表约束的行是在配置时呈现的 Dynamics 365 for Operations 表的行。  
+系统定义的表约束通过以下方式定义：选择要用作引用的 Microsoft Dynamics 365 for Finance and Operations 表，然后从此表中选择用于在约束中形成列的字段。 表约束的行是在配置时呈现的 Finance and Operations 表的行。  
 
 可通过引用表约束定义并将模型中的相关属性映射到表约束中的列来将表约束包含在产品配置模型中。
 

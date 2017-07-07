@@ -1,6 +1,6 @@
 ---
 title: "工作流系统概览"
-description: "此主题介绍了 Microsoft Dynamics 365 for Operations 中的工作流系统。"
+description: "此主题介绍 Microsoft Dynamics 365 for Finance and Operations 中的工作流系统。"
 author: sericks007
 manager: AnnBe
 ms.date: 04/25/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 56381
 ms.assetid: 20b78595-e1d9-439a-ae1c-a776a3438919
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 142f6f122172f717733db6f39b964c3f6f2e2f77
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 1dc7935bf92567d529d393abf3069935a387e388
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题介绍了 Microsoft Dynamics 365 for Operations 中的工作流系统。
+此主题介绍 Microsoft Dynamics 365 for Finance and Operations 中的工作流系统。
 
 <a name="what-is-workflow"></a>什么是工作流？
 -----------------
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 术语*工作流*可以通过两种方式定义：作为系统和作为业务流程。
 ### <a name="workflow-is-a-system"></a>工作流是一个系统
 
-工作流是随 Dynamics 365 for Operations 一起安装，并且在应用程序对象服务器 (AOS) 上运行的系统。 使用工作流系统提供的功能，您可以创建单独的工作流或业务流程。
+工作流是随 Finance and Operations 一起安装，并且在应用程序对象服务器 (AOS) 上运行的系统。 使用工作流系统提供的功能，您可以创建单独的工作流或业务流程。
 
 ### <a name="workflow-is-a-business-process"></a>工作流是一个业务流程
 

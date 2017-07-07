@@ -1,27 +1,28 @@
 ---
 title: "电话中心内的付款方法"
-description: "本主题介绍可以在“零售和商业”的呼叫中心使用的不同付款方法。"
+description: "本主题介绍可以在 Dynamics 365 for Retail 的呼叫中心使用的不同付款方法。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 92163
 ms.assetid: 8e738907-870b-466c-ab0c-07f4a4aa47f3
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 930264f9c22cbde102b59237e432df7d7e4836c8
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 07cb1bcb3870b96e34f7f6725fe5b7da32628fde
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-本主题介绍可以在“零售和商业”的呼叫中心使用的不同付款方法。
+本主题介绍可以在 Dynamics 365 for Retail 的呼叫中心使用的不同付款方法。
 
-在 Microsoft Dynamics AX 的“零售和商业”的其他通道中使用的付款方法，例如现金、支票、信用卡和礼品卡，也可以用于电话中心。 在您为电话中心设置付款方法后，它作为一个选项出现在所有电话中心用户**销售订单**页的**付款**部分。 此外，您可设置优惠券为在贵组织的呼叫中心下单的客户提供折扣。 优惠券可为固定折扣金额或物料价格或订单合计的百分比。 例如，当客户话费 750.00 或更多时，基于金额的优惠券提供给客户75.00 的折扣。 可以创建不同类型的优惠券，设置父/子优惠券，复制或取消优惠券。 使用下表中的选项可创建优惠券。
+在其他通道中使用的付款方法，例如现金、支票、信用卡和礼品卡，也可以用于电话中心。 在您为电话中心设置付款方法后，它作为一个选项出现在所有电话中心用户**销售订单**页的**付款**部分。 此外，您可设置优惠券为在贵组织的呼叫中心下单的客户提供折扣。 优惠券可为固定折扣金额或物料价格或订单合计的百分比。 例如，当客户话费 750.00 或更多时，基于金额的优惠券提供给客户75.00 的折扣。 可以创建不同类型的优惠券，设置父/子优惠券，复制或取消优惠券。 使用下表中的选项可创建优惠券。
 
 |                           |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
 |---------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

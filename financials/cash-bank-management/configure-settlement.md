@@ -3,7 +3,7 @@ title: "配置结算"
 description: "交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本文介绍用于应付帐款和应收帐款的结算的参数。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14601
 ms.assetid: 6b61e08c-aa8b-40c0-b904-9bca4e8096e7
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2d3015004371aa041a7ee545df9a4c7f0e48ca31
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 059513de66827aa3a839b9eb06973ec4c1549f73
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本文介绍用于应付帐款和应收帐款的结算的参数。 
 
-以下参数将影响如何在 Microsoft Dynamics 365 for Operations 中处理结算。 结算是对照付款或贷方通知单结算发票的流程。 这些参数位于**应收帐款参数**和**应付帐款参数**页的**结算**区域。
+以下参数将影响如何在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中处理结算。 结算是对照付款或贷方通知单结算发票的流程。 这些参数位于**应收帐款参数**和**应付帐款参数**页的**结算**区域。
 
 -   **自动结算** – 如果交易记录在过帐时应自动对照其他未结交易记录结算，则设置此选项为**是**。 如果此选项设置为**否**，用户可以使用**结算交易记录**页在输入付款或之后手动结算交易记录。
 -   **现金折扣管理** – 指定[当发票超额支付时如何处理现金折扣](cash-discount-handling-overpayments.md)。 对于超额支付，可以减少现金折扣，可作为差额对待，也可以为供应商或客户在帐户中保留。

@@ -1,15 +1,15 @@
 ---
 title: "固定资产价值模型和折旧帐簿合并"
-description: "在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations 1611 版中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。"
+description: "在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 版本中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221564
 ms.assetid: 7c68eb7c-8b1a-4dd9-afb8-04b4040e305e
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ed01fc3c5f2f8b0870f22b39a8b0f6e98596af21
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: add41ceb1dd31d5b5aa26916114d7d7864cb1626
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations 1611 版中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。
+在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 版本中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。
 
 新的帐簿功能以先前的价值模型功能为基础，但还包括以前仅在折旧帐簿中提供的所有功能。 [![作为价值模型与折旧帐簿功能合并的帐簿](./media/fixed-assets.png)](./media/fixed-assets.png) 由于进行了合并，您现在可以对您的所有固定资产流程使用单一的页面、查询和报表集合。 本主题中的表格列出了早期版本的折旧帐簿和价值模型功能以及新版本的帐簿功能。
 

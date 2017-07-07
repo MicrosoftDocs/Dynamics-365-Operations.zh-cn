@@ -3,7 +3,7 @@ title: "自动结算和优先级"
 description: "本文介绍如果您在应收帐款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 890de45f8425bdc59ca2fd2ed8297ab3690cc98d
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 3e2ca11eef4246d5abfd77351325ac2b4440b446
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 本文介绍如果您在应收帐款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。
 
-结算发票和其他交易记录的付款时，有两个选项。 可以手动选择要结算的交易记录，或 Microsoft Dynamics 365 for Operations 可通过使用自动结算功能自动选择交易记录。 您还可以通过使用**设置结算的优先级**选项自定义自动结算如何处理。 所有这些选项都是在**应收帐款参数**页上定义的结算参数的一部分。 自动结算交易记录的方式可有多不同，具体取决于用于自动结算的方法。 提供以下方法：
+结算发票和其他交易记录的付款时，有两个选项。 可以手动选择要结算的交易记录，或 Microsoft Dynamics 365 for Finance and Operations 可使用自动结算功能自动选择交易记录。 您还可以通过使用**设置结算的优先级**选项自定义自动结算如何处理。 所有这些选项都是在**应收帐款参数**页上定义的结算参数的一部分。 自动结算交易记录的方式可有多不同，具体取决于用于自动结算的方法。 提供以下方法：
 
 -   用户定义的结算优先级
 -   默认自动结算

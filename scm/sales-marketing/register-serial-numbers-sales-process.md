@@ -3,15 +3,15 @@ title: "在销售流程中登记序列号"
 description: "本文说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
-ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 28931
 ms.assetid: 5d39630f-607e-492b-8c1e-790ca53effa0
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d984a6af2b48f02120ea61b385522a6400d93d4a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ffb567c0ba9c95d059e64e24cbe0ea53ec9f7bc9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,14 +32,15 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 本文说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。
 
-许多公司捕获序列号只是为了用于服务和保修用途，因此不必在从收货到发货的库存中维护序列号。 在这些情况下，Microsoft Dynamics 365 for Operations 在产品销售时可以登记装箱单或发票的序列号。 如果产品后来退货，您可以跟踪每个发票的产品以确定是否销售产品，服务或保修合同是否有效。
+许多公司捕获序列号只是为了用于服务和保修用途，因此不必在从收货到发货的库存中维护序列号。 在这些情况下，Microsoft Dynamics 365 for Finance and Operations 在产品销售时可以登记装箱单或发票的序列号。 如果产品后来退货，您可以跟踪每个发票的产品以确定是否销售产品，服务或保修合同是否有效。
 有什么先决条件吗？
 ----------------------------
 
-您必须通过选择**跟踪维度组**页的**在销售流程中有效**选项来启用销售流程的序列号。 以下事件然后在 Microsoft Dynamics 365 for Operations 中发生：
+您必须通过选择**跟踪维度组**页的**在销售流程中有效**选项来启用销售流程的序列号。 以下事件随后在 Microsoft Dynamics 365 for Finance and Operations 中发生：
 -   在**序列号**快速选项卡上，选择**序列号控制**选项。 如果选中此选项，则必须在装箱单或发票上登记每个物料的序列号。
 -   除了**允许空发货**选项外，清除序列号跟踪维度组的所有选择。 可以选中**允许空发货**选项来覆盖序列号控制并允许产品在没有登记序列号的情况下包装和开票。
 

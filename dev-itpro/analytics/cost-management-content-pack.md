@@ -3,13 +3,13 @@ title: "成本管理 Power BI 内容"
 description: "此主题介绍成本管理 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations
+ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 270314
 ms.assetid: 9680d977-43c8-47a7-966d-2280ba21402a
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a9449e42224d5dfb1bc1f0368a041c45afc334a2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 387b804cb20ffdc17ad74dac5d927ecbaf421bae
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -52,7 +52,7 @@ ms.lasthandoff: 05/25/2017
 CostAggregatedCostStatementEntryEntity 的主要数据源为 CostStatementCache 表。 此表由数据集高速缓存框架管理。 默认情况下，此表每隔 24 小时更新一次，但是您可以在数据高速缓存配置中启用手动更新。 可以在**成本管理**或**成本分析**工作区中执行手动更新。 运行 CostStatementCache 的更新之后，必须在 Power BI.com 中更新 OData 连接才能在该网址中查看更新后的数据。 此 Power BI 内容中的差异（采购、生产）度量仅适用于通过标准成本库存方法估值的物料。 生产差异计算为有效成本与实际成本之差。 生产订单的状态为**已结束**时，计算生产差异。 有关生产差异类型和如何计算各种类型的详细信息，请参阅[关于分析已完成生产订单的差异](https://technet.microsoft.com/en-us/library/gg242850.aspx)。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-可从 PowerBI.com 获取**成本管理** Power BI 内容。 有关如何连接和加载您的 Microsoft Dynamics 365 for Operations 数据的详细信息，请参阅[从 PowerBI.com 访问 Power BI 内容](power-bi-home-page.md)。
+可从 PowerBI.com 获取**成本管理** Power BI 内容。 有关如何连接和加载您的 Microsoft Dynamics 365 for Finance and Operations 数据的详细信息，请参阅 [从 PowerBI.com 访问 Power BI 内容](power-bi-home-page.md)。
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
 此内容中包含一组报表页面。 每个页面中包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**成本管理** Power BI 内容中的可视化。
@@ -84,9 +84,9 @@ CostAggregatedCostStatementEntryEntity 的主要数据源为 CostStatementCache 
 | |按站点名称和类别名称级别 3 的生产差异 | |
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-Dynamics 365 for Operations 数据用于填充**成本管理** Power BI 内容中的报表页面。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL 数据库）中暂存的聚合度量。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。 以下关键聚合度量用作该内容的基础。
+Finance and Operations 数据用于填充**成本管理** Power BI 内容中的报表页面。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL 数据库）中暂存的聚合度量。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。 以下关键聚合度量用作该内容的基础。
 
-| 实体            | 关键聚合度量 | Dynamics 365 for Operations 的数据源 | 字段             | 说明                       |
+| 实体            | 关键聚合度量 | Finance and Operations 的数据源 | 字段             | 说明                       |
 |-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
 | 报表条目 | 净改变                | CostAggregatedCostStatementEntryEntity      | sum(\[Amount\])   | 按记帐币种计算的金额 |
 | 报表条目 | 净更改数量       | CostAggregatedCostStatementEntryEntity      | sum(\[Quantity\]) |                                   |

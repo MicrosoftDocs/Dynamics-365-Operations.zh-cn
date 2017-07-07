@@ -1,28 +1,29 @@
 ---
 title: "创建和管理属性"
-description: "本文介绍 Microsoft Dynamics 365 for Operations 中的属性。 属性可让您通过用户定义字段描述产品及其特征。"
+description: "本文介绍 Microsoft Dynamics 365 for Retail 中的属性。 属性可让您通过用户定义字段描述产品及其特征。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16461
 ms.assetid: 2b85491c-f830-4e79-a2cb-681b7ced6988
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: prabhup
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: eaee0edb4822a386c8781d9929999cea326f0a40
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -32,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-本文介绍 Microsoft Dynamics 365 for Operations 中的属性。 属性可让您通过用户定义字段描述产品及其特征。
+本文介绍 Microsoft Dynamics 365 for Retail 中的属性。 属性可让您通过用户定义字段描述产品及其特征。
 
 属性可让您通过用户定义字段描述产品及其特征。 例如，您可以指定产品的内存大小硬盘容量，并指示产品是否符合能源之星计划。 可以将属性与各种零售实体（如产品类别和零售通道）关联，并且可以为属性设置默认值。 当产品与产品类别或销售渠道关联时，产品将继承其属性以及这些属性的默认值。 默认值可在单个产品的级别、在零售渠道级别或在零售目录中覆盖。
 
@@ -59,7 +60,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="attribute-type"></a>属性类型
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
   
-属性基于属性类型。 属性类型用于确定可为特定属性输入的数据的类型。 当前，Microsoft Dynamics 365 for Operations 支持以下属性类型：
+属性基于属性类型。 属性类型用于确定可为特定属性输入的数据的类型。 当前，Microsoft Dynamics 365 for Retail 支持以下属性类型：
 
 -   **货币** - 此属性类型支持货币值。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。
 -   **日期时间** - 此属性类型支持日期和时间值。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。

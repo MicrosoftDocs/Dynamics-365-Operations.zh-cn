@@ -3,14 +3,14 @@ title: "采购订单的产品收货"
 description: "本文介绍了用于将产品登记为已接收状态的各种选项。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93113
 ms.assetid: d4ec3e86-fce2-4546-911b-e0acf64c8887
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5d1b063344d4191facf2ddace5f5c9d592fb0942
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a192688315adb2d83f349c525c5d8f70309375db
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="product-receipt-against-purchase-orders"></a>采购订单的产品收货
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 本文介绍了用于将产品登记为已接收状态的各种选项。
@@ -54,7 +56,7 @@ ms.lasthandoff: 05/25/2017
 
 可以同时选择多个订单和处理所有这些订单的收货。 这种方法使用的不是非常频繁，但如果供应商已经为您将发货合并到单个负荷，您可能需要用到它。 采购的产品收货期间，有用于进行汇总更新的功能。 汇总更新允许您从供应商过帐多个采购订单的一个装箱单。  
 
-可能从其中的**直接交运**选项被选中的销售订单创建采购订单。 当使用直接交运时，产品将永远不会到达您的仓库，但从供应商直接发货给客户。 在这种情况下，通常直接在采购订单上记录收货。 收货可以自动完成，例如通过与供应商的电子数据交换 (EDI) 集成。 或者，如果采购订单是内部公司采购订单，Microsoft Dynamics 365 for Operations 发货发生时自动执行内部公司销售订单的收货。 当使用直接交运时，产品仍作为库存核算，即使它们不实际到达仓库。 因此，在采购订单上登记产品收货时，销售订单会使用装箱单自动更新，以使对库存的总体更改为 0（零）。 在直接交运的情况下，您应该不需要预登记。 如果您使用已启用仓库管理的仓库，可以通过指定虚拟仓库解决牌照需求。 您在产品的**直接交运仓库**字段中指定此仓库。 
+可能从其中的**直接交运**选项被选中的销售订单创建采购订单。 当使用直接交运时，产品将永远不会到达您的仓库，但从供应商直接发货给客户。 在这种情况下，通常直接在采购订单上记录收货。 收货可以自动完成，例如通过与供应商的电子数据交换 (EDI) 集成。 或者，如果采购订单是内部公司采购订单，Microsoft Dynamics 365 for Finance and Operations 发货发生时自动执行内部公司销售订单的收货。 当使用直接交运时，产品仍作为库存核算，即使它们不实际到达仓库。 因此，在采购订单上登记产品收货时，销售订单会使用装箱单自动更新，以使对库存的总体更改为 0（零）。 在直接交运的情况下，您应该不需要预登记。 如果您使用已启用仓库管理的仓库，可以通过指定虚拟仓库解决牌照需求。 您在产品的**直接交运仓库**字段中指定此仓库。 
 
 在采购订单上处理产品收货后，采购订单的状态设置为**已接收**以表示可以为订单处理发票。 您可以通过使用**产品收据日记帐**页审查有关已收到产品的详细信息。  
 
@@ -69,7 +71,7 @@ ms.lasthandoff: 05/25/2017
 
 [采购订单审核和确认](purchase-order-approval-confirmation.md)
 
-[供应商发票概览](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

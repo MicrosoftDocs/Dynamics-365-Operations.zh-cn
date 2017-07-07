@@ -3,14 +3,14 @@ title: "使用工作模板和库位指令控制仓库的工作"
 description: "本文介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里执行工作。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 72921
 ms.assetid: 377ab8af-5b0c-4b5e-a387-06ac1e1820c0
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9d0ad4f64ee84da4e90dfa1525ebb5ff9fec4063
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f8bcdcf70089aaed06ba0f88cdbec8dfdf9121d1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 本文介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里执行工作。
 
-仓库工作人员在移动设备上收到的说明由您在 Microsoft Dynamics 365 for Operations 中设置以定义不同仓库流程和任务的工作模板确定。 工作模板确定如何为每个仓库流程执行工作。 通过将库位指令与工作模板链接，您可以帮助确保在仓库的实际特定区域执行工作。
+仓库工作人员在移动设备上收到的说明由您在 Microsoft Dynamics 365 for Finance and Operations 中设置以定义不同仓库流程和任务的工作模板确定。 工作模板确定如何为每个仓库流程执行工作。 通过将库位指令与工作模板链接，您可以帮助确保在仓库的实际特定区域执行工作。
 
 ## <a name="work-templates"></a>工作模板
 **工作模板**页可以定义必须在仓库中执行的工作工序。 通常，仓库工作工序包括一个对操作：仓库工作人员在一个库位领取现有库存量，然后将领取的库存放到另一个库位。 

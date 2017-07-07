@@ -1,15 +1,15 @@
 ---
 title: "编号规则概览"
-description: "Microsoft Dynamics 365 for Operations 中的编号规则用于为需要标识符的主数据记录和交易记录生成可读的唯一的标识符。 需要标识符的主数据记录或交易记录称为<em>“参考”</em>。"
+description: "Microsoft Dynamics 365 for Finance and Operations 中的编号规则用于为需要标识符的主数据记录和交易记录生成可读的唯一的标识符。 需要标识符的主数据记录或交易记录称为<em>“参考”</em>。"
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 15461
 ms.assetid: 6e19bd1d-192b-4da2-8573-84f6e1ce98ef
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a2dcbbbd0b67c171d5a26bbf2053d159f7367cc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: d260f460bf0da072eb46909d8c28d18041ecaa78
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Operations 中的编号规则用于为需要标识符的主数据记录和交易记录生成可读的唯一的标识符。 需要标识符的主数据记录或交易记录称为<em>“参考”</em>。
+Microsoft Dynamics 365 for Finance and Operations 中的编号规则用于为需要标识符的主数据记录和交易记录生成可读的唯一的标识符。 需要标识符的主数据记录或交易记录称为<em>“参考”</em>。
 
-在您能为 Microsoft Dynamics 365 for Operations 中的一个参考创建新记录之前，您必须设置编号规则并将其与参考相关联。 我们建议您使用**“组织管理”**中的页面来设置编号规则。 如果需要特定模块设置，您可以使用模块中的参数页面为该模块的参考指定编号规则。 例如，在**“应收帐款”**和**“应付帐款”**中，可以设置编号规则组分配特定编号规则指定客户或供应商。 在您设置编号规则时，必须指定“范围”，定义组织使用编号规则。 该范围内可以是**共享**、**公司****法人**或**运营单位**。 **“法人”**和**“公司”**范围可以与**“会计日历期间”**合并以创建更特定编号规则。 编号规则格式包括段落。 使用一个范围的编号规则而不是**“共享”**可以包含与该范围对应的段落。 例如，具有**“法人”**范围的编号规则可能包含法人段落。 通过包括编号规则格式的范围段落，您可以通过查看其编号标识特定记录的范围。 除了对应于范围的段落，则编号规则格式可以包含**“常量”**和**“字母数字”**段。 **“常量”**段包含不更改的一组字母，数字或符号。 **“字母数字”**段包含一组使用编号且递增的字母或数字。 使用数字标志 ()\# 表示递增的编号，使用符号（&）表示递增的字母。 例如，格式 \#\#\#\#\#\_2017 创建序列 00001\_2017、00002\_2017 等。
+在您能为 Microsoft Dynamics 365 for Finance and Operations 中的一个参考创建新记录之前，您必须设置编号规则并将其与参考相关联。 我们建议您使用**“组织管理”**中的页面来设置编号规则。 如果需要特定模块设置，您可以使用模块中的参数页面为该模块的参考指定编号规则。 例如，在**“应收帐款”**和**“应付帐款”**中，可以设置编号规则组分配特定编号规则指定客户或供应商。 在您设置编号规则时，必须指定“范围”，定义组织使用编号规则。 该范围内可以是**共享**、**公司****法人**或**运营单位**。 **“法人”**和**“公司”**范围可以与**“会计日历期间”**合并以创建更特定编号规则。 编号规则格式包括段落。 使用一个范围的编号规则而不是**“共享”**可以包含与该范围对应的段落。 例如，具有**“法人”**范围的编号规则可能包含法人段落。 通过包括编号规则格式的范围段落，您可以通过查看其编号标识特定记录的范围。 除了对应于范围的段落，则编号规则格式可以包含**“常量”**和**“字母数字”**段。 **“常量”**段包含不更改的一组字母，数字或符号。 **“字母数字”**段包含一组使用编号且递增的字母或数字。 使用数字标志 ()\# 表示递增的编号，使用符号（&）表示递增的字母。 例如，格式 \#\#\#\#\#\_2017 创建序列 00001\_2017、00002\_2017 等。
 编号规则示例
 ------------------------
 

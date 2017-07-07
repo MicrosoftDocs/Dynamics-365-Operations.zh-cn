@@ -1,16 +1,16 @@
 ---
-title: "预算计划与其他模块集成"
-description: 
+title: "预算计划与其他模块的集成"
+description: "预算计划可以从多个不同资源生成。 所有资源的周期性流程的基本元素相同。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 64443
 ms.assetid: f9a94db5-906c-404a-9ca5-91528d67c490
 ms.search.region: Global
@@ -18,15 +18,15 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3828416b7da366aa53757ea1b5ed7d2e84446344
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 7f3dc8089153a6c67c1666aa8f859d63dcc9d3c9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/05/2017
 
 
 ---
 
-# <a name="budget-planning-integration-with-other-modules"></a>预算计划与其他模块集成
+# <a name="budget-planning-integration-with-other-modules"></a>预算计划与其他模块的集成
 
 [!include[banner](../includes/banner.md)]
 

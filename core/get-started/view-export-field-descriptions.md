@@ -3,14 +3,14 @@ title: "查看和导出字段描述"
 description: "本文介绍了如何查看字段描述以及如何使用字段描述页导出描述。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: FieldDescriptions
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cd84c03baa4f7a9d38e380c37ed2020ee3387954
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,14 +33,14 @@ ms.lasthandoff: 05/25/2017
 
 本文介绍了如何查看字段描述以及如何使用字段描述页导出描述。
 
-Microsoft Dynamics 365 for Operations 具有某些较为复杂的字段的描述。 在您将鼠标悬停在某个字段时，这些描述将显示。 您还可以在**字段描述**页查看和导出描述。 
+Microsoft Dynamics 365 for Finance and Operations 具有某些较为复杂的字段的描述。 在您将鼠标悬停在某个字段时，这些描述将显示。 您还可以在**字段描述**页查看和导出描述。 
 
 并非所有页都有字段描述。 我们只为较为复杂的字段提供描述，不为用法明显的字段提供。 因此，某些页没有任何字段描述，某些页有一些描述，而一些较复杂的页面（如很多参数页）有很多描述。 
 
-如果您有权访问 Dynamics 365 for Operations 开发环境，则可添加新字段描述并自定义现有描述。 例如，您可以添加特定于公司的信息到字段描述。 有关详细信息，请参阅[自定义字段帮助](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)。
+如果您有权访问 Finance and Operations 开发环境，则可添加新字段描述并自定义现有描述。 例如，您可以添加特定于公司的信息到字段描述。 有关详细信息，请参阅[自定义字段帮助](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)。
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>参阅用户界面的字段描述
-您可以通过将鼠标悬停到字段上查看字段描述。 如果没有提供描述，当您将鼠标悬停在字段上时将看到字段名。 （注意：在版本 7.0.0 中，仅可在**字段描述**页上查看字段描述。）下面的插图显示将鼠标悬停在**盘点期间锁定物料**字段上时将显示的字段描述。 
+您可以通过将鼠标悬停到字段上查看字段描述。 如果没有提供描述，当您将鼠标悬停在字段上时将看到字段名。 （注意：在版本 Dynamics AX 7.0（2016 年 2 月）中，仅可在**字段描述**页上查看字段描述。）下面的插图显示将鼠标悬停在**盘点期间锁定物料**字段上时将显示的字段描述。 
 
 [![字段描述的示例](./media/field-description.png)](./media/field-description.png)
 
@@ -101,7 +101,7 @@ Microsoft Dynamics 365 for Operations 具有某些较为复杂的字段的描述
 <a name="see-also"></a>请参阅
 --------
 
-[自定义字段帮助](/dynamics365/operations/dev-itpro/user-interface/customize-field-help)
+[自定义字段帮助](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
 
 
 

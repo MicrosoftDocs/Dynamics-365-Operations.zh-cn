@@ -1,27 +1,29 @@
 ---
 title: "设置订单处理选项"
-description: "本主题提供有关如何使用 Microsoft Dynamics 365 for Operations - Retai 来处理呼叫中心的订单的信息。"
+description: "本主题提供有关如何使用 Microsoft Dynamics 365 for Retai 来处理呼叫中心的订单的信息。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 78973
 ms.assetid: 09fca083-ac0d-4f30-baf2-bb00a626be12
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 52b56274c8b72c67bc0a50f23114cebc510f1667
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: afdea84b7016fcc3214dc94f2d393a5f3d256370
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -31,9 +33,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-本主题提供有关如何使用 Microsoft Dynamics 365 for Operations - Retai 来处理呼叫中心的订单的信息。 
+本主题提供有关如何使用 Microsoft Dynamics 365 for Retai 来处理呼叫中心的订单的信息。 
 
-Dynamics 365 for Operations 中的零售和商业支持多个零售渠道，如在线商店、实体商店和呼叫中心。 在呼叫中心中，工作人员通过电话从客户那儿接单并创建销售订单。 此主题描述了如何创建呼叫中心和配置呼叫中心选项。 每个呼叫中心可以拥有自己的用户、付款方式、价格组、财务维度和交货方式。 当您创建呼叫中心时，可以配置这些选项。 **重要说明：**在当前 Dynamics AX 用户创建销售订单时，必须先将用户作为呼叫中心用户分配给呼叫中心，然后才能使用呼叫中心工作流。 您可以使用**“呼叫中心”**页来启用或禁用对呼叫中心唯一的功能组。 可启用以下功能组：
+Retail 支持多个零售渠道，例如在线商店、实体商店和呼叫中心。 在呼叫中心中，工作人员通过电话从客户那儿接单并创建销售订单。 此主题描述了如何创建呼叫中心和配置呼叫中心选项。 每个呼叫中心可以拥有自己的用户、付款方式、价格组、财务维度和交货方式。 当您创建呼叫中心时，可以配置这些选项。 **重要：**在用户创建销售订单时，必须先将用户作为呼叫中心用户分配给呼叫中心，然后才能使用呼叫中心工作流。 您可以使用**“呼叫中心”**页来启用或禁用对呼叫中心唯一的功能组。 可启用以下功能组：
 
 -   **订单完成** - 此组包括与**“销售订单”**页上的付款和订单完成相关的功能。
 -   **直接销售** - 此组包括与源代码、脚本和目录请求相关的功能。

@@ -1,16 +1,16 @@
 ---
 title: "管理生产中的转包工作"
-description: "此主题说明如何在 Microsoft Dynamics 365 for Operations 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。"
+description: "此主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 582807f9f416d3e6e73226dfd2e22af2d6331acd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0e1368d3f637143fd47c3772c811257e8472cc74
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题说明如何在 Microsoft Dynamics 365 for Operations 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。
+此主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。
 
 在[生产流程](production-process-overview.md)中，可以由供应商拥有或管理的资源完成工作。 通常，供应商资源用于平衡超过了公司自身资源可用产能的定期超额需求。 供应商还可以以较低的价格提供特定[资源产能](resource-capabilities.md)或资源。  
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 05/25/2017
 
 对于内部资源，通常分配一个期间的固定成本率。 比较而言，已转包资源的成本基于相关服务的采购价。 服务定义为另一件产品，用于推动指定的已转包工序的采购流程。  
 
-目前，Microsoft Dynamics 365 for Operations 中没有明确的半成品概念。 对于需要多道工序以将原料转化为成品的生产订单，产品将仅在最后一道工序中过帐回库存。 早期工序生成的半成品计入在制品 (WIP)，但不在库存中过帐或跟踪。 尽管可以将工艺路线和物料清单 (BOMs) 拆分为多个小单元，此方法却会增加必须管理的产品、物料清单和工艺路线的数量。  
+目前，Microsoft Dynamics 365 for Finance and Operations 中没有明确的半成品概念。 对于需要多道工序以将原料转化为成品的生产订单，产品将仅在最后一道工序中过帐回库存。 早期工序生成的半成品计入在制品 (WIP)，但不在库存中过帐或跟踪。 尽管可以将工艺路线和物料清单 (BOMs) 拆分为多个小单元，此方法却会增加必须管理的产品、物料清单和工艺路线的数量。  
 
 可通过两种方法为生产工序的转包工作建模。 这些方法的不同之处在于：为转包流程的建模方式、半成品在流程中的表示方式，以及成本的控制方式。
 
