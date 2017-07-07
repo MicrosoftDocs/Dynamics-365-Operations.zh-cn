@@ -10,7 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalCount, InventJournalCountTag
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.reviewer: yuyus
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 11594
 ms.assetid: 03772d0e-5c37-454c-ab85-82bc8b60a76d
 ms.search.region: Global
@@ -29,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="inventory-tag-counting"></a>库存标签盘点
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 本文提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。 
