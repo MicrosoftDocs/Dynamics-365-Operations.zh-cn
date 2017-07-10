@@ -1,31 +1,31 @@
 ---
-title: "(CHN) 增值税客户发票的中国税务集成修改常见问题"
+title: "增值税客户发票的中国税务集成修改常见问题"
 description: "您可以生成增值税 (VAT) 客户发票，然后以文本文件导出。 接下来，您可以导入可与原始发票关联的增值税客户发票的参考编号。"
-author: ShylaThompson
+author: mrolecki
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 264894
-ms.assetid: 9d255220-9a19-4436-87a6-f78d92c02062
 ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 34a1c30cacb3d07552aef8da3d9e98a6304293cf
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: bc29edab05af7353874e31b0e737d5a4c4c5cbe9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="chn-chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a>(CHN) 增值税客户发票的中国税务集成修改常见问题
+# <a name="chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a>增值税客户发票的中国税务集成修改常见问题
 
 [!include[banner](../includes/banner.md)]
 
@@ -50,30 +50,33 @@ ms.lasthandoff: 05/25/2017
 ## <a name="how-many-times-can-i-export-an-invoice"></a>我可以导出发票多少次？
 一次只能导出一张发票。
 
+## <a name="can-i-export-summarized-invoice-lines-including-miscellaneous-charge-amounts-if-charges-are-applied-for-the-invoice-line"></a>如果对发票行应用费用，我可以导出包含杂项费用金额的汇总发票行吗？
+如果在**税务集成模板**页上选中**将行费用添加到发票行**复选框，则您可以导出发票以及汇总发票行金额包含杂项费用的发票行。
+
 ## <a name="can-i-customize-or-add-new-information-on-vat-customer-invoices"></a>我是否可以在增值税客户发票中自定义或添加新信息？
-是。 您可以通过添加其他字段对增值税客户发票自定义，然后以文本文件导出增值税客户发票。
+是。 您可以通过添加其他字段对增值税客户发票自定义，然后将增值税客户发票导出为文本文件。
 
 若要自定义增值税客户发票，使其包括其他详细信息，请执行以下步骤：
 
--   在**电子申报**页中，选择**申报配置**以打开**配置**，然后选择树结构中的**金税(CN)**。
--   单击**“设计器”**。 在树结构中的**导出的发票** &gt; **发票**下添加其他字段，然后保存 GER 模型。
--   单击**将模型映射到数据源**，然后选择**金税** &gt; **设计器**。
-
-若要将添加的字段映射到表，请执行以下步骤：
-1.  单击**保存**并返回到**配置**。
-2.  在树结构中，选择**金税(CN)**。
-3.  单击**更改状态** &gt; **完成**以获取模型的新版本。
-4.  在树结构中，展开**金税(CN)**。
-5.  在树结构中，选择**金税(CN)** 格式。
-6.  单击**重定基本值**。 确认目标版本是新完成的版本。
-7.  单击**确定**完成重定基本值过程。
-8.  单击**设计器**打开格式设计器。
-9.  在格式设计器中，在树结构中添加文本文件表示的新字段。
-10. 选择新添加的字段，然后单击右窗格中的**映射**选项卡。
-11. 在树结构中展开该模型。
-12. 选择新添加的模型字段，然后单击**绑定**。
-13. 单击**保存**以保存格式映射。
-14. 单击**更改状态** &gt; **完成**以获取新版本。
+1. 在**电子申报**页中，选择**申报配置**以打开**配置**。
+2. 在树结构中，选择**金税(CN)**。
+3. 单击“设计器”****。 在树结构中的**导出的发票** &gt; **发票**下添加其他字段，然后保存 GER 模型。
+4. 单击**将模型映射到数据源**，然后选择**金税** &gt; **设计器**。
+5. 单击**保存**并返回到**配置**。
+6. 将添加的字段映射到表。 
+    1. 在树结构中，选择**金税(CN)**。
+    2. 单击**更改状态** &gt; **完成**以获取模型的新版本。
+    3. 在树结构中，展开**金税(CN)**。
+    4. 在树结构中，选择**金税(CN)** 格式。
+    5. 单击**重定基本值**。 确认目标版本是新完成的版本。
+    6. 单击**确定**完成重定基本值过程。
+    7. 单击**设计器**打开格式设计器。
+    8. 在格式设计器中，在树中添加在文本文件中出现的新字段。
+    9. 选择新添加的字段，然后单击**映射**选项卡。
+    10. 在树结构中展开该模型。
+    11. 选择新添加的模型字段，然后单击**绑定**。
+    12. 单击**保存**。
+    13. 单击**更改状态** &gt; **完成**以获取新版本。
 
 
 

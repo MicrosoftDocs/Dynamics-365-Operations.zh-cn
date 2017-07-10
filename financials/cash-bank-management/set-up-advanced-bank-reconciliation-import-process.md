@@ -1,16 +1,16 @@
 ---
 title: "设置高级银行对帐导入流程"
-description: "高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Operations 中的银行交易记录自动对帐。 本文介绍如何设置银行对帐单的导入功能。"
+description: "高级银行对帐功能允许您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中导入电子银行对帐单，并与银行交易记录自动对帐。 本文介绍如何设置银行对帐单的导入功能。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fda4dca4339c09757477b04166b17d5f92f46a7c
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a4d1c81386c0ef03391f3127fa51a6b09a5142b3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Operations 中的银行交易记录自动对帐。 本文介绍如何设置银行对帐单的导入功能。 
+高级银行对帐功能允许您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中导入电子银行对帐单，并与银行交易记录自动对帐。 本文介绍如何设置银行对帐单的导入功能。 
 
-银行对帐单导入设置因您电子银行对帐单的格式的不同而不同。 Microsoft Dynamics 365 for Operations 支持三个现成的银行对帐单格式︰ISO20022、MT940 和 BAI2。
+银行对帐单导入设置因您电子银行对帐单的格式的不同而不同。 Finance and Operations 支持三个现成的银行对帐单格式︰ISO20022、MT940 和 BAI2。
 
 ## <a name="sample-files"></a>示例文件
-对于所有三种格式，您必须有将电子银行对帐单的原始格式转换为 Dynamics 365 for Operations 可以使用的格式的文件。 您可以在 Microsoft Visual Studio 中应用程序资源管理器的**资源**节点下找到所需资源文件。 找到文件后，将它们复制到一个已知位置，以便您可以更轻松地在设置流程中上载它们。
+对于所有三种格式，您必须有将电子银行对帐单的原始格式转换为 Finance and Operations 可以使用的格式的文件。 您可以在 Microsoft Visual Studio 中应用程序资源管理器的**资源**节点下找到所需资源文件。 找到文件后，将它们复制到一个已知位置，以便您可以更轻松地在设置流程中上载它们。
 
 | 资源名称                                           | 文件名                            |
 |---------------------------------------------------------|--------------------------------------|
@@ -71,7 +71,7 @@ ms.lasthandoff: 05/25/2017
 7.  银行对帐单实体上载且映射完成后，请单击实体的**查看地图**操作。
 8.  银行对帐单实体是由四个单独的实体组成一个复合实体。 在列表中，选择 **BankStatementDocumentEntity**，然后单击**查看地图**操作。
 9.  在**转换**选项卡上，单击**新建**。
-10. 对于序列号 1，请单击**上载文件**，并选择以前保存的 **ISO20022XML-to-Reconciliation.xslt** 文件。 **注意︰**Dynamics 365 for Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. 对于序列号 1，请单击**上载文件**，并选择以前保存的 **ISO20022XML-to-Reconciliation.xslt** 文件。 **注意︰**Finance and Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. 单击**新建**。
 12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **BankReconciliation-to-Composite.xslt** 文件。
 13. 单击**应用转换**。
@@ -106,7 +106,7 @@ ms.lasthandoff: 05/25/2017
 9.  在**转换**选项卡上，单击**新建**。
 10. 对于序列号 1，请单击**上载文件**，并选择以前保存的 **MT940TXT-to-MT940XML.xslt** 文件。
 11. 单击“**新建**”。
-12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **MT940XML-to-Reconciliation.xslt** 文件。 **注意︰**Dynamics 365 for Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **MT940XML-to-Reconciliation.xslt** 文件。 **注意︰**Finance and Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. 单击**新建**。
 14. 对于序列号 3，请单击**上载文件**，并选择以前保存的 **BankReconciliation-to-Composite.xslt** 文件。
 15. 单击**应用转换**。
@@ -142,7 +142,7 @@ ms.lasthandoff: 05/25/2017
 9.  在**转换**选项卡上，单击**新建**。
 10. 对于序列号 1，请单击**上载文件**，并选择以前保存的 **BAI2CSV-to-BAI2XML.xslt** 文件。
 11. 单击“**新建**”。
-12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **BAI2XML-to-Reconciliation.xslt** 文件。 **注意︰**Dynamics 365 for Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **BAI2XML-to-Reconciliation.xslt** 文件。 **注意︰**Finance and Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. 单击**新建**。
 14. 对于序列号 3，请单击**上载文件**，并选择以前保存的 **BankReconciliation-to-Composite.xslt** 文件。
 15. 单击**应用转换**。

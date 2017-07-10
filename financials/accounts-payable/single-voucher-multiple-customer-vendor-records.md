@@ -1,15 +1,15 @@
 ---
 title: "具有多个客户或供应商记录的一个凭证"
-description: "此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 for Operations 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。"
+description: "此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 222534
 ms.assetid: d4df11ce-4d36-4c66-8230-f5fc58e021bc
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b1038ea950141f0e7d4678cac9edd3b0bd5beb6f
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 31040ff14b99a9b351268feb88698ac706befb55
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 for Operations 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。 
+此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。 
 
 对多个客户或供应商使用一个凭证的一些常见示例包括在客户之间转移余额，以及同一组织中的客户与供应商之间的净余额结算。 
 
@@ -162,7 +162,7 @@ ms.lasthandoff: 05/25/2017
 | 14000056    | 200110-001- | 供应商余额     |                                          | -2.00                                   |
 
 ## <a name="one-voucher-for-balance-transfers-and-netting-scenarios"></a>一个凭证的余额转移和净额结算方案
-使用包含多个客户或供应商的一个凭证的两种常用方案包括将余额从一个客户/供应商转移至另一个客户/供应商和对同一个组织的客户和供应商进行净额结算。 以下两个示例说明了在 Dynamics 365 for Operations 中输入这些方案（作为在一个凭证中输入这些方案的备选方案）的首选方法。 
+使用包含多个客户或供应商的一个凭证的两种常用方案包括将余额从一个客户/供应商转移至另一个客户/供应商和对同一个组织的客户和供应商进行净额结算。 以下两个示例说明了在 Finance and Operations 中输入这些方案（作为在一个凭证中输入这些方案的备选方案）的首选方法。 
 
 *余额转移*是为了将余额从一个客户转移到另一个客户（供应商也是如此）的目的而输入的具有多个客户的一个凭证。 当支付发票的责任转移到另一个当事方，例如子公司将责任转移到母公司时，会发生此方案。 
 
@@ -176,7 +176,7 @@ ms.lasthandoff: 05/25/2017
 | 401100-002-023-    | 收入          |           | 100        |
 | 130100-002-        | 客户 - 余额 | 100       |            |
 
-接下来，用户在应收账款付款日记帐中的一个凭证中将 ACME 的结欠金额转移至保险公司。 在 Dynamics 365 for Operations 中，保险公司被设置为客户保险。
+接下来，用户在应收账款付款日记帐中的一个凭证中将 ACME 的结欠金额转移至保险公司。 在 Finance and Operations 中，保险公司被设置为客户保险。
 
 |             |                  |             |                 |           |            |                 |                    |
 |-------------|------------------|-------------|-----------------|-----------|------------|-----------------|--------------------|

@@ -3,14 +3,14 @@ title: "审核和确认采购订单"
 description: "本文介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 346dde3acdaca367c80cc092f0d8faa2dc28c6b6
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0ec91bcf0ab334585eefae2fe54750c45419682e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
 
 本文介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。
 
@@ -38,7 +39,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="approval-of-purchase-orders"></a>采购订单的审核
 不使用更改管理的采购订单一经创建后状态即为**已审批**，而使用更改管理的采购订单在首次创建时状态为**草稿**。 通过确定主计划中的计划订单创建的采购订单始终设置为**已审批**状态，而不考虑更改管理设置。 仅当采购订单到达**已审批**状态时创建库存交易记录。 因此，在订单被接受之前，该库存不会显示为可预留或标记。  
 
-通过设置**采购参数**页的**启用更改管理**选项，您可以为采购订单启用更改管理。 启用更改管理后，采购订单必须在完成之后经过审核工作流。 Microsoft Dynamics 365 for Operations 具有工作流流程编辑器，您可以在其中定义工作流来表示您的审核流程。 此工作流可以包含自动审核规则，确定将分配谁来审核特定采购订单的规则，以及升级长期等待审核的工作流的规则。 您可以为所有供应商或特定的供应商启用更改管理流程。 此外还可以设置此流程，以便它可以覆盖各个采购订单的流程。  
+通过设置**采购参数**页的**启用更改管理**选项，您可以为采购订单启用更改管理。 启用更改管理后，采购订单必须在完成之后经过审核工作流。 Microsoft Dynamics 365 for Finance and Operations 具有工作流流程编辑器，您可以在其中定义工作流来表示您的审核流程。 此工作流可以包含自动审核规则，确定将分配谁来审核特定采购订单的规则，以及升级长期等待审核的工作流的规则。 您可以为所有供应商或特定的供应商启用更改管理流程。 此外还可以设置此流程，以便它可以覆盖各个采购订单的流程。  
 
 启用更改管理后，采购订单将经过六种审核状态，从**草稿**到**完成**。 订单经过审核后，修改订单的用户必须使用**请求更改**操作。
 
@@ -54,7 +55,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="confirming-purchase-orders"></a>确认采购订单
 状态为**已审批**的采购订单被确认前可能经过其他步骤。 例如，您可能必须将采购查询发送给供应商以询问价格、折扣或交货日期。 在这种情况下，您可以通过使用**购买查询**操作设置采购订单为**正在进行外部审查**状态。  
 
-被设置为使用供应商门户的供应商可以在门户审查订单，并可以审核或拒绝它们。 在此审查流程中，采购订单的状态为**正在进行外部审查**。 可以 Dynamics 365 for Operations 中配置供应商门户以便来自供应商的确认将自动确认订单。 或者，您可以在从供应商收到确认后手动确认采购订单。 如果供应商拒绝采购订单，将随拒绝原因和更改建议一起收到拒绝。 在这种情况下，采购订单的状态仍保持为**正在进行外部审查**。  
+被设置为使用供应商门户的供应商可以在门户审查订单，并可以审核或拒绝它们。 在此审查流程中，采购订单的状态为**正在进行外部审查**。 可在 Finance and Operations 中配置供应商门户以便来自供应商的确认将自动确认订单。 或者，您可以在从供应商收到确认后手动确认采购订单。 如果供应商拒绝采购订单，将随拒绝原因和更改建议一起收到拒绝。 在这种情况下，采购订单的状态仍保持为**正在进行外部审查**。  
 
 还有一个选项可以在处理实际的确认之前生成订单的估价确认。 此选项只创建您可以与供应商共享的报表。 它不会创建任何日记帐信息。  
 
@@ -83,7 +84,7 @@ ms.lasthandoff: 05/25/2017
 
 [采购订单的产品收据](product-receipt-against-purchase-orders.md)
 
-[供应商发票概览](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

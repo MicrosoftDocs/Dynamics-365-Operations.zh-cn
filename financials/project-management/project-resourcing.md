@@ -3,14 +3,14 @@ title: "项目资源"
 description: "本主题提供有关项目资源的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: cmercado
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5c00c63e3c55e818934c36b818c90025002092d4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a7275e9ad8d655d0d2ee5ba90a792775dec0cf05
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 本主题提供有关项目资源的信息。
 
-项目经理和资源经理在项目计划阶段的一个挑战是资源分配，他们必须在此确定和预留处理项目所需的正确资源。 在 Microsoft Dynamics 365 for Operations 中，项目的资源能力可以定义预留给特定参与或参与的一部分被视为临时资源的角色。 此资源类型允许项目经理和资源经理完成以下任务：
+项目经理和资源经理在项目计划阶段的一个挑战是资源分配，他们必须在此确定和预留处理项目所需的正确资源。 在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中，项目的资源能力可以定义预留给特定参与或参与的一部分被视为临时资源的角色。 此资源类型允许项目经理和资源经理完成以下任务：
 
 -   定义具有所需能力可以让匹配资源更加轻松的角色。
 -   使用角色基于预留资源定义初始约定计划。
@@ -65,10 +65,10 @@ ms.lasthandoff: 05/25/2017
 
 **在借出公司中：**
 
-1.  在 Dynamics 365 for Operations 中，验证已选择借出公司，然后完成上面的过程（“将工作人员设置为项目资源”）。
+1.  在 Finance and Operations 中，验证已选择借出公司，然后完成上面的过程（“将工作人员设置为项目资源”）。
 2.  转至 **总帐** &gt;**过帐设置**&gt; **内部公司核算**。 单击**新建**。
 3.  在 **法人 ID** 字段中，选择借出公司。 根据需要填写其余字段，然后单击**保存**。
-4.  转到 **项目管理与核算** &gt; **设置** &gt;**价格** &gt;**转让价格**。** **
+4.  转到**项目管理与核算**&gt; **设置**&gt; **价格**&gt; **转让价格**。** **
 5.  在 **转让价格** 窗体中，单击**新建**，然后在 **借入方法人** 字段中，选择相应公司。
 6.  如果要仅借给借入公司您在此部分开始时创建的资源，请在**资源**资源中，选择您创建的资源的名称。 如果要将公司内的所有资源都提供给借入公司，请将 **资源** 字段保留为空。
 7.  转至 **资源管理和核算 **&gt; **设置**&gt; **项目管理与核算参数**，然后在 **内部公司** 选项卡上，将 **启用内部公司资源计划和时间表** 字段设置为**是**。
@@ -123,7 +123,7 @@ ms.lasthandoff: 05/25/2017
 6.  在**其余项目**窗格中，选择某一项目，然后单击箭头将其添加到**所选项目**窗格中。
 7.  关闭该页面。
 
-如果需要，您还可以分配资源的类别。 类别类型可以是“成本”或“收入”。 这您的组织确定。 如果没有为资源分配类别，Dynamics 365 for Operations 查找成本和收入工时价格的默认类别。
+如果需要，您还可以分配资源的类别。 类别类型可以是“成本”或“收入”。 这您的组织确定。 如果没有为资源分配类别，Finance and Operations 查找成本和收入工时价格的默认类别。
 
 ### <a name="set-up-project-resource-and-role-characteristics"></a>设置项目资源和角色特征
 
@@ -190,7 +190,7 @@ ms.lasthandoff: 05/25/2017
 5.  在**定价**列中，输入所选资源角色的价格。
 
 ## <a name="form-a-project-team"></a>建立项目团队
-若要使用之前在项目中设置的角色，项目经理必须将角色与项目关联。 可以为项目分配多个角色，Dynamics 365 for Operations 将在预留期间自动标记这些角色以避免混淆。 例如，如果项目经理需要三位软件工程师，将自动生成具有软件工程师 1、软件工程师 2 和软件工程师 3 作为其标签的软件工程师角色。 如果之前为角色设置了角色特性，则在搜索资源期间，它们将应用为筛选器。 其他特性可以根据需要添加以进一步调整搜索。 
+若要使用之前在项目中设置的角色，项目经理必须将角色与项目关联。 可以为项目分配多个角色，Finance and Operations 将在预留期间自动标记这些角色以避免混淆。 例如，如果项目经理需要三位软件工程师，将自动生成具有软件工程师 1、软件工程师 2 和软件工程师 3 作为其标签的软件工程师角色。 如果之前为角色设置了角色特性，则在搜索资源期间，它们将应用为筛选器。 其他特性可以根据需要添加以进一步调整搜索。 
 
 查看设置还可以自定义以提供资源可用性的更好的视图。 具有显示每小时、每日、每周、每月、每季度和每年可用性的选项。 还有可以显示可用资源和剩余资源产能的选项。 在您评估活动或资源可用性的可用时间时，此选项对时间管理很有用。 
 
@@ -277,7 +277,7 @@ ms.lasthandoff: 05/25/2017
 </tr>
 <tr class="even">
 <td>自动生成团队</td>
-<td>通过使用与任务关联的角色自动添加计划资源。 Dynamics 365 for Operations 通过使用基于角色的多条件决策分析来自动建议计划资源。 在 WBS 中为任务设置角色和工作量（小时）后，并且已发布结构，单击<strong>自动生成团队</strong>。 所需计划资源数量将添加到 WBS 和<strong>项目和团队计划编制</strong>选项卡。</td>
+<td>通过使用与任务关联的角色自动添加计划资源。 Finance and Operations 通过使用基于角色的多条件决策分析来自动建议计划资源。 在 WBS 中为任务设置角色和工作量（小时）后，并且已发布结构，单击<strong>自动生成团队</strong>。 所需计划资源数量将添加到 WBS 和<strong>项目和团队计划编制</strong>选项卡。</td>
 </tr>
 <tr class="odd">
 <td>资源（下拉列表）</td>

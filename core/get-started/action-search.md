@@ -1,15 +1,16 @@
 ---
 title: "操作搜索"
-description: "本文介绍了 Microsoft Dynamics 365 for Operations 中的操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。"
+description: "本文介绍了 Microsoft Dynamics 365 for Finance and Operations 中的操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。"
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: sericks
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62303
 ms.assetid: 62c70de0-fdde-4417-8e08-0583fb095a40
 ms.search.region: Global
@@ -17,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ef5709889dcabd4c9ed760f57d210956f38c37e9
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,14 +31,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍了 Microsoft Dynamics 365 for Operations 中的操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。
+本文介绍了 Microsoft Dynamics 365 for Finance and Operations 中的操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。
 
 <a name="introduction"></a>简介
 ------------
 
-Microsoft Dynamics 365 for Operations 中的页面主要在操作窗格（页面顶部显示的标准操作窗格和页面各部分中显示的工具栏）中显示命令。 在以前版本中，“键提示”功能能够让您通过按下 Alt 键和一系列字母的方式快速访问“操作窗格”上的任何按钮。 
+Microsoft Dynamics 365 for Finance and Operations 中的页面主要在操作窗格（页面顶部显示的标准操作窗格和页面各部分中显示的工具栏）中显示命令。 在以前版本中，“键提示”功能能够让您通过按下 Alt 键和一系列字母的方式快速访问“操作窗格”上的任何按钮。 
 
-[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) 但是，在 Dynamics 365 for Operations 的最新版本中，“键提示”不再可用，已经替换为操作搜索功能。 这一新的功能允许您迅速搜索和运行所有可见操作窗格中的按钮。
+[![keyTipsAX6](./media/keytipsax6.png)](./media/keytipsax6.png) 但是，在 Finance and Operations 的最新版本中，“键提示”不再可用，已经替换为操作搜索功能。 这一新的功能允许您迅速搜索和运行所有可见操作窗格中的按钮。
 
 ## <a name="using-action-search"></a>使用操作搜索
 若要使用操作搜索功能，请执行以下步骤。
@@ -53,7 +54,7 @@ Microsoft Dynamics 365 for Operations 中的页面主要在操作窗格（页面
 您还可以通过按 Ctrl+/ 或 Alt+Q 开始操作搜索。 再次按键盘快捷方式将焦点返回到您在页面上的最后一个位置。
 
 ## <a name="understanding-the-results-list"></a>了解结果列表
-通常，在 Dynamics 365 for Operations 中，必须知道位置和按钮的环境以充分了解该按钮的用途。 因此，每个物料的附加信息将显示在结果列表，可帮助您确切了解哪些按钮出现在列表中。 特别是按钮“路径”将显示。 该路径可能包括以下相关 UI 元素的标签：
+通常，在 Finance and Operations 中，必须知道按钮的位置和环境以充分了解该按钮的用途。 因此，每个物料的附加信息将显示在结果列表，可帮助您确切了解哪些按钮出现在列表中。 特别是按钮“路径”将显示。 该路径可能包括以下相关 UI 元素的标签：
 
 -   “操作窗格”选项卡
 -   按钮组
@@ -70,7 +71,7 @@ Microsoft Dynamics 365 for Operations 中的页面主要在操作窗格（页面
 [![on-hand-inventory](./media/on-hand-inventory.png)](./media/on-hand-inventory.png)
 
 ## <a name="action-search-vs-navigation-search"></a>操作搜索与导航搜索
-操作搜索用于在页面上查找和运行操作，而在 Dynamics 365 for Operations 中查找和导航到页面存在单独的搜索机制。 有关该功能的详细信息，请参阅[导航搜索](navigation-search.md)一文。
+操作搜索用于在页面上查找和运行操作，而在 Finance and Operations 中查找和导航到页面存在单独的搜索机制。 有关该功能的详细信息，请参阅[导航搜索](navigation-search.md)一文。
 
 
 

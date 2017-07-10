@@ -3,14 +3,14 @@ title: "成本核算术语"
 description: "本主题定义了成本核算中使用的重要术语。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7ce12337c22542aea2002ffc5abd09e4f4d770c1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/25/2017
 
 **成本核算**
 
-成本核算允许您从不同的数据源收集数据，如总帐、子分类帐、预算和统计信息。 然后可以分析、汇总和评估成本数据，因而管理层在价格更新、预算、成本控制等方面可以做出最有利的决策。 用于成本分析的源数据在成本核算中独立处理。 因此，在成本核算中更新不影响源数据。 但是，你从不同的数据源收集成本数据时，尤其是当您从 Microsoft Dynamics 365 for Operation 中的总帐中导入主科目作为成本元素时，存在数据冗余，因为相同的数据同时存在于总帐和成本核算中。 此冗余是必需的，因为您使用财务管理进行外部报告，使用成本核算进行内部报告。
+成本核算允许您从不同的数据源收集数据，如总帐、子分类帐、预算和统计信息。 然后可以分析、汇总和评估成本数据，因而管理层在价格更新、预算、成本控制等方面可以做出最有利的决策。 用于成本分析的源数据在成本核算中独立处理。 因此，在成本核算中更新不影响源数据。 但是，你从不同的数据源收集成本数据时，尤其是当您从 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的总帐中导入主科目作为成本元素时，存在数据冗余，因为相同的数据同时存在于总帐和成本核算中。 此冗余是必需的，因为您使用财务管理进行外部报告，使用成本核算进行内部报告。
 
 **成本核算分类帐**
 

@@ -1,26 +1,26 @@
 ---
 title: "内部公司开票"
-description: "本文提供 Microsoft Dynamics 365 for Operations 中项目的公司内部开票的信息和示例。"
+description: "本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中项目的公司内部开票的信息和示例。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65c20479af9d2184bd7f3b92f4c0718553425502
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供 Microsoft Dynamics 365 for Operations 中项目的公司内部开票的信息和示例。
+本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中项目的公司内部开票的信息和示例。
 
 您的组织可能具有多个为项目彼此转移产品和服务的分公司、附属机构和其他法人。 提供服务或产品的法人被称为*借出法人*，而接收这些服务或产品的法人被称为*借入法人*。 
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 05/25/2017
     -   **贡献率** – 在**定价**字段中输入的数值是用百分比表示的销售价贡献率。
 
 ## <a name="example-1-set-up-parameters-for-intercompany-invoicing"></a>示例 1：设置内部公司开票的参数
-在此示例中，USSI 是借出法人，其资源所报告的时间根据借入法人 FRSI，其拥有与最终客户的合同。 USSI 员工报告的工时和支出包括在 FRSI 生成的项目发票中。 此外，存在第三个交易记录源，在它向分支机构（如 FRSI）提供共享供应商服务，然后将这些成本传入分支机构的项目时，可以来自借出法人（此示例中的 USSI）。 通过 Dynamics 365 for Operations 完成所有匹配发票单据和税款计算。 
+在此示例中，USSI 是借出法人，其资源所报告的时间根据借入法人 FRSI，其拥有与最终客户的合同。 USSI 员工报告的工时和支出包括在 FRSI 生成的项目发票中。 此外，存在第三个交易记录源，在它向分支机构（如 FRSI）提供共享供应商服务，然后将这些成本传入分支机构的项目时，可以来自借出法人（此示例中的 USSI）。 通过 Finance and Operations 完成所有匹配发票单据和税款计算。 
 
 在本示例中，FRSI 必须是 USSI 法人的客户，USSI 必须是 FRSI 法人的供应商。 然后，您可以设置两个法人之间的内部公司关系。 下面的过程演示如何设置参数，以便这两个法人可以参与内部公司开票。
 

@@ -1,27 +1,27 @@
 ---
 title: "零售外设概览"
 description: "此主题介绍与零售外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。"
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations, Core
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 268444
-ms.assetid: 2ea93e43-8019-49a0-a7f8-325565ebc52d
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
+ms.dyn365.ops.version: Version 1611, Retail Version
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f7c47c3dc22b2f3c2ea08085326be08011eca4e
+ms.sourcegitcommit: 52a16be4b07eafb493c7fd7ad52a6d9d1bb9ee89
+ms.openlocfilehash: 77049ba4c9c39cd44f1919b672deaf700b91357d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,16 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 此主题介绍与零售外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。
 
-<a name="concepts"></a>概念
---------
+## <a name="concepts"></a>概念
 
 ### <a name="pos-registers"></a>POS 收银机
 
-导航：单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 销售点 (POS) 收银机是用来定义特定 POS 实例的特征的实体。 这些特征包括硬件配置文件或设置，它们将被零售外设用于收银机、收银机映射到的商店，以及登录该收银机的用户的视觉体验。
+导航：单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 销售点 (POS) 收银机是用来定义特定 POS 实例的特征的实体。 这些特征包括硬件配置文件或设置，它们将被零售外设用于收银机、收银机映射到的商店，以及登录该收银机的用户的视觉体验。
 
 ### <a name="devices"></a>设备
 
-导航：单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **设备**。 设备是表示映射到 POS 收银机的设备的物理实例的实体。 当创建一个设备时，它被映射到 POS 收银机。 设备实体跟踪 POS 收银机何时被激活，正在使用的客户端的类型，以及已经部署到特定设备应用程序包的信息。 设备可以映射到以下应用类型：Retail Modern POS、Retail Cloud POS、Retail Modern POS – Windows Phone、Retail Modern POS – Android 和 Retail Modern POS – iOS。
+导航：单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **设备**。 设备是表示映射到 POS 收银机的设备的物理实例的实体。 当创建一个设备时，它被映射到 POS 收银机。 设备实体跟踪 POS 收银机何时被激活，正在使用的客户端的类型，以及已经部署到特定设备应用程序包的信息。 设备可以映射到以下应用类型：Retail Modern POS、Retail Cloud POS、Retail Modern POS – Windows Phone、Retail Modern POS – Android 和 Retail Modern POS – iOS。
 
 ### <a name="retail-modern-pos"></a>Retail Modern POS
 
@@ -66,11 +65,11 @@ POS 外设是为满足 POS 功能而明确支持的设备。 这些外设通常�
 
 ### <a name="hardware-station"></a>硬件工作站
 
-导航：单击**零售和商业** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**。 选择一个商店，然后单击**硬件工作站**快速选项卡。 **硬件工作站**设置是一种基于渠道的设置，用于定义将部署零售外设逻辑的实例。 渠道级别的此设置用于确定硬件工作站的特征。 还用于列出指定商店中可用于 Modern POS 实例的硬件工作站。 硬件工作站内置在适用于 Windows 的 Modern POS 程序内。 硬件工作站也可以作为单机 Microsoft Internet Information Services (IIS) 程序独立部署。 在这种情况下，可以通过网络访问。
+导航：单击**零售** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**。 选择一个商店，然后单击**硬件工作站**快速选项卡。 **硬件工作站**设置是一种基于渠道的设置，用于定义将部署零售外设逻辑的实例。 渠道级别的此设置用于确定硬件工作站的特征。 还用于列出指定商店中可用于 Modern POS 实例的硬件工作站。 硬件工作站内置在适用于 Windows 的 Modern POS 程序内。 硬件工作站也可以作为单机 Microsoft Internet Information Services (IIS) 程序独立部署。 在这种情况下，可以通过网络访问。
 
 ### <a name="hardware-profile"></a>硬件配置文件
 
-导航：单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 硬件配置文件是为 POS 收银机或硬件工作站配置的设备的列表。 硬件配置文件可以直接映射到 POS 收银机或硬件工作站。
+导航︰单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 硬件配置文件是为 POS 收银机或硬件工作站配置的设备的列表。 硬件配置文件可以直接映射到 POS 收银机或硬件工作站。
 
 ## <a name="devices-classes"></a>设备分类
 POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设备的概览。
@@ -118,12 +117,12 @@ POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设
 ## <a name="supported-interfaces"></a>支持的接口
 ### <a name="opos"></a>OPOS
 
-为了帮助确保最大范围的设备可以与 Microsoft Dynamics 365 for Operations - Retail 配合使用，OLE for POS 行业标准成为了 Microsoft Dynamics 365 for Operations - Retail 中支持的主要零售外设平台。 OLE for POS 标准由美国零售联合会 (NRF) 制订，建立了针对零售外设的行业标准通信协议。 OPOS 是广泛采用的 OLE for POS 标准实施。 它开发于 20 世纪 90 年代，之后经过了多次更新。 OPOS 提供设备驱动程序架构，以便将 POS 硬件与基于 Windows 的 POS 系统轻松集成。 OPOS 控件处理兼容硬件与 POS 软件之间的通信。 OPOS 控件包含两部分：
+为了帮助确保最大范围的设备可以与 Microsoft Dynamics 365 for Retail 配合使用，OLE for POS 行业标准成为了 Microsoft Dynamics 365 for Retail 中支持的主要零售外设平台。 OLE for POS 标准由美国零售联合会 (NRF) 制订，建立了针对零售外设的行业标准通信协议。 OPOS 是广泛采用的 OLE for POS 标准实施。 它开发于 20 世纪 90 年代，之后经过了多次更新。 OPOS 提供设备驱动程序架构，以便将 POS 硬件与基于 Windows 的 POS 系统轻松集成。 OPOS 控件处理兼容硬件与 POS 软件之间的通信。 OPOS 控件包含两部分：
 
--   **控件对象** – 设备类（如行显示器）的控件对象提供软件程序的界面。 Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) 提供一组标准的 OPOS 控件对象，称为公共控件对象 (CCO)。 CCO用于测试 Microsoft Dynamics 365 for Operations - Retail 的 POS 组件。 因此，如果 Microsoft Dynamics 365 for Operations - Retail 通过 OPOS 为设备类提供支持，并且制造商提供为 OPOS 构建的服务对象，此项测试有助于确保可以支持多种设备类型。 无需明确测试每个设备类型。
+-   **控件对象** – 设备类（如行显示器）的控件对象提供软件程序的界面。 Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) 提供一组标准的 OPOS 控件对象，称为公共控件对象 (CCO)。 CCO 用于测试 Microsoft Dynamics 365 for Retail 的 POS 组件。 因此，如果 Microsoft Dynamics 365 for Retail 通过 OPOS 为设备类提供支持，并且制造商提供为 OPOS 构建的服务对象，此项测试有助于确保可以支持多种设备类型。 无需明确测试每个设备类型。
 -   **服务对象** – 服务对象提供控件对象 (CCO) 与设备之间的通信。 设备的服务对象通常由设备制造商提供。 但是在某些情况下，您可能必须从制造商的网站下载服务对象。 例如，可能提供了更新的服务对象。 若要查找制造商的网站地址，请参阅您的硬件文档。
 
-[![控件对象和服务对象](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) 对 OLE for POS 的 OPOS 实施的支持有助于确保当设备制造商和 POS 发布商正确实施标准时，POS 系统和支持的设备可以协同工作，即使以前未一起测试时也不例外。 **注释：**支持 OPOS 不保证支持采用了 OPOS 驱动设备的所有设备。 Microsoft Dynamics 365 for Operations - Retail 必须首先通过 OPOS 支持该设备类型（即类）。 此外，服务对象可能并非始终安装了最新版本的 CCO。 您还应注意，服务对象的质量往往参差不齐。
+[![控件对象和服务对象](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) 对 OLE for POS 的 OPOS 实施的支持有助于确保当设备制造商和 POS 发布商正确实施标准时，POS 系统和支持的设备可以协同工作，即使以前未一起测试时也不例外。 **注释：**支持 OPOS 不保证支持采用了 OPOS 驱动设备的所有设备。 Microsoft Dynamics 365 for Retail 必须首先通过 OPOS 支持该设备类型（即类）。 此外，服务对象可能并非始终安装了最新版本的 CCO。 您还应注意，服务对象的质量往往参差不齐。
 
 ### <a name="windows"></a>窗口
 
@@ -133,7 +132,7 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 -   使用 Windows 驱动程序时，通过打印机连接（菊链方式）的设备可能无法正常工作。 例如，银箱可能无法打开，或者票据打印机可能无法正常工作。
 -   OPOS 还支持特定于零售收据打印机的更多变体集合，如裁纸或票据打印。
 
-如果 OPOS 控件适用于您在使用的 Windows 打印机，该打印机仍然可以与 Microsoft Dynamics 365 for Operations - Retail 配合正常工作。
+如果 OPOS 控件适用于您在使用的 Windows 打印机，该打印机仍然可以与 Microsoft Dynamics 365 for Retail 配合正常工作。
 
 ### <a name="universal-windows-platform"></a>通用 Windows 平台
 
@@ -473,7 +472,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>支持的方案的配置
-有关如何创建硬件配置文件的详细信息，请参阅[定义和维护渠道客户端，包括收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)。 **注释：**对于 Microsoft Dynamics 365 for Operations 版本 1611，将不再使用硬件工作站配置文件。 以前在硬件工作站中设置的属性现在成为了硬件工作站本身的一部分。
+有关如何创建硬件配置文件的详细信息，请参阅[定义和维护渠道客户端，包括收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)。 **注释：**对于 Microsoft Dynamics 365 for Retail 版本 1611，将不再使用硬件工作站配置文件。 以前在硬件工作站中设置的属性现在成为了硬件工作站本身的一部分。
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>带 IPC（内置）硬件工作站的 Modern POS for Windows
 
@@ -482,7 +481,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 1.  创建在其中配置所有所需外设的硬件配置文件。
 2.  将硬件配置文件映射到 POS 收银机。
 3.  为将使用该 POS 收银机的零售商店创建一个类型为**专用**的硬件工作站。 描述可选。 **注释：**不必在硬件工作站中设置其他任何属性。 其他所有所需信息（如硬件配置文件）将来自收银机本身。
-4.  单击**零售和商业** &gt; **零售 IT** &gt; **配送计划**。
+4.  单击**零售** &gt; **零售 IT** &gt; **配送计划**。
 5.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
 6.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
 7.  安装并激活 Modern POS for Windows。
@@ -501,7 +500,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
     -   **EFT POS 号** – 发送 EFT 授权时使用的 EFT 终端 ID。 此 ID 由信用卡处理方提供。
     -   **包名** – 部署硬件工作站时要使用的硬件工作站包。
 
-4.  单击**零售和商业** &gt; **零售 IT** &gt; **配送计划**。
+4.  单击**零售** &gt; **零售 IT** &gt; **配送计划**。
 5.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
 6.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
 7.  安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅 [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)。
@@ -524,12 +523,12 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
     -   **主机名** – 将运行硬件工作站的主计算机的名称。
     -   **描述** – 用于帮助识别硬件工作站的文本，如**退货**或**店前**。
     -   **端口** – 硬件工作站用于与 Modern POS 客户端通信的端口。
-    -   **硬件配置文件** – 对于共享硬件工作站，每个硬件工作站都应该有一个硬件配置文件。 可以在硬件工作站之间共享硬件配置文件，但必须将其映射到每个硬件工作站。 此外，建议在多个设备共享同一个共享硬件工作站时使用共享班次。 若要设置共享班次，单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 对于每个共享硬件配置文件，选择银箱，然后将**共享班次银箱**选项设置为**是**。
+    -   **硬件配置文件** – 对于共享硬件工作站，每个硬件工作站都应该有一个硬件配置文件。 可以在硬件工作站之间共享硬件配置文件，但必须将其映射到每个硬件工作站。 此外，建议在多个设备共享同一个共享硬件工作站时使用共享班次。 若要设置共享班次，单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。 对于每个共享硬件配置文件，选择银箱，然后将**共享班次银箱**选项设置为**是**。
     -   **EFT POS 号** – 发送 EFT 授权时使用的 EFT 终端 ID。 此 ID 由信用卡处理方提供。
     -   **包名** – 部署硬件工作站时要使用的硬件工作站包。
 
 4.  为商店中所需其他每个硬件工作站重复步骤 2 和 3。
-5.  单击**零售和商业** &gt; **零售 IT** &gt; **配送计划**。
+5.  单击**零售** &gt; **零售 IT** &gt; **配送计划**。
 6.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
 7.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
 8.  在步骤 2 和 3 中设置的每个主机上安装硬件工作站。 有关如何安装硬件工作站的详细信息，请参阅 [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)。
@@ -542,7 +541,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 14. 选择要使用的硬件工作站，然后单击**配对**。
 15. 为 Modern POS 将使用的每个硬件工作站重复步骤 14。
 16. 为所需全部硬件工作站配对之后，单击**关闭**。
-17. 在硬件工作站选择页中，单击最近选择的硬件工作站将其激活。 **注释**：如果设备经常使用不同硬件工作站，建议将 Modern POS 配置为收银员开始收款过程时提示其选择硬件工作站。 单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 选择收银机，然后将**收款后即可选择**选项设置为**是**。 使用 **1090** 配送计划将更改同步到渠道数据库。
+17. 在硬件工作站选择页中，单击最近选择的硬件工作站将其激活。 **注释**：如果设备经常使用不同硬件工作站，建议将 Modern POS 配置为收银员开始收款过程时提示其选择硬件工作站。 单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。 选择收银机，然后将**收款后即可选择**选项设置为**是**。 使用 **1090** 配送计划将更改同步到渠道数据库。
 
 ## <a name="extensibility"></a>可扩展性
 有关硬件工作站的可扩展性方案的信息，请参阅[硬件工作站可扩展性](dev-itpro/hardware-station-extensibility.md)。
@@ -575,7 +574,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 **注释：**请务必仔细阅读 IIS 和 Payment Card Industry (PCI) 要求的安全指南。
 
 ## <a name="peripheral-simulator"></a>外围设备模拟器
-有关信息，请参阅 [Retail 外设模拟器](retail-peripheral-simulator.md)。
+有关信息，请参阅 [Retail 外设模拟器](dev-itpro/retail-peripheral-simulator.md)。
 
 ## <a name="microsofttested-peripheral-devices"></a>经过 Microsoft 测试的外设
 ### <a name="ipc-built-in-hardware-station"></a>IPC（内置）硬件工作站
@@ -806,7 +805,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <a name="see-also"></a>请参阅
 --------
 
-[零售外设模拟器](retail-peripheral-simulator.md)
+[零售外设模拟器](dev-itpro/retail-peripheral-simulator.md)
 
 
 

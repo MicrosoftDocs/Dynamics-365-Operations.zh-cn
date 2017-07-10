@@ -1,9 +1,9 @@
 ---
 title: "Lean manufacturing 概述"
-description: "本文提供 Microsoft Dynamics AX 中的 lean manufacturing 功能的概览和描述。"
+description: "本文提供 Dynamics 365 for Finance and Operations 中的 lean manufacturing 功能的概览和描述。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global
@@ -20,30 +20,30 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dd29e601cb78b6903e09e63182196427183f6dbe
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 376b521a7527b4f60bc01c080f8eabb5cb231b30
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>Lean manufacturing 概述
+# <a name="lean-manufacturing-overview"></a>精益生产概览
 
 [!include[banner](../includes/banner.md)]
 
 
-本文提供 Microsoft Dynamics AX 中的 lean manufacturing 功能的概览和描述。
+本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的 lean manufacturing 功能的概览和描述。
 
 精益制造提供您可以使用建模精益工序的工具。 这些工具支持和促进以下概念和业务活动：
 -   通过建模制造和物流流程创建基础精益制造为生产流程。
 -   通过使用看板符号的需求需求实施下拉精益系统。
 -   监控和维护看板作业。
 
-在 Microsoft Dynamics AX 7 的 lean manufacturing 体系结构由生产流程、活动和种规则组成。 这些结构完全将与 Microsoft Dynamics AX 7 流程集成。 在混合模式的制造环境可以使用精益制造合并各种供应来源、生产和采购策略。 这些策略包括生产订单、批次订单、流程工业、采购订单和转移单。
-| **重要信息**                                                                                                                                                                                                                                                                |
+Finance and Operations 中的 lean manufacturing 体系结构由生产流程、活动和种规则组成。 这些结构完全由 Finance and Operations 流程集成。 在混合模式的制造环境可以使用精益制造合并各种供应来源、生产和采购策略。 这些策略包括生产订单、批次订单、流程工业、采购订单和转移单。
+| **重要**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 您可以通过看板使用 Microsoft Dynamics AX 7 支持 lean manufacturing 的执行。 但是，原则的精益一个成功的部署取决于您使用实际生产条件和环境的内部业务流程。 |
+| 您可以通过看板使用 Finance and Operations 支持 lean manufacturing 的执行。 但是，原则的精益一个成功的部署取决于您使用实际生产条件和环境的内部业务流程。 |
 
 ## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>建模为生产流程的制造和物流流程
 如要创建建模制造、模型制造和物流流程为生产流程。 此活动包括以下任务：
@@ -71,8 +71,8 @@ Lean manufacturing 提供由看板规则管理的可见性到制造和物流活�
 -   看板面板转移作业–此板提供转移作业当前的概览。 可以更新和登记领料单，开始并完成转移作业，以及执行其他任务。
 -   用于处理作业的看板面板 – 此板专用于支持常规生产流程并提供一个或多个工作单元中的当前情况的概览。 从该板中，可以对看板设置优先级、领料和制造。 此板还装用于支持看板报告的条码扫描。
 
-## <a name="kanban-jobs-and-integration-with-microsoft-dynamics-ax-processes"></a>看板作业和 Microsoft Dynamics AX 流程的集成
-看板作业在 Microsoft Dynamics AX 中完全集成库存交易记录的当前流程。
+## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>看板作业和集成 Finance and Operations 流程
+看板作业在 Finance and Operations 中完全集成库存交易记录的当前流程。
 -   您可以执行领料活动用于完成看板作业的要求的补货物料。
 -   您可以打印看板卡、循环看板卡和领料单以支持看板的使用。 这些文件在仓库中和在生产车间上用于表示、跟踪和登记看板作业。
 -   您可以通过在库存中扫描条码登记领料和转移活动。

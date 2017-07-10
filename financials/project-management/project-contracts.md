@@ -1,27 +1,27 @@
 ---
 title: "项目合同"
-description: "本文举例说明可以为不同类型的项目和融资来源创建的项目合同，以及如何在 Microsoft Dynamics 365 for Operations 中管理合同和发票项目客户。"
+description: "本文举例说明可以为不同类型的项目和融资来源创建的项目合同，以及如何在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中管理合同和发票项目客户。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 9f3bdbd147f3132d64e3b9ac2bdd37f7278ae18d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2aa70e050bf068a26e2d0d86c26045fc000931eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文举例说明可以为不同类型的项目和融资来源创建的项目合同，以及如何在 Microsoft Dynamics 365 for Operations 中管理合同和发票项目客户。
+本文举例说明可以为不同类型的项目和融资来源创建的项目合同，以及如何在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中管理合同和发票项目客户。
 
 为项目合同所创建项目的类型会确定用于向项目客户开票的方法。 您可以更改项目合同和相关的项目，但不能更改项目类型。 
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/25/2017
 -   某个道路项目由两个城市共同出资。
 -   某个桥梁项目通过政府拨款和私营公司提供资金。
 
-在 Microsoft Dynamics 365 for Operations 中，您可以将一个交易记录或整个项目的帐单拆分到多个客户、拨款或组织中。 
+在 Finance and Operations 中，您可以将一个交易记录或整个项目的帐单拆分到多个客户、拨款或组织中。 
 
 在具有过个出资者的项目中，对一个高级投资项目的融资做出贡献的所有当事方都被称作“融资来源”。 当将客户、组织或拨款定义为融资来源后，可以将它分配给一个或多个“融资规则”。 融资规则包含确定如何将费用分配给项目的不同融资来源的条件。 
 

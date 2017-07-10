@@ -3,14 +3,14 @@ title: "库存日记帐"
 description: "本文介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d947b184fd61af3b997182f0a39a8c13c58d6a5a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fa629b4b8f7fcbd15ee89bc66cbc0bd7ca45215c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,10 +30,12 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
+[!include[retail name](../includes/retail-name.md)]
+
 
 本文介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。 
 
-Microsoft Dynamics 365 for Operations 中的库存日记帐用于过帐多种类型的实际库存交易记录，如发货和收货的过帐、库存变动、物料清单的创建，以及实际库存的对帐。 所有这些库存日记帐以相同的方式被使用，不过，它们划分为不同类型。
+Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过帐多种类型的实际库存交易记录，如发货和收货的过帐、库存变动、物料清单的创建，以及实际库存的对帐。 所有这些库存日记帐以相同的方式被使用，不过，它们划分为不同类型。
 
 ## <a name="types-of-inventory-journals"></a>库存日记帐的类型
 提供以下库存日记帐类型：
@@ -68,7 +70,7 @@ Microsoft Dynamics 365 for Operations 中的库存日记帐用于过帐多种类
 
 ### <a name="item-arrival"></a>物料到达
 
-您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从**“到达概览”**页上创建到达日记帐，作为到达管理的一部分，也可以手动从**“物料到达”**页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Dynamics 365 for Operations 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
+您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从**“到达概览”**页上创建到达日记帐，作为到达管理的一部分，也可以手动从**“物料到达”**页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Finance and Operations 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
 
 ### <a name="production-input"></a>生产输入
 

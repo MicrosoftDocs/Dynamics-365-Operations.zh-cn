@@ -1,9 +1,9 @@
 ---
 title: "中国式凭证"
-description: "此主题介绍中国式凭证及其在 Microsoft Dynamics 365 for Operations 中的使用方法。"
+description: "此主题介绍中国式凭证及其在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的使用方法。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerVoucherType_CN, VoucherTypeWizard_CN
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261454
 ms.assetid: b5a50142-b48c-4b1b-8828-6c436ea91238
 ms.search.region: China (PRC)
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7c4fb96e143171611658922d28198e4449e0f602
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: db55000dc03cc9308fdfcf1f16f66fd44d35e8ee
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题介绍中国式凭证及其在 Microsoft Dynamics 365 for Operations 中的使用方法。
+此主题介绍中国式凭证及其在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的使用方法。
 
 您必须为各已过帐的日志创建凭据文档。 可以打印纸质凭证和已过帐日志。 根据您的需求，您可以使用凭证类型设置向导设置常用的**获取**、**付款**和**转移**凭证类型，也可以在**凭证类型设置**页面中创建新的凭证类型。 您可以使用预订凭证输入交易记录并将其分组为“收货凭证”、“付款凭证”或“转移凭证”。 
 

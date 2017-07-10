@@ -1,15 +1,15 @@
 ---
 title: "员工能力与发展 Power BI 内容"
-description: "此主题描述 Dynamics 365 for Operations - 员工能力与发展 Power BI 内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。"
+description: "此主题描述 Finance and Operations - 员工能力与发展 Power BI 内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 263894
 ms.assetid: 7d375d8a-b2de-4bec-b575-93d1d4521b79
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 770a832efe8ee2da44d65670b1818be4fcf4bcc0
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f5b3c180f0a9d60fa5d4d8398daf79a14da2d6f4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,15 +30,15 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题描述 Dynamics 365 for Operations - 员工能力与发展 Power BI 内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。
+此主题描述 Finance and Operations - 员工能力与发展 Power BI 内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。
 
 <a name="accessing-the-content-pack"></a>访问内容包
 --------------------------
 
-Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含员工能力与发展内容包。 有关如何下载该内容包并将其连接到您的 Microsoft Dynamics 365 for Operations 数据的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
+Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含员工能力与发展内容包。 有关如何下载该内容包并将其连接到您的 Microsoft Dynamics 365 for Finance and Operations 数据的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>此内容包中包含的报表
-在连接内容包到您的 Dynamics 365 for Operations 数据后，报表将显示组织的数据。 如果您之前从未使用 Microsoft Power BI，请可以通过 [Power BI 的指导学习页](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData)了解更多相关信息。 此内容包中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
+在连接内容包到您的 Dynamics 365 for Finance and Operations 数据后，报表将显示组织的数据。 如果您之前从未使用 Microsoft Power BI，请可以通过 [Power BI 的指导学习页](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData)了解更多相关信息。 此内容包中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
 
 | 报告                            | 内容                                               |
 |-----------------------------------|--------------------------------------------------------|
@@ -49,7 +49,7 @@ Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含员工
 可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-Dynamics 365 for Operations 数据用于填充员工能力与发展内容包中的报表。 下表显示充当内容包基础的实体。
+Finance and Operations 数据用于填充员工能力与发展内容包中的报表。 下表显示充当内容包基础的实体。
 
 | 实体                            | 内容                                                                                                   | 与其他实体之间的关系                                                                                                                                                                                                                                                                       |
 |-----------------------------------|------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

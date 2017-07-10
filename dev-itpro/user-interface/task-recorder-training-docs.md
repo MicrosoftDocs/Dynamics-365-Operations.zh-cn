@@ -3,7 +3,7 @@ title: "使用任务录制创建文档或培训"
 description: "此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b44dc66cdcd1ede59cb9bb4ed05be27dd465599
+ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
+ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/17/2017
 
 
 ---
@@ -31,19 +31,22 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
+此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 统一运营产品任务指南和将其加入帮助中。
+
+> [!IMPORTANT]
+> 您无法为 Dynamics 365 for Talent 创建自定义任务指南。 Talent 的帮助系统自动连接至产品的任务指南。 
 
 <a name="learn-about-task-recorder"></a>了解任务录制器
 -------------------------
 
-任务录制器是一种 Microsoft Dynamics 365 for Operations 工具，可用来记录您在产品用户界面 (UI) 上执行的操作。 当您使用任务录制器时，将捕获您在 UI 中对服务器执行的所有事件（包括添加值、更改设置、删除数据）。 您记录的步骤统称为*任务录制*。 可通过多种方式使用任务录制：
+任务录制器是一种可用来记录您在产品用户界面 (UI) 上执行的操作的工具。 当您使用任务录制器时，将捕获您在 UI 中对服务器执行的所有事件（包括添加值、更改设置、删除数据）。 您记录的步骤统称为*任务录制*。 可通过多种方式使用任务录制：
 
--   **任务录制可作为任务指南播放。** 任务指南是 Dynamics 365 for Operations 帮助体验的一个组成部分。 任务指南是通过业务流程执行的受控的、引导式、交互式的体验。 系统将通过弹出提示（或“气泡”）方式指示用户完成每个步骤，这将跨 UI 创建动画效果并指向用户应与之交互的 UI 元素。 “气泡”还提供了有关如何与元素进行交互的信息，如“单击此处”或“在此字段中，输入一个值”。 任务指南针对用户的当前数据集运行，而且输入的数据将保存在用户的环境中。
+-   **任务录制可作为任务指南播放。** 任务指南是帮助体验的一个组成部分。 任务指南是通过业务流程执行的受控的、引导式、交互式的体验。 系统将通过弹出提示（或“气泡”）方式指示用户完成每个步骤，这将跨 UI 创建动画效果并指向用户应与之交互的 UI 元素。 “气泡”还提供了有关如何与元素进行交互的信息，如“单击此处”或“在此字段中，输入一个值”。 任务指南针对用户的当前数据集运行，而且输入的数据将保存在用户的环境中。
 -   **任务录制可作为操作步骤显示在“帮助”窗格中。** 您可以使用“帮助”窗格搜索和显示任务录制。 您可以通过单击顶部导航栏中的 **?** 图标访问“帮助”窗格， 也可以使用快捷键组合 **Ctrl+Shift+?**。 您可以阅读“帮助”窗格中的任务录制步骤，也可以选择以任务指南方式播放录制以便其指导您完成 UI。
--   **任务录制可保存到 BPM。** 您可以将任务录制保存到 Lifecycle Services (LCS) 中业务流程建模器 (BPM) 中的层次结构行。 将从录制中生成一个步骤列表和一个业务流程图表。 已保存到 BPM 库中的任务录制可作为“帮助”显示在 Dynamics 365 for Operations 中。
+-   **任务录制可保存到 BPM。** 您可以将任务录制保存到 Lifecycle Services (LCS) 中业务流程建模器 (BPM) 中的层次结构行。 将从录制中生成一个步骤列表和一个业务流程图表。 已保存到 BPM 库中的任务录制可显示为帮助。
 -   **任务录制可另存为 Word 文档。** 这将允许您轻松地生成可打印的培训指南。
 
-您可以创建自己的任务录制、播放 Microsoft 提供的任务录制或修改 Microsoft 提供的任务录制以反映您的配置。 有关任务录制器的详细信息，请参阅 [Dynamics 365 for Operations 中的任务录制器](task-recorder.md)。
+您可以创建自己的任务录制、播放 Microsoft 提供的任务录制或修改 Microsoft 提供的任务录制以反映您的配置。 有关任务录制器的详细信息，请参阅 [任务录制器](task-recorder.md)。
 
 ## <a name="plan-your-task-recording"></a>计划您的任务录制
 无论您要创建新的任务录制还是基于 Microsoft 任务录制创建您的录制，请记住以下信息。
@@ -83,7 +86,7 @@ ms.lasthandoff: 05/25/2017
 
 [![屏幕 4](./media/screen4.png)](./media/screen4.png)
 
--   **信息步骤**：通过右键单击控件或窗体上任何位置，然后选择 &lt; **任务录制器** &lt; **添加信息步骤** 来创建这些批注。 信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。 在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在 Dynamics 365 for Operations 外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
+-   **信息步骤**：通过右键单击控件或窗体上任何位置，然后选择 &lt; **任务录制器** &lt; **添加信息步骤** 来创建这些批注。 信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。 在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
 
 **确定创建录制所需的时长**
 
@@ -101,7 +104,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="copy-and-customize-microsofts-task-recordings"></a>复制和自定义 Microsoft 的任务录制
 您可以下载和编辑 Microsoft 的任务录制以将其用于您自己的帮助文档或培训材料。 要下载 Microsoft 任务录制，请执行以下步骤：
 
-1.  在 Dynamics 365 for Operations 中，打开任务录制器。 任务录制器位于**“设置”**菜单中。
+1.  打开任务录制器。 任务录制器位于**“设置”**菜单中。
 2.  在任务录制器窗格中，单击**“维护录制”**。
 3.  在**“录制位于何处”**下，单击**“它在 LCS 库中”**。
 4.  单击**“选择 LCS 库”**。
@@ -119,18 +122,13 @@ ms.lasthandoff: 05/25/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Dynamics 365 for Operations 帮助](..\get-started\help-overview.md)
+[帮助概览](..\get-started\help-overview.md)
 
 [连接帮助](..\get-started\help-connect.md)
 
-[Dynamics 365 for Operations 中的任务录制器](task-recorder.md)
+[任务录制器](task-recorder.md)
 
 [最近增加的任务录制器功能](\core\get-started\recently-added-editing-features-in-task-recorder)
 
-[使用任务录制器（外部链接）在 Lifecycle Services 内创建 Dynamics AX 的新培训库](https://docs.com/mufife/163372c6-f366-4c5a-94fa-93e2c25f878a/creating-new-training-libraries-for-dynamics-ax)
-
 [使用任务录制器创建丰富的帮助主题（外部链接）](https://mbspartner.microsoft.com/AX/Videos/970)
-
-
-
 

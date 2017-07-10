@@ -1,27 +1,27 @@
 ---
 title: "工作分解结构"
-description: 
+description: "工作分解结构 (WBS) 是项目中要完成的工作的描述。 它是一种任务的层次结构，代表项目团队对工作构成和大小、成本以及每个组件或任务的持续时间的理解。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/05/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
-ms.author: kfend
+ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a700f61bcc6e6d9c699987999be25649862b0d8
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,10 +30,7 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
-
-
-工作分解结构 A 工作分解结构 (WBS) 是项目中要完成的工作的描述。 它是一种任务的层次结构，代表项目团队对工作构成和大小、成本以及每个组件或任务的持续时间的理解。 WBS 包含三个主要目的：
+工作分解结构 (WBS) 是项目中要完成的工作的描述。 它是一种任务的层次结构，代表项目团队对工作构成和大小、成本以及每个组件或任务的持续时间的理解。 WBS 包含三个主要目的：
 
 -   描述任务中工作的细分或构成。
 -   计划项目工作。
@@ -43,7 +40,7 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 
 相反，媒体和广告、软件和 IT 基础结构等行业中的项目趋向于独一无二，且工作效率与执行任务的个体的经验和能力相关。 因此，这些行业使用 WBS 获取项目大小的近似值，而不会详细跟踪项目的进程。 
 
-构建 WBS 是一种密集流程，该流程通常需要较长时间才能完成，且需要各种人员的合作和提供信息。 本主题介绍如何在 Microsoft Dynamics 365 for Operations 中使用 WBS 增强功能满足您估计和跟踪的需要。
+构建 WBS 是一种密集流程，该流程通常需要较长时间才能完成，且需要各种人员的合作和提供信息。 本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用 WBS 增强功能满足您估计和跟踪的需要。
 
 ## <a name="prerequisites-for-creating-a-wbs"></a>创建 WBS 的先决条件
 若要创建 WBS，必须能够创建工作计划和估计工作成本。
@@ -106,10 +103,10 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 
 ### <a name="schedule-estimation"></a>计划估计
 
-在创建 WBS 中，计划估计通常是第二步。 作为一种最佳实践，您应在创建任务之后完成计划估计。 Microsoft Dynamics 365 for Operation 中的**工作分解结构**页分为两部分。 上部窗格用于计划估计，下部窗格包含一个**“估计的成本和收入”**选项卡，您可以用于成本估计。 
+在创建 WBS 中，计划估计通常是第二步。 作为一种最佳实践，您应在创建任务之后完成计划估计。 Finance and Operations 中的**工作分解结构**页分为两部分。 上部窗格用于计划估计，下部窗格包含一个**“估计的成本和收入”**选项卡，您可以用于成本估计。 
 **任务相关性**：在 WBS 中，您可以在任务之间创建一个前置关系。 当您将前置任务分配给某个任务后，该任务仅可以在其所有前置任务均完成后开始。 任务的计划开始日期将自动设置为其所有前置任务的最晚日期。 
 
-**Microsoft Dynamics 365 for Operation 中的任务计划编制**：以下因素确定叶节点任务的计划编制：
+**Microsoft Dynamics 365 for Finance and Operations 中的任务计划编制**：以下因素确定叶节点任务的计划编制：
 
 -   前置任务
 -   工作量
@@ -126,7 +123,7 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 
 人数 × 持续时间 × 项目日历标准工作日中的小时数。 
 
-在某些情况下，您可能要偏离这些规则。 您可以关闭自动计划编制以防止 Microsoft Dynamics 365 for Operations 自动设置或更正叶节点任务的任何属性。 如果您为某个任务输入的信息违反任何计划编制规则，则会针对该任务显示一个计划编制错误图标。 如果您不希望显示计划编制错误，请单击**“显示计划编制错误”**以关闭此功能。 
+在某些情况下，您可能要偏离这些规则。 您可以关闭自动计划编制以防止 Finance and Operations 自动设置或更正叶节点任务的任何属性。 如果您为某个任务输入的信息违反任何计划编制规则，则会针对该任务显示一个计划编制错误图标。 如果您不希望显示计划编制错误，请单击**“显示计划编制错误”**以关闭此功能。 
 
 > [!NOTE] 
 > 摘要或容器任务的值将继续计算为构成任务的值之和，不论自动计划编制助手是开启还是关闭。 
@@ -135,7 +132,7 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 
 **按任务修复计划编制错误**：当您双击某个特定任务的计划错误图标时，将会出现一个对话框，显示该任务的所有计划编制错误。 您可以决定要修复该任务的哪个计划编制错误。 
 
-**修复所有计划编制错误**：如果您希望 Microsoft Dynamics 365 for Operations 修复 WBS 中的所有计划编制错误，请在操作窗格上单击**修复所有计划编制错误**。 
+**修复所有计划编制错误**：如果您希望 Finance and Operations 修复 WBS 中的所有计划编制错误，请在操作窗格上单击**修复所有计划编制错误**。 
 
 > [!NOTE] 
 > 此功能可能导致对 WBS 的重要修改。 按以下顺序更正错误：
@@ -170,7 +167,7 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 ## <a name="tracking-progress-on-the-wbs"></a>在 WBS 上跟踪进度
 某些行业在非常具体的级别上针对 WBS 跟踪项目的进度，而其他行业则在 WBS 的较高级别上跟踪进度。 本节将介绍如何使用符合项目要求的 WBS 跟踪。 
 
-Microsoft Dynamics 365 for Operations 为每个项目的 WBS 提供三个视图：计划视图、工作量跟踪视图和成本跟踪视图。
+Finance and Operations 为每个项目的 WBS 提供三个视图：计划视图、工作量跟踪视图和成本跟踪视图。
 
 ### <a name="planning-view"></a>计划视图
 
@@ -246,13 +243,13 @@ Microsoft Dynamics 365 for Operations 为每个项目的 WBS 提供三个视图�
 
 **计划值**：EVM 原理指出，计划值绘图表示项目团队计划赢得项目价值的比率。 
 
-在绘制计划值时，Microsoft Dynamics 365 for Operations 使用 0:100 的收入规则。 根据此规则，任务的价值将在其结束日期之前过帐到任务。 在任务百分之百完成前，不会过帐任何值。 
+在绘制计划值时，Finance and Operations 使用 0:100 的收入规则。 根据此规则，任务的价值将在其结束日期之前过帐到任务。 在任务百分之百完成前，不会过帐任何值。 
 
 在项目管理与核算中，输入叶节点的结束日期和计划成本。 当计划值的图形按周显示时，项目的持续时间之内所有叶节点任务的计划值将按周汇总。 
 
 **挣值**：EVM 原理指出，挣值绘图表示项目团队实际赢得项目价值的比率。 
 
-在绘制挣值时，Microsoft Dynamics 365 for Operations 使用 0:100 的收入规则。 根据此规则，任务的价值将在其结束日期之前过帐到任务。 在任务百分之百完成前，不会过帐任何值。 
+在绘制挣值时，Finance and Operations 使用 0:100 的收入规则。 根据此规则，任务的价值将在其结束日期之前过帐到任务。 在任务百分之百完成前，不会过帐任何值。 
 
 计算挣值时，将考虑每个任务的进度百分比。 按照 0:100 收入规则，计算截止某个给定期间的挣值时仅考虑该期间内已完成的任务。 创建图表时，项目的挣值时针对已完成的所有任务计算的。 
 

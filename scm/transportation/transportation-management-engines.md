@@ -3,14 +3,14 @@ title: "运输管理引擎"
 description: "运输管理引擎定义用于生成和处理运输管理中的运输费率的逻辑。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 12234
 ms.assetid: b878478c-0e04-4a1e-a037-6fdbb345a9a3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f5db69ed204b9503fb710426f449f38e76591641
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: c4aac72d9f7e975d4a270deb340f96ddcc9ca1fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -33,15 +33,15 @@ ms.lasthandoff: 05/25/2017
 
 运输管理引擎定义用于生成和处理运输管理中的运输费率的逻辑。 
 
-运输管理引擎计算任务，例如载体的运输费率。 引擎系统允许在运行期间基于在 Microsoft Dynamics 365 for Operations 中的数据更改计算策略。 运输管理引擎类似于与特定合同承运人相关的插件。
+运输管理引擎计算任务，例如载体的运输费率。 引擎系统允许在运行期间基于在 Microsoft Dynamics 365 for Finance and Operations 中的数据更改计算策略。 运输管理引擎类似于与特定合同承运人相关的插件。
 
 ## <a name="what-engines-are-available"></a>有哪些可用引擎？
-下表显示了 Microsoft Dynamics 365 for Operations 中可用的运输管理引擎。
+下表显示了 Microsoft Dynamics 365 for Finance and Operations 中可用的运输管理引擎。
 
 | 运输管理引擎 | 说明                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **费率引擎**                  | 计算费率。                                                                                                                                                                                                                                                                                                           |
-| **通用引擎**               | 被其他引擎使用的简单辅助引擎无需来自 Microsoft Dynamics 365 for Operations 的数据，例如，分摊引擎。 分摊引擎用于减少特定订单和航线的最终运输费用，它是基于维度，例如数量和重量。 |
+| **通用引擎**               | 被其他引擎使用的简单辅助引擎无需来自 Microsoft Dynamics 365 for Finance and Operations 的数据，例如，分摊引擎。 分摊引擎用于减少特定订单和航线的最终运输费用，它是基于维度，例如数量和重量。 |
 | **里程引擎**               | 计算运输距离。	                                                                                                                                                                                                                                                                                     |
 | **运输时间引擎**          | 计算从出发地到目的地所需的行程时间。                                                                                                                                                                                                                                       |
 | **区域引擎**                  | 计算出当前地址所在区域，并计算出为了从 A 地址到达 B 地址所需跨越的区域数量。                                                                                                                                                                    |
@@ -63,23 +63,23 @@ ms.lasthandoff: 05/25/2017
 | 参数             | 描述                                                                                                                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | *RateBaseAssigner*    | 它是表明在特定模式下的费率基数分配数据的 .NET 类型。 参数值的语法由两部分组成，它们被竖线 (|) 分割|。 第一部分包含定义了分配器类型的装配名。 第二部分定义了分配器类型的全称。 这包括类型的命名空间。 |
-| *MileageEngineCode*   | 里程引擎代码标识 Microsoft Dynamics 365 for Operations 数据库中的里程引擎记录。                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | 通用引擎代码标识 Microsoft Dynamics 365 for Operations 数据库中的分摊引擎。                                                                                                                                                                                                                                                              |
+| *MileageEngineCode*   | 里程引擎代码标识 Microsoft Dynamics 365 for Finance and Operations 数据库中的里程引擎记录。                                                                                                                                                                                                                                                             |
+| *ApportionmentEngine* | 通用引擎代码标识 Microsoft Dynamics 365 for Finance and Operations 数据库中的分摊引擎。                                                                                                                                                                                                                                                              |
 
  
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>元数据如何用在运输管理引擎？
 ----------------------------------------------------------
 
-依赖于在 Dynamics 365 for Operations 中定义的数据的运输管理引擎可能使用不同的数据模式。 运输管理系统允许不同的运输管理引擎使用相同的通用物理数据库表。 为了确保运行期间引擎数据的解读正确，您可以定义数据库表的元数据。 因为其他表和表单结构无需存在于 Operations 中，这减小了构建新的运输管理引擎的代价。
+依赖于在 Dynamics 365 for Finance and Operations 中定义的数据的运输管理引擎可能使用不同的数据模式。 运输管理系统允许不同的运输管理引擎使用相同的通用物理数据库表。 为了确保运行期间引擎数据的解读正确，您可以定义数据库表的元数据。 因为其他表和表单结构无需存在于 Operations 中，这减小了构建新的运输管理引擎的代价。
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>在费率计算中哪些可以被用作搜索数据？
-您计算 Microsoft Dynamics 365 for Operations 中的费率所使用的数据受元数据配置控制。 例如，如果您要基于邮政编码搜索费率，您必须基于查找类型为邮政编码来设置元数据。
+您计算 Microsoft Dynamics 365 for Finance and Operations 中的费率所使用的数据受元数据配置控制。 例如，如果您要基于邮政编码搜索费率，您必须基于查找类型为邮政编码来设置元数据。
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>是否所有引擎配置都需要元数据？
 不是这样，用于检索来自外部系统的费率计算所需数据的运输管理引擎不需要元数据。 这些引擎的费率数据可以从外部运输承运人系统检索，通常通过 Web 服务。 例如，可以使用直接从必应地图检索数据的里程引擎，这样您就无需此引擎的元数据。
 | **注意**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 和 Microsoft Dynamics 365 for Operations 一起传递的运输管理引擎依赖于从应用程序中检索的数据。 连接到外部系统的引擎不包含在 Operations 中。 但是，基于引擎的延伸性模型允许您使用 Microsoft Dynamics 365 for Operations Visual Studio 工具创建扩展。 |
+| 和 Microsoft Dynamics Finance and Operations 一起传递的运输管理引擎依赖于从应用程序中检索的数据。 连接到外部系统的引擎不包含在 Operations 中。 但是，基于引擎的延伸性模型允许您使用 Microsoft Dynamics 365 for Finance and Operations Visual Studio 工具创建扩展。 |
 
 ## <a name="how-do-i-configure-metadata-for-a-transportation-management-engine"></a>如何配置运输管理引擎的元数据？
 不同类型的运输管理引擎的元数据配置各不相同。

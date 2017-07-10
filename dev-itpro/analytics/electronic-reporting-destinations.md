@@ -3,14 +3,14 @@ title: "电子申报目标"
 description: "您可以为每个电子申报 (ER) 格式配置和及其输出组件（文件夹或文件）配置目标。 被授予适当访问权限的用户还可以在运行时修改目标设置。 本文介绍 ER 目标管理，支持的目标类型，以及安全考虑。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5fb008420f82abd7983ee26854f84330705c0c01
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -36,9 +36,9 @@ ms.lasthandoff: 05/25/2017
 电子申报 (ER) 格式配置通常包含至少一个输出组件︰一个文件。 通常情况下，配置包含多个被分组到单个文件夹或者多个文件夹的不同类型（例如，XML、TXT 或 XLSX）的文件输出组件。 ER 目标管理允许您预配置每个组件运行时所发生的情况。 默认情况下，当运行配置时，将显示一个对话框，供用户保存或打开文件。 当您导入 ER 配置且未为其配置任何特定目标时也使用相同的行为。 为主输出组件创建目标后，该目标将覆盖默认行为，并根据目标的设置发送文件夹或文件。
 
 ## <a name="availability-and-general-prerequisites"></a>可用性和一般先决条件
-ER 目标功能不在 Microsoft Dynamics 365 for Operations 7.0（2016 年 2 月）发布中提供。 因此，必须安装 Microsoft Dynamics 365 for Operations（2016 年 11 月版本），以便使用本主题中描述的所有功能。 也可以安装以下先决条件之一。 但是请注意，这些备用方法提供的 ER 目标体验受到的限制更多。
+ER 目标功能不在 Microsoft Dynamics AX 7.0（2016 年 2 月）中提供。 因此，必须安装 Microsoft Dynamics 365 for Operations 版本 1611（2016 年 11 月），以便使用本主题中描述的所有功能。 也可以安装以下先决条件之一。 但是请注意，这些备用方法提供的 ER 目标体验受到的限制更多。
 
--   Microsoft Dynamics 365 for Operations 应用程序版本 7.0.1（2016 年 5 月）
+-   Microsoft Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）
 -   ER 目标管理[应用程序修补程序](https://fix.lcs.dynamics.com/issue/results/?q=3160213)
 
 您可以为已导入的 ER 配置以及**电子申报配置**页提供的格式设置目标。
@@ -61,7 +61,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 ### <a name="email-destination"></a>电子邮件目标
 
-设置**已启用**为**是**以通过电子邮件发送输出文件。 启用此选项后，您可以指定电子邮件收件人，以及编辑电子邮件的主题和正文。 可以为电子邮件主题和正文设置固定文本，或者使用 ER 公式动态创建电子邮件文本。 可以通过两种方法为 ER 配置电子邮件地址。 可按照 Dynamics 365 for Operations 中的“打印管理”功能完成配置的相同方法完成此配置。 也可以通过公式使用 ER 配置的直接引用，解析电子邮件地址。
+设置**已启用**为**是**以通过电子邮件发送输出文件。 启用此选项后，您可以指定电子邮件收件人，以及编辑电子邮件的主题和正文。 可以为电子邮件主题和正文设置固定文本，或者使用 ER 公式动态创建电子邮件文本。 可以通过两种方法为 ER 配置电子邮件地址。 可按照 Finance and Operations 中的“打印管理”功能完成配置的相同方法完成此配置。 也可以通过公式使用 ER 配置的直接引用，解析电子邮件地址。
 
 ### <a name="email-address-types"></a>电子邮件地址类型
 
@@ -89,7 +89,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 [![分配电子邮件目标的电子邮件地址数据源](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**注意︰**简单邮件传输协议 (SMTP) 服务器必须配置并可用。 您可以在**系统管理** &gt; **设置** &gt; **电子邮件** &gt; **电子邮件参数**在 Dynamics 365 for Operations 中指定 SMTP 服务器。
+**注意︰**简单邮件传输协议 (SMTP) 服务器必须配置并可用。 您可以在**系统管理** &gt; **设置** &gt; **电子邮件** &gt; **电子邮件参数**在 Finance and Operations 中指定 SMTP 服务器。
 
 ### <a name="archive-destination"></a>归档目标
 
@@ -97,7 +97,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 [![文档类型页面](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-位置确定文件保存的位置。 启用**存档**目标之后，可将配置的执行结果保存到作业存档中。 可以在**组织管理** &gt; **电子申报** &gt; **电子申报存档作业**中查看结果。 **注释：**可在 Dynamics 365 for Operations 中的**组织管理** &gt; **工作区** &gt; **电子申报** &gt; **电子申报参数**中为作业存档选择票据类型。
+位置确定文件保存的位置。 启用**存档**目标之后，可将配置的执行结果保存到作业存档中。 可以在**组织管理** &gt; **电子申报** &gt; **电子申报存档作业**中查看结果。 **注意：**可在 Finance and Operations 中的**组织管理** &gt; **工作区** &gt; **电子申报** &gt; **电子申报参数**中为作业存档选择票据类型。
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -119,7 +119,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 ### <a name="power-bi-destination"></a>Power BI 目标
 
-奖**已启用**设置为**是**，以便使用您的 ER 配置安排数据从您的 Dynamics 365 for Operations 实例转移至 Microsoft Power BI 服务。 转移的文件存储在必须为该目的而配置的 Microsoft SharePoint Server 实例上。 有关详细信息，请参阅[使用电子申报配置为 Power BI 提供来自 Dynamics 365 for Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)。 **提示：**要覆盖默认行为（即，配置的对话框），您可以创建主输出组件的目标引用和文件目标，然后禁用所有目标。
+将**已启用**设置为**是**，以便使用您的 ER 配置安排数据从您的 Finance and Operations 实例转移至 Microsoft Power BI 服务。 转移的文件存储在必须为该目的而配置的 Microsoft SharePoint Server 实例上。 有关详细信息，请参阅 [使用电子申报配置为 Power BI 提供来自 Finance and Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)。 **提示：**要覆盖默认行为（即，配置的对话框），您可以创建主输出组件的目标引用和文件目标，然后禁用所有目标。
 
 ## <a name="security-considerations"></a>安全考虑
 两类权限和职责用于 ER 目标。 仅类型控制维护为法人配置的整体目标的功能（即，控制对**电子申报目标**页的访问）。 其他类型控制在运行时应用程序用户覆盖 ER 开发人员或 ER 功能顾问配置的目标设置的功能。

@@ -3,13 +3,13 @@ title: "成本核算主页"
 description: "本主题提供可用于成本核算的帮助主题和其他资源列表。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bcbf755c7adb3589ca0fa5242589f1aae3ef6e1b
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4514c6dbf014720c29e79889bf1fcc0efd6cd3ec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="get-started"></a>开始
 
-成本核算的动手实验室提供配置 Microsoft Dynamics 365 for Operations – 成本核算以执行实际成本分析的基本步骤。 还提供一系列过程，您可以按照这些过程的出现顺序将其完成。
+成本核算的动手实验室提供配置 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition – 成本核算以执行实际成本分析的基本步骤。 还提供一系列过程，您可以按照这些过程的出现顺序将其完成。
 
 -   [成本核算入门](https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc)（白皮书，需要 CustomerSource 帐户）
 
@@ -69,10 +69,10 @@ ms.lasthandoff: 05/25/2017
 -   [成本控制移动工作区](cost-controlling-mobile-workspace.md)
 
 ## <a name="cost-accounting-analysis-power-bi-content"></a>成本核算分析 Power BI 内容
-成本核算分析 Microsoft Power BI 内容面向成本总监或负责执行组织的成本控制的任何人。 其中包含关键指标，如成本、度量值，以及按实际成本、预算成本和可变预算成本的成本率。 它使用来自 Microsoft Dynamics 365 for Operations 的成本核算中的交易记录数据，并使用一种申报货币提供整个组织的成本聚合视图。 经理可以按成本对象筛选这些数据，以便对其组织单元执行成本控制，即使该组织有多个法人。
+成本核算分析 Microsoft Power BI 内容面向成本总监或负责执行组织的成本控制的任何人。 其中包含关键指标，如成本、度量值，以及按实际成本、预算成本和可变预算成本的成本率。 它使用来自 Finance and Operations 中的成本核算中的交易记录数据，并使用一种申报币种提供整个组织的成本聚合视图。 经理可以按成本对象筛选这些数据，以便对其组织单元执行成本控制，即使该组织有多个法人。
 
--   [成本核算分析 Power BI 内容](/dynamics365/operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
--   [设置成本核算分析 Power BI 内容的安全](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+-   [成本核算分析 Power BI 内容](/dynamics365/unified-operations/dev-itpro/analytics/cost-accounting-analysis-content-pack)
+-   [设置成本核算分析 Power BI 内容的安全](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 
 
 

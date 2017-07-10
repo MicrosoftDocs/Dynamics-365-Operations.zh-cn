@@ -1,16 +1,16 @@
 ---
 title: "仓库性能 Power BI 内容"
 description: "此主题介绍仓库性能 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
-author: YuyuScheller
+author: Mirzaab
 manager: AnnBe
-ms.date: 04/21/2017
+ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.reviewer: annbe
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272953
 ms.assetid: 4e4d4323-78cf-4ffa-8d5a-05e856c33db6
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cba8d990c18f2db414d837118a54edfa09cba486
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 3daa69a1f042c2eb525e7e26eb0fe29253fe9e90
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,24 +30,20 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-"[!include[banner](../includes/banner.md)]"
+此主题介绍**仓库性能** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
+## <a name="overview"></a>概览
 
-此主题介绍仓库性能 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+**仓库性能** Power BI 内容已创建，以便仓库和运营经理可以监控重要的入站、出站和库存指标。 它使用您系统的仓库管理、产品及其他交易记录数据，并且提供仓库性能和供应商细分、产品组和产品以及站点和仓库的聚合视图。 
 
-<a name="overview"></a>概览
-========
+仓库经理可使用**仓库绩效** Power BI 内容来度量以下三个区域：
 
-**仓库性能** Microsoft Power BI 内容已创建，以便仓库和运营经理可以监控重要的入站、出站和库存指标。 它使用 Microsoft Dynamics 365 for Operations 的仓库管理、产品及其他交易记录数据，并且提供仓库性能和供应商细分、产品组和产品以及站点和仓库的聚合视图。 仓库经理可使用**仓库绩效** Power BI 内容来度量以下三个区域：
+-   **入站表现** - 度量供应商如何按客户要求执行（即，度量交货表现），并度量储存表现，以便您可以发现某个期间内涉及工作人员或物料的问题。 很重要的一点是您要了解供应商是否按时、提前或延迟交货，以便您可以确定供应商表现如何影响总体储存表现。 在协议日期外交货的供应商可能由于意外的工作对仓库造成额外压力，并且可能增加平均储存时间。
+-   **装运绩效** - 度量您的仓库是否按时完全装运到客户（即，度量出站装运和交货表现），以便您可以发现涉及产品、站点或仓库或专门客户的所有问题。 如果您发现您延迟了发往特定区域或市镇的装运，您可能必须更多地关注运输或帐户管理。
+-   **货位库存准确性** - 库存准确性是重要的内部仓库商业智能 (BI)。 您确定一般情况下如何准确盘点非常重要。 不过，您还务必确定正确货位存储物料的准确性，并突出显示差异数据，以便您可以查找更好的物料货位或对特定物料发起总盘点。 （目前，新的基于物料的盘点功能作为修补程序提供。）如果您使用此 Power BI 内容来确定每个货位现有库存量的正确性，您还可以发现商店内的被盗情况。 还可以确定是否有货位具有与企业资源规划 (ERP) 数据不同的现有数量。 这些货位可能过大，或者可能无法盘点。 或者，某些实际定位可能比较糟糕，因此，与让一个物料类型与现有数据保持同步很难。
 
--   **入站表现**：度量供应商如何按客户执行（即，度量交货表现），并度量储存表现，以便您可以发现某个期间内涉及工作人员或物料的问题。 很重要的一点是您要了解供应商是否按时、提前或延迟交货，以便您可以确定供应商表现如何影响总体储存表现。 在协议日期外交货的供应商可能由于意外的工作对仓库造成额外压力，并且可能增加平均储存时间。
--   **装运绩效**：度量您的仓库是否按时完全装运到客户（即，度量出站装运和交货表现），以便您可以发现涉及产品、站点或仓库或专门客户的所有问题。 如果您发现您延迟了发往特定区域或市镇的装运，您可能必须更多地关注运输或帐户管理。
--   **货位库存准确性**：库存准确性是重要的内部仓库商业智能 (BI)。 您确定一般情况下如何准确盘点非常重要。 不过，您还务必确定正确货位存储物料的准确性，并突出显示差异数据，以便您可以查找更好的物料货位或对特定物料发起总盘点。 （目前，新的基于物料的盘点功能作为修补程序提供。）如果您使用此 Power BI 内容来确定每个货位现有库存量的正确性，您还可以发现商店内的被盗情况。 还可以确定是否有货位具有与企业资源规划 (ERP) 数据不同的现有数量。 这些货位可能过大，或者可能无法盘点。 或者，某些实际定位可能比较糟糕，因此，与让一个物料类型与现有数据保持同步很难。
-
-## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**仓库绩效** Power BI 内容。 系统管理员可以按照 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)中的以下说明下载该内容，并将其连接到您的 Dynamics 365 for Operations 数据。 
-
-**注意：****KB 4011327** 是此 Power BI 内容的先决条件。 登录 Lifecycle Services 之后，可以在以下位置访问该 KB：<https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>。
+## <a name="accessing-the-power-bi-content-pack"></a>访问 Power BI 内容包
+如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，则**仓库绩效** Power BI 内容显示在**仓库绩效**页（**仓库管理** > **查询和报表** > **仓库绩效分析** > **仓库绩效**）上。 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
 **仓库绩效** Power BI 内容包括报表。 此报表包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**仓库绩效** Power BI 内容的可视化。
@@ -81,9 +77,18 @@ Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**仓�
 | 装运表现        | 产品装运                       | 物料或物料组提前、按时或延迟装运的百分比。                                                                                                                                                                                                                                                                                                                                   |
 | 装运表现        | 客户装运                      | 客户或客户组提前、按时或延迟装运的百分比。                                                                                                                                                                                                                                                                                                                           |
 | 装运表现        | 站点/仓库装运              | 站点或仓库提前、按时或延迟装运的百分比。                                                                                                                                                                                                                                                                                                                                    |
+## <a name="extending-the-power-bi-content"></a>扩展 Power BI 内容
+使用在 Microsoft Dynamics Lifecycle Services (LCS) 中可用的内容包可以对未登录到 Microsoft Dynamics 365 的人员提供出色的分析。 您可以修改这些内容包，使它们包含其他报表或视觉对象，然后将内容包发布到您的 Power BI.com 租户进行分析。 
+
+可在 LCS 中的共享资产库内找到**仓库绩效** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。
+
+请确保下载适用于您使用的 Dynamics 365 版本的**仓库绩效**内容。
+
+> [!NOTE]
+> 如果您使用的是 Microsoft Dynamics 365 for Operations 版本 1611，则 KB 4011327 是此 Power BI 内容的先决条件。 登录 LCS 之后，可以在以下位置访问该 KB：https://fix.lcs.dynamics.com/issue/results/?q=kb4011327。
 
 ## <a name="understanding-the-data-model-and-calculations"></a>了解数据模型和计算
-Dynamics 365 for Operations 数据用于填充**仓库绩效** Power BI 内容中的报表。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。 
+以下数据用于填充**仓库绩效** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。 
 
 以下关键聚合度量用作该内容的基础。
 
@@ -117,17 +122,4 @@ Dynamics 365 for Operations 数据用于填充**仓库绩效** Power BI 内容�
 | 装运表现        | 产品装运                       | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | 装运表现        | 客户装运                      | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。                                                                                                                                                                                                                                                                                                                                                                                                                        |
 | 装运表现        | 站点/仓库装运              | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。                                                                                                                                                                                                                                                                                                                                                                                                                        |
-
-## <a name="additional-resources"></a>其他资源
-以下是与实体和构建 Power BI 内容相关的一些有用的链接：
-
--   [数据实体](../data-entities/data-entities.md)
--   [创建组织内容包](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [使用 Power BI 的数据建模](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [将 Power BI 磁贴添加到工作区](configure-power-bi-integration.md)
-
-
-
-
-
 

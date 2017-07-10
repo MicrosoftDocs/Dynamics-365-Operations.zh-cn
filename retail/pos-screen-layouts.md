@@ -1,27 +1,28 @@
 ---
 title: "配置 POS 的屏幕布局"
-description: "此主题提供有关 Microsoft Dynamics 365 for Operations - Retail 销售点 (POS) 体验的屏幕布局的信息。"
+description: "此主题提供有关 Microsoft Dynamics 365 for Retail 销售点 (POS) 体验的屏幕布局的信息。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 90573
 ms.assetid: a6868f93-02ed-4928-9f6a-3b7383e7e399
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7dee20166ea89b56523e3ef38e66de53d6e4a621
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 9f7f46c1bae5bac6eefa0b8c70b079cab76aa8b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -31,9 +32,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](includes/banner.md)]
 
 
-此主题提供有关 Microsoft Dynamics 365 for Operations - Retail 销售点 (POS) 体验的屏幕布局的信息。
+此主题提供有关 Microsoft Dynamics 365 for Retail 销售点 (POS) 体验的屏幕布局的信息。
 
-可使用为商店、收银机和/或用户分配的视觉配置文件和屏幕布局，配置 Microsoft Dynamics 365 for Operations - Retail 销售点 (POS) 用户界面。
+可使用为商店、收银机和/或用户分配的视觉配置文件和屏幕布局，配置 Microsoft Dynamics 365 for Retail 销售点 (POS) 用户界面。
 
 ## <a name="visual-profile"></a>可视化配置文件
 视觉配置文件分配给收银机，用于指定收银机特定且在用户中共享的视觉元素。 任何登录收银机的用户都将看到相同的主题、颜色和图像。 
@@ -46,7 +47,7 @@ ms.lasthandoff: 05/25/2017
 
 **个性色** - 个性色在整个 POS 中用于区分或突出显示特定视觉元素，如标题、命令按钮或超链接。 这些元素通常可操作。
 
-**标题颜色** - 用户可通过标题颜色配置页标题的颜色，以便满足零售商的品牌需求。 只有 Dynamics 365 for Operations 版本 1611 中才有此功能。
+**标题颜色** - 用户可通过标题颜色配置页标题的颜色，以便满足零售商的品牌需求。 只有 Dynamics 365 for Retail 版本 1611 中才有此功能。
 
 **登录背景** - 用户可为登录屏幕指定背景图像。 背景图像的文件大小应尽量小，因为存储和加载大型文件可能影响应用程序的行为和性能。
 
@@ -67,7 +68,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="layout-sizes"></a>布局大小
 
-此功能仅适用于 Dynamics 365 for Operations 版本 1611。 由于许多情况下屏幕布局可以跨多种屏幕大小和分辨率下使用，所以用户可以为每种配置自己的布局和内容。 POS 应用程序将在启动时自动为设备选择最接近的布局大小。 屏幕布局中还可以同时包含完整和紧凑设备的配置。 此配置允许为用户分配一个屏幕布局，而该屏幕布局支持商店内的多种尺寸和外形。 
+此功能仅适用于 Dynamics 365 for Retail 版本 1611。 由于许多情况下屏幕布局可以跨多种屏幕大小和分辨率下使用，所以用户可以为每种配置自己的布局和内容。 POS 应用程序将在启动时自动为设备选择最接近的布局大小。 屏幕布局中还可以同时包含完整和紧凑设备的配置。 此配置允许为用户分配一个屏幕布局，而该屏幕布局支持商店内的多种尺寸和外形。 
 
 **现代 POS - 完整型** - 完整型布局通常最适合较大显示器，如 PC 显示器或平板电脑。 用户可以选择包含哪些 UI 元素，决定其大小和位置，以及配置其详细属性。 完整型布局同时支持垂直配置和水平配置。 
 
@@ -77,11 +78,11 @@ ms.lasthandoff: 05/25/2017
 
 必须使用屏幕布局设计器配置屏幕布局中的每种布局大小。 此设计器允许用户指定和配置“交易记录”屏幕的 UI 元素。 只要用户访问应用程序，屏幕布局设计器都将使用 ClickOnce 下载、安装和启动应用程序的最新版本。 请务必检查使用 ClickOnce 的浏览器要求 — 某些浏览器（如 Chrome）需要扩展。 
 
-**数字键盘** - 数字键盘是 POS“交易记录”屏幕中的主要用户输入。 可将其配置为显示完整的屏幕键盘，这是触控屏的理想选择，也可以配置为仅显示输入字段，可在使用物理键盘时使用。 只有完整型布局中才有数字键盘设置。 在 Dynamics 365 for Operations 版本 1611 中，紧凑型布局始终从“交易记录”屏幕中提供完整的数字键盘。
+**数字键盘** - 数字键盘是 POS“交易记录”屏幕中的主要用户输入。 可将其配置为显示完整的屏幕键盘，这是触控屏的理想选择，也可以配置为仅显示输入字段，可在使用物理键盘时使用。 只有完整型布局中才有数字键盘设置。 在 Dynamics 365 for Retail 版本 1611 中，紧凑型布局始终从“交易记录”屏幕中提供完整的数字键盘。
 
-**总计面板** - 可可将总计面板配置为一列或两列，以显示字段，如行计数、折扣金额、费用、小计和税。 在 Dynamics 365 for Operations 版本 1611 中，紧凑型布局仅支持单个总计列。 
+**总计面板** - 可可将总计面板配置为一列或两列，以显示字段，如行计数、折扣金额、费用、小计和税。 在 Dynamics 365 for Retail 版本 1611 中，紧凑型布局仅支持单个总计列。 
 
-**收据** - 收据面板中包含 POS 中处理的产品和服务的销售行、付款行和交货信息。 用户可以指定列、宽度和位置。 在 Dynamics 365 for Operations 版本 1611 中的紧凑型布局内，还可以配置更多在主行下的行中显示的信息。 
+**收据** - 收据面板中包含 POS 中处理的产品和服务的销售行、付款行和交货信息。 用户可以指定列、宽度和位置。 在 Dynamics 365 for Retail 版本 1611 中的紧凑型布局内，还可以配置更多在主行下的行中显示的信息。 
 
 **客户卡** - 客户卡显示有关当前与交易关联的客户的信息。 可以将客户卡配置为隐藏或显示更多信息。 
 
@@ -89,7 +90,7 @@ ms.lasthandoff: 05/25/2017
 
 **图像** - 图像控件可用于在交易记录屏幕中显示商店徽标或其他品牌图像。 图像控件仅可用于完整型布局。 
 
-**推荐产品** - 如果为环境配置了推荐产品控件，则将根据机器学习显示产品建议。 推荐产品控件仅可用于 Dynamics 365 for Operations 版本 1611 中的完整型布局。 **自定义控件**- 自定义控件充当屏幕布局内的占位符，供用户为自定义内容预留空间。 自定义控件仅可用于完整型布局。
+**推荐产品** - 如果为环境配置了推荐产品控件，则将根据机器学习显示产品建议。 推荐产品控件仅可用于 Dynamics 365 for Retail 版本 1611 中的完整型布局。 **自定义控件**- 自定义控件充当屏幕布局内的占位符，供用户为自定义内容预留空间。 自定义控件仅可用于完整型布局。
 
 <a name="see-also"></a>请参阅
 --------

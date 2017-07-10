@@ -3,7 +3,7 @@ title: "销售税概览"
 description: "本文提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 13111
 ms.assetid: fe5fdc7f-9834-49fb-a611-1dd9c289619d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bdb3188f533cf0cdb1e70c63891408e45d02418d
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 415928125c14dfc69020b712f281835701ba2f83
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,6 +30,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="sales-tax-overview"></a>销售税概览
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 本文提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。
@@ -73,7 +75,7 @@ ms.lasthandoff: 05/25/2017
 在每个交易记录上，您可以通过打开“**销售税交易记录**”页查看计算所得的销售税。 您可以对一个文档行或整个文档查找销售税。 对于某些文档（例如，供应商发票和普通日记帐），如果原始文档显示异常金额，则可以调整计算所得的销售税。
 
 ## <a name="sales-tax-settlement-and-reporting"></a>销售税结算和申报
-必须按规定的间隔（每月、每季度等）向税务主管机构申报和缴纳销售税。 Microsoft Dynamics 365 for Operations 提供的功能可让您按时间间隔结算税帐户并将余额抵消给在分类帐记帐组中指定的税结算帐户 您可以在**结算并过帐销售税**页上访问此功能。 您必须指定应结算销售税的销售税结算期间。 
+必须按规定的间隔（每月、每季度等）向税务主管机构申报和缴纳销售税。 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 提供的功能可让您按时间间隔结算税帐户并将余额抵消给在分类帐记帐组中指定的税结算帐户 您可以在**结算并过帐销售税**页上访问此功能。 您必须指定应结算销售税的销售税结算期间。 
 
 在支付销售税后，销售税结算帐户上的余额应与银行帐户平衡。 如果在销售税结算期间上指定的销售税主管机构与供应商帐户相关，则销售税余额作为未结供应商发票过帐，并可以包括在普通付款方案中。
 

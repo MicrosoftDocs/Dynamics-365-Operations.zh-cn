@@ -3,7 +3,7 @@ title: "财务报表组件"
 description: "本文介绍如何在财务报告中使用报表定义的组件或构建基块。 这些构造基块包括行定义、列定义和报告树定义。 本文章介绍了如何组织和锁定构建基块，以及如何使用构建基块组。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59071
 ms.assetid: a201cfcb-1672-45f6-897d-2db2dd181d9a
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 057c338c11518b3a1081223e432cbfd109d5e679
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 5c09b1fc061f95cd78e9f18c2bdf846fdbfc7cf1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -105,7 +105,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="export-a-building-block-group"></a> 导出构建基块组
 
-您可以在构建基块组中导出构建基块组或特定报表构建基块组。 您可以使用导出的构建基块组作为备份。 您还可以复制构建基块组或 Dynamics 365 for Operations 安装之间的导出数据。 报表设计器包括引用的字体样式和维度集以及构建基块组。
+您可以在构建基块组中导出构建基块组或特定报表构建基块组。 您可以使用导出的构建基块组作为备份。 您还可以复制构建基块组或 Finance and Operations 安装之间的导出数据。 报表设计器包括引用的字体样式和维度集以及构建基块组。
 1.  在报表设计器中，在**“公司”**菜单上，单击**“构建基块组”**。
 2.  在**“构建基块组”**对话框中，选择要导出的构建基块组，然后单击**“导出”**。
 3.  在**“导出”**对话框中，选择要导出的报表定义：

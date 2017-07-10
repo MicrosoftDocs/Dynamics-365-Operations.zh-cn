@@ -3,15 +3,15 @@ title: "三向匹配政策"
 description: "本文提供三种向匹配的示例。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9f66a9a907cf01046c78677a3f1d55f112fa8c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -66,7 +66,7 @@ Fabrikam 按照世界上所有地区的多个法人和员工运行。 当交易�
 1.  Sammy 是 Fabrikam 接收部门的工作人员，接受从 Contoso 装运的设备总数。 他在产品收据中输入 5 的数量。 由于采购订单已完全收到，则该采购订单的状态将更改为“已接收”。
 2.  April 是 Fabrikam 的应付帐款协调员，输入和验证 Contoso 提交的发票。 她验证了以下信息：
     -   针对要求三向匹配的物料，发票行上的数量与接收的数量匹配。 产品收据上指示的接受的数量与发票上的数量匹配。
-    -   对于要求双向或三向匹配的物料，发票行上的价格在 Microsoft Dynamics 365 for Operations 中定义的容差内。这包括以下价格匹配类型：
+    -   对于要求双向或三向匹配的物料，发票行上的价格在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中定义的容差内。这包括以下价格匹配类型：
         -   净单位价格匹配 – 发票行的净单位价格与采购订单行的净单位价格匹配，都在容差百分比内。 在此示例中，净单位价格容差是 +8%。
         -   价格合计匹配 – 发票行的净金额与采购订单行的净金额匹配，都在容差百分比、金额或金额百分比内。 在此示例中，价格合计匹配容差是 +15%。
 
@@ -79,7 +79,7 @@ Contoso 中的纸质发票包含以下信息。
 | 税金                         |          |            | 0.00       |
 | 合计                       |          |            | 44,500.00  |
 
-在 Microsoft Dynamics 365 for Operations 中，发票行包含以下信息。
+在 Finance and Operations 中，发票行包含以下信息。
 
 | 物料编号                 | 数量 | 单位价格 | 行净额 | 匹配政策    | 物料收货数量匹配 | 价格匹配 | 价格合计匹配 |
 |-----------------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|
@@ -115,7 +115,7 @@ Contoso 中的纸质发票包含以下信息。
 1.  物料到达。 Sammy 是 Fabrikam 马来西亚分部接收部门的工作人员，立即中断和未过帐产品收据。
 2.  April 是 Fabrikam 的应付帐款协调员，输入和验证 Contoso 提交的发票。 她验证了以下信息：
     -   针对要求三向匹配的物料，发票行上的数量与接收的数量匹配。 产品收据上指示的接受的数量与发票上的数量匹配。
-    -   对于要求双向或三个向匹配的物料，发票行上的价格在 Microsoft Dynamics 365 for Operations 中定义的容差范围内。 这包括价格匹配的以下类型：
+    -   对于要求双向或三个向匹配的物料，发票行上的价格在 Finance and Operations 中定义的容差范围内。 这包括价格匹配的以下类型：
         -   净单位价格匹配 – 发票行的净单位价格与采购订单行的净单位价格匹配，都在容差百分比内。 在此示例中，净单位价格容差是 +2%。
         -   价格合计匹配 – 发票行的净金额与采购订单行的净金额匹配，都在容差百分比、金额或金额百分比内。 在此示例中，价格合计匹配容差是 +10%。
 
@@ -128,7 +128,7 @@ Contoso 中的纸质发票包含以下信息。
 | USB 驱动             | 200      | 10.05      | 2,010.00   |
 | 发票总计         |          |            | 7,092.00   |
 
-在 Microsoft Dynamics 365 for Operations 中，发票行包含以下信息。
+在 Finance and Operations 中，发票行包含以下信息。
 
 | 物料编号           | 数量 | 单位价格 | 行净额 | 匹配政策    | 物料收货数量匹配 | 价格匹配 | 价格合计匹配 |
 |-----------------------|----------|------------|-----------------|--------------------|--------------------------------|-------------|-------------------|

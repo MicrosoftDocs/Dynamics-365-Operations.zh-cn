@@ -3,7 +3,7 @@ title: "库存对象值"
 description: "本文提供有关库存对象的值如何计算的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3149edfb54bad12fad043b78d9a6d3a7527f18e1
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: af31af5e8f11119c03ee7cb7101f2c94714720ff
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -146,7 +146,7 @@ Inventory object.Value = Cost object.Average unit cost × Inventory object.Quant
 
 [成本条目](cost-entries.md)
 
-[Microsoft Dynamics AX 体系结构中的新增功能和更改](/dynamics365/operations/dev-itpro/get-started/whats-new-changed)
+[新增功能和更改的功能](/dynamics365/unified-operations/dev-itpro/get-started/whats-new-changed)
 
 
 

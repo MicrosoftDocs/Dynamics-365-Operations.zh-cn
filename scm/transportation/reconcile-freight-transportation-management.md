@@ -3,14 +3,14 @@ title: "在运输管理中对运费进行对帐"
 description: "本文介绍了运费对帐流程。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 89983
 ms.assetid: bc34a9b1-0c11-4797-b463-25409cf98ca8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 88633426fd23370f64730480629ab33ad7124812
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: ab7d21d7a75e2c954831a254bb339d9cf5746d9d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,7 +42,7 @@ ms.lasthandoff: 05/25/2017
 [![运费对帐流程](./media/freight-reconcilation-process.jpg)](./media/freight-reconcilation-process.jpg)
 
 ## <a name="manual-reconciliation"></a>手动对帐
-如果要手动对帐运费，必须将每个发票行与已开票负荷的运费帐单行匹配。 您在**运费帐单和发票匹配**页进行此匹配。 如果发票行上的金额与运费帐单金额不匹配，则必须选择上差异对帐原因。 如果有多个对帐原因，您可以在它们之间拆分不匹配的金额。 对帐原因确定如何在总帐中过帐差异金额。 当对帐所计算的整个发票金额时，将金额提交供审批，然后过帐日记帐。 下图显示了如何在 Microsoft Dynamics 365 for Operations 中生成运费发票和执行运费对帐。 
+如果要手动对帐运费，必须将每个发票行与已开票负荷的运费帐单行匹配。 您在**运费帐单和发票匹配**页进行此匹配。 如果发票行上的金额与运费帐单金额不匹配，则必须选择上差异对帐原因。 如果有多个对帐原因，您可以在它们之间拆分不匹配的金额。 对帐原因确定如何在总帐中过帐差异金额。 当对帐所计算的整个发票金额时，将金额提交供审批，然后过帐日记帐。 下图显示了如何在 Microsoft Dynamics 365 for Finance and Operations 中生成运费发票和执行运费对帐。 
 [![Dynamics AX 中的运费对帐任务](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>自动对帐
 若要使用自动对帐，您必须指定对帐计划和发票，以及要使用的装运承运人。 发票行和运费帐单的匹配根据审计主数据和运费帐单类型的设置进行。 运行自动对帐后，必须处理所有系统不能匹配的发票。 然后，您必须手动处理这些发票，然后才能过帐所有付款发票。

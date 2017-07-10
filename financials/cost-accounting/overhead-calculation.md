@@ -10,8 +10,8 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: annbe
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a24c24f842e4f1b1c7806c2fb2ccbd1329fe4851
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -623,7 +623,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>步骤 4：处理成本分摊计算
 
-分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。 Microsoft Dynamics 365 for Operations 支持互惠分摊方法。 在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。 系统自动确定执行分摊的正确顺序。 成本对象的余额按单一分配基础分配。 支持跨成本对象维度及其各自成员的分摊。 分摊顺序由成本控制单元控制。 [![互惠方法](./media/reciprocal-method.png)]
+分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。 Finance and Operations 支持互惠分摊方法。 在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。 系统自动确定执行分摊的正确顺序。 成本对象的余额按单一分配基础分配。 支持跨成本对象维度及其各自成员的分摊。 分摊顺序由成本控制单元控制。 [![互惠方法](./media/reciprocal-method.png)]
 
 #### <a name="define-the-cost-allocation"></a>定义成本分摊
 
@@ -724,7 +724,7 @@ ms.lasthandoff: 05/25/2017
 </tbody>
 </table>
 
-**注意：**在 Dynamics 365 for Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。 关于统计度量的更多详细信息，请参阅“统计度量提供方模板”。 （请注意，此主题尚未完成，不过将很快推出。）下表显示 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。
+**注意：**在 Finance and Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。 关于统计度量的更多详细信息，请参阅“统计度量提供方模板”。 （请注意，此主题尚未完成，不过将很快推出。）下表显示 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。
 
 <table>
 <thead>

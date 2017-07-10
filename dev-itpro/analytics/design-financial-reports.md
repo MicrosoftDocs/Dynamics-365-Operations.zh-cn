@@ -1,16 +1,16 @@
 ---
 title: "查看和设计财务报表"
-description: "本文提供练习，引导您为 Microsoft Dynamics 365 for Operations 查看和创建财务报表。"
+description: "本文提供练习，引导您为 Microsoft Dynamics 365 for Finance and Operations 查看和创建财务报表。"
 author: jcart1106
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1c0787327830d2cdff9e8a48798165dc83493393
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供练习，引导您为 Microsoft Dynamics 365 for Operations 查看和创建财务报表。 财务申报包含 Dynamics 365 for Operations 内的查看体验和供您创建和编辑财务报表的一键式报表设计器。  
+本文提供练习，引导您为 Microsoft Dynamics 365 for Finance and Operations 查看和创建财务报表。 财务申报包含 Finance and Operations 内的查看体验和供您创建和编辑财务报表的一键式报表设计器。  
 
 <a name="exercise-1-generate-and-explore-a-default-financial-report"></a>练习 1：生成和探索默认财务报表
 -----------------------------------------------------------
@@ -59,7 +59,7 @@ ms.lasthandoff: 05/25/2017
 13. 选择**报表选项**。
 14. 选择**添加维度筛选器**并选择**业务单位**。
 15. 键入 001 到字段并选择**确定**。 报表现在只显示 001 业务单位的数据。 这是报表的个性化视图，不可供其他人查看。
-16. 关闭已筛选的报表。 财务报表可以使用添加到 Dynamics 365 for Operations 的所有币种显示。
+16. 关闭已筛选的报表。 财务报表可以使用添加到 Finance and Operations 的所有币种显示。
 17. 选择**币种**，然后选择**欧元。** 现在报表按欧元显示。 在报表设计中包括的所有币种代码或币种符号现在使用应用的币种显示。 如果没有为币种定义符号币种，币种符号不显示。
 18. 关闭 **GL 详细信息**报表。
 19. 关闭**报表设计器**。
@@ -70,7 +70,7 @@ ms.lasthandoff: 05/25/2017
 1.  转到“总帐”中“查询和报表”下的**财务报表**。
 2.  为名为**试算平衡表汇总 – 默认**的报表选择行。
 3.  选择**编辑**。 **试算平衡表汇总 – 默认**将在报表设计器中打开。
-4.  选择**文件**然后选择**另存为**，然后命名报表“具有属性的试算平衡表明细”。 注意：无论何时新报表在设计器中创建，财务报表列表都将在 Dynamics 365 for Operations 中更新。
+4.  选择**文件**然后选择**另存为**，然后命名报表“具有属性的试算平衡表明细”。 注意：无论何时新报表在设计器中创建，财务报表列表都将在 Finance and Operations 中更新。
 5.  从报表定义，选择行定义图标以打开**试算平衡表 – 默认行定义**。
 6.  保存行定义为**具有属性的试算平衡表明细**
 7.  将光标放在第 50 行，选择**编辑**，然后选择**从维度插入行**。 从维度插入行允许您选择希望哪些维度在您的行定义中。 对于此练习，我们将使用主科目构建行定义。
@@ -183,8 +183,8 @@ ms.lasthandoff: 05/25/2017
 18. **保存**所做更改并**生成**。 在报表完成生成并打开后，可以探索报表。
 
 ## <a name="additional-resources"></a>其他资源
-[财务报表](/dynamics365/operations/financials/general-ledger/financial-reporting-getting-started) 
-[查看财务报表](/dynamics365/operations/financials/general-ledger/view-financial-reports) 
+[财务报表](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
+[查看财务报表](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
 [Dynamics 财务报表博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

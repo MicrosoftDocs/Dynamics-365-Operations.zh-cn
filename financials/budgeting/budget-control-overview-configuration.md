@@ -1,15 +1,15 @@
 ---
 title: "预算控制概览"
-description: "本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Operations 中配置预算控制，以便您可以管理财务资源的信息。"
+description: "本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置预算控制，以便您可以管理财务资源的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 48649b891be72529e6045e48f9738fe68be6cffe
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,14 +30,14 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Operations 中配置预算控制，以便您可以管理财务资源的信息。
+本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置预算控制，以便您可以管理财务资源的信息。
 
 <a name="overview"></a>概览
 --------
 
-Microsoft Dynamics 365 for Operations 中的预算控制通过会计科目表、工作流、用户组、原始单据和日记帐、可配置的可用资金计算、预算周期和阈值支持组织的财务资源管理。 在提供控制时，组织可以在其整个会计年度中计划、衡量、管理和预测其财务资源。 
+Microsoft Dynamics 365 for Finance and Operations 中的预算控制通过会计科目表、工作流、用户组、原始单据和日记帐、可配置的可用资金计算、预算周期和阈值支持组织的财务资源管理。 在提供控制时，组织可以在其整个会计年度中计划、衡量、管理和预测其财务资源。 
 
-在 Dynamics 365 for Operations 中已审批预算后，可以使用预算计划生成预算登记分录来记录组织的支出预算。 或者您也可以在不使用预算计划功能的情况下从第三方计划创建或导入预算登记分录。 
+在 Finance and Operations 中已审批预算后，可以使用预算计划生成预算登记分录来记录组织的支出预算。 或者您也可以在不使用预算计划功能的情况下从第三方计划创建或导入预算登记分录。 
 
 通过使用主科目和财务维度来记录支出。 您可以通过分组财务维度和主科目的组合来配置总体支出的控制以满足组织的策略和要求。 
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 for Operations 中的预算控制通过会计科目表、
 -   **资金可用计算** – 凭证（例如采购申请(预留款)和采购订单(保留款)）是否应考虑在可用资金计算中？ 处于草稿状态的凭证是否应考虑在计算中？
 -   **覆盖权限** – 谁有权超出可用预算？
 
-预算控制将与 Dynamics 365 for Operations 完全集成。 因此，您可以评估计划采购和实际采购的可用预算。 预算查询和报表可用。 因此，用户可以评估整个预算周期的预算，并进行所需的任何调整（在预算修订或转移窗体中）。 预算经理还可以根据需要将预算和实际导出至 Microsoft Excel 中以更好地进行分析和预测。
+预算控制与 Finance and Operations 完全集成。 因此，您可以评估计划采购和实际采购的可用预算。 预算查询和报表可用。 因此，用户可以评估整个预算周期的预算，并进行所需的任何调整（在预算修订或转移窗体中）。 预算经理还可以根据需要将预算和实际导出至 Microsoft Excel 中以更好地进行分析和预测。
 
 ## <a name="configuring-budget-control"></a>配置预算控制
 ### <a name="budget-cycle-time-span"></a>预算周期跨度
@@ -128,7 +128,3 @@ Microsoft Dynamics 365 for Operations 中的预算控制通过会计科目表、
 从此页，用户可以深入到**预算控制统计（按期间）**页来查看所选预算控制维度组合的预算可用性详细信息和预留。 用户也可以深入到**预算控制统计**页查看用于预算控制的所有财务维度组合的预算可用性。 
 
 如果为采购订单启用预算控制，则预算经理可使用**分类帐预算和预测**工作区检查具有预算检查警告和错误的所有未确认采购订单的队列。 如果预算经理具有配置的超出预算权限，则他或她可以直接在该工作区中确认采购订单。    
-
-
-
-

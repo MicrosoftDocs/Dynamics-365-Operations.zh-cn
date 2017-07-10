@@ -1,27 +1,27 @@
 ---
 title: "查看财务报表"
-description: "本文介绍如何在 Microsoft Dynamics AX 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。"
-author: RobinARH
+description: "本文介绍如何在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。"
+author: kweekley
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: RobinARH
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: shylaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
 ms.search.region: Global
-ms.author: aolson
+ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b02dbc0181c08611674cdf571075c20d78cebdc
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 102031174417a33b12c32f6b8185556b8c4701e5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍如何在 Microsoft Dynamics AX 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
+本文介绍如何在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 
 <a name="financial-reporting-overview"></a>财务报告概览
 ----------------------------
@@ -64,7 +64,7 @@ ms.lasthandoff: 05/25/2017
 在您更新财务报表后，可以将其发布。 组织中的其他人然后可以查看它。 若要发布报表，在操作窗格中，单击**发布**。
 
 ## <a name="display-a-financial-report-in-a-different-currency"></a>以不同的币种显示财务报表
-财务报表可以在任何币种在任何时间显示。 若要以不同的币种显示报表，在操作窗格中，单击**币种**，然后选择一个币种。 报表将转换为该币种，并且显示结果。 包括作为报表设计的一部分的所有币种代码或符号将更新以反映新币种。 显示在列表中的币种是在 Microsoft Dynamics AX 中配置的申报币种。
+财务报表可以在任何币种在任何时间显示。 若要以不同的币种显示报表，在操作窗格中，单击**币种**，然后选择一个币种。 报表将转换为该币种，并且显示结果。 包括作为报表设计的一部分的所有币种代码或符号将更新以反映新币种。 显示在列表中的币种是在 Finance and Operations 中配置的申报币种。
 
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>显示财务报表的汇总视图
 一个财务报表可以包含明细行和汇总行。 明细行是包含主科目或维度的行。 汇总行是描述、合计和计算行。 若要只显示报表的汇总行，单击**显示**，然后单击**仅汇总行**。 报表将折叠并只显示汇总行。 若要与汇总行一起查看明细行，请单击**显示**，然后再次单击**仅汇总行**。
@@ -88,7 +88,8 @@ ms.lasthandoff: 05/25/2017
 <a name="see-also"></a>请参阅
 --------
 
-[Microsoft Dynamics AX 的财务报告](/dynamics365/operations/dev-itpro/analytics/financial-reporting-intro)
+[Microsoft Dynamics AX 的财务报告](/dynamics365/unified-operations/dev-itpro/analytics/financial-reporting-intro)
+
 
 
 

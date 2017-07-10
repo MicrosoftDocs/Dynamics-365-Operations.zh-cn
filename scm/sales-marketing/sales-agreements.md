@@ -3,7 +3,7 @@ title: "销售协议"
 description: "文本提供有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d356017ac0413b92ff9734800231ba1979dac242
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4eaa4fef65fb310524f25d052aeefb58c5f20fe4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -102,14 +102,14 @@ ms.lasthandoff: 05/25/2017
 | 数量                                                          | 如果您指定超出在选中**强制为最大**复选框的销售协议行上指定数量的数量，则会出现消息框提示您保存更改的数量。 单击**“是”**删除链接到销售协议行的链接，并重新计算价格。 单击**“否”**删除链接到销售协议行的链接，并不重新计算价格。                                                            |
 
 ## <a name="returning-an-item-that-was-ordered-from-a-sales-agreement"></a>从销售协议中返回已订购的物料
-在客户退回基于销售协议订购的产品时，Microsoft Dynamics 365 for Operations 可查找和自动更新相关销售协议承诺以反映数量或金额的变化。 通过基于与销售协议相关联的原始销售订单创建退货单，建立销售协议承诺、销售订单行和退货单发票之间的关系。  
+在客户退回基于销售协议订购的产品时，Microsoft Dynamics 365 for Finance and Operations 可查找和自动更新相关销售协议承诺以反映数量或金额的变化。 通过基于与销售协议相关联的原始销售订单创建退货单，建立销售协议承诺、销售订单行和退货单发票之间的关系。  
 
 如果您不想从销售协议承诺扣减退回的物料数量，则可以使用**退货单**页中的**删除链接**控制删除退货单和销售承诺协议之间的链接。 如果必须以后重新生成链接，请单击**创建链接**。  
 
 **注意：**退货单只能与一个销售协议相关联。 如果客户退回基于多个销售协议订购的多个产品，则必须为每个产品创建新退货单并创建指向相应的销售协议的链接。
 
 ## <a name="automatic-search-for-sales-agreements"></a>自动搜索销售协议
-在某些情况下销售订单间接创建，例如，当您创建贷方通知单或内部公司销售订单时，可以控制 Microsoft Dynamics 365 for Operations 是否自动搜索适用的销售协议。
+在某些情况下销售订单间接创建，例如，当您创建贷方通知单或内部公司销售订单时，可以控制 Microsoft Dynamics 365 for Finance and Operations 是否自动搜索适用的销售协议。
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>销售协议财务维度
 您可以将财务维度复制到销售协议的文档抬头或单独的行。 您可以在任何时间更改该协议标题或协议行的维度。 在这种情况下，维度将自动复制到下达单的下达标头或下达行。

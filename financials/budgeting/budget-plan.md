@@ -1,9 +1,9 @@
 ---
 title: "预算计划"
-description: "此实验室的目的是提供预算计划领域中 Microsoft Dynamics 365 for Operations 功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据"
+description: "此实验室的目的是提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 在预算计划领域的功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: dbe2b386de9e88af354015705e1444987a3f7e82
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,12 +31,12 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-此实验室的目的是提供预算计划领域中 Microsoft Dynamics 365 for Operations 功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据 
+此实验室的目的是提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 在预算计划领域的功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据 
 
-<a name="prerequisites"></a>先决条件 
+<a name="prerequisites"></a>必备项 
 ------------------
 
-对于本教程，您需要访问含 Contoso 演示数据的 Dynamics 365 for Operations 环境，并需要在该实例上被配置为管理员。 请勿为此实验室使用“专用”浏览器模式 - 如果需要，从浏览器中的任何其他帐户退出并使用 Dynamics 365 for Operations 管理员凭据登录。 在登录到 Dynamics 365 for Operations 时，**必须**选中“我保持登录状态”复选框。 这将创建 Excel 应用程序当前需要的永久 Cookie。 如果您使用 IE 之外的浏览器登录到 Dynamics 365 for Operations，那么系统将提示您在 Excel 应用程序内登录。 在您单击 Excel 应用程序中的“登录”时，IE 弹出窗口将打开，在您登录时您**必须**选中“我保持登录状态”复选框。 如果单击 Excel 应用程序中的“登录”似乎未发生什么，那么您应该清除 IE Cookie 缓存。
+对于本教程，您需要访问含 Contoso 演示数据的 Finance and Operations 环境，并需要在该实例上被配置为管理员。 请勿为此实验室使用“专用”浏览器模式 - 如果需要，从浏览器中的任何其他帐户退出并使用 Finance and Operations 管理员凭据登录。 在登录到 Finance and Operations 时，**必须**选中“我保持登录状态”复选框。 这将创建 Excel 应用程序当前需要的永久 Cookie。 如果您使用 IE 之外的浏览器登录到 Finance and Operations，那么系统将提示您在 Excel 应用程序内登录。 在您单击 Excel 应用程序中的“登录”时，IE 弹出窗口将打开，在您登录时您**必须**选中“我保持登录状态”复选框。 如果单击 Excel 应用程序中的“登录”似乎未发生什么，那么您应该清除 IE Cookie 缓存。
 
 ## <a name="scenario-overview"></a>**方案概览**
 Julia 担任德国 Contoso Entertainment Systems (DEMF) 的财务经理。 由于 FY2016 即将来临，她需要为下一个年度设定公司的预算。 预算编制看似如下：
@@ -148,7 +148,7 @@ Julia 使用以下 Excel 模板编制预算：
 
 [![Autofill](./media/screenshot22.png)](./media/screenshot22.png) 
 
-4.7。 返回 Dynamics 365 for Operations 并刷新页面。 将在 Dynamics 365 for Operations 中显示发布的值。 
+4.7。 返回 Finance and Operations 并刷新页面。 Finance and Operations 中将显示发布的值。 
 
 [![刷新](./media/screenshot23.png)](./media/screenshot23.png)
 
@@ -233,7 +233,7 @@ Julia 需要创建和激活合并上述所有设置的新预算计划流程以�
 
 [![发布](./media/screenshot36.png)](./media/screenshot36.png)
 
-9.3. 返回到 Dynamics 365 for Operations 中的预算计划文档。 单击“工作流”&gt;“提交”自动审核文档
+9.3. 返回到 Finance and Operations 中的预算计划文档。 单击“工作流”&gt;“提交”自动审核文档
 
 [![自动审核](./media/screenshot37.png)](./media/screenshot37.png) 
 

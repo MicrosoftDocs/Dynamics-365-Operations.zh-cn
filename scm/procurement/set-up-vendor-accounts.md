@@ -3,7 +3,7 @@ title: "设置供应商帐户"
 description: "此主题介绍在您创建新的供应商帐户时必须指定的信息的类型。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bee95a2f3d9727e9123aa0abcf41325e6cac1efd
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -62,13 +62,13 @@ ms.lasthandoff: 05/25/2017
 
 若要添加供应商的联系人，在**所有供应商**页面，在**供应商**选项卡上，在**设置**组中，单击**联系人** &gt; **添加联系人**。  
 
-您可以从头创建供应商联系人。 或者，您可以从已在 Microsoft Dynamics 365 for Operations 注册的其他人员那里复制详细信息，并根据需要进行编辑。  
+您可以从头创建供应商联系人。 或者，您可以从已在 Microsoft Dynamics 365 for Finance and Operations 注册的其他人员那里复制详细信息，并根据需要进行编辑。  
 
 **注意：**添加供应商的联系人不同于为该供应商添加联系信息。 尽管您可能为供应商添加一般联系信息，您可能还有是该公司联系人的若干特定人员，并且他们都有自己的联系信息。  
 
 如果联系人在文档中引用，您无法删除联系人记录。 相反，可以直接停用该联系人。  
 
-您可以在 Microsoft Office 365 中将供应商联系人添加到您的个人联系人。 但是，您必须首先在 Microsoft Exchange Server 同步和 Microsoft Outlook 设置向导中在 Dynamics 365 for Operations 和 Office 365 之间设置同步。
+您可以在 Microsoft Office 365 中将供应商联系人添加到您的个人联系人。 但是，您必须首先在 Microsoft Exchange Server 同步和 Microsoft Outlook 设置向导中在 Finance and Operations 和 Office 365 之间设置同步。
 
 ## <a name="vendors-in-different-legal-entities"></a>不同法人的供应商
 如果供应商在您的组织中只为一个法人注册，其他法人必须注册相同供应商，您可以使用**将供应商添加到其他法人**页面来配置供应商与其他法人开展业务。 您必须在所选法人中选择供应商组、货币和供应商的保留状态。  

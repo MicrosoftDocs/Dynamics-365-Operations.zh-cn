@@ -3,25 +3,27 @@ title: "为 Retail Modern POS 设置和管理图像"
 description: "本文说明设置和管理显示在 Retail Modern POS (MPOS) 中的各个实体的图像所涉及的步骤。"
 author: MargoC
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 52851
 ms.assetid: 5c21385e-64e0-4091-98fa-6a662eb33010
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 06915686e1421742c2f1dd1ebbb02491f04431fd
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 3985d731709eff4085927b277996528e4e448ba9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -36,19 +38,19 @@ ms.lasthandoff: 05/25/2017
 <a name="setting-up-the-media-base-url-and-defining-media-templates-to-configure-the-format-for-image-urls"></a>设置媒体基 URL 和定义媒体模板，以配置图像 URL 的格式
 -------------------------------------------------------------------------------------------------
 
-Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dynamics 365 for Operations - Retail 之外）。 通常，可在内容管理系统、内容交付网络 (CDN) 或媒体服务器承载。 然后，MPOS 通过访问目标 URL 来获取并显示相应实体（例如产品和类别）的图像。 若要获取这些外部承载的图像，MPOS 需要这些图像的正确 URL 格式。 您可以通过在通道配置文件中设置**“媒体基 URL”**的值并使用每个实体的**“定义媒体模板”**功能来为图像配置所需的 URL 格式。 您也可以通过使用**“在 Excel 中编辑”**功能来覆盖实体的子集的标准 URL 格式。 **重要注释：**在 Dynamics 365 for Operations - Retail 的当前版本中，您不能再通过使用实体的**默认**属性组中 MPOS 的**图像**属性 XML 来设置 URL 格式。 如果您熟悉 Microsoft Dynamics AX 2012 R3 且正在使用 Dynamics 365 for Operations - Retail 的当前版本，请确保始终使用新的**定义媒体模板**功能设置图像。 请勿使用或修改任何实体（包括产品）的**“默认”**属性组中的**“图像”**属性。 您在图像的**“默认”**属性组中直接作出的更改不会得到反映。 此选项将在未来版本中被禁用。 在以下过程中，将作为示例设置目录实体的图像。 这些过程将帮助确保为使用通用路径的所有目录图像隐式设置正确的图像目标路径。 例如，如果您在外部设置了媒体服务器或 CDN，且希望图像在给定商店的 MPOS 中显示，**“定义媒体模板”**功能可帮助您设置 MPOS 可在其中查找和检索图像的路径。 **注意：**对于此演示数据示例，媒体服务器是在零售服务器上部署的。 但是，您可以在 Dynamics 365 for Operations - Retail 意外的任何地方部署。
+Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dynamics 365 for Retail 之外）。 通常，可在内容管理系统、内容交付网络 (CDN) 或媒体服务器承载。 然后，MPOS 通过访问目标 URL 来获取并显示相应实体（例如产品和类别）的图像。 若要获取这些外部承载的图像，MPOS 需要这些图像的正确 URL 格式。 您可以通过在通道配置文件中设置**“媒体基 URL”**的值并使用每个实体的**“定义媒体模板”**功能来为图像配置所需的 URL 格式。 您也可以通过使用**“在 Excel 中编辑”**功能来覆盖实体的子集的标准 URL 格式。 **重要注释：**在 Dynamics 365 for Retail 的当前版本中，您不能再通过使用实体的**默认**属性组中 MPOS 的**图像**属性 XML 来设置 URL 格式。 如果您熟悉 Microsoft Dynamics AX 2012 R3 且正在使用 Dynamics 365 for Retail 的当前版本，请确保始终使用新的**定义媒体模板**功能设置图像。 请勿使用或修改任何实体（包括产品）的**“默认”**属性组中的**“图像”**属性。 您在图像的**“默认”**属性组中直接作出的更改不会得到反映。 此选项将在未来版本中被禁用。 在以下过程中，将作为示例设置目录实体的图像。 这些过程将帮助确保为使用通用路径的所有目录图像隐式设置正确的图像目标路径。 例如，如果您在外部设置了媒体服务器或 CDN，且希望图像在给定商店的 MPOS 中显示，**“定义媒体模板”**功能可帮助您设置 MPOS 可在其中查找和检索图像的路径。 **注意：**对于此演示数据示例，媒体服务器是在零售服务器上部署的。 但是，您可以在 Dynamics 365 for Retail 以外的任何地方部署。
 
 ### <a name="set-up-the-media-base-url-for-a-channel"></a>为通道设置媒体基 URL
 
-1.  打开 Dynamics 365 for Operations HQ 门户。
-2.  单击**零售和商业** &gt; **渠道设置** &gt; **渠道配置文件**。 [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
+1.  打开 Dynamics 365 for Retail HQ 门户。
+2.  单击**零售** &gt; **渠道设置** &gt; **渠道配置文件**。 [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
 3.  在您的商店用于 MPOS 的通道配置文件中，将**“媒体基 URL”**字段更新为您的媒体服务器或 CDN 的基 URL。 该基 URL 是不同实体的所有图像文件夹共享的 URL 的第一部分。[![channel-profile2](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>为实体定义媒体模板
 
-1.  单击**零售和商业** &gt; **目录管理** &gt; **目录图像**。
+1.  单击**零售** &gt; **目录管理** &gt; **目录图像**。
 2.  在**“目录图像”**页面上的“操作”窗格中，单击**“定义媒体模板”**。 在**“定义媒体模板”**对话框的**“实体”**字段中，默认情况下应选择**“目录”**。
-3.  在**“媒体路径”**快速选项卡上，输入图像位置的剩余路径。 媒体路径支持**“LanguageID”**作为变量。 例如，对于演示数据，您可以在您的媒体服务器的媒体基 URL (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer) 下为所有目录图像创建一个**“目录”**文件夹。 然后可以为每种语言创建一个文件夹（例如 en-US 或 fr-FR），然后将相应图像复制到每个文件夹下。 如果您没有各种语言的不同图像，您可以忽略您的文件夹结构中的**“LanguageID”**变量，并直接指向包含目录图像的“目录”文件夹。 **注意：**Dynamics AX 当前版本支持目录、产品和类别实体的**“{LanguageId}”**令牌。 （根据自 Microsoft Dynamics AX 6.x. 以来已生效的现有标准，客户和工作人员实体**“{LanguageID}”**令牌）
+3.  在**“媒体路径”**快速选项卡上，输入图像位置的剩余路径。 媒体路径支持**“LanguageID”**作为变量。 例如，对于演示数据，您可以在您的媒体服务器的媒体基 URL (https://testax3ret.cloud.test.dynamics.com/RetailServer/MediaServer) 下为所有目录图像创建一个**“目录”**文件夹。 然后可以为每种语言创建一个文件夹（例如 en-US 或 fr-FR），然后将相应图像复制到每个文件夹下。 如果您没有各种语言的不同图像，您可以忽略您的文件夹结构中的**“LanguageID”**变量，并直接指向包含目录图像的“目录”文件夹。 **注意：**Dynamics 365 for Retail 当前版本支持目录、产品和类别实体的**“{LanguageId}”**令牌。 （根据自 Microsoft Dynamics AX 6.x. 以来已生效的现有标准，客户和工作人员实体**“{LanguageID}”**令牌）
 4.  对于图像，文件名格式是硬编码为目录名称的，不能更改。 因此，请重命名您的图像，使其具有适当的目录名称，以帮助确保 MPOS 正确处理它们。
 5.  在**“文件扩展名”**字段中，根据您拥有的图像的类型选择预期的文件扩展名。 例如，对于演示数据，目录图像扩展名将设置为 .jpg。 （图像文件也已重命名，使其具有类别名称。）
 6.  单击**确定**。
@@ -78,10 +80,10 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dyn
 
 ### <a name="overwrite-by-using-edit-in-excel"></a>使用“在 Excel 中编辑”覆盖
 
-1.  单击**零售和商业** &gt; **目录管理** &gt; **目录图像**。
+1.  单击**零售** &gt; **目录管理** &gt; **目录图像**。
 2.  在**“目录图像”**页面上，单击**“定义媒体模板”**。 在**“定义媒体模板”**对话框的**“实体”**字段中，应选择**“目录”**。
 3.  在**“媒体路径”**快速选项卡上，注意图像位置。
-4.  在**“生成适用于 Excel 的图像 URL”**快速选项卡上，单击**“生成”**。 **重要信息：**无论何时更改媒体模板，您都必须单击**“生成”**才能使用“在 Excel 中编辑”功能。 [![excel1](./media/excel1.jpg)](./media/excel1.jpg) 现在您可以看到基于上一次保存的媒体模板生成的图像 URL 的预览。 [![excel2](./media/excel2.png)](./media/excel2.png) **注意**：为 Excel 生成的 URL 使用已定义的媒体模板的路径和惯例。 这些惯例包括适用于文件名的惯例。 预期是您在 Dynamics AX 以外设置了物理图像，且这些图像可以从派生自您之前定义的媒体模板的 URL 中检索。 您可以使用“在 Excel 中编辑”功能来覆盖这些派生的 URL。
+4.  在**“生成适用于 Excel 的图像 URL”**快速选项卡上，单击**“生成”**。 **重要信息：**无论何时更改媒体模板，您都必须单击**“生成”**才能使用“在 Excel 中编辑”功能。 [![excel1](./media/excel1.jpg)](./media/excel1.jpg) 现在您可以看到基于上一次保存的媒体模板生成的图像 URL 的预览。 [![excel2](./media/excel2.png)](./media/excel2.png) **注意**：为 Excel 生成的 URL 使用已定义的媒体模板的路径和惯例。 这些惯例包括适用于文件名的惯例。 预期是您在 Dynamics 365 for Retail 以外设置了物理图像，且这些图像可以从派生自您之前定义的媒体模板的 URL 中检索。 您可以使用“在 Excel 中编辑”功能来覆盖这些派生的 URL。
 5.  单击**“在 Excel 中编辑”**。
 6.  打开 Microsoft Excel 工作表后，在系统提示时单击**“启用编辑”**。
 7.  当系统提示时，单击右侧窗格中的**“信任此加载项”**，并等待加载项完成安装。 [![信任此加载项](./media/excel4.jpg)](./media/excel4.jpg)

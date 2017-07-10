@@ -1,6 +1,6 @@
 ---
-title: "设置集中付款"
-description: 
+title: "设置集中的付款"
+description: "按照以下步骤可以代表您的组织中的其他法人准备一个法人的处理付款。"
 author: twheeloc
 manager: AnnBe
 ms.date: 05/09/2017
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
 ms.search.region: Global
@@ -18,19 +18,17 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 60cc59911cf2d10d73206885eb97b346ec3e3e87
+ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
+ms.openlocfilehash: 0b33e37699fb9b81ad1803f670a4dedbce6a9c29
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/05/2017
 
 
 ---
 
-# <a name="set-up-centralized-payments"></a>设置集中付款
+# <a name="set-up-centralized-payments"></a>设置集中的付款
 
 [!include[banner](../includes/banner.md)]
-
-
 
 
 按照以下步骤可以代表您的组织中的其他法人准备一个法人的处理付款。 在您开始前，必须完成以下设置：

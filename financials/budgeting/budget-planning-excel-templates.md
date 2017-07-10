@@ -3,7 +3,7 @@ title: "预算计划的 Excel 模板"
 description: "此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 93aa0aeffad0411542f36e27745f63198c4438b2
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -50,7 +50,7 @@ ms.lasthandoff: 05/25/2017
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> 若要避免使用 Excel 查看和编辑预算计划数据时可能出现问题，应使用相同用户登录 Dynamics 365 for Operations 和 Microsoft Dynamics Office 加载项数据连接器。
+> 若要避免使用 Excel 查看和编辑预算计划数据时可能出现问题，应使用相同用户登录 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 和 Microsoft Dynamics Office 加载项数据连接器。
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>为预算计划文档模板添加标题
 若要添加标题信息，请选择 Excel 文件中的首行，然后插入空行。 单击**数据连接器**中的**设计**向 Excel 文件添加标题字段。
@@ -79,11 +79,11 @@ ms.lasthandoff: 05/25/2017
 [![bpt12](./media/bpt12-1024x565.png)](./media/bpt12.png)
 
 > [!NOTE] 
-> 若要定义公式，请在电子表格中创建公式，然后将其复制到**设计**窗口中。 Dynamics 365 for Operations 绑定表通常命名为“AXTable1”。 例如，若要计算电子表格中的 Request Q1 到 Request Q4 列之和，则公式 = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]。
+> 若要定义公式，请在电子表格中创建公式，然后将其复制到**设计**窗口中。 Finance and Operations 绑定表通常命名为“AXTable1”。 例如，若要计算电子表格中的 Request Q1 到 Request Q4 列之和，则公式 = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]。
 
 重复此步骤以插入**调整**列。 为此列使用公式 = AxTable1\[Total request\]\*$I$1。 这将提取单元格 I1 中的值并乘以**请求总数**列中的值，以计算调整金额。
 
-保存然后关闭该 Excel 文件。 返回 Dynamics 365 for Operations，然后在**布局**中，单击**模板 &gt; 上传**，上传要用于预算计划的所保存 Excel 模板。 
+保存然后关闭该 Excel 文件。 返回 Finance and Operations，然后在**布局**中，单击**模板 &gt; 上传**，上传要已保存的用于预算计划的 Excel 模板。 
 
 [![bpt10](./media/bpt10-1024x352.png)](./media/bpt10.png) 
 

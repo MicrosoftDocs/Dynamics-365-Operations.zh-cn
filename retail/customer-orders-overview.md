@@ -3,25 +3,27 @@ title: "客户订单概览"
 description: "此主题提供有关 Retail Modern POS (MPOS) 中的客户订单的信息。 客户订单也称为特殊订单。 此主题中包含对相关参数和交易记录流的讨论。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 260594
 ms.assetid: 6fc835ef-d62e-4f23-9d49-50299be642ca
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e96579437ab59e99268263a51fc589eaacb98cc1
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 89e79c7227e05eec539d9bb142b8f41de092f01b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -46,8 +48,8 @@ ms.lasthandoff: 05/25/2017
 
 -   **默认保证金百分比** – 指定确认订单前客户必须以存款的形式支付的金额。 默认保证金金额为订单值的百分比。 售货员可能可以根据其权限通过使用**保证金覆盖**来覆盖该金额。
 -   **取消费百分比** – 如果取消客户订单时需要收取费用，请指定这笔费用的金额。
--   **取消费代码** – 如果取消客户订单时需要收取费用，将在 Microsoft Dynamics AX 中销售订单内的收费代码下体现这笔费用。 可使用此参数定义取消费代码。
--   **装运费用代码** – 零售商可为将商品装运到客户再收取一笔费用。 将在 Dynamics AX 中销售订单内的收费代码下体现这笔装运费用的金额。 可使用此参数将装运费用代码映射到客户订单中的装运费用。
+-   **取消费代码** – 如果取消客户订单时需要收取费用，将在销售订单内的收费代码下体现这笔费用。 可使用此参数定义取消费代码。
+-   **装运费用代码** – 零售商可为将商品装运到客户再收取一笔费用。 销售订单内的收费代码下将体现这笔装运费用的金额。 可使用此参数将装运费用代码映射到客户订单中的装运费用。
 -   **退回装运费用** – 指定是否可退回客户订单关联的装运费用。
 -   **未经审核的最大金额** – 如果装运费用可退回，指定退货单中的最大装运费用退款金额。 如果超过了此金额，需要经历覆盖才能继续退款。 为了满足以下方案，装运费用的退款可能超过最初支付的金额。
     -   费用在销售订单抬头级别实施，并且如果退回了某个产品行的一定数量，则不能按照适合所有零售客户的方式确定为这些产品和数量允许的最大装运费用退款。
@@ -90,10 +92,10 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="enable-customer-orders-to-be-created-in-asynchronous-mode"></a>将客户订单设置为可在异步模式下创建
 
-1.  在 Dynamics AX 中，单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **功能配置文件**。
+1.  单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **功能配置文件**。
 2.  在**常规**快速选项卡上，将**在异步模式下创建客户订单**选项设置为**是**。
 
-当**在异步模式下创建客户订单**选项设置为**是**，将始终在异步模式下创建客户订单，即使 Retail Transaction Service (RTS) 可用。 如果将此选项设置为**否**，将始终通过使用 RTS 在同步模式下创建客户订单。 在异步模式下创建客户订单时，将通过“提取(P)”作业提取客户订单并插入到 Dynamics AX 中。 手动或通过批处理流程运行**同步订单**时，将在 Dynamics AX 中创建相应销售订单。
+当**在异步模式下创建客户订单**选项设置为**是**，将始终在异步模式下创建客户订单，即使 Retail Transaction Service (RTS) 可用。 如果将此选项设置为**否**，将始终通过使用 RTS 在同步模式下创建客户订单。 在异步模式下创建客户订单时，将通过提取 (P) 作业提取客户订单并插入到 Retail 中。 手动或通过批处理流程运行**同步订单**时，将在 Retail 中创建相应销售订单。
 
 <a name="see-also"></a>请参阅
 --------

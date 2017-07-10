@@ -1,6 +1,6 @@
 ---
 title: "导航搜索"
-description: "本主题说明如何使用搜索功能导航到 Microsoft Dynamics 365 for Operations 中的页面。"
+description: "本主题说明如何使用搜索功能导航到 Microsoft Dynamics 365 for Finance and Operations 中的页面。"
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: df804f79d6639c118e3e0534a21423f207ceb2c7
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 431165d541c9a3b63100a93108ee770df8e88aa8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本主题说明如何使用搜索功能导航到 Microsoft Dynamics 365 for Operations 中的页面。
+本主题说明如何使用搜索功能导航到 Microsoft Dynamics 365 for Finance and Operations 中的页面。
 
-Dynamics 365 for Operations 提供了面向一系列广泛的行业和类别的功能。 此应用程序包括大量区域和页面，可帮助您执行各种任务。 要快速查找完成任务所需的页面，请使用导航搜索功能。 
+Finance and Operations 提供了面向一系列广泛的行业和类别的功能。 此应用程序包括大量区域和页面，可帮助您执行各种任务。 要快速查找完成任务所需的页面，请使用导航搜索功能。 
 
 要使用此功能，请单击**“搜索”**图标以显示**“搜索”**框。 然后，您可以在该框中键入一个或多个词。 系统将立即在该应用程序中搜索与您输入的词匹配的相关页面。 例如，您可键入“供应商发票”作为输入，然后系统将显示匹配该输入的结果。 
 

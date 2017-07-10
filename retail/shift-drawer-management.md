@@ -3,25 +3,27 @@ title: "班次和银箱管理"
 description: "本文介绍了如何设置和使用两种类型的零售销售点 (POS) 班次 - 共享和独立。 共享班次可由多个用户在多个位置使用，而独立班次一次只能由一个工作人员使用。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 105011
 ms.assetid: 49a0fcc9-d4db-45ad-8c4b-213ccaced82b
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e49d7d931b0796e4d62065793e7e79745c816682
+ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
+ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
+
 
 
 ---
@@ -42,15 +44,15 @@ ms.lasthandoff: 05/25/2017
 
 在银箱级别指定独立班次。 此过程说明如何在 POS 收银机上设置独立班次。
 
-1.  单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。
+1.  单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。
 2.  选择要用于独立班次的硬件配置文件。
 3.  在**开票人**快速选项卡上，确认**共享班次开票人**选项设置为**无**。
 4.  单击**保存**。
-5.  单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
+5.  单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
 6.  选择需要独立班次的收银机，然后单击**编辑**。
 7.  在**硬件配置文件**字段中，选择您在步骤 2 中选定的硬件配置文件。
 8.  单击**保存**。
-9.  单击**零售和商业** &gt; **零售 IT** &gt; **配送计划**。
+9.  单击**零售** &gt; **零售 IT** &gt; **配送计划**。
 10. 选择 **1090** 配送计划，然后单击**立即运行**以将更改同步到 POS。
 
 ### <a name="use-a-stand-alone-shift"></a>使用独立班次
@@ -70,15 +72,15 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="set-up-a-shared-shift"></a>设置共享班次
 
-1.  单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。
+1.  单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS 配置文件** &gt; **硬件配置文件**。
 2.  选择要用于共享班次的硬件配置文件。
 3.  在**开票人**快速选项卡上，将**共享班次开票人**选项设置为**是**。
 4.  单击**保存**。
-5.  单击**零售和商业** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
+5.  单击**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**。
 6.  选择需要共享班次的收银机，然后单击**编辑**。
 7.  在**硬件配置文件**字段中，选择您在步骤 2 中选定的硬件配置文件。
 8.  单击**保存**。
-9.  单击**零售和商业** &gt; **零售 IT** &gt; **配送计划**。
+9.  单击**零售** &gt; **零售 IT** &gt; **配送计划**。
 10. 选择 **1090** 配送计划，然后单击**立即运行**以将更改同步到 POS。
 
 ### <a name="use-a-shared-shift"></a>使用共享班次

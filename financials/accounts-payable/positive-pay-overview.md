@@ -3,13 +3,13 @@ title: "付款确认概览"
 description: "本文提供有关付款确认的信息，其用于生成一份可以呈现给银行的支票电子列表。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 88463
 ms.assetid: 1e3a39d3-f9b3-4073-9730-c96a607243e2
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c5a9f3f2a5c456b4ec515b912bb7470b549684a5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7c60a7f9444913c5475d08f959944d463cfcbab0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -42,7 +42,7 @@ ms.lasthandoff: 05/25/2017
 
 对于您想要生成付款确认信息的每个银行帐户，您必须分配付款确认格式。 在生成付款后，您可以生成用于一个法人和一个银行帐户的付款确认文件。 或者，您可以同时为多个法人和银行帐户生成付款确认文件 
 
-当付款确认文件中列出的支票支付后，您将从银行收到一个确认编号。 然后，您可以在 Microsoft Dynamics 365 for Operations 中确认付款确认文件。 
+当付款确认文件中列出的支票支付后，您将从银行收到一个确认编号。 然后，您可以在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中确认付款确认文件。 
 
 如果您必须更改付款确认文件，您可以撤消它。 然后，对于付款确认文件中的每一张支票，将重置指示该支票是否包括在一个付款确认文件中的字段。
 

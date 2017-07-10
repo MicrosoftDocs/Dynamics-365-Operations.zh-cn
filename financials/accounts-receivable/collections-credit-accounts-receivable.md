@@ -1,9 +1,9 @@
 ---
 title: "在应收帐款中的信用和收款"
-description: "使用 Microsoft Dynamics 365 for Operations 集合页，在一个中心视图中管理应收帐款收款信息。 贷方和收款经理可以使用此主要观点以管理集合。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。"
+description: "使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 集合页，在一个中心视图中管理应收帐款收款信息。 贷方和收款经理可以使用此主要观点以管理集合。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74f671a35fa1dbeeb120fe968b1bcc09868f57d5
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-使用 Microsoft Dynamics 365 for Operations 集合页，在一个中心视图中管理应收帐款收款信息。 贷方和收款经理可以使用此主要观点以管理集合。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。
+使用 Finance and Operations 收款页，在一个中心视图中管理应收帐款收款信息。 贷方和收款经理可以使用此主要观点以管理集合。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。
 
 在开始设置或使用收集前，应了解以下概念:
 -   客户帐龄快照包含某一时间点的帐龄余额信息
@@ -59,9 +59,9 @@ ms.lasthandoff: 05/25/2017
 客户池是定义为一组客户记录可用于收集或帐龄流程显示和管理的查询。 使用客户池筛选“帐龄余额”、“收款活动”和“收款案例列表”页的信息。 您还可以使用客户池筛选在帐龄快照时包括的客户帐户。
 
 ## <a name="collections-agents"></a>收款代理
-默认情况下，Microsoft Dynamics 365 for Operations 用户可以查看有关收集列表页的所有客户信息。 您可以使用收费代理记录确定可用于筛选“收款列表”页和“收款”页中的信息的客户池。 
+默认情况下，Microsoft Dynamics 365 for Finance and Operations 用户可以查看有关收集列表页的所有客户信息。 您可以使用收费代理记录确定可用于筛选“收款列表”页和“收款”页中的信息的客户池。 
 
-收款代理是处理客户工作以确保按时收到付款的人员。 在 Microsoft Dynamics 365 for Operations 中，收款代理是在“用户设置”页为用户分配的工作人员。
+收款代理是处理客户工作以确保按时收到付款的人员。 在 Finance and Operations 中，收款代理是在“用户设置”页为用户分配的工作人员。
 
 ## <a name="collections-list-pages"></a>“收款列表”页
 以下列表页帮助您组织催款信息。
@@ -71,7 +71,7 @@ ms.lasthandoff: 05/25/2017
 
 > [!NOTE]
 > 可以查看有关这些表页的信息之前，必须创建一个帐龄快照。 信息只为已为其创建帐龄快照的客户显示。在列表页显示的记录可以进一步筛选，如下所示：
-<li>默认情况下，Microsoft Dynamics 365 for Operations 用户访问具有一个帐龄快照的所有客户。</li>
+<li>默认情况下，Finance and Operations 用户访问具有一个帐龄快照的所有客户。</li>
 <li>如果客户池存在，用户必须设置为收款账户使用池筛选收集列表页上的信息。 信息将限制为在所选客户池中所包含的客户。</li>
 <li>如果用户设置为收款代理，则只为在列表上可用的收款代理选择池。 如果在收款代理的“收款代理”页中选择了“允许代理查看所有客户池”开关，所有池对该代理可用。</li>
 

@@ -3,13 +3,13 @@ title: "销售和市场营销"
 description: "您可以使用销售和市场来获得、存储并使用销售流中的各种数据。 此数据包括最初的销售活动、未来的跟进行动和追加销售。"
 author: kfend
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 25ea6e64453b22d664dd65a1f1bb18e3a1997bc5
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -43,7 +43,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="campaigns"></a>市场活动
 
-市场活动面向潜在客户的联系人、潜在顾客、商机和已经被选为参与市场活动的客户。 在 Microsoft Dynamics 365 for Operations 中，您可以创建几种类型的市场活动，如电话销售、邮寄和电子邮件营销活动，以最大化您的客户潜力。 随着市场活动的进行以及您收到积极的响应，可以与那些积极响应市场活动的收件人开始销售流程。
+市场活动面向潜在客户的联系人、潜在顾客、商机和已经被选为参与市场活动的客户。 在 Microsoft Dynamics 365 for Finance and Operations 中，您可以创建几种类型的市场活动，如电话销售、邮寄和电子邮件营销活动，以最大化您的客户潜力。 随着市场活动的进行以及您收到积极的响应，可以与那些积极响应市场活动的收件人开始销售流程。
 
 ## <a name="sales"></a>销售额
 您使用销售功能创建报价单，对新的和现有的客户进行向上销售和交叉销售，创建销售订单，并为客户创建销售发票。 以下流程流显示销售业务流程。 [![销售业务流程](./media/sales01.jpg)](./media/sales01.jpg)

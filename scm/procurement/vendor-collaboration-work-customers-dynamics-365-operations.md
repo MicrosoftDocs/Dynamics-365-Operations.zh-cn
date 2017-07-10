@@ -1,16 +1,16 @@
 ---
 title: "供应商与客户协作"
-description: "本主题介绍您在 Dynamics 365 for Operations 中如何使用供应商协作处理采购订单和监控托运库存。"
+description: "本主题介绍您在 Finance and Operations 中如何使用供应商协作处理采购订单和监控托运库存。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentProductReceiptLines, ConsignmentVendorPortalOnHand, PurchVendorPortalConfirmedOrders, PurchVendorPortalOriginalOrder, PurchVendorPortalResponsesHistoryList, PurchVendorPortalResponsesPart
 audience: Application User
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221234
 ms.assetid: 6e69fb8b-6d3a-46ef-88cf-6d01212aa7c3
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1649014855d8d5e0f1225a661c9b6bae6490f597
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 41436dab710a5fee0fe0800dff1ebefefa841afc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -31,9 +31,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本主题介绍您在 Dynamics 365 for Operations 中如何使用供应商协作处理采购订单和监控托运库存。
+本主题介绍您在 Finance and Operations 中如何使用供应商协作处理采购订单和监控托运库存。
 
-本主题介绍您在 Microsoft Dynamics 365 for Operations 中如何使用供应商协作处理客户。 包括关于如何监控和响应采购订单，以及如何监控托运库存的信息。 还可以使用供应商协作处理发票。 有关详细信息，请参阅[供应商协作开票工作区](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)。
+本主题介绍您在 Microsoft Finance and Operations 中如何使用供应商协作处理客户。 包括关于如何监控和响应采购订单，以及如何监控托运库存的信息。 还可以使用供应商协作处理发票。 有关详细信息，请参阅[供应商协作开票工作区](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace)。
 
 ## <a name="working-with-purchase-orders"></a>处理采购订单
 “**采购订单确认**”工作区允许您响应发送给您审核的采购订单。 您还可以查看正在等待客户操作的采购订单的信息，以及已确认但仍然未结的采购订单的信息。 “**采购订单确认**”工作区有三个列表：

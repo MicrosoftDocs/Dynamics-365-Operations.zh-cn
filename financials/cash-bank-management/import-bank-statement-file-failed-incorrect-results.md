@@ -1,15 +1,15 @@
 ---
 title: "银行对帐单文件导入故障排除"
-description: "银行的银行对帐单文件与 Microsoft Dynamics 365 for Operations 支持的布局匹配非常重要。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
+description: "银行的银行对帐单文件与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的布局匹配非常重要。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: e2029a03cf6b46ee206417076c64a269080119ed
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-银行的银行对帐单文件与 Microsoft Dynamics 365 for Operations 支持的布局匹配非常重要。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
+银行的银行对帐单文件与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的布局匹配非常重要。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
 
 <a name="what-is-the-error"></a>错误是什么？
 ------------------
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 在尝试导入银行对帐单文件后，请转到数据管理作业历史记录及其执行详细信息查找错误。 错误可以通过指定报表、余额或报表行提供帮助。 但是，不大可能提供足够的信息来帮助您确定导致问题的字段或元素。
 
 ## <a name="what-are-the-differences"></a>有哪些差异？
-比较银行文件布局定义与 Microsoft Dynamics 365 for Operations 导入定义，注意字段和元素中的任何差异。 比较银行对帐单文件与相关示例 Dynamics 365 for Operations 文件。 在 ISO20022 文件中，应易于查看任何差异。
+比较银行文件布局定义与 Finance and Operations 导入定义，注意字段和元素中的任何差异。 比较银行对帐单文件与相关示例 Finance and Operations 文件。 在 ISO20022 文件中，应易于查看任何差异。
 
 ## <a name="transformations"></a>转换
 通常，必须在三个转换之一中进行更改。 每个转换为特定标准写入。
@@ -80,7 +80,7 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 
 ### <a name="adjust-the-transformation"></a>调整转换
 
-调整转换以获取银行对帐单文件中的相应字段或元素。 然后将该字段或元素映射到相应的 Dynamics 365 for Operations 元素。
+调整转换以获取银行对帐单文件中的相应字段或元素。 然后将该字段或元素映射到相应的 Finance and Operations 元素。
 
 ### <a name="debitcredit-indicator"></a>借方/贷方指示符
 

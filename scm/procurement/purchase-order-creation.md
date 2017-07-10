@@ -3,14 +3,14 @@ title: "创建采购订单"
 description: "本文介绍手动创建采购订单的流程和选项。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 93053
 ms.assetid: 25b1c9f1-20f8-4cf5-b87c-876e32f68846
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c6c6b40d8934d1059c54678df8d4fc6530db1b24
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: fbf5337ac41ceae6e911c056db5226c8ed1cefb0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -29,6 +29,8 @@ ms.lasthandoff: 05/25/2017
 # <a name="create-purchase-orders"></a>创建采购订单
 
 [!include[banner](../includes/banner.md)]
+
+[!include[retail name](../includes/retail-name.md)]
 
 
 本文介绍手动创建采购订单的流程和选项。
@@ -70,7 +72,7 @@ ms.lasthandoff: 05/25/2017
 如果为供应商或供应商费用组已设置自动费用，可以为物料或物料费用组向采购订单行自动添加费用。 不过，更常见的情况是，费用在订单行级别手动添加。 若要添加费用，通过使用**行**视图中**财务**菜单中的**维护费用**操作打开**维护费用**页面。 直接在订单行级别添加费用的优点是，可以作为库存成本分配费用。 若要设置客户产品成本的费用代码，使用**物料**借记选项。 这些费用类型必须在确认订单之前从采购订单头分配到行。 例如，您可能希望基于每个行上的数量分配费用。 费用类别还会影响如何核算费用。 例如，固定费用指定一个固定钦定，而百分比费用计算为订单行的净额的一个百分比。 采购订单可以分配给负荷，负荷可能包括运输成本的预期费用的估计。 您可以将此费用从负荷分配回采购订单行。
 
 ## <a name="purchase-order-actions"></a>采购订单操作
-将标头和行添加到采购订单后，您通常必须在订单准备好确认前完成其他步骤。 因为有如此多的选项，您可能会发现使用[操作搜索](/dynamics365/operations/get-started/action-search)来查找相关的菜单项非常有用。  
+将标头和行添加到采购订单后，您通常必须在订单准备好确认前完成其他步骤。 因为有如此多的选项，您可能会发现使用[操作搜索](/dynamics365/unified-operations/fin-and-ops/get-started/action-search)来查找相关的菜单项非常有用。  
 
 您可以配置订单中的产品，以使它们具有附属物料。 附属物料是必须或可以与其他产品一起购买的产品。 附属产品可以作为附带产品免费添加，您也可以决定是否将其添加到订单。 您可以在添加每个订单行后审查附属物料。 但是，您可能会发现使用**附属物料**页面审查和添加所有订单行的附属物料更加方便，您可以从“操作”窗格打开此页面。  
 
@@ -94,7 +96,7 @@ ms.lasthandoff: 05/25/2017
 
 [采购订单的产品收据](product-receipt-against-purchase-orders.md)
 
-[供应商发票概览](/dynamics365/operations/financials/accounts-payable/vendor-invoices-overview)
+[供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
 
 
 

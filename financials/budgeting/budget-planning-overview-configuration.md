@@ -3,14 +3,14 @@ title: "预算计划概览"
 description: "本文介绍预算计划并包含帮助您配置预算计划和设置预算计划流程的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17251
 ms.assetid: a2e06633-a800-4840-a962-88fed8462104
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5212c8401f26f30cf593c52eb88291463b9b8810
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/25/2017
 
 在您编制组织将实施的预算时执行预算计划。 组织可以配置预算计划，然后设置预算计划流程以满足其组织的策略、过程和预算准备的需求。 
 
-在您了解在 Microsoft Dynamics 365 for Operations 中使用的概念和术语后，则您将会更轻松地在组织中实现预算计划。
+在您了解在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中使用的概念和术语后，您将会更轻松地在组织中实现预算计划。
 
 ### <a name="key-terms"></a>重要术语
 
@@ -59,7 +59,7 @@ ms.lasthandoff: 05/25/2017
 -   自动发送预算计划以及工作表、调整文档和其他附件，以供审查和审核。
 -   将来自组织较低级别的多个预算计划合并到组织较高级别的单个父预算计划。 您还可以将单个预算计划开发到组织的更高级别并将预算分配到组织的更低级别。
 
-预算计划将与其他 Microsoft Dynamics 365 for Operations 模块集成。 因此，您可以从以前的预算、实际支出、固定资产和人力资源信息获取信息。 由于预算计划还将与 Microsoft Excel 和 Microsoft Word 集成在一起，因此，您可以使用这些计划来处理预算计划数据。 例如，预算经理可以从预算计划方案中将部门的预算请求导出到 Excel 工作表。 在工作簿中可以分析、更新和制订该数据，然后发布回预算计划行。
+预算计划将与其他 Microsoft Dynamics 365 for Finance and Operations 模块集成。 因此，您可以从以前的预算、实际支出、固定资产和人力资源信息获取信息。 由于预算计划还将与 Microsoft Excel 和 Microsoft Word 集成在一起，因此，您可以使用这些计划来处理预算计划数据。 例如，预算经理可以从预算计划方案中将部门的预算请求导出到 Excel 工作表。 在工作簿中可以分析、更新和制订该数据，然后发布回预算计划行。
 
 ## <a name="configuring-budget-planning"></a>配置预算计划
 **预算计划配置**页包含您为了设置预算计划所需的大多数设置。 以下各部分介绍您在配置预算计划时应该考虑的一些关键因素。 在您完成配置后，您设置预算计划流程。
@@ -78,7 +78,7 @@ ms.lasthandoff: 05/25/2017
 
 在**组织层次结构**页上，您可以指定组织层次结构作为每个预算计划流程的预算计划层次结构。 预算计划层次结构不必与用于其他目的标准组织层次结构匹配。 由于此层次结构用于整合和分配数据，您可能希望它具有不同的结构。 在示例架构中，销售部门在包括预算和财务部门的总部的下一级。 此结构可能与用于管理销售部门运营的结构不同。 只能将一个组织层次结构分配给每个预算计划流程。 
 
-有关详细信息，请参阅[组织和组织层次结构](/dynamics365/operations/organization-administration/organizations-organizational-hierarchies)。
+有关详细信息，请参阅[组织和组织层次结构](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies)。
 
 ### <a name="user-security"></a>用户安全
 
@@ -88,13 +88,13 @@ ms.lasthandoff: 05/25/2017
 
 预算计划工作流与预算工作流一起用于管理预算计划的创建和发展。
 
-预算计划工作流包括预算计划移动的一组有序阶段。 每个预算计划工作流与预算工作流关联。 预算工作流是在 Microsoft Dynamics 365 for Operations 中使用的某一工作流类型。 预算计划工作流将预算计划与工作表、理由和附件一起自动通过组织路由以供审查和审批。 
+预算计划工作流包括预算计划移动的一组有序阶段。 每个预算计划工作流与预算工作流关联。 预算工作流是在 Finance and Operations 中使用的某一工作流类型。 预算计划工作流将预算计划与工作表、理由和附件一起自动通过组织路由以供审查和审批。 
 
 您在**预算计划配置**页的**工作流阶段**部分创建预算计划工作流。 在此，您可以选择要使用的阶段和预算工作流，并且配置附加设置。 
 
 最好的方法是创建预算层次结构每个级别的预算计划工作流。 您然后可以分配包含对应于预算计划工作流的阶段的元素的预算工作流。 在前文中显示的示例架构中，一个预算计划工作流为销售部创建，另一个为总部创建。 预算工作流通过阶段移动预算计划。 
 
-您在**预算工作流**页上创建预算计划的预算工作流。 流程类似于在 Microsoft Dynamics 365 for Operations 中创建其他工作流的流程。 下图显示了总部工作流的示例。 
+您在**预算工作流**页上创建预算计划的预算工作流。 流程类似于在 Finance and Operations 中创建其他工作流的流程。 下图显示了总部工作流的示例。 
 
 [![预算计划的预算工作流](./media/budgetingworkflowforbudgetplanning-300x300.png)](./media/budgetingworkflowforbudgetplanning.png) 
 

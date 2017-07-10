@@ -1,15 +1,15 @@
 ---
 title: "运输管理概览"
-description: "本主题概述 Microsoft Dynamics 365 for Operations 中的运输管理功能。"
+description: "本主题概述 Microsoft Dynamics 365 for Finance and Operations 中的运输管理功能。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30251
 ms.assetid: d4e3550c-bca8-469c-82df-56ac0083e4ac
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 796bf42f103bd6d14e872138d07e4a911ddcab1a
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 2fbea4f5e86a6bef98be5df3a2b69aac36e371e5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本主题概述 Microsoft Dynamics 365 for Operations 中的运输管理功能。
+本主题概述 Microsoft Dynamics 365 for Finance and Operations 中的运输管理功能。
 
-“运输管理”能让您管理公司的运输，还能让您为进货和出货订单标识供应商和路线解决方法。 例如，您可以标识装运的最快路线或最便宜费率。 下表描述在 Microsoft Dynamics 365 for Operations 中使用运输管理的主要情况。
+“运输管理”能让您管理公司的运输，还能让您为进货和出货订单标识供应商和路线解决方法。 例如，您可以标识装运的最快路线或最便宜费率。 下表描述在 Microsoft Dynamics 365 for Finance and Operations 中使用运输管理的主要情况。
 
 <table>
 <colgroup>
@@ -68,23 +68,23 @@ ms.lasthandoff: 05/25/2017
 </tbody>
 </table>
 
-## <a name="planning-transportation-in-dynamics-365-for-operations"></a>在 Dynamics 365 for Operations 中计划运输
+## <a name="planning-transportation-in-finance-and-operations"></a>在 Finance and Operations 中规划运输
 在运输管理中， 运输计划可以基于订单或基于根据这些订单创建的装运。 装运在某个时间点上始终存在，但对运输计划不是必需的。 转移单是出站方案的一部分，并且可以与销售订单一起计划。 
 
 ![装载图](./media/Load-drawing1-1024x477.jpg)
 
 ## <a name="inbound-transportation"></a>入站运输
-当您从供应商订购物料，且物料必须交付至您的仓库，您可能想要亲自安排物料的运输。 您可以使用 Dynamics 365 for Operations 来计划运输和入站装载的收货。 下图显示了计划入站负荷的运输的业务流程。 
+当您从供应商订购物料，且物料必须交付至您的仓库，您可能想要亲自安排物料的运输。 您可以使用 Finance and Operations 来计划运输和入站装载的收货。 下图显示了计划入站负荷的运输的业务流程。 
 
 ![入站装载运输的业务流程](./media/Businessprocessflowforinboundloadtransportation.jpg)
 
 ## <a name="outbound-transportation"></a>出站运输
-您可以计划和处理一个出站负荷来将指定物料从公司仓库装运至客户。 您可以使用 Dynamics 365 for Operations 来计划出站装载的运输和装运。 下图显示了计划和处理装运的出站负荷的业务流程。 
+您可以计划和处理一个出站负荷来将指定物料从公司仓库装运至客户。 您可以使用 Finance and Operations 来计划运输和出站装载的装运。 下图显示了计划和处理装运的出站负荷的业务流程。 
 
 ![计划和处理出站装载](./media/Planningandprocessingoutboundloads.jpg)
 
 ## <a name="load-building"></a>装载计划
-Dynamics 365 for Operations 提供称作“基于容量的装载计划策略”的装载计划策略。 此策略允许您在装载模板上为高度和重量指定最大值，或您可以通过输入新的值来覆盖设置。 若要使用此策略，请在**装载计划工作台**页中**设置**快速选项卡上的**装载计划策略**字段中选择。 此外，可以在应用程序对象树 (AOT) 中创建新类添加您自己的负荷创建策略。
+Finance and Operations 提供称作“基于容量的装载计划策略”的装载计划策略。 此策略允许您在装载模板上为高度和重量指定最大值，或您可以通过输入新的值来覆盖设置。 若要使用此策略，请在**装载计划工作台**页中**设置**快速选项卡上的**装载计划策略**字段中选择。 此外，可以在应用程序对象树 (AOT) 中创建新类添加您自己的负荷创建策略。
 
 
 

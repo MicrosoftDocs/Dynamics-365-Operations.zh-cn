@@ -3,13 +3,13 @@ title: "Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功
 description: "本主题介绍了 Dynamics 365 for Operations 版本 1611 中的新功能和更改的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 221294
 ms.assetid: 357931ed-f843-4bf5-bc85-0da3de0619ec
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 65cb3247b2b894a0e51f479ba3fae04ed0fe4a56
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 7fd8180bb3ae4ebf5a8dd4446ccd19e65cb6708d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -673,7 +673,7 @@ ms.lasthandoff: 05/25/2017
 
 | 您能做什么                                                                                                                                                                                                                                                                        | 为什么如此重要                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 在销售点 (POS) 上的多个触控点查看个性化产品建议，以便根据客户的购买历史记录、其愿望列表中的商品和其他客户在在线商店和实体商店中购买的商品来客户可能感兴趣的商品。 | 对于销售产品种类繁多的零售商，个性化建议可以帮助客户找到心仪的产品，让销售员智能识别客户的需求。 通过展示针对客户兴趣和购买习惯的产品，产品建议可以帮助零售商开展追加销售和增强客户的凝聚力。 在 Dynamics 365 for Operations - Retail 中，认知服务和 Microsoft Azure 机器学习为产品建议提供支持。 |
+| 在销售点 (POS) 上的多个触控点查看个性化产品建议，以便根据客户的购买历史记录、其愿望列表中的商品和其他客户在在线商店和实体商店中购买的商品来客户可能感兴趣的商品。 | 对于销售产品种类繁多的零售商，个性化建议可以帮助客户找到心仪的产品，让销售员智能识别客户的需求。 通过展示针对客户兴趣和购买习惯的产品，产品建议可以帮助零售商开展追加销售和增强客户的凝聚力。 在 Microsoft Dynamics 365 for Retail 中，认知服务和 Microsoft Azure 机器学习为产品建议提供支持。 |
 
 ### <a name="pos-task-recorder"></a>POS 任务录制器
 
@@ -727,7 +727,7 @@ ms.lasthandoff: 05/25/2017
 | 作为供应商，获取关于转移至客户的托运库存量的信息。                                                                      | 若要向客户开票，供应商要求获得关于从托运库存购买的原材料和购买日期的信息。 供应商还可以使用供应商协作界面在客户站点监控现有库存。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               |
 | 使用转移日记帐移动供应商拥有的库存。                                                                                                                       | 要跟踪供应商拥有的库存的物理位置，必须能够在系统中记录位置。 使用转移日记帐可以记录库存的物理移动，例如从仓库中的一个位置移动到该仓库中的另一个位置。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      |
 | 使用盘点日记帐调整供应商拥有的库存。                                                                                                                     | 重要的一点是要保持系统现有库存与实际物理库存同步。 使用盘点流程（例如数量调整）和盘点日记帐流程可以调整供应商拥有的库存的进出。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 进一步了解 Dynamics 365 for Operations 中的托运支持                                                                                                         | 有关托运流程支持的更多信息，请参阅[托运](/dynamics365/operations/supply-chain/inventory/consignment)，[设置托运](/dynamics365/operations/supply-chain/inventory/set-up-consignment)，[创建托运补货订单（任务指南）](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/)，以及[基于生产需求更改托运库存的所有权（任务指南）](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/)。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| 进一步了解 Dynamics 365 for Operations 中的托运支持                                                                                                         | 有关托运流程支持的更多信息，请参阅[托运](/dynamics365/unified-operations/supply-chain/inventory/consignment)，[设置托运](/dynamics365/unified-operations/supply-chain/inventory/set-up-consignment)，[创建托运补货订单（任务指南）](http://ax.help.dynamics.com/en/wiki/create-a-consignment-replenishment-order/)，以及[基于生产需求更改托运库存的所有权（任务指南）](http://ax.help.dynamics.com/en/wiki/change-the-ownership-of-consignment-inventory-based-on-production-demand/)。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 
 ### <a name="vendor-collaboration-previously-known-as-the-vendor-portal"></a>供应商协作（以前称作供应商门户）
 
@@ -737,7 +737,7 @@ ms.lasthandoff: 05/25/2017
 | 启用供应商管理联系人信息。                                 | 供应商可以维护其公司的联系人信息。 此信息包括姓名、电子邮件地址和电话号码。 通过专门的安全角色可以授予此功能的访问权限。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
 | 与供应商共享与采购订单有关的文档。                    | 必须与供应商共享文档时，例如关于要求的文档，一个方便的方法是将文档与相关采购订单相关联。 之后，供应商可以与客户共享注释和附件，方法是将该文档与他或她对该采购订单的响应相关联。 文档管理是基础的支持框架，仅分类为“外部”的注释和附件可以与供应商共享。                                                                                                                                                                                                                                                                                                                              |
 | 供应新供应商用户。                                                          | 如果您的供应商使用供应商协作界面，则当新联系人要求访问供应商协作时，他们能够无缝地请求新用户帐户。 采购专业人员可以为供应商组织的联系人提交用户帐户请求。 已经是供应商协作用户的供应商联系人也可以提交此类请求。 此请求最终在 Dynamics 365 for Operations 中创建具有特定供应商安全角色的新用户。 它还便于向 Microsoft Azure B2B 门户请求向用户提供新的 Azure Active Directory (Azure AD) 用户帐户。 供应商还可以请求禁用具体供应商用户帐户或修改该安全角色。 |
-| 进一步了解 Dynamics 365 for Operations 中的供应商协作支持。 | 有关供应商协作的更多信息，请参阅[供应商与外部供应商协作](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-external-vendors)，[供应商与客户协作](/dynamics365/operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)，[管理供应商协作用户](/dynamics365/operations/supply-chain/procurement/manage-vendor-collaboration-users)，[设置和维护供应商协作](/dynamics365/operations/supply-chain/procurement/set-up-maintain-vendor-collaboration)，和[供应商协作开票工作区](/dynamics365/operations/financials/accounts-payable/vendor-portal-invoicing-workspace)。                                                         |
+| 进一步了解 Dynamics 365 for Operations 中的供应商协作支持。 | 有关供应商协作的更多信息，请参阅[供应商与外部供应商协作](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors)，[供应商与客户协作](/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations)，[管理供应商协作用户](/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-users)，[设置和维护供应商协作](/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration)，和[供应商协作开票工作区](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace)。                                                         |
 
 ### <a name="intercompany-order-processing"></a>内部公司订单处理
 

@@ -1,9 +1,9 @@
 ---
 title: "使用 Excel 加载项"
-description: "此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Microsoft Dynamics 365 for Operations 开始。"
+description: "此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。"
 author: ChrisGarty
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c391fb70d837db9c0f167b392291fc1c5cc2bb53
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: f55e1e89d0e48819962c169a56f0f27dc0d792b4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -30,16 +30,16 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Microsoft Dynamics 365 for Operations 开始。
+此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 开始。
 
 通过在 Microsoft Excel 中打开实体数据，可以使用适用于 Excel 的 Microsoft Dynamics Office 加载项快速、轻松地查看和编辑这些数据。 此加载项需要 Microsoft Excel 2016。 **注释：**如果将您的 Microsoft Azure Active Directory (Azure AD) 租户配置为使用 Active Directory Federation Services (AD FS)，则必须确保已应用了 2016 年 5 月的更新，以便 Excel 加载项可以让您正确登录。
 
-## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-operations"></a>从 Dynamics 365 for Operations 开始时在 Excel 中打开实体数据
-1.  在 Microsoft Dynamics 365 for Operations 中的一个页面内，单击**在 Microsoft Office 中打开**。 如果该页面的根数据源（表）与任何实体的根数据源相同，将为该页面生成默认**在 Excel 中打开**选项。 可以在常用页面（如**所有供应商**和**所有客户**）中找到**在 Excel 中打开**选项。
+## <a name="open-entity-data-in-excel-when-you-start-from-dynamics-365-for-finance-and-operations"></a>从 Dynamics 365 for Finance and Operations 开始时在 Excel 中打开实体数据
+1.  在 Microsoft Dynamics 365 for Finance and Operations 中的一个页面内，单击**在 Microsoft Office 中打开**。 如果该页面的根数据源（表）与任何实体的根数据源相同，将为该页面生成默认**在 Excel 中打开**选项。 可以在常用页面（如**所有供应商**和**所有客户**）中找到**在 Excel 中打开**选项。
 2.  单击**在 Excel 中打开**选项，然后打开生成的工作簿。 此工作簿中包含实体的绑定信息、指向您的环境的指针，以及指向 Excel 加载项的指针。
 3.  在 Excel 中，单击**启用编辑**以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
 4.  如果首次运行此 Excel 加载项，请单击**信任此加载项**。
-5.  如果系统提示您登录，单击**登录**，然后使用用于登录 Dynamics 365 for Operations 的相同凭据登录。 此 Excel 加载项将使用 Internet Explorer 中之前的登录上下文，并自动让您登录（如果可以）。 因此，请验证此 Excel 加载项右上角中的用户名。
+5.  如果系统提示您登录，单击**登录**，然后使用用于登录 Dynamics 365 for Finance and Operations 的相同凭据登录。 此 Excel 加载项将使用 Internet Explorer 中之前的登录上下文，并自动让您登录（如果可以）。 因此，请验证此 Excel 加载项右上角中的用户名。
 
 此 Excel 加载项自动读取您所选实体的数据。 请注意，Excel 加载项读入数据之前，工作簿中无任何数据。
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 05/25/2017
 2.  在 Office 应用商店中，搜索关键字“Dynamics”，然后单击 **Microsoft Dynamics Office 加载项**（即此 Excel 加载项）旁边的**添加**。
 3.  如果首次运行此 Excel 加载项，请单击**信任此加载项**以启用并运行此 Excel 加载项。 将在 Excel 窗口右侧的窗格中运行此 Excel 加载项。
 4.  单击**添加服务器信息**打开**选项**页面。
-5.  从目标 Dynamics 365 for Operations 实例复制浏览器 URL，将其粘贴到**服务器 URL** 字段中，然后删除主机名后的所有内容。 产生的 URL 应只有一个主机名。
+5.  从目标 Dynamics 365 for Finance and Operations 实例复制浏览器 URL，将其粘贴到**服务器 URL** 字段中，然后删除主机名后的所有内容。 产生的 URL 应只有一个主机名。
 例如，如果 URL 为 https://xxx.dynamics.com/?cmp=usmf&amp;mi=CustTableListPage，则应删除除 **https://xxx.dynamics.com** 以外的所有信息。
 6.  单击**确定**，然后单击**是**确认更改。 此 Excel 加载项将重新启动并加载元数据。 **设计**按钮现在可用。 如果此 Excel 加载项有**加载小程序**按钮，您可能无法作为正确用户登录。 有关详细信息，请参阅本主题“故障排除”部分中的“显示‘加载小程序’按钮”。
 7.  单击**设计**。 此 Excel 加载项将检索实体元数据。

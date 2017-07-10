@@ -1,16 +1,16 @@
 ---
 title: "库存锁定"
-description: "本文提供库存锁定的概览，这是 Microsoft Dynamics AX 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。"
+description: "本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 089198f0197427654740da74985001b979f090a3
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4c5ebea58630188615fb4c22cc9da5215461e513
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供库存锁定的概览，这是 Microsoft Dynamics AX 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
+本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 
 您可以按照以下方法锁定库存物料：
 -   手动

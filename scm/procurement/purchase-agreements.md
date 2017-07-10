@@ -3,14 +3,14 @@ title: "采购协议"
 description: "文本提供有关采购协议的信息。 采购协议是提交到某一组织，随时间推移通过使用多个采购订单购买指定的数量或金额的合同。 以此承诺作为交换，买方接收特价和折扣。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c100bd34725c67710d0f473a001c73705600ba79
+ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
+ms.openlocfilehash: 4266ba2b19c3bd31a10301dd2290cd4b4fa53bdb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -80,7 +80,7 @@ ms.lasthandoff: 05/25/2017
 在创建采购订单时，可以对它应用采购协议。 协议条款中的信息，例如付款期限、交货期限和交货地址，随后会复制到采购订单的标题中。 如果采购订单包含协议所涉及的一个或多个产品或类别行，则采购协议中的价格和折扣用于这些行。 订单行上的金额或数量对履行采购协议中的承诺有贡献。 同一个采购订单可以包括不与采购协议和具有采购协议承诺的行的两行。  
 
 只有当您创建采购订单时，才可以选择采购协议。 在已创建采购订单后，您不能选择采购协议。  
-在某些情况下间接创建采购订单，您可以控制 Microsoft Dynamics 365 for Operations 是否自动搜索适用的采购协议。 例如，在您自动确定计划的采购订单或基于销售订单创建的采购订单时，您可以执行这些操作。
+在某些情况下间接创建采购订单，您可以控制 Finance and Operations 是否自动搜索适用的采购协议。 例如，在您自动确定计划的采购订单或基于销售订单创建的采购订单时，您可以执行这些操作。
 
 ## <a name="purchase-agreements-and-intercompany-trade"></a>采购协议和内部公司交易
 内部公司贸易关系可以在不同的法人中的供应商帐户和客户帐户之间创建。 在为其中一个当事方创建销售订单或采购订单时，创建内部公司订单链。 在订单链中，在相应法人中创建销售订单和采购订单。  

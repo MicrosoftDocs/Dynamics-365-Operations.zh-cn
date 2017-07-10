@@ -1,36 +1,36 @@
 ---
-title: "Dynamics 365 for Operations 财务报告"
-description: "Dynamics 365 for Operations 的财务报告允许财务和业务专业人员创建、维护、部署和查看财务报表。 它超出了传统报告约束，可以帮助您高效地设计各种类型的报表。"
+title: "Finance and Operations 财务申报"
+description: "Finance and Operations 财务申报允许财务和业务专业人员创建、维护、部署和查看财务报表。 它超出了传统报告约束，可以帮助您高效地设计各种类型的报表。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
-ms.search.scope: Management Reporter
+ms.search.scope: Management Reporter, UnifiedOperations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 997c34856d2445b02038d208f91522fe7a9a487c
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="financial-reporting-for-dynamics-365-for-operations"></a>Dynamics 365 for Operations 财务报告
+# <a name="financial-reporting-for-finance-and-operations"></a>Finance and Operations 财务申报
 
 [!include[banner](../includes/banner.md)]
 
 
-Dynamics 365 for Operations 的财务报告允许财务和业务专业人员创建、维护、部署和查看财务报表。 它超出了传统报告约束，可以帮助您高效地设计各种类型的报表。
+Finance and Operations 财务申报允许财务和业务专业人员创建、维护、部署和查看财务报表。 它超出了传统报告约束，可以帮助您高效地设计各种类型的报表。
 
 财务报告包括维度支持。 因此，帐户段或尺寸是立即可用。 不需要额外的工具或配置步骤。
 

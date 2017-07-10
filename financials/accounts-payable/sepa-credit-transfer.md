@@ -3,14 +3,14 @@ title: "SEPA 贷方转帐概览"
 description: "此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。 SEPA 贷方转帐是从一个公司或个人到另一个公司或个人的一种特定类型的付款（用欧元）。 本主题还讨论如何设置和传输贷方转帐付款文件。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8f1a220babc333fe2091e9286afc565ebeecf036
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -53,15 +53,15 @@ EPC（包括欧洲银行）开发 SEPA 付款设备的商业和技术框架。 �
 SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。 付款必须按欧元，并且必须包括国际银行帐号 (IBAN) 和两个当事方的银行标识符代码 (BIC)。 （BIC 也称为国际银行金融电信协会 \[SWIFT\] 代码。）此外，交易记录必须在两个当事方之间共享。 当事方之间的贷方转帐应使用符合 ISO 20022 付款处理标准的 XML 格式和由 EPC 指定的 XML。
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>贷方转帐如何实施？
-欧洲国家的贷方转帐付款格式是使用 Dynamics 365 for Operations 中的电子申报 (ER) 和付款方式功能来实施的。 其他地区使用的一些贷方转帐格式仍在使用传统的付款框架。 在其他许多格式中，有十二种 ISO 20022 贷方转帐文件格式可用。 这些导出格式符合 SEPA ISO 20022 XML 标准。 它们用于按照 EPC 发布的 SEPA Credit Transfer Scheme Rulebook 8.2 版中的规定，为其使用国/地区和欧元付款生成非欧元付款转帐。 在您可以实施贷方转帐前，必须与您的银行联系，以获取加载电子银行文件所需的软件。 您将使用该软件将包含付款订单的 XML 文件转移到您的银行。
+欧洲国家的贷方转帐付款格式是使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的电子申报 (ER) 和付款方式功能来实施的。 其他地区使用的一些贷方转帐格式仍在使用传统的付款框架。 在其他许多格式中，有十二种 ISO 20022 贷方转帐文件格式可用。 这些导出格式符合 SEPA ISO 20022 XML 标准。 它们用于按照 EPC 发布的 SEPA Credit Transfer Scheme Rulebook 8.2 版中的规定，为其使用国/地区和欧元付款生成非欧元付款转帐。 在您可以实施贷方转帐前，必须与您的银行联系，以获取加载电子银行文件所需的软件。 您将使用该软件将包含付款订单的 XML 文件转移到您的银行。
 
-## <a name="what-credit-transfer-formats-are-currently-supported-in-dynamics-365-for-operations"></a>Dynamics 365 for Operations 中现在支持哪些贷方转帐格式？
+## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Finance and Operations 中现在支持哪些贷方转帐格式？
 应始终转至 Microsoft Dynamics Lifecycle services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置**的可用文件的最新列表。 下一部分“必须执行哪些设置？”提供一个主题的链接，该主题说明如何创建 LCS 存储库以检查可用配置和导入所选配置。
 
 ## <a name="what-do-i-have-to-set-up"></a>我必须设置什么？
--   在您可以创建贷方转帐文件前，必须导入至少一个有效的贷方转帐配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](/dynamics365/operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
+-   在您可以创建贷方转帐文件前，必须导入至少一个有效的贷方转帐配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
 -   在配置应付帐款付款方式时，请选中**一般电子申报**复选框，并选择相应的贷方转帐格式（如 **ISO 20022 贷方转帐 (AT)**）作为导出格式配置。
--   还必须在 Dynamics 365 for Operations 中设置法人和银行帐户信息。
+-   还必须在 Finance and Operations 中设置法人和银行帐户信息。
 -   需要银行帐号、IBAN，有时还需要 SWIFT 代码 (BIC) 或其他 ID，才能创建有效的贷方转帐付款。 必须为供应商银行帐户和请求转帐的银行帐户设置这些信息。
 -   可能需要更多信息，如贷方转帐消息中涉及的各方的增值税 (VAT) 号。 如果请求此信息，则必须为供应商和法人设置。
 -   某些应付帐款付款方式（大多数为基于 ISO 20022 的付款方式）可能需要为**付款格式代码集**执行更多设置，如**服务类型** = **SLEV**。 这些代码在处理付款期间用作付款交易记录额外的标记。 可在两处设置付款代码的默认值（如**类别目的**、**费用责任人**、**本地仪器**和**服务等级**）。 第一处为**应付帐款付款日记帐抬头**，第二处为**应付帐款付款方式**。 创建付款日记帐行之后，将把在付款日记帐抬头中设置的付款代码值转移到日记帐行，如果未设置该值，则使用付款方式中的值。

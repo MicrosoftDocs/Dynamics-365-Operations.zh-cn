@@ -1,15 +1,15 @@
 ---
 title: "键盘快捷方式"
-description: "以下键盘快捷方式在整个 Microsoft Dynamics 365 for Operations. 中都适用。"
+description: "以下键盘快捷方式在整个 Microsoft Dynamics 365 for Finance and Operations 中都适用。"
 author: jasongre
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7d146f3dfe1d71e8d3031a851f47fac35d0f1a58
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-以下键盘快捷方式在整个 Microsoft Dynamics 365 for Operations. 中都适用。 
+以下键盘快捷方式在整个 Microsoft Dynamics 365 for Finance and Operations 中都适用。 
 
 **注意：**此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 05/25/2017
 | 移到菜单中的下一个/上一个选项            | 向下箭头/向上箭头            |
 | 在操作窗格或菜单中关闭一个选项卡          | Esc                              |
 | 模拟右键单击                            | Shift+F10                        |
-| 打开 Dynamics 365 for Operations. 上下文菜单 | Ctrl+F10                         |
+| 打开 Finance and Operations 上下文菜单 | Ctrl+F10                         |
 | 在窗体/对话框中执行默认按钮       | Alt+Enter                        |
 | 单击按钮或磁贴                            | Enter 或 Space                   |
 | 查看计数磁贴的刷新信息         | Alt+向上箭头                     |

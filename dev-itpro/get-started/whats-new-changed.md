@@ -1,9 +1,9 @@
 ---
 title: "新增功能或更改功能"
-description: "此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Operations 最新版本的新功能的主题。"
+description: "此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations 最新版本的新功能的主题。"
 author: sericks007
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,24 +18,25 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 55a3252aa2d84ac5af68a1a6eebeaa909d95b33b
+ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
+ms.openlocfilehash: a65de22d01d15510c3f2cb792b86e6a88260bed9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
 
-# <a name="whats-new-or-changed"></a>新增功能或更改功能
+# <a name="whats-new-or-changed"></a>新增功能或更改的功能
 
 [!include[banner](../includes/banner.md)]
 
+此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 最新版本的新功能的主题。
 
-此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Operations 最新版本的新功能的主题。
+有关升级到最新版本的信息，请参阅 [升级到最新更新的流程](../migration-upgrade/upgrade-latest-update.md)。
 
-若要升级到最新版本，请参阅“[升级到 Dynamics 365 for Operations 最新更新的流程](../migration-upgrade/upgrade-latest-update.md)”。
+## <a name="application-releases"></a>应用程序发布
 
-若要更多了解近期发布的移动工作区和 Power BI 内容，请参阅 [Dynamics 365 for Operations 应用近期发布的移动工作区](../mobile-apps/mobile-workspaces-released.md)和 [Dynamics 365 for Operations 近期发布的 Power BI 内容](../analytics/power-bi-content-released.md)
+若要更多了解近期发布的移动工作区和 Power BI 内容，请参阅 [Dynamics 365 for Finance and Operations 移动应用近期发布的移动工作区](../mobile-apps/mobile-workspaces-released.md)和 [Dynamics 365 for Finance and Operations 近期发布的 Power BI 内容](../analytics/power-bi-home-page.md)
 
 <table>
 <colgroup>
@@ -47,85 +48,37 @@ ms.lasthandoff: 05/25/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th><strong>发布</strong></th>
-<th><strong><strong>版本</strong></strong></th>
-<th><strong><strong>内部版本号</strong></strong></th>
-<th><strong><strong>可用性</strong></strong></th>
-<th><strong><strong>了解更多</strong></strong></th>
+<th>下达</th>
+<th>版本</th>
+<th>内部版本号</th>
+<th>可用性</th>
+<th>了解更多</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
-<td>Microsoft Dynamics 365 for Operations 平台</td>
-<td>平台更新 7</td>
-<td> 7.0.4542.16189</td>
-<td>2017 年 5 月</td>
-<td><a href="whats-new-platform-update-7.md">Dynamics 365 for Operations 平台更新 7（2017 年 5 月）的新增功能和更改内容</a></td>
-</tr><tr class="odd">
-<td>Microsoft Dynamics 365 for Operations 平台</td>
-<td>平台更新 6</td>
-<td> 7.0.4509.16180</td>
-<td>2017 年 4 月</td>
-<td><a href="whats-new-platform-update-6.md">Dynamics 365 for Operations 平台更新 3（2017 年 4 月）的新增功能和更改内容</a></td>
-</tr>
-<tr class="odd">
-<td>Microsoft Dynamics 365 for Operations 平台</td>
-<td>平台更新 5</td>
-<td> 7.0.4475.16165</td>
-<td>2017 年 3 月</td>
-<td><a href="whats-new-platform-update-5.md">Dynamics 365 for Operations 平台更新 5（2017 年 3 月）的新增功能和更改内容</a></td>
-</tr>
-<tr class="odd">
-<td>Microsoft Dynamics 365 for Operations 平台</td>
-<td>平台更新 4</td>
-<td> 7.0.4425.16161</td>
-<td>2017 年 2 月</td>
-<td><a href="whats-new-platform-update-4.md">Dynamics 365 for Operations 平台更新 4（2017 年 2 月）的新增功能和更改内容</a></td>
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition</td>
+<td>2017 年 7 月更新</td>
+<td>X</td>
+<td>2017 年 6 月</td>
+<td><a href="whats-new-application-July-2017-update.md">Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新的新增或更改内容</a></td>
 </tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Operations</td>
 <td>1611</td>
-<td> 7.1.1541.3036</td>
+<td>7.1.1541.3036</td>
 <td>2016 年 11 月</td>
 <td><a href="whats-new-dynamics-365-operations-1611.md">Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容 </a></td>
 </tr>
-<tr class="odd">
-<td>Microsoft Dynamics 365 for Operations 平台</td>
-<td>平台更新 3</td>
-<td> 7.0.4307.16141</td>
-<td>2016 年 11 月</td>
-<td><a href="whats-new-platform-update-3.md">Dynamics 365 for Operations 平台更新 3（2016 年 11 月）的新增功能和更改内容</a></td>
-</tr>
 <tr class="even">
-<td>Microsoft Dynamics AX 平台</td>
-<td>平台更新 2</td>
-<td>7.0.4230.16130</td>
-<td>2016 年 8 月</td>
-<td><a href="whats-new-platform-update-2.md">Dynamics AX 平台更新 2（2016 年 8 月）的新增功能和更改内容</a></td>
-</tr>
-<tr class="odd">
-<td>Microsoft Dynamics AX 平台</td>
-<td>平台更新 1</td>
-<td>7.0.4127.16103</td>
-<td>2016 年 5 月</td>
-<td><a href="whats-new-changed-platform-version-7-1-may-2016.md">Dynamics AX 平台更新 1（2016 年 5 月）的新增功能和更改内容</a></td>
-</tr>
-<tr class="even">
-<td>Microsoft Dynamics AX 应用程序</td>
+<td>Microsoft Dynamics AX</td>
 <td>7.0.1</td>
 <td>7.0.1265.23014</td>
 <td>2016 年 5 月</td>
 <td><a href="whats-new-changed-application-version-7-0-1-may-2016.md">Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容</a></td>
 </tr>
-<tr class="odd">
-<td>Microsoft Dynamics AX 平台</td>
-<td>7.0</td>
-<td>7.0.4030.16079</td>
-<td>2016 年 2 月</td>
-<td><a href="whats-new-changed-7-0-february-2016.md">Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容</a></td>
-</tr>
 <tr class="even">
-<td>Microsoft Dynamics AX 应用程序</td>
+<td>Microsoft Dynamics AX</td>
 <td>7.0</td>
 <td>7.0.1265.3015</td>
 <td>2016 年 2 月</td>
@@ -134,8 +87,89 @@ ms.lasthandoff: 05/25/2017
 </tbody>
 </table>
 
+## <a name="platform-releases"></a>平台发布
 
-
-
-
+<table>
+<colgroup>
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+<col width="20%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>下达</th>
+<th>版本</th>
+<th>内部版本号</th>
+<th>可用性</th>
+<th>了解更多</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition</td>
+<td>平台更新 8</td>
+<td>X</td>
+<td>2017 年 6 月</td>
+<td><a href="whats-new-platform-update-8.md">Dynamics 365 for Finance and Operations Enterprise Edition 平台更新 8（2017 年 6 月）的新增或更改内容</a></td>
+</tr>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Operations</td>
+<td>平台更新 7</td>
+<td>7.0.4542.16189</td>
+<td>2017 年 5 月</td>
+<td><a href="whats-new-platform-update-7.md">Dynamics 365 for Operations 平台更新 7（2017 年 5 月）的新增功能和更改内容</a></td>
+</tr>
+<tr class="odd">
+<td>Dynamics 365 for Operations</td>
+<td>平台更新 6</td>
+<td>7.0.4509.16180</td>
+<td>2017 年 4 月</td>
+<td><a href="whats-new-platform-update-6.md">Dynamics 365 for Operations 平台更新 3（2017 年 4 月）的新增功能和更改内容</a></td>
+</tr>
+<tr class="odd">
+<td>Dynamics 365 for Operations</td>
+<td>平台更新 5</td>
+<td>7.0.4475.16165</td>
+<td>2017 年 3 月</td>
+<td><a href="whats-new-platform-update-5.md">Dynamics 365 for Operations 平台更新 5（2017 年 3 月）的新增功能和更改内容</a></td>
+</tr>
+<tr class="odd">
+<td>Dynamics 365 for Operations</td>
+<td>平台更新 4</td>
+<td>7.0.4425.16161</td>
+<td>2017 年 2 月</td>
+<td><a href="whats-new-platform-update-4.md">Dynamics 365 for Operations 平台更新 4（2017 年 2 月）的新增功能和更改内容</a></td>
+</tr>
+<tr class="odd">
+<td>Dynamics 365 for Operations</td>
+<td>平台更新 3</td>
+<td>7.0.4307.16141</td>
+<td>2016 年 11 月</td>
+<td><a href="whats-new-platform-update-3.md">Dynamics 365 for Operations 平台更新 3（2016 年 11 月）的新增功能和更改内容</a></td>
+</tr>
+<tr class="even">
+<td>Microsoft Dynamics AX</td>
+<td>平台更新 2</td>
+<td>7.0.4230.16130</td>
+<td>2016 年 8 月</td>
+<td><a href="whats-new-platform-update-2.md">Dynamics AX 平台更新 2（2016 年 8 月）的新增功能和更改内容</a></td>
+</tr>
+<tr class="odd">
+<td>Microsoft Dynamics AX</td>
+<td>平台更新 1</td>
+<td>7.0.4127.16103</td>
+<td>2016 年 5 月</td>
+<td><a href="whats-new-changed-platform-version-7-1-may-2016.md">Dynamics AX 平台更新 1（2016 年 5 月）的新增功能和更改内容</a></td>
+</tr>
+<tr class="odd">
+<td>Microsoft Dynamics AX</td>
+<td>7.0</td>
+<td>7.0.4030.16079</td>
+<td>2016 年 2 月</td>
+<td><a href="whats-new-changed-7-0-february-2016.md">Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容</a></td>
+</tr>
+</tbody>
+</table>
 

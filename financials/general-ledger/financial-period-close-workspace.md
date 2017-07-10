@@ -3,7 +3,7 @@ title: "财务期间结帐工作区"
 description: "本文提供财务期间结帐工作区和相关配置的概览。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 788b0af30eb750cad8f958ecc4c33cf989b2a417
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -65,7 +65,7 @@ ms.lasthandoff: 05/25/2017
 可以从**所有财务期间结帐任务**列表页查看所有当前和之前期间结帐任务。 此列表页最适合用于对结转流程执行历史分析，因为其中包含有关计划的到期日期、实际完成日期和任务完成人的信息。 可以出于报告和审计目的，将此列表页中的信息轻松导出到 Microsoft Excel。
 
 ## <a name="financial-period-close-configuration-page"></a>财务期间结帐配置页
-在您可以使用**财务期间结帐**工作区前，您必须使用**财务期间结帐配置**页配置 Microsoft Dynamics 365 for Operations 中的流程。 （单击**总帐** &gt; **期间结帐** &gt; **财务期间结帐配置**）。
+在您可以使用**财务期间结帐**工作区前，您必须使用**财务期间结帐配置**页配置 Microsoft Dynamics 365 for Finance and Operations 中的流程。 （单击**总帐** &gt; **期间结帐** &gt; **财务期间结帐配置**）。
 
 ### <a name="resources"></a>资源
 
@@ -90,7 +90,7 @@ ms.lasthandoff: 05/25/2017
 
 可以将模板中的任务分配给适合该任务的一家或多家公司。 如果分配其他人以完成每家公司中的工作，您可能发现为相同工作创建多个任务非常有用。 为每个公司创建一个任务。 
 
-**任务链接**菜单项与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，可将为应付帐款运行币种重估的结帐任务链接到 Microsoft Dynamics 365 for Operations 中关联的**外币重估**页面。 您还可以链接到外部 URL。 
+**任务链接**菜单项与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，可将为应付帐款运行币种重估的结帐任务链接到 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中关联的**外币重估**页面。 您还可以链接到外部 URL。 
 
 > 提示：如果要链接特定的 Management Reporter 报表到财务期间结算任务，则可以使用报表 URL。 若要访问报表 URL，请打开报表设计器中的报表，然后单击**文件** &gt; **查看报表**以在 Web 浏览器中打开报表。 然后可以复制浏览器地址栏中的 URL 并将其粘贴到**任务链接** **URL** 字段中。 
 

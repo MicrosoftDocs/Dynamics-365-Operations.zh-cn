@@ -3,7 +3,7 @@ title: "工艺路线和工序"
 description: "本主题提供了有关工艺路线和工序的信息。 工艺路线定义生产产品或产品变型的流程。 它描述生产流程中的各步骤（工序）和这些步骤必须遵循的执行顺序。 对于每个步骤，工艺路线还定义所需工序资源、所需设置时间和运行时间，以及应如何计算成本。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3abc4e6f648ecc10105346ce181d8bc752d95f17
+ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
+ms.openlocfilehash: 61548f2e308781e8329ca3cd26c3e6502d2f92c9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/20/2017
 
 
 ---
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/25/2017
 <a name="overview"></a>概览
 --------
 
-工艺路线描述生产产品或产品变型所需工序顺序。 对于每道工序，工艺路线还定义所需工序资源、设置和执行工序所需时间，以及应如何计算成本。 您可以使用相同工艺路线生产多个产品，也可以为每个产品或产品变型定义不同工艺路线。 同一个产品甚至可以有多个工艺路线。 在这种情况下，使用的工艺路线根据必须生产的数量之类因素决定。 Microsoft Dynamics 365 for Operations 中的工艺路线的定义包含四种不同元素，这些元素共同描述生产流程：
+工艺路线描述生产产品或产品变型所需工序顺序。 对于每道工序，工艺路线还定义所需工序资源、设置和执行工序所需时间，以及应如何计算成本。 您可以使用相同工艺路线生产多个产品，也可以为每个产品或产品变型定义不同工艺路线。 同一个产品甚至可以有多个工艺路线。 在这种情况下，使用的工艺路线根据必须生产的数量之类因素决定。 Microsoft Dynamics 365 for Finance and Operations 中的工艺路线的定义包含四种不同元素，这些元素共同描述生产流程：
 
 -   **工艺路线** – 工艺路线定义生产流程的结构。 换言之，它定义工序的顺序。
 -    **工序** – 工序表示工艺路线中带名称的步骤，如**装配**。 同一工序可以在多个工艺路线中出现，并且可以有不同的工序编号。
@@ -45,7 +45,7 @@ ms.lasthandoff: 05/25/2017
 -   **工艺路线版本** – 工艺路线版本定义用于生成产品或产品变型的工艺路线。 工艺路线版本让工艺路线可以在多个产品中重复使用，或者随着时间的推移而改变。 它们还让不同工艺路线可用于生成同一产品。 在这种情况下，使用的工艺路线取决于位置或必须生产的数量之类因素。
 
 ## <a name="routes"></a>工艺路线
-工艺路线描述生产产品或产品变型所用工序顺序。 将为每道工序分配工序编号和后续工序。 工序顺序形成工艺路线网络，而工艺路线网络可通过带有方向且有一个或多个起点，但是只有一个终点的图表表示。 在 Dynamics 365 for Operations 中，根据结构类型区分工艺路线。 工艺路线有两种，即简单工艺路线和工艺路线网络。 在“生产控制参数”中，可以指定是否可以只使用简单的工艺路线，或者是否可以使用更复杂的工艺路线网络。
+工艺路线描述生产产品或产品变型所用工序顺序。 将为每道工序分配工序编号和后续工序。 工序顺序形成工艺路线网络，而工艺路线网络可通过带有方向且有一个或多个起点，但是只有一个终点的图表表示。 在 Dynamics 365 for Finance and Operations 中，根据结构类型区分工艺路线。 工艺路线有两种，即简单工艺路线和工艺路线网络。 在“生产控制参数”中，可以指定是否可以只使用简单的工艺路线，或者是否可以使用更复杂的工艺路线网络。
 
 ### <a name="simple-routes"></a>简单工艺路线
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 05/25/2017
 
 [![简单工艺路线](./media/routes-and-operations-1-simple-route.png)](./media/routes-and-operations-1-simple-route.png)  
 
-如果您在“生产控制参数”中仅启用简单工艺路线，在您定义工艺路线时，Dynamics 365 for Operations 将自动生成工序编号（10、20、30，依此类推）。
+如果您在“生产控制参数”中仅启用简单工艺路线，在您定义工艺路线时，Finance and Operations 将自动生成工序编号（10、20、30，依此类推）。
 
 ### <a name="route-networks"></a>工艺路线网络
 
@@ -85,10 +85,10 @@ ms.lasthandoff: 05/25/2017
 
 每个工艺路线可以单独地获得批准或取消批准。 但是请注意，如果工艺路线未获得批准，所有相关工艺路线版本也将未获得批准。 在“生产控制参数”中，可以指定工艺路线是否可以未获得批准，以及是否可更改已批准的工艺路线。  
 
-如果必须保留日志以记录谁批准了每个工艺路线，可能需要电子签名才能批准工艺路线。 然后，用户必须通过使用[电子签名](/dynamics365/operations/organization-administration/electronic-signature-overview)确认其身份。
+如果必须保留日志以记录谁批准了每个工艺路线，可能需要电子签名才能批准工艺路线。 然后，用户必须通过使用[电子签名](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)确认其身份。
 
 ## <a name="operations"></a>工序
-工序是生产流程中的步骤。 在 Dynamics 365 for Operations 中，每道工序有一个 ID 和一个简单描述。 下面的表显示机械车间中的典型工序示例。
+工序是生产流程中的步骤。 在 Dynamics 365 for Finance and Operations 中，每道工序有一个 ID 和一个简单描述。 下面的表显示机械车间中的典型工序示例。
 
 | 工序  | 说明        |
 |------------|--------------------|
@@ -128,7 +128,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="modifying-product-specific-routes"></a>修改产品特定的工艺路线
 
-在您从**已发布产品详细信息**页打开**工艺路线**时，将显示与所选已发布产品关联的工艺路线版本。 在此环境中，Dynamics 365 for Operations 为各工序显示最符合工艺路线版本的工序关系中的操作属性。 您将注意到工序列表中包含工序关系内的**物料代码**和**工艺路线代码**。 因此，您可以确定显示的是哪个工序关系。  
+在您从**已发布产品详细信息**页打开**工艺路线**时，将显示与所选已发布产品关联的工艺路线版本。 在此环境中，Dynamics 365 for Finance and Operations 为各工序显示最符合工艺路线版本的工序关系中的操作属性。 您将注意到工序列表中包含工序关系内的**物料代码**和**工艺路线代码**。 因此，您可以确定显示的是哪个工序关系。  
 
 在**工艺路线**页中，您可以修改工序的操作属性，如运行时间或成本类别。 您的更改存储在特定于当前工艺路线版本中引用的工艺路线和发布的产品的工艺关系中。 如果显示的工序关系不特定于该工艺路线和发布的产品，在存储您的更改之前，系统将创建此工序关系的副本。 此副本*的确*特定于该工艺路线和发布的产品。 因此，您的更改不影响其他工艺路线或发布的产品。 若要验证**工艺路线**页中正在修改哪个工序关系，请查看**物料代码**和**工艺路线代码**字段。  
 
@@ -150,9 +150,9 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="applying-operation-relations"></a>应用工序关系
 
-在某些情况下，Dynamics 365 for Operations 必须找到某道工序的操作属性。 例如，在创建采购订单时，必须将每道工序的操作属性从工序关系复制到生产工艺路线。 在这些情况下，Dynamics 365 for Operations 搜索从最特定的组合到最不特定的组合一一搜索相关工序关系。  
+在某些情况下，Dynamics 365 for Finance and Operations 必须找到某道工序的操作属性。 例如，在创建采购订单时，必须将每道工序的操作属性从工序关系复制到生产工艺路线。 在这些情况下，Dynamics 365 for Finance and Operations 搜索从最特定的组合到最不特定的组合一一搜索相关工序关系。  
 
-在 Dynamics 365 for Operations 搜索与发布的产品关系最密切的工序关系时，匹配发布的产品的物料 ID 的工序关系的优先级高过匹配物料组 ID 的工序关系。 同样，匹配物料组 ID 的工序关系优先级高过默认工序关系。 搜索按以下顺序进行：
+在 Dynamics 365 for Finance and Operations 搜索与发布的产品关系最密切的工序关系时，匹配发布的产品的物料 ID 的工序关系的优先级高过匹配物料组 ID 的工序关系。 同样，匹配物料组 ID 的工序关系优先级高过默认工序关系。 搜索按以下顺序进行：
 
 1.  **物料代码**=**表**和**物料关系**=&lt;物料 ID&gt;
 2.  **物料代码**=**组**和**物料关系**=&lt;物料组 ID&gt;
@@ -188,7 +188,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="electronic-signatures"></a>电子签名
 
-如果必须保留日志以记录谁批准和激活了每个工艺路线版本，这些任务可能需要电子签名。 然后，批准和激活工艺路线版本的用户必须通过使用[电子签名](/dynamics365/operations/organization-administration/electronic-signature-overview)确认自己的身份。
+如果必须保留日志以记录谁批准和激活了每个工艺路线版本，这些任务可能需要电子签名。 然后，批准和激活工艺路线版本的用户必须通过使用[电子签名](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)确认自己的身份。
 
 ### <a name="product-change-that-uses-case-management"></a>使用案例管理的产品变更
 
@@ -199,7 +199,7 @@ ms.lasthandoff: 05/25/2017
 
 ### <a name="making-routes-independent-of-resources"></a>使工艺路线独立于资源
 
-在许多系统中，必须在工艺路线中指定应执行工序的工序资源或资源组。 但是在 Dynamics 365 for Operations 中，可以定义一组要求，工序资源必须满足这组要求才能适用于工序。 因此，在真正安排工序之前，不必确定应使用的特定工序资源或资源组。 在您有大量工作人员或机器可以执行同一道工序时，此功能特别有用。  
+在许多系统中，必须在工艺路线中指定应执行工序的工序资源或资源组。 但是在 Dynamics 365 for Finance and Operations 中，可以定义一组要求，工序资源必须满足这组要求才能适用于工序。 因此，在真正安排工序之前，不必确定应使用的特定工序资源或资源组。 在您有大量工作人员或机器可以执行同一道工序时，此功能特别有用。  
 
 例如，您指定某道工序需要有**冲压**能力为 20 吨的**机器**类型的工序资源。 安排此工序时，调度引擎将把这些要求解析为特定工序资源或资源组。 因为您可以仅指定这些要求，而不是将工序绑定到特定机器，所以您的灵活性更高。 此外，移动资源或添加新资源时，更容易维护。  
 
@@ -240,7 +240,7 @@ ms.lasthandoff: 05/25/2017
 
 [资源功能](resource-capabilities.md)
 
-[电子签名概览](/dynamics365/operations/organization-administration/electronic-signature-overview)
+[电子签名概览](/dynamics365/unified-operations/fin-and-ops/organization-administration/electronic-signature-overview)
 
 
 

@@ -3,7 +3,7 @@ title: "财务报表设计器中的行定义"
 description: "行定义是报表组件或构建基块，在财务报表上指定每一行的内容。 可将行定义与列定义、报告结构树定义和报表定义组合以创建可由多个公司使用的构建基块组。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: ShylaThompson
-ms.search.scope: Management Reporter, Core
+ms.search.scope: Management Reporter, UnifiedOperations, Core
 ms.custom: 68873
 ms.assetid: 2fd7b5da-700f-48cb-9003-90c0d82f818f
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cf0886725e2d8d4031e19810e75755f4306b7c49
+ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
+ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/25/2017
 行定义最多可以包含 20,000 个财务维度行并且可以包含以下信息：
 
 -   通过创建节标题、行和空格为报表添加意义的描述性文本，如**现金**或**总收入**
--   财务数据的链接，可以在 Microsoft Dynamics 365 for Operations 中包含维度值 **注意：**您可设置行定义以在每次生成报表时从财务维度系统中拉取数据。
+-   财务数据的链接，可以在 Microsoft Dynamics 365 for Finance and Operations 中包含维度值**注意：**您可设置行定义以在每次生成报表时从财务维度系统中拉取数据。
 -   基于链接的财务数据的行汇总和公式
 
 通常，行定义中的每个行包含下列类型的信息：

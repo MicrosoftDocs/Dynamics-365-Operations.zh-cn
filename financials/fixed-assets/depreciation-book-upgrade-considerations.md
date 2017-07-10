@@ -1,15 +1,15 @@
 ---
 title: "折旧帐簿升级概览"
-description: "在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations 版本 1611 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。"
+description: "在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221624
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
 ms.search.region: global
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 15e671a0ef746c150024f3b7ddf6872d07703961
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: 116f9e8fbf8ed6ecbd2a1163f17e52ba80061694
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -30,7 +30,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations 版本 1611 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。 
+在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。 
 
 升级流程会将您的现有设置和所有现有交易记录移动到新的帐簿结构。 价值模型将依照保留当前状态，作为过帐到总帐的帐簿。 折旧帐簿将移至“**过帐到总帐**”设置为“**否**”的帐簿。 折旧帐簿日记帐名称将移动到过帐层设置为**无**的总帐日记帐名称。 折旧帐簿交易记录将移到固定资产交易记录。 
 

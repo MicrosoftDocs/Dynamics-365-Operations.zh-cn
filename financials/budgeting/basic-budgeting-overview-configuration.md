@@ -1,15 +1,15 @@
 ---
 title: "预算概览"
-description: "几乎每家使用 Microsoft Dynamics 365 for Operations 中的财务功能的公司都必须可以创建预算与实际的报表、 本文说明要在 Dynamics 365 for Operations 中创建预算或从第三方程序加载预算所需最低配置。"
+description: "几乎每家使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations Enterprise Edition 中创建预算或从第三方程序加载预算所需的最低配置。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60113
 ms.assetid: 28a9793e-d376-47af-a345-69046bad17df
 ms.search.region: global
@@ -17,27 +17,27 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a4f9c99b8d74e20fbadc6cd9617451cfbfc06ba4
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: f35db274a6b14f6bae185b69348d3829c77801b5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
 
-# <a name="budgeting-overview"></a>预算概览
+# <a name="budgeting-overview"></a>预算编制概览
 
 [!include[banner](../includes/banner.md)]
 
 
-几乎每家使用 Microsoft Dynamics 365 for Operations 中的财务功能的公司都必须可以创建预算与实际的报表、 本文说明要在 Dynamics 365 for Operations 中创建预算或从第三方程序加载预算所需最低配置。
+几乎每家使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
 
 <a name="overview"></a>概览
 --------
 
 法人的已审核预算保留在一个名为*“预算登记分录”*的文档中。 预算登记分录文档中的行称作*预算科目*分录，它们包含财务维度信息、日期和已审核预算的金额。 预算登记分录文档与基本财务报表和查询页（其中，将比较分类帐实际金额与预算金额）集成。 
 
-可通过多种方法在 Dynamics 365 for Operations 中创建预算登记分录：
+可通过多种方法在 Finance and Operations 中创建预算登记分录：
 
 -   在**“预算登记分录”**页上手动输入文档信息。
 -   使用可通过单击**“预算登记分录”**页上的**“在 Excel 中打开”**按钮打开的 Microsoft Excel 模板。

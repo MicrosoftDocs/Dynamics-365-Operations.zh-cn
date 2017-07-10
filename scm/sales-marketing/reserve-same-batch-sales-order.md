@@ -3,7 +3,7 @@ title: "为销售订单预留相同批次"
 description: "本文说明如何设置产品以对照单个库存批次预留库存。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResProductDetailsExtended, EcoResStorageDimensionGroup, EcoResTrackingDimensionGroup, InventBatch, InventModelGroup, PdsAskSameLotForm, PdsCustSellableDays
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 28911
 ms.assetid: 5823d75e-f839-46dd-beb3-e09b79fc8aa4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1b63173d1efe45bf048b9c2eed4dc6250c9ee9f1
+ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
+ms.openlocfilehash: a24e5c2972ae1581de43ebcb448ed34bafdc0ad5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/13/2017
 
 
 ---
@@ -41,7 +41,7 @@ ms.lasthandoff: 05/25/2017
 -   **跟踪维度组** - 跟踪维度组必须为批号选择**“按维度的覆盖范围计划”**字段。
 -   **存储维度组** - 存储维度组必须为**“站点”**和**“仓库”**选择**“按维度的覆盖范围计划”**字段。
 
-如果在为相同批次选择设置的销售订单行上的产品预留库存，则 Microsoft Dynamics 365 for Operations 会尝试预留单个库存批次中订购的数量。 还应考虑任何特定的批属性要求。 如果无法从单个批次中填满数量，则将显示**“相同批次预留冲突”**页面。 此页面描述了这些问题以及为继续预留而采取的措施。 以下条件可能会阻止预留批次：
+如果在为相同批次选择设置的销售订单行上的产品预留库存，则 Microsoft Dynamics 365 for Finance and Operations 会尝试预留单个库存批次中订购的数量。 还应考虑任何特定的批属性要求。 如果无法从单个批次中填满数量，则将显示**“相同批次预留冲突”**页面。 此页面描述了这些问题以及为继续预留而采取的措施。 以下条件可能会阻止预留批次：
 
 -   批处置代码将销售的**“阻止预留”**标记为**“已阻止”**。
 -   根据到期日期以及任何适用的客户适售期，该批次已经到期。 如果物料的物料模型组受先过期先出 (FEFO) 日期控制并且已选择最佳使用日期作为选择标准，则仍可考虑预留该物料。
