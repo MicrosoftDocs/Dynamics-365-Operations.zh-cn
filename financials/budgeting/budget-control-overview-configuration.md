@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
 
 ---
 
@@ -128,3 +128,4 @@ Microsoft Dynamics 365 for Finance and Operations 中的预算控制通过会计
 从此页，用户可以深入到**预算控制统计（按期间）**页来查看所选预算控制维度组合的预算可用性详细信息和预留。 用户也可以深入到**预算控制统计**页查看用于预算控制的所有财务维度组合的预算可用性。 
 
 如果为采购订单启用预算控制，则预算经理可使用**分类帐预算和预测**工作区检查具有预算检查警告和错误的所有未确认采购订单的队列。 如果预算经理具有配置的超出预算权限，则他或她可以直接在该工作区中确认采购订单。    
+

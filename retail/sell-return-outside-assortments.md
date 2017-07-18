@@ -15,14 +15,13 @@ ms.custom:
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: prabhup
-ms.search.validFrom: 2017-06-30
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
 ms.openlocfilehash: ab6d22cf2c1610843de42d1e62cd93b17d74d8b8
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/14/2017
-
 
 ---
 
