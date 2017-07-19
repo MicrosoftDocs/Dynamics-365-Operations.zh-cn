@@ -9,6 +9,7 @@ ms.prod:
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
+ms.reviewer: josaw
 ms.search.scope: Core, Operations, UnifiedOperations, Retail
 ms.custom: 
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
@@ -22,7 +23,6 @@ ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
 ms.openlocfilehash: 2de5b3d532c599f2273b97dad1db6a027c4dc04a
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/29/2017
-
 
 ---
 

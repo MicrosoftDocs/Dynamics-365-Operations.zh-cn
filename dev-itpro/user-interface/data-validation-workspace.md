@@ -9,6 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: 
 ms.assetid: 
 ms.search.region: Global
@@ -18,7 +19,6 @@ ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
 ms.openlocfilehash: e105c4b171979a03c20718c1fa9d558c921cd704
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

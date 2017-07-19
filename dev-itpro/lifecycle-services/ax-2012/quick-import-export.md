@@ -9,6 +9,7 @@ ms.prod: dynamics-ax-2012
 ms.service: 
 ms.technology: ax-2012
 audience: Application User
+ms.reviewer: margoc
 ms.search.scope: AX 2012 R3 CU8, UnifiedOperations
 ms.custom: 89041
 ms.assetid: 990d64e6-d436-4c79-9bb5-bf8c5c5a048f
@@ -21,7 +22,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 11cf53af2db453471175cec5de63d38f8b680c9b
 ms.contentlocale: zh-cn
 ms.lasthandoff: 05/25/2017
-
 
 ---
 
