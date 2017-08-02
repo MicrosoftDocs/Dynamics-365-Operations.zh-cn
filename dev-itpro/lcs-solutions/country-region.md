@@ -14,14 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: ac77d2d374dc77aa4cf43ae2621b3692e556c9d0
+ms.translationtype: HT
+ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
+ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,8 +34,8 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。 
 
 ## <a name="developing-localized-solutions"></a>开发本地化的解决方案
-以下资源提供了可帮助正在创建特定于国家/地区的自定义或已创建适用于 Microsoft 不支持的国家/地区的解决方案的开发人员和 ISV 的指南和信息。
--   [分离本地化模型](separate-localization-models.md)
+以下资源提供了可帮助正在创建特定于国家/地区的自定义或创建适用于 Microsoft 不支持的国家/地区的解决方案的开发人员和 ISV 的指南和信息。
+-   [独立的本地化模型](separate-localization-models.md)
 -   [应用国家/地区上下文](apply-country-context.md)
 -   [监管认证](regulatory-certifications.md)
 -   [为本地化功能分类](classify-localization-features.md)

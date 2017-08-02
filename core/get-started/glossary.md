@@ -1,43 +1,41 @@
 ---
-title: "Dynamics 365 for Operations 词汇表"
-description: "Microsoft Dynamics 365 for Operations 词汇表定义了 Dynamics 365 for Operations 产品中的重要术语和概念。"
+title: "Finance and Operations 词汇表"
+description: "此词汇表定义了 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 中的重要术语和概念。"
 author: tonyafehr
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 07/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 44101
 ms.assetid: d4e01957-69a0-4c92-91c5-4646c8b0cad8
 ms.search.region: Global
 ms.author: tfehr
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4f3015ed4f8dc165d988b2b63ed9ad89d6d6f578
+ms.translationtype: HT
+ms.sourcegitcommit: 84ee9110fa32a551133a6ab4b7c6feb9ea9c017a
+ms.openlocfilehash: 0b4d5285cc1aa44da566ec5d7fa7ebe568729fdf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/08/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
-# <a name="dynamics-365-for-operations-glossary"></a>Dynamics 365 for Operations 词汇表
+# <a name="finance-and-operations-glossary"></a>Finance and Operations 词汇表
 
 [!include[banner](../includes/banner.md)]
 
-
-Microsoft Dynamics 365 for Operations 词汇表定义了 Dynamics 365 for Operations 产品中的重要术语和概念。 
+此词汇表定义了 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 中的重要术语和概念。 
 
 ### <a name="a"></a>**A**
 
 ###### <a name="accounting-journal"></a>**财务日记帐**
 
-用于在会计系统中记录会计事项的财务影响的日志。
+用于在会计系统中记录会计事项的财务影响的日记帐。
 
 ###### <a name="accounting-rule"></a>**会计规则**
 
@@ -51,17 +49,9 @@ Microsoft Dynamics 365 for Operations 词汇表定义了 Dynamics 365 for Operat
 
 在活动中输入或输出的测定数量。
 
-###### <a name="address-verification-service"></a>**地址验证服务**
+###### <a name="address-verification"></a>**地址验证**
 
 由信用卡处理程序提供的服务，用于验证持卡人提供的结算地址与发卡银行存档的信息是否匹配。
-
-###### <a name="adjusted-unit-price"></a>**调整后单价**
-
-根据基于属性的定价和已接收的实际效价计算的单位价格。
-
-###### <a name="advanced-pricing"></a>**高级定价**
-
-用于计算效价物料的采购价的逻辑。
 
 ###### <a name="aging"></a>**帐龄**
 
@@ -101,14 +91,13 @@ Microsoft Dynamics 365 for Operations 词汇表定义了 Dynamics 365 for Operat
 
 用于无条件要求第三方向另一方按需付款的原始凭证。
 
-###### <a name="bill-of-materials"></a>**物料清单**
-
-生产一个产品所需的产品及其数量的列表。
-
 ###### <a name="blocking"></a>**锁定**
 
 将文档或产品置于暂停状态的操作。
 
+###### <a name="bom-bill-of-materials"></a>**BOM（物料清单）**
+
+生产一个产品所需的产品及其数量的列表。
 ###### <a name="budget-control"></a>**预算控制**
 
 一种只有在可以保留预算资金以满足未来的付款承诺的前提下才授权支出的做法。
@@ -175,14 +164,6 @@ Microsoft Dynamics 365 for Operations 词汇表定义了 Dynamics 365 for Operat
 
 用于合计制造产品和保有库存的财务影响的会计类别。
 
-###### <a name="commodity-pricing"></a>**商品定价**
-
-用于对利用价格经常发生变动的商品生产的销售物料的价格进行更新的定价策略。
-
-###### <a name="consolidated-order"></a>**合并的订单**
-
-用于记录多个引用订单的原始凭证。
-
 ###### <a name="contractor"></a>**合同工**
 
 参与到与法人的合同工-雇主关系中的人员承担的角色。
@@ -194,10 +175,6 @@ Microsoft Dynamics 365 for Operations 词汇表定义了 Dynamics 365 for Operat
 ###### <a name="cost-center"></a>**成本中心**
 
 由经理对预算的和实际的支出负责的运营单位。
-
-###### <a name="cost-of-goods-sold"></a>**所售货物成本**
-
-用于合计制造产品和保有库存的财务影响的会计类别。
 
 ###### <a name="cost-variance"></a>**成本差异**
 
@@ -223,7 +200,7 @@ Microsoft Dynamics 365 for Operations 词汇表定义了 Dynamics 365 for Operat
 
 ###### <a name="dashboard"></a>**仪表板**
 
-Dynamics 365 for Operations 中典型的起始页。 在仪表板中，用户将会看到其有权访问的每个工作区对应的部分。 每个部分将显示相关工作区的汇总部分的磁贴。 仪表板包括一个名称和多个显示有磁贴的部分。
+Finance and Operations 中典型的起始页。 在仪表板中，用户将会看到其有权访问的每个工作区对应的部分。 每个部分将显示相关工作区的汇总部分的磁贴。 仪表板包括一个名称和多个显示有磁贴的部分。
 
 ###### <a name="data-entity"></a>**数据实体**
 
@@ -260,10 +237,6 @@ Dynamics 365 for Operations 中典型的起始页。 在仪表板中，用户将
 ###### <a name="distinct-product"></a>**独特产品**
 
 可唯一标识的产品。
-
-###### <a name="document-blocking"></a>**单据锁定**
-
-一种在订购的物料处于质量保证过程中时将某个工序置于暂停状态的方法。
 
 ###### <a name="document-management-system"></a>**文档管理系统**
 
@@ -316,10 +289,6 @@ Dynamics 365 for Operations 中典型的起始页。 在仪表板中，用户将
 ###### <a name="fixed-quantity-kanban"></a>**固定数量看板**
 
 当分配给某个看板规则的看板数量保持不变时使用的一种看板类型。
-
-###### <a name="flexible-authentication"></a>**灵活认证**
-
-可以对各种身份管理系统中的用户进行验证的身份验证过程。
 
 ###### <a name="formula"></a>**配方**
 
@@ -379,10 +348,6 @@ Dynamics 365 for Operations 中典型的起始页。 在仪表板中，用户将
 
 为完成看板生产作业而从库存中提取的产品组件。
 
-###### <a name="kanban-product-quantity"></a>**看板产品数量**
-
-根据看板规则在看板中标明的物料需求的数量。
-
 ###### <a name="kanban-rule"></a>**看板规则**
 
 Lean manufacturing 系统中的规则，用于通过控制如何在生产流中协调处理和转移活动来实现物料计划和补货政策。
@@ -410,10 +375,6 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 当事方使用流动资产解决流动负债的能力。
 
 ### <a name="m"></a>**M**
-
-###### <a name="manufacturing-overhead-based-on-material"></a>**基于材料的生产开销**
-
-生产开销可以用附加费百分比的间接成本计算公式来表示。 分配给材料组件的成本组充当计算公式的基础。 可为单独的产品或分配给产品的物料组定义计算公式，从而在计算基于材料的生产开销时提高灵活性。
 
 ###### <a name="master-scheduling"></a>**主计划编制**
 
@@ -459,10 +420,6 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 
 ###### <a name="party"></a>**当事方**
 
-在参与契约关系时承担具有法律约束力的角色的实体。
-
-###### <a name="party"></a>**当事方**
-
 参与经济活动的人员或组织。
 
 ###### <a name="pegging"></a>**限定标准**
@@ -472,10 +429,6 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 ###### <a name="pegging-event"></a>**需求声明事件**
 
 一个用于通知产品需求的资源流事件。
-
-###### <a name="phantom-item"></a>**虚拟物料**
-
-生产但不存储的物料。
 
 ###### <a name="planned-intercompany-demand"></a>**计划内部公司需求**
 
@@ -489,17 +442,9 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 
 创建原始凭证以发起对经济资源的请求的人员。
 
-###### <a name="privilege"></a>**特权**
-
-用户执行某个任务所需的一个或多个权限。
-
 ###### <a name="procurement-catalog"></a>**采购目录**
 
 按采购类别分组的产品供应列表。 采购目录用于请求组织内部使用的产品。
-
-###### <a name="product-component"></a>**产品组件**
-
-产品的一部分。
 
 ###### <a name="product-dimension"></a>**产品维度**
 
@@ -507,7 +452,7 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 
 ###### <a name="product-family"></a>**产品系列**
 
-参与同一生产或交货活动或为同一细分市场提供的一组独特的物料、服务或权限。 在 Dynamics 365 for Operations 中，使用预测分配参数来表示分组。
+参与同一生产或交货活动或为同一细分市场提供的一组独特的物料、服务或权限。 在 Finance and Operations 中，使用预测分配参数来表示分组。
 
 ###### <a name="product-master"></a>**基础产品**
 
@@ -581,10 +526,6 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 
 用于在会计系统中记录资源流事件的运营、法律和财务影响的记录。
 
-###### <a name="regulated-product"></a>**受管制产品**
-
-由政府当局管制的、要求进行合规和审计报告的产品。
-
 ###### <a name="rfq-request-for-quotation"></a>**RFQ（询价）**
 
 用于记录有关在指定日期之前按照指定价格供应一定数量的产品的竞标要求的原始凭证。
@@ -593,15 +534,12 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 
 请求经济资源的人员。
 
-###### <a name="restricted-product"></a>**受限制产品**
-
-分发受政府当局限制或约束的产品。
 
 ### <a name="s"></a>**S**
 
 ###### <a name="sales-agreement"></a>**销售协议**
 
-用于记录两个或更多当事方之间就以下理解达成的协议的原始凭证：销售当事方承诺在一个时间段销售特定或价值的产品以换取有利的价格和折扣。
+用于记录两个或更多当事方之间就以下理解达成的协议的原始凭证：销售当事方承诺在一个时间段销售特定数量或价值的产品以换取有利的价格和折扣。
 
 ###### <a name="sales-agreement-policy"></a>**销售协议政策**
 
@@ -647,13 +585,6 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 
 通过对历史交易记录数据应用预测算法而创建的未来需求预测。
 
-###### <a name="supermarket"></a>**超市**
-
-容量有限的、用于在临近消耗时批次供应物料的即时库存库位。
-
-###### <a name="system-defined-financial-dimension-type"></a>**系统定义的财务维度类型**
-
-映射到数据库中的某个表或视图的财务维度，该表或视图表示一个实体类型并且其值在该实体类型的一个属性域中。
 
 ### <a name="t"></a>**T**
 
@@ -667,11 +598,11 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 
 ###### <a name="task-recorder"></a>**任务录制器**
 
-在 Dynamics 365 for Operations 中预安装的一个工具。 在录制时，它会记录用户在 Dynamics 365 for Operations 用户界面中输入的针对服务器执行的所有事件 - 包括添加的值、更改的设置、删除的数据等。
+在 Finance and Operations 中预安装的一个工具。 在录制时，它会记录用户在 Finance and Operations 用户界面中输入的针对服务器执行的所有事件 - 包括添加的值、更改的设置、删除的数据等。
 
 ###### <a name="task-recording"></a>**任务录制**
 
-一个包含任务录制器在 Microsoft Dynamics 365 for Operations 中运行时捕获的操作和注释的文件。
+一个包含任务录制器在 Finance and Operations 中运行时捕获的操作和注释的文件。
 
 ###### <a name="three-way-matching-policy"></a>**三向匹配政策**
 
@@ -684,12 +615,6 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 ###### <a name="two-way-matching-policy"></a>**双向匹配政策**
 
 一种要求一个或多个供应商发票价格与一个或多个采购订单价格匹配的匹配政策。
-
-### <a name="u"></a>**U**
-
-###### <a name="user-defined-financial-dimension-type"></a>**用户定义的财务维度类型**
-
-映射到用户定义的值列表的财务维度值。
 
 ### <a name="v"></a>**V**
 
@@ -726,7 +651,4 @@ Lean manufacturing 系统中的规则，用于通过控制如何在生产流中�
 ###### <a name="workspace"></a>**工作区**
 
 用于提供用户执行的一个活动的概览的页面。 此页面使用磁贴、列表和图表来显示待定工作和来自多个来源的相关数据，而且此页面会显示与此数据相关的常见任务。 在工作区的汇总部分中显示的磁贴也会在仪表板的相关部分显示。
-
-
-
 
