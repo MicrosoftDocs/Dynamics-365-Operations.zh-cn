@@ -8,11 +8,11 @@
     - name: 新增功能
       tocHref: /dynamics365/get-started/whats-new/
       topicHref: /dynamics365/get-started/whats-new/index
-    - name: 'Finance and Operations, Enterprise'
+    - name: Finance and Operations Enterprise
       tocHref: /dynamics365/unified-operations/fin-and-ops/
       topicHref: /dynamics365/unified-operations/fin-and-ops/index
       items:
-        - name: 开发人员和管理员
+        - name: null
           tocHref: /dynamics365/unified-operations/dev-itpro/
           topicHref: /dynamics365/unified-operations/dev-itpro/index
         - name: Financials

@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 745abbfde09bab40f032c13d1b0293e0990a3de3
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 85000ee4507e1d716c6118441d77d94091494f33
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/30/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -73,32 +73,32 @@ ms.lasthandoff: 06/30/2017
 -   [电子申报目标](electronic-reporting-destinations.md)
 -   [从 Lifecycle Services 下载电子申报配置](download-electronic-reporting-configuration-lcs.md)
 -   [使用电子申报配置为 Power BI 提供来自 Finance and Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [ER 创建一个配置提供程序，并标记其为当前运行的](http://ax.help.dynamics.com/en/wiki/er-select-service-provider/)（任务指南）
--   [ER 设计特定于域的数据模型](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-data-model/)（任务指南）
--   [ER 定义模型映射并选择数据源](http://ax.help.dynamics.com/en/wiki/er-define-model-mapping-and-select-data-sources/)（任务指南）
--   [ER 将数据模型映射到所选数据源](http://ax.help.dynamics.com/en/wiki/er-map-data-model-to-selected-data-sources/)（任务指南）
--   [ER 设计特定于域的格式](http://ax.help.dynamics.com/en/wiki/er-design-domain-specific-format/)（任务指南）
--   [ER 将配置上载到 Lifecycle Services](http://ax.help.dynamics.com/en/wiki/upload-a-configuration-into-lifecycle-services/)（任务指南）
--   [ER 从 Lifecycle Services 导入配置](http://ax.help.dynamics.com/en/wiki/import-a-configuration-from-lifecycle-services/)（任务指南）
--   [ER 设计用于生成 OPENXML 格式的报表的配置](http://ax.help.dynamics.com/en/wiki/design-a-configuration-for-generating-reports-in-openxml-format/)（任务指南）
--   [ER 配置目标](http://ax.help.dynamics.com/en/wiki/configure-destinations/)（任务指南）
--   [ER 将财务维度用作数据源（第 1 部分：设计数据模型）](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-1-design-data-model/)（任务指南）
--   [ER 将财务维度用作数据源（第 2 部分：模型映射）](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-2-model-mapping/)（任务指南）
--   [ER 将财务维度用作数据源（第 3 部分：设计报告）](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-3-design-the-report/)（任务指南）
--   [ER 将财务维度用作数据源（第 4 部分：运行报告）](http://ax.help.dynamics.com/en/wiki/er-use-financial-dimensions-as-a-data-source-part-4-run-the-report/)（任务指南）
--   [ER 配置格式以执行盘点和合计（第 1 部分：创建格式）](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-1-create-format/)（任务指南）
--   [ER 配置格式以执行盘点和合计（第 2 部分：配置计算）](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-2-configure-computations/)（任务指南）
--   [ER 配置格式以执行盘点和合计（第 3 部分：使用计算来生成输出）](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-3-use-computations-to-make-the-output/)（任务指南）
--   [ER 配置格式以执行盘点和合计（第 4 部分：运行格式）](http://ax.help.dynamics.com/en/wiki/er-configure-format-to-do-counting-and-summing-part-4-run-format/)（任务指南）
--   [ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 1 部分：设计格式）](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-1-design-format/)（任务指南）
--   [ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 2 部分：运行格式）](http://ax.help.dynamics.com/en/wiki/er-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-part-2-run-format/)（任务指南）
--   [ER 在格式输出中使用票据管理文件（第 1 部分：准备数据模型）](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-1-prepare-data-model/)（任务指南）
--   [ER 在格式输出中使用票据管理文件（第 2 部分：展开数据模型）](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-2-extend-data-model/)（任务指南）
--   [ER 在格式输出中使用票据管理文件（第 3 部分：创建格式）](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-3-create-format/)（任务指南）
--   [ER 在格式输出中使用票据管理文件（第 4 部分：运行格式）](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-4-run-format/)（任务指南）
--   [ER 在格式输出中使用票据管理文件（第 5 部分：修改和运行格式）](http://ax.help.dynamics.com/en/wiki/er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format/)（任务指南）
--   [ER 使用格式配置生成付款的电子单据](http://ax.help.dynamics.com/en/wiki/generate-electronic-documents-for-payments-using-a-format-configuration/)（任务指南）
--   [ER 通过采用格式的新的基本版本来升级格式](http://ax.help.dynamics.com/en/wiki/upgrade-your-format-by-adopting-a-new-base-version-of-that-format/)（任务指南）
+-   [ER 创建一个配置提供程序，并标记其为当前运行的](/dynamics365/unified-operations/do-not-publish/er-configuration-provider-mark-it-active-2016-02)（任务指南）
+-   [ER 设计特定于域的数据模型](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-data-model-2016-02-05)（任务指南）
+-   [ER 定义模型映射并选择数据源](/dynamics365/unified-operations/do-not-publish/er-define-model-mapping-select-data-sources-2016-02-05)（任务指南）
+-   [ER 将数据模型映射到所选数据源](/dynamics365/unified-operations/do-not-publish/er-map-data-model-selected-data-sources-2016-02-05)（任务指南）
+-   [ER 设计特定于域的格式](/dynamics365/unified-operations/do-not-publish/er-design-domain-specific-format-2016-02-05)（任务指南）
+-   [ER 将配置上载到 Lifecycle Services](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services)（任务指南）
+-   [ER 从 Lifecycle Services 导入配置](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services)（任务指南）
+-   [ER 设计用于生成 OPENXML 格式的报表的配置](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11)（任务指南）
+-   [ER 配置目标](/dynamics365/unified-operations/do-not-publish/er-destinations-2016-05)（任务指南）
+-   [ER 将财务维度用作数据源（第 1 部分：设计数据模型）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1)（任务指南）
+-   [ER 将财务维度用作数据源（第 2 部分：模型映射）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2)（任务指南）
+-   [ER 将财务维度用作数据源（第 3 部分：设计报告）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3)（任务指南）
+-   [ER 将财务维度用作数据源（第 4 部分：运行报告）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4)（任务指南）
+-   [ER 配置格式以执行盘点和合计（第 1 部分：创建格式）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-1)（任务指南）
+-   [ER 配置格式以执行盘点和合计（第 2 部分：配置计算）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-2)（任务指南）
+-   [ER 配置格式以执行盘点和合计（第 3 部分：使用计算来生成输出）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-3)（任务指南）
+-   [ER 配置格式以执行盘点和合计（第 4 部分：运行格式）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-format-counting-summing-4)（任务指南）
+-   [ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 1 部分：设计格式）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-1)（任务指南）
+-   [ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 2 部分：运行格式）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-horizontal-2)（任务指南）
+-   [ER 在格式输出中使用票据管理文件（第 1 部分：准备数据模型）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-1)（任务指南）
+-   [ER 在格式输出中使用票据管理文件（第 2 部分：展开数据模型）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-2)（任务指南）
+-   [ER 在格式输出中使用票据管理文件（第 3 部分：创建格式）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-3)（任务指南）
+-   [ER 在格式输出中使用票据管理文件（第 4 部分：运行格式）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-4)（任务指南）
+-   [ER 在格式输出中使用票据管理文件（第 5 部分：修改和运行格式）](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-document-management-files-5)（任务指南）
+-   [ER 使用格式配置生成付款的电子单据](/dynamics365/unified-operations/dev-itpro/analytics/tasks/er-electronic-payments)（任务指南）
+-   [ER 通过采用格式的新的基本版本来升级格式](/dynamics365/unified-operations/do-not-publish/er-upgrade-format--2016-05)（任务指南）
 
 
 
