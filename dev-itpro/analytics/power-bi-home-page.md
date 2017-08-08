@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
-ms.search.scope: Operations
+ms.reviewer: sericks
+ms.search.scope: Operations, UnifiedOperations
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2df0c6dc9b41dde861f5361bfcc1226786e7aa76
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/25/2017
 
 ---
 
@@ -31,32 +31,34 @@ ms.lasthandoff: 06/20/2017
 
 此主题列出可用的 Microsoft Power BI 内容并向您指示可用来了解详细信息的资源。
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>适用于 Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新的 Power BI 内容
-如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，则以下 Power BI 内容可用：
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>适用于 Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月更新的 Power BI 内容
+如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月更新，则以下 Power BI 内容可用：
 
 - [福利 Power BI 内容](benefits-power-bi.md)
-- [现金概览 Power BI 内容](/dynamics365/operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
+- [现金概览 Power BI 内容](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [CFO 概览 Power BI 内容](CFO-power-bi.md)
 - [薪酬 Power BI 内容](compensation-power-bi.md)
 - [成本核算分析 Power BI 内容*](cost-accounting-analysis-content-pack.md) 
-- [信用和收款管理 Power BI 内容](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [信用和收款管理 Power BI 内容](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [员工发展 Power BI 内容](employee-development-PBI.md) 
 - [财务绩效 Power BI 内容*](financial-performance-power-bi-content-pack.md)
-- [固定资产管理 Power BI 内容](/dynamics365/operations/financials/fixed-assets/Fixed-asset-management-workspace)
+- [固定资产管理 Power BI 内容](/dynamics365/unified-operations/financials/fixed-assets/Fixed-asset-management-workspace)
 - [了解 Power BI 内容](learning-power-bi.md)
 - [实践经理 Power BI 内容](practice-manager-power-bi.md)
 - [生产绩效 Power BI 内容](production-performance-power-bi.md)
 - [采购花费分析 Power BI 内容](purchase-content-pack-for-power-bi.md) 
 - [招聘 Power BI 内容](recruiting-analysis-power-bi-content-pack.md) 
 - [销售和收益率绩效 Power BI 内容](sales-profitability-performance-content-pack.md)
-- [供应商付款 Power BI 内容](/dynamics365/operations/financials/accounts-payable/Vendor-payments-workspace)
+- [供应商付款 Power BI 内容](/dynamics365/unified-operations/financials/accounts-payable/Vendor-payments-workspace)
 - [仓库性能 Power BI 内容](warehouse-power-bi-content.md)
 - [劳动力指标 Power BI 内容](workforce-analysis-power-bi-content-pack.md)  
 
 ### <a name="accessing-the-content"></a>访问内容
 
 #### <a name="embedded-content"></a>嵌入的内容
-除了标记有星号 (\*) 的内容外，前面列表中的所有内容均嵌入在应用程序中。 要了解有关您可以查看 Power BI 内容的位置的详细信息，请单击链接。
+除了标记有星号 (\*) 的内容外，前面列表中的所有内容均嵌入在应用程序中。 要了解有关你可以查看 Power BI 内容的位置的详细信息，请单击上面的链接。
+
+若要查看 Power BI 报表中的数据，请确保刷新实体商店。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md) 中的*更新实体商店*部分。
 
 #### <a name="files-available-in-lifecycle-services"></a>在 Lifecycle Services 中可用的文件
 此 Power BI 内容在 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库中可用。 有关如何下载内容并将其连接到您的数据的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。
@@ -66,7 +68,7 @@ ms.lasthandoff: 06/20/2017
 
 - [薪酬和福利 Power BI 内容](compensation-and-benefits-analysis-power-bi-content-pack.md)   
 - [成本核算分析 Power BI 内容](cost-accounting-analysis-content-pack.md) 
-- [信用和收款管理 Power BI 内容](/dynamics365/operations/financials/accounts-receivable/credit-collections-power-bi)
+- [信用和收款管理 Power BI 内容](/dynamics365/unified-operations/financials/accounts-receivable/credit-collections-power-bi)
 - [员工能力与发展 Power BI 内容](employee-competencies-and-development-analysis-power-bi-content-pack.md) 
 - [财务绩效 Power BI 内容](financial-performance-power-bi-content-pack.md)
 - [组织培训 Power BI 内容](organizational-training-analysis-power-bi-content-pack.md) 

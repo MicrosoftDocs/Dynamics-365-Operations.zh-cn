@@ -3,26 +3,26 @@ title: "管理商店库存"
 description: "本文描述可用于管理库存的文档类型。"
 author: josaw1
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 21391
 ms.assetid: bfef3717-d0e0-491d-8466-d8a9c995177d
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: rubendel
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Retail Version
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 1a5f2cd60e09b67cee4bab211bba4e07e9ef181f
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 42091a5ec94bae3015fd9afca3ddcf1ef24f6eb4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 06/20/2017
 存货盘点可以是计划或不定期的。 存货盘点在总部启动，总部指定必须盘点的物料。 总部会创建盘点文档，并将商店接收，将实际的现有存货数量输入 MPOS 或 Cloud POS.。 计划外存货盘点在商店启动，在 MPOS 或 Cloud POS. 中更新实际的现有存货数量。 与周期盘点不同，计划外存货盘点没有物料的预定义列表。 在存货盘点类型为已完工入库时，它承诺和发送给总部。 在总部，将验证和过帐盘点。
 
 ## <a name="inventory-lookup"></a>库存查找
-在库存查找页可以查看多个商店和仓库的当前现有产品数量。 除了当前现有数量以外，还可以查看各个商店的未来可承诺 (ATP) 数量。 为此，选择您要查看 ATP 的商店，然后单击**查看商店可用性**。
+在库存查找页可以查看多个商店和仓库的当前现有产品数量。 除了当前现有数量以外，还可以查看各个商店的未来可承诺 (ATP) 数量。 为此，选择你要查看 ATP 的商店，然后单击**查看商店可用性**。
 
 
 

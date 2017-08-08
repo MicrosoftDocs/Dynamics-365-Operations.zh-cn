@@ -15,13 +15,13 @@ ms.custom: 1714054
 ms.assetid: 79a1a3b9-3a36-4162-8839-ec39b5e26602
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5ab19faddedae8cf61222762714609601b0ae96f
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: cacf48bc10be5c06154816c2f9951ab4bbaee1c1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 06/20/2017
 在升级到 Finance and Operations 期间，如果产品所关联的存储维度组的设置与 Finance and Operations 中对存储维度组设置的要求不匹配，则该产品被锁定。 但是，在升级后，您可以使用**更改物料的存储维度组**流程中的一组迁移选项取消锁定在升级期间被锁定的产品。 之后可以处理这些产品的交易记录。 您的一些物料可能已经与其站点、仓库和库位库存维度处于活动状态且被物理跟踪的存储维度组关联。 在这种情况下，您可以使用**更改物料的存储维度组**流程允许这些物料在仓库管理流程中使用。 如果您要为现有物料使用仓库管理功能，此功能十分有用。
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>使用 AX 2012 R3 WMSII 时，升级到 Finance and Operations
-Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WMSII** 模块。 相反，您可以使用新的**仓库管理**模块。 有关详细信息，请参阅 [仓库管理主页](https://ax.help.dynamics.com/en/wiki/warehouse-management/)。 在以前的版本中，可能为财务库存选择库位和托盘 ID 库存维度。 但是，作为升级流程的一部分，不可以再为财务库存启用托盘 ID 库存维度。 所有与使用托盘 ID 库存维度的存储维度组关联的产品将被锁定且不会被处理。
+Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WMSII** 模块。 相反，您可以使用新的**仓库管理**模块。 在以前的版本中，可能为财务库存选择库位和托盘 ID 库存维度。 但是，作为升级流程的一部分，不可以再为财务库存启用托盘 ID 库存维度。 所有与使用托盘 ID 库存维度的存储维度组关联的产品将被锁定且不会被处理。
 
 ### <a name="enabling-items-in-finance-and-operations"></a>在 Finance and Operations 中启用物料
 
@@ -70,7 +70,7 @@ Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WM
 1.  创建至少一个新的库位模板。
 2.  单击**仓库管理** &gt; **设置** &gt;**启用仓库管理流程** &gt;**启用仓库设置**。
 3.  在**启用仓库设置**页，添加应启用的仓库。 您可以直接在页面上或使用 Microsoft Office 集成完成此步骤。
-4.  将库位模板分配到所有库位。 您可以直接从页面使用 Microsoft Office 集成轻松地完成此步骤。 您可以在 [数据管理](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/) 中导出和导入数据或使用数据实体处理。
+4.  将库位模板分配到所有库位。 您可以直接从页面使用 Microsoft Office 集成轻松地完成此步骤。 您可以在 [数据管理](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities) 中导出和导入数据或使用数据实体处理。
 5.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 6.  处理更改。
 
@@ -81,7 +81,7 @@ Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WM
 3.  在**预留层次结构**页，根据物料的存储和跟踪维度组定义新的预留层次结构。
 4.  创建一个或多个单位序列组且序列组至少包括与用于物料的库存单位相同的单位。
 5.  单击**仓库管理** &gt; **设置** &gt;**启用仓库管理流程** &gt;**更改物料的存储维度组**。
-6.  在**更改物料的存储维度组**页，添加物料编号、存储维度组和单位序列组。 您可以直接在页面上、使用 Microsoft Office 集成或使用 [数据管理](https://ax.help.dynamics.com/en/wiki/data-management-and-integration-through-data-entity/) 中的数据实体流程完成此步骤。
+6.  在**更改物料的存储维度组**页，添加物料编号、存储维度组和单位序列组。 您可以直接在页面上、使用 Microsoft Office 集成或使用 [数据管理](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities) 中的数据实体流程完成此步骤。
 7.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 8.  处理更改。 更新所有库存维度可能需要一段时间。 您可以使用批处理作业任务监控进度。
 

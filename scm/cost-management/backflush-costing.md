@@ -18,13 +18,12 @@ ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: e520c292b7350f332649f23fb4232e7ecd191776
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 404803c6317b2aeda78de86d4ba11987b2a8cf65
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,7 +34,7 @@ ms.lasthandoff: 06/13/2017
 
 本主题介绍了用于 Lean manufacturing 的倒冲成本计算法概念。 
 
-Lean manufacturing 的成本计算支持生产流使用称为倒冲成本计算法的成本归集法。 在倒冲成本计算法方法中，消耗的直接材料在生产流的在制品 (WIP) 成本科目中累计。 使用标准成本库存模型组。 从生产流程接收的产品按标准成本从 WIP 中扣除。 倒冲成本计算法和标准成本之间的主要差异在于，对于倒冲成本计算法，不计算每个看板或成品的差异。 而是计算某个期间每个生产流的差异。 此方法引入报告物料消耗量的真正精益概念。 专门的材料领料数量不向看板或生产订单报告。 而全部批次或物料处理单元进入到生产流阶段。 在批次或物料处理单元登记为空后，它们将被声明已消耗。 可以根据[生产流的配置](http://ax.help.dynamics.com/en/wiki/lean-manufacturing-modeling-the-lean-organization/)使用高级消耗量。 组织必须先允许自己让生产流的 WIP 中的材料消失后，才能够使用高级消耗量。 定期倒冲成本计算法确定有效 WIP 值为期间的结束。 此确定基于看板物料处理单元和看板作业状态。 每个成本组和物料的有效值与实际 WIP 值之间的偏差被视为差异并作为差异入帐。
+Lean manufacturing 的成本计算支持生产流使用称为倒冲成本计算法的成本归集法。 在倒冲成本计算法方法中，消耗的直接材料在生产流的在制品 (WIP) 成本科目中累计。 使用标准成本库存模型组。 从生产流程接收的产品按标准成本从 WIP 中扣除。 倒冲成本计算法和标准成本之间的主要差异在于，对于倒冲成本计算法，不计算每个看板或成品的差异。 而是计算某个期间每个生产流的差异。 此方法引入报告物料消耗量的真正精益概念。 专门的材料领料数量不向看板或生产订单报告。 而全部批次或物料处理单元进入到生产流阶段。 在批次或物料处理单元登记为空后，它们将被声明已消耗。 可以根据[生产流的配置](/dynamics365/unified-operations/supply-chain/production-control/lean-manufacturing-modeling-lean-organization)使用高级消耗量。 组织必须先允许自己让生产流的 WIP 中的材料消失后，才能够使用高级消耗量。 定期倒冲成本计算法确定有效 WIP 值为期间的结束。 此确定基于看板物料处理单元和看板作业状态。 每个成本组和物料的有效值与实际 WIP 值之间的偏差被视为差异并作为差异入帐。
 
 ## <a name="configuring-backflush-costing"></a>配置倒冲成本计算法
 若要启用成本计算，您必须完成以下设置：

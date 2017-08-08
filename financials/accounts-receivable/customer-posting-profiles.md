@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: CustPosting
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24651
 ms.assetid: cb82245e-8c02-429c-b36e-8db0e3e6f7e5
 ms.search.region: Global
 ms.author: mfalkner
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 3eeedc32bd9a07fbd0540111cca304ed36bcd4f2
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 285216807eadeca74b7556cbc10bddc9924e34fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -102,7 +101,7 @@ ms.lasthandoff: 05/25/2017
 <table>
 <thead>
 <tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Note" alt="Note" id="alert_note" class="cl_IC101471" /><strong>注意</strong></th>
+<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="注意" alt="Note" id="alert_note" class="cl_IC101471" /><strong>注释</strong></th>
 </tr>
 </thead>
 <tbody>

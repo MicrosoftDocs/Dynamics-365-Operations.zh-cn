@@ -1,5 +1,5 @@
 ---
-title: "通过提领看板补货 | Microsoft 文档"
+title: "通过提领看板补货"
 description: "此主题介绍如何使用提领看板进行物料补货用于制造活动。"
 author: johanhoffmann
 manager: AnnBe
@@ -19,11 +19,11 @@ ms.industry: Manufacturing
 ms.author: johanhoffmann
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: abac5e05f40132844cf1817be533151cbf238d95
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: d32ef5d5fdf49e4fea9177c1d9737ad0fa5ddb8f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 

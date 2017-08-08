@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 11554
 ms.assetid: 262b7b88-2cce-44f7-9a5b-77c12af1be20
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 17608d373fbedd20efe0b525ec141989a50a40a2
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 579abd13f75c332bb4619730ed3630ffe6065d74
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 06/13/2017
 **注释：**本文适用于**“仓库管理”** 模块（高级仓库）中的功能。 它不适用于**“库存管理”**模块中的仓库功能。
 
 ## <a name="warehouse-layout"></a>仓库布局
-Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的仓库管理系统允许您以灵活方式定义您的仓库布局以适应不断变化的需要，因此，您可以实现最佳仓库效率。
+Microsoft Dynamics 365 for Finance and Operations Enterprise 版本中的仓库管理系统允许您以灵活方式定义您的仓库布局以适应不断变化的需要，因此，您可以实现最佳仓库效率。
 
 -   您可以为货物的最佳位置建立高优先级和低优先级存储区域。
 -   您可以将您的仓库划分为区域以满足各种存储需要，例如温度要求或物料各种周转比率。
@@ -116,7 +116,7 @@ Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的仓�
 <a name="see-also"></a>请参阅
 --------
 
-[在启用 WMS 的仓库中配置位置（任务指南）](https://ax.help.dynamics.com/en/wiki/configure-locations-in-a-wms-enabled-warehouse/)
+[在启用 WMS 的仓库中配置位置（任务指南）](/dynamics365/unified-operations/supply-chain/warehousing/tasks/configure-locations-wms-enabled-warehouse)
 
 
 

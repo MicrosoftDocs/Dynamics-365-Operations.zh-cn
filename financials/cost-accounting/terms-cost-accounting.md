@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 35b8e510e7e2c13aebb73f46d20b16275d097432
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 1f12e8e82430c79ee93f2284e5fdf47ac559525d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 06/13/2017
 
 **成本核算**
 
-成本核算允许您从不同的数据源收集数据，如总帐、子分类帐、预算和统计信息。 然后可以分析、汇总和评估成本数据，因而管理层在价格更新、预算、成本控制等方面可以做出最有利的决策。 用于成本分析的源数据在成本核算中独立处理。 因此，在成本核算中更新不影响源数据。 但是，你从不同的数据源收集成本数据时，尤其是当您从 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的总帐中导入主科目作为成本元素时，存在数据冗余，因为相同的数据同时存在于总帐和成本核算中。 此冗余是必需的，因为您使用财务管理进行外部报告，使用成本核算进行内部报告。
+成本核算允许您从不同的数据源收集数据，如总帐、子分类帐、预算和统计信息。 然后可以分析、汇总和评估成本数据，因而管理层在价格更新、预算、成本控制等方面可以做出最有利的决策。 用于成本分析的源数据在成本核算中独立处理。 因此，在成本核算中更新不影响源数据。 但是，你从不同的数据源收集成本数据时，尤其是当您从 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本中的总帐中导入主科目作为成本元素时，存在数据冗余，因为相同的数据同时存在于总帐和成本核算中。 此冗余是必需的，因为您使用财务管理进行外部报告，使用成本核算进行内部报告。
 
 **成本核算分类帐**
 
@@ -121,9 +121,13 @@ ms.lasthandoff: 06/13/2017
 -   税金
 -   公共设施费用
 
+**成本分配**
+
+成本分配用于通过应用相关的分摊基数将成本从一个成本对象重新分配到一个或多个其他成本对象。 成本分配和成本分摊的不同之处在于，成本分配始终发生在原始成本的主要成本元素级别。
+
 **成本分摊**
 
-成本分摊是基于常见成本的根本原因分配和分摊成本的过程。 您将一个成本对象的成本金额和数量分摊到其他一个或多个成本对象。 例如，所有设施服务费用分摊到使用公共办公建筑物的不同部门。
+分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。 Finance and Operations 支持互惠分摊方法。 在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。 系统自动确定执行分摊的正确顺序。 成本对象的余额按单一分配基础分配。 支持跨成本对象维度及其各自成员的分摊。 分摊顺序由成本控制单元控制。
 
 **成本分摊政策**
 

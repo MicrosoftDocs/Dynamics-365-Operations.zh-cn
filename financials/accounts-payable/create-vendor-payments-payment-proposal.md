@@ -3,26 +3,26 @@ title: "使用付款方案创建供应商付款"
 description: "本主题提供付款方案选项的概览并包括显示付款方案如何工作的一些示例。 付款方案通常用于创建供应商付款，因为查询可以用于基于到期日期和现金折扣等条件快速选择付款的供应商发票。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/17/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14312
 ms.assetid: 585d5b0b-1b79-4a03-ab18-528918070377
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b351ea58a25c763dcf90ff1c61e0e3b3cba6c34a
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: aac70abc25c45ef4479425cdb648f4450d5db2dc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 05/25/2017
 ## <a name="parameters"></a>参数设置
 -   **选择发票基于** – 在由**开始日期**和**结束日期**字段指定的日期范围内的发票可按到期日期、现金折扣日期或这两者来选择。 如果您使用现金折扣日期，系统将首先查找现金折扣日期在开始日期和结束日期之间的发票。 系统然后通过使用会话日期确定发票是否满足现金折扣资格，以确保现金折扣日期尚未过期。
 -   **开始日期**和**结束日期** – 具有在此日期范围内的到期日期或现金折扣日期的发票将为付款选择。
--   **付款日期** – 如果日期已定义，所有付款在此日期创建。 忽略**最小付款日期**字段。
+-   **付款日期** - 仅当付款方式上的**期间**字段设置为**总计**时才可用。 如果日期已定义，则所有付款在此日期创建。 忽略**最小付款日期**字段。
 -   **最小付款日期** – 输入最小付款日期。 例如，**开始日期**和**结束日期**字段指定范围 9 月 1 日到 9 月 10 日，最小付款日期为 9 月 5 日。 在这种情况下，到期日期从 9 月 1 日到 9 月 5 日的所有发票均具有付款日期 9 月 5 日。 但是，到期日期从 9 月 5 日到 9 月 10 日的所有发票的付款日期等于每个发票的到期日期。
 -   **限额** – 输入所有付款的最大总金额。
 -   **在不预览发票的情况下创建付款** – 如果将此选项设置为**是**，付款立即在**供应商付款**页中创建。 **付款方案**页将被跳过。 因此，付款将更快创建。 付款仍可以从**供应商付款**页修改。 或者，您可以使用**编辑所选付款的发票**按钮返回**付款方案**页。

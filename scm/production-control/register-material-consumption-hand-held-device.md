@@ -1,5 +1,5 @@
 ---
-title: "使用移动设备登记物料消耗量 | Microsoft 文档"
+title: "使用移动设备登记物料消耗量"
 description: "此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。"
 author: johanhoffmann
 manager: AnnBe
@@ -15,13 +15,13 @@ ms.custom: 1706093
 ms.assetid: 75ee68e0-4b9f-4f4d-b286-f498e0eb73fa
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2c4b6637d35820e3ab7b7c43bbf7cecde516c46c
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: b4c0d14340e96b2e7916ea73e25e62ae5c33ce49
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
