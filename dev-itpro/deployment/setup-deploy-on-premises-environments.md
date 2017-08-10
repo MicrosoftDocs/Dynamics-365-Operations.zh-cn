@@ -18,10 +18,10 @@ ms.author: sarvanisathish
 ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 3e9a2e33d9579769f6808b598f865d75f072c450
+ms.sourcegitcommit: d100f6dbcbdf8f4c12ab04670fb598a88d48d84b
 ms.openlocfilehash: 7caf033ab2de5afd6a2d88fa2d41631df4542cbe
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
