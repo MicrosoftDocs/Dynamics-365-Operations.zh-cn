@@ -1,21 +1,19 @@
 ---
 title: "设置并部署本地环境"
 description: "本主题提供关于如何计划、设置和部署本地环境的信息。"
-author: kfend
+author: sarvanisathish
 manager: AnnBe
-ms.date: 06/14/2017
+ms.date: 08/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core
-ms.custom: 55651
-ms.assetid: 
+ms.search.scope: Operations, Unified Operations
 ms.search.region: Global
-ms.author: sarvanisathish
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.author: sarvanis
+ms.search.validFrom: 2017-06-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
 ms.sourcegitcommit: d100f6dbcbdf8f4c12ab04670fb598a88d48d84b
