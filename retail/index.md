@@ -18,27 +18,20 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611, Retail Version
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 2de5b3d532c599f2273b97dad1db6a027c4dc04a
+ms.translationtype: HT
+ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
+ms.openlocfilehash: bde08c142e976cd5546703b27af2f9a3ac635d9e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/29/2017
+ms.lasthandoff: 07/31/2017
 
 ---
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>欢迎使用 Dynamics 365 for Retail
 
-[!include[banner](includes/banner.md)]
-
 Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供跨所有渠道的统一商务。 其中包括销售、移动性、智能和工作效率解决方案，帮助零售商和工作人员以云优先和移动优先的方式实现更多目标。 Retail 为实施各类业务流程提供全面的支持，如促销活动、库存和渠道管理功能。 它还跨所有接触点提供沉浸式客户体验。
 
-以下三种产品密切相关：
-
-- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
-- Microsoft Dynamics 365 for Retail
-- Microsoft Dynamics 365 for Talent
-
-这三种产品的功能可能存在重合。 因此，在主要涉及到 Retail 的主题中，产品名称将为 Microsoft Dynamics 365 for Retail。 在主要涉及到 Talent 的主题中，产品名称将为 Microsoft Dynamics 365 for Talent。 最后，与涉及核心产品 (Finance and Operations) 的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+> [!NOTE] 
+> Dynamics 365 for Retail 与 Dynamics 365 for Finance and Operations Enterprise 版和 Dynamics 365 for Talent 密切相关。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Retail；在主要与核心产品 (Finance and Operations) 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations Enterprise 版；在主要与人力资源有关的主题中，产品名称将为 Dynamics 365 for Talent。 
 
 在左侧窗格中，选择一个功能区域以了解有关它的更多信息。
 
