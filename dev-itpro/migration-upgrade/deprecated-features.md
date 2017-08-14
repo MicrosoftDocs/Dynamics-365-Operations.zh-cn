@@ -3,25 +3,25 @@ title: "弃用功能"
 description: "本主题介绍已经删除或计划删除的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 07/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.search.scope: Operations, Platform
+ms.reviewer: sericks
+ms.search.scope: Operations, Platform, UnifiedOperations
 ms.custom: 21821
 ms.assetid: 31019808-4cbf-47d7-b1ba-d791db4281ae
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-08-30
+ms.search.validFrom: 2016-08-30T00:00:00.000Z
 ms.dyn365.ops.version: Platform update 6
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3267bd1cbd738b5ced9996fc3b28eee211627591
-ms.openlocfilehash: 8feffb27b5d08a9c90e97ac0d7e00abf0448d0df
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 18274d9ca390ee3d6d463b3a6d67ddc3a39294f8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/16/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -29,18 +29,19 @@ ms.lasthandoff: 06/16/2017
 
 [!include[banner](../includes/banner.md)]
 
-本主题介绍已经删除或计划删除的功能。
+本主题介绍了已从 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本移除或计划移除的功能。
 
-## <a name="features-that-have-been-deprecated-in-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>在 Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新中已经弃用的功能
+## <a name="features-that-have-been-deprecated-for-all-deployment-types-of-the-july-2017-update-with-platform-update-8"></a>平台更新 8 已对 2017 年 7 月更新的所有部署类型弃用的功能
+此列表包括已对云和本地部署弃用的功能。
 
 ### <a name="warehouse-mobile-devices-portal"></a>仓库移动设备门户
 
-仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。 此组件在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中不再受支持。 一个可提高用户体验的本机应用已替代 WMDP 的功能。 
+仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。 此组件在 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本中不再受支持。 一个可提高用户体验的本机应用已替代 WMDP 的功能。 
 
 |                                  |                                                 |
 |----------------------------------|-------------------------------------------------|
 | **弃用原因**       | 重复的功能。                        |
-| **被另一个功能取代？** | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅 [安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app)。 |
+| **被另一个功能取代？** | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅 [安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing](/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app)。 |
 | **受影响的模块**             | 仓库管理，运输管理 |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>用于手动匹配的高级银行对帐匹配规则
@@ -62,6 +63,28 @@ Windows 8 平板电脑应用提供用于费用录入和审核的功能。
 | **弃用原因**       | Finance and Operations 与平板电脑兼容。 无需再使用平板电脑应用。 |
 | **被另一个功能取代？** | 编号                                                                                      |
 | **受影响的模块**             | 费用报销管理                                                                       |
+
+## <a name="features-that-have-been-deprecated-for-on-premises-deployments-of-the-july-2017-update-with-platform-update-8"></a>平台更新 8 已对 2017 年 7 月更新的本地部署弃用的功能
+
+### <a name="ssrs-report-viewer-control"></a>SSRS 报表查看器控件
+
+此功能用于在 Finance and Operations Web 客户端中与 HTML 格式报表交互。
+
+|                                  |  |
+|----------------------------------|--|
+| **弃用原因**       | SQL Reporting Services (SSRS) 不支持与本地 Web 客户端兼容的报表查看器控件。      |
+| **被另一个功能取代？** | 报表由本地服务作为 PDF 文档呈现。 使用扩展启用在应用程序报表中嵌入的钻取链接。 |
+| **受影响的模块**             | 全部    |
+
+### <a name="document-routing-agent"></a>文档路线选择代理
+
+文档路线选择代理客户端作为服务网关用于从云连接到域验证的网络打印机。
+
+|                                  |  |
+|----------------------------------|--|
+| **弃用原因**       | 本地部署在域验证的服务器上进行托管。 这提供对网络打印机设备的安全、直接的访问。 |
+| **被另一个功能取代？** | 此组件不是本地部署所必需的。|
+| **受影响的模块**             | 无               |
 
 
 <a name="features-that-have-been-deprecated-in-dynamics-365-for-operations-1611-with-platform-update-3"></a>在具有平台更新 3 的 Dynamics 365 for Operations 1611 中被弃用的功能
@@ -488,11 +511,20 @@ ICMS 税联邦报税单
 
 数据分区在 Microsoft Dynamics AX 数据库中提供数据的逻辑界定。
 
-|                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-|------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|   |   |
+|---|---|
 | 折旧的原因       | 数据分区在 Microsoft Dynamics AX 2012 R2 引入以启用数据隔离。 在常见情况中，公司有子公司，一个子公司的数据不应对另一个子公司可见，即使两个子公司均由相同的 IT 部门管理。 不过，整个程序都需要额外的脚本和管理开销来创建新的分区并填充数据，以及备份分区数据。 在云中，在其中我们有访问平台即服务 (PaaS) 数据库服务（Microsoft SQL Azure 数据库）的权限，则使用数据库作为隔离容器比在程序中执行隔离要高效得多。 不管是子公司、多个租户，或只为规模需要进行数据分区，我们认为通过多个数据库或多个 Dynamics AX 实例都可以更好地处理这种情况。 |
-| 被另一个功能取代？ | 通过在将来版本中支持多个数据库或 Dynamics AX 实例，数据分区将被替换。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-| 受影响的模块             | 全部                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
+| 被另一个功能取代？ | 通过在将来版本中支持多个数据库或 Dynamics AX 实例，数据分区将被替换。    |
+| 受影响的模块             | 全部  |
+
+### <a name="database-and-file-share-storage-for-attachments"></a>数据库和文件共享附件存储
+Microsoft Dynamics AX 2012 允许在数据库和文件共享中存储附件。 这两个选项都不再受支持。
+
+|                              |                                        |
+|------------------------------|----------------------------------------|
+| 折旧的原因       | 云托管的环境无法再与本地文件共享通信，因此文件共享存储不再受支持。 为了支持 Azure Blob 存储，数据库存储已弃用。 Azure Blob 存储相当于数据库中的存储，因为文档仅可以通过 Dynamics 365 for Finance and Operations 客户端窗体进行访问。 这提供额外好处，即提供存储不会对数据库的性能造成不利影响。 Blob 存储是文档管理的默认存储机制并立即生效。 |
+| 被另一个功能取代？ | 为了支持 Azure Blob 存储，数据库存储已弃用。       |
+| 受影响的模块             | 全部                   |
 
 ### <a name="delimitation"></a>界定
 
@@ -525,7 +557,7 @@ ICMS 税联邦报税单
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 折旧的原因       | 现在使用的是通用功能，而不是本地化功能。                                                                                                                                                                 |
-| 被另一个功能取代？ | 是，此功能已被高级银行对帐功能取代。 此外，camt.053 ISO20022 帐户对帐单导入的实现是为 Dynamics AX 下一次更新的普通日记帐而规划的。 |
+| 被另一个功能取代？ | 是，此功能已被高级银行对帐功能取代。 |
 | 受影响的模块             | 全部                                                                                                                                                                                                                                   |
 
 ### <a name="ebilanz-xbrl-for-germany"></a>eBilanz（针对德国的 XBRL）
@@ -577,7 +609,7 @@ ICMS 税联邦报税单
 |                              |                                                                                                                                                                                                                                                                                                |
 |------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 折旧的原因       | 该格式不再适用于德国，因为它已被单一欧元支付区 (SEPA) 功能取代。                                                                                                                                                                 |
-| 被另一个功能取代？ | 是，此功能已被 SEPA 付款导出和高级银行对帐功能（用于导入帐户对帐单）取代。 此外，camt.053 ISO20022 帐户对帐单导入的实现是为 Dynamics AX 下一次更新的普通日记帐而规划的。 |
+| 被另一个功能取代？ | 是，此功能已被 SEPA 付款导出和高级银行对帐功能（用于导入帐户对帐单）取代。 |
 | 受影响的模块             | 全部                                                                                                                                                                                                                                                                                            |
 
 ### <a name="german-dtazv-payment-format"></a>德国 DTAZV 付款格式
@@ -593,7 +625,7 @@ ICMS 税联邦报税单
 |                              |                                                                                                                                                                                                                                       |
 |------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 折旧的原因       | 现在使用的是通用功能，而不是本地化功能。                                                                                                                                                                 |
-| 被另一个功能取代？ | 是，此功能已被高级银行对帐功能取代。 此外，camt.053 ISO20022 帐户对帐单导入的实现是为 Dynamics AX 下一次更新的普通日记帐而规划的。 |
+| 被另一个功能取代？ | 是，此功能已被高级银行对帐功能取代。 |
 | 受影响的模块             | 全部                                                                                                                                                                                                                                   |
 
 ### <a name="german-xml-eu-sales-list"></a>德国 XML 欧盟销售清单

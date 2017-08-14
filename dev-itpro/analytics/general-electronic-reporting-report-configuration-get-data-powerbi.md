@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
+ms.reviewer: kfend
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 36c5e78f4b85d0c763c35b62a6592365501db325
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 6be91dfc02b728ffdf0f9d3baf1d41d3d2c10fea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -103,7 +103,7 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
 在**配置**页面（**组织管理** &gt; **电子申报** &gt; **配置**）上的配置树中，选择您先前创建的**导入/导出活动**配置。 将版本 1.1 的状态从“**草稿**”更改为“**完成**”，使此格式可使用。 [![“配置”页](./media/ger-power-bi-format-configuration-complete-1024x401.png)](./media/ger-power-bi-format-configuration-complete.png) 选择**导入/导出活动**配置的已完成版本，然后点击**运行**。 注意配置目标应用到以 Excel 格式生成的输出结果。 将“**批处理**”选项设置为“**是**”，从而以未看管模式运行此报表。 单击“**重复执行**”以计划此批处理执行所需的重复周期。 重复周期定义了更新数据从 Finance and Operations 转移至 Power BI 的频率。 [![“电子报表参数”对话框](./media/ger-power-bi-format-configuration-run-to-schedule-1024x413.png)](./media/ger-power-bi-format-configuration-run-to-schedule.png) 在配置后，您可以在**批处理作业**页面上找到 ER 报表执行作业（**系统管理 &gt; 查询 &gt;  批处理作业**）。 [![“批处理作业”页](./media/ger-power-bi-format-configuration-running-job-1024x410.png)](./media/ger-power-bi-format-configuration-running-job.png) 第一次运行此作业时，目标创建的新 Excel 文件具有在选定的 SharePoint 文件夹中配置的名称。 以后每次运行作业时，目标都会创建此 Excel 文件的新版本。 [![Excel 文件的新版本](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2-1024x412.png)](./media/ger-power-bi-output-file-in-sharepoint-server-folder-2.png)
 
 ## <a name="create-a-power-bi-dataset-by-using-the-output-result-of-the-er-format"></a>使用 ER 格式的输出结果创建 Power BI 数据集
-登录 Power BI，打开现有 Power BI 组（工作区）或新建组。 单击**导入或连接数据**部分的**文件**下的**添加**，或者单击左窗格中的**数据集**旁边的加号 (**+**)。 [![创建数据集](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) 选择**SharePoint - 团队站点**选项，然后输入您正在使用的 SharePoint Server 的路径（在我们的示例中为 **https://ax7partner.spoppe.com**）。 然后浏览到 **/Shared Documents/GER data/PowerBI** 文件夹，再选择您作为新 Power BI 数据集的数据源创建的 Excel 文件。 [![选择 Excel 文件](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) 单击**连接**，然后单击**导入**。 基于选择的 Excel 文件创建新的数据集。 数据集也可以自动添加到新创建的仪表板。 [![仪表板上的数据集](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) 为此数据集配置强制定期更新的刷新计划。 定期更新允许通过定期执行 ER 报表来自 Finance and Operations 的新业务数据通过在 SharePoint Server 上创建的 Excel 文件的新版本消耗。
+登录 Power BI，打开现有 Power BI 组（工作区）或新建组。 单击**导入或连接数据**部分的**文件**下的**添加**，或者单击左窗格中的**数据集**旁边的加号 (**+**)。 [![创建数据集](./media/ger-power-bi-add-dataset-1024x524.png)](./media/ger-power-bi-add-dataset.png) 选择 **SharePoint - 团队站点**选项，然后输入你正在使用的 SharePoint Server 的路径（在我们的示例中为 **https://ax7partner.litware.com**）。 然后浏览到 **/Shared Documents/GER data/PowerBI** 文件夹，再选择您作为新 Power BI 数据集的数据源创建的 Excel 文件。 [![选择 Excel 文件](./media/ger-power-bi-add-dataset-select-excel-file-1024x522.png)](./media/ger-power-bi-add-dataset-select-excel-file.png) 单击**连接**，然后单击**导入**。 基于选择的 Excel 文件创建新的数据集。 数据集也可以自动添加到新创建的仪表板。 [![仪表板上的数据集](./media/ger-power-bi-added-dataset-1024x489.png)](./media/ger-power-bi-added-dataset.png) 为此数据集配置强制定期更新的刷新计划。 定期更新允许通过定期执行 ER 报表来自 Finance and Operations 的新业务数据通过在 SharePoint Server 上创建的 Excel 文件的新版本消耗。
 
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>使用新的数据集创建 Power BI 报表
 要创建新的 Power BI 报表，单击您创建的“**导入和导出详细信息**”Power BI 数据集。 然后配置可视化。 例如，选择“**填充的地图**”可视化，然后进行以下配置：

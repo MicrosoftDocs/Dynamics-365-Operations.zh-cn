@@ -10,19 +10,19 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: kfend
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 655a6fd99c0688b13c31c79f3322a287f902e7f1
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 2c04bbccf22ab830404206cd54b4cb8e97b6a822
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -196,8 +196,8 @@ ER 表达式可以包含任意或所有以下元素：
 | SESSIONNOW ()                              | 返回当前的 Dynamics 365 for Finance and Operations 会话日期和时间作为日期时间值。                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                       |
 | DATEFORMAT（日期，格式）                  | 使用指定格式返回日期的字符串表示形式。                                                                                                                                                                                                                                                                                                    | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** 根据指定的自定义格式返回当前的 Dynamics 365 for Finance and Operations 会话日期 12/24/2015 为 “**24-12-2015**”。                                                                                                                      |
 | DATEFORMAT（日期，格式，区域性）         | 转换指定的日期值为指定格式和[区域性](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。）     | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** 根据所选的德国区域性返回当前的 Finance and Operations 会话日期 12/24/2015 为 **“24.12.2015”**。                                                                                                                       |
-| DAYOFYEAR（日期）              | 返回 1 月 1 日与指定日期之间的天数的整数表现形式。       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** 返回 **61**。
-**DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** 返回 **1**。                                                                                                                       |
+| DAYOFYEAR（日期）              | 返回 1 月 1 日与指定日期之间的天数的整数表现形式。       | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** 返回 **61**。 **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** 返回 **1**。 
+                                                                                                                      |
 
 **数据转换函数**
 
@@ -236,7 +236,14 @@ ER 表达式可以包含任意或所有以下元素：
 <li>作为常规列表的批次（<strong>值</strong>组件）</li>
 <li>当前批处理号（<strong>BatchNumber</strong> 组件）</li>
 </ul></td>
-<td>在以下示例中，<strong>行</strong>数据源作为三个记录的记录列表创建，并划分为多个批次，每个批次最多包含两个记录。 <a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 它显示了设计的格式布局，在其中创建与<strong>行</strong>数据源的绑定来生成以此格式呈现每个批次和记录的单个节点的 XML 格式的输出。 <a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 以下是运行设计的格式的结果。 <a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<td>在以下示例中，<strong>行</strong>数据源作为三个记录的记录列表创建，并划分为多个批次，每个批次最多包含两个记录。 
+<a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a> 
+
+它显示了设计的格式布局，在其中创建与<strong>行</strong>数据源的绑定来生成以此格式呈现每个批次和记录的单个节点的 XML 格式的输出。 
+<a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a> 
+
+以下是运行设计的格式的结果。 
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
 </tr>
 <tr class="odd">
 <td>LIST（记录 1 [，记录 2，...]）</td>
@@ -300,7 +307,14 @@ ER 表达式可以包含任意或所有以下元素：
 <li>作为常规列表的指定列表记录（<strong>值</strong>组件）</li>
 <li>当前记录索引（<strong>编号</strong>组件）</li>
 </ul></td>
-<td>在以下示例中，<strong>枚举</strong>数据源创建为引用 <strong>VendTable</strong> 表的<strong>供应商</strong>数据源的供应商记录的枚举列表。 <a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a>这里是格式，其中创建数据绑定来作为枚举节点生成呈现单个供应商的 XML 格式的输出。 <a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 这是运行设计的格式的结果。 <a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<td>在以下示例中，<strong>枚举</strong>数据源创建为引用 <strong>VendTable</strong> 表的<strong>供应商</strong>数据源的供应商记录的枚举列表。 
+<a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a> 
+
+这里是格式，其中创建数据绑定来作为枚举节点生成呈现单个供应商的 XML 格式的输出。 
+<a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a> 
+
+这是运行设计的格式的结果。 
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
 </tr>
 <tr class="odd">
 <td>COUNT（列表）</td>
@@ -322,13 +336,24 @@ ER 表达式可以包含任意或所有以下元素：
 <li>说明</li>
 </ul>
 “标签”和“说明”字段将基于格式的语言设置在运行时值返回。</td>
-<td>以下示例显示在数据模型中引入的枚举。 <a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a> 将显示以下示例：
+<td>以下示例显示在数据模型中引入的枚举。 
+<a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="GER LISTOFFIELDS function - model enumeration" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a>
+
+ 将显示以下示例：
 <ul>
 <li>作为数据源插入报表的模型枚举。</li>
 <li>设计为使用模型枚举作为此功能参数的 ER 表达式。</li>
 <li>使用创建的 ER 表达式插入报表中的记录列表类型的数据源。</li>
 </ul>
-<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a>  以下示例显示了绑定到使用 LISTOFFIELDS 功能创建的记录列表类型的数据源的 ER 格式元素。<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>这是设计的格式执行的结果。<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>注意：:</strong>翻译的标签和说明文本根据为父 FILE 和 FOLDER 格式元素配置的语言设置填充到 ER 格式输出。</td>
+<a href="./media/ger-listoffields-function-in-format-expression.png"><img src="./media/ger-listoffields-function-in-format-expression-e1474546110395.png" alt="GER LISTOFFIELDS function - in format expression" class="alignnone wp-image-1204033 size-full" width="549" height="318" /></a> 
+
+以下示例显示绑定到使用 LISTOFFIELDS 函数创建的记录列表类型数据源的 ER 格式元素。
+<a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="GER LISTOFFIELDS function - format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a>
+
+这是设计的格式执行的结果。
+<a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="GER LISTOFFIELDS function - format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a><strong>
+
+注意：</strong>标签和描述的翻译文本根据为父 FILE 和 FOLDER 格式元素配置的语言设置填充到 ER 格式输出。</td>
 </tr>
 <tr class="odd">
 <td>STRINGJOIN（列表、字段名称，分隔符）</td>
@@ -338,7 +363,18 @@ ER 表达式可以包含任意或所有以下元素：
 <tr class="even">
 <td>SPLITLISTBYLIMIT（列表、限值，源限制）</td>
 <td>将特定列表拆分为由子列表组成的新列表，并将结果返回到记录列表目录中。 限值参数指定拆分原始列表的限值。 限制源参数指定增加总和的步骤。 当限值源超过定义的限值时，限值不适用于给定列表的单个项目。</td>
-<td>以下示例显示了使用数据源的示例格式。 <a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>这是显示商品项目简单列表的结果格式执行。<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>以下示例显示了单个批次必须包括总重不超过限值 9 的商品时，用来显示商品项目列表的调整后的相同格式。<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>这是调整后的格式执行的结果。 <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a><strong>注意：</strong>此限值不适用于原始列表的最后一个项目，因为其限值源（重量）的值 (11) 超过定义的限值 (9)。 在报表生成过程中（如有必要）使用相应格式元素的函数 <strong>WHERE</strong> 或 <strong>Enabled</strong> 表达式忽略（跳过）子列表。</td>
+<td>以下示例显示了使用数据源的示例格式。 
+<a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="GER SPLITLISTBYLIMIT - format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="GER SPLITLISTBYLIMIT - datasources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a>
+
+这是呈现商品物料简单列表的结果格式执行。
+<a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="GER SPLITLISTBYLIMIT - output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a>
+
+以下示例显示调整后的相同格式，以显示单个批次必须包括总重量不应超过限值 9 的商品的批次中的商品物料的列表。
+<a href="./media/ger-splitlistbylimit-format-1.png"><img src="./media/ger-splitlistbylimit-format-1.png" alt="GER SPLITLISTBYLIMIT - format 1" class="alignnone size-full wp-image-1204103" width="466" height="438" /></a><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="GER SPLITLISTBYLIMIT - datasources 1" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a>
+
+这是调整的格式执行的结果。 <a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="GER SPLITLISTBYLIMIT - output 1" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a>
+
+<strong>注意：</strong>此限值不适用于原始列表的最后一个物料，因为其限值源（重量）的值 (11) 超出定义的限值 (9)。 在报表生成过程中（如有必要）使用相应格式元素的函数 <strong>WHERE</strong> 或 <strong>Enabled</strong> 表达式忽略（跳过）子列表。</td>
 </tr>
 <tr class="odd">
 <td>FILTER（列表，条件）</td>
@@ -511,7 +547,10 @@ ER 表达式可以包含任意或所有以下元素：
 <tr class="even">
 <td>FORMAT（字符串 1，字符串 2 [，字符串 3，...]）</td>
 <td>返回指定字符串，其通过代替任何出现的带有 <em>n</em> 参数的 <strong>%N</strong> 设置格式。 这些参数是字符串。 如果参数不是为参量提供，则参量在字符串中返回为 <strong>&quot;%N&quot;</strong>。 对于 <strong>real</strong> 类型的值，字符串转换被限制为两位小数。</td>
-<td>在此示例中，数据源 <strong>PaymentModel</strong> 通过<strong>客户</strong>组件返回客户记录列表，通过 <strong>ProcessingDate</strong> 字段返回处理日期值。 <a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 在指定用于为所选客户生成电子文件的 ER 格式中，<strong>PaymentModel</strong> 被选择为数据源并控制流程。 当所选客户在处理报表的日期停止时，将引发最终用户异常。 为此类处理控制设计的配方可以使用以下资源：
+<td>在此示例中，数据源 <strong>PaymentModel</strong> 通过<strong>客户</strong>组件返回客户记录列表，通过 <strong>ProcessingDate</strong> 字段返回处理日期值。 
+<a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a> 
+
+在指定用于为所选客户生成电子文件的 ER 格式中，<strong>PaymentModel</strong> 被选择为数据源并控制流程。 当所选客户在处理报表的日期停止时，将引发最终用户异常。 为此类处理控制设计的配方可以使用以下资源：
 <ul>
 <li>Finance and Operations 标签 SYS70894，具有以下文本：
 <ul>
@@ -526,8 +565,8 @@ ER 表达式可以包含任意或所有以下元素：
 </ul>
 这是一个可设计的公式：FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;。 &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;)) 如果报表于 2015 年 12 月 17 日为 <strong>Litware 零售客户</strong>处理，在 <strong>EN-US</strong> 区域性和 <strong>EN-US</strong> 语言中，此公式返回以下文本，其可能呈现为最终用户的异常消息：&quot;Nothing to print。 客户 Litware 零售已于 2015 年 12 月 17 日停止。&quot;如果 2015 年 12 月 17 日为 <strong>Litware 零售客户</strong>处理同一个报表，在 <strong>DE</strong> 区域性和 <strong>DE</strong> 语言中，此公式返回以下文本（使用不同的日期格式）：&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt。&quot; <strong>注意：</strong>以下语法在标签的 ER 公式中应用：
 <ul>
-<li><strong>对于 Finance and Operations 资源的标签：</strong> <strong>@&quot;X&quot;</strong>，其中 X 是应用程序对象树 (AOT) 中的标签 ID</li>
-<li><strong>对于位于 ER 配置中的标签：</strong> <strong>@&quot;GER_LABEL:X&quot;</strong>，其中 X 是 ER 配置中的标签 ID</li>
+<li><strong>对于 Finance and Operations 资源的标签：</strong><strong>@&quot;X&quot;</strong>，其中 X 是应用程序对象树 (AOT) 中的标签 ID</li>
+<li><strong>对于位于 ER 配置中的标签：</strong><strong>@&quot;GER_LABEL:X&quot;</strong>，其中 X 是 ER 配置中的标签 ID</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -549,7 +588,8 @@ ER 表达式可以包含任意或所有以下元素：
 <td>TRIM（字符串）</td>
 <td>前导和尾随空格截断后，返回给定文本，并删除单词之间的多个空格。 </td>
 <td><strong>TRIM（“     示例     文本     ”）</strong>返回<strong>“示例文本”。</strong></td>
-=======
+</tr>
+<tr class="odd">
 <td>GETENUMVALUEBYNAME（枚举数据源路径，枚举值标签文本）</td>
 <td>按此枚举标签指定的文本返回指定枚举数据源的值。</td>
 <td>以下示例显示在数据模型中引入的枚举 ReportDirection。 请注意，为枚举值定义标签。

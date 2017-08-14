@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 4d26d690e63898bfb463177da6654f1175ff35af
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: c520e14233fb03646aa4a273362e596bd1990a8c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -96,15 +96,15 @@ ms.lasthandoff: 06/20/2017
 - Microsoft Power BI:
 
     - Power BI 可视化项中显示的数据
-    - Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 客户端中嵌入的数据 Power BI 可视化项。
+    - Microsoft Dynamics 365 for Finance and Operations Enterprise 版本客户端中嵌入的数据 Power BI 可视化项。
 
 > [!IMPORTANT]
-> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)。
+> - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)。
 > - 此主题说明使用**成本控制**工作区前必须具备的先决条件。
 
 请参阅
 
 - [成本控制工作区](cost-control-workspace.md)
 - [维度层次结构](dimension-hierarchy.md)
-- [设置成本核算内容包的安全性](/dynamics365/operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
+- [设置成本核算内容包的安全性](/dynamics365/unified-operations/dev-itpro/analytics/setup-security-cost-accounting-content-pack)
 

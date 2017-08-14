@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Operations, Core
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 9f8073a2eb0d1b61d6a168f43eba983d113cf453
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -35,12 +35,18 @@ ms.lasthandoff: 06/13/2017
 此主题显示如何使用标准演示数据集和 Admin 用户登录创建可用于预算计划的 Excel 模板。 有关预算计划的详细信息，请参阅[预算计划概览](budget-planning-overview-configuration.md)。 也可以按照[预算计划 101](budget-plan.md) 教程了解基本模块配置和使用原则。
 
 ## <a name="generate-a-worksheet-using-budget-plan-document-layout"></a>使用预算计划文档布局生成工作表
-可使用一种或多种布局查看和编辑预算计划文档。 每种布局可以有一个关联预算计划文档模板，用于使用 Excel 工作表查看和编辑预算计划数据。 在此主题中，将使用现有布局配置生成预算计划文档模板。 打开**预算计划列表**（**预算编制**&gt; **预算计划**）。 单击**“新建”**创建新的预算计划文档。 [![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+
+可使用一种或多种布局查看和编辑预算计划文档。 每种布局可以有一个关联预算计划文档模板，用于使用 Excel 工作表查看和编辑预算计划数据。 在此主题中，将使用现有布局配置生成预算计划文档模板。 
+
+打开**预算计划列表**（**预算编制** &gt; **预算计划**）。 单击**“新建”**创建新的预算计划文档。 
+
+[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 使用**添加**行选项添加行。 单击**布局**查看预算计划文档布局配置。 
+
 [![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-可以检查布局配置并根据需要调整。 转至**模板** &gt; **生成**，为该布局生成一个 Excel 文件。 生成模板之后，转至**模板** &gt; **查看**以打开并检查预算计划文档模板。 可将该 Excel 文件保存到本地驱动器。 [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png) 
+可以检查布局配置并根据需要调整。 转至**模板** &gt; **生成**，为该布局生成一个 Excel 文件。 生成模板之后，转至**模板** &gt; **查看**以打开并检查预算计划文档模板。 可将该 Excel 文件保存到本地驱动器。 [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > 为预算计划文档布局关联 Excel 模板之后，不能编辑该布局。 若要修改此布局，请删除关联的 Excel 模板文件并重新生成。 若要让布局中的字段和工作表中的字段保持同步，需执行此操作。 
@@ -50,7 +56,7 @@ ms.lasthandoff: 06/13/2017
 [![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> 若要避免使用 Excel 查看和编辑预算计划数据时可能出现问题，应使用相同用户登录 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 和 Microsoft Dynamics Office 加载项数据连接器。
+> 若要避免使用 Excel 查看和编辑预算计划数据时可能出现问题，应使用相同用户登录 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本和 Microsoft Dynamics Office 加载项数据连接器。
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>为预算计划文档模板添加标题
 若要添加标题信息，请选择 Excel 文件中的首行，然后插入空行。 单击**数据连接器**中的**设计**向 Excel 文件添加标题字段。

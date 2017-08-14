@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 8c60d870d0ca178af84919e5ebaaa13769b46f8a
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: d6ad1632de2bda8a188881bfabcc6c49e2b5d2d4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -196,7 +196,7 @@ ms.lasthandoff: 06/13/2017
 <a name="see-also"></a>请参阅
 --------
 
-[创建消耗量申请（任务指南）](https://ax.help.dynamics.com/en/wiki/create-a-requisition-for-consumption/)
+[创建消耗量申请（任务指南）](/dynamics365/unified-operations/supply-chain/procurement/tasks/create-requisition-consumption)
 
 [采购申请工作流](purchase-requisitions-workflow.md)
 

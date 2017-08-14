@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 889a9ce79d4599a60a4503d7876276a1452a5465
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 84243a91d8b76873cd33651bbdff900b14d9c76e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -36,8 +36,8 @@ ms.lasthandoff: 06/13/2017
 ----------------
 
 -   [编号规则概览](number-sequence-overview.md)
--   [通过使用向导设置编号规则](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-by-using-a-wizard/)（任务指南）
--   [单个设置编号规则](http://ax.help.dynamics.com/en/wiki/set-up-number-sequences-on-an-individual-basis/)（任务指南）
+-   [通过使用向导设置编号规则](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard)（任务指南）
+-   [单个设置编号规则](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis)（任务指南）
 
 ## <a name="address-books"></a>通讯簿
 -   [通讯簿](qa-address-books.md)
@@ -67,17 +67,17 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="electronic-signatures"></a>电子签名
 -   [电子签名概览](electronic-signature-overview.md)
--   [设置电子签名](http://ax.help.dynamics.com/en/wiki/set-up-electronic-signatures/)（任务指南）
+-   [设置电子签名](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/set-up-electronic-signatures)（任务指南）
 
 ## <a name="organizations"></a>组织
 -   [组织和组织层次结构](organizations-organizational-hierarchies.md)
 -   [计划组织层次结构](plan-organizational-hierarchy.md)
--   [创建运营单位](http://ax.help.dynamics.com/en/wiki/create-an-operating-unit/)（任务指南）
--   [创建组织层次结构](http://ax.help.dynamics.com/en/wiki/create-an-organization-hierarchy/)（任务指南）
--   [创建法人](http://ax.help.dynamics.com/en/wiki/create-a-legal-entity/)（任务指南）
+-   [创建运营单位](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-operating-unit)（任务指南）
+-   [创建组织层次结构](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-organization-hierarchy)（任务指南）
+-   [创建法人](/dynamics365/unified-operations/fin-and-ops/organization-administration/tasks/create-legal-entity)（任务指南）
 
 ## <a name="general-administration"></a>行政管理
--   [更改横幅或形象标识](http://ax.help.dynamics.com/en/wiki/change-the-banner-or-logo/)（任务指南）
+-   [更改横幅或形象标识](/dynamics365/unified-operations/fin-and-ops/get-started/tasks/change-banner-or-logo)（任务指南）
 -   [关于 date/time 数据和时区](date-time-zones.md)
 -   [记录模板](record-templates.md)
 

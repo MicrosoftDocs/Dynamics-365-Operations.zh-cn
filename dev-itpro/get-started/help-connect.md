@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16141
 ms.assetid: 0b9c8630-9474-4473-80fd-7db5d54b2275
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 425e87f8b667b53fcc950730dc4ece6330503d66
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: acb832c422ccb5ddb98d6ddd6b69d2e2c3e11057
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 06/20/2017
 
 ## <a name="connecting-the-help-system"></a>连接帮助系统
 > [!NOTE]
-> **任务指南**选项卡目前在 Microsoft Dynamics 365 for Talent 和 Microsoft Dynamics 365 for Retail 中不可用。 我们目前正在努力在将来的版本中启用此功能。 Talent 中的入门中的任务指南体验可用，以涵盖基本功能。 docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) 上还提供用于 Retail 和 Talent 的过程帮助。
+> **任务指南**选项卡目前在 Microsoft Dynamics 365 for Talent 和 Microsoft Dynamics 365 for Retail 中不可用。 我们目前正在努力在将来的版本中启用此功能。 Talent 中的入门中的任务指南体验可用，以涵盖基本功能。 docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) 上还提供用于 Retail 和 Talent 的过程帮助。
  
 
 使用**系统参数**页，系统管理员连接有关实施的部分帮助系统。 [![具有帮助设置的系统参数窗体](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) 在**系统参数**页上，执行以下步骤：

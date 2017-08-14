@@ -1,7 +1,7 @@
 ---
 title: "为电子采购发包设置外部目录"
 description: "此主题描述使用外部目录或发包目录从供应商收集报价信息并将其添加到申请。"
-author: BibiSp
+author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,25 +10,25 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 2d853cb963471f81d7a2a09a0f7913722de8a417
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 4c89f6f168825f7767b836be09fa73b8659b00c6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>为电子采购发包设置外部目录
 
-通过使用外部目录，您可以确保您在 Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月版中后续处理的产品和价格信息准确和最新。 之后可以批准申请和转换为采购订单，并且可以向供应商下单。
+通过使用外部目录，您可以确保您在 Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月版中后续处理的产品和价格信息准确和最新。 之后可以批准申请和转换为采购订单，并且可以向供应商下单。
 
 设置好外部目录并且员工准备申请时，将有一个选项重定向到外部站点，即外部目录，并返回在外部站点创建的购物篮。 此通信基于 cXML 协议且必须在购买和销售组织的系统间建立。
 
@@ -40,9 +40,9 @@ ms.lasthandoff: 06/20/2017
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>若要设置外部供应商目录，请完成以下任务：
 
-1. 设置一个采购类别层次结构。 有关详细信息，请参阅 [设置采购类别层次结构的策略](/https://ax.help.dynamics.com/en/wiki/set-up-policies-for-procurement-category-hierarchies/)。
-2. 在 Finance and Operations 中登记供应商。 在您可以设置访问外部供应商目录的配置时，您必须在 Microsoft Dynamics 365 中设置供应商和供应商联系人。 外部目录供应商也必须添加到所选采购类别。 有关在 Microsoft Dynamics 365 中登记供应商的详细信息，请参阅 [管理供应商协作用户](/procurement/manage-vendor-collaboration-users.md)。 有关如何分配供应商到采购类别的信息，请参阅 [核准特定采购类别的供应商](/https://ax.help.dynamics.com/en/wiki/approve-vendors-for-specific-procurement-categories/)。
-3. 确保设置供应商使用的度量单位和币种。 有关如何创建度量单位的信息，请参阅 [创建度量单位](/https://ax.help.dynamics.com/en/wiki/manage-unit-of-measure/)。
+1. 设置一个采购类别层次结构。 有关详细信息，请参阅 [设置采购类别层次结构的策略](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies)。
+2. 在 Finance and Operations 中登记供应商。 在您可以设置访问外部供应商目录的配置时，您必须在 Microsoft Dynamics 365 中设置供应商和供应商联系人。 外部目录供应商也必须添加到所选采购类别。 有关在 Microsoft Dynamics 365 中登记供应商的详细信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。 有关如何分配供应商到采购类别的信息，请参阅 [核准特定采购类别的供应商](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories)。
+3. 确保设置供应商使用的度量单位和币种。 有关如何创建度量单位的信息，请参阅[管理度量单位](/dynamics365/unified-operations/supply-chain/pim/tasks/manage-unit-measure)。
 4. 使用对您的供应商的外部目录站点的要求配置外部供应商目录。 有关此任务的更多详细信息，请参阅下一个部分。
 5. 测试供应商外部目录配置以验证设置是有效的而且您可以访问供应商外部目录。 使用**验证设置**操作验证您定义的请求设置消息。 此消息可以导致供应商外部目录站点在浏览器窗口中打开。 在验证期间，无法从供应商订购物料和服务。 要订购物料和服务，则必须从采购申请访问供应商的目录。
 6. 通过使用**外部目录**页上的**激活目录**按钮激活外部目录。 外部目录必须在员工可以使用之前激活。 您可以在任何时间停用外部目录。

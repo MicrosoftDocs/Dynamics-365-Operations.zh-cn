@@ -10,19 +10,18 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 91207e03902fa8a45ab44270cc61b58ef9e3c98c
+ms.translationtype: HT
+ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
+ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,33 +31,31 @@ ms.lasthandoff: 06/20/2017
 
 本文提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。 
 
-> [!IMPORTANT] 
-> 以下产品密切相关：Dynamics 365 for Finance and Operations Enterprise Edition；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能
+> [!NOTE] 
+> 以下产品密切相关：Dynamics 365 for Finance and Operations Enterprise 版本；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+
+帮助系统由所有统一运营产品共用：
+- Dynamics 365 for Finance and Operations Enterprise 版本
+- Dynamics 365 for Retail
+- Dynamics 365 for Talent
 
 Finance and Operations 包括一个帮助系统，基于两个主要组件：
 
 -   文档站点
 -   任务指南
 
-以下产品密切相关：Dynamics 365 for Finance and Operations Enterprise Edition；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。 
-
-帮助系统由所有统一运营产品共用：
-- Dynamics 365 for Finance and Operations Enterprise Edition
-- Dynamics 365 for Retail
-- Dynamics 365 for Talent
-
 您可以从您正在使用的任何产品的帮助窗格访问帮助主题和任务指南。 以下屏幕截图显示 Dynamics 365 for Finance and Operations
 
-![帮助窗格](./media/help-pane-ops-task-guides-1024x741.png)
+![帮助窗格](./media/help-pane-ops-task-guides.png)
 
 本主题描述帮助系统，并说明如何为您的组织创建自定义文档和培训资源。
 
 > [!IMPORTANT]
-> **任务指南**选项卡目前在 Microsoft Dynamics 365 for Talent 和 Microsoft Dynamics 365 for Retail 中不可用。 我们目前正在努力在将来的版本中启用此功能。 Talent 中的入门中的任务指南体验可用，以涵盖基本功能。 docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) 上还提供用于 Retail 和 Talent 的过程帮助。
+> **任务指南**选项卡目前在 Microsoft Dynamics 365 for Talent 和 Microsoft Dynamics 365 for Retail 中不可用。 我们目前正在努力在将来的版本中启用此功能。 Talent 中的入门中的任务指南体验可用，以涵盖基本功能。 docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index) 上还提供用于 Retail 和 Talent 的过程帮助。
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com 中的“帮助”
 
-docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics365/#pivot=solutions&panel=solutions_operations)) 是 Finance and Operations 的产品文档的主要来源。 该站点提供以下功能：
+docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics365/unified-operations/fin-and-ops/index)) 是 Finance and Operations 的产品文档的主要来源。 该站点提供以下功能：
 
 -   **访问最新的内容** – 该站点能让我们以更快、更灵活的方式创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。
 -   **由专家编写的内容** – 该站点提供更丰富的产品文档集，可由 Microsoft 内外的社区成员增强。
@@ -68,12 +65,13 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 ### <a name="searching-on-docsmicrosoftcom"></a>在 docs.microsoft.com 上搜索
 有关如何搜索我们的内容，我们收到了很多问题。 在我们的站点上，如果您从与 Finance and Operations 有关的页面开始，我们只将您的搜索限定为 Finance and Operations 内容。 您可以通过单击搜索框中“操作”旁边的 X 来删除限定范围。 
 
-![搜索订单](./media/search-scope.png)
+![搜索订单](./media/search-scope-2.png)
 
 您还可以使用任何搜索引擎查找我们的内容。 为达到最佳效果，建议您使用站点搜索，如 site:docs.microsoft.com dynamics 365“搜索词”。  
-![站点搜索](./media/site-search.png)
 
-![站点搜索结果](./media/site-search-results.png)
+![站点搜索](./media/site-search-1.png)
+
+![站点搜索结果](./media/site-search-results-2.png)
 
 ### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>统一运营内容的 docs.microsoft.com 表
 所有产品共用文档站点上的一个内容表，使客户能够查看他们所处的主题的上下文。 它还使您能够使用筛选器查找您正在查找的主题。
@@ -105,7 +103,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 
 我们为每个统一运营产品提供不同的任务指南集。 来自帮助窗格的获取任务指南部分介绍如何查找适用于您的产品的正确的任务指南。 
 
-![任务指南阅读视图](./media/task-guide-ops-1024x742.png)
+![任务指南阅读视图](./media/task-guide-ops.png)
 
 若要开始引导式、交互式的体验，请在“帮助”窗格底部单击**启动任务指南**。 黑色指针打开并指示您必须执行的操作。 按照 UI 中显示的指导进行操作，并按照指示输入数据。 
 ![任务指南步骤说明](./media/task-guide-step-1-ops.png)
@@ -129,7 +127,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 ## <a name="in-product-help"></a>产品内帮助
 若要访问 Finance and Operations 内的帮助内容，请单击**帮助** (**?**) 图标，然后选择“帮助”或按 Ctrl+Shift+?。 在这两种情况下，“帮助”窗格将会打开。 从“帮助”窗格中，您可以访问文章或任务指南。 
 
-![帮助窗格](./media/help-pane-wiki-1024x684.png)
+![帮助窗格](./media/help-pane-wiki.png)
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>从“帮助”窗格中访问帮助主题
 
@@ -162,7 +160,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 
 在系统管理员完成这些步骤后，您可以打开“帮助”窗格并单击**任务指南**选项卡。 您现在将看到应用于您当前在 Finance and Operations 中所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。 您在“帮助”窗格中单击一个任务指南后，“帮助”窗格会显示分步说明，而且您可以播放该任务指南。 
 
-![任务指南阅读视图](./media/task-guide-ops-1024x742.png)
+![任务指南阅读视图](./media/task-guide-ops.png)
 
 ### <a name="where-are-the-translated-task-guides"></a>翻译的任务指南在哪里？
 

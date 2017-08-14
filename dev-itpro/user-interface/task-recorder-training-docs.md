@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
 ms.author: josaw
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: ee6d455c44a38d9b3962ca20a5cb28007c19cf1d
-ms.openlocfilehash: e71c2638caccb9a31c5254a3cf68c802808960b9
+ms.translationtype: HT
+ms.sourcegitcommit: e161e25568506c6e64bc52b2fad404b0706024a1
+ms.openlocfilehash: f29df4a12f5fb0587cf4aeb1b223bda2e3dd4152
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/17/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -86,7 +85,7 @@ ms.lasthandoff: 06/17/2017
 
 [![屏幕 4](./media/screen4.png)](./media/screen4.png)
 
--   **信息步骤**：通过右键单击控件或窗体上任何位置，然后选择 &lt; **任务录制器** &lt; **添加信息步骤** 来创建这些批注。 信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。 在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
+-   **信息步骤**：通过右键单击控件或窗体上任何位置，然后选择 &lt; **任务录制器** &lt; **添加信息步骤** 来创建这些批注。 信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。 在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在 Microsoft Dynamics 365 for Finance and Operations Enterprise版本外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
 
 **确定创建录制所需的时长**
 
@@ -127,8 +126,6 @@ ms.lasthandoff: 06/17/2017
 [连接帮助](..\get-started\help-connect.md)
 
 [任务录制器](task-recorder.md)
-
-[最近增加的任务录制器功能](\core\get-started\recently-added-editing-features-in-task-recorder)
 
 [使用任务录制器创建丰富的帮助主题（外部链接）](https://mbspartner.microsoft.com/AX/Videos/970)
 

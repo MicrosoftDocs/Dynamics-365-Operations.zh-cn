@@ -12,20 +12,20 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.region: Global
 ms.author: sunilg
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 5bfde00f88a12711c2519aaea19dd7a48196a828
+ms.translationtype: HT
+ms.sourcegitcommit: 172d952c79347e7dd563cfda70729750fa0ddde9
+ms.openlocfilehash: c47ca406e2c8be98f26f1c78d6f5e0a3f66690a5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 # <a name="vendor-invoice-automation"></a>供应商发票自动化
 
 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 
-想要优化其应付帐款 (AP) 流程的组织通常将发票处理确定为应提高效率的优先流程领域。 在大多数情况下，这些组织将纸质发票的处理委托给第三方光学字符识别 (OCR) 服务提供商。 然后，他们收到机器可读的发票元数据和每张发票的扫描图像。 为了帮助实现自动化，生成了“最后一英里”解决方案以实现这些项目在发票系统中的使用。 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 现在通过发票自动化解决方案实现此现成的“最后一英里”自动化。
+想要优化其应付帐款 (AP) 流程的组织通常将发票处理确定为应提高效率的优先流程领域。 在大多数情况下，这些组织将纸质发票的处理委托给第三方光学字符识别 (OCR) 服务提供商。 然后，他们收到机器可读的发票元数据和每张发票的扫描图像。 为了帮助实现自动化，生成了“最后一英里”解决方案以实现这些项目在发票系统中的使用。 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本现在通过发票自动化解决方案实现此现成的“最后一英里”自动化。
 
 ## <a name="solution-context"></a>解决方案环境
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 06/20/2017
 
 供应商发票文档附件是作为此功能的一部分而引进的新数据实体。 供应商发票抬头实体已经过修改以支持附件。 供应商发票行实体未针对此功能进行修改。
 
-此主题不提供数据包的详细定义。 也不解释如何创建数据包。 有关此信息，请参阅 [数据实体和包框架](/dynamics365/en-us/unified-operations/dev-itpro/data-entities/data-entities-data-packages)。
+此主题不提供数据包的详细定义。 也不解释如何创建数据包。 有关此信息，请参阅 [数据实体和包框架](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities-data-packages)。
 
 要快速生成包括发票和附件的测试数据，请执行以下步骤。
 

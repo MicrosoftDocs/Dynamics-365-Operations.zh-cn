@@ -16,13 +16,12 @@ ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 20e4c77bc47bffc3474559e3b9933b87e947e178
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: d76b3592ed8274498a7a58c46cc83619f2f668f5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -61,7 +60,7 @@ ms.lasthandoff: 06/13/2017
 ## <a name="prerequisites"></a>必备项
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新时的先决条件 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月更新时的先决条件 
 如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations Enterprise 版 2017 年 7 月更新，系统管理员必须发布**供应商协作**移动工作区。 有关说明，请查阅 [发布移动工作区](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
@@ -103,10 +102,10 @@ ms.lasthandoff: 06/13/2017
 <td>供应商用户必须有权访问 Web 客户端中的供应商协作 Web 界面和设置供应商协作用户。</td><td>专业采购人员和系统管理员</td>
 <td>请按照以下主题中的步骤设置和使用供应商协作 Web 界面。
 <ul>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-external-vendors/">使用供应商协作与外部供应商合作</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/manage-vendor-collaboration-users/">管理供应商协作用户</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/set-up-and-maintain-vendor-collaboration/">设置和维护供应商协作</a></li>
-<li><a href="https://ax.help.dynamics.com/en/wiki/using-vendor-collaboration-to-work-with-customers-in-dynamics-365-for-operations/">使用供应商协作在 Finance and Operations 中与客户合作</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors">使用供应商协作与外部供应商合作</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-user">管理供应商协作用户</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration">设置和维护供应商协作</a></li>
+<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations">使用供应商协作在 Finance and Operations 中与客户合作</a></li>
 </ul></td>
 </tr>
 </tbody>

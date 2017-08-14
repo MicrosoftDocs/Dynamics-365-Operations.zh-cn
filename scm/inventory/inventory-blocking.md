@@ -1,6 +1,6 @@
 ---
 title: "库存锁定"
-description: "本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。"
+description: "本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations Enterprise版本中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 4c5ebea58630188615fb4c22cc9da5215461e513
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 7d00aaa272de32d4ef2082bf1822125800ca8a1e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
+本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 
 您可以按照以下方法锁定库存物料：
 -   手动
@@ -64,11 +64,11 @@ ms.lasthandoff: 06/13/2017
 <a name="see-also"></a>请参阅
 --------
 
-[创建和维护库存锁定（任务指南）](https://ax.help.dynamics.com/en/wiki/create-and-maintain-an-inventory-blocking/)
+[创建和维护库存锁定（任务指南）](/dynamics365/unified-operations/supply-chain/inventory/tasks/create-maintain-inventory-blocking)
 
 [质量管理流程](quality-management-processes.md)
 
-[检查货物的质量（任务指南）](https://ax.help.dynamics.com/en/wiki/inspect-the-quality-of-goods/)
+[检查货物的质量（任务指南）](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
 
 
 

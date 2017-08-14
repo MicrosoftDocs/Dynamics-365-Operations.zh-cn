@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSRFMenuItem
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 29941
 ms.assetid: 6dff6313-dc6e-4f06-9c0c-dab24eefe4da
 ms.search.region: Global
 ms.author: mafoge
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: dfb738e41f4b3f7d475a551dca0aba7a071dd989
+ms.translationtype: HT
+ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
+ms.openlocfilehash: 1ea74c0cb3abe6b8474842d8a7b0f431c8897aaf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -413,9 +413,9 @@ ms.lasthandoff: 06/13/2017
 
 [仓库移动设备的显示设置](change-warehouse-mobile-device-displays.md)
 
-[设置用于完成采购订单类型工作的移动设备菜单项（任务指南）](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order/)
+[设置用于完成采购订单类型工作的移动设备菜单项（任务指南）](/dynamics365/unified-operations/supply-chain/warehousing/tasks/set-up-mobile-device-menu)
 
-[设置登记已接收物料的移动设备菜单项（任务指南）](https://ax.help.dynamics.com/en/wiki/set-up-a-mobile-device-menu-item-to-register-received-items/)
+[设置登记已接收物料的移动设备菜单项（任务指南）](/dynamics365/unified-operations/supply-chain/warehousing/tasks/set-up-mobile-device-menu-item-register-received-items)
 [使用库存状态的优点](../inventory/inventory-statuses.md)
 
 

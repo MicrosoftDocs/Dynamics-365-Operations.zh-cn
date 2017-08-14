@@ -16,13 +16,12 @@ ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.intro: Platform update 4
-ms.search.validFrom: 2017-02-28
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 663a03dc37cc1631bd285a76ef564993a34ed057
+ms.search.validFrom: 2017-02-28T00:00:00.000Z
+ms.translationtype: HT
+ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
+ms.openlocfilehash: 8674a237878d4358c7f9ce4d4dfcace302536063
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -40,7 +39,7 @@ ms.lasthandoff: 06/20/2017
 
 此移动应用让您的组织可以允许移动设备使用此应用的业务流程。 在您的 IT 管理员为您的组织启用此移动工作区后，用户可以登录到此应用并立即开始从其移动设备运行业务流程。 此移动应用包括可帮助提高生产率的以下功能：
 
-- 用户可以查看、编辑并对业务数据进行操作，即使他们具有间歇的网络或其移动设备完全脱机。 在设备重新建立网络连接后，脱机数据操作自动与 Dynamics 365 for Finance and Operations Enterprise Edition 或 Microsoft Dynamics 365 for Finance and Operations 同步。
+- 用户可以查看、编辑并对业务数据进行操作，即使他们具有间歇的网络或其移动设备完全脱机。 在设备重新建立网络连接后，脱机数据操作自动与 Dynamics 365 for Finance and Operations Enterprise 版本或 Microsoft Dynamics 365 for Finance and Operations 同步。
 - IT 管理员或开发人员可以构建和发布为组织量身定制的移动工作区。 此应用使用您现有的代码资产。 因此，无需再次实施您的验证过程、业务逻辑或安全配置。
 - IT 管理员或开发人员通过使用包含在 Web 客户端内的指向-点击工作区设计器轻松设计移动工作区。
 - 通过使用业务逻辑可扩展性框架，IT 管理员或开发人员可以有选择地优化工作区的脱机功能。 由于数据在设备脱机时继续处理，移动方案仍然丰富、可变，即使设备没有固定的网络连接。
@@ -117,7 +116,7 @@ ms.lasthandoff: 06/20/2017
 <td>使用移动框架创建自定义移动工作区。</td>
 <td><ul>
 <li><a href="mobile-platform.md">移动框架</a></li>
-<li><a href="http://ax.help.dynamics.com/en/wiki/operations-mobile-workspace-x-apis/">工作区 X++ API</a></li>
+<li><a href="mobile-workspace-xpp-apis.md">工作区 X++ API</a></li>
 </ul></td>
 </tr>
 <tr class="odd">

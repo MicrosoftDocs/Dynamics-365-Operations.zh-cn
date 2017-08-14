@@ -11,19 +11,18 @@ ms.technology:
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: annbe
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
 ms.search.region: global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: cebd1b6f041e18c2e016142aba7447bf813f570b
-ms.openlocfilehash: f6327b339441f2f1f6d4e557e45d085685245a08
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: b9ad00b4157d1f732a8f2400712c94a92a17b273
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -34,7 +33,7 @@ ms.lasthandoff: 06/19/2017
 
 此主题概要介绍了电子申报 (ER) 工具。 内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。
 
-电子申报 (ER) 是一种工具，您可以使用它根据不同国家/地区的法律要求配置传入和传出电子文档的格式。 ER 可以在电子文档的生命周期中管理这些格式。 例如，您可以采用新的法规要求，并可以使用所需格式生成业务文档以与政府机构、银行和其他当事方通过电子方式交换信息。
+ER 是一种工具，你可以使用它根据不同国家/地区的法律要求配置传入和传出电子文档的格式。 ER 可以在电子文档的生命周期中管理这些格式。 例如，您可以采用新的法规要求，并可以使用所需格式生成业务文档以与政府机构、银行和其他当事方通过电子方式交换信息。
 
 ER 引擎主要面向企业用户，而不是开发人员。 因为配置格式，而不是代码，创建和调整电子文档格式的流程更快、更方便。
 
@@ -43,8 +42,8 @@ ER 目前支持 TEXT、XML、Microsoft Word 文档和 OPENXML 工作表格式。
 ## <a name="capabilities"></a>功能
 ER 引擎具有以下功能：
 
-- 它表示不同域中的电子申报的单一通用工具，并替换超过 20 个用于执行某种 Microsoft Dynamics 365 for Operations 电子申报的不同引擎。
-- 它让报表的格式与当前 Dynamics 365 for Operations 实施隔离。 换句话说，该格式适用于 Dynamics 365 for Operations 的不同版本。
+- 它表示不同域中的电子申报的单一通用工具，并替换超过 20 个用于执行某种 Microsoft Dynamics 365 for Finance and Operations 电子申报的不同引擎。
+- 它让报表的格式与当前 Dynamics 365 for Finance and Operations 实施隔离。 换句话说，该格式适用于 Finance and Operations 的不同版本。
 - 它支持创建基于原始格式的自定义格式。 它还包括当原始格式发生更改时自动升级自定义格式的功能，因为引入了本地化/自定义要求。
 - 它成为支持电子申报中的本地化要求的主要标准工具，针对 Microsoft 以及 Microsoft 合作伙伴。
 - 它支持通过 Microsoft Dynamics Lifecycle Services (LCS) 为合作伙伴和客户分配格式的功能。
@@ -59,7 +58,8 @@ ER 支持两种组件类型：**数据模型**和**格式**。
 数据模型组件是数据结构的抽象表现形式。 它用于描述一个特定的业务域领域，而且具有足够的详细信息满足该域的报告要求。 数据模型组件由以下部分组成︰
 
 - 以一组特定于域的业务实体表示的数据模型以及这些实体之间的关系的分层式定义。
-- 将选定的 Dynamics 365 for Operations 数据源关联到在运行时指定的数据模型的各个元素模型映射，业务数据的数据流和规则对数据模型组件的填充。
+- 将选定的 Finance and Operations 数据源关联到在运行时指定业务数据填充到数据模型组件的数据流和规则的数据模型的各个元素的模型映射。
+
 数据模型的业务实体表示为容器（记录）。 业务实体属性表示为数据项（字段）。 每个数据项具有一个唯一的名称、标签、描述和值。 每个数据项的值可以设计，以便它被识别为字符串、整数、实数、日期、枚举、布尔值，等等。 此外，它可以是另一条记录或记录列表。
 
 单个数据模型组件可以包含特定域的业务实体的若干层次结构。 它还可以包含在运行时间支持特定报告的数据流的模型映射。 层次结构通过已被选择为模型映射的根的单一记录区分。 例如，付款域区域的数据模型可支持以下映射：
@@ -71,17 +71,18 @@ ER 支持两种组件类型：**数据模型**和**格式**。
 
 支持传出电子文档的模型映射具有以下功能：
 
-- 它可以使用不同的 Dynamics 365 for Operations 数据类型作为数据模型的数据源。 例如，它可以使用表、数据实体、方法或枚举。
+- 它可以使用不同的 Finance and Operations 数据类型作为数据模型的数据源。 例如，它可以使用表、数据实体、方法或枚举。
 - 当某些数据必须在运行时指定时，它支持用户输入可定义为数据模型数据源的参数。
-- 它支持将 Dynamics 365 for Operations 数据转换到所需的组。 它还能让您对数据进行筛选、排序和汇总，并且还追加通过与 Microsoft Excel 公式类似的公式设计的逻辑计算字段，如下图中所示。 有关详细信息，请参阅 [电子申报中的配方设计器](general-electronic-reporting-formula-designer.md)。
+- 它支持将 Finance and Operations 数据转换到所需的组。 它还能让您对数据进行筛选、排序和汇总，并且还追加通过与 Microsoft Excel 公式类似的公式设计的逻辑计算字段，如下图中所示。 有关详细信息，请参阅 [电子申报中的配方设计器](general-electronic-reporting-formula-designer.md)。
 
 [![配方设计器](./media/ER-overview-01.png)](./media/ER-overview-01.png) 
 
 支持传入电子文档的模型映射具有以下功能：
 
-- 它可以使用不同的 Dynamics 365 for Operations 可更新数据元素作为目标。 这些数据元素包括表、数据实体和视图。 这些数据可以使用来自传入电子文档的数据进行更新。 可以在单个模型映射中使用多个目标。
+- 它可以使用不同的可更新数据元素作为目标。 这些数据元素包括表、数据实体和视图。 这些数据可以使用来自传入电子文档的数据进行更新。 可以在单个模型映射中使用多个目标。
 - 当某些数据必须在运行时指定时，它支持用户输入可定义为数据模型数据源的参数。
-为每个业务域设计了一个数据模型组件，业务域将用作报告的统一数据源，用于将报告与 Dynamics 365 for Operations 数据源的物理实施隔离。 它表示提高了报告格式的初始设计和后续维护的效率的窗体中特定于域的业务概念和功能。
+
+为每个业务域设计了一个数据模型组件，业务域将用作报告的统一数据源，用于将报告与数据源的物理实施隔离。 它表示提高了报告格式的初始设计和后续维护的效率的窗体中特定于域的业务概念和功能。
 
 #### <a name="format-components-for-outgoing-electronic-documents"></a>传出电子文档的格式组件
 
@@ -133,32 +134,32 @@ ER 组件支持版本控制。 提供了以下工作流以便在 ER 组件中管
 
 状态为**已完成**或**共享**的版本可用于其他数据交换。 可以对具有这些状态的组件执行以下操作：
 
-- 组件可以以 XML 格式序列化并从 Dynamics 365 for Operations 导出为 XML 格式的文件。
-- 组件可以从 XML 文件重新序列化并作为 ER 组件的新版本导入 Dynamics 365 for Operations。
+- 该组件可以以 XML 格式序列化并导出为 XML 格式的文件。
+- 组件可以从 XML 文件重新序列化并作为 ER 组件的新版本导入到 Finance and Operations。
 
 #### <a name="component-date-effectivity"></a>组件日期有效性
 
-ER 组件版本是有时限的。 可以设置 ER 组件的**生效**日期以指定此组件开始对报告流程生效的日期。 Dynamics 365 for Operations 会话日期用于定义组件是否对执行有效。 当多个版本在特定日期生效时，最新版本将用于报告流程。
+ER 组件版本是有时限的。 可以设置 ER 组件的**生效**日期以指定此组件开始对报告流程生效的日期。 Finance and Operations 会话日期用于定义组件是否对执行有效。 当多个版本在特定日期生效时，最新版本将用于报告流程。
 
 #### <a name="component-access"></a>组件访问权限
 
-对 ER 格式组件的访问权限取决于 ISO 国家/地区代码的设置。 当所选格式配置的版本的这一设置为空时，可以在运行时从任何 Dynamics 365 for Operations 公司访问格式组件。 当此设置包含 ISO 国家/地区代码时，格式组件只能从为格式组件 ISO 国家/地区代码之一定义了主要地址的 Dynamics 365 for Operations 公司访问。
+对 ER 格式组件的访问权限取决于 ISO 国家/地区代码的设置。 当所选格式配置的版本的这一设置为空时，可以在运行时从任何公司访问格式组件。 当此设置包含 ISO 国家/地区代码时，格式组件只能从为格式组件 ISO 国家/地区代码之一定义了主要地址的公司访问。
 
 不同版本的数据格式组件可以有不同的 ISO 国家/地区代码设置。
 
 #### <a name="configuration"></a>配置
 
-ER 配置是特定 ER 组件的包装。 该组件可以是数据模型组件或组件格式。 配置可包括不同版本的 ER 组件。 每个配置被标记为由特定配置提供商所有。 当配置的所有者已选为 Dynamics 365 for Operations ER 设置中的有效提供商时，配置的组件的**草稿**版本可进行编辑。
+ER 配置是特定 ER 组件的包装。 该组件可以是数据模型组件或组件格式。 配置可包括不同版本的 ER 组件。 每个配置被标记为由特定配置提供商所有。 当配置的所有者已选为 Finance and Operations ER 设置中的有效提供商时，配置的组件的**草稿**版本可进行编辑。
 
 每个模型配置包含数据模型组件。 新的格式配置可以衍生自特定的数据模型配置。 在配置数中，创建的格式配置将作为原始数据模型配置的子配置显示。
 
 创建的格式配置包含格式组件。 原始模型配置的数据模型组件将作为默认数据源自动插入到子格式配置的格式组件。
 
-将对 Dynamics 365 for Operations 公司共享 ER 配置。
+将对 Finance and Operations 公司共享 ER 配置。
 
 #### <a name="provider"></a>提供程序
 
-ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方的标识符。 ER 可以管理配置提供商的列表。 作为 Dynamics 365 for Operations 解决方案的一部分为电子单据发布的格式配置被标记为由配置提供商 **Microsoft** 所有。
+ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方的标识符。 ER 可以管理配置提供商的列表。 作为 Finance and Operations 解决方案的一部分为电子单据发布的格式配置被标记为由配置提供商 **Microsoft** 所有。
 
 要了解如何登记新的 ER 提供商，可播放任务指南，**ER 创建配置提供商并将其标记为有效**（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
@@ -166,11 +167,11 @@ ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方�
 
 ER 存储库中会存储 ER 配置。 目前支持两种 ER 存储库类型：**运营资源**和 **LCS 项目**。
 
-**运营资源**存储库允许您访问由 Microsoft 作为 EER 配置提供商发布的作为 Dynamics 365 for Operations 解决方案的一部分的配置的列表。 这些配置可以导入到当前的 Dynamics 365 for Operations 实例，并且可以用于电子申报。 它们还可以用于其他本地化和自定义。
+**运营资源**存储库允许你访问由 Microsoft 作为 EER 配置提供商发布的作为 Finance and Operations 解决方案的一部分的配置的列表。 这些配置可以导入到当前的 Finance and Operations 实例，并且可以用于电子申报。 它们还可以用于其他本地化和自定义。
 
-**LCS 项目**存储库允许您访问在存储库登记阶段选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让您可以从当前 Dynamics 365 for Operations 实例将共享配置上载到特定 **LCS 项目**存储库的功能。 您还可以从 **LCS 项目**存储库将配置导入到当前的 Dynamics 365 for Operations 实例。
+**LCS 项目**存储库允许您访问在存储库登记阶段选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前 Finance and Operations 实例将共享配置上载到特定 **LCS 项目**存储库。 你还可以从 **LCS 项目**存储库将配置导入到当前的 Finance and Operations 实例。
 
-可分别为当前 Dynamics 365 for Operations 实例的每个配置提供商登记所需的 **LCS 项目**存储库。 每个存储库可专门针对一个特定配置提供商。
+可分别为当前 Finance and Operations 实例的每个配置提供商登记所需的 **LCS 项目**存储库。 每个存储库可专门针对一个特定配置提供商。
 
 ## <a name="supported-scenarios"></a>支持的方案
 ### <a name="building-a-data-model"></a>构建数据模型
@@ -204,7 +205,7 @@ ER 提供模型映射设计器，可让用户将他们所设计的数据模型�
 若要详细了解此方案，播放 **ER 定义模型映射并选择数据源**和 **ER 将数据模型映射到所选数据源**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>配置传入文档的数据模型映射
-ER 提供模型映射设计器，可让用户将他们所设计的数据模型映射到特定的目的地。 例如，数据模型可以映射到 Dynamics 365 for Operations 可更新数据组件（表、数据实体和视图）。 基于映射，使用数据模型的数据在运行时更新 Dynamics 365 for Operations。 作为 ER 格式的抽象存储，使用从传入电子文档导入的数据填充数据模型。 下图显示这种类型的数据模型映射的示例。 在此示例中，付款域数据模型的**为 NETS 导入映射**模型映射用于支持以 NETS 银行格式为挪威导入银行对帐单。
+ER 提供模型映射设计器，可让用户将他们所设计的数据模型映射到特定的目的地。 例如，数据模型可以映射到 Finance and Operations 可更新数据组件（表、数据实体和视图）。 基于映射，使用数据模型的数据在运行时更新 Finance and Operations。 作为 ER 格式的抽象存储，使用从传入电子文档导入的数据填充数据模型。 下图显示这种类型的数据模型映射的示例。 在此示例中，付款域数据模型的**为 NETS 导入映射**模型映射用于支持以 NETS 银行格式为挪威导入银行对帐单。
 
 [![导入 NETS 数据模型映射示例](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 
@@ -283,7 +284,7 @@ ER 可让您通过从 LCS 导入的当前组件版本（基本）创建（派生
 
 ### <a name="upgrading-a-format-selecting-a-new-version-of-base-format-rebase"></a>升级选择新版本的基础格式（重定基）的格式
 
-ER 支持在当前草稿版的派生组件中自动采用最新版本的基础组件的更改的功能。 此流程称为*重定基本值*。 例如，新的法规性更改（将在从 LCS 导入的最新版的格式组件中引入）可自动合并到电子单据此格式的自定义版本中。 任何不能自动合并的更改视为冲突。 这些冲突将在相应组件的设计器工具中呈现以进行手动解决。 若要详细了解此方案，播放 **ER 通过采用新基础版本的格式来升级格式**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
+ER 支持在当前草稿版的派生组件中自动采用最新版本的基础组件的更改的功能。 此流程称为*重定基本值*。 例如，新的法规性更改（将在从 LCS 导入的最新版的格式组件中引入）可自动合并到电子单据此格式的自定义版本中。 任何不能自动合并的更改视为冲突。 这些冲突将在相应组件的设计器工具中呈现以进行手动解决。 若要详细了解此方案，播放 **ER 通过采用该格式的新基础版本来升级格式**任务指南（**7.5.5.3 获取/开发更改的 IT 服务/解决方案组件 (10683)** 业务流程的一部分）。
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a>在 Finance and Operations 解决方案中交付的 ER 配置列表
 | 特定于域的数据模型配置︰标题 | 域                | 数据模型依赖格式配置︰标题 | 说明                                                        |

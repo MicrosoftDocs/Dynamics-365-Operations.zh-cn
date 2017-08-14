@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
+ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 255035bf13155190e59088a7f64f798c7462b885
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: c2c7a9c82809bd989eb362995dfe8e6d7829e89d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -45,7 +45,8 @@ ms.lasthandoff: 06/20/2017
 
 -   根据预定义的标准自动启动质量控制流程（特定供应商的某一采购订单的仓库登记）。
 -   在检查时锁定库存以防止使用未审核的库存（采购订单数量的完全锁定）。
--   使用物料抽样作为质量关联的一部分来定义必须检查的当前实际库存的金额。 抽样可以基于固定数量或百分比。
+-   使用物料抽样作为质量关联的一部分来定义必须检查的当前实际库存的金额。 抽样可以基于固定数量或百分比。 
+-   为部分收货创建质检订单。 若要创建基于某订单已实际接收的数量的质检订单，必须在**物料抽样**窗体上选择**按照更新的数量**复选框。 
 -   创建测试包括最小值、最大值和目标测试值在内的类型，然后执行具有预定义验证结果的定性与定量测试。
 -   指定一个可接受质量级别 (AQL) 来控制质量度量容差。
 -   指定检查操作所需的资源，如测试区域和测试仪器。

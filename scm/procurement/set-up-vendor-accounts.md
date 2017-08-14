@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.reviewer: bis
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 4c97f11fa85b8eee54daea8ccaa183859a89fe7f
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3c3c215dbc64c3b823ab8537b66f72d7d7fdf5c1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -94,6 +94,18 @@ ms.lasthandoff: 06/13/2017
 -   **从不** – 供应商从不因为不活动暂停。
 
 在供应商置于暂停状态时，您还可以指定原因和暂停状态将结束的日期。 如果未输入结束日期，供应商的暂停状态将无限期持续。
+
+你可以基于在**供应商无效**页上所选的条件为供应商将暂停状态批量更新到**全部**并分配供应商处于暂停状态的原因。
+
+以下条件用于包括在某个期间无效的供应商、包括或排除作为员工的供应商以及排除处于下一次暂停前的宽限期的供应商。
+
+- 基于你在**供应商无效**页的**在活动期内**字段输入的天数，应用程序计算供应商可以执行被认为无效的任何活动的最新日期。 也就是指当前日期减去你输入的天数。 如果供应商具有一个或多个日期迟于计算的最新日期的发票，则该供应商将被排除在无效外。 如果供应商具有迟于该日期的付款、未处理的采购申请、未结采购订单、询价或回复，也能对此进行验证。
+- **下一次暂停前的宽限期**字段中的天数用于计算最新的宽限期。 也就是指当前日期减去你输入的天数。 这仅适用于已被禁用的供应商。 如果之前已禁用，应用程序验证该供应商发送其他禁用的历史并检查最新禁用是否发生在最新宽限期之前。 如果是这种情况，供应商将被包括在禁用流程中。
+- 参数**包括员工**引用与某员工关联的供应商。 你可以设置是否要包括这些员工。
+
+此流程将始终排除**供应商暂停**字段为**从不**的供应商。
+
+通过验证的供应商被暂停，其中**供应商暂停**字段值设置为**全部**且**原因**设置为已选择的原因。 在暂停历史记录中为供应商创建记录。
 
 ## <a name="vendor-invoice-account"></a>供应商发票帐户
 如果多个供应商含相同结帐地址，或者如果供应商通过第三方开票，您可以在供应商记录中指定发票帐户。 发票帐户是您从采购订单创建供应商发票时将发票金额贷记到的帐户。 如果您没有在供应商记录中输入发票帐户，则供应商帐户将用作发票帐户。

@@ -9,16 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
+ms.reviewer: sericks
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: aevengir
-ms.search.validFrom: 2016-11-30
+ms.search.validFrom: 2016-11-30T00:00:00.000Z
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 915ff93edff0f68f52a536ad169c8f0f917ac9b2
+ms.translationtype: HT
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: d3f5d48683c13d1affa88dd44727639cd6158c73
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -41,7 +42,7 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 **生产性能** Power BI 内容包括源自生产订单和批次订单的数据。 报表不包括与看板生产有关的数据。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，则**生产性能** Power BI 内容显示在**生产性能**页（**生产控制** > **查询和报表** > **生产性能分析** > **生产性能**）上。 
+如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月更新，则**生产性能** Power BI 内容显示在**生产性能**页（**生产控制** > **查询和报表** > **生产性能分析** > **生产性能**）上。 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
 
@@ -142,8 +143,8 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 
 以下是与实体和构建 Power BI 内容相关的一些有用的链接：
 
-- [数据实体](https://ax.help.dynamics.com/en/wiki/data-entities/)
+- [数据实体](/dynamics365/unified-operations/dev-itpro/data-entities/data-entities.md)
 - [创建组织内容包](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
 - [使用 Power BI 的数据建模](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [将 Power BI 磁贴添加到工作区](http://ax.help.dynamics.com/en/wiki/configuring-powerbi-integration/)
+- [将 Power BI 磁贴添加到工作区](/dynamics365/unified-operations/dev-itpro/analytics/configure-power-bi-integration)
 

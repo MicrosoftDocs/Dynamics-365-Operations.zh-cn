@@ -1,6 +1,6 @@
 ---
 title: "预算计划"
-description: "此实验室的目的是提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 在预算计划领域的功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据"
+description: "此实验室的目的是提供 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本在预算计划领域的功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据"
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -10,19 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 11b5ffacef06fd3e83c61cd14da11ad645eec335
+ms.translationtype: HT
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 608ec87233acb05b0d46e367bcb7cd14985d7813
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 07/27/2017
 
 ---
 
@@ -31,7 +30,7 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-此实验室的目的是提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 在预算计划领域的功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据 
+此实验室的目的是提供 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本在预算计划领域的功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据 
 
 <a name="prerequisites"></a>必备项 
 ------------------
@@ -88,9 +87,8 @@ Julia 使用以下 Excel 模板编制预算：
 ## <a name="task-2-configure-user-security"></a>任务 2：配置用户安全性
 预算计划使用特殊安全策略配置对预算计划数据的访问。 Julia 需要授予她自己对财务预算计划的访问权限。 
 
-2.1. 切换到 DEMF 法人环境： 
+2.1. 切换到 DEMF 法人环境。 
 
-[![DEMF](./media/screenshot10.png)](./media/screenshot10.png) 
 
 2.2。 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“参数”选项卡上，设置“安全模型值”为“基于安全组织” 
 
