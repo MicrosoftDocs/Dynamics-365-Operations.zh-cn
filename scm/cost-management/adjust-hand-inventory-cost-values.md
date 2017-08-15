@@ -10,7 +10,6 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventAdjInventOnHand
 audience: Application User
-ms.reviewer: yuyus
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 53231
 ms.assetid: bc1fde9f-5ad9-4339-8ae8-e2839b792eb2
@@ -31,7 +30,6 @@ ms.lasthandoff: 05/25/2017
 
 [!include[banner](../includes/banner.md)]
 
-
 使用”现有库存量调整“页调整库存结转流程运行后的现有库存量数量的成本价值。
 
 您可以使用**现有库存量调整**页调整库存结转流程运行后的现有库存量数量的成本价值。 **注意：**若要打开**现有库存量调整**页，在**结转与调整**页上，选择已完成的库存结转流程的记录，然后单击**调整** &gt; **现有**。 **示例：**您在 2 月份具有以下交易记录：
@@ -46,7 +44,4 @@ ms.lasthandoff: 05/25/2017
 -   2 月 5 日：成本为 13.00 美元的数量 1
 
 若要将这两个物料的成本设置为 USD 15.00，请使用现有量调整选项来调整截至最后库存结转期间的未结现有数量。 **注意：**现有量调整交易记录的过帐日期将是上一次库存结转的日期。 不能修改此日期。
-
-
-
 
