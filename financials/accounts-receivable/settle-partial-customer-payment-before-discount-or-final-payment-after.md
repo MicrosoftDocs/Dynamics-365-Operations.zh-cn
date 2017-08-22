@@ -1,9 +1,9 @@
 ---
 title: "在使用最后付款的折扣日期之前的折扣日期之后结算部分客户付款"
 description: "文本讨论结算客户发票付款的影响。 此情况关注对子分类帐而不是总帐的影响。"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14584
 ms.assetid: e54936f5-053b-4ed3-b778-42c7e9aeb7cf
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 4399cf66e423d2e6436c664e6485a77d9ad75d69
 ms.contentlocale: zh-cn
 ms.lasthandoff: 05/25/2017
-
 
 ---
 
