@@ -1,9 +1,9 @@
 ---
 title: "设置信用和收款"
 description: "本文介绍如何设置收款功能。"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,14 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 14031
 ms.assetid: dcc6da2f-9af5-4f1d-abaa-b72967b66979
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4d3682c486e80afd03ec5805575357f4e87781f2
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 76937aacbc1925603766299168ec2d4090bd161b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -94,5 +94,12 @@ ms.lasthandoff: 05/25/2017
 如果未指定销售代表，使用客户组织的主要销售人员。 如果未指定主要销售人员，电子邮件将发送到此页上列出的第一个销售人员。
 
 
+有关详细信息，请参阅以下主题：
+
+ - [创建催款单序列](tasks/create-collection-letter-sequence.md)
+ 
+ - [处理催款单](tasks/process-collection-letters.md)
+ 
+ - [审核收款信息](tasks/review-collections-information.md)
 
 

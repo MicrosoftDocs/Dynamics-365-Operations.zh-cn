@@ -1,9 +1,9 @@
 ---
 title: "供应商发票概览"
 description: "本文提供有关供应商发票的一般信息。 供应商发票收到的产品和服务的付款请求。 供应商发票可以表示正在进行中的服务的帐单，也可以基于特定物料和服务的采购订单。"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 16ff8ebb0e620f45c4d290ee5076d5505abf3436
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 4c27b5a8ab1a7aeab31b48937dcaf4a86d798689
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -75,11 +74,23 @@ ms.lasthandoff: 05/25/2017
 
 此选项假定为该采购订单至少过帐了一个产品收据。 供应商发票基于这些产品收据并反映来自这些装箱单的数量。 该发票的财务信息基于在您过帐该发票时输入的信息。
 
+有关详细信息，请参阅[记录供应商发票和匹配接收的数量](../accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md)。
+
 ## <a name="working-with-multiple-invoices"></a>使用多个发票
 
 您可以同时处理多张发票以及同时全部过帐。 如果您必须创建多个发票，请使用**“待定供应商发票”**页。 如果您必须过帐和打印多个供应商发票，请使用发票审核日记帐页。 如果您使用发票审核日记帐，则必须针对该采购订单过帐至少一个产品收据，并且在发票登记簿中必须过帐该采购订单的发票。 该发票的财务信息来自在该发票登记簿中已过帐的发票。
 
 
+有关详细信息，请参阅: 
 
+ - [设置供应商发票策略](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
+
+ - [使用供应商发票将发票数据键入应付帐款](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+ 
+ - [使用审核日记帐将发票数据键入应付帐款](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+  
+ - [使用发票池将发票数据键入 AP 系统](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
+ 
+ - [在发票日记帐中记录供应商发票](tasks/record-vendor-invoice-invoice-journal.md)
 
 

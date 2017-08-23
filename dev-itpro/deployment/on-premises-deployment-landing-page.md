@@ -15,13 +15,13 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: kfend
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: e090d4af91ec979aeccdd954e4fdab99f026e150
+ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.openlocfilehash: 4399dc7374ae11f2eca3add37b60c50574dfad9d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/04/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>本地部署登录页
@@ -31,8 +31,8 @@ ms.lasthandoff: 07/27/2017
 **注意：**Dynamics 365 for Operations（本地）目前在重命名。 你将看到整个通信和许可授权指南中引用 Dynamics 365 for Operations（本地）。 你在部署产品时将看到的产品内名称是 Dynamics 365 for Finance and Operations Enterprise 版本。 这两个名称指的是同一个产品。
 
 ## <a name="get-started"></a>开始
-- [Dynamics 365 for Finance and Operations Enterprise 版本（本地）概览](on-premises-overview.md)
-- [系统要求](../get-started/system-requirements.md)
+- [Dynamics 365 for Finance and Operations Enterprise Edition（本地）概览](on-premises-overview.md)
+- [本地部署的系统要求](../get-started/system-requirements-on-prem.md)
 - [针对本地环境的硬件规模调整](../get-started/hardware-sizing-on-premises-environments.md)
 - [联机服务和本地软件生命周期策略](../migration-upgrade/versions-update-policy.md)
 - [购买 Dynamics 365 for Finance and Operations Enterprise 版本（本地）](../get-started/purchase-on-premises.md)

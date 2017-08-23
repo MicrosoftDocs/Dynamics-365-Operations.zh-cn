@@ -1,9 +1,9 @@
 ---
-title: "可用的 Power BI 内容"
+title: "Power BI 内容"
 description: "此主题列出可用的 Power BI 内容并向您指示可用来了解详细信息的资源。"
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,17 +15,17 @@ ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 282973618e56db3feb0103a7021a66d137218a7a
+ms.sourcegitcommit: 0574c8c1164ef54095135bd9b3f2a946320f8996
+ms.openlocfilehash: f6401406981abc3252b7247510e80f12f2c4510d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/25/2017
+ms.lasthandoff: 08/07/2017
 
 ---
 
-# <a name="power-bi-content-available"></a>可用的 Power BI 内容
+# <a name="power-bi-content"></a>Power BI 内容
 [!include[banner](../includes/banner.md)]
 
 
@@ -34,6 +34,7 @@ ms.lasthandoff: 07/25/2017
 ## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>适用于 Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月更新的 Power BI 内容
 如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月更新，则以下 Power BI 内容可用：
 
+- [实际与预算 Power BI 内容](ledger-budgets-power-bi.md)
 - [福利 Power BI 内容](benefits-power-bi.md)
 - [现金概览 Power BI 内容](/dynamics365/unified-operations/financials/cash-bank-management/Cash-Overview-Power-BI-content)
 - [CFO 概览 Power BI 内容](CFO-power-bi.md)

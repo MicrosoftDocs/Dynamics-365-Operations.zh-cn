@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bd61cd2a5fa7705f3f9152323281e6f4ca520dc1
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 64446efd518390ee2a7204e2c977fa4174581808
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -46,6 +45,13 @@ ms.lasthandoff: 05/25/2017
 
 信用证可以是可撤销的或不可撤销的。 信用证的性质可以是或可转让、不可转让或循环。 通常，信用证是不可撤销的已确认的协议，将向提交完整且正确的装运文档的特定受益人付款。
 
+有关详细信息，请参阅以下主题：
+
+[导入信用证](tasks/import-letter-credit.md)
+
+[导出信用证](tasks/export-letter-credit.md)
+
+[创建信用证的银行设施](tasks/create-bank-facility-agreement-letter-credit.md)
 
 
 

@@ -17,12 +17,11 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d546e8a0f75163beff02061747580b6c34e5f551
+ms.translationtype: HT
+ms.sourcegitcommit: cb5ab0e64b2a663af627d4d46e3a74aa526058b8
+ms.openlocfilehash: 69ab2dde3051ac95b3025a3f78c85db296203d7f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/28/2017
 
 ---
 
@@ -49,13 +48,13 @@ ms.lasthandoff: 05/25/2017
 下图是税务集成流程的示例。
 [![IC666469](./media/ic666469.gif)](./media/ic666469.gif)
 
-<a name="see-also"></a>请参阅
---------
+## <a name="see-also"></a>请参阅
 
-[导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)
+- [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)
 
-[增值税客户发票的中国税务集成修改常见问题](apac-chn-tax-integration-vat-customer-invoices.md)
+- [增值税客户发票的中国税务集成修改常见问题](apac-chn-tax-integration-vat-customer-invoices.md)
 
+- [设置中国的基本税务集成](./tasks/set-up-basic-tax-integration-profile-china.md)
 
 
 

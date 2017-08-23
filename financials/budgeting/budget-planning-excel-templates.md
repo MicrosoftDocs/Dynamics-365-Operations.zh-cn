@@ -1,9 +1,9 @@
 ---
 title: "预算计划的 Excel 模板"
 description: "此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。"
-author: twheeloc
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,12 +14,12 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
 ms.search.region: Global
-ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: ryansand
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 734c8930f239d8c9d220601bb2103bd55dd5bfd8
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: zh-cn
 ms.lasthandoff: 07/27/2017
 
@@ -38,22 +38,27 @@ ms.lasthandoff: 07/27/2017
 
 可使用一种或多种布局查看和编辑预算计划文档。 每种布局可以有一个关联预算计划文档模板，用于使用 Excel 工作表查看和编辑预算计划数据。 在此主题中，将使用现有布局配置生成预算计划文档模板。 
 
-打开**预算计划列表**（**预算编制** &gt; **预算计划**）。 单击**“新建”**创建新的预算计划文档。 
+1. 打开**预算计划列表**（**预算编制** &gt; **预算计划**）。 
+2. 单击**“新建”**创建新的预算计划文档。 
 
-[![bpt1](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+  [![预算计划列表](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
-使用**添加**行选项添加行。 单击**布局**查看预算计划文档布局配置。 
+3. 使用**添加**行选项添加行。 单击**布局**查看预算计划文档布局配置。 
 
-[![bpt2](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+  [![添加预算计划](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
-可以检查布局配置并根据需要调整。 转至**模板** &gt; **生成**，为该布局生成一个 Excel 文件。 生成模板之后，转至**模板** &gt; **查看**以打开并检查预算计划文档模板。 可将该 Excel 文件保存到本地驱动器。 [![bpt3](./media/bpt3-1024x545.png)](./media/bpt3.png)
+可以检查布局配置并根据需要调整。 
+1. 转至**模板** &gt; **生成**，为该布局生成一个 Excel 文件。 
+2. 生成模板之后，转至**模板** &gt; **查看**以打开并检查预算计划文档模板。 可将该 Excel 文件保存到本地驱动器。 
+
+[![另存为](./media/bpt3-1024x545.png)](./media/bpt3.png)
 
 > [!NOTE] 
 > 为预算计划文档布局关联 Excel 模板之后，不能编辑该布局。 若要修改此布局，请删除关联的 Excel 模板文件并重新生成。 若要让布局中的字段和工作表中的字段保持同步，需执行此操作。 
 
 该 Excel 模板中将包含预算计划文档模板中的所有元素，其中的**在工作表中可用**列设置为 True。 Excel 模板中不允许重叠元素。 例如，如果布局中包含 Request Q1、Request Q2、Request Q3 和 Request Q4 列，以及表示所有 4 个季度列总和的请求总计列，则只能在 Excel 模板中使用季度列或总计列。 更新期间，此 Excel 文件不能更新重叠列，因为表中的数据可能超出日期范围，因此不精确。
 
-[![bpt4](./media/bpt4-1024x615.png)](./media/bpt4.png)
+[![示例](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
 > 若要避免使用 Excel 查看和编辑预算计划数据时可能出现问题，应使用相同用户登录 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本和 Microsoft Dynamics Office 加载项数据连接器。

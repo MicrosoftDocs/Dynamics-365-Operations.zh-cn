@@ -1,9 +1,9 @@
 ---
 title: "设置 SEPA 直接借记授权单"
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 59491
 ms.assetid: 653a135f-c515-4ae3-9da2-82b5e1f103b5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: ebf80efa32b21184a8effdde4d46c4d0d2179efd
+ms.translationtype: HT
+ms.sourcegitcommit: 17dc0cc19c4c58e6c795e085e2e8985598d403a0
+ms.openlocfilehash: 4ea72cf6410eb30d83103bceb4a1628bafd33ac7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -51,7 +51,10 @@ ms.lasthandoff: 05/25/2017
 -   选项：如果您希望您的每位客户具有多个授权，请在**期间**字段中选择**发票**。 将会为每张发票创建单独的付款，而每笔付款使用的都是为发票指定的授权。
 -   通过使用直接借记授权单，选择**“需要授权单”**选项创建付款。 只有当您在**“付款类型”**字段中选择**“电子支付”**时，**“需要授权单”**才可用。
 
-另请参阅[直接借记概览](sepa-direct-debit-overview.md) 
+请参阅
 
+[直接借记概览](sepa-direct-debit-overview.md) 
+
+[为客户创建直接借记授权单](tasks/create-direct-debit-mandate-customer.md) 
 
 

@@ -1,9 +1,9 @@
 ---
 title: "配置应付帐款"
 description: "本文介绍您用于在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24671
 ms.assetid: 82561fe7-b2d6-464c-9347-79d0ce0f9743
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2a61cb86a4f2cfc6d701445c139e22df0db44f8c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -47,7 +46,7 @@ ms.lasthandoff: 06/13/2017
 ## <a name="setup-pages-for-accounts-payable"></a>应付帐款的设置页
 
 使用以下页面为每个法人设置应付帐款的基本功能。 这些页面按推荐的设置顺序列出。 若要使设置过程更简单，您可以从创建的第一批记录里创建模板。 在模板中，通常在许多字段中输入值，以反映组织要为特定类型的供应商实现的功能。
-1.  在“付款期限”页上，定义您指派给销售订单、采购订单、客户和供应商的付款期限，以及确定发票到期日期。
+1.  在“付款期限”页上，定义您指派给销售订单、采购订单、客户和供应商的付款期限，以及确定发票到期日期。 有关详细信息，请参阅[定义供应商付款费用](tasks/define-vendor-payment-fees.md)。
 2.  在“付款方式 - 供应商”页上，创建和维护有关组织如何向其供应商付款的信息。
 3.  在“供应商组”页上，创建和维护共享用于过帐、结算和付款、报告和预测的重要参数的供应商组。
 4.  在“供应商过帐模板”页上，定义供应商交易记录如何过帐到总帐。

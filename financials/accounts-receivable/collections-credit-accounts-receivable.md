@@ -1,9 +1,9 @@
 ---
 title: "在应收帐款中的信用和收款"
 description: "使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 集合页，在一个中心视图中管理应收帐款收款信息。 贷方和收款经理可以使用此主要观点以管理集合。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 49bc7ca4e5fff4c2686a8b7396d5bd2bcdd0c51a
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 282084b9d4e63795ec475690e5b22e06c23bb704
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -90,6 +89,8 @@ FactBox 显示所选客户的帐龄余额和信用额度信息。 此信息存�
 
 这些调整仅影响包括的利息单、利息和费用。 使用“创建销帐交易记录中的一个步骤”中的步骤部分勾销客户欠付的所有费用。
 
+有关详细信息，请参阅[创建具有范围的利息代码](tasks/create-interest-code-range.md)和[处理利息](tasks/process-interest.md)。 
+
 ## <a name="create-writeoff-transactions"></a>创建勾销交易记录
 您可以通过单击“收款”窗体以及“帐龄余额”、“客户”和“未结客户发票列表”页的“勾销”来勾销坏帐。 
 
@@ -100,7 +101,10 @@ FactBox 显示所选客户的帐龄余额和信用额度信息。 此信息存�
 -   日志行的第三类型包含增值税的总帐注销信息。 只有当在“应收帐款参数”页中选择“单独的销售税”开关后，此日记帐行才创建。 如果已标记的交易记录包含销售税应付科目、维度和销售税代码的多个组合，单独的日志行会为每个组合创建。
 
 销帐交易记录在交易记录币种中创建。
-处理资金不足 (NSF) 付款 
+
+有关详细信息，请参阅[创建客户的勾销日记帐](tasks/create-write-off-journal-customer.md)。
+
+<a name="process-not-sufficient-funds-nsf-payments"></a>处理资金不足 (NSF) 付款 
 --------------------------------------------
 
 您可以通过单击“收款”页的“NSF 支付”来处理 NSF 支付。 当您单击此按钮时，取消付款。 如果 NSF 费用应用于该客户，则可以在付款日记帐中创建费用交易记录。 该费用金额是基于自动费用的设置的。 申请 NSF 支付的自动费用由受影响的银行帐户的“银行帐户”页中选择的费用组指定。

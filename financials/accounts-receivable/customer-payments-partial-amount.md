@@ -1,9 +1,9 @@
 ---
 title: "部分金额的客户付款"
 description: "有时客户付款低于的发票金额。 本文介绍处理此情况不同的选项。 可供您使用的选项取决于您的业务要求和配置。"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,15 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 13011
 ms.assetid: 20423a2d-6997-4e1c-a596-a77016600071
 ms.search.region: Global
-ms.author: kweekley
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 795d13a07065a125a750970beaff85b59307f623
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: ebfa8aaed6f82e9c3142540d0850c59d49328d59
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -61,5 +60,5 @@ ms.lasthandoff: 05/25/2017
 当剩余金额不会被支付但大于在**应付帐款参数**页面上指定的不足支付金额时，客户可进行部分付款。 如果您要将发票标记为完全结算，则可以使用**结算交易记录**页面上的**完全结算**选项。 （您可以使用 Configuration key 启用完全结算功能。）例如，发票被执行 1,000.00 的过帐，并且客户进行了 990.00 付款的付款。 您已同意客户不必支付剩余的 10.00。 在将发票标记为已结算后，您还可以标记选择**完全结算**。 发票随后将被视为完全结算。 10.00 的差额将作为额外的现金折扣金额过帐到现金折扣帐户。
 
 
-
+有关详细信息，请参阅[存入客户付款](tasks/deposit-customer-payments.md)。
 

@@ -3,7 +3,7 @@ title: "审计策略规则"
 description: "您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过账都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 43d2595a4a80e68ed1c0e5639e5413d732fe6a32
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68f31f00a30513b7d2f3f36a39eaf1cfe7a219a1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -100,8 +99,8 @@ ms.lasthandoff: 05/25/2017
 <a name="see-also"></a>请参阅
 --------
 
-[审计策略违规记录和案例](audit-policy-violations-cases.md)
-
+[审计政策违规记录和案例](audit-policy-violations-cases.md)
+[定义原始单据的审计策略](tasks/define-audit-policies-source-documents.md)
 
 
 

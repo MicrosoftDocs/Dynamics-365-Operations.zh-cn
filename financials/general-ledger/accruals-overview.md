@@ -3,7 +3,7 @@ title: "应计概览"
 description: "本文介绍应计项目，并且提供有关如何设置和创建交易记录的信息。"
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14131
 ms.assetid: 0489b59a-37a7-4a78-87bf-4b597e9efad9
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 5ad5030da963ca961d49e645b1d9ad19453376b8
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 87d9f7fbdbc06a3399a6ec5c2492de0f053b1513
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -47,5 +47,5 @@ ms.lasthandoff: 05/25/2017
 当您输入日记帐时，您可以单击**功能**菜单中的**分类帐应计**。 然后，在您选择应计架构时，将看到将在期间内分布的日记帐的基准额，如应计架构所确定的。 例如，如果您在 1 月支付员工整年的保险且金额是 12,000，则您必须每个月识别该支出。 您可以选择开始日期。 您还可以指定应计的金额是否基于此科目或对方科目。 在您进行选择后，单击**交易记录**查看基于应计架构创建的所有交易记录。 例如，如果您在该年度的保险开支中分布 12,000，则每个月将看到 1,000。 在过帐日记帐后，可以通过使用**凭证交易记录**查询页查看交易记录。 如果应计架构不能应用（例如，当涉及销售订单发票或采购订单发票时），则您可以将预付的金额记入贷方，将支出金额记入借方。 然后您可以在应用应计架构时选择**对方**。
 
 
-
+有关详细信息，请参阅[创建应计架构](tasks/create-accrual-schemes.md)和[创建分类帐应计交易记录](tasks/create-ledger-accrual-transactions.md)。
 

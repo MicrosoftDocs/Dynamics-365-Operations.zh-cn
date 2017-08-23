@@ -1,9 +1,9 @@
 ---
 title: "配置应收帐款以及信用和收款"
 description: "配置“应收帐款”和“信用和收款”以跟踪来自客户的发票和收入。"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 24631
 ms.assetid: 8c1fc7c5-b461-41ed-b102-2648cc58eb0b
 ms.search.region: Global
-ms.author: mfalkner
+ms.author: Shiva.Pandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 74556e571c215b0fea8deb061fd968c240b063d4
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 1d37014e8f7b333a15077fc3477808a3ad62b96f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -66,12 +65,12 @@ ms.lasthandoff: 05/25/2017
 |                                                      | 币种                           | 创建和查看您的组织使用的币种。                                                                                                                                                                                                                       |
 |                                                      | 币种汇率              | 创建和维护记账币种和其他币种之间的相应的汇率。                                                                                                                                                                              |
 |                                                      | 内部公司              | 创建当前法人可以过账到的账户的列表。 您必须设置借方科目和贷方科目，并且还在另一个法人中设置接收交易记录的日志。                                                                             |
-|                                                      | 付款方式 - 客户        | 创建和维护有关客户的付款方式的信息。                                                                                                                                                                                                           |
+|                                                      | 付款方式 - 客户        | 创建和维护有关客户的付款方式的信息。 有关详细信息，请参阅[设定客户付款方式](tasks/establish-customer-method-payment.md)。                                                                                             |
 |                                                      | 组织层次结构             | 为集中付款设置组织层次结构                                                                                                                                                                                                                        |
 |                                                      | 组织层次结构目的      | 指定集中的付款的目的。                                                                                                                                                                                                                                       |
 |                                                      | 付款日                         | 定义付款日，它们用于计算您将从客户收到的付款或要向供应商付款的到期日期。                                                                                                                                                |
-|                                                      | 付款费用                          | 创建和维护与客户相关的付款费用，如汇票费用。                                                                                                                                                                               |
-|                                                      | 付款费用设置                    | 为各种银行、付款方式、汇款类型、付款说明、币种和日期间隔组合设置付款费用。                                                                                                                              |
+|                                                      | 付款费用                          | 创建和维护与客户相关的付款费用，如汇票费用。                                                                                                                                                                         |
+|                                                      | 付款费用设置                    | 为各种银行、付款方式、汇款类型、付款说明、币种和日期间隔组合设置付款费用。  有关详细信息，请参阅[设定客户付款费用](tasks/establish-customer-payment-fees.md)。                                                                                   |
 |                                                      | 付款计划                    | 创建付款计划，您可以将这些计划用于安排来自客户的分期付款和向供应商的分期付款。                                                                                                                                                                       |
 |                                                      | 付款说明                | 创建和查看您在“付款方式”页面中选择的付款方式的付款说明代码。 您根据与银行达成的为所选付款方式指定的协议，定义付款说明代码。                    |
 |                                                      | 交易记录文本                     | 为自动过帐到总帐创建摘要。 可以设置各种语言形式的摘要。                                                                                                                                                           |
@@ -83,7 +82,7 @@ ms.lasthandoff: 05/25/2017
 |                                                      | 付款方式 - 客户        | 创建和维护有关客户的付款方式的信息。                                                                                                                                                                                                           |
 |                                                      | 签名                            | 添加、更改或删除签名图像文件，如 .bmp、.jpg 或 .gif 文件。 将签名图像文件打印在支票上作为正式法人签名。                                                                                                             |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |
-| 配置应收帐款统计           | 帐龄期间定义             | 设置和管理用户定义的帐龄期间定义根据您输入的日期使用这些帐龄时段来分析客户帐户和供应商帐户的到期情况。                                                                                                         |
+| 配置应收帐款统计           | 帐龄期间定义             | 设置和管理用户定义的帐龄期间定义根据您输入的日期使用这些帐龄时段来分析客户帐户和供应商帐户的到期情况。 有关详细信息，请参阅[设置并生成应收帐款的帐龄信息](tasks/set-up-accounts-receivable-aging-information.md)。                                                           |
 |                                                      | 业务统计                  | 设置业务统计查询，以帮助您分析组织的绩效。                                                                                                                                                                              |
 |                                                      | 业务统计数据             | 查看所选业务统计的网格格式的数据。                                                                                                                                                                                                                     |
 |                                                      |                                      |                                                                                                                                                                                                                                                                                   |

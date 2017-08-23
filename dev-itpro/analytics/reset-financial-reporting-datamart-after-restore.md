@@ -15,13 +15,13 @@ ms.custom: 261824
 ms.assetid: d0784b2c-fe10-428d-8d07-fd474ca50fcc
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c132c04bc64f02201252f03830d3f8309306f19c
+ms.translationtype: HT
+ms.sourcegitcommit: 9953d2f29a67b35f4bb43f577df1c4d910e379a1
+ms.openlocfilehash: 08a420a776f47119a5dc47f9119545aa448ffdbd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,15 +30,20 @@ ms.lasthandoff: 06/13/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题介绍如何在还原 Microsoft Dynamics 365 for Finance and Operations 数据库之后重置财务申报数据市场。 
+此主题介绍如何在还原 Microsoft Dynamics 365 for Finance and Operations 数据库之后重置财务申报数据市场。
 
-有几种方案您可能需要从备份还原 Finance and Operations 数据库或从另一环境复制数据库。 发生这种情况时，可能还需要执行相应步骤以确保财务申报数据市场正确使用还原的 Finance and Operations 数据库。 如果对除还原 Finance and Operations 数据库之外的原因导致重置财务申报数据市场有疑问，请参阅 [重置 Management Reporter 数据市场](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) 获取详细信息。 请注意，此流程中的步骤支持 Dynamics 365 for Operation May 2016 版本（应用程序版本 7.0.1265.23014 和财务申报版本 7.0.10000.4）及更高版本。 如果您的 Finance and Operations 版本较低，请联系我们的支持团队获取协助。
+如果你从备份恢复 Finance and Operations 数据库或从其他环境复制该数据库，则必须执行本主题中的步骤，以确保财务申报数据市场正确使用恢复的 Finance and Operations 数据库。 
+<!--If you have questions about resetting the financial reporting data mart for a reason outside of restoring a Finance and Operations database, refer to the [Resetting the Management Reporter data mart](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/2016/06/28/resetting-the-management-reporter-data-mart/) for more information. -->
+> [!Note] 
+> 此流程中的步骤支持 Dynamics 365 for Operation May 2016 版本（应用程序版本 7.0.1265.23014 和财务申报版本 7.0.10000.4）及更高版本。 如果您的 Finance and Operations 版本较低，请联系我们的支持团队获取协助。
 
 ## <a name="export-report-definitions"></a>导出报表定义
 首先，使用以下步骤导出报表设计器中的报表设计：
 
 1.  在报表设计器中，转至**公司** &gt; **构建基块组**。
-2.  选择要导出的构建基块组，然后单击**导出**。 **注释：**对于 Finance and Operations，仅支持一个构建块组（即**默认**）。
+2.  选择要导出的构建基块组，然后单击**导出**。 
+    > [!Note] 
+    > 对于 Finance and Operations，仅支持一个构建块组，即**默认**。
 3.  选择要导出的报表定义：
     -   要导出您的所有报表定义和关联的构建基块，请单击**“全选”**。
     -   要导出特定报表、行、列、树或维度集，请单击相应选项卡，然后选择要导出的项。 按住 Ctrl 键选择选项卡中的多个项。 当选择要导出的报表时，将选择关联的行、列、树和维度集。
@@ -63,9 +68,9 @@ ms.lasthandoff: 06/13/2017
 这些服务具有到 Finance and Operations 数据库的开放连接。
 
 ## <a name="reset"></a>重置
-#### <a name="locate-the-latest-dataupgradezip-package"></a>找到最新的 DataUpgrade.zip 包
+#### <a name="locate-and-download-the-latest-minorversiondataupgradezip-package"></a>找到并下载最新的 MinorVersionDataUpgrade.zip 程序包
 
-使用[下载 DataUpgrade.zip 脚本](..\migration-upgrade\upgrade-data-to-latest-update.md) 中的说明下载 DataUpgrade.zip 包。 这些说明介绍如何找到您的环境的正确数据升级包版本。
+使用[下载最新的数据升级可部署程序包](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package)中的说明找到最新的 MinorVersionDataUpgrade.zip 包。 这些说明介绍如何找到并下载正确的数据升级包版本。 无需下载 MinorVersionDataUpgrade.zip 程序包即可升级。 只需完成“下载最新的数据升级可部署程序包”部分中的步骤即可检索 MinorVersionDataUpgrade.zip 程序包的副本，无需执行本文中的其他任何步骤。
 
 #### <a name="execute-scripts-against-finance-and-operations-database"></a>对 Finance and Operations 数据库执行脚本
 
@@ -105,8 +110,10 @@ ms.lasthandoff: 06/13/2017
 
 1.  在报表设计器中，转至**公司** &gt; **构建基块组**。
 2.  选择要导出的构建基块组，然后单击**导出**。 
+
     > [!NOTE]
     > 对于 Finance and Operations，仅支持一个构建块组，即**默认**。
+    
 3.  选择**默认**构建块，然后单击**导入**。
 4.  选择包含所导出报表定义的文件，然后单击**打开**。
 5.  在“导入”对话框中，选择要导入的报表定义：

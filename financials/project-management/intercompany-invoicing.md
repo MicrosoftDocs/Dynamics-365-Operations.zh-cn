@@ -3,7 +3,7 @@ title: "内部公司开票"
 description: "本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中项目的公司内部开票的信息和示例。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/07/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.custom: 94153
 ms.assetid: 33e98da7-01c1-4369-923d-aa1c8326cb80
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 205903bb68804a46414410c85eacce03c6df6fc7
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: fe4c9f4601d34eb3e755faa679b961785b07c6d0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -109,7 +109,7 @@ USSI，借出法人，必须创建和过帐内部公司发票。 有两个此任
 | C    | **项目发票**页面                                                                       | 选择项目发票，然后单击**查看详细信息**审查成本和销售额。 然后过帐发票。 |
 
 
-
+有关详细信息，请参阅[配置内部公司项目开票](tasks/configure-intercompany-project-invoicing.md)。
 
 
 

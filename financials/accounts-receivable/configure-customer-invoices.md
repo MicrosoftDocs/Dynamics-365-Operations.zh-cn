@@ -1,9 +1,9 @@
 ---
 title: "创建客户发票"
 description: 
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,14 +14,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 77772
 ms.assetid: 00b4b40c-1576-4098-9aed-ac376fdeb8c5
 ms.search.region: Global
-ms.author: mfalkner
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: fd89921a97782c4d09807a730ab077809304159f
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: 249b1f331d6889d3b9ed2ace2e5db21d7a5d3e46
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -30,11 +30,20 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-
-
-**“销售订单的客户发票”**是与销售相关的、组织提供给客户的单据。 此类型的客户发票是基于销售订单创建的，其中包括订单行和物料编号。 在分类帐中指定和过帐物料编号。 子分类日志条目为销售订单的客户发票不可用。 
+**“销售订单的客户发票”**是与销售相关的、组织提供给客户的单据。 此类型的客户发票是基于销售订单创建的，其中包括订单行和物料编号。 在分类帐中指定和过帐物料编号。 子分类日志条目为销售订单的客户发票不可用。 有关详细信息，请参阅[创建销售订单发票](tasks/create-sales-order-invoices.md)。
 
 **“普通发票”**与销售订单无关。 它包含包括会计科目、自由文本描述和您输入的销售额的订单行。 您无法在此类发票上输入物料编号。 您必须输入相应的增值税信息。 销售的主科目在每个发票行上指示，这样可以通过单击**“普通发票”**页上的**“分摊金额”**分配给多个会计科目。 此外，将客户余额从用于普通发票的过帐模板过帐到汇总科目。
+
+有关详细信息，请参阅: 
+
+[创建普通发票](tasks/create-free-text-invoice.md)
+
+[创建普通模板](tasks/create-free-text-invoice-template.md)
+
+[向客户分配普通发票模板](tasks/assign-free-text-invoice-template-customer.md)
+
+[生成和过帐重复执行普通发票](tasks/post-recurring-free-text-invoices.md)
+
 
 **“估价单”**是一种在过帐发票前作为对实际发票金额的评估而准备的发票。 您可为用于销售订单的客户发票或普通发票打印估价单。
 

@@ -15,13 +15,13 @@ ms.custom: 269384
 ms.assetid: 98a4b517-e606-4036-b55f-1ab248898bdf
 ms.search.region: Global
 ms.author: omulvad
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b66bf79413ad21f12f789eabafe8413af3f58c9c
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: 0484723217ccff2ebf717d059429d863ececb797
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 06/13/2017
 ## <a name="return-order-process"></a>退货单流程
 下图提供退货单流程的概览。  
 
-[![salesreturns01](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
+[![退货单流程](./media/salesreturns01.jpg)](./media/salesreturns01.jpg)  
 
 退货单流程有两种：实际退货和仅贷记。
 
@@ -213,7 +213,7 @@ ms.lasthandoff: 06/13/2017
 
 在事先更换中，可以在物料退回前将更换物料发给客户。 此方法非常有用，例如，如果物料是有备件来替换才能取下的机器部件，或者如果您希望客户尽快收到更换产品。 事先更换单是独立销售订单。 标题信息源自客户，而行信息则源自退货单。 您可以独立于退货单编辑、处理和删除更换单。 删除更换单时，将收到一条消息，说明订单是创建为更换单的。 下图显示事先更换的流程。  
 
-[![事先更换流程](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn04.png)  
+![事先更换流程](./media/SalesReturn04.png)
 
 退货单中包含对更换单的引用。 如果在退回瑕疵物料前为退货单创建了事先更换单，则在已退回瑕疵物料之后，不能为更换选择处置代码。
 
@@ -221,7 +221,7 @@ ms.lasthandoff: 06/13/2017
 
 如果将更换物料发给客户，并对退货单使用**更换并报废**或**更换并贷记**处置操作，请使用下图中显示的过程。  
 
-[![使用处置代码时的更换过程](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn05.png)  
+![使用处置代码时的更换过程](./media/SalesReturn05.png)
 
 更换物料将通过使用独立销售订单（即更换销售订单）交付。 为退货单生成装箱单时创建此销售订单。 订单标题使用退货单标题中引用的客户提供的信息。 行信息收集自**更换物料**页中输入的信息。 必须为具有以单词“更换”开头的处置操作的行填写**更换物料**页。 但是，更换物料的数量和标识都未经过验证或受到限制。 此行为允许以下情况：客户需要配置或尺寸不同的相同物料，以及客户需要完全不同的物料。 默认情况下，在**更换物料**页中输入相同物料。 但是，如果已设置了此功能，则可选择其他物料。 **注释：**更换销售订单在创建后可以编辑和删除。
 
@@ -254,7 +254,7 @@ ms.lasthandoff: 06/13/2017
 
 下图显示两家公司建立内部公司关系并利用内部公司贸易需要满足的最低设置。  
 
-[![最低设置](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn06.png)  
+![最低设置](./media/SalesReturn06.png)
 
 在以下方案中，CompBuy 是买方公司，CompSell 是销售公司。 通常，销售公司将货物装运给买方公司，或在直接交货装运方案中，直接发给最终客户。 在 CompBuy 中，供应商 IC\_CompSell 被定义为与公司 CompSell 关联的内部公司终结点。 同时，在 CompSell 中，客户 IC\_CompBuy 被定义为与公司 CompBuy 关联的内部公司终结点。 必须同时在两家公司中定义相应的操作策略详细信息和值映射。 在直接交货装运方案中，在销售公司内创建一个内部公司退货单（也是内部公司销售订单）。 可以从 CompSell 中的 RMA 编号规则选取内部公司退货单的 RMA 编号，也可以从在 CompBuy 中分配给原始退货单的 RMA 编号复制。 CompBuy 中 **PurchaseRequisition** 操作策略上的 RMA 编号决定这些操作。 如果同步了 RMA 编号，并且两家公司使用相同的编号规则，则应计划缓解编号冲突的风险。
 
@@ -262,7 +262,7 @@ ms.lasthandoff: 06/13/2017
 
 此方案涉及同一组织中的两家公司，如下图中所示。  
 
-[![简单内部公司退货](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn07.png)  
+![简单内部公司退货](./media/SalesReturn07.png)
 
 买方公司中创建了供应商退货单或销售公司中创建了客户退货单时，可以建立订单链。 Finance and Operations 将在另一家公司中创建相应订单，并确保供应商订单中的标题和行信息体现客户退货单中的设置。 建立的退货单中可以包含或排除对现有客户发票的引用（**查找销售订单**）。 可以分开处理这两个订单的装箱单和发票。 例如，为客户退货单生成装箱单之前，无需为供应商退货单生成装箱单。
 
@@ -270,7 +270,7 @@ ms.lasthandoff: 06/13/2017
 
 如果已完成了上一笔**直接交货**类型的销售，并且与客户交互的公司中有针对该客户的发票，则可建立此方案。 在下图中，公司 CompBuy 曾经向客户 Extern 销售过产品并为其开过发票。 产品通过内部公司订单链从公司 CompSell 直接装运到客户。  
 
-[![三方之间的直接交运装运退货](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn08.png)  
+![三方之间的直接交运装运退货](./media/SalesReturn08.png)
 
 如果客户 Extern 希望退还产品，将在公司 CompBuy 内为客户创建一个退货单 (RMA02)。 若要建立内部公司链，必须将退货单标记为直接交货。 使用**查找销售订单**功能为要退货的客户发票拣货时，将建立有以下票据组成的内部公司订单链：
 
@@ -292,7 +292,7 @@ ms.lasthandoff: 06/13/2017
 
 退货单不引用客户发票。 将贷记退回的物料。 生成退货单发票或贷方通知单时不选择**信用更正**参数。  
 
-[![退货单不引用客户发票](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn09.png)  
+![退货单不引用客户发票](./media/SalesReturn09.png)  
 
 **注释：**物料主价格用作**退货成本价**参数的默认值。 默认价格与出库时的成本价不同。 因此，影响是相差 3。 此外，退货单中不包含在销售订单中向客户提供的折扣。 因此，将出现透支。
 
@@ -300,7 +300,7 @@ ms.lasthandoff: 06/13/2017
 
 示例 2 与示例 1 相同，除了生成退货单发票时选择了**信用更正**参数。  
 
-[![选择了信用更正的退货单](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn10.png)  
+![选择了信用更正的退货单 ](./media/SalesReturn10.png)  
 
 **注释：**分类帐过帐作为负更正输入。
 
@@ -308,7 +308,7 @@ ms.lasthandoff: 06/13/2017
 
 在此示例中，退货单行通过使用**查找销售订单**功能创建。 创建发票时不选择**信用更正**参数。  
 
-[![通过使用“查找销售订单”创建的退货单行](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)](https://msdynamics.blob.core.windows.net/media/2017/02/SalesReturn11.png)  
+![通过使用“查找销售订单”创建的退货单行 ](./media/SalesReturn11.png)  
 
 **注释：**正确设置了 **折扣**和**退货成本价**。 因此，正是客户发票的逆转。
 
