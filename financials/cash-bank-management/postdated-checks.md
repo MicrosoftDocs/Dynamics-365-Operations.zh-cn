@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: f7cf2b7996d113f0f883b39f3603de8236e8ad2c
+ms.translationtype: HT
+ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -52,7 +51,7 @@ Microsoft Dynamics 365 for Finance and Operations 支持应收帐款和应付帐
 </tr>
 <tr class="even">
 <td>为供应商登记和过帐远期支票</td>
-<td>登记您向供应商签发的远期支票的详细信息。 在过帐付款时，识别供应商负债，不过，银行帐户不是贷方。 相反，结算帐户用于此目的。</td>
+<td>登记您向供应商签发的远期支票的详细信息。 在过帐付款时，识别供应商负债，不过，银行帐户不是贷方。 相反，结算帐户用于此目的。 </td>
 </tr>
 <tr class="odd">
 <td>为客户登记和过帐远期支票</td>
@@ -87,6 +86,17 @@ Microsoft Dynamics 365 for Finance and Operations 支持应收帐款和应付帐
 
 
 
+有关详细信息，请参阅以下主题：
+
+[设置远期支票](tasks/set-up-postdated-checks.md)
+
+[为客户登记和过帐远期支票](tasks/register-post-postdated-check-customer.md)
+
+[结算客户的远期支票](tasks/settle-postdated-check-customer.md)
+
+[为供应商登记和过帐远期支票](tasks/register-post-postdated-check-vendor.md) 
+
+[结算供应商的远期支票](tasks/settle-postdated-check-vendor.md)
 
 
 

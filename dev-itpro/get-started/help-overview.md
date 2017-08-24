@@ -15,13 +15,13 @@ ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9c083fd26a58e96b3bb810df11eadace184f9dbf
-ms.openlocfilehash: eaa3317acf7df84d06ad3641486df1c096b26a56
+ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
+ms.openlocfilehash: 171d006e20834ea4ad6d5651ec27fc305eac4bc6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/09/2017
 
 ---
 
@@ -34,8 +34,8 @@ ms.lasthandoff: 07/27/2017
 > [!NOTE] 
 > 以下产品密切相关：Dynamics 365 for Finance and Operations Enterprise 版本；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
-帮助系统由所有统一运营产品共用：
-- Dynamics 365 for Finance and Operations Enterprise 版本
+帮助系统由以下产品共用：
+- Dynamics 365 for Finance and Operations Enterprise Edition
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -73,7 +73,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 
 ![站点搜索结果](./media/site-search-results-2.png)
 
-### <a name="the-docsmicrosoftcom-table-of-contents-for-unified-operations"></a>统一运营内容的 docs.microsoft.com 表
+### <a name="the-docsmicrosoftcom-table-of-contents"></a>docs.microsoft.com 目录
 所有产品共用文档站点上的一个内容表，使客户能够查看他们所处的主题的上下文。 它还使您能够使用筛选器查找您正在查找的主题。
 
 ### <a name="how-can-i-contribute"></a>我如何作出贡献？ 
@@ -101,7 +101,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 ## <a name="task-guides"></a>任务指南
 任务指南是受控的、引导式、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以从“帮助”窗格中打开（播放）任务指南。 当您首次单击任务指南时，“帮助”窗格将显示任务的分步说明。 本地化的任务指南现已提供。 
 
-我们为每个统一运营产品提供不同的任务指南集。 来自帮助窗格的获取任务指南部分介绍如何查找适用于您的产品的正确的任务指南。 
+我们为 Dynamics 365 for Retail、Dynamics 365 for Finance and Operations 或 Dynamics 365 for Talent 之类每个产品提供不同的任务指南集。 来自帮助窗格的获取任务指南部分介绍如何查找适用于您的产品的正确的任务指南。 
 
 ![任务指南阅读视图](./media/task-guide-ops.png)
 
@@ -169,7 +169,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/operations](/dynamics
 -   如果尚未翻译任务指南，在您打开任务指南时，仅部分文本（控制文本）显示为您选择的语言。
 
 ## <a name="additional-resources"></a>其他资源
-下表列出提供统一运营内容的网站。 我们的内容网站经过了组织，用以支持客户生命周期。 每个阶段由不同站点集支持。 名称旁边具有星号 (\*) 的站点要求您使用与服务计划关联的帐户登录。
+下表列出了我们的网站。 我们的内容网站经过了组织，用以支持客户生命周期。 每个阶段由不同站点集支持。 名称旁边具有星号 (\*) 的站点要求您使用与服务计划关联的帐户登录。
 
 | 站点                                                                     | 说明                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

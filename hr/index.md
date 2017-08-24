@@ -15,14 +15,13 @@ ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: 2016-02-28T00:00:00.000Z
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 28b5c72a174c7d40fcf1e4c348834fc532b04fcc
+ms.translationtype: HT
+ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.openlocfilehash: ed80e59579c2356cc3c1e0f13b33026284867a2c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/29/2017
-
+ms.lasthandoff: 08/02/2017
 
 ---
 
@@ -54,12 +53,15 @@ Microsoft Dynamics 365 for Talent 简化了很多例行记录保留任务，并�
 -   [使用部门、工作和职位组织您的劳动力](departments-jobs-positions.md)
 -   [设置特定于公司的 HR 参数](set-up-company-specific-hr-parameters.md)
 -   [跨法人设置 HR 参数](set-up-hr-parameters-across-legal-entities.md) 
+-   [人事行动常见问题](personnel-actions-faq.md)
+-   [休假和缺勤概览](leave-absence-overview.md)
 
 ## <a name="retain-and-motivate-employees"></a>保留和激励员工
 
 您可以制定计划来有效公平地管理薪酬以及管理您的组织借给员工的物品（如计算机或手机）。 您可以创建固定和可变的薪酬计划，并定义应用薪酬计划以满足该计划的条件的规则。
 
 -   [薪酬计划](compensation-plans.md)
+-   [薪酬流程](process-compensation.md)
 -   [创建固定薪酬计划](create-fixed-compensation-plans.md)
 -   [创建可变薪酬计划](create-variable-compensation-plans.md)
 

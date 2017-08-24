@@ -3,7 +3,7 @@ title: "在工作流中配置手动任务"
 description: "本主题说明如何配置手动任务的属性。"
 author: sericks007
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,7 +15,7 @@ ms.custom: 192191
 ms.assetid: 27f1afde-ff26-4b6f-8c11-27ec49130bbb
 ms.search.region: Global
 ms.author: donaldc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
@@ -165,6 +165,7 @@ ms.lasthandoff: 06/13/2017
 
 1.  在左窗格中，单击**呈报**。
 2.  选择**使用呈报路线**复选框创建呈报路线。 系统自动将任务分配给呈报路线中列出的用户。 例如，下表显示呈报路线。
+
     | 序列 | 呈报路线      |
     |----------|----------------------|
     | 1        | 分配给：Donna     |
@@ -318,7 +319,9 @@ ms.lasthandoff: 06/13/2017
 8.  对您在第 2 步中选择的每个事件重复 第 3 步到第 7 步。
 
 ## <a name="set-a-time-limit"></a>设置时间限制
-如果必须在特定时间内完成手动任务，请执行以下步骤。 **注意：**您在此过程中选择的选项将覆盖您在页面的**分配**和**呈报**区域选择的选项。
+如果必须在特定时间内完成手动任务，请执行以下步骤。 
+
+**注意：**您在此过程中选择的选项将覆盖您在页面的**分配**和**呈报**区域选择的选项。
 
 1.  在左侧窗格中，单击**高级设置**。
 2.  选中**为工作流元素设置时间限制**复选框。

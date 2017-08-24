@@ -1,9 +1,9 @@
 ---
 title: "供应商协作开票工作区"
 description: "本主题介绍如何通过供应商协作开票工作区查看供应商发票和提交发票。"
-author: twheeloc
+author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/22/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -14,8 +14,8 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 221534
 ms.assetid: c4ed62f3-d351-41d7-a2ad-790576cde4ab
 ms.search.region: Global
-ms.author: abruer
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.author: Shiva.Pandey
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
@@ -33,7 +33,9 @@ ms.lasthandoff: 06/14/2017
 本主题介绍如何通过供应商协作开票工作区查看供应商发票和提交发票。
 
 “**供应商协作开票**”工作区可用于查看供应商发票信息和使用工作流功能提交发票至 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition。
-供应商协作开票工作区
+
+
+<a name="vendor-collaboration-invoicing-workspace"></a>供应商协作开票工作区
 ----------------------------------------
 
 ### <a name="summary-tiles"></a>汇总磁贴

@@ -12,17 +12,15 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 265244
-ms.assetid: c7ee6b6a-cb92-4d1a-b4bb-37df3107dac8
 ms.search.region: China (PRC)
-ms.author: leguo
+ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7570e489abc67936ec65c9b2adc372ebe737f90c
+ms.translationtype: HT
+ms.sourcegitcommit: cb5ab0e64b2a663af627d4d46e3a74aa526058b8
+ms.openlocfilehash: 29c223dd7809f5377385ea02f3b6d9020a197dc1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 07/28/2017
 
 ---
 
@@ -43,7 +41,7 @@ ms.lasthandoff: 05/25/2017
 2. 创建一个新折旧模板。 使用**年数总和法**或**双倍余额递减法**。
 3. 为该折旧法创建一个帐簿，请使用**年数总和法**或**双倍余额递减法**。
 
-
+有关详细信息，请参阅[设置固定资产折旧分摊](./tasks/fixed-asset-depreciation-allocation.md)。
 
 
 

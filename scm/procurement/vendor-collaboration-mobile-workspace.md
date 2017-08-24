@@ -16,10 +16,10 @@ ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 9ea9eb66abf7898ce735e1204259fcc9b9523c52
-ms.openlocfilehash: d76b3592ed8274498a7a58c46cc83619f2f668f5
+ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.openlocfilehash: fc8b7f6901ffd5c97fb864dbd3f87c5c70a31487
 ms.contentlocale: zh-cn
 ms.lasthandoff: 07/27/2017
 
@@ -102,10 +102,10 @@ ms.lasthandoff: 07/27/2017
 <td>供应商用户必须有权访问 Web 客户端中的供应商协作 Web 界面和设置供应商协作用户。</td><td>专业采购人员和系统管理员</td>
 <td>请按照以下主题中的步骤设置和使用供应商协作 Web 界面。
 <ul>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-external-vendors">使用供应商协作与外部供应商合作</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/manage-vendor-collaboration-user">管理供应商协作用户</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/set-up-maintain-vendor-collaboration">设置和维护供应商协作</a></li>
-<li><a href="/dynamics365/unified-operations/supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations">使用供应商协作在 Finance and Operations 中与客户合作</a></li>
+<li><a href="vendor-collaboration-work-external-vendors.md">使用供应商协作与外部供应商合作</a></li>
+<li><a href="manage-vendor-collaboration-users.md">管理供应商协作用户</a></li>
+<li><a href="set-up-maintain-vendor-collaboration.md">设置和维护供应商协作</a></li>
+<li><a href="vendor-collaboration-work-customers-dynamics-365-operations.md">使用供应商协作在 Finance and Operations 中与客户合作</a></li>
 </ul></td>
 </tr>
 </tbody>

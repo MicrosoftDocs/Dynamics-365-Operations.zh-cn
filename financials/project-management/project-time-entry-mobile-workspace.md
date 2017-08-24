@@ -18,12 +18,11 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: d80dea89db1fbe270b96063f3818ec3ac95239c8
+ms.translationtype: HT
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 83899969255a9b771fc5e62e66e3c5ffdca0296e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 06/13/2017
 ## <a name="prerequisites"></a>必备项
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新时的先决条件 
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-update"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月更新时的先决条件 
 如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，系统管理员必须发布**项目时间条目**移动工作区。 有关说明，请查阅 [发布移动工作区](/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
@@ -105,11 +104,11 @@ ms.lasthandoff: 06/13/2017
 2.  选择**时间条目**。 此时将显示当前周的日历日期。
 3.  对于所选日期，选择**操作**&gt;**新条目**。
 4.  输入要记录的小时数。
-5.  为时间条目选择项目。 列表显示加载到您的应用程序中供脱机使用的项目。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。
+5.  为时间条目选择项目。 列表显示加载到您的应用程序中供脱机使用的项目。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。
 6.  如果您的项目不在该列表中，请选择**搜索**。 按名称搜索，或切换到按项目名称或客户搜索。
-7.  选择类别。 列表显示加载到您的应用程序中供脱机使用的类别。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。
+7.  选择类别。 列表显示加载到您的应用程序中供脱机使用的类别。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。
 8.  如果您的类别不在该列表中，请选择**搜索**。 按类别搜索，或切换到按类别名称搜索。
-9.  选择活动。 列表显示加载到您的应用程序中供脱机使用的活动。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。
+9.  选择活动。 列表显示加载到您的应用程序中供脱机使用的活动。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，请参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。
 10. 如果您的活动不在该列表中，请选择**搜索**。 按活动编号搜索，或切换到按用途搜索。
 
 11. 选择记录属性

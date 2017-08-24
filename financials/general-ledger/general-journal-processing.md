@@ -3,7 +3,7 @@ title: "普通日记帐处理"
 description: "本文介绍 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。"
 author: twheeloc
 manager: AnnBe
-ms.date: 04/25/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 244eada4202106b65198e3d6e3d0dedaa5486632
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: 68da281cb4793ed83f70c68d061d327aa8a8c772
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -82,8 +81,13 @@ ms.lasthandoff: 06/13/2017
 
 科目结构和高级规则结构对于确保在一般日记帐处理和任何单据化期间捕获财务报告所需的数据以及绩效跟踪极其重要。 科目结构和高级规则结构可让您定制数据输入体验。 您可以仅对在所有情况下都相关的财务维度允许数据输入，还可以强制实施“始终捕获必需和正确的数据”这一要求。
 
-有关详细信息，请参阅[计划：会计科目表](plan-chart-of-accounts.md)。 
-
+有关详细信息，请参阅以下主题：
+- [计划：会计科目表](plan-chart-of-accounts.md)。 
+- [创建日记帐高级规则](tasks/create-advanced-rules-journals.md)
+- [使用模板创建日记帐条目](tasks/create-journal-entry-template.md)
+- [创建和验证日记帐](tasks/create-validate-journals.md)
+- [过帐期间日记帐](tasks/post-periodic-journals.md)
+- [处理分类帐分配日记帐](tasks/process-ledger-allocation-journal.md)
 
 
 

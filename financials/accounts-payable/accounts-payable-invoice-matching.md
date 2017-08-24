@@ -3,7 +3,7 @@ title: "应付帐款发票匹配"
 description: "应付帐款发票匹配是匹配供应商发票、采购订单和装箱单信息的一个流程。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6d1348ad43f8170f29bfc2f3df8a2ec60f9f8912
+ms.translationtype: HT
+ms.sourcegitcommit: 1982e495f740d6061b9574aa9f40f38180e8d110
+ms.openlocfilehash: aa195f6057ae4ea511d661ffb47b1feeed58d2f9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 08/03/2017
 
 ---
 
@@ -192,7 +191,7 @@ ms.lasthandoff: 05/25/2017
 -   输入未在原始采购订单上包括的发票金额，以便发票信息与您从供应商处接收的发票匹配。 您可以将采购订单的杂项费用与发票的杂项费用进行比较。 如有必要，您可以将杂项费用添加到发票并将它们分摊到各发票行。
 -   查看并审核发票净单价与采购订单净单价之间的差异。 您可为您的公司、物料和供应商设置价格容差百分比。 如果供应商发票行价格不在可接受的价格容差内，您可以保存该发票，直到对其进行审核以便过帐，或者直到接收来自供应商的更正。
 
-有关详细信息，请参阅[三向匹配政策](three-way-matching-policies.md)。
+有关详细信息，请参阅[三向匹配政策](three-way-matching-policies.md)和[设置应付帐款发票匹配验证](tasks/set-up-accounts-payable-invoice-matching-validation.md)。 
 
 
 

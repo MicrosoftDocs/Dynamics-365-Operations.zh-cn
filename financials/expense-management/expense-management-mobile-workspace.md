@@ -16,12 +16,12 @@ ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2dd3db95eb741c37dd8a50c397cb4c9494599250
-ms.openlocfilehash: 993586b1fb46c21d2b68a6060ab897c8ccc76a6c
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 58d36505461ea89bf466209d3da968d1357e58ae
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -131,11 +131,11 @@ ms.lasthandoff: 07/27/2017
 ## <a name="quickly-enter-expenses-by-using-the-expense-management-mobile-workspace"></a>通过使用费用报销管理移动工作区快速输入费用
 1. 在移动设备上，打开**费用报销管理**工作区。
 2. 选择**快速输入费用**。
-3. 选择支出类别。 将看到加载到您的应用程序中供脱机使用的支出类别的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。 如果你的类别不在该列表中，请选择**搜索**以执行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
+3. 选择支出类别。 将看到加载到您的应用程序中供脱机使用的支出类别的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果你的类别不在该列表中，请选择**搜索**以执行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
 4. 输入支出的交易记录日期。
 5. 可选：输入支出商家。
 6. 输入支出金额。
-7. 选择支出币种。 将看到加载到您的应用程序中供脱机使用的币种代码的列表。 默认情况下加载 400 个币种，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。 如果你的币种不在该列表中，请选择**搜索**以执行在线搜索。 按币种搜索，或切换到按名称搜索。
+7. 选择支出币种。 将看到加载到您的应用程序中供脱机使用的币种代码的列表。 默认情况下加载 400 个币种，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果你的币种不在该列表中，请选择**搜索**以执行在线搜索。 按币种搜索，或切换到按名称搜索。
 8. 选择**拍照**或**选择图像**。
 9. 按以下步骤之一：
 
@@ -166,11 +166,11 @@ ms.lasthandoff: 07/27/2017
 7. 选择列表中的一个或多个支出。
 8. 选择**完成**。
 9. 若要将新的支出添加到支出报表，请选择**新支出**。
-10. 选择支出类别。 将看到加载到您的应用程序中供脱机使用的支出类别的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。 如果你的类别不在该列表中，请选择**搜索**以执行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
+10. 选择支出类别。 将看到加载到您的应用程序中供脱机使用的支出类别的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果你的类别不在该列表中，请选择**搜索**以执行在线搜索。 按支出类别搜索，或切换到按支出类型搜索。
 11. 可选：输入支出商家。
 12. 输入支出的交易记录日期。
 13. 输入支出金额。
-14. 选择支出币种。 将看到加载到您的应用程序中供脱机使用的币种代码的列表。 默认情况下加载 400 个币种，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。 如果你的币种不在该列表中，请选择**搜索**以执行在线搜索。 按币种搜索，或切换到按名称搜索。
+14. 选择支出币种。 将看到加载到您的应用程序中供脱机使用的币种代码的列表。 默认情况下加载 400 个币种，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果你的币种不在该列表中，请选择**搜索**以执行在线搜索。 按币种搜索，或切换到按名称搜索。
 15. 选择**完成**。
 16. 若要向支出添加更多详细信息，请选择**添加更多详细信息**。 可用的字段取决于为你的公司配置费用报销管理的方式。
 17. 如果公司政策要求提供支出收据，请选择**收据**，然后执行以下步骤：
@@ -216,12 +216,12 @@ ms.lasthandoff: 07/27/2017
 
         - 如果你选择了**以前的来宾**，请执行以下步骤：
 
-            1. 选择列表中的一个或多个以前的来宾。 你会看到你已添加到支出报表并加载到你的应用程序中供脱机使用的以前的来宾的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。 如果以前的来宾不在该列表中，请选择**搜索**以执行在线搜索。 按姓名搜索，或切换到按组织、国家/地区或职务搜索。
+            1. 选择列表中的一个或多个以前的来宾。 你会看到你已添加到支出报表并加载到你的应用程序中供脱机使用的以前的来宾的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果以前的来宾不在该列表中，请选择**搜索**以执行在线搜索。 按姓名搜索，或切换到按组织、国家/地区或职务搜索。
             2. 选择**完成**。
 
         - 如果你选择了**同事**，请执行以下步骤：
 
-            1. 选择列表中的一个或多个同事。 你将看到加载到你的应用程序中供脱机使用的同事的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。 如果你的同事不在该列表中，请选择**搜索**以执行在线搜索。 按姓名搜索，或切换到按公司或职务搜索。
+            1. 选择列表中的一个或多个同事。 你将看到加载到你的应用程序中供脱机使用的同事的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果你的同事不在该列表中，请选择**搜索**以执行在线搜索。 按姓名搜索，或切换到按公司或职务搜索。
             2. 选择**完成**。
 
     3. 选择**返回**按钮以返回到支出详细信息。
@@ -230,7 +230,7 @@ ms.lasthandoff: 07/27/2017
 
     1. 选择要列出明细的第一个日期。
     2. 选择**添加明细**。
-    3. 选择支出明细的子类别。 你将看到加载到你的应用程序中供脱机使用的支出子类别的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/mobile-platform)。 如果你的子类别不在该列表中，请选择**搜索**以执行在线搜索。 按支出子类别名称搜索。
+    3. 选择支出明细的子类别。 你将看到加载到你的应用程序中供脱机使用的支出子类别的列表。 默认情况下，加载 50 项，但是开发人员可以更改此数字。 有关详细信息，开发人员应参阅 [移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)。 如果你的子类别不在该列表中，请选择**搜索**以执行在线搜索。 按支出子类别名称搜索。
     4. 输入用于明细的交易记录金额。
     5. 根据需要编辑交易记录日期。
     6. 选择**完成**。

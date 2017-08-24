@@ -3,7 +3,7 @@ title: "在期间结束时关闭总帐"
 description: "本主题介绍为总帐执行定期结算时通常完成的任务。"
 author: RobinARH
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,13 +15,13 @@ ms.custom: 14111
 ms.assetid: cec9e039-c1a2-482c-bea6-e11d896eea9d
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 81d687cc16ef43442c8c1c166cc6f0d8b171e28f
+ms.translationtype: HT
+ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
+ms.openlocfilehash: bcf58b0ca995883bc466eec66a3d75c73c0be79e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/01/2017
 
 ---
 
@@ -45,8 +45,13 @@ ms.lasthandoff: 05/25/2017
 -   通过使用财务报告生成期间结束财务报表。
 -   设置分类帐期间为**暂停**，以便没有进一步过帐发生。 您还可以在发生期间结束活动时限制期间到特定的用户组，以便更好地控制。 将期间设置为**永久关闭**不是一个好主意，因为您将无法重新打开已关闭的期间。
 
-“财务期间结帐”工作区可用于组织和跟踪各种期间结束流程所需任务。 有关详细信息，请参阅[“财务期间结帐”工作区](financial-period-close-workspace.md)和[年终结算](Year-end-close.md)。 
+“财务期间结帐”工作区可用于组织和跟踪各种期间结束流程所需任务。 
 
+
+有关详细信息，请参阅以下主题：
+- [财务期间结帐工作区](financial-period-close-workspace.md) 
+- [年终结算](Year-end-close.md)  
+- [批量财务期间结帐](tasks/mass-financial-period-close.md)
 
 
 
