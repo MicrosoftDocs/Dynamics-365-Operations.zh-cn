@@ -14,13 +14,13 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9f4b007c174961a8e6794ab532d733584f492758
-ms.openlocfilehash: ead315d2e07818b35dd2806fca7e242f4028be07
+ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
+ms.openlocfilehash: 25cba59dfbab2e1030660840e85d278452e39e52
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/10/2017
 
 ---
 
@@ -29,12 +29,12 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用性指南](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
+Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品可用性指南](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
 
-本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。 
+本主题包含可帮助您详细了解特定于国家/地区的解决方案、更新、提醒和功能的一系列资源。 
 
 ## <a name="developing-localized-solutions"></a>开发本地化的解决方案
-以下资源提供了可帮助正在创建特定于国家/地区的自定义或创建适用于 Microsoft 不支持的国家/地区的解决方案的开发人员和 ISV 的指南和信息。
+以下资源提供了可帮助正在创建特定于国家/地区的自定义项或创建适用于 Microsoft 不支持的国家/地区的解决方案的开发人员和 ISV 的指南和信息。
 -   [独立的本地化模型](separate-localization-models.md)
 -   [应用国家/地区上下文](apply-country-context.md)
 -   [监管认证](regulatory-certifications.md)
@@ -96,22 +96,28 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 -   [CODA 银行对帐单](/dynamics365/unified-operations/financials/localizations/emea-bel-coda-bank-statement-import)
 -   [Intervat 纳税申报](/dynamics365/unified-operations/financials/localizations/emea-bel-intervat-tax-declaration)
 -   [PRODCOM 报告设置](/dynamics365/unified-operations/financials/localizations/emea-bel-prodcom-report)
+-   [对帐报表](/dynamics365/unified-operations/financials/localizations/emea-bel-reconciliation-reports)
 
 ### <a name="brazil"></a>巴西
 
+-   [CIAP 固定资产](/dynamics365/unified-operations/financials/localizations/latam-bra-ciap-fixed-asset)
+-   [配置会计帐簿](/dynamics365/unified-operations/financials/localizations/latam-bra-configure-fiscal-books)
+-   [针对巴西的总帐合并导出和导入交易](/dynamics365/unified-operations/financials/localizations/latam-bra-general-ledger-consolidation-transactions)
 -   [会计帐簿](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-books)
 -   [会计单据文本占位符](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-document-text-placeholders)
 -   [会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework)
 -   [ICMS 缴税会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-icms-tax-fiscal-documents)
 -   [导入和验证 NF-e XML 文档和 DANFE 文件](/dynamics365/unified-operations/financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails)
 -   [导入会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-import-fiscal-documents)
--   [在电子付款退回过程中生成日记帐](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
+-   [在电子付款退回过程中生成的日记帐](/dynamics365/unified-operations/financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process)
 -   [NF-e 流程](/dynamics365/unified-operations/financials/localizations/latam-bra-nf-e-process)
 -   [法人的参数](/dynamics365/unified-operations/financials/localizations/latam-bra-legal-entity-parameters)
+-   [处理巴西电子付款汇款](/dynamics365/unified-operations/financials/localizations/latam-bra-process-electronic-payment-remittances)
 -   [采购补充会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-purchase-complementary-fiscal-documents)
 -   [引用的会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-referenced-fiscal-documents)
--   [销售购补充会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
+-   [销售补充会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-sales-complementary-fiscal-documents)
 -   [服务电子会计单据](/dynamics365/unified-operations/financials/localizations/latam-bra-service-electronic-fiscal-document)
+-   [设置、导入并验证 NF-e XML 文档和 DANFE](/dynamics365/unified-operations/financials/localizations/latam-bra-set-up-import-nfe)
 -   [税务属性](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-attributes)
 -   [税金支付](/dynamics365/unified-operations/financials/localizations/latam-bra-tax-payments)
 -   [税金](/dynamics365/unified-operations/financials/localizations/latam-bra-calculate-taxes)
@@ -159,6 +165,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 - [汇率调整](/dynamics365/unified-operations/financials/localizations/emea-exchange-rate-adjustments)
 - [付款方式的文件格式](/dynamics365/unified-operations/financials/localizations/emea-select-file-formats-for-the-method-of-payments)
 - [爱沙尼亚和立陶宛的固定资产处置](/dynamics365/unified-operations/financials/localizations/emea-credit-note-reverse-fixed-asset-sale)
+- [导入 ISO20022 文件](/dynamics365/unified-operations/financials/localizations/emea-ISO20022-file-formats)
 - [内部统计](/dynamics365/unified-operations/financials/localizations/emea-intrastat)
 - [库存日记帐报表](/dynamics365/unified-operations/financials/localizations/emea-set-up-report-inventory-journal-names)
 - [立陶宛和拉脱维亚的发票和装箱单编号](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
@@ -174,6 +181,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 - [SEPA 直接借记概览](/dynamics365/unified-operations/financials/accounts-receivable/sepa-direct-debit-overview)
 - [设置客户和供应商薪酬](/dynamics365/unified-operations/financials/localizations/emea-compensation-customer-vendor-transactions)
 - [设置打印表格的签名人](/dynamics365/unified-operations/financials/localizations/emea-set-up-signers-for-printing-forms)
+- [Storno 核算](/dynamics365/unified-operations/financials/localizations/emea-storno)
 - [税务指令](/dynamics365/unified-operations/financials/localizations/emea-tax-directives)
 - [更新金额在报表和单据上显示的方式](/dynamics365/unified-operations/financials/localizations/emea-amount-printing-forms) 
 - [增值税汇率](/dynamics365/unified-operations/financials/localizations/emea-vat-exchange-rate)
@@ -246,6 +254,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 
 -   [固定资产维修报表](/dynamics365/unified-operations/financials/localizations/emea-ltu-fixed-asset-repair-statement)
 -   [发票和装箱单编号](/dynamics365/unified-operations/financials/localizations/emea-invoices-packing-slips-numbering)
+-   [增值税报表明细](/dynamics365/unified-operations/financials/localizations/emea-ltu-vat-statement-details)
 
 ### <a name="mexico"></a>墨西哥
 
@@ -296,6 +305,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 -   [固定资产重估组](/dynamics365/unified-operations/financials/localizations/emea-esp-fixed-asset-group-revaluation)
 -   [集团内部增值税](/dynamics365/unified-operations/financials/localizations/emea-esp-intra-community-vat)
 -   [零星客户](/dynamics365/unified-operations/financials/localizations/emea-esp-no-one-time-customer-for-project-contracts)
+-   [以西班牙版式打印支票](/dynamics365/unified-operations/financials/localizations/emea-esp-print-checks-with-spanish-layout)
 -   [西班牙本票选项](/dynamics365/unified-operations/financials/localizations/emea-esp-promissory-note-options)
 -   [销售和采购周期](/dynamics365/unified-operations/financials/localizations/emea-esp-sales-purchase-cycle)
 -   [特殊条目和期初单](/dynamics365/unified-operations/financials/localizations/emea-esp-opening-sheets-spain)
@@ -313,6 +323,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 ### <a name="thailand"></a>泰国
 
 -   [存货卡报表](/dynamics365/unified-operations/financials/localizations/apac-tha-stock-card-reports)
+-   [泰国的替换/调整税务发票](/dynamics365/unified-operations/financials/localizations/apac-tha-substitution-and-adjustment-invoices)
 -   [未实现的增值税](/dynamics365/unified-operations/financials/localizations/apac-tha-unrealized-vat)
 -   [预缴税金](/dynamics365/unified-operations/financials/localizations/apac-tha-withholding-tax)
 
@@ -322,6 +333,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品可用�
 
 ### <a name="united-states"></a>美国
 
+-   [公共部门中的 1099 表格](/dynamics365/unified-operations/financials/localizations/noam-usa-form-1099-public-sector)   
 -   [表格 I-9 验证](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-form-i-9-verification)
 -   [年末 1099 申报](/dynamics365/unified-operations/financials/localizations/noam-usa-year-end-1099-reporting)
 -   [工资单](/dynamics365/unified-operations/fin-and-ops/hr/localizations/noam-usa-payroll)
