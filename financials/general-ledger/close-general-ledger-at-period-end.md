@@ -1,7 +1,7 @@
 ---
 title: "在期间结束时关闭总帐"
 description: "本主题介绍为总帐执行定期结算时通常完成的任务。"
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -14,7 +14,7 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
 ms.openlocfilehash: 373cd15efba507aa9b35f61ce4a8c9fd8750f60d

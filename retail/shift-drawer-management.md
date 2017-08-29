@@ -1,7 +1,7 @@
 ---
 title: "班次和银箱管理"
 description: "本文介绍了如何设置和使用两种类型的零售销售点 (POS) 班次 - 共享和独立。 共享班次可由多个用户在多个位置使用，而独立班次一次只能由一个工作人员使用。"
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 0d5e05e8f1edcc01af985c25459d93de0bc2acf1
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

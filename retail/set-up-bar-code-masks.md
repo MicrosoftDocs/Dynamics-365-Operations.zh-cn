@@ -1,7 +1,7 @@
 ---
 title: "设置条码掩码"
 description: "此主题介绍如何设置条码掩码字符和条码掩码，以及如何为条码分配条码掩码。"
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 958cac2e85ae7fa514f6f26cbb6178d8fdec9783
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

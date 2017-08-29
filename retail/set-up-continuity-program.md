@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: josaw
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 16081
 ms.assetid: 426a9be7-a931-4780-b372-e06f6083dd60
@@ -23,8 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: c0a9eec6bdf67deca885b30082b958869e64aae2
 ms.contentlocale: zh-cn
 ms.lasthandoff: 05/25/2017
-
-
 
 ---
 

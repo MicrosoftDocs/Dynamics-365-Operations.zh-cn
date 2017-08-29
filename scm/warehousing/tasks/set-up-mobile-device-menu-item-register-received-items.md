@@ -9,13 +9,13 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bibis
+ms.reviewer: bis
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bibis
+ms.author: bis
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
 ms.openlocfilehash: 642e2b05c9f9a59f6b47a22f3d92f2f6ae245039

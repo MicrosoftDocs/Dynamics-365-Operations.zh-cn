@@ -1,7 +1,7 @@
 ---
 title: "查看日记帐分录和交易记录"
 description: "本文说明您可以查看日记帐条目和交易记录的各种方式。"
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

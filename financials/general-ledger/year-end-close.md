@@ -1,7 +1,7 @@
 ---
 title: "年终结算"
 description: "此主题描述运行总帐年终结算流程所需设置和步骤。"
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

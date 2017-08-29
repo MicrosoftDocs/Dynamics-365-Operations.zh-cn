@@ -14,7 +14,7 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
 ms.openlocfilehash: de850085611c60b67c1b5c765d9cb69087718e3f

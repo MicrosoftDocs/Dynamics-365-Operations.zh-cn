@@ -1,7 +1,7 @@
 ---
 title: "转换记帐或申报币种"
 description: 
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "分析商店业绩"
 description: "本文介绍如何使用内存中和实时分析来基于您的 Microsoft Dynamics 365 for Retail 数据访问、探索和深入了解商店业绩。"
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 37baac8d3160b95f75dd11197fc60060450c0680
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

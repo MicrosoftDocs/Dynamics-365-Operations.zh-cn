@@ -1,7 +1,7 @@
 ---
 title: "设置客户会员计划"
 description: "本文介绍如何设置会员计划。 通过奖励购买您零售店产品的客户，会员计划有助于增加客户忠诚度。 在 Microsoft Dynamics 365 for Retail 中，您可以在所有零售渠道设置简单或复杂的应用于整个法人实体的会员计划。"
-author: josaw1
+author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 710f8ae3a6a2b5072f37879aad066dc699ede8f0
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

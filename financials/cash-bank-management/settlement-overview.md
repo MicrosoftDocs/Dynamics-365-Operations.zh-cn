@@ -1,7 +1,7 @@
 ---
 title: "结算概览"
 description: "本文提供有关结算流程的一般信息。 介绍可以结算的交易记录类型，可以在何时和如何结算交易记录，以及结算流程的结果。"
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
 ms.openlocfilehash: ab12ef4127daf57fb0816ae1585876b50d1e81ed
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
 
 ---
 

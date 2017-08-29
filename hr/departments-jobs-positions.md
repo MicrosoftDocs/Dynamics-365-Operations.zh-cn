@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
-ms.reviewer: annbe
+ms.reviewer: rschloma
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 87933
 ms.assetid: eb5dcacb-a5fe-451d-b30a-7ef14da65d81
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 688550888e5e029e38e945cec633170465df73f9
 ms.contentlocale: zh-cn
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

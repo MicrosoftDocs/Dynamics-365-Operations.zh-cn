@@ -1,7 +1,7 @@
 ---
 title: "库存标签盘点"
 description: "本文提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。"
-author: YuyuScheller
+author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,7 +23,6 @@ ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
 ms.openlocfilehash: 61a48a61963f643c8969e9090c2e84b5499b716a
 ms.contentlocale: zh-cn
 ms.lasthandoff: 05/25/2017
-
 
 ---
 

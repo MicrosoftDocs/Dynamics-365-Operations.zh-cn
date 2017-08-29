@@ -1,7 +1,7 @@
 ---
 title: "应计概览"
 description: "本文介绍应计项目，并且提供有关如何设置和创建交易记录的信息。"
-author: RobinARH
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

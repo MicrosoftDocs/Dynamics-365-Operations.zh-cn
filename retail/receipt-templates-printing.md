@@ -1,7 +1,7 @@
 ---
 title: "收据模板和打印"
 description: "本文介绍如何修改窗体布局以控制如何打印收据、发票和其他单据。 Microsoft Dynamics 365 for Retail 包括您可以用于轻松创建和修改不同类型的窗体布局的窗体布局设计器。"
-author: josaw1
+author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 6f1ec982522c6fe677b1921b69d5d04c4e783725
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

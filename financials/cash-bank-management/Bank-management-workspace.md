@@ -1,7 +1,7 @@
 ---
 title: "银行管理工作区"
 description: "此主题提供了有关银行管理工作区的信息。 此工作区显示与公司银行帐户关联的信息，并包括一个汇总视图和一个分析页。 汇总视图显示汇总磁贴、银行帐户信息、余额图表和关联信息。 分析页使用 Microsoft Power BI 的功能显示与银行帐户余额相关的视觉对象。"
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 05/25/2017
 ms.topic: article
@@ -13,7 +13,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e

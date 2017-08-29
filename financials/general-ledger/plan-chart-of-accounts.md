@@ -1,7 +1,7 @@
 ---
 title: "规划会计科目表"
 description: "本文提供将帮助您为您的组织计划会计科目表的信息。"
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

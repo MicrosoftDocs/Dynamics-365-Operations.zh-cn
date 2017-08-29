@@ -17,7 +17,7 @@ ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.2.0
+ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
 ms.openlocfilehash: 157cb807a5a5e61b022b3186dfbe67b95c2408ec
