@@ -15,7 +15,7 @@ ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: b424be5396df9434cd799ca7e7e9342a7c476e29

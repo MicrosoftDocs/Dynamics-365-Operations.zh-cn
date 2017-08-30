@@ -1,7 +1,7 @@
 ---
 title: "定义和维护零售渠道"
 description: "本文提供设置实体商店（在 Microsoft Dynamics 365 for Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。"
-author: josaw1
+author: mugunthanm
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: 14496d96-1c72-43ce-a2e7-8467bab4ae46
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: mumani
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
