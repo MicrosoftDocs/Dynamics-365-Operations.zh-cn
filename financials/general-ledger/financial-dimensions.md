@@ -1,7 +1,7 @@
 ---
 title: "财务维度"
 description: "本主题介绍财务维度的不同类型以及如何设置。"
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

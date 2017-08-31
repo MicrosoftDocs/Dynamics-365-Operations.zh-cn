@@ -1,7 +1,7 @@
 ---
 title: "设置集中的付款"
 description: "按照以下步骤可以代表您的组织中的其他法人准备一个法人的处理付款。"
-author: twheeloc
+author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article

@@ -13,13 +13,13 @@ ms.reviewer: margoc
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 1b46d24a0f671502c9dc3d46849240342d680468
+ms.sourcegitcommit: 8ae84f23744947cf49365d318a208802c6db95a9
+ms.openlocfilehash: 5c40e4bf1d2defeeb656348e1bc3886d5423ca12
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 Microsoft Dynamics 365 for Finance and Operations 是 Microsoft 面向企业的业务应用程序。 它让用户可以通过智能的用户界面来访问实时见解和数据，从而快速做出更明智的决策。 它让企业能够提供经证实的业务逻辑，加快重新设计业务流程的速度，从而推动变革和创新。 它为企业带来了灵活性，使企业能够按照自己的节奏发展并几乎可随时随地开展业务，让企业根据业务需求在全球范围内拓展运营。 
 
-本文档可帮助您了解如何让 Dynamics 365 for Finance and Operations 为您的企业效力。 本文档与统一运营套件、Dynamics 365 for Retail 和 Dynamics 365 for Talent 中相关产品的文档存在关联。 
+本文档可帮助您了解如何让 Dynamics 365 for Finance and Operations 为您的企业效力。 本文档与相关产品的文档存在关联：Dynamics 365 for Retail 和 Dynamics 365 for Talent。 
 
 <table>
 <colgroup>
@@ -86,7 +86,7 @@ Microsoft Dynamics 365 for Finance and Operations 是 Microsoft 面向企业的�
 <p><a href="../dev-itpro/analytics/financial-reporting-intro">财务申报</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting">法规报告</a></p>
 
-<h3><a href="../dev-itpro/mobile-apps/mobile-platform">移动平台</a></h3>
+<h3><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page">移动平台</a></h3>
 
 <h3>开发人员功能</h3>
 <p><a href="../dev-itpro/dev-tools/developer-home-page">开发人员主页</a></p>

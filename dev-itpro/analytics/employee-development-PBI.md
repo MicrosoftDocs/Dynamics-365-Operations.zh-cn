@@ -12,8 +12,8 @@ audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations, UnifiedOperations, Talent, Core
 ms.search.region: Global
-ms.author: JCart
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.author: jcart
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008

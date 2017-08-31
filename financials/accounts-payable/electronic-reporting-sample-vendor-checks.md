@@ -14,8 +14,8 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.assetid: 
 ms.search.region: Global
 ms.author: twheeloc
-ms.dyn365.intro: 2017-06-30T00:00:00.000Z
-ms.dyn365.version: Enterprise edition, July 2017 update
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
 ms.openlocfilehash: a8ba439ff643fce4811be9224a3edf96b2b9025c

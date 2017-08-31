@@ -1,7 +1,7 @@
 ---
 title: "设置零售产品"
 description: "本文介绍如何在 Microsoft Dynamics 365 for Retail 中设置零售产品。"
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 2be44e0000e9730aa93076f21a4204f5d56f6aac
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

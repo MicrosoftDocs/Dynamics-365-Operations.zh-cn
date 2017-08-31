@@ -1,7 +1,7 @@
 ---
 title: "按产品评估销售业绩"
 description: "您可以使用 Microsoft Dynamics 365 for Retail 研究排名前 10 位的产品的收益率。"
-author: josaw1
+author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: d6c04b8a6a4208e187786be158ceb3c84e1bb408
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 

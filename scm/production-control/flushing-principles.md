@@ -1,7 +1,7 @@
 ---
 title: "耗用原则"
 description: "本主题描述为原材料消耗量使用的四个耗用原则。"
-author: BibiSp
+author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786

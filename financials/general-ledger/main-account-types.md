@@ -1,7 +1,7 @@
 ---
 title: "主科目类型"
 description: "主科目类型确定主科目如何用于会计科目表。"
-author: twheeloc
+author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article

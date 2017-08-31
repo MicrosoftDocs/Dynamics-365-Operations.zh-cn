@@ -14,7 +14,7 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 668fea64810524e8ce0c3833d25656c026f2780a
 ms.openlocfilehash: 7e57b26c17d3bf773a719f9725d5f47dce2af6f7

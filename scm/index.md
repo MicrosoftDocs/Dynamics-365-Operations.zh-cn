@@ -16,13 +16,13 @@ ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
 ms.search.industry: 
 ms.author: yuyus
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 7e916dd91126d140790cbb3a6a740c2e2f20ccef
+ms.sourcegitcommit: 9e0d4e510542ffdeb01c8c9daffab40f5ba4b654
+ms.openlocfilehash: 3875aab63d2046bf6f0ebeb04622babb6f3f104d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/16/2017
 
 ---
 
@@ -59,10 +59,13 @@ ms.lasthandoff: 07/27/2017
 -  [开始使用成本核算](https://youtu.be/1pUDtJQZ8FU)
 -  [成本控制移动工作区](https://youtu.be/imsuTg8rUVk)
 -  [使用 Excel 进行成本分析](https://youtu.be/-HKHYdClvx8)
+-  [在移动设备上审批采购订单](https://youtu.be/gZ-gOlJe7H8)
 
-### <a name="tech-talk"></a>技术交流 
+### <a name="tech-talks"></a>技术交流
+其中大多数交流讨论的是 Finance and Operations 的旧版本中的产品功能，但同一概念仍适用，并且相关程序在当前版本中是相似的。 
+
 -  <a href="https://youtu.be/zotrj3SbCl4">Microsoft Dynamics AX 中的产品配置器</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">主计划 - 疑难解答性能的提示和窍门</a>
+-  <a href="https://youtu.be/7v8BPmEs9Dg">主计划 - 有关性能疑难解答的提示和窍门</a>
 -  <a href="https://youtu.be/RLXybx20B5o">求助! MRP 太慢！</a>
 -  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">处理仓库管理中的入库 ASN</a> 
 -  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">充分利用仓库管理系统</a>
@@ -71,13 +74,14 @@ ms.lasthandoff: 07/27/2017
 -  <a href="https://youtu.be/5w1MngVchBA">新 Microsoft Dynamics AX 2012 R3 仓库管理中的标签</a>
 -  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3：高级仓库管理 - 流程制造生命周期中的一天</a>
 -  <a href="https://youtu.be/y1jrd3A_k70">制造中的转包工序和活动</a>
+-  <a href="https://youtu.be/jgmTgJIgEFQ">新 Microsoft Dynamics AX 中的运输管理 (TMS)</a>
 
 ## <a name="blogs"></a>博客
 <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX 制造研发团队博客</a>和 <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX 研发团队中的供应链管理博客</a>上有很多关于制造和供应链管理的主题。 其中大多数文章是针对 Finance and Operations 的旧版本编写的，但同一概念仍适用，并且相关程序在当前版本中是相似的。 
 
 ## <a name="white-papers"></a>白皮书
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">成本核算动手实验室</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean Manufacturing：可承诺量和看板作业级排产</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">精益生产：可承诺量和看板作业级排产</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">使用成本计算单计算物料清单</a>
 
 ## <a name="elearning-courses"></a>网络培训课程

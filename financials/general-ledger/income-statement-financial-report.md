@@ -1,7 +1,7 @@
 ---
 title: "收入报表财务报表"
 description: "本文介绍默认收入报表。 还介绍此报表的关联构建块。"
-author: twheeloc
+author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -22,7 +22,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: f07aea0b87bc3e09982f9ba248d3c28540fd2dc5
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/13/2017
-
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "财务维度和过帐"
 description: "在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。 这些组件包括科目结构、高级规则和平衡与固定维度。 本主题介绍各组件的定义及其协同工作方式。"
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.2.0
+ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: addd8c6956a19828687fbda606a0531c0c5decec
 ms.openlocfilehash: 6d47aa7df47f498fa751428fe659f0500dd00fc5

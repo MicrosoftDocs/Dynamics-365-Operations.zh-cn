@@ -17,7 +17,7 @@ ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
-ms.dyn365.ops.version: Version 1611, Retail Version
+ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 77a0d4c2a31128fb7d082238d443f297fd40664f
 ms.openlocfilehash: bde08c142e976cd5546703b27af2f9a3ac635d9e

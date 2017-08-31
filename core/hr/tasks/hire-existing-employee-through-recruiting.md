@@ -14,7 +14,7 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
+ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 839f803690bef657078483a073ef363beefa6ee3
 ms.openlocfilehash: 59688ad50addaf4e5a6d76ef78990b303ff114fe

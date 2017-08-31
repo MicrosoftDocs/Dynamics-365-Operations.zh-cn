@@ -1,7 +1,7 @@
 ---
 title: "处理薪酬"
 description: "薪酬处理允许您基于权益调整、业绩调薪目标和绩效为您的员工计算新的基本薪酬金额。"
-author: kherr
+author: kherr75
 manager: AnnBe
 ms.date: 07/01/2017
 ms.topic: article
@@ -16,7 +16,7 @@ ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.author: kherr
-ms.search.validFrom: 2017-07-01T00:00:00.000Z
+ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: 822c4581db76923c564bde34f8402b333a035f0b

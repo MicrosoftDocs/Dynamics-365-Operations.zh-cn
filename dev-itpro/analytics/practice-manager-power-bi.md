@@ -14,8 +14,8 @@ ms.search.scope: Core, Operations, UnifiedOperations
 ms.assetid: 
 ms.search.region: Global
 ms.author: knelson
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
-ms.dyn365.version: Enterprise edition, July 2017 update
+ms.search.validFrom: 2017-06-30
+ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 993e88703f19dbeec435d07a4599cbbfcda563bc
 ms.openlocfilehash: b63e31f3e4993c1fda229a54b4e5ef2fed824355

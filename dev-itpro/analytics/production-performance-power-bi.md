@@ -1,7 +1,7 @@
 ---
 title: "生产性能 Power BI 内容"
 description: "此主题介绍生产性能 Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
-author: sericks
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "设置条码"
 description: "本文介绍如何在 Microsoft Dynamics 365 for Retail 中使用条码。"
-author: josaw1
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -23,8 +23,6 @@ ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
 ms.openlocfilehash: 80f0383d3e39994ccae96c2ee518f11087a340ca
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/20/2017
-
-
 
 ---
 
