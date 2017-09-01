@@ -1,7 +1,7 @@
 ---
 title: "大批雇用项目"
 description: "大型雇用项目允许人力资源专员创建多个职位，并且高效地为这些职位雇用工作人员。"
-author: twheeloc
+author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 7481
 ms.assetid: 5f5eb271-76eb-4305-bd1c-5d171dafccc9
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
@@ -23,7 +23,6 @@ ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
 ms.openlocfilehash: 006a8c110fe694c487e1e89e52c07438cf2becc3
 ms.contentlocale: zh-cn
 ms.lasthandoff: 06/13/2017
-
 
 ---
 
