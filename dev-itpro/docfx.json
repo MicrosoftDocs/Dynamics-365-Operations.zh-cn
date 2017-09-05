@@ -11,7 +11,7 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "**/_themes/**", 
+          "**/_themes/**",
           "**/_themes.pdf/**"
         ]
       }
@@ -33,16 +33,19 @@
     "externalReference": [],
     "globalMetadata": {
       "layout": "Conceptual",
-      "searchScope": ["Unified Operations"],
+      "searchScope": [
+        "Unified Operations"
+      ],
       "breadcrumb_path": "/dynamics365/unified-operations/fin-and-ops/breadcrumb/toc.json",
       "brand": "dyn-ops",
-      "titleSuffix": "Finance and Operations, Enterprise", 
+      "titleSuffix": "Finance and Operations, Enterprise",
       "ms.service": "dynamics-ax-platform",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "MSDN.d365OpsDevITPro"
         }
-      }
+      },
+      "bilingual_type": "hover over"
     },
     "fileMetadata": {},
     "template": [],

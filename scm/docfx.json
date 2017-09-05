@@ -12,7 +12,7 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "**/_themes/**", 
+          "**/_themes/**",
           "**/_themes.pdf/**"
         ]
       }
@@ -20,7 +20,6 @@
     "resource": [
       {
         "files": [
-
           "**/**.png",
           "**/**.jpg",
           "**/**.jpeg",
@@ -37,16 +36,19 @@
     "externalReference": [],
     "globalMetadata": {
       "layout": "Conceptual",
-      "searchScope": ["Unified Operations"],
+      "searchScope": [
+        "Unified Operations"
+      ],
       "breadcrumb_path": "/dynamics365/unified-operations/fin-and-ops/breadcrumb/toc.json",
       "brand": "dyn-ops",
-      "titleSuffix": "Finance and Operations, Enterprise", 
+      "titleSuffix": "Finance and Operations, Enterprise",
       "ms.service": "dynamics-ax-applications",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "MSDN.d365OpsSCM"
         }
-      }
+      },
+      "bilingual_type": "hover over"
     },
     "fileMetadata": {},
     "template": [],

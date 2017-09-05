@@ -11,7 +11,7 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "**/_themes/**", 
+          "**/_themes/**",
           "**/_themes.pdf/**"
         ]
       }
@@ -19,9 +19,9 @@
     "resource": [
       {
         "files": [
-         "**/*.png",
-         "**/*.gif",
-         "**/*.jpg"
+          "**/*.png",
+          "**/*.gif",
+          "**/*.jpg"
         ],
         "exclude": [
           "**/obj/**",
@@ -33,7 +33,9 @@
     "externalReference": [],
     "globalMetadata": {
       "layout": "Conceptual",
-      "searchScope": ["Unified Operations"],
+      "searchScope": [
+        "Unified Operations"
+      ],
       "breadcrumb_path": "/dynamics365/unified-operations/fin-and-ops/breadcrumb/toc.json",
       "brand": "dyn-ops",
       "titleSuffix": "Finance and Operations, Enterprise",
@@ -42,7 +44,8 @@
         "./": {
           "depot_name": "MSDN.d365OpsFiancials"
         }
-      }
+      },
+      "bilingual_type": "hover over"
     },
     "fileMetadata": {},
     "template": [],

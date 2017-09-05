@@ -11,7 +11,7 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "**/_themes/**", 
+          "**/_themes/**",
           "**/_themes.pdf/**"
         ]
       }
@@ -33,16 +33,19 @@
     "externalReference": [],
     "globalMetadata": {
       "layout": "Conceptual",
-      "searchScope": ["Unified Operations"],
+      "searchScope": [
+        "Unified Operations"
+      ],
       "breadcrumb_path": "/dynamics365/unified-operations/fin-and-ops/breadcrumb/toc.json",
       "brand": "dyn-ops",
-      "titleSuffix": "Talent", 
+      "titleSuffix": "Talent",
       "ms.service": "dynamics-365-talent",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "MSDN.d365OpsHR"
         }
-      }
+      },
+      "bilingual_type": "hover over"
     },
     "fileMetadata": {},
     "template": [],

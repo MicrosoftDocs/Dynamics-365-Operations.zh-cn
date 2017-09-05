@@ -1,7 +1,7 @@
 {
   "build": {
     "content": [
-        {
+      {
         "files": [
           "**/*.md"
         ],
@@ -11,7 +11,7 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "**/_themes/**", 
+          "**/_themes/**",
           "**/_themes.pdf/**"
         ]
       }
@@ -33,16 +33,19 @@
     "externalReference": [],
     "globalMetadata": {
       "layout": "Conceptual",
-      "searchScope": ["Unified Operations"],
+      "searchScope": [
+        "Unified Operations"
+      ],
       "breadcrumb_path": "/dynamics365/unified-operations/fin-and-ops/breadcrumb/toc.json",
       "brand": "dyn-ops",
-      "titleSuffix": "Retail", 
+      "titleSuffix": "Retail",
       "ms.service": "dynamics-365-retail",
       "_op_documentIdPathDepotMapping": {
         "./": {
           "depot_name": "MSDN.d365OpsRetail"
         }
-      }
+      },
+      "bilingual_type": "hover over"
     },
     "fileMetadata": {},
     "template": [],
