@@ -1,4 +1,4 @@
---- 
+---
 title: "跟踪物料或原材料"
 description: "该过程演示如何使用物料跟踪确定使用或正在使用物料或原材料的位置。"
 author: pjacobse
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -54,5 +54,4 @@ ms.lasthandoff: 07/27/2017
 8. 在“操作窗格”上单击“跟踪”。
 9. 单击“装运的销售订单”。
 10. 关闭该页面。
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "定义库存盘点流程"
 description: "此过程向您介绍，通过创建一个盘点组和盘点日记帐，配置基本存货盘点过程。"
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -84,5 +84,4 @@ ms.lasthandoff: 07/27/2017
 7. 在列表中，选择一个盘点组。
     * 您可以选择一个应用于您所选择的特定仓库的物料的特定盘点组。 在该仓库执行盘点时，此盘点策略将覆盖物料的常规盘点策略。  
 8. 单击“保存”。
-
 

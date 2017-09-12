@@ -1,4 +1,4 @@
---- 
+---
 title: "转移仓库内的实际库存"
 description: "该过程向您介绍创建和过帐库存转移日记帐，以登记物料在仓库内的库位转移。"
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -67,5 +67,4 @@ ms.lasthandoff: 07/27/2017
 1. 单击“库存”。
 2. 单击“交易记录”。
     * 在这里，您可以查看过帐日记帐时创建的交易记录。  
-
 

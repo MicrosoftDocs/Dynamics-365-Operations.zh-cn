@@ -1,7 +1,7 @@
 ---
 title: "库存、生产和销售中的物料和原材料跟踪"
 description: "本主题介绍如何使用物料跟踪来确定物料或原材料被用在了何处、正在被何处使用或者将被运用于生产和销售流程中的哪个环节。"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30191
 ms.assetid: fdd0939a-855c-430f-a684-94f3baea1df4
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -31,7 +31,7 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-本主题介绍如何使用物料跟踪来确定物料或原材料被用在了何处、正在被何处使用或者将被运用于生产和销售流程中的哪个环节。 
+本主题介绍如何使用物料跟踪来确定物料或原材料被用在了何处、正在被何处使用或者将被运用于生产和销售流程中的哪个环节。
 
 物料跟踪功能在**跟踪物料**页上可用。 以下各节介绍如何使用物料跟踪以及选项和限制有哪些。
 
@@ -142,7 +142,4 @@ ms.lasthandoff: 05/25/2017
 
 ## <a name="can-i-trace-coproducts-and-byproducts"></a>可否跟踪联产品和副产品？
 您可以跟踪联产品，不过，您不能跟踪副产品，因为通常不为副产品分配跟踪维度。 当您跟踪物料时，跟踪详细信息包含所有相关的联产品。 一个包含联产品的节点会包括“联产品”的详细信息。 您还可以通过在跟踪详细信息中选择节点然后单击**生产**快速选项卡来查看有关联产品的详细信息。
-
-
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "创建和维护库存锁定"
 description: "此过程显示如何通过使用库存锁定防止实际现有库存由其他出货原始凭证预留。"
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -34,7 +34,7 @@ ms.lasthandoff: 07/27/2017
 1. 转到“库存管理”>“定期任务”>“库存锁定”。
 2. 单击“新建”。
 3. 在“物料编号”字段中，单击下拉按钮以打开查找。
-4. 在列表中，选择您想选的物料。 
+4. 在列表中，选择您想选的物料。
     * 选择物料编号以及您想要锁定的实际现有库存。 如果您使用 USMF，您可以选择物料 M9201。  
 5. 在“数量”字段中，输入一个数字。
     * 如果您使用物料 M9201，需要选择少于 200。  
@@ -55,5 +55,4 @@ ms.lasthandoff: 07/27/2017
 1. 单击“删除”。
 2. 单击“是”。
 3. 关闭该页面。
-
 

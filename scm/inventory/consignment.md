@@ -1,7 +1,7 @@
 ---
 title: "托运"
 description: "本主题介绍如何使用入站托运库存流程。"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ConsignmentDraftReplenishmentOrderJournal, ConsignmentProductReceiptLines, ConsignmentReplenishmentOrder, ConsignmentVendorPortalOnHand, InventJournalOwnershipChange, InventOnHandItemListPage, PurchTable, PurchVendorPortalConfirmedOrders
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, Operations, UnifiedOperations
 ms.custom: 220834
 ms.assetid: 3c9d6de4-45d4-459a-aef7-0d9ad2c22b3a
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -61,7 +61,7 @@ USMF 执行其他定期流程：
 供应商 US-104 可以通过“**现有托运库存**”页面监控更新。
 
 ## <a name="consignment-replenishment-orders"></a>托运补货订单
-托运补货订单是通过记录已订购的库存交易记录请求和跟踪记录供应商计划在特定的日期间隔内交货的产品库存量的文档。 通常，这基于特定产品的预测和实际需求。 要对照托运补货订单收货的库存仍然归供应商所有。 仅记录与实际收货有关的产品拥有更新，因此不会发生总帐交易记录更新。 “**所有者**”维度用于分隔与供应商拥有的库存有关和与接收法人拥有的库存有关的信息。 托运补货订单行只要是行未接收或取消全部数量，便具有**未结订单**的状态。 已接收或取消全部数量后，状态更改为**已完成**。 可以使用登记流程和收货更新流程记录与托运补货订单有关的实际现有库存量。 登记可作为物料到达流程的一部分或通过手动更新订单行完成。 使用收货更新流程时，在收货日记帐中进行记录，可用来向供应商确认收货。 
+托运补货订单是通过记录已订购的库存交易记录请求和跟踪记录供应商计划在特定的日期间隔内交货的产品库存量的文档。 通常，这基于特定产品的预测和实际需求。 要对照托运补货订单收货的库存仍然归供应商所有。 仅记录与实际收货有关的产品拥有更新，因此不会发生总帐交易记录更新。 “**所有者**”维度用于分隔与供应商拥有的库存有关和与接收法人拥有的库存有关的信息。 托运补货订单行只要是行未接收或取消全部数量，便具有**未结订单**的状态。 已接收或取消全部数量后，状态更改为**已完成**。 可以使用登记流程和收货更新流程记录与托运补货订单有关的实际现有库存量。 登记可作为物料到达流程的一部分或通过手动更新订单行完成。 使用收货更新流程时，在收货日记帐中进行记录，可用来向供应商确认收货。
 
 [![托运补货订单](./media/consignment-replenishment-order.png)](./media/consignment-replenishment-order.png)
 
@@ -71,7 +71,7 @@ USMF 执行其他定期流程：
 -   使用具有“**已售出**”状态的“**所有权更改**”引用发放供应商拥有的库存。
 -   消耗物料的法人使用通过采购订单物料收据更新的库存交易接收现有库存量。 这将订单的状态设置为“**已接收**”。 用于托运的采购订单的“**来源**”字段设置为“**托运**”。
 
-不可能在创建订单后在托运采购订单行上更新数量。 
+不可能在创建订单后在托运采购订单行上更新数量。
 
 [![库存所有权更改日记帐](./media/inventory-ownership-change-journal.png)](./media/inventory-ownership-change-journal.png)
 
@@ -81,8 +81,4 @@ USMF 执行其他定期流程：
 -   **销售托运库存**的**采购订单** - 显示与托运流程中的所有权更改有关的详细的采购订单信息。
 -   **从托运库存接收的产品** - 显示在所有权更改流程中进行物料收货更新的物料和数量信息。
 -   **现有托运库存** - 显示预期交货及在客户站点已经实际可用的托运物料的信息。
-
-
-
-
 

@@ -1,7 +1,7 @@
 ---
 title: "不符合项管理"
 description: "本文介绍使用未达标所需的基本设置。 如果要使用质检订单还需要其他设置。"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 28951
 ms.assetid: a62d4ba8-eebc-4b14-b587-630be7298522
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -31,7 +31,7 @@ ms.lasthandoff: 07/27/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍使用未达标所需的基本设置。 如果要使用质检订单还需要其他设置。 
+本文介绍使用未达标所需的基本设置。 如果要使用质检订单还需要其他设置。
 
 要启用未达标管理，请执行以下步骤：
 
@@ -56,7 +56,4 @@ ms.lasthandoff: 07/27/2017
 [质量管理流程](quality-management-processes.md)
 
 [设置不符合项管理的先决条件（任务指南）](/dynamics365/unified-operations/supply-chain/inventory/tasks/set-up-prerequisites-nonconformance-management)
-
-
-
 

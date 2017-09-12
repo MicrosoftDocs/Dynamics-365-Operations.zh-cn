@@ -1,7 +1,7 @@
 ---
 title: "到达概览"
 description: "本主题提供有关“到达概览”功能的信息。 “到达概览”页是此功能的一部分，提供预期作为到货物料到达的所有物料的概览。"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
@@ -37,9 +37,9 @@ ms.lasthandoff: 05/25/2017
 **到达概览**页提供所有预期到货物料的概览。 它还显示可根据概览初始化的到达。 本主题重点介绍接收过程。
 
 ## <a name="business-scenario"></a>业务方案
-在入站流程中考虑以下方案。 
+在入站流程中考虑以下方案。
 
-[![业务方案](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png) 
+[![业务方案](./media/arrival-overview-scenario.png)](./media/arrival-overview-scenario.png)
 
 Sammy，一名验收员，希望了解预期当天将收到的物料。 在**到达概览**页，Sammy 可以获得当前任务的概览和数量、体积、重量、不同订单类型的粗略估计，等等。 然后，交货到达进货台中的一个，Sammy 接收交货列表。 在**到达概览**页，Sammy 可以执行以下任务：
 
@@ -69,7 +69,7 @@ Sammy，一名验收员，希望了解预期当天将收到的物料。 在**到
 
 若要从**到达概览**页自动创建到达日记帐，您必须在**到货选项**快速选项卡上的**日记帐**字段组中定义相应的信息。
 
--   必须指定创建日记帐的日记帐名称。 
+-   必须指定创建日记帐的日记帐名称。
 
 [![指定日记帐名称](./media/arrival-overview-journal.png)](./media/arrival-overview-journal.png)
 
@@ -123,7 +123,4 @@ Sammy 可以查看以下信息：
 
 ## <a name="summary"></a>汇总
 **到达概览**页可以帮助仓库经理和仓库工作人员获得必须在入站流程期间完成的预期工作的概览。 此页还可能用于开始物料到达流程，帮助保证物料首次进入仓库即受到跟踪。
-
-
-
 

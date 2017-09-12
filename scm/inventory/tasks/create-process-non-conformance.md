@@ -1,4 +1,4 @@
---- 
+---
 title: "创建和处理符合项"
 description: "使用此过程可以执行不符合项管理，基于现有的质检订单。"
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-使用此过程可以执行不符合项管理，基于现有的质检订单。 您可以在 USMF 演示公司运行此录制并可以使用建议的值。 此过程通常由质检员执行。  作为先决条件，运行“检查货物质量”任务录制。 若要处理不符合项的审核，运行任务录制的用户必须有在用户页分配的“名称”值。 若要使用文档注释，用户还必须具有在用户选项内启用的“文档处理”。 
+使用此过程可以执行不符合项管理，基于现有的质检订单。 您可以在 USMF 演示公司运行此录制并可以使用建议的值。 此过程通常由质检员执行。  作为先决条件，运行“检查货物质量”任务录制。 若要处理不符合项的审核，运行任务录制的用户必须有在用户页分配的“名称”值。 若要使用文档注释，用户还必须具有在用户选项内启用的“文档处理”。
 
 
 ## <a name="select-a-quality-order"></a>选择质检订单。
@@ -78,5 +78,4 @@ ms.lasthandoff: 07/27/2017
 3. 单击“是”。
 4. 关闭该页面。
 5. 关闭该页面。
-
 

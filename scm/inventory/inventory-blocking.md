@@ -1,7 +1,7 @@
 ---
 title: "库存锁定"
 description: "本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations Enterprise版本中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 2094
 ms.assetid: 1968e32f-eff9-4c17-8f7f-a870f0c38fbc
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
@@ -69,7 +69,4 @@ ms.lasthandoff: 07/27/2017
 [质量管理流程](quality-management-processes.md)
 
 [检查货物的质量（任务指南）](/dynamics365/unified-operations/supply-chain/inventory/tasks/inspect-quality-goods)
-
-
-
 

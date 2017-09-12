@@ -1,4 +1,4 @@
---- 
+---
 title: "创建托运补货订单"
 description: "此过程显示如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。"
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -60,7 +60,7 @@ ms.lasthandoff: 07/28/2017
 ## <a name="receive-items"></a>接收多个物料
 1. 单击“产品收据”。
 2. 在“外部物料收据”字段中，输入一个值。
-3. 在”数量“字段中，输入一个比此处显示的数字更小的数字。 
+3. 在”数量“字段中，输入一个比此处显示的数字更小的数字。
 4. 单击“确定”。
 
 ## <a name="check-the-on-hand-inventory"></a>检查现有库存量
@@ -70,5 +70,4 @@ ms.lasthandoff: 07/28/2017
     * 已作为供应商拥有的托运库存接收的物料现有可用。 托运补货订单的剩余数量在“订购总数”字段中显示。  
 4. 关闭该页面。
 5. 单击“关闭”。
-
 

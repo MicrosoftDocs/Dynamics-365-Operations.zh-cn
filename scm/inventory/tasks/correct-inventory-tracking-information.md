@@ -1,4 +1,4 @@
---- 
+---
 title: "更正库存跟踪信息"
 description: "该过程让您了解创建和过帐库存转移日志的流程，以纠正库存跟踪信息。"
 author: MarkusFogelberg
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ ms.lasthandoff: 07/27/2017
 1. 单击“库存”。
 2. 单击“交易记录”。
     * 在这里，您可以查看过帐日记帐时创建的交易记录。   
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "初始化仓库中的库存级别"
 description: "该过程说明如何利用“库存移动日记帐”手动更新现有库存。"
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -58,5 +58,4 @@ ms.lasthandoff: 07/27/2017
 24. 单击“确定”。
 25. 关闭该页面。
 26. 关闭该页面。
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "使用供应商协作监控托运库存"
 description: "此过程显示如何通过供应商协作查看有关您在客户托运中发放的物料的存货级别的信息。"
 author: mkirknel
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -41,5 +41,4 @@ ms.lasthandoff: 07/27/2017
 ## <a name="view-on-hand-inventory"></a>查看现有库存量
 1. 转到“供应商协作”>“托运库存”>“现有托运库存”。
     * “现有托运库存”页面显示您在客户的仓库中拥有的存货。 可以通过单击“显示维度”选项卡显示更多维度，如站点和仓库。   
-
 

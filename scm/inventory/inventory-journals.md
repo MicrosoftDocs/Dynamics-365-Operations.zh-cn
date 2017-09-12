@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -33,7 +33,7 @@ ms.lasthandoff: 07/27/2017
 [!include[retail name](../includes/retail-name.md)]
 
 
-本文介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。 
+本文介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。
 
 Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过帐多种类型的实际库存交易记录，如发货和收货的过帐、库存变动、物料清单的创建，以及实际库存的对帐。 所有这些库存日记帐以相同的方式被使用，不过，它们划分为不同类型。
 
@@ -95,7 +95,4 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 
 ## <a name="posting-journal-lines"></a>记帐日志行
 您可以在任何时间过帐您创建的日记帐行，直到您锁定了来自附加交易记录的物料。 在日记帐中输入的数据保留在该日记帐中，即使您关闭该日记帐而不过帐这些行。
-
-
-
 

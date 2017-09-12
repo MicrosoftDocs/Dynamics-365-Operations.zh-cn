@@ -1,4 +1,4 @@
---- 
+---
 title: "维护条码类型"
 description: "该过程显示如何设置新条码定义，这可作为领料单报表的一部分。"
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -44,5 +44,4 @@ ms.lasthandoff: 07/27/2017
     * 选择您先前创建的条码设置，但请注意，条码格式必须匹配流程中使用的记录类型的唯一标识符的格式。 例如，对于领料路径，条码格式必须匹配领料路径引用的格式，这通常为一个序号。  
 12. 单击“保存”。
 13. 关闭该页面。
-
 

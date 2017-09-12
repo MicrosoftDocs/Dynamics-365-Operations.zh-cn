@@ -1,7 +1,7 @@
 ---
 title: "质量管理概述"
 description: "本文介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用质量管理来帮助改进您的供应链中的产品质量。"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 94003
 ms.assetid: a1d9417b-268f-4334-8ab6-8499d6c3acf0
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
@@ -45,20 +45,20 @@ ms.lasthandoff: 07/27/2017
 
 -   根据预定义的标准自动启动质量控制流程（特定供应商的某一采购订单的仓库登记）。
 -   在检查时锁定库存以防止使用未审核的库存（采购订单数量的完全锁定）。
--   使用物料抽样作为质量关联的一部分来定义必须检查的当前实际库存的金额。 抽样可以基于固定数量或百分比。 
--   为部分收货创建质检订单。 若要创建基于某订单已实际接收的数量的质检订单，必须在**物料抽样**窗体上选择**按照更新的数量**复选框。 
+-   使用物料抽样作为质量关联的一部分来定义必须检查的当前实际库存的金额。 抽样可以基于固定数量或百分比。
+-   为部分收货创建质检订单。 若要创建基于某订单已实际接收的数量的质检订单，必须在**物料抽样**窗体上选择**按照更新的数量**复选框。
 -   创建测试包括最小值、最大值和目标测试值在内的类型，然后执行具有预定义验证结果的定性与定量测试。
 -   指定一个可接受质量级别 (AQL) 来控制质量度量容差。
 -   指定检查操作所需的资源，如测试区域和测试仪器。
 
 ## <a name="working-with-quality-associations"></a>使用质量关联
-使用质量关联的业务流程可与许多源文档相关，例如采购订单、销售订单或生产订单。 
+使用质量关联的业务流程可与许多源文档相关，例如采购订单、销售订单或生产订单。
 
-每个质量关联记录定义了测试组、AQL 和应用于生成的质检订单的抽样计划。 您必须为业务流程中每个变化形式定义质量关联记录。 例如，当更新采购订单产品收据时，您可以设置生成质检订单的质量关联。 根据执行计划的设置，在有未结质检订单或者下一流程（例如采购订单开票）时，可以将触发流程自身锁定。 
+每个质量关联记录定义了测试组、AQL 和应用于生成的质检订单的抽样计划。 您必须为业务流程中每个变化形式定义质量关联记录。 例如，当更新采购订单产品收据时，您可以设置生成质检订单的质量关联。 根据执行计划的设置，在有未结质检订单或者下一流程（例如采购订单开票）时，可以将触发流程自身锁定。
 
-**注释：**在有未结质检订单时，会自动锁定库存数量使其不签发。 根据**“物料抽样”**页上的**“完全锁定”**设置，该数量是质检订单上的数量或源文档行上的数量。 
+**注释：**在有未结质检订单时，会自动锁定库存数量使其不签发。 根据**“物料抽样”**页上的**“完全锁定”**设置，该数量是质检订单上的数量或源文档行上的数量。
 
-对于给定业务流程，质量关联记录标识用于生成质检订单的事件和条件。 条件可以特定于站点或法人。 只有对于事件存在现有库存时，才能生成涉及破坏性测试的质检订单。 
+对于给定业务流程，质量关联记录标识用于生成质检订单的事件和条件。 条件可以特定于站点或法人。 只有对于事件存在现有库存时，才能生成涉及破坏性测试的质检订单。
 
 以下示例说明如何为各个业务流程中的变化形式定义质量关联记录。 对于每个示例，下表总结了质量关联记录定义的事件和条件。
 
@@ -363,7 +363,4 @@ ms.lasthandoff: 07/27/2017
 [质量管理流程](quality-management-processes.md)
 
 [启用未达标管理](enable-nonconformance-management.md)
-
-
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "创建新仓库布局"
 description: "该程序将向您说明如何设置有关仓库库位的信息。"
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -49,7 +49,7 @@ ms.lasthandoff: 07/27/2017
 7. 切换到“库位名称”部分的扩展项。
     * 此部分中的选项定义库位名称的默认格式。 在我们的示例中，我们增加了通道编号、货架编号和货位编号。  
 8. 将“包括通道”选项设置为“是”。
-9. 将“包括货架”选项设置为“是”。 
+9. 将“包括货架”选项设置为“是”。
 10. 在货架的“格式”字段中，键入一个值。
     * 例如：-##  
 11. 将“包括货位”选项设置为“是”。
@@ -74,5 +74,4 @@ ms.lasthandoff: 07/27/2017
 14. 单击“完成”。
 15. 关闭该页面。
 16. 刷新该页面。
-
 

@@ -1,7 +1,7 @@
---- 
+---
 title: "设置物料到达概览配置文件"
 description: "此任务侧重于到货概览配置文件的设置。"
-author: BibiSp
+author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -62,5 +62,4 @@ ms.lasthandoff: 07/28/2017
     * 从转移订单选择收据行。  
 17. 单击“保存”。
 18. 关闭该页面。
-
 

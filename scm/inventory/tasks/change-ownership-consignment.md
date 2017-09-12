@@ -1,4 +1,4 @@
---- 
+---
 title: "根据生产需求更改托运库存的所有权"
 description: "此过程显示在生产需要库存时，如何将托运库存的所有者从供应商更改为法人。"
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -51,5 +51,4 @@ ms.lasthandoff: 07/27/2017
     * 在过帐日记帐时，将使用“所有权更改”引用发放供应商拥有的库存。 然后使用通过采购订单物料收据更新的库存交易，将库存作为现有量接收。 请注意，将仅创建与过帐的日记帐有关的交易。 不创建任何预期库存交易。  
 2. 单击“确定”。
 3. 关闭该页面。
-
 

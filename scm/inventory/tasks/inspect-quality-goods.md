@@ -1,4 +1,4 @@
---- 
+---
 title: "检查货物质量"
 description: "此过程显示如何处理质检订单。"
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -55,5 +55,4 @@ ms.lasthandoff: 07/27/2017
 4. 单击“选择”。
 5. 单击“确定”。
 6. 关闭该页面。
-
 

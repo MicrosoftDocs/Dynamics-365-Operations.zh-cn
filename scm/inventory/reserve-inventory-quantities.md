@@ -1,7 +1,7 @@
 ---
 title: "预留库存数量"
 description: "此主题介绍预留库存时可用的不同选项。"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventModelGroup
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 207264
 ms.assetid: 47537e4f-cdf6-4813-96fd-c945b2dfe9d4
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
 ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
@@ -83,7 +83,4 @@ ms.lasthandoff: 05/25/2017
 ### <a name="inventory-reservation-policies-on-the-production-parameters-page"></a>“生产参数”页上的库存预留策略
 
 “**生产参数**”页上的“**常规**”选项卡上的“**预留**”字段的值确定在生产流程中应预留库存的默认点。 例如，可以在编制工作计划时或者在工作开始时预留库存。
-
-
-
 
