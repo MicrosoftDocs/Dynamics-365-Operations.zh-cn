@@ -19,82 +19,82 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 305010c41aa87222c652f98e6aa2b097606052e8
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 1f1cf8ef9f75b7463188d47d8e8dd0efff61a030
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/30/2017
 
 
 ---
 
-# <a name="fixed-assets-integration"></a>固定资产集成
+# <a name="fixed-assets-integration"></a><span data-ttu-id="54590-104">固定资产集成</span><span class="sxs-lookup"><span data-stu-id="54590-104">Fixed assets integration</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-固定资产可以与总帐、库存管理、应收帐款和应付帐款一起集成。 您也可以设置固定资产，以便与采购订单相集成。
+<span data-ttu-id="54590-105">固定资产可以与总帐、库存管理、应收帐款和应付帐款一起集成。</span><span class="sxs-lookup"><span data-stu-id="54590-105">Fixed assets can be integrated with General ledger, Inventory management, Accounts receivable, and Accounts payable.</span></span> <span data-ttu-id="54590-106">您也可以设置固定资产，以便与采购订单相集成。</span><span class="sxs-lookup"><span data-stu-id="54590-106">You can also set up Fixed assets so that it is integrated with purchase orders.</span></span>
 
-<a name="general-ledger"></a>总帐
+<a name="general-ledger"></a><span data-ttu-id="54590-107">总帐</span><span class="sxs-lookup"><span data-stu-id="54590-107">General ledger</span></span>
 --------------
 
-在总帐中，所有固定资产的值通常都汇总到进行财务报告时所需的多个主科目。 但是，在“**固定资产**”页中，您可以创建许多固定资产记录。 这些记录可以包含诸如购置价格、折旧和评估等信息。 只要过帐固定资产的交易记录，就会更新相应的主科目。 固定资产的主科目始终显示固定资产的更新值。
+<span data-ttu-id="54590-108">在总帐中，所有固定资产的值通常都汇总到进行财务报告时所需的多个主科目。</span><span class="sxs-lookup"><span data-stu-id="54590-108">In General ledger, the value of all fixed assets is typically summarized in multiple main accounts that are required for financial reporting.</span></span> <span data-ttu-id="54590-109">但是，在“**固定资产**”页中，您可以创建许多固定资产记录。</span><span class="sxs-lookup"><span data-stu-id="54590-109">However, on the **Fixed assets** page, you can create many fixed asset records.</span></span> <span data-ttu-id="54590-110">这些记录可以包含诸如购置价格、折旧和评估等信息。</span><span class="sxs-lookup"><span data-stu-id="54590-110">These records can include information such as the acquisition price, depreciation, and valuation.</span></span> <span data-ttu-id="54590-111">只要过帐固定资产的交易记录，就会更新相应的主科目。</span><span class="sxs-lookup"><span data-stu-id="54590-111">Each time that you post a transaction for a fixed asset, the appropriate main accounts are updated.</span></span> <span data-ttu-id="54590-112">固定资产的主科目始终显示固定资产的更新值。</span><span class="sxs-lookup"><span data-stu-id="54590-112">The main accounts for fixed assets always show the updated value of the fixed assets.</span></span>
 
-在“**固定资产过帐模板**”页中，定义固定资产帐簿交易记录过帐到的主科目。 您还可以指定过账到每个主科目的固定资产交易记录的类型。 您可以创建固定资产主科目的各种组合，具体情况视总帐中固定资产所需的明细级别而定。 主科目可以基于交易记录类型、帐簿和其他主科目。
+<span data-ttu-id="54590-113">在“**固定资产过帐模板**”页中，定义固定资产帐簿交易记录过帐到的主科目。</span><span class="sxs-lookup"><span data-stu-id="54590-113">On the **Fixed asset posting profiles** page, you define the main accounts that fixed asset book transactions are posted to.</span></span> <span data-ttu-id="54590-114">您还可以指定过账到每个主科目的固定资产交易记录的类型。</span><span class="sxs-lookup"><span data-stu-id="54590-114">You also specify the types of fixed asset transactions that are posted to each main account.</span></span> <span data-ttu-id="54590-115">您可以创建固定资产主科目的各种组合，具体情况视总帐中固定资产所需的明细级别而定。</span><span class="sxs-lookup"><span data-stu-id="54590-115">You can create various combinations of main accounts for fixed assets, depending on the level of detail that you want for fixed assets in the general ledger.</span></span> <span data-ttu-id="54590-116">主科目可以基于交易记录类型、帐簿和其他主科目。</span><span class="sxs-lookup"><span data-stu-id="54590-116">Main accounts can be based on transaction types, books, and other main accounts.</span></span>
 
-## <a name="inventory-management"></a>库存管理
-在固定资产的库存日志中，您可以输入法人具有为自身生产或构建固定资产的购置。 您可以将库存物料转移到固定资产，或者将库存物料作为购置或购置的一部分。 
+## <a name="inventory-management"></a><span data-ttu-id="54590-117">库存管理</span><span class="sxs-lookup"><span data-stu-id="54590-117">Inventory management</span></span>
+<span data-ttu-id="54590-118">在固定资产的库存日志中，您可以输入法人具有为自身生产或构建固定资产的购置。</span><span class="sxs-lookup"><span data-stu-id="54590-118">In the inventory journal for fixed assets, you can enter the acquisition of fixed assets that the legal entity has produced or constructed for itself.</span></span> <span data-ttu-id="54590-119">您可以将库存物料转移到固定资产，或者将库存物料作为购置或购置的一部分。</span><span class="sxs-lookup"><span data-stu-id="54590-119">You can then transfer inventory items to fixed assets either as an acquisition or as part of an acquisition.</span></span> 
 
-您也可以使用采购订单购置资产。 在采购订单包含指定为固定资产的库存物料时，“**固定资产**”页中的“**允许从采购中购置资产**”选项的设置确定在过帐发票时是否为固定资产过帐购置。 固定资产购置对库存的影响取决于法人的设置。 
+<span data-ttu-id="54590-120">您也可以使用采购订单购置资产。</span><span class="sxs-lookup"><span data-stu-id="54590-120">You can also acquire assets by using purchase orders.</span></span> <span data-ttu-id="54590-121">在采购订单包含指定为固定资产的库存物料时，“**固定资产**”页中的“**允许从采购中购置资产**”选项的设置确定在过帐发票时是否为固定资产过帐购置。</span><span class="sxs-lookup"><span data-stu-id="54590-121">When purchase orders contain inventory items that are designated as fixed assets, the setting of the **Allow asset acquisition from Purchasing** option on the **Fixed assets parameters** page determines whether an acquisition is posted for the fixed asset when the invoice is posted.</span></span> <span data-ttu-id="54590-122">固定资产购置对库存的影响取决于法人的设置。</span><span class="sxs-lookup"><span data-stu-id="54590-122">The effect that the acquisition of fixed assets has on inventory depends on the setup of the legal entity.</span></span> 
 
-如果库存物料通过库存日志、采购订单或购置方案变为固定资产购置，将会创建一个固定资产帐簿购置交易记录。 如果帐簿购置包括衍生帐簿，也会创建衍生帐簿购置交易记录。 
+<span data-ttu-id="54590-123">如果库存物料通过库存日志、采购订单或购置方案变为固定资产购置，将会创建一个固定资产帐簿购置交易记录。</span><span class="sxs-lookup"><span data-stu-id="54590-123">When an inventory item becomes a fixed asset acquisition through the inventory journal, a purchase order, or an acquisition proposal, a fixed asset book acquisition transaction is created.</span></span> <span data-ttu-id="54590-124">如果帐簿购置包括衍生帐簿，也会创建衍生帐簿购置交易记录。</span><span class="sxs-lookup"><span data-stu-id="54590-124">If a book acquisition includes a derived book, the derived book acquisition transaction is also created.</span></span> 
 
-在库存管理的“**过帐**”页中设置的过帐规则控制在过帐购置时库存的减少。 但是，在您过帐与固定资产相关的发票时，不会始终减少库存。 在某些情况下，固定资产可能会出于内部使用目的而采购。 示例是为销售部门采购的笔记本电脑。 在您处理采购订单时，可以使用为经销以及内部使用目的而设置的物料。 
+<span data-ttu-id="54590-125">在库存管理的“**过帐**”页中设置的过帐规则控制在过帐购置时库存的减少。</span><span class="sxs-lookup"><span data-stu-id="54590-125">Posting rules that are set up on the **Posting** page in Inventory management control the decrease in inventory when an acquisition is posted.</span></span> <span data-ttu-id="54590-126">但是，在您过帐与固定资产相关的发票时，不会始终减少库存。</span><span class="sxs-lookup"><span data-stu-id="54590-126">However, you don’t always decrease inventory when you post invoices that are related to fixed assets.</span></span> <span data-ttu-id="54590-127">在某些情况下，固定资产可能会出于内部使用目的而采购。</span><span class="sxs-lookup"><span data-stu-id="54590-127">In some cases, the fixed assets might be purchased for internal use.</span></span> <span data-ttu-id="54590-128">示例是为销售部门采购的笔记本电脑。</span><span class="sxs-lookup"><span data-stu-id="54590-128">An example is a laptop that is purchased for the sales department.</span></span> <span data-ttu-id="54590-129">在您处理采购订单时，可以使用为经销以及内部使用目的而设置的物料。</span><span class="sxs-lookup"><span data-stu-id="54590-129">When you work with purchase orders, you can use items that are set up for both resale and internal use.</span></span> 
 
-如果您在固定资产的物料组上使用特定的收货和发货帐户，则可以使用相同的库存物料来同时用于内部采购和作为经销存货。 
+<span data-ttu-id="54590-130">如果您在固定资产的物料组上使用特定的收货和发货帐户，则可以使用相同的库存物料来同时用于内部采购和作为经销存货。</span><span class="sxs-lookup"><span data-stu-id="54590-130">If you use specific receipt and issue accounts on item groups for fixed assets, you can use the same inventory item both for internal purchases and as stock for resale.</span></span> 
 
-设置供内部使用的固定资产，以便具有“**固定资产收货**”帐户类型。 此账户类型用于跟踪固定资产的收货。 在过帐供应商发票时，如果以下条件为真，使用固定资产收货帐户：
+<span data-ttu-id="54590-131">设置供内部使用的固定资产，以便具有“**固定资产收货**”帐户类型。</span><span class="sxs-lookup"><span data-stu-id="54590-131">Fixed assets that are for internal use are set up so that they have an account type of **Fixed asset receipt**.</span></span> <span data-ttu-id="54590-132">此账户类型用于跟踪固定资产的收货。</span><span class="sxs-lookup"><span data-stu-id="54590-132">This account type is used to track the receipt of the fixed asset.</span></span> <span data-ttu-id="54590-133">在过帐供应商发票时，如果以下条件为真，使用固定资产收货帐户：</span><span class="sxs-lookup"><span data-stu-id="54590-133">When you post a vendor invoice, use the fixed asset receipt account if any of the following conditions is true:</span></span>
 
--   发票行包含供内部使用的现有固定资产。
--   为已过帐的产品收据行选中“**是否新建固定资产？**”复选框。
--   为供应商发票行选择“**创建新的固定资产**”复选框。
+-   <span data-ttu-id="54590-134">发票行包含供内部使用的现有固定资产。</span><span class="sxs-lookup"><span data-stu-id="54590-134">The invoice line contains an existing fixed asset for internal purposes.</span></span>
+-   <span data-ttu-id="54590-135">为已过帐的产品收据行选中“**是否新建固定资产？**”复选框。</span><span class="sxs-lookup"><span data-stu-id="54590-135">The **New fixed asset?** check box is selected for the product receipt line that is posted.</span></span>
+-   <span data-ttu-id="54590-136">为供应商发票行选择“**创建新的固定资产**”复选框。</span><span class="sxs-lookup"><span data-stu-id="54590-136">The **Create a new fixed** asset check box is selected for the vendor invoice line.</span></span>
 
-此帐户通常是支出帐户。 通过使用“**物料组**”或“**过帐**”页中的“**采购订单**”选项卡，您可为物料组或单独的物料设置“**固定资产收货**”帐户类型。
+<span data-ttu-id="54590-137">此帐户通常是支出帐户。</span><span class="sxs-lookup"><span data-stu-id="54590-137">Typically, this account is an expense account.</span></span> <span data-ttu-id="54590-138">通过使用“**物料组**”或“**过帐**”页中的“**采购订单**”选项卡，您可为物料组或单独的物料设置“**固定资产收货**”帐户类型。</span><span class="sxs-lookup"><span data-stu-id="54590-138">You can set up the **Fixed asset receipt** account type for either an item group or an individual item by using the **Purchase order** tab on the **Item group** or **Posting** page.</span></span>
 
-同样，可以设置供内部使用的固定资产，以便具有“**固定资产发货**”帐户类型。 此账户类型用于跟踪收据的固定资产的签发。 在使用采购订单购置资产时，该固定资产发货帐户抵销固定资产借方账户。 在您过帐供货商发票或在固定资产日记帐中过帐该资产购置时，可以通过使用购置方案过帐资产购置。 通过使用“**物料组**”或“**物料过帐**”页中的“**库存**”选项卡，您可为物料组或单独的物料设置“**固定资产发货**”帐户类型。 
+<span data-ttu-id="54590-139">同样，可以设置供内部使用的固定资产，以便具有“**固定资产发货**”帐户类型。</span><span class="sxs-lookup"><span data-stu-id="54590-139">Similarly, fixed assets that are for internal use can be set up so that they have an account type of **Fixed asset issue**.</span></span> <span data-ttu-id="54590-140">此账户类型用于跟踪收据的固定资产的签发。</span><span class="sxs-lookup"><span data-stu-id="54590-140">This account type is used to track the issuing of the fixed asset to the recipient.</span></span> <span data-ttu-id="54590-141">在使用采购订单购置资产时，该固定资产发货帐户抵销固定资产借方账户。</span><span class="sxs-lookup"><span data-stu-id="54590-141">When an asset is acquired by using a purchase order, the fixed asset issue account offsets the fixed asset debit account.</span></span> <span data-ttu-id="54590-142">在您过帐供货商发票或在固定资产日记帐中过帐该资产购置时，可以通过使用购置方案过帐资产购置。</span><span class="sxs-lookup"><span data-stu-id="54590-142">The asset acquisition can be posted either when you post a vendor invoice or when you post the asset acquisition in the Fixed assets journal, possibly by using an acquisition proposal.</span></span> <span data-ttu-id="54590-143">通过使用“**物料组**”或“**物料过帐**”页中的“**库存**”选项卡，您可为物料组或单独的物料设置“**固定资产发货**”帐户类型。</span><span class="sxs-lookup"><span data-stu-id="54590-143">You can set up the **Fixed asset issue** account type for either an item group or an individual item by using the **Inventory** tab on the **Item group** or **Item posting** page.</span></span> 
 
-最终，用于过帐的主科目由该选项为物料模型组指定的分类帐集成确定。 此外，使用的主科目各不相同，取决于是否将资产分配到采购订单行。 这些会计科目从用于各个物料组的过帐模板派生。 
-**注意：**在产品收据过帐后，如果存在某一库存预留，则您不能分配固定资产或从该行创建固定资产。 
+<span data-ttu-id="54590-144">最终，用于过帐的主科目由该选项为物料模型组指定的分类帐集成确定。</span><span class="sxs-lookup"><span data-stu-id="54590-144">Ultimately, the main accounts that are used for posting are determined by the options for ledger integration that are specified for the item model group.</span></span> <span data-ttu-id="54590-145">此外，使用的主科目各不相同，取决于是否将资产分配到采购订单行。</span><span class="sxs-lookup"><span data-stu-id="54590-145">Additionally, the main accounts that are used vary, depending on whether an asset is assigned to the purchase order line.</span></span> <span data-ttu-id="54590-146">这些会计科目从用于各个物料组的过帐模板派生。</span><span class="sxs-lookup"><span data-stu-id="54590-146">The accounts are derived from the posting profile for each item group.</span></span> 
+<span data-ttu-id="54590-147">**注意：**在产品收据过帐后，如果存在某一库存预留，则您不能分配固定资产或从该行创建固定资产。</span><span class="sxs-lookup"><span data-stu-id="54590-147">**Note:** If an inventory reservation exists when product receipts are posted, you can’t assign a fixed asset or create a fixed asset from the line.</span></span> 
 
-固定资产交易记录要过帐到的账户取决于该资产是由法人采购还是由法人构建，还取决于该资产的交易记录类型。 
+<span data-ttu-id="54590-148">固定资产交易记录要过帐到的账户取决于该资产是由法人采购还是由法人构建，还取决于该资产的交易记录类型。</span><span class="sxs-lookup"><span data-stu-id="54590-148">The accounts that fixed asset transactions are posted to depend on two factors: whether the assets are purchased or constructed by the legal entity, and the transaction type of the asset.</span></span> 
 
-通过交易记录类型可以在库存交易记录与固定资产中的过帐模板之间建立联系。 因为固定资产中的过帐模板定义了更新的科目，所以，对固定资产交易记录类型的选择也会间接影响对交易记录过帐到的主科目的选择。 对于构建和采购的固定资产，交易记录类型通常是“**购置**”或“**购置调整**”。
+<span data-ttu-id="54590-149">通过交易记录类型可以在库存交易记录与固定资产中的过帐模板之间建立联系。</span><span class="sxs-lookup"><span data-stu-id="54590-149">The transaction type connects the inventory transaction to the posting profile in Fixed assets.</span></span> <span data-ttu-id="54590-150">因为固定资产中的过帐模板定义了更新的科目，所以，对固定资产交易记录类型的选择也会间接影响对交易记录过帐到的主科目的选择。</span><span class="sxs-lookup"><span data-stu-id="54590-150">Because the posting profile in Fixed assets defines which accounts are updated, the selection of a transaction type for a fixed asset is also, indirectly, the selection of the main accounts that the transaction is posted to.</span></span> <span data-ttu-id="54590-151">对于构建和采购的固定资产，交易记录类型通常是“**购置**”或“**购置调整**”。</span><span class="sxs-lookup"><span data-stu-id="54590-151">For both constructed and purchased fixed assets, the transaction type is typically **Acquisition** or **Acquisition adjustment**.</span></span>
 
-## <a name="accounts-receivable"></a>应收帐款
-具有应收帐款的固定资产集成使用固定资产中设置的过帐模板。 在过账客户发票前，为该客户发票选择固定资产、帐簿和固定资产交易类型时，启用这些过帐模板。 因为固定资产不是库存管理的一部分，在出售固定资产时您必须使用“**普通发票**”页面。 
+## <a name="accounts-receivable"></a><span data-ttu-id="54590-152">应收帐款</span><span class="sxs-lookup"><span data-stu-id="54590-152">Accounts receivable</span></span>
+<span data-ttu-id="54590-153">具有应收帐款的固定资产集成使用固定资产中设置的过帐模板。</span><span class="sxs-lookup"><span data-stu-id="54590-153">The integration of Fixed assets with Accounts receivable uses posting profiles that are set up in Fixed assets.</span></span> <span data-ttu-id="54590-154">在过账客户发票前，为该客户发票选择固定资产、帐簿和固定资产交易类型时，启用这些过帐模板。</span><span class="sxs-lookup"><span data-stu-id="54590-154">These posting profiles are activated when a fixed asset, book, and fixed asset transaction type are selected for a customer invoice before the customer invoice is posted.</span></span> <span data-ttu-id="54590-155">因为固定资产不是库存管理的一部分，在出售固定资产时您必须使用“**普通发票**”页面。</span><span class="sxs-lookup"><span data-stu-id="54590-155">Because fixed assets aren’t part of Inventory management, you must use the **Free text invoice** page when you sell a fixed asset.</span></span> 
 
-如果帐簿包括衍生帐簿，过帐客户发票时，会创建衍生帐簿交易记录。
+<span data-ttu-id="54590-156">如果帐簿包括衍生帐簿，过帐客户发票时，会创建衍生帐簿交易记录。</span><span class="sxs-lookup"><span data-stu-id="54590-156">If the book includes a derived book, the derived book transaction is created when you post the customer invoice.</span></span>
 
-## <a name="accounts-payable"></a>应付帐款
-固定资产通常向外部供应商购置。 您可以使用“**固定资产参数**”页指定在过帐供应商发票时是否始终过帐资产购置，或者是否只能从固定资产过帐资产购置。 如果您启用从应付帐款过帐资产购置，则只要过帐某一固定资产购置的供应商发票，就会更新固定资产科目。 
+## <a name="accounts-payable"></a><span data-ttu-id="54590-157">应付帐款</span><span class="sxs-lookup"><span data-stu-id="54590-157">Accounts payable</span></span>
+<span data-ttu-id="54590-158">固定资产通常向外部供应商购置。</span><span class="sxs-lookup"><span data-stu-id="54590-158">Typically, fixed assets are acquired from external vendors.</span></span> <span data-ttu-id="54590-159">您可以使用“**固定资产参数**”页指定在过帐供应商发票时是否始终过帐资产购置，或者是否只能从固定资产过帐资产购置。</span><span class="sxs-lookup"><span data-stu-id="54590-159">You can use the **Fixed assets parameters** page to specify whether asset acquisitions are always posted when you post vendor invoices, or whether asset acquisitions can be posted only from Fixed assets.</span></span> <span data-ttu-id="54590-160">如果您启用从应付帐款过帐资产购置，则只要过帐某一固定资产购置的供应商发票，就会更新固定资产科目。</span><span class="sxs-lookup"><span data-stu-id="54590-160">If you enable asset acquisitions to be posted from Accounts payable, fixed asset accounts are updated whenever a vendor invoice for a fixed asset acquisition is posted.</span></span> 
 
-如果将该系统设置为在过帐发票时的过帐资产购置，则交易记录将根据固定资产中用于不同固定资产交易记录类型设置过帐模板进行过帐。 在过帐供应商发票之前，该过帐由在“**采购订单**”页中选择的固定资产、帐簿和固定资产交易记录类型控制。 
+<span data-ttu-id="54590-161">如果将该系统设置为在过帐发票时的过帐资产购置，则交易记录将根据固定资产中用于不同固定资产交易记录类型设置过帐模板进行过帐。</span><span class="sxs-lookup"><span data-stu-id="54590-161">If the system is set up to post an asset acquisition when an invoice is posted, the transaction is posted according to the posting profiles that are set up in Fixed assets for the various fixed asset transaction types.</span></span> <span data-ttu-id="54590-162">在过帐供应商发票之前，该过帐由在“**采购订单**”页中选择的固定资产、帐簿和固定资产交易记录类型控制。</span><span class="sxs-lookup"><span data-stu-id="54590-162">The posting is controlled by the fixed asset, book, and fixed asset transaction type that are selected on the **Purchase order** page before the vendor invoice is posted.</span></span> 
 
-如果帐簿包括衍生帐簿，过帐供应商发票时，会创建衍生帐簿交易记录。
+<span data-ttu-id="54590-163">如果帐簿包括衍生帐簿，过帐供应商发票时，会创建衍生帐簿交易记录。</span><span class="sxs-lookup"><span data-stu-id="54590-163">If the book includes a derived book, the derived book transaction is created when you post the vendor invoice.</span></span>
 
-每个订单行的集成在“**采购订单**”页的“**行明细**”快速选项卡的“**固定资产**”选项卡中激活。 您可以发送固定资产的采购订单到供应商。 但是，仅当您过账供应商发票时接受固定资产后，才更新固定资产和主科目。 因为采购订单只能包含库存物料，固定资产购置对库存的影响取决于法人的设置。
+<span data-ttu-id="54590-164">每个订单行的集成在“**采购订单**”页的“**行明细**”快速选项卡的“**固定资产**”选项卡中激活。</span><span class="sxs-lookup"><span data-stu-id="54590-164">The integration for each order line is activated on the **Fixed assets** tab on the **Line details** FastTab on the **Purchase order** page.</span></span> <span data-ttu-id="54590-165">您可以发送固定资产的采购订单到供应商。</span><span class="sxs-lookup"><span data-stu-id="54590-165">You can send a purchase order for a fixed asset to the vendor.</span></span> <span data-ttu-id="54590-166">但是，仅当您过账供应商发票时接受固定资产后，才更新固定资产和主科目。</span><span class="sxs-lookup"><span data-stu-id="54590-166">However, the fixed assets and main accounts are updated only when you post the vendor invoice after the fixed asset is received.</span></span> <span data-ttu-id="54590-167">因为采购订单只能包含库存物料，固定资产购置对库存的影响取决于法人的设置。</span><span class="sxs-lookup"><span data-stu-id="54590-167">Because purchase orders can contain only inventory items, the effect that the acquisition of fixed assets has on inventory depends on the setup of the legal entity.</span></span>
 
-## <a name="project-management-and-accounting"></a>项目管理与核算
-您可以将某一项目与受该项目影响的资产相关联。 您还可以将各个阶段、任务或下级项目与不同的资产相关联。 一个资产可与每个项目记录关联。 当您在“**项目**”页的“**固定资产**”编号字段中输入某一固定资产编号时创建该关联。 项目类型必须为“**内部**”或“**成本项目**”。 
+## <a name="project-management-and-accounting"></a><span data-ttu-id="54590-168">项目管理与核算</span><span class="sxs-lookup"><span data-stu-id="54590-168">Project management and accounting</span></span>
+<span data-ttu-id="54590-169">您可以将某一项目与受该项目影响的资产相关联。</span><span class="sxs-lookup"><span data-stu-id="54590-169">You can associate a project with an asset that is affected by the project.</span></span> <span data-ttu-id="54590-170">您还可以将各个阶段、任务或下级项目与不同的资产相关联。</span><span class="sxs-lookup"><span data-stu-id="54590-170">You can also associate each phase, task, or subproject to a different asset.</span></span> <span data-ttu-id="54590-171">一个资产可与每个项目记录关联。</span><span class="sxs-lookup"><span data-stu-id="54590-171">One asset can be associated with each project record.</span></span> <span data-ttu-id="54590-172">当您在“**项目**”页的“**固定资产**”编号字段中输入某一固定资产编号时创建该关联。</span><span class="sxs-lookup"><span data-stu-id="54590-172">You create the association when you enter a fixed asset number in the **Fixed asset** number field on the **Projects** page.</span></span> <span data-ttu-id="54590-173">项目类型必须为“**内部**”或“**成本项目**”。</span><span class="sxs-lookup"><span data-stu-id="54590-173">The project type must be either **Internal** or **Cost project**.</span></span> 
 
-您还可以使用“**项目**”页查看与项目相关联的资产的有关详细信息。 若要查看固定资产记录，请单击“**设置**”快速选项卡上的资产链接，以打开“**固定资产**”页。 然后单击**项目** &gt; **所有项目**以查看与固定资产相关联的项目。 
+<span data-ttu-id="54590-174">您还可以使用“**项目**”页查看与项目相关联的资产的有关详细信息。</span><span class="sxs-lookup"><span data-stu-id="54590-174">You can also use the **Projects** page to view details about assets that are associated with projects.</span></span> <span data-ttu-id="54590-175">若要查看固定资产记录，请单击“**设置**”快速选项卡上的资产链接，以打开“**固定资产**”页。</span><span class="sxs-lookup"><span data-stu-id="54590-175">To view the fixed asset record, on the **Setup** FastTab, click the asset link to open the **Fixed assets** page.</span></span> <span data-ttu-id="54590-176">然后单击**项目** &gt; **所有项目**以查看与固定资产相关联的项目。</span><span class="sxs-lookup"><span data-stu-id="54590-176">Then click **Projects** &gt; **All projects** to view the projects that are associated with the fixed asset.</span></span> 
 
-在项目与针对固定资产的工作、维护或改进相关时，您通常将固定资产与这些项目相关联。 在完成项目时，不自动为该资产创建调高。 因此，如果需要调高，您必须手动创建。 
+<span data-ttu-id="54590-177">在项目与针对固定资产的工作、维护或改进相关时，您通常将固定资产与这些项目相关联。</span><span class="sxs-lookup"><span data-stu-id="54590-177">Typically, you associate fixed assets with projects when the projects are related to work, maintenance, or improvements for the asset.</span></span> <span data-ttu-id="54590-178">在完成项目时，不自动为该资产创建调高。</span><span class="sxs-lookup"><span data-stu-id="54590-178">When the project is completed, a write-up adjustment for the asset isn’t created automatically.</span></span> <span data-ttu-id="54590-179">因此，如果需要调高，您必须手动创建。</span><span class="sxs-lookup"><span data-stu-id="54590-179">Therefore, if a write-up adjustment is required, you must create it manually.</span></span> 
 
-若要删除项目和资产之间的关联，请在“**项目**”页中取消选中“**固定资产编号**”字段。 
+<span data-ttu-id="54590-180">若要删除项目和资产之间的关联，请在“**项目**”页中取消选中“**固定资产编号**”字段。</span><span class="sxs-lookup"><span data-stu-id="54590-180">To delete the association between a project and an asset, clear the **Fixed asset number** field on the **Projects** page.</span></span> 
 
-您还可以将您正创建或制造的固定资产设计为评估项目的一部分。 在某一评估项目结束时，您可以自动过帐资产购置交易记录。
+<span data-ttu-id="54590-181">您还可以将您正创建或制造的固定资产设计为评估项目的一部分。</span><span class="sxs-lookup"><span data-stu-id="54590-181">You can also designate a fixed asset that you’re creating or manufacturing as part of an estimate project.</span></span> <span data-ttu-id="54590-182">在某一评估项目结束时，您可以自动过帐资产购置交易记录。</span><span class="sxs-lookup"><span data-stu-id="54590-182">At the end of an estimate project, you can automatically post an asset acquisition transaction.</span></span>
 
-有关详细信息，请参阅[通过采购购置资产](acquire-assets-procurement.md)
+<span data-ttu-id="54590-183">有关详细信息，请参阅[通过采购购置资产](acquire-assets-procurement.md)</span><span class="sxs-lookup"><span data-stu-id="54590-183">For more information, see [Acquire assets through procurement](acquire-assets-procurement.md)</span></span>
 
 
 

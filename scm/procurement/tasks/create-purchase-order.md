@@ -16,63 +16,63 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 0a761834939363a6598b768d3931f9a6278719f3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-purchase-order"></a>创建采购订单
+# <a name="create-a-purchase-order"></a><span data-ttu-id="bd0f0-103">创建采购订单</span><span class="sxs-lookup"><span data-stu-id="bd0f0-103">Create a purchase order</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-此过程说明如何手动创建采购订单。 作为主计划、直接交运和其他流程的结果自动创建对于采购订单更为典型。 采购订单通常由采购代理创建。 此处显示的示例可以在使用各步骤的注释建议的值的 USMF 演示数据公司使用。
+<span data-ttu-id="bd0f0-104">此过程说明如何手动创建采购订单。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-104">This procedure shows you how to create a purchase order manually.</span></span> <span data-ttu-id="bd0f0-105">作为主计划、直接交运和其他流程的结果自动创建对于采购订单更为典型。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-105">It’s more typical for purchase orders to be created automatically as result of master planning, direct delivery, and other processes.</span></span> <span data-ttu-id="bd0f0-106">采购订单通常由采购代理创建。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-106">Purchase orders are typically created by a purchasing agent.</span></span> <span data-ttu-id="bd0f0-107">此处显示的示例可以在使用各步骤的注释建议的值的 USMF 演示数据公司使用。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-107">The example shown here can be used in the USMF demo data company using the values that are suggested in the notes for various steps.</span></span>
 
 
-## <a name="create-the-purchase-order-header"></a>创建采购订单头
-1. 转到“采购”>“采购订单”>“所有采购订单”。
-2. 单击“新建”。
-3. 选择供应商帐户 US-101。
-    * 在您选择某一供应商时，供应商记录的详细信息（例如地址、发票帐户、交货条款和交货方式）将作为默认值复制到订单抬头。 您可以随时更改这些数值。  
-4. 展开“常规”部分。
-    * “站点”字段与仓库字段一同指定采购的货物或服务必须交付到的位置。 默认交货地址是此站点。 两个字段均可以填充为为所选供应商设置的值，或者可以手动指定它们。  
-    * “交货日期”字段用于指定什么时候需要交付采购的货物和服务。 您可以为订单指定一个交货日期，或者可以为各订单行指定唯一交货日期。 如果此处指定的交货日期因为它们具有更长的提前期而无法满足特定产品的交货要求，则这些行将使用更晚的交货日期创建以适应此情况。  
-5. 折叠“常规”部分。
-6. 展开“管理”部分。
-    * “订货人”字段可用于指定下订单的人。 在供应商需要与该人员联系时，此信息可能便于与供应商共享。 如果当前用户帐户与用户页上的姓名关联，此字段可能自动分配值。  
-7. 折叠“管理”部分。
-8. 单击“确定”。
-    * 订单头现在已创建。 如果您处理采购订单行，则只显示订单头信息的汇总。 如果您需要查看其余的信息，请单击订单头。  
+## <a name="create-the-purchase-order-header"></a><span data-ttu-id="bd0f0-108">创建采购订单头</span><span class="sxs-lookup"><span data-stu-id="bd0f0-108">Create the purchase order header</span></span>
+1. <span data-ttu-id="bd0f0-109">转到“采购”>“采购订单”>“所有采购订单”。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-109">Go to Procurement and sourcing > Purchase orders > All purchase orders.</span></span>
+2. <span data-ttu-id="bd0f0-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-110">Click New.</span></span>
+3. <span data-ttu-id="bd0f0-111">选择供应商帐户 US-101。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-111">Select vendor account US-101.</span></span>
+    * <span data-ttu-id="bd0f0-112">在您选择某一供应商时，供应商记录的详细信息（例如地址、发票帐户、交货条款和交货方式）将作为默认值复制到订单抬头。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-112">When you select a vendor, details from the vendor record such as address, invoice account, delivery terms, and delivery mode will be copied as default values into the order header.</span></span> <span data-ttu-id="bd0f0-113">您可以随时更改这些数值。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-113">You can change these values at any time.</span></span>  
+4. <span data-ttu-id="bd0f0-114">展开“常规”部分。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-114">Expand the General section.</span></span>
+    * <span data-ttu-id="bd0f0-115">“站点”字段与仓库字段一同指定采购的货物或服务必须交付到的位置。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-115">The Site field together with the Warehouse field specifies where the procured goods or services must be delivered to.</span></span> <span data-ttu-id="bd0f0-116">默认交货地址是此站点。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-116">The default delivery address is the site.</span></span> <span data-ttu-id="bd0f0-117">两个字段均可以填充为为所选供应商设置的值，或者可以手动指定它们。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-117">Both fields can be populated with values set up for the selected vendor, or you can specify them manually.</span></span>  
+    * <span data-ttu-id="bd0f0-118">“交货日期”字段用于指定什么时候需要交付采购的货物和服务。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-118">The Delivery date field is used to specify when procured goods and services need to be delivered.</span></span> <span data-ttu-id="bd0f0-119">您可以为订单指定一个交货日期，或者可以为各订单行指定唯一交货日期。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-119">You can specify a single delivery date for the order, or the individual order lines can be given unique delivery dates.</span></span> <span data-ttu-id="bd0f0-120">如果此处指定的交货日期因为它们具有更长的提前期而无法满足特定产品的交货要求，则这些行将使用更晚的交货日期创建以适应此情况。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-120">If the delivery date specified here cannot be met for specific products or services because they have longer lead times, then those lines will be created with a later delivery date to accommodate for this.</span></span>  
+5. <span data-ttu-id="bd0f0-121">折叠“常规”部分。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-121">Collapse the General section.</span></span>
+6. <span data-ttu-id="bd0f0-122">展开“管理”部分。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-122">Expand the Administration section.</span></span>
+    * <span data-ttu-id="bd0f0-123">“订货人”字段可用于指定下订单的人。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-123">The Orderer field can be used to specify who is placing the order.</span></span> <span data-ttu-id="bd0f0-124">在供应商需要与该人员联系时，此信息可能便于与供应商共享。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-124">This may be convenient to share with the vendor in case they need to contact that person.</span></span> <span data-ttu-id="bd0f0-125">如果当前用户帐户与用户页上的姓名关联，此字段可能自动分配值。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-125">The field may be assigned a value automatically if the current user account is associated with a name on the Users page.</span></span>  
+7. <span data-ttu-id="bd0f0-126">折叠“管理”部分。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-126">Collapse the Administration section.</span></span>
+8. <span data-ttu-id="bd0f0-127">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-127">Click OK.</span></span>
+    * <span data-ttu-id="bd0f0-128">订单头现在已创建。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-128">The order header has now been created.</span></span> <span data-ttu-id="bd0f0-129">如果您处理采购订单行，则只显示订单头信息的汇总。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-129">When you work with purchase order lines, only a summary of the header information is shown.</span></span> <span data-ttu-id="bd0f0-130">如果您需要查看其余的信息，请单击订单头。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-130">If you need to view the rest of the information, click Header.</span></span>  
 
-## <a name="add-a-purchase-order-line"></a>添加采购订单行
-1. 单击“采购订单行”。
-2. 单击“维度”。
-    * 产品可以是按维度区分的变型，例如颜色、大小或样式。 产品还可以设置为使用存储维度，如站点和仓库。 还存在可选跟踪维度，例如批处理号和序列号。 要提高订单输入效率，可以将您通常使用的维度字段直接添加到订单网格。  
-3. 选中“颜色”复选框。
-    * 可选：如果您选择“保存设置”字段，在您下一次打开采购订单页时，您选择的维度也将显示在订单行网格中。  
-4. 单击“确定”。
-5. 在“物料编号”字段中，选择 T0004。
-    * 通过指定物料编号，或者通过指定采购为支出类别来为产品和服务创建订单行。  
-    * “采购类别”字段用于添加行，在这些行中采购的物料直接收费而不是进入库存。 这意味着，如果您需要为采购付费，可以通过创建指定采购类别的采购订单行来执行此操作，而不是创建具有物料编号的行。 物料还可以与采购类别关联，在此情况下，采购类别只显示为信息。  
-6. 在“颜色”字段中，输入或选择一个值。
-    * “站点”和“仓库”字段通常由订单头的值填充，不过，如果有些行需要向不同的位置交货，可以覆盖字段。  
-7. 在“数量”字段中，输入一个数字。
-    * 选择要购买的数量。 如果设置此项，“数量”字段将自动填充为产品的最小订单数量或值 1。  
-    * “单位”字段指示订购数量的度量单位。 通常，单位由产品主数据中的采购单位自动提供，不过，您可以更改此单位。  
-    * “单位价格”字段通常包含来自采购协议或贸易协议的值。 可以更改单个订单行中的单位价格，例如，如果唯一价格与供应商协定。  
-    * “折扣”字段表示一个单位的折扣金额。 此折扣因此按折扣减少单位价格。 此折扣通常由采购协议或贸易协议自动提供，但如果唯一折扣与供应商协定，可以覆盖单个行。  
-    * 可以输入折扣百分比来相应减少行的净额。 折扣百分比通常由采购协议或贸易协议自动提供，但如果唯一折扣百分比已与供应商协定，可以覆盖单个行。  
-    * “净额”字段中的值通过行的其他字段计划，包括数量、单位价格、折扣和折扣百分比。 净额可以更改，但“单位价格”、“折扣”和“折扣百分比”字段然后将为空，在您针对该行过帐时，过帐的金额将与净额成比例。 通常“净额”字段只用于显示行的净额。  
-8. 展开“行明细”部分。
-9. 单击“交货”选项卡。
-    * 唯一交货日期可以分配给每个订单行。 该日期继承自采购订单头中的字段，不过，您可以更改此日期。  
-10. 收起“行详情”部分。
+## <a name="add-a-purchase-order-line"></a><span data-ttu-id="bd0f0-131">添加采购订单行</span><span class="sxs-lookup"><span data-stu-id="bd0f0-131">Add a purchase order line</span></span>
+1. <span data-ttu-id="bd0f0-132">单击“采购订单行”。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-132">Click Purchase order line.</span></span>
+2. <span data-ttu-id="bd0f0-133">单击“维度”。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-133">Click Dimensions.</span></span>
+    * <span data-ttu-id="bd0f0-134">产品可以是按维度区分的变型，例如颜色、大小或样式。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-134">Products can be in variants that are differentiated by dimensions, such as color, size, or style.</span></span> <span data-ttu-id="bd0f0-135">产品还可以设置为使用存储维度，如站点和仓库。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-135">Products can also be set up to use storage dimensions, such as site and warehouse.</span></span> <span data-ttu-id="bd0f0-136">还存在可选跟踪维度，例如批处理号和序列号。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-136">There are also optional tracking dimensions, such as batch and serial numbers.</span></span> <span data-ttu-id="bd0f0-137">要提高订单输入效率，可以将您通常使用的维度字段直接添加到订单网格。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-137">To improve the efficiency of order entry, you can add the dimension fields that you commonly use directly to the order grid.</span></span>  
+3. <span data-ttu-id="bd0f0-138">选中“颜色”复选框。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-138">Select the Color check box.</span></span>
+    * <span data-ttu-id="bd0f0-139">可选：如果您选择“保存设置”字段，在您下一次打开采购订单页时，您选择的维度也将显示在订单行网格中。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-139">Optional: If you select the Save setup field, the dimensions you have chosen will also be shown on the order line grid the next time you open the purchase order page.</span></span>  
+4. <span data-ttu-id="bd0f0-140">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-140">Click OK.</span></span>
+5. <span data-ttu-id="bd0f0-141">在“物料编号”字段中，选择 T0004。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-141">In the Item number field, select T0004.</span></span>
+    * <span data-ttu-id="bd0f0-142">通过指定物料编号，或者通过指定采购为支出类别来为产品和服务创建订单行。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-142">Order lines are created for products and services by specifying an item number, or as expenses by specifying a procurement category.</span></span>  
+    * <span data-ttu-id="bd0f0-143">“采购类别”字段用于添加行，在这些行中采购的物料直接收费而不是进入库存。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-143">The Procurement category field is used for adding lines where procured items are expensed directly, rather than going into inventory.</span></span> <span data-ttu-id="bd0f0-144">这意味着，如果您需要为采购付费，可以通过创建指定采购类别的采购订单行来执行此操作，而不是创建具有物料编号的行。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-144">This means that if you need to expense a purchase you can do this by creating a purchase order line that specifies a procurement category, rather than creating a line with an item number.</span></span> <span data-ttu-id="bd0f0-145">物料还可以与采购类别关联，在此情况下，采购类别只显示为信息。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-145">Items can also be associated with a procurement category and in this case, the procurement category is shown as informational only.</span></span>  
+6. <span data-ttu-id="bd0f0-146">在“颜色”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-146">In the Color field, enter or select a value.</span></span>
+    * <span data-ttu-id="bd0f0-147">“站点”和“仓库”字段通常由订单头的值填充，不过，如果有些行需要向不同的位置交货，可以覆盖字段。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-147">The Site and Warehouse fields are typically populated with values from the order header, but it is possible to override the fields if some lines need to be delivered to different locations.</span></span>  
+7. <span data-ttu-id="bd0f0-148">在“数量”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-148">In the Quantity field, enter a number.</span></span>
+    * <span data-ttu-id="bd0f0-149">选择要购买的数量。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-149">Select the quantity that you want to purchase.</span></span> <span data-ttu-id="bd0f0-150">如果设置此项，“数量”字段将自动填充为产品的最小订单数量或值 1。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-150">The Quantity field is automatically populated with the minimum order quantity for the product if this is set up, or with the value of 1.</span></span>  
+    * <span data-ttu-id="bd0f0-151">“单位”字段指示订购数量的度量单位。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-151">The Unit field indicates the unit of measure for the ordered quantity.</span></span> <span data-ttu-id="bd0f0-152">通常，单位由产品主数据中的采购单位自动提供，不过，您可以更改此单位。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-152">Typically, the unit is automatically provided from the purchasing unit on the product master data, but you can change this.</span></span>  
+    * <span data-ttu-id="bd0f0-153">“单位价格”字段通常包含来自采购协议或贸易协议的值。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-153">The Unit price field typically contains a value from either a purchase agreement or a trade agreement.</span></span> <span data-ttu-id="bd0f0-154">可以更改单个订单行中的单位价格，例如，如果唯一价格与供应商协定。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-154">It’s possible to change the unit price on individual order lines, for example if a unique price is negotiated with the vendor.</span></span>  
+    * <span data-ttu-id="bd0f0-155">“折扣”字段表示一个单位的折扣金额。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-155">The Discount field represents a discount amount per unit.</span></span> <span data-ttu-id="bd0f0-156">此折扣因此按折扣减少单位价格。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-156">This discount therefore reduces the unit price by the discount.</span></span> <span data-ttu-id="bd0f0-157">此折扣通常由采购协议或贸易协议自动提供，但如果唯一折扣与供应商协定，可以覆盖单个行。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-157">This discount is commonly supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if unique discounts have been negotiated with the vendor.</span></span>  
+    * <span data-ttu-id="bd0f0-158">可以输入折扣百分比来相应减少行的净额。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-158">A discount percentage can be entered that reduces the net amount for the line accordingly.</span></span> <span data-ttu-id="bd0f0-159">折扣百分比通常由采购协议或贸易协议自动提供，但如果唯一折扣百分比已与供应商协定，可以覆盖单个行。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-159">The discount percent is often supplied automatically from purchase agreements or trade agreements, but it is possible to override on individual lines if a unique discount percentage has been negotiated with the vendor.</span></span>  
+    * <span data-ttu-id="bd0f0-160">“净额”字段中的值通过行的其他字段计划，包括数量、单位价格、折扣和折扣百分比。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-160">The value in the Net Amount field is calculated from other fields on the line including quantity, unit price, discount, and discount percent.</span></span> <span data-ttu-id="bd0f0-161">净额可以更改，但“单位价格”、“折扣”和“折扣百分比”字段然后将为空，在您针对该行过帐时，过帐的金额将与净额成比例。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-161">It’s possible to change the Net amount, but then the Unit Price, Discount, and Discount percent fields will be blank and when you post toward the line, the amount posted will be proportional to the net amount.</span></span> <span data-ttu-id="bd0f0-162">通常“净额”字段只用于显示行的净额。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-162">Typically the Net Amount field is only used for displaying the net amount of the line.</span></span>  
+8. <span data-ttu-id="bd0f0-163">展开“行明细”部分。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-163">Expand the Line details section.</span></span>
+9. <span data-ttu-id="bd0f0-164">单击“交货”选项卡。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-164">Click the Delivery tab.</span></span>
+    * <span data-ttu-id="bd0f0-165">唯一交货日期可以分配给每个订单行。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-165">A unique delivery date can be assigned to each order line.</span></span> <span data-ttu-id="bd0f0-166">该日期继承自采购订单头中的字段，不过，您可以更改此日期。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-166">The date is inherited from the field on the purchase order header, but you can change this.</span></span>  
+10. <span data-ttu-id="bd0f0-167">收起“行详情”部分。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-167">Collapse the Line details section.</span></span>
 
-## <a name="review-order-totals"></a>审查订单总计
-1. 单击“总计”。
-    * 如果您没有看到“总计”操作，请单击操作栏上的“采购订单”选项卡。  
-    * 此对话框显示整个订单的总计。  
-    * “选择”字段允许您更改如何计算总计的基础。 例如，您可以选择“产品收货数量”来显示与已接收的产品金额相关的总计，或者选择“订购数量”来显示已订购的产品金额。  
-2. 单击“确定”。
+## <a name="review-order-totals"></a><span data-ttu-id="bd0f0-168">审查订单总计</span><span class="sxs-lookup"><span data-stu-id="bd0f0-168">Review order totals</span></span>
+1. <span data-ttu-id="bd0f0-169">单击“总计”。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-169">Click Totals.</span></span>
+    * <span data-ttu-id="bd0f0-170">如果您没有看到“总计”操作，请单击操作栏上的“采购订单”选项卡。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-170">If you don’t see the Totals action, click the Purchase Order tab on the action bar.</span></span>  
+    * <span data-ttu-id="bd0f0-171">此对话框显示整个订单的总计。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-171">This dialog box shows totals for the whole order.</span></span>  
+    * <span data-ttu-id="bd0f0-172">“选择”字段允许您更改如何计算总计的基础。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-172">The Selection field allows you to change the basis of how totals are calculated.</span></span> <span data-ttu-id="bd0f0-173">例如，您可以选择“产品收货数量”来显示与已接收的产品金额相关的总计，或者选择“订购数量”来显示已订购的产品金额。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-173">For example, you could choose Product receipt quantity to show totals that relate to the amount of the product(s) that have been received, or Ordered quantity to show the amount of product that was ordered.</span></span>  
+2. <span data-ttu-id="bd0f0-174">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="bd0f0-174">Click OK.</span></span>
 
 

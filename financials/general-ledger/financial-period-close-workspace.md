@@ -19,94 +19,94 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 5de5e3aad0b7a5853653ae53326dac078ec94fea
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 0bbf8f979aeb8b861164e345f9e46bb396f370ce
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="financial-period-close-workspace"></a>财务期间结帐工作区
+# <a name="financial-period-close-workspace"></a><span data-ttu-id="c0553-103">财务期间结帐工作区</span><span class="sxs-lookup"><span data-stu-id="c0553-103">Financial period close workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-本文提供财务期间结帐工作区和相关配置的概览。
+<span data-ttu-id="c0553-104">本文提供财务期间结帐工作区和相关配置的概览。</span><span class="sxs-lookup"><span data-stu-id="c0553-104">This article provides an overview of the Financial period close workspace and the associated configuration.</span></span>
 
-财务期间结帐工作区
+<span data-ttu-id="c0553-105">财务期间结帐工作区</span><span class="sxs-lookup"><span data-stu-id="c0553-105">Financial period close workspace</span></span>
 
-**财务期间结帐**工作区用于跨公司、区域和人员跟踪财务结帐流程。 根据**财务期间结帐**工作区的视图，您将看到结帐计划的所有任务和状态，或仅分配给您的任务。 
+<span data-ttu-id="c0553-106">**财务期间结帐**工作区用于跨公司、区域和人员跟踪财务结帐流程。</span><span class="sxs-lookup"><span data-stu-id="c0553-106">The **Financial period close** workspace lets you track your financial closing processes across companies, areas, and people.</span></span> <span data-ttu-id="c0553-107">根据**财务期间结帐**工作区的视图，您将看到结帐计划的所有任务和状态，或仅分配给您的任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-107">Depending on your view of the **Financial period close** workspace, you'll see either of all tasks and statuses for a closing schedule, or just the tasks that are assigned to you.</span></span> 
 
-首先必须在该工作区顶部选择一个结帐计划。 然后将按所选结帐计划筛选该工作区中显示的所有数据。
+<span data-ttu-id="c0553-108">首先必须在该工作区顶部选择一个结帐计划。</span><span class="sxs-lookup"><span data-stu-id="c0553-108">You must first select a closing schedule at the top of the workspace.</span></span> <span data-ttu-id="c0553-109">然后将按所选结帐计划筛选该工作区中显示的所有数据。</span><span class="sxs-lookup"><span data-stu-id="c0553-109">All data that is shown on the workspace is then filtered by the selected closing schedule.</span></span>
 
-### <a name="summary-tiles"></a>汇总磁贴
+### <a name="summary-tiles"></a><span data-ttu-id="c0553-110">汇总磁贴</span><span class="sxs-lookup"><span data-stu-id="c0553-110">Summary tiles</span></span>
 
-**汇总**磁贴为您提供流程概览以及帮助您保留跟踪的结转流程的指示器。 您可以查看到期任务、当天的剩余任务、当天到期但因为依赖项而被阻止的任务，以及流程的所有剩余任务。 此信息针对选定结帐计划内安排的所有公司。
+<span data-ttu-id="c0553-111">**汇总**磁贴为您提供流程概览以及帮助您保留跟踪的结转流程的指示器。</span><span class="sxs-lookup"><span data-stu-id="c0553-111">The **Summary** tiles give an overview of the process, and indicators help you keep the closing process on track.</span></span> <span data-ttu-id="c0553-112">您可以查看到期任务、当天的剩余任务、当天到期但因为依赖项而被阻止的任务，以及流程的所有剩余任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-112">You can see tasks that are past due, remaining tasks for today, tasks that are due today but are blocked because of dependencies, and all remaining tasks for the process.</span></span> <span data-ttu-id="c0553-113">此信息针对选定结帐计划内安排的所有公司。</span><span class="sxs-lookup"><span data-stu-id="c0553-113">This information is for all companies that are included in the selected closing schedule.</span></span>
 
-### <a name="tasks-and-status-section"></a>任务和状态部分
+### <a name="tasks-and-status-section"></a><span data-ttu-id="c0553-114">任务和状态部分</span><span class="sxs-lookup"><span data-stu-id="c0553-114">Tasks and status section</span></span>
 
-在**任务和状态**部分中，将按照各种方式细分整体结帐计划的状态：按公司分类的状态、按区域分类的状态，以及按负责人分类的状态。 可以通过更改卡列表顶部的筛选器，查看结帐计划中所有任务的状态、仅当天到期的任务的状态，或者已到期的任务的状态。 还可以选择公司筛选器以查看特定公司的状态。 每个状态选项卡同时按已完成百分比和剩余任务数量提供细分。 单击卡或查看**详细信息**操作可按选定卡筛选详细任务列表。 
+<span data-ttu-id="c0553-115">在**任务和状态**部分中，将按照各种方式细分整体结帐计划的状态：按公司分类的状态、按区域分类的状态，以及按负责人分类的状态。</span><span class="sxs-lookup"><span data-stu-id="c0553-115">In the **Tasks and status** section, the status of the overall closing schedule is broken down in various ways: status by company, status by area, and status by person who is responsible.</span></span> <span data-ttu-id="c0553-116">可以通过更改卡列表顶部的筛选器，查看结帐计划中所有任务的状态、仅当天到期的任务的状态，或者已到期的任务的状态。</span><span class="sxs-lookup"><span data-stu-id="c0553-116">You can view the status for all tasks in the closing schedule, just tasks that are due today, or tasks that are past due by changing the filter at the top of the card list.</span></span> <span data-ttu-id="c0553-117">还可以选择公司筛选器以查看特定公司的状态。</span><span class="sxs-lookup"><span data-stu-id="c0553-117">You can also select the company filter to view the status for a specific company.</span></span> <span data-ttu-id="c0553-118">每个状态选项卡同时按已完成百分比和剩余任务数量提供细分。</span><span class="sxs-lookup"><span data-stu-id="c0553-118">Each status tab gives a breakdown by both the percentage that has been completed and the number of tasks that remain.</span></span> <span data-ttu-id="c0553-119">单击卡或查看**详细信息**操作可按选定卡筛选详细任务列表。</span><span class="sxs-lookup"><span data-stu-id="c0553-119">Click the card or the **View details** action to filter the detailed task list by the selected card.</span></span> 
 
-最后一个卡针对详细任务列表。 此列表显示完整的任务列表，并可进行筛选，以便仅显示您感兴趣的任务。 可以通过多种方式筛选任务列表。 例如，可以按任务到期日期、关联公司和关联区域进行筛选。 还可以选择在任务列表中显示或隐藏已完成的任务。 
+<span data-ttu-id="c0553-120">最后一个卡针对详细任务列表。</span><span class="sxs-lookup"><span data-stu-id="c0553-120">The last tab is for the detailed task list.</span></span> <span data-ttu-id="c0553-121">此列表显示完整的任务列表，并可进行筛选，以便仅显示您感兴趣的任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-121">This list shows the full task list and can be filtered so that it shows only the tasks that you're interested in.</span></span> <span data-ttu-id="c0553-122">可以通过多种方式筛选任务列表。</span><span class="sxs-lookup"><span data-stu-id="c0553-122">You can filter the task list in several ways.</span></span> <span data-ttu-id="c0553-123">例如，可以按任务到期日期、关联公司和关联区域进行筛选。</span><span class="sxs-lookup"><span data-stu-id="c0553-123">For example, you can filter by task due date, associated company, and associated area.</span></span> <span data-ttu-id="c0553-124">还可以选择在任务列表中显示或隐藏已完成的任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-124">You can also select to show or hide completed tasks in the task list.</span></span> 
 
-用于任务的两个指示器：
+<span data-ttu-id="c0553-125">用于任务的两个指示器：</span><span class="sxs-lookup"><span data-stu-id="c0553-125">Two indicators are used for tasks:</span></span>
 
--   感叹号图标指示任务已到期。 对于已到期的任务，还将以红色突出显示到期日期。
--   挂锁图标指示任务依赖于尚未完成的其他任务。 不能将依赖项阻止的任务标记为已完成。 可以通过使用**设置依赖项**操作为任务设置依赖项。
+-   <span data-ttu-id="c0553-126">感叹号图标指示任务已到期。</span><span class="sxs-lookup"><span data-stu-id="c0553-126">An exclamation point icon indicates that the task is past due.</span></span> <span data-ttu-id="c0553-127">对于已到期的任务，还将以红色突出显示到期日期。</span><span class="sxs-lookup"><span data-stu-id="c0553-127">For tasks that are past due, the due date is also highlighted in red.</span></span>
+-   <span data-ttu-id="c0553-128">挂锁图标指示任务依赖于尚未完成的其他任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-128">A padlock icon indicates that the task depends on other tasks that aren't yet completed.</span></span> <span data-ttu-id="c0553-129">不能将依赖项阻止的任务标记为已完成。</span><span class="sxs-lookup"><span data-stu-id="c0553-129">A task that is blocked by dependencies can't be marked as completed.</span></span> <span data-ttu-id="c0553-130">可以通过使用**设置依赖项**操作为任务设置依赖项。</span><span class="sxs-lookup"><span data-stu-id="c0553-130">You can set dependencies for a task by using the **Set dependency** action.</span></span>
 
-任务名称是 Microsoft Dynamics 365 for Operations 页面或用户必须访问才能完成工作的网页的链接。 可通过在编辑或创建任务时使用**任务链接**字段设置此超链接。 
+<span data-ttu-id="c0553-131">任务名称是 Microsoft Dynamics 365 for Operations 页面或用户必须访问才能完成工作的网页的链接。</span><span class="sxs-lookup"><span data-stu-id="c0553-131">The task name is a hyperlink to the Microsoft Dynamics 365 for Operations page or other webpage where the user must go to complete the work.</span></span> <span data-ttu-id="c0553-132">可通过在编辑或创建任务时使用**任务链接**字段设置此超链接。</span><span class="sxs-lookup"><span data-stu-id="c0553-132">You can set this hyperlink by using the **Task link** field when you edit or create a task.</span></span> 
 
-可通过使用**附件**操作将文件、注释、图像和 URL 附加到任务。 例如，可以指示用作任务一部分的日记帐编号，添加有关特定任务的注释，或附加为任务打印的报表文件。 如果有附件，任务的**附件**列中将显示一个图标。 
+<span data-ttu-id="c0553-133">可通过使用**附件**操作将文件、注释、图像和 URL 附加到任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-133">You can attach files, notes, images, and URLs to a task by using the **Attachments** action.</span></span> <span data-ttu-id="c0553-134">例如，可以指示用作任务一部分的日记帐编号，添加有关特定任务的注释，或附加为任务打印的报表文件。</span><span class="sxs-lookup"><span data-stu-id="c0553-134">For example, you can indicate journal numbers that are used as part of a task, add comments about a specific task, or attach a report file that was printed for a task.</span></span> <span data-ttu-id="c0553-135">如果有附件，任务的**附件**列中将显示一个图标。</span><span class="sxs-lookup"><span data-stu-id="c0553-135">An icon appears in the **Attachment** column for the task if an attachment is present.</span></span> 
 
-完成任务后，必须手动选择**任务已完成**选项。 任务标记为已完成时，**完成日期**字段将自动更新为当前日期和时间。 还将根据需要更新依赖项指示器。
+<span data-ttu-id="c0553-136">完成任务后，必须手动选择**任务已完成**选项。</span><span class="sxs-lookup"><span data-stu-id="c0553-136">The **Task complete** option must be manually selected after the task is completed.</span></span> <span data-ttu-id="c0553-137">任务标记为已完成时，**完成日期**字段将自动更新为当前日期和时间。</span><span class="sxs-lookup"><span data-stu-id="c0553-137">When a task is marked as completed, the **Completed date** field is automatically updated to the current date and time.</span></span> <span data-ttu-id="c0553-138">还将根据需要更新依赖项指示器。</span><span class="sxs-lookup"><span data-stu-id="c0553-138">Dependency indicators are also updated as appropriate.</span></span>
 
-## <a name="all-financial-period-close-tasks-list-page"></a>所有财务期间结帐任务列表页
-可以从**所有财务期间结帐任务**列表页查看所有当前和之前期间结帐任务。 此列表页最适合用于对结转流程执行历史分析，因为其中包含有关计划的到期日期、实际完成日期和任务完成人的信息。 可以出于报告和审计目的，将此列表页中的信息轻松导出到 Microsoft Excel。
+## <a name="all-financial-period-close-tasks-list-page"></a><span data-ttu-id="c0553-139">所有财务期间结帐任务列表页</span><span class="sxs-lookup"><span data-stu-id="c0553-139">All financial period close tasks list page</span></span>
+<span data-ttu-id="c0553-140">可以从**所有财务期间结帐任务**列表页查看所有当前和之前期间结帐任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-140">You can view all current and previous period close tasks from the **All financial period close tasks** list page.</span></span> <span data-ttu-id="c0553-141">此列表页最适合用于对结转流程执行历史分析，因为其中包含有关计划的到期日期、实际完成日期和任务完成人的信息。</span><span class="sxs-lookup"><span data-stu-id="c0553-141">This list page is best used for historical analysis of your closing process, because it includes information about the scheduled due date, the actual completion date, and the person who completed the task.</span></span> <span data-ttu-id="c0553-142">可以出于报告和审计目的，将此列表页中的信息轻松导出到 Microsoft Excel。</span><span class="sxs-lookup"><span data-stu-id="c0553-142">You can easily export the information on this list page to Microsoft Excel for reporting and auditing purposes.</span></span>
 
-## <a name="financial-period-close-configuration-page"></a>财务期间结帐配置页
-在您可以使用**财务期间结帐**工作区前，您必须使用**财务期间结帐配置**页配置 Microsoft Dynamics 365 for Finance and Operations 中的流程。 （单击**总帐** &gt; **期间结帐** &gt; **财务期间结帐配置**）。
+## <a name="financial-period-close-configuration-page"></a><span data-ttu-id="c0553-143">财务期间结帐配置页</span><span class="sxs-lookup"><span data-stu-id="c0553-143">Financial period close configuration page</span></span>
+<span data-ttu-id="c0553-144">在您可以使用**财务期间结帐**工作区前，您必须使用**财务期间结帐配置**页配置 Microsoft Dynamics 365 for Finance and Operations 中的流程。</span><span class="sxs-lookup"><span data-stu-id="c0553-144">Before you can use the **Financial period close** workspace, you must configure the process in Microsoft Dynamics 365 for Finance and Operations by using the **Financial period close configuration** page.</span></span> <span data-ttu-id="c0553-145">（单击**总帐** &gt; **期间结帐** &gt; **财务期间结帐配置**）。</span><span class="sxs-lookup"><span data-stu-id="c0553-145">(Click **General ledger** &gt; **Period close** &gt; **Financial period close configuration**.)</span></span>
 
-### <a name="resources"></a>资源
+### <a name="resources"></a><span data-ttu-id="c0553-146">资源</span><span class="sxs-lookup"><span data-stu-id="c0553-146">Resources</span></span>
 
-在**资源**选项卡上，定义结转流程中涉及的人员。 必须先在此处分配任何负责结帐任务的员工。 还必须指定该员工的工作区视图。 选项如下：
+<span data-ttu-id="c0553-147">在**资源**选项卡上，定义结转流程中涉及的人员。</span><span class="sxs-lookup"><span data-stu-id="c0553-147">On the **Resources** tab, you define the people who are involved in the closing processes.</span></span> <span data-ttu-id="c0553-148">必须先在此处分配任何负责结帐任务的员工。</span><span class="sxs-lookup"><span data-stu-id="c0553-148">Any employee who will be responsible for a closing task must first be assigned here.</span></span> <span data-ttu-id="c0553-149">还必须指定该员工的工作区视图。</span><span class="sxs-lookup"><span data-stu-id="c0553-149">You must also specify the employee's view of the workspace.</span></span> <span data-ttu-id="c0553-150">选项如下：</span><span class="sxs-lookup"><span data-stu-id="c0553-150">The following options are available:</span></span>
 
--   **仅分配的任务** – 用户将只看到分配给他或她的任务。
--   **所有任务和状态** – 用户将看到整个流程的所有结算任务和状态。
+-   <span data-ttu-id="c0553-151">**仅分配的任务** – 用户将只看到分配给他或她的任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-151">**Only assigned tasks** – The user will see only the tasks that are assigned to him or her.</span></span>
+-   <span data-ttu-id="c0553-152">**所有任务和状态** – 用户将看到整个流程的所有结算任务和状态。</span><span class="sxs-lookup"><span data-stu-id="c0553-152">**All tasks and status** – The user will see all closing tasks and the status of the overall process.</span></span>
 
-有权仅查看为其分配的任务的用户不能添加任务到任务列表、不能编辑任务或从任务列表中删除任务。
+<span data-ttu-id="c0553-153">有权仅查看为其分配的任务的用户不能添加任务到任务列表、不能编辑任务或从任务列表中删除任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-153">Users who have permissions to view only their assigned tasks won't be able to add tasks to the task list, edit tasks, or remove tasks from the task list.</span></span>
 
-### <a name="task-areas"></a>任务区域
+### <a name="task-areas"></a><span data-ttu-id="c0553-154">任务区域</span><span class="sxs-lookup"><span data-stu-id="c0553-154">Task areas</span></span>
 
-您使用任务区域将结算任务分组到您的组织中的逻辑所有权区域。 例如，应付帐款、应收帐款或总帐可以使用为任务区域。
+<span data-ttu-id="c0553-155">您使用任务区域将结算任务分组到您的组织中的逻辑所有权区域。</span><span class="sxs-lookup"><span data-stu-id="c0553-155">You use task areas to group closing tasks into logical areas of ownership within your organization.</span></span> <span data-ttu-id="c0553-156">例如，应付帐款、应收帐款或总帐可以使用为任务区域。</span><span class="sxs-lookup"><span data-stu-id="c0553-156">For example, Accounts payable, Accounts receivable, or General ledger might be used as task areas.</span></span>
 
-### <a name="calendars"></a>日历
+### <a name="calendars"></a><span data-ttu-id="c0553-157">日历</span><span class="sxs-lookup"><span data-stu-id="c0553-157">Calendars</span></span>
 
-使用“日历”选项卡创建和编辑财务结帐日历。  可以在这里为结帐流程定义工作日，并将其用于计划结帐任务。  创建新日历，并指示要用于计划任务的工作日。  最好为长期时间创建日历，如一年或多年，因为这样的日历在创建后可以编辑。  在创建日历后，单击“编辑”按钮以针对特定日期（如假期）更新日历。  将把结帐任务安排在“控制”值设置为“开放”的日期。  如果不应将结帐任务安排在特定日期，应将该日期的“控制”值设置为“已关闭”。
+<span data-ttu-id="c0553-158">使用“日历”选项卡创建和编辑财务结帐日历。</span><span class="sxs-lookup"><span data-stu-id="c0553-158">Create and edit financial closing calendars using the Calendars tab.</span></span>  <span data-ttu-id="c0553-159">可以在这里为结帐流程定义工作日，并将其用于计划结帐任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-159">This is where you will define the working days for closing processes, and will be used for scheduling closing tasks.</span></span>  <span data-ttu-id="c0553-160">创建新日历，并指示要用于计划任务的工作日。</span><span class="sxs-lookup"><span data-stu-id="c0553-160">Create a new calendar, and indicate the working days to be used for task scheduling.</span></span>  <span data-ttu-id="c0553-161">最好为长期时间创建日历，如一年或多年，因为这样的日历在创建后可以编辑。</span><span class="sxs-lookup"><span data-stu-id="c0553-161">It is best to create a calendar for long period of time, such as a year or multiple years, since it can be edited after creation.</span></span>  <span data-ttu-id="c0553-162">在创建日历后，单击“编辑”按钮以针对特定日期（如假期）更新日历。</span><span class="sxs-lookup"><span data-stu-id="c0553-162">After creating the calendar, click the Edit button to update the calendar for specific days, such as holidays.</span></span>  <span data-ttu-id="c0553-163">将把结帐任务安排在“控制”值设置为“开放”的日期。</span><span class="sxs-lookup"><span data-stu-id="c0553-163">Closing tasks will be scheduled on days when the Control value is set to Open.</span></span>  <span data-ttu-id="c0553-164">如果不应将结帐任务安排在特定日期，应将该日期的“控制”值设置为“已关闭”。</span><span class="sxs-lookup"><span data-stu-id="c0553-164">If closing tasks should not be schedule on a specific day, that day should have the Control value set to Closed.</span></span>
 
-### <a name="templates"></a>模板
+### <a name="templates"></a><span data-ttu-id="c0553-165">模板</span><span class="sxs-lookup"><span data-stu-id="c0553-165">Templates</span></span>
 
-可使用财务结帐模板定义结帐流程的所有任务。 结帐任务是每个结帐流程中分配给个人完成的循环工作。 在模板中，必须为每个结帐任务定义相对到期日期。 相对到期日期是每个期间中任务将到期的所定义期间结束日期之前或之后的天数。 还将为每个任务分配到期时间。 到期时间通过使用您的时区的环境设置，并转换为每个用户的时区。 
+<span data-ttu-id="c0553-166">可使用财务结帐模板定义结帐流程的所有任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-166">You use a financial close template to define all tasks that are part of a closing process.</span></span> <span data-ttu-id="c0553-167">结帐任务是每个结帐流程中分配给个人完成的循环工作。</span><span class="sxs-lookup"><span data-stu-id="c0553-167">A closing task is a recurring work effort that is assigned to an individual to complete as part of each closing process.</span></span> <span data-ttu-id="c0553-168">在模板中，必须为每个结帐任务定义相对到期日期。</span><span class="sxs-lookup"><span data-stu-id="c0553-168">In the template, a relative due date must be defined for each closing task.</span></span> <span data-ttu-id="c0553-169">相对到期日期是每个期间中任务将到期的所定义期间结束日期之前或之后的天数。</span><span class="sxs-lookup"><span data-stu-id="c0553-169">The relative due date is the number of days before or after the defined period end date that the task will be due each period.</span></span> <span data-ttu-id="c0553-170">还将为每个任务分配到期时间。</span><span class="sxs-lookup"><span data-stu-id="c0553-170">A due time is also assigned to each task.</span></span> <span data-ttu-id="c0553-171">到期时间通过使用您的时区的环境设置，并转换为每个用户的时区。</span><span class="sxs-lookup"><span data-stu-id="c0553-171">The due time is set by using the context of your time zone and will be converted to the time zone for each user.</span></span> 
 
-可以将模板中的任务分配给适合该任务的一家或多家公司。 如果分配其他人以完成每家公司中的工作，您可能发现为相同工作创建多个任务非常有用。 为每个公司创建一个任务。 
+<span data-ttu-id="c0553-172">可以将模板中的任务分配给适合该任务的一家或多家公司。</span><span class="sxs-lookup"><span data-stu-id="c0553-172">You can assign a task in the template to one or more companies where that task applies.</span></span> <span data-ttu-id="c0553-173">如果分配其他人以完成每家公司中的工作，您可能发现为相同工作创建多个任务非常有用。</span><span class="sxs-lookup"><span data-stu-id="c0553-173">If a different person is assigned to complete that work effort in each company, you might find it helpful to create multiple tasks for the same work effort.</span></span> <span data-ttu-id="c0553-174">为每个公司创建一个任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-174">Create one task for each company.</span></span> 
 
-**任务链接**菜单项与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，可将为应付帐款运行币种重估的结帐任务链接到 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中关联的**外币重估**页面。 您还可以链接到外部 URL。 
+<span data-ttu-id="c0553-175">**任务链接**菜单项与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。</span><span class="sxs-lookup"><span data-stu-id="c0553-175">The **Task link** menu item is associated with the task work effort and can be used to go directly to the associated page from the task link in the workspace.</span></span> <span data-ttu-id="c0553-176">例如，可将为应付帐款运行币种重估的结帐任务链接到 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中关联的**外币重估**页面。</span><span class="sxs-lookup"><span data-stu-id="c0553-176">For example, a closing task to run the currency revaluation process for Accounts payable can be linked to the associated **Foreign currency revaluation** page in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> <span data-ttu-id="c0553-177">您还可以链接到外部 URL。</span><span class="sxs-lookup"><span data-stu-id="c0553-177">You can also link to an external URL.</span></span> 
 
-> 提示：如果要链接特定的 Management Reporter 报表到财务期间结算任务，则可以使用报表 URL。 若要访问报表 URL，请打开报表设计器中的报表，然后单击**文件** &gt; **查看报表**以在 Web 浏览器中打开报表。 然后可以复制浏览器地址栏中的 URL 并将其粘贴到**任务链接** **URL** 字段中。 
+> <span data-ttu-id="c0553-178">提示：如果要链接特定的 Management Reporter 报表到财务期间结算任务，则可以使用报表 URL。</span><span class="sxs-lookup"><span data-stu-id="c0553-178">[!Hint] If you want to link a specific Management Reporter report to a financial period close task, you can use the report URL.</span></span> <span data-ttu-id="c0553-179">若要访问报表 URL，请打开报表设计器中的报表，然后单击**文件** &gt; **查看报表**以在 Web 浏览器中打开报表。</span><span class="sxs-lookup"><span data-stu-id="c0553-179">To access the report URL, open the report in the report designer, and then click **File** &gt; **View report** to open the report in a web browser.</span></span> <span data-ttu-id="c0553-180">然后可以复制浏览器地址栏中的 URL 并将其粘贴到**任务链接** **URL** 字段中。</span><span class="sxs-lookup"><span data-stu-id="c0553-180">You can then copy the URL in the browser's address bar and paste it into the **Task link** **URL** field.</span></span> 
 
-可以在模板中定义任务依赖项。 已设置为依赖于一个或多个任务的任务不能将该任务标记为完成，直到所有依赖项完成。 
+<span data-ttu-id="c0553-181">可以在模板中定义任务依赖项。</span><span class="sxs-lookup"><span data-stu-id="c0553-181">You can define task dependencies in the template.</span></span> <span data-ttu-id="c0553-182">已设置为依赖于一个或多个任务的任务不能将该任务标记为完成，直到所有依赖项完成。</span><span class="sxs-lookup"><span data-stu-id="c0553-182">If a task has been set up to depend on one or more tasks, that task can't be marked as completed until all the dependencies have been completed.</span></span> 
 
-您可以创建多个财务结帐模板。 然后可以使用不同模板跟踪不同期间类型的结算流程，例如月底或年末，或者跟踪使用不同结算流程的公司。 在某一模板创建后，可以将其复制到新模板并进行所需的更改。 只能将一个模板分配到每个结算计划。
+<span data-ttu-id="c0553-183">您可以创建多个财务结帐模板。</span><span class="sxs-lookup"><span data-stu-id="c0553-183">You can create multiple financial close templates.</span></span> <span data-ttu-id="c0553-184">然后可以使用不同模板跟踪不同期间类型的结算流程，例如月底或年末，或者跟踪使用不同结算流程的公司。</span><span class="sxs-lookup"><span data-stu-id="c0553-184">You can then use the various templates to track the closing processes for different period types, such as month end or year end, or to track companies that use different closing processes.</span></span> <span data-ttu-id="c0553-185">在某一模板创建后，可以将其复制到新模板并进行所需的更改。</span><span class="sxs-lookup"><span data-stu-id="c0553-185">After one template is created, you can copy it to a new template and make the required changes.</span></span> <span data-ttu-id="c0553-186">只能将一个模板分配到每个结算计划。</span><span class="sxs-lookup"><span data-stu-id="c0553-186">You can assign only one template to each closing schedule.</span></span>
 
-### <a name="closing-schedules"></a>结帐计划
+### <a name="closing-schedules"></a><span data-ttu-id="c0553-187">结帐计划</span><span class="sxs-lookup"><span data-stu-id="c0553-187">Closing schedules</span></span>
 
-您使用结算计划分配财务结算模板到必须关闭的特定财务期间。 模板中的任务然后将为指定期间自动生成，并且，新的结算计划将添加到该工作区。 当您创建新的结算计划时，**期间结束日期**字段用于基于在财务结算模板中分配的相对到期日期确定结算任务的实际到期日期。 
+<span data-ttu-id="c0553-188">您使用结算计划分配财务结算模板到必须关闭的特定财务期间。</span><span class="sxs-lookup"><span data-stu-id="c0553-188">You use a closing schedule to assign a financial close template to a specific financial period that must be closed.</span></span> <span data-ttu-id="c0553-189">模板中的任务然后将为指定期间自动生成，并且，新的结算计划将添加到该工作区。</span><span class="sxs-lookup"><span data-stu-id="c0553-189">The tasks from the template are then automatically generated for the specified period, and the new closing schedule is added to the workspace.</span></span> <span data-ttu-id="c0553-190">当您创建新的结算计划时，**期间结束日期**字段用于基于在财务结算模板中分配的相对到期日期确定结算任务的实际到期日期。</span><span class="sxs-lookup"><span data-stu-id="c0553-190">When you create a new closing schedule, the **Period end date** field is used to determine the actual due dates for the closing tasks, based on the relative due date that is assigned in the financial close template.</span></span> 
 
-为结算计划分配相应的日历，指示在任务计划中使用的工作日。 如果未定义特定日历，任务到期日期将使用一周的所有日期。 
+<span data-ttu-id="c0553-191">为结算计划分配相应的日历，指示在任务计划中使用的工作日。</span><span class="sxs-lookup"><span data-stu-id="c0553-191">Assign the calendar appropriate for the closing schedule, to indicate the working days to be used in task scheduling.</span></span> <span data-ttu-id="c0553-192">如果未定义特定日历，任务到期日期将使用一周的所有日期。</span><span class="sxs-lookup"><span data-stu-id="c0553-192">If you don't define a specific calendar, the task due dates will use all days of the week.</span></span> 
 
-您还必须定义要与结算计划关联的公司。 如果模板任务分配给多个公司，单独的任务将为结算计划中的每个公司创建并且分配给模板任务。 
+<span data-ttu-id="c0553-193">您还必须定义要与结算计划关联的公司。</span><span class="sxs-lookup"><span data-stu-id="c0553-193">You must also define the companies that will be associated with the closing schedule.</span></span> <span data-ttu-id="c0553-194">如果模板任务分配给多个公司，单独的任务将为结算计划中的每个公司创建并且分配给模板任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-194">If template tasks are assigned to multiple companies, separate tasks will be created for each company that is in the closing schedule and assigned to the template task.</span></span> 
 
-在结算计划完成后，为其选择**已关闭**选项。 任务历史记录将仍然在**所有财务期间结帐任务**列表页显示，但是结算计划将从工作区中删除。 在结算计划标记为**已关闭**后，您不能为其添加任务、编辑任务或从中删除任务。
+<span data-ttu-id="c0553-195">在结算计划完成后，为其选择**已关闭**选项。</span><span class="sxs-lookup"><span data-stu-id="c0553-195">After a closing schedule is completed, select the **Closed** option for it.</span></span> <span data-ttu-id="c0553-196">任务历史记录将仍然在**所有财务期间结帐任务**列表页显示，但是结算计划将从工作区中删除。</span><span class="sxs-lookup"><span data-stu-id="c0553-196">The task history will still be available from the **All financial period close tasks** list page, but the closing schedule will be removed from the workspace.</span></span> <span data-ttu-id="c0553-197">在结算计划标记为**已关闭**后，您不能为其添加任务、编辑任务或从中删除任务。</span><span class="sxs-lookup"><span data-stu-id="c0553-197">After a closing schedule has been marked as **Closed**, you won't be able to add tasks to it, edit tasks, or remove tasks from it.</span></span>
 
 
 

@@ -19,26 +19,26 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: c98cdb9c94a179577caecff7f57a99b91e4878a4
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 7be87496ceaea2d1d5f97a5cc17e50dcddbaf33d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="call-center-catalogs"></a>呼叫中心目录
+# <a name="call-center-catalogs"></a><span data-ttu-id="7a318-103">呼叫中心目录</span><span class="sxs-lookup"><span data-stu-id="7a318-103">Call center catalogs</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-本文介绍 Microsoft Dynamics 365 for Retail 中目录的呼叫中心特定功能。
+<span data-ttu-id="7a318-104">本文介绍 Microsoft Dynamics 365 for Retail 中目录的呼叫中心特定功能。</span><span class="sxs-lookup"><span data-stu-id="7a318-104">This article describes the call center–specific functionality for catalogs in Microsoft Dynamics 365 for Retail.</span></span>
 
-在呼叫中心，可以使用产品目录来标识您要为客户提供的产品。 呼叫中心常使用打印目录。 打印目录的设计和生产在 Dynamics 365 for Retail 外部处理。 但是，您可以使用您用来设置联机零售目录的同一页面创建和存储目录的数字窗体。 在您可以创建目录之前，必须设置产品分类和将此分类分配给呼叫中心。 然后，您可以通过从这些分类中选择产品，从而将产品添加到目录中。 在将产品添加到目录，并且目录就完成好之后，您必须验证该目录来对数据进行验证。 然后，必须提交目录以供复查和审核。 审核目录后，即可发布。 当创建呼叫中心目录时，您可以在发布该目录时，对该目录数据采用快照。 此快照功能允许您访问该目录的某一特定版本，即使以后对该目录做出更改和更新。 还可以对呼叫中心目录进行设置以包括以下可选功能：
+<span data-ttu-id="7a318-105">在呼叫中心，可以使用产品目录来标识您要为客户提供的产品。</span><span class="sxs-lookup"><span data-stu-id="7a318-105">In a call center, you can use product catalogs to identify the products that you want to offer to customers.</span></span> <span data-ttu-id="7a318-106">呼叫中心常使用打印目录。</span><span class="sxs-lookup"><span data-stu-id="7a318-106">Call centers typically use printed catalogs.</span></span> <span data-ttu-id="7a318-107">打印目录的设计和生产在 Dynamics 365 for Retail 外部处理。</span><span class="sxs-lookup"><span data-stu-id="7a318-107">The design and production of a printed catalog is handled outside Dynamics 365 for Retail.</span></span> <span data-ttu-id="7a318-108">但是，您可以使用您用来设置联机零售目录的同一页面创建和存储目录的数字窗体。</span><span class="sxs-lookup"><span data-stu-id="7a318-108">However, you can create and store a digital form of a catalog by using the same pages that you use to set up online retail catalogs.</span></span> <span data-ttu-id="7a318-109">在您可以创建目录之前，必须设置产品分类和将此分类分配给呼叫中心。</span><span class="sxs-lookup"><span data-stu-id="7a318-109">Before you can create a catalog, you must set up product assortments and assign the assortments to a call center.</span></span> <span data-ttu-id="7a318-110">然后，您可以通过从这些分类中选择产品，从而将产品添加到目录中。</span><span class="sxs-lookup"><span data-stu-id="7a318-110">You then add products to the catalog by selecting products from these assortments.</span></span> <span data-ttu-id="7a318-111">在将产品添加到目录，并且目录就完成好之后，您必须验证该目录来对数据进行验证。</span><span class="sxs-lookup"><span data-stu-id="7a318-111">After products have been added to the catalog, and the catalog is complete, you must validate the catalog to verify the data.</span></span> <span data-ttu-id="7a318-112">然后，必须提交目录以供复查和审核。</span><span class="sxs-lookup"><span data-stu-id="7a318-112">You must then submit the catalog for review and approval.</span></span> <span data-ttu-id="7a318-113">审核目录后，即可发布。</span><span class="sxs-lookup"><span data-stu-id="7a318-113">After the catalog is approved, it can be published.</span></span> <span data-ttu-id="7a318-114">当创建呼叫中心目录时，您可以在发布该目录时，对该目录数据采用快照。</span><span class="sxs-lookup"><span data-stu-id="7a318-114">When a call center catalog is created, you can take a snapshot of the catalog data at the time that the catalog is published.</span></span> <span data-ttu-id="7a318-115">此快照功能允许您访问该目录的某一特定版本，即使以后对该目录做出更改和更新。</span><span class="sxs-lookup"><span data-stu-id="7a318-115">This snapshot functionality lets you access a particular version of the catalog even if the catalog is later changed and updated.</span></span> <span data-ttu-id="7a318-116">还可以对呼叫中心目录进行设置以包括以下可选功能：</span><span class="sxs-lookup"><span data-stu-id="7a318-116">Call center catalogs can also be set up to include the following optional features:</span></span>
 
--   **源代码** - 用于跟踪客户对特定目录邮件的响应的源代码。
--   **免费产品** - 可在不另行收费的情况下包含在客户订单中的产品。 将目录的源代码输入订单后，这些产品将自动添加到某个订单。
--   **脚本** - 在创建销售订单时，呼叫中心工作人员向客户读取的脚本和文本。 脚本可以包括问候语或采购方案。
--   **页面布局** - 页面布局可捕获产品在打印目录中的页面位置。 此信息用于分析目录区域分析报表。
+-   <span data-ttu-id="7a318-117">**源代码** - 用于跟踪客户对特定目录邮件的响应的源代码。</span><span class="sxs-lookup"><span data-stu-id="7a318-117">**Source codes** – Source codes are used to track the customer response to specific catalog mailings.</span></span>
+-   <span data-ttu-id="7a318-118">**免费产品** - 可在不另行收费的情况下包含在客户订单中的产品。</span><span class="sxs-lookup"><span data-stu-id="7a318-118">**Free products** – Products can be included in a customer's order at no additional charge.</span></span> <span data-ttu-id="7a318-119">将目录的源代码输入订单后，这些产品将自动添加到某个订单。</span><span class="sxs-lookup"><span data-stu-id="7a318-119">These products are automatically added to an order when the source code for the catalog is entered into the order.</span></span>
+-   <span data-ttu-id="7a318-120">**脚本** - 在创建销售订单时，呼叫中心工作人员向客户读取的脚本和文本。</span><span class="sxs-lookup"><span data-stu-id="7a318-120">**Scripts** – Scripts are texts that a call center worker reads to a customer when a sales order is being created.</span></span> <span data-ttu-id="7a318-121">脚本可以包括问候语或采购方案。</span><span class="sxs-lookup"><span data-stu-id="7a318-121">Scripts can include greetings or purchase suggestions.</span></span>
+-   <span data-ttu-id="7a318-122">**页面布局** - 页面布局可捕获产品在打印目录中的页面位置。</span><span class="sxs-lookup"><span data-stu-id="7a318-122">**Page layout** – A page layout captures the page position of products in the printed catalog.</span></span> <span data-ttu-id="7a318-123">此信息用于分析目录区域分析报表。</span><span class="sxs-lookup"><span data-stu-id="7a318-123">This information is used for the catalog area analysis report.</span></span>
 
 
 

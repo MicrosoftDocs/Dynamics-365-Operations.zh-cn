@@ -15,24 +15,24 @@ ms.custom: 15001
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: b9a9c99db03620268ad806ae362b3654c16a6e53
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 0b7129b56db34e56a7c6171d21e82bb18e405b3f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="expense-management"></a>费用报销管理
+# <a name="expense-management"></a><span data-ttu-id="685aa-102">费用报销管理</span><span class="sxs-lookup"><span data-stu-id="685aa-102">Expense management</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
 
 
-[计划支出管理](plan-expense-management.md) 稍后将添加更多信息；请尽快返回查看。
+<span data-ttu-id="685aa-103">[计划支出管理](plan-expense-management.md) 稍后将添加更多信息；请尽快返回查看。</span><span class="sxs-lookup"><span data-stu-id="685aa-103">[Planning expense management](plan-expense-management.md) More information will be added later; check back soon.</span></span>
 
 
 

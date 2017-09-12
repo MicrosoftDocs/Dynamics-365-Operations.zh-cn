@@ -1,7 +1,7 @@
 ---
 title: "检验单"
 description: "本文介绍检验单如何用于锁定库存。"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,66 +10,63 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
 ms.author: perlynne
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: ec3d54e8e08850cd81891e7058b2b787e08b0fb9
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 17dde4a4e3380beb98eeb71c719fb898b40a94f7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="quarantine-orders"></a>检验单
+# <a name="quarantine-orders"></a><span data-ttu-id="61d58-103">检验单</span><span class="sxs-lookup"><span data-stu-id="61d58-103">Quarantine orders</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍检验单如何用于锁定库存。 
+<span data-ttu-id="61d58-104">本文介绍检验单如何用于锁定库存。</span><span class="sxs-lookup"><span data-stu-id="61d58-104">This article describes how quarantine orders are used to block inventory.</span></span>
 
-检验单可用于锁定库存。 例如，您可能要检验质量控制原因的物料。 将把已检验的库存转移到检验仓库。 **注意：**如果您使用高级仓库管理流程（在仓库管理中），仅为退货销售订单使用检验单。
+<span data-ttu-id="61d58-105">检验单可用于锁定库存。</span><span class="sxs-lookup"><span data-stu-id="61d58-105">Quarantine orders can be used to block inventory.</span></span> <span data-ttu-id="61d58-106">例如，您可能要检验质量控制原因的物料。</span><span class="sxs-lookup"><span data-stu-id="61d58-106">For example, you might want to quarantine items for quality control reasons.</span></span> <span data-ttu-id="61d58-107">将把已检验的库存转移到检验仓库。</span><span class="sxs-lookup"><span data-stu-id="61d58-107">Inventory that has been quarantined is transferred to a quarantine warehouse.</span></span> <span data-ttu-id="61d58-108">**注意：**如果您使用高级仓库管理流程（在仓库管理中），仅为退货销售订单使用检验单。</span><span class="sxs-lookup"><span data-stu-id="61d58-108">**Note:** If you're using advanced warehouse management processes (in Warehouse management), quarantine order processing is used only for return sales orders.</span></span>
 
-## <a name="quarantine-onhand-inventory-items"></a>检验现有库存物料
-在检验物料时，您可以手动创建检验单或设置该系统以在收货处理期间自动创建检验单。 若要自动创建检验单，请在**物料模型组**页的**库存策略**选项卡上选择**检验管理**选项。 您还必须在**检验仓库**字段中为接收仓库指定默认检验仓库。 当实际现有库存量在采购订单或生产订单中记录时，检验物料会自动移至 Microsoft Dynamics 365 for Finance and Operations 中的检验仓库中。 因为检验单的状态改为**已开始**，所以发生此移动。 当您手动创建检验单时，则不必需在相关的物料模型组中为检验管理设置物料。 对于此流程，必须指定应检验的现有库存量和应使用的检验仓库。 您可以使用检验单状态来帮助计划流程。
+## <a name="quarantine-onhand-inventory-items"></a><span data-ttu-id="61d58-109">检验现有库存物料</span><span class="sxs-lookup"><span data-stu-id="61d58-109">Quarantine onhand inventory items</span></span>
+<span data-ttu-id="61d58-110">在检验物料时，您可以手动创建检验单或设置该系统以在收货处理期间自动创建检验单。</span><span class="sxs-lookup"><span data-stu-id="61d58-110">When you quarantine items, you can either create the quarantine orders manually or set up the system to create the quarantine orders automatically during inbound processing.</span></span> <span data-ttu-id="61d58-111">若要自动创建检验单，请在**物料模型组**页的**库存策略**选项卡上选择**检验管理**选项。</span><span class="sxs-lookup"><span data-stu-id="61d58-111">To create quarantine orders automatically, select the **Quarantine management** option on the **Inventory policies** tab on the **Item model groups** page.</span></span> <span data-ttu-id="61d58-112">您还必须在**检验仓库**字段中为接收仓库指定默认检验仓库。</span><span class="sxs-lookup"><span data-stu-id="61d58-112">You must also specify a default quarantine warehouse in the **Quarantine warehouse** field for the receiving warehouses.</span></span> <span data-ttu-id="61d58-113">当实际现有库存量在采购订单或生产订单中记录时，检验物料会自动移至 Microsoft Dynamics 365 for Finance and Operations 中的检验仓库中。</span><span class="sxs-lookup"><span data-stu-id="61d58-113">When the physically on-hand inventory is recorded in a purchase order or production order, quarantined items are automatically moved to a quarantine warehouse in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="61d58-114">因为检验单的状态改为**已开始**，所以发生此移动。</span><span class="sxs-lookup"><span data-stu-id="61d58-114">This movement occurs because the status of the quarantine order is changed to **Started**.</span></span> <span data-ttu-id="61d58-115">当您手动创建检验单时，则不必需在相关的物料模型组中为检验管理设置物料。</span><span class="sxs-lookup"><span data-stu-id="61d58-115">When you create quarantine orders manually, the item doesn't have to be set up for quarantine management in the associated item model group.</span></span> <span data-ttu-id="61d58-116">对于此流程，必须指定应检验的现有库存量和应使用的检验仓库。</span><span class="sxs-lookup"><span data-stu-id="61d58-116">For this process, you must specify the on-hand inventory that should be quarantined and the quarantine warehouse that should be used.</span></span> <span data-ttu-id="61d58-117">您可以使用检验单状态来帮助计划流程。</span><span class="sxs-lookup"><span data-stu-id="61d58-117">You can use the quarantine order statuses to help plan the process.</span></span>
 
-## <a name="quarantine-order-statuses"></a>检验单状态
-检验单可以有下列状态：
+## <a name="quarantine-order-statuses"></a><span data-ttu-id="61d58-118">检验单状态</span><span class="sxs-lookup"><span data-stu-id="61d58-118">Quarantine order statuses</span></span>
+<span data-ttu-id="61d58-119">检验单可以有下列状态：</span><span class="sxs-lookup"><span data-stu-id="61d58-119">Quarantine orders can have the following statuses:</span></span>
 
--   已创建
--   已开始
--   完工入库
--   已结束
+-   <span data-ttu-id="61d58-120">已创建</span><span class="sxs-lookup"><span data-stu-id="61d58-120">Created</span></span>
+-   <span data-ttu-id="61d58-121">已开始</span><span class="sxs-lookup"><span data-stu-id="61d58-121">Started</span></span>
+-   <span data-ttu-id="61d58-122">完工入库</span><span class="sxs-lookup"><span data-stu-id="61d58-122">Reported as finished</span></span>
+-   <span data-ttu-id="61d58-123">已结束</span><span class="sxs-lookup"><span data-stu-id="61d58-123">Ended</span></span>
 
-### <a name="created"></a>创建时间
+### <a name="created"></a><span data-ttu-id="61d58-124">创建时间</span><span class="sxs-lookup"><span data-stu-id="61d58-124">Created</span></span>
 
-如果检验单已手动创建，但物料不在检验仓库中，则检验单具有**已创建**状态。 生成两个库存交易记录。 一个交易记录是可具有**在单**、**实际预留**或**已领料**状态的发货交易记录。 另一个交易记录是可在检验仓库中具有**已订购**或**已登记**状态的收货交易记录。 可使用一般流程预留、领取和登记库存更新。
+<span data-ttu-id="61d58-125">如果检验单已手动创建，但物料不在检验仓库中，则检验单具有**已创建**状态。</span><span class="sxs-lookup"><span data-stu-id="61d58-125">When a quarantine order has been created manually, but the item isn't yet in the quarantine warehouse, the quarantine order has a status of **Created**.</span></span> <span data-ttu-id="61d58-126">生成两个库存交易记录。</span><span class="sxs-lookup"><span data-stu-id="61d58-126">Two inventory transactions are generated.</span></span> <span data-ttu-id="61d58-127">一个交易记录是可具有**在单**、**实际预留**或**已领料**状态的发货交易记录。</span><span class="sxs-lookup"><span data-stu-id="61d58-127">One transaction is an issue transaction that can have a status of **On order**, **Reserved physical**, or **Picked**.</span></span> <span data-ttu-id="61d58-128">另一个交易记录是可在检验仓库中具有**已订购**或**已登记**状态的收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="61d58-128">The other transaction is a receipt transaction that can have a status of **Ordered** or **Registered** at the quarantine warehouse.</span></span> <span data-ttu-id="61d58-129">可使用一般流程预留、领取和登记库存更新。</span><span class="sxs-lookup"><span data-stu-id="61d58-129">You can reserve, pick, and register updates to the inventory by using the usual processes.</span></span>
 
-### <a name="started"></a>已开始
+### <a name="started"></a><span data-ttu-id="61d58-130">已开始</span><span class="sxs-lookup"><span data-stu-id="61d58-130">Started</span></span>
 
-当检验单已具有**已开始**状态时，库存将从常规仓库转移到检验仓库，并且会生成两个库存交易记录。 一个交易记录具有**“已扣除”**状态，另一个交易记录具有**“已接收”**状态。 同时，创建两个库存交易记录以处理退货转移。 这些交易记录未到期。 一个交易记录具有**“实际预留”**状态，另一个交易记录具有**“已订购”**状态。
+<span data-ttu-id="61d58-131">当检验单已具有**已开始**状态时，库存将从常规仓库转移到检验仓库，并且会生成两个库存交易记录。</span><span class="sxs-lookup"><span data-stu-id="61d58-131">When a quarantine order has a status of **Started**, the inventory is transferred from the regular warehouse to the quarantine warehouse, and two inventory transactions are generated.</span></span> <span data-ttu-id="61d58-132">一个交易记录具有**“已扣除”**状态，另一个交易记录具有**“已接收”**状态。</span><span class="sxs-lookup"><span data-stu-id="61d58-132">One transaction has a status of **Deducted**, and the other transaction has a status of **Received**.</span></span> <span data-ttu-id="61d58-133">同时，创建两个库存交易记录以处理退货转移。</span><span class="sxs-lookup"><span data-stu-id="61d58-133">At the same time, two inventory transactions are created to handle the return transfer.</span></span> <span data-ttu-id="61d58-134">这些交易记录未到期。</span><span class="sxs-lookup"><span data-stu-id="61d58-134">These transactions aren't dated.</span></span> <span data-ttu-id="61d58-135">一个交易记录具有**“实际预留”**状态，另一个交易记录具有**“已订购”**状态。</span><span class="sxs-lookup"><span data-stu-id="61d58-135">One transaction has a status of **Reserved physical**, and the other transaction has a status of **Ordered**.</span></span>
 
-### <a name="reported-as-finished"></a>完工入库
+### <a name="reported-as-finished"></a><span data-ttu-id="61d58-136">完工入库</span><span class="sxs-lookup"><span data-stu-id="61d58-136">Reported as finished</span></span>
 
-通过单击**“完工入库”**，您可以将已开始的检验单报告为完工入库。 物料从检验仓库中取出，但尚未移回常规仓库。 移回常规仓库可以通过可在完工入库流程中初始化的物料到达日记帐进行处理。
+<span data-ttu-id="61d58-137">通过单击**“完工入库”**，您可以将已开始的检验单报告为完工入库。</span><span class="sxs-lookup"><span data-stu-id="61d58-137">By clicking **Report as finished**, you can report a started quarantine order as finished.</span></span> <span data-ttu-id="61d58-138">物料从检验仓库中取出，但尚未移回常规仓库。</span><span class="sxs-lookup"><span data-stu-id="61d58-138">The item is released from quarantine but isn't yet moved back to the regular warehouse.</span></span> <span data-ttu-id="61d58-139">移回常规仓库可以通过可在完工入库流程中初始化的物料到达日记帐进行处理。</span><span class="sxs-lookup"><span data-stu-id="61d58-139">The movement back to the regular warehouse can be procesed via an Item arrival journal that can be initialized during the Report as finished process.</span></span>
 
-### <a name="ended"></a>已结束
+### <a name="ended"></a><span data-ttu-id="61d58-140">已结束</span><span class="sxs-lookup"><span data-stu-id="61d58-140">Ended</span></span>
 
-当检验单结束后，物料将从检验仓库移回常规仓库。 物料交易记录的状态在检验仓库中设置为**“已售出”**，在常规仓库中设置为**“已采购”**。
+<span data-ttu-id="61d58-141">当检验单结束后，物料将从检验仓库移回常规仓库。</span><span class="sxs-lookup"><span data-stu-id="61d58-141">When a quarantine order is ended, the item is moved from the quarantine warehouse back to the regular warehouse.</span></span> <span data-ttu-id="61d58-142">物料交易记录的状态在检验仓库中设置为**“已售出”**，在常规仓库中设置为**“已采购”**。</span><span class="sxs-lookup"><span data-stu-id="61d58-142">The status of the item transaction is set to **Sold** at the quarantine warehouse and **Purchased** at the regular warehouse.</span></span>
 
-## <a name="quarantine-order-scrap"></a>检验单报废
-作为检验单流程的一部分，可以报废库存。 当处理报废时，库存状态将按检验仓库中的发货交易记录设置为**售出**。
+## <a name="quarantine-order-scrap"></a><span data-ttu-id="61d58-143">检验单报废</span><span class="sxs-lookup"><span data-stu-id="61d58-143">Quarantine order scrap</span></span>
+<span data-ttu-id="61d58-144">作为检验单流程的一部分，可以报废库存。</span><span class="sxs-lookup"><span data-stu-id="61d58-144">As part of the quarantine order process, you can scrap inventory.</span></span> <span data-ttu-id="61d58-145">当处理报废时，库存状态将按检验仓库中的发货交易记录设置为**售出**。</span><span class="sxs-lookup"><span data-stu-id="61d58-145">When you process scrap, the status of the inventory will be set to **Sold** by an issue transaction from the quarantine warehouse.</span></span>
 
-<a name="see-also"></a>请参阅
+<a name="see-also"></a><span data-ttu-id="61d58-146">请参阅</span><span class="sxs-lookup"><span data-stu-id="61d58-146">See also</span></span>
 --------
 
-[库存锁定](inventory-blocking.md)
-
-
-
+[<span data-ttu-id="61d58-147">库存锁定</span><span class="sxs-lookup"><span data-stu-id="61d58-147">Inventory blocking</span></span>](inventory-blocking.md)
 

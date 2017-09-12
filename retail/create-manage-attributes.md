@@ -19,82 +19,82 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 4493c2f9e9e9dfe990f3b1670d3cd35e3bbaa38d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a1a254827051bf37f7b87d1db4ccf09ac47cbbfb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="create-and-manage-attributes"></a>创建和管理属性
+# <a name="create-and-manage-attributes"></a><span data-ttu-id="23fac-104">创建和管理属性</span><span class="sxs-lookup"><span data-stu-id="23fac-104">Create and manage attributes</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-本文介绍 Microsoft Dynamics 365 for Retail 中的属性。 属性可让您通过用户定义字段描述产品及其特征。
+<span data-ttu-id="23fac-105">本文介绍 Microsoft Dynamics 365 for Retail 中的属性。</span><span class="sxs-lookup"><span data-stu-id="23fac-105">This article describes attributes in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="23fac-106">属性可让您通过用户定义字段描述产品及其特征。</span><span class="sxs-lookup"><span data-stu-id="23fac-106">Attributes let you describe a product and its characteristics through user-defined fields.</span></span>
 
-属性可让您通过用户定义字段描述产品及其特征。 例如，您可以指定产品的内存大小硬盘容量，并指示产品是否符合能源之星计划。 可以将属性与各种零售实体（如产品类别和零售通道）关联，并且可以为属性设置默认值。 当产品与产品类别或销售渠道关联时，产品将继承其属性以及这些属性的默认值。 默认值可在单个产品的级别、在零售渠道级别或在零售目录中覆盖。
+<span data-ttu-id="23fac-107">属性可让您通过用户定义字段描述产品及其特征。</span><span class="sxs-lookup"><span data-stu-id="23fac-107">Attributes let you describe a product and its characteristics through user-defined fields.</span></span> <span data-ttu-id="23fac-108">例如，您可以指定产品的内存大小硬盘容量，并指示产品是否符合能源之星计划。</span><span class="sxs-lookup"><span data-stu-id="23fac-108">For example, you can specify the product's memory size and hard disk capacity, and indicate whether the product is Energy star–compliant.</span></span> <span data-ttu-id="23fac-109">可以将属性与各种零售实体（如产品类别和零售通道）关联，并且可以为属性设置默认值。</span><span class="sxs-lookup"><span data-stu-id="23fac-109">Attributes can be associated with various retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="23fac-110">当产品与产品类别或销售渠道关联时，产品将继承其属性以及这些属性的默认值。</span><span class="sxs-lookup"><span data-stu-id="23fac-110">Products inherit their attributes and the default values for those attributes when they are associated with product categories or retail channels.</span></span> <span data-ttu-id="23fac-111">默认值可在单个产品的级别、在零售渠道级别或在零售目录中覆盖。</span><span class="sxs-lookup"><span data-stu-id="23fac-111">The default values can be overridden at the level of the individual product, at the retail channel level, or in a retail catalog.</span></span>
 
-#### <a name="examples"></a>示例
+#### <a name="examples"></a><span data-ttu-id="23fac-112">示例</span><span class="sxs-lookup"><span data-stu-id="23fac-112">Examples</span></span>
 
-| 类别   | 属性                | 允许的值          | 默认值 |
+| <span data-ttu-id="23fac-113">类别</span><span class="sxs-lookup"><span data-stu-id="23fac-113">Category</span></span>   | <span data-ttu-id="23fac-114">属性</span><span class="sxs-lookup"><span data-stu-id="23fac-114">Attribute</span></span>                | <span data-ttu-id="23fac-115">允许的值</span><span class="sxs-lookup"><span data-stu-id="23fac-115">Permissible values</span></span>          | <span data-ttu-id="23fac-116">默认值</span><span class="sxs-lookup"><span data-stu-id="23fac-116">Default value</span></span> |
 |------------|--------------------------|-----------------------------|---------------|
-| 电视和视频 | 品牌                    | 任何有效的品牌值       | 无          |
-| 电视         | 屏幕尺寸              | 20″–80″                     | 无          |
-| 电视         | 垂直行业解决方案      | 480i、720p、1080i 或 1080p | 1080p         |
-| 电视         | 屏幕刷新率      | 60hz、120hz 或 240hz       | 60hz          |
-| 电视         | HDMI 输入              | 0–10                        | 3             |
-| 电视         | DVI 输入               | 0–10                        | 1             |
-| 电视         | 复合输入         | 0–10                        | 2             |
-| 电视         | 组件输入         | 0–10                        | 1             |
-| LCD        | 3D 已就绪                 | 是或否                   | 是           |
-| LCD        | 3D 已启用               | 是或否                   | 无            |
-| 等离子     | 最低工作温度      | 32–110 度              | 32            |
-| 等离子     | 最高工作温度        | 32–110 度              | 100           |
-| 投影 | 投影管保修 | 6、12 或 18 个月         | 12            |
-| 投影 | 投影管数    | 1–5                         | 3             |
+| <span data-ttu-id="23fac-117">电视和视频</span><span class="sxs-lookup"><span data-stu-id="23fac-117">TV & Video</span></span> | <span data-ttu-id="23fac-118">品牌</span><span class="sxs-lookup"><span data-stu-id="23fac-118">Brand</span></span>                    | <span data-ttu-id="23fac-119">任何有效的品牌值</span><span class="sxs-lookup"><span data-stu-id="23fac-119">Any valid Brand value</span></span>       | <span data-ttu-id="23fac-120">无</span><span class="sxs-lookup"><span data-stu-id="23fac-120">None</span></span>          |
+| <span data-ttu-id="23fac-121">电视</span><span class="sxs-lookup"><span data-stu-id="23fac-121">TV</span></span>         | <span data-ttu-id="23fac-122">屏幕尺寸</span><span class="sxs-lookup"><span data-stu-id="23fac-122">Screen Size</span></span>              | <span data-ttu-id="23fac-123">20″–80″</span><span class="sxs-lookup"><span data-stu-id="23fac-123">20″–80″</span></span>                     | <span data-ttu-id="23fac-124">无</span><span class="sxs-lookup"><span data-stu-id="23fac-124">None</span></span>          |
+| <span data-ttu-id="23fac-125">电视</span><span class="sxs-lookup"><span data-stu-id="23fac-125">TV</span></span>         | <span data-ttu-id="23fac-126">垂直行业解决方案</span><span class="sxs-lookup"><span data-stu-id="23fac-126">Vertical Resolution</span></span>      | <span data-ttu-id="23fac-127">480i、720p、1080i 或 1080p</span><span class="sxs-lookup"><span data-stu-id="23fac-127">480i, 720p, 1080i, or 1080p</span></span> | <span data-ttu-id="23fac-128">1080p</span><span class="sxs-lookup"><span data-stu-id="23fac-128">1080p</span></span>         |
+| <span data-ttu-id="23fac-129">电视</span><span class="sxs-lookup"><span data-stu-id="23fac-129">TV</span></span>         | <span data-ttu-id="23fac-130">屏幕刷新率</span><span class="sxs-lookup"><span data-stu-id="23fac-130">Screen Refresh Rate</span></span>      | <span data-ttu-id="23fac-131">60hz、120hz 或 240hz</span><span class="sxs-lookup"><span data-stu-id="23fac-131">60hz, 120hz, or 240hz</span></span>       | <span data-ttu-id="23fac-132">60hz</span><span class="sxs-lookup"><span data-stu-id="23fac-132">60hz</span></span>          |
+| <span data-ttu-id="23fac-133">电视</span><span class="sxs-lookup"><span data-stu-id="23fac-133">TV</span></span>         | <span data-ttu-id="23fac-134">HDMI 输入</span><span class="sxs-lookup"><span data-stu-id="23fac-134">HDMI Inputs</span></span>              | <span data-ttu-id="23fac-135">0–10</span><span class="sxs-lookup"><span data-stu-id="23fac-135">0–10</span></span>                        | <span data-ttu-id="23fac-136">3</span><span class="sxs-lookup"><span data-stu-id="23fac-136">3</span></span>             |
+| <span data-ttu-id="23fac-137">电视</span><span class="sxs-lookup"><span data-stu-id="23fac-137">TV</span></span>         | <span data-ttu-id="23fac-138">DVI 输入</span><span class="sxs-lookup"><span data-stu-id="23fac-138">DVI Inputs</span></span>               | <span data-ttu-id="23fac-139">0–10</span><span class="sxs-lookup"><span data-stu-id="23fac-139">0–10</span></span>                        | <span data-ttu-id="23fac-140">1</span><span class="sxs-lookup"><span data-stu-id="23fac-140">1</span></span>             |
+| <span data-ttu-id="23fac-141">电视</span><span class="sxs-lookup"><span data-stu-id="23fac-141">TV</span></span>         | <span data-ttu-id="23fac-142">复合输入</span><span class="sxs-lookup"><span data-stu-id="23fac-142">Composite Inputs</span></span>         | <span data-ttu-id="23fac-143">0–10</span><span class="sxs-lookup"><span data-stu-id="23fac-143">0–10</span></span>                        | <span data-ttu-id="23fac-144">2</span><span class="sxs-lookup"><span data-stu-id="23fac-144">2</span></span>             |
+| <span data-ttu-id="23fac-145">电视</span><span class="sxs-lookup"><span data-stu-id="23fac-145">TV</span></span>         | <span data-ttu-id="23fac-146">组件输入</span><span class="sxs-lookup"><span data-stu-id="23fac-146">Component Inputs</span></span>         | <span data-ttu-id="23fac-147">0–10</span><span class="sxs-lookup"><span data-stu-id="23fac-147">0–10</span></span>                        | <span data-ttu-id="23fac-148">1</span><span class="sxs-lookup"><span data-stu-id="23fac-148">1</span></span>             |
+| <span data-ttu-id="23fac-149">LCD</span><span class="sxs-lookup"><span data-stu-id="23fac-149">LCD</span></span>        | <span data-ttu-id="23fac-150">3D 已就绪</span><span class="sxs-lookup"><span data-stu-id="23fac-150">3D Ready</span></span>                 | <span data-ttu-id="23fac-151">是或否</span><span class="sxs-lookup"><span data-stu-id="23fac-151">Yes or No</span></span>                   | <span data-ttu-id="23fac-152">是</span><span class="sxs-lookup"><span data-stu-id="23fac-152">Yes</span></span>           |
+| <span data-ttu-id="23fac-153">LCD</span><span class="sxs-lookup"><span data-stu-id="23fac-153">LCD</span></span>        | <span data-ttu-id="23fac-154">3D 已启用</span><span class="sxs-lookup"><span data-stu-id="23fac-154">3D Enabled</span></span>               | <span data-ttu-id="23fac-155">是或否</span><span class="sxs-lookup"><span data-stu-id="23fac-155">Yes or No</span></span>                   | <span data-ttu-id="23fac-156">无</span><span class="sxs-lookup"><span data-stu-id="23fac-156">No</span></span>            |
+| <span data-ttu-id="23fac-157">等离子</span><span class="sxs-lookup"><span data-stu-id="23fac-157">Plasma</span></span>     | <span data-ttu-id="23fac-158">最低工作温度</span><span class="sxs-lookup"><span data-stu-id="23fac-158">Operating Temp From</span></span>      | <span data-ttu-id="23fac-159">32–110 度</span><span class="sxs-lookup"><span data-stu-id="23fac-159">32–110 degrees</span></span>              | <span data-ttu-id="23fac-160">32</span><span class="sxs-lookup"><span data-stu-id="23fac-160">32</span></span>            |
+| <span data-ttu-id="23fac-161">等离子</span><span class="sxs-lookup"><span data-stu-id="23fac-161">Plasma</span></span>     | <span data-ttu-id="23fac-162">最高工作温度</span><span class="sxs-lookup"><span data-stu-id="23fac-162">Operating Temp To</span></span>        | <span data-ttu-id="23fac-163">32–110 度</span><span class="sxs-lookup"><span data-stu-id="23fac-163">32–110 degrees</span></span>              | <span data-ttu-id="23fac-164">100</span><span class="sxs-lookup"><span data-stu-id="23fac-164">100</span></span>           |
+| <span data-ttu-id="23fac-165">投影</span><span class="sxs-lookup"><span data-stu-id="23fac-165">Projection</span></span> | <span data-ttu-id="23fac-166">投影管保修</span><span class="sxs-lookup"><span data-stu-id="23fac-166">Projection Tube Warranty</span></span> | <span data-ttu-id="23fac-167">6、12 或 18 个月</span><span class="sxs-lookup"><span data-stu-id="23fac-167">6, 12, or 18 months</span></span>         | <span data-ttu-id="23fac-168">12</span><span class="sxs-lookup"><span data-stu-id="23fac-168">12</span></span>            |
+| <span data-ttu-id="23fac-169">投影</span><span class="sxs-lookup"><span data-stu-id="23fac-169">Projection</span></span> | <span data-ttu-id="23fac-170">投影管数</span><span class="sxs-lookup"><span data-stu-id="23fac-170"># of Projection Tubes</span></span>    | <span data-ttu-id="23fac-171">1–5</span><span class="sxs-lookup"><span data-stu-id="23fac-171">1–5</span></span>                         | <span data-ttu-id="23fac-172">3</span><span class="sxs-lookup"><span data-stu-id="23fac-172">3</span></span>             |
 
 
-## <a name="attribute-type"></a>属性类型
-  [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
+## <a name="attribute-type"></a><span data-ttu-id="23fac-173">属性类型</span><span class="sxs-lookup"><span data-stu-id="23fac-173">Attribute type</span></span>
+  <span data-ttu-id="23fac-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span><span class="sxs-lookup"><span data-stu-id="23fac-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span></span> 
   
-属性基于属性类型。 属性类型用于确定可为特定属性输入的数据的类型。 当前，Microsoft Dynamics 365 for Retail 支持以下属性类型：
+<span data-ttu-id="23fac-175">属性基于属性类型。</span><span class="sxs-lookup"><span data-stu-id="23fac-175">Attributes are based on attribute types.</span></span> <span data-ttu-id="23fac-176">属性类型用于确定可为特定属性输入的数据的类型。</span><span class="sxs-lookup"><span data-stu-id="23fac-176">Attribute types identify the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="23fac-177">当前，Microsoft Dynamics 365 for Retail 支持以下属性类型：</span><span class="sxs-lookup"><span data-stu-id="23fac-177">Currently, Microsoft Dynamics 365 for Retail supports the following attribute types:</span></span>
 
--   **货币** - 此属性类型支持货币值。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。
--   **日期时间** - 此属性类型支持日期和时间值。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。
--   **小数** - 此属性类型支持包括小数位的数字值。 它还支持度量单位。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。
--   **整数** - 此属性类型支持数字值。 它还支持度量单位。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。
--   **文本** - 此属性类型支持文本值。 它还支持预定义的一组可能值（枚举）。
--   **布尔** - 此属性类型支持二进制值 (**true**/**false**)。
--   **引用**。
+-   <span data-ttu-id="23fac-178">**货币** - 此属性类型支持货币值。</span><span class="sxs-lookup"><span data-stu-id="23fac-178">**Currency** – This attribute type supports currency values.</span></span> <span data-ttu-id="23fac-179">它可以受约束（即，它可以支持某个值范围），也可以保持开放。</span><span class="sxs-lookup"><span data-stu-id="23fac-179">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>
+-   <span data-ttu-id="23fac-180">**日期时间** - 此属性类型支持日期和时间值。</span><span class="sxs-lookup"><span data-stu-id="23fac-180">**DateTime** – This attribute type supports date and time values.</span></span> <span data-ttu-id="23fac-181">它可以受约束（即，它可以支持某个值范围），也可以保持开放。</span><span class="sxs-lookup"><span data-stu-id="23fac-181">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>
+-   <span data-ttu-id="23fac-182">**小数** - 此属性类型支持包括小数位的数字值。</span><span class="sxs-lookup"><span data-stu-id="23fac-182">**Decimal** – This attribute type supports numerical values that include decimal places.</span></span> <span data-ttu-id="23fac-183">它还支持度量单位。</span><span class="sxs-lookup"><span data-stu-id="23fac-183">It also supports units of measure.</span></span> <span data-ttu-id="23fac-184">它可以受约束（即，它可以支持某个值范围），也可以保持开放。</span><span class="sxs-lookup"><span data-stu-id="23fac-184">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>
+-   <span data-ttu-id="23fac-185">**整数** - 此属性类型支持数字值。</span><span class="sxs-lookup"><span data-stu-id="23fac-185">**Integer** – This attribute type supports numerical values.</span></span> <span data-ttu-id="23fac-186">它还支持度量单位。</span><span class="sxs-lookup"><span data-stu-id="23fac-186">It also supports units of measure.</span></span> <span data-ttu-id="23fac-187">它可以受约束（即，它可以支持某个值范围），也可以保持开放。</span><span class="sxs-lookup"><span data-stu-id="23fac-187">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>
+-   <span data-ttu-id="23fac-188">**文本** - 此属性类型支持文本值。</span><span class="sxs-lookup"><span data-stu-id="23fac-188">**Text** – This attribute type supports text values.</span></span> <span data-ttu-id="23fac-189">它还支持预定义的一组可能值（枚举）。</span><span class="sxs-lookup"><span data-stu-id="23fac-189">It also supports a predefined set of possible values (enumeration).</span></span>
+-   <span data-ttu-id="23fac-190">**布尔** - 此属性类型支持二进制值 (**true**/**false**)。</span><span class="sxs-lookup"><span data-stu-id="23fac-190">**Boolean** – This attribute type supports binary values (**true**/**false**).</span></span>
+-   <span data-ttu-id="23fac-191">**引用**。</span><span class="sxs-lookup"><span data-stu-id="23fac-191">**Reference**.</span></span>
 
-## <a name="attribute"></a>属性
-  [![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) 除了名称、友好名称、描述和帮助文本外，还可为属性捕获一条或多条以下类型的信息：
+## <a name="attribute"></a><span data-ttu-id="23fac-192">属性</span><span class="sxs-lookup"><span data-stu-id="23fac-192">Attribute</span></span>
+  <span data-ttu-id="23fac-193">[![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) 除了名称、友好名称、描述和帮助文本外，还可为属性捕获一条或多条以下类型的信息：</span><span class="sxs-lookup"><span data-stu-id="23fac-193">[![createandmanageattribute-8](./media/createandmanageattribute-8.png)](./media/createandmanageattribute-8.png) In addition to the name, friendly name, description, and Help text, one or more of the following types of information can be captured for an attribute:</span></span>
 
--   默认值
--   属性元数据（如指示是否可对属性进行搜索、细化或排序的元数据）
+-   <span data-ttu-id="23fac-194">默认值</span><span class="sxs-lookup"><span data-stu-id="23fac-194">Default value</span></span>
+-   <span data-ttu-id="23fac-195">属性元数据（如指示是否可对属性进行搜索、细化或排序的元数据）</span><span class="sxs-lookup"><span data-stu-id="23fac-195">Attribute metadata, such as metadata that indicates whether the attribute can be searched, refined, or sorted</span></span>
 
-## <a name="attribute-group"></a>属性组
-  [![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) 在定义属性后，可将其分组到属性组中。 属性组提供了各个属性的分组，并可以分配到零售类别或零售渠道。
+## <a name="attribute-group"></a><span data-ttu-id="23fac-196">属性组</span><span class="sxs-lookup"><span data-stu-id="23fac-196">Attribute group</span></span>
+  <span data-ttu-id="23fac-197">[![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) 在定义属性后，可将其分组到属性组中。</span><span class="sxs-lookup"><span data-stu-id="23fac-197">[![createandmanageattribute-10](./media/createandmanageattribute-10.png)](./media/createandmanageattribute-10.png) After attributes have been defined, they can be grouped into attribute groups.</span></span> <span data-ttu-id="23fac-198">属性组提供了各个属性的分组，并可以分配到零售类别或零售渠道。</span><span class="sxs-lookup"><span data-stu-id="23fac-198">Attribute groups provide groupings of individual attributes, and can be assigned to retail categories or retail channels.</span></span>
 
-## <a name="assigning-attribute-groups-to-retail-categories"></a>将属性组分配到零售类别
-  [![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) 一个或多个属性组可与零售产品类别层次结构中的类别节点关联。 为产品分类后，这些产品将继承属性组中包含的属性。
+## <a name="assigning-attribute-groups-to-retail-categories"></a><span data-ttu-id="23fac-199">将属性组分配到零售类别</span><span class="sxs-lookup"><span data-stu-id="23fac-199">Assigning attribute groups to retail categories</span></span>
+  <span data-ttu-id="23fac-200">[![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) 一个或多个属性组可与零售产品类别层次结构中的类别节点关联。</span><span class="sxs-lookup"><span data-stu-id="23fac-200">[![createandmanageattribute-12](./media/createandmanageattribute-12.png)](./media/createandmanageattribute-12.png) One or more attribute groups can be associated with category nodes in the retail product category hierarchy.</span></span> <span data-ttu-id="23fac-201">为产品分类后，这些产品将继承属性组中包含的属性。</span><span class="sxs-lookup"><span data-stu-id="23fac-201">When products have been categorized, they inherit the attributes that are included in the attribute groups.</span></span>
 
-## <a name="assigning-attribute-groups-to-retail-stores"></a>将属性组分配到零售商店
-  [![createandmanageattribute-13-1024x576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) 一个或多个属性组可与零售商店层次结构中的一个或多个零售商店关联。 为特定零售商店丰富产品后，这些产品将继承属性组中包含的属性。
+## <a name="assigning-attribute-groups-to-retail-stores"></a><span data-ttu-id="23fac-202">将属性组分配到零售商店</span><span class="sxs-lookup"><span data-stu-id="23fac-202">Assigning attribute groups to retail stores</span></span>
+  <span data-ttu-id="23fac-203">[![createandmanageattribute-13-1024x576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) 一个或多个属性组可与零售商店层次结构中的一个或多个零售商店关联。</span><span class="sxs-lookup"><span data-stu-id="23fac-203">[![createandmanageattribute-13-1024x576](./media/createandmanageattribute-13-1024x576.png)](./media/createandmanageattribute-13-1024x576.png) One or more attribute groups can be associated with one or more retail stores in the retail stores hierarchy.</span></span> <span data-ttu-id="23fac-204">为特定零售商店丰富产品后，这些产品将继承属性组中包含的属性。</span><span class="sxs-lookup"><span data-stu-id="23fac-204">When products have been enriched for specific retail stores, they inherit the attributes that are included in the attribute groups.</span></span>
 
-## <a name="overriding-attribute-values"></a>覆盖属性值
-### <a name="at-the-product-level"></a>在产品级别
+## <a name="overriding-attribute-values"></a><span data-ttu-id="23fac-205">覆盖属性值</span><span class="sxs-lookup"><span data-stu-id="23fac-205">Overriding attribute values</span></span>
+### <a name="at-the-product-level"></a><span data-ttu-id="23fac-206">在产品级别</span><span class="sxs-lookup"><span data-stu-id="23fac-206">At the product level</span></span>
 
-  [![createandmanageattribute-14-1024x576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) 属性的默认值可在产品级别（即，对于单独的产品）覆盖。
+  <span data-ttu-id="23fac-207">[![createandmanageattribute-14-1024x576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) 属性的默认值可在产品级别（即，对于单独的产品）覆盖。</span><span class="sxs-lookup"><span data-stu-id="23fac-207">[![createandmanageattribute-14-1024x576](./media/createandmanageattribute-14-1024x576.png)](./media/createandmanageattribute-14-1024x576.png) The default values of attributes can be overridden at the product level (that is, for individual products).</span></span>
 
-### <a name="in-a-retail-catalog"></a>在零售目录中
+### <a name="in-a-retail-catalog"></a><span data-ttu-id="23fac-208">在零售目录中</span><span class="sxs-lookup"><span data-stu-id="23fac-208">In a retail catalog</span></span>
 
-  [![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) 属性的默认值可为针对特定渠道的特定目录中的单独产品覆盖。
+  <span data-ttu-id="23fac-209">[![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) 属性的默认值可为针对特定渠道的特定目录中的单独产品覆盖。</span><span class="sxs-lookup"><span data-stu-id="23fac-209">[![createandmanageattribute-2](./media/createandmanageattribute-2.png)](./media/createandmanageattribute-2.png) The default values of attributes can be overridden for individual products in specific catalogs that are targeted for specific retail channels.</span></span>
 
-### <a name="at-the-retail-channel-level"></a>在零售渠道级别
+### <a name="at-the-retail-channel-level"></a><span data-ttu-id="23fac-210">在零售渠道级别</span><span class="sxs-lookup"><span data-stu-id="23fac-210">At the retail channel level</span></span>
 
-  [![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) 属性的默认值可为针对特定渠道的特定目录中的单独产品覆盖。
+  <span data-ttu-id="23fac-211">[![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) 属性的默认值可为针对特定渠道的特定目录中的单独产品覆盖。</span><span class="sxs-lookup"><span data-stu-id="23fac-211">[![createandmanageattribute-1](./media/createandmanageattribute-1.jpg)](./media/createandmanageattribute-1.jpg) The default values of attributes can be overridden for individual products in specific catalogs that are targeted for specific retail channels.</span></span>
 
 
 

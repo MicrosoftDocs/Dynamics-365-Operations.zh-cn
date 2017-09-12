@@ -16,60 +16,60 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 492e4a94ec0caef8c51a691043a1ffb9e6a04758
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: fbd44816fc2f2569dd477fc21f59418a575bb835
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>创建成本分配政策并将其分配到成本控制单元
+# <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a><span data-ttu-id="195d2-103">创建成本分配政策并将其分配到成本控制单元</span><span class="sxs-lookup"><span data-stu-id="195d2-103">Create and assign a cost distribution policy to a cost control unit</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-成本分配规则用于分配集体成本中心中已财务盘点的成本。 成本会计师确保根据所选分配基数将成本分配给成本中心。 将为成本控制单元分配政策和相应规则。 此任务指南使用示例显示如何创建成本分配政策和相应规则。
+<span data-ttu-id="195d2-104">成本分配规则用于分配集体成本中心中已财务盘点的成本。</span><span class="sxs-lookup"><span data-stu-id="195d2-104">Cost distribution rules are used to distribute costs that have been financially counted on a collective cost center.</span></span> <span data-ttu-id="195d2-105">成本会计师确保根据所选分配基数将成本分配给成本中心。</span><span class="sxs-lookup"><span data-stu-id="195d2-105">The cost accountant makes sure that the cost is distributed to the cost centers, based on the selected allocation base.</span></span> <span data-ttu-id="195d2-106">将为成本控制单元分配政策和相应规则。</span><span class="sxs-lookup"><span data-stu-id="195d2-106">A policy and the corresponding rules are assigned to a cost control unit.</span></span> <span data-ttu-id="195d2-107">此任务指南使用示例显示如何创建成本分配政策和相应规则。</span><span class="sxs-lookup"><span data-stu-id="195d2-107">This task guide uses an example to show how to create a cost distribution policy and the corresponding rules.</span></span>
 
 
-## <a name="create-a-policy"></a>创建政策
-1. 转到“成本核算”>“政策”>“成本分配政策”。
-2. 单击“新建”。
-3. 在“政策名称”字段中，键入一个值。
-4. 在“描述”字段中，键入一个值。
-5. 在“成本对象维度层次结构”字段中，输入或选择一个值。
-    * 选择“组织”。  
-6. 在“成本元素维度层次结构”字段中，输入或选择一个值。
-    * 选择“CDS P/L”。  
-7. 在“统计维度”字段中，输入或选择一个值。
-    * 选择“统计元素”。  
-8. 单击“保存”。
+## <a name="create-a-policy"></a><span data-ttu-id="195d2-108">创建政策</span><span class="sxs-lookup"><span data-stu-id="195d2-108">Create a policy</span></span>
+1. <span data-ttu-id="195d2-109">转到“成本核算”>“政策”>“成本分配政策”。</span><span class="sxs-lookup"><span data-stu-id="195d2-109">Go to Cost accounting > Policies > Cost distribution policies.</span></span>
+2. <span data-ttu-id="195d2-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="195d2-110">Click New.</span></span>
+3. <span data-ttu-id="195d2-111">在“政策名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-111">In the Policy name field, type a value.</span></span>
+4. <span data-ttu-id="195d2-112">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="195d2-113">在“成本对象维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-113">In the Cost object dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="195d2-114">选择“组织”。</span><span class="sxs-lookup"><span data-stu-id="195d2-114">Select Organization.</span></span>  
+6. <span data-ttu-id="195d2-115">在“成本元素维度层次结构”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-115">In the Cost element dimension hierarchy field, enter or select a value.</span></span>
+    * <span data-ttu-id="195d2-116">选择“CDS P/L”。</span><span class="sxs-lookup"><span data-stu-id="195d2-116">Select CDS P/L.</span></span>  
+7. <span data-ttu-id="195d2-117">在“统计维度”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-117">In the Statistical dimension field, enter or select a value.</span></span>
+    * <span data-ttu-id="195d2-118">选择“统计元素”。</span><span class="sxs-lookup"><span data-stu-id="195d2-118">Select Statistical elements.</span></span>  
+8. <span data-ttu-id="195d2-119">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="195d2-119">Click Save.</span></span>
 
-## <a name="create-rules-for-the-policy"></a>为政策创建规则
-1. 单击“新建”。
-2. 在列表中，标记所选的行。
-3. 在“成本对象维度层次结构节点”字段中，输入或选择一个值。
-    * 展开层次结构以选择“094”。  
-4. 在“成本元素维度层次结构节点”字段中，输入或选择一个值。
-    * 选择“其他运营费用”，然后选择“605110 清洁”。  
-5. 在“成本行为”字段中，选择一个选项。
-    * 选择“固定成本”。  
-6. 在“分配基准”字段中，输入或选择一个值。
-7. 单击“新建”。
-8. 在列表中，标记所选的行。
-9. 在“成本对象维度层次结构节点”字段中，输入或选择一个值。
-    * 展开层次结构以选择“094”。  
-10. 在“成本元素维度层次结构节点”字段中，输入或选择一个值。
-    * 选择“其他运营费用”，然后选择“605150 租金”。  
-11. 在“成本行为”字段中，选择一个选项。
-    * 选择“固定成本”。  
-12. 在“分配基准”字段中，输入或选择一个值。
-13. 单击“保存”。
+## <a name="create-rules-for-the-policy"></a><span data-ttu-id="195d2-120">为政策创建规则</span><span class="sxs-lookup"><span data-stu-id="195d2-120">Create rules for the policy</span></span>
+1. <span data-ttu-id="195d2-121">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="195d2-121">Click New.</span></span>
+2. <span data-ttu-id="195d2-122">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="195d2-122">In the list, mark the selected row.</span></span>
+3. <span data-ttu-id="195d2-123">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-123">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="195d2-124">展开层次结构以选择“094”。</span><span class="sxs-lookup"><span data-stu-id="195d2-124">Expand the hierarchy to select 094.</span></span>  
+4. <span data-ttu-id="195d2-125">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-125">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="195d2-126">选择“其他运营费用”，然后选择“605110 清洁”。</span><span class="sxs-lookup"><span data-stu-id="195d2-126">Select Other operating expenses and then select 605110 Cleaning.</span></span>  
+5. <span data-ttu-id="195d2-127">在“成本行为”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="195d2-127">In the Cost behavior field, select an option.</span></span>
+    * <span data-ttu-id="195d2-128">选择“固定成本”。</span><span class="sxs-lookup"><span data-stu-id="195d2-128">Select Fixed cost.</span></span>  
+6. <span data-ttu-id="195d2-129">在“分配基准”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-129">In the Allocation base field, enter or select a value.</span></span>
+7. <span data-ttu-id="195d2-130">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="195d2-130">Click New.</span></span>
+8. <span data-ttu-id="195d2-131">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="195d2-131">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="195d2-132">在“成本对象维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-132">In the Cost object dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="195d2-133">展开层次结构以选择“094”。</span><span class="sxs-lookup"><span data-stu-id="195d2-133">Expand the hierarchy to select 094.</span></span>  
+10. <span data-ttu-id="195d2-134">在“成本元素维度层次结构节点”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-134">In the Cost element dimension hierarchy node field, enter or select a value.</span></span>
+    * <span data-ttu-id="195d2-135">选择“其他运营费用”，然后选择“605150 租金”。</span><span class="sxs-lookup"><span data-stu-id="195d2-135">Select Other operating expenses and then select 605150 Rent.</span></span>  
+11. <span data-ttu-id="195d2-136">在“成本行为”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="195d2-136">In the Cost behavior field, select an option.</span></span>
+    * <span data-ttu-id="195d2-137">选择“固定成本”。</span><span class="sxs-lookup"><span data-stu-id="195d2-137">Select Fixed cost.</span></span>  
+12. <span data-ttu-id="195d2-138">在“分配基准”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-138">In the Allocation base field, enter or select a value.</span></span>
+13. <span data-ttu-id="195d2-139">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="195d2-139">Click Save.</span></span>
 
-## <a name="assign-rules-to-a-cost-control-unit"></a>为成本控制单元分配规则
-1. 单击“成本控制单元的政策分配”。
-2. 单击“新建”。
-3. 在列表中，标记所选的行。
-4. 在“核算生效日期”字段中输入日期。
-    * 在“有效会计年度”中选择“9 月 1 日”。  
-5. 在“成本控制单元”字段中，输入或选择一个值。
-6. 单击“保存”。
+## <a name="assign-rules-to-a-cost-control-unit"></a><span data-ttu-id="195d2-140">为成本控制单元分配规则</span><span class="sxs-lookup"><span data-stu-id="195d2-140">Assign rules to a cost control unit</span></span>
+1. <span data-ttu-id="195d2-141">单击“成本控制单元的政策分配”。</span><span class="sxs-lookup"><span data-stu-id="195d2-141">Click Policy assignments for cost control unit.</span></span>
+2. <span data-ttu-id="195d2-142">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="195d2-142">Click New.</span></span>
+3. <span data-ttu-id="195d2-143">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="195d2-143">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="195d2-144">在“核算生效日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="195d2-144">In the Valid from accounting date field, enter a date.</span></span>
+    * <span data-ttu-id="195d2-145">在“有效会计年度”中选择“9 月 1 日”。</span><span class="sxs-lookup"><span data-stu-id="195d2-145">Select September 1 in the valid fiscal year.</span></span>  
+5. <span data-ttu-id="195d2-146">在“成本控制单元”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="195d2-146">In the Cost control unit field, enter or select a value.</span></span>
+6. <span data-ttu-id="195d2-147">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="195d2-147">Click Save.</span></span>
 
 

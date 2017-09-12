@@ -20,68 +20,68 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1bd3168e80719c86e9a0541200fdb1608410c8f5
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 88fb31fc425c9fbd2ef96e4497f120da4440af04
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/29/2017
 
 
 ---
 
-# <a name="calculate-material-consumption"></a>计算物料消耗量
+# <a name="calculate-material-consumption"></a><span data-ttu-id="2a9f9-103">计算物料消耗量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-103">Calculate material consumption</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-本文提供有关与物料消耗量的计算相关的不同选项的信息。 
+<span data-ttu-id="2a9f9-104">本文提供有关与物料消耗量的计算相关的不同选项的信息。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-104">This article provides information about various options that are related to the calculation of material consumption.</span></span> 
 
-与物料消耗量计算相关的以下选项在**物料清单**页的**行明细**快速选项卡的**设置**和**步骤消耗量**选项卡上可用。
+<span data-ttu-id="2a9f9-105">与物料消耗量计算相关的以下选项在**物料清单**页的**行明细**快速选项卡的**设置**和**步骤消耗量**选项卡上可用。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-105">The following options that are related to the calculation of material consumption are available on the **Setup** and **Step consumption** tabs on the **Line details** FastTab of the **Bill of materials** page.</span></span>
 
-## <a name="variable-and-constant-consumption"></a>变量和常量消耗量
-在**消耗量**字段中，您可以选择是否应将消耗量计算为一个常量数量或一个变量数量。 如果生产需要固定数量或量，选择**常量**，不论生产的数量是多少。 如果成品中需要的物料金额与生产的成品的数量成比例，则选择**变量**，这是默认设置。
+## <a name="variable-and-constant-consumption"></a><span data-ttu-id="2a9f9-106">变量和常量消耗量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-106">Variable and constant consumption</span></span>
+<span data-ttu-id="2a9f9-107">在**消耗量**字段中，您可以选择是否应将消耗量计算为一个常量数量或一个变量数量。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-107">In the **Consumption is** field, you can select whether consumption should be calculated as a constant quantity or a variable quantity.</span></span> <span data-ttu-id="2a9f9-108">如果生产需要固定数量或量，选择**常量**，不论生产的数量是多少。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-108">Select **Constant** if a fixed quantity or volume is required for the production, regardless of the quantity that is produced.</span></span> <span data-ttu-id="2a9f9-109">如果成品中需要的物料金额与生产的成品的数量成比例，则选择**变量**，这是默认设置。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-109">Select **Variable**, which is the default setting, if the required amount of material in the finished goods is proportional to the number of finished goods that are produced.</span></span>
 
-## <a name="calculating-consumption-from-a-formula"></a>通过公式计算消耗量
-在**公式**字段中，您可以设置计算物料消耗量的各个公式。 如果您使用默认值**标准**，消耗量不会从公式进行计算。 以下公式与**高度**、**宽度**、**深度**、**密度**和**常量**字段一起使用：
+## <a name="calculating-consumption-from-a-formula"></a><span data-ttu-id="2a9f9-110">通过公式计算消耗量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-110">Calculating consumption from a formula</span></span>
+<span data-ttu-id="2a9f9-111">在**公式**字段中，您可以设置计算物料消耗量的各个公式。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-111">In the **Formula** field, you can set up various formulas for calculating material consumption.</span></span> <span data-ttu-id="2a9f9-112">如果您使用默认值**标准**，消耗量不会从公式进行计算。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-112">If you use the default value, **Standard**, the consumption isn't calculated from a formula.</span></span> <span data-ttu-id="2a9f9-113">以下公式与**高度**、**宽度**、**深度**、**密度**和**常量**字段一起使用：</span><span class="sxs-lookup"><span data-stu-id="2a9f9-113">The following formulas work together with the **Height**, **Width**, **Depth**, **Density**, and **Constant** fields:</span></span>
 
--   高度 \* 常量
--   高度 \* 宽度 \* 常量
--   高度 \* 宽度 \* 深度 \* 常量
--   (高度 \* 宽度 \* 深度/密度) \* 常量
+-   <span data-ttu-id="2a9f9-114">高度 \* 常量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-114">Height \* Constant</span></span>
+-   <span data-ttu-id="2a9f9-115">高度 \* 宽度 \* 常量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-115">Height \* Width \* Constant</span></span>
+-   <span data-ttu-id="2a9f9-116">高度 \* 宽度 \* 深度 \* 常量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-116">Height \* Width \* Depth \* Constant</span></span>
+-   <span data-ttu-id="2a9f9-117">(高度 \* 宽度 \* 深度/密度) \* 常量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-117">(Height \* Width \* Depth / Density) \* Constant</span></span>
 
-## <a name="rounding-up-and-multiples"></a>进位和倍数
-**进位**和**倍数**字段共同让您舍入物料消耗量价值。 例如，您可以根据在其中为生产领取物料的物料处理单元舍入该值。 以下选项在**舍入**字段中可用：**数量**、**度量**和**消耗量**。
+## <a name="rounding-up-and-multiples"></a><span data-ttu-id="2a9f9-118">进位和倍数</span><span class="sxs-lookup"><span data-stu-id="2a9f9-118">Rounding up and multiples</span></span>
+<span data-ttu-id="2a9f9-119">**进位**和**倍数**字段共同让您舍入物料消耗量价值。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-119">Together, the **Rounding up** and **Multiples** fields let you round up the material consumption value.</span></span> <span data-ttu-id="2a9f9-120">例如，您可以根据在其中为生产领取物料的物料处理单元舍入该值。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-120">For example, you can round up the value according to the handling unit in which the raw material is picked for production.</span></span> <span data-ttu-id="2a9f9-121">以下选项在**舍入**字段中可用：**数量**、**度量**和**消耗量**。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-121">The following options are available in the **Rounding up** field: **Quantity**, **Measurement**, and **Consumption**.</span></span>
 
-### <a name="quantity"></a>数量
+### <a name="quantity"></a><span data-ttu-id="2a9f9-122">数量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-122">Quantity</span></span>
 
-如果您选择**数量**作为舍入机制，数量必须是指定数量的倍数。 例如，需要整数时，在**倍数**字段中选择 **1**。 数字然后舍入到被 1 整除的数量。
+<span data-ttu-id="2a9f9-123">如果您选择**数量**作为舍入机制，数量必须是指定数量的倍数。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-123">If you select **Quantity** as the rounding-up mechanism, the quantity must be a multiple of the specified quantity.</span></span> <span data-ttu-id="2a9f9-124">例如，需要整数时，在**倍数**字段中选择 **1**。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-124">For example, if whole numbers are required, select **1** in the **Multiples** field.</span></span> <span data-ttu-id="2a9f9-125">数字然后舍入到被 1 整除的数量。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-125">Numbers are then rounded up to a quantity that is divisible by 1.</span></span>
 
-### <a name="measurement"></a>量化指标
+### <a name="measurement"></a><span data-ttu-id="2a9f9-126">量化指标</span><span class="sxs-lookup"><span data-stu-id="2a9f9-126">Measurement</span></span>
 
-通常，当原材料采用特定尺寸时，选择**度量**作为舍入机制。 例如，成品需要一条 2 米金属管，金属管存储为 4.5 米长度。 在这种情况下，**度量**舍入机制可用于计算生产特定件数的成品需要多少个金属管。 对于此示例，**公式**字段设置为**高度 \* 常量**。 **高度**字段设置为 **2**，指示成品所需的管的长度。 **倍数**字段设置为 **4.5** 指示领取 4.5 米长的管。 计算如下：
+<span data-ttu-id="2a9f9-127">通常，当原材料采用特定尺寸时，选择**度量**作为舍入机制。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-127">Typically, you select **Measurement** as the rounding-up mechanism when the raw material comes in specific dimensions.</span></span> <span data-ttu-id="2a9f9-128">例如，成品需要一条 2 米金属管，金属管存储为 4.5 米长度。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-128">For example, a piece of 2-meter metal tube is required for a finished good, and the metal tube is stored in 4.5-meter lengths.</span></span> <span data-ttu-id="2a9f9-129">在这种情况下，**度量**舍入机制可用于计算生产特定件数的成品需要多少个金属管。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-129">In this case, the **Measurement** rounding-up mechanism can be used to calculate how many metal tubes are required to produce a specific number of pieces of the finished good.</span></span> <span data-ttu-id="2a9f9-130">对于此示例，**公式**字段设置为**高度 \* 常量**。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-130">For this example, the **Formula** field is set to **Height \* Constant**.</span></span> <span data-ttu-id="2a9f9-131">**高度**字段设置为 **2**，指示成品所需的管的长度。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-131">The **Height** field is set to **2** to indicate the length of the tube that is required for the finished good.</span></span> <span data-ttu-id="2a9f9-132">**倍数**字段设置为 **4.5** 指示领取 4.5 米长的管。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-132">The **Multiple** field is set to **4.5** to indicate that the tube is picked in lengths of 4.5 meters.</span></span> <span data-ttu-id="2a9f9-133">计算如下：</span><span class="sxs-lookup"><span data-stu-id="2a9f9-133">Here is the calculation:</span></span>
 
-1.  10 件成品需要的倍数数：10 ÷ 2 = 5 件
-2.  总消耗量：4.5 × 5 = 22.5 米金属管
+1.  <span data-ttu-id="2a9f9-134">10 件成品需要的倍数数：10 ÷ 2 = 5 件</span><span class="sxs-lookup"><span data-stu-id="2a9f9-134">Number of multiples that are required for 10 pieces of the finished good: 10 ÷ 2 = 5 pieces</span></span>
+2.  <span data-ttu-id="2a9f9-135">总消耗量：4.5 × 5 = 22.5 米金属管</span><span class="sxs-lookup"><span data-stu-id="2a9f9-135">Total consumption:  4.5 × 5 = 22.5 meters of metal tube</span></span>
 
-假定消耗每五个管报废 0.5 米管。
+<span data-ttu-id="2a9f9-136">假定消耗每五个管报废 0.5 米管。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-136">It's assumed that 0.5 meter of tube is scrapped for every five pieces of tube that are consumed.</span></span>
 
-### <a name="consumption"></a>消耗量法
+### <a name="consumption"></a><span data-ttu-id="2a9f9-137">消耗量法</span><span class="sxs-lookup"><span data-stu-id="2a9f9-137">Consumption</span></span>
 
-通常，当必须领取产品特定物料处理单元的完整数量的原材料时，选择**消耗量**作为舍入机制。 例如，2 夸脱涂料用于生产一件成品，涂料使用 25 夸脱罐领取。 在这种情况下，**消耗量**舍入机制可用于将消耗量舍入为 25 夸脱罐的整数。 如果必须生产 180 件成品，所需涂料数量计算为：
+<span data-ttu-id="2a9f9-138">通常，当必须领取产品特定物料处理单元的完整数量的原材料时，选择**消耗量**作为舍入机制。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-138">Typically, you select **Consumption** as the rounding-up mechanism when raw material must be picked in whole quantities of a specific handling unit of the product.</span></span> <span data-ttu-id="2a9f9-139">例如，2 夸脱涂料用于生产一件成品，涂料使用 25 夸脱罐领取。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-139">For example, 2 quarts of paint are used to produce one piece of a finished good, and the paint is picked in 25-quart cans.</span></span> <span data-ttu-id="2a9f9-140">在这种情况下，**消耗量**舍入机制可用于将消耗量舍入为 25 夸脱罐的整数。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-140">In this case, the **Consumption** rounding-up mechanism can be used to round up consumption to whole numbers of 25-quart cans.</span></span> <span data-ttu-id="2a9f9-141">如果必须生产 180 件成品，所需涂料数量计算为：</span><span class="sxs-lookup"><span data-stu-id="2a9f9-141">Here is the calculation for the amount of paint that is required if 180 pieces of the finished good must be produced:</span></span>
 
-1.  所需涂料，不包括废料：180 × 2 = 360 夸脱
-2.  罐数：360 ÷ 25 = 14.4，舍入为 15
-3.  所需涂料，包括废料：15 × 25 = 375 夸脱
+1.  <span data-ttu-id="2a9f9-142">所需涂料，不包括废料：180 × 2 = 360 夸脱</span><span class="sxs-lookup"><span data-stu-id="2a9f9-142">Paint that is required, excluding scrap: 180 × 2 = 360 quarts</span></span>
+2.  <span data-ttu-id="2a9f9-143">罐数：360 ÷ 25 = 14.4，舍入为 15</span><span class="sxs-lookup"><span data-stu-id="2a9f9-143">Number of cans: 360 ÷ 25 = 14.4, which is rounded up to 15</span></span>
+3.  <span data-ttu-id="2a9f9-144">所需涂料，包括废料：15 × 25 = 375 夸脱</span><span class="sxs-lookup"><span data-stu-id="2a9f9-144">Paint that is required, including scrap: 15 × 25 = 375 quarts</span></span>
 
-## <a name="step-consumption"></a>步骤消耗量
-步骤消耗量用于计算数量间隔的常量消耗量。 如果在**设置**选项卡的**公式**字段中选择**步骤消耗量**，您可以在**步骤消耗量**选项卡上添加有关步骤的信息。 固定消耗数量可以在生产数量的间隔中设置。 例如，如下表中所示设置步骤消耗量。
+## <a name="step-consumption"></a><span data-ttu-id="2a9f9-145">步骤消耗量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-145">Step consumption</span></span>
+<span data-ttu-id="2a9f9-146">步骤消耗量用于计算数量间隔的常量消耗量。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-146">Step consumption is used to calculate constant consumption in quantity intervals.</span></span> <span data-ttu-id="2a9f9-147">如果在**设置**选项卡的**公式**字段中选择**步骤消耗量**，您可以在**步骤消耗量**选项卡上添加有关步骤的信息。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-147">If you select **Step consumption** in the **Formula** field on the **Setup** tab, you can add information about the steps on the **Step consumption** tab.</span></span> <span data-ttu-id="2a9f9-148">固定消耗数量可以在生产数量的间隔中设置。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-148">The fixed consumed quantity can be set up in intervals of the produced quantity.</span></span> <span data-ttu-id="2a9f9-149">例如，如下表中所示设置步骤消耗量。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-149">For example, step consumption is set up as shown in the following table.</span></span>
 
-| 开始系列 | 数量 |
+| <span data-ttu-id="2a9f9-150">开始系列</span><span class="sxs-lookup"><span data-stu-id="2a9f9-150">From series</span></span> | <span data-ttu-id="2a9f9-151">数量</span><span class="sxs-lookup"><span data-stu-id="2a9f9-151">Quantity</span></span> |
 |-------------|----------|
-| 0.00        | 10.0000  |
-| 100.00      | 20.0000  |
-| 200.00      | 40.0000  |
+| <span data-ttu-id="2a9f9-152">0.00</span><span class="sxs-lookup"><span data-stu-id="2a9f9-152">0.00</span></span>        | <span data-ttu-id="2a9f9-153">10.0000</span><span class="sxs-lookup"><span data-stu-id="2a9f9-153">10.0000</span></span>  |
+| <span data-ttu-id="2a9f9-154">100.00</span><span class="sxs-lookup"><span data-stu-id="2a9f9-154">100.00</span></span>      | <span data-ttu-id="2a9f9-155">20.0000</span><span class="sxs-lookup"><span data-stu-id="2a9f9-155">20.0000</span></span>  |
+| <span data-ttu-id="2a9f9-156">200.00</span><span class="sxs-lookup"><span data-stu-id="2a9f9-156">200.00</span></span>      | <span data-ttu-id="2a9f9-157">40.0000</span><span class="sxs-lookup"><span data-stu-id="2a9f9-157">40.0000</span></span>  |
 
-物料清单 (BOM) 数量为 1，生产数量为 110。 消耗量的公式为开始系列（数量）= 消耗量。 由于生产数量为 110，则落入“从 100 系列”。 因此数量为 20。
+<span data-ttu-id="2a9f9-158">物料清单 (BOM) 数量为 1，生产数量为 110。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-158">The bill of materials (BOM) quantity is 1, and the production quantity is 110.</span></span> <span data-ttu-id="2a9f9-159">消耗量的公式为开始系列（数量）= 消耗量。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-159">The formula for the consumption is From series (Quantity) = Consumption.</span></span> <span data-ttu-id="2a9f9-160">由于生产数量为 110，则落入“从 100 系列”。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-160">Because the production quantity is 110, it falls into the "From 100 series."</span></span> <span data-ttu-id="2a9f9-161">因此数量为 20。</span><span class="sxs-lookup"><span data-stu-id="2a9f9-161">Therefore, the quantity is 20.</span></span>
 
 
 

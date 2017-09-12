@@ -19,37 +19,37 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 6c299a1297e5721119ecfb5208453f8739fb7ad0
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c2442f27221e429761abb8c1b17c50a737c10795
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="monitor-sales-and-margin-performance"></a>监控销售和利润率
+# <a name="monitor-sales-and-margin-performance"></a><span data-ttu-id="11233-103">监控销售和利润率</span><span class="sxs-lookup"><span data-stu-id="11233-103">Monitor sales and margin performance</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-您可以使用 Microsoft Dynamics 365 for Retail 实时监控销售和利润率。
+<span data-ttu-id="11233-104">您可以使用 Microsoft Dynamics 365 for Retail 实时监控销售和利润率。</span><span class="sxs-lookup"><span data-stu-id="11233-104">You can monitor sales and margin performance in real time using Microsoft Dynamics 365 for Retail.</span></span>
 
-作为 Dynamics 365 for Retail 的一部分，用户可以跨以下维度的组织层次结构的不同级别实时监控销售和利润率：
+<span data-ttu-id="11233-105">作为 Dynamics 365 for Retail 的一部分，用户可以跨以下维度的组织层次结构的不同级别实时监控销售和利润率：</span><span class="sxs-lookup"><span data-stu-id="11233-105">As part of Dynamics 365 for Retail, users can monitor sales and margin performance in real time across different levels of the organization hierarchy for the following dimensions:</span></span>
 
--   产品
--   类别
--   折扣
--   作为时段的年份
--   收银机/终端
--   人员/员工
--   客户
--   运营单位
+-   <span data-ttu-id="11233-106">产品</span><span class="sxs-lookup"><span data-stu-id="11233-106">Products</span></span>
+-   <span data-ttu-id="11233-107">类别</span><span class="sxs-lookup"><span data-stu-id="11233-107">Categories</span></span>
+-   <span data-ttu-id="11233-108">折扣</span><span class="sxs-lookup"><span data-stu-id="11233-108">Discounts</span></span>
+-   <span data-ttu-id="11233-109">作为时段的年份</span><span class="sxs-lookup"><span data-stu-id="11233-109">Years as time period</span></span>
+-   <span data-ttu-id="11233-110">收银机/终端</span><span class="sxs-lookup"><span data-stu-id="11233-110">Registers/terminals</span></span>
+-   <span data-ttu-id="11233-111">人员/员工</span><span class="sxs-lookup"><span data-stu-id="11233-111">Staff/employees</span></span>
+-   <span data-ttu-id="11233-112">客户</span><span class="sxs-lookup"><span data-stu-id="11233-112">Customers</span></span>
+-   <span data-ttu-id="11233-113">运营单位</span><span class="sxs-lookup"><span data-stu-id="11233-113">Operating units</span></span>
 
-此外，利用层次结构网格结构的两个唯一报表允许用户通过在默认零售产品类别层次结构中从顶层类别节点深化到单个叶节点来监控销售和利润率。 用户还可以在被定义为用于零售报告层次结构目的的默认组织层次结构的组织层次结构中从顶层运营单位深化到单个渠道。 您可以从以下任何位置打开此报表：
+<span data-ttu-id="11233-114">此外，利用层次结构网格结构的两个唯一报表允许用户通过在默认零售产品类别层次结构中从顶层类别节点深化到单个叶节点来监控销售和利润率。</span><span class="sxs-lookup"><span data-stu-id="11233-114">Additionally, two unique reports that take advantage of hierarchical grid structuring let users monitor sales and margin performance by drilling down from the top category node to individual leaf nodes of the category in the default retail product category hierarchy.</span></span> <span data-ttu-id="11233-115">用户还可以在被定义为用于零售报告层次结构目的的默认组织层次结构的组织层次结构中从顶层运营单位深化到单个渠道。</span><span class="sxs-lookup"><span data-stu-id="11233-115">Users can also drill-down from the top operating unit to an individual channel in the organization hierarchy that is defined as the default organization hierarchy for retail reporting hierarchy purposes.</span></span> <span data-ttu-id="11233-116">您可以从以下任何位置打开此报表：</span><span class="sxs-lookup"><span data-stu-id="11233-116">You can open the reports from any of the following locations:</span></span>
 
--   **零售商店管理**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店管理** &gt; **报表**
--   **类别和产品管理**工作区 &gt; **零售** &gt; **产品和类别** &gt; **零售商店管理** &gt; **报表**
--   **定价和折扣管理**工作区 &gt; **零售** &gt; **定价和折扣** &gt; **零售商店管理** &gt; **报表**
--   **查询和报表**部分 &gt; **零售** &gt; **查询和报表** &gt; **销售报表**
+-   <span data-ttu-id="11233-117">**零售商店管理**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店管理** &gt; **报表**</span><span class="sxs-lookup"><span data-stu-id="11233-117">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="11233-118">**类别和产品管理**工作区 &gt; **零售** &gt; **产品和类别** &gt; **零售商店管理** &gt; **报表**</span><span class="sxs-lookup"><span data-stu-id="11233-118">**Category and product management** workspace &gt; **Retail** &gt; **Product and categories** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="11233-119">**定价和折扣管理**工作区 &gt; **零售** &gt; **定价和折扣** &gt; **零售商店管理** &gt; **报表**</span><span class="sxs-lookup"><span data-stu-id="11233-119">**Pricing and discount management** workspace &gt; **Retail** &gt; **Pricing and discounts** &gt; **Retail store management** &gt; **Reports**</span></span>
+-   <span data-ttu-id="11233-120">**查询和报表**部分 &gt; **零售** &gt; **查询和报表** &gt; **销售报表**</span><span class="sxs-lookup"><span data-stu-id="11233-120">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports**</span></span>
 
 
 

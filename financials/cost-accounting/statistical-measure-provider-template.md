@@ -17,334 +17,334 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 180863b5c3b8fe7870ab58f3849e52583f5880c1
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: b4d8ddf1990377e46502a49ffa38e7afa46273da
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>统计维度成员和统计度量提供方模板
+# <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a><span data-ttu-id="b629a-105">统计维度成员和统计度量提供方模板</span><span class="sxs-lookup"><span data-stu-id="b629a-105">Statistical dimension members and statistical measure provider templates</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-统计维度及其成员用于登记和控制成本核算中的非货币条目。 统计维度成员可用于两个目的：
+<span data-ttu-id="b629a-106">统计维度及其成员用于登记和控制成本核算中的非货币条目。</span><span class="sxs-lookup"><span data-stu-id="b629a-106">A statistical dimension and its members are used to register and control non-monetary entries in Cost accounting.</span></span> <span data-ttu-id="b629a-107">统计维度成员可用于两个目的：</span><span class="sxs-lookup"><span data-stu-id="b629a-107">Statistical dimension members can be used for two purposes:</span></span>
 
-- 成本分配或成本分摊等策略中的分配基础
-- 对于报告非货币消耗
+- <span data-ttu-id="b629a-108">成本分配或成本分摊等策略中的分配基础</span><span class="sxs-lookup"><span data-stu-id="b629a-108">As an allocation base in policies such as cost distribution or cost allocation</span></span>
+- <span data-ttu-id="b629a-109">对于报告非货币消耗</span><span class="sxs-lookup"><span data-stu-id="b629a-109">For reporting of non-monetary consumption</span></span>
 
-## <a name="statistical-dimension"></a>统计维度
+## <a name="statistical-dimension"></a><span data-ttu-id="b629a-110">统计维度</span><span class="sxs-lookup"><span data-stu-id="b629a-110">Statistical dimension</span></span>
 
-统计维度具有一个唯一名称和一组唯一维度成员。 统计维度分配给成本核算分类帐 ID。 此关系将所有相应的统计维度成员绑定到成本核算分类帐。 因此，所有统计条目将在成本核算分类帐上下文中创建。
+<span data-ttu-id="b629a-111">统计维度具有一个唯一名称和一组唯一维度成员。</span><span class="sxs-lookup"><span data-stu-id="b629a-111">A statistical dimension has a unique name and a set of unique dimension members.</span></span> <span data-ttu-id="b629a-112">统计维度分配给成本核算分类帐 ID。</span><span class="sxs-lookup"><span data-stu-id="b629a-112">The statistical dimension is assigned to a Cost accounting ledger ID.</span></span> <span data-ttu-id="b629a-113">此关系将所有相应的统计维度成员绑定到成本核算分类帐。</span><span class="sxs-lookup"><span data-stu-id="b629a-113">This relationship ties all corresponding statistical dimension members to the Cost accounting ledger.</span></span> <span data-ttu-id="b629a-114">因此，所有统计条目将在成本核算分类帐上下文中创建。</span><span class="sxs-lookup"><span data-stu-id="b629a-114">Therefore, all statistical entries will be created in the context of the Cost accounting ledger.</span></span>
 
 > [!NOTE]
-> 统计维度可以分配给多个成本核算分类帐。
+> <span data-ttu-id="b629a-115">统计维度可以分配给多个成本核算分类帐。</span><span class="sxs-lookup"><span data-stu-id="b629a-115">A statistical dimension can be assigned to more than one Cost accounting ledger.</span></span>
 
-以下是统计维度的示例。
+<span data-ttu-id="b629a-116">以下是统计维度的示例。</span><span class="sxs-lookup"><span data-stu-id="b629a-116">Here is an example of a statistical dimension.</span></span>
 
-| 姓名                        | 维度成员的数据连接器 |
+| <span data-ttu-id="b629a-117">姓名</span><span class="sxs-lookup"><span data-stu-id="b629a-117">Name</span></span>                        | <span data-ttu-id="b629a-118">维度成员的数据连接器</span><span class="sxs-lookup"><span data-stu-id="b629a-118">Data connector for dimension members</span></span> |
 |-----------------------------|--------------------------------------|
-| 共享统计元素 | 已导入维度成员           |
+| <span data-ttu-id="b629a-119">共享统计元素</span><span class="sxs-lookup"><span data-stu-id="b629a-119">Shared Statistical elements</span></span> | <span data-ttu-id="b629a-120">已导入维度成员</span><span class="sxs-lookup"><span data-stu-id="b629a-120">Imported dimension members</span></span>           |
 
-以下是已经分配给成本核算分类帐的统计维度的示例。
+<span data-ttu-id="b629a-121">以下是已经分配给成本核算分类帐的统计维度的示例。</span><span class="sxs-lookup"><span data-stu-id="b629a-121">Here is an example of a statistical dimension that has been assigned to a Cost accounting ledger.</span></span>
 
-| 姓名                  | 记帐币种 | 汇率类型 | 会计日历 | 成本元素维度 | 统计维度       |
+| <span data-ttu-id="b629a-122">姓名</span><span class="sxs-lookup"><span data-stu-id="b629a-122">Name</span></span>                  | <span data-ttu-id="b629a-123">记帐币种</span><span class="sxs-lookup"><span data-stu-id="b629a-123">Accounting currency</span></span> | <span data-ttu-id="b629a-124">汇率类型</span><span class="sxs-lookup"><span data-stu-id="b629a-124">Exchange rate type</span></span> | <span data-ttu-id="b629a-125">会计日历</span><span class="sxs-lookup"><span data-stu-id="b629a-125">Fiscal calendar</span></span> | <span data-ttu-id="b629a-126">成本元素维度</span><span class="sxs-lookup"><span data-stu-id="b629a-126">Cost element dimension</span></span> | <span data-ttu-id="b629a-127">统计维度</span><span class="sxs-lookup"><span data-stu-id="b629a-127">Statistical dimension</span></span>       |
 |-----------------------|---------------------|--------------------|-----------------|------------------------|-----------------------------|
-| 管理会计 | 美元                 | 固定币种  | 会计期间   | 共享成本元素   | 共享统计元素 |
+| <span data-ttu-id="b629a-128">管理会计</span><span class="sxs-lookup"><span data-stu-id="b629a-128">Managerial accounting</span></span> | <span data-ttu-id="b629a-129">美元</span><span class="sxs-lookup"><span data-stu-id="b629a-129">USD</span></span>                 | <span data-ttu-id="b629a-130">固定币种</span><span class="sxs-lookup"><span data-stu-id="b629a-130">Constant currency</span></span>  | <span data-ttu-id="b629a-131">会计期间</span><span class="sxs-lookup"><span data-stu-id="b629a-131">Fiscal period</span></span>   | <span data-ttu-id="b629a-132">共享成本元素</span><span class="sxs-lookup"><span data-stu-id="b629a-132">Shared Cost elements</span></span>   | <span data-ttu-id="b629a-133">共享统计元素</span><span class="sxs-lookup"><span data-stu-id="b629a-133">Shared Statistical elements</span></span> |
 
-## <a name="statistical-dimension-members"></a>统计维度成员
+## <a name="statistical-dimension-members"></a><span data-ttu-id="b629a-134">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="b629a-134">Statistical dimension members</span></span>
 
-统计维度成员代表您要为其注册非货币度量的实体。 这些度量可用作分配基础或仅用于报告非货币值。
+<span data-ttu-id="b629a-135">统计维度成员代表您要为其注册非货币度量的实体。</span><span class="sxs-lookup"><span data-stu-id="b629a-135">A statistical dimension member represents an entity that you want to register non-monetary measures for.</span></span> <span data-ttu-id="b629a-136">这些度量可用作分配基础或仅用于报告非货币值。</span><span class="sxs-lookup"><span data-stu-id="b629a-136">These measures can be used either as an allocation base or just to report non-monetary values.</span></span>
 
-统计维度成员可以手动创建。 或者，可以使用数据管理导入/导出工具从文件中导入。
+<span data-ttu-id="b629a-137">统计维度成员可以手动创建。</span><span class="sxs-lookup"><span data-stu-id="b629a-137">Statistical dimension members can be created manually.</span></span> <span data-ttu-id="b629a-138">或者，可以使用数据管理导入/导出工具从文件中导入。</span><span class="sxs-lookup"><span data-stu-id="b629a-138">Alternatively, they can be imported from a file by using the Data management import/export tool.</span></span>
 
-统计维度成员自动成为预定义的分配基础。 它可以用作策略中的分配基础或其他类型的分配基础中的输入。
+<span data-ttu-id="b629a-139">统计维度成员自动成为预定义的分配基础。</span><span class="sxs-lookup"><span data-stu-id="b629a-139">A statistical dimension member automatically becomes a predefined allocation base.</span></span> <span data-ttu-id="b629a-140">它可以用作策略中的分配基础或其他类型的分配基础中的输入。</span><span class="sxs-lookup"><span data-stu-id="b629a-140">It can be used as an allocation base in policies or as input in other types of allocation bases.</span></span>
 
-以下是典型的统计维度成员的一些示例。
+<span data-ttu-id="b629a-141">以下是典型的统计维度成员的一些示例。</span><span class="sxs-lookup"><span data-stu-id="b629a-141">Here are some examples of typical statistical dimension members.</span></span>
 
-| 统计维度名称  | 统计元素 | 说明             | 单位 |
+| <span data-ttu-id="b629a-142">统计维度名称</span><span class="sxs-lookup"><span data-stu-id="b629a-142">Statistical dimension name</span></span>  | <span data-ttu-id="b629a-143">统计元素</span><span class="sxs-lookup"><span data-stu-id="b629a-143">Statistical elements</span></span> | <span data-ttu-id="b629a-144">说明</span><span class="sxs-lookup"><span data-stu-id="b629a-144">Description</span></span>             | <span data-ttu-id="b629a-145">单位</span><span class="sxs-lookup"><span data-stu-id="b629a-145">Unit</span></span> |
 |-----------------------------|----------------------|-------------------------|------|
-| 共享统计元素 | FTE                  | 全职员工     | 位  |
-| 共享统计元素 | 电          | 用电量 | kWh  |
-| 共享统计元素 | 包装 CC              | 包装成本中心   | 小时 |
+| <span data-ttu-id="b629a-146">共享统计元素</span><span class="sxs-lookup"><span data-stu-id="b629a-146">Shared Statistical elements</span></span> | <span data-ttu-id="b629a-147">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-147">FTE</span></span>                  | <span data-ttu-id="b629a-148">全职员工</span><span class="sxs-lookup"><span data-stu-id="b629a-148">Full time employees</span></span>     | <span data-ttu-id="b629a-149">位</span><span class="sxs-lookup"><span data-stu-id="b629a-149">Ea.</span></span>  |
+| <span data-ttu-id="b629a-150">共享统计元素</span><span class="sxs-lookup"><span data-stu-id="b629a-150">Shared Statistical elements</span></span> | <span data-ttu-id="b629a-151">电</span><span class="sxs-lookup"><span data-stu-id="b629a-151">Electricity</span></span>          | <span data-ttu-id="b629a-152">用电量</span><span class="sxs-lookup"><span data-stu-id="b629a-152">Electricity consumption</span></span> | <span data-ttu-id="b629a-153">kWh</span><span class="sxs-lookup"><span data-stu-id="b629a-153">kWh</span></span>  |
+| <span data-ttu-id="b629a-154">共享统计元素</span><span class="sxs-lookup"><span data-stu-id="b629a-154">Shared Statistical elements</span></span> | <span data-ttu-id="b629a-155">包装 CC</span><span class="sxs-lookup"><span data-stu-id="b629a-155">Pack CC</span></span>              | <span data-ttu-id="b629a-156">包装成本中心</span><span class="sxs-lookup"><span data-stu-id="b629a-156">Packaging Cost center</span></span>   | <span data-ttu-id="b629a-157">小时</span><span class="sxs-lookup"><span data-stu-id="b629a-157">Hrs.</span></span> |
 
-## <a name="statistical-measure-provider-template"></a>统计度量提供方模板
+## <a name="statistical-measure-provider-template"></a><span data-ttu-id="b629a-158">统计度量提供方模板</span><span class="sxs-lookup"><span data-stu-id="b629a-158">Statistical measure provider template</span></span>
 
-统计度量可以源自许多类型的来源。 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 是提取统计度量的出色来源。 您可以统计度量提供方模板轻松配置您要提取的统计度量。
+<span data-ttu-id="b629a-159">统计度量可以源自许多类型的来源。</span><span class="sxs-lookup"><span data-stu-id="b629a-159">Statistical measures can originate from many kinds of sources.</span></span> <span data-ttu-id="b629a-160">Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 是提取统计度量的出色来源。</span><span class="sxs-lookup"><span data-stu-id="b629a-160">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, is a great source to extract statistical measures from.</span></span> <span data-ttu-id="b629a-161">您可以统计度量提供方模板轻松配置您要提取的统计度量。</span><span class="sxs-lookup"><span data-stu-id="b629a-161">You can use a statistical measure provider template to easily configure the statistical measures that you want to extract.</span></span>
 
-统计度量提供方模板的定义是一般性的，并且可以重新用于多个统计维度成员。
+<span data-ttu-id="b629a-162">统计度量提供方模板的定义是一般性的，并且可以重新用于多个统计维度成员。</span><span class="sxs-lookup"><span data-stu-id="b629a-162">The definition of a statistical measure provider template is generic and can be reused in multiple statistical dimension members.</span></span>
 
 > [!NOTE]
-> 包含财务维度的所有表均可作为统计度量的来源。
+> <span data-ttu-id="b629a-163">包含财务维度的所有表均可作为统计度量的来源。</span><span class="sxs-lookup"><span data-stu-id="b629a-163">All tables that contain financial dimensions can be used as sources for statistical measures.</span></span>
 
-**示例：按成本中心分类的员工计数**
+<span data-ttu-id="b629a-164">**示例：按成本中心分类的员工计数**</span><span class="sxs-lookup"><span data-stu-id="b629a-164">**Example: Count of employees per cost center**</span></span>
 
-按成本中心分类的员工计数是一个可用于各种目的的统计度量，提供以下管理洞察：
+<span data-ttu-id="b629a-165">按成本中心分类的员工计数是一个可用于各种目的的统计度量，提供以下管理洞察：</span><span class="sxs-lookup"><span data-stu-id="b629a-165">The count of employees per cost center is a statistical measure that can be used for various purposes that provide managerial insight:</span></span>
 
-- 按成本中心分类的统计报告度量
-- 不同支出类型的分配基础
-- 按成本中心分类的内部成本率：
+- <span data-ttu-id="b629a-166">按成本中心分类的统计报告度量</span><span class="sxs-lookup"><span data-stu-id="b629a-166">A statistical reporting measure by cost center</span></span>
+- <span data-ttu-id="b629a-167">不同支出类型的分配基础</span><span class="sxs-lookup"><span data-stu-id="b629a-167">An allocation base for various types of expenses</span></span>
+- <span data-ttu-id="b629a-168">按成本中心分类的内部成本率：</span><span class="sxs-lookup"><span data-stu-id="b629a-168">Internal cost rates by cost center:</span></span>
 
-    - 各员工分类的成本
-    - 按员工分类的收入
+    - <span data-ttu-id="b629a-169">各员工分类的成本</span><span class="sxs-lookup"><span data-stu-id="b629a-169">Cost by employee</span></span>
+    - <span data-ttu-id="b629a-170">按员工分类的收入</span><span class="sxs-lookup"><span data-stu-id="b629a-170">Revenue by employee</span></span>
 
-HcmEmployment 表包含实例中的所有员工的列表。 下表是一个全局性的表。 因此，记录与特定数据区域 ID 无关。
+<span data-ttu-id="b629a-171">HcmEmployment 表包含实例中的所有员工的列表。</span><span class="sxs-lookup"><span data-stu-id="b629a-171">The HcmEmployment table holds a list of all employees in the instance.</span></span> <span data-ttu-id="b629a-172">下表是一个全局性的表。</span><span class="sxs-lookup"><span data-stu-id="b629a-172">This table is a global table.</span></span> <span data-ttu-id="b629a-173">因此，记录与特定数据区域 ID 无关。</span><span class="sxs-lookup"><span data-stu-id="b629a-173">Therefore, the records aren't related to a specific data area ID.</span></span>
 
-以下是 HcmEmployment 表中的员工示例。
+<span data-ttu-id="b629a-174">以下是 HcmEmployment 表中的员工示例。</span><span class="sxs-lookup"><span data-stu-id="b629a-174">Here is an example of employees in the HcmEmployment table.</span></span>
 
-| 姓名       | 成本中心 | 说明   | 工作人员类型 |
+| <span data-ttu-id="b629a-175">姓名</span><span class="sxs-lookup"><span data-stu-id="b629a-175">Name</span></span>       | <span data-ttu-id="b629a-176">成本中心</span><span class="sxs-lookup"><span data-stu-id="b629a-176">Cost center</span></span> | <span data-ttu-id="b629a-177">说明</span><span class="sxs-lookup"><span data-stu-id="b629a-177">Description</span></span>   | <span data-ttu-id="b629a-178">工作人员类型</span><span class="sxs-lookup"><span data-stu-id="b629a-178">Worker type</span></span> |
 |------------|-------------|----|-------------|
-| 员工 1 | CC001       | HR | 盘点责任人    |
-| 员工 2 | CC002       | FI | 盘点责任人    |
-| 员工 3 | CC002       | FI | 盘点责任人    |
-| 员工 4 | CC003       | IT | 盘点责任人    |
-| 员工 5 | CC003       | IT | 盘点责任人    |
-| 员工 6 | CC002       | FI | 合同工  |
+| <span data-ttu-id="b629a-179">员工 1</span><span class="sxs-lookup"><span data-stu-id="b629a-179">Employee 1</span></span> | <span data-ttu-id="b629a-180">CC001</span><span class="sxs-lookup"><span data-stu-id="b629a-180">CC001</span></span>       | <span data-ttu-id="b629a-181">HR</span><span class="sxs-lookup"><span data-stu-id="b629a-181">HR</span></span> | <span data-ttu-id="b629a-182">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="b629a-182">Employee</span></span>    |
+| <span data-ttu-id="b629a-183">员工 2</span><span class="sxs-lookup"><span data-stu-id="b629a-183">Employee 2</span></span> | <span data-ttu-id="b629a-184">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-184">CC002</span></span>       | <span data-ttu-id="b629a-185">FI</span><span class="sxs-lookup"><span data-stu-id="b629a-185">FI</span></span> | <span data-ttu-id="b629a-186">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="b629a-186">Employee</span></span>    |
+| <span data-ttu-id="b629a-187">员工 3</span><span class="sxs-lookup"><span data-stu-id="b629a-187">Employee 3</span></span> | <span data-ttu-id="b629a-188">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-188">CC002</span></span>       | <span data-ttu-id="b629a-189">FI</span><span class="sxs-lookup"><span data-stu-id="b629a-189">FI</span></span> | <span data-ttu-id="b629a-190">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="b629a-190">Employee</span></span>    |
+| <span data-ttu-id="b629a-191">员工 4</span><span class="sxs-lookup"><span data-stu-id="b629a-191">Employee 4</span></span> | <span data-ttu-id="b629a-192">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-192">CC003</span></span>       | <span data-ttu-id="b629a-193">IT</span><span class="sxs-lookup"><span data-stu-id="b629a-193">IT</span></span> | <span data-ttu-id="b629a-194">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="b629a-194">Employee</span></span>    |
+| <span data-ttu-id="b629a-195">员工 5</span><span class="sxs-lookup"><span data-stu-id="b629a-195">Employee 5</span></span> | <span data-ttu-id="b629a-196">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-196">CC003</span></span>       | <span data-ttu-id="b629a-197">IT</span><span class="sxs-lookup"><span data-stu-id="b629a-197">IT</span></span> | <span data-ttu-id="b629a-198">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="b629a-198">Employee</span></span>    |
+| <span data-ttu-id="b629a-199">员工 6</span><span class="sxs-lookup"><span data-stu-id="b629a-199">Employee 6</span></span> | <span data-ttu-id="b629a-200">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-200">CC002</span></span>       | <span data-ttu-id="b629a-201">FI</span><span class="sxs-lookup"><span data-stu-id="b629a-201">FI</span></span> | <span data-ttu-id="b629a-202">合同工</span><span class="sxs-lookup"><span data-stu-id="b629a-202">Contractor</span></span>  |
 
-在您创建**统计度量提供方模板**记录后，您必须决定使用哪些功能：
+<span data-ttu-id="b629a-203">在您创建**统计度量提供方模板**记录后，您必须决定使用哪些功能：</span><span class="sxs-lookup"><span data-stu-id="b629a-203">When you create a **Statistical measure provider template** record, you must decide which function to use:</span></span>
 
-- **计数** - 各成本中心的记录计数被转移。
-- **总和** - 各成本中心的记录总和被转移。 （**总和**字段和**日期**字段必填。）
+- <span data-ttu-id="b629a-204">**计数** - 各成本中心的记录计数被转移。</span><span class="sxs-lookup"><span data-stu-id="b629a-204">**Count** – A count of records per cost object is transferred.</span></span>
+- <span data-ttu-id="b629a-205">**总和** - 各成本中心的记录总和被转移。</span><span class="sxs-lookup"><span data-stu-id="b629a-205">**Sum** – A sum for records per cost object is transferred.</span></span> <span data-ttu-id="b629a-206">（**总和**字段和**日期**字段必填。）</span><span class="sxs-lookup"><span data-stu-id="b629a-206">(The **Sum** field and **Date** field are required.)</span></span>
 
-## <a name="using-the-count-function"></a>使用计数功能
+## <a name="using-the-count-function"></a><span data-ttu-id="b629a-207">使用计数功能</span><span class="sxs-lookup"><span data-stu-id="b629a-207">Using the Count function</span></span>
 
-例如，统计度量提供方模板可如下设置。
+<span data-ttu-id="b629a-208">例如，统计度量提供方模板可如下设置。</span><span class="sxs-lookup"><span data-stu-id="b629a-208">For example, a statistical measure provider template can be set up as follows.</span></span>
 
-| 姓名  | 职能 | 源表  | 总计字段      | 日期字段     |
+| <span data-ttu-id="b629a-209">姓名</span><span class="sxs-lookup"><span data-stu-id="b629a-209">Name</span></span>  | <span data-ttu-id="b629a-210">职能</span><span class="sxs-lookup"><span data-stu-id="b629a-210">Function</span></span> | <span data-ttu-id="b629a-211">源表</span><span class="sxs-lookup"><span data-stu-id="b629a-211">Source table</span></span>  | <span data-ttu-id="b629a-212">总计字段</span><span class="sxs-lookup"><span data-stu-id="b629a-212">Sum field</span></span>      | <span data-ttu-id="b629a-213">日期字段</span><span class="sxs-lookup"><span data-stu-id="b629a-213">Date field</span></span>     |
 |-------|----------|---------------|----------------|----------------|
-| FTE  | 盘点    | HcmEmployment | 不适用 | 不适用 |
+| <span data-ttu-id="b629a-214">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-214">FTEs</span></span>  | <span data-ttu-id="b629a-215">盘点</span><span class="sxs-lookup"><span data-stu-id="b629a-215">Count</span></span>    | <span data-ttu-id="b629a-216">HcmEmployment</span><span class="sxs-lookup"><span data-stu-id="b629a-216">HcmEmployment</span></span> | <span data-ttu-id="b629a-217">不适用</span><span class="sxs-lookup"><span data-stu-id="b629a-217">Not applicable</span></span> | <span data-ttu-id="b629a-218">不适用</span><span class="sxs-lookup"><span data-stu-id="b629a-218">Not applicable</span></span> |
 
-您还可以添加一个或多个范围以减少来自源表的度量。
+<span data-ttu-id="b629a-219">您还可以添加一个或多个范围以减少来自源表的度量。</span><span class="sxs-lookup"><span data-stu-id="b629a-219">You can also add one or more ranges to narrow the measures from the source table.</span></span>
 
-在此示例中，如果您只需要所有全职员工 (FTE) 的计数，您可以在**工作人员类型**字段中添加一个范围。 在**条件**字段，选择**员工**以按照如下所示限制输出范围。
+<span data-ttu-id="b629a-220">在此示例中，如果您只需要所有全职员工 (FTE) 的计数，您可以在**工作人员类型**字段中添加一个范围。</span><span class="sxs-lookup"><span data-stu-id="b629a-220">In this example, if you just want a count of all full-time employees (FTEs), you can add a range in the **Worker type** field.</span></span> <span data-ttu-id="b629a-221">在**条件**字段，选择**员工**以按照如下所示限制输出范围。</span><span class="sxs-lookup"><span data-stu-id="b629a-221">In the **Criteria** field, select **Employee** to limit the output range as follows.</span></span>
 
-**范围**
+<span data-ttu-id="b629a-222">**范围**</span><span class="sxs-lookup"><span data-stu-id="b629a-222">**Ranges**</span></span>
 
-| 源表  | 字段       | 条件 |
+| <span data-ttu-id="b629a-223">源表</span><span class="sxs-lookup"><span data-stu-id="b629a-223">Source table</span></span>  | <span data-ttu-id="b629a-224">字段</span><span class="sxs-lookup"><span data-stu-id="b629a-224">Field</span></span>       | <span data-ttu-id="b629a-225">条件</span><span class="sxs-lookup"><span data-stu-id="b629a-225">Criteria</span></span> |
 |---------------|-------------|----------|
-| HcmEmployment | 工作人员类型 | 盘点责任人 |
+| <span data-ttu-id="b629a-226">HcmEmployment</span><span class="sxs-lookup"><span data-stu-id="b629a-226">HcmEmployment</span></span> | <span data-ttu-id="b629a-227">工作人员类型</span><span class="sxs-lookup"><span data-stu-id="b629a-227">Worker type</span></span> | <span data-ttu-id="b629a-228">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="b629a-228">Employee</span></span> |
 
-在您在成本核算中获取统计度量以前，您必须建立统计度量提供方模板与统计维度成员之间的关系。 此关系按成本核算分类帐和版本创建。 此关系包括数据连接器和数据提供程序。 每个统计维度成员可具有多个数据连接器和数据提供程序。
+<span data-ttu-id="b629a-229">在您在成本核算中获取统计度量以前，您必须建立统计度量提供方模板与统计维度成员之间的关系。</span><span class="sxs-lookup"><span data-stu-id="b629a-229">Before you can get statistical measures into Cost accounting, you must establish the relation between the statistical measure provider template and the statistical dimension member.</span></span> <span data-ttu-id="b629a-230">此关系按成本核算分类帐和版本创建。</span><span class="sxs-lookup"><span data-stu-id="b629a-230">This relation is created per Cost accounting ledger and version.</span></span> <span data-ttu-id="b629a-231">此关系包括数据连接器和数据提供程序。</span><span class="sxs-lookup"><span data-stu-id="b629a-231">The relation consists of a data connector and a data provider.</span></span> <span data-ttu-id="b629a-232">每个统计维度成员可具有多个数据连接器和数据提供程序。</span><span class="sxs-lookup"><span data-stu-id="b629a-232">You can have several data connectors and data providers per statistical dimension member.</span></span>
 
 > [!NOTE]
-> 在此示例中，我们将仅为**实际版本**创建一种关系。
+> <span data-ttu-id="b629a-233">在此示例中，我们将仅为**实际版本**创建一种关系。</span><span class="sxs-lookup"><span data-stu-id="b629a-233">In this example, we will create a relation only for the **Actual version**.</span></span>
 
-转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。 对于此方案，选择 **Dynamics 365 for Finance and Operations Enterprise Edition - 统计度量**数据连接器，因为我们希望从 Finance and Operations 提取数据。
+<span data-ttu-id="b629a-234">转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。</span><span class="sxs-lookup"><span data-stu-id="b629a-234">Go to **Cost accounting ledger** \> **Actual version** \> **Manage** \> **Statistical measures** to establish the relation.</span></span> <span data-ttu-id="b629a-235">对于此方案，选择 **Dynamics 365 for Finance and Operations Enterprise Edition - 统计度量**数据连接器，因为我们希望从 Finance and Operations 提取数据。</span><span class="sxs-lookup"><span data-stu-id="b629a-235">For this scenario, select the **Dynamics 365 for Finance and Operations, Enterprise edition – Statistical measures** data connector, because we want to extract data from Finance and Operations.</span></span>
 
-**数据源**
+<span data-ttu-id="b629a-236">**数据源**</span><span class="sxs-lookup"><span data-stu-id="b629a-236">**Data source**</span></span>
 
-| 姓名        | 数据连接器                                                                     | 统计维度成员 |
+| <span data-ttu-id="b629a-237">姓名</span><span class="sxs-lookup"><span data-stu-id="b629a-237">Name</span></span>        | <span data-ttu-id="b629a-238">数据连接器</span><span class="sxs-lookup"><span data-stu-id="b629a-238">Data connector</span></span>                                                                     | <span data-ttu-id="b629a-239">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="b629a-239">Statistical dimension member</span></span> |
 |-------------|------------------------------------------------------------------------------------|------------------------------|
-| FTEs D365FO | Dynamics 365 for Finance and Operations Enterprise Edition - 统计度量 | FTE                         |
+| <span data-ttu-id="b629a-240">FTEs D365FO</span><span class="sxs-lookup"><span data-stu-id="b629a-240">FTEs D365FO</span></span> | <span data-ttu-id="b629a-241">Dynamics 365 for Finance and Operations Enterprise Edition - 统计度量</span><span class="sxs-lookup"><span data-stu-id="b629a-241">Dynamics 365 for Finance and Operations, Enterprise edition – Statistical measures</span></span> | <span data-ttu-id="b629a-242">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-242">FTEs</span></span>                         |
 
-**数据提供程序配置**
+<span data-ttu-id="b629a-243">**数据提供程序配置**</span><span class="sxs-lookup"><span data-stu-id="b629a-243">**Data provider configuration**</span></span>
 
-| 统计模板名称 |
+| <span data-ttu-id="b629a-244">统计模板名称</span><span class="sxs-lookup"><span data-stu-id="b629a-244">Statistical template name</span></span> |
 |---------------------------|
-| FTE                      |
+| <span data-ttu-id="b629a-245">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-245">FTEs</span></span>                      |
 
-处理统计度量源数据后，将在成本核算中创建以下统计条目。
+<span data-ttu-id="b629a-246">处理统计度量源数据后，将在成本核算中创建以下统计条目。</span><span class="sxs-lookup"><span data-stu-id="b629a-246">After the source data for the statistical measure is processed, the following statistical entries are created in Cost accounting.</span></span>
 
-**日记帐**
+<span data-ttu-id="b629a-247">**日记帐**</span><span class="sxs-lookup"><span data-stu-id="b629a-247">**Journal**</span></span>
 
-| 生产订单日记帐 | 日记帐类型                       | 会计日历期间 | 年   |  期间余额  |  版本 | 数据连接器源条目|
+| <span data-ttu-id="b629a-248">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="b629a-248">Journal</span></span> | <span data-ttu-id="b629a-249">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="b629a-249">Journal type</span></span>                       | <span data-ttu-id="b629a-250">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="b629a-250">Fiscal calendar period</span></span> | <span data-ttu-id="b629a-251">年</span><span class="sxs-lookup"><span data-stu-id="b629a-251">Year</span></span>   |  <span data-ttu-id="b629a-252">期间余额</span><span class="sxs-lookup"><span data-stu-id="b629a-252">Period</span></span>  |  <span data-ttu-id="b629a-253">版本</span><span class="sxs-lookup"><span data-stu-id="b629a-253">Version</span></span> | <span data-ttu-id="b629a-254">数据连接器源条目</span><span class="sxs-lookup"><span data-stu-id="b629a-254">Data connector source entries</span></span>|
 |---------|------------------------------------|------------------------|--------|----------|----------|------------------------------|
-| 00001   | 统计条目转移日记帐 | 会计                 | 2017   | 期间 1 | CA 分类帐 USMF | FTE                   |
+| <span data-ttu-id="b629a-255">00001</span><span class="sxs-lookup"><span data-stu-id="b629a-255">00001</span></span>   | <span data-ttu-id="b629a-256">统计条目转移日记帐</span><span class="sxs-lookup"><span data-stu-id="b629a-256">Statistical entry transfer journal</span></span> | <span data-ttu-id="b629a-257">会计</span><span class="sxs-lookup"><span data-stu-id="b629a-257">Fiscal</span></span>                 | <span data-ttu-id="b629a-258">2017</span><span class="sxs-lookup"><span data-stu-id="b629a-258">2017</span></span>   | <span data-ttu-id="b629a-259">期间 1</span><span class="sxs-lookup"><span data-stu-id="b629a-259">Period 1</span></span> | <span data-ttu-id="b629a-260">CA 分类帐 USMF</span><span class="sxs-lookup"><span data-stu-id="b629a-260">CA ledger USMF</span></span> | <span data-ttu-id="b629a-261">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-261">FTEs</span></span>                   |
 
-**统计条目转移日记帐条目**
+<span data-ttu-id="b629a-262">**统计条目转移日记帐条目**</span><span class="sxs-lookup"><span data-stu-id="b629a-262">**Statistical entry transfer journal entries**</span></span>
 
-| 会计日期 | 度量值 | 统计元素 |   说明       | 成本中心 |
+| <span data-ttu-id="b629a-263">会计日期</span><span class="sxs-lookup"><span data-stu-id="b629a-263">Accounting date</span></span> | <span data-ttu-id="b629a-264">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-264">Magnitude</span></span> | <span data-ttu-id="b629a-265">统计元素</span><span class="sxs-lookup"><span data-stu-id="b629a-265">Statistical element</span></span> |   <span data-ttu-id="b629a-266">说明</span><span class="sxs-lookup"><span data-stu-id="b629a-266">Description</span></span>       | <span data-ttu-id="b629a-267">成本中心</span><span class="sxs-lookup"><span data-stu-id="b629a-267">Cost center</span></span> |
 |-----------------|-----------|---------------------|---------------------|-------------|
-| 31-01-2017      | 1.00      | FTE                | 全职员工 | CC001       |
-| 31-01-2017      | 2.00      | FTE                | 全职员工 | CC002       |
-| 31-01-2017      | 2.00      | FTE                | 全职员工 | CC003       |
+| <span data-ttu-id="b629a-268">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-268">31-01-2017</span></span>      | <span data-ttu-id="b629a-269">1.00</span><span class="sxs-lookup"><span data-stu-id="b629a-269">1.00</span></span>      | <span data-ttu-id="b629a-270">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-270">FTEs</span></span>                | <span data-ttu-id="b629a-271">全职员工</span><span class="sxs-lookup"><span data-stu-id="b629a-271">Full time employees</span></span> | <span data-ttu-id="b629a-272">CC001</span><span class="sxs-lookup"><span data-stu-id="b629a-272">CC001</span></span>       |
+| <span data-ttu-id="b629a-273">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-273">31-01-2017</span></span>      | <span data-ttu-id="b629a-274">2.00</span><span class="sxs-lookup"><span data-stu-id="b629a-274">2.00</span></span>      | <span data-ttu-id="b629a-275">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-275">FTEs</span></span>                | <span data-ttu-id="b629a-276">全职员工</span><span class="sxs-lookup"><span data-stu-id="b629a-276">Full time employees</span></span> | <span data-ttu-id="b629a-277">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-277">CC002</span></span>       |
+| <span data-ttu-id="b629a-278">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-278">31-01-2017</span></span>      | <span data-ttu-id="b629a-279">2.00</span><span class="sxs-lookup"><span data-stu-id="b629a-279">2.00</span></span>      | <span data-ttu-id="b629a-280">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-280">FTEs</span></span>                | <span data-ttu-id="b629a-281">全职员工</span><span class="sxs-lookup"><span data-stu-id="b629a-281">Full time employees</span></span> | <span data-ttu-id="b629a-282">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-282">CC003</span></span>       |
 
-**统计条目**
+<span data-ttu-id="b629a-283">**统计条目**</span><span class="sxs-lookup"><span data-stu-id="b629a-283">**Statistical entries**</span></span>
 
-| 成本对象 |    | 会计日期 | 统计维度成员 |  说明        | 度量值 |
+| <span data-ttu-id="b629a-284">成本对象</span><span class="sxs-lookup"><span data-stu-id="b629a-284">Cost object</span></span> |    | <span data-ttu-id="b629a-285">会计日期</span><span class="sxs-lookup"><span data-stu-id="b629a-285">Accounting date</span></span> | <span data-ttu-id="b629a-286">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="b629a-286">Statistical dimension member</span></span> |  <span data-ttu-id="b629a-287">说明</span><span class="sxs-lookup"><span data-stu-id="b629a-287">Description</span></span>        | <span data-ttu-id="b629a-288">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-288">Magnitude</span></span> |
 |-------------|----|-----------------|------------------------------|---------------------|-----------|
-| CC001       | HR | 31-01-2017      | FTE                         | 全职员工 | 1.00      |
-| CC002       | FI | 31-01-2017      | FTE                         | 全职员工 | 2.00      |
-| CC003       | IT | 31-01-2017      | FTE                         | 全职员工 | 2.00      |
+| <span data-ttu-id="b629a-289">CC001</span><span class="sxs-lookup"><span data-stu-id="b629a-289">CC001</span></span>       | <span data-ttu-id="b629a-290">HR</span><span class="sxs-lookup"><span data-stu-id="b629a-290">HR</span></span> | <span data-ttu-id="b629a-291">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-291">31-01-2017</span></span>      | <span data-ttu-id="b629a-292">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-292">FTEs</span></span>                         | <span data-ttu-id="b629a-293">全职员工</span><span class="sxs-lookup"><span data-stu-id="b629a-293">Full time employees</span></span> | <span data-ttu-id="b629a-294">1.00</span><span class="sxs-lookup"><span data-stu-id="b629a-294">1.00</span></span>      |
+| <span data-ttu-id="b629a-295">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-295">CC002</span></span>       | <span data-ttu-id="b629a-296">FI</span><span class="sxs-lookup"><span data-stu-id="b629a-296">FI</span></span> | <span data-ttu-id="b629a-297">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-297">31-01-2017</span></span>      | <span data-ttu-id="b629a-298">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-298">FTEs</span></span>                         | <span data-ttu-id="b629a-299">全职员工</span><span class="sxs-lookup"><span data-stu-id="b629a-299">Full time employees</span></span> | <span data-ttu-id="b629a-300">2.00</span><span class="sxs-lookup"><span data-stu-id="b629a-300">2.00</span></span>      |
+| <span data-ttu-id="b629a-301">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-301">CC003</span></span>       | <span data-ttu-id="b629a-302">IT</span><span class="sxs-lookup"><span data-stu-id="b629a-302">IT</span></span> | <span data-ttu-id="b629a-303">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-303">31-01-2017</span></span>      | <span data-ttu-id="b629a-304">FTE</span><span class="sxs-lookup"><span data-stu-id="b629a-304">FTEs</span></span>                         | <span data-ttu-id="b629a-305">全职员工</span><span class="sxs-lookup"><span data-stu-id="b629a-305">Full time employees</span></span> | <span data-ttu-id="b629a-306">2.00</span><span class="sxs-lookup"><span data-stu-id="b629a-306">2.00</span></span>      |
 
-如果 FTE 预定义维度成员分配基础分配为成本分配规则中的分配基础，可以通过使用以下分配系数分配成本。
+<span data-ttu-id="b629a-307">如果 FTE 预定义维度成员分配基础分配为成本分配规则中的分配基础，可以通过使用以下分配系数分配成本。</span><span class="sxs-lookup"><span data-stu-id="b629a-307">If the FTEs predefined dimension member allocation basis is assigned as an allocation base in a cost distribution rule, the cost will be distributed by using the following allocation factor.</span></span>
 
-| 成本对象 | 说明    | 度量值 | 分配系数 |
+| <span data-ttu-id="b629a-308">成本对象</span><span class="sxs-lookup"><span data-stu-id="b629a-308">Cost object</span></span> | <span data-ttu-id="b629a-309">说明</span><span class="sxs-lookup"><span data-stu-id="b629a-309">Description</span></span>    | <span data-ttu-id="b629a-310">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-310">Magnitude</span></span> | <span data-ttu-id="b629a-311">分配系数</span><span class="sxs-lookup"><span data-stu-id="b629a-311">Allocation factor</span></span> |
 |-------------|----|-----------|-------------------|
-| CC001       | HR | 1.00      | (1/5) × 金额    |
-| CC002       | FI | 2.00      | (2/5) × 金额    |
-| CC003       | IT | 2.00      | (2/5) × 金额    |
+| <span data-ttu-id="b629a-312">CC001</span><span class="sxs-lookup"><span data-stu-id="b629a-312">CC001</span></span>       | <span data-ttu-id="b629a-313">HR</span><span class="sxs-lookup"><span data-stu-id="b629a-313">HR</span></span> | <span data-ttu-id="b629a-314">1.00</span><span class="sxs-lookup"><span data-stu-id="b629a-314">1.00</span></span>      | <span data-ttu-id="b629a-315">(1/5) × 金额</span><span class="sxs-lookup"><span data-stu-id="b629a-315">(1/5) × Amount</span></span>    |
+| <span data-ttu-id="b629a-316">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-316">CC002</span></span>       | <span data-ttu-id="b629a-317">FI</span><span class="sxs-lookup"><span data-stu-id="b629a-317">FI</span></span> | <span data-ttu-id="b629a-318">2.00</span><span class="sxs-lookup"><span data-stu-id="b629a-318">2.00</span></span>      | <span data-ttu-id="b629a-319">(2/5) × 金额</span><span class="sxs-lookup"><span data-stu-id="b629a-319">(2/5) × Amount</span></span>    |
+| <span data-ttu-id="b629a-320">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-320">CC003</span></span>       | <span data-ttu-id="b629a-321">IT</span><span class="sxs-lookup"><span data-stu-id="b629a-321">IT</span></span> | <span data-ttu-id="b629a-322">2.00</span><span class="sxs-lookup"><span data-stu-id="b629a-322">2.00</span></span>      | <span data-ttu-id="b629a-323">(2/5) × 金额</span><span class="sxs-lookup"><span data-stu-id="b629a-323">(2/5) × Amount</span></span>    |
 
-## <a name="using-the-sum-function"></a>使用总和功能
+## <a name="using-the-sum-function"></a><span data-ttu-id="b629a-324">使用总和功能</span><span class="sxs-lookup"><span data-stu-id="b629a-324">Using the Sum function</span></span>
 
-生产成本中心 CC010（包装）负责在将产品装运到客户前包装产品。 直接人工成本通过物料清单 (BOM) 和工艺路线添加到产品。 运行成本中心的间接成本也必须分配到生产的产品。 通常，用于此分配的最佳统计度量是各产品在特定时间段内登记的生产工时数。
+<span data-ttu-id="b629a-325">生产成本中心 CC010（包装）负责在将产品装运到客户前包装产品。</span><span class="sxs-lookup"><span data-stu-id="b629a-325">A production cost center, CC010 (Packaging), is responsible for packaging the products before they are shipped to customers.</span></span> <span data-ttu-id="b629a-326">直接人工成本通过物料清单 (BOM) 和工艺路线添加到产品。</span><span class="sxs-lookup"><span data-stu-id="b629a-326">The direct labor cost is added to the products via the bill of materials (BOM) and route.</span></span> <span data-ttu-id="b629a-327">运行成本中心的间接成本也必须分配到生产的产品。</span><span class="sxs-lookup"><span data-stu-id="b629a-327">The indirect cost of running the cost center must also be allocated to the produced products.</span></span> <span data-ttu-id="b629a-328">通常，用于此分配的最佳统计度量是各产品在特定时间段内登记的生产工时数。</span><span class="sxs-lookup"><span data-stu-id="b629a-328">Often, the best statistical measure for such an allocation is the number of registered production hours per product within the given period.</span></span>
 
-ProdRouteTrans 表包含按法人 DataAreadID 分类的所有生产人工交易记录。
+<span data-ttu-id="b629a-329">ProdRouteTrans 表包含按法人 DataAreadID 分类的所有生产人工交易记录。</span><span class="sxs-lookup"><span data-stu-id="b629a-329">The ProdRouteTrans table holds all production labor transactions per legal entity DataAreadID.</span></span>
 
-以下是 ProdRouteTrans 表的示例。
+<span data-ttu-id="b629a-330">以下是 ProdRouteTrans 表的示例。</span><span class="sxs-lookup"><span data-stu-id="b629a-330">Here is an example of the ProdRouteTrans table.</span></span>
 
-| 参考        | 数字 | 工序 | 类型 | 时间  | 实际日期 | 产品组（财务维度） | 法人 |
+| <span data-ttu-id="b629a-331">参考</span><span class="sxs-lookup"><span data-stu-id="b629a-331">Reference</span></span>        | <span data-ttu-id="b629a-332">数字</span><span class="sxs-lookup"><span data-stu-id="b629a-332">Number</span></span> | <span data-ttu-id="b629a-333">工序</span><span class="sxs-lookup"><span data-stu-id="b629a-333">Operation</span></span> | <span data-ttu-id="b629a-334">类型</span><span class="sxs-lookup"><span data-stu-id="b629a-334">Type</span></span> | <span data-ttu-id="b629a-335">时间</span><span class="sxs-lookup"><span data-stu-id="b629a-335">Time</span></span>  | <span data-ttu-id="b629a-336">实际日期</span><span class="sxs-lookup"><span data-stu-id="b629a-336">Physical date</span></span> | <span data-ttu-id="b629a-337">产品组（财务维度）</span><span class="sxs-lookup"><span data-stu-id="b629a-337">Product group (Financial dimension)</span></span> | <span data-ttu-id="b629a-338">法人</span><span class="sxs-lookup"><span data-stu-id="b629a-338">Legal entity</span></span> |
 |------------------|--------|-----------|------|-------|---------------|-------------------------------------|--------------|
-| 生产订单 | P0001  | 包装 | 时间 | 8.00  | 01-01-2017    | 橙汁 B2B                    | USMF         |
-| 生产订单 | P0001  | 包装 | 时间 | 8.00  | 02-01-2017    | 橙汁 B2B                    | USMF         |
-| 生产订单 | P0002  | 包装 | 时间 | 4.00  | 03-01-2017    | 橙汁消费者               | USMF         |
-| 生产订单 | P0003  | 包装 | 时间 | 4.00  | 03-01-2017    | 橙汁消费者               | USMF         |
-| 生产订单 | P0004  | 重新构建。  | 时间 | 10.00 | 03-01-2017    | 橙汁消费者               | USMF         |
+| <span data-ttu-id="b629a-339">生产订单</span><span class="sxs-lookup"><span data-stu-id="b629a-339">Production order</span></span> | <span data-ttu-id="b629a-340">P0001</span><span class="sxs-lookup"><span data-stu-id="b629a-340">P0001</span></span>  | <span data-ttu-id="b629a-341">包装</span><span class="sxs-lookup"><span data-stu-id="b629a-341">Packaging</span></span> | <span data-ttu-id="b629a-342">时间</span><span class="sxs-lookup"><span data-stu-id="b629a-342">Time</span></span> | <span data-ttu-id="b629a-343">8.00</span><span class="sxs-lookup"><span data-stu-id="b629a-343">8.00</span></span>  | <span data-ttu-id="b629a-344">01-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-344">01-01-2017</span></span>    | <span data-ttu-id="b629a-345">橙汁 B2B</span><span class="sxs-lookup"><span data-stu-id="b629a-345">Orange juice B2B</span></span>                    | <span data-ttu-id="b629a-346">USMF</span><span class="sxs-lookup"><span data-stu-id="b629a-346">USMF</span></span>         |
+| <span data-ttu-id="b629a-347">生产订单</span><span class="sxs-lookup"><span data-stu-id="b629a-347">Production order</span></span> | <span data-ttu-id="b629a-348">P0001</span><span class="sxs-lookup"><span data-stu-id="b629a-348">P0001</span></span>  | <span data-ttu-id="b629a-349">包装</span><span class="sxs-lookup"><span data-stu-id="b629a-349">Packaging</span></span> | <span data-ttu-id="b629a-350">时间</span><span class="sxs-lookup"><span data-stu-id="b629a-350">Time</span></span> | <span data-ttu-id="b629a-351">8.00</span><span class="sxs-lookup"><span data-stu-id="b629a-351">8.00</span></span>  | <span data-ttu-id="b629a-352">02-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-352">02-01-2017</span></span>    | <span data-ttu-id="b629a-353">橙汁 B2B</span><span class="sxs-lookup"><span data-stu-id="b629a-353">Orange juice B2B</span></span>                    | <span data-ttu-id="b629a-354">USMF</span><span class="sxs-lookup"><span data-stu-id="b629a-354">USMF</span></span>         |
+| <span data-ttu-id="b629a-355">生产订单</span><span class="sxs-lookup"><span data-stu-id="b629a-355">Production order</span></span> | <span data-ttu-id="b629a-356">P0002</span><span class="sxs-lookup"><span data-stu-id="b629a-356">P0002</span></span>  | <span data-ttu-id="b629a-357">包装</span><span class="sxs-lookup"><span data-stu-id="b629a-357">Packaging</span></span> | <span data-ttu-id="b629a-358">时间</span><span class="sxs-lookup"><span data-stu-id="b629a-358">Time</span></span> | <span data-ttu-id="b629a-359">4.00</span><span class="sxs-lookup"><span data-stu-id="b629a-359">4.00</span></span>  | <span data-ttu-id="b629a-360">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-360">03-01-2017</span></span>    | <span data-ttu-id="b629a-361">橙汁消费者</span><span class="sxs-lookup"><span data-stu-id="b629a-361">Orange juice Consumer</span></span>               | <span data-ttu-id="b629a-362">USMF</span><span class="sxs-lookup"><span data-stu-id="b629a-362">USMF</span></span>         |
+| <span data-ttu-id="b629a-363">生产订单</span><span class="sxs-lookup"><span data-stu-id="b629a-363">Production order</span></span> | <span data-ttu-id="b629a-364">P0003</span><span class="sxs-lookup"><span data-stu-id="b629a-364">P0003</span></span>  | <span data-ttu-id="b629a-365">包装</span><span class="sxs-lookup"><span data-stu-id="b629a-365">Packaging</span></span> | <span data-ttu-id="b629a-366">时间</span><span class="sxs-lookup"><span data-stu-id="b629a-366">Time</span></span> | <span data-ttu-id="b629a-367">4.00</span><span class="sxs-lookup"><span data-stu-id="b629a-367">4.00</span></span>  | <span data-ttu-id="b629a-368">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-368">03-01-2017</span></span>    | <span data-ttu-id="b629a-369">橙汁消费者</span><span class="sxs-lookup"><span data-stu-id="b629a-369">Orange juice Consumer</span></span>               | <span data-ttu-id="b629a-370">USMF</span><span class="sxs-lookup"><span data-stu-id="b629a-370">USMF</span></span>         |
+| <span data-ttu-id="b629a-371">生产订单</span><span class="sxs-lookup"><span data-stu-id="b629a-371">Production order</span></span> | <span data-ttu-id="b629a-372">P0004</span><span class="sxs-lookup"><span data-stu-id="b629a-372">P0004</span></span>  | <span data-ttu-id="b629a-373">重新构建。</span><span class="sxs-lookup"><span data-stu-id="b629a-373">Reconst.</span></span>  | <span data-ttu-id="b629a-374">时间</span><span class="sxs-lookup"><span data-stu-id="b629a-374">Time</span></span> | <span data-ttu-id="b629a-375">10.00</span><span class="sxs-lookup"><span data-stu-id="b629a-375">10.00</span></span> | <span data-ttu-id="b629a-376">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-376">03-01-2017</span></span>    | <span data-ttu-id="b629a-377">橙汁消费者</span><span class="sxs-lookup"><span data-stu-id="b629a-377">Orange juice Consumer</span></span>               | <span data-ttu-id="b629a-378">USMF</span><span class="sxs-lookup"><span data-stu-id="b629a-378">USMF</span></span>         |
 
-在您创建**统计度量提供方模板**记录后，您必须决定使用哪些功能：
+<span data-ttu-id="b629a-379">在您创建**统计度量提供方模板**记录后，您必须决定使用哪些功能：</span><span class="sxs-lookup"><span data-stu-id="b629a-379">When you create a **Statistical measure provider template** record, you must decide which function to use:</span></span>
 
-- **计数** - 各成本中心的记录计数被转移。
-- **总和** - 各成本中心的记录总和被转移。 （**总和**字段和**日期**字段必填。）
+- <span data-ttu-id="b629a-380">**计数** - 各成本中心的记录计数被转移。</span><span class="sxs-lookup"><span data-stu-id="b629a-380">**Count** – A count of records per cost object is transferred.</span></span>
+- <span data-ttu-id="b629a-381">**总和** - 各成本中心的记录总和被转移。</span><span class="sxs-lookup"><span data-stu-id="b629a-381">**Sum** – A sum for records per cost object is transferred.</span></span> <span data-ttu-id="b629a-382">（**总和**字段和**日期**字段必填。）</span><span class="sxs-lookup"><span data-stu-id="b629a-382">(The **Sum** field and **Date** field are required.)</span></span>
 
-统计度量提供方模板可如下设置。
+<span data-ttu-id="b629a-383">统计度量提供方模板可如下设置。</span><span class="sxs-lookup"><span data-stu-id="b629a-383">The statistical measure provider template can be set up as follows.</span></span>
 
-| 姓名    | 职能 | 源表   | 总计字段 | 日期字段    |
+| <span data-ttu-id="b629a-384">姓名</span><span class="sxs-lookup"><span data-stu-id="b629a-384">Name</span></span>    | <span data-ttu-id="b629a-385">职能</span><span class="sxs-lookup"><span data-stu-id="b629a-385">Function</span></span> | <span data-ttu-id="b629a-386">源表</span><span class="sxs-lookup"><span data-stu-id="b629a-386">Source table</span></span>   | <span data-ttu-id="b629a-387">总计字段</span><span class="sxs-lookup"><span data-stu-id="b629a-387">Sum field</span></span> | <span data-ttu-id="b629a-388">日期字段</span><span class="sxs-lookup"><span data-stu-id="b629a-388">Date field</span></span>    |
 |---------|----------|----------------|-----------|---------------|
-| 包装 CC | 总和      | ProdRouteTrans | 工时     | 实际日期 |
+| <span data-ttu-id="b629a-389">包装 CC</span><span class="sxs-lookup"><span data-stu-id="b629a-389">Pack CC</span></span> | <span data-ttu-id="b629a-390">总和</span><span class="sxs-lookup"><span data-stu-id="b629a-390">Sum</span></span>      | <span data-ttu-id="b629a-391">ProdRouteTrans</span><span class="sxs-lookup"><span data-stu-id="b629a-391">ProdRouteTrans</span></span> | <span data-ttu-id="b629a-392">工时</span><span class="sxs-lookup"><span data-stu-id="b629a-392">Hours</span></span>     | <span data-ttu-id="b629a-393">实际日期</span><span class="sxs-lookup"><span data-stu-id="b629a-393">Physical date</span></span> |
 
-您还可以添加范围以减少来自源表的度量。
+<span data-ttu-id="b629a-394">您还可以添加范围以减少来自源表的度量。</span><span class="sxs-lookup"><span data-stu-id="b629a-394">You can also add ranges to narrow the measures from the source table.</span></span>
 
-在此示例中，如果您只需要与 CC010 包装成本中心有关的工时总和，您可以在**工序**字段添加一个范围。 在**条件**字段中，选择**包装**以限制输出范围。
+<span data-ttu-id="b629a-395">在此示例中，如果您只需要与 CC010 包装成本中心有关的工时总和，您可以在**工序**字段添加一个范围。</span><span class="sxs-lookup"><span data-stu-id="b629a-395">In this example, if you just want the sum of hours that are related to the CC010 Packaging cost center, you can add a range in the **Operation** field.</span></span> <span data-ttu-id="b629a-396">在**条件**字段中，选择**包装**以限制输出范围。</span><span class="sxs-lookup"><span data-stu-id="b629a-396">In the **Criteria** field, select **Packaging** to limit the output range.</span></span>
 
-**范围**
+<span data-ttu-id="b629a-397">**范围**</span><span class="sxs-lookup"><span data-stu-id="b629a-397">**Ranges**</span></span>
 
-| 源表   | 字段     | 条件  |
+| <span data-ttu-id="b629a-398">源表</span><span class="sxs-lookup"><span data-stu-id="b629a-398">Source table</span></span>   | <span data-ttu-id="b629a-399">字段</span><span class="sxs-lookup"><span data-stu-id="b629a-399">Field</span></span>     | <span data-ttu-id="b629a-400">条件</span><span class="sxs-lookup"><span data-stu-id="b629a-400">Criteria</span></span>  |
 |----------------|-----------|-----------|
-| ProdRouteTrans | 工序 | 包装 |
+| <span data-ttu-id="b629a-401">ProdRouteTrans</span><span class="sxs-lookup"><span data-stu-id="b629a-401">ProdRouteTrans</span></span> | <span data-ttu-id="b629a-402">工序</span><span class="sxs-lookup"><span data-stu-id="b629a-402">Operation</span></span> | <span data-ttu-id="b629a-403">包装</span><span class="sxs-lookup"><span data-stu-id="b629a-403">Packaging</span></span> |
 
-在您在成本核算中获取统计度量以前，您必须建立统计度量提供方模板与统计维度成员之间的关系。 此关系按成本核算分类帐和版本创建。 此关系包括数据连接器和数据提供程序。 每个统计维度成员可具有多个数据连接器和数据提供程序。
+<span data-ttu-id="b629a-404">在您在成本核算中获取统计度量以前，您必须建立统计度量提供方模板与统计维度成员之间的关系。</span><span class="sxs-lookup"><span data-stu-id="b629a-404">Before you can get statistical measures into Cost accounting, you must establish the relation between the statistical measure provider template and the statistical dimension member.</span></span> <span data-ttu-id="b629a-405">此关系按成本核算分类帐和版本创建。</span><span class="sxs-lookup"><span data-stu-id="b629a-405">This relation is created per Cost accounting ledger and version.</span></span> <span data-ttu-id="b629a-406">此关系包括数据连接器和数据提供程序。</span><span class="sxs-lookup"><span data-stu-id="b629a-406">The relation consists of a data connector and a data provider.</span></span> <span data-ttu-id="b629a-407">每个统计维度成员可具有多个数据连接器和数据提供程序。</span><span class="sxs-lookup"><span data-stu-id="b629a-407">You can have several data connectors and data providers per statistical dimension member.</span></span>
 
 > [!NOTE]
-> 在此示例中，我们将仅为**实际版本**创建一种关系。
+> <span data-ttu-id="b629a-408">在此示例中，我们将仅为**实际版本**创建一种关系。</span><span class="sxs-lookup"><span data-stu-id="b629a-408">In this example, we will create a relation only for the **Actual version**.</span></span>
 
-转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。 对于此方案，选择 **Dynamics 365 for Finance and Operations Enterprise Edition - 统计度量**数据连接器，因为我们希望从 Finance and Operations 提取数据。
+<span data-ttu-id="b629a-409">转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。</span><span class="sxs-lookup"><span data-stu-id="b629a-409">Go to **Cost accounting ledger** \> **Actual version** \> **Manage** \> **Statistical measures** to establish the relation.</span></span> <span data-ttu-id="b629a-410">对于此方案，选择 **Dynamics 365 for Finance and Operations Enterprise Edition - 统计度量**数据连接器，因为我们希望从 Finance and Operations 提取数据。</span><span class="sxs-lookup"><span data-stu-id="b629a-410">For this scenario, select the **Dynamics 365 for Finance and Operations, Enterprise edition – Statistical measures** data connector, because we want to extract data from Finance and Operations.</span></span>
 
-**数据源**
+<span data-ttu-id="b629a-411">**数据源**</span><span class="sxs-lookup"><span data-stu-id="b629a-411">**Data source**</span></span>
 
-| 姓名           | 数据连接器                                                                     | 统计维度成员 |
+| <span data-ttu-id="b629a-412">姓名</span><span class="sxs-lookup"><span data-stu-id="b629a-412">Name</span></span>           | <span data-ttu-id="b629a-413">数据连接器</span><span class="sxs-lookup"><span data-stu-id="b629a-413">Data connector</span></span>                                                                     | <span data-ttu-id="b629a-414">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="b629a-414">Statistical dimension member</span></span> |
 |----------------|------------------------------------------------------------------------------------|------------------------------|
-| 包装 CC D365FO | Dynamics 365 for Finance and Operations Enterprise Edition - 统计度量 | 包装 CC                      |
+| <span data-ttu-id="b629a-415">包装 CC D365FO</span><span class="sxs-lookup"><span data-stu-id="b629a-415">Pack CC D365FO</span></span> | <span data-ttu-id="b629a-416">Dynamics 365 for Finance and Operations Enterprise Edition - 统计度量</span><span class="sxs-lookup"><span data-stu-id="b629a-416">Dynamics 365 for Finance and Operations, Enterprise edition – Statistical measures</span></span> | <span data-ttu-id="b629a-417">包装 CC</span><span class="sxs-lookup"><span data-stu-id="b629a-417">Pack CC</span></span>                      |
 
-系统识别出 ProdRouteTrans 是各记录属于单独法人的表。 因此，系统将要求您选择从中导入交易记录的法人。
+<span data-ttu-id="b629a-418">系统识别出 ProdRouteTrans 是各记录属于单独法人的表。</span><span class="sxs-lookup"><span data-stu-id="b629a-418">The system recognizes that ProdRouteTrans is a table where each record belongs to a separate legal entity.</span></span> <span data-ttu-id="b629a-419">因此，系统将要求您选择从中导入交易记录的法人。</span><span class="sxs-lookup"><span data-stu-id="b629a-419">Therefore, you will be asked to select the legal entity that transactions should be imported from.</span></span>
 
-**数据提供程序配置**
+<span data-ttu-id="b629a-420">**数据提供程序配置**</span><span class="sxs-lookup"><span data-stu-id="b629a-420">**Data provider configuration**</span></span>
 
-| 统计模板名称 | 法人 |
+| <span data-ttu-id="b629a-421">统计模板名称</span><span class="sxs-lookup"><span data-stu-id="b629a-421">Statistical template name</span></span> | <span data-ttu-id="b629a-422">法人</span><span class="sxs-lookup"><span data-stu-id="b629a-422">Legal entity</span></span> |
 |---------------------------|--------------|
-| 包装 CC                   | USMF         |
+| <span data-ttu-id="b629a-423">包装 CC</span><span class="sxs-lookup"><span data-stu-id="b629a-423">Pack CC</span></span>                   | <span data-ttu-id="b629a-424">USMF</span><span class="sxs-lookup"><span data-stu-id="b629a-424">USMF</span></span>         |
 
-处理统计度量源数据后，将在成本核算中创建以下统计条目。
+<span data-ttu-id="b629a-425">处理统计度量源数据后，将在成本核算中创建以下统计条目。</span><span class="sxs-lookup"><span data-stu-id="b629a-425">After the source data for the statistical measure processed, the following statistical entries are created in Cost accounting.</span></span>
 
-**日记帐**
+<span data-ttu-id="b629a-426">**日记帐**</span><span class="sxs-lookup"><span data-stu-id="b629a-426">**Journal**</span></span>
 
-| 生产订单日记帐 | 日记帐类型                     | 会计日历期间 | 年   | 期间余额 | 版本   |   数据连接器源条目  |
+| <span data-ttu-id="b629a-427">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="b629a-427">Journal</span></span> | <span data-ttu-id="b629a-428">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="b629a-428">Journal type</span></span>                     | <span data-ttu-id="b629a-429">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="b629a-429">Fiscal calendar period</span></span> | <span data-ttu-id="b629a-430">年</span><span class="sxs-lookup"><span data-stu-id="b629a-430">Year</span></span>   | <span data-ttu-id="b629a-431">期间余额</span><span class="sxs-lookup"><span data-stu-id="b629a-431">Period</span></span> | <span data-ttu-id="b629a-432">版本</span><span class="sxs-lookup"><span data-stu-id="b629a-432">Version</span></span>   |   <span data-ttu-id="b629a-433">数据连接器源条目</span><span class="sxs-lookup"><span data-stu-id="b629a-433">Data connector source entries</span></span>  |
 |---------|----------------------------------|------------------------|--------|---------|----------------|---------|
-| 00002   | 统计条目转移日记帐 | 会计               | 2017    | 期间 1  | CA 分类帐 USMF | 包装 CC |
+| <span data-ttu-id="b629a-434">00002</span><span class="sxs-lookup"><span data-stu-id="b629a-434">00002</span></span>   | <span data-ttu-id="b629a-435">统计条目转移日记帐</span><span class="sxs-lookup"><span data-stu-id="b629a-435">Statistical entry transfer journal</span></span> | <span data-ttu-id="b629a-436">会计</span><span class="sxs-lookup"><span data-stu-id="b629a-436">Fiscal</span></span>               | <span data-ttu-id="b629a-437">2017</span><span class="sxs-lookup"><span data-stu-id="b629a-437">2017</span></span>    | <span data-ttu-id="b629a-438">期间 1</span><span class="sxs-lookup"><span data-stu-id="b629a-438">Period 1</span></span>  | <span data-ttu-id="b629a-439">CA 分类帐 USMF</span><span class="sxs-lookup"><span data-stu-id="b629a-439">CA ledger USMF</span></span> | <span data-ttu-id="b629a-440">包装 CC</span><span class="sxs-lookup"><span data-stu-id="b629a-440">Pack CC</span></span> |
 
-**统计条目转移日记帐条目**
+<span data-ttu-id="b629a-441">**统计条目转移日记帐条目**</span><span class="sxs-lookup"><span data-stu-id="b629a-441">**Statistical entry transfer journal entries**</span></span>
 
-| 会计日期 | 度量值 | 统计元素 |  说明          | 产品组         |
+| <span data-ttu-id="b629a-442">会计日期</span><span class="sxs-lookup"><span data-stu-id="b629a-442">Accounting date</span></span> | <span data-ttu-id="b629a-443">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-443">Magnitude</span></span> | <span data-ttu-id="b629a-444">统计元素</span><span class="sxs-lookup"><span data-stu-id="b629a-444">Statistical element</span></span> |  <span data-ttu-id="b629a-445">说明</span><span class="sxs-lookup"><span data-stu-id="b629a-445">Description</span></span>          | <span data-ttu-id="b629a-446">产品组</span><span class="sxs-lookup"><span data-stu-id="b629a-446">Product group</span></span>         |
 |-----------------|-----------|---------------------|-----------------------|-----------------------|
-| 31-01-2017      | 16.00     | 包装 CC             | 包装成本中心 | 橙汁 B2B      |
-| 31-01-2017      | 8.00      | 包装 CC             | 包装成本中心 | 橙汁消费者 |
+| <span data-ttu-id="b629a-447">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-447">31-01-2017</span></span>      | <span data-ttu-id="b629a-448">16.00</span><span class="sxs-lookup"><span data-stu-id="b629a-448">16.00</span></span>     | <span data-ttu-id="b629a-449">包装 CC</span><span class="sxs-lookup"><span data-stu-id="b629a-449">Pack CC</span></span>             | <span data-ttu-id="b629a-450">包装成本中心</span><span class="sxs-lookup"><span data-stu-id="b629a-450">Packaging Cost center</span></span> | <span data-ttu-id="b629a-451">橙汁 B2B</span><span class="sxs-lookup"><span data-stu-id="b629a-451">Orange juice B2B</span></span>      |
+| <span data-ttu-id="b629a-452">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-452">31-01-2017</span></span>      | <span data-ttu-id="b629a-453">8.00</span><span class="sxs-lookup"><span data-stu-id="b629a-453">8.00</span></span>      | <span data-ttu-id="b629a-454">包装 CC</span><span class="sxs-lookup"><span data-stu-id="b629a-454">Pack CC</span></span>             | <span data-ttu-id="b629a-455">包装成本中心</span><span class="sxs-lookup"><span data-stu-id="b629a-455">Packaging Cost center</span></span> | <span data-ttu-id="b629a-456">橙汁消费者</span><span class="sxs-lookup"><span data-stu-id="b629a-456">Orange juice Consumer</span></span> |
 
-**统计条目**
+<span data-ttu-id="b629a-457">**统计条目**</span><span class="sxs-lookup"><span data-stu-id="b629a-457">**Statistical entries**</span></span>
 
-| 成本对象           | 会计日期 | 统计维度成员 |    说明        | 度量值 |
+| <span data-ttu-id="b629a-458">成本对象</span><span class="sxs-lookup"><span data-stu-id="b629a-458">Cost object</span></span>           | <span data-ttu-id="b629a-459">会计日期</span><span class="sxs-lookup"><span data-stu-id="b629a-459">Accounting date</span></span> | <span data-ttu-id="b629a-460">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="b629a-460">Statistical dimension member</span></span> |    <span data-ttu-id="b629a-461">说明</span><span class="sxs-lookup"><span data-stu-id="b629a-461">Description</span></span>        | <span data-ttu-id="b629a-462">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-462">Magnitude</span></span> |
 |-----------------------|-----------------|------------------------------|-----------------------|-----------|
-| 橙汁 B2B      | 31-01-2017      | 包装 CC                      | 包装成本中心 | 16.00     |
-| 橙汁消费者 | 31-01-2017      | 包装 CC                      | 包装成本中心 | 8.00      |
+| <span data-ttu-id="b629a-463">橙汁 B2B</span><span class="sxs-lookup"><span data-stu-id="b629a-463">Orange juice B2B</span></span>      | <span data-ttu-id="b629a-464">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-464">31-01-2017</span></span>      | <span data-ttu-id="b629a-465">包装 CC</span><span class="sxs-lookup"><span data-stu-id="b629a-465">Pack CC</span></span>                      | <span data-ttu-id="b629a-466">包装成本中心</span><span class="sxs-lookup"><span data-stu-id="b629a-466">Packaging Cost center</span></span> | <span data-ttu-id="b629a-467">16.00</span><span class="sxs-lookup"><span data-stu-id="b629a-467">16.00</span></span>     |
+| <span data-ttu-id="b629a-468">橙汁消费者</span><span class="sxs-lookup"><span data-stu-id="b629a-468">Orange juice Consumer</span></span> | <span data-ttu-id="b629a-469">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-469">31-01-2017</span></span>      | <span data-ttu-id="b629a-470">包装 CC</span><span class="sxs-lookup"><span data-stu-id="b629a-470">Pack CC</span></span>                      | <span data-ttu-id="b629a-471">包装成本中心</span><span class="sxs-lookup"><span data-stu-id="b629a-471">Packaging Cost center</span></span> | <span data-ttu-id="b629a-472">8.00</span><span class="sxs-lookup"><span data-stu-id="b629a-472">8.00</span></span>      |
 
-如果包装 CC 预定义维度成员分配基础分配为成本分配规则中的分配基础，可以通过使用以下分配系数分配成本。
+<span data-ttu-id="b629a-473">如果包装 CC 预定义维度成员分配基础分配为成本分配规则中的分配基础，可以通过使用以下分配系数分配成本。</span><span class="sxs-lookup"><span data-stu-id="b629a-473">If the Pack CC predefined dimension member allocation basis is assigned as an allocation base in a cost distribution rule, the cost will be distributed by using the following allocation factor.</span></span>
 
-| 成本对象           | 度量值 | 分配系数  |
+| <span data-ttu-id="b629a-474">成本对象</span><span class="sxs-lookup"><span data-stu-id="b629a-474">Cost object</span></span>           | <span data-ttu-id="b629a-475">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-475">Magnitude</span></span> | <span data-ttu-id="b629a-476">分配系数</span><span class="sxs-lookup"><span data-stu-id="b629a-476">Allocation factor</span></span>  |
 |-----------------------|-----------|--------------------|
-| 橙汁 B2B      | 16.00     | (16 ÷ 24) × 金额 |
-| 橙汁消费者 | 8.00      | (8 ÷ 24) × 金额  |
+| <span data-ttu-id="b629a-477">橙汁 B2B</span><span class="sxs-lookup"><span data-stu-id="b629a-477">Orange juice B2B</span></span>      | <span data-ttu-id="b629a-478">16.00</span><span class="sxs-lookup"><span data-stu-id="b629a-478">16.00</span></span>     | <span data-ttu-id="b629a-479">(16 ÷ 24) × 金额</span><span class="sxs-lookup"><span data-stu-id="b629a-479">(16 ÷ 24) × Amount</span></span> |
+| <span data-ttu-id="b629a-480">橙汁消费者</span><span class="sxs-lookup"><span data-stu-id="b629a-480">Orange juice Consumer</span></span> | <span data-ttu-id="b629a-481">8.00</span><span class="sxs-lookup"><span data-stu-id="b629a-481">8.00</span></span>      | <span data-ttu-id="b629a-482">(8 ÷ 24) × 金额</span><span class="sxs-lookup"><span data-stu-id="b629a-482">(8 ÷ 24) × Amount</span></span>  |
 
-## <a name="imported-statistical-measures"></a>已导入的统计度量
+## <a name="imported-statistical-measures"></a><span data-ttu-id="b629a-483">已导入的统计度量</span><span class="sxs-lookup"><span data-stu-id="b629a-483">Imported statistical measures</span></span>
 
-您可以使用数据管理导入/导出工具将统计度量导入到成本核算。
+<span data-ttu-id="b629a-484">您可以使用数据管理导入/导出工具将统计度量导入到成本核算。</span><span class="sxs-lookup"><span data-stu-id="b629a-484">You can import statistical measures into Cost accounting by using the Data management import/export tool.</span></span>
 
-用于导入的数据实体被命名为导入的统计度量。
+<span data-ttu-id="b629a-485">用于导入的数据实体被命名为导入的统计度量。</span><span class="sxs-lookup"><span data-stu-id="b629a-485">The data entity that is used for the import is named Imported statistical measures.</span></span>
 
 > [!NOTE]
-> 此数据实体被设计为每个条目最多允许五个唯一维度值。
+> <span data-ttu-id="b629a-486">此数据实体被设计为每个条目最多允许五个唯一维度值。</span><span class="sxs-lookup"><span data-stu-id="b629a-486">This data entity is designed to allow a maximum of five unique dimension values per entry.</span></span>
 
-用电量通过使用预定义的数据实体格式记录在 Microsoft Excel 中。 下面是一个示例。
+<span data-ttu-id="b629a-487">用电量通过使用预定义的数据实体格式记录在 Microsoft Excel 中。</span><span class="sxs-lookup"><span data-stu-id="b629a-487">The consumption of electricity is recorded in Microsoft Excel by using the predefined format of the data entity.</span></span> <span data-ttu-id="b629a-488">下面是一个示例。</span><span class="sxs-lookup"><span data-stu-id="b629a-488">Here is an example.</span></span>
 
-| 会计日期 | 维度成员名称 1 | 维度成员名称 2 | 维度成员名称 5 | 度量值  | 源标识符 |
+| <span data-ttu-id="b629a-489">会计日期</span><span class="sxs-lookup"><span data-stu-id="b629a-489">Accounting date</span></span> | <span data-ttu-id="b629a-490">维度成员名称 1</span><span class="sxs-lookup"><span data-stu-id="b629a-490">Dimension member name1</span></span> | <span data-ttu-id="b629a-491">维度成员名称 2</span><span class="sxs-lookup"><span data-stu-id="b629a-491">Dimension member name2</span></span> | <span data-ttu-id="b629a-492">维度成员名称 5</span><span class="sxs-lookup"><span data-stu-id="b629a-492">Dimension member name5</span></span> | <span data-ttu-id="b629a-493">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-493">Magnitude</span></span>  | <span data-ttu-id="b629a-494">源标识符</span><span class="sxs-lookup"><span data-stu-id="b629a-494">Source identifier</span></span> |
 |-----------------|------------------------|------------------------|------------------------|------------|-------------------|
-| 31-01-2017      | CC001                  |                        |                        | 2,450.00   | 电       |
-| 31-01-2017      | CC002                  |                        |                        | 4,100.00   | 电       |
-| 31-01-2017      | CC003                  |                        |                        | 15,000.00  | 电       |
+| <span data-ttu-id="b629a-495">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-495">31-01-2017</span></span>      | <span data-ttu-id="b629a-496">CC001</span><span class="sxs-lookup"><span data-stu-id="b629a-496">CC001</span></span>                  |                        |                        | <span data-ttu-id="b629a-497">2,450.00</span><span class="sxs-lookup"><span data-stu-id="b629a-497">2,450.00</span></span>   | <span data-ttu-id="b629a-498">电</span><span class="sxs-lookup"><span data-stu-id="b629a-498">Electricity</span></span>       |
+| <span data-ttu-id="b629a-499">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-499">31-01-2017</span></span>      | <span data-ttu-id="b629a-500">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-500">CC002</span></span>                  |                        |                        | <span data-ttu-id="b629a-501">4,100.00</span><span class="sxs-lookup"><span data-stu-id="b629a-501">4,100.00</span></span>   | <span data-ttu-id="b629a-502">电</span><span class="sxs-lookup"><span data-stu-id="b629a-502">Electricity</span></span>       |
+| <span data-ttu-id="b629a-503">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-503">31-01-2017</span></span>      | <span data-ttu-id="b629a-504">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-504">CC003</span></span>                  |                        |                        | <span data-ttu-id="b629a-505">15,000.00</span><span class="sxs-lookup"><span data-stu-id="b629a-505">15,000.00</span></span>  | <span data-ttu-id="b629a-506">电</span><span class="sxs-lookup"><span data-stu-id="b629a-506">Electricity</span></span>       |
 
-通过数据管理导入您的数据后，数据将存储在成本核算暂存表中。 因此，导入的数据可以在多个成本核算分类帐中使用。 不要求重新载入数据。
+<span data-ttu-id="b629a-507">通过数据管理导入您的数据后，数据将存储在成本核算暂存表中。</span><span class="sxs-lookup"><span data-stu-id="b629a-507">When you've imported your data via Data management, the data will be stored in a Cost accounting staging table.</span></span> <span data-ttu-id="b629a-508">因此，导入的数据可以在多个成本核算分类帐中使用。</span><span class="sxs-lookup"><span data-stu-id="b629a-508">Therefore, the imported data can be used in multiple Cost accounting ledgers.</span></span> <span data-ttu-id="b629a-509">不要求重新载入数据。</span><span class="sxs-lookup"><span data-stu-id="b629a-509">A reload of data isn't required.</span></span>
 
-要导入数据，请转到**已导入数据**\> **数据实体**\> **已导入的统计度量**。
+<span data-ttu-id="b629a-510">要导入数据，请转到**已导入数据**\> **数据实体**\> **已导入的统计度量**。</span><span class="sxs-lookup"><span data-stu-id="b629a-510">To import the data, go to **Imported data** \> **Data entity** \> **Imported statistical measures**.</span></span>
 
-| 源标识符 | 会计日期 | 度量值  | 维度成员名称 1 | 维度成员名称 2 | 维度成员名称 5 |
+| <span data-ttu-id="b629a-511">源标识符</span><span class="sxs-lookup"><span data-stu-id="b629a-511">Source identifier</span></span> | <span data-ttu-id="b629a-512">会计日期</span><span class="sxs-lookup"><span data-stu-id="b629a-512">Accounting date</span></span> | <span data-ttu-id="b629a-513">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-513">Magnitude</span></span>  | <span data-ttu-id="b629a-514">维度成员名称 1</span><span class="sxs-lookup"><span data-stu-id="b629a-514">Dimension member name1</span></span> | <span data-ttu-id="b629a-515">维度成员名称 2</span><span class="sxs-lookup"><span data-stu-id="b629a-515">Dimension member name2</span></span> | <span data-ttu-id="b629a-516">维度成员名称 5</span><span class="sxs-lookup"><span data-stu-id="b629a-516">Dimension member name5</span></span> |
 |-------------------|-----------------|------------|------------------------|------------------------|------------------------|
-| 电       | 31-01-2017      | 2,450.00   | CC001                  |                        |                        |
-| 电       | 31-01-2017      | 4,100.00   | CC002                  |                        |                        |
-| 电       | 31-01-2017      | 15,000.00  | CC003                  |                        |                        |
+| <span data-ttu-id="b629a-517">电</span><span class="sxs-lookup"><span data-stu-id="b629a-517">Electricity</span></span>       | <span data-ttu-id="b629a-518">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-518">31-01-2017</span></span>      | <span data-ttu-id="b629a-519">2,450.00</span><span class="sxs-lookup"><span data-stu-id="b629a-519">2,450.00</span></span>   | <span data-ttu-id="b629a-520">CC001</span><span class="sxs-lookup"><span data-stu-id="b629a-520">CC001</span></span>                  |                        |                        |
+| <span data-ttu-id="b629a-521">电</span><span class="sxs-lookup"><span data-stu-id="b629a-521">Electricity</span></span>       | <span data-ttu-id="b629a-522">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-522">31-01-2017</span></span>      | <span data-ttu-id="b629a-523">4,100.00</span><span class="sxs-lookup"><span data-stu-id="b629a-523">4,100.00</span></span>   | <span data-ttu-id="b629a-524">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-524">CC002</span></span>                  |                        |                        |
+| <span data-ttu-id="b629a-525">电</span><span class="sxs-lookup"><span data-stu-id="b629a-525">Electricity</span></span>       | <span data-ttu-id="b629a-526">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-526">31-01-2017</span></span>      | <span data-ttu-id="b629a-527">15,000.00</span><span class="sxs-lookup"><span data-stu-id="b629a-527">15,000.00</span></span>  | <span data-ttu-id="b629a-528">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-528">CC003</span></span>                  |                        |                        |
 
-在您在成本核算中获取统计度量以前，您必须建立源标识符与统计维度成员之间的关系。 此关系按成本核算分类帐和版本创建。 此关系包括数据连接器和数据提供程序。 每个统计维度成员可具有多个数据连接器和数据提供程序。
+<span data-ttu-id="b629a-529">在您在成本核算中获取统计度量以前，您必须建立源标识符与统计维度成员之间的关系。</span><span class="sxs-lookup"><span data-stu-id="b629a-529">Before you can get statistical measures into Cost accounting, you must establish the relation between the source identifier and the statistical dimension member.</span></span> <span data-ttu-id="b629a-530">此关系按成本核算分类帐和版本创建。</span><span class="sxs-lookup"><span data-stu-id="b629a-530">This relation is created per Cost accounting ledger and version.</span></span> <span data-ttu-id="b629a-531">此关系包括数据连接器和数据提供程序。</span><span class="sxs-lookup"><span data-stu-id="b629a-531">The relation consists of a data connector and a data provider.</span></span> <span data-ttu-id="b629a-532">每个统计维度成员可具有多个数据连接器和数据提供程序。</span><span class="sxs-lookup"><span data-stu-id="b629a-532">You can have several data connectors and data providers per statistical dimension member.</span></span>
 
 > [!NOTE]
-> 在此示例中，我们将仅为**实际版本**创建一种关系。
+> <span data-ttu-id="b629a-533">在此示例中，我们将仅为**实际版本**创建一种关系。</span><span class="sxs-lookup"><span data-stu-id="b629a-533">In this example, we will create a relation only for the **Actual version**.</span></span>
 
-转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。 对于此方案，选择**已导入的统计度量**数据连接器，因为数据已通过 Excel 从第三方系统导入到成本核算中。
+<span data-ttu-id="b629a-534">转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。</span><span class="sxs-lookup"><span data-stu-id="b629a-534">Go to **Cost accounting ledger** \> **Actual version** \> **Manage** \> **Statistical measures** to establish the relation.</span></span> <span data-ttu-id="b629a-535">对于此方案，选择**已导入的统计度量**数据连接器，因为数据已通过 Excel 从第三方系统导入到成本核算中。</span><span class="sxs-lookup"><span data-stu-id="b629a-535">For this scenario, select the **Imported statistical measures** data connector, because data has been imported from a third-party system into Cost accounting via Excel.</span></span>
 
-**数据源**
+<span data-ttu-id="b629a-536">**数据源**</span><span class="sxs-lookup"><span data-stu-id="b629a-536">**Data source**</span></span>
 
-| 姓名        | 数据连接器                | 统计维度成员 |
+| <span data-ttu-id="b629a-537">姓名</span><span class="sxs-lookup"><span data-stu-id="b629a-537">Name</span></span>        | <span data-ttu-id="b629a-538">数据连接器</span><span class="sxs-lookup"><span data-stu-id="b629a-538">Data connector</span></span>                | <span data-ttu-id="b629a-539">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="b629a-539">Statistical dimension member</span></span> |
 |-------------|-------------------------------|------------------------------|
-| 电 | 已导入的统计度量 | 电                  |
+| <span data-ttu-id="b629a-540">电</span><span class="sxs-lookup"><span data-stu-id="b629a-540">Electricity</span></span> | <span data-ttu-id="b629a-541">已导入的统计度量</span><span class="sxs-lookup"><span data-stu-id="b629a-541">Imported statistical measures</span></span> | <span data-ttu-id="b629a-542">电</span><span class="sxs-lookup"><span data-stu-id="b629a-542">Electricity</span></span>                  |
 
-**数据提供程序配置**
+<span data-ttu-id="b629a-543">**数据提供程序配置**</span><span class="sxs-lookup"><span data-stu-id="b629a-543">**Data provider configuration**</span></span>
 
-| 导入源标识符 | 职能 | 维度 1   | 维度 2 | 维度 5 |
+| <span data-ttu-id="b629a-544">导入源标识符</span><span class="sxs-lookup"><span data-stu-id="b629a-544">Import source identifier</span></span> | <span data-ttu-id="b629a-545">职能</span><span class="sxs-lookup"><span data-stu-id="b629a-545">Function</span></span> | <span data-ttu-id="b629a-546">维度 1</span><span class="sxs-lookup"><span data-stu-id="b629a-546">Dimension1</span></span>   | <span data-ttu-id="b629a-547">维度 2</span><span class="sxs-lookup"><span data-stu-id="b629a-547">Dimension2</span></span> | <span data-ttu-id="b629a-548">维度 5</span><span class="sxs-lookup"><span data-stu-id="b629a-548">Dimension5</span></span> |
 |--------------------------|----------|--------------|------------|------------|
-| 电              | 总和      | 成本中心 |            |            |
+| <span data-ttu-id="b629a-549">电</span><span class="sxs-lookup"><span data-stu-id="b629a-549">Electricity</span></span>              | <span data-ttu-id="b629a-550">总和</span><span class="sxs-lookup"><span data-stu-id="b629a-550">Sum</span></span>      | <span data-ttu-id="b629a-551">成本中心</span><span class="sxs-lookup"><span data-stu-id="b629a-551">Cost centers</span></span> |            |            |
 
 > [!NOTE]
-> 在您定义数据提供程序配置时，必须指定对已导入交易记录匹配的成本对象维度。 处理统计度量源数据后，将在成本核算中创建以下统计条目。
+> <span data-ttu-id="b629a-552">在您定义数据提供程序配置时，必须指定对已导入交易记录匹配的成本对象维度。</span><span class="sxs-lookup"><span data-stu-id="b629a-552">When you define the data provider configuration, you must specify which cost object dimensions to match against the imported transactions.</span></span> <span data-ttu-id="b629a-553">处理统计度量源数据后，将在成本核算中创建以下统计条目。</span><span class="sxs-lookup"><span data-stu-id="b629a-553">After the source data for the statistical measure is processed, the following statistical entries are created in Cost accounting.</span></span>
 
-**日记帐**
+<span data-ttu-id="b629a-554">**日记帐**</span><span class="sxs-lookup"><span data-stu-id="b629a-554">**Journal**</span></span>
 
-| 生产订单日记帐 | 日记帐类型                       | 会计日历期间 | 年  | 期间  |版本      |数据连接器源条目 |
+| <span data-ttu-id="b629a-555">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="b629a-555">Journal</span></span> | <span data-ttu-id="b629a-556">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="b629a-556">Journal type</span></span>                       | <span data-ttu-id="b629a-557">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="b629a-557">Fiscal calendar period</span></span> | <span data-ttu-id="b629a-558">年</span><span class="sxs-lookup"><span data-stu-id="b629a-558">Year</span></span>  | <span data-ttu-id="b629a-559">期间</span><span class="sxs-lookup"><span data-stu-id="b629a-559">Perid</span></span>  |<span data-ttu-id="b629a-560">版本</span><span class="sxs-lookup"><span data-stu-id="b629a-560">Version</span></span>      |<span data-ttu-id="b629a-561">数据连接器源条目</span><span class="sxs-lookup"><span data-stu-id="b629a-561">Data connector source entries</span></span> |
 |---------|------------------------------------|------------------------|-------|--------|---------------|-------------|
-| 00002   | 统计条目转移日记帐 | 会计                 | 2017  | 期间 1 | CA 分类帐 USMF | 电 |
+| <span data-ttu-id="b629a-562">00002</span><span class="sxs-lookup"><span data-stu-id="b629a-562">00002</span></span>   | <span data-ttu-id="b629a-563">统计条目转移日记帐</span><span class="sxs-lookup"><span data-stu-id="b629a-563">Statistical entry transfer journal</span></span> | <span data-ttu-id="b629a-564">会计</span><span class="sxs-lookup"><span data-stu-id="b629a-564">Fiscal</span></span>                 | <span data-ttu-id="b629a-565">2017</span><span class="sxs-lookup"><span data-stu-id="b629a-565">2017</span></span>  | <span data-ttu-id="b629a-566">期间 1</span><span class="sxs-lookup"><span data-stu-id="b629a-566">Period 1</span></span> | <span data-ttu-id="b629a-567">CA 分类帐 USMF</span><span class="sxs-lookup"><span data-stu-id="b629a-567">CA ledger USMF</span></span> | <span data-ttu-id="b629a-568">电</span><span class="sxs-lookup"><span data-stu-id="b629a-568">Electricity</span></span> |
 
-**统计条目转移日记帐条目**
+<span data-ttu-id="b629a-569">**统计条目转移日记帐条目**</span><span class="sxs-lookup"><span data-stu-id="b629a-569">**Statistical entry transfer journal entries**</span></span>
 
-| 会计日期 | 度量值  | 成本元素 |   说明           | 成本中心 |
+| <span data-ttu-id="b629a-570">会计日期</span><span class="sxs-lookup"><span data-stu-id="b629a-570">Accounting date</span></span> | <span data-ttu-id="b629a-571">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-571">Magnitude</span></span>  | <span data-ttu-id="b629a-572">成本元素</span><span class="sxs-lookup"><span data-stu-id="b629a-572">Cost element</span></span> |   <span data-ttu-id="b629a-573">说明</span><span class="sxs-lookup"><span data-stu-id="b629a-573">Description</span></span>           | <span data-ttu-id="b629a-574">成本中心</span><span class="sxs-lookup"><span data-stu-id="b629a-574">Cost center</span></span> |
 |-----------------|------------|--------------|-------------------------|-------------|
-| 31-01-2017      | 2,450.00   | 电  | 用电量 | CC001       |
-| 31-01-2017      | 4,100.00   | 电  | 用电量 | CC002       |
-| 31-01-2017      | 15,000.00  | 电  | 用电量 | CC003       |
+| <span data-ttu-id="b629a-575">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-575">31-01-2017</span></span>      | <span data-ttu-id="b629a-576">2,450.00</span><span class="sxs-lookup"><span data-stu-id="b629a-576">2,450.00</span></span>   | <span data-ttu-id="b629a-577">电</span><span class="sxs-lookup"><span data-stu-id="b629a-577">Electricity</span></span>  | <span data-ttu-id="b629a-578">用电量</span><span class="sxs-lookup"><span data-stu-id="b629a-578">Electricity consumption</span></span> | <span data-ttu-id="b629a-579">CC001</span><span class="sxs-lookup"><span data-stu-id="b629a-579">CC001</span></span>       |
+| <span data-ttu-id="b629a-580">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-580">31-01-2017</span></span>      | <span data-ttu-id="b629a-581">4,100.00</span><span class="sxs-lookup"><span data-stu-id="b629a-581">4,100.00</span></span>   | <span data-ttu-id="b629a-582">电</span><span class="sxs-lookup"><span data-stu-id="b629a-582">Electricity</span></span>  | <span data-ttu-id="b629a-583">用电量</span><span class="sxs-lookup"><span data-stu-id="b629a-583">Electricity consumption</span></span> | <span data-ttu-id="b629a-584">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-584">CC002</span></span>       |
+| <span data-ttu-id="b629a-585">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-585">31-01-2017</span></span>      | <span data-ttu-id="b629a-586">15,000.00</span><span class="sxs-lookup"><span data-stu-id="b629a-586">15,000.00</span></span>  | <span data-ttu-id="b629a-587">电</span><span class="sxs-lookup"><span data-stu-id="b629a-587">Electricity</span></span>  | <span data-ttu-id="b629a-588">用电量</span><span class="sxs-lookup"><span data-stu-id="b629a-588">Electricity consumption</span></span> | <span data-ttu-id="b629a-589">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-589">CC003</span></span>       |
 
-**统计条目**
+<span data-ttu-id="b629a-590">**统计条目**</span><span class="sxs-lookup"><span data-stu-id="b629a-590">**Statistical entries**</span></span>
 
-| 成本对象 |    | 会计日期 | 统计维度成员 |      说明                   | 度量值  |
+| <span data-ttu-id="b629a-591">成本对象</span><span class="sxs-lookup"><span data-stu-id="b629a-591">Cost object</span></span> |    | <span data-ttu-id="b629a-592">会计日期</span><span class="sxs-lookup"><span data-stu-id="b629a-592">Accounting date</span></span> | <span data-ttu-id="b629a-593">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="b629a-593">Statistical dimension member</span></span> |      <span data-ttu-id="b629a-594">说明</span><span class="sxs-lookup"><span data-stu-id="b629a-594">Description</span></span>                   | <span data-ttu-id="b629a-595">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-595">Magnitude</span></span>  |
 |-------------|----|-----------------|------------------------------|-------------------------|------------|
-| CC001       | HR | 31-01-2017      | 电                  | 用电量 | 2,450.00   |
-| CC002       | FI | 31-01-2017      | 电                  | 用电量 | 4,100.00   |
-| CC003       | IT | 31-01-2017      | 电                  | 用电量 | 15,000.00  |
+| <span data-ttu-id="b629a-596">CC001</span><span class="sxs-lookup"><span data-stu-id="b629a-596">CC001</span></span>       | <span data-ttu-id="b629a-597">HR</span><span class="sxs-lookup"><span data-stu-id="b629a-597">HR</span></span> | <span data-ttu-id="b629a-598">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-598">31-01-2017</span></span>      | <span data-ttu-id="b629a-599">电</span><span class="sxs-lookup"><span data-stu-id="b629a-599">Electricity</span></span>                  | <span data-ttu-id="b629a-600">用电量</span><span class="sxs-lookup"><span data-stu-id="b629a-600">Electricity consumption</span></span> | <span data-ttu-id="b629a-601">2,450.00</span><span class="sxs-lookup"><span data-stu-id="b629a-601">2,450.00</span></span>   |
+| <span data-ttu-id="b629a-602">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-602">CC002</span></span>       | <span data-ttu-id="b629a-603">FI</span><span class="sxs-lookup"><span data-stu-id="b629a-603">FI</span></span> | <span data-ttu-id="b629a-604">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-604">31-01-2017</span></span>      | <span data-ttu-id="b629a-605">电</span><span class="sxs-lookup"><span data-stu-id="b629a-605">Electricity</span></span>                  | <span data-ttu-id="b629a-606">用电量</span><span class="sxs-lookup"><span data-stu-id="b629a-606">Electricity consumption</span></span> | <span data-ttu-id="b629a-607">4,100.00</span><span class="sxs-lookup"><span data-stu-id="b629a-607">4,100.00</span></span>   |
+| <span data-ttu-id="b629a-608">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-608">CC003</span></span>       | <span data-ttu-id="b629a-609">IT</span><span class="sxs-lookup"><span data-stu-id="b629a-609">IT</span></span> | <span data-ttu-id="b629a-610">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="b629a-610">31-01-2017</span></span>      | <span data-ttu-id="b629a-611">电</span><span class="sxs-lookup"><span data-stu-id="b629a-611">Electricity</span></span>                  | <span data-ttu-id="b629a-612">用电量</span><span class="sxs-lookup"><span data-stu-id="b629a-612">Electricity consumption</span></span> | <span data-ttu-id="b629a-613">15,000.00</span><span class="sxs-lookup"><span data-stu-id="b629a-613">15,000.00</span></span>  |
 
-如果电量预定义维度成员分配基础分配为成本分配规则中的分配基础，可以通过使用以下分配系数分配成本。
+<span data-ttu-id="b629a-614">如果电量预定义维度成员分配基础分配为成本分配规则中的分配基础，可以通过使用以下分配系数分配成本。</span><span class="sxs-lookup"><span data-stu-id="b629a-614">If the Electricity predefined dimension member allocation basis is assigned as an allocation base in a cost distribution rule, the cost will be distributed by using the following allocation factor.</span></span>
 
-| 成本对象 |    | 度量值 | 分配系数          |
+| <span data-ttu-id="b629a-615">成本对象</span><span class="sxs-lookup"><span data-stu-id="b629a-615">Cost object</span></span> |    | <span data-ttu-id="b629a-616">度量值</span><span class="sxs-lookup"><span data-stu-id="b629a-616">Magnitude</span></span> | <span data-ttu-id="b629a-617">分配系数</span><span class="sxs-lookup"><span data-stu-id="b629a-617">Allocation factor</span></span>          |
 |-------------|----|-----------|----------------------------|
-| CC001       | HR | 2,450.00  | (2,450 ÷ 21,550) × 金额  |
-| CC002       | FI | 4,100.00  | (4,100 ÷ 21,550) × 金额  |
-| CC003       | IT | 15,000.00 | (15,000 ÷ 21,550) × 金额 |
+| <span data-ttu-id="b629a-618">CC001</span><span class="sxs-lookup"><span data-stu-id="b629a-618">CC001</span></span>       | <span data-ttu-id="b629a-619">HR</span><span class="sxs-lookup"><span data-stu-id="b629a-619">HR</span></span> | <span data-ttu-id="b629a-620">2,450.00</span><span class="sxs-lookup"><span data-stu-id="b629a-620">2,450.00</span></span>  | <span data-ttu-id="b629a-621">(2,450 ÷ 21,550) × 金额</span><span class="sxs-lookup"><span data-stu-id="b629a-621">(2,450 ÷ 21,550) × Amount</span></span>  |
+| <span data-ttu-id="b629a-622">CC002</span><span class="sxs-lookup"><span data-stu-id="b629a-622">CC002</span></span>       | <span data-ttu-id="b629a-623">FI</span><span class="sxs-lookup"><span data-stu-id="b629a-623">FI</span></span> | <span data-ttu-id="b629a-624">4,100.00</span><span class="sxs-lookup"><span data-stu-id="b629a-624">4,100.00</span></span>  | <span data-ttu-id="b629a-625">(4,100 ÷ 21,550) × 金额</span><span class="sxs-lookup"><span data-stu-id="b629a-625">(4,100 ÷ 21,550) × Amount</span></span>  |
+| <span data-ttu-id="b629a-626">CC003</span><span class="sxs-lookup"><span data-stu-id="b629a-626">CC003</span></span>       | <span data-ttu-id="b629a-627">IT</span><span class="sxs-lookup"><span data-stu-id="b629a-627">IT</span></span> | <span data-ttu-id="b629a-628">15,000.00</span><span class="sxs-lookup"><span data-stu-id="b629a-628">15,000.00</span></span> | <span data-ttu-id="b629a-629">(15,000 ÷ 21,550) × 金额</span><span class="sxs-lookup"><span data-stu-id="b629a-629">(15,000 ÷ 21,550) × Amount</span></span> |
 
-## <a name="see-also"></a>请参阅
+## <a name="see-also"></a><span data-ttu-id="b629a-630">请参阅</span><span class="sxs-lookup"><span data-stu-id="b629a-630">See also</span></span>
 
-[分配基数](allocation-bases.md)
+[<span data-ttu-id="b629a-631">分配基数</span><span class="sxs-lookup"><span data-stu-id="b629a-631">Allocation bases</span></span>](allocation-bases.md)
 

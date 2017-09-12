@@ -19,66 +19,66 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 131045a5702f8c85be44ba1ebae1866c033850b9
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 4b87d96e80b343a2b57db59b5d4c19e70d0a94ea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 06/30/2017
 
 
 ---
 
-# <a name="factor-depreciation"></a>因素/系数折旧
+# <a name="factor-depreciation"></a><span data-ttu-id="2ee82-103">因素/系数折旧</span><span class="sxs-lookup"><span data-stu-id="2ee82-103">Factor depreciation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-本文提供系数折旧法的概览。
+<span data-ttu-id="2ee82-104">本文提供系数折旧法的概览。</span><span class="sxs-lookup"><span data-stu-id="2ee82-104">This article gives an overview of the factor depreciation method.</span></span>
 
-系数是用于对资产进行折旧的百分比。 在您设置固定资产折旧模板并在**折旧模板**页的**方法**字段中选择**系数**时，可以设置累进、非累进或直线折旧法：
+<span data-ttu-id="2ee82-105">系数是用于对资产进行折旧的百分比。</span><span class="sxs-lookup"><span data-stu-id="2ee82-105">Factors are the percentages that are used to depreciate assets.</span></span> <span data-ttu-id="2ee82-106">在您设置固定资产折旧模板并在**折旧模板**页的**方法**字段中选择**系数**时，可以设置累进、非累进或直线折旧法：</span><span class="sxs-lookup"><span data-stu-id="2ee82-106">When you set up a fixed asset depreciation profile and select **Factor** in the **Method** field on the **Depreciation profiles** page, you can set up progressive, digressive, or straight line depreciation:</span></span>
 
--   在累进折旧法中，折旧金额将增加每个折旧期间。
--   在非累进折旧法中，每个期间的折旧金额将随着时间减少。
--   在直线折旧法中，在每个期间中折旧都相同。
+-   <span data-ttu-id="2ee82-107">在累进折旧法中，折旧金额将增加每个折旧期间。</span><span class="sxs-lookup"><span data-stu-id="2ee82-107">In progressive depreciation, the amount of depreciation increases each depreciation period.</span></span>
+-   <span data-ttu-id="2ee82-108">在非累进折旧法中，每个期间的折旧金额将随着时间减少。</span><span class="sxs-lookup"><span data-stu-id="2ee82-108">In digressive depreciation, the amount of depreciation per period decreases over time.</span></span>
+-   <span data-ttu-id="2ee82-109">在直线折旧法中，在每个期间中折旧都相同。</span><span class="sxs-lookup"><span data-stu-id="2ee82-109">In straight line depreciation, the depreciation is the same in each period.</span></span>
 
-下面的规则和示例指示您如何为每种折旧类型设置系数。 
+<span data-ttu-id="2ee82-110">下面的规则和示例指示您如何为每种折旧类型设置系数。</span><span class="sxs-lookup"><span data-stu-id="2ee82-110">The rules and examples that follow indicate how you can set up factors for each type of depreciation.</span></span> 
 
 > [!NOTE] 
-> 当您在**方法**字段中选择**系数**时，**系数**字段和**间隔**字段将显示。
+> <span data-ttu-id="2ee82-111">当您在**方法**字段中选择**系数**时，**系数**字段和**间隔**字段将显示。</span><span class="sxs-lookup"><span data-stu-id="2ee82-111">When you select **Factor** in the **Method** field, the **Factor** field and the **Interval** field are displayed.</span></span>
 
-## <a name="progressive-depreciation"></a>累进折旧
-**系数**字段中的值大于 **50**。
+## <a name="progressive-depreciation"></a><span data-ttu-id="2ee82-112">累进折旧</span><span class="sxs-lookup"><span data-stu-id="2ee82-112">Progressive depreciation</span></span>
+<span data-ttu-id="2ee82-113">**系数**字段中的值大于 **50**。</span><span class="sxs-lookup"><span data-stu-id="2ee82-113">The value in the **Factor** field is more than **50**.</span></span>
 
-### <a name="example"></a>示例
+### <a name="example"></a><span data-ttu-id="2ee82-114">示例</span><span class="sxs-lookup"><span data-stu-id="2ee82-114">Example</span></span>
 
-购置价格为 100,000，系数为 70，使用年限为 10 年，并且折旧在 1 月 1 日开始。 只为使用年限的前 6 年显示折旧金额和帐面净额。
+<span data-ttu-id="2ee82-115">购置价格为 100,000，系数为 70，使用年限为 10 年，并且折旧在 1 月 1 日开始。</span><span class="sxs-lookup"><span data-stu-id="2ee82-115">The acquisition price is 100,000, the factor is 70, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="2ee82-116">只为使用年限的前 6 年显示折旧金额和帐面净额。</span><span class="sxs-lookup"><span data-stu-id="2ee82-116">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| 年 | 期间      | 折旧金额 | 帐面净值 |
+| <span data-ttu-id="2ee82-117">年</span><span class="sxs-lookup"><span data-stu-id="2ee82-117">Year</span></span> | <span data-ttu-id="2ee82-118">期间</span><span class="sxs-lookup"><span data-stu-id="2ee82-118">Period</span></span>      | <span data-ttu-id="2ee82-119">折旧金额</span><span class="sxs-lookup"><span data-stu-id="2ee82-119">Depreciation amount</span></span> | <span data-ttu-id="2ee82-120">帐面净值</span><span class="sxs-lookup"><span data-stu-id="2ee82-120">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 12 月 31 日 | 307.69              | 99,692.31             |
-| 2    | 12 月 31 日 | 1,447.21            | 98,245.10             |
-| 3    | 12 月 31 日 | 3,104.50            | 95,140.60             |
-| 4    | 12 月 31 日 | 5,150.21            | 89,990.39             |
-| 5    | 12 月 31 日 | 7,522.95            | 82,467.44             |
-| 6    | 12 月 31 日 | 10,184.06           | 72,283.38             |
+| <span data-ttu-id="2ee82-121">1</span><span class="sxs-lookup"><span data-stu-id="2ee82-121">1</span></span>    | <span data-ttu-id="2ee82-122">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-122">December 31</span></span> | <span data-ttu-id="2ee82-123">307.69</span><span class="sxs-lookup"><span data-stu-id="2ee82-123">307.69</span></span>              | <span data-ttu-id="2ee82-124">99,692.31</span><span class="sxs-lookup"><span data-stu-id="2ee82-124">99,692.31</span></span>             |
+| <span data-ttu-id="2ee82-125">2</span><span class="sxs-lookup"><span data-stu-id="2ee82-125">2</span></span>    | <span data-ttu-id="2ee82-126">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-126">December 31</span></span> | <span data-ttu-id="2ee82-127">1,447.21</span><span class="sxs-lookup"><span data-stu-id="2ee82-127">1,447.21</span></span>            | <span data-ttu-id="2ee82-128">98,245.10</span><span class="sxs-lookup"><span data-stu-id="2ee82-128">98,245.10</span></span>             |
+| <span data-ttu-id="2ee82-129">3</span><span class="sxs-lookup"><span data-stu-id="2ee82-129">3</span></span>    | <span data-ttu-id="2ee82-130">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-130">December 31</span></span> | <span data-ttu-id="2ee82-131">3,104.50</span><span class="sxs-lookup"><span data-stu-id="2ee82-131">3,104.50</span></span>            | <span data-ttu-id="2ee82-132">95,140.60</span><span class="sxs-lookup"><span data-stu-id="2ee82-132">95,140.60</span></span>             |
+| <span data-ttu-id="2ee82-133">4</span><span class="sxs-lookup"><span data-stu-id="2ee82-133">4</span></span>    | <span data-ttu-id="2ee82-134">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-134">December 31</span></span> | <span data-ttu-id="2ee82-135">5,150.21</span><span class="sxs-lookup"><span data-stu-id="2ee82-135">5,150.21</span></span>            | <span data-ttu-id="2ee82-136">89,990.39</span><span class="sxs-lookup"><span data-stu-id="2ee82-136">89,990.39</span></span>             |
+| <span data-ttu-id="2ee82-137">5</span><span class="sxs-lookup"><span data-stu-id="2ee82-137">5</span></span>    | <span data-ttu-id="2ee82-138">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-138">December 31</span></span> | <span data-ttu-id="2ee82-139">7,522.95</span><span class="sxs-lookup"><span data-stu-id="2ee82-139">7,522.95</span></span>            | <span data-ttu-id="2ee82-140">82,467.44</span><span class="sxs-lookup"><span data-stu-id="2ee82-140">82,467.44</span></span>             |
+| <span data-ttu-id="2ee82-141">6</span><span class="sxs-lookup"><span data-stu-id="2ee82-141">6</span></span>    | <span data-ttu-id="2ee82-142">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-142">December 31</span></span> | <span data-ttu-id="2ee82-143">10,184.06</span><span class="sxs-lookup"><span data-stu-id="2ee82-143">10,184.06</span></span>           | <span data-ttu-id="2ee82-144">72,283.38</span><span class="sxs-lookup"><span data-stu-id="2ee82-144">72,283.38</span></span>             |
 
-## <a name="digressive-depreciation"></a>非累进折旧
-**系数**字段中的值小于 **50**。
+## <a name="digressive-depreciation"></a><span data-ttu-id="2ee82-145">非累进折旧</span><span class="sxs-lookup"><span data-stu-id="2ee82-145">Digressive depreciation</span></span>
+<span data-ttu-id="2ee82-146">**系数**字段中的值小于 **50**。</span><span class="sxs-lookup"><span data-stu-id="2ee82-146">The value in the **Factor** field is less than **50**.</span></span>
 
-### <a name="example"></a>示例
+### <a name="example"></a><span data-ttu-id="2ee82-147">示例</span><span class="sxs-lookup"><span data-stu-id="2ee82-147">Example</span></span>
 
-购置价格为 100,000，系数为 20，使用年限为 10 年，并且折旧在 1 月 1 日开始。 只为使用年限的前 6 年显示折旧金额和帐面净额。
+<span data-ttu-id="2ee82-148">购置价格为 100,000，系数为 20，使用年限为 10 年，并且折旧在 1 月 1 日开始。</span><span class="sxs-lookup"><span data-stu-id="2ee82-148">The acquisition price is 100,000, the factor is 20, the service life is 10 years, and depreciation starts on January 1.</span></span> <span data-ttu-id="2ee82-149">只为使用年限的前 6 年显示折旧金额和帐面净额。</span><span class="sxs-lookup"><span data-stu-id="2ee82-149">The depreciation amounts and net book value amounts are shown only for the first six years of service life.</span></span>
 
-| 年 | 期间      | 折旧金额 | 帐面净值 |
+| <span data-ttu-id="2ee82-150">年</span><span class="sxs-lookup"><span data-stu-id="2ee82-150">Year</span></span> | <span data-ttu-id="2ee82-151">期间</span><span class="sxs-lookup"><span data-stu-id="2ee82-151">Period</span></span>      | <span data-ttu-id="2ee82-152">折旧金额</span><span class="sxs-lookup"><span data-stu-id="2ee82-152">Depreciation amount</span></span> | <span data-ttu-id="2ee82-153">帐面净值</span><span class="sxs-lookup"><span data-stu-id="2ee82-153">Net book value amount</span></span> |
 |------|-------------|---------------------|-----------------------|
-| 1    | 12 月 31 日 | 56,080.43           | 43,919.57             |
-| 2    | 12 月 31 日 | 10,665.70           | 33,253.87             |
-| 3    | 12 月 31 日 | 7,156.22            | 26,097.65             |
-| 4    | 12 月 31 日 | 5,538.06            | 20,559.59             |
-| 5    | 12 月 31 日 | 4,579.89            | 15,979.70             |
-| 6    | 12 月 31 日 | 3,937.36            | 12,042.34             |
+| <span data-ttu-id="2ee82-154">1</span><span class="sxs-lookup"><span data-stu-id="2ee82-154">1</span></span>    | <span data-ttu-id="2ee82-155">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-155">December 31</span></span> | <span data-ttu-id="2ee82-156">56,080.43</span><span class="sxs-lookup"><span data-stu-id="2ee82-156">56,080.43</span></span>           | <span data-ttu-id="2ee82-157">43,919.57</span><span class="sxs-lookup"><span data-stu-id="2ee82-157">43,919.57</span></span>             |
+| <span data-ttu-id="2ee82-158">2</span><span class="sxs-lookup"><span data-stu-id="2ee82-158">2</span></span>    | <span data-ttu-id="2ee82-159">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-159">December 31</span></span> | <span data-ttu-id="2ee82-160">10,665.70</span><span class="sxs-lookup"><span data-stu-id="2ee82-160">10,665.70</span></span>           | <span data-ttu-id="2ee82-161">33,253.87</span><span class="sxs-lookup"><span data-stu-id="2ee82-161">33,253.87</span></span>             |
+| <span data-ttu-id="2ee82-162">3</span><span class="sxs-lookup"><span data-stu-id="2ee82-162">3</span></span>    | <span data-ttu-id="2ee82-163">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-163">December 31</span></span> | <span data-ttu-id="2ee82-164">7,156.22</span><span class="sxs-lookup"><span data-stu-id="2ee82-164">7,156.22</span></span>            | <span data-ttu-id="2ee82-165">26,097.65</span><span class="sxs-lookup"><span data-stu-id="2ee82-165">26,097.65</span></span>             |
+| <span data-ttu-id="2ee82-166">4</span><span class="sxs-lookup"><span data-stu-id="2ee82-166">4</span></span>    | <span data-ttu-id="2ee82-167">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-167">December 31</span></span> | <span data-ttu-id="2ee82-168">5,538.06</span><span class="sxs-lookup"><span data-stu-id="2ee82-168">5,538.06</span></span>            | <span data-ttu-id="2ee82-169">20,559.59</span><span class="sxs-lookup"><span data-stu-id="2ee82-169">20,559.59</span></span>             |
+| <span data-ttu-id="2ee82-170">5</span><span class="sxs-lookup"><span data-stu-id="2ee82-170">5</span></span>    | <span data-ttu-id="2ee82-171">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-171">December 31</span></span> | <span data-ttu-id="2ee82-172">4,579.89</span><span class="sxs-lookup"><span data-stu-id="2ee82-172">4,579.89</span></span>            | <span data-ttu-id="2ee82-173">15,979.70</span><span class="sxs-lookup"><span data-stu-id="2ee82-173">15,979.70</span></span>             |
+| <span data-ttu-id="2ee82-174">6</span><span class="sxs-lookup"><span data-stu-id="2ee82-174">6</span></span>    | <span data-ttu-id="2ee82-175">12 月 31 日</span><span class="sxs-lookup"><span data-stu-id="2ee82-175">December 31</span></span> | <span data-ttu-id="2ee82-176">3,937.36</span><span class="sxs-lookup"><span data-stu-id="2ee82-176">3,937.36</span></span>            | <span data-ttu-id="2ee82-177">12,042.34</span><span class="sxs-lookup"><span data-stu-id="2ee82-177">12,042.34</span></span>             |
 
-## <a name="straight-line-depreciation"></a>直线折旧法
-**系数**字段中的值等于 **50**。 在此情况下，折旧在每个期间中都相同，并且您应该考虑在其他字段中指定的值的意义，如[直线法折旧](straight-line-service-life-depreciation.md)中所述。
+## <a name="straight-line-depreciation"></a><span data-ttu-id="2ee82-178">直线折旧法</span><span class="sxs-lookup"><span data-stu-id="2ee82-178">Straight line depreciation</span></span>
+<span data-ttu-id="2ee82-179">**系数**字段中的值等于 **50**。</span><span class="sxs-lookup"><span data-stu-id="2ee82-179">The value in the **Factor** field is equal to **50**.</span></span> <span data-ttu-id="2ee82-180">在此情况下，折旧在每个期间中都相同，并且您应该考虑在其他字段中指定的值的意义，如[直线法折旧](straight-line-service-life-depreciation.md)中所述。</span><span class="sxs-lookup"><span data-stu-id="2ee82-180">In this case, the depreciation is the same in each period, and you should consider the implications of the values that you have specified in other fields, as described in [Straight line service life depreciation](straight-line-service-life-depreciation.md).</span></span>
 
 
 

@@ -16,304 +16,304 @@ ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 6d4391f1a6fa517b447387562fd3216201451316
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3372a985b3cdfde81150f38f5f8af91324cee71d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="work-breakdown-structures"></a>工作分解结构
+# <a name="work-breakdown-structures"></a><span data-ttu-id="26474-104">工作分解结构</span><span class="sxs-lookup"><span data-stu-id="26474-104">Work breakdown structures</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-工作分解结构 (WBS) 是项目中要完成的工作的描述。 它是一种任务的层次结构，代表项目团队对工作构成和大小、成本以及每个组件或任务的持续时间的理解。 WBS 包含三个主要目的：
+<span data-ttu-id="26474-105">工作分解结构 (WBS) 是项目中要完成的工作的描述。</span><span class="sxs-lookup"><span data-stu-id="26474-105">A work breakdown structure (WBS) is a description of the work that will be done for a project.</span></span> <span data-ttu-id="26474-106">它是一种任务的层次结构，代表项目团队对工作构成和大小、成本以及每个组件或任务的持续时间的理解。</span><span class="sxs-lookup"><span data-stu-id="26474-106">It’s a hierarchy of tasks that represents the project team’s understanding of the composition of work, and of the size, cost, and duration of each component or task.</span></span> <span data-ttu-id="26474-107">WBS 包含三个主要目的：</span><span class="sxs-lookup"><span data-stu-id="26474-107">A WBS has three major purposes:</span></span>
 
--   描述任务中工作的细分或构成。
--   计划项目工作。
--   估计每个任务的成本。
+-   <span data-ttu-id="26474-108">描述任务中工作的细分或构成。</span><span class="sxs-lookup"><span data-stu-id="26474-108">Describe the breakdown or composition of work in tasks.</span></span>
+-   <span data-ttu-id="26474-109">计划项目工作。</span><span class="sxs-lookup"><span data-stu-id="26474-109">Schedule the project work.</span></span>
+-   <span data-ttu-id="26474-110">估计每个任务的成本。</span><span class="sxs-lookup"><span data-stu-id="26474-110">Estimate the cost of each task.</span></span>
 
-WBS 中详细信息的级别取决于评估中需要的准确性等级和这些评估需要的跟踪级别。 对计划或成本偏差的容忍度非常低的项目通常需要更详细的 WBS，以及针对 WBS 积极跟进工作进度和成本。 此类项目在建筑和工程行业很常见。 
+<span data-ttu-id="26474-111">WBS 中详细信息的级别取决于评估中需要的准确性等级和这些评估需要的跟踪级别。</span><span class="sxs-lookup"><span data-stu-id="26474-111">The degree of detail in a WBS depends on the level of accuracy that is required in estimates and the level of tracking that is required against those estimates.</span></span> <span data-ttu-id="26474-112">对计划或成本偏差的容忍度非常低的项目通常需要更详细的 WBS，以及针对 WBS 积极跟进工作进度和成本。</span><span class="sxs-lookup"><span data-stu-id="26474-112">Projects that have very low tolerance for slippages in schedule or cost usually require a more detailed WBS, and diligent tracking of work progress and cost against the WBS.</span></span> <span data-ttu-id="26474-113">此类项目在建筑和工程行业很常见。</span><span class="sxs-lookup"><span data-stu-id="26474-113">This kind of project is common in the construction and engineering industries.</span></span> 
 
-相反，媒体和广告、软件和 IT 基础结构等行业中的项目趋向于独一无二，且工作效率与执行任务的个体的经验和能力相关。 因此，这些行业使用 WBS 获取项目大小的近似值，而不会详细跟踪项目的进程。 
+<span data-ttu-id="26474-114">相反，媒体和广告、软件和 IT 基础结构等行业中的项目趋向于独一无二，且工作效率与执行任务的个体的经验和能力相关。</span><span class="sxs-lookup"><span data-stu-id="26474-114">By contrast, projects in industries such as media and advertising, software, and IT infrastructure tend to be one of a kind, and productivity is relative to the experience and competency of the individual who is performing the task.</span></span> <span data-ttu-id="26474-115">因此，这些行业使用 WBS 获取项目大小的近似值，而不会详细跟踪项目的进程。</span><span class="sxs-lookup"><span data-stu-id="26474-115">Therefore, these industries use a WBS to get an approximation of the size of a project, not to track the progress of that project in detail.</span></span> 
 
-构建 WBS 是一种密集流程，该流程通常需要较长时间才能完成，且需要各种人员的合作和提供信息。 本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用 WBS 增强功能满足您估计和跟踪的需要。
+<span data-ttu-id="26474-116">构建 WBS 是一种密集流程，该流程通常需要较长时间才能完成，且需要各种人员的合作和提供信息。</span><span class="sxs-lookup"><span data-stu-id="26474-116">Building a WBS is an intensive process that is usually done over a long period, and that requires collaboration and information from a wide variety of people.</span></span> <span data-ttu-id="26474-117">本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用 WBS 增强功能满足您估计和跟踪的需要。</span><span class="sxs-lookup"><span data-stu-id="26474-117">This topic describes how you can use WBS enhancements in Microsoft Dynamics 365 for Finance and Operations to meet your requirements for estimates and tracking.</span></span>
 
-## <a name="prerequisites-for-creating-a-wbs"></a>创建 WBS 的先决条件
-若要创建 WBS，必须能够创建工作计划和估计工作成本。
+## <a name="prerequisites-for-creating-a-wbs"></a><span data-ttu-id="26474-118">创建 WBS 的先决条件</span><span class="sxs-lookup"><span data-stu-id="26474-118">Prerequisites for creating a WBS</span></span>
+<span data-ttu-id="26474-119">若要创建 WBS，必须能够创建工作计划和估计工作成本。</span><span class="sxs-lookup"><span data-stu-id="26474-119">To create a WBS, you must be able to create a work schedule and estimate the cost of work.</span></span>
 
-### <a name="prerequisites-for-creating-a-work-schedule"></a>创建工作计划的先决条件
+### <a name="prerequisites-for-creating-a-work-schedule"></a><span data-ttu-id="26474-120">创建工作计划的先决条件</span><span class="sxs-lookup"><span data-stu-id="26474-120">Prerequisites for creating a work schedule</span></span>
 
-若要使用 WBS 功能的完整计划编制功能，请完成以下设置：
+<span data-ttu-id="26474-121">若要使用 WBS 功能的完整计划编制功能，请完成以下设置：</span><span class="sxs-lookup"><span data-stu-id="26474-121">To use the full scheduling capabilities of the WBS features, complete the following setup:</span></span>
 
-1.  设置默认日历和项目日历：
-    1.  单击**项目管理和会计** &gt; **设置** &gt; **计划编制**。 在**“默认工作日历”**字段中，指定一个默认日历。 这将是创建的任何新项目的默认工作计划。
-    2.  您可以为特定项目更改默认日历。 单击该项目的详细信息页，然后，在**“项目团队和计划编制”**快速选项卡上，通过选择另一个日历来更新**“计划编制日历”**字段。
+1.  <span data-ttu-id="26474-122">设置默认日历和项目日历：</span><span class="sxs-lookup"><span data-stu-id="26474-122">Set up a default calendar and a project calendar:</span></span>
+    1.  <span data-ttu-id="26474-123">单击**项目管理和会计** &gt; **设置** &gt; **计划编制**。</span><span class="sxs-lookup"><span data-stu-id="26474-123">Click **Project management and accounting** &gt; **Setup** &gt; **Scheduling**.</span></span> <span data-ttu-id="26474-124">在**“默认工作日历”**字段中，指定一个默认日历。</span><span class="sxs-lookup"><span data-stu-id="26474-124">In the **Default working calendar** field, specify a default calendar.</span></span> <span data-ttu-id="26474-125">这将是创建的任何新项目的默认工作计划。</span><span class="sxs-lookup"><span data-stu-id="26474-125">This will be the default working calendar for any new project that is created.</span></span>
+    2.  <span data-ttu-id="26474-126">您可以为特定项目更改默认日历。</span><span class="sxs-lookup"><span data-stu-id="26474-126">You can change the default calendar for a specific project.</span></span> <span data-ttu-id="26474-127">单击该项目的详细信息页，然后，在**“项目团队和计划编制”**快速选项卡上，通过选择另一个日历来更新**“计划编制日历”**字段。</span><span class="sxs-lookup"><span data-stu-id="26474-127">Click the project’s details page, and then, on the **Project team and scheduling** FastTab, update the **Scheduling calendar** field by selecting another calendar.</span></span>
 
-2.  设置标准工作日和工时。 您设为项目的工作日历的日历在 WBS 中将用于确定以下信息：
+2.  <span data-ttu-id="26474-128">设置标准工作日和工时。</span><span class="sxs-lookup"><span data-stu-id="26474-128">Set up standard working days and working hours.</span></span> <span data-ttu-id="26474-129">您设为项目的工作日历的日历在 WBS 中将用于确定以下信息：</span><span class="sxs-lookup"><span data-stu-id="26474-129">The calendar that you set as the working calendar for your project will be used in the WBS to determine the following information:</span></span>
 
--   工作日和假期
--   一天中的工时数
+-   <span data-ttu-id="26474-130">工作日和假期</span><span class="sxs-lookup"><span data-stu-id="26474-130">Working days and holidays</span></span>
+-   <span data-ttu-id="26474-131">一天中的工时数</span><span class="sxs-lookup"><span data-stu-id="26474-131">The number of working hours in a day</span></span>
 
-要为日历设置工作日和工作时间，或创建新的日历，请单击**组织管理** &gt; **通用** &gt; **日历**。
+<span data-ttu-id="26474-132">要为日历设置工作日和工作时间，或创建新的日历，请单击**组织管理** &gt; **通用** &gt; **日历**。</span><span class="sxs-lookup"><span data-stu-id="26474-132">To set up the working days and working hours for a calendar, or to create a new calendar, click **Organization administration** &gt; **Common** &gt; **Calendars**.</span></span>
 
-### <a name="prerequisites-for-estimating-the-cost-of-work"></a>估计工作成本的先决条件
+### <a name="prerequisites-for-estimating-the-cost-of-work"></a><span data-ttu-id="26474-133">估计工作成本的先决条件</span><span class="sxs-lookup"><span data-stu-id="26474-133">Prerequisites for estimating the cost of work</span></span>
 
-为了使用 WBS 的完整成本评估功能，您应该设置工作人员、劳动类别、支出、以及费用和物料的成本和销售价。
+<span data-ttu-id="26474-134">为了使用 WBS 的完整成本评估功能，您应该设置工作人员、劳动类别、支出、以及费用和物料的成本和销售价。</span><span class="sxs-lookup"><span data-stu-id="26474-134">To use the full cost estimation capabilities of the WBS, you should set up the costs and sales prices for workers, categories of labor, expenses, and fees, and items.</span></span>
 
--   要设置劳动、支出和费用类别的成本和销售价，请单击**项目管理与核算** &gt; **设置** &gt; **价格**。
--   要设置物料的成本和销售价，请使用产品信息管理中**“已发布产品”**列表页上每个物料的**“贸易协议”**页。
+-   <span data-ttu-id="26474-135">要设置劳动、支出和费用类别的成本和销售价，请单击**项目管理与核算** &gt; **设置** &gt; **价格**。</span><span class="sxs-lookup"><span data-stu-id="26474-135">To set up the cost and sales price of labor, expense, and fee categories, click **Project management and accounting** &gt; **Setup** &gt; **Prices**.</span></span>
+-   <span data-ttu-id="26474-136">要设置物料的成本和销售价，请使用产品信息管理中**“已发布产品”**列表页上每个物料的**“贸易协议”**页。</span><span class="sxs-lookup"><span data-stu-id="26474-136">To set up the cost and sales price of items, use the **Trade agreements** page for each item on the **Released products** list page in Product information management.</span></span>
 
-## <a name="creating-a-wbs"></a>创建 WBS
-创建 WBS 涉及以下三个活动：
+## <a name="creating-a-wbs"></a><span data-ttu-id="26474-137">创建 WBS</span><span class="sxs-lookup"><span data-stu-id="26474-137">Creating a WBS</span></span>
+<span data-ttu-id="26474-138">创建 WBS 涉及以下三个活动：</span><span class="sxs-lookup"><span data-stu-id="26474-138">Creating a WBS involves three activities:</span></span>
 
-1.  **工作分解** - 将工作细分为可管理的区块或任务。
-2.  **工作计划** - 估计完成任务需要的时间，设定任务相关性，以及选择任务的开始和结束日期。
-3.  **成本估计** - 估计每个任务的成本。
+1.  <span data-ttu-id="26474-139">**工作分解** - 将工作细分为可管理的区块或任务。</span><span class="sxs-lookup"><span data-stu-id="26474-139">**Work decomposition** – Create a breakdown of work into manageable chunks or tasks.</span></span>
+2.  <span data-ttu-id="26474-140">**工作计划** - 估计完成任务需要的时间，设定任务相关性，以及选择任务的开始和结束日期。</span><span class="sxs-lookup"><span data-stu-id="26474-140">**Work schedule** – Estimate the time that is required to complete a task, set task interdependencies, and select the start and end dates for tasks.</span></span>
+3.  <span data-ttu-id="26474-141">**成本估计** - 估计每个任务的成本。</span><span class="sxs-lookup"><span data-stu-id="26474-141">**Cost estimation** – Estimate costs for each task.</span></span>
 
-以下各节将讨论 WBS 功能如何帮助完成这些活动。
+<span data-ttu-id="26474-142">以下各节将讨论 WBS 功能如何帮助完成这些活动。</span><span class="sxs-lookup"><span data-stu-id="26474-142">The following sections discuss how the WBS capabilities can help with each of these activities.</span></span>
 
-### <a name="work-decomposition"></a>工作分解
+### <a name="work-decomposition"></a><span data-ttu-id="26474-143">工作分解</span><span class="sxs-lookup"><span data-stu-id="26474-143">Work decomposition</span></span>
 
-在创建 WBS 的过程中，创建工作的细分或分解通常是第一步。 WBS 功能支持以下工作细分或分解的基本构造。 
+<span data-ttu-id="26474-144">在创建 WBS 的过程中，创建工作的细分或分解通常是第一步。</span><span class="sxs-lookup"><span data-stu-id="26474-144">Creating a breakdown or decomposition of work is usually the first step in the process of creating a WBS.</span></span> <span data-ttu-id="26474-145">WBS 功能支持以下工作细分或分解的基本构造。</span><span class="sxs-lookup"><span data-stu-id="26474-145">The WBS functionality supports the following basic constructs for work breakdown or decomposition.</span></span> 
 
-**项目根任务**：项目根任务是项目的顶级摘要任务。 所有其他项目任务均在其下创建。 根任务的名称始终设置为项目名称。 根节点的工作量、日期和持续时间将汇总根任务下各个任务的值。 您不能修改根节点的属性或删除它。
+<span data-ttu-id="26474-146">**项目根任务**：项目根任务是项目的顶级摘要任务。</span><span class="sxs-lookup"><span data-stu-id="26474-146">**Project root task** The project root task is the top-level summary task for a project.</span></span> <span data-ttu-id="26474-147">所有其他项目任务均在其下创建。</span><span class="sxs-lookup"><span data-stu-id="26474-147">All other project tasks are created beneath it.</span></span> <span data-ttu-id="26474-148">根任务的名称始终设置为项目名称。</span><span class="sxs-lookup"><span data-stu-id="26474-148">The name of the root task is always set to the project name.</span></span> <span data-ttu-id="26474-149">根节点的工作量、日期和持续时间将汇总根任务下各个任务的值。</span><span class="sxs-lookup"><span data-stu-id="26474-149">The effort, dates, and duration of the root node summarize the values for the tasks beneath the root task.</span></span> <span data-ttu-id="26474-150">您不能修改根节点的属性或删除它。</span><span class="sxs-lookup"><span data-stu-id="26474-150">You can’t modify the properties of the root node or delete it.</span></span>
 
-**摘要或容器任务**：摘要任务是其下有子任务或构成任务的一种任务。 摘要任务本身没有任何工作量或成本。 相反，摘要任务的工作量和成本是其构成任务的工作量和成本的总和。 构造任务的最早开始日期将用作摘要任务的开始日期，构造任务的最晚结束日期将用作结束日期。 您可以修改摘要任务的名称，但不能修改工作量、日期和持续时间的计划属性。 如果您删除一个摘要任务，您也会删除它所有的构造任务。 
+<span data-ttu-id="26474-151">**摘要或容器任务**：摘要任务是其下有子任务或构成任务的一种任务。</span><span class="sxs-lookup"><span data-stu-id="26474-151">**Summary or container tasks** A summary task is a task that has sub-tasks or constituent tasks beneath it.</span></span> <span data-ttu-id="26474-152">摘要任务本身没有任何工作量或成本。</span><span class="sxs-lookup"><span data-stu-id="26474-152">A summary task doesn’t have any work effort or cost of its own.</span></span> <span data-ttu-id="26474-153">相反，摘要任务的工作量和成本是其构成任务的工作量和成本的总和。</span><span class="sxs-lookup"><span data-stu-id="26474-153">Instead, the work effort and cost of a summary task are the sum of the work effort and cost of its constituent tasks.</span></span> <span data-ttu-id="26474-154">构造任务的最早开始日期将用作摘要任务的开始日期，构造任务的最晚结束日期将用作结束日期。</span><span class="sxs-lookup"><span data-stu-id="26474-154">The earliest start date of the constituent tasks is used as the start date of the summary task, and the latest end date of the constituent tasks is used as the end date.</span></span> <span data-ttu-id="26474-155">您可以修改摘要任务的名称，但不能修改工作量、日期和持续时间的计划属性。</span><span class="sxs-lookup"><span data-stu-id="26474-155">You can modify the name of a summary task, but you can’t modify the scheduling properties for effort, dates, and duration.</span></span> <span data-ttu-id="26474-156">如果您删除一个摘要任务，您也会删除它所有的构造任务。</span><span class="sxs-lookup"><span data-stu-id="26474-156">If you delete a summary task, you also delete all its constituent tasks.</span></span> 
 
-**叶节点任务**：叶节点任务代表项目上大多数粒度工作包。 一个叶节点具有一个估计工作量、一个计划资源数、一个计划开始日期和结束日期以及持续时间。 
+<span data-ttu-id="26474-157">**叶节点任务**：叶节点任务代表项目上大多数粒度工作包。</span><span class="sxs-lookup"><span data-stu-id="26474-157">**Leaf node tasks** A leaf node task represents the most granular work package on the project.</span></span> <span data-ttu-id="26474-158">一个叶节点具有一个估计工作量、一个计划资源数、一个计划开始日期和结束日期以及持续时间。</span><span class="sxs-lookup"><span data-stu-id="26474-158">A leaf node has an estimated effort, a planned number of resources, a planned start date and end date, and duration.</span></span> 
 
-您可以完成以下层次结构操作，以支持项目的工作层次结构或分解的创建。 
+<span data-ttu-id="26474-159">您可以完成以下层次结构操作，以支持项目的工作层次结构或分解的创建。</span><span class="sxs-lookup"><span data-stu-id="26474-159">You can complete the following hierarchy operations to enable the creation of a work hierarchy or decomposition for a project.</span></span> 
 
-**新任务**：您创建的任何新任务是在根节点下自动添加的，且会自动给该任务分配一个 WBS 编号。 WBS 编号表示该任务在层次结构中的级别。 对于项目根任务下的一级任务，使用编号方案 1、2、3，依此类推。 对于一级任务下的任务，使用编号方案 1.1、1.2、1.3，依此类推。 对于上一个级别下添加的每一个级别，将添加一个新的带有点的编号系列。 
+<span data-ttu-id="26474-160">**新任务**：您创建的任何新任务是在根节点下自动添加的，且会自动给该任务分配一个 WBS 编号。</span><span class="sxs-lookup"><span data-stu-id="26474-160">**New task** Any new task that you create is automatically added under the root node, and a WBS number is automatically assigned to the task.</span></span> <span data-ttu-id="26474-161">WBS 编号表示该任务在层次结构中的级别。</span><span class="sxs-lookup"><span data-stu-id="26474-161">The WBS number represents the task’s level in the hierarchy.</span></span> <span data-ttu-id="26474-162">对于项目根任务下的一级任务，使用编号方案 1、2、3，依此类推。</span><span class="sxs-lookup"><span data-stu-id="26474-162">For tasks in the first level under the project root task, a numbering scheme of 1, 2, 3, and so on is used.</span></span> <span data-ttu-id="26474-163">对于一级任务下的任务，使用编号方案 1.1、1.2、1.3，依此类推。</span><span class="sxs-lookup"><span data-stu-id="26474-163">For tasks that are under the first level, a numbering scheme of 1.1, 1.2, 1.3, and so on is used.</span></span> <span data-ttu-id="26474-164">对于上一个级别下添加的每一个级别，将添加一个新的带有点的编号系列。</span><span class="sxs-lookup"><span data-stu-id="26474-164">For each level that is added under a previous level, a new dotted series of numbers is added.</span></span> 
 
-目前，您无法自定义 WBS 编号。 
+<span data-ttu-id="26474-165">目前，您无法自定义 WBS 编号。</span><span class="sxs-lookup"><span data-stu-id="26474-165">Currently, you can’t customize the WBS numbering.</span></span> 
 
-**缩进任务**：当您将某个任务缩进后，该任务会成为它上面的任务的子任务。 新的子任务的 WBS 编号将基于其新的父任务的 WBS 编号自动重新计算。 该父任务现已成为摘要或容器任务，因此成为了其构成任务的汇总。 
-
-> [!NOTE] 
-> 如果您缩进某个任务下的一些任务，且在缩进操作之前该任务是一个叶节点，那么新创建的摘要任务将丢失它自己的日期、工作量和资源数。 该摘要任务现在使用其新构成任务的值的摘要。 
-
-**升级任务**：如果您升级某个任务，那么该任务将不再是其父任务的构成任务。 此任务的 WBS 编号将自动重新计算，以反映该任务在层次结构中的新级别。 该任务的前一个父任务的工作量、成本和日期也将重新计算，以排除该任务。 
-
-**上移和下移**：如果您单击**“上移”**和**“下移”**，您将更改某个任务在其父任务的层次结构中的位置。 任务的位置不影响任务的工作量、成本、日期或持续时间。 不过，该任务的 WBS 编号将自动重新计算，以反映该任务的新位置。
-
-### <a name="schedule-estimation"></a>计划估计
-
-在创建 WBS 中，计划估计通常是第二步。 作为一种最佳实践，您应在创建任务之后完成计划估计。 Finance and Operations 中的**工作分解结构**页分为两部分。 上部窗格用于计划估计，下部窗格包含一个**“估计的成本和收入”**选项卡，您可以用于成本估计。 
-**任务相关性**：在 WBS 中，您可以在任务之间创建一个前置关系。 当您将前置任务分配给某个任务后，该任务仅可以在其所有前置任务均完成后开始。 任务的计划开始日期将自动设置为其所有前置任务的最晚日期。 
-
-**Microsoft Dynamics 365 for Finance and Operations 中的任务计划编制**：以下因素确定叶节点任务的计划编制：
-
--   前置任务
--   工作量
--   资源数
--   开始和结束日期
-
-没有前置任务的叶节点任务的开始日期将自动设置为项目的计划开始日期。 叶节点任务的持续时间始终计算为其开始日期和结束日期之间的工作日天数。 
-
-****计划编制规则**** 当自动计划编制辅助开启时，以下规则适用于叶节点任务的任务计划编制：
-
--   任务的开始日期和结束日期按照项目的计划编制日历必须为工作日。
--   有前置任务的任务的开始日期将自动设置为其前置任务的最晚结束日期。
--   任务的工作量将自动按以下方式重新计算：
-
-人数 × 持续时间 × 项目日历标准工作日中的小时数。 
-
-在某些情况下，您可能要偏离这些规则。 您可以关闭自动计划编制以防止 Finance and Operations 自动设置或更正叶节点任务的任何属性。 如果您为某个任务输入的信息违反任何计划编制规则，则会针对该任务显示一个计划编制错误图标。 如果您不希望显示计划编制错误，请单击**“显示计划编制错误”**以关闭此功能。 
+<span data-ttu-id="26474-166">**缩进任务**：当您将某个任务缩进后，该任务会成为它上面的任务的子任务。</span><span class="sxs-lookup"><span data-stu-id="26474-166">**Indent task** When you indent a task, it becomes a child of the task that precedes it.</span></span> <span data-ttu-id="26474-167">新的子任务的 WBS 编号将基于其新的父任务的 WBS 编号自动重新计算。</span><span class="sxs-lookup"><span data-stu-id="26474-167">The WBS number of the new child task is automatically recalculated based on the WBS number of its new parent.</span></span> <span data-ttu-id="26474-168">该父任务现已成为摘要或容器任务，因此成为了其构成任务的汇总。</span><span class="sxs-lookup"><span data-stu-id="26474-168">The parent task is now a summary or container task, and therefore becomes a roll-up of its constituent tasks.</span></span> 
 
 > [!NOTE] 
-> 摘要或容器任务的值将继续计算为构成任务的值之和，不论自动计划编制助手是开启还是关闭。 
+> <span data-ttu-id="26474-169">如果您缩进某个任务下的一些任务，且在缩进操作之前该任务是一个叶节点，那么新创建的摘要任务将丢失它自己的日期、工作量和资源数。</span><span class="sxs-lookup"><span data-stu-id="26474-169">When you indent tasks under a task that was a leaf node before the indent operation, the newly created summary task loses its own dates, effort, and number of resources.</span></span> <span data-ttu-id="26474-170">该摘要任务现在使用其新构成任务的值的摘要。</span><span class="sxs-lookup"><span data-stu-id="26474-170">It now uses a summary of the values of its new constituent tasks.</span></span> 
 
-**修复计划编制错误**：当自动计划编制助手处于开启状态时，计划编制错误不太可能发生。 但是，如果您关闭自动计划编制助手，然后再将其开启，则 WBS 中可能会显示计划编制错误图标。 
+<span data-ttu-id="26474-171">**升级任务**：如果您升级某个任务，那么该任务将不再是其父任务的构成任务。</span><span class="sxs-lookup"><span data-stu-id="26474-171">**Outdent task** When you outdent a task, it’s no longer a constituent task of its parent.</span></span> <span data-ttu-id="26474-172">此任务的 WBS 编号将自动重新计算，以反映该任务在层次结构中的新级别。</span><span class="sxs-lookup"><span data-stu-id="26474-172">The WBS number of this task is automatically recalculated to reflect the task’s new level in the hierarchy.</span></span> <span data-ttu-id="26474-173">该任务的前一个父任务的工作量、成本和日期也将重新计算，以排除该任务。</span><span class="sxs-lookup"><span data-stu-id="26474-173">The effort, cost, and dates of the task’s previous parent task are recalculated to exclude that task.</span></span> 
 
-**按任务修复计划编制错误**：当您双击某个特定任务的计划错误图标时，将会出现一个对话框，显示该任务的所有计划编制错误。 您可以决定要修复该任务的哪个计划编制错误。 
+<span data-ttu-id="26474-174">**上移和下移**：如果您单击**“上移”**和**“下移”**，您将更改某个任务在其父任务的层次结构中的位置。</span><span class="sxs-lookup"><span data-stu-id="26474-174">**Move up and Move down** When you click **Move up** and **Move down**, you change the position of a task within its parent’s hierarchy.</span></span> <span data-ttu-id="26474-175">任务的位置不影响任务的工作量、成本、日期或持续时间。</span><span class="sxs-lookup"><span data-stu-id="26474-175">The position of a task doesn’t affect the task’s effort, cost, dates, or duration.</span></span> <span data-ttu-id="26474-176">不过，该任务的 WBS 编号将自动重新计算，以反映该任务的新位置。</span><span class="sxs-lookup"><span data-stu-id="26474-176">However, the WBS number of the task is automatically recalculated to reflect the task’s new position.</span></span>
 
-**修复所有计划编制错误**：如果您希望 Finance and Operations 修复 WBS 中的所有计划编制错误，请在操作窗格上单击**修复所有计划编制错误**。 
+### <a name="schedule-estimation"></a><span data-ttu-id="26474-177">计划估计</span><span class="sxs-lookup"><span data-stu-id="26474-177">Schedule estimation</span></span>
 
-> [!NOTE] 
-> 此功能可能导致对 WBS 的重要修改。 按以下顺序更正错误：
+<span data-ttu-id="26474-178">在创建 WBS 中，计划估计通常是第二步。</span><span class="sxs-lookup"><span data-stu-id="26474-178">Schedule estimation is usually the second step in creating a WBS.</span></span> <span data-ttu-id="26474-179">作为一种最佳实践，您应在创建任务之后完成计划估计。</span><span class="sxs-lookup"><span data-stu-id="26474-179">As a best practice, you should complete schedule estimation after you create the tasks.</span></span> <span data-ttu-id="26474-180">Finance and Operations 中的**工作分解结构**页分为两部分。</span><span class="sxs-lookup"><span data-stu-id="26474-180">The **Work breakdown structure** page in Finance and Operations has two sections.</span></span> <span data-ttu-id="26474-181">上部窗格用于计划估计，下部窗格包含一个**“估计的成本和收入”**选项卡，您可以用于成本估计。</span><span class="sxs-lookup"><span data-stu-id="26474-181">The upper pane is intended for schedule estimation, and the lower pane includes an **Estimated costs and revenues** tab that you can use for cost estimation.</span></span> 
+<span data-ttu-id="26474-182">**任务相关性**：在 WBS 中，您可以在任务之间创建一个前置关系。</span><span class="sxs-lookup"><span data-stu-id="26474-182">**Task dependencies** In a WBS, you can create a predecessor relationship between tasks.</span></span> <span data-ttu-id="26474-183">当您将前置任务分配给某个任务后，该任务仅可以在其所有前置任务均完成后开始。</span><span class="sxs-lookup"><span data-stu-id="26474-183">When you assign predecessor tasks to a task, that task can start only after all its predecessor tasks have been completed.</span></span> <span data-ttu-id="26474-184">任务的计划开始日期将自动设置为其所有前置任务的最晚日期。</span><span class="sxs-lookup"><span data-stu-id="26474-184">The planned start date of the task is automatically set to the latest date of all its predecessors.</span></span> 
 
-1.  修改所有任务的估计工作量，使其等于项目日历中定义的产能。
-2.  修改每个任务的开始日期，使任务在其所有前置任务完成后开始。
-3.  修改每个任务的开始日期，删除前置任务的开始日期中的差距。
+<span data-ttu-id="26474-185">**Microsoft Dynamics 365 for Finance and Operations 中的任务计划编制**：以下因素确定叶节点任务的计划编制：</span><span class="sxs-lookup"><span data-stu-id="26474-185">**Task scheduling in Microsoft Dynamics 365 for Finance and Operations** The following factors determine the scheduling of leaf node tasks:</span></span>
 
-### <a name="cost-estimation"></a>成本估计
+-   <span data-ttu-id="26474-186">前置任务</span><span class="sxs-lookup"><span data-stu-id="26474-186">Predecessors</span></span>
+-   <span data-ttu-id="26474-187">工作量</span><span class="sxs-lookup"><span data-stu-id="26474-187">Effort</span></span>
+-   <span data-ttu-id="26474-188">资源数</span><span class="sxs-lookup"><span data-stu-id="26474-188">The number of resources</span></span>
+-   <span data-ttu-id="26474-189">开始和结束日期</span><span class="sxs-lookup"><span data-stu-id="26474-189">Start and end dates</span></span>
 
-正如本文档之前提及的，您可以通过使用**“工作分解结构”**页面的下部窗格中的**“估计的成本和收入”**选项卡来为每个叶节点任务输入成本估计。 
+<span data-ttu-id="26474-190">没有前置任务的叶节点任务的开始日期将自动设置为项目的计划开始日期。</span><span class="sxs-lookup"><span data-stu-id="26474-190">The start date of a leaf node task that doesn’t have predecessors is automatically set to the project’s scheduling start date.</span></span> <span data-ttu-id="26474-191">叶节点任务的持续时间始终计算为其开始日期和结束日期之间的工作日天数。</span><span class="sxs-lookup"><span data-stu-id="26474-191">The duration of a leaf node task is always calculated as the number of working days between its start and end dates.</span></span> 
 
-> [!NOTE] 
-> 您不能修改摘要或容器任务的成本估计。 摘要任务的成本估计等于其叶节点任务的成本估计之和。 每个任务的估计总成本将计算为以下交易记录类型的估计成本金额之和：
+<span data-ttu-id="26474-192">****计划编制规则**** 当自动计划编制辅助开启时，以下规则适用于叶节点任务的任务计划编制：</span><span class="sxs-lookup"><span data-stu-id="26474-192">****Scheduling rules**** When automatic scheduling assistance is turned on, the following rules apply to task scheduling for leaf node tasks:</span></span>
 
--   人工
--   物料或材料
--   支出
+-   <span data-ttu-id="26474-193">任务的开始日期和结束日期按照项目的计划编制日历必须为工作日。</span><span class="sxs-lookup"><span data-stu-id="26474-193">The start and end dates of a task must be working days, according to the project’s scheduling calendar.</span></span>
+-   <span data-ttu-id="26474-194">有前置任务的任务的开始日期将自动设置为其前置任务的最晚结束日期。</span><span class="sxs-lookup"><span data-stu-id="26474-194">The start date of a task that has predecessors is automatically set to the latest end date of its predecessors.</span></span>
+-   <span data-ttu-id="26474-195">任务的工作量将自动按以下方式重新计算：</span><span class="sxs-lookup"><span data-stu-id="26474-195">The effort for a task is automatically calculated as follows:</span></span>
 
-**费用**交易记录类型用于估计基于费用的收入。 此交易记录类型没有成本构成，因此在估计成本时不予考虑。 
+<span data-ttu-id="26474-196">人数 × 持续时间 × 项目日历标准工作日中的小时数。</span><span class="sxs-lookup"><span data-stu-id="26474-196">Number of people × Duration × Number of hours in a standard working day in the project calendar.</span></span> 
 
-**分期付款**交易记录类型用于记录固定值类型的项目的合同销售价值。 估计成本时也不考虑此交易记录类型。 
-
-在估计每个任务的人工、材料和费用成本时，您必须为估计成本分配项目类别。 
-
-**估计人工成本**：您应为每个叶节点任务分配一个工作量（以小时为单位）和一个默认类别。 因此，在为某个任务设置计划时，人工的默认类别中将自动添加该任务的人工成本估计。 此成本估计将在该任务的**“行明细”**网格中的**“估计的成本和收入”**选项卡上显示。 如果您需要更多人工成本估计，则可以在此选项卡上添加。 如果您增加或减少人工成本估计的小时数，该任务的计划将自动重新计算。 
-
-**估计费用和材料成本**：如果您需要，也可以通过**“估计的成本和收入”**选项卡估计任务的费用和材料成本。 
-
-每个人工或费用估计行的成本和销售价基于一种设置，该设置是在**项目管理与核算** &gt; **设置** &gt; **价格**上的定价表中针对每个类别定义的。 对于物料，成本和销售价是默认从产品信息管理中**“已发布产品”**列表页上的物料或贸易协议中添加的。
-
-## <a name="tracking-progress-on-the-wbs"></a>在 WBS 上跟踪进度
-某些行业在非常具体的级别上针对 WBS 跟踪项目的进度，而其他行业则在 WBS 的较高级别上跟踪进度。 本节将介绍如何使用符合项目要求的 WBS 跟踪。 
-
-Finance and Operations 为每个项目的 WBS 提供三个视图：计划视图、工作量跟踪视图和成本跟踪视图。
-
-### <a name="planning-view"></a>计划视图
-
-计划视图显示计划和成本信息的计划或基线估计。 尽管没有跟踪项目 WBS 的版本和基线的功能，此视图中的值旨在表示基线版本。 本主题的计划估计一节和成本估计一节介绍了此视图以及如何用它来创建 WBS。
-
-### <a name="effort-tracking-view"></a>工作量跟踪视图
-
-工作量跟踪视图显示对 WBS 中任务进度的跟踪。 它会将任务的累计实际工作量小时数与计划工作量小时数进行对比。 以下公式可提供工作量跟踪视图中的值：
-
--   进度百分比 = 迄今实际工作量÷任务的计划工作量
--   剩余工作量（也称为完工尚需工作量 \[ETC\]) = 计划工作量 - 迄今实际工作量
--   完工估计 (EAC) = 剩余工作量 + 迄今实际工作量
--   计划的工作量差异 = 计划工作量 - EAC
-
-工作量跟踪视图显示任务的工作量差异预测，这种预测是基于 EAC 是大于计划工作量还是小于计划工作量：
-
--   如果 EAC 大于计划工作量，则会预测任务需要比原来计划的更长的时间且会落后于计划。
--   如果 EAC 小于计划工作量，则会预测任务需要比原来计划的更短的时间且会提前于计划。
-
-**项目经理对工作量的再次预测**：有时，项目经理或跟踪项目进度的其他人需要对某个任务的原始估计。 该任务可能比原来的预期进展更快或更慢，原因有很多种。 例如，缩小了范围或工作人员的经验比原来计划的更少。 预测是项目经理基于项目的当前状态的估计看法。 一般来说，您不应更改基准编号，因为一个项目的基准代表该项目计划的已发布文档和该项目的所有利益干系人均已同意的成本估计。 
-
-项目经理可以用两种方式修改任务的工作量：
-
--   修改自动设置的剩余工作量，以更新任务的实际剩余工作量。
--   修改自动设置的进度百分比，以更新任务的真实进度。
-
-这两种方法均可导致任务的 ETC、EAC、和进度百分比的重新计算，以及任务的预测工作量变化。 摘要任务的 EAC、ETC 和进度百分比也会重新计算，其预测工作量差异也将更新。 
-
-**摘要任务的修改工作量**：您可以对摘要或容器任务修改工作量。 不论您是使用摘要任务的剩余工作量还是进度百分比来修改这些值，计算都将按以下顺序发生：
-
-1.  计算任务的 EAC、ETC 和进度百分比。
-2.  按与原始 EAC 金额相同的比例将新的 EAC 分配给子任务。
-3.  计算每个叶节点任务的新 EAC。
-4.  基于新的 EAC 值重新计算所有受影响的子任务的剩余工作量和进度百分比。 也会重新计算任务的工作量差异。
-5.  还会从叶节点重新计算摘要任务的 EAC。
-
-在工作量跟踪视图中单击**“展开到级别”**，以设置跟踪和维护 WBS 的级别。 无论何时您打开工作量跟踪视图，WBS 都将在其中自动扩展到该级别。
-
-### <a name="cost-tracking-view"></a>成本跟踪视图
-
-成本跟踪视图显示对任务的成本消耗的跟踪。 在此视图中，会将一个任务迄今已花费的实际成本与该任务的计划成本进行对比。 以下公式可提供成本跟踪视图中的值：
-
--   已消耗成本的百分比 = 迄今实际成本÷任务的计划成本
--   完工尚需成本 (CTC) = 计划成本 - 迄今实际成本
--   完工估计 (EAC) = CTC + 迄今实际成本
--   预测成本差异 = 计划成本 - EAC
-
-成本跟踪视图显示任务的成本差异预测，这种预测是基于 EAC 是大于计划成本还是小于计划成本：
-
--   如果 EAC 大于计划成本，则会预测任务需要比原来计划的更多资金且会超出预算。
--   如果 EAC 小于计划成本，则会预测任务需要比原来计划的更少资金且会在预算之内。
-
-**项目经理对成本的再次预测**：项目经理必须使用 CTC 修改对某个任务的原始成本估计。 项目经理可以将 CTC 值修改为完成该任务所需的成本。 如果您修改 CTC 值，任务的 CTC、已消耗成本的百分比和任务的预测成本差异也将重新计算。 摘要任务的 EAC、ETC 和已消耗成本百分比也会重新计算，其预测成本差异也将更新。 
+<span data-ttu-id="26474-197">在某些情况下，您可能要偏离这些规则。</span><span class="sxs-lookup"><span data-stu-id="26474-197">In some cases, you might want to deviate from these rules.</span></span> <span data-ttu-id="26474-198">您可以关闭自动计划编制以防止 Finance and Operations 自动设置或更正叶节点任务的任何属性。</span><span class="sxs-lookup"><span data-stu-id="26474-198">You can turn off automatic scheduling to prevent Finance and Operations from automatically setting or correcting any properties of leaf node tasks.</span></span> <span data-ttu-id="26474-199">如果您为某个任务输入的信息违反任何计划编制规则，则会针对该任务显示一个计划编制错误图标。</span><span class="sxs-lookup"><span data-stu-id="26474-199">When you enter information for a task that causes a violation of any scheduling rules, a scheduling error icon is shown for the task.</span></span> <span data-ttu-id="26474-200">如果您不希望显示计划编制错误，请单击**“显示计划编制错误”**以关闭此功能。</span><span class="sxs-lookup"><span data-stu-id="26474-200">If you don’t want scheduling errors to be displayed, click **Scheduling errors are shown** to turn off the feature.</span></span> 
 
 > [!NOTE] 
-> 当您在工作量跟踪视图中修改某个 WBS 任务的工作量时，成本跟踪视图中该任务的 CTC、EAC 和已消耗成本百分比，以及预测成本差异都将重新计算。 但是，成本修改不会影响工作量跟踪视图中的值，因为按交易记录类型（人工、材料或费用）或项目类别划分的成本没有修改。 
+> <span data-ttu-id="26474-201">摘要或容器任务的值将继续计算为构成任务的值之和，不论自动计划编制助手是开启还是关闭。</span><span class="sxs-lookup"><span data-stu-id="26474-201">The values for a summary or container task continue to be calculated as the sum of the values of the constituent tasks, regardless of whether automatic scheduling assistance is turned on or off.</span></span> 
 
-**摘要任务的成本预测版本**：您可以修改摘要任务的成本，计算将按以下顺序自动发生：
+<span data-ttu-id="26474-202">**修复计划编制错误**：当自动计划编制助手处于开启状态时，计划编制错误不太可能发生。</span><span class="sxs-lookup"><span data-stu-id="26474-202">**Fixing scheduling errors** When automatic scheduling assistance is turned on, scheduling errors aren’t likely to occur.</span></span> <span data-ttu-id="26474-203">但是，如果您关闭自动计划编制助手，然后再将其开启，则 WBS 中可能会显示计划编制错误图标。</span><span class="sxs-lookup"><span data-stu-id="26474-203">However, if you turn off automatic scheduling assistance and then turn it back on later, scheduling error icons might appear in the WBS.</span></span> 
 
-1.  重新计算任务的 EAC、CTC 和已消耗成本的百分比。
-2.  按与任务的原始 EAC 相同的比例将新的 EAC 分配给子任务。
-3.  计算每个任务的新 EAC。
-4.  基于 EAC 值重新计算受影响的子任务的 CTS 和已消耗成本百分比。 也会重新计算任务的成本差异。
-5.  所有摘要任务的 EAC 都将基于此更改重新计算。
+<span data-ttu-id="26474-204">**按任务修复计划编制错误**：当您双击某个特定任务的计划错误图标时，将会出现一个对话框，显示该任务的所有计划编制错误。</span><span class="sxs-lookup"><span data-stu-id="26474-204">**Fixing scheduling errors by task** When you double-click the schedule error icon for a specific task, a dialog box displays all the scheduling errors for that task.</span></span> <span data-ttu-id="26474-205">您可以决定要修复该任务的哪个计划编制错误。</span><span class="sxs-lookup"><span data-stu-id="26474-205">You can decide which scheduling errors to fix for the task.</span></span> 
 
-在成本跟踪视图中单击**“展开到级别”**，以设置跟踪和维护 WBS 的级别。 无论何时您打开成本跟踪视图，WBS 都将在其中扩展到该级别。
-
-### <a name="earned-value-management"></a>挣值管理
-
-您可以使用挣值方法 (EVM) 跟踪项目的进度。 您可以在项目经理的角色中心查看挣值指标。 挣值图表组件将显示计划值和实际成本按时间分段的值。 截止当前日期的挣值将显示为一点。 挣值按时间分段的数据目前不可用。 
-
-挣值图表上的时间阶段将按周或按月显示。 本节将介绍 EVM 的三个支柱：计划成本、挣值和实际成本。 
-
-**计划值**：EVM 原理指出，计划值绘图表示项目团队计划赢得项目价值的比率。 
-
-在绘制计划值时，Finance and Operations 使用 0:100 的收入规则。 根据此规则，任务的价值将在其结束日期之前过帐到任务。 在任务百分之百完成前，不会过帐任何值。 
-
-在项目管理与核算中，输入叶节点的结束日期和计划成本。 当计划值的图形按周显示时，项目的持续时间之内所有叶节点任务的计划值将按周汇总。 
-
-**挣值**：EVM 原理指出，挣值绘图表示项目团队实际赢得项目价值的比率。 
-
-在绘制挣值时，Finance and Operations 使用 0:100 的收入规则。 根据此规则，任务的价值将在其结束日期之前过帐到任务。 在任务百分之百完成前，不会过帐任何值。 
-
-计算挣值时，将考虑每个任务的进度百分比。 按照 0:100 收入规则，计算截止某个给定期间的挣值时仅考虑该期间内已完成的任务。 创建图表时，项目的挣值时针对已完成的所有任务计算的。 
+<span data-ttu-id="26474-206">**修复所有计划编制错误**：如果您希望 Finance and Operations 修复 WBS 中的所有计划编制错误，请在操作窗格上单击**修复所有计划编制错误**。</span><span class="sxs-lookup"><span data-stu-id="26474-206">**Fixing all scheduling errors** If you want Finance and Operations to fix all scheduling errors in the WBS, on the Action Pane, click **Fix all scheduling discrepancies**.</span></span> 
 
 > [!NOTE] 
-> 目前，用于 WBS 跟踪的系统没有存储每个任务的历史进度百分比的数据结构。 因此，仅报告截止处理多维数据集的时间的挣值。 定期处理多维数据集以更新角色中心显示的挣值数据。 
+> <span data-ttu-id="26474-207">此功能可能导致对 WBS 的重要修改。</span><span class="sxs-lookup"><span data-stu-id="26474-207">This feature can cause significant modifications to the WBS.</span></span> <span data-ttu-id="26474-208">按以下顺序更正错误：</span><span class="sxs-lookup"><span data-stu-id="26474-208">Errors are corrected in the following order:</span></span>
 
-**实际成本**：EVM 原理指出，实际成本绘图表示项目使用资金的比率。 
+1.  <span data-ttu-id="26474-209">修改所有任务的估计工作量，使其等于项目日历中定义的产能。</span><span class="sxs-lookup"><span data-stu-id="26474-209">The estimated effort on all tasks is modified so that it’s equal to the capacity that is defined in the project calendar.</span></span>
+2.  <span data-ttu-id="26474-210">修改每个任务的开始日期，使任务在其所有前置任务完成后开始。</span><span class="sxs-lookup"><span data-stu-id="26474-210">The start date of each task is modified so that the task starts after all its predecessor tasks are completed.</span></span>
+3.  <span data-ttu-id="26474-211">修改每个任务的开始日期，删除前置任务的开始日期中的差距。</span><span class="sxs-lookup"><span data-stu-id="26474-211">The start date of each task is modified to remove gaps in the start dates of predecessor tasks.</span></span>
 
-过帐到项目的交易记录用于绘制实际成本行。 成本按日期汇总。 然后此数据将用于在挣值图表上按周或按月绘制实际成本。
+### <a name="cost-estimation"></a><span data-ttu-id="26474-212">成本估计</span><span class="sxs-lookup"><span data-stu-id="26474-212">Cost estimation</span></span>
 
-### <a name="how-to-use-the-concepts-of-planned-value-earned-value-and-actual-cost"></a>如何使用计划值、挣值和实际成本的概念
+<span data-ttu-id="26474-213">正如本文档之前提及的，您可以通过使用**“工作分解结构”**页面的下部窗格中的**“估计的成本和收入”**选项卡来为每个叶节点任务输入成本估计。</span><span class="sxs-lookup"><span data-stu-id="26474-213">As was mentioned earlier in this document, you enter the cost estimation for each leaf node task by using the **Estimated costs and revenues** tab in the lower pane of the **Work breakdown structure** page.</span></span> 
 
-**计划差异**：在计划期间，您将在时间线上创建工作的预测。 因此，计划值是项目规划员认为项目中应完成工作的比率。 当某个项目处于进行中且工作完成后，该项目就开始赢得值。 通过比较计划值与挣值，您可以查看项目的工作进度。 这一比较的结果称为计划差异。 
+> [!NOTE] 
+> <span data-ttu-id="26474-214">您不能修改摘要或容器任务的成本估计。</span><span class="sxs-lookup"><span data-stu-id="26474-214">You can’t modify the cost estimation for a summary or container task.</span></span> <span data-ttu-id="26474-215">摘要任务的成本估计等于其叶节点任务的成本估计之和。</span><span class="sxs-lookup"><span data-stu-id="26474-215">The cost estimation for a summary task is equal to the sum of the cost estimation of its leaf node tasks.</span></span> <span data-ttu-id="26474-216">每个任务的估计总成本将计算为以下交易记录类型的估计成本金额之和：</span><span class="sxs-lookup"><span data-stu-id="26474-216">The estimated total cost for each task is calculated as the sum of the estimated cost amounts for the following transaction types:</span></span>
 
-如果一段期间的计划值大于挣值，那么项目中已完成工作的量将小于计划的工作量。 因此，该项目落后于计划。 由于计划值和挣值以货币值表示，因此项目的滞后时间也具有一个货币值。 
+-   <span data-ttu-id="26474-217">人工</span><span class="sxs-lookup"><span data-stu-id="26474-217">Labor</span></span>
+-   <span data-ttu-id="26474-218">物料或材料</span><span class="sxs-lookup"><span data-stu-id="26474-218">Item or material</span></span>
+-   <span data-ttu-id="26474-219">支出</span><span class="sxs-lookup"><span data-stu-id="26474-219">Expenses</span></span>
 
-如果一段期间的计划值小于挣值，那么项目中已完成工作的量将大于计划的工作量。 因此，该项目提前于计划。 此提前期也有一个货币值。
+<span data-ttu-id="26474-220">**费用**交易记录类型用于估计基于费用的收入。</span><span class="sxs-lookup"><span data-stu-id="26474-220">A **Fee** transaction type is used to estimate fee-based revenue.</span></span> <span data-ttu-id="26474-221">此交易记录类型没有成本构成，因此在估计成本时不予考虑。</span><span class="sxs-lookup"><span data-stu-id="26474-221">This transaction type doesn’t have a cost component and therefore isn’t considered when costs are estimated.</span></span> 
 
-**成本差异**：由于挣值使用成本价作为倍数，因此挣值表示某个项目中已完成的工作的成本。 随着项目的进展，交易记录日志将提供该项目实际发生的资金记录。 通过比较挣值与实际成本，您可以查看花费的金额与赢得的值的对比。 这一比较的结果称为成本差异。 
+<span data-ttu-id="26474-222">**分期付款**交易记录类型用于记录固定值类型的项目的合同销售价值。</span><span class="sxs-lookup"><span data-stu-id="26474-222">An **On-account** transaction type is used to recording the contracted sales value in a fixed-value type of project.</span></span> <span data-ttu-id="26474-223">估计成本时也不考虑此交易记录类型。</span><span class="sxs-lookup"><span data-stu-id="26474-223">This transaction type also isn’t considered when costs are estimated.</span></span> 
 
-如果一段期间内花费的实际成本大于挣值，则表示花费的资金大于赢得的资金。 因此，项目超过预算。 
+<span data-ttu-id="26474-224">在估计每个任务的人工、材料和费用成本时，您必须为估计成本分配项目类别。</span><span class="sxs-lookup"><span data-stu-id="26474-224">When you estimate costs for labor, material, and expenses for each task, you must assign a project category to the estimated cost.</span></span> 
 
-如果一段期间内花费的实际成本小于挣值，则表示赢得的资金大于花费的资金。 因此，项目在预算以内。
+<span data-ttu-id="26474-225">**估计人工成本**：您应为每个叶节点任务分配一个工作量（以小时为单位）和一个默认类别。</span><span class="sxs-lookup"><span data-stu-id="26474-225">**Estimating labor costs** For each leaf node task, you assign a work effort in hours and a default category.</span></span> <span data-ttu-id="26474-226">因此，在为某个任务设置计划时，人工的默认类别中将自动添加该任务的人工成本估计。</span><span class="sxs-lookup"><span data-stu-id="26474-226">Therefore, when you set up a schedule for a task, the labor cost estimate for that task is automatically added in the default category for labor.</span></span> <span data-ttu-id="26474-227">此成本估计将在该任务的**“行明细”**网格中的**“估计的成本和收入”**选项卡上显示。</span><span class="sxs-lookup"><span data-stu-id="26474-227">This cost estimate is displayed on the **Estimated costs and revenue** tab in the **Line details** grid for that task.</span></span> <span data-ttu-id="26474-228">如果您需要更多人工成本估计，则可以在此选项卡上添加。</span><span class="sxs-lookup"><span data-stu-id="26474-228">If you require more labor cost estimates, you can add them on this tab.</span></span> <span data-ttu-id="26474-229">如果您增加或减少人工成本估计的小时数，该任务的计划将自动重新计算。</span><span class="sxs-lookup"><span data-stu-id="26474-229">If you increase or decrease hours on the labor cost estimate, the schedule for the task is automatically recalculated.</span></span> 
 
-## <a name="wbs-templates"></a>WBS 模板
-可使用 WBS 模板功能为项目创建标准模板。 如果您的公司提供的项目设计许多重复的工作，您应考虑创建 WBS 模板。 
+<span data-ttu-id="26474-230">**估计费用和材料成本**：如果您需要，也可以通过**“估计的成本和收入”**选项卡估计任务的费用和材料成本。</span><span class="sxs-lookup"><span data-stu-id="26474-230">**Estimating expense and material costs** The **Estimated costs and revenue** tab also lets you estimate expense and material costs for a task, if you require estimates.</span></span> 
 
-您可以从某个现有项目的 WBS 创建 WBS 模板，以便将您在该项目规划期间收集的知识和最佳实践重复用于将来的类似项目。 但是，有时候，可能不能将整个 WBS 保存为一个模板。 因此，您还可以从项目的 WBS 的一部分创建模板。
+<span data-ttu-id="26474-231">每个人工或费用估计行的成本和销售价基于一种设置，该设置是在**项目管理与核算** &gt; **设置** &gt; **价格**上的定价表中针对每个类别定义的。</span><span class="sxs-lookup"><span data-stu-id="26474-231">The cost and sales price for each labor or expense estimate line are based on the setup that is defined for each category in the pricing tables at **Project management and accounting** &gt; **Setup** &gt; **Pricing**.</span></span> <span data-ttu-id="26474-232">对于物料，成本和销售价是默认从产品信息管理中**“已发布产品”**列表页上的物料或贸易协议中添加的。</span><span class="sxs-lookup"><span data-stu-id="26474-232">For items, cost and sales price are added by default from the item or trade agreements on the **Released products** list page in Product information management.</span></span>
 
-### <a name="saving-a-projects-wbs-as-a-template"></a>将项目的 WBS 保存为模板
+## <a name="tracking-progress-on-the-wbs"></a><span data-ttu-id="26474-233">在 WBS 上跟踪进度</span><span class="sxs-lookup"><span data-stu-id="26474-233">Tracking progress on the WBS</span></span>
+<span data-ttu-id="26474-234">某些行业在非常具体的级别上针对 WBS 跟踪项目的进度，而其他行业则在 WBS 的较高级别上跟踪进度。</span><span class="sxs-lookup"><span data-stu-id="26474-234">Some industries track the progress of a project against a WBS at a very granular level, whereas others track progress at a higher level of the WBS.</span></span> <span data-ttu-id="26474-235">本节将介绍如何使用符合项目要求的 WBS 跟踪。</span><span class="sxs-lookup"><span data-stu-id="26474-235">This section describes how you can use WBS tracking for your project requirements.</span></span> 
 
-在创建模板后，您可以将其导入到根节点下，或该项目的 WBS 中任意任务下新项目的 WBS。
+<span data-ttu-id="26474-236">Finance and Operations 为每个项目的 WBS 提供三个视图：计划视图、工作量跟踪视图和成本跟踪视图。</span><span class="sxs-lookup"><span data-stu-id="26474-236">Finance and Operations has three views for the WBS of a project: the Planning view, Effort tracking view, and Cost tracking view.</span></span>
 
-### <a name="importing-a-wbs-template-into-a-projects-wbs"></a>将 WBS 模板导入到项目的 WBS
+### <a name="planning-view"></a><span data-ttu-id="26474-237">计划视图</span><span class="sxs-lookup"><span data-stu-id="26474-237">Planning view</span></span>
 
-导入任务时，模板中的任务将基于在其下导入的任务的开始日期进行组织。 在导入期间，模板任务的前置任务关系用于计算导入的任务的开始日期。 目标项目的标准工作日历将应用于计算导入的任务的结束日期，以便保留当前项目的工作日历中定义的工作日和标准工时。 
+<span data-ttu-id="26474-238">计划视图显示计划和成本信息的计划或基线估计。</span><span class="sxs-lookup"><span data-stu-id="26474-238">The Planning view displays the planned or baseline estimate of the schedule and cost information.</span></span> <span data-ttu-id="26474-239">尽管没有跟踪项目 WBS 的版本和基线的功能，此视图中的值旨在表示基线版本。</span><span class="sxs-lookup"><span data-stu-id="26474-239">Although there are no features for tracking the version and baseline for a project WBS, the values in this view are intended to represent the baseline version.</span></span> <span data-ttu-id="26474-240">本主题的计划估计一节和成本估计一节介绍了此视图以及如何用它来创建 WBS。</span><span class="sxs-lookup"><span data-stu-id="26474-240">The Schedule estimation and Cost estimation sections of this topic describe this view and how it’s used to create a WBS.</span></span>
 
-估计行的成本额和销售价将应用于确保特定于项目或项目合同的价格具有有效的日期。
+### <a name="effort-tracking-view"></a><span data-ttu-id="26474-241">工作量跟踪视图</span><span class="sxs-lookup"><span data-stu-id="26474-241">Effort tracking view</span></span>
 
-### <a name="differences-between-a-projects-wbs-and-a-wbs-template"></a>项目的 WBS 和 WBS 模板之间的差异
+<span data-ttu-id="26474-242">工作量跟踪视图显示对 WBS 中任务进度的跟踪。</span><span class="sxs-lookup"><span data-stu-id="26474-242">The Effort tracking view displays the tracking of progress for tasks in the WBS.</span></span> <span data-ttu-id="26474-243">它会将任务的累计实际工作量小时数与计划工作量小时数进行对比。</span><span class="sxs-lookup"><span data-stu-id="26474-243">It compares the accumulated actual effort hours for a task to the planned effort hours.</span></span> <span data-ttu-id="26474-244">以下公式可提供工作量跟踪视图中的值：</span><span class="sxs-lookup"><span data-stu-id="26474-244">The following formulas provide the values in the Effort tracking view:</span></span>
 
--   WBS 模板中的任务没有开始日期和结束日期。
+-   <span data-ttu-id="26474-245">进度百分比 = 迄今实际工作量÷任务的计划工作量</span><span class="sxs-lookup"><span data-stu-id="26474-245">Progress percentage = Actual effort to date ÷ Planned effort for the task</span></span>
+-   <span data-ttu-id="26474-246">剩余工作量（也称为完工尚需工作量 \[ETC\]) = 计划工作量 - 迄今实际工作量</span><span class="sxs-lookup"><span data-stu-id="26474-246">Remaining effort (also known as Estimate-to-complete \[ETC\]) = Planned effort – Actual effort to date</span></span>
+-   <span data-ttu-id="26474-247">完工估计 (EAC) = 剩余工作量 + 迄今实际工作量</span><span class="sxs-lookup"><span data-stu-id="26474-247">Estimate at complete (EAC) = Remaining effort + Actual effort to date</span></span>
+-   <span data-ttu-id="26474-248">计划的工作量差异 = 计划工作量 - EAC</span><span class="sxs-lookup"><span data-stu-id="26474-248">Projected effort variance = Planned effort – EAC</span></span>
 
-工作日和非工作日不是针对 WBS 模板设置的。
+<span data-ttu-id="26474-249">工作量跟踪视图显示任务的工作量差异预测，这种预测是基于 EAC 是大于计划工作量还是小于计划工作量：</span><span class="sxs-lookup"><span data-stu-id="26474-249">The Effort tracking view displays a projection of the effort variance for the task, based on whether EAC is more or less than the planned effort:</span></span>
 
--   WBS 模板始终使用设置为所有项目的默认日历的计划编制日历。
+-   <span data-ttu-id="26474-250">如果 EAC 大于计划工作量，则会预测任务需要比原来计划的更长的时间且会落后于计划。</span><span class="sxs-lookup"><span data-stu-id="26474-250">If EAC is more than the planned effort, the task is projected to take more time than originally planned and is behind schedule.</span></span>
+-   <span data-ttu-id="26474-251">如果 EAC 小于计划工作量，则会预测任务需要比原来计划的更短的时间且会提前于计划。</span><span class="sxs-lookup"><span data-stu-id="26474-251">If EAC is less than the planned effort, the task is projected to take less time than originally planned and is ahead of schedule.</span></span>
 
-默认计划编制日历仅用于确定标准工作日的小时数。
+<span data-ttu-id="26474-252">**项目经理对工作量的再次预测**：有时，项目经理或跟踪项目进度的其他人需要对某个任务的原始估计。</span><span class="sxs-lookup"><span data-stu-id="26474-252">**Project manager’s re-projection of effort** Occasionally, the project manager or another persona that is tracking the progress of a project will have to revise the original estimates on a task.</span></span> <span data-ttu-id="26474-253">该任务可能比原来的预期进展更快或更慢，原因有很多种。</span><span class="sxs-lookup"><span data-stu-id="26474-253">The task might be moving faster or slower than originally anticipated for various reasons.</span></span> <span data-ttu-id="26474-254">例如，缩小了范围或工作人员的经验比原来计划的更少。</span><span class="sxs-lookup"><span data-stu-id="26474-254">For example, the scope has been reduced, or workers have less experience than originally planned.</span></span> <span data-ttu-id="26474-255">预测是项目经理基于项目的当前状态的估计看法。</span><span class="sxs-lookup"><span data-stu-id="26474-255">Projections are a project manager’s perception of estimates, based on the current status on a project.</span></span> <span data-ttu-id="26474-256">一般来说，您不应更改基准编号，因为一个项目的基准代表该项目计划的已发布文档和该项目的所有利益干系人均已同意的成本估计。</span><span class="sxs-lookup"><span data-stu-id="26474-256">In general, you should not change the baseline numbers, because a project baseline represents a well-published document for the project’s schedule and cost estimate that all stakeholders on the project have agreed to.</span></span> 
 
--   不能将前置任务关系复制到 WBS 模板。
+<span data-ttu-id="26474-257">项目经理可以用两种方式修改任务的工作量：</span><span class="sxs-lookup"><span data-stu-id="26474-257">There are two ways that project managers can modify the effort on tasks:</span></span>
 
-由于 WBS 模板没有日期，因此不需要基于前置任务的技术日期的开始日期逻辑。
+-   <span data-ttu-id="26474-258">修改自动设置的剩余工作量，以更新任务的实际剩余工作量。</span><span class="sxs-lookup"><span data-stu-id="26474-258">Modify the remaining effort that is automatically set to update the actual remaining effort on the task.</span></span>
+-   <span data-ttu-id="26474-259">修改自动设置的进度百分比，以更新任务的真实进度。</span><span class="sxs-lookup"><span data-stu-id="26474-259">Modify the progress percentage that is automatically set to update the true progress on the task.</span></span>
 
--   在 WBS 模板中创建任务时，将自动创建人工成本估计行。 销售价和成本额将从所选工作人员处复制。
+<span data-ttu-id="26474-260">这两种方法均可导致任务的 ETC、EAC、和进度百分比的重新计算，以及任务的预测工作量变化。</span><span class="sxs-lookup"><span data-stu-id="26474-260">Both of these approaches cause a recalculation of the task’s ETC, EAC, and progress percentage, and the projected effort variance on the task.</span></span> <span data-ttu-id="26474-261">摘要任务的 EAC、ETC 和进度百分比也会重新计算，其预测工作量差异也将更新。</span><span class="sxs-lookup"><span data-stu-id="26474-261">The EAC, ETC, and progress percentage on summary tasks are also recalculated, and their projected effort variance is updated.</span></span> 
 
-正如在项目的 WBS 上一样，可以手动创建费用和物料成本。
+<span data-ttu-id="26474-262">**摘要任务的修改工作量**：您可以对摘要或容器任务修改工作量。</span><span class="sxs-lookup"><span data-stu-id="26474-262">**Modified effort on summary tasks** You can modify the effort on summary or container tasks.</span></span> <span data-ttu-id="26474-263">不论您是使用摘要任务的剩余工作量还是进度百分比来修改这些值，计算都将按以下顺序发生：</span><span class="sxs-lookup"><span data-stu-id="26474-263">Regardless of whether you modify these values by using the remaining effort or the progress percentage on the summary tasks, the calculations occur automatically in the following order:</span></span>
 
--   如果以下公式中存在偏差，则会显示计划编制错误：
+1.  <span data-ttu-id="26474-264">计算任务的 EAC、ETC 和进度百分比。</span><span class="sxs-lookup"><span data-stu-id="26474-264">The EAC, ETC, and progress percentage on the task are calculated.</span></span>
+2.  <span data-ttu-id="26474-265">按与原始 EAC 金额相同的比例将新的 EAC 分配给子任务。</span><span class="sxs-lookup"><span data-stu-id="26474-265">The new EAC is distributed to the child tasks in the same proportion as the original EAC amount.</span></span>
+3.  <span data-ttu-id="26474-266">计算每个叶节点任务的新 EAC。</span><span class="sxs-lookup"><span data-stu-id="26474-266">The new EAC on each leaf node task is calculated.</span></span>
+4.  <span data-ttu-id="26474-267">基于新的 EAC 值重新计算所有受影响的子任务的剩余工作量和进度百分比。</span><span class="sxs-lookup"><span data-stu-id="26474-267">The remaining effort and progress percentage are recalculated for all the affected child tasks, based on the new EAC value.</span></span> <span data-ttu-id="26474-268">也会重新计算任务的工作量差异。</span><span class="sxs-lookup"><span data-stu-id="26474-268">The effort variance of the tasks is also recalculated.</span></span>
+5.  <span data-ttu-id="26474-269">还会从叶节点重新计算摘要任务的 EAC。</span><span class="sxs-lookup"><span data-stu-id="26474-269">The EAC of the summary tasks is also recalculated from the leaf nodes.</span></span>
 
-工作量 = 资源数量 x 持续时间 x 标准工作日的小时数 
+<span data-ttu-id="26474-270">在工作量跟踪视图中单击**“展开到级别”**，以设置跟踪和维护 WBS 的级别。</span><span class="sxs-lookup"><span data-stu-id="26474-270">Click **Expand to level** in the Effort tracking view to set the level at which to track and maintain your WBS.</span></span> <span data-ttu-id="26474-271">无论何时您打开工作量跟踪视图，WBS 都将在其中自动扩展到该级别。</span><span class="sxs-lookup"><span data-stu-id="26474-271">The WBS is automatically expanded to that level in the Effort tracking view whenever you open it.</span></span>
 
-通过单击“**修复所有计划编制错误**”可以同时更正所有计划编制错误。 
+### <a name="cost-tracking-view"></a><span data-ttu-id="26474-272">成本跟踪视图</span><span class="sxs-lookup"><span data-stu-id="26474-272">Cost tracking view</span></span>
 
-或者，可以通过单击每个任务的警告图标逐个更正计划编制错误。
+<span data-ttu-id="26474-273">成本跟踪视图显示对任务的成本消耗的跟踪。</span><span class="sxs-lookup"><span data-stu-id="26474-273">The Cost tracking view displays the tracking of cost consumption for a task.</span></span> <span data-ttu-id="26474-274">在此视图中，会将一个任务迄今已花费的实际成本与该任务的计划成本进行对比。</span><span class="sxs-lookup"><span data-stu-id="26474-274">In this view, the actual cost that has been spent against a task to date is compared to the planned cost for the task.</span></span> <span data-ttu-id="26474-275">以下公式可提供成本跟踪视图中的值：</span><span class="sxs-lookup"><span data-stu-id="26474-275">The following formulas provide the values in the Cost tracking view:</span></span>
+
+-   <span data-ttu-id="26474-276">已消耗成本的百分比 = 迄今实际成本÷任务的计划成本</span><span class="sxs-lookup"><span data-stu-id="26474-276">Percentage of cost consumed = Actual cost to date ÷ Planned cost for the task</span></span>
+-   <span data-ttu-id="26474-277">完工尚需成本 (CTC) = 计划成本 - 迄今实际成本</span><span class="sxs-lookup"><span data-stu-id="26474-277">Cost to complete (CTC) = Planned cost – Actual cost to date</span></span>
+-   <span data-ttu-id="26474-278">完工估计 (EAC) = CTC + 迄今实际成本</span><span class="sxs-lookup"><span data-stu-id="26474-278">Estimate at complete (EAC) = CTC + Actual cost to date</span></span>
+-   <span data-ttu-id="26474-279">预测成本差异 = 计划成本 - EAC</span><span class="sxs-lookup"><span data-stu-id="26474-279">Projected cost variance = Planned cost – EAC</span></span>
+
+<span data-ttu-id="26474-280">成本跟踪视图显示任务的成本差异预测，这种预测是基于 EAC 是大于计划成本还是小于计划成本：</span><span class="sxs-lookup"><span data-stu-id="26474-280">The Cost tracking view displays a projection of the cost variance for the task, based on whether EAC is more or less than the planned cost:</span></span>
+
+-   <span data-ttu-id="26474-281">如果 EAC 大于计划成本，则会预测任务需要比原来计划的更多资金且会超出预算。</span><span class="sxs-lookup"><span data-stu-id="26474-281">If EAC is more than the planned cost, the task is projected to use more money than originally planned and is over budget.</span></span>
+-   <span data-ttu-id="26474-282">如果 EAC 小于计划成本，则会预测任务需要比原来计划的更少资金且会在预算之内。</span><span class="sxs-lookup"><span data-stu-id="26474-282">If EAC is less than the planned cost, the task is projected to use less money than originally planned and is under budget.</span></span>
+
+<span data-ttu-id="26474-283">**项目经理对成本的再次预测**：项目经理必须使用 CTC 修改对某个任务的原始成本估计。</span><span class="sxs-lookup"><span data-stu-id="26474-283">**Project manager’s re-projection of cost** Project managers must use CTC to revise the original cost estimate on a task.</span></span> <span data-ttu-id="26474-284">项目经理可以将 CTC 值修改为完成该任务所需的成本。</span><span class="sxs-lookup"><span data-stu-id="26474-284">The project manager can modify the CTC value to the cost that is required to complete the task.</span></span> <span data-ttu-id="26474-285">如果您修改 CTC 值，任务的 CTC、已消耗成本的百分比和任务的预测成本差异也将重新计算。</span><span class="sxs-lookup"><span data-stu-id="26474-285">If you modify the CTC value, the task’s CTC, EAC, and percentage of cost consumed, and the projected cost variance on a task, are recalculated.</span></span> <span data-ttu-id="26474-286">摘要任务的 EAC、ETC 和已消耗成本百分比也会重新计算，其预测成本差异也将更新。</span><span class="sxs-lookup"><span data-stu-id="26474-286">The EAC, ETC, and percentage of cost consumed on the summary tasks are also recalculated, and their projected cost variance is updated.</span></span> 
+
+> [!NOTE] 
+> <span data-ttu-id="26474-287">当您在工作量跟踪视图中修改某个 WBS 任务的工作量时，成本跟踪视图中该任务的 CTC、EAC 和已消耗成本百分比，以及预测成本差异都将重新计算。</span><span class="sxs-lookup"><span data-stu-id="26474-287">When you revise effort for a WBS task in the Effort tracking view, the task’s CTC, EAC, percentage of cost consumed, and projected cost variance are all recalculated in the Cost tracking view.</span></span> <span data-ttu-id="26474-288">但是，成本修改不会影响工作量跟踪视图中的值，因为按交易记录类型（人工、材料或费用）或项目类别划分的成本没有修改。</span><span class="sxs-lookup"><span data-stu-id="26474-288">However, cost revisions don’t affect the values in the Effort tracking view, because the cost by transaction type (labor, material, or expense) or project category isn’t revised.</span></span> 
+
+<span data-ttu-id="26474-289">**摘要任务的成本预测版本**：您可以修改摘要任务的成本，计算将按以下顺序自动发生：</span><span class="sxs-lookup"><span data-stu-id="26474-289">**Projection revision for costs on summary tasks** You can revise costs on summary tasks, and the calculations occur automatically in the following order:</span></span>
+
+1.  <span data-ttu-id="26474-290">重新计算任务的 EAC、CTC 和已消耗成本的百分比。</span><span class="sxs-lookup"><span data-stu-id="26474-290">The EAC, CTC, and percentage of cost consumed on the task are recalculated.</span></span>
+2.  <span data-ttu-id="26474-291">按与任务的原始 EAC 相同的比例将新的 EAC 分配给子任务。</span><span class="sxs-lookup"><span data-stu-id="26474-291">The new EAC is distributed to the child tasks in the same proportion as the original EAC on the tasks.</span></span>
+3.  <span data-ttu-id="26474-292">计算每个任务的新 EAC。</span><span class="sxs-lookup"><span data-stu-id="26474-292">The new EAC for each task is calculated.</span></span>
+4.  <span data-ttu-id="26474-293">基于 EAC 值重新计算受影响的子任务的 CTS 和已消耗成本百分比。</span><span class="sxs-lookup"><span data-stu-id="26474-293">The CTS and percentage of cost consumed are recalculated for the affected child tasks, based on the EAC value.</span></span> <span data-ttu-id="26474-294">也会重新计算任务的成本差异。</span><span class="sxs-lookup"><span data-stu-id="26474-294">The cost variance of the tasks is also recalculated.</span></span>
+5.  <span data-ttu-id="26474-295">所有摘要任务的 EAC 都将基于此更改重新计算。</span><span class="sxs-lookup"><span data-stu-id="26474-295">The EAC for all the summary tasks is recalculated based on this change.</span></span>
+
+<span data-ttu-id="26474-296">在成本跟踪视图中单击**“展开到级别”**，以设置跟踪和维护 WBS 的级别。</span><span class="sxs-lookup"><span data-stu-id="26474-296">Click **Expand to level** in the Cost tracking view to set the level at which to track and maintain your WBS.</span></span> <span data-ttu-id="26474-297">无论何时您打开成本跟踪视图，WBS 都将在其中扩展到该级别。</span><span class="sxs-lookup"><span data-stu-id="26474-297">The WBS is expanded to that level in the Cost tracking view whenever you open it.</span></span>
+
+### <a name="earned-value-management"></a><span data-ttu-id="26474-298">挣值管理</span><span class="sxs-lookup"><span data-stu-id="26474-298">Earned value management</span></span>
+
+<span data-ttu-id="26474-299">您可以使用挣值方法 (EVM) 跟踪项目的进度。</span><span class="sxs-lookup"><span data-stu-id="26474-299">You can use the earned value method (EVM) to track the progress of a project.</span></span> <span data-ttu-id="26474-300">您可以在项目经理的角色中心查看挣值指标。</span><span class="sxs-lookup"><span data-stu-id="26474-300">You can view earned value metrics on the project manager’s Role Center.</span></span> <span data-ttu-id="26474-301">挣值图表组件将显示计划值和实际成本按时间分段的值。</span><span class="sxs-lookup"><span data-stu-id="26474-301">The earned value chart component shows the time-phased values of planned value and actual cost.</span></span> <span data-ttu-id="26474-302">截止当前日期的挣值将显示为一点。</span><span class="sxs-lookup"><span data-stu-id="26474-302">Earned value as of the current date is shown as a point.</span></span> <span data-ttu-id="26474-303">挣值按时间分段的数据目前不可用。</span><span class="sxs-lookup"><span data-stu-id="26474-303">Time-phased data for earned value isn’t currently available.</span></span> 
+
+<span data-ttu-id="26474-304">挣值图表上的时间阶段将按周或按月显示。</span><span class="sxs-lookup"><span data-stu-id="26474-304">The time phase on the earned value chart is displayed by week or by month.</span></span> <span data-ttu-id="26474-305">本节将介绍 EVM 的三个支柱：计划成本、挣值和实际成本。</span><span class="sxs-lookup"><span data-stu-id="26474-305">This section describes the three pillars of EVM: planned value, earned value, and actual cost.</span></span> 
+
+<span data-ttu-id="26474-306">**计划值**：EVM 原理指出，计划值绘图表示项目团队计划赢得项目价值的比率。</span><span class="sxs-lookup"><span data-stu-id="26474-306">**Planned value** EVM theory states that the planned value plot represents the rate at which the project’s team planned to earn value on the project.</span></span> 
+
+<span data-ttu-id="26474-307">在绘制计划值时，Finance and Operations 使用 0:100 的收入规则。</span><span class="sxs-lookup"><span data-stu-id="26474-307">Finance and Operations uses the 0:100 earning rule when it plots planned value.</span></span> <span data-ttu-id="26474-308">根据此规则，任务的价值将在其结束日期之前过帐到任务。</span><span class="sxs-lookup"><span data-stu-id="26474-308">Under this rule, the value of the task is posted to the task as of its end date.</span></span> <span data-ttu-id="26474-309">在任务百分之百完成前，不会过帐任何值。</span><span class="sxs-lookup"><span data-stu-id="26474-309">No value is posted until the task is 100 percent completed.</span></span> 
+
+<span data-ttu-id="26474-310">在项目管理与核算中，输入叶节点的结束日期和计划成本。</span><span class="sxs-lookup"><span data-stu-id="26474-310">In Project management and accounting, you enter the end date of the leaf nodes and the planned cost for it.</span></span> <span data-ttu-id="26474-311">当计划值的图形按周显示时，项目的持续时间之内所有叶节点任务的计划值将按周汇总。</span><span class="sxs-lookup"><span data-stu-id="26474-311">When the graph of planned value is displayed by week, planned value is summarized by week for all leaf node tasks for the duration of the project.</span></span> 
+
+<span data-ttu-id="26474-312">**挣值**：EVM 原理指出，挣值绘图表示项目团队实际赢得项目价值的比率。</span><span class="sxs-lookup"><span data-stu-id="26474-312">**Earned value** EVM theory states that the earned value plot represents the rate at which the project’s team is actually earning value on the project.</span></span> 
+
+<span data-ttu-id="26474-313">在绘制挣值时，Finance and Operations 使用 0:100 的收入规则。</span><span class="sxs-lookup"><span data-stu-id="26474-313">Finance and Operations uses the 0:100 earning rule when its plots earned value.</span></span> <span data-ttu-id="26474-314">根据此规则，任务的价值将在其结束日期之前过帐到任务。</span><span class="sxs-lookup"><span data-stu-id="26474-314">Under this rule, the value of the task is posted to the task as of its end date.</span></span> <span data-ttu-id="26474-315">在任务百分之百完成前，不会过帐任何值。</span><span class="sxs-lookup"><span data-stu-id="26474-315">No value is posted until the task is 100 percent completed.</span></span> 
+
+<span data-ttu-id="26474-316">计算挣值时，将考虑每个任务的进度百分比。</span><span class="sxs-lookup"><span data-stu-id="26474-316">When earned value is calculated, the progress percentage of each task is considered.</span></span> <span data-ttu-id="26474-317">按照 0:100 收入规则，计算截止某个给定期间的挣值时仅考虑该期间内已完成的任务。</span><span class="sxs-lookup"><span data-stu-id="26474-317">Under the 0:100 earning rule, only tasks that are completed in a given period are considered for the calculation of earned value as of the end of that period.</span></span> <span data-ttu-id="26474-318">创建图表时，项目的挣值时针对已完成的所有任务计算的。</span><span class="sxs-lookup"><span data-stu-id="26474-318">Earned value on the project is calculated for all tasks that have been completed when the graph is created.</span></span> 
+
+> [!NOTE] 
+> <span data-ttu-id="26474-319">目前，用于 WBS 跟踪的系统没有存储每个任务的历史进度百分比的数据结构。</span><span class="sxs-lookup"><span data-stu-id="26474-319">Currently, the system  for WBS tracking doesn’t have data structures to store historic progress percentages on each task.</span></span> <span data-ttu-id="26474-320">因此，仅报告截止处理多维数据集的时间的挣值。</span><span class="sxs-lookup"><span data-stu-id="26474-320">Therefore, earned value can be reported only as of the time that the cube is processed.</span></span> <span data-ttu-id="26474-321">定期处理多维数据集以更新角色中心显示的挣值数据。</span><span class="sxs-lookup"><span data-stu-id="26474-321">Process the cube regularly to update the earned value data that is shown on the Role Center.</span></span> 
+
+<span data-ttu-id="26474-322">**实际成本**：EVM 原理指出，实际成本绘图表示项目使用资金的比率。</span><span class="sxs-lookup"><span data-stu-id="26474-322">**Actual cost** EVM theory states that the actual cost plot represents the rate at which money is being spent on the project.</span></span> 
+
+<span data-ttu-id="26474-323">过帐到项目的交易记录用于绘制实际成本行。</span><span class="sxs-lookup"><span data-stu-id="26474-323">Transactions that are posted to a project are used to plot the actual cost line.</span></span> <span data-ttu-id="26474-324">成本按日期汇总。</span><span class="sxs-lookup"><span data-stu-id="26474-324">The costs are summarized by date.</span></span> <span data-ttu-id="26474-325">然后此数据将用于在挣值图表上按周或按月绘制实际成本。</span><span class="sxs-lookup"><span data-stu-id="26474-325">This data is then used to graph the actual costs by week or by month on the earned value chart.</span></span>
+
+### <a name="how-to-use-the-concepts-of-planned-value-earned-value-and-actual-cost"></a><span data-ttu-id="26474-326">如何使用计划值、挣值和实际成本的概念</span><span class="sxs-lookup"><span data-stu-id="26474-326">How to use the concepts of planned value, earned value, and actual cost</span></span>
+
+<span data-ttu-id="26474-327">**计划差异**：在计划期间，您将在时间线上创建工作的预测。</span><span class="sxs-lookup"><span data-stu-id="26474-327">**Schedule variance** During planning, you create a forecast for work on a timeline.</span></span> <span data-ttu-id="26474-328">因此，计划值是项目规划员认为项目中应完成工作的比率。</span><span class="sxs-lookup"><span data-stu-id="26474-328">Therefore, planned value is the rate at which project planners thought work would be completed on the project.</span></span> <span data-ttu-id="26474-329">当某个项目处于进行中且工作完成后，该项目就开始赢得值。</span><span class="sxs-lookup"><span data-stu-id="26474-329">After a project is in progress, work is completed, and the project earns value.</span></span> <span data-ttu-id="26474-330">通过比较计划值与挣值，您可以查看项目的工作进度。</span><span class="sxs-lookup"><span data-stu-id="26474-330">By comparing planned value to earned value, you can view how work on a project is progressing.</span></span> <span data-ttu-id="26474-331">这一比较的结果称为计划差异。</span><span class="sxs-lookup"><span data-stu-id="26474-331">The result of this comparison is called schedule variance.</span></span> 
+
+<span data-ttu-id="26474-332">如果一段期间的计划值大于挣值，那么项目中已完成工作的量将小于计划的工作量。</span><span class="sxs-lookup"><span data-stu-id="26474-332">If the planned value for a period is more than the earned value, the amount of work that has been done on a project is less than what was planned.</span></span> <span data-ttu-id="26474-333">因此，该项目落后于计划。</span><span class="sxs-lookup"><span data-stu-id="26474-333">Therefore, the project is behind schedule.</span></span> <span data-ttu-id="26474-334">由于计划值和挣值以货币值表示，因此项目的滞后时间也具有一个货币值。</span><span class="sxs-lookup"><span data-stu-id="26474-334">Because planned value and earned value are expressed in monetary terms, the lag time on the project is also given a monetary value.</span></span> 
+
+<span data-ttu-id="26474-335">如果一段期间的计划值小于挣值，那么项目中已完成工作的量将大于计划的工作量。</span><span class="sxs-lookup"><span data-stu-id="26474-335">If the planned value for a period is less than the earned value, the amount of work that has been done on a project is more than what was planned.</span></span> <span data-ttu-id="26474-336">因此，该项目提前于计划。</span><span class="sxs-lookup"><span data-stu-id="26474-336">Therefore, the project is ahead of schedule.</span></span> <span data-ttu-id="26474-337">此提前期也有一个货币值。</span><span class="sxs-lookup"><span data-stu-id="26474-337">This lead time is also given a monetary value.</span></span>
+
+<span data-ttu-id="26474-338">**成本差异**：由于挣值使用成本价作为倍数，因此挣值表示某个项目中已完成的工作的成本。</span><span class="sxs-lookup"><span data-stu-id="26474-338">**Cost variance** Because earned value uses the cost price as the multiplier, earned value indicates the cost of the work that is done on a project.</span></span> <span data-ttu-id="26474-339">随着项目的进展，交易记录日志将提供该项目实际发生的资金记录。</span><span class="sxs-lookup"><span data-stu-id="26474-339">As a project progresses, the transaction log provides a record of money that is actually spent on that project.</span></span> <span data-ttu-id="26474-340">通过比较挣值与实际成本，您可以查看花费的金额与赢得的值的对比。</span><span class="sxs-lookup"><span data-stu-id="26474-340">By comparing earned value to actual cost, you can view the amount of money that is being spent versus the value that is earned.</span></span> <span data-ttu-id="26474-341">这一比较的结果称为成本差异。</span><span class="sxs-lookup"><span data-stu-id="26474-341">The result of this comparison is called cost variance.</span></span> 
+
+<span data-ttu-id="26474-342">如果一段期间内花费的实际成本大于挣值，则表示花费的资金大于赢得的资金。</span><span class="sxs-lookup"><span data-stu-id="26474-342">If the actual cost that is spent for a period is more than the earned value, more money was spent than earned.</span></span> <span data-ttu-id="26474-343">因此，项目超过预算。</span><span class="sxs-lookup"><span data-stu-id="26474-343">Therefore, the project is over budget.</span></span> 
+
+<span data-ttu-id="26474-344">如果一段期间内花费的实际成本小于挣值，则表示赢得的资金大于花费的资金。</span><span class="sxs-lookup"><span data-stu-id="26474-344">If the actual cost that is spent for a period is less than the earned value, more money was earned than spent.</span></span> <span data-ttu-id="26474-345">因此，项目在预算以内。</span><span class="sxs-lookup"><span data-stu-id="26474-345">Therefore, the project is under budget.</span></span>
+
+## <a name="wbs-templates"></a><span data-ttu-id="26474-346">WBS 模板</span><span class="sxs-lookup"><span data-stu-id="26474-346">WBS templates</span></span>
+<span data-ttu-id="26474-347">可使用 WBS 模板功能为项目创建标准模板。</span><span class="sxs-lookup"><span data-stu-id="26474-347">You can use the WBS templates functionality to create standard templates for projects.</span></span> <span data-ttu-id="26474-348">如果您的公司提供的项目设计许多重复的工作，您应考虑创建 WBS 模板。</span><span class="sxs-lookup"><span data-stu-id="26474-348">If the projects that your company offers involve a lot of repeatable work, you should consider creating a WBS template.</span></span> 
+
+<span data-ttu-id="26474-349">您可以从某个现有项目的 WBS 创建 WBS 模板，以便将您在该项目规划期间收集的知识和最佳实践重复用于将来的类似项目。</span><span class="sxs-lookup"><span data-stu-id="26474-349">You can create a WBS template from the WBS of an existing project, so that knowledge and best practices that you gathered during the planning of that project can be reused on similar projects in the future.</span></span> <span data-ttu-id="26474-350">但是，有时候，可能不能将整个 WBS 保存为一个模板。</span><span class="sxs-lookup"><span data-stu-id="26474-350">However, sometimes, it might not make sense to save the whole WBS as a template.</span></span> <span data-ttu-id="26474-351">因此，您还可以从项目的 WBS 的一部分创建模板。</span><span class="sxs-lookup"><span data-stu-id="26474-351">Therefore, you can also create templates from parts of the WBS for a project.</span></span>
+
+### <a name="saving-a-projects-wbs-as-a-template"></a><span data-ttu-id="26474-352">将项目的 WBS 保存为模板</span><span class="sxs-lookup"><span data-stu-id="26474-352">Saving a project’s WBS as a template</span></span>
+
+<span data-ttu-id="26474-353">在创建模板后，您可以将其导入到根节点下，或该项目的 WBS 中任意任务下新项目的 WBS。</span><span class="sxs-lookup"><span data-stu-id="26474-353">After you create a template, you can import it into a new project’s WBS under the root node, or under any task in the project’s WBS.</span></span>
+
+### <a name="importing-a-wbs-template-into-a-projects-wbs"></a><span data-ttu-id="26474-354">将 WBS 模板导入到项目的 WBS</span><span class="sxs-lookup"><span data-stu-id="26474-354">Importing a WBS template into a project’s WBS</span></span>
+
+<span data-ttu-id="26474-355">导入任务时，模板中的任务将基于在其下导入的任务的开始日期进行组织。</span><span class="sxs-lookup"><span data-stu-id="26474-355">When you import tasks, the tasks in the template are organized based on the start date of the task that they are imported under.</span></span> <span data-ttu-id="26474-356">在导入期间，模板任务的前置任务关系用于计算导入的任务的开始日期。</span><span class="sxs-lookup"><span data-stu-id="26474-356">During import, predecessor relationships on the template tasks are used to compute the start dates for the imported tasks.</span></span> <span data-ttu-id="26474-357">目标项目的标准工作日历将应用于计算导入的任务的结束日期，以便保留当前项目的工作日历中定义的工作日和标准工时。</span><span class="sxs-lookup"><span data-stu-id="26474-357">The destination project’s standard work calendar is applied to compute the end dates of the imported tasks, so that working days and standard working hours that are defined in the current project’s work calendar are retained.</span></span> 
+
+<span data-ttu-id="26474-358">估计行的成本额和销售价将应用于确保特定于项目或项目合同的价格具有有效的日期。</span><span class="sxs-lookup"><span data-stu-id="26474-358">Cost amounts and sales prices on the estimate lines are applied to guarantee that prices that are specific to the project or project contract have valid dates.</span></span>
+
+### <a name="differences-between-a-projects-wbs-and-a-wbs-template"></a><span data-ttu-id="26474-359">项目的 WBS 和 WBS 模板之间的差异</span><span class="sxs-lookup"><span data-stu-id="26474-359">Differences between a project’s WBS and a WBS template</span></span>
+
+-   <span data-ttu-id="26474-360">WBS 模板中的任务没有开始日期和结束日期。</span><span class="sxs-lookup"><span data-stu-id="26474-360">The tasks in WBS templates don’t have start dates and end dates.</span></span>
+
+<span data-ttu-id="26474-361">工作日和非工作日不是针对 WBS 模板设置的。</span><span class="sxs-lookup"><span data-stu-id="26474-361">The working and non-working days aren’t set for WBS templates.</span></span>
+
+-   <span data-ttu-id="26474-362">WBS 模板始终使用设置为所有项目的默认日历的计划编制日历。</span><span class="sxs-lookup"><span data-stu-id="26474-362">WBS templates always use the scheduling calendar that is set up as the default calendar for all projects.</span></span>
+
+<span data-ttu-id="26474-363">默认计划编制日历仅用于确定标准工作日的小时数。</span><span class="sxs-lookup"><span data-stu-id="26474-363">The default scheduling calendar is used only to find out hours in a standard working day.</span></span>
+
+-   <span data-ttu-id="26474-364">不能将前置任务关系复制到 WBS 模板。</span><span class="sxs-lookup"><span data-stu-id="26474-364">Predecessor relationships aren’t copied to a WBS template.</span></span>
+
+<span data-ttu-id="26474-365">由于 WBS 模板没有日期，因此不需要基于前置任务的技术日期的开始日期逻辑。</span><span class="sxs-lookup"><span data-stu-id="26474-365">Because WBS templates don’t have dates, the start date logic that is based on a predecessor’s end date isn’t required.</span></span>
+
+-   <span data-ttu-id="26474-366">在 WBS 模板中创建任务时，将自动创建人工成本估计行。</span><span class="sxs-lookup"><span data-stu-id="26474-366">A labor cost estimate line is automatically created when a task is created in a WBS template.</span></span> <span data-ttu-id="26474-367">销售价和成本额将从所选工作人员处复制。</span><span class="sxs-lookup"><span data-stu-id="26474-367">The sales price and cost amount are copied from the selected worker.</span></span>
+
+<span data-ttu-id="26474-368">正如在项目的 WBS 上一样，可以手动创建费用和物料成本。</span><span class="sxs-lookup"><span data-stu-id="26474-368">Expense and item costs can be created manually, just as they can on a project’s WBS.</span></span>
+
+-   <span data-ttu-id="26474-369">如果以下公式中存在偏差，则会显示计划编制错误：</span><span class="sxs-lookup"><span data-stu-id="26474-369">Scheduling errors are displayed when there are deviations from the following formula:</span></span>
+
+<span data-ttu-id="26474-370">工作量 = 资源数量 x 持续时间 x 标准工作日的小时数</span><span class="sxs-lookup"><span data-stu-id="26474-370">Effort = Number of resources × Duration × Number of hours in a standard working day</span></span> 
+
+<span data-ttu-id="26474-371">通过单击“**修复所有计划编制错误**”可以同时更正所有计划编制错误。</span><span class="sxs-lookup"><span data-stu-id="26474-371">You can correct all scheduling errors at the same time by clicking **Fix all scheduling errors**.</span></span> 
+
+<span data-ttu-id="26474-372">或者，可以通过单击每个任务的警告图标逐个更正计划编制错误。</span><span class="sxs-lookup"><span data-stu-id="26474-372">Alternatively, you can correct scheduling errors individually by clicking the warning icon for each task.</span></span>
 
 
 

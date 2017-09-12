@@ -1,2 +1,2 @@
 > [!NOTE]
-> 此主题适用于 Dynamics 365 for Finance and Operations Enterprise Edition 和 Dynamics 365 for Retail。 
+> <span data-ttu-id="819fa-101">此主题适用于 Dynamics 365 for Finance and Operations Enterprise Edition 和 Dynamics 365 for Retail。</span><span class="sxs-lookup"><span data-stu-id="819fa-101">This topic applies to both Dynamics 365 for Finance and Operations, Enterprise edition and to Dynamics 365 for Retail.</span></span> 

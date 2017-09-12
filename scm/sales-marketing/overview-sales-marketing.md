@@ -15,112 +15,112 @@ ms.custom: 92303
 ms.assetid: 65ca9992-bbfa-4224-bf0e-067a25c7e6a4
 ms.search.region: Global
 ms.author: kfend
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: dddcc764bb11540b8207350c463d1adb2533e1c0
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: d810ff4028884cce5089c59d424aa92981dc5673
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="sales-and-marketing"></a>销售和市场营销
+# <a name="sales-and-marketing"></a><span data-ttu-id="92f48-104">销售和市场营销</span><span class="sxs-lookup"><span data-stu-id="92f48-104">Sales and marketing</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-您可以使用销售和市场来获得、存储并使用销售流中的各种数据。 此数据包括最初的销售活动、未来的跟进行动和追加销售。
+<span data-ttu-id="92f48-105">您可以使用销售和市场来获得、存储并使用销售流中的各种数据。</span><span class="sxs-lookup"><span data-stu-id="92f48-105">You can use Sales and marketing to obtain, store, and use various types of data in the sales flow.</span></span> <span data-ttu-id="92f48-106">此数据包括最初的销售活动、未来的跟进行动和追加销售。</span><span class="sxs-lookup"><span data-stu-id="92f48-106">This data includes the original sales initiative, future follow-up action, and additional sales.</span></span>
 
-<a name="marketing"></a>市场营销
+<a name="marketing"></a><span data-ttu-id="92f48-107">市场营销</span><span class="sxs-lookup"><span data-stu-id="92f48-107">Marketing</span></span>
 ---------
 
-使用市场营销活动来查找并建立潜在客户关系，以便初始交互可以发展为销售关系。 以下流程流显示市场营销的业务流程。 [![市场营销业务流程](./media/marketing01.jpg)](./media/marketing01.jpg)
+<span data-ttu-id="92f48-108">使用市场营销活动来查找并建立潜在客户关系，以便初始交互可以发展为销售关系。</span><span class="sxs-lookup"><span data-stu-id="92f48-108">You use marketing campaigns and activities to find and build relationships with potential customers, so that initial interactions can develop into sales relationships.</span></span> <span data-ttu-id="92f48-109">以下流程流显示市场营销的业务流程。</span><span class="sxs-lookup"><span data-stu-id="92f48-109">The following process flow shows the business process for marketing.</span></span> <span data-ttu-id="92f48-110">[![市场营销业务流程](./media/marketing01.jpg)](./media/marketing01.jpg)</span><span class="sxs-lookup"><span data-stu-id="92f48-110">[![Business process for marketing](./media/marketing01.jpg)](./media/marketing01.jpg)</span></span>
 
-### <a name="relationships"></a>关系
+### <a name="relationships"></a><span data-ttu-id="92f48-111">关系</span><span class="sxs-lookup"><span data-stu-id="92f48-111">Relationships</span></span>
 
-在销售和市场营销过程中，您与潜在客户的初始交互可能发生在各种情况下。 例如，您可能会在参加贸易展览时发现潜在客户，或您可能在您的组织开展群发邮件活动后，与客户建立潜在的商机。 在对方成为客户前了解该方实体的流程至关重要。 下图显示了当潜在客户变为实际客户时的实体关系的流程。 [![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)
+<span data-ttu-id="92f48-112">在销售和市场营销过程中，您与潜在客户的初始交互可能发生在各种情况下。</span><span class="sxs-lookup"><span data-stu-id="92f48-112">In sales and marketing, the initial interactions that you have with potential customers can occur in various situations.</span></span> <span data-ttu-id="92f48-113">例如，您可能会在参加贸易展览时发现潜在客户，或您可能在您的组织开展群发邮件活动后，与客户建立潜在的商机。</span><span class="sxs-lookup"><span data-stu-id="92f48-113">For example, you might find a prospective customer while you're attending a trade show, or you might have a possible lead with a customer after your organization runs a mass mailing campaign.</span></span> <span data-ttu-id="92f48-114">在对方成为客户前了解该方实体的流程至关重要。</span><span class="sxs-lookup"><span data-stu-id="92f48-114">It's very important that you understand the flow of a party’s entity before that party becomes a customer.</span></span> <span data-ttu-id="92f48-115">下图显示了当潜在客户变为实际客户时的实体关系的流程。</span><span class="sxs-lookup"><span data-stu-id="92f48-115">The following graphic shows the flow of entity relationships as a potential customer becomes an actual customer.</span></span> <span data-ttu-id="92f48-116">[![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)</span><span class="sxs-lookup"><span data-stu-id="92f48-116">[![SalesandMarketing01](./media/salesandmarketing01.jpg)](./media/salesandmarketing01.jpg)</span></span>
 
-### <a name="campaigns"></a>市场活动
+### <a name="campaigns"></a><span data-ttu-id="92f48-117">市场活动</span><span class="sxs-lookup"><span data-stu-id="92f48-117">Campaigns</span></span>
 
-市场活动面向潜在客户的联系人、潜在顾客、商机和已经被选为参与市场活动的客户。 在 Microsoft Dynamics 365 for Finance and Operations 中，您可以创建几种类型的市场活动，如电话销售、邮寄和电子邮件营销活动，以最大化您的客户潜力。 随着市场活动的进行以及您收到积极的响应，可以与那些积极响应市场活动的收件人开始销售流程。
+<span data-ttu-id="92f48-118">市场活动面向潜在客户的联系人、潜在顾客、商机和已经被选为参与市场活动的客户。</span><span class="sxs-lookup"><span data-stu-id="92f48-118">A campaign targets the contacts for prospects, leads, opportunities, and customers that have been selected to participate in the campaign.</span></span> <span data-ttu-id="92f48-119">在 Microsoft Dynamics 365 for Finance and Operations 中，您可以创建几种类型的市场活动，如电话销售、邮寄和电子邮件营销活动，以最大化您的客户潜力。</span><span class="sxs-lookup"><span data-stu-id="92f48-119">In Microsoft Dynamics 365 for Finance and Operations, you can create several types of campaigns, such as telemarketing, mailing, and email campaigns, to maximize your customer potential.</span></span> <span data-ttu-id="92f48-120">随着市场活动的进行以及您收到积极的响应，可以与那些积极响应市场活动的收件人开始销售流程。</span><span class="sxs-lookup"><span data-stu-id="92f48-120">As your campaign progresses and you receive positive responses, you can begin the sales process with those recipients who have responded positively to the campaign.</span></span>
 
-## <a name="sales"></a>销售额
-您使用销售功能创建报价单，对新的和现有的客户进行向上销售和交叉销售，创建销售订单，并为客户创建销售发票。 以下流程流显示销售业务流程。 [![销售业务流程](./media/sales01.jpg)](./media/sales01.jpg)
+## <a name="sales"></a><span data-ttu-id="92f48-121">销售额</span><span class="sxs-lookup"><span data-stu-id="92f48-121">Sales</span></span>
+<span data-ttu-id="92f48-122">您使用销售功能创建报价单，对新的和现有的客户进行向上销售和交叉销售，创建销售订单，并为客户创建销售发票。</span><span class="sxs-lookup"><span data-stu-id="92f48-122">You use the sales functionality to create quotations, up-sell and cross-sell to new and existing customers, create sales orders, and create sales invoices for customers.</span></span> <span data-ttu-id="92f48-123">以下流程流显示销售业务流程。</span><span class="sxs-lookup"><span data-stu-id="92f48-123">The following process flow shows the business process for sales.</span></span> <span data-ttu-id="92f48-124">[![销售业务流程](./media/sales01.jpg)](./media/sales01.jpg)</span><span class="sxs-lookup"><span data-stu-id="92f48-124">[![Business process for sales](./media/sales01.jpg)](./media/sales01.jpg)</span></span>
 
-### <a name="sales-quotations"></a>销售报价单
+### <a name="sales-quotations"></a><span data-ttu-id="92f48-125">销售报价单</span><span class="sxs-lookup"><span data-stu-id="92f48-125">Sales quotations</span></span>
 
-创建销售报价单向客户显示您将提供的商品或服务的优惠。 客户可能请求报价单，或您可以创建报价单来响应潜在或现有客户的请求。 当客户审核销售报价单时，可以将其转化为销售订单。
+<span data-ttu-id="92f48-126">创建销售报价单向客户显示您将提供的商品或服务的优惠。</span><span class="sxs-lookup"><span data-stu-id="92f48-126">You create sales quotations to present customers an offer of the goods or services that you will be providing.</span></span> <span data-ttu-id="92f48-127">客户可能请求报价单，或您可以创建报价单来响应潜在或现有客户的请求。</span><span class="sxs-lookup"><span data-stu-id="92f48-127">A customer might request a quotation, or you might create a quotation in response to a request from a potential or existing customer.</span></span> <span data-ttu-id="92f48-128">当客户审核销售报价单时，可以将其转化为销售订单。</span><span class="sxs-lookup"><span data-stu-id="92f48-128">When the customer approves the sales quotation, you can convert it to a sales order.</span></span>
 
-### <a name="up-sellcross-sell"></a>向上销售/交叉销售
+### <a name="up-sellcross-sell"></a><span data-ttu-id="92f48-129">向上销售/交叉销售</span><span class="sxs-lookup"><span data-stu-id="92f48-129">Up-sell/cross-sell</span></span>
 
-为客户输入订单时，向上销售和交叉销售是销售产品的技巧。 在向上销售中，建议另一种产品而不是当前产品。 在交叉销售中，除建议当前产品外还建议另一种产品。 当您设置产品列表时，您可以创建特定的规则，以指示产品应视作交叉销售还是向上销售产品。
+<span data-ttu-id="92f48-130">为客户输入订单时，向上销售和交叉销售是销售产品的技巧。</span><span class="sxs-lookup"><span data-stu-id="92f48-130">Up-selling and cross-selling are techniques for selling products when an order is entered for a customer.</span></span> <span data-ttu-id="92f48-131">在向上销售中，建议另一种产品而不是当前产品。</span><span class="sxs-lookup"><span data-stu-id="92f48-131">In up-selling, another product is suggested instead of the current product.</span></span> <span data-ttu-id="92f48-132">在交叉销售中，除建议当前产品外还建议另一种产品。</span><span class="sxs-lookup"><span data-stu-id="92f48-132">In cross-selling, a product is suggested in addition to the current product.</span></span> <span data-ttu-id="92f48-133">当您设置产品列表时，您可以创建特定的规则，以指示产品应视作交叉销售还是向上销售产品。</span><span class="sxs-lookup"><span data-stu-id="92f48-133">When you set up product lists, you can create specific rules to indicate when a product should be suggested as a cross-sell or up-sell product.</span></span>
 
-### <a name="sales-orders"></a>销售订单
+### <a name="sales-orders"></a><span data-ttu-id="92f48-134">销售订单</span><span class="sxs-lookup"><span data-stu-id="92f48-134">Sales orders</span></span>
 
-当您创建新销售订单时，您必须选择要创建的销售订单的类型。 您有五个选项。 **注意︰**创建销售订单后，可以更改任何订单类型，除了销售订单的状态为**已交货**时的**物料需求**类型。
+<span data-ttu-id="92f48-135">当您创建新销售订单时，您必须选择要创建的销售订单的类型。</span><span class="sxs-lookup"><span data-stu-id="92f48-135">When you create a new sales order, you must select the type of sales order to create.</span></span> <span data-ttu-id="92f48-136">您有五个选项。</span><span class="sxs-lookup"><span data-stu-id="92f48-136">You have five options.</span></span> <span data-ttu-id="92f48-137">**注意︰**创建销售订单后，可以更改任何订单类型，除了销售订单的状态为**已交货**时的**物料需求**类型。</span><span class="sxs-lookup"><span data-stu-id="92f48-137">**Note:** After you create a sales order, any order type can be changed, except the **Items requirements** type if the sales order has a status of **Delivered**.</span></span>
 
-| 销售订单类型  | 说明                                                                                                                                                                                                                                                                                            |
+| <span data-ttu-id="92f48-138">销售订单类型</span><span class="sxs-lookup"><span data-stu-id="92f48-138">Sales order type</span></span>  | <span data-ttu-id="92f48-139">说明</span><span class="sxs-lookup"><span data-stu-id="92f48-139">Description</span></span>                                                                                                                                                                                                                                                                                            |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 生产订单日记帐           | 使用此类型作为销售订单的草稿。 此类型不会影响库存量，并且不会生成物料交易。                                                                                                                                                                    |
-| 预订      | 使用此类型重复执行订单。 在对订单开票时，将订单状态自动设置为未结订单。 更新已开票的交货数量和剩余的交货。 如果您正在使用仓库管理功能，则不能使用此销售订单类型。 |
-| 销售订单       | 当客户已下达或确认订单时使用此类型。                                                                                                                                                                                                                                        |
-| 退回订单    | 在客户将物料退回时使用此类型。 退回物料号（RMA 编号）将自动分配。                                                                                                                                                                                            |
-| 物料需求 | 在通过项目进行物料销售时此类型将自动创建。                                                                                                                                                                                                                       |
+| <span data-ttu-id="92f48-140">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="92f48-140">Journal</span></span>           | <span data-ttu-id="92f48-141">使用此类型作为销售订单的草稿。</span><span class="sxs-lookup"><span data-stu-id="92f48-141">Use this type as a draft for a sales order.</span></span> <span data-ttu-id="92f48-142">此类型不会影响库存量，并且不会生成物料交易。</span><span class="sxs-lookup"><span data-stu-id="92f48-142">This type has no effect on the stock quantities and doesn't generate item transactions.</span></span>                                                                                                                                                                    |
+| <span data-ttu-id="92f48-143">预订</span><span class="sxs-lookup"><span data-stu-id="92f48-143">Subscription</span></span>      | <span data-ttu-id="92f48-144">使用此类型重复执行订单。</span><span class="sxs-lookup"><span data-stu-id="92f48-144">Use this type for recurring orders.</span></span> <span data-ttu-id="92f48-145">在对订单开票时，将订单状态自动设置为未结订单。</span><span class="sxs-lookup"><span data-stu-id="92f48-145">When the order is invoiced, the order status is automatically set to an open order.</span></span> <span data-ttu-id="92f48-146">更新已开票的交货数量和剩余的交货。</span><span class="sxs-lookup"><span data-stu-id="92f48-146">The delivered quantity that was invoiced and the remaining deliveries are updated.</span></span> <span data-ttu-id="92f48-147">如果您正在使用仓库管理功能，则不能使用此销售订单类型。</span><span class="sxs-lookup"><span data-stu-id="92f48-147">You can’t use this sales order type if you're using the Warehouse management functionality.</span></span> |
+| <span data-ttu-id="92f48-148">销售订单</span><span class="sxs-lookup"><span data-stu-id="92f48-148">Sales order</span></span>       | <span data-ttu-id="92f48-149">当客户已下达或确认订单时使用此类型。</span><span class="sxs-lookup"><span data-stu-id="92f48-149">Use this type when a customer has placed or confirmed an order.</span></span>                                                                                                                                                                                                                                        |
+| <span data-ttu-id="92f48-150">退回订单</span><span class="sxs-lookup"><span data-stu-id="92f48-150">Returned order</span></span>    | <span data-ttu-id="92f48-151">在客户将物料退回时使用此类型。</span><span class="sxs-lookup"><span data-stu-id="92f48-151">Use this type when a customer returns an item.</span></span> <span data-ttu-id="92f48-152">退回物料号（RMA 编号）将自动分配。</span><span class="sxs-lookup"><span data-stu-id="92f48-152">A return-item number (RMA number) is assigned automatically.</span></span>                                                                                                                                                                                            |
+| <span data-ttu-id="92f48-153">物料需求</span><span class="sxs-lookup"><span data-stu-id="92f48-153">Item requirements</span></span> | <span data-ttu-id="92f48-154">在通过项目进行物料销售时此类型将自动创建。</span><span class="sxs-lookup"><span data-stu-id="92f48-154">This type is created automatically when you make an item sale through a project.</span></span>                                                                                                                                                                                                                       |
 
-### <a name="sales-agreements"></a>销售协议
+### <a name="sales-agreements"></a><span data-ttu-id="92f48-155">销售协议</span><span class="sxs-lookup"><span data-stu-id="92f48-155">Sales agreements</span></span>
 
-销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。 销售协议的价格和折扣覆盖存在的所有贸易协议中指示的价格和折扣。 销售协议在定义的有效期有效。 在**销售订单**页为销售指定的要求装运日期应在有效期间内。 默认情况下，销售协议处于暂停状态。 只有当销售协议设置为**有效**时，您才可以从销售协议订购。
+<span data-ttu-id="92f48-156">销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。</span><span class="sxs-lookup"><span data-stu-id="92f48-156">A sales agreement is a contract that commits the customer to buy a product in a specific quantity or for a specific amount over time, in exchange for special prices and discounts.</span></span> <span data-ttu-id="92f48-157">销售协议的价格和折扣覆盖存在的所有贸易协议中指示的价格和折扣。</span><span class="sxs-lookup"><span data-stu-id="92f48-157">The prices and discounts of the sales agreement overrule any prices and discounts that are stated in any trade agreements that exist.</span></span> <span data-ttu-id="92f48-158">销售协议在定义的有效期有效。</span><span class="sxs-lookup"><span data-stu-id="92f48-158">A sales agreement is valid for a defined period.</span></span> <span data-ttu-id="92f48-159">在**销售订单**页为销售指定的要求装运日期应在有效期间内。</span><span class="sxs-lookup"><span data-stu-id="92f48-159">The requested ship date that is specified for a sale on the **Sales order** page should be in the valid period.</span></span> <span data-ttu-id="92f48-160">默认情况下，销售协议处于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="92f48-160">By default, a sales agreement is on hold.</span></span> <span data-ttu-id="92f48-161">只有当销售协议设置为**有效**时，您才可以从销售协议订购。</span><span class="sxs-lookup"><span data-stu-id="92f48-161">You can order from a sales agreement only when it's set to **Effective**.</span></span>
 
-### <a name="backorders"></a>延期交货
+### <a name="backorders"></a><span data-ttu-id="92f48-162">延期交货</span><span class="sxs-lookup"><span data-stu-id="92f48-162">Backorders</span></span>
 
-在您输入和验证订单时，在完成销售之前，您可能需要管理延期交货和异常。 延期交货是供应商尚未交货的采购订单，或尚未向客户交货的销售订单。 跟进延期交货是非常重要的。 例如，如果供应商延期交付产品，您就必须要更改向客户交货的日期并将这一延迟通知客户。 您可以按物料、客户或供应商查看延期交货。
+<span data-ttu-id="92f48-163">在您输入和验证订单时，在完成销售之前，您可能需要管理延期交货和异常。</span><span class="sxs-lookup"><span data-stu-id="92f48-163">When you enter and validate orders, you might have to manage backorders and exceptions before the sale can be completed.</span></span> <span data-ttu-id="92f48-164">延期交货是供应商尚未交货的采购订单，或尚未向客户交货的销售订单。</span><span class="sxs-lookup"><span data-stu-id="92f48-164">Backorders are either purchase orders that haven't yet been delivered from a vendor or sales orders that haven't yet been delivered to a customer.</span></span> <span data-ttu-id="92f48-165">跟进延期交货是非常重要的。</span><span class="sxs-lookup"><span data-stu-id="92f48-165">It's important that you follow up on backorders.</span></span> <span data-ttu-id="92f48-166">例如，如果供应商延期交付产品，您就必须要更改向客户交货的日期并将这一延迟通知客户。</span><span class="sxs-lookup"><span data-stu-id="92f48-166">For example, if products are delayed from a vendor, you might have to change the date of delivery to a customer and then inform the customer of the delay.</span></span> <span data-ttu-id="92f48-167">您可以按物料、客户或供应商查看延期交货。</span><span class="sxs-lookup"><span data-stu-id="92f48-167">You can view backorders by item, customer, or vendor.</span></span>
 
-#### <a name="viewing-backorders-by-item"></a>按物料查看延期交货
+#### <a name="viewing-backorders-by-item"></a><span data-ttu-id="92f48-168">按物料查看延期交货</span><span class="sxs-lookup"><span data-stu-id="92f48-168">Viewing backorders by item</span></span>
 
-通过物料查看延期交货时，您可以跟进关于特定物料的交易记录以后的预期流程。 例如，可以检查以下信息：
+<span data-ttu-id="92f48-169">通过物料查看延期交货时，您可以跟进关于特定物料的交易记录以后的预期流程。</span><span class="sxs-lookup"><span data-stu-id="92f48-169">When you view backorders by item, you can follow up on the expected future flow of transactions for a specific item.</span></span> <span data-ttu-id="92f48-170">例如，可以检查以下信息：</span><span class="sxs-lookup"><span data-stu-id="92f48-170">For example, you can check the following information:</span></span>
 
--   为某一物料下达的销售订单的数量
--   供应商是否仍未交付物料
--   是否应订购更多的物料以便您能够按时交付所有销售订单。
+-   <span data-ttu-id="92f48-171">为某一物料下达的销售订单的数量</span><span class="sxs-lookup"><span data-stu-id="92f48-171">The number of sales orders that are placed for an item</span></span>
+-   <span data-ttu-id="92f48-172">供应商是否仍未交付物料</span><span class="sxs-lookup"><span data-stu-id="92f48-172">Whether deliveries of the item from vendors are still missing</span></span>
+-   <span data-ttu-id="92f48-173">是否应订购更多的物料以便您能够按时交付所有销售订单。</span><span class="sxs-lookup"><span data-stu-id="92f48-173">Whether more items should be ordered, so that you can deliver all sales orders in a timely manner</span></span>
 
-通过执行此检查，您可以响应客户有关物料交货时间的请求。 此外，您还可以设置销售延期交货的优先级并在各订单之间分配现有物料。
+<span data-ttu-id="92f48-174">通过执行此检查，您可以响应客户有关物料交货时间的请求。</span><span class="sxs-lookup"><span data-stu-id="92f48-174">By doing this check, you can respond to requests from customers about the timing of the item delivery.</span></span> <span data-ttu-id="92f48-175">此外，您还可以设置销售延期交货的优先级并在各订单之间分配现有物料。</span><span class="sxs-lookup"><span data-stu-id="92f48-175">In addition, you can prioritize the sales backorders and split the items that are on-hand between the orders.</span></span>
 
-#### <a name="viewing-backorders-by-customer"></a>按客户查看延期交货
+#### <a name="viewing-backorders-by-customer"></a><span data-ttu-id="92f48-176">按客户查看延期交货</span><span class="sxs-lookup"><span data-stu-id="92f48-176">Viewing backorders by customer</span></span>
 
-按客户查看延期交货时，您可以查看客户剩余订单的状态。 当您必须响应等待被推迟物料的客户时，这种检查非常有用。
+<span data-ttu-id="92f48-177">按客户查看延期交货时，您可以查看客户剩余订单的状态。</span><span class="sxs-lookup"><span data-stu-id="92f48-177">When you view back orders by customer, you can view the status of the customer’s remaining orders.</span></span> <span data-ttu-id="92f48-178">当您必须响应等待被推迟物料的客户时，这种检查非常有用。</span><span class="sxs-lookup"><span data-stu-id="92f48-178">This check is useful when you must respond to customers who are waiting for items that have been delayed.</span></span>
 
-#### <a name="viewing-backorders-by-vendor"></a>按供应商查看延期交货
+#### <a name="viewing-backorders-by-vendor"></a><span data-ttu-id="92f48-179">按供应商查看延期交货</span><span class="sxs-lookup"><span data-stu-id="92f48-179">Viewing backorders by vendor</span></span>
 
-按供应商查看延期交货时，您可以跟进尚未进行的交货和预期的交货日期。 当供应商的产品到达且必须挑选销售订单来进行交货时，此检查还可帮助您确定延期交货的优先级。
+<span data-ttu-id="92f48-180">按供应商查看延期交货时，您可以跟进尚未进行的交货和预期的交货日期。</span><span class="sxs-lookup"><span data-stu-id="92f48-180">When you view backorders by vendor, you can follow up on missing deliveries and expected dates of delivery.</span></span> <span data-ttu-id="92f48-181">当供应商的产品到达且必须挑选销售订单来进行交货时，此检查还可帮助您确定延期交货的优先级。</span><span class="sxs-lookup"><span data-stu-id="92f48-181">This check also helps you prioritize the backorders when products arrive from vendors and the sales orders must be picked for delivery.</span></span>
 
-### <a name="invoices"></a>发票
+### <a name="invoices"></a><span data-ttu-id="92f48-182">发票</span><span class="sxs-lookup"><span data-stu-id="92f48-182">Invoices</span></span>
 
-在销售流程中，可以创建三种类型的发票︰
+<span data-ttu-id="92f48-183">在销售流程中，可以创建三种类型的发票︰</span><span class="sxs-lookup"><span data-stu-id="92f48-183">You can create three types of invoices during the sales process:</span></span>
 
--   客户发票
--   普通发票
--   估价单
+-   <span data-ttu-id="92f48-184">客户发票</span><span class="sxs-lookup"><span data-stu-id="92f48-184">Customer invoice</span></span>
+-   <span data-ttu-id="92f48-185">普通发票</span><span class="sxs-lookup"><span data-stu-id="92f48-185">Free text invoice</span></span>
+-   <span data-ttu-id="92f48-186">估价单</span><span class="sxs-lookup"><span data-stu-id="92f48-186">Pro forma invoice</span></span>
 
-#### <a name="customer-invoice"></a>客户发票
+#### <a name="customer-invoice"></a><span data-ttu-id="92f48-187">客户发票</span><span class="sxs-lookup"><span data-stu-id="92f48-187">Customer invoice</span></span>
 
-客户发票是组织提供给客户的与销售相关的单据。 创建这种类型的客户发票是基于包括抬头和一个或多个物料或服务行的销售订单。 该客户发票完成了销售订单、装箱单和销售发票周期。  
+<span data-ttu-id="92f48-188">客户发票是组织提供给客户的与销售相关的单据。</span><span class="sxs-lookup"><span data-stu-id="92f48-188">A customer invoice is a bill that an organization gives to a customer in connection with a sale.</span></span> <span data-ttu-id="92f48-189">创建这种类型的客户发票是基于包括抬头和一个或多个物料或服务行的销售订单。</span><span class="sxs-lookup"><span data-stu-id="92f48-189">You create this kind of customer invoice based on a sales order that includes a header and one or more lines for items or services.</span></span> <span data-ttu-id="92f48-190">该客户发票完成了销售订单、装箱单和销售发票周期。</span><span class="sxs-lookup"><span data-stu-id="92f48-190">The customer invoice completes the sales order, packing slip, and sales invoice cycle.</span></span>  
 
-您可以过帐和打印单个客户发票，基于销售订单或装箱单和日期。 您还可以基于装箱单和日期一并过帐和打印多个客户发票。 在您通过使用销售订单过帐单个发票时，每个物料的**未开票数量**都用来自所选销售订单的已开发票的数量的总数更新。  
+<span data-ttu-id="92f48-191">您可以过帐和打印单个客户发票，基于销售订单或装箱单和日期。</span><span class="sxs-lookup"><span data-stu-id="92f48-191">You can post and print a single customer invoice, based on either a sales order or the packing slip and date.</span></span> <span data-ttu-id="92f48-192">您还可以基于装箱单和日期一并过帐和打印多个客户发票。</span><span class="sxs-lookup"><span data-stu-id="92f48-192">You can also post and print multiple customer invoices together, based on the packing slips and dates.</span></span> <span data-ttu-id="92f48-193">在您通过使用销售订单过帐单个发票时，每个物料的**未开票数量**都用来自所选销售订单的已开发票的数量的总数更新。</span><span class="sxs-lookup"><span data-stu-id="92f48-193">When you post a single customer invoice by using the sales order, the **Invoiced remainder** quantity for each item is updated with the total of the invoiced quantities from the selected sales order.</span></span>  
 
-如果销售订单上所有物料的**“未开票数量”**和**“剩余交货量”**均为 0（零），则该销售订单的状态将更改为**“已开票”**。 如果哪个字段的数量都不为 0，则该销售订单的状态将不更改，您可输入其他发票。 如果您打算基于装箱单过帐和打印一个或多个客户发票，您必须至少为每个销售订单过帐了一个装箱单。 客户发票基于这些装箱单并反映列出的数量。  
+<span data-ttu-id="92f48-194">如果销售订单上所有物料的**“未开票数量”**和**“剩余交货量”**均为 0（零），则该销售订单的状态将更改为**“已开票”**。</span><span class="sxs-lookup"><span data-stu-id="92f48-194">If both the **Invoiced remainder** and **Deliver remainder** quantities for all items on the sales order are 0 (zero), the status of the sales order is changed to **Invoiced**.</span></span> <span data-ttu-id="92f48-195">如果哪个字段的数量都不为 0，则该销售订单的状态将不更改，您可输入其他发票。</span><span class="sxs-lookup"><span data-stu-id="92f48-195">If the quantity of either field isn't 0, the status of the sales order isn't changed, and you can enter additional invoices.</span></span> <span data-ttu-id="92f48-196">如果您打算基于装箱单过帐和打印一个或多个客户发票，您必须至少为每个销售订单过帐了一个装箱单。</span><span class="sxs-lookup"><span data-stu-id="92f48-196">If you plan to post and print one or more customer invoices based on the packing slips, you must have already posted at least one packing slip for each sales order.</span></span> <span data-ttu-id="92f48-197">客户发票基于这些装箱单并反映列出的数量。</span><span class="sxs-lookup"><span data-stu-id="92f48-197">The customer invoice is based on the packing slips and reflects the quantities that are listed.</span></span>  
 
-您可以创建基于迄今已发运的装箱单行物料的客户发票，即使尚未发运特定销售订单的所有物料。 例如，如果您的法人每个月为每个客户签发一张支票以涵盖您在该月中发运的所有交货，则可以执行上述操作。 每个装箱单都表示该销售订单上物料的部分或全部交货。  
+<span data-ttu-id="92f48-198">您可以创建基于迄今已发运的装箱单行物料的客户发票，即使尚未发运特定销售订单的所有物料。</span><span class="sxs-lookup"><span data-stu-id="92f48-198">You can create a customer invoice that is based on the packing slip line items that have been shipped to date, even if all the items for a particular sales order haven't yet been shipped.</span></span> <span data-ttu-id="92f48-199">例如，如果您的法人每个月为每个客户签发一张支票以涵盖您在该月中发运的所有交货，则可以执行上述操作。</span><span class="sxs-lookup"><span data-stu-id="92f48-199">You might do this if, for example, your legal entity issues one invoice per customer per month to cover all the deliveries that you ship during that month.</span></span> <span data-ttu-id="92f48-200">每个装箱单都表示该销售订单上物料的部分或全部交货。</span><span class="sxs-lookup"><span data-stu-id="92f48-200">Each packing slip represents a partial or complete delivery of the items on the sales order.</span></span>  
 
-在您过帐该发票时，每个物料的**“未开票数量”**都用来自所选装箱单的已交货数量的总数更新。 如果销售订单上所有物料的**“未开票数量”**和**“剩余交货量”**均为 0（零），则该销售订单的状态将更改为**“已开票”**。 如果数量不为 0，则该销售订单的状态将不更改，您可输入其他发票。 库存交易记录用发票编号更新，并且销售订单行的状态更改为**“已开票”**。
+<span data-ttu-id="92f48-201">在您过帐该发票时，每个物料的**“未开票数量”**都用来自所选装箱单的已交货数量的总数更新。</span><span class="sxs-lookup"><span data-stu-id="92f48-201">When you post the invoice, the **Invoice remainder** quantity for each item is updated with the total of the delivered quantities from the selected packing slips.</span></span> <span data-ttu-id="92f48-202">如果销售订单上所有物料的**“未开票数量”**和**“剩余交货量”**均为 0（零），则该销售订单的状态将更改为**“已开票”**。</span><span class="sxs-lookup"><span data-stu-id="92f48-202">If the **Invoice remainder** and **Deliver remainder** quantities for all items on the sales order are 0 (zero), the status of the sales order is changed to **Invoiced**.</span></span> <span data-ttu-id="92f48-203">如果数量不为 0，则该销售订单的状态将不更改，您可输入其他发票。</span><span class="sxs-lookup"><span data-stu-id="92f48-203">If the quantity isn't 0, the status of the sales order isn't changed, and you can enter additional invoices.</span></span> <span data-ttu-id="92f48-204">库存交易记录用发票编号更新，并且销售订单行的状态更改为**“已开票”**。</span><span class="sxs-lookup"><span data-stu-id="92f48-204">Inventory transactions are updated with the invoice number, and the status on the sales order line is changed to **Invoiced**.</span></span>
 
-#### <a name="free-text-invoice"></a>普通发票
+#### <a name="free-text-invoice"></a><span data-ttu-id="92f48-205">普通发票</span><span class="sxs-lookup"><span data-stu-id="92f48-205">Free text invoice</span></span>
 
-普通发票是与销售订单不相关的发票。 它包含包括会计科目、自由文本描述和销售额的订单行。 您不能在此类发票上输入物料编号，您必须输入相应的销售税信息。 销售的主科目在每个发票行指示。 将客户余额过账到从用于普通发票的过帐模板的汇总科目。
+<span data-ttu-id="92f48-206">普通发票是与销售订单不相关的发票。</span><span class="sxs-lookup"><span data-stu-id="92f48-206">A free text invoice is an invoice that isn't related to a sales order.</span></span> <span data-ttu-id="92f48-207">它包含包括会计科目、自由文本描述和销售额的订单行。</span><span class="sxs-lookup"><span data-stu-id="92f48-207">It contains order lines that include ledger accounts, free-text descriptions, and a sales amount.</span></span> <span data-ttu-id="92f48-208">您不能在此类发票上输入物料编号，您必须输入相应的销售税信息。</span><span class="sxs-lookup"><span data-stu-id="92f48-208">You can’t enter an item number on this kind of invoice, and you must enter the appropriate sales tax information.</span></span> <span data-ttu-id="92f48-209">销售的主科目在每个发票行指示。</span><span class="sxs-lookup"><span data-stu-id="92f48-209">A main account for the sale is indicated on each invoice line.</span></span> <span data-ttu-id="92f48-210">将客户余额过账到从用于普通发票的过帐模板的汇总科目。</span><span class="sxs-lookup"><span data-stu-id="92f48-210">The customer balance is posted to the summary account from the posting profile that is used for the free text invoice.</span></span>
 
-#### <a name="pro-forma-invoice"></a>估价单
+#### <a name="pro-forma-invoice"></a><span data-ttu-id="92f48-211">估价单</span><span class="sxs-lookup"><span data-stu-id="92f48-211">Pro forma invoice</span></span>
 
-估价单是一种在过帐发票前作为对实际发票金额的评估而准备的发票。 您可为客户发票或普通发票打印估价单。
+<span data-ttu-id="92f48-212">估价单是一种在过帐发票前作为对实际发票金额的评估而准备的发票。</span><span class="sxs-lookup"><span data-stu-id="92f48-212">A pro forma invoice is an invoice that is prepared as an estimate of the actual invoice amount before the invoice is posted.</span></span> <span data-ttu-id="92f48-213">您可为客户发票或普通发票打印估价单。</span><span class="sxs-lookup"><span data-stu-id="92f48-213">You can print a pro forma invoice for either a customer invoice or a free text invoice.</span></span>
 
 
 

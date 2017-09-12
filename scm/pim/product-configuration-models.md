@@ -19,22 +19,22 @@ ms.author: yuyus
 ms.dyn365.intro: Feb-16
 ms.dyn365.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1270c35bc7dbe4c85a1aa991a0387b33e1cb6990
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: a5e7729111e06c6806586daf4dbc3c995ecfe1c3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/30/2017
 
 
 ---
 
-# <a name="product-configuration-models-overview"></a>产品配置模型概述
+# <a name="product-configuration-models-overview"></a><span data-ttu-id="46458-104">产品配置模型概述</span><span class="sxs-lookup"><span data-stu-id="46458-104">Product configuration models overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-本文定义与产品配置模型有关的术语和概念。 可通过产品配置模型构建可用于为单个产品配置大量产品变型的通用产品结构。
+<span data-ttu-id="46458-105">本文定义与产品配置模型有关的术语和概念。</span><span class="sxs-lookup"><span data-stu-id="46458-105">This article defines terms and concepts that are relevant to product configuration models.</span></span> <span data-ttu-id="46458-106">可通过产品配置模型构建可用于为单个产品配置大量产品变型的通用产品结构。</span><span class="sxs-lookup"><span data-stu-id="46458-106">Product configuration models let you build a generic product structure that can be used to configure many product variants for a single product.</span></span>
 
-创建产品配置模型是为了表示一般产品结构。 设置产品配置模型后，您可以配置具有唯一物料清单 (BOM) 和唯一工艺路线的独特产品变型。 产品模型配置使用陈述性约束和强制性计算来处理不同产品变型之间的关系和限制。 您可以配置销售订单、销售报价单、采购订单和生产订单上的物料。 下表描述表基于约束的词语和概念。
+<span data-ttu-id="46458-107">创建产品配置模型是为了表示一般产品结构。</span><span class="sxs-lookup"><span data-stu-id="46458-107">Product configuration models are created to represent a generic product structure.</span></span> <span data-ttu-id="46458-108">设置产品配置模型后，您可以配置具有唯一物料清单 (BOM) 和唯一工艺路线的独特产品变型。</span><span class="sxs-lookup"><span data-stu-id="46458-108">After you've set up a product configuration model, you can configure a distinct product variant that has a unique bill of materials (BOM) and a unique route.</span></span> <span data-ttu-id="46458-109">产品模型配置使用陈述性约束和强制性计算来处理不同产品变型之间的关系和限制。</span><span class="sxs-lookup"><span data-stu-id="46458-109">Product configuration models use both declarative constraints and imperative calculations to handle the relations and limitations between different product variants.</span></span> <span data-ttu-id="46458-110">您可以配置销售订单、销售报价单、采购订单和生产订单上的物料。</span><span class="sxs-lookup"><span data-stu-id="46458-110">You can configure items on sales orders, sales quotations, purchase orders, and production orders.</span></span> <span data-ttu-id="46458-111">下表描述表基于约束的词语和概念。</span><span class="sxs-lookup"><span data-stu-id="46458-111">The following table describes the table constraint–based terms and concepts.</span></span>
 <table>
 <colgroup>
 <col width="50%" />
@@ -42,112 +42,113 @@ ms.lasthandoff: 06/13/2017
 </colgroup>
 <tbody>
 <tr class="odd">
-<td>组件</td>
-<td>组件是产品配置模型的主要构造块。 组件显示在<strong>“基于约束的产品配置模型详细信息”</strong>页上的一个树状结构中。 组件可以包含以下元素：
+<td><span data-ttu-id="46458-112">组件</span><span class="sxs-lookup"><span data-stu-id="46458-112">Components</span></span></td>
+<td><span data-ttu-id="46458-113">组件是产品配置模型的主要构造块。</span><span class="sxs-lookup"><span data-stu-id="46458-113">Components are the main building blocks of a product configuration model.</span></span> <span data-ttu-id="46458-114">组件显示在<strong>“基于约束的产品配置模型详细信息”</strong>页上的一个树状结构中。</span><span class="sxs-lookup"><span data-stu-id="46458-114">Components are displayed in a tree structure on the <strong>Constraint-based product configuration model details</strong> page.</span></span> <span data-ttu-id="46458-115">组件可以包含以下元素：</span><span class="sxs-lookup"><span data-stu-id="46458-115">Components can contain the following elements:</span></span>
 <ul>
-<li>属性</li>
-<li>约束</li>
-<li>计算</li>
-<li>子组件</li>
-<li>用户要求</li>
-<li>物料清单行</li>
-<li>工艺路线工序</li>
+<li><span data-ttu-id="46458-116">属性</span><span class="sxs-lookup"><span data-stu-id="46458-116">Attributes</span></span></li>
+<li><span data-ttu-id="46458-117">约束</span><span class="sxs-lookup"><span data-stu-id="46458-117">Constraints</span></span></li>
+<li><span data-ttu-id="46458-118">计算</span><span class="sxs-lookup"><span data-stu-id="46458-118">Calculations</span></span></li>
+<li><span data-ttu-id="46458-119">子组件</span><span class="sxs-lookup"><span data-stu-id="46458-119">Subcomponents</span></span></li>
+<li><span data-ttu-id="46458-120">用户要求</span><span class="sxs-lookup"><span data-stu-id="46458-120">User requirements</span></span></li>
+<li><span data-ttu-id="46458-121">物料清单行</span><span class="sxs-lookup"><span data-stu-id="46458-121">BOM lines</span></span></li>
+<li><span data-ttu-id="46458-122">工艺路线工序</span><span class="sxs-lookup"><span data-stu-id="46458-122">Route operations</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>属性</td>
-<td>属性描述产品配置模型的所有功能。 您可以使用属性指定配置不同产品时可选择的功能。 属性用于约束和条件中。 创建属性并将其添加到产品配置模型时，将引用相关属性类型。 可为属性设置默认值。 配置产品配置模型时，配置用户界面 (UI) 中使用了默认值。 您可以将属性指定为必需、只读或隐藏。
+<td><span data-ttu-id="46458-123">属性</span><span class="sxs-lookup"><span data-stu-id="46458-123">Attributes</span></span></td>
+<td><span data-ttu-id="46458-124">属性描述产品配置模型的所有功能。</span><span class="sxs-lookup"><span data-stu-id="46458-124">Attributes describe all the features of the product configuration model.</span></span> <span data-ttu-id="46458-125">您可以使用属性指定配置不同产品时可选择的功能。</span><span class="sxs-lookup"><span data-stu-id="46458-125">You can use attributes to specify the features that can be selected when a distinct product is configured.</span></span> <span data-ttu-id="46458-126">属性用于约束和条件中。</span><span class="sxs-lookup"><span data-stu-id="46458-126">Attributes are used in constraints and conditions.</span></span> <span data-ttu-id="46458-127">创建属性并将其添加到产品配置模型时，将引用相关属性类型。</span><span class="sxs-lookup"><span data-stu-id="46458-127">When attributes are created and added to a product configuration model, the related attribute types are referenced.</span></span> <span data-ttu-id="46458-128">可为属性设置默认值。</span><span class="sxs-lookup"><span data-stu-id="46458-128">A default value can be set for an attribute.</span></span> <span data-ttu-id="46458-129">配置产品配置模型时，配置用户界面 (UI) 中使用了默认值。</span><span class="sxs-lookup"><span data-stu-id="46458-129">The default value is used in the configuration user interface (UI) when the product configuration model is configured.</span></span> <span data-ttu-id="46458-130">您可以将属性指定为必需、只读或隐藏。</span><span class="sxs-lookup"><span data-stu-id="46458-130">You can specify that an attribute is mandatory, read-only, or hidden.</span></span>
 <ul>
-<li><strong>必需</strong> – 配置产品时必须为属性设置一个值。</li>
-<li><strong>只读</strong> – 属性值在配置会话期间显示，但是无法更改。</li>
-<li><strong>隐藏</strong> – 属性值包括在约束和条件中，但是配置会话期间不显示。</li>
+<li><span data-ttu-id="46458-131"><strong>必需</strong> – 配置产品时必须为属性设置一个值。</span><span class="sxs-lookup"><span data-stu-id="46458-131"><strong>Mandatory</strong> – A value must be set for the attribute when the product is configured.</span></span></li>
+<li><span data-ttu-id="46458-132"><strong>只读</strong> – 属性值在配置会话期间显示，但是无法更改。</span><span class="sxs-lookup"><span data-stu-id="46458-132"><strong>Read-only</strong> – The attribute value is displayed during a configuration session, but it can't be changed.</span></span></li>
+<li><span data-ttu-id="46458-133"><strong>隐藏</strong> – 属性值包括在约束和条件中，但是配置会话期间不显示。</span><span class="sxs-lookup"><span data-stu-id="46458-133"><strong>Hidden</strong> – The attribute value is included in constraints and conditions, but isn't displayed during a configuration session.</span></span></li>
 </ul>
-您还可以为属性指定条件。 如果满足该条件，则必须为必需属性输入一个值。 条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。 条件中引用的任何属性都是必需的。 我们建议您在<strong>“属性”</strong>选项卡上将属性选为必需。 这样可以更轻松地标识必需属性。 属性值是重用配置的重要环节。 系统使用属性值以确定是否存在匹配用户在配置会话期间所做选择的配置。</td>
+<span data-ttu-id="46458-134">您还可以为属性指定条件。</span><span class="sxs-lookup"><span data-stu-id="46458-134">You can also specify a condition for attributes.</span></span> <span data-ttu-id="46458-135">如果满足该条件，则必须为必需属性输入一个值。</span><span class="sxs-lookup"><span data-stu-id="46458-135">If the condition is met, a value must be entered for the mandatory attribute.</span></span> <span data-ttu-id="46458-136">条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。</span><span class="sxs-lookup"><span data-stu-id="46458-136">Conditions are expressions that must be met for attributes, BOM lines, and route operations to be included in a product configuration model.</span></span> <span data-ttu-id="46458-137">条件中引用的任何属性都是必需的。</span><span class="sxs-lookup"><span data-stu-id="46458-137">Any attribute that is referenced in a condition becomes mandatory.</span></span> <span data-ttu-id="46458-138">我们建议您在<strong>“属性”</strong>选项卡上将属性选为必需。</span><span class="sxs-lookup"><span data-stu-id="46458-138">We recommend that you select attributes as mandatory on the <strong>Attributes</strong> tab.</span></span> <span data-ttu-id="46458-139">这样可以更轻松地标识必需属性。</span><span class="sxs-lookup"><span data-stu-id="46458-139">This can make it easier to identify mandatory attributes.</span></span> <span data-ttu-id="46458-140">属性值是重用配置的重要环节。</span><span class="sxs-lookup"><span data-stu-id="46458-140">Attribute values are an important part of reusing configurations.</span></span> <span data-ttu-id="46458-141">系统使用属性值以确定是否存在匹配用户在配置会话期间所做选择的配置。</span><span class="sxs-lookup"><span data-stu-id="46458-141">The system uses attribute values to determine whether a configuration exists that matches the selections that a user made during a configuration session.</span></span></td>
 </tr>
 <tr class="odd">
-<td>属性类型</td>
-<td>属性类型为用于产品配置模型的属性指定一组数据类型。 使用了以下属性类型：
+<td><span data-ttu-id="46458-142">属性类型</span><span class="sxs-lookup"><span data-stu-id="46458-142">Attribute types</span></span></td>
+<td><span data-ttu-id="46458-143">属性类型为用于产品配置模型的属性指定一组数据类型。</span><span class="sxs-lookup"><span data-stu-id="46458-143">Attribute types specify the set of data types for attributes that are used in a product configuration model.</span></span> <span data-ttu-id="46458-144">使用了以下属性类型：</span><span class="sxs-lookup"><span data-stu-id="46458-144">The following attribute types are used:</span></span>
 <ul>
-<li><strong>整数</strong>，具有或不具有范围</li>
-<li><strong>小数</strong></li>
-<li><strong>文本</strong>，具有或不具有固定列表</li>
-<li><strong>布尔值</strong></li>
+<li><span data-ttu-id="46458-145"><strong>整数</strong>，具有或不具有范围</span><span class="sxs-lookup"><span data-stu-id="46458-145"><strong>Integer</strong> with or without a range</span></span></li>
+<li><span data-ttu-id="46458-146"><strong>小数</strong></span><span class="sxs-lookup"><span data-stu-id="46458-146"><strong>Decimal</strong></span></span></li>
+<li><span data-ttu-id="46458-147"><strong>文本</strong>，具有或不具有固定列表</span><span class="sxs-lookup"><span data-stu-id="46458-147"><strong>Text</strong> with or without a fixed list</span></span></li>
+<li><span data-ttu-id="46458-148"><strong>布尔值</strong></span><span class="sxs-lookup"><span data-stu-id="46458-148"><strong>Boolean</strong></span></span></li>
 </ul>
-如果属性类型为<strong>“布尔值”</strong>、具有范围的<strong>“整数”</strong>或具有固定列表的<strong>“文本”</strong>，则在设置产品配置模型时，该组值会可用。 <strong>注意：</strong>产品配置求解器仅识别下列属性类型：<strong>布尔值</strong>、具有固定列表的<strong>文本</strong>和具有范围的<strong>整数</strong>。 因此，只有这些属性类型可用于表达式约束和条件。</td>
+<span data-ttu-id="46458-149">如果属性类型为<strong>“布尔值”</strong>、具有范围的<strong>“整数”</strong>或具有固定列表的<strong>“文本”</strong>，则在设置产品配置模型时，该组值会可用。</span><span class="sxs-lookup"><span data-stu-id="46458-149">If the attribute type is <strong>Boolean</strong>, <strong>Integer</strong> with a range, or <strong>Text</strong> with a fixed list, the set of values is available when a product configuration model is set up.</span></span> <span data-ttu-id="46458-150"><strong>注意：</strong>产品配置求解器仅识别下列属性类型：<strong>布尔值</strong>、具有固定列表的<strong>文本</strong>和具有范围的<strong>整数</strong>。</span><span class="sxs-lookup"><span data-stu-id="46458-150"><strong>Note:</strong> The Product configuration solver recognizes only the following attribute types: <strong>Boolean</strong>, <strong>Text</strong> with a fixed list, and <strong>Integer</strong> with a range.</span></span> <span data-ttu-id="46458-151">因此，只有这些属性类型可用于表达式约束和条件。</span><span class="sxs-lookup"><span data-stu-id="46458-151">Therefore, only these attribute types can be used in expression constraints and conditions.</span></span></td>
 </tr>
 <tr class="even">
-<td>约束</td>
-<td>约束描述产品配置模型的限制。 约束用于确保配置产品时仅选择了有效值。 约束可以是表达式约束，也可以是表约束：
+<td><span data-ttu-id="46458-152">约束</span><span class="sxs-lookup"><span data-stu-id="46458-152">Constraints</span></span></td>
+<td><span data-ttu-id="46458-153">约束描述产品配置模型的限制。</span><span class="sxs-lookup"><span data-stu-id="46458-153">Constraints describe the restrictions of the product model configuration.</span></span> <span data-ttu-id="46458-154">约束用于确保配置产品时仅选择了有效值。</span><span class="sxs-lookup"><span data-stu-id="46458-154">Constraints are used to guarantee that only valid values are selected when a product is being configured.</span></span> <span data-ttu-id="46458-155">约束可以是表达式约束，也可以是表约束：</span><span class="sxs-lookup"><span data-stu-id="46458-155">Constraints can be either expression constraints or table constraints:</span></span>
 <ul>
-<li>表达式约束仅用于与它们相关联的组件。 组件的表达式约束可以引用组件的子组件的属性。 产品配置求解器用于求解约束，并且编写约束时您必须使用求解器语法。 有关详细信息，请参阅有关表达式约束和表约束的主题链接。</li>
-<li>必须定义表约束，然后才能将其应用到产品配置模型中的组件。 表约束可以是用户定义的，也可以是系统定义的。 用户定义的表约束是一种可用于描述属性类型所定义的一组属性值组合的矩阵。 例如，如果生产扬声器，则用户定义的表约束的矩阵可能包含针对扬声器表面处理和格栅的列。</li>
-</ul>
-<strong>示例</strong>扬声器有四种表面处理：黑色、橡木、红木和白色。 扬声器可以具有三个前格栅之一：黑色、金属或白色。 黑色表面处理对所有格栅可用，但是其他表面处理仅限于特定格栅。 下表显示在<strong>“编辑表约束”</strong>页上的<strong>“允许的组合”</strong>选项卡中显示的信息的示例。
+<li><span data-ttu-id="46458-156">表达式约束仅用于与它们相关联的组件。</span><span class="sxs-lookup"><span data-stu-id="46458-156">Expression constraints can be used only for the component that they are tied to.</span></span> <span data-ttu-id="46458-157">组件的表达式约束可以引用组件的子组件的属性。</span><span class="sxs-lookup"><span data-stu-id="46458-157">The expression constraints for a component can reference attributes of the component's subcomponents.</span></span> <span data-ttu-id="46458-158">产品配置求解器用于求解约束，并且编写约束时您必须使用求解器语法。</span><span class="sxs-lookup"><span data-stu-id="46458-158">The Product configuration solver is used to solve the constraints, and you must use the solver syntax when you write the constraints.</span></span> <span data-ttu-id="46458-159">有关详细信息，请参阅有关表达式约束和表约束的主题链接。</span><span class="sxs-lookup"><span data-stu-id="46458-159">For more information, see the topic link about expression constraints and table constraints.</span></span></li>
+<li><span data-ttu-id="46458-160">必须定义表约束，然后才能将其应用到产品配置模型中的组件。</span><span class="sxs-lookup"><span data-stu-id="46458-160">Table constraints must be defined before they can be applied to a component in a product configuration model.</span></span> <span data-ttu-id="46458-161">表约束可以是用户定义的，也可以是系统定义的。</span><span class="sxs-lookup"><span data-stu-id="46458-161">Table constraints can be either user-defined or system-defined.</span></span> <span data-ttu-id="46458-162">用户定义的表约束是一种可用于描述属性类型所定义的一组属性值组合的矩阵。</span><span class="sxs-lookup"><span data-stu-id="46458-162">A user-defined table constraint is a type of matrix that can be used to describe the set of combinations for the attribute values that are defined by attribute types.</span></span> <span data-ttu-id="46458-163">例如，如果生产扬声器，则用户定义的表约束的矩阵可能包含针对扬声器表面处理和格栅的列。</span><span class="sxs-lookup"><span data-stu-id="46458-163">For example, if speakers are produced, the matrix for a user-defined table constraint might have columns for the speaker finish and grill.</span></span></li>
+</ul><span data-ttu-id="46458-164">
+<strong>示例</strong>扬声器有四种表面处理：黑色、橡木、红木和白色。</span><span class="sxs-lookup"><span data-stu-id="46458-164">
+<strong>Example</strong> Speakers are available in four finishes: Black, Oak, Rosewood, and White.</span></span> <span data-ttu-id="46458-165">扬声器可以具有三个前格栅之一：黑色、金属或白色。</span><span class="sxs-lookup"><span data-stu-id="46458-165">The speakers can have one of three front grills: Black, Metal, or White.</span></span> <span data-ttu-id="46458-166">黑色表面处理对所有格栅可用，但是其他表面处理仅限于特定格栅。</span><span class="sxs-lookup"><span data-stu-id="46458-166">The Black finish is available for all grills, but the other finishes are limited to specific grills.</span></span> <span data-ttu-id="46458-167">下表显示在<strong>“编辑表约束”</strong>页上的<strong>“允许的组合”</strong>选项卡中显示的信息的示例。</span><span class="sxs-lookup"><span data-stu-id="46458-167">The following table shows an example of the information that is displayed on the <strong>Allowed combinations</strong> tab on the <strong>Edit table constraint</strong> page.</span></span>
 <table>
 <thead>
 <tr class="header">
-<th>机柜表面处理</th>
-<th>前格栅</th>
+<th><span data-ttu-id="46458-168">机柜表面处理</span><span class="sxs-lookup"><span data-stu-id="46458-168">Cabinet finish</span></span></th>
+<th><span data-ttu-id="46458-169">前格栅</span><span class="sxs-lookup"><span data-stu-id="46458-169">Front grill</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>黑</td>
-<td>黑</td>
+<td><span data-ttu-id="46458-170">黑</span><span class="sxs-lookup"><span data-stu-id="46458-170">Black</span></span></td>
+<td><span data-ttu-id="46458-171">黑</span><span class="sxs-lookup"><span data-stu-id="46458-171">Black</span></span></td>
 </tr>
 <tr class="even">
-<td>黑</td>
-<td>金属</td>
+<td><span data-ttu-id="46458-172">黑</span><span class="sxs-lookup"><span data-stu-id="46458-172">Black</span></span></td>
+<td><span data-ttu-id="46458-173">金属</span><span class="sxs-lookup"><span data-stu-id="46458-173">Metal</span></span></td>
 </tr>
 <tr class="odd">
-<td>黑</td>
-<td>白色</td>
+<td><span data-ttu-id="46458-174">黑</span><span class="sxs-lookup"><span data-stu-id="46458-174">Black</span></span></td>
+<td><span data-ttu-id="46458-175">白色</span><span class="sxs-lookup"><span data-stu-id="46458-175">White</span></span></td>
 </tr>
 <tr class="even">
-<td>橡木</td>
-<td>黑</td>
+<td><span data-ttu-id="46458-176">橡木</span><span class="sxs-lookup"><span data-stu-id="46458-176">Oak</span></span></td>
+<td><span data-ttu-id="46458-177">黑</span><span class="sxs-lookup"><span data-stu-id="46458-177">Black</span></span></td>
 </tr>
 <tr class="odd">
-<td>红木</td>
-<td>白色</td>
+<td><span data-ttu-id="46458-178">红木</span><span class="sxs-lookup"><span data-stu-id="46458-178">Rosewood</span></span></td>
+<td><span data-ttu-id="46458-179">白色</span><span class="sxs-lookup"><span data-stu-id="46458-179">White</span></span></td>
 </tr>
 <tr class="even">
-<td>白色</td>
-<td>黑</td>
+<td><span data-ttu-id="46458-180">白色</span><span class="sxs-lookup"><span data-stu-id="46458-180">White</span></span></td>
+<td><span data-ttu-id="46458-181">黑</span><span class="sxs-lookup"><span data-stu-id="46458-181">Black</span></span></td>
 </tr>
 <tr class="odd">
-<td>白色</td>
-<td>白色</td>
+<td><span data-ttu-id="46458-182">白色</span><span class="sxs-lookup"><span data-stu-id="46458-182">White</span></span></td>
+<td><span data-ttu-id="46458-183">白色</span><span class="sxs-lookup"><span data-stu-id="46458-183">White</span></span></td>
 </tr>
 </tbody>
 </table>
-系统定义的表约束表示 Finance and Operations 表中属性类型与字段之间的映射。 系统定义的表约束将属性类型与字段动态链接。 链接能让产品配置模型中的属性反映 Finance and Operations 表中的字段的数据。</td>
+<span data-ttu-id="46458-184">系统定义的表约束表示 Finance and Operations 表中属性类型与字段之间的映射。</span><span class="sxs-lookup"><span data-stu-id="46458-184">A system-defined table constraint represents a mapping between an attribute type and a field in a Finance and Operations table.</span></span> <span data-ttu-id="46458-185">系统定义的表约束将属性类型与字段动态链接。</span><span class="sxs-lookup"><span data-stu-id="46458-185">A system-defined table constraint dynamically links the attribute type to the field.</span></span> <span data-ttu-id="46458-186">链接能让产品配置模型中的属性反映 Finance and Operations 表中的字段的数据。</span><span class="sxs-lookup"><span data-stu-id="46458-186">The link enables the attribute in a product configuration model to reflect the data of the field in the Finance and Operations table.</span></span></td>
 </tr>
 <tr class="odd">
-<td>计算</td>
-<td>计算表示对约束的补充。 您可以使用计算对<strong>“小数”</strong>和<strong>“整数”</strong>类型的属性执行算术运算，或执行涉及具有固定列表的<strong>“文本”</strong>和“<strong>布尔值”</strong>类型的属性的逻辑运算。 计算具有一个目标属性，可用于保留计算表达式的结果。 计算表达式是使用表达式编辑器构建的。</td>
+<td><span data-ttu-id="46458-187">计算</span><span class="sxs-lookup"><span data-stu-id="46458-187">Calculations</span></span></td>
+<td><span data-ttu-id="46458-188">计算表示对约束的补充。</span><span class="sxs-lookup"><span data-stu-id="46458-188">Calculations represent a supplement to constraints.</span></span> <span data-ttu-id="46458-189">您可以使用计算对<strong>“小数”</strong>和<strong>“整数”</strong>类型的属性执行算术运算，或执行涉及具有固定列表的<strong>“文本”</strong>和“<strong>布尔值”</strong>类型的属性的逻辑运算。</span><span class="sxs-lookup"><span data-stu-id="46458-189">You can use a calculation to perform arithmetic operations on attributes of the <strong>Decimal</strong> and <strong>Integer</strong> types, or logical operations that involve attributes of the <strong>Text</strong> with a fixed list and <strong>Boolean</strong> types.</span></span> <span data-ttu-id="46458-190">计算具有一个目标属性，可用于保留计算表达式的结果。</span><span class="sxs-lookup"><span data-stu-id="46458-190">A calculation has a target attribute that will hold the result of the calculation expression.</span></span> <span data-ttu-id="46458-191">计算表达式是使用表达式编辑器构建的。</span><span class="sxs-lookup"><span data-stu-id="46458-191">The calculation expression is built by using the expression editor.</span></span></td>
 </tr>
 <tr class="even">
-<td>子组件</td>
-<td>子组件反映产品配置模型的树状结构。 您可以使用子组件构造产品配置模型的结构。 子组件将引用现有组件。 因此，子组件将促进在多个产品配置模型中重复使用组件。 在子组件的<strong>“物料清单行详细信息”</strong>页上，您可以为子组件选择不同的值。 或者，您可以选择设置产品配置模型时为其选择了值的属性。 若要将产品包括为组件或子组件，您必须在创建产品时在<strong>“创建产品”</strong>页上指定以下内容：
+<td><span data-ttu-id="46458-192">子组件</span><span class="sxs-lookup"><span data-stu-id="46458-192">Subcomponents</span></span></td>
+<td><span data-ttu-id="46458-193">子组件反映产品配置模型的树状结构。</span><span class="sxs-lookup"><span data-stu-id="46458-193">Subcomponents reflect the tree structure of the product configuration model.</span></span> <span data-ttu-id="46458-194">您可以使用子组件构造产品配置模型的结构。</span><span class="sxs-lookup"><span data-stu-id="46458-194">You can use subcomponents to build the structure of the product configuration model.</span></span> <span data-ttu-id="46458-195">子组件将引用现有组件。</span><span class="sxs-lookup"><span data-stu-id="46458-195">Subcomponents reference existing components.</span></span> <span data-ttu-id="46458-196">因此，子组件将促进在多个产品配置模型中重复使用组件。</span><span class="sxs-lookup"><span data-stu-id="46458-196">Therefore, subcomponents encourage the reuse of components in multiple product configuration models.</span></span> <span data-ttu-id="46458-197">在子组件的<strong>“物料清单行详细信息”</strong>页上，您可以为子组件选择不同的值。</span><span class="sxs-lookup"><span data-stu-id="46458-197">On the <strong>BOM line details</strong> page for a subcomponent, you can select a distinct value for the subcomponent.</span></span> <span data-ttu-id="46458-198">或者，您可以选择设置产品配置模型时为其选择了值的属性。</span><span class="sxs-lookup"><span data-stu-id="46458-198">Alternatively, you can select an attribute that the value is selected for when the product configuration model is set up.</span></span> <span data-ttu-id="46458-199">若要将产品包括为组件或子组件，您必须在创建产品时在<strong>“创建产品”</strong>页上指定以下内容：</span><span class="sxs-lookup"><span data-stu-id="46458-199">To include a product as a component or subcomponent, you must specify the following information on the <strong>Create product</strong> page when you create the product:</span></span>
 <ul>
-<li>在<strong>“产品类型”</strong>字段中，选择<strong>“物料”</strong>。</li>
-<li>在<strong>“产品子类型”</strong>字段中，选择<strong>“基础产品”</strong>。</li>
-<li>在<strong>“配置技术”</strong>字段中，选择<strong>“基于约束的配置”</strong>。</li>
+<li><span data-ttu-id="46458-200">在<strong>“产品类型”</strong>字段中，选择<strong>“物料”</strong>。</span><span class="sxs-lookup"><span data-stu-id="46458-200">In the <strong>Product type</strong> field, select <strong>Item</strong>.</span></span></li>
+<li><span data-ttu-id="46458-201">在<strong>“产品子类型”</strong>字段中，选择<strong>“基础产品”</strong>。</span><span class="sxs-lookup"><span data-stu-id="46458-201">In the <strong>Product subtype</strong> field, select <strong>Product master</strong>.</span></span></li>
+<li><span data-ttu-id="46458-202">在<strong>“配置技术”</strong>字段中，选择<strong>“基于约束的配置”</strong>。</span><span class="sxs-lookup"><span data-stu-id="46458-202">In the <strong>Configuration technology</strong> field, select <strong>Constraint-based configuration</strong>.</span></span></li>
 </ul>
-您可以查看已发布产品是否可用作<strong>“已发布产品详细信息”</strong>页的<strong>“常规”</strong>选项卡上的组件或子组件。 如果<strong>“基于约束的配置”</strong>在<strong>“配置技术”</strong>字段中被选定，则产品可以用作组件或子组件。 您可以隐藏子组件，以便配置会话期间不会向用户显示。 与子组件关联的属性、子组件和用户要求也是隐藏的。</td>
+<span data-ttu-id="46458-203">您可以查看已发布产品是否可用作<strong>“已发布产品详细信息”</strong>页的<strong>“常规”</strong>选项卡上的组件或子组件。</span><span class="sxs-lookup"><span data-stu-id="46458-203">You can view whether a released product can be used as a component or subcomponent on the <strong>General</strong> tab of the <strong>Released product details</strong> page.</span></span> <span data-ttu-id="46458-204">如果<strong>“基于约束的配置”</strong>在<strong>“配置技术”</strong>字段中被选定，则产品可以用作组件或子组件。</span><span class="sxs-lookup"><span data-stu-id="46458-204">If <strong>Constraint-based configuration</strong> is selected in the <strong>Configuration technology</strong> field, the product can be used as a component or subcomponent.</span></span> <span data-ttu-id="46458-205">您可以隐藏子组件，以便配置会话期间不会向用户显示。</span><span class="sxs-lookup"><span data-stu-id="46458-205">You can hide subcomponents so that they aren't displayed to the user during a configuration session.</span></span> <span data-ttu-id="46458-206">与子组件关联的属性、子组件和用户要求也是隐藏的。</span><span class="sxs-lookup"><span data-stu-id="46458-206">Attributes, subcomponents, and user requirements that are related to the subcomponent are also hidden.</span></span></td>
 </tr>
 <tr class="odd">
-<td>用户要求</td>
-<td>用户要求表示用户要求与特定组件和属性之间的抽象。 您不能将用户要求映射到物料。 例如，客户要购买家庭影院系统。 销售代表可以询问客户计划将系统安装所在的房间的大小，以便确定需要多少瓦特。 在此示例中，房间大小可以是用户要求，它可以帮助确定特定组件的合适属性值。您可以隐藏用户要求，以便配置会话期间不会向用户显示。 与用户要求关联的属性、子组件和用户要求也是隐藏的。 您可以编写条件。以便控制用户要求是否可以处于隐藏状态。 您必须使用优化建模语言 (OML) 语法编写条件。</td>
+<td><span data-ttu-id="46458-207">用户要求</span><span class="sxs-lookup"><span data-stu-id="46458-207">User requirements</span></span></td>
+<td><span data-ttu-id="46458-208">用户要求表示用户要求与特定组件和属性之间的抽象。</span><span class="sxs-lookup"><span data-stu-id="46458-208">User requirements represent an abstraction between user requirements and specific components and attributes.</span></span> <span data-ttu-id="46458-209">您不能将用户要求映射到物料。</span><span class="sxs-lookup"><span data-stu-id="46458-209">You can't map a user requirement to an item.</span></span> <span data-ttu-id="46458-210">例如，客户要购买家庭影院系统。</span><span class="sxs-lookup"><span data-stu-id="46458-210">For example, a customer is shopping for a home theater system.</span></span> <span data-ttu-id="46458-211">销售代表可以询问客户计划将系统安装所在的房间的大小，以便确定需要多少瓦特。</span><span class="sxs-lookup"><span data-stu-id="46458-211">The sales representative might ask about the size of the room where the customer plans to install the system, to determine how many watts are required.</span></span> <span data-ttu-id="46458-212">在此示例中，房间大小可以是用户要求，它可以帮助确定特定组件的合适属性值。您可以隐藏用户要求，以便配置会话期间不会向用户显示。</span><span class="sxs-lookup"><span data-stu-id="46458-212">In this example, the room size can be a user requirement that helps determine the appropriate attribute value for a specific component.You can hide user requirements so that they aren't displayed to the user during a configuration session.</span></span> <span data-ttu-id="46458-213">与用户要求关联的属性、子组件和用户要求也是隐藏的。</span><span class="sxs-lookup"><span data-stu-id="46458-213">Attributes, subcomponents, and user requirements that are related to the user requirement are also hidden.</span></span> <span data-ttu-id="46458-214">您可以编写条件。以便控制用户要求是否可以处于隐藏状态。</span><span class="sxs-lookup"><span data-stu-id="46458-214">You can write a condition to control whether a user requirement can be hidden.</span></span> <span data-ttu-id="46458-215">您必须使用优化建模语言 (OML) 语法编写条件。</span><span class="sxs-lookup"><span data-stu-id="46458-215">You must write the condition by using Optimization Modeling Language (OML) syntax.</span></span></td>
 </tr>
 <tr class="even">
-<td>物料清单行</td>
-<td>物料清单行表示产品配置模型中组件的各个物料。 在<strong>“物料清单行详细信息”</strong>页上，所有物料都可供选择。 可以将条件添加到物料清单行，以便根据设置产品配置模型时的用户选择，为不同产品变型选择的物料清单行可以有所不同。 条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。 在<strong>“物料清单行详细信息”</strong>页上，您可以选择一个不同的值。 或者，您可以映射到设置产品配置模型时为其选择了值的属性。</td>
+<td><span data-ttu-id="46458-216">物料清单行</span><span class="sxs-lookup"><span data-stu-id="46458-216">BOM lines</span></span></td>
+<td><span data-ttu-id="46458-217">物料清单行表示产品配置模型中组件的各个物料。</span><span class="sxs-lookup"><span data-stu-id="46458-217">BOM lines represent the individual materials of the components in the product configuration model.</span></span> <span data-ttu-id="46458-218">在<strong>“物料清单行详细信息”</strong>页上，所有物料都可供选择。</span><span class="sxs-lookup"><span data-stu-id="46458-218">On the <strong>BOM line details</strong> page, all items are available for selection.</span></span> <span data-ttu-id="46458-219">可以将条件添加到物料清单行，以便根据设置产品配置模型时的用户选择，为不同产品变型选择的物料清单行可以有所不同。</span><span class="sxs-lookup"><span data-stu-id="46458-219">A condition can be added to the BOM line, so that the BOM lines that are selected for a distinct product variant can vary, based on the user's selection when the product configuration model is set up.</span></span> <span data-ttu-id="46458-220">条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。</span><span class="sxs-lookup"><span data-stu-id="46458-220">Conditions are expressions that must be met for attributes, BOM lines, and route operations to be included in a product configuration model.</span></span> <span data-ttu-id="46458-221">在<strong>“物料清单行详细信息”</strong>页上，您可以选择一个不同的值。</span><span class="sxs-lookup"><span data-stu-id="46458-221">On the <strong>BOM line details</strong> page, you can select a distinct value.</span></span> <span data-ttu-id="46458-222">或者，您可以映射到设置产品配置模型时为其选择了值的属性。</span><span class="sxs-lookup"><span data-stu-id="46458-222">Alternatively, you can map to an attribute that the value is selected for when the product configuration model is set up.</span></span></td>
 </tr>
 <tr class="odd">
-<td>工艺路线工序</td>
-<td>在<strong>“工艺路线工序详细信息”</strong>页上，您可以选择一个不同的值。 或者，您可以映射到设置产品配置模型时为其选择了值的属性。 已编写条件，如表达式约束。 条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。</td>
+<td><span data-ttu-id="46458-223">工艺路线工序</span><span class="sxs-lookup"><span data-stu-id="46458-223">Route operations</span></span></td>
+<td><span data-ttu-id="46458-224">在<strong>“工艺路线工序详细信息”</strong>页上，您可以选择一个不同的值。</span><span class="sxs-lookup"><span data-stu-id="46458-224">On the <strong>Route operation details</strong> page, you can select a distinct value.</span></span> <span data-ttu-id="46458-225">或者，您可以映射到设置产品配置模型时为其选择了值的属性。</span><span class="sxs-lookup"><span data-stu-id="46458-225">Alternatively, you can map to an attribute that the value is selected for when the product configuration model is set up.</span></span> <span data-ttu-id="46458-226">已编写条件，如表达式约束。</span><span class="sxs-lookup"><span data-stu-id="46458-226">Conditions are written like expression constraints.</span></span> <span data-ttu-id="46458-227">条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。</span><span class="sxs-lookup"><span data-stu-id="46458-227">Conditions are expressions that must be met for attributes, BOM lines, and route operations to be included in a product configuration model.</span></span></td>
 </tr>
 </tbody>
 </table>

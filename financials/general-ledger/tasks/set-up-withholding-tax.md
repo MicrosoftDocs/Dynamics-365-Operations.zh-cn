@@ -16,38 +16,38 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: fa540720cdf1689393093e52ee37fdd74ff6c8e1
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: dc4c0745235052cb4145bc7083fef1a88c8bb5c9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="set-up-withholding-tax"></a>设置预缴税金
+# <a name="set-up-withholding-tax"></a><span data-ttu-id="4e85e-103">设置预缴税金</span><span class="sxs-lookup"><span data-stu-id="4e85e-103">Set up withholding tax</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-预缴税金是针对供应商的一种不创建增值税交易记录的税金。 对供应商付款计算的预缴税金是一种负债。 因此，在过帐预缴税金时，只有资产负债表科目或负债科目是有效科目。 此任务指南演示如何设置预缴税金。
+<span data-ttu-id="4e85e-104">预缴税金是针对供应商的一种不创建增值税交易记录的税金。</span><span class="sxs-lookup"><span data-stu-id="4e85e-104">Withholding tax is a tax on vendors that does not create sales tax transactions.</span></span> <span data-ttu-id="4e85e-105">对供应商付款计算的预缴税金是一种负债。</span><span class="sxs-lookup"><span data-stu-id="4e85e-105">Withholding tax that is calculated on vendor payments is a liability.</span></span> <span data-ttu-id="4e85e-106">因此，在过帐预缴税金时，只有资产负债表科目或负债科目是有效科目。</span><span class="sxs-lookup"><span data-stu-id="4e85e-106">Therefore, only balance sheet accounts or liability accounts are valid accounts for posting withholding tax.</span></span> <span data-ttu-id="4e85e-107">此任务指南演示如何设置预缴税金。</span><span class="sxs-lookup"><span data-stu-id="4e85e-107">This task guide demonstrates how to set up withholding tax.</span></span>
 
-1. 转到“纳税”>“间接税”>“预缴税金”>“预缴税金代码”。
-2. 单击“新建”。
-3. 在“预缴税金代码”字段中，输入一个值。
-4. 在“预缴税金名称”字段中，输入预缴税金代码的名称。
-5. 在“主科目”字段中，选择将预缴应交税金过帐的主科目。
-6. 单击“保存”。
-7. 单击“数值”。
-8. 在列表中，标记所选的行。
-9. 在“数值”字段中，输入用于计算预缴税金的百分比。
-10. 单击“保存”。
-11. 关闭该页面。
-12. 单击“保存”。
-13. 关闭该页面。
-14. 转到“纳税”>“间接税”>“预缴税金”>“预缴税金组”。
-15. 单击“新建”。
-16. 在“预缴税金组”字段中，输入预缴税金组的标识。
-17. 在“描述”字段中，输入预缴税金组的名称。
-18. 在列表中，标记所选的行。
-19. 在“预缴税金代码”字段中，选择预缴税金代码。
-20. 在列表中，单击所选行中的链接。
-21. 单击“保存”。
+1. <span data-ttu-id="4e85e-108">转到“纳税”>“间接税”>“预缴税金”>“预缴税金代码”。</span><span class="sxs-lookup"><span data-stu-id="4e85e-108">Go to Tax > Indirect taxes > Withholding tax > Withholding tax codes.</span></span>
+2. <span data-ttu-id="4e85e-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4e85e-109">Click New.</span></span>
+3. <span data-ttu-id="4e85e-110">在“预缴税金代码”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="4e85e-110">In the Withholding tax code field, type a value.</span></span>
+4. <span data-ttu-id="4e85e-111">在“预缴税金名称”字段中，输入预缴税金代码的名称。</span><span class="sxs-lookup"><span data-stu-id="4e85e-111">In the Withholding tax name field, enter the name of the withholding tax code.</span></span>
+5. <span data-ttu-id="4e85e-112">在“主科目”字段中，选择将预缴应交税金过帐的主科目。</span><span class="sxs-lookup"><span data-stu-id="4e85e-112">In the Main account field, select the main account for posting the withholding tax liability.</span></span>
+6. <span data-ttu-id="4e85e-113">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4e85e-113">Click Save.</span></span>
+7. <span data-ttu-id="4e85e-114">单击“数值”。</span><span class="sxs-lookup"><span data-stu-id="4e85e-114">Click Values.</span></span>
+8. <span data-ttu-id="4e85e-115">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4e85e-115">In the list, mark the selected row.</span></span>
+9. <span data-ttu-id="4e85e-116">在“数值”字段中，输入用于计算预缴税金的百分比。</span><span class="sxs-lookup"><span data-stu-id="4e85e-116">In the Value field, enter a percentage used for the calculation of the withholding tax.</span></span>
+10. <span data-ttu-id="4e85e-117">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4e85e-117">Click Save.</span></span>
+11. <span data-ttu-id="4e85e-118">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="4e85e-118">Close the page.</span></span>
+12. <span data-ttu-id="4e85e-119">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4e85e-119">Click Save.</span></span>
+13. <span data-ttu-id="4e85e-120">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="4e85e-120">Close the page.</span></span>
+14. <span data-ttu-id="4e85e-121">转到“纳税”>“间接税”>“预缴税金”>“预缴税金组”。</span><span class="sxs-lookup"><span data-stu-id="4e85e-121">Go to Tax > Indirect taxes > Withholding tax > Withholding tax groups.</span></span>
+15. <span data-ttu-id="4e85e-122">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4e85e-122">Click New.</span></span>
+16. <span data-ttu-id="4e85e-123">在“预缴税金组”字段中，输入预缴税金组的标识。</span><span class="sxs-lookup"><span data-stu-id="4e85e-123">In the Withholding tax group field, enter the identifier of the withholding tax group.</span></span>
+17. <span data-ttu-id="4e85e-124">在“描述”字段中，输入预缴税金组的名称。</span><span class="sxs-lookup"><span data-stu-id="4e85e-124">In the Description field, enter the name of the withholding tax group.</span></span>
+18. <span data-ttu-id="4e85e-125">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4e85e-125">In the list, mark the selected row.</span></span>
+19. <span data-ttu-id="4e85e-126">在“预缴税金代码”字段中，选择预缴税金代码。</span><span class="sxs-lookup"><span data-stu-id="4e85e-126">In the Withholding tax code field, select the withholding tax code.</span></span>
+20. <span data-ttu-id="4e85e-127">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4e85e-127">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="4e85e-128">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4e85e-128">Click Save.</span></span>
 
 

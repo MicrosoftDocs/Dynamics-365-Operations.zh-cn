@@ -15,56 +15,56 @@ ms.custom: 263934
 ms.assetid: 38e6827b-0819-473c-bc47-821a1ec482b8
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 49cfd0f1ed645f1980b21b6d4f453cb7a8957a1a
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3dbdabc272b90057f49f28b7f0c188e6771f0383
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="recruiting-power-bi-content"></a>招聘 Power BI 内容
+# <a name="recruiting-power-bi-content"></a><span data-ttu-id="01079-104">招聘 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="01079-104">Recruiting Power BI content</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍**招聘** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+<span data-ttu-id="01079-105">此主题介绍**招聘** Microsoft Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="01079-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="01079-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="01079-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
-## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，则**招聘** Power BI 内容在**招聘管理**工作区显示。 
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="01079-107">访问 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="01079-107">Accessing the Power BI content</span></span>
+<span data-ttu-id="01079-108">如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，则**招聘** Power BI 内容在**招聘管理**工作区显示。</span><span class="sxs-lookup"><span data-stu-id="01079-108">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, the **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
 
-## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a>招聘管理工作区的报表和视觉对象
-**招聘管理**工作区包含一个**分析**选项卡。 此选项卡包含嵌入的招聘 Power BI 内容。 此内容包括一个概览选项卡和包含详细信息的附加选项卡。 下表对每个选项卡上的报表进行介绍。
+## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="01079-109">招聘管理工作区的报表和视觉对象</span><span class="sxs-lookup"><span data-stu-id="01079-109">Reports and visuals in the Recruitment management workspace</span></span>
+<span data-ttu-id="01079-110">**招聘管理**工作区包含一个**分析**选项卡。</span><span class="sxs-lookup"><span data-stu-id="01079-110">The **Recruitment management** workspace contains an **Analytics** tab.</span></span> <span data-ttu-id="01079-111">此选项卡包含嵌入的招聘 Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="01079-111">This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="01079-112">此内容包括一个概览选项卡和包含详细信息的附加选项卡。</span><span class="sxs-lookup"><span data-stu-id="01079-112">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="01079-113">下表对每个选项卡上的报表进行介绍。</span><span class="sxs-lookup"><span data-stu-id="01079-113">The following table describes the reports on each tab.</span></span>
 
-| 报告               | 内容 |
+| <span data-ttu-id="01079-114">报告</span><span class="sxs-lookup"><span data-stu-id="01079-114">Report</span></span>               | <span data-ttu-id="01079-115">内容</span><span class="sxs-lookup"><span data-stu-id="01079-115">Contents</span></span> |
 |----------------------|----------|
-| 招聘概览 | 汇总其他报表 |
-| 申请人分析   | 申请人总数、按作业分类的申请人、申请人来源、女性与男性申请人，以及按位置分类的申请人 |
-| 申请人状态     | 按类型和状态分类的申请人，以及申请人状态 |
-| 招聘分析  | 净雇用比率、平均雇用天数、不良雇用百分百、招聘成本、招聘项目数量、雇用人与申请人的比例，以及各招聘项目的申请人与空缺职位 |
+| <span data-ttu-id="01079-116">招聘概览</span><span class="sxs-lookup"><span data-stu-id="01079-116">Recruitment Overview</span></span> | <span data-ttu-id="01079-117">汇总其他报表</span><span class="sxs-lookup"><span data-stu-id="01079-117">Summarizes other reports</span></span> |
+| <span data-ttu-id="01079-118">申请人分析</span><span class="sxs-lookup"><span data-stu-id="01079-118">Applicant Analysis</span></span>   | <span data-ttu-id="01079-119">申请人总数、按作业分类的申请人、申请人来源、女性与男性申请人，以及按位置分类的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-119">Total number of applicants, applicants by job, applicant sources, female to male applicants, and applicants by location</span></span> |
+| <span data-ttu-id="01079-120">申请人状态</span><span class="sxs-lookup"><span data-stu-id="01079-120">Applicant Status</span></span>     | <span data-ttu-id="01079-121">按类型和状态分类的申请人，以及申请人状态</span><span class="sxs-lookup"><span data-stu-id="01079-121">Applicants by type and status, and applicant status</span></span> |
+| <span data-ttu-id="01079-122">招聘分析</span><span class="sxs-lookup"><span data-stu-id="01079-122">Recruiting Analysis</span></span>  | <span data-ttu-id="01079-123">净雇用比率、平均雇用天数、不良雇用百分百、招聘成本、招聘项目数量、雇用人与申请人的比例，以及各招聘项目的申请人与空缺职位</span><span class="sxs-lookup"><span data-stu-id="01079-123">Net hire ratio, average days to hire, percentage of bad hires, recruiting costs, number of recruitment projects, hire to applied, and applicants versus openings by recruitment project</span></span> |
 
-## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="01079-124">了解数据模型和实体</span><span class="sxs-lookup"><span data-stu-id="01079-124">Understanding the data model and entities</span></span>
+<span data-ttu-id="01079-125">可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。</span><span class="sxs-lookup"><span data-stu-id="01079-125">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="01079-126">有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。</span><span class="sxs-lookup"><span data-stu-id="01079-126">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
-下表显示**招聘** Power BI 内容所基于的实体。
+<span data-ttu-id="01079-127">下表显示**招聘** Power BI 内容所基于的实体。</span><span class="sxs-lookup"><span data-stu-id="01079-127">The following table shows the entities that the **Recruiting** Power BI content was based on.</span></span>
 
-| 实体               | 内容                                                         | 与其他实体之间的关系 |
+| <span data-ttu-id="01079-128">实体</span><span class="sxs-lookup"><span data-stu-id="01079-128">Entity</span></span>               | <span data-ttu-id="01079-129">内容</span><span class="sxs-lookup"><span data-stu-id="01079-129">Contents</span></span>                                                         | <span data-ttu-id="01079-130">与其他实体之间的关系</span><span class="sxs-lookup"><span data-stu-id="01079-130">Relationships with other entities</span></span> |
 |----------------------|------------------------------------------------------------------|-----------------------------------|
-| 申请人            | 申请人、雇用的申请人、净雇用比率，以及成本          | 申请人姓名、公司、日历偏差、日期、地理位置、人口统计学、作业、媒体、招聘项目 |
-| 申请人姓名       | 申请人名字、姓氏和全名                   | 申请人、已雇用的申请人、已离职的申请人 |
-| 日历偏差      | 要切分的日历偏差报表                                | 申请人、已雇用的申请人、已离职的申请人 |
-| 公司              | 充当报表筛选依据的公司                                   | 申请人、已雇用的申请人、已离职的申请人 |
-| 日期                 | 天数、周数、月数和年数                                   | 申请人、已雇用的申请人、已离职的申请人 |
-| 人口统计数据         | 生日、性别、种族和婚姻状况         | 申请人、已雇用的申请人、已离职的申请人 |
-| 已雇用的申请人   | 申请人、表现、开始日期和申请人类型           | 公司、日历偏差、日期、地理位置、申请人姓名、雇用、绩效、作业、媒体、招聘项目 |
-| 雇用           | 开始日期、结束日期和转换日期                        | 申请人、已雇用的申请人、已离职的申请人 |
-| 地理位置  | 市，县，邮政编码和省/市/自治区                 | 申请人、已雇用的申请人、已离职的申请人 |
-| 作业                  | 功能，类型和标题                                        | 申请人、已雇用的申请人、已离职的申请人 |
-| 媒体                | 申请人来源                                             | 申请人、已雇用的申请人、已离职的申请人 |
-| 绩效          | 评级，描述和评级模型                            | 申请人、已雇用的申请人、已离职的申请人 |
-| 招聘项目  | 项目描述、项目状态和空缺                | 申请人、已雇用的申请人、已离职的申请人 |
-| 已离职的申请人 | 已离职的申请人、原因、表现和离职日期 | 公司、日历偏差、日期、地理位置、绩效、人口统计数据、雇用、媒体、招聘项目、申请人姓名 |
+| <span data-ttu-id="01079-131">申请人</span><span class="sxs-lookup"><span data-stu-id="01079-131">Applicant</span></span>            | <span data-ttu-id="01079-132">申请人、雇用的申请人、净雇用比率，以及成本</span><span class="sxs-lookup"><span data-stu-id="01079-132">Applicants, hired applicants, net hire ratio, and costs</span></span>          | <span data-ttu-id="01079-133">申请人姓名、公司、日历偏差、日期、地理位置、人口统计学、作业、媒体、招聘项目</span><span class="sxs-lookup"><span data-stu-id="01079-133">Applicant Name, Company, Calendar Offset, Date, Geographic Location, Demographics, Job, Media, Recruitment Project</span></span> |
+| <span data-ttu-id="01079-134">申请人姓名</span><span class="sxs-lookup"><span data-stu-id="01079-134">Applicant Name</span></span>       | <span data-ttu-id="01079-135">申请人名字、姓氏和全名</span><span class="sxs-lookup"><span data-stu-id="01079-135">Applicant first name, last name, and full name</span></span>                   | <span data-ttu-id="01079-136">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-136">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-137">日历偏差</span><span class="sxs-lookup"><span data-stu-id="01079-137">Calendar Offset</span></span>      | <span data-ttu-id="01079-138">要切分的日历偏差报表</span><span class="sxs-lookup"><span data-stu-id="01079-138">Calendar offsets to slice reports</span></span>                                | <span data-ttu-id="01079-139">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-139">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-140">公司</span><span class="sxs-lookup"><span data-stu-id="01079-140">Company</span></span>              | <span data-ttu-id="01079-141">充当报表筛选依据的公司</span><span class="sxs-lookup"><span data-stu-id="01079-141">Companies to filter reports by</span></span>                                   | <span data-ttu-id="01079-142">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-142">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-143">日期</span><span class="sxs-lookup"><span data-stu-id="01079-143">Date</span></span>                 | <span data-ttu-id="01079-144">天数、周数、月数和年数</span><span class="sxs-lookup"><span data-stu-id="01079-144">Days, weeks, months, and years</span></span>                                   | <span data-ttu-id="01079-145">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-145">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-146">人口统计数据</span><span class="sxs-lookup"><span data-stu-id="01079-146">Demographics</span></span>         | <span data-ttu-id="01079-147">生日、性别、种族和婚姻状况</span><span class="sxs-lookup"><span data-stu-id="01079-147">Date of birth, gender, ethnic origin, and marital status</span></span>         | <span data-ttu-id="01079-148">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-148">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-149">已雇用的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-149">Employed Applicant</span></span>   | <span data-ttu-id="01079-150">申请人、表现、开始日期和申请人类型</span><span class="sxs-lookup"><span data-stu-id="01079-150">Applicant, performance, start date, and applicant type</span></span>           | <span data-ttu-id="01079-151">公司、日历偏差、日期、地理位置、申请人姓名、雇用、绩效、作业、媒体、招聘项目</span><span class="sxs-lookup"><span data-stu-id="01079-151">Company, Calendar Offset, Date, Geographic Location, Applicant Name, Employment, Performance, Job, Media, Recruitment Project</span></span> |
+| <span data-ttu-id="01079-152">雇用</span><span class="sxs-lookup"><span data-stu-id="01079-152">Employment</span></span>           | <span data-ttu-id="01079-153">开始日期、结束日期和转换日期</span><span class="sxs-lookup"><span data-stu-id="01079-153">Start date, end date, and transition date</span></span>                        | <span data-ttu-id="01079-154">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-154">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-155">地理位置</span><span class="sxs-lookup"><span data-stu-id="01079-155">Geographic Location</span></span>  | <span data-ttu-id="01079-156">市，县，邮政编码和省/市/自治区</span><span class="sxs-lookup"><span data-stu-id="01079-156">City, county, postal code, and state or province</span></span>                 | <span data-ttu-id="01079-157">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-157">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-158">作业</span><span class="sxs-lookup"><span data-stu-id="01079-158">Job</span></span>                  | <span data-ttu-id="01079-159">功能，类型和标题</span><span class="sxs-lookup"><span data-stu-id="01079-159">Function, type, and title</span></span>                                        | <span data-ttu-id="01079-160">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-160">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-161">媒体</span><span class="sxs-lookup"><span data-stu-id="01079-161">Media</span></span>                | <span data-ttu-id="01079-162">申请人来源</span><span class="sxs-lookup"><span data-stu-id="01079-162">Source of applicants</span></span>                                             | <span data-ttu-id="01079-163">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-163">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-164">绩效</span><span class="sxs-lookup"><span data-stu-id="01079-164">Performance</span></span>          | <span data-ttu-id="01079-165">评级，描述和评级模型</span><span class="sxs-lookup"><span data-stu-id="01079-165">Rating, description, and rating model</span></span>                            | <span data-ttu-id="01079-166">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-166">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-167">招聘项目</span><span class="sxs-lookup"><span data-stu-id="01079-167">Recruitment Project</span></span>  | <span data-ttu-id="01079-168">项目描述、项目状态和空缺</span><span class="sxs-lookup"><span data-stu-id="01079-168">Project description, project status, and openings</span></span>                | <span data-ttu-id="01079-169">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-169">Applicant, Employed Applicant, Terminated Applicant</span></span> |
+| <span data-ttu-id="01079-170">已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="01079-170">Terminated Applicant</span></span> | <span data-ttu-id="01079-171">已离职的申请人、原因、表现和离职日期</span><span class="sxs-lookup"><span data-stu-id="01079-171">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="01079-172">公司、日历偏差、日期、地理位置、绩效、人口统计数据、雇用、媒体、招聘项目、申请人姓名</span><span class="sxs-lookup"><span data-stu-id="01079-172">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
 
-这些实体用于创建计算度量值。 然后，这些计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。 如果要在报表和仪表板中包含更多计算，可以从 Microsoft Dynamics Lifecycle Services (LCS) 下载 Recruiting.pbix 文件并修改。 此文件是用于创建内容的默认数据模型。 修改后，可以创建包含您已添加的信息的组织内容包和仪表板。
+<span data-ttu-id="01079-173">这些实体用于创建计算度量值。</span><span class="sxs-lookup"><span data-stu-id="01079-173">These entities were used to create calculated measures.</span></span> <span data-ttu-id="01079-174">然后，这些计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。</span><span class="sxs-lookup"><span data-stu-id="01079-174">These calculated measures are then used to calculate the key performance indicators (KPIs) and reports that are used in the content.</span></span> <span data-ttu-id="01079-175">如果要在报表和仪表板中包含更多计算，可以从 Microsoft Dynamics Lifecycle Services (LCS) 下载 Recruiting.pbix 文件并修改。</span><span class="sxs-lookup"><span data-stu-id="01079-175">If you want to include additional calculations on your reports and dashboard, you can download and modify the Recruiting.pbix file from Microsoft Dynamics Lifecycle Services (LCS).</span></span> <span data-ttu-id="01079-176">此文件是用于创建内容的默认数据模型。</span><span class="sxs-lookup"><span data-stu-id="01079-176">This file is the default data model that was used to create the content.</span></span> <span data-ttu-id="01079-177">修改后，可以创建包含您已添加的信息的组织内容包和仪表板。</span><span class="sxs-lookup"><span data-stu-id="01079-177">After you've made modifications, you can create an organizational content pack and dashboard that contain the information that you’ve added.</span></span>
 

@@ -16,177 +16,177 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7cdc02d147a0446d7e1f3c9a55304602774820bf
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c0d9636fe8a8d5230859da8fe557fe11a9513ba0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>针对电子申报 (ER) 创建从外部文件导入数据所需配置
+# <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a><span data-ttu-id="a223f-103">针对电子申报 (ER) 创建从外部文件导入数据所需配置</span><span class="sxs-lookup"><span data-stu-id="a223f-103">Create required configurations to import data from an external file for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入 Dynamics 365 for Finance and Operations Enterprise Edition 应用程序中。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成任务指南“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 可使用 USMF 数据集完成这些步骤。 还必须使用“电子申报概述”主题 (https://go.microsoft.com/fwlink/?linkid=852550) 中的链接下载以下文件并保存到本地：1099model.xml、1099format.xml、1099entries.xml、1099entries.xlsx。
+<span data-ttu-id="a223f-104">以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入 Dynamics 365 for Finance and Operations Enterprise Edition 应用程序中。</span><span class="sxs-lookup"><span data-stu-id="a223f-104">The following steps explain how a user in the System administrator or Electronic reporting developer role can design Electronic reporting (ER) configurations to import data in to the Dynamics 365 for Finance and Operations, Enterprise edition application from an external file.</span></span> <span data-ttu-id="a223f-105">在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成任务指南“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。</span><span class="sxs-lookup"><span data-stu-id="a223f-105">In this example, you will create the required ER configurations for the sample company, Litware, Inc. To complete these steps, you must first complete the steps in the Task guide, “ER Create a configuration provider and mark it as active.”</span></span> <span data-ttu-id="a223f-106">可使用 USMF 数据集完成这些步骤。</span><span class="sxs-lookup"><span data-stu-id="a223f-106">These steps can be completed using the USMF data set.</span></span> <span data-ttu-id="a223f-107">还必须使用“电子申报概述”主题 (https://go.microsoft.com/fwlink/?linkid=852550) 中的链接下载以下文件并保存到本地：1099model.xml、1099format.xml、1099entries.xml、1099entries.xlsx。</span><span class="sxs-lookup"><span data-stu-id="a223f-107">You must also download and save the following files locally using links from the Electronic reporting overview topic (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.</span></span>
 
-    * ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入 Dynamics 365 for Finance and Operations Enterprise Edition 中的表的过程。 首先，必须设计抽象数据模型和 ER 数据模型配置来表示要导入的数据。 接下来，需要定义要导入的文件的结构和将用于把数据从文件移植到抽象数据模型的方法。 必须为该抽象数据模型创建映射到设计的数据模型的 ER 格式配置。 然后，必须使用映射扩展数据模型，该映射介绍导入的数据如何作为抽象数据模型长期存在和如何在 Dynamics 365 for Finance and Operations Enterprise Edition 中用于更新表。  必须为 ER 数据模型配置追加一个新模型映射，该映射介绍如何将数据模型绑定到应用程序的目标。  
-    * 以下方案演示 ER 数据导入功能。 其中包括在外部跟踪，然后导入 Dynamics 365 for Finance and Operations Enterprise Edition，以便以后在 1099 的供应商结算中报告的供应商交易。   
+    * <span data-ttu-id="a223f-108">ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入 Dynamics 365 for Finance and Operations Enterprise Edition 中的表的过程。</span><span class="sxs-lookup"><span data-stu-id="a223f-108">ER offers business users the ability to configure the process of importing external data files to tables in Dynamics 365 for Finance and Operations, Enterprise edition in either .XML or .TXT format.</span></span> <span data-ttu-id="a223f-109">首先，必须设计抽象数据模型和 ER 数据模型配置来表示要导入的数据。</span><span class="sxs-lookup"><span data-stu-id="a223f-109">First, an abstract data model and an ER data model configuration must be designed to represent the data that you are importing.</span></span> <span data-ttu-id="a223f-110">接下来，需要定义要导入的文件的结构和将用于把数据从文件移植到抽象数据模型的方法。</span><span class="sxs-lookup"><span data-stu-id="a223f-110">Next, you need to define the structure of the file that you are importing and the method that you will use to port the data from the file to the abstract data model.</span></span> <span data-ttu-id="a223f-111">必须为该抽象数据模型创建映射到设计的数据模型的 ER 格式配置。</span><span class="sxs-lookup"><span data-stu-id="a223f-111">The ER format configuration that maps to the designed data model must be created for that abstract data model.</span></span> <span data-ttu-id="a223f-112">然后，必须使用映射扩展数据模型，该映射介绍导入的数据如何作为抽象数据模型长期存在和如何在 Dynamics 365 for Finance and Operations Enterprise Edition 中用于更新表。</span><span class="sxs-lookup"><span data-stu-id="a223f-112">Then, the data model configuration must be extended with a mapping that describes how the imported data is persisted as abstract data model data and how it is used to update tables in Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>  <span data-ttu-id="a223f-113">必须为 ER 数据模型配置追加一个新模型映射，该映射介绍如何将数据模型绑定到应用程序的目标。</span><span class="sxs-lookup"><span data-stu-id="a223f-113">The ER data model configuration must be appended with a new model mapping that describes the binding of the data model to the application’s destinations.</span></span>  
+    * <span data-ttu-id="a223f-114">以下方案演示 ER 数据导入功能。</span><span class="sxs-lookup"><span data-stu-id="a223f-114">The following scenario shows the ER data import capabilities.</span></span> <span data-ttu-id="a223f-115">其中包括在外部跟踪，然后导入 Dynamics 365 for Finance and Operations Enterprise Edition，以便以后在 1099 的供应商结算中报告的供应商交易。</span><span class="sxs-lookup"><span data-stu-id="a223f-115">This includes vendor transactions that are tracked externally and then imported in to Dynamics 365 for Finance and Operations, Enterprise edition to be reported later in Vendor’s settlement for 1099’s.</span></span>   
 
-## <a name="add-a-new-er-model-configuration"></a>添加新 ER 模型配置
-1. 转到“组织管理”>“工作区”>“电子申报”。
-    * 验证示例公司“Litware 公司”的配置提供程序 可用且标记为有效。 如果没有看到此配置提供程序，您必须首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。   
-2. 单击“申报配置”。
-    * 加载前面下载的 1099model.xml 文件，而不是创建新模型。 此文件中包含供应商的交易的自定义数据模型。 此数据模型映射到 AOT 数据实体中的 Dynamics 365 for Finance and Operations Enterprise Edition 数据组件。   
-3. 单击“交换”。
-4. 单击“从 XML 文件加载”。
-    * 单击“浏览”并导航到前面下载的 1099model.xml 文件。  
-5. 单击“确定”。
-6. 在树结构中，选择“1099 付款模型”。
+## <a name="add-a-new-er-model-configuration"></a><span data-ttu-id="a223f-116">添加新 ER 模型配置</span><span class="sxs-lookup"><span data-stu-id="a223f-116">Add a new ER model configuration</span></span>
+1. <span data-ttu-id="a223f-117">转到“组织管理”>“工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="a223f-117">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="a223f-118">验证示例公司“Litware 公司”的配置提供程序</span><span class="sxs-lookup"><span data-stu-id="a223f-118">Verify that the configuration provider for sample company ‘Litware, Inc.’</span></span> <span data-ttu-id="a223f-119">可用且标记为有效。</span><span class="sxs-lookup"><span data-stu-id="a223f-119">is available and marked as active.</span></span> <span data-ttu-id="a223f-120">如果没有看到此配置提供程序，您必须首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="a223f-120">If you don’t see this configuration provider, you must first complete the steps in the procedure, “Create a configuration provider and mark it as active.”</span></span>   
+2. <span data-ttu-id="a223f-121">单击“申报配置”。</span><span class="sxs-lookup"><span data-stu-id="a223f-121">Click Reporting configurations.</span></span>
+    * <span data-ttu-id="a223f-122">加载前面下载的 1099model.xml 文件，而不是创建新模型。</span><span class="sxs-lookup"><span data-stu-id="a223f-122">Instead of creating of a new model to support data import, load the file, 1099model.xml, that you previously downloaded.</span></span> <span data-ttu-id="a223f-123">此文件中包含供应商的交易的自定义数据模型。</span><span class="sxs-lookup"><span data-stu-id="a223f-123">This file contains the custom data model of vendors’ transactions.</span></span> <span data-ttu-id="a223f-124">此数据模型映射到 AOT 数据实体中的 Dynamics 365 for Finance and Operations Enterprise Edition 数据组件。</span><span class="sxs-lookup"><span data-stu-id="a223f-124">This data model is mapped to the Dynamics 365 for Finance and Operations, Enterprise edition data components that are in the AOT data entity.</span></span>   
+3. <span data-ttu-id="a223f-125">单击“交换”。</span><span class="sxs-lookup"><span data-stu-id="a223f-125">Click Exchange.</span></span>
+4. <span data-ttu-id="a223f-126">单击“从 XML 文件加载”。</span><span class="sxs-lookup"><span data-stu-id="a223f-126">Click Load from XML file.</span></span>
+    * <span data-ttu-id="a223f-127">单击“浏览”并导航到前面下载的 1099model.xml 文件。</span><span class="sxs-lookup"><span data-stu-id="a223f-127">Click Browse and navigate to the 1099model.xml file that you previously downloaded.</span></span>  
+5. <span data-ttu-id="a223f-128">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="a223f-128">Click OK.</span></span>
+6. <span data-ttu-id="a223f-129">在树结构中，选择“1099 付款模型”。</span><span class="sxs-lookup"><span data-stu-id="a223f-129">In the tree, select '1099 Payments model'.</span></span>
 
-## <a name="review-data-model-settings"></a>检查数据模型设置
-1. 单击“设计器”。
-    * 此模型设计为从业务角度表示供应商的交易，并且这些交易独立于在 Dynamics 365 for Finance and Operations Enterprise Edition 中的实施。   
-2. 在树结构中，展开“1099-MISC”。
-3. 在树结构中，选择“1099-MISC\交易”。
-4. 在树结构中，展开“1099-MISC\交易”。
-    * 此模型的“交易”元素表示单笔交易。 子元素则用于指定所需的详细信息，如每笔交易的供应商帐户和交易日期。   
-5. 关闭该页面。
+## <a name="review-data-model-settings"></a><span data-ttu-id="a223f-130">检查数据模型设置</span><span class="sxs-lookup"><span data-stu-id="a223f-130">Review data model settings</span></span>
+1. <span data-ttu-id="a223f-131">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="a223f-131">Click Designer.</span></span>
+    * <span data-ttu-id="a223f-132">此模型设计为从业务角度表示供应商的交易，并且这些交易独立于在 Dynamics 365 for Finance and Operations Enterprise Edition 中的实施。</span><span class="sxs-lookup"><span data-stu-id="a223f-132">This model is designed to represent vendors’ transactions from the business standpoint and are separate from the implementation in Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>   
+2. <span data-ttu-id="a223f-133">在树结构中，展开“1099-MISC”。</span><span class="sxs-lookup"><span data-stu-id="a223f-133">In the tree, expand '1099-MISC'.</span></span>
+3. <span data-ttu-id="a223f-134">在树结构中，选择“1099-MISC\交易”。</span><span class="sxs-lookup"><span data-stu-id="a223f-134">In the tree, select '1099-MISC\Transactions'.</span></span>
+4. <span data-ttu-id="a223f-135">在树结构中，展开“1099-MISC\交易”。</span><span class="sxs-lookup"><span data-stu-id="a223f-135">In the tree, expand '1099-MISC\Transactions'.</span></span>
+    * <span data-ttu-id="a223f-136">此模型的“交易”元素表示单笔交易。</span><span class="sxs-lookup"><span data-stu-id="a223f-136">The Transactions element of this model represents individual transactions.</span></span> <span data-ttu-id="a223f-137">子元素则用于指定所需的详细信息，如每笔交易的供应商帐户和交易日期。</span><span class="sxs-lookup"><span data-stu-id="a223f-137">The child elements are used to specify required details, such as vendor account and transaction date, for each transaction.</span></span>   
+5. <span data-ttu-id="a223f-138">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-138">Close the page.</span></span>
 
-## <a name="add-a-new-er-format-configuration-that-supports-data-import"></a>添加支持导入数据的新 ER 格式配置
-    * 此子任务中的步骤演示可如何创建新格式配置来管理数据从外部文件的导入。   
-1. 单击“创建配置”，以打开下拉对话框。
-2. 在“新建”字段中，输入“基于数据模型 1099 付款模型的格式”。
-3. 在“支持数据导入”字段中选择"是"。
-4. 按 ESC 键关闭此页。
-    * 加载前面下载的文件 1099format.xml 文件，而不是创建新格式来支持数据导入。 此文件中包含为要导入的文件定义的结构和该结构到供应商交易的自定义数据模型的映射。   
-5. 单击“交换”。
-6. 单击“从 XML 文件加载”。
-    * 单击“浏览”并导航到前面下载的 1099format.xml 文件。  
-7. 单击“确定”。
-8. 在树结构中，展开“1099 付款模型”。
-9. 在树结构中，选择“”1099 付款模型\用于导入供应商的交易的格式“。
+## <a name="add-a-new-er-format-configuration-that-supports-data-import"></a><span data-ttu-id="a223f-139">添加支持导入数据的新 ER 格式配置</span><span class="sxs-lookup"><span data-stu-id="a223f-139">Add a new ER format configuration that supports data import</span></span>
+    * <span data-ttu-id="a223f-140">此子任务中的步骤演示可如何创建新格式配置来管理数据从外部文件的导入。</span><span class="sxs-lookup"><span data-stu-id="a223f-140">The steps in this subtask show you how a new format configuration can be created to manage data import from external files.</span></span>   
+1. <span data-ttu-id="a223f-141">单击“创建配置”，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="a223f-141">Click Create configuration to open the drop dialog.</span></span>
+2. <span data-ttu-id="a223f-142">在“新建”字段中，输入“基于数据模型 1099 付款模型的格式”。</span><span class="sxs-lookup"><span data-stu-id="a223f-142">In the New field, enter 'Format based on data model 1099 Payments model'.</span></span>
+3. <span data-ttu-id="a223f-143">在“支持数据导入”字段中选择"是"。</span><span class="sxs-lookup"><span data-stu-id="a223f-143">Select Yes in the Supports data import field.</span></span>
+4. <span data-ttu-id="a223f-144">按 ESC 键关闭此页。</span><span class="sxs-lookup"><span data-stu-id="a223f-144">Press ESC key to close this page.</span></span>
+    * <span data-ttu-id="a223f-145">加载前面下载的文件 1099format.xml 文件，而不是创建新格式来支持数据导入。</span><span class="sxs-lookup"><span data-stu-id="a223f-145">Instead of creating a new format to support data import, load the 1099format.xml file that you previously downloaded.</span></span> <span data-ttu-id="a223f-146">此文件中包含为要导入的文件定义的结构和该结构到供应商交易的自定义数据模型的映射。</span><span class="sxs-lookup"><span data-stu-id="a223f-146">This file contains the defined structure of the file you are importing and the mapping of the structure to the custom data model of vendors’ transactions.</span></span>   
+5. <span data-ttu-id="a223f-147">单击“交换”。</span><span class="sxs-lookup"><span data-stu-id="a223f-147">Click Exchange.</span></span>
+6. <span data-ttu-id="a223f-148">单击“从 XML 文件加载”。</span><span class="sxs-lookup"><span data-stu-id="a223f-148">Click Load from XML file.</span></span>
+    * <span data-ttu-id="a223f-149">单击“浏览”并导航到前面下载的 1099format.xml 文件。</span><span class="sxs-lookup"><span data-stu-id="a223f-149">Click Browse and navigate to the 1099format.xml file that you previously downloaded.</span></span>  
+7. <span data-ttu-id="a223f-150">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="a223f-150">Click OK.</span></span>
+8. <span data-ttu-id="a223f-151">在树结构中，展开“1099 付款模型”。</span><span class="sxs-lookup"><span data-stu-id="a223f-151">In the tree, expand '1099 Payments model'.</span></span>
+9. <span data-ttu-id="a223f-152">在树结构中，选择“”1099 付款模型\用于导入供应商的交易的格式“。</span><span class="sxs-lookup"><span data-stu-id="a223f-152">In the tree, select '1099 Payments model\Format for importing vendors' transactions'.</span></span>
 
-## <a name="review-format-settings"></a>检查格式设置
-1. 单击“设计器”。
-2. 打开”显示详细信息“。
-3. 单击”展开/折叠“。
-4. 单击”展开/折叠“。
-    * 设计的格式表示外部文件的预期结构。 此文件必须为 XML 格式且具有结算根元素。 每个供应商的交易通过交易元素表示，交易元素定义为拥有零对多多重性。 这意味着传入的文件可能包含从零到多笔交易的任何位置。 “交易”元素的嵌套元素表示单笔交易的属性。 请注意，除国家/地区外的所有属性都标记为必需项，也就是说导入文件中必须包含这些属性。   
+## <a name="review-format-settings"></a><span data-ttu-id="a223f-153">检查格式设置</span><span class="sxs-lookup"><span data-stu-id="a223f-153">Review format settings</span></span>
+1. <span data-ttu-id="a223f-154">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="a223f-154">Click Designer.</span></span>
+2. <span data-ttu-id="a223f-155">打开”显示详细信息“。</span><span class="sxs-lookup"><span data-stu-id="a223f-155">Toggle 'Show details' on.</span></span>
+3. <span data-ttu-id="a223f-156">单击”展开/折叠“。</span><span class="sxs-lookup"><span data-stu-id="a223f-156">Click Expand/collapse.</span></span>
+4. <span data-ttu-id="a223f-157">单击”展开/折叠“。</span><span class="sxs-lookup"><span data-stu-id="a223f-157">Click Expand/collapse.</span></span>
+    * <span data-ttu-id="a223f-158">设计的格式表示外部文件的预期结构。</span><span class="sxs-lookup"><span data-stu-id="a223f-158">The designed format represents the expected structure of the external file.</span></span> <span data-ttu-id="a223f-159">此文件必须为 XML 格式且具有结算根元素。</span><span class="sxs-lookup"><span data-stu-id="a223f-159">This file must be in XML format and have the settlement root element.</span></span> <span data-ttu-id="a223f-160">每个供应商的交易通过交易元素表示，交易元素定义为拥有零对多多重性。</span><span class="sxs-lookup"><span data-stu-id="a223f-160">Each vendor’s transaction is represented by the transaction element that is defined as having zero-to-many multiplicity.</span></span> <span data-ttu-id="a223f-161">这意味着传入的文件可能包含从零到多笔交易的任何位置。</span><span class="sxs-lookup"><span data-stu-id="a223f-161">This means that the incoming file may contain anywhere from zero to multiple transactions.</span></span> <span data-ttu-id="a223f-162">“交易”元素的嵌套元素表示单笔交易的属性。</span><span class="sxs-lookup"><span data-stu-id="a223f-162">Nested elements of the ‘transaction’ element represent a single transaction’s attributes.</span></span> <span data-ttu-id="a223f-163">请注意，除国家/地区外的所有属性都标记为必需项，也就是说导入文件中必须包含这些属性。</span><span class="sxs-lookup"><span data-stu-id="a223f-163">Note that all attributes, except country, are marked as mandatory, meaning that it is required to have them in the importing file.</span></span>   
 
-## <a name="review-the-settings-of-the-format-mapping-to-the-data-model"></a>检查格式到数据模型的映射的设置
-1. 单击”将格式映射到模型“。
-    * “对于导入供应商的交易”这一映射中包含从传入的 XML 文件到所选自定义数据模型部分的数据传输规则，该规则通过选择 1099-MISC 定义来定义。  
-2. 单击“设计器”。
-3. 打开”显示详细信息“。
-4. 在树形图中，展开“格式: 记录”。
-5. 在树结构中，选择“格式: 记录”。
-    * 请注意，设计的格式在此处表示为数据源组件。  
-6. 在树结构中，展开”格式: 记录\*结算: XML 元素 1..1 (结算): 记录“。
-7. 在树结构中，展开”格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表“。
-8. 在树结构中，展开“格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表\*供应商: XML 元素 1..1 (供应商): 记录”。
-9. 在树结构中，展开“格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表\*国家/地区: XML 元素 0..1 (国家/地区): 记录”。
-10. 在树结构中，选择“格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表\*供应商: XML 元素 1..1 (供应商): 记录”。
-    * 请注意，在预定义的“格式”数据源组件中，必需格式元素和可选格式元素的表示形式不同。  
-11. 在树结构中，展开“交易: 记录列表= format.settlement.'$enumerated'”。
-    * 请注意，用于定义所导入文件的结构的格式的元素绑定到自定义数据模型的元素。 所导入 XML 文件的内容将在运行时在现有数据模型中根据这些绑定排序。 请注意国家/地区元素的绑定。 对于无此类元素的传入文件中的任何交易元素，将在数据模型中填充默认国家/杜集区代码“USA”。  
-12. 单击“验证”选项卡。
-    * 此格式映射中可以包含用户定义的逻辑，用于从业务角度验证导入的数据的精确性。 例如，将根据此设置为所导入文件中未定义国家/地区代码的任何交易在信息日志中生成一条警告消息，通知用户该情况，并指示交易的序列号。  
-13. 关闭该页面。
+## <a name="review-the-settings-of-the-format-mapping-to-the-data-model"></a><span data-ttu-id="a223f-164">检查格式到数据模型的映射的设置</span><span class="sxs-lookup"><span data-stu-id="a223f-164">Review the settings of the format mapping to the data model</span></span>
+1. <span data-ttu-id="a223f-165">单击”将格式映射到模型“。</span><span class="sxs-lookup"><span data-stu-id="a223f-165">Click Map format to model.</span></span>
+    * <span data-ttu-id="a223f-166">“对于导入供应商的交易”这一映射中包含从传入的 XML 文件到所选自定义数据模型部分的数据传输规则，该规则通过选择 1099-MISC 定义来定义。</span><span class="sxs-lookup"><span data-stu-id="a223f-166">The mapping ‘For importing vendors' transactions’ contains the data transfer rules from the incoming XML file to the selected part of the custom data model, which is defined by selecting the1099-MISC definition.</span></span>  
+2. <span data-ttu-id="a223f-167">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="a223f-167">Click Designer.</span></span>
+3. <span data-ttu-id="a223f-168">打开”显示详细信息“。</span><span class="sxs-lookup"><span data-stu-id="a223f-168">Toggle 'Show details' on.</span></span>
+4. <span data-ttu-id="a223f-169">在树形图中，展开“格式: 记录”。</span><span class="sxs-lookup"><span data-stu-id="a223f-169">In the tree, expand 'format: Record'.</span></span>
+5. <span data-ttu-id="a223f-170">在树结构中，选择“格式: 记录”。</span><span class="sxs-lookup"><span data-stu-id="a223f-170">In the tree, select 'format: Record'.</span></span>
+    * <span data-ttu-id="a223f-171">请注意，设计的格式在此处表示为数据源组件。</span><span class="sxs-lookup"><span data-stu-id="a223f-171">Note that the designed format is presented here as a data source component.</span></span>  
+6. <span data-ttu-id="a223f-172">在树结构中，展开”格式: 记录\*结算: XML 元素 1..1 (结算): 记录“。</span><span class="sxs-lookup"><span data-stu-id="a223f-172">In the tree, expand 'format: Record\*settlement: XML Element 1..1 (settlement): Record'.</span></span>
+7. <span data-ttu-id="a223f-173">在树结构中，展开”格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表“。</span><span class="sxs-lookup"><span data-stu-id="a223f-173">In the tree, expand 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list'.</span></span>
+8. <span data-ttu-id="a223f-174">在树结构中，展开“格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表\*供应商: XML 元素 1..1 (供应商): 记录”。</span><span class="sxs-lookup"><span data-stu-id="a223f-174">In the tree, expand 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record'.</span></span>
+9. <span data-ttu-id="a223f-175">在树结构中，展开“格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表\*国家/地区: XML 元素 0..1 (国家/地区): 记录”。</span><span class="sxs-lookup"><span data-stu-id="a223f-175">In the tree, expand 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\country: XML Element 0..1 (country): Record'.</span></span>
+10. <span data-ttu-id="a223f-176">在树结构中，选择“格式: 记录\*结算: XML 元素 1..1 (结算): 记录\交易: XML 元素 0..* (交易): 记录列表\*供应商: XML 元素 1..1 (供应商): 记录”。</span><span class="sxs-lookup"><span data-stu-id="a223f-176">In the tree, select 'format: Record\*settlement: XML Element 1..1 (settlement): Record\transaction: XML Element 0..* (transaction): Record list\*vendor: XML Element 1..1 (vendor): Record'.</span></span>
+    * <span data-ttu-id="a223f-177">请注意，在预定义的“格式”数据源组件中，必需格式元素和可选格式元素的表示形式不同。</span><span class="sxs-lookup"><span data-stu-id="a223f-177">Note that the presentation of mandatory and optional format elements is different in the predefined ‘format’ data source component.</span></span>  
+11. <span data-ttu-id="a223f-178">在树结构中，展开“交易: 记录列表= format.settlement.'$enumerated'”。</span><span class="sxs-lookup"><span data-stu-id="a223f-178">In the tree, expand 'Transactions: Record list= format.settlement.'$enumerated''.</span></span>
+    * <span data-ttu-id="a223f-179">请注意，用于定义所导入文件的结构的格式的元素绑定到自定义数据模型的元素。</span><span class="sxs-lookup"><span data-stu-id="a223f-179">Note that the elements of the format that defines the structure of the imported file are bound to the elements of the custom data model.</span></span> <span data-ttu-id="a223f-180">所导入 XML 文件的内容将在运行时在现有数据模型中根据这些绑定排序。</span><span class="sxs-lookup"><span data-stu-id="a223f-180">Based on these bindings, the content of the imported XML file will be stored at run-time in the existing data model.</span></span> <span data-ttu-id="a223f-181">请注意国家/地区元素的绑定。</span><span class="sxs-lookup"><span data-stu-id="a223f-181">Pay attention to the binding of the country element.</span></span> <span data-ttu-id="a223f-182">对于无此类元素的传入文件中的任何交易元素，将在数据模型中填充默认国家/杜集区代码“USA”。</span><span class="sxs-lookup"><span data-stu-id="a223f-182">For any transaction element in the incoming file that has no such element, the default country code ‘USA’ will be populated in the data model.</span></span>  
+12. <span data-ttu-id="a223f-183">单击“验证”选项卡。</span><span class="sxs-lookup"><span data-stu-id="a223f-183">Click the Validations tab.</span></span>
+    * <span data-ttu-id="a223f-184">此格式映射中可以包含用户定义的逻辑，用于从业务角度验证导入的数据的精确性。</span><span class="sxs-lookup"><span data-stu-id="a223f-184">This format mapping may contain user-defined logic to validate the accuracy of the imported data from a business standpoint.</span></span> <span data-ttu-id="a223f-185">例如，将根据此设置为所导入文件中未定义国家/地区代码的任何交易在信息日志中生成一条警告消息，通知用户该情况，并指示交易的序列号。</span><span class="sxs-lookup"><span data-stu-id="a223f-185">For example, based on the setting, for any transaction in the importing file without a defined country code, a warning message will be generated in the Infolog informing the user about the case and indicating the transaction’s sequence number.</span></span>  
+13. <span data-ttu-id="a223f-186">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-186">Close the page.</span></span>
 
-## <a name="run-the-format-mapping-to-the-data-model"></a>运行格式到数据模型的映射
-    * 请为测试目的执行此格式映射。 使用前面下载的 1099entries.xml 文件。 可以从用于管理供应商交易的 1099entries.xlsx 工作簿导出此文件。 生成的输出将从所选 XML 文件导入，并在实际导入时填充自定义数据模型。  
-1. 单击“运行”。
-    * 单击“浏览”并导航到前面下载的 1099entries.xml 文件。  
-2. 单击“确定”。
-    * 请注意关于导入的文件中某笔交易缺少国家/地区代码的警告消息。  
-    * 检查 XML 格式的输出，该输出表示已从所选文件导入并移植到数据模型的数据。   
-3. 关闭该页面。
-4. 关闭该页面。
+## <a name="run-the-format-mapping-to-the-data-model"></a><span data-ttu-id="a223f-187">运行格式到数据模型的映射</span><span class="sxs-lookup"><span data-stu-id="a223f-187">Run the format mapping to the data model</span></span>
+    * <span data-ttu-id="a223f-188">请为测试目的执行此格式映射。</span><span class="sxs-lookup"><span data-stu-id="a223f-188">Execute this format mapping for testing purposes.</span></span> <span data-ttu-id="a223f-189">使用前面下载的 1099entries.xml 文件。</span><span class="sxs-lookup"><span data-stu-id="a223f-189">Use the file 1099entries.xml that you previously downloaded.</span></span> <span data-ttu-id="a223f-190">可以从用于管理供应商交易的 1099entries.xlsx 工作簿导出此文件。</span><span class="sxs-lookup"><span data-stu-id="a223f-190">You can export this file from the 1099entries.xlsx workbook that is used to manage vendor transactions.</span></span> <span data-ttu-id="a223f-191">生成的输出将从所选 XML 文件导入，并在实际导入时填充自定义数据模型。</span><span class="sxs-lookup"><span data-stu-id="a223f-191">The generated output will be imported from the selected XML file and populate the custom data model at real import.</span></span>  
+1. <span data-ttu-id="a223f-192">单击“运行”。</span><span class="sxs-lookup"><span data-stu-id="a223f-192">Click Run.</span></span>
+    * <span data-ttu-id="a223f-193">单击“浏览”并导航到前面下载的 1099entries.xml 文件。</span><span class="sxs-lookup"><span data-stu-id="a223f-193">Click Browse and navigate to the 1099entries.xml file that you previously downloaded.</span></span>  
+2. <span data-ttu-id="a223f-194">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="a223f-194">Click OK.</span></span>
+    * <span data-ttu-id="a223f-195">请注意关于导入的文件中某笔交易缺少国家/地区代码的警告消息。</span><span class="sxs-lookup"><span data-stu-id="a223f-195">Note the warning message about a missing country code for a transaction in the imported file.</span></span>  
+    * <span data-ttu-id="a223f-196">检查 XML 格式的输出，该输出表示已从所选文件导入并移植到数据模型的数据。</span><span class="sxs-lookup"><span data-stu-id="a223f-196">Review the output in XML format, which represents the data that has been imported from the selected file and ported to the data model.</span></span>   
+3. <span data-ttu-id="a223f-197">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-197">Close the page.</span></span>
+4. <span data-ttu-id="a223f-198">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-198">Close the page.</span></span>
 
-## <a name="review-the-settings-for-the-model-mapping-to-the-destinations"></a>检查模型到目标的映射的设置
-1. 在树结构中，选择“1099 付款模型”。
-2. 单击“设计器”。
-3. 单击“映射模型到数据源”。
-    * 已为“对于 1099 手动交易导入”这一映射定义了“截止目标”方向类型。 这意味着输入它是为了支持数据导入，并且其中包含有关导入并以抽象数据模型数据的形式长期存在的外部文件如何用于填充 Dynamics 365 for Finance and Operations Enterprise Edition 应用程序中的表的规则的设置。  
-4. 单击“设计器”。
-5. 在树结构中，展开“模型: 数据模型 1099 付款模型”。
-6. 在树结构中，展开“模型: 数据模型 1099 付款模型\交易: 记录列表”。
-    * 请注意，设计的模型在此处表示为数据源元素。 在运行时，其中将包含从外部文件导入的数据。 添加了若干表来充当数据源元素，以便确保导入的数据与当前应用程序的数据一致，包括导入交易供应商帐户是否在系统中可用，导入国家/和省/直辖市/自治州代码的组合是否存在等。  
-7. 在树结构中，选择“模型: 数据模型 1099 付款模型\交易: 记录列表\$failed: 计算字段 = IF(OR(ISEMPTY(model.Transactions.'$refs'.vendor), ISEMPTY(model.Transactions.'$refs'.vendor1099), ISEMPTY(model.Transactions.'$refs'.box1099), ISEMPTY(model.Transactions.'$refs'.country), ISEMPTY(model.Transactions.'$refs'.state), ISEMPTY(model.Transactions.'$refs'.location)), true, false): Boolean”。
-8. 单击“编辑”。
-9. 单击“编辑公式”。
-    * 当导入的单笔交易至少一项验证失败，数据源属性“$failed”将把该交易标记为失败。  
-10. 关闭该页面。
-11. 单击“取消”。
-12. 在树结构中，选择“tax1099trans: 表 'VendSettlementTax1099' 记录= model.Validated“。
-13. 单击”编辑目标“。
-    * 添加此 ER 目标是为了指定导入的数据将如何更新应用程序表。 在此案例中，已选择了数据表 VendSettlementTax1099。 由于已选择了记录操作插入，所以将把导入的交易插入到表 VendSettlementTax1099 中。 请注意，一个模型映射中可以包含多个目标。 这意味着导入的数据可用于一次更新应用程序的多个表。 表、视图和数据实体可用作 ER 目标。   
-    * 如果将从 Dynamics 365 for Finance and Operations Enterprise Edition 应用程序中专门为此操作设计的某个点（如按钮或菜单项）调用映射，应将 ER 目标标记为集成点。 在此示例中，为 ERTableDestination#VendSettlementTax1099 点。  
-14. 单击“取消”。
-15. 单击“全部显示”。
-16. 单击”只显示映射的“。
-17. 在树结构中，展开“tax1099trans: 表 'VendSettlementTax1099' 记录= model.Validated“。
-    * 请注意，仅包含已验证交易的数据源元素绑定到创建的目标。 您可以筛选导入的交易，以便跳过与应用程序的数据不兼容的交易。  
-18. 在树结构中，选择“failed: 表 'VendSettlementTax1099Entity' 记录 = model.Failed“。
-19. 单击“验证”选项卡。
-    * 此模型映射中可以包含用户定义的逻辑，用于验证从现有应用程序数据导入的数据的正确性。 例如，将根据现有设置为位于所导入文件中但在系统中不存在的任何交易生成一条警告消息，通知用户并指示不正确的供应商帐户代码。  
-    * 请注意，“验证后操作”选项可用于各项验证后，以指定是继续还是停止导入过程，以及可以保留还是回滚已执行的插入/更新。  
-20. 单击”只显示映射的“。
-21. 单击“全部显示”。
-22. 关闭该页面。
-    * 执行此模型映射以测试设计的格式和模型映射。 使用文件 1099entries.xml。 将把所选文件中的数据导入系统。  
-23. 单击“运行”。
-    * 请注意，此对话框中包含有关必须用于解析所导入文件，然后将数据移植到数据模型的格式映射的更多问题。 这是因为现在只有一种格式在使用此模型，这种格式标记为已设计是为了支持数据导入。  
-    * 定义凭证 ID 以区分导入的交易和可能已手动输入或导入的其他交易。  
-24. 在“输入凭证 ID”字段中，键入“IMPORT-001”。
-    * 浏览以找到“1099entries.xml”文件。  
-25. 单击“确定”。
-    * 所生成警告的列表提供有关错误供应商帐户、错误税 1099 栏代码、缺少的国家/地区代码等的信息。请将此警告列表与执行 XML 文件中包含的内容比较。  
-26. 关闭该页面。
-27. 关闭该页面。
-28. 关闭该页面。
-29. 关闭该页面。
-30. 转至“应付帐款 > 定期任务 > 1099 税 > 用于 1099 的供应商结算”。
-    * 此窗体显示根据所导入交易创建的 Tax1099Summary 表中的累计交易。  
-31. 在“开始日期”字段中，将日期设置为“2000-01-01”。
-32. 单击“手动 1099 交易记录”。
-    * 此窗体中包含手动添加的交易和我们刚才导入的交易的列表。  
-33. 打开凭证列筛选器。
-34. 使用 "开头为" 筛选器运算符在 "凭证" 字段上输入筛选器值 "IMPORT-001"。
+## <a name="review-the-settings-for-the-model-mapping-to-the-destinations"></a><span data-ttu-id="a223f-199">检查模型到目标的映射的设置</span><span class="sxs-lookup"><span data-stu-id="a223f-199">Review the settings for the model mapping to the destinations</span></span>
+1. <span data-ttu-id="a223f-200">在树结构中，选择“1099 付款模型”。</span><span class="sxs-lookup"><span data-stu-id="a223f-200">In the tree, select '1099 Payments model'.</span></span>
+2. <span data-ttu-id="a223f-201">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="a223f-201">Click Designer.</span></span>
+3. <span data-ttu-id="a223f-202">单击“映射模型到数据源”。</span><span class="sxs-lookup"><span data-stu-id="a223f-202">Click Map model to datasource.</span></span>
+    * <span data-ttu-id="a223f-203">已为“对于 1099 手动交易导入”这一映射定义了“截止目标”方向类型。</span><span class="sxs-lookup"><span data-stu-id="a223f-203">The mapping For 1099 manual transactions import has been defined with the To destination direction type.</span></span> <span data-ttu-id="a223f-204">这意味着输入它是为了支持数据导入，并且其中包含有关导入并以抽象数据模型数据的形式长期存在的外部文件如何用于填充 Dynamics 365 for Finance and Operations Enterprise Edition 应用程序中的表的规则的设置。</span><span class="sxs-lookup"><span data-stu-id="a223f-204">This means that it has been entered to support data import and contains the setting of rules defining how the imported external file and persisted as abstract data model data is used to update tables in the Dynamics 365 for Finance and Operations, Enterprise edition application.</span></span>  
+4. <span data-ttu-id="a223f-205">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="a223f-205">Click Designer.</span></span>
+5. <span data-ttu-id="a223f-206">在树结构中，展开“模型: 数据模型 1099 付款模型”。</span><span class="sxs-lookup"><span data-stu-id="a223f-206">In the tree, expand 'model: Data model 1099 Payments model'.</span></span>
+6. <span data-ttu-id="a223f-207">在树结构中，展开“模型: 数据模型 1099 付款模型\交易: 记录列表”。</span><span class="sxs-lookup"><span data-stu-id="a223f-207">In the tree, expand 'model: Data model 1099 Payments model\Transactions: Record list'.</span></span>
+    * <span data-ttu-id="a223f-208">请注意，设计的模型在此处表示为数据源元素。</span><span class="sxs-lookup"><span data-stu-id="a223f-208">Note that the designed model is presented here as a data source element.</span></span> <span data-ttu-id="a223f-209">在运行时，其中将包含从外部文件导入的数据。</span><span class="sxs-lookup"><span data-stu-id="a223f-209">At runtime, it will contain the data that is imported from the external file.</span></span> <span data-ttu-id="a223f-210">添加了若干表来充当数据源元素，以便确保导入的数据与当前应用程序的数据一致，包括导入交易供应商帐户是否在系统中可用，导入国家/和省/直辖市/自治州代码的组合是否存在等。</span><span class="sxs-lookup"><span data-stu-id="a223f-210">Several tables were added as data source elements to ensure that the imported data is compliant with the data of the current application, including whether the importing transaction vendor account is available in the system, whether the combination of the importing country and state codes exists, etc.</span></span>  
+7. <span data-ttu-id="a223f-211">在树结构中，选择“模型: 数据模型 1099 付款模型\交易: 记录列表\$failed: 计算字段 = IF(OR(ISEMPTY(model.Transactions.'$refs'.vendor), ISEMPTY(model.Transactions.'$refs'.vendor1099), ISEMPTY(model.Transactions.'$refs'.box1099), ISEMPTY(model.Transactions.'$refs'.country), ISEMPTY(model.Transactions.'$refs'.state), ISEMPTY(model.Transactions.'$refs'.location)), true, false): Boolean”。</span><span class="sxs-lookup"><span data-stu-id="a223f-211">In the tree, select 'model: Data model 1099 Payments model\Transactions: Record list\$failed: Calculated field = IF(OR(ISEMPTY(model.Transactions.'$refs'.vendor), ISEMPTY(model.Transactions.'$refs'.vendor1099), ISEMPTY(model.Transactions.'$refs'.box1099), ISEMPTY(model.Transactions.'$refs'.country), ISEMPTY(model.Transactions.'$refs'.state), ISEMPTY(model.Transactions.'$refs'.location)), true, false): Boolean'.</span></span>
+8. <span data-ttu-id="a223f-212">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="a223f-212">Click Edit.</span></span>
+9. <span data-ttu-id="a223f-213">单击“编辑公式”。</span><span class="sxs-lookup"><span data-stu-id="a223f-213">Click Edit formula.</span></span>
+    * <span data-ttu-id="a223f-214">当导入的单笔交易至少一项验证失败，数据源属性“$failed”将把该交易标记为失败。</span><span class="sxs-lookup"><span data-stu-id="a223f-214">When at least one validation fails for a single imported transaction, this transaction will be marked as failed by the data source attribute ‘$failed’.</span></span>  
+10. <span data-ttu-id="a223f-215">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-215">Close the page.</span></span>
+11. <span data-ttu-id="a223f-216">单击“取消”。</span><span class="sxs-lookup"><span data-stu-id="a223f-216">Click Cancel.</span></span>
+12. <span data-ttu-id="a223f-217">在树结构中，选择“tax1099trans: 表 'VendSettlementTax1099' 记录= model.Validated“。</span><span class="sxs-lookup"><span data-stu-id="a223f-217">In the tree, select 'tax1099trans: Table 'VendSettlementTax1099' records= model.Validated'.</span></span>
+13. <span data-ttu-id="a223f-218">单击”编辑目标“。</span><span class="sxs-lookup"><span data-stu-id="a223f-218">Click Edit destination.</span></span>
+    * <span data-ttu-id="a223f-219">添加此 ER 目标是为了指定导入的数据将如何更新应用程序表。</span><span class="sxs-lookup"><span data-stu-id="a223f-219">This ER destination was added to specify how the imported data will update the application tables.</span></span> <span data-ttu-id="a223f-220">在此案例中，已选择了数据表 VendSettlementTax1099。</span><span class="sxs-lookup"><span data-stu-id="a223f-220">In this case, the data table VendSettlementTax1099 has been selected.</span></span> <span data-ttu-id="a223f-221">由于已选择了记录操作插入，所以将把导入的交易插入到表 VendSettlementTax1099 中。</span><span class="sxs-lookup"><span data-stu-id="a223f-221">Because the record action Insert has been selected, the imported transactions will be inserted in the table VendSettlementTax1099.</span></span> <span data-ttu-id="a223f-222">请注意，一个模型映射中可以包含多个目标。</span><span class="sxs-lookup"><span data-stu-id="a223f-222">Note that a single model mapping may contain several destinations.</span></span> <span data-ttu-id="a223f-223">这意味着导入的数据可用于一次更新应用程序的多个表。</span><span class="sxs-lookup"><span data-stu-id="a223f-223">This means that the imported data can be used to update multiple application’s tables at once.</span></span> <span data-ttu-id="a223f-224">表、视图和数据实体可用作 ER 目标。</span><span class="sxs-lookup"><span data-stu-id="a223f-224">Tables, views, and data entities can be used as ER destinations.</span></span>   
+    * <span data-ttu-id="a223f-225">如果将从 Dynamics 365 for Finance and Operations Enterprise Edition 应用程序中专门为此操作设计的某个点（如按钮或菜单项）调用映射，应将 ER 目标标记为集成点。</span><span class="sxs-lookup"><span data-stu-id="a223f-225">If the mapping will be called from a point in the Dynamics 365 for Finance and Operations, Enterprise edition application (such as button or menu item) that was specifically designed for this action, the ER destination should be marked as the integration point.</span></span> <span data-ttu-id="a223f-226">在此示例中，为 ERTableDestination#VendSettlementTax1099 点。</span><span class="sxs-lookup"><span data-stu-id="a223f-226">In this example this is the ERTableDestination#VendSettlementTax1099 point.</span></span>  
+14. <span data-ttu-id="a223f-227">单击“取消”。</span><span class="sxs-lookup"><span data-stu-id="a223f-227">Click Cancel.</span></span>
+15. <span data-ttu-id="a223f-228">单击“全部显示”。</span><span class="sxs-lookup"><span data-stu-id="a223f-228">Click Show all.</span></span>
+16. <span data-ttu-id="a223f-229">单击”只显示映射的“。</span><span class="sxs-lookup"><span data-stu-id="a223f-229">Click Show mapped only.</span></span>
+17. <span data-ttu-id="a223f-230">在树结构中，展开“tax1099trans: 表 'VendSettlementTax1099' 记录= model.Validated“。</span><span class="sxs-lookup"><span data-stu-id="a223f-230">In the tree, expand 'tax1099trans: Table 'VendSettlementTax1099' records= model.Validated'.</span></span>
+    * <span data-ttu-id="a223f-231">请注意，仅包含已验证交易的数据源元素绑定到创建的目标。</span><span class="sxs-lookup"><span data-stu-id="a223f-231">Note that the data source element that contains the only validated transactions is bound to the created destination.</span></span> <span data-ttu-id="a223f-232">您可以筛选导入的交易，以便跳过与应用程序的数据不兼容的交易。</span><span class="sxs-lookup"><span data-stu-id="a223f-232">You can filter the imported transactions to skip the ones that are incompatible with the applications’ data.</span></span>  
+18. <span data-ttu-id="a223f-233">在树结构中，选择“failed: 表 'VendSettlementTax1099Entity' 记录 = model.Failed“。</span><span class="sxs-lookup"><span data-stu-id="a223f-233">In the tree, select 'failed: Table 'VendSettlementTax1099Entity' records= model.Failed'.</span></span>
+19. <span data-ttu-id="a223f-234">单击“验证”选项卡。</span><span class="sxs-lookup"><span data-stu-id="a223f-234">Click the Validations tab.</span></span>
+    * <span data-ttu-id="a223f-235">此模型映射中可以包含用户定义的逻辑，用于验证从现有应用程序数据导入的数据的正确性。</span><span class="sxs-lookup"><span data-stu-id="a223f-235">This model mapping may contain user-defined logic to validate the correctness of the imported data from the existing application data.</span></span> <span data-ttu-id="a223f-236">例如，将根据现有设置为位于所导入文件中但在系统中不存在的任何交易生成一条警告消息，通知用户并指示不正确的供应商帐户代码。</span><span class="sxs-lookup"><span data-stu-id="a223f-236">For example, based on the present setting, for any transaction in the imported file with a vendor account that is not in the system, a warning message will be generated informing the user and indicating the incorrect vendor account code.</span></span>  
+    * <span data-ttu-id="a223f-237">请注意，“验证后操作”选项可用于各项验证后，以指定是继续还是停止导入过程，以及可以保留还是回滚已执行的插入/更新。</span><span class="sxs-lookup"><span data-stu-id="a223f-237">Note that the Post validation action option can be used for each validation, to specify whether the import process must be continued or stopped, as well as if the already performed inserts/updates can be kept or rolled back.</span></span>  
+20. <span data-ttu-id="a223f-238">单击”只显示映射的“。</span><span class="sxs-lookup"><span data-stu-id="a223f-238">Click Show mapped only.</span></span>
+21. <span data-ttu-id="a223f-239">单击“全部显示”。</span><span class="sxs-lookup"><span data-stu-id="a223f-239">Click Show all.</span></span>
+22. <span data-ttu-id="a223f-240">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-240">Close the page.</span></span>
+    * <span data-ttu-id="a223f-241">执行此模型映射以测试设计的格式和模型映射。</span><span class="sxs-lookup"><span data-stu-id="a223f-241">Execute this model mapping to test the designed format and model mappings.</span></span> <span data-ttu-id="a223f-242">使用文件 1099entries.xml。</span><span class="sxs-lookup"><span data-stu-id="a223f-242">Use the file 1099entries.xml.</span></span> <span data-ttu-id="a223f-243">将把所选文件中的数据导入系统。</span><span class="sxs-lookup"><span data-stu-id="a223f-243">The data from the selected file will be imported in to the system.</span></span>  
+23. <span data-ttu-id="a223f-244">单击“运行”。</span><span class="sxs-lookup"><span data-stu-id="a223f-244">Click Run.</span></span>
+    * <span data-ttu-id="a223f-245">请注意，此对话框中包含有关必须用于解析所导入文件，然后将数据移植到数据模型的格式映射的更多问题。</span><span class="sxs-lookup"><span data-stu-id="a223f-245">Note that the dialog box contains no additional questions about the format mapping that must be used to parse the imported file and then port the data to the data model.</span></span> <span data-ttu-id="a223f-246">这是因为现在只有一种格式在使用此模型，这种格式标记为已设计是为了支持数据导入。</span><span class="sxs-lookup"><span data-stu-id="a223f-246">This is because there is currently only one format that uses this model, which is marked as designed to support data import.</span></span>  
+    * <span data-ttu-id="a223f-247">定义凭证 ID 以区分导入的交易和可能已手动输入或导入的其他交易。</span><span class="sxs-lookup"><span data-stu-id="a223f-247">Define the voucher ID to differentiate the imported transactions from other transactions that may already have been entered manually or imported.</span></span>  
+24. <span data-ttu-id="a223f-248">在“输入凭证 ID”字段中，键入“IMPORT-001”。</span><span class="sxs-lookup"><span data-stu-id="a223f-248">In the Enter voucher id field, type 'IMPORT-001'.</span></span>
+    * <span data-ttu-id="a223f-249">浏览以找到“1099entries.xml”文件。</span><span class="sxs-lookup"><span data-stu-id="a223f-249">Browse to get the '1099entries.xml' file.</span></span>  
+25. <span data-ttu-id="a223f-250">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="a223f-250">Click OK.</span></span>
+    * <span data-ttu-id="a223f-251">所生成警告的列表提供有关错误供应商帐户、错误税 1099 栏代码、缺少的国家/地区代码等的信息。请将此警告列表与执行 XML 文件中包含的内容比较。</span><span class="sxs-lookup"><span data-stu-id="a223f-251">The list of generated warnings provides information about incorrect vendor accounts, an incorrect tax 1099 box code, missing country codes, etc. Compare this list of warnings to the content that is included in the execution XML file.</span></span>  
+26. <span data-ttu-id="a223f-252">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-252">Close the page.</span></span>
+27. <span data-ttu-id="a223f-253">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-253">Close the page.</span></span>
+28. <span data-ttu-id="a223f-254">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-254">Close the page.</span></span>
+29. <span data-ttu-id="a223f-255">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-255">Close the page.</span></span>
+30. <span data-ttu-id="a223f-256">转至“应付帐款 > 定期任务 > 1099 税 > 用于 1099 的供应商结算”。</span><span class="sxs-lookup"><span data-stu-id="a223f-256">Go to Accounts payable > Periodic tasks > Tax 1099 > Vendor settlement for 1099s.</span></span>
+    * <span data-ttu-id="a223f-257">此窗体显示根据所导入交易创建的 Tax1099Summary 表中的累计交易。</span><span class="sxs-lookup"><span data-stu-id="a223f-257">This form shows the cumulative transactions in the Tax1099Summary table that have been created based on imported transactions.</span></span>  
+31. <span data-ttu-id="a223f-258">在“开始日期”字段中，将日期设置为“2000-01-01”。</span><span class="sxs-lookup"><span data-stu-id="a223f-258">In the From date field, set the date to '2000-01-01'.</span></span>
+32. <span data-ttu-id="a223f-259">单击“手动 1099 交易记录”。</span><span class="sxs-lookup"><span data-stu-id="a223f-259">Click Manual 1099 transactions.</span></span>
+    * <span data-ttu-id="a223f-260">此窗体中包含手动添加的交易和我们刚才导入的交易的列表。</span><span class="sxs-lookup"><span data-stu-id="a223f-260">This form contains the list of transactions that were added manually and those that we just imported.</span></span>  
+33. <span data-ttu-id="a223f-261">打开凭证列筛选器。</span><span class="sxs-lookup"><span data-stu-id="a223f-261">Open Voucher column filter.</span></span>
+34. <span data-ttu-id="a223f-262">使用 "开头为" 筛选器运算符在 "凭证" 字段上输入筛选器值 "IMPORT-001"。</span><span class="sxs-lookup"><span data-stu-id="a223f-262">Enter a filter value of "IMPORT-001" on the "Voucher" field using the "begins with" filter operator.</span></span>
 
-## <a name="review-the-relationship-between-model-and-format-mappings"></a>检查模型与格式之间的映射的关系
-1. 关闭该页面。
-2. 关闭该页面。
-3. 转到“组织管理”>“工作区”>“电子申报”。
-4. 单击“申报配置”。
-5. 在树结构中，选择“1099 付款模型”。
-    * 假设您希望支持导入相同数据，但是通过 .TXT 文件格式导入。   
-6. 单击“创建配置”，以打开对话框。 
-7. 在“新建”字段中，输入“基于数据模型 1099 付款模型的格式”。
-8. 在“名称”字段中，键入“从 TXT 文件导入数据”。
-9. 在“支持数据导入”字段中选择"是"。
-10. 单击“创建配置”。
-11. 单击“设计器”。
-12. 单击”将格式映射到模型“。
-13. 单击“新建”。
-14. 在“定义”字段中，输入或选择一个值。
-    * 选择“1099-MISC”选项。  
-15. 在“名称”字段中，键入“从 TXT 文件导入数据”。
-16. 在“描述”字段中，键入“从 TXT 文件导入数据”。
-17. 单击“保存”。
-18. 关闭该页面。
-19. 关闭该页面。
-20. 单击“编辑”。
-    * 如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 for Finance and Operations Enterprise Edition 上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)，请为输入的格式配置执行下一步“开启标记‘模型映射的默认值’”。 否则跳过下一步。  
-21. 在“模型映射的默认值”字段中选择“是”。
-22. 在树结构中，选择“1099 付款模型”。
-23. 单击“设计器”。
-24. 单击“映射模型到数据源”。
-25. 单击“运行”。
-    * 如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 for Finance and Operations Enterprise Edition 上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)，请在查找字段中选择首选模型映射。 如果您尚未安装此修补程序，请跳至下一步，因为默认格式配置的定义已选择了映射。  
-    * 如果您尚未安装修补程序 KB 4012871，请注意对话框中还包含一个模型映射问题，用于解析您要导入的文件。 然后将数据从对话框移植到数据模型。 目前，您可以根据计划导入的文件类型选择必须使用哪种格式映射。  
-    * 如果您计划从 Dynamics 365 for Finance and Operations Enterprise Edition 中专为此操作设计的某一点调用此模型映射，则必须将 ER 目标和格式映射标记为集成的组成部分。  
-26. 单击“取消”。
-27. 关闭该页面。
-28. 关闭该页面。
+## <a name="review-the-relationship-between-model-and-format-mappings"></a><span data-ttu-id="a223f-263">检查模型与格式之间的映射的关系</span><span class="sxs-lookup"><span data-stu-id="a223f-263">Review the relationship between model and format mappings</span></span>
+1. <span data-ttu-id="a223f-264">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-264">Close the page.</span></span>
+2. <span data-ttu-id="a223f-265">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-265">Close the page.</span></span>
+3. <span data-ttu-id="a223f-266">转到“组织管理”>“工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="a223f-266">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+4. <span data-ttu-id="a223f-267">单击“申报配置”。</span><span class="sxs-lookup"><span data-stu-id="a223f-267">Click Reporting configurations.</span></span>
+5. <span data-ttu-id="a223f-268">在树结构中，选择“1099 付款模型”。</span><span class="sxs-lookup"><span data-stu-id="a223f-268">In the tree, select '1099 Payments model'.</span></span>
+    * <span data-ttu-id="a223f-269">假设您希望支持导入相同数据，但是通过 .TXT 文件格式导入。</span><span class="sxs-lookup"><span data-stu-id="a223f-269">Assume that you want to support importing the same data but from a .TXT file format.</span></span>   
+6. <span data-ttu-id="a223f-270">单击“创建配置”，以打开对话框。</span><span class="sxs-lookup"><span data-stu-id="a223f-270">Click Create configuration to open the dialog box.</span></span> 
+7. <span data-ttu-id="a223f-271">在“新建”字段中，输入“基于数据模型 1099 付款模型的格式”。</span><span class="sxs-lookup"><span data-stu-id="a223f-271">In the New field, enter 'Format based on data model 1099 Payments model'.</span></span>
+8. <span data-ttu-id="a223f-272">在“名称”字段中，键入“从 TXT 文件导入数据”。</span><span class="sxs-lookup"><span data-stu-id="a223f-272">In the Name field, type 'Import data from TXT file'.</span></span>
+9. <span data-ttu-id="a223f-273">在“支持数据导入”字段中选择"是"。</span><span class="sxs-lookup"><span data-stu-id="a223f-273">Select Yes in the Supports data import field.</span></span>
+10. <span data-ttu-id="a223f-274">单击“创建配置”。</span><span class="sxs-lookup"><span data-stu-id="a223f-274">Click Create configuration.</span></span>
+11. <span data-ttu-id="a223f-275">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="a223f-275">Click Designer.</span></span>
+12. <span data-ttu-id="a223f-276">单击”将格式映射到模型“。</span><span class="sxs-lookup"><span data-stu-id="a223f-276">Click Map format to model.</span></span>
+13. <span data-ttu-id="a223f-277">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="a223f-277">Click New.</span></span>
+14. <span data-ttu-id="a223f-278">在“定义”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="a223f-278">In the Definition field, enter or select a value.</span></span>
+    * <span data-ttu-id="a223f-279">选择“1099-MISC”选项。</span><span class="sxs-lookup"><span data-stu-id="a223f-279">Select '1099-MISC' option.</span></span>  
+15. <span data-ttu-id="a223f-280">在“名称”字段中，键入“从 TXT 文件导入数据”。</span><span class="sxs-lookup"><span data-stu-id="a223f-280">In the Name field, type 'Import data from TXT file'.</span></span>
+16. <span data-ttu-id="a223f-281">在“描述”字段中，键入“从 TXT 文件导入数据”。</span><span class="sxs-lookup"><span data-stu-id="a223f-281">In the Description field, type 'Import data from TXT file'.</span></span>
+17. <span data-ttu-id="a223f-282">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="a223f-282">Click Save.</span></span>
+18. <span data-ttu-id="a223f-283">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-283">Close the page.</span></span>
+19. <span data-ttu-id="a223f-284">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-284">Close the page.</span></span>
+20. <span data-ttu-id="a223f-285">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="a223f-285">Click Edit.</span></span>
+    * <span data-ttu-id="a223f-286">如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 for Finance and Operations Enterprise Edition 上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)，请为输入的格式配置执行下一步“开启标记‘模型映射的默认值’”。</span><span class="sxs-lookup"><span data-stu-id="a223f-286">If you installed the hotfix “KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 for Finance and Operations, Enterprise edition” (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), execute the next step “Turn the flag ‘Default for model mapping’ on” for the entered format configuration.</span></span> <span data-ttu-id="a223f-287">否则跳过下一步。</span><span class="sxs-lookup"><span data-stu-id="a223f-287">Skip the next step otherwise.</span></span>  
+21. <span data-ttu-id="a223f-288">在“模型映射的默认值”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="a223f-288">Select Yes in the Default for model mapping field.</span></span>
+22. <span data-ttu-id="a223f-289">在树结构中，选择“1099 付款模型”。</span><span class="sxs-lookup"><span data-stu-id="a223f-289">In the tree, select '1099 Payments model'.</span></span>
+23. <span data-ttu-id="a223f-290">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="a223f-290">Click Designer.</span></span>
+24. <span data-ttu-id="a223f-291">单击“映射模型到数据源”。</span><span class="sxs-lookup"><span data-stu-id="a223f-291">Click Map model to datasource.</span></span>
+25. <span data-ttu-id="a223f-292">单击“运行”。</span><span class="sxs-lookup"><span data-stu-id="a223f-292">Click Run.</span></span>
+    * <span data-ttu-id="a223f-293">如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 for Finance and Operations Enterprise Edition 上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)，请在查找字段中选择首选模型映射。</span><span class="sxs-lookup"><span data-stu-id="a223f-293">If you installed the hotfix, KB 4012871 Support of GER model mappings in separated configurations with an ability to specify different kinds of prerequisites for deploying them on different versions of Dynamics 365 for Finance and Operations, Enterprise edition (https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 ), select the preferred model mapping in the lookup field.</span></span> <span data-ttu-id="a223f-294">如果您尚未安装此修补程序，请跳至下一步，因为默认格式配置的定义已选择了映射。</span><span class="sxs-lookup"><span data-stu-id="a223f-294">If you haven't installed the hotfix yet, skip to the next step as the mapping has already been selected by the definition of the default format configuration.</span></span>  
+    * <span data-ttu-id="a223f-295">如果您尚未安装修补程序 KB 4012871，请注意对话框中还包含一个模型映射问题，用于解析您要导入的文件。</span><span class="sxs-lookup"><span data-stu-id="a223f-295">If you have not installed the hotfix, KB 4012871, notice that the dialog box contains an additional model mapping question that is used to parse the file that you are importing.</span></span> <span data-ttu-id="a223f-296">然后将数据从对话框移植到数据模型。</span><span class="sxs-lookup"><span data-stu-id="a223f-296">The data is then ported from the dialog box to the data model.</span></span> <span data-ttu-id="a223f-297">目前，您可以根据计划导入的文件类型选择必须使用哪种格式映射。</span><span class="sxs-lookup"><span data-stu-id="a223f-297">Currently, you can choose which format mapping must be used depending on the type of file that you plan to import.</span></span>  
+    * <span data-ttu-id="a223f-298">如果您计划从 Dynamics 365 for Finance and Operations Enterprise Edition 中专为此操作设计的某一点调用此模型映射，则必须将 ER 目标和格式映射标记为集成的组成部分。</span><span class="sxs-lookup"><span data-stu-id="a223f-298">If you plan to call this model mapping from a point in Dynamics 365 for Finance and Operations, Enterprise edition that is specifically designed for the action, the ER destination and the format mapping must be marked as part of the integration.</span></span>  
+26. <span data-ttu-id="a223f-299">单击“取消”。</span><span class="sxs-lookup"><span data-stu-id="a223f-299">Click Cancel.</span></span>
+27. <span data-ttu-id="a223f-300">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-300">Close the page.</span></span>
+28. <span data-ttu-id="a223f-301">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="a223f-301">Close the page.</span></span>
 
 

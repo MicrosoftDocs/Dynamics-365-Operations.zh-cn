@@ -20,1355 +20,1355 @@ ms.author: yuyus
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: c040a50d9962d7a900fbef285ea1f1baea124033
+ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.openlocfilehash: 1eb5560ba795ab6df61b5af889049810dd00d79e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 06/30/2017
 
 
 ---
 
-# <a name="overhead-calculation"></a>开销计算
+# <a name="overhead-calculation"></a><span data-ttu-id="5c693-103">开销计算</span><span class="sxs-lookup"><span data-stu-id="5c693-103">Overhead calculation</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-此主题描述计算和分配间接成本的典型流程。
+<span data-ttu-id="5c693-104">此主题描述计算和分配间接成本的典型流程。</span><span class="sxs-lookup"><span data-stu-id="5c693-104">This topic describes the typical processes for calculating and allocating overhead costs.</span></span>
 
-<a name="term-definition"></a>术语定义
+<a name="term-definition"></a><span data-ttu-id="5c693-105">术语定义</span><span class="sxs-lookup"><span data-stu-id="5c693-105">Term definition</span></span>
 ---------------
 
-间接成本是为业务运营支出的成本，但是不能直接归为任何具体的业务活动、产品或服务。 间接成本为营利活动的生成提供重要支持。 以下是一些开销成本示例：
+<span data-ttu-id="5c693-106">间接成本是为业务运营支出的成本，但是不能直接归为任何具体的业务活动、产品或服务。</span><span class="sxs-lookup"><span data-stu-id="5c693-106">Overhead costs are the costs that are incurred in order to run a business, but that can't be directly attributed to any specific business activity, product, or service.</span></span> <span data-ttu-id="5c693-107">间接成本为营利活动的生成提供重要支持。</span><span class="sxs-lookup"><span data-stu-id="5c693-107">Overhead costs provide critical support for the generation of profit-making activities.</span></span> <span data-ttu-id="5c693-108">以下是一些开销成本示例：</span><span class="sxs-lookup"><span data-stu-id="5c693-108">Here are some examples of overhead costs:</span></span>
 
--   租金
--   电
--   管理薪金
+-   <span data-ttu-id="5c693-109">租金</span><span class="sxs-lookup"><span data-stu-id="5c693-109">Rent</span></span>
+-   <span data-ttu-id="5c693-110">电</span><span class="sxs-lookup"><span data-stu-id="5c693-110">Electricity</span></span>
+-   <span data-ttu-id="5c693-111">管理薪金</span><span class="sxs-lookup"><span data-stu-id="5c693-111">Administrative salaries</span></span>
 
-## <a name="overhead-calculation-overview"></a>开销计算概览
-开销计算按正确顺序运行会计政策。 如果成本核算政策更改或检测到特定错误，您可以为同一个会计期间多次运行开销计算。 每次运行的开销计算将被存储并收到唯一版本 ID，让您可以比较各个版本的计算。 开销计算生成的成本条目接收会计日期。 此会计日期与计算中使用的会计期间的结束日期一致。 唯一版本 ID 由以下元素组成：
+## <a name="overhead-calculation-overview"></a><span data-ttu-id="5c693-112">开销计算概览</span><span class="sxs-lookup"><span data-stu-id="5c693-112">Overhead calculation overview</span></span>
+<span data-ttu-id="5c693-113">开销计算按正确顺序运行会计政策。</span><span class="sxs-lookup"><span data-stu-id="5c693-113">Overhead calculation runs the cost accounting policies in the correct order.</span></span> <span data-ttu-id="5c693-114">如果成本核算政策更改或检测到特定错误，您可以为同一个会计期间多次运行开销计算。</span><span class="sxs-lookup"><span data-stu-id="5c693-114">You can run overhead calculation multiple times for the same fiscal period if cost accounting policies have been changed or specific errors have been detected.</span></span> <span data-ttu-id="5c693-115">每次运行的开销计算将被存储并收到唯一版本 ID，让您可以比较各个版本的计算。</span><span class="sxs-lookup"><span data-stu-id="5c693-115">Each run of the overhead calculation is stored and receives a unique version ID that lets you compare the calculations in various versions.</span></span> <span data-ttu-id="5c693-116">开销计算生成的成本条目接收会计日期。</span><span class="sxs-lookup"><span data-stu-id="5c693-116">The cost entries that the overhead calculation generates receive an accounting date.</span></span> <span data-ttu-id="5c693-117">此会计日期与计算中使用的会计期间的结束日期一致。</span><span class="sxs-lookup"><span data-stu-id="5c693-117">This accounting date matches the end date of the fiscal period that is used in the calculation.</span></span> <span data-ttu-id="5c693-118">唯一版本 ID 由以下元素组成：</span><span class="sxs-lookup"><span data-stu-id="5c693-118">The unique version ID consists of the following elements:</span></span>
 
--   版本类型
--   日期和时间
--   成本核算分类帐
--   会计年度
--   会计期间
+-   <span data-ttu-id="5c693-119">版本类型</span><span class="sxs-lookup"><span data-stu-id="5c693-119">Version type</span></span>
+-   <span data-ttu-id="5c693-120">日期和时间</span><span class="sxs-lookup"><span data-stu-id="5c693-120">Date and time</span></span>
+-   <span data-ttu-id="5c693-121">成本核算分类帐</span><span class="sxs-lookup"><span data-stu-id="5c693-121">Cost accounting ledger</span></span>
+-   <span data-ttu-id="5c693-122">会计年度</span><span class="sxs-lookup"><span data-stu-id="5c693-122">Fiscal year</span></span>
+-   <span data-ttu-id="5c693-123">会计期间</span><span class="sxs-lookup"><span data-stu-id="5c693-123">Fiscal period</span></span>
 
-开销计算独立于版本运行。 因此，可以在实际版本前计算预算版本。 开销计算包括四个步骤，如下图所示。 在每个步骤中，创建包含日记帐条目的日记帐标头。 此日记帐标头为每个计算步骤保留输入数据。 政策和规则应用于每个日记帐行，成本条目生成为输出。 因此，您始终具有完全的可跟踪性。 
-[![开销计算](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)
+<span data-ttu-id="5c693-124">开销计算独立于版本运行。</span><span class="sxs-lookup"><span data-stu-id="5c693-124">Overhead calculation is run independently of the version.</span></span> <span data-ttu-id="5c693-125">因此，可以在实际版本前计算预算版本。</span><span class="sxs-lookup"><span data-stu-id="5c693-125">Therefore, you can calculate the Budget version before the Actual version.</span></span> <span data-ttu-id="5c693-126">开销计算包括四个步骤，如下图所示。</span><span class="sxs-lookup"><span data-stu-id="5c693-126">Overhead calculation consists of four steps, as shown in the following illustration.</span></span> <span data-ttu-id="5c693-127">在每个步骤中，创建包含日记帐条目的日记帐标头。</span><span class="sxs-lookup"><span data-stu-id="5c693-127">In each step, a journal header is created that has journal entries.</span></span> <span data-ttu-id="5c693-128">此日记帐标头为每个计算步骤保留输入数据。</span><span class="sxs-lookup"><span data-stu-id="5c693-128">This journal header keeps the input data for each calculation step.</span></span> <span data-ttu-id="5c693-129">政策和规则应用于每个日记帐行，成本条目生成为输出。</span><span class="sxs-lookup"><span data-stu-id="5c693-129">Policies and rules are applied to each journal line, and cost entries are generated as output.</span></span> <span data-ttu-id="5c693-130">因此，您始终具有完全的可跟踪性。</span><span class="sxs-lookup"><span data-stu-id="5c693-130">Therefore, you always have full traceability.</span></span> 
+<span data-ttu-id="5c693-131">[![开销计算](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span><span class="sxs-lookup"><span data-stu-id="5c693-131">[![Overhead calculation](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span></span>
 
-## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a>计算和分摊电间接成本
-在财务会计中，有些成本（如电）登记为总计。 因此，不为成本核算提供详细的管理洞察。 在成本核算中，为提供跨所有组织单位和级别的正确的管理洞察，成本必须流过各个组织单位。 此流必须基于消耗量的准确记录或公平评估。 在总帐中，可以过帐电成本，如下表所示。
+## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a><span data-ttu-id="5c693-132">计算和分摊电间接成本</span><span class="sxs-lookup"><span data-stu-id="5c693-132">Calculate and allocate the Electricity overhead cost</span></span>
+<span data-ttu-id="5c693-133">在财务会计中，有些成本（如电）登记为总计。</span><span class="sxs-lookup"><span data-stu-id="5c693-133">In Financial accounting, some costs, such as electricity, are registered as a lump sum.</span></span> <span data-ttu-id="5c693-134">因此，不为成本核算提供详细的管理洞察。</span><span class="sxs-lookup"><span data-stu-id="5c693-134">Therefore, detailed managerial insight isn't provided for Cost accounting.</span></span> <span data-ttu-id="5c693-135">在成本核算中，为提供跨所有组织单位和级别的正确的管理洞察，成本必须流过各个组织单位。</span><span class="sxs-lookup"><span data-stu-id="5c693-135">In Cost accounting, to provide correct managerial insight across all organizational units and levels, costs must flow through the organizational units.</span></span> <span data-ttu-id="5c693-136">此流必须基于消耗量的准确记录或公平评估。</span><span class="sxs-lookup"><span data-stu-id="5c693-136">This flow must be based on either an accurate record of the consumption or a fair assessment.</span></span> <span data-ttu-id="5c693-137">在总帐中，可以过帐电成本，如下表所示。</span><span class="sxs-lookup"><span data-stu-id="5c693-137">In the general ledger, an electricity cost can be posted as shown in the following table.</span></span>
 
 <table>
 <thead>
 <tr>
-<th>会计日期</th>
-<th colspan="2">成本中心</th>
-<th colspan="2">主科目</th>
-<th>按记帐币种计算的金额</th>
+<th><span data-ttu-id="5c693-138">会计日期</span><span class="sxs-lookup"><span data-stu-id="5c693-138">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-139">成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-139">Cost center</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-140">主科目</span><span class="sxs-lookup"><span data-stu-id="5c693-140">Main account</span></span></th>
+<th><span data-ttu-id="5c693-141">按记帐币种计算的金额</span><span class="sxs-lookup"><span data-stu-id="5c693-141">Amount in the accounting currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2017 年 1 月 3 日</td>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>10,000.00</td>
+<td><span data-ttu-id="5c693-142">2017 年 1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="5c693-142">January 3, 2017</span></span></td>
+<td><span data-ttu-id="5c693-143">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-143">CC099</span></span></td>
+<td><span data-ttu-id="5c693-144">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-144">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-145">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-145">10001</span></span></td>
+<td><span data-ttu-id="5c693-146">电</span><span class="sxs-lookup"><span data-stu-id="5c693-146">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-147">10,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-147">10,000.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="step-1-process-the-cost-behavior-calculation"></a>步骤 1：处理成本行为计算
+### <a name="step-1-process-the-cost-behavior-calculation"></a><span data-ttu-id="5c693-148">步骤 1：处理成本行为计算</span><span class="sxs-lookup"><span data-stu-id="5c693-148">Step 1: Process the cost behavior calculation</span></span>
 
-默认情况下，当成本条目从源数据导入时，它们在成本核算中接收**未分类**成本行为分类。 通过应用成本行为政策规则，您可以将成本条目重新分类为**固定成本**或**可变成本**。
+<span data-ttu-id="5c693-149">默认情况下，当成本条目从源数据导入时，它们在成本核算中接收**未分类**成本行为分类。</span><span class="sxs-lookup"><span data-stu-id="5c693-149">By default, when cost entries are imported from the source data, they receive the **Unclassified** cost behavior classification in Cost accounting.</span></span> <span data-ttu-id="5c693-150">通过应用成本行为政策规则，您可以将成本条目重新分类为**固定成本**或**可变成本**。</span><span class="sxs-lookup"><span data-stu-id="5c693-150">By applying cost behavior policy rules, you can reclassify cost entries as either **Fixed cost** or **Variable cost**.</span></span>
 
-#### <a name="define-the-cost-behavior-rule"></a>定义成本行为规则
+#### <a name="define-the-cost-behavior-rule"></a><span data-ttu-id="5c693-151">定义成本行为规则</span><span class="sxs-lookup"><span data-stu-id="5c693-151">Define the cost behavior rule</span></span>
 
-在某些情况下，一部分成本是一项固定费用，其余成本基于消耗量。 通常电费帐单与此定义一致。 在支付特定固定费用后，您按千瓦时 (Kwh) 支付消耗量。 例如，如果固定成本费用为 1,000.00，以下是成本行为规则的定义：
+<span data-ttu-id="5c693-152">在某些情况下，一部分成本是一项固定费用，其余成本基于消耗量。</span><span class="sxs-lookup"><span data-stu-id="5c693-152">In some cases, part of the cost is a fixed fee, and the remaining cost is based on consumption.</span></span> <span data-ttu-id="5c693-153">通常电费帐单与此定义一致。</span><span class="sxs-lookup"><span data-stu-id="5c693-153">Electricity bills often match this definition.</span></span> <span data-ttu-id="5c693-154">在支付特定固定费用后，您按千瓦时 (Kwh) 支付消耗量。</span><span class="sxs-lookup"><span data-stu-id="5c693-154">After you pay a specific fixed fee, you pay for consumption per kilowatt hour (Kwh).</span></span> <span data-ttu-id="5c693-155">例如，如果固定成本费用为 1,000.00，以下是成本行为规则的定义：</span><span class="sxs-lookup"><span data-stu-id="5c693-155">For example, if the fixed cost fee is 1,000.00, here is how the cost behavior rule is defined:</span></span>
 
--   固定金额 1,000.00
-    -   0 &lt;= 1,000.00 = 固定
-    -   1000,01 &lt; N = 可变
+-   <span data-ttu-id="5c693-156">固定金额 1,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-156">Fixed amount 1,000.00</span></span>
+    -   <span data-ttu-id="5c693-157">0 &lt;= 1,000.00 = 固定</span><span class="sxs-lookup"><span data-stu-id="5c693-157">0 &lt;= 1,000.00 = Fixed</span></span>
+    -   <span data-ttu-id="5c693-158">1000,01 &lt; N = 可变</span><span class="sxs-lookup"><span data-stu-id="5c693-158">1000,01 &lt; N = Variable</span></span>
 
-##### <a name="journal"></a>生产订单日记帐
+##### <a name="journal"></a><span data-ttu-id="5c693-159">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-159">Journal</span></span>
 
 <table>
 <thead>
 <tr>
-<th>生产订单日记帐</th>
-<th>日记帐类型</th>
-<th colspan="3">会计日历期间</th>
-<th>版本</th>
+<th><span data-ttu-id="5c693-160">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-160">Journal</span></span></th>
+<th><span data-ttu-id="5c693-161">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="5c693-161">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="5c693-162">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="5c693-162">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="5c693-163">版本</span><span class="sxs-lookup"><span data-stu-id="5c693-163">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>00001</td>
-<td>成本行为计算日记帐</td>
-<td>会计</td>
-<td>2017</td>
-<td>期间 1</td>
-<td>开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</td>
+<td><span data-ttu-id="5c693-164">00001</span><span class="sxs-lookup"><span data-stu-id="5c693-164">00001</span></span></td>
+<td><span data-ttu-id="5c693-165">成本行为计算日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-165">Cost behavior calculation journal</span></span></td>
+<td><span data-ttu-id="5c693-166">会计</span><span class="sxs-lookup"><span data-stu-id="5c693-166">Fiscal</span></span></td>
+<td><span data-ttu-id="5c693-167">2017</span><span class="sxs-lookup"><span data-stu-id="5c693-167">2017</span></span></td>
+<td><span data-ttu-id="5c693-168">期间 1</span><span class="sxs-lookup"><span data-stu-id="5c693-168">Period 1</span></span></td>
+<td><span data-ttu-id="5c693-169">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="5c693-169">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a>日记帐条目（成本对象余额日记帐条目）
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="5c693-170">日记帐条目（成本对象余额日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="5c693-170">Journal entries (Cost object balance journal entries)</span></span>
 
 <table>
 <thead>
 <tr>
-<th>会计日期</th>
-<th colspan="2">成本对象</th>
-<th colspan="2">成本元素</th>
-<th>成本行为</th>
-<th>本币金额</th>
+<th><span data-ttu-id="5c693-171">会计日期</span><span class="sxs-lookup"><span data-stu-id="5c693-171">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-172">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-172">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-173">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-173">Cost element</span></span></th>
+<th><span data-ttu-id="5c693-174">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-174">Cost behavior</span></span></th>
+<th><span data-ttu-id="5c693-175">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-175">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2017 年 1 月 3 日</td>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>未分类</td>
-<td>10,000.00</td>
+<td><span data-ttu-id="5c693-176">2017 年 1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="5c693-176">January 3, 2017</span></span></td>
+<td><span data-ttu-id="5c693-177">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-177">CC099</span></span></td>
+<td><span data-ttu-id="5c693-178">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-178">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-179">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-179">10001</span></span></td>
+<td><span data-ttu-id="5c693-180">电</span><span class="sxs-lookup"><span data-stu-id="5c693-180">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-181">未分类</span><span class="sxs-lookup"><span data-stu-id="5c693-181">Unclassified</span></span></td>
+<td><span data-ttu-id="5c693-182">10,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-182">10,000.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a>成本条目
+##### <a name="cost-entries"></a><span data-ttu-id="5c693-183">成本条目</span><span class="sxs-lookup"><span data-stu-id="5c693-183">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th colspan="2">成本元素</th>
-<th>成本行为</th>
-<th>本币金额</th>
-<th>会计日期</th>
+<th colspan="2"><span data-ttu-id="5c693-184">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-184">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-185">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-185">Cost element</span></span></th>
+<th><span data-ttu-id="5c693-186">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-186">Cost behavior</span></span></th>
+<th><span data-ttu-id="5c693-187">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-187">Amount</span></span></th>
+<th><span data-ttu-id="5c693-188">会计日期</span><span class="sxs-lookup"><span data-stu-id="5c693-188">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>未分类</td>
-<td>10,000.00</td>
-<td>2017 年 1 月 3 日</td>
+<td><span data-ttu-id="5c693-189">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-189">CC099</span></span></td>
+<td><span data-ttu-id="5c693-190">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-190">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-191">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-191">10001</span></span></td>
+<td><span data-ttu-id="5c693-192">电</span><span class="sxs-lookup"><span data-stu-id="5c693-192">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-193">未分类</span><span class="sxs-lookup"><span data-stu-id="5c693-193">Unclassified</span></span></td>
+<td><span data-ttu-id="5c693-194">10,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-194">10,000.00</span></span></td>
+<td><span data-ttu-id="5c693-195">2017 年 1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="5c693-195">January 3, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>未分类</td>
-<td>-10,000.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-196">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-196">CC099</span></span></td>
+<td><span data-ttu-id="5c693-197">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-197">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-198">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-198">10001</span></span></td>
+<td><span data-ttu-id="5c693-199">电</span><span class="sxs-lookup"><span data-stu-id="5c693-199">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-200">未分类</span><span class="sxs-lookup"><span data-stu-id="5c693-200">Unclassified</span></span></td>
+<td><span data-ttu-id="5c693-201">-10,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-201">-10,000.00</span></span></td>
+<td><span data-ttu-id="5c693-202">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-202">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>1,000.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-203">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-203">CC099</span></span></td>
+<td><span data-ttu-id="5c693-204">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-204">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-205">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-205">10001</span></span></td>
+<td><span data-ttu-id="5c693-206">电</span><span class="sxs-lookup"><span data-stu-id="5c693-206">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-207">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-207">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-208">1,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-208">1,000.00</span></span></td>
+<td><span data-ttu-id="5c693-209">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-209">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>9,000.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-210">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-210">CC099</span></span></td>
+<td><span data-ttu-id="5c693-211">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-211">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-212">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-212">10001</span></span></td>
+<td><span data-ttu-id="5c693-213">电</span><span class="sxs-lookup"><span data-stu-id="5c693-213">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-214">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-214">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-215">9,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-215">9,000.00</span></span></td>
+<td><span data-ttu-id="5c693-216">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-216">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-有关成本行为的详细信息，请参阅“成本行为政策”。 （请注意，此主题尚未完成，不过将很快推出。）
+<span data-ttu-id="5c693-217">有关成本行为的详细信息，请参阅“成本行为政策”。</span><span class="sxs-lookup"><span data-stu-id="5c693-217">For detailed information about cost behavior, see Cost behavior policy.</span></span> <span data-ttu-id="5c693-218">（请注意，此主题尚未完成，不过将很快推出。）</span><span class="sxs-lookup"><span data-stu-id="5c693-218">(Note that this topic isn't competed yet but is coming soon.)</span></span>
 
-### <a name="step-2-process-the-cost-distribution-calculation"></a>步骤 2：处理成本分配计算
+### <a name="step-2-process-the-cost-distribution-calculation"></a><span data-ttu-id="5c693-219">步骤 2：处理成本分配计算</span><span class="sxs-lookup"><span data-stu-id="5c693-219">Step 2: Process the cost distribution calculation</span></span>
 
-成本分配用于通过应用相关的分摊基数将成本从一个成本对象重新分配到一个或多个其他成本对象。 成本分配和成本分摊的不同之处在于，成本分配始终发生在原始成本的主要成本元素级别。
+<span data-ttu-id="5c693-220">成本分配用于通过应用相关的分摊基数将成本从一个成本对象重新分配到一个或多个其他成本对象。</span><span class="sxs-lookup"><span data-stu-id="5c693-220">Cost distribution is used to redistribute cost from one cost object to one or more other cost objects by applying a relevant allocation base.</span></span> <span data-ttu-id="5c693-221">成本分配和成本分摊的不同之处在于，成本分配始终发生在原始成本的主要成本元素级别。</span><span class="sxs-lookup"><span data-stu-id="5c693-221">Cost distribution and cost allocation differ in that cost distribution always occurs at the level of the primary cost element of the original cost.</span></span>
 
-#### <a name="define-the-cost-distribution-rule"></a>定义成本分配规则
+#### <a name="define-the-cost-distribution-rule"></a><span data-ttu-id="5c693-222">定义成本分配规则</span><span class="sxs-lookup"><span data-stu-id="5c693-222">Define the cost distribution rule</span></span>
 
-在财务会计中，电成本通常登记为总计。 在成本核算中，此方法不足够详细。 可变成本应公平分配到各个成本对象。 最合理的分配基础是电的消耗量 (Kwh)。 创建名为“电”的统计维度成员并记录电的消耗量。 默认情况下，所有统计维度成员均可作为分配基础。
+<span data-ttu-id="5c693-223">在财务会计中，电成本通常登记为总计。</span><span class="sxs-lookup"><span data-stu-id="5c693-223">In Financial accounting, electricity costs are often registered as a lump sum.</span></span> <span data-ttu-id="5c693-224">在成本核算中，此方法不足够详细。</span><span class="sxs-lookup"><span data-stu-id="5c693-224">In Cost accounting, this approach isn't detailed enough.</span></span> <span data-ttu-id="5c693-225">可变成本应公平分配到各个成本对象。</span><span class="sxs-lookup"><span data-stu-id="5c693-225">The variable cost should be distributed to the individual cost objects on a fair basis.</span></span> <span data-ttu-id="5c693-226">最合理的分配基础是电的消耗量 (Kwh)。</span><span class="sxs-lookup"><span data-stu-id="5c693-226">The most logical allocation basis is the consumption of electricity (Kwh).</span></span> <span data-ttu-id="5c693-227">创建名为“电”的统计维度成员并记录电的消耗量。</span><span class="sxs-lookup"><span data-stu-id="5c693-227">A statistical dimension member that is named Electricity is created, and electricity consumption is recorded.</span></span> <span data-ttu-id="5c693-228">默认情况下，所有统计维度成员均可作为分配基础。</span><span class="sxs-lookup"><span data-stu-id="5c693-228">By default, all statistical dimension members become available as allocation bases.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>Kwh</th>
+<th colspan="2"><span data-ttu-id="5c693-229">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-229">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-230">Kwh</span><span class="sxs-lookup"><span data-stu-id="5c693-230">Kwh</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC001</td>
-<td>HR</td>
-<td>1,000</td>
+<td><span data-ttu-id="5c693-231">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-231">CC001</span></span></td>
+<td><span data-ttu-id="5c693-232">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-232">HR</span></span></td>
+<td><span data-ttu-id="5c693-233">1,000</span><span class="sxs-lookup"><span data-stu-id="5c693-233">1,000</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>6,000</td>
+<td><span data-ttu-id="5c693-234">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-234">CC002</span></span></td>
+<td><span data-ttu-id="5c693-235">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-235">Finance</span></span></td>
+<td><span data-ttu-id="5c693-236">6,000</span><span class="sxs-lookup"><span data-stu-id="5c693-236">6,000</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>0</td>
+<td><span data-ttu-id="5c693-237">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-237">CC003</span></span></td>
+<td><span data-ttu-id="5c693-238">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-238">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-239">0</span><span class="sxs-lookup"><span data-stu-id="5c693-239">0</span></span></td>
 </tr>
 </tbody>
 </table>
 
-下表显示当电消耗量用作可变成本的分配基础时的结果。
+<span data-ttu-id="5c693-240">下表显示当电消耗量用作可变成本的分配基础时的结果。</span><span class="sxs-lookup"><span data-stu-id="5c693-240">The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>度量值</th>
-<th>分配系数</th>
-<th>本币金额</th>
+<th colspan="2"><span data-ttu-id="5c693-241">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-241">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-242">度量值</span><span class="sxs-lookup"><span data-stu-id="5c693-242">Magnitude</span></span></th>
+<th><span data-ttu-id="5c693-243">分配系数</span><span class="sxs-lookup"><span data-stu-id="5c693-243">Allocation factor</span></span></th>
+<th><span data-ttu-id="5c693-244">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-244">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC001</td>
-<td>HR</td>
-<td>1,000</td>
-<td>(1,000 ÷ 7,000) × 9,000.00</td>
-<td>1,285.71</td>
+<td><span data-ttu-id="5c693-245">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-245">CC001</span></span></td>
+<td><span data-ttu-id="5c693-246">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-246">HR</span></span></td>
+<td><span data-ttu-id="5c693-247">1,000</span><span class="sxs-lookup"><span data-stu-id="5c693-247">1,000</span></span></td>
+<td><span data-ttu-id="5c693-248">(1,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-248">(1,000 ÷ 7,000) × 9,000.00</span></span></td>
+<td><span data-ttu-id="5c693-249">1,285.71</span><span class="sxs-lookup"><span data-stu-id="5c693-249">1,285.71</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>6,000</td>
-<td>(6,000 ÷ 7,000) × 9,000.00</td>
-<td>7,714.29</td>
+<td><span data-ttu-id="5c693-250">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-250">CC002</span></span></td>
+<td><span data-ttu-id="5c693-251">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-251">Finance</span></span></td>
+<td><span data-ttu-id="5c693-252">6,000</span><span class="sxs-lookup"><span data-stu-id="5c693-252">6,000</span></span></td>
+<td><span data-ttu-id="5c693-253">(6,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-253">(6,000 ÷ 7,000) × 9,000.00</span></span></td>
+<td><span data-ttu-id="5c693-254">7,714.29</span><span class="sxs-lookup"><span data-stu-id="5c693-254">7,714.29</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>0</td>
-<td>(0 ÷ 7,000) × 9,000.00</td>
-<td>0.00</td>
+<td><span data-ttu-id="5c693-255">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-255">CC003</span></span></td>
+<td><span data-ttu-id="5c693-256">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-256">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-257">0</span><span class="sxs-lookup"><span data-stu-id="5c693-257">0</span></span></td>
+<td><span data-ttu-id="5c693-258">(0 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-258">(0 ÷ 7,000) × 9,000.00</span></span></td>
+<td><span data-ttu-id="5c693-259">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-259">0.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-固定成本应平均分配到消耗了电的单个成本对象。 可以通过在公式分配基础中使用电统计维度成员取得此结果：（电 &gt; 0.00）下表显示当电消耗量用作可变成本的分配基础时的结果。
+<span data-ttu-id="5c693-260">固定成本应平均分配到消耗了电的单个成本对象。</span><span class="sxs-lookup"><span data-stu-id="5c693-260">The fixed cost should be distributed evenly to the individual cost objects that have consumed electricity.</span></span> <span data-ttu-id="5c693-261">可以通过在公式分配基础中使用电统计维度成员取得此结果：（电 &gt; 0.00）下表显示当电消耗量用作可变成本的分配基础时的结果。</span><span class="sxs-lookup"><span data-stu-id="5c693-261">You can achieve this result by using the Electricity statistical dimension member in a formula allocation base: (Electricity &gt; 0.00) The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>配方</th>
-<th>度量值</th>
-<th>分配系数</th>
-<th>本币金额</th>
+<th colspan="2"><span data-ttu-id="5c693-262">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-262">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-263">配方</span><span class="sxs-lookup"><span data-stu-id="5c693-263">Formula</span></span></th>
+<th><span data-ttu-id="5c693-264">度量值</span><span class="sxs-lookup"><span data-stu-id="5c693-264">Magnitude</span></span></th>
+<th><span data-ttu-id="5c693-265">分配系数</span><span class="sxs-lookup"><span data-stu-id="5c693-265">Allocation factor</span></span></th>
+<th><span data-ttu-id="5c693-266">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-266">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC001</td>
-<td>HR</td>
-<td>(1,000 &gt; 0.00)</td>
-<td>1</td>
-<td>(1 ÷ 2) × 1,000.00</td>
-<td>500.00</td>
+<td><span data-ttu-id="5c693-267">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-267">CC001</span></span></td>
+<td><span data-ttu-id="5c693-268">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-268">HR</span></span></td>
+<td><span data-ttu-id="5c693-269">(1,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="5c693-269">(1,000 &gt; 0.00)</span></span></td>
+<td><span data-ttu-id="5c693-270">1</span><span class="sxs-lookup"><span data-stu-id="5c693-270">1</span></span></td>
+<td><span data-ttu-id="5c693-271">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-271">(1 ÷ 2) × 1,000.00</span></span></td>
+<td><span data-ttu-id="5c693-272">500.00</span><span class="sxs-lookup"><span data-stu-id="5c693-272">500.00</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>(6,000 &gt; 0.00)</td>
-<td>1</td>
-<td>(1 ÷ 2) × 1,000.00</td>
-<td>500.00</td>
+<td><span data-ttu-id="5c693-273">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-273">CC002</span></span></td>
+<td><span data-ttu-id="5c693-274">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-274">Finance</span></span></td>
+<td><span data-ttu-id="5c693-275">(6,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="5c693-275">(6,000 &gt; 0.00)</span></span></td>
+<td><span data-ttu-id="5c693-276">1</span><span class="sxs-lookup"><span data-stu-id="5c693-276">1</span></span></td>
+<td><span data-ttu-id="5c693-277">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-277">(1 ÷ 2) × 1,000.00</span></span></td>
+<td><span data-ttu-id="5c693-278">500.00</span><span class="sxs-lookup"><span data-stu-id="5c693-278">500.00</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>(0 &gt; 0.00)</td>
-<td>0</td>
-<td>(0 ÷ 2) × 1,000.00</td>
-<td>0.00</td>
+<td><span data-ttu-id="5c693-279">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-279">CC003</span></span></td>
+<td><span data-ttu-id="5c693-280">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-280">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-281">(0 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="5c693-281">(0 &gt; 0.00)</span></span></td>
+<td><span data-ttu-id="5c693-282">0</span><span class="sxs-lookup"><span data-stu-id="5c693-282">0</span></span></td>
+<td><span data-ttu-id="5c693-283">(0 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-283">(0 ÷ 2) × 1,000.00</span></span></td>
+<td><span data-ttu-id="5c693-284">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-284">0.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal"></a>生产订单日记帐
+##### <a name="journal"></a><span data-ttu-id="5c693-285">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-285">Journal</span></span>
 
 <table>
 <thead>
 <tr>
-<th>生产订单日记帐</th>
-<th>日记帐类型</th>
-<th colspan="3">会计日历期间</th>
-<th>版本</th>
+<th><span data-ttu-id="5c693-286">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-286">Journal</span></span></th>
+<th><span data-ttu-id="5c693-287">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="5c693-287">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="5c693-288">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="5c693-288">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="5c693-289">版本</span><span class="sxs-lookup"><span data-stu-id="5c693-289">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>00002</td>
-<td>成本分配计算日记帐</td>
-<td>会计</td>
-<td>2017</td>
-<td>期间 1</td>
-<td>开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</td>
+<td><span data-ttu-id="5c693-290">00002</span><span class="sxs-lookup"><span data-stu-id="5c693-290">00002</span></span></td>
+<td><span data-ttu-id="5c693-291">成本分配计算日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-291">Cost distribution calculation journal</span></span></td>
+<td><span data-ttu-id="5c693-292">会计</span><span class="sxs-lookup"><span data-stu-id="5c693-292">Fiscal</span></span></td>
+<td><span data-ttu-id="5c693-293">2017</span><span class="sxs-lookup"><span data-stu-id="5c693-293">2017</span></span></td>
+<td><span data-ttu-id="5c693-294">期间 1</span><span class="sxs-lookup"><span data-stu-id="5c693-294">Period 1</span></span></td>
+<td><span data-ttu-id="5c693-295">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="5c693-295">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a>日记帐条目（成本对象余额日记帐条目）
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="5c693-296">日记帐条目（成本对象余额日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="5c693-296">Journal entries (Cost object balance journal entries)</span></span>
 
 <table>
 <thead>
 <tr>
-<th>会计日期</th>
-<th colspan="2">成本对象</th>
-<th colspan="2">成本元素</th>
-<th>成本行为</th>
-<th>本币金额</th>
+<th><span data-ttu-id="5c693-297">会计日期</span><span class="sxs-lookup"><span data-stu-id="5c693-297">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-298">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-298">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-299">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-299">Cost element</span></span></th>
+<th><span data-ttu-id="5c693-300">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-300">Cost behavior</span></span></th>
+<th><span data-ttu-id="5c693-301">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-301">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>1,000.00</td>
+<td><span data-ttu-id="5c693-302">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-302">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-303">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-303">CC099</span></span></td>
+<td><span data-ttu-id="5c693-304">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-304">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-305">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-305">10001</span></span></td>
+<td><span data-ttu-id="5c693-306">电</span><span class="sxs-lookup"><span data-stu-id="5c693-306">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-307">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-307">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-308">1,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-308">1,000.00</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>9,000.00</td>
+<td><span data-ttu-id="5c693-309">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-309">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-310">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-310">CC099</span></span></td>
+<td><span data-ttu-id="5c693-311">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-311">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-312">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-312">10001</span></span></td>
+<td><span data-ttu-id="5c693-313">电</span><span class="sxs-lookup"><span data-stu-id="5c693-313">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-314">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-314">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-315">9,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-315">9,000.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a>成本条目
+##### <a name="cost-entries"></a><span data-ttu-id="5c693-316">成本条目</span><span class="sxs-lookup"><span data-stu-id="5c693-316">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th colspan="2">成本元素</th>
-<th>成本行为</th>
-<th>本币金额</th>
-<th>会计日期</th>
+<th colspan="2"><span data-ttu-id="5c693-317">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-317">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-318">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-318">Cost element</span></span></th>
+<th><span data-ttu-id="5c693-319">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-319">Cost behavior</span></span></th>
+<th><span data-ttu-id="5c693-320">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-320">Amount</span></span></th>
+<th><span data-ttu-id="5c693-321">会计日期</span><span class="sxs-lookup"><span data-stu-id="5c693-321">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>-1,000.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-322">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-322">CC099</span></span></td>
+<td><span data-ttu-id="5c693-323">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-323">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-324">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-324">10001</span></span></td>
+<td><span data-ttu-id="5c693-325">电</span><span class="sxs-lookup"><span data-stu-id="5c693-325">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-326">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-326">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-327">-1,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-327">-1,000.00</span></span></td>
+<td><span data-ttu-id="5c693-328">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-328">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC001</td>
-<td>HR</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>500.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-329">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-329">CC001</span></span></td>
+<td><span data-ttu-id="5c693-330">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-330">HR</span></span></td>
+<td><span data-ttu-id="5c693-331">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-331">10001</span></span></td>
+<td><span data-ttu-id="5c693-332">电</span><span class="sxs-lookup"><span data-stu-id="5c693-332">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-333">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-333">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-334">500.00</span><span class="sxs-lookup"><span data-stu-id="5c693-334">500.00</span></span></td>
+<td><span data-ttu-id="5c693-335">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-335">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>500.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-336">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-336">CC002</span></span></td>
+<td><span data-ttu-id="5c693-337">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-337">Finance</span></span></td>
+<td><span data-ttu-id="5c693-338">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-338">10001</span></span></td>
+<td><span data-ttu-id="5c693-339">电</span><span class="sxs-lookup"><span data-stu-id="5c693-339">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-340">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-340">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-341">500.00</span><span class="sxs-lookup"><span data-stu-id="5c693-341">500.00</span></span></td>
+<td><span data-ttu-id="5c693-342">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-342">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC099</td>
-<td>默认成本中心</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>-9,000.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-343">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-343">CC099</span></span></td>
+<td><span data-ttu-id="5c693-344">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="5c693-344">Default cost center</span></span></td>
+<td><span data-ttu-id="5c693-345">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-345">10001</span></span></td>
+<td><span data-ttu-id="5c693-346">电</span><span class="sxs-lookup"><span data-stu-id="5c693-346">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-347">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-347">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-348">-9,000.00</span><span class="sxs-lookup"><span data-stu-id="5c693-348">-9,000.00</span></span></td>
+<td><span data-ttu-id="5c693-349">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-349">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC001</td>
-<td>HR</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>1,285.71</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-350">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-350">CC001</span></span></td>
+<td><span data-ttu-id="5c693-351">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-351">HR</span></span></td>
+<td><span data-ttu-id="5c693-352">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-352">10001</span></span></td>
+<td><span data-ttu-id="5c693-353">电</span><span class="sxs-lookup"><span data-stu-id="5c693-353">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-354">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-354">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-355">1,285.71</span><span class="sxs-lookup"><span data-stu-id="5c693-355">1,285.71</span></span></td>
+<td><span data-ttu-id="5c693-356">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-356">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>7,714.29</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-357">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-357">CC002</span></span></td>
+<td><span data-ttu-id="5c693-358">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-358">Finance</span></span></td>
+<td><span data-ttu-id="5c693-359">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-359">10001</span></span></td>
+<td><span data-ttu-id="5c693-360">电</span><span class="sxs-lookup"><span data-stu-id="5c693-360">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-361">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-361">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-362">7,714.29</span><span class="sxs-lookup"><span data-stu-id="5c693-362">7,714.29</span></span></td>
+<td><span data-ttu-id="5c693-363">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-363">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-有关成本分配和分配基础的详细信息，请参阅“成本分配成本”和“分配基础”。 （请注意，此主题尚未完成，不过将很快推出。）
+<span data-ttu-id="5c693-364">有关成本分配和分配基础的详细信息，请参阅“成本分配成本”和“分配基础”。</span><span class="sxs-lookup"><span data-stu-id="5c693-364">For detailed information about cost distribution and allocation bases, see Cost distribution policy and Allocation bases.</span></span> <span data-ttu-id="5c693-365">（请注意，此主题尚未完成，不过将很快推出。）</span><span class="sxs-lookup"><span data-stu-id="5c693-365">(Note that this topic isn't competed yet but is coming soon.)</span></span>
 
-### <a name="step-3-process-the-overhead-rate-calculation"></a>步骤 3：处理开销比率计算
+### <a name="step-3-process-the-overhead-rate-calculation"></a><span data-ttu-id="5c693-366">步骤 3：处理开销比率计算</span><span class="sxs-lookup"><span data-stu-id="5c693-366">Step 3: Process the overhead rate calculation</span></span>
 
-开销比率用于向一个或多个特定成本对象收费。 费用基于预先确定的成本率和来自指定的分配基础的度量值。 
+<span data-ttu-id="5c693-367">开销比率用于向一个或多个特定成本对象收费。</span><span class="sxs-lookup"><span data-stu-id="5c693-367">The overhead rate is used to charge one or more specific cost objects.</span></span> <span data-ttu-id="5c693-368">费用基于预先确定的成本率和来自指定的分配基础的度量值。</span><span class="sxs-lookup"><span data-stu-id="5c693-368">The charge is based on a predetermined cost rate and the magnitude from the assigned allocation base.</span></span> 
 
-#### <a name="define-the-overhead-rate"></a>定义开销比率
+#### <a name="define-the-overhead-rate"></a><span data-ttu-id="5c693-369">定义开销比率</span><span class="sxs-lookup"><span data-stu-id="5c693-369">Define the overhead rate</span></span>
 
-成本对象 CC001 HR 生成一组内部项目。 创建名为“HR 项目”的统计维度成员来测量消耗度量值。
+<span data-ttu-id="5c693-370">成本对象 CC001 HR 生成一组内部项目。</span><span class="sxs-lookup"><span data-stu-id="5c693-370">Cost object CC001 HR contributes to a set of internal projects.</span></span> <span data-ttu-id="5c693-371">创建名为“HR 项目”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="5c693-371">A statistical dimension member that is named HR projects is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>工时</th>
+<th colspan="2"><span data-ttu-id="5c693-372">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-372">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-373">工时</span><span class="sxs-lookup"><span data-stu-id="5c693-373">Hours</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>项目 1</td>
-<td>项目 1</td>
-<td>3</td>
+<td><span data-ttu-id="5c693-374">项目 1</span><span class="sxs-lookup"><span data-stu-id="5c693-374">Proj 1</span></span></td>
+<td><span data-ttu-id="5c693-375">项目 1</span><span class="sxs-lookup"><span data-stu-id="5c693-375">Project 1</span></span></td>
+<td><span data-ttu-id="5c693-376">3</span><span class="sxs-lookup"><span data-stu-id="5c693-376">3</span></span></td>
 </tr>
 <tr>
-<td>项目 2</td>
-<td>项目 2</td>
-<td>1</td>
+<td><span data-ttu-id="5c693-377">项目 2</span><span class="sxs-lookup"><span data-stu-id="5c693-377">Proj 2</span></span></td>
+<td><span data-ttu-id="5c693-378">项目 2</span><span class="sxs-lookup"><span data-stu-id="5c693-378">Project 2</span></span></td>
+<td><span data-ttu-id="5c693-379">1</span><span class="sxs-lookup"><span data-stu-id="5c693-379">1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-成本项目份额预先确定的成本率已定义。
+<span data-ttu-id="5c693-380">成本项目份额预先确定的成本率已定义。</span><span class="sxs-lookup"><span data-stu-id="5c693-380">A predetermined cost rate for the cost projects contribution has been defined.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>成本元素</th>
-<th>成本行为</th>
-<th>单位</th>
-<th>比率</th>
+<th colspan="2"><span data-ttu-id="5c693-381">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-381">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-382">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-382">Cost element</span></span></th>
+<th><span data-ttu-id="5c693-383">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-383">Cost behavior</span></span></th>
+<th><span data-ttu-id="5c693-384">单位</span><span class="sxs-lookup"><span data-stu-id="5c693-384">Units</span></span></th>
+<th><span data-ttu-id="5c693-385">比率</span><span class="sxs-lookup"><span data-stu-id="5c693-385">Rate</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC001</td>
-<td>HR</td>
-<td>10001</td>
-<td>可变成本</td>
-<td>1</td>
-<td>10</td>
+<td><span data-ttu-id="5c693-386">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-386">CC001</span></span></td>
+<td><span data-ttu-id="5c693-387">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-387">HR</span></span></td>
+<td><span data-ttu-id="5c693-388">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-388">10001</span></span></td>
+<td><span data-ttu-id="5c693-389">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-389">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-390">1</span><span class="sxs-lookup"><span data-stu-id="5c693-390">1</span></span></td>
+<td><span data-ttu-id="5c693-391">10</span><span class="sxs-lookup"><span data-stu-id="5c693-391">10</span></span></td>
 </tr>
 </tbody>
 </table>
 
-下表显示 HR 项目用作分配基础时的结果。
+<span data-ttu-id="5c693-392">下表显示 HR 项目用作分配基础时的结果。</span><span class="sxs-lookup"><span data-stu-id="5c693-392">The following table shows the result when the HR projects are applied as an allocation base.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>度量值</th>
-<th>成本元素</th>
-<th>分配系数</th>
-<th>本币金额</th>
+<th colspan="2"><span data-ttu-id="5c693-393">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-393">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-394">度量值</span><span class="sxs-lookup"><span data-stu-id="5c693-394">Magnitude</span></span></th>
+<th><span data-ttu-id="5c693-395">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-395">Cost element</span></span></th>
+<th><span data-ttu-id="5c693-396">分配系数</span><span class="sxs-lookup"><span data-stu-id="5c693-396">Allocation factor</span></span></th>
+<th><span data-ttu-id="5c693-397">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-397">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>项目 1</td>
-<td>项目 1</td>
-<td>3</td>
-<td>10001</td>
-<td>(3 ÷ 1) × 10.00</td>
-<td>30.00</td>
+<td><span data-ttu-id="5c693-398">项目 1</span><span class="sxs-lookup"><span data-stu-id="5c693-398">Proj 1</span></span></td>
+<td><span data-ttu-id="5c693-399">项目 1</span><span class="sxs-lookup"><span data-stu-id="5c693-399">Project 1</span></span></td>
+<td><span data-ttu-id="5c693-400">3</span><span class="sxs-lookup"><span data-stu-id="5c693-400">3</span></span></td>
+<td><span data-ttu-id="5c693-401">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-401">10001</span></span></td>
+<td><span data-ttu-id="5c693-402">(3 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="5c693-402">(3 ÷ 1) × 10.00</span></span></td>
+<td><span data-ttu-id="5c693-403">30.00</span><span class="sxs-lookup"><span data-stu-id="5c693-403">30.00</span></span></td>
 </tr>
 <tr>
-<td>项目 2</td>
-<td>项目 2</td>
-<td>1</td>
-<td>10001</td>
-<td>(1 ÷ 1) × 10.00</td>
-<td>10.00</td>
+<td><span data-ttu-id="5c693-404">项目 2</span><span class="sxs-lookup"><span data-stu-id="5c693-404">Proj 2</span></span></td>
+<td><span data-ttu-id="5c693-405">项目 2</span><span class="sxs-lookup"><span data-stu-id="5c693-405">Project 2</span></span></td>
+<td><span data-ttu-id="5c693-406">1</span><span class="sxs-lookup"><span data-stu-id="5c693-406">1</span></span></td>
+<td><span data-ttu-id="5c693-407">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-407">10001</span></span></td>
+<td><span data-ttu-id="5c693-408">(1 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="5c693-408">(1 ÷ 1) × 10.00</span></span></td>
+<td><span data-ttu-id="5c693-409">10.00</span><span class="sxs-lookup"><span data-stu-id="5c693-409">10.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal"></a>生产订单日记帐
+##### <a name="journal"></a><span data-ttu-id="5c693-410">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-410">Journal</span></span>
 
 <table>
 <thead>
 <tr>
-<th>生产订单日记帐</th>
-<th>日记帐类型</th>
-<th colspan="3">会计日历期间</th>
-<th>版本</th>
+<th><span data-ttu-id="5c693-411">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-411">Journal</span></span></th>
+<th><span data-ttu-id="5c693-412">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="5c693-412">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="5c693-413">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="5c693-413">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="5c693-414">版本</span><span class="sxs-lookup"><span data-stu-id="5c693-414">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>00003</td>
-<td>开销比率计算日记帐</td>
-<td>会计</td>
-<td>2017</td>
-<td>期间 1</td>
-<td>开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</td>
+<td><span data-ttu-id="5c693-415">00003</span><span class="sxs-lookup"><span data-stu-id="5c693-415">00003</span></span></td>
+<td><span data-ttu-id="5c693-416">开销比率计算日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-416">Overhead rate calculation journal</span></span></td>
+<td><span data-ttu-id="5c693-417">会计</span><span class="sxs-lookup"><span data-stu-id="5c693-417">Fiscal</span></span></td>
+<td><span data-ttu-id="5c693-418">2017</span><span class="sxs-lookup"><span data-stu-id="5c693-418">2017</span></span></td>
+<td><span data-ttu-id="5c693-419">期间 1</span><span class="sxs-lookup"><span data-stu-id="5c693-419">Period 1</span></span></td>
+<td><span data-ttu-id="5c693-420">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="5c693-420">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-journal-entries-for-overhead-rate-calculation"></a>日记帐条目（开销比率计算的日记帐条目）
+##### <a name="journal-entries-journal-entries-for-overhead-rate-calculation"></a><span data-ttu-id="5c693-421">日记帐条目（开销比率计算的日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="5c693-421">Journal entries (Journal entries for overhead rate calculation)</span></span>
 
 <table>
 <thead>
 <tr>
-<th>会计日期</th>
-<th colspan="2">成本对象</th>
-<th>度量值</th>
+<th><span data-ttu-id="5c693-422">会计日期</span><span class="sxs-lookup"><span data-stu-id="5c693-422">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-423">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-423">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-424">度量值</span><span class="sxs-lookup"><span data-stu-id="5c693-424">Magnitude</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>项目 1</td>
-<td>内部项目 1</td>
-<td>3.00</td>
+<td><span data-ttu-id="5c693-425">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-425">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-426">项目 1</span><span class="sxs-lookup"><span data-stu-id="5c693-426">Proj 1</span></span></td>
+<td><span data-ttu-id="5c693-427">内部项目 1</span><span class="sxs-lookup"><span data-stu-id="5c693-427">Internal Proj 1</span></span></td>
+<td><span data-ttu-id="5c693-428">3.00</span><span class="sxs-lookup"><span data-stu-id="5c693-428">3.00</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>项目 2</td>
-<td>内部项目 2</td>
-<td>1.00</td>
+<td><span data-ttu-id="5c693-429">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-429">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-430">项目 2</span><span class="sxs-lookup"><span data-stu-id="5c693-430">Proj 2</span></span></td>
+<td><span data-ttu-id="5c693-431">内部项目 2</span><span class="sxs-lookup"><span data-stu-id="5c693-431">Internal Proj 2</span></span></td>
+<td><span data-ttu-id="5c693-432">1.00</span><span class="sxs-lookup"><span data-stu-id="5c693-432">1.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a>成本条目
+##### <a name="cost-entries"></a><span data-ttu-id="5c693-433">成本条目</span><span class="sxs-lookup"><span data-stu-id="5c693-433">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th colspan="2">成本元素</th>
-<th>成本行为</th>
-<th>本币金额</th>
-<th>会计日期</th>
+<th colspan="2"><span data-ttu-id="5c693-434">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-434">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-435">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-435">Cost element</span></span></th>
+<th><span data-ttu-id="5c693-436">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-436">Cost behavior</span></span></th>
+<th><span data-ttu-id="5c693-437">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-437">Amount</span></span></th>
+<th><span data-ttu-id="5c693-438">会计日期</span><span class="sxs-lookup"><span data-stu-id="5c693-438">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC0001</td>
-<td>HR</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>-30.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-439">CC0001</span><span class="sxs-lookup"><span data-stu-id="5c693-439">CC0001</span></span></td>
+<td><span data-ttu-id="5c693-440">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-440">HR</span></span></td>
+<td><span data-ttu-id="5c693-441">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-441">10001</span></span></td>
+<td><span data-ttu-id="5c693-442">电</span><span class="sxs-lookup"><span data-stu-id="5c693-442">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-443">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-443">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-444">-30.00</span><span class="sxs-lookup"><span data-stu-id="5c693-444">-30.00</span></span></td>
+<td><span data-ttu-id="5c693-445">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-445">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>项目 1</td>
-<td>内部项目 1</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>30.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-446">项目 1</span><span class="sxs-lookup"><span data-stu-id="5c693-446">Proj 1</span></span></td>
+<td><span data-ttu-id="5c693-447">内部项目 1</span><span class="sxs-lookup"><span data-stu-id="5c693-447">Internal Proj 1</span></span></td>
+<td><span data-ttu-id="5c693-448">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-448">10001</span></span></td>
+<td><span data-ttu-id="5c693-449">电</span><span class="sxs-lookup"><span data-stu-id="5c693-449">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-450">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-450">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-451">30.00</span><span class="sxs-lookup"><span data-stu-id="5c693-451">30.00</span></span></td>
+<td><span data-ttu-id="5c693-452">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-452">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC001</td>
-<td>HR</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>-10.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-453">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-453">CC001</span></span></td>
+<td><span data-ttu-id="5c693-454">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-454">HR</span></span></td>
+<td><span data-ttu-id="5c693-455">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-455">10001</span></span></td>
+<td><span data-ttu-id="5c693-456">电</span><span class="sxs-lookup"><span data-stu-id="5c693-456">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-457">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-457">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-458">-10.00</span><span class="sxs-lookup"><span data-stu-id="5c693-458">-10.00</span></span></td>
+<td><span data-ttu-id="5c693-459">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-459">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>项目 2</td>
-<td>内部项目 2</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>10.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-460">项目 2</span><span class="sxs-lookup"><span data-stu-id="5c693-460">Proj 2</span></span></td>
+<td><span data-ttu-id="5c693-461">内部项目 2</span><span class="sxs-lookup"><span data-stu-id="5c693-461">Internal Proj 2</span></span></td>
+<td><span data-ttu-id="5c693-462">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-462">10001</span></span></td>
+<td><span data-ttu-id="5c693-463">电</span><span class="sxs-lookup"><span data-stu-id="5c693-463">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-464">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-464">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-465">10.00</span><span class="sxs-lookup"><span data-stu-id="5c693-465">10.00</span></span></td>
+<td><span data-ttu-id="5c693-466">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-466">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-有关开销比率政策的详细信息，请参阅“开销比率政策”和“分配基础”。 （请注意，此主题尚未完成，不过将很快推出。）
+<span data-ttu-id="5c693-467">有关开销比率政策的详细信息，请参阅“开销比率政策”和“分配基础”。</span><span class="sxs-lookup"><span data-stu-id="5c693-467">For detailed information about overhead rate policy, see Overhead rate policy and Allocation bases.</span></span> <span data-ttu-id="5c693-468">（请注意，此主题尚未完成，不过将很快推出。）</span><span class="sxs-lookup"><span data-stu-id="5c693-468">(Note that this topic isn't competed yet but is coming soon.)</span></span>
 
-### <a name="step-4-process-the-cost-allocation-calculation"></a>步骤 4：处理成本分摊计算
+### <a name="step-4-process-the-cost-allocation-calculation"></a><span data-ttu-id="5c693-469">步骤 4：处理成本分摊计算</span><span class="sxs-lookup"><span data-stu-id="5c693-469">Step 4: Process the cost allocation calculation</span></span>
 
-分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。 Finance and Operations 支持互惠分摊方法。 在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。 系统自动确定执行分摊的正确顺序。 成本对象的余额按单一分配基础分配。 支持跨成本对象维度及其各自成员的分摊。 分摊顺序由成本控制单元控制。 [![互惠方法](./media/reciprocal-method.png)]
+<span data-ttu-id="5c693-470">分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。</span><span class="sxs-lookup"><span data-stu-id="5c693-470">Allocation is used to allocate the balance of a cost object to other cost objects by applying an allocation base.</span></span> <span data-ttu-id="5c693-471">Finance and Operations 支持互惠分摊方法。</span><span class="sxs-lookup"><span data-stu-id="5c693-471">Finance and Operations supports the reciprocal allocation method.</span></span> <span data-ttu-id="5c693-472">在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。</span><span class="sxs-lookup"><span data-stu-id="5c693-472">In the reciprocal allocation method, the mutual services that auxiliary cost objects exchange are fully recognized.</span></span> <span data-ttu-id="5c693-473">系统自动确定执行分摊的正确顺序。</span><span class="sxs-lookup"><span data-stu-id="5c693-473">The system automatically determines the correct order to perform the allocations in.</span></span> <span data-ttu-id="5c693-474">成本对象的余额按单一分配基础分配。</span><span class="sxs-lookup"><span data-stu-id="5c693-474">The balance of a cost object is allocated by a single allocation base.</span></span> <span data-ttu-id="5c693-475">支持跨成本对象维度及其各自成员的分摊。</span><span class="sxs-lookup"><span data-stu-id="5c693-475">Allocations across cost objects dimensions and their respective members are supported.</span></span> <span data-ttu-id="5c693-476">分摊顺序由成本控制单元控制。</span><span class="sxs-lookup"><span data-stu-id="5c693-476">The allocation order is controlled by the cost control unit.</span></span> <span data-ttu-id="5c693-477">[![互惠方法](./media/reciprocal-method.png)]</span><span class="sxs-lookup"><span data-stu-id="5c693-477">[![Reciprocal method](./media/reciprocal-method.png)]</span></span>
 
-#### <a name="define-the-cost-allocation"></a>定义成本分摊
+#### <a name="define-the-cost-allocation"></a><span data-ttu-id="5c693-478">定义成本分摊</span><span class="sxs-lookup"><span data-stu-id="5c693-478">Define the cost allocation</span></span>
 
-这是说明如何跟踪成本流的简单示例。 成本对象 CC001 HR 生成若干成本对象。 创建名为“HR 服务”的统计维度成员来测量消耗度量值。
+<span data-ttu-id="5c693-479">这是说明如何跟踪成本流的简单示例。</span><span class="sxs-lookup"><span data-stu-id="5c693-479">Here is a simple example that explains how you can trace the flow of cost.</span></span> <span data-ttu-id="5c693-480">成本对象 CC001 HR 生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="5c693-480">Cost object CC001 HR contributes to several cost objects.</span></span> <span data-ttu-id="5c693-481">创建名为“HR 服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="5c693-481">A statistical dimension member that is named HR services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>HR 服务</th>
+<th colspan="2"><span data-ttu-id="5c693-482">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-482">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-483">HR 服务</span><span class="sxs-lookup"><span data-stu-id="5c693-483">HR services</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>35</td>
+<td><span data-ttu-id="5c693-484">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-484">CC002</span></span></td>
+<td><span data-ttu-id="5c693-485">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-485">Finance</span></span></td>
+<td><span data-ttu-id="5c693-486">35</span><span class="sxs-lookup"><span data-stu-id="5c693-486">35</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>55</td>
+<td><span data-ttu-id="5c693-487">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-487">CC003</span></span></td>
+<td><span data-ttu-id="5c693-488">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-488">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-489">55</span><span class="sxs-lookup"><span data-stu-id="5c693-489">55</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>10</td>
+<td><span data-ttu-id="5c693-490">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-490">CC004</span></span></td>
+<td><span data-ttu-id="5c693-491">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-491">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-492">10</span><span class="sxs-lookup"><span data-stu-id="5c693-492">10</span></span></td>
 </tr>
 </tbody>
 </table>
 
-成本对象 CC002 财务生成若干成本对象。 创建名为“财务服务”的统计维度成员来测量消耗度量值。
+<span data-ttu-id="5c693-493">成本对象 CC002 财务生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="5c693-493">Cost object CC002 Finance contributes to several cost objects.</span></span> <span data-ttu-id="5c693-494">创建名为“财务服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="5c693-494">A statistical dimension member that is named Finance services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>财务服务</th>
+<th colspan="2"><span data-ttu-id="5c693-495">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-495">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-496">财务服务</span><span class="sxs-lookup"><span data-stu-id="5c693-496">Finance services</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>65</td>
+<td><span data-ttu-id="5c693-497">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-497">CC003</span></span></td>
+<td><span data-ttu-id="5c693-498">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-498">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-499">65</span><span class="sxs-lookup"><span data-stu-id="5c693-499">65</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>35</td>
+<td><span data-ttu-id="5c693-500">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-500">CC004</span></span></td>
+<td><span data-ttu-id="5c693-501">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-501">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-502">35</span><span class="sxs-lookup"><span data-stu-id="5c693-502">35</span></span></td>
 </tr>
 </tbody>
 </table>
 
-成本对象 CC003 装配生成若干成本对象。 创建名为“装配服务”的统计维度成员来测量消耗度量值。
+<span data-ttu-id="5c693-503">成本对象 CC003 装配生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="5c693-503">Cost object CC003 Assembly contributes to several cost objects.</span></span> <span data-ttu-id="5c693-504">创建名为“装配服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="5c693-504">A statistical dimension member that is named Assembly services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>装配服务（小时）</th>
+<th colspan="2"><span data-ttu-id="5c693-505">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-505">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-506">装配服务（小时）</span><span class="sxs-lookup"><span data-stu-id="5c693-506">Assembly services (hours)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>60</td>
+<td><span data-ttu-id="5c693-507">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-507">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-508">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-508">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-509">60</span><span class="sxs-lookup"><span data-stu-id="5c693-509">60</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>20</td>
+<td><span data-ttu-id="5c693-510">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-510">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-511">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-511">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-512">20</span><span class="sxs-lookup"><span data-stu-id="5c693-512">20</span></span></td>
 </tr>
 </tbody>
 </table>
 
-成本对象 CC004 包装生成若干成本对象。 创建名为“包装服务”的统计维度成员来测量消耗度量值。
+<span data-ttu-id="5c693-513">成本对象 CC004 包装生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="5c693-513">Cost object CC004 Packaging contributes to several cost objects.</span></span> <span data-ttu-id="5c693-514">创建名为“包装服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="5c693-514">A statistical dimension member that is named Packaging services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>包装服务（小时）</th>
+<th colspan="2"><span data-ttu-id="5c693-515">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-515">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-516">包装服务（小时）</span><span class="sxs-lookup"><span data-stu-id="5c693-516">Packaging services (hours)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>80</td>
+<td><span data-ttu-id="5c693-517">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-517">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-518">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-518">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-519">80</span><span class="sxs-lookup"><span data-stu-id="5c693-519">80</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>15</td>
+<td><span data-ttu-id="5c693-520">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-520">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-521">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-521">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-522">15</span><span class="sxs-lookup"><span data-stu-id="5c693-522">15</span></span></td>
 </tr>
 </tbody>
 </table>
 
-**注意：**在 Finance and Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。 关于统计度量的更多详细信息，请参阅“统计度量提供方模板”。 （请注意，此主题尚未完成，不过将很快推出。）下表显示 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。
+<span data-ttu-id="5c693-523">**注意：**在 Finance and Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。</span><span class="sxs-lookup"><span data-stu-id="5c693-523">**Note:** In Finance and Operations, statistical measures such as the production hours that a product consumes can be derived from source data.</span></span> <span data-ttu-id="5c693-524">关于统计度量的更多详细信息，请参阅“统计度量提供方模板”。</span><span class="sxs-lookup"><span data-stu-id="5c693-524">For more detailed information about statistical measure providers, see Statistical measure provider template.</span></span> <span data-ttu-id="5c693-525">（请注意，此主题尚未完成，不过将很快推出。）下表显示 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="5c693-525">(Note that this topic isn't completed yet but is coming soon.) The following table shows the result when the HR services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>度量值</th>
-<th>分配系数</th>
-<th>本币金额</th>
-<th>成本行为</th>
+<th colspan="2"><span data-ttu-id="5c693-526">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-526">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-527">度量值</span><span class="sxs-lookup"><span data-stu-id="5c693-527">Magnitude</span></span></th>
+<th><span data-ttu-id="5c693-528">分配系数</span><span class="sxs-lookup"><span data-stu-id="5c693-528">Allocation factor</span></span></th>
+<th><span data-ttu-id="5c693-529">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-529">Amount</span></span></th>
+<th><span data-ttu-id="5c693-530">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-530">Cost behavior</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>35</td>
-<td>(35 ÷ 100) × 500.00</td>
-<td>175.00</td>
-<td>固定成本</td>
+<td><span data-ttu-id="5c693-531">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-531">CC002</span></span></td>
+<td><span data-ttu-id="5c693-532">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-532">Finance</span></span></td>
+<td><span data-ttu-id="5c693-533">35</span><span class="sxs-lookup"><span data-stu-id="5c693-533">35</span></span></td>
+<td><span data-ttu-id="5c693-534">(35 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="5c693-534">(35 ÷ 100) × 500.00</span></span></td>
+<td><span data-ttu-id="5c693-535">175.00</span><span class="sxs-lookup"><span data-stu-id="5c693-535">175.00</span></span></td>
+<td><span data-ttu-id="5c693-536">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-536">Fixed cost</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>55</td>
-<td>(55 ÷ 100) × 500.00</td>
-<td>275.00</td>
-<td>固定成本</td>
+<td><span data-ttu-id="5c693-537">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-537">CC003</span></span></td>
+<td><span data-ttu-id="5c693-538">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-538">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-539">55</span><span class="sxs-lookup"><span data-stu-id="5c693-539">55</span></span></td>
+<td><span data-ttu-id="5c693-540">(55 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="5c693-540">(55 ÷ 100) × 500.00</span></span></td>
+<td><span data-ttu-id="5c693-541">275.00</span><span class="sxs-lookup"><span data-stu-id="5c693-541">275.00</span></span></td>
+<td><span data-ttu-id="5c693-542">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-542">Fixed cost</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>10</td>
-<td>(10 ÷ 100) × 500.00</td>
-<td>50.00</td>
-<td>固定成本</td>
+<td><span data-ttu-id="5c693-543">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-543">CC004</span></span></td>
+<td><span data-ttu-id="5c693-544">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-544">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-545">10</span><span class="sxs-lookup"><span data-stu-id="5c693-545">10</span></span></td>
+<td><span data-ttu-id="5c693-546">(10 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="5c693-546">(10 ÷ 100) × 500.00</span></span></td>
+<td><span data-ttu-id="5c693-547">50.00</span><span class="sxs-lookup"><span data-stu-id="5c693-547">50.00</span></span></td>
+<td><span data-ttu-id="5c693-548">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-548">Fixed cost</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>35</td>
-<td>(35 ÷ 100) × 1,245.71</td>
-<td>436.00</td>
-<td>可变成本</td>
+<td><span data-ttu-id="5c693-549">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-549">CC002</span></span></td>
+<td><span data-ttu-id="5c693-550">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-550">Finance</span></span></td>
+<td><span data-ttu-id="5c693-551">35</span><span class="sxs-lookup"><span data-stu-id="5c693-551">35</span></span></td>
+<td><span data-ttu-id="5c693-552">(35 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="5c693-552">(35 ÷ 100) × 1,245.71</span></span></td>
+<td><span data-ttu-id="5c693-553">436.00</span><span class="sxs-lookup"><span data-stu-id="5c693-553">436.00</span></span></td>
+<td><span data-ttu-id="5c693-554">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-554">Variable cost</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>55</td>
-<td>(55 ÷ 100) × 1,245.71</td>
-<td>685.14</td>
-<td>可变成本</td>
+<td><span data-ttu-id="5c693-555">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-555">CC003</span></span></td>
+<td><span data-ttu-id="5c693-556">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-556">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-557">55</span><span class="sxs-lookup"><span data-stu-id="5c693-557">55</span></span></td>
+<td><span data-ttu-id="5c693-558">(55 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="5c693-558">(55 ÷ 100) × 1,245.71</span></span></td>
+<td><span data-ttu-id="5c693-559">685.14</span><span class="sxs-lookup"><span data-stu-id="5c693-559">685.14</span></span></td>
+<td><span data-ttu-id="5c693-560">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-560">Variable cost</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>10</td>
-<td>(10 ÷ 100) × 1,245.71</td>
-<td>124.57</td>
-<td>可变成本</td>
+<td><span data-ttu-id="5c693-561">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-561">CC004</span></span></td>
+<td><span data-ttu-id="5c693-562">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-562">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-563">10</span><span class="sxs-lookup"><span data-stu-id="5c693-563">10</span></span></td>
+<td><span data-ttu-id="5c693-564">(10 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="5c693-564">(10 ÷ 100) × 1,245.71</span></span></td>
+<td><span data-ttu-id="5c693-565">124.57</span><span class="sxs-lookup"><span data-stu-id="5c693-565">124.57</span></span></td>
+<td><span data-ttu-id="5c693-566">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-566">Variable cost</span></span></td>
 </tr>
 </tbody>
 </table>
 
-下表显示当财务服务用作总成本的分配基础时的结果（固定成本和可变成本）。
+<span data-ttu-id="5c693-567">下表显示当财务服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="5c693-567">The following table shows the result when the Finance services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>度量值</th>
-<th>分配系数</th>
-<th>本币金额</th>
-<th>成本行为</th>
+<th colspan="2"><span data-ttu-id="5c693-568">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-568">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-569">度量值</span><span class="sxs-lookup"><span data-stu-id="5c693-569">Magnitude</span></span></th>
+<th><span data-ttu-id="5c693-570">分配系数</span><span class="sxs-lookup"><span data-stu-id="5c693-570">Allocation factor</span></span></th>
+<th><span data-ttu-id="5c693-571">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-571">Amount</span></span></th>
+<th><span data-ttu-id="5c693-572">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-572">Cost behavior</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>65</td>
-<td>(65 ÷ 100) × (500.00 + 175.00)</td>
-<td>438.75</td>
-<td>固定成本</td>
+<td><span data-ttu-id="5c693-573">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-573">CC003</span></span></td>
+<td><span data-ttu-id="5c693-574">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-574">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-575">65</span><span class="sxs-lookup"><span data-stu-id="5c693-575">65</span></span></td>
+<td><span data-ttu-id="5c693-576">(65 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="5c693-576">(65 ÷ 100) × (500.00 + 175.00)</span></span></td>
+<td><span data-ttu-id="5c693-577">438.75</span><span class="sxs-lookup"><span data-stu-id="5c693-577">438.75</span></span></td>
+<td><span data-ttu-id="5c693-578">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-578">Fixed cost</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>35</td>
-<td>(35 ÷ 100) × (500.00 + 175.00)</td>
-<td>236.25</td>
-<td>固定成本</td>
+<td><span data-ttu-id="5c693-579">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-579">CC004</span></span></td>
+<td><span data-ttu-id="5c693-580">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-580">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-581">35</span><span class="sxs-lookup"><span data-stu-id="5c693-581">35</span></span></td>
+<td><span data-ttu-id="5c693-582">(35 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="5c693-582">(35 ÷ 100) × (500.00 + 175.00)</span></span></td>
+<td><span data-ttu-id="5c693-583">236.25</span><span class="sxs-lookup"><span data-stu-id="5c693-583">236.25</span></span></td>
+<td><span data-ttu-id="5c693-584">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-584">Fixed cost</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>65</td>
-<td>(65 ÷ 100) × (7,714.29 + 436.00)</td>
-<td>5,297.69</td>
-<td>可变成本</td>
+<td><span data-ttu-id="5c693-585">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-585">CC003</span></span></td>
+<td><span data-ttu-id="5c693-586">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-586">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-587">65</span><span class="sxs-lookup"><span data-stu-id="5c693-587">65</span></span></td>
+<td><span data-ttu-id="5c693-588">(65 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="5c693-588">(65 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
+<td><span data-ttu-id="5c693-589">5,297.69</span><span class="sxs-lookup"><span data-stu-id="5c693-589">5,297.69</span></span></td>
+<td><span data-ttu-id="5c693-590">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-590">Variable cost</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>35</td>
-<td>(35 ÷ 100) × (7,714.29 + 436.00)</td>
-<td>2,852.60</td>
-<td>可变成本</td>
+<td><span data-ttu-id="5c693-591">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-591">CC004</span></span></td>
+<td><span data-ttu-id="5c693-592">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-592">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-593">35</span><span class="sxs-lookup"><span data-stu-id="5c693-593">35</span></span></td>
+<td><span data-ttu-id="5c693-594">(35 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="5c693-594">(35 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
+<td><span data-ttu-id="5c693-595">2,852.60</span><span class="sxs-lookup"><span data-stu-id="5c693-595">2,852.60</span></span></td>
+<td><span data-ttu-id="5c693-596">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-596">Variable cost</span></span></td>
 </tr>
 </tbody>
 </table>
 
-下表显示当装配服务用作总成本的分配基础时的结果（固定成本和可变成本）。
+<span data-ttu-id="5c693-597">下表显示当装配服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="5c693-597">The following table shows the result when the Assembly services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>度量值</th>
-<th>分配系数</th>
-<th>本币金额</th>
-<th>成本行为</th>
+<th colspan="2"><span data-ttu-id="5c693-598">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-598">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-599">度量值</span><span class="sxs-lookup"><span data-stu-id="5c693-599">Magnitude</span></span></th>
+<th><span data-ttu-id="5c693-600">分配系数</span><span class="sxs-lookup"><span data-stu-id="5c693-600">Allocation factor</span></span></th>
+<th><span data-ttu-id="5c693-601">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-601">Amount</span></span></th>
+<th><span data-ttu-id="5c693-602">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-602">Cost behavior</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>60</td>
-<td>(60 ÷ 80) × (275.00 + 438.75)</td>
-<td>535.31</td>
-<td>固定成本</td>
+<td><span data-ttu-id="5c693-603">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-603">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-604">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-604">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-605">60</span><span class="sxs-lookup"><span data-stu-id="5c693-605">60</span></span></td>
+<td><span data-ttu-id="5c693-606">(60 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="5c693-606">(60 ÷ 80) × (275.00 + 438.75)</span></span></td>
+<td><span data-ttu-id="5c693-607">535.31</span><span class="sxs-lookup"><span data-stu-id="5c693-607">535.31</span></span></td>
+<td><span data-ttu-id="5c693-608">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-608">Fixed cost</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>20</td>
-<td>(20 ÷ 80) × (275.00 + 438.75)</td>
-<td>178.44</td>
-<td>固定成本</td>
+<td><span data-ttu-id="5c693-609">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-609">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-610">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-610">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-611">20</span><span class="sxs-lookup"><span data-stu-id="5c693-611">20</span></span></td>
+<td><span data-ttu-id="5c693-612">(20 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="5c693-612">(20 ÷ 80) × (275.00 + 438.75)</span></span></td>
+<td><span data-ttu-id="5c693-613">178.44</span><span class="sxs-lookup"><span data-stu-id="5c693-613">178.44</span></span></td>
+<td><span data-ttu-id="5c693-614">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-614">Fixed cost</span></span></td>
 </tr>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>60</td>
-<td>(60 ÷ 80) × (5,297.69 + 685.14)</td>
-<td>4,487.12</td>
-<td>可变成本</td>
+<td><span data-ttu-id="5c693-615">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-615">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-616">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-616">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-617">60</span><span class="sxs-lookup"><span data-stu-id="5c693-617">60</span></span></td>
+<td><span data-ttu-id="5c693-618">(60 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="5c693-618">(60 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
+<td><span data-ttu-id="5c693-619">4,487.12</span><span class="sxs-lookup"><span data-stu-id="5c693-619">4,487.12</span></span></td>
+<td><span data-ttu-id="5c693-620">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-620">Variable cost</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>20</td>
-<td>(20 ÷ 80) × (5,297.69 + 685.14)</td>
-<td>1,495.71</td>
-<td>可变成本</td>
+<td><span data-ttu-id="5c693-621">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-621">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-622">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-622">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-623">20</span><span class="sxs-lookup"><span data-stu-id="5c693-623">20</span></span></td>
+<td><span data-ttu-id="5c693-624">(20 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="5c693-624">(20 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
+<td><span data-ttu-id="5c693-625">1,495.71</span><span class="sxs-lookup"><span data-stu-id="5c693-625">1,495.71</span></span></td>
+<td><span data-ttu-id="5c693-626">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-626">Variable cost</span></span></td>
 </tr>
 </tbody>
 </table>
 
-下表显示当包装服务用作总成本的分配基础时的结果（固定成本和可变成本）。
+<span data-ttu-id="5c693-627">下表显示当包装服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="5c693-627">The following table shows the result when the Packaging services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th>度量值</th>
-<th>分配系数</th>
-<th>本币金额</th>
-<th>成本行为</th>
+<th colspan="2"><span data-ttu-id="5c693-628">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-628">Cost object</span></span></th>
+<th><span data-ttu-id="5c693-629">度量值</span><span class="sxs-lookup"><span data-stu-id="5c693-629">Magnitude</span></span></th>
+<th><span data-ttu-id="5c693-630">分配系数</span><span class="sxs-lookup"><span data-stu-id="5c693-630">Allocation factor</span></span></th>
+<th><span data-ttu-id="5c693-631">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-631">Amount</span></span></th>
+<th><span data-ttu-id="5c693-632">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-632">Cost behavior</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>80</td>
-<td>(80 ÷ 95) × (50.00 + 236.25)</td>
-<td>241.05</td>
-<td>固定成本</td>
+<td><span data-ttu-id="5c693-633">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-633">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-634">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-634">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-635">80</span><span class="sxs-lookup"><span data-stu-id="5c693-635">80</span></span></td>
+<td><span data-ttu-id="5c693-636">(80 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="5c693-636">(80 ÷ 95) × (50.00 + 236.25)</span></span></td>
+<td><span data-ttu-id="5c693-637">241.05</span><span class="sxs-lookup"><span data-stu-id="5c693-637">241.05</span></span></td>
+<td><span data-ttu-id="5c693-638">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-638">Fixed cost</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>15</td>
-<td>(15 ÷ 95) × (50.00 + 236.25)</td>
-<td>45.20</td>
-<td>固定成本</td>
+<td><span data-ttu-id="5c693-639">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-639">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-640">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-640">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-641">15</span><span class="sxs-lookup"><span data-stu-id="5c693-641">15</span></span></td>
+<td><span data-ttu-id="5c693-642">(15 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="5c693-642">(15 ÷ 95) × (50.00 + 236.25)</span></span></td>
+<td><span data-ttu-id="5c693-643">45.20</span><span class="sxs-lookup"><span data-stu-id="5c693-643">45.20</span></span></td>
+<td><span data-ttu-id="5c693-644">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-644">Fixed cost</span></span></td>
 </tr>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>80</td>
-<td>(80 ÷ 95) × (2,852.60 + 124.57)</td>
-<td>2,507.09</td>
-<td>可变成本</td>
+<td><span data-ttu-id="5c693-645">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-645">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-646">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-646">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-647">80</span><span class="sxs-lookup"><span data-stu-id="5c693-647">80</span></span></td>
+<td><span data-ttu-id="5c693-648">(80 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="5c693-648">(80 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
+<td><span data-ttu-id="5c693-649">2,507.09</span><span class="sxs-lookup"><span data-stu-id="5c693-649">2,507.09</span></span></td>
+<td><span data-ttu-id="5c693-650">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-650">Variable cost</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>15</td>
-<td>(15 ÷ 95) × (2,852.60 + 124.57)</td>
-<td>470.08</td>
-<td>可变成本</td>
+<td><span data-ttu-id="5c693-651">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-651">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-652">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-652">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-653">15</span><span class="sxs-lookup"><span data-stu-id="5c693-653">15</span></span></td>
+<td><span data-ttu-id="5c693-654">(15 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="5c693-654">(15 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
+<td><span data-ttu-id="5c693-655">470.08</span><span class="sxs-lookup"><span data-stu-id="5c693-655">470.08</span></span></td>
+<td><span data-ttu-id="5c693-656">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-656">Variable cost</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a>日记帐条目（成本对象余额日记帐条目）
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="5c693-657">日记帐条目（成本对象余额日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="5c693-657">Journal entries (cost object balance journal entries)</span></span>
 
 <table>
 <thead>
 <tr>
-<th>生产订单日记帐</th>
-<th>日记帐类型</th>
-<th colspan="3">会计日历期间</th>
-<th>版本</th>
+<th><span data-ttu-id="5c693-658">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-658">Journal</span></span></th>
+<th><span data-ttu-id="5c693-659">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="5c693-659">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="5c693-660">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="5c693-660">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="5c693-661">版本</span><span class="sxs-lookup"><span data-stu-id="5c693-661">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>00004</td>
-<td>成本分配日记帐</td>
-<td>会计</td>
-<td>2017</td>
-<td>期间 1</td>
-<td>开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</td>
+<td><span data-ttu-id="5c693-662">00004</span><span class="sxs-lookup"><span data-stu-id="5c693-662">00004</span></span></td>
+<td><span data-ttu-id="5c693-663">成本分配日记帐</span><span class="sxs-lookup"><span data-stu-id="5c693-663">Cost allocation journal</span></span></td>
+<td><span data-ttu-id="5c693-664">会计</span><span class="sxs-lookup"><span data-stu-id="5c693-664">Fiscal</span></span></td>
+<td><span data-ttu-id="5c693-665">2017</span><span class="sxs-lookup"><span data-stu-id="5c693-665">2017</span></span></td>
+<td><span data-ttu-id="5c693-666">期间 1</span><span class="sxs-lookup"><span data-stu-id="5c693-666">Period 1</span></span></td>
+<td><span data-ttu-id="5c693-667">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="5c693-667">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-lines"></a>日记帐行
+##### <a name="journal-lines"></a><span data-ttu-id="5c693-668">日记帐行</span><span class="sxs-lookup"><span data-stu-id="5c693-668">Journal lines</span></span>
 
 <table>
 <thead>
 <tr>
-<th>会计日期</th>
-<th colspan="2">成本对象</th>
-<th colspan="2">成本元素</th>
-<th>成本行为</th>
-<th>本币金额</th>
+<th><span data-ttu-id="5c693-669">会计日期</span><span class="sxs-lookup"><span data-stu-id="5c693-669">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-670">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-670">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-671">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-671">Cost element</span></span></th>
+<th><span data-ttu-id="5c693-672">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-672">Cost behavior</span></span></th>
+<th><span data-ttu-id="5c693-673">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-673">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC001</td>
-<td>HR</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>500.00</td>
+<td><span data-ttu-id="5c693-674">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-674">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-675">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-675">CC001</span></span></td>
+<td><span data-ttu-id="5c693-676">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-676">HR</span></span></td>
+<td><span data-ttu-id="5c693-677">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-677">10001</span></span></td>
+<td><span data-ttu-id="5c693-678">电</span><span class="sxs-lookup"><span data-stu-id="5c693-678">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-679">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-679">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-680">500.00</span><span class="sxs-lookup"><span data-stu-id="5c693-680">500.00</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC001</td>
-<td>HR</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>1,245.71</td>
+<td><span data-ttu-id="5c693-681">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-681">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-682">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-682">CC001</span></span></td>
+<td><span data-ttu-id="5c693-683">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-683">HR</span></span></td>
+<td><span data-ttu-id="5c693-684">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-684">10001</span></span></td>
+<td><span data-ttu-id="5c693-685">电</span><span class="sxs-lookup"><span data-stu-id="5c693-685">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-686">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-686">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-687">1,245.71</span><span class="sxs-lookup"><span data-stu-id="5c693-687">1,245.71</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC002</td>
-<td>财务</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>675.00</td>
+<td><span data-ttu-id="5c693-688">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-688">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-689">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-689">CC002</span></span></td>
+<td><span data-ttu-id="5c693-690">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-690">Finance</span></span></td>
+<td><span data-ttu-id="5c693-691">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-691">10001</span></span></td>
+<td><span data-ttu-id="5c693-692">电</span><span class="sxs-lookup"><span data-stu-id="5c693-692">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-693">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-693">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-694">675.00</span><span class="sxs-lookup"><span data-stu-id="5c693-694">675.00</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC002</td>
-<td>财务</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>8,150.29</td>
+<td><span data-ttu-id="5c693-695">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-695">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-696">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-696">CC002</span></span></td>
+<td><span data-ttu-id="5c693-697">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-697">Finance</span></span></td>
+<td><span data-ttu-id="5c693-698">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-698">10001</span></span></td>
+<td><span data-ttu-id="5c693-699">电</span><span class="sxs-lookup"><span data-stu-id="5c693-699">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-700">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-700">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-701">8,150.29</span><span class="sxs-lookup"><span data-stu-id="5c693-701">8,150.29</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>713.75</td>
+<td><span data-ttu-id="5c693-702">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-702">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-703">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-703">CC003</span></span></td>
+<td><span data-ttu-id="5c693-704">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-704">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-705">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-705">10001</span></span></td>
+<td><span data-ttu-id="5c693-706">电</span><span class="sxs-lookup"><span data-stu-id="5c693-706">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-707">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-707">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-708">713.75</span><span class="sxs-lookup"><span data-stu-id="5c693-708">713.75</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>5,982.83</td>
+<td><span data-ttu-id="5c693-709">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-709">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-710">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-710">CC003</span></span></td>
+<td><span data-ttu-id="5c693-711">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-711">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-712">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-712">10001</span></span></td>
+<td><span data-ttu-id="5c693-713">电</span><span class="sxs-lookup"><span data-stu-id="5c693-713">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-714">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-714">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-715">5,982.83</span><span class="sxs-lookup"><span data-stu-id="5c693-715">5,982.83</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC003</td>
-<td>包装</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>286.25</td>
+<td><span data-ttu-id="5c693-716">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-716">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-717">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-717">CC003</span></span></td>
+<td><span data-ttu-id="5c693-718">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-718">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-719">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-719">10001</span></span></td>
+<td><span data-ttu-id="5c693-720">电</span><span class="sxs-lookup"><span data-stu-id="5c693-720">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-721">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-721">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-722">286.25</span><span class="sxs-lookup"><span data-stu-id="5c693-722">286.25</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>CC003</td>
-<td>包装</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>2,977.17</td>
+<td><span data-ttu-id="5c693-723">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-723">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-724">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-724">CC003</span></span></td>
+<td><span data-ttu-id="5c693-725">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-725">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-726">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-726">10001</span></span></td>
+<td><span data-ttu-id="5c693-727">电</span><span class="sxs-lookup"><span data-stu-id="5c693-727">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-728">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-728">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-729">2,977.17</span><span class="sxs-lookup"><span data-stu-id="5c693-729">2,977.17</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>776.36</td>
+<td><span data-ttu-id="5c693-730">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-730">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-731">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-731">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-732">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-732">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-733">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-733">10001</span></span></td>
+<td><span data-ttu-id="5c693-734">电</span><span class="sxs-lookup"><span data-stu-id="5c693-734">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-735">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-735">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-736">776.36</span><span class="sxs-lookup"><span data-stu-id="5c693-736">776.36</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>6,994.21</td>
+<td><span data-ttu-id="5c693-737">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-737">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-738">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-738">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-739">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-739">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-740">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-740">10001</span></span></td>
+<td><span data-ttu-id="5c693-741">电</span><span class="sxs-lookup"><span data-stu-id="5c693-741">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-742">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-742">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-743">6,994.21</span><span class="sxs-lookup"><span data-stu-id="5c693-743">6,994.21</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>产品 2</td>
-<td>产品 1</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>223.64</td>
+<td><span data-ttu-id="5c693-744">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-744">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-745">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-745">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-746">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-746">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-747">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-747">10001</span></span></td>
+<td><span data-ttu-id="5c693-748">电</span><span class="sxs-lookup"><span data-stu-id="5c693-748">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-749">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-749">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-750">223.64</span><span class="sxs-lookup"><span data-stu-id="5c693-750">223.64</span></span></td>
 </tr>
 <tr>
-<td>2017 年 1 月 31 日</td>
-<td>产品 2</td>
-<td>产品 1</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>1,965.79</td>
+<td><span data-ttu-id="5c693-751">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-751">January 31, 2017</span></span></td>
+<td><span data-ttu-id="5c693-752">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-752">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-753">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-753">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-754">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-754">10001</span></span></td>
+<td><span data-ttu-id="5c693-755">电</span><span class="sxs-lookup"><span data-stu-id="5c693-755">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-756">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-756">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-757">1,965.79</span><span class="sxs-lookup"><span data-stu-id="5c693-757">1,965.79</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a>成本条目
+##### <a name="cost-entries"></a><span data-ttu-id="5c693-758">成本条目</span><span class="sxs-lookup"><span data-stu-id="5c693-758">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2">成本对象</th>
-<th colspan="2">成本元素</th>
-<th>成本行为</th>
-<th>本币金额</th>
-<th>会计日期</th>
+<th colspan="2"><span data-ttu-id="5c693-759">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-759">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="5c693-760">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-760">Cost element</span></span></th>
+<th><span data-ttu-id="5c693-761">成本行为</span><span class="sxs-lookup"><span data-stu-id="5c693-761">Cost behavior</span></span></th>
+<th><span data-ttu-id="5c693-762">本币金额</span><span class="sxs-lookup"><span data-stu-id="5c693-762">Amount</span></span></th>
+<th><span data-ttu-id="5c693-763">会计日期</span><span class="sxs-lookup"><span data-stu-id="5c693-763">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>CC001</td>
-<td>HR</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>-500.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-764">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-764">CC001</span></span></td>
+<td><span data-ttu-id="5c693-765">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-765">HR</span></span></td>
+<td><span data-ttu-id="5c693-766">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-766">10001</span></span></td>
+<td><span data-ttu-id="5c693-767">电</span><span class="sxs-lookup"><span data-stu-id="5c693-767">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-768">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-768">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-769">-500.00</span><span class="sxs-lookup"><span data-stu-id="5c693-769">-500.00</span></span></td>
+<td><span data-ttu-id="5c693-770">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-770">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>175.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-771">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-771">CC002</span></span></td>
+<td><span data-ttu-id="5c693-772">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-772">Finance</span></span></td>
+<td><span data-ttu-id="5c693-773">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-773">10001</span></span></td>
+<td><span data-ttu-id="5c693-774">电</span><span class="sxs-lookup"><span data-stu-id="5c693-774">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-775">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-775">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-776">175.00</span><span class="sxs-lookup"><span data-stu-id="5c693-776">175.00</span></span></td>
+<td><span data-ttu-id="5c693-777">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-777">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>275.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-778">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-778">CC003</span></span></td>
+<td><span data-ttu-id="5c693-779">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-779">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-780">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-780">10001</span></span></td>
+<td><span data-ttu-id="5c693-781">电</span><span class="sxs-lookup"><span data-stu-id="5c693-781">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-782">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-782">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-783">275.00</span><span class="sxs-lookup"><span data-stu-id="5c693-783">275.00</span></span></td>
+<td><span data-ttu-id="5c693-784">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-784">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>50,00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-785">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-785">CC004</span></span></td>
+<td><span data-ttu-id="5c693-786">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-786">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-787">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-787">10001</span></span></td>
+<td><span data-ttu-id="5c693-788">电</span><span class="sxs-lookup"><span data-stu-id="5c693-788">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-789">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-789">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-790">50,00</span><span class="sxs-lookup"><span data-stu-id="5c693-790">50,00</span></span></td>
+<td><span data-ttu-id="5c693-791">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-791">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC001</td>
-<td>HR</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>-1,245.71</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-792">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-792">CC001</span></span></td>
+<td><span data-ttu-id="5c693-793">HR</span><span class="sxs-lookup"><span data-stu-id="5c693-793">HR</span></span></td>
+<td><span data-ttu-id="5c693-794">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-794">10001</span></span></td>
+<td><span data-ttu-id="5c693-795">电</span><span class="sxs-lookup"><span data-stu-id="5c693-795">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-796">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-796">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-797">-1,245.71</span><span class="sxs-lookup"><span data-stu-id="5c693-797">-1,245.71</span></span></td>
+<td><span data-ttu-id="5c693-798">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-798">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>436.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-799">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-799">CC002</span></span></td>
+<td><span data-ttu-id="5c693-800">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-800">Finance</span></span></td>
+<td><span data-ttu-id="5c693-801">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-801">10001</span></span></td>
+<td><span data-ttu-id="5c693-802">电</span><span class="sxs-lookup"><span data-stu-id="5c693-802">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-803">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-803">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-804">436.00</span><span class="sxs-lookup"><span data-stu-id="5c693-804">436.00</span></span></td>
+<td><span data-ttu-id="5c693-805">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-805">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>685.14</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-806">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-806">CC003</span></span></td>
+<td><span data-ttu-id="5c693-807">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-807">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-808">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-808">10001</span></span></td>
+<td><span data-ttu-id="5c693-809">电</span><span class="sxs-lookup"><span data-stu-id="5c693-809">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-810">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-810">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-811">685.14</span><span class="sxs-lookup"><span data-stu-id="5c693-811">685.14</span></span></td>
+<td><span data-ttu-id="5c693-812">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-812">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>124.57</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-813">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-813">CC004</span></span></td>
+<td><span data-ttu-id="5c693-814">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-814">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-815">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-815">10001</span></span></td>
+<td><span data-ttu-id="5c693-816">电</span><span class="sxs-lookup"><span data-stu-id="5c693-816">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-817">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-817">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-818">124.57</span><span class="sxs-lookup"><span data-stu-id="5c693-818">124.57</span></span></td>
+<td><span data-ttu-id="5c693-819">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-819">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>-675.00</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-820">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-820">CC002</span></span></td>
+<td><span data-ttu-id="5c693-821">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-821">Finance</span></span></td>
+<td><span data-ttu-id="5c693-822">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-822">10001</span></span></td>
+<td><span data-ttu-id="5c693-823">电</span><span class="sxs-lookup"><span data-stu-id="5c693-823">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-824">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-824">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-825">-675.00</span><span class="sxs-lookup"><span data-stu-id="5c693-825">-675.00</span></span></td>
+<td><span data-ttu-id="5c693-826">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-826">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>438.75</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-827">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-827">CC003</span></span></td>
+<td><span data-ttu-id="5c693-828">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-828">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-829">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-829">10001</span></span></td>
+<td><span data-ttu-id="5c693-830">电</span><span class="sxs-lookup"><span data-stu-id="5c693-830">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-831">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-831">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-832">438.75</span><span class="sxs-lookup"><span data-stu-id="5c693-832">438.75</span></span></td>
+<td><span data-ttu-id="5c693-833">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-833">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>236.25</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-834">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-834">CC004</span></span></td>
+<td><span data-ttu-id="5c693-835">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-835">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-836">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-836">10001</span></span></td>
+<td><span data-ttu-id="5c693-837">电</span><span class="sxs-lookup"><span data-stu-id="5c693-837">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-838">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-838">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-839">236.25</span><span class="sxs-lookup"><span data-stu-id="5c693-839">236.25</span></span></td>
+<td><span data-ttu-id="5c693-840">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-840">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC002</td>
-<td>财务</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>-8,150.29</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-841">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-841">CC002</span></span></td>
+<td><span data-ttu-id="5c693-842">财务</span><span class="sxs-lookup"><span data-stu-id="5c693-842">Finance</span></span></td>
+<td><span data-ttu-id="5c693-843">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-843">10001</span></span></td>
+<td><span data-ttu-id="5c693-844">电</span><span class="sxs-lookup"><span data-stu-id="5c693-844">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-845">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-845">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-846">-8,150.29</span><span class="sxs-lookup"><span data-stu-id="5c693-846">-8,150.29</span></span></td>
+<td><span data-ttu-id="5c693-847">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-847">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>5,297.69</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-848">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-848">CC003</span></span></td>
+<td><span data-ttu-id="5c693-849">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-849">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-850">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-850">10001</span></span></td>
+<td><span data-ttu-id="5c693-851">电</span><span class="sxs-lookup"><span data-stu-id="5c693-851">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-852">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-852">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-853">5,297.69</span><span class="sxs-lookup"><span data-stu-id="5c693-853">5,297.69</span></span></td>
+<td><span data-ttu-id="5c693-854">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-854">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC004</td>
-<td>包装</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>2,852.60</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-855">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-855">CC004</span></span></td>
+<td><span data-ttu-id="5c693-856">包装</span><span class="sxs-lookup"><span data-stu-id="5c693-856">Packaging</span></span></td>
+<td><span data-ttu-id="5c693-857">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-857">10001</span></span></td>
+<td><span data-ttu-id="5c693-858">电</span><span class="sxs-lookup"><span data-stu-id="5c693-858">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-859">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-859">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-860">2,852.60</span><span class="sxs-lookup"><span data-stu-id="5c693-860">2,852.60</span></span></td>
+<td><span data-ttu-id="5c693-861">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-861">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>-713.75</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-862">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-862">CC003</span></span></td>
+<td><span data-ttu-id="5c693-863">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-863">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-864">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-864">10001</span></span></td>
+<td><span data-ttu-id="5c693-865">电</span><span class="sxs-lookup"><span data-stu-id="5c693-865">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-866">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-866">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-867">-713.75</span><span class="sxs-lookup"><span data-stu-id="5c693-867">-713.75</span></span></td>
+<td><span data-ttu-id="5c693-868">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-868">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>535.31</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-869">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-869">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-870">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-870">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-871">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-871">10001</span></span></td>
+<td><span data-ttu-id="5c693-872">电</span><span class="sxs-lookup"><span data-stu-id="5c693-872">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-873">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-873">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-874">535.31</span><span class="sxs-lookup"><span data-stu-id="5c693-874">535.31</span></span></td>
+<td><span data-ttu-id="5c693-875">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-875">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>178.44</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-876">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-876">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-877">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-877">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-878">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-878">10001</span></span></td>
+<td><span data-ttu-id="5c693-879">电</span><span class="sxs-lookup"><span data-stu-id="5c693-879">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-880">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-880">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-881">178.44</span><span class="sxs-lookup"><span data-stu-id="5c693-881">178.44</span></span></td>
+<td><span data-ttu-id="5c693-882">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-882">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>-5,982.83</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-883">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-883">CC003</span></span></td>
+<td><span data-ttu-id="5c693-884">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-884">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-885">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-885">10001</span></span></td>
+<td><span data-ttu-id="5c693-886">电</span><span class="sxs-lookup"><span data-stu-id="5c693-886">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-887">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-887">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-888">-5,982.83</span><span class="sxs-lookup"><span data-stu-id="5c693-888">-5,982.83</span></span></td>
+<td><span data-ttu-id="5c693-889">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-889">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>4,487.12</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-890">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-890">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-891">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-891">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-892">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-892">10001</span></span></td>
+<td><span data-ttu-id="5c693-893">电</span><span class="sxs-lookup"><span data-stu-id="5c693-893">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-894">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-894">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-895">4,487.12</span><span class="sxs-lookup"><span data-stu-id="5c693-895">4,487.12</span></span></td>
+<td><span data-ttu-id="5c693-896">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-896">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>1,495.71</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-897">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-897">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-898">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-898">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-899">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-899">10001</span></span></td>
+<td><span data-ttu-id="5c693-900">电</span><span class="sxs-lookup"><span data-stu-id="5c693-900">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-901">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-901">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-902">1,495.71</span><span class="sxs-lookup"><span data-stu-id="5c693-902">1,495.71</span></span></td>
+<td><span data-ttu-id="5c693-903">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-903">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>-286.25</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-904">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-904">CC003</span></span></td>
+<td><span data-ttu-id="5c693-905">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-905">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-906">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-906">10001</span></span></td>
+<td><span data-ttu-id="5c693-907">电</span><span class="sxs-lookup"><span data-stu-id="5c693-907">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-908">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-908">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-909">-286.25</span><span class="sxs-lookup"><span data-stu-id="5c693-909">-286.25</span></span></td>
+<td><span data-ttu-id="5c693-910">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-910">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>241.05</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-911">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-911">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-912">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-912">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-913">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-913">10001</span></span></td>
+<td><span data-ttu-id="5c693-914">电</span><span class="sxs-lookup"><span data-stu-id="5c693-914">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-915">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-915">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-916">241.05</span><span class="sxs-lookup"><span data-stu-id="5c693-916">241.05</span></span></td>
+<td><span data-ttu-id="5c693-917">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-917">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>10001</td>
-<td>电</td>
-<td>固定成本</td>
-<td>45.20</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-918">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-918">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-919">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-919">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-920">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-920">10001</span></span></td>
+<td><span data-ttu-id="5c693-921">电</span><span class="sxs-lookup"><span data-stu-id="5c693-921">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-922">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-922">Fixed cost</span></span></td>
+<td><span data-ttu-id="5c693-923">45.20</span><span class="sxs-lookup"><span data-stu-id="5c693-923">45.20</span></span></td>
+<td><span data-ttu-id="5c693-924">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-924">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>CC003</td>
-<td>程序集</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>-2,977.17</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-925">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-925">CC003</span></span></td>
+<td><span data-ttu-id="5c693-926">程序集</span><span class="sxs-lookup"><span data-stu-id="5c693-926">Assembly</span></span></td>
+<td><span data-ttu-id="5c693-927">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-927">10001</span></span></td>
+<td><span data-ttu-id="5c693-928">电</span><span class="sxs-lookup"><span data-stu-id="5c693-928">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-929">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-929">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-930">-2,977.17</span><span class="sxs-lookup"><span data-stu-id="5c693-930">-2,977.17</span></span></td>
+<td><span data-ttu-id="5c693-931">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-931">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>产品 1</td>
-<td>产品 1</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>2,507.09</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-932">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-932">Prod 1</span></span></td>
+<td><span data-ttu-id="5c693-933">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-933">Product 1</span></span></td>
+<td><span data-ttu-id="5c693-934">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-934">10001</span></span></td>
+<td><span data-ttu-id="5c693-935">电</span><span class="sxs-lookup"><span data-stu-id="5c693-935">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-936">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-936">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-937">2,507.09</span><span class="sxs-lookup"><span data-stu-id="5c693-937">2,507.09</span></span></td>
+<td><span data-ttu-id="5c693-938">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-938">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td>产品 2</td>
-<td>产品 2</td>
-<td>10001</td>
-<td>电</td>
-<td>可变成本</td>
-<td>470.08</td>
-<td>2017 年 1 月 31 日</td>
+<td><span data-ttu-id="5c693-939">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-939">Prod 2</span></span></td>
+<td><span data-ttu-id="5c693-940">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-940">Product 2</span></span></td>
+<td><span data-ttu-id="5c693-941">10001</span><span class="sxs-lookup"><span data-stu-id="5c693-941">10001</span></span></td>
+<td><span data-ttu-id="5c693-942">电</span><span class="sxs-lookup"><span data-stu-id="5c693-942">Electricity</span></span></td>
+<td><span data-ttu-id="5c693-943">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-943">Variable cost</span></span></td>
+<td><span data-ttu-id="5c693-944">470.08</span><span class="sxs-lookup"><span data-stu-id="5c693-944">470.08</span></span></td>
+<td><span data-ttu-id="5c693-945">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="5c693-945">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="conclusion"></a>结论
-在财务会计中，10,000.00 电成本过帐到虚拟成本中心 ID。 因此，成本会计员将了解必须分摊此成本。 在成本核算中，跨组织单位和级别的成本流，基于所应用的政策和规则。 每项成本已与为成本分摊提供最佳评估的分配基础关联。
+## <a name="conclusion"></a><span data-ttu-id="5c693-946">结论</span><span class="sxs-lookup"><span data-stu-id="5c693-946">Conclusion</span></span>
+<span data-ttu-id="5c693-947">在财务会计中，10,000.00 电成本过帐到虚拟成本中心 ID。</span><span class="sxs-lookup"><span data-stu-id="5c693-947">In Financial accounting, a cost of 10,000.00 for Electricity is posted to a dummy cost center ID.</span></span> <span data-ttu-id="5c693-948">因此，成本会计员将了解必须分摊此成本。</span><span class="sxs-lookup"><span data-stu-id="5c693-948">Therefore, cost accountants will know that this cost must be allocated.</span></span> <span data-ttu-id="5c693-949">在成本核算中，跨组织单位和级别的成本流，基于所应用的政策和规则。</span><span class="sxs-lookup"><span data-stu-id="5c693-949">In Cost accounting, the costs flow across organizational units and levels, based on the policies and rules that are applied.</span></span> <span data-ttu-id="5c693-950">每项成本已与为成本分摊提供最佳评估的分配基础关联。</span><span class="sxs-lookup"><span data-stu-id="5c693-950">Each cost has been associated with an allocation base that provides the best assessment for the allocation of costs.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2" rowspan="2">成本元素</th>
-<th colspan="9">成本对象</th>
-<th rowspan="2">合计</th>
+<th colspan="2" rowspan="2"><span data-ttu-id="5c693-951">成本元素</span><span class="sxs-lookup"><span data-stu-id="5c693-951">Cost element</span></span></th>
+<th colspan="9"><span data-ttu-id="5c693-952">成本对象</span><span class="sxs-lookup"><span data-stu-id="5c693-952">Cost object</span></span></th>
+<th rowspan="2"><span data-ttu-id="5c693-953">合计</span><span class="sxs-lookup"><span data-stu-id="5c693-953">Total</span></span></th>
 </tr>
 <tr>
-<th>CC099</th>
-<th>CC001</th>
-<th>CC002</th>
-<th>CC003</th>
-<th>CC004</th>
-<th>项目 1</th>
-<th>项目 2</th>
-<th>产品 1</th>
-<th>产品 2</th>
+<th><span data-ttu-id="5c693-954">CC099</span><span class="sxs-lookup"><span data-stu-id="5c693-954">CC099</span></span></th>
+<th><span data-ttu-id="5c693-955">CC001</span><span class="sxs-lookup"><span data-stu-id="5c693-955">CC001</span></span></th>
+<th><span data-ttu-id="5c693-956">CC002</span><span class="sxs-lookup"><span data-stu-id="5c693-956">CC002</span></span></th>
+<th><span data-ttu-id="5c693-957">CC003</span><span class="sxs-lookup"><span data-stu-id="5c693-957">CC003</span></span></th>
+<th><span data-ttu-id="5c693-958">CC004</span><span class="sxs-lookup"><span data-stu-id="5c693-958">CC004</span></span></th>
+<th><span data-ttu-id="5c693-959">项目 1</span><span class="sxs-lookup"><span data-stu-id="5c693-959">Proj 1</span></span></th>
+<th><span data-ttu-id="5c693-960">项目 2</span><span class="sxs-lookup"><span data-stu-id="5c693-960">Proj 2</span></span></th>
+<th><span data-ttu-id="5c693-961">产品 1</span><span class="sxs-lookup"><span data-stu-id="5c693-961">Prod 1</span></span></th>
+<th><span data-ttu-id="5c693-962">产品 2</span><span class="sxs-lookup"><span data-stu-id="5c693-962">Prod 2</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td colspan="2">10001 电</td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
-<td style="text-align: right;"><strong>0.00</strong></td>
+<td colspan="2"><span data-ttu-id="5c693-963">10001 电</span><span class="sxs-lookup"><span data-stu-id="5c693-963">10001 Electricity</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-964"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-964"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-965"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-965"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-966"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-966"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-967"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-967"><strong>0.00</strong></span></span></td>
 <td style="text-align: right;"></td>
-<td style="text-align: right;"><strong>30.00</strong></td>
-<td style="text-align: right;"><strong>10.00</strong></td>
-<td style="text-align: right;"><strong>7,770.57</strong></td>
-<td style="text-align: right;"><strong>2,189.43</strong></td>
-<td style="text-align: right;"><strong>10,000.00</strong></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-968"><strong>30.00</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-968"><strong>30.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-969"><strong>10.00</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-969"><strong>10.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-970"><strong>7,770.57</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-970"><strong>7,770.57</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-971"><strong>2,189.43</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-971"><strong>2,189.43</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-972"><strong>10,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-972"><strong>10,000.00</strong></span></span></td>
 </tr>
 <tr>
 <td></td>
-<td style="text-align: left;">未分类</td>
-<td style="text-align: right;">0.00</td>
+<td style="text-align: left;"><span data-ttu-id="5c693-973">未分类</span><span class="sxs-lookup"><span data-stu-id="5c693-973">Unclassified</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-974">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-974">0.00</span></span></td>
 <td style="text-align: right;"></td>
 <td style="text-align: right;"></td>
 <td style="text-align: right;"></td>
@@ -1381,37 +1381,37 @@ ms.lasthandoff: 06/13/2017
 </tr>
 <tr>
 <td style="text-align: right;"></td>
-<td style="text-align: left;">固定成本</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
+<td style="text-align: left;"><span data-ttu-id="5c693-975">固定成本</span><span class="sxs-lookup"><span data-stu-id="5c693-975">Fixed cost</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-976">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-976">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-977">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-977">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-978">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-978">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-979">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-979">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-980">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-980">0.00</span></span></td>
 <td style="text-align: right;"></td>
 <td style="text-align: right;"></td>
-<td style="text-align: right;">776.36</td>
-<td style="text-align: right;">223.64</td>
-<td style="text-align: right;"><strong>1,000.00</strong></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-981">776.36</span><span class="sxs-lookup"><span data-stu-id="5c693-981">776.36</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-982">223.64</span><span class="sxs-lookup"><span data-stu-id="5c693-982">223.64</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-983"><strong>1,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-983"><strong>1,000.00</strong></span></span></td>
 </tr>
 <tr>
 <td style="text-align: right;"></td>
-<td style="text-align: left;">可变成本</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">0.00</td>
-<td style="text-align: right;">30.00</td>
-<td style="text-align: right;">10.00</td>
-<td style="text-align: right;">6,994.21</td>
-<td style="text-align: right;">1,965.79</td>
-<td style="text-align: right;"><strong>9,000.00</strong></td>
+<td style="text-align: left;"><span data-ttu-id="5c693-984">可变成本</span><span class="sxs-lookup"><span data-stu-id="5c693-984">Variable cost</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-985">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-985">000</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-986">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-986">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-987">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-987">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-988">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-988">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-989">0.00</span><span class="sxs-lookup"><span data-stu-id="5c693-989">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-990">30.00</span><span class="sxs-lookup"><span data-stu-id="5c693-990">30.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-991">10.00</span><span class="sxs-lookup"><span data-stu-id="5c693-991">10.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-992">6,994.21</span><span class="sxs-lookup"><span data-stu-id="5c693-992">6,994.21</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-993">1,965.79</span><span class="sxs-lookup"><span data-stu-id="5c693-993">1,965.79</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="5c693-994"><strong>9,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="5c693-994"><strong>9,000.00</strong></span></span></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> 此主题显示主要成本元素“10001 电”如何流过成本对象。 因此，此间接成本分摊到组织的最低级别。 换言之，最低级别的成本对象承担成本。 如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。 更多详细信息，请参阅“成本累积政策”。 （请注意，此主题尚未完成，不过将很快推出。）
+> <span data-ttu-id="5c693-995">此主题显示主要成本元素“10001 电”如何流过成本对象。</span><span class="sxs-lookup"><span data-stu-id="5c693-995">This topic shows how a primary cost element, 10001 Electricity, flows through the cost objects.</span></span> <span data-ttu-id="5c693-996">因此，此间接成本分摊到组织的最低级别。</span><span class="sxs-lookup"><span data-stu-id="5c693-996">Therefore, this overhead cost is allocated to the lowest level in the organization.</span></span> <span data-ttu-id="5c693-997">换言之，最低级别的成本对象承担成本。</span><span class="sxs-lookup"><span data-stu-id="5c693-997">In other words, the cost objects at the lowest level bear the cost.</span></span> <span data-ttu-id="5c693-998">如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。</span><span class="sxs-lookup"><span data-stu-id="5c693-998">If you require a visual flow of the cost between the cost objects, you can use the cost roll-up policy rules to visualize the flow of the cost.</span></span> <span data-ttu-id="5c693-999">更多详细信息，请参阅“成本累积政策”。</span><span class="sxs-lookup"><span data-stu-id="5c693-999">For more detailed information, see Cost roll-up policy.</span></span> <span data-ttu-id="5c693-1000">（请注意，此主题尚未完成，不过将很快推出。）</span><span class="sxs-lookup"><span data-stu-id="5c693-1000">(Note that this topic isn't competed yet but is coming soon.)</span></span>
 
 
 

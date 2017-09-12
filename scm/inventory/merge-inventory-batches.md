@@ -1,7 +1,7 @@
 ---
 title: "合并库存批次"
 description: "本文提供有关如何将两个或多个库存批次整合到单个合并批次的信息。"
-author: YuyuScheller
+author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,33 +10,33 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: YuyuScheller
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
 ms.search.region: Global
 ms.author: pjacobse
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: aec97976ef6a2b4c66118289f7f76b14351456f8
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 230d9e8f1378accac8726df08003413e8ce5dac6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 
-# <a name="merge-inventory-batches"></a>合并库存批次
+# <a name="merge-inventory-batches"></a><span data-ttu-id="11f11-103">合并库存批次</span><span class="sxs-lookup"><span data-stu-id="11f11-103">Merge inventory batches</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-本文提供有关如何将两个或多个库存批次整合到单个合并批次的信息。 
+<span data-ttu-id="11f11-104">本文提供有关如何将两个或多个库存批次整合到单个合并批次的信息。</span><span class="sxs-lookup"><span data-stu-id="11f11-104">This article provides information about how to consolidate two or more inventory batches into a merged batch.</span></span>
 
-合并批次时，计算有助于优化合并批次的特征和批次属性。 在选择源批次后，您可以在过帐前查看和更改合并批次。 您还可以将批次合并转移到库存日记帐，以供审核。 然后，可直接从库存日记帐预留或过帐库存。 过帐合并批次时，会针对源批次和合并批次调整库存。
+<span data-ttu-id="11f11-105">合并批次时，计算有助于优化合并批次的特征和批次属性。</span><span class="sxs-lookup"><span data-stu-id="11f11-105">When you merge batches, calculations can help optimize the characteristics and batch attributes of the merged batch.</span></span> <span data-ttu-id="11f11-106">在选择源批次后，您可以在过帐前查看和更改合并批次。</span><span class="sxs-lookup"><span data-stu-id="11f11-106">After you select the source batches, you can review and change the merged batch before you post it.</span></span> <span data-ttu-id="11f11-107">您还可以将批次合并转移到库存日记帐，以供审核。</span><span class="sxs-lookup"><span data-stu-id="11f11-107">You can also transfer the batch merge to an inventory journal for approval.</span></span> <span data-ttu-id="11f11-108">然后，可直接从库存日记帐预留或过帐库存。</span><span class="sxs-lookup"><span data-stu-id="11f11-108">Inventory can then be reserved or posted directly from that inventory journal.</span></span> <span data-ttu-id="11f11-109">过帐合并批次时，会针对源批次和合并批次调整库存。</span><span class="sxs-lookup"><span data-stu-id="11f11-109">When you post a merged batch, the inventory is adjusted for the source batches and the merged batch.</span></span>
 
-## <a name="are-there-any-prerequisites"></a>有什么先决条件吗？
-有，需要进行一些设置才能使用合并批次工具。 下表描述了先决条件。
+## <a name="are-there-any-prerequisites"></a><span data-ttu-id="11f11-110">有什么先决条件吗？</span><span class="sxs-lookup"><span data-stu-id="11f11-110">Are there any prerequisites?</span></span>
+<span data-ttu-id="11f11-111">有，需要进行一些设置才能使用合并批次工具。</span><span class="sxs-lookup"><span data-stu-id="11f11-111">Yes, there are some things that you must set up before you can use the merge batch tools.</span></span> <span data-ttu-id="11f11-112">下表描述了先决条件。</span><span class="sxs-lookup"><span data-stu-id="11f11-112">The following table describes the prerequisites.</span></span>
 
 <table>
 <colgroup>
@@ -45,104 +45,101 @@ ms.lasthandoff: 06/13/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>页面</th>
-<th>描述</th>
+<th><span data-ttu-id="11f11-113">页面</span><span class="sxs-lookup"><span data-stu-id="11f11-113">Page</span></span></th>
+<th><span data-ttu-id="11f11-114">描述</span><span class="sxs-lookup"><span data-stu-id="11f11-114">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>日记帐名称，库存</td>
-<td>过帐库存日记帐中的批次合并时，必须创建默认情况下要使用的日记帐名称。 可选但推荐：您也可以指定在批次合并转移到库存日记帐时应进行自动预留。 否则，在设置批次合并详细信息且过帐日记帐后现有库存存在可能被更改的风险。 若要对日记帐名称启用自动预留，请在<strong><strong>预留</strong></strong>字段中选择<strong>自动</strong>。</td>
+<td><span data-ttu-id="11f11-115">日记帐名称，库存</span><span class="sxs-lookup"><span data-stu-id="11f11-115">Journal names, inventory</span></span></td>
+<td><span data-ttu-id="11f11-116">过帐库存日记帐中的批次合并时，必须创建默认情况下要使用的日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="11f11-116">You must create the journal name that is used by default when you post batch merges in inventory journals.</span></span> <span data-ttu-id="11f11-117">可选但推荐：您也可以指定在批次合并转移到库存日记帐时应进行自动预留。</span><span class="sxs-lookup"><span data-stu-id="11f11-117">Optional but recommended: You can specify that reservations should be made automatically when the batch merge is transferred to the inventory journal.</span></span> <span data-ttu-id="11f11-118">否则，在设置批次合并详细信息且过帐日记帐后现有库存存在可能被更改的风险。</span><span class="sxs-lookup"><span data-stu-id="11f11-118">Otherwise, there is a risk that the on-hand inventory might be changed after the batch merge details are set up and the journal is posted.</span></span> <span data-ttu-id="11f11-119">若要对日记帐名称启用自动预留，请在<strong><strong>预留</strong></strong>字段中选择<strong>自动</strong>。</span><span class="sxs-lookup"><span data-stu-id="11f11-119">To enable automatic reservations for the journal name, select <strong>Automatic</strong> in the <strong><strong>Reservation</strong></strong> field.</span></span></td>
 </tr>
 <tr class="even">
-<td>库存和仓库管理参数</td>
-<td>必须为库存日记帐指定默认的日记帐名称。</td>
+<td><span data-ttu-id="11f11-120">库存和仓库管理参数</span><span class="sxs-lookup"><span data-stu-id="11f11-120">Inventory and warehouse management parameters</span></span></td>
+<td><span data-ttu-id="11f11-121">必须为库存日记帐指定默认的日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="11f11-121">You must specify the default journal name for the inventory journal.</span></span></td>
 </tr>
 <tr class="odd">
-<td>已发布产品</td>
-<td>以下是物料的推荐设置：
+<td><span data-ttu-id="11f11-122">已发布产品</span><span class="sxs-lookup"><span data-stu-id="11f11-122">Released products</span></span></td>
+<td><span data-ttu-id="11f11-123">以下是物料的推荐设置：</span><span class="sxs-lookup"><span data-stu-id="11f11-123">Here are the recommended settings for the item:</span></span>
 <ul>
-<li>若要自动生成合并批次的批次编号，必须将向已发布产品分配批次编号组。 还可以在创建合并批次时手动输入批次编号或者选择现有批次编号。 如果选择现有批次编号，请确保所选批次尚未包含在任何库存交易记录中。</li>
-<li>如果使用已发布产品的保质期或最佳使用日期，则将基于<strong>批次合并日期计算</strong>字段中的选择计算合并批次的日期。 选项如下：
+<li><span data-ttu-id="11f11-124">若要自动生成合并批次的批次编号，必须将向已发布产品分配批次编号组。</span><span class="sxs-lookup"><span data-stu-id="11f11-124">To automatically generate batch numbers for merged batches, you must assign the released product to a batch number group.</span></span> <span data-ttu-id="11f11-125">还可以在创建合并批次时手动输入批次编号或者选择现有批次编号。</span><span class="sxs-lookup"><span data-stu-id="11f11-125">You can also enter a batch number manually when you create a merged batch, or select an existing batch number.</span></span> <span data-ttu-id="11f11-126">如果选择现有批次编号，请确保所选批次尚未包含在任何库存交易记录中。</span><span class="sxs-lookup"><span data-stu-id="11f11-126">If you select an existing batch number, make sure that the selected batch hasn't been included in any inventory transactions.</span></span></li>
+<li><span data-ttu-id="11f11-127">如果使用已发布产品的保质期或最佳使用日期，则将基于<strong>批次合并日期计算</strong>字段中的选择计算合并批次的日期。</span><span class="sxs-lookup"><span data-stu-id="11f11-127">If you're using shelf life or best-before dates for the released product, the dates for a merged batch are calculated based on the selection in the <strong>Batch merge date calculation</strong> field.</span></span> <span data-ttu-id="11f11-128">选项如下：</span><span class="sxs-lookup"><span data-stu-id="11f11-128">The following options are available:</span></span>
 <ul>
-<li><strong>最早</strong> – 计算基于针对批次合并选择的源批次指定的最早日期。</li>
-<li><strong>最近</strong> – 计算基于针对批次合并选择的源批次指定的最近日期。</li>
-<li><strong>手动</strong> – 不进行计算。 如果所有源批次上日期均相同，将会建议一个日期。 可以更改该日期。 如果与源批次上的日期不同，可以手动输入日期。</li>
+<li><span data-ttu-id="11f11-129"><strong>最早</strong> – 计算基于针对批次合并选择的源批次指定的最早日期。</span><span class="sxs-lookup"><span data-stu-id="11f11-129"><strong>Earliest</strong> – The calculation is based on the earliest date that is specified for a source batch that is selected for the batch merge.</span></span></li>
+<li><span data-ttu-id="11f11-130"><strong>最近</strong> – 计算基于针对批次合并选择的源批次指定的最近日期。</span><span class="sxs-lookup"><span data-stu-id="11f11-130"><strong>Latest</strong> – The calculation is based on the latest date that is specified for a source batch that is selected for the batch merge.</span></span></li>
+<li><span data-ttu-id="11f11-131"><strong>手动</strong> – 不进行计算。</span><span class="sxs-lookup"><span data-stu-id="11f11-131"><strong>Manual</strong> – No calculation is done.</span></span> <span data-ttu-id="11f11-132">如果所有源批次上日期均相同，将会建议一个日期。</span><span class="sxs-lookup"><span data-stu-id="11f11-132">If a date is the same on all source batches, a date is suggested.</span></span> <span data-ttu-id="11f11-133">可以更改该日期。</span><span class="sxs-lookup"><span data-stu-id="11f11-133">You can change that date.</span></span> <span data-ttu-id="11f11-134">如果与源批次上的日期不同，可以手动输入日期。</span><span class="sxs-lookup"><span data-stu-id="11f11-134">If a date isn't the same on the source batches, you can manually enter the date.</span></span></li>
 </ul></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td>批处理号组</td>
-<td>可选：若要在创建合并批次时生成批次编号，必须向已发布产品分配批次编号组。 或者，您可以手动输入批次编号。</td>
+<td><span data-ttu-id="11f11-135">批处理号组</span><span class="sxs-lookup"><span data-stu-id="11f11-135">Batch number group</span></span></td>
+<td><span data-ttu-id="11f11-136">可选：若要在创建合并批次时生成批次编号，必须向已发布产品分配批次编号组。</span><span class="sxs-lookup"><span data-stu-id="11f11-136">Optional: To generate a batch number when you create a merged batch, you must assign a batch number group to the released product.</span></span> <span data-ttu-id="11f11-137">或者，您可以手动输入批次编号。</span><span class="sxs-lookup"><span data-stu-id="11f11-137">Otherwise, you can enter a batch number manually.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="when-might-i-want-to-merge-batches-of-inventory"></a>我在何时可以合并库存批次？
-以下是可能对合并批次比较有用的一些情况的示例：
+## <a name="when-might-i-want-to-merge-batches-of-inventory"></a><span data-ttu-id="11f11-138">我在何时可以合并库存批次？</span><span class="sxs-lookup"><span data-stu-id="11f11-138">When might I want to merge batches of inventory?</span></span>
+<span data-ttu-id="11f11-139">以下是可能对合并批次比较有用的一些情况的示例：</span><span class="sxs-lookup"><span data-stu-id="11f11-139">Here are some examples of scenarios where it might be useful to merge batches:</span></span>
 
--   Sammy 在巡逻仓库，他发现有几个批次的物料数量较少。 他期望收到一些新的装运，并且他意识到可以通过将奇数数量合并到新批次中来腾出一些空间。
--   Sammy 收到了一些库存，他想要将新批次与已收到的批次合并以改善现有批次的批次属性值。
+-   <span data-ttu-id="11f11-140">Sammy 在巡逻仓库，他发现有几个批次的物料数量较少。</span><span class="sxs-lookup"><span data-stu-id="11f11-140">As Sammy is walking through his warehouse, he notices that several batches of the same item have low quantities.</span></span> <span data-ttu-id="11f11-141">他期望收到一些新的装运，并且他意识到可以通过将奇数数量合并到新批次中来腾出一些空间。</span><span class="sxs-lookup"><span data-stu-id="11f11-141">He is expecting to receive several new shipments, and he realizes that he can free some floor space by merging the odd quantities into a new batch.</span></span>
+-   <span data-ttu-id="11f11-142">Sammy 收到了一些库存，他想要将新批次与已收到的批次合并以改善现有批次的批次属性值。</span><span class="sxs-lookup"><span data-stu-id="11f11-142">Sammy is receiving inventory, and he wants to combine the new batch with one that he has already received, to improve the batch attribute value of the existing batch.</span></span>
 
-## <a name="can-i-merge-batches-across-sites-and-legal-entities"></a>我可以跨站点和法人合并批次吗？
-不能，您只能合并在一个法人中拥有相同站点和仓库存储维度的批次。 但是，您可以为合并批次指定不同的位置和托盘 ID。
+## <a name="can-i-merge-batches-across-sites-and-legal-entities"></a><span data-ttu-id="11f11-143">我可以跨站点和法人合并批次吗？</span><span class="sxs-lookup"><span data-stu-id="11f11-143">Can I merge batches across sites and legal entities?</span></span>
+<span data-ttu-id="11f11-144">不能，您只能合并在一个法人中拥有相同站点和仓库存储维度的批次。</span><span class="sxs-lookup"><span data-stu-id="11f11-144">No, you can merge only batches that have the same site and warehouse storage dimensions in one legal entity.</span></span> <span data-ttu-id="11f11-145">但是，您可以为合并批次指定不同的位置和托盘 ID。</span><span class="sxs-lookup"><span data-stu-id="11f11-145">However, you can specify a different location and pallet ID for the merged batch.</span></span>
 
-## <a name="can-i-merge-partial-quantities"></a>我能否合并部分数量？
-不，您只可以合并全部批次数量。 批次合并功能作为库存功能，而非生产功能。
+## <a name="can-i-merge-partial-quantities"></a><span data-ttu-id="11f11-146">我能否合并部分数量？</span><span class="sxs-lookup"><span data-stu-id="11f11-146">Can I merge partial quantities?</span></span>
+<span data-ttu-id="11f11-147">不，您只可以合并全部批次数量。</span><span class="sxs-lookup"><span data-stu-id="11f11-147">No, you can merge only the full quantity of batches.</span></span> <span data-ttu-id="11f11-148">批次合并功能作为库存功能，而非生产功能。</span><span class="sxs-lookup"><span data-stu-id="11f11-148">The batch merge functionality is intended as an inventory feature, not a production feature.</span></span>
 
-## <a name="what-if-the-batches-have-different-batch-attribute-values"></a>批次具有不同的批次属性值怎么办？
-选择要结合在合并批次中的源批次时，Finance and Operations 验证所有批次是否具有特征或属性值。 如果属性值相同，则会为合并批次建议一个值。 可以更改该值。 合并批次的不同属性值将留空，您可以手动输入这些值。 如果属性值的批次属性类型是整数或分数，且所有源批次的值不同，则将会使用加权平均计算来计算值。 计算的值将四舍五入为最接近的增量。 如果源批次的值为空，则批次和数量不会包括在计算中。 **示例**下面举例显示了合并批次的加权平均计算。 两个源批次对于为整数的批次属性类型提供了空值。 以下属性分配给了源批次。
+## <a name="what-if-the-batches-have-different-batch-attribute-values"></a><span data-ttu-id="11f11-149">批次具有不同的批次属性值怎么办？</span><span class="sxs-lookup"><span data-stu-id="11f11-149">What if the batches have different batch attribute values?</span></span>
+<span data-ttu-id="11f11-150">选择要结合在合并批次中的源批次时，Finance and Operations 验证所有批次是否具有特征或属性值。</span><span class="sxs-lookup"><span data-stu-id="11f11-150">When you select the source batches to combine in the merged batch, Finance and Operations verifies whether all the batches have the characteristics or attribute values.</span></span> <span data-ttu-id="11f11-151">如果属性值相同，则会为合并批次建议一个值。</span><span class="sxs-lookup"><span data-stu-id="11f11-151">When an attribute value is the same, a value is suggested for the merged batch.</span></span> <span data-ttu-id="11f11-152">可以更改该值。</span><span class="sxs-lookup"><span data-stu-id="11f11-152">You can change that value.</span></span> <span data-ttu-id="11f11-153">合并批次的不同属性值将留空，您可以手动输入这些值。</span><span class="sxs-lookup"><span data-stu-id="11f11-153">Attribute values that aren't the same are left blank for the merged batch, and you can enter those values manually.</span></span> <span data-ttu-id="11f11-154">如果属性值的批次属性类型是整数或分数，且所有源批次的值不同，则将会使用加权平均计算来计算值。</span><span class="sxs-lookup"><span data-stu-id="11f11-154">If the batch attribute type for the attribute value is an integer or a fraction, and the values aren't the same for all the source batches, the value is calculated by using a weighted average calculation.</span></span> <span data-ttu-id="11f11-155">计算的值将四舍五入为最接近的增量。</span><span class="sxs-lookup"><span data-stu-id="11f11-155">The calculated value is rounded up or down to the nearest increment.</span></span> <span data-ttu-id="11f11-156">如果源批次的值为空，则批次和数量不会包括在计算中。</span><span class="sxs-lookup"><span data-stu-id="11f11-156">If the value is blank for a source batch, the batch and its quantity aren't included in the calculation.</span></span> <span data-ttu-id="11f11-157">**示例**下面举例显示了合并批次的加权平均计算。</span><span class="sxs-lookup"><span data-stu-id="11f11-157">**Example** The following example shows a weighted average calculation for a merged batch.</span></span> <span data-ttu-id="11f11-158">两个源批次对于为整数的批次属性类型提供了空值。</span><span class="sxs-lookup"><span data-stu-id="11f11-158">Two of the source batches have a blank value for a batch attribute type that is an integer.</span></span> <span data-ttu-id="11f11-159">以下属性分配给了源批次。</span><span class="sxs-lookup"><span data-stu-id="11f11-159">The following attribute is assigned to the source batches.</span></span>
 
-| 属性 | 最小值 | 增量 | 最大值 |
+| <span data-ttu-id="11f11-160">属性</span><span class="sxs-lookup"><span data-stu-id="11f11-160">Attribute</span></span> | <span data-ttu-id="11f11-161">最小值</span><span class="sxs-lookup"><span data-stu-id="11f11-161">Minimum</span></span> | <span data-ttu-id="11f11-162">增量</span><span class="sxs-lookup"><span data-stu-id="11f11-162">Increment</span></span> | <span data-ttu-id="11f11-163">最大值</span><span class="sxs-lookup"><span data-stu-id="11f11-163">Maximum</span></span> |
 |-----------|---------|-----------|---------|
-| 等级     | 3       | 3         | 30      |
+| <span data-ttu-id="11f11-164">等级</span><span class="sxs-lookup"><span data-stu-id="11f11-164">Grade</span></span>     | <span data-ttu-id="11f11-165">3</span><span class="sxs-lookup"><span data-stu-id="11f11-165">3</span></span>       | <span data-ttu-id="11f11-166">3</span><span class="sxs-lookup"><span data-stu-id="11f11-166">3</span></span>         | <span data-ttu-id="11f11-167">30</span><span class="sxs-lookup"><span data-stu-id="11f11-167">30</span></span>      |
 
-源批次为**分级批次**属性提供了以下属性值。
+<span data-ttu-id="11f11-168">源批次为**分级批次**属性提供了以下属性值。</span><span class="sxs-lookup"><span data-stu-id="11f11-168">The source batches have the following attribute values for the **Grade batch** attribute.</span></span>
 
-| 批次 | 数量 | 属性 | 属性值 |
+| <span data-ttu-id="11f11-169">批次</span><span class="sxs-lookup"><span data-stu-id="11f11-169">Batch</span></span> | <span data-ttu-id="11f11-170">数量</span><span class="sxs-lookup"><span data-stu-id="11f11-170">Quantity</span></span> | <span data-ttu-id="11f11-171">属性</span><span class="sxs-lookup"><span data-stu-id="11f11-171">Attribute</span></span> | <span data-ttu-id="11f11-172">属性值</span><span class="sxs-lookup"><span data-stu-id="11f11-172">Attribute value</span></span> |
 |-------|----------|-----------|-----------------|
-| B1    | 10       | 等级     | 空白           |
-| B2    | 15       | 等级     | 15              |
-| B3    | 20       | 等级     | 20              |
-| B4    | 25       | 等级     | 空白           |
-| B5    | 30       | 等级     | 25              |
+| <span data-ttu-id="11f11-173">B1</span><span class="sxs-lookup"><span data-stu-id="11f11-173">B1</span></span>    | <span data-ttu-id="11f11-174">10</span><span class="sxs-lookup"><span data-stu-id="11f11-174">10</span></span>       | <span data-ttu-id="11f11-175">等级</span><span class="sxs-lookup"><span data-stu-id="11f11-175">Grade</span></span>     | <span data-ttu-id="11f11-176">空白</span><span class="sxs-lookup"><span data-stu-id="11f11-176">Blank</span></span>           |
+| <span data-ttu-id="11f11-177">B2</span><span class="sxs-lookup"><span data-stu-id="11f11-177">B2</span></span>    | <span data-ttu-id="11f11-178">15</span><span class="sxs-lookup"><span data-stu-id="11f11-178">15</span></span>       | <span data-ttu-id="11f11-179">等级</span><span class="sxs-lookup"><span data-stu-id="11f11-179">Grade</span></span>     | <span data-ttu-id="11f11-180">15</span><span class="sxs-lookup"><span data-stu-id="11f11-180">15</span></span>              |
+| <span data-ttu-id="11f11-181">B3</span><span class="sxs-lookup"><span data-stu-id="11f11-181">B3</span></span>    | <span data-ttu-id="11f11-182">20</span><span class="sxs-lookup"><span data-stu-id="11f11-182">20</span></span>       | <span data-ttu-id="11f11-183">等级</span><span class="sxs-lookup"><span data-stu-id="11f11-183">Grade</span></span>     | <span data-ttu-id="11f11-184">20</span><span class="sxs-lookup"><span data-stu-id="11f11-184">20</span></span>              |
+| <span data-ttu-id="11f11-185">B4</span><span class="sxs-lookup"><span data-stu-id="11f11-185">B4</span></span>    | <span data-ttu-id="11f11-186">25</span><span class="sxs-lookup"><span data-stu-id="11f11-186">25</span></span>       | <span data-ttu-id="11f11-187">等级</span><span class="sxs-lookup"><span data-stu-id="11f11-187">Grade</span></span>     | <span data-ttu-id="11f11-188">空白</span><span class="sxs-lookup"><span data-stu-id="11f11-188">Blank</span></span>           |
+| <span data-ttu-id="11f11-189">B5</span><span class="sxs-lookup"><span data-stu-id="11f11-189">B5</span></span>    | <span data-ttu-id="11f11-190">30</span><span class="sxs-lookup"><span data-stu-id="11f11-190">30</span></span>       | <span data-ttu-id="11f11-191">等级</span><span class="sxs-lookup"><span data-stu-id="11f11-191">Grade</span></span>     | <span data-ttu-id="11f11-192">25</span><span class="sxs-lookup"><span data-stu-id="11f11-192">25</span></span>              |
 
-将这些批次作为源批次添加时，会为合并批次分配以下值。
+<span data-ttu-id="11f11-193">将这些批次作为源批次添加时，会为合并批次分配以下值。</span><span class="sxs-lookup"><span data-stu-id="11f11-193">When you add these batches as source batches, the following values are assigned to the merged batch.</span></span>
 
-| 批次 | 数量 | 属性 | 属性值 |
+| <span data-ttu-id="11f11-194">批次</span><span class="sxs-lookup"><span data-stu-id="11f11-194">Batch</span></span> | <span data-ttu-id="11f11-195">数量</span><span class="sxs-lookup"><span data-stu-id="11f11-195">Quantity</span></span> | <span data-ttu-id="11f11-196">属性</span><span class="sxs-lookup"><span data-stu-id="11f11-196">Attribute</span></span> | <span data-ttu-id="11f11-197">属性值</span><span class="sxs-lookup"><span data-stu-id="11f11-197">Attribute value</span></span> |
 |-------|----------|-----------|-----------------|
-| B6    | 100      | 等级     | 21              |
+| <span data-ttu-id="11f11-198">B6</span><span class="sxs-lookup"><span data-stu-id="11f11-198">B6</span></span>    | <span data-ttu-id="11f11-199">100</span><span class="sxs-lookup"><span data-stu-id="11f11-199">100</span></span>      | <span data-ttu-id="11f11-200">等级</span><span class="sxs-lookup"><span data-stu-id="11f11-200">Grade</span></span>     | <span data-ttu-id="11f11-201">21</span><span class="sxs-lookup"><span data-stu-id="11f11-201">21</span></span>              |
 
-批次 B1 和 B4 的值和数量不包括在加权平均计算中。 因此，以下是合并批次的值如何计算。
+<span data-ttu-id="11f11-202">批次 B1 和 B4 的值和数量不包括在加权平均计算中。</span><span class="sxs-lookup"><span data-stu-id="11f11-202">The values and quantities for batches B1 and B4 aren't included in the weighted average calculation.</span></span> <span data-ttu-id="11f11-203">因此，以下是合并批次的值如何计算。</span><span class="sxs-lookup"><span data-stu-id="11f11-203">Therefore, here is how the value for the merged batch is calculated.</span></span>
 
-| 值 | 数量（重量）                              | 相对重量 | 相对重量 × 值                                               |
+| <span data-ttu-id="11f11-204">值</span><span class="sxs-lookup"><span data-stu-id="11f11-204">Value</span></span> | <span data-ttu-id="11f11-205">数量（重量）</span><span class="sxs-lookup"><span data-stu-id="11f11-205">Quantity (weight)</span></span>                              | <span data-ttu-id="11f11-206">相对重量</span><span class="sxs-lookup"><span data-stu-id="11f11-206">Relative weight</span></span> | <span data-ttu-id="11f11-207">相对重量 × 值</span><span class="sxs-lookup"><span data-stu-id="11f11-207">Relative weight × Value</span></span>                                               |
 |-------|------------------------------------------------|-----------------|-----------------------------------------------------------------------|
-| 15    | 15                                             | 0.230769231     | 3.461538462                                                           |
-| 20    | 20                                             | 0.307692308     | 6.153846154                                                           |
-| 25    | 30                                             | 0.461538462     | 11.53846154                                                           |
-|       | **总计：**65，总重。 |                 | **总计：**21.5384615，四舍五入为 21（最接近的增量） |
+| <span data-ttu-id="11f11-208">15</span><span class="sxs-lookup"><span data-stu-id="11f11-208">15</span></span>    | <span data-ttu-id="11f11-209">15</span><span class="sxs-lookup"><span data-stu-id="11f11-209">15</span></span>                                             | <span data-ttu-id="11f11-210">0.230769231</span><span class="sxs-lookup"><span data-stu-id="11f11-210">0.230769231</span></span>     | <span data-ttu-id="11f11-211">3.461538462</span><span class="sxs-lookup"><span data-stu-id="11f11-211">3.461538462</span></span>                                                           |
+| <span data-ttu-id="11f11-212">20</span><span class="sxs-lookup"><span data-stu-id="11f11-212">20</span></span>    | <span data-ttu-id="11f11-213">20</span><span class="sxs-lookup"><span data-stu-id="11f11-213">20</span></span>                                             | <span data-ttu-id="11f11-214">0.307692308</span><span class="sxs-lookup"><span data-stu-id="11f11-214">0.307692308</span></span>     | <span data-ttu-id="11f11-215">6.153846154</span><span class="sxs-lookup"><span data-stu-id="11f11-215">6.153846154</span></span>                                                           |
+| <span data-ttu-id="11f11-216">25</span><span class="sxs-lookup"><span data-stu-id="11f11-216">25</span></span>    | <span data-ttu-id="11f11-217">30</span><span class="sxs-lookup"><span data-stu-id="11f11-217">30</span></span>                                             | <span data-ttu-id="11f11-218">0.461538462</span><span class="sxs-lookup"><span data-stu-id="11f11-218">0.461538462</span></span>     | <span data-ttu-id="11f11-219">11.53846154</span><span class="sxs-lookup"><span data-stu-id="11f11-219">11.53846154</span></span>                                                           |
+|       | <span data-ttu-id="11f11-220">**总计：**65，总重。</span><span class="sxs-lookup"><span data-stu-id="11f11-220">**Total:** 65, which is the sum of the weights</span></span> |                 | <span data-ttu-id="11f11-221">**总计：**21.5384615，四舍五入为 21（最接近的增量）</span><span class="sxs-lookup"><span data-stu-id="11f11-221">**Total:** 21.5384615, which is rounded to 21 (the nearest increment)</span></span> |
 
-## <a name="what-if-the-batches-have-different-batch-dates"></a>批次具有不同的批次日期怎么办？
-如果批次具有不同的批次日期，某些日期基于**批次合并**页的**合并批次**快速选项卡上的**批次日期**组中的值计算。 系统计算**批次日期**组中的字段的值。 这些值包括生产日期、过期日期、建议存储日期以及最佳使用日期。 日期是基于**已发布产品详细信息**页上**物料数据**字段组中的物料的设置而计算的。 您可以更改值或手动输入值。 对于所有其他日期，不会进行计算。 批次属性值适用相同的原则。 如果对于所有源批次日期都相同，则将会为合并批次建议此日期。 如果所有源批次的日期并不相同，则合并批次的日期将留空，您可以手动输入日期。
+## <a name="what-if-the-batches-have-different-batch-dates"></a><span data-ttu-id="11f11-222">批次具有不同的批次日期怎么办？</span><span class="sxs-lookup"><span data-stu-id="11f11-222">What if the batches have different batch dates?</span></span>
+<span data-ttu-id="11f11-223">如果批次具有不同的批次日期，某些日期基于**批次合并**页的**合并批次**快速选项卡上的**批次日期**组中的值计算。</span><span class="sxs-lookup"><span data-stu-id="11f11-223">If the batches have different batch dates, some of the dates are calculated based on the values in the **Batch dates** group on the **Merged batch** FastTab of the **Batch merge** page.</span></span> <span data-ttu-id="11f11-224">系统计算**批次日期**组中的字段的值。</span><span class="sxs-lookup"><span data-stu-id="11f11-224">The system calculates values for the fields in the **Batch dates** group.</span></span> <span data-ttu-id="11f11-225">这些值包括生产日期、过期日期、建议存储日期以及最佳使用日期。</span><span class="sxs-lookup"><span data-stu-id="11f11-225">These values include the manufacturing date, expiration date, shelf advice date, and best-before date.</span></span> <span data-ttu-id="11f11-226">日期是基于**已发布产品详细信息**页上**物料数据**字段组中的物料的设置而计算的。</span><span class="sxs-lookup"><span data-stu-id="11f11-226">The dates are calculated based on settings for the item in the **Item data** field group of the **Released product details** page.</span></span> <span data-ttu-id="11f11-227">您可以更改值或手动输入值。</span><span class="sxs-lookup"><span data-stu-id="11f11-227">You can change the values or enter them manually.</span></span> <span data-ttu-id="11f11-228">对于所有其他日期，不会进行计算。</span><span class="sxs-lookup"><span data-stu-id="11f11-228">For all other dates, no calculation is done.</span></span> <span data-ttu-id="11f11-229">批次属性值适用相同的原则。</span><span class="sxs-lookup"><span data-stu-id="11f11-229">The same principle is used for batch attribute values.</span></span> <span data-ttu-id="11f11-230">如果对于所有源批次日期都相同，则将会为合并批次建议此日期。</span><span class="sxs-lookup"><span data-stu-id="11f11-230">If a date is the same for all the source batches, that date is suggested for the merged batch.</span></span> <span data-ttu-id="11f11-231">如果所有源批次的日期并不相同，则合并批次的日期将留空，您可以手动输入日期。</span><span class="sxs-lookup"><span data-stu-id="11f11-231">If the date isn't the same for all source batches, the date is blank on the merged batch, and you can enter it manually.</span></span>
 
-## <a name="what-if-the-dimensions-are-different-on-the-batches-that-i-want-to-merge"></a>我要合并的批次上的维度不同怎么办？
-以下是产品维度、跟踪维度以及存储维度如何处理：
+## <a name="what-if-the-dimensions-are-different-on-the-batches-that-i-want-to-merge"></a><span data-ttu-id="11f11-232">我要合并的批次上的维度不同怎么办？</span><span class="sxs-lookup"><span data-stu-id="11f11-232">What if the dimensions are different on the batches that I want to merge?</span></span>
+<span data-ttu-id="11f11-233">以下是产品维度、跟踪维度以及存储维度如何处理：</span><span class="sxs-lookup"><span data-stu-id="11f11-233">Here is how product dimensions, tracking dimensions, and storage dimensions are handled:</span></span>
 
--   **产品维度** – 所选物料的所有产品维度必须相同。 不能跨产品维度合并批次。
--   **跟踪维度** – 如果为物料指定了批次编号组，则会自动生成新的批次编号。 如果未为物料分配批次编号组，则可以选择现有批次或者手动输入编号。 序列号将从源批次转移到合并批次的库存日记帐行。
--   **存储维度** – 所有源批次和合并批次的站点和仓库存储维度必须相同。 但是，您可以为合并批次指定新的位置和托盘 ID。
+-   <span data-ttu-id="11f11-234">**产品维度** – 所选物料的所有产品维度必须相同。</span><span class="sxs-lookup"><span data-stu-id="11f11-234">**Product dimensions** – All product dimensions for the selected item must be the same.</span></span> <span data-ttu-id="11f11-235">不能跨产品维度合并批次。</span><span class="sxs-lookup"><span data-stu-id="11f11-235">You can't merge batches across product dimensions.</span></span>
+-   <span data-ttu-id="11f11-236">**跟踪维度** – 如果为物料指定了批次编号组，则会自动生成新的批次编号。</span><span class="sxs-lookup"><span data-stu-id="11f11-236">**Tracking dimensions** – A new batch number is automatically generated if a batch number group is specified for the item.</span></span> <span data-ttu-id="11f11-237">如果未为物料分配批次编号组，则可以选择现有批次或者手动输入编号。</span><span class="sxs-lookup"><span data-stu-id="11f11-237">If a batch number group isn't assigned to an item, you can select an existing batch or enter the number manually.</span></span> <span data-ttu-id="11f11-238">序列号将从源批次转移到合并批次的库存日记帐行。</span><span class="sxs-lookup"><span data-stu-id="11f11-238">Serial numbers are transferred from the source batch to the inventory journal lines for the merged batch.</span></span>
+-   <span data-ttu-id="11f11-239">**存储维度** – 所有源批次和合并批次的站点和仓库存储维度必须相同。</span><span class="sxs-lookup"><span data-stu-id="11f11-239">**Storage dimensions** – The site and warehouse storage dimensions must be the same for all the source batches and the merged batch.</span></span> <span data-ttu-id="11f11-240">但是，您可以为合并批次指定新的位置和托盘 ID。</span><span class="sxs-lookup"><span data-stu-id="11f11-240">However, you can specify a new location and pallet ID for the merged batch.</span></span>
 
-## <a name="how-does-posting-work"></a>过帐的工作原理是什么？
-过帐以两种方式操作，具体取决于您是否对日记帐使用审核流程。 您可以使用**转移到日记帐**和**过帐批次合并**操作将批次合并转移到其中可以对其进行验证和过帐的日记帐，或者您可以直接过帐批次合并。 两个操作的主要区别在于转移到日记帐不会过帐批次合并。 两个操作都会创建新批次（如果未选中现在有批次）、更新所有批次详细信息和属性值，并创建库存日记帐。
+## <a name="how-does-posting-work"></a><span data-ttu-id="11f11-241">过帐的工作原理是什么？</span><span class="sxs-lookup"><span data-stu-id="11f11-241">How does posting work?</span></span>
+<span data-ttu-id="11f11-242">过帐以两种方式操作，具体取决于您是否对日记帐使用审核流程。</span><span class="sxs-lookup"><span data-stu-id="11f11-242">Posting works in two ways, depending on whether you use an approval process for journals.</span></span> <span data-ttu-id="11f11-243">您可以使用**转移到日记帐**和**过帐批次合并**操作将批次合并转移到其中可以对其进行验证和过帐的日记帐，或者您可以直接过帐批次合并。</span><span class="sxs-lookup"><span data-stu-id="11f11-243">You can use the **Transfer to journal** and **Post the batch merge** actions to transfer the batch merge to a journal where it can be verified and posted, or you can post the batch merge directly.</span></span> <span data-ttu-id="11f11-244">两个操作的主要区别在于转移到日记帐不会过帐批次合并。</span><span class="sxs-lookup"><span data-stu-id="11f11-244">The main difference between the two actions is that a transfer to a journal doesn't post the batch merge.</span></span> <span data-ttu-id="11f11-245">两个操作都会创建新批次（如果未选中现在有批次）、更新所有批次详细信息和属性值，并创建库存日记帐。</span><span class="sxs-lookup"><span data-stu-id="11f11-245">Both actions create a new batch if an existing batch isn't selected, update all batch details and attribute values, and create an inventory journal.</span></span>
 
--   **转移到日记帐** – 将批次合并详细信息转移到新库存日记帐。 如果已设置自动预留，将预留源批次中的数量。 无法更改此批次合并的详细信息。 若要修改批次合并，则必须删除日记帐。 日记帐可用作其他员工以后必须执行的任务。 日记帐行的批次数量的预留受到保护。 此分摊允许质量规划员或仓库经理创建其员工的任务。
--   **过帐批次合并** – 直接过帐批次合并。 在实际合并发生后，可以执行此操作。
+-   <span data-ttu-id="11f11-246">**转移到日记帐** – 将批次合并详细信息转移到新库存日记帐。</span><span class="sxs-lookup"><span data-stu-id="11f11-246">**Transfer to journal** – Transfer the batch merge details to a new inventory journal.</span></span> <span data-ttu-id="11f11-247">如果已设置自动预留，将预留源批次中的数量。</span><span class="sxs-lookup"><span data-stu-id="11f11-247">If you've set up automatic reservations, the quantities in the source batches are reserved.</span></span> <span data-ttu-id="11f11-248">无法更改此批次合并的详细信息。</span><span class="sxs-lookup"><span data-stu-id="11f11-248">The details of the batch merge can't be changed.</span></span> <span data-ttu-id="11f11-249">若要修改批次合并，则必须删除日记帐。</span><span class="sxs-lookup"><span data-stu-id="11f11-249">To modify the batch merge, you must delete the journal.</span></span> <span data-ttu-id="11f11-250">日记帐可用作其他员工以后必须执行的任务。</span><span class="sxs-lookup"><span data-stu-id="11f11-250">The journal can be used as a task that another employee must perform later.</span></span> <span data-ttu-id="11f11-251">日记帐行的批次数量的预留受到保护。</span><span class="sxs-lookup"><span data-stu-id="11f11-251">The reservation of the batch quantity to the journal line is secured.</span></span> <span data-ttu-id="11f11-252">此分摊允许质量规划员或仓库经理创建其员工的任务。</span><span class="sxs-lookup"><span data-stu-id="11f11-252">This allocation lets a quality planner or a warehouse manager create tasks for his or her employees.</span></span>
+-   <span data-ttu-id="11f11-253">**过帐批次合并** – 直接过帐批次合并。</span><span class="sxs-lookup"><span data-stu-id="11f11-253">**Post the batch merge** – Post the batch merge directly.</span></span> <span data-ttu-id="11f11-254">在实际合并发生后，可以执行此操作。</span><span class="sxs-lookup"><span data-stu-id="11f11-254">This action can be performed after the physical merge has occurred.</span></span>
 
-您可以从**所有批次合并**页审核批次合并的库存日记帐。 单击**日记帐** &gt; **过帐**。 在过帐日记帐后，您无法更改合并批次中的信息。 将批次合并转移到库存日记帐后，仅当删除日记帐后您才能更改详细信息。
+<span data-ttu-id="11f11-255">您可以从**所有批次合并**页审核批次合并的库存日记帐。</span><span class="sxs-lookup"><span data-stu-id="11f11-255">You can approve the inventory journal for the batch merge from the **All batch merges** list page.</span></span> <span data-ttu-id="11f11-256">单击**日记帐** &gt; **过帐**。</span><span class="sxs-lookup"><span data-stu-id="11f11-256">Click **Journal** &gt; **Post**.</span></span> <span data-ttu-id="11f11-257">在过帐日记帐后，您无法更改合并批次中的信息。</span><span class="sxs-lookup"><span data-stu-id="11f11-257">After a journal is posted, you can't change the details in the merged batch.</span></span> <span data-ttu-id="11f11-258">将批次合并转移到库存日记帐后，仅当删除日记帐后您才能更改详细信息。</span><span class="sxs-lookup"><span data-stu-id="11f11-258">After you transfer a batch merge to an inventory journal, you can change the details only if the journal is deleted.</span></span>
 
-## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>合并非定重物料后，我为什么看不到库存日记帐上的定重信息？
-您可以像所有其他物料那样合并定重物料批次。 但是，库存日记帐上未显示定重信息。 我们建议您先验证定重信息，然后再将批次合并转移到库存日记帐。
-
-
-
+## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a><span data-ttu-id="11f11-259">合并非定重物料后，我为什么看不到库存日记帐上的定重信息？</span><span class="sxs-lookup"><span data-stu-id="11f11-259">After I merged a catchweight item, why can’t I see the catchweight information in the inventory journal?</span></span>
+<span data-ttu-id="11f11-260">您可以像所有其他物料那样合并定重物料批次。</span><span class="sxs-lookup"><span data-stu-id="11f11-260">You can merge batches of catch-weight items just like all other items.</span></span> <span data-ttu-id="11f11-261">但是，库存日记帐上未显示定重信息。</span><span class="sxs-lookup"><span data-stu-id="11f11-261">However, the catch-weight information doesn't appear in the inventory journal.</span></span> <span data-ttu-id="11f11-262">我们建议您先验证定重信息，然后再将批次合并转移到库存日记帐。</span><span class="sxs-lookup"><span data-stu-id="11f11-262">We recommend that you verify the catch-weight information before you transfer the batch merge to the inventory journal.</span></span>
 

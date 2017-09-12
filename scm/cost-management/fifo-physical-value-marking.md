@@ -17,119 +17,119 @@ ms.assetid: dc0e2855-83a0-41a7-a398-3c7852597d1a
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bb04a7ea1f54f4b5069f22aaaae46a2c04f1de11
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 3e05b45e2c9ad57074fff5a7d86d0b347482fd63
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="fifo-with-physical-value-and-marking"></a>具有实际成本和标记的先进先出
+# <a name="fifo-with-physical-value-and-marking"></a><span data-ttu-id="0968e-104">具有实际成本和标记的先进先出</span><span class="sxs-lookup"><span data-stu-id="0968e-104">FIFO with physical value and marking</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 [!include[retail name](../includes/retail-name.md)]
 
 
-先进先出 (FIFO) 是一种库存模型，其中，最先的收货将最先发货。 基于库存交易记录的财务日期，按照最先财务更新的入库结算从库存的财务更新的发货。 
+<span data-ttu-id="0968e-105">先进先出 (FIFO) 是一种库存模型，其中，最先的收货将最先发货。</span><span class="sxs-lookup"><span data-stu-id="0968e-105">First in, First out (FIFO) is an inventory model in which the first acquired receipts are issued first.</span></span> <span data-ttu-id="0968e-106">基于库存交易记录的财务日期，按照最先财务更新的入库结算从库存的财务更新的发货。</span><span class="sxs-lookup"><span data-stu-id="0968e-106">Financially updated issues from inventory are settled against the first financially updated receipts into inventory, based on the financial date of the inventory transaction.</span></span> 
 
-在使用先进先出时，无需使用先进先出规则。 相反，您可以标记库存交易记录，以便根据指定发货结算指定物料收货。 我们建议在您使用先进先出库存模型时使用定期库存结转。 以下示例通过三个不同的配置说明了使用先进先出的影响：
+<span data-ttu-id="0968e-107">在使用先进先出时，无需使用先进先出规则。</span><span class="sxs-lookup"><span data-stu-id="0968e-107">When you use FIFO, you don’t have to use the FIFO rule.</span></span> <span data-ttu-id="0968e-108">相反，您可以标记库存交易记录，以便根据指定发货结算指定物料收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-108">Instead, you can mark inventory transactions so that a specific item receipt is settled against a specific issue.</span></span> <span data-ttu-id="0968e-109">我们建议在您使用先进先出库存模型时使用定期库存结转。</span><span class="sxs-lookup"><span data-stu-id="0968e-109">We recommend a periodic inventory closing when you use the FIFO inventory model.</span></span> <span data-ttu-id="0968e-110">以下示例通过三个不同的配置说明了使用先进先出的影响：</span><span class="sxs-lookup"><span data-stu-id="0968e-110">The following examples show the effect of using FIFO in three configurations:</span></span>
 
--   没有**“包括实际成本”**选项的先进先出
--   具有**“包括实际成本”**选项的先进先出
--   具有标记的先进先出
+-   <span data-ttu-id="0968e-111">没有**“包括实际成本”**选项的先进先出</span><span class="sxs-lookup"><span data-stu-id="0968e-111">FIFO without the **Include physical value** option</span></span>
+-   <span data-ttu-id="0968e-112">具有**“包括实际成本”**选项的先进先出</span><span class="sxs-lookup"><span data-stu-id="0968e-112">FIFO with the **Include physical value** option</span></span>
+-   <span data-ttu-id="0968e-113">具有标记的先进先出</span><span class="sxs-lookup"><span data-stu-id="0968e-113">FIFO with marking</span></span>
 
-## <a name="fifo-without-the-include-physical-value-option"></a>没有“包括实际成本”选项的先进先出
-在此示例中，将不标记物料模型组以包括实际成本。 随后的插图说明了这些交易记录：
+## <a name="fifo-without-the-include-physical-value-option"></a><span data-ttu-id="0968e-114">没有“包括实际成本”选项的先进先出</span><span class="sxs-lookup"><span data-stu-id="0968e-114">FIFO without the Include physical value option</span></span>
+<span data-ttu-id="0968e-115">在此示例中，将不标记物料模型组以包括实际成本。</span><span class="sxs-lookup"><span data-stu-id="0968e-115">In this example, the item model group isn't marked to include physical value.</span></span> <span data-ttu-id="0968e-116">随后的插图说明了这些交易记录：</span><span class="sxs-lookup"><span data-stu-id="0968e-116">The illustration that follows shows these transactions:</span></span>
 
--   1a. 数量 1（单件成本为 USD 10.00）的库存实际收货。
--   1b. 数量 1（单件成本为 USD 10.00）的库存财务收货。
--   2a. 数量 2（单件成本为 USD 10.00）的库存实际收货。
--   2b. 数量 2（单件成本为 USD 10.00）的库存财务收货。
--   3a. 数量 1（单件成本为 USD 25.00）的库存实际收货。
--   4a. 数量 1（单件成本为 USD 30.00）的库存实际收货。
--   4b. 数量 1（单件成本为 USD 30.00）的库存财务收货。
--   5a. 数量 1（单件成本价为 USD 20.00）的库存实际发货（财务更新的交易记录的移动平均）。
--   5b. 数量 1（单件成本价为 USD 20.00）的库存财务发货（财务更新的交易记录的移动平均）。
--   6. 执行库存结转。 基于先进先出方法，将针对最先财务更新的收货来结算最先财务更新的发货。 将对发货交易记录执行 USD 10.00 的调整。
+-   <span data-ttu-id="0968e-117">1a.</span><span class="sxs-lookup"><span data-stu-id="0968e-117">1a.</span></span> <span data-ttu-id="0968e-118">数量 1（单件成本为 USD 10.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-118">Inventory physical receipt for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="0968e-119">1b.</span><span class="sxs-lookup"><span data-stu-id="0968e-119">1b.</span></span> <span data-ttu-id="0968e-120">数量 1（单件成本为 USD 10.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-120">Inventory financial receipt for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="0968e-121">2a.</span><span class="sxs-lookup"><span data-stu-id="0968e-121">2a.</span></span> <span data-ttu-id="0968e-122">数量 2（单件成本为 USD 10.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-122">Inventory physical receipt for a quantity of 2 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="0968e-123">2b.</span><span class="sxs-lookup"><span data-stu-id="0968e-123">2b.</span></span> <span data-ttu-id="0968e-124">数量 2（单件成本为 USD 10.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-124">Inventory financial receipt for a quantity of 2 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="0968e-125">3a.</span><span class="sxs-lookup"><span data-stu-id="0968e-125">3a.</span></span> <span data-ttu-id="0968e-126">数量 1（单件成本为 USD 25.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-126">Inventory physical receipt for a quantity of 1 at a cost of USD 25.00 each.</span></span>
+-   <span data-ttu-id="0968e-127">4a.</span><span class="sxs-lookup"><span data-stu-id="0968e-127">4a.</span></span> <span data-ttu-id="0968e-128">数量 1（单件成本为 USD 30.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-128">Inventory physical receipt for a quantity of 1 at a cost of USD 30.00 each.</span></span>
+-   <span data-ttu-id="0968e-129">4b.</span><span class="sxs-lookup"><span data-stu-id="0968e-129">4b.</span></span> <span data-ttu-id="0968e-130">数量 1（单件成本为 USD 30.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-130">Inventory financial receipt for a quantity of 1 at a cost of USD 30.00 each.</span></span>
+-   <span data-ttu-id="0968e-131">5a.</span><span class="sxs-lookup"><span data-stu-id="0968e-131">5a.</span></span> <span data-ttu-id="0968e-132">数量 1（单件成本价为 USD 20.00）的库存实际发货（财务更新的交易记录的移动平均）。</span><span class="sxs-lookup"><span data-stu-id="0968e-132">Inventory physical issue for a quantity of 1 at a cost price of USD 20.00 each (running average of financially updated transactions).</span></span>
+-   <span data-ttu-id="0968e-133">5b.</span><span class="sxs-lookup"><span data-stu-id="0968e-133">5b.</span></span> <span data-ttu-id="0968e-134">数量 1（单件成本价为 USD 20.00）的库存财务发货（财务更新的交易记录的移动平均）。</span><span class="sxs-lookup"><span data-stu-id="0968e-134">Inventory financial issue for a quantity of 1 at a cost price of USD 20.00 each (running average of financially updated transactions).</span></span>
+-   6. <span data-ttu-id="0968e-135">执行库存结转。</span><span class="sxs-lookup"><span data-stu-id="0968e-135">Inventory close is performed.</span></span> <span data-ttu-id="0968e-136">基于先进先出方法，将针对最先财务更新的收货来结算最先财务更新的发货。</span><span class="sxs-lookup"><span data-stu-id="0968e-136">Based on the FIFO method, the first financially updated issue will be settled against the first financially updated receipt.</span></span> <span data-ttu-id="0968e-137">将对发货交易记录执行 USD 10.00 的调整。</span><span class="sxs-lookup"><span data-stu-id="0968e-137">An adjustment of USD –10.00 will be made on the issue transaction.</span></span>
 
-新的移动平均成本价反映财务更新的交易记录的平均值。 下图说明了在未使用**“包括实际成本”**选项时，先进先出库存模型对此系列的交易记录的影响。 ![不具有“包括实际成本”的先进先出](./media/fifowithoutincludephysicalvalue.gif) 
+<span data-ttu-id="0968e-138">新的移动平均成本价反映财务更新的交易记录的平均值。</span><span class="sxs-lookup"><span data-stu-id="0968e-138">The new running average cost price reflects the average of the financially updated transactions.</span></span> <span data-ttu-id="0968e-139">下图说明了在未使用**“包括实际成本”**选项时，先进先出库存模型对此系列的交易记录的影响。</span><span class="sxs-lookup"><span data-stu-id="0968e-139">The following illustrations shows the effects of the FIFO inventory model on this series of transactions when the **Include physical value** option isn't used.</span></span> <span data-ttu-id="0968e-140">![不具有“包括实际成本”的先进先出](./media/fifowithoutincludephysicalvalue.gif)</span><span class="sxs-lookup"><span data-stu-id="0968e-140">![FIFO without Include Physical Value](./media/fifowithoutincludephysicalvalue.gif)</span></span> 
 
-**图形要点**
+<span data-ttu-id="0968e-141">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="0968e-141">**Key to the diagram**</span></span>
 
--   库存交易记录用垂直箭头表示。
--   入库用时间线上的垂直箭头表示。
--   出库用时间线下的垂直箭头表示。
--   在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。
--   用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。
--   未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。
--   每个新的收货或发货交易记录都用一个新标签标明。
--   每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
--   库存结转用红色的垂直虚线以及*“库存结转”*标签表示。
--   由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。
+-   <span data-ttu-id="0968e-142">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-142">Inventory transactions are represented by vertical arrows.</span></span>
+-   <span data-ttu-id="0968e-143">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-143">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+-   <span data-ttu-id="0968e-144">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-144">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+-   <span data-ttu-id="0968e-145">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="0968e-145">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+-   <span data-ttu-id="0968e-146">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="0968e-146">An inventory transaction value that is enclosed in parentheses indicates that the inventory transaction is physically posted into inventory.</span></span>
+-   <span data-ttu-id="0968e-147">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="0968e-147">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
+-   <span data-ttu-id="0968e-148">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="0968e-148">Each new receipt or issue transaction is designated by a new label.</span></span>
+-   <span data-ttu-id="0968e-149">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="0968e-149">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="0968e-150">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="0968e-150">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
+-   <span data-ttu-id="0968e-151">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-151">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
+-   <span data-ttu-id="0968e-152">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-152">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
 
-## <a name="fifo-with-the-include-physical-value-option"></a>具有“包括实际成本”选项的先进先出
-如果为**物料模型组**页面上的物料选中**包括实际成本**复选框，此系统将使用实际收货交易记录和财务收货交易记录来计算移动平均成本价。 如果适用，系统将对实际更新的发货交易记录进行调整。 在清除**“包括实际成本”**复选框时，具有先进先出库存模型的库存结转将只对财务更新的交易记录进行结算。 随后的插图说明了这些交易记录：
+## <a name="fifo-with-the-include-physical-value-option"></a><span data-ttu-id="0968e-153">具有“包括实际成本”选项的先进先出</span><span class="sxs-lookup"><span data-stu-id="0968e-153">FIFO with the Include physical value option</span></span>
+<span data-ttu-id="0968e-154">如果为**物料模型组**页面上的物料选中**包括实际成本**复选框，此系统将使用实际收货交易记录和财务收货交易记录来计算移动平均成本价。</span><span class="sxs-lookup"><span data-stu-id="0968e-154">If the **Include physical value** check box is selected for an item on the **Item model group** page, the system uses both physical and financial receipt transactions to calculate the running average cost price.</span></span> <span data-ttu-id="0968e-155">如果适用，系统将对实际更新的发货交易记录进行调整。</span><span class="sxs-lookup"><span data-stu-id="0968e-155">Where applicable, the system also makes adjustments to the physically updated issue transaction.</span></span> <span data-ttu-id="0968e-156">在清除**“包括实际成本”**复选框时，具有先进先出库存模型的库存结转将只对财务更新的交易记录进行结算。</span><span class="sxs-lookup"><span data-stu-id="0968e-156">When the **Include physical value** check box is cleared, inventory close with the FIFO inventory model makes settlements only to transactions that are financially updated.</span></span> <span data-ttu-id="0968e-157">随后的插图说明了这些交易记录：</span><span class="sxs-lookup"><span data-stu-id="0968e-157">The illustration that follows shows these transactions:</span></span>
 
--   1a. 数量 1（单件成本为 USD 10.00）的库存实际收货。
--   1b. 数量 1（单件成本为 USD 10.00）的库存财务收货。
--   2a. 数量 1（单件成本为 USD 20.00）的库存实际收货。
--   2b. 数量 1（单件成本为 USD 20.00）的库存财务收货。
--   3a. 数量 1（单件成本为 USD 25.00）的库存实际收货。
--   4a. 数量 1（单件成本为 USD 30.00）的库存实际收货。
--   4b. 数量 1（单件成本为 USD 30.00）的库存财务收货。
--   5a. 数量 1（单件成本价为 USD 21.25）的库存实际发货（财务和实际更新的交易记录的移动平均）。
--   5b. 数量 1（单件成本价为 USD 21.25）的库存财务发货（财务和实际更新的交易记录的移动平均）。
--   6a. 数量 1（单件成本价为 USD 21.25）的库存实际发货。
--   7. 执行库存结转。 基于先进先出方法，将针对最先更新的收货（可以是财务的或实际的）调整或结算第一个财务发货交易记录。
+-   <span data-ttu-id="0968e-158">1a.</span><span class="sxs-lookup"><span data-stu-id="0968e-158">1a.</span></span> <span data-ttu-id="0968e-159">数量 1（单件成本为 USD 10.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-159">Inventory physical receipt for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="0968e-160">1b.</span><span class="sxs-lookup"><span data-stu-id="0968e-160">1b.</span></span> <span data-ttu-id="0968e-161">数量 1（单件成本为 USD 10.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-161">Inventory financial receipt for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="0968e-162">2a.</span><span class="sxs-lookup"><span data-stu-id="0968e-162">2a.</span></span> <span data-ttu-id="0968e-163">数量 1（单件成本为 USD 20.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-163">Inventory physical receipt for a quantity of 1 at a cost of USD 20.00 each.</span></span>
+-   <span data-ttu-id="0968e-164">2b.</span><span class="sxs-lookup"><span data-stu-id="0968e-164">2b.</span></span> <span data-ttu-id="0968e-165">数量 1（单件成本为 USD 20.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-165">Inventory financial receipt for a quantity of 1 at a cost of USD 20.00 each.</span></span>
+-   <span data-ttu-id="0968e-166">3a.</span><span class="sxs-lookup"><span data-stu-id="0968e-166">3a.</span></span> <span data-ttu-id="0968e-167">数量 1（单件成本为 USD 25.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-167">Inventory physical receipt for a quantity of 1 at a cost of USD 25.00 each.</span></span>
+-   <span data-ttu-id="0968e-168">4a.</span><span class="sxs-lookup"><span data-stu-id="0968e-168">4a.</span></span> <span data-ttu-id="0968e-169">数量 1（单件成本为 USD 30.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-169">Inventory physical receipt for a quantity of 1 at a cost of USD 30.00 each.</span></span>
+-   <span data-ttu-id="0968e-170">4b.</span><span class="sxs-lookup"><span data-stu-id="0968e-170">4b.</span></span> <span data-ttu-id="0968e-171">数量 1（单件成本为 USD 30.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-171">Inventory financial receipt for a quantity of 1 at a cost of USD 30.00 each.</span></span>
+-   <span data-ttu-id="0968e-172">5a.</span><span class="sxs-lookup"><span data-stu-id="0968e-172">5a.</span></span> <span data-ttu-id="0968e-173">数量 1（单件成本价为 USD 21.25）的库存实际发货（财务和实际更新的交易记录的移动平均）。</span><span class="sxs-lookup"><span data-stu-id="0968e-173">Inventory physical issue for a quantity of 1 at a cost price of USD 21.25 each (running average of financial and physical updated transactions).</span></span>
+-   <span data-ttu-id="0968e-174">5b.</span><span class="sxs-lookup"><span data-stu-id="0968e-174">5b.</span></span> <span data-ttu-id="0968e-175">数量 1（单件成本价为 USD 21.25）的库存财务发货（财务和实际更新的交易记录的移动平均）。</span><span class="sxs-lookup"><span data-stu-id="0968e-175">Inventory financial issue for a quantity of 1 at a cost price of USD 21.25 each (running average of financial and physical updated transactions).</span></span>
+-   <span data-ttu-id="0968e-176">6a.</span><span class="sxs-lookup"><span data-stu-id="0968e-176">6a.</span></span> <span data-ttu-id="0968e-177">数量 1（单件成本价为 USD 21.25）的库存实际发货。</span><span class="sxs-lookup"><span data-stu-id="0968e-177">Inventory physical issue for a quantity of 1 at a cost price of USD 21.25 each.</span></span>
+-   7. <span data-ttu-id="0968e-178">执行库存结转。</span><span class="sxs-lookup"><span data-stu-id="0968e-178">Inventory close is performed.</span></span> <span data-ttu-id="0968e-179">基于先进先出方法，将针对最先更新的收货（可以是财务的或实际的）调整或结算第一个财务发货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0968e-179">Based on the FIFO method, the first financial issue transaction will be adjusted or settled against the first updated receipt, either financial or physical.</span></span>
 
-将针对收货交易记录 1b 结算交易记录 5b。 将存在对此发货交易记录的 USD 11.25 的调整。 新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 下图说明了在使用**“包括实际成本”**选项时，先进先出库存模型对此系列的交易记录的影响。 ![具有“包括实际成本”的先进先出](./media/fifowithincludephysicalvalue.gif) 
+<span data-ttu-id="0968e-180">将针对收货交易记录 1b 结算交易记录 5b。</span><span class="sxs-lookup"><span data-stu-id="0968e-180">Transaction 5b will be settled against receipt transaction 1b.</span></span> <span data-ttu-id="0968e-181">将存在对此发货交易记录的 USD 11.25 的调整。</span><span class="sxs-lookup"><span data-stu-id="0968e-181">There will be an adjustment of USD –11.25 to this issue transaction.</span></span> <span data-ttu-id="0968e-182">新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。</span><span class="sxs-lookup"><span data-stu-id="0968e-182">The new running average cost price reflects the average of the financially and physically updated transactions, USD 27.50.</span></span> <span data-ttu-id="0968e-183">下图说明了在使用**“包括实际成本”**选项时，先进先出库存模型对此系列的交易记录的影响。</span><span class="sxs-lookup"><span data-stu-id="0968e-183">The following illustration shows the effects of the FIFO inventory model on this series of transactions when the **Include physical value** option is used.</span></span> <span data-ttu-id="0968e-184">![具有“包括实际成本”的先进先出](./media/fifowithincludephysicalvalue.gif)</span><span class="sxs-lookup"><span data-stu-id="0968e-184">![FIFO with Include Physical Value](./media/fifowithincludephysicalvalue.gif)</span></span> 
 
-**图形要点**
+<span data-ttu-id="0968e-185">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="0968e-185">**Key to the diagram**</span></span>
 
--   库存交易记录用垂直箭头表示。
--   入库用时间线上的垂直箭头表示。
--   出库用时间线下的垂直箭头表示。
--   在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。
--   用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。
--   未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。
--   每个新的收货或发货交易记录都用一个新标签标明。
--   每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
--   库存结转用红色的垂直虚线以及*“库存结转”*标签表示。
--   由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。
+-   <span data-ttu-id="0968e-186">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-186">Inventory transactions are represented by vertical arrows.</span></span>
+-   <span data-ttu-id="0968e-187">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-187">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+-   <span data-ttu-id="0968e-188">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-188">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+-   <span data-ttu-id="0968e-189">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="0968e-189">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+-   <span data-ttu-id="0968e-190">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="0968e-190">An inventory transaction value that is enclosed in parentheses indicates that the inventory transaction is physically posted into inventory.</span></span>
+-   <span data-ttu-id="0968e-191">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="0968e-191">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
+-   <span data-ttu-id="0968e-192">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="0968e-192">Each new receipt or issue transaction is designated by a new label.</span></span>
+-   <span data-ttu-id="0968e-193">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="0968e-193">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="0968e-194">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="0968e-194">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
+-   <span data-ttu-id="0968e-195">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-195">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
+-   <span data-ttu-id="0968e-196">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-196">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
 
-## <a name="fifo-with-marking"></a>具有标记的先进先出
-标记是一个过程，您可以将某一发货交易记录链接到（或标记到）某一收货交易记录。 标记可以在过帐交易记录之前或之后发生。 如果您想要在过帐交易记录时或执行库存结转时确保库存的准确成本，则可以使用标记。 例如，客户服务部接受了来自重要客户的一个紧急订单。 由于这是一份紧急订单，因此您必须为此物料支付更多成本才能满足您客户的请求。 您必须确保此库存物料的成本反映在此销售订单发票的毛利中或所售货物成本 (COGS) 中。 在过帐采购订单时，按 USD 120.00 的成本入库。 如果在过帐装箱单或发票前此销售订单单据标记到采购订单，则 COGS 将是 USD 120.00，而不是该物料的当前移动平均成本。 如果在发生标记前过帐销售订单装箱单或发票，则将按移动平均成本价过帐 COGS。 在执行库存结转前，仍可以彼此标记这两个交易记录。 在将某一收货交易记录与某一发货交易记录相匹配时，将不考虑在物料模型组中定义的求值方法，并且此系统将彼此结算这些交易记录。 在过帐交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。 您可以从**“销售订单详细信息”**页上的销售订单行执行此操作。 您可以在**“标记”**页上查看未结收货交易记录。 在过帐交易记录后，您还可以将某一发货交易记录标记到某一收货交易记录。 您可以匹配或标记已过帐库存调整日记帐的清查过物料的未结收货交易记录的发货交易记录。 随后的插图说明了这些交易记录：
+## <a name="fifo-with-marking"></a><span data-ttu-id="0968e-197">具有标记的先进先出</span><span class="sxs-lookup"><span data-stu-id="0968e-197">FIFO with marking</span></span>
+<span data-ttu-id="0968e-198">标记是一个过程，您可以将某一发货交易记录链接到（或标记到）某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0968e-198">Marking is a process that lets you link, or mark, an issue transaction to a receipt transaction.</span></span> <span data-ttu-id="0968e-199">标记可以在过帐交易记录之前或之后发生。</span><span class="sxs-lookup"><span data-stu-id="0968e-199">Marking can occur either before or after a transaction is posted.</span></span> <span data-ttu-id="0968e-200">如果您想要在过帐交易记录时或执行库存结转时确保库存的准确成本，则可以使用标记。</span><span class="sxs-lookup"><span data-stu-id="0968e-200">You can use marking when you want to be sure of the exact cost of inventory when the transaction is posted or the inventory close is performed.</span></span> <span data-ttu-id="0968e-201">例如，客户服务部接受了来自重要客户的一个紧急订单。</span><span class="sxs-lookup"><span data-stu-id="0968e-201">For example, the Customer Service department accepted a rush order from an important customer.</span></span> <span data-ttu-id="0968e-202">由于这是一份紧急订单，因此您必须为此物料支付更多成本才能满足您客户的请求。</span><span class="sxs-lookup"><span data-stu-id="0968e-202">Because this order is a rush order, you must pay more for this item in order to fulfill your customer’s request.</span></span> <span data-ttu-id="0968e-203">您必须确保此库存物料的成本反映在此销售订单发票的毛利中或所售货物成本 (COGS) 中。</span><span class="sxs-lookup"><span data-stu-id="0968e-203">You must make sure that the cost of this inventory item is reflected in the margin, or cost of goods sold (COGS), for this sales order invoice.</span></span> <span data-ttu-id="0968e-204">在过帐采购订单时，按 USD 120.00 的成本入库。</span><span class="sxs-lookup"><span data-stu-id="0968e-204">When the purchase order is posted, the inventory is received at a cost of USD 120.00.</span></span> <span data-ttu-id="0968e-205">如果在过帐装箱单或发票前此销售订单单据标记到采购订单，则 COGS 将是 USD 120.00，而不是该物料的当前移动平均成本。</span><span class="sxs-lookup"><span data-stu-id="0968e-205">If this sales order document is marked to the purchase order before the packing slip or invoice is posted, the COGS will be USD 120.00, not the current running average cost for the item.</span></span> <span data-ttu-id="0968e-206">如果在发生标记前过帐销售订单装箱单或发票，则将按移动平均成本价过帐 COGS。</span><span class="sxs-lookup"><span data-stu-id="0968e-206">If the sales order packing slip or invoice is posted before the marking occurs, the COGS will be posted at the running average cost price.</span></span> <span data-ttu-id="0968e-207">在执行库存结转前，仍可以彼此标记这两个交易记录。</span><span class="sxs-lookup"><span data-stu-id="0968e-207">Before inventory close is performed, these two transactions can still be marked to each other.</span></span> <span data-ttu-id="0968e-208">在将某一收货交易记录与某一发货交易记录相匹配时，将不考虑在物料模型组中定义的求值方法，并且此系统将彼此结算这些交易记录。</span><span class="sxs-lookup"><span data-stu-id="0968e-208">When a receipt transaction matches an issue transaction, the valuation method that is defined in the item model group is disregarded, and the system settles these transactions to each other.</span></span> <span data-ttu-id="0968e-209">在过帐交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0968e-209">You can mark an issue transaction to a receipt before the transaction is posted.</span></span> <span data-ttu-id="0968e-210">您可以从**“销售订单详细信息”**页上的销售订单行执行此操作。</span><span class="sxs-lookup"><span data-stu-id="0968e-210">You can do this from a sales order line on the **Sales order details** page.</span></span> <span data-ttu-id="0968e-211">您可以在**“标记”**页上查看未结收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0968e-211">You can view the open receipt transactions on the **Marking** page.</span></span> <span data-ttu-id="0968e-212">在过帐交易记录后，您还可以将某一发货交易记录标记到某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0968e-212">You can also mark an issue transaction to a receipt after the transaction is posted.</span></span> <span data-ttu-id="0968e-213">您可以匹配或标记已过帐库存调整日记帐的清查过物料的未结收货交易记录的发货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0968e-213">You can match or mark an issue transaction for an open receipt transaction for an inventoried item from a posted inventory adjustment journal.</span></span> <span data-ttu-id="0968e-214">随后的插图说明了这些交易记录：</span><span class="sxs-lookup"><span data-stu-id="0968e-214">The illustration that follows shows these transactions:</span></span>
 
--   1a. 数量 1（单件成本为 USD 10.00）的库存实际收货。
--   1b. 数量 1（单件成本为 USD 10.00）的库存财务收货。
--   2a. 数量 1（单件成本为 USD 20.00）的库存实际收货。
--   2b. 数量 1（单件成本为 USD 20.00）的库存财务收货。
--   3a. 数量 1（单件成本为 USD 25.00）的库存实际收货。
--   4a. 数量 1（单件成本为 USD 30.00）的库存实际收货。
--   4b. 数量 1（单件成本为 USD 30.00）的库存财务收货。
--   5a. 数量 1（单件成本价为 USD 21.25）的库存实际发货（财务和实际更新的交易记录的移动平均）。
--   5b. 在过帐交易记录前将数量为 1 的库存财务发货标记为库存收货 2b。 此交易记录按 USD 20.00 的单件成本价过帐。
--   6a. 数量 1（单件成本价为 USD 21.25）的库存实际发货。
--   7. 执行库存结转。 由于财务更新的先进先出交易记录标记为现有收货，因此将彼此结算这些交易记录并且不进行调整。
+-   <span data-ttu-id="0968e-215">1a.</span><span class="sxs-lookup"><span data-stu-id="0968e-215">1a.</span></span> <span data-ttu-id="0968e-216">数量 1（单件成本为 USD 10.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-216">Inventory physical receipt for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="0968e-217">1b.</span><span class="sxs-lookup"><span data-stu-id="0968e-217">1b.</span></span> <span data-ttu-id="0968e-218">数量 1（单件成本为 USD 10.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-218">Inventory financial receipt for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="0968e-219">2a.</span><span class="sxs-lookup"><span data-stu-id="0968e-219">2a.</span></span> <span data-ttu-id="0968e-220">数量 1（单件成本为 USD 20.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-220">Inventory physical receipt for a quantity of 1 at a cost of USD 20.00 each.</span></span>
+-   <span data-ttu-id="0968e-221">2b.</span><span class="sxs-lookup"><span data-stu-id="0968e-221">2b.</span></span> <span data-ttu-id="0968e-222">数量 1（单件成本为 USD 20.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-222">Inventory financial receipt for a quantity of 1 at a cost of USD 20.00 each.</span></span>
+-   <span data-ttu-id="0968e-223">3a.</span><span class="sxs-lookup"><span data-stu-id="0968e-223">3a.</span></span> <span data-ttu-id="0968e-224">数量 1（单件成本为 USD 25.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-224">Inventory physical receipt for a quantity of 1 at a cost of USD 25.00 each.</span></span>
+-   <span data-ttu-id="0968e-225">4a.</span><span class="sxs-lookup"><span data-stu-id="0968e-225">4a.</span></span> <span data-ttu-id="0968e-226">数量 1（单件成本为 USD 30.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-226">Inventory physical receipt for a quantity of 1 at a cost of USD 30.00 each.</span></span>
+-   <span data-ttu-id="0968e-227">4b.</span><span class="sxs-lookup"><span data-stu-id="0968e-227">4b.</span></span> <span data-ttu-id="0968e-228">数量 1（单件成本为 USD 30.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="0968e-228">Inventory financial receipt for a quantity of 1 at a cost of USD 30.00 each.</span></span>
+-   <span data-ttu-id="0968e-229">5a.</span><span class="sxs-lookup"><span data-stu-id="0968e-229">5a.</span></span> <span data-ttu-id="0968e-230">数量 1（单件成本价为 USD 21.25）的库存实际发货（财务和实际更新的交易记录的移动平均）。</span><span class="sxs-lookup"><span data-stu-id="0968e-230">Inventory physical issue for a quantity of 1 at a cost price of USD 21.25 each (running average of financial and physical updated transactions).</span></span>
+-   <span data-ttu-id="0968e-231">5b.</span><span class="sxs-lookup"><span data-stu-id="0968e-231">5b.</span></span> <span data-ttu-id="0968e-232">在过帐交易记录前将数量为 1 的库存财务发货标记为库存收货 2b。</span><span class="sxs-lookup"><span data-stu-id="0968e-232">Inventory financial issue for a quantity of 1 is marked to inventory receipt 2b before the transaction is posted.</span></span> <span data-ttu-id="0968e-233">此交易记录按 USD 20.00 的单件成本价过帐。</span><span class="sxs-lookup"><span data-stu-id="0968e-233">This transaction is posted at a cost price of USD 20.00 each.</span></span>
+-   <span data-ttu-id="0968e-234">6a.</span><span class="sxs-lookup"><span data-stu-id="0968e-234">6a.</span></span> <span data-ttu-id="0968e-235">数量 1（单件成本价为 USD 21.25）的库存实际发货。</span><span class="sxs-lookup"><span data-stu-id="0968e-235">Inventory physical issue for a quantity of 1 at a cost price of USD 21.25 each.</span></span>
+-   7. <span data-ttu-id="0968e-236">执行库存结转。</span><span class="sxs-lookup"><span data-stu-id="0968e-236">Inventory close is performed.</span></span> <span data-ttu-id="0968e-237">由于财务更新的先进先出交易记录标记为现有收货，因此将彼此结算这些交易记录并且不进行调整。</span><span class="sxs-lookup"><span data-stu-id="0968e-237">Because the financially updated FIFO transaction is marked to an existing receipt, these transactions are settled against each other, and no adjustment is made.</span></span>
 
-新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 下图说明在使用发货和收货之间的标记时，先进先出库存模型对此系列的交易记录的影响。 ![具有标记的先进先出](./media/fifowithmarking.gif) 
+<span data-ttu-id="0968e-238">新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。</span><span class="sxs-lookup"><span data-stu-id="0968e-238">The new running average cost price reflects the average of the financially and physically updated transactions, USD 27.50.</span></span> <span data-ttu-id="0968e-239">下图说明在使用发货和收货之间的标记时，先进先出库存模型对此系列的交易记录的影响。</span><span class="sxs-lookup"><span data-stu-id="0968e-239">The following illustration shows the effects of the FIFO inventory model on this series of transactions when marking between issues and receipts is used.</span></span> ![具有标记的先进先出](./media/fifowithmarking.gif) 
 
-**图形要点**
+<span data-ttu-id="0968e-241">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="0968e-241">**Key to the diagram**</span></span>
 
--   库存交易记录用垂直箭头表示。
--   入库用时间线上的垂直箭头表示。
--   出库用时间线下的垂直箭头表示。
--   在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。
--   用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。
--   未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。
--   每个新的收货或发货交易记录都用一个新标签标明。
--   每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
--   库存结转用红色的垂直虚线以及*“库存结转”*标签表示。
--   由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。
+-   <span data-ttu-id="0968e-242">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-242">Inventory transactions are represented by vertical arrows.</span></span>
+-   <span data-ttu-id="0968e-243">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-243">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+-   <span data-ttu-id="0968e-244">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-244">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+-   <span data-ttu-id="0968e-245">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="0968e-245">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+-   <span data-ttu-id="0968e-246">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="0968e-246">An inventory transaction value that is enclosed in parentheses indicates that the inventory transaction is physically posted into inventory.</span></span>
+-   <span data-ttu-id="0968e-247">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="0968e-247">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
+-   <span data-ttu-id="0968e-248">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="0968e-248">Each new receipt or issue transaction is designated by a new label.</span></span>
+-   <span data-ttu-id="0968e-249">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="0968e-249">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="0968e-250">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="0968e-250">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
+-   <span data-ttu-id="0968e-251">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-251">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
+-   <span data-ttu-id="0968e-252">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="0968e-252">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
 
 
 

@@ -15,192 +15,192 @@ ms.custom: 54502
 ms.assetid: d29aac80-e6c7-463c-b7a0-995aac84ea0b
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 8daf9d0c5b83e3bca66c0229a328737adeeb2951
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 45582c5378fb2b3d6c9e26632accf37197a671bb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="keyboard-shortcuts"></a>键盘快捷方式
+# <a name="keyboard-shortcuts"></a><span data-ttu-id="cadcc-103">键盘快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-103">Keyboard shortcuts</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-以下键盘快捷方式在整个 Microsoft Dynamics 365 for Finance and Operations 中都适用。 
+<span data-ttu-id="cadcc-104">以下键盘快捷方式在整个 Microsoft Dynamics 365 for Finance and Operations 中都适用。</span><span class="sxs-lookup"><span data-stu-id="cadcc-104">The following keyboard shortcuts apply across Microsoft Dynamics 365 for Finance and Operations.</span></span> 
 
-**注意：**此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
+<span data-ttu-id="cadcc-105">**注意：**此处描述的键盘快捷方式是指美式键盘布局。</span><span class="sxs-lookup"><span data-stu-id="cadcc-105">**Note:** The keyboard shortcuts described here refer to the United States keyboard layout.</span></span> <span data-ttu-id="cadcc-106">其他键盘布局中的键可能不能与美式键盘上的键完全对应。</span><span class="sxs-lookup"><span data-stu-id="cadcc-106">Keys on other keyboard layouts might not correspond exactly to the keys on a US keyboard.</span></span>
 
-## <a name="action-shortcuts"></a>操作快捷方式
+## <a name="action-shortcuts"></a><span data-ttu-id="cadcc-107">操作快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-107">Action shortcuts</span></span>
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **要完成的任务**                                    | **按**                        |
-| 打开操作搜索                                | Ctrl+’ 或 Alt+Q                  |
-| 移动到标准操作窗格                  | Ctrl+F6                          |
-| 在操作窗格或菜单中打开一个选项卡           | Enter 或 Space 或 Alt+向下箭头 |
-| 移到菜单中的下一个/上一个选项            | 向下箭头/向上箭头            |
-| 在操作窗格或菜单中关闭一个选项卡          | Esc                              |
-| 模拟右键单击                            | Shift+F10                        |
-| 打开 Finance and Operations 上下文菜单 | Ctrl+F10                         |
-| 在窗体/对话框中执行默认按钮       | Alt+Enter                        |
-| 单击按钮或磁贴                            | Enter 或 Space                   |
-| 查看计数磁贴的刷新信息         | Alt+向上箭头                     |
+| <span data-ttu-id="cadcc-108">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-108">**To do this**</span></span>                                    | <span data-ttu-id="cadcc-109">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-109">**Press**</span></span>                        |
+| <span data-ttu-id="cadcc-110">打开操作搜索</span><span class="sxs-lookup"><span data-stu-id="cadcc-110">Open action search</span></span>                                | <span data-ttu-id="cadcc-111">Ctrl+’ 或 Alt+Q</span><span class="sxs-lookup"><span data-stu-id="cadcc-111">Ctrl+’ or Alt+Q</span></span>                  |
+| <span data-ttu-id="cadcc-112">移动到标准操作窗格</span><span class="sxs-lookup"><span data-stu-id="cadcc-112">Move to the standard action pane</span></span>                  | <span data-ttu-id="cadcc-113">Ctrl+F6</span><span class="sxs-lookup"><span data-stu-id="cadcc-113">Ctrl+F6</span></span>                          |
+| <span data-ttu-id="cadcc-114">在操作窗格或菜单中打开一个选项卡</span><span class="sxs-lookup"><span data-stu-id="cadcc-114">Open a tab in the action pane or a menu</span></span>           | <span data-ttu-id="cadcc-115">Enter 或 Space 或 Alt+向下箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-115">Enter or Space or Alt+Down Arrow</span></span> |
+| <span data-ttu-id="cadcc-116">移到菜单中的下一个/上一个选项</span><span class="sxs-lookup"><span data-stu-id="cadcc-116">Move to next/previous option in a menu</span></span>            | <span data-ttu-id="cadcc-117">向下箭头/向上箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-117">Down Arrow / Up Arrow</span></span>            |
+| <span data-ttu-id="cadcc-118">在操作窗格或菜单中关闭一个选项卡</span><span class="sxs-lookup"><span data-stu-id="cadcc-118">Close a tab in the action pane or a menu</span></span>          | <span data-ttu-id="cadcc-119">Esc</span><span class="sxs-lookup"><span data-stu-id="cadcc-119">Esc</span></span>                              |
+| <span data-ttu-id="cadcc-120">模拟右键单击</span><span class="sxs-lookup"><span data-stu-id="cadcc-120">Simulate a right-click</span></span>                            | <span data-ttu-id="cadcc-121">Shift+F10</span><span class="sxs-lookup"><span data-stu-id="cadcc-121">Shift+F10</span></span>                        |
+| <span data-ttu-id="cadcc-122">打开 Finance and Operations 上下文菜单</span><span class="sxs-lookup"><span data-stu-id="cadcc-122">Open the Finance and Operations context menu</span></span> | <span data-ttu-id="cadcc-123">Ctrl+F10</span><span class="sxs-lookup"><span data-stu-id="cadcc-123">Ctrl+F10</span></span>                         |
+| <span data-ttu-id="cadcc-124">在窗体/对话框中执行默认按钮</span><span class="sxs-lookup"><span data-stu-id="cadcc-124">Execute the default button on a form/dialog</span></span>       | <span data-ttu-id="cadcc-125">Alt+Enter</span><span class="sxs-lookup"><span data-stu-id="cadcc-125">Alt+Enter</span></span>                        |
+| <span data-ttu-id="cadcc-126">单击按钮或磁贴</span><span class="sxs-lookup"><span data-stu-id="cadcc-126">Click a button or tile</span></span>                            | <span data-ttu-id="cadcc-127">Enter 或 Space</span><span class="sxs-lookup"><span data-stu-id="cadcc-127">Enter or Space</span></span>                   |
+| <span data-ttu-id="cadcc-128">查看计数磁贴的刷新信息</span><span class="sxs-lookup"><span data-stu-id="cadcc-128">View refresh information for a count tile</span></span>         | <span data-ttu-id="cadcc-129">Alt+向上箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-129">Alt+Up Arrow</span></span>                     |
 
  
 
-## <a name="date-picker-shortcuts"></a>日期选择器快捷方式
+## <a name="date-picker-shortcuts"></a><span data-ttu-id="cadcc-130">日期选择器快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-130">Date picker shortcuts</span></span>
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
-| **要完成的任务**                        | **按**                                 |
-| 打开日期选择器                  | Alt+向下箭头                            |
-| 在日期选择器中的日期之间移动 | Ctrl+箭头键                               |
-| 移到下一个/上一个月       | Page Down / Page Up                       |
-| 移到下一/上一年        | Ctrl+Shift+Page Down / Ctrl+Shift+Page Up |
+| <span data-ttu-id="cadcc-131">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-131">**To do this**</span></span>                        | <span data-ttu-id="cadcc-132">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-132">**Press**</span></span>                                 |
+| <span data-ttu-id="cadcc-133">打开日期选择器</span><span class="sxs-lookup"><span data-stu-id="cadcc-133">Open the date picker</span></span>                  | <span data-ttu-id="cadcc-134">Alt+向下箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-134">Alt+Down Arrow</span></span>                            |
+| <span data-ttu-id="cadcc-135">在日期选择器中的日期之间移动</span><span class="sxs-lookup"><span data-stu-id="cadcc-135">Move between dates in the date picker</span></span> | <span data-ttu-id="cadcc-136">Ctrl+箭头键</span><span class="sxs-lookup"><span data-stu-id="cadcc-136">Ctrl+Arrows</span></span>                               |
+| <span data-ttu-id="cadcc-137">移到下一个/上一个月</span><span class="sxs-lookup"><span data-stu-id="cadcc-137">Move to the next/previous month</span></span>       | <span data-ttu-id="cadcc-138">Page Down / Page Up</span><span class="sxs-lookup"><span data-stu-id="cadcc-138">Page Down / Page Up</span></span>                       |
+| <span data-ttu-id="cadcc-139">移到下一/上一年</span><span class="sxs-lookup"><span data-stu-id="cadcc-139">Move to the next/previous year</span></span>        | <span data-ttu-id="cadcc-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span><span class="sxs-lookup"><span data-stu-id="cadcc-140">Ctrl+Shift+Page Down / Ctrl+Shift+Page Up</span></span> |
 
  
 
-## <a name="factbox-shortcuts"></a>速见表快捷方式
+## <a name="factbox-shortcuts"></a><span data-ttu-id="cadcc-141">速见表快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-141">FactBox shortcuts</span></span>
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
-| 打开“速见表”窗格（或将焦点移至“速见表”窗格，如果它已经打开） | Ctrl+F2                                   |
-| 关闭“速见表”窗格（焦点在“速见表”窗格内）                         | Esc                                       |
-| 移到下一个/上一个速见表（焦点在“速见表”窗格内）              | Alt+Shift+向下箭头/Alt+Shift+向上箭头 |
-| 移到第 &lt;n&gt; 个速见表（焦点在“速见表”窗格内）                | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)           |
-| 展开速见表（焦点在“速见表”窗格内）                             | Space 或 Enter                            |
-| 折叠当前速见表                                                    | Alt+0                                     |
+| <span data-ttu-id="cadcc-142">打开“速见表”窗格（或将焦点移至“速见表”窗格，如果它已经打开）</span><span class="sxs-lookup"><span data-stu-id="cadcc-142">Open the FactBox pane (or move focus to the FactBox pane if it is already open)</span></span> | <span data-ttu-id="cadcc-143">Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="cadcc-143">Ctrl+F2</span></span>                                   |
+| <span data-ttu-id="cadcc-144">关闭“速见表”窗格（焦点在“速见表”窗格内）</span><span class="sxs-lookup"><span data-stu-id="cadcc-144">Close the FactBox pane (with focus in the FactBox pane)</span></span>                         | <span data-ttu-id="cadcc-145">Esc</span><span class="sxs-lookup"><span data-stu-id="cadcc-145">Esc</span></span>                                       |
+| <span data-ttu-id="cadcc-146">移到下一个/上一个速见表（焦点在“速见表”窗格内）</span><span class="sxs-lookup"><span data-stu-id="cadcc-146">Move to the next/previous FactBox (with focus in the FactBox pane)</span></span>              | <span data-ttu-id="cadcc-147">Alt+Shift+向下箭头/Alt+Shift+向上箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-147">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span> |
+| <span data-ttu-id="cadcc-148">移到第 &lt;n&gt; 个速见表（焦点在“速见表”窗格内）</span><span class="sxs-lookup"><span data-stu-id="cadcc-148">Move to the &lt;n&gt;th FactBox (with focus in the FactBox pane)</span></span>                | <span data-ttu-id="cadcc-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="cadcc-149">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>           |
+| <span data-ttu-id="cadcc-150">展开速见表（焦点在“速见表”窗格内）</span><span class="sxs-lookup"><span data-stu-id="cadcc-150">Expand a FactBox (with focus on the FactBox header)</span></span>                             | <span data-ttu-id="cadcc-151">Space 或 Enter</span><span class="sxs-lookup"><span data-stu-id="cadcc-151">Space or Enter</span></span>                            |
+| <span data-ttu-id="cadcc-152">折叠当前速见表</span><span class="sxs-lookup"><span data-stu-id="cadcc-152">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="cadcc-153">Alt+0</span><span class="sxs-lookup"><span data-stu-id="cadcc-153">Alt+0</span></span>                                     |
 
  
 
-## <a name="filtering-shortcuts"></a>筛选快捷方式
+## <a name="filtering-shortcuts"></a><span data-ttu-id="cadcc-154">筛选快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-154">Filtering shortcuts</span></span>
 |                                                                                                                     |               |
 |---------------------------------------------------------------------------------------------------------------------|---------------|
-| **要完成的任务**                                                                                                      | **按**     |
-| 打开用于当前列的网格筛选                                                                          | Ctrl+G        |
-| 关闭用于当前列的网格筛选                                                                         | Esc           |
-| 打开“筛选器”窗格（或如果“筛选器”窗格已打开，在“筛选器”窗格和主窗体之间切换） | Ctrl+F3       |
-| 关闭“筛选器”窗格（焦点在“筛选器”窗格内）                                                               | Esc           |
-| 打开高级筛选/排序                                                                                        | Ctrl+Shift+F3 |
+| <span data-ttu-id="cadcc-155">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-155">**To do this**</span></span>                                                                                                      | <span data-ttu-id="cadcc-156">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-156">**Press**</span></span>     |
+| <span data-ttu-id="cadcc-157">打开用于当前列的网格筛选</span><span class="sxs-lookup"><span data-stu-id="cadcc-157">Open grid filtering for the current column</span></span>                                                                          | <span data-ttu-id="cadcc-158">Ctrl+G</span><span class="sxs-lookup"><span data-stu-id="cadcc-158">Ctrl+G</span></span>        |
+| <span data-ttu-id="cadcc-159">关闭用于当前列的网格筛选</span><span class="sxs-lookup"><span data-stu-id="cadcc-159">Close grid filtering for the current column</span></span>                                                                         | <span data-ttu-id="cadcc-160">Esc</span><span class="sxs-lookup"><span data-stu-id="cadcc-160">Esc</span></span>           |
+| <span data-ttu-id="cadcc-161">打开“筛选器”窗格（或如果“筛选器”窗格已打开，在“筛选器”窗格和主窗体之间切换）</span><span class="sxs-lookup"><span data-stu-id="cadcc-161">Open the Filter pane (or switch focus between the Filter pane and the main form if the Filter pane is already open)</span></span> | <span data-ttu-id="cadcc-162">Ctrl+F3</span><span class="sxs-lookup"><span data-stu-id="cadcc-162">Ctrl+F3</span></span>       |
+| <span data-ttu-id="cadcc-163">关闭“筛选器”窗格（焦点在“筛选器”窗格内）</span><span class="sxs-lookup"><span data-stu-id="cadcc-163">Close the Filter pane (with focus in the Filter pane)</span></span>                                                               | <span data-ttu-id="cadcc-164">Esc</span><span class="sxs-lookup"><span data-stu-id="cadcc-164">Esc</span></span>           |
+| <span data-ttu-id="cadcc-165">打开高级筛选/排序</span><span class="sxs-lookup"><span data-stu-id="cadcc-165">Open advanced filtering/sort</span></span>                                                                                        | <span data-ttu-id="cadcc-166">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="cadcc-166">Ctrl+Shift+F3</span></span> |
 
  
 
-## <a name="form-shortcuts"></a>窗体快捷方式
+## <a name="form-shortcuts"></a><span data-ttu-id="cadcc-167">窗体快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-167">Form shortcuts</span></span>
 |                                                                                                                                 |                   |
 |---------------------------------------------------------------------------------------------------------------------------------|-------------------|
-| **要完成的任务**                                                                                                                  | **按**         |
-| 创建新记录                                                                                                             | Alt+N             |
-| 删除记录                                                                                                                 | Alt+Del 或 Alt+F9 |
-| 保存记录                                                                                                                     | Alt+S 或 Ctrl+S   |
-| 还原（恢复）                                                                                                                | Ctrl+Shift+F5     |
-| 数据刷新                                                                                                                    | Shift+F5          |
-| 移到窗体中的第一个可见字段                                                                                     | Alt+Shift+F       |
-| 开关编辑模式                                                                                                                | F2                |
-| 附加文档                                                                                                               | Ctrl+Shift+A      |
-| 导出至 Excel                                                                                                                 | Ctrl+Shift+E      |
-| 移到上一个记录（在网格外）                                                                                    | Ctrl+向上箭头     |
-| 移到下一个记录（在网格外）                                                                                        | Ctrl+向下箭头   |
-| 移到第一个记录（在网格外）                                                                                       | Ctrl+Home         |
-| 移到最后一个记录（在网格外）                                                                                        | Ctrl+End          |
-| 打开“详细信息”窗体中的导航列表（或如果导航列表已打开，在导航列表和主窗体之间切换焦点） | Ctrl+F8           |
-| 关闭“详细信息”窗体中导航列表（焦点在导航列表内）                                                   | Esc               |
+| <span data-ttu-id="cadcc-168">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-168">**To do this**</span></span>                                                                                                                  | <span data-ttu-id="cadcc-169">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-169">**Press**</span></span>         |
+| <span data-ttu-id="cadcc-170">创建新记录</span><span class="sxs-lookup"><span data-stu-id="cadcc-170">Create a new record</span></span>                                                                                                             | <span data-ttu-id="cadcc-171">Alt+N</span><span class="sxs-lookup"><span data-stu-id="cadcc-171">Alt+N</span></span>             |
+| <span data-ttu-id="cadcc-172">删除记录</span><span class="sxs-lookup"><span data-stu-id="cadcc-172">Delete a record</span></span>                                                                                                                 | <span data-ttu-id="cadcc-173">Alt+Del 或 Alt+F9</span><span class="sxs-lookup"><span data-stu-id="cadcc-173">Alt+Del or Alt+F9</span></span> |
+| <span data-ttu-id="cadcc-174">保存记录</span><span class="sxs-lookup"><span data-stu-id="cadcc-174">Save record</span></span>                                                                                                                     | <span data-ttu-id="cadcc-175">Alt+S 或 Ctrl+S</span><span class="sxs-lookup"><span data-stu-id="cadcc-175">Alt+S or Ctrl+S</span></span>   |
+| <span data-ttu-id="cadcc-176">还原（恢复）</span><span class="sxs-lookup"><span data-stu-id="cadcc-176">Revert (restore)</span></span>                                                                                                                | <span data-ttu-id="cadcc-177">Ctrl+Shift+F5</span><span class="sxs-lookup"><span data-stu-id="cadcc-177">Ctrl+Shift+F5</span></span>     |
+| <span data-ttu-id="cadcc-178">数据刷新</span><span class="sxs-lookup"><span data-stu-id="cadcc-178">Data refresh</span></span>                                                                                                                    | <span data-ttu-id="cadcc-179">Shift+F5</span><span class="sxs-lookup"><span data-stu-id="cadcc-179">Shift+F5</span></span>          |
+| <span data-ttu-id="cadcc-180">移到窗体中的第一个可见字段</span><span class="sxs-lookup"><span data-stu-id="cadcc-180">Move to the visible first field on the form</span></span>                                                                                     | <span data-ttu-id="cadcc-181">Alt+Shift+F</span><span class="sxs-lookup"><span data-stu-id="cadcc-181">Alt+Shift+F</span></span>       |
+| <span data-ttu-id="cadcc-182">开关编辑模式</span><span class="sxs-lookup"><span data-stu-id="cadcc-182">Toggle edit mode</span></span>                                                                                                                | <span data-ttu-id="cadcc-183">F2</span><span class="sxs-lookup"><span data-stu-id="cadcc-183">F2</span></span>                |
+| <span data-ttu-id="cadcc-184">附加文档</span><span class="sxs-lookup"><span data-stu-id="cadcc-184">Attach a document</span></span>                                                                                                               | <span data-ttu-id="cadcc-185">Ctrl+Shift+A</span><span class="sxs-lookup"><span data-stu-id="cadcc-185">Ctrl+Shift+A</span></span>      |
+| <span data-ttu-id="cadcc-186">导出至 Excel</span><span class="sxs-lookup"><span data-stu-id="cadcc-186">Export to Excel</span></span>                                                                                                                 | <span data-ttu-id="cadcc-187">Ctrl+Shift+E</span><span class="sxs-lookup"><span data-stu-id="cadcc-187">Ctrl+Shift+E</span></span>      |
+| <span data-ttu-id="cadcc-188">移到上一个记录（在网格外）</span><span class="sxs-lookup"><span data-stu-id="cadcc-188">Move to the previous record (outside a grid)</span></span>                                                                                    | <span data-ttu-id="cadcc-189">Ctrl+向上箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-189">Ctrl+Up Arrow</span></span>     |
+| <span data-ttu-id="cadcc-190">移到下一个记录（在网格外）</span><span class="sxs-lookup"><span data-stu-id="cadcc-190">Move to the next record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="cadcc-191">Ctrl+向下箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-191">Ctrl+Down Arrow</span></span>   |
+| <span data-ttu-id="cadcc-192">移到第一个记录（在网格外）</span><span class="sxs-lookup"><span data-stu-id="cadcc-192">Move to the first record (outside a grid)</span></span>                                                                                       | <span data-ttu-id="cadcc-193">Ctrl+Home</span><span class="sxs-lookup"><span data-stu-id="cadcc-193">Ctrl+Home</span></span>         |
+| <span data-ttu-id="cadcc-194">移到最后一个记录（在网格外）</span><span class="sxs-lookup"><span data-stu-id="cadcc-194">Move to the last record (outside a grid)</span></span>                                                                                        | <span data-ttu-id="cadcc-195">Ctrl+End</span><span class="sxs-lookup"><span data-stu-id="cadcc-195">Ctrl+End</span></span>          |
+| <span data-ttu-id="cadcc-196">打开“详细信息”窗体中的导航列表（或如果导航列表已打开，在导航列表和主窗体之间切换焦点）</span><span class="sxs-lookup"><span data-stu-id="cadcc-196">Open the navigation list on Details forms (or switch focus between the navigation list and the main form if it is already open)</span></span> | <span data-ttu-id="cadcc-197">Ctrl+F8</span><span class="sxs-lookup"><span data-stu-id="cadcc-197">Ctrl+F8</span></span>           |
+| <span data-ttu-id="cadcc-198">关闭“详细信息”窗体中导航列表（焦点在导航列表内）</span><span class="sxs-lookup"><span data-stu-id="cadcc-198">Close the navigation list on Details form (with focus in the navigation list)</span></span>                                                   | <span data-ttu-id="cadcc-199">Esc</span><span class="sxs-lookup"><span data-stu-id="cadcc-199">Esc</span></span>               |
 
  
 
-## <a name="form-navigation-shortcuts"></a>窗体导航快捷方式
+## <a name="form-navigation-shortcuts"></a><span data-ttu-id="cadcc-200">窗体导航快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-200">Form navigation shortcuts</span></span>
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
-| **要完成的任务**                                      | **按**                                    |
-| 移到下一个/上一个字段                     | Tab / Shift+Tab                              |
-| 移到下一个/上一个选项卡                       | Alt+Shift+右箭头/Alt+Shift+左箭头 |
-| 移到下一个/上一个快速选项卡                   | Alt+Shift+向下箭头/Alt+Shift+向上箭头    |
-| 移到第 &lt;n&gt; 个快速选项卡                     | Alt+&lt;n&gt; (&lt;n&gt; = 1-9)              |
-| 移到第 &lt;n&gt; 个选项卡                         | Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)        |
-| 展开快速选项卡（焦点在快速选项卡标头上） | Space 或 Enter                               |
-| 折叠当前快速选项卡                        | Alt+0                                        |
-| 切换到网格视图                                 | Ctrl+Shift+G                                 |
-| 切换到详细信息视图                              | Ctrl+Shift+D                                 |
-| 切换到标头视图                               | Ctrl+Shift+H                                 |
-| 切换到行视图                                | Ctrl+Shift+L                                 |
-| 闭关窗体（单击“后退”）                         | Esc                                          |
-| 关闭具有显示保存的窗体                   | Shift+Esc                                    |
-| 关闭窗体，放弃所有未保存的更改       | Alt+Shift+Q                                  |
+| <span data-ttu-id="cadcc-201">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-201">**To do this**</span></span>                                      | <span data-ttu-id="cadcc-202">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-202">**Press**</span></span>                                    |
+| <span data-ttu-id="cadcc-203">移到下一个/上一个字段</span><span class="sxs-lookup"><span data-stu-id="cadcc-203">Move to the next/previous field</span></span>                     | <span data-ttu-id="cadcc-204">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="cadcc-204">Tab / Shift+Tab</span></span>                              |
+| <span data-ttu-id="cadcc-205">移到下一个/上一个选项卡</span><span class="sxs-lookup"><span data-stu-id="cadcc-205">Move to the next/previous tab</span></span>                       | <span data-ttu-id="cadcc-206">Alt+Shift+右箭头/Alt+Shift+左箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-206">Alt+Shift+Right Arrow / Alt+Shift+Left Arrow</span></span> |
+| <span data-ttu-id="cadcc-207">移到下一个/上一个快速选项卡</span><span class="sxs-lookup"><span data-stu-id="cadcc-207">Move to the next/previous FastTab</span></span>                   | <span data-ttu-id="cadcc-208">Alt+Shift+向下箭头/Alt+Shift+向上箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-208">Alt+Shift+Down Arrow / Alt+Shift+Up Arrow</span></span>    |
+| <span data-ttu-id="cadcc-209">移到第 &lt;n&gt; 个快速选项卡</span><span class="sxs-lookup"><span data-stu-id="cadcc-209">Move to the &lt;n&gt;th FastTab</span></span>                     | <span data-ttu-id="cadcc-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="cadcc-210">Alt+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>              |
+| <span data-ttu-id="cadcc-211">移到第 &lt;n&gt; 个选项卡</span><span class="sxs-lookup"><span data-stu-id="cadcc-211">Move to the &lt;n&gt;th tab</span></span>                         | <span data-ttu-id="cadcc-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span><span class="sxs-lookup"><span data-stu-id="cadcc-212">Alt+Shift+&lt;n&gt; (&lt;n&gt; = 1-9)</span></span>        |
+| <span data-ttu-id="cadcc-213">展开快速选项卡（焦点在快速选项卡标头上）</span><span class="sxs-lookup"><span data-stu-id="cadcc-213">Expand a FastTab (with focus on the FastTab header)</span></span> | <span data-ttu-id="cadcc-214">Space 或 Enter</span><span class="sxs-lookup"><span data-stu-id="cadcc-214">Space or Enter</span></span>                               |
+| <span data-ttu-id="cadcc-215">折叠当前快速选项卡</span><span class="sxs-lookup"><span data-stu-id="cadcc-215">Collapse the current FastTab</span></span>                        | <span data-ttu-id="cadcc-216">Alt+0</span><span class="sxs-lookup"><span data-stu-id="cadcc-216">Alt+0</span></span>                                        |
+| <span data-ttu-id="cadcc-217">切换到网格视图</span><span class="sxs-lookup"><span data-stu-id="cadcc-217">Switch to grid view</span></span>                                 | <span data-ttu-id="cadcc-218">Ctrl+Shift+G</span><span class="sxs-lookup"><span data-stu-id="cadcc-218">Ctrl+Shift+G</span></span>                                 |
+| <span data-ttu-id="cadcc-219">切换到详细信息视图</span><span class="sxs-lookup"><span data-stu-id="cadcc-219">Switch to details view</span></span>                              | <span data-ttu-id="cadcc-220">Ctrl+Shift+D</span><span class="sxs-lookup"><span data-stu-id="cadcc-220">Ctrl+Shift+D</span></span>                                 |
+| <span data-ttu-id="cadcc-221">切换到标头视图</span><span class="sxs-lookup"><span data-stu-id="cadcc-221">Switch to header view</span></span>                               | <span data-ttu-id="cadcc-222">Ctrl+Shift+H</span><span class="sxs-lookup"><span data-stu-id="cadcc-222">Ctrl+Shift+H</span></span>                                 |
+| <span data-ttu-id="cadcc-223">切换到行视图</span><span class="sxs-lookup"><span data-stu-id="cadcc-223">Switch to lines view</span></span>                                | <span data-ttu-id="cadcc-224">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="cadcc-224">Ctrl+Shift+L</span></span>                                 |
+| <span data-ttu-id="cadcc-225">闭关窗体（单击“后退”）</span><span class="sxs-lookup"><span data-stu-id="cadcc-225">Close the form (click Back)</span></span>                         | <span data-ttu-id="cadcc-226">Esc</span><span class="sxs-lookup"><span data-stu-id="cadcc-226">Esc</span></span>                                          |
+| <span data-ttu-id="cadcc-227">关闭具有显示保存的窗体</span><span class="sxs-lookup"><span data-stu-id="cadcc-227">Close the form with explicit save</span></span>                   | <span data-ttu-id="cadcc-228">Shift+Esc</span><span class="sxs-lookup"><span data-stu-id="cadcc-228">Shift+Esc</span></span>                                    |
+| <span data-ttu-id="cadcc-229">关闭窗体，放弃所有未保存的更改</span><span class="sxs-lookup"><span data-stu-id="cadcc-229">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="cadcc-230">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="cadcc-230">Alt+Shift+Q</span></span>                                  |
 
  
 
-## <a name="grid-shortcuts"></a>网格快捷方式
+## <a name="grid-shortcuts"></a><span data-ttu-id="cadcc-231">网格快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-231">Grid shortcuts</span></span>
 |                                                                                                               |                                 |
 |---------------------------------------------------------------------------------------------------------------|---------------------------------|
-| **要完成的任务**                                                                                                | **按**                       |
-| 移到下一个/上一个列                                                                              | Tab / Shift+Tab                 |
-| 移到下一个/上一个行                                                                                 | 向下箭头/向上箭头           |
-| 移到下一/前一行，但不选择（注意：此快捷方式只适用于多选方案。） | Ctrl+向上箭头/Ctrl+向下箭头 |
-| 选择/清除当前行（注意：此快捷方式只适用于多选方案。）                    | Ctrl+Space / Ctrl+单击         |
-| 将下一/前一行添加到所选组（注意：此快捷方式只适用于多选方案。）   | Shift+空格键                     |
-| 将一组行添加到所选组（注意：此快捷方式只适用于多选方案。）         | Shift+单击                     |
-| 转到数据的下一/上一页                                                                          | Page Up / Page Down             |
-| 在网格底部创建新行                                                                    | 向下箭头（从最后一行）  |
-| 选择或清除所有行                                                                                      | Ctrl+Shift+M                    |
-| 移到第一个记录                                                                                      | Ctrl+Home                       |
-| 移到最后一个记录                                                                                       | Ctrl+End                        |
+| <span data-ttu-id="cadcc-232">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-232">**To do this**</span></span>                                                                                                | <span data-ttu-id="cadcc-233">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-233">**Press**</span></span>                       |
+| <span data-ttu-id="cadcc-234">移到下一个/上一个列</span><span class="sxs-lookup"><span data-stu-id="cadcc-234">Move to the next/previous column</span></span>                                                                              | <span data-ttu-id="cadcc-235">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="cadcc-235">Tab / Shift+Tab</span></span>                 |
+| <span data-ttu-id="cadcc-236">移到下一个/上一个行</span><span class="sxs-lookup"><span data-stu-id="cadcc-236">Move to the next/previous row</span></span>                                                                                 | <span data-ttu-id="cadcc-237">向下箭头/向上箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-237">Down Arrow / Up Arrow</span></span>           |
+| <span data-ttu-id="cadcc-238">移到下一/前一行，但不选择（注意：此快捷方式只适用于多选方案。）</span><span class="sxs-lookup"><span data-stu-id="cadcc-238">Move to the next/previous row without selecting (Note: This shortcut applies to multi-select scenarios only.)</span></span> | <span data-ttu-id="cadcc-239">Ctrl+向上箭头/Ctrl+向下箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-239">Ctrl+Up Arrow / Ctrl+Down Arrow</span></span> |
+| <span data-ttu-id="cadcc-240">选择/清除当前行（注意：此快捷方式只适用于多选方案。）</span><span class="sxs-lookup"><span data-stu-id="cadcc-240">Select/clear the current row (Note: This shortcut applies to multi-select scenarios only.)</span></span>                    | <span data-ttu-id="cadcc-241">Ctrl+Space / Ctrl+单击</span><span class="sxs-lookup"><span data-stu-id="cadcc-241">Ctrl+Space / Ctrl+Click</span></span>         |
+| <span data-ttu-id="cadcc-242">将下一/前一行添加到所选组（注意：此快捷方式只适用于多选方案。）</span><span class="sxs-lookup"><span data-stu-id="cadcc-242">Add the next/previous row to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>   | <span data-ttu-id="cadcc-243">Shift+空格键</span><span class="sxs-lookup"><span data-stu-id="cadcc-243">Shift+Space</span></span>                     |
+| <span data-ttu-id="cadcc-244">将一组行添加到所选组（注意：此快捷方式只适用于多选方案。）</span><span class="sxs-lookup"><span data-stu-id="cadcc-244">Add a range of rows to the selected set (Note: This shortcut applies to multi-select scenarios only.)</span></span>         | <span data-ttu-id="cadcc-245">Shift+单击</span><span class="sxs-lookup"><span data-stu-id="cadcc-245">Shift+Click</span></span>                     |
+| <span data-ttu-id="cadcc-246">转到数据的下一/上一页</span><span class="sxs-lookup"><span data-stu-id="cadcc-246">Go to the next/previous page of data</span></span>                                                                          | <span data-ttu-id="cadcc-247">Page Up / Page Down</span><span class="sxs-lookup"><span data-stu-id="cadcc-247">Page Up / Page Down</span></span>             |
+| <span data-ttu-id="cadcc-248">在网格底部创建新行</span><span class="sxs-lookup"><span data-stu-id="cadcc-248">Create a new row at the bottom of the grid</span></span>                                                                    | <span data-ttu-id="cadcc-249">向下箭头（从最后一行）</span><span class="sxs-lookup"><span data-stu-id="cadcc-249">Down Arrow (from the last row)</span></span>  |
+| <span data-ttu-id="cadcc-250">选择或清除所有行</span><span class="sxs-lookup"><span data-stu-id="cadcc-250">Select or clear all rows</span></span>                                                                                      | <span data-ttu-id="cadcc-251">Ctrl+Shift+M</span><span class="sxs-lookup"><span data-stu-id="cadcc-251">Ctrl+Shift+M</span></span>                    |
+| <span data-ttu-id="cadcc-252">移到第一个记录</span><span class="sxs-lookup"><span data-stu-id="cadcc-252">Move to the first record</span></span>                                                                                      | <span data-ttu-id="cadcc-253">Ctrl+Home</span><span class="sxs-lookup"><span data-stu-id="cadcc-253">Ctrl+Home</span></span>                       |
+| <span data-ttu-id="cadcc-254">移到最后一个记录</span><span class="sxs-lookup"><span data-stu-id="cadcc-254">Move to the last record</span></span>                                                                                       | <span data-ttu-id="cadcc-255">Ctrl+End</span><span class="sxs-lookup"><span data-stu-id="cadcc-255">Ctrl+End</span></span>                        |
 
  
 
-## <a name="input-control-shortcuts"></a>输入控制快捷方式
+## <a name="input-control-shortcuts"></a><span data-ttu-id="cadcc-256">输入控制快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-256">Input control shortcuts</span></span>
 |                                                            |                               |
 |------------------------------------------------------------|-------------------------------|
-| **要完成的任务**                                             | **按**                     |
-| 在日期字段中输入会话日期                     | D+Tab                         |
-| 在日期字段中输入当前日期                     | T+Tab                         |
-| 打开查找、组合框、日期选择器、拖放对话框           | Alt+向下箭头                |
-| 关闭查找、组合框、日期选择器、拖放对话框          | Esc                           |
-| 将焦点移到查找内（在查找已打开时） | Alt+向下箭头                |
-| 打开控件的增强预览。                        | Alt+向上箭头                  |
-| 在当前字段中选择文本                           | Ctrl+A                        |
-| 进入/离开 HTML 编辑器控制中的文本区域        | Alt+向下箭头/Alt+向上箭头 |
+| <span data-ttu-id="cadcc-257">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-257">**To do this**</span></span>                                             | <span data-ttu-id="cadcc-258">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-258">**Press**</span></span>                     |
+| <span data-ttu-id="cadcc-259">在日期字段中输入会话日期</span><span class="sxs-lookup"><span data-stu-id="cadcc-259">Enter the session date in a date field</span></span>                     | <span data-ttu-id="cadcc-260">D+Tab</span><span class="sxs-lookup"><span data-stu-id="cadcc-260">D+Tab</span></span>                         |
+| <span data-ttu-id="cadcc-261">在日期字段中输入当前日期</span><span class="sxs-lookup"><span data-stu-id="cadcc-261">Enter the current date in a date field</span></span>                     | <span data-ttu-id="cadcc-262">T+Tab</span><span class="sxs-lookup"><span data-stu-id="cadcc-262">T+Tab</span></span>                         |
+| <span data-ttu-id="cadcc-263">打开查找、组合框、日期选择器、拖放对话框</span><span class="sxs-lookup"><span data-stu-id="cadcc-263">Open lookup, combo box, date picker, drop dialog</span></span>           | <span data-ttu-id="cadcc-264">Alt+向下箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-264">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="cadcc-265">关闭查找、组合框、日期选择器、拖放对话框</span><span class="sxs-lookup"><span data-stu-id="cadcc-265">Close lookup, combo box, date picker, drop dialog</span></span>          | <span data-ttu-id="cadcc-266">Esc</span><span class="sxs-lookup"><span data-stu-id="cadcc-266">Esc</span></span>                           |
+| <span data-ttu-id="cadcc-267">将焦点移到查找内（在查找已打开时）</span><span class="sxs-lookup"><span data-stu-id="cadcc-267">Move focus into a lookup (when the lookup is already open)</span></span> | <span data-ttu-id="cadcc-268">Alt+向下箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-268">Alt+Down Arrow</span></span>                |
+| <span data-ttu-id="cadcc-269">打开控件的增强预览。</span><span class="sxs-lookup"><span data-stu-id="cadcc-269">Open the control's enhanced preview</span></span>                        | <span data-ttu-id="cadcc-270">Alt+向上箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-270">Alt+Up Arrow</span></span>                  |
+| <span data-ttu-id="cadcc-271">在当前字段中选择文本</span><span class="sxs-lookup"><span data-stu-id="cadcc-271">Select text in the current field</span></span>                           | <span data-ttu-id="cadcc-272">Ctrl+A</span><span class="sxs-lookup"><span data-stu-id="cadcc-272">Ctrl+A</span></span>                        |
+| <span data-ttu-id="cadcc-273">进入/离开 HTML 编辑器控制中的文本区域</span><span class="sxs-lookup"><span data-stu-id="cadcc-273">Enter/leave the text area in an HTML editor control</span></span>        | <span data-ttu-id="cadcc-274">Alt+向下箭头/Alt+向上箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-274">Alt+Down Arrow / Alt+Up Arrow</span></span> |
 
  
 
-## <a name="messaging-shortcuts"></a>消息快捷方式
+## <a name="messaging-shortcuts"></a><span data-ttu-id="cadcc-275">消息快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-275">Messaging shortcuts</span></span>
 |                          |               |
 |--------------------------|---------------|
-| **要完成的任务**           | **按**     |
-| 转到消息中心 | Ctrl+Shift+F7 |
-| 转到消息栏    | Ctrl+F7       |
+| <span data-ttu-id="cadcc-276">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-276">**To do this**</span></span>           | <span data-ttu-id="cadcc-277">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-277">**Press**</span></span>     |
+| <span data-ttu-id="cadcc-278">转到消息中心</span><span class="sxs-lookup"><span data-stu-id="cadcc-278">Go to the Message Center</span></span> | <span data-ttu-id="cadcc-279">Ctrl+Shift+F7</span><span class="sxs-lookup"><span data-stu-id="cadcc-279">Ctrl+Shift+F7</span></span> |
+| <span data-ttu-id="cadcc-280">转到消息栏</span><span class="sxs-lookup"><span data-stu-id="cadcc-280">Go to the Message Bar</span></span>    | <span data-ttu-id="cadcc-281">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="cadcc-281">Ctrl+F7</span></span>       |
 
  
 
-## <a name="navigation-shortcuts"></a>导航快捷方式
+## <a name="navigation-shortcuts"></a><span data-ttu-id="cadcc-282">导航快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-282">Navigation shortcuts</span></span>
 |                                                                           |                 |
 |---------------------------------------------------------------------------|-----------------|
-| **要完成的任务**                                                            | **按**       |
-| 转到仪表板                                                       | Alt+Shift+Home  |
-| 转到导航栏                                                  | Alt+Shift+F1    |
-| 转到导航窗格                                                 | Alt + F1          |
-| 收藏/取消收藏窗体（焦点位于导航窗格中的窗体） | Shift+F         |
-| 转到公司选择器                                                  | Ctrl+Shift+O    |
-| 转到导航搜索                                                   | Ctrl+/ 或 Alt+G |
-| 打开帮助窗格                                                        | Ctrl+?          |
-| 打开跟踪分析器                                                     | Alt+Shift+T     |
+| <span data-ttu-id="cadcc-283">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-283">**To do this**</span></span>                                                            | <span data-ttu-id="cadcc-284">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-284">**Press**</span></span>       |
+| <span data-ttu-id="cadcc-285">转到仪表板</span><span class="sxs-lookup"><span data-stu-id="cadcc-285">Go to the dashboard</span></span>                                                       | <span data-ttu-id="cadcc-286">Alt+Shift+Home</span><span class="sxs-lookup"><span data-stu-id="cadcc-286">Alt+Shift+Home</span></span>  |
+| <span data-ttu-id="cadcc-287">转到导航栏</span><span class="sxs-lookup"><span data-stu-id="cadcc-287">Go to the navigation bar</span></span>                                                  | <span data-ttu-id="cadcc-288">Alt+Shift+F1</span><span class="sxs-lookup"><span data-stu-id="cadcc-288">Alt+Shift+F1</span></span>    |
+| <span data-ttu-id="cadcc-289">转到导航窗格</span><span class="sxs-lookup"><span data-stu-id="cadcc-289">Go to the navigation pane</span></span>                                                 | <span data-ttu-id="cadcc-290">Alt + F1</span><span class="sxs-lookup"><span data-stu-id="cadcc-290">Alt+F1</span></span>          |
+| <span data-ttu-id="cadcc-291">收藏/取消收藏窗体（焦点位于导航窗格中的窗体）</span><span class="sxs-lookup"><span data-stu-id="cadcc-291">Favorite/un-favorite a form (with focus on a form in the navigation pane)</span></span> | <span data-ttu-id="cadcc-292">Shift+F</span><span class="sxs-lookup"><span data-stu-id="cadcc-292">Shift+F</span></span>         |
+| <span data-ttu-id="cadcc-293">转到公司选择器</span><span class="sxs-lookup"><span data-stu-id="cadcc-293">Go to the company picker</span></span>                                                  | <span data-ttu-id="cadcc-294">Ctrl+Shift+O</span><span class="sxs-lookup"><span data-stu-id="cadcc-294">Ctrl+Shift+O</span></span>    |
+| <span data-ttu-id="cadcc-295">转到导航搜索</span><span class="sxs-lookup"><span data-stu-id="cadcc-295">Go to navigation search</span></span>                                                   | <span data-ttu-id="cadcc-296">Ctrl+/ 或 Alt+G</span><span class="sxs-lookup"><span data-stu-id="cadcc-296">Ctrl+/ or Alt+G</span></span> |
+| <span data-ttu-id="cadcc-297">打开帮助窗格</span><span class="sxs-lookup"><span data-stu-id="cadcc-297">Open the help pane</span></span>                                                        | <span data-ttu-id="cadcc-298">Ctrl+?</span><span class="sxs-lookup"><span data-stu-id="cadcc-298">Ctrl+?</span></span>          |
+| <span data-ttu-id="cadcc-299">打开跟踪分析器</span><span class="sxs-lookup"><span data-stu-id="cadcc-299">Open the trace parser</span></span>                                                     | <span data-ttu-id="cadcc-300">Alt+Shift+T</span><span class="sxs-lookup"><span data-stu-id="cadcc-300">Alt+Shift+T</span></span>     |
 
  
 
-## <a name="segmented-entry-shortcuts"></a>细分的输入快捷方式
+## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="cadcc-301">细分的输入快捷方式</span><span class="sxs-lookup"><span data-stu-id="cadcc-301">Segmented entry shortcuts</span></span>
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
-| **要完成的任务**                                                                                                          | **按**                        |
-| 打开下拉列表（在下拉列表关闭时）                                                             | Alt+向下箭头                   |
-| 将焦点移到下拉列表中当前段的输入字段中（在下拉列表已打开时）。 | Alt+向下箭头                   |
-| 关闭下拉列表                                                                                                | Alt+向上箭头                     |
-| 关闭/打开下拉列表的正确部分                                                                      | Alt+左箭头/Alt+右箭头 |
-| 在“显示有效”和“显示全部”模式之间切换                                                                        | Alt+W                            |
-| 从下拉列表中选择值并移到下一个段                                                       | 输入                            |
-| 移到页上的下一个/上一个控制（当焦点在输入控制中时）                                          | Tab / Shift+Tab                  |
-| 移到浮出的下一个/上一个输入字段（当焦点在下拉列表中时）                               | Tab / Shift+Tab                  |
-| 上移/下移查找中的行                                                                                        | 向上箭头/向下箭头            |
-| 上移/下移查找中的页                                                                                       | Page Up / Page Down              |
-| 移到查找的顶部/底部                                                                                    | Home / End                       |
+| <span data-ttu-id="cadcc-302">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="cadcc-302">**To do this**</span></span>                                                                                                          | <span data-ttu-id="cadcc-303">**按**</span><span class="sxs-lookup"><span data-stu-id="cadcc-303">**Press**</span></span>                        |
+| <span data-ttu-id="cadcc-304">打开下拉列表（在下拉列表关闭时）</span><span class="sxs-lookup"><span data-stu-id="cadcc-304">Open the drop-down list (when the drop-down list is closed)</span></span>                                                             | <span data-ttu-id="cadcc-305">Alt+向下箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-305">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="cadcc-306">将焦点移到下拉列表中当前段的输入字段中（在下拉列表已打开时）。</span><span class="sxs-lookup"><span data-stu-id="cadcc-306">Move focus into the input field for the current segment in the drop-down list (when the drop-down list is already open)</span></span> | <span data-ttu-id="cadcc-307">Alt+向下箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-307">Alt+Down Arrow</span></span>                   |
+| <span data-ttu-id="cadcc-308">关闭下拉列表</span><span class="sxs-lookup"><span data-stu-id="cadcc-308">Close the drop-down list</span></span>                                                                                                | <span data-ttu-id="cadcc-309">Alt+向上箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-309">Alt+Up Arrow</span></span>                     |
+| <span data-ttu-id="cadcc-310">关闭/打开下拉列表的正确部分</span><span class="sxs-lookup"><span data-stu-id="cadcc-310">Close/open the right portion of the drop-down list</span></span>                                                                      | <span data-ttu-id="cadcc-311">Alt+左箭头/Alt+右箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-311">Alt+Left Arrow / Alt+Right Arrow</span></span> |
+| <span data-ttu-id="cadcc-312">在“显示有效”和“显示全部”模式之间切换</span><span class="sxs-lookup"><span data-stu-id="cadcc-312">Toggle between “Show valid” and “Show all” modes</span></span>                                                                        | <span data-ttu-id="cadcc-313">Alt+W</span><span class="sxs-lookup"><span data-stu-id="cadcc-313">Alt+W</span></span>                            |
+| <span data-ttu-id="cadcc-314">从下拉列表中选择值并移到下一个段</span><span class="sxs-lookup"><span data-stu-id="cadcc-314">Select the value from drop-down list and move to the next segment</span></span>                                                       | <span data-ttu-id="cadcc-315">输入</span><span class="sxs-lookup"><span data-stu-id="cadcc-315">Enter</span></span>                            |
+| <span data-ttu-id="cadcc-316">移到页上的下一个/上一个控制（当焦点在输入控制中时）</span><span class="sxs-lookup"><span data-stu-id="cadcc-316">Move to the next/previous control on the page (when focus is in input control)</span></span>                                          | <span data-ttu-id="cadcc-317">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="cadcc-317">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="cadcc-318">移到浮出的下一个/上一个输入字段（当焦点在下拉列表中时）</span><span class="sxs-lookup"><span data-stu-id="cadcc-318">Move to the next/previous input field in the flyout (when focus is in the drop-down list)</span></span>                               | <span data-ttu-id="cadcc-319">Tab / Shift+Tab</span><span class="sxs-lookup"><span data-stu-id="cadcc-319">Tab / Shift+Tab</span></span>                  |
+| <span data-ttu-id="cadcc-320">上移/下移查找中的行</span><span class="sxs-lookup"><span data-stu-id="cadcc-320">Move up/down a row in the lookup</span></span>                                                                                        | <span data-ttu-id="cadcc-321">向上箭头/向下箭头</span><span class="sxs-lookup"><span data-stu-id="cadcc-321">Up Arrow / Down Arrow</span></span>            |
+| <span data-ttu-id="cadcc-322">上移/下移查找中的页</span><span class="sxs-lookup"><span data-stu-id="cadcc-322">Move up/down a page in the lookup</span></span>                                                                                       | <span data-ttu-id="cadcc-323">Page Up / Page Down</span><span class="sxs-lookup"><span data-stu-id="cadcc-323">Page Up / Page Down</span></span>              |
+| <span data-ttu-id="cadcc-324">移到查找的顶部/底部</span><span class="sxs-lookup"><span data-stu-id="cadcc-324">Move to the top/bottom of the lookup</span></span>                                                                                    | <span data-ttu-id="cadcc-325">Home / End</span><span class="sxs-lookup"><span data-stu-id="cadcc-325">Home / End</span></span>                       |
 
  
 

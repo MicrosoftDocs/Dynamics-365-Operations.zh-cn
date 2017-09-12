@@ -13,90 +13,90 @@ ms.reviewer: sericks
 ms.search.scope: Talent, Operations, UnifiedOperations
 ms.search.region: Global
 ms.author: shielas
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 6178a9b1b5497672d68dee84a09800307ea60f54
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 0bfbc07130e908a1326cd01522038fc90bb3465f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="my-team-mobile-workspace"></a>我的团队移动工作区
+# <a name="my-team-mobile-workspace"></a><span data-ttu-id="62afe-104">我的团队移动工作区</span><span class="sxs-lookup"><span data-stu-id="62afe-104">My team mobile workspace</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-此主题提供有关**我的团队**移动工作区的信息。 此工作区允许经理查看其直接下属和扩展职员。 他们还可以向其报告链中的人员发送表扬。
+<span data-ttu-id="62afe-105">此主题提供有关**我的团队**移动工作区的信息。</span><span class="sxs-lookup"><span data-stu-id="62afe-105">This topic provides information about the **My team** mobile workspace.</span></span> <span data-ttu-id="62afe-106">此工作区允许经理查看其直接下属和扩展职员。</span><span class="sxs-lookup"><span data-stu-id="62afe-106">This workspace lets managers view their direct reports and extended staff.</span></span> <span data-ttu-id="62afe-107">他们还可以向其报告链中的人员发送表扬。</span><span class="sxs-lookup"><span data-stu-id="62afe-107">They can also send praise to individuals in their reporting chain.</span></span>
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。
+<span data-ttu-id="62afe-108">将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。</span><span class="sxs-lookup"><span data-stu-id="62afe-108">This mobile workspace is intended to be used with the Microsoft Dynamics 365 for Unified Operations mobile app.</span></span>
 
-## <a name="overview"></a>概览 
-**我的团队**移动工作区让经理能够执行以下任务：
+## <a name="overview"></a><span data-ttu-id="62afe-109">概览</span><span class="sxs-lookup"><span data-stu-id="62afe-109">Overview</span></span> 
+<span data-ttu-id="62afe-110">**我的团队**移动工作区让经理能够执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="62afe-110">The **My team** mobile workspace lets managers perform these tasks:</span></span>
 
-- 显示经理的直接下属的列表。
-- 显示经理的扩展报告团队的列表。
-- 查看每个团队成员的详细信息，例如出生日期、受聘日期、工作年限以及薪酬和绩效信息。
-- 向经理扩展报告团队中的任何人员发送表扬。
+- <span data-ttu-id="62afe-111">显示经理的直接下属的列表。</span><span class="sxs-lookup"><span data-stu-id="62afe-111">View a list of the manager’s direct reports.</span></span>
+- <span data-ttu-id="62afe-112">显示经理的扩展报告团队的列表。</span><span class="sxs-lookup"><span data-stu-id="62afe-112">View a list of the manager’s extended reporting team.</span></span>
+- <span data-ttu-id="62afe-113">查看每个团队成员的详细信息，例如出生日期、受聘日期、工作年限以及薪酬和绩效信息。</span><span class="sxs-lookup"><span data-stu-id="62afe-113">View detailed information for each team member, such as birth date, seniority date, years of service, and compensation and performance information.</span></span>
+- <span data-ttu-id="62afe-114">向经理扩展报告团队中的任何人员发送表扬。</span><span class="sxs-lookup"><span data-stu-id="62afe-114">Send praise to any individual in the manager’s extended reporting team.</span></span>
 
-## <a name="prerequisites"></a>必备项
-在使用此移动工作区之前，必须满足以下先决条件。
+## <a name="prerequisites"></a><span data-ttu-id="62afe-115">必备项</span><span class="sxs-lookup"><span data-stu-id="62afe-115">Prerequisites</span></span>
+<span data-ttu-id="62afe-116">在使用此移动工作区之前，必须满足以下先决条件。</span><span class="sxs-lookup"><span data-stu-id="62afe-116">Before you can use this mobile workspace, the following prerequisites must be met.</span></span>
 
 <table>
 <thead>
 <tr class="header">
-<th>必备项</th>
-<th>角色</th>
-<th>说明</th>
+<th><span data-ttu-id="62afe-117">必备项</span><span class="sxs-lookup"><span data-stu-id="62afe-117">Prerequisite</span></span></th>
+<th><span data-ttu-id="62afe-118">角色</span><span class="sxs-lookup"><span data-stu-id="62afe-118">Role</span></span></th>
+<th><span data-ttu-id="62afe-119">说明</span><span class="sxs-lookup"><span data-stu-id="62afe-119">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>必须在您的组织中部署以下产品之一：
-<ul><li>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新</li>
-<li>Microsoft Dynamics 365 for Talent</li>
+<td><span data-ttu-id="62afe-120">必须在您的组织中部署以下产品之一：</span><span class="sxs-lookup"><span data-stu-id="62afe-120">One of the following products must be deployed in your organization:</span></span>
+<ul><li><span data-ttu-id="62afe-121">Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新</span><span class="sxs-lookup"><span data-stu-id="62afe-121">Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update</span></span></li>
+<li><span data-ttu-id="62afe-122">Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="62afe-122">Microsoft Dynamics 365 for Talent</span></span></li>
 </ul>
 </td>
-<td>系统管理员</td>
-<td>如果您的组织中没有部署 Finance and Operations，请查阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果您已经在您的组织中部署人才，系统管理员可以从<a href="https://www.microsoft.com/en-us/dynamics365/talent">人才网页</a>访问试用版本。
+<td><span data-ttu-id="62afe-123">系统管理员</span><span class="sxs-lookup"><span data-stu-id="62afe-123">System administrator</span></span></td>
+<td><span data-ttu-id="62afe-124">如果您的组织中没有部署 Finance and Operations，请查阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。</span><span class="sxs-lookup"><span data-stu-id="62afe-124">If you don't already have Finance and Operations deployed in your organization, see <a href="../deployment/deploy-demo-environment.md">Deploy a demo environment</a>.</span></span> <span data-ttu-id="62afe-125">如果您已经在您的组织中部署人才，系统管理员可以从<a href="https://www.microsoft.com/en-us/dynamics365/talent">人才网页</a>访问试用版本。</span><span class="sxs-lookup"><span data-stu-id="62afe-125">If you don't already have Talent deployed in your organization, the system administrator can access a trial version from the <a href="https://www.microsoft.com/en-us/dynamics365/talent">Talent webpage</a>.</span></span>
 </td>
 </tr>
 <tr class="even">
-<td>必须发布<strong>我的团队</strong>移动工作区。</td>
-<td>系统管理员</td>
-<td>请查阅<a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</td>
+<td><span data-ttu-id="62afe-126">必须发布<strong>我的团队</strong>移动工作区。</span><span class="sxs-lookup"><span data-stu-id="62afe-126">The <strong>My team</strong> mobile workspace must be published.</span></span></td>
+<td><span data-ttu-id="62afe-127">系统管理员</span><span class="sxs-lookup"><span data-stu-id="62afe-127">System administrator</span></span></td>
+<td><span data-ttu-id="62afe-128">请查阅<a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">发布移动工作区</a>。</span><span class="sxs-lookup"><span data-stu-id="62afe-128">See <a href="/dynamics365/unified-operations/dev-itpro/mobile-apps/publish-mobile-workspace">Publish a mobile workspace</a>.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
+## <a name="download-and-install-the-mobile-app"></a><span data-ttu-id="62afe-129">下载并安装移动应用</span><span class="sxs-lookup"><span data-stu-id="62afe-129">Download and install the mobile app</span></span>
 
-下载并安装 Dynamics 365 for Unified Operations 移动应用：
+<span data-ttu-id="62afe-130">下载并安装 Dynamics 365 for Unified Operations 移动应用：</span><span class="sxs-lookup"><span data-stu-id="62afe-130">Download and install the Dynamics 365 for Unified Operations mobile app:</span></span>
 
--   [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
--   [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
+-   [<span data-ttu-id="62afe-131">适用于 Android 手机</span><span class="sxs-lookup"><span data-stu-id="62afe-131">For Android phones</span></span>](https://go.microsoft.com/fwlink/?linkid=850662)
+-   [<span data-ttu-id="62afe-132">适用于 iPhones</span><span class="sxs-lookup"><span data-stu-id="62afe-132">For iPhones</span></span>](https://go.microsoft.com/fwlink/?linkid=850663)
 
-## <a name="sign-in-to-the-mobile-app"></a>登录到移动应用
-1.  在移动设备上启动应用程序。
-2.  输入您的 Microsoft Dynamics 365 URL。
-3.  首次登录时，将提示您输入您的用户名和密码。 输入凭据。
-4.  登录后，将显示您的公司的可用工作区。 请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。
+## <a name="sign-in-to-the-mobile-app"></a><span data-ttu-id="62afe-133">登录到移动应用</span><span class="sxs-lookup"><span data-stu-id="62afe-133">Sign in to the mobile app</span></span>
+1.  <span data-ttu-id="62afe-134">在移动设备上启动应用程序。</span><span class="sxs-lookup"><span data-stu-id="62afe-134">Start the app on your mobile device.</span></span>
+2.  <span data-ttu-id="62afe-135">输入您的 Microsoft Dynamics 365 URL。</span><span class="sxs-lookup"><span data-stu-id="62afe-135">Enter your Microsoft Dynamics 365 URL.</span></span>
+3.  <span data-ttu-id="62afe-136">首次登录时，将提示您输入您的用户名和密码。</span><span class="sxs-lookup"><span data-stu-id="62afe-136">The first time that you sign in, you're prompted for your user name and password.</span></span> <span data-ttu-id="62afe-137">输入凭据。</span><span class="sxs-lookup"><span data-stu-id="62afe-137">Enter your credentials.</span></span>
+4.  <span data-ttu-id="62afe-138">登录后，将显示您的公司的可用工作区。</span><span class="sxs-lookup"><span data-stu-id="62afe-138">After you sign in, the available workspaces for your company are shown.</span></span> <span data-ttu-id="62afe-139">请注意，如果您的系统管理员以后发布新工作区，您必须刷新移动工作区列表。</span><span class="sxs-lookup"><span data-stu-id="62afe-139">Note that if your system administrator publishes a new workspace later, you will have to refresh the list of mobile workspaces.</span></span>
 
-[![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)
+<span data-ttu-id="62afe-140">[![下拉以刷新](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span><span class="sxs-lookup"><span data-stu-id="62afe-140">[![Pull to refresh](./media/pull-to-refresh-list-of-workspaces-183x300.png)](./media/pull-to-refresh-list-of-workspaces.png)</span></span>
 
-## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a>使用我的团队移动工作区查看团队成员
-1.  在移动应用中，选择**我的团队**工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
-2.  选择一个团队成员。 此时将显示**团队成员汇总**页。 此页上的信息包括团队成员的出生日期、受聘日期、工作年限、当前职务工作年限以及薪酬信息。
+## <a name="view-team-members-by-using-the-my-team-mobile-workspace"></a><span data-ttu-id="62afe-141">使用我的团队移动工作区查看团队成员</span><span class="sxs-lookup"><span data-stu-id="62afe-141">View team members by using the My team mobile workspace</span></span>
+1.  <span data-ttu-id="62afe-142">在移动应用中，选择**我的团队**工作区。</span><span class="sxs-lookup"><span data-stu-id="62afe-142">In the mobile app, select the **My team** workspace.</span></span> <span data-ttu-id="62afe-143">此时将显示团队成员的列表。</span><span class="sxs-lookup"><span data-stu-id="62afe-143">A list of team members is shown.</span></span> <span data-ttu-id="62afe-144">此列表还显示每个团队成员的职务及其拥有的任何直接下属。</span><span class="sxs-lookup"><span data-stu-id="62afe-144">The list also shows each team member's title, and any direct reports that he or she has.</span></span>
+2.  <span data-ttu-id="62afe-145">选择一个团队成员。</span><span class="sxs-lookup"><span data-stu-id="62afe-145">Select a team member.</span></span> <span data-ttu-id="62afe-146">此时将显示**团队成员汇总**页。</span><span class="sxs-lookup"><span data-stu-id="62afe-146">The **Team member summary** page appears.</span></span> <span data-ttu-id="62afe-147">此页上的信息包括团队成员的出生日期、受聘日期、工作年限、当前职务工作年限以及薪酬信息。</span><span class="sxs-lookup"><span data-stu-id="62afe-147">The information on this page includes the team member's birth date, seniority date, years of service, years in his or her current position, and compensation information.</span></span>
 
-## <a name="view-extended-team-members-by-using-the-my-team-mobile-workspace"></a>使用我的团队移动工作区查看扩展团队成员
-1.  在移动应用中，选择**我的团队**工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
-1.  选择**直接下属**链接。 此时将显示您的扩展团队的列表。
-1.  选择一个团队成员。 此时将显示**团队成员汇总**页。 此页上的信息包括团队成员的出生日期、受聘日期、工作年限、当前职务工作年限以及薪酬信息。
+## <a name="view-extended-team-members-by-using-the-my-team-mobile-workspace"></a><span data-ttu-id="62afe-148">使用我的团队移动工作区查看扩展团队成员</span><span class="sxs-lookup"><span data-stu-id="62afe-148">View extended team members by using the My team mobile workspace</span></span>
+1.  <span data-ttu-id="62afe-149">在移动应用中，选择**我的团队**工作区。</span><span class="sxs-lookup"><span data-stu-id="62afe-149">In the mobile app, select the **My team** workspace.</span></span> <span data-ttu-id="62afe-150">此时将显示团队成员的列表。</span><span class="sxs-lookup"><span data-stu-id="62afe-150">A list of team members is shown.</span></span> <span data-ttu-id="62afe-151">此列表还显示每个团队成员的职务及其拥有的任何直接下属。</span><span class="sxs-lookup"><span data-stu-id="62afe-151">The list also shows each team member's title, and any direct reports that he or she has.</span></span>
+1.  <span data-ttu-id="62afe-152">选择**直接下属**链接。</span><span class="sxs-lookup"><span data-stu-id="62afe-152">Select the **Direct reports** link.</span></span> <span data-ttu-id="62afe-153">此时将显示您的扩展团队的列表。</span><span class="sxs-lookup"><span data-stu-id="62afe-153">A list of your extended team is shown.</span></span>
+1.  <span data-ttu-id="62afe-154">选择一个团队成员。</span><span class="sxs-lookup"><span data-stu-id="62afe-154">Select a team member.</span></span> <span data-ttu-id="62afe-155">此时将显示**团队成员汇总**页。</span><span class="sxs-lookup"><span data-stu-id="62afe-155">The **Team member summary** page appears.</span></span> <span data-ttu-id="62afe-156">此页上的信息包括团队成员的出生日期、受聘日期、工作年限、当前职务工作年限以及薪酬信息。</span><span class="sxs-lookup"><span data-stu-id="62afe-156">The information on this page includes the team member's birth date, seniority date, years of service, years in his or her current position, and compensation information.</span></span>
 
-## <a name="send-praise-about-team-members-by-using-the-my-team-mobile-workspace"></a>使用我的团队移动工作区发送团队成员表扬
-1.  在移动应用中，选择**我的团队**工作区。 此时将显示团队成员的列表。 此列表还显示每个团队成员的职务及其拥有的任何直接下属。
-1.  选择一个团队成员。 此时将显示**团队成员汇总**页。
-1.  选择**发送表扬**。 
-1. 输入您要发送的表扬的文本。 
-1. 选择**完成**。
+## <a name="send-praise-about-team-members-by-using-the-my-team-mobile-workspace"></a><span data-ttu-id="62afe-157">使用我的团队移动工作区发送团队成员表扬</span><span class="sxs-lookup"><span data-stu-id="62afe-157">Send praise about team members by using the My team mobile workspace</span></span>
+1.  <span data-ttu-id="62afe-158">在移动应用中，选择**我的团队**工作区。</span><span class="sxs-lookup"><span data-stu-id="62afe-158">In the mobile app, select the **My team** workspace.</span></span> <span data-ttu-id="62afe-159">此时将显示团队成员的列表。</span><span class="sxs-lookup"><span data-stu-id="62afe-159">A list of team members is shown.</span></span> <span data-ttu-id="62afe-160">此列表还显示每个团队成员的职务及其拥有的任何直接下属。</span><span class="sxs-lookup"><span data-stu-id="62afe-160">The list also shows each team member's title, and any direct reports that he or she has.</span></span>
+1.  <span data-ttu-id="62afe-161">选择一个团队成员。</span><span class="sxs-lookup"><span data-stu-id="62afe-161">Select a team member.</span></span> <span data-ttu-id="62afe-162">此时将显示**团队成员汇总**页。</span><span class="sxs-lookup"><span data-stu-id="62afe-162">The **Team member summary** page appears.</span></span>
+1.  <span data-ttu-id="62afe-163">选择**发送表扬**。</span><span class="sxs-lookup"><span data-stu-id="62afe-163">Select **Send praise**.</span></span> 
+1. <span data-ttu-id="62afe-164">输入您要发送的表扬的文本。</span><span class="sxs-lookup"><span data-stu-id="62afe-164">Enter the text of the praise that you want to send.</span></span> 
+1. <span data-ttu-id="62afe-165">选择**完成**。</span><span class="sxs-lookup"><span data-stu-id="62afe-165">Select **Done**.</span></span>
 

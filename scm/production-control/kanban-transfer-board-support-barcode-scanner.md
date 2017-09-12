@@ -20,47 +20,47 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 013731d25463cf943c9b8cb888a06b3c987406cc
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 1dc40de2b77be5c5c2399fd55c3c3bd15a9f24ec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="kanban-transfer-board-support-for-barcode-scanners"></a>条码扫描仪的看板转移面板支持
+# <a name="kanban-transfer-board-support-for-barcode-scanners"></a><span data-ttu-id="a63c5-103">条码扫描仪的看板转移面板支持</span><span class="sxs-lookup"><span data-stu-id="a63c5-103">Kanban transfer board support for barcode scanners</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-看板转移面板支持从小组件条码扫描器到选择、开始、完成和清空看板作业的扫描器输入。
+<span data-ttu-id="a63c5-104">看板转移面板支持从小组件条码扫描器到选择、开始、完成和清空看板作业的扫描器输入。</span><span class="sxs-lookup"><span data-stu-id="a63c5-104">The Kanban transfer board supports scanner input from a widget barcode scanner to Select, Start, Complete, and Empty a kanban job.</span></span>
 
-<a name="registration-modes"></a>登记模式
+<a name="registration-modes"></a><span data-ttu-id="a63c5-105">登记模式</span><span class="sxs-lookup"><span data-stu-id="a63c5-105">Registration modes</span></span>
 ------------------
 
-在**扫描仪登记**快速选项卡中，您可以选择登记模式，其控制您扫描看板卡号或在“看板卡号”字段中手动输入该编号的操作。
-| 设置登记模式 | 描述                                                                                     |
+<span data-ttu-id="a63c5-106">在**扫描仪登记**快速选项卡中，您可以选择登记模式，其控制您扫描看板卡号或在“看板卡号”字段中手动输入该编号的操作。</span><span class="sxs-lookup"><span data-stu-id="a63c5-106">On the **Scanner registration** FastTab you can select the registration mode, which controls the action when you scan a kanban card number or manually type the number in the Kanban card number field.</span></span>
+| <span data-ttu-id="a63c5-107">设置登记模式</span><span class="sxs-lookup"><span data-stu-id="a63c5-107">Set registration mode</span></span> | <span data-ttu-id="a63c5-108">描述</span><span class="sxs-lookup"><span data-stu-id="a63c5-108">Description</span></span>                                                                                     |
 |-----------------------|-------------------------------------------------------------------------------------------------|
-| 启动                 | 将看板转移作业登记为进行中。                                                 |
-| 已完成              | 将看板转移作业登记为已完成。                                                   |
-| 空                 | 将由看板卡引用的物料处理单元登记为空。              |
-| 选择                | 登记看板卡号并在看板列表中自动选择引用的作业。 |
+| <span data-ttu-id="a63c5-109">启动</span><span class="sxs-lookup"><span data-stu-id="a63c5-109">Start</span></span>                 | <span data-ttu-id="a63c5-110">将看板转移作业登记为进行中。</span><span class="sxs-lookup"><span data-stu-id="a63c5-110">Registers a Kanban transfer job as in progress.</span></span>                                                 |
+| <span data-ttu-id="a63c5-111">已完成</span><span class="sxs-lookup"><span data-stu-id="a63c5-111">Complete</span></span>              | <span data-ttu-id="a63c5-112">将看板转移作业登记为已完成。</span><span class="sxs-lookup"><span data-stu-id="a63c5-112">Registers a Kanban transfer job as completed.</span></span>                                                   |
+| <span data-ttu-id="a63c5-113">空</span><span class="sxs-lookup"><span data-stu-id="a63c5-113">Empty</span></span>                 | <span data-ttu-id="a63c5-114">将由看板卡引用的物料处理单元登记为空。</span><span class="sxs-lookup"><span data-stu-id="a63c5-114">Registers the material handling unit that is referenced by a Kanban card as empty.</span></span>              |
+| <span data-ttu-id="a63c5-115">选择</span><span class="sxs-lookup"><span data-stu-id="a63c5-115">Select</span></span>                | <span data-ttu-id="a63c5-116">登记看板卡号并在看板列表中自动选择引用的作业。</span><span class="sxs-lookup"><span data-stu-id="a63c5-116">Registers a Kanban card number and automatically selects the referenced job in the Kanban list.</span></span> |
 
  
-<a name="registration-mode-select"></a>登记模式选择
+<a name="registration-mode-select"></a><span data-ttu-id="a63c5-117">登记模式选择</span><span class="sxs-lookup"><span data-stu-id="a63c5-117">Registration mode Select</span></span>
 ------------------------
 
-当您使用条码阅读器选择作业时，看板面板的显示方式更改。 在此模式中，以下条件适用：
+<span data-ttu-id="a63c5-118">当您使用条码阅读器选择作业时，看板面板的显示方式更改。</span><span class="sxs-lookup"><span data-stu-id="a63c5-118">When you use a bar code reader to select a job, the display mode of the kanban board changes.</span></span> <span data-ttu-id="a63c5-119">在此模式中，以下条件适用：</span><span class="sxs-lookup"><span data-stu-id="a63c5-119">In this mode, the following conditions apply:</span></span>
 
--   仅显示扫描的看板作业。
--   所选作业的详细信息显示在**详细信息**快速选项卡中。
--   **消息**快速选项卡只为所选作业显示消息。
--   您可以通过使用操作窗格上提供的功能更改作业的状态。 看板转移面板在此时间只显示单个作业。
--   您可以通过单击操作窗格的**刷新** (Shift+F5) 手动更新作业列表中的信息。 在刷新信息后，作业筛选器的完整结果再次将显示。
+-   <span data-ttu-id="a63c5-120">仅显示扫描的看板作业。</span><span class="sxs-lookup"><span data-stu-id="a63c5-120">Only the scanned kanban job is displayed.</span></span>
+-   <span data-ttu-id="a63c5-121">所选作业的详细信息显示在**详细信息**快速选项卡中。</span><span class="sxs-lookup"><span data-stu-id="a63c5-121">The details of the selected job are displayed in the **Details** FastTab.</span></span>
+-   <span data-ttu-id="a63c5-122">**消息**快速选项卡只为所选作业显示消息。</span><span class="sxs-lookup"><span data-stu-id="a63c5-122">The **Messages** FastTab displays messages only for the selected job.</span></span>
+-   <span data-ttu-id="a63c5-123">您可以通过使用操作窗格上提供的功能更改作业的状态。</span><span class="sxs-lookup"><span data-stu-id="a63c5-123">You can change the status of the job by using the functions that are available on the Action Pane.</span></span> <span data-ttu-id="a63c5-124">看板转移面板在此时间只显示单个作业。</span><span class="sxs-lookup"><span data-stu-id="a63c5-124">The Kanban transfer board continues to display only a single job during this time.</span></span>
+-   <span data-ttu-id="a63c5-125">您可以通过单击操作窗格的**刷新** (Shift+F5) 手动更新作业列表中的信息。</span><span class="sxs-lookup"><span data-stu-id="a63c5-125">You can update the information in the list of jobs manually by clicking **Refresh** (Shift+F5) on the Action Pane.</span></span> <span data-ttu-id="a63c5-126">在刷新信息后，作业筛选器的完整结果再次将显示。</span><span class="sxs-lookup"><span data-stu-id="a63c5-126">After you refresh the information, the full results for the job filter are displayed again.</span></span>
 
-## <a name="job-status-and-possible-actions"></a>作业状态和可能的操作
-所选作业的状态和事件看板的任何限定作业的状态确定是否可以进一步处理作业。 下表显示有关这些状态和任务的信息：
--   可用与作业或可用于作业引用的处理单元的状态。
--   您可为作业执行的每个任务。
+## <a name="job-status-and-possible-actions"></a><span data-ttu-id="a63c5-127">作业状态和可能的操作</span><span class="sxs-lookup"><span data-stu-id="a63c5-127">Job status and possible actions</span></span>
+<span data-ttu-id="a63c5-128">所选作业的状态和事件看板的任何限定作业的状态确定是否可以进一步处理作业。</span><span class="sxs-lookup"><span data-stu-id="a63c5-128">The status of the selected job and the status of any pegged jobs for event kanbans, determine whether you can process the job further.</span></span> <span data-ttu-id="a63c5-129">下表显示有关这些状态和任务的信息：</span><span class="sxs-lookup"><span data-stu-id="a63c5-129">The following table displays information about these statuses and tasks:</span></span>
+-   <span data-ttu-id="a63c5-130">可用与作业或可用于作业引用的处理单元的状态。</span><span class="sxs-lookup"><span data-stu-id="a63c5-130">The statuses that are available for jobs, or for the handling units that are referenced by the jobs.</span></span>
+-   <span data-ttu-id="a63c5-131">您可为作业执行的每个任务。</span><span class="sxs-lookup"><span data-stu-id="a63c5-131">Each task that you can perform for the job.</span></span>
 
 <table>
 <colgroup>
@@ -75,116 +75,116 @@ ms.lasthandoff: 05/25/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>作业类型</th>
-<th>作业状态或处理单元状态</th>
-<th>更新领料单</th>
-<th>启动</th>
-<th>更新登记</th>
-<th>已完成</th>
-<th>空</th>
-<th>创建事件看板</th>
+<th><span data-ttu-id="a63c5-132">作业类型</span><span class="sxs-lookup"><span data-stu-id="a63c5-132">Job type</span></span></th>
+<th><span data-ttu-id="a63c5-133">作业状态或处理单元状态</span><span class="sxs-lookup"><span data-stu-id="a63c5-133">Job status or handling unit status</span></span></th>
+<th><span data-ttu-id="a63c5-134">更新领料单</span><span class="sxs-lookup"><span data-stu-id="a63c5-134">Update picking list</span></span></th>
+<th><span data-ttu-id="a63c5-135">启动</span><span class="sxs-lookup"><span data-stu-id="a63c5-135">Start</span></span></th>
+<th><span data-ttu-id="a63c5-136">更新登记</span><span class="sxs-lookup"><span data-stu-id="a63c5-136">Update registration</span></span></th>
+<th><span data-ttu-id="a63c5-137">已完成</span><span class="sxs-lookup"><span data-stu-id="a63c5-137">Complete</span></span></th>
+<th><span data-ttu-id="a63c5-138">空</span><span class="sxs-lookup"><span data-stu-id="a63c5-138">Empty</span></span></th>
+<th><span data-ttu-id="a63c5-139">创建事件看板</span><span class="sxs-lookup"><span data-stu-id="a63c5-139">Create event kanbans</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>转移</td>
+<td><span data-ttu-id="a63c5-140">转移</span><span class="sxs-lookup"><span data-stu-id="a63c5-140">Transfer</span></span></td>
 <td><ul>
-<li>未计划</li>
-<li>无限定的作业或限定的作业已完成</li>
+<li><span data-ttu-id="a63c5-141">未计划</span><span class="sxs-lookup"><span data-stu-id="a63c5-141">Not planned</span></span></li>
+<li><span data-ttu-id="a63c5-142">无限定的作业或限定的作业已完成</span><span class="sxs-lookup"><span data-stu-id="a63c5-142">No pegged jobs, or pegged jobs are Completed</span></span></li>
 </ul></td>
-<td>是</td>
-<td>是</td>
-<td>是</td>
-<td>是</td>
-<td>否</td>
-<td>是</td>
+<td><span data-ttu-id="a63c5-143">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-143">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-144">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-144">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-145">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-145">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-146">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-146">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-147">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-147">No</span></span></td>
+<td><span data-ttu-id="a63c5-148">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-148">Yes</span></span></td>
 </tr>
 <tr class="even">
-<td>转移</td>
+<td><span data-ttu-id="a63c5-149">转移</span><span class="sxs-lookup"><span data-stu-id="a63c5-149">Transfer</span></span></td>
 <td><ul>
-<li>未计划</li>
-<li>限定的作业未完成</li>
+<li><span data-ttu-id="a63c5-150">未计划</span><span class="sxs-lookup"><span data-stu-id="a63c5-150">Not planned</span></span></li>
+<li><span data-ttu-id="a63c5-151">限定的作业未完成</span><span class="sxs-lookup"><span data-stu-id="a63c5-151">The pegged job is not Completed</span></span></li>
 </ul></td>
-<td>是</td>
-<td>否</td>
-<td>是</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
+<td><span data-ttu-id="a63c5-152">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-152">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-153">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-153">No</span></span></td>
+<td><span data-ttu-id="a63c5-154">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-154">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-155">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-155">No</span></span></td>
+<td><span data-ttu-id="a63c5-156">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-156">No</span></span></td>
+<td><span data-ttu-id="a63c5-157">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-157">No</span></span></td>
 </tr>
 <tr class="odd">
-<td>转移</td>
-<td>进行中</td>
-<td>是</td>
-<td>否</td>
-<td>是</td>
-<td>是</td>
-<td>否</td>
-<td>否</td>
+<td><span data-ttu-id="a63c5-158">转移</span><span class="sxs-lookup"><span data-stu-id="a63c5-158">Transfer</span></span></td>
+<td><span data-ttu-id="a63c5-159">进行中</span><span class="sxs-lookup"><span data-stu-id="a63c5-159">In progress</span></span></td>
+<td><span data-ttu-id="a63c5-160">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-160">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-161">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-161">No</span></span></td>
+<td><span data-ttu-id="a63c5-162">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-162">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-163">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-163">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-164">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-164">No</span></span></td>
+<td><span data-ttu-id="a63c5-165">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-165">No</span></span></td>
 </tr>
 <tr class="even">
-<td>转移</td>
-<td>已完成</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>是</td>
-<td>否</td>
+<td><span data-ttu-id="a63c5-166">转移</span><span class="sxs-lookup"><span data-stu-id="a63c5-166">Transfer</span></span></td>
+<td><span data-ttu-id="a63c5-167">已完成</span><span class="sxs-lookup"><span data-stu-id="a63c5-167">Completed</span></span></td>
+<td><span data-ttu-id="a63c5-168">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-168">No</span></span></td>
+<td><span data-ttu-id="a63c5-169">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-169">No</span></span></td>
+<td><span data-ttu-id="a63c5-170">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-170">No</span></span></td>
+<td><span data-ttu-id="a63c5-171">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-171">No</span></span></td>
+<td><span data-ttu-id="a63c5-172">是</span><span class="sxs-lookup"><span data-stu-id="a63c5-172">Yes</span></span></td>
+<td><span data-ttu-id="a63c5-173">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-173">No</span></span></td>
 </tr>
 <tr class="odd">
-<td>转换或处理</td>
-<td>空</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
+<td><span data-ttu-id="a63c5-174">转换或处理</span><span class="sxs-lookup"><span data-stu-id="a63c5-174">Transfer or process</span></span></td>
+<td><span data-ttu-id="a63c5-175">空</span><span class="sxs-lookup"><span data-stu-id="a63c5-175">Empty</span></span></td>
+<td><span data-ttu-id="a63c5-176">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-176">No</span></span></td>
+<td><span data-ttu-id="a63c5-177">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-177">No</span></span></td>
+<td><span data-ttu-id="a63c5-178">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-178">No</span></span></td>
+<td><span data-ttu-id="a63c5-179">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-179">No</span></span></td>
+<td><span data-ttu-id="a63c5-180">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-180">No</span></span></td>
+<td><span data-ttu-id="a63c5-181">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-181">No</span></span></td>
 </tr>
 <tr class="even">
-<td>转换或处理</td>
-<td>找不到看板卡</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
+<td><span data-ttu-id="a63c5-182">转换或处理</span><span class="sxs-lookup"><span data-stu-id="a63c5-182">Transfer or process</span></span></td>
+<td><span data-ttu-id="a63c5-183">找不到看板卡</span><span class="sxs-lookup"><span data-stu-id="a63c5-183">A kanban card is not found</span></span></td>
+<td><span data-ttu-id="a63c5-184">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-184">No</span></span></td>
+<td><span data-ttu-id="a63c5-185">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-185">No</span></span></td>
+<td><span data-ttu-id="a63c5-186">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-186">No</span></span></td>
+<td><span data-ttu-id="a63c5-187">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-187">No</span></span></td>
+<td><span data-ttu-id="a63c5-188">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-188">No</span></span></td>
+<td><span data-ttu-id="a63c5-189">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-189">No</span></span></td>
 </tr>
 <tr class="odd">
-<td>转换或处理</td>
-<td>找到看板卡，但为分配给看板。</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
+<td><span data-ttu-id="a63c5-190">转换或处理</span><span class="sxs-lookup"><span data-stu-id="a63c5-190">Transfer or process</span></span></td>
+<td><span data-ttu-id="a63c5-191">找到看板卡，但为分配给看板。</span><span class="sxs-lookup"><span data-stu-id="a63c5-191">A kanban card is found, but it is not assigned to a kanban</span></span></td>
+<td><span data-ttu-id="a63c5-192">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-192">No</span></span></td>
+<td><span data-ttu-id="a63c5-193">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-193">No</span></span></td>
+<td><span data-ttu-id="a63c5-194">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-194">No</span></span></td>
+<td><span data-ttu-id="a63c5-195">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-195">No</span></span></td>
+<td><span data-ttu-id="a63c5-196">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-196">No</span></span></td>
+<td><span data-ttu-id="a63c5-197">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-197">No</span></span></td>
 </tr>
 <tr class="even">
-<td>处理</td>
+<td><span data-ttu-id="a63c5-198">处理</span><span class="sxs-lookup"><span data-stu-id="a63c5-198">Process</span></span></td>
 <td><ul>
-<li>未计划</li>
-<li>已准备</li>
-<li>进行中</li>
+<li><span data-ttu-id="a63c5-199">未计划</span><span class="sxs-lookup"><span data-stu-id="a63c5-199">Not planned</span></span></li>
+<li><span data-ttu-id="a63c5-200">已准备</span><span class="sxs-lookup"><span data-stu-id="a63c5-200">Prepared</span></span></li>
+<li><span data-ttu-id="a63c5-201">进行中</span><span class="sxs-lookup"><span data-stu-id="a63c5-201">In progress</span></span></li>
 </ul></td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
+<td><span data-ttu-id="a63c5-202">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-202">No</span></span></td>
+<td><span data-ttu-id="a63c5-203">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-203">No</span></span></td>
+<td><span data-ttu-id="a63c5-204">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-204">No</span></span></td>
+<td><span data-ttu-id="a63c5-205">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-205">No</span></span></td>
+<td><span data-ttu-id="a63c5-206">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-206">No</span></span></td>
+<td><span data-ttu-id="a63c5-207">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-207">No</span></span></td>
 </tr>
 <tr class="odd">
-<td>处理</td>
-<td>已完成</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
-<td>否</td>
+<td><span data-ttu-id="a63c5-208">处理</span><span class="sxs-lookup"><span data-stu-id="a63c5-208">Process</span></span></td>
+<td><span data-ttu-id="a63c5-209">已完成</span><span class="sxs-lookup"><span data-stu-id="a63c5-209">Completed</span></span></td>
+<td><span data-ttu-id="a63c5-210">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-210">No</span></span></td>
+<td><span data-ttu-id="a63c5-211">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-211">No</span></span></td>
+<td><span data-ttu-id="a63c5-212">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-212">No</span></span></td>
+<td><span data-ttu-id="a63c5-213">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-213">No</span></span></td>
+<td><span data-ttu-id="a63c5-214">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-214">No</span></span></td>
+<td><span data-ttu-id="a63c5-215">否</span><span class="sxs-lookup"><span data-stu-id="a63c5-215">No</span></span></td>
 </tr>
 </tbody>
 </table>

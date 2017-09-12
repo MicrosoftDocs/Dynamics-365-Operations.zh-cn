@@ -16,42 +16,42 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: f42a6a3f2bfec0bd2df77bc5bbc1156f820aa772
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: c901ebea4fd7423db61ef2c33689e606e33e2434
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-configuration-rules"></a>创建配置规则
+# <a name="create-configuration-rules"></a><span data-ttu-id="4a9bf-103">创建配置规则</span><span class="sxs-lookup"><span data-stu-id="4a9bf-103">Create configuration rules</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-该过程创建配置规则，以用于基于维度的配置，从而执行或防止物料清单行的某些组合。 创建此程序的演示数据公司是 USMF。 这是八个过程中第七个说明如何构建基于维度的配置组合的过程。
+<span data-ttu-id="4a9bf-104">该过程创建配置规则，以用于基于维度的配置，从而执行或防止物料清单行的某些组合。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-104">This procedure creates configuration rules that can be used for dimension-based configuration to enforce or prevent certain combinations of BOM lines.</span></span> <span data-ttu-id="4a9bf-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="4a9bf-106">这是八个过程中第七个说明如何构建基于维度的配置组合的过程。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-106">This is the seventh procedure out of eight that explains how to build combinations for dimension-based configuration.</span></span>
 
-1. 转到“产品信息管理”>“物料清单和配方”>“物料清单”。
-2. 在列表中，找到并选择所需记录。
-    * 查找和选择适用于基于维度的配置技术的物料清单。  
-3. 在“操作窗格”上，单击“选项”。
-4. 单击“更改”视图。
-5. 单击“标题”视图。
-    * 打开标题视图以访问“配置流程”快速选项卡。  
-6. 展开或折叠“配置流程”部分。
-    * “配置流程”快速选项卡必须处于展开模式。  
-7. 单击“配置规则”。
-8. 单击“新建”。
-9. 在列表中，标记所选的行。
-10. 在“物料编号”字段中，单击下拉按钮以打开查找。
-    * 当前配置组中的物料会显示。 选择代表该规则中的条件的那个。  
-11. 在列表中，单击所选行中的链接。
-12. 在“方法”字段中，选择一个选项。
-    * 可能强制从另一配置组选择或取消选择某一物料。  
-13. 在“派生组”字段中，单击下拉按钮以打开查找。
-14. 在列表中，找到并选择所需记录。
-15. 在列表中，单击所选行中的链接。
-    * 选择所需的配置组。  
-16. 在“派生物料”字段中，单击下拉按钮以打开查找。
-17. 在列表中，单击所选行中的链接。
-    * 选择将被选择或取消选择的物料编号，选择与否取决于所选的方法。  
-18. 关闭该页面。
+1. <span data-ttu-id="4a9bf-107">转到“产品信息管理”>“物料清单和配方”>“物料清单”。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-107">Go to Product information management > Bills of materials and formulas > Bills of materials.</span></span>
+2. <span data-ttu-id="4a9bf-108">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-108">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="4a9bf-109">查找和选择适用于基于维度的配置技术的物料清单。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-109">Find and select the BOM for the dimension-based configuration.</span></span>  
+3. <span data-ttu-id="4a9bf-110">在“操作窗格”上，单击“选项”。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-110">On the Action Pane, click Options.</span></span>
+4. <span data-ttu-id="4a9bf-111">单击“更改”视图。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-111">Click Change view.</span></span>
+5. <span data-ttu-id="4a9bf-112">单击“标题”视图。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-112">Click Header view.</span></span>
+    * <span data-ttu-id="4a9bf-113">打开标题视图以访问“配置流程”快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-113">Open the header view to access the Configuration route FastTab.</span></span>  
+6. <span data-ttu-id="4a9bf-114">展开或折叠“配置流程”部分。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-114">Expand or collapse the Configuration route section.</span></span>
+    * <span data-ttu-id="4a9bf-115">“配置流程”快速选项卡必须处于展开模式。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-115">The Configuration route FastTab must be in the expanded mode.</span></span>  
+7. <span data-ttu-id="4a9bf-116">单击“配置规则”。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-116">Click Configuration rules.</span></span>
+8. <span data-ttu-id="4a9bf-117">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-117">Click New.</span></span>
+9. <span data-ttu-id="4a9bf-118">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-118">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="4a9bf-119">在“物料编号”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-119">In the Item number field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="4a9bf-120">当前配置组中的物料会显示。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-120">The items in the current configuration group are displayed.</span></span> <span data-ttu-id="4a9bf-121">选择代表该规则中的条件的那个。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-121">Select the one that represents the condition in the rule.</span></span>  
+11. <span data-ttu-id="4a9bf-122">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-122">In the list, click the link in the selected row.</span></span>
+12. <span data-ttu-id="4a9bf-123">在“方法”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-123">In the Method field, select an option.</span></span>
+    * <span data-ttu-id="4a9bf-124">可能强制从另一配置组选择或取消选择某一物料。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-124">It is possible to enforce either a selection or a deselection of an item from another configuration group.</span></span>  
+13. <span data-ttu-id="4a9bf-125">在“派生组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-125">In the Derived group field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="4a9bf-126">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-126">In the list, find and select the desired record.</span></span>
+15. <span data-ttu-id="4a9bf-127">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-127">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="4a9bf-128">选择所需的配置组。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-128">Select the desired configuration group.</span></span>  
+16. <span data-ttu-id="4a9bf-129">在“派生物料”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-129">In the Derived item number field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="4a9bf-130">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-130">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="4a9bf-131">选择将被选择或取消选择的物料编号，选择与否取决于所选的方法。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-131">Select the item number that will be either selected or deselected depending on the chosen method.</span></span>  
+18. <span data-ttu-id="4a9bf-132">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="4a9bf-132">Close the page.</span></span>
 
 

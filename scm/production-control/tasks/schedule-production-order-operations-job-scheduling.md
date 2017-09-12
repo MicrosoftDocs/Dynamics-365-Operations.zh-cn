@@ -16,51 +16,51 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 10ccb4ac1088e27f3f5771bcb964bf3cc0a509ab
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d4aac437876862e9f776264fc81f246c820bdf45
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>使用工序级和作业级排产计划生产订单
+# <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a><span data-ttu-id="334e9-103">使用工序级和作业级排产计划生产订单</span><span class="sxs-lookup"><span data-stu-id="334e9-103">Schedule a production order with operations and job scheduling</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-此过程的重点是使用工序级排产和作业级排产计划生产订单。 不使用工序级排产创建作业，而使用作业级排产创建。 创建此任务的演示数据公司是 USMF。 此过程适用于在离散制造环境中工作的生产经理、生产规划员或车间主管。
+<span data-ttu-id="334e9-104">此过程的重点是使用工序级排产和作业级排产计划生产订单。</span><span class="sxs-lookup"><span data-stu-id="334e9-104">This procedure focuses on scheduling a production order with operations scheduling and job scheduling.</span></span> <span data-ttu-id="334e9-105">不使用工序级排产创建作业，而使用作业级排产创建。</span><span class="sxs-lookup"><span data-stu-id="334e9-105">No jobs are created with operations scheduling whereas jobs are created with job scheduling.</span></span> <span data-ttu-id="334e9-106">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="334e9-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="334e9-107">此过程适用于在离散制造环境中工作的生产经理、生产规划员或车间主管。</span><span class="sxs-lookup"><span data-stu-id="334e9-107">This procedure is intended for the production manager, production planner, or shop floor supervisor working in a discrete manufacturing environment.</span></span>
 
 
-## <a name="create-a-production-order"></a>创建生产订单
-1. 转到“生产控制”>“生产订单”>“全部生产订单”。
-2. 单击“新建生产订单”。
-3. 在“物料编号”字段中，输入或选择一个值。
-    * 选择物料编号 D0001。  
-4. 单击“创建”。
+## <a name="create-a-production-order"></a><span data-ttu-id="334e9-108">创建生产订单</span><span class="sxs-lookup"><span data-stu-id="334e9-108">Create a production order</span></span>
+1. <span data-ttu-id="334e9-109">转到“生产控制”>“生产订单”>“全部生产订单”。</span><span class="sxs-lookup"><span data-stu-id="334e9-109">Go to Production control > Production orders > All production orders.</span></span>
+2. <span data-ttu-id="334e9-110">单击“新建生产订单”。</span><span class="sxs-lookup"><span data-stu-id="334e9-110">Click New production order.</span></span>
+3. <span data-ttu-id="334e9-111">在“物料编号”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="334e9-111">In the Item number field, enter or select a value.</span></span>
+    * <span data-ttu-id="334e9-112">选择物料编号 D0001。</span><span class="sxs-lookup"><span data-stu-id="334e9-112">Select Item number D0001.</span></span>  
+4. <span data-ttu-id="334e9-113">单击“创建”。</span><span class="sxs-lookup"><span data-stu-id="334e9-113">Click Create.</span></span>
 
-## <a name="schedule-operations-for-the-production-order"></a>为生产订单计划工序
-1. 在列表中，标记所选的行。
-    * 选择您刚才创建的生产订单。 它应该在列表的顶部。      
-2. 在“操作窗格”上，单击“计划” 。
-3. 单击“计划工序”。
-4. 在“计划的方向”字段中，选择“从计划日期正推”。
-5. 在“计划日期”字段中，输入日期。
-    * 选择一个将来的日期，例如，今天加上一周。 使用所选的计划的方向，将安排将生产订单从此日期正推。  
-6. 单击“确定”。
-7. 在列表中，标记所选的行。
-    * 请注意，状态更改为已计划  
-8. 在列表中，单击所选行中的链接。
-9. 单击“所有作业”。
-    * 请注意，没有使用工序级排产创建作业。  
-10. 关闭该页面。
+## <a name="schedule-operations-for-the-production-order"></a><span data-ttu-id="334e9-114">为生产订单计划工序</span><span class="sxs-lookup"><span data-stu-id="334e9-114">Schedule operations for the production order</span></span>
+1. <span data-ttu-id="334e9-115">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="334e9-115">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="334e9-116">选择您刚才创建的生产订单。</span><span class="sxs-lookup"><span data-stu-id="334e9-116">Select the production order that you have just created.</span></span> <span data-ttu-id="334e9-117">它应该在列表的顶部。</span><span class="sxs-lookup"><span data-stu-id="334e9-117">It should be at the top of the list.</span></span>      
+2. <span data-ttu-id="334e9-118">在“操作窗格”上，单击“计划” 。</span><span class="sxs-lookup"><span data-stu-id="334e9-118">On the Action Pane, click Schedule.</span></span>
+3. <span data-ttu-id="334e9-119">单击“计划工序”。</span><span class="sxs-lookup"><span data-stu-id="334e9-119">Click Schedule operations.</span></span>
+4. <span data-ttu-id="334e9-120">在“计划的方向”字段中，选择“从计划日期正推”。</span><span class="sxs-lookup"><span data-stu-id="334e9-120">In the Scheduling direction field, select 'Forward from scheduling date'.</span></span>
+5. <span data-ttu-id="334e9-121">在“计划日期”字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="334e9-121">In the Scheduling date field, enter a date.</span></span>
+    * <span data-ttu-id="334e9-122">选择一个将来的日期，例如，今天加上一周。</span><span class="sxs-lookup"><span data-stu-id="334e9-122">Select a future date, for example, today plus one week.</span></span> <span data-ttu-id="334e9-123">使用所选的计划的方向，将安排将生产订单从此日期正推。</span><span class="sxs-lookup"><span data-stu-id="334e9-123">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
+6. <span data-ttu-id="334e9-124">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="334e9-124">Click OK.</span></span>
+7. <span data-ttu-id="334e9-125">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="334e9-125">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="334e9-126">请注意，状态更改为已计划</span><span class="sxs-lookup"><span data-stu-id="334e9-126">Note that the status is changed to Scheduled.</span></span>  
+8. <span data-ttu-id="334e9-127">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="334e9-127">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="334e9-128">单击“所有作业”。</span><span class="sxs-lookup"><span data-stu-id="334e9-128">Click All jobs.</span></span>
+    * <span data-ttu-id="334e9-129">请注意，没有使用工序级排产创建作业。</span><span class="sxs-lookup"><span data-stu-id="334e9-129">Note that no jobs are created with operations scheduling.</span></span>  
+10. <span data-ttu-id="334e9-130">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="334e9-130">Close the page.</span></span>
 
-## <a name="schedule-jobs-for-the-production-order"></a>为生产订单计划作业
-1. 在“操作窗格”上，单击“计划” 。
-2. 单击“计划作业”。
-3. 在“计划的方向”字段中，选择“从计划日期正推”。
-4. 在“计划日期”字段中，输入日期。
-    * 选择一个将来的日期，例如，今天加上一周。 使用所选的计划的方向，将安排将生产订单从此日期正推。  
-5. 单击“确定”。
-6. 在操作窗格上单击“生产订单”。
-7. 单击“所有作业”。
-    * 请注意，根据有效的工艺路线，通过作业级排产创建 5 个作业。  
+## <a name="schedule-jobs-for-the-production-order"></a><span data-ttu-id="334e9-131">为生产订单计划作业</span><span class="sxs-lookup"><span data-stu-id="334e9-131">Schedule jobs for the production order</span></span>
+1. <span data-ttu-id="334e9-132">在“操作窗格”上，单击“计划” 。</span><span class="sxs-lookup"><span data-stu-id="334e9-132">On the Action Pane, click Schedule.</span></span>
+2. <span data-ttu-id="334e9-133">单击“计划作业”。</span><span class="sxs-lookup"><span data-stu-id="334e9-133">Click Schedule jobs.</span></span>
+3. <span data-ttu-id="334e9-134">在“计划的方向”字段中，选择“从计划日期正推”。</span><span class="sxs-lookup"><span data-stu-id="334e9-134">In the Scheduling direction field, select 'Forward from scheduling date'.</span></span>
+4. <span data-ttu-id="334e9-135">在“计划日期”字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="334e9-135">In the Scheduling date field, enter a date.</span></span>
+    * <span data-ttu-id="334e9-136">选择一个将来的日期，例如，今天加上一周。</span><span class="sxs-lookup"><span data-stu-id="334e9-136">Select a date in the future, for example, today plus one week.</span></span> <span data-ttu-id="334e9-137">使用所选的计划的方向，将安排将生产订单从此日期正推。</span><span class="sxs-lookup"><span data-stu-id="334e9-137">With the selected Scheduling direction, the production order will be scheduled forward from this date.</span></span>  
+5. <span data-ttu-id="334e9-138">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="334e9-138">Click OK.</span></span>
+6. <span data-ttu-id="334e9-139">在操作窗格上单击“生产订单”。</span><span class="sxs-lookup"><span data-stu-id="334e9-139">On the Action Pane, click Production order.</span></span>
+7. <span data-ttu-id="334e9-140">单击“所有作业”。</span><span class="sxs-lookup"><span data-stu-id="334e9-140">Click All jobs.</span></span>
+    * <span data-ttu-id="334e9-141">请注意，根据有效的工艺路线，通过作业级排产创建 5 个作业。</span><span class="sxs-lookup"><span data-stu-id="334e9-141">Note that based on the active route, 5 jobs are created with job scheduling.</span></span>  
 
 

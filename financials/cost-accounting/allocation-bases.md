@@ -17,416 +17,416 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 74a3033ffbdba2efc6c5ecd6c55019898751a146
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: fa1e72ad46142198aad98742d35a46180f3d380c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="allocation-bases"></a>分配基础 
+# <a name="allocation-bases"></a><span data-ttu-id="018f8-104">分配基础</span><span class="sxs-lookup"><span data-stu-id="018f8-104">Allocation bases</span></span> 
 
 [!include[banner](../includes/banner.md)]
 
-分配基础是成本核算分配开销成本的基础。 分配基础可以是数量，例如使用机器的时间、消耗的千瓦时 (kWh) 或占用的平方英尺。 分配基础最常用于为生产的库存分配开销成本。 例如，IT 部门根据各部门使用的计算机数量分配其支出。
+<span data-ttu-id="018f8-105">分配基础是成本核算分配开销成本的基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="018f8-106">分配基础可以是数量，例如使用机器的时间、消耗的千瓦时 (kWh) 或占用的平方英尺。</span><span class="sxs-lookup"><span data-stu-id="018f8-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="018f8-107">分配基础最常用于为生产的库存分配开销成本。</span><span class="sxs-lookup"><span data-stu-id="018f8-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="018f8-108">例如，IT 部门根据各部门使用的计算机数量分配其支出。</span><span class="sxs-lookup"><span data-stu-id="018f8-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
-成本核算中有三种类型的分配基础：
+<span data-ttu-id="018f8-109">成本核算中有三种类型的分配基础：</span><span class="sxs-lookup"><span data-stu-id="018f8-109">There are three types of allocation bases in Cost accounting:</span></span>
 
-- 预定义的维度成员分配基础
-- 层次结构分配基础
-- 公式分配基础
+- <span data-ttu-id="018f8-110">预定义的维度成员分配基础</span><span class="sxs-lookup"><span data-stu-id="018f8-110">Predefined dimension member allocation bases</span></span>
+- <span data-ttu-id="018f8-111">层次结构分配基础</span><span class="sxs-lookup"><span data-stu-id="018f8-111">Hierarchy allocation bases</span></span>
+- <span data-ttu-id="018f8-112">公式分配基础</span><span class="sxs-lookup"><span data-stu-id="018f8-112">Formula allocation bases</span></span>
 
-## <a name="predefined-dimension-member-allocation-bases"></a>预定义的维度成员分配基础
+## <a name="predefined-dimension-member-allocation-bases"></a><span data-ttu-id="018f8-113">预定义的维度成员分配基础</span><span class="sxs-lookup"><span data-stu-id="018f8-113">Predefined dimension member allocation bases</span></span>
 
-当创建以下其中一种类型的维度成员时，自动创建预定义的维度成员分配基础：
+<span data-ttu-id="018f8-114">当创建以下其中一种类型的维度成员时，自动创建预定义的维度成员分配基础：</span><span class="sxs-lookup"><span data-stu-id="018f8-114">The predefined dimension member allocation bases are created automatically when a dimension member of one the following types is created:</span></span>
 
-- 统计维度成员
-- 成本元素维度成员
+- <span data-ttu-id="018f8-115">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="018f8-115">Statistical dimension members</span></span>
+- <span data-ttu-id="018f8-116">成本元素维度成员</span><span class="sxs-lookup"><span data-stu-id="018f8-116">Cost element dimension members</span></span>
 
 > [!NOTE]
-> 基于成本元素维度成员的预定义维度成员分配基础仅考虑来自数据源提供程序的值，例如总帐或预算。
+> <span data-ttu-id="018f8-117">基于成本元素维度成员的预定义维度成员分配基础仅考虑来自数据源提供程序的值，例如总帐或预算。</span><span class="sxs-lookup"><span data-stu-id="018f8-117">The predefined dimension member allocation bases that are based on a cost element dimension member consider the values only from the data source provider, such as the general ledger or budget.</span></span>
 
-### <a name="example-1-use-a-cost-element-dimension-member-as-the-allocation-base"></a>示例 1：使用成本元素维度成员作为分配基础
-此示例显示如何创建成本分配规则将成本元素 10002（员工保险）分配至成本元素 10001（薪金）上记录的余额。 分配规则基于各部门薪金与总薪金之间的比例进行定义。 （需审核！）
+### <a name="example-1-use-a-cost-element-dimension-member-as-the-allocation-base"></a><span data-ttu-id="018f8-118">示例 1：使用成本元素维度成员作为分配基础</span><span class="sxs-lookup"><span data-stu-id="018f8-118">Example 1: Use a cost element dimension member as the allocation base</span></span>
+<span data-ttu-id="018f8-119">此示例显示如何创建成本分配规则将成本元素 10002（员工保险）分配至成本元素 10001（薪金）上记录的余额。</span><span class="sxs-lookup"><span data-stu-id="018f8-119">This example shows how to create a cost allocation rule to allocate cost element 10002 (Employee insurance) to the balance that is recorded on cost element 10001 (Salaries).</span></span> <span data-ttu-id="018f8-120">分配规则基于各部门薪金与总薪金之间的比例进行定义。</span><span class="sxs-lookup"><span data-stu-id="018f8-120">The allocation rule is defined based on the ratio of each department's salaries to total salaries.</span></span> <span data-ttu-id="018f8-121">（需审核！）</span><span class="sxs-lookup"><span data-stu-id="018f8-121">(Review needed!)</span></span>
 
-在总帐中，会计科目表的定义如下。
+<span data-ttu-id="018f8-122">在总帐中，会计科目表的定义如下。</span><span class="sxs-lookup"><span data-stu-id="018f8-122">In the general ledger, the chart of account is defined as follows.</span></span>
 
-| 会计科目表 | 主科目 | 说明        | 主科目类型 |
+| <span data-ttu-id="018f8-123">会计科目表</span><span class="sxs-lookup"><span data-stu-id="018f8-123">Chart of account</span></span> | <span data-ttu-id="018f8-124">主科目</span><span class="sxs-lookup"><span data-stu-id="018f8-124">Main account</span></span> | <span data-ttu-id="018f8-125">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-125">Description</span></span>        | <span data-ttu-id="018f8-126">主科目类型</span><span class="sxs-lookup"><span data-stu-id="018f8-126">Main account type</span></span> |
 |------------------|--------------|--------------------|-------------------|
-| 共享的           | 10001        | 薪金           | 费用           |
-| 共享的           | 10002        | 员工保险 | 费用           |
+| <span data-ttu-id="018f8-127">共享的</span><span class="sxs-lookup"><span data-stu-id="018f8-127">Shared</span></span>           | <span data-ttu-id="018f8-128">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-128">10001</span></span>        | <span data-ttu-id="018f8-129">薪金</span><span class="sxs-lookup"><span data-stu-id="018f8-129">Salaries</span></span>           | <span data-ttu-id="018f8-130">费用</span><span class="sxs-lookup"><span data-stu-id="018f8-130">Expense</span></span>           |
+| <span data-ttu-id="018f8-131">共享的</span><span class="sxs-lookup"><span data-stu-id="018f8-131">Shared</span></span>           | <span data-ttu-id="018f8-132">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-132">10002</span></span>        | <span data-ttu-id="018f8-133">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-133">Employee insurance</span></span> | <span data-ttu-id="018f8-134">费用</span><span class="sxs-lookup"><span data-stu-id="018f8-134">Expense</span></span>           |
 
-定义成本元素维度，并配置数据连接器。 导入数据后，在成本核算中创建以下条目。
+<span data-ttu-id="018f8-135">定义成本元素维度，并配置数据连接器。</span><span class="sxs-lookup"><span data-stu-id="018f8-135">Define a cost element dimension, and configure the data connector.</span></span> <span data-ttu-id="018f8-136">导入数据后，在成本核算中创建以下条目。</span><span class="sxs-lookup"><span data-stu-id="018f8-136">After the data is imported, the following entries are created in Cost accounting.</span></span>
 
-**成本元素维度成员**
+<span data-ttu-id="018f8-137">**成本元素维度成员**</span><span class="sxs-lookup"><span data-stu-id="018f8-137">**Cost element dimension members**</span></span>
 
-| 成本元素维度名称 | 成本元素 |  说明       | 类型    |
+| <span data-ttu-id="018f8-138">成本元素维度名称</span><span class="sxs-lookup"><span data-stu-id="018f8-138">Cost element dimension name</span></span> | <span data-ttu-id="018f8-139">成本元素</span><span class="sxs-lookup"><span data-stu-id="018f8-139">Cost element</span></span> |  <span data-ttu-id="018f8-140">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-140">Description</span></span>       | <span data-ttu-id="018f8-141">类型</span><span class="sxs-lookup"><span data-stu-id="018f8-141">Type</span></span>    |
 |-----------------------------|--------------|--------------------|---------|
-| 成本元素               | 10001        | 薪金           | 第一位 |
-| 成本元素               | 10002        | 员工保险 | 第一位 |
+| <span data-ttu-id="018f8-142">成本元素</span><span class="sxs-lookup"><span data-stu-id="018f8-142">Cost elements</span></span>               | <span data-ttu-id="018f8-143">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-143">10001</span></span>        | <span data-ttu-id="018f8-144">薪金</span><span class="sxs-lookup"><span data-stu-id="018f8-144">Salaries</span></span>           | <span data-ttu-id="018f8-145">第一位</span><span class="sxs-lookup"><span data-stu-id="018f8-145">Primary</span></span> |
+| <span data-ttu-id="018f8-146">成本元素</span><span class="sxs-lookup"><span data-stu-id="018f8-146">Cost elements</span></span>               | <span data-ttu-id="018f8-147">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-147">10002</span></span>        | <span data-ttu-id="018f8-148">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-148">Employee insurance</span></span> | <span data-ttu-id="018f8-149">第一位</span><span class="sxs-lookup"><span data-stu-id="018f8-149">Primary</span></span> |
 
-**预定义的维度成员分配基础** 
+<span data-ttu-id="018f8-150">**预定义的维度成员分配基础**</span><span class="sxs-lookup"><span data-stu-id="018f8-150">**Predefined dimension member allocation bases**</span></span> 
 
-| 姓名  | 说明        | 成本元素维度 |
+| <span data-ttu-id="018f8-151">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-151">Name</span></span>  | <span data-ttu-id="018f8-152">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-152">Description</span></span>        | <span data-ttu-id="018f8-153">成本元素维度</span><span class="sxs-lookup"><span data-stu-id="018f8-153">Cost element dimension</span></span> |
 |-------|--------------------|------------------------|
-| 10001 | 薪金           | 成本元素          |
-| 10002 | 员工保险 | 成本元素          |
+| <span data-ttu-id="018f8-154">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-154">10001</span></span> | <span data-ttu-id="018f8-155">薪金</span><span class="sxs-lookup"><span data-stu-id="018f8-155">Salaries</span></span>           | <span data-ttu-id="018f8-156">成本元素</span><span class="sxs-lookup"><span data-stu-id="018f8-156">Cost elements</span></span>          |
+| <span data-ttu-id="018f8-157">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-157">10002</span></span> | <span data-ttu-id="018f8-158">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-158">Employee insurance</span></span> | <span data-ttu-id="018f8-159">成本元素</span><span class="sxs-lookup"><span data-stu-id="018f8-159">Cost elements</span></span>          |
 
-在总帐中，以下条目已过帐：
+<span data-ttu-id="018f8-160">在总帐中，以下条目已过帐：</span><span class="sxs-lookup"><span data-stu-id="018f8-160">In the general ledger, the following entries have been posted:</span></span>
 
-- 显示薪金主科目的条目来自工资系统并过帐到成本中心。
-- 员工保险支出手动过帐到默认成本中心。
+- <span data-ttu-id="018f8-161">显示薪金主科目的条目来自工资系统并过帐到成本中心。</span><span class="sxs-lookup"><span data-stu-id="018f8-161">The entries that show the Salaries main account come from the Payroll system and are posted to cost centers.</span></span>
+- <span data-ttu-id="018f8-162">员工保险支出手动过帐到默认成本中心。</span><span class="sxs-lookup"><span data-stu-id="018f8-162">The expense for employee insurance is manually posted to a default cost center.</span></span>
 
-| 会计日期 | 成本中心 |  说明        | 主科目 |  说明       | 按记帐币种计算的金额 |
+| <span data-ttu-id="018f8-163">会计日期</span><span class="sxs-lookup"><span data-stu-id="018f8-163">Accounting date</span></span> | <span data-ttu-id="018f8-164">成本中心</span><span class="sxs-lookup"><span data-stu-id="018f8-164">Cost center</span></span> |  <span data-ttu-id="018f8-165">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-165">Description</span></span>        | <span data-ttu-id="018f8-166">主科目</span><span class="sxs-lookup"><span data-stu-id="018f8-166">Main account</span></span> |  <span data-ttu-id="018f8-167">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-167">Description</span></span>       | <span data-ttu-id="018f8-168">按记帐币种计算的金额</span><span class="sxs-lookup"><span data-stu-id="018f8-168">Amount in accounting currency</span></span> |
 |-----------------|-------------|---------------------|--------------|--------------------|-------------------------------|
-| 03-01-2017      | CC001       | HR                  | 10001        | 薪金           | 2,000.00                      |
-| 03-01-2017      | CC002       | FI                  | 10001        | 薪金           | 5,000.00                      |
-| 03-01-2017      | CC003       | IT                  | 10001        | 薪金           | 3,000.00                      |
-| 03-01-2017      | CC099       | 默认成本中心 | 10002        | 员工保险 | 1,000.00                      |
+| <span data-ttu-id="018f8-169">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-169">03-01-2017</span></span>      | <span data-ttu-id="018f8-170">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-170">CC001</span></span>       | <span data-ttu-id="018f8-171">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-171">HR</span></span>                  | <span data-ttu-id="018f8-172">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-172">10001</span></span>        | <span data-ttu-id="018f8-173">薪金</span><span class="sxs-lookup"><span data-stu-id="018f8-173">Salaries</span></span>           | <span data-ttu-id="018f8-174">2,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-174">2,000.00</span></span>                      |
+| <span data-ttu-id="018f8-175">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-175">03-01-2017</span></span>      | <span data-ttu-id="018f8-176">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-176">CC002</span></span>       | <span data-ttu-id="018f8-177">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-177">FI</span></span>                  | <span data-ttu-id="018f8-178">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-178">10001</span></span>        | <span data-ttu-id="018f8-179">薪金</span><span class="sxs-lookup"><span data-stu-id="018f8-179">Salaries</span></span>           | <span data-ttu-id="018f8-180">5,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-180">5,000.00</span></span>                      |
+| <span data-ttu-id="018f8-181">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-181">03-01-2017</span></span>      | <span data-ttu-id="018f8-182">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-182">CC003</span></span>       | <span data-ttu-id="018f8-183">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-183">IT</span></span>                  | <span data-ttu-id="018f8-184">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-184">10001</span></span>        | <span data-ttu-id="018f8-185">薪金</span><span class="sxs-lookup"><span data-stu-id="018f8-185">Salaries</span></span>           | <span data-ttu-id="018f8-186">3,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-186">3,000.00</span></span>                      |
+| <span data-ttu-id="018f8-187">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-187">03-01-2017</span></span>      | <span data-ttu-id="018f8-188">CC099</span><span class="sxs-lookup"><span data-stu-id="018f8-188">CC099</span></span>       | <span data-ttu-id="018f8-189">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="018f8-189">Default cost center</span></span> | <span data-ttu-id="018f8-190">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-190">10002</span></span>        | <span data-ttu-id="018f8-191">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-191">Employee insurance</span></span> | <span data-ttu-id="018f8-192">1,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-192">1,000.00</span></span>                      |
 
-处理总帐源数据后，在成本核算中创建以下条目。
+<span data-ttu-id="018f8-193">处理总帐源数据后，在成本核算中创建以下条目。</span><span class="sxs-lookup"><span data-stu-id="018f8-193">After the general ledger source data is processed, the following entries are created in Cost accounting.</span></span>
 
-**成本条目**
+<span data-ttu-id="018f8-194">**成本条目**</span><span class="sxs-lookup"><span data-stu-id="018f8-194">**Cost entries**</span></span>
 
-| 成本对象 |  说明        | 成本元素  |  说明       | 成本行为   |本币金额|会计日期|
+| <span data-ttu-id="018f8-195">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-195">Cost object</span></span> |  <span data-ttu-id="018f8-196">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-196">Description</span></span>        | <span data-ttu-id="018f8-197">成本元素</span><span class="sxs-lookup"><span data-stu-id="018f8-197">Cost element</span></span>  |  <span data-ttu-id="018f8-198">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-198">Description</span></span>       | <span data-ttu-id="018f8-199">成本行为</span><span class="sxs-lookup"><span data-stu-id="018f8-199">Cost behavior</span></span>   |<span data-ttu-id="018f8-200">本币金额</span><span class="sxs-lookup"><span data-stu-id="018f8-200">Amount</span></span>|<span data-ttu-id="018f8-201">会计日期</span><span class="sxs-lookup"><span data-stu-id="018f8-201">Accounting date</span></span>|
 |-------------|---------------------|---------------|--------------------|-----------------|------|---------------|
-| CC001       | HR                  | 10001         | 薪金           | 未分类    |2,000.00|  03-01-2017    |
-| CC002       | FI                  | 10001         | 薪金           | 未分类    |5,000.00|     03-01-2017         |
-| CC003       | IT                  | 10001         | 薪金           | 未分类    |3,000.00|      03-01-2017        |
-| CC099       | 默认成本中心 | 10002         | 员工保险 | 未分类    |1,000.00|      03-01-2017       |
+| <span data-ttu-id="018f8-202">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-202">CC001</span></span>       | <span data-ttu-id="018f8-203">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-203">HR</span></span>                  | <span data-ttu-id="018f8-204">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-204">10001</span></span>         | <span data-ttu-id="018f8-205">薪金</span><span class="sxs-lookup"><span data-stu-id="018f8-205">Salaries</span></span>           | <span data-ttu-id="018f8-206">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-206">Unclassified</span></span>    |<span data-ttu-id="018f8-207">2,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-207">2,000.00</span></span>|  <span data-ttu-id="018f8-208">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-208">03-01-2017</span></span>    |
+| <span data-ttu-id="018f8-209">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-209">CC002</span></span>       | <span data-ttu-id="018f8-210">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-210">FI</span></span>                  | <span data-ttu-id="018f8-211">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-211">10001</span></span>         | <span data-ttu-id="018f8-212">薪金</span><span class="sxs-lookup"><span data-stu-id="018f8-212">Salaries</span></span>           | <span data-ttu-id="018f8-213">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-213">Unclassified</span></span>    |<span data-ttu-id="018f8-214">5,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-214">5,000.00</span></span>|     <span data-ttu-id="018f8-215">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-215">03-01-2017</span></span>         |
+| <span data-ttu-id="018f8-216">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-216">CC003</span></span>       | <span data-ttu-id="018f8-217">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-217">IT</span></span>                  | <span data-ttu-id="018f8-218">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-218">10001</span></span>         | <span data-ttu-id="018f8-219">薪金</span><span class="sxs-lookup"><span data-stu-id="018f8-219">Salaries</span></span>           | <span data-ttu-id="018f8-220">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-220">Unclassified</span></span>    |<span data-ttu-id="018f8-221">3,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-221">3,000.00</span></span>|      <span data-ttu-id="018f8-222">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-222">03-01-2017</span></span>        |
+| <span data-ttu-id="018f8-223">CC099</span><span class="sxs-lookup"><span data-stu-id="018f8-223">CC099</span></span>       | <span data-ttu-id="018f8-224">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="018f8-224">Default cost center</span></span> | <span data-ttu-id="018f8-225">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-225">10002</span></span>         | <span data-ttu-id="018f8-226">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-226">Employee insurance</span></span> | <span data-ttu-id="018f8-227">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-227">Unclassified</span></span>    |<span data-ttu-id="018f8-228">1,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-228">1,000.00</span></span>|      <span data-ttu-id="018f8-229">03-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-229">03-01-2017</span></span>       |
 
-此简化示例中创建了一个成本分配规则以分配相对于成本元素 10001（薪金）上记录的余额的成本元素 10002（员工保险）。
+<span data-ttu-id="018f8-230">此简化示例中创建了一个成本分配规则以分配相对于成本元素 10001（薪金）上记录的余额的成本元素 10002（员工保险）。</span><span class="sxs-lookup"><span data-stu-id="018f8-230">In this simplified example, a cost allocation rule is created to allocate cost element 10002 (Employee insurance) relative to the balance that is recorded on cost element 10001 (Salaries).</span></span>
 
-**成本分配规则**
+<span data-ttu-id="018f8-231">**成本分配规则**</span><span class="sxs-lookup"><span data-stu-id="018f8-231">**Cost distribution rule**</span></span>
 
-| 成本对象维度层次结构节点 | 成本元素维度层次结构节点 | 成本行为 | 分摊基础 |
+| <span data-ttu-id="018f8-232">成本对象维度层次结构节点</span><span class="sxs-lookup"><span data-stu-id="018f8-232">Cost object dimension hierarchy node</span></span> | <span data-ttu-id="018f8-233">成本元素维度层次结构节点</span><span class="sxs-lookup"><span data-stu-id="018f8-233">Cost element dimension hierarchy node</span></span> | <span data-ttu-id="018f8-234">成本行为</span><span class="sxs-lookup"><span data-stu-id="018f8-234">Cost behavior</span></span> | <span data-ttu-id="018f8-235">分摊基础</span><span class="sxs-lookup"><span data-stu-id="018f8-235">Allocation base</span></span> |
 |--------------------------------------|---------------------------------------|---------------|-----------------|
-| CC099                                | 10002                                 | 未分类  | 10001           |
+| <span data-ttu-id="018f8-236">CC099</span><span class="sxs-lookup"><span data-stu-id="018f8-236">CC099</span></span>                                | <span data-ttu-id="018f8-237">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-237">10002</span></span>                                 | <span data-ttu-id="018f8-238">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-238">Unclassified</span></span>  | <span data-ttu-id="018f8-239">10001</span><span class="sxs-lookup"><span data-stu-id="018f8-239">10001</span></span>           |
 
-**执行开销计算**
+<span data-ttu-id="018f8-240">**执行开销计算**</span><span class="sxs-lookup"><span data-stu-id="018f8-240">**Perform overhead calculation**</span></span>
 
-将成本元素 10001（薪金）应用为分配基础后，开销计算的结果如下。
+<span data-ttu-id="018f8-241">将成本元素 10001（薪金）应用为分配基础后，开销计算的结果如下。</span><span class="sxs-lookup"><span data-stu-id="018f8-241">After cost element 10001 (Salaries) is applied as the allocation base, the result of the overhead calculation is as follows.</span></span>
 
-| 成本对象 | 说明 | 度量值 |   分配系数         | 本币金额 |
+| <span data-ttu-id="018f8-242">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-242">Cost object</span></span> | <span data-ttu-id="018f8-243">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-243">Description</span></span> | <span data-ttu-id="018f8-244">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-244">Magnitude</span></span> |   <span data-ttu-id="018f8-245">分配系数</span><span class="sxs-lookup"><span data-stu-id="018f8-245">Allocation factor</span></span>         | <span data-ttu-id="018f8-246">本币金额</span><span class="sxs-lookup"><span data-stu-id="018f8-246">Amount</span></span> |
 |-------------|-------------|-----------|-----------------------------|--------|
-| CC001       | HR          | 2,000     | (2,000 ÷ 10,000) × 1,000.00 | 200.00 |
-| CC002       | FI          | 5,000     | (5,000 ÷ 10,000) × 1,000.00 | 500.00 |
-| CC003       | IT          | 3,000     | (3,000 ÷ 10,000) × 1,000.00 | 300.00 |
+| <span data-ttu-id="018f8-247">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-247">CC001</span></span>       | <span data-ttu-id="018f8-248">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-248">HR</span></span>          | <span data-ttu-id="018f8-249">2,000</span><span class="sxs-lookup"><span data-stu-id="018f8-249">2,000</span></span>     | <span data-ttu-id="018f8-250">(2,000 ÷ 10,000) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-250">(2,000 ÷ 10,000) × 1,000.00</span></span> | <span data-ttu-id="018f8-251">200.00</span><span class="sxs-lookup"><span data-stu-id="018f8-251">200.00</span></span> |
+| <span data-ttu-id="018f8-252">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-252">CC002</span></span>       | <span data-ttu-id="018f8-253">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-253">FI</span></span>          | <span data-ttu-id="018f8-254">5,000</span><span class="sxs-lookup"><span data-stu-id="018f8-254">5,000</span></span>     | <span data-ttu-id="018f8-255">(5,000 ÷ 10,000) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-255">(5,000 ÷ 10,000) × 1,000.00</span></span> | <span data-ttu-id="018f8-256">500.00</span><span class="sxs-lookup"><span data-stu-id="018f8-256">500.00</span></span> |
+| <span data-ttu-id="018f8-257">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-257">CC003</span></span>       | <span data-ttu-id="018f8-258">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-258">IT</span></span>          | <span data-ttu-id="018f8-259">3,000</span><span class="sxs-lookup"><span data-stu-id="018f8-259">3,000</span></span>     | <span data-ttu-id="018f8-260">(3,000 ÷ 10,000) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-260">(3,000 ÷ 10,000) × 1,000.00</span></span> | <span data-ttu-id="018f8-261">300.00</span><span class="sxs-lookup"><span data-stu-id="018f8-261">300.00</span></span> |
 
-**日记帐**
+<span data-ttu-id="018f8-262">**日记帐**</span><span class="sxs-lookup"><span data-stu-id="018f8-262">**Journal**</span></span>
 
-| 生产订单日记帐 | 日记帐类型                          | 会计日历期间 | 年 | 期间余额   | 版本                                                                 |
+| <span data-ttu-id="018f8-263">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="018f8-263">Journal</span></span> | <span data-ttu-id="018f8-264">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="018f8-264">Journal type</span></span>                          | <span data-ttu-id="018f8-265">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="018f8-265">Fiscal calendar period</span></span> | <span data-ttu-id="018f8-266">年</span><span class="sxs-lookup"><span data-stu-id="018f8-266">Year</span></span> | <span data-ttu-id="018f8-267">期间余额</span><span class="sxs-lookup"><span data-stu-id="018f8-267">Period</span></span>   | <span data-ttu-id="018f8-268">版本</span><span class="sxs-lookup"><span data-stu-id="018f8-268">Version</span></span>                                                                 |
 |---------|---------------------------------------|------------------------|------|----------|-------------------------------------------------------------------------|
-| 00001   | 成本分配计算日记帐 | 会计                 | 2017 | 期间 1 | 开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1 |
+| <span data-ttu-id="018f8-269">00001</span><span class="sxs-lookup"><span data-stu-id="018f8-269">00001</span></span>   | <span data-ttu-id="018f8-270">成本分配计算日记帐</span><span class="sxs-lookup"><span data-stu-id="018f8-270">Cost distribution calculation journal</span></span> | <span data-ttu-id="018f8-271">会计</span><span class="sxs-lookup"><span data-stu-id="018f8-271">Fiscal</span></span>                 | <span data-ttu-id="018f8-272">2017</span><span class="sxs-lookup"><span data-stu-id="018f8-272">2017</span></span> | <span data-ttu-id="018f8-273">期间 1</span><span class="sxs-lookup"><span data-stu-id="018f8-273">Period 1</span></span> | <span data-ttu-id="018f8-274">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="018f8-274">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span> |
 
-**成本对象余额日记帐条目**
+<span data-ttu-id="018f8-275">**成本对象余额日记帐条目**</span><span class="sxs-lookup"><span data-stu-id="018f8-275">**Cost object balance journal entries**</span></span>
 
-| 会计日期 | 成本对象 | 说明         | 成本元素 | 说明        | 成本行为 |  本币金额  |
+| <span data-ttu-id="018f8-276">会计日期</span><span class="sxs-lookup"><span data-stu-id="018f8-276">Accounting date</span></span> | <span data-ttu-id="018f8-277">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-277">Cost object</span></span> | <span data-ttu-id="018f8-278">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-278">Description</span></span>         | <span data-ttu-id="018f8-279">成本元素</span><span class="sxs-lookup"><span data-stu-id="018f8-279">Cost element</span></span> | <span data-ttu-id="018f8-280">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-280">Description</span></span>        | <span data-ttu-id="018f8-281">成本行为</span><span class="sxs-lookup"><span data-stu-id="018f8-281">Cost behavior</span></span> |  <span data-ttu-id="018f8-282">本币金额</span><span class="sxs-lookup"><span data-stu-id="018f8-282">Amount</span></span>  |
 |-----------------|-------------|---------------------|--------------|--------------------|---------------|----------|
-| 31-01-2017      | CC099       | 默认成本中心 | 10002        | 员工保险 | 未分类  | 1,000.00 |
+| <span data-ttu-id="018f8-283">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-283">31-01-2017</span></span>      | <span data-ttu-id="018f8-284">CC099</span><span class="sxs-lookup"><span data-stu-id="018f8-284">CC099</span></span>       | <span data-ttu-id="018f8-285">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="018f8-285">Default cost center</span></span> | <span data-ttu-id="018f8-286">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-286">10002</span></span>        | <span data-ttu-id="018f8-287">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-287">Employee insurance</span></span> | <span data-ttu-id="018f8-288">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-288">Unclassified</span></span>  | <span data-ttu-id="018f8-289">1,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-289">1,000.00</span></span> |
 
-**成本条目**
+<span data-ttu-id="018f8-290">**成本条目**</span><span class="sxs-lookup"><span data-stu-id="018f8-290">**Cost entries**</span></span>
 
-| 成本对象 |  说明        | 成本元素 |    说明     | 成本行为 | 本币金额    | 会计日期 |
+| <span data-ttu-id="018f8-291">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-291">Cost object</span></span> |  <span data-ttu-id="018f8-292">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-292">Description</span></span>        | <span data-ttu-id="018f8-293">成本元素</span><span class="sxs-lookup"><span data-stu-id="018f8-293">Cost element</span></span> |    <span data-ttu-id="018f8-294">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-294">Description</span></span>     | <span data-ttu-id="018f8-295">成本行为</span><span class="sxs-lookup"><span data-stu-id="018f8-295">Cost behavior</span></span> | <span data-ttu-id="018f8-296">本币金额</span><span class="sxs-lookup"><span data-stu-id="018f8-296">Amount</span></span>    | <span data-ttu-id="018f8-297">会计日期</span><span class="sxs-lookup"><span data-stu-id="018f8-297">Accounting date</span></span> |
 |-------------|---------------------|--------------|--------------------|---------------|-----------|-----------------|
-| CC099       | 默认成本中心 | 10002        | 员工保险 | 未分类  | -1,000.00 | 31-01-2017      |
-| CC001       | HR                  | 10002        | 员工保险 | 未分类  | 200.00    | 31-01-2017      |
-| CC002       | FI                  | 10002        | 员工保险 | 未分类  | 500.00    | 31-01-2017      |
-| CC099       | IT                  | 10002        | 员工保险 | 未分类  | 300.00    | 31-01-2017      |
+| <span data-ttu-id="018f8-298">CC099</span><span class="sxs-lookup"><span data-stu-id="018f8-298">CC099</span></span>       | <span data-ttu-id="018f8-299">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="018f8-299">Default cost center</span></span> | <span data-ttu-id="018f8-300">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-300">10002</span></span>        | <span data-ttu-id="018f8-301">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-301">Employee insurance</span></span> | <span data-ttu-id="018f8-302">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-302">Unclassified</span></span>  | <span data-ttu-id="018f8-303">-1,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-303">-1,000.00</span></span> | <span data-ttu-id="018f8-304">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-304">31-01-2017</span></span>      |
+| <span data-ttu-id="018f8-305">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-305">CC001</span></span>       | <span data-ttu-id="018f8-306">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-306">HR</span></span>                  | <span data-ttu-id="018f8-307">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-307">10002</span></span>        | <span data-ttu-id="018f8-308">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-308">Employee insurance</span></span> | <span data-ttu-id="018f8-309">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-309">Unclassified</span></span>  | <span data-ttu-id="018f8-310">200.00</span><span class="sxs-lookup"><span data-stu-id="018f8-310">200.00</span></span>    | <span data-ttu-id="018f8-311">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-311">31-01-2017</span></span>      |
+| <span data-ttu-id="018f8-312">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-312">CC002</span></span>       | <span data-ttu-id="018f8-313">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-313">FI</span></span>                  | <span data-ttu-id="018f8-314">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-314">10002</span></span>        | <span data-ttu-id="018f8-315">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-315">Employee insurance</span></span> | <span data-ttu-id="018f8-316">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-316">Unclassified</span></span>  | <span data-ttu-id="018f8-317">500.00</span><span class="sxs-lookup"><span data-stu-id="018f8-317">500.00</span></span>    | <span data-ttu-id="018f8-318">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-318">31-01-2017</span></span>      |
+| <span data-ttu-id="018f8-319">CC099</span><span class="sxs-lookup"><span data-stu-id="018f8-319">CC099</span></span>       | <span data-ttu-id="018f8-320">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-320">IT</span></span>                  | <span data-ttu-id="018f8-321">10002</span><span class="sxs-lookup"><span data-stu-id="018f8-321">10002</span></span>        | <span data-ttu-id="018f8-322">员工保险</span><span class="sxs-lookup"><span data-stu-id="018f8-322">Employee insurance</span></span> | <span data-ttu-id="018f8-323">未分类</span><span class="sxs-lookup"><span data-stu-id="018f8-323">Unclassified</span></span>  | <span data-ttu-id="018f8-324">300.00</span><span class="sxs-lookup"><span data-stu-id="018f8-324">300.00</span></span>    | <span data-ttu-id="018f8-325">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-325">31-01-2017</span></span>      |
 
-### <a name="example-2-use-a-statistical-dimension-member-as-the-allocation-base"></a>示例 2：使用统计维度成员作为分配基础
+### <a name="example-2-use-a-statistical-dimension-member-as-the-allocation-base"></a><span data-ttu-id="018f8-326">示例 2：使用统计维度成员作为分配基础</span><span class="sxs-lookup"><span data-stu-id="018f8-326">Example 2: Use a statistical dimension member as the allocation base</span></span>
 
-统计维度成员可作为分配基础用来按成本对象定义策略或报告非货币性消耗量。 您可以手动创建统计维度成员或使用数据管理导入/导出工具从文件导入。
+<span data-ttu-id="018f8-327">统计维度成员可作为分配基础用来按成本对象定义策略或报告非货币性消耗量。</span><span class="sxs-lookup"><span data-stu-id="018f8-327">Statistical dimension members can be used as allocation bases to define policies or report non-monetary consumption by cost objects.</span></span> <span data-ttu-id="018f8-328">您可以手动创建统计维度成员或使用数据管理导入/导出工具从文件导入。</span><span class="sxs-lookup"><span data-stu-id="018f8-328">You can manually create statistical dimension members or import them from a file by using the Data management import/export tool.</span></span>
 
-**统计维度成员**
+<span data-ttu-id="018f8-329">**统计维度成员**</span><span class="sxs-lookup"><span data-stu-id="018f8-329">**Statistical dimension members**</span></span>
 
-| 统计维度名称 | 统计元素 | 说明               | 单位 |
+| <span data-ttu-id="018f8-330">统计维度名称</span><span class="sxs-lookup"><span data-stu-id="018f8-330">Statistical dimension name</span></span> | <span data-ttu-id="018f8-331">统计元素</span><span class="sxs-lookup"><span data-stu-id="018f8-331">Statistical element</span></span> | <span data-ttu-id="018f8-332">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-332">Description</span></span>               | <span data-ttu-id="018f8-333">单位</span><span class="sxs-lookup"><span data-stu-id="018f8-333">Unit</span></span> |
 |----------------------------|---------------------|---------------------------|------|
-| 统计元素       | FTE                 | 全职员工       | 位   |
-| 统计元素       | 电         | 用电量   | kWh  |
+| <span data-ttu-id="018f8-334">统计元素</span><span class="sxs-lookup"><span data-stu-id="018f8-334">Statistical elements</span></span>       | <span data-ttu-id="018f8-335">FTE</span><span class="sxs-lookup"><span data-stu-id="018f8-335">FTE</span></span>                 | <span data-ttu-id="018f8-336">全职员工</span><span class="sxs-lookup"><span data-stu-id="018f8-336">Full time employees</span></span>       | <span data-ttu-id="018f8-337">位</span><span class="sxs-lookup"><span data-stu-id="018f8-337">Ea</span></span>   |
+| <span data-ttu-id="018f8-338">统计元素</span><span class="sxs-lookup"><span data-stu-id="018f8-338">Statistical elements</span></span>       | <span data-ttu-id="018f8-339">电</span><span class="sxs-lookup"><span data-stu-id="018f8-339">Electricity</span></span>         | <span data-ttu-id="018f8-340">用电量</span><span class="sxs-lookup"><span data-stu-id="018f8-340">Electricity consumption</span></span>   | <span data-ttu-id="018f8-341">kWh</span><span class="sxs-lookup"><span data-stu-id="018f8-341">kWh</span></span>  |
 
-保存统计维度成员后，将在预定义的维度成员分配基础中创建相应记录。
+<span data-ttu-id="018f8-342">保存统计维度成员后，将在预定义的维度成员分配基础中创建相应记录。</span><span class="sxs-lookup"><span data-stu-id="018f8-342">When a statistical dimension member is saved, a corresponding record is created in the predefined dimension member allocation bases.</span></span>
 
-**预定义的维度成员分配基础**
+<span data-ttu-id="018f8-343">**预定义的维度成员分配基础**</span><span class="sxs-lookup"><span data-stu-id="018f8-343">**Predefined dimension member allocation bases**</span></span>
 
-| 姓名        | 说明             | 统计元素维度 |
+| <span data-ttu-id="018f8-344">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-344">Name</span></span>        | <span data-ttu-id="018f8-345">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-345">Description</span></span>             | <span data-ttu-id="018f8-346">统计元素维度</span><span class="sxs-lookup"><span data-stu-id="018f8-346">Statistical element dimension</span></span> |
 |-------------|-------------------------|-------------------------------|
-| FTE         | 全职员工     | 统计元素          |
-| 电 | 用电量 | 统计元素          |
+| <span data-ttu-id="018f8-347">FTE</span><span class="sxs-lookup"><span data-stu-id="018f8-347">FTE</span></span>         | <span data-ttu-id="018f8-348">全职员工</span><span class="sxs-lookup"><span data-stu-id="018f8-348">Full time employees</span></span>     | <span data-ttu-id="018f8-349">统计元素</span><span class="sxs-lookup"><span data-stu-id="018f8-349">Statistical elements</span></span>          |
+| <span data-ttu-id="018f8-350">电</span><span class="sxs-lookup"><span data-stu-id="018f8-350">Electricity</span></span> | <span data-ttu-id="018f8-351">用电量</span><span class="sxs-lookup"><span data-stu-id="018f8-351">Electricity consumption</span></span> | <span data-ttu-id="018f8-352">统计元素</span><span class="sxs-lookup"><span data-stu-id="018f8-352">Statistical elements</span></span>          |
 
-统计度量可以来自不同来源：
+<span data-ttu-id="018f8-353">统计度量可以来自不同来源：</span><span class="sxs-lookup"><span data-stu-id="018f8-353">Statistical measures can come from various sources:</span></span>
 
-- 用电量可以通过在公司不同区域安装的电表来度量。
-- 表包含统计度量。 例如，HcmEmployment 表包含所有员工及其工作的成本中心的列表。
+- <span data-ttu-id="018f8-354">用电量可以通过在公司不同区域安装的电表来度量。</span><span class="sxs-lookup"><span data-stu-id="018f8-354">Electricity consumption can be measured by meters that are installed in different areas of the company.</span></span>
+- <span data-ttu-id="018f8-355">表包含统计度量。</span><span class="sxs-lookup"><span data-stu-id="018f8-355">Tables hold statistical measures.</span></span> <span data-ttu-id="018f8-356">例如，HcmEmployment 表包含所有员工及其工作的成本中心的列表。</span><span class="sxs-lookup"><span data-stu-id="018f8-356">For example, the HcmEmployment table holds a list of all employees and the cost centers that they work for.</span></span>
 
-| 姓名       | 成本中心 |  说明  | 工作人员类型 |
+| <span data-ttu-id="018f8-357">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-357">Name</span></span>       | <span data-ttu-id="018f8-358">成本中心</span><span class="sxs-lookup"><span data-stu-id="018f8-358">Cost center</span></span> |  <span data-ttu-id="018f8-359">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-359">Description</span></span>  | <span data-ttu-id="018f8-360">工作人员类型</span><span class="sxs-lookup"><span data-stu-id="018f8-360">Worker type</span></span> |
 |------------|-------------|----|-------------|
-| 员工 A | CC001       | HR | 盘点责任人    |
-| 员工 B | CC002       | FI | 盘点责任人    |
-| 员工 C | CC002       | FI | 盘点责任人    |
-| 员工 D | CC003       | IT | 盘点责任人    |
-| 员工 F | CC003       | IT | 盘点责任人    |
+| <span data-ttu-id="018f8-361">员工 A</span><span class="sxs-lookup"><span data-stu-id="018f8-361">Employee A</span></span> | <span data-ttu-id="018f8-362">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-362">CC001</span></span>       | <span data-ttu-id="018f8-363">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-363">HR</span></span> | <span data-ttu-id="018f8-364">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="018f8-364">Employee</span></span>    |
+| <span data-ttu-id="018f8-365">员工 B</span><span class="sxs-lookup"><span data-stu-id="018f8-365">Employee B</span></span> | <span data-ttu-id="018f8-366">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-366">CC002</span></span>       | <span data-ttu-id="018f8-367">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-367">FI</span></span> | <span data-ttu-id="018f8-368">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="018f8-368">Employee</span></span>    |
+| <span data-ttu-id="018f8-369">员工 C</span><span class="sxs-lookup"><span data-stu-id="018f8-369">Employee C</span></span> | <span data-ttu-id="018f8-370">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-370">CC002</span></span>       | <span data-ttu-id="018f8-371">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-371">FI</span></span> | <span data-ttu-id="018f8-372">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="018f8-372">Employee</span></span>    |
+| <span data-ttu-id="018f8-373">员工 D</span><span class="sxs-lookup"><span data-stu-id="018f8-373">Employee D</span></span> | <span data-ttu-id="018f8-374">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-374">CC003</span></span>       | <span data-ttu-id="018f8-375">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-375">IT</span></span> | <span data-ttu-id="018f8-376">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="018f8-376">Employee</span></span>    |
+| <span data-ttu-id="018f8-377">员工 F</span><span class="sxs-lookup"><span data-stu-id="018f8-377">Employee F</span></span> | <span data-ttu-id="018f8-378">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-378">CC003</span></span>       | <span data-ttu-id="018f8-379">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-379">IT</span></span> | <span data-ttu-id="018f8-380">盘点责任人</span><span class="sxs-lookup"><span data-stu-id="018f8-380">Employee</span></span>    |
 
 > [!NOTE]
-> 包含财务维度的所有表均可作为统计度量的来源。
+> <span data-ttu-id="018f8-381">包含财务维度的所有表均可作为统计度量的来源。</span><span class="sxs-lookup"><span data-stu-id="018f8-381">All the tables that contain financial dimensions can be used as sources for statistical measures.</span></span>
 
-成本核算通过使用以下数据连接支持统计度量的集合：
+<span data-ttu-id="018f8-382">成本核算通过使用以下数据连接支持统计度量的集合：</span><span class="sxs-lookup"><span data-stu-id="018f8-382">Cost accounting supports a collection of statistical measures by using the following data connections:</span></span>
 
-- 数据管理导入/导出工具
-- 统计度量
+- <span data-ttu-id="018f8-383">数据管理导入/导出工具</span><span class="sxs-lookup"><span data-stu-id="018f8-383">Data management import/export tool</span></span>
+- <span data-ttu-id="018f8-384">统计度量</span><span class="sxs-lookup"><span data-stu-id="018f8-384">Statistical measures</span></span>
 
-要从系统提取统计度量，要求使用统计度量提供方模板。 有关详细信息，请参阅统计度量提供方模板。 （撰写此主题后将添加链接。）
+<span data-ttu-id="018f8-385">要从系统提取统计度量，要求使用统计度量提供方模板。</span><span class="sxs-lookup"><span data-stu-id="018f8-385">To pull statistical measures from the system, a statistical measure provider template is required.</span></span> <span data-ttu-id="018f8-386">有关详细信息，请参阅统计度量提供方模板。</span><span class="sxs-lookup"><span data-stu-id="018f8-386">For more information, see Statistical measure provider template.</span></span> <span data-ttu-id="018f8-387">（撰写此主题后将添加链接。）</span><span class="sxs-lookup"><span data-stu-id="018f8-387">(Will add a link once this topic is written.)</span></span>
 
-**统计度量提供方模板**
+<span data-ttu-id="018f8-388">**统计度量提供方模板**</span><span class="sxs-lookup"><span data-stu-id="018f8-388">**Statistical measure provider templates**</span></span>
 
-| 姓名  | 职能 | 源表  | 总计字段      | 日期字段     |
+| <span data-ttu-id="018f8-389">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-389">Name</span></span>  | <span data-ttu-id="018f8-390">职能</span><span class="sxs-lookup"><span data-stu-id="018f8-390">Function</span></span> | <span data-ttu-id="018f8-391">源表</span><span class="sxs-lookup"><span data-stu-id="018f8-391">Source table</span></span>  | <span data-ttu-id="018f8-392">总计字段</span><span class="sxs-lookup"><span data-stu-id="018f8-392">Sum field</span></span>      | <span data-ttu-id="018f8-393">日期字段</span><span class="sxs-lookup"><span data-stu-id="018f8-393">Date field</span></span>     |
 |-------|----------|---------------|----------------|----------------|
-| FTE 的 | 盘点    | HcmEmployment | 不适用 | 不适用 |
+| <span data-ttu-id="018f8-394">FTE 的</span><span class="sxs-lookup"><span data-stu-id="018f8-394">FTE’s</span></span> | <span data-ttu-id="018f8-395">盘点</span><span class="sxs-lookup"><span data-stu-id="018f8-395">Count</span></span>    | <span data-ttu-id="018f8-396">HcmEmployment</span><span class="sxs-lookup"><span data-stu-id="018f8-396">HcmEmployment</span></span> | <span data-ttu-id="018f8-397">不适用</span><span class="sxs-lookup"><span data-stu-id="018f8-397">Not applicable</span></span> | <span data-ttu-id="018f8-398">不适用</span><span class="sxs-lookup"><span data-stu-id="018f8-398">Not applicable</span></span> |
 
-处理统计度量源数据后，将在成本核算中创建以下条目。
+<span data-ttu-id="018f8-399">处理统计度量源数据后，将在成本核算中创建以下条目。</span><span class="sxs-lookup"><span data-stu-id="018f8-399">After the statistical measure source data is processed, the following entries will be created in Cost accounting.</span></span>
 
-**统计条目**
+<span data-ttu-id="018f8-400">**统计条目**</span><span class="sxs-lookup"><span data-stu-id="018f8-400">**Statistical entries**</span></span>
 
-| 成本对象 | 说明      | 会计日期 | 统计维度成员 | 说明         | 度量值 |
+| <span data-ttu-id="018f8-401">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-401">Cost object</span></span> | <span data-ttu-id="018f8-402">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-402">Description</span></span>      | <span data-ttu-id="018f8-403">会计日期</span><span class="sxs-lookup"><span data-stu-id="018f8-403">Accounting date</span></span> | <span data-ttu-id="018f8-404">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="018f8-404">Statistical dimension member</span></span> | <span data-ttu-id="018f8-405">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-405">Description</span></span>         | <span data-ttu-id="018f8-406">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-406">Magnitude</span></span> |
 |-------------|------------------|-----------------|------------------------------|---------------------|-----------|
-| CC001       | HR               | 31-01-2017      | FTE 的                        | 全职员工 | 1.00      |
-| CC002       | FI               | 31-01-2017      | FTE 的                        | 全职员工 | 2.00      |
-| CC003       | IT               | 31-01-2017      | FTE 的                        | 全职员工 | 2.00      |
+| <span data-ttu-id="018f8-407">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-407">CC001</span></span>       | <span data-ttu-id="018f8-408">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-408">HR</span></span>               | <span data-ttu-id="018f8-409">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-409">31-01-2017</span></span>      | <span data-ttu-id="018f8-410">FTE 的</span><span class="sxs-lookup"><span data-stu-id="018f8-410">FTE’s</span></span>                        | <span data-ttu-id="018f8-411">全职员工</span><span class="sxs-lookup"><span data-stu-id="018f8-411">Full time employees</span></span> | <span data-ttu-id="018f8-412">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-412">1.00</span></span>      |
+| <span data-ttu-id="018f8-413">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-413">CC002</span></span>       | <span data-ttu-id="018f8-414">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-414">FI</span></span>               | <span data-ttu-id="018f8-415">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-415">31-01-2017</span></span>      | <span data-ttu-id="018f8-416">FTE 的</span><span class="sxs-lookup"><span data-stu-id="018f8-416">FTE’s</span></span>                        | <span data-ttu-id="018f8-417">全职员工</span><span class="sxs-lookup"><span data-stu-id="018f8-417">Full time employees</span></span> | <span data-ttu-id="018f8-418">2.00</span><span class="sxs-lookup"><span data-stu-id="018f8-418">2.00</span></span>      |
+| <span data-ttu-id="018f8-419">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-419">CC003</span></span>       | <span data-ttu-id="018f8-420">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-420">IT</span></span>               | <span data-ttu-id="018f8-421">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-421">31-01-2017</span></span>      | <span data-ttu-id="018f8-422">FTE 的</span><span class="sxs-lookup"><span data-stu-id="018f8-422">FTE’s</span></span>                        | <span data-ttu-id="018f8-423">全职员工</span><span class="sxs-lookup"><span data-stu-id="018f8-423">Full time employees</span></span> | <span data-ttu-id="018f8-424">2.00</span><span class="sxs-lookup"><span data-stu-id="018f8-424">2.00</span></span>      |
 
-此示例说明是否将 FTE 的预定义维度成员分配基础指定为其中的分配基础的成本分配规则。
+<span data-ttu-id="018f8-425">此示例说明是否将 FTE 的预定义维度成员分配基础指定为其中的分配基础的成本分配规则。</span><span class="sxs-lookup"><span data-stu-id="018f8-425">Here is an example of a cost distribution rule if the FTE’s predefined dimension member allocation basis is assigned as the allocation base in it.</span></span>
 
-| 成本对象 | 说明  | 度量值 | 分配系数 |
+| <span data-ttu-id="018f8-426">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-426">Cost object</span></span> | <span data-ttu-id="018f8-427">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-427">Description</span></span>  | <span data-ttu-id="018f8-428">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-428">Magnitude</span></span> | <span data-ttu-id="018f8-429">分配系数</span><span class="sxs-lookup"><span data-stu-id="018f8-429">Allocation factor</span></span> |
 |-------------|------|-----------|-------------------|
-| CC001       | HR   | 1.00      | (1/5) × 金额    |
-| CC002       | FI   | 2.00      | (2/5) × 金额    |
-| CC003       | IT   | 2.00      | (2/5) × 金额    |
+| <span data-ttu-id="018f8-430">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-430">CC001</span></span>       | <span data-ttu-id="018f8-431">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-431">HR</span></span>   | <span data-ttu-id="018f8-432">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-432">1.00</span></span>      | <span data-ttu-id="018f8-433">(1/5) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-433">(1/5) × Amount</span></span>    |
+| <span data-ttu-id="018f8-434">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-434">CC002</span></span>       | <span data-ttu-id="018f8-435">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-435">FI</span></span>   | <span data-ttu-id="018f8-436">2.00</span><span class="sxs-lookup"><span data-stu-id="018f8-436">2.00</span></span>      | <span data-ttu-id="018f8-437">(2/5) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-437">(2/5) × Amount</span></span>    |
+| <span data-ttu-id="018f8-438">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-438">CC003</span></span>       | <span data-ttu-id="018f8-439">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-439">IT</span></span>   | <span data-ttu-id="018f8-440">2.00</span><span class="sxs-lookup"><span data-stu-id="018f8-440">2.00</span></span>      | <span data-ttu-id="018f8-441">(2/5) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-441">(2/5) × Amount</span></span>    |
 
-您可以使用导入的统计度量数据实体将统计度量导入到成本核算中。 您还可以使用数据管理导入/导出工具。 在 Excel 中，用电量记录如下。
+<span data-ttu-id="018f8-442">您可以使用导入的统计度量数据实体将统计度量导入到成本核算中。</span><span class="sxs-lookup"><span data-stu-id="018f8-442">You can use the Imported statistical measures data entity to import statistical measures into Cost accounting.</span></span> <span data-ttu-id="018f8-443">您还可以使用数据管理导入/导出工具。</span><span class="sxs-lookup"><span data-stu-id="018f8-443">You can also use the Data management import/export tool.</span></span> <span data-ttu-id="018f8-444">在 Excel 中，用电量记录如下。</span><span class="sxs-lookup"><span data-stu-id="018f8-444">In Excel, the consumption of electricity is recorded as follows.</span></span>
 
-| 会计日期 | 维度成员 | 度量值 | 源标识符 |
+| <span data-ttu-id="018f8-445">会计日期</span><span class="sxs-lookup"><span data-stu-id="018f8-445">Accounting date</span></span> | <span data-ttu-id="018f8-446">维度成员</span><span class="sxs-lookup"><span data-stu-id="018f8-446">Dimension member</span></span> | <span data-ttu-id="018f8-447">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-447">Magnitude</span></span> | <span data-ttu-id="018f8-448">源标识符</span><span class="sxs-lookup"><span data-stu-id="018f8-448">Source identifier</span></span> |
 |-----------------|------------------|-----------|-------------------|
-| 31-01-2017      | CC001            | 2,450.00  | 电       |
-| 31-01-2017      | CC002            | 4,100.00  | 电       |
-| 31-01-2017      | CC003            | 15,000.00 | 电       |
+| <span data-ttu-id="018f8-449">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-449">31-01-2017</span></span>      | <span data-ttu-id="018f8-450">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-450">CC001</span></span>            | <span data-ttu-id="018f8-451">2,450.00</span><span class="sxs-lookup"><span data-stu-id="018f8-451">2,450.00</span></span>  | <span data-ttu-id="018f8-452">电</span><span class="sxs-lookup"><span data-stu-id="018f8-452">Electricity</span></span>       |
+| <span data-ttu-id="018f8-453">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-453">31-01-2017</span></span>      | <span data-ttu-id="018f8-454">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-454">CC002</span></span>            | <span data-ttu-id="018f8-455">4,100.00</span><span class="sxs-lookup"><span data-stu-id="018f8-455">4,100.00</span></span>  | <span data-ttu-id="018f8-456">电</span><span class="sxs-lookup"><span data-stu-id="018f8-456">Electricity</span></span>       |
+| <span data-ttu-id="018f8-457">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-457">31-01-2017</span></span>      | <span data-ttu-id="018f8-458">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-458">CC003</span></span>            | <span data-ttu-id="018f8-459">15,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-459">15,000.00</span></span> | <span data-ttu-id="018f8-460">电</span><span class="sxs-lookup"><span data-stu-id="018f8-460">Electricity</span></span>       |
 
-处理统计度量源数据后，将在成本核算中创建以下条目。
+<span data-ttu-id="018f8-461">处理统计度量源数据后，将在成本核算中创建以下条目。</span><span class="sxs-lookup"><span data-stu-id="018f8-461">After the statistical measure source data is processed, the following entries will be created in Cost accounting.</span></span>
 
-**统计条目**
+<span data-ttu-id="018f8-462">**统计条目**</span><span class="sxs-lookup"><span data-stu-id="018f8-462">**Statistical entries**</span></span>
 
-| 成本对象 |    | 会计日期 | 统计维度成员 |    说明          | 度量值 |
+| <span data-ttu-id="018f8-463">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-463">Cost object</span></span> |    | <span data-ttu-id="018f8-464">会计日期</span><span class="sxs-lookup"><span data-stu-id="018f8-464">Accounting date</span></span> | <span data-ttu-id="018f8-465">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="018f8-465">Statistical dimension member</span></span> |    <span data-ttu-id="018f8-466">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-466">Description</span></span>          | <span data-ttu-id="018f8-467">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-467">Magnitude</span></span> |
 |-------------|----|-----------------|------------------------------|-------------------------|-----------|
-| CC001       | HR | 31-01-2017      | 电                  | 用电量 | 2,450.00  |
-| CC002       | FI | 31-01-2017      | 电                  | 用电量 | 4,100.00  |
-| CC003       | IT | 31-01-2017      | 电                  | 用电量 | 15,000.00 |
+| <span data-ttu-id="018f8-468">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-468">CC001</span></span>       | <span data-ttu-id="018f8-469">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-469">HR</span></span> | <span data-ttu-id="018f8-470">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-470">31-01-2017</span></span>      | <span data-ttu-id="018f8-471">电</span><span class="sxs-lookup"><span data-stu-id="018f8-471">Electricity</span></span>                  | <span data-ttu-id="018f8-472">用电量</span><span class="sxs-lookup"><span data-stu-id="018f8-472">Electricity consumption</span></span> | <span data-ttu-id="018f8-473">2,450.00</span><span class="sxs-lookup"><span data-stu-id="018f8-473">2,450.00</span></span>  |
+| <span data-ttu-id="018f8-474">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-474">CC002</span></span>       | <span data-ttu-id="018f8-475">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-475">FI</span></span> | <span data-ttu-id="018f8-476">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-476">31-01-2017</span></span>      | <span data-ttu-id="018f8-477">电</span><span class="sxs-lookup"><span data-stu-id="018f8-477">Electricity</span></span>                  | <span data-ttu-id="018f8-478">用电量</span><span class="sxs-lookup"><span data-stu-id="018f8-478">Electricity consumption</span></span> | <span data-ttu-id="018f8-479">4,100.00</span><span class="sxs-lookup"><span data-stu-id="018f8-479">4,100.00</span></span>  |
+| <span data-ttu-id="018f8-480">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-480">CC003</span></span>       | <span data-ttu-id="018f8-481">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-481">IT</span></span> | <span data-ttu-id="018f8-482">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-482">31-01-2017</span></span>      | <span data-ttu-id="018f8-483">电</span><span class="sxs-lookup"><span data-stu-id="018f8-483">Electricity</span></span>                  | <span data-ttu-id="018f8-484">用电量</span><span class="sxs-lookup"><span data-stu-id="018f8-484">Electricity consumption</span></span> | <span data-ttu-id="018f8-485">15,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-485">15,000.00</span></span> |
 
-此示例说明是否将电量的预定义维度成员分配基础指定为其中的分配基础的成本分配规则。
+<span data-ttu-id="018f8-486">此示例说明是否将电量的预定义维度成员分配基础指定为其中的分配基础的成本分配规则。</span><span class="sxs-lookup"><span data-stu-id="018f8-486">Here is an example of a cost distribution rule if the Electricity predefined dimension member allocation basis is assigned as the allocation base in it.</span></span>
 
-| 成本对象 | 说明  | 度量值 | 分配系数          |
+| <span data-ttu-id="018f8-487">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-487">Cost object</span></span> | <span data-ttu-id="018f8-488">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-488">Description</span></span>  | <span data-ttu-id="018f8-489">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-489">Magnitude</span></span> | <span data-ttu-id="018f8-490">分配系数</span><span class="sxs-lookup"><span data-stu-id="018f8-490">Allocation factor</span></span>          |
 |-------------|------|-----------|----------------------------|
-| CC001       | HR   | 2,450.00  | (2,450 ÷ 21,550) × 金额  |
-| CC002       | FI   | 4,100.00  | (4,100 ÷ 21,550) × 金额  |
-| CC003       | IT   | 15,000.00 | (15,000 ÷ 21,550) × 金额 |
+| <span data-ttu-id="018f8-491">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-491">CC001</span></span>       | <span data-ttu-id="018f8-492">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-492">HR</span></span>   | <span data-ttu-id="018f8-493">2,450.00</span><span class="sxs-lookup"><span data-stu-id="018f8-493">2,450.00</span></span>  | <span data-ttu-id="018f8-494">(2,450 ÷ 21,550) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-494">(2,450 ÷ 21,550) × Amount</span></span>  |
+| <span data-ttu-id="018f8-495">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-495">CC002</span></span>       | <span data-ttu-id="018f8-496">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-496">FI</span></span>   | <span data-ttu-id="018f8-497">4,100.00</span><span class="sxs-lookup"><span data-stu-id="018f8-497">4,100.00</span></span>  | <span data-ttu-id="018f8-498">(4,100 ÷ 21,550) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-498">(4,100 ÷ 21,550) × Amount</span></span>  |
+| <span data-ttu-id="018f8-499">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-499">CC003</span></span>       | <span data-ttu-id="018f8-500">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-500">IT</span></span>   | <span data-ttu-id="018f8-501">15,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-501">15,000.00</span></span> | <span data-ttu-id="018f8-502">(15,000 ÷ 21,550) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-502">(15,000 ÷ 21,550) × Amount</span></span> |
 
-## <a name="hierarchy-allocation-bases"></a>层次结构分配基础
+## <a name="hierarchy-allocation-bases"></a><span data-ttu-id="018f8-503">层次结构分配基础</span><span class="sxs-lookup"><span data-stu-id="018f8-503">Hierarchy allocation bases</span></span>
 
-成本会计员可以通过将成本对象维度层次结构节点应用到现有分配基础的方式手动创建层次结构基础分配。 这样，您可以限制原始预定义维度成员分配基础的范围。 预定义维度成员分配基础可用于创建若干个层次结构分配基础。 可以在成本对象维度层次结构中维护与层次结构分配基础关联的范围。
+<span data-ttu-id="018f8-504">成本会计员可以通过将成本对象维度层次结构节点应用到现有分配基础的方式手动创建层次结构基础分配。</span><span class="sxs-lookup"><span data-stu-id="018f8-504">Cost accountants can manually create the hierarchy allocation bases by applying a cost object dimension hierarchy node to an existing allocation base.</span></span> <span data-ttu-id="018f8-505">这样，您可以限制原始预定义维度成员分配基础的范围。</span><span class="sxs-lookup"><span data-stu-id="018f8-505">In this way, you can limit the range of the original predefined dimension member allocation basis.</span></span> <span data-ttu-id="018f8-506">预定义维度成员分配基础可用于创建若干个层次结构分配基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-506">One predefined dimension member allocation basis can be used to create several hierarchy allocation bases.</span></span> <span data-ttu-id="018f8-507">可以在成本对象维度层次结构中维护与层次结构分配基础关联的范围。</span><span class="sxs-lookup"><span data-stu-id="018f8-507">Ranges can be maintained in the cost object dimension hierarchy that is associated with the hierarchy allocation bases.</span></span>
 
-### <a name="example-hierarchy-allocation-bases-that-are-based-on-full-time-employees-in-the-organization"></a>示例：基于组织中的全职员工的层次结构分配基础。
-此示例说明了在创建后可以用来描述简化组织的成本对象维度层次结构。
+### <a name="example-hierarchy-allocation-bases-that-are-based-on-full-time-employees-in-the-organization"></a><span data-ttu-id="018f8-508">示例：基于组织中的全职员工的层次结构分配基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-508">Example: Hierarchy allocation bases that are based on full-time employees in the organization</span></span>
+<span data-ttu-id="018f8-509">此示例说明了在创建后可以用来描述简化组织的成本对象维度层次结构。</span><span class="sxs-lookup"><span data-stu-id="018f8-509">Here is an example of a cost object dimension hierarchy that can be created to describe a simplified organization.</span></span>
 
-| 层次结构名称 | 节点级别 0 | 节点级别 1 | 节点级别 2 | 维度成员 |
+| <span data-ttu-id="018f8-510">层次结构名称</span><span class="sxs-lookup"><span data-stu-id="018f8-510">Hierarchy name</span></span> | <span data-ttu-id="018f8-511">节点级别 0</span><span class="sxs-lookup"><span data-stu-id="018f8-511">Node level 0</span></span> | <span data-ttu-id="018f8-512">节点级别 1</span><span class="sxs-lookup"><span data-stu-id="018f8-512">Node level 1</span></span> | <span data-ttu-id="018f8-513">节点级别 2</span><span class="sxs-lookup"><span data-stu-id="018f8-513">Node level 2</span></span> | <span data-ttu-id="018f8-514">维度成员</span><span class="sxs-lookup"><span data-stu-id="018f8-514">Dimension members</span></span> |
 |----------------|--------------|--------------|--------------|-------------------|
-| 组织   | 首席执行官          | 首席财务官          | FICO         | CC001             |
-| 组织   | 首席执行官          | 首席财务官          | HR           | CC002             |
-| 组织   | 首席执行官          | 产业组织大会          | IT           | CC003             |
+| <span data-ttu-id="018f8-515">组织</span><span class="sxs-lookup"><span data-stu-id="018f8-515">Organization</span></span>   | <span data-ttu-id="018f8-516">首席执行官</span><span class="sxs-lookup"><span data-stu-id="018f8-516">CEO</span></span>          | <span data-ttu-id="018f8-517">首席财务官</span><span class="sxs-lookup"><span data-stu-id="018f8-517">CFO</span></span>          | <span data-ttu-id="018f8-518">FICO</span><span class="sxs-lookup"><span data-stu-id="018f8-518">FICO</span></span>         | <span data-ttu-id="018f8-519">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-519">CC001</span></span>             |
+| <span data-ttu-id="018f8-520">组织</span><span class="sxs-lookup"><span data-stu-id="018f8-520">Organization</span></span>   | <span data-ttu-id="018f8-521">首席执行官</span><span class="sxs-lookup"><span data-stu-id="018f8-521">CEO</span></span>          | <span data-ttu-id="018f8-522">首席财务官</span><span class="sxs-lookup"><span data-stu-id="018f8-522">CFO</span></span>          | <span data-ttu-id="018f8-523">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-523">HR</span></span>           | <span data-ttu-id="018f8-524">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-524">CC002</span></span>             |
+| <span data-ttu-id="018f8-525">组织</span><span class="sxs-lookup"><span data-stu-id="018f8-525">Organization</span></span>   | <span data-ttu-id="018f8-526">首席执行官</span><span class="sxs-lookup"><span data-stu-id="018f8-526">CEO</span></span>          | <span data-ttu-id="018f8-527">产业组织大会</span><span class="sxs-lookup"><span data-stu-id="018f8-527">CIO</span></span>          | <span data-ttu-id="018f8-528">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-528">IT</span></span>           | <span data-ttu-id="018f8-529">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-529">CC003</span></span>             |
 
-在前一部分创建的 FTE 的预定义维度成员分配基础包含以下条目。
+<span data-ttu-id="018f8-530">在前一部分创建的 FTE 的预定义维度成员分配基础包含以下条目。</span><span class="sxs-lookup"><span data-stu-id="018f8-530">The FTE’s predefined dimension member allocation basis that was created in the previous section holds the following entries.</span></span>
 
-**统计条目**
+<span data-ttu-id="018f8-531">**统计条目**</span><span class="sxs-lookup"><span data-stu-id="018f8-531">**Statistical entries**</span></span>
 
-| 成本对象 | 说明  | 会计日期 | 统计维度成员 | 说明 | 度量值 |
+| <span data-ttu-id="018f8-532">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-532">Cost object</span></span> | <span data-ttu-id="018f8-533">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-533">Description</span></span>  | <span data-ttu-id="018f8-534">会计日期</span><span class="sxs-lookup"><span data-stu-id="018f8-534">Accounting date</span></span> | <span data-ttu-id="018f8-535">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="018f8-535">Statistical dimension member</span></span> | <span data-ttu-id="018f8-536">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-536">Description</span></span> | <span data-ttu-id="018f8-537">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-537">Magnitude</span></span> |
 |-------------|------|-----------------|------------------------------|---------------------|-----------|
-| CC001       | HR   | 31-01-2017      | FTE 的                        | 全职员工 | 1.00      |
-| CC002       | FI   | 31-01-2017      | FTE 的                        | 全职员工 | 2.00      |
-| CC003       | IT   | 31-01-2017      | FTE 的                        | 全职员工 | 2.00      |
+| <span data-ttu-id="018f8-538">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-538">CC001</span></span>       | <span data-ttu-id="018f8-539">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-539">HR</span></span>   | <span data-ttu-id="018f8-540">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-540">31-01-2017</span></span>      | <span data-ttu-id="018f8-541">FTE 的</span><span class="sxs-lookup"><span data-stu-id="018f8-541">FTE’s</span></span>                        | <span data-ttu-id="018f8-542">全职员工</span><span class="sxs-lookup"><span data-stu-id="018f8-542">Full time employees</span></span> | <span data-ttu-id="018f8-543">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-543">1.00</span></span>      |
+| <span data-ttu-id="018f8-544">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-544">CC002</span></span>       | <span data-ttu-id="018f8-545">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-545">FI</span></span>   | <span data-ttu-id="018f8-546">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-546">31-01-2017</span></span>      | <span data-ttu-id="018f8-547">FTE 的</span><span class="sxs-lookup"><span data-stu-id="018f8-547">FTE’s</span></span>                        | <span data-ttu-id="018f8-548">全职员工</span><span class="sxs-lookup"><span data-stu-id="018f8-548">Full time employees</span></span> | <span data-ttu-id="018f8-549">2.00</span><span class="sxs-lookup"><span data-stu-id="018f8-549">2.00</span></span>      |
+| <span data-ttu-id="018f8-550">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-550">CC003</span></span>       | <span data-ttu-id="018f8-551">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-551">IT</span></span>   | <span data-ttu-id="018f8-552">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-552">31-01-2017</span></span>      | <span data-ttu-id="018f8-553">FTE 的</span><span class="sxs-lookup"><span data-stu-id="018f8-553">FTE’s</span></span>                        | <span data-ttu-id="018f8-554">全职员工</span><span class="sxs-lookup"><span data-stu-id="018f8-554">Full time employees</span></span> | <span data-ttu-id="018f8-555">2.00</span><span class="sxs-lookup"><span data-stu-id="018f8-555">2.00</span></span>      |
 
-必须在报告至组织的首席财务官 (CFO) 的成本中心之间分配成本。 已确认正确的分配比例是各成本中心的全职员工 (FTE) 的数量。
+<span data-ttu-id="018f8-556">必须在报告至组织的首席财务官 (CFO) 的成本中心之间分配成本。</span><span class="sxs-lookup"><span data-stu-id="018f8-556">A cost must be distributed between cost centers that report to the organization's chief financial officer (CFO).</span></span> <span data-ttu-id="018f8-557">已确认正确的分配比例是各成本中心的全职员工 (FTE) 的数量。</span><span class="sxs-lookup"><span data-stu-id="018f8-557">It's acknowledged that the correct allocation ratio is the number of full-time employees (FTEs) by cost center.</span></span>
 
-**层次结构分配基础**
+<span data-ttu-id="018f8-558">**层次结构分配基础**</span><span class="sxs-lookup"><span data-stu-id="018f8-558">**Hierarchy allocation bases**</span></span>
 
-| 姓名                  | 分摊基础 | 成本对象维度层次结构 | 成本对象维度层次结构节点 |
+| <span data-ttu-id="018f8-559">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-559">Name</span></span>                  | <span data-ttu-id="018f8-560">分摊基础</span><span class="sxs-lookup"><span data-stu-id="018f8-560">Allocation base</span></span> | <span data-ttu-id="018f8-561">成本对象维度层次结构</span><span class="sxs-lookup"><span data-stu-id="018f8-561">Cost object dimension hierarchy</span></span> | <span data-ttu-id="018f8-562">成本对象维度层次结构节点</span><span class="sxs-lookup"><span data-stu-id="018f8-562">Cost object dimension hierarchy node</span></span> |
 |-----------------------|-----------------|---------------------------------|--------------------------------------|
-| CFO 中的 FTE 数量 | FTE 的           | 组织                    | 首席财务官                                  |
+| <span data-ttu-id="018f8-563">CFO 中的 FTE 数量</span><span class="sxs-lookup"><span data-stu-id="018f8-563">Number of FTEs in CFO</span></span> | <span data-ttu-id="018f8-564">FTE 的</span><span class="sxs-lookup"><span data-stu-id="018f8-564">FTE’s</span></span>           | <span data-ttu-id="018f8-565">组织</span><span class="sxs-lookup"><span data-stu-id="018f8-565">Organization</span></span>                    | <span data-ttu-id="018f8-566">首席财务官</span><span class="sxs-lookup"><span data-stu-id="018f8-566">CFO</span></span>                                  |
 
-预览功能可以基于系统中的统计条目验证创建的层次结构分配基础。
+<span data-ttu-id="018f8-567">预览功能可以基于系统中的统计条目验证创建的层次结构分配基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-567">A Preview function lets you validate the hierarchy allocation basis that is created, based on statistical entries in the system.</span></span>
 
-**分配基础详细信息**
+<span data-ttu-id="018f8-568">**分配基础详细信息**</span><span class="sxs-lookup"><span data-stu-id="018f8-568">**Allocation base details**</span></span>
 
-| 成本对象 | 说明  |  度量值 |
+| <span data-ttu-id="018f8-569">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-569">Cost object</span></span> | <span data-ttu-id="018f8-570">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-570">Description</span></span>  |  <span data-ttu-id="018f8-571">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-571">Magnitude</span></span> |
 |-------------|------|------------|
-| CC001       | HR   | 1.00       |
-| CC002       | FI   | 2.00       |
+| <span data-ttu-id="018f8-572">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-572">CC001</span></span>       | <span data-ttu-id="018f8-573">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-573">HR</span></span>   | <span data-ttu-id="018f8-574">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-574">1.00</span></span>       |
+| <span data-ttu-id="018f8-575">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-575">CC002</span></span>       | <span data-ttu-id="018f8-576">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-576">FI</span></span>   | <span data-ttu-id="018f8-577">2.00</span><span class="sxs-lookup"><span data-stu-id="018f8-577">2.00</span></span>       |
 
-此示例说明是否将 CFO 层次结构中的 FTE 数量分配基础指定为其中的分配基础的成本分配规则。
+<span data-ttu-id="018f8-578">此示例说明是否将 CFO 层次结构中的 FTE 数量分配基础指定为其中的分配基础的成本分配规则。</span><span class="sxs-lookup"><span data-stu-id="018f8-578">Here is an example of a cost distribution rule if the Number of FTEs in CFO hierarchy allocation basis is assigned as the allocation base in it.</span></span>
 
-| 成本对象 | 说明  | 度量值 | 分配系数 |
+| <span data-ttu-id="018f8-579">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-579">Cost object</span></span> | <span data-ttu-id="018f8-580">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-580">Description</span></span>  | <span data-ttu-id="018f8-581">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-581">Magnitude</span></span> | <span data-ttu-id="018f8-582">分配系数</span><span class="sxs-lookup"><span data-stu-id="018f8-582">Allocation factor</span></span> |
 |-------------|------|-----------|-------------------|
-| CC001       | HR   | 1.00      | (1/3) × 金额    |
-| CC002       | FI   | 2.00      | (2/3) × 金额    |
+| <span data-ttu-id="018f8-583">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-583">CC001</span></span>       | <span data-ttu-id="018f8-584">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-584">HR</span></span>   | <span data-ttu-id="018f8-585">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-585">1.00</span></span>      | <span data-ttu-id="018f8-586">(1/3) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-586">(1/3) × Amount</span></span>    |
+| <span data-ttu-id="018f8-587">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-587">CC002</span></span>       | <span data-ttu-id="018f8-588">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-588">FI</span></span>   | <span data-ttu-id="018f8-589">2.00</span><span class="sxs-lookup"><span data-stu-id="018f8-589">2.00</span></span>      | <span data-ttu-id="018f8-590">(2/3) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-590">(2/3) × Amount</span></span>    |
 
-## <a name="formula-allocation-bases"></a>公式分配基础
+## <a name="formula-allocation-bases"></a><span data-ttu-id="018f8-591">公式分配基础</span><span class="sxs-lookup"><span data-stu-id="018f8-591">Formula allocation bases</span></span>
 
-公式分配基础可以定义高级公式以实现正确的分配基础。 您可以手动创建公式分配基础。
+<span data-ttu-id="018f8-592">公式分配基础可以定义高级公式以实现正确的分配基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-592">Formula allocation bases let you define advanced formulas to achieve the correct allocation basis.</span></span> <span data-ttu-id="018f8-593">您可以手动创建公式分配基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-593">You can manually create formula allocation bases.</span></span>
 
-在创建公式分配基础时，您选择应作为公式基础的统计维度和成本元素维度。 来自以前选择的维度的所有分配基础都可以在公式分配基础中使用。
+<span data-ttu-id="018f8-594">在创建公式分配基础时，您选择应作为公式基础的统计维度和成本元素维度。</span><span class="sxs-lookup"><span data-stu-id="018f8-594">When you create a formula allocation base, you select which statistical dimension and cost element dimension should be the basis for the formula.</span></span> <span data-ttu-id="018f8-595">来自以前选择的维度的所有分配基础都可以在公式分配基础中使用。</span><span class="sxs-lookup"><span data-stu-id="018f8-595">All allocation bases that come from the previously selected dimensions can be used in a formula allocation base.</span></span>
 
 > [!NOTE]
-> 以前定义的公式分配基础可以用于定义新的公式分配基础。
+> <span data-ttu-id="018f8-596">以前定义的公式分配基础可以用于定义新的公式分配基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-596">Previously defined formula allocation bases can be used to define a new formula allocation base.</span></span>
 
-在公式分配基础系数中创建别名，并将其与一个分配基础或常量相关联。 然后使用别名定义公式。
+<span data-ttu-id="018f8-597">在公式分配基础系数中创建别名，并将其与一个分配基础或常量相关联。</span><span class="sxs-lookup"><span data-stu-id="018f8-597">In formula allocation base factors, you create an alias, and associate it with either an allocation base or a constant.</span></span> <span data-ttu-id="018f8-598">然后使用别名定义公式。</span><span class="sxs-lookup"><span data-stu-id="018f8-598">The aliases are then used to define the formula.</span></span>
 
-可以使用以下运算符定义您的公式。
+<span data-ttu-id="018f8-599">可以使用以下运算符定义您的公式。</span><span class="sxs-lookup"><span data-stu-id="018f8-599">You can use the following operators to define your formula.</span></span>
 
-| 符号 | 文本           |
+| <span data-ttu-id="018f8-600">符号</span><span class="sxs-lookup"><span data-stu-id="018f8-600">Symbols</span></span> | <span data-ttu-id="018f8-601">文本</span><span class="sxs-lookup"><span data-stu-id="018f8-601">Text</span></span>           |
 |---------|----------------|
-| ( )     | 括号    |
-| \<      | 小于   |
-| \>      | 大于    |
-| +       | 增加额       |
-| –       | 减    |
-| \*      | 乘 |
+| <span data-ttu-id="018f8-602">( )</span><span class="sxs-lookup"><span data-stu-id="018f8-602">( )</span></span>     | <span data-ttu-id="018f8-603">括号</span><span class="sxs-lookup"><span data-stu-id="018f8-603">Parentheses</span></span>    |
+| \<      | <span data-ttu-id="018f8-604">小于</span><span class="sxs-lookup"><span data-stu-id="018f8-604">Smaller than</span></span>   |
+| \>      | <span data-ttu-id="018f8-605">大于</span><span class="sxs-lookup"><span data-stu-id="018f8-605">Larger than</span></span>    |
+| +       | <span data-ttu-id="018f8-606">增加额</span><span class="sxs-lookup"><span data-stu-id="018f8-606">Addition</span></span>       |
+| <span data-ttu-id="018f8-607">–</span><span class="sxs-lookup"><span data-stu-id="018f8-607">–</span></span>       | <span data-ttu-id="018f8-608">减</span><span class="sxs-lookup"><span data-stu-id="018f8-608">Subtraction</span></span>    |
+| \*      | <span data-ttu-id="018f8-609">乘</span><span class="sxs-lookup"><span data-stu-id="018f8-609">Multiplication</span></span> |
 
-不支持传统的 **IF** 语句。 但是，您可以创建语句并验证它们是否正确。
+<span data-ttu-id="018f8-610">不支持传统的 **IF** 语句。</span><span class="sxs-lookup"><span data-stu-id="018f8-610">Traditional **IF** statements aren't supported.</span></span> <span data-ttu-id="018f8-611">但是，您可以创建语句并验证它们是否正确。</span><span class="sxs-lookup"><span data-stu-id="018f8-611">However, you can create statements and validate whether they are true.</span></span>
 
-| 语句 | 验证 | 结果 |
+| <span data-ttu-id="018f8-612">语句</span><span class="sxs-lookup"><span data-stu-id="018f8-612">Statement</span></span> | <span data-ttu-id="018f8-613">验证</span><span class="sxs-lookup"><span data-stu-id="018f8-613">Validation</span></span> | <span data-ttu-id="018f8-614">结果</span><span class="sxs-lookup"><span data-stu-id="018f8-614">Result</span></span> |
 |-----------|------------|--------|
-| a \> b    | TRUE       | 1      |
-| a \> b    | FALSE      | 0      |
+| <span data-ttu-id="018f8-615">a \> b</span><span class="sxs-lookup"><span data-stu-id="018f8-615">a \> b</span></span>    | <span data-ttu-id="018f8-616">TRUE</span><span class="sxs-lookup"><span data-stu-id="018f8-616">True</span></span>       | <span data-ttu-id="018f8-617">1</span><span class="sxs-lookup"><span data-stu-id="018f8-617">1</span></span>      |
+| <span data-ttu-id="018f8-618">a \> b</span><span class="sxs-lookup"><span data-stu-id="018f8-618">a \> b</span></span>    | <span data-ttu-id="018f8-619">FALSE</span><span class="sxs-lookup"><span data-stu-id="018f8-619">False</span></span>      | <span data-ttu-id="018f8-620">0</span><span class="sxs-lookup"><span data-stu-id="018f8-620">0</span></span>      |
 
-### <a name="example-1-a-simple-formula"></a>示例 1：简单公式
+### <a name="example-1-a-simple-formula"></a><span data-ttu-id="018f8-621">示例 1：简单公式</span><span class="sxs-lookup"><span data-stu-id="018f8-621">Example 1: A simple formula</span></span>
 
-电费帐单通常包括两部分：
+<span data-ttu-id="018f8-622">电费帐单通常包括两部分：</span><span class="sxs-lookup"><span data-stu-id="018f8-622">Electricity bills often consist of two parts:</span></span>
 
-- 连入电网的固定费用
-- 与单位 kWh 消耗量关联的成本
+- <span data-ttu-id="018f8-623">连入电网的固定费用</span><span class="sxs-lookup"><span data-stu-id="018f8-623">A fixed fee for being connected to grid</span></span>
+- <span data-ttu-id="018f8-624">与单位 kWh 消耗量关联的成本</span><span class="sxs-lookup"><span data-stu-id="018f8-624">A cost that is associated with consumption per kWh</span></span>
 
-电预定义维度成员分配基础已定义并包含这些值。
+<span data-ttu-id="018f8-625">电预定义维度成员分配基础已定义并包含这些值。</span><span class="sxs-lookup"><span data-stu-id="018f8-625">The Electricity predefined dimension member allocation basis has already been defined and holds these values.</span></span>
 
-**统计条目**
+<span data-ttu-id="018f8-626">**统计条目**</span><span class="sxs-lookup"><span data-stu-id="018f8-626">**Statistical entries**</span></span>
 
-| 成本对象 | 姓名 | 会计日期 | 统计维度成员 | 说明             | 度量值 |
+| <span data-ttu-id="018f8-627">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-627">Cost object</span></span> | <span data-ttu-id="018f8-628">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-628">Name</span></span> | <span data-ttu-id="018f8-629">会计日期</span><span class="sxs-lookup"><span data-stu-id="018f8-629">Accounting date</span></span> | <span data-ttu-id="018f8-630">统计维度成员</span><span class="sxs-lookup"><span data-stu-id="018f8-630">Statistical dimension member</span></span> | <span data-ttu-id="018f8-631">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-631">Description</span></span>             | <span data-ttu-id="018f8-632">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-632">Magnitude</span></span> |
 |-------------|------|-----------------|------------------------------|-------------------------|-----------|
-| CC001       | HR   | 31-01-2017      | 电                  | 用电量 | 2,450.00  |
-| CC002       | FI   | 31-01-2017      | 电                  | 用电量 | 4,100.00  |
-| CC003       | IT   | 31-01-2017      | 电                  | 用电量 | 15,000.00 |
+| <span data-ttu-id="018f8-633">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-633">CC001</span></span>       | <span data-ttu-id="018f8-634">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-634">HR</span></span>   | <span data-ttu-id="018f8-635">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-635">31-01-2017</span></span>      | <span data-ttu-id="018f8-636">电</span><span class="sxs-lookup"><span data-stu-id="018f8-636">Electricity</span></span>                  | <span data-ttu-id="018f8-637">用电量</span><span class="sxs-lookup"><span data-stu-id="018f8-637">Electricity consumption</span></span> | <span data-ttu-id="018f8-638">2,450.00</span><span class="sxs-lookup"><span data-stu-id="018f8-638">2,450.00</span></span>  |
+| <span data-ttu-id="018f8-639">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-639">CC002</span></span>       | <span data-ttu-id="018f8-640">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-640">FI</span></span>   | <span data-ttu-id="018f8-641">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-641">31-01-2017</span></span>      | <span data-ttu-id="018f8-642">电</span><span class="sxs-lookup"><span data-stu-id="018f8-642">Electricity</span></span>                  | <span data-ttu-id="018f8-643">用电量</span><span class="sxs-lookup"><span data-stu-id="018f8-643">Electricity consumption</span></span> | <span data-ttu-id="018f8-644">4,100.00</span><span class="sxs-lookup"><span data-stu-id="018f8-644">4,100.00</span></span>  |
+| <span data-ttu-id="018f8-645">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-645">CC003</span></span>       | <span data-ttu-id="018f8-646">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-646">IT</span></span>   | <span data-ttu-id="018f8-647">31-01-2017</span><span class="sxs-lookup"><span data-stu-id="018f8-647">31-01-2017</span></span>      | <span data-ttu-id="018f8-648">电</span><span class="sxs-lookup"><span data-stu-id="018f8-648">Electricity</span></span>                  | <span data-ttu-id="018f8-649">用电量</span><span class="sxs-lookup"><span data-stu-id="018f8-649">Electricity consumption</span></span> | <span data-ttu-id="018f8-650">15,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-650">15,000.00</span></span> |
 
-如果固定费用现在必须在使用电的成本对象中平均分摊，则您有两个选项用于分配成本：
+<span data-ttu-id="018f8-651">如果固定费用现在必须在使用电的成本对象中平均分摊，则您有两个选项用于分配成本：</span><span class="sxs-lookup"><span data-stu-id="018f8-651">If the fixed fee must now be evenly spread over cost objects that consume electricity, you have two options for allocating the costs:</span></span>
 
-- 创建新的预定义分配基础“固定电量”，然后对使用电量的每个成本对象应用统计度量 1.00。
-- 创建公式分配基础“固定电量”，利用已经在系统中定义的电量预定义分配基础。 此选项的好处是必须将数据加载到仅一个电量统计维度成员的成本核算。
+- <span data-ttu-id="018f8-652">创建新的预定义分配基础“固定电量”，然后对使用电量的每个成本对象应用统计度量 1.00。</span><span class="sxs-lookup"><span data-stu-id="018f8-652">Create a new predefined allocation base, Electricity fixed, and then apply a statistical measure of 1.00 for each cost object that consumed electricity.</span></span>
+- <span data-ttu-id="018f8-653">创建公式分配基础“固定电量”，利用已经在系统中定义的电量预定义分配基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-653">Create a formula allocation base, Electricity fixed, that takes advantage of the Electricity predefined allocation base that is already defined in the system.</span></span> <span data-ttu-id="018f8-654">此选项的好处是必须将数据加载到仅一个电量统计维度成员的成本核算。</span><span class="sxs-lookup"><span data-stu-id="018f8-654">The benefit of this option is that data must be loaded into Cost accounting for only one Electricity statistical dimension member.</span></span>
 
-**公式分配基础** 
+<span data-ttu-id="018f8-655">**公式分配基础**</span><span class="sxs-lookup"><span data-stu-id="018f8-655">**Formula allocation base**</span></span> 
 
-| 姓名              | 成本元素维度 | 统计维度 | 配方 |
+| <span data-ttu-id="018f8-656">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-656">Name</span></span>              | <span data-ttu-id="018f8-657">成本元素维度</span><span class="sxs-lookup"><span data-stu-id="018f8-657">Cost element dimension</span></span> | <span data-ttu-id="018f8-658">统计维度</span><span class="sxs-lookup"><span data-stu-id="018f8-658">Statistical dimension</span></span> | <span data-ttu-id="018f8-659">配方</span><span class="sxs-lookup"><span data-stu-id="018f8-659">Formula</span></span> |
 |-------------------|------------------------|-----------------------|---------|
-| 固定电量 |                        | 统计元素  |         |
+| <span data-ttu-id="018f8-660">固定电量</span><span class="sxs-lookup"><span data-stu-id="018f8-660">Electricity fixed</span></span> |                        | <span data-ttu-id="018f8-661">统计元素</span><span class="sxs-lookup"><span data-stu-id="018f8-661">Statistical elements</span></span>  |         |
 
-填充**公式**字段之前，您必须指定可在公式中使用的别名。
+<span data-ttu-id="018f8-662">填充**公式**字段之前，您必须指定可在公式中使用的别名。</span><span class="sxs-lookup"><span data-stu-id="018f8-662">Before the **Formula** field can be filled, you must specify the alias that should be used in the formula.</span></span>
 
-**公式分配基础系数**
+<span data-ttu-id="018f8-663">**公式分配基础系数**</span><span class="sxs-lookup"><span data-stu-id="018f8-663">**Formula allocation base factors**</span></span>
 
-| 别名 | 定额 | 分摊基础 |
+| <span data-ttu-id="018f8-664">别名</span><span class="sxs-lookup"><span data-stu-id="018f8-664">Alias</span></span> | <span data-ttu-id="018f8-665">定额</span><span class="sxs-lookup"><span data-stu-id="018f8-665">Constant</span></span> | <span data-ttu-id="018f8-666">分摊基础</span><span class="sxs-lookup"><span data-stu-id="018f8-666">Allocation base</span></span> |
 |-------|----------|-----------------|
-| a     |          | 电     |
-| b     | 0.01     |                 |
+| <span data-ttu-id="018f8-667">a</span><span class="sxs-lookup"><span data-stu-id="018f8-667">a</span></span>     |          | <span data-ttu-id="018f8-668">电</span><span class="sxs-lookup"><span data-stu-id="018f8-668">Electricity</span></span>     |
+| <span data-ttu-id="018f8-669">b</span><span class="sxs-lookup"><span data-stu-id="018f8-669">b</span></span>     | <span data-ttu-id="018f8-670">0.01</span><span class="sxs-lookup"><span data-stu-id="018f8-670">0.01</span></span>     |                 |
 
-请注意，不支持 0（零）作为常量。
+<span data-ttu-id="018f8-671">请注意，不支持 0（零）作为常量。</span><span class="sxs-lookup"><span data-stu-id="018f8-671">Note that 0 (zero) isn't supported as a constant.</span></span>
 
-**公式分配基础**
+<span data-ttu-id="018f8-672">**公式分配基础**</span><span class="sxs-lookup"><span data-stu-id="018f8-672">**Formula allocation base**</span></span>
 
-| 姓名              | 成本元素维度 | 统计维度 | 配方 |
+| <span data-ttu-id="018f8-673">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-673">Name</span></span>              | <span data-ttu-id="018f8-674">成本元素维度</span><span class="sxs-lookup"><span data-stu-id="018f8-674">Cost element dimension</span></span> | <span data-ttu-id="018f8-675">统计维度</span><span class="sxs-lookup"><span data-stu-id="018f8-675">Statistical dimension</span></span> | <span data-ttu-id="018f8-676">配方</span><span class="sxs-lookup"><span data-stu-id="018f8-676">Formula</span></span> |
 |-------------------|------------------------|-----------------------|---------|
-| 固定电量 |                        | 统计元素  | a \> b  |
+| <span data-ttu-id="018f8-677">固定电量</span><span class="sxs-lookup"><span data-stu-id="018f8-677">Electricity fixed</span></span> |                        | <span data-ttu-id="018f8-678">统计元素</span><span class="sxs-lookup"><span data-stu-id="018f8-678">Statistical elements</span></span>  | <span data-ttu-id="018f8-679">a \> b</span><span class="sxs-lookup"><span data-stu-id="018f8-679">a \> b</span></span>  |
 
-预览功能可以基于系统中的统计条目验证创建的公式分配基础。
+<span data-ttu-id="018f8-680">预览功能可以基于系统中的统计条目验证创建的公式分配基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-680">A Preview function lets you validate the formula allocation base that is created, based on statistical entries in the system.</span></span>
 
-**分配基础详细信息**
+<span data-ttu-id="018f8-681">**分配基础详细信息**</span><span class="sxs-lookup"><span data-stu-id="018f8-681">**Allocation base details**</span></span>
 
-| 成本对象 | 说明  | 配方           | 度量值 |
+| <span data-ttu-id="018f8-682">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-682">Cost object</span></span> | <span data-ttu-id="018f8-683">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-683">Description</span></span>  | <span data-ttu-id="018f8-684">配方</span><span class="sxs-lookup"><span data-stu-id="018f8-684">Formula</span></span>           | <span data-ttu-id="018f8-685">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-685">Magnitude</span></span> |
 |-------------|------|-------------------|-----------|
-| CC001       | HR   | 2,450.00 \> 0.01  | 1.00      |
-| CC002       | FI   | 4,100.00 \> 0.01  | 1.00      |
-| CC003       | IT   | 15,000.00 \> 0.01 | 1.00      |
+| <span data-ttu-id="018f8-686">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-686">CC001</span></span>       | <span data-ttu-id="018f8-687">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-687">HR</span></span>   | <span data-ttu-id="018f8-688">2,450.00 \> 0.01</span><span class="sxs-lookup"><span data-stu-id="018f8-688">2,450.00 \> 0.01</span></span>  | <span data-ttu-id="018f8-689">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-689">1.00</span></span>      |
+| <span data-ttu-id="018f8-690">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-690">CC002</span></span>       | <span data-ttu-id="018f8-691">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-691">FI</span></span>   | <span data-ttu-id="018f8-692">4,100.00 \> 0.01</span><span class="sxs-lookup"><span data-stu-id="018f8-692">4,100.00 \> 0.01</span></span>  | <span data-ttu-id="018f8-693">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-693">1.00</span></span>      |
+| <span data-ttu-id="018f8-694">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-694">CC003</span></span>       | <span data-ttu-id="018f8-695">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-695">IT</span></span>   | <span data-ttu-id="018f8-696">15,000.00 \> 0.01</span><span class="sxs-lookup"><span data-stu-id="018f8-696">15,000.00 \> 0.01</span></span> | <span data-ttu-id="018f8-697">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-697">1.00</span></span>      |
 
-此示例说明是否将电量公式分配基础指定为其中的分配基础的成本分配规则。
+<span data-ttu-id="018f8-698">此示例说明是否将电量公式分配基础指定为其中的分配基础的成本分配规则。</span><span class="sxs-lookup"><span data-stu-id="018f8-698">Here is an example of a cost distribution rule if the Electricity formula allocation base is assigned as the allocation base in it.</span></span>
 
-**成本对象度量值分配系数**
+<span data-ttu-id="018f8-699">**成本对象度量值分配系数**</span><span class="sxs-lookup"><span data-stu-id="018f8-699">**Cost object magnitude allocation factor**</span></span>
 
-| 成本对象 | 姓名 | 度量值 |  分配系数 |
+| <span data-ttu-id="018f8-700">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-700">Cost object</span></span> | <span data-ttu-id="018f8-701">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-701">Name</span></span> | <span data-ttu-id="018f8-702">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-702">Magnitude</span></span> |  <span data-ttu-id="018f8-703">分配系数</span><span class="sxs-lookup"><span data-stu-id="018f8-703">Allocation factor</span></span> |
 |-------------|------|-----------|--------------------|
-| CC001       | HR   | 1.00      | (1/3) × 金额     |
-| CC002       | FI   | 1.00      | (1/3) × 金额     |
-| CC003       | IT   | 1.00      | (1/3) × 金额     |
+| <span data-ttu-id="018f8-704">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-704">CC001</span></span>       | <span data-ttu-id="018f8-705">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-705">HR</span></span>   | <span data-ttu-id="018f8-706">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-706">1.00</span></span>      | <span data-ttu-id="018f8-707">(1/3) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-707">(1/3) × Amount</span></span>     |
+| <span data-ttu-id="018f8-708">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-708">CC002</span></span>       | <span data-ttu-id="018f8-709">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-709">FI</span></span>   | <span data-ttu-id="018f8-710">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-710">1.00</span></span>      | <span data-ttu-id="018f8-711">(1/3) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-711">(1/3) × Amount</span></span>     |
+| <span data-ttu-id="018f8-712">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-712">CC003</span></span>       | <span data-ttu-id="018f8-713">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-713">IT</span></span>   | <span data-ttu-id="018f8-714">1.00</span><span class="sxs-lookup"><span data-stu-id="018f8-714">1.00</span></span>      | <span data-ttu-id="018f8-715">(1/3) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-715">(1/3) × Amount</span></span>     |
 
-### <a name="example-2-an-advanced-formula"></a>示例 2：高级公式
-在此示例中，用电成本不应仅遵循实际消耗的电量 (kWh)。 管理层希望纳入用于降低用电量的激励措施。 
+### <a name="example-2-an-advanced-formula"></a><span data-ttu-id="018f8-716">示例 2：高级公式</span><span class="sxs-lookup"><span data-stu-id="018f8-716">Example 2: An advanced formula</span></span>
+<span data-ttu-id="018f8-717">在此示例中，用电成本不应仅遵循实际消耗的电量 (kWh)。</span><span class="sxs-lookup"><span data-stu-id="018f8-717">For this example, the cost of electricity should not just follow the actual electricity that is consumed in kWh.</span></span> <span data-ttu-id="018f8-718">管理层希望纳入用于降低用电量的激励措施。</span><span class="sxs-lookup"><span data-stu-id="018f8-718">Management wants to incorporate incentive for lowering electricity usage.</span></span> 
 
-| 规则              | 比率 | 
+| <span data-ttu-id="018f8-719">规则</span><span class="sxs-lookup"><span data-stu-id="018f8-719">Rule</span></span>              | <span data-ttu-id="018f8-720">比率</span><span class="sxs-lookup"><span data-stu-id="018f8-720">Rate</span></span> | 
 |-------------------|------|
-| a <= 10000,00 kWh | 0.75 |
-| a > 10000,00 kWh  | 1.15 |
+| <span data-ttu-id="018f8-721">a <= 10000,00 kWh</span><span class="sxs-lookup"><span data-stu-id="018f8-721">a <= 10000,00 kWh</span></span> | <span data-ttu-id="018f8-722">0.75</span><span class="sxs-lookup"><span data-stu-id="018f8-722">0.75</span></span> |
+| <span data-ttu-id="018f8-723">a > 10000,00 kWh</span><span class="sxs-lookup"><span data-stu-id="018f8-723">a > 10000,00 kWh</span></span>  | <span data-ttu-id="018f8-724">1.15</span><span class="sxs-lookup"><span data-stu-id="018f8-724">1.15</span></span> |
 
-已创建新的公式分配基础“用电量”。
+<span data-ttu-id="018f8-725">已创建新的公式分配基础“用电量”。</span><span class="sxs-lookup"><span data-stu-id="018f8-725">A new formula allocation base, Electricity usage, is created.</span></span>
 
-**公式分配基础**
+<span data-ttu-id="018f8-726">**公式分配基础**</span><span class="sxs-lookup"><span data-stu-id="018f8-726">**Formula allocation base**</span></span>
 
-| 姓名              | 成本元素维度 | 统计维度 | 配方 |
+| <span data-ttu-id="018f8-727">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-727">Name</span></span>              | <span data-ttu-id="018f8-728">成本元素维度</span><span class="sxs-lookup"><span data-stu-id="018f8-728">Cost element dimension</span></span> | <span data-ttu-id="018f8-729">统计维度</span><span class="sxs-lookup"><span data-stu-id="018f8-729">Statistical dimension</span></span> | <span data-ttu-id="018f8-730">配方</span><span class="sxs-lookup"><span data-stu-id="018f8-730">Formula</span></span> |
 |-------------------|------------------------|-----------------------|---------|
-| 用电量 |                        | 统计元素  |         |
+| <span data-ttu-id="018f8-731">用电量</span><span class="sxs-lookup"><span data-stu-id="018f8-731">Electricity usage</span></span> |                        | <span data-ttu-id="018f8-732">统计元素</span><span class="sxs-lookup"><span data-stu-id="018f8-732">Statistical elements</span></span>  |         |
 
-填充**公式**字段之前，您必须指定可在公式中使用的别名。
+<span data-ttu-id="018f8-733">填充**公式**字段之前，您必须指定可在公式中使用的别名。</span><span class="sxs-lookup"><span data-stu-id="018f8-733">Before the **Formula** field can be filled, you must specify the alias that should be used in the formula.</span></span>
 
-**公式分配基础系数**
+<span data-ttu-id="018f8-734">**公式分配基础系数**</span><span class="sxs-lookup"><span data-stu-id="018f8-734">**Formula allocation base factors**</span></span>
 
-| 别名 | 定额  | 分摊基础 |
+| <span data-ttu-id="018f8-735">别名</span><span class="sxs-lookup"><span data-stu-id="018f8-735">Alias</span></span> | <span data-ttu-id="018f8-736">定额</span><span class="sxs-lookup"><span data-stu-id="018f8-736">Constant</span></span>  | <span data-ttu-id="018f8-737">分摊基础</span><span class="sxs-lookup"><span data-stu-id="018f8-737">Allocation base</span></span> |
 |-------|-----------|-----------------|
-| a     |           | 电     |
-| b     | 10,000.00 |                 |
-| c     | 0.75      |                 |
-| d     | 1.15      |                 |
+| <span data-ttu-id="018f8-738">a</span><span class="sxs-lookup"><span data-stu-id="018f8-738">a</span></span>     |           | <span data-ttu-id="018f8-739">电</span><span class="sxs-lookup"><span data-stu-id="018f8-739">Electricity</span></span>     |
+| <span data-ttu-id="018f8-740">b</span><span class="sxs-lookup"><span data-stu-id="018f8-740">b</span></span>     | <span data-ttu-id="018f8-741">10,000.00</span><span class="sxs-lookup"><span data-stu-id="018f8-741">10,000.00</span></span> |                 |
+| <span data-ttu-id="018f8-742">c</span><span class="sxs-lookup"><span data-stu-id="018f8-742">c</span></span>     | <span data-ttu-id="018f8-743">0.75</span><span class="sxs-lookup"><span data-stu-id="018f8-743">0.75</span></span>      |                 |
+| <span data-ttu-id="018f8-744">d</span><span class="sxs-lookup"><span data-stu-id="018f8-744">d</span></span>     | <span data-ttu-id="018f8-745">1.15</span><span class="sxs-lookup"><span data-stu-id="018f8-745">1.15</span></span>      |                 |
 
-**公式分配基础**
+<span data-ttu-id="018f8-746">**公式分配基础**</span><span class="sxs-lookup"><span data-stu-id="018f8-746">**Formula allocation base**</span></span>
 
-| 姓名              | 成本元素维度 | 统计维度 | 配方                                                    |
+| <span data-ttu-id="018f8-747">姓名</span><span class="sxs-lookup"><span data-stu-id="018f8-747">Name</span></span>              | <span data-ttu-id="018f8-748">成本元素维度</span><span class="sxs-lookup"><span data-stu-id="018f8-748">Cost element dimension</span></span> | <span data-ttu-id="018f8-749">统计维度</span><span class="sxs-lookup"><span data-stu-id="018f8-749">Statistical dimension</span></span> | <span data-ttu-id="018f8-750">配方</span><span class="sxs-lookup"><span data-stu-id="018f8-750">Formula</span></span>                                                    |
 |-------------------|------------------------|-----------------------|------------------------------------------------------------|
-| 固定电量 |                        | 统计元素  | ((a \> b) × ((b × c) + (a – b) × d)) + ((a \<= b] × a × c) |
+| <span data-ttu-id="018f8-751">固定电量</span><span class="sxs-lookup"><span data-stu-id="018f8-751">Electricity fixed</span></span> |                        | <span data-ttu-id="018f8-752">统计元素</span><span class="sxs-lookup"><span data-stu-id="018f8-752">Statistical elements</span></span>  | <span data-ttu-id="018f8-753">((a \> b) × ((b × c) + (a – b) × d)) + ((a \<= b] × a × c)</span><span class="sxs-lookup"><span data-stu-id="018f8-753">((a \> b) × ((b × c) + (a – b) × d)) + ((a \<= b] × a × c)</span></span> |
 
-预览功能可以基于系统中的统计条目验证创建的公式分配基础。
+<span data-ttu-id="018f8-754">预览功能可以基于系统中的统计条目验证创建的公式分配基础。</span><span class="sxs-lookup"><span data-stu-id="018f8-754">A Preview function lets you validate the formula allocation base that is created, based on statistical entries in the system.</span></span>
 
-**分配基础详细信息**
+<span data-ttu-id="018f8-755">**分配基础详细信息**</span><span class="sxs-lookup"><span data-stu-id="018f8-755">**Allocation base details**</span></span>
 
-| 成本对象 |    | 配方                                                                                                                             | 度量值 |
+| <span data-ttu-id="018f8-756">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-756">Cost object</span></span> |    | <span data-ttu-id="018f8-757">配方</span><span class="sxs-lookup"><span data-stu-id="018f8-757">Formula</span></span>                                                                                                                             | <span data-ttu-id="018f8-758">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-758">Magnitude</span></span> |
 |-------------|----|-------------------------------------------------------------------------------------------------------------------------------------|-----------|
-| CC001       | HR | ((2,450.00 \> 10.000.00) × ((10,000.00 × 0.75) + (2,450.00 – 10,000.00) × 1.15)) + ((2,450.00 \<= 10,000.00) × 2,450.00 × 0.75)     | 1,837.50  |
-| CC002       | FI | ((4,100.00 \> 10.000.00) × ((10,000.00 × 0.75) + (4,100.00 – 10,000.00) × 1.15)) + ((4,100.00 \<= 10,000.00) × 4,100.00 × 0.75)     | 3,075.00  |
-| CC003       | IT | ((15,000.00 \> 10.000.00) × ((10,000.00 × 0.75) + (15,000.00 – 10,000.00) × 1.15)) + ((15,000.00 \<= 10,000.00) × 15,000.00 × 0.75) | 1,3250.00 |
+| <span data-ttu-id="018f8-759">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-759">CC001</span></span>       | <span data-ttu-id="018f8-760">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-760">HR</span></span> | <span data-ttu-id="018f8-761">((2,450.00 \> 10.000.00) × ((10,000.00 × 0.75) + (2,450.00 – 10,000.00) × 1.15)) + ((2,450.00 \<= 10,000.00) × 2,450.00 × 0.75)</span><span class="sxs-lookup"><span data-stu-id="018f8-761">((2,450.00 \> 10.000.00) × ((10,000.00 × 0.75) + (2,450.00 – 10,000.00) × 1.15)) + ((2,450.00 \<= 10,000.00) × 2,450.00 × 0.75)</span></span>     | <span data-ttu-id="018f8-762">1,837.50</span><span class="sxs-lookup"><span data-stu-id="018f8-762">1,837.50</span></span>  |
+| <span data-ttu-id="018f8-763">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-763">CC002</span></span>       | <span data-ttu-id="018f8-764">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-764">FI</span></span> | <span data-ttu-id="018f8-765">((4,100.00 \> 10.000.00) × ((10,000.00 × 0.75) + (4,100.00 – 10,000.00) × 1.15)) + ((4,100.00 \<= 10,000.00) × 4,100.00 × 0.75)</span><span class="sxs-lookup"><span data-stu-id="018f8-765">((4,100.00 \> 10.000.00) × ((10,000.00 × 0.75) + (4,100.00 – 10,000.00) × 1.15)) + ((4,100.00 \<= 10,000.00) × 4,100.00 × 0.75)</span></span>     | <span data-ttu-id="018f8-766">3,075.00</span><span class="sxs-lookup"><span data-stu-id="018f8-766">3,075.00</span></span>  |
+| <span data-ttu-id="018f8-767">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-767">CC003</span></span>       | <span data-ttu-id="018f8-768">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-768">IT</span></span> | <span data-ttu-id="018f8-769">((15,000.00 \> 10.000.00) × ((10,000.00 × 0.75) + (15,000.00 – 10,000.00) × 1.15)) + ((15,000.00 \<= 10,000.00) × 15,000.00 × 0.75)</span><span class="sxs-lookup"><span data-stu-id="018f8-769">((15,000.00 \> 10.000.00) × ((10,000.00 × 0.75) + (15,000.00 – 10,000.00) × 1.15)) + ((15,000.00 \<= 10,000.00) × 15,000.00 × 0.75)</span></span> | <span data-ttu-id="018f8-770">1,3250.00</span><span class="sxs-lookup"><span data-stu-id="018f8-770">1,3250.00</span></span> |
 
-仔细看一下公式 CC003 (IT)：
+<span data-ttu-id="018f8-771">仔细看一下公式 CC003 (IT)：</span><span class="sxs-lookup"><span data-stu-id="018f8-771">Here is a closer look at the formula for CC003 (IT):</span></span>
 
-((15,000.00 \> 10,000.00) × ((10,000.00 × 0.75) + (15,000.00 – 10,000.00) × 1.15)) + ((15,000.00 \<= 10,000.00) × 15,000.00 × 0.75) = 13,250.00
+<span data-ttu-id="018f8-772">((15,000.00 \> 10,000.00) × ((10,000.00 × 0.75) + (15,000.00 – 10,000.00) × 1.15)) + ((15,000.00 \<= 10,000.00) × 15,000.00 × 0.75) = 13,250.00</span><span class="sxs-lookup"><span data-stu-id="018f8-772">((15,000.00 \> 10,000.00) × ((10,000.00 × 0.75) + (15,000.00 – 10,000.00) × 1.15)) + ((15,000.00 \<= 10,000.00) × 15,000.00 × 0.75) = 13,250.00</span></span>
 
-(1 × (7,500.00 + 5,000.00 × 1.15)) + (0 × 15,000.00 × 0.75)            
+<span data-ttu-id="018f8-773">(1 × (7,500.00 + 5,000.00 × 1.15)) + (0 × 15,000.00 × 0.75)</span><span class="sxs-lookup"><span data-stu-id="018f8-773">(1 × (7,500.00 + 5,000.00 × 1.15)) + (0 × 15,000.00 × 0.75)</span></span>            
 
-1 × 7,500.00 + 5,750.00 + 0 
+<span data-ttu-id="018f8-774">1 × 7,500.00 + 5,750.00 + 0</span><span class="sxs-lookup"><span data-stu-id="018f8-774">1 × 7,500.00 + 5,750.00 + 0</span></span> 
 
-此示例说明是否将固定用电量公式分配基础指定为其中的分配基础的成本分配规则。
+<span data-ttu-id="018f8-775">此示例说明是否将固定用电量公式分配基础指定为其中的分配基础的成本分配规则。</span><span class="sxs-lookup"><span data-stu-id="018f8-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| 成本对象 |  说明  | 度量值 | 分配系数                |
+| <span data-ttu-id="018f8-776">成本对象</span><span class="sxs-lookup"><span data-stu-id="018f8-776">Cost object</span></span> |  <span data-ttu-id="018f8-777">说明</span><span class="sxs-lookup"><span data-stu-id="018f8-777">Description</span></span>  | <span data-ttu-id="018f8-778">度量值</span><span class="sxs-lookup"><span data-stu-id="018f8-778">Magnitude</span></span> | <span data-ttu-id="018f8-779">分配系数</span><span class="sxs-lookup"><span data-stu-id="018f8-779">Allocation factor</span></span>                |
 |-------------|----|-----------|----------------------------------|
-| CC001       | HR | 1,837.50  | (1,837.50 ÷ 18,162.50) × 金额  |
-| CC002       | FI | 3,075.00  | (3,075.00 ÷ 18,162.50) × 金额  |
-| CC003       | IT | 13,250.00 | (13,250.00 ÷ 18,162.50) × 金额 |
+| <span data-ttu-id="018f8-780">CC001</span><span class="sxs-lookup"><span data-stu-id="018f8-780">CC001</span></span>       | <span data-ttu-id="018f8-781">HR</span><span class="sxs-lookup"><span data-stu-id="018f8-781">HR</span></span> | <span data-ttu-id="018f8-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="018f8-782">1,837.50</span></span>  | <span data-ttu-id="018f8-783">(1,837.50 ÷ 18,162.50) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+| <span data-ttu-id="018f8-784">CC002</span><span class="sxs-lookup"><span data-stu-id="018f8-784">CC002</span></span>       | <span data-ttu-id="018f8-785">FI</span><span class="sxs-lookup"><span data-stu-id="018f8-785">FI</span></span> | <span data-ttu-id="018f8-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="018f8-786">3,075.00</span></span>  | <span data-ttu-id="018f8-787">(3,075.00 ÷ 18,162.50) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+| <span data-ttu-id="018f8-788">CC003</span><span class="sxs-lookup"><span data-stu-id="018f8-788">CC003</span></span>       | <span data-ttu-id="018f8-789">IT</span><span class="sxs-lookup"><span data-stu-id="018f8-789">IT</span></span> | <span data-ttu-id="018f8-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="018f8-790">13,250.00</span></span> | <span data-ttu-id="018f8-791">(13,250.00 ÷ 18,162.50) × 金额</span><span class="sxs-lookup"><span data-stu-id="018f8-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
 

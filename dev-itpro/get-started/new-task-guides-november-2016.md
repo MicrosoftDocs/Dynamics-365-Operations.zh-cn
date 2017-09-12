@@ -15,589 +15,589 @@ ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
 ms.search.region: global
 ms.author: josaw
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bea93ea1e8d17d4d4d31b21e1fad6f3eaa31b3e2
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: a40899df4f4f0cf2b404d21bf2c172bcc8a137af
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="new-or-updated-task-guides-november-2016"></a>新的或更新任务指南（2016 年 11 月）
+# <a name="new-or-updated-task-guides-november-2016"></a><span data-ttu-id="0a8cb-104">新的或更新任务指南（2016 年 11 月）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-104">New or updated Task guides (November 2016)</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 11 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
+<span data-ttu-id="0a8cb-105">本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 11 月 - 所有语言）APQC 标准库的新增或更新任务指南。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-105">This topic lists the new or updated Task guides that were released to the Microsoft (November 2016 - all languages) APQC Unified Library for Microsoft Dynamics 365 for Operations.</span></span> <span data-ttu-id="0a8cb-106">没有发布新入门库。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-106">No new Getting Started Library was released.</span></span>
 
-（2016 年 11 月 -- 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics 365 for Operations、Microsoft Dynamics 365 for Operations 平台更新 3、Microsoft Dynamics AX 平台更新 2、Dynamics AX May 2016 更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅[新增和更改内容](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。 **注意**︰业务流程建模器 (BPM) 行的标题旁边的星号 (**\***) 表示该业务流程的任务指南是为 Dynamics 365 for Operations 2016 年 11 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。
+<span data-ttu-id="0a8cb-107">（2016 年 11 月 -- 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics 365 for Operations、Microsoft Dynamics 365 for Operations 平台更新 3、Microsoft Dynamics AX 平台更新 2、Dynamics AX May 2016 更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-107">The (November 2016 -- all languages) APQC Unified Library contains the Task guides that are intended to be used for Help with Microsoft Dynamics 365 for Operations, Microsoft Dynamics 365 for Operations platform update 3, Microsoft Dynamics AX Platform update 2, the Dynamics AX May 2016 update, and the Microsoft Dynamics AX February 2016 release.</span></span> <span data-ttu-id="0a8cb-108">有关这些版本的详细信息，请参阅[新增和更改内容](whats-new-changed.md)。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-108">For more information about these releases, see [What’s new or changed](whats-new-changed.md).</span></span> <span data-ttu-id="0a8cb-109">此库中提供了任务指南的本地化版本。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-109">Localized versions of the Task guides are available in this library.</span></span> <span data-ttu-id="0a8cb-110">有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-110">For more information about how to connect the Help system to a Task guide library, see [Get started with Help](help-overview.md).</span></span> <span data-ttu-id="0a8cb-111">**注意**︰业务流程建模器 (BPM) 行的标题旁边的星号 (**\***) 表示该业务流程的任务指南是为 Dynamics 365 for Operations 2016 年 11 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-111">**Note:** An asterisk (**\***) next to the title of a Business process modeler (BPM) line indicates that the Task guide for that business process was created for Dynamics 365 for Operations November 2016 update and isn’t supported in earlier versions of Microsoft Dynamics AX.</span></span>
 
-### <a name="accounts-payable"></a>应付帐款
+### <a name="accounts-payable"></a><span data-ttu-id="0a8cb-112">应付帐款</span><span class="sxs-lookup"><span data-stu-id="0a8cb-112">Accounts payable</span></span>
 
-| BPM line / 磁墨字符识别行                                                                                           | 国家/地区 |
+| <span data-ttu-id="0a8cb-113">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-113">BPM line</span></span>                                                                                           | <span data-ttu-id="0a8cb-114">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-114">Country/region</span></span> |
 |----------------------------------------------------------------------------------------------------|----------------|
-| 使用审核日记帐的 AP 系统中的重要发票数据                                               | 全局         |
-| 使用供应商发票的 AP 系统中的重要发票数据（输入和过帐具有匹配的供应商发票） | 全局         |
-| 使用发票日记帐的 AP 系统中的重要发票数据                                              | 全局         |
-| 使用发票池的 AP 系统中的重要发票数据                                                 | 全局         |
-| 记录供应商发票的接收和匹配接收的数量                           | 全局         |
-| 设置应付帐款发票匹配验证                                                | 全局         |
-| 设置供应商发票政策                                                                    | 全局         |
+| <span data-ttu-id="0a8cb-115">使用审核日记帐的 AP 系统中的重要发票数据</span><span class="sxs-lookup"><span data-stu-id="0a8cb-115">Key invoice data in AP system using approval journal</span></span>                                               | <span data-ttu-id="0a8cb-116">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-116">Global</span></span>         |
+| <span data-ttu-id="0a8cb-117">使用供应商发票的 AP 系统中的重要发票数据（输入和过帐具有匹配的供应商发票）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-117">Key invoice data in AP system using vendor invoice (Enter and post a vendor invoice with matching)</span></span> | <span data-ttu-id="0a8cb-118">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-118">Global</span></span>         |
+| <span data-ttu-id="0a8cb-119">使用发票日记帐的 AP 系统中的重要发票数据</span><span class="sxs-lookup"><span data-stu-id="0a8cb-119">Key invoice data into AP system using invoice journal</span></span>                                              | <span data-ttu-id="0a8cb-120">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-120">Global</span></span>         |
+| <span data-ttu-id="0a8cb-121">使用发票池的 AP 系统中的重要发票数据</span><span class="sxs-lookup"><span data-stu-id="0a8cb-121">Key invoice data into AP system using invoice pool</span></span>                                                 | <span data-ttu-id="0a8cb-122">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-122">Global</span></span>         |
+| <span data-ttu-id="0a8cb-123">记录供应商发票的接收和匹配接收的数量</span><span class="sxs-lookup"><span data-stu-id="0a8cb-123">Record the receipt of vendor invoice and match against received quantity</span></span>                           | <span data-ttu-id="0a8cb-124">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-124">Global</span></span>         |
+| <span data-ttu-id="0a8cb-125">设置应付帐款发票匹配验证</span><span class="sxs-lookup"><span data-stu-id="0a8cb-125">Set up accounts payable invoice matching validation</span></span>                                                | <span data-ttu-id="0a8cb-126">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-126">Global</span></span>         |
+| <span data-ttu-id="0a8cb-127">设置供应商发票政策</span><span class="sxs-lookup"><span data-stu-id="0a8cb-127">Set up vendor invoices policies</span></span>                                                                    | <span data-ttu-id="0a8cb-128">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-128">Global</span></span>         |
 
 ### 
 
-### <a name="accounts-receivable"></a>应收帐款
+### <a name="accounts-receivable"></a><span data-ttu-id="0a8cb-129">应收帐款</span><span class="sxs-lookup"><span data-stu-id="0a8cb-129">Accounts receivable</span></span>
 
-| BPM line / 磁墨字符识别行                                                                           | 国家/地区 |
+| <span data-ttu-id="0a8cb-130">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-130">BPM line</span></span>                                                                           | <span data-ttu-id="0a8cb-131">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-131">Country/region</span></span> |
 |------------------------------------------------------------------------------------|----------------|
-| 将重复的普通发票模板分配给客户                        | 全局         |
-| 计算利息和创建与打印和过帐利息单（处理利息） | 全局         |
-| 创建收款单序列                                                | 全局         |
-| 为客户创建直接借记授权                                       | 全局         |
-| 创建普通发票                                                         | 全局         |
-| 创建普通发票模板                                                | 全局         |
-| 创建客户的勾销日记帐                                          | 全局         |
-| 创建具有范围的利息代码                                               | 全局         |
-| 创建销售订单发票                                                        | 全局         |
-| 生成和过帐重复执行普通发票                                     | 全局         |
-| 处理催款单                                                         | 全局         |
-| 查看收款信息                                                      | 全局         |
-| 设置并生成应收帐款的帐龄信息                          | 全局         |
+| <span data-ttu-id="0a8cb-132">将重复的普通发票模板分配给客户</span><span class="sxs-lookup"><span data-stu-id="0a8cb-132">Assign a recurring free text invoice template to a customer</span></span>                        | <span data-ttu-id="0a8cb-133">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-133">Global</span></span>         |
+| <span data-ttu-id="0a8cb-134">计算利息和创建与打印和过帐利息单（处理利息）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-134">Calculate interest and create and print and post interest notes (process interest)</span></span> | <span data-ttu-id="0a8cb-135">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-135">Global</span></span>         |
+| <span data-ttu-id="0a8cb-136">创建收款单序列</span><span class="sxs-lookup"><span data-stu-id="0a8cb-136">Create a collection letter sequence</span></span>                                                | <span data-ttu-id="0a8cb-137">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-137">Global</span></span>         |
+| <span data-ttu-id="0a8cb-138">为客户创建直接借记授权</span><span class="sxs-lookup"><span data-stu-id="0a8cb-138">Create a direct debit mandate for a customer</span></span>                                       | <span data-ttu-id="0a8cb-139">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-139">Global</span></span>         |
+| <span data-ttu-id="0a8cb-140">创建普通发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-140">Create a free text invoice</span></span>                                                         | <span data-ttu-id="0a8cb-141">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-141">Global</span></span>         |
+| <span data-ttu-id="0a8cb-142">创建普通发票模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-142">Create a free text invoice template</span></span>                                                | <span data-ttu-id="0a8cb-143">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-143">Global</span></span>         |
+| <span data-ttu-id="0a8cb-144">创建客户的勾销日记帐</span><span class="sxs-lookup"><span data-stu-id="0a8cb-144">Create a write-off journal for a customer</span></span>                                          | <span data-ttu-id="0a8cb-145">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-145">Global</span></span>         |
+| <span data-ttu-id="0a8cb-146">创建具有范围的利息代码</span><span class="sxs-lookup"><span data-stu-id="0a8cb-146">Create an interest code with a range</span></span>                                               | <span data-ttu-id="0a8cb-147">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-147">Global</span></span>         |
+| <span data-ttu-id="0a8cb-148">创建销售订单发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-148">Create sales order invoices</span></span>                                                        | <span data-ttu-id="0a8cb-149">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-149">Global</span></span>         |
+| <span data-ttu-id="0a8cb-150">生成和过帐重复执行普通发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-150">Generate and post recurring free text invoices</span></span>                                     | <span data-ttu-id="0a8cb-151">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-151">Global</span></span>         |
+| <span data-ttu-id="0a8cb-152">处理催款单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-152">Process collection letters</span></span>                                                         | <span data-ttu-id="0a8cb-153">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-153">Global</span></span>         |
+| <span data-ttu-id="0a8cb-154">查看收款信息</span><span class="sxs-lookup"><span data-stu-id="0a8cb-154">Review collection information</span></span>                                                      | <span data-ttu-id="0a8cb-155">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-155">Global</span></span>         |
+| <span data-ttu-id="0a8cb-156">设置并生成应收帐款的帐龄信息</span><span class="sxs-lookup"><span data-stu-id="0a8cb-156">Set up and generate accounts receivable aging information</span></span>                          | <span data-ttu-id="0a8cb-157">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-157">Global</span></span>         |
 
 ### 
 
-### <a name="address-book"></a>通讯簿
+### <a name="address-book"></a><span data-ttu-id="0a8cb-158">通讯簿</span><span class="sxs-lookup"><span data-stu-id="0a8cb-158">Address book</span></span>
 
-| BPM line / 磁墨字符识别行                          | 国家/地区 |
+| <span data-ttu-id="0a8cb-159">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-159">BPM line</span></span>                          | <span data-ttu-id="0a8cb-160">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-160">Country/region</span></span> |
 |-----------------------------------|----------------|
-| 配置通讯簿           | 全局         |
-| 配置全球通讯簿 | 全局         |
+| <span data-ttu-id="0a8cb-161">配置通讯簿</span><span class="sxs-lookup"><span data-stu-id="0a8cb-161">Configure address books</span></span>           | <span data-ttu-id="0a8cb-162">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-162">Global</span></span>         |
+| <span data-ttu-id="0a8cb-163">配置全球通讯簿</span><span class="sxs-lookup"><span data-stu-id="0a8cb-163">Configure the global address book</span></span> | <span data-ttu-id="0a8cb-164">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-164">Global</span></span>         |
 
 ### 
 
-### <a name="budget"></a>预算
+### <a name="budget"></a><span data-ttu-id="0a8cb-165">预算</span><span class="sxs-lookup"><span data-stu-id="0a8cb-165">Budget</span></span>
 
-| BPM line / 磁墨字符识别行                    | 国家/地区 |
+| <span data-ttu-id="0a8cb-166">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-166">BPM line</span></span>                    | <span data-ttu-id="0a8cb-167">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-167">Country/region</span></span> |
 |-----------------------------|----------------|
-| 修改预算计划布局 | 全局         |
+| <span data-ttu-id="0a8cb-168">修改预算计划布局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-168">Modify a budget plan layout</span></span> | <span data-ttu-id="0a8cb-169">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-169">Global</span></span>         |
 
 ### 
 
-### <a name="cash-management"></a>现金管理
+### <a name="cash-management"></a><span data-ttu-id="0a8cb-170">现金管理</span><span class="sxs-lookup"><span data-stu-id="0a8cb-170">Cash management</span></span>
 
-| BPM line / 磁墨字符识别行                                                             | 国家/地区 |
+| <span data-ttu-id="0a8cb-171">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-171">BPM line</span></span>                                                             | <span data-ttu-id="0a8cb-172">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-172">Country/region</span></span> |
 |----------------------------------------------------------------------|----------------|
-| 创建信用证的银行信贷协议                | 全局         |
-| 创建保函的银行信贷协议             | 全局         |
-| 客户付款概览                                           | 全局         |
-| 定义供应商付款费用                                           | 全局         |
-| 定义供应商付款期限                                          | 全局         |
-| 存入客户付款                                            | 全局         |
-| 设定客户付款方式                                 | 全局         |
-| 设定客户付款费用                                      | 全局         |
-| 设定客户付款期限                                     | 全局         |
-| 导出信用证                                              | 全局         |
-| 导入信用证                                              | 全局         |
-| 保函交易记录                                      | 全局         |
-| 为客户登记和过帐远期支票                   | 全局         |
-| 为供应商登记和过帐远期支票                     | 全局         |
-| 设置银行设施和过帐信用证模板     | 全局         |
-| 设置银行设施和过帐保函模板 | 全局         |
-| 设置远期支票                                              | 全局         |
-| 结算供应商的远期支票                                | 全局         |
-| 结算客户的远期支票                             | 全局         |
-| 供应商付款概览                                             | 全局         |
+| <span data-ttu-id="0a8cb-173">创建信用证的银行信贷协议</span><span class="sxs-lookup"><span data-stu-id="0a8cb-173">Create a bank facility agreement for letter of credit</span></span>                | <span data-ttu-id="0a8cb-174">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-174">Global</span></span>         |
+| <span data-ttu-id="0a8cb-175">创建保函的银行信贷协议</span><span class="sxs-lookup"><span data-stu-id="0a8cb-175">Create a bank facility agreement for letter of guarantee</span></span>             | <span data-ttu-id="0a8cb-176">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-176">Global</span></span>         |
+| <span data-ttu-id="0a8cb-177">客户付款概览</span><span class="sxs-lookup"><span data-stu-id="0a8cb-177">Customer payments overview</span></span>                                           | <span data-ttu-id="0a8cb-178">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-178">Global</span></span>         |
+| <span data-ttu-id="0a8cb-179">定义供应商付款费用</span><span class="sxs-lookup"><span data-stu-id="0a8cb-179">Define vendor payment fees</span></span>                                           | <span data-ttu-id="0a8cb-180">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-180">Global</span></span>         |
+| <span data-ttu-id="0a8cb-181">定义供应商付款期限</span><span class="sxs-lookup"><span data-stu-id="0a8cb-181">Define vendor payment terms</span></span>                                          | <span data-ttu-id="0a8cb-182">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-182">Global</span></span>         |
+| <span data-ttu-id="0a8cb-183">存入客户付款</span><span class="sxs-lookup"><span data-stu-id="0a8cb-183">Deposit customer payments</span></span>                                            | <span data-ttu-id="0a8cb-184">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-184">Global</span></span>         |
+| <span data-ttu-id="0a8cb-185">设定客户付款方式</span><span class="sxs-lookup"><span data-stu-id="0a8cb-185">Establish customer method of payment</span></span>                                 | <span data-ttu-id="0a8cb-186">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-186">Global</span></span>         |
+| <span data-ttu-id="0a8cb-187">设定客户付款费用</span><span class="sxs-lookup"><span data-stu-id="0a8cb-187">Establish customer payment fees</span></span>                                      | <span data-ttu-id="0a8cb-188">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-188">Global</span></span>         |
+| <span data-ttu-id="0a8cb-189">设定客户付款期限</span><span class="sxs-lookup"><span data-stu-id="0a8cb-189">Establish customer payment terms</span></span>                                     | <span data-ttu-id="0a8cb-190">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-190">Global</span></span>         |
+| <span data-ttu-id="0a8cb-191">导出信用证</span><span class="sxs-lookup"><span data-stu-id="0a8cb-191">Export letter of credit</span></span>                                              | <span data-ttu-id="0a8cb-192">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-192">Global</span></span>         |
+| <span data-ttu-id="0a8cb-193">导入信用证</span><span class="sxs-lookup"><span data-stu-id="0a8cb-193">Import letter of credit</span></span>                                              | <span data-ttu-id="0a8cb-194">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-194">Global</span></span>         |
+| <span data-ttu-id="0a8cb-195">保函交易记录</span><span class="sxs-lookup"><span data-stu-id="0a8cb-195">Letter of guarantee transaction</span></span>                                      | <span data-ttu-id="0a8cb-196">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-196">Global</span></span>         |
+| <span data-ttu-id="0a8cb-197">为客户登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-197">Register and post a postdated check for a customer</span></span>                   | <span data-ttu-id="0a8cb-198">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-198">Global</span></span>         |
+| <span data-ttu-id="0a8cb-199">为供应商登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-199">Register and post a postdated check for a vendor</span></span>                     | <span data-ttu-id="0a8cb-200">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-200">Global</span></span>         |
+| <span data-ttu-id="0a8cb-201">设置银行设施和过帐信用证模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-201">Set up bank facilities and posting profiles for letter of credit</span></span>     | <span data-ttu-id="0a8cb-202">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-202">Global</span></span>         |
+| <span data-ttu-id="0a8cb-203">设置银行设施和过帐保函模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-203">Set up bank facilities and posting profiles for letters of guarantee</span></span> | <span data-ttu-id="0a8cb-204">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-204">Global</span></span>         |
+| <span data-ttu-id="0a8cb-205">设置远期支票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-205">Set up postdated checks</span></span>                                              | <span data-ttu-id="0a8cb-206">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-206">Global</span></span>         |
+| <span data-ttu-id="0a8cb-207">结算供应商的远期支票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-207">Settle a postdated check for a vendor</span></span>                                | <span data-ttu-id="0a8cb-208">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-208">Global</span></span>         |
+| <span data-ttu-id="0a8cb-209">结算客户的远期支票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-209">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="0a8cb-210">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-210">Global</span></span>         |
+| <span data-ttu-id="0a8cb-211">供应商付款概览</span><span class="sxs-lookup"><span data-stu-id="0a8cb-211">Vendor payments overview</span></span>                                             | <span data-ttu-id="0a8cb-212">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-212">Global</span></span>         |
 
 ### 
 
-### <a name="chart-of-accounts"></a>会计科目表
+### <a name="chart-of-accounts"></a><span data-ttu-id="0a8cb-213">会计科目表</span><span class="sxs-lookup"><span data-stu-id="0a8cb-213">Chart of accounts</span></span>
 
-| BPM line / 磁墨字符识别行                                   | 国家/地区 |
+| <span data-ttu-id="0a8cb-214">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-214">BPM line</span></span>                                   | <span data-ttu-id="0a8cb-215">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-215">Country/region</span></span> |
 |--------------------------------------------|----------------|
-| 创建和分配高级规则结构 | 全局         |
+| <span data-ttu-id="0a8cb-216">创建和分配高级规则结构</span><span class="sxs-lookup"><span data-stu-id="0a8cb-216">Create and assign advanced rule structures</span></span> | <span data-ttu-id="0a8cb-217">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-217">Global</span></span>         |
 
 ### 
 
-### <a name="compliance"></a>符合性
+### <a name="compliance"></a><span data-ttu-id="0a8cb-218">符合性</span><span class="sxs-lookup"><span data-stu-id="0a8cb-218">Compliance</span></span>
 
-| BPM line / 磁墨字符识别行                                   | 国家/地区 |
+| <span data-ttu-id="0a8cb-219">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-219">BPM line</span></span>                                   | <span data-ttu-id="0a8cb-220">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-220">Country/region</span></span> |
 |--------------------------------------------|----------------|
-| 定义原始单据的审计策略 | 全局         |
+| <span data-ttu-id="0a8cb-221">定义原始单据的审计策略</span><span class="sxs-lookup"><span data-stu-id="0a8cb-221">Define audit policies for source documents</span></span> | <span data-ttu-id="0a8cb-222">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-222">Global</span></span>         |
 
 ### 
 
-### <a name="cost-accounting"></a>成本核算
+### <a name="cost-accounting"></a><span data-ttu-id="0a8cb-223">成本核算</span><span class="sxs-lookup"><span data-stu-id="0a8cb-223">Cost accounting</span></span>
 
-| BPM line / 磁墨字符识别行             | 国家/地区 |
+| <span data-ttu-id="0a8cb-224">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-224">BPM line</span></span>             | <span data-ttu-id="0a8cb-225">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-225">Country/region</span></span> |
 |----------------------|----------------|
-| 创建成本要素 | 全局         |
-| 创建成本对象  | 全局         |
+| <span data-ttu-id="0a8cb-226">创建成本要素</span><span class="sxs-lookup"><span data-stu-id="0a8cb-226">Create cost elements</span></span> | <span data-ttu-id="0a8cb-227">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-227">Global</span></span>         |
+| <span data-ttu-id="0a8cb-228">创建成本对象</span><span class="sxs-lookup"><span data-stu-id="0a8cb-228">Create cost objects</span></span>  | <span data-ttu-id="0a8cb-229">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-229">Global</span></span>         |
 
 ### 
 
-### <a name="countryregion-functionality"></a>国家/地区功能
+### <a name="countryregion-functionality"></a><span data-ttu-id="0a8cb-230">国家/地区功能</span><span class="sxs-lookup"><span data-stu-id="0a8cb-230">Country/region functionality</span></span>
 
-| BPM line / 磁墨字符识别行                                                                                                                             | 国家/地区                    |
+| <span data-ttu-id="0a8cb-231">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-231">BPM line</span></span>                                                                                                                             | <span data-ttu-id="0a8cb-232">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-232">Country/region</span></span>                    |
 |--------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------|
-| 添加 BAS 报表框并生成澳大利亚营业活动报表 (BAS)                                                    | 澳大利亚和新西兰         |
-| 设置澳大利亚 BAS 的原因代码                                                                                                | 澳大利亚和新西兰         |
-| **\***中国式凭证连续性检查                                                                                               | 中国                             |
-| **\***CN-00010 中国会计科目表的层次结构                                                                                  | 中国                             |
-| **\***CN-00016 按中国工作规则的用户操作日志                                                                              | 中国                             |
-| **\***金税集成导出设置                                                                                            | 中国                             |
-| **\***从其他模块（如销售发票）过帐凭证                                                                          | 中国                             |
-| **\***从普通日记帐过帐凭证                                                                                         | 中国                             |
-| **\***设置中国的基本税集成模板                                                                                 | 中国                             |
-| **\***设置中国式凭证                                                                                                        | 中国                             |
-| 为公共部门客户创建和过帐客户发票                                                                      | 丹麦                           |
-| 为公共部门客户创建和过帐普通发票                                                                     | 丹麦                           |
-| 为公共部门客户创建和过帐项目发票                                                                       | 丹麦                           |
-| DK-00007 FIK 752 giro 银行转帐单/使用付款单过帐普通发票                                               | 丹麦                           |
-| DK-00007 FIK 752 giro 银行转帐单/使用付款单过帐项目发票                                                 | 丹麦                           |
-| 导入 OIOUBL 电子开票配置                                                                                    | 丹麦                           |
-| 为 OIOUBL 电子开票设置客户帐户                                                                             | 丹麦                           |
-| 设置 OIOUBL 电子开票                                                                                                   | 丹麦                           |
-| 设置付款单格式                                                                                                           | 丹麦                           |
-| **\***EEU-00047 给员工的预付款                                                                                          | 东欧                    |
-| 使用 ISO20022 付款格式创建和导出供应商付款                                                                      | 欧洲                            |
-| 为有直接借记授权的客户创建付款                                                                          | 欧洲                            |
-| **\***EE-00015 付款参考生成工具                                                                                     | 欧洲                            |
-| EUR-00002 生成欧盟内部统计申报                                                                                       | 欧洲                            |
-| **\***EUR-00002 为集团内部交易指定装货地址                                                          | 欧洲                            |
-| EUR-00002 将交易记录转移到内部统计                                                                                     | 欧洲                            |
-| EUR-00011 生成欧盟（EU）销售清单报表                                                                                          | 欧洲                            |
-| EUR-00011 设置EU销售清单报表                                                                                             | 欧洲                            |
-| EUR-00012 颁发欧盟记账证书。                                                                                              | 欧洲                            |
-| EUR-00012 获得EU 记账证书。                                                                                            | 欧洲                            |
-| **\***EUR-00015 使用增值税 ID 搜索当事方                                                                                            | 欧洲                            |
-| **\***EUR-00015 登记供应商增值税 ID                                                                                        | 欧洲                            |
-| **\***EUR-00015 设置增值税 ID                                                                                                        | 欧洲                            |
-| **\***HU-00001 汇率计算                                                                                             | 欧洲                            |
-| 导入 ISO20022 信用转帐配置                                                                                        | 欧洲                            |
-| 导入 ISO20022 直接转帐配置                                                                                           | 欧洲                            |
-| **\***LT-00003 公司内货物转移的转移单据/为内部库存转移生成转移单据   | 欧洲                            |
-| **\***LT-00003 公司内货物转移的转移单据/为公司内货物转移设置转移单据 | 欧洲                            |
-| **\***NO-00002 基于付款 ID 的客户付款                                                                                  | 欧洲                            |
-| 设置 ISO20022 贷方转帐的公司银行帐户                                                                           | 欧洲                            |
-| 设置 ISO20022 直接借记的公司银行帐户                                                                              | 欧洲                            |
-| 设置 ISO20022 直接借记的客户和客户银行帐户                                                               | 欧洲                            |
-| 设置 ISO20022 贷方转帐的付款方式                                                                                | 欧洲                            |
-| 设置 ISO20022 直接借记的付款方式                                                                                   | 欧洲                            |
-| 设置 ISO20022 贷方转帐的供应商和供应商银行帐户                                                                | 欧洲                            |
-| 设定客户付款方式                                                                                                | 法国                            |
-| FR-00002 客户和供应商帐户                                                                                                 | 法国                            |
-| FR-00003 NAF 代码和 Siret 编号                                                                                                 | 法国                            |
-| FR-00004 审核和过帐签发汇票                                                                                      | 法国                            |
-| FR-00004 法国汇票和本票                                                                               | 法国                            |
-| FR-00004 过账拒收汇票账目项                                                                                  | 法国                            |
-| FR-00004 过账重签汇票的账目项                                                                                        | 法国                            |
-| FR-00004 设立付款方法                                                                                                     | 法国                            |
-| FR-00004 更新客户付款方式                                                                                        | 法国                            |
-| FR-00018 延时付款的日息计算以及在发票和催款信中的总额体现                               | 法国                            |
-| 自定义德国审计文件配置                                                                                            | 德国                           |
-| DE-00002 第二年额外购买导致的固定资产折旧调整                                                     | 德国                           |
-| DE-00003 电子发送增值税申报（ELSTER）                                                                         | 德国                           |
-| ER 配置目标                                                                                                            | 德国                           |
-| ER 配置格式以执行盘点和合计（第 1 部分：创建格式）                                                               | 德国                           |
-| ER 配置格式以执行盘点和合计（第 2 部分：配置计算）                                                      | 德国                           |
-| ER 配置格式以执行盘点和合计（第 3 部分：使用计算生成输出）                                         | 德国                           |
-| ER 配置格式以执行盘点和合计（第 4 部分：运行格式）                                                                  | 德国                           |
-| ER 创建一个配置提供程序，并标记其为当前运行的                                                                             | 德国                           |
-| ER 设计以 Microsoft WORD 格式生成报表的配置（2016 年 11 月）                                            | 德国                           |
-| ER 设计域特定数据模型（2016 年 11 月）                                                                                 | 德国                           |
-| ER 从 Lifecycle Services 导入配置                                                                                    | 德国                           |
-| ER 上载配置到 Lifecycle Services                                                                                    | 德国                           |
-| ER 在格式输出中使用票据管理文件（第 1 部分：准备数据模型）                                                      | 德国                           |
-| ER 在格式输出中使用票据管理文件（第 2 部分：扩展数据模型）                                                       | 德国                           |
-| ER 在格式输出中使用票据管理文件（第 3 部分：创建格式）                                                           | 德国                           |
-| ER 在格式输出中使用票据管理文件（第 4 部分：运行格式）                                                              | 德国                           |
-| ER 在格式输出中使用票据管理文件（第 5 部分：修改和运行格式）                                                   | 德国                           |
-| ER 将财务维度用作数据源（第 1 部分：设计数据模型）                                                             | 德国                           |
-| ER 将财务维度用作数据源（第 2 部分：模型映射）                                                                 | 德国                           |
-| ER 将财务维度用作数据源（第 3 部分：设计报表）                                                             | 德国                           |
-| ER 将财务维度用作数据源（第 4 部分：运行报表）                                                                | 德国                           |
-| ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 1 部分：设计格式）                            | 德国                           |
-| ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 2 部分：运行格式）                               | 德国                           |
-| 生成德国审计文件                                                                                                           | 德国                           |
-| 导入德国审计文件配置                                                                                               | 德国                           |
-| **\***EUR-00018 VAT 对帐报表                                                                                            | 冰岛                           |
-| IS-00006 供应商发票申报/创建供应商帐户并附加该发票申报                                       | 冰岛                           |
-| IS-00006 供应商发票申报/设置供应商的发票申报                                                        | 冰岛                           |
-| IS-00006 供应商发票申报/更新供应商发票申报并生成报表                                       | 冰岛                           |
-| 维护会计科目表/设置必付款参考                                                                       | 冰岛                           |
-| 使用资产报废合同购置固定资产                                                                              | 日本                             |
-| 购置固定资产，要求政府授予                                                                                 | 日本                             |
-| 调整资产报废合同评估                                                                               | 日本                             |
-| 将共用资产的储存金额和商誉分配到现金产出单元                                                   | 日本                             |
-| 在一项资产的资产使用年限内更改折旧方法                                                                   | 日本                             |
-| 在帐簿的资产使用年限内更改折旧方法                                                                        | 日本                             |
-| 配置累计折旧参数和过帐模板                                                                   | 日本                             |
-| CN-00004 固定资产折旧分配 (JP-)                                                                                   | 日本                             |
-| 配置其他折旧的折旧模板和过帐模板                                                   | 日本                             |
-| 配置特殊折旧的折旧模板和过帐模板                                                      | 日本                             |
-| 配置合并的发票参数和应付帐款的设置                                                             | 日本                             |
-| 配置资产报废合同过帐和市场折扣率的主科目                                            | 日本                             |
-| 创建具有其他折旧的固定资产                                                                                    | 日本                             |
-| 创建具有特殊折旧模板的固定资产                                                                               | 日本                             |
-| 创建加速折旧模板并将其分配给帐簿                                                                        | 日本                             |
-| 创建一个加速折旧文档并输入使用数据                                                                     | 日本                             |
-| 创建和分配设备组                                                                                                 | 日本                             |
-| 创建和分配减少条目单据                                                                                           | 日本                             |
-| 创建并确认供应商合并的发票                                                                                     | 日本                             |
-| 创建并确认确认测试                                                                                                  | 日本                             |
-| 创建 CGU 组和现金产出单元                                                                                          | 日本                             |
-| 使用平均划分方法创建总计折旧资产                                                                     | 日本                             |
-| 定义资产空闲期间和验证折旧流程                                                                           | 日本                             |
-| 折旧和应计资产报废合同的利息支出                                                          | 日本                             |
-| 具有已过帐缩减条目的固定资产折旧                                                                             | 日本                             |
-| 处理具有缩减条目的固定资产                                                                                        | 日本                             |
-| 支持 JBA 付款文件格式                                                                                                       | 日本                             |
-| 在折旧模板中输入折旧率计划和关联项                                                               | 日本                             |
-| 生成和过帐付款费用                                                                                                        | 日本                             |
-| 以JBA(日本银行协会）格式生成一哥EFT（电子资金支付）付款文件                                                                                     | 日本                             |
-| 生成日本消费税报表                                                                                                | 日本                             |
-| 以JBA文件格式输入一个客户付款记录                                                                                     | 日本                             |
-| 查询日记帐中的付款费用                                                                                                  | 日本                             |
-| 查询资产报废合同相关交易记录                                                                    | 日本                             |
-| 查询可扣减费用                                                                                                       | 日本                             |
-| JP-00005 在 T 帐户窗体中输入日记帐（日本）                                                                                     | 日本                             |
-| JP-00011 合并的发票 - AR - 创建并确认客户合并的发票                                              | 日本                             |
-| JP-00027 折旧税申请的窗体 26                                                                                     | 日本                             |
-| 维护可扣减费用的固定资产主数据文件                                                                       | 日本                             |
-| 维护单个资产减损指标                                                                                  | 日本                             |
-| 通过客户汇票背书支付供应商交易                                                                    | 日本                             |
-| 过度折旧和折旧不足的定期结算                                                                                   | 日本                             |
-| 建议其他折旧                                                                                                      | 日本                             |
-| 建议并过帐加速折旧                                                                                        | 日本                             |
-| 按批次建议并过帐减损金额                                                                                      | 日本                             |
-| 通过使用固定资产日记帐建议并过帐减损金额                                                                  | 日本                             |
-| 在现金产出单元建议并过帐减损金额                                                                     | 日本                             |
-| 建议特殊折旧                                                                                                         | 日本                             |
-| 重新打开和编辑客户合并的发票                                                                                      | 日本                             |
-| 重新打开和编辑供应商合并的发票                                                                                        | 日本                             |
-| 冲销已背书的汇票                                                                                                 | 日本                             |
-| 运行确认测试和计算单个资产的减损金额                                                    | 日本                             |
-| 结算已背书的汇票                                                                                                  | 日本                             |
-| 通过使用付款日记帐结算客户合并的发票                                                                     | 日本                             |
-| 通过使用付款日记帐结算供应商合并的发票                                                                       | 日本                             |
-| 通过使用结算交易记录结算供应商合并的发票                                                                     | 日本                             |
-| 通过使用结算交易记录结算供应商合并的发票                                                                     | 日本                             |
-| 设置作为合并的发票的目标的客户和销售订单                                                               | 日本                             |
-| 设置资产报废合同文档和在固定资产中输入 ARO 金额                                                   | 日本                             |
-| 设置合并的发票                                                                                                         | 日本                             |
-| 设置减损会计通用参数和过帐模板                                                                    | 日本                             |
-| 通过客户汇票背书设置日本付款                                                                         | 日本                             |
-| 设置包括多个过帐层的可扣减费用的主数据                                                  | 日本                             |
-| 设置日本消费税报表                                                                                                   | 日本                             |
-| 设置日本付款费用                                                                                                          | 日本                             |
-| 设置作为合并的发票的目标的供应商主数据和采购订单                                                          | 日本                             |
-| 使用固定资产的装配清单                                                                                                   | 日本                             |
-| 使用固定资产的拆卸清单                                                                                                | 日本                             |
-| MX-00006 设置销售税代码                                                                                                       | 墨西哥                            |
-| MX-00007 客户注册身份号及其它信息                                                                             | 墨西哥                            |
-| MX-00008: 供应商注册号                                                                                                    | 墨西哥                            |
-| MX-00010 取消电子发票                                                                                                | 墨西哥                            |
-| MX-00010 CFDI 电子发票功能。                                                                                                            | 墨西哥                            |
-| MX-00010 为墨西哥法人输入税务注册号                                                                       | 墨西哥                            |
-| MX-00010 查询和打印电子发票。                                                                                     | 墨西哥                            |
-| MX-00010 过账非常规销售账目                                                                                                     | 墨西哥                            |
-| MX-00010 为电子发票设置参数。                                                                                    | 墨西哥                            |
-| MX-00020：生成墨西哥电子分类记账报表（1.1 版本）                                                            | 墨西哥                            |
-| MX-00020 为墨西哥法人建立会计表                                                                   | 墨西哥                            |
-| MX-00020 - 为墨西哥银行账号设定RFC注册号                                                                  | 墨西哥                            |
-| NL-00003 Semansys XBRL 集成                                                                                                   | 荷兰                       |
-| NL-00010 电子报税(EVAT)                                                                                          | 荷兰                       |
-| MY-00003 管理 GST 的客户借方通知单和贷方通知单                                                                          | 新加坡、马来西亚和泰国 |
-| MY-00004 管理 GST 的供应商借方通知单和贷方通知单                                                                            | 新加坡、马来西亚和泰国 |
-| MY-00005 打印销售税发票。                                                                                                      | 新加坡、马来西亚和泰国 |
-| MY-00006 01 设置 GST 减免条款                                                                                                | 新加坡、马来西亚和泰国 |
-| MY-00006 02 打印带豁免条款的客户销售税发票                                                                         | 新加坡、马来西亚和泰国 |
-| MY-00007 自用发票                                                                                                        | 新加坡、马来西亚和泰国 |
-| MY-00010 GST - 按需要的格式生成 GAF 文件                                                                             | 新加坡、马来西亚和泰国 |
-| MY-00011 02 为项目销售生成客户付款通知。                                                                           | 新加坡、马来西亚和泰国 |
-| MY-00011 03 生成项目销售的客户贷方通知单                                                                          | 新加坡、马来西亚和泰国 |
-|  创建包括要求逆向征收增值税的物料的采购订单                                                            | 英国                    |
-|  创建包括应该逆向征收增值税的项的销售订单                                                               | 英国                    |
-| GB-00002 设立增值税退税设立物料组，规则及参数。                                                                | 英国                    |
-| GB-00009 为结账折扣生成信用证。                                                                             | 英国                    |
-| GB-00009 为现金付账折扣信用证设置参数。                                                                 | 英国                    |
-|  设置反向增值税的物料销售税组                                                                                  | 英国                    |
-|  设置反向增值税的销售税组                                                                                       | 英国                    |
+| <span data-ttu-id="0a8cb-233">添加 BAS 报表框并生成澳大利亚营业活动报表 (BAS)</span><span class="sxs-lookup"><span data-stu-id="0a8cb-233">Add BAS report boxes and generate the Australia Business Activity Statement (BAS)</span></span>                                                    | <span data-ttu-id="0a8cb-234">澳大利亚和新西兰</span><span class="sxs-lookup"><span data-stu-id="0a8cb-234">Australia and New Zealand</span></span>         |
+| <span data-ttu-id="0a8cb-235">设置澳大利亚 BAS 的原因代码</span><span class="sxs-lookup"><span data-stu-id="0a8cb-235">Set up reason codes for Australia BAS</span></span>                                                                                                | <span data-ttu-id="0a8cb-236">澳大利亚和新西兰</span><span class="sxs-lookup"><span data-stu-id="0a8cb-236">Australia and New Zealand</span></span>         |
+| <span data-ttu-id="0a8cb-237">**\***中国式凭证连续性检查</span><span class="sxs-lookup"><span data-stu-id="0a8cb-237">**\***Chinese voucher continuity check</span></span>                                                                                               | <span data-ttu-id="0a8cb-238">中国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-238">China</span></span>                             |
+| <span data-ttu-id="0a8cb-239">**\***CN-00010 中国会计科目表的层次结构</span><span class="sxs-lookup"><span data-stu-id="0a8cb-239">**\***CN-00010 China hierarchy of chart of accounts</span></span>                                                                                  | <span data-ttu-id="0a8cb-240">中国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-240">China</span></span>                             |
+| <span data-ttu-id="0a8cb-241">**\***CN-00016 按中国工作规则的用户操作日志</span><span class="sxs-lookup"><span data-stu-id="0a8cb-241">**\***CN-00016 User operation log by China working rule</span></span>                                                                              | <span data-ttu-id="0a8cb-242">中国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-242">China</span></span>                             |
+| <span data-ttu-id="0a8cb-243">**\***金税集成导出设置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-243">**\***Golden tax integration export setup</span></span>                                                                                            | <span data-ttu-id="0a8cb-244">中国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-244">China</span></span>                             |
+| <span data-ttu-id="0a8cb-245">**\***从其他模块（如销售发票）过帐凭证</span><span class="sxs-lookup"><span data-stu-id="0a8cb-245">**\***Post vouchers from other modules, like sales invoices</span></span>                                                                          | <span data-ttu-id="0a8cb-246">中国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-246">China</span></span>                             |
+| <span data-ttu-id="0a8cb-247">**\***从普通日记帐过帐凭证</span><span class="sxs-lookup"><span data-stu-id="0a8cb-247">**\***Post vouchers from the general journal</span></span>                                                                                         | <span data-ttu-id="0a8cb-248">中国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-248">China</span></span>                             |
+| <span data-ttu-id="0a8cb-249">**\***设置中国的基本税集成模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-249">**\***Set up basic tax integration profile for China</span></span>                                                                                 | <span data-ttu-id="0a8cb-250">中国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-250">China</span></span>                             |
+| <span data-ttu-id="0a8cb-251">**\***设置中国式凭证</span><span class="sxs-lookup"><span data-stu-id="0a8cb-251">**\***Set up Chinese vouchers</span></span>                                                                                                        | <span data-ttu-id="0a8cb-252">中国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-252">China</span></span>                             |
+| <span data-ttu-id="0a8cb-253">为公共部门客户创建和过帐客户发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-253">Create and post a customer invoice for a public sector customer</span></span>                                                                      | <span data-ttu-id="0a8cb-254">丹麦</span><span class="sxs-lookup"><span data-stu-id="0a8cb-254">Denmark</span></span>                           |
+| <span data-ttu-id="0a8cb-255">为公共部门客户创建和过帐普通发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-255">Create and post a free text invoice for a public sector customer</span></span>                                                                     | <span data-ttu-id="0a8cb-256">丹麦</span><span class="sxs-lookup"><span data-stu-id="0a8cb-256">Denmark</span></span>                           |
+| <span data-ttu-id="0a8cb-257">为公共部门客户创建和过帐项目发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-257">Create and post a project invoice for a public sector customer</span></span>                                                                       | <span data-ttu-id="0a8cb-258">丹麦</span><span class="sxs-lookup"><span data-stu-id="0a8cb-258">Denmark</span></span>                           |
+| <span data-ttu-id="0a8cb-259">DK-00007 FIK 752 giro 银行转帐单/使用付款单过帐普通发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-259">DK-00007 FIK 752 giro money transfer slip/Post a free text invoice with a payment slip</span></span>                                               | <span data-ttu-id="0a8cb-260">丹麦</span><span class="sxs-lookup"><span data-stu-id="0a8cb-260">Denmark</span></span>                           |
+| <span data-ttu-id="0a8cb-261">DK-00007 FIK 752 giro 银行转帐单/使用付款单过帐项目发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-261">DK-00007 FIK 752 giro money transfer slip/Post a project invoice with a payment slip</span></span>                                                 | <span data-ttu-id="0a8cb-262">丹麦</span><span class="sxs-lookup"><span data-stu-id="0a8cb-262">Denmark</span></span>                           |
+| <span data-ttu-id="0a8cb-263">导入 OIOUBL 电子开票配置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-263">Import OIOUBL electronic invoicing configurations</span></span>                                                                                    | <span data-ttu-id="0a8cb-264">丹麦</span><span class="sxs-lookup"><span data-stu-id="0a8cb-264">Denmark</span></span>                           |
+| <span data-ttu-id="0a8cb-265">为 OIOUBL 电子开票设置客户帐户</span><span class="sxs-lookup"><span data-stu-id="0a8cb-265">Set up customer accounts for OIOUBL electronic invoicing</span></span>                                                                             | <span data-ttu-id="0a8cb-266">丹麦</span><span class="sxs-lookup"><span data-stu-id="0a8cb-266">Denmark</span></span>                           |
+| <span data-ttu-id="0a8cb-267">设置 OIOUBL 电子开票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-267">Set up OIOUBL electronic invoicing</span></span>                                                                                                   | <span data-ttu-id="0a8cb-268">丹麦</span><span class="sxs-lookup"><span data-stu-id="0a8cb-268">Denmark</span></span>                           |
+| <span data-ttu-id="0a8cb-269">设置付款单格式</span><span class="sxs-lookup"><span data-stu-id="0a8cb-269">Set up payment slip format</span></span>                                                                                                           | <span data-ttu-id="0a8cb-270">丹麦</span><span class="sxs-lookup"><span data-stu-id="0a8cb-270">Denmark</span></span>                           |
+| <span data-ttu-id="0a8cb-271">**\***EEU-00047 给员工的预付款</span><span class="sxs-lookup"><span data-stu-id="0a8cb-271">**\***EEU-00047 Advance payment to employee</span></span>                                                                                          | <span data-ttu-id="0a8cb-272">东欧</span><span class="sxs-lookup"><span data-stu-id="0a8cb-272">Eastern Europe</span></span>                    |
+| <span data-ttu-id="0a8cb-273">使用 ISO20022 付款格式创建和导出供应商付款</span><span class="sxs-lookup"><span data-stu-id="0a8cb-273">Create and export vendor payments using ISO20022 payment format</span></span>                                                                      | <span data-ttu-id="0a8cb-274">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-274">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-275">为有直接借记授权的客户创建付款</span><span class="sxs-lookup"><span data-stu-id="0a8cb-275">Create payments for customer who have direct debit mandates</span></span>                                                                          | <span data-ttu-id="0a8cb-276">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-276">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-277">**\***EE-00015 付款参考生成工具</span><span class="sxs-lookup"><span data-stu-id="0a8cb-277">**\***EE-00015 Payment reference generation tool</span></span>                                                                                     | <span data-ttu-id="0a8cb-278">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-278">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-279">EUR-00002 生成欧盟内部统计申报</span><span class="sxs-lookup"><span data-stu-id="0a8cb-279">EUR-00002 Generate an EU Intrastat declaration</span></span>                                                                                       | <span data-ttu-id="0a8cb-280">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-280">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-281">**\***EUR-00002 为集团内部交易指定装货地址</span><span class="sxs-lookup"><span data-stu-id="0a8cb-281">**\***EUR-00002 Specify a lading address for an intra-community transaction</span></span>                                                          | <span data-ttu-id="0a8cb-282">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-282">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-283">EUR-00002 将交易记录转移到内部统计</span><span class="sxs-lookup"><span data-stu-id="0a8cb-283">EUR-00002 Transfer transactions to the Intrastat</span></span>                                                                                     | <span data-ttu-id="0a8cb-284">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-284">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-285">EUR-00011 生成欧盟（EU）销售清单报表</span><span class="sxs-lookup"><span data-stu-id="0a8cb-285">EUR-00011 Generate the EU sales list report</span></span>                                                                                          | <span data-ttu-id="0a8cb-286">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-286">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-287">EUR-00011 设置EU销售清单报表</span><span class="sxs-lookup"><span data-stu-id="0a8cb-287">EUR-00011 Set up EU sales list reporting</span></span>                                                                                             | <span data-ttu-id="0a8cb-288">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-288">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-289">EUR-00012 颁发欧盟记账证书。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-289">EUR-00012 Issue an EU entry certificate</span></span>                                                                                              | <span data-ttu-id="0a8cb-290">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-290">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-291">EUR-00012 获得EU 记账证书。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-291">EUR-00012 Receive an EU entry certificate</span></span>                                                                                            | <span data-ttu-id="0a8cb-292">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-292">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-293">**\***EUR-00015 使用增值税 ID 搜索当事方</span><span class="sxs-lookup"><span data-stu-id="0a8cb-293">**\***EUR-00015 Party search using VAT ID</span></span>                                                                                            | <span data-ttu-id="0a8cb-294">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-294">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-295">**\***EUR-00015 登记供应商增值税 ID</span><span class="sxs-lookup"><span data-stu-id="0a8cb-295">**\***EUR-00015 Registration of vendor VAT ID</span></span>                                                                                        | <span data-ttu-id="0a8cb-296">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-296">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-297">**\***EUR-00015 设置增值税 ID</span><span class="sxs-lookup"><span data-stu-id="0a8cb-297">**\***EUR-00015 Set up VAT ID</span></span>                                                                                                        | <span data-ttu-id="0a8cb-298">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-298">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-299">**\***HU-00001 汇率计算</span><span class="sxs-lookup"><span data-stu-id="0a8cb-299">**\***HU-00001 Exchange rate calculation</span></span>                                                                                             | <span data-ttu-id="0a8cb-300">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-300">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-301">导入 ISO20022 信用转帐配置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-301">Import ISO20022 credit transfer configuration</span></span>                                                                                        | <span data-ttu-id="0a8cb-302">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-302">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-303">导入 ISO20022 直接转帐配置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-303">Import ISO20022 direct debit configuration</span></span>                                                                                           | <span data-ttu-id="0a8cb-304">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-304">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-305">**\***LT-00003 公司内货物转移的转移单据/为内部库存转移生成转移单据</span><span class="sxs-lookup"><span data-stu-id="0a8cb-305">**\***LT-00003 Transfer document for goods movement inside company/Generate a transfer document for an internal inventory transfer</span></span>   | <span data-ttu-id="0a8cb-306">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-306">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-307">**\***LT-00003 公司内货物转移的转移单据/为公司内货物转移设置转移单据</span><span class="sxs-lookup"><span data-stu-id="0a8cb-307">**\***LT-00003 Transfer document for goods movement inside company/Set up the transfer documents for goods movement inside a company</span></span> | <span data-ttu-id="0a8cb-308">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-308">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-309">**\***NO-00002 基于付款 ID 的客户付款</span><span class="sxs-lookup"><span data-stu-id="0a8cb-309">**\***NO-00002 Customer payment based on payment ID</span></span>                                                                                  | <span data-ttu-id="0a8cb-310">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-310">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-311">设置 ISO20022 贷方转帐的公司银行帐户</span><span class="sxs-lookup"><span data-stu-id="0a8cb-311">Set up company bank accounts for ISO20022 credit transfers</span></span>                                                                           | <span data-ttu-id="0a8cb-312">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-312">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-313">设置 ISO20022 直接借记的公司银行帐户</span><span class="sxs-lookup"><span data-stu-id="0a8cb-313">Set up company bank accounts for ISO20022 direct debits</span></span>                                                                              | <span data-ttu-id="0a8cb-314">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-314">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-315">设置 ISO20022 直接借记的客户和客户银行帐户</span><span class="sxs-lookup"><span data-stu-id="0a8cb-315">Set up customers and customer bank accounts for ISO20022 direct debits</span></span>                                                               | <span data-ttu-id="0a8cb-316">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-316">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-317">设置 ISO20022 贷方转帐的付款方式</span><span class="sxs-lookup"><span data-stu-id="0a8cb-317">Set up method of payment for ISO20022 credit transfer</span></span>                                                                                | <span data-ttu-id="0a8cb-318">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-318">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-319">设置 ISO20022 直接借记的付款方式</span><span class="sxs-lookup"><span data-stu-id="0a8cb-319">Set up method of payment for ISO20022 direct debit</span></span>                                                                                   | <span data-ttu-id="0a8cb-320">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-320">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-321">设置 ISO20022 贷方转帐的供应商和供应商银行帐户</span><span class="sxs-lookup"><span data-stu-id="0a8cb-321">Set up vendors and vendor bank accounts for ISO20022 credit transfers</span></span>                                                                | <span data-ttu-id="0a8cb-322">欧洲</span><span class="sxs-lookup"><span data-stu-id="0a8cb-322">Europe</span></span>                            |
+| <span data-ttu-id="0a8cb-323">设定客户付款方式</span><span class="sxs-lookup"><span data-stu-id="0a8cb-323">Establish customer methods of payment</span></span>                                                                                                | <span data-ttu-id="0a8cb-324">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-324">France</span></span>                            |
+| <span data-ttu-id="0a8cb-325">FR-00002 客户和供应商帐户</span><span class="sxs-lookup"><span data-stu-id="0a8cb-325">FR-00002 Customer and vendor account</span></span>                                                                                                 | <span data-ttu-id="0a8cb-326">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-326">France</span></span>                            |
+| <span data-ttu-id="0a8cb-327">FR-00003 NAF 代码和 Siret 编号</span><span class="sxs-lookup"><span data-stu-id="0a8cb-327">FR-00003 NAF codes and Siret numbers</span></span>                                                                                                 | <span data-ttu-id="0a8cb-328">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-328">France</span></span>                            |
+| <span data-ttu-id="0a8cb-329">FR-00004 审核和过帐签发汇票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-329">FR-00004 Approve and post draw bill of exchange</span></span>                                                                                      | <span data-ttu-id="0a8cb-330">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-330">France</span></span>                            |
+| <span data-ttu-id="0a8cb-331">FR-00004 法国汇票和本票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-331">FR-00004 French bills of exchange and promissory notes</span></span>                                                                               | <span data-ttu-id="0a8cb-332">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-332">France</span></span>                            |
+| <span data-ttu-id="0a8cb-333">FR-00004 过账拒收汇票账目项</span><span class="sxs-lookup"><span data-stu-id="0a8cb-333">FR-00004 Post protest draw bill of exchange journal</span></span>                                                                                  | <span data-ttu-id="0a8cb-334">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-334">France</span></span>                            |
+| <span data-ttu-id="0a8cb-335">FR-00004 过账重签汇票的账目项 </span><span class="sxs-lookup"><span data-stu-id="0a8cb-335">FR-00004 Post re-draw bill of exchange journal</span></span>                                                                                       | <span data-ttu-id="0a8cb-336">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-336">France</span></span>                            |
+| <span data-ttu-id="0a8cb-337">FR-00004 设立付款方法</span><span class="sxs-lookup"><span data-stu-id="0a8cb-337">FR-00004 Setup method of payment</span></span>                                                                                                     | <span data-ttu-id="0a8cb-338">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-338">France</span></span>                            |
+| <span data-ttu-id="0a8cb-339">FR-00004 更新客户付款方式</span><span class="sxs-lookup"><span data-stu-id="0a8cb-339">FR-00004 Update method of payment on customer</span></span>                                                                                        | <span data-ttu-id="0a8cb-340">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-340">France</span></span>                            |
+| <span data-ttu-id="0a8cb-341">FR-00018 延时付款的日息计算以及在发票和催款信中的总额体现</span><span class="sxs-lookup"><span data-stu-id="0a8cb-341">FR-00018 Daily interest calculation for late payment and lump sum in the invoice and collection letter</span></span>                               | <span data-ttu-id="0a8cb-342">法国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-342">France</span></span>                            |
+| <span data-ttu-id="0a8cb-343">自定义德国审计文件配置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-343">Customize German audit file configuration</span></span>                                                                                            | <span data-ttu-id="0a8cb-344">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-344">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-345">DE-00002 第二年额外购买导致的固定资产折旧调整</span><span class="sxs-lookup"><span data-stu-id="0a8cb-345">DE-00002 Depreciation adjustments for additional acquisitions in the second year</span></span>                                                     | <span data-ttu-id="0a8cb-346">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-346">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-347">DE-00003 电子发送增值税申报（ELSTER）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-347">DE-00003 Electronic transmission of VAT declaration (ELSTER)</span></span>                                                                         | <span data-ttu-id="0a8cb-348">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-348">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-349">ER 配置目标</span><span class="sxs-lookup"><span data-stu-id="0a8cb-349">ER Configure destinations</span></span>                                                                                                            | <span data-ttu-id="0a8cb-350">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-350">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-351">ER 配置格式以执行盘点和合计（第 1 部分：创建格式）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-351">ER Configure format to do counting and summing (Part 1: Create format)</span></span>                                                               | <span data-ttu-id="0a8cb-352">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-352">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-353">ER 配置格式以执行盘点和合计（第 2 部分：配置计算）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-353">ER Configure format to do counting and summing (Part 2: Configure computations)</span></span>                                                      | <span data-ttu-id="0a8cb-354">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-354">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-355">ER 配置格式以执行盘点和合计（第 3 部分：使用计算生成输出）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-355">ER Configure format to do counting and summing (Part 3: Use computations to make the output)</span></span>                                         | <span data-ttu-id="0a8cb-356">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-356">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-357">ER 配置格式以执行盘点和合计（第 4 部分：运行格式）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-357">ER Configure format to do counting and summing (Part 4: Run format)</span></span>                                                                  | <span data-ttu-id="0a8cb-358">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-358">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-359">ER 创建一个配置提供程序，并标记其为当前运行的</span><span class="sxs-lookup"><span data-stu-id="0a8cb-359">ER Create a configuration provider and mark it as active</span></span>                                                                             | <span data-ttu-id="0a8cb-360">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-360">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-361">ER 设计以 Microsoft WORD 格式生成报表的配置（2016 年 11 月）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-361">ER Design a configuration for generating reports in Microsoft WORD format (November 2016)</span></span>                                            | <span data-ttu-id="0a8cb-362">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-362">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-363">ER 设计域特定数据模型（2016 年 11 月）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-363">ER Design domain specific data model (November 2016)</span></span>                                                                                 | <span data-ttu-id="0a8cb-364">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-364">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-365">ER 从 Lifecycle Services 导入配置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-365">ER Import a configuration from Lifecycle Services</span></span>                                                                                    | <span data-ttu-id="0a8cb-366">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-366">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-367">ER 上载配置到 Lifecycle Services</span><span class="sxs-lookup"><span data-stu-id="0a8cb-367">ER Upload a configuration into Lifecycle Services</span></span>                                                                                    | <span data-ttu-id="0a8cb-368">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-368">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-369">ER 在格式输出中使用票据管理文件（第 1 部分：准备数据模型）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-369">ER Use Document Management files in format outputs (Part 1: Prepare data model)</span></span>                                                      | <span data-ttu-id="0a8cb-370">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-370">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-371">ER 在格式输出中使用票据管理文件（第 2 部分：扩展数据模型）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-371">ER Use Document Management files in format outputs (Part 2: Extend data model)</span></span>                                                       | <span data-ttu-id="0a8cb-372">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-372">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-373">ER 在格式输出中使用票据管理文件（第 3 部分：创建格式）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-373">ER Use Document Management files in format outputs (Part 3: Create format)</span></span>                                                           | <span data-ttu-id="0a8cb-374">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-374">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-375">ER 在格式输出中使用票据管理文件（第 4 部分：运行格式）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-375">ER Use Document Management files in format outputs (Part 4: Run format)</span></span>                                                              | <span data-ttu-id="0a8cb-376">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-376">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-377">ER 在格式输出中使用票据管理文件（第 5 部分：修改和运行格式）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-377">ER Use Document Management files in format outputs (Part 5: Modify and run format)</span></span>                                                   | <span data-ttu-id="0a8cb-378">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-378">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-379">ER 将财务维度用作数据源（第 1 部分：设计数据模型）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-379">ER Use financial dimensions as a data source (Part 1: Design data model)</span></span>                                                             | <span data-ttu-id="0a8cb-380">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-380">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-381">ER 将财务维度用作数据源（第 2 部分：模型映射）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-381">ER Use financial dimensions as a data source (Part 2: Model mapping)</span></span>                                                                 | <span data-ttu-id="0a8cb-382">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-382">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-383">ER 将财务维度用作数据源（第 3 部分：设计报表）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-383">ER Use financial dimensions as a data source (Part 3: Design the report)</span></span>                                                             | <span data-ttu-id="0a8cb-384">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-384">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-385">ER 将财务维度用作数据源（第 4 部分：运行报表）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-385">ER Use financial dimensions as a data source (Part 4: Run the report)</span></span>                                                                | <span data-ttu-id="0a8cb-386">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-386">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-387">ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 1 部分：设计格式）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-387">ER Use horizontally expandable ranges to dynamically add columns in Excel reports (Part 1: Design format)</span></span>                            | <span data-ttu-id="0a8cb-388">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-388">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-389">ER 使用可水平扩展的范围在 Excel 报表中动态添加列（第 2 部分：运行格式）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-389">ER Use horizontally expandable ranges to dynamically add columns in Excel reports (Part 2: Run format)</span></span>                               | <span data-ttu-id="0a8cb-390">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-390">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-391">生成德国审计文件</span><span class="sxs-lookup"><span data-stu-id="0a8cb-391">Generate German audit file</span></span>                                                                                                           | <span data-ttu-id="0a8cb-392">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-392">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-393">导入德国审计文件配置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-393">Import German audit file configuration</span></span>                                                                                               | <span data-ttu-id="0a8cb-394">德国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-394">Germany</span></span>                           |
+| <span data-ttu-id="0a8cb-395">**\***EUR-00018 VAT 对帐报表</span><span class="sxs-lookup"><span data-stu-id="0a8cb-395">**\***EUR-00018 VAT reconciliation report</span></span>                                                                                            | <span data-ttu-id="0a8cb-396">冰岛</span><span class="sxs-lookup"><span data-stu-id="0a8cb-396">Iceland</span></span>                           |
+| <span data-ttu-id="0a8cb-397">IS-00006 供应商发票申报/创建供应商帐户并附加该发票申报</span><span class="sxs-lookup"><span data-stu-id="0a8cb-397">IS-00006 Vendor invoice declaration/Create a vendor account and attach the invoice declaration</span></span>                                       | <span data-ttu-id="0a8cb-398">冰岛</span><span class="sxs-lookup"><span data-stu-id="0a8cb-398">Iceland</span></span>                           |
+| <span data-ttu-id="0a8cb-399">IS-00006 供应商发票申报/设置供应商的发票申报</span><span class="sxs-lookup"><span data-stu-id="0a8cb-399">IS-00006 Vendor invoice declaration/Set up an invoice declaration for vendors</span></span>                                                        | <span data-ttu-id="0a8cb-400">冰岛</span><span class="sxs-lookup"><span data-stu-id="0a8cb-400">Iceland</span></span>                           |
+| <span data-ttu-id="0a8cb-401">IS-00006 供应商发票申报/更新供应商发票申报并生成报表</span><span class="sxs-lookup"><span data-stu-id="0a8cb-401">IS-00006 Vendor invoice declaration/Update vendor invoice declarations and generate the report</span></span>                                       | <span data-ttu-id="0a8cb-402">冰岛</span><span class="sxs-lookup"><span data-stu-id="0a8cb-402">Iceland</span></span>                           |
+| <span data-ttu-id="0a8cb-403">维护会计科目表/设置必付款参考</span><span class="sxs-lookup"><span data-stu-id="0a8cb-403">Maintain chart of accounts/Set up mandatory payment references</span></span>                                                                       | <span data-ttu-id="0a8cb-404">冰岛</span><span class="sxs-lookup"><span data-stu-id="0a8cb-404">Iceland</span></span>                           |
+| <span data-ttu-id="0a8cb-405">使用资产报废合同购置固定资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-405">Acquire a fixed asset with asset retirement obligations</span></span>                                                                              | <span data-ttu-id="0a8cb-406">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-406">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-407">购置固定资产，要求政府授予</span><span class="sxs-lookup"><span data-stu-id="0a8cb-407">Acquire fixed assets, claim for the government grant</span></span>                                                                                 | <span data-ttu-id="0a8cb-408">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-408">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-409">调整资产报废合同评估</span><span class="sxs-lookup"><span data-stu-id="0a8cb-409">Adjustment of the asset retirement obligation estimate</span></span>                                                                               | <span data-ttu-id="0a8cb-410">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-410">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-411">将共用资产的储存金额和商誉分配到现金产出单元</span><span class="sxs-lookup"><span data-stu-id="0a8cb-411">Allocate the carrying amount of shared asset and goodwill to cash generating units</span></span>                                                   | <span data-ttu-id="0a8cb-412">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-412">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-413">在一项资产的资产使用年限内更改折旧方法</span><span class="sxs-lookup"><span data-stu-id="0a8cb-413">Change the depreciation method during the asset life for one asset</span></span>                                                                   | <span data-ttu-id="0a8cb-414">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-414">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-415">在帐簿的资产使用年限内更改折旧方法</span><span class="sxs-lookup"><span data-stu-id="0a8cb-415">Change the depreciation method during the asset life for book</span></span>                                                                        | <span data-ttu-id="0a8cb-416">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-416">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-417">配置累计折旧参数和过帐模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-417">Configure accelerated depreciation parameters and posting profiles</span></span>                                                                   | <span data-ttu-id="0a8cb-418">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-418">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-419">CN-00004 固定资产折旧分配 (JP-)</span><span class="sxs-lookup"><span data-stu-id="0a8cb-419">CN-00004 Fixed asset depreciation allocation (JP-)</span></span>                                                                                   | <span data-ttu-id="0a8cb-420">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-420">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-421">配置其他折旧的折旧模板和过帐模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-421">Configure a depreciation profile and a posting profile for additional depreciation</span></span>                                                   | <span data-ttu-id="0a8cb-422">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-422">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-423">配置特殊折旧的折旧模板和过帐模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-423">Configure a depreciation profile and a posting profile for special depreciation</span></span>                                                      | <span data-ttu-id="0a8cb-424">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-424">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-425">配置合并的发票参数和应付帐款的设置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-425">Configure consolidated invoice parameters and setup for accounts payable</span></span>                                                             | <span data-ttu-id="0a8cb-426">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-426">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-427">配置资产报废合同过帐和市场折扣率的主科目</span><span class="sxs-lookup"><span data-stu-id="0a8cb-427">Configure main accounts for asset retirement obligation posting and market discount rates</span></span>                                            | <span data-ttu-id="0a8cb-428">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-428">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-429">创建具有其他折旧的固定资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-429">Create a fixed asset with additional depreciation</span></span>                                                                                    | <span data-ttu-id="0a8cb-430">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-430">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-431">创建具有特殊折旧模板的固定资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-431">Create a fixed asset with special depreciation profile</span></span>                                                                               | <span data-ttu-id="0a8cb-432">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-432">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-433">创建加速折旧模板并将其分配给帐簿</span><span class="sxs-lookup"><span data-stu-id="0a8cb-433">Create accelerated depreciation profile and assign it to book</span></span>                                                                        | <span data-ttu-id="0a8cb-434">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-434">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-435">创建一个加速折旧文档并输入使用数据</span><span class="sxs-lookup"><span data-stu-id="0a8cb-435">Create an accelerated depreciation document and enter usage data</span></span>                                                                     | <span data-ttu-id="0a8cb-436">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-436">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-437">创建和分配设备组</span><span class="sxs-lookup"><span data-stu-id="0a8cb-437">Create and assign an equipment group</span></span>                                                                                                 | <span data-ttu-id="0a8cb-438">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-438">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-439">创建和分配减少条目单据</span><span class="sxs-lookup"><span data-stu-id="0a8cb-439">Create and assign reduction entry document</span></span>                                                                                           | <span data-ttu-id="0a8cb-440">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-440">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-441">创建并确认供应商合并的发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-441">Create and confirm a vendor consolidated invoice</span></span>                                                                                     | <span data-ttu-id="0a8cb-442">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-442">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-443">创建并确认确认测试</span><span class="sxs-lookup"><span data-stu-id="0a8cb-443">Create and confirm recognition test</span></span>                                                                                                  | <span data-ttu-id="0a8cb-444">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-444">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-445">创建 CGU 组和现金产出单元</span><span class="sxs-lookup"><span data-stu-id="0a8cb-445">Create CGU groups and cash generating units</span></span>                                                                                          | <span data-ttu-id="0a8cb-446">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-446">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-447">使用平均划分方法创建总计折旧资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-447">Create lump-sum depreciation assets using equally divided method</span></span>                                                                     | <span data-ttu-id="0a8cb-448">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-448">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-449">定义资产空闲期间和验证折旧流程</span><span class="sxs-lookup"><span data-stu-id="0a8cb-449">Define asset idle period and validate depreciation process</span></span>                                                                           | <span data-ttu-id="0a8cb-450">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-450">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-451">折旧和应计资产报废合同的利息支出</span><span class="sxs-lookup"><span data-stu-id="0a8cb-451">Depreciate and accrue the interest expense for asset retirement obligations</span></span>                                                          | <span data-ttu-id="0a8cb-452">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-452">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-453">具有已过帐缩减条目的固定资产折旧</span><span class="sxs-lookup"><span data-stu-id="0a8cb-453">Depreciation of fixed assets with reduction entry posted</span></span>                                                                             | <span data-ttu-id="0a8cb-454">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-454">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-455">处理具有缩减条目的固定资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-455">Dispose of a fixed asset with reduction entry</span></span>                                                                                        | <span data-ttu-id="0a8cb-456">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-456">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-457">支持 JBA 付款文件格式</span><span class="sxs-lookup"><span data-stu-id="0a8cb-457">Enable JBA payment file format</span></span>                                                                                                       | <span data-ttu-id="0a8cb-458">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-458">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-459">在折旧模板中输入折旧率计划和关联项</span><span class="sxs-lookup"><span data-stu-id="0a8cb-459">Enter depreciation rate schedule and associate to depreciation profile</span></span>                                                               | <span data-ttu-id="0a8cb-460">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-460">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-461">生成和过帐付款费用</span><span class="sxs-lookup"><span data-stu-id="0a8cb-461">Generate and post payment fee</span></span>                                                                                                        | <span data-ttu-id="0a8cb-462">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-462">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-463">以JBA(日本银行协会）格式生成一哥EFT（电子资金支付）付款文件</span><span class="sxs-lookup"><span data-stu-id="0a8cb-463">Generate an EFT payment file with the JBA format</span></span>                                                                                     | <span data-ttu-id="0a8cb-464">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-464">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-465">生成日本消费税报表</span><span class="sxs-lookup"><span data-stu-id="0a8cb-465">Generate Japan consumption tax report</span></span>                                                                                                | <span data-ttu-id="0a8cb-466">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-466">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-467">以JBA文件格式输入一个客户付款记录</span><span class="sxs-lookup"><span data-stu-id="0a8cb-467">Import a customer payment with a JBA file format</span></span>                                                                                     | <span data-ttu-id="0a8cb-468">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-468">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-469">查询日记帐中的付款费用</span><span class="sxs-lookup"><span data-stu-id="0a8cb-469">Inquiries of payment fee on journal</span></span>                                                                                                  | <span data-ttu-id="0a8cb-470">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-470">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-471">查询资产报废合同相关交易记录</span><span class="sxs-lookup"><span data-stu-id="0a8cb-471">Inquiries of the asset retirement obligation related transactions</span></span>                                                                    | <span data-ttu-id="0a8cb-472">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-472">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-473">查询可扣减费用</span><span class="sxs-lookup"><span data-stu-id="0a8cb-473">Inquiry on deductible expenses</span></span>                                                                                                       | <span data-ttu-id="0a8cb-474">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-474">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-475">JP-00005 在 T 帐户窗体中输入日记帐（日本）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-475">JP-00005 Input journal in T account form (Japan)</span></span>                                                                                     | <span data-ttu-id="0a8cb-476">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-476">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-477">JP-00011 合并的发票 - AR - 创建并确认客户合并的发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-477">JP-00011 Consolidated invoice - AR - Create and confirm a customer consolidated invoice</span></span>                                              | <span data-ttu-id="0a8cb-478">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-478">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-479">JP-00027 折旧税申请的窗体 26</span><span class="sxs-lookup"><span data-stu-id="0a8cb-479">JP-00027 Form 26 for depreciable tax declaration</span></span>                                                                                     | <span data-ttu-id="0a8cb-480">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-480">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-481">维护可扣减费用的固定资产主数据文件</span><span class="sxs-lookup"><span data-stu-id="0a8cb-481">Maintain fixed-asset master data files for Deductible expenses</span></span>                                                                       | <span data-ttu-id="0a8cb-482">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-482">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-483">维护单个资产减损指标</span><span class="sxs-lookup"><span data-stu-id="0a8cb-483">Maintain impairment indicators on individual assets</span></span>                                                                                  | <span data-ttu-id="0a8cb-484">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-484">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-485">通过客户汇票背书支付供应商交易</span><span class="sxs-lookup"><span data-stu-id="0a8cb-485">Pay a vendor transaction by endorsing a customer bill of exchange</span></span>                                                                    | <span data-ttu-id="0a8cb-486">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-486">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-487">过度折旧和折旧不足的定期结算</span><span class="sxs-lookup"><span data-stu-id="0a8cb-487">Periodic settlement of over and under depreciation</span></span>                                                                                   | <span data-ttu-id="0a8cb-488">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-488">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-489">建议其他折旧</span><span class="sxs-lookup"><span data-stu-id="0a8cb-489">Propose additional depreciation</span></span>                                                                                                      | <span data-ttu-id="0a8cb-490">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-490">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-491">建议并过帐加速折旧</span><span class="sxs-lookup"><span data-stu-id="0a8cb-491">Propose and post the accelerated depreciation</span></span>                                                                                        | <span data-ttu-id="0a8cb-492">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-492">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-493">按批次建议并过帐减损金额</span><span class="sxs-lookup"><span data-stu-id="0a8cb-493">Propose and post the impairment amount by batch</span></span>                                                                                      | <span data-ttu-id="0a8cb-494">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-494">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-495">通过使用固定资产日记帐建议并过帐减损金额</span><span class="sxs-lookup"><span data-stu-id="0a8cb-495">Propose and post the impairment amount by using fixed asset journal</span></span>                                                                  | <span data-ttu-id="0a8cb-496">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-496">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-497">在现金产出单元建议并过帐减损金额</span><span class="sxs-lookup"><span data-stu-id="0a8cb-497">Propose and post the impairment amount on a cash generating unit</span></span>                                                                     | <span data-ttu-id="0a8cb-498">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-498">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-499">建议特殊折旧</span><span class="sxs-lookup"><span data-stu-id="0a8cb-499">Propose special depreciation</span></span>                                                                                                         | <span data-ttu-id="0a8cb-500">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-500">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-501">重新打开和编辑客户合并的发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-501">Reopen and edit a customer consolidated invoice</span></span>                                                                                      | <span data-ttu-id="0a8cb-502">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-502">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-503">重新打开和编辑供应商合并的发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-503">Reopen and edit a vendor consolidated invoice</span></span>                                                                                        | <span data-ttu-id="0a8cb-504">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-504">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-505">冲销已背书的汇票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-505">Reverse an endorsed bill of exchange</span></span>                                                                                                 | <span data-ttu-id="0a8cb-506">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-506">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-507">运行确认测试和计算单个资产的减损金额</span><span class="sxs-lookup"><span data-stu-id="0a8cb-507">Run the recognition test and calculate the impairment amount on individual assets</span></span>                                                    | <span data-ttu-id="0a8cb-508">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-508">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-509">结算已背书的汇票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-509">Settle an endorsed bill of exchange</span></span>                                                                                                  | <span data-ttu-id="0a8cb-510">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-510">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-511">通过使用付款日记帐结算客户合并的发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-511">Settle customer consolidated invoices by using a payment journal</span></span>                                                                     | <span data-ttu-id="0a8cb-512">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-512">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-513">通过使用付款日记帐结算供应商合并的发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-513">Settle vendor consolidated invoices by using a payment journal</span></span>                                                                       | <span data-ttu-id="0a8cb-514">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-514">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-515">通过使用结算交易记录结算供应商合并的发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-515">Settle vendor consolidated invoices by using settle transactions</span></span>                                                                     | <span data-ttu-id="0a8cb-516">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-516">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-517">通过使用结算交易记录结算供应商合并的发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-517">Settle vendor consolidated invoices by using settle transactions</span></span>                                                                     | <span data-ttu-id="0a8cb-518">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-518">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-519">设置作为合并的发票的目标的客户和销售订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-519">Set up a customer and sales order to be target of consolidated invoice</span></span>                                                               | <span data-ttu-id="0a8cb-520">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-520">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-521">设置资产报废合同文档和在固定资产中输入 ARO 金额</span><span class="sxs-lookup"><span data-stu-id="0a8cb-521">Set up asset retirement obligation documents and enter ARO amount on a fixed asset</span></span>                                                   | <span data-ttu-id="0a8cb-522">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-522">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-523">设置合并的发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-523">Set up consolidated invoices</span></span>                                                                                                         | <span data-ttu-id="0a8cb-524">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-524">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-525">设置减损会计通用参数和过帐模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-525">Setup impairment accounting common parameters and posting profile</span></span>                                                                    | <span data-ttu-id="0a8cb-526">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-526">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-527">通过客户汇票背书设置日本付款</span><span class="sxs-lookup"><span data-stu-id="0a8cb-527">Setup Japan payment by endorsing a customer bill of exchange</span></span>                                                                         | <span data-ttu-id="0a8cb-528">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-528">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-529">设置包括多个过帐层的可扣减费用的主数据</span><span class="sxs-lookup"><span data-stu-id="0a8cb-529">Set up master data for inclusion of deductible expenses for multiple posting layers</span></span>                                                  | <span data-ttu-id="0a8cb-530">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-530">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-531">设置日本消费税报表</span><span class="sxs-lookup"><span data-stu-id="0a8cb-531">Setup Japan consumption tax report</span></span>                                                                                                   | <span data-ttu-id="0a8cb-532">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-532">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-533">设置日本付款费用</span><span class="sxs-lookup"><span data-stu-id="0a8cb-533">Setup payment fee for Japan</span></span>                                                                                                          | <span data-ttu-id="0a8cb-534">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-534">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-535">设置作为合并的发票的目标的供应商主数据和采购订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-535">Setup vendor master and purchase order to be target of consolidated invoice</span></span>                                                          | <span data-ttu-id="0a8cb-536">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-536">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-537">使用固定资产的装配清单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-537">Use assemble list of a fixed asset</span></span>                                                                                                   | <span data-ttu-id="0a8cb-538">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-538">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-539">使用固定资产的拆卸清单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-539">Use disassemble list for fixed assets</span></span>                                                                                                | <span data-ttu-id="0a8cb-540">日本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-540">Japan</span></span>                             |
+| <span data-ttu-id="0a8cb-541">MX-00006 设置销售税代码</span><span class="sxs-lookup"><span data-stu-id="0a8cb-541">MX-00006 Set up sales tax code</span></span>                                                                                                       | <span data-ttu-id="0a8cb-542">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-542">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-543">MX-00007 客户注册身份号及其它信息</span><span class="sxs-lookup"><span data-stu-id="0a8cb-543">MX-00007 Customer registration IDs and other information</span></span>                                                                             | <span data-ttu-id="0a8cb-544">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-544">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-545">MX-00008: 供应商注册号</span><span class="sxs-lookup"><span data-stu-id="0a8cb-545">MX-00008: Vendor registration IDs</span></span>                                                                                                    | <span data-ttu-id="0a8cb-546">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-546">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-547">MX-00010 取消电子发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-547">MX-00010 Cancel an electronic invoice</span></span>                                                                                                | <span data-ttu-id="0a8cb-548">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-548">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-549">MX-00010 CFDI 电子发票功能。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-549">MX-00010 E-invoicing CFDI</span></span>                                                                                                            | <span data-ttu-id="0a8cb-550">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-550">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-551">MX-00010 为墨西哥法人输入税务注册号</span><span class="sxs-lookup"><span data-stu-id="0a8cb-551">MX-00010 Enter tax registration IDs for Mexican legal entities</span></span>                                                                       | <span data-ttu-id="0a8cb-552">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-552">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-553">MX-00010 查询和打印电子发票。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-553">MX-00010 Inquire and print an electronic invoice</span></span>                                                                                     | <span data-ttu-id="0a8cb-554">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-554">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-555">MX-00010 过账非常规销售账目 </span><span class="sxs-lookup"><span data-stu-id="0a8cb-555">MX-00010 Post a free text invoice</span></span>                                                                                                    | <span data-ttu-id="0a8cb-556">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-556">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-557">MX-00010 为电子发票设置参数。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-557">MX-00010 Set parameters for an electronic invoice</span></span>                                                                                    | <span data-ttu-id="0a8cb-558">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-558">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-559">MX-00020：生成墨西哥电子分类记账报表（1.1 版本）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-559">MX-00020: Produce Mexican electronic ledger accounting report version 1.1</span></span>                                                            | <span data-ttu-id="0a8cb-560">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-560">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-561">MX-00020 为墨西哥法人建立会计表</span><span class="sxs-lookup"><span data-stu-id="0a8cb-561">MX-00020 Set up the chart of accounts for a legal entity in Mexico</span></span>                                                                   | <span data-ttu-id="0a8cb-562">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-562">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-563">MX-00020 - 为墨西哥银行账号设定RFC注册号 </span><span class="sxs-lookup"><span data-stu-id="0a8cb-563">MX-00020 - Specify the RFC registration ID for Mexican bank accounts</span></span>                                                                 | <span data-ttu-id="0a8cb-564">墨西哥</span><span class="sxs-lookup"><span data-stu-id="0a8cb-564">Mexico</span></span>                            |
+| <span data-ttu-id="0a8cb-565">NL-00003 Semansys XBRL 集成</span><span class="sxs-lookup"><span data-stu-id="0a8cb-565">NL-00003 Semansys XBRL integration</span></span>                                                                                                   | <span data-ttu-id="0a8cb-566">荷兰</span><span class="sxs-lookup"><span data-stu-id="0a8cb-566">Netherlands</span></span>                       |
+| <span data-ttu-id="0a8cb-567">NL-00010 电子报税(EVAT)</span><span class="sxs-lookup"><span data-stu-id="0a8cb-567">NL-00010 Electronic tax declarations (EVAT)</span></span>                                                                                          | <span data-ttu-id="0a8cb-568">荷兰</span><span class="sxs-lookup"><span data-stu-id="0a8cb-568">Netherlands</span></span>                       |
+| <span data-ttu-id="0a8cb-569">MY-00003 管理 GST 的客户借方通知单和贷方通知单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-569">MY-00003 Manage customer Debit note and Credit note for GST</span></span>                                                                          | <span data-ttu-id="0a8cb-570">新加坡、马来西亚和泰国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-570">Singapore, Malaysia, and Thailand</span></span> |
+| <span data-ttu-id="0a8cb-571">MY-00004 管理 GST 的供应商借方通知单和贷方通知单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-571">MY-00004 Manage vendor Debit note and Credit note for GST</span></span>                                                                            | <span data-ttu-id="0a8cb-572">新加坡、马来西亚和泰国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-572">Singapore, Malaysia, and Thailand</span></span> |
+| <span data-ttu-id="0a8cb-573">MY-00005 打印销售税发票。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-573">MY-00005 Print GST tax invoices</span></span>                                                                                                      | <span data-ttu-id="0a8cb-574">新加坡、马来西亚和泰国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-574">Singapore, Malaysia, and Thailand</span></span> |
+| <span data-ttu-id="0a8cb-575">MY-00006 01 设置 GST 减免条款</span><span class="sxs-lookup"><span data-stu-id="0a8cb-575">MY-00006 01 Set up GST relief clauses</span></span>                                                                                                | <span data-ttu-id="0a8cb-576">新加坡、马来西亚和泰国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-576">Singapore, Malaysia, and Thailand</span></span> |
+| <span data-ttu-id="0a8cb-577">MY-00006 02 打印带豁免条款的客户销售税发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-577">MY-00006 02 Print GST customer invoices with a relief clause</span></span>                                                                         | <span data-ttu-id="0a8cb-578">新加坡、马来西亚和泰国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-578">Singapore, Malaysia, and Thailand</span></span> |
+| <span data-ttu-id="0a8cb-579">MY-00007 自用发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-579">MY-00007 Self-billed invoices</span></span>                                                                                                        | <span data-ttu-id="0a8cb-580">新加坡、马来西亚和泰国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-580">Singapore, Malaysia, and Thailand</span></span> |
+| <span data-ttu-id="0a8cb-581">MY-00010 GST - 按需要的格式生成 GAF 文件</span><span class="sxs-lookup"><span data-stu-id="0a8cb-581">MY-00010 GST - Generate GAF files in the required format</span></span>                                                                             | <span data-ttu-id="0a8cb-582">新加坡、马来西亚和泰国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-582">Singapore, Malaysia, and Thailand</span></span> |
+| <span data-ttu-id="0a8cb-583">MY-00011 02 为项目销售生成客户付款通知。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-583">MY-00011 02 Generate Customer Debit Note for Project sales</span></span>                                                                           | <span data-ttu-id="0a8cb-584">新加坡、马来西亚和泰国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-584">Singapore, Malaysia, and Thailand</span></span> |
+| <span data-ttu-id="0a8cb-585">MY-00011 03 生成项目销售的客户贷方通知单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-585">MY-00011 03 Generate Customer Credit note for Project sales</span></span>                                                                          | <span data-ttu-id="0a8cb-586">新加坡、马来西亚和泰国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-586">Singapore, Malaysia, and Thailand</span></span> |
+| <span data-ttu-id="0a8cb-587"> 创建包括要求逆向征收增值税的物料的采购订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-587">Create a purchase order that includes items subject to reverse charge VAT</span></span>                                                            | <span data-ttu-id="0a8cb-588">英国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-588">United Kingdom</span></span>                    |
+| <span data-ttu-id="0a8cb-589"> 创建包括应该逆向征收增值税的项的销售订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-589">Create a sales order that includes items subject to reverse charge VAT</span></span>                                                               | <span data-ttu-id="0a8cb-590">英国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-590">United Kingdom</span></span>                    |
+| <span data-ttu-id="0a8cb-591">GB-00002 设立增值税退税设立物料组，规则及参数。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-591">GB-00002 Set up reverse charge VAT item groups, rules, and parameters</span></span>                                                                | <span data-ttu-id="0a8cb-592">英国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-592">United Kingdom</span></span>                    |
+| <span data-ttu-id="0a8cb-593">GB-00009 为结账折扣生成信用证。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-593">GB-00009 Create a credit note on the settlement discount</span></span>                                                                             | <span data-ttu-id="0a8cb-594">英国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-594">United Kingdom</span></span>                    |
+| <span data-ttu-id="0a8cb-595">GB-00009 为现金付账折扣信用证设置参数。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-595">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                                                 | <span data-ttu-id="0a8cb-596">英国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-596">United Kingdom</span></span>                    |
+| <span data-ttu-id="0a8cb-597"> 设置反向增值税的物料销售税组</span><span class="sxs-lookup"><span data-stu-id="0a8cb-597">Set up item sales tax groups for reverse charge VAT</span></span>                                                                                  | <span data-ttu-id="0a8cb-598">英国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-598">United Kingdom</span></span>                    |
+| <span data-ttu-id="0a8cb-599"> 设置反向增值税的销售税组</span><span class="sxs-lookup"><span data-stu-id="0a8cb-599">Set up sales tax groups for reverse charge VAT</span></span>                                                                                       | <span data-ttu-id="0a8cb-600">英国</span><span class="sxs-lookup"><span data-stu-id="0a8cb-600">United Kingdom</span></span>                    |
 
 ### 
 
-### <a name="expense-management"></a>费用报销管理
+### <a name="expense-management"></a><span data-ttu-id="0a8cb-601">费用报销管理</span><span class="sxs-lookup"><span data-stu-id="0a8cb-601">Expense management</span></span>
 
-| BPM line / 磁墨字符识别行                     | 国家/地区 |
+| <span data-ttu-id="0a8cb-602">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-602">BPM line</span></span>                     | <span data-ttu-id="0a8cb-603">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-603">Country/region</span></span> |
 |------------------------------|----------------|
-| 配置费用管理 | 全局         |
+| <span data-ttu-id="0a8cb-604">配置费用管理</span><span class="sxs-lookup"><span data-stu-id="0a8cb-604">Configure expense management</span></span> | <span data-ttu-id="0a8cb-605">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-605">Global</span></span>         |
 
 ### 
 
-### <a name="fixed-assets"></a>固定资产
+### <a name="fixed-assets"></a><span data-ttu-id="0a8cb-606">固定资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-606">Fixed assets</span></span>
 
-| BPM line / 磁墨字符识别行                                                  | 国家/地区 |
+| <span data-ttu-id="0a8cb-607">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-607">BPM line</span></span>                                                  | <span data-ttu-id="0a8cb-608">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-608">Country/region</span></span> |
 |-----------------------------------------------------------|----------------|
-| 计算多个法人之间的固定资产折旧  | 全局         |
-| 更改资产组                                        | 全局         |
-| 更改多项固定资产的折旧惯例 | 全局         |
-| 创建固定资产                                      | 全局         |
-| 从应付帐款创建和购置资产           | 全局         |
-| 创建折旧方案                              | 全局         |
-| 使用普通发票处理固定资产        | 全局         |
-| 输入对固定资产的添加件                        | 全局         |
-| 建议固定资产购置                          | 全局         |
-| 将固定资产重新分类                                   | 全局         |
-| 设置固定资产帐簿                                 | 全局         |
-| 设置和创建折旧模板                   | 全局         |
-| 设置额外折旧                                 | 全局         |
-| 设置折旧帐簿                                 | 全局         |
-| 设置固定资产组                                 | 全局         |
-| 设置固定资产过帐模板                       | 全局         |
-| 拆分固定资产                                       | 全局         |
-| 转移固定资产。                                    | 全局         |
+| <span data-ttu-id="0a8cb-609">计算多个法人之间的固定资产折旧</span><span class="sxs-lookup"><span data-stu-id="0a8cb-609">Calculate fixed asset depreciation across legal entities</span></span>  | <span data-ttu-id="0a8cb-610">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-610">Global</span></span>         |
+| <span data-ttu-id="0a8cb-611">更改资产组</span><span class="sxs-lookup"><span data-stu-id="0a8cb-611">Change asset group</span></span>                                        | <span data-ttu-id="0a8cb-612">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-612">Global</span></span>         |
+| <span data-ttu-id="0a8cb-613">更改多项固定资产的折旧惯例</span><span class="sxs-lookup"><span data-stu-id="0a8cb-613">Change depreciation conventions for multiple fixed assets</span></span> | <span data-ttu-id="0a8cb-614">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-614">Global</span></span>         |
+| <span data-ttu-id="0a8cb-615">创建固定资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-615">Create a fixed asset</span></span>                                      | <span data-ttu-id="0a8cb-616">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-616">Global</span></span>         |
+| <span data-ttu-id="0a8cb-617">从应付帐款创建和购置资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-617">Create and acquire assets from accounts payable</span></span>           | <span data-ttu-id="0a8cb-618">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-618">Global</span></span>         |
+| <span data-ttu-id="0a8cb-619">创建折旧方案</span><span class="sxs-lookup"><span data-stu-id="0a8cb-619">Create depreciation proposal</span></span>                              | <span data-ttu-id="0a8cb-620">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-620">Global</span></span>         |
+| <span data-ttu-id="0a8cb-621">使用普通发票处理固定资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-621">Dispose of a fixed asset using a free text invoice</span></span>        | <span data-ttu-id="0a8cb-622">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-622">Global</span></span>         |
+| <span data-ttu-id="0a8cb-623">输入对固定资产的添加件</span><span class="sxs-lookup"><span data-stu-id="0a8cb-623">Enter an addition to a fixed asset</span></span>                        | <span data-ttu-id="0a8cb-624">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-624">Global</span></span>         |
+| <span data-ttu-id="0a8cb-625">建议固定资产购置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-625">Propose fixed asset acquisitions</span></span>                          | <span data-ttu-id="0a8cb-626">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-626">Global</span></span>         |
+| <span data-ttu-id="0a8cb-627">将固定资产重新分类</span><span class="sxs-lookup"><span data-stu-id="0a8cb-627">Reclassify fixed assets</span></span>                                   | <span data-ttu-id="0a8cb-628">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-628">Global</span></span>         |
+| <span data-ttu-id="0a8cb-629">设置固定资产帐簿</span><span class="sxs-lookup"><span data-stu-id="0a8cb-629">Set up a fixed asset book</span></span>                                 | <span data-ttu-id="0a8cb-630">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-630">Global</span></span>         |
+| <span data-ttu-id="0a8cb-631">设置和创建折旧模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-631">Set up and create depreciation profiles</span></span>                   | <span data-ttu-id="0a8cb-632">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-632">Global</span></span>         |
+| <span data-ttu-id="0a8cb-633">设置额外折旧</span><span class="sxs-lookup"><span data-stu-id="0a8cb-633">Set up bonus depreciation</span></span>                                 | <span data-ttu-id="0a8cb-634">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-634">Global</span></span>         |
+| <span data-ttu-id="0a8cb-635">设置折旧帐簿</span><span class="sxs-lookup"><span data-stu-id="0a8cb-635">Set up depreciation books</span></span>                                 | <span data-ttu-id="0a8cb-636">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-636">Global</span></span>         |
+| <span data-ttu-id="0a8cb-637">设置固定资产组</span><span class="sxs-lookup"><span data-stu-id="0a8cb-637">Set up fixed asset groups</span></span>                                 | <span data-ttu-id="0a8cb-638">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-638">Global</span></span>         |
+| <span data-ttu-id="0a8cb-639">设置固定资产过帐模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-639">Set up fixed asset posting profiles</span></span>                       | <span data-ttu-id="0a8cb-640">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-640">Global</span></span>         |
+| <span data-ttu-id="0a8cb-641">拆分固定资产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-641">Split a fixed asset</span></span>                                       | <span data-ttu-id="0a8cb-642">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-642">Global</span></span>         |
+| <span data-ttu-id="0a8cb-643">转移固定资产。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-643">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="0a8cb-644">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-644">Global</span></span>         |
 
 ### 
 
-### <a name="general-ledger"></a>总帐
+### <a name="general-ledger"></a><span data-ttu-id="0a8cb-645">总帐</span><span class="sxs-lookup"><span data-stu-id="0a8cb-645">General ledger</span></span>
 
-| BPM line / 磁墨字符识别行                                       | 国家/地区 |
+| <span data-ttu-id="0a8cb-646">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-646">BPM line</span></span>                                       | <span data-ttu-id="0a8cb-647">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-647">Country/region</span></span> |
 |------------------------------------------------|----------------|
-| 关帐会计年度                          | 全局         |
-| 使用模板创建日记帐分录        | 全局         |
-| 创建主科目                          | 全局         |
-| 创建科目结构                      | 全局         |
-| 创建应计方案                         | 全局         |
-| 创建高级日记帐规则             | 全局         |
-| 创建和验证日记帐                   | 全局         |
-| 创建分类帐应计交易记录             | 全局         |
-| 定义财务维度                    | 全局         |
-| 将过帐日记帐条目记入日记帐              | 全局         |
-| 维护财务维度模板         | 全局         |
-| 财务期间批量关闭                    | 全局         |
-| 处理日记帐条目                        | 全局         |
-| 处理分类帐分配日记帐              | 全局         |
-| 设置会计科目别名                  | 全局         |
-| 设置主科目类别                 | 全局         |
-| 结算会计科目之间的交易记录    | 全局         |
-| 查看日记帐分录或交易记录。           | 全局         |
-| 查看日记帐中的相关内部公司凭证 | 全局         |
+| <span data-ttu-id="0a8cb-648">关帐会计年度</span><span class="sxs-lookup"><span data-stu-id="0a8cb-648">Close the fiscal year</span></span>                          | <span data-ttu-id="0a8cb-649">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-649">Global</span></span>         |
+| <span data-ttu-id="0a8cb-650">使用模板创建日记帐分录</span><span class="sxs-lookup"><span data-stu-id="0a8cb-650">Create a journal entry using a template</span></span>        | <span data-ttu-id="0a8cb-651">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-651">Global</span></span>         |
+| <span data-ttu-id="0a8cb-652">创建主科目</span><span class="sxs-lookup"><span data-stu-id="0a8cb-652">Create a main account</span></span>                          | <span data-ttu-id="0a8cb-653">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-653">Global</span></span>         |
+| <span data-ttu-id="0a8cb-654">创建科目结构</span><span class="sxs-lookup"><span data-stu-id="0a8cb-654">Create account structures</span></span>                      | <span data-ttu-id="0a8cb-655">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-655">Global</span></span>         |
+| <span data-ttu-id="0a8cb-656">创建应计方案</span><span class="sxs-lookup"><span data-stu-id="0a8cb-656">Create accrual schemes</span></span>                         | <span data-ttu-id="0a8cb-657">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-657">Global</span></span>         |
+| <span data-ttu-id="0a8cb-658">创建高级日记帐规则</span><span class="sxs-lookup"><span data-stu-id="0a8cb-658">Create advanced rules for journals</span></span>             | <span data-ttu-id="0a8cb-659">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-659">Global</span></span>         |
+| <span data-ttu-id="0a8cb-660">创建和验证日记帐</span><span class="sxs-lookup"><span data-stu-id="0a8cb-660">Create and validate journals</span></span>                   | <span data-ttu-id="0a8cb-661">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-661">Global</span></span>         |
+| <span data-ttu-id="0a8cb-662">创建分类帐应计交易记录</span><span class="sxs-lookup"><span data-stu-id="0a8cb-662">Create ledger accrual transactions</span></span>             | <span data-ttu-id="0a8cb-663">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-663">Global</span></span>         |
+| <span data-ttu-id="0a8cb-664">定义财务维度</span><span class="sxs-lookup"><span data-stu-id="0a8cb-664">Define financial dimensions</span></span>                    | <span data-ttu-id="0a8cb-665">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-665">Global</span></span>         |
+| <span data-ttu-id="0a8cb-666">将过帐日记帐条目记入日记帐</span><span class="sxs-lookup"><span data-stu-id="0a8cb-666">Journalize posted journal entries</span></span>              | <span data-ttu-id="0a8cb-667">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-667">Global</span></span>         |
+| <span data-ttu-id="0a8cb-668">维护财务维度模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-668">Maintain financial dimension templates</span></span>         | <span data-ttu-id="0a8cb-669">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-669">Global</span></span>         |
+| <span data-ttu-id="0a8cb-670">财务期间批量关闭</span><span class="sxs-lookup"><span data-stu-id="0a8cb-670">Mass financial period close</span></span>                    | <span data-ttu-id="0a8cb-671">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-671">Global</span></span>         |
+| <span data-ttu-id="0a8cb-672">处理日记帐条目</span><span class="sxs-lookup"><span data-stu-id="0a8cb-672">Process journal entries</span></span>                        | <span data-ttu-id="0a8cb-673">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-673">Global</span></span>         |
+| <span data-ttu-id="0a8cb-674">处理分类帐分配日记帐</span><span class="sxs-lookup"><span data-stu-id="0a8cb-674">Process ledger allocation journal</span></span>              | <span data-ttu-id="0a8cb-675">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-675">Global</span></span>         |
+| <span data-ttu-id="0a8cb-676">设置会计科目别名</span><span class="sxs-lookup"><span data-stu-id="0a8cb-676">Set up a ledger account alias</span></span>                  | <span data-ttu-id="0a8cb-677">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-677">Global</span></span>         |
+| <span data-ttu-id="0a8cb-678">设置主科目类别</span><span class="sxs-lookup"><span data-stu-id="0a8cb-678">Set up main account categories</span></span>                 | <span data-ttu-id="0a8cb-679">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-679">Global</span></span>         |
+| <span data-ttu-id="0a8cb-680">结算会计科目之间的交易记录</span><span class="sxs-lookup"><span data-stu-id="0a8cb-680">Settle transactions between ledger accounts</span></span>    | <span data-ttu-id="0a8cb-681">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-681">Global</span></span>         |
+| <span data-ttu-id="0a8cb-682">查看日记帐分录或交易记录。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-682">View journal entries or transactions</span></span>           | <span data-ttu-id="0a8cb-683">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-683">Global</span></span>         |
+| <span data-ttu-id="0a8cb-684">查看日记帐中的相关内部公司凭证</span><span class="sxs-lookup"><span data-stu-id="0a8cb-684">View related intercompany voucher from journal</span></span> | <span data-ttu-id="0a8cb-685">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-685">Global</span></span>         |
 
 ### 
 
-### <a name="inbound-consignment"></a>入站托运
+### <a name="inbound-consignment"></a><span data-ttu-id="0a8cb-686">入站托运</span><span class="sxs-lookup"><span data-stu-id="0a8cb-686">Inbound consignment</span></span>
 
-| BPM line / 磁墨字符识别行                                                                       | 国家/地区 |
+| <span data-ttu-id="0a8cb-687">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-687">BPM line</span></span>                                                                       | <span data-ttu-id="0a8cb-688">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-688">Country/region</span></span> |
 |--------------------------------------------------------------------------------|----------------|
-| **\***基于生产需求更改托运库存的所有权 | 全局         |
-| **\***创建托运补货订单                                 | 全局         |
-| **\***使用供应商协作监视托运库存                 | 全局         |
+| <span data-ttu-id="0a8cb-689">**\***基于生产需求更改托运库存的所有权</span><span class="sxs-lookup"><span data-stu-id="0a8cb-689">**\***Change the ownership of consignment inventory based on production demand</span></span> | <span data-ttu-id="0a8cb-690">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-690">Global</span></span>         |
+| <span data-ttu-id="0a8cb-691">**\***创建托运补货订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-691">**\***Create a consignment replenishment order</span></span>                                 | <span data-ttu-id="0a8cb-692">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-692">Global</span></span>         |
+| <span data-ttu-id="0a8cb-693">**\***使用供应商协作监视托运库存</span><span class="sxs-lookup"><span data-stu-id="0a8cb-693">**\***Monitor consignment inventory using vendor collaboration</span></span>                 | <span data-ttu-id="0a8cb-694">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-694">Global</span></span>         |
 
 ### 
 
-### <a name="inventory"></a>库存
+### <a name="inventory"></a><span data-ttu-id="0a8cb-695">库存</span><span class="sxs-lookup"><span data-stu-id="0a8cb-695">Inventory</span></span>
 
-| BPM line / 磁墨字符识别行                                | 国家/地区 |
+| <span data-ttu-id="0a8cb-696">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-696">BPM line</span></span>                                | <span data-ttu-id="0a8cb-697">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-697">Country/region</span></span> |
 |-----------------------------------------|----------------|
-| 检查存货可用性         | 全局         |
-| 设置物料到货情况概述配置文件 | 全局         |
-| 设置质检订单                   | 全局         |
+| <span data-ttu-id="0a8cb-698">检查存货可用性</span><span class="sxs-lookup"><span data-stu-id="0a8cb-698">Check the availability of stock</span></span>         | <span data-ttu-id="0a8cb-699">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-699">Global</span></span>         |
+| <span data-ttu-id="0a8cb-700">设置物料到货情况概述配置文件</span><span class="sxs-lookup"><span data-stu-id="0a8cb-700">Set up an item arrival overview profile</span></span> | <span data-ttu-id="0a8cb-701">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-701">Global</span></span>         |
+| <span data-ttu-id="0a8cb-702">设置质检订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-702">Set up quality orders</span></span>                   | <span data-ttu-id="0a8cb-703">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-703">Global</span></span>         |
 
 ### 
 
-### <a name="master-planning"></a>主计划
+### <a name="master-planning"></a><span data-ttu-id="0a8cb-704">主计划</span><span class="sxs-lookup"><span data-stu-id="0a8cb-704">Master planning</span></span>
 
-| BPM line / 磁墨字符识别行                                  | 国家/地区 |
+| <span data-ttu-id="0a8cb-705">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-705">BPM line</span></span>                                  | <span data-ttu-id="0a8cb-706">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-706">Country/region</span></span> |
 |-------------------------------------------|----------------|
-| 创建内部公司计划               | 全局         |
-| 查看传出计划内部公司需求 | 全局         |
+| <span data-ttu-id="0a8cb-707">创建内部公司计划</span><span class="sxs-lookup"><span data-stu-id="0a8cb-707">Create an intercompany plan</span></span>               | <span data-ttu-id="0a8cb-708">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-708">Global</span></span>         |
+| <span data-ttu-id="0a8cb-709">查看传出计划内部公司需求</span><span class="sxs-lookup"><span data-stu-id="0a8cb-709">View outbound planned intercompany demand</span></span> | <span data-ttu-id="0a8cb-710">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-710">Global</span></span>         |
 
 ### 
 
-### <a name="performance-management"></a>绩效管理
+### <a name="performance-management"></a><span data-ttu-id="0a8cb-711">绩效管理</span><span class="sxs-lookup"><span data-stu-id="0a8cb-711">Performance management</span></span>
 
-| BPM line / 磁墨字符识别行                                                         | 国家/地区 |
+| <span data-ttu-id="0a8cb-712">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-712">BPM line</span></span>                                                         | <span data-ttu-id="0a8cb-713">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-713">Country/region</span></span> |
 |------------------------------------------------------------------|----------------|
-| **\***添加到绩效日记帐和向某人发送表扬 | 全局         |
-| **\***创建目标                                              | 全局         |
-| **\***创建绩效审查                                | 全局         |
+| <span data-ttu-id="0a8cb-714">**\***添加到绩效日记帐和向某人发送表扬</span><span class="sxs-lookup"><span data-stu-id="0a8cb-714">**\***Add to your performance journal and send praise to someone</span></span> | <span data-ttu-id="0a8cb-715">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-715">Global</span></span>         |
+| <span data-ttu-id="0a8cb-716">**\***创建目标</span><span class="sxs-lookup"><span data-stu-id="0a8cb-716">**\***Create a goal</span></span>                                              | <span data-ttu-id="0a8cb-717">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-717">Global</span></span>         |
+| <span data-ttu-id="0a8cb-718">**\***创建绩效审查</span><span class="sxs-lookup"><span data-stu-id="0a8cb-718">**\***Create a performance review</span></span>                                | <span data-ttu-id="0a8cb-719">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-719">Global</span></span>         |
 
 ### 
 
-### <a name="procurement"></a>采购
+### <a name="procurement"></a><span data-ttu-id="0a8cb-720">采购</span><span class="sxs-lookup"><span data-stu-id="0a8cb-720">Procurement</span></span>
 
-| BPM line / 磁墨字符识别行                                          | 国家/地区 |
+| <span data-ttu-id="0a8cb-721">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-721">BPM line</span></span>                                          | <span data-ttu-id="0a8cb-722">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-722">Country/region</span></span> |
 |---------------------------------------------------|----------------|
-| 为零星供应商创建采购订单   | 全局         |
-| 创建含交货计划的采购订单  | 全局         |
-| 创建采购退货单                    | 全局         |
-| 创建重复采购订单                    | 全局         |
-| 创建使用询价的申请             | 全局         |
-| 记录采购订单中的货物的收货 | 全局         |
+| <span data-ttu-id="0a8cb-723">为零星供应商创建采购订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-723">Create a purchase order for a one-time supplier</span></span>   | <span data-ttu-id="0a8cb-724">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-724">Global</span></span>         |
+| <span data-ttu-id="0a8cb-725">创建含交货计划的采购订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-725">Create a purchase order with a delivery schedule</span></span>  | <span data-ttu-id="0a8cb-726">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-726">Global</span></span>         |
+| <span data-ttu-id="0a8cb-727">创建采购退货单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-727">Create a purchase return order</span></span>                    | <span data-ttu-id="0a8cb-728">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-728">Global</span></span>         |
+| <span data-ttu-id="0a8cb-729">创建重复采购订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-729">Create a repeat purchase order</span></span>                    | <span data-ttu-id="0a8cb-730">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-730">Global</span></span>         |
+| <span data-ttu-id="0a8cb-731">创建使用询价的申请</span><span class="sxs-lookup"><span data-stu-id="0a8cb-731">Create a requisition that uses an RFQ</span></span>             | <span data-ttu-id="0a8cb-732">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-732">Global</span></span>         |
+| <span data-ttu-id="0a8cb-733">记录采购订单中的货物的收货</span><span class="sxs-lookup"><span data-stu-id="0a8cb-733">Record the receipt of goods on the purchase order</span></span> | <span data-ttu-id="0a8cb-734">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-734">Global</span></span>         |
 
 ### 
 
-### <a name="products"></a>产品
+### <a name="products"></a><span data-ttu-id="0a8cb-735">产品</span><span class="sxs-lookup"><span data-stu-id="0a8cb-735">Products</span></span>
 
-| BPM line / 磁墨字符识别行                                                                | 国家/地区 |
+| <span data-ttu-id="0a8cb-736">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-736">BPM line</span></span>                                                                | <span data-ttu-id="0a8cb-737">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-737">Country/region</span></span> |
 |-------------------------------------------------------------------------|----------------|
-| 向产品添加图像                                               | 全局         |
-| 使用类别层次结构为产品分类                           | 全局         |
-| 为产品创建条码                                         | 全局         |
-| \* 为预定义的产品变型创建产品编号命名法 | 全局         |
-| \* 为配置的产品变型创建产品编号命名法 | 全局         |
-| \* 为物料定义默认订单设置                            | 全局         |
-| 为可配置产品创建销售订单                         | 全局         |
-| 创建销售价选择条件                                   | 全局         |
-| 输入产品的 GTIN 代码。                                       | 全局         |
-| 为可配置产品设置基于属性的定价                | 全局         |
+| <span data-ttu-id="0a8cb-738">向产品添加图像</span><span class="sxs-lookup"><span data-stu-id="0a8cb-738">Add an image to a product</span></span>                                               | <span data-ttu-id="0a8cb-739">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-739">Global</span></span>         |
+| <span data-ttu-id="0a8cb-740">使用类别层次结构为产品分类</span><span class="sxs-lookup"><span data-stu-id="0a8cb-740">Classify a product using category hierarchies</span></span>                           | <span data-ttu-id="0a8cb-741">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-741">Global</span></span>         |
+| <span data-ttu-id="0a8cb-742">为产品创建条码</span><span class="sxs-lookup"><span data-stu-id="0a8cb-742">Create a bar code for a product</span></span>                                         | <span data-ttu-id="0a8cb-743">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-743">Global</span></span>         |
+| <span data-ttu-id="0a8cb-744">\* 为预定义的产品变型创建产品编号命名法</span><span class="sxs-lookup"><span data-stu-id="0a8cb-744">\* Create a product number nomenclature for predefined product variants</span></span> | <span data-ttu-id="0a8cb-745">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-745">Global</span></span>         |
+| <span data-ttu-id="0a8cb-746">\* 为配置的产品变型创建产品编号命名法</span><span class="sxs-lookup"><span data-stu-id="0a8cb-746">\* Create a product number nomenclature for configured product variants</span></span> | <span data-ttu-id="0a8cb-747">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-747">Global</span></span>         |
+| <span data-ttu-id="0a8cb-748">\* 为物料定义默认订单设置</span><span class="sxs-lookup"><span data-stu-id="0a8cb-748">\* Define default order settings for an item</span></span>                            | <span data-ttu-id="0a8cb-749">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-749">Global</span></span>         |
+| <span data-ttu-id="0a8cb-750">为可配置产品创建销售订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-750">Create a sales order for a configurable product</span></span>                         | <span data-ttu-id="0a8cb-751">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-751">Global</span></span>         |
+| <span data-ttu-id="0a8cb-752">创建销售价选择条件</span><span class="sxs-lookup"><span data-stu-id="0a8cb-752">Create sales price selection criteria</span></span>                                   | <span data-ttu-id="0a8cb-753">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-753">Global</span></span>         |
+| <span data-ttu-id="0a8cb-754">输入产品的 GTIN 代码。</span><span class="sxs-lookup"><span data-stu-id="0a8cb-754">Enter the GTIN code for a product</span></span>                                       | <span data-ttu-id="0a8cb-755">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-755">Global</span></span>         |
+| <span data-ttu-id="0a8cb-756">为可配置产品设置基于属性的定价</span><span class="sxs-lookup"><span data-stu-id="0a8cb-756">Set up attribute-based pricing for configurable products</span></span>                | <span data-ttu-id="0a8cb-757">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-757">Global</span></span>         |
 
 ### 
 
-### <a name="production"></a>生产
+### <a name="production"></a><span data-ttu-id="0a8cb-758">生产</span><span class="sxs-lookup"><span data-stu-id="0a8cb-758">Production</span></span>
 
-| BPM line / 磁墨字符识别行                                              | 国家/地区 |
+| <span data-ttu-id="0a8cb-759">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-759">BPM line</span></span>                                              | <span data-ttu-id="0a8cb-760">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-760">Country/region</span></span> |
 |-------------------------------------------------------|----------------|
-| 向生产流活动添加前导活动       | 全局         |
-| 向生产流版本添加现有活动 | 全局         |
-| 禁用生产流版本                  | 全局         |
-| 定义生产流版本的到期日期   | 全局         |
+| <span data-ttu-id="0a8cb-761">向生产流活动添加前导活动</span><span class="sxs-lookup"><span data-stu-id="0a8cb-761">Add a predecessor to a production flow activity</span></span>       | <span data-ttu-id="0a8cb-762">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-762">Global</span></span>         |
+| <span data-ttu-id="0a8cb-763">向生产流版本添加现有活动</span><span class="sxs-lookup"><span data-stu-id="0a8cb-763">Add an existing activity to a production flow version</span></span> | <span data-ttu-id="0a8cb-764">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-764">Global</span></span>         |
+| <span data-ttu-id="0a8cb-765">禁用生产流版本</span><span class="sxs-lookup"><span data-stu-id="0a8cb-765">Deactivate a production flow version</span></span>                  | <span data-ttu-id="0a8cb-766">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-766">Global</span></span>         |
+| <span data-ttu-id="0a8cb-767">定义生产流版本的到期日期</span><span class="sxs-lookup"><span data-stu-id="0a8cb-767">Define an expiry date for a production flow version</span></span>   | <span data-ttu-id="0a8cb-768">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-768">Global</span></span>         |
 
 ### 
 
-### <a name="public-sector"></a>公共部门
+### <a name="public-sector"></a><span data-ttu-id="0a8cb-769">公共部门</span><span class="sxs-lookup"><span data-stu-id="0a8cb-769">Public sector</span></span>
 
-| BPM line / 磁墨字符识别行                                                                      | 国家/地区 |
+| <span data-ttu-id="0a8cb-770">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-770">BPM line</span></span>                                                                      | <span data-ttu-id="0a8cb-771">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-771">Country/region</span></span> |
 |-------------------------------------------------------------------------------|----------------|
-| 将认证类型添加到公共部门的供应商                        | 全局         |
-| 控制公共部门对采购协议的访问                      | 全局         |
-| 创建计费分类                                               | 全局         |
-| 创建计费代码                                                         | 全局         |
-| 创建公共部门预留预算资金的承诺                 | 全局         |
-| 创建计费代码的自定义字段                                      | 全局         |
-| 创建资金类型                                                            | 全局         |
-| 创建一次性供应商和发票                                          | 全局         |
-| 为公共部门创建初步预算                                 | 全局         |
-| 创建公共部门的供应商认证类型                          | 全局         |
-| 在公共部门创建高级分类帐条目                          | 全局         |
-| 创建原始预算，然后冲销初步预算条目         | 全局         |
-| 在公共部门创建和分配贸易伙伴代码                 | 全局         |
-| 为公共部门创建付款报表的封面页和签名页   | 全局         |
-| 在公共部门导入和创建多个零星供应商和发票 | 全局         |
-| 设置公共部门的派生的财务层次结构                     | 全局         |
-| 设置公共部门中的资金                                            | 全局         |
-| 设置公共部门的采购协议分类                   | 全局         |
+| <span data-ttu-id="0a8cb-772">将认证类型添加到公共部门的供应商</span><span class="sxs-lookup"><span data-stu-id="0a8cb-772">Add a certification type to a vendor for Public Sector</span></span>                        | <span data-ttu-id="0a8cb-773">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-773">Global</span></span>         |
+| <span data-ttu-id="0a8cb-774">控制公共部门对采购协议的访问</span><span class="sxs-lookup"><span data-stu-id="0a8cb-774">Control access to purchase agreements from Public Sector</span></span>                      | <span data-ttu-id="0a8cb-775">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-775">Global</span></span>         |
+| <span data-ttu-id="0a8cb-776">创建计费分类</span><span class="sxs-lookup"><span data-stu-id="0a8cb-776">Create a billing classification</span></span>                                               | <span data-ttu-id="0a8cb-777">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-777">Global</span></span>         |
+| <span data-ttu-id="0a8cb-778">创建计费代码</span><span class="sxs-lookup"><span data-stu-id="0a8cb-778">Create a billing code</span></span>                                                         | <span data-ttu-id="0a8cb-779">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-779">Global</span></span>         |
+| <span data-ttu-id="0a8cb-780">创建公共部门预留预算资金的承诺</span><span class="sxs-lookup"><span data-stu-id="0a8cb-780">Create a commitment to reserve budget funds for Public Sector</span></span>                 | <span data-ttu-id="0a8cb-781">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-781">Global</span></span>         |
+| <span data-ttu-id="0a8cb-782">创建计费代码的自定义字段</span><span class="sxs-lookup"><span data-stu-id="0a8cb-782">Create a custom field for a billing code</span></span>                                      | <span data-ttu-id="0a8cb-783">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-783">Global</span></span>         |
+| <span data-ttu-id="0a8cb-784">创建资金类型</span><span class="sxs-lookup"><span data-stu-id="0a8cb-784">Create a fund type</span></span>                                                            | <span data-ttu-id="0a8cb-785">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-785">Global</span></span>         |
+| <span data-ttu-id="0a8cb-786">创建一次性供应商和发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-786">Create a one-time vendor and invoice</span></span>                                          | <span data-ttu-id="0a8cb-787">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-787">Global</span></span>         |
+| <span data-ttu-id="0a8cb-788">为公共部门创建初步预算</span><span class="sxs-lookup"><span data-stu-id="0a8cb-788">Create a preliminary budget for Public Sector</span></span>                                 | <span data-ttu-id="0a8cb-789">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-789">Global</span></span>         |
+| <span data-ttu-id="0a8cb-790">创建公共部门的供应商认证类型</span><span class="sxs-lookup"><span data-stu-id="0a8cb-790">Create a vendor certification type for Public Sector</span></span>                          | <span data-ttu-id="0a8cb-791">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-791">Global</span></span>         |
+| <span data-ttu-id="0a8cb-792">在公共部门创建高级分类帐条目</span><span class="sxs-lookup"><span data-stu-id="0a8cb-792">Create an advanced ledger entry in the public sector</span></span>                          | <span data-ttu-id="0a8cb-793">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-793">Global</span></span>         |
+| <span data-ttu-id="0a8cb-794">创建原始预算，然后冲销初步预算条目</span><span class="sxs-lookup"><span data-stu-id="0a8cb-794">Create an original budget and then reverse preliminary budget entries</span></span>         | <span data-ttu-id="0a8cb-795">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-795">Global</span></span>         |
+| <span data-ttu-id="0a8cb-796">在公共部门创建和分配贸易伙伴代码</span><span class="sxs-lookup"><span data-stu-id="0a8cb-796">Create and assign a trading partner code in the public sector</span></span>                 | <span data-ttu-id="0a8cb-797">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-797">Global</span></span>         |
+| <span data-ttu-id="0a8cb-798">为公共部门创建付款报表的封面页和签名页</span><span class="sxs-lookup"><span data-stu-id="0a8cb-798">Create cover and signature pages for payments reports for the public sector</span></span>   | <span data-ttu-id="0a8cb-799">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-799">Global</span></span>         |
+| <span data-ttu-id="0a8cb-800">在公共部门导入和创建多个零星供应商和发票</span><span class="sxs-lookup"><span data-stu-id="0a8cb-800">Import and create multiple one-time vendors and invoices in the public sector</span></span> | <span data-ttu-id="0a8cb-801">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-801">Global</span></span>         |
+| <span data-ttu-id="0a8cb-802">设置公共部门的派生的财务层次结构</span><span class="sxs-lookup"><span data-stu-id="0a8cb-802">Set up a derived financial hierarchy in the public sector</span></span>                     | <span data-ttu-id="0a8cb-803">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-803">Global</span></span>         |
+| <span data-ttu-id="0a8cb-804">设置公共部门中的资金</span><span class="sxs-lookup"><span data-stu-id="0a8cb-804">Set up a fund in the public sector</span></span>                                            | <span data-ttu-id="0a8cb-805">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-805">Global</span></span>         |
+| <span data-ttu-id="0a8cb-806">设置公共部门的采购协议分类</span><span class="sxs-lookup"><span data-stu-id="0a8cb-806">Set up purchase agreement classifications for Public Sector</span></span>                   | <span data-ttu-id="0a8cb-807">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-807">Global</span></span>         |
 
 ### 
 
-### <a name="retail-and-commerce"></a>零售和商业
+### <a name="retail-and-commerce"></a><span data-ttu-id="0a8cb-808">零售和商业</span><span class="sxs-lookup"><span data-stu-id="0a8cb-808">Retail and commerce</span></span>
 
-| BPM line / 磁墨字符识别行                                                         | 国家/地区 |
+| <span data-ttu-id="0a8cb-809">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-809">BPM line</span></span>                                                         | <span data-ttu-id="0a8cb-810">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-810">Country/region</span></span> |
 |------------------------------------------------------------------|----------------|
-| 配置工作人员                                               | 全局         |
-| **\***配置机器学习支持的产品建议 | 全局         |
-| 为销售代表配置功能模板   | 全局         |
-| **\***创建 POS 可视化配置文件（2016 年 11 月）                | 全局         |
-| 创建和关联收银机                                   | 全局         |
-| 创建呼叫中心订单                                        | 全局         |
-| 使用分类价格规则创建销售价格贸易协议            | 全局         |
-| 创建、计算和过帐商店的报表              | 全局         |
-| 定义隶属关系并分配折扣                      | 全局         |
-| 定义和管理 POS 权限组                          | 全局         |
-| 定义连续性计划                                       | 全局         |
-| **\***定义零售渠道通信 (CDX)                 | 全局         |
-| 奖励积分调整                                      | 全局         |
-| 管理分类                                               | 全局         |
-| 增值税分配和覆盖                                | 全局         |
-| 设置越库配送和集中采购配送的规则和参数   | 全局         |
-| 使用连续性计划                                         | 全局         |
+| <span data-ttu-id="0a8cb-811">配置工作人员</span><span class="sxs-lookup"><span data-stu-id="0a8cb-811">Configure a worker</span></span>                                               | <span data-ttu-id="0a8cb-812">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-812">Global</span></span>         |
+| <span data-ttu-id="0a8cb-813">**\***配置机器学习支持的产品建议</span><span class="sxs-lookup"><span data-stu-id="0a8cb-813">**\***Configure machine learning-powered product recommendations</span></span> | <span data-ttu-id="0a8cb-814">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-814">Global</span></span>         |
+| <span data-ttu-id="0a8cb-815">为销售代表配置功能模板</span><span class="sxs-lookup"><span data-stu-id="0a8cb-815">Configure the functionality profile for a sales representative</span></span>   | <span data-ttu-id="0a8cb-816">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-816">Global</span></span>         |
+| <span data-ttu-id="0a8cb-817">**\***创建 POS 可视化配置文件（2016 年 11 月）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-817">**\***Create a POS visual profile (November 2016)</span></span>                | <span data-ttu-id="0a8cb-818">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-818">Global</span></span>         |
+| <span data-ttu-id="0a8cb-819">创建和关联收银机</span><span class="sxs-lookup"><span data-stu-id="0a8cb-819">Create and associate registers</span></span>                                   | <span data-ttu-id="0a8cb-820">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-820">Global</span></span>         |
+| <span data-ttu-id="0a8cb-821">创建呼叫中心订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-821">Create call center orders</span></span>                                        | <span data-ttu-id="0a8cb-822">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-822">Global</span></span>         |
+| <span data-ttu-id="0a8cb-823">使用分类价格规则创建销售价格贸易协议</span><span class="sxs-lookup"><span data-stu-id="0a8cb-823">Create trade agreements using a category pricing rule</span></span>            | <span data-ttu-id="0a8cb-824">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-824">Global</span></span>         |
+| <span data-ttu-id="0a8cb-825">创建、计算和过帐商店的报表</span><span class="sxs-lookup"><span data-stu-id="0a8cb-825">Create, calculate, and post a statement for a store</span></span>              | <span data-ttu-id="0a8cb-826">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-826">Global</span></span>         |
+| <span data-ttu-id="0a8cb-827">定义隶属关系并分配折扣</span><span class="sxs-lookup"><span data-stu-id="0a8cb-827">Define an affiliation and assign a discount</span></span>                      | <span data-ttu-id="0a8cb-828">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-828">Global</span></span>         |
+| <span data-ttu-id="0a8cb-829">定义和管理 POS 权限组</span><span class="sxs-lookup"><span data-stu-id="0a8cb-829">Define and manage POS permission groups</span></span>                          | <span data-ttu-id="0a8cb-830">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-830">Global</span></span>         |
+| <span data-ttu-id="0a8cb-831">定义连续性计划</span><span class="sxs-lookup"><span data-stu-id="0a8cb-831">Define continuity schedule</span></span>                                       | <span data-ttu-id="0a8cb-832">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-832">Global</span></span>         |
+| <span data-ttu-id="0a8cb-833">**\***定义零售渠道通信 (CDX)</span><span class="sxs-lookup"><span data-stu-id="0a8cb-833">**\***Define retail channel communications (CDX)</span></span>                 | <span data-ttu-id="0a8cb-834">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-834">Global</span></span>         |
+| <span data-ttu-id="0a8cb-835">奖励积分调整</span><span class="sxs-lookup"><span data-stu-id="0a8cb-835">Loyalty rewards adjustments</span></span>                                      | <span data-ttu-id="0a8cb-836">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-836">Global</span></span>         |
+| <span data-ttu-id="0a8cb-837">管理分类</span><span class="sxs-lookup"><span data-stu-id="0a8cb-837">Manage assortments</span></span>                                               | <span data-ttu-id="0a8cb-838">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-838">Global</span></span>         |
+| <span data-ttu-id="0a8cb-839">增值税分配和覆盖</span><span class="sxs-lookup"><span data-stu-id="0a8cb-839">Sales tax assignment and override</span></span>                                | <span data-ttu-id="0a8cb-840">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-840">Global</span></span>         |
+| <span data-ttu-id="0a8cb-841">设置越库配送和集中采购配送的规则和参数</span><span class="sxs-lookup"><span data-stu-id="0a8cb-841">Set up rules and parameters for cross docking and buyer's push</span></span>   | <span data-ttu-id="0a8cb-842">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-842">Global</span></span>         |
+| <span data-ttu-id="0a8cb-843">使用连续性计划</span><span class="sxs-lookup"><span data-stu-id="0a8cb-843">Using continuity program</span></span>                                         | <span data-ttu-id="0a8cb-844">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-844">Global</span></span>         |
 
 ### 
 
-### <a name="sales"></a>销售
+### <a name="sales"></a><span data-ttu-id="0a8cb-845">销售</span><span class="sxs-lookup"><span data-stu-id="0a8cb-845">Sales</span></span>
 
-| BPM line / 磁墨字符识别行                                   | 国家/地区 |
+| <span data-ttu-id="0a8cb-846">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-846">BPM line</span></span>                                   | <span data-ttu-id="0a8cb-847">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-847">Country/region</span></span> |
 |--------------------------------------------|----------------|
-| 确认销售订单                       | 全局         |
-| 创建新的贸易协议               | 全局         |
-| 基于销售订单创建采购订单 | 全局         |
-| 创建和编辑销售报价单           | 全局         |
-| 创建交货计划                   | 全局         |
-| 创建销售订单                        | 全局         |
-| 输入销售协议                     | 全局         |
-| 履行销售协议                   | 全局         |
-| 生成和处理客户返点      | 全局         |
-| 查找适用的价格和折扣    | 全局         |
-| 管理销售订单保留                   | 全局         |
-| 成批创建销售报价单               | 全局         |
-| 处理付款返点                | 全局         |
-| 登记销售佣金                 | 全局         |
-| 设置销售佣金规则              | 全局         |
-| 作为直接交货装运订单           | 全局         |
-| 装运无仓库的销售订单      | 全局         |
+| <span data-ttu-id="0a8cb-848">确认销售订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-848">Confirm sales orders</span></span>                       | <span data-ttu-id="0a8cb-849">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-849">Global</span></span>         |
+| <span data-ttu-id="0a8cb-850">创建新的贸易协议</span><span class="sxs-lookup"><span data-stu-id="0a8cb-850">Create a new trade agreement</span></span>               | <span data-ttu-id="0a8cb-851">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-851">Global</span></span>         |
+| <span data-ttu-id="0a8cb-852">基于销售订单创建采购订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-852">Create a purchase order from a sales order</span></span> | <span data-ttu-id="0a8cb-853">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-853">Global</span></span>         |
+| <span data-ttu-id="0a8cb-854">创建和编辑销售报价单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-854">Create and edit sales quotations</span></span>           | <span data-ttu-id="0a8cb-855">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-855">Global</span></span>         |
+| <span data-ttu-id="0a8cb-856">创建交货计划</span><span class="sxs-lookup"><span data-stu-id="0a8cb-856">Create delivery schedule</span></span>                   | <span data-ttu-id="0a8cb-857">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-857">Global</span></span>         |
+| <span data-ttu-id="0a8cb-858">创建销售订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-858">Create sales orders</span></span>                        | <span data-ttu-id="0a8cb-859">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-859">Global</span></span>         |
+| <span data-ttu-id="0a8cb-860">输入销售协议</span><span class="sxs-lookup"><span data-stu-id="0a8cb-860">Enter sales agreements</span></span>                     | <span data-ttu-id="0a8cb-861">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-861">Global</span></span>         |
+| <span data-ttu-id="0a8cb-862">履行销售协议</span><span class="sxs-lookup"><span data-stu-id="0a8cb-862">Fulfill sales agreements</span></span>                   | <span data-ttu-id="0a8cb-863">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-863">Global</span></span>         |
+| <span data-ttu-id="0a8cb-864">生成和处理客户返点</span><span class="sxs-lookup"><span data-stu-id="0a8cb-864">Generate and process customer rebates</span></span>      | <span data-ttu-id="0a8cb-865">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-865">Global</span></span>         |
+| <span data-ttu-id="0a8cb-866">查找适用的价格和折扣</span><span class="sxs-lookup"><span data-stu-id="0a8cb-866">Look up applicable prices and discounts</span></span>    | <span data-ttu-id="0a8cb-867">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-867">Global</span></span>         |
+| <span data-ttu-id="0a8cb-868">管理销售订单保留</span><span class="sxs-lookup"><span data-stu-id="0a8cb-868">Manage sales order holds</span></span>                   | <span data-ttu-id="0a8cb-869">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-869">Global</span></span>         |
+| <span data-ttu-id="0a8cb-870">成批创建销售报价单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-870">Mass create sales quotations</span></span>               | <span data-ttu-id="0a8cb-871">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-871">Global</span></span>         |
+| <span data-ttu-id="0a8cb-872">处理付款返点</span><span class="sxs-lookup"><span data-stu-id="0a8cb-872">Process rebates for payment</span></span>                | <span data-ttu-id="0a8cb-873">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-873">Global</span></span>         |
+| <span data-ttu-id="0a8cb-874">登记销售佣金</span><span class="sxs-lookup"><span data-stu-id="0a8cb-874">Register sales commissions</span></span>                 | <span data-ttu-id="0a8cb-875">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-875">Global</span></span>         |
+| <span data-ttu-id="0a8cb-876">设置销售佣金规则</span><span class="sxs-lookup"><span data-stu-id="0a8cb-876">Set up sales commission rules</span></span>              | <span data-ttu-id="0a8cb-877">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-877">Global</span></span>         |
+| <span data-ttu-id="0a8cb-878">作为直接交货装运订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-878">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="0a8cb-879">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-879">Global</span></span>         |
+| <span data-ttu-id="0a8cb-880">装运无仓库的销售订单</span><span class="sxs-lookup"><span data-stu-id="0a8cb-880">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="0a8cb-881">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-881">Global</span></span>         |
 
 ### 
 
-### <a name="sales-tax"></a>增值税
+### <a name="sales-tax"></a><span data-ttu-id="0a8cb-882">增值税</span><span class="sxs-lookup"><span data-stu-id="0a8cb-882">Sales tax</span></span>
 
-| BPM line / 磁墨字符识别行                                           | 国家/地区 |
+| <span data-ttu-id="0a8cb-883">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-883">BPM line</span></span>                                           | <span data-ttu-id="0a8cb-884">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-884">Country/region</span></span> |
 |----------------------------------------------------|----------------|
-| 计算和调整供应商发票上的销售税 | 全局         |
-| 创建销售税支付                         | 全局         |
-| 在单据中创建销售税交易记录         | 全局         |
-| 设置增值税分类帐记帐组         | 全局         |
-| 设置增值税主管机构                       | 全局         |
-| 设置销售税代码                             | 全局         |
-| 设置销售税组                            | 全局         |
-| 设置销售税申报代码                   | 全局         |
-| 设置销售税结算期间                | 全局         |
-| 设置预缴税金                             | 全局         |
-| 查看已过帐的销售税交易记录                 | 全局         |
+| <span data-ttu-id="0a8cb-885">计算和调整供应商发票上的销售税</span><span class="sxs-lookup"><span data-stu-id="0a8cb-885">Calculate and adjust sales tax on a vendor invoice</span></span> | <span data-ttu-id="0a8cb-886">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-886">Global</span></span>         |
+| <span data-ttu-id="0a8cb-887">创建销售税支付</span><span class="sxs-lookup"><span data-stu-id="0a8cb-887">Create a sales tax payment</span></span>                         | <span data-ttu-id="0a8cb-888">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-888">Global</span></span>         |
+| <span data-ttu-id="0a8cb-889">在单据中创建销售税交易记录</span><span class="sxs-lookup"><span data-stu-id="0a8cb-889">Create sales tax transactions on documents</span></span>         | <span data-ttu-id="0a8cb-890">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-890">Global</span></span>         |
+| <span data-ttu-id="0a8cb-891">设置增值税分类帐记帐组</span><span class="sxs-lookup"><span data-stu-id="0a8cb-891">Set up ledger posting groups for sales tax</span></span>         | <span data-ttu-id="0a8cb-892">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-892">Global</span></span>         |
+| <span data-ttu-id="0a8cb-893">设置增值税主管机构</span><span class="sxs-lookup"><span data-stu-id="0a8cb-893">Set up sales tax authorities</span></span>                       | <span data-ttu-id="0a8cb-894">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-894">Global</span></span>         |
+| <span data-ttu-id="0a8cb-895">设置销售税代码</span><span class="sxs-lookup"><span data-stu-id="0a8cb-895">Set up sales tax codes</span></span>                             | <span data-ttu-id="0a8cb-896">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-896">Global</span></span>         |
+| <span data-ttu-id="0a8cb-897">设置销售税组</span><span class="sxs-lookup"><span data-stu-id="0a8cb-897">Set up sales tax groups</span></span>                            | <span data-ttu-id="0a8cb-898">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-898">Global</span></span>         |
+| <span data-ttu-id="0a8cb-899">设置销售税申报代码</span><span class="sxs-lookup"><span data-stu-id="0a8cb-899">Set up sales tax reporting codes</span></span>                   | <span data-ttu-id="0a8cb-900">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-900">Global</span></span>         |
+| <span data-ttu-id="0a8cb-901">设置销售税结算期间</span><span class="sxs-lookup"><span data-stu-id="0a8cb-901">Set up sales tax settlement periods</span></span>                | <span data-ttu-id="0a8cb-902">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-902">Global</span></span>         |
+| <span data-ttu-id="0a8cb-903">设置预缴税金</span><span class="sxs-lookup"><span data-stu-id="0a8cb-903">Set up withholding tax</span></span>                             | <span data-ttu-id="0a8cb-904">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-904">Global</span></span>         |
+| <span data-ttu-id="0a8cb-905">查看已过帐的销售税交易记录</span><span class="sxs-lookup"><span data-stu-id="0a8cb-905">View posted sales tax transactions</span></span>                 | <span data-ttu-id="0a8cb-906">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-906">Global</span></span>         |
 
 ### 
 
-### <a name="supply-relationship-management"></a>提供关系管理
+### <a name="supply-relationship-management"></a><span data-ttu-id="0a8cb-907">提供关系管理</span><span class="sxs-lookup"><span data-stu-id="0a8cb-907">Supply relationship management</span></span>
 
-| BPM line / 磁墨字符识别行                                                           | 国家/地区 |
+| <span data-ttu-id="0a8cb-908">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-908">BPM line</span></span>                                                           | <span data-ttu-id="0a8cb-909">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-909">Country/region</span></span> |
 |--------------------------------------------------------------------|----------------|
-| 核准特定采购类别的供应商                | 全局         |
-| 创建采购目录                                       | 全局         |
-| 创建使用询价的申请                              | 全局         |
-| 创建询价的评分标准                                   | 全局         |
-| 创建供应商银行帐户                                       | 全局         |
-| 创建采购政策                                         | 全局         |
-| 创建询价的申请类型和评分标准            | 全局         |
-| 代表他人对订购的产品设置权限 | 全局         |
-| 设置采购类别层次结构的政策               | 全局         |
+| <span data-ttu-id="0a8cb-910">核准特定采购类别的供应商</span><span class="sxs-lookup"><span data-stu-id="0a8cb-910">Approve vendors for specific procurement categories</span></span>                | <span data-ttu-id="0a8cb-911">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-911">Global</span></span>         |
+| <span data-ttu-id="0a8cb-912">创建采购目录</span><span class="sxs-lookup"><span data-stu-id="0a8cb-912">Create a procurement catalog</span></span>                                       | <span data-ttu-id="0a8cb-913">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-913">Global</span></span>         |
+| <span data-ttu-id="0a8cb-914">创建使用询价的申请</span><span class="sxs-lookup"><span data-stu-id="0a8cb-914">Create a requisition that uses an RFQ</span></span>                              | <span data-ttu-id="0a8cb-915">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-915">Global</span></span>         |
+| <span data-ttu-id="0a8cb-916">创建询价的评分标准</span><span class="sxs-lookup"><span data-stu-id="0a8cb-916">Create a scoring method for RFQs</span></span>                                   | <span data-ttu-id="0a8cb-917">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-917">Global</span></span>         |
+| <span data-ttu-id="0a8cb-918">创建供应商银行帐户</span><span class="sxs-lookup"><span data-stu-id="0a8cb-918">Create a vendor bank account</span></span>                                       | <span data-ttu-id="0a8cb-919">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-919">Global</span></span>         |
+| <span data-ttu-id="0a8cb-920">创建采购政策</span><span class="sxs-lookup"><span data-stu-id="0a8cb-920">Create purchasing policies</span></span>                                         | <span data-ttu-id="0a8cb-921">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-921">Global</span></span>         |
+| <span data-ttu-id="0a8cb-922">创建询价的申请类型和评分标准</span><span class="sxs-lookup"><span data-stu-id="0a8cb-922">Create solicitation types and scoring criteria for RFQs</span></span>            | <span data-ttu-id="0a8cb-923">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-923">Global</span></span>         |
+| <span data-ttu-id="0a8cb-924">代表他人对订购的产品设置权限</span><span class="sxs-lookup"><span data-stu-id="0a8cb-924">Set up permissions for ordering products on behalf of someone else</span></span> | <span data-ttu-id="0a8cb-925">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-925">Global</span></span>         |
+| <span data-ttu-id="0a8cb-926">设置采购类别层次结构的政策</span><span class="sxs-lookup"><span data-stu-id="0a8cb-926">Set up policies for procurement category hierarchies</span></span>               | <span data-ttu-id="0a8cb-927">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-927">Global</span></span>         |
 
 ### 
 
-### <a name="warehouse-and-transportation"></a>仓库和运输
+### <a name="warehouse-and-transportation"></a><span data-ttu-id="0a8cb-928">仓库和运输</span><span class="sxs-lookup"><span data-stu-id="0a8cb-928">Warehouse and transportation</span></span>
 
-| BPM line / 磁墨字符识别行                                                                    | 国家/地区 |
+| <span data-ttu-id="0a8cb-929">BPM line / 磁墨字符识别行</span><span class="sxs-lookup"><span data-stu-id="0a8cb-929">BPM line</span></span>                                                                    | <span data-ttu-id="0a8cb-930">国家/地区</span><span class="sxs-lookup"><span data-stu-id="0a8cb-930">Country/region</span></span> |
 |-----------------------------------------------------------------------------|----------------|
-| 创建库位配置文件                                                   | 全局         |
-| **\***创建移动设备菜单项以合并牌照      | 全局         |
-| 手动对帐货运                                                  | 全局         |
-| 约会的注册驱动程序签入和签出                   | 全局         |
-| 设置用于完成采购订单类型工作的移动设备菜单项 | 全局         |
-| 为负荷设置预约                                            | 全局         |
-| 设置运输招标                                              | 全局         |
-| 设置自动货运对帐                                     | 全局         |
-| **\***设置领料短缺的物料重新分配                                | 全局         |
+| <span data-ttu-id="0a8cb-931">创建库位配置文件</span><span class="sxs-lookup"><span data-stu-id="0a8cb-931">Create a location profile</span></span>                                                   | <span data-ttu-id="0a8cb-932">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-932">Global</span></span>         |
+| <span data-ttu-id="0a8cb-933">**\***创建移动设备菜单项以合并牌照</span><span class="sxs-lookup"><span data-stu-id="0a8cb-933">**\***Create a mobile device menu item for license plate consolidation</span></span>      | <span data-ttu-id="0a8cb-934">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-934">Global</span></span>         |
+| <span data-ttu-id="0a8cb-935">手动对帐货运</span><span class="sxs-lookup"><span data-stu-id="0a8cb-935">Reconcile freight manually</span></span>                                                  | <span data-ttu-id="0a8cb-936">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-936">Global</span></span>         |
+| <span data-ttu-id="0a8cb-937">约会的注册驱动程序签入和签出</span><span class="sxs-lookup"><span data-stu-id="0a8cb-937">Register driver check-in and check-out for an appointment</span></span>                   | <span data-ttu-id="0a8cb-938">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-938">Global</span></span>         |
+| <span data-ttu-id="0a8cb-939">设置用于完成采购订单类型工作的移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="0a8cb-939">Set up a mobile device menu item for completing work of type purchase order</span></span> | <span data-ttu-id="0a8cb-940">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-940">Global</span></span>         |
+| <span data-ttu-id="0a8cb-941">为负荷设置预约</span><span class="sxs-lookup"><span data-stu-id="0a8cb-941">Set up an appointment for a load</span></span>                                            | <span data-ttu-id="0a8cb-942">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-942">Global</span></span>         |
+| <span data-ttu-id="0a8cb-943">设置运输招标</span><span class="sxs-lookup"><span data-stu-id="0a8cb-943">Set up a transportation tender</span></span>                                              | <span data-ttu-id="0a8cb-944">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-944">Global</span></span>         |
+| <span data-ttu-id="0a8cb-945">设置自动货运对帐</span><span class="sxs-lookup"><span data-stu-id="0a8cb-945">Set up automatic freight reconciliation</span></span>                                     | <span data-ttu-id="0a8cb-946">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-946">Global</span></span>         |
+| <span data-ttu-id="0a8cb-947">**\***设置领料短缺的物料重新分配</span><span class="sxs-lookup"><span data-stu-id="0a8cb-947">**\***Set up short picking item reallocation</span></span>                                | <span data-ttu-id="0a8cb-948">全局</span><span class="sxs-lookup"><span data-stu-id="0a8cb-948">Global</span></span>         |
 
 
 
-<a name="see-also"></a>请参阅
+<a name="see-also"></a><span data-ttu-id="0a8cb-949">请参阅</span><span class="sxs-lookup"><span data-stu-id="0a8cb-949">See also</span></span>
 --------
 
-[新任务指南可用（2016 年 2 月）](new-task-guides-available-february-2016.md)
+[<span data-ttu-id="0a8cb-950">新任务指南可用（2016 年 2 月）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-950">New task guides available (February 2016)</span></span>](new-task-guides-available-february-2016.md)
 
-[新的或更新任务指南已推出（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
+[<span data-ttu-id="0a8cb-951">新的或更新任务指南已推出（2016 年 5 月）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-951">New or updated task guides available (May 2016)</span></span>](new-updated-task-guides-available-may-2016.md)
 
-[新的或更新任务指南已推出（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
+[<span data-ttu-id="0a8cb-952">新的或更新任务指南已推出（2016 年 8 月）</span><span class="sxs-lookup"><span data-stu-id="0a8cb-952">New or updated task guides available (August 2016)</span></span>](new-updated-task-guides-available-august-2016.md)
 
 
 

@@ -16,69 +16,69 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 95da806cc2844dc946e809f1afecef25a7b520e5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 8a04918d6642de73016231fdb96d9ea6b0be5999
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="generate-electronic-documents-for-payments-using-a-format-configuration-for-electronic-reporting-er"></a>针对电子申报 (ER) 使用格式配置生成付款的电子单据
+# <a name="generate-electronic-documents-for-payments-using-a-format-configuration-for-electronic-reporting-er"></a><span data-ttu-id="4de47-103">针对电子申报 (ER) 使用格式配置生成付款的电子单据</span><span class="sxs-lookup"><span data-stu-id="4de47-103">Generate electronic documents for payments using a format configuration for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-以下步骤说明属于系统管理员或电子申报开发人员的用户如何使用新电子申报 (ER) 格式配置来生成用于处理付款的电子单据。 这些步骤可以在 GBSI 示例公司执行。
+<span data-ttu-id="4de47-104">以下步骤说明属于系统管理员或电子申报开发人员的用户如何使用新电子申报 (ER) 格式配置来生成用于处理付款的电子单据。</span><span class="sxs-lookup"><span data-stu-id="4de47-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can use a new Electronic reporting (ER) format configuration to generate electronic documents for processing payments.</span></span> <span data-ttu-id="4de47-105">这些步骤可以在 GBSI 示例公司执行。</span><span class="sxs-lookup"><span data-stu-id="4de47-105">These steps can be performed in the GBSI sample company.</span></span>
 
-为了完成这些步骤，您必须首先完成“使用付款单据格式创建配置”这一过程中的步骤。
+<span data-ttu-id="4de47-106">为了完成这些步骤，您必须首先完成“使用付款单据格式创建配置”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="4de47-106">To complete these steps, you must first complete the steps in the “Create a configuration with format of payment document” procedure.</span></span>
 
 
-## <a name="change-the-configuration-of-the-electronic-payment-method"></a>更改电子付款方式的配置
-1. 转至“应付帐款”>“付款设置”>“付款方式”。
-2. 如果需要，切换“文件格式”部分以展开它。
-3. 使用“快速筛选器”以查找记录。 例如，在含有“电子”值的“付款方式”字段中筛选。
-4. 单击“编辑”。
-5. 将“一般电子申报”字段设置为“是”。
-    * 选择是为付款文件生成使用常规电子申报模式。  
-6. 在“名称”字段中，单击下拉按钮以打开查找。
-7. 选择 BACS（英国虚构）格式配置。
-8. 单击“保存”。
-9. 关闭该页面。
+## <a name="change-the-configuration-of-the-electronic-payment-method"></a><span data-ttu-id="4de47-107">更改电子付款方式的配置</span><span class="sxs-lookup"><span data-stu-id="4de47-107">Change the configuration of the electronic payment method</span></span>
+1. <span data-ttu-id="4de47-108">转至“应付帐款”>“付款设置”>“付款方式”。</span><span class="sxs-lookup"><span data-stu-id="4de47-108">Go to Accounts payable > Payment setup > Methods of payment.</span></span>
+2. <span data-ttu-id="4de47-109">如果需要，切换“文件格式”部分以展开它。</span><span class="sxs-lookup"><span data-stu-id="4de47-109">Toggle the File format section to expand it, if needed.</span></span>
+3. <span data-ttu-id="4de47-110">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="4de47-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="4de47-111">例如，在含有“电子”值的“付款方式”字段中筛选。</span><span class="sxs-lookup"><span data-stu-id="4de47-111">For example, filter on the Method of payment field with a value of 'Electronic'.</span></span>
+4. <span data-ttu-id="4de47-112">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="4de47-112">Click Edit.</span></span>
+5. <span data-ttu-id="4de47-113">将“一般电子申报”字段设置为“是”。</span><span class="sxs-lookup"><span data-stu-id="4de47-113">Set the General electronic reporting field to Yes.</span></span>
+    * <span data-ttu-id="4de47-114">选择是为付款文件生成使用常规电子申报模式。</span><span class="sxs-lookup"><span data-stu-id="4de47-114">Select Yes to use the General electronic reporting pattern for payment files generation.</span></span>  
+6. <span data-ttu-id="4de47-115">在“名称”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4de47-115">In the Name field, click the drop-down button to open the lookup.</span></span>
+7. <span data-ttu-id="4de47-116">选择 BACS（英国虚构）格式配置。</span><span class="sxs-lookup"><span data-stu-id="4de47-116">Select BACS (UK fictitious) format configuration.</span></span>
+8. <span data-ttu-id="4de47-117">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4de47-117">Click Save.</span></span>
+9. <span data-ttu-id="4de47-118">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="4de47-118">Close the page.</span></span>
 
-## <a name="test-the-format-of-generated-payment-files"></a>测试生成的付款文件的格式
-1. 转至“应付帐款”>“付款”>“付款日记帐”。
-2. 单击“新建”。
-3. 在列表中，标记所选的行。
-4. 在“名称”字段中，单击下拉按钮以打开查找。
-5. 在列表中，单击所选行中的链接。
-    * 选择 VendPay。  
-6. 单击“保存”。
-7. 单击“行”。
-8. 在“公司”字段中，键入 'DEMF'。
-    * DEMF  
-9. 在账号字段，设定值为“DE-01001"。
-    * DE-01001  
-10. 在“描述”字段中，键入“付款”。
-    * 付款  
-11. 在“借方”字段中，输入一个数值。
-    * 1000  
-12. 单击“付款”选项卡。
-13. 在“付款方式”字段中，单击下拉按钮以打开查找。
-14. 在列表中，找到并选择所需记录。
-    * 选择“电子值”。  
-15. 在列表中，单击所选行中的链接。
-16. 单击“保存”。
-17. 点击”生成付款“。
-18. 在“付款方式”字段中，单击下拉按钮以打开查找。
-19. 在列表中，找到并选择所需记录。
-    * 选择“电子值”。  
-20. 在列表中，单击所选行中的链接。
-    * 选择“电子值”。  
-21. 在文件名字段，输入一个值。
-    * 例如，键入“付款”。  
-22. 在“银行帐户”字段中，单击下拉按钮以打开查找。
-23. 在列表中，单击所选行中的链接。
-    * 选择值 GBSI OPER。  
-24. 单击“确定”。
-25. 单击“确定”。
-    * 分析以 XML 格式创建的付款文件。 将其与设计的文档格式和定义的付款交易记录属性比较。  
+## <a name="test-the-format-of-generated-payment-files"></a><span data-ttu-id="4de47-119">测试生成的付款文件的格式</span><span class="sxs-lookup"><span data-stu-id="4de47-119">Test the format of generated payment files</span></span>
+1. <span data-ttu-id="4de47-120">转至“应付帐款”>“付款”>“付款日记帐”。</span><span class="sxs-lookup"><span data-stu-id="4de47-120">Go to Accounts payable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="4de47-121">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="4de47-121">Click New.</span></span>
+3. <span data-ttu-id="4de47-122">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="4de47-122">In the list, mark the selected row.</span></span>
+4. <span data-ttu-id="4de47-123">在“名称”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4de47-123">In the Name field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="4de47-124">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4de47-124">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="4de47-125">选择 VendPay。</span><span class="sxs-lookup"><span data-stu-id="4de47-125">Select VendPay.</span></span>  
+6. <span data-ttu-id="4de47-126">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4de47-126">Click Save.</span></span>
+7. <span data-ttu-id="4de47-127">单击“行”。</span><span class="sxs-lookup"><span data-stu-id="4de47-127">Click Lines.</span></span>
+8. <span data-ttu-id="4de47-128">在“公司”字段中，键入 'DEMF'。</span><span class="sxs-lookup"><span data-stu-id="4de47-128">In the Company field, type 'DEMF'.</span></span>
+    * <span data-ttu-id="4de47-129">DEMF</span><span class="sxs-lookup"><span data-stu-id="4de47-129">DEMF</span></span>  
+9. <span data-ttu-id="4de47-130">在账号字段，设定值为“DE-01001"。</span><span class="sxs-lookup"><span data-stu-id="4de47-130">In the Account field, specify the values 'DE-01001'.</span></span>
+    * <span data-ttu-id="4de47-131">DE-01001</span><span class="sxs-lookup"><span data-stu-id="4de47-131">DE-01001</span></span>  
+10. <span data-ttu-id="4de47-132">在“描述”字段中，键入“付款”。</span><span class="sxs-lookup"><span data-stu-id="4de47-132">In the Description field, type 'Payment'.</span></span>
+    * <span data-ttu-id="4de47-133">付款</span><span class="sxs-lookup"><span data-stu-id="4de47-133">Payment</span></span>  
+11. <span data-ttu-id="4de47-134">在“借方”字段中，输入一个数值。</span><span class="sxs-lookup"><span data-stu-id="4de47-134">In the Debit field, enter a number.</span></span>
+    * <span data-ttu-id="4de47-135">1000</span><span class="sxs-lookup"><span data-stu-id="4de47-135">1000</span></span>  
+12. <span data-ttu-id="4de47-136">单击“付款”选项卡。</span><span class="sxs-lookup"><span data-stu-id="4de47-136">Click the Payment tab.</span></span>
+13. <span data-ttu-id="4de47-137">在“付款方式”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4de47-137">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+14. <span data-ttu-id="4de47-138">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="4de47-138">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="4de47-139">选择“电子值”。</span><span class="sxs-lookup"><span data-stu-id="4de47-139">Select the Electronic value.</span></span>  
+15. <span data-ttu-id="4de47-140">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4de47-140">In the list, click the link in the selected row.</span></span>
+16. <span data-ttu-id="4de47-141">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="4de47-141">Click Save.</span></span>
+17. <span data-ttu-id="4de47-142">点击”生成付款“。</span><span class="sxs-lookup"><span data-stu-id="4de47-142">Click Generate payments.</span></span>
+18. <span data-ttu-id="4de47-143">在“付款方式”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4de47-143">In the Method of payment field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="4de47-144">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="4de47-144">In the list, find and select the desired record.</span></span>
+    * <span data-ttu-id="4de47-145">选择“电子值”。</span><span class="sxs-lookup"><span data-stu-id="4de47-145">Select the Electronic value.</span></span>  
+20. <span data-ttu-id="4de47-146">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4de47-146">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="4de47-147">选择“电子值”。</span><span class="sxs-lookup"><span data-stu-id="4de47-147">Select the Electronic value.</span></span>  
+21. <span data-ttu-id="4de47-148">在文件名字段，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="4de47-148">In the File name field, type a value.</span></span>
+    * <span data-ttu-id="4de47-149">例如，键入“付款”。</span><span class="sxs-lookup"><span data-stu-id="4de47-149">For example, type 'payments'.</span></span>  
+22. <span data-ttu-id="4de47-150">在“银行帐户”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="4de47-150">In the Bank account field, click the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="4de47-151">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="4de47-151">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="4de47-152">选择值 GBSI OPER。</span><span class="sxs-lookup"><span data-stu-id="4de47-152">Select the value GBSI OPER.</span></span>  
+24. <span data-ttu-id="4de47-153">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="4de47-153">Click OK.</span></span>
+25. <span data-ttu-id="4de47-154">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="4de47-154">Click OK.</span></span>
+    * <span data-ttu-id="4de47-155">分析以 XML 格式创建的付款文件。</span><span class="sxs-lookup"><span data-stu-id="4de47-155">Analyze the created payment file in XML format.</span></span> <span data-ttu-id="4de47-156">将其与设计的文档格式和定义的付款交易记录属性比较。</span><span class="sxs-lookup"><span data-stu-id="4de47-156">Compare it with the designed document layout and defined payment transaction attributes.</span></span>  
 
 

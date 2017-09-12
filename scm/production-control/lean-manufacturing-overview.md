@@ -20,65 +20,65 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 9262dcaa3b326d8c31b7d7416b102920795da94b
-ms.openlocfilehash: 376b521a7527b4f60bc01c080f8eabb5cb231b30
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 34ce76fa0102d25161ca9db508f4286fee62902c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="lean-manufacturing-overview"></a>精益生产概览
+# <a name="lean-manufacturing-overview"></a><span data-ttu-id="932a3-103">精益生产概览</span><span class="sxs-lookup"><span data-stu-id="932a3-103">Lean manufacturing overview</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的 lean manufacturing 功能的概览和描述。
+<span data-ttu-id="932a3-104">本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的 lean manufacturing 功能的概览和描述。</span><span class="sxs-lookup"><span data-stu-id="932a3-104">This article provides an overview and description of the lean manufacturing features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span>
 
-精益制造提供您可以使用建模精益工序的工具。 这些工具支持和促进以下概念和业务活动：
--   通过建模制造和物流流程创建基础精益制造为生产流程。
--   通过使用看板符号的需求需求实施下拉精益系统。
--   监控和维护看板作业。
+<span data-ttu-id="932a3-105">精益制造提供您可以使用建模精益工序的工具。</span><span class="sxs-lookup"><span data-stu-id="932a3-105">Lean manufacturing offers tools that you can use to model lean operations.</span></span> <span data-ttu-id="932a3-106">这些工具支持和促进以下概念和业务活动：</span><span class="sxs-lookup"><span data-stu-id="932a3-106">These tools support and promote the following concepts and business activities:</span></span>
+-   <span data-ttu-id="932a3-107">通过建模制造和物流流程创建基础精益制造为生产流程。</span><span class="sxs-lookup"><span data-stu-id="932a3-107">Create a lean manufacturing foundation by modeling manufacturing and logistics processes as production flows.</span></span>
+-   <span data-ttu-id="932a3-108">通过使用看板符号的需求需求实施下拉精益系统。</span><span class="sxs-lookup"><span data-stu-id="932a3-108">Implement a lean pull system by using kanbans to signal demand requirements.</span></span>
+-   <span data-ttu-id="932a3-109">监控和维护看板作业。</span><span class="sxs-lookup"><span data-stu-id="932a3-109">Monitor and maintain kanban jobs.</span></span>
 
-Finance and Operations 中的 lean manufacturing 体系结构由生产流程、活动和种规则组成。 这些结构完全由 Finance and Operations 流程集成。 在混合模式的制造环境可以使用精益制造合并各种供应来源、生产和采购策略。 这些策略包括生产订单、批次订单、流程工业、采购订单和转移单。
-| **重要**                                                                                                                                                                                                                                                                |
+<span data-ttu-id="932a3-110">Finance and Operations 中的 lean manufacturing 体系结构由生产流程、活动和种规则组成。</span><span class="sxs-lookup"><span data-stu-id="932a3-110">The lean manufacturing architecture in Finance and Operations consists of production flows, activities, and kanban rules.</span></span> <span data-ttu-id="932a3-111">这些结构完全由 Finance and Operations 流程集成。</span><span class="sxs-lookup"><span data-stu-id="932a3-111">These structures are fully integrated with Finance and Operations processes.</span></span> <span data-ttu-id="932a3-112">在混合模式的制造环境可以使用精益制造合并各种供应来源、生产和采购策略。</span><span class="sxs-lookup"><span data-stu-id="932a3-112">You can use lean manufacturing in a mixed-mode manufacturing environment that combines various supply, production, and sourcing strategies.</span></span> <span data-ttu-id="932a3-113">这些策略包括生产订单、批次订单、流程工业、采购订单和转移单。</span><span class="sxs-lookup"><span data-stu-id="932a3-113">These strategies include production orders, batch orders for process industries, purchase orders, and transfer orders.</span></span>
+| <span data-ttu-id="932a3-114">**重要**</span><span class="sxs-lookup"><span data-stu-id="932a3-114">**Important**</span></span>                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 您可以通过看板使用 Finance and Operations 支持 lean manufacturing 的执行。 但是，原则的精益一个成功的部署取决于您使用实际生产条件和环境的内部业务流程。 |
+| <span data-ttu-id="932a3-115">您可以通过看板使用 Finance and Operations 支持 lean manufacturing 的执行。</span><span class="sxs-lookup"><span data-stu-id="932a3-115">You can use Finance and Operations to support the implementation of lean manufacturing with kanbans.</span></span> <span data-ttu-id="932a3-116">但是，原则的精益一个成功的部署取决于您使用实际生产条件和环境的内部业务流程。</span><span class="sxs-lookup"><span data-stu-id="932a3-116">However, a successful implementation of lean principles depends on the internal business processes that you use, and the actual production conditions and environment.</span></span> |
 
-## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a>建模为生产流程的制造和物流流程
-如要创建建模制造、模型制造和物流流程为生产流程。 此活动包括以下任务：
-1.  标识要实现补货精益战略的流程，然后建模这些进程作为生产流程。 然后可以分析和优化流程。 精益实现的目标之一是通过减少浪费提高材料和信息流。
-2.  定义生产流描述物料流程活动的规则。 转移活动定义从一个位置到另一个产品或产品的变动。 处理活动定义应用于产品的增值工序。
-3.  创建定义单位产品生产时间的要求生产流程的版本。 这些要求用于计算在生产流程时间周期的每个活动。 您可以创建生产流程的多个版本，然后使用这些版本提高流程。
+## <a name="modeling-manufacturing-and-logistics-processes-as-production-flows"></a><span data-ttu-id="932a3-117">建模为生产流程的制造和物流流程</span><span class="sxs-lookup"><span data-stu-id="932a3-117">Modeling manufacturing and logistics processes as production flows</span></span>
+<span data-ttu-id="932a3-118">如要创建建模制造、模型制造和物流流程为生产流程。</span><span class="sxs-lookup"><span data-stu-id="932a3-118">To create a lean manufacturing foundation, model the manufacturing and logistics processes as production flows.</span></span> <span data-ttu-id="932a3-119">此活动包括以下任务：</span><span class="sxs-lookup"><span data-stu-id="932a3-119">This activity consists of the following tasks:</span></span>
+1.  <span data-ttu-id="932a3-120">标识要实现补货精益战略的流程，然后建模这些进程作为生产流程。</span><span class="sxs-lookup"><span data-stu-id="932a3-120">Identify the processes for which you want to implement a lean replenishment strategy, and then model these processes as production flows.</span></span> <span data-ttu-id="932a3-121">然后可以分析和优化流程。</span><span class="sxs-lookup"><span data-stu-id="932a3-121">You can then analyze and streamline the processes.</span></span> <span data-ttu-id="932a3-122">精益实现的目标之一是通过减少浪费提高材料和信息流。</span><span class="sxs-lookup"><span data-stu-id="932a3-122">One of the goals of a lean implementation is to reduce waste by improving the flow of material and information.</span></span>
+2.  <span data-ttu-id="932a3-123">定义生产流描述物料流程活动的规则。</span><span class="sxs-lookup"><span data-stu-id="932a3-123">Define a production flow as a sequence of activities that describes the flow of material.</span></span> <span data-ttu-id="932a3-124">转移活动定义从一个位置到另一个产品或产品的变动。</span><span class="sxs-lookup"><span data-stu-id="932a3-124">A transfer activity defines the movement of a product or products from one location to another.</span></span> <span data-ttu-id="932a3-125">处理活动定义应用于产品的增值工序。</span><span class="sxs-lookup"><span data-stu-id="932a3-125">A process activity defines a value-added operation that is applied to a product.</span></span>
+3.  <span data-ttu-id="932a3-126">创建定义单位产品生产时间的要求生产流程的版本。</span><span class="sxs-lookup"><span data-stu-id="932a3-126">Create a version of the production flow that defines the requirements for takt time.</span></span> <span data-ttu-id="932a3-127">这些要求用于计算在生产流程时间周期的每个活动。</span><span class="sxs-lookup"><span data-stu-id="932a3-127">These requirements are used to calculate the cycle times of each activity in the production flow.</span></span> <span data-ttu-id="932a3-128">您可以创建生产流程的多个版本，然后使用这些版本提高流程。</span><span class="sxs-lookup"><span data-stu-id="932a3-128">You can create multiple versions of production flows, and then use these versions to improve processes.</span></span>
 
-## <a name="using-kanbans-to-signal-demand-requirements"></a>使用看板标记需求的要求
-货物在需要的情况下，系统下拉生产物料。 此操作将减少交货提前期和额外库存。 您可以使用看板计划、跟踪和处理基于生产流程的需求。 若要创建看板结构，创建看板时，创建看板规则定义，并且要求如何执行。 您可以创建规则的两种类型。 制造规则创建处理看板作业，并且，提领看板的规则创建转移看板作业。 可以设置以下补货策略：
--   **“固定数量”**看板规则与处理单位的固定编号相关，这意味着，活动看板的数量是固定的。 只要使用了看板中的所有产品并手动清空了处理单元，将创建同一类型的新看板。 在创建固定数量看板规则时，您可以计算最佳看板数量和使用的产品数量。 该计算考虑到预测、未结订单的实际需求、补货物料的提前期以及历史需求。
--   **“计划”**的看板规则由主计划计算的补货需求。 主计划生成可以确定到看板的计划看板。
--   **“事件”**看板规则源自销售订单行、生产物料清单行的行或最小库存量设置的补货要求。 在生成事件看板时，这些限定为源需求。
+## <a name="using-kanbans-to-signal-demand-requirements"></a><span data-ttu-id="932a3-129">使用看板标记需求的要求</span><span class="sxs-lookup"><span data-stu-id="932a3-129">Using kanbans to signal demand requirements</span></span>
+<span data-ttu-id="932a3-130">货物在需要的情况下，系统下拉生产物料。</span><span class="sxs-lookup"><span data-stu-id="932a3-130">A pull system produces goods only when goods are needed.</span></span> <span data-ttu-id="932a3-131">此操作将减少交货提前期和额外库存。</span><span class="sxs-lookup"><span data-stu-id="932a3-131">This practice reduces delivery lead times and excess inventory.</span></span> <span data-ttu-id="932a3-132">您可以使用看板计划、跟踪和处理基于生产流程的需求。</span><span class="sxs-lookup"><span data-stu-id="932a3-132">You can use kanbans to plan, track, and process requirements that are based on production flows.</span></span> <span data-ttu-id="932a3-133">若要创建看板结构，创建看板时，创建看板规则定义，并且要求如何执行。</span><span class="sxs-lookup"><span data-stu-id="932a3-133">To create a kanban framework, create kanban rules that define when kanbans are created, and how the requirements are fulfilled.</span></span> <span data-ttu-id="932a3-134">您可以创建规则的两种类型。</span><span class="sxs-lookup"><span data-stu-id="932a3-134">You can create two types of kanban rules.</span></span> <span data-ttu-id="932a3-135">制造规则创建处理看板作业，并且，提领看板的规则创建转移看板作业。</span><span class="sxs-lookup"><span data-stu-id="932a3-135">Manufacturing rules create process kanban jobs, and withdrawal kanban rules create transfer kanban jobs.</span></span> <span data-ttu-id="932a3-136">可以设置以下补货策略：</span><span class="sxs-lookup"><span data-stu-id="932a3-136">You can set up the following replenishment strategies:</span></span>
+-   <span data-ttu-id="932a3-137">**“固定数量”**看板规则与处理单位的固定编号相关，这意味着，活动看板的数量是固定的。</span><span class="sxs-lookup"><span data-stu-id="932a3-137">**Fixed quantity** kanban rules are related to a fixed number of handling units, which means that the numbers of active kanbans are constant.</span></span> <span data-ttu-id="932a3-138">只要使用了看板中的所有产品并手动清空了处理单元，将创建同一类型的新看板。</span><span class="sxs-lookup"><span data-stu-id="932a3-138">Whenever all the products from a Kanban are consumed and the handling units are manually emptied, a new kanban of the same type is created.</span></span> <span data-ttu-id="932a3-139">在创建固定数量看板规则时，您可以计算最佳看板数量和使用的产品数量。</span><span class="sxs-lookup"><span data-stu-id="932a3-139">When you create fixed quantity kanban rules, you can calculate the optimal kanban quantities and the product quantities that are used.</span></span> <span data-ttu-id="932a3-140">该计算考虑到预测、未结订单的实际需求、补货物料的提前期以及历史需求。</span><span class="sxs-lookup"><span data-stu-id="932a3-140">The calculation takes into account forecast, actual demand from open orders, lead time to replenish items, and historical demands.</span></span>
+-   <span data-ttu-id="932a3-141">**“计划”**的看板规则由主计划计算的补货需求。</span><span class="sxs-lookup"><span data-stu-id="932a3-141">**Scheduled** kanban rules replenish requirements that are calculated by master planning.</span></span> <span data-ttu-id="932a3-142">主计划生成可以确定到看板的计划看板。</span><span class="sxs-lookup"><span data-stu-id="932a3-142">Master planning generates planned kanbans that can be firmed to kanbans.</span></span>
+-   <span data-ttu-id="932a3-143">**“事件”**看板规则源自销售订单行、生产物料清单行的行或最小库存量设置的补货要求。</span><span class="sxs-lookup"><span data-stu-id="932a3-143">**Event** kanban rules replenish requirements that originate from sales order lines, production BOM lines, kanban lines, or minimum inventory settings.</span></span> <span data-ttu-id="932a3-144">在生成事件看板时，这些限定为源需求。</span><span class="sxs-lookup"><span data-stu-id="932a3-144">When event kanbans are generated, they are pegged to the source requirements.</span></span>
 
-在创建看板时，基于定义在看板规则中的看板流活动中将生成一个或多个看板作业。
+<span data-ttu-id="932a3-145">在创建看板时，基于定义在看板规则中的看板流活动中将生成一个或多个看板作业。</span><span class="sxs-lookup"><span data-stu-id="932a3-145">When kanbans are created, one or more kanban jobs are generated based on the kanban flow activities that are defined in the kanban rules.</span></span>
 
-## <a name="monitoring-and-maintaining-kanban-jobs"></a> 监控和维护看板作业。
-Lean manufacturing 提供由看板规则管理的可见性到制造和物流活动的当前状态。 因此，您可以计划和优先以下任务：
+## <a name="monitoring-and-maintaining-kanban-jobs"></a><span data-ttu-id="932a3-146"> 监控和维护看板作业。</span><span class="sxs-lookup"><span data-stu-id="932a3-146">Monitoring and maintaining kanban jobs</span></span>
+<span data-ttu-id="932a3-147">Lean manufacturing 提供由看板规则管理的可见性到制造和物流活动的当前状态。</span><span class="sxs-lookup"><span data-stu-id="932a3-147">Lean manufacturing provides visibility into the current status of manufacturing and logistics activities that are governed by the kanban rules.</span></span> <span data-ttu-id="932a3-148">因此，您可以计划和优先以下任务：</span><span class="sxs-lookup"><span data-stu-id="932a3-148">As a result, you can plan and prioritize the following tasks:</span></span>
 
--   获取当前看板作业计划的概览。
--   计划并重新计划看板作业。
--   跟踪和登记看板作业的状态。
+-   <span data-ttu-id="932a3-149">获取当前看板作业计划的概览。</span><span class="sxs-lookup"><span data-stu-id="932a3-149">Gain an overview of the current kanban job schedule.</span></span>
+-   <span data-ttu-id="932a3-150">计划并重新计划看板作业。</span><span class="sxs-lookup"><span data-stu-id="932a3-150">Plan and reschedule kanban jobs.</span></span>
+-   <span data-ttu-id="932a3-151">跟踪和登记看板作业的状态。</span><span class="sxs-lookup"><span data-stu-id="932a3-151">Track and register the status of kanban jobs.</span></span>
 
-下表描述专门的看板面板：
--   看板作业计划 – 提供看板作业的概览。 该板显示一个或多个工作单元的看板作业及其状态。 此作业根据定义在生产流程模型的计划周期（天数或周数）列出。 该板还显示每个计划期间产能消耗量，因此，您可以监控计划的负荷。 您可以更改看板作业的状态，重新计划看板作业到不同的计划期间和执行其他任务。
--   看板面板转移作业–此板提供转移作业当前的概览。 可以更新和登记领料单，开始并完成转移作业，以及执行其他任务。
--   用于处理作业的看板面板 – 此板专用于支持常规生产流程并提供一个或多个工作单元中的当前情况的概览。 从该板中，可以对看板设置优先级、领料和制造。 此板还装用于支持看板报告的条码扫描。
+<span data-ttu-id="932a3-152">下表描述专门的看板面板：</span><span class="sxs-lookup"><span data-stu-id="932a3-152">The following list describes the specialized kanban boards:</span></span>
+-   <span data-ttu-id="932a3-153">看板作业计划 – 提供看板作业的概览。</span><span class="sxs-lookup"><span data-stu-id="932a3-153">Kanban job scheduling – Provides an overview of the kanban jobs.</span></span> <span data-ttu-id="932a3-154">该板显示一个或多个工作单元的看板作业及其状态。</span><span class="sxs-lookup"><span data-stu-id="932a3-154">The board displays kanban jobs and their status for one or multiple work cells.</span></span> <span data-ttu-id="932a3-155">此作业根据定义在生产流程模型的计划周期（天数或周数）列出。</span><span class="sxs-lookup"><span data-stu-id="932a3-155">The jobs are listed according to the planning periods (days or weeks) that are defined in the production flow model.</span></span> <span data-ttu-id="932a3-156">该板还显示每个计划期间产能消耗量，因此，您可以监控计划的负荷。</span><span class="sxs-lookup"><span data-stu-id="932a3-156">The board also displays the capacity consumption for each planning period, so that you can monitor the scheduled load.</span></span> <span data-ttu-id="932a3-157">您可以更改看板作业的状态，重新计划看板作业到不同的计划期间和执行其他任务。</span><span class="sxs-lookup"><span data-stu-id="932a3-157">You can change the status of kanban jobs, reschedule kanban jobs to different planning periods, and perform other tasks.</span></span>
+-   <span data-ttu-id="932a3-158">看板面板转移作业–此板提供转移作业当前的概览。</span><span class="sxs-lookup"><span data-stu-id="932a3-158">Kanban board for transfer jobs – This board provides an overview of the current transfer jobs.</span></span> <span data-ttu-id="932a3-159">可以更新和登记领料单，开始并完成转移作业，以及执行其他任务。</span><span class="sxs-lookup"><span data-stu-id="932a3-159">You can update and register picking lists, start and complete transfer jobs, and perform other tasks.</span></span>
+-   <span data-ttu-id="932a3-160">用于处理作业的看板面板 – 此板专用于支持常规生产流程并提供一个或多个工作单元中的当前情况的概览。</span><span class="sxs-lookup"><span data-stu-id="932a3-160">Kanban board for process jobs – This board is designed to support the normal production flow and give an overview of the current situation in one or multiple work cells.</span></span> <span data-ttu-id="932a3-161">从该板中，可以对看板设置优先级、领料和制造。</span><span class="sxs-lookup"><span data-stu-id="932a3-161">From this board Kanbans can be prioritized, picked, or manufactured.</span></span> <span data-ttu-id="932a3-162">此板还装用于支持看板报告的条码扫描。</span><span class="sxs-lookup"><span data-stu-id="932a3-162">The board is also designed to support barcode scanning for the reporting of Kanbans.</span></span>
 
-## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a>看板作业和集成 Finance and Operations 流程
-看板作业在 Finance and Operations 中完全集成库存交易记录的当前流程。
--   您可以执行领料活动用于完成看板作业的要求的补货物料。
--   您可以打印看板卡、循环看板卡和领料单以支持看板的使用。 这些文件在仓库中和在生产车间上用于表示、跟踪和登记看板作业。
--   您可以通过在库存中扫描条码登记领料和转移活动。
+## <a name="kanban-jobs-and-integration-with-finance-and-operations-processes"></a><span data-ttu-id="932a3-163">看板作业和集成 Finance and Operations 流程</span><span class="sxs-lookup"><span data-stu-id="932a3-163">Kanban jobs and integration with Finance and Operations processes</span></span>
+<span data-ttu-id="932a3-164">看板作业在 Finance and Operations 中完全集成库存交易记录的当前流程。</span><span class="sxs-lookup"><span data-stu-id="932a3-164">Kanban jobs are fully integrated with current processes for inventory transactions in Finance and Operations.</span></span>
+-   <span data-ttu-id="932a3-165">您可以执行领料活动用于完成看板作业的要求的补货物料。</span><span class="sxs-lookup"><span data-stu-id="932a3-165">You can perform picking activities to replenish material that is used to fulfill the requirements of kanban jobs.</span></span>
+-   <span data-ttu-id="932a3-166">您可以打印看板卡、循环看板卡和领料单以支持看板的使用。</span><span class="sxs-lookup"><span data-stu-id="932a3-166">You can print kanban cards, circulating kanban cards, and picking lists to support the use of kanbans.</span></span> <span data-ttu-id="932a3-167">这些文件在仓库中和在生产车间上用于表示、跟踪和登记看板作业。</span><span class="sxs-lookup"><span data-stu-id="932a3-167">These documents are used to represent, track, and register kanban jobs in the warehouse and on the production floor.</span></span>
+-   <span data-ttu-id="932a3-168">您可以通过在库存中扫描条码登记领料和转移活动。</span><span class="sxs-lookup"><span data-stu-id="932a3-168">You can register the picking and transfer activities in inventory by scanning bar codes.</span></span>
 
-此外，lean manufacturing 支持转包的活动引用的服务的采购和开票的过程。
--   您可以将采购协议行和服务分配到已转包活动。
--   您可以创建期间采购订单和收货通知支持采购和发票的服务。
+<span data-ttu-id="932a3-169">此外，lean manufacturing 支持转包的活动引用的服务的采购和开票的过程。</span><span class="sxs-lookup"><span data-stu-id="932a3-169">In addition, lean manufacturing supports the purchasing and invoicing processes for services that are referenced by subcontracted activities.</span></span>
+-   <span data-ttu-id="932a3-170">您可以将采购协议行和服务分配到已转包活动。</span><span class="sxs-lookup"><span data-stu-id="932a3-170">You can assign purchase agreement lines and services to subcontracted activities.</span></span>
+-   <span data-ttu-id="932a3-171">您可以创建期间采购订单和收货通知支持采购和发票的服务。</span><span class="sxs-lookup"><span data-stu-id="932a3-171">You can create periodic purchase orders and receipt advices to support the purchase and invoicing of the services.</span></span>
 
 
 

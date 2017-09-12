@@ -15,129 +15,129 @@ ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: twheeloc
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 12afcde947463b3abf58dea6138653a32dcda6f1
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: cfecabef2689814f6f8f2fecf0f22903cce98f2a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="project-management-and-accounting"></a>项目管理与核算
+# <a name="project-management-and-accounting"></a><span data-ttu-id="c03ac-103">项目管理与核算</span><span class="sxs-lookup"><span data-stu-id="c03ac-103">Project management and accounting</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-项目管理和核算功能可在多个行业提供服务、生产产品或实现结果。  
+<span data-ttu-id="c03ac-104">项目管理和核算功能可在多个行业提供服务、生产产品或实现结果。</span><span class="sxs-lookup"><span data-stu-id="c03ac-104">The project management and accounting functionality can be used in multiple industries to provide a service, produce a product, or achieve a result.</span></span>  
 
-项目是一组专门用来提供服务、生产产品或实现结果的活动。 项目消耗资源，并生成收入或资产形式的财务结果。
+<span data-ttu-id="c03ac-105">项目是一组专门用来提供服务、生产产品或实现结果的活动。</span><span class="sxs-lookup"><span data-stu-id="c03ac-105">A project is a group of activities that is designed to provide a service, produce a product, or achieve a result.</span></span> <span data-ttu-id="c03ac-106">项目消耗资源，并生成收入或资产形式的财务结果。</span><span class="sxs-lookup"><span data-stu-id="c03ac-106">Projects consume resources and generate financial results in the form of revenues or assets.</span></span>
 
-## <a name="projects-across-industries"></a>跨行业的项目
-项目管理和核算功能可在多个行业中使用，如下图所示。 [![跨行业的项目](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+## <a name="projects-across-industries"></a><span data-ttu-id="c03ac-107">跨行业的项目</span><span class="sxs-lookup"><span data-stu-id="c03ac-107">Projects across industries</span></span>
+<span data-ttu-id="c03ac-108">项目管理和核算功能可在多个行业中使用，如下图所示。</span><span class="sxs-lookup"><span data-stu-id="c03ac-108">The project management and accounting functionality can be used in multiple industries, as shown in the following illustration.</span></span> <span data-ttu-id="c03ac-109">[![跨行业的项目](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span><span class="sxs-lookup"><span data-stu-id="c03ac-109">[![Projects accross industries](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg)</span></span> 
 
-在呼叫中心，票据可用于描述解决呼叫所需的一系列行动。 咨询公司（如管理或技术咨询组织或广告代理）将其活动称为项目。 在市场营销中，市场活动表示必须完成的一系列工作。 在基于项目的制造中，生产订单与必须完成才能生产某些成品的各种工作相关。 无论对这类项目使用哪种名称，它都涉及资源、计划和成本，而 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的项目管理和核算功能可帮助规划、执行和分析这些项目。
+<span data-ttu-id="c03ac-110">在呼叫中心，票据可用于描述解决呼叫所需的一系列行动。</span><span class="sxs-lookup"><span data-stu-id="c03ac-110">In a call center, a ticket can be used to describe the set of actions that are required to resolve a call.</span></span> <span data-ttu-id="c03ac-111">咨询公司（如管理或技术咨询组织或广告代理）将其活动称为项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-111">Consulting companies, such as management or technical consulting organizations or advertising agencies, refer to their activities as projects.</span></span> <span data-ttu-id="c03ac-112">在市场营销中，市场活动表示必须完成的一系列工作。</span><span class="sxs-lookup"><span data-stu-id="c03ac-112">In marketing, a campaign represents a set of work that must be delivered.</span></span> <span data-ttu-id="c03ac-113">在基于项目的制造中，生产订单与必须完成才能生产某些成品的各种工作相关。</span><span class="sxs-lookup"><span data-stu-id="c03ac-113">In project-based manufacturing, a production order relates the various work that must be done to produce some finished goods.</span></span> <span data-ttu-id="c03ac-114">无论对这类项目使用哪种名称，它都涉及资源、计划和成本，而 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的项目管理和核算功能可帮助规划、执行和分析这些项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-114">Whatever name is used for them, these projects involve resources, schedules, and costs, and the project management and accounting functionality in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition can help with the planning, execution, and analysis of these projects.</span></span>
 
-## <a name="project-phases"></a>项目阶段
-尽管以下流程针对的是外部项目或为一个或多个客户完成的项目，但该功能还适用于内部的仅成本项目。 
+## <a name="project-phases"></a><span data-ttu-id="c03ac-115">项目阶段</span><span class="sxs-lookup"><span data-stu-id="c03ac-115">Project phases</span></span>
+<span data-ttu-id="c03ac-116">尽管以下流程针对的是外部项目或为一个或多个客户完成的项目，但该功能还适用于内部的仅成本项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-116">Although the following process flow is aimed toward external projects, or project that are completed for one or more customers, the functionality also applies to internal, cost-only projects.</span></span> 
 
 ![项目的 3 个阶段](./media/3-stages-of-a-project.png) 
 
-如上图所示，项目管理和核算可分为三个阶段：
+<span data-ttu-id="c03ac-118">如上图所示，项目管理和核算可分为三个阶段：</span><span class="sxs-lookup"><span data-stu-id="c03ac-118">As shown in the preceding illustration, project management and accounting can be divided into three phases:</span></span>
 
-1.  启动
-2.  执行
-3.  分析
+1.  <span data-ttu-id="c03ac-119">启动</span><span class="sxs-lookup"><span data-stu-id="c03ac-119">Initiate</span></span>
+2.  <span data-ttu-id="c03ac-120">执行</span><span class="sxs-lookup"><span data-stu-id="c03ac-120">Execute</span></span>
+3.  <span data-ttu-id="c03ac-121">分析</span><span class="sxs-lookup"><span data-stu-id="c03ac-121">Analyze</span></span>
 
-## <a name="initiate-the-project"></a>启动项目
-在项目启动期间，几个关键流程将会执行。 您可以使用项目报价单向客户传达估计的人工、支出和物料。 您可以在项目合同中记录计费条目、限制和协议。 您可以使用工作分解结构 (WBS) 计划和估计工作。 您可以设置预测和预算以指导项目执行。 下图显示了项目的结构。[![项目结构](./media/project-structure1.jpg)](./media/project-structure1.jpg)  
+## <a name="initiate-the-project"></a><span data-ttu-id="c03ac-122">启动项目</span><span class="sxs-lookup"><span data-stu-id="c03ac-122">Initiate the project</span></span>
+<span data-ttu-id="c03ac-123">在项目启动期间，几个关键流程将会执行。</span><span class="sxs-lookup"><span data-stu-id="c03ac-123">During project initiation, several key processes occur.</span></span> <span data-ttu-id="c03ac-124">您可以使用项目报价单向客户传达估计的人工、支出和物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-124">You can use a project quotation to communicate  the estimated labor, expenses, and materials to the customer.</span></span> <span data-ttu-id="c03ac-125">您可以在项目合同中记录计费条目、限制和协议。</span><span class="sxs-lookup"><span data-stu-id="c03ac-125">You can record the billing terms, limits, and agreements in a project contract.</span></span> <span data-ttu-id="c03ac-126">您可以使用工作分解结构 (WBS) 计划和估计工作。</span><span class="sxs-lookup"><span data-stu-id="c03ac-126">You can use a work breakdown structure (WBS) to plan and estimate the work.</span></span> <span data-ttu-id="c03ac-127">您可以设置预测和预算以指导项目执行。</span><span class="sxs-lookup"><span data-stu-id="c03ac-127">You can set up forecasts and budgets to guide the project execution.</span></span> <span data-ttu-id="c03ac-128">下图显示了项目的结构。[![项目结构](./media/project-structure1.jpg)](./media/project-structure1.jpg)</span><span class="sxs-lookup"><span data-stu-id="c03ac-128">The following illustration shows the structure of a project.[![project structure](./media/project-structure1.jpg)](./media/project-structure1.jpg)</span></span>  
 
-### <a name="create-project-quotations"></a>创建项目报价
+### <a name="create-project-quotations"></a><span data-ttu-id="c03ac-129">创建项目报价</span><span class="sxs-lookup"><span data-stu-id="c03ac-129">Create project quotations</span></span>
 
-在项目的初始销售阶段，项目报价单可让您为客户提供无约束力的出价。 报价单可以包含以下元素，例如进行报价的物料和服务、基本联系信息、特殊贸易协议和折扣以及可能的税金和附加费。
+<span data-ttu-id="c03ac-130">在项目的初始销售阶段，项目报价单可让您为客户提供无约束力的出价。</span><span class="sxs-lookup"><span data-stu-id="c03ac-130">In the initial sales phase of a project, a project quotation lets you provide a customer with a non-binding offer.</span></span> <span data-ttu-id="c03ac-131">报价单可以包含以下元素，例如进行报价的物料和服务、基本联系信息、特殊贸易协议和折扣以及可能的税金和附加费。</span><span class="sxs-lookup"><span data-stu-id="c03ac-131">A quotation can include elements such as the items and services that are quoted, basic contact information, special trade agreements and discounts, and possible taxes and surcharges.</span></span>
 
-您还可以为您的组织和客户之间的项目报价单交易记录颁发保函。 在项目报价单创建后，您可以为客户创建保函请求并提交给银行。 在银行审核该请求后，保函将发给客户。 
+<span data-ttu-id="c03ac-132">您还可以为您的组织和客户之间的项目报价单交易记录颁发保函。</span><span class="sxs-lookup"><span data-stu-id="c03ac-132">You can also issue a letter of guarantee for a project quotation transaction between your organization and the customer.</span></span> <span data-ttu-id="c03ac-133">在项目报价单创建后，您可以为客户创建保函请求并提交给银行。</span><span class="sxs-lookup"><span data-stu-id="c03ac-133">After the project quotation is created, you can create the letter of guarantees request for the customer and submit it to the bank.</span></span> <span data-ttu-id="c03ac-134">在银行审核该请求后，保函将发给客户。</span><span class="sxs-lookup"><span data-stu-id="c03ac-134">After the bank has approved the request, the letter of guarantee is issued to the customer.</span></span> 
 
-有关详细信息，请参阅[项目报价单](project-quotations.md)。
+<span data-ttu-id="c03ac-135">有关详细信息，请参阅[项目报价单](project-quotations.md)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-135">For more information, see [Project quotations](project-quotations.md).</span></span>
 
-### <a name="create-project-contracts"></a>创建项目合同
+### <a name="create-project-contracts"></a><span data-ttu-id="c03ac-136">创建项目合同</span><span class="sxs-lookup"><span data-stu-id="c03ac-136">Create project contracts</span></span>
 
-当您与客户或其他融资来源开始签订合同以完成某项目时，您必须先创建一份项目合同。 然后，在创建项目时，您必须将其分配到对应的合同。 为项目合同创建项目的类型确定用于向项目客户开票的方法。 您可以修改项目合同和相关的项目，但不能更改项目类型。 有关项目类型的详细信息，请参阅“创建项目”部分。
+<span data-ttu-id="c03ac-137">当您与客户或其他融资来源开始签订合同以完成某项目时，您必须先创建一份项目合同。</span><span class="sxs-lookup"><span data-stu-id="c03ac-137">When you enter into a contract with a customer or other funding source to complete a project, you must first create a project contract.</span></span> <span data-ttu-id="c03ac-138">然后，在创建项目时，您必须将其分配到对应的合同。</span><span class="sxs-lookup"><span data-stu-id="c03ac-138">Then, when you create the project, you must assign it to the corresponding contract.</span></span> <span data-ttu-id="c03ac-139">为项目合同创建项目的类型确定用于向项目客户开票的方法。</span><span class="sxs-lookup"><span data-stu-id="c03ac-139">The type of project that you create for a project contract determines the method that is used to invoice the project customers.</span></span> <span data-ttu-id="c03ac-140">您可以修改项目合同和相关的项目，但不能更改项目类型。</span><span class="sxs-lookup"><span data-stu-id="c03ac-140">You can modify a project contract and the related project, but you can’t change the project type.</span></span> <span data-ttu-id="c03ac-141">有关项目类型的详细信息，请参阅“创建项目”部分。</span><span class="sxs-lookup"><span data-stu-id="c03ac-141">For more information about project types, see the "Creating projects" section.</span></span>
 
-有关项目合同的详细信息，请参阅[项目合同](project-contracts.md)。
+<span data-ttu-id="c03ac-142">有关项目合同的详细信息，请参阅[项目合同](project-contracts.md)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-142">For more information about project contracts, see [Project contracts](project-contracts.md).</span></span>
 
-### <a name="create-work-breakdown-structures"></a>创建工作分解结构
+### <a name="create-work-breakdown-structures"></a><span data-ttu-id="c03ac-143">创建工作分解结构</span><span class="sxs-lookup"><span data-stu-id="c03ac-143">Create work breakdown structures</span></span>
 
-WBS 中详细信息的级别取决于评估中需要的准确性等级和这些评估需要的跟踪级别。 对计划或成本偏差的容忍度非常低的项目通常需要更详细的 WBS，还需要针对 WBS 积极跟进工作进度和成本。 
+<span data-ttu-id="c03ac-144">WBS 中详细信息的级别取决于评估中需要的准确性等级和这些评估需要的跟踪级别。</span><span class="sxs-lookup"><span data-stu-id="c03ac-144">The degree of detail in a WBS depends on the level of accuracy that is required in estimates and the level of tracking that is required against those estimates.</span></span> <span data-ttu-id="c03ac-145">对计划或成本偏差的容忍度非常低的项目通常需要更详细的 WBS，还需要针对 WBS 积极跟进工作进度和成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-145">Projects that have very low tolerance for slippages in schedule or cost usually require a more detailed WBS, and also require diligent tracking of work progress and cost against the WBS.</span></span> 
 
-有关详细信息，请参阅[工作分解结构](work-breakdown-structures.md)。
+<span data-ttu-id="c03ac-146">有关详细信息，请参阅[工作分解结构](work-breakdown-structures.md)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-146">For more information, see [Work breakdown structures](work-breakdown-structures.md).</span></span>
 
-### <a name="create-project-forecasts-and-budgets"></a>创建项目预测及预算
+### <a name="create-project-forecasts-and-budgets"></a><span data-ttu-id="c03ac-147">创建项目预测及预算</span><span class="sxs-lookup"><span data-stu-id="c03ac-147">Create project forecasts and budgets</span></span>
 
-如果您的组织有工序方面的考虑并且重点关注从特定交易产生的收入和成本，您可以使用预测。 但是，如果您的组织更关注财务金额，您可以使用预算。 每个方法都有自己的优点。 有关详细信息，请参阅[项目预测和预算](project-forecasts-budgets.md)。
+<span data-ttu-id="c03ac-148">如果您的组织有工序方面的考虑并且重点关注从特定交易产生的收入和成本，您可以使用预测。</span><span class="sxs-lookup"><span data-stu-id="c03ac-148">You can use forecasting if your organization has an operational perspective and focuses on the revenues and costs that are derived from specific transactions.</span></span> <span data-ttu-id="c03ac-149">但是，如果您的组织更关注财务金额，您可以使用预算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-149">However, if your organization focuses more on financial amounts, you can use budgeting.</span></span> <span data-ttu-id="c03ac-150">每个方法都有自己的优点。</span><span class="sxs-lookup"><span data-stu-id="c03ac-150">Each method has its advantages.</span></span> <span data-ttu-id="c03ac-151">有关详细信息，请参阅[项目预测和预算](project-forecasts-budgets.md)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-151">For more information, see [Project forecasts and budgets](project-forecasts-budgets.md).</span></span>
 
-### <a name="create-projects"></a>创建项目
+### <a name="create-projects"></a><span data-ttu-id="c03ac-152">创建项目</span><span class="sxs-lookup"><span data-stu-id="c03ac-152">Create projects</span></span>
 
-您可以在 Microsoft Dynamics 365 for Finance and Operations 中创建六种类型的项目。 每种项目类型的设置方式各不相同，这是为了方便成本和收入确认。 项目类型的选择取决于项目的用途。 下表描述了每个项目类型的典型用法。
+<span data-ttu-id="c03ac-153">您可以在 Microsoft Dynamics 365 for Finance and Operations 中创建六种类型的项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-153">You can create six types of projects in Microsoft Finance and Operations.</span></span> <span data-ttu-id="c03ac-154">每种项目类型的设置方式各不相同，这是为了方便成本和收入确认。</span><span class="sxs-lookup"><span data-stu-id="c03ac-154">Each project type is set up differently for costs and revenue recognition.</span></span> <span data-ttu-id="c03ac-155">项目类型的选择取决于项目的用途。</span><span class="sxs-lookup"><span data-stu-id="c03ac-155">The project type that you choose depends on the purpose of the project.</span></span> <span data-ttu-id="c03ac-156">下表描述了每个项目类型的典型用法。</span><span class="sxs-lookup"><span data-stu-id="c03ac-156">The following table describes the typical use of each project type.</span></span>
 
                                                                                                                                                                          |
-| 项目类型      | 描述                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
+| <span data-ttu-id="c03ac-157">项目类型</span><span class="sxs-lookup"><span data-stu-id="c03ac-157">Project type</span></span>      | <span data-ttu-id="c03ac-158">描述</span><span class="sxs-lookup"><span data-stu-id="c03ac-158">Description</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
 |-------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 时间和材料 | 在时间和材料项目中，客户按项目中产生的所有成本进行结算。 这些成本包括工时、支出、物料和费用的成本。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| 固定价格       | 在固定价格项目中，发票由分期付款交易记录组成。 固定价格项目根据基于项目合同的缴费时间表开票。 可使用“已完成百分比”方法在整个项目过程中计算和过帐固定价格项目的收入。 或者，也可以使用“已完成的合同”方法在完成项目时计算和过帐收入。 公司通常可以从使用在制品 (WIP) 计算项目或项目组的完成级别中获益。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
-| 投资        | 投资项目是不会立即产生收益的项目。 他们通常用于必须对成本进行资本化的长期内部项目。 只能为投资项目记录物料、工时和支出的成本。 使用估计功能跟踪并控制投资项目中的成本。 设置投资项目时可以采用可选的最大资本化。 随着投资项目的进展，您应将其成本记录在 WIP 帐户中，在项目完成前，该成本处于暂停状态。 在清除项目后，您将 WIP 值转移到固定资产、会计科目或新项目。 注意：投资项目的交易记录不会显示在**过帐成本**、**应计收入**或**创建发票方案**页上。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
-| 成本项目      | 与投资项目类似，成本项目通常用于跟踪内部项目，并且仅可为成本项目记录工时、支出和物料。 但是，成本项目通常比投资项目期限短。 此外，与投资项目不同，成本项目无法资本化为资产负债表科目。 而仅将其项目交易记录过帐到损益科目。 **注意**成本项目的交易记录不会体现在**过帐成本**、**应计收入**或**创建发票方案**页上。 因为成本项目通常用于跟踪内部项目，所以它们通常不必与客户帐户相关联。 但是，如果您的设置要求为采购订单创建物料需求，则必须将成本项目与客户相关联。 此关联是必需的，因为物料需求被当作销售订单行管理，并且系统要求指定客户。 但是，此设置不会导致根据采购订单自动创建物料需求。 对于成本项目，将忽略**“创建物料需求”**设置。 如果您在成本项目中需要物料需求，您可以手动创建它，前提是客户与项目关联。 |
-| 内部          | 内部项目用于跟踪您组织内的项目的成本。 内部项目可以为管理资源消耗提供计划工具。 **注释：**内部项目的交易记录不会体现在**应计收入**或**创建发票方案**页上。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 时间              | 时间项目用于跟踪与不计费和非生产活动关联的时间，例如某一项目跟踪工作人员的病假。 时间项目中的交易记录不会过帐到分类帐。 而是，它们包含在工作人员利用报表中。 在时间项目上只能记录工时交易记录。 您使用 1 小时日志或工时将这些工时登记到项目。 在登记工时后，它们显示为项目交易记录，但是没有相应的凭证交易记录。 **注意：**时间项目的交易记录不会体现在**过帐成本**、**应计收入**或**创建发票方案**页上。                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| <span data-ttu-id="c03ac-159">时间和材料</span><span class="sxs-lookup"><span data-stu-id="c03ac-159">Time and material</span></span> | <span data-ttu-id="c03ac-160">在时间和材料项目中，客户按项目中产生的所有成本进行结算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-160">In Time and material projects, the customer is billed for all costs that are incurred on a project.</span></span> <span data-ttu-id="c03ac-161">这些成本包括工时、支出、物料和费用的成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-161">These cost include costs for hours, expenses, items, and fees.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <span data-ttu-id="c03ac-162">固定价格</span><span class="sxs-lookup"><span data-stu-id="c03ac-162">Fixed-price</span></span>       | <span data-ttu-id="c03ac-163">在固定价格项目中，发票由分期付款交易记录组成。</span><span class="sxs-lookup"><span data-stu-id="c03ac-163">In Fixed-price projects, the invoices consist of on-account transactions.</span></span> <span data-ttu-id="c03ac-164">固定价格项目根据基于项目合同的缴费时间表开票。</span><span class="sxs-lookup"><span data-stu-id="c03ac-164">A Fixed-price project is invoiced according to a billing schedule that is based on a project contract.</span></span> <span data-ttu-id="c03ac-165">可使用“已完成百分比”方法在整个项目过程中计算和过帐固定价格项目的收入。</span><span class="sxs-lookup"><span data-stu-id="c03ac-165">Revenue for a Fixed-price project can be calculated and posted throughout the project by using the completed percentage method.</span></span> <span data-ttu-id="c03ac-166">或者，也可以使用“已完成的合同”方法在完成项目时计算和过帐收入。</span><span class="sxs-lookup"><span data-stu-id="c03ac-166">Alternatively, revenue can be calculated and posted when the project is completed, by using the completed contract method.</span></span> <span data-ttu-id="c03ac-167">公司通常可以从使用在制品 (WIP) 计算项目或项目组的完成级别中获益。</span><span class="sxs-lookup"><span data-stu-id="c03ac-167">Companies can often benefit from using the value of the work in process (WIP) to calculate the degree of completion of a project or group of projects.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             |
+| <span data-ttu-id="c03ac-168">投资</span><span class="sxs-lookup"><span data-stu-id="c03ac-168">Investment</span></span>        | <span data-ttu-id="c03ac-169">投资项目是不会立即产生收益的项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-169">Investment projects are projects that don't produce immediate earnings.</span></span> <span data-ttu-id="c03ac-170">他们通常用于必须对成本进行资本化的长期内部项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-170">They are typically used for long-term internal projects where the costs must be capitalized.</span></span> <span data-ttu-id="c03ac-171">只能为投资项目记录物料、工时和支出的成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-171">Only costs for items, hours, and expenses can be recorded for an Investment project.</span></span> <span data-ttu-id="c03ac-172">使用估计功能跟踪并控制投资项目中的成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-172">Costs in an Investment project are tracked and controlled by using estimate functionality.</span></span> <span data-ttu-id="c03ac-173">设置投资项目时可以采用可选的最大资本化。</span><span class="sxs-lookup"><span data-stu-id="c03ac-173">Investment projects can be set up with an optional maximum capitalization.</span></span> <span data-ttu-id="c03ac-174">随着投资项目的进展，您应将其成本记录在 WIP 帐户中，在项目完成前，该成本处于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="c03ac-174">As an Investment project progresses, you record its costs in WIP accounts, where the costs are held until the project is completed.</span></span> <span data-ttu-id="c03ac-175">在清除项目后，您将 WIP 值转移到固定资产、会计科目或新项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-175">When the project is eliminated, you transfer the WIP value to a fixed asset, a ledger account, or a new project.</span></span> <span data-ttu-id="c03ac-176">注意：投资项目的交易记录不会显示在**过帐成本**、**应计收入**或**创建发票方案**页上。</span><span class="sxs-lookup"><span data-stu-id="c03ac-176">Note: Transactions on Investment projects aren't shown on the **Post costs**, **Accrue revenue**, or **Create invoice proposals** page.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| <span data-ttu-id="c03ac-177">成本项目</span><span class="sxs-lookup"><span data-stu-id="c03ac-177">Cost project</span></span>      | <span data-ttu-id="c03ac-178">与投资项目类似，成本项目通常用于跟踪内部项目，并且仅可为成本项目记录工时、支出和物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-178">Like Investment projects, Cost projects are typically used to track internal projects, and only hours, expenses, and items can be recorded for them.</span></span> <span data-ttu-id="c03ac-179">但是，成本项目通常比投资项目期限短。</span><span class="sxs-lookup"><span data-stu-id="c03ac-179">However, Cost projects are usually of shorter duration than Investment projects.</span></span> <span data-ttu-id="c03ac-180">此外，与投资项目不同，成本项目无法资本化为资产负债表科目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-180">Additionally, unlike Investment projects, Cost projects can’t be capitalized to balance sheet accounts.</span></span> <span data-ttu-id="c03ac-181">而仅将其项目交易记录过帐到损益科目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-181">Instead, their project transactions are posted only to profit and loss accounts.</span></span> <span data-ttu-id="c03ac-182">**注意**成本项目的交易记录不会体现在**过帐成本**、**应计收入**或**创建发票方案**页上。</span><span class="sxs-lookup"><span data-stu-id="c03ac-182">**NOTE** Transactions on Cost projects aren't reflected on the **Post costs**, **Accrue revenue**, or **Create invoice proposals** page.</span></span> <span data-ttu-id="c03ac-183">因为成本项目通常用于跟踪内部项目，所以它们通常不必与客户帐户相关联。</span><span class="sxs-lookup"><span data-stu-id="c03ac-183">Because Cost projects are typically used to track internal projects, they don't usually have to be associated with a customer account.</span></span> <span data-ttu-id="c03ac-184">但是，如果您的设置要求为采购订单创建物料需求，则必须将成本项目与客户相关联。</span><span class="sxs-lookup"><span data-stu-id="c03ac-184">However, if your setup requires that item requirements be created for purchase orders, you must associate the Cost project with a customer.</span></span> <span data-ttu-id="c03ac-185">此关联是必需的，因为物料需求被当作销售订单行管理，并且系统要求指定客户。</span><span class="sxs-lookup"><span data-stu-id="c03ac-185">This association is required, because item requirements are managed as sales order lines, and the system requires that a customer be specified.</span></span> <span data-ttu-id="c03ac-186">但是，此设置不会导致根据采购订单自动创建物料需求。</span><span class="sxs-lookup"><span data-stu-id="c03ac-186">However, this setup won't cause item requirements to be created automatically from a purchase order.</span></span> <span data-ttu-id="c03ac-187">对于成本项目，将忽略**“创建物料需求”**设置。</span><span class="sxs-lookup"><span data-stu-id="c03ac-187">For Cost projects, the **Create item requirement** setting is ignored.</span></span> <span data-ttu-id="c03ac-188">如果您在成本项目中需要物料需求，您可以手动创建它，前提是客户与项目关联。</span><span class="sxs-lookup"><span data-stu-id="c03ac-188">If you need an item requirement in a Cost project, you can create it manually, provided that a customer is associated with the project.</span></span> |
+| <span data-ttu-id="c03ac-189">内部</span><span class="sxs-lookup"><span data-stu-id="c03ac-189">Internal</span></span>          | <span data-ttu-id="c03ac-190">内部项目用于跟踪您组织内的项目的成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-190">Internal projects are used to track costs on a project that is internal to your organization.</span></span> <span data-ttu-id="c03ac-191">内部项目可以为管理资源消耗提供计划工具。</span><span class="sxs-lookup"><span data-stu-id="c03ac-191">Internal projects can provide a planning tool to manage resource consumption.</span></span> <span data-ttu-id="c03ac-192">**注释：**内部项目的交易记录不会体现在**应计收入**或**创建发票方案**页上。</span><span class="sxs-lookup"><span data-stu-id="c03ac-192">**Note:** Transactions on internal projects aren't reflected on the **Accrue revenue** or **Create invoice proposals** page.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
+| <span data-ttu-id="c03ac-193">时间</span><span class="sxs-lookup"><span data-stu-id="c03ac-193">Time</span></span>              | <span data-ttu-id="c03ac-194">时间项目用于跟踪与不计费和非生产活动关联的时间，例如某一项目跟踪工作人员的病假。</span><span class="sxs-lookup"><span data-stu-id="c03ac-194">Time projects are used to track time that is associated with non-chargeable and non-productive activities, such as a project to track sick time for workers.</span></span> <span data-ttu-id="c03ac-195">时间项目中的交易记录不会过帐到分类帐。</span><span class="sxs-lookup"><span data-stu-id="c03ac-195">Transactions in Time projects aren't posted to the ledger.</span></span> <span data-ttu-id="c03ac-196">而是，它们包含在工作人员利用报表中。</span><span class="sxs-lookup"><span data-stu-id="c03ac-196">Instead, they are included in worker utilization reports.</span></span> <span data-ttu-id="c03ac-197">在时间项目上只能记录工时交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-197">Only hour transactions can be recorded in Time projects.</span></span> <span data-ttu-id="c03ac-198">您使用 1 小时日志或工时将这些工时登记到项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-198">You use an hour journal or timesheet to register these hours to the project.</span></span> <span data-ttu-id="c03ac-199">在登记工时后，它们显示为项目交易记录，但是没有相应的凭证交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-199">After the hours are registered, they appear as project transactions but don't have corresponding voucher transactions.</span></span> <span data-ttu-id="c03ac-200">**注意：**时间项目的交易记录不会体现在**过帐成本**、**应计收入**或**创建发票方案**页上。</span><span class="sxs-lookup"><span data-stu-id="c03ac-200">**Note:** Transactions on Time projects aren't reflected on the **Post costs**, **Accrue revenue**, or **Create invoice proposals** page.</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       |
 
 
-### <a name="assign-workers-categories-and-resources"></a>分配员工、类别和资源
+### <a name="assign-workers-categories-and-resources"></a><span data-ttu-id="c03ac-201">分配员工、类别和资源</span><span class="sxs-lookup"><span data-stu-id="c03ac-201">Assign workers, categories, and resources</span></span>
 
-您可以基于项目的需求和计划或基于工作人员的技能和可用性来计划工作人员资源。 通过使用资源计划功能，您可以高效且有效地部署组织的工作人员。 您可以快速查找可处理您的项目的最合格的工作人员， 还可以轻松了解如何在项目过程中更有效地利用这些工作人员。 
+<span data-ttu-id="c03ac-202">您可以基于项目的需求和计划或基于工作人员的技能和可用性来计划工作人员资源。</span><span class="sxs-lookup"><span data-stu-id="c03ac-202">You can schedule worker resources based either on the requirements and schedule of a project, or on the skills and availability of workers.</span></span> <span data-ttu-id="c03ac-203">通过使用资源计划功能，您可以高效且有效地部署组织的工作人员。</span><span class="sxs-lookup"><span data-stu-id="c03ac-203">By using the resource scheduling capabilities, you can deploy your organization’s workers efficiently and effectively.</span></span> <span data-ttu-id="c03ac-204">您可以快速查找可处理您的项目的最合格的工作人员，</span><span class="sxs-lookup"><span data-stu-id="c03ac-204">You can quickly find the most qualified workers who are available to work on your project.</span></span> <span data-ttu-id="c03ac-205">还可以轻松了解如何在项目过程中更有效地利用这些工作人员。</span><span class="sxs-lookup"><span data-stu-id="c03ac-205">You can also easily see how those workers might be used more effectively during the course of the project.</span></span> 
 
-下面是一些您可以使用资源计划功能的方法：
+<span data-ttu-id="c03ac-206">下面是一些您可以使用资源计划功能的方法：</span><span class="sxs-lookup"><span data-stu-id="c03ac-206">Here are some of the ways that you can use the resource scheduling functionality:</span></span>
 
--   使用有关教育、技能、证书和项目经验将工作人员和项目的要求进行匹配。
--   使用有关工作人员日历和可用性的信息，以将工作人员计划和项目日历相匹配。
--   查看每个工作人员的能力，并确定如何运用该能力。 例如，如果某工作人员未被充分使用，则可以将该工作人员分配到符合其可用性和特性的项目。
--   查看工作人员的可用性以确保与工作人员的分配没有日历冲突。
--   在汇总视图（例如，按部门或按工作人员）或详细视图（例如，按部门内的工作人员或按每个工作人员每周的详细信息）中查看有关工作人员利用的信息。
--   修改天、周或月等各种时间单位的资源分配以优化使用工作人员的方式。
+-   <span data-ttu-id="c03ac-207">使用有关教育、技能、证书和项目经验将工作人员和项目的要求进行匹配。</span><span class="sxs-lookup"><span data-stu-id="c03ac-207">Use information about a worker’s attributes, such as education, skills, certifications, and project experience, to match the worker to the requirements of a project.</span></span>
+-   <span data-ttu-id="c03ac-208">使用有关工作人员日历和可用性的信息，以将工作人员计划和项目日历相匹配。</span><span class="sxs-lookup"><span data-stu-id="c03ac-208">Use information about a worker’s calendar and availability to match the worker’s schedule to the project calendar.</span></span>
+-   <span data-ttu-id="c03ac-209">查看每个工作人员的能力，并确定如何运用该能力。</span><span class="sxs-lookup"><span data-stu-id="c03ac-209">Review the capacity of each worker, and determine how that capacity is being used.</span></span> <span data-ttu-id="c03ac-210">例如，如果某工作人员未被充分使用，则可以将该工作人员分配到符合其可用性和特性的项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-210">For example, if a worker is being underused, the worker can be assigned to a project that fits his or her availability and attributes.</span></span>
+-   <span data-ttu-id="c03ac-211">查看工作人员的可用性以确保与工作人员的分配没有日历冲突。</span><span class="sxs-lookup"><span data-stu-id="c03ac-211">Review a worker's availability to make sure that there are no calendar conflicts with the worker's assignments.</span></span>
+-   <span data-ttu-id="c03ac-212">在汇总视图（例如，按部门或按工作人员）或详细视图（例如，按部门内的工作人员或按每个工作人员每周的详细信息）中查看有关工作人员利用的信息。</span><span class="sxs-lookup"><span data-stu-id="c03ac-212">Review information about worker utilization in either a summary view (for example, by department or by worker) or a detailed view (for example, by workers in a department or by weekly detail for each worker).</span></span>
+-   <span data-ttu-id="c03ac-213">修改天、周或月等各种时间单位的资源分配以优化使用工作人员的方式。</span><span class="sxs-lookup"><span data-stu-id="c03ac-213">Modify resource assignments for various units of time, such as day, week, or month, to optimize how the workers are used.</span></span>
 
-## <a name="execute-the-project"></a>执行项目
-在项目执行期间，团队成员或经理使用时间表、支出报表和其他业务单据来记录工作和支出。 项目经理具有用于监视项目的预算金额的消耗量的工具。 项目经理还可使用采购订单和其他业务单据为项目预定、选取或采购物料。 将准备和审核发票，以便可以对客户的日常工作进行计费。 最后，将在此过程中确认收入以影响组织的财务。
+## <a name="execute-the-project"></a><span data-ttu-id="c03ac-214">执行项目</span><span class="sxs-lookup"><span data-stu-id="c03ac-214">Execute the project</span></span>
+<span data-ttu-id="c03ac-215">在项目执行期间，团队成员或经理使用时间表、支出报表和其他业务单据来记录工作和支出。</span><span class="sxs-lookup"><span data-stu-id="c03ac-215">During project execution, team members or managers record work and the expenses that are incurred, by using timesheets, expense reports, and other business documents.</span></span> <span data-ttu-id="c03ac-216">项目经理具有用于监视项目的预算金额的消耗量的工具。</span><span class="sxs-lookup"><span data-stu-id="c03ac-216">Project managers have tools that let them monitor the consumption of budgeted amounts for the project.</span></span> <span data-ttu-id="c03ac-217">项目经理还可使用采购订单和其他业务单据为项目预定、选取或采购物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-217">Project managers can also order, pick, or procure materials for projects by using purchase orders and other business documents.</span></span> <span data-ttu-id="c03ac-218">将准备和审核发票，以便可以对客户的日常工作进行计费。</span><span class="sxs-lookup"><span data-stu-id="c03ac-218">Invoices are prepared and approved, so that customers can be billed for ongoing work.</span></span> <span data-ttu-id="c03ac-219">最后，将在此过程中确认收入以影响组织的财务。</span><span class="sxs-lookup"><span data-stu-id="c03ac-219">Finally, revenue is recognized during this process to affect the organization's financials.</span></span>
 
-### <a name="manage-work-breakdown-structures"></a>管理工作分解结构
+### <a name="manage-work-breakdown-structures"></a><span data-ttu-id="c03ac-220">管理工作分解结构</span><span class="sxs-lookup"><span data-stu-id="c03ac-220">Manage work breakdown structures</span></span>
 
-WBS 是将为项目完成的工作的描述。 WBS 是任务的层次结构。 它不仅表示每个任务的工作，还表示该任务的规模、成本和持续时间。 
+<span data-ttu-id="c03ac-221">WBS 是将为项目完成的工作的描述。</span><span class="sxs-lookup"><span data-stu-id="c03ac-221">A WBS is a description of the work that will be completed for a project.</span></span> <span data-ttu-id="c03ac-222">WBS 是任务的层次结构。</span><span class="sxs-lookup"><span data-stu-id="c03ac-222">A WBS is a hierarchy of tasks.</span></span> <span data-ttu-id="c03ac-223">它不仅表示每个任务的工作，还表示该任务的规模、成本和持续时间。</span><span class="sxs-lookup"><span data-stu-id="c03ac-223">It represents not only the work for each task, but also the size, cost, and duration of the task.</span></span> 
 
-有关详细信息，请参阅[工作分解结构](work-breakdown-structures.md)。
+<span data-ttu-id="c03ac-224">有关详细信息，请参阅[工作分解结构](work-breakdown-structures.md)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-224">For more information, see [Work breakdown structures](work-breakdown-structures.md).</span></span>
 
-### <a name="manage-project-forecasts-and-budgets"></a>管理项目预测和预算
+### <a name="manage-project-forecasts-and-budgets"></a><span data-ttu-id="c03ac-225">管理项目预测和预算</span><span class="sxs-lookup"><span data-stu-id="c03ac-225">Manage project forecasts and budgets</span></span>
 
-可通过两种方式管理和控制您的项目:项目预测和项目预算。 如果您的组织有工序方面的考虑并且重点关注从特定交易产生的收入和成本，您可以使用预测。 但是，如果您的组织更关注财务金额，您可以使用预算。
+<span data-ttu-id="c03ac-226">可通过两种方式管理和控制您的项目:项目预测和项目预算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-226">There are two ways to manage and control your projects: project forecasts and project budgets.</span></span> <span data-ttu-id="c03ac-227">如果您的组织有工序方面的考虑并且重点关注从特定交易产生的收入和成本，您可以使用预测。</span><span class="sxs-lookup"><span data-stu-id="c03ac-227">You can use forecasting if your organization has an operational perspective and focuses on the revenues and costs that are derived from specific transactions.</span></span> <span data-ttu-id="c03ac-228">但是，如果您的组织更关注财务金额，您可以使用预算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-228">However, if your organization focuses more on financial amounts, you can use budgeting.</span></span>
 
-有关详细信息，请参阅[项目预测和预算](project-forecasts-budgets.md)。
+<span data-ttu-id="c03ac-229">有关详细信息，请参阅[项目预测和预算](project-forecasts-budgets.md)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-229">For more information, see [Project forecasts and budgets](project-forecasts-budgets.md).</span></span>
 
-### <a name="create-production-orders"></a>创建生产订单
+### <a name="create-production-orders"></a><span data-ttu-id="c03ac-230">创建生产订单</span><span class="sxs-lookup"><span data-stu-id="c03ac-230">Create production orders</span></span>
 
-通过使用成品方法或消耗物料方法，可将与项目相关的生产订单与销售订单或物料需求相关联。 此外，如果生产订单是手动创建的，则生产订单与销售订单或物料需求（不链接到订单）之间没有链接。 但是，如果自动创建生产订单来履行销售订单或物料需求，则生产订单与销售订单或物料需求（不链接到订单）之间有链接。 
+<span data-ttu-id="c03ac-231">通过使用成品方法或消耗物料方法，可将与项目相关的生产订单与销售订单或物料需求相关联。</span><span class="sxs-lookup"><span data-stu-id="c03ac-231">A project-related production order can be linked to a sales order or an item requirement by using either the finished item method or the consumed item method.</span></span> <span data-ttu-id="c03ac-232">此外，如果生产订单是手动创建的，则生产订单与销售订单或物料需求（不链接到订单）之间没有链接。</span><span class="sxs-lookup"><span data-stu-id="c03ac-232">Additionally, if the production order was created manually, there is no link between the production order and the sales order or item requirement (no link to order).</span></span> <span data-ttu-id="c03ac-233">但是，如果自动创建生产订单来履行销售订单或物料需求，则生产订单与销售订单或物料需求（不链接到订单）之间有链接。</span><span class="sxs-lookup"><span data-stu-id="c03ac-233">However, if the production order was created automatically to fulfill a sales order or an item requirement, there is a link between the production order and sales order or item requirement (link to order).</span></span> 
 
-基于这些因素的组合，请使用以下方法之一：
+<span data-ttu-id="c03ac-234">基于这些因素的组合，请使用以下方法之一：</span><span class="sxs-lookup"><span data-stu-id="c03ac-234">Based on the combinations of these factors, use one of the following methods:</span></span>
 
--   **成品/链接到订单** - 将项目链接到某一销售订单或物料需求。 当您使用此方法时，将在为销售订单开票时或为物料需求更新装箱单时过帐实际项目成本。 该成本将作为成品过帐。
--   **成品/不链接到订单** - 在物料的生产周期的状态为**“已结束”**后，才能过帐实际成本。 此成品的成本将作为单独交易记录过帐。
--   **消耗物料/链接到订单** - 将项目链接到某一物料需求。 通过使用此方法，在生产的状态为**“已开始”**或完工入库时可以查看实际项目成本。 该成本将过帐为原材料的多个项目物料交易记录和生产的工时消耗量。 在为物料需求更新装箱单时，不过帐任何项目成本。 还可以定义对生产中的项目跟踪到的物料清单 (BOM) 层次结构中的级别。
--   ****消耗物料/不链接到订单**** - 将项目链接到某一物料需求。 通过使用此方法，在生产的状态为**“已开始”**或完工入库时可以查看实际项目成本。 该成本将过帐为原材料的多个项目物料交易记录和生产的工时消耗量。 还可以定义生产中项目跟踪到的物料清单层次结构中的级别。
+-   <span data-ttu-id="c03ac-235">**成品/链接到订单** - 将项目链接到某一销售订单或物料需求。</span><span class="sxs-lookup"><span data-stu-id="c03ac-235">**Finished item/link to order** – Link the project to a sales order or an item requirement.</span></span> <span data-ttu-id="c03ac-236">当您使用此方法时，将在为销售订单开票时或为物料需求更新装箱单时过帐实际项目成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-236">When you use this method, actual project costs are posted when the sales order is invoiced or when the packing slip is updated for the item requirement.</span></span> <span data-ttu-id="c03ac-237">该成本将作为成品过帐。</span><span class="sxs-lookup"><span data-stu-id="c03ac-237">The cost is posted as a finished item.</span></span>
+-   <span data-ttu-id="c03ac-238">**成品/不链接到订单** - 在物料的生产周期的状态为**“已结束”**后，才能过帐实际成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-238">**Finished item/no link to order** – Actual costs can’t be posted until the production cycle for an item has a status of **Ended**.</span></span> <span data-ttu-id="c03ac-239">此成品的成本将作为单独交易记录过帐。</span><span class="sxs-lookup"><span data-stu-id="c03ac-239">The cost for the finished item is posted as a single transaction.</span></span>
+-   <span data-ttu-id="c03ac-240">**消耗物料/链接到订单** - 将项目链接到某一物料需求。</span><span class="sxs-lookup"><span data-stu-id="c03ac-240">**Consumed item/link to order** – Link the project to an item requirement.</span></span> <span data-ttu-id="c03ac-241">通过使用此方法，在生产的状态为**“已开始”**或完工入库时可以查看实际项目成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-241">By using this method, you can view actual project costs when the production has a status of **Started** or is reported as finished.</span></span> <span data-ttu-id="c03ac-242">该成本将过帐为原材料的多个项目物料交易记录和生产的工时消耗量。</span><span class="sxs-lookup"><span data-stu-id="c03ac-242">The costs are posted as multiple project item transactions for raw materials and hours consumed for production.</span></span> <span data-ttu-id="c03ac-243">在为物料需求更新装箱单时，不过帐任何项目成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-243">When the packing slip is updated for the item requirement, no project costs are posted.</span></span> <span data-ttu-id="c03ac-244">还可以定义对生产中的项目跟踪到的物料清单 (BOM) 层次结构中的级别。</span><span class="sxs-lookup"><span data-stu-id="c03ac-244">You can also define the level in the bill of materials (BOM) hierarchy at which the projects in the production are tracked.</span></span>
+-   <span data-ttu-id="c03ac-245">****消耗物料/不链接到订单**** - 将项目链接到某一物料需求。</span><span class="sxs-lookup"><span data-stu-id="c03ac-245">****Consumed item/no link to order**** – Link the project to an item requirement.</span></span> <span data-ttu-id="c03ac-246">通过使用此方法，在生产的状态为**“已开始”**或完工入库时可以查看实际项目成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-246">By using this method, you can view actual project costs when the production has a status of **Started** or is reported as finished.</span></span> <span data-ttu-id="c03ac-247">该成本将过帐为原材料的多个项目物料交易记录和生产的工时消耗量。</span><span class="sxs-lookup"><span data-stu-id="c03ac-247">The costs are posted as multiple project item transactions for raw materials and hours consumed for the production.</span></span> <span data-ttu-id="c03ac-248">还可以定义生产中项目跟踪到的物料清单层次结构中的级别。</span><span class="sxs-lookup"><span data-stu-id="c03ac-248">You can also define the level in the BOM hierarchy at which the projects in the production are tracked.</span></span>
 
-### <a name="procure-products-and-services"></a>生产产品和服务
+### <a name="procure-products-and-services"></a><span data-ttu-id="c03ac-249">生产产品和服务</span><span class="sxs-lookup"><span data-stu-id="c03ac-249">Procure products and services</span></span>
 
-物料的采购和销售是许多以项目为焦点的业务中的普通活动。
+<span data-ttu-id="c03ac-250">物料的采购和销售是许多以项目为焦点的业务中的普通活动。</span><span class="sxs-lookup"><span data-stu-id="c03ac-250">The purchase and sale of items are prevalent activities in many project-focused businesses.</span></span>
 
-#### <a name="purchase-orders-for-projects"></a>项目的采购订单
+#### <a name="purchase-orders-for-projects"></a><span data-ttu-id="c03ac-251">项目的采购订单</span><span class="sxs-lookup"><span data-stu-id="c03ac-251">Purchase orders for projects</span></span>
 
-采购订单的目的是确定采购订单的消耗时间，并随之确定对项目物料计费的时间。
+<span data-ttu-id="c03ac-252">采购订单的目的是确定采购订单的消耗时间，并随之确定对项目物料计费的时间。</span><span class="sxs-lookup"><span data-stu-id="c03ac-252">The purpose of the purchase order determines when the purchase order is consumed and, therefore, when items are charged on a project.</span></span>
 
 <table>
 <colgroup>
@@ -147,72 +147,72 @@ WBS 是将为项目完成的工作的描述。 WBS 是任务的层次结构。 �
 </colgroup>
 <thead>
 <tr class="header">
-<th>方法</th>
-<th>用途</th>
-<th>物料的消耗</th>
+<th><span data-ttu-id="c03ac-253">方法</span><span class="sxs-lookup"><span data-stu-id="c03ac-253">Method</span></span></th>
+<th><span data-ttu-id="c03ac-254">用途</span><span class="sxs-lookup"><span data-stu-id="c03ac-254">Purpose</span></span></th>
+<th><span data-ttu-id="c03ac-255">物料的消耗</span><span class="sxs-lookup"><span data-stu-id="c03ac-255">Consumption of items</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>直接创建采购订单。</td>
-<td>从外部供应商采购在项目中消耗的物料。 您可以通过以下方式创建采购订单：
+<td><span data-ttu-id="c03ac-256">直接创建采购订单。</span><span class="sxs-lookup"><span data-stu-id="c03ac-256">Create a purchase order directly.</span></span></td>
+<td><span data-ttu-id="c03ac-257">从外部供应商采购在项目中消耗的物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-257">Purchase items from an external vendor for consumption on a project.</span></span> <span data-ttu-id="c03ac-258">您可以通过以下方式创建采购订单：</span><span class="sxs-lookup"><span data-stu-id="c03ac-258">You can create the purchase order in the following ways:</span></span>
 <ul>
-<li>从项目本身出发。 在这种情况下，已经为采购订单定义项目。</li>
-<li>通过导航到项目采购订单。 您必须选择要为其创建采购订单的供应商和项目。</li>
+<li><span data-ttu-id="c03ac-259">从项目本身出发。</span><span class="sxs-lookup"><span data-stu-id="c03ac-259">From the project itself.</span></span> <span data-ttu-id="c03ac-260">在这种情况下，已经为采购订单定义项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-260">In this case, the project is already defined for the purchase order.</span></span></li>
+<li><span data-ttu-id="c03ac-261">通过导航到项目采购订单。</span><span class="sxs-lookup"><span data-stu-id="c03ac-261">By navigating to the project purchase order.</span></span> <span data-ttu-id="c03ac-262">您必须选择要为其创建采购订单的供应商和项目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-262">You must select both the vendor and the project to create the purchase order for.</span></span></li>
 </ul></td>
-<td>更新供应商发票时消耗物料。</td>
+<td><span data-ttu-id="c03ac-263">更新供应商发票时消耗物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-263">Items are consumed when the vendor invoice is updated.</span></span></td>
 </tr>
 <tr class="even">
-<td>根据销售订单创建采购订单。</td>
-<td>在根据项目创建销售订单时采购物料。</td>
-<td>为客户的销售订单开票后消耗物料。</td>
+<td><span data-ttu-id="c03ac-264">根据销售订单创建采购订单。</span><span class="sxs-lookup"><span data-stu-id="c03ac-264">Create a purchase order from a sales order.</span></span></td>
+<td><span data-ttu-id="c03ac-265">在根据项目创建销售订单时采购物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-265">Purchase items when you create a sales order from a project.</span></span></td>
+<td><span data-ttu-id="c03ac-266">为客户的销售订单开票后消耗物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-266">Items are consumed when the sales order is invoiced to the customer.</span></span></td>
 </tr>
 <tr class="odd">
-<td>根据物料需求创建采购订单。</td>
-<td>在根据项目创建物料需求时采购物料。</td>
-<td>更新物料需求装箱单时消耗物料。</td>
+<td><span data-ttu-id="c03ac-267">根据物料需求创建采购订单。</span><span class="sxs-lookup"><span data-stu-id="c03ac-267">Create a purchase order from an item requirement.</span></span></td>
+<td><span data-ttu-id="c03ac-268">在根据项目创建物料需求时采购物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-268">Purchase items when you create an item requirement from a project.</span></span></td>
+<td><span data-ttu-id="c03ac-269">更新物料需求装箱单时消耗物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-269">Items are consumed when the item requirement packing slip is updated.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-#### <a name="sales-orders-for-projects"></a>项目的销售订单
+#### <a name="sales-orders-for-projects"></a><span data-ttu-id="c03ac-270">项目的销售订单</span><span class="sxs-lookup"><span data-stu-id="c03ac-270">Sales orders for projects</span></span>
 
-在项目管理和核算中，您可以通过几种方式登记物料的消耗量。 您可以根据项目销售或采购物料，或者为项目预留物料。 
+<span data-ttu-id="c03ac-271">在项目管理和核算中，您可以通过几种方式登记物料的消耗量。</span><span class="sxs-lookup"><span data-stu-id="c03ac-271">In Project management and accounting, you can register the consumption of items in several ways.</span></span> <span data-ttu-id="c03ac-272">您可以根据项目销售或采购物料，或者为项目预留物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-272">You can sell items or purchase items from a project, or reserve items for a project.</span></span> 
 
-您可以从公司的库存订购在项目中消耗的物料。 或者，您也可以从外部供应商采购物料。 可以在除了时间项目外的所有类型的项目上消耗物料。 
+<span data-ttu-id="c03ac-273">您可以从公司的库存订购在项目中消耗的物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-273">You can order items from the company’s inventory for consumption on a project.</span></span> <span data-ttu-id="c03ac-274">或者，您也可以从外部供应商采购物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-274">Alternatively, or you can purchase items from an external vendor.</span></span> <span data-ttu-id="c03ac-275">可以在除了时间项目外的所有类型的项目上消耗物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-275">Items can be consumed on all types of projects except Time projects.</span></span> 
 
-您订购物料的方式取决于您从何处订购它们：
+<span data-ttu-id="c03ac-276">您订购物料的方式取决于您从何处订购它们：</span><span class="sxs-lookup"><span data-stu-id="c03ac-276">The way that you order items depends on where you're ordering them from:</span></span>
 
--   要从公司库存订购物料，您必须将订单作为物料需求输入。 如果您使用**物料需求**页面，则可以设置需求，以便将物料作为部分交货接收。 因此，您可以延迟一定数量的物料的消耗，直到需要这些物料。
--   要从外部供应商订购物料，您必须在**“采购订单”**页上将此订单作为采购订单创建。
+-   <span data-ttu-id="c03ac-277">要从公司库存订购物料，您必须将订单作为物料需求输入。</span><span class="sxs-lookup"><span data-stu-id="c03ac-277">To order items from the company’s inventory, you must enter the order as an item requirement.</span></span> <span data-ttu-id="c03ac-278">如果您使用**物料需求**页面，则可以设置需求，以便将物料作为部分交货接收。</span><span class="sxs-lookup"><span data-stu-id="c03ac-278">If you use the **Item requirements** page, you can set up the requirement so that you receive items as partial deliveries.</span></span> <span data-ttu-id="c03ac-279">因此，您可以延迟一定数量的物料的消耗，直到需要这些物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-279">Therefore, you can postpone consumption of a quantity of the items until the items are required.</span></span>
+-   <span data-ttu-id="c03ac-280">要从外部供应商订购物料，您必须在**“采购订单”**页上将此订单作为采购订单创建。</span><span class="sxs-lookup"><span data-stu-id="c03ac-280">To order items from an external vendor, you must create the order as a purchase order on the **Purchase order** page.</span></span>
 
 > [!NOTE] 
-> 如果物料已经标记为包装，则项目相关销售订单的装箱单无法取消。 
+> <span data-ttu-id="c03ac-281">如果物料已经标记为包装，则项目相关销售订单的装箱单无法取消。</span><span class="sxs-lookup"><span data-stu-id="c03ac-281">The packing slip for a project-related sales order can’t be canceled if the items have already been marked for packing.</span></span> 
 
-下表列出了订购物料的方法，并介绍了如何消耗这些物料。
+<span data-ttu-id="c03ac-282">下表列出了订购物料的方法，并介绍了如何消耗这些物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-282">The following table lists the methods for ordering items and describes how the items are consumed.</span></span>
 
-| 方法            | 用途                                                                                                                                                        | 物料交易记录的消耗                                                                                                                  |
+| <span data-ttu-id="c03ac-283">方法</span><span class="sxs-lookup"><span data-stu-id="c03ac-283">Method</span></span>            | <span data-ttu-id="c03ac-284">用途</span><span class="sxs-lookup"><span data-stu-id="c03ac-284">Purpose</span></span>                                                                                                                                                        | <span data-ttu-id="c03ac-285">物料交易记录的消耗</span><span class="sxs-lookup"><span data-stu-id="c03ac-285">Consumption of item transactions</span></span>                                                                                                                  |
 |-------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------|
-| 销售订单       | 直接在时间和材料项目上输入交易记录。                                                                                                   | 过帐客户发票时消耗物料交易记录。                                                                               |
-| 库存日记帐 | 快速输入和维护物料记录。 例如，如果您要基于打印了的列表输入物料需求量，则可以应用库存日志。 | 过帐日志时消耗物料交易记录。                                                                                        |
-| 物料需求  | 输入不会立刻被消耗的物料。 此方法可让您跟踪在单个物料需求记录内已消耗的物料数。    | 更新装箱单时消耗物料交易记录。 也就是说，物料需求在过帐装箱单时创建。 |
-| 采购订单   | 基于采购方法，在这三个位置之一中输入交易记录。                                                                              | 物料交易记录在装箱单更新时或在对客户或供应商开票时消耗。                                      |
+| <span data-ttu-id="c03ac-286">销售订单</span><span class="sxs-lookup"><span data-stu-id="c03ac-286">Sales order</span></span>       | <span data-ttu-id="c03ac-287">直接在时间和材料项目上输入交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-287">Enter a transaction directly on a Time and material project.</span></span>                                                                                                   | <span data-ttu-id="c03ac-288">过帐客户发票时消耗物料交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-288">Item transactions are consumed when the customer invoice is posted.</span></span>                                                                               |
+| <span data-ttu-id="c03ac-289">库存日记帐</span><span class="sxs-lookup"><span data-stu-id="c03ac-289">Inventory journal</span></span> | <span data-ttu-id="c03ac-290">快速输入和维护物料记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-290">Quickly enter and maintain item records.</span></span> <span data-ttu-id="c03ac-291">例如，如果您要基于打印了的列表输入物料需求量，则可以应用库存日志。</span><span class="sxs-lookup"><span data-stu-id="c03ac-291">If, for example, you want to enter an item requirement based on a printed list, the inventory journal can be applied.</span></span> | <span data-ttu-id="c03ac-292">过帐日志时消耗物料交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-292">Item transactions are consumed when the journal is posted.</span></span>                                                                                        |
+| <span data-ttu-id="c03ac-293">物料需求</span><span class="sxs-lookup"><span data-stu-id="c03ac-293">Item requirement</span></span>  | <span data-ttu-id="c03ac-294">输入不会立刻被消耗的物料。</span><span class="sxs-lookup"><span data-stu-id="c03ac-294">Enter items that won't be consumed immediately.</span></span> <span data-ttu-id="c03ac-295">此方法可让您跟踪在单个物料需求记录内已消耗的物料数。</span><span class="sxs-lookup"><span data-stu-id="c03ac-295">This method lets you track the number of items that have been consumed in a single item requirement record.</span></span>    | <span data-ttu-id="c03ac-296">更新装箱单时消耗物料交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-296">Item transactions are consumed when the packing slip is updated.</span></span> <span data-ttu-id="c03ac-297">也就是说，物料需求在过帐装箱单时创建。</span><span class="sxs-lookup"><span data-stu-id="c03ac-297">In other words, the item requirement is created when the packing slip is posted.</span></span> |
+| <span data-ttu-id="c03ac-298">采购订单</span><span class="sxs-lookup"><span data-stu-id="c03ac-298">Purchase orders</span></span>   | <span data-ttu-id="c03ac-299">基于采购方法，在这三个位置之一中输入交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-299">Enter transactions in one of three locations, depending on the purchasing method.</span></span>                                                                              | <span data-ttu-id="c03ac-300">物料交易记录在装箱单更新时或在对客户或供应商开票时消耗。</span><span class="sxs-lookup"><span data-stu-id="c03ac-300">Item transactions are consumed when the packing slip is updated, or when the customer or vendor is invoiced.</span></span>                                      |
 
-### <a name="process-project-invoices"></a>处理项目发票
+### <a name="process-project-invoices"></a><span data-ttu-id="c03ac-301">处理项目发票</span><span class="sxs-lookup"><span data-stu-id="c03ac-301">Process project invoices</span></span>
 
-项目类型确定应该应用哪一开票过程。 只能对两个外部项目类型（时间和材料以及固定价格）进行开票。 时间和材料项目以及固定价格项目始终附加到项目合同。 
+<span data-ttu-id="c03ac-302">项目类型确定应该应用哪一开票过程。</span><span class="sxs-lookup"><span data-stu-id="c03ac-302">The project type determines which invoicing procedure should be applied.</span></span> <span data-ttu-id="c03ac-303">只能对两个外部项目类型（时间和材料以及固定价格）进行开票。</span><span class="sxs-lookup"><span data-stu-id="c03ac-303">Only the two external project types (Time and material and Fixed-price) can be invoiced.</span></span> <span data-ttu-id="c03ac-304">时间和材料项目以及固定价格项目始终附加到项目合同。</span><span class="sxs-lookup"><span data-stu-id="c03ac-304">Time and material projects and Fixed-price projects are always attached to a project contract.</span></span> 
 
-在为项目创建客户发票前，可以创建预备发票，或创建 发票方案。 在发票方案中，您可以选择要在项目发票中包括的项目交易记录。 然后您可以在过帐项目发票并将其发送给客户或其他融资来源之前，查看发票详细信息。 
-
-
-有关如何处理项目发票的详细信息，请参阅[项目开票](../accounts-payable/project-invoicing.md)。
+<span data-ttu-id="c03ac-305">在为项目创建客户发票前，可以创建预备发票，或创建 发票方案。</span><span class="sxs-lookup"><span data-stu-id="c03ac-305">Before you create a customer invoice for a project, you can create a preliminary invoice, or invoice proposal.</span></span> <span data-ttu-id="c03ac-306">在发票方案中，您可以选择要在项目发票中包括的项目交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-306">In an invoice proposal, you can select project transactions to include in a project invoice.</span></span> <span data-ttu-id="c03ac-307">然后您可以在过帐项目发票并将其发送给客户或其他融资来源之前，查看发票详细信息。</span><span class="sxs-lookup"><span data-stu-id="c03ac-307">You can then review the invoice details before you post the project invoice and send it to the customer or other funding source.</span></span> 
 
 
-### <a name="calculate-the-cost-to-complete-a-project"></a>计算完成项目的成本
+<span data-ttu-id="c03ac-308">有关如何处理项目发票的详细信息，请参阅[项目开票](../accounts-payable/project-invoicing.md)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-308">For more information about how to process project invoices, see [Project invoicing](../accounts-payable/project-invoicing.md).</span></span>
 
-当您创建估计时，可以选择用于计算完成项目的成本的方法。 您应在**“创建估计”**页上的**“完工尚需成本方法”**字段中选择一种方法。 您选择的方法将单独应用于成本预估中的每个成本行。 当某一行的状态为**“已创建”**时，您可以在**“成本预估”**页上更改应用于该行的方法。 
 
-下表介绍了计算完成项目的成本的方法。
+### <a name="calculate-the-cost-to-complete-a-project"></a><span data-ttu-id="c03ac-309">计算完成项目的成本</span><span class="sxs-lookup"><span data-stu-id="c03ac-309">Calculate the cost to complete a project</span></span>
+
+<span data-ttu-id="c03ac-310">当您创建估计时，可以选择用于计算完成项目的成本的方法。</span><span class="sxs-lookup"><span data-stu-id="c03ac-310">When you create an estimate, you can choose the method that is used to calculate the cost to complete the project.</span></span> <span data-ttu-id="c03ac-311">您应在**“创建估计”**页上的**“完工尚需成本方法”**字段中选择一种方法。</span><span class="sxs-lookup"><span data-stu-id="c03ac-311">You select a method in the **Cost to complete method** field on the **Create estimate** page.</span></span> <span data-ttu-id="c03ac-312">您选择的方法将单独应用于成本预估中的每个成本行。</span><span class="sxs-lookup"><span data-stu-id="c03ac-312">The method that you choose is applied separately to each cost line in the cost estimate.</span></span> <span data-ttu-id="c03ac-313">当某一行的状态为**“已创建”**时，您可以在**“成本预估”**页上更改应用于该行的方法。</span><span class="sxs-lookup"><span data-stu-id="c03ac-313">While a line has a status of **Created**, you can change the method that is applied to it on the **Cost estimate** page.</span></span> 
+
+<span data-ttu-id="c03ac-314">下表介绍了计算完成项目的成本的方法。</span><span class="sxs-lookup"><span data-stu-id="c03ac-314">The following table describes the methods for calculating the cost to complete a project.</span></span>
 
 <table>
 <colgroup>
@@ -221,194 +221,194 @@ WBS 是将为项目完成的工作的描述。 WBS 是任务的层次结构。 �
 </colgroup>
 <thead>
 <tr class="header">
-<th>方法</th>
-<th>描述</th>
+<th><span data-ttu-id="c03ac-315">方法</span><span class="sxs-lookup"><span data-stu-id="c03ac-315">Method</span></span></th>
+<th><span data-ttu-id="c03ac-316">描述</span><span class="sxs-lookup"><span data-stu-id="c03ac-316">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>总成本 - 实际</td>
-<td>估计成本必须手动输入。 填写<strong>“成本预估”</strong>页上的<strong>“总成本”</strong>或<strong>“总数量”</strong>列后，应将用户输入的总计减去实际成本。 结果就是完成项目的成本。通常，成本进度的跟踪不是基于每个期间内记录的酒店住宿和餐饮次数。 相反， 跟踪通常基于与估计工时的总量的较。 此方法不需要预测模型，并且可以手动更改总成本或总数量。 在<strong>总成本</strong>或<strong>总数量</strong>列中输入值后，Finance and Operations 会将此值与相应期间内过帐的实际交易记录进行比较，然后减小<strong>要完成的数量</strong>或<strong>完工尚需成本</strong>列中的值。</td>
+<td><span data-ttu-id="c03ac-317">总成本 - 实际</span><span class="sxs-lookup"><span data-stu-id="c03ac-317">Total cost – actual</span></span></td>
+<td><span data-ttu-id="c03ac-318">估计成本必须手动输入。</span><span class="sxs-lookup"><span data-stu-id="c03ac-318">Estimated costs must be entered manually.</span></span> <span data-ttu-id="c03ac-319">填写<strong>“成本预估”</strong>页上的<strong>“总成本”</strong>或<strong>“总数量”</strong>列后，应将用户输入的总计减去实际成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-319">After the <strong>Total cost</strong> or <strong>Total quantity</strong> column on the <strong>Cost estimate</strong> page is completed, the actual costs are subtracted from the user-entered totals.</span></span> <span data-ttu-id="c03ac-320">结果就是完成项目的成本。通常，成本进度的跟踪不是基于每个期间内记录的酒店住宿和餐饮次数。</span><span class="sxs-lookup"><span data-stu-id="c03ac-320">The result is the cost to complete the project.Typically, the progress of costs isn't tracked based on, for example, the number of hotel stays and meals that are recorded in each period.</span></span> <span data-ttu-id="c03ac-321">相反，</span><span class="sxs-lookup"><span data-stu-id="c03ac-321">Instead.</span></span> <span data-ttu-id="c03ac-322">跟踪通常基于与估计工时的总量的较。</span><span class="sxs-lookup"><span data-stu-id="c03ac-322">Tracking is usually based on a comparison against the total amount of estimated hours.</span></span> <span data-ttu-id="c03ac-323">此方法不需要预测模型，并且可以手动更改总成本或总数量。</span><span class="sxs-lookup"><span data-stu-id="c03ac-323">This approach doesn't require a forecast model, and the total cost or total quantity can be changed manually.</span></span> <span data-ttu-id="c03ac-324">在<strong>总成本</strong>或<strong>总数量</strong>列中输入值后，Finance and Operations 会将此值与相应期间内过帐的实际交易记录进行比较，然后减小<strong>要完成的数量</strong>或<strong>完工尚需成本</strong>列中的值。</span><span class="sxs-lookup"><span data-stu-id="c03ac-324">When a value is entered in the <strong>Total cost</strong> or <strong>Total quantity</strong> column, Finance and Operations compares this value against the actual transactions that are posted in the period, and then decreases the value in the <strong>Quantity to complete</strong> or <strong>Cost to complete</strong> column.</span></span></td>
 </tr>
 <tr class="even">
-<td>总预算 - 实际</td>
-<td>实际成本将与您选择用来确定成本的预测模型进行比较。 此方法用于包含预测的交易记录的总预算模型。 要获取更准确的项目信息，您可以在项目进行时调整预算模型。 如果您必须调整预测，请执行以下一般过程：
+<td><span data-ttu-id="c03ac-325">总预算 - 实际</span><span class="sxs-lookup"><span data-stu-id="c03ac-325">Total budget – actual</span></span></td>
+<td><span data-ttu-id="c03ac-326">实际成本将与您选择用来确定成本的预测模型进行比较。</span><span class="sxs-lookup"><span data-stu-id="c03ac-326">Actual costs are compared against the forecast model that you select to determine the cost.</span></span> <span data-ttu-id="c03ac-327">此方法用于包含预测的交易记录的总预算模型。</span><span class="sxs-lookup"><span data-stu-id="c03ac-327">This method uses a total budget model that includes forecasted transactions.</span></span> <span data-ttu-id="c03ac-328">要获取更准确的项目信息，您可以在项目进行时调整预算模型。</span><span class="sxs-lookup"><span data-stu-id="c03ac-328">To obtain a more accurate view of the project, you can adjust the budget model when the project is in progress.</span></span> <span data-ttu-id="c03ac-329">如果您必须调整预测，请执行以下一般过程：</span><span class="sxs-lookup"><span data-stu-id="c03ac-329">If you must adjust the forecast, follow this general process:</span></span>
 <ol>
-<li>复制预测交易记录到另外一个预测模型。</li>
-<li>预测交易记录与实际交易记录进行比较。</li>
-<li>维护、减少或增加为下一期间的估计。</li>
+<li><span data-ttu-id="c03ac-330">复制预测交易记录到另外一个预测模型。</span><span class="sxs-lookup"><span data-stu-id="c03ac-330">Copy forecast transactions into another forecast model.</span></span></li>
+<li><span data-ttu-id="c03ac-331">预测交易记录与实际交易记录进行比较。</span><span class="sxs-lookup"><span data-stu-id="c03ac-331">Compare forecast transactions with actual transactions.</span></span></li>
+<li><span data-ttu-id="c03ac-332">维护、减少或增加为下一期间的估计。</span><span class="sxs-lookup"><span data-stu-id="c03ac-332">Maintain, decrease, or increase the estimates for the next period.</span></span></li>
 </ol>
-Finance and Operations 不会自动减小预测的估计值。 因此，最好在固定价格项目上保留原始预测模型，以建立在完成项目时进行比较的基准。 
-> [!NOTE]选择此方法时，请至少使用两个预测模型。 一个模型应包含原始预测。 对于其他模型，应从另一个模型中复制预测交易记录。 此方法仅对固定价格项目和投资项目有效。</td>
+<span data-ttu-id="c03ac-333">Finance and Operations 不会自动减小预测的估计值。</span><span class="sxs-lookup"><span data-stu-id="c03ac-333">Finance and Operations doesn't automatically decrease the forecasted estimates.</span></span> <span data-ttu-id="c03ac-334">因此，最好在固定价格项目上保留原始预测模型，以建立在完成项目时进行比较的基准。</span><span class="sxs-lookup"><span data-stu-id="c03ac-334">Therefore, it's a good idea to maintain an original forecast model on the Fixed-price project, to establish a baseline for comparison when the project is completed.</span></span> 
+<span data-ttu-id="c03ac-335">> [!NOTE]选择此方法时，请至少使用两个预测模型。</span><span class="sxs-lookup"><span data-stu-id="c03ac-335">> [!NOTE] When you select this method, use at least two forecast models.</span></span> <span data-ttu-id="c03ac-336">一个模型应包含原始预测。</span><span class="sxs-lookup"><span data-stu-id="c03ac-336">One model should contain the original forecast.</span></span> <span data-ttu-id="c03ac-337">对于其他模型，应从另一个模型中复制预测交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-337">For the other model, you should copy forecast transactions from another model.</span></span> <span data-ttu-id="c03ac-338">此方法仅对固定价格项目和投资项目有效。</span><span class="sxs-lookup"><span data-stu-id="c03ac-338">This method is valid only for Fixed-prices and Investment projects.</span></span></td>
 > </tr>
 <tr class="odd">
-<td>剩余预算</td>
-<td>此方法使用剩余的预算模型计算完成项目的成本。 当您使用此方法时，剩余预算模型中的实际成本和预测金额将相加。 结果就是总成本。在使用此方法之前，必须将剩余预算模型设置为根据系统中记录的实际交易记录减去交易记录。 在<strong>“预测模型”</strong>页上，请确保在<strong>“自动预测缩减”</strong>组中标记这些字段。 通常，从原始预算复制剩余预算。 在输入交易记录，剩余预算的交易记录将减少。 随着项目的进展，如果您确定必须调整剩余预算，则应将预测交易记录分配到剩余预算。 <strong>注意：</strong>仅当预测模型附加到预估时，才能应用此方法。</td>
+<td><span data-ttu-id="c03ac-339">剩余预算</span><span class="sxs-lookup"><span data-stu-id="c03ac-339">Remaining budget</span></span></td>
+<td><span data-ttu-id="c03ac-340">此方法使用剩余的预算模型计算完成项目的成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-340">This method uses a remaining budget model to calculate the cost to complete the project.</span></span> <span data-ttu-id="c03ac-341">当您使用此方法时，剩余预算模型中的实际成本和预测金额将相加。</span><span class="sxs-lookup"><span data-stu-id="c03ac-341">When you use this method, the actual costs and the forecasted amounts in the remaining budget model are added together.</span></span> <span data-ttu-id="c03ac-342">结果就是总成本。在使用此方法之前，必须将剩余预算模型设置为根据系统中记录的实际交易记录减去交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-342">The result is a total cost.Before you use this method, a remaining budget model must be set up to deduct transactions based on actual transactions that are recorded in the system.</span></span> <span data-ttu-id="c03ac-343">在<strong>“预测模型”</strong>页上，请确保在<strong>“自动预测缩减”</strong>组中标记这些字段。</span><span class="sxs-lookup"><span data-stu-id="c03ac-343">On the <strong>Forecast models</strong> page, make sure that the fields are marked in the <strong>Automatic forecast reduction</strong> group.</span></span> <span data-ttu-id="c03ac-344">通常，从原始预算复制剩余预算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-344">Typically, a remaining budget is copied from an original budget.</span></span> <span data-ttu-id="c03ac-345">在输入交易记录，剩余预算的交易记录将减少。</span><span class="sxs-lookup"><span data-stu-id="c03ac-345">As transactions are entered, the transactions on the remaining budget are decreased.</span></span> <span data-ttu-id="c03ac-346">随着项目的进展，如果您确定必须调整剩余预算，则应将预测交易记录分配到剩余预算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-346">As the project progresses, if you determine that the remaining budget must be adjusted, you charge forecast transactions to the remaining budget.</span></span> <span data-ttu-id="c03ac-347"><strong>注意：</strong>仅当预测模型附加到预估时，才能应用此方法。</span><span class="sxs-lookup"><span data-stu-id="c03ac-347"><strong>Note:</strong> This method can be applied only if a forecast model is attached to the estimate.</span></span></td>
 </tr>
 <tr class="even">
-<td>同于上一个评估</td>
-<td>在上一期间使用的同一估计方法也适用。如果上一期间需要预测模型，则此方法也需要预测模型。</td>
+<td><span data-ttu-id="c03ac-348">同于上一个评估</span><span class="sxs-lookup"><span data-stu-id="c03ac-348">As previous estimate</span></span></td>
+<td><span data-ttu-id="c03ac-349">在上一期间使用的同一估计方法也适用。如果上一期间需要预测模型，则此方法也需要预测模型。</span><span class="sxs-lookup"><span data-stu-id="c03ac-349">The same estimate method that was used in the previous period is applied.This method requires a forecast model if the previous period required a forecast model.</span></span></td>
 </tr>
 <tr class="odd">
-<td>将完工尚需成本设置为零</td>
-<td>通常，此方法在清除评估项目前使用。 此方法会将总估计与已过帐的实际交易记录匹配并清除<strong>“完工尚需成本”</strong>列。 完成的最终百分比始终为 100％。 将不会为您创建的每个成本行都选择<strong>“预测”</strong>字段，并且将从以前的成本预估复制总估计。 将从完成项目的成本中减去评估期间的实际消耗量。此方法不需要预测模型。</td>
+<td><span data-ttu-id="c03ac-350">将完工尚需成本设置为零</span><span class="sxs-lookup"><span data-stu-id="c03ac-350">Set cost to complete to zero</span></span></td>
+<td><span data-ttu-id="c03ac-351">通常，此方法在清除评估项目前使用。</span><span class="sxs-lookup"><span data-stu-id="c03ac-351">Typically, this method is used before the estimate project is eliminated.</span></span> <span data-ttu-id="c03ac-352">此方法会将总估计与已过帐的实际交易记录匹配并清除<strong>“完工尚需成本”</strong>列。</span><span class="sxs-lookup"><span data-stu-id="c03ac-352">This method matches the total estimates with the actual transactions that were posted and clears the <strong>Cost to complete</strong> column.</span></span> <span data-ttu-id="c03ac-353">完成的最终百分比始终为 100％。</span><span class="sxs-lookup"><span data-stu-id="c03ac-353">The resulting percentage of completion is always 100 percent.</span></span> <span data-ttu-id="c03ac-354">将不会为您创建的每个成本行都选择<strong>“预测”</strong>字段，并且将从以前的成本预估复制总估计。</span><span class="sxs-lookup"><span data-stu-id="c03ac-354">The <strong>Forecasting</strong> field is not selected for each cost line that you create, and the total estimate is copied from the previous cost estimate.</span></span> <span data-ttu-id="c03ac-355">将从完成项目的成本中减去评估期间的实际消耗量。此方法不需要预测模型。</span><span class="sxs-lookup"><span data-stu-id="c03ac-355">The actual consumption for the estimate period is deducted from the cost to complete the project.This method doesn't require a forecast model.</span></span></td>
 </tr>
 <tr class="even">
-<td>从成本模板</td>
-<td>将应用在与所选评估项目关联的成本模板中设置的完工尚需成本。</td>
+<td><span data-ttu-id="c03ac-356">从成本模板</span><span class="sxs-lookup"><span data-stu-id="c03ac-356">From cost template</span></span></td>
+<td><span data-ttu-id="c03ac-357">将应用在与所选评估项目关联的成本模板中设置的完工尚需成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-357">The cost to complete method that is set up in the cost template that is associated with the selected estimate project is applied.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="analyze-the-project"></a>分析项目
-从根本上来说，项目用于为记录成本的交易记录分组，然后将这些成本过帐到总帐。 
+## <a name="analyze-the-project"></a><span data-ttu-id="c03ac-358">分析项目</span><span class="sxs-lookup"><span data-stu-id="c03ac-358">Analyze the project</span></span>
+<span data-ttu-id="c03ac-359">从根本上来说，项目用于为记录成本的交易记录分组，然后将这些成本过帐到总帐。</span><span class="sxs-lookup"><span data-stu-id="c03ac-359">At its most basic level, a project is used to group transactions that record costs, and then post these costs to the general ledger.</span></span> 
 
-一般而言，这些交易记录是业务文档的结果，例如时间表、支出报表、供应商发票或库存交易记录。 项目的生命周期的初始行动通常是帮助计划和预计项目的工作和财务影响的估计、预测和预算。 当您分析项目时，您不仅可以评估在项目期间发生的交易记录，还可以评估估计和预测的准确性、项目团队成员的利用率和项目的整体成功度。
+<span data-ttu-id="c03ac-360">一般而言，这些交易记录是业务文档的结果，例如时间表、支出报表、供应商发票或库存交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-360">Generally, these transactions are the result of business documents, such as timesheets, expense reports, vendor invoices, or inventory transactions.</span></span> <span data-ttu-id="c03ac-361">项目的生命周期的初始行动通常是帮助计划和预计项目的工作和财务影响的估计、预测和预算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-361">The life cycle of a project usually starts with estimates, forecasts, and budgets that help plan and anticipate the work and financial impact of the project.</span></span> <span data-ttu-id="c03ac-362">当您分析项目时，您不仅可以评估在项目期间发生的交易记录，还可以评估估计和预测的准确性、项目团队成员的利用率和项目的整体成功度。</span><span class="sxs-lookup"><span data-stu-id="c03ac-362">As you analyze a project, you can evaluate not only the transactions that occurred during the project, but also the accuracy of your estimates and forecasts, the utilization rates of the project team members, and the overall success of the project.</span></span>
 
-### <a name="analyze-cash-flow"></a>分析现金流
+### <a name="analyze-cash-flow"></a><span data-ttu-id="c03ac-363">分析现金流</span><span class="sxs-lookup"><span data-stu-id="c03ac-363">Analyze cash flow</span></span>
 
-使用现金流量监控可查看项目的预测现金流量和实际现金流量。 您可以查看正在进行的项目的现金流量，也可以查看已完成的项目的现金流量。 
+<span data-ttu-id="c03ac-364">使用现金流量监控可查看项目的预测现金流量和实际现金流量。</span><span class="sxs-lookup"><span data-stu-id="c03ac-364">Use cash flow monitoring to review both the forecasted cash flows and the actual cash flows for a project.</span></span> <span data-ttu-id="c03ac-365">您可以查看正在进行的项目的现金流量，也可以查看已完成的项目的现金流量。</span><span class="sxs-lookup"><span data-stu-id="c03ac-365">You can review cash flows while a project is in progress, or you can view the cash flows of a completed project.</span></span> 
 
-通过监控现金流量，您可以评估单个项目，使用报告查看多个项目并在总帐中将项目现金流量转移到现金流量预测中。
+<span data-ttu-id="c03ac-366">通过监控现金流量，您可以评估单个项目，使用报告查看多个项目并在总帐中将项目现金流量转移到现金流量预测中。</span><span class="sxs-lookup"><span data-stu-id="c03ac-366">By monitoring cash flows, you can evaluate a single project, use the reports to view multiple projects, and transfer project cash flows to the cash flow forecasts in the general ledger.</span></span>
 
-#### <a name="cash-inflow-forecasting"></a>现金流入量预测
+#### <a name="cash-inflow-forecasting"></a><span data-ttu-id="c03ac-367">现金流入量预测</span><span class="sxs-lookup"><span data-stu-id="c03ac-367">Cash inflow forecasting</span></span>
 
-根据您的设置，您可以预测所选项目的现金流量。 例如，如果项目日期是 2012 年 3 月 5 日，并且您在 2012 年 3 月 31 日开票，那么下面是预测到期日期和预期销售付款日期的方式：
+<span data-ttu-id="c03ac-368">根据您的设置，您可以预测所选项目的现金流量。</span><span class="sxs-lookup"><span data-stu-id="c03ac-368">Based on your setup, you can forecast the cash inflows for a selected project.</span></span> <span data-ttu-id="c03ac-369">例如，如果项目日期是 2012 年 3 月 5 日，并且您在 2012 年 3 月 31 日开票，那么下面是预测到期日期和预期销售付款日期的方式：</span><span class="sxs-lookup"><span data-stu-id="c03ac-369">For example, if the project date is March 5, 2012, and you invoice on March 31, 2012, here is how you can forecast the due date and the expected sales payment date:</span></span>
 
--   **项目日期：**2012 年 3 月 5 日。
--   **发票日期：**2012 年 3 月 31 日。 此日期根据开票频率确定。 在本例中，您将开票频率设置为当前月。 因此，在三月份过帐的所有交易记录都将在该月的最后一天开票。
--   **到期日期：**2012 年 4 月 14 日。 此日期根据为此项目设置的付款条款确定。 在本例中，您选择了 14 天的付款期限。 因此，发票日期加上 14 天就是到期日期 2012 年 4 月 14 日。
--   **预期销售付款日期：**2012 年 4 月 27 日。 此日期通过以下方式计算得出：将**项目管理与核算参数**页上的**一般缓冲天数**字段中的天数与**项目合同**页上的**个别缓冲天数**字段中的天数相加，再将两者之和加上**到期日期**字段中的天数。 在本例中，您在**“一般缓冲天数”**字段中输入了 **3**，并在**“个别缓冲天数”**字段中输入了 **10**。 因此，到期日期加上 13 天就是预期销售付款日期 2012 年 4 月 27 日。
+-   <span data-ttu-id="c03ac-370">**项目日期：**2012 年 3 月 5 日。</span><span class="sxs-lookup"><span data-stu-id="c03ac-370">**Project date:** March 5, 2012.</span></span>
+-   <span data-ttu-id="c03ac-371">**发票日期：**2012 年 3 月 31 日。</span><span class="sxs-lookup"><span data-stu-id="c03ac-371">**Invoice date:** March 31, 2012.</span></span> <span data-ttu-id="c03ac-372">此日期根据开票频率确定。</span><span class="sxs-lookup"><span data-stu-id="c03ac-372">This date is determined based on invoice frequency.</span></span> <span data-ttu-id="c03ac-373">在本例中，您将开票频率设置为当前月。</span><span class="sxs-lookup"><span data-stu-id="c03ac-373">For this example, you set the invoice frequency to the current month.</span></span> <span data-ttu-id="c03ac-374">因此，在三月份过帐的所有交易记录都将在该月的最后一天开票。</span><span class="sxs-lookup"><span data-stu-id="c03ac-374">Therefore, all transactions that are posted in the month of March are invoiced on the last day of the month.</span></span>
+-   <span data-ttu-id="c03ac-375">**到期日期：**2012 年 4 月 14 日。</span><span class="sxs-lookup"><span data-stu-id="c03ac-375">**Due date:** April 14, 2012.</span></span> <span data-ttu-id="c03ac-376">此日期根据为此项目设置的付款条款确定。</span><span class="sxs-lookup"><span data-stu-id="c03ac-376">This date is determined based on the terms of payment that were set for the project.</span></span> <span data-ttu-id="c03ac-377">在本例中，您选择了 14 天的付款期限。</span><span class="sxs-lookup"><span data-stu-id="c03ac-377">For this example, you selected payment terms of 14 days.</span></span> <span data-ttu-id="c03ac-378">因此，发票日期加上 14 天就是到期日期 2012 年 4 月 14 日。</span><span class="sxs-lookup"><span data-stu-id="c03ac-378">Therefore, 14 days are added to the invoice date to arrive at a due date of April 14, 2012.</span></span>
+-   <span data-ttu-id="c03ac-379">**预期销售付款日期：**2012 年 4 月 27 日。</span><span class="sxs-lookup"><span data-stu-id="c03ac-379">**Expected sales payment date:** April 27, 2012.</span></span> <span data-ttu-id="c03ac-380">此日期通过以下方式计算得出：将**项目管理与核算参数**页上的**一般缓冲天数**字段中的天数与**项目合同**页上的**个别缓冲天数**字段中的天数相加，再将两者之和加上**到期日期**字段中的天数。</span><span class="sxs-lookup"><span data-stu-id="c03ac-380">This date is calculated by adding the number of days in the **General buffer days** field on the **Project management and accounting parameters** page to the number of days in the **Individual buffer days** field on **Project contracts** page, and then adding the total to the number of days in the **Due date** field.</span></span> <span data-ttu-id="c03ac-381">在本例中，您在**“一般缓冲天数”**字段中输入了 **3**，并在**“个别缓冲天数”**字段中输入了 **10**。</span><span class="sxs-lookup"><span data-stu-id="c03ac-381">For this example, you entered **3** in the **General buffer days** field and **10** in the **Individual buffer days** field.</span></span> <span data-ttu-id="c03ac-382">因此，到期日期加上 13 天就是预期销售付款日期 2012 年 4 月 27 日。</span><span class="sxs-lookup"><span data-stu-id="c03ac-382">Therefore, 13 days are added to the due date to arrive at an expected sales payment date of April 27, 2012.</span></span>
 
-一般缓冲天数可以替换个别缓冲天数或与个别缓冲天数相加：
+<span data-ttu-id="c03ac-383">一般缓冲天数可以替换个别缓冲天数或与个别缓冲天数相加：</span><span class="sxs-lookup"><span data-stu-id="c03ac-383">The general buffer days can either replace the individual buffer days or be added to the individual buffer days:</span></span>
 
--   要将一般缓冲天数用作个别缓冲天数的替代项，请输入到期日期和客户的实际付款日期之间的平均天数。
--   要在**“一般缓冲天数”**字段中将一般缓冲天数与个别缓冲天数相加，请输入客户发放付款到您的组织收到付款的天数的估计值。
+-   <span data-ttu-id="c03ac-384">要将一般缓冲天数用作个别缓冲天数的替代项，请输入到期日期和客户的实际付款日期之间的平均天数。</span><span class="sxs-lookup"><span data-stu-id="c03ac-384">To use the general buffer days as a replacement for the individual buffer days, enter the average number of days between the due date and the actual payment date for customers.</span></span>
+-   <span data-ttu-id="c03ac-385">要在**“一般缓冲天数”**字段中将一般缓冲天数与个别缓冲天数相加，请输入客户发放付款到您的组织收到付款的天数的估计值。</span><span class="sxs-lookup"><span data-stu-id="c03ac-385">To add the general buffer days to the individual buffer days, in the **General buffer days** field, enter your estimate for the number of days between the day when the customer sends the payment and the day when your organization receives the payment.</span></span>
 
-在项目的合同中设置个别缓冲天数。 该天数基于销售发票到期日期和您的组织针对客户付款模式的经验计算。
+<span data-ttu-id="c03ac-386">在项目的合同中设置个别缓冲天数。</span><span class="sxs-lookup"><span data-stu-id="c03ac-386">Set up individual buffer days in the project’s contract.</span></span> <span data-ttu-id="c03ac-387">该天数基于销售发票到期日期和您的组织针对客户付款模式的经验计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-387">The days are calculated based on both the sales invoice due date and your organization’s experience with a customer's payment pattern.</span></span>
 
-#### <a name="actual-cash-inflow"></a>实际现金流入量
+#### <a name="actual-cash-inflow"></a><span data-ttu-id="c03ac-388">实际现金流入量</span><span class="sxs-lookup"><span data-stu-id="c03ac-388">Actual cash inflow</span></span>
 
-实际现金流入量与预测现金流入量类似，只不过对于前者，您可以从最初的发票日期开始计算。 以下是一个示例：
+<span data-ttu-id="c03ac-389">实际现金流入量与预测现金流入量类似，只不过对于前者，您可以从最初的发票日期开始计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-389">Actual cash inflow resembles forecasting, but you can begin your calculations from the first invoice date.</span></span> <span data-ttu-id="c03ac-390">以下是一个示例：</span><span class="sxs-lookup"><span data-stu-id="c03ac-390">Here is an example:</span></span>
 
--   **发票日期：**2012 年 3 月 2 日。
--   **到期日期：** 2012 年 3 月 16 日。 将付款期限设置为 14 天。
--   **预期销售付款日期：**2012 年 3 月 29 日。 此计算包括 3 天一般缓冲天数和 10 天个别宽限天数。
+-   <span data-ttu-id="c03ac-391">**发票日期：**2012 年 3 月 2 日。</span><span class="sxs-lookup"><span data-stu-id="c03ac-391">**Invoice date:** March 2, 2012.</span></span>
+-   <span data-ttu-id="c03ac-392">**到期日期：** 2012 年 3 月 16 日。</span><span class="sxs-lookup"><span data-stu-id="c03ac-392">**Due date:** March 16, 2012.</span></span> <span data-ttu-id="c03ac-393">将付款期限设置为 14 天。</span><span class="sxs-lookup"><span data-stu-id="c03ac-393">The terms of payment are set to 14 days.</span></span>
+-   <span data-ttu-id="c03ac-394">**预期销售付款日期：**2012 年 3 月 29 日。</span><span class="sxs-lookup"><span data-stu-id="c03ac-394">**Expected sales payment date:** March 29, 2012.</span></span> <span data-ttu-id="c03ac-395">此计算包括 3 天一般缓冲天数和 10 天个别宽限天数。</span><span class="sxs-lookup"><span data-stu-id="c03ac-395">The calculation includes three general buffer days and 10 individual buffer days.</span></span>
 
-#### <a name="cost-forecasting"></a>成本预测
+#### <a name="cost-forecasting"></a><span data-ttu-id="c03ac-396">成本预测</span><span class="sxs-lookup"><span data-stu-id="c03ac-396">Cost forecasting</span></span>
 
-根据在您定义的天数，成本付款日期可能不同于项目日期。 在这种情况下，成本付款日期通过将项目日期中的天数与付款期限中的天数相加计算得出。 
+<span data-ttu-id="c03ac-397">根据在您定义的天数，成本付款日期可能不同于项目日期。</span><span class="sxs-lookup"><span data-stu-id="c03ac-397">Based on the days that are defined, the cost payment date can differ from the project date.</span></span> <span data-ttu-id="c03ac-398">在这种情况下，成本付款日期通过将项目日期中的天数与付款期限中的天数相加计算得出。</span><span class="sxs-lookup"><span data-stu-id="c03ac-398">In this case, the cost payment date is calculated by adding the number of days from the project date to the number of days in the terms of payment.</span></span> 
 
-例如，交易记录的项目日期是 2012 年 3 月 5 日，并设置了以下付款期限：
+<span data-ttu-id="c03ac-399">例如，交易记录的项目日期是 2012 年 3 月 5 日，并设置了以下付款期限：</span><span class="sxs-lookup"><span data-stu-id="c03ac-399">For example, the project date of the transaction is March 5, 2012, and the following terms of payment are set:</span></span>
 
--   **工时：**当前月份 (**M**)
--   **支出：**14 天 (**D14**)
--   **物料：**30 天 (**D30**)
+-   <span data-ttu-id="c03ac-400">**工时：**当前月份 (**M**)</span><span class="sxs-lookup"><span data-stu-id="c03ac-400">**Hours:** Current month (**M**)</span></span>
+-   <span data-ttu-id="c03ac-401">**支出：**14 天 (**D14**)</span><span class="sxs-lookup"><span data-stu-id="c03ac-401">**Expenses:** 14 days (**D14**)</span></span>
+-   <span data-ttu-id="c03ac-402">**物料：**30 天 (**D30**)</span><span class="sxs-lookup"><span data-stu-id="c03ac-402">**Items:** 30 days (**D30**)</span></span>
 
-根据这些设置，每个交易记录类型的成本付款日期如下：
+<span data-ttu-id="c03ac-403">根据这些设置，每个交易记录类型的成本付款日期如下：</span><span class="sxs-lookup"><span data-stu-id="c03ac-403">Based on these settings, here is the cost payment date for each transaction type:</span></span>
 
--   **工时：**2012 年 3 月 31 日，即所选月的最后一天。
--   **支出：**2012 年 3 月 19 日，即交易记录日期后的 14 天。
--   **物料：**2012 年 4 月 4 日，即交易记录日期后的 30 天。
+-   <span data-ttu-id="c03ac-404">**工时：**2012 年 3 月 31 日，即所选月的最后一天。</span><span class="sxs-lookup"><span data-stu-id="c03ac-404">**Hours:** March 31, 2012, which is the last day of the selected month.</span></span>
+-   <span data-ttu-id="c03ac-405">**支出：**2012 年 3 月 19 日，即交易记录日期后的 14 天。</span><span class="sxs-lookup"><span data-stu-id="c03ac-405">**Expenses:** March 19, 2012, which is 14 days after the date of the transaction.</span></span>
+-   <span data-ttu-id="c03ac-406">**物料：**2012 年 4 月 4 日，即交易记录日期后的 30 天。</span><span class="sxs-lookup"><span data-stu-id="c03ac-406">**Items:** April 4, 2012, which is 30 days after the date of the transaction.</span></span>
 
 > [!NOTE] 
-> 采购订单的到期日期基于创建项目采购订单时的供应商交易记录。 该到期日期不由任何默认设置决定。 
+> <span data-ttu-id="c03ac-407">采购订单的到期日期基于创建项目采购订单时的供应商交易记录。</span><span class="sxs-lookup"><span data-stu-id="c03ac-407">The due date for the purchase order is based on the vendor transaction when the project purchase order is created.</span></span> <span data-ttu-id="c03ac-408">该到期日期不由任何默认设置决定。</span><span class="sxs-lookup"><span data-stu-id="c03ac-408">The due date isn't determined by any default settings.</span></span> 
 
-成本付款日期不基于缓冲天数计算。 在完成某一项目并且所有成本核算和开票都已完成后，成本和销售额将过帐到损益科目。 
+<span data-ttu-id="c03ac-409">成本付款日期不基于缓冲天数计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-409">The cost payment date isn't calculated on buffer days.</span></span> <span data-ttu-id="c03ac-410">在完成某一项目并且所有成本核算和开票都已完成后，成本和销售额将过帐到损益科目。</span><span class="sxs-lookup"><span data-stu-id="c03ac-410">After a project is completed, when all costing and invoicing is completed, both the cost and the sales are posted to the profit and loss accounts.</span></span> 
 
-当所有销售和供应商发票都已完成后，您可以查看**“现金流量”**页上的字段和**“项目报表”**页上的字段之间的关系。
+<span data-ttu-id="c03ac-411">当所有销售和供应商发票都已完成后，您可以查看**“现金流量”**页上的字段和**“项目报表”**页上的字段之间的关系。</span><span class="sxs-lookup"><span data-stu-id="c03ac-411">When all sales and vendor invoices are completed, you can view the relationship between fields on the **Cash flow** page and fields on the **Project statements** page.</span></span>
 
-| 现金流量页 | 项目报表页 |
+| <span data-ttu-id="c03ac-412">现金流量页</span><span class="sxs-lookup"><span data-stu-id="c03ac-412">Cash flow page</span></span> | <span data-ttu-id="c03ac-413">项目报表页</span><span class="sxs-lookup"><span data-stu-id="c03ac-413">Project statements page</span></span> |
 |----------------|-------------------------|
-| 现金流入量   | 收入                 |
-| 现金流出量  | 总成本              |
-| 净现金流量 | 毛利            |
+| <span data-ttu-id="c03ac-414">现金流入量</span><span class="sxs-lookup"><span data-stu-id="c03ac-414">Cash inflows</span></span>   | <span data-ttu-id="c03ac-415">收入</span><span class="sxs-lookup"><span data-stu-id="c03ac-415">Revenue</span></span>                 |
+| <span data-ttu-id="c03ac-416">现金流出量</span><span class="sxs-lookup"><span data-stu-id="c03ac-416">Cash outflows</span></span>  | <span data-ttu-id="c03ac-417">总成本</span><span class="sxs-lookup"><span data-stu-id="c03ac-417">Total cost</span></span>              |
+| <span data-ttu-id="c03ac-418">净现金流量</span><span class="sxs-lookup"><span data-stu-id="c03ac-418">Net cash flows</span></span> | <span data-ttu-id="c03ac-419">毛利</span><span class="sxs-lookup"><span data-stu-id="c03ac-419">Gross margin</span></span>            |
 
-### <a name="review-costs"></a>查看成本
+### <a name="review-costs"></a><span data-ttu-id="c03ac-420">查看成本</span><span class="sxs-lookup"><span data-stu-id="c03ac-420">Review costs</span></span>
 
-您可以在**“成本控制”**页上监视您的组织在项目进行期间产生的成本。 通过项目的原始预算成本与实际成本和承诺成本进行比较，则可以确定是否在跟踪项目(通过预算，或者在预算下)。 
+<span data-ttu-id="c03ac-421">您可以在**“成本控制”**页上监视您的组织在项目进行期间产生的成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-421">You can monitor the costs that your organization incurs during a project on the **Cost control** page.</span></span> <span data-ttu-id="c03ac-422">通过项目的原始预算成本与实际成本和承诺成本进行比较，则可以确定是否在跟踪项目(通过预算，或者在预算下)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-422">By comparing the original budgeted costs for the project with the current actual costs and the committed costs, you can determine whether the project is on track, over budget, or under budget.</span></span> 
 
 > [!NOTE] 
-> 当使用**成本控制**页查看项目成本的当前状态时，请使用为原始和剩余预算选择的预测模型。 如果您在计算成本时选择了其他预测模型，计算结果将不准确。
+> <span data-ttu-id="c03ac-423">当使用**成本控制**页查看项目成本的当前状态时，请使用为原始和剩余预算选择的预测模型。</span><span class="sxs-lookup"><span data-stu-id="c03ac-423">When you use the **Cost control** page to view the current status of project costs, use the forecast models that were selected for the original and remaining budget.</span></span> <span data-ttu-id="c03ac-424">如果您在计算成本时选择了其他预测模型，计算结果将不准确。</span><span class="sxs-lookup"><span data-stu-id="c03ac-424">If you select other forecast models when you calculate costs, the calculation results will not be accurate.</span></span>
 
-#### <a name="viewing-the-remaining-budgeted-amounts"></a>查看剩余预算金额
+#### <a name="viewing-the-remaining-budgeted-amounts"></a><span data-ttu-id="c03ac-425">查看剩余预算金额</span><span class="sxs-lookup"><span data-stu-id="c03ac-425">Viewing the remaining budgeted amounts</span></span>
 
-如果为**“项目管理和核算参数”**页上的成本控制方法选择了**“剩余预算”**，**“成本控制”**页将计算尚未过帐为实际成本的成本或尚未标记为承诺成本的成本。 具体而言，**“成本控制”**页的下部窗格中的**“常规”**选项卡上的金额将通过以下方式计算：
+<span data-ttu-id="c03ac-426">如果为**“项目管理和核算参数”**页上的成本控制方法选择了**“剩余预算”**，**“成本控制”**页将计算尚未过帐为实际成本的成本或尚未标记为承诺成本的成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-426">If **Remaining budget** is selected as the cost control method on the **Project management and accounting parameters** page, the **Cost control** page calculates costs that haven't been posted as actual or marked as committed.</span></span> <span data-ttu-id="c03ac-427">具体而言，**“成本控制”**页的下部窗格中的**“常规”**选项卡上的金额将通过以下方式计算：</span><span class="sxs-lookup"><span data-stu-id="c03ac-427">Specifically, the amounts on the **General** tab in the lower pane of the **Cost control** page are calculated in the following ways:</span></span>
 
--   **实际成本** - 在所选成本行的项目上花费的总金额。 实际成本额在**“分类帐更新”**页上计算。
--   **承诺成本** - 法人自行承诺支付的其他支出金额。 特定承诺成本额在**“承诺成本”**页上计算。
--   **剩余预算** - 仍可用于所选成本行的原始预算金额。 剩余预算金额在**“总帐预览”**页上计算。
--   **总成本** - 实际成本、承诺成本和剩余预算金额之和。
+-   <span data-ttu-id="c03ac-428">**实际成本** - 在所选成本行的项目上花费的总金额。</span><span class="sxs-lookup"><span data-stu-id="c03ac-428">**Actual cost** – The total amount that has been spent on the project for the selected cost line.</span></span> <span data-ttu-id="c03ac-429">实际成本额在**“分类帐更新”**页上计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-429">The actual cost amount is calculated on the **Ledger updates** page.</span></span>
+-   <span data-ttu-id="c03ac-430">**承诺成本** - 法人自行承诺支付的其他支出金额。</span><span class="sxs-lookup"><span data-stu-id="c03ac-430">**Committed cost** – The additional amount of expenses that the legal entity has committed itself to pay.</span></span> <span data-ttu-id="c03ac-431">特定承诺成本额在**“承诺成本”**页上计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-431">The specific committed cost amounts are calculated on the **Committed costs** page.</span></span>
+-   <span data-ttu-id="c03ac-432">**剩余预算** - 仍可用于所选成本行的原始预算金额。</span><span class="sxs-lookup"><span data-stu-id="c03ac-432">**Remaining budget** – The amount of the original budgeted amount that is still available for the selected cost line.</span></span> <span data-ttu-id="c03ac-433">剩余预算金额在**“总帐预览”**页上计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-433">The remaining budget amount is calculated on the **General ledger preview** page.</span></span>
+-   <span data-ttu-id="c03ac-434">**总成本** - 实际成本、承诺成本和剩余预算金额之和。</span><span class="sxs-lookup"><span data-stu-id="c03ac-434">**Total cost** – The sum of the actual cost, committed cost, and remaining budget amounts.</span></span>
 
-在**“成本控制”**页的**“偏差”**选项卡上，您可以查看预期总成本与原始预算的比较。 此比较显示了这些金额之间的差异。 因此，您可以看到数据不匹配之处。 偏差金额按以下方式计算：
+<span data-ttu-id="c03ac-435">在**“成本控制”**页的**“偏差”**选项卡上，您可以查看预期总成本与原始预算的比较。</span><span class="sxs-lookup"><span data-stu-id="c03ac-435">On the **Cost control** page, on the **Deviation** tab, you can view a comparison of the total expected cost with the original budget.</span></span> <span data-ttu-id="c03ac-436">此比较显示了这些金额之间的差异。</span><span class="sxs-lookup"><span data-stu-id="c03ac-436">This comparison shows any differences between these amounts.</span></span> <span data-ttu-id="c03ac-437">因此，您可以看到数据不匹配之处。</span><span class="sxs-lookup"><span data-stu-id="c03ac-437">Therefore, you can see where the data doesn't match.</span></span> <span data-ttu-id="c03ac-438">偏差金额按以下方式计算：</span><span class="sxs-lookup"><span data-stu-id="c03ac-438">The deviation amounts are calculated in the following ways:</span></span>
 
--   **原始预算** - 为所选成本行最初预算的金额。 原始预算金额在**“总帐预览”**页上计算。
--   **总成本** - 实际成本、承诺成本和剩余预算之和（如**“常规”**选项卡上所报告）。
--   **偏差** - 总成本与原始预算之间的差异。
--   **基于数量的差异** - 原始预测与总预测之间的总差异。 此差异在数学上可表示为 (总预测数量) × (原始平均价 – 总平均价)。 此计算仅适用于项目工时。
--   **基于价格的差异** - 原始预测与总预测之间的总差异。 此差异在数学上可表示为 (原始预测价格) × (原始预测数量 – 总预测数量)。 此计算仅适用于项目工时。
+-   <span data-ttu-id="c03ac-439">**原始预算** - 为所选成本行最初预算的金额。</span><span class="sxs-lookup"><span data-stu-id="c03ac-439">**Original budget** – The amount that was originally budgeted for the selected cost line.</span></span> <span data-ttu-id="c03ac-440">原始预算金额在**“总帐预览”**页上计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-440">The original budget amount is calculated on the **General ledger preview** page.</span></span>
+-   <span data-ttu-id="c03ac-441">**总成本** - 实际成本、承诺成本和剩余预算之和（如**“常规”**选项卡上所报告）。</span><span class="sxs-lookup"><span data-stu-id="c03ac-441">**Total cost** – The sum of the actual cost, committed cost, and remaining budget, as reported on the **General** tab.</span></span>
+-   <span data-ttu-id="c03ac-442">**偏差** - 总成本与原始预算之间的差异。</span><span class="sxs-lookup"><span data-stu-id="c03ac-442">**Deviation** – The difference between the total cost and the original budget.</span></span>
+-   <span data-ttu-id="c03ac-443">**基于数量的差异** - 原始预测与总预测之间的总差异。</span><span class="sxs-lookup"><span data-stu-id="c03ac-443">**Variance based on quantity** – The total difference between the original forecast and the total forecast.</span></span> <span data-ttu-id="c03ac-444">此差异在数学上可表示为 (总预测数量) × (原始平均价 – 总平均价)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-444">This difference can be expressed mathematically as (Total forecast quantity) × (Original average price – Total average price).</span></span> <span data-ttu-id="c03ac-445">此计算仅适用于项目工时。</span><span class="sxs-lookup"><span data-stu-id="c03ac-445">This calculation applies only to project hours.</span></span>
+-   <span data-ttu-id="c03ac-446">**基于价格的差异** - 原始预测与总预测之间的总差异。</span><span class="sxs-lookup"><span data-stu-id="c03ac-446">**Variance based on price** – The total difference between the original forecast and the total forecast.</span></span> <span data-ttu-id="c03ac-447">此差异在数学上可表示为 (原始预测价格) × (原始预测数量 – 总预测数量)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-447">This difference can be expressed mathematically as (Original forecast price) × (Original forecast quantity – Total forecast quantity).</span></span> <span data-ttu-id="c03ac-448">此计算仅适用于项目工时。</span><span class="sxs-lookup"><span data-stu-id="c03ac-448">This calculation applies only to project hours.</span></span>
 
-#### <a name="viewing-the-total-budgeted-amounts"></a>查看总预算金额
+#### <a name="viewing-the-total-budgeted-amounts"></a><span data-ttu-id="c03ac-449">查看总预算金额</span><span class="sxs-lookup"><span data-stu-id="c03ac-449">Viewing the total budgeted amounts</span></span>
 
-如果选择**“总预算”**作为**“项目管理和核算参数”**页上的成本控制方法，**“成本控制”**页将计算项目的实际成本和总成本以帮助您检测两者之间的任何差异。 具体而言，在**“成本控制”**页上，**“常规”**选项卡上的下部窗格的列中的金额通过以下方式计算：
+<span data-ttu-id="c03ac-450">如果选择**“总预算”**作为**“项目管理和核算参数”**页上的成本控制方法，**“成本控制”**页将计算项目的实际成本和总成本以帮助您检测两者之间的任何差异。</span><span class="sxs-lookup"><span data-stu-id="c03ac-450">If **Total budget** is selected as the cost control method on the **Project management and accounting parameters** page, the **Cost control** page calculates the actual costs and the total costs of the project to help you detect any difference between the two.</span></span> <span data-ttu-id="c03ac-451">具体而言，在**“成本控制”**页上，**“常规”**选项卡上的下部窗格的列中的金额通过以下方式计算：</span><span class="sxs-lookup"><span data-stu-id="c03ac-451">Specifically, on the **Cost control** page, the amounts in the columns in the lower pane on the **General** tab are calculated in the following ways:</span></span>
 
--   **总预算成本** - 所选成本行的总预算金额。
--   **实际成本** - 项目的所选成本行到目前为止产生的成本总额。
--   **承诺成本** - 对所选成本行承诺的总金额。
--   **差异** - 实际成本和承诺成本之和与总成本之间的差异。 显示差异是否必须对总预算指定附加的成本。
+-   <span data-ttu-id="c03ac-452">**总预算成本** - 所选成本行的总预算金额。</span><span class="sxs-lookup"><span data-stu-id="c03ac-452">**Total budgeted cost** – The total budgeted amount for the selected cost line.</span></span>
+-   <span data-ttu-id="c03ac-453">**实际成本** - 项目的所选成本行到目前为止产生的成本总额。</span><span class="sxs-lookup"><span data-stu-id="c03ac-453">**Actual cost** – The total amount of costs that have been incurred on the project to date for the selected cost lines.</span></span>
+-   <span data-ttu-id="c03ac-454">**承诺成本** - 对所选成本行承诺的总金额。</span><span class="sxs-lookup"><span data-stu-id="c03ac-454">**Committed cost** – The total amount that has been committed for the selected cost line.</span></span>
+-   <span data-ttu-id="c03ac-455">**差异** - 实际成本和承诺成本之和与总成本之间的差异。</span><span class="sxs-lookup"><span data-stu-id="c03ac-455">**Variance** – The difference between the sum of the actual and committed costs and the total cost.</span></span> <span data-ttu-id="c03ac-456">显示差异是否必须对总预算指定附加的成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-456">The variance shows whether additional costs must be specified for the total budget.</span></span>
 
-在**“成本控制”**页上的**“差异”**选项卡上，您可以通过查看以下字段来了解总预算和原始预算之间的差异：
+<span data-ttu-id="c03ac-457">在**“成本控制”**页上的**“差异”**选项卡上，您可以通过查看以下字段来了解总预算和原始预算之间的差异：</span><span class="sxs-lookup"><span data-stu-id="c03ac-457">On the **Cost control** page, on the **Deviation** tab, you can view the difference between the total budget and the original budget by looking at to the following fields:</span></span>
 
--   **原始预算** - 为成本行最初预算的金额。 原始预算在**“总帐预览”**页上计算。
--   **总预算成本** - 为成本行最初预算的总成本。 总预算成本在**“总帐预览”**页上计算。
--   **偏差** - 成本行的偏差。 此金额通过将原始预算减去总成本来计算。
--   **基于数量的差异** - 原始预算与总预算之间的总差异。  - 通过从原始预算工时中减去总预算工时，然后将得到的差值乘以原始预算成本价，计算出此金额。 此差异在数学上可表示为 (原始预算成本价格) × (原始预算工时 – 总预算工时)。 此计算仅适用于项目工时。
--   **基于价格的差异** - 此金额通过以下方式计算：将原始预算工时减去总预算工时，然后将得到的差值乘以已用总工时。 此差异在数学上可表示为 (总消耗工时) × (原始预算工时 – 总预算工时)。 此计算仅适用于项目工时。
+-   <span data-ttu-id="c03ac-458">**原始预算** - 为成本行最初预算的金额。</span><span class="sxs-lookup"><span data-stu-id="c03ac-458">**Original budget**– The amount that was originally budgeted for the cost line.</span></span> <span data-ttu-id="c03ac-459">原始预算在**“总帐预览”**页上计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-459">The original budget is calculated on the **General ledger preview** page.</span></span>
+-   <span data-ttu-id="c03ac-460">**总预算成本** - 为成本行最初预算的总成本。</span><span class="sxs-lookup"><span data-stu-id="c03ac-460">**Total budgeted cost** – The total cost that was originally budgeted for the cost line.</span></span> <span data-ttu-id="c03ac-461">总预算成本在**“总帐预览”**页上计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-461">The total budgeted cost is calculated on the **General ledger preview** page.</span></span>
+-   <span data-ttu-id="c03ac-462">**偏差** - 成本行的偏差。</span><span class="sxs-lookup"><span data-stu-id="c03ac-462">**Deviation** – The deviation for the cost line.</span></span> <span data-ttu-id="c03ac-463">此金额通过将原始预算减去总成本来计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-463">This amount is calculated by subtracting the total cost from the original budget.</span></span>
+-   <span data-ttu-id="c03ac-464">**基于数量的差异** - 原始预算与总预算之间的总差异。</span><span class="sxs-lookup"><span data-stu-id="c03ac-464">**Variance based on quantity** – The total difference between the original budget and the total budget.</span></span> <span data-ttu-id="c03ac-465"> - 通过从原始预算工时中减去总预算工时，然后将得到的差值乘以原始预算成本价，计算出此金额。</span><span class="sxs-lookup"><span data-stu-id="c03ac-465">This amount is calculated by subtracting the total budget hours from the original budget hours and then multiplying the difference by the original budgeted cost price.</span></span> <span data-ttu-id="c03ac-466">此差异在数学上可表示为 (原始预算成本价格) × (原始预算工时 – 总预算工时)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-466">This difference can be expressed mathematically as (Original budgeted cost price) × (Original budget hours – Total budget hours).</span></span> <span data-ttu-id="c03ac-467">此计算仅适用于项目工时。</span><span class="sxs-lookup"><span data-stu-id="c03ac-467">This calculation applies only to project hours.</span></span>
+-   <span data-ttu-id="c03ac-468">**基于价格的差异** - 此金额通过以下方式计算：将原始预算工时减去总预算工时，然后将得到的差值乘以已用总工时。</span><span class="sxs-lookup"><span data-stu-id="c03ac-468">**Variance based on price** – This amount is calculated by subtracting the total budget hours from the original budget hours and then multiplying the difference by the total number of hours consumed.</span></span> <span data-ttu-id="c03ac-469">此差异在数学上可表示为 (总消耗工时) × (原始预算工时 – 总预算工时)。</span><span class="sxs-lookup"><span data-stu-id="c03ac-469">This difference can be expressed mathematically as (Total consumed hours) × (Original budget hours – Total budget hours).</span></span> <span data-ttu-id="c03ac-470">此计算仅适用于项目工时。</span><span class="sxs-lookup"><span data-stu-id="c03ac-470">This calculation applies only to project hours.</span></span>
 
-### <a name="analyze-utilization"></a>分析利用
+### <a name="analyze-utilization"></a><span data-ttu-id="c03ac-471">分析利用</span><span class="sxs-lookup"><span data-stu-id="c03ac-471">Analyze utilization</span></span>
 
-利用率是工作人员在特定工作期间开展计费或生产工作的时间的百分比。 计费工时是可向特定客户计费的工作人员工时。 
+<span data-ttu-id="c03ac-472">利用率是工作人员在特定工作期间开展计费或生产工作的时间的百分比。</span><span class="sxs-lookup"><span data-stu-id="c03ac-472">The utilization rate is the percentage of time that a worker performs billable or productive work in a specific working period.</span></span> <span data-ttu-id="c03ac-473">计费工时是可向特定客户计费的工作人员工时。</span><span class="sxs-lookup"><span data-stu-id="c03ac-473">Billable hours are the worker’s hours that can be charged to a specific customer.</span></span> 
 
-工作人员的利用率通过将计费工时数除以特定期间内的工作小时数计算得出。 例如，如果某个工作人员在某个时期内有 30 个计费工时，并且在同一期间内的工作小时数为 40，则该工作人员的利用率为 75%。 
+<span data-ttu-id="c03ac-474">工作人员的利用率通过将计费工时数除以特定期间内的工作小时数计算得出。</span><span class="sxs-lookup"><span data-stu-id="c03ac-474">A worker’s utilization rate is calculated by dividing the number of billable hours by the number of working hours in a specific period.</span></span> <span data-ttu-id="c03ac-475">例如，如果某个工作人员在某个时期内有 30 个计费工时，并且在同一期间内的工作小时数为 40，则该工作人员的利用率为 75%。</span><span class="sxs-lookup"><span data-stu-id="c03ac-475">For example, if a worker has 30 billable hours in a period, and the number of working hours in the same period is 40, the worker’s utilization rate is 75 percent.</span></span> 
 
-在计算工作人员的利用率时，您可以计算计费比率或效率比率：
+<span data-ttu-id="c03ac-476">在计算工作人员的利用率时，您可以计算计费比率或效率比率：</span><span class="sxs-lookup"><span data-stu-id="c03ac-476">When you calculate the utilization rate for a worker, you can calculate either the billable rate or the efficiency rate:</span></span>
 
--   **计费比率** - 计费工时与非计费工时或标准工时之间的差异。
--   **效率比率** - 生产工时与非生产工时或标准工时之间的差异。 生产工时是工作人员花在特定项目上的工时。 除在内部项目情况下外，生产工时通常计入客户。 非生产工时从不计入客户。
+-   <span data-ttu-id="c03ac-477">**计费比率** - 计费工时与非计费工时或标准工时之间的差异。</span><span class="sxs-lookup"><span data-stu-id="c03ac-477">**Billable rate** – The difference between billable hours and non-billable hours or norm hours.</span></span>
+-   <span data-ttu-id="c03ac-478">**效率比率** - 生产工时与非生产工时或标准工时之间的差异。</span><span class="sxs-lookup"><span data-stu-id="c03ac-478">**Efficiency rate** – The difference between productive hours and non-productive hours or norm hours.</span></span> <span data-ttu-id="c03ac-479">生产工时是工作人员花在特定项目上的工时。</span><span class="sxs-lookup"><span data-stu-id="c03ac-479">Productive hours are the hours that the worker spends contributing to a specific project.</span></span> <span data-ttu-id="c03ac-480">除在内部项目情况下外，生产工时通常计入客户。</span><span class="sxs-lookup"><span data-stu-id="c03ac-480">Productive hours are typically billed to customers, except in the case of internal projects.</span></span> <span data-ttu-id="c03ac-481">非生产工时从不计入客户。</span><span class="sxs-lookup"><span data-stu-id="c03ac-481">Non-productive hours are never billed to a customer.</span></span>
 
-将在**“工时利用率”**页上计算利用率。 该计算基于默认首选项。 这些首选项还将**“利用率”**或**“负担”**分配到每个项目类型，从而指定了工时的计算方式。 这适用于计费比率计算和效率比率计算。
+<span data-ttu-id="c03ac-482">将在**“工时利用率”**页上计算利用率。</span><span class="sxs-lookup"><span data-stu-id="c03ac-482">You calculate the utilization rates on the **Hour utilization** page.</span></span> <span data-ttu-id="c03ac-483">该计算基于默认首选项。</span><span class="sxs-lookup"><span data-stu-id="c03ac-483">The calculations are based on default preferences.</span></span> <span data-ttu-id="c03ac-484">这些首选项还将**“利用率”**或**“负担”**分配到每个项目类型，从而指定了工时的计算方式。</span><span class="sxs-lookup"><span data-stu-id="c03ac-484">These preferences also specify how hours are calculated by assigning **Utilization** or **Burden** to each project type.</span></span> <span data-ttu-id="c03ac-485">这适用于计费比率计算和效率比率计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-485">This applies to billable rate calculations and efficiency rate calculations.</span></span>
 
--   **利用率** - 为所选项目类型报告的工时始终被视为计费或效率利用率。
--   **负担** - 为所选项目类型报告的工时始终被视为非计费或非效率利用率。
--   **根据记录属性** - 特定工时交易记录的行属性确定将工时视为计费利用率还是效率利用率。
--   **不包括** - 不将工时纳入计费或效率利用率的计算。
+-   <span data-ttu-id="c03ac-486">**利用率** - 为所选项目类型报告的工时始终被视为计费或效率利用率。</span><span class="sxs-lookup"><span data-stu-id="c03ac-486">**Utilization** – Hours that are reported for the selected project type are always considered for billable or efficiency utilization.</span></span>
+-   <span data-ttu-id="c03ac-487">**负担** - 为所选项目类型报告的工时始终被视为非计费或非效率利用率。</span><span class="sxs-lookup"><span data-stu-id="c03ac-487">**Burden** – Hours that are reported for the selected project type are always considered for non-billable or non-efficiency utilization.</span></span>
+-   <span data-ttu-id="c03ac-488">**根据记录属性** - 特定工时交易记录的行属性确定将工时视为计费利用率还是效率利用率。</span><span class="sxs-lookup"><span data-stu-id="c03ac-488">**According to line property** – The line properties of a particular hour transaction determine whether the hours are considered for billable or efficiency utilization.</span></span>
+-   <span data-ttu-id="c03ac-489">**不包括** - 不将工时纳入计费或效率利用率的计算。</span><span class="sxs-lookup"><span data-stu-id="c03ac-489">**Not included** – Hours aren't factored into the calculation of billable or efficiency utilization.</span></span>
 
-在**“工时利用率”**页上，在工作人员或项目的整体利用率百分比旁边，您可以查看用于以下各种工时类型的利用率计算的工时数：
+<span data-ttu-id="c03ac-490">在**“工时利用率”**页上，在工作人员或项目的整体利用率百分比旁边，您可以查看用于以下各种工时类型的利用率计算的工时数：</span><span class="sxs-lookup"><span data-stu-id="c03ac-490">On the **Hour utilization** page, besides the overall utilization rate percentage for a worker or a project, you can view the number of hours that were used for the utilization rate calculations for each of the following hour types:</span></span>
 
--   **不包括的工时** - 这些工时不包括在工时利用率中。
--   **包括的工时** - 这些工时通过将有偿工时和无偿工时相加计算得出。 这些工时都包括在利用率中。
--   **无偿工时** - 如果您计算的是计费比率，这些工时与不计费工时相同。 如果您计算的是效率比率，这些工时与非生产工时相同。
--   **有偿工时** - 如果您计算的是计费比率，这些工时与计费工时相同。 如果您计算的是效率比率，这些工时与生产工时相同。
+-   <span data-ttu-id="c03ac-491">**不包括的工时** - 这些工时不包括在工时利用率中。</span><span class="sxs-lookup"><span data-stu-id="c03ac-491">**Not included hours** – These hours aren't included in the hour utilization rate.</span></span>
+-   <span data-ttu-id="c03ac-492">**包括的工时** - 这些工时通过将有偿工时和无偿工时相加计算得出。</span><span class="sxs-lookup"><span data-stu-id="c03ac-492">**Included hours** – These hours are calculated by adding the utilization hours and burden hours.</span></span> <span data-ttu-id="c03ac-493">这些工时都包括在利用率中。</span><span class="sxs-lookup"><span data-stu-id="c03ac-493">These hours are included in the utilization rate.</span></span>
+-   <span data-ttu-id="c03ac-494">**无偿工时** - 如果您计算的是计费比率，这些工时与不计费工时相同。</span><span class="sxs-lookup"><span data-stu-id="c03ac-494">**Burden hours** – If you're calculating a billable rate, these hours are the same as non-chargeable hours.</span></span> <span data-ttu-id="c03ac-495">如果您计算的是效率比率，这些工时与非生产工时相同。</span><span class="sxs-lookup"><span data-stu-id="c03ac-495">If you're calculating an efficiency rate, these hours are the same as non-productive hours.</span></span>
+-   <span data-ttu-id="c03ac-496">**有偿工时** - 如果您计算的是计费比率，这些工时与计费工时相同。</span><span class="sxs-lookup"><span data-stu-id="c03ac-496">**Utilization hours** – If you're calculating a billable rate, these hours are the same as chargeable hours.</span></span> <span data-ttu-id="c03ac-497">如果您计算的是效率比率，这些工时与生产工时相同。</span><span class="sxs-lookup"><span data-stu-id="c03ac-497">If you're calculating an efficiency rate, these hours are the same as productive hours.</span></span>
 
-在计算工作人员的利用率时，可以使用标准工时或包含的工时。 如果您使用了包括的工时，则必须确保工作人员记录其在工时单期间的所有工作时间，因为计算表示为输入的工时的百分比。 在计算项目、项目合同、客户记录或类别的工时利用率时，您必须为您的计算使用包括的工时。
+<span data-ttu-id="c03ac-498">在计算工作人员的利用率时，可以使用标准工时或包含的工时。</span><span class="sxs-lookup"><span data-stu-id="c03ac-498">When you calculate the utilization rate for a worker, you can use norm hours or included hours.</span></span> <span data-ttu-id="c03ac-499">如果您使用了包括的工时，则必须确保工作人员记录其在工时单期间的所有工作时间，因为计算表示为输入的工时的百分比。</span><span class="sxs-lookup"><span data-stu-id="c03ac-499">If you use included hours, you must ensure that workers record all their working time for the timesheet periods, because the calculation is expressed as a percentage of hours that are entered.</span></span> <span data-ttu-id="c03ac-500">在计算项目、项目合同、客户记录或类别的工时利用率时，您必须为您的计算使用包括的工时。</span><span class="sxs-lookup"><span data-stu-id="c03ac-500">When you calculate the hour utilization rate for a project, project contract, customer record, or category, you must use included hours for your calculation.</span></span>
 
-### <a name="review-project-statements"></a>查看项目报表
+### <a name="review-project-statements"></a><span data-ttu-id="c03ac-501">查看项目报表</span><span class="sxs-lookup"><span data-stu-id="c03ac-501">Review project statements</span></span>
 
-您可以创建项目报表以查看项目的进度的快速概览。 当您运行项目报表时，您可以通过在选项卡在**“项目报表”**页上的**“常规”**选项卡上做出选择来指定用于计算报表的条件。 您可以选择包括或排除以下信息：
+<span data-ttu-id="c03ac-502">您可以创建项目报表以查看项目的进度的快速概览。</span><span class="sxs-lookup"><span data-stu-id="c03ac-502">You can create a project statement to view a quick snapshot of the progress of a project.</span></span> <span data-ttu-id="c03ac-503">当您运行项目报表时，您可以通过在选项卡在**“项目报表”**页上的**“常规”**选项卡上做出选择来指定用于计算报表的条件。</span><span class="sxs-lookup"><span data-stu-id="c03ac-503">When you run a project statement, you can specify the criteria that are used to calculate the statement by making selections on the **General** tab on the **Project statements** page.</span></span> <span data-ttu-id="c03ac-504">您可以选择包括或排除以下信息：</span><span class="sxs-lookup"><span data-stu-id="c03ac-504">You can select to include or exclude the following information:</span></span>
 
--   项目类型
--   交易记录类型
--   项目日期/分类帐日期
--   数据
+-   <span data-ttu-id="c03ac-505">项目类型</span><span class="sxs-lookup"><span data-stu-id="c03ac-505">Project types</span></span>
+-   <span data-ttu-id="c03ac-506">交易记录类型</span><span class="sxs-lookup"><span data-stu-id="c03ac-506">Transaction types</span></span>
+-   <span data-ttu-id="c03ac-507">项目日期/分类帐日期</span><span class="sxs-lookup"><span data-stu-id="c03ac-507">Project date/ledger date</span></span>
+-   <span data-ttu-id="c03ac-508">数据</span><span class="sxs-lookup"><span data-stu-id="c03ac-508">Data</span></span>
 
-计算报表后，您可以在**“项目报表”**页上的各个选项卡上查看以下信息：
+<span data-ttu-id="c03ac-509">计算报表后，您可以在**“项目报表”**页上的各个选项卡上查看以下信息：</span><span class="sxs-lookup"><span data-stu-id="c03ac-509">After the statement is calculated, you can view the following information on the various tabs on the **Project statements** page:</span></span>
 
--   **常规** - 有关项目的基本损益结构的常规信息。
--   **损益** - 有关应计收入的信息。
--   **WIP** - 有关 WIP 帐户余额信息。
--   **消耗** - 有关工时、物料、支出和工资单交易记录的消耗量的信息。
--   **发票** - 有关发票和分期付款开票的信息。
--   **每小时费用** - 过帐到收入和成本科目的工时的每小时费用。
+-   <span data-ttu-id="c03ac-510">**常规** - 有关项目的基本损益结构的常规信息。</span><span class="sxs-lookup"><span data-stu-id="c03ac-510">**General** – General information about the basic profit and loss structure of the project.</span></span>
+-   <span data-ttu-id="c03ac-511">**损益** - 有关应计收入的信息。</span><span class="sxs-lookup"><span data-stu-id="c03ac-511">**Profit and loss** – Information about accrued revenue.</span></span>
+-   <span data-ttu-id="c03ac-512">**WIP** - 有关 WIP 帐户余额信息。</span><span class="sxs-lookup"><span data-stu-id="c03ac-512">**WIP** – Information about WIP account balances.</span></span>
+-   <span data-ttu-id="c03ac-513">**消耗** - 有关工时、物料、支出和工资单交易记录的消耗量的信息。</span><span class="sxs-lookup"><span data-stu-id="c03ac-513">**Consumption** – Information about the consumption of hours, items, expenses, and payroll transactions.</span></span>
+-   <span data-ttu-id="c03ac-514">**发票** - 有关发票和分期付款开票的信息。</span><span class="sxs-lookup"><span data-stu-id="c03ac-514">**Invoice** – Information about invoices and on-account invoicing.</span></span>
+-   <span data-ttu-id="c03ac-515">**每小时费用** - 过帐到收入和成本科目的工时的每小时费用。</span><span class="sxs-lookup"><span data-stu-id="c03ac-515">**Hour rate** – The hour rates for hours that are posted to revenue and cost accounts.</span></span>
 
 
 

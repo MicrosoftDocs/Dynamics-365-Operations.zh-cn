@@ -16,38 +16,38 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 5076e6b0f0ffa06fe8135b87e4814bf551b08761
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: f53de983389dd8cbfb2c29af84539f1a73dc0a85
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-bar-code-for-a-product"></a>为产品创建条码
+# <a name="create-a-bar-code-for-a-product"></a><span data-ttu-id="6637c-103">为产品创建条码</span><span class="sxs-lookup"><span data-stu-id="6637c-103">Create a bar code for a product</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-此过程显示以物料编号 M0001 为例如何手动创建条码。 创建此程序的演示数据公司是 USMF。
+<span data-ttu-id="6637c-104">此过程显示以物料编号 M0001 为例如何手动创建条码。</span><span class="sxs-lookup"><span data-stu-id="6637c-104">This procedure shows how to manually create a bar code using the item number M0001 as an example.</span></span> <span data-ttu-id="6637c-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="6637c-105">The demo data company used to create this procedure is USMF.</span></span>
 
-1. 单击“已发布产品的维护”。
-2. 单击“已发布产品”。
-3. 在列表中，找到并选择所需记录。
-4. 在“操作窗格”上，单击“库存管理”。
-5. 单击“条码”。
-6. 单击“新建”。
-7. 在列表中，标记所选的行。
-8. 在“条码设置”字段中，输入或选择一个值。
-9. 在“条码”字段中，输入或选择一个值。
-10. 在“条码”字段中，输入一个值。
-    * 按 Tab 键。  
-11. 关闭该页面。
-12. 在“数量”字段中，输入一个数字。
-13. 单击“保存”。
-    * 单击“保存”时，将运行条码校验，并且在这种情况下，将显示一个错误，说明预期校验数为 8，但找到的却是 3。 请手动更新条码数字，以便结尾为 8。  
-14. 在“条码”字段中，输入或选择一个值。
-15. 在“条码”字段中，输入一个值。
-    * 按 Tab 键。  
-16. 关闭该页面。
-17. 单击“保存”。
-18. 关闭该页面。
+1. <span data-ttu-id="6637c-106">单击“已发布产品的维护”。</span><span class="sxs-lookup"><span data-stu-id="6637c-106">Click Released product maintenance.</span></span>
+2. <span data-ttu-id="6637c-107">单击“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="6637c-107">Click Released products.</span></span>
+3. <span data-ttu-id="6637c-108">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="6637c-108">In the list, find and select the desired record.</span></span>
+4. <span data-ttu-id="6637c-109">在“操作窗格”上，单击“库存管理”。</span><span class="sxs-lookup"><span data-stu-id="6637c-109">On the Action Pane, click Manage inventory.</span></span>
+5. <span data-ttu-id="6637c-110">单击“条码”。</span><span class="sxs-lookup"><span data-stu-id="6637c-110">Click Bar codes.</span></span>
+6. <span data-ttu-id="6637c-111">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="6637c-111">Click New.</span></span>
+7. <span data-ttu-id="6637c-112">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="6637c-112">In the list, mark the selected row.</span></span>
+8. <span data-ttu-id="6637c-113">在“条码设置”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="6637c-113">In the Barcode setup field, enter or select a value.</span></span>
+9. <span data-ttu-id="6637c-114">在“条码”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="6637c-114">In the Bar code field, enter or select a value.</span></span>
+10. <span data-ttu-id="6637c-115">在“条码”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="6637c-115">In the Bar code field, type a value.</span></span>
+    * <span data-ttu-id="6637c-116">按 Tab 键。</span><span class="sxs-lookup"><span data-stu-id="6637c-116">Press the Tab key.</span></span>  
+11. <span data-ttu-id="6637c-117">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="6637c-117">Close the page.</span></span>
+12. <span data-ttu-id="6637c-118">在“数量”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="6637c-118">In the Quantity field, enter a number.</span></span>
+13. <span data-ttu-id="6637c-119">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="6637c-119">Click Save.</span></span>
+    * <span data-ttu-id="6637c-120">单击“保存”时，将运行条码校验，并且在这种情况下，将显示一个错误，说明预期校验数为 8，但找到的却是 3。</span><span class="sxs-lookup"><span data-stu-id="6637c-120">When you click Save, the barcode check is run, and in this case it will display an error stating that the expected check digit is 8, but that 3 was found.</span></span> <span data-ttu-id="6637c-121">请手动更新条码数字，以便结尾为 8。</span><span class="sxs-lookup"><span data-stu-id="6637c-121">Manually update the barcode number so that 8 is at the end.</span></span>  
+14. <span data-ttu-id="6637c-122">在“条码”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="6637c-122">In the Bar code field, enter or select a value.</span></span>
+15. <span data-ttu-id="6637c-123">在“条码”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="6637c-123">In the Bar code field, type a value.</span></span>
+    * <span data-ttu-id="6637c-124">按 Tab 键。</span><span class="sxs-lookup"><span data-stu-id="6637c-124">Press the Tab key.</span></span>  
+16. <span data-ttu-id="6637c-125">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="6637c-125">Close the page.</span></span>
+17. <span data-ttu-id="6637c-126">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="6637c-126">Click Save.</span></span>
+18. <span data-ttu-id="6637c-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="6637c-127">Close the page.</span></span>
 
 

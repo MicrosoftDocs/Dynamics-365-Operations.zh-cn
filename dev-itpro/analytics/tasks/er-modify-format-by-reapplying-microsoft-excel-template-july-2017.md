@@ -16,72 +16,72 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c6077b8a34ba4a11df014912d8b4c2b3749bc04d
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: ae1de653354d891e99fb41fa4b10e6910f458cf4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>针对电子申报 (ER) 通过重新应用 Microsoft Excel 模板修改格式
+# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a><span data-ttu-id="62624-103">针对电子申报 (ER) 通过重新应用 Microsoft Excel 模板修改格式</span><span class="sxs-lookup"><span data-stu-id="62624-103">Modify a format by reapplying a Microsoft Excel template for electronic reporting (ER)</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-为了完成此过程中的步骤，您首先必须完成“ER - 设计用于以 OPENXML 格式生成报表的配置”这一过程中的步骤。
+<span data-ttu-id="62624-104">为了完成此过程中的步骤，您首先必须完成“ER - 设计用于以 OPENXML 格式生成报表的配置”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="62624-104">To complete the steps in this procedure, you must first complete the procedure, ER - Design a configuration for generating reports in OPENXML format.</span></span>
 
-此过程介绍如何通过重新应用已修改的 Microsoft Excel 模板，修改电子申报 (ER) 格式配置。 在此过程中，将把一个修改后的 Excel 模板导入已为示例公司 Litware 公司创建的 ER 格式配置，然后生成电子单据。 此过程针对具有系统管理员角色或电子申报开发人员角色的用户。 可通过使用 GBSI 数据集完成这些步骤。 首先请下载并保存“通过重新应用 Excel 模板修改电子申报格式”(https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/) 这一帮助主题中列出的文件 SampleVendPaymWsReport2.xlsx。
+<span data-ttu-id="62624-105">此过程介绍如何通过重新应用已修改的 Microsoft Excel 模板，修改电子申报 (ER) 格式配置。</span><span class="sxs-lookup"><span data-stu-id="62624-105">This procedure explains how to modify an Electronic reporting (ER) format configuration by reapplying a Microsoft Excel template that has been modified.</span></span> <span data-ttu-id="62624-106">在此过程中，将把一个修改后的 Excel 模板导入已为示例公司 Litware 公司创建的 ER 格式配置，然后生成电子单据。</span><span class="sxs-lookup"><span data-stu-id="62624-106">In this procedure, you will import a modified Excel template into ER format configurations that have been created for the sample company, Litware, Inc., and then generate electronic documents.</span></span> <span data-ttu-id="62624-107">此过程针对具有系统管理员角色或电子申报开发人员角色的用户。</span><span class="sxs-lookup"><span data-stu-id="62624-107">This procedure is intended for users who have the system administrator or electronic reporting developer role.</span></span> <span data-ttu-id="62624-108">可通过使用 GBSI 数据集完成这些步骤。</span><span class="sxs-lookup"><span data-stu-id="62624-108">These steps can be completed by using the GBSI dataset.</span></span> <span data-ttu-id="62624-109">首先请下载并保存“通过重新应用 Excel 模板修改电子申报格式”(https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/) 这一帮助主题中列出的文件 SampleVendPaymWsReport2.xlsx。</span><span class="sxs-lookup"><span data-stu-id="62624-109">Before you begin, download and save the file, SampleVendPaymWsReport2.xlsx, which is listed in the Help topic, Modify Electronic reporting format by reapplying an Excel template (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template/).</span></span>
 
-1. 转到“组织管理”>“工作区”>“电子申报”。
-    * 确保示例公司 Litware 公司的配置提供程序可用且标记为“有效”。 如果没有看到此配置提供程序，请首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。  
+1. <span data-ttu-id="62624-110">转到“组织管理”>“工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="62624-110">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+    * <span data-ttu-id="62624-111">确保示例公司 Litware 公司的配置提供程序可用且标记为“有效”。</span><span class="sxs-lookup"><span data-stu-id="62624-111">Make sure that the configuration provider for the sample company, Litware, Inc., is available and marked as Active.</span></span> <span data-ttu-id="62624-112">如果没有看到此配置提供程序，请首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="62624-112">If you don’t see this configuration provider, complete the steps in the procedure, Create a configuration provider and mark it as active.</span></span>  
 
-## <a name="select-the-er-format"></a>选择 ER 格式。
-1. 单击“申报配置”。
-2. 在树结构中，展开“付款模型”。
-3. 在树结构中，选择“付款模型\示例工作表报表”。
-4. 单击“附加”。
-    * 请注意，SampleVendPaymWsReport.xlsx Excel 文件当前用作处理付款日记帐的模板。   
-5. 单击“打开”。
-    * 单击“打开”以浏览 Excel 模板的布局。  
-    * 查看模板。 请注意，其中现在包含各付款行的以下详细信息：供应商帐号、供应商名称、银行、银行代号、帐号、借方、贷方和币种。 在此示例中，我们将通过添加有关付款日期的详细信息扩展此列表。   
-6. 关闭该页面。
+## <a name="select-the-er-format"></a><span data-ttu-id="62624-113">选择 ER 格式。</span><span class="sxs-lookup"><span data-stu-id="62624-113">Select the ER format</span></span>
+1. <span data-ttu-id="62624-114">单击“申报配置”。</span><span class="sxs-lookup"><span data-stu-id="62624-114">Click Reporting configurations.</span></span>
+2. <span data-ttu-id="62624-115">在树结构中，展开“付款模型”。</span><span class="sxs-lookup"><span data-stu-id="62624-115">In the tree, expand 'Payment model'.</span></span>
+3. <span data-ttu-id="62624-116">在树结构中，选择“付款模型\示例工作表报表”。</span><span class="sxs-lookup"><span data-stu-id="62624-116">In the tree, select 'Payment model\Sample worksheet report'.</span></span>
+4. <span data-ttu-id="62624-117">单击“附加”。</span><span class="sxs-lookup"><span data-stu-id="62624-117">Click Attachments.</span></span>
+    * <span data-ttu-id="62624-118">请注意，SampleVendPaymWsReport.xlsx Excel 文件当前用作处理付款日记帐的模板。</span><span class="sxs-lookup"><span data-stu-id="62624-118">Note that the SampleVendPaymWsReport.xlsx Excel file is currently used as a template for payment journal processing.</span></span>   
+5. <span data-ttu-id="62624-119">单击“打开”。</span><span class="sxs-lookup"><span data-stu-id="62624-119">Click Open.</span></span>
+    * <span data-ttu-id="62624-120">单击“打开”以浏览 Excel 模板的布局。</span><span class="sxs-lookup"><span data-stu-id="62624-120">Click Open to explore the layout of the Excel template.</span></span>  
+    * <span data-ttu-id="62624-121">查看模板。</span><span class="sxs-lookup"><span data-stu-id="62624-121">Review the template.</span></span> <span data-ttu-id="62624-122">请注意，其中现在包含各付款行的以下详细信息：供应商帐号、供应商名称、银行、银行代号、帐号、借方、贷方和币种。</span><span class="sxs-lookup"><span data-stu-id="62624-122">Note that it currently includes the following details for each payment line: vendor account number, vendor name, bank, routing number, account number, debit, credit, and currency.</span></span> <span data-ttu-id="62624-123">在此示例中，我们将通过添加有关付款日期的详细信息扩展此列表。</span><span class="sxs-lookup"><span data-stu-id="62624-123">For this example, we want to extend this list by adding details about the payment date.</span></span>   
+6. <span data-ttu-id="62624-124">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="62624-124">Close the page.</span></span>
 
-## <a name="reapply-a-new-excel-template-to-er-format"></a>对 ER 格式重新应用新 Excel 模板。
-1. 单击“设计器”。
-    * 打开所选 ER 格式的草稿版本以进行编辑。  
-2. 在“操作”窗格上，单击“导入”。
-3. 单击“Excel 的更新”。
-    * 单击“更新模板”，然后选择文件 SampleVendPaymWsReport2.xlsx。  
-    * 单击“更新模板”并浏览以获取前面下载的 SampleVendPaymWsReport2.xlsx 文件。  
-4. 单击“确定”。
-    * 将应用模板 SampleVendPaymWsReport2.xlsx。 将把 ER 格式的结构与模板内容同步，并将后者的元素添加到该 ER 格式。 将从格式定义中删除模板中不包含，但在 ER 格式中存在的所有现有元素。  
-5. 在树中，选择“Excel”。
-    * 请注意，“模板”字段中现在包含对新模板的引用。   
-6. 单击“附加”。
-7. 单击“打开”。
-    * 单击“打开”以浏览修改后的 Excel 模板的布局。  
-    * 查看模板。 请注意，其中现在包含付款日期行。   
-8. 关闭该页面。
-9. 在树中，展开“Excel”。
-10. 在树结构中，展开或折叠“Excel\付款方式行”。
-11. 在树中，选择从“Excel\付款方式行\付款日期”。
-    * 请注意，ER 格式中现在包含多项。 已向 Excel 添加了单元格 PaymDate。  
-12. 单击“映射”选项卡。
-13. 在树结构中，展开“模型”。
-14. 在树结构中，展开“模型\付款”。
-15. 在树结构中，选择“模型\付款\交易日期”。
-16. 单击“绑定”。
-    * 指定在运行时向新单元格添加哪些数据。  
-17. 单击“保存”。
-18. 关闭该页面。
+## <a name="reapply-a-new-excel-template-to-er-format"></a><span data-ttu-id="62624-125">对 ER 格式重新应用新 Excel 模板。</span><span class="sxs-lookup"><span data-stu-id="62624-125">Reapply a new Excel template to ER format</span></span>
+1. <span data-ttu-id="62624-126">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="62624-126">Click Designer.</span></span>
+    * <span data-ttu-id="62624-127">打开所选 ER 格式的草稿版本以进行编辑。</span><span class="sxs-lookup"><span data-stu-id="62624-127">Open the draft version of the selected ER format for editing.</span></span>  
+2. <span data-ttu-id="62624-128">在“操作”窗格上，单击“导入”。</span><span class="sxs-lookup"><span data-stu-id="62624-128">On the Action Pane, click Import.</span></span>
+3. <span data-ttu-id="62624-129">单击“Excel 的更新”。</span><span class="sxs-lookup"><span data-stu-id="62624-129">Click Update from Excel.</span></span>
+    * <span data-ttu-id="62624-130">单击“更新模板”，然后选择文件 SampleVendPaymWsReport2.xlsx。</span><span class="sxs-lookup"><span data-stu-id="62624-130">Click ‘Update template’, and then select the file, SampleVendPaymWsReport2.xlsx.</span></span>  
+    * <span data-ttu-id="62624-131">单击“更新模板”并浏览以获取前面下载的 SampleVendPaymWsReport2.xlsx 文件。</span><span class="sxs-lookup"><span data-stu-id="62624-131">Click Update template and browse to get the downloaded earlier SampleVendPaymWsReport2.xlsx file.</span></span>  
+4. <span data-ttu-id="62624-132">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="62624-132">Click OK.</span></span>
+    * <span data-ttu-id="62624-133">将应用模板 SampleVendPaymWsReport2.xlsx。</span><span class="sxs-lookup"><span data-stu-id="62624-133">The SampleVendPaymWsReport2.xlsx template is applied.</span></span> <span data-ttu-id="62624-134">将把 ER 格式的结构与模板内容同步，并将后者的元素添加到该 ER 格式。</span><span class="sxs-lookup"><span data-stu-id="62624-134">The structure of the ER format is synchronized with the content of the template, whose elements are added to the ER format.</span></span> <span data-ttu-id="62624-135">将从格式定义中删除模板中不包含，但在 ER 格式中存在的所有现有元素。</span><span class="sxs-lookup"><span data-stu-id="62624-135">Any existing elements in the ER format that aren’t included in the template are removed from the format definition.</span></span>  
+5. <span data-ttu-id="62624-136">在树中，选择“Excel”。</span><span class="sxs-lookup"><span data-stu-id="62624-136">In the tree, select 'Excel'.</span></span>
+    * <span data-ttu-id="62624-137">请注意，“模板”字段中现在包含对新模板的引用。</span><span class="sxs-lookup"><span data-stu-id="62624-137">Note that the Template field now contains a reference to the new template.</span></span>   
+6. <span data-ttu-id="62624-138">单击“附加”。</span><span class="sxs-lookup"><span data-stu-id="62624-138">Click Attachments.</span></span>
+7. <span data-ttu-id="62624-139">单击“打开”。</span><span class="sxs-lookup"><span data-stu-id="62624-139">Click Open.</span></span>
+    * <span data-ttu-id="62624-140">单击“打开”以浏览修改后的 Excel 模板的布局。</span><span class="sxs-lookup"><span data-stu-id="62624-140">Click Open to explore the layout of the modified Excel template.</span></span>  
+    * <span data-ttu-id="62624-141">查看模板。</span><span class="sxs-lookup"><span data-stu-id="62624-141">Review the template.</span></span> <span data-ttu-id="62624-142">请注意，其中现在包含付款日期行。</span><span class="sxs-lookup"><span data-stu-id="62624-142">Note that it now contains a line for the payment date.</span></span>   
+8. <span data-ttu-id="62624-143">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="62624-143">Close the page.</span></span>
+9. <span data-ttu-id="62624-144">在树中，展开“Excel”。</span><span class="sxs-lookup"><span data-stu-id="62624-144">In the tree, expand 'Excel'.</span></span>
+10. <span data-ttu-id="62624-145">在树结构中，展开或折叠“Excel\付款方式行”。</span><span class="sxs-lookup"><span data-stu-id="62624-145">In the tree, expand 'Excel\PaymLines'.</span></span>
+11. <span data-ttu-id="62624-146">在树中，选择从“Excel\付款方式行\付款日期”。</span><span class="sxs-lookup"><span data-stu-id="62624-146">In the tree, select 'Excel\PaymLines\PaymDate'.</span></span>
+    * <span data-ttu-id="62624-147">请注意，ER 格式中现在包含多项。</span><span class="sxs-lookup"><span data-stu-id="62624-147">Note that the ER format now contains one more item.</span></span> <span data-ttu-id="62624-148">已向 Excel 添加了单元格 PaymDate。</span><span class="sxs-lookup"><span data-stu-id="62624-148">A cell, PaymDate, has been added to the Excel template.</span></span>  
+12. <span data-ttu-id="62624-149">单击“映射”选项卡。</span><span class="sxs-lookup"><span data-stu-id="62624-149">Click the Mapping tab.</span></span>
+13. <span data-ttu-id="62624-150">在树结构中，展开“模型”。</span><span class="sxs-lookup"><span data-stu-id="62624-150">In the tree, expand 'model'.</span></span>
+14. <span data-ttu-id="62624-151">在树结构中，展开“模型\付款”。</span><span class="sxs-lookup"><span data-stu-id="62624-151">In the tree, expand 'model\Payments'.</span></span>
+15. <span data-ttu-id="62624-152">在树结构中，选择“模型\付款\交易日期”。</span><span class="sxs-lookup"><span data-stu-id="62624-152">In the tree, select 'model\Payments\Transaction date(TransactionDate)'.</span></span>
+16. <span data-ttu-id="62624-153">单击“绑定”。</span><span class="sxs-lookup"><span data-stu-id="62624-153">Click Bind.</span></span>
+    * <span data-ttu-id="62624-154">指定在运行时向新单元格添加哪些数据。</span><span class="sxs-lookup"><span data-stu-id="62624-154">Specify what data is added to the new cell at runtime.</span></span>  
+17. <span data-ttu-id="62624-155">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="62624-155">Click Save.</span></span>
+18. <span data-ttu-id="62624-156">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="62624-156">Close the page.</span></span>
 
-## <a name="enable-the-modified-draft-version-of-the-er-format-for-use-in-payment-journal-processing"></a>启用修改后的 ER 格式草稿版本，以便在付款日记帐处理中使用。
-1. 在操作窗格上，单击“配置”。
-2. 单击“用户参数”。
-3. 在“运行设置”字段中选择“是”。
-4. 单击“确定”。
-5. 单击“编辑”。
-6. 在“运行草稿”字段中选择“是”。
+## <a name="enable-the-modified-draft-version-of-the-er-format-for-use-in-payment-journal-processing"></a><span data-ttu-id="62624-157">启用修改后的 ER 格式草稿版本，以便在付款日记帐处理中使用。</span><span class="sxs-lookup"><span data-stu-id="62624-157">Enable the modified draft version of the ER format for use in payment journal processing</span></span>
+1. <span data-ttu-id="62624-158">在操作窗格上，单击“配置”。</span><span class="sxs-lookup"><span data-stu-id="62624-158">On the Action Pane, click Configurations.</span></span>
+2. <span data-ttu-id="62624-159">单击“用户参数”。</span><span class="sxs-lookup"><span data-stu-id="62624-159">Click User parameters.</span></span>
+3. <span data-ttu-id="62624-160">在“运行设置”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="62624-160">Select Yes in the Run settings field.</span></span>
+4. <span data-ttu-id="62624-161">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="62624-161">Click OK.</span></span>
+5. <span data-ttu-id="62624-162">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="62624-162">Click Edit.</span></span>
+6. <span data-ttu-id="62624-163">在“运行草稿”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="62624-163">Select Yes in the Run Draft field.</span></span>
 
-## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a>将修改后的 ER 格式草稿版本用于付款日记帐处理。
-    * 查看创建的工作表，包括付款日期这一付款行的新详细信息。  
+## <a name="use-the-modified-draft-version-of-the-er-format-for-payment-journal-processing"></a><span data-ttu-id="62624-164">将修改后的 ER 格式草稿版本用于付款日记帐处理。</span><span class="sxs-lookup"><span data-stu-id="62624-164">Use the modified draft version of the ER format for payment journal processing</span></span>
+    * <span data-ttu-id="62624-165">查看创建的工作表，包括付款日期这一付款行的新详细信息。</span><span class="sxs-lookup"><span data-stu-id="62624-165">Review the created worksheet, including new detail of payment lines – payment date.</span></span>  
 
 

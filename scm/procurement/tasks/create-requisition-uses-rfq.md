@@ -16,91 +16,91 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 14eed7982041b7af7dad5453b10f07f063ba1855
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: d97ccd15031b2f7398486eee4a716ecef5e9dafd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-requisition-that-uses-an-rfq"></a>创建使用询价的申请
+# <a name="create-a-requisition-that-uses-an-rfq"></a><span data-ttu-id="b17c5-103">创建使用询价的申请</span><span class="sxs-lookup"><span data-stu-id="b17c5-103">Create a requisition that uses an RFQ</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-此指南演示如何将价格和供应商信息添加到询价流程的采购申请。 可以在 USMF 演示数据公司中使用此指南中显示的示例，并且必须以 Admin 身份登录才能完成所有任务。 此指南中的任务通常由采购专业人员完成。
+<span data-ttu-id="b17c5-104">此指南演示如何将价格和供应商信息添加到询价流程的采购申请。</span><span class="sxs-lookup"><span data-stu-id="b17c5-104">This guide shows how to add price and vendor information to a purchase requisition from an RFQ process.</span></span> <span data-ttu-id="b17c5-105">可以在 USMF 演示数据公司中使用此指南中显示的示例，并且必须以 Admin 身份登录才能完成所有任务。</span><span class="sxs-lookup"><span data-stu-id="b17c5-105">The example shown in this guide can be used in the USMF demo data company, and you must be logged in as an Admin to complete all the steps.</span></span> <span data-ttu-id="b17c5-106">此指南中的任务通常由采购专业人员完成。</span><span class="sxs-lookup"><span data-stu-id="b17c5-106">The tasks in this guide would typically be done by procurement professionals.</span></span>
 
 
-## <a name="create-a-requisition"></a>创建申请
-1. 转到“采购”>“采购申请”>“由我起草的采购申请”。
-2. 单击“新建”。
-3. 在“名称”字段中，键入一个值。
-4. 在“请求日期”字段中，输入一个日期。
-5. 在“会计结算日期”字段中，输入一个日期。
-6. 单击“确定”。
-7. 在“原因”字段中，输入或选择一个值。
-8. 单击“添加行”。
-9. 在“采购类别”字段中，选择树中的类别，然后单击“确定”。
-10. 在“产品名称”字段中，键入一个值。
-11. 在“数量”字段中，输入一个数字。
-12. 在“单位”字段中，输入或选择一个值。
-13. 单击“保存”。
-14. 单击“工作流程”以打开下拉对话框。
-15. 单击“提交”。
-16. 关闭该页面。
-17. 单击“提交”。
+## <a name="create-a-requisition"></a><span data-ttu-id="b17c5-107">创建申请</span><span class="sxs-lookup"><span data-stu-id="b17c5-107">Create a requisition</span></span>
+1. <span data-ttu-id="b17c5-108">转到“采购”>“采购申请”>“由我起草的采购申请”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-108">Go to Procurement and sourcing > Purchase requisitions > Purchase requisitions prepared by me.</span></span>
+2. <span data-ttu-id="b17c5-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-109">Click New.</span></span>
+3. <span data-ttu-id="b17c5-110">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="b17c5-110">In the Name field, type a value.</span></span>
+4. <span data-ttu-id="b17c5-111">在“请求日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="b17c5-111">In the Requested date field, enter a date.</span></span>
+5. <span data-ttu-id="b17c5-112">在“会计结算日期”字段中，输入一个日期。</span><span class="sxs-lookup"><span data-stu-id="b17c5-112">In the Accounting date field, enter a date.</span></span>
+6. <span data-ttu-id="b17c5-113">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-113">Click OK.</span></span>
+7. <span data-ttu-id="b17c5-114">在“原因”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="b17c5-114">In the Reason field, enter or select a value.</span></span>
+8. <span data-ttu-id="b17c5-115">单击“添加行”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-115">Click Add line.</span></span>
+9. <span data-ttu-id="b17c5-116">在“采购类别”字段中，选择树中的类别，然后单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-116">In the Procurement category field, select a category in the tree, and then click OK.</span></span>
+10. <span data-ttu-id="b17c5-117">在“产品名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="b17c5-117">In the Product name field, type a value.</span></span>
+11. <span data-ttu-id="b17c5-118">在“数量”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="b17c5-118">In the Quantity field, enter a number.</span></span>
+12. <span data-ttu-id="b17c5-119">在“单位”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="b17c5-119">In the Unit field, enter or select a value.</span></span>
+13. <span data-ttu-id="b17c5-120">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-120">Click Save.</span></span>
+14. <span data-ttu-id="b17c5-121">单击“工作流程”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="b17c5-121">Click Workflow to open the drop dialog.</span></span>
+15. <span data-ttu-id="b17c5-122">单击“提交”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-122">Click Submit.</span></span>
+16. <span data-ttu-id="b17c5-123">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b17c5-123">Close the page.</span></span>
+17. <span data-ttu-id="b17c5-124">单击“提交”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-124">Click Submit.</span></span>
 
-## <a name="reassign-a-workflow-task"></a>为工作流重新分配任务
-    * 下一项任务是创建询价以获取供应商对产品的出价。 在 USMF 演示数据中，为申请工作流设置了规则，以便在未选择供应商或某行的单价为 0 时，为特定工作人员分配任务以创建询价。 要继续完成此指南，需要将该任务重新分配给其他用户（您自己）。 仅当您以 Admin 身份登录时，才能执行此操作。  
-1. 单击“工作流程”以打开下拉对话框。
-2. 单击“查看历史记录”。
-3. 刷新该页面。
-4. 展开“跟踪详细信息”部分。
-5. 在树中，请选择以“行工作流启用于”开始的行。
-6. 单击“查看工作流详细信息”。
-7. 展开“工作项”部分。
-8. 单击“重新分配”。
-9. 在“用户”字段中，选择“Admin”。
-10. 单击“重新分配”。
-11. 关闭该页面。
-12. 关闭该页面。
+## <a name="reassign-a-workflow-task"></a><span data-ttu-id="b17c5-125">为工作流重新分配任务</span><span class="sxs-lookup"><span data-stu-id="b17c5-125">Reassign a workflow task</span></span>
+    * <span data-ttu-id="b17c5-126">下一项任务是创建询价以获取供应商对产品的出价。</span><span class="sxs-lookup"><span data-stu-id="b17c5-126">The next task is to create an RFQ to get bids from vendors for the product.</span></span> <span data-ttu-id="b17c5-127">在 USMF 演示数据中，为申请工作流设置了规则，以便在未选择供应商或某行的单价为 0 时，为特定工作人员分配任务以创建询价。</span><span class="sxs-lookup"><span data-stu-id="b17c5-127">In USMF demo data, the requisition workflow is set up with a rule so that if a vendor is not selected, or the unit price is 0 for a line, a task is assigned to a specific worker to create an RFQ.</span></span> <span data-ttu-id="b17c5-128">要继续完成此指南，需要将该任务重新分配给其他用户（您自己）。</span><span class="sxs-lookup"><span data-stu-id="b17c5-128">To continue with this guide, you need to re-assign that task to another user (yourself).</span></span> <span data-ttu-id="b17c5-129">仅当您以 Admin 身份登录时，才能执行此操作。</span><span class="sxs-lookup"><span data-stu-id="b17c5-129">You can only do this if you are logged in as an Admin.</span></span>  
+1. <span data-ttu-id="b17c5-130">单击“工作流程”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="b17c5-130">Click Workflow to open the drop dialog.</span></span>
+2. <span data-ttu-id="b17c5-131">单击“查看历史记录”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-131">Click View history.</span></span>
+3. <span data-ttu-id="b17c5-132">刷新该页面。</span><span class="sxs-lookup"><span data-stu-id="b17c5-132">Refresh the page.</span></span>
+4. <span data-ttu-id="b17c5-133">展开“跟踪详细信息”部分。</span><span class="sxs-lookup"><span data-stu-id="b17c5-133">Expand the Tracking details section.</span></span>
+5. <span data-ttu-id="b17c5-134">在树中，请选择以“行工作流启用于”开始的行。</span><span class="sxs-lookup"><span data-stu-id="b17c5-134">In the tree, select 'the line that starts with “Line workflow activated on”'.</span></span>
+6. <span data-ttu-id="b17c5-135">单击“查看工作流详细信息”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-135">Click View workflow details.</span></span>
+7. <span data-ttu-id="b17c5-136">展开“工作项”部分。</span><span class="sxs-lookup"><span data-stu-id="b17c5-136">Expand the Work items section.</span></span>
+8. <span data-ttu-id="b17c5-137">单击“重新分配”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-137">Click Reassign.</span></span>
+9. <span data-ttu-id="b17c5-138">在“用户”字段中，选择“Admin”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-138">In the User field, select Admin.</span></span>
+10. <span data-ttu-id="b17c5-139">单击“重新分配”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-139">Click Reassign.</span></span>
+11. <span data-ttu-id="b17c5-140">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b17c5-140">Close the page.</span></span>
+12. <span data-ttu-id="b17c5-141">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b17c5-141">Close the page.</span></span>
 
-## <a name="create-an-rfq"></a>创建询价
-1. 刷新该页面。
-2. 单击“询价”。
-3. 在“购买法人”字段中，选择 USMF。
-    * 必须选择位于申请行中的同一个法人。  
-4. 在列表中，标记所选的行。
-    * 如果采购申请中有多行，请选择要添加到询价的所有行。  
-5. 单击“确定”。
-6. 刷新该页面。
-7. 打开速见表，然后展开“相关单据”部分。
-    * 您可能已经打开了该速见表。 在“行/标题”切换按钮右侧找到带箭头的图标。 如果箭头指向右侧，说明速见表已打开。 如果箭头指向左侧，请单击该箭头打开速见表。  
-8. 单击“询价”字段中的链接打开刚才创建的询价。
-9. 单击“单头”。
-10. 单击“添加”。
-11. 在“供应商帐户”字段中，输入或选择一个值。
-12. 单击“添加”。
-13. 在“供应商帐户”字段中，输入或选择一个值。
-14. 单击“发送”。
-15. 单击“确定”。
-16. 单击“输入回复”。
-17. 在“操作”窗格上，单击“回复”。
-18. 单击“将数据复制到回复”。
-    * 这将把数量和日期之类数据从询价复制到回复。  
-19. 在“单位价格”字段中，输入一个数字。
-    * 这是您从供应商处收到的价格。 您可能还希望输入供应商提供的其他信息。  
-20. 单击“接受”。
-21. 单击“确定”。
+## <a name="create-an-rfq"></a><span data-ttu-id="b17c5-142">创建询价</span><span class="sxs-lookup"><span data-stu-id="b17c5-142">Create an RFQ</span></span>
+1. <span data-ttu-id="b17c5-143">刷新该页面。</span><span class="sxs-lookup"><span data-stu-id="b17c5-143">Refresh the page.</span></span>
+2. <span data-ttu-id="b17c5-144">单击“询价”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-144">Click Request for quotation.</span></span>
+3. <span data-ttu-id="b17c5-145">在“购买法人”字段中，选择 USMF。</span><span class="sxs-lookup"><span data-stu-id="b17c5-145">In the Buying legal entity field, select USMF.</span></span>
+    * <span data-ttu-id="b17c5-146">必须选择位于申请行中的同一个法人。</span><span class="sxs-lookup"><span data-stu-id="b17c5-146">You must select the same legal entity that’s on the requisition line.</span></span>  
+4. <span data-ttu-id="b17c5-147">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="b17c5-147">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="b17c5-148">如果采购申请中有多行，请选择要添加到询价的所有行。</span><span class="sxs-lookup"><span data-stu-id="b17c5-148">If you had multiple lines on your purchase requisition, select all the lines that you want to add to the RFQ.</span></span>  
+5. <span data-ttu-id="b17c5-149">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-149">Click OK.</span></span>
+6. <span data-ttu-id="b17c5-150">刷新该页面。</span><span class="sxs-lookup"><span data-stu-id="b17c5-150">Refresh the page.</span></span>
+7. <span data-ttu-id="b17c5-151">打开速见表，然后展开“相关单据”部分。</span><span class="sxs-lookup"><span data-stu-id="b17c5-151">Open the FactBox and then expand the Related documents section.</span></span>
+    * <span data-ttu-id="b17c5-152">您可能已经打开了该速见表。</span><span class="sxs-lookup"><span data-stu-id="b17c5-152">You may already have the FactBox open.</span></span> <span data-ttu-id="b17c5-153">在“行/标题”切换按钮右侧找到带箭头的图标。</span><span class="sxs-lookup"><span data-stu-id="b17c5-153">Look for the icon with an arrow on it, to the right of the Lines/Header toggle buttons.</span></span> <span data-ttu-id="b17c5-154">如果箭头指向右侧，说明速见表已打开。</span><span class="sxs-lookup"><span data-stu-id="b17c5-154">If the arrow is pointing to the right, the FactBox is already open.</span></span> <span data-ttu-id="b17c5-155">如果箭头指向左侧，请单击该箭头打开速见表。</span><span class="sxs-lookup"><span data-stu-id="b17c5-155">If the arrow points to the left, click it to open the FactBox.</span></span>  
+8. <span data-ttu-id="b17c5-156">单击“询价”字段中的链接打开刚才创建的询价。</span><span class="sxs-lookup"><span data-stu-id="b17c5-156">Click the link in the Request for quotation field to open the RFQ that was just created.</span></span>
+9. <span data-ttu-id="b17c5-157">单击“单头”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-157">Click Header.</span></span>
+10. <span data-ttu-id="b17c5-158">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-158">Click Add.</span></span>
+11. <span data-ttu-id="b17c5-159">在“供应商帐户”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="b17c5-159">In the Vendor account field, enter or select a value.</span></span>
+12. <span data-ttu-id="b17c5-160">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-160">Click Add.</span></span>
+13. <span data-ttu-id="b17c5-161">在“供应商帐户”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="b17c5-161">In the Vendor account field, enter or select a value.</span></span>
+14. <span data-ttu-id="b17c5-162">单击“发送”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-162">Click Send.</span></span>
+15. <span data-ttu-id="b17c5-163">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-163">Click OK.</span></span>
+16. <span data-ttu-id="b17c5-164">单击“输入回复”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-164">Click Enter reply.</span></span>
+17. <span data-ttu-id="b17c5-165">在“操作”窗格上，单击“回复”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-165">On the Action Pane, click Reply.</span></span>
+18. <span data-ttu-id="b17c5-166">单击“将数据复制到回复”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-166">Click Copy data to reply.</span></span>
+    * <span data-ttu-id="b17c5-167">这将把数量和日期之类数据从询价复制到回复。</span><span class="sxs-lookup"><span data-stu-id="b17c5-167">This copies data, such as the quantity and dates, from the RFQ to the reply .</span></span>  
+19. <span data-ttu-id="b17c5-168">在“单位价格”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="b17c5-168">In the Unit price field, enter a number.</span></span>
+    * <span data-ttu-id="b17c5-169">这是您从供应商处收到的价格。</span><span class="sxs-lookup"><span data-stu-id="b17c5-169">This is the price that you’ve received from the vendor.</span></span> <span data-ttu-id="b17c5-170">您可能还希望输入供应商提供的其他信息。</span><span class="sxs-lookup"><span data-stu-id="b17c5-170">You might also want to enter additional information from the vendor.</span></span>  
+20. <span data-ttu-id="b17c5-171">单击“接受”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-171">Click Accept.</span></span>
+21. <span data-ttu-id="b17c5-172">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-172">Click OK.</span></span>
 
-## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a>验证是否已将供应商和价格转移到申请
-1. 关闭该页面。
-2. 单击“行”。
-3. 单击“相关信息”。
-4. 单击“采购申请”。
-5. 选择已转移到询价的行。
-    * 验证是否已将价格和供应商复制到申请。  
-6. 单击“工作流程”以打开下拉对话框。
-7. 单击“完成”。
-8. 关闭该页面。
-9. 单击“完成”。
+## <a name="verify-that-vendor-and-price-have-been-transferred-to-the-requisition"></a><span data-ttu-id="b17c5-173">验证是否已将供应商和价格转移到申请</span><span class="sxs-lookup"><span data-stu-id="b17c5-173">Verify that vendor and price have been transferred to the requisition</span></span>
+1. <span data-ttu-id="b17c5-174">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b17c5-174">Close the page.</span></span>
+2. <span data-ttu-id="b17c5-175">单击“行”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-175">Click Lines.</span></span>
+3. <span data-ttu-id="b17c5-176">单击“相关信息”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-176">Click Related information.</span></span>
+4. <span data-ttu-id="b17c5-177">单击“采购申请”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-177">Click Purchase requisition.</span></span>
+5. <span data-ttu-id="b17c5-178">选择已转移到询价的行。</span><span class="sxs-lookup"><span data-stu-id="b17c5-178">Select the line that was transferred to the RFQ.</span></span>
+    * <span data-ttu-id="b17c5-179">验证是否已将价格和供应商复制到申请。</span><span class="sxs-lookup"><span data-stu-id="b17c5-179">Verify that the price and vendor have been copied to the requisition.</span></span>  
+6. <span data-ttu-id="b17c5-180">单击“工作流程”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="b17c5-180">Click Workflow to open the drop dialog.</span></span>
+7. <span data-ttu-id="b17c5-181">单击“完成”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-181">Click Complete.</span></span>
+8. <span data-ttu-id="b17c5-182">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b17c5-182">Close the page.</span></span>
+9. <span data-ttu-id="b17c5-183">单击“完成”。</span><span class="sxs-lookup"><span data-stu-id="b17c5-183">Click Complete.</span></span>
 
 

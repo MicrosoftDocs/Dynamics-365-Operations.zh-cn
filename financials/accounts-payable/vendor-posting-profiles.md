@@ -19,39 +19,39 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: c0eb19f128288e97ec21b15e2aaacf44101db282
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 540ad7be384e34054454cdc34c4945ed505b7963
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="vendor-posting-profiles"></a>供应商过帐模板
+# <a name="vendor-posting-profiles"></a><span data-ttu-id="ef658-103">供应商过帐模板</span><span class="sxs-lookup"><span data-stu-id="ef658-103">Vendor posting profiles</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-供应商过帐模板控制将供应商交易记录过帐到总帐。
+<span data-ttu-id="ef658-104">供应商过帐模板控制将供应商交易记录过帐到总帐。</span><span class="sxs-lookup"><span data-stu-id="ef658-104">Vendor posting profiles control the posting of vendor transactions to the general ledger.</span></span>
 
-<a name="vendor-posting-profiles"></a>供应商过帐模板
+<a name="vendor-posting-profiles"></a><span data-ttu-id="ef658-105">供应商过帐模板</span><span class="sxs-lookup"><span data-stu-id="ef658-105">Vendor posting profiles</span></span>
 -----------------------
 
-供应商过帐模板能让您将总帐科目和文档设置分配给所有供应商、一组供应商或单个供应商。 这些设置将在您创建采购订单、供应商发票和现金付款时使用。 对于某些交易记录，您可以选择不同于在此页面中为交易记录设置的模板的其他过帐模板，并且您选择的过帐模板优先。 默认过帐模板是在“应付帐款参数”页上的“分类帐”和“销售税”快速选项卡中定义的。 然后，默认过帐模板自动包括到新文档的标题中，在那里您可以根据需要将其更改为不同的过帐模板。
+<span data-ttu-id="ef658-106">供应商过帐模板能让您将总帐科目和文档设置分配给所有供应商、一组供应商或单个供应商。</span><span class="sxs-lookup"><span data-stu-id="ef658-106">Vendor posting profiles enable you to assign general ledger accounts and document settings to all vendors, a group of vendors or a single vendor.</span></span> <span data-ttu-id="ef658-107">这些设置将在您创建采购订单、供应商发票和现金付款时使用。</span><span class="sxs-lookup"><span data-stu-id="ef658-107">These settings will be used when you create purchase orders, vendor invoices and cash payments.</span></span> <span data-ttu-id="ef658-108">对于某些交易记录，您可以选择不同于在此页面中为交易记录设置的模板的其他过帐模板，并且您选择的过帐模板优先。</span><span class="sxs-lookup"><span data-stu-id="ef658-108">For some transactions, you can select a posting profile that differs from and takes precedence over the posting profiles that are set up for transactions in this page.</span></span> <span data-ttu-id="ef658-109">默认过帐模板是在“应付帐款参数”页上的“分类帐”和“销售税”快速选项卡中定义的。</span><span class="sxs-lookup"><span data-stu-id="ef658-109">The default posting profile is defined in the Ledger and Sales Tax fasttab on the Accounts payable parameters page.</span></span> <span data-ttu-id="ef658-110">然后，默认过帐模板自动包括到新文档的标题中，在那里您可以根据需要将其更改为不同的过帐模板。</span><span class="sxs-lookup"><span data-stu-id="ef658-110">The default posting profile is then included automatically on the header of new documents where you can change it to a different posting profile if needed.</span></span>
 
-您还可以将过帐定义与“交易记录过帐定义”页中的交易记录过帐类型关联。 过帐定义控制到总帐的供应商交易记录过帐，而不是过帐模板。
+<span data-ttu-id="ef658-111">您还可以将过帐定义与“交易记录过帐定义”页中的交易记录过帐类型关联。</span><span class="sxs-lookup"><span data-stu-id="ef658-111">You can also associate posting definitions with transaction posting types in the Transaction posting definitions page.</span></span> <span data-ttu-id="ef658-112">过帐定义控制到总帐的供应商交易记录过帐，而不是过帐模板。</span><span class="sxs-lookup"><span data-stu-id="ef658-112">Posting definitions control the posting of vendor transactions to the general ledger instead of posting profiles.</span></span>
 
-## <a name="creating-a-posting-profile"></a>创建过帐模板
-### <a name="setup"></a>**设置**
+## <a name="creating-a-posting-profile"></a><span data-ttu-id="ef658-113">创建过帐模板</span><span class="sxs-lookup"><span data-stu-id="ef658-113">Creating a posting profile</span></span>
+### <a name="setup"></a><span data-ttu-id="ef658-114">**设置**</span><span class="sxs-lookup"><span data-stu-id="ef658-114">**Setup**</span></span>
 
-指定在使用所选过帐模板对交易记录进行过帐时所使用的会计科目。 为所选的过帐模板选择帐户编码；只要可能，还选择帐户/组编号。 在过帐过程中，定位每个交易记录的最合适过帐模板的方法是搜索针对性最强的帐户编码、帐号或组编号组合，其优先级如下：
+<span data-ttu-id="ef658-115">指定在使用所选过帐模板对交易记录进行过帐时所使用的会计科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-115">Specify the ledger accounts that are used in the posting of transactions that use the selected posting profile.</span></span> <span data-ttu-id="ef658-116">为所选的过帐模板选择帐户编码；只要可能，还选择帐户/组编号。</span><span class="sxs-lookup"><span data-stu-id="ef658-116">Select an account code and, whenever possible, an account or group number for the selected posting profile.</span></span> <span data-ttu-id="ef658-117">在过帐过程中，定位每个交易记录的最合适过帐模板的方法是搜索针对性最强的帐户编码、帐号或组编号组合，其优先级如下：</span><span class="sxs-lookup"><span data-stu-id="ef658-117">In the posting process, the most appropriate posting profile for each transaction is located by searching for the most specific account code, account number, or group and number combination in the following priority:</span></span>
 
-| **“帐户编码”**字段值 | **“帐户/组编号”**字段值        | 搜索优先级 |
+| <span data-ttu-id="ef658-118">**“帐户编码”**字段值</span><span class="sxs-lookup"><span data-stu-id="ef658-118">**Account code** field value</span></span> | <span data-ttu-id="ef658-119">**“帐户/组编号”**字段值</span><span class="sxs-lookup"><span data-stu-id="ef658-119">**Account/Group number** field value</span></span>        | <span data-ttu-id="ef658-120">搜索优先级</span><span class="sxs-lookup"><span data-stu-id="ef658-120">Search priority</span></span> |
 |------------------------------|---------------------------------------------|-----------------|
-| **表**                    | 特定供应商帐户                     | 1               |
-| **组**                    | 分配给供应商的供应商组 | 2               |
-| **全部**                      | 空白                                       | 3               |
+| <span data-ttu-id="ef658-121">**表**</span><span class="sxs-lookup"><span data-stu-id="ef658-121">**Table**</span></span>                    | <span data-ttu-id="ef658-122">特定供应商帐户</span><span class="sxs-lookup"><span data-stu-id="ef658-122">Specific vendor account</span></span>                     | <span data-ttu-id="ef658-123">1</span><span class="sxs-lookup"><span data-stu-id="ef658-123">1</span></span>               |
+| <span data-ttu-id="ef658-124">**组**</span><span class="sxs-lookup"><span data-stu-id="ef658-124">**Group**</span></span>                    | <span data-ttu-id="ef658-125">分配给供应商的供应商组</span><span class="sxs-lookup"><span data-stu-id="ef658-125">vendor group that is assigned to the vendor</span></span> | <span data-ttu-id="ef658-126">2</span><span class="sxs-lookup"><span data-stu-id="ef658-126">2</span></span>               |
+| <span data-ttu-id="ef658-127">**全部**</span><span class="sxs-lookup"><span data-stu-id="ef658-127">**All**</span></span>                      | <span data-ttu-id="ef658-128">空白</span><span class="sxs-lookup"><span data-stu-id="ef658-128">Blank</span></span>                                       | <span data-ttu-id="ef658-129">3</span><span class="sxs-lookup"><span data-stu-id="ef658-129">3</span></span>               |
 
-如果您希望所有供应商交易记录具有相同的过帐模板，请在“帐户编码”字段中使用“全部”，从而仅建立一个过帐模板。 指定以下值设置您的过帐模板：
+<span data-ttu-id="ef658-130">如果您希望所有供应商交易记录具有相同的过帐模板，请在“帐户编码”字段中使用“全部”，从而仅建立一个过帐模板。</span><span class="sxs-lookup"><span data-stu-id="ef658-130">If you want all vendor transactions to have the same posting profile, set up only one posting profile with All in the Account code field.</span></span> <span data-ttu-id="ef658-131">指定以下值设置您的过帐模板：</span><span class="sxs-lookup"><span data-stu-id="ef658-131">Specify the following values to set up your posting profile:</span></span>
 
 <table>
 <colgroup>
@@ -60,95 +60,95 @@ ms.lasthandoff: 07/27/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>字段</th>
-<th>描述</th>
+<th><span data-ttu-id="ef658-132">字段</span><span class="sxs-lookup"><span data-stu-id="ef658-132">Field</span></span></th>
+<th><span data-ttu-id="ef658-133">描述</span><span class="sxs-lookup"><span data-stu-id="ef658-133">Description</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><strong>过帐模板</strong></td>
-<td>输入过帐模板的代码。 例如，您可以创建两个过帐模板以便用本国币种获取供应商余额的一个科目，用外币获取供应商余额的另一个科目。 您可以对本国币种调用一个科目，对外币调用另一个科目。</td>
+<td><span data-ttu-id="ef658-134"><strong>过帐模板</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-134"><strong>Posting profile</strong></span></span></td>
+<td><span data-ttu-id="ef658-135">输入过帐模板的代码。</span><span class="sxs-lookup"><span data-stu-id="ef658-135">Enter a code for the posting profile.</span></span> <span data-ttu-id="ef658-136">例如，您可以创建两个过帐模板以便用本国币种获取供应商余额的一个科目，用外币获取供应商余额的另一个科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-136">For example, you could create two posting profiles to obtain one account for vendor balances in the national currency and another for vendor balances in a foreign currency.</span></span> <span data-ttu-id="ef658-137">您可以对本国币种调用一个科目，对外币调用另一个科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-137">You could call one account National and the other Foreign.</span></span></td>
 </tr>
 <tr class="even">
-<td><strong>描述</strong></td>
-<td>输入过帐模板的描述。</td>
+<td><span data-ttu-id="ef658-138"><strong>描述</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-138"><strong>Description</strong></span></span></td>
+<td><span data-ttu-id="ef658-139">输入过帐模板的描述。</span><span class="sxs-lookup"><span data-stu-id="ef658-139">Enter a description of the posting profile.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>帐户编码</strong></td>
-<td>指定过帐模板是应用于特定供应商、一组供应商还是所有供应商：
+<td><span data-ttu-id="ef658-140"><strong>帐户编码</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-140"><strong>Account code</strong></span></span></td>
+<td><span data-ttu-id="ef658-141">指定过帐模板是应用于特定供应商、一组供应商还是所有供应商：</span><span class="sxs-lookup"><span data-stu-id="ef658-141">Specify whether the posting profile applies to a specific vendor, a group of vendors, or all vendors:</span></span>
 <ul>
-<li><strong>表</strong> – 过帐模板应用于单个供应商。 在“帐户/组编号”字段中选择供应商帐户。</li>
-<li><strong>组</strong> – 过帐模板应用于供应商组。 在“帐户/组编号”字段中选择供应商组。</li>
-<li><strong>全部</strong> – 过帐模板应用于所有供应商。 将“帐户/组编号”字段留空。</li>
+<li><span data-ttu-id="ef658-142"><strong>表</strong> – 过帐模板应用于单个供应商。</span><span class="sxs-lookup"><span data-stu-id="ef658-142"><strong>Table</strong> – The posting profile applies to a single vendor.</span></span> <span data-ttu-id="ef658-143">在“帐户/组编号”字段中选择供应商帐户。</span><span class="sxs-lookup"><span data-stu-id="ef658-143">Select the vendor account in the Account/Group number field.</span></span></li>
+<li><span data-ttu-id="ef658-144"><strong>组</strong> – 过帐模板应用于供应商组。</span><span class="sxs-lookup"><span data-stu-id="ef658-144"><strong>Group</strong> – The posting profile applies to a vendor group.</span></span> <span data-ttu-id="ef658-145">在“帐户/组编号”字段中选择供应商组。</span><span class="sxs-lookup"><span data-stu-id="ef658-145">Select the vendor group in the Account/Group number field.</span></span></li>
+<li><span data-ttu-id="ef658-146"><strong>全部</strong> – 过帐模板应用于所有供应商。</span><span class="sxs-lookup"><span data-stu-id="ef658-146"><strong>All</strong> – The posting profile applies to all vendors.</span></span> <span data-ttu-id="ef658-147">将“帐户/组编号”字段留空。</span><span class="sxs-lookup"><span data-stu-id="ef658-147">Leave the Account/Group number field blank.</span></span></li>
 </ul></td>
 </tr>
 <tr class="even">
-<td><strong>帐户/组编号</strong></td>
-<td>如果在“帐户编码”字段中选择了“表”，请选择与该过帐模板相关的供应商的帐号。 如果选择“组”，则选择一个供应商组。 如果选择“全部”，则将此字段保留为空。</td>
+<td><span data-ttu-id="ef658-148"><strong>帐户/组编号</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-148"><strong>Account/Group number</strong></span></span></td>
+<td><span data-ttu-id="ef658-149">如果在“帐户编码”字段中选择了“表”，请选择与该过帐模板相关的供应商的帐号。</span><span class="sxs-lookup"><span data-stu-id="ef658-149">If Table is selected in the Account code field, select the account number of the vendor that is associated with the posting profile.</span></span> <span data-ttu-id="ef658-150">如果选择“组”，则选择一个供应商组。</span><span class="sxs-lookup"><span data-stu-id="ef658-150">If Group is selected, select a vendor group.</span></span> <span data-ttu-id="ef658-151">如果选择“全部”，则将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="ef658-151">If All is selected, leave this field blank.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>汇总科目</strong></td>
-<td>选择将用作该过帐模板所关联到的供应商的汇总科目的会计科目。
+<td><span data-ttu-id="ef658-152"><strong>汇总科目</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-152"><strong>Summary account</strong></span></span></td>
+<td><span data-ttu-id="ef658-153">选择将用作该过帐模板所关联到的供应商的汇总科目的会计科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-153">Select the ledger account that will be used as the summary account for the vendors that the posting profile relates to.</span></span>
 <div class="alert">
 <table>
 <thead>
 <tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="注意" alt="Note" id="alert_note" class="cl_IC101471" /><strong>注释</strong></th>
+<th><span data-ttu-id="ef658-154"><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="注意</span><span class="sxs-lookup"><span data-stu-id="ef658-154"><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Note</span></span>" alt="Note" id="alert_note" class="cl_IC101471" /><span data-ttu-id="ef658-155"><strong>注释</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-155"><strong>Note</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>如果“使用过帐定义”开关在“总帐参数”页中处于选定状态，则会使用供应商发票的交易记录过帐定义，而不是汇总科目。</td>
+<td><span data-ttu-id="ef658-156">如果“使用过帐定义”开关在“总帐参数”页中处于选定状态，则会使用供应商发票的交易记录过帐定义，而不是汇总科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-156">If the Use posting definitions toggle is selected in the General ledger parameters page, the transaction posting definition for vendor invoices is used instead of the summary account.</span></span></td>
 </tr>
 </tbody>
 </table>
 </div></td>
 </tr>
 <tr class="even">
-<td><strong>结算科目</strong></td>
-<td>选择用于现金流量预测的流动性会计科目。 只有启用现金流量预测时，此字段才可用。</td>
+<td><span data-ttu-id="ef658-157"><strong>结算科目</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-157"><strong>Settle account</strong></span></span></td>
+<td><span data-ttu-id="ef658-158">选择用于现金流量预测的流动性会计科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-158">Select the liquidity ledger account that is used for cash flow forecasts.</span></span> <span data-ttu-id="ef658-159">只有启用现金流量预测时，此字段才可用。</span><span class="sxs-lookup"><span data-stu-id="ef658-159">This fields is only available when cash flow forecasting is enabled.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>销售税预付款</strong></td>
-<td>选择预付款的销售税帐户。
+<td><span data-ttu-id="ef658-160"><strong>销售税预付款</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-160"><strong>Sales tax prepayments</strong></span></span></td>
+<td><span data-ttu-id="ef658-161">选择预付款的销售税帐户。</span><span class="sxs-lookup"><span data-stu-id="ef658-161">Select the account for sales tax payments that are received in advance.</span></span>
 <div class="alert">
 <table>
 <thead>
 <tr class="header">
-<th><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="注意" alt="Note" id="alert_note" class="cl_IC101471" /><strong>注释</strong></th>
+<th><span data-ttu-id="ef658-162"><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="注意</span><span class="sxs-lookup"><span data-stu-id="ef658-162"><img src="https://i-technet.sec.s-msft.com/areas/global/content/clear.gif" title="Note</span></span>" alt="Note" id="alert_note" class="cl_IC101471" /><span data-ttu-id="ef658-163"><strong>注释</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-163"><strong>Note</strong></span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td>在付款标记为预付款时使用的过帐模板在“应付帐款参数”页的“分类帐和销售税”区域中的“具有预付款日记帐凭证的过帐模板”字段中处于选定状态。</td>
+<td><span data-ttu-id="ef658-164">在付款标记为预付款时使用的过帐模板在“应付帐款参数”页的“分类帐和销售税”区域中的“具有预付款日记帐凭证的过帐模板”字段中处于选定状态。</span><span class="sxs-lookup"><span data-stu-id="ef658-164">The posting profile that is used when the payment is marked as a prepayment is selected in the Posting profile with prepayment journal voucher field in the Ledger and sales tax area of the Accounts payable parameters page.</span></span></td>
 </tr>
 </tbody>
 </table>
 </div></td>
 </tr>
 <tr class="even">
-<td><strong>到达</strong></td>
-<td>选择有关未审核的供应商发票信息过帐到的会计科目编号。 在发票登记簿日记帐中输入此信息。 例如，在发票登记簿中接收供应商发票时，用户输入与发票有关的最基本信息。 在过帐发票登记簿时，交易记录被过帐到在此处输入的科目以及“对方科目”字段中的科目。 在审核发票时，债务将从“到达”科目转移到供应商汇总科目。</td>
+<td><span data-ttu-id="ef658-165"><strong>到达</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-165"><strong>Arrival</strong></span></span></td>
+<td><span data-ttu-id="ef658-166">选择有关未审核的供应商发票信息过帐到的会计科目编号。</span><span class="sxs-lookup"><span data-stu-id="ef658-166">Select the ledger account that information about unapproved vendor invoices is posted to.</span></span> <span data-ttu-id="ef658-167">在发票登记簿日记帐中输入此信息。</span><span class="sxs-lookup"><span data-stu-id="ef658-167">The information is entered in the Invoice register journal.</span></span> <span data-ttu-id="ef658-168">例如，在发票登记簿中接收供应商发票时，用户输入与发票有关的最基本信息。</span><span class="sxs-lookup"><span data-stu-id="ef658-168">For example, a user enters very basic information about vendor invoices when they are received in the invoice register.</span></span> <span data-ttu-id="ef658-169">在过帐发票登记簿时，交易记录被过帐到在此处输入的科目以及“对方科目”字段中的科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-169">When the invoice register is posted, the transactions are posted to the account that is entered here and in the Offset account field.</span></span> <span data-ttu-id="ef658-170">在审核发票时，债务将从“到达”科目转移到供应商汇总科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-170">When the invoices are approved, the debt is transferred from the Arrival account to the vendor summary account.</span></span></td>
 </tr>
 <tr class="odd">
-<td><strong>对方科目</strong></td>
-<td>选择用于抵消通过发票登记簿更新的未核准供应商发票的会计科目。 对方科目充当过帐到到达科目的交易记录的对方科目。 因此，该科目包含还未审核的供应商采购。</td>
+<td><span data-ttu-id="ef658-171"><strong>对方科目</strong></span><span class="sxs-lookup"><span data-stu-id="ef658-171"><strong>Offset account</strong></span></span></td>
+<td><span data-ttu-id="ef658-172">选择用于抵消通过发票登记簿更新的未核准供应商发票的会计科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-172">Select the ledger account that is used for offsetting unapproved vendor invoices that are updated by using the invoice register.</span></span> <span data-ttu-id="ef658-173">对方科目充当过帐到到达科目的交易记录的对方科目。</span><span class="sxs-lookup"><span data-stu-id="ef658-173">The offset account acts as the offset account for transactions that are posted to arrival accounts.</span></span> <span data-ttu-id="ef658-174">因此，该科目包含还未审核的供应商采购。</span><span class="sxs-lookup"><span data-stu-id="ef658-174">Therefore, the account contains vendor purchases that have not yet been approved.</span></span></td>
 </tr>
 </tbody>
 </table>
  
 
-### <a name="table-restrictions"></a>**表限制**
+### <a name="table-restrictions"></a><span data-ttu-id="ef658-175">**表限制**</span><span class="sxs-lookup"><span data-stu-id="ef658-175">**Table restrictions**</span></span>
 
-对于具有所选过帐模板的交易记录，指定交易记录是否将自动结算、是否计算利息、是否签发催款单。 您还可以选择对具有所选过帐模板的交易记录进行结算时所使用的帐户。
+<span data-ttu-id="ef658-176">对于具有所选过帐模板的交易记录，指定交易记录是否将自动结算、是否计算利息、是否签发催款单。</span><span class="sxs-lookup"><span data-stu-id="ef658-176">For transactions that have the selected posting profile, specify whether transactions will be settled automatically, interest will be calculated, and collection letters will be issued.</span></span> <span data-ttu-id="ef658-177">您还可以选择对具有所选过帐模板的交易记录进行结算时所使用的帐户。</span><span class="sxs-lookup"><span data-stu-id="ef658-177">You can also select the account that is used when transactions that have the selected posting profile are closed.</span></span>
 
-指定以下值设置您的过帐模板：
+<span data-ttu-id="ef658-178">指定以下值设置您的过帐模板：</span><span class="sxs-lookup"><span data-stu-id="ef658-178">Specify the following values to set up your posting profile:</span></span>
 
-| 字段          | 描述                                                                                                                                                                                                    |
+| <span data-ttu-id="ef658-179">字段</span><span class="sxs-lookup"><span data-stu-id="ef658-179">Field</span></span>          | <span data-ttu-id="ef658-180">描述</span><span class="sxs-lookup"><span data-stu-id="ef658-180">Description</span></span>                                                                                                                                                                                                    |
 |----------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **结算** | 选择此选项可启用具有此过帐模板的交易记录的自动结算。 如果清除此选项，您必须通过使用“结算未结交易记录”页来手动结算交易记录。 |
-| **取消**     | 如果您希望能够取消具有此过帐模板的交易记录，请选择此选项。                                                                                                               |
-| **关闭**      | 选择在您关闭具有此过帐模板的交易记录时希望更改为的过帐模板。 在完全结算某一交易记录后，该交易记录被视为已关闭。                                       |
+| <span data-ttu-id="ef658-181">**结算**</span><span class="sxs-lookup"><span data-stu-id="ef658-181">**Settlement**</span></span> | <span data-ttu-id="ef658-182">选择此选项可启用具有此过帐模板的交易记录的自动结算。</span><span class="sxs-lookup"><span data-stu-id="ef658-182">Select this option to enable automatic settlement of transactions that have this posting profile.</span></span> <span data-ttu-id="ef658-183">如果清除此选项，您必须通过使用“结算未结交易记录”页来手动结算交易记录。</span><span class="sxs-lookup"><span data-stu-id="ef658-183">If this option is cleared, you must manually settle transactions by using the Settle open transactions page.</span></span> |
+| <span data-ttu-id="ef658-184">**取消**</span><span class="sxs-lookup"><span data-stu-id="ef658-184">**Cancel**</span></span>     | <span data-ttu-id="ef658-185">如果您希望能够取消具有此过帐模板的交易记录，请选择此选项。</span><span class="sxs-lookup"><span data-stu-id="ef658-185">Select this option if you want to be able to cancel transactions that have this posting profile.</span></span>                                                                                                               |
+| <span data-ttu-id="ef658-186">**关闭**</span><span class="sxs-lookup"><span data-stu-id="ef658-186">**Close**</span></span>      | <span data-ttu-id="ef658-187">选择在您关闭具有此过帐模板的交易记录时希望更改为的过帐模板。</span><span class="sxs-lookup"><span data-stu-id="ef658-187">Select a posting profile to change to when transactions that have this posting profile are closed.</span></span> <span data-ttu-id="ef658-188">在完全结算某一交易记录后，该交易记录被视为已关闭。</span><span class="sxs-lookup"><span data-stu-id="ef658-188">A transaction is regarded as closed when it has been settled in full.</span></span>                                       |
 
 
 

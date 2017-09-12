@@ -16,65 +16,65 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 44b7c02e7c238dcea83c5900620731a7befbbb42
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="vendor-payment-overview"></a>供应商付款概览
+# <a name="vendor-payment-overview"></a><span data-ttu-id="41385-103">供应商付款概览</span><span class="sxs-lookup"><span data-stu-id="41385-103">Vendor payment overview</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。 该程序适用于 USMF 演示公司。
+<span data-ttu-id="41385-104">此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。</span><span class="sxs-lookup"><span data-stu-id="41385-104">This task guide will walk you through various methods used to create vendor payments, including how to use a payment proposal or manually entering a one-off payment.</span></span> <span data-ttu-id="41385-105">该程序适用于 USMF 演示公司。</span><span class="sxs-lookup"><span data-stu-id="41385-105">This procedure uses the USMF demo company.</span></span>
 
-1. 转至“应付帐款”>“付款”>“付款日记帐”。
-2. 单击“新建”。
-3. 选择保存供应商付款的付款日记帐。 
-4. 选择日记帐或手动输入日记帐。
-5. 单击“行”。
-6. 单击“付款方案”。
-7. 单击”创建付款方案“。
-    * 付款方案是用于选择付款发票的查询项。 您可以在创建或生成供应商付款发票前编辑发票列表。  
-8. 依据到期日期、现金折扣或两者选择付款发票。 
-9. 输入对比到期日期或现金折扣的日期。 
-10. 可选：输入用于所有付款的付款日期。
-    * 在此处输入的日期将是创建的所有付款的付款日期，无论到期日期或现金折扣日期是哪一天。  
-11. 可选：输入可用作付款日期的最早付款日期。
-    * 在创建付款时，最早付款日期将是使用的最早日期。 例如，如果发票的到期日期在最早付款日期之后，付款日期将会是到期日期（而不是最早付款日期），以在可能的最晚日期支付发票。  
-12. 在“添加记录”项下输入其他查询限制。
-    * 筛选器通常用于限制由供应商组为付款选择的发票或付款方式。 例如，您可以添加在此付薪周期用支票支付发票的筛选器。  
-13. 输入其他查询限制或付款默认值。 
-    * 附加参数可以用于定义付款货币或启用此付薪期间的集中付款。  
-14. 单击“确定”。
-    * 在单击“确定”后，将显示该查询的结果。 如果您不想预览选中供付款的发票列表，可返回到“参数”快速选项卡，并将设置更改为“创建无发票预览付款 = 是”。  
-15. 选择“显示付款概览”按钮以查看为所选发票的供应商创建的付款。
-16. 选择“隐藏付款概览”按钮以隐藏付款。 
-17. 单击”创建付款“。
-    * 在选择“创建付款”前，您可以右键单击网格，然后导出发票列表到 Excel 中。 单击“创建付款”按钮后将在付款日记帐中创建供应商付款。  
-18. 浏览您的付款并确保已定义所有付款的付款方式。 
-    * 如果您生成付款单据，例如打印支票或创建电子付款单据，则必须定义付款方式。 付款方式还将默认来自付款的银行帐户。  
-19. 单击“新建”创建一次性付款。
-    * 一次性付款可以在过帐前的任何时间添加到付款日记帐中。 单击“新建”按钮手动添加付款信息，而非使用付款方案来完成。  
-20. 选择接受付款的供应商。
-21. 如果存在供付款的发票，选择“结算交易”以选择付款的发票。
-    * 如果这是预付款，此步骤是可选项。 您可以创建未选择任何发票的付款。  
-22. 标记要支付的所有发票。
-    * 如果您使用“结算交易”来选择付款发票，付款金额将根据您标记为付款的发票以及您在“结算金额”中输入的金额自动计算。  
-23. 单击“确定”。
-24. 如果您要删除付款，则标记行。
-25. 单击“删除”。
-    * 删除一项付款将只删除该付款。 任何标记为付款的发票将仍可由另一付款进行支付。  
-26. 单击“是”。
-27. 选择“生成付款”以打印支票或创建电子付款文件。
-28. 选择要生成的付款类型。
-    * 付款日记帐可包含支票付款和电子付款，但您一次仅可生成一个付款类型。  
-29. 选择生成付款的银行帐户。
-30. 单击“确定”。
-    * 将只生成与付款方式和您选择的银行帐户匹配的付款。  
-31. 如果要生成支票，请选择文件以确保支票的打印目标正确。
-32. 单击“确定”。
-33. 单击“确定”以生成付款。
-34. 如果所有付款已获得审批和生成，单击“过帐”。 
+1. <span data-ttu-id="41385-106">转至“应付帐款”>“付款”>“付款日记帐”。</span><span class="sxs-lookup"><span data-stu-id="41385-106">Go to Accounts payable > Payments > Payment journal.</span></span>
+2. <span data-ttu-id="41385-107">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="41385-107">Click New.</span></span>
+3. <span data-ttu-id="41385-108">选择保存供应商付款的付款日记帐。</span><span class="sxs-lookup"><span data-stu-id="41385-108">Select the payment journal in which to save the vendor payments.</span></span> 
+4. <span data-ttu-id="41385-109">选择日记帐或手动输入日记帐。</span><span class="sxs-lookup"><span data-stu-id="41385-109">Select the journal or manually enter it.</span></span>
+5. <span data-ttu-id="41385-110">单击“行”。</span><span class="sxs-lookup"><span data-stu-id="41385-110">Click Lines.</span></span>
+6. <span data-ttu-id="41385-111">单击“付款方案”。</span><span class="sxs-lookup"><span data-stu-id="41385-111">Click Payment proposal.</span></span>
+7. <span data-ttu-id="41385-112">单击”创建付款方案“。</span><span class="sxs-lookup"><span data-stu-id="41385-112">Click Create payment proposal.</span></span>
+    * <span data-ttu-id="41385-113">付款方案是用于选择付款发票的查询项。</span><span class="sxs-lookup"><span data-stu-id="41385-113">The payment proposal is a query used to select invoices for payment.</span></span> <span data-ttu-id="41385-114">您可以在创建或生成供应商付款发票前编辑发票列表。</span><span class="sxs-lookup"><span data-stu-id="41385-114">You can edit the list of invoices to pay before creating or generating the vendor payments.</span></span>  
+8. <span data-ttu-id="41385-115">依据到期日期、现金折扣或两者选择付款发票。</span><span class="sxs-lookup"><span data-stu-id="41385-115">Select invoices for payment by due date, cash discount, or both.</span></span> 
+9. <span data-ttu-id="41385-116">输入对比到期日期或现金折扣的日期。</span><span class="sxs-lookup"><span data-stu-id="41385-116">Enter the date for comparing to the due date or cash discount.</span></span> 
+10. <span data-ttu-id="41385-117">可选：输入用于所有付款的付款日期。</span><span class="sxs-lookup"><span data-stu-id="41385-117">Optional: Enter a payment date used for all payments.</span></span>
+    * <span data-ttu-id="41385-118">在此处输入的日期将是创建的所有付款的付款日期，无论到期日期或现金折扣日期是哪一天。</span><span class="sxs-lookup"><span data-stu-id="41385-118">The date entered here will be the payment date for all payments created, regardless of the due date or cash discount date.</span></span>  
+11. <span data-ttu-id="41385-119">可选：输入可用作付款日期的最早付款日期。</span><span class="sxs-lookup"><span data-stu-id="41385-119">Optional: Enter a minimum payment date which may be used as the payment date.</span></span>
+    * <span data-ttu-id="41385-120">在创建付款时，最早付款日期将是使用的最早日期。</span><span class="sxs-lookup"><span data-stu-id="41385-120">The minimum payment date will be the earliest date used when creating payments.</span></span> <span data-ttu-id="41385-121">例如，如果发票的到期日期在最早付款日期之后，付款日期将会是到期日期（而不是最早付款日期），以在可能的最晚日期支付发票。</span><span class="sxs-lookup"><span data-stu-id="41385-121">For example, if an invoice has a due date after the minimum payment date, the due date will become the payment date instead of the minimum payment date in order to pay the invoice on the latest possible date.</span></span>  
+12. <span data-ttu-id="41385-122">在“添加记录”项下输入其他查询限制。</span><span class="sxs-lookup"><span data-stu-id="41385-122">Enter additional query restrictions under Records to include.</span></span>
+    * <span data-ttu-id="41385-123">筛选器通常用于限制由供应商组为付款选择的发票或付款方式。</span><span class="sxs-lookup"><span data-stu-id="41385-123">The filter is often used to restrict the invoices selected for payment by vendor group or method of payment.</span></span> <span data-ttu-id="41385-124">例如，您可以添加在此付薪周期用支票支付发票的筛选器。</span><span class="sxs-lookup"><span data-stu-id="41385-124">For example, you may add a filter to only pay invoices by cheque in this pay run.</span></span>  
+13. <span data-ttu-id="41385-125">输入其他查询限制或付款默认值。</span><span class="sxs-lookup"><span data-stu-id="41385-125">Enter additional query restriction or payment defaults.</span></span> 
+    * <span data-ttu-id="41385-126">附加参数可以用于定义付款货币或启用此付薪期间的集中付款。</span><span class="sxs-lookup"><span data-stu-id="41385-126">The additional parameters can be used to define the payment currency or to enable centralized payments for this pay run.</span></span>  
+14. <span data-ttu-id="41385-127">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="41385-127">Click OK.</span></span>
+    * <span data-ttu-id="41385-128">在单击“确定”后，将显示该查询的结果。</span><span class="sxs-lookup"><span data-stu-id="41385-128">After clicking OK, the results of the query will appear.</span></span> <span data-ttu-id="41385-129">如果您不想预览选中供付款的发票列表，可返回到“参数”快速选项卡，并将设置更改为“创建无发票预览付款 = 是”。</span><span class="sxs-lookup"><span data-stu-id="41385-129">If you don't want to preview the list of invoices selected to pay, you can go back to the Parameters fast tab and change the setting Create payments without invoice preview = Yes.</span></span>  
+15. <span data-ttu-id="41385-130">选择“显示付款概览”按钮以查看为所选发票的供应商创建的付款。</span><span class="sxs-lookup"><span data-stu-id="41385-130">Choose the Show payment overview button to view the payments that will be created for the vendor on the invoice selected.</span></span>
+16. <span data-ttu-id="41385-131">选择“隐藏付款概览”按钮以隐藏付款。</span><span class="sxs-lookup"><span data-stu-id="41385-131">Choose the Hide payment overview button to hide the payments.</span></span> 
+17. <span data-ttu-id="41385-132">单击”创建付款“。</span><span class="sxs-lookup"><span data-stu-id="41385-132">Click Create payments.</span></span>
+    * <span data-ttu-id="41385-133">在选择“创建付款”前，您可以右键单击网格，然后导出发票列表到 Excel 中。</span><span class="sxs-lookup"><span data-stu-id="41385-133">Before choosing Create payments, you can right click on the grid and export the list of invoices to Excel.</span></span> <span data-ttu-id="41385-134">单击“创建付款”按钮后将在付款日记帐中创建供应商付款。</span><span class="sxs-lookup"><span data-stu-id="41385-134">The Create payments button will create the vendor payments in the payment journal.</span></span>  
+18. <span data-ttu-id="41385-135">浏览您的付款并确保已定义所有付款的付款方式。</span><span class="sxs-lookup"><span data-stu-id="41385-135">Scan your payments and make sure the method of payment is defined for all payments.</span></span> 
+    * <span data-ttu-id="41385-136">如果您生成付款单据，例如打印支票或创建电子付款单据，则必须定义付款方式。</span><span class="sxs-lookup"><span data-stu-id="41385-136">If you generate the payments, such as printing a cheque or creating an electronic payment, the method of payment must be defined.</span></span> <span data-ttu-id="41385-137">付款方式还将默认来自付款的银行帐户。</span><span class="sxs-lookup"><span data-stu-id="41385-137">The method of payment will also default the bank account from the payment will be made.</span></span>  
+19. <span data-ttu-id="41385-138">单击“新建”创建一次性付款。</span><span class="sxs-lookup"><span data-stu-id="41385-138">Click New to create a one-off payment.</span></span>
+    * <span data-ttu-id="41385-139">一次性付款可以在过帐前的任何时间添加到付款日记帐中。</span><span class="sxs-lookup"><span data-stu-id="41385-139">A one-off payment can be added to a payment journal at any time prior to posting.</span></span> <span data-ttu-id="41385-140">单击“新建”按钮手动添加付款信息，而非使用付款方案来完成。</span><span class="sxs-lookup"><span data-stu-id="41385-140">This is done by clicking the New button and adding the payment information manually, rather then using the Payment proposal.</span></span>  
+20. <span data-ttu-id="41385-141">选择接受付款的供应商。</span><span class="sxs-lookup"><span data-stu-id="41385-141">Select the vendor to whom the payment will be made.</span></span>
+21. <span data-ttu-id="41385-142">如果存在供付款的发票，选择“结算交易”以选择付款的发票。</span><span class="sxs-lookup"><span data-stu-id="41385-142">If an invoice exists to pay, select Settle transactions to select the invoice for payment.</span></span>
+    * <span data-ttu-id="41385-143">如果这是预付款，此步骤是可选项。</span><span class="sxs-lookup"><span data-stu-id="41385-143">If this is a prepayment, this step is optional.</span></span> <span data-ttu-id="41385-144">您可以创建未选择任何发票的付款。</span><span class="sxs-lookup"><span data-stu-id="41385-144">You can create the payment without selecting any invoice.</span></span>  
+22. <span data-ttu-id="41385-145">标记要支付的所有发票。</span><span class="sxs-lookup"><span data-stu-id="41385-145">Mark any invoices that will be paid.</span></span>
+    * <span data-ttu-id="41385-146">如果您使用“结算交易”来选择付款发票，付款金额将根据您标记为付款的发票以及您在“结算金额”中输入的金额自动计算。</span><span class="sxs-lookup"><span data-stu-id="41385-146">If you use the Settle transactions to select the invoices for payment, the payment amount will automatically be calculated based on what invoices you mark for payment, and what amount you enter in the Amount to settle.</span></span>  
+23. <span data-ttu-id="41385-147">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="41385-147">Click OK.</span></span>
+24. <span data-ttu-id="41385-148">如果您要删除付款，则标记行。</span><span class="sxs-lookup"><span data-stu-id="41385-148">If you want to delete a payment, mark the row.</span></span>
+25. <span data-ttu-id="41385-149">单击“删除”。</span><span class="sxs-lookup"><span data-stu-id="41385-149">Click Delete.</span></span>
+    * <span data-ttu-id="41385-150">删除一项付款将只删除该付款。</span><span class="sxs-lookup"><span data-stu-id="41385-150">Deleting a payment will only delete the payment.</span></span> <span data-ttu-id="41385-151">任何标记为付款的发票将仍可由另一付款进行支付。</span><span class="sxs-lookup"><span data-stu-id="41385-151">Any invoices marked for payment will still be available to be paid by another payment.</span></span>  
+26. <span data-ttu-id="41385-152">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="41385-152">Click Yes.</span></span>
+27. <span data-ttu-id="41385-153">选择“生成付款”以打印支票或创建电子付款文件。</span><span class="sxs-lookup"><span data-stu-id="41385-153">Choose Generate payment to print Cheques or create the electronic payment file.</span></span>
+28. <span data-ttu-id="41385-154">选择要生成的付款类型。</span><span class="sxs-lookup"><span data-stu-id="41385-154">Select the method of payment that you want to generate.</span></span>
+    * <span data-ttu-id="41385-155">付款日记帐可包含支票付款和电子付款，但您一次仅可生成一个付款类型。</span><span class="sxs-lookup"><span data-stu-id="41385-155">The payment journal can contains payments for both Cheques and electronic payments, but you can only generate one payment type at a time.</span></span>  
+29. <span data-ttu-id="41385-156">选择生成付款的银行帐户。</span><span class="sxs-lookup"><span data-stu-id="41385-156">Select the bank account from which to generate the payments.</span></span>
+30. <span data-ttu-id="41385-157">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="41385-157">Click OK.</span></span>
+    * <span data-ttu-id="41385-158">将只生成与付款方式和您选择的银行帐户匹配的付款。</span><span class="sxs-lookup"><span data-stu-id="41385-158">Payments will only be generated for payments that match the Method of payment and Bank account you selected.</span></span>  
+31. <span data-ttu-id="41385-159">如果要生成支票，请选择文件以确保支票的打印目标正确。</span><span class="sxs-lookup"><span data-stu-id="41385-159">If you are generating Cheques, choose Document to ensure the correct print destination for the Cheques.</span></span>
+32. <span data-ttu-id="41385-160">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="41385-160">Click OK.</span></span>
+33. <span data-ttu-id="41385-161">单击“确定”以生成付款。</span><span class="sxs-lookup"><span data-stu-id="41385-161">Click OK to generate the payments.</span></span>
+34. <span data-ttu-id="41385-162">如果所有付款已获得审批和生成，单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="41385-162">Click Post if all the payments are approved and generated.</span></span> 
 
 

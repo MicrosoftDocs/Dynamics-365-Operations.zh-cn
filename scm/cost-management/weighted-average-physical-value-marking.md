@@ -17,17 +17,17 @@ ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: cdbca6d9c71c901a1f4e7a8e5a2f9be1d3efb355
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="weighted-average-with-physical-value-and-marking"></a>具有实际成本和标记的加权平均
+# <a name="weighted-average-with-physical-value-and-marking"></a><span data-ttu-id="ee624-102">具有实际成本和标记的加权平均</span><span class="sxs-lookup"><span data-stu-id="ee624-102">Weighted average with physical value and marking</span></span>
 
 [!include[banner](../includes/banner.md)]
 
@@ -35,199 +35,199 @@ ms.lasthandoff: 05/25/2017
 
 
 
-在您执行库存结转时，将根据虚拟发货结算所有收货，这将保留收货总数量和值。 此虚拟发货具有将从其结算发货的相应虚拟收货。 通过这种方法，所有发货都具有相同的平均成本。 虚拟发货和收货可以视为虚拟转移，称为“加权平均库存结转转移”。
+<span data-ttu-id="ee624-103">在您执行库存结转时，将根据虚拟发货结算所有收货，这将保留收货总数量和值。</span><span class="sxs-lookup"><span data-stu-id="ee624-103">When you run an inventory closing, all receipts are settled against a virtual issue, which holds the total received quantity and value.</span></span> <span data-ttu-id="ee624-104">此虚拟发货具有将从其结算发货的相应虚拟收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-104">This virtual issue has a corresponding virtual receipt from which the issues are settled.</span></span> <span data-ttu-id="ee624-105">通过这种方法，所有发货都具有相同的平均成本。</span><span class="sxs-lookup"><span data-stu-id="ee624-105">In this manner, all issues get the same average cost.</span></span> <span data-ttu-id="ee624-106">虚拟发货和收货可以视为虚拟转移，称为“加权平均库存结转转移”。</span><span class="sxs-lookup"><span data-stu-id="ee624-106">The virtual issue and receipt can be seen as a virtual transfer, which is named the weighted average inventory closing transfer.</span></span>
 
-如果只存在一个收货，则可以根据该收货结算所有发货，并且将不创建虚拟转移。 
+<span data-ttu-id="ee624-107">如果只存在一个收货，则可以根据该收货结算所有发货，并且将不创建虚拟转移。</span><span class="sxs-lookup"><span data-stu-id="ee624-107">If there is only one receipt, all issues can be settled from it and the virtual transfer will not be created.</span></span> 
 
-在使用加权平均时，您可以标记库存交易记录，以便根据特定发货（而非使用加权平均规则）结算特定库存收货。 
+<span data-ttu-id="ee624-108">在使用加权平均时，您可以标记库存交易记录，以便根据特定发货（而非使用加权平均规则）结算特定库存收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-108">When using weighted average, you can mark inventory transactions so that a specific item receipt is settled against a specific issue, instead of using the weighted average rule.</span></span> 
 
-我们建议在您使用加权平均库存模型时使用每月库存结转。 
+<span data-ttu-id="ee624-109">我们建议在您使用加权平均库存模型时使用每月库存结转。</span><span class="sxs-lookup"><span data-stu-id="ee624-109">We recommend a monthly inventory closing when you use the weighted average inventory model.</span></span> 
 
-按以下公式计算加权平均库存结转法：
--   加权平均 = (Q1\*P1 + Q2\*P2 + Qn\*Pn) / (Q1 + Q2 + Qn)
+<span data-ttu-id="ee624-110">按以下公式计算加权平均库存结转法：</span><span class="sxs-lookup"><span data-stu-id="ee624-110">The weighted average inventory costing method is calculated by the following formula:</span></span>
+-   <span data-ttu-id="ee624-111">加权平均 = (Q1\*P1 + Q2\*P2 + Qn\*Pn) / (Q1 + Q2 + Qn)</span><span class="sxs-lookup"><span data-stu-id="ee624-111">Weighted average = (Q1\*P1 + Q2\*P2 + Qn\*Pn) / (Q1 + Q2 + Qn)</span></span>
 
-保留库存问题的库存交易记录。 这包括销售订单、库存日志和生产订单（在过账时按估算的成本价而发生）。 此预估成本价也称作移动平均。 在库存结转时，此系统将分析以前期间和当前期间的库存交易记录，并且确定应使用以下哪些结转原则。
--   直接结算
--   汇总结算
+<span data-ttu-id="ee624-112">保留库存问题的库存交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-112">Inventory transactions leaving the inventory issues.</span></span> <span data-ttu-id="ee624-113">这包括销售订单、库存日志和生产订单（在过账时按估算的成本价而发生）。</span><span class="sxs-lookup"><span data-stu-id="ee624-113">This includes sales orders, inventory journals, and production orders, occur at an estimated cost price on the posting date.</span></span> <span data-ttu-id="ee624-114">此预估成本价也称作移动平均。</span><span class="sxs-lookup"><span data-stu-id="ee624-114">This estimated cost price is also referred to as running average.</span></span> <span data-ttu-id="ee624-115">在库存结转时，此系统将分析以前期间和当前期间的库存交易记录，并且确定应使用以下哪些结转原则。</span><span class="sxs-lookup"><span data-stu-id="ee624-115">At the time of inventory close, the system will analyze the inventory transactions for previous and current periods and determine which of the following closing principles should be used.</span></span>
+-   <span data-ttu-id="ee624-116">直接结算</span><span class="sxs-lookup"><span data-stu-id="ee624-116">Direct settlement</span></span>
+-   <span data-ttu-id="ee624-117">汇总结算</span><span class="sxs-lookup"><span data-stu-id="ee624-117">Summarized settlement</span></span>
 
-结算是在结转日期时将发货调整为正确的加权平均的库存结转过帐。 以下示例通过五个不同的配置阐释对使用加权平均的影响：
--   不具有“包括实际成本”选项的加权平均直接结算
--   没有“包括实际成本”选项的加权平均汇总结算
--   具有“包括实际成本”选项的加权平均直接结算
--   具有“包括实际成本”选项的加权平均汇总结算
--   具有标记的加权平均
+<span data-ttu-id="ee624-118">结算是在结转日期时将发货调整为正确的加权平均的库存结转过帐。</span><span class="sxs-lookup"><span data-stu-id="ee624-118">Settlements are inventory close postings that adjust the issues to the correct weighted average as of the closing date.</span></span> <span data-ttu-id="ee624-119">以下示例通过五个不同的配置阐释对使用加权平均的影响：</span><span class="sxs-lookup"><span data-stu-id="ee624-119">The following examples illustrate the effect of using weighted average with five different configurations:</span></span>
+-   <span data-ttu-id="ee624-120">不具有“包括实际成本”选项的加权平均直接结算</span><span class="sxs-lookup"><span data-stu-id="ee624-120">Weighted average direct settlement without the Include physical value option</span></span>
+-   <span data-ttu-id="ee624-121">没有“包括实际成本”选项的加权平均汇总结算</span><span class="sxs-lookup"><span data-stu-id="ee624-121">Weighted average summarized settlement without the Include physical value option</span></span>
+-   <span data-ttu-id="ee624-122">具有“包括实际成本”选项的加权平均直接结算</span><span class="sxs-lookup"><span data-stu-id="ee624-122">Weighted average direct settlement with the Include physical value option</span></span>
+-   <span data-ttu-id="ee624-123">具有“包括实际成本”选项的加权平均汇总结算</span><span class="sxs-lookup"><span data-stu-id="ee624-123">Weighted average summarized settlement with the Include physical value option</span></span>
+-   <span data-ttu-id="ee624-124">具有标记的加权平均</span><span class="sxs-lookup"><span data-stu-id="ee624-124">Weighted average with marking</span></span>
 
-## <a name="weighted-average-direct-settlement-without-include-physical-value"></a>不包括实际成本的加权平均直接结算
-直接结算原则同样用于先前版本中的加权平均。 系统将直接在收货和发货之间进行结算。 此系统在某些特定情况下使用这一直接结算原则：
--   已在期间中过帐一个收货以及一个或若干发货
--   在该期间中只过帐了发货，并且库存包含来自以前结转的现有物料
+## <a name="weighted-average-direct-settlement-without-include-physical-value"></a><span data-ttu-id="ee624-125">不包括实际成本的加权平均直接结算</span><span class="sxs-lookup"><span data-stu-id="ee624-125">Weighted average direct settlement without Include physical value</span></span>
+<span data-ttu-id="ee624-126">直接结算原则同样用于先前版本中的加权平均。</span><span class="sxs-lookup"><span data-stu-id="ee624-126">The direct settlement principle is the same used for weighted average in earlier versions.</span></span> <span data-ttu-id="ee624-127">系统将直接在收货和发货之间进行结算。</span><span class="sxs-lookup"><span data-stu-id="ee624-127">The system will settle directly between receipts and issues.</span></span> <span data-ttu-id="ee624-128">此系统在某些特定情况下使用这一直接结算原则：</span><span class="sxs-lookup"><span data-stu-id="ee624-128">The system uses this direct settlement principle in certain specific situations:</span></span>
+-   <span data-ttu-id="ee624-129">已在期间中过帐一个收货以及一个或若干发货</span><span class="sxs-lookup"><span data-stu-id="ee624-129">One receipt and one or several issues has been posted in the period</span></span>
+-   <span data-ttu-id="ee624-130">在该期间中只过帐了发货，并且库存包含来自以前结转的现有物料</span><span class="sxs-lookup"><span data-stu-id="ee624-130">Only issues have been posted in the period and the inventory contains on-hand items from a previous closing</span></span>
 
-在下节的场景中，已过帐财务上更新的收货和发货。 在库存结转期间，此系统将直接根据发货对收货进行结算，并且在发货时不需要对成本价进行调整。 该图阐释了以下交易记录。
--   1a. 为数量 5（单价 USD 10.00）更新的库存实际收货
--   1b. 为数量 5（单价 USD 10.00）更新的库存财务收货
--   2a. 为数量 2（单价 USD 10.00）更新的库存实际发货
--   2b. 为数量 2（单价 USD 10.00）更新的库存财务发货
--   3. 使用直接结算方法执行库存结转，以便结算对库存财务发货的库存财务收货。
+<span data-ttu-id="ee624-131">在下节的场景中，已过帐财务上更新的收货和发货。</span><span class="sxs-lookup"><span data-stu-id="ee624-131">In the scenario in the following sections, a financially updated receipt and issue have been posted.</span></span> <span data-ttu-id="ee624-132">在库存结转期间，此系统将直接根据发货对收货进行结算，并且在发货时不需要对成本价进行调整。</span><span class="sxs-lookup"><span data-stu-id="ee624-132">During inventory close, the system will settle the receipt directly against the issue, and no adjustment to the cost price is needed on issue.</span></span> <span data-ttu-id="ee624-133">该图阐释了以下交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-133">The following transactions are illustrated in the graphic.</span></span>
+-   <span data-ttu-id="ee624-134">1a.</span><span class="sxs-lookup"><span data-stu-id="ee624-134">1a.</span></span> <span data-ttu-id="ee624-135">为数量 5（单价 USD 10.00）更新的库存实际收货</span><span class="sxs-lookup"><span data-stu-id="ee624-135">Inventory physical receipt updated for a quantity of 5 at USD 10.00 each</span></span>
+-   <span data-ttu-id="ee624-136">1b.</span><span class="sxs-lookup"><span data-stu-id="ee624-136">1b.</span></span> <span data-ttu-id="ee624-137">为数量 5（单价 USD 10.00）更新的库存财务收货</span><span class="sxs-lookup"><span data-stu-id="ee624-137">Inventory financial receipt updated for a quantity of 5 at USD 10.00 each</span></span>
+-   <span data-ttu-id="ee624-138">2a.</span><span class="sxs-lookup"><span data-stu-id="ee624-138">2a.</span></span> <span data-ttu-id="ee624-139">为数量 2（单价 USD 10.00）更新的库存实际发货</span><span class="sxs-lookup"><span data-stu-id="ee624-139">Inventory physical issue updated for a quantity of 2 at USD 10.00 each</span></span>
+-   <span data-ttu-id="ee624-140">2b.</span><span class="sxs-lookup"><span data-stu-id="ee624-140">2b.</span></span> <span data-ttu-id="ee624-141">为数量 2（单价 USD 10.00）更新的库存财务发货</span><span class="sxs-lookup"><span data-stu-id="ee624-141">Inventory financial issue updated for a quantity of 2 at USD 10.00 each</span></span>
+-   3. <span data-ttu-id="ee624-142">使用直接结算方法执行库存结转，以便结算对库存财务发货的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-142">Inventory close is performed using the direct settlement method to settle the inventory financial receipt to the inventory financial issue.</span></span>
 
-下图说明在选择了加权平均库存模型和直接结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。 
+<span data-ttu-id="ee624-143">下图说明在选择了加权平均库存模型和直接结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-143">The following diagram illustrates this series of transactions with the effects of choosing the Weighted average inventory model and the direct settlement principle without the Include physical value option.</span></span> 
 
 ![不具有“包括实际成本”的加权平均直接结算](./media/weightedaveragedirectsettlementwithoutincludephysicalvalue.gif) 
 
-**图形要点**
--   库存交易记录用垂直箭头表示。
--   入库用时间线上的垂直箭头表示。
--   出库用时间线下的垂直箭头表示。
--   在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。
--   用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。
--   没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。
--   每个新的收货或发货交易记录都用一个新标签标明。
--   每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
--   库存结转用红色的垂直虚线以及“库存结转”标签表示。
--   由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。
+<span data-ttu-id="ee624-145">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="ee624-145">**Key to diagram**</span></span>
+-   <span data-ttu-id="ee624-146">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-146">Inventory transactions are represented by vertical arrows.</span></span>
+-   <span data-ttu-id="ee624-147">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-147">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+-   <span data-ttu-id="ee624-148">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-148">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+-   <span data-ttu-id="ee624-149">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="ee624-149">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+-   <span data-ttu-id="ee624-150">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-150">An inventory transaction value enclosed in brackets indicates that the inventory transaction is physically posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-151">没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-151">An inventory transaction value without brackets indicates that the inventory transaction is financially posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-152">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="ee624-152">Each new receipt or issue transaction is designated with a new label.</span></span>
+-   <span data-ttu-id="ee624-153">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="ee624-153">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="ee624-154">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="ee624-154">The identifiers indicate the sequence of inventory transaction postings in the timeline.</span></span>
+-   <span data-ttu-id="ee624-155">库存结转用红色的垂直虚线以及“库存结转”标签表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-155">Inventory closings are represented by a red vertical dashed line and the label Inventory Close.</span></span>
+-   <span data-ttu-id="ee624-156">由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-156">Settlements that are performed by inventory close are represented by dotted red arrows going diagonally from a receipt to an issue.</span></span>
 
-## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a>没有“包括实际成本”选项的加权平均汇总结算
-加权平均使用了将结转期间内的所有收货汇总到称为“加权平均库存结转”的交易记录中的结算原则。 该期间的所有收货都将根据新创建的库存转移交易记录的发货进行结算。 该期间的所有发货都将根据新的库存转移交易记录的收货进行结算。 如果在库存结转后，现有库存量为正值，则库存的现有库存量和值将汇总在新的库存转移交易记录（收货）上。 如果在库存结转后，现有库存量为负值，则库存的现有库存量和值将是尚未完全结算的各个单独发货之和。 在下面的场景中，已过帐若干财务上更新的收货和一个发货。 
+## <a name="weighted-average-summarized-settlement-without-the-include-physical-value-option"></a><span data-ttu-id="ee624-157">没有“包括实际成本”选项的加权平均汇总结算</span><span class="sxs-lookup"><span data-stu-id="ee624-157">Weighted average summarized settlement without the Include physical value option</span></span>
+<span data-ttu-id="ee624-158">加权平均使用了将结转期间内的所有收货汇总到称为“加权平均库存结转”的交易记录中的结算原则。</span><span class="sxs-lookup"><span data-stu-id="ee624-158">Weighted average uses the settlement principle that all receipts within in a closing period are summarized into a transaction called Weighted average inventory closing.</span></span> <span data-ttu-id="ee624-159">该期间的所有收货都将根据新创建的库存转移交易记录的发货进行结算。</span><span class="sxs-lookup"><span data-stu-id="ee624-159">All the receipts for the period will be settled against the issue of the newly created inventory transfer transaction.</span></span> <span data-ttu-id="ee624-160">该期间的所有发货都将根据新的库存转移交易记录的收货进行结算。</span><span class="sxs-lookup"><span data-stu-id="ee624-160">All issues for the period will be settled against the receipt of the new inventory transfer transaction.</span></span> <span data-ttu-id="ee624-161">如果在库存结转后，现有库存量为正值，则库存的现有库存量和值将汇总在新的库存转移交易记录（收货）上。</span><span class="sxs-lookup"><span data-stu-id="ee624-161">If the on-hand inventory is positive after the inventory close, that on-hand inventory and value of the inventory are summarized on the new inventory transfer transaction (receipt).</span></span> <span data-ttu-id="ee624-162">如果在库存结转后，现有库存量为负值，则库存的现有库存量和值将是尚未完全结算的各个单独发货之和。</span><span class="sxs-lookup"><span data-stu-id="ee624-162">If the inventory on-hand is negative after the inventory close, the on-hand inventory and value of the inventory is the sum of individual issues that have not been fully settled.</span></span> <span data-ttu-id="ee624-163">在下面的场景中，已过帐若干财务上更新的收货和一个发货。</span><span class="sxs-lookup"><span data-stu-id="ee624-163">In the scenario below, several financially updated receipts and one issue have been posted.</span></span> 
 
-在库存结转期间，此系统将生成和过帐汇总的库存转移交易记录，并根据汇总的库存转移发货交易记录结算该期间的所有收货。 为该期间过帐的所有发货都将根据汇总的库存转移收货交易记录进行结算。 该加权平均计算为 USD 15.00。 最初使用估算的成本价 USD 14.67 过账该发货。 因此，将创建并在该发货上过账负 USD 0.33 的调整。 截至库存结转日期，现有库存量为 3 件且价值为 USD 45.00。 
+<span data-ttu-id="ee624-164">在库存结转期间，此系统将生成和过帐汇总的库存转移交易记录，并根据汇总的库存转移发货交易记录结算该期间的所有收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-164">During inventory close, the system will generate and post the summarized inventory transfer transaction and settle the receipts for the period against the summarized inventory transfer issue transaction.</span></span> <span data-ttu-id="ee624-165">为该期间过帐的所有发货都将根据汇总的库存转移收货交易记录进行结算。</span><span class="sxs-lookup"><span data-stu-id="ee624-165">All the issues posted for the period will be settled against the summarized inventory transfer receipt transaction.</span></span> <span data-ttu-id="ee624-166">该加权平均计算为 USD 15.00。</span><span class="sxs-lookup"><span data-stu-id="ee624-166">The weighted average is calculated to be USD 15.00.</span></span> <span data-ttu-id="ee624-167">最初使用估算的成本价 USD 14.67 过账该发货。</span><span class="sxs-lookup"><span data-stu-id="ee624-167">The issue was originally posted with an estimated cost price of USD 14.67.</span></span> <span data-ttu-id="ee624-168">因此，将创建并在该发货上过账负 USD 0.33 的调整。</span><span class="sxs-lookup"><span data-stu-id="ee624-168">Therefore, an adjustment of negative USD 0.33 will be created and posted on the issue.</span></span> <span data-ttu-id="ee624-169">截至库存结转日期，现有库存量为 3 件且价值为 USD 45.00。</span><span class="sxs-lookup"><span data-stu-id="ee624-169">As of the inventory closing date, the on-hand inventory is 3 pieces with a value of USD 45.00.</span></span> 
 
-下图阐释了以下交易记录：
--   1a. 为数量 2（单件成本为 USD 11.00）更新的库存实际收货。
--   1b. 为数量 2（单件成本为 USD 14.00）更新的库存财务收货。
--   2a. 为数量 1（单件成本为 USD 12.00）更新的库存实际收货。
--   2b. 为数量 1（单件成本为 USD 16.00）更新的库存财务收货。
--   3a. 为数量 1（单件成本为 USD 14.67）更新的库存实际发货（移动平均）。
--   3b. 为数量 1（单件成本为 USD 14.67）更新的库存财务发货（移动平均）。
--   4a. 为数量 1（单件成本为 USD 14.00）更新的库存实际收货。
--   4b. 为数量 1（单件成本为 USD 16.00）更新的库存财务收货。
--   5. 执行库存结转。
--   6a. 创建“加权平均库存结转交易记录”财务发货，以便计算所有库存财务收货结算之和。
--   6b. 创建“加权平均库存结转交易记录”财务收货，作为对 5a 的抵消。
+<span data-ttu-id="ee624-170">下图阐释了以下交易记录：</span><span class="sxs-lookup"><span data-stu-id="ee624-170">The following transactions are illustrated in the graphic below:</span></span>
+-   <span data-ttu-id="ee624-171">1a.</span><span class="sxs-lookup"><span data-stu-id="ee624-171">1a.</span></span> <span data-ttu-id="ee624-172">为数量 2（单件成本为 USD 11.00）更新的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-172">Inventory physical receipt updated for a quantity of 2 at a cost of USD 11.00 each.</span></span>
+-   <span data-ttu-id="ee624-173">1b.</span><span class="sxs-lookup"><span data-stu-id="ee624-173">1b.</span></span> <span data-ttu-id="ee624-174">为数量 2（单件成本为 USD 14.00）更新的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-174">Inventory financial receipt updated for a quantity of 2 at a cost of USD 14.00 each.</span></span>
+-   <span data-ttu-id="ee624-175">2a.</span><span class="sxs-lookup"><span data-stu-id="ee624-175">2a.</span></span> <span data-ttu-id="ee624-176">为数量 1（单件成本为 USD 12.00）更新的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-176">Inventory physical receipt updated for a quantity of 1 at a cost of USD 12.00 each.</span></span>
+-   <span data-ttu-id="ee624-177">2b.</span><span class="sxs-lookup"><span data-stu-id="ee624-177">2b.</span></span> <span data-ttu-id="ee624-178">为数量 1（单件成本为 USD 16.00）更新的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-178">Inventory financial receipt updated for a quantity of 1 at a cost of USD 16.00 each.</span></span>
+-   <span data-ttu-id="ee624-179">3a.</span><span class="sxs-lookup"><span data-stu-id="ee624-179">3a.</span></span> <span data-ttu-id="ee624-180">为数量 1（单件成本为 USD 14.67）更新的库存实际发货（移动平均）。</span><span class="sxs-lookup"><span data-stu-id="ee624-180">Inventory physical issue updated for a quantity of 1 at a cost of USD 14.67 each (running average).</span></span>
+-   <span data-ttu-id="ee624-181">3b.</span><span class="sxs-lookup"><span data-stu-id="ee624-181">3b.</span></span> <span data-ttu-id="ee624-182">为数量 1（单件成本为 USD 14.67）更新的库存财务发货（移动平均）。</span><span class="sxs-lookup"><span data-stu-id="ee624-182">Inventory financial issue updated for a quantity of 1 at a cost of USD 14.67 each (running average).</span></span>
+-   <span data-ttu-id="ee624-183">4a.</span><span class="sxs-lookup"><span data-stu-id="ee624-183">4a.</span></span> <span data-ttu-id="ee624-184">为数量 1（单件成本为 USD 14.00）更新的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-184">Inventory physical receipt updated for a quantity of 1 at a cost of USD 14.00 each.</span></span>
+-   <span data-ttu-id="ee624-185">4b.</span><span class="sxs-lookup"><span data-stu-id="ee624-185">4b.</span></span> <span data-ttu-id="ee624-186">为数量 1（单件成本为 USD 16.00）更新的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-186">Inventory financial receipt updated for a quantity of 1 at a cost of USD 16.00 each.</span></span>
+-   5. <span data-ttu-id="ee624-187">执行库存结转。</span><span class="sxs-lookup"><span data-stu-id="ee624-187">Inventory close is performed.</span></span>
+-   <span data-ttu-id="ee624-188">6a.</span><span class="sxs-lookup"><span data-stu-id="ee624-188">6a.</span></span> <span data-ttu-id="ee624-189">创建“加权平均库存结转交易记录”财务发货，以便计算所有库存财务收货结算之和。</span><span class="sxs-lookup"><span data-stu-id="ee624-189">“Weighted average inventory close transaction” financial issue is created to sum the settlements of all the inventory financial receipts.</span></span>
+-   <span data-ttu-id="ee624-190">6b.</span><span class="sxs-lookup"><span data-stu-id="ee624-190">6b.</span></span> <span data-ttu-id="ee624-191">创建“加权平均库存结转交易记录”财务收货，作为对 5a 的抵消。</span><span class="sxs-lookup"><span data-stu-id="ee624-191">“Weighted average inventory close transaction” financial receipt is created as the offset to 5a.</span></span>
 
-下图说明在选择了加权平均库存模型和汇总结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。 
+<span data-ttu-id="ee624-192">下图说明在选择了加权平均库存模型和汇总结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-192">The following diagram illustrates this series of transactions with the effects of choosing the Weighted average inventory model and the summarized settlement principle without the Include physical value option.</span></span> 
 
 ![不具有“包括实际成本”的加权平均汇总结算](./media/weightedaveragesummarizedsettlementwithoutincludephysicalvalue.gif) 
 
-**图形要点**
--   库存交易记录用垂直箭头表示。
--   入库用时间线上的垂直箭头表示。
--   出库用时间线下的垂直箭头表示。
--   在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。
--   用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。
--   没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。
--   每个新的收货或发货交易记录都用一个新标签标明。
--   每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
--   库存结转用红色的垂直虚线以及“库存结转”标签表示。
--   由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。
--   红色箭头说明要结算到系统创建的发货交易记录的收货交易记录。
--   绿色箭头表示最初过帐的发货交易记录结算到的抵消系统生成的收货交易记录
+<span data-ttu-id="ee624-194">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="ee624-194">**Key to diagram**</span></span>
+-   <span data-ttu-id="ee624-195">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-195">Inventory transactions are represented by vertical arrows.</span></span>
+-   <span data-ttu-id="ee624-196">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-196">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+-   <span data-ttu-id="ee624-197">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-197">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+-   <span data-ttu-id="ee624-198">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="ee624-198">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+-   <span data-ttu-id="ee624-199">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-199">An inventory transaction value enclosed in brackets indicates that the inventory transaction is physically posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-200">没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-200">An inventory transaction value without brackets indicates that the inventory transaction is financially posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-201">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="ee624-201">Each new receipt or issue transaction is designated with a new label.</span></span>
+-   <span data-ttu-id="ee624-202">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="ee624-202">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="ee624-203">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="ee624-203">The identifiers indicate the sequence of inventory transaction postings in the timeline.</span></span>
+-   <span data-ttu-id="ee624-204">库存结转用红色的垂直虚线以及“库存结转”标签表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-204">Inventory closings are represented by a red vertical dashed line and the label Inventory Close.</span></span>
+-   <span data-ttu-id="ee624-205">由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-205">Settlements that are performed by inventory close are represented by dotted red arrows going diagonally from a receipt to an issue.</span></span>
+-   <span data-ttu-id="ee624-206">红色箭头说明要结算到系统创建的发货交易记录的收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-206">Red arrows illustrate the receipt transactions being settled to the issue transaction created by the system.</span></span>
+-   <span data-ttu-id="ee624-207">绿色箭头表示最初过帐的发货交易记录结算到的抵消系统生成的收货交易记录</span><span class="sxs-lookup"><span data-stu-id="ee624-207">The green arrow represents the offsetting system-generated receipt transaction to which the originally posted issue transaction is settled</span></span>
 
-## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a>具有“包括实际成本”选项的加权平均直接结算
-此参数在工作方式上不同于该产品先前版本中的加权平均库存模型。 为“物料模型组”窗体中的某一物料选中“包括实际成本”框。 然后，此系统将使用实际更新的收货（当计算估计成本价或移动平均时）。 将在期间中基于此估计的成本价过帐发货。 在库存结转期间，在加权平均计算时将只考虑财务更新的收货。 我们建议在您使用加权平均库存模型时使用每月库存结转。 在此加权平均直接结算示例中，将标记物料模型组以包括实际值。 
+## <a name="weighted-average-direct-settlement-with-the-include-physical-value-option"></a><span data-ttu-id="ee624-208">具有“包括实际成本”选项的加权平均直接结算</span><span class="sxs-lookup"><span data-stu-id="ee624-208">Weighted average direct settlement with the Include physical value option</span></span>
+<span data-ttu-id="ee624-209">此参数在工作方式上不同于该产品先前版本中的加权平均库存模型。</span><span class="sxs-lookup"><span data-stu-id="ee624-209">The parameter Include physical value works differently with the weighted average inventory model than in earlier versions of the product.</span></span> <span data-ttu-id="ee624-210">为“物料模型组”窗体中的某一物料选中“包括实际成本”框。</span><span class="sxs-lookup"><span data-stu-id="ee624-210">Select the Include physical value box for an item in the Item model group form.</span></span> <span data-ttu-id="ee624-211">然后，此系统将使用实际更新的收货（当计算估计成本价或移动平均时）。</span><span class="sxs-lookup"><span data-stu-id="ee624-211">Then the system will use physically updated receipts when calculating the estimated cost price, or running average.</span></span> <span data-ttu-id="ee624-212">将在期间中基于此估计的成本价过帐发货。</span><span class="sxs-lookup"><span data-stu-id="ee624-212">Issues will be posted based on this estimated cost price during the period.</span></span> <span data-ttu-id="ee624-213">在库存结转期间，在加权平均计算时将只考虑财务更新的收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-213">During the inventory close, financially updated receipts only will be considered in the weighted average calculation.</span></span> <span data-ttu-id="ee624-214">我们建议在您使用加权平均库存模型时使用每月库存结转。</span><span class="sxs-lookup"><span data-stu-id="ee624-214">We recommend a monthly inventory close when you use the weighted average inventory model.</span></span> <span data-ttu-id="ee624-215">在此加权平均直接结算示例中，将标记物料模型组以包括实际值。</span><span class="sxs-lookup"><span data-stu-id="ee624-215">In this weighted average direct settlement example, the item model group is marked to include physical value.</span></span> 
 
-下图阐释了以下交易记录：
--   1a. 为数量 1（单件成本为 USD 11.00）更新的库存实际收货。
--   1b. 为数量 1（单件成本为 USD 10.00）更新的库存财务收货。
--   2a. 为数量 1（单件成本为 USD 15.00）更新的库存实际收货。
--   3a. 为数量 1（单件成本为 USD 12.50）更新的库存实际发货（移动平均成本，因为考虑实际收货值）。
--   3b. 为数量 1（单件成本为 USD 12.50）更新的库存财务发货（移动平均成本，因为考虑实际收货值）。
--   4. 执行库存结转。 在库存结转过程中，此系统将不考虑只物理更新的所有库存交易记录。 而是将使用直接结算原则，因为只有一个财务收货存在。 USD 2.50 的调整将过帐到截至库存结转日期已财务发货的库存交易记录。 在库存结转后，现有库存量将为数量 1，且具有移动平均成本价 USD 15.00。
+<span data-ttu-id="ee624-216">下图阐释了以下交易记录：</span><span class="sxs-lookup"><span data-stu-id="ee624-216">The following transactions are illustrated in the graphic below:</span></span>
+-   <span data-ttu-id="ee624-217">1a.</span><span class="sxs-lookup"><span data-stu-id="ee624-217">1a.</span></span> <span data-ttu-id="ee624-218">为数量 1（单件成本为 USD 11.00）更新的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-218">Inventory physical receipt updated for a quantity of 1 at a cost of USD 11.00 each.</span></span>
+-   <span data-ttu-id="ee624-219">1b.</span><span class="sxs-lookup"><span data-stu-id="ee624-219">1b.</span></span> <span data-ttu-id="ee624-220">为数量 1（单件成本为 USD 10.00）更新的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-220">Inventory financial receipt updated for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="ee624-221">2a.</span><span class="sxs-lookup"><span data-stu-id="ee624-221">2a.</span></span> <span data-ttu-id="ee624-222">为数量 1（单件成本为 USD 15.00）更新的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-222">Inventory physical receipt updated for a quantity of 1 at a cost of USD 15.00 each.</span></span>
+-   <span data-ttu-id="ee624-223">3a.</span><span class="sxs-lookup"><span data-stu-id="ee624-223">3a.</span></span> <span data-ttu-id="ee624-224">为数量 1（单件成本为 USD 12.50）更新的库存实际发货（移动平均成本，因为考虑实际收货值）。</span><span class="sxs-lookup"><span data-stu-id="ee624-224">Inventory physical issue updated for a quantity of 1 at a cost of USD 12.50 each (running average cost, since the physical receipt value is taken into consideration).</span></span>
+-   <span data-ttu-id="ee624-225">3b.</span><span class="sxs-lookup"><span data-stu-id="ee624-225">3b.</span></span> <span data-ttu-id="ee624-226">为数量 1（单件成本为 USD 12.50）更新的库存财务发货（移动平均成本，因为考虑实际收货值）。</span><span class="sxs-lookup"><span data-stu-id="ee624-226">Inventory financial issue updated for a quantity of 1 at a cost of USD 12.50 each (running average cost, since the physical receipt value is taken into consideration).</span></span>
+-   4. <span data-ttu-id="ee624-227">执行库存结转。</span><span class="sxs-lookup"><span data-stu-id="ee624-227">Inventory close is performed.</span></span> <span data-ttu-id="ee624-228">在库存结转过程中，此系统将不考虑只物理更新的所有库存交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-228">During inventory close, the system will disregard all inventory transactions that have been only physically updated.</span></span> <span data-ttu-id="ee624-229">而是将使用直接结算原则，因为只有一个财务收货存在。</span><span class="sxs-lookup"><span data-stu-id="ee624-229">Instead, the direct settlement principle will be used because only one financial receipt exists.</span></span> <span data-ttu-id="ee624-230">USD 2.50 的调整将过帐到截至库存结转日期已财务发货的库存交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-230">An adjustment of USD 2.50 will be posted to the inventory transaction that has been financially issued as of the inventory closing date.</span></span> <span data-ttu-id="ee624-231">在库存结转后，现有库存量将为数量 1，且具有移动平均成本价 USD 15.00。</span><span class="sxs-lookup"><span data-stu-id="ee624-231">After inventory close, the on hand inventory will be a quantity of 1 with a running average cost price of USD 15.00.</span></span>
 
-下图说明在选择了加权平均库存模型和直接结算原则（有“包括实际成本”选项）的情况下此系列的交易记录。 
+<span data-ttu-id="ee624-232">下图说明在选择了加权平均库存模型和直接结算原则（有“包括实际成本”选项）的情况下此系列的交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-232">The following diagram illustrates this series of transactions with the effects of choosing the Weighted average inventory model and the direct settlement principle with the Include physical value option.</span></span> 
 
 ![具有“包括实际成本”的加权平均直接结算](./media/weightedaveragedirectsettlementwithincludephysicalvalue.gif) 
 
-**图形要点**
--   库存交易记录用垂直箭头表示。
--   入库用时间线上的垂直箭头表示。
--   出库用时间线下的垂直箭头表示。
--   在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。
--   用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。
--   没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。
--   每个新的收货或发货交易记录都用一个新标签标明。
--   每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
--   库存结转用红色的垂直虚线以及“库存结转”标签表示。
--   由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。
+<span data-ttu-id="ee624-234">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="ee624-234">**Key to diagram**</span></span>
+-   <span data-ttu-id="ee624-235">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-235">Inventory transactions are represented by vertical arrows.</span></span>
+-   <span data-ttu-id="ee624-236">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-236">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+-   <span data-ttu-id="ee624-237">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-237">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+-   <span data-ttu-id="ee624-238">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="ee624-238">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+-   <span data-ttu-id="ee624-239">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-239">An inventory transaction value enclosed in brackets indicates that the inventory transaction is physically posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-240">没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-240">An inventory transaction value without brackets indicates that the inventory transaction is financially posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-241">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="ee624-241">Each new receipt or issue transaction is designated with a new label.</span></span>
+-   <span data-ttu-id="ee624-242">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="ee624-242">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="ee624-243">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="ee624-243">The identifiers indicate the sequence of inventory transaction postings in the timeline.</span></span>
+-   <span data-ttu-id="ee624-244">库存结转用红色的垂直虚线以及“库存结转”标签表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-244">Inventory closings are represented by a red vertical dashed line and the label Inventory Close.</span></span>
+-   <span data-ttu-id="ee624-245">由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-245">Settlements that are performed by inventory close are represented by dotted red arrows going diagonally from a receipt to an issue.</span></span>
 
-## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a>具有“包括实际成本”选项的加权平均汇总结算
-“包括实际成本”参数在工作方式上不同于先前版本中的加权平均。 为“物料模型组”页中的某一物料选中“包括实际成本”框。 然后，此系统将使用实际更新的收货（当计算估计成本价或移动平均时）。 将在期间中基于此估计的成本价过帐发货。 在库存结转期间，在加权平均计算时将只考虑财务更新的收货。 我们建议在您使用加权平均库存模型时使用每月库存结转。 在此加权平均汇总结算示例中，将标记库存模型以包括实际值。 
+## <a name="weighted-average-summarized-settlement-with-the-include-physical-value-option"></a><span data-ttu-id="ee624-246">具有“包括实际成本”选项的加权平均汇总结算</span><span class="sxs-lookup"><span data-stu-id="ee624-246">Weighted average summarized settlement with the Include physical value option</span></span>
+<span data-ttu-id="ee624-247">“包括实际成本”参数在工作方式上不同于先前版本中的加权平均。</span><span class="sxs-lookup"><span data-stu-id="ee624-247">The Include physical value parameter works differently with weighted average than in earlier versions.</span></span> <span data-ttu-id="ee624-248">为“物料模型组”页中的某一物料选中“包括实际成本”框。</span><span class="sxs-lookup"><span data-stu-id="ee624-248">Select the Include physical value box for an item in the Item model group page.</span></span> <span data-ttu-id="ee624-249">然后，此系统将使用实际更新的收货（当计算估计成本价或移动平均时）。</span><span class="sxs-lookup"><span data-stu-id="ee624-249">Then the system will use physically updated receipts in the calculation of estimated cost price, or running average.</span></span> <span data-ttu-id="ee624-250">将在期间中基于此估计的成本价过帐发货。</span><span class="sxs-lookup"><span data-stu-id="ee624-250">Issues will be posted based on this estimated cost price during the period.</span></span> <span data-ttu-id="ee624-251">在库存结转期间，在加权平均计算时将只考虑财务更新的收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-251">During the inventory close financially updated receipts only will be considered in the weighted average calculation.</span></span> <span data-ttu-id="ee624-252">我们建议在您使用加权平均库存模型时使用每月库存结转。</span><span class="sxs-lookup"><span data-stu-id="ee624-252">We recommend a monthly inventory close when you use the weighted average inventory model.</span></span> <span data-ttu-id="ee624-253">在此加权平均汇总结算示例中，将标记库存模型以包括实际值。</span><span class="sxs-lookup"><span data-stu-id="ee624-253">In this weighted average summarized settlement example, the inventory model is marked to include physical value.</span></span> 
 
-下图阐释了以下交易记录：
--   1a. 为数量 2（单件成本为 USD 11.00）更新的库存实际收货。
--   1b. 为数量 2（单件成本为 USD 14.00）更新的库存财务收货。
--   2. 为数量 1（单件成本为 USD 10.00）更新的库存实际收货。
--   3a. 为数量 1（单件成本为 USD 12.00）更新的库存实际收货。
--   3b. 为数量 1（单件成本为 USD 16.00）更新的库存财务收货。
--   4a. 为数量 1（单件成本为 USD 13.50）更新的库存实际发货（移动平均成本，因为考虑实际收货值）。
--   4b. 为数量 1（单件成本为 USD 13.50）更新的库存财务发货（移动平均成本，因为考虑实际收货值）。
--   5a. 为数量 1（单件成本为 USD 14.00）更新的库存实际收货。
--   5b. 为数量 1（单件成本为 USD 16.00）更新的库存财务收货。
--   6. 执行库存结转。 在库存结转过程中，此系统将不考虑只物理更新的所有库存交易记录。 而是将使用汇总结算原则，因为只有一个财务收货存在。 USD 1.50 的调整将过帐到截至库存结转日期已财务发货的库存交易记录。 在库存结转后，现有库存量将为数量 3，且具有移动平均成本价 USD 15.00。
--   7a. 创建“加权平均库存结转交易记录”财务发货，以便计算所有库存财务收货结算之和。
--   7b. 创建“加权平均库存结转交易记录”财务收货，作为对 5a 的抵消。
+<span data-ttu-id="ee624-254">下图阐释了以下交易记录：</span><span class="sxs-lookup"><span data-stu-id="ee624-254">The following transactions are illustrated in the graphic below:</span></span>
+-   <span data-ttu-id="ee624-255">1a.</span><span class="sxs-lookup"><span data-stu-id="ee624-255">1a.</span></span> <span data-ttu-id="ee624-256">为数量 2（单件成本为 USD 11.00）更新的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-256">Inventory physical receipt updated for a quantity of 2 at a cost of USD 11.00 each.</span></span>
+-   <span data-ttu-id="ee624-257">1b.</span><span class="sxs-lookup"><span data-stu-id="ee624-257">1b.</span></span> <span data-ttu-id="ee624-258">为数量 2（单件成本为 USD 14.00）更新的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-258">Inventory financial receipt updated for a quantity of 2 at a cost of USD 14.00 each.</span></span>
+-   2. <span data-ttu-id="ee624-259">为数量 1（单件成本为 USD 10.00）更新的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-259">Inventory physical receipt updated for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="ee624-260">3a.</span><span class="sxs-lookup"><span data-stu-id="ee624-260">3a.</span></span> <span data-ttu-id="ee624-261">为数量 1（单件成本为 USD 12.00）更新的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-261">Inventory physical receipt updated for a quantity of 1 at a cost of USD 12.00 each.</span></span>
+-   <span data-ttu-id="ee624-262">3b.</span><span class="sxs-lookup"><span data-stu-id="ee624-262">3b.</span></span> <span data-ttu-id="ee624-263">为数量 1（单件成本为 USD 16.00）更新的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-263">Inventory financial receipt updated for a quantity of 1 at a cost of USD 16.00 each.</span></span>
+-   <span data-ttu-id="ee624-264">4a.</span><span class="sxs-lookup"><span data-stu-id="ee624-264">4a.</span></span> <span data-ttu-id="ee624-265">为数量 1（单件成本为 USD 13.50）更新的库存实际发货（移动平均成本，因为考虑实际收货值）。</span><span class="sxs-lookup"><span data-stu-id="ee624-265">Inventory physical issue updated for a quantity of 1 at a cost of USD 13.50 each (running average cost, since the physical receipt value is taken into consideration).</span></span>
+-   <span data-ttu-id="ee624-266">4b.</span><span class="sxs-lookup"><span data-stu-id="ee624-266">4b.</span></span> <span data-ttu-id="ee624-267">为数量 1（单件成本为 USD 13.50）更新的库存财务发货（移动平均成本，因为考虑实际收货值）。</span><span class="sxs-lookup"><span data-stu-id="ee624-267">Inventory financial issue updated for a quantity of 1 at a cost of USD 13.50 each (running average cost, since the physical receipt value is taken into consideration).</span></span>
+-   <span data-ttu-id="ee624-268">5a.</span><span class="sxs-lookup"><span data-stu-id="ee624-268">5a.</span></span> <span data-ttu-id="ee624-269">为数量 1（单件成本为 USD 14.00）更新的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-269">Inventory physical receipt updated for a quantity of 1 at a cost of USD 14.00 each.</span></span>
+-   <span data-ttu-id="ee624-270">5b.</span><span class="sxs-lookup"><span data-stu-id="ee624-270">5b.</span></span> <span data-ttu-id="ee624-271">为数量 1（单件成本为 USD 16.00）更新的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-271">Inventory financial receipt updated for a quantity of 1 at a cost of USD 16.00 each.</span></span>
+-   6. <span data-ttu-id="ee624-272">执行库存结转。</span><span class="sxs-lookup"><span data-stu-id="ee624-272">Inventory close is performed.</span></span> <span data-ttu-id="ee624-273">在库存结转过程中，此系统将不考虑只物理更新的所有库存交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-273">During inventory close, the system will disregard all inventory transactions that are updated only physically.</span></span> <span data-ttu-id="ee624-274">而是将使用汇总结算原则，因为只有一个财务收货存在。</span><span class="sxs-lookup"><span data-stu-id="ee624-274">The summarized settlement principle will be used because only one financial receipt exists.</span></span> <span data-ttu-id="ee624-275">USD 1.50 的调整将过帐到截至库存结转日期已财务发货的库存交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-275">An adjustment of USD 1.50 will be posted to the inventory transaction that has been financially issued as of the inventory closing date.</span></span> <span data-ttu-id="ee624-276">在库存结转后，现有库存量将为数量 3，且具有移动平均成本价 USD 15.00。</span><span class="sxs-lookup"><span data-stu-id="ee624-276">After inventory close, the on- hand inventory will be a quantity of 3 with a running average cost price of USD 15.00.</span></span>
+-   <span data-ttu-id="ee624-277">7a.</span><span class="sxs-lookup"><span data-stu-id="ee624-277">7a.</span></span> <span data-ttu-id="ee624-278">创建“加权平均库存结转交易记录”财务发货，以便计算所有库存财务收货结算之和。</span><span class="sxs-lookup"><span data-stu-id="ee624-278">“Weighted average inventory close transaction” financial issue is created to sum the settlements of all the inventory financial receipts.</span></span>
+-   <span data-ttu-id="ee624-279">7b.</span><span class="sxs-lookup"><span data-stu-id="ee624-279">7b.</span></span> <span data-ttu-id="ee624-280">创建“加权平均库存结转交易记录”财务收货，作为对 5a 的抵消。</span><span class="sxs-lookup"><span data-stu-id="ee624-280">“Weighted average inventory close transaction” financial receipt is created as the offset to 5a.</span></span>
 
-下图说明在选择了加权平均库存模型和汇总结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。 
+<span data-ttu-id="ee624-281">下图说明在选择了加权平均库存模型和汇总结算原则（没有“包括实际成本”选项）的情况下此系列的交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-281">The following diagram illustrates this series of transactions with the effects of choosing the weighted average inventory model and the summarized settlement principle without the Include physical value option.</span></span> 
 
 ![具有“包括实际成本”的加权平均汇总结算](./media/weightedaveragesummarizedsettlementwithincludephysicalvalue.gif) 
 
-**图形要点**
--   库存交易记录用垂直箭头表示。
--   入库用时间线上的垂直箭头表示。
--   出库用时间线下的垂直箭头表示。
--   在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。
--   用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。
--   没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。
--   每个新的收货或发货交易记录都用一个新标签标明。
--   每个垂直箭头用连续标识符标记，例如 1a。 这些标识符指示时间线中库存交易记录过帐的顺序。
--   库存结转用红色的垂直虚线以及“库存结转”标签表示。
--   由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。
--   红色箭头说明要结算到系统创建的发货交易记录的收货交易记录。
--   绿色箭头表示最初过帐的发货交易记录结算到的抵消系统生成的收货交易记录
+<span data-ttu-id="ee624-283">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="ee624-283">**Key to diagram**</span></span>
+-   <span data-ttu-id="ee624-284">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-284">Inventory transactions are represented by vertical arrows.</span></span>
+-   <span data-ttu-id="ee624-285">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-285">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+-   <span data-ttu-id="ee624-286">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-286">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+-   <span data-ttu-id="ee624-287">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="ee624-287">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+-   <span data-ttu-id="ee624-288">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-288">An inventory transaction value enclosed in brackets indicates that the inventory transaction is physically posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-289">没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-289">An inventory transaction value without brackets indicates that the inventory transaction is financially posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-290">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="ee624-290">Each new receipt or issue transaction is designated with a new label.</span></span>
+-   <span data-ttu-id="ee624-291">每个垂直箭头用连续标识符标记，例如 1a。</span><span class="sxs-lookup"><span data-stu-id="ee624-291">Each vertical arrow is labeled with a sequential identifier, such as 1a.</span></span> <span data-ttu-id="ee624-292">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="ee624-292">The identifiers indicate the sequence of inventory transaction postings in the timeline.</span></span>
+-   <span data-ttu-id="ee624-293">库存结转用红色的垂直虚线以及“库存结转”标签表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-293">Inventory closings are represented by a red vertical dashed line and the label Inventory Close.</span></span>
+-   <span data-ttu-id="ee624-294">由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-294">Settlements that are performed by inventory close are represented by dotted red arrows going diagonally from a receipt to an issue.</span></span>
+-   <span data-ttu-id="ee624-295">红色箭头说明要结算到系统创建的发货交易记录的收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-295">Red arrows illustrate the receipt transactions being settled to the issue transaction created by the system.</span></span>
+-   <span data-ttu-id="ee624-296">绿色箭头表示最初过帐的发货交易记录结算到的抵消系统生成的收货交易记录</span><span class="sxs-lookup"><span data-stu-id="ee624-296">The green arrow represents the offsetting system-generated receipt transaction to which the originally posted issue transaction is settled</span></span>
 
-## <a name="weighted-average-with-marking"></a>具有标记的加权平均
-标记是一个过程，您可以将某一发货交易记录链接到（或标记到）某一收货交易记录。 标记可以在过帐交易记录之前或之后发生。 如果您想要在过帐交易记录时或执行库存结转时确保库存的准确成本，则可以使用标记。 
+## <a name="weighted-average-with-marking"></a><span data-ttu-id="ee624-297">具有标记的加权平均</span><span class="sxs-lookup"><span data-stu-id="ee624-297">Weighted average with marking</span></span>
+<span data-ttu-id="ee624-298">标记是一个过程，您可以将某一发货交易记录链接到（或标记到）某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-298">Marking is a process that lets you link, or mark, an issue transaction to a receipt transaction.</span></span> <span data-ttu-id="ee624-299">标记可以在过帐交易记录之前或之后发生。</span><span class="sxs-lookup"><span data-stu-id="ee624-299">Marking can occur either before or after a transaction is posted.</span></span> <span data-ttu-id="ee624-300">如果您想要在过帐交易记录时或执行库存结转时确保库存的准确成本，则可以使用标记。</span><span class="sxs-lookup"><span data-stu-id="ee624-300">You can use marking when you want to make sure of the exact cost of the inventory when the transaction is posted or when the inventory close is performed.</span></span> 
 
-例如，您的客户服务部接受了来自重要客户的一个紧急订单。 因为这是紧急订单，所以，您将需要为此物料支付更多成本以服务您的客户的请求。 您必须确保此库存物料的成本反映在此销售订单发票的毛利中或所售货物成本 (COGS) 中。 
+<span data-ttu-id="ee624-301">例如，您的客户服务部接受了来自重要客户的一个紧急订单。</span><span class="sxs-lookup"><span data-stu-id="ee624-301">For example, your Customer Service department accepted a rush order from an important customer.</span></span> <span data-ttu-id="ee624-302">因为这是紧急订单，所以，您将需要为此物料支付更多成本以服务您的客户的请求。</span><span class="sxs-lookup"><span data-stu-id="ee624-302">Because this is a rush order, you will have to pay more for this item to service your customer’s request.</span></span> <span data-ttu-id="ee624-303">您必须确保此库存物料的成本反映在此销售订单发票的毛利中或所售货物成本 (COGS) 中。</span><span class="sxs-lookup"><span data-stu-id="ee624-303">You must be certain the cost of this inventory item is reflected in the margin, or cost of goods sold (COGS), for this sales order invoice.</span></span> 
 
-在过帐采购订单时，按 USD 120.00 的成本入库。 例如，如果在装箱单或发票过帐之前，此销售订单单据标记到采购订单。 然后，COGS 将是 USD 120.00 代替物料的当前移动平均成本。 如果在发生标记前过帐销售订单装箱单或发票，则将按移动平均成本价过帐 COGS。 
+<span data-ttu-id="ee624-304">在过帐采购订单时，按 USD 120.00 的成本入库。</span><span class="sxs-lookup"><span data-stu-id="ee624-304">When the purchase order is posted, the inventory is received at a cost of USD 120.00.</span></span> <span data-ttu-id="ee624-305">例如，如果在装箱单或发票过帐之前，此销售订单单据标记到采购订单。</span><span class="sxs-lookup"><span data-stu-id="ee624-305">For example, this sales order document is marked to the purchase order before the packing slip or invoice is posted.</span></span> <span data-ttu-id="ee624-306">然后，COGS 将是 USD 120.00 代替物料的当前移动平均成本。</span><span class="sxs-lookup"><span data-stu-id="ee624-306">Then COGS will be USD 120.00 instead of the current running average cost for the item.</span></span> <span data-ttu-id="ee624-307">如果在发生标记前过帐销售订单装箱单或发票，则将按移动平均成本价过帐 COGS。</span><span class="sxs-lookup"><span data-stu-id="ee624-307">If the sales order packing slip or invoice is posted before the marking occurs, the COGS will be posted at the running average cost price.</span></span> 
 
-在执行库存结转前，仍可以彼此标记这两个交易记录。 
+<span data-ttu-id="ee624-308">在执行库存结转前，仍可以彼此标记这两个交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-308">Before inventory close is performed, these two transactions can still be marked to each other.</span></span> 
 
-将收货交易记录标记到某一发货交易记录。 然后，将不考虑为物料模型组中选择的求值方法，并且此系统将彼此结算这些交易记录。 
+<span data-ttu-id="ee624-309">将收货交易记录标记到某一发货交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-309">A receipt transaction is marked to an issue transaction.</span></span> <span data-ttu-id="ee624-310">然后，将不考虑为物料模型组中选择的求值方法，并且此系统将彼此结算这些交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-310">Then, the valuation method selected for the item’s item model group will be disregarded and the system will settle these transactions to each other.</span></span> 
 
-在过帐交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。 您可以从“销售订单详细信息”页上的销售订单行执行此操作。 在“标记”页上查看未结收货交易记录。 
+<span data-ttu-id="ee624-311">在过帐交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-311">You can mark an issue transaction to a receipt before the transaction is posted.</span></span> <span data-ttu-id="ee624-312">您可以从“销售订单详细信息”页上的销售订单行执行此操作。</span><span class="sxs-lookup"><span data-stu-id="ee624-312">You can do this from a sales order line in the Sales order details page.</span></span> <span data-ttu-id="ee624-313">在“标记”页上查看未结收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-313">The open receipt transactions are viewed in the Marking page.</span></span> 
 
-在过账交易记录只看，您可以将某一发货交易记录标记到某一收货交易记录。 您可以匹配或标记已过帐库存调整日记帐的清查过物料的未结收货交易记录的发货交易记录。 
+<span data-ttu-id="ee624-314">在过账交易记录只看，您可以将某一发货交易记录标记到某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-314">You can mark an issue transaction to a receipt after the transaction has been posted.</span></span> <span data-ttu-id="ee624-315">您可以匹配或标记已过帐库存调整日记帐的清查过物料的未结收货交易记录的发货交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-315">You can match or mark an issue transaction for an open reciept transaction for an inventoried item from a posted inventory adjustment journal.</span></span> 
 
-下图阐释了以下交易记录：
--   1a. 数量 1（单件成本为 USD 10.00）的库存实际收货。
--   1b. 数量 1（单件成本为 USD 10.00）的库存财务收货。
--   2a. 数量 1（单件成本为 USD 20.00）的库存实际收货。
--   2b. 数量 1（单件成本为 USD 20.00）的库存财务收货。
--   3a. 数量 1（单件成本为 USD 25.00）的库存实际收货。
--   4a. 数量 1（单件成本为 USD 30.00）的库存实际收货。
--   4b. 数量 1（单件成本为 USD 30.00）的库存财务收货。
--   5a. 数量 1（单件成本价为 USD 21.25）的库存实际发货（财务和实际更新的交易记录的移动平均）。
--   5b. 在过帐交易记录前将数量为 1 的库存财务发货标记为库存收货 2b。 此交易记录用成本价 USD 20.00 过帐。
--   6a. 数量 1（单件成本价为 USD 21.25）的库存实际发货。
--   7. 执行库存结转。 因为财务更新的交易记录标记为现有收货，所以将彼此结算这些交易记录并且不进行调整。
+<span data-ttu-id="ee624-316">下图阐释了以下交易记录：</span><span class="sxs-lookup"><span data-stu-id="ee624-316">The following transactions are illustrated in the graphic below:</span></span>
+-   <span data-ttu-id="ee624-317">1a.</span><span class="sxs-lookup"><span data-stu-id="ee624-317">1a.</span></span> <span data-ttu-id="ee624-318">数量 1（单件成本为 USD 10.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-318">Inventory physical receipt for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="ee624-319">1b.</span><span class="sxs-lookup"><span data-stu-id="ee624-319">1b.</span></span> <span data-ttu-id="ee624-320">数量 1（单件成本为 USD 10.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-320">Inventory financial receipt for a quantity of 1 at a cost of USD 10.00 each.</span></span>
+-   <span data-ttu-id="ee624-321">2a.</span><span class="sxs-lookup"><span data-stu-id="ee624-321">2a.</span></span> <span data-ttu-id="ee624-322">数量 1（单件成本为 USD 20.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-322">Inventory physical receipt for a quantity of 1 at a cost of USD 20.00 each.</span></span>
+-   <span data-ttu-id="ee624-323">2b.</span><span class="sxs-lookup"><span data-stu-id="ee624-323">2b.</span></span> <span data-ttu-id="ee624-324">数量 1（单件成本为 USD 20.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-324">Inventory financial receipt for a quantity of 1 at a cost of USD 20.00 each.</span></span>
+-   <span data-ttu-id="ee624-325">3a.</span><span class="sxs-lookup"><span data-stu-id="ee624-325">3a.</span></span> <span data-ttu-id="ee624-326">数量 1（单件成本为 USD 25.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-326">Inventory physical receipt for a quantity of 1 at a cost of USD 25.00 each.</span></span>
+-   <span data-ttu-id="ee624-327">4a.</span><span class="sxs-lookup"><span data-stu-id="ee624-327">4a.</span></span> <span data-ttu-id="ee624-328">数量 1（单件成本为 USD 30.00）的库存实际收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-328">Inventory physical receipt for a quantity of 1 at a cost of USD 30.00 each.</span></span>
+-   <span data-ttu-id="ee624-329">4b.</span><span class="sxs-lookup"><span data-stu-id="ee624-329">4b.</span></span> <span data-ttu-id="ee624-330">数量 1（单件成本为 USD 30.00）的库存财务收货。</span><span class="sxs-lookup"><span data-stu-id="ee624-330">Inventory financial receipt for a quantity of 1 at a cost of USD 30.00 each.</span></span>
+-   <span data-ttu-id="ee624-331">5a.</span><span class="sxs-lookup"><span data-stu-id="ee624-331">5a.</span></span> <span data-ttu-id="ee624-332">数量 1（单件成本价为 USD 21.25）的库存实际发货（财务和实际更新的交易记录的移动平均）。</span><span class="sxs-lookup"><span data-stu-id="ee624-332">Inventory physical issue for a quantity of 1 at a cost price USD 21.25 (running average of financial and physical updated transactions).</span></span>
+-   <span data-ttu-id="ee624-333">5b.</span><span class="sxs-lookup"><span data-stu-id="ee624-333">5b.</span></span> <span data-ttu-id="ee624-334">在过帐交易记录前将数量为 1 的库存财务发货标记为库存收货 2b。</span><span class="sxs-lookup"><span data-stu-id="ee624-334">Inventory financial issue for a quantity of 1 is marked to the inventory receipt 2b before the transaction is posted.</span></span> <span data-ttu-id="ee624-335">此交易记录用成本价 USD 20.00 过帐。</span><span class="sxs-lookup"><span data-stu-id="ee624-335">This transaction is posted with a cost price of USD 20.00.</span></span>
+-   <span data-ttu-id="ee624-336">6a.</span><span class="sxs-lookup"><span data-stu-id="ee624-336">6a.</span></span> <span data-ttu-id="ee624-337">数量 1（单件成本价为 USD 21.25）的库存实际发货。</span><span class="sxs-lookup"><span data-stu-id="ee624-337">Inventory physical issue for a quantity of 1 at a cost price of USD 21.25 each.</span></span>
+-   <span data-ttu-id="ee624-338">7. 执行库存结转。</span><span class="sxs-lookup"><span data-stu-id="ee624-338">7 Inventory close is performed.</span></span> <span data-ttu-id="ee624-339">因为财务更新的交易记录标记为现有收货，所以将彼此结算这些交易记录并且不进行调整。</span><span class="sxs-lookup"><span data-stu-id="ee624-339">Since the financially updated transaction is marked to an existing receipt these transactions are settled to each other and no adjustment is made.</span></span>
 
-新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。 
+<span data-ttu-id="ee624-340">新的移动平均成本价反映按 USD 27.50 的财务和实际更新的交易记录的平均价。</span><span class="sxs-lookup"><span data-stu-id="ee624-340">The new running average cost price reflects the average of the financially and physically updated transactions at USD 27.50.</span></span> 
 
-下图说明在选择具有标记的加权平均库存模型的情况下此系列的交易记录。 
+<span data-ttu-id="ee624-341">下图说明在选择具有标记的加权平均库存模型的情况下此系列的交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee624-341">The following diagram illustrates this series of transactions with the effects of choosing the Weighted average inventory model with marking.</span></span> 
 
 ![具有标记的加权平均](./media/weightedaveragewithmarking.gif) 
 
-**图形要点**
--   库存交易记录用垂直箭头表示。
--   入库用时间线上的垂直箭头表示。
--   出库用时间线下的垂直箭头表示。
--   在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。
--   用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。
--   没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。
--   每个新的收货或发货交易记录都用一个新标签标明。
--   每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
--   库存结转用红色的垂直虚线以及“库存结转”标签表示。
--   由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。
+<span data-ttu-id="ee624-343">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="ee624-343">**Key to diagram**</span></span>
+-   <span data-ttu-id="ee624-344">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-344">Inventory transactions are represented by vertical arrows.</span></span>
+-   <span data-ttu-id="ee624-345">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-345">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+-   <span data-ttu-id="ee624-346">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-346">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+-   <span data-ttu-id="ee624-347">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="ee624-347">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+-   <span data-ttu-id="ee624-348">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-348">An inventory transaction value enclosed in brackets indicates that the inventory transaction is physically posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-349">没有用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="ee624-349">An inventory transaction value without brackets indicates that the inventory transaction is financially posted into inventory.</span></span>
+-   <span data-ttu-id="ee624-350">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="ee624-350">Each new receipt or issue transaction is designated with a new label.</span></span>
+-   <span data-ttu-id="ee624-351">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="ee624-351">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="ee624-352">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="ee624-352">The identifiers indicate the sequence of inventory transaction postings in the timeline.</span></span>
+-   <span data-ttu-id="ee624-353">库存结转用红色的垂直虚线以及“库存结转”标签表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-353">Inventory closings are represented by a red vertical dashed line and the label Inventory Close.</span></span>
+-   <span data-ttu-id="ee624-354">由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="ee624-354">Settlements that are performed by inventory close are represented by dotted red arrows going diagonally from a receipt to an issue.</span></span>
 
 
 

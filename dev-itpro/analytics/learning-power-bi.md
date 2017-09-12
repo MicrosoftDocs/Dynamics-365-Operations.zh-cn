@@ -16,58 +16,58 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: a3f28d21a7e73d3ad462c5cc37198dd2b6f5f8af
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: b74e32d9a751adedd8e0e9c2a01834fec759c650
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="learning-power-bi-content"></a>学习 Power BI 内容
+# <a name="learning-power-bi-content"></a><span data-ttu-id="232d9-104">学习 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="232d9-104">Learning Power BI content</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-此主题描述**学习** Microsoft Power BI 内容。 它说明如何访问该内容，并描述用于构建该内容的数据模型和实体。
+<span data-ttu-id="232d9-105">此主题描述**学习** Microsoft Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="232d9-105">This topic describes the **Learning** Microsoft Power BI content.</span></span> <span data-ttu-id="232d9-106">它说明如何访问该内容，并描述用于构建该内容的数据模型和实体。</span><span class="sxs-lookup"><span data-stu-id="232d9-106">It explains how to access the content, and describes the data model and entities that were used to build the content.</span></span>
 
-## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="232d9-107">访问 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="232d9-107">Accessing the Power BI content</span></span>
 
-如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，您可以查找 Microsoft Dynamics Lifecycle Services (LCS) 共享资产库中的**学习** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。
+<span data-ttu-id="232d9-108">如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，您可以查找 Microsoft Dynamics Lifecycle Services (LCS) 共享资产库中的**学习** Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="232d9-108">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, you can find the **Learning** Power BI content in the Shared assets library in Microsoft Dynamics Lifecycle Services (LCS).</span></span> <span data-ttu-id="232d9-109">有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。</span><span class="sxs-lookup"><span data-stu-id="232d9-109">For more information about how to download the content and implement it in your organization, see [Power BI content in LCS from Microsoft and your partners](power-bi-content-microsoft-partners.md).</span></span> <span data-ttu-id="232d9-110">若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。</span><span class="sxs-lookup"><span data-stu-id="232d9-110">To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.</span></span>
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="232d9-111">此 Power BI 内容中包含的报表</span><span class="sxs-lookup"><span data-stu-id="232d9-111">Reports that are included in the Power BI content</span></span>
 
-**学习** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
+<span data-ttu-id="232d9-112">**学习** Power BI 内容中包含的报表有图表和表，其中包含更多信息。</span><span class="sxs-lookup"><span data-stu-id="232d9-112">The reports that are included in the **Learning** Power BI content have both charts and tables that contain additional information.</span></span> <span data-ttu-id="232d9-113">下表对报表进行了描述。</span><span class="sxs-lookup"><span data-stu-id="232d9-113">The following table describes the reports.</span></span>
 
-| 报告                | 内容 |
+| <span data-ttu-id="232d9-114">报告</span><span class="sxs-lookup"><span data-stu-id="232d9-114">Report</span></span>                | <span data-ttu-id="232d9-115">内容</span><span class="sxs-lookup"><span data-stu-id="232d9-115">Contents</span></span> |
 |-----------------------|----------|
-| 学习概览     | 其他报表的汇总 |
-| 课程分析       | 按位置分类的登记、按状态分类的参与者、各公司按类型分类的课程，以及按作业分类的课程参与者 |
-| 登记分析 | 登记列表 |
-| 课程类型          | 课程类型(按技能) |
-| 教师分析   | 课程与教师的比率、教师数量、按教师分类的课程、各教师的课程，以及按教师分类的课程安排 |
-| 提供的课程       | 课程列表 |
-| 课程设计        | 课程安排 |
+| <span data-ttu-id="232d9-116">学习概览</span><span class="sxs-lookup"><span data-stu-id="232d9-116">Learning Overview</span></span>     | <span data-ttu-id="232d9-117">其他报表的汇总</span><span class="sxs-lookup"><span data-stu-id="232d9-117">Summary of other reports</span></span> |
+| <span data-ttu-id="232d9-118">课程分析</span><span class="sxs-lookup"><span data-stu-id="232d9-118">Course Analysis</span></span>       | <span data-ttu-id="232d9-119">按位置分类的登记、按状态分类的参与者、各公司按类型分类的课程，以及按作业分类的课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-119">Registration by location, attendee by status, courses by type per company, and course attendance by job</span></span> |
+| <span data-ttu-id="232d9-120">登记分析</span><span class="sxs-lookup"><span data-stu-id="232d9-120">Registration Analysis</span></span> | <span data-ttu-id="232d9-121">登记列表</span><span class="sxs-lookup"><span data-stu-id="232d9-121">Registration list</span></span> |
+| <span data-ttu-id="232d9-122">课程类型</span><span class="sxs-lookup"><span data-stu-id="232d9-122">Course Types</span></span>          | <span data-ttu-id="232d9-123">课程类型(按技能)</span><span class="sxs-lookup"><span data-stu-id="232d9-123">Course types by skill</span></span> |
+| <span data-ttu-id="232d9-124">教师分析</span><span class="sxs-lookup"><span data-stu-id="232d9-124">Instructor Analysis</span></span>   | <span data-ttu-id="232d9-125">课程与教师的比率、教师数量、按教师分类的课程、各教师的课程，以及按教师分类的课程安排</span><span class="sxs-lookup"><span data-stu-id="232d9-125">Ratio of courses to instructors, number of instructors, courses by instructor, courses per instructor, and course agenda by instructor</span></span> |
+| <span data-ttu-id="232d9-126">提供的课程</span><span class="sxs-lookup"><span data-stu-id="232d9-126">Courses Offered</span></span>       | <span data-ttu-id="232d9-127">课程列表</span><span class="sxs-lookup"><span data-stu-id="232d9-127">List of courses</span></span> |
+| <span data-ttu-id="232d9-128">课程设计</span><span class="sxs-lookup"><span data-stu-id="232d9-128">Courses Design</span></span>        | <span data-ttu-id="232d9-129">课程安排</span><span class="sxs-lookup"><span data-stu-id="232d9-129">Course agenda</span></span> |
 
-可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
+<span data-ttu-id="232d9-130">可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。</span><span class="sxs-lookup"><span data-stu-id="232d9-130">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="232d9-131">有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。</span><span class="sxs-lookup"><span data-stu-id="232d9-131">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
-## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="232d9-132">了解数据模型和实体</span><span class="sxs-lookup"><span data-stu-id="232d9-132">Understanding the data model and entities</span></span>
 
-以下数据用于填充**学习** Power BI 内容中的报表。 此表显示内容所基于的实体。
+<span data-ttu-id="232d9-133">以下数据用于填充**学习** Power BI 内容中的报表。</span><span class="sxs-lookup"><span data-stu-id="232d9-133">The following data is used to fill the reports in the **Learning** Power BI content.</span></span> <span data-ttu-id="232d9-134">此表显示内容所基于的实体。</span><span class="sxs-lookup"><span data-stu-id="232d9-134">This table shows the entities that the content was based on.</span></span>
 
-| 实体           | 内容                                                         | 与其他实体之间的关系 |
+| <span data-ttu-id="232d9-135">实体</span><span class="sxs-lookup"><span data-stu-id="232d9-135">Entity</span></span>           | <span data-ttu-id="232d9-136">内容</span><span class="sxs-lookup"><span data-stu-id="232d9-136">Contents</span></span>                                                         | <span data-ttu-id="232d9-137">与其他实体之间的关系</span><span class="sxs-lookup"><span data-stu-id="232d9-137">Relationships with other entities</span></span> |
 |------------------|------------------------------------------------------------------|-----------------------------------|
-| 日历偏差  | 要切分的日历偏差报表                                | 课程安排、课程参与者 |
-| 公司          | 充当报表筛选依据的公司                                   | 课程安排、课程参与者 |
-| 课程           | 课程、描述、教师姓名、位置、教室和状态 | 课程安排、课程参与者、课程技能 |
-| 课程安排    | 课程安排、课程和开始时间和结束时间                          | 公司、日历偏差、日期、课程 |
-| 课程参与者 | 名称、状态、作业和登记日期                         | 公司、日历偏差、日期、课程、人口统计学、雇用、课程、员工姓名、员工职务、作业、职位 |
-| 课程技能     | 技能、技能类型和级别                                     | 课程 |
-| 日期             | 天数、周数、月数和年数                                   | 课程安排、课程参与者 |
-| 人口统计数据     | 生日、性别、种族和婚姻状况         | 课程安排、课程参与者 |
-| 雇用       | 开始日期、结束日期和转换日期                        | 课程安排、课程参与者 |
-| 作业              | 功能，类型和标题                                        | 课程安排、课程参与者 |
-| 位置         | 职位、职务和全职等效 (FTE)                  | 课程安排、课程参与者 |
-| 员工姓名    | 名字、姓氏和全名                             | 课程参与者 |
-| 员工职务   | 职务和资历日期                                         | 课程参与者 |
+| <span data-ttu-id="232d9-138">日历偏差</span><span class="sxs-lookup"><span data-stu-id="232d9-138">Calendar Offset</span></span>  | <span data-ttu-id="232d9-139">要切分的日历偏差报表</span><span class="sxs-lookup"><span data-stu-id="232d9-139">Calendar offsets to slice reports</span></span>                                | <span data-ttu-id="232d9-140">课程安排、课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-140">Course Agenda, Course Attendees</span></span> |
+| <span data-ttu-id="232d9-141">公司</span><span class="sxs-lookup"><span data-stu-id="232d9-141">Company</span></span>          | <span data-ttu-id="232d9-142">充当报表筛选依据的公司</span><span class="sxs-lookup"><span data-stu-id="232d9-142">Companies to filter reports by</span></span>                                   | <span data-ttu-id="232d9-143">课程安排、课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-143">Course Agenda, Course Attendees</span></span> |
+| <span data-ttu-id="232d9-144">课程</span><span class="sxs-lookup"><span data-stu-id="232d9-144">Course</span></span>           | <span data-ttu-id="232d9-145">课程、描述、教师姓名、位置、教室和状态</span><span class="sxs-lookup"><span data-stu-id="232d9-145">Course, description, instructor name, location, room, and status</span></span> | <span data-ttu-id="232d9-146">课程安排、课程参与者、课程技能</span><span class="sxs-lookup"><span data-stu-id="232d9-146">Course Agenda, Course Attendees, Course Skill</span></span> |
+| <span data-ttu-id="232d9-147">课程安排</span><span class="sxs-lookup"><span data-stu-id="232d9-147">Course Agenda</span></span>    | <span data-ttu-id="232d9-148">课程安排、课程和开始时间和结束时间</span><span class="sxs-lookup"><span data-stu-id="232d9-148">Agenda, course, and start and end times</span></span>                          | <span data-ttu-id="232d9-149">公司、日历偏差、日期、课程</span><span class="sxs-lookup"><span data-stu-id="232d9-149">Company, Calendar Offset, Date, Course</span></span> |
+| <span data-ttu-id="232d9-150">课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-150">Course Attendees</span></span> | <span data-ttu-id="232d9-151">名称、状态、作业和登记日期</span><span class="sxs-lookup"><span data-stu-id="232d9-151">Name, status, job, and registration date</span></span>                         | <span data-ttu-id="232d9-152">公司、日历偏差、日期、课程、人口统计学、雇用、课程、员工姓名、员工职务、作业、职位</span><span class="sxs-lookup"><span data-stu-id="232d9-152">Company, Calendar Offset, Date, Course, Demographics, Employment, Course, Employee Name, Employee Title, Job, Position</span></span> |
+| <span data-ttu-id="232d9-153">课程技能</span><span class="sxs-lookup"><span data-stu-id="232d9-153">Course Skill</span></span>     | <span data-ttu-id="232d9-154">技能、技能类型和级别</span><span class="sxs-lookup"><span data-stu-id="232d9-154">Skill, skill type, and level</span></span>                                     | <span data-ttu-id="232d9-155">课程</span><span class="sxs-lookup"><span data-stu-id="232d9-155">Course</span></span> |
+| <span data-ttu-id="232d9-156">日期</span><span class="sxs-lookup"><span data-stu-id="232d9-156">Date</span></span>             | <span data-ttu-id="232d9-157">天数、周数、月数和年数</span><span class="sxs-lookup"><span data-stu-id="232d9-157">Days, weeks, months, and years</span></span>                                   | <span data-ttu-id="232d9-158">课程安排、课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-158">Course Agenda, Course Attendees</span></span> |
+| <span data-ttu-id="232d9-159">人口统计数据</span><span class="sxs-lookup"><span data-stu-id="232d9-159">Demographics</span></span>     | <span data-ttu-id="232d9-160">生日、性别、种族和婚姻状况</span><span class="sxs-lookup"><span data-stu-id="232d9-160">Date of birth, gender, ethnic origin, and marital status</span></span>         | <span data-ttu-id="232d9-161">课程安排、课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-161">Course Agenda, Course Attendees</span></span> |
+| <span data-ttu-id="232d9-162">雇用</span><span class="sxs-lookup"><span data-stu-id="232d9-162">Employment</span></span>       | <span data-ttu-id="232d9-163">开始日期、结束日期和转换日期</span><span class="sxs-lookup"><span data-stu-id="232d9-163">Start date, end date, and transition date</span></span>                        | <span data-ttu-id="232d9-164">课程安排、课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-164">Course Agenda, Course Attendees</span></span> |
+| <span data-ttu-id="232d9-165">作业</span><span class="sxs-lookup"><span data-stu-id="232d9-165">Job</span></span>              | <span data-ttu-id="232d9-166">功能，类型和标题</span><span class="sxs-lookup"><span data-stu-id="232d9-166">Function, type, and title</span></span>                                        | <span data-ttu-id="232d9-167">课程安排、课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-167">Course Agenda, Course Attendees</span></span> |
+| <span data-ttu-id="232d9-168">位置</span><span class="sxs-lookup"><span data-stu-id="232d9-168">Position</span></span>         | <span data-ttu-id="232d9-169">职位、职务和全职等效 (FTE)</span><span class="sxs-lookup"><span data-stu-id="232d9-169">Position, title, and full-time equivalent (FTE)</span></span>                  | <span data-ttu-id="232d9-170">课程安排、课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-170">Course Agenda, Course Attendees</span></span> |
+| <span data-ttu-id="232d9-171">员工姓名</span><span class="sxs-lookup"><span data-stu-id="232d9-171">Employee Name</span></span>    | <span data-ttu-id="232d9-172">名字、姓氏和全名</span><span class="sxs-lookup"><span data-stu-id="232d9-172">First name, last name, and full name</span></span>                             | <span data-ttu-id="232d9-173">课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-173">Course Attendees</span></span> |
+| <span data-ttu-id="232d9-174">员工职务</span><span class="sxs-lookup"><span data-stu-id="232d9-174">Employee Title</span></span>   | <span data-ttu-id="232d9-175">职务和资历日期</span><span class="sxs-lookup"><span data-stu-id="232d9-175">Title and seniority date</span></span>                                         | <span data-ttu-id="232d9-176">课程参与者</span><span class="sxs-lookup"><span data-stu-id="232d9-176">Course Attendees</span></span> |
 
-这些实体用于在数据模型中创建计算度量值。 然后，这些计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。 如果要在报表和仪表板中包含更多计算，可以从 LCS 下载 .pbix 文件并修改。 此文件是用于创建内容的默认数据模型。 修改后，可以创建包含您已添加的信息的组织内容包和仪表板。
+<span data-ttu-id="232d9-177">这些实体用于在数据模型中创建计算度量值。</span><span class="sxs-lookup"><span data-stu-id="232d9-177">These entities were used to create calculated measures in the data model.</span></span> <span data-ttu-id="232d9-178">然后，这些计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。</span><span class="sxs-lookup"><span data-stu-id="232d9-178">These calculated measures are then used to calculate the key performance indicators (KPIs) and reports that are used in the content.</span></span> <span data-ttu-id="232d9-179">如果要在报表和仪表板中包含更多计算，可以从 LCS 下载 .pbix 文件并修改。</span><span class="sxs-lookup"><span data-stu-id="232d9-179">If you want to include additional calculations on your reports and dashboard, you can download and modify the .pbix file from LCS.</span></span> <span data-ttu-id="232d9-180">此文件是用于创建内容的默认数据模型。</span><span class="sxs-lookup"><span data-stu-id="232d9-180">This file is the default data model that was used to create the content.</span></span> <span data-ttu-id="232d9-181">修改后，可以创建包含您已添加的信息的组织内容包和仪表板。</span><span class="sxs-lookup"><span data-stu-id="232d9-181">After you've made modifications, you can create an organizational content pack and dashboard that contain the information that you’ve added.</span></span>
 

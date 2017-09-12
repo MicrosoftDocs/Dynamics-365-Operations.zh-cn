@@ -16,51 +16,51 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e84432faf32e519059a21d2b56e320a46599c1e8
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: adb759c59d7275e7323dbb760de56acdef2e3cff
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="create-a-vendor-bank-account"></a>创建供应商银行帐户
+# <a name="create-a-vendor-bank-account"></a><span data-ttu-id="34409-103">创建供应商银行帐户</span><span class="sxs-lookup"><span data-stu-id="34409-103">Create a vendor bank account</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-此过程演示如何为供应商创建银行帐户。 您可以在演示数据公司 USMF 中使用此过程。
+<span data-ttu-id="34409-104">此过程演示如何为供应商创建银行帐户。</span><span class="sxs-lookup"><span data-stu-id="34409-104">This procedure shows you how to create a bank account for a vendor.</span></span> <span data-ttu-id="34409-105">您可以在演示数据公司 USMF 中使用此过程。</span><span class="sxs-lookup"><span data-stu-id="34409-105">You can use this procedure in demo data company USMF.</span></span>
 
-1. 转到“采购”>“供应商”>“所有供应商”。
-2. 选择要为其创建银行帐户的供应商，然后单击“供应商帐户 ID”中的链接。
-3. 在“操作窗格”上，单击“供应商”。
-4. 单击“银行帐户”。
-5. 单击“新建”。
-6. 在“银行帐户”字段中，键入一个值。
-    * 此 ID 将用于识别供应商记录中的银行帐户。  
-7. 在“名称”字段中，键入一个值。
-8. 在“银行组”字段中，输入或选择一个值。
-9. 在“银行代号类型”字段中选择一个选项。
-    * 这是用于国际支付的银行代号的类型。  
-10. 在“银行帐号”字段中，输入一个值。
-11. 在“SWIFT 代码”字段中，键入一个值。
-12. 在“IBAN”字段，键入一个值。
-    * IBAN 编号的格式必须正确。 例如，您可以使用 DE89370400440532013000。  
-    * 如果已到达生效日期，但尚未超过到期日期，则银行帐户的状态为“有效”。 如果“生效日期”和“到期日期”字段均为空白，则也是处于“有效”状态。 如果“生效日期”和“到期日期”字段中的日期均为未来日期，则不可使用电子付款。 可使用其他付款类型，且银行帐户有效。  
-13. 展开“设置”部分。
-14. 在“文本代码”字段中，键入一个值。
-    * 此字段指定接收方的银行对帐单上显示的代码。  
-15. 在“发送给银行的消息”字段中，键入一个值。
-16. 在“汇率参考”字段中，键入一个值。
-    * 这是任何远期汇率或定期汇率的参考编号。  
-17. 在“货币”字段中，输入或选择一个值。
-    * 当发布预验证时，此部分提供其状态（待定或已审核）的概述。  
-18. 展开“地址”部分。
-19. 展开“预验证”部分。
-20. 展开“联系信息”部分。
-21. 在“电话”字段，输入一个值。
-22. 关闭该页面。
-23. 单击“编辑”。
-24. 展开付款窗口。
-25. 在“银行帐户”字段中，选择您刚才创建的帐户。
-26. 单击“保存”。
-    * 地址可以从银行组继承（如果已指定），也可以在此处添加。  
+1. <span data-ttu-id="34409-106">转到“采购”>“供应商”>“所有供应商”。</span><span class="sxs-lookup"><span data-stu-id="34409-106">Go to Procurement and sourcing > Vendors > All vendors.</span></span>
+2. <span data-ttu-id="34409-107">选择要为其创建银行帐户的供应商，然后单击“供应商帐户 ID”中的链接。</span><span class="sxs-lookup"><span data-stu-id="34409-107">Select the vendor that you want to create a bank account for, and then click the link on the Vendor account ID.</span></span>
+3. <span data-ttu-id="34409-108">在“操作窗格”上，单击“供应商”。</span><span class="sxs-lookup"><span data-stu-id="34409-108">On the Action Pane, click Vendor.</span></span>
+4. <span data-ttu-id="34409-109">单击“银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="34409-109">Click Bank accounts.</span></span>
+5. <span data-ttu-id="34409-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="34409-110">Click New.</span></span>
+6. <span data-ttu-id="34409-111">在“银行帐户”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-111">In the Bank account field, type a value.</span></span>
+    * <span data-ttu-id="34409-112">此 ID 将用于识别供应商记录中的银行帐户。</span><span class="sxs-lookup"><span data-stu-id="34409-112">This ID will be used to identify the bank account on the vendor record.</span></span>  
+7. <span data-ttu-id="34409-113">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-113">In the Name field, type a value.</span></span>
+8. <span data-ttu-id="34409-114">在“银行组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-114">In the Bank groups field, enter or select a value.</span></span>
+9. <span data-ttu-id="34409-115">在“银行代号类型”字段中选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="34409-115">In the Routing number type field, select an option.</span></span>
+    * <span data-ttu-id="34409-116">这是用于国际支付的银行代号的类型。</span><span class="sxs-lookup"><span data-stu-id="34409-116">This is the type of routing number that’s used for international payments.</span></span>  
+10. <span data-ttu-id="34409-117">在“银行帐号”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-117">In the Bank account number field, type a value.</span></span>
+11. <span data-ttu-id="34409-118">在“SWIFT 代码”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-118">In the SWIFT code field, type a value.</span></span>
+12. <span data-ttu-id="34409-119">在“IBAN”字段，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-119">In the IBAN field, type a value.</span></span>
+    * <span data-ttu-id="34409-120">IBAN 编号的格式必须正确。</span><span class="sxs-lookup"><span data-stu-id="34409-120">The IBAN number must be in the correct format.</span></span> <span data-ttu-id="34409-121">例如，您可以使用 DE89370400440532013000。</span><span class="sxs-lookup"><span data-stu-id="34409-121">For example, you could use DE89370400440532013000.</span></span>  
+    * <span data-ttu-id="34409-122">如果已到达生效日期，但尚未超过到期日期，则银行帐户的状态为“有效”。</span><span class="sxs-lookup"><span data-stu-id="34409-122">The status of the bank account is Active if the Active date has been reached, and the Expiration date has not been exceeded.</span></span> <span data-ttu-id="34409-123">如果“生效日期”和“到期日期”字段均为空白，则也是处于“有效”状态。</span><span class="sxs-lookup"><span data-stu-id="34409-123">It’s also active if both the Active date and Expiration date fields are blank.</span></span> <span data-ttu-id="34409-124">如果“生效日期”和“到期日期”字段中的日期均为未来日期，则不可使用电子付款。</span><span class="sxs-lookup"><span data-stu-id="34409-124">If the dates in both the Active date and Expiration date fields are in the future electronic payments are not available.</span></span> <span data-ttu-id="34409-125">可使用其他付款类型，且银行帐户有效。</span><span class="sxs-lookup"><span data-stu-id="34409-125">Other payment types are available and the bank account is active.</span></span>  
+13. <span data-ttu-id="34409-126">展开“设置”部分。</span><span class="sxs-lookup"><span data-stu-id="34409-126">Expand the Setup section.</span></span>
+14. <span data-ttu-id="34409-127">在“文本代码”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-127">In the Text code field, type a value.</span></span>
+    * <span data-ttu-id="34409-128">此字段指定接收方的银行对帐单上显示的代码。</span><span class="sxs-lookup"><span data-stu-id="34409-128">This field specifies a code that will appear on the bank statement of the recipient.</span></span>  
+15. <span data-ttu-id="34409-129">在“发送给银行的消息”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-129">In the Message to bank field, type a value.</span></span>
+16. <span data-ttu-id="34409-130">在“汇率参考”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-130">In the Exchange reference field, type a value.</span></span>
+    * <span data-ttu-id="34409-131">这是任何远期汇率或定期汇率的参考编号。</span><span class="sxs-lookup"><span data-stu-id="34409-131">This is the reference number for any forward-term or fixed-term rate of exchange.</span></span>  
+17. <span data-ttu-id="34409-132">在“货币”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-132">In the Currency field, enter or select a value.</span></span>
+    * <span data-ttu-id="34409-133">当发布预验证时，此部分提供其状态（待定或已审核）的概述。</span><span class="sxs-lookup"><span data-stu-id="34409-133">When prenotes are issued, this section provides an overview of their status (pending or approved).</span></span>  
+18. <span data-ttu-id="34409-134">展开“地址”部分。</span><span class="sxs-lookup"><span data-stu-id="34409-134">Expand the Address section.</span></span>
+19. <span data-ttu-id="34409-135">展开“预验证”部分。</span><span class="sxs-lookup"><span data-stu-id="34409-135">Expand the Prenotes section.</span></span>
+20. <span data-ttu-id="34409-136">展开“联系信息”部分。</span><span class="sxs-lookup"><span data-stu-id="34409-136">Expand the Contact information section.</span></span>
+21. <span data-ttu-id="34409-137">在“电话”字段，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="34409-137">In the Telephone field, type a value.</span></span>
+22. <span data-ttu-id="34409-138">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="34409-138">Close the page.</span></span>
+23. <span data-ttu-id="34409-139">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="34409-139">Click Edit.</span></span>
+24. <span data-ttu-id="34409-140">展开付款窗口。</span><span class="sxs-lookup"><span data-stu-id="34409-140">Expand the Payment section.</span></span>
+25. <span data-ttu-id="34409-141">在“银行帐户”字段中，选择您刚才创建的帐户。</span><span class="sxs-lookup"><span data-stu-id="34409-141">In the Bank  account field, select the account that you’ve just created.</span></span>
+26. <span data-ttu-id="34409-142">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="34409-142">Click Save.</span></span>
+    * <span data-ttu-id="34409-143">地址可以从银行组继承（如果已指定），也可以在此处添加。</span><span class="sxs-lookup"><span data-stu-id="34409-143">The address may be inherited from the bank group, if one is specified, or you can add it here.</span></span>  
 
 

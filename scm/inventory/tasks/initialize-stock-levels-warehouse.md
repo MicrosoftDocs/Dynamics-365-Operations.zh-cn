@@ -1,4 +1,4 @@
---- 
+---
 title: "初始化仓库中的库存级别"
 description: "该过程说明如何利用“库存移动日记帐”手动更新现有库存。"
 author: perlynne
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 953125ae6e9d669bd13a3344c9f679747af6ff93
+ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.openlocfilehash: 45c93febbbc4ea78fe2b87735ed96fd773605d96
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/12/2017
 
 ---
 # 初始化仓库中的库存级别
@@ -58,5 +58,4 @@ ms.lasthandoff: 07/27/2017
 24. 单击“确定”。
 25. 关闭该页面。
 26. 关闭该页面。
-
 

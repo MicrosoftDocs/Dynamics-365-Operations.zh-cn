@@ -20,48 +20,48 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: c04fee4b08e95e9a642375c661c06a4351e22b7e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 79582e92daeaf0afb032448d36be12edd0926089
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>站点覆盖范围的主计划，仓库非必需
+# <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a><span data-ttu-id="00932-103">站点覆盖范围的主计划，仓库非必需</span><span class="sxs-lookup"><span data-stu-id="00932-103">Master planning for site coverage, warehouse not mandatory</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-此主题介绍如何计划为覆盖范围设置站点维度的物料。
+<span data-ttu-id="00932-104">此主题介绍如何计划为覆盖范围设置站点维度的物料。</span><span class="sxs-lookup"><span data-stu-id="00932-104">This topic describes how an item that has the site dimension set for coverage is planned.</span></span>
 
-此主计划方案涉及以下情况：
+<span data-ttu-id="00932-105">此主计划方案涉及以下情况：</span><span class="sxs-lookup"><span data-stu-id="00932-105">This master planning scenario involves the following conditions:</span></span>
 
--   站点维度设置为必填，必须在需求交易记录上输入。
--   仓库维度未设置为必填的。 仓库可能已知，但是它不在主计划计算中使用。
--   为覆盖范围计划设置站点维度。
--   不为覆盖范围计划设置仓库维度。 因此，按站点和还可能按其他覆盖范围计划维度聚合供应和需求。
+-   <span data-ttu-id="00932-106">站点维度设置为必填，必须在需求交易记录上输入。</span><span class="sxs-lookup"><span data-stu-id="00932-106">The site dimension is set to mandatory and must be entered on the demand transaction.</span></span>
+-   <span data-ttu-id="00932-107">仓库维度未设置为必填的。</span><span class="sxs-lookup"><span data-stu-id="00932-107">The warehouse dimension is not set to mandatory.</span></span> <span data-ttu-id="00932-108">仓库可能已知，但是它不在主计划计算中使用。</span><span class="sxs-lookup"><span data-stu-id="00932-108">The warehouse may be known, but it is not used in the master planning calculation.</span></span>
+-   <span data-ttu-id="00932-109">为覆盖范围计划设置站点维度。</span><span class="sxs-lookup"><span data-stu-id="00932-109">The site dimension is set for coverage planning.</span></span>
+-   <span data-ttu-id="00932-110">不为覆盖范围计划设置仓库维度。</span><span class="sxs-lookup"><span data-stu-id="00932-110">The warehouse dimension is not set for coverage planning.</span></span> <span data-ttu-id="00932-111">因此，按站点和还可能按其他覆盖范围计划维度聚合供应和需求。</span><span class="sxs-lookup"><span data-stu-id="00932-111">Therefore, supply and demand are aggregated by site and, perhaps, other coverage-planned dimensions also.</span></span>
 
-下图说明如何继续主计划。 图中引用的参数及其位置如下所示：
--   为物料定义物料覆盖范围。 单击**产品信息管理 &gt; 产品 &gt; 已发布产品**。 选择物料，然后单击**计划 &gt; 物料覆盖范围**。
--   为仓库定义重填关系。 单击**库存管理 &gt; 设置 &gt; 库存细分 &gt; 仓库**。 在**主计划**选项卡上，查看**主仓库**字段组。
--   默认订单类型设置为“生产”、“采购订单”或“看板”。 单击**产品信息管理 &gt; 产品 &gt; 已发布产品**。 选择物料，然后依次单击**计划 &gt; 默认订单设置**。 在**“默认订单设置”**窗体中，查看**“默认订单类型”**字段。
+<span data-ttu-id="00932-112">下图说明如何继续主计划。</span><span class="sxs-lookup"><span data-stu-id="00932-112">The following graphic illustrates how master planning proceeds.</span></span> <span data-ttu-id="00932-113">图中引用的参数及其位置如下所示：</span><span class="sxs-lookup"><span data-stu-id="00932-113">The parameters that are referred to in the graphic, and their locations, are as follows:</span></span>
+-   <span data-ttu-id="00932-114">为物料定义物料覆盖范围。</span><span class="sxs-lookup"><span data-stu-id="00932-114">Item coverage is defined for the item.</span></span> <span data-ttu-id="00932-115">单击**产品信息管理 &gt; 产品 &gt; 已发布产品**。</span><span class="sxs-lookup"><span data-stu-id="00932-115">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="00932-116">选择物料，然后单击**计划 &gt; 物料覆盖范围**。</span><span class="sxs-lookup"><span data-stu-id="00932-116">Select the item, and then click **Plan &gt; Item coverage**.</span></span>
+-   <span data-ttu-id="00932-117">为仓库定义重填关系。</span><span class="sxs-lookup"><span data-stu-id="00932-117">Refill relations are defined for the warehouse.</span></span> <span data-ttu-id="00932-118">单击**库存管理 &gt; 设置 &gt; 库存细分 &gt; 仓库**。</span><span class="sxs-lookup"><span data-stu-id="00932-118">Click **Inventory management &gt; Setup &gt; Inventory breakdown &gt; Warehouses**.</span></span> <span data-ttu-id="00932-119">在**主计划**选项卡上，查看**主仓库**字段组。</span><span class="sxs-lookup"><span data-stu-id="00932-119">On the **Master planning** tab, see the **Main warehouse** field group.</span></span>
+-   <span data-ttu-id="00932-120">默认订单类型设置为“生产”、“采购订单”或“看板”。</span><span class="sxs-lookup"><span data-stu-id="00932-120">The default order type is set to Production, Purchase order or Kanban.</span></span> <span data-ttu-id="00932-121">单击**产品信息管理 &gt; 产品 &gt; 已发布产品**。</span><span class="sxs-lookup"><span data-stu-id="00932-121">Click **Product information management &gt; Products&gt; Released products**.</span></span> <span data-ttu-id="00932-122">选择物料，然后依次单击**计划 &gt; 默认订单设置**。</span><span class="sxs-lookup"><span data-stu-id="00932-122">Select the item, and then click **Plan &gt; Default order settings**.</span></span> <span data-ttu-id="00932-123">在**“默认订单设置”**窗体中，查看**“默认订单类型”**字段。</span><span class="sxs-lookup"><span data-stu-id="00932-123">In the **Default order settings** form, see the **Default order type** field.</span></span>
 
 ![站点需求（覆盖范围仓库非必需）](./media/multisitedemandexplosionscenarioforsitecoveragewarehousenotmandatory.jpg)
 
 
 
-<a name="see-also"></a>请参阅
+<a name="see-also"></a><span data-ttu-id="00932-125">请参阅</span><span class="sxs-lookup"><span data-stu-id="00932-125">See also</span></span>
 --------
 
-[主计划和多站点功能](master-plan-multisite-functionality.md)
+[<span data-ttu-id="00932-126">主计划和多站点功能</span><span class="sxs-lookup"><span data-stu-id="00932-126">Master planning and multisite functionality</span></span>](master-plan-multisite-functionality.md)
 
-[主计划 - 站点覆盖范围，仓库是必需的](master-plan-site-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="00932-127">主计划 - 站点覆盖范围，仓库是必需的</span><span class="sxs-lookup"><span data-stu-id="00932-127">Master planning - site coverage, warehouse mandatory</span></span>](master-plan-site-coverage-warehouse-mandatory.md)
 
-[主计划 - 站点和仓库覆盖范围，仓库不是必需的](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+[<span data-ttu-id="00932-128">主计划 - 站点和仓库覆盖范围，仓库不是必需的</span><span class="sxs-lookup"><span data-stu-id="00932-128">Master planning - site and warehouse coverage, warehouse not mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
 
-[主计划 - 站点和仓库覆盖范围，仓库是必需的](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+[<span data-ttu-id="00932-129">主计划 - 站点和仓库覆盖范围，仓库是必需的</span><span class="sxs-lookup"><span data-stu-id="00932-129">Master planning - site and warehouse coverage, warehouse mandatory</span></span>](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
-[主计划 - 如何确定物料清单版本](master-plan-bom-version-determined.md)
+[<span data-ttu-id="00932-130">主计划 - 如何确定物料清单版本</span><span class="sxs-lookup"><span data-stu-id="00932-130">Master planning - how the BOM version is determined</span></span>](master-plan-bom-version-determined.md)
 
 
 

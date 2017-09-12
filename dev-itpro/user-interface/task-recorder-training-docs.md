@@ -19,113 +19,113 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 17b2b4b69bfe62977e09d7bc7bc2e4ba025f0986
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="create-documentation-or-training-using-task-recordings"></a>使用任务录制创建文档或培训
+# <a name="create-documentation-or-training-using-task-recordings"></a><span data-ttu-id="4da01-103">使用任务录制创建文档或培训</span><span class="sxs-lookup"><span data-stu-id="4da01-103">Create documentation or training using Task recordings</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
+<span data-ttu-id="4da01-104">此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。</span><span class="sxs-lookup"><span data-stu-id="4da01-104">This topic explains what Task recorder and task guides are, how to create task recordings, and how to customize Microsoft task guides and include them in your Help.</span></span>
 
 > [!IMPORTANT]
-> 您无法为 Dynamics 365 for Talent 创建自定义任务指南。 Talent 的帮助系统自动连接至产品的任务指南。 
+> <span data-ttu-id="4da01-105">您无法为 Dynamics 365 for Talent 创建自定义任务指南。</span><span class="sxs-lookup"><span data-stu-id="4da01-105">You cannot create custom task guides for Dynamics 365 for Talent.</span></span> <span data-ttu-id="4da01-106">Talent 的帮助系统自动连接至产品的任务指南。</span><span class="sxs-lookup"><span data-stu-id="4da01-106">The Help system for Talent is automatically connected to task guides for the product.</span></span> 
 
-<a name="learn-about-task-recorder"></a>了解任务录制器
+<a name="learn-about-task-recorder"></a><span data-ttu-id="4da01-107">了解任务录制器</span><span class="sxs-lookup"><span data-stu-id="4da01-107">Learn about Task recorder</span></span>
 -------------------------
 
-任务录制器是一种可用来记录您在产品用户界面 (UI) 上执行的操作的工具。 当您使用任务录制器时，将捕获您在 UI 中对服务器执行的所有事件（包括添加值、更改设置、删除数据）。 您记录的步骤统称为*任务录制*。 可通过多种方式使用任务录制：
+<span data-ttu-id="4da01-108">任务录制器是一种可用来记录您在产品用户界面 (UI) 上执行的操作的工具。</span><span class="sxs-lookup"><span data-stu-id="4da01-108">Task recorder is a tool that you can use to record actions that you take in the product user interface (UI).</span></span> <span data-ttu-id="4da01-109">当您使用任务录制器时，将捕获您在 UI 中对服务器执行的所有事件（包括添加值、更改设置、删除数据）。</span><span class="sxs-lookup"><span data-stu-id="4da01-109">When you use Task recorder, all of the events that you perform in the UI that are executed against the server—including adding values, changing settings, removing data—are captured.</span></span> <span data-ttu-id="4da01-110">您记录的步骤统称为*任务录制*。</span><span class="sxs-lookup"><span data-stu-id="4da01-110">The steps that you record are collectively called a *task recording*.</span></span> <span data-ttu-id="4da01-111">可通过多种方式使用任务录制：</span><span class="sxs-lookup"><span data-stu-id="4da01-111">Task recordings can be used in many ways:</span></span>
 
--   **任务录制可作为任务指南播放。** 任务指南是帮助体验的一个组成部分。 任务指南是通过业务流程执行的受控的、引导式、交互式的体验。 系统将通过弹出提示（或“气泡”）方式指示用户完成每个步骤，这将跨 UI 创建动画效果并指向用户应与之交互的 UI 元素。 “气泡”还提供了有关如何与元素进行交互的信息，如“单击此处”或“在此字段中，输入一个值”。 任务指南针对用户的当前数据集运行，而且输入的数据将保存在用户的环境中。
--   **任务录制可作为操作步骤显示在“帮助”窗格中。** 您可以使用“帮助”窗格搜索和显示任务录制。 您可以通过单击顶部导航栏中的 **?** 图标访问“帮助”窗格， 也可以使用快捷键组合 **Ctrl+Shift+?**。 您可以阅读“帮助”窗格中的任务录制步骤，也可以选择以任务指南方式播放录制以便其指导您完成 UI。
--   **任务录制可保存到 BPM。** 您可以将任务录制保存到 Lifecycle Services (LCS) 中业务流程建模器 (BPM) 中的层次结构行。 将从录制中生成一个步骤列表和一个业务流程图表。 已保存到 BPM 库中的任务录制可显示为帮助。
--   **任务录制可另存为 Word 文档。** 这将允许您轻松地生成可打印的培训指南。
+-   <span data-ttu-id="4da01-112">**任务录制可作为任务指南播放。**</span><span class="sxs-lookup"><span data-stu-id="4da01-112">**Task recordings can be played as task guides.**</span></span> <span data-ttu-id="4da01-113">任务指南是帮助体验的一个组成部分。</span><span class="sxs-lookup"><span data-stu-id="4da01-113">Task guides are an integral piece of the Help experience.</span></span> <span data-ttu-id="4da01-114">任务指南是通过业务流程执行的受控的、引导式、交互式的体验。</span><span class="sxs-lookup"><span data-stu-id="4da01-114">A task guide is a controlled, guided, interactive experience through the steps of a business process.</span></span> <span data-ttu-id="4da01-115">系统将通过弹出提示（或“气泡”）方式指示用户完成每个步骤，这将跨 UI 创建动画效果并指向用户应与之交互的 UI 元素。</span><span class="sxs-lookup"><span data-stu-id="4da01-115">The user is instructed to complete each step by way of a pop-up prompt (or "bubble"), which will animate across the UI and point to the UI element that the user should interact with.</span></span> <span data-ttu-id="4da01-116">“气泡”还提供了有关如何与元素进行交互的信息，如“单击此处”或“在此字段中，输入一个值”。</span><span class="sxs-lookup"><span data-stu-id="4da01-116">The "bubble" also provides information about how to interact with the element, such as “Click here” or “In this field, enter a value.”</span></span> <span data-ttu-id="4da01-117">任务指南针对用户的当前数据集运行，而且输入的数据将保存在用户的环境中。</span><span class="sxs-lookup"><span data-stu-id="4da01-117">A task guide runs against the user’s current data set and the data that is entered is saved in the user’s environment.</span></span>
+-   <span data-ttu-id="4da01-118">**任务录制可作为操作步骤显示在“帮助”窗格中。**</span><span class="sxs-lookup"><span data-stu-id="4da01-118">**Task recordings can be displayed as procedural steps in the Help pane.**</span></span> <span data-ttu-id="4da01-119">您可以使用“帮助”窗格搜索和显示任务录制。</span><span class="sxs-lookup"><span data-stu-id="4da01-119">You can use the Help pane to search for and display task recordings.</span></span> <span data-ttu-id="4da01-120">您可以通过单击顶部导航栏中的 **?** 图标访问“帮助”窗格，</span><span class="sxs-lookup"><span data-stu-id="4da01-120">You can access the Help pane by clicking the **?**</span></span> <span data-ttu-id="4da01-121">也可以使用快捷键组合 **Ctrl+Shift+?**。</span><span class="sxs-lookup"><span data-stu-id="4da01-121">icon in the top navigation bar or you can use the shortcut key combination, **Ctrl+Shift+?**.</span></span> <span data-ttu-id="4da01-122">您可以阅读“帮助”窗格中的任务录制步骤，也可以选择以任务指南方式播放录制以便其指导您完成 UI。</span><span class="sxs-lookup"><span data-stu-id="4da01-122">You can read the steps of a task recording in the Help pane, or you can opt to play the recording as a task guide so it guides you through the UI.</span></span>
+-   <span data-ttu-id="4da01-123">**任务录制可保存到 BPM。**</span><span class="sxs-lookup"><span data-stu-id="4da01-123">**Task recordings can be saved to BPM.**</span></span> <span data-ttu-id="4da01-124">您可以将任务录制保存到 Lifecycle Services (LCS) 中业务流程建模器 (BPM) 中的层次结构行。</span><span class="sxs-lookup"><span data-stu-id="4da01-124">You can save your task recording to a line of a hierarchy in a Business Process Modeler (BPM) library in Lifecycle Services (LCS).</span></span> <span data-ttu-id="4da01-125">将从录制中生成一个步骤列表和一个业务流程图表。</span><span class="sxs-lookup"><span data-stu-id="4da01-125">A list of steps and a business process flow chart will be generated from the recording.</span></span> <span data-ttu-id="4da01-126">已保存到 BPM 库中的任务录制可显示为帮助。</span><span class="sxs-lookup"><span data-stu-id="4da01-126">Task recordings that have been saved to a BPM library can be shown as Help.</span></span>
+-   <span data-ttu-id="4da01-127">**任务录制可另存为 Word 文档。**</span><span class="sxs-lookup"><span data-stu-id="4da01-127">**Task recordings can be saved as Word documents.**</span></span> <span data-ttu-id="4da01-128">这将允许您轻松地生成可打印的培训指南。</span><span class="sxs-lookup"><span data-stu-id="4da01-128">This allows you to easily produce printable training guides.</span></span>
 
-您可以创建自己的任务录制、播放 Microsoft 提供的任务录制或修改 Microsoft 提供的任务录制以反映您的配置。 有关任务录制器的详细信息，请参阅 [任务录制器](task-recorder.md)。
+<span data-ttu-id="4da01-129">您可以创建自己的任务录制、播放 Microsoft 提供的任务录制或修改 Microsoft 提供的任务录制以反映您的配置。</span><span class="sxs-lookup"><span data-stu-id="4da01-129">You can create your own task recordings, play task recordings provided by Microsoft, or modify Microsoft-provided task recordings to reflect your configuration.</span></span> <span data-ttu-id="4da01-130">有关任务录制器的详细信息，请参阅 [任务录制器](task-recorder.md)。</span><span class="sxs-lookup"><span data-stu-id="4da01-130">For more information about Task recorder, see [Task recorder](task-recorder.md).</span></span>
 
-## <a name="plan-your-task-recording"></a>计划您的任务录制
-无论您要创建新的任务录制还是基于 Microsoft 任务录制创建您的录制，请记住以下信息。
+## <a name="plan-your-task-recording"></a><span data-ttu-id="4da01-131">计划您的任务录制</span><span class="sxs-lookup"><span data-stu-id="4da01-131">Plan your task recording</span></span>
+<span data-ttu-id="4da01-132">无论您要创建新的任务录制还是基于 Microsoft 任务录制创建您的录制，请记住以下信息。</span><span class="sxs-lookup"><span data-stu-id="4da01-132">Whether you’re creating a new task recording or basing your recording on a Microsoft task recording, keep the following information in mind.</span></span>
 
--   计划您的录制，就像计划视频一样。 提前制定您的所有决策。
--   在不录制业务流程的情况下演练业务流程一次或两次以了解步骤。
--   当您在录制前演练业务流程时，记下使用快捷键或 **Enter** 键的位置，以避免在实际录制期间使用它们。
--   确定以下内容：
-    -   是否要将步骤分成多个子任务？ 子任务以直观方式使流程的各个部分分离。 例如，如果您为“创建和发布产品”创建录制，则可能需要将创建产品所需的步骤组合在一起，然后将发布产品所需的步骤组合在一起。 子任务还使得较长的流程更易读取。
-    -   是否要添加批注，如果添加，该添加在何处？ 请参阅下面的“了解不同类型的批注”以了解更多信息。
-    -   在您完成业务流程的步骤时，将在各个字段中添加什么值？ 最好是了解在您继续时将选择或输入的内容，以便您在录制时不会追踪或修复错误。
+-   <span data-ttu-id="4da01-133">计划您的录制，就像计划视频一样。</span><span class="sxs-lookup"><span data-stu-id="4da01-133">Plan your recording like you would a video.</span></span> <span data-ttu-id="4da01-134">提前制定您的所有决策。</span><span class="sxs-lookup"><span data-stu-id="4da01-134">Make all your decisions ahead of time.</span></span>
+-   <span data-ttu-id="4da01-135">在不录制业务流程的情况下演练业务流程一次或两次以了解步骤。</span><span class="sxs-lookup"><span data-stu-id="4da01-135">Walk through the business process once or twice without recording it to understand the steps.</span></span>
+-   <span data-ttu-id="4da01-136">当您在录制前演练业务流程时，记下使用快捷键或 **Enter** 键的位置，以避免在实际录制期间使用它们。</span><span class="sxs-lookup"><span data-stu-id="4da01-136">When you walk through the process before you record, notice where you use shortcut keys or the **Enter** key, so that you can avoid using them during the actual recording.</span></span>
+-   <span data-ttu-id="4da01-137">确定以下内容：</span><span class="sxs-lookup"><span data-stu-id="4da01-137">Identify the following:</span></span>
+    -   <span data-ttu-id="4da01-138">是否要将步骤分成多个子任务？</span><span class="sxs-lookup"><span data-stu-id="4da01-138">Do you want to group steps together into sub-tasks?</span></span> <span data-ttu-id="4da01-139">子任务以直观方式使流程的各个部分分离。</span><span class="sxs-lookup"><span data-stu-id="4da01-139">Sub-tasks visually set apart sections of a process.</span></span> <span data-ttu-id="4da01-140">例如，如果您为“创建和发布产品”创建录制，则可能需要将创建产品所需的步骤组合在一起，然后将发布产品所需的步骤组合在一起。</span><span class="sxs-lookup"><span data-stu-id="4da01-140">For example, if you are creating a recording for "Creating and releasing a product," you may want to group together the steps that are required to create a product, and then group together the steps that are required to release the product.</span></span> <span data-ttu-id="4da01-141">子任务还使得较长的流程更易读取。</span><span class="sxs-lookup"><span data-stu-id="4da01-141">Sub-tasks also make longer processes easier to read.</span></span>
+    -   <span data-ttu-id="4da01-142">是否要添加批注，如果添加，该添加在何处？</span><span class="sxs-lookup"><span data-stu-id="4da01-142">Do you want to add annotations, and if so, where?</span></span> <span data-ttu-id="4da01-143">请参阅下面的“了解不同类型的批注”以了解更多信息。</span><span class="sxs-lookup"><span data-stu-id="4da01-143">See "Understand the different types of annotations" below for more information.</span></span>
+    -   <span data-ttu-id="4da01-144">在您完成业务流程的步骤时，将在各个字段中添加什么值？</span><span class="sxs-lookup"><span data-stu-id="4da01-144">What values will you add in the various fields as you complete the steps of the business process?</span></span> <span data-ttu-id="4da01-145">最好是了解在您继续时将选择或输入的内容，以便您在录制时不会追踪或修复错误。</span><span class="sxs-lookup"><span data-stu-id="4da01-145">It is a good idea to know what you'll select or enter as you proceed so that you don't backtrack or fix mistakes as you're recording.</span></span>
 
-**提前编写描述和批注**
+<span data-ttu-id="4da01-146">**提前编写描述和批注**</span><span class="sxs-lookup"><span data-stu-id="4da01-146">**Write your description and annotations ahead of time**</span></span>
 
--   在每个任务录制开始时，将显示一个描述字段，该字段允许您输入对录制的介绍。 最好是提前在一个单独的文档中编写并保存描述，以便在录制时将其复制并粘贴到任务录制中。 这样一来，当您未处于录制过程中时，可花时间精炼文本。 剪切并粘贴文本将使录制流程变得更快且更平稳。
--   对于任务录制中的每个步骤，您可以创建批注。 播放任务指南期间，批注作为注释显示在步骤文本的上方或下方的“气泡”中。 在“帮助”窗格中作为文本查看时，批注将作为步骤中的内联文本显示。 正如描述一样，最好是在一个单独的文档中编写和保存您的批注。 当您录制任务录制时，从该文档中剪切并粘贴批注。
+-   <span data-ttu-id="4da01-147">在每个任务录制开始时，将显示一个描述字段，该字段允许您输入对录制的介绍。</span><span class="sxs-lookup"><span data-stu-id="4da01-147">At the beginning of each task recording, there’s a description field that allows you to enter an introduction to the recording.</span></span> <span data-ttu-id="4da01-148">最好是提前在一个单独的文档中编写并保存描述，以便在录制时将其复制并粘贴到任务录制中。</span><span class="sxs-lookup"><span data-stu-id="4da01-148">It is a good idea to write and save the description ahead of time in a separate document so you can copy and paste it into the task recording when you are recording.</span></span> <span data-ttu-id="4da01-149">这样一来，当您未处于录制过程中时，可花时间精炼文本。</span><span class="sxs-lookup"><span data-stu-id="4da01-149">That way, you can spend time refining the text when you aren't in the process of recording.</span></span> <span data-ttu-id="4da01-150">剪切并粘贴文本将使录制流程变得更快且更平稳。</span><span class="sxs-lookup"><span data-stu-id="4da01-150">Cutting and pasting the text makes the recording process go more quickly and smoothly.</span></span>
+-   <span data-ttu-id="4da01-151">对于任务录制中的每个步骤，您可以创建批注。</span><span class="sxs-lookup"><span data-stu-id="4da01-151">For each step in a task recording, you can create annotations.</span></span> <span data-ttu-id="4da01-152">播放任务指南期间，批注作为注释显示在步骤文本的上方或下方的“气泡”中。</span><span class="sxs-lookup"><span data-stu-id="4da01-152">During playback of a task guide, annotations appear in the "bubble" as notes above or below the text for the step.</span></span> <span data-ttu-id="4da01-153">在“帮助”窗格中作为文本查看时，批注将作为步骤中的内联文本显示。</span><span class="sxs-lookup"><span data-stu-id="4da01-153">When viewed as text in the Help pane, annotations appear as text inline in the step.</span></span> <span data-ttu-id="4da01-154">正如描述一样，最好是在一个单独的文档中编写和保存您的批注。</span><span class="sxs-lookup"><span data-stu-id="4da01-154">As with the description, it is a good idea to write and save your annotations in a separate document.</span></span> <span data-ttu-id="4da01-155">当您录制任务录制时，从该文档中剪切并粘贴批注。</span><span class="sxs-lookup"><span data-stu-id="4da01-155">When you’re recording the task recording, cut and paste the annotations in from that document.</span></span>
 
-**了解不同类型的批注** 所有批注均可选。 仅在批注向用户提供有用信息时添加批注。
+<span data-ttu-id="4da01-156">**了解不同类型的批注** 所有批注均可选。</span><span class="sxs-lookup"><span data-stu-id="4da01-156">**Understand the different types of annotations** All annotations are optional.</span></span> <span data-ttu-id="4da01-157">仅在批注向用户提供有用信息时添加批注。</span><span class="sxs-lookup"><span data-stu-id="4da01-157">Only add them when they’ll provide helpful information to the user.</span></span>
 
--   **标题：**标题批注将显示在任务录制器自动生成的步骤文本的前面。 在任务指南中，标题批注显示在自动生成的文本的上方。 使用这种类型的批注可说明用户执行步骤的原因或提供附加上下文。
+-   <span data-ttu-id="4da01-158">**标题：**标题批注将显示在任务录制器自动生成的步骤文本的前面。</span><span class="sxs-lookup"><span data-stu-id="4da01-158">**Title**: A title annotation will appear before the step text that task recorder automatically generates.</span></span> <span data-ttu-id="4da01-159">在任务指南中，标题批注显示在自动生成的文本的上方。</span><span class="sxs-lookup"><span data-stu-id="4da01-159">In the task guide, the title annotation appears above the automatically generated text.</span></span> <span data-ttu-id="4da01-160">使用这种类型的批注可说明用户执行步骤的原因或提供附加上下文。</span><span class="sxs-lookup"><span data-stu-id="4da01-160">Use this type of annotation to explain why the user is doing the step or to give additional context.</span></span>
 
-这是您在创建录制的同时添加批注时显示的编辑窗格。 在“**标题**”框中输入标题注释。 
+<span data-ttu-id="4da01-161">这是您在创建录制的同时添加批注时显示的编辑窗格。</span><span class="sxs-lookup"><span data-stu-id="4da01-161">This is the editing pane that you see when you add an annotation as you create your recording.</span></span> <span data-ttu-id="4da01-162">在“**标题**”框中输入标题注释。</span><span class="sxs-lookup"><span data-stu-id="4da01-162">Enter a title annotation in the **Title** box.</span></span> 
 
-[![屏幕 1](./media/screen1.png)](./media/screen1.png) 
+<span data-ttu-id="4da01-163">[![屏幕 1](./media/screen1.png)](./media/screen1.png)</span><span class="sxs-lookup"><span data-stu-id="4da01-163">[![screen1](./media/screen1.png)](./media/screen1.png)</span></span> 
 
-这是标题注释在任务指南中的“气泡”中的样子。 
+<span data-ttu-id="4da01-164">这是标题注释在任务指南中的“气泡”中的样子。</span><span class="sxs-lookup"><span data-stu-id="4da01-164">This is what the title annotation looks like in the "bubble" in the task guide.</span></span> 
 
-[![屏幕 2](./media/screen2.png)](./media/screen2.png)
+<span data-ttu-id="4da01-165">[![屏幕 2](./media/screen2.png)](./media/screen2.png)</span><span class="sxs-lookup"><span data-stu-id="4da01-165">[![screen2](./media/screen2.png)](./media/screen2.png)</span></span>
 
--   **注意：**注释批注将显示在任务录制器自动生成的步骤文本的后面。 在任务指南中，批注仅在用户单击任务指南气泡中的**“显示更多”**链接时可见。 使用此类批注可描述用户完成步骤所需了解的所有内容。
+-   <span data-ttu-id="4da01-166">**注意：**注释批注将显示在任务录制器自动生成的步骤文本的后面。</span><span class="sxs-lookup"><span data-stu-id="4da01-166">**Notes:** A notes annotation will appear after the step text that task recorder automatically generates.</span></span> <span data-ttu-id="4da01-167">在任务指南中，批注仅在用户单击任务指南气泡中的**“显示更多”**链接时可见。</span><span class="sxs-lookup"><span data-stu-id="4da01-167">In the task guide it will only be visible if the user clicks the **Show more** link in the task guide bubble.</span></span> <span data-ttu-id="4da01-168">使用此类批注可描述用户完成步骤所需了解的所有内容。</span><span class="sxs-lookup"><span data-stu-id="4da01-168">Use this type of annotation to describe anything that a user needs to know to complete the step.</span></span>
 
-这是您在创建录制的同时添加批注时显示的编辑窗格。 在“**附注**”框中输入标题注释。 
+<span data-ttu-id="4da01-169">这是您在创建录制的同时添加批注时显示的编辑窗格。</span><span class="sxs-lookup"><span data-stu-id="4da01-169">This is the editing pane that you see when you add an annotation as you create your recording.</span></span> <span data-ttu-id="4da01-170">在“**附注**”框中输入标题注释。</span><span class="sxs-lookup"><span data-stu-id="4da01-170">Enter a notes annotation in the **Notes** box.</span></span> 
 
-[![屏幕 3](./media/screen3.png)](./media/screen3.png) 
+<span data-ttu-id="4da01-171">[![屏幕 3](./media/screen3.png)](./media/screen3.png)</span><span class="sxs-lookup"><span data-stu-id="4da01-171">[![screen3](./media/screen3.png)](./media/screen3.png)</span></span> 
 
-这是附注注释在任务指南中的“气泡”中的样子。
+<span data-ttu-id="4da01-172">这是附注注释在任务指南中的“气泡”中的样子。</span><span class="sxs-lookup"><span data-stu-id="4da01-172">This is what the notes annotation looks like in the "bubble" in the task guide.</span></span>
 
-[![屏幕 4](./media/screen4.png)](./media/screen4.png)
+<span data-ttu-id="4da01-173">[![屏幕 4](./media/screen4.png)](./media/screen4.png)</span><span class="sxs-lookup"><span data-stu-id="4da01-173">[![screen4](./media/screen4.png)](./media/screen4.png)</span></span>
 
--   **信息步骤**：通过右键单击控件或窗体上任何位置，然后选择 &lt; **任务录制器** &lt; **添加信息步骤** 来创建这些批注。 **信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。 在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在 Microsoft Dynamics 365 for Finance and Operations Enterprise版本外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
+-   <span data-ttu-id="4da01-174">**信息步骤**：通过右键单击控件或窗体上任何位置，然后选择 &lt; **任务录制器** &lt; **添加信息步骤** 来创建这些批注。</span><span class="sxs-lookup"><span data-stu-id="4da01-174">**Info step**: These annotations are created by right clicking on a control or anywhere on a form &lt; **Task recorder** &lt; **Add info step.</span></span> <span data-ttu-id="4da01-175">**信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。</span><span class="sxs-lookup"><span data-stu-id="4da01-175">**Info steps appear as a numbered step at whatever point you insert it, even though no action was recorded in the UI.</span></span> <span data-ttu-id="4da01-176">您可以添加窗体级别信息步骤或与控件关联的信息步骤。</span><span class="sxs-lookup"><span data-stu-id="4da01-176">You can add a form-level info step or an info step associated with a control.</span></span> <span data-ttu-id="4da01-177">当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。</span><span class="sxs-lookup"><span data-stu-id="4da01-177">When an info step is associated with a form, the task guide “bubble” will appear someplace on the form, with no pointer, when the task guide is played.</span></span> <span data-ttu-id="4da01-178">当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。</span><span class="sxs-lookup"><span data-stu-id="4da01-178">When an info step is associated with a control, the task guide “bubble” will point to the control when the task guide is played.</span></span> <span data-ttu-id="4da01-179">在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。</span><span class="sxs-lookup"><span data-stu-id="4da01-179">In the Help pane, an info step annotation will appear as a numbered step with whatever text you entered.</span></span> <span data-ttu-id="4da01-180">使用信息步骤可准备用户以执行后续步骤、描述需在 Microsoft Dynamics 365 for Finance and Operations Enterprise版本外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。</span><span class="sxs-lookup"><span data-stu-id="4da01-180">Use info steps to prepare the user for the next steps, to describe steps that need to be done outside of Microsoft Dynamics 365 for Finance and Operations, Enterprise edition, or to refer to other recordings (although you cannot create hyperinks in annotations.).</span></span>
 
-**确定创建录制所需的时长**
+<span data-ttu-id="4da01-181">**确定创建录制所需的时长**</span><span class="sxs-lookup"><span data-stu-id="4da01-181">**Determine how long to make your recording**</span></span>
 
--   通常，用户将自始至终读取或播放录制，因此不要组合更适合单独执行的步骤或任务。
--   尽量不要录制跨多个子流程的长方案。 例如，“在商店内客户服务台运行”太广泛，将它拆分为多个小型任务，如“接收退货”和“添加到礼品卡”。
--   如果某个任务可作为多个不同的业务流程的一部分执行，请为它创建一个单独的录制，这样您就可以在其他录制中引用它。
--   如果该流程涉及人员可能马上全部完成的多个任务，您可以将这些任务保留在一个录制中，例如“设置和分配功能配置文件”。
--   如果人员可一次性完成某个任务（如配置），然后完成可随后立即执行但可能重复执行的另一任务，则将这些任务拆分为两个任务录制。
+-   <span data-ttu-id="4da01-182">通常，用户将自始至终读取或播放录制，因此不要组合更适合单独执行的步骤或任务。</span><span class="sxs-lookup"><span data-stu-id="4da01-182">The user will generally either read or play the recording from start to finish, so don’t combine steps or tasks that are better done separately.</span></span>
+-   <span data-ttu-id="4da01-183">尽量不要录制跨多个子流程的长方案。</span><span class="sxs-lookup"><span data-stu-id="4da01-183">Try not to record a long scenario that spans multiple sub-processes.</span></span> <span data-ttu-id="4da01-184">例如，“在商店内客户服务台运行”太广泛，将它拆分为多个小型任务，如“接收退货”和“添加到礼品卡”。</span><span class="sxs-lookup"><span data-stu-id="4da01-184">For example, “Operate in-store customer service desk” is too broad; break it up into shorter tasks such as “Accept returns” and “Add to gift card.”</span></span>
+-   <span data-ttu-id="4da01-185">如果某个任务可作为多个不同的业务流程的一部分执行，请为它创建一个单独的录制，这样您就可以在其他录制中引用它。</span><span class="sxs-lookup"><span data-stu-id="4da01-185">If a task can be carried out as part of several different business processes, create a separate recording for it, and you can refer to it in the other recordings.</span></span>
+-   <span data-ttu-id="4da01-186">如果该流程涉及人员可能马上全部完成的多个任务，您可以将这些任务保留在一个录制中，例如“设置和分配功能配置文件”。</span><span class="sxs-lookup"><span data-stu-id="4da01-186">If the process involves multiple tasks that the person likely does all at once, you can keep the tasks in one recording, for example, “Set up and assign functionality profiles.”</span></span>
+-   <span data-ttu-id="4da01-187">如果人员可一次性完成某个任务（如配置），然后完成可随后立即执行但可能重复执行的另一任务，则将这些任务拆分为两个任务录制。</span><span class="sxs-lookup"><span data-stu-id="4da01-187">If it is something someone does once (such as configuration) and then another task that they can do immediately afterward but may do repeatedly, and on its own, break them up into two task recordings.</span></span>
 
-**决定在 UI 中开始录制的位置** 您在开始录制任务录制时所在的页面会影响为其显示任务指南的页面。 例如，如果您希望在用户单击“总帐参数”页面上的帮助时在"帮助"窗格中列出任务录制，则必须在“总帐参数”页面上开始您的录制。 **将录制另存为 .axtr 文件** 当您创建或编辑完任务录制时，系统将为您显示有关如何下载或保存录制的多个选项。 您可以将文件作为任务录制包 (.axtr)、原始录制文件 (.xml) 或 Word 文档下载或将文件保存到 LCS 库。 最好是始终将您的任务录制另存为任务录制包文件 (.axtr)。 如果稍后需要更改过程或批注，这将帮助更轻松地维护文件。 如果您需要将文件作为 Word 文档下载，也将其另存为任务录制包文件。
+<span data-ttu-id="4da01-188">**决定在 UI 中开始录制的位置** 您在开始录制任务录制时所在的页面会影响为其显示任务指南的页面。</span><span class="sxs-lookup"><span data-stu-id="4da01-188">**Decide where, in the UI, to start a recording** The page that you are on when you start recording a task recording affects which page the task guide is displayed for.</span></span> <span data-ttu-id="4da01-189">例如，如果您希望在用户单击“总帐参数”页面上的帮助时在"帮助"窗格中列出任务录制，则必须在“总帐参数”页面上开始您的录制。</span><span class="sxs-lookup"><span data-stu-id="4da01-189">For example, if you want your task recording to be listed in the Help pane when a user clicks Help on the General ledger parameters page, you must start your recording on the General ledger parameters page.</span></span> <span data-ttu-id="4da01-190">**将录制另存为 .axtr 文件** 当您创建或编辑完任务录制时，系统将为您显示有关如何下载或保存录制的多个选项。</span><span class="sxs-lookup"><span data-stu-id="4da01-190">**Save recordings as .axtr files** When you are done creating or editing a task recording, you are presented with several options for how you want to download, or save the recording.</span></span> <span data-ttu-id="4da01-191">您可以将文件作为任务录制包 (.axtr)、原始录制文件 (.xml) 或 Word 文档下载或将文件保存到 LCS 库。</span><span class="sxs-lookup"><span data-stu-id="4da01-191">You can download the file as a task recording package (.axtr), download it as a raw recording file (.xml), download it as a Word document, or save the file to an LCS library.</span></span> <span data-ttu-id="4da01-192">最好是始终将您的任务录制另存为任务录制包文件 (.axtr)。</span><span class="sxs-lookup"><span data-stu-id="4da01-192">It is a good idea to always save your task recording as a task recording package file (.axtr).</span></span> <span data-ttu-id="4da01-193">如果稍后需要更改过程或批注，这将帮助更轻松地维护文件。</span><span class="sxs-lookup"><span data-stu-id="4da01-193">This will help make maintenance of the file easier if procedures or annotations need to change later.</span></span> <span data-ttu-id="4da01-194">如果您需要将文件作为 Word 文档下载，也将其另存为任务录制包文件。</span><span class="sxs-lookup"><span data-stu-id="4da01-194">If you want to download the file as a Word document, also save it as a task recording package file.</span></span>
 
-## <a name="create-your-task-recording"></a>创建您的任务录制
-有关详细演练步骤，请参阅[如何创建任务录制](task-recorder.md)。
+## <a name="create-your-task-recording"></a><span data-ttu-id="4da01-195">创建您的任务录制</span><span class="sxs-lookup"><span data-stu-id="4da01-195">Create your task recording</span></span>
+<span data-ttu-id="4da01-196">有关详细演练步骤，请参阅[如何创建任务录制](task-recorder.md)。</span><span class="sxs-lookup"><span data-stu-id="4da01-196">For detailed walk-through steps, see [How to create a task recording](task-recorder.md).</span></span>
 
-## <a name="copy-and-customize-microsofts-task-recordings"></a>复制和自定义 Microsoft 的任务录制
-您可以下载和编辑 Microsoft 的任务录制以将其用于您自己的帮助文档或培训材料。 要下载 Microsoft 任务录制，请执行以下步骤：
+## <a name="copy-and-customize-microsofts-task-recordings"></a><span data-ttu-id="4da01-197">复制和自定义 Microsoft 的任务录制</span><span class="sxs-lookup"><span data-stu-id="4da01-197">Copy and customize Microsoft's task recordings</span></span>
+<span data-ttu-id="4da01-198">您可以下载和编辑 Microsoft 的任务录制以将其用于您自己的帮助文档或培训材料。</span><span class="sxs-lookup"><span data-stu-id="4da01-198">You can download and edit Microsoft's task recordings to use them for your own Help documentation or training materials.</span></span> <span data-ttu-id="4da01-199">要下载 Microsoft 任务录制，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="4da01-199">To download a Microsoft task recording, follow these steps:</span></span>
 
-1.  打开任务录制器。 任务录制器位于**“设置”**菜单中。
-2.  在任务录制器窗格中，单击**“维护录制”**。
-3.  在**“录制位于何处”**下，单击**“它在 LCS 库中”**。
-4.  单击**“选择 LCS 库”**。
-5.  选择 Microsoft 全局库。
-6.  在树中，选择与任务录制关联的业务流程库节点。
-7.  单击“**OK**”。
-8.  单击**“开始”**。
-9.  此时，逐步执行录制，并在重新录制时更改任何步骤。 **注释：**：如果您只需要更改录制的文本，则可以在**编辑录制的批注**模式下打开录制，然后保存它。
-10. 在播放完录制后，单击屏幕顶部的任务录制器栏中的**“停止”**。
-11. 选择您希望用来保存任务录制的方式。
+1.  <span data-ttu-id="4da01-200">打开任务录制器。</span><span class="sxs-lookup"><span data-stu-id="4da01-200">Open Task recorder.</span></span> <span data-ttu-id="4da01-201">任务录制器位于**“设置”**菜单中。</span><span class="sxs-lookup"><span data-stu-id="4da01-201">Task recorder is located in the **Settings** menu.</span></span>
+2.  <span data-ttu-id="4da01-202">在任务录制器窗格中，单击**“维护录制”**。</span><span class="sxs-lookup"><span data-stu-id="4da01-202">In the Task recorder pane, click **Maintain a recording.**</span></span>
+3.  <span data-ttu-id="4da01-203">在**“录制位于何处”**下，单击**“它在 LCS 库中”**。</span><span class="sxs-lookup"><span data-stu-id="4da01-203">Under **Where is the recording**, click **It is in an LCS library**.</span></span>
+4.  <span data-ttu-id="4da01-204">单击**“选择 LCS 库”**。</span><span class="sxs-lookup"><span data-stu-id="4da01-204">Click **Select the LCS library**.</span></span>
+5.  <span data-ttu-id="4da01-205">选择 Microsoft 全局库。</span><span class="sxs-lookup"><span data-stu-id="4da01-205">Select the Microsoft global library.</span></span>
+6.  <span data-ttu-id="4da01-206">在树中，选择与任务录制关联的业务流程库节点。</span><span class="sxs-lookup"><span data-stu-id="4da01-206">In the tree, select the business process library node that the task recording is associated with.</span></span>
+7.  <span data-ttu-id="4da01-207">单击“**OK**”。</span><span class="sxs-lookup"><span data-stu-id="4da01-207">Click **OK**.</span></span>
+8.  <span data-ttu-id="4da01-208">单击**“开始”**。</span><span class="sxs-lookup"><span data-stu-id="4da01-208">Click **Start**.</span></span>
+9.  <span data-ttu-id="4da01-209">此时，逐步执行录制，并在重新录制时更改任何步骤。</span><span class="sxs-lookup"><span data-stu-id="4da01-209">At this point, step through the recording, changing any steps as you go to re-record it.</span></span> <span data-ttu-id="4da01-210">**注释：**：如果您只需要更改录制的文本，则可以在**编辑录制的批注**模式下打开录制，然后保存它。</span><span class="sxs-lookup"><span data-stu-id="4da01-210">**Note**: If you only need to change the text of a recording, you can open the recording in **Edit a recording's annotations** mode, and then save it.</span></span>
+10. <span data-ttu-id="4da01-211">在播放完录制后，单击屏幕顶部的任务录制器栏中的**“停止”**。</span><span class="sxs-lookup"><span data-stu-id="4da01-211">After the recording has played to the end, click **Stop** in the task recorder bar at the top of the screen.</span></span>
+11. <span data-ttu-id="4da01-212">选择您希望用来保存任务录制的方式。</span><span class="sxs-lookup"><span data-stu-id="4da01-212">Choose how you want to save the task recording.</span></span>
 
-## <a name="include-your-task-recordings-in-the-help-pane"></a>将您的任务录制包含在“帮助”窗格中
-要在“帮助”窗格中显示您自己的自定义任务录制以便它们可作为任务指南播放或作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅[连接帮助系统](../get-started/help-connect.md)。
+## <a name="include-your-task-recordings-in-the-help-pane"></a><span data-ttu-id="4da01-213">将您的任务录制包含在“帮助”窗格中</span><span class="sxs-lookup"><span data-stu-id="4da01-213">Include your task recordings in the Help pane</span></span>
+<span data-ttu-id="4da01-214">要在“帮助”窗格中显示您自己的自定义任务录制以便它们可作为任务指南播放或作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。</span><span class="sxs-lookup"><span data-stu-id="4da01-214">To show your own custom task recordings in the Help pane so that they can be played back as task guides or viewed as text, you must save your task recordings to your own BPM library, and then update your Help system parameters to point to your BPM library.</span></span> <span data-ttu-id="4da01-215">有关更多信息，请参阅[连接帮助系统](../get-started/help-connect.md)。</span><span class="sxs-lookup"><span data-stu-id="4da01-215">For more information, see [Connect the Help system.](../get-started/help-connect.md)</span></span>
 
-<a name="see-also"></a>请参阅
+<a name="see-also"></a><span data-ttu-id="4da01-216">请参阅</span><span class="sxs-lookup"><span data-stu-id="4da01-216">See also</span></span>
 --------
 
-[帮助概览](..\get-started\help-overview.md)
+[<span data-ttu-id="4da01-217">帮助概览</span><span class="sxs-lookup"><span data-stu-id="4da01-217">Help overview</span></span>](..\get-started\help-overview.md)
 
-[连接帮助](..\get-started\help-connect.md)
+[<span data-ttu-id="4da01-218">连接帮助</span><span class="sxs-lookup"><span data-stu-id="4da01-218">Connect Help</span></span>](..\get-started\help-connect.md)
 
-[任务录制器](task-recorder.md)
+[<span data-ttu-id="4da01-219">任务录制器</span><span class="sxs-lookup"><span data-stu-id="4da01-219">Task Recorder</span></span>](task-recorder.md)
 
-[使用任务录制器创建丰富的帮助主题（外部链接）](https://mbspartner.microsoft.com/AX/Videos/970)
+[<span data-ttu-id="4da01-220">使用任务录制器创建丰富的帮助主题（外部链接）</span><span class="sxs-lookup"><span data-stu-id="4da01-220">Create Rich Help Topics with Task Recorder (external link)</span></span>](https://mbspartner.microsoft.com/AX/Videos/970)
 

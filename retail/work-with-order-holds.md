@@ -16,24 +16,24 @@ ms.assetid: 7c00dc35-73e5-400a-8587-22f37ddfc0e0
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: c0c0e9a0f863eb33d544f63e40e0531cdaaf6426
+ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.openlocfilehash: 14dab07075a3f042e0095b912e51768ccb086f0e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 07/18/2017
 
 ---
 
-# <a name="order-holds"></a>订单保留
+# <a name="order-holds"></a><span data-ttu-id="a8686-103">订单保留</span><span class="sxs-lookup"><span data-stu-id="a8686-103">Order holds</span></span>
 
 [!include[banner](includes/banner.md)]
 
 
-本主题描述使用 Dynamics 365 for Retail 将订单置于暂停状态。
+<span data-ttu-id="a8686-104">本主题描述使用 Dynamics 365 for Retail 将订单置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="a8686-104">This topic describes holds on orders using Dynamics 365 for Retail.</span></span>
 
-出于各种原因，可将订单置于暂停状态。 例如，在可以验证客户地址或付款方式之前，或在经理可以查看客户的信用额度之前，您可以将订单置于暂停状态。 在销售流程中，有时必须将销售订单置于暂停状态。 例如，由于客户付款出现问题、可疑欺诈或经理必须审核销售订单，可能将销售订单置于暂停状态。 在销售订单置于暂停状态时，一个订单保留代码被分配给销售订单来表明保留的原因。 在**销售和市场营销** &gt; **设置** &gt; **销售订单** &gt; **订单保留代码**中配置销售订单保留代码。 可在创建订单时或稍后手动将销售订单置于暂停状态。 此外，可以根据欺诈规则自动将订单置于暂停状态。 在将销售订单置于暂停状态时，可能需要使用更多信息更新该订单。 或者，在继续使用销售订单时，可能需要签出该订单。 您可使用订单保留工作台来签出销售订单，将其签回甚至覆盖另一个用户的签出（**零售** &gt; **客户** &gt; **订单保留**）。 在订单即将完成时，您需在完成订单流程之前删除保留。
+<span data-ttu-id="a8686-105">出于各种原因，可将订单置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="a8686-105">An order can be put on hold for various reasons.</span></span> <span data-ttu-id="a8686-106">例如，在可以验证客户地址或付款方式之前，或在经理可以查看客户的信用额度之前，您可以将订单置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="a8686-106">For example, you might put an order on hold until the customer address or payment method can be verified, or until a manager can review the customer’s credit limit.</span></span> <span data-ttu-id="a8686-107">在销售流程中，有时必须将销售订单置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="a8686-107">During the sales process, there are times when sales orders must be put on hold.</span></span> <span data-ttu-id="a8686-108">例如，由于客户付款出现问题、可疑欺诈或经理必须审核销售订单，可能将销售订单置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="a8686-108">For example, a sales order might be put on hold because of issues with a customer payment, because of suspected fraud, or because a manager must review the order.</span></span> <span data-ttu-id="a8686-109">在销售订单置于暂停状态时，一个订单保留代码被分配给销售订单来表明保留的原因。</span><span class="sxs-lookup"><span data-stu-id="a8686-109">When a sales order is put on hold, an order hold code is assigned to the sales order to indicate the reason for the hold.</span></span> <span data-ttu-id="a8686-110">在**销售和市场营销** &gt; **设置** &gt; **销售订单** &gt; **订单保留代码**中配置销售订单保留代码。</span><span class="sxs-lookup"><span data-stu-id="a8686-110">Sales order hold codes are configured at **Sales and marketing** &gt; **Setup** &gt; **Sales orders** &gt; **Order holds codes**.</span></span> <span data-ttu-id="a8686-111">可在创建订单时或稍后手动将销售订单置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="a8686-111">A sales order can be put on hold manually at the time of order creation or later.</span></span> <span data-ttu-id="a8686-112">此外，可以根据欺诈规则自动将订单置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="a8686-112">Additionally, an order can be put on hold automatically, based on fraud rules.</span></span> <span data-ttu-id="a8686-113">在将销售订单置于暂停状态时，可能需要使用更多信息更新该订单。</span><span class="sxs-lookup"><span data-stu-id="a8686-113">While a sales order is on hold, you might have to update it with more information.</span></span> <span data-ttu-id="a8686-114">或者，在继续使用销售订单时，可能需要签出该订单。</span><span class="sxs-lookup"><span data-stu-id="a8686-114">Alternatively, you might want to check out the sales order as you continue to work on it.</span></span> <span data-ttu-id="a8686-115">您可使用订单保留工作台来签出销售订单，将其签回甚至覆盖另一个用户的签出（**零售** &gt; **客户** &gt; **订单保留**）。</span><span class="sxs-lookup"><span data-stu-id="a8686-115">You can check out a sales order, check it back in, and even override the checkout of another user by using the order hold workbench (**Retail** &gt; **Customers** &gt; **Order holds**).</span></span> <span data-ttu-id="a8686-116">在订单即将完成时，您需在完成订单流程之前删除保留。</span><span class="sxs-lookup"><span data-stu-id="a8686-116">When an order is ready to be completed, you must remove the hold before you can complete the order process.</span></span>
 
 
 

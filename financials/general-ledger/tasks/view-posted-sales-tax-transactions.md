@@ -16,29 +16,29 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: c4dcc0a086095029aec24eda0b89a7f6a2063bf3
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 3a6aa136018e586fd66e77c0f2af3a9f321f822f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="view-posted-sales-tax-transactions"></a>查看已过帐的销售税交易记录
+# <a name="view-posted-sales-tax-transactions"></a><span data-ttu-id="efe3e-103">查看已过帐的销售税交易记录</span><span class="sxs-lookup"><span data-stu-id="efe3e-103">View posted sales tax transactions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。 本任务使用 USMF 公司进行演示。
+<span data-ttu-id="efe3e-104">您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。</span><span class="sxs-lookup"><span data-stu-id="efe3e-104">You can view posted sales tax transactions from various page depending on what you need to view.</span></span> <span data-ttu-id="efe3e-105">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="efe3e-105">This task uses the USMF demo company.</span></span>
 
-1. 转到“纳税”>“查询和申报”>“销售税查询”>“已过帐销售税”。
-2. 单击“显示筛选器”。
-3. 关闭该页面。
-4. 转到“纳税”>“间接税”>“销售税”>“销售税结算期间”。
-5. 展开“期间间隔”部分。
-6. 选择您感兴趣的间隔。
-7. 显示所选结算期间间隔的已过帐销售税交易记录。
-8. 您可以进一步筛选已过帐销售税交易记录的列表。
-9. 关闭该页面。
-10. 转到报税>间接税>销售税》销售税代码。
-11. 在操作窗格上，单击“销售税代码”。
-12. 单击“已过帐销售税”。
+1. <span data-ttu-id="efe3e-106">转到“纳税”>“查询和申报”>“销售税查询”>“已过帐销售税”。</span><span class="sxs-lookup"><span data-stu-id="efe3e-106">Go to Tax > Inquiries and reports > Sales tax inquiries > Posted sales tax.</span></span>
+2. <span data-ttu-id="efe3e-107">单击“显示筛选器”。</span><span class="sxs-lookup"><span data-stu-id="efe3e-107">Click Show filters.</span></span>
+3. <span data-ttu-id="efe3e-108">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="efe3e-108">Close the page.</span></span>
+4. <span data-ttu-id="efe3e-109">转到“纳税”>“间接税”>“销售税”>“销售税结算期间”。</span><span class="sxs-lookup"><span data-stu-id="efe3e-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
+5. <span data-ttu-id="efe3e-110">展开“期间间隔”部分。</span><span class="sxs-lookup"><span data-stu-id="efe3e-110">Expand the Period intervals section.</span></span>
+6. <span data-ttu-id="efe3e-111">选择您感兴趣的间隔。</span><span class="sxs-lookup"><span data-stu-id="efe3e-111">Select the interval you are interested in.</span></span>
+7. <span data-ttu-id="efe3e-112">显示所选结算期间间隔的已过帐销售税交易记录。</span><span class="sxs-lookup"><span data-stu-id="efe3e-112">Display posted sales tax transactions for the selected settlement period interval.</span></span>
+8. <span data-ttu-id="efe3e-113">您可以进一步筛选已过帐销售税交易记录的列表。</span><span class="sxs-lookup"><span data-stu-id="efe3e-113">You can further filter the list of posted sales tax transactions.</span></span>
+9. <span data-ttu-id="efe3e-114">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="efe3e-114">Close the page.</span></span>
+10. <span data-ttu-id="efe3e-115">转到报税>间接税>销售税》销售税代码。</span><span class="sxs-lookup"><span data-stu-id="efe3e-115">Go to Tax > Indirect taxes > Sales tax > Sales tax codes.</span></span>
+11. <span data-ttu-id="efe3e-116">在操作窗格上，单击“销售税代码”。</span><span class="sxs-lookup"><span data-stu-id="efe3e-116">On the Action Pane, click Sales tax code.</span></span>
+12. <span data-ttu-id="efe3e-117">单击“已过帐销售税”。</span><span class="sxs-lookup"><span data-stu-id="efe3e-117">Click Posted sales tax.</span></span>
 
 

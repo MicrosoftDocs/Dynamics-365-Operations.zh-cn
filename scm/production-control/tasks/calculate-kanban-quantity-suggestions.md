@@ -17,72 +17,72 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 7416e0407892281377b69a7a3b19e61f46220709
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: a817dbc02890d863f68c5bf2a6cc11b9a5328060
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 08/29/2017
 
 ---
-# <a name="calculate-kanban-quantity-suggestions"></a>计算看板数量建议
+# <a name="calculate-kanban-quantity-suggestions"></a><span data-ttu-id="599fe-103">计算看板数量建议</span><span class="sxs-lookup"><span data-stu-id="599fe-103">Calculate kanban quantity suggestions</span></span>
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-此过程重点是通过使用看板数量计算，优化特定看板规则的看板大小和数量。 创建此程序的演示数据公司是 USMF。 此程序是专为价值流经理设计的。 这是您完成“添加新看板数量计算策略到看到规则”这一过程的先决条件。
+<span data-ttu-id="599fe-104">此过程重点是通过使用看板数量计算，优化特定看板规则的看板大小和数量。</span><span class="sxs-lookup"><span data-stu-id="599fe-104">This procedure focuses on optimizing the kanban size and quantities for a specific kanban rule by using the kanban quantity calculation.</span></span> <span data-ttu-id="599fe-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="599fe-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="599fe-106">此程序是专为价值流经理设计的。</span><span class="sxs-lookup"><span data-stu-id="599fe-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="599fe-107">这是您完成“添加新看板数量计算策略到看到规则”这一过程的先决条件。</span><span class="sxs-lookup"><span data-stu-id="599fe-107">It is a prerequisite that you have completed the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span>
 
 
-## <a name="create-a-kanban-quantity-calculation"></a>创建看板数量计算
-1. 转到“生产控制”>“定期任务”>“看板数量计算”>“计算看板数量”。
-2. 单击“新建”。
-3. 在“名称”字段中，键入“Speaker2016”。
-4. 在“名称”字段中，单击下拉按钮以打开查找。
-    * 选择您在“添加新看板数量计算策略到看板规则”这一过程中创建的策略。 例如，Speaker2016。  
-5. 在列表中，单击所选行中的链接。
-6. 在“规则有效截止日期”字段，设置日期和时间为“2012-12-17T08:00:00”。
-    * 此日期用作确定要包括在看板数量计算中的固定看板规则基础。  
-7. 在“已履行需求期间开始日期”字段，设置日期和时间为“2012-11-17T09:00:00”。
-    * 包括过去需求交易记录以计算看板数量的开始日期。  
-8. 在“已履行需求期间结束日期”字段，设置日期和时间为“2012-12-17T07:59:59”。
-    * 包括过去需求交易记录以计算看板数量的截止日期。  
-9. 在“需求期间开始日期”字段，设置日期和时间为“2012-12-17T08:00:00”。
-    * 包括当前需求交易记录以计算固定看板数量的开始日期。  
-10. 在“需求期间结束日期”字段，设置日期和时间为“2013-01-16T07:59:59”。
-    * 包括当前需求交易记录以计算看板数量的截止日期。  
+## <a name="create-a-kanban-quantity-calculation"></a><span data-ttu-id="599fe-108">创建看板数量计算</span><span class="sxs-lookup"><span data-stu-id="599fe-108">Create a kanban quantity calculation</span></span>
+1. <span data-ttu-id="599fe-109">转到“生产控制”>“定期任务”>“看板数量计算”>“计算看板数量”。</span><span class="sxs-lookup"><span data-stu-id="599fe-109">Go to Production control > Periodic tasks > Kanban quantity calculation > Calculate kanban quantity.</span></span>
+2. <span data-ttu-id="599fe-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="599fe-110">Click New.</span></span>
+3. <span data-ttu-id="599fe-111">在“名称”字段中，键入“Speaker2016”。</span><span class="sxs-lookup"><span data-stu-id="599fe-111">In the Name field, type 'Speaker2016'.</span></span>
+4. <span data-ttu-id="599fe-112">在“名称”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="599fe-112">In the Name field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="599fe-113">选择您在“添加新看板数量计算策略到看板规则”这一过程中创建的策略。</span><span class="sxs-lookup"><span data-stu-id="599fe-113">Select the policy that you have created in the procedure Add a new kanban quantity calculation policy to a kanban rule.</span></span> <span data-ttu-id="599fe-114">例如，Speaker2016。</span><span class="sxs-lookup"><span data-stu-id="599fe-114">For example, Speaker2016.</span></span>  
+5. <span data-ttu-id="599fe-115">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="599fe-115">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="599fe-116">在“规则有效截止日期”字段，设置日期和时间为“2012-12-17T08:00:00”。</span><span class="sxs-lookup"><span data-stu-id="599fe-116">In the Rule active as of date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="599fe-117">此日期用作确定要包括在看板数量计算中的固定看板规则基础。</span><span class="sxs-lookup"><span data-stu-id="599fe-117">This date serves as the basis for determining which fixed kanban rules are included in the kanban quantity calculation.</span></span>  
+7. <span data-ttu-id="599fe-118">在“已履行需求期间开始日期”字段，设置日期和时间为“2012-11-17T09:00:00”。</span><span class="sxs-lookup"><span data-stu-id="599fe-118">In the Fulfilled demand period start date field, set the date and time to '2012-11-17T09:00:00'.</span></span>
+    * <span data-ttu-id="599fe-119">包括过去需求交易记录以计算看板数量的开始日期。</span><span class="sxs-lookup"><span data-stu-id="599fe-119">The date from when past demand transactions are included to calculate the kanban quantity.</span></span>  
+8. <span data-ttu-id="599fe-120">在“已履行需求期间结束日期”字段，设置日期和时间为“2012-12-17T07:59:59”。</span><span class="sxs-lookup"><span data-stu-id="599fe-120">In the Fulfilled demand period end date field, set the date and time to '2012-12-17T07:59:59'.</span></span>
+    * <span data-ttu-id="599fe-121">包括过去需求交易记录以计算看板数量的截止日期。</span><span class="sxs-lookup"><span data-stu-id="599fe-121">The date until when past demand transactions are included to calculate the kanban quantity.</span></span>  
+9. <span data-ttu-id="599fe-122">在“需求期间开始日期”字段，设置日期和时间为“2012-12-17T08:00:00”。</span><span class="sxs-lookup"><span data-stu-id="599fe-122">In the Demand period start date field, set the date and time to '2012-12-17T08:00:00'.</span></span>
+    * <span data-ttu-id="599fe-123">包括当前需求交易记录以计算固定看板数量的开始日期。</span><span class="sxs-lookup"><span data-stu-id="599fe-123">The date from when current demand transactions are included to calculate the kanban quantity.</span></span>  
+10. <span data-ttu-id="599fe-124">在“需求期间结束日期”字段，设置日期和时间为“2013-01-16T07:59:59”。</span><span class="sxs-lookup"><span data-stu-id="599fe-124">In the Demand period end date field, set the date and time to '2013-01-16T07:59:59'.</span></span>
+    * <span data-ttu-id="599fe-125">包括当前需求交易记录以计算看板数量的截止日期。</span><span class="sxs-lookup"><span data-stu-id="599fe-125">The date until when current demand transactions are included to calculate the kanban quantity.</span></span>  
 
-## <a name="generate-kanban-quantity-proposal"></a>生成看板数量方案
-1. 单击“保存”。
-2. 单击“生成”。
-    * 这将生成 000020 看板规则的看板数量方案行。  
+## <a name="generate-kanban-quantity-proposal"></a><span data-ttu-id="599fe-126">生成看板数量方案</span><span class="sxs-lookup"><span data-stu-id="599fe-126">Generate kanban quantity proposal</span></span>
+1. <span data-ttu-id="599fe-127">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="599fe-127">Click Save.</span></span>
+2. <span data-ttu-id="599fe-128">单击“生成”。</span><span class="sxs-lookup"><span data-stu-id="599fe-128">Click Generate.</span></span>
+    * <span data-ttu-id="599fe-129">这将生成 000020 看板规则的看板数量方案行。</span><span class="sxs-lookup"><span data-stu-id="599fe-129">This generates a kanban quantity proposal line for the kanban rule 000020.</span></span>  
 
-## <a name="run-kanban-quantity-calculation"></a>运行看板数量计算
-1. 单击“计算”。
-    * 此计算看板数量方案。  
-2. 单击“确定”。
-3. 在列表中，标记所选的行。
-    * 请注意，建议的看板数量为 2。  
+## <a name="run-kanban-quantity-calculation"></a><span data-ttu-id="599fe-130">运行看板数量计算</span><span class="sxs-lookup"><span data-stu-id="599fe-130">Run kanban quantity calculation</span></span>
+1. <span data-ttu-id="599fe-131">单击“计算”。</span><span class="sxs-lookup"><span data-stu-id="599fe-131">Click Calculate.</span></span>
+    * <span data-ttu-id="599fe-132">此计算看板数量方案。</span><span class="sxs-lookup"><span data-stu-id="599fe-132">This calculates the kanban quantity proposal.</span></span>  
+2. <span data-ttu-id="599fe-133">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="599fe-133">Click OK.</span></span>
+3. <span data-ttu-id="599fe-134">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="599fe-134">In the list, mark the selected row.</span></span>
+    * <span data-ttu-id="599fe-135">请注意，建议的看板数量为 2。</span><span class="sxs-lookup"><span data-stu-id="599fe-135">Notice the suggested kanban quantity is 2.</span></span>  
 
-## <a name="change-product-quantity-and-calculate-again"></a>更改产品数量并重新计算
-1. 将产品数量设置为“5”。
-2. 单击“计算”。
-3. 单击“确定”。
-    * 请注意，如果看板数量为 5，建议更改为 4。  
-    * 这由实际产品数量低引起，我们需要更多看板来满足需求。  
+## <a name="change-product-quantity-and-calculate-again"></a><span data-ttu-id="599fe-136">更改产品数量并重新计算</span><span class="sxs-lookup"><span data-stu-id="599fe-136">Change product quantity and calculate again</span></span>
+1. <span data-ttu-id="599fe-137">将产品数量设置为“5”。</span><span class="sxs-lookup"><span data-stu-id="599fe-137">Set Product quantity to '5'.</span></span>
+2. <span data-ttu-id="599fe-138">单击“计算”。</span><span class="sxs-lookup"><span data-stu-id="599fe-138">Click Calculate.</span></span>
+3. <span data-ttu-id="599fe-139">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="599fe-139">Click OK.</span></span>
+    * <span data-ttu-id="599fe-140">请注意，如果看板数量为 5，建议更改为 4。</span><span class="sxs-lookup"><span data-stu-id="599fe-140">Notice that with a kanban quantity of 5, the suggestion is changed to a kanban quantity of 4.</span></span>  
+    * <span data-ttu-id="599fe-141">这由实际产品数量低引起，我们需要更多看板来满足需求。</span><span class="sxs-lookup"><span data-stu-id="599fe-141">This is caused by the fact that with a lower product quantity, we need more kanbans to fulfill the demand.</span></span>  
 
-## <a name="update-kanban-rule"></a>更新看板规则
-1. 在“规则生效日期”字段中，输入日期和时间。
-    * 将“规则有效截止日期”设置为未来日期。 例如，今天 + 一年。  
-2. 单击“更新”。
-3. 单击“确定”。
-4. 关闭该页面。
+## <a name="update-kanban-rule"></a><span data-ttu-id="599fe-142">更新看板规则</span><span class="sxs-lookup"><span data-stu-id="599fe-142">Update kanban rule</span></span>
+1. <span data-ttu-id="599fe-143">在“规则生效日期”字段中，输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="599fe-143">In the Rule effective date field, enter a date and time.</span></span>
+    * <span data-ttu-id="599fe-144">将“规则有效截止日期”设置为未来日期。</span><span class="sxs-lookup"><span data-stu-id="599fe-144">Set the 'Rule active as of date' to a date in the future.</span></span> <span data-ttu-id="599fe-145">例如，今天 + 一年。</span><span class="sxs-lookup"><span data-stu-id="599fe-145">For example, today + one year.</span></span>  
+2. <span data-ttu-id="599fe-146">单击“更新”。</span><span class="sxs-lookup"><span data-stu-id="599fe-146">Click Update.</span></span>
+3. <span data-ttu-id="599fe-147">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="599fe-147">Click OK.</span></span>
+4. <span data-ttu-id="599fe-148">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="599fe-148">Close the page.</span></span>
 
-## <a name="validate-change-on-kanban-rule"></a>验证看板规则的更改
-1. 转到“产品信息管理”>“Lean manufacturing”>“看板规则”。
-2. 在列表中，单击所选行中的链接。
-    * 选择在上一子任务中创建的看板规则。 这应该是按编号排序的列表中的第一个看板规则。  
-3. 切换“详细信息”部分的展开项。
-    * 请注意，生效日期指规则在此日期前未生效。  
-4. 切换“数量”部分的展开项。
-    * 请注意，这是您在看板数量计算中输入的默认数量。  
-    * 请注意，这是来自看板数量计算的固定看板数量 4.  
-5. 单击“列表面板”选项卡。
+## <a name="validate-change-on-kanban-rule"></a><span data-ttu-id="599fe-149">验证看板规则的更改</span><span class="sxs-lookup"><span data-stu-id="599fe-149">Validate change on kanban rule</span></span>
+1. <span data-ttu-id="599fe-150">转到“产品信息管理”>“Lean manufacturing”>“看板规则”。</span><span class="sxs-lookup"><span data-stu-id="599fe-150">Go to Product information management > Lean manufacturing > Kanban rules.</span></span>
+2. <span data-ttu-id="599fe-151">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="599fe-151">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="599fe-152">选择在上一子任务中创建的看板规则。</span><span class="sxs-lookup"><span data-stu-id="599fe-152">Select the kanban rule that was created in the previous sub-task.</span></span> <span data-ttu-id="599fe-153">这应该是按编号排序的列表中的第一个看板规则。</span><span class="sxs-lookup"><span data-stu-id="599fe-153">This should be the first kanban rule in the list sorted by number.</span></span>  
+3. <span data-ttu-id="599fe-154">切换“详细信息”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="599fe-154">Toggle the expansion of the Details section.</span></span>
+    * <span data-ttu-id="599fe-155">请注意，生效日期指规则在此日期前未生效。</span><span class="sxs-lookup"><span data-stu-id="599fe-155">Notice the effective date, which means that this rule is not activated until this date.</span></span>  
+4. <span data-ttu-id="599fe-156">切换“数量”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="599fe-156">Toggle the expansion of the Quantities section.</span></span>
+    * <span data-ttu-id="599fe-157">请注意，这是您在看板数量计算中输入的默认数量。</span><span class="sxs-lookup"><span data-stu-id="599fe-157">Notice this is the default quantity that you entered on the kanban quantity calculation.</span></span>  
+    * <span data-ttu-id="599fe-158">请注意，这是来自看板数量计算的固定看板数量 4.</span><span class="sxs-lookup"><span data-stu-id="599fe-158">Notice this is the fixed kanban quantity of 4 from the kanban quantity calculation.</span></span>  
+5. <span data-ttu-id="599fe-159">单击“列表面板”选项卡。</span><span class="sxs-lookup"><span data-stu-id="599fe-159">Click the ListPanel tab.</span></span>
 
 

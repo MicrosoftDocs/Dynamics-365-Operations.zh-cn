@@ -17,112 +17,112 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 993e88703f19dbeec435d07a4599cbbfcda563bc
-ms.openlocfilehash: b63e31f3e4993c1fda229a54b4e5ef2fed824355
+ms.sourcegitcommit: 97d374230cc6e833b9f585de000e1252f2a78b9d
+ms.openlocfilehash: 9fd3142e6219b6eae12b8e2331b31bfbf5a22f73
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 08/30/2017
 
 ---
 
-# <a name="practice-manager-power-bi-content"></a>实践经理 Power BI 内容
+# <a name="practice-manager-power-bi-content"></a><span data-ttu-id="68321-104">实践经理 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="68321-104">Practice manager Power BI content</span></span>
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍**实践经理** Microsoft Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+<span data-ttu-id="68321-105">此主题介绍**实践经理** Microsoft Power BI 内容中的内容。</span><span class="sxs-lookup"><span data-stu-id="68321-105">This topic describes what is included in the **Practice manager** Microsoft Power BI content.</span></span> <span data-ttu-id="68321-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="68321-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
-## <a name="overview"></a>概览
+## <a name="overview"></a><span data-ttu-id="68321-107">概览</span><span class="sxs-lookup"><span data-stu-id="68321-107">Overview</span></span>
 
-**实践经理** Power BI 内容为实践经理和项目经理创建。 它提供与组织正在处理的项目相关的关键指标。 仪表板提供了项目以及相关客户的概览。 报表级筛选器可用于特定法人的报表。 此 Power BI 内容从项目核算聚合度量中提取数据。
+<span data-ttu-id="68321-108">**实践经理** Power BI 内容为实践经理和项目经理创建。</span><span class="sxs-lookup"><span data-stu-id="68321-108">The **Practice manager** Power BI content was created for practice managers and project managers.</span></span> <span data-ttu-id="68321-109">它提供与组织正在处理的项目相关的关键指标。</span><span class="sxs-lookup"><span data-stu-id="68321-109">It provides key metrics that are related to the projects that the organization is working on.</span></span> <span data-ttu-id="68321-110">仪表板提供了项目以及相关客户的概览。</span><span class="sxs-lookup"><span data-stu-id="68321-110">The dashboard gives an overview of the projects and related customers.</span></span> <span data-ttu-id="68321-111">报表级筛选器可用于特定法人的报表。</span><span class="sxs-lookup"><span data-stu-id="68321-111">A report-level filter can be used to report for specific legal entities.</span></span> <span data-ttu-id="68321-112">此 Power BI 内容从项目核算聚合度量中提取数据。</span><span class="sxs-lookup"><span data-stu-id="68321-112">This Power BI content pulls data from the project accounting aggregate measurements.</span></span>
 
-**实践经理** Power BI 内容包含五个报表页：一个概览页，四个提供项目成本、收入、挣值管理，以及跨各个维度细分的工时指标的详细信息。
+<span data-ttu-id="68321-113">**实践经理** Power BI 内容包含五个报表页：一个概览页，四个提供项目成本、收入、挣值管理，以及跨各个维度细分的工时指标的详细信息。</span><span class="sxs-lookup"><span data-stu-id="68321-113">The **Practice manager** Power BI content contains five report pages: one overview page, and four pages that provide details about project costs, revenues, earned value management, and hour metrics that are broken down across various dimensions.</span></span>
 
-内容中的所有金额都以系统币种显示。 您可以在**系统参数**页设置系统币种。
+<span data-ttu-id="68321-114">内容中的所有金额都以系统币种显示。</span><span class="sxs-lookup"><span data-stu-id="68321-114">All the amounts in the content are shown in the system currency.</span></span> <span data-ttu-id="68321-115">您可以在**系统参数**页设置系统币种。</span><span class="sxs-lookup"><span data-stu-id="68321-115">You can set the system currency on the **System parameters** page.</span></span>
 
-## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，则**实践经理** Power BI 内容在**实践管理**工作区显示。
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="68321-116">访问 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="68321-116">Accessing the Power BI content</span></span>
+<span data-ttu-id="68321-117">如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，则**实践经理** Power BI 内容在**实践管理**工作区显示。</span><span class="sxs-lookup"><span data-stu-id="68321-117">If you're using Microsoft Dynamics 365 for Finance and Operations, Enterprise edition July 2017 update, the **Practice manager** Power BI content is shown in the **Project management** workspace.</span></span>
 
-## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="68321-118">此 Power BI 内容中包含的报表</span><span class="sxs-lookup"><span data-stu-id="68321-118">Reports that are included in the Power BI content</span></span>
 
-下表提供有关在**实践经理** Power BI 内容中的每个报表页找到的度量的详细信息。
+<span data-ttu-id="68321-119">下表提供有关在**实践经理** Power BI 内容中的每个报表页找到的度量的详细信息。</span><span class="sxs-lookup"><span data-stu-id="68321-119">The following table provides details about the metrics that are found on each report page in the **Practice manager** Power BI content.</span></span>
 
-| 报表页       | 指标 |
+| <span data-ttu-id="68321-120">报表页</span><span class="sxs-lookup"><span data-stu-id="68321-120">Report page</span></span>       | <span data-ttu-id="68321-121">指标</span><span class="sxs-lookup"><span data-stu-id="68321-121">Metrics</span></span> |
 |-------------------|---------|
-| 项目概览 | <ul><li>已创建的项目</li><li>已评估的项目</li><li>正在进行的项目</li><li>按阶段划分的项目的数量</li><li>按城划分的项目的数量</li><li>按客户显示的实际收入</li><li>按项目显示的预算毛利</li><li>挣值管理概览</li></ul> |
-| 成本              | <ul><li>按月份显示的实际与预算成本</li><li>按年份显示的实际与预算成本</li><li>按类别显示的实际与预算成本</li><li>按交易记录类型显示的实际成本</li></ul> |
-| 收入           | <ul><li>按月份显示的实际收入</li><li>按邮政编码显示的实际收入</li><li>按类别显示的实际与预算收入</li><li>按客户行业显示的实际收入</li></ul> |
-| EVM               | 按项目显示的成本和计划绩效指数 |
-| 工时             | <ul><li>实际收费有偿工时数、实际收费无偿工时数与预算工时</li><li>按项目划分的实际收费有偿工时数与实际收费无偿工时数</li><li>按资源划分的实际收费有偿工时数与实际收费无偿工时数</li><li>按项目划分的实际收费工时比率</li><li>按资源划分的实际收费工时比率</li></ul> |
+| <span data-ttu-id="68321-122">项目概览</span><span class="sxs-lookup"><span data-stu-id="68321-122">Projects overview</span></span> | <ul><li><span data-ttu-id="68321-123">已创建的项目</span><span class="sxs-lookup"><span data-stu-id="68321-123">Created projects</span></span></li><li><span data-ttu-id="68321-124">已评估的项目</span><span class="sxs-lookup"><span data-stu-id="68321-124">Estimated projects</span></span></li><li><span data-ttu-id="68321-125">正在进行的项目</span><span class="sxs-lookup"><span data-stu-id="68321-125">In-process projects</span></span></li><li><span data-ttu-id="68321-126">按阶段划分的项目的数量</span><span class="sxs-lookup"><span data-stu-id="68321-126">Number of projects by stage</span></span></li><li><span data-ttu-id="68321-127">按城划分的项目的数量</span><span class="sxs-lookup"><span data-stu-id="68321-127">Number of projects by city</span></span></li><li><span data-ttu-id="68321-128">按客户显示的实际收入</span><span class="sxs-lookup"><span data-stu-id="68321-128">Actual revenue by customer</span></span></li><li><span data-ttu-id="68321-129">按项目显示的预算毛利</span><span class="sxs-lookup"><span data-stu-id="68321-129">Budget gross margin by project</span></span></li><li><span data-ttu-id="68321-130">挣值管理概览</span><span class="sxs-lookup"><span data-stu-id="68321-130">Earned value management overview</span></span></li></ul> |
+| <span data-ttu-id="68321-131">成本</span><span class="sxs-lookup"><span data-stu-id="68321-131">Cost</span></span>              | <ul><li><span data-ttu-id="68321-132">按月份显示的实际与预算成本</span><span class="sxs-lookup"><span data-stu-id="68321-132">Actual vs. budget cost by month</span></span></li><li><span data-ttu-id="68321-133">按年份显示的实际与预算成本</span><span class="sxs-lookup"><span data-stu-id="68321-133">Actual vs. budget cost by year</span></span></li><li><span data-ttu-id="68321-134">按类别显示的实际与预算成本</span><span class="sxs-lookup"><span data-stu-id="68321-134">Actual vs. budget cost by category</span></span></li><li><span data-ttu-id="68321-135">按交易记录类型显示的实际成本</span><span class="sxs-lookup"><span data-stu-id="68321-135">Actual cost by transaction type</span></span></li></ul> |
+| <span data-ttu-id="68321-136">收入</span><span class="sxs-lookup"><span data-stu-id="68321-136">Revenue</span></span>           | <ul><li><span data-ttu-id="68321-137">按月份显示的实际收入</span><span class="sxs-lookup"><span data-stu-id="68321-137">Actual revenue by month</span></span></li><li><span data-ttu-id="68321-138">按邮政编码显示的实际收入</span><span class="sxs-lookup"><span data-stu-id="68321-138">Actual revenue by postal code</span></span></li><li><span data-ttu-id="68321-139">按类别显示的实际与预算收入</span><span class="sxs-lookup"><span data-stu-id="68321-139">Actual vs. budget revenue by category</span></span></li><li><span data-ttu-id="68321-140">按客户行业显示的实际收入</span><span class="sxs-lookup"><span data-stu-id="68321-140">Actual revenue by customer industry</span></span></li></ul> |
+| <span data-ttu-id="68321-141">EVM</span><span class="sxs-lookup"><span data-stu-id="68321-141">EVM</span></span>               | <span data-ttu-id="68321-142">按项目显示的成本和计划绩效指数</span><span class="sxs-lookup"><span data-stu-id="68321-142">Cost and schedule performance index by project</span></span> |
+| <span data-ttu-id="68321-143">工时</span><span class="sxs-lookup"><span data-stu-id="68321-143">Hours</span></span>             | <ul><li><span data-ttu-id="68321-144">实际收费有偿工时数、实际收费无偿工时数与预算工时</span><span class="sxs-lookup"><span data-stu-id="68321-144">Actual billable utilized hours vs. actual billable burden hours vs. budget hours</span></span></li><li><span data-ttu-id="68321-145">按项目划分的实际收费有偿工时数与实际收费无偿工时数</span><span class="sxs-lookup"><span data-stu-id="68321-145">Actual billable utilized hours vs. actual billable burden hours by project</span></span></li><li><span data-ttu-id="68321-146">按资源划分的实际收费有偿工时数与实际收费无偿工时数</span><span class="sxs-lookup"><span data-stu-id="68321-146">Actual billable utilized hours vs. actual billable burden hours by resource</span></span></li><li><span data-ttu-id="68321-147">按项目划分的实际收费工时比率</span><span class="sxs-lookup"><span data-stu-id="68321-147">Actual billable hours ratio by project</span></span></li><li><span data-ttu-id="68321-148">按资源划分的实际收费工时比率</span><span class="sxs-lookup"><span data-stu-id="68321-148">Actual billable hours ratio by resource</span></span></li></ul> |
 
-所有这些报表中的图表和磁贴均可以筛选和并固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/)。 您还可以使用“导出基础数据”功能导出在可视化中汇总的基础数据。
+<span data-ttu-id="68321-149">所有这些报表中的图表和磁贴均可以筛选和并固定到仪表板。</span><span class="sxs-lookup"><span data-stu-id="68321-149">The charts and tiles on all these reports can be filtered and pinned to the dashboard.</span></span> <span data-ttu-id="68321-150">有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/)。</span><span class="sxs-lookup"><span data-stu-id="68321-150">For more information about how to filter and pin in Power BI, see [Create and configure a dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/).</span></span> <span data-ttu-id="68321-151">您还可以使用“导出基础数据”功能导出在可视化中汇总的基础数据。</span><span class="sxs-lookup"><span data-stu-id="68321-151">You can also use the Export underlying data functionality to export the underlying data that is summarized in a visualization.</span></span>
 
-## <a name="extending-the-power-bi-content"></a>扩展 Power BI 内容
-使用在 Microsoft Dynamics Lifecycle Services (LCS) 中可用的内容包可以对未登录到 Microsoft Dynamics 365 的人员提供出色的分析。 您可以修改这些内容包，使它们包含其他报表或视觉对象，然后将其发布到您的 Power BI.com 租户进行分析。 
+## <a name="extending-the-power-bi-content"></a><span data-ttu-id="68321-152">扩展 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="68321-152">Extending the Power BI content</span></span>
+<span data-ttu-id="68321-153">使用在 Microsoft Dynamics Lifecycle Services (LCS) 中可用的内容包可以对未登录到 Microsoft Dynamics 365 的人员提供出色的分析。</span><span class="sxs-lookup"><span data-stu-id="68321-153">By using the content packs that are available in Microsoft Dynamics Lifecycle Services (LCS), you can provide great analytics to people who don't sign in to Microsoft Dynamics 365.</span></span> <span data-ttu-id="68321-154">您可以修改这些内容包，使它们包含其他报表或视觉对象，然后将其发布到您的 Power BI.com 租户进行分析。</span><span class="sxs-lookup"><span data-stu-id="68321-154">You can modify these content packs so that they include other reports or visuals, and then publish them to your Power BI.com tenant for analysis.</span></span> 
 
-可在 LCS 中的共享资产库内找到**实践经理** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。
+<span data-ttu-id="68321-155">可在 LCS 中的共享资产库内找到**实践经理** Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="68321-155">You can find the **Practice manager** Power BI content in the Shared assets library in LCS.</span></span> <span data-ttu-id="68321-156">有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。</span><span class="sxs-lookup"><span data-stu-id="68321-156">For more information about how to download the content and implement it in your organization, see [Power BI content in LCS from Microsoft and your partners](power-bi-content-microsoft-partners.md).</span></span> <span data-ttu-id="68321-157">若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。</span><span class="sxs-lookup"><span data-stu-id="68321-157">To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.</span></span>
 
-请确保下载适用于您使用的 Dynamics 365 版本的**实践经理**内容。
+<span data-ttu-id="68321-158">请确保下载适用于您使用的 Dynamics 365 版本的**实践经理**内容。</span><span class="sxs-lookup"><span data-stu-id="68321-158">Be sure to download the **Practice manager** content that applies to the version of Dynamics 365 that you're using.</span></span>
 
-## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="68321-159">了解数据模型和实体</span><span class="sxs-lookup"><span data-stu-id="68321-159">Understanding the data model and entities</span></span>
 
-以下数据用于填充**实践经理** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。
+<span data-ttu-id="68321-160">以下数据用于填充**实践经理** Power BI 内容中的报表页。</span><span class="sxs-lookup"><span data-stu-id="68321-160">The following data is used to fill the report pages in the **Practice manager** Power BI content.</span></span> <span data-ttu-id="68321-161">此数据表示为实体商店内已分组的聚合度量。</span><span class="sxs-lookup"><span data-stu-id="68321-161">This data is represented as aggregate measurements that are staged in the Entity store.</span></span> <span data-ttu-id="68321-162">实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。</span><span class="sxs-lookup"><span data-stu-id="68321-162">The Entity store is a Microsoft SQL Server database that is optimized for analytics.</span></span> <span data-ttu-id="68321-163">有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。</span><span class="sxs-lookup"><span data-stu-id="68321-163">For more information, see [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span>
 
-以下部分说明用于每个实体的聚合度量。
+<span data-ttu-id="68321-164">以下部分说明用于每个实体的聚合度量。</span><span class="sxs-lookup"><span data-stu-id="68321-164">The following sections describe the aggregate measurements that are used in each entity.</span></span>
 
-### <a name="entity-projectaccountingcubeactualhourutilization"></a>实体：ProjectAccountingCube_ActualHourUtilization
-**数据源：**ProjEmplTrans
+### <a name="entity-projectaccountingcubeactualhourutilization"></a><span data-ttu-id="68321-165">实体：ProjectAccountingCube_ActualHourUtilization</span><span class="sxs-lookup"><span data-stu-id="68321-165">Entity: ProjectAccountingCube_ActualHourUtilization</span></span>
+<span data-ttu-id="68321-166">**数据源：**ProjEmplTrans</span><span class="sxs-lookup"><span data-stu-id="68321-166">**Data source:** ProjEmplTrans</span></span>
 
-| 关键聚合度量      | 字段                              | 说明 | 
+| <span data-ttu-id="68321-167">关键聚合度量</span><span class="sxs-lookup"><span data-stu-id="68321-167">Key aggregate measurement</span></span>      | <span data-ttu-id="68321-168">字段</span><span class="sxs-lookup"><span data-stu-id="68321-168">Field</span></span>                              | <span data-ttu-id="68321-169">说明</span><span class="sxs-lookup"><span data-stu-id="68321-169">Description</span></span> | 
 |--------------------------------|------------------------------------|-------------|
-| 实际收费有偿工时数 | Sum(ActualUtilizationBillableRate) | 实际收费有偿工时数总计。 |
-| 实际收费无偿工时数   | Sum(ActualBurdenBillableRate)      | 实际负担总计比率。 |
+| <span data-ttu-id="68321-170">实际收费有偿工时数</span><span class="sxs-lookup"><span data-stu-id="68321-170">Actual billable utilized hours</span></span> | <span data-ttu-id="68321-171">Sum(ActualUtilizationBillableRate)</span><span class="sxs-lookup"><span data-stu-id="68321-171">Sum(ActualUtilizationBillableRate)</span></span> | <span data-ttu-id="68321-172">实际收费有偿工时数总计。</span><span class="sxs-lookup"><span data-stu-id="68321-172">The total of actual billable utilized hours.</span></span> |
+| <span data-ttu-id="68321-173">实际收费无偿工时数</span><span class="sxs-lookup"><span data-stu-id="68321-173">Actual billable burden hours</span></span>   | <span data-ttu-id="68321-174">Sum(ActualBurdenBillableRate)</span><span class="sxs-lookup"><span data-stu-id="68321-174">Sum(ActualBurdenBillableRate)</span></span>      | <span data-ttu-id="68321-175">实际负担总计比率。</span><span class="sxs-lookup"><span data-stu-id="68321-175">The total of the actual burden rate.</span></span> |
 
-### <a name="entity-projectaccountingcubeactuals"></a>实体：ProjectAccountingCube_Actuals
-**数据源：**ProjTransPosting
+### <a name="entity-projectaccountingcubeactuals"></a><span data-ttu-id="68321-176">实体：ProjectAccountingCube_Actuals</span><span class="sxs-lookup"><span data-stu-id="68321-176">Entity: ProjectAccountingCube_Actuals</span></span>
+<span data-ttu-id="68321-177">**数据源：**ProjTransPosting</span><span class="sxs-lookup"><span data-stu-id="68321-177">**Data source:** ProjTransPosting</span></span>
 
-| 关键聚合度量 | 字段              | 说明 | 
+| <span data-ttu-id="68321-178">关键聚合度量</span><span class="sxs-lookup"><span data-stu-id="68321-178">Key aggregate measurement</span></span> | <span data-ttu-id="68321-179">字段</span><span class="sxs-lookup"><span data-stu-id="68321-179">Field</span></span>              | <span data-ttu-id="68321-180">说明</span><span class="sxs-lookup"><span data-stu-id="68321-180">Description</span></span> | 
 |---------------------------|--------------------|-------------|
-| 实际收入            | Sum(ActualRevenue) | 已过帐的所有交易收入的总计。 |   
-| 实际成本               | Sum(ActualCost)    | 已过帐的所有交易记录类型的成本总计。 |
+| <span data-ttu-id="68321-181">实际收入</span><span class="sxs-lookup"><span data-stu-id="68321-181">Actual revenue</span></span>            | <span data-ttu-id="68321-182">Sum(ActualRevenue)</span><span class="sxs-lookup"><span data-stu-id="68321-182">Sum(ActualRevenue)</span></span> | <span data-ttu-id="68321-183">已过帐的所有交易收入的总计。</span><span class="sxs-lookup"><span data-stu-id="68321-183">The total of posted revenue for all transactions.</span></span> |   
+| <span data-ttu-id="68321-184">实际成本</span><span class="sxs-lookup"><span data-stu-id="68321-184">Actual cost</span></span>               | <span data-ttu-id="68321-185">Sum(ActualCost)</span><span class="sxs-lookup"><span data-stu-id="68321-185">Sum(ActualCost)</span></span>    | <span data-ttu-id="68321-186">已过帐的所有交易记录类型的成本总计。</span><span class="sxs-lookup"><span data-stu-id="68321-186">The total of posted cost for all transaction types.</span></span> |
 
-### <a name="entity-projectaccountingcubecustomer"></a>实体：ProjectAccountingCube_Customer
-**数据源：**CustTable
+### <a name="entity-projectaccountingcubecustomer"></a><span data-ttu-id="68321-187">实体：ProjectAccountingCube_Customer</span><span class="sxs-lookup"><span data-stu-id="68321-187">Entity: ProjectAccountingCube_Customer</span></span>
+<span data-ttu-id="68321-188">**数据源：**CustTable</span><span class="sxs-lookup"><span data-stu-id="68321-188">**Data source:** CustTable</span></span>
 
-| 关键聚合度量 | 字段                                            | 说明 | 
+| <span data-ttu-id="68321-189">关键聚合度量</span><span class="sxs-lookup"><span data-stu-id="68321-189">Key aggregate measurement</span></span> | <span data-ttu-id="68321-190">字段</span><span class="sxs-lookup"><span data-stu-id="68321-190">Field</span></span>                                            | <span data-ttu-id="68321-191">说明</span><span class="sxs-lookup"><span data-stu-id="68321-191">Description</span></span> | 
 |---------------------------|--------------------------------------------------|-------------|
-| 项目数量        | COUNTA(ProjectAccountingCube_Projects[PROJECTS]) | 可用项目计数。 |
+| <span data-ttu-id="68321-192">项目数量</span><span class="sxs-lookup"><span data-stu-id="68321-192">Number of projects</span></span>        | <span data-ttu-id="68321-193">COUNTA(ProjectAccountingCube_Projects[PROJECTS])</span><span class="sxs-lookup"><span data-stu-id="68321-193">COUNTA(ProjectAccountingCube_Projects[PROJECTS])</span></span> | <span data-ttu-id="68321-194">可用项目计数。</span><span class="sxs-lookup"><span data-stu-id="68321-194">The count of available projects.</span></span> |
 
 
-### <a name="entity-projectaccountingcubeforecasts"></a>实体：ProjectAccountingCube_Forecasts
-**数据源：**ProjTransBudget
+### <a name="entity-projectaccountingcubeforecasts"></a><span data-ttu-id="68321-195">实体：ProjectAccountingCube_Forecasts</span><span class="sxs-lookup"><span data-stu-id="68321-195">Entity: ProjectAccountingCube_Forecasts</span></span>
+<span data-ttu-id="68321-196">**数据源：**ProjTransBudget</span><span class="sxs-lookup"><span data-stu-id="68321-196">**Data source:** ProjTransBudget</span></span>
 
-| 关键聚合度量 | 字段                  | 说明 | 
+| <span data-ttu-id="68321-197">关键聚合度量</span><span class="sxs-lookup"><span data-stu-id="68321-197">Key aggregate measurement</span></span> | <span data-ttu-id="68321-198">字段</span><span class="sxs-lookup"><span data-stu-id="68321-198">Field</span></span>                  | <span data-ttu-id="68321-199">说明</span><span class="sxs-lookup"><span data-stu-id="68321-199">Description</span></span> | 
 |---------------------------|------------------------|-------------|
-| 预算成本               | Sum(BudgetCost)        | 预测的所有交易记录类型的成本总计。 |
-| 预算收入            | Sum(BudgetRevenue)     | 预测应计/开票收入的总计。  |
-| 预算毛利       | Sum(BudgetGrossMargin) | 总预测收入总和与总预测成本总和之间的差异。 |
+| <span data-ttu-id="68321-200">预算成本</span><span class="sxs-lookup"><span data-stu-id="68321-200">Budget cost</span></span>               | <span data-ttu-id="68321-201">Sum(BudgetCost)</span><span class="sxs-lookup"><span data-stu-id="68321-201">Sum(BudgetCost)</span></span>        | <span data-ttu-id="68321-202">预测的所有交易记录类型的成本总计。</span><span class="sxs-lookup"><span data-stu-id="68321-202">The total of forecast cost for all transaction types.</span></span> |
+| <span data-ttu-id="68321-203">预算收入</span><span class="sxs-lookup"><span data-stu-id="68321-203">Budget revenue</span></span>            | <span data-ttu-id="68321-204">Sum(BudgetRevenue)</span><span class="sxs-lookup"><span data-stu-id="68321-204">Sum(BudgetRevenue)</span></span>     | <span data-ttu-id="68321-205">预测应计/开票收入的总计。</span><span class="sxs-lookup"><span data-stu-id="68321-205">The total of forecast accrued/invoiced revenue.</span></span>  |
+| <span data-ttu-id="68321-206">预算毛利</span><span class="sxs-lookup"><span data-stu-id="68321-206">Budget gross margin</span></span>       | <span data-ttu-id="68321-207">Sum(BudgetGrossMargin)</span><span class="sxs-lookup"><span data-stu-id="68321-207">Sum(BudgetGrossMargin)</span></span> | <span data-ttu-id="68321-208">总预测收入总和与总预测成本总和之间的差异。</span><span class="sxs-lookup"><span data-stu-id="68321-208">The difference between the sum of total forecast revenue and the sum of total forecast cost.</span></span> |
 
-### <a name="entity-projectaccountingcubeprojectplancostsview"></a>实体：ProjectAccountingCube_ProjectPlanCostsView
-**数据源：**项目
+### <a name="entity-projectaccountingcubeprojectplancostsview"></a><span data-ttu-id="68321-209">实体：ProjectAccountingCube_ProjectPlanCostsView</span><span class="sxs-lookup"><span data-stu-id="68321-209">Entity: ProjectAccountingCube_ProjectPlanCostsView</span></span>
+<span data-ttu-id="68321-210">**数据源：**项目</span><span class="sxs-lookup"><span data-stu-id="68321-210">**Data source:** Project</span></span>
 
-| 关键聚合度量 | 字段                    | 说明 | 
+| <span data-ttu-id="68321-211">关键聚合度量</span><span class="sxs-lookup"><span data-stu-id="68321-211">Key aggregate measurement</span></span> | <span data-ttu-id="68321-212">字段</span><span class="sxs-lookup"><span data-stu-id="68321-212">Field</span></span>                    | <span data-ttu-id="68321-213">说明</span><span class="sxs-lookup"><span data-stu-id="68321-213">Description</span></span> | 
 |---------------------------|--------------------------|-------------|
-| 计划成本              | Sum(SumOfTotalCostPrice) | 含计划任务在内估计的所有项目交易记录类型的总成本价。 |
+| <span data-ttu-id="68321-214">计划成本</span><span class="sxs-lookup"><span data-stu-id="68321-214">Planned cost</span></span>              | <span data-ttu-id="68321-215">Sum(SumOfTotalCostPrice)</span><span class="sxs-lookup"><span data-stu-id="68321-215">Sum(SumOfTotalCostPrice)</span></span> | <span data-ttu-id="68321-216">含计划任务在内估计的所有项目交易记录类型的总成本价。</span><span class="sxs-lookup"><span data-stu-id="68321-216">The total cost price in estimates for all project transaction types that have planned tasks.</span></span> |
 
-### <a name="entity-projectaccountingcubeprojects"></a>实体：ProjectAccountingCube_Projects
-**数据源：**项目
+### <a name="entity-projectaccountingcubeprojects"></a><span data-ttu-id="68321-217">实体：ProjectAccountingCube_Projects</span><span class="sxs-lookup"><span data-stu-id="68321-217">Entity: ProjectAccountingCube_Projects</span></span>
+<span data-ttu-id="68321-218">**数据源：**项目</span><span class="sxs-lookup"><span data-stu-id="68321-218">**Data source:** Project</span></span>
 
-| 关键聚合度量    | 字段 | 说明 | 
+| <span data-ttu-id="68321-219">关键聚合度量</span><span class="sxs-lookup"><span data-stu-id="68321-219">Key aggregate measurement</span></span>    | <span data-ttu-id="68321-220">字段</span><span class="sxs-lookup"><span data-stu-id="68321-220">Field</span></span> | <span data-ttu-id="68321-221">说明</span><span class="sxs-lookup"><span data-stu-id="68321-221">Description</span></span> | 
 |------------------------------|-------|-------------|
-| 成本绩效指数       | ProjectAccountingCube_Projects[挣值] / ProjectAccountingCube_Projects[已完成任务的总实际成本] | 计算为总挣值除以总实际成本。 |
-| 计划绩效指数   | ProjectAccountingCube_Projects[挣值] / ProjectAccountingCube_Projects[已完成任务的总计划成本] | 计算为总挣值除以总计划成本。 |
-| 已完成工作的百分比 | 工作完成百分比 = ProjectAccountingCube_Projects[已完成任务的总实际成本] / (ProjectAccountingCube_Projects[已完成任务的总实际成本] + ProjectAccountingCube_Projects[项目的总计划成本] - ProjectAccountingCube_Projects[已完成任务的总计划成本]) | 已完成工作的总百分比，基于已完成任务的总实际成本和项目的计划成本。 |
-| 实际收费工时数比率  | ProjectAccountingCube_Projects[项目实际收费有偿工时总数] / (ProjectAccountingCube_Projects[项目实际收费有偿工时总数] + ProjectAccountingCube_Projects[项目实际收费无偿工时总数]) | 总实际计费工时数，基于有偿工时数和无偿工时数。 |
-| 挣值                 | ProjectAccountingCube_Projects[项目的总计划成本] * ProjectAccountingCube_Projects[已完成工作的百分比] | 总计划成本乘以已完成工作的百分比。 |
+| <span data-ttu-id="68321-222">成本绩效指数</span><span class="sxs-lookup"><span data-stu-id="68321-222">Cost performance index</span></span>       | <span data-ttu-id="68321-223">ProjectAccountingCube_Projects[挣值] / ProjectAccountingCube_Projects[已完成任务的总实际成本]</span><span class="sxs-lookup"><span data-stu-id="68321-223">ProjectAccountingCube_Projects[Earned value] / ProjectAccountingCube_Projects[Total actual cost of completed tasks]</span></span> | <span data-ttu-id="68321-224">计算为总挣值除以总实际成本。</span><span class="sxs-lookup"><span data-stu-id="68321-224">The calculation of the total earned value divided by the total actual cost.</span></span> |
+| <span data-ttu-id="68321-225">计划绩效指数</span><span class="sxs-lookup"><span data-stu-id="68321-225">Schedule performance index</span></span>   | <span data-ttu-id="68321-226">ProjectAccountingCube_Projects[挣值] / ProjectAccountingCube_Projects[已完成任务的总计划成本]</span><span class="sxs-lookup"><span data-stu-id="68321-226">ProjectAccountingCube_Projects[Earned value] / ProjectAccountingCube_Projects[Total planned cost of completed tasks]</span></span> | <span data-ttu-id="68321-227">计算为总挣值除以总计划成本。</span><span class="sxs-lookup"><span data-stu-id="68321-227">The calculation of the total earned value divided by the total planned cost.</span></span> |
+| <span data-ttu-id="68321-228">已完成工作的百分比</span><span class="sxs-lookup"><span data-stu-id="68321-228">Percentage of work completed</span></span> | <span data-ttu-id="68321-229">工作完成百分比 = ProjectAccountingCube_Projects[已完成任务的总实际成本] / (ProjectAccountingCube_Projects[已完成任务的总实际成本] + ProjectAccountingCube_Projects[项目的总计划成本] - ProjectAccountingCube_Projects[已完成任务的总计划成本])</span><span class="sxs-lookup"><span data-stu-id="68321-229">Percentage of work completed = ProjectAccountingCube_Projects[Total actual cost of completed tasks] / (ProjectAccountingCube_Projects[Total actual cost of completed tasks] + ProjectAccountingCube_Projects[Total planned cost of project] - ProjectAccountingCube_Projects[Total planned cost of completed tasks])</span></span> | <span data-ttu-id="68321-230">已完成工作的总百分比，基于已完成任务的总实际成本和项目的计划成本。</span><span class="sxs-lookup"><span data-stu-id="68321-230">The total percentage of completed work, based on the total actual cost of completed tasks and the planned cost of the project.</span></span> |
+| <span data-ttu-id="68321-231">实际收费工时数比率</span><span class="sxs-lookup"><span data-stu-id="68321-231">Actual billable hours ratio</span></span>  | <span data-ttu-id="68321-232">ProjectAccountingCube_Projects[项目实际收费有偿工时总数] / (ProjectAccountingCube_Projects[项目实际收费有偿工时总数] + ProjectAccountingCube_Projects[项目实际收费无偿工时总数])</span><span class="sxs-lookup"><span data-stu-id="68321-232">ProjectAccountingCube_Projects[Project total actual billable utilized hours] / (ProjectAccountingCube_Projects[Project total actual billable utilized hours] + ProjectAccountingCube_Projects[Project total actual billable burden hours])</span></span> | <span data-ttu-id="68321-233">总实际计费工时数，基于有偿工时数和无偿工时数。</span><span class="sxs-lookup"><span data-stu-id="68321-233">The total actual billable hours, based on the utilized hours and the burden hours.</span></span> |
+| <span data-ttu-id="68321-234">挣值</span><span class="sxs-lookup"><span data-stu-id="68321-234">Earned value</span></span>                 | <span data-ttu-id="68321-235">ProjectAccountingCube_Projects[项目的总计划成本] * ProjectAccountingCube_Projects[已完成工作的百分比]</span><span class="sxs-lookup"><span data-stu-id="68321-235">ProjectAccountingCube_Projects[Total planned cost of project] * ProjectAccountingCube_Projects[Percentage of work completed]</span></span> | <span data-ttu-id="68321-236">总计划成本乘以已完成工作的百分比。</span><span class="sxs-lookup"><span data-stu-id="68321-236">The total planned cost multiplied by the percentage of completed work.</span></span> |
 
-### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>实体：ProjectAccountingCube_TotalEstimatedCosts 
-**数据源：**ProjTable
+### <a name="entity-projectaccountingcubetotalestimatedcosts"></a><span data-ttu-id="68321-237">实体：ProjectAccountingCube_TotalEstimatedCosts</span><span class="sxs-lookup"><span data-stu-id="68321-237">Entity: ProjectAccountingCube_TotalEstimatedCosts</span></span> 
+<span data-ttu-id="68321-238">**数据源：**ProjTable</span><span class="sxs-lookup"><span data-stu-id="68321-238">**Data source:** ProjTable</span></span>
 
-| 关键聚合度量       | 字段               | 说明 | 
+| <span data-ttu-id="68321-239">关键聚合度量</span><span class="sxs-lookup"><span data-stu-id="68321-239">Key aggregate measurement</span></span>       | <span data-ttu-id="68321-240">字段</span><span class="sxs-lookup"><span data-stu-id="68321-240">Field</span></span>               | <span data-ttu-id="68321-241">说明</span><span class="sxs-lookup"><span data-stu-id="68321-241">Description</span></span> | 
 |---------------------------------|---------------------|-------------|
-| 已完成活动的计划成本 | Sum(TotalCostPrice) | 含已完成任务在内估计的所有项目交易记录类型的总成本价。 |
+| <span data-ttu-id="68321-242">已完成活动的计划成本</span><span class="sxs-lookup"><span data-stu-id="68321-242">Completed activity planned cost</span></span> | <span data-ttu-id="68321-243">Sum(TotalCostPrice)</span><span class="sxs-lookup"><span data-stu-id="68321-243">Sum(TotalCostPrice)</span></span> | <span data-ttu-id="68321-244">含已完成任务在内估计的所有项目交易记录类型的总成本价。</span><span class="sxs-lookup"><span data-stu-id="68321-244">The total cost price in estimates for all project transaction types that have completed tasks.</span></span> |
 

@@ -18,57 +18,57 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: f07aea0b87bc3e09982f9ba248d3c28540fd2dc5
+ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
+ms.openlocfilehash: 0017d13b7f7594462dfff4ef896f4139607d4bc5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 08/29/2017
 
 ---
 
-# <a name="income-statement-financial-report"></a>收入报表财务报表
+# <a name="income-statement-financial-report"></a><span data-ttu-id="a8b9d-104">收入报表财务报表</span><span class="sxs-lookup"><span data-stu-id="a8b9d-104">Income statement financial report</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍默认收入报表。 还介绍此报表的关联构建块。 
+<span data-ttu-id="a8b9d-105">本文介绍默认收入报表。</span><span class="sxs-lookup"><span data-stu-id="a8b9d-105">This article describes the default report for income statements.</span></span> <span data-ttu-id="a8b9d-106">还介绍此报表的关联构建块。</span><span class="sxs-lookup"><span data-stu-id="a8b9d-106">It also describes the building blocks that are associated with this report.</span></span> 
 
-<a name="default-income-statement-report"></a>默认收入报表
+<a name="default-income-statement-report"></a><span data-ttu-id="a8b9d-107">默认收入报表</span><span class="sxs-lookup"><span data-stu-id="a8b9d-107">Default income statement report</span></span>
 -------------------------------
 
-| 默认报表             | 作用                                                                                              |
+| <span data-ttu-id="a8b9d-108">默认报表</span><span class="sxs-lookup"><span data-stu-id="a8b9d-108">Default report</span></span>             | <span data-ttu-id="a8b9d-109">作用</span><span class="sxs-lookup"><span data-stu-id="a8b9d-109">What it does</span></span>                                                                                              |
 |----------------------------|-----------------------------------------------------------------------------------------------------------|
-| 收入报表 – 默认 | 提供组织当前期间以及本年迄今收益率的视图。 |
+| <span data-ttu-id="a8b9d-110">收入报表 – 默认</span><span class="sxs-lookup"><span data-stu-id="a8b9d-110">Income Statement – Default</span></span> | <span data-ttu-id="a8b9d-111">提供组织当前期间以及本年迄今收益率的视图。</span><span class="sxs-lookup"><span data-stu-id="a8b9d-111">Provides a view of the organization’s profitability for the current period and also for the year to date.</span></span> |
 
-## <a name="building-blocks"></a>构建基块
-收入报表财务报表使用以下构建基块。
+## <a name="building-blocks"></a><span data-ttu-id="a8b9d-112">构建基块</span><span class="sxs-lookup"><span data-stu-id="a8b9d-112">Building blocks</span></span>
+<span data-ttu-id="a8b9d-113">收入报表财务报表使用以下构建基块。</span><span class="sxs-lookup"><span data-stu-id="a8b9d-113">The income statement financial report uses the following building blocks.</span></span>
 
-| 默认报表             | 行定义                     | 列定义          |
+| <span data-ttu-id="a8b9d-114">默认报表</span><span class="sxs-lookup"><span data-stu-id="a8b9d-114">Default report</span></span>             | <span data-ttu-id="a8b9d-115">行定义</span><span class="sxs-lookup"><span data-stu-id="a8b9d-115">Row definition</span></span>                     | <span data-ttu-id="a8b9d-116">列定义</span><span class="sxs-lookup"><span data-stu-id="a8b9d-116">Column definition</span></span>          |
 |----------------------------|------------------------------------|----------------------------|
-| 收入报表 - 默认 | 收入报表汇总 - 默认 | 定期和 YTD - 默认 |
+| <span data-ttu-id="a8b9d-117">收入报表 - 默认</span><span class="sxs-lookup"><span data-stu-id="a8b9d-117">Income Statement - Default</span></span> | <span data-ttu-id="a8b9d-118">收入报表汇总 - 默认</span><span class="sxs-lookup"><span data-stu-id="a8b9d-118">Summary Income Statement - Default</span></span> | <span data-ttu-id="a8b9d-119">定期和 YTD - 默认</span><span class="sxs-lookup"><span data-stu-id="a8b9d-119">Periodic and YTD - Default</span></span> |
 
-### <a name="row-definition"></a>行定义
+### <a name="row-definition"></a><span data-ttu-id="a8b9d-120">行定义</span><span class="sxs-lookup"><span data-stu-id="a8b9d-120">Row definition</span></span>
 
-行定义，收入报表汇总 – 默认，包含每个传统收入报表部分的一个部分。 主科目类别维度用于创建此行定义。 因此，任何人都可以生成报表，而不必进行任何修改。
+<span data-ttu-id="a8b9d-121">行定义，收入报表汇总 – 默认，包含每个传统收入报表部分的一个部分。</span><span class="sxs-lookup"><span data-stu-id="a8b9d-121">The row definition, Summary Income Statement – Default, contains a section for each part of a traditional income statement.</span></span> <span data-ttu-id="a8b9d-122">主科目类别维度用于创建此行定义。</span><span class="sxs-lookup"><span data-stu-id="a8b9d-122">The Main Account Category dimension is used to build this row definition.</span></span> <span data-ttu-id="a8b9d-123">因此，任何人都可以生成报表，而不必进行任何修改。</span><span class="sxs-lookup"><span data-stu-id="a8b9d-123">Therefore, anyone can generate the report without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a>列定义
+### <a name="column-definition"></a><span data-ttu-id="a8b9d-124">列定义</span><span class="sxs-lookup"><span data-stu-id="a8b9d-124">Column Definition</span></span>
 
-列定义包含不同的列类型以提供不同级别的详细信息和财务数据。
+<span data-ttu-id="a8b9d-125">列定义包含不同的列类型以提供不同级别的详细信息和财务数据。</span><span class="sxs-lookup"><span data-stu-id="a8b9d-125">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   **定期和 YTD – 默认列类型：**
-    -   **DESC** – 行定义的描述
-    -   **FD** – 当前期间的财务数据
-    -   **FD** – 本年迄今的财务数据
+-   <span data-ttu-id="a8b9d-126">**定期和 YTD – 默认列类型：**</span><span class="sxs-lookup"><span data-stu-id="a8b9d-126">**Periodic and YTD – Default column types:**</span></span>
+    -   <span data-ttu-id="a8b9d-127">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="a8b9d-127">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="a8b9d-128">**FD** – 当前期间的财务数据</span><span class="sxs-lookup"><span data-stu-id="a8b9d-128">**FD** – Financial data for the current period</span></span>
+    -   <span data-ttu-id="a8b9d-129">**FD** – 本年迄今的财务数据</span><span class="sxs-lookup"><span data-stu-id="a8b9d-129">**FD** – Financial data for the year to date</span></span>
 
  
 
-<a name="see-also"></a>请参阅
+<a name="see-also"></a><span data-ttu-id="a8b9d-130">请参阅</span><span class="sxs-lookup"><span data-stu-id="a8b9d-130">See also</span></span>
 --------
 
-[财务申报](financial-reporting-getting-started.md)
+[<span data-ttu-id="a8b9d-131">财务申报</span><span class="sxs-lookup"><span data-stu-id="a8b9d-131">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[查看财务报表](view-financial-reports.md)
+[<span data-ttu-id="a8b9d-132">查看财务报表</span><span class="sxs-lookup"><span data-stu-id="a8b9d-132">View financial reports</span></span>](view-financial-reports.md)
 
-[Dynamics 财务申报博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+[<span data-ttu-id="a8b9d-133">Dynamics 财务申报博客</span><span class="sxs-lookup"><span data-stu-id="a8b9d-133">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 
