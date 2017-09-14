@@ -1,7 +1,7 @@
 --- 
 title: "创建预定义的产品变型"
 description: "此过程全面介绍如何使用产品维度的组合创建基础产品的产品变型。"
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 10/27/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis

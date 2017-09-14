@@ -1,7 +1,7 @@
 --- 
 title: "创建配置规则"
 description: "该过程创建配置规则，以用于基于维度的配置，从而执行或防止物料清单行的某些组合。"
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
