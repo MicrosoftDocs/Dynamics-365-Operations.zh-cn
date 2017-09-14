@@ -1,7 +1,7 @@
 --- 
 title: "转移产品模型的数据"
 description: "产品配置模型的导出数据要求至少有一个可用的产品模型。"
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: e64563703ed2fa7d1f1f3ca325ab275aa8420d01
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: e4f3d49101cdd8831bdda32abe1a19bd17adae77
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="transfer-data-for-product-models"></a><span data-ttu-id="1fb13-103">转移产品模型的数据</span><span class="sxs-lookup"><span data-stu-id="1fb13-103">Transfer data for product models</span></span>

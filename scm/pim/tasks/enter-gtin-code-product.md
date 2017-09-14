@@ -1,7 +1,7 @@
 --- 
 title: "输入产品的 GTIN 代码"
 description: "GTIN 代码由 GS1 组织分配。"
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 09/26/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: 0d1fc9e34ce7bfbb9a57ffaf40f8a7056f114972
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 07b815d58299909f7c2a9231bca1969f61f5f8a2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="a2161-103">输入产品的 GTIN 代码</span><span class="sxs-lookup"><span data-stu-id="a2161-103">Enter the GTIN code for a product</span></span>

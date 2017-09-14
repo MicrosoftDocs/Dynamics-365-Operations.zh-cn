@@ -1,7 +1,7 @@
 --- 
 title: "维护产品配置模型的物料清单"
 description: "运行该过程要求有现有的产品配置模型。"
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: 380e902f9c8266f583e44fa7ea643dc5d5ab52d3
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: c017d7719ac6af43b0c8a162080bb753587df030
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a><span data-ttu-id="3dee8-103">维护产品配置模型的物料清单</span><span class="sxs-lookup"><span data-stu-id="3dee8-103">Maintain BOM for a product configuration model</span></span>

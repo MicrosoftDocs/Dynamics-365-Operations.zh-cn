@@ -1,7 +1,7 @@
 --- 
 title: "创建基于维度的配置"
 description: "此过程显示如何定义基于维度的产品的配置。"
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 06/21/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: 97c3f879ecae979803e22c7f4eb515f35f95c182
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: d6ea85cedbb96266f82e0a4ec1ad17f3ba829322
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="create-dimension-based-configurations"></a><span data-ttu-id="f566d-103">创建基于维度的配置</span><span class="sxs-lookup"><span data-stu-id="f566d-103">Create dimension-based configurations</span></span>

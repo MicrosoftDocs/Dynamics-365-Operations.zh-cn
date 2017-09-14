@@ -1,7 +1,7 @@
 --- 
 title: "创建配置规则"
 description: "该过程创建配置规则，以用于基于维度的配置，从而执行或防止物料清单行的某些组合。"
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: c901ebea4fd7423db61ef2c33689e606e33e2434
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 71f429d3aba1b5c51b35b0d08337f69094d0b135
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="create-configuration-rules"></a><span data-ttu-id="4a9bf-103">创建配置规则</span><span class="sxs-lookup"><span data-stu-id="4a9bf-103">Create configuration rules</span></span>

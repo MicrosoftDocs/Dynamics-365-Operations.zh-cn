@@ -1,7 +1,7 @@
 --- 
 title: "创建销售价选择条件"
 description: "此过程显示如何为基于属性的销售价模型创建销售价选择条件。"
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 10/13/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: ce805b0bf43c931ebca13720d43754c18094fc85
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 59f6a4131f6a27c0089a1259e3f849f91a47bc87
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="create-sales-price-selection-criteria"></a><span data-ttu-id="56f44-103">创建销售价选择条件</span><span class="sxs-lookup"><span data-stu-id="56f44-103">Create sales price selection criteria</span></span>

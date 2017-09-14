@@ -1,9 +1,9 @@
 ---
 title: "项目报价单"
 description: "本文介绍项目报价单的概念，您可以向客户提供有吸引力的项目报价单，以此作为项目阶段的第一步。 项目报价单可以包含进行报价的物料和服务、基本联系信息、特殊贸易协议和折扣以及可能的税金和附加费。"
-author: twheeloc
+author: KimANelson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 09/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -15,15 +15,14 @@ ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 23621
 ms.assetid: 1ba67109-8c5b-4ada-b730-a72cd46203fd
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: 9e8f56c8ee0567d4fd5820462583b79316d44c4b
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: 8a5138a75ff17575ae789124b1d1aa08eaa4a986
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/30/2017
-
+ms.lasthandoff: 09/14/2017
 
 ---
 

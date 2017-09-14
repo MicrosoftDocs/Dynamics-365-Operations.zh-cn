@@ -1,7 +1,7 @@
 --- 
 title: "创建基于维度的基础产品"
 description: "该过程会显示如何使用基于维度的配置技术新建基础产品。"
-author: BibiSp
+author: YuyuScheller
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: YuyuScheller
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 663da58ef01b705c0c984fbfd3fce8bc31be04c6
-ms.openlocfilehash: 3c98d9119b0bb8280591ef39dcfa1052d847b581
+ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.openlocfilehash: fd6edc40b65d2821f1141817d08bef75321efdf0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2017
+ms.lasthandoff: 09/14/2017
 
 ---
 # <a name="create-a-dimension-based-product-master"></a><span data-ttu-id="d95b2-103">创建基于维度的基础产品</span><span class="sxs-lookup"><span data-stu-id="d95b2-103">Create a dimension-based product master</span></span>
