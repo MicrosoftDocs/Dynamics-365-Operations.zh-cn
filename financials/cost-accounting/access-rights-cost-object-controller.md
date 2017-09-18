@@ -27,7 +27,7 @@ ms.lasthandoff: 07/27/2017
 
 ---
 
-## <a name="access-rights-of-a-cost-object-controller"></a>成本对象控制员的访问权限
+# <a name="access-rights-of-a-cost-object-controller"></a>成本对象控制员的访问权限
 
 [!include[banner](../includes/banner.md)]
 
