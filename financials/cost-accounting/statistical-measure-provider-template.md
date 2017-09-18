@@ -1,7 +1,7 @@
 ---
 title: "统计维度成员和统计度量提供方模板"
 description: "此主题提供关于统计维度成员和统计度量提供方模板的信息。 统计维度成员可用作成本分配和成本分摊等策略中的分配基础。 它们还可以用于报告非货币成本消耗。"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f

@@ -1,7 +1,7 @@
 ---
 title: "定义成本对象控制员的访问权限"
 description: "此主题提供关于成本对象控制员访问权限的信息。"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
 ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786

@@ -1,7 +1,7 @@
 ---
 title: "成本控制工作区"
 description: "此主题提供了有关成本控制工作区的信息。 此工作区是负责控制一个维度内或跨维度的一个成本对象或一组成本对象的经理可以访问报表的一个中心点。"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: YuyuScheller
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
 ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
