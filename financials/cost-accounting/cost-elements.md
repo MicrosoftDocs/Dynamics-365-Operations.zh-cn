@@ -1,7 +1,7 @@
 ---
 title: "成本元素维度"
 description: "作为成本核算中的其中一个核心支柱，成本元素维度用来对成本分类和跟踪成本流向。"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: eb549d9314799924084c23d0e420fcd377ed8c33
+ms.sourcegitcommit: 9e13fc9fa7e51a1299ca8698f581de979b680a7b
+ms.openlocfilehash: 00a09120116183785d96ed1e18c577d5430fa16b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/18/2017
 
 ---
 

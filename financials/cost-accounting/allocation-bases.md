@@ -1,7 +1,7 @@
 ---
 title: "分配基础"
 description: "此主题提供了有关分配基础的信息。 分配基础是成本核算中的关键组件，最常用于分配开销成本。"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 05/24/2017
 ms.topic: article
@@ -20,10 +20,10 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: fa1e72ad46142198aad98742d35a46180f3d380c
+ms.sourcegitcommit: 9e13fc9fa7e51a1299ca8698f581de979b680a7b
+ms.openlocfilehash: 111ebf578e455408c5b6168e5a7af705f3624d78
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/18/2017
 
 ---
 
