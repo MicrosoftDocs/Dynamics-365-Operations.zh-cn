@@ -44,17 +44,6 @@
       "build_entry_point": "docs",
       "template_folder": "_themes",
       "version": 0
-    },
-    {
-      "docset_name": "d365Ops-Talent",
-      "build_source_folder": "hr",
-      "build_output_subfolder": "d365Ops-Talent",
-      "locale": "zh-cn",
-      "monikers": [],
-      "open_to_public_contributors": false,
-      "build_entry_point": "docs",
-      "template_folder": "_themes",
-      "version": 0
     }
   ],
   "notification_subscribers": [],
