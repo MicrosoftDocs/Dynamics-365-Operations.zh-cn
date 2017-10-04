@@ -35,17 +35,6 @@
       "template_folder": "_themes"
     },
     {
-      "docset_name": "d365Ops-SCM",
-      "build_source_folder": "scm",
-      "build_output_subfolder": "d365Ops-SCM",
-      "locale": "zh-cn",
-      "monikers": [],
-      "moniker_ranges": [],
-      "open_to_public_contributors": false,
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
       "docset_name": "d365Ops-Talent",
       "build_source_folder": "hr",
       "build_output_subfolder": "d365Ops-Talent",
