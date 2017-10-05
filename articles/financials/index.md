@@ -17,30 +17,30 @@ ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 6b576be9986a0c0701792a87422a0865cd3f8e7a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="financial-management-home-page"></a><span data-ttu-id="42e6f-103">财务管理主页</span><span class="sxs-lookup"><span data-stu-id="42e6f-103">Financial management home page</span></span>
+# <a name="financial-management-home-page"></a>财务管理主页
 
 [!include[banner](includes/banner.md)]
 
-<span data-ttu-id="42e6f-104">本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的财务管理功能的一系列帮助主题和其他资源。</span><span class="sxs-lookup"><span data-stu-id="42e6f-104">This topic provides a list of the help topics and other resources for the financial management features in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition.</span></span> 
+本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的财务管理功能的一系列帮助主题和其他资源。 
 
-<span data-ttu-id="42e6f-105">选择一个功能区域以了解有关它的更多信息。</span><span class="sxs-lookup"><span data-stu-id="42e6f-105">Select a feature area to learn more about it.</span></span>
-- [<span data-ttu-id="42e6f-106">应付帐款</span><span class="sxs-lookup"><span data-stu-id="42e6f-106">Accounts payable</span></span>](accounts-payable\accounts-payable.md) 
-- [<span data-ttu-id="42e6f-107">应收帐款</span><span class="sxs-lookup"><span data-stu-id="42e6f-107">Accounts receivable</span></span>](accounts-receivable\accounts-receivable.md) 
-- [<span data-ttu-id="42e6f-108">现金和银行管理</span><span class="sxs-lookup"><span data-stu-id="42e6f-108">Cash and bank management</span></span>](cash-bank-management\cash-bank-management.md)
-- [<span data-ttu-id="42e6f-109">成本核算</span><span class="sxs-lookup"><span data-stu-id="42e6f-109">Cost accounting</span></span>](cost-accounting\cost-accounting-home-page.md)
-- [<span data-ttu-id="42e6f-110">固定资产</span><span class="sxs-lookup"><span data-stu-id="42e6f-110">Fixed assets</span></span>](fixed-assets\fixed-assets.md)
-- [<span data-ttu-id="42e6f-111">总帐</span><span class="sxs-lookup"><span data-stu-id="42e6f-111">General ledger</span></span>](general-ledger\general-ledger.md) 
-- [<span data-ttu-id="42e6f-112">项目管理</span><span class="sxs-lookup"><span data-stu-id="42e6f-112">Project management</span></span>](project-management\overview-project-management-accounting.md)
-- [<span data-ttu-id="42e6f-113">公共部门</span><span class="sxs-lookup"><span data-stu-id="42e6f-113">Public sector</span></span>](public-sector\public-sector-functionality.md) 
-- [<span data-ttu-id="42e6f-114">预算编制</span><span class="sxs-lookup"><span data-stu-id="42e6f-114">Budgeting</span></span>](budgeting\budgeting-overview.md) 
+选择一个功能区域以了解有关它的更多信息。
+- [应付帐款](accounts-payable\accounts-payable.md) 
+- [应收帐款](accounts-receivable\accounts-receivable.md) 
+- [现金和银行管理](cash-bank-management\cash-bank-management.md)
+- [成本核算](cost-accounting\cost-accounting-home-page.md)
+- [固定资产](fixed-assets\fixed-assets.md)
+- [总帐](general-ledger\general-ledger.md) 
+- [项目管理](project-management\overview-project-management-accounting.md)
+- [公共部门](public-sector\public-sector-functionality.md) 
+- [预算编制](budgeting\budgeting-overview.md) 
 
 
 
