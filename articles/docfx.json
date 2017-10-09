@@ -3,6 +3,7 @@
     "content": [
       {
         "files": [
+
           "**/*.md",
           "**/**.yml"
 
@@ -13,6 +14,7 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
+
           "ThirdPartyNotices",
           "**/_themes/**", 
           "**/_themes.pdf/**"
