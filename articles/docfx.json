@@ -24,8 +24,8 @@
     ],
     "resource": [
       {
-        "files": [
-
+        "files": 
+        [
           "**/**.png",
           "**/**.jpg",
           "**/**.jpeg",
@@ -47,7 +47,7 @@
       "layout": "Conceptual",
       "searchScope": ["Unified Operations"],
       "extendBreadcrumb": "true",
-      "breadcrumb_path": "/dynamics365/unified-operations-test/breadcrumb/toc.json",
+      "breadcrumb_path": "/dynamics365/unified-operations/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
       "brand": "dyn-ops",
       "_op_documentIdPathDepotMapping": {
