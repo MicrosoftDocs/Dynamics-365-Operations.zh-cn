@@ -49,6 +49,7 @@
       "extendBreadcrumb": "true",
       "breadcrumb_path": "/dynamics365/unified-operations/breadcrumb/toc.json",
       "uhfHeaderId": "MSDocsHeader-Dynamics365",
+      "bilingual_type": "hover over",
       "brand": "dyn-ops",
       "_op_documentIdPathDepotMapping": {
         "dev-itpro/": {
