@@ -1,5 +1,8 @@
 # [欢迎使用 Dynamics 365 for Retail](index.md)
 
+# 开始
+## [新增功能或更改的功能](get-started/whats-new.md)
+
 # 付款
 ## [付款方式](payment-methods.md)
 ## [信用卡设置、授权和捕获](../financials/accounts-receivable/credit-card-authorizations.md)
@@ -173,9 +176,10 @@
 ### [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)
 #### [从总部管理零售帐户和设备](set-up-activation-accounts-validate-devices-hq.md)
 #### [Retail POS 设备启用](dev-itpro/retail-device-activation.md)
-#### [安全零售云 POS](dev-itpro/secure-retail-cloud-pos.md)
+#### [安全 Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)
-### [零售组件的诊断和故障排除事件](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
+### [Retail 自助服务组件批量部署](dev-itpro/retail-mass-deployment.md)
+### [Retail 组件的诊断和故障排除事件](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
 ### [应用可部署包](../dev-itpro/deployment/apply-deployable-package-system.md)
 
 ## 升级和 N-1 支持

@@ -451,6 +451,7 @@
 ### [拆分模型](dev-tools/model-split.md)
 ### [使用委托解决模型之间的依赖关系](migration-upgrade/delegates-migration.md)
 
+
 ## 升级到最近更新
 ### [升级到最新更新的流程](migration-upgrade/upgrade-latest-update.md)
 ### [生命周期策略](migration-upgrade/versions-update-policy.md)
@@ -509,8 +510,10 @@
 ## [使用 Visual Studio Team Services (VSTS) 同步 BPM 库](lifecycle-services/synchronize-bpm-vsts.md)
 ## [业务流程建模器流程图](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [上载自定义业务流程](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
-## [监控和诊断 ](lifecycle-services/monitoring-diagnostics.md)
+## [监控和诊断](lifecycle-services/monitoring-diagnostics.md)
 ## [资产库](lifecycle-services/asset-library.md)
+## [Microsoft Dynamics 365 - 翻译服务概览](lifecycle-services/translation-service-overview.md)
+### [Microsoft Dynamics 365 翻译服务用户指南](lifecycle-services/use-translation-service.md)
 
 ## Dynamics AX 2012 Lifecycle Services 功能
 ### 部署
