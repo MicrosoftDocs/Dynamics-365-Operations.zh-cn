@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 822c4581db76923c564bde34f8402b333a035f0b
-ms.openlocfilehash: 28b825ba685b5a05764b25602ae32f1370c82e07
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 166219b2871a6a0b13e6fd2d15e3c34ab1c041f2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

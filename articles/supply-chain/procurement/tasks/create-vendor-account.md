@@ -16,17 +16,17 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: cdf45a309442904c3c8141da153eb6b938c052c9
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6ff2357d5266c45be2f403e463c72089d73db21b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-vendor-account"></a>创建供应商帐户
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-该过程会显示如何创建供应商帐户，以及添加地址和联系信息。 该过程不会显示如何填充所有字段，以用于采购和财务目的。 若要了解关于这些字段的更多信息，请阅读字段描述。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 供应商帐户通常由采购专业人员或应收帐款人员创建。
+该过程会显示如何创建供应商帐户，以及添加地址和联系信息。 该过程不会显示如何填充所有字段，以用于采购和财务目的。 若要了解关于这些字段的更多信息，请阅读字段描述。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 供应商帐户通常由采购专业人员或应收账款人员创建。
 
 
 ## <a name="create-a-vendor-account"></a>创建供应商帐户

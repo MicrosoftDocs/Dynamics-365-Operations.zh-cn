@@ -16,13 +16,13 @@ ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 01955aefb27bd18809b35fd025c9dd1b8eb70520
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 035c5d15e5508c78dd66a349defd534bfecc96bb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 06/20/2017
 有关策略的详细信息，请参阅 [采购策略](../procurement/purchase-policies.md)。
 
 - 若要查找特定采购类别的外部目录，请在目录搜索字段输入文本。
-- 若要添加来自供应商网站上的供应商外部目录的产品，请单击外部目录。 然后将产品添加到购物车，再签出。 购物车行将转移到 Microsoft Dynamics 365。
+- 若要添加来自供应商网站上的供应商外部目录的产品，请单击外部目录。 然后将产品添加到购物车，再签出。购物车行将转移到 Microsoft Dynamics 365。
 
 如果有多个采购类别选项，在您将行添加到申请前，请选择正确的采购类别。
 将行添加到申请后，不使用外部目录也可以添加更多行。 或者，您可以继续使用外部目录添加行。

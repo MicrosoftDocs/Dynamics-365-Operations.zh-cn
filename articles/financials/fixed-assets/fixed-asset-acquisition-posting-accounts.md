@@ -18,12 +18,11 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d89bff85317a6aee952d32a9c29f0ebdd27934ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 887616463856875e2382a00b1d56520391ead844
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -40,7 +39,7 @@ ms.lasthandoff: 05/25/2017
 
 “对方科目”也是资产负债表科目。 在一般日志和固定资产日志中，此科目通常将是用于支付资产购置费用的银行帐户。 对方科目是在日志中建议的默认科目。 如果该固定资产从供应商处购买，则可以在日志中将其更改为从会计科目表到供应商帐户的任何其他科目。 
 
-当应付帐款中的发票日记帐或采购订单用于固定资产购置时，固定资产交易记录的对方科目由为该交易记录选择的供应商帐户所替代。
+当应付账款中的发票日记帐或采购订单用于固定资产购置时，固定资产交易记录的对方科目由为该交易记录选择的供应商帐户所替代。
 
 对于在“总帐”中使用“库存转为固定资产日记帐”过帐的购置，固定资产不是从外部购买的，而是从公司自己的库存转移的。 因此，对方科目是库存管理中的库存物料的发货科目。
 

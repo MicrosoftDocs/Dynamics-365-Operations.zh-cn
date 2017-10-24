@@ -1,7 +1,7 @@
 ---
 title: "加权平均日期"
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 2a0d3fe9dcdb58e40d519b2792700dd6d40bb99d
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -104,7 +104,7 @@ ms.lasthandoff: 05/25/2017
 -   1a. 为数量 3（单价 USD 15.00）更新库存实际收货。
 -   1b. 为数量 3（单价 USD 15.00）更新库存财务收货。
 -   2a. 数量 1（移动平均成本为 USD 15.00）的库存实际发货。
--   2b. 数量 1（移动平均成本为 USD 15.00）的库存财务发货。
+-   2a. 数量 1（移动平均成本为 USD 15.00）的库存财务发货。
 
 系统将为第 1 天使用直接结算方法。 
 

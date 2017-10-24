@@ -18,13 +18,11 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 7255f2b7e49f56a731d0e3745b4752091013668b
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 09d80015298c3d0219b6ffb290dc456990536a62
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
-
-
+ms.lasthandoff: 09/29/2017
 
 ---
 

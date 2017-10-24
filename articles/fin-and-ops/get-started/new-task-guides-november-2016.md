@@ -15,13 +15,13 @@ ms.custom: 270894
 ms.assetid: 1b90768d-8bf7-4e35-90c0-65962fea5d26
 ms.search.region: global
 ms.author: josaw
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: bea93ea1e8d17d4d4d31b21e1fad6f3eaa31b3e2
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a40899df4f4f0cf2b404d21bf2c172bcc8a137af
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 05/25/2017
 
 （2016 年 11 月 -- 所有语言）APQC 标准库中包含用于帮助 Microsoft Dynamics 365 for Operations、Microsoft Dynamics 365 for Operations 平台更新 3、Microsoft Dynamics AX 平台更新 2、Dynamics AX May 2016 更新和 Microsoft Dynamics AX 2016 年 2 月版本的任务指南。 有关这些版本的详细信息，请参阅[新增和更改内容](whats-new-changed.md)。 此库中提供了任务指南的本地化版本。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。 **注意**︰业务流程建模器 (BPM) 行的标题旁边的星号 (**\***) 表示该业务流程的任务指南是为 Dynamics 365 for Operations 2016 年 11 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。
 
-### <a name="accounts-payable"></a>应付帐款
+### <a name="accounts-payable"></a>应付账款
 
 | BPM line / 磁墨字符识别行                                                                                           | 国家/地区 |
 |----------------------------------------------------------------------------------------------------|----------------|
@@ -43,12 +43,12 @@ ms.lasthandoff: 05/25/2017
 | 使用发票日记帐的 AP 系统中的重要发票数据                                              | 全局         |
 | 使用发票池的 AP 系统中的重要发票数据                                                 | 全局         |
 | 记录供应商发票的接收和匹配接收的数量                           | 全局         |
-| 设置应付帐款发票匹配验证                                                | 全局         |
+| 设置应付账款发票匹配验证                                                | 全局         |
 | 设置供应商发票政策                                                                    | 全局         |
 
 ### 
 
-### <a name="accounts-receivable"></a>应收帐款
+### <a name="accounts-receivable"></a>应收账款
 
 | BPM line / 磁墨字符识别行                                                                           | 国家/地区 |
 |------------------------------------------------------------------------------------|----------------|
@@ -64,7 +64,7 @@ ms.lasthandoff: 05/25/2017
 | 生成和过帐重复执行普通发票                                     | 全局         |
 | 处理催款单                                                         | 全局         |
 | 查看收款信息                                                      | 全局         |
-| 设置并生成应收帐款的帐龄信息                          | 全局         |
+| 设置并生成应收账款的帐龄信息                          | 全局         |
 
 ### 
 
@@ -237,7 +237,7 @@ ms.lasthandoff: 05/25/2017
 | CN-00004 固定资产折旧分配 (JP-)                                                                                   | 日本                             |
 | 配置其他折旧的折旧模板和过帐模板                                                   | 日本                             |
 | 配置特殊折旧的折旧模板和过帐模板                                                      | 日本                             |
-| 配置合并的发票参数和应付帐款的设置                                                             | 日本                             |
+| 配置合并的发票参数和应付账款的设置                                                             | 日本                             |
 | 配置资产报废合同过帐和市场折扣率的主科目                                            | 日本                             |
 | 创建具有其他折旧的固定资产                                                                                    | 日本                             |
 | 创建具有特殊折旧模板的固定资产                                                                               | 日本                             |
@@ -344,7 +344,7 @@ ms.lasthandoff: 05/25/2017
 | 更改资产组                                        | 全局         |
 | 更改多项固定资产的折旧惯例 | 全局         |
 | 创建固定资产                                      | 全局         |
-| 从应付帐款创建和购置资产           | 全局         |
+| 从应付账款创建和购置资产           | 全局         |
 | 创建折旧方案                              | 全局         |
 | 使用普通发票处理固定资产        | 全局         |
 | 输入对固定资产的添加件                        | 全局         |
@@ -528,11 +528,11 @@ ms.lasthandoff: 05/25/2017
 | 创建销售订单                        | 全局         |
 | 输入销售协议                     | 全局         |
 | 履行销售协议                   | 全局         |
-| 生成和处理客户返点      | 全局         |
+| 生成和处理客户返利      | 全局         |
 | 查找适用的价格和折扣    | 全局         |
 | 管理销售订单保留                   | 全局         |
 | 成批创建销售报价单               | 全局         |
-| 处理付款返点                | 全局         |
+| 处理付款返利                | 全局         |
 | 登记销售佣金                 | 全局         |
 | 设置销售佣金规则              | 全局         |
 | 作为直接交货装运订单           | 全局         |

@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: cbd099403f48b502ca74bcb38ae12decedb8f2da
+ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
+ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 10/05/2017
 
 ---
 
@@ -34,9 +34,9 @@ ms.lasthandoff: 07/27/2017
 
 **供应商协作**模块针对的是没有与 Microsoft Dynamics 365 for Finance and Operations 进行电子数据交换 (EDI) 集成的供应商。 它允许供应商使用采购订单、发票和托运库存信息。 本主题介绍您可以如何与使用供应商协作界面的外部供应商协作处理采购订单和托运库存。 还介绍了如何允许特定供应商使用供应商协作，以及如何定义所有供应商在响应采购订单时将看到的信息。 有关外部供应商在供应商协作界面上可执行操作的详细信息，请参阅[供应商与客户协作](vendor-collaboration-work-customers-dynamics-365-operations.md)。  
 
-有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace)。 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
+有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)。 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
 
-有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](/dynamics365/unified-operations/financials/accounts-payable/vendor-portal-invoicing-workspace)。 
+有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)。 
 
 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
 
@@ -131,7 +131,7 @@ Finance and Operations 中的供应商协作一般设置由管理员配置。 �
 
 ### <a name="cancelling-a-po"></a>取消采购订单
 
-取消采购订单后，状态更改为“**已批准**”。 您必须通过供应商门户将 PO 发送回供应商处，以便供应商可以确认或拒绝取消。 确认取消后，采购订单在供应商的已确认采购订单列表中显示为“**已取消**”。
+取消采购订单后，状态更改为“**已批准**”。 您必须将 PO 发送回供应商处，以便供应商确认或拒绝取消。 确认取消后，采购订单在供应商的已确认采购订单列表中显示为“**已取消**”。
 
 ### <a name="adding-attachments-to-a-po"></a>添加附加到采购订单
 

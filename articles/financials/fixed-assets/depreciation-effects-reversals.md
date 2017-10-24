@@ -16,13 +16,13 @@ ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d061ad8df477943259bff853d032c3df620e0b27
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 7309cb3175f65bc6b806edb875ac9406a8faaf66
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 本文讨论冲销固定资产交易记录的潜在影响。 
 
-您可以冲销固定资产交易记录，以及与某一固定资产相关联的应付帐款和应收帐款交易记录。 您还可以撤消某一已冲销的交易记录。 
+您可以冲销固定资产交易记录，以及与某一固定资产相关联的应付账款和应收账款交易记录。 您还可以撤消某一已冲销的交易记录。 
 
 您可以冲销或取消不是最近交易记录过帐到资产的帐簿交易记录。 您应该首先确定任何折旧交易记录是否在您冲销的交易记录后过帐。 原因在于，并不重新计算折旧，在您冲销交易记录时。 因此，如以下示例中所示，折旧在冲销后常常被高估或低估，。 
 

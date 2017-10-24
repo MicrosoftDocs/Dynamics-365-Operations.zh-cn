@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 748ea62e981a2bcea0cd85ef512030a8cebf6649
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="customer-payment-overview"></a>客户付款概览
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 本任务指南逐步介绍用于输入客户付款的各种方法。 本任务使用 USMF 公司进行演示。
 
-1. 转到“应收帐款”>“付款”>“付款日记帐”。
+1. 转到“应收账款”>“付款”>“付款日记帐”。
 2. 单击“新建”。
 3. 选择将保存客户付款的付款日记帐。
 4. 选择或手动输入日记帐。

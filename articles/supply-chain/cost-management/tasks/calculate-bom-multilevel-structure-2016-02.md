@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 1ad38f67bba299bbd581aba6010b4028c91fbf3a
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 16c2cacaf70df5455c3ed49b8dcb5756e89f8cb8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a>通过使用多级结构计算 BOM（仅限 2016 年 2 月）

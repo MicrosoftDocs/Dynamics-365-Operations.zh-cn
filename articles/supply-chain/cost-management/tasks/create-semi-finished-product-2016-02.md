@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 78fa970f53bc576a4d23ccfc9be58f9aa85ac853
+ms.sourcegitcommit: 4d06f291036c656731a00fcf312e229ed9e9f3d0
+ms.openlocfilehash: 038d8cd9333635d3269bb4f62a5402c2309bfd3c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-semi-finished-product-february-2016-only"></a>创建半成品（仅 2016 年 2 月）

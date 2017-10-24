@@ -16,13 +16,13 @@ ms.custom: 97423
 ms.assetid: f3055a27-717a-4c94-a912-f269a1288be6
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: fb2aeee1f38823e7ea96071f773e8448d65ba8ff
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: dedabf13044be30a67a945ff4ca2ecfb1eea8150
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -101,7 +101,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 #### <a name="sharepoint"></a>SharePoint
 
-您可以在指定的 SharePoint 文件夹中保存文件。 您在 **SharePoint** 选项卡上，在**组织管理** &gt; **文档管理** &gt; **文档管理参数**定义默认 SharePoint 服务器。 配置 SharePoint 文件夹后，您可以选择该文件夹以充当用于保存该票据类型的 ER 输出的文件夹。 
+您可以在指定的 SharePoint 文件夹中保存文件。 您在 **SharePoint** 选项卡上，在**组织管理** &gt; **文档管理** &gt; **文档管理参数**定义默认 SharePoint 服务器。配置 SharePoint 文件夹后，您可以选择该文件夹以充当用于保存该票据类型的 ER 输出的文件夹。 
 
 [![选择 SharePoint 文件夹](./media/ger_sharepointfolderselection-1024x543.jpg)](./media/ger_sharepointfolderselection.jpg) 
 
@@ -128,8 +128,8 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 |-------------------------------------|--------------------------------------------|-------------------------------------|------------------------------------------------------------------|
 | ERDeveloper                         | 电子申报开发人员             | ERFormatDestinationConfigure        | 配置电子报告格式目标                |
 | ERFunctionalConsultant              | 电子申报功能顾问 | ERFormatDestinationConfigure        | 配置电子报告格式目标                |
-| PaymAccountsPayablePaymentsClerk    | 应付帐款付款员            | ERFormatDestinationRuntimeConfigure | 在运行时配置电子报告格式目标 |
-| PaymAccountsReceivablePaymentsClerk | 应收帐款付款员         | ERFormatDestinationRuntimeConfigure | 在运行时配置电子报告格式目标 |
+| PaymAccountsPayablePaymentsClerk    | 应付账款付款员            | ERFormatDestinationRuntimeConfigure | 在运行时配置电子报告格式目标 |
+| PaymAccountsReceivablePaymentsClerk | 应收账款付款员         | ERFormatDestinationRuntimeConfigure | 在运行时配置电子报告格式目标 |
 
 **注意：**两个权限用于先前职责。 这些权限与对应职责具有相同名称：**ERFormatDestinationConfigure** 和 **ERFormatDestinationRuntimeConfigure**。
 

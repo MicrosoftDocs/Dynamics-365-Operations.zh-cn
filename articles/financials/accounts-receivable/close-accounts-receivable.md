@@ -1,5 +1,5 @@
 ---
-title: "关闭应收帐款"
+title: "关闭应收账款"
 description: 
 author: ShivamPandey-msft
 manager: AnnBe
@@ -17,22 +17,22 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 6e8e87df88aace213f50db617229383eba4d86ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 2b2e827df0c679855af9624f8a2fb36cb23f359a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="close-accounts-receivable"></a>关闭应收帐款
+# <a name="close-accounts-receivable"></a>关闭应收账款
 
 [!include[banner](../includes/banner.md)]
 
 
 
 
-下表列出了支持应收帐款关帐业务流程的页面。
+下表列出了支持应收账款关帐业务流程的页面。
 
 > [!NOTE] 
 > 要打开该表中的一些页面，您必须输入信息或指定参数设置。

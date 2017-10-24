@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: 4aad946f51c0c9a0a4c0ea1249e6e876cc628e20
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1355dbf0adaa8915c1aa3c9460d1cb07ab4c7fba
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

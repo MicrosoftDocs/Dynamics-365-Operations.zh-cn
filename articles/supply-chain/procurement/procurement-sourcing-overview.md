@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: d3669de6314e65c78ce5d401dae2e7481ec38b68
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 03af609a9d21fc11247f247aad1ca26e3719755e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -86,10 +86,10 @@ ms.lasthandoff: 05/25/2017
 
 *会计分配*可以在采购订单上指定以描述如何在分类帐中执行核算，并且还可以定义当预算资金分配包含在您的配置中时如何获取分配。  
 
-开票的采购订单将负债记录在应付帐款中的供应商帐户中，从中可以处理*供*应*商付款*。
+开票的采购订单将负债记录在应付账款中的供应商帐户中，从中可以处理*供*应*商付款*。
 
 ## <a name="vendor-performance"></a>供应商表现
-通过*采购和应付帐款报表*支持采购绩效和审查，其中包含花费分析和供应商绩效分析。
+通过*采购和应付账款报表*支持采购绩效和审查，其中包含花费分析和供应商绩效分析。
 
 
 

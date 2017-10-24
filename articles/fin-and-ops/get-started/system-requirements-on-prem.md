@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 721c5851cd399398a8dcec5ae110b97a4f17ae0a
+ms.sourcegitcommit: 25a6f326c57e84d6a7c356ac5407be7ed3095f83
+ms.openlocfilehash: 5edc6f0b2240e9dd2d3b72a13f35e96f016aa013
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 10/04/2017
 
 ---
 
@@ -87,7 +87,7 @@ Finance and Operations（本地）不要求来自用户工作站的 Internet 连
 - 并发用户的数量
 
 ## <a name="minimum-infrastructure-requirements"></a>最低基础结构需求
-Finance and Operations（本地）使用 Service Fabric 托管 AOS、批处理、数据管理、Management Reporter 和环境 Orchestrator 服务。 Microsoft SQL Server Reporting Services (SSRS) 不在 Service Fabric 群集中托管。
+Finance and Operations（本地）使用 Service Fabric 托管 AOS、批处理、数据管理、Management Reporter 和环境 Orchestrator 服务。 
 
 必须为 SQL Server 设置至少具有两个用于生产的节点的高可用性 HADRON。
 
@@ -225,6 +225,12 @@ Finance and Operations（本地）使用 Service Fabric 托管 AOS、批处理�
 |------------------------------------------------------------------|-------|
 | Microsoft SQL Server 2016 Standard 版本 或 Enterprise 版本 | 有关 SQL Server 2016 的硬件要求，请参阅[安装 SQL Server 2016 的硬件和软件要求](/sql/sql-server/install/hardware-and-software-requirements-for-installing-sql-server)。 |
 
+## <a name="software-requirements-for-application-object-server-aos"></a>应用程序对象服务器 (AOS) 的软件要求 
+- SQL Server Integration Services (SSIS)
+
+## <a name="software-requirements-for-reporting-server-bi"></a>报表服务器 (BI) 的软件要求
+- SQL Server Reporting Services (SSRS)
+
 ## <a name="software-requirements-for-client-computers"></a>针对客户端计算机的软件要求
 Finance and Operations Web 应用程序可以使用兼容 HTML 5.0 的 Web 浏览器在任何设备上运行。 下面是 Microsoft 已确认的一些特定设备/浏览器组合：
 
@@ -244,7 +250,7 @@ Finance and Operations Web 应用程序可以使用兼容 HTML 5.0 的 Web 浏�
 ## <a name="supported-microsoft-office-applications"></a>支持的 Microsoft Office 应用程序
 以下 Microsoft Office 应用程序在 Finance and Operations 的云和本地部署中受支持：
 
--   若要运行 Microsoft Excel 和 Microsoft Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的详细信息，请参阅 [Office 集成疑难解答](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting)。
+-   若要运行 Microsoft Excel 和 Microsoft Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的详细信息，请参阅 [Office 集成疑难解答](../../dev-itpro/office-integration/office-integration-troubleshooting.md)。
 -   若要查看“导出到 Excel”或“导出到 Word”功能生成的文档，必须安装 Microsoft Office 2007 或更高版本。
  
 ## <a name="hardware-and-software-requirements-for-retail-components"></a>针对 Retail 组件的硬件和软件要求

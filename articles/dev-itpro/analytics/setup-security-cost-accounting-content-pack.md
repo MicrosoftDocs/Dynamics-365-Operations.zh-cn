@@ -18,10 +18,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 12fd8e11211b701304f9f4a68ff31f3b42e3e8ee
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 08/02/2017
 添加到**成本对象控制员**角色的用户只能查看根据成本核算访问级别组织层次结构中的定义允许其查看的数据。 **注释：**行级别安全性适用于 Microsoft Dynamics 365 for Finance and Operations 中从 Power BI 嵌入的磁贴和报表。
 
 ## <a name="updating-security"></a>更新安全性
-如果对成本核算中的访问级别安全性进行更新，并且希望 Power BI 体现这些更新，则必须更新**成本核算分析** Power BI 内容的实体商店。 从 Finance and Operations 完成了实体商店更新之后，必须更新 PowerBI.com 中的项目。 有关如何执行实体商店更新的详细信息，请参阅[更新实体商店](power-bi-integration-entity-store.md#update-entity-store)。 如果为新用户授予了组织层次结构的访问权限，**成本核算分析** Power BI 内容的所有者还必须执行实体商店更新。 此外，该所有者还必须在 PowerBI.com 上将新用户添加到**成本对象控制员**角色，以便为其应用行级别的安全性。
+如果对成本核算中的访问级别安全性进行更新，并且希望 Power BI 体现这些更新，则必须更新**成本核算分析** Power BI 内容的实体商店。 从 Finance and Operations 完成了实体商店更新之后，必须更新 PowerBI.com 中的项目。有关如何执行实体商店更新的详细信息，请参阅[更新实体商店](power-bi-integration-entity-store.md#update-entity-store)。 如果为新用户授予了组织层次结构的访问权限，**成本核算分析** Power BI 内容的所有者还必须执行实体商店更新。 此外，该所有者还必须在 PowerBI.com 上将新用户添加到**成本对象控制员**角色，以便为其应用行级别的安全性。
 
 ## <a name="disabling-security"></a>禁用安全性
 假设您的组织希望限制数据访问权限。 如果出于某种原因，当您运行成本核算时禁用了安全性参数，则所有者必须改为在 Power BI 中将用户添加到**成本会计师**角色。 如果您将安全性从已启用状态更改为已禁用状态，建议从**成本对象控制员**角色删除用户。 如果重新启用安全性，则执行相反操作。 用户可以同时属于两种角色。 联合访问权限是两种角色的结合。 在**成本核算分析** Power BI 内容中，具有联合访问权限的用户的数据访问权限不受限制。 如果您的目标是应用受限访问权限，则必须仅为用户分配**成本对象控制员**角色。 这些行级别的安全性更新立即生效。 受影响的用户应刷新自己的浏览器。

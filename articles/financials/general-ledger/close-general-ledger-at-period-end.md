@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: bcf58b0ca995883bc466eec66a3d75c73c0be79e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 16acadf0b814ff5863873280cd8d6e6ddbdcffc8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 08/01/2017
 
 在“总帐”中，您可以为期间或年度完成结转过程。 结转流程为新期间准备系统。 若要为新的一年准备系统，您必须运行年终结算流程。 每个组织有为期间结束时执行的不同的流程和步骤。 以下是期间结束的某些可选步骤：
 
--   完成所有其他模块的所有任务，例如应收帐款、应付帐款和库存。
+-   完成所有其他模块的所有任务，例如应收账款、应付账款和库存。
 -   验证所有日记帐均已过帐。
 -   运行外币重估来生成所有或有损益金额。
 -   结算每个会计科目的交易记录。

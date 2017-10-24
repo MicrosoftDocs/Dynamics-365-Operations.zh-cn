@@ -1,6 +1,6 @@
 ---
 title: "高级银行对帐 MT940 导入 - 综合数据实体升级"
-description: "需要将序列号添加到银行对帐单导入实体以支持 MT940 格式。"
+description: "需要将序列号添加到银行对账单导入实体以支持 MT940 格式。"
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -15,13 +15,13 @@ ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 672697254c1bf06e193a51c5c7c83c467a220ce8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0fb86cd4264d5420c479e14f7eed41e480c88b63
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 05/25/2017
 [!include[banner](../includes/banner.md)]
 
 
-需要将序列号添加到银行对帐单导入实体以支持 MT940 格式。 
+需要将序列号添加到银行对账单导入实体以支持 MT940 格式。 
 
-使用以下步骤添加银行对帐单导入实体以支持 MT940 格式。
+使用以下步骤添加银行对账单导入实体以支持 MT940 格式。
 
 1.  编译并同步以下操作：
     -   组合实体\\BankStatementImportEntity
@@ -46,22 +46,22 @@ ms.lasthandoff: 05/25/2017
     1.  负荷 MT940 导入项目
         1.  变更 XSLT。
             -   单击“**查看映射**”。
-            -   单击银行对帐单单据上的“**查看映射**”。
+            -   单击银行对账单单据上的“**查看映射**”。
             -   单击“**转换**”
             -   删除 BankReconiliation-to-Composite.xslt 文件。
             -   添加 BankReconiliation-to-Composite.xsl 的新版本。
 
         2.  在“**源数据**”版式上公开“**序列号**”。
             1.  源数据格式 = XML 元素。
-            2.  实体名称 = 银行对帐单。
+            2.  实体名称 = 银行对账单。
             3.  上载数据文件 = SampleBankCompositeEntity.xml 的新版本。
             4.  单击“**是**”以覆盖现有文件。
             5.  单击“**是**”生成新的映射。
             6.  验证“S**equenceNumber**”是否已映射。
-                -   单击对帐单实体上的“**查看映射**”。
+                -   单击对账单实体上的“**查看映射**”。
                 -   验证“**SequenceNumber**”是否已从源映射到暂存。
 
-3.  导入新的对帐单。
+3.  导入新的对账单。
 
 
 

@@ -1,6 +1,6 @@
 --- 
 title: "配置信用卡处理"
-description: "此程序会逐步演示如何查看付款提供商列表，以及如何配置应收帐款的付款帐户。"
+description: "此程序会逐步演示如何查看付款提供商列表，以及如何配置应收账款的付款帐户。"
 author: jashanno
 manager: AnnBe
 ms.date: 11/14/2016
@@ -17,21 +17,21 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 10fc776641d0c7bc2576be13a4116281ac3a3768
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c8e7bfbf6b51aca9cf8a7f800ac7db22c0330d00
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="configure-credit-card-processing"></a>配置信用卡处理
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-此程序会逐步演示如何查看付款提供商列表，以及如何配置应收帐款的付款帐户。 此程序使用 USRT 演示数据公司，且旨在面向管理员和 IT 专业人员。
+此程序会逐步演示如何查看付款提供商列表，以及如何配置应收账款的付款帐户。 此程序使用 USRT 演示数据公司，且旨在面向管理员和 IT 专业人员。
 
 
 ## <a name="view-a-list-of-payment-providers"></a>查看付款提供商列表
-1. 转至“应付帐款”>“付款设置”>“付款服务”。
+1. 转至“应付账款”>“付款设置”>“付款服务”。
 2. 单击“查看可用提供商”。
 
 ## <a name="configure-payment-account"></a>配置付款帐户

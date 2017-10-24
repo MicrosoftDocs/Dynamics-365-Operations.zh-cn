@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 4399cf66e423d2e6436c664e6485a77d9ad75d69
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: cc71e9257462983d42fd71bf19728add359e261d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 文本讨论结算客户发票付款的影响。 此情况关注对子分类帐而不是总帐的影响。
 
-Fabrikam 向客户 4027 销售货物， 如果发票在 14 天内支付，则 Fabrikam 提供 1% 的现金折扣。 发票必须在 30 天时支付。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于**应付帐款参数**页上。
+Fabrikam 向客户 4027 销售货物， 如果发票在 14 天内支付，则 Fabrikam 提供 1% 的现金折扣。 发票必须在 30 天时支付。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于**应付账款参数**页上。
 
 ## <a name="invoice"></a>开票
 6 月 25 日，Arnie 为客户 4027 输入并过帐 1,000.00 的发票。 Arnie 可以使用**客户**页上的**交易记录**按钮查看此发票。

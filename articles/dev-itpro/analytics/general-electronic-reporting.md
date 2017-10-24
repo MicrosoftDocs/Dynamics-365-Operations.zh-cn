@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
-ms.openlocfilehash: b9ad00b4157d1f732a8f2400712c94a92a17b273
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 704235fb1aacb7e3101d4b1feca1e36051059ade
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -115,7 +115,7 @@ ER 支持两种组件类型：**数据模型**和**格式**。
 
 - 定义包含在运行时导入的数据的传入电子文档的结构和内容的格式。 格式组件用于分析不同格式（例如文本和 XML）的传入文档。
 - 将各个格式元素绑定到特定于域的数据模型元素的格式映射。 在运行时，数据模型中的元素指定数据流和从传入文档导入数据的规则，然后将数据存储到数据模型中。
-- 一个格式验证，形式为在运行时根据运行上下文控制数据导入的一组可配置规则。 例如，可能存在规则在特定供应商的属性缺失（例如供应商标识代码）时阻止导入具有供应商付款的银行对帐单的数据并引发异常。
+- 一个格式验证，形式为在运行时根据运行上下文控制数据导入的一组可配置规则。 例如，可能存在规则在特定供应商的属性缺失（例如供应商标识代码）时阻止导入具有供应商付款的银行对账单的数据并引发异常。
 
 下图显示这些格式的数据流情况。
 
@@ -205,7 +205,7 @@ ER 提供模型映射设计器，可让用户将他们所设计的数据模型�
 若要详细了解此方案，播放 **ER 定义模型映射并选择数据源**和 **ER 将数据模型映射到所选数据源**任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）。
 
 ### <a name="configuring-data-model-mappings-for-incoming-documents"></a>配置传入文档的数据模型映射
-ER 提供模型映射设计器，可让用户将他们所设计的数据模型映射到特定的目的地。 例如，数据模型可以映射到 Finance and Operations 可更新数据组件（表、数据实体和视图）。 基于映射，使用数据模型的数据在运行时更新 Finance and Operations。 作为 ER 格式的抽象存储，使用从传入电子文档导入的数据填充数据模型。 下图显示这种类型的数据模型映射的示例。 在此示例中，付款域数据模型的**为 NETS 导入映射**模型映射用于支持以 NETS 银行格式为挪威导入银行对帐单。
+ER 提供模型映射设计器，可让用户将他们所设计的数据模型映射到特定的目的地。 例如，数据模型可以映射到 Finance and Operations 可更新数据组件（表、数据实体和视图）。 基于映射，使用数据模型的数据在运行时更新 Finance and Operations。 作为 ER 格式的抽象存储，使用从传入电子文档导入的数据填充数据模型。 下图显示这种类型的数据模型映射的示例。 在此示例中，付款域数据模型的**为 NETS 导入映射**模型映射用于支持以 NETS 银行格式为挪威导入银行对账单。
 
 [![导入 NETS 数据模型映射示例](./media/ER-overview-08.png)](./media/ER-overview-08.png)
 
@@ -242,7 +242,7 @@ ER 格式设计器可以用于构建使用 Word 文档格式的电子单据。 �
 - [付款报表绑定模板 (SampleVendPaymDocReportBounded.docx)](https://go.microsoft.com/fwlink/?linkid=845202)
 
 ### <a name="building-a-configuration-to-import-data-from-incoming-electronic-documents"></a>生成配置以从传入的电子文档导入数据  
-ER 格式设计器可用于描述为 XML 或文本格式的数据导入计划的电子文档。 设计的格式用于分析传入的文档。 ER 格式映射设计器可用于定义设计格式的元素到数据模型的绑定。 下图显示这种格式类型和格式映射的示例。 在此示例中，导入包含供应商付款详细信息的文本格式的 NETS 银行对帐单。
+ER 格式设计器可用于描述为 XML 或文本格式的数据导入计划的电子文档。 设计的格式用于分析传入的文档。 ER 格式映射设计器可用于定义设计格式的元素到数据模型的绑定。 下图显示这种格式类型和格式映射的示例。 在此示例中，导入包含供应商付款详细信息的文本格式的 NETS 银行对账单。
 
 [![ER-format-designer](./media/ER-overview-12.png)](./media/ER-overview-12.png)
 

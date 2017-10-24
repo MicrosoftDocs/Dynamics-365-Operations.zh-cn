@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08f87cbb37f8b52ec5554c8ab940d96a77c53d20
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 048a4ca44d457849e2f632da1686dfbeb81dd61b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 本文显示在存在多个折扣期间时部分客户付款如何结算。
 
-Fabrikam 向客户 4031 提供两个现金折扣期间。 如果在五天内支付该发票，则客户获得 2% 的现金折扣；如果在十四天内支付该发票，则客户获得 1% 的现金折扣。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于**应付帐款参数**页上。
+Fabrikam 向客户 4031 提供两个现金折扣期间。 如果在五天内支付该发票，则客户获得 2% 的现金折扣；如果在十四天内支付该发票，则客户获得 1% 的现金折扣。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于**应付账款参数**页上。
 
 ## <a name="invoice"></a>开票
 6 月 25 日，Arnie 为客户 4031 输入并过帐了 1,000.00 的发票。 在他获得此发票的现金折扣时，Arnie 了解到如果客户 4031 在 6 月 30 日之前付款，则获得 20.00 的折扣。 如果该发票在 7 月 9 日之前付款则获得 10.00 的折扣。

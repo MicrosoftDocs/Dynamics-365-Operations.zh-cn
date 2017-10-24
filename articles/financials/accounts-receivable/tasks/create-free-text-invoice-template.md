@@ -16,19 +16,19 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7382c5ddc5d0972c8756b64ca7cc4e62073c367e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e9c9811b348d81cd735c5b75ca48e0a56a8d52be
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-free-text-invoice-template"></a>创建普通发票模板
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-此记录使用 USMF 公司演示。 该记录由负责管理和处理“应收帐款”发票的用户负责。
+此记录使用 USMF 公司演示。 该记录由负责管理和处理“应收账款”发票的用户负责。
 
-1. 转到“应收帐款”>“发票”>“循环发票”>“普通发票模板”。
+1. 转到“应收账款”>“发票”>“循环发票”>“普通发票模板”。
     * 使用此窗体创建普通发票模板，可包括发票行、费用、会计分配模板和分类帐户信息。  
 2. 单击“新建”，创建新的普通发票模板。
 3. 在“模板名称”字段中，键入一个值。

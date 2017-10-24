@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 6d4697af6f7467f25a461fae4e9320402f83b0e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 06a75889e62cbba6e47a8543cf663868df5ae2e3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 06/13/2017
 | 选项                | 说明                                                                                                                                                                                                                                                                      |
 |-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 维度             | 标识要添加到行定义的维度的模式。 此模式在维度的每个位置包含一个与号 (\#) 或数字符号 (#)。 通常，对“主科目”维度使用所有与号，对其他维度使用所有数字符号。 |
-| 维度范围起始值 | 要添加到行定义的此维度的第一个值。                                                                                                                                                                                                                 |
+| 维度范围起始值 | 要添加到行定义中的此维度的第一个值。                                                                                                                                                                                                                 |
 | 维度范围结束值   | 要添加到行定义的此维度的最后一个值。                                                                                                                                                                                                                  |
 
 要向行定义添加维度，请完成下列步骤。
@@ -93,7 +93,7 @@ ms.lasthandoff: 06/13/2017
 要在资产负债表中调整化整，请完成下列步骤。
 
 1.  在报表设计器中，单击**“行定义”**，然后打开行定义以修改。
-2.  在**“编辑”**菜单上，单击**“化整调整”**。
+2.  在“编辑”****菜单上，单击“舍入调整”****。
 3.  在**“化整调整”**对话框中，输入下列值：
     -   **舍入调整行** – 应调整以平衡资产负债表的行的行代码。
     -   **总资产行** - 资产负债表中包含总资产的行的行代码。
@@ -121,23 +121,23 @@ ms.lasthandoff: 06/13/2017
 <td>创建字体样式</td>
 <td><ol>
 <li>在报表设计器的<strong>“格式”</strong>菜单上，单击<strong>“样式和格式”</strong>。</li>
-<li>在<strong>样式和格式</strong>对话框中，单击<strong>新建</strong>，然后为新样式输入唯一的名称。</li>
-<li>选择字体，然后单击<strong>“确定”</strong>。</li>
+<li>在“样式和格式”<strong></strong>对话框中单击“新建”<strong></strong>，然后为新样式输入一个唯一名称。</li>
+<li>选择字体，然后单击“确定”<strong></strong>。</li>
 </ol></td>
 </tr>
 <tr class="even">
 <td>修改字体样式</td>
 <td><ol>
 <li>在报表设计器的<strong>“格式”</strong>菜单上，单击<strong>“样式和格式”</strong>。</li>
-<li>在<strong>样式和格式</strong>对话框中选择要修改的样式，然后单击<strong>修改</strong>。</li>
-<li>选择字体，然后单击<strong>“确定”</strong>。</li>
+<li>在“样式和格式”<strong></strong>对话框中选择要修改的样式，然后单击“修改”<strong></strong>。</li>
+<li>选择字体，然后单击“确定”<strong></strong>。</li>
 </ol></td>
 </tr>
 <tr class="odd">
 <td>应用字体样式</td>
 <td><ol>
 <li>在报表设计器中，在定义或列定义中，或在页眉和页脚中，选择一个或多个行单元格。</li>
-<li>在工具栏上的<strong>“样式”</strong>列表中，选择字体样式。</li>
+<li>在工具栏的“样式”<strong></strong>列表中，选择字体样式。</li>
 </ol></td>
 </tr>
 </tbody>
@@ -149,7 +149,7 @@ ms.lasthandoff: 06/13/2017
 
 1.  在报表设计器中，打开要修改的行定义。
 2.  选择要设置格式的单元格。 要选择多个单元格，请在选择单元格的同时按住 Ctrl 键。
-3.  单击格式的工具栏按钮以应用。 例如，要缩进行，请选择行，然后单击工具栏中的**增加缩进**![增加缩进](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "增加缩进")。
+3.  单击要应用的格式的工具栏按钮。 例如，要缩进行，请选择行，然后单击工具栏中的**增加缩进**![增加缩进](https://i-technet.sec.s-msft.com/dynimg/IC679497.gif "增加缩进")。
 
 ### <a name="adjust-columns-while-you-design-reports"></a>在设计报表时调整列
 
@@ -164,7 +164,7 @@ ms.lasthandoff: 06/13/2017
 ### <a name="hide-columns-in-the-view-pane"></a>在视图窗格中隐藏列
 
 1.  在报表设计器中，打开要修改的行定义。
-2.  选择要最小化的列。
+2.  选择要最小化的一列或多列。
 3.  右键单击，然后单击**“隐藏”**。
 
 ### <a name="show-all-hidden-columns-in-the-view-pane"></a>在视图窗格中显示所有隐藏列

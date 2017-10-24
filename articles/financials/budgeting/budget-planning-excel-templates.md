@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 1945d137b337508a1850e3e679a60487aecb6b84
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 7cec40859a8c68cb8a9751c5531c67cef7706258
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -133,7 +133,7 @@ ms.lasthandoff: 07/27/2017
 
 可以，预算计划模板中支持大多数标准的 Excel 功能。 我们建议使用颜色编码，以便用户区分只读列和可编辑列。 可使用条件格式突出显示预算的问题区域。 可通过使用标准 Excel 公式在表上方轻松表示列总计。
 
-还可以为预算数据的更多分组和可视化创建和使用透视表和图表。 在**数据**选项卡上的**连接**组中，单击**全部刷新**，然后单击**连接属性**。 单击**用法**选项卡。 在**刷新**下，选中**打开文件时刷新数据**复选框。 
+还可以为预算数据的更多分组和可视化创建和使用透视表和图表。 在**数据**选项卡上的**连接**组中，单击**全部刷新**，然后单击**连接属性**。 单击**用法**选项卡。在**刷新**下，选中**打开文件时刷新数据**复选框。 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
 

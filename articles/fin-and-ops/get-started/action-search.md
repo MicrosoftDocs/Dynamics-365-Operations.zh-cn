@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cd024f2bc06fca9c21ea41fbed44efbc519cee94
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9b9bb0acc6f0dc1722c916f133eed766ffdd4cc8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -62,7 +61,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的页面主要在操作窗
 -   菜单分隔符（如果按钮在菜单按钮内的命名组内）
 -   页面上的组或选项卡（例如，快速选项卡的名称）
 
-例如，您在**操作搜索**字段中键入 **tot**，现在正在检查结果列表。 名为**总计**的按钮的第一个条目将高亮显示。 **销售订单** &gt; **查看**的按钮路径也将显示。 路径的**销售订单**部分与"操作窗格“中的**销售订单**选项卡对应，路径的**查看**部分与该选项卡上的**查看**组对应。 同样，**总折扣**按钮的路径（**销售** &gt;**计算**）告知您此按钮位于”操作窗格“**销售**选项卡上的”**计算**组中。 因此，此信息帮助您确切了解哪个按钮将由操作搜索触发（如果您在结果列表中选择该按钮）。 
+例如，您在**操作搜索**字段中键入 **tot**，现在正在检查结果列表。 名为**总计**的按钮的第一个条目将高亮显示。 **销售订单** &gt; **查看**的按钮路径也将显示。 路径的**销售订单**部分与“操作窗格”中的**销售订单**选项卡对应，路径的**查看**部分与该选项卡上的**查看**组对应。同样，**总折扣**按钮的路径（**销售** &gt; **计算**）告知您此按钮位于“操作窗格”的**销售**选项卡上的**计算**组中。 因此，此信息帮助您确切了解哪个按钮将由操作搜索触发（如果您在结果列表中选择该按钮）。 
 
 [![action-search-field-with-data](./media/action-search-field-with-data.png)](./media/action-search-field-with-data.png) 
 

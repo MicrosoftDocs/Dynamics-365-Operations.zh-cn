@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 2ce5156f3b9b16e98272b89500f1ecd11d8119ce
+ms.sourcegitcommit: e089c105a48924d8cb42f34d711125b157c3af2e
+ms.openlocfilehash: f8ad4b0e230fb0f018355e486e3b898895a61f28
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-boms-february-2016-only"></a>创建物料清单（仅 2016 年 2 月）

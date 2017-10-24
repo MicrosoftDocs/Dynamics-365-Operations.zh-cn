@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: f3b20b033fc701204cbb3f62468a421b3bdd6a80
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: bf4ad99938eb3da5e72afbad9a5440df16854606
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -72,7 +72,7 @@ SEPA B2B 直接借记方案应用于企业到企业的交易记录以及在 SEPA
 客户签署授权允许债权人收取付款并指示客户的银行支付该收款。 客户可以以纸质或电子形式签发授权。 默认情况下，在最后启动直接借记的 36 个月之后该授权到期。
 
 ## <a name="where-do-i-specify-the-sepa-direct-debit-file-format-iso-20022"></a>我在何处指定 SEPA 直接借记文件格式 (ISO 20022)?
-SEPA 数据格式基于 ISO 20022 消息标准。 当您配置应收帐款的付款方式时，您将选中“一般电子申报”复选框并选择 SEPA 直接借记格式作为导出格式配置。 当您在客户付款日记帐中生成一个付款文件时，您使用该付款方式。
+SEPA 数据格式基于 ISO 20022 消息标准。 当您配置应收账款的付款方式时，您将选中“一般电子申报”复选框并选择 SEPA 直接借记格式作为导出格式配置。 当您在客户付款日记帐中生成一个付款文件时，您使用该付款方式。
 
 ## <a name="in-what-file-formats-can-i-generate-sepa-direct-debit-payment-files"></a>我可以生成哪种格式的 SEPA 直接借记付款文件？
 可以按照以下格式为 SEPA 直接借记生成电子付款文件：

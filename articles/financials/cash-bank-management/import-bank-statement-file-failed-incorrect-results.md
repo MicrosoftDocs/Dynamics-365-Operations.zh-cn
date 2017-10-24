@@ -1,6 +1,6 @@
 ---
-title: "银行对帐单文件导入故障排除"
-description: "银行的银行对帐单文件与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的布局匹配非常重要。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
+title: "银行对账单文件导入故障排除"
+description: "银行的银行对账单文件与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -15,30 +15,30 @@ ms.custom: 141273
 ms.assetid: 3ee2f32b-02aa-420b-8990-e6aa5fc6bda3
 ms.search.region: global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 33b7a499caf9292e44c155a0e1bd6a8929558be5
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 51cd32217b2f753f606e3060b4872a8274f16549
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="bank-statement-file-import-troubleshooting"></a>银行对帐单文件导入故障排除
+# <a name="bank-statement-file-import-troubleshooting"></a>银行对账单文件导入故障排除
 
 [!include[banner](../includes/banner.md)]
 
 
-银行的银行对帐单文件与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的布局匹配非常重要。 由于银行对帐单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对帐单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
+银行的银行对账单文件与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
 
 <a name="what-is-the-error"></a>错误是什么？
 ------------------
 
-在尝试导入银行对帐单文件后，请转到数据管理作业历史记录及其执行详细信息查找错误。 错误可以通过指定报表、余额或报表行提供帮助。 但是，不大可能提供足够的信息来帮助您确定导致问题的字段或元素。
+在尝试导入银行对账单文件后，请转到数据管理作业历史记录及其执行详细信息查找错误。 错误可以通过指定报表、余额或报表行提供帮助。 但是，不大可能提供足够的信息来帮助您确定导致问题的字段或元素。
 
 ## <a name="what-are-the-differences"></a>有哪些差异？
-比较银行文件布局定义与 Finance and Operations 导入定义，注意字段和元素中的任何差异。 比较银行对帐单文件与相关示例 Finance and Operations 文件。 在 ISO20022 文件中，应易于查看任何差异。
+比较银行文件布局定义与 Finance and Operations 导入定义，注意字段和元素中的任何差异。 比较银行对账单文件与相关示例 Finance and Operations 文件。 在 ISO20022 文件中，应易于查看任何差异。
 
 ## <a name="transformations"></a>转换
 通常，必须在三个转换之一中进行更改。 每个转换为特定标准写入。
@@ -59,7 +59,7 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
         <Batch><![CDATA[PASTESTATEMENTFILEHERE
         ]]></Batch>
 
-2.  复制银行对帐单文件的内容，并且将其粘贴到 XML 文件，以便替换 **PASTESTATEMENTFILEHERE**。
+2.  复制银行对账单文件的内容，并且将其粘贴到 XML 文件，以便替换 **PASTESTATEMENTFILEHERE**。
 
 ### <a name="debug-the-xslt"></a>调试 XSLT
 
@@ -69,7 +69,7 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 2.  创建控制台申请。
 3.  打开相应的 XSLT。
 4.  单击 XLST 及其属性页。
-5.  设置对银行对帐单文件位置的输入。
+5.  设置对银行对账单文件位置的输入。
 6.  定义输出的位置和文件名。
 7.  设置必需的断点。
 8.  在菜单上，单击 **XML** &gt; **启动 XSLT 调试**。
@@ -80,21 +80,21 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 
 ### <a name="adjust-the-transformation"></a>调整转换
 
-调整转换以获取银行对帐单文件中的相应字段或元素。 然后将该字段或元素映射到相应的 Finance and Operations 元素。
+调整转换以获取银行对账单文件中的相应字段或元素。 然后将该字段或元素映射到相应的 Finance and Operations 元素。
 
 ### <a name="debitcredit-indicator"></a>借方/贷方指示符
 
-有时，借方可能导入为贷方，贷方可能导入为借方。 为了解决此问题，您必须更改相应的 XSLT。 如果银行对帐单来自多个银行，请确保它们使用同一借方/贷方方法或创建单独的转换。
+有时，借方可能导入为贷方，贷方可能导入为借方。 为了解决此问题，您必须更改相应的 XSLT。 如果银行对账单来自多个银行，请确保它们使用同一借方/贷方方法或创建单独的转换。
 
 -   BAI2XML-to-Reconciliation.xlst GetAmountCreditDebitIndicator 模板
 -   ISO20022XML-to-Reconcilation.xslt GetCreditDebit 模板
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator 模板
 
-## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>银行对帐单格式和技术布局的示例
-下表列出了高级银行对帐导入文件技术布局定义的示例和三个相关银行对帐单示例文件。 可从以下网址下载示例文件和技术布局：https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>银行对账单格式和技术布局的示例
+下表列出了高级银行对帐导入文件技术布局定义的示例和三个相关银行对账单示例文件。 可从以下网址下载示例文件和技术布局：https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
-| 技术布局定义                             | 银行对帐单示例文件          |
+| 技术布局定义                             | 银行对账单示例文件          |
 |---------------------------------------------------------|--------------------------------------|
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |

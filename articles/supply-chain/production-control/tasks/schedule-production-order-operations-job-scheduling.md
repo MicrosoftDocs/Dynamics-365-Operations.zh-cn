@@ -16,10 +16,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 10ccb4ac1088e27f3f5771bcb964bf3cc0a509ab
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d4aac437876862e9f776264fc81f246c820bdf45
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>使用工序级和作业级排产计划生产订单

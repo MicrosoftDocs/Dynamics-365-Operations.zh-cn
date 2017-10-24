@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: c0126ef34ccbf15d180ff9aa474ac7ab8a749bb4
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>根据生产需求更改托运库存的所有权

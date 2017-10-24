@@ -1,5 +1,5 @@
 ---
-title: "应付帐款的集中付款"
+title: "应付账款的集中付款"
 description: "包括多个法人的组织可以使用处理所有付款的单个法人创建和管理付款。 因此，不必在多个法人中输入同一付款。 本文提供显示集中付款过帐如何在不同环境中处理的示例。"
 author: ShivamPandey-msft
 manager: AnnBe
@@ -18,15 +18,15 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 23541bb2d82b552cdc9e0ada4aa4ec473f498d0b
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 49d5242168cd43e78dd4b0c63da363f91f680904
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="centralized-payments-for-accounts-payable"></a>应付帐款的集中付款
+# <a name="centralized-payments-for-accounts-payable"></a>应付账款的集中付款
 
 [!include[banner](../includes/banner.md)]
 
@@ -58,13 +58,13 @@ Fabrikam East 为供应商帐户 100 (Fourth Coffee) 具有一个未结发票。
 | 科目                          | 借方金额 | 贷方金额 |
 |----------------------------------|--------------|---------------|
 | 支出 (Fabrikam East)          | 600.00       |               |
-| 应付帐款 (Fabrikam East) |              | 600.00        |
+| 应付账款 (Fabrikam East) |              | 600.00        |
 
 ### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>在 Fabrikam 中为供应商 3004 生成和过帐付款
 
 | 科目                     | 借方金额 | 贷方金额 |
 |-----------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam) | 600.00       |               |
+| 应付账款 (Fabrikam) | 600.00       |               |
 | 现金 (Fabrikam)             |              | 600.00        |
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam 付款用 Fabrikam East 发票结算
@@ -74,13 +74,13 @@ Fabrikam East 为供应商帐户 100 (Fourth Coffee) 具有一个未结发票。
 | 科目                           | 借方金额 | 贷方金额 |
 |-----------------------------------|--------------|---------------|
 | 从 Fabrikam East (Fabrikam) 的应收金额 | 600.00       |               |
-| 应付帐款 (Fabrikam)       |              | 600.00        |
+| 应付账款 (Fabrikam)       |              | 600.00        |
 
 **Fabrikam East 过帐**
 
 | 科目                          | 借方金额 | 贷方金额 |
 |----------------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam East) | 600.00       |               |
+| 应付账款 (Fabrikam East) | 600.00       |               |
 | 向 Fabrikam (Fabrikam East) 的应付金额  |              | 600.00        |
 
 ## <a name="example-2-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount"></a>示例 2：来自具有现金折扣的其他法人的发票的供应商付款
@@ -91,13 +91,13 @@ Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 该�
 | 科目                          | 借方金额 | 贷方金额 |
 |----------------------------------|--------------|---------------|
 | 支出 (Fabrikam East)          | 600.00       |               |
-| 应付帐款 (Fabrikam East) |              | 600.00        |
+| 应付账款 (Fabrikam East) |              | 600.00        |
 
 ### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>在 Fabrikam 中为 Fabrikam 供应商 3004 生成和过帐付款
 
 | 科目                     | 借方金额 | 贷方金额 |
 |-----------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam) | 580.00       |               |
+| 应付账款 (Fabrikam) | 580.00       |               |
 | 现金 (Fabrikam)             |              | 580.00        |
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam 付款用 Fabrikam East 发票结算
@@ -107,15 +107,15 @@ Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 该�
 | 科目                           | 借方金额 | 贷方金额 |
 |-----------------------------------|--------------|---------------|
 | 从 Fabrikam East (Fabrikam) 的应收金额 | 580.00       |               |
-| 应付帐款 (Fabrikam)       |              | 580.00        |
+| 应付账款 (Fabrikam)       |              | 580.00        |
 
 **Fabrikam East 过帐**
 
 | 科目                          | 借方金额 | 贷方金额 |
 |----------------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam East) | 580.00       |               |
+| 应付账款 (Fabrikam East) | 580.00       |               |
 | 向 Fabrikam (Fabrikam East) 的应付金额  |              | 580.00        |
-| 应付帐款 (Fabrikam East) | 20.00        |               |
+| 应付账款 (Fabrikam East) | 20.00        |               |
 | 现金折扣 (Fabrikam East)    |              | 20.00         |
 
 ## <a name="example-3-vendor-payment-of-invoice-from-another-legal-entity-with-realized-exchange-rate-loss"></a>示例 3：来自具有已有汇率损失的其他法人的发票的供应商付款
@@ -129,13 +129,13 @@ Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 Fabri
 | 科目                          | 借方金额            | 贷方金额           |
 |----------------------------------|-------------------------|-------------------------|
 | 支出 (Fabrikam East)          | 600.00 EUR / 723.72 USD |                         |
-| 应付帐款 (Fabrikam East) |                         | 600.00 EUR / 723.72 USD |
+| 应付账款 (Fabrikam East) |                         | 600.00 EUR / 723.72 USD |
 
 ### <a name="payment-is-generated-and-posted-in-fabrikam-for-fabrikam-vendor-3004"></a>在 Fabrikam 中为 Fabrikam 供应商 3004 生成和过帐付款
 
 | 科目                     | 借方金额            | 贷方金额           |
 |-----------------------------|-------------------------|-------------------------|
-| 应付帐款 (Fabrikam) | 600.00 EUR / 736.62 USD |                         |
+| 应付账款 (Fabrikam) | 600.00 EUR / 736.62 USD |                         |
 | 现金 (Fabrikam)             |                         | 600.00 EUR / 736.62 USD |
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam 付款用 Fabrikam East 发票结算
@@ -145,7 +145,7 @@ Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 Fabri
 | 科目                           | 借方金额            | 贷方金额           |
 |-----------------------------------|-------------------------|-------------------------|
 | 从 Fabrikam East (Fabrikam) 的应收金额 | 600.00 EUR / 736.62 USD |                         |
-| 应付帐款 (Fabrikam)       |                         | 600.00 EUR / 736.62 USD |
+| 应付账款 (Fabrikam)       |                         | 600.00 EUR / 736.62 USD |
 | 已有损失 (Fabrikam)          | 0.00 EUR / 12.90 USD    |                         |
 | 从 Fabrikam East (Fabrikam) 的应收金额 |                         | 0.00 EUR / 12.90 USD    |
 
@@ -153,10 +153,10 @@ Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 Fabri
 
 | 科目                          | 借方金额            | 贷方金额           |
 |----------------------------------|-------------------------|-------------------------|
-| 应付帐款 (Fabrikam East) | 600.00 EUR / 736.62 USD |                         |
+| 应付账款 (Fabrikam East) | 600.00 EUR / 736.62 USD |                         |
 | 向 Fabrikam (Fabrikam East) 的应付金额  |                         | 600.00 EUR / 736.62 USD |
 | 向 Fabrikam (Fabrikam East) 的应付金额  | 0.00 EUR / 12.90 USD    |                         |
-| 应付帐款 (Fabrikam East) |                         | 0.00 EUR / 12.90 USD    |
+| 应付账款 (Fabrikam East) |                         | 0.00 EUR / 12.90 USD    |
 
 ## <a name="example-4-vendor-payment-of-invoice-from-another-legal-entity-with-cash-discount-and-realized-exchange-rate-loss"></a>示例 4：来自具有现金折扣和已有汇率损失的其他法人的发票的供应商付款
 Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 该发票具有可用的现金折扣并且生成增值税交易记录。 Fabrikam 过帐 Fabrikam 供应商 3004 (Fourth Coffee) 的付款。 该付款用未结 Fabrikam East 发票结算。 在结算过程中将生成币种汇率损失交易记录。 现金折扣过帐到发票法人 (Fabrikam East)，且币种汇率损失过帐到付款法人 (Fabrikam)。
@@ -170,13 +170,13 @@ Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 该�
 |----------------------------------|-------------------------|-------------------------|
 | 支出 (Fabrikam East)          | 564.07 EUR / 680.38 USD |                         |
 | 增值税 (Fabrikam East)        | 35.93 EUR / 43.34 USD   |                         |
-| 应付帐款 (Fabrikam East) |                         | 600.00 EUR / 723.72 USD |
+| 应付账款 (Fabrikam East) |                         | 600.00 EUR / 723.72 USD |
 
 ### <a name="payment-is-generated-and-posted-in-fabrikam-for-vendor-3004"></a>在 Fabrikam 中为供应商 3004 生成和过帐付款
 
 | 科目                     | 借方金额            | 贷方金额           |
 |-----------------------------|-------------------------|-------------------------|
-| 应付帐款 (Fabrikam) | 588.72 EUR / 722.77 USD |                         |
+| 应付账款 (Fabrikam) | 588.72 EUR / 722.77 USD |                         |
 | 现金 (Fabrikam East)        |                         | 588.72 EUR / 722.77 USD |
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-east-invoice"></a>Fabrikam 付款用 Fabrikam East 发票结算
@@ -186,7 +186,7 @@ Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 该�
 | 科目                           | 借方金额            | 贷方金额           |
 |-----------------------------------|-------------------------|-------------------------|
 | 从 Fabrikam East (Fabrikam) 的应收金额 | 588.72 EUR / 722.77 USD |                         |
-| 应付帐款 (Fabrikam)       |                         | 588.72 EUR / 722.77 USD |
+| 应付账款 (Fabrikam)       |                         | 588.72 EUR / 722.77 USD |
 | 已有损失 (Fabrikam)          | 0.00 EUR / 12.66 USD    |                         |
 | 从 Fabrikam East (Fabrikam) 的应收金额 |                         | 0.00 EUR / 12.66 USD    |
 
@@ -194,11 +194,11 @@ Fabrikam East 为供应商 100 (Fourth Coffee) 具有一个未结发票。 该�
 
 | 科目                          | 借方金额            | 贷方金额           |
 |----------------------------------|-------------------------|-------------------------|
-| 应付帐款 (Fabrikam East) | 588.72 EUR / 722.77 USD |                         |
+| 应付账款 (Fabrikam East) | 588.72 EUR / 722.77 USD |                         |
 | 向 Fabrikam (Fabrikam East) 的应付金额  |                         | 588.72 EUR / 722.77 USD |
 | 向 Fabrikam (Fabrikam East) 的应付金额   | 0.00 EUR / 12.66 USD    |                         |
-| 应付帐款 (Fabrikam East) |                         | 0.00 EUR / 12.66 USD    |
-| 应付帐款 (Fabrikam East) | 11.28 EUR / 13.61 USD   |                         |
+| 应付账款 (Fabrikam East) |                         | 0.00 EUR / 12.66 USD    |
+| 应付账款 (Fabrikam East) | 11.28 EUR / 13.61 USD   |                         |
 | 现金折扣 (Fabrikam East)    |                         | 11.28 EUR / 13.61 USD   |
 
 ## <a name="example-5-vendor-credit-note-with-primary-payment"></a>示例 5：具有主付款的供应商贷方通知单
@@ -209,20 +209,20 @@ Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款�
 | 帐户                          | 借方金额 | 贷方金额 |
 |----------------------------------|--------------|---------------|
 | 支出 (Fabrikam West)          | 100.00       |               |
-| 应付帐款 (Fabrikam West) |              | 100.00        |
+| 应付账款 (Fabrikam West) |              | 100.00        |
 
 ### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>贷方通知单为供应商 100 过帐到 Fabrikam East
 
 | 科目                          | 借方金额 | 贷方金额 |
 |----------------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam East) | 25.00        |               |
+| 应付账款 (Fabrikam East) | 25.00        |               |
 | 采购退货 (Fabrikam East) |              | 25.00         |
 
 ### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>付款为供应商 3004 过帐到 Fabrikam
 
 | 科目                     | 借方金额 | 贷方金额 |
 |-----------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam) | 75.00        |               |
+| 应付账款 (Fabrikam) | 75.00        |               |
 | 现金 (Fabrikam)             |              | 75.00         |
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam 付款用 Fabrikam West 发票和 Fabrikam East 贷方通知单结算
@@ -231,23 +231,23 @@ Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款�
 
 | 科目                           | 借方金额 | 贷方金额 |
 |-----------------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam)       | 25.00        |               |
+| 应付账款 (Fabrikam)       | 25.00        |               |
 | 向 Fabrikam East (Fabrikam) 的应付金额   |              | 25.00         |
 | 从 Fabrikam West (Fabrikam) 的应收金额 | 100.00       |               |
-| 应付帐款 (Fabrikam)       |              | 100.00        |
+| 应付账款 (Fabrikam)       |              | 100.00        |
 
 **Fabrikam East 过帐**
 
 | 科目                           | 借方金额 | 贷方金额 |
 |-----------------------------------|--------------|---------------|
 | 从 Fabrikam (Fabrikam East) 的应收金额 | 25.00        |               |
-| 应付帐款 (Fabrikam East)  |              | 25.00         |
+| 应付账款 (Fabrikam East)  |              | 25.00         |
 
 **Fabrikam West 过帐**
 
 | 科目                          | 借方金额 | 贷方金额 |
 |----------------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam West) | 100.00       |               |
+| 应付账款 (Fabrikam West) | 100.00       |               |
 | 向 Fabrikam (Fabrikam West) 的应付金额  |              | 100.00        |
 
 ## <a name="example-6-vendor-credit-note-without-primary-payment"></a>示例 6：不具有主付款的供应商贷方通知单
@@ -258,20 +258,20 @@ Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款�
 | 帐户                          | 借方金额 | 贷方金额 |
 |----------------------------------|--------------|---------------|
 | 支出 (Fabrikam West)          | 100.00       |               |
-| 应付帐款 (Fabrikam West) |              | 100.00        |
+| 应付账款 (Fabrikam West) |              | 100.00        |
 
 ### <a name="credit-note-is-posted-to-fabrikam-east-for-vendor-100"></a>贷方通知单为供应商 100 过帐到 Fabrikam East
 
 | 科目                          | 借方金额 | 贷方金额 |
 |----------------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam East) | 25.00        |               |
+| 应付账款 (Fabrikam East) | 25.00        |               |
 | 采购退货 (Fabrikam East) |              | 25.00         |
 
 ### <a name="payment-is-posted-to-fabrikam-for-vendor-3004"></a>付款为供应商 3004 过帐到 Fabrikam
 
 | 科目                     | 借方金额 | 贷方金额 |
 |-----------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam) | 75.00        |               |
+| 应付账款 (Fabrikam) | 75.00        |               |
 | 现金 (Fabrikam)             |              | 75.00         |
 
 ### <a name="fabrikam-payment-is-settled-with-fabrikam-west-invoice-and-fabrikam-east-credit-note"></a>Fabrikam 付款用 Fabrikam West 发票和 Fabrikam East 贷方通知单结算
@@ -281,22 +281,22 @@ Fabrikam 为供应商 3004 (Fourth Coffee) 生成 75.00 的付款。 该付款�
 | 科目                           | 借方金额 | 贷方金额 |
 |-----------------------------------|--------------|---------------|
 | 从 Fabrikam West (Fabrikam) 的应收金额 | 75.00        |               |
-| 应付帐款 (Fabrikam)       |              | 75.00         |
+| 应付账款 (Fabrikam)       |              | 75.00         |
 
 **Fabrikam East 过帐**
 
 | 科目                                | 借方金额 | 贷方金额 |
 |----------------------------------------|--------------|---------------|
 | 从 Fabrikam West (Fabrikam East) 的应收金额 | 25.00        |               |
-| 应付帐款 (Fabrikam East)       |              | 25.00         |
+| 应付账款 (Fabrikam East)       |              | 25.00         |
 
 **Fabrikam West 过帐**
 
 | 科目                              | 借方金额 | 贷方金额 |
 |--------------------------------------|--------------|---------------|
-| 应付帐款 (Fabrikam West)     | 75.00        |               |
+| 应付账款 (Fabrikam West)     | 75.00        |               |
 | 向 Fabrikam (Fabrikam West) 的应付金额      |              | 75.00         |
-| 应付帐款 (Fabrikam West)     | 25.00        |               |
+| 应付账款 (Fabrikam West)     | 25.00        |               |
 | 向 Fabrikam East (Fabrikam West) 的应付金额 |              | 25.00         |
 
 

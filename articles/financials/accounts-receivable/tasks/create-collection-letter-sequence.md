@@ -16,10 +16,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 3b050d47910c146b9691e7aae5b4a1a847ce716e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6331c3680169b305c4bfbfada4ba106b619be092
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-collection-letter-sequence"></a>创建催款单序列
@@ -48,7 +48,7 @@ ms.lasthandoff: 07/27/2017
 13. 在列表中，单击所选行中的链接。
 14. 在收款单寄出前，输入所需的最小逾期余额。
 15. 输入您所允许的宽限天数。
-    * 这是一个在截止日期后收款单可以生成的天数。 用于计算的截止日期取决于收款单在收款单序列的位置：   ⦁    收款单 1 的宽限期与发票上的截止日期相关。  ⦁ 根据在“应收帐款参数”页“更新收款单代码”字段中的选择，收款单 2 的宽限期和更高状态与以前的收款单过帐或打印的日期相关。  
+    * 这是一个在截止日期后收款单可以生成的天数。 用于计算的截止日期取决于收款单在收款单序列的位置：   ⦁    收款单 1 的宽限期与发票上的截止日期相关。  ⦁ 根据在“应收账款参数”页“更新收款单代码”字段中的选择，收款单 2 的宽限期和更高状态与以前的收款单过帐或打印的日期相关。  
 16. 单击“添加”，在序列中添加最后一个收款单。
     * 您最多可为收款单序列添加五个收款单代码。  
 17. 在“收款单代码”字段中，选择下一个被发送至序列的收款单。

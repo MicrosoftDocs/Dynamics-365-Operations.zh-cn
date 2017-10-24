@@ -16,13 +16,13 @@ ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: aaacf596f2ea1107a53647d779e9d2b6c37ab530
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 07/27/2017
     -   用于核算的帐簿：VM 1，当前过帐层
     -   用于纳税目的的帐簿：VM 2，税过帐层。
 
-2.  在 VM 1 上，单击“衍生帐簿”选项卡。 在“帐簿”字段中选择 VM 2，在“交易记录类型”字段中选择“购置”。
+2.  在 VM 1 上，单击“派生帐簿”选项卡，并在“帐簿”字段选择 VM 2，在“交易记录类型”字段选择“购置”。
 
 然后，可将帐簿附加到特定的固定资产。 
 

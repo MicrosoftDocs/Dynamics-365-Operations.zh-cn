@@ -18,10 +18,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 6a535b5f1192b7c27383cb8ece53f76a9c76f047
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2017
 
 本文提供有关 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中远期支票的支持的信息。 远期支票是签发用于在将来时间进行付款和收款的支票。 因此，支票在指定日期前不能兑现。
 
-Microsoft Dynamics 365 for Finance and Operations 支持应收帐款和应付帐款中远期支票的完整管理周期，如下表中所示。
+Microsoft Dynamics 365 for Finance and Operations 支持应收账款和应付账款中远期支票的完整管理周期，如下表中所示。
 <table>
 <colgroup>
 <col width="50%" />

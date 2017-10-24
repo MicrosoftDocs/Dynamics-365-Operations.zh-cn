@@ -1,5 +1,5 @@
 --- 
-title: "使用审核日记帐将发票数据键入应付帐款"
+title: "使用审核日记帐将发票数据键入应付账款"
 description: "此任务指南将显示如何使用发票登记簿创建发票，然后使用审核日记帐更新费用帐户。"
 author: abruer
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: d7cf810f1d8eabb9989fdd858585afcdf2e9574b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 604345d357e5019e334017b2b6d0413f40818acc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>使用审核日记帐将发票数据键入应付帐款
+# <a name="key-invoice-data-into-accounts-payable-using-an-approval-journal"></a>使用审核日记帐将发票数据键入应付账款
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 07/27/2017
 
 
 ## <a name="create-and-post-and-invoice"></a>创建并过帐发票
-1. 转到“应付帐款”>“发票”>“发票登记簿”。
+1. 转到“应付账款”>“发票”>“发票登记簿”。
 2. 单击“新建”。
 3. 选择您想要使用的发票登记簿名称。
 4. 在列表中，单击所选行中的链接。
@@ -46,7 +46,7 @@ ms.lasthandoff: 07/27/2017
 14. 关闭该页面。
 
 ## <a name="approve-an-invoice"></a>审核发票
-1. 转到“应付帐款”>“发票”>“发票审核”。
+1. 转到“应付账款”>“发票”>“发票审核”。
 2. 单击“新建”。
 3. 选择您想要使用的发票审核日记帐的名称。
 4. 在列表中，单击所选行中的链接。

@@ -16,17 +16,17 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 01fbf4964dfcecab272204db9c3f5068ca1879cb
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9b2300a593c9e153ee598fa72e29907c82f2b79e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>记录采购订单上的收货
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-此过程演示如何直接在采购订单中记录收货。 还可以在仓库中登记产品收货，以后再记录到采购订单中。 此任务通常由代购代理或应付帐款协调员执行。 可以在 USMF 演示数据公司中使用本指南中的示例。 此示例包括简单采购订单的创建步骤，以便您将此过程用作任务指南。 如果您使用此过程和您自己的数据，则可以从“记录收货”子任务着手。
+此过程演示如何直接在采购订单中记录收货。 还可以在仓库中登记产品收货，以后再记录到采购订单中。 此任务通常由代购代理或应付账款协调员执行。 可以在 USMF 演示数据公司中使用本指南中的示例。 此示例包括简单采购订单的创建步骤，以便您将此过程用作任务指南。 如果您使用此过程和您自己的数据，则可以从“记录收货”子任务着手。
 
 
 ## <a name="prepare-a-new-purchase-order-for-receipt-of-goods"></a>为收货准备新采购订单

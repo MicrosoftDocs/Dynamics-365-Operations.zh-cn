@@ -15,13 +15,13 @@ ms.custom: 102083
 ms.assetid: f50585e8-4ef6-4cd8-90d8-c8d6a65b22b8
 ms.search.region: global
 ms.author: josaw
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: cdad1d6c2466b47b07133a5335866ef6881609ca
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: f43b3cc1d41d96b2236d07d05bacc1e1bc25af87
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 06/13/2017
 
 （2016 年 2 月）APQC 标准库包含用于帮助 Dynamics AX 7.0.0 发布的任务指南。 如果您需要这些任务指南的本地化版本，它们将在 Microsoft Dynamics AX 的（2016 年 5 月）APQC 标准库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
 
-### <a name="accounts-payable"></a>应付帐款
+### <a name="accounts-payable"></a>应付账款
 
 |                                                           |                    |
 |-----------------------------------------------------------|--------------------|
@@ -47,12 +47,12 @@ ms.lasthandoff: 06/13/2017
 | 使用发票池的 AP 系统中的重要发票数据        | 全局             |
 | 使用发票登记簿的 AP 系统中的重要发票数据    | 全局             |
 | 记录供应商发票和匹配接收的数量 | 全局             |
-| 设置应付帐款发票匹配验证       | 全局             |
+| 设置应付账款发票匹配验证       | 全局             |
 | 设置供应商发票策略                            | 全局             |
 
  
 
-### <a name="accounts-receivable"></a>应收帐款
+### <a name="accounts-receivable"></a>应收账款
 
 |                                                             |                    |
 |-------------------------------------------------------------|--------------------|
@@ -69,7 +69,7 @@ ms.lasthandoff: 06/13/2017
 | 处理催款单                                  | 全局             |
 | 处理利息                                            | 全局             |
 | 审核收款信息                              | 全局             |
-| 设置并生成应收帐款的帐龄信息   | 全局             |
+| 设置并生成应收账款的帐龄信息   | 全局             |
 
  
 
@@ -307,7 +307,7 @@ ms.lasthandoff: 06/13/2017
 | **BPM 行**                                              | **国家/地区** |
 | 更改多项固定资产的折旧惯例 | 全局             |
 | 创建固定资产                                      | 全局             |
-| 从应付帐款创建和购置资产           | 全局             |
+| 从应付账款创建和购置资产           | 全局             |
 | 创建折旧方案                              | 全局             |
 | 使用普通发票处理固定资产        | 全局             |
 | 输入对固定资产的添加件                        | 全局             |
@@ -633,10 +633,10 @@ ms.lasthandoff: 06/13/2017
 | 创建交货计划                   | 全局             |
 | 输入销售协议                     | 全局             |
 | 履行销售协议                   | 全局             |
-| 生成和处理客户返点      | 全局             |
+| 生成和处理客户返利      | 全局             |
 | 查找适用的价格和折扣    | 全局             |
 | 成批创建销售报价单               | 全局             |
-| 处理付款返点                | 全局             |
+| 处理付款返利                | 全局             |
 | 登记销售佣金                 | 全局             |
 | 设置销售佣金规则              | 全局             |
 | 作为直接交货装运订单           | 全局             |

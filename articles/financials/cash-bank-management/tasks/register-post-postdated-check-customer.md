@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f82ed7b1d883284bffffd78ac3f187246383b45c
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1610036815349f625a67d5dd67260114d42fff97
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>为客户登记和过帐远期支票
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 您可以登记从客户处接收的远期支票的详细信息。 您还可以过帐该远期发票并生成财务交易记录。   在您登记和过帐从客户收到的远期支票之前，请完成以下任务：   • 在现金和银行管理页面设置远期支票 • 设置远期支票的付款方式   此过程的角色为出纳员。 该程序适用于 USMF 演示公司。
 
-1. 转到“应收帐款”>“付款”>“付款日记帐”。
+1. 转到“应收账款”>“付款”>“付款日记帐”。
 2. 单击“新建”。
 3. 在“名称”字段中，键入一个值。
 4. 单击“行”。

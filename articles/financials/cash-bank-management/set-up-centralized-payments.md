@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 975497e8ed0c9738c225bad4db9165bf2ebc0192
-ms.openlocfilehash: 0b33e37699fb9b81ad1803f670a4dedbce6a9c29
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c91d02bfb5e51a7eb34234abb982242bc9f7610f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/05/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 06/05/2017
 
 -   创建法人。
 -   设置总帐参数和会计科目表。
--   设置应付帐款参数和应收帐款参数（取决于使用集中付款的模块）。
+-   设置应付账款参数和应收账款参数（取决于使用集中付款的模块）。
 -   设置内部公司会计。
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>为集中付款设置组织的层次结构。
@@ -44,7 +44,7 @@ ms.lasthandoff: 06/05/2017
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>为集中付款设置内部公司帐户
 在对照其他法人中的发票结算当前法人中的付款交易记录时，将为每个法人创建相应的应付和应收交易记录。 您必须指定过帐任何适用现金折扣和已有损益金额的法人。 在开始前，确定您将使用哪一法人处理供应商和客户付款。 如果一个法人处理供应商付款，另一个法人处理客户付款，您必须切换到各法人。 在**内部公司会计**页上，可以为将代表其处理付款的法人选择内部公司关系记录。 
 
-在**集中付款**选项卡上，您可以选择是将现金折扣过帐到付款（或减少供应商帐户余额的其他交易记录）法人还是发票（或增加供应商帐户余额的其他交易记录）法人。 此选择与**应付帐款参数**和**应收帐款参数**页的**现金折扣管理**字段一起工作。 对于超额付款和尾差容差，使用付款的法人中的设置。 对于支付不足和尾差容差，使用发票的法人中的设置。
+在**集中付款**选项卡上，您可以选择是将现金折扣过帐到付款（或减少供应商帐户余额的其他交易记录）法人还是发票（或增加供应商帐户余额的其他交易记录）法人。 此选择与**应付账款参数**和**应收账款参数**页的**现金折扣管理**字段一起工作。 对于超额付款和尾差容差，使用付款的法人中的设置。 对于支付不足和尾差容差，使用发票的法人中的设置。
 
 ## <a name="map-vendor-accounts-across-legal-entities"></a>映射跨法人的供应商账户
 当您支付某个法人的供应商并且您想选择其他法人中的供应商的发票时，您必须确保每个法人中的相应的供应商账户都使用相同的地址簿 ID。 如果您接收来自在多个法人中支付发票的客户的付款，则必须确保每个法人中的相应客户帐户全都使用相同的通讯簿 ID。

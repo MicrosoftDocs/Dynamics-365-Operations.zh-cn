@@ -15,13 +15,13 @@ ms.custom: 91213
 ms.assetid: f0bbc78f-87fc-40e9-b46a-6655893f69be
 ms.search.region: Global
 ms.author: sericks
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 8b58cb4f9de393b3f381dbe0aa4330d5ebd62795
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: f3853169b7452e307a36579facea0cf0ab83ca47
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -60,7 +60,7 @@ ms.lasthandoff: 05/25/2017
 |                                                            |                                                                  |
 |------------------------------------------------------------|------------------------------------------------------------------|
 | **您能怎么做？**                                       | **为什么如此重要**                                       |
-| 生成应付帐款付款的付款确认文件。 | 可以生成付款确认文件以帮助防止支票欺诈。 |
+| 生成应付账款付款的付款确认文件。 | 可以生成付款确认文件以帮助防止支票欺诈。 |
 
 ## <a name="warehouse-and-production"></a>仓库和生产
 |                                                                                                                                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                                         |

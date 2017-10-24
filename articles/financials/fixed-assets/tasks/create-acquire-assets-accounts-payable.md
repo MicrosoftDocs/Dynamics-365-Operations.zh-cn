@@ -1,5 +1,5 @@
 --- 
-title: "从应付帐款创建和购置资产"
+title: "从应付账款创建和购置资产"
 description: "本指到任务帮助了解如何遵照采购流程来创建和购置固定资产。 "
 author: saraschi2
 manager: AnnBe
@@ -16,17 +16,17 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: f814d20bc16bb3334ae4bc449cc0d45843487023
+ms.sourcegitcommit: 9149378047fc22efbd401b7af86df07c1403e4f5
+ms.openlocfilehash: cfe920b2ef493ab3ae36a9557001086ed99c3e4e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 10/04/2017
 
 ---
-# <a name="create-and-acquire-assets-from-accounts-payable"></a>从应付帐款创建和购置资产
+# <a name="create-and-acquire-assets-from-accounts-payable"></a>从应付账款创建和购置资产
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-本指到任务帮助了解如何遵照采购流程来创建和购置固定资产。   本任务需要用到普通及应付账目会计和演示公司USMF的数据。
+本指到任务帮助了解如何遵照采购流程来创建和购置固定资产。  本任务需要用到普通及应付账目会计和演示公司USMF的数据。
 
 
 ## <a name="set-fixed-assets-parameters"></a>设置固定资产参数
@@ -36,7 +36,7 @@ ms.lasthandoff: 07/27/2017
 4. 勾选“在产品收据或发票过帐期间创建资产”复选框。
 
 ## <a name="create-a-new-vendor-invoice"></a>创建新的供应商发票
-1. 转到“应付帐款”>“工作区”>“供应商发票条目”。
+1. 转到“应付账款”>“工作区”>“供应商发票条目”。
 2. 单击“新建供应商发票”。
 3. 在“发票帐户”字段中，单击下拉按钮以打开查找。
 4. 在列表中，单击所选行中的链接。

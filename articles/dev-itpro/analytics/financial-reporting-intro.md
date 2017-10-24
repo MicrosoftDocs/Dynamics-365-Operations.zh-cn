@@ -15,13 +15,13 @@ ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
 ms.author: aolson
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 770a1681e4fa9974b081d0c63a10eb1961f13014
-ms.openlocfilehash: 4e0c984b95cd395e7ab23394b886782e55fac90f
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: de8167eeea1f4a4db764a7f6398533ec3b9f4306
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -57,8 +57,8 @@ Finance and Operations 财务申报允许财务和业务专业人员创建、维
 <ul>
 <li>保存维度组合并重复使用多个报表的维度。</li>
 <li>控制维度描述设置格式和显示的方式。</li>
-<li>标识已从报表构建基块中省略的科目或维度。</li>
-<li>设置标题格式以进行滚动预算。</li>
+<li>确定报表构建基块中省略了的会计科目或维度。</li>
+<li>设置滚动预测标题的格式。</li>
 </ul></td>
 </tr>
 <tr class="even">

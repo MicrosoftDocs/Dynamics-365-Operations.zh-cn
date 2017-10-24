@@ -1,7 +1,7 @@
 ---
 title: "移动平均"
 description: 
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -17,13 +17,13 @@ ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 0018f5df3d0d2882c300b6458bfb8adfba84e2ad
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/25/2017
 在您使用移动平均成本作为成本计算方法时，以下选项是先决条件。
 1.  在**物料模型组**页中，设置在**库存模型**字段中选择了“移动平均”的物料模型组。 **注意：**默认情况下，当选择了“移动平均”后，**过帐实际库存**和**过帐财务库存**字段也将选择。 
 
-2.  在**过帐**页中，分配帐户给**库存**选项卡上的**移动平均价差**和**重估移动平均成本**帐户。 在成本必须按比例支出时，使用**移动平均价差**帐户。 由于在原始库存数量和现有数量之间的差异，以及采购收货和采购发票之间的成本差异，此情况发生。 当您要为产品调整移动平均成本到新的单位价格时，使用**重估移动平均成本**帐户。
+2.  在**过帐**页中，将科目分配到**库存**选项卡上的**移动平均价差**和**重估移动平均成本**帐户。成本必须按比例支出时，您可以使用**移动平均价差**帐户。 由于在原始库存数量和现有数量之间的差异，以及采购收货和采购发票之间的成本差异，此情况发生。 当您要为产品调整移动平均成本到新的单位价格时，使用**重估移动平均成本**帐户。
 3.  在**已发布产品**页中，分配移动平均物料模型组到产品。 **注意：**库存结转过程只结束会计期间。 不影响具有作为物料模型组分配到它们的移动平均的产品。
 
 ## <a name="convert-to-the-moving-average-costing-method"></a>转换到移动平均成本计算方法

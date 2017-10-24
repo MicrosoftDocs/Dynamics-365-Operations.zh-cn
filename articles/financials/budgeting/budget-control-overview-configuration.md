@@ -15,13 +15,13 @@ ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: 77d6d9afeb5669c2ae8460f0503e68a3559514ec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: d8565ec692036d7a9411cb8663d7293d3ab91a44
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -104,7 +104,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的预算控制通过会计
 
 ### <a name="select-main-accounts"></a>选择主科目
 
-如果**主科目**未被选择作为**定义参数**页上的预算控制维度，但特定支出受到管理，则可以在**选择主科目**选项卡上选择这些支出。 如果**主科目**被选择作为预算控制维度，则不需要输入。  
+如果**主科目**未被选择作为**定义参数**页上的预算控制维度，但特定支出受到管理，则可以在**选择主科目**选项卡上选择这些支出。如果**主科目**被选择作为预算控制维度，则不需要输入。  
 
 ### <a name="define-budget-groups"></a>定义预算组
 
@@ -116,7 +116,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的预算控制通过会计
 
 ### <a name="activate-budget-control"></a>启用预算控制
 
-在配置后预算控制后，您可以打开并在**启用预算控制**选项卡上启用它。 草稿版本然后将开始生效。
+在配置后预算控制后，您可以打开并在**启用预算控制**选项卡上启用它。草稿版本然后将开始生效。
 > [!Important]
 > 当启用并激活预算控制且已过帐交易记录后，则预算控制不应在年中关闭。 关闭预算控制后，活动将不会为预算控制目的进行记录，而且不再执行预算检查。 因此，已过帐的单据可能无法正确地反映与预算控制相关的查询和报表中的任何免除金额或余额。 这包括任何下游的预算控制统计或调整单据和日记帐。 
 

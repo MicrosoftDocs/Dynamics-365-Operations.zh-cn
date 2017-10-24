@@ -16,10 +16,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a7edb946dbc19ab6734c4b3dc2aafea3c29c91b1
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4d7f1093edcfff65fd466fa8138b1bb5203648b3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>设置销售税组和物料销售税组

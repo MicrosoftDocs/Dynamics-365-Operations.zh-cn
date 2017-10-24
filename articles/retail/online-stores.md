@@ -18,13 +18,11 @@ ms.search.industry: Retail
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 59b51840c05fe649cf322bfa64737a321728a5aa
-ms.openlocfilehash: 28ab301dc3aede6b23fb5d87fcb179916e0296e4
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 13d7f99766dabf35b80e7100a3017308033e3da6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
