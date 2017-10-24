@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 76af350f37109260a757ccc0b93908637d0579dc
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 7f8fe754a27a825ace862d5eac992c42ef973f10
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -84,11 +84,11 @@ ms.lasthandoff: 06/13/2017
 <td>将物料在同一法人中的仓库之间转移，但跨处于不同地理位置的站点。</td>
 </tr>
 <tr class="even">
-<td>应付帐款的集中的发票处理</td>
+<td>应付账款的集中的发票处理</td>
 <td>您代表您的组织中的其他法人记录发票。</td>
 </tr>
 <tr class="odd">
-<td>应收帐款的集中的付款处理</td>
+<td>应收账款的集中的付款处理</td>
 <td>您代表您的组织中的其他法人支付发票。</td>
 </tr>
 <tr class="even">
@@ -100,7 +100,7 @@ ms.lasthandoff: 06/13/2017
 </ul></td>
 </tr>
 <tr class="odd">
-<td>应收帐款（集中处理）</td>
+<td>应收账款（集中处理）</td>
 <td>接收其他法人的客户发票的现金，并且将支票存入该法人的银行帐户中。</td>
 </tr>
 <tr class="even">

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 9a7d8c4335ab29174fe4e4f3d6c4a771c23c746d
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 512e24b5d0e20f00890e2a9abfe45b660a913913
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a>针对电子申报 (ER) 定义模型映射并选择数据源

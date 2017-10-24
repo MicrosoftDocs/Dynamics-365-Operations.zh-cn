@@ -16,10 +16,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 668fea64810524e8ce0c3833d25656c026f2780a
-ms.openlocfilehash: 7e57b26c17d3bf773a719f9725d5f47dce2af6f7
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a29cae6cdcd03903359a3a468243c6ad03c7adc6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-books"></a>设置帐簿

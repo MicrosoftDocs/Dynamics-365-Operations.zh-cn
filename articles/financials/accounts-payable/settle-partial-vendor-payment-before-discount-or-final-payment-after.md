@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 1a454a487a0879234eee76a39b2f095d1d80ea1e
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3099ed24275267f81f85c4e7d3625cfa6eea0309
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 本文向您介绍执行多个部分付款的情况，部分在现金折扣期间内，其他在现金折扣期间外。
 
-Fabrikam 从供应商 3057 中采购货物。 如果发票在 14 天内支付，则 Fabrikam 将得到 1 的现金折扣。 发票必须在 30 天时支付。 供应商还允许 Fabrikam 在部分付款上采取现金折扣。 结算参数位于**应付帐款参数**页上。
+Fabrikam 从供应商 3057 中采购货物。 如果发票在 14 天内支付，则 Fabrikam 将得到 1 的现金折扣。 发票必须在 30 天时支付。 供应商还允许 Fabrikam 在部分付款上采取现金折扣。 结算参数位于**应付账款参数**页上。
 
 ## <a name="invoice-on-june-25"></a>6 月 25 日的发票
 6 月 25 日，April 为供应商 3057 输入并过帐 1,000.00 的发票。 April 可以在**“供应商交易记录”**页上查看该交易记录。

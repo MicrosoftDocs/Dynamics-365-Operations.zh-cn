@@ -17,12 +17,11 @@ ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: cebd1b6f041e18c2e016142aba7447bf813f570b
-ms.openlocfilehash: fb013d3695870cb3b69ac41ff488f0865a648be4
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/19/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 

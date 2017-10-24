@@ -14,11 +14,11 @@ ms.search.scope:
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: e105c4b171979a03c20718c1fa9d558c921cd704
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 447fd87cb2f71147d7a9f6476f4ed9e12d75640a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 06/20/2017
 
 ### <a name="summary-tiles"></a>汇总磁贴
 
-**汇总**磁贴为您提供流程概览以及帮助您跟踪数据验证流程的指示器。 您可以查看该流程的所有剩余任务、已完成任务、正在进行的任务和尚未开始的任务。 此信息针对包含在所选数据验证项目内的所有公司。
+**汇总**磁贴为您提供流程概览以及帮助您跟踪数据验证流程的指示器。您可以查看该流程的所有剩余任务、已完成任务、正在进行的任务和尚未开始的任务。 此信息针对包含在所选数据验证项目内的所有公司。
 
 ### <a name="tasks-and-status-section"></a>任务和状态部分
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 06/20/2017
 
 ### <a name="task-areas"></a>任务区域
 
-您使用任务区域将数据验证任务分组到您的组织中的逻辑所有权区域。 例如，应付帐款、应收帐款或总帐可以使用为任务区域。
+您使用任务区域将数据验证任务分组到您的组织中的逻辑所有权区域。 例如，应付账款、应收账款或总帐可以使用为任务区域。
 
-**菜单项名称**与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，要为应付帐款运行**应付帐款帐龄**报表的数据验证任务可以链接到**应付帐款帐龄报表**页。
+**菜单项名称**与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，要为应付账款运行**应付账款帐龄**报表的数据验证任务可以链接到**应付账款帐龄报表**页。
 

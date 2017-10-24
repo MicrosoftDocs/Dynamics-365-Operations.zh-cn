@@ -16,10 +16,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 41cf47bb0578d9c854bd0dfc078b5b6fb559abca
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: fc8dc0bc29c6bdb662c46808491abf5395f0be5d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>创建 lean manufacturing 的转包工作单元

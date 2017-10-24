@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 7cdc02d147a0446d7e1f3c9a55304602774820bf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: c0d9636fe8a8d5230859da8fe557fe11a9513ba0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a>针对电子申报 (ER) 创建从外部文件导入数据所需配置
@@ -145,7 +145,7 @@ ms.lasthandoff: 07/27/2017
 27. 关闭该页面。
 28. 关闭该页面。
 29. 关闭该页面。
-30. 转至“应付帐款 > 定期任务 > 1099 税 > 用于 1099 的供应商结算”。
+30. 转至“应付账款 > 定期任务 > 1099 税 > 用于 1099 的供应商结算”。
     * 此窗体显示根据所导入交易创建的 Tax1099Summary 表中的累计交易。  
 31. 在“开始日期”字段中，将日期设置为“2000-01-01”。
 32. 单击“手动 1099 交易记录”。

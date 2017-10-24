@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 44b7c02e7c238dcea83c5900620731a7befbbb42
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 020d147744df24b2065e66e5fc68ed5d5479127b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="vendor-payment-overview"></a>供应商付款概览
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。 该程序适用于 USMF 演示公司。
 
-1. 转至“应付帐款”>“付款”>“付款日记帐”。
+1. 转至“应付账款”>“付款”>“付款日记帐”。
 2. 单击“新建”。
 3. 选择保存供应商付款的付款日记帐。 
 4. 选择日记帐或手动输入日记帐。

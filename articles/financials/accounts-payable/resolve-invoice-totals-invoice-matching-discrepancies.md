@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
-ms.openlocfilehash: 8ccc1af0e1bd7909b7810d359a916849ecc1a709
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 3f7e1261838866688c97529b0edfa1354034247b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 08/09/2017
 
 
 
-发票合计匹配是发票匹配验证的类型之一。 要指定系统应执行发票合计匹配，请在**“应付帐款参数”**页上的**“发票验证”**选项卡上，将**“匹配发票合计”**选项设置为**“是”**。 
+发票合计匹配是发票匹配验证的类型之一。 要指定系统应执行发票合计匹配，请在**“应付账款参数”**页上的**“发票验证”**选项卡上，将**“匹配发票合计”**选项设置为**“是”**。 
 
 您可以使用发票合计匹配来帮助确保发票总金额与预期金额之间的差异不会超出可接受的差异。 在**“发票合计匹配详细信息”**页面上比较六项合计。 如果任一合计偏离预期的相应采购订单合计，则标记匹配差异。 
 

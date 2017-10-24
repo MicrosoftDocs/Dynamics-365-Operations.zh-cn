@@ -16,10 +16,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: cc30912d15549c9519133c6ea12ee4d8edea7214
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: bed51f8749dfa0264ad39f51f9ceb295ac46fe93
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>设置 ISO20022 贷方转帐的付款方式
@@ -34,7 +34,7 @@ ms.lasthandoff: 07/27/2017
 
 这是五个用于演示使用电子申报配置的供应商付款流程的流程中的第三个。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 
-1. 转至“应付帐款”>“付款设置”>“付款方式”。
+1. 转至“应付账款”>“付款设置”>“付款方式”。
 2. 使用“快速筛选器”以查找记录。 例如，含有“SEPA CT”值的“付款方式”字段。
 3. 单击“编辑”。
 4. 在“期间”字段中，选择“全部”。

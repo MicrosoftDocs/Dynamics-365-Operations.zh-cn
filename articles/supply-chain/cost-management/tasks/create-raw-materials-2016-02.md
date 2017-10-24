@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: a20a2c720af7c981cced231c0f863a1bd8283f2c
+ms.sourcegitcommit: 3d77dcc20fe7402af83dd724e7fef848977e5bf8
+ms.openlocfilehash: f6af7b93d8d1d9a6f7474f24177b16e5295e90d6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-raw-materials-february-2016-only"></a>创建原材料（仅 2016 年 2 月）

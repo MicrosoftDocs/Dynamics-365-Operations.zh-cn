@@ -18,12 +18,11 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: e5d079ad711b45060eb4548efdedf2c0efb04d60
-ms.openlocfilehash: 3d678d19fd59b34089996ea54e65a5cd1a1fcca5
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: af31f0c4cb5304a213f883e3d076731f7cee468e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/14/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 

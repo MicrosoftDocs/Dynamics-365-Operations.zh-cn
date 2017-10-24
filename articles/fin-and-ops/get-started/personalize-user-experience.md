@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -63,7 +63,7 @@ Microsoft Dynamics 365 for Finance and Operations 中有许多种个性化设置
 
 如果您只想更改元素的标签、隐藏元素使其不在页面上显示（这不会更改任何数据，只是不会向您展示信息）、将信息包括在快速选项卡摘要部分（如果元素在快速选项卡中）、使用 Tab 键查看时跳过字段或将数据标记为“不编辑”使其无法被更改，那么您将以这种方式个性化页面上的元素。 
 
-如果您要移动或隐藏元素，或进行一些更改，您可以使用“个性化设置”工具栏，通过选择**“个性化设置此窗体”**，可在元素“属性”窗口中找到此工具栏。 在窗体的“操作”窗格上，**“选项”**选项卡的“个性化”组中，也可以找到“个性化设置”工具栏。 选择**“个性化此窗体”**，您将看到“个性化设置”工具栏。 
+如果您要移动或隐藏元素，或进行一些更改，您可以使用“个性化设置”工具栏，通过选择**“个性化设置此窗体”**，可在元素“属性”窗口中找到此工具栏。 个性化工具栏还在**选项**选项卡的个性化组下的窗体的操作窗格中可用。选择**个性化此窗体**，您将看到个性化工具栏。 
 
 [![“个性化设置”工具栏](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
 
@@ -90,7 +90,7 @@ Microsoft Dynamics 365 for Finance and Operations 中有许多种个性化设置
 通过“个性化设置”工具栏保存是隐式的。 您所做的个性化设置将立即生效，无需单击**“保存”**按钮。 在某些情况下，您选择工具时将在元素旁看到一个挂锁图标。 这意味着，为了让页面正常工作，您无法修改与所选工具相关的属性。 当“个性化设置”工具栏打开后，页面将变为非交互式。 您无法输入数据或展开或折叠分区。
 
 ## <a name="explicit-personalization-adding-a-tile-or-list-to-a-workspace"></a>显式个性化：向工作区添加磁贴或列表
-带有列表的某些页面具有额外的个性化功能，可在其位于“选项”选项卡的“个性化”组下的“操作”窗格中找到。 选择**“添加到工作区”**可打开下拉列表，您可以在工作区上以列表或摘要磁贴形式（可用于显示列表中项目的数量）显示当前列表（经过筛选和排序或默认）中的信息。 
+一些具有列表的页面将在“选项”选项卡的“个性化组”下的操作窗格中具有附加的个性化功能可用。选择**添加到工作区**以打开下拉列表，该列表可用于在工作区上作为列表或摘要磁贴（可用于显示列表中的项目的数量）显示当前列表中的信息（筛选并排序或默认）。 
 
 [![添加到工作区](./media/personalization-addtoworkspace.png)](./media/personalization-addtoworkspace.png) 
 

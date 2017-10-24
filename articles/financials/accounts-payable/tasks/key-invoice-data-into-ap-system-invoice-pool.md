@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 08f66db0f62d5d985177b1d4ec0161df0b9961b3
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 96040b1c1ba130f773ba0defbf7bf1dcebedfc13
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="key-invoice-data-into-the-ap-system-using-invoice-pool"></a>使用发票池将发票数据键入 AP 系统
@@ -30,7 +30,7 @@ ms.lasthandoff: 07/27/2017
 
 
 ## <a name="create-a-purchase-order"></a>创建采购订单
-1. 转到“应付帐款”>“采购订单”>“采购订单”。
+1. 转到“应付账款”>“采购订单”>“采购订单”。
 2. 单击“新建”以创建新的采购订单。
 3. 在“供应商帐户”字段中，单击下拉按钮以打开查找。
 4. 从列表中选择供应商。 例如，供应商 1001。
@@ -43,7 +43,7 @@ ms.lasthandoff: 07/27/2017
 10. 单击“确认”。
 
 ## <a name="create-and-post-and-invoice"></a>创建并过帐发票
-1. 转到“应付帐款”>“发票”>“发票登记簿”。
+1. 转到“应付账款”>“发票”>“发票登记簿”。
 2. 单击“新建”。
 3. 打开查找以选择您想使用的发票登记簿的名称。
 4. 选择您想要使用的发票登记簿名称。
@@ -61,7 +61,7 @@ ms.lasthandoff: 07/27/2017
 16. 关闭窗体。
 
 ## <a name="open-an-invoice-from-the-pool-and-match-it-to-a-purchase-order-to-complete-the-invoice-process"></a>从发票池中打开发票并与采购订单进行匹配以此完成发票流程
-1. 转到“应付帐款”>“发票”>“发票池”。
+1. 转到“应付账款”>“发票”>“发票池”。
 2. 单击“采购订单”以从发票池中的发票中创建供应商发票。
 3. 选择您想要查看的发票。
 4. 单击“更新匹配状态”以完成匹配。
@@ -70,7 +70,7 @@ ms.lasthandoff: 07/27/2017
 7. 单击“网格”视图。
 8. 单击“过帐”。
 9. 关闭窗体。
-10. 转到“应付帐款”>“供应商”>“供应商”。
+10. 转到“应付账款”>“供应商”>“供应商”。
 11. 选择采购订单上的供应商。 例如，选择供应商 1001。
 12. 在列表中，单击所选行中的链接。
 13. 在操作窗格上，单击“供应商”。

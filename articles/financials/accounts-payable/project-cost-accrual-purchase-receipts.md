@@ -15,13 +15,13 @@ ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
 ms.search.region: Global
 ms.author: sigitac
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b46929d2991f3ec1b38d54ddc57de632aa9b01b9
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: ba4eedb9895feda6b8c664654f30d0bd0a3a172a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -40,7 +40,7 @@ Contoso Consulting 已启动了一个新的云部署项目。 创建了采购订
 
 需要同时在财务级和项目级为申报目的记录这笔应计成本。 在 Finance and Operations 中，可以为物料和采购类别跟踪产品收据的财务更新。 
 
-对于物料，请在**应付帐款参数**页面中选择**将产品收据过帐到分类帐**选项。
+对于物料，请在**应付账款参数**页面中选择**将产品收据过帐到分类帐**选项。
 [![accruals1](./media/accruals1-1024x409.png)](./media/accruals1.png) 
 
 对于采购类别，请在**目录策略规则**页面中选择**采购**策略，然后为各采购类别选择**接收后的应计采购支出**。

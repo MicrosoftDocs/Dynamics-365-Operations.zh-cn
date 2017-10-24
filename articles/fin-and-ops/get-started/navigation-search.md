@@ -15,13 +15,13 @@ ms.custom: 25991
 ms.assetid: eef0676f-c4b1-490e-a032-e9c8580f3fea
 ms.search.region: Global
 ms.author: aneesa
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 431165d541c9a3b63100a93108ee770df8e88aa8
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 6159f78e57752b9519ccf88677a7fc9010ada35a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -41,11 +41,11 @@ Finance and Operations 提供了面向一系列广泛的行业和类别的功能
 [![搜索框](media/navigation-search.png "搜索框") 
 
 ## <a name="quickly-navigate-to-a-particular-page"></a>快速导航到特定页面
-此导航搜索功能还是帮助您快速导航至某个特定页面的绝佳方式。 例如，如果您是一位经常使用**付款日记帐**页面的应付帐款文员，则可在**搜索**框中输入付款日记帐”。 由于该输入与页面标题完全匹配，因此将在搜索结果的顶部列出该页面，而且您可以快速导航到该页面。 
+此导航搜索功能还是帮助您快速导航至某个特定页面的绝佳方式。 例如，如果您是一位经常使用**付款日记帐**页面的应付账款文员，则可在**搜索**框中输入付款日记帐”。 由于该输入与页面标题完全匹配，因此将在搜索结果的顶部列出该页面，而且您可以快速导航到该页面。 
 
 此搜索结果列表显示页面标题以及导航路径。 这将在应用程序中显示页面的位置。 还帮助您区分结果中的两个或两个以上的相似页面。 
 
-当您搜索页面时，您的输入将针对页面标题及其导航路径进行匹配。 例如，如果您在**搜索**框中输入“应收”，则将在“应收帐款”区域中看到为您提供的页面的结果--即使页面标题不包含“应收”一词。 
+当您搜索页面时，您的输入将针对页面标题及其导航路径进行匹配。 例如，如果您在**搜索**框中输入“应收”，则将在“应收账款”区域中看到为您提供的页面的结果--即使页面标题不包含“应收”一词。 
 
 ## <a name="quickly-navigate-to-a-page-based-on-the-technical-form-name"></a>基于技术窗体名称快速导航到页面
 此导航搜索功能还包含一种面向高级用户的高级请求功能：能够基于技术窗体名称快速导航到页面。 许多用户对此系统非常熟悉，他们了解所使用的确切窗体名称。 如果您是这类用户中的一员，则可以在所查找的窗体的名称的前面输入 **form:**。 例如，如果输入 **form: vendinvoice**，则搜索结果将显示窗体名称以 **vendinvoice** 为开头的所有页面。 

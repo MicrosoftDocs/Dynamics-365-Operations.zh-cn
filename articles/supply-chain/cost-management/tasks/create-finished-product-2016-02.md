@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: a31a18ee075c865d5ad99f7cf4ca2eac7c6281c9
+ms.sourcegitcommit: 5485c949e932572542ba22e052007e9625e20314
+ms.openlocfilehash: a14b56b508e5d46bb2898828bd30fdf6c3c14023
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>创建成品（仅 2016 年 2 月）

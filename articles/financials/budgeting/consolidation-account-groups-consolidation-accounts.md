@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c4f5dae90c5fcaaa52a7087d7c20b2de343b7da0
-ms.openlocfilehash: 3c08e48b22f964c3f643c5ddc4ecd687502d7fda
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: eb69b8def1d0a4fc296ccf44490af6c70591cb7b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 08/01/2017
 -   **合并科目组** – 此字段用于指定要将科目分配给的组。 如果以两种不同方式合并，则必须将同一个科目添加到所有四个合并科目组。
 -   **合并科目** – 输入合并科目的值。 此值可以不是会计科目表中的科目。 它可以是您需要的任何值。
 -   **合并科目名称** – 输入您希望在查询和报表中显示的科目名称。
--   **SAT 级别** – 此字段用于向墨西哥税务部门报告帐户对帐单。 
+-   **SAT 级别** – 此字段用于向墨西哥税务部门报告帐户对账单。 
 
 创建合并科目组和其他合并科目完毕后，可以在“在线合并流程”中选择该组。
 

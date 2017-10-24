@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 108d377995a71400e470158993526a6b447a4066
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5b6f3da6885d5e156ec1fde0609b1b35aa77b6c0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 本文显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。
 
-Fabrikam 向客户 4032 销售货物， 如果发票在 14 天内支付，则 Fabrikam 提供 1% 的现金折扣。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于**应付帐款参数**页上。
+Fabrikam 向客户 4032 销售货物， 如果发票在 14 天内支付，则 Fabrikam 提供 1% 的现金折扣。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于**应付账款参数**页上。
 
 ## <a name="invoices"></a>发票
 客户 4032 具有总计 3,000.00 的三张发票：

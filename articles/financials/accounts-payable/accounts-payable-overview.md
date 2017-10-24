@@ -1,6 +1,6 @@
 ---
-title: "配置应付帐款"
-description: "本文介绍您用于在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。"
+title: "配置应付账款"
+description: "本文介绍您用于在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中设置应付账款的基本和可选功能的页面。 还介绍您在开始设置应付账款前必须完成的设置步骤。"
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/08/2017
@@ -19,43 +19,43 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 45d28110ca93875eb534c69886ac2074ea4fe737
-ms.openlocfilehash: 9b29fec7fadbb1ac699f1144f011df1bfd2f511a
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 49e5c81dda8434a6e02106a8d7ee10233e43d172
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="configure-accounts-payable"></a>配置应付帐款
+# <a name="configure-accounts-payable"></a>配置应付账款
 
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍您用于在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付帐款前必须完成的设置步骤。
+本文介绍您用于在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中设置应付账款的基本和可选功能的页面。 还介绍您在开始设置应付账款前必须完成的设置步骤。
 
-<a name="prerequisites-for-accounts-payable-setup"></a>应付帐款设置的先决条件
+<a name="prerequisites-for-accounts-payable-setup"></a>应付账款设置的先决条件
 ----------------------------------------
 
-在设置应付帐款之前，您必须先完成以下设置：
+在设置应付账款之前，您必须先完成以下设置：
 
 -   在总帐中：
     -   如果您计划使用付款日记帐，则必须设置付款日记帐。
     -   如果您计划运行汇率调整，请在“币种”页上设置币种代码，在“汇率类型”页上设置汇率类型，在“币种汇率”页上设置币种汇率。
 -   在“现金和银行管理”中，设置要与付款方式一同使用的银行帐户。
 
-## <a name="setup-pages-for-accounts-payable"></a>应付帐款的设置页
+## <a name="setup-pages-for-accounts-payable"></a>应付账款的设置页
 
-使用以下页面为每个法人设置应付帐款的基本功能。 这些页面按推荐的设置顺序列出。 若要使设置过程更简单，您可以从创建的第一批记录里创建模板。 在模板中，通常在许多字段中输入值，以反映组织要为特定类型的供应商实现的功能。
+使用以下页面为每个法人设置应付账款的基本功能。 这些页面按推荐的设置顺序列出。 若要使设置过程更简单，您可以从创建的第一批记录里创建模板。 在模板中，通常在许多字段中输入值，以反映组织要为特定类型的供应商实现的功能。
 1.  在“付款期限”页上，定义您指派给销售订单、采购订单、客户和供应商的付款期限，以及确定发票到期日期。 有关详细信息，请参阅[定义供应商付款费用](tasks/define-vendor-payment-fees.md)。
 2.  在“付款方式 - 供应商”页上，创建和维护有关组织如何向其供应商付款的信息。
 3.  在“供应商组”页上，创建和维护共享用于过帐、结算和付款、报告和预测的重要参数的供应商组。
 4.  在“供应商过帐模板”页上，定义供应商交易记录如何过帐到总帐。
-5.  在“应付帐款参数”页上，为应付帐款设置在未指定具体设置时应用的默认设置、不同功能类型的参数以及各种编号规则。
+5.  在“应付账款参数”页上，为应付账款设置在未指定具体设置时应用的默认设置、不同功能类型的参数以及各种编号规则。
 6.  在“窗体设置”页上，定义与供应商相关并用于组织中的不同单据格式，以跟踪来自供应商的收据以及输入向供应商付款的原因。
 7.  在“供应商”页上，创建和维护供应商帐户，以及组织向其申报增值税的税务主管机构。
 
-## <a name="optional-setup-pages-for-accounts-payable"></a>应付帐款的可选设置页
-除了基本功能外，应付帐款还具有可设置的其他功能。
+## <a name="optional-setup-pages-for-accounts-payable"></a>应付账款的可选设置页
+除了基本功能外，应付账款还具有可设置的其他功能。
 
 附加的设置页按功能组织。
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 08/09/2017
 
 **工作流**
 
--   在“应付帐款工作流”页上，设置日记帐审核和采购申请的工作流配置。
+-   在“应付账款工作流”页上，设置日记帐审核和采购申请的工作流配置。
 
 **原因**
 

@@ -15,13 +15,13 @@ ms.custom: 221654
 ms.assetid: adb8146b-eb21-4be2-a338-a5b299fcc9a0
 ms.search.region: Global
 ms.author: saraschi
-ms.search.validFrom: 2016-11-30T00:00:00.000Z
+ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 43413aad9d537e518f7276ccab11ce01d23cf13f
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 18b2b228f287a946eb18536b1ea93b0d6af6900c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 05/25/2017
             -   单击“行”实体上的“**查看映射**”。
             -   验证“银行交易记录”类型是否已从源映射到暂存。
 
-3.  导入新的对帐单。
+3.  导入新的对账单。
 
 
 

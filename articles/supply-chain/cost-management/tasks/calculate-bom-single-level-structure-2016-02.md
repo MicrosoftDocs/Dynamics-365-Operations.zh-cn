@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b947a02be981155053e33a4ef20e19bf2a194a5
-ms.openlocfilehash: 36096c9a0c8dde1028728ec257dfa63e7fb669af
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 0e6829238b244cc01b070fde6acdf37bdaeb9670
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016-only"></a>通过使用单级结构计算 BOM（仅限 2016 年 2 月）

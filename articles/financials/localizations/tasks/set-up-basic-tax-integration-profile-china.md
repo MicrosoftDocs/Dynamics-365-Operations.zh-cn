@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: b77d3ecc87ef7656ec23c9342524fa7818f4bdf8
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 4f447fe067b285782868d08c7db13656e3610512
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="set-up-basic-tax-integration-profile-for-china"></a>设置中国的基本税务集成模板
@@ -50,7 +50,7 @@ ms.lasthandoff: 07/27/2017
 16. 在列表中，标记所选的行。
 17. 在“描述”字段中，键入一个值。
 18. 在“单位”字段中，输入或选择一个值。
-19. 转到“应付帐款”>“客户”>“所有客户”。
+19. 转到“应付账款”>“客户”>“所有客户”。
 20. 选择一个客户。
 21. 单击“登记 ID”。
 22. 单击“添加”。

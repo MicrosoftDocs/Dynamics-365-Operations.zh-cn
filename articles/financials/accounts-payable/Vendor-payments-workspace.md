@@ -16,11 +16,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 3abf4b151b177095b71d44e9a6c9fd8541eaa64e
-ms.openlocfilehash: 4011a2383fe4556b730fa0b6353ba0b9773a4eec
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: b6c1802a5d53299ac6be8c747146698778a9359c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/14/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 06/14/2017
 
 ## <a name="analytics-page"></a>分析页
 
-**分析**页提供重要指标，例如逾期的供应商发票和在将来到期的供应商发票。 此页包含九个报表页。 一页提供概览，另外八页提供关于应付帐款付款指标的详细信息。
+**分析**页提供重要指标，例如逾期的供应商发票和在将来到期的供应商发票。 此页包含九个报表页。 一页提供概览，另外八页提供关于应付账款付款指标的详细信息。
 
 下表显示在每个报表页上可用的可视化项。
 

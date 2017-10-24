@@ -16,10 +16,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: e84432faf32e519059a21d2b56e320a46599c1e8
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: adb759c59d7275e7323dbb760de56acdef2e3cff
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-a-vendor-bank-account"></a>创建供应商银行帐户
@@ -46,7 +46,7 @@ ms.lasthandoff: 07/27/2017
     * 如果已到达生效日期，但尚未超过到期日期，则银行帐户的状态为“有效”。 如果“生效日期”和“到期日期”字段均为空白，则也是处于“有效”状态。 如果“生效日期”和“到期日期”字段中的日期均为未来日期，则不可使用电子付款。 可使用其他付款类型，且银行帐户有效。  
 13. 展开“设置”部分。
 14. 在“文本代码”字段中，键入一个值。
-    * 此字段指定接收方的银行对帐单上显示的代码。  
+    * 此字段指定接收方的银行对账单上显示的代码。  
 15. 在“发送给银行的消息”字段中，键入一个值。
 16. 在“汇率参考”字段中，键入一个值。
     * 这是任何远期汇率或定期汇率的参考编号。  

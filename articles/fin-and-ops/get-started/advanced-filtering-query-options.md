@@ -16,13 +16,13 @@ ms.custom: 3811
 ms.assetid: b4969b30-2fe1-4a3c-bbea-725dc37c8b60
 ms.search.region: Global
 ms.author: jasongre
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 20d28e22e4e89d0d864a0cbeaadeb568e73e223e
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 616366009ce7bf7135704e980becc331617cf5af
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -141,7 +141,7 @@ ms.lasthandoff: 07/27/2017
 <td>匹配由 <strong>SysQueryRangeUtil</strong> 方法的参数指定的值或值范围</td>
 <td>键入具有指定值或值的范围的参数的 <strong>SysQueryRangeUtil</strong> 方法。</td>
 <td><ol>
-<li>单击<strong>应收帐款</strong> &gt; <strong>发票</strong> &gt; <strong>未结客户发票</strong>。</li>
+<li>单击<strong>应收账款</strong> &gt; <strong>发票</strong> &gt; <strong>未结客户发票</strong>。</li>
 <li>按 Ctrl+Shift+F3 打开<strong>查询</strong>页。</li>
 <li>在<strong>范围</strong>选项卡上，单击<strong>添加</strong>。</li>
 <li>在<strong>表</strong>字段中，选择<strong>未结客户交易记录</strong>。</li>

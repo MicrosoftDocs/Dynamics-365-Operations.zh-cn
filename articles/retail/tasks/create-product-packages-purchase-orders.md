@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 55b22d246d6bfa9e8159fb844da95f61fcf07c62
-ms.openlocfilehash: 695460415f81d65ec35eeee60209358b722c9244
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a3be1e7aca7f0382aea55fa8a371c33c8b53df95
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/28/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>创建采购订单的产品包装
@@ -54,7 +54,7 @@ ms.lasthandoff: 07/28/2017
 21. 关闭该页面。
 
 ## <a name="add-package-to-puchase-order"></a>将包装添加到采购订单
-1. 转到“应付帐款”>“采购订单”>“所有采购订单”。
+1. 转到“应付账款”>“采购订单”>“所有采购订单”。
 2. 单击“新建”。
 3. 在“供应商帐户”字段中，单击下拉按钮以打开查找。
 4. 如果已选定一个供应商，则在列表中，选择以前曾为其创建产品包装的同一供应商。

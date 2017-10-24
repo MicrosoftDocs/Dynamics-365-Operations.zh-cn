@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4ae7b1c4992bf0fff67eb336bc31e2aafd2aded0
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 2d83d17cab5f7063b900eb9f270de5a61ce84208
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="user-operation-log-by-china-working-rule"></a>按中国工作规则分类用户操作日志
@@ -48,7 +48,7 @@ ms.lasthandoff: 07/27/2017
 11. 单击“完成”。
 
 ## <a name="create-a-new-bank-account-for-demonstration-purposes"></a>出于演示目的新建银行帐户
-1. 转至“现金和银行管理”>“银行对帐单对帐”>“银行帐户”。
+1. 转至“现金和银行管理”>“银行对账单对帐”>“银行帐户”。
 2. 单击“新建”。
 3. 在“银行帐户”字段中，键入一个值。
 4. 在“银行帐号”字段中，输入一个值。

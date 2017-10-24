@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: cbac3b27c25377abff341c4bf259e553c14a4ae8
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: a00ca73b1bc301960132a86846749d12c39ed3f7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="define-vendor-payment-terms"></a>定义供应商付款期限
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 设置供应商发票的付款条款。 本任务使用 USMF 公司进行演示。
 
-1. 转到“应付帐款”>“支付设置“>“支付条款”。
+1. 转到“应付账款”>“支付设置“>“支付条款”。
 2. 单击“新建”。
     * “支付条款”页用于定义如何计算到期日。 并非用于定义如何计算现金折扣日期。  
 3. 在“付款条款”字段中，键入一个值。
@@ -37,7 +37,7 @@ ms.lasthandoff: 07/27/2017
     * 此处输入的数字将会被添加到截止日期，或添加到“付款方式”所规定的结束日期。 例如，如果您选择“净额”，该数字将添加到截止日期。 如果您选择“本月”，将添加到当前月的最后一天来计算截止日期。  
 6. 单击“保存”。
 7. 关闭该页面。
-8. 转到“应付帐款”>“付款设置”>“现金折扣”。
+8. 转到“应付账款”>“付款设置”>“现金折扣”。
 9. 单击“新建”。
 10. 在“现金折扣”字段中，输入 ID。
 11. 在“描述”字段中，键入一个值。

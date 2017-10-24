@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 8ae07088fec05ad416ce1891dd0d0ecd489364ca
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: bc53df6b994c0d2e490e8823a53478f2ad04e163
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -43,7 +43,7 @@ Fabrikam 按照世界上所有地区的多个法人和员工运行。 当交易�
 在以下角色中此示例帮助人员的发票匹配策略满足这些目标：
 
 -   Ken 为 Fabrikam 企业的审计员。 他可以帮助他的组织的人员确定和更正从供应商中订购、接受和支付物料（货物和服务）的问题。
--   Phyllis 和 April 是 Fabrikam 美国分部应付帐款部门的会计经理。 他们可以执行公司策略，并确保根据需要，仅在其与采购订单和商品和服务收货匹配后支付发票。
+-   Phyllis 和 April 是 Fabrikam 美国分部应付账款部门的会计经理。 他们可以执行公司策略，并确保根据需要，仅在其与采购订单和商品和服务收货匹配后支付发票。
 -   Tony 为 Fabrikam 美国分部的生产经理。 他和其他生产人员可以确保将物料作为从供应商订购的进行收货和核算，以便人员具有它们必须具有以便执行其作业的能力。
 
 ### <a name="prerequisites"></a>先决条件
@@ -58,12 +58,12 @@ Fabrikam 按照世界上所有地区的多个法人和员工运行。 当交易�
     |-----------------------------|----------|------------|------------|---------------------|---------------|
     | 1500 – CNC Milicron 设备 | 5        | 8,000.00   | 40,000.00  | 装运和处理 | 3,000.00      |
 
--   Arnie是 Contoso 的应收帐款职员，查看针对周的装运。 Arnie 为 CNC Milicron 设备装运选择 Fabrikam 开发票的装运交易记录。 Arnie 包括装运和处理的费用。 Fabrikam 将费用视为资产成本的一部分。
+-   Arnie是 Contoso 的应收账款职员，查看针对周的装运。 Arnie 为 CNC Milicron 设备装运选择 Fabrikam 开发票的装运交易记录。 Arnie 包括装运和处理的费用。 Fabrikam 将费用视为资产成本的一部分。
 
 ### <a name="scenario"></a>情况
 
 1.  Sammy 是 Fabrikam 接收部门的工作人员，接受从 Contoso 装运的设备总数。 他在产品收据中输入 5 的数量。 由于采购订单已完全收到，则该采购订单的状态将更改为“已接收”。
-2.  April 是 Fabrikam 的应付帐款协调员，输入和验证 Contoso 提交的发票。 她验证了以下信息：
+2.  April 是 Fabrikam 的应付账款协调员，输入和验证 Contoso 提交的发票。 她验证了以下信息：
     -   针对要求三向匹配的物料，发票行上的数量与接收的数量匹配。 产品收据上指示的接受的数量与发票上的数量匹配。
     -   对于要求双向或三向匹配的物料，发票行上的价格在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中定义的容差内。这包括以下价格匹配类型：
         -   净单位价格匹配 – 发票行的净单位价格与采购订单行的净单位价格匹配，都在容差百分比内。 在此示例中，净单位价格容差是 +8%。
@@ -112,7 +112,7 @@ Contoso 中的纸质发票包含以下信息。
 ### <a name="scenario"></a>方案
 
 1.  物料到达。 Sammy 是 Fabrikam 马来西亚分部接收部门的工作人员，立即中断和未过帐产品收据。
-2.  April 是 Fabrikam 的应付帐款协调员，输入和验证 Contoso 提交的发票。 她验证了以下信息：
+2.  April 是 Fabrikam 的应付账款协调员，输入和验证 Contoso 提交的发票。 她验证了以下信息：
     -   针对要求三向匹配的物料，发票行上的数量与接收的数量匹配。 产品收据上指示的接受的数量与发票上的数量匹配。
     -   对于要求双向或三个向匹配的物料，发票行上的价格在 Finance and Operations 中定义的容差范围内。 这包括价格匹配的以下类型：
         -   净单位价格匹配 – 发票行的净单位价格与采购订单行的净单位价格匹配，都在容差百分比内。 在此示例中，净单位价格容差是 +2%。
@@ -143,7 +143,7 @@ Contoso 中的纸质发票包含以下信息。
 如需审核通过发票匹配差异过帐的发票，在使用价格匹配错误和数量匹配错误过帐发票前必须选择“发票匹配详细信息”页中的“通过匹配差异审核过帐”开关。 如果不需要进行审核，且如果没有其他过帐错误，则发票处理可以继续。
 
 
-有关详细信息，请参阅[应付帐款发票匹配](accounts-payable-invoice-matching.md)。
+有关详细信息，请参阅[应付账款发票匹配](accounts-payable-invoice-matching.md)。
 
 
 

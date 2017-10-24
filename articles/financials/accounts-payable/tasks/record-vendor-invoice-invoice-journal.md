@@ -16,10 +16,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 127875443da1d43783440083b11afd423f2a12fe
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 42f93e6d8fcf62babc3e3244bc1fe76d1efd9d13
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a>在发票日记帐中记录供应商发票
@@ -28,7 +28,7 @@ ms.lasthandoff: 07/27/2017
 
 此任务指南将显示如何记录与采购订单无关的供应商发票。 此类型发票的示例包括货物供应或服务的费用。  此记录使用 USMF 公司演示。
 
-1. 转到“应付帐款”>“工作区”>“供应商发票条目”。
+1. 转到“应付账款”>“工作区”>“供应商发票条目”。
 2. 单击“新发票日记帐”。
 3. 单击“新建”。
 4. 在“名称”字段中，输入日记帐名称或单击下拉按钮以打开查找。

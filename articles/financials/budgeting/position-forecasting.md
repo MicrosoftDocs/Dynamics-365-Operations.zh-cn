@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 2dffb2634701210852b4b146a762434cf6df07e3
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 9c0ae4ed27578301573bead17ff2175bb9042036
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -131,7 +130,7 @@ Jodi 不希望经理更改福利金额。 因此，她在**预测职位覆盖**�
 
 ### <a name="modifying-forecast-positions"></a>修改预测职位
 
-对预测职位的更改限制为这些预测职位。 更改不影响人力资源中的职位记录。 大多数更改还限制为正在进行编辑的预测职位。 换言之，更改特定于分配的预算计划流程和预算计划方案。 异常是对跨流程和方案的职位共同使用的字段的更改。 这些字段包括**常规**选项卡和**财务维度**选项卡上的字段。 在更改这些字段时，新值应用于所有预算计划方案中的职位。 因此，这些字段可快速更新所有版本。
+对预测职位的更改限制为这些预测职位。 更改不影响人力资源中的职位记录。 大多数更改还限制为正在进行编辑的预测职位。 换言之，更改特定于分配的预算计划流程和预算计划方案。 异常是对跨流程和方案的职位共同使用的字段的更改。 这些字段包括**常规**选项卡和**财务维度**选项卡上的字段。在更改这些字段时，新值应用于所有预算计划方案中的职位。 因此，这些字段可快速更新所有版本。
 
 #### <a name="budget-cost-elements"></a>预算成本元素
 

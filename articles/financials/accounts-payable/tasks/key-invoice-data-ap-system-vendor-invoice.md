@@ -1,5 +1,5 @@
 --- 
-title: "使用供应商发票将发票数据键入应付帐款"
+title: "使用供应商发票将发票数据键入应付账款"
 description: "本任务指南将帮助您根据采购订单创建供应商发票，并查看采购订单、收据和发票的匹配结果（三向匹配）。"
 author: abruer
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: a365c52af49a66d6af5bb38f0053bd9c0fd34301
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 48535a283cbdfdc7343a20105b139c527cac85f4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="key-invoice-data-into-accounts-payable-using-a-vendor-invoice"></a>使用供应商发票将发票数据键入应付帐款
+# <a name="key-invoice-data-into-accounts-payable-using-a-vendor-invoice"></a>使用供应商发票将发票数据键入应付账款
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 07/27/2017
 
 
 ## <a name="create-a-purchase-order"></a>创建采购订单
-1. 转到“应付帐款”>“采购订单”>“所有采购订单”。
+1. 转到“应付账款”>“采购订单”>“所有采购订单”。
 2. 单击“新建”。
 3. 在“供应商帐户”字段中，单击下拉按钮以打开查找。
 4. 查找并选择一个供应商。 例如，滚动到 US-104。
@@ -53,7 +53,7 @@ ms.lasthandoff: 07/27/2017
 5. 关闭该页面。
 
 ## <a name="create-a-vendor-invoice"></a>创建供应商发票
-1. 转到“应付帐款”>“采购订单”>“已接收但未开票采购订单”。
+1. 转到“应付账款”>“采购订单”>“已接收但未开票采购订单”。
 2. 选择您创建的采购订单。
 3. 在“操作窗格”中，单击“发票”。
 4. 单击“发票”。

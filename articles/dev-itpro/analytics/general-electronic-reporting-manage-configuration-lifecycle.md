@@ -16,13 +16,13 @@ ms.custom: 58801
 ms.assetid: 35ad19ea-185d-4fce-b9cb-f94584b14f75
 ms.search.region: Global
 ms.author: nselin
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: b1f5da07ffff5e34d8c73012a1e3c85fe1546fda
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 35288f5c2edfa8a340f963a5c7216041765a58b4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 06/13/2017
     -   从 LCS 将模板作为 ER 配置导入到当前的 Finance and Operations 实例。
     -   设计自定义版本的 ER 配置，并保留对其基础版本的引用。
 -   将模板与特定业务流程集成，以使它在 Finance and Operations 中可用：
-    -   通过在流程相关参数中引用该配置来配置设置以便 Finance and Operations 开始使用 ER 配置。 例如，引用特定应付帐款付款方式中的 ER 配置以生成用于处理发票的电子付款消息。
+    -   通过在流程相关参数中引用该配置来配置设置以便 Finance and Operations 开始使用 ER 配置。 例如，引用特定应付账款付款方式中的 ER 配置以生成用于处理发票的电子付款消息。
 -   使用特定的业务流程中的模板：
     -   在特定的业务流程中运行 ER 配置。 例如，要在选择了引用 ER 配置的付款方式时生成用于处理发票的电子付款消息。
 
@@ -64,8 +64,8 @@ ms.lasthandoff: 06/13/2017
 |--------------------------------------------|-----------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 电子申报功能顾问 | 创建和管理 ER 组件（模型和格式）。           | 设计 ER 域特定数据模型、设计电子文档的所需模板并将它们进行相应绑定的业务人员。                                                                           |
 | 电子申报开发人员             | 创建和管理数据模型映射。                          | 选择所需的 Finance and Operations 数据源并将它们绑定到 ER 域特定数据模型的 Finance and Operations 专业人员。                                                                 |
-| 会计主管                      | 配置引用 ER 项目的流程相关设置。 | 例如，允许 ER 配置设置用于特定应付帐款付款方式来生成用于处理发票的电子付款消息的**会计主管**角色。 |
-| 应付帐款付款员            | 使用特定业务流程中的 ER 项目。                | 例如，允许基于为特定付款方式配置的 ER 格式为处理发票生成电子付款消息的**应付帐款付款员**。           |
+| 会计主管                      | 配置引用 ER 项目的流程相关设置。 | 例如，允许 ER 配置设置用于特定应付账款付款方式来生成用于处理发票的电子付款消息的**会计主管**角色。 |
+| 应付账款付款员            | 使用特定业务流程中的 ER 项目。                | 例如，允许基于为特定付款方式配置的 ER 格式为处理发票生成电子付款消息的**应付账款付款员**。           |
 
 ## <a name="er-configuration-development-lifecycle"></a>ER 配置开发生命周期
 出于以下与 ER 相关的原因，我们建议您在开发环境中将 ER 配置设计为单独的 Finance and Operations 实例：

@@ -16,10 +16,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 839f803690bef657078483a073ef363beefa6ee3
-ms.openlocfilehash: 59688ad50addaf4e5a6d76ef78990b303ff114fe
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 5dfe5c25b299284267bed91d58e0acefb7250570
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/01/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>通过招聘雇用现有员工

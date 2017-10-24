@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: 08b5fc87fdee476cd978bcc242cea324ac4bcee2
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 1d48a10f413ce4e2830bfba062615980a6de70a4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/25/2017
 
 本文提供显示如何记录客户的部分付款以及在现金折扣期间内执行现金折扣的情况。
 
-Fabrikam 向客户 4028 销售货物， 如果发票在 14 天内支付，则 Fabrikam 提供 1% 的现金折扣。 发票必须在 30 天时支付。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于**应付帐款参数**页上。
+Fabrikam 向客户 4028 销售货物， 如果发票在 14 天内支付，则 Fabrikam 提供 1% 的现金折扣。 发票必须在 30 天时支付。 Fabrikam 还为部分付款提供现金折扣。 结算参数位于**应付账款参数**页上。
 
 ## <a name="customer-invoice"></a>客户发票
 6 月 25 日，Arnie 为客户 4028 输入并过帐 1,000.00 的发票。 Arnie 可以在**“客户交易记录”**页上查看该交易记录。

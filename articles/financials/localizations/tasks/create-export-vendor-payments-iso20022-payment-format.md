@@ -16,10 +16,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 16c2af862a73047a2e6ebdc056275392fa8a0d93
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 7cc90bc86cd489b124a806c480632dd53ba47f3f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-and-export-vendor-payments-using-iso20022-payment-format"></a>使用 ISO20022 付款格式创建和导出供应商付款
@@ -34,7 +34,7 @@ ms.lasthandoff: 07/27/2017
 
 
 ## <a name="create-payment-lines"></a>创建付款行
-1. 转至“应付帐款”>“付款”>“付款日记帐”。
+1. 转至“应付账款”>“付款”>“付款日记帐”。
 2. 单击“新建”。
 3. 在列表中，标记所选的行。
 4. 在“名称”字段中，输入或选择一个值。

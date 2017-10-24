@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: addd8c6956a19828687fbda606a0531c0c5decec
-ms.openlocfilehash: 6d47aa7df47f498fa751428fe659f0500dd00fc5
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 24a7a5654b20acadb3f7522bc33a8179f599f9f8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 

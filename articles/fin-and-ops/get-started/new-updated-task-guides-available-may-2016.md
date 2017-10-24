@@ -15,13 +15,13 @@ ms.custom: 104233
 ms.assetid: 2a2ffa1e-5a15-4e2a-b18c-c4d890d38a50
 ms.search.region: global
 ms.author: josaw
-ms.search.validFrom: 2016-05-31T00:00:00.000Z
+ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: Human Translation
-ms.sourcegitcommit: d421b161216d700f7819f1da8c0ca8ad089b5670
-ms.openlocfilehash: a613f5a84a7c72da3cc76eac147d4754f6259e4c
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 8b5437e5652ca5111ded89cb3417db46ab4b45af
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 05/25/2017
 | FR-00003 NAF 代码和 Siret 编号                                     | 法国                            |
 | FR-00004 审核和过帐签发汇票                          | 法国                            |
 | 配置累计折旧参数和过帐模板       | 日本                             |
-| 配置合并的发票参数和应付帐款的设置 | 日本                             |
+| 配置合并的发票参数和应付账款的设置 | 日本                             |
 | 创建一个加速折旧文档并输入使用数据         | 日本                             |
 | 创建 CGU 组和现金产出单元                               | 日本                             |
 | 处理具有缩减条目的固定资产                            | 日本                             |
