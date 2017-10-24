@@ -19,31 +19,31 @@ ms.search.industry: Manufacturing
 ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 6dd2aa1ebc713287120106a9d1ec7dc15c24def9
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: b4d61c869577a3e18d1ac951f32dae286937a51c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="reuse-product-configurations"></a><span data-ttu-id="03abb-105">重复使用产品配置</span><span class="sxs-lookup"><span data-stu-id="03abb-105">Reuse product configurations</span></span>
+# <a name="reuse-product-configurations"></a><span data-ttu-id="2d87d-105">重复使用产品配置</span><span class="sxs-lookup"><span data-stu-id="2d87d-105">Reuse product configurations</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="03abb-106">可以指定要自动重用产品的现有配置。</span><span class="sxs-lookup"><span data-stu-id="03abb-106">You can specify that you want to automatically reuse an existing configuration for a product.</span></span> <span data-ttu-id="03abb-107">然后，当用户完成配置会话后，系统会验证匹配用户选择的配置是否存在。</span><span class="sxs-lookup"><span data-stu-id="03abb-107">Then, when a user has completed a configuration session, the system verifies whether a configuration that matches the user’s selections already exists.</span></span> <span data-ttu-id="03abb-108">如果找到匹配配置，则再用配置 ID、相应的物料清单 (BOM) 以及路径。</span><span class="sxs-lookup"><span data-stu-id="03abb-108">If a matching configuration is found, the configuration ID, corresponding bill of materials (BOM), and route are reused.</span></span>
+<span data-ttu-id="2d87d-106">可以指定要自动重用产品的现有配置。</span><span class="sxs-lookup"><span data-stu-id="2d87d-106">You can specify that you want to automatically reuse an existing configuration for a product.</span></span> <span data-ttu-id="2d87d-107">然后，当用户完成配置会话后，系统会验证匹配用户选择的配置是否存在。</span><span class="sxs-lookup"><span data-stu-id="2d87d-107">Then, when a user has completed a configuration session, the system verifies whether a configuration that matches the user’s selections already exists.</span></span> <span data-ttu-id="2d87d-108">如果找到匹配配置，则再用配置 ID、相应的物料清单 (BOM) 以及路径。</span><span class="sxs-lookup"><span data-stu-id="2d87d-108">If a matching configuration is found, the configuration ID, corresponding bill of materials (BOM), and route are reused.</span></span>
 
-<a name="requirements-for-reusing-configurations"></a><span data-ttu-id="03abb-109">要再用配置的要求</span><span class="sxs-lookup"><span data-stu-id="03abb-109">Requirements for reusing configurations</span></span>
+<a name="requirements-for-reusing-configurations"></a><span data-ttu-id="2d87d-109">要再用配置的要求</span><span class="sxs-lookup"><span data-stu-id="2d87d-109">Requirements for reusing configurations</span></span>
 ---------------------------------------
 
-<span data-ttu-id="03abb-110">若要启用将重复使用的配置，必须在“**产品配置模型详细信息**”页上指定组件和属性的以下信息：</span><span class="sxs-lookup"><span data-stu-id="03abb-110">To enable configurations to be reused, you must specify the following information for the components and attributes on the **Product configuration model details** page:</span></span>
+<span data-ttu-id="2d87d-110">若要启用将重复使用的配置，必须在“**产品配置模型详细信息**”页上指定组件和属性的以下信息：</span><span class="sxs-lookup"><span data-stu-id="2d87d-110">To enable configurations to be reused, you must specify the following information for the components and attributes on the **Product configuration model details** page:</span></span>
 
--   <span data-ttu-id="03abb-111">**组件和子组件** - 在“**常规**”快速选项卡上，在“**重复使用配置**”字段中，选择“**是**”。</span><span class="sxs-lookup"><span data-stu-id="03abb-111">**Components and subcomponents** – On the **General** FastTab, in the **Reuse configurations** field, select **Yes**.</span></span>
--   <span data-ttu-id="03abb-112">**属性** – 在“**属性**”快速选项卡上，选择“**包括在重复使用中**”选项。</span><span class="sxs-lookup"><span data-stu-id="03abb-112">**Attributes** – On the **Attributes** FastTab, select the **Include in reuse** option.</span></span> <span data-ttu-id="03abb-113">仅在相关组件启用重复使用时才显示此选项。</span><span class="sxs-lookup"><span data-stu-id="03abb-113">This option appears only when the related component is enabled for reuse.</span></span> <span data-ttu-id="03abb-114">如果未选择要重复使用的任何属性，则始终重复使用该配置，这与配置会话期间的用户选择无关。</span><span class="sxs-lookup"><span data-stu-id="03abb-114">If you don't select any attributes for reuse, the configuration is always reused, regardless of the user’s selections during a configuration session.</span></span> <span data-ttu-id="03abb-115">现有配置中的属性值必须匹配用户的选择。</span><span class="sxs-lookup"><span data-stu-id="03abb-115">The attribute values in the existing configuration must match the user’s selections.</span></span> <span data-ttu-id="03abb-116">例如，如果在配置会话期间，用户选择颜色为“**蓝色**”，则系统将验证组件的现有配置是否具有蓝色。</span><span class="sxs-lookup"><span data-stu-id="03abb-116">For example, if the user selects **Blue** as the color during a configuration session, the system verifies whether an existing configuration of the component has the color blue.</span></span>
+-   <span data-ttu-id="2d87d-111">**组件和子组件** - 在“**常规**”快速选项卡上，在“**重复使用配置**”字段中，选择“**是**”。</span><span class="sxs-lookup"><span data-stu-id="2d87d-111">**Components and subcomponents** – On the **General** FastTab, in the **Reuse configurations** field, select **Yes**.</span></span>
+-   <span data-ttu-id="2d87d-112">**属性** – 在“**属性**”快速选项卡上，选择“**包括在重复使用中**”选项。</span><span class="sxs-lookup"><span data-stu-id="2d87d-112">**Attributes** – On the **Attributes** FastTab, select the **Include in reuse** option.</span></span> <span data-ttu-id="2d87d-113">仅在相关组件启用重复使用时才显示此选项。</span><span class="sxs-lookup"><span data-stu-id="2d87d-113">This option appears only when the related component is enabled for reuse.</span></span> <span data-ttu-id="2d87d-114">如果未选择要重复使用的任何属性，则始终重复使用该配置，这与配置会话期间的用户选择无关。</span><span class="sxs-lookup"><span data-stu-id="2d87d-114">If you don't select any attributes for reuse, the configuration is always reused, regardless of the user’s selections during a configuration session.</span></span> <span data-ttu-id="2d87d-115">现有配置中的属性值必须匹配用户的选择。</span><span class="sxs-lookup"><span data-stu-id="2d87d-115">The attribute values in the existing configuration must match the user’s selections.</span></span> <span data-ttu-id="2d87d-116">例如，如果在配置会话期间，用户选择颜色为“**蓝色**”，则系统将验证组件的现有配置是否具有蓝色。</span><span class="sxs-lookup"><span data-stu-id="2d87d-116">For example, if the user selects **Blue** as the color during a configuration session, the system verifies whether an existing configuration of the component has the color blue.</span></span>
 
-## <a name="resetting-configuration-reuse"></a><span data-ttu-id="03abb-117">重置配置重复使用</span><span class="sxs-lookup"><span data-stu-id="03abb-117">Resetting configuration reuse</span></span>
-<span data-ttu-id="03abb-118">在您重置配置重复使用后，不再考虑以前创建的配置。</span><span class="sxs-lookup"><span data-stu-id="03abb-118">When you reset configuration reuse, previously created configurations are no longer considered.</span></span> <span data-ttu-id="03abb-119">更改物料清单或工艺路线，但不更改相关属性时，您可能要重置配置重复使用。</span><span class="sxs-lookup"><span data-stu-id="03abb-119">You might want to reset configuration reuse if the BOM or route was changed, but no related attributes were changed.</span></span> <span data-ttu-id="03abb-120">在该组件的“**常规**”快速选项卡上重置配置重复使用。</span><span class="sxs-lookup"><span data-stu-id="03abb-120">You reset configuration reuse on the **General** FastTab for the component.</span></span>
+## <a name="resetting-configuration-reuse"></a><span data-ttu-id="2d87d-117">重置配置重复使用</span><span class="sxs-lookup"><span data-stu-id="2d87d-117">Resetting configuration reuse</span></span>
+<span data-ttu-id="2d87d-118">在您重置配置重复使用后，不再考虑以前创建的配置。</span><span class="sxs-lookup"><span data-stu-id="2d87d-118">When you reset configuration reuse, previously created configurations are no longer considered.</span></span> <span data-ttu-id="2d87d-119">更改物料清单或工艺路线，但不更改相关属性时，您可能要重置配置重复使用。</span><span class="sxs-lookup"><span data-stu-id="2d87d-119">You might want to reset configuration reuse if the BOM or route was changed, but no related attributes were changed.</span></span> <span data-ttu-id="2d87d-120">在该组件的“**常规**”快速选项卡上重置配置重复使用。</span><span class="sxs-lookup"><span data-stu-id="2d87d-120">You reset configuration reuse on the **General** FastTab for the component.</span></span>
 
 
 

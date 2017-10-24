@@ -18,35 +18,35 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
+ms.translationtype: HT
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 5afdabf93128bc52cb223d0c35c6bcdae5f5ca2a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/18/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
-# <a name="derived-books"></a><span data-ttu-id="71cfb-103">派生帐簿</span><span class="sxs-lookup"><span data-stu-id="71cfb-103">Derived books</span></span>
+# <a name="derived-books"></a><span data-ttu-id="2a7bb-103">派生帐簿</span><span class="sxs-lookup"><span data-stu-id="2a7bb-103">Derived books</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="71cfb-104">本文提供衍生帐簿功能的概览。</span><span class="sxs-lookup"><span data-stu-id="71cfb-104">This article provides an overview of derived book functionality.</span></span>
+<span data-ttu-id="2a7bb-104">本文提供衍生帐簿功能的概览。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-104">This article provides an overview of derived book functionality.</span></span>
 
-<span data-ttu-id="71cfb-105">衍生帐簿用于简化定期计划的固定资产帐簿交易记录的过帐。</span><span class="sxs-lookup"><span data-stu-id="71cfb-105">The purpose of derived books is to simplify the posting of fixed asset book transactions that are planned for regular intervals.</span></span>  <span data-ttu-id="71cfb-106">选择一个帐簿作为主帐簿。</span><span class="sxs-lookup"><span data-stu-id="71cfb-106">You choose one book as the primary book.</span></span> <span data-ttu-id="71cfb-107">这通常是用于核算折旧的帐簿。</span><span class="sxs-lookup"><span data-stu-id="71cfb-107">This usually is the book that is used for accounting depreciation.</span></span> <span data-ttu-id="71cfb-108">您随后附加到作为主要帐簿以相同的间隔设置来过帐交易记录的其他帐簿。</span><span class="sxs-lookup"><span data-stu-id="71cfb-108">You then attach to it other books that are set up to post transactions in the same intervals as the primary book.</span></span> <span data-ttu-id="71cfb-109">纳税折旧帐簿通常设置为衍生帐簿。</span><span class="sxs-lookup"><span data-stu-id="71cfb-109">Tax depreciation books are often set up as derived books.</span></span> 
+<span data-ttu-id="2a7bb-105">衍生帐簿用于简化定期计划的固定资产帐簿交易记录的过帐。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-105">The purpose of derived books is to simplify the posting of fixed asset book transactions that are planned for regular intervals.</span></span>  <span data-ttu-id="2a7bb-106">选择一个帐簿作为主帐簿。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-106">You choose one book as the primary book.</span></span> <span data-ttu-id="2a7bb-107">这通常是用于核算折旧的帐簿。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-107">This usually is the book that is used for accounting depreciation.</span></span> <span data-ttu-id="2a7bb-108">您随后附加到作为主要帐簿以相同的间隔设置来过帐交易记录的其他帐簿。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-108">You then attach to it other books that are set up to post transactions in the same intervals as the primary book.</span></span> <span data-ttu-id="2a7bb-109">纳税折旧帐簿通常设置为衍生帐簿。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-109">Tax depreciation books are often set up as derived books.</span></span> 
 
-<span data-ttu-id="71cfb-110">设置为过帐到衍生帐簿的最常见交易记录是购置、购置价格调整和处置。</span><span class="sxs-lookup"><span data-stu-id="71cfb-110">The most common transactions to set up to post to derived books are acquisitions, acquisition adjustments, and disposals.</span></span> 
+<span data-ttu-id="2a7bb-110">设置为过帐到衍生帐簿的最常见交易记录是购置、购置价格调整和处置。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-110">The most common transactions to set up to post to derived books are acquisitions, acquisition adjustments, and disposals.</span></span> 
 
-## <a name="example"></a><span data-ttu-id="71cfb-111">示例</span><span class="sxs-lookup"><span data-stu-id="71cfb-111">Example</span></span>
+## <a name="example"></a><span data-ttu-id="2a7bb-111">示例</span><span class="sxs-lookup"><span data-stu-id="2a7bb-111">Example</span></span>
 
-<span data-ttu-id="71cfb-112">帐簿 B 和帐簿 C 设置为针对购置交易记录类型的帐簿 A 的衍生帐簿。</span><span class="sxs-lookup"><span data-stu-id="71cfb-112">Book B and book C are set up as derived books for book A for the Acquisition transaction type.</span></span> <span data-ttu-id="71cfb-113">在帐簿 A 中，为资产 123 的购置交易记录输入 1,500.00。</span><span class="sxs-lookup"><span data-stu-id="71cfb-113">In book A, you enter an acquisition transaction for asset 123 for 1,500.00.</span></span> 
+<span data-ttu-id="2a7bb-112">帐簿 B 和帐簿 C 设置为针对购置交易记录类型的帐簿 A 的衍生帐簿。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-112">Book B and book C are set up as derived books for book A for the Acquisition transaction type.</span></span> <span data-ttu-id="2a7bb-113">在帐簿 A 中，为资产 123 的购置交易记录输入 1,500.00。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-113">In book A, you enter an acquisition transaction for asset 123 for 1,500.00.</span></span> 
 
-<span data-ttu-id="71cfb-114">在过帐交易记录时，在资产 123 中为帐簿 B 生成并过帐购置交易记录，并且在资产 123 中为 1,500.00 的帐簿 C 生成并过帐购置交易记录。</span><span class="sxs-lookup"><span data-stu-id="71cfb-114">When the transaction is posted, an acquisition transaction is generated and posted in asset 123 for book B and in asset 123 for book C for 1,500.00.</span></span> <span data-ttu-id="71cfb-115">在您准备该主要帐簿的交易记录以用于在固定资产日志中过帐时，还可以查看和修改衍生帐簿的交易记录。</span><span class="sxs-lookup"><span data-stu-id="71cfb-115">When you prepare the transactions of the primary book for posting in the fixed asset journal, you can also view and modify the transactions of the derived books.</span></span> <span data-ttu-id="71cfb-116">如果您在其他日志中准备主要帐簿交易记录，则衍生价值的交易记录不显示。</span><span class="sxs-lookup"><span data-stu-id="71cfb-116">If you prepare the primary book transactions in another journal, the transactions of the derived value are not displayed.</span></span> <span data-ttu-id="71cfb-117">然而，在您过帐主要帐簿交易记录时，它们过帐到相应的帐户和过帐层。</span><span class="sxs-lookup"><span data-stu-id="71cfb-117">However, they are posted to the appropriate accounts and posting layers when you post the primary book transactions.</span></span>
+<span data-ttu-id="2a7bb-114">在过帐交易记录时，在资产 123 中为帐簿 B 生成并过帐购置交易记录，并且在资产 123 中为 1,500.00 的帐簿 C 生成并过帐购置交易记录。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-114">When the transaction is posted, an acquisition transaction is generated and posted in asset 123 for book B and in asset 123 for book C for 1,500.00.</span></span> <span data-ttu-id="2a7bb-115">在您准备该主要帐簿的交易记录以用于在固定资产日志中过帐时，还可以查看和修改衍生帐簿的交易记录。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-115">When you prepare the transactions of the primary book for posting in the fixed asset journal, you can also view and modify the transactions of the derived books.</span></span> <span data-ttu-id="2a7bb-116">如果您在其他日志中准备主要帐簿交易记录，则衍生价值的交易记录不显示。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-116">If you prepare the primary book transactions in another journal, the transactions of the derived value are not displayed.</span></span> <span data-ttu-id="2a7bb-117">然而，在您过帐主要帐簿交易记录时，它们过帐到相应的帐户和过帐层。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-117">However, they are posted to the appropriate accounts and posting layers when you post the primary book transactions.</span></span>
 
 > [!NOTE]                                                                                                                               
-> <span data-ttu-id="71cfb-118">对于设置为按并非主要帐簿间隔的其他间隔过帐交易记录的帐簿，必须将它们作为单独的帐簿附加到固定资产，而不作为衍生帐簿附加。</span><span class="sxs-lookup"><span data-stu-id="71cfb-118">Books that are set up to post transactions at intervals other than the primary book intervals must be attached to the fixed asset as separate books and not as derived books.</span></span>  
+> <span data-ttu-id="2a7bb-118">对于设置为按并非主要帐簿间隔的其他间隔过帐交易记录的帐簿，必须将它们作为单独的帐簿附加到固定资产，而不作为衍生帐簿附加。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-118">Books that are set up to post transactions at intervals other than the primary book intervals must be attached to the fixed asset as separate books and not as derived books.</span></span>  
 
-<span data-ttu-id="71cfb-119">有关详细信息，请参阅[使用衍生帐簿过帐](post-derived-value-models.md)。</span><span class="sxs-lookup"><span data-stu-id="71cfb-119">For more information, see [Posting with derived books](post-derived-value-models.md).</span></span>
+<span data-ttu-id="2a7bb-119">有关详细信息，请参阅[使用衍生帐簿过帐](post-derived-value-models.md)。</span><span class="sxs-lookup"><span data-stu-id="2a7bb-119">For more information, see [Posting with derived books](post-derived-value-models.md).</span></span>
 
 
 

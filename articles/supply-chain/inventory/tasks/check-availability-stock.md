@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0e7f66cccd76e5326fce75d1a13aff294c16fb9b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 62338fe11c30781f264e626fad835a2ba9dca837
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/12/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # 检查库存可用性
