@@ -17,11 +17,11 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1d19276331a4278f44ad14292ed434c49b74d727
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: f596f84463f46fc37b14b77bd335b9ed8a62eea9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 06/13/2017
 
 成本会计员可通过**成本核算分析**内容分析成本在整个组织的成本对象中的流向。 
 
-若要了解有关成本核算的详细信息，请参阅[成本核算主页](/dynamics365/unified-operations/financials/cost-accounting/cost-accounting-home-page)。 
+若要了解有关成本核算的详细信息，请参阅[成本核算主页](../../financials/cost-accounting/cost-accounting-home-page.md)。 
 
 通过在成本核算中定义访问级安全并将其与 Power BI 中的行级安全结合，可以授予所有成本对象所有者**成本核算分析** Power BI 内容的访问权限。 然后将根据成本核算中控制的访问级别筛选可视化中的所有数据。 若要了解有关访问级安全和行级安全的详细信息，请参阅[设置成本核算 Power BI 内容的安全](setup-security-cost-accounting-content-pack.md)。
 

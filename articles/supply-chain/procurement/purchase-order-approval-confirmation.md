@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0ec91bcf0ab334585eefae2fe54750c45419682e
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 325807509601d02bad079e5ac60576e1f708e5cd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 06/13/2017
 -   创建日记帐存储系统中确认内容的准确副本。 有时，订单需要进行更改，在更新的订单确认后，会创建其他日记帐。 这些日记帐让您可以查看已确认订单的各种版本的历史记录。
 -   创建会计分配，如果已启用此功能，会进行订单检查和预算检查。 如果任一检查失败，您会收到一条错误消息，指出必须对采购订单进行更改才能够再次确认订单。
 
-供应商可能会请求付款将为购买提供的某种类型的保证。 在应付帐款流程中存在各种提供此保证的方法。 例如，**预付款**操作为采购订单保留资金，并在采购订单上记录此预付款。
+供应商可能会请求付款将为购买提供的某种类型的保证。 在应付账款流程中存在各种提供此保证的方法。 例如，**预付款**操作为采购订单保留资金，并在采购订单上记录此预付款。
 
 ## <a name="changing-purchase-orders"></a>更改采购订单
 在某些情况下，可能必须在采购订单到达**已审批**或**已确认**状态后更改采购订单。  
@@ -84,7 +84,7 @@ ms.lasthandoff: 06/13/2017
 
 [采购订单的产品收据](product-receipt-against-purchase-orders.md)
 
-[供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

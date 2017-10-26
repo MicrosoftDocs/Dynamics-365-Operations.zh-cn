@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 1fed8d162a37736883365fa765a059e5beff06be
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: a4f9e2c5203881f3faeebe4d33e72c7b3bcaa591
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 06/13/2017
 
 发布行时，将验证行，以便确保其符合财务日记帐中设置的规则。 发布行之后，用户可从 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 编辑或过帐凭证。 
 
-若要向模板添加财务维度，需要执行更多更改。 有关详细信息，请参阅[向 Microsoft Excel 模板添加维度](/dynamics365/unified-operations/dev-itpro/financial/add-dimensions-excel-templates)。 维度添加到实体之后，将在 Excel 设计器中可用，并可添加到模板。
+若要向模板添加财务维度，需要执行更多更改。 有关详细信息，请参阅[向 Microsoft Excel 模板添加维度](../../dev-itpro/financial/add-dimensions-excel-templates.md)。 维度添加到实体之后，将在 Excel 设计器中可用，并可添加到模板。
 
 
 

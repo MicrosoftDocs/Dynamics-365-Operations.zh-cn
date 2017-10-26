@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: ebcae0e323203a98a9b8ed1113db945fceaaa4af
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: e1c29f597b190bd36b6fc64b16913ecdd02daf75
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -68,7 +68,7 @@ ms.lasthandoff: 07/27/2017
 一个生产订单可以有多道工序，并且可以将每道工序分配给不同供应商。 因此，端到端生产订单可能触发多个采购订单。
 
 ## <a name="subcontracting-of-production-flow-activities"></a>生产流活动的转包
-[lean manufacturing](lean-manufacturing-overview.md) 解决方案将转包工作建模为与[生产流](/dynamics365/unified-operations/supply-chain/production-control/tasks/create-production-flow-version)活动有关的服务（任务指南主题）。 因此，这种类型的转包也称为[基于活动的转包](activity-based-subcontracting.md)。 已引入了名称为**直接外包**的一种特殊成本组类型，并且转包服务不属于成品的物料清单 (BOM)。 使用 lean manufacturing 时，所有活动都由可与一个或多个生产流活动关联的看板定义。 因此，该说明听起来就像生产订单的说明。 但是，虽然生产订单始终必须以产品结束，您可以创建看板来提供半成品。 无需引入新产品和物料清单级别。  
+[lean manufacturing](lean-manufacturing-overview.md) 解决方案将转包工作建模为与[生产流](tasks/create-production-flow-version.md)活动有关的服务（任务指南主题）。 因此，这种类型的转包也称为[基于活动的转包](activity-based-subcontracting.md)。 已引入了名称为**直接外包**的一种特殊成本组类型，并且转包服务不属于成品的物料清单 (BOM)。 使用 lean manufacturing 时，所有活动都由可与一个或多个生产流活动关联的看板定义。 因此，该说明听起来就像生产订单的说明。 但是，虽然生产订单始终必须以产品结束，您可以创建看板来提供半成品。 无需引入新产品和物料清单级别。  
 
 由于看板规则可能变化很大，您可以为生产流中的相同产品的不同供应变型建模。 使用 lean subcontracting 时，将把物料流和财务流严格分开。 所有物料流均由看板活动表示。 可以根据生产流中的看板作业状态，自动执行服务产品的采购订单和这些服务的收据过帐。 即使在创建采购订单之前，也可以启动和完成看板作业。 可通过期间和服务聚合转包票据（服务的采购订单和采购收据）。 因此，可以将采购票据和行的数量保持为较少，甚至在重复性极高且供应商通过一个流提供已转包服务的工序中也不例外。
 

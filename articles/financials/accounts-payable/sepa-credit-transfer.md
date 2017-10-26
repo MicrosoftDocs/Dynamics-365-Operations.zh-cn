@@ -16,13 +16,13 @@ ms.custom: 11124
 ms.assetid: 36b0f870-16d4-4bbb-8da5-e747e69b970d
 ms.search.region: Global
 ms.author: mrolecki
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: bc14ab554a298d09bb852e96503b4cd3f4b36d3c
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 49dfae79fe3914bcac9447d4fe3959128ff434ec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 06/13/2017
 
 ## <a name="what-is-a-credit-transfer-message"></a>贷方转帐消息是什么？
 贷方转帐消息是发起方（您公司）为了将资金从自己的帐户转移到贷方而发出的请求。 贷方转帐消息有大量国家/地区特定和银行特定的实施。 其中一些在一个国家/地区内使用，一些则成为了标准。 一个享有盛誉的全球标准为 ISO 20022 及其初始消息，如“贷方转帐”。 下图显示选定贷方转帐消息的关系和范围。 
-![贷方转帐](./media/credit-transfer.jpg) 贷方转帐消息\[/caption\] 
+![贷方转帐](./media/credit-transfer.jpg)贷方转帐消息 
 
 ## <a name="what-are-iso-20022-and-sepa-payments"></a>ISO 20022 和 SEPA 付款是什么？
 单一欧元支付区 (SEPA) 由欧盟执委会设置，并指示所有电子付款均被视为国内行为，不论个人、企业或者组织和银行所在的国家/地区。 国内付款和跨境付款之间不存在差异。 SEPA 包含 28 个欧盟 (EU) 成员国，以及爱尔兰、列支敦斯登、挪威、瑞士、摩纳哥和圣马力诺。 SEPA 帮助在欧洲经济区域 (EEA) 中形成付款交易记录的单一市场。 最终，SEPA 会减少银行、企业和个人必须使用的支付形式数量。 欧盟执委会通过付款服务规定 (PSD) 建立 SEPA 付款的法律基础。 欧元支付委员会 (EPC) 通过以下活动支持 SEPA:
@@ -59,12 +59,12 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 应始终转至 Microsoft Dynamics Lifecycle services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置**的可用文件的最新列表。 下一部分“必须执行哪些设置？”提供一个主题的链接，该主题说明如何创建 LCS 存储库以检查可用配置和导入所选配置。
 
 ## <a name="what-do-i-have-to-set-up"></a>我必须设置什么？
--   在您可以创建贷方转帐文件前，必须导入至少一个有效的贷方转帐配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](/dynamics365/unified-operations/dev-itpro/analytics/download-electronic-reporting-configuration-lcs)。
--   在配置应付帐款付款方式时，请选中**一般电子申报**复选框，并选择相应的贷方转帐格式（如 **ISO 20022 贷方转帐 (AT)**）作为导出格式配置。
+-   在您可以创建贷方转帐文件前，必须导入至少一个有效的贷方转帐配置到您的 ER 配置。 有关说明，请参阅[从 Lifecycle Services 下载电子申报配置](../../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md)。
+-   在配置应付账款付款方式时，请选中**一般电子申报**复选框，并选择相应的贷方转帐格式（如 **ISO 20022 贷方转帐 (AT)**）作为导出格式配置。
 -   还必须在 Finance and Operations 中设置法人和银行帐户信息。
 -   需要银行帐号、IBAN，有时还需要 SWIFT 代码 (BIC) 或其他 ID，才能创建有效的贷方转帐付款。 必须为供应商银行帐户和请求转帐的银行帐户设置这些信息。
 -   可能需要更多信息，如贷方转帐消息中涉及的各方的增值税 (VAT) 号。 如果请求此信息，则必须为供应商和法人设置。
--   某些应付帐款付款方式（大多数为基于 ISO 20022 的付款方式）可能需要为**付款格式代码集**执行更多设置，如**服务类型** = **SLEV**。 这些代码在处理付款期间用作付款交易记录额外的标记。 可在两处设置付款代码的默认值（如**类别目的**、**费用责任人**、**本地仪器**和**服务等级**）。 第一处为**应付帐款付款日记帐抬头**，第二处为**应付帐款付款方式**。 创建付款日记帐行之后，将把在付款日记帐抬头中设置的付款代码值转移到日记帐行，如果未设置该值，则使用付款方式中的值。
+-   某些应付账款付款方式（大多数为基于 ISO 20022 的付款方式）可能需要为**付款格式代码集**执行更多设置，如**服务类型** = **SLEV**。 这些代码在处理付款期间用作付款交易记录额外的标记。 可在两处设置付款代码的默认值（如**类别目的**、**费用责任人**、**本地仪器**和**服务等级**）。 第一处为**应付账款付款日记帐抬头**，第二处为**应付账款付款方式**。 创建付款日记帐行之后，将把在付款日记帐抬头中设置的付款代码值转移到日记帐行，如果未设置该值，则使用付款方式中的值。
 
 ## <a name="what-parameters-are-available-for-generating-credit-transfer-payments"></a>哪些参数可用于生成贷方转帐付款？
 具体参数列表取决于贷方转帐格式。 下表显示了在供应商付款日记帐中为德国生成 ISO 20022 贷方转帐付款文件时可以使用的参数。 通过使用**在后台运行**选项卡上的选项，您可以在批处理模式下运行付款生成。

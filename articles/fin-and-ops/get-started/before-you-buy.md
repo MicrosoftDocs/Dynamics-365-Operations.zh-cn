@@ -14,13 +14,13 @@ ms.search.scope: AX 7.0.0, Operations, Core
 ms.custom: 21761
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2017-06-30T00:00:00.000Z
+ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: fc446f381850f4f42b6dbc886646d3d32f2d5dd7
-ms.openlocfilehash: 831550256176df6fa8542b9985eba1b9b1282fcb
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 75e2a31f1c0e82c6f0dcf92309d7673243e1bdc9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -35,7 +35,7 @@ Dynamics 365 for Finance and Operations Enterprise 版本的新用户？ 无论�
 
 ## <a name="step-two-choose-a-deployment-option"></a>步骤二：选择部署选项
 你现在可以在云或本地部署 Microsoft Dynamics 365 for Finance and Operations Enterprise版本。 云部署提供完全由 Microsoft 托管的一项 ERP 服务，而本地部署在客户的数据中心内本地部署。
-有关详细信息，请参阅：[部署选项](/dynamics365/unified-operations/dev-itpro/deployment/choose-deployment-type) 
+有关详细信息，请参阅：[部署选项](../../dev-itpro/deployment/choose-deployment-type.md) 
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>步骤三：购买和管理订阅
 若要探索订阅选项，请转到 [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing) 定价页。 此页包括若干不同的计划以满足你的组织的需要。
@@ -60,7 +60,7 @@ Dynamics 365 for Finance and Operations Enterprise 版本的新用户？ 无论�
 Microsoft 云解决方案提供商可以与你密切合作以了解你的公司或组织的需要。 [使用 Microsoft 合作伙伴中心门户查找满足自身需要的合作伙伴](https://partnercenter.microsoft.com/en-us/partner/home)。 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>通过 Dynamics 合作伙伴购买（本地）
-你必须与合作伙伴合作以购买本地 Finance and Operations。 有关详细信息，请参阅[购买 Dynamics 365 for Finance and Operations Enterprise 版本（本地）](/dynamics365/unified-operations/dev-itpro/get-started/purchase-on-premises)
+你必须与合作伙伴合作以购买本地 Finance and Operations。 有关详细信息，请参阅[购买 Dynamics 365 for Finance and Operations Enterprise 版本（本地）](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>选择你的支持选项
 Microsoft 提供灵活的、业内领先的支持、服务和资源，使用户可以迅速解决技术问题和最大化 Dynamics 365 投资回报。 选择最能满足你的业务要求的计划。 

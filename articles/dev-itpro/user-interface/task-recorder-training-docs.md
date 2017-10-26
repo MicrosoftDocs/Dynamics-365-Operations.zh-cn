@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 529751c09b8f99f986cad23a633bea661929d558
-ms.openlocfilehash: d5e4857081134808b194d3248dd8739f83b57d6e
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -116,14 +116,14 @@ ms.lasthandoff: 08/09/2017
 11. 选择您希望用来保存任务录制的方式。
 
 ## <a name="include-your-task-recordings-in-the-help-pane"></a>将您的任务录制包含在“帮助”窗格中
-要在“帮助”窗格中显示您自己的自定义任务录制以便它们可作为任务指南播放或作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅[连接帮助系统](../get-started/help-connect.md)。
+要在“帮助”窗格中显示您自己的自定义任务录制以便它们可作为任务指南播放或作为文本查看，您必须将任务录制保存到自己的 BPM 库，然后更新帮助系统参数以指向您的 BPM 库。 有关更多信息，请参阅[连接帮助系统](../../fin-and-ops/get-started/help-connect.md)。
 
 <a name="see-also"></a>请参阅
 --------
 
-[帮助概览](..\get-started\help-overview.md)
+[帮助概览](../../fin-and-ops/get-started/help-overview.md)
 
-[连接帮助](..\get-started\help-connect.md)
+[连接帮助](../../fin-and-ops/get-started/help-connect.md)
 
 [任务录制器](task-recorder.md)
 

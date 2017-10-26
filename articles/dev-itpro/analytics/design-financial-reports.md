@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 0dc453ab56a2d381afa6e22d847f0b1eb7a16e7e
+ms.translationtype: HT
+ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
+ms.openlocfilehash: d1fbcefd80f1c48fafbbcb6315406856eaae68a0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -50,7 +49,7 @@ ms.lasthandoff: 06/13/2017
 4.  转到“总帐”中**查询和报表**下的**财务报表**。
 5.  为名为 **GL 详细信息 – 默认**的报表选择行。
 6.  选择**编辑**。 注意：系统将提示您下载单击报表设计器并登录。 使用您的凭据登录。
-7.  更改基准年到 2012 年然后选择**生成**。 在从报表设计器生成报表时，它将在新的浏览器选项卡中打开。 您可以在新的浏览器选项卡上探索报表，或转到您的原始浏览器选项卡，通过从**财务报表**选择它来打开该报表。
+7.  更改基准年到 2012 年然后选择**生成**。 在从报表设计器生成报表时，它将在新的浏览器选项卡中打开。您可以在新的浏览器选项卡上探索报表，或转到您的原始浏览器选项卡，通过从**财务报表**选择它来打开该报表。
 8.  在打开的报表中，请选一个金额，深入分析报表的科目明细。
 9.  在科目详细信息中，请选择包含数据的科目并**深化到报表交易记录级别**。 在报表交易记录级别，您可以查看包括在此报表设计中的属性。 根据交易记录和科目，某些或所有属性会将显示。
 10. 关闭报表交易记录级别。
@@ -183,8 +182,8 @@ ms.lasthandoff: 06/13/2017
 18. **保存**所做更改并**生成**。 在报表完成生成并打开后，可以探索报表。
 
 ## <a name="additional-resources"></a>其他资源
-[财务报表](/dynamics365/unified-operations/financials/general-ledger/financial-reporting-getting-started) 
-[查看财务报表](/dynamics365/unified-operations/financials/general-ledger/view-financial-reports) 
+[财务报表](../../financials/general-ledger/financial-reporting-getting-started.md) 
+[查看财务报表](../../financials/general-ledger/view-financial-reports.md) 
 [Dynamics 财务报表博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 

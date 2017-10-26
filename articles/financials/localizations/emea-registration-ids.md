@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 63160b9473c7f45b0eb0ca7139f9ed47c8e1446f
-ms.openlocfilehash: 55c25b005e9dc73713f3d4a30eab5148b17c2fec
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c2c625e9c4f0df762abd6120201a2623ac756bf9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -61,7 +60,7 @@ ms.lasthandoff: 06/20/2017
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>输入全球通讯簿记录的登录 ID
 
-Microsoft Finance and Operations 中的全球通讯簿 (GAB) 包含客户、供应商、联系人、业务关系和法人的统一地址格式。 有关详细信息，请参阅[全球通讯簿概览](/dynamics365/unified-operations/fin-and-ops/organization-administration/overview-global-address-book)。 存储在全球通讯簿中的当事方记录可能包含一个或多个地址记录。 这些地址用于多种目的，例如记帐或交运。 可以为客户、供应商、工作人员和法人的地址信息设置登记 ID。 找到要为其输入登记 ID 的当事方（法人、供应商、客户、工作人员）记录，然后在与当事方、法人、供应商、客户、工作人员有关的窗体上单击**登记 ID** 打开**管理地址**页面。 在**税务登记**选项卡上，单击**添加**，然后输入有关登记 ID 的以下信息。
+Microsoft Finance and Operations 中的全球通讯簿 (GAB) 包含客户、供应商、联系人、业务关系和法人的统一地址格式。 有关详细信息，请参阅[全球通讯簿概览](../../fin-and-ops/organization-administration/overview-global-address-book.md)。 存储在全球通讯簿中的当事方记录可能包含一个或多个地址记录。 这些地址用于多种目的，例如记帐或交运。 可以为客户、供应商、工作人员和法人的地址信息设置登记 ID。 找到要为其输入登记 ID 的当事方（法人、供应商、客户、工作人员）记录，然后在与当事方、法人、供应商、客户、工作人员有关的窗体上单击**登记 ID** 打开**管理地址**页面。 在**税务登记**选项卡上，单击**添加**，然后输入有关登记 ID 的以下信息。
 
 
 |字段                |说明                                                |

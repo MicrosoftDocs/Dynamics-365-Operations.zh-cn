@@ -15,18 +15,18 @@ ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
 ms.author: chwolf
-ms.search.validFrom: 2016-08-30T00:00:00.000Z
+ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 08c38aada355583c5a6872f75b57db95d9b81786
-ms.openlocfilehash: 4a1cab8c126ad063a52827421d2ea1104d0c7287
+ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
+ms.openlocfilehash: 5be9b195754d6c8315342c83451128092f64a241
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>针对本地环境的硬件规模调整
-在你开始对本地环境执行硬件和基础结构规模调整流程前，请熟悉[系统要求](../get-started/system-requirements.md) 和[设置和部署说明](../deployment/setup-deploy-on-premises-environments.md) 以充分了解基础结构。 
+在你开始对本地环境执行硬件和基础结构规模调整流程前，请熟悉[系统要求](system-requirements.md) 和[设置和部署说明](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) 以充分了解基础结构。 
 
   **注意：**密切关注可实现最优性能的系统设置最佳实践。 
 
@@ -89,7 +89,7 @@ ms.lasthandoff: 07/27/2017
 我们建议始终在群集或镜像设置中使用 SQL Server。 第二个 SQL 节点应与主节点具有相同数量的核心。 
 
 ### <a name="active-directory-federation-services-ad-fs"></a>Active Directory 联合身份验证服务 (AD FS)
-有关 AD FS 规模调整，请参阅 [AD FS 服务器产能文档](https://docs.microsoft.com/en-us/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity)。
+有关 AD FS 规模调整，请参阅 [AD FS 服务器产能文档](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity)。
 
 [规模调整电子表格](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) 可用于规划你的部署中的实例数量。
 

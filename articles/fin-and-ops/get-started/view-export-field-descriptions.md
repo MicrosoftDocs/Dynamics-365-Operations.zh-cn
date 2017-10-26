@@ -16,13 +16,13 @@ ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
 ms.author: yuyus
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 869151f2486b7a481e4694cfb6992d0ee2cfc008
-ms.openlocfilehash: 7898ff427ede4447a5798d4989ffd3088a776d9c
+ms.translationtype: HT
+ms.sourcegitcommit: 908f854e5ca50f4298110c08c87fefd9427b5cc9
+ms.openlocfilehash: 841c18630a59c3f5a7b51cd005962fa8a7f7163f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/13/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ Microsoft Dynamics 365 for Finance and Operations 具有某些较为复杂的字
 
 并非所有页都有字段描述。 我们只为较为复杂的字段提供描述，不为用法明显的字段提供。 因此，某些页没有任何字段描述，某些页有一些描述，而一些较复杂的页面（如很多参数页）有很多描述。 
 
-如果您有权访问 Finance and Operations 开发环境，则可添加新字段描述并自定义现有描述。 例如，您可以添加特定于公司的信息到字段描述。 有关详细信息，请参阅[自定义字段帮助](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)。
+如果您有权访问 Finance and Operations 开发环境，则可添加新字段描述并自定义现有描述。 例如，您可以添加特定于公司的信息到字段描述。 有关详细信息，请参阅[自定义字段帮助](../../dev-itpro/user-interface/customize-field-help.md)。
 
 ## <a name="see-field-descriptions-in-the-user-interface"></a>参阅用户界面的字段描述
 您可以通过将鼠标悬停到字段上查看字段描述。 如果没有提供描述，当您将鼠标悬停在字段上时将看到字段名。 （注意：在版本 Dynamics AX 7.0（2016 年 2 月）中，仅可在**字段描述**页上查看字段描述。）下面的插图显示将鼠标悬停在**盘点期间锁定物料**字段上时将显示的字段描述。 
@@ -101,7 +101,7 @@ Microsoft Dynamics 365 for Finance and Operations 具有某些较为复杂的字
 <a name="see-also"></a>请参阅
 --------
 
-[自定义字段帮助](/dynamics365/unified-operations/dev-itpro/user-interface/customize-field-help)
+[自定义字段帮助](../../dev-itpro/user-interface/customize-field-help.md)
 
 
 

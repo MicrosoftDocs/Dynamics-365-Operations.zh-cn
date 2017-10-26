@@ -17,10 +17,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04f8cb1a6375be9371bca2af7e4044392ce7322b
-ms.openlocfilehash: 49f7a8f69729002812e78de757ae889266327ff4
+ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
+ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/02/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -47,38 +47,38 @@ ms.lasthandoff: 08/02/2017
 
 当您使用“人力资源”时，您将决定如何使用部门、工作和职位等元素构建您的组织的结构。 这些元素是您将在“人力资源”中配置的基本元素的一部分。 各个员工都将被分配到与工作关联的职位。
 
--   [使用部门、工作和职位组织您的劳动力](/dynamics365/unified-operations/talent/departments-jobs-positions)
--   [设置特定于公司的 HR 参数](/dynamics365/unified-operations/talent/set-up-company-specific-hr-parameters)
--   [跨法人设置 HR 参数](/dynamics365/unified-operations/talent/set-up-hr-parameters-across-legal-entities) 
+-   [使用部门、工作和职位组织您的劳动力](../../talent/departments-jobs-positions.md)
+-   [设置特定于公司的 HR 参数](../../talent/set-up-company-specific-hr-parameters.md)
+-   [跨法人设置 HR 参数](../../talent/set-up-hr-parameters-across-legal-entities.md) 
 
 ## <a name="recruit-hire-and-motivate-employees"></a>招聘、雇用和激励员工
 
 招聘项目可管理空缺职位广告中使用的内容，并可帮助您管理对空缺职位的申请。 您可以使用它们来跟踪对特定招聘项目的空缺职位的回应或跟踪特定的申请人，以及更新空缺职位的状态。 您还可以雇用一个申请人或管理便于雇用多个工作人员的“大批雇用项目”（例如，为满足季节性的业务需求）。
 
--   [管理招聘流程](/dynamics365/unified-operations/talent/manage-recruiting-process)
--   [大批雇用项目](/dynamics365/unified-operations/talent/mass-hire-projects) 
+-   [管理招聘流程](manage-recruiting-process.md)
+-   [大批雇用项目](mass-hire-projects.md) 
 
 雇用员工后，您可以制定计划来有效公平地管理薪酬以及管理您的组织借给员工的物品（如计算机或手机）。 您可以创建固定和可变的薪酬计划，并定义应用薪酬计划以满足该计划的条件的规则。
 
--   [薪酬计划](/dynamics365/unified-operations/talent/compensation-plans)
--   [创建固定薪酬计划](/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
--   [创建可变薪酬计划](/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+-   [薪酬计划](../../talent/compensation-plans.md)
+-   [创建固定薪酬计划](../../talent/create-fixed-compensation-plans.md)
+-   [创建可变薪酬计划](../../talent/create-variable-compensation-plans.md)
 
 ## <a name="develop-and-train-employees"></a>培养和培训员工
 
 为了帮助您的员工在满足关键需求的同时实现其职业目标，您可以设置目标、创建绩效评审和跟踪反馈。为了帮助您的员工培养所需的技能，您还可以在为课程指定教师之前安排教师、课程类型、课程、课程说明、议程、跟踪和授课，或为员工注册参加某项课程。 教师必须已经以工作人员、申请人或联系人身份存在。
 
--   [绩效管理](/dynamics365/unified-operations/talent/performance-management-overview)
--   [使劳动力技能符合业务需求](/dynamics365/unified-operations/talent/skills)
--   [通过课程管理培训](/dynamics365/unified-operations/talent/courses)
+-   [绩效管理](../../talent/performance-management-overview.md)
+-   [使劳动力技能符合业务需求](../../talent/skills.md)
+-   [通过课程管理培训](../../talent/courses.md)
 
 ## <a name="create-and-maintain-benefits"></a>创建和维护福利
 
 除了向员工发放工资、薪水和奖金，您还可以制定福利项目，如医疗保险和退休计划。 您还可以管理福利，如借用计划，通过此计划，您的公司向员工出借物品（如计算机或手机）。
 
--   [管理福利计划](/dynamics365/unified-operations/talent/manage-benefit-program)
--   [福利资格策略](/dynamics365/unified-operations/talent/benefit-eligibility-policies)
--   [管理借给工作人员的物品](/dynamics365/unified-operations/talent/loan-items)
+-   [管理福利计划](../../talent/manage-benefit-program.md)
+-   [福利资格策略](../../talent/benefit-eligibility-policies.md)
+-   [管理借给工作人员的物品](../../talent/loan-items.md)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>维护工作场所的安全和合规
 
@@ -92,10 +92,10 @@ Microsoft Dynamics AX 可帮助您维护符合适用法律的安全工作环境�
 
 您可以设计和管理调查表以收集用于各种目的的信息。 调查表功能可让您设计和创建调查表。 调查表准备就绪后，您可将其广泛分发或分发给一组特定的回应者来完成调查。 回应者提供他们的答案后，您可以查看并分析结果。
 
--   [调查表](/dynamics365/unified-operations/talent/questionnaires)
--   [设计调查表](/dynamics365/unified-operations/talent/design-questionnaires)
--   [分配和完成调查表](/dynamics365/unified-operations/talent/distribute-questionnaires)
--   [查看和评估调查表的结果](/dynamics365/unified-operations/talent/evaluate-questionnaire-results)
+-   [调查表](../../talent/questionnaires.md)
+-   [设计调查表](../../talent/design-questionnaires.md)
+-   [分配和完成调查表](../../talent/distribute-questionnaires.md)
+-   [查看和评估调查表的结果](../../talent/evaluate-questionnaire-results.md)
 
 
 
