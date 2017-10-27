@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: b94ecf3e173a2a7ce649170b6eff1e16f2626074
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 6aa1a57e82f2403508815cd7d445c379e4532595
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 07/27/2017
 <a name="see-also"></a>请参阅
 --------
 
-[设置一个采购类别层次结构（任务指南）](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-procurement-category-hierarchy)
+[设置一个采购类别层次结构（任务指南）](tasks/set-up-procurement-category-hierarchy.md)
 
 
 

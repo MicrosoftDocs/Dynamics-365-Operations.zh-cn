@@ -18,11 +18,11 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: f76e431320414b508728cbe9fe20456f107cbe40
-ms.openlocfilehash: a5dd28e79cbd66e79311c0549c63ea844394ab14
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: c36795a071cc72721558bfa8984ecf1f47501c91
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/09/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 06/09/2017
 
 **采购订单**页包含可用订单的概览，让您可以修改这些订单。 打开采购订单时，您可以选择**标题**视图，其中包含只能为每个采购订单指定一次的信息，如供应商详细信息。 或者，您可以选择**行**视图，您可以在其中修改订单行。 通常情况下，您将在修改采购订单时在这两个视图之间切换。 费用不直接在**采购订单**页列出，但可通过订单头和行的菜单访问。  
 
-有许多报告可从中查看有关采购订单、产品收据和供应商发票的信息。 这些报告可以在**采购**和**应付帐款**模块中找到。  
+有许多报告可从中查看有关采购订单、产品收据和供应商发票的信息。 这些报告可以在**采购**和**应付账款**模块中找到。  
 
 **采购订单准备**和**采购订单收据和跟进**工作区使您可以在他们已进入的各种状态下查看采购订单列表。 它们还提供了必须采取的操作的摘要。 **采购订单准备**工作区的重点是采购订单的创建和审核，通过审核处理订单，以及与供应商确认。 **采购订单收据和跟进**工作区的重点是根据采购订单处理货物收据或服务。 它包括可以了解已过期收据的列表，或将很快到期、应由供应商交货的收据列表。 这些工作区不用于执行仓库中完成的相关的接收活动。 这些活动通过在**库存管理**和**仓库管理**模块中使用页面来执行。 处理供应商发票应通过使用**供应商发票条目**工作区执行，付款应通过使用**供应商付款**工作区执行。  
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 06/09/2017
 -   [采购订单创建](purchase-order-creation.md)
 -   [采购订单审核和确认](purchase-order-approval-confirmation.md)
 -   [采购订单的产品收据](product-receipt-against-purchase-orders.md)
--   [供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+-   [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 ## <a name="types-of-purchase-orders"></a>采购订单的类型
 采购订单有三种类型： 创建采购订单时，必须指定仓库类型。 您可以在**采购参数**页为新订单设置默认订单类型。
@@ -92,7 +92,7 @@ ms.lasthandoff: 06/09/2017
 
 [采购订单的产品收据](product-receipt-against-purchase-orders.md)
 
-[供应商发票的概览](/dynamics365/unified-operations/financials/accounts-payable/vendor-invoices-overview)
+[供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 
 
 

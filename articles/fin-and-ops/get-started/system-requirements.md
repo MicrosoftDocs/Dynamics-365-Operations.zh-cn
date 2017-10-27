@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 5230911e1febc66b294f1331846373a472789adf
-ms.openlocfilehash: 46eacb2a01c3bfcc7144c7d8c39ee0189fd72e16
+ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
+ms.openlocfilehash: 7fe11966b27eb0793a47835e05e465d809bf3407
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/04/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -42,7 +42,7 @@ Web 应用程序可在指定操作系统上运行的以下任一 Web 浏览器�
 要查看每个 Web 浏览器的最新版本，请转至软件制造商的网站。 
 
 > [!NOTE]
-> -   必须安装预发布 Chrome 扩展以允许任务录制器捕获屏幕截图并包括在生成的 Microsoft Word 文档中。 <!---For instructions about how to install the extension, see [Screenshot Extension setup](/dynamics365/unified-operations/dev-itpro/user-interface/task-recorder).-->
+> -   必须安装预发布 Chrome 扩展以允许任务录制器捕获屏幕截图并包括在生成的 Microsoft Word 文档中。 <!---For instructions about how to install the extension, see [Screenshot Extension setup](../../dev-itpro/user-interface/task-recorder).-->
 > -   Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
 > -   适用于财务申报的报表设计器作为 ClickOnce 应用程序启动。 它需要 64 位兼容操作系统。 如果使用的是 Chrome，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式使用 Chrome，请确保也为匿名模式启用 ClickOnce 扩展。
 > -   若要预览 PDF 文件，我们建议您使用 Windows 10 上的 Microsoft Edge（最新公开提供的版本）或 Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）等浏览器。
@@ -70,7 +70,7 @@ Finance and Operations 需要 Microsoft .NET Framework 版本 4.6.2 以满足所
 ## <a name="supported-microsoft-office-applications"></a>支持的 Microsoft Office 应用程序
 以下 Microsoft Office 应用程序在 Finance and Operations 的云和本地部署中受支持：
 
--   若要运行 Microsoft Excel 和 Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的详细信息，请参阅 [Office 集成疑难解答](/dynamics365/unified-operations/dev-itpro/office-integration/office-integration-troubleshooting)。
+-   若要运行 Microsoft Excel 和 Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的详细信息，请参阅 [Office 集成疑难解答](../../dev-itpro/office-integration/office-integration-troubleshooting.md)。
 -   若要查看“导出到 Excel”或“导出到 Word”功能生成的文档，必须安装 Microsoft Office 2007 或更高版本。
 
 ## <a name="retail-modern-pos-requirements"></a>Retail Modern POS 要求
@@ -153,10 +153,10 @@ Finance and Operations 需要 Microsoft .NET Framework 版本 4.6.2 以满足所
 -   至少 10 GB 的可用空间（渠道数据库肯需要大量空间。）
 
 ## <a name="requirements-for-development-on-local-vms"></a>本地虚拟机上的部署要求
-有关本地虚拟机 (VM) 上的部署要求的信息，请参阅[本地运行虚拟机](../dev-tools/access-instances.md)。
+有关本地虚拟机 (VM) 上的部署要求的信息，请参阅[本地运行虚拟机](../../dev-itpro/dev-tools/access-instances.md)。
 
 
 ## <a name="see-also"></a>请参阅
 
-[获取 Dynamics 365 for Finance and Operations Enterprise Edition 的评估副本](/dynamics365/unified-operations/dev-itpro/dev-tools/get-evaluation-copy)
+[获取 Dynamics 365 for Finance and Operations Enterprise Edition 的评估副本](../../dev-itpro/dev-tools/get-evaluation-copy.md)
 

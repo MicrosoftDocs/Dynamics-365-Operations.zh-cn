@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: db41b3873755f93895aea7a32b65f2a8ed6a57fd
-ms.openlocfilehash: 108a4f4ce366d2efd66fc1ed27ffb6b23ff0e933
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 661c5a14d27f3ad9df6088c2977c507ca315a998
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/10/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 08/10/2017
 
 | 必备项                                                                                            | 说明                                                                                                                                                          |
 |---------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 移动手册预习                                                                                |[移动平台](/dynamics365/unified-operations/dev-itpro/mobile-apps/platform/mobile-platform-home-page)                                                                                                  |
+| 移动手册预习                                                                                |[移动平台](../../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md)                                                                                                  |
 | Dynamics 365 for Finance and Operations                                                                             | 已安装了 Microsoft Dynamics 365 for Operations 版本 1611 和 Microsoft Dynamics for Operations 平台更新 3（2016 年 11 月）的环境                   |
 | 安装修补程序 KB 3204341。                                                                              | 任务录制器可能错误地为 Dynamics 365 for Operation 平台更新 3（2016 年 11 月更新）中的下拉对话框录制两个关闭命令。 |
 | 安装修补程序 KB 3207800。                                                                              | 此修补程序允许在 Dynamics 365 for Operation 平台更新 3（2016 年 11 月更新）中的移动客户端上查看附件。           |
@@ -140,7 +140,7 @@ ms.lasthandoff: 08/10/2017
 
 应设计的第一个移动页面是为用户分配以待检查的发票列表。 若要设计此移动页面，请使用 Finance and Operations 中的 **VendMobileInvoiceAssignedToMeListPage** 页面。 完成此过程，请确保为您分配至少一个供应商发票进行检查，并且发票行有两个分配。 此设置满足该方案的要求。
 
-1.  在 Finance and Operations URL 中，将菜单项的名称替换为 **VendMobileInvoiceAssignedToMeListPage**，以便在**应付帐款**模块中打开**分配给我的待定供应商发票**列表页面的移动版本。 此页面根据系统中为您分配的发票数量显示这些发票。 若要查找特定发票，必须使用左侧的筛选器。 但是，此示例不需要特定发票。 只需要为您分配某张发票，这将允许您设计移动页面。 已专门为供应商发票的移动方案设计可用新页面。 因此，您必须使用这些页面。 此 URL 应类似以下 URL，并且输入该 URL 之后，必须显示下图中显示的页面：https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![“分配给我的待定供应商发票”页面](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
+1.  在 Finance and Operations URL 中，将菜单项的名称替换为 **VendMobileInvoiceAssignedToMeListPage**，以便在**应付账款**模块中打开**分配给我的待定供应商发票**列表页面的移动版本。 此页面根据系统中为您分配的发票数量显示这些发票。 若要查找特定发票，必须使用左侧的筛选器。 但是，此示例不需要特定发票。 只需要为您分配某张发票，这将允许您设计移动页面。 已专门为供应商发票的移动方案设计可用新页面。 因此，您必须使用这些页面。 此 URL 应类似以下 URL，并且输入该 URL 之后，必须显示下图中显示的页面：https://&lt;yourURL&gt;/?cmp=usmf&mi=**VendMobileInvoiceAssignedToMeListPage**&mode=mobile [![“分配给我的待定供应商发票”页面](./media/mobile-invoice-approvals01-1024x281.png)](./media/mobile-invoice-approvals01.png)
 2.  单击页面右上角的**设置**（齿轮）按钮，然后单击**移动应用程序**
 3.  选择您的工作区，然后单击**编辑**
 4.  单击**添加页面**创建第一个移动页面。
@@ -167,7 +167,7 @@ ms.lasthandoff: 08/10/2017
 10. 单击**完成**退出编辑模式。
 11. 单击**后退**，然后单击**完成**退出工作区
 12. 单击**发布工作区**以保存工作。
-13. 在“应付帐款参数”窗体中的**发票**下，启用**在待定供应商发票列表中显示发票总计**。 请注意，只有通过启用此参数，才能计算发票总计并在待定供应商发票列表页面中显示。 这是必备修补程序 3208224 中的一项新功能。
+13. 在“应付账款参数”窗体中的**发票**下，启用**在待定供应商发票列表中显示发票总计**。 请注意，只有通过启用此参数，才能计算发票总计并在待定供应商发票列表页面中显示。 这是必备修补程序 3208224 中的一项新功能。
 
 ### <a name="vendor-invoice-details"></a>供应商发票明细
 

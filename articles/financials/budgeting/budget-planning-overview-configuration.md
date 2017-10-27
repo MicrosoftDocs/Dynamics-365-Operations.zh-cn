@@ -17,12 +17,11 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: Human Translation
-ms.sourcegitcommit: 298ac47e2253f8add1aa3938dda15afe186afbeb
-ms.openlocfilehash: e2c956969626836fadb0a6cac6dbb1d57f169f28
+ms.translationtype: HT
+ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
+ms.openlocfilehash: 64d915a5e039ba242f6d5ae5f43c8e09d6ca282e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/20/2017
-
+ms.lasthandoff: 09/29/2017
 
 ---
 
@@ -78,7 +77,7 @@ ms.lasthandoff: 06/20/2017
 
 在**组织层次结构**页上，您可以指定组织层次结构作为每个预算计划流程的预算计划层次结构。 预算计划层次结构不必与用于其他目的标准组织层次结构匹配。 由于此层次结构用于整合和分配数据，您可能希望它具有不同的结构。 在示例架构中，销售部门在包括预算和财务部门的总部的下一级。 此结构可能与用于管理销售部门运营的结构不同。 只能将一个组织层次结构分配给每个预算计划流程。 
 
-有关详细信息，请参阅[组织和组织层次结构](/dynamics365/unified-operations/fin-and-ops/organization-administration/organizations-organizational-hierarchies)。
+有关详细信息，请参阅[组织和组织层次结构](../../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md)。
 
 ### <a name="user-security"></a>用户安全
 
