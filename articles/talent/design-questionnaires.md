@@ -1,7 +1,7 @@
 ---
 title: "设计调查表"
 description: "本主题描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。"
-author: twheeloc
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: rschloma
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17341
 ms.assetid: b27e2f12-c7a0-4a54-b8d8-17819f8a1c72
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: kherr75
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 65720297b43af49d8c8382ee2e3dde903d05ed14
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: a0f09a2a089c159896d921eb3422ebcf57d3c019
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 

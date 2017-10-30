@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HRMMassHireProject
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: rschloma
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 7481
 ms.assetid: 5f5eb271-76eb-4305-bd1c-5d171dafccc9
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0904db82b006f874594881afdb5d568afff575eb
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: ab074b3ad72ab96ffb9c95005f22dc023fc923e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 

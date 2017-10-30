@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: rschloma
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f7a1db481105a5b3422414c3b4e53ddee0a563df
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: d01894c0be699ac78d7b495bbc78eb73edb8aa70
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 

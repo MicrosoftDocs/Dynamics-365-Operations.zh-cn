@@ -1,7 +1,7 @@
 ---
 title: "调查表"
 description: "本主题提供了有关调查表的一般信息以及指向更多详细信息的链接。 调查表是一组问题，用于收集信息以达到各种目的。 您可以设计、创建、分发和完成调查表，然后对结果进行分析。"
-author: twheeloc
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: rschloma
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: kherr75
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c66d65bea1866d619530326ecfaff1c1c5bf86ba
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: ea8bca267852b1d7fa609d66189c594e868a71b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 

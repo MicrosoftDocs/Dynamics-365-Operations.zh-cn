@@ -1,7 +1,7 @@
 ---
 title: "查看和评估调查表的结果"
 description: "本主题介绍如何查看和评估回应者完成的调查表的结果。"
-author: twheeloc
+author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: Dynamics365Operations
 ms.technology: 
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: rschloma
 ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: kherr75
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 68dde5f6d67b48dad753e9f4c4123fb9e9e6b53a
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: 97563e7e9ce565446a619d9cb81ba6a5b727f554
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 
