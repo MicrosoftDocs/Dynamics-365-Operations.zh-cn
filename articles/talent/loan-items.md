@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global

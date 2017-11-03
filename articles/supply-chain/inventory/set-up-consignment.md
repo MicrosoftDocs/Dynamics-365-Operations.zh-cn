@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: DirPartyTable, EcoResTrackingDimensionGroup, InventJournalName, InventJournalOwnershipChange, InventOwner, InventTableInventoryDimensionGroups, VendTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220804
 ms.assetid: 88822f78-4de5-462c-a55f-1f766c572719
 ms.search.region: Global

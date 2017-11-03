@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CreditCardProcessors, CustTable, SalesTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: AX 7.0.0, Operations, Core, Retail
+ms.search.scope: Operations, Core, Retail
 ms.custom: 3041
 ms.assetid: 678f6899-bfa5-439b-aaca-b4affcc338ba
 ms.search.region: Global

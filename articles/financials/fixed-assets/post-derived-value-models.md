@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetBookTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3421
 ms.assetid: f5187c21-eec5-4148-b178-b8a5feff7f23
 ms.search.region: Global

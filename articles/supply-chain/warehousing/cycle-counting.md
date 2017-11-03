@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 50671
 ms.assetid: 49f5c431-b043-4170-aa24-b7d5d1ee063e
 ms.search.region: Global

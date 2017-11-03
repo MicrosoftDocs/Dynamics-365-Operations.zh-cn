@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14564
 ms.assetid: d9984cef-ddcf-46bd-816d-c01b8cc5cf48
 ms.search.region: Global

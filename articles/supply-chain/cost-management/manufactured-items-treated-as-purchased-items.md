@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqGroup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 21841
 ms.assetid: acc608b7-2cad-4fba-afee-9b7cc93761ec
 ms.search.region: Global

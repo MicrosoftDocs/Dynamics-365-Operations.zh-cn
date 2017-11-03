@@ -1,7 +1,7 @@
 ---
 title: "配置电子申报以将数据拉入到 Power BI 中"
 description: "本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的 Finance and Operations 实例转移至 Power BI 服务。 例如，本主题使用内部统计交易记录作为必须转移的业务数据。 Power BI 地图可视化使用此内部统计交易记录数据显示 Power BI 报表上的公司导入/导出活动的分析视图。"
-author: kfend
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
 ms.search.region: Global

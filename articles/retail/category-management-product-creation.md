@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: 
+ms.search.scope: Core, Retail
 ms.search.region: Global
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01

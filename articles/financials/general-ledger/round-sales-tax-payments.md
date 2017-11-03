@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global

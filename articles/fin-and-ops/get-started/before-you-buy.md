@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 21761
 ms.search.region: Global
 ms.author: margoc

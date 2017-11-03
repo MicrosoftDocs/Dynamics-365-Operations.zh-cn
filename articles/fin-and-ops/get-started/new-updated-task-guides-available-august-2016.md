@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: josaw
-ms.search.scope: Operations, Platform, UnifiedOperations
+ms.search.scope: Operations, Platform
 ms.custom: 252754
 ms.assetid: 11a72e4a-7899-42be-b180-a0f4b86d88f1
 ms.search.region: global

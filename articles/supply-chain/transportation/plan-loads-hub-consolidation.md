@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 92273
 ms.assetid: d27b0926-a534-4caf-a2a3-acbc7c440bca
 ms.search.region: Global

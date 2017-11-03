@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global

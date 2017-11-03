@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HRMApplication, HRMRecruitingTable
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 7501
 ms.assetid: 1ad725bf-20e2-42a1-8068-111f7ddddad9
 ms.search.region: Global

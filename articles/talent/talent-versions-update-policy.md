@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: Talent, update policy, requirements, system requirements
 audience: Application User, IT Pro
 ms.reviewer: rschloma
-ms.search.scope: AX 7.2.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global

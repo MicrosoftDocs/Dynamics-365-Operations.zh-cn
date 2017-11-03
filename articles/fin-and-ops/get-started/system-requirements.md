@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core
+ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: e564d51d-42d3-47c5-b388-93b8219c692a
 ms.search.region: Global

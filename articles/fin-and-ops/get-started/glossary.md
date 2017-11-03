@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: tfehr
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 44101
 ms.assetid: d4e01957-69a0-4c92-91c5-4646c8b0cad8
 ms.search.region: Global

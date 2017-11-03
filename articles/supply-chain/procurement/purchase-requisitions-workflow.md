@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqAuthorization, WorkflowParticipantExpenToken
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2234
 ms.assetid: dad3ba5a-2892-45d2-874a-300896f59b34
 ms.search.region: Global

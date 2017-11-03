@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
 ms.author: knelson

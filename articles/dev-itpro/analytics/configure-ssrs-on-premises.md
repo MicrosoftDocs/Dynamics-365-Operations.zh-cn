@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, UnifiedOperations
+ms.search.scope: Core
 ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global

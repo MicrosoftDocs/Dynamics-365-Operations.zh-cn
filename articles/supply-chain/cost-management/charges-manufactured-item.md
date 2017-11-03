@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274483
 ms.assetid: 6f5b851b-c5a7-43ef-b380-0d316667c1ef
 ms.search.region: global

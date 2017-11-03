@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KMCollection, KMKnowledgeCollectorParameters, KmWorkspace
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
 ms.search.region: Global

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 198123
 ms.assetid: d680d7be-da64-4132-89fe-ad2fa59afb77
 ms.search.region: global

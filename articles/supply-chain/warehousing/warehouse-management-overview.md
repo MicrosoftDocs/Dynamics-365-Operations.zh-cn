@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-02-28

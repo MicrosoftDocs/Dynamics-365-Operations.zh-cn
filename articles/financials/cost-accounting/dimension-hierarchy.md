@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global

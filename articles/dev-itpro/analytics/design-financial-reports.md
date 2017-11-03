@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 10814
 ms.assetid: cd5f6483-c09b-4c2d-9336-d22eb6ab6e4f
 ms.search.region: Global

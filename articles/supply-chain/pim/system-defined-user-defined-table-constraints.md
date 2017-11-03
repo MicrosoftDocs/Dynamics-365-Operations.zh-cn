@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19781
 ms.assetid: 0a4ea930-b344-43a8-871e-d5cd077892c4
 ms.search.region: Global

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdParameters
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global

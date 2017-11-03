@@ -10,7 +10,7 @@ ms.service:
 ms.technology: 
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: AX 2012 R3 CU8, UnifiedOperations
+ms.search.scope: AX 2012
 ms.custom: 89041
 ms.assetid: 990d64e6-d436-4c79-9bb5-bf8c5c5a048f
 ms.search.region: Global

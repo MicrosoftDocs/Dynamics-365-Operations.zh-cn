@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventCostTrans
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 79753
 ms.assetid: 14ac7db4-fb40-43c1-bb0d-1d51fc91d24f
 ms.search.region: Global

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerVoucherType_CN, VoucherTypeWizard_CN
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 261454
 ms.search.region: China (PRC)
 ms.author: shylaw

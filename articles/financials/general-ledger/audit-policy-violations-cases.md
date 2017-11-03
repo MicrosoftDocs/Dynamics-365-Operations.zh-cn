@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13091
 ms.assetid: e0e66c6d-c396-4a9d-b3b6-3641d130fdc0
 ms.search.region: Global

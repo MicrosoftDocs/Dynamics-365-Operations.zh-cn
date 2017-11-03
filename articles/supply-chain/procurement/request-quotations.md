@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2154
 ms.assetid: 3936996e-d943-46ca-8385-84c042990f1d
 ms.search.region: Global

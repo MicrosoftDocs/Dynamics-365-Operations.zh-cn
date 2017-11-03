@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 79634
 ms.assetid: ded5da04-f787-49f7-b5e5-75c2a2b92930
 ms.search.region: Global

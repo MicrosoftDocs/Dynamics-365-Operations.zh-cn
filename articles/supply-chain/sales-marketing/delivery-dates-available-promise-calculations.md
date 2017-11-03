@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
 ms.search.region: Global

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Talent, Operations, UnifiedOperations
+ms.search.scope: Talent, Operations
 ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 72653
 ms.assetid: c5fa4b09-512d-4349-ac51-cc13da69a160
 ms.search.region: global

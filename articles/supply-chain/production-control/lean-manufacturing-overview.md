@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
 ms.search.region: Global

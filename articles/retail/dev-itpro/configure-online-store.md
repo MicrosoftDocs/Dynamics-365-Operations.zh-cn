@@ -10,7 +10,7 @@ ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: robinr
-ms.search.scope: AX 7.0.0, Operations, Retail, UnifiedOperations
+ms.search.scope: Operations, Retail
 ms.custom: 31541
 ms.assetid: 7a25f9b4-a0bb-4e8c-95c0-c0799ec0620d
 ms.search.region: Global
