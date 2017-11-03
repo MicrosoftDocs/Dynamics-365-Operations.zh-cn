@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3fd3842f2e69e8f5d5e269a61ca7f3ec0ff471c0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 601681c64f5fa70aa99ab5179525d02b2c05ed2e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="5274d-105">休假和缺勤管理概览</span><span class="sxs-lookup"><span data-stu-id="5274d-105">Leave and absence management overview</span></span>

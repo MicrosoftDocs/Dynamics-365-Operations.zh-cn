@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274483
 ms.assetid: 6f5b851b-c5a7-43ef-b380-0d316667c1ef
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a61761a5c9d98befd67682e1790af5377b7a55e1
-ms.openlocfilehash: f0ce01b21f62ee91c861b45e92f87b95be0476de
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fe766a2969e647500452ecb64040d2157a155416
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/13/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

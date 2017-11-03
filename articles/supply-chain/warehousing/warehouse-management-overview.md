@@ -9,16 +9,16 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.search.scope: Core, AX 7.0.0, Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2086a68379eec70d1e616959d2b3c4386950a6f0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ed8baca264e3c277f9c1ff33b20f89f1fd6991c0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="warehouse-management"></a><span data-ttu-id="15c29-103">仓库管理</span><span class="sxs-lookup"><span data-stu-id="15c29-103">Warehouse management</span></span>

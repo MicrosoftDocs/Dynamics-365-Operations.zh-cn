@@ -10,7 +10,7 @@ ms.service:
 ms.technology: 
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: AX 2012 R3 CU8, UnifiedOperations
+ms.search.scope: AX 2012
 ms.custom: 89041
 ms.assetid: 990d64e6-d436-4c79-9bb5-bf8c5c5a048f
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 
 ms.dyn365.ops.version: AX 2012 R3 CU8
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5c54d0590856755e208ada9d97af7790a6de95ec
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 14b4a56a229a2e1eb15c29eb7a89a89ac31e58db
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

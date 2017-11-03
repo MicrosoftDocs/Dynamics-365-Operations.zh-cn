@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Talent, Core
+ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9e529eb4712087f7af9e3179340c2f00524555b3
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bba06ade1a8681d304ce8c7290ee4593ea33b4cd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="generate-affordable-care-act-reports"></a><span data-ttu-id="02848-103">创建平价医疗法案报告</span><span class="sxs-lookup"><span data-stu-id="02848-103">Generate Affordable Care Act reports</span></span>

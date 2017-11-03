@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KMCollection, KMKnowledgeCollectorCollection, KMKnowledgeCollectorUserResults
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 17444
 ms.assetid: 6570206a-b2c4-4025-8715-432fe6652b78
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kherr75
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
-ms.openlocfilehash: 97563e7e9ce565446a619d9cb81ba6a5b727f554
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9b6357288f340e4248cd5a87c2c3f773e0c32aec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/30/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

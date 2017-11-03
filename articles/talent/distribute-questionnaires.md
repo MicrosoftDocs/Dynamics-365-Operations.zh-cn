@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: kherr75
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
-ms.openlocfilehash: f7f1ea11fe2165218d62d4756ae226ff4de5df1b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 97003c6e90db1fe1335deff65efe6b5ef07ae24b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/30/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

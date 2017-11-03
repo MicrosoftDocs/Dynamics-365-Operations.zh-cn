@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274503
 ms.assetid: 535ab25d-a031-4e8c-84ec-478f2987a1ad
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: AndersGirke
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a61761a5c9d98befd67682e1790af5377b7a55e1
-ms.openlocfilehash: 5a8c08b97f6500ea8de22fed28e790b6f9a1b3db
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 75c0f5bcff0aae63aa8c7dae9b0767f8c7e6a81c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/13/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

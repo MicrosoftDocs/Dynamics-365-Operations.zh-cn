@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 79033
 ms.assetid: 1928c145-bf82-436d-87ca-e7a173e31923
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a61761a5c9d98befd67682e1790af5377b7a55e1
-ms.openlocfilehash: f6ae362678d9dda83bf72d9427056548430400bf
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4ea8fe31588dd0768e0651c9e1e332212a00cde2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/13/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

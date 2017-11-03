@@ -10,15 +10,15 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: 
+ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 447fd87cb2f71147d7a9f6476f4ed9e12d75640a
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
