@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SysUserSetup
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dbc80ff756a5286a98489f1f1403959d9b18ebe6
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: cf2ad9f95035aaf004f2da779a8492ff2d91d399
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

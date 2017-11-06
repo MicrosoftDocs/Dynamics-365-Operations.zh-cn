@@ -10,16 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, Operations, Unified operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 333a99d483415ee024e1ec67f27d02698463ae4f
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: e00828ea24434da6dfd7443153b007ea728375f3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

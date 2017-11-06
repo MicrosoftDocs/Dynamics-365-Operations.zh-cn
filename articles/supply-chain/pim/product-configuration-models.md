@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 4031
 ms.assetid: 70b968e8-e550-4731-823d-d713b8910f7b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c222f0d17be6eea0f776f5460c793b82d8b3e0ab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 86ced1313640880ab6bb68300c2ca449db0051f1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

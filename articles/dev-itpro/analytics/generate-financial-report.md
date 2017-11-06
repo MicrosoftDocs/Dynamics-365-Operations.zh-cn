@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 01bb8999e5d9c0e16f133a621ebfe1d102565f2f
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: db7b330d00391509fbe9b9f513599d2ce171525d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

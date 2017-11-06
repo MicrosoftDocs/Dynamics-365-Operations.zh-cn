@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Management Reporter, UnifiedOperations
+ms.search.scope: Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: de8167eeea1f4a4db764a7f6398533ec3b9f4306
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: d1e1ec9fff9f1a41fd8a219c9fbbf8a26ad3d7b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

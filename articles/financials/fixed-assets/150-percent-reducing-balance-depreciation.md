@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13891
 ms.assetid: 36d1112d-921c-4fff-abe0-0ff2429848d3
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 20572163bd32d059323cbb80e606ae344d70b7be
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b35b8ea652ccb06c45b8091cc7f57e849e1a5915
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

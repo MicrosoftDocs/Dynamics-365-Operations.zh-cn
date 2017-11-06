@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 54682
 ms.assetid: dc0e2855-83a0-41a7-a398-3c7852597d1a
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a61761a5c9d98befd67682e1790af5377b7a55e1
-ms.openlocfilehash: 38f557c9378688107993b7af256e05106b03d4ca
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 2d3a6c412e497952c0c7f5b113990bbe693b0f22
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/13/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

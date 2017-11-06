@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventCostOnhandItem
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19111
 ms.assetid: 56a7c8ba-bf4a-4b1d-918d-56bb96926c4f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a61761a5c9d98befd67682e1790af5377b7a55e1
-ms.openlocfilehash: 2cdd1377d3c7c922a3e4cba7f44eef24b0c6824c
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 739e998ec0962dba94cfb6d05b9f620852530d29
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/13/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

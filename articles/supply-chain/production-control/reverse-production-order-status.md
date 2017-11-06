@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 70131
 ms.assetid: b1e0df43-b388-4326-8fb7-501f30c89776
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 10ce698ef07e9f290547b0eedd7c357f54852e76
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 4761e44b6bbc93ebf4a395948f42c2a73013ecb9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

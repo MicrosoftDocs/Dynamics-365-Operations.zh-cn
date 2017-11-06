@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 21481
 ms.assetid: d6bb2f19-73b9-43fa-8042-b530c75896bf
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 54aaaca4d7ed1a4b2e7a485dd72fb457e607b49b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9ae601d6369dfc341d9eeced8043650c28052b48
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

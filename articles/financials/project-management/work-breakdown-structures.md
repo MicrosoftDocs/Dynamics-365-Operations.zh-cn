@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ProjWorkBreakdownStructure
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 23861
 ms.assetid: 241a0464-0056-4a69-b468-0afbe2d5f3ae
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 53f40b8988182312d753472af10b0752ee862bd2
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fc2fa16a44b6421d56e9cb662cfaa26da5b1c5d1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

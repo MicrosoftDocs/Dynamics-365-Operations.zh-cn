@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: MCRFullTextIndexField, MCRFullTextParameters, PurchTable, SalesTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 248534
 ms.assetid: 99dd5ce1-0029-4f06-90e7-865e6d46d86e
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dd1b1229385b3c900d1b111ec6d0225cd5286542
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a834cb513d95c0244a29e1f9ec196020698c5983
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

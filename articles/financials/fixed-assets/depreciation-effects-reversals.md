@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetTrans
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2961
 ms.assetid: 63a3ac92-c321-4379-a86a-b1b14915f340
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7309cb3175f65bc6b806edb875ac9406a8faaf66
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 6672047cb3234e4432190d3afb20f46827ad5ef4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

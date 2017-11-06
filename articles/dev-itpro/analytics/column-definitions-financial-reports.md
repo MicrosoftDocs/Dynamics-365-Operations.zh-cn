@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Management Reporter, UnifiedOperations, Core
+ms.search.scope: Operations, Core
 ms.custom: 106601
 ms.assetid: 66e72a48-edab-4e9d-815f-596a1623c258
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 924177f4974358d2283dfd46306d663c27ccd87b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8c877a4ad6d4c29607159da52bf1cedae1476f92
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

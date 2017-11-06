@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMConfigRule, BOMTable, ConfigChooseFromRoute, ConfigGroup, ConfigHierarchy, EcoResDimensionBasedConfiguration
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 19821
 ms.assetid: 4db9890b-306b-4be7-ba98-3be2094d561f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e2ce0e95a5e1230df970b5d5249fdb248113cf54
-ms.openlocfilehash: b6895726af6028035830893fdbb01a4a407d7076
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 7b46adf0bef79eafb1dd4b0809965abdd3b4410c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
