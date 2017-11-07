@@ -10,7 +10,7 @@ ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: 
+ms.search.scope: Retail, Core, Operations
 ms.custom: 
 ms.search.region: Global
 ms.search.industry: retail

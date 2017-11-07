@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CAMDimensionMember
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 223174
 ms.assetid: 
 ms.search.region: global

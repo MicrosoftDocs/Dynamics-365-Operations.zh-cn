@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: 
+ms.search.scope: Operations
 ms.assetid: 
 ms.search.region: Global
 ms.author: shpandey

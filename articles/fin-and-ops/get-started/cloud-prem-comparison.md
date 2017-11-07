@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Operations, Platform, AX Platform
+ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global

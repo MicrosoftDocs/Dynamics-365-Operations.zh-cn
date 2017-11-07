@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations, UnifiedOperations. Core
+ms.search.scope: Operations. Core
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30

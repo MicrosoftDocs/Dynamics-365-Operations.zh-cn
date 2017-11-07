@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations, Core, UnifiedOperations
+ms.search.scope: Retail, Operations, Core
 ms.custom: 219684
 ms.assetid: 2e2c4eea-c6e2-4912-9832-a6b22416e39f
 ms.search.region: Global
