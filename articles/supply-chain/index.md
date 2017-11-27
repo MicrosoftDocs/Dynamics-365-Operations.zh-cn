@@ -1,16 +1,16 @@
 ---
 title: "供应链管理主页"
-description: "本页面指向可帮助您更有效地使用 Microsoft Dynamics 365 for Finance and Operations - 供应链管理的资源。"
+description: "本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的供应链管理功能的一系列帮助主题和其他资源。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 07/20/2017
+ms.date: 11/02/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 6cef449562ba75b03b10b4fe27a436ecff3a6691
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0ca879fc4b0a43cd3af1e45c78a48f1c942a9a6a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-本页面指向可帮助您更有效地使用 Microsoft Dynamics 365 for Finance and Operations - 供应链管理的资源。 
+本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的供应链管理功能的一系列帮助主题和其他资源。 
 
 ## <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 转到 <a href="https://roadmap.dynamics.com/">Dynamics 365 路线图</a>以了解已发布和正在开发的新功能。 
@@ -41,7 +41,7 @@ ms.lasthandoff: 09/29/2017
 
 - [成本核算](../financials/cost-accounting/cost-accounting-home-page.md)
 - [成本管理](cost-management/costing-sheets.md)  
-- [库存管理](inventory/consignment.md)
+- [库存管理](inventory/inventory-home-page.md)
 - [主计划](master-planning/introduction-demand-forecasting.md)
 - [采购](procurement/procurement-sourcing-overview.md)
 - [产品信息管理](pim/product-information.md)
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/29/2017
 
 ### <a name="get-started"></a>开始  
 
-这些视频短片帮助您开始使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）中的新功能。
+这些视频短片帮助您开始使用 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition（2017 年 7 月）中的新功能。
 
 -  [开始使用成本核算](https://youtu.be/1pUDtJQZ8FU)
 -  [成本控制移动工作区](https://youtu.be/imsuTg8rUVk)
@@ -84,7 +84,7 @@ ms.lasthandoff: 09/29/2017
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">成本核算动手实验室</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing：可承诺量和看板作业级排产</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">使用成本计算单计算物料清单</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">通过 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 提高仓库中的移动性</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">通过 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 提高仓库中的移动性</a>
 
 ## <a name="elearning-courses"></a>网络培训课程
 有关 Microsoft Dynamics 365 for Finance and Operations 培训的信息，请参阅 <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics 学习门户</a>。 （需要 CustomerSource 帐户） 

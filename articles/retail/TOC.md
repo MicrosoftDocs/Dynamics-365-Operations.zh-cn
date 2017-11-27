@@ -2,6 +2,11 @@
 
 # 开始
 ## [新增功能或更改的功能](get-started/whats-new.md)
+## [在您购买 Dynamics 365 for Retail 之前](get-started/before-you-buy.md)
+## [注册预览订阅](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
+## [部署演示环境](../dev-itpro/deployment/deploy-demo-environment.md)
+## [部署选项](dev-itpro/choose-deployment.md)
+
 
 # 付款
 ## [付款方式](payment-methods.md)
@@ -36,11 +41,13 @@
 ## [定义零售渠道](define-maintain-retail-channels.md)
 ## [在线商店概览](online-stores.md)
 ## [配置并安装零售硬件工作站](retail-hardware-station-configuration-installation.md)
-## [零售考勤管理](retail-time-attendance.md)
+## [Retail 考勤管理](retail-time-attendance.md)
 
-# 现代化销售点 (MPOS) 和云 POS
+# Modern 销售点 (MPOS) 和 Cloud POS
+## [POS 操作](POS-operations.md)
+## [MPOS/CPOS 中的演示数据屏幕布局](demo-data.md)
 ## 硬件外围设备
-### [硬件外围设备概览](retail-peripherals-overview.md)
+### [零售外围设备概览](retail-peripherals-overview.md)
 ### [Microsoft 测试过的 POS 硬件外围设备](microsoft-tested-pos-hardware-peripherals.md)
 ### [零售外围设备模拟器](dev-itpro/retail-peripheral-simulator.md)
 ### [定义和维护渠道客户端、收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)
@@ -60,10 +67,11 @@
 ### [混合客户订单](hybrid-customer-orders.md)
 ## 销售关联
 ### [使用销售组跟踪 POS 中的佣金](pos-sales-groups-track-commissions.md)
+## [从不同的商店装运订货](charge-send.md)
 ## 设备激活
 ### [配置和安装 MPOS](retail-modern-pos-device-activation.md)
 ### [设置 Cloud POS 和 MPOS 的扩展登录](extended-logon.md)
-### [管理总部的零售帐户和设备](set-up-activation-accounts-validate-devices-hq.md)
+### [从总部管理 Retail 帐户和设备](set-up-activation-accounts-validate-devices-hq.md)
 ## 收据
 ### [设置收据模板](receipt-templates-printing.md) 
 ### [从 MPOS 发送电子邮件收据](email-receipts.md)
@@ -104,7 +112,7 @@
 ## [在销售流程中登记序列号](../supply-chain/sales-marketing/register-serial-numbers-sales-process.md)
 ## [库存日记帐](../supply-chain/inventory/inventory-journals.md)
 ## [库存标签盘点](../supply-chain/inventory/inventory-tag-counting.md)
-## [具有实际成本和标记的先进先出](../supply-chain/cost-management/fifo-physical-value-marking.md)
+## [具有实际成本和标记的 FIFO](../supply-chain/cost-management/fifo-physical-value-marking.md)
 ## [具有实际成本和标记的后进先出日期](../supply-chain/cost-management/lifo-date-physical-value-marking.md)
 ## [具有实际成本和标记的后进先出](../supply-chain/cost-management/lifo-physical-value-marking.md)
 ## [加权平均日期](../supply-chain/cost-management/weighted-average-date.md)
@@ -163,7 +171,7 @@
 # [零售开发和管理](dev-itpro/dev-retail-home-page.md)
 
 ## 体系结构
-### [Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的组件 - 零售](retail-components.md)
+### [Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 的组件 - 零售](retail-components.md)
 ### [零售服务器体系结构](dev-itpro/retail-server-architecture.md)
 ### [零售渠道通信](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS 体系结构](dev-itpro/retail-modern-pos-architecture.md)
@@ -171,10 +179,10 @@
 ### [零售渠道绩效 Power BI 内容](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
 
 ## 部署和修补程序
-### [零售商店扩展单位配置和安装](dev-itpro/retail-store-scale-unit-configuration-installation.md)
-#### [零售商店系统，在您开始之前](dev-itpro/retail-store-system-begin.md)
+### [零售商店扩展单位概览](dev-itpro/retail-store-system-begin.md)
+#### [零售商店扩展单位配置和安装](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)
-#### [从总部管理零售帐户和设备](set-up-activation-accounts-validate-devices-hq.md)
+#### [从总部管理 Retail 帐户和设备](set-up-activation-accounts-validate-devices-hq.md)
 #### [Retail POS 设备启用](dev-itpro/retail-device-activation.md)
 #### [安全 Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)
@@ -187,16 +195,18 @@
 ### [安装 N-1 组件](dev-itpro/n-1-installation-configuration.md)
 
 ## 环境配置
-### [管理 Bing 地图](dev-itpro/manage-bing-maps.md)
+### [添加指向您的组织的法律条款和隐私声明的链接](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [管理必应地图](dev-itpro/manage-bing-maps.md)
 
 ## 可扩展性
 ### 销售点
 #### [Retail POS 屏幕布局](pos-screen-layouts.md)
 ##### [安装 POS 布局设计器](install-pos-layout-designer.md)
 #### [配置脱机模式的 MPOS](dev-itpro/retail-modern-pos-offline.md)
-#### [MPOS 和云 POS 触发器可扩展性](dev-itpro/modern-pos-trigger-extensibility.md)
+#### [MPOS 和 Cloud POS 触发器可扩展性](dev-itpro/modern-pos-trigger-extensibility.md)
 #### [将自定义控件添加到 POS 视图](dev-itpro/pos-custom-control.md)
 #### [POS 付款扩展](dev-itpro/pos-payment-extension.md)
+#### [外部礼品卡支持](dev-itpro/gift-card.md)
 ### [创建零售体验应用](dev-itpro/create-retail-experience-app.md)
 ### [硬件工作站概览和可扩展性](dev-itpro/hardware-station-extensibility.md)
 
@@ -230,10 +240,16 @@
 ### [Retail SDK 可扩展性示例](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [适用于瑞典的收银机](localizations/emea-swe-cash-registers.md)
 ### [Retail POS 与瑞典的控制主机集成的示例](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+### [适用于挪威的收银机](localizations/emea-nor-cash-registers.md)
+### [适用于挪威的收银机的部署指南](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Retail SDK 包装](dev-itpro/retail-sdk/retail-sdk-packaging.md)
-### [Retail SDK 示例 ](dev-itpro/retail-sdk/retail-sdk-samples.md)
+### [Retail SDK 示例](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [渠道数据库 (DB) 扩展](dev-itpro/channel-db-extensions.md)
 ### [CDX 可扩展性](dev-itpro/cdx-extensibility.md)
+### [订单属性](dev-itpro/order-attributes.md)
+### [客户属性](dev-itpro/customer-attributes.md)
+### [Retail 打印脚本和 C# 代理](dev-itpro/typescript-proxy-retail-pos.md)
+
 
 ## Commerce Runtime
 ### [会员扩展](dev-itpro/retail-sdk/loyalty-extension-sample.md)

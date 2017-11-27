@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b53f95a55e66f7df4f7b3b85dd0dee2047019439
-ms.openlocfilehash: f0f601b2cf66daf0d7d3175bc78938e13aa6cd19
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 35b574e24e721e80ca1469878697aba4c1699dff
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供跨所有渠道的统一商务。 其中包括销售、移动性、智能和工作效率解决方案，帮助零售商和工作人员以云优先和移动优先的方式实现更多目标。 Retail 为实施各类业务流程提供全面的支持，如促销活动、库存和渠道管理功能。 它还跨所有接触点提供沉浸式客户体验。
 
 > [!NOTE] 
-> Dynamics 365 for Retail 与 Dynamics 365 for Finance and Operations Enterprise 版和 Dynamics 365 for Talent 密切相关。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Retail；在主要与核心产品 (Finance and Operations) 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations Enterprise 版；在主要与人力资源有关的主题中，产品名称将为 Dynamics 365 for Talent。 
+> Dynamics 365 for Retail 与 Dynamics 365 for Finance and Operations, Enterprise edition 和 Dynamics 365 for Talent 密切相关。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Retail；在主要与核心产品 (Finance and Operations) 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition；在主要与人力资源有关的主题中，产品名称将为 Dynamics 365 for Talent。 
 
 在左侧窗格中，选择一个功能区域以了解有关它的更多信息。
 
@@ -62,7 +62,7 @@ Retail 的外围设备模拟器包括一个虚拟外围设备模拟器和一个 
 您可以对产品进行价格调整，并可以设置应用于 POS 上、呼叫中心销售订单中或在线订单中的一个行项或交易记录的折扣。
 
 ## <a name="store-operations-and-pos"></a>商店运营和 POS
-MPOS 是适用于 PC、平板电脑和手机的 POS 应用。 销售人员可在商店内的任何位置通过移动设备处理销售交易记录和客户订单，执行客户服务解决方案活动，并执行日常的运营和库存管理，也可以在基于 PC 的收银机上执行这些操作。 云 POS 是一种基于浏览器的 POS，它可以在任何标准浏览器上启动。
+MPOS 是适用于 PC、平板电脑和手机的 POS 应用。 销售人员可在商店内的任何位置通过移动设备处理销售交易记录和客户订单，执行客户服务解决方案活动，并执行日常的运营和库存管理，也可以在基于 PC 的收银机上执行这些操作。 Cloud POS 是一种基于浏览器的 POS，它可以在任何标准浏览器上启动。
 
 您需要安装若干组件，才能定义商店、商店内的 POS 收银机以及这些收银机用来处理交易的零售外围设备之间的关系。 您还需要定义特定 POS 实例的特征。 这些特征包括硬件配置文件或将在收银机上使用的零售外围设备的设置、收银机映射到的商店、用户登录到收银机的视觉体验以及收银机中启用的功能。 您还可以定义收银机是否可以在断开连接或离线状态下运行。
 
