@@ -1,6 +1,6 @@
 ---
 title: "智能"
-description: "此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中提供的商业智能和报告工具的详细信息。"
+description: "此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中提供的商业智能和报告工具的详细信息。"
 author: sericks007
 manager: AnnBe
 ms.date: 09/07/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 9d9d6fe03c876097aedc501422b88d2f3e70f1d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中提供的商业智能 (BI) 和报告工具的详细信息。
+此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中提供的商业智能 (BI) 和报告工具的详细信息。
 
 ## <a name="get-started"></a>开始
 - [信息访问和报告](information-access-reporting.md)

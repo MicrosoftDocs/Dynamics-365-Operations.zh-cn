@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: 358f5bf6194f5dd3f1639425e6633aa1a855bdc1
+ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
+ms.openlocfilehash: 449643cc34e67388210e0b4e9d04d615d2420610
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent 简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。这些流程包括员工挽留、福利管理、培训、绩效评审和变更管理。 它还提供了一个框架，供人力资源员工管理监督领域。
+Microsoft Dynamics 365 for Talent 简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 这些流程包括员工挽留、福利管理、培训、绩效评审和变更管理。 它还提供了一个框架，供人力资源员工管理监督领域。
 
 您可以使用 Talent 完成以下任务：
 
@@ -43,7 +43,7 @@ Microsoft Dynamics 365 for Talent 简化了很多例行记录保留任务，并�
 + 设置、提供并分析包含议程、授课和跟踪的培训课程。
 
 > [!NOTE] 
-> Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations Enterprise edition 中的“人力资源”密切相关。 这两种产品的功能可能存在重合。 因此，在主要涉及“人力资源”的主题中，产品名称将为 Dynamics 365 for Finance and Operations, Enterprise edition；在主要涉及 Talent 的主题中，产品名称将为 Dynamics 365 for Talent。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+> Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations, Enterprise edition 中的“人力资源”密切相关。 这两种产品的功能可能存在重合。 因此，在主要涉及“人力资源”的主题中，产品名称将为 Dynamics 365 for Finance and Operations, Enterprise edition；在主要涉及 Talent 的主题中，产品名称将为 Dynamics 365 for Talent。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>制定人力资源管理策略
 ---------------------------------------------------------
@@ -101,6 +101,6 @@ Talent 可帮助您维护符合适用法律的安全工作环境，包括美国�
 
 -   [调查表](questionnaires.md)
 -   [设计调查表](design-questionnaires.md)
--   [分配和完成调查表](distribute-questionnaires.md)
+-   [分发和完成调查表](distribute-questionnaires.md)
 -   [查看和评估调查表的结果](evaluate-questionnaire-results.md)
 

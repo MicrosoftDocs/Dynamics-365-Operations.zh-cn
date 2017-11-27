@@ -28,7 +28,7 @@
 ### [导出和导入模型](dev-tools/models-export-import.md)
 ### [Visual Studio 中的元数据搜索](dev-tools/metadata-search-visual-studio.md)
 ### [模型](dev-tools/models.md)
-### [Dynamics 365 for Finance and Operations Enterprise Edition 中的项目](dev-tools/projects.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition 中的项目](dev-tools/projects.md)
 ### [Visual Studio Tools 加载项](dev-tools/developer-tools-add-ins.md)
 ### [关闭模型自定义和弃用功能](dev-tools/lock-models.md)
 ### [更新 Visual Studio 开发工具](dev-tools/update-development-tools.md)
@@ -54,57 +54,54 @@
 #### [X++ 属性类](dev-ref/xpp-attribute-classes.md)
 #### [X++ 和 C\# 比较](dev-ref/xpp-cs-comparison.md)
 #### [X++ 语法](dev-ref/xpp-syntax.md)
-## 编译时函数
+## [API、类和表引用](dev-ref/api-reference.md)
 ### [X++ 编译时函数](dev-ref/xpp-compile-time-functions.md)
-## 运行时函数
-### [X++ 业务运行时函数](dev-ref/xpp-business-run-time-functions.md)
-### [X++ 容器运行时函数](dev-ref/xpp-container-run-time-functions.md)
-### [X++ 换算运行时函数](dev-ref/xpp-conversion-run-time-functions.md)
-### [X++ 日期运行时函数](dev-ref/xpp-date-run-time-functions.md)
-### [X++ 数学运行时函数](dev-ref/xpp-math-run-time-functions.md)
-### [X++ 反射运行时函数](dev-ref/xpp-reflection-run-time-functions.md)
 ### [X++ 运行时函数](dev-ref/xpp-run-time-functions.md)
-### [X++ 会话运行时函数](dev-ref/xpp-session-run-time-functions.md)
-### [X++ 启动运行时函数](dev-ref/xpp-string-run-time-functions.md)
-## 系统表
+#### [X++ 业务运行时函数](dev-ref/xpp-business-run-time-functions.md)
+#### [X++ 容器运行时函数](dev-ref/xpp-container-run-time-functions.md)
+#### [X++ 换算运行时函数](dev-ref/xpp-conversion-run-time-functions.md)
+#### [X++ 日期运行时函数](dev-ref/xpp-date-run-time-functions.md)
+#### [X++ 数学运行时函数](dev-ref/xpp-math-run-time-functions.md)
+#### [X++ 反射运行时函数](dev-ref/xpp-reflection-run-time-functions.md)
+#### [X++ 会话运行时函数](dev-ref/xpp-session-run-time-functions.md)
+#### [X++ 字符串运行时函数](dev-ref/xpp-string-run-time-functions.md)
 ### [系统表](dev-ref/system-tables.md)
-## 系统类
-### [API、类和表引用](dev-ref/api-reference.md)
-### [A 类](dev-ref/a-classes.md)
-### [B 类](dev-ref/b-classes.md)
-### [C 类](dev-ref/c-classes.md)
-### [D 类](dev-ref/d-classes.md)
-### [E 类](dev-ref/e-classes.md)
-### [F 类：FieldBinding 到 FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
-### [F 类：FormBuildButtonControl 到 FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
-### [F 类：FormBuildFilterPaneControl 到 FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
-### [F 类：FormBuildReferenceControl 到o FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
-### [F 类：FormChangeTracker 到 FormControlEventArgs](dev-ref/formchangetracker-classes.md)
-### [F 类：FormDataObject 到 FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
-### [F 类：FormFastTabSummarySeparator 到 FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
-### [F 类：FormGroupControl 到 FormIntControl](dev-ref/formgroupcontrol-classes.md)
-### [F 类：FormListBoxControl 到 FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
-### [F 类：FormObject 到 FormRealControl](dev-ref/formobject-classes.md)
-### [F 类：FormReferenceControl 到 FormStringControl](dev-ref/formreferencecontrol-classes.md)
-### [F 类：FormTabControl 到 FormWindowControl](dev-ref/formtabcontrol-classes.md)
-### [G 类](dev-ref/g-classes.md)
-### [H 类](dev-ref/h-classes.md)
-### [I 类](dev-ref/i-classes.md)
-### [J 类](dev-ref/j-classes.md)
-### [K 类](dev-ref/k-classes.md)
-### [L 类](dev-ref/l-classes.md)
-### [M 类](dev-ref/m-classes.md)
-### [N 类](dev-ref/n-classes.md)
-### [O 类](dev-ref/o-classes.md)
-### [P 类](dev-ref/p-classes.md)
-### [Q 类](dev-ref/q-classes.md)
-### [R 类](dev-ref/r-classes.md)
-### [S 类](dev-ref/s-classes.md)
-### [T 类](dev-ref/t-classes.md)
-### [U 类](dev-ref/u-classes.md)
-### [V 类](dev-ref/v-classes.md)
-### [W 类](dev-ref/w-classes.md)
-### [X 类](dev-ref/x-classes.md)
+### 系统类
+#### [A 类](dev-ref/a-classes.md)
+#### [B 类](dev-ref/b-classes.md)
+#### [C 类](dev-ref/c-classes.md)
+#### [D 类](dev-ref/d-classes.md)
+#### [E 类](dev-ref/e-classes.md)
+#### [F 类：FieldBinding 到 FormBuildAnimateControl](dev-ref/fieldbinding-classes.md)
+#### [F 类：FormBuildButtonControl 到 FormBuildFastTabSummarySeparator](dev-ref/formbuildbuttoncontrol-classes.md)
+#### [F 类：FormBuildFilterPaneControl 到 FormBuildRealControl](dev-ref/formbuildfilterpanecontrol-classes.md)
+#### [F 类：FormBuildReferenceControl 到o FormButtonSeparatorControl](dev-ref/formbuildreferencecontrol-classes.md)
+#### [F 类：FormChangeTracker 到 FormControlEventArgs](dev-ref/formchangetracker-classes.md)
+#### [F 类：FormDataObject 到 FormFastTabHeaderControl](dev-ref/formdataobject-classes.md)
+#### [F 类：FormFastTabSummarySeparator 到 FormGridControl](dev-ref/formfasttabsummaryseparator-classes.md)
+#### [F 类：FormGroupControl 到 FormIntControl](dev-ref/formgroupcontrol-classes.md)
+#### [F 类：FormListBoxControl 到 FormNotifyEventArgs](dev-ref/formlistboxcontrol-classes.md)
+#### [F 类：FormObject 到 FormRealControl](dev-ref/formobject-classes.md)
+#### [F 类：FormReferenceControl 到 FormStringControl](dev-ref/formreferencecontrol-classes.md)
+#### [F 类：FormTabControl 到 FormWindowControl](dev-ref/formtabcontrol-classes.md)
+#### [G 类](dev-ref/g-classes.md)
+#### [H 类](dev-ref/h-classes.md)
+#### [I 类](dev-ref/i-classes.md)
+#### [J 类](dev-ref/j-classes.md)
+#### [K 类](dev-ref/k-classes.md)
+#### [L 类](dev-ref/l-classes.md)
+#### [M 类](dev-ref/m-classes.md)
+#### [N 类](dev-ref/n-classes.md)
+#### [O 类](dev-ref/o-classes.md)
+#### [P 类](dev-ref/p-classes.md)
+#### [Q 类](dev-ref/q-classes.md)
+#### [R 类](dev-ref/r-classes.md)
+#### [S 类](dev-ref/s-classes.md)
+#### [T 类](dev-ref/t-classes.md)
+#### [U 类](dev-ref/u-classes.md)
+#### [V 类](dev-ref/v-classes.md)
+#### [W 类](dev-ref/w-classes.md)
+#### [X 类](dev-ref/x-classes.md)
 
 ## [可扩展性主页](extensibility/extensibility-home-page.md)
 ### 简介和开始
@@ -140,13 +137,10 @@
 #### [更改标签](extensibility/change-label.md)
 #### [扩展编号规则作用域](extensibility/extend-number-sequence-scope.md)
 
-## [连续交货主页](dev-tools/continuous-delivery-home-page.md)
-### [开发和连续交货常见问题](dev-tools/continuous-delivery-faq.md)
-### [从生成输出中排除测试包](dev-tools/exclude-test-packages.md)
-### [使用源代码管理来管理第三方模型和运行时包](dev-tools/manage-runtime-packages.md)
-### [自动生成中的版本模型](dev-tools/version-models-build.md)
 
-## 性能主页
+
+
+## 绩效
 ### [使用跟踪分析器跟踪](perf-test/trace-trace-tutorial.md)
 ### [使用 Visual Studio Team Services 进行的 PerfSDK 和多用户测试](perf-test/perfsdk-tutorial.md)
 ### [使用跟踪分析器诊断问题和分析性能问题](perf-test/trace-parser.md)
@@ -155,10 +149,8 @@
 ### [测试和验证](perf-test/testing-validation.md)
 ### [Visual Studio 中的测试项目](perf-test/testing-support.md)
 ### [采用连续生成和测试自动化的部署](perf-test/continuous-build-test-automation.md)
-## 日期
-### [日期有效性](dev-tools/date-effectivity.md)
-## 许可授权
-### [ISV 许可授权](dev-tools/isv-licensing.md)
+## [日期有效性](dev-tools/date-effectivity.md)
+## [ISV 许可授权](dev-tools/isv-licensing.md)
 
 # [用户界面开发](user-interface/user-interface-development-home-page.md)
 ## 教程
@@ -167,8 +159,8 @@
 ### [构建导航](user-interface/build-navigation.md)
 ### [构建工作区](user-interface/build-workspace.md)
 ## 窗体
-### [Dynamics 365 for Finance and Operations Enterprise Edition 中的导航](user-interface/page-navigation.md)
-### [Dynamics 365 for Finance and Operations Enterprise Edition 中的布局](user-interface/page-layout.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition 中的导航](user-interface/page-navigation.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition 中的布局](user-interface/page-layout.md)
 ### [Symbol 字体](user-interface/symbol-font.md)
 ### [具有自定义模式的测试窗体](user-interface/testing-forms-custom-patterns.md)
 ### [创建并使用深层链接](user-interface/create-deep-links.md)
@@ -359,6 +351,104 @@
 #### [ValueDesign 类型](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md)
 #### [ValueMetadata 类型](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
+# 数据集成
+## [集成模式](data-entities/integration-overview.md)
+
+## 数据集成 API
+### [数据管理包 API](data-entities/data-management-api.md)
+### [服务终结点](data-entities/services-home-page.md)
+#### [服务身份验证故障排除](data-entities/troubleshoot-service-authentication.md)
+### [OData](data-entities/odata.md)
+### [客户服务](data-entities/custom-services.md)
+### [定期集成](data-entities/recurring-integrations.md)
+
+## 集成开发
+### [使用数据实体进行数据集成](data-entities/data-management-integration-data-entity.md)
+#### [开发数据迁移实体](data-entities/develop-entity-for-data-migration.md)
+#### [开发复合数据实体](data-entities/develop-composite-data-entities.md)
+#### [配置跨公司财务数据共享](data-entities/tasks/configure-financial-cross-company-data-sharing.md)
+#### [创建记录模板以加快数据输入](data-entities/tasks/create-record-template-facilitate-data-entry.md)
+#### [使用记录模板创建新记录](data-entities/tasks/use-record-template-new-record.md)
+
+### [使用 Common Data Service 进行数据集成](data-entities/data-integration-cds.md) 
+#### [配置现金方案的目标客户](../supply-chain/sales-marketing/prospect-to-cash.md)
+##### [将 Finance and Operations 的产品同步到 Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+##### [将 Sales 的客户同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+##### [将 Sales 的联系人同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping.md)
+##### [将 Sales 的销售报价单标题和行同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+##### [将 Finance and Operations 的销售订单标题和行同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+##### [将 Finance and Operations 的销售发票标题和行同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [将 Sales 的客户直接同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [将 Finance and Operations 的产品直接同步到 Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [将 Finance and Operations 的销售订单标题和行直接同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [将 Finance and Operations 的销售发票标题和行直接同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+
+### [使用外部 Web 服务](data-entities/consume-external-web-service.md)
+
+
+# [数据管理](data-entities/data-entities-data-packages.md)
+
+## [数据实体](data-entities/data-entities.md)
+
+### [配置数据项目](data-entities/configuration-data-projects.md)
+### [配置数据包](data-entities/configuration-data-packages.md)
+### [复制公司间的配置数据](data-entities/copy-configuration.md)
+### [配置数据模板](data-entities/configuration-data-templates.md)
+### [跟踪实体更改](data-entities/entity-change-track.md)
+
+## 标准数据实体
+### [数据实体报表](data-entities/data-entities-report.md)
+### [数据实体：应付帐款和税](data-entities/data-entities-accounts-payable-taxes.md)
+### [数据实体：应收帐款](data-entities/data-entities-accounts-receivable.md)
+### [数据实体：银行](data-entities/data-entities-bank.md)
+### [数据实体：期初余额](data-entities/data-entities-beginning-balances.md)
+### [数据实体：预算计划](data-entities/data-entities-budget-plan.md)
+### [数据实体：预算编制](data-entities/data-entities-budgeting.md)
+### [数据实体：成本计算](data-entities/data-entities-costing.md)
+### [数据实体：费用管理](data-entities/data-entities-expense-management.md)
+### [数据实体：固定资产](data-entities/data-entities-fixed-assets.md)
+### [数据实体：总帐](data-entities/data-entities-general-ledger.md)
+### [数据实体：全球通讯簿](data-entities/data-entities-global-address-book.md)
+### [数据实体：人力资源](data-entities/data-entities-human-resources.md)
+### [数据实体：库存管理](data-entities/data-entities-inventory-management.md)
+### [数据实体：主计划](data-entities/data-entities-master-plan.md)
+### [数据实体：采购](data-entities/data-entities-procurement-sourcing.md)
+### [数据实体：产品信息管理](data-entities/data-entities-product-information-management.md)
+### [数据实体：生产控制](data-entities/data-entities-production-control.md)
+### [数据实体：项目会计](data-entities/data-entities-project-accounting.md)
+### [数据实体：公共部门](data-entities/data-entities-public-sector.md)
+### [数据实体：零售](data-entities/data-entities-retail.md)
+### [数据实体：销售和市场营销执行](data-entities/data-entities-sales-marketing.md)
+### [数据实体：销售和市场营销售前](data-entities/data-entities-sales-marketing-pre-sales.md)
+### [数据实体：系统管理](data-entities/data-entities-system-administration.md)
+### [数据实体：工作流](data-entities/data-entities-workflow.md)
+
+## [数据导入和导出作业](data-entities/data-import-export-job.md)
+
+### [使用总帐实体导入凭证的最佳实践](data-entities/tips-tricks-import-general-journal-entity.md)
+
+## 数据实体开发
+### [创建新数据实体](data-entities/build-consuming-data-entities.md)
+### [数据实体属性](data-entities/behavioral-properties-data-entities.md)
+### [创建计算列和虚拟字段](data-entities/data-entity-computed-columns-virtual-fields.md)
+### [跨公司行为](data-entities/cross-company-behavior.md)
+### [处理国家/地区代码](data-entities/countryregion-codes-configuration-keys.md)
+### [继承模式](data-entities/support-super-type-sub-type.md)
+### [数据实体向导规则](data-entities/data-entity-wizard-rules.md)
+### [元数据属性](data-entities/behavioral-properties-data-entities.md)
+### [验证、默认值和未映射的字段](data-entities/validations-defaults-unmapped-fields.md)
+### [安全和数据实体](data-entities/security-data-entities.md)
+
+## [提供您自己的数据库](analytics/export-entities-to-your-own-database.md)
+
+# [连续交货主页](dev-tools/continuous-delivery-home-page.md)
+## [开发和连续交货常见问题](dev-tools/continuous-delivery-faq.md)
+## [从生成输出中排除测试包](dev-tools/exclude-test-packages.md)
+## [使用源代码管理来管理第三方模型和运行时包](dev-tools/manage-runtime-packages.md)
+## [自动生成中的版本模型](dev-tools/version-models-build.md)
+
+
 # 使用 Lifecycle Services 发布解决方案
 ## [开发和发布](lcs-solutions/lcs-solutions-app-source.md)
 ## [阶段和发布](lcs-solutions/marketing-content-lcs-solutions.md)
@@ -377,9 +467,7 @@
 ### [独立的本地化模型](lcs-solutions/separate-localization-models.md)
 ### [提交监管预警](lcs-solutions/submit-localization-alerts.md)
 
-
-
-# 财务开发
+# [财务开发](financial/financial-dev-home-page.md)
 ## [维度](financial/dimensions.md)
 ## [将维度添加到 Excel 模板](financial/dimensions-overview.md)
 ## [维度条目控件对话框支持](financial/dimension-entry-control-dialog-support.md)
@@ -408,7 +496,7 @@
 
 ## 云部署
 ### [Azure Resource Manager 使用培训](deployment/arm-onboarding.md)
-### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations Enterprise Edition](deployment/expressroute.md)
+### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
 ## [内部部署](deployment/on-premises-deployment-landing-page.md)
 ### [本地概览](deployment/on-premises-overview.md)
@@ -416,6 +504,7 @@
 ### [创建本地项目](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [设置并部署本地环境](deployment/setup-deploy-on-premises-environments.md)
 ### [开发自定义模型并将其部署到本地环境](deployment/develop-deploy-custom-models-on-premises.md)
+### [将更新为本地部署](deployment/apply-updates-on-premises.md)
 
 ## 部署自定义代码
 ### [创建可部署包](deployment/create-apply-deployable-package.md)
@@ -445,7 +534,7 @@
 #### [将升级的销售多维数据集迁移至实体商店](migration-upgrade/migrate-upgraded-cube-entity-store.md)
 #### [升级预算计划](migration-upgrade/upgrade-budget-planning.md)
 
-## 代码迁移和升级
+## [代码迁移和升级](migration-upgrade/code-migration-home-page.md)
 ### [准备迁移代码](migration-upgrade/prepare-migration.md)
 ### [在代码迁移期间配置 Visual Studio Team Services 映射](migration-upgrade/configure-vso-solution.md)
 ### [拆分模型](dev-tools/model-split.md)
@@ -476,6 +565,7 @@
 ## [许可证代码和 Configuration Key 报表](sysadmin/license-codes-configuration-keys-report.md)
 ## [跨公司数据共享](sysadmin/cross-company-data-sharing.md)
 ## [维护模式](sysadmin/maintenance-mode.md)
+## [预配置系统帐户](sysadmin/pre-configured-system-accounts.md)
 ## [基于角色的安全性](sysadmin/role-based-security.md)
 ### [安全体系结构](sysadmin/security-architecture.md)
 ### [安全报告](sysadmin/security-reports.md)
@@ -496,10 +586,11 @@
 ### [新增功能](lifecycle-services/whats-new-lcs.md)
 ### [已知问题](lifecycle-services/known-issues.md)
 ## [Dynamics Lifecycle Services 用户指南](lifecycle-services/lcs-user-guide.md)
+## [订阅估算器](lifecycle-services/subscription-estimator.md)
 ## [配置安全性](lifecycle-services/configure-lcs-security.md)
 ## [问题搜索](lifecycle-services/issue-search-lcs.md)
 ## [配置管理器](lifecycle-services/configuration-manager-lcs.md)
-### [设置配置管理器 ](lifecycle-services/set-up-configuration-manager-lcs.md)
+### [设置配置管理器](lifecycle-services/set-up-configuration-manager-lcs.md)
 ## [配置代码升级服务](lifecycle-services/configure-execute-code-upgrade.md)
 ## [创建方法 ](lifecycle-services/create-methodology.md)
 ## [业务流程建模器](lifecycle-services/bpm-overview.md)
@@ -511,6 +602,7 @@
 ## [业务流程建模器流程图](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [上载自定义业务流程](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [监控和诊断](lifecycle-services/monitoring-diagnostics.md)
+## [跟踪用户登录](lifecycle-services/user-logins.md)
 ## [资产库](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - 翻译服务概览](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 翻译服务用户指南](lifecycle-services/use-translation-service.md)
@@ -594,12 +686,13 @@
 ## [将数据库从 SQL Server 复制到 Azure SQL 数据库生产环境](database/copy-database-from-sql-server-to-azure-sql.md)
 ## [在非生产环境中还原数据库](database/request-point-in-time-restore.md)
 ## [导出数据库的副本以便今后还原](database/copy-operations-database.md)
+## [请求沙盒数据库刷新](database/database-refresh.md)
 
 # 支持
-## [获取对 Dynamics 365 for Finance and Operations Enterprise Edition 和 Lifecycle Services 的支持](lifecycle-services/lcs-support.md)
+## [获取对 Dynamics 365 for Finance and Operations, Enterprise edition 和 Lifecycle Services 的支持](lifecycle-services/lcs-support.md)
 ## [记录顶级支持票证](lifecycle-services/premier-support.md)
 ## [将请求提交给 Dynamics Service 工程团队](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [设置对 Dynamics 365 for Finance and Operations Enterprise Edition 的技术支持](lifecycle-services/support-experience.md) 
+## [设置对 Dynamics 365 for Finance and Operations, Enterprise edition 的技术支持](lifecycle-services/support-experience.md) 
 ## [计划的维护时段常见问题](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [云操作和服务](lifecycle-services/cloud-operations-servicing.md)
 ## [管理 Finance and Operations 支持体验](lifecycle-services/cloud-powered-support-lcs.md)

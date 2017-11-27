@@ -1,9 +1,9 @@
 ---
-title: "Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 文档"
-description: "针对 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的文档。"
+title: "Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 文档"
+description: "针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 的文档。"
 author: margoc
 manager: AnnBe
-ms.date: 09/29/2017
+ms.date: 11/13/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,17 +16,17 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb040b28078e5072fdb695e7b39e82557219addc
-ms.openlocfilehash: ca1658a9dc7594168476298132274b2c5910b012
+ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
+ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 11/13/2017
 
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations 简介
 [!include[banner](includes/banner.md)]
 
-使用以下资源查找适用于最终用户、开发人员和 IT 专业人员的重要内容，了解如何让 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 为您的组织服务。 
+使用以下资源查找适用于最终用户、开发人员和 IT 专业人员的重要内容，了解如何让 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 为您的组织服务。 
 
 其中大部分内容也适用于相关产品：Microsoft Dynamics 365 for Retail 和 Microsoft Dynamics 365 for Talent。 
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 10/10/2017
 
 <h3><a href="../supply-chain/index.md">供应链管理</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">成本管理</a></p>
-<p><a href="../supply-chain/inventory/inventory-locations.md">库存管理</a></p>
+<p><a href="../supply-chain/inventory/inventory-home-page.md">库存管理</a></p>
 <p><a href="../supply-chain/master-planning/master-plans.md">主计划</a></p>
 <p><a href="../supply-chain/procurement/procurement-sourcing-overview.md">采购</a></p>
 <p><a href="../supply-chain/pim/product-information.md">产品信息管理</a></p>
@@ -86,19 +86,22 @@ ms.lasthandoff: 10/10/2017
 
 
 
-<h3><a href="../dev-itpro/dev-tools/developer-home-page.md">开发</h3>
+<h3><a href="../dev-itpro/dev-tools/developer-home-page.md">发展</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">可扩展性</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">数据管理和集成</a></p>
+
+<p><a href="../dev-itpro/data-entities/integration-overview.md">数据集成</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">数据管理</a></p>
+
 <p><a href="../dev-itpro/office-integration/office-integration.md">Office 集成</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">连续交货</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">移动平台</a></p>
 <p><a href="get-started/demo-data.md">演示数据</a></p>
 
-<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">管理</h3>
+<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">系统管理</h3>
 <p><a href="../dev-itpro/deployment/choose-deployment-type.md">部署</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">升级</a></p>
-<p><a href="../dev-itpro/dev-tools/developer-home-page.md#service-environments">服务</a></p>
-<p><a href="../dev-itpro/data-entities/data-management-integration-data-entity.md">数据管理</a></p>
+<p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">服务</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">数据管理框架</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">组织管理</a></p>
 </td>
@@ -112,7 +115,7 @@ ms.lasthandoff: 10/10/2017
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">呼叫中心</p>
 <p><a href="../retail/define-maintain-retail-channels.md">通道设置和管理</p>
-<p><a href="../retail/retail-peripherals-overview.md">MPOS 和云 POS</p>
+<p><a href="../retail/retail-peripherals-overview.md">MPOS 和 Cloud POS</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">Retail 开发人员和管理</p>
 
 </td>

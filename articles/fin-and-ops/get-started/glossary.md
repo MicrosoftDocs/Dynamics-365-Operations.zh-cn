@@ -1,6 +1,6 @@
 ---
 title: "Finance and Operations 词汇表"
-description: "此词汇表定义了 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 中的重要术语和概念。"
+description: "此词汇表定义了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的重要术语和概念。"
 author: tonyafehr
 manager: AnnBe
 ms.date: 07/25/2017
@@ -18,10 +18,10 @@ ms.author: tfehr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 04f47b838bb5ca0d22f36855c3a969d4c38430de
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: faf9355218f39e3ded194cbe3726a76b04aa9dbf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
-此词汇表定义了 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 中的重要术语和概念。 
+此词汇表定义了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的重要术语和概念。 
 
 ### <a name="a"></a>**A**
 

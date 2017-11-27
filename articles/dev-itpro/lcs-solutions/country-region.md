@@ -3,24 +3,24 @@ title: "本地化和监管功能"
 description: "本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c73eeaaf28df8db720431d4bcd317c9721baa99d
-ms.openlocfilehash: fd01d40d3e74503e3e310132882306ed8c23ad1d
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -53,7 +53,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品�
 -   [向 Microsoft 告知国家/地区监管预警并跟踪监管功能的状态](submit-localization-alerts.md)
 
 ### <a name="dynamics-365-roadmap"></a>Dynamics 365 路线图
-[Dynamics 365 路线图](https://roadmap.dynamics.com/) 可提供我们当前工作内容的快照。 使用此路线图可了解通常可用的功能以及仍在开发中的功能。 开发中的所有日期和功能都是基于当前预期的初步设计，如有更改，恕不另行通知。
+[Dynamics 365 路线图](https://roadmap.dynamics.com/)可提供我们当前工作内容的快照。 使用此路线图可了解通常可用的功能以及仍在开发中的功能。 开发中的所有日期和功能都是基于当前预期的初步设计，如有更改，恕不另行通知。
 
 ## <a name="electronic-reporting"></a>电子申报
 电子申报 (ER) 工具可让您根据各个国家/地区的法律要求配置电子单据的格式。 ER 可让您在电子单据的生命周期中管理它们。 有关详细信息，请参阅以下主题之一：
