@@ -1,9 +1,9 @@
 ---
 title: "产品配置模型的计算常见问题"
-description: "本文描述产品配置模型的计算。并说明如何与约束一起使用计算。"
+description: "本主题描述产品配置模型的计算。并说明如何与约束一起使用计算。"
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fea4e139d32c780769bafe08d603b828d366550c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 0763e5a02e7a14b6ef369103aa25e435559abe19
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文描述产品配置模型的计算。并说明如何与约束一起使用计算。
+本主题描述产品配置模型的计算。并说明如何与约束一起使用计算。
 
 计算可以用于算术运算或逻辑运算。 它们补充产品配置模型的表达式约束。 您可以在**基于约束的产品配置模型详细信息**页上定义计算，然后在表达式编辑器中构建计算表达式。 有关详细信息，请参阅“创建计算”。
 
@@ -75,7 +75,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="can-i-overwrite-the-value-that-is-calculated-for-the-target-attribute"></a>我可以覆盖为目标属性计算的值吗？
 您可以覆盖为目标属性计算的值，除非目标属性被设置为隐藏或只读状态。
 
-## <a name="how-do-i-set-a-target-attribute-as-hidden-or-readonly"></a>如何将目标属性设置为隐藏或只读？
+## <a name="how-do-i-set-a-target-attribute-as-hidden-or-read-only"></a>当处于隐藏或只读状态时，如何设置目标属性？
 若要设置处于隐藏或只读状态的属性，请执行以下步骤。
 
 1.  单击**产品信息管理** &gt; **通用** &gt; **产品配置模型**。

@@ -3,7 +3,7 @@ title: "项目管理与核算"
 description: "项目管理和核算功能可在多个行业提供服务、生产产品或实现结果。"
 author: KimANelson
 manager: AnnBe
-ms.date: 09/14/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cd30c9278c58f8e0ca9b50f67a999708bd64c0a2
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -228,7 +228,7 @@ WBS 是将为项目完成的工作的描述。 WBS 是任务的层次结构。 �
 <tbody>
 <tr class="odd">
 <td>总成本 - 实际</td>
-<td>估计成本必须手动输入。 填写<strong>“成本预估”</strong>页上的<strong>“总成本”</strong>或<strong>“总数量”</strong>列后，应将用户输入的总计减去实际成本。 结果就是完成项目的成本。通常，成本进度的跟踪不是基于每个期间内记录的酒店住宿和餐饮次数。 相反， 跟踪通常基于与估计工时的总量的较。 此方法不需要预测模型，并且可以手动更改总成本或总数量。 在<strong>总成本</strong>或<strong>总数量</strong>列中输入值后，Finance and Operations 会将此值与相应期间内过帐的实际交易记录进行比较，然后减小<strong>要完成的数量</strong>或<strong>完工尚需成本</strong>列中的值。</td>
+<td>估计成本必须手动输入。 填写<strong>“成本预估”</strong>页上的<strong>“总成本”</strong>或<strong>“总数量”</strong>列后，应将用户输入的总计减去实际成本。 结果是完成项目使用的成本。 通常，成本的跟踪进度不基于每个期间记录的酒店住宿和津贴的数量（举例）。 相反， 跟踪通常基于与估计工时的总量的较。 此方法不需要预测模型，并且可以手动更改总成本或总数量。 在<strong>总成本</strong>或<strong>总数量</strong>列中输入值后，Finance and Operations 会将此值与相应期间内过帐的实际交易记录进行比较，然后减小<strong>要完成的数量</strong>或<strong>完工尚需成本</strong>列中的值。</td>
 </tr>
 <tr class="even">
 <td>总预算 - 实际</td>
@@ -243,15 +243,15 @@ Finance and Operations 不会自动减小预测的估计值。 因此，最好�
 > </tr>
 <tr class="odd">
 <td>剩余预算</td>
-<td>此方法使用剩余的预算模型计算完成项目的成本。 当您使用此方法时，剩余预算模型中的实际成本和预测金额将相加。 结果就是总成本。在使用此方法之前，必须将剩余预算模型设置为根据系统中记录的实际交易记录减去交易记录。 在<strong>“预测模型”</strong>页上，请确保在<strong>“自动预测缩减”</strong>组中标记这些字段。 通常，从原始预算复制剩余预算。 在输入交易记录，剩余预算的交易记录将减少。 随着项目的进展，如果您确定必须调整剩余预算，则应将预测交易记录分配到剩余预算。 <strong>注意：</strong>仅当预测模型附加到预估时，才能应用此方法。</td>
+<td>此方法使用剩余的预算模型计算完成项目的成本。 当您使用此方法时，剩余预算模型中的实际成本和预测金额将相加。 结果是总成本。 在您使用此方法之前，必须设置剩余预算模型扣除基于在系统中记录的实际交易记录的交易记录。 在<strong>“预测模型”</strong>页上，请确保在<strong>“自动预测缩减”</strong>组中标记这些字段。 通常，从原始预算复制剩余预算。 在输入交易记录，剩余预算的交易记录将减少。 随着项目的进展，如果您确定必须调整剩余预算，则应将预测交易记录分配到剩余预算。 <strong>注意：</strong>仅当预测模型附加到预估时，才能应用此方法。</td>
 </tr>
 <tr class="even">
 <td>同于上一个评估</td>
-<td>在上一期间使用的同一估计方法也适用。如果上一期间需要预测模型，则此方法也需要预测模型。</td>
+<td>使用上一个期间使用的同一评估方法。 如果以前期间所需的预测模型，此方法要求预测模型。</td>
 </tr>
 <tr class="odd">
 <td>将完工尚需成本设置为零</td>
-<td>通常，此方法在清除评估项目前使用。 此方法会将总估计与已过帐的实际交易记录匹配并清除<strong>“完工尚需成本”</strong>列。 完成的最终百分比始终为 100％。 将不会为您创建的每个成本行都选择<strong>“预测”</strong>字段，并且将从以前的成本预估复制总估计。 将从完成项目的成本中减去评估期间的实际消耗量。此方法不需要预测模型。</td>
+<td>通常，此方法在清除评估项目前使用。 此方法会将总估计与已过帐的实际交易记录匹配并清除<strong>“完工尚需成本”</strong>列。 完成的最终百分比始终为 100％。 将不会为您创建的每个成本行都选择<strong>“预测”</strong>字段，并且将从以前的成本预估复制总估计。 从成本中完成项目中减去评估期间的实际消耗额。 此方法并不要求预测模型。</td>
 </tr>
 <tr class="even">
 <td>从成本模板</td>

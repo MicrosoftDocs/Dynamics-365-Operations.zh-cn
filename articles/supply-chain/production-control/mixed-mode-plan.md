@@ -1,9 +1,9 @@
 ---
 title: "混合模式计划 - 合并不同的流程和精益采购"
-description: "文本提供有关混合模式计划的信息。 在混合模式计划中，您可以基于物料流来模拟供应链。 Microsoft Dynamics 365 for Finance and Operations 确保物料流遵循您的模型，不论您选择的是哪种供应策略（看板、生产订单、采购订单、批次订单或转移单）。"
+description: "文主题提供有关混合模式计划的信息。"
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 09ced68ffe8ff300a04beb65fdf8527e63456f04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-文本提供有关混合模式计划的信息。 在混合模式计划中，您可以基于物料流来模拟供应链。 Microsoft Dynamics 365 for Finance and Operations 确保物料流遵循您的模型，不论您选择的是哪种供应策略（看板、生产订单、采购订单、批次订单或转移单）。 
+文主题提供有关混合模式计划的信息。 在混合模式计划中，您可以基于物料流来模拟供应链。 Microsoft Dynamics 365 for Finance and Operations 确保物料流遵循您的模型，不论您选择的是哪种供应策略（看板、生产订单、采购订单、批次订单或转移单）。 
 
 无论产品结构如何，您都可以选择产品供应的总体策略。  
 
@@ -59,7 +59,7 @@ Finance and Operations 确保物料流遵循该模型。
 
 为所有其他供应策略类型提供了相同的逻辑。 因此，在批准生产和供应后，将基于应与实际订单一起运行的相同逻辑进行长期物料计划。
 
-## <a name="materials-allocation-crosssupply-policy--resource-consumption-on-boms"></a>跨供应策略的物料分配 - 物料清单中的资源消耗量
+## <a name="materials-allocation-cross-supply-policy--resource-consumption-on-boms"></a>跨供应策略的物料分配 - 物料清单中的资源消耗量
 资源消耗量是一项重要功能。 利用资源消耗量，可基于供应策略（订单类型）动态选择物料领取仓库，并可更轻松地维护基础数据。  
 
 资源消耗量要求基于产品的供应方式分配物料领取仓库。 换句话说，在运行时，系统将查找应用于制造的资源。 随后，系统将基于这些资源查找领料仓库。  

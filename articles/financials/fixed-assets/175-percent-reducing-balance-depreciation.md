@@ -1,9 +1,9 @@
 ---
-title: "175% 余额递减法"
-description: "本文提供了 175% 余额递减法折旧方法的概览。"
+title: "175% 余额递减法折旧"
+description: "本主题提供了 175% 余额递减法折旧方法的概览。"
 author: saraschi2
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 13911
 ms.assetid: cc5d001f-bcfe-4602-9ec1-9e265e9fd188
 ms.search.region: Global
@@ -19,19 +19,19 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 318e111f784157666c2853bcd6d5b3af2c9ffdc5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a61e743898e3e65c0012a7aeb9837e55e9143d01
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="175-percent-reducing-balance-depreciation"></a>175% 余额递减法
+# <a name="175-percent-reducing-balance-depreciation"></a>175% 余额递减法折旧
 
 [!include[banner](../includes/banner.md)]
 
 
-本文提供了 175% 余额递减法折旧方法的概览。
+本主题提供了 175% 余额递减法折旧方法的概览。
 
 如果您设置固定资产折旧模板并在**“折旧模板”**页面上的**“方法”**字段中选择**“175% 余额递减法”**，已分配此折旧模板的固定资产将在每个折旧期间按相同的百分比进行折旧。 
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/29/2017
 
 ### <a name="fiscal"></a>会计
 
-如果在**“折旧年份”**字段中选择**“会计”**，则 175% 余额递减法将基于用于帐簿中指定的会计日历的会计年度或者在**“分类帐”**页面上选择的会计日历的会计年度进行计算。 会计年度是在**“会计日历”**页上设置的。 有关详细信息，请参阅[会计日历、会计和年度期间](..\budgeting\fiscal-calendars-fiscal-years-periods.md)。
+如果在**“折旧年份”**字段中选择**“会计”**，则 175% 余额递减法将基于用于帐簿中指定的会计日历的会计年度或者在**“分类帐”**页面上选择的会计日历的会计年度进行计算。 会计年度是在**“会计日历”**页上设置的。 有关详细信息，请参阅[会计日历、会计年度和期间](..\budgeting\fiscal-calendars-fiscal-years-periods.md)。
 
 例如，对于会计年度 7 月 1 日至次年 6 月 30 日，折旧计算从 7 月 1 日开始。 会计年度可以长于或短于 12 个月。 对于每个期间，折旧都可以自动调整，下一个会计年度的长度取决于**“财务日历”**页面上的期间的设置。 
 

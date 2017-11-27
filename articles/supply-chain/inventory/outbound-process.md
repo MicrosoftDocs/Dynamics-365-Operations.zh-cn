@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 9c09a7bd314bb9005eb0b6c69d7cccad1c30cfdb
-ms.openlocfilehash: 7b395cab2184f8f9f3f50a7a595c6ed782645323
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1b8b17b719713097d77a117cca53eff6886ff1c7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 10/04/2017
 
 [![结束输出库存订单选项](./media//end-output-inventory-order.png)](./media//end-output-inventory-order.png)
 
-在某些情况下，在领料单流程中不能领取库存中的某些物料。 例如，如果仓库工作人员减少领料行上的数量后再处理领料单，就可能发生这种情况。 如果**结束输出库存订单**选项设置为**是**，则剩余的未领取数量则往回报告至订单级别。 如果此选项设置为**否**，则剩余的未领取数量保留为未结输出单数量。 在这种情况下，作为**未结输出单**功能的一部分，这些数量仍然发放到仓库，且必须添加到新的领料单中。
+在仓库工作人员减少领料单数量时，相应的库存订单数量将从装运中删除。 在某个时间点更新了领料单后，如果**结束输出库存订单**选项设置为**是**，其余数量将往回报告给订单。 如果**结束输出库存订单**选项设置为**否**，剩余数量将作为未结输出单数量保留，且必须作为**未结输出单**功能的一部分添加到新的领料单中。 
 
 [![功能菜单上的未结输出单命令](./media/open-output-order.png)](./media/open-output-order.png)
 

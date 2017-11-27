@@ -3,7 +3,7 @@ title: "设置集装化"
 description: "此过程描述如何在“仓库管理”中自动进行装载集装化。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/07/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeb7d956560c513c08d5e20dcf20989b49137a52
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: c5faf926071dec5d2ddc1c9e921a98ecd0754917
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="set-up-containerization"></a>设置集装化
@@ -83,7 +83,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="set-up-a-container-group"></a>设置集装箱组
 1. 转到“仓库管理”>“设置”>“集装箱”>“集装箱组”。
 2. 单击“新建”。
-    * 可以设置集装箱类型的逻辑组。 对于每个组，可以指定集装箱包装和集装箱填充百分比的序列。物料的尺寸维度用于决定其在集装箱中是否合适。 使用最接近物料尺寸维度的集装箱。 如果在组中有多个集装箱类型，我们建议您按尺寸排列顺序，因此最大的集装箱在序列中排第一，编号为 1，最小的集装箱排最后。    
+    * 可以设置集装箱类型的逻辑组。 对于每个组，您可以指定包装集装箱的顺序和要填充的集装箱的百分比。 物料的尺寸维度用来确定其是否适合集装箱。 使用最接近物料尺寸维度的集装箱。 如果在组中有多个集装箱类型，我们建议您按尺寸排列顺序，因此最大的集装箱在序列中排第一，编号为 1，最小的集装箱排最后。    
 3. 在“集装箱组 ID”字段中，键入一个值。
 4. 在“描述”字段中，键入一个值。
 5. 单击“新建”。

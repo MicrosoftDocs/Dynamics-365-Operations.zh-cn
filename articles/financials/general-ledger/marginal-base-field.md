@@ -1,9 +1,9 @@
 ---
 title: "基于“边际基数”和“计算方法”的销售税比率"
-description: "本文说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。"
+description: "本主题说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TaxTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e16e91208cdd6c1a5c904fb763454371b02c71fd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bf0f8f2e3f553ea181e8cc9ab5b712fce64a89d4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。
+本主题说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。
 
 “销售税代码”页上的“计算”快速选项卡上的“边际基数”确定哪个金额用于从“销售税代码值”页中的比率中选取相应的税率。 “边际基数”字段中的金额类型与“计算方法”字段中的方法组合可确定逻辑来查找交易记录的正确税率。 
 

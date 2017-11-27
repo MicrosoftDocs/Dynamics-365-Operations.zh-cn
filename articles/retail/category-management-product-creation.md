@@ -15,10 +15,10 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 6b9afb40b68b672514c083d99efbc9bd098dd561
-ms.openlocfilehash: b158ff5b277c125e0aa158c071007ed8a0f25482
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 98250062892e0c5f665616dc3944181a3ff8599a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/03/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

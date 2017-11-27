@@ -1,9 +1,9 @@
 ---
 title: "通过采购获得资产"
-description: "本文介绍如何设置固定资产和应付账款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。"
+description: "本主题介绍如何设置固定资产和应付账款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: AssetParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 84e7e6eb17e5741a2984c570786a495864ffbc74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 1e9b1dc6297f33ea25ca498895740596ebd020b8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍如何设置固定资产和应付账款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。
+本主题介绍如何设置固定资产和应付账款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。
 
  以下方法可用于将固定资产和应付账款相集成，并且您必须为所有固定资产使用同一种方法：
 -   您手动创建某一固定资产，然后将该固定资产的编号添加到采购订单或供应商发票上的行中。 在过帐供应商发票时为该资产自动过帐购置交易记录。 此方法是默认方法。
@@ -92,7 +92,7 @@ ms.lasthandoff: 09/29/2017
 |  描述                               | 科目             | 借方    | 贷方   |
 |-------------------------------------------|---------------------|----------|----------|
 | 采购，产品收据采购对方科目 | 应计采购   | 1,600.00 |          |
-| 供应商余额                            | 应付账款    |          | 1,600.00 |
+| 供应商余额                            | 应付帐款    |          | 1,600.00 |
 | 采购，固定资产收货             | 计算机支出    | 1,600.00 |          |
 | 采购，产品收据采购        | 未开票收货 |          | 1,600.00 |
 

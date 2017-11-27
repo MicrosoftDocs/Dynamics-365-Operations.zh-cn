@@ -3,7 +3,7 @@ title: "到达概览"
 description: "本主题提供有关“到达概览”功能的信息。 “到达概览”页是此功能的一部分，提供预期作为到货物料到达的所有物料的概览。"
 author: perlynne
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WMSArrivalOverview, WMSArrivalOverviewProfile, WMSJournalTable
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 274363
 ms.assetid: 375807b2-a426-4f1b-bc1f-2fe00fd48413
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d9ebc0ea12de0c97718b565b77d99c3a1fcd6f21
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 9c174dc7bf61ffab0d20c7685a29007e0b6e2e7e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -104,7 +104,7 @@ Sammy 可以查看以下信息：
 
 ### <a name="update-journals"></a>更新日记帐
 
-若要登记到期要处理的一个或多个订单行，Sammy 可以在概览网格或在行网格中选择该行，然后单击**日记帐**&gt;**显示收货的到达**。 显示与行匹配的物料到达标题。 若要采购订单物料收货更新登记的物料，Sammy 可以访问准备好更新的物料到达日记帐标题。 若要访问这些物料到达日记帐标题，单击**日记帐**&gt;**物料收货就绪日记帐**。 显示准备好在指定仓库范围内进行物料收货更新的所有标题行。 （显示的标题行与日间隔无关）。
+若要登记到期要处理的一个或多个订单行，Sammy 可以在概览网格或在行网格中选择该行，然后单击**日记帐**&gt;**显示收货的到达**。 显示与行匹配的物料到达标题。 若要更新登记的物料的采购订单产品收货，Sammy 可以访问准备好更新的物料到达日记帐标题。 若要访问这些物料到达日记帐标题，单击**日记帐**&gt;**物料收货就绪日记帐**。 显示准备好在指定仓库范围内进行物料收货更新的所有标题行。 （显示的标题行与日间隔无关）。
 
 ### <a name="start-an-arrival-registration"></a>开始到达登记
 

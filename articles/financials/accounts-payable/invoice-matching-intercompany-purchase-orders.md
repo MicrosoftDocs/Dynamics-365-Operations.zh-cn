@@ -3,7 +3,7 @@ title: "发票匹配和内部公司采购订单"
 description: "涉及内部公司交易的采购法人设置为使用应付账款发票匹配。 在这种情况下，内部公司交易和应付账款发票匹配的过帐需求必须满足（在内部公司供应商过帐发票前）。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3101
 ms.assetid: 9c7c2e44-45f8-4325-b6de-a09fe790f9cf
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: affdffd5e73958788ed2a5a4959eea71024140ab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -52,7 +52,7 @@ ms.lasthandoff: 09/29/2017
 2.  在 Fabrikam Sales 中，登记已接收的物料并且过帐装箱单。 ICSO888 的状态更改为“已交货”。 ICPO222 的状态更改为“已收货”。
 3.  在Fabrikam Sales中，为ICSO888执行发票更新。 单位价格是 0.45，并且更新 100 项。
 4.  在Fabrikam Purchase中为 ICPO222 创建一个发票。 偶然将净价从 45.00 更改为 54.00。 显示一个图标，指示价差超出 2% 的允许价格容差。
-5.  在“发票匹配详细信息”页上，选择该选项以审核具有匹配差异的过帐。 在“供应商发票”页上，单击“确定”。如果供应商发票不是内部公司供应商发票，则过帐成功。 但是，因此，使用您的内部公司供应商发票时，过帐未获成功。 对于内部交易记录，在内部公司销售订单的发票合计必须等于相应内部公司采购订单上的发票合计。 为了解决此问题，您必须通过将净价更正为发票上的净价默认金额，例如 45.00。
+5.  在“发票匹配详细信息”页上，选择该选项以审核具有匹配差异的过帐。 在供应商发票页上，单击“确定”。 如果供应商发票不是内部公司供应商发票，过帐成功。 但是，因此，使用您的内部公司供应商发票时，过帐未获成功。 对于内部交易记录，在内部公司销售订单的发票合计必须等于相应内部公司采购订单上的发票合计。 为了解决此问题，您必须通过将净价更正为发票上的净价默认金额，例如 45.00。
 
 ## <a name="example-quantity-matching-with-intercompany-trade"></a>示例：具有内部公司交易的数量匹配
 内部公司采购订单和内部公司销售订单数量必须相等。 此要求优先于所有适用的发票匹配审核。 此示例使用以下附加内部公司交易设置：

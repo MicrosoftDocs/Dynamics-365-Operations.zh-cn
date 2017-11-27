@@ -1,9 +1,9 @@
 ---
 title: "产品变型编号和名称的命名法"
-description: "此主题介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。 新的命名法具有目标格式，包括您选择的基础产品编号、有效产品维度和文本分隔符。 您还可以创建产品名称的命名法。 最后，您可以构建命名法以识别由基于约束的产品配置器创建的配置。 这些命名法可包含您选择的属性。"
+description: "此主题介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。"
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 05/10/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 4ebebc1d287908dbe8ac7557c34fc6693c88bfae
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 067e14d8a0ab9cb5b703c1d2596dab3e20487336
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -68,7 +68,7 @@ T 恤衫 (TS1234) 生产为三个尺寸（S、M、L）、四种颜色（红色�
 
 在这种情况下，红色小码 Polo T 恤衫的产品变型编号为 TS1234-Red-Small-Polo。
 
-## <a name="nomenclature-of-constraintbased-configurations"></a>基于约束的配置命名法
+## <a name="nomenclature-of-constraint-based-configurations"></a>基于约束的配置命名法
 对于基于约束的配置，您可以为配置产品维度构建专门的命名法。 您可以选择以下**产品命名法**页面上的细分信息：
 
 -   编号规则值
@@ -92,7 +92,7 @@ T 恤衫 (TS1234) 生产为三个尺寸（S、M、L）、四种颜色（红色�
 
 在这种情况下，长度为 78 的木质材料的配置 ID 将是 WoodAAA78。
 
-## <a name="nomenclature-of-dimensionbased-configurations"></a>基于维度的配置命名法
+## <a name="nomenclature-of-dimension-based-configurations"></a>基于维度的配置命名法
 对于基于维度的配置，您可以为配置产品维度构建专门的命名法。 您可以选择以下**产品命名法**页面上的细分信息：
 
 -   编号规则值

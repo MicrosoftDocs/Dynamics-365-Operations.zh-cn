@@ -3,14 +3,14 @@ title: "Finance and Operations 客户端常见问题"
 description: "本文提供对有关 Microsoft Dynamics 365 for Finance and Operations 客户端的常见问题的解答。"
 author: jasongre
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/23/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 12334
 ms.assetid: a9a57f0e-a67c-46b1-83c9-5d6350fb3b86
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 55d4fa4629d203aa888fe6400126a872d2eee000
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 658d5a1a031f2292dbd445fa7fb345be01c61947
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="i-miss-the-ribbon-from-dynamics-ax-2012-can-i-keep-action-pane-tabs-open-all-the-time"></a>我的 Dynamics AX 2012 中没有功能区。 我是否能将“操作窗格”上的选项卡一直保持在打开状态？
 我们计划很快实现此功能。 用户随后将能够选择一直将“操作窗格”上的选项卡保持在打开状态。 如果不这样选择，这些选项卡在不使用时将被折叠，以便为页面腾出更多的屏幕空间。
 
-## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-rightclick"></a>为何我有时候在右键单击时看到不同的快捷菜单？
+## <a name="why-do-i-sometimes-see-different-shortcut-menus-when-i-right-click"></a>为何我有时候在右键单击时看到不同的快捷菜单？
 如果您右键单击了可编辑字段（或者选择了文本），则会显示浏览器的快捷菜单。 此菜单使您可以访问**“剪切”**、**“复制”**和**“粘贴”**命令。 我们无法将这些命令嵌入到 Finance and Operations 快捷菜单中，因为出于安全原因，浏览器不允许我们以编程方式访问系统剪贴板。
 
 如果您右键单击字段标签或右键单击只读控件的值，则会看到 Finance and Operations 快捷菜单。

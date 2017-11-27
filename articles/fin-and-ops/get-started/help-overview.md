@@ -1,16 +1,16 @@
 ---
 title: "帮助概览"
-description: "本文提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。"
+description: "本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。"
 author: margoc
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/31/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 16381
 ms.assetid: 018c148c-9cbd-41e0-8186-d75dbf66288f
 ms.search.region: Global
@@ -18,18 +18,18 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d67ad79c068651f32ce7dc776bc460698557bc29
-ms.openlocfilehash: 2df27a23d31ecde99bb31b4f8a19295c331cae09
+ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
+ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/11/2017
 
 ---
 
-# <a name="help-overview"></a>帮助概览
+# <a name="help-system-overview"></a>帮助系统概览
 
 [!include[banner](../includes/banner.md)]
 
-本文提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。 
+本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。 
 
 > [!NOTE] 
 > 以下产品密切相关：Dynamics 365 for Finance and Operations Enterprise 版本；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
@@ -69,16 +69,17 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](.
 
 您还可以使用任何搜索引擎查找我们的内容。 为达到最佳效果，建议您使用站点搜索，如 site:docs.microsoft.com dynamics 365“搜索词”。  
 
-![站点搜索](./media/site-search-1.png)
-
-![站点搜索结果](./media/site-search-results-2.png)
-
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>docs.microsoft.com 目录
-所有产品共用文档站点上的一个内容表，使客户能够查看他们所处的主题的上下文。 它还使您能够使用筛选器查找您正在查找的主题。
+Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内容表，使客户能够查看他们所处的主题的上下文。 它还使您能够使用目录上的筛选器控件来查找您正在查找的主题。
 
-### <a name="how-can-i-contribute"></a>我如何作出贡献？ 
+### <a name="follow-a-topic"></a>关注主题
+若要关注主题，单击评论框下的“+关注”按钮。 您需要先登录才能够关注主题。 请参阅[对我们作出评论](#leave-us-a-comment) 了解详细信息。  
 
-对我们作出评论！ 
+### <a name="give-feedback"></a>提供反馈 
+我们真心欢迎客户反馈。 您可以通过 GitHub 进行评论或对我们的内容提出更改建议。
+
+##### <a name="leave-us-a-comment"></a>对我们作出评论 
+如果您有有关某个主题的反馈或问题，请在页面底部对我们作出评论。  
 
 1 单击**评论**到达页面底部的评论。
 
@@ -96,6 +97,19 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](.
 在右边，输入电子邮件地址和新密码来创建站点的新帐户。 
 
 ![登录选项](./media/signin-options.png)
+
+
+##### <a name="suggest-a-change-or-contribute-content-through-github"></a>通过 GitHub 提出更改建议或贡献内容
+若要提出更改建议，您需要一个 GitHub 帐户，并签署“贡献者许可协议”。  在提交拉取请求后，我们将审查您建议的更改。 如果需要，我们将展开内部讨论，然后回复您。  
+
+若要开始，单击主题上的**编辑**（铅笔）按钮，或转到我们的存储库：https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public。 
+
+有关详细信息，请参阅我们的贡献者指南：https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md。 
+
+
+> [!NOTE]
+> 目前，我们只接受向我们的英语存储库贡献的内容。  
+> 我们不接受通过 GitHub 报告的问题--请确保使用拉取请求提出内容建议。 产品和功能反馈最好通过 Dynamics 365 思想门户：https://ideas.dynamics.com/ideas/ 处理。 
 
 
 ## <a name="task-guides"></a>任务指南
@@ -196,9 +210,4 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](.
 [新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
 [新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
 [新的或更新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
-
-
-
-
-
 

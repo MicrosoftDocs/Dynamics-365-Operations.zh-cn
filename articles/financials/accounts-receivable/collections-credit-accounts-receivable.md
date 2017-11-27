@@ -3,7 +3,7 @@ title: "在应收账款中的信用和收款"
 description: "使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 集合页，在一个中心视图中管理应收账款收款信息。 贷方和收款经理可以使用此主要观点以管理集合。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 3061
 ms.assetid: fd851520-8d93-434b-845b-be127d6ac3a6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 62f659d6e4529adce10e6eb2699dfc84a7329143
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 09/29/2017
 -   收款案例 - 列表页的列显示具有包含“收款”案例类型的案例类别的案例信息。
 
 > [!NOTE]
-> 可以查看有关这些表页的信息之前，必须创建一个帐龄快照。 信息只为已为其创建帐龄快照的客户显示。在列表页显示的记录可以进一步筛选，如下所示：
+> 可以查看有关这些表页的信息之前，必须创建一个帐龄快照。 只为已经创建帐龄快照的客户显示信息。 在列表页显示可附加要筛选的记录，如下所示：
 <li>默认情况下，Finance and Operations 用户访问具有一个帐龄快照的所有客户。</li>
 <li>如果客户池存在，用户必须设置为收款账户使用池筛选收集列表页上的信息。 信息将限制为在所选客户池中所包含的客户。</li>
 <li>如果用户设置为收款代理，则只为在列表上可用的收款代理选择池。 如果在收款代理的“收款代理”页中选择了“允许代理查看所有客户池”开关，所有池对该代理可用。</li>

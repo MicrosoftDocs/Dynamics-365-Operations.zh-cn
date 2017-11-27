@@ -3,7 +3,7 @@ title: "在移动作业设备上报告进度"
 description: "该过程向您展示如何在一个生产作业和工作设备登记表中开始并报告生产作业进度。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: acbedc6d27624d9a8d1e6fb9bb0d9abed1b4377f
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 8a0432b5ff01bf88b9c18de0cac0661618c654ba
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a>在移动作业设备上报告进度
@@ -34,7 +34,7 @@ ms.lasthandoff: 09/29/2017
 为了能够运行该过程，您必须选择与该用户帐户关联的“系统管理员”或“机器操作员”角色。
 
 1. 转到“生产控制”>“制造执行”>“作业卡设备”。
-2. 在“WorkerTextField”字段中，输入工作人员标记。 在 USMF 演示数据中，键入“123”代表“Christina Portra”..
+2. 在“WorkerTextField”字段中，输入工作人员标记。 在 USMF 演示数据中，键入“123”代表“Christina Portra”。
 3. 单击“登入”。
 4. 单击“筛选器”按钮。
 5. 选中或取消选中“应用配置筛选器”复选框。 如果设置了一个筛选器，则可以在 USMF 中使用生产单位 110。

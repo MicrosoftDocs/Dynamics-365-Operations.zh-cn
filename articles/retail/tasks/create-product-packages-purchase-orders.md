@@ -3,7 +3,7 @@ title: "创建采购订单的产品包装"
 description: "此程序会逐步演示如何创建产品包装，以及在采购订单上使用它。"
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a3be1e7aca7f0382aea55fa8a371c33c8b53df95
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 9d3ea8702c79d8aa6bb7cf7caa922277697610fa
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>创建采购订单的产品包装
@@ -53,7 +53,7 @@ ms.lasthandoff: 09/29/2017
 20. 单击“保存”。
 21. 关闭该页面。
 
-## <a name="add-package-to-puchase-order"></a>将包装添加到采购订单
+## <a name="add-package-to-purchase-order"></a>将包装添加到采购订单
 1. 转到“应付账款”>“采购订单”>“所有采购订单”。
 2. 单击“新建”。
 3. 在“供应商帐户”字段中，单击下拉按钮以打开查找。

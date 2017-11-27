@@ -3,7 +3,7 @@ title: "从目标客户到现金"
 description: "本主题提供在 Dynamics 365 for Finance and Operations Enterprise Edition 与 Dynamics 365 for Sales 之间从目标客户到现金解决方案的概述。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: 
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 47e70cb1291e390b42b7feff844b2aca141f09b7
-ms.openlocfilehash: a5f1ecd5f8b46287839439a963e571531ae161a7
+ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
+ms.openlocfilehash: 2accf77c5241adff7ad1648737dde451153fde46
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -42,25 +42,39 @@ ms.lasthandoff: 09/29/2017
 -   [在 Finance and Operations 中创建销售订单并将它们同步到 Sales](sales-order-template-mapping.md)
 -   [在 Finance and Operations 中创建发票并将它们同步到 Sales](sales-invoice-template-mapping.md)
 
+此解决方案提供在以下区域的直接同步：
+
+-   [维护 Sales 中的帐户并将它们直接从 Sales 同步到 Finance and Operations](accounts-template-mapping-direct.md)
+-   [维护 Finance and Operations 中的产品并将它们直接同步到 Sales](products-template-mapping-direct.md)
+-   [在 Sales 中维护联系人并将它们直接同步到 Finance and Operations 的联系人或客户](contacts-template-mapping-direct.md)
+-   [将 Sales 的销售报价单标题和行直接同步到 Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+-   [在 Finance and Operations 中创建销售订单并将它们直接同步到 Sales](sales-order-template-mapping-direct.md)
+-  [将 Sales 与 Finance and Operations 的销售订单标题和行直接同步](sales-order-template-mapping-between-sales-fin.md)
+-   [将 Sales 与 Finance and Operations 的销售订单直接同步](sales-order-template-mapping-direct-two-ways.md)
+-   [在 Finance and Operations 中创建发票并将它们直接同步到 Sales](sales-invoice-template-mapping-direct.md)
+
+
 ## <a name="system-requirements-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>Dynamics 365 for Finance and Operations Enterprise Edition 的系统要求
 
 若要使用从目标客户到现金解决方案，必须进行以下安装：
 
 - 具有平台更新 8（使用平台 7.0.4565.16212 的应用 7.2.11792.56024）的 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）
 
-- Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）的两个修补程序。
+- Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）的修补程序。
+        
+    -  [KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160) - 此修补程序支持利用数据集成功能将销售订单从 Sales 同步 Finance and Operations，另外还有一些其他增强功能。
 
     -  [KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2) - 此修补程序可以通过数据集成功能将销售订单行从 Finance and Operations 同步到 Sales。
         
     -  [KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2) - 此修补程序可以通过数据集成功能将销售订单从 Finance and Operations 同步到 Sales。
-    
-**注意**：您只需安装 KB4036524，该安装包括来自 KB4036461 的更改。
+
+**注意**：您只需安装 KB4045570，该安装包括来自其他 KB 的更改。
  
 ## <a name="system-requirements-for-dynamics-365-for-sales"></a>Dynamics 365 for Sales 的系统要求
 
 若要使用从目标客户到现金解决方案，必须进行以下安装：
 
-- Dynamics 365 for Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) 联机或更高版本。
+- Dynamics 365 for Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) 联机。
 - Dynamics 365 for Sales 版本 1.14.0.0 (v14) 或更高版本的从目标客户到现金解决方案。
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>安装用于 Sales 的从目标客户到现金解决方案

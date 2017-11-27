@@ -1,27 +1,27 @@
 ---
 title: "工作流元素"
-description: "本文介绍构成工作流的不同元素。"
+description: "本主题介绍构成工作流的不同元素。"
 author: sericks007
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 56441
 ms.assetid: de740262-6ffd-42b9-a325-540eae5cec94
 ms.search.region: Global
-ms.author: tjvass
+ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 255777651a45b899850fc870c9da288f65df702c
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍构成工作流的不同元素。
+本主题介绍构成工作流的不同元素。
 
 工作流由“元素”构成。 以下各节描述各个元素类型。
 
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/29/2017
 -   请求对单据进行更改。
 -   将单据分配给其他用户进行审核。
 
-## <a name="lineitem-workflow-elements"></a>行项工作流元素
+## <a name="line-item-workflow-elements"></a>行项工作流元素
 可以创建工作流来处理文档或文档上的行项。 例如，您为工时单创建了审核工作流。 （我们将把此工作流称为*单据工作流*。）您可以向该单据工作流添加*行项工作流*元素。 在运行行项元素时，提交文档上的每个行项进行处理。 您可能想要由同一行项工作流来处理所有行项，或者您可能想要由不同的行项工作流来处理各行项。 假定员工提交了类似于下图的时间表。
 
 ![具有行项的工作流](./media/workflow_lineitemworkflow.gif) 
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/29/2017
 -   **行项工作流 2** – 此工作流用于处理项目 ID 是 2222 的行项。
 -   **行项工作流 3** – 此工作流用于处理项目 ID 是 3333 的行项。
 
-## <a name="flowcontrol-elements"></a>流量控制元素
+## <a name="flow-control-elements"></a>流量控制元素
 以下元素可让您设计具有同时运行的备选分支或分支的工作流。
 
 ### <a name="manual-decision"></a>手动决策

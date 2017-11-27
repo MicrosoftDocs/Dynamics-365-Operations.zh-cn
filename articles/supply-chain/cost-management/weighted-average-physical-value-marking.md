@@ -1,9 +1,9 @@
 ---
 title: "具有实际成本和标记的加权平均"
-description: 
+description: "加权平均是基于加权平均原则的一种库存模型，其中，按照在库存结转期间入库物料的平均值加上前一期间的所有现有库存量，计算库存发货量。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 65501
 ms.assetid: 25041ff0-bafe-484d-a94a-e1772ad43204
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c9db625e5af77b8f5d1569e35ce2d4c20e5be646
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 69876a9d1daec4e6980728527c784a5404239cc2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
-
+加权平均是基于加权平均原则的一种库存模型，其中，按照在库存结转期间入库物料的平均值加上前一期间的所有现有库存量，计算库存发货量。
 
 在您执行库存结转时，将根据虚拟发货结算所有收货，这将保留收货总数量和值。 此虚拟发货具有将从其结算发货的相应虚拟收货。 通过这种方法，所有发货都具有相同的平均成本。 虚拟发货和收货可以视为虚拟转移，称为“加权平均库存结转转移”。
 

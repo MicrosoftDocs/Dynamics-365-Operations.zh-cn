@@ -3,7 +3,7 @@ title: "定义离散制造资源组"
 description: "一个资源组通常对应于工作单元里的某个物理组织的一组操作资源，由生产车间的黄线定义。"
 author: sorenva
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,17 +17,17 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c2423fe91d1531a326080e3a584195ea864f2e3e
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: bd9aaf49ab34c21f7c1cb02873d0ad5141b2e5e6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>定义离散制造资源组
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-一个资源组通常对应于工作单元里的某个物理组织的一组操作资源，由生产车间的黄线定义。 此程序说明如何在离散化生产中定义一个资源组。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
+一个资源组通常对应于工作单元里的某个物理组织的一组操作资源，由生产车间的黄线定义。 本流程展示如何为订单生产企业定义资源组。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 
 1. 转到“资源组”。
 2. 单击“新建”。

@@ -1,9 +1,9 @@
 ---
 title: "考勤管理登记"
-description: "时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。 本文介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。"
+description: "时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。 本主题介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 53351
 ms.assetid: 885b0cdf-53d7-4cb4-92fe-da1b9e32b39f
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 83603b1f8d20c18b7f10cd7224d491b558ee1b8b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。 本文介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。 
+时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。 本主题介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。 
 
 <a name="registrations"></a>登记
 -------------
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/29/2017
 -   间接活动，即，工作人员可能在工作日期间涉及的非生产活动。 这些活动的示例包括会议或清洁其工作区。
 -   加班，可以登记为额外工时、弹性工作时间或加班时间。
 
-## <a name="adding-clockout-registrations"></a>添加下班打卡登记
+## <a name="adding-clock-out-registrations"></a>添加下班打卡登记
 如果某个员工忘记在工作日结束时下班打卡，则可以通过运行批处理作业添加遗漏的登记。 系统将根据工作人员的关联模板比较上班打卡时间和下班打卡时间，而且自动插入遗漏的下班打卡登记并与模板的结束时间匹配。 上班打卡和下班打卡登记对于时间登记的后续计算和审核很重要，然后它们才能转移到工资单。
 
 ## <a name="calculating-registrations"></a>计算登记

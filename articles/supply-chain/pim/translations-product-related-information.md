@@ -3,7 +3,7 @@ title: "与产品相关的翻译常见问题"
 description: "此主题描述了如何管理产品、产品维度值和产品属性的转换。"
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b2976d4fc62a71039da0bc8be5b50be92a95959c
+ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
+ms.openlocfilehash: 2c58e3e2f60c00d8d834c1d80b347e2e7087809d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="where-can-i-view-the-translated-information"></a>在哪儿可以查看已转换的信息？
 您可以查看所有使用可转换语言的外部源文档中的与产品相关的信息的转换，比如发票。
 
-## <a name="how-do-i-create-translations-for-productrelated-information"></a>如何创建与产品相关的信息的翻译？
+## <a name="how-do-i-create-translations-for-product-related-information"></a>如何创建转换与产品相关的信息的转换？
 按照以下步骤创产品转换：
 1.  单击**产品信息管理** &gt; **通用** &gt; **已发布产品**。
 2.  选择产品，在“操作窗格”的**语言**组，单击**翻译**。
@@ -124,7 +124,7 @@ ms.lasthandoff: 09/29/2017
 1.  按照前面所述的创建维度值组的步骤打开“**尺寸组行**”、“**颜色组行**”或“**样式组行**”页面。
 2.  单击“**文本翻译**”。 在**文本翻译**页面的**翻译文本**组的**名称**和**描述**字段中输入翻译。
 
-## <a name="when-can-translations-of-productrelated-information-be-managed"></a>何时管理与产品相关信息的翻译？
+## <a name="when-can-translations-of-product-related-information-be-managed"></a>何时管理与产品相关信息的转换？
 可以随时管理与产品相关的信息的转换。 在为与产品相关的维度值更新转换时，无论产品是否已转换，产品信息都会更新。
 
 
