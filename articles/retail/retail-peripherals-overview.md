@@ -1,9 +1,8 @@
 ---
 title: "零售外设概览"
-description: "此主题介绍与零售外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。"
-author: rubencdelgado
+description: "此主题介绍与零售外设有关的概念。"
 manager: AnnBe
-ms.date: 06/19/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -18,14 +17,14 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e886411421fda17bb67f8ecedc1f7f3420e1fa72
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
-# <a name="retail-peripherals-overview"></a>零售外设概览
+# <a name="retail-peripherals-overview"></a>硬件外围设备概览
 
 [!include[banner](includes/banner.md)]
 
@@ -575,7 +574,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 ## <a name="peripheral-simulator"></a>外围设备模拟器
 有关信息，请参阅 [Retail 外设模拟器](dev-itpro/retail-peripheral-simulator.md)。
 
-## <a name="microsofttested-peripheral-devices"></a>经过 Microsoft 测试的外设
+## <a name="microsoft-tested-peripheral-devices"></a>经过 Microsoft 测试的外设
 ### <a name="ipc-built-in-hardware-station"></a>IPC（内置）硬件工作站
 
 已通过 Modern POS for Windows 中的内置 IPC 硬件工作站测试了以下外设。

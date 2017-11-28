@@ -3,7 +3,7 @@ title: "中国式凭证连续性检查"
 description: "每个凭证类型的中国式凭证号必须从 1 开始并且具有连续性，才能结转会计期间。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8197773d2994964b4534b9220de0557d4cef3bef
+ms.sourcegitcommit: 66f10523fe3fb104550a88f735a9644613ec861b
+ms.openlocfilehash: b1488afe48f8b0c1dc3578a9d4992043830cadb6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="chinese-voucher-continuity-check"></a>中国式凭证连续性检查

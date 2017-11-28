@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d602e07548d22bcdee3f375c3c327c0e8963c3b4
+ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
+ms.openlocfilehash: 300cf6ed1a5a7098e71b812d682c1b51c2cf786c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-microsoft-word-format-for-electronic-reporting-er"></a>针对电子申报 (ER) 设计用于生成 Microsoft Word 格式的报表的配置
@@ -30,9 +30,9 @@ ms.lasthandoff: 09/29/2017
 
 为了完成这些步骤，您首先必须完成任务指南“创建用于以 OPENXML 格式生成报表的 ER 配置”中的步骤。 您还必须提前为同一个报表下载以下模板并保存到本地：
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReport.docx
+[付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)
 
-http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBounded.docx
+[绑定付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)
 
 此过程针对 Microsoft Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 
@@ -49,7 +49,7 @@ http://msdynamics.blob.core.windows.net/media/2016/10/SampleVendPaymDocReportBou
 ## <a name="replace-the-excel-template-with-the-word-template"></a>将 Excel 模板替换为 Word 模板
     * 目前使用 Excel 文档作为模板生成 OPENXML 格式的输出。 我们将导入 Word 格式的报表模板。  
 1. 单击“附加”。
-    * 将现有 Excel 模板替换为前面下载的 Word 模板 SampleVendPaymDocReport.docx。 请注意，此模板中仅包含要作为 ER 输出生成的文档的布局。  
+    * 将现有 Excel 模板替换为前面下载的 Word 模板“付款报表模板”。 请注意，此模板中仅包含要作为 ER 输出生成的文档的布局。  
 2. 单击“删除”。
 3. 单击“是”。
 4. 单击“新建”。

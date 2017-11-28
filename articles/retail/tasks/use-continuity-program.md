@@ -3,7 +3,7 @@ title: "使用连续性计划"
 description: "此过程逐步演示如何销售连续性计划和如何处理相关销售订单。"
 author: scott-tucker
 manager: AnnBe
-ms.date: 10/26/2016
+ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5d3b5690bfbd10b77e784d35d0c4f4518de58333
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: e94d9ded5cefc731e28af6898004419a00e0c189
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="use-a-continuity-program"></a>使用连续性计划

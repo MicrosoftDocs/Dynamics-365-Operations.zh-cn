@@ -20,10 +20,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 67e361aedf77166e01d9e7a5b9dcb19d08ea26bd
-ms.openlocfilehash: 872fbe41ed8137c1e7bec24656d4f132e170ae7f
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: d933910faa726ea279a3371f6c8a3eca9bc9dfee
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 

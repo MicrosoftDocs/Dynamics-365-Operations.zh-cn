@@ -3,7 +3,7 @@ title: "为客户登记和过帐远期支票"
 description: "您可以登记从客户处接收的远期支票的详细信息。"
 author: kweekley
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1610036815349f625a67d5dd67260114d42fff97
+ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
+ms.openlocfilehash: f75dea40d0cc77c851569608f18229339ed30af9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-customer"></a>为客户登记和过帐远期支票
@@ -38,7 +38,7 @@ ms.lasthandoff: 09/29/2017
     * 输入远期支票中注明的金额。  
 8. 单击“付款”选项卡。
 9. 在“付款方式”字段中，输入值。
-    * 选择远期支票的付款方式  
+    * 选择远期支票的付款方式。  
 10. 单击“远期支票”选项卡。
 11. 在“到期日期”字段中，输入日期。
     * 输入远期支票到期付款的日期。  

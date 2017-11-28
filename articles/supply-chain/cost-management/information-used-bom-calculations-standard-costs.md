@@ -1,9 +1,9 @@
 ---
-title: "具有标准成本的物料清单计算"
-description: 
+title: "在使用标准成本进行的物料清单计算中使用的信息"
+description: "物料清单 (BOM) 计算利用来自若干来源的数据，以便计算制造物料的标准成本。 这些来源包括与物料、物料清单工艺路线、间接成本计算公式和成本计算版本有关的信息。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcGroup, BOMCalcTable, ProdParmBOMCalc
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65571
 ms.assetid: ca17e6dd-b16a-4bbc-8682-b16345ab9906
 ms.search.region: Global
@@ -20,19 +20,19 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 60a84eaaf1f8aa4dbf4e1de10172a728a855e62b
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 187482f29e6982220b844777ef31997f0d5ef0d3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
-# <a name="bom-calculations-with-standard-costs"></a>具有标准成本的物料清单计算
+# <a name="information-used-in-bom-calculations-with-standard-costs"></a>在使用标准成本进行的物料清单计算中使用的信息
 
 [!include[banner](../includes/banner.md)]
 
 
-
+物料清单 (BOM) 计算利用来自若干来源的数据，以便计算制造物料的标准成本。 这些来源包括与物料、物料清单工艺路线、间接成本计算公式和成本计算版本有关的信息。
 
 在标准成本物料清单计算中使用的采购物料信息包括以下内容：
 -   成本 − 采购物料的成本在用于标准成本的成本计算版本内作为特定于站点的成本记录维护。 每个成本记录都具有生效日期，并且物料清单计算日期确定将使用哪一成本记录。 例如，具有将来计算日期的某一物料清单计算可以使用具有未决状态和将来生效日期的成本记录。

@@ -3,7 +3,7 @@ title: "Operations 资源"
 description: "运营资源执行项目或生产流程的活动。 它们可以是不同类型，可以具有不同功能。"
 author: sorenva
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 61943
 ms.assetid: a3847f07-fca4-4140-a26f-d83c6ac68dde
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a333c4d9c0e614c513bf3e1a02b943b186fb1e5
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c4018632e5e20470948ee59e4bb2a1cab905d829
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 09/29/2017
 
 -   **产能** – 根据产能的度量单位按小时指定运营资源的产能。
 -   **批处理容量** – 指定运营资源每次运行时可以处理的最大件数。
--   **效率百分比** – 指定您期望的运营资源效率。 效率百分比调整运营资源的生成量，并影响为该资源预留的时间。 还会相应调整使用该运营资源的工序的提前期。 下面是用于计算的公式：计划的时间 = 时间 × 100 ÷ 效率百分比。在此公式中，*时间* 包括运行时间和设置时间。
+-   **效率百分比** – 指定您期望的运营资源效率。 效率百分比调整运营资源的生成量，并影响为该资源预留的时间。 还会相应调整使用该运营资源的工序的提前期。 这是用来计算的公式：计划的时间 = 时间 × 100 ÷ 效率百分比。 *时间*包括运行时间和设置时间。
 -   **工序级排产百分比** – 指定您想要在工序级排产中使用的运营资源的产能的最大百分比。 若要在作业级排产期间允许产能有灵活性，您应该将此百分比设置为小于 100%。
 -   **有限产能** – 如果运营资源应根据可用的实际产能安排，以及如果应该考虑现有产能保留，将此选项设置为**“是”**。 如果此选项设置为**“否”**，则运营资源假定为无限产能，并且可能因此会超额订购资源。
 -   **有限属性** – 如果您希望运营资源是基于实际产能而计划的，并且实际产能根据必需的工作时间计划属性可用，请将此选项设置为**“是”**。

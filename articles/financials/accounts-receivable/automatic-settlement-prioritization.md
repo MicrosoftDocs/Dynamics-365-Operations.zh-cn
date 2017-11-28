@@ -1,9 +1,9 @@
 ---
 title: "自动结算和优先级"
-description: "本文介绍如果您在应收账款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。"
+description: "本主题介绍如果您在应收账款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 14531
 ms.assetid: e7837cf6-ec69-44b4-8d47-eba38d5c7b1f
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7a0f87aca78f1263f1f6ce65e2629b91312716cb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: fc091e401f84ce2ac425897ad6cbd92fd7399736
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍如果您在应收账款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。
+本主题介绍如果您在应收账款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。
 
 结算发票和其他交易记录的付款时，有两个选项。 可以手动选择要结算的交易记录，或 Microsoft Dynamics 365 for Finance and Operations 可使用自动结算功能自动选择交易记录。 您还可以通过使用**设置结算的优先级**选项自定义自动结算如何处理。 所有这些选项都是在**应收账款参数**页上定义的结算参数的一部分。 自动结算交易记录的方式可有多不同，具体取决于用于自动结算的方法。 提供以下方法：
 
@@ -50,8 +50,8 @@ ms.lasthandoff: 09/29/2017
 | 发票 3     | 10 月 15 日  | 500.00 | 2% 14/Net 30        | 10 月 29 日         |                                                                                                                                                                                               |
 | 利息单 | 10 月 15 日  | 7.00   |                     |                    | 发票 1 和发票 2 的此利息单。 该金额计算方式为过期 30 天或更长的金额的利息的 2%。 例如，0.02 × (100.00 + 250.00) = 7.00。 |
 
-## <a name="userdefined-settlement-priority"></a>用户定义的结算优先级
-如果将**应收账款参数**页上的**使用自动结算的优先级**设置为**是**，在**结算优先级**页上定义的结算优先级在为自动结算选择交易记录时使用。 对于本示例，定义以下结算优先级：
+## <a name="user-defined-settlement-priority"></a>用户定义的结算优先级
+如果将**应收帐款参数**页上的**使用自动结算的优先级**设置为**是**，在**结算优先级**页上定义的结算优先级在为自动结算选择交易记录时使用。 对于本示例，定义以下结算优先级：
 
 1.  交易记录类型
     -   付款费用

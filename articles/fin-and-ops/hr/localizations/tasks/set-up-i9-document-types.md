@@ -3,7 +3,7 @@ title: "设置 I-9 文档类型"
 description: "此过程显示如何查看和设置 I-9 表格验证所使用的文件类型。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3b0e7f09994367f5683ed5c6d1f3b3ba3d550cc7
+ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
+ms.openlocfilehash: b47998eccd7509154ee8863e2e19594cc59ac945
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/01/2017
 
 ---
 # <a name="set-up-i-9-document-types"></a>设置 I-9 文档类型

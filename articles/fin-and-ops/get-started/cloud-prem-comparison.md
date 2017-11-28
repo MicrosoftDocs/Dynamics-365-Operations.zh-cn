@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-07-13
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e590f9adcf8992704f2733f1d970176d35eb123a
+ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
+ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 

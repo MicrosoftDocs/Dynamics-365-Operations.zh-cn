@@ -3,7 +3,7 @@ title: "部分库位周期盘点"
 description: "周期盘点计划指导实际盘点操作。 您可以要求仅盘点特定的产品和产品变型，无需对库位中的所有现有库存进行盘点。"
 author: perlynne
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSCycleCountPlan, WHSWorkLineCycleCount, WHSWorkTemplateLineGroup, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 626b2f9f35b94124168adb7bb09c75a086d38a97
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 09/29/2017
 
 1.  为周期盘点创建新的工作模板。 **工作换行符**选项用于按物料编号对盘点工作行分组。 因此，创建的周期盘点工作的每个物料编号有多行。 您还可以按产品变型编号对行分组。
 2.  创建引用新建工作模板的新周期盘点计划。 周期盘点计划包括拥有物料编号 A0001 库存的仓库 61 中的所有库位（**选择库位**查询）。 特定产品的选择在**周期盘点产品选择**部分定义。
-3.  您可以通过将**空库位**字段设置为**排除空库位**的方式为周期盘点计划选择产品。处理周期盘点计划时，为物料 A0001 创建部分周期盘点工作。 使用用于指导的周期盘点的移动设备菜单项可以执行实际盘点流程。
+3.  您可以通过将**空库位**字段设置为**排除空库位**来为周期盘点计划选择产品。 在处理周期盘点计划时，物料编号 A0001 的部分周期盘点工作将创建。 使用用于指导的周期盘点的移动设备菜单项可以执行实际盘点流程。
 
 
 

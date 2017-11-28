@@ -1,9 +1,9 @@
 ---
 title: "移动平均"
-description: 
+description: "移动平均是一种基于平均原则的永久成本方法，在执行采购成本时在库存发货的成本不更改。 该差异基于一种比例的计算资本化。 支出剩余金额。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: afc8f4922810983a6582558f0577a05aa21cbdbb
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,8 +31,12 @@ ms.lasthandoff: 09/29/2017
 
 [!include[banner](../includes/banner.md)]
 
+移动平均是一种基于平均原则的永久成本方法，在执行采购成本时在库存发货的成本不更改。 该差异基于一种比例的计算资本化。 支出剩余金额。 
+
+在您使用移动平均时，不支持库存结算和库存标记。 库存结转不会影响具有作为库存模型组的移动平均的产品，并且不生成交易记录之间的任何结算。
 
 在您使用移动平均成本作为成本计算方法时，以下选项是先决条件。
+
 1.  在**物料模型组**页中，设置在**库存模型**字段中选择了“移动平均”的物料模型组。 **注意：**默认情况下，当选择了“移动平均”后，**过帐实际库存**和**过帐财务库存**字段也将选择。 
 
 2.  在**过帐**页中，将科目分配到**库存**选项卡上的**移动平均价差**和**重估移动平均成本**帐户。成本必须按比例支出时，您可以使用**移动平均价差**帐户。 由于在原始库存数量和现有数量之间的差异，以及采购收货和采购发票之间的成本差异，此情况发生。 当您要为产品调整移动平均成本到新的单位价格时，使用**重估移动平均成本**帐户。

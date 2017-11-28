@@ -1,9 +1,9 @@
 ---
 title: "定义和维护零售渠道"
-description: "本文提供设置实体商店（在 Microsoft Dynamics 365 for Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。"
+description: "本主题提供设置实体商店（在 Microsoft Dynamics 365 for Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。"
 author: mugunthanm
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 700b8868a68be7f0172202d737b4f1ae9813ecf3
+ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
+ms.openlocfilehash: b6dd6d929d771e0b1fc2604b90a2a1522447e168
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](includes/banner.md)]
 
 
-本文提供设置实体商店（在 Microsoft Dynamics 365 for Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。
+本主题提供设置实体商店（在 Microsoft Dynamics 365 for Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。
 
 Dynamics 365 for Retail 支持多个零售渠道，例如在线商店、呼叫中心和实体商店。 实体商店也叫做零售商店。 每个零售商店可以有自己的付款方式、价格组、销售终端 (POS) 收银机、收入帐户和支出帐户以及职员。 您必须先为零售商店设置所有这些元素，然后再创建零售商店。 在创建零售商店后，分配您希望其提供的产品。 您还可以将员工、收银机和客户分配到商店。 最后，您将新商店添加到组织层次结构。
 

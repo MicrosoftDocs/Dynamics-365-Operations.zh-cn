@@ -1,9 +1,9 @@
 ---
 title: "采购申请概览"
-description: "本文介绍采购申请工作流和采购申请可能具有的不同状态。"
+description: "此主题介绍了采购申请工作流和采购申请可能具有的不同状态。"
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 2174
 ms.assetid: 77d07119-4d9f-4c0e-acbe-d319203571ab
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69eeb90387ca5765c163c7d482295ea104cc078c
-ms.openlocfilehash: 6fb8bbc7340650341618f3a9613f4234ef1e9c04
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b96a89bcabdaa3e3a3be3786dda15f9725f5a50d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍采购申请工作流和采购申请可能具有的不同状态。
+此主题介绍了采购申请工作流和采购申请可能具有的不同状态。
 
 根据您的组织的设置，您可以创建您组织使用的产品的采购申请。 采购申请是授权采购部门购买物料或服务的内部文档。  
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 09/29/2017
 <tr class="odd">
 <td>草案</td>
 <td>草案</td>
-<td>已创建采购申请和采购申请行，但是尚未提交以供审查。 状态为<strong>草稿</strong>的采购申请和采购申请行可以修改。如果采购申请或采购申请行已撤回但未重新提交以供审核，其也可能是<strong>草稿</strong>状态。<strong>注意：</strong>您可以在单据级别提交或撤回采购申请。 但是，您无法提交或撤回单个采购申请行。</td>
+<td>已创建采购申请和采购申请行，但是尚未提交以供审查。 可以修改具有状态<strong>草稿</strong>的采购申请和采购申请行。 采购申请或采购申请行也可以具有状态<strong>草稿</strong>（如果它已被撤回，但未被提交以供审核）。 <strong>注意：</strong>您可在单据级别提交或撤回采购申请。 但是，您无法提交或撤回单个采购申请行。</td>
 </tr>
 <tr class="even">
 <td>正在审核</td>
@@ -111,7 +111,7 @@ ms.lasthandoff: 09/29/2017
 <tr class="odd">
 <td>已取消</td>
 <td>已取消</td>
-<td>采购申请和所有采购申请行都已取消。<strong>注意：</strong>如果您不再需要在采购申请行上的物料，则必须在采购申请行已审核后将其取消。 只取消进行审核的采购申请行。 如果每个采购申请行都在审查中，则该采购申请也将拥有状态<strong>正在审核</strong>。 在这种情况下，您可以撤回该采购申请，并删除相应的采购申请行。</td>
+<td>已取消采购申请和所有采购申请行。 <strong>注意：</strong>如果您不再需要在采购申请行上的物料，则您必须取消采购申请行（如果它已被审核）。 只取消进行审核的采购申请行。 如果每个采购申请行都在审查中，则该采购申请也将拥有状态<strong>正在审核</strong>。 在这种情况下，您可以撤回该采购申请，并删除相应的采购申请行。</td>
 </tr>
 <tr class="even">
 <td>已结束</td>

@@ -3,7 +3,7 @@ title: "创建组织报告层次结构"
 description: "此过程用于为组织报告创建报告层次结构。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/28/2017
+ms.date: 10/30/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f593c59660abcf5b0d5771ddd9daced6ec5fbfb4
+ms.sourcegitcommit: e57db8f4b692aa9c27916625897e268f63031782
+ms.openlocfilehash: 995f61bd82ac08d057b41a6db735b6695aa34c33
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/30/2017
 
 ---
 # <a name="create-an-organization-report-hierarchy"></a>创建组织报告层次结构

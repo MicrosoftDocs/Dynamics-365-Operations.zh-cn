@@ -1,9 +1,9 @@
 ---
 title: "预付款发票与预付款"
-description: "本文提供组织可以用于预付款（预先付款）的两种方法的介绍和对比。 在一种方法中，您创建与采购订单相关联的预付款发票。 在另一种方法中，您通过创建日志条目并将它们标记为预付款日志凭证来创建预付款日志凭证。"
+description: "本主题介绍和对比组织可以用于预付款（预先付款）的两种方法。 在一种方法中，您创建与采购订单相关联的预付款发票。 在另一种方法中，您通过创建日志条目并将它们标记为预付款日志凭证来创建预付款日志凭证。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: LedgerJournalTransVendPaym, PurchTable
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 15871
 ms.assetid: a0bb5220-73d4-48ae-84d0-46a171c224fa
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6bf67fb17363f7b61e782ed6d8e7b6310433ffd
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供组织可以用于预付款（预先付款）的两种方法的介绍和对比。 在一种方法中，您创建与采购订单相关联的预付款发票。 在另一种方法中，您通过创建日志条目并将它们标记为预付款日志凭证来创建预付款日志凭证。
+本主题介绍和对比组织可以用于预付款（预先付款）的两种方法。 在一种方法中，您创建与采购订单相关联的预付款发票。 在另一种方法中，您通过创建日志条目并将它们标记为预付款日志凭证来创建预付款日志凭证。
 
 组织可能向货物或服务的供应商发布预付款（在满足这些货物或服务之前）。 两种方法可用于向供应商发布预付款。 若要将风险最小化，您可以通过跟踪采购订单上的预付款跟踪这些预付款。 对于此方法，您必须创建与采购订单相关联的预付款发票。 此方法称为预付款开票。 不想那么紧密跟踪预付款或不从供应商那里接收预付款发票的组织可以使用预付款日记帐凭证，而不是预付款开票方法。 您可以通过创建日志条目并将它们标记为预付款日志凭证来创建预付款日志凭证。 对于此方法，您不能跟踪根据那个采购订单对供应商进行哪种预付款。 但是，您可以比对采购订单标记要进行结算的过帐预付款。
 

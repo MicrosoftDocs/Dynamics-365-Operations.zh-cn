@@ -3,14 +3,14 @@ title: "供应商与外部供应商协作"
 description: "本主题说明采购代理如何与外部供应商协作交换关于采购订单和托运库存的信息。"
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 9036b7f9863871915f9ad39d76bf027ae4c2f4bf
-ms.openlocfilehash: aee8db8ddaeac135ed1f9d8b1b8a621609c6d358
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: abff906bcdf31c91ce696afbcd651a1d7a87ea8a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,6 +33,8 @@ ms.lasthandoff: 10/05/2017
 本主题说明采购代理如何与外部供应商协作交换关于采购订单和托运库存的信息。
 
 **供应商协作**模块针对的是没有与 Microsoft Dynamics 365 for Finance and Operations 进行电子数据交换 (EDI) 集成的供应商。 它允许供应商使用采购订单、发票和托运库存信息。 本主题介绍您可以如何与使用供应商协作界面的外部供应商协作处理采购订单和托运库存。 还介绍了如何允许特定供应商使用供应商协作，以及如何定义所有供应商在响应采购订单时将看到的信息。 有关外部供应商在供应商协作界面上可执行操作的详细信息，请参阅[供应商与客户协作](vendor-collaboration-work-customers-dynamics-365-operations.md)。  
+
+此主题中有关供应商协作的信息仅适用于当前版本的 Dynamics 365 for Finance and Operations。 在 Microsoft Dynamics AX 的 2016 年 2 月版本和 2016 年 5 月版本中，您使用供应商门户模块与供应商协作。 有关供应商门户模块的信息，请参阅[使用供应商门户与供应商协作](collaborate-vendors-vendor-portal.md)。
 
 有关供应商在开票流程中如何使用供应商协作的详细信息，请参阅[供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)。 有关如何提供新供应商协作用户的信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。
 

@@ -1,9 +1,9 @@
 ---
 title: "检验单"
-description: "本文介绍检验单如何用于锁定库存。"
+description: "本主题介绍检验单如何用于锁定库存。"
 author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventLocation, InventModelGroup, InventQuarantineOrder, InventQuarantineParmEnd, InventQuarantineParmReportFinished, InventQuarantineParmStartUp, InventTrans
 audience: Application User
 ms.reviewer: YuyuScheller
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30021
 ms.assetid: d5047727-653c-49da-b489-6fd3fe50445e
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17dde4a4e3380beb98eeb71c719fb898b40a94f7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 515f14e72137f7299093cc6e75cb8e6eec2893fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,11 +31,11 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍检验单如何用于锁定库存。
+本主题介绍检验单如何用于锁定库存。
 
 检验单可用于锁定库存。 例如，您可能要检验质量控制原因的物料。 将把已检验的库存转移到检验仓库。 **注意：**如果您使用高级仓库管理流程（在仓库管理中），仅为退货销售订单使用检验单。
 
-## <a name="quarantine-onhand-inventory-items"></a>检验现有库存物料
+## <a name="quarantine-on-hand-inventory-items"></a>检验现有库存物料
 在检验物料时，您可以手动创建检验单或设置该系统以在收货处理期间自动创建检验单。 若要自动创建检验单，请在**物料模型组**页的**库存策略**选项卡上选择**检验管理**选项。 您还必须在**检验仓库**字段中为接收仓库指定默认检验仓库。 当实际现有库存量在采购订单或生产订单中记录时，检验物料会自动移至 Microsoft Dynamics 365 for Finance and Operations 中的检验仓库中。 因为检验单的状态改为**已开始**，所以发生此移动。 当您手动创建检验单时，则不必需在相关的物料模型组中为检验管理设置物料。 对于此流程，必须指定应检验的现有库存量和应使用的检验仓库。 您可以使用检验单状态来帮助计划流程。
 
 ## <a name="quarantine-order-statuses"></a>检验单状态

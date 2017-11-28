@@ -1,9 +1,9 @@
 ---
 title: "加权平均日期"
-description: 
+description: "加权平均日期是基于加权平均原则的库存模型，其中，来自库存的发货按照物料的平均价值进行估价，这些物料是在库存结转期间中的每一天接收到库存中的物料。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 28991
 ms.assetid: 945d5088-a99d-4e54-bc42-d2bd61c61e22
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 95cc937a97596e4f6ce28636fb30b86e9b328220
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -33,8 +33,9 @@ ms.lasthandoff: 09/29/2017
 
 [!include[retail name](../includes/retail-name.md)]
 
+加权平均日期是基于加权平均原则的库存模型。 对于加权平均原则，来自库存的发货按照物料的平均价值进行估价，这些物料是在库存结转期间中的每一天接收到库存中的物料。 
 
-加权平均日期是基于加权平均原则的库存模型。 对于加权平均原则，来自库存的发货按照物料的平均价值进行估价，这些物料是在库存结转期间中的每一天接收到库存中的物料。 当您使用加权平均日期运行库存结转时，所有每日收货将根据虚拟发货结算。 此虚拟发货保留该日期的收货总量和值。 此虚拟发货具有对应的虚拟收货，并将根据此虚拟收货结算发货。 因此，所有发货都接收相同的平均成本。 虚拟发货和虚拟收货可以视为虚拟转移，称为*加权平均库存结转转移*。 
+当您使用加权平均日期运行库存结转时，所有每日收货将根据虚拟发货结算。 此虚拟发货保留该日期的收货总量和值。 此虚拟发货具有对应的虚拟收货，并将根据此虚拟收货结算发货。 因此，所有发货都接收相同的平均成本。 虚拟发货和虚拟收货可以视为虚拟转移，称为*加权平均库存结转转移*。 
 
 如果只发生过一次收货或在该日期之前，则不必评估平均值。 因为所有发货从该收货结算，并且将不创建虚拟转移。 同样，如果在此日期只发生发货，则没有要估计平均价值的收货，并且将不创建虚拟转移。 当您使用加权平均日期时，您可以标记库存交易记录，以便根据指定发货结算指定物料收货。 在这种情况下，您不使用加权平均日期规则。 当您使用加权平均日期库存模型时，建议您使用每月库存结转。 
 

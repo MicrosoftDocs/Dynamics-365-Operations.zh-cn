@@ -1,7 +1,7 @@
 ---
 title: "电子申报中的配方设计器"
-description: "本主题说明如何在电子申报 (ER) 中使用配方设计器。 在您在 ER 中为特定电子文档设计格式时，您可以使用与 Microsoft Excel 类似的数据换算公式满足该文档的履行和格式的要求。 支持的各种函数类型 - 文本、日期和时间、数学逻辑、信息、数据类型转换和其他（企业域特定函数）。"
-author: kfend
+description: "本主题说明如何在电子申报 (ER) 中使用配方设计器。"
+author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 37c860599ad555846d11711e9f3cfb29c599131e
-ms.openlocfilehash: 7704b0545f4264be1f844ed6ad9e4b44df0c4ef8
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 58bef33642d83def841eaa8334ea6f942063e0b3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/05/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -593,11 +593,12 @@ ER 表达式可以包含任意或所有以下元素：
 <td>GETENUMVALUEBYNAME（枚举数据源路径，枚举值标签文本）</td>
 <td>按此枚举标签指定的文本返回指定枚举数据源的值。</td>
 <td>以下示例显示在数据模型中引入的枚举 ReportDirection。 请注意，为枚举值定义标签。
-<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>将显示以下示例：
+<a href="./media/ER-data-model-enumeration-values.PNG"><img src="./media/ER-data-model-enumeration-values.PNG" alt="Available values for data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>  
+<p>将显示以下示例：</p>
 <ul><li>作为数据源 <strong>$Direction</strong> 插入报表的模型枚举 <strong>ReportDirection</strong>。</li>
 <li>设计为使用模型枚举作为此功能参数的 ER 表达式 <strong>$IsArrivals</strong>。 此表达式的值为 <strong>TRUE</strong>。
-
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></li></ul></td>
+</li></ul>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
 </tr>
 </tbody>
 </table>

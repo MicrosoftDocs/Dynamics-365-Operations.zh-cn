@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 0cd1de95630d0f7c40c3b9948015892623a93686
+ms.sourcegitcommit: 1ccf3b2d81066fce80fe14428fab24020ab85496
+ms.openlocfilehash: b921b5ff51f951112031fe8b1bc2faa90cf29a28
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/06/2017
 
 ---
 # <a name="design-a-format-to-use-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports-for-electronic-reporting-er"></a>针对电子申报 (ER) 设计格式以使用可水平扩展的范围在 Excel 报表中动态添加列
@@ -36,7 +36,8 @@ ms.lasthandoff: 09/29/2017
 
 “ER 将财务维度用作数据源（第 2 部分：模型映射）”
 
-还必须下载并保存包含以下地址中的示例报告的模板的本地副本：http://msdynamics.blob.core.windows.net/media/2016/09/SampleFinDimWsReport.xlsx
+您还必须下载和保存模板的本地副本，示例报表可以在这里找到：[https://go.microsoft.com/fwlink/?linkid=862266](https://go.microsoft.com/fwlink/?linkid=862266)。 
+
 
 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

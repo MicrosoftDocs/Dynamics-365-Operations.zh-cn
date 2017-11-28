@@ -3,7 +3,7 @@ title: "为电子采购发包设置外部目录"
 description: "此主题描述使用外部目录或发包目录从供应商收集报价信息并将其添加到申请。"
 author: mkirknel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,18 +11,18 @@ ms.technology:
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
 ms.search.region: Global
 ms.author: mkirknel
-ms.search.validFrom: 2016-02-28T00:00:00.000Z
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f01d88149074b37517d00f03d8f55e1199a5198f
-ms.openlocfilehash: 4c89f6f168825f7767b836be09fa73b8659b00c6
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/27/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -40,15 +40,15 @@ ms.lasthandoff: 07/27/2017
 
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>若要设置外部供应商目录，请完成以下任务：
 
-1. 设置一个采购类别层次结构。 有关详细信息，请参阅 [设置采购类别层次结构的策略](/dynamics365/unified-operations/supply-chain/procurement/tasks/set-up-policies-procurement-category-hierarchies)。
-2. 在 Finance and Operations 中登记供应商。 在您可以设置访问外部供应商目录的配置时，您必须在 Microsoft Dynamics 365 中设置供应商和供应商联系人。 外部目录供应商也必须添加到所选采购类别。 有关在 Microsoft Dynamics 365 中登记供应商的详细信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。 有关如何分配供应商到采购类别的信息，请参阅 [核准特定采购类别的供应商](/dynamics365/unified-operations/supply-chain/procurement/tasks/approve-vendors-specific-procurement-categories)。
-3. 确保设置供应商使用的度量单位和币种。 有关如何创建度量单位的信息，请参阅[管理度量单位](/dynamics365/unified-operations/supply-chain/pim/tasks/manage-unit-measure)。
-4. 使用对您的供应商的外部目录站点的要求配置外部供应商目录。 有关此任务的更多详细信息，请参阅下一个部分。
+1. 设置一个采购类别层次结构。 有关详细信息，请参阅 [设置采购类别层次结构的策略](tasks/set-up-policies-procurement-category-hierarchies.md)。
+2. 在 Finance and Operations 中登记供应商。 在您可以设置访问外部供应商目录的配置时，您必须在 Microsoft Dynamics 365 中设置供应商和供应商联系人。 外部目录供应商也必须添加到所选采购类别。 有关在 Microsoft Dynamics 365 中登记供应商的详细信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。 有关如何分配供应商到采购类别的信息，请参阅 [核准特定采购类别的供应商](tasks/approve-vendors-specific-procurement-categories.md)。
+3. 确保设置供应商使用的度量单位和币种。 有关如何创建度量单位的信息，请参阅[管理度量单位](../pim/tasks/manage-unit-measure.md)。
+4. 使用对您的供应商的外部目录站点的要求配置外部供应商目录。 有关此任务的更多详细信息，请参阅[配置外部供应商目录](#configure-the-external-vendor-catalog)。
 5. 测试供应商外部目录配置以验证设置是有效的而且您可以访问供应商外部目录。 使用**验证设置**操作验证您定义的请求设置消息。 此消息可以导致供应商外部目录站点在浏览器窗口中打开。 在验证期间，无法从供应商订购物料和服务。 要订购物料和服务，则必须从采购申请访问供应商的目录。
 6. 通过使用**外部目录**页上的**激活目录**按钮激活外部目录。 外部目录必须在员工可以使用之前激活。 您可以在任何时间停用外部目录。
 
 
-## <a name="4-configure-the-external-vendor-catalog"></a>(4) 配置外部供应商目录
+## <a name="configure-the-external-vendor-catalog"></a>配置外部供应商目录
 
 本节提供关于上一节中的任务 4 的更多详细信息。
 
@@ -81,7 +81,7 @@ ms.lasthandoff: 07/27/2017
 
 ### <a name="extrinsic-elements"></a>外在元素
 
-外在元素的附加信息，例如基于发包的用户的用户名称。 外在元素在发生发包且可以在请求设置消息中发送时进行设置。
+外在元素的附加信息，例如基于发包的用户的用户名称。外在元素在发生发包且可以在请求设置消息中发送时进行设置。
 您的供应商可能提出在设置请求中收到外在元素的要求。 在这种情况下，您应将外在元素添加到**外部目录**页的**消息格式**部分中的外在元素列表。 指定供应商可以识别并将其映射到值的外在元素的名称。 值的选项为：用户名、用户电子邮件或随机值。
 有关 cXML 协议的详细信息，请参阅：http://cxml.org/
 

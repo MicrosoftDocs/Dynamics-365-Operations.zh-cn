@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: de536be7b0d25a1b0f662f64a31be26dbcd10c28
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5ff988d669f8a2328530425482f6e045cf4537c7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ ms.lasthandoff: 09/29/2017
 
  - [使用供应商发票将发票数据键入应付账款](tasks/key-invoice-data-ap-system-vendor-invoice.md)
  
- - [使用审核日记帐将发票数据键入应付账款](tasks/key-invoice-data-into-ap-system-approval-journal.md)
+ - [使用审核日记帐将发票数据键入应付帐款](tasks/key-invoice-data-into-ap-system-approval-journal.md)
   
  - [使用发票池将发票数据键入 AP 系统](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
  

@@ -3,24 +3,24 @@ title: "人力资源"
 description: "“人力资源”简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 它还提供了一个框架，供人力资源员工管理监督领域。 这些领域包括员工招聘和挽留、福利管理、培训、绩效评审和变更管理。"
 author: rschloma
 manager: AnnBe
-ms.date: 07/06/2017
+ms.date: 11/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: AX 7.0.0, Operations, Core
+ms.search.scope: Operations, Core
 ms.custom: 20931
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04d459a2fd0fdf9c201d9e96b37234846eb9ccf0
-ms.openlocfilehash: e074426f4b863e692b91ce1ebf3b428435dadd94
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 217eef722383cf0ad9dfdfbe5ca2973eb1337fe1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/29/2017
 
 ## <a name="develop-and-train-employees"></a>培养和培训员工
 
-为了帮助您的员工在满足关键需求的同时实现其职业目标，您可以设置目标、创建绩效评审和跟踪反馈。为了帮助您的员工培养所需的技能，您还可以在为课程指定教师之前安排教师、课程类型、课程、课程说明、议程、跟踪和授课，或为员工注册参加某项课程。 教师必须已经以工作人员、申请人或联系人身份存在。
+若要帮助您的员工实现职业目标，同时满足重要的业务需求，您可以设置目标、建立绩效审核并跟踪反馈。 为了帮助员工培养所需技能，您还可以设置指导员、课程类型、课程、课程描述、课程安排、跟踪和会话，然后再将指导员分配给课程或为人员登记课程。 教师必须已经以工作人员、申请人或联系人身份存在。
 
 -   [绩效管理](../../talent/performance-management-overview.md)
 -   [使劳动力技能符合业务需求](../../talent/skills.md)

@@ -3,7 +3,7 @@ title: "创建普通发票"
 description: "此任务指南演示如何创建普通发票。"
 author: mikefalkner
 manager: AnnBe
-ms.date: 10/23/2016
+ms.date: 10/26/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 33324a9b95026600bcc6facb9c22a04fd2e323c8
+ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
+ms.openlocfilehash: 87e293008fd748aa0dcc6b3caa94a4889bed35de
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/26/2017
 
 ---
 # <a name="create-a-free-text-invoice"></a>创建普通发票

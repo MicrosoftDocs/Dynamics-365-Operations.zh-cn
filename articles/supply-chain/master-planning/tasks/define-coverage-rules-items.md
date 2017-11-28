@@ -3,7 +3,7 @@ title: "定义物料的覆盖规则"
 description: "创建此程序的演示数据公司是 USMF。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/02/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 14f56c30753da9458d66a46da8935305619fd0b8
+ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
+ms.openlocfilehash: fe92393cc264df68f084db6974f7d4607d37d3ab
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/02/2017
 
 ---
 # <a name="define-coverage-rules-for-items"></a>定义物料的覆盖规则

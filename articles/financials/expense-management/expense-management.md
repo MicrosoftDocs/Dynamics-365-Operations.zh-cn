@@ -1,16 +1,16 @@
 ---
 title: "费用报销管理"
-description: 
+description: "使用“费用管理”创建集成的工作流，从中您可以存储付款方式信息、导入信用卡交易记录和在员工产生业务支出时跟踪所花的金钱。"
 author: twheeloc
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 10/25/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, IT Pro
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 15001
 ms.assetid: 2d97d69b-9c08-4f0d-9637-68759fd34d34
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e49c2671555fafbc07d300be711b654ff3d2ffab
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 65aedce1aef92a56b3f48df02446471c26a3bfce
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -41,9 +41,9 @@ ms.lasthandoff: 09/29/2017
 
 #### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关应收账款的意见、新闻和其他信息以及其他解决方案。
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关应收帐款的意见、新闻和其他信息以及其他解决方案。
 
-[Microsoft Dynamics AX 产品团队博客](https://blogs.msdn.microsoft.com/dax/)上有很多有关应收账款的帖子。 虽然其中某些帖子是针对以前版本的应收账款撰写的，但同一概念仍然适用， 而且相关程序也与当前版本类似。
+[Microsoft Dynamics AX 产品团队博客](https://blogs.msdn.microsoft.com/dax/)上有很多有关应收帐款的帖子。 虽然其中某些帖子是针对以前版本的应收帐款撰写的，但同一概念仍然适用， 而且相关程序也与当前版本类似。
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
 

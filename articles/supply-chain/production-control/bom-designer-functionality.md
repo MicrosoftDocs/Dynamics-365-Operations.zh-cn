@@ -1,9 +1,9 @@
 ---
 title: "物料清单设计器功能"
-description: "本文介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。 您可以单击“设置”选择不同的配置并指定要在树的行上显示哪些信息。"
+description: "本主题介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。"
 author: cvocph
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMDesigner
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 20981
 ms.assetid: 2b92eec1-d28c-4965-9086-939c77b3c62b
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 011e8220e155a5202b7b0a18bbfa9581826645d0
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 41f629401731920a9cb6443ada8b1a34a70e8da9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。 您可以单击“设置”选择不同的配置并指定要在树的行上显示哪些信息。
+本主题介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。 您可以单击“设置”选择不同的配置并指定要在树的行上显示哪些信息。
 
 从**“已发布产品”**页打开**“物料清单设计器”**页后，后者将显示对所选物料有效且针对所选物料进行了审核的物料清单 (BOM) 的层次结构、物料的默认订单站点和实际日期。  
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 09/29/2017
 <tbody>
 <tr class="odd">
 <td>产品维度</td>
-<td>如果所选成品是基础产品，您可以为主要选择定义有效产品维度。<strong>注意：</strong>如果您为不是基础产品的产品打开了物料清单设计器，则无法在<strong>“筛选器”</strong>对话框中选择产品维度。</td>
+<td>如果选中的成品是基础产品，您可以定义主要选择的可用产品维度。 <strong>注意：</strong>如果您为其打开物料清单设计器的产品不是基础产品，则在<strong>筛选器</strong>对话框中无法选择产品维度。</td>
 </tr>
 <tr class="even">
 <td>站点</td>

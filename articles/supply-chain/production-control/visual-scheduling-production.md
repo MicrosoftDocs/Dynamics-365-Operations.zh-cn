@@ -3,7 +3,7 @@ title: "用于作业级排产的甘特图"
 description: "生产规划人员可以使用甘特图控制和优化生产计划。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 08/23/2017
+ms.date: 11/03/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgShopSupervisorWorkspace, ProdTable, ProdTableListPage
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: cc7543305ac634dfed3779bb83806ee4fd97d7fa
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 5a4b0450cc76c8d9307b9b21b78a170afcc298e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 09/29/2017
 -   来自计划生产订单的作业。
 -   工时预测类型的作业已计划项目活动。
 
-甘特图可以在两种不同的视图中打开，**订单视图**和**资源视图**[。](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true)在**订单**中，活动按照生产订单进行分组。 这非常实用，例如，如果您要维护属于相同订单的所有作业的概览时。 在**资源视图**中，所有作业按照单独的资源进行分组。 优化资源级别（例如机器或机器组）的计划时，此视图非常实用。 下图显示的甘特图显示具有以下关键元素的**订单视图**和**资源视图**：
+甘特图可以在两个不同的视图中打开，**订单视图**和**资源视图**[](https://authoring.help.dynamics.com/en/?post_type=incsub_wiki&p=1665154&preview=true)。 在**订单视图**中，活动在生产订单下分组。 这非常实用，例如，如果您要维护属于相同订单的所有作业的概览时。 在**资源视图**中，所有作业按照单独的资源进行分组。 优化资源级别（例如机器或机器组）的计划时，此视图非常实用。 下图显示的甘特图显示具有以下关键元素的**订单视图**和**资源视图**：
 
 1.  甘特图活动
 2.  物料短缺图标
@@ -156,5 +156,7 @@ ms.lasthandoff: 09/29/2017
 | **要下达的生产订单**（从**生产车间管理**工作区打开） | 要下达的生产订单页从**生产车间管理**工作区打开。 此页显示等待下达的已计划生产和批次订单。 在此页上可以打开选定生产订单的甘特图。                                                                                                                                                                                                                                                        |
 ## <a name="see-also"></a>请参阅  
 [使用用于生产和批次订单的甘特图进行可视排产（视频）](https://youtu.be/BtbuShkGj4I)
+
+[可视生产排产（演示脚本）](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)
 
 

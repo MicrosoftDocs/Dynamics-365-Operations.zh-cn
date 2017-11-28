@@ -1,9 +1,9 @@
 ---
 title: "对基准预测进行手动调整"
-description: "本文介绍如何手动调整基准预测和查看预测的详细信息。"
+description: "本主题介绍如何手动调整基准预测和查看预测的详细信息。"
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/02/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 72704
 ms.assetid: e7c5d44e-07bc-40b1-a4b3-8ba46483ef9e
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 218374cdb6b5588648422d97c04fb60f26e47ac7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: dbc195da36d31e01400fe66a1c02ea49609400eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍如何手动调整基准预测和查看预测的详细信息。 
+本主题介绍如何手动调整基准预测和查看预测的详细信息。 
 
 在进行手动调整之前，务需您理解各个页上的若干概念。
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/29/2017
 -   随后的列表示为其生成预测的预测时段。 每一列标题是列显示的预测时段的第一个日期。
 -   这些单元格中的值表示该特定预测时段的一个物料的预测、物料分配参数等。
 
-## <a name="forecast-aggregation-and-deaggregation"></a>预测合并和取消合并
+## <a name="forecast-aggregation-and-de-aggregation"></a>预测合并和取消合并
 该页的副标题显示预测合并的级别。 
 
 例如，如果页的副标题是**公司/站点/分配参数/物料编号/颜色/尺寸/配置/样式**，则没有预测合并，并且预测在物料及其维度级别显示。 若要更改合并，请使用**更改预测维度**页，可以从应用程序菜单打开。 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 04def14ddf9b079005bf11acbcaf64b21aa80fdb
+ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
+ms.openlocfilehash: 09789957839097ba2898544102af908c198090c7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="design-a-configuration-for-generating-reports-in-openxml-format-for-electronic-reporting-er"></a>针对电子申报 (ER) 设计用于生成 OpenXML 格式的报表的配置
@@ -34,8 +34,7 @@ ms.lasthandoff: 09/29/2017
 
 
 
-为了完成这些步骤，您必须首先完成“创建配置提供商并标记为有效”这一过程中的步骤。 您还必须具有在创建模板时将导入的 Excel 文件。 此文件可以从以下位置访问：https://msdynamics.blob.core.windows.net/media/2016/04/SampleVendPaymWsReport.xlsx
-
+为了完成这些步骤，您必须首先完成“创建配置提供商并标记为有效”这一过程中的步骤。 您还必须下载和保存 Microsoft Excel 文件[付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)。 
 
 ## <a name="upload-the-payments-data-model-configuration"></a>上载付款数据模型配置
 1. 转到“组织管理”>“工作区”>“电子申报”。

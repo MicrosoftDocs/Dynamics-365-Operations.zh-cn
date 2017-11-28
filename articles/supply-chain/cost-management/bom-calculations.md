@@ -1,7 +1,7 @@
 ---
 title: "BOM 计算"
 description: "成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 此主题提供了有关物料清单计算的信息。"
-author: YuyuScheller
+author: AndersGirke
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.dyn365.ops.intro: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b1bcf11a8f6fc4921e8659fe1d00c093e3ad5b74
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -87,7 +87,7 @@ ms.lasthandoff: 09/29/2017
 -   **针对某一物料和指定成本计算版本的物料清单计算** - 该物料清单计算在成本计算版本内生成未决销售价记录。 此销售价记录为查看计算详细信息提供起始点（例如，在**计算物料成本**页）。 该销售价记录主要用作参考信息，不用作销售订单上的销售价的基础。
 -   **特定于订单的物料清单计算** - 在销售订单、销售报价单或服务订单行项的环境中采用不同形式的**物料清单计算**页。 订单特定的物料清单计算在成本计算版本内不生成记录。 相反，它生成显示在**物料清单计算结果**页的计算记录。 此计算记录为查看计算详细信息提供起始点（例如，在**计算物料成本**页）。 有关所选计算记录的信息可以转移到原始行项。 例如，计算的销售价可以转移到销售订单行项。
 
-## <a name="orderspecific-bom-calculations"></a>特定于订单的物料清单计算
+## <a name="order-specific-bom-calculations"></a>特定于订单的物料清单计算
 特定于订单的物料清单计算表示针对制造物料的物料清单计算的变化形式。 针对销售订单、销售报价单或服务订单行项执行特定于订单的物料清单计算。 订单特定的物料清单计算生成显示在**物料清单计算结果**页的计算记录。 该计算记录包括计算出的权重、基于有效成本记录的计算出的成本以及计算出的销售价。 每个特定于订单的物料清单计算在**物料清单计算结果**页为物料生成的计算记录由一个计算编号唯一标识。 可以选择将某一计算记录的结果转移到原始行项中。 特定于订单的物料清单计算不同于针对制造物料的物料清单计算，通过两种方法：
 
 -   特定于订单的物料清单计算并不在某一成本计算版本内生成物料成本记录。 因此，物料清单计算策略不适用于创建某一物料成本记录或覆盖某一成本记录。

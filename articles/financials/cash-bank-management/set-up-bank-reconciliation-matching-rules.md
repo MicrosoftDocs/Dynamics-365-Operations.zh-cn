@@ -1,9 +1,9 @@
 ---
 title: "设置银行对帐匹配规则"
-description: "本文说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。"
+description: "本主题说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 10/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 12971
 ms.assetid: b5073f83-31dc-404f-af42-3fd84a02a7c6
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b721c8b9d8b0286beeb651d5185aa8e6a35d7f79
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: 93438840123f02dd36927e044ff5ddbe60a76176
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 09/29/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。
+本主题说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。
 
 您可以设置对帐匹配规则和对帐匹配规则集以帮助银行对帐过程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 银行交易记录行的一组条件。 使用**对帐匹配规则**页可以设置对帐匹配规则。 您可以设置多个匹配规则，然后在**对帐匹配规则集**页上创建对帐匹配规则集。 
 

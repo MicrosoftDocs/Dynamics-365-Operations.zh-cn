@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 866a4f29723e10eb0a1e1be86d6d4f6da8a69b1c
+ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
+ms.openlocfilehash: d494a20ba6f1f9c33a3935779b4bd3a8eefce26a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/14/2017
 
 ---
 # <a name="create-a-product-configuration-model"></a>创建产品配置模型

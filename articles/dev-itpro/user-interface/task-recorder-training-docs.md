@@ -3,7 +3,7 @@ title: "使用任务录制创建文档或培训"
 description: "此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。"
 author: josaw1
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/24/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 297fe730a432e05e1ab490be4802c37f9402b0a7
+ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
+ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 
@@ -85,7 +85,7 @@ ms.lasthandoff: 09/29/2017
 
 [![屏幕 4](./media/screen4.png)](./media/screen4.png)
 
--   **信息步骤**：通过右键单击控件或窗体上任何位置，然后选择 &lt; **任务录制器** &lt; **添加信息步骤** 来创建这些批注。 **信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。 在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在 Microsoft Dynamics 365 for Finance and Operations Enterprise版本外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
+-   **信息步骤**：通过右键单击控件或窗体上任何位置，然后选择 &lt; **任务录制器** &lt; **添加信息步骤** 来创建这些批注。 **信息步骤在您插入它的任何位置处显示为带编号的步骤，即使未在 UI 中录制任何操作。 您可以添加窗体级别信息步骤或与控件关联的信息步骤。 当信息步骤与窗体关联时，任务指南“气泡”将在播放任务指南时显示在窗体的某个位置（无指针）。 当信息步骤与控件关联时，任务指南“气泡”将在播放任务指南时指向控件。 在“帮助”窗格中，信息步骤批注将显示为带有编号的步骤，其中包含有您输入的任何文本。 使用信息步骤可准备用户以执行后续步骤、描述需在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 外部完成的步骤或引用其他录制（尽管您无法在批注中创建超链接）。
 
 **确定创建录制所需的时长**
 

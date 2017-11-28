@@ -3,7 +3,7 @@ title: "装运无仓库的销售订单"
 description: "本指南演示在将产品发运给客户时如何更新销售订单。"
 author: omulvad
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/03/2017
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3f1b9dd4b99bcbcc6cfbc5cfd8e3271fa80c628c
+ms.sourcegitcommit: 8e7d2198b4976a6f60f05690d7b6f11f3da55e28
+ms.openlocfilehash: a98e58b26432ee01e62d60f81a768f14568e34e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>装运无仓库的销售订单
@@ -57,6 +57,6 @@ ms.lasthandoff: 09/29/2017
 19. 关闭该页面。
 20. 在操作窗格中，单击“领料和装箱”。
 21. 单击“装箱单”。
-    * “装箱单日记帐”页含有您的订单生成的所有装箱单单据。 您可以在想要时查看并打印每个单据的详细信息。  
+    * “装箱单日记帐”页含有您的订单生成的所有装箱单单据。 您可以在需要时查看并打印每个单据的详细信息。  
 
 
