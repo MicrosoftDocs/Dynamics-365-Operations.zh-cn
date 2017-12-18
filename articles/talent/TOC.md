@@ -2,6 +2,8 @@
 
 # [入门](talent-get-started.md)
 ## [系统要求和更新策略](talent-versions-update-policy.md)
+## [配置 Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [扩展 Talent 功能](extend-talent-functionality.md)
 
 # [制定人力资源战略](departments-jobs-positions.md)
 ## [设置作业组成部分](create-job.md)

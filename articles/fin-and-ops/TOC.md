@@ -8,8 +8,9 @@
 #### [选择部署选项](../dev-itpro/deployment/choose-deployment-type.md)
 ##### [云部署](../dev-itpro/deployment/cloud-deployment-overview.md)
 ##### [云部署的系统要求](get-started/system-requirements.md)
-##### [内部部署](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
+##### [本地部署](../dev-itpro/deployment/on-premises-deployment-landing-page.md)
 ##### [本地部署的系统要求](get-started/system-requirements-on-prem.md)
+##### [用于本地部署的仓库](../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)
 
 #### 购买 Finance and Operations
 ##### [Microsoft FastTrack for Dynamics 365](get-started/fasttrack-dynamics-365-overview.md)
@@ -20,6 +21,7 @@
 #### [延迟发布的 AX 2012 功能](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [未在本地部署中实现的功能](get-started/features-not-implemented-on-prem.md)
 #### [生命周期策略](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [平台 Update 12（2017 年 11 月）](get-started/whats-new-platform-update-12.md)
 #### [平台 Update 11（2017 年 10 月）](get-started/whats-new-platform-update-11.md)
 #### [平台 Update 10（2017 年 8 月）](get-started/whats-new-platform-update-10.md)
 #### [Finance and Operations Enterprise edition（2017 年 7 月）](get-started/whats-new-application-July-2017-update.md)
@@ -42,6 +44,7 @@
 ##### [2016 年 2 月任务指南](get-started/new-task-guides-available-february-2016.md)
 
 ### 浏览用户界面
+#### [辅助功能](get-started/accessibility-features.md)
 #### [客户端 UI 常见问题](get-started/client-faq.md)
 #### [操作搜索](get-started/action-search.md)
 #### [高级筛选和查询语法](get-started/advanced-filtering-query-options.md)
@@ -56,7 +59,7 @@
 #### [设置用户的首选时区](organization-administration/tasks/set-users-preferred-time-zone.md)
 #### [了解 Lifecycle Services](../dev-itpro/lifecycle-services/lcs-works-lcs.md)
 
-### 获取帮助和支持
+### 阅读并执行文档
 #### [帮助概览](get-started/help-overview.md)
 #### [连接帮助](get-started/help-connect.md)
 #### [查看和导出字段描述](get-started/view-export-field-descriptions.md)
@@ -152,17 +155,21 @@
 
 #### [使用 Common Data Service 进行数据集成](../dev-itpro/data-entities/data-integration-cds.md) 
 ##### [配置现金方案的目标客户](../supply-chain/sales-marketing/prospect-to-cash.md)
-###### [将 Finance and Operations 的产品同步到 Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-###### [将 Sales 的客户同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-###### [将 Sales 的联系人同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping.md)
-###### [将 Sales 的销售报价单标题和行同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-###### [将 Finance and Operations 的销售订单标题和行同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-###### [将 Finance and Operations 的销售发票标题和行同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
-###### [将 Sales 的客户直接同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-###### [将 Finance and Operations 的产品直接同步到 Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-###### [将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [将 Finance and Operations 的销售订单标题和行直接同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [将 Finance and Operations 的销售发票标题和行直接同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [维护 Sales 中的帐户并将其直接从 Sales 同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+###### [维护 Finance and Operations 中的产品并将其直接同步到 Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+###### [维护 Sales 中的联系人并将其直接同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+###### [将 Sales 中的销售报价单直接同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [将 Finance and Operations 中的销售订单直接同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+###### [直接在 Sales 和 Finance and Operations 之间同步销售订单](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [将 Finance and Operations 中的销售发票直接同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [维护 Sales 中的帐户并将其同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
+###### [维护 Sales 中的联系人并将其同步到 Finance and Operations](../supply-chain/sales-marketing/contacts-template-mapping.md)
+###### [维护 Finance and Operations 中的产品并将其同步到 Sales](../supply-chain/sales-marketing/products-template-mapping.md)
+###### [在 Sales 中创建销售报价并将其同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
+###### [在 Finance and Operations 中创建销售订单并将其同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
+###### [在 Finance and Operations 中创建销售发票并将其同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+
+
 
 #### [使用外部 Web 服务](../dev-itpro/data-entities/consume-external-web-service.md)
 
@@ -894,6 +901,7 @@
 ##### [黑名单报告](../financials/localizations/emea-ita-black-list-report.md)
 ##### [生效日期](../financials/localizations/emea-ita-competence-date.md)
 ##### [固定资产的折旧](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [发票上的装箱单日期验证](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
 ##### [销售税帐簿](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [拆分签发给公共行政部门的发票的付款](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
@@ -1207,7 +1215,7 @@
 
 ### 文档报告和打印
 #### [文档报告服务概览](../dev-itpro/analytics/document-reporting-services.md)
-#### [为内部部署配置 SSRS](../dev-itpro/analytics/configure-ssrs-on-premises.md)
+#### [为本地部署配置 SSRS](../dev-itpro/analytics/configure-ssrs-on-premises.md)
 #### [打印](../dev-itpro/analytics/print-documents.md)
 ##### [安装文档路线选择代理以启用网络打印机设备](../dev-itpro/analytics/install-document-routing-agent.md)
 ##### [本地部署中的文档生成、发布和打印功能](../dev-itpro/analytics/printing-capabilities-on-premises.md)
@@ -1347,7 +1355,29 @@
 ### [按库存维度跟踪移动平均成本](../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md)
 
 
-## 主计划
+## [主计划](../supply-chain/master-planning/master-planning-home-page.md)
+### [主计划](../supply-chain/master-planning/master-plans.md)
+#### [覆盖范围设置](../supply-chain/master-planning/coverage-settings.md)
+#### [定义物料的覆盖规则（任务指南）](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
+#### [生成受约束计划（任务指南）](../supply-chain/master-planning/tasks/constrained-plan.md)
+#### [创建联产品的物料计划（任务指南）](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
+#### [维护计划订单](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [处理延迟](../supply-chain/master-planning/delays.md)
+#### [跟踪分解](../supply-chain/master-planning/trace-explosion.md)
+#### [行动消息](../supply-chain/master-planning/action-messages.md)
+#### [监控主计划运行（任务指南）](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
+#### [创建站点计划（任务指南）](../supply-chain/master-planning/tasks/create-schedule-site.md)
+#### [创建站点计划（任务指南）](../supply-chain/master-planning/tasks/create-plan-site.md)
+#### [主计划和多站点功能](../supply-chain/master-planning/master-plan-multisite-functionality.md)
+##### [计划站点覆盖范围（仓库必需）](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
+##### [计划站点覆盖范围（仓库非必需）](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
+##### [计划站点和仓库覆盖范围（仓库必需）](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
+##### [计划站点和仓库覆盖范围（仓库非必需）](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
+##### [确定物料清单版本](../supply-chain/master-planning/master-plan-bom-version-determined.md)
+##### [物料清单版本的分解](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
+#### [创建内部公司计划（任务指南）](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
+#### [查看传出计划内部公司需求（任务指南）](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
+#### [与内部供应链客户协作（任务指南）](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 ### [需求预测](../supply-chain/master-planning/introduction-demand-forecasting.md)
 #### [设置需求预测](../supply-chain/master-planning/demand-forecasting-setup.md)
 #### [导入历史数据以进行需求预测](../supply-chain/master-planning/import-historical-data.md)
@@ -1359,29 +1389,6 @@
 #### [缩减参数](../supply-chain/master-planning/reduction-keys.md)
 #### [创建基准预测（任务指南）](../supply-chain/master-planning/tasks/create-baseline-forecast.md)
 #### [手动修改需求预测（任务指南）](../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md)
-
-### [主计划](../supply-chain/master-planning/master-plans.md)
-#### [覆盖范围设置](../supply-chain/master-planning/coverage-settings.md)
-#### [维护计划订单](../supply-chain/master-planning/maintain-planned-orders.md)
-#### [延迟](../supply-chain/master-planning/delays.md)
-#### [行动消息](../supply-chain/master-planning/action-messages.md)
-#### [跟踪分解](../supply-chain/master-planning/trace-explosion.md)
-#### [主计划和多站点功能](../supply-chain/master-planning/master-plan-multisite-functionality.md)
-##### [计划站点覆盖范围（仓库必需）](../supply-chain/master-planning/master-plan-site-coverage-warehouse-mandatory.md)
-##### [计划站点覆盖范围（仓库非必需）](../supply-chain/master-planning/master-plan-site-coverage-warehouse-not-mandatory.md)
-##### [计划站点和仓库覆盖范围（仓库必需）](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-mandatory.md)
-##### [计划站点和仓库覆盖范围（仓库非必需）](../supply-chain/master-planning/master-plan-site-warehouse-coverage-warehouse-not-mandatory.md)
-##### [确定物料清单版本](../supply-chain/master-planning/master-plan-bom-version-determined.md)
-##### [物料清单版本的分解](../supply-chain/master-planning/master-plan-explosion-bom-version.md)
-#### [监控主计划运行（任务指南）](../supply-chain/master-planning/tasks/monitor-master-planning-run.md)
-#### [定义物料的覆盖规则（任务指南）](../supply-chain/master-planning/tasks/define-coverage-rules-items.md)
-#### [创建站点计划（任务指南）](../supply-chain/master-planning/tasks/create-plan-site.md)
-#### [创建站点计划（任务指南）](../supply-chain/master-planning/tasks/create-schedule-site.md)
-#### [生成受约束计划（任务指南）](../supply-chain/master-planning/tasks/constrained-plan.md)
-#### [创建内部公司计划（任务指南）](../supply-chain/master-planning/tasks/create-intercompany-plan.md)
-#### [创建联产品的物料计划（任务指南）](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
-#### [查看传出计划内部公司需求（任务指南）](../supply-chain/master-planning/tasks/view-outbound-planned-intercompany-demand.md)
-#### [与内部供应链客户协作（任务指南）](../supply-chain/master-planning/tasks/collaborate-internal-supply-chain-customers.md)
 
 
 ## [移动应用](../dev-itpro/mobile-apps/Mobile-app-home-page.md)
@@ -1853,7 +1860,7 @@
 #### [设置采购订单的工作模板](../supply-chain/warehousing/tasks/set-up-work-template-purchase-orders.md)
 #### [使用装载计划工作台计划负荷和装运](../supply-chain/warehousing/tasks/use-load-planning-workbench-plan-loads-shipments.md)
 
-# [开发和管理](../dev-itpro/toc.md)
+# [Finance and Operations 的开发和管理](../dev-itpro/toc.md)
 
 # [Dynamics 365 for Retail](../retail/toc.md)
 
