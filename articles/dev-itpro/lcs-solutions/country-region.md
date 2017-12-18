@@ -17,327 +17,328 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 25c8c6c9bbccf07ce94a909824ecc8096081cd2c
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: 9322b970eea9ab5ac01ae8461285b4dbcc1624a3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
-# <a name="localization-and-regulatory-features"></a><span data-ttu-id="45394-103">本地化和监管功能</span><span class="sxs-lookup"><span data-stu-id="45394-103">Localization and regulatory features</span></span>
+# <a name="localization-and-regulatory-features"></a><span data-ttu-id="adee2-103">本地化和监管功能</span><span class="sxs-lookup"><span data-stu-id="adee2-103">Localization and regulatory features</span></span>
 
 [!include[banner](../includes/banner.md)]
 
 
-<span data-ttu-id="45394-104">Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品可用性指南](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)中记录的国家/地区的功能。</span><span class="sxs-lookup"><span data-stu-id="45394-104">Microsoft Dynamics 365 for Finance and Operations includes functionality for the country/regions documented in the [International product availability guide](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf).</span></span> <span data-ttu-id="45394-105">此功能基于有效法人的主要地址启用。</span><span class="sxs-lookup"><span data-stu-id="45394-105">This functionality is enabled based on the primary address of the active legal entity.</span></span> 
+<span data-ttu-id="adee2-104">Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品可用性指南](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)中记录的国家/地区的功能。</span><span class="sxs-lookup"><span data-stu-id="adee2-104">Microsoft Dynamics 365 for Finance and Operations includes functionality for the country/regions documented in the [International product availability guide](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf).</span></span> <span data-ttu-id="adee2-105">此功能基于有效法人的主要地址启用。</span><span class="sxs-lookup"><span data-stu-id="adee2-105">This functionality is enabled based on the primary address of the active legal entity.</span></span> 
 
-<span data-ttu-id="45394-106">本主题包含可帮助您详细了解特定于国家/地区的解决方案、更新、提醒和功能的一系列资源。</span><span class="sxs-lookup"><span data-stu-id="45394-106">This topic includes lists of resources that can help you learn more about country/region-specific solutions, updates, alerts and functionality.</span></span> 
+<span data-ttu-id="adee2-106">本主题包含可帮助您详细了解特定于国家/地区的解决方案、更新、提醒和功能的一系列资源。</span><span class="sxs-lookup"><span data-stu-id="adee2-106">This topic includes lists of resources that can help you learn more about country/region-specific solutions, updates, alerts and functionality.</span></span> 
 
-## <a name="developing-localized-solutions"></a><span data-ttu-id="45394-107">开发本地化的解决方案</span><span class="sxs-lookup"><span data-stu-id="45394-107">Developing localized solutions</span></span>
-<span data-ttu-id="45394-108">以下资源提供了可帮助正在创建特定于国家/地区的自定义项或创建适用于 Microsoft 不支持的国家/地区的解决方案的开发人员和 ISV 的指南和信息。</span><span class="sxs-lookup"><span data-stu-id="45394-108">The following resources provides guidance and information that can help developers and ISVs who are creating country/region-specific customizations or are creating a solution for a country that Microsoft does not support.</span></span>
--   [<span data-ttu-id="45394-109">独立的本地化模型</span><span class="sxs-lookup"><span data-stu-id="45394-109">Separate localization models</span></span>](separate-localization-models.md)
--   [<span data-ttu-id="45394-110">应用国家/地区上下文</span><span class="sxs-lookup"><span data-stu-id="45394-110">Apply country/region context</span></span>](apply-country-context.md)
--   [<span data-ttu-id="45394-111">监管认证</span><span class="sxs-lookup"><span data-stu-id="45394-111">Regulatory certifications</span></span>](regulatory-certifications.md)
--   [<span data-ttu-id="45394-112">为本地化功能分类</span><span class="sxs-lookup"><span data-stu-id="45394-112">Classify localization features</span></span>](classify-localization-features.md)
--   [<span data-ttu-id="45394-113">国家/地区代码 - ISO 3166</span><span class="sxs-lookup"><span data-stu-id="45394-113">Country Codes - ISO 3166</span></span>](https://www.iso.org/iso-3166-country-codes.html)
+## <a name="developing-localized-solutions"></a><span data-ttu-id="adee2-107">开发本地化的解决方案</span><span class="sxs-lookup"><span data-stu-id="adee2-107">Developing localized solutions</span></span>
+<span data-ttu-id="adee2-108">以下资源提供了可帮助正在创建特定于国家/地区的自定义项或创建适用于 Microsoft 不支持的国家/地区的解决方案的开发人员和 ISV 的指南和信息。</span><span class="sxs-lookup"><span data-stu-id="adee2-108">The following resources provides guidance and information that can help developers and ISVs who are creating country/region-specific customizations or are creating a solution for a country that Microsoft does not support.</span></span>
+-   [<span data-ttu-id="adee2-109">独立的本地化模型</span><span class="sxs-lookup"><span data-stu-id="adee2-109">Separate localization models</span></span>](separate-localization-models.md)
+-   [<span data-ttu-id="adee2-110">应用国家/地区上下文</span><span class="sxs-lookup"><span data-stu-id="adee2-110">Apply country/region context</span></span>](apply-country-context.md)
+-   [<span data-ttu-id="adee2-111">监管认证</span><span class="sxs-lookup"><span data-stu-id="adee2-111">Regulatory certifications</span></span>](regulatory-certifications.md)
+-   [<span data-ttu-id="adee2-112">为本地化功能分类</span><span class="sxs-lookup"><span data-stu-id="adee2-112">Classify localization features</span></span>](classify-localization-features.md)
+-   [<span data-ttu-id="adee2-113">国家/地区代码 - ISO 3166</span><span class="sxs-lookup"><span data-stu-id="adee2-113">Country Codes - ISO 3166</span></span>](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates-and-communication"></a><span data-ttu-id="45394-114">本地化更新和通信</span><span class="sxs-lookup"><span data-stu-id="45394-114">Localization updates and communication</span></span>
-<span data-ttu-id="45394-115">以下资源提供了有关计划的本地化功能和新本地化功能的信息。</span><span class="sxs-lookup"><span data-stu-id="45394-115">The following resources provide information about planned and new localization features.</span></span> 
+## <a name="localization-updates-and-communication"></a><span data-ttu-id="adee2-114">本地化更新和通信</span><span class="sxs-lookup"><span data-stu-id="adee2-114">Localization updates and communication</span></span>
+<span data-ttu-id="adee2-115">以下资源提供了有关计划的本地化功能和新本地化功能的信息。</span><span class="sxs-lookup"><span data-stu-id="adee2-115">The following resources provide information about planned and new localization features.</span></span> 
 
-### <a name="localization-updates"></a><span data-ttu-id="45394-116">本地化更新</span><span class="sxs-lookup"><span data-stu-id="45394-116">Localization updates</span></span>
--   <span data-ttu-id="45394-117">[本地化门户](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)（每周更新）</span><span class="sxs-lookup"><span data-stu-id="45394-117">[Localization portal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (Updated weekly)</span></span>
--   <span data-ttu-id="45394-118">[LCS 问题搜索](../lifecycle-services/issue-search-lcs.md)（每天更新）</span><span class="sxs-lookup"><span data-stu-id="45394-118">[LCS issue search](../lifecycle-services/issue-search-lcs.md) (Updated daily)</span></span>
+### <a name="localization-updates"></a><span data-ttu-id="adee2-116">本地化更新</span><span class="sxs-lookup"><span data-stu-id="adee2-116">Localization updates</span></span>
+-   <span data-ttu-id="adee2-117">[本地化门户](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)（每周更新）</span><span class="sxs-lookup"><span data-stu-id="adee2-117">[Localization portal](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC) (Updated weekly)</span></span>
+-   <span data-ttu-id="adee2-118">[LCS 问题搜索](../lifecycle-services/issue-search-lcs.md)（每天更新）</span><span class="sxs-lookup"><span data-stu-id="adee2-118">[LCS issue search](../lifecycle-services/issue-search-lcs.md) (Updated daily)</span></span>
 
-### <a name="communication-and-alerts"></a><span data-ttu-id="45394-119">通信和预警</span><span class="sxs-lookup"><span data-stu-id="45394-119">Communication and alerts</span></span>
--   [<span data-ttu-id="45394-120">监管观察和监管更新通信</span><span class="sxs-lookup"><span data-stu-id="45394-120">Regulatory watch and regulatory update communication</span></span>](regulatory-watch-communication.md)
--   [<span data-ttu-id="45394-121">向 Microsoft 告知国家/地区监管预警并跟踪监管功能的状态</span><span class="sxs-lookup"><span data-stu-id="45394-121">Inform Microsoft about country/region regulation alerts and track the status of regulatory features</span></span>](submit-localization-alerts.md)
+### <a name="communication-and-alerts"></a><span data-ttu-id="adee2-119">通信和预警</span><span class="sxs-lookup"><span data-stu-id="adee2-119">Communication and alerts</span></span>
+-   [<span data-ttu-id="adee2-120">监管观察和监管更新通信</span><span class="sxs-lookup"><span data-stu-id="adee2-120">Regulatory watch and regulatory update communication</span></span>](regulatory-watch-communication.md)
+-   [<span data-ttu-id="adee2-121">向 Microsoft 告知国家/地区监管预警并跟踪监管功能的状态</span><span class="sxs-lookup"><span data-stu-id="adee2-121">Inform Microsoft about country/region regulation alerts and track the status of regulatory features</span></span>](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a><span data-ttu-id="45394-122">Dynamics 365 路线图</span><span class="sxs-lookup"><span data-stu-id="45394-122">Dynamics 365 roadmap</span></span>
-<span data-ttu-id="45394-123">[Dynamics 365 路线图](https://roadmap.dynamics.com/)可提供我们当前工作内容的快照。</span><span class="sxs-lookup"><span data-stu-id="45394-123">The [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) provides a snapshot of what we’re working on.</span></span> <span data-ttu-id="45394-124">使用此路线图可了解通常可用的功能以及仍在开发中的功能。</span><span class="sxs-lookup"><span data-stu-id="45394-124">Use this roadmap to find out what is being made generally available and what is in development.</span></span> <span data-ttu-id="45394-125">开发中的所有日期和功能都是基于当前预期的初步设计，如有更改，恕不另行通知。</span><span class="sxs-lookup"><span data-stu-id="45394-125">All dates and features that are in development are preliminary, are based on current expectations, and are subject to change without notice.</span></span>
+### <a name="dynamics-365-roadmap"></a><span data-ttu-id="adee2-122">Dynamics 365 路线图</span><span class="sxs-lookup"><span data-stu-id="adee2-122">Dynamics 365 roadmap</span></span>
+<span data-ttu-id="adee2-123">[Dynamics 365 路线图](https://roadmap.dynamics.com/)可提供我们当前工作内容的快照。</span><span class="sxs-lookup"><span data-stu-id="adee2-123">The [Dynamics 365 Roadmap](https://roadmap.dynamics.com/) provides a snapshot of what we’re working on.</span></span> <span data-ttu-id="adee2-124">使用此路线图可了解通常可用的功能以及仍在开发中的功能。</span><span class="sxs-lookup"><span data-stu-id="adee2-124">Use this roadmap to find out what is being made generally available and what is in development.</span></span> <span data-ttu-id="adee2-125">开发中的所有日期和功能都是基于当前预期的初步设计，如有更改，恕不另行通知。</span><span class="sxs-lookup"><span data-stu-id="adee2-125">All dates and features that are in development are preliminary, are based on current expectations, and are subject to change without notice.</span></span>
 
-## <a name="electronic-reporting"></a><span data-ttu-id="45394-126">电子申报</span><span class="sxs-lookup"><span data-stu-id="45394-126">Electronic reporting</span></span>
-<span data-ttu-id="45394-127">电子申报 (ER) 工具可让您根据各个国家/地区的法律要求配置电子单据的格式。</span><span class="sxs-lookup"><span data-stu-id="45394-127">The Electronic reporting (ER) tool allows you to configure formats for electronic documents in accordance with the legal requirements of various countries/regions.</span></span> <span data-ttu-id="45394-128">ER 可让您在电子单据的生命周期中管理它们。</span><span class="sxs-lookup"><span data-stu-id="45394-128">ER lets you manage these formats during their lifecycle.</span></span> <span data-ttu-id="45394-129">有关详细信息，请参阅以下主题之一：</span><span class="sxs-lookup"><span data-stu-id="45394-129">For more information, refer to one of the following topics:</span></span>
--   [<span data-ttu-id="45394-130">电子申报概览</span><span class="sxs-lookup"><span data-stu-id="45394-130">Electronic reporting overview</span></span>](../analytics/general-electronic-reporting.md)
--   [<span data-ttu-id="45394-131">管理电子申报配置生命周期</span><span class="sxs-lookup"><span data-stu-id="45394-131">Manage the Electronic reporting configuration lifecycle</span></span>](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [<span data-ttu-id="45394-132">创建电子申报配置</span><span class="sxs-lookup"><span data-stu-id="45394-132">Create an Electronic reporting configuration</span></span>](../analytics/electronic-reporting-configuration.md)
--   [<span data-ttu-id="45394-133">扩展电子申报功能的列表</span><span class="sxs-lookup"><span data-stu-id="45394-133">Extend the list of Electronic reporting functions</span></span>](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [<span data-ttu-id="45394-134">电子申报目标</span><span class="sxs-lookup"><span data-stu-id="45394-134">Electronic reporting destinations</span></span>](../analytics/electronic-reporting-destinations.md)
--   [<span data-ttu-id="45394-135">从 Lifecycle Services 下载电子申报配置</span><span class="sxs-lookup"><span data-stu-id="45394-135">Download Electronic reporting configurations from Lifecycle Services</span></span>](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [<span data-ttu-id="45394-136">导入电子申报配置</span><span class="sxs-lookup"><span data-stu-id="45394-136">Import Electronic reporting configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
--   [<span data-ttu-id="45394-137">配置电子申报以便将数据导入 Power BI</span><span class="sxs-lookup"><span data-stu-id="45394-137">Configure Electronic reporting to pull data into Power BI</span></span>](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [<span data-ttu-id="45394-138">使用电子申报工具生成电子文档并更新申请表数据</span><span class="sxs-lookup"><span data-stu-id="45394-138">Generate electronic documents and update application data using the Electronic reporting tool</span></span>](../analytics/generate-electronic-documents-update-application-data.md)
+## <a name="electronic-reporting"></a><span data-ttu-id="adee2-126">电子申报</span><span class="sxs-lookup"><span data-stu-id="adee2-126">Electronic reporting</span></span>
+<span data-ttu-id="adee2-127">电子申报 (ER) 工具可让您根据各个国家/地区的法律要求配置电子单据的格式。</span><span class="sxs-lookup"><span data-stu-id="adee2-127">The Electronic reporting (ER) tool allows you to configure formats for electronic documents in accordance with the legal requirements of various countries/regions.</span></span> <span data-ttu-id="adee2-128">ER 可让您在电子单据的生命周期中管理它们。</span><span class="sxs-lookup"><span data-stu-id="adee2-128">ER lets you manage these formats during their lifecycle.</span></span> <span data-ttu-id="adee2-129">有关详细信息，请参阅以下主题之一：</span><span class="sxs-lookup"><span data-stu-id="adee2-129">For more information, refer to one of the following topics:</span></span>
+-   [<span data-ttu-id="adee2-130">电子申报概览</span><span class="sxs-lookup"><span data-stu-id="adee2-130">Electronic reporting overview</span></span>](../analytics/general-electronic-reporting.md)
+-   [<span data-ttu-id="adee2-131">管理电子申报配置生命周期</span><span class="sxs-lookup"><span data-stu-id="adee2-131">Manage the Electronic reporting configuration lifecycle</span></span>](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [<span data-ttu-id="adee2-132">创建电子申报配置</span><span class="sxs-lookup"><span data-stu-id="adee2-132">Create an Electronic reporting configuration</span></span>](../analytics/electronic-reporting-configuration.md)
+-   [<span data-ttu-id="adee2-133">扩展电子申报功能的列表</span><span class="sxs-lookup"><span data-stu-id="adee2-133">Extend the list of Electronic reporting functions</span></span>](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [<span data-ttu-id="adee2-134">电子申报目标</span><span class="sxs-lookup"><span data-stu-id="adee2-134">Electronic reporting destinations</span></span>](../analytics/electronic-reporting-destinations.md)
+-   [<span data-ttu-id="adee2-135">从 Lifecycle Services 下载电子申报配置</span><span class="sxs-lookup"><span data-stu-id="adee2-135">Download Electronic reporting configurations from Lifecycle Services</span></span>](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [<span data-ttu-id="adee2-136">导入电子申报配置</span><span class="sxs-lookup"><span data-stu-id="adee2-136">Import Electronic reporting configurations</span></span>](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [<span data-ttu-id="adee2-137">配置电子申报以便将数据导入 Power BI</span><span class="sxs-lookup"><span data-stu-id="adee2-137">Configure Electronic reporting to pull data into Power BI</span></span>](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [<span data-ttu-id="adee2-138">使用电子申报工具生成电子文档并更新申请表数据</span><span class="sxs-lookup"><span data-stu-id="adee2-138">Generate electronic documents and update application data using the Electronic reporting tool</span></span>](../analytics/generate-electronic-documents-update-application-data.md)
 
-## <a name="task-guides"></a><span data-ttu-id="45394-139">任务指南</span><span class="sxs-lookup"><span data-stu-id="45394-139">Task guides</span></span>
-<span data-ttu-id="45394-140">任务指南可从产品帮助窗格中找到，它们将指导您演练关键业务流程。</span><span class="sxs-lookup"><span data-stu-id="45394-140">Task guides are available from the product help pane and they provide a guided walk-through of key business processes.</span></span> <span data-ttu-id="45394-141">您可以打开任务指南以读取业务流程步骤，也可以播放任务指南以演练业务流程和输入数据。</span><span class="sxs-lookup"><span data-stu-id="45394-141">You can open a task guide to read the steps of a business process or you can play a task guide to walk through a business process and enter data.</span></span>
+## <a name="task-guides"></a><span data-ttu-id="adee2-139">任务指南</span><span class="sxs-lookup"><span data-stu-id="adee2-139">Task guides</span></span>
+<span data-ttu-id="adee2-140">任务指南可从产品帮助窗格中找到，它们将指导您演练关键业务流程。</span><span class="sxs-lookup"><span data-stu-id="adee2-140">Task guides are available from the product help pane and they provide a guided walk-through of key business processes.</span></span> <span data-ttu-id="adee2-141">您可以打开任务指南以读取业务流程步骤，也可以播放任务指南以演练业务流程和输入数据。</span><span class="sxs-lookup"><span data-stu-id="adee2-141">You can open a task guide to read the steps of a business process or you can play a task guide to walk through a business process and enter data.</span></span>
 
-<span data-ttu-id="45394-142">要查找任务指南，请导航到 Microsoft Dynamics 365 for Finance and Operations 中的页面并单击“帮助”。</span><span class="sxs-lookup"><span data-stu-id="45394-142">To find task guides, navigate to a page in Microsoft Dynamics 365 for Finance and Operations and click Help.</span></span> <span data-ttu-id="45394-143">使用该页面的任务指南将在帮助窗格中列出。</span><span class="sxs-lookup"><span data-stu-id="45394-143">Task guides that use the page are listed in the help pane.</span></span> <span data-ttu-id="45394-144">您也可以使用帮助窗格按标题搜索任务指南。</span><span class="sxs-lookup"><span data-stu-id="45394-144">You can also use the help pane to search for task guides by title.</span></span>
+<span data-ttu-id="adee2-142">要查找任务指南，请导航到 Microsoft Dynamics 365 for Finance and Operations 中的页面并单击“帮助”。</span><span class="sxs-lookup"><span data-stu-id="adee2-142">To find task guides, navigate to a page in Microsoft Dynamics 365 for Finance and Operations and click Help.</span></span> <span data-ttu-id="adee2-143">使用该页面的任务指南将在帮助窗格中列出。</span><span class="sxs-lookup"><span data-stu-id="adee2-143">Task guides that use the page are listed in the help pane.</span></span> <span data-ttu-id="adee2-144">您也可以使用帮助窗格按标题搜索任务指南。</span><span class="sxs-lookup"><span data-stu-id="adee2-144">You can also use the help pane to search for task guides by title.</span></span>
 
-<span data-ttu-id="45394-145">若要了解更多信息，请参阅[任务指南](../../fin-and-ops/get-started/help-overview.md#task-guides)。</span><span class="sxs-lookup"><span data-stu-id="45394-145">To learn more, see [Task guides](../../fin-and-ops/get-started/help-overview.md#task-guides).</span></span>
+<span data-ttu-id="adee2-145">若要了解更多信息，请参阅[任务指南](../../fin-and-ops/get-started/help-overview.md#task-guides)。</span><span class="sxs-lookup"><span data-stu-id="adee2-145">To learn more, see [Task guides](../../fin-and-ops/get-started/help-overview.md#task-guides).</span></span>
 
 
-## <a name="countryregion-specific-help-topics"></a><span data-ttu-id="45394-146">特定于国家/地区的帮助主题</span><span class="sxs-lookup"><span data-stu-id="45394-146">Country/region specific help topics</span></span>
-<span data-ttu-id="45394-147">以下各节按国家/地区列出了资源。</span><span class="sxs-lookup"><span data-stu-id="45394-147">The following sections list resources by country/region.</span></span>
+## <a name="countryregion-specific-help-topics"></a><span data-ttu-id="adee2-146">特定于国家/地区的帮助主题</span><span class="sxs-lookup"><span data-stu-id="adee2-146">Country/region specific help topics</span></span>
+<span data-ttu-id="adee2-147">以下各节按国家/地区列出了资源。</span><span class="sxs-lookup"><span data-stu-id="adee2-147">The following sections list resources by country/region.</span></span>
 
-### <a name="australia"></a><span data-ttu-id="45394-148">澳大利亚</span><span class="sxs-lookup"><span data-stu-id="45394-148">Australia</span></span>
+### <a name="australia"></a><span data-ttu-id="adee2-148">澳大利亚</span><span class="sxs-lookup"><span data-stu-id="adee2-148">Australia</span></span>
 
--   [<span data-ttu-id="45394-149">银行文件格式</span><span class="sxs-lookup"><span data-stu-id="45394-149">Bank file formats</span></span>](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [<span data-ttu-id="45394-150">营业活动报表</span><span class="sxs-lookup"><span data-stu-id="45394-150">Business activity statement </span></span>](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [<span data-ttu-id="45394-151">低价值池折旧</span><span class="sxs-lookup"><span data-stu-id="45394-151">Low-value pool depreciation</span></span>](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
+-   [<span data-ttu-id="adee2-149">银行文件格式</span><span class="sxs-lookup"><span data-stu-id="adee2-149">Bank file formats</span></span>](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
+-   [<span data-ttu-id="adee2-150">营业活动报表</span><span class="sxs-lookup"><span data-stu-id="adee2-150">Business activity statement </span></span>](../../financials/localizations/apac-aus-business-activity-statement.md)
+-   [<span data-ttu-id="adee2-151">低价值池折旧</span><span class="sxs-lookup"><span data-stu-id="adee2-151">Low-value pool depreciation</span></span>](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
 
-### <a name="austria"></a><span data-ttu-id="45394-152">奥地利</span><span class="sxs-lookup"><span data-stu-id="45394-152">Austria</span></span>
+### <a name="austria"></a><span data-ttu-id="adee2-152">奥地利</span><span class="sxs-lookup"><span data-stu-id="adee2-152">Austria</span></span>
 
-- [<span data-ttu-id="45394-153">半年折旧</span><span class="sxs-lookup"><span data-stu-id="45394-153">Half-year depreciation</span></span>](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [<span data-ttu-id="45394-154">包装材料费用</span><span class="sxs-lookup"><span data-stu-id="45394-154">Packing material fees</span></span>](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [<span data-ttu-id="45394-155">进项税</span><span class="sxs-lookup"><span data-stu-id="45394-155">Purchase duties</span></span>](../../financials/localizations/emea-aut-purchase-duties.md)
-- [<span data-ttu-id="45394-156">增值税报表</span><span class="sxs-lookup"><span data-stu-id="45394-156">VAT statement</span></span>](../../financials/localizations/emea-aut-vat-statement-details.md)
+- [<span data-ttu-id="adee2-153">半年折旧</span><span class="sxs-lookup"><span data-stu-id="adee2-153">Half-year depreciation</span></span>](../../financials/localizations/emea-aut-half-year-depreciation.md)
+- [<span data-ttu-id="adee2-154">包装材料费用</span><span class="sxs-lookup"><span data-stu-id="adee2-154">Packing material fees</span></span>](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
+- [<span data-ttu-id="adee2-155">进项税</span><span class="sxs-lookup"><span data-stu-id="adee2-155">Purchase duties</span></span>](../../financials/localizations/emea-aut-purchase-duties.md)
+- [<span data-ttu-id="adee2-156">增值税报表</span><span class="sxs-lookup"><span data-stu-id="adee2-156">VAT statement</span></span>](../../financials/localizations/emea-aut-vat-statement-details.md)
 
-### <a name="belgium"></a><span data-ttu-id="45394-157">比利时</span><span class="sxs-lookup"><span data-stu-id="45394-157">Belgium</span></span>
+### <a name="belgium"></a><span data-ttu-id="adee2-157">比利时</span><span class="sxs-lookup"><span data-stu-id="adee2-157">Belgium</span></span>
 
--   [<span data-ttu-id="45394-158">CODA 银行对帐单</span><span class="sxs-lookup"><span data-stu-id="45394-158">CODA bank statement</span></span>](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [<span data-ttu-id="45394-159">Intervat 纳税申报</span><span class="sxs-lookup"><span data-stu-id="45394-159">Intervat tax declaration</span></span>](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [<span data-ttu-id="45394-160">PRODCOM 报告设置</span><span class="sxs-lookup"><span data-stu-id="45394-160">PRODCOM report setup</span></span>](../../financials/localizations/emea-bel-prodcom-report.md)
--   [<span data-ttu-id="45394-161">对帐报表</span><span class="sxs-lookup"><span data-stu-id="45394-161">Reconciliation reports</span></span>](../../financials/localizations/emea-bel-reconciliation-reports.md)
+-   [<span data-ttu-id="adee2-158">CODA 银行对帐单</span><span class="sxs-lookup"><span data-stu-id="adee2-158">CODA bank statement</span></span>](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
+-   [<span data-ttu-id="adee2-159">Intervat 纳税申报</span><span class="sxs-lookup"><span data-stu-id="adee2-159">Intervat tax declaration</span></span>](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
+-   [<span data-ttu-id="adee2-160">PRODCOM 报告设置</span><span class="sxs-lookup"><span data-stu-id="adee2-160">PRODCOM report setup</span></span>](../../financials/localizations/emea-bel-prodcom-report.md)
+-   [<span data-ttu-id="adee2-161">对帐报表</span><span class="sxs-lookup"><span data-stu-id="adee2-161">Reconciliation reports</span></span>](../../financials/localizations/emea-bel-reconciliation-reports.md)
 
-### <a name="brazil"></a><span data-ttu-id="45394-162">巴西</span><span class="sxs-lookup"><span data-stu-id="45394-162">Brazil</span></span>
+### <a name="brazil"></a><span data-ttu-id="adee2-162">巴西</span><span class="sxs-lookup"><span data-stu-id="adee2-162">Brazil</span></span>
 
--   [<span data-ttu-id="45394-163">CIAP 固定资产</span><span class="sxs-lookup"><span data-stu-id="45394-163">CIAP fixed asset</span></span>](../../financials/localizations/latam-bra-ciap-fixed-asset.md)
--   [<span data-ttu-id="45394-164">配置会计帐簿</span><span class="sxs-lookup"><span data-stu-id="45394-164">Configure fiscal books</span></span>](../../financials/localizations/latam-bra-configure-fiscal-books.md)
--   [<span data-ttu-id="45394-165">针对巴西的总帐合并导出和导入交易</span><span class="sxs-lookup"><span data-stu-id="45394-165">Export and import transactions for General ledger consolidation for Brazil</span></span>](../../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md)
--   [<span data-ttu-id="45394-166">会计帐簿</span><span class="sxs-lookup"><span data-stu-id="45394-166">Fiscal books</span></span>](../../financials/localizations/latam-bra-fiscal-books.md)
--   [<span data-ttu-id="45394-167">会计单据文本占位符</span><span class="sxs-lookup"><span data-stu-id="45394-167">Fiscal document text placeholders</span></span>](../../financials/localizations/latam-bra-fiscal-document-text-placeholders.md)
--   [<span data-ttu-id="45394-168">会计单据</span><span class="sxs-lookup"><span data-stu-id="45394-168">Fiscal documents</span></span>](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
--   [<span data-ttu-id="45394-169">ICMS 缴税会计单据</span><span class="sxs-lookup"><span data-stu-id="45394-169">ICMS tax fiscal documents</span></span>](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
--   [<span data-ttu-id="45394-170">导入和验证 NF-e XML 文档和 DANFE 文件</span><span class="sxs-lookup"><span data-stu-id="45394-170">Import and verify NF-e XML documents and DANFE files</span></span>](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
--   [<span data-ttu-id="45394-171">导入会计单据</span><span class="sxs-lookup"><span data-stu-id="45394-171">Import fiscal documents</span></span>](../../financials/localizations/latam-bra-import-fiscal-documents.md)
--   [<span data-ttu-id="45394-172">在电子付款退回过程中生成日记帐</span><span class="sxs-lookup"><span data-stu-id="45394-172">Journals generated during the electronic payment return process</span></span>](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
--   [<span data-ttu-id="45394-173">NF-e 流程</span><span class="sxs-lookup"><span data-stu-id="45394-173">NF-e process</span></span>](../../financials/localizations/latam-bra-nf-e-process.md)
--   [<span data-ttu-id="45394-174">法人的参数</span><span class="sxs-lookup"><span data-stu-id="45394-174">Parameters for legal entities</span></span>](../../financials/localizations/latam-bra-legal-entity-parameters.md)
--   [<span data-ttu-id="45394-175">处理巴西电子付款汇款</span><span class="sxs-lookup"><span data-stu-id="45394-175">Process electronic payment remittances for Brazil</span></span>](../../financials/localizations/latam-bra-process-electronic-payment-remittances.md)
--   [<span data-ttu-id="45394-176">采购补充会计单据</span><span class="sxs-lookup"><span data-stu-id="45394-176">Purchase complementary fiscal documents</span></span>](../../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md)
--   [<span data-ttu-id="45394-177">引用的会计单据</span><span class="sxs-lookup"><span data-stu-id="45394-177">Referenced fiscal documents</span></span>](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
--   [<span data-ttu-id="45394-178">销售购补充会计单据</span><span class="sxs-lookup"><span data-stu-id="45394-178">Sales complementary fiscal documents</span></span>](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
--   [<span data-ttu-id="45394-179">服务电子会计单据</span><span class="sxs-lookup"><span data-stu-id="45394-179">Service electronic fiscal document</span></span>](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
--   [<span data-ttu-id="45394-180">设置、导入并验证 NF-e XML 文档和 DANFE</span><span class="sxs-lookup"><span data-stu-id="45394-180">Set up, import, and verify NF-e XML documents and DANFE</span></span>](../../financials/localizations/latam-bra-set-up-import-nfe.md)
--   [<span data-ttu-id="45394-181">税务属性</span><span class="sxs-lookup"><span data-stu-id="45394-181">Tax attributes</span></span>](../../financials/localizations/latam-bra-tax-attributes.md)
--   [<span data-ttu-id="45394-182">税金支付</span><span class="sxs-lookup"><span data-stu-id="45394-182">Tax payments</span></span>](../../financials/localizations/latam-bra-tax-payments.md)
--   [<span data-ttu-id="45394-183">税金</span><span class="sxs-lookup"><span data-stu-id="45394-183">Taxes</span></span>](../../financials/localizations/latam-bra-calculate-taxes.md)
+-   [<span data-ttu-id="adee2-163">CIAP 固定资产</span><span class="sxs-lookup"><span data-stu-id="adee2-163">CIAP fixed asset</span></span>](../../financials/localizations/latam-bra-ciap-fixed-asset.md)
+-   [<span data-ttu-id="adee2-164">配置会计帐簿</span><span class="sxs-lookup"><span data-stu-id="adee2-164">Configure fiscal books</span></span>](../../financials/localizations/latam-bra-configure-fiscal-books.md)
+-   [<span data-ttu-id="adee2-165">针对巴西的总帐合并导出和导入交易</span><span class="sxs-lookup"><span data-stu-id="adee2-165">Export and import transactions for General ledger consolidation for Brazil</span></span>](../../financials/localizations/latam-bra-general-ledger-consolidation-transactions.md)
+-   [<span data-ttu-id="adee2-166">会计帐簿</span><span class="sxs-lookup"><span data-stu-id="adee2-166">Fiscal books</span></span>](../../financials/localizations/latam-bra-fiscal-books.md)
+-   [<span data-ttu-id="adee2-167">会计单据文本占位符</span><span class="sxs-lookup"><span data-stu-id="adee2-167">Fiscal document text placeholders</span></span>](../../financials/localizations/latam-bra-fiscal-document-text-placeholders.md)
+-   [<span data-ttu-id="adee2-168">会计单据</span><span class="sxs-lookup"><span data-stu-id="adee2-168">Fiscal documents</span></span>](../../financials/localizations/latam-bra-fiscal-documents-fiscal-document-framework.md)
+-   [<span data-ttu-id="adee2-169">ICMS 缴税会计单据</span><span class="sxs-lookup"><span data-stu-id="adee2-169">ICMS tax fiscal documents</span></span>](../../financials/localizations/latam-bra-icms-tax-fiscal-documents.md)
+-   [<span data-ttu-id="adee2-170">导入和验证 NF-e XML 文档和 DANFE 文件</span><span class="sxs-lookup"><span data-stu-id="adee2-170">Import and verify NF-e XML documents and DANFE files</span></span>](../../financials/localizations/latam-bra-import-verify-nf-e-xml-documents-danfe-emails.md)
+-   [<span data-ttu-id="adee2-171">导入会计单据</span><span class="sxs-lookup"><span data-stu-id="adee2-171">Import fiscal documents</span></span>](../../financials/localizations/latam-bra-import-fiscal-documents.md)
+-   [<span data-ttu-id="adee2-172">在电子付款退回过程中生成日记帐</span><span class="sxs-lookup"><span data-stu-id="adee2-172">Journals generated during the electronic payment return process</span></span>](../../financials/localizations/latam-bra-examples-journals-generated-electronic-payment-return-process.md)
+-   [<span data-ttu-id="adee2-173">NF-e 流程</span><span class="sxs-lookup"><span data-stu-id="adee2-173">NF-e process</span></span>](../../financials/localizations/latam-bra-nf-e-process.md)
+-   [<span data-ttu-id="adee2-174">法人的参数</span><span class="sxs-lookup"><span data-stu-id="adee2-174">Parameters for legal entities</span></span>](../../financials/localizations/latam-bra-legal-entity-parameters.md)
+-   [<span data-ttu-id="adee2-175">处理巴西电子付款汇款</span><span class="sxs-lookup"><span data-stu-id="adee2-175">Process electronic payment remittances for Brazil</span></span>](../../financials/localizations/latam-bra-process-electronic-payment-remittances.md)
+-   [<span data-ttu-id="adee2-176">采购补充会计单据</span><span class="sxs-lookup"><span data-stu-id="adee2-176">Purchase complementary fiscal documents</span></span>](../../financials/localizations/latam-bra-purchase-complementary-fiscal-documents.md)
+-   [<span data-ttu-id="adee2-177">引用的会计单据</span><span class="sxs-lookup"><span data-stu-id="adee2-177">Referenced fiscal documents</span></span>](../../financials/localizations/latam-bra-referenced-fiscal-documents.md)
+-   [<span data-ttu-id="adee2-178">销售购补充会计单据</span><span class="sxs-lookup"><span data-stu-id="adee2-178">Sales complementary fiscal documents</span></span>](../../financials/localizations/latam-bra-sales-complementary-fiscal-documents.md)
+-   [<span data-ttu-id="adee2-179">服务电子会计单据</span><span class="sxs-lookup"><span data-stu-id="adee2-179">Service electronic fiscal document</span></span>](../../financials/localizations/latam-bra-service-electronic-fiscal-document.md)
+-   [<span data-ttu-id="adee2-180">设置、导入并验证 NF-e XML 文档和 DANFE</span><span class="sxs-lookup"><span data-stu-id="adee2-180">Set up, import, and verify NF-e XML documents and DANFE</span></span>](../../financials/localizations/latam-bra-set-up-import-nfe.md)
+-   [<span data-ttu-id="adee2-181">税务属性</span><span class="sxs-lookup"><span data-stu-id="adee2-181">Tax attributes</span></span>](../../financials/localizations/latam-bra-tax-attributes.md)
+-   [<span data-ttu-id="adee2-182">税金支付</span><span class="sxs-lookup"><span data-stu-id="adee2-182">Tax payments</span></span>](../../financials/localizations/latam-bra-tax-payments.md)
+-   [<span data-ttu-id="adee2-183">税金</span><span class="sxs-lookup"><span data-stu-id="adee2-183">Taxes</span></span>](../../financials/localizations/latam-bra-calculate-taxes.md)
 
-### <a name="china"></a><span data-ttu-id="45394-184">中国</span><span class="sxs-lookup"><span data-stu-id="45394-184">China</span></span>
--   [<span data-ttu-id="45394-185">物料清单比较</span><span class="sxs-lookup"><span data-stu-id="45394-185">Bill of materials comparison</span></span>](../../financials/localizations/apac-chn-bom-comparison.md)
--   [<span data-ttu-id="45394-186">中国式凭证</span><span class="sxs-lookup"><span data-stu-id="45394-186">Chinese vouchers</span></span>](../../financials/localizations/apac-chn-vouchers.md)
--   [<span data-ttu-id="45394-187">配置税务集成</span><span class="sxs-lookup"><span data-stu-id="45394-187">Configure tax integration</span></span>](../../financials/localizations/apac-chn-tax-integration.md)
-    -   [<span data-ttu-id="45394-188">增值税客户发票常见问题</span><span class="sxs-lookup"><span data-stu-id="45394-188">VAT customer invoices FAQ</span></span>](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [<span data-ttu-id="45394-189">固定资产折旧方法</span><span class="sxs-lookup"><span data-stu-id="45394-189">Depreciation methods fixed assets </span></span>](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
--   [<span data-ttu-id="45394-190">导入中国金税数据实体</span><span class="sxs-lookup"><span data-stu-id="45394-190">Import the Chinese Golden Tax data entity</span></span>](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
--   [<span data-ttu-id="45394-191">每月平均成本模型</span><span class="sxs-lookup"><span data-stu-id="45394-191">Monthly average cost model</span></span>](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
--   [<span data-ttu-id="45394-192">按站点过帐库存主科目</span><span class="sxs-lookup"><span data-stu-id="45394-192">Post inventory main accounts by site</span></span>](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [<span data-ttu-id="45394-193">显示会计科目的借方和贷方金额</span><span class="sxs-lookup"><span data-stu-id="45394-193">Display debit and credit amounts for ledger accounts</span></span>](../../financials/localizations/apac-chn-negative-debits-credits.md)
+### <a name="china"></a><span data-ttu-id="adee2-184">中国</span><span class="sxs-lookup"><span data-stu-id="adee2-184">China</span></span>
+-   [<span data-ttu-id="adee2-185">物料清单比较</span><span class="sxs-lookup"><span data-stu-id="adee2-185">Bill of materials comparison</span></span>](../../financials/localizations/apac-chn-bom-comparison.md)
+-   [<span data-ttu-id="adee2-186">中国式凭证</span><span class="sxs-lookup"><span data-stu-id="adee2-186">Chinese vouchers</span></span>](../../financials/localizations/apac-chn-vouchers.md)
+-   [<span data-ttu-id="adee2-187">配置税务集成</span><span class="sxs-lookup"><span data-stu-id="adee2-187">Configure tax integration</span></span>](../../financials/localizations/apac-chn-tax-integration.md)
+    -   [<span data-ttu-id="adee2-188">增值税客户发票常见问题</span><span class="sxs-lookup"><span data-stu-id="adee2-188">VAT customer invoices FAQ</span></span>](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+    -   [<span data-ttu-id="adee2-189">固定资产折旧方法</span><span class="sxs-lookup"><span data-stu-id="adee2-189">Depreciation methods fixed assets </span></span>](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
+-   [<span data-ttu-id="adee2-190">导入中国金税数据实体</span><span class="sxs-lookup"><span data-stu-id="adee2-190">Import the Chinese Golden Tax data entity</span></span>](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
+-   [<span data-ttu-id="adee2-191">每月平均成本模型</span><span class="sxs-lookup"><span data-stu-id="adee2-191">Monthly average cost model</span></span>](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
+-   [<span data-ttu-id="adee2-192">按站点过帐库存主科目</span><span class="sxs-lookup"><span data-stu-id="adee2-192">Post inventory main accounts by site</span></span>](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
+-   [<span data-ttu-id="adee2-193">显示会计科目的借方和贷方金额</span><span class="sxs-lookup"><span data-stu-id="adee2-193">Display debit and credit amounts for ledger accounts</span></span>](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a><span data-ttu-id="45394-194">捷克共和国</span><span class="sxs-lookup"><span data-stu-id="45394-194">The Czech Republic</span></span>
+### <a name="the-czech-republic"></a><span data-ttu-id="adee2-194">捷克共和国</span><span class="sxs-lookup"><span data-stu-id="adee2-194">The Czech Republic</span></span>
 
--   [<span data-ttu-id="45394-195">贷方通知单上的现金折扣</span><span class="sxs-lookup"><span data-stu-id="45394-195">Cash discount on credit note</span></span>](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [<span data-ttu-id="45394-196">折旧舍入</span><span class="sxs-lookup"><span data-stu-id="45394-196">Depreciation rounding</span></span>](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [<span data-ttu-id="45394-197">捷克共和国的固定资产处置的半年折旧</span><span class="sxs-lookup"><span data-stu-id="45394-197">Half year depreciation on fixed asset disposal for the Czech Republic</span></span>](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [<span data-ttu-id="45394-198">折旧挂起 (holidays.md)</span><span class="sxs-lookup"><span data-stu-id="45394-198">Depreciation suspension (holidays.md)</span></span>](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [<span data-ttu-id="45394-199">捷克共和国的固定资产折旧方法</span><span class="sxs-lookup"><span data-stu-id="45394-199">Fixed assets depreciation methods for the Czech Republic</span></span>](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [<span data-ttu-id="45394-200">过帐购置前的固定资产</span><span class="sxs-lookup"><span data-stu-id="45394-200">Post the pre-acquisition of a fixed asset</span></span>](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [<span data-ttu-id="45394-201">捷克共和国的增值税报表</span><span class="sxs-lookup"><span data-stu-id="45394-201">VAT statement for the Czech Republic</span></span>](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [<span data-ttu-id="45394-202">销售税申报</span><span class="sxs-lookup"><span data-stu-id="45394-202">Sales tax reporting </span></span>](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [<span data-ttu-id="45394-203">拆分期间日记帐中的期间</span><span class="sxs-lookup"><span data-stu-id="45394-203">Split periods in periodic journals</span></span>](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [<span data-ttu-id="45394-204">设置打印表格的签名人</span><span class="sxs-lookup"><span data-stu-id="45394-204">Set up signers for print forms</span></span>](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [<span data-ttu-id="45394-205">更新金额在报表和单据上显示的方式</span><span class="sxs-lookup"><span data-stu-id="45394-205">Update how amounts are displayed on reports and documents</span></span>](../../financials/localizations/emea-amount-printing-forms.md)
+-   [<span data-ttu-id="adee2-195">贷方通知单上的现金折扣</span><span class="sxs-lookup"><span data-stu-id="adee2-195">Cash discount on credit note</span></span>](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
+-   [<span data-ttu-id="adee2-196">折旧舍入</span><span class="sxs-lookup"><span data-stu-id="adee2-196">Depreciation rounding</span></span>](../../financials/localizations/emea-cze-depreciation-rounding.md)
+-   [<span data-ttu-id="adee2-197">捷克共和国的固定资产处置的半年折旧</span><span class="sxs-lookup"><span data-stu-id="adee2-197">Half year depreciation on fixed asset disposal for the Czech Republic</span></span>](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
+-   [<span data-ttu-id="adee2-198">折旧挂起 (holidays.md)</span><span class="sxs-lookup"><span data-stu-id="adee2-198">Depreciation suspension (holidays.md)</span></span>](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
+-   [<span data-ttu-id="adee2-199">捷克共和国的固定资产折旧方法</span><span class="sxs-lookup"><span data-stu-id="adee2-199">Fixed assets depreciation methods for the Czech Republic</span></span>](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
+-   [<span data-ttu-id="adee2-200">过帐购置前的固定资产</span><span class="sxs-lookup"><span data-stu-id="adee2-200">Post the pre-acquisition of a fixed asset</span></span>](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
+-   [<span data-ttu-id="adee2-201">捷克共和国的增值税报表</span><span class="sxs-lookup"><span data-stu-id="adee2-201">VAT statement for the Czech Republic</span></span>](../../financials/localizations/emea-cze-vat-statement-details.md)
+-   [<span data-ttu-id="adee2-202">销售税申报</span><span class="sxs-lookup"><span data-stu-id="adee2-202">Sales tax reporting </span></span>](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
+-   [<span data-ttu-id="adee2-203">拆分期间日记帐中的期间</span><span class="sxs-lookup"><span data-stu-id="adee2-203">Split periods in periodic journals</span></span>](../../financials/localizations/emea-create-post-periodic-journals.md)
+-   [<span data-ttu-id="adee2-204">设置打印表格的签名人</span><span class="sxs-lookup"><span data-stu-id="adee2-204">Set up signers for print forms</span></span>](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
+-   [<span data-ttu-id="adee2-205">更新金额在报表和单据上显示的方式</span><span class="sxs-lookup"><span data-stu-id="adee2-205">Update how amounts are displayed on reports and documents</span></span>](../../financials/localizations/emea-amount-printing-forms.md)
 
-### <a name="estonia"></a><span data-ttu-id="45394-206">爱沙尼亚</span><span class="sxs-lookup"><span data-stu-id="45394-206">Estonia</span></span>
+### <a name="estonia"></a><span data-ttu-id="adee2-206">爱沙尼亚</span><span class="sxs-lookup"><span data-stu-id="adee2-206">Estonia</span></span>
 
--   [<span data-ttu-id="45394-207">爱沙尼亚的增值税报表明细</span><span class="sxs-lookup"><span data-stu-id="45394-207">VAT statement details for Estonia</span></span>](../../financials/localizations/emea-est-vat-statement-details.md)
--   [<span data-ttu-id="45394-208">固定资产处置</span><span class="sxs-lookup"><span data-stu-id="45394-208">Fixed assets disposal</span></span>](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+-   [<span data-ttu-id="adee2-207">爱沙尼亚的增值税报表明细</span><span class="sxs-lookup"><span data-stu-id="adee2-207">VAT statement details for Estonia</span></span>](../../financials/localizations/emea-est-vat-statement-details.md)
+-   [<span data-ttu-id="adee2-208">固定资产处置</span><span class="sxs-lookup"><span data-stu-id="adee2-208">Fixed assets disposal</span></span>](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
-### <a name="europe"></a><span data-ttu-id="45394-209">欧洲</span><span class="sxs-lookup"><span data-stu-id="45394-209">Europe</span></span>
-- [<span data-ttu-id="45394-210">预付款持有人</span><span class="sxs-lookup"><span data-stu-id="45394-210">Advance holders</span></span>](../../financials/localizations/emea-advance-holders.md)
-- [<span data-ttu-id="45394-211">预付款持有人交易记录</span><span class="sxs-lookup"><span data-stu-id="45394-211">Advance holder transactions</span></span>](../../financials/localizations/emea-advance-holders-transactions.md)
-- [<span data-ttu-id="45394-212">预付款开票</span><span class="sxs-lookup"><span data-stu-id="45394-212">Advanced invoicing</span></span>](../../financials/localizations/emea-advance-invoice.md)
-- [<span data-ttu-id="45394-213">银行对帐</span><span class="sxs-lookup"><span data-stu-id="45394-213">Bank reconciliation</span></span>](../../financials/localizations/emea-bank-reconciliation.md)
-- [<span data-ttu-id="45394-214">可更正开票</span><span class="sxs-lookup"><span data-stu-id="45394-214">Corrective invoicing</span></span>](../../financials/localizations/emea-corrective-invoice.md)
-- [<span data-ttu-id="45394-215">创建并过帐期间日记帐</span><span class="sxs-lookup"><span data-stu-id="45394-215">Create and post periodic journals</span></span>](../../financials/localizations/emea-create-post-periodic-journals.md)
-- [<span data-ttu-id="45394-216">编辑销售订单上的发票 ID</span><span class="sxs-lookup"><span data-stu-id="45394-216">Edit invoice IDs on sales orders</span></span>](../../financials/localizations/emea-edit-invoice-id-sales-orders.md)
-- [<span data-ttu-id="45394-217">欧盟入境证</span><span class="sxs-lookup"><span data-stu-id="45394-217">EU entry certificates</span></span>](../../financials/localizations/emea-entry-certificates.md)
-- [<span data-ttu-id="45394-218">欧盟销售清单报表</span><span class="sxs-lookup"><span data-stu-id="45394-218">EU sales list reporting</span></span>](../../financials/localizations/emea-eu-sales-list.md)
-- [<span data-ttu-id="45394-219">汇率调整</span><span class="sxs-lookup"><span data-stu-id="45394-219">Exchange rate adjustments</span></span>](../../financials/localizations/emea-exchange-rate-adjustments.md)
-- [<span data-ttu-id="45394-220">付款方式的文件格式</span><span class="sxs-lookup"><span data-stu-id="45394-220">File formats for methods of payment</span></span>](../../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
-- [<span data-ttu-id="45394-221">爱沙尼亚和立陶宛的固定资产处置</span><span class="sxs-lookup"><span data-stu-id="45394-221">Fixed assets disposal for Estonia and Lithuania</span></span>](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
-- [<span data-ttu-id="45394-222">导入 ISO20022 文件</span><span class="sxs-lookup"><span data-stu-id="45394-222">Import ISO20022 files</span></span>](../../financials/localizations/emea-ISO20022-file-formats.md)
-- [<span data-ttu-id="45394-223">内部统计</span><span class="sxs-lookup"><span data-stu-id="45394-223">Intrastat</span></span>](../../financials/localizations/emea-intrastat.md)
-- [<span data-ttu-id="45394-224">库存日记帐报表</span><span class="sxs-lookup"><span data-stu-id="45394-224">Inventory journal reports</span></span>](../../financials/localizations/emea-set-up-report-inventory-journal-names.md)
-- [<span data-ttu-id="45394-225">立陶宛和拉脱维亚的发票和装箱单编号</span><span class="sxs-lookup"><span data-stu-id="45394-225">Invoice and packing slip numbering for Latvia and Lithuania</span></span>](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
-- [<span data-ttu-id="45394-226">发票签发截止时间</span><span class="sxs-lookup"><span data-stu-id="45394-226">Invoice issue deadlines</span></span>](../../financials/localizations/emea-invoice-issue-deadline.md)
-- [<span data-ttu-id="45394-227">OIOUBL 标准</span><span class="sxs-lookup"><span data-stu-id="45394-227">OIOUBL standards</span></span>](../../financials/localizations/emea-oioubl-standards-electronic-invoicing.md)
-- [<span data-ttu-id="45394-228">付款单报表</span><span class="sxs-lookup"><span data-stu-id="45394-228">Payment slip report</span></span>](../../financials/localizations/emea-eur-payment-slip-report-giro.md)
-- [<span data-ttu-id="45394-229">备用金</span><span class="sxs-lookup"><span data-stu-id="45394-229">Petty cash</span></span>](../../financials/localizations/emea-petty-cash.md)
-- [<span data-ttu-id="45394-230">过帐购置前的固定资产</span><span class="sxs-lookup"><span data-stu-id="45394-230">Post the pre-acquisition of a fixed asset</span></span>](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
-- [<span data-ttu-id="45394-231">邮政编码</span><span class="sxs-lookup"><span data-stu-id="45394-231">Postal codes</span></span>](../../financials/localizations/emea-import-create-postal-codes-manually.md)
-- [<span data-ttu-id="45394-232">登记 ID</span><span class="sxs-lookup"><span data-stu-id="45394-232">Registration IDs</span></span>](../../financials/localizations/emea-registration-ids.md)
-- [<span data-ttu-id="45394-233">冲销费用</span><span class="sxs-lookup"><span data-stu-id="45394-233">Reverse charges</span></span>](../../financials/localizations/emea-reverse-charge.md)
-- [<span data-ttu-id="45394-234">SEPA 贷方转帐概览</span><span class="sxs-lookup"><span data-stu-id="45394-234">SEPA Credit transfer overview</span></span>](../../financials/accounts-payable/sepa-credit-transfer.md)
-- [<span data-ttu-id="45394-235">SEPA 直接借记概览</span><span class="sxs-lookup"><span data-stu-id="45394-235">SEPA Direct debit overview</span></span>](../../financials/accounts-receivable/sepa-direct-debit-overview.md)
-- [<span data-ttu-id="45394-236">设置客户和供应商薪酬</span><span class="sxs-lookup"><span data-stu-id="45394-236">Set up customer and vendor compensation</span></span>](../../financials/localizations/emea-compensation-customer-vendor-transactions.md)
-- [<span data-ttu-id="45394-237">设置打印表格的签名人</span><span class="sxs-lookup"><span data-stu-id="45394-237">Set up signers for print forms</span></span>](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
-- [<span data-ttu-id="45394-238">Storno 核算</span><span class="sxs-lookup"><span data-stu-id="45394-238">Storno accounting</span></span>](../../financials/localizations/emea-storno.md)
-- [<span data-ttu-id="45394-239">税务指令</span><span class="sxs-lookup"><span data-stu-id="45394-239">Tax directives</span></span>](../../financials/localizations/emea-tax-directives.md)
-- [<span data-ttu-id="45394-240">更新金额在报表和单据上显示的方式</span><span class="sxs-lookup"><span data-stu-id="45394-240">Update how amounts are displayed on reports and documents</span></span>](../../financials/localizations/emea-amount-printing-forms.md) 
-- [<span data-ttu-id="45394-241">增值税汇率</span><span class="sxs-lookup"><span data-stu-id="45394-241">VAT exchange rates</span></span>](../../financials/localizations/emea-vat-exchange-rate.md)
-- [<span data-ttu-id="45394-242">东欧的增值税登记簿交易记录</span><span class="sxs-lookup"><span data-stu-id="45394-242">VAT register transactions for Eastern Europe</span></span>](../../financials/localizations/emea-vat-register-transactions.md)
-- [<span data-ttu-id="45394-243">增值税申报</span><span class="sxs-lookup"><span data-stu-id="45394-243">VAT reporting</span></span>](../../financials/localizations/emea-vat-reporting.md)
-- [<span data-ttu-id="45394-244">查看有关结算的交易记录</span><span class="sxs-lookup"><span data-stu-id="45394-244">View transactions on settlement</span></span>](../../financials/localizations/emea-transactions-settlement-form.md)
+### <a name="europe"></a><span data-ttu-id="adee2-209">欧洲</span><span class="sxs-lookup"><span data-stu-id="adee2-209">Europe</span></span>
+- [<span data-ttu-id="adee2-210">预付款持有人</span><span class="sxs-lookup"><span data-stu-id="adee2-210">Advance holders</span></span>](../../financials/localizations/emea-advance-holders.md)
+- [<span data-ttu-id="adee2-211">预付款持有人交易记录</span><span class="sxs-lookup"><span data-stu-id="adee2-211">Advance holder transactions</span></span>](../../financials/localizations/emea-advance-holders-transactions.md)
+- [<span data-ttu-id="adee2-212">预付款开票</span><span class="sxs-lookup"><span data-stu-id="adee2-212">Advanced invoicing</span></span>](../../financials/localizations/emea-advance-invoice.md)
+- [<span data-ttu-id="adee2-213">银行对帐</span><span class="sxs-lookup"><span data-stu-id="adee2-213">Bank reconciliation</span></span>](../../financials/localizations/emea-bank-reconciliation.md)
+- [<span data-ttu-id="adee2-214">可更正开票</span><span class="sxs-lookup"><span data-stu-id="adee2-214">Corrective invoicing</span></span>](../../financials/localizations/emea-corrective-invoice.md)
+- [<span data-ttu-id="adee2-215">创建并过帐期间日记帐</span><span class="sxs-lookup"><span data-stu-id="adee2-215">Create and post periodic journals</span></span>](../../financials/localizations/emea-create-post-periodic-journals.md)
+- [<span data-ttu-id="adee2-216">编辑销售订单上的发票 ID</span><span class="sxs-lookup"><span data-stu-id="adee2-216">Edit invoice IDs on sales orders</span></span>](../../financials/localizations/emea-edit-invoice-id-sales-orders.md)
+- [<span data-ttu-id="adee2-217">欧盟入境证</span><span class="sxs-lookup"><span data-stu-id="adee2-217">EU entry certificates</span></span>](../../financials/localizations/emea-entry-certificates.md)
+- [<span data-ttu-id="adee2-218">欧盟销售清单报表</span><span class="sxs-lookup"><span data-stu-id="adee2-218">EU sales list reporting</span></span>](../../financials/localizations/emea-eu-sales-list.md)
+- [<span data-ttu-id="adee2-219">汇率调整</span><span class="sxs-lookup"><span data-stu-id="adee2-219">Exchange rate adjustments</span></span>](../../financials/localizations/emea-exchange-rate-adjustments.md)
+- [<span data-ttu-id="adee2-220">付款方式的文件格式</span><span class="sxs-lookup"><span data-stu-id="adee2-220">File formats for methods of payment</span></span>](../../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
+- [<span data-ttu-id="adee2-221">爱沙尼亚和立陶宛的固定资产处置</span><span class="sxs-lookup"><span data-stu-id="adee2-221">Fixed assets disposal for Estonia and Lithuania</span></span>](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+- [<span data-ttu-id="adee2-222">导入 ISO20022 文件</span><span class="sxs-lookup"><span data-stu-id="adee2-222">Import ISO20022 files</span></span>](../../financials/localizations/emea-ISO20022-file-formats.md)
+- [<span data-ttu-id="adee2-223">内部统计</span><span class="sxs-lookup"><span data-stu-id="adee2-223">Intrastat</span></span>](../../financials/localizations/emea-intrastat.md)
+- [<span data-ttu-id="adee2-224">库存日记帐报表</span><span class="sxs-lookup"><span data-stu-id="adee2-224">Inventory journal reports</span></span>](../../financials/localizations/emea-set-up-report-inventory-journal-names.md)
+- [<span data-ttu-id="adee2-225">立陶宛和拉脱维亚的发票和装箱单编号</span><span class="sxs-lookup"><span data-stu-id="adee2-225">Invoice and packing slip numbering for Latvia and Lithuania</span></span>](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+- [<span data-ttu-id="adee2-226">发票签发截止时间</span><span class="sxs-lookup"><span data-stu-id="adee2-226">Invoice issue deadlines</span></span>](../../financials/localizations/emea-invoice-issue-deadline.md)
+- [<span data-ttu-id="adee2-227">OIOUBL 标准</span><span class="sxs-lookup"><span data-stu-id="adee2-227">OIOUBL standards</span></span>](../../financials/localizations/emea-oioubl-standards-electronic-invoicing.md)
+- [<span data-ttu-id="adee2-228">付款单报表</span><span class="sxs-lookup"><span data-stu-id="adee2-228">Payment slip report</span></span>](../../financials/localizations/emea-eur-payment-slip-report-giro.md)
+- [<span data-ttu-id="adee2-229">备用金</span><span class="sxs-lookup"><span data-stu-id="adee2-229">Petty cash</span></span>](../../financials/localizations/emea-petty-cash.md)
+- [<span data-ttu-id="adee2-230">过帐购置前的固定资产</span><span class="sxs-lookup"><span data-stu-id="adee2-230">Post the pre-acquisition of a fixed asset</span></span>](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
+- [<span data-ttu-id="adee2-231">邮政编码</span><span class="sxs-lookup"><span data-stu-id="adee2-231">Postal codes</span></span>](../../financials/localizations/emea-import-create-postal-codes-manually.md)
+- [<span data-ttu-id="adee2-232">登记 ID</span><span class="sxs-lookup"><span data-stu-id="adee2-232">Registration IDs</span></span>](../../financials/localizations/emea-registration-ids.md)
+- [<span data-ttu-id="adee2-233">冲销费用</span><span class="sxs-lookup"><span data-stu-id="adee2-233">Reverse charges</span></span>](../../financials/localizations/emea-reverse-charge.md)
+- [<span data-ttu-id="adee2-234">SEPA 贷方转帐概览</span><span class="sxs-lookup"><span data-stu-id="adee2-234">SEPA Credit transfer overview</span></span>](../../financials/accounts-payable/sepa-credit-transfer.md)
+- [<span data-ttu-id="adee2-235">SEPA 直接借记概览</span><span class="sxs-lookup"><span data-stu-id="adee2-235">SEPA Direct debit overview</span></span>](../../financials/accounts-receivable/sepa-direct-debit-overview.md)
+- [<span data-ttu-id="adee2-236">设置客户和供应商薪酬</span><span class="sxs-lookup"><span data-stu-id="adee2-236">Set up customer and vendor compensation</span></span>](../../financials/localizations/emea-compensation-customer-vendor-transactions.md)
+- [<span data-ttu-id="adee2-237">设置打印表格的签名人</span><span class="sxs-lookup"><span data-stu-id="adee2-237">Set up signers for print forms</span></span>](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
+- [<span data-ttu-id="adee2-238">Storno 核算</span><span class="sxs-lookup"><span data-stu-id="adee2-238">Storno accounting</span></span>](../../financials/localizations/emea-storno.md)
+- [<span data-ttu-id="adee2-239">税务指令</span><span class="sxs-lookup"><span data-stu-id="adee2-239">Tax directives</span></span>](../../financials/localizations/emea-tax-directives.md)
+- [<span data-ttu-id="adee2-240">更新金额在报表和单据上显示的方式</span><span class="sxs-lookup"><span data-stu-id="adee2-240">Update how amounts are displayed on reports and documents</span></span>](../../financials/localizations/emea-amount-printing-forms.md) 
+- [<span data-ttu-id="adee2-241">增值税汇率</span><span class="sxs-lookup"><span data-stu-id="adee2-241">VAT exchange rates</span></span>](../../financials/localizations/emea-vat-exchange-rate.md)
+- [<span data-ttu-id="adee2-242">东欧的增值税登记簿交易记录</span><span class="sxs-lookup"><span data-stu-id="adee2-242">VAT register transactions for Eastern Europe</span></span>](../../financials/localizations/emea-vat-register-transactions.md)
+- [<span data-ttu-id="adee2-243">增值税申报</span><span class="sxs-lookup"><span data-stu-id="adee2-243">VAT reporting</span></span>](../../financials/localizations/emea-vat-reporting.md)
+- [<span data-ttu-id="adee2-244">查看有关结算的交易记录</span><span class="sxs-lookup"><span data-stu-id="adee2-244">View transactions on settlement</span></span>](../../financials/localizations/emea-transactions-settlement-form.md)
 
-### <a name="france"></a><span data-ttu-id="45394-245">法国</span><span class="sxs-lookup"><span data-stu-id="45394-245">France</span></span>
--   [<span data-ttu-id="45394-246">按时间顺序排序的发票和凭证编号</span><span class="sxs-lookup"><span data-stu-id="45394-246">Chronological invoice and voucher numbers</span></span>](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
--   [<span data-ttu-id="45394-247">法国的贬损折旧</span><span class="sxs-lookup"><span data-stu-id="45394-247">Derogatory depreciation for France</span></span>](../../financials/localizations/emea-fra-derogatory-depreciation.md)
--   [<span data-ttu-id="45394-248">NAF 代码和 Siret 号码</span><span class="sxs-lookup"><span data-stu-id="45394-248">NAF codes and siret numbers</span></span>](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
--   [<span data-ttu-id="45394-249">法国的逾期客户付款罚金</span><span class="sxs-lookup"><span data-stu-id="45394-249">Penalties for past due customer payments in France</span></span>](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
--   [<span data-ttu-id="45394-250">在客户发票上打印延时付款罚息总额文字</span><span class="sxs-lookup"><span data-stu-id="45394-250">Print lump sum recovery text on a customer invoice</span></span>](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
--   [<span data-ttu-id="45394-251">RB/SL 折旧</span><span class="sxs-lookup"><span data-stu-id="45394-251">RB/SL depreciation</span></span>](../../financials/localizations/emea-fra-rbsl-depreciation.md)
+### <a name="france"></a><span data-ttu-id="adee2-245">法国</span><span class="sxs-lookup"><span data-stu-id="adee2-245">France</span></span>
+-   [<span data-ttu-id="adee2-246">按时间顺序排序的发票和凭证编号</span><span class="sxs-lookup"><span data-stu-id="adee2-246">Chronological invoice and voucher numbers</span></span>](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
+-   [<span data-ttu-id="adee2-247">法国的贬损折旧</span><span class="sxs-lookup"><span data-stu-id="adee2-247">Derogatory depreciation for France</span></span>](../../financials/localizations/emea-fra-derogatory-depreciation.md)
+-   [<span data-ttu-id="adee2-248">NAF 代码和 Siret 号码</span><span class="sxs-lookup"><span data-stu-id="adee2-248">NAF codes and siret numbers</span></span>](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
+-   [<span data-ttu-id="adee2-249">法国的逾期客户付款罚金</span><span class="sxs-lookup"><span data-stu-id="adee2-249">Penalties for past due customer payments in France</span></span>](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
+-   [<span data-ttu-id="adee2-250">在客户发票上打印延时付款罚息总额文字</span><span class="sxs-lookup"><span data-stu-id="adee2-250">Print lump sum recovery text on a customer invoice</span></span>](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
+-   [<span data-ttu-id="adee2-251">RB/SL 折旧</span><span class="sxs-lookup"><span data-stu-id="adee2-251">RB/SL depreciation</span></span>](../../financials/localizations/emea-fra-rbsl-depreciation.md)
 
-#### <a name="public-sector"></a><span data-ttu-id="45394-252">公共部门</span><span class="sxs-lookup"><span data-stu-id="45394-252">Public sector</span></span>
-   -   [<span data-ttu-id="45394-253">公共部门中的承诺</span><span class="sxs-lookup"><span data-stu-id="45394-253">Commitments in the public sector</span></span>](../../financials/localizations/emea-fra-commitments-public-sector.md)
-   -   [<span data-ttu-id="45394-254">公共部门中的 Mandats de paiement</span><span class="sxs-lookup"><span data-stu-id="45394-254">Mandats de paiement in the public sector</span></span>](../../financials/localizations/emea-fra-mandats-de-paiement.md)
-   -   [<span data-ttu-id="45394-255">采购</span><span class="sxs-lookup"><span data-stu-id="45394-255">Procurement and sourcing</span></span>](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
-   -   [<span data-ttu-id="45394-256">公共部门会计</span><span class="sxs-lookup"><span data-stu-id="45394-256">Public sector accounting</span></span>](../../financials/localizations/emea-fra-public-sector-accounting.md)
-   -   [<span data-ttu-id="45394-257">Titres de recette</span><span class="sxs-lookup"><span data-stu-id="45394-257">Titres de recette</span></span>](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
-   -   [<span data-ttu-id="45394-258">供应商发票付款暂停</span><span class="sxs-lookup"><span data-stu-id="45394-258">Vendor invoice payment holds</span></span>](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
+#### <a name="public-sector"></a><span data-ttu-id="adee2-252">公共部门</span><span class="sxs-lookup"><span data-stu-id="adee2-252">Public sector</span></span>
+   -   [<span data-ttu-id="adee2-253">公共部门中的承诺</span><span class="sxs-lookup"><span data-stu-id="adee2-253">Commitments in the public sector</span></span>](../../financials/localizations/emea-fra-commitments-public-sector.md)
+   -   [<span data-ttu-id="adee2-254">公共部门中的 Mandats de paiement</span><span class="sxs-lookup"><span data-stu-id="adee2-254">Mandats de paiement in the public sector</span></span>](../../financials/localizations/emea-fra-mandats-de-paiement.md)
+   -   [<span data-ttu-id="adee2-255">采购</span><span class="sxs-lookup"><span data-stu-id="adee2-255">Procurement and sourcing</span></span>](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
+   -   [<span data-ttu-id="adee2-256">公共部门会计</span><span class="sxs-lookup"><span data-stu-id="adee2-256">Public sector accounting</span></span>](../../financials/localizations/emea-fra-public-sector-accounting.md)
+   -   [<span data-ttu-id="adee2-257">Titres de recette</span><span class="sxs-lookup"><span data-stu-id="adee2-257">Titres de recette</span></span>](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
+   -   [<span data-ttu-id="adee2-258">供应商发票付款暂停</span><span class="sxs-lookup"><span data-stu-id="adee2-258">Vendor invoice payment holds</span></span>](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
 
-### <a name="germany"></a><span data-ttu-id="45394-259">德国</span><span class="sxs-lookup"><span data-stu-id="45394-259">Germany</span></span>
--   [<span data-ttu-id="45394-260">其他购置折旧</span><span class="sxs-lookup"><span data-stu-id="45394-260">Additional acquisition depreciation</span></span>](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
--   [<span data-ttu-id="45394-261">德国审计文件 (GDPdU/GoBD)</span><span class="sxs-lookup"><span data-stu-id="45394-261">German audit file (GDPdU/GoBD)</span></span>](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
--   [<span data-ttu-id="45394-262">德国日记帐清单报告</span><span class="sxs-lookup"><span data-stu-id="45394-262">German journal list report</span></span>](../../financials/localizations/emea-deu-journal-list-report.md)
--   [<span data-ttu-id="45394-263">为源自销售的贷项通知单打印单独的标签</span><span class="sxs-lookup"><span data-stu-id="45394-263">Print a separate label for credit memos that originate from sales</span></span>](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
+### <a name="germany"></a><span data-ttu-id="adee2-259">德国</span><span class="sxs-lookup"><span data-stu-id="adee2-259">Germany</span></span>
+-   [<span data-ttu-id="adee2-260">其他购置折旧</span><span class="sxs-lookup"><span data-stu-id="adee2-260">Additional acquisition depreciation</span></span>](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
+-   [<span data-ttu-id="adee2-261">德国审计文件 (GDPdU/GoBD)</span><span class="sxs-lookup"><span data-stu-id="adee2-261">German audit file (GDPdU/GoBD)</span></span>](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
+-   [<span data-ttu-id="adee2-262">德国日记帐清单报告</span><span class="sxs-lookup"><span data-stu-id="adee2-262">German journal list report</span></span>](../../financials/localizations/emea-deu-journal-list-report.md)
+-   [<span data-ttu-id="adee2-263">为源自销售的贷项通知单打印单独的标签</span><span class="sxs-lookup"><span data-stu-id="adee2-263">Print a separate label for credit memos that originate from sales</span></span>](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
 
-### <a name="hungary"></a><span data-ttu-id="45394-264">匈牙利</span><span class="sxs-lookup"><span data-stu-id="45394-264">Hungary</span></span>
+### <a name="hungary"></a><span data-ttu-id="adee2-264">匈牙利</span><span class="sxs-lookup"><span data-stu-id="adee2-264">Hungary</span></span>
 
--   [<span data-ttu-id="45394-265">固定资产折旧方法</span><span class="sxs-lookup"><span data-stu-id="45394-265">Fixed asset depreciation methods</span></span>](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [<span data-ttu-id="45394-266">将固定资产移动到库存</span><span class="sxs-lookup"><span data-stu-id="45394-266">Move a fixed asset to inventory</span></span>](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
--   [<span data-ttu-id="45394-267">低成本固定资产</span><span class="sxs-lookup"><span data-stu-id="45394-267">Low-cost fixed assets</span></span>](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+-   [<span data-ttu-id="adee2-265">固定资产折旧方法</span><span class="sxs-lookup"><span data-stu-id="adee2-265">Fixed asset depreciation methods</span></span>](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
+-   [<span data-ttu-id="adee2-266">将固定资产移动到库存</span><span class="sxs-lookup"><span data-stu-id="adee2-266">Move a fixed asset to inventory</span></span>](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+-   [<span data-ttu-id="adee2-267">低成本固定资产</span><span class="sxs-lookup"><span data-stu-id="adee2-267">Low-cost fixed assets</span></span>](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 
-### <a name="italy"></a><span data-ttu-id="45394-268">意大利</span><span class="sxs-lookup"><span data-stu-id="45394-268">Italy</span></span>
+### <a name="italy"></a><span data-ttu-id="adee2-268">意大利</span><span class="sxs-lookup"><span data-stu-id="adee2-268">Italy</span></span>
 
--   [<span data-ttu-id="45394-269">意大利黑名单报告</span><span class="sxs-lookup"><span data-stu-id="45394-269">Italian black list report</span></span>](../../financials/localizations/emea-ita-black-list-report.md)
--   [<span data-ttu-id="45394-270">增值税报表明细</span><span class="sxs-lookup"><span data-stu-id="45394-270">VAT statements details</span></span>](../../financials/localizations/emea-ita-vat-statements-details.md)
--   [<span data-ttu-id="45394-271">交易记录的生效日期</span><span class="sxs-lookup"><span data-stu-id="45394-271">Competence date for transactions</span></span>](../../financials/localizations/emea-ita-competence-date.md)
--   [<span data-ttu-id="45394-272">固定资产的手动折旧</span><span class="sxs-lookup"><span data-stu-id="45394-272">Manual depreciation of fixed assets</span></span>](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
--   [<span data-ttu-id="45394-273">意大利的发票上的装箱单日期验证</span><span class="sxs-lookup"><span data-stu-id="45394-273">Packing slip date verification on invoices for Italy</span></span>](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
--   [<span data-ttu-id="45394-274">意大利销售税帐簿</span><span class="sxs-lookup"><span data-stu-id="45394-274">Italian sales tax books</span></span>](../../financials/localizations/emea-ita-fiscal-books.md)
--   [<span data-ttu-id="45394-275">拆分签发给公共行政部门的发票的付款</span><span class="sxs-lookup"><span data-stu-id="45394-275">Split payment for invoices issued to the Public Administration</span></span>](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
--   [<span data-ttu-id="45394-276">预缴税金</span><span class="sxs-lookup"><span data-stu-id="45394-276">Withholding tax</span></span>](../../financials/localizations/emea-ita-withholding-tax.md)
+-   [<span data-ttu-id="adee2-269">意大利黑名单报告</span><span class="sxs-lookup"><span data-stu-id="adee2-269">Italian black list report</span></span>](../../financials/localizations/emea-ita-black-list-report.md)
+-   [<span data-ttu-id="adee2-270">增值税报表明细</span><span class="sxs-lookup"><span data-stu-id="adee2-270">VAT statements details</span></span>](../../financials/localizations/emea-ita-vat-statements-details.md)
+-   [<span data-ttu-id="adee2-271">交易记录的生效日期</span><span class="sxs-lookup"><span data-stu-id="adee2-271">Competence date for transactions</span></span>](../../financials/localizations/emea-ita-competence-date.md)
+-   [<span data-ttu-id="adee2-272">固定资产的手动折旧</span><span class="sxs-lookup"><span data-stu-id="adee2-272">Manual depreciation of fixed assets</span></span>](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
+-   [<span data-ttu-id="adee2-273">Modello 770</span><span class="sxs-lookup"><span data-stu-id="adee2-273">Modello 770</span></span>](../../financials/localizations/emea-ita-modello770.md)
+-   [<span data-ttu-id="adee2-274">意大利的发票上的装箱单日期验证</span><span class="sxs-lookup"><span data-stu-id="adee2-274">Packing slip date verification on invoices for Italy</span></span>](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+-   [<span data-ttu-id="adee2-275">意大利销售税帐簿</span><span class="sxs-lookup"><span data-stu-id="adee2-275">Italian sales tax books</span></span>](../../financials/localizations/emea-ita-fiscal-books.md)
+-   [<span data-ttu-id="adee2-276">拆分签发给公共行政部门的发票的付款</span><span class="sxs-lookup"><span data-stu-id="adee2-276">Split payment for invoices issued to the Public Administration</span></span>](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
+-   [<span data-ttu-id="adee2-277">预缴税金</span><span class="sxs-lookup"><span data-stu-id="adee2-277">Withholding tax</span></span>](../../financials/localizations/emea-ita-withholding-tax.md)
 
-### <a name="japan"></a><span data-ttu-id="45394-277">日本</span><span class="sxs-lookup"><span data-stu-id="45394-277">Japan</span></span>
+### <a name="japan"></a><span data-ttu-id="adee2-278">日本</span><span class="sxs-lookup"><span data-stu-id="adee2-278">Japan</span></span>
 
--  [<span data-ttu-id="45394-278">供应商涵盖的银行付款费用</span><span class="sxs-lookup"><span data-stu-id="45394-278">Bank payment fees covered by vendors</span></span>](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
--  [<span data-ttu-id="45394-279">合并的发票</span><span class="sxs-lookup"><span data-stu-id="45394-279">Consolidated invoices</span></span>](../../financials/localizations/apac-jpn-consolidate-invoices.md)
--  [<span data-ttu-id="45394-280">固定资产的分配规则</span><span class="sxs-lookup"><span data-stu-id="45394-280">Allocation rules for fixed assets</span></span>](../../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md)
--  [<span data-ttu-id="45394-281">均匀划分的折旧方法</span><span class="sxs-lookup"><span data-stu-id="45394-281">Equally divided depreciation method</span></span>](../../financials/localizations/apac-jpn-equally-divided-depreciation-method.md)
--  [<span data-ttu-id="45394-282">固定资产折旧</span><span class="sxs-lookup"><span data-stu-id="45394-282">Fixed asset depreciation</span></span>](../../financials/localizations/apac-jpn-fixed-asset-depreciation.md)
--  [<span data-ttu-id="45394-283">现金产出单元上的固定资产减损管理</span><span class="sxs-lookup"><span data-stu-id="45394-283">Fixed asset impairment management on cash generating unit</span></span>](../../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md)
--  [<span data-ttu-id="45394-284">导入邮政编码</span><span class="sxs-lookup"><span data-stu-id="45394-284">Import postal codes</span></span>](../../financials/localizations/apac-jpn-import-postal-codes.md)
--  [<span data-ttu-id="45394-285">设置固定资产的资产报废义务</span><span class="sxs-lookup"><span data-stu-id="45394-285">Set up asset retirement obligation for fixed assets</span></span>](../../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md)
--  [<span data-ttu-id="45394-286">设置固定资产的缩减条目</span><span class="sxs-lookup"><span data-stu-id="45394-286">Set up reduction entries for fixed assets</span></span>](../../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md)
--  [<span data-ttu-id="45394-287">通过背书汇票向供应商付款</span><span class="sxs-lookup"><span data-stu-id="45394-287">Pay a vendor by endorsing a bill of exchange</span></span>](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
--  [<span data-ttu-id="45394-288">累进预缴税金计算</span><span class="sxs-lookup"><span data-stu-id="45394-288">Progressive withholding tax calculation</span></span>](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
+-  [<span data-ttu-id="adee2-279">供应商涵盖的银行付款费用</span><span class="sxs-lookup"><span data-stu-id="adee2-279">Bank payment fees covered by vendors</span></span>](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
+-  [<span data-ttu-id="adee2-280">合并的发票</span><span class="sxs-lookup"><span data-stu-id="adee2-280">Consolidated invoices</span></span>](../../financials/localizations/apac-jpn-consolidate-invoices.md)
+-  [<span data-ttu-id="adee2-281">固定资产的分配规则</span><span class="sxs-lookup"><span data-stu-id="adee2-281">Allocation rules for fixed assets</span></span>](../../financials/localizations/apac-jpn-allocation-rules-fixed-assets.md)
+-  [<span data-ttu-id="adee2-282">均匀划分的折旧方法</span><span class="sxs-lookup"><span data-stu-id="adee2-282">Equally divided depreciation method</span></span>](../../financials/localizations/apac-jpn-equally-divided-depreciation-method.md)
+-  [<span data-ttu-id="adee2-283">固定资产折旧</span><span class="sxs-lookup"><span data-stu-id="adee2-283">Fixed asset depreciation</span></span>](../../financials/localizations/apac-jpn-fixed-asset-depreciation.md)
+-  [<span data-ttu-id="adee2-284">现金产出单元上的固定资产减损管理</span><span class="sxs-lookup"><span data-stu-id="adee2-284">Fixed asset impairment management on cash generating unit</span></span>](../../financials/localizations/apac-jpn-impairment-accounting-cash-generating-unit.md)
+-  [<span data-ttu-id="adee2-285">导入邮政编码</span><span class="sxs-lookup"><span data-stu-id="adee2-285">Import postal codes</span></span>](../../financials/localizations/apac-jpn-import-postal-codes.md)
+-  [<span data-ttu-id="adee2-286">设置固定资产的资产报废义务</span><span class="sxs-lookup"><span data-stu-id="adee2-286">Set up asset retirement obligation for fixed assets</span></span>](../../financials/localizations/apac-jpn-asset-retirement-obligation-fixed-assets.md)
+-  [<span data-ttu-id="adee2-287">设置固定资产的缩减条目</span><span class="sxs-lookup"><span data-stu-id="adee2-287">Set up reduction entries for fixed assets</span></span>](../../financials/localizations/apac-jpn-reduction-entry-fixed-assets.md)
+-  [<span data-ttu-id="adee2-288">通过背书汇票向供应商付款</span><span class="sxs-lookup"><span data-stu-id="adee2-288">Pay a vendor by endorsing a bill of exchange</span></span>](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
+-  [<span data-ttu-id="adee2-289">累进预缴税金计算</span><span class="sxs-lookup"><span data-stu-id="adee2-289">Progressive withholding tax calculation</span></span>](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
-### <a name="latvia"></a><span data-ttu-id="45394-289">拉脱维亚</span><span class="sxs-lookup"><span data-stu-id="45394-289">Latvia</span></span>
+### <a name="latvia"></a><span data-ttu-id="adee2-290">拉脱维亚</span><span class="sxs-lookup"><span data-stu-id="adee2-290">Latvia</span></span>
 
--   [<span data-ttu-id="45394-290">用于缴税目的的固定资产会计</span><span class="sxs-lookup"><span data-stu-id="45394-290">Fixed assets accounting for tax purposes</span></span>](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
--   [<span data-ttu-id="45394-291">固定资产位置更改跟踪</span><span class="sxs-lookup"><span data-stu-id="45394-291">Fixed assets location change tracking</span></span>](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
--   [<span data-ttu-id="45394-292">发票和装箱单编号</span><span class="sxs-lookup"><span data-stu-id="45394-292">Invoice and packing slip numbering</span></span>](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [<span data-ttu-id="45394-293">自然资源税报表</span><span class="sxs-lookup"><span data-stu-id="45394-293">Tax on natural resources report</span></span>](../../financials/localizations/emea-lva-tax-natural-resources.md)
--   [<span data-ttu-id="45394-294">增值税报表明细</span><span class="sxs-lookup"><span data-stu-id="45394-294">VAT statement details</span></span>](../../financials/localizations/emea-lva-vat-statement-details.md)
+-   [<span data-ttu-id="adee2-291">用于缴税目的的固定资产会计</span><span class="sxs-lookup"><span data-stu-id="adee2-291">Fixed assets accounting for tax purposes</span></span>](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
+-   [<span data-ttu-id="adee2-292">固定资产位置更改跟踪</span><span class="sxs-lookup"><span data-stu-id="adee2-292">Fixed assets location change tracking</span></span>](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
+-   [<span data-ttu-id="adee2-293">发票和装箱单编号</span><span class="sxs-lookup"><span data-stu-id="adee2-293">Invoice and packing slip numbering</span></span>](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+-   [<span data-ttu-id="adee2-294">自然资源税报表</span><span class="sxs-lookup"><span data-stu-id="adee2-294">Tax on natural resources report</span></span>](../../financials/localizations/emea-lva-tax-natural-resources.md)
+-   [<span data-ttu-id="adee2-295">增值税报表明细</span><span class="sxs-lookup"><span data-stu-id="adee2-295">VAT statement details</span></span>](../../financials/localizations/emea-lva-vat-statement-details.md)
 
-### <a name="lithuania"></a><span data-ttu-id="45394-295">立陶宛</span><span class="sxs-lookup"><span data-stu-id="45394-295">Lithuania</span></span>
+### <a name="lithuania"></a><span data-ttu-id="adee2-296">立陶宛</span><span class="sxs-lookup"><span data-stu-id="adee2-296">Lithuania</span></span>
 
--   [<span data-ttu-id="45394-296">固定资产维修报表</span><span class="sxs-lookup"><span data-stu-id="45394-296">Fixed asset repair statement</span></span>](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
--   [<span data-ttu-id="45394-297">发票和装箱单编号</span><span class="sxs-lookup"><span data-stu-id="45394-297">Invoice and packing slip numbering</span></span>](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [<span data-ttu-id="45394-298">增值税报表明细</span><span class="sxs-lookup"><span data-stu-id="45394-298">VAT statement details</span></span>](../../financials/localizations/emea-ltu-vat-statement-details.md)
+-   [<span data-ttu-id="adee2-297">固定资产维修报表</span><span class="sxs-lookup"><span data-stu-id="adee2-297">Fixed asset repair statement</span></span>](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
+-   [<span data-ttu-id="adee2-298">发票和装箱单编号</span><span class="sxs-lookup"><span data-stu-id="adee2-298">Invoice and packing slip numbering</span></span>](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
+-   [<span data-ttu-id="adee2-299">增值税报表明细</span><span class="sxs-lookup"><span data-stu-id="adee2-299">VAT statement details</span></span>](../../financials/localizations/emea-ltu-vat-statement-details.md)
 
-### <a name="mexico"></a><span data-ttu-id="45394-299">墨西哥</span><span class="sxs-lookup"><span data-stu-id="45394-299">Mexico</span></span>
+### <a name="mexico"></a><span data-ttu-id="adee2-300">墨西哥</span><span class="sxs-lookup"><span data-stu-id="adee2-300">Mexico</span></span>
 
--   [<span data-ttu-id="45394-300">DIOT 申报单</span><span class="sxs-lookup"><span data-stu-id="45394-300">DIOT declaration statement</span></span>](../../financials/localizations/latam-mex-diot-declaration-statement.md)
--   [<span data-ttu-id="45394-301">电子分类科目报表</span><span class="sxs-lookup"><span data-stu-id="45394-301">Electronic ledger accounting statements</span></span>](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
--   [<span data-ttu-id="45394-302">调整通货膨胀申报报告</span><span class="sxs-lookup"><span data-stu-id="45394-302">Adjustment inflation declaration report</span></span>](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
--   [<span data-ttu-id="45394-303">ISR 申报报表</span><span class="sxs-lookup"><span data-stu-id="45394-303">ISR declaration report</span></span>](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
--   [<span data-ttu-id="45394-304">电子发票 (CFDI)</span><span class="sxs-lookup"><span data-stu-id="45394-304">Electronic invoices (CFDI)</span></span>](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
+-   [<span data-ttu-id="adee2-301">DIOT 申报单</span><span class="sxs-lookup"><span data-stu-id="adee2-301">DIOT declaration statement</span></span>](../../financials/localizations/latam-mex-diot-declaration-statement.md)
+-   [<span data-ttu-id="adee2-302">电子分类科目报表</span><span class="sxs-lookup"><span data-stu-id="adee2-302">Electronic ledger accounting statements</span></span>](../../financials/localizations/latam-mex-electronic-ledger-accounting-statements.md)
+-   [<span data-ttu-id="adee2-303">调整通货膨胀申报报告</span><span class="sxs-lookup"><span data-stu-id="adee2-303">Adjustment inflation declaration report</span></span>](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
+-   [<span data-ttu-id="adee2-304">ISR 申报报表</span><span class="sxs-lookup"><span data-stu-id="adee2-304">ISR declaration report</span></span>](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
+-   [<span data-ttu-id="adee2-305">电子发票 (CFDI)</span><span class="sxs-lookup"><span data-stu-id="adee2-305">Electronic invoices (CFDI)</span></span>](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
    
-### <a name="malaysia"></a><span data-ttu-id="45394-305">马来西亚</span><span class="sxs-lookup"><span data-stu-id="45394-305">Malaysia</span></span>
+### <a name="malaysia"></a><span data-ttu-id="adee2-306">马来西亚</span><span class="sxs-lookup"><span data-stu-id="adee2-306">Malaysia</span></span>
 
--   [<span data-ttu-id="45394-306">商品劳务税 (GST)</span><span class="sxs-lookup"><span data-stu-id="45394-306">Goods and services tax (GST)</span></span>](../../financials/localizations/apac-mys-gst.md)
+-   [<span data-ttu-id="adee2-307">商品劳务税 (GST)</span><span class="sxs-lookup"><span data-stu-id="adee2-307">Goods and services tax (GST)</span></span>](../../financials/localizations/apac-mys-gst.md)
 
-### <a name="netherlands"></a><span data-ttu-id="45394-307">荷兰</span><span class="sxs-lookup"><span data-stu-id="45394-307">Netherlands</span></span>
+### <a name="netherlands"></a><span data-ttu-id="adee2-308">荷兰</span><span class="sxs-lookup"><span data-stu-id="adee2-308">Netherlands</span></span>
 
--   [<span data-ttu-id="45394-308">发票签发截止时间</span><span class="sxs-lookup"><span data-stu-id="45394-308">Invoice issue deadline</span></span>](../../financials/localizations/emea-invoice-issue-deadline.md)
+-   [<span data-ttu-id="adee2-309">发票签发截止时间</span><span class="sxs-lookup"><span data-stu-id="adee2-309">Invoice issue deadline</span></span>](../../financials/localizations/emea-invoice-issue-deadline.md)
 
-### <a name="norway"></a><span data-ttu-id="45394-309">挪威</span><span class="sxs-lookup"><span data-stu-id="45394-309">Norway</span></span>
+### <a name="norway"></a><span data-ttu-id="adee2-310">挪威</span><span class="sxs-lookup"><span data-stu-id="adee2-310">Norway</span></span>
 
--   [<span data-ttu-id="45394-310">净导入格式</span><span class="sxs-lookup"><span data-stu-id="45394-310">Nets import format</span></span>](../../financials/localizations/emea-nor-nets-import-format.md)
--   [<span data-ttu-id="45394-311">增值税报表</span><span class="sxs-lookup"><span data-stu-id="45394-311">VAT statement</span></span>](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
+-   [<span data-ttu-id="adee2-311">净导入格式</span><span class="sxs-lookup"><span data-stu-id="adee2-311">Nets import format</span></span>](../../financials/localizations/emea-nor-nets-import-format.md)
+-   [<span data-ttu-id="adee2-312">增值税报表</span><span class="sxs-lookup"><span data-stu-id="adee2-312">VAT statement</span></span>](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
 
-### <a name="poland"></a><span data-ttu-id="45394-312">波兰</span><span class="sxs-lookup"><span data-stu-id="45394-312">Poland</span></span>
+### <a name="poland"></a><span data-ttu-id="adee2-313">波兰</span><span class="sxs-lookup"><span data-stu-id="adee2-313">Poland</span></span>
 
--   [<span data-ttu-id="45394-313">根据单位价格计算行折扣</span><span class="sxs-lookup"><span data-stu-id="45394-313">Calculate line discounts from the unit price</span></span>](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
--   [<span data-ttu-id="45394-314">更正说明</span><span class="sxs-lookup"><span data-stu-id="45394-314">Correction notes</span></span>](../../financials/localizations/emea-pol-correction-notes.md)
--   [<span data-ttu-id="45394-315">重复销售发票编号</span><span class="sxs-lookup"><span data-stu-id="45394-315">Duplicate sales invoice numbering</span></span>](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
--   [<span data-ttu-id="45394-316">固定资产折旧</span><span class="sxs-lookup"><span data-stu-id="45394-316">Fixed assets depreciation</span></span>](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
--   [<span data-ttu-id="45394-317">固定资产处置</span><span class="sxs-lookup"><span data-stu-id="45394-317">Fixed assets disposal</span></span>](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
--   [<span data-ttu-id="45394-318">可回收包装</span><span class="sxs-lookup"><span data-stu-id="45394-318">Returnable packaging</span></span>](../../financials/localizations/emea-pol-returnable-packages.md)
--   [<span data-ttu-id="45394-319">销售税报表</span><span class="sxs-lookup"><span data-stu-id="45394-319">Sales tax reports</span></span>](../../financials/localizations/emea-pol-sales-tax-reports.md)
--   [<span data-ttu-id="45394-320">标准审计文件 (SAF)</span><span class="sxs-lookup"><span data-stu-id="45394-320">Standard audit file (SAF)</span></span>](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
--   [<span data-ttu-id="45394-321">交易额和余额对帐单</span><span class="sxs-lookup"><span data-stu-id="45394-321">Turnover and balances statement</span></span>](../../financials/localizations/emea-pol-turnover-balances-statement.md)
+-   [<span data-ttu-id="adee2-314">根据单位价格计算行折扣</span><span class="sxs-lookup"><span data-stu-id="adee2-314">Calculate line discounts from the unit price</span></span>](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
+-   [<span data-ttu-id="adee2-315">更正说明</span><span class="sxs-lookup"><span data-stu-id="adee2-315">Correction notes</span></span>](../../financials/localizations/emea-pol-correction-notes.md)
+-   [<span data-ttu-id="adee2-316">重复销售发票编号</span><span class="sxs-lookup"><span data-stu-id="adee2-316">Duplicate sales invoice numbering</span></span>](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
+-   [<span data-ttu-id="adee2-317">固定资产折旧</span><span class="sxs-lookup"><span data-stu-id="adee2-317">Fixed assets depreciation</span></span>](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
+-   [<span data-ttu-id="adee2-318">固定资产处置</span><span class="sxs-lookup"><span data-stu-id="adee2-318">Fixed assets disposal</span></span>](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
+-   [<span data-ttu-id="adee2-319">可回收包装</span><span class="sxs-lookup"><span data-stu-id="adee2-319">Returnable packaging</span></span>](../../financials/localizations/emea-pol-returnable-packages.md)
+-   [<span data-ttu-id="adee2-320">销售税报表</span><span class="sxs-lookup"><span data-stu-id="adee2-320">Sales tax reports</span></span>](../../financials/localizations/emea-pol-sales-tax-reports.md)
+-   [<span data-ttu-id="adee2-321">标准审计文件 (SAF)</span><span class="sxs-lookup"><span data-stu-id="adee2-321">Standard audit file (SAF)</span></span>](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
+-   [<span data-ttu-id="adee2-322">交易额和余额对帐单</span><span class="sxs-lookup"><span data-stu-id="adee2-322">Turnover and balances statement</span></span>](../../financials/localizations/emea-pol-turnover-balances-statement.md)
 
-### <a name="saudi-arabia"></a><span data-ttu-id="45394-322">沙特阿拉伯</span><span class="sxs-lookup"><span data-stu-id="45394-322">Saudi Arabia</span></span>
+### <a name="saudi-arabia"></a><span data-ttu-id="adee2-323">沙特阿拉伯</span><span class="sxs-lookup"><span data-stu-id="adee2-323">Saudi Arabia</span></span>
 
--   [<span data-ttu-id="45394-323">Zakat 报告</span><span class="sxs-lookup"><span data-stu-id="45394-323">Zakat reporting</span></span>](../../financials/localizations/emea-sau-zakat-reporting.md)
+-   [<span data-ttu-id="adee2-324">Zakat 报告</span><span class="sxs-lookup"><span data-stu-id="adee2-324">Zakat reporting</span></span>](../../financials/localizations/emea-sau-zakat-reporting.md)
 
-### <a name="singapore"></a><span data-ttu-id="45394-324">新加坡</span><span class="sxs-lookup"><span data-stu-id="45394-324">Singapore</span></span>
+### <a name="singapore"></a><span data-ttu-id="adee2-325">新加坡</span><span class="sxs-lookup"><span data-stu-id="adee2-325">Singapore</span></span>
 
--   [<span data-ttu-id="45394-325">生成新加坡 GST-05 报表</span><span class="sxs-lookup"><span data-stu-id="45394-325">Generate the Singapore GST-05 report</span></span>](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
+-   [<span data-ttu-id="adee2-326">生成新加坡 GST-05 报表</span><span class="sxs-lookup"><span data-stu-id="adee2-326">Generate the Singapore GST-05 report</span></span>](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
-### <a name="spain"></a><span data-ttu-id="45394-326">西班牙</span><span class="sxs-lookup"><span data-stu-id="45394-326">Spain</span></span>
+### <a name="spain"></a><span data-ttu-id="adee2-327">西班牙</span><span class="sxs-lookup"><span data-stu-id="adee2-327">Spain</span></span>
 
--   [<span data-ttu-id="45394-327">西班牙汇票选项</span><span class="sxs-lookup"><span data-stu-id="45394-327">Spanish bill of exchange options</span></span>](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
--   [<span data-ttu-id="45394-328">在发票参数中应用现金折扣</span><span class="sxs-lookup"><span data-stu-id="45394-328">Cash discount is applied in the invoice parameter</span></span>](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
--   [<span data-ttu-id="45394-329">特殊销售税</span><span class="sxs-lookup"><span data-stu-id="45394-329">Conditional sales tax</span></span>](../../financials/localizations/emea-esp-conditional-sales-tax.md)
--   [<span data-ttu-id="45394-330">固定资产重估组</span><span class="sxs-lookup"><span data-stu-id="45394-330">Fixed asset revaluation groups</span></span>](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
--   [<span data-ttu-id="45394-331">集团内部增值税</span><span class="sxs-lookup"><span data-stu-id="45394-331">Intra-community VAT</span></span>](../../financials/localizations/emea-esp-intra-community-vat.md)
--   [<span data-ttu-id="45394-332">零星客户</span><span class="sxs-lookup"><span data-stu-id="45394-332">One-time customers</span></span>](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
--   [<span data-ttu-id="45394-333">以西班牙版式打印支票</span><span class="sxs-lookup"><span data-stu-id="45394-333">Print checks by using the Spanish layout</span></span>](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
--   [<span data-ttu-id="45394-334">西班牙本票选项</span><span class="sxs-lookup"><span data-stu-id="45394-334">Spanish promissory note options</span></span>](../../financials/localizations/emea-esp-promissory-note-options.md)
--   [<span data-ttu-id="45394-335">销售和采购周期</span><span class="sxs-lookup"><span data-stu-id="45394-335">Sales and purchase cycles</span></span>](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
--   [<span data-ttu-id="45394-336">特殊条目和期初单</span><span class="sxs-lookup"><span data-stu-id="45394-336">Special entries and opening sheets</span></span>](../../financials/localizations/emea-esp-opening-sheets-spain.md)
--   [<span data-ttu-id="45394-337">使用来自发票帐户的财务数据</span><span class="sxs-lookup"><span data-stu-id="45394-337">Use fiscal data from the invoice account</span></span>](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
+-   [<span data-ttu-id="adee2-328">西班牙汇票选项</span><span class="sxs-lookup"><span data-stu-id="adee2-328">Spanish bill of exchange options</span></span>](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
+-   [<span data-ttu-id="adee2-329">在发票参数中应用现金折扣</span><span class="sxs-lookup"><span data-stu-id="adee2-329">Cash discount is applied in the invoice parameter</span></span>](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
+-   [<span data-ttu-id="adee2-330">特殊销售税</span><span class="sxs-lookup"><span data-stu-id="adee2-330">Conditional sales tax</span></span>](../../financials/localizations/emea-esp-conditional-sales-tax.md)
+-   [<span data-ttu-id="adee2-331">固定资产重估组</span><span class="sxs-lookup"><span data-stu-id="adee2-331">Fixed asset revaluation groups</span></span>](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
+-   [<span data-ttu-id="adee2-332">集团内部增值税</span><span class="sxs-lookup"><span data-stu-id="adee2-332">Intra-community VAT</span></span>](../../financials/localizations/emea-esp-intra-community-vat.md)
+-   [<span data-ttu-id="adee2-333">零星客户</span><span class="sxs-lookup"><span data-stu-id="adee2-333">One-time customers</span></span>](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
+-   [<span data-ttu-id="adee2-334">以西班牙版式打印支票</span><span class="sxs-lookup"><span data-stu-id="adee2-334">Print checks by using the Spanish layout</span></span>](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
+-   [<span data-ttu-id="adee2-335">西班牙本票选项</span><span class="sxs-lookup"><span data-stu-id="adee2-335">Spanish promissory note options</span></span>](../../financials/localizations/emea-esp-promissory-note-options.md)
+-   [<span data-ttu-id="adee2-336">销售和采购周期</span><span class="sxs-lookup"><span data-stu-id="adee2-336">Sales and purchase cycles</span></span>](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
+-   [<span data-ttu-id="adee2-337">特殊条目和期初单</span><span class="sxs-lookup"><span data-stu-id="adee2-337">Special entries and opening sheets</span></span>](../../financials/localizations/emea-esp-opening-sheets-spain.md)
+-   [<span data-ttu-id="adee2-338">使用来自发票帐户的财务数据</span><span class="sxs-lookup"><span data-stu-id="adee2-338">Use fiscal data from the invoice account</span></span>](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
 
-### <a name="sweden"></a><span data-ttu-id="45394-338">瑞典</span><span class="sxs-lookup"><span data-stu-id="45394-338">Sweden</span></span>
+### <a name="sweden"></a><span data-ttu-id="adee2-339">瑞典</span><span class="sxs-lookup"><span data-stu-id="adee2-339">Sweden</span></span>
 
--   [<span data-ttu-id="45394-339">导入适用于瑞典的付款形式</span><span class="sxs-lookup"><span data-stu-id="45394-339">Import payment formats for Sweden</span></span>](../../financials/localizations/emea-swe-payment-formats-import.md)
--   [<span data-ttu-id="45394-340">适用于瑞典的收银机</span><span class="sxs-lookup"><span data-stu-id="45394-340">Cash registers for Sweden</span></span>](../../retail/localizations/emea-swe-cash-registers.md)
+-   [<span data-ttu-id="adee2-340">导入适用于瑞典的付款形式</span><span class="sxs-lookup"><span data-stu-id="adee2-340">Import payment formats for Sweden</span></span>](../../financials/localizations/emea-swe-payment-formats-import.md)
+-   [<span data-ttu-id="adee2-341">适用于瑞典的收银机</span><span class="sxs-lookup"><span data-stu-id="adee2-341">Cash registers for Sweden</span></span>](../../retail/localizations/emea-swe-cash-registers.md)
 
-### <a name="switzerland"></a><span data-ttu-id="45394-341">瑞士</span><span class="sxs-lookup"><span data-stu-id="45394-341">Switzerland</span></span>
+### <a name="switzerland"></a><span data-ttu-id="adee2-342">瑞士</span><span class="sxs-lookup"><span data-stu-id="adee2-342">Switzerland</span></span>
 
--   [<span data-ttu-id="45394-342">ESR 客户付款导入</span><span class="sxs-lookup"><span data-stu-id="45394-342">ESR customer payments import</span></span>](../../financials/localizations/emea-che-esr-customer-payments-import.md)
+-   [<span data-ttu-id="adee2-343">ESR 客户付款导入</span><span class="sxs-lookup"><span data-stu-id="adee2-343">ESR customer payments import</span></span>](../../financials/localizations/emea-che-esr-customer-payments-import.md)
 
-### <a name="thailand"></a><span data-ttu-id="45394-343">泰国</span><span class="sxs-lookup"><span data-stu-id="45394-343">Thailand</span></span>
+### <a name="thailand"></a><span data-ttu-id="adee2-344">泰国</span><span class="sxs-lookup"><span data-stu-id="adee2-344">Thailand</span></span>
 
--   [<span data-ttu-id="45394-344">存货卡报表</span><span class="sxs-lookup"><span data-stu-id="45394-344">Stock card reports</span></span>](../../financials/localizations/apac-tha-stock-card-reports.md)
--   [<span data-ttu-id="45394-345">泰国的替换/调整税务发票</span><span class="sxs-lookup"><span data-stu-id="45394-345">Substitution/adjustment tax invoice for Thailand</span></span>](../../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md)
--   [<span data-ttu-id="45394-346">未实现的增值税</span><span class="sxs-lookup"><span data-stu-id="45394-346">Unrealized VAT</span></span>](../../financials/localizations/apac-tha-unrealized-vat.md)
--   [<span data-ttu-id="45394-347">预缴税金</span><span class="sxs-lookup"><span data-stu-id="45394-347">Withholding tax</span></span>](../../financials/localizations/apac-tha-withholding-tax.md)
+-   [<span data-ttu-id="adee2-345">存货卡报表</span><span class="sxs-lookup"><span data-stu-id="adee2-345">Stock card reports</span></span>](../../financials/localizations/apac-tha-stock-card-reports.md)
+-   [<span data-ttu-id="adee2-346">泰国的替换/调整税务发票</span><span class="sxs-lookup"><span data-stu-id="adee2-346">Substitution/adjustment tax invoice for Thailand</span></span>](../../financials/localizations/apac-tha-substitution-and-adjustment-invoices.md)
+-   [<span data-ttu-id="adee2-347">未实现的增值税</span><span class="sxs-lookup"><span data-stu-id="adee2-347">Unrealized VAT</span></span>](../../financials/localizations/apac-tha-unrealized-vat.md)
+-   [<span data-ttu-id="adee2-348">预缴税金</span><span class="sxs-lookup"><span data-stu-id="adee2-348">Withholding tax</span></span>](../../financials/localizations/apac-tha-withholding-tax.md)
 
-### <a name="united-kingdom"></a><span data-ttu-id="45394-348">英国</span><span class="sxs-lookup"><span data-stu-id="45394-348">United Kingdom</span></span>
+### <a name="united-kingdom"></a><span data-ttu-id="adee2-349">英国</span><span class="sxs-lookup"><span data-stu-id="adee2-349">United Kingdom</span></span>
 
--   [<span data-ttu-id="45394-349">英国的建筑行业方案</span><span class="sxs-lookup"><span data-stu-id="45394-349">The Construction Industry Scheme for the United Kingdom</span></span>](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
+-   [<span data-ttu-id="adee2-350">英国的建筑行业方案</span><span class="sxs-lookup"><span data-stu-id="adee2-350">The Construction Industry Scheme for the United Kingdom</span></span>](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
 
-### <a name="united-states"></a><span data-ttu-id="45394-350">美国</span><span class="sxs-lookup"><span data-stu-id="45394-350">United States</span></span>
+### <a name="united-states"></a><span data-ttu-id="adee2-351">美国</span><span class="sxs-lookup"><span data-stu-id="adee2-351">United States</span></span>
 
--   [<span data-ttu-id="45394-351">公共部门中的 1099 表格</span><span class="sxs-lookup"><span data-stu-id="45394-351">Form 1099 in the public sector</span></span>](../../financials/localizations/noam-usa-form-1099-public-sector.md)   
--   [<span data-ttu-id="45394-352">表格 I-9 验证</span><span class="sxs-lookup"><span data-stu-id="45394-352">Form I-9 verification</span></span>](../../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
--   [<span data-ttu-id="45394-353">年末 1099 申报</span><span class="sxs-lookup"><span data-stu-id="45394-353">Year-end 1099 reporting</span></span>](../../financials/localizations/noam-usa-year-end-1099-reporting.md)
--   [<span data-ttu-id="45394-354">工资单</span><span class="sxs-lookup"><span data-stu-id="45394-354">Payroll</span></span>](../../fin-and-ops/hr/localizations/noam-usa-payroll.md)
--   [<span data-ttu-id="45394-355">公共部门</span><span class="sxs-lookup"><span data-stu-id="45394-355">Public sector</span></span>](../../financials/public-sector/public-sector-functionality.md)
+-   [<span data-ttu-id="adee2-352">公共部门中的 1099 表格</span><span class="sxs-lookup"><span data-stu-id="adee2-352">Form 1099 in the public sector</span></span>](../../financials/localizations/noam-usa-form-1099-public-sector.md)   
+-   [<span data-ttu-id="adee2-353">表格 I-9 验证</span><span class="sxs-lookup"><span data-stu-id="adee2-353">Form I-9 verification</span></span>](../../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [<span data-ttu-id="adee2-354">年末 1099 申报</span><span class="sxs-lookup"><span data-stu-id="adee2-354">Year-end 1099 reporting</span></span>](../../financials/localizations/noam-usa-year-end-1099-reporting.md)
+-   [<span data-ttu-id="adee2-355">工资单</span><span class="sxs-lookup"><span data-stu-id="adee2-355">Payroll</span></span>](../../fin-and-ops/hr/localizations/noam-usa-payroll.md)
+-   [<span data-ttu-id="adee2-356">公共部门</span><span class="sxs-lookup"><span data-stu-id="adee2-356">Public sector</span></span>](../../financials/public-sector/public-sector-functionality.md)
 
 
 

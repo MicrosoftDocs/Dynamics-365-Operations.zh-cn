@@ -180,11 +180,11 @@
 
 ## 部署和修补程序
 ### [零售商店扩展单位概览](dev-itpro/retail-store-system-begin.md)
-#### [零售商店扩展单位配置和安装](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [零售商店扩展单位配置和安装](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)
-#### [从总部管理 Retail 帐户和设备](set-up-activation-accounts-validate-devices-hq.md)
-#### [Retail POS 设备启用](dev-itpro/retail-device-activation.md)
-#### [安全 Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
+### [从总部管理 Retail 帐户和设备](set-up-activation-accounts-validate-devices-hq.md)
+### [Retail POS 设备启用](dev-itpro/retail-device-activation.md)
+### [安全 Retail Cloud POS](dev-itpro/secure-retail-cloud-pos.md)
 ### [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)
 ### [Retail 自助服务组件批量部署](dev-itpro/retail-mass-deployment.md)
 ### [Retail 组件的诊断和故障排除事件](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
@@ -194,48 +194,52 @@
 ### [升级和 N-1 支持概览](dev-itpro/overview-upgrade-n-minus1.md)
 ### [安装 N-1 组件](dev-itpro/n-1-installation-configuration.md)
 
+## 实现指南
+### [设备管理实现指南](implementation-considerations-devices.md)
+
 ## 环境配置
 ### [添加指向您的组织的法律条款和隐私声明的链接](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
 ### [管理必应地图](dev-itpro/manage-bing-maps.md)
 
-## 可扩展性
-### 销售点
-#### [Retail POS 屏幕布局](pos-screen-layouts.md)
-##### [安装 POS 布局设计器](install-pos-layout-designer.md)
-#### [配置脱机模式的 MPOS](dev-itpro/retail-modern-pos-offline.md)
-#### [MPOS 和 Cloud POS 触发器可扩展性](dev-itpro/modern-pos-trigger-extensibility.md)
-#### [将自定义控件添加到 POS 视图](dev-itpro/pos-custom-control.md)
-#### [POS 付款扩展](dev-itpro/pos-payment-extension.md)
-#### [外部礼品卡支持](dev-itpro/gift-card.md)
+## 销售点可扩展性
+### [Retail POS 屏幕布局](pos-screen-layouts.md)
+### [安装 POS 布局设计器](install-pos-layout-designer.md)
+### [配置脱机模式的 MPOS](dev-itpro/retail-modern-pos-offline.md)
+### [MPOS 和 Cloud POS 触发器可扩展性](dev-itpro/modern-pos-trigger-extensibility.md)
+### [将自定义控件添加到 POS 视图](dev-itpro/pos-custom-control.md)
+### [POS 付款扩展](dev-itpro/pos-payment-extension.md)
+### [外部礼品卡支持](dev-itpro/gift-card.md)
 ### [创建零售体验应用](dev-itpro/create-retail-experience-app.md)
 ### [硬件工作站概览和可扩展性](dev-itpro/hardware-station-extensibility.md)
 
-### 零售服务器
-#### [扩展 Retail Server OData 控制器](dev-itpro/extend-retail-server-odata-controller.md)
-#### [Web API 和 OData 控制器](dev-itpro/odata-controllers-api.md)
-#### [零售服务器客户和用户 API](dev-itpro/retail-server-customer-consumer-api.md)
-#### [扩展元数据](dev-itpro/extend-metadata.md)
-#### [扩展 Commerce Runtime 以支持 POS 脱机模式](dev-itpro/call-crt-service-offline.md)
-### Commerce Runtime
-#### [Commerce Runtime 概览](dev-itpro/commerce-runtime-overview.md)
-#### [Commerce Runtime 和零售服务器可扩展性 ](dev-itpro/commerce-runtime-extensibility.md)
-#### [将客户首选项数据添加到渠道数据库](dev-itpro/add-customer-preference-channel.md)
-#### [将属性添加到销售订单](dev-itpro/add-properties-sales-order.md)
-#### [Commerce Runtime 可扩展性和触发器](dev-itpro/commerce-runtime-extensibility-trigger.md)
-#### [触发器示例：锁定的交易](dev-itpro/trigger-example-blocking-transaction.md)
-#### [触发器示例：退货政策](dev-itpro/trigger-example-return-policy.md)
-### 电子商务
-#### [配置在线商店](dev-itpro/configure-online-store.md)
-#### [配置身份验证提供程序](dev-itpro/configure-authentication-providers.md)
-#### [电子商务平台](dev-itpro/ecommerce-platform.md)
-#### [电子商务平台 SDK](dev-itpro/ecommerce-platform-sdk.md)
-### 付款连接器
-#### [实施付款连接器和付款设备(白皮书)](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
-#### [部署付款连接器](dev-itpro/deploy-payment-connector.md)
-#### [为付款连接器创建 Windows 安装程序](dev-itpro/create-windows-installer-payment-connector.md)
+## Retail Server 可扩展性
+### [扩展 Retail Server OData 控制器](dev-itpro/extend-retail-server-odata-controller.md)
+### [Web API 和 OData 控制器](dev-itpro/odata-controllers-api.md)
+### [零售服务器客户和用户 API](dev-itpro/retail-server-customer-consumer-api.md)
+### [扩展元数据](dev-itpro/extend-metadata.md)
+### [扩展 Commerce Runtime 以支持 POS 脱机模式](dev-itpro/call-crt-service-offline.md)
 
-## Retail SDK
-### [Retail SDK 概述](dev-itpro/retail-sdk/retail-sdk-overview.md)
+## Commerce runtime 可扩展性
+### [Commerce Runtime 概览](dev-itpro/commerce-runtime-overview.md)
+### [Commerce Runtime 和 Retail Server 可扩展性 ](dev-itpro/commerce-runtime-extensibility.md)
+### [将客户首选项数据添加到渠道数据库](dev-itpro/add-customer-preference-channel.md)
+### [将属性添加到销售订单](dev-itpro/add-properties-sales-order.md)
+### [Commerce Runtime 可扩展性和触发器](dev-itpro/commerce-runtime-extensibility-trigger.md)
+### [触发器示例：锁定的交易](dev-itpro/trigger-example-blocking-transaction.md)
+### [触发器示例：退货政策](dev-itpro/trigger-example-return-policy.md)
+
+## 电子商务可扩展性
+### [配置在线商店](dev-itpro/configure-online-store.md)
+### [配置身份验证提供程序](dev-itpro/configure-authentication-providers.md)
+### [电子商务平台](dev-itpro/ecommerce-platform.md)
+### [电子商务平台 SDK](dev-itpro/ecommerce-platform-sdk.md)
+
+## 付款连接器可扩展性
+### [实施付款连接器和付款设备（白皮书）](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
+### [部署付款连接器](dev-itpro/deploy-payment-connector.md)
+### [为付款连接器创建 Windows 安装程序](dev-itpro/create-windows-installer-payment-connector.md)
+
+## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [将 Retail SDK 与连续生成系统集成](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Retail SDK 可扩展性示例](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [适用于瑞典的收银机](localizations/emea-swe-cash-registers.md)
@@ -249,7 +253,13 @@
 ### [订单属性](dev-itpro/order-attributes.md)
 ### [客户属性](dev-itpro/customer-attributes.md)
 ### [Retail 打印脚本和 C# 代理](dev-itpro/typescript-proxy-retail-pos.md)
-
+### [执行 Retail POS 示例](dev-itpro/pos-run-samples.md)
+### [扩展 POS 视图，以添加自定义列和应用程序栏按钮](dev-itpro/pos-view-extension.md)
+### [将自定义控件添加到 Retail Modern POS 交易记录页](dev-itpro/pos-custom-transaction.md)
+### [将自定义列添加到 POS 交易记录网格](dev-itpro/pos-custom-transaction-column.md)
+### [调用 POS API 或 POS 扩展中的操作](dev-itpro/pos-api-extension.md)
+### [扩展 POS 视图，以添加自定义列和应用程序栏按钮](dev-itpro/pos-view-extension.md)
+### [Retail Modern POS 触发器和打印](dev-itpro/pos-trigger-printing.md)
 
 ## Commerce Runtime
 ### [会员扩展](dev-itpro/retail-sdk/loyalty-extension-sample.md)

@@ -124,6 +124,7 @@
 #### [登记工厂方法子类](extensibility/register-subclass-factory-methods.md)
 #### [使用 EventHandlerResult 响应](extensibility/respond-event-handler-result.md)
 #### [扩展 RunBase 类](extensibility/extend-runbase-class.md)
+#### [使用委托自定义应用程序启动](extensibility/startup-customizations.md)
 #### [修改表中的现有字段](extensibility/modify-existing-field.md)
 #### [向现有表添加新字段](extensibility/add-field-extension.md)
 #### [向现有表添加索引](extensibility/add-index.md)
@@ -498,17 +499,19 @@
 ### [Azure Resource Manager 使用培训](deployment/arm-onboarding.md)
 ### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
 
-## [内部部署](deployment/on-premises-deployment-landing-page.md)
+## [本地部署](deployment/on-premises-deployment-landing-page.md)
 ### [本地概览](deployment/on-premises-overview.md)
 ### [硬件规模调整](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [创建本地项目](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [设置并部署本地环境](deployment/setup-deploy-on-premises-environments.md)
 ### [开发自定义模型并将其部署到本地环境](deployment/develop-deploy-custom-models-on-premises.md)
 ### [将更新为本地部署](deployment/apply-updates-on-premises.md)
+### [重新部署本地部署](deployment/redeploy-on-prem.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition（本地）故障排除](deployment/troubleshoot-on-prem.md)
 
 ## 部署自定义代码
 ### [创建可部署包](deployment/create-apply-deployable-package.md)
-### [应用可部署包](deployment/apply-deployable-package-system.md)
+### [将更新应用至云环境](deployment/apply-deployable-package-system.md)
 ### [安装可部署包](deployment/install-deployable-package.md)
 ### [解决包应用程序问题](deployment/deployable-package-troubleshooting.md)
 
@@ -544,11 +547,13 @@
 ## 升级到最近更新
 ### [升级到最新更新的流程](migration-upgrade/upgrade-latest-update.md)
 ### [生命周期策略](migration-upgrade/versions-update-policy.md)
-### [升级到最新平台更新](migration-upgrade/upgrade-latest-platform-update.md)
+### [将最新平台更新应用到您的环境](migration-upgrade/upgrade-latest-platform-update.md)
 ### [将 Dynamics 平台升级到 2016 年 8 月的版本](migration-upgrade/update-platform-each-release.md)
 ### [升级沙盒环境](migration-upgrade/upgrade-sandbox-environment.md)
 ### [在开发或演示环境中升级数据](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [更新开发工具](dev-tools/update-development-tools.md)
+### [将更新为本地部署](deployment/apply-updates-on-premises.md)
+### [重新部署本地部署](deployment/redeploy-on-prem.md)
 
 ## 修补程序和服务
 ### [从 Lifecycle Services 下载修补程序](migration-upgrade/download-hotfix-lcs.md)
@@ -566,6 +571,7 @@
 ## [跨公司数据共享](sysadmin/cross-company-data-sharing.md)
 ## [维护模式](sysadmin/maintenance-mode.md)
 ## [预配置系统帐户](sysadmin/pre-configured-system-accounts.md)
+## [将 B2B 用户导出到 Azure AD](sysadmin/implement-b2b.md)
 ## [基于角色的安全性](sysadmin/role-based-security.md)
 ### [安全体系结构](sysadmin/security-architecture.md)
 ### [安全报告](sysadmin/security-reports.md)
