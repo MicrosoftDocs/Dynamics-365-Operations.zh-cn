@@ -3,7 +3,7 @@ title: "财务期间结帐工作区"
 description: "本文提供财务期间结帐工作区和相关配置的概览。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5dbefc953c0f1608b6f5b5676850a0e9aba36cc
+ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
+ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/29/2017
 
 ---
 
@@ -91,7 +91,8 @@ ms.lasthandoff: 11/03/2017
 
 **任务链接**菜单项与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，可将为应付账款运行币种重估的结帐任务链接到 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中关联的**外币重估**页面。 您还可以链接到外部 URL。 
 
-> 提示：如果要链接特定的 Management Reporter 报表到财务期间结算任务，则可以使用报表 URL。 若要访问报表 URL，请打开报表设计器中的报表，然后单击**文件** &gt; **查看报表**以在 Web 浏览器中打开报表。 然后可以复制浏览器地址栏中的 URL 并将其粘贴到**任务链接** **URL** 字段中。 
+> [!TIP]
+> 如果要链接特定的 Management Reporter 报表到财务期间结算任务，则可以使用报表 URL。 若要访问报表 URL，请打开报表设计器中的报表，然后单击**文件** &gt; **查看报表**以在 Web 浏览器中打开报表。 然后可以复制浏览器地址栏中的 URL 并将其粘贴到**任务链接** **URL** 字段中。 
 
 可以在模板中定义任务依赖项。 已设置为依赖于一个或多个任务的任务不能将该任务标记为完成，直到所有依赖项完成。 
 

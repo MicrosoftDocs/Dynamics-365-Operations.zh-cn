@@ -1,16 +1,16 @@
 ---
 title: "生成财务报表"
 description: "本主题提供了有关生成财务报表的信息。"
-author: ShylaThompson
+author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 2986d218318951b7e46cb5dfafcbd17f2d513755
+ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
+ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -40,15 +40,31 @@ ms.lasthandoff: 11/14/2017
 
 下表说明了可用于生成报表的选项。
 
-| 选项                                                                                | 有关详细信息 |
-|---------------------------------------------------------------------------------------|----------------------|
-| 设置计划以自动生成报表或报表组              |                      |
-| 检查报表中是否有缺少的科目或数据，并验证报表的准确性 |                      |
+| 选项                                                                                | 
+|---------------------------------------------------------------------------------------|
+| 设置计划以自动生成报表或报表组              |   
+| 检查报表中是否有缺少的科目或数据，并验证报表的准确性 |   
 
 当您生成报表时，将使用您在报表定义选项卡上指定的选项。 输出和分配选项卡可让您指定报表库位置，从而提供了一个共享报表的简单方式。
 
-## <a name="schedule-report-generation"></a> 计划报表生成
-很多公司有一套核心报表，这些报表以计划的间隔运行以便适应其业务流程。 您可以将报表计划为定期生成，如每天，每周、每月或每年。 这可以是单个报表或者包括多个公司的报表组。 您必须为指定的每个公司（例如报告树定义中的公司）输入您的凭据。 如果凭据无效，报表将仅显示您有权访问的信息，如您当时登录的公司。 输出信息首先从报表组读取，然后从各个报表读取。
+## <a name="generate-a-financial-report"></a>生成财务报表
+
+若要使用 Microsoft Dynamics 365 for Finance and Operations 生成财务报表，请转到**总帐** > **查询和报表** > **财务报表**。 
+ - 选择要生成的报表并单击**生成**。 
+ - 填写**报表日期**字段，然后单击**确定**。
+ 
+ 在报表生成后，报表可以在**报表**部分查看。
+ 您可以选择**查看**或**删除**报表。
+ 
+ 
+若要使用**报表设计器**生成报表，请打开报表定义，然后单击工具栏中的“生成”按钮。 “报表队列状态”窗口将打开并指示您的报表在队列中的位置。 默认情况下，生成的报表将在 Web 查看器中打开。
+
+> [!NOTE]
+> 您只能在有权访问的文件夹和位置生成报表。
+
+
+## <a name="schedule-report-generation"></a>安排报表生成
+许多公司都有一组按计划时间间隔运行的核心报表，以便符合其业务流程。 您可以将报表计划为定期生成，如每天，每周、每月或每年。 这可以是单个报表或者包括多个公司的报表组。 您必须为指定的每个公司（例如报告树定义中的公司）输入您的凭据。 如果凭据无效，报表将仅显示您有权访问的信息，如您当时登录的公司。 输出信息首先从报表组读取，然后从各个报表读取。
 
 在创建并保存报表计划后，它们将显示在“报表计划”下的导航窗格中。 您可以创建文件夹以整理报表。 如果计划中的单个报表没有运行，其他所有报表将继续运行。
 

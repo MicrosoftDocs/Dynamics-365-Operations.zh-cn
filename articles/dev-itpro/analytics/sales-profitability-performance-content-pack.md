@@ -3,7 +3,7 @@ title: "销售和收益率绩效 Power BI 内容"
 description: "此主题介绍销售和收益率绩效 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3692b9be0fb93e0e2de743775a54bb9c9dbf5809
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c065eb2f19bbbd553e070f06c29f73114e3efad5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/03/2017
 -   客户利润率（按收入与毛利）
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），则**销售和收益率绩效** Power BI 内容显示在**销售和收益率绩效**页（**销售和市场营销** > **查询和报表** > **销售绩效分析** > **销售和收益率绩效**）上。 
+**销售和收益率绩效** Power BI 内容显示在**销售和收益率绩效**页面（**销售和市场** > **查询和报表** > **销售绩效分析** > **销售和收益率绩效**）。 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
 **销售和收益率绩效** Power BI 内容包括含有一组指标的报表。 这些指标显示为图表、磁贴和表。 下表概要介绍此内容中的可视化项。

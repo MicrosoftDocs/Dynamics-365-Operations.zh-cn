@@ -3,7 +3,7 @@ title: "员工发展 Power BI 内容"
 description: "此主题描述员工发展 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6a1125d56239f4370d6219a93988d50d402045e
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
-如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），您可以查找 Microsoft Dynamics Lifecycle Services (LCS) 共享资产库中的**员工发展**内容包。 有关如何下载内容包并将其连接到您的数据的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
+您可以在 Microsoft Dynamics Lifecycle Services (LCS) 中找到共享资产库内的**员工发展**内容包。 有关如何下载内容包并将其连接到您的数据的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 **员工发展** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。

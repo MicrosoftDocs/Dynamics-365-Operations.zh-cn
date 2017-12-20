@@ -3,7 +3,7 @@ title: "云和本地功能比较"
 description: "此主题显示在云和本地支持的功能。"
 author: robinarh
 manager: AnnBe
-ms.date: 07/13/2017
+ms.date: 11/29/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -15,13 +15,13 @@ ms.custom: 89563
 ms.assetid: 
 ms.search.region: Global
 ms.author: robinr
-ms.search.validFrom: 2017-07-13
+ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: efe06929db414475f6457dfe49ff1791a3d609d5
+ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
+ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,6 +59,9 @@ ms.lasthandoff: 11/06/2017
 | | 与 PowerBI.com 集成| 是 | 无 |
 | | 分析工作区 | 是 | 无 |
 | | 智能业务流程：建议| 是 | 无 |
+| | 使用 Power BI 桌面或 Excel PowerQuery 工具创作具有 OData 的 Power BI 报表 | 是 | 无 |
+| | SQL Server Reporting Services (SSRS) 支持缩放  | 是 | 无 |
+| | 遥测转变为云 | 是 | 无 |
 | 库存管理| | 是 | 是 |
 | Lifecycle Services| | 是 | 是 |
 | | 可配置的业务流程 | 是 | 无 |
@@ -86,7 +89,7 @@ ms.lasthandoff: 11/06/2017
 | 运输管理| | 是 | 是 |
 | 供应商协作| | 是 | 是|
 | 仓库管理| | 是 | 是 |
-| | 移动仓库应用| 是 | 无 |
+| | 移动仓库应用| 是 | 是 |
 | | 仓储 Power BI 报表| 是 | 无 |
 | Web 客户端 | | 是 | 是 |
 | | 任务录制器 - 从 BPM 库保存或加载任务录制| 是 | 无 |
@@ -103,6 +106,7 @@ ms.lasthandoff: 11/06/2017
 | 平台兼容性  || 是 | 是 |
 | 服务 | | 是 | 是 |
 | | 服务环境 | 是 | 无 |
+| Trace Parser 和 PerfTimer | | 是 | 无 |
 | 升级 | | 是 | 是 |
 | | 升级 | 是 | 无 |
 | | 以前版本的升级和支持 | 是 | 无 |
@@ -121,6 +125,8 @@ ms.lasthandoff: 11/06/2017
 |---|---|---|---|
 | 所有人才区域 | 所有人才功能 | 是 | 无 |
 
+## <a name="see-also"></a>请参阅
 
+- [未在本地部署中实现的功能](features-not-implemented-on-prem.md)
 
 

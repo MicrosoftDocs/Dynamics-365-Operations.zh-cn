@@ -3,7 +3,7 @@ title: "实际与预算 Power BI 内容"
 description: "此主题描述实际与预算 Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: ryansandness
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f09af96fb1c76d8737d2c535f1a46565a18deca0
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 2a0ad5af4e4d7da09690331dc9d1a51d2e97a664
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/03/2017
 **实际与预算** Power BI 内容为负责监督组织中的实际与预算绩效的人员而创建。 **实际与预算** Power BI 内容可用于查看您的预算差异。 您可以按科目类别、预算代码、主科目、主科目描述或会计期间分析当前年度的预算，以更好地了解任何差异的原因。 
 
 # <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），则来自**实际与预算** Power BI 内容的报表显示在**分类帐预算和预测**和 **CFO** 工作区。
+来自**实际与预算** Power BI 内容的报表显示在**分类帐预算和预测** 和 **CFO** 工作区中。
 
 # <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 下表提供有关在**实际与预算** Power BI 内容中的每个报表页找到的指标的详细信息。

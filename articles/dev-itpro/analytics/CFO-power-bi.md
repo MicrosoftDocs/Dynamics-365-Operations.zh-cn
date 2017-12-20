@@ -3,7 +3,7 @@ title: "CFO 概览 Power BI 内容"
 description: "此主题介绍 CFO 概览 Microsoft Power BI 内容。"
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e08277850d36804e3d4508b87547d2c819e2faf3
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: fcc93daf96f65cd340d6be766c6ef83a74d62cc5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
-如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），则 **CFO 概览** Power BI 内容中的报表在 **CFO 概览**工作区显示。
+来自 **CFO 概览** Power BI 内容的报表显示在 **CFO 概览**工作区。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 **CFO 概览** Power BI 内容由来自不同其他 Power BI 内容的报表以及来自总帐的一些实际和预算余额构成。 因此，此 Power BI 的内容为首席财务官 (CFO) 提供组织概览。

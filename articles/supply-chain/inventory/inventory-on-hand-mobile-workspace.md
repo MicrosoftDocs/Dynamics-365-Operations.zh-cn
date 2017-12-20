@@ -3,7 +3,7 @@ title: "现有库存量移动工作区"
 description: "此主题提供有关现有库存量移动工作区的信息。 此工作区可帮助您随时随地从移动角度洞察预留库存和可用库存。"
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6de8c45d6c27295a2b90cb72043d556455e65137
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: c54f6f12e47ae0a185a7918517c7fd601f457fa4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -59,8 +59,8 @@ ms.lasthandoff: 11/03/2017
 ## <a name="prerequisites"></a>必备项
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）时的先决条件 
-如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），系统管理员必须发布**现有库存量**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的先决条件 
+如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，系统管理员必须发布**现有库存量**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 

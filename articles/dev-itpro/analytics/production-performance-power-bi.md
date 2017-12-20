@@ -3,7 +3,7 @@ title: "生产性能 Power BI 内容"
 description: "此主题介绍生产性能 Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: baa0343713e8f75e1c9637a903b9008db0968fd4
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 **生产性能** Power BI 内容包括源自生产订单和批次订单的数据。 报表不包括与看板生产有关的数据。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），则**生产性能** Power BI 内容显示在**生产性能**页（**生产控制** > **查询和报表** > **生产性能分析** > **生产性能**）上。 
+**生产绩效** Power BI 内容显示在**生产绩效**页面（**生产控制** > **查询和报表** > **生产绩效分析** > **生产绩效**）。 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
 
