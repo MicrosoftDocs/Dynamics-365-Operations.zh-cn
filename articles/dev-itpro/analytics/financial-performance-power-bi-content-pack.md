@@ -3,7 +3,7 @@ title: "财务绩效 Power BI 内容"
 description: "此主题描述财务绩效 Power BI 内容。 它介绍其中包含的仪表板和报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: kweekley
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f111698315cd42c0c1c0d470b94688b548375bee
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="available-from-lcs"></a>从 LCS 获取
 从 LCS 获取的**财务绩效** Power BI 内容支持以下版本：
 
-- Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）
+- Microsoft Dynamics 365 for Finance and Operations Enterprise edition 版本
 - Microsoft Dynamics 365 for Operations 版本 1611 
 
 您可以在 LCS 中的共享资产库内找到 Power BI 内容。 有关如何下载内容包并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。

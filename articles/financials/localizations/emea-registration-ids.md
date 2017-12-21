@@ -3,7 +3,7 @@ title: "登记 ID"
 description: "本主题提供有关设置和使用登记 ID 的信息。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/08/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e85e1ef9bb27e3644264c898feb3a484c5b3ec3f
+ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
+ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/28/2017
 
 ---
 
@@ -98,6 +98,12 @@ Microsoft Finance and Operations 中的全球通讯簿 (GAB) 包含客户、供�
 | OGRN                                                          | 俄罗斯联邦| OGRN（AX 2012 R3 中的立法类型 OGRN） |
 | SNILS                                                         | 俄罗斯联邦| SNILS（AX 2012 R3 中的立法类型 SNILS）|
 | CIFTS                                                         | 俄罗斯联邦| CIFTS（AX 2012 R3 中的立法类型 CIFTS）|
+| 护照                                                      | 西班牙             | 护照|
+| 官方身份证明                              | 西班牙             | 官方身份证明|
+| 居住证                                         | 西班牙             | 居住证|
+| 其他身份证明                                 | 西班牙             | 其他身份证明|
+| 未统计                                                  | 西班牙             | AX 2012 R3 中不可用|
+
 
 有关登记 ID 处理的详细信息（包括必须满足的先决条件），请参阅 Lifecycle Services (LCS) 中 VAT ID 的以下任务录制：
 

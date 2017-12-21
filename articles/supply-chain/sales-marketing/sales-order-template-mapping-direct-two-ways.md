@@ -1,6 +1,6 @@
 ---
 title: "将 Sales 与 Finance and Operations 的销售订单直接同步"
-description: "本主题讨论用于运行 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 之间的销售订单标题和行的双向直接同步的模板和基础任务。"
+description: "本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 之间直接运行销售订单同步的模板和基础任务。"
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/31/2017
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.intro: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 568c33a63efdc58a179dadcb617634dcf533fd4b
-ms.openlocfilehash: c31d65328250539fbe172f220272eec9d8b59bbf
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -31,13 +31,13 @@ ms.lasthandoff: 11/13/2017
 
 [!include[banner](../includes/banner.md)]
 
-本主题讨论用于运行 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 之间的销售订单标题和行的双向直接同步的模板和基础任务。
+本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 之间直接运行销售订单同步的模板和基础任务。
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
 若要访问可用模板，打开 [PowerApps 管理员中心](https://preview.admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
 
-以下模板和基础任务用于运行 Sales 与 Finance and Operations 的销售订单标题和行的双向直接同步：
+以下模板和基础任务用于在 Sales 与 Finance and Operations 之间直接运行销售订单的同步：
 
 - **数据集成中的模板名称：** 
 

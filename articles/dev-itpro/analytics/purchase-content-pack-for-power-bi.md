@@ -3,7 +3,7 @@ title: "采购支出分析 Power BI 内容"
 description: "此主题介绍采购支出分析 Power BI 内容中的内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6485f36802fc4e327e223f47d65c4bdca11c1609
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: f38f82b4275599a6b958c495f32b72778b400024
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 该内容使用采购交易数据，并且同时提供公司范围的采购数据聚合视图和按供应商与产品分类的采购支出分解。 报表突出显示一段时间的采购支出变化。 因此，这些报表可用于提醒经理有关单个供应商和产品的正负支出趋势的信息。 此外，图表显示不同采购类别和供应商组的采购支出。 因此，类别和区域经理可以使用这些图表来帮助识别支出行为的变化。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），则**采购支出分析** Power BI 内容显示在**采购和支出分析**页（**采购** > **查询和报表** > **采购绩效分析** > **采购和支出分析**）上。 
+**采购花费分析** Power BI 内容显示在**采购和花费分析**页面（**采购** > **查询和报表** > **采购绩效分析** > **采购和花费分析**）。 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
 **采购支出分析** Power BI 内容包含一个由一组指标构成的报表。 这些指标显示为图表、磁贴和表。 下表提供对可视化项的概览。

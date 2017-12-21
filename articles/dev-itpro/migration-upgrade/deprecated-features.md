@@ -3,7 +3,7 @@ title: "弃用功能"
 description: "本主题介绍已经删除或计划删除的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 10/23/2017
+ms.date: 11/27/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 6
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee051bbf50a6124fe1700a244b36b5f9c599e714
+ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
+ms.openlocfilehash: b0eb041ee1a4309b010e510e1f7428d6c930e4a0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 11/27/2017
 
 ---
 
@@ -490,8 +490,8 @@ ICMS 税联邦报税单
 
 |   |   |
 |---|---|
-| **折旧的原因**       | 数据分区在 Microsoft Dynamics AX 2012 R2 引入以启用数据隔离。 在常见情况中，公司有子公司，一个子公司的数据不应对另一个子公司可见，即使两个子公司均由相同的 IT 部门管理。 不过，整个程序都需要额外的脚本和管理开销来创建新的分区并填充数据，以及备份分区数据。 在云中，在其中我们有访问平台即服务 (PaaS) 数据库服务（Microsoft SQL Azure 数据库）的权限，则使用数据库作为隔离容器比在程序中执行隔离要高效得多。 不管是子公司、多个租户，或只为规模需要进行数据分区，我们认为通过多个数据库或多个 Dynamics AX 实例都可以更好地处理这种情况。 |
-| **被另一个功能取代？** | 通过在将来版本中支持多个数据库或 Dynamics AX 实例，数据分区将被替换。    |
+| **折旧的原因**       | 数据分区在 Microsoft Dynamics AX 2012 R2 引入以启用数据隔离。 在常见情况中，公司有子公司，一个子公司的数据不应对另一个子公司可见，即使两个子公司均由相同的 IT 部门管理。 不过，整个程序都需要额外的脚本和管理开销来创建新的分区并填充数据，以及备份分区数据。 在云中，在其中我们有访问平台即服务 (PaaS) 数据库服务（Microsoft SQL Azure 数据库）的权限，则使用数据库作为隔离容器比在程序中执行隔离要高效得多。 不管是子公司、多个租户，或只为规模需要进行数据分区，我们认为通过多个 Finance and Operations 实例都可以更好地处理这种情况。 |
+| **被另一个功能取代？** | 如果数据库级别分隔是关键问题，使用数据分区的客户必须使用多个 Finance and Operations 实例。    |
 | **受影响的模块**             | 全部  |
 
 ### <a name="database-and-file-share-storage-for-attachments"></a>数据库和文件共享附件存储

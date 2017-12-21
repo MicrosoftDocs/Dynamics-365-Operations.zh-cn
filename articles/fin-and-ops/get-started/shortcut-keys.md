@@ -3,7 +3,7 @@ title: "键盘快捷方式"
 description: "以下键盘快捷方式在整个 Dynamics 365 for Finance and Operations Enterprise Edition 中都适用。"
 author: jasongre
 manager: AnnBe
-ms.date: 09/12/2017
+ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 39ffbe81c0cc9ecb3f91f791442bfd27231a0516
+ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
+ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 11/20/2017
 
 ---
 
@@ -34,10 +34,14 @@ ms.lasthandoff: 11/03/2017
 
 **注意：**此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
 
+## <a name="finding-a-shorcut"></a>查找快捷方式
+从平台更新 11 开始，用户可以直接从用户界面发现当前可用的快捷方式。 只需右键单击控件并选择**查看快捷方式**。 这将基于您在页面上的位置打开显示您可以使用的快捷方式的对话框。 
+
+
 ## <a name="action-shortcuts"></a>操作快捷方式
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
-| **要完成的任务**                                    | **按**                        |
+| **要执行的操作**                                    | **按**                        |
 | 打开操作搜索                                | Ctrl+’ 或 Alt+Q                  |
 | 移动到标准操作窗格                  | Alt+M、A 或 Ctrl+F6               |
 | 在操作窗格或菜单中打开一个选项卡           | Enter 或 Space 或 Alt+向下箭头 |
@@ -48,13 +52,14 @@ ms.lasthandoff: 11/03/2017
 | 在窗体/对话框中执行默认按钮   | Alt+Enter                        |
 | 单击按钮或磁贴                            | Enter 或 Space                   |
 | 查看计数磁贴的刷新信息         | Alt+向上箭头                     |
+| 查看当前可用的快捷方式                | Alt+Shift+K                      |                              
 
 ## <a name="date-picker-shortcuts"></a>日期选择器快捷方式
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | **要执行的操作**                        | **按**                                 |
 | 打开日期选择器                  | Alt+向下箭头                            |
-| 在日期选择器中的日期之间移动 | Ctrl+Arrow 键                               |
+| 在日期选择器中的日期之间移动 | Ctrl+Arrow 键                           |
 | 移到下一个/上一个月       | Page down / Page up                       |
 | 移到下一/上一年        | Ctrl+Shift+Page down / Ctrl+Shift+Page up |
 | 移到今天                         | Ctrl+Home                                 |
@@ -65,6 +70,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="factbox-shortcuts"></a>速见表快捷方式
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
+| **要执行的操作**                                                                  | **按**                                 |
 | 打开“速见表”窗格（或将焦点移至“速见表”窗格，如果它已经打开） | Alt+M、B 或 Ctrl+F2                        |
 | 关闭“速见表”窗格（焦点在“速见表”窗格内）                         | Esc                                       |
 | 移到下一个/上一个速见表（焦点在“速见表”窗格内）              | Alt+Shift+向下箭头/Alt+Shift+向上箭头 |

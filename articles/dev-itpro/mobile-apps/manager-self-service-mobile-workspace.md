@@ -3,7 +3,7 @@ title: "我的团队移动工作区"
 description: "此主题提供关于我的团队移动工作区的信息，此工作区允许经理查看其直接下属和扩展职员。 用户还可以向其报告链中的人员发送表扬。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a49e7ba9c1cbc525f388b345b7c6b2102bc81f54
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 30a5b88b5f4a0b107b39742770587eeb4bcb87cf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 11/03/2017
 <tbody>
 <tr class="odd">
 <td>必须在您的组织中部署以下产品之一：
-<ul><li>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</li>
 <li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>

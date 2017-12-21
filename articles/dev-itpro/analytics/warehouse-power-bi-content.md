@@ -3,7 +3,7 @@ title: "仓库性能 Power BI 内容"
 description: "此主题介绍仓库性能 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: Mirzaab
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: mirzaab
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d30a14e78e35c94b9f8945d2fcc973f921698953
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: ea53e2bcd01cd06ccdd836ead1671b54aa9e9750
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/03/2017
 -   **货位库存准确性** - 库存准确性是重要的内部仓库商业智能 (BI)。 您确定一般情况下如何准确盘点非常重要。 不过，您还务必确定正确货位存储物料的准确性，并突出显示差异数据，以便您可以查找更好的物料货位或对特定物料发起总盘点。 （目前，新的基于物料的盘点功能作为修补程序提供。）如果您使用此 Power BI 内容来确定每个货位现有库存量的正确性，您还可以发现商店内的被盗情况。 还可以确定是否有货位具有与企业资源规划 (ERP) 数据不同的现有数量。 这些货位可能过大，或者可能无法盘点。 或者，某些实际定位可能比较糟糕，因此，与让一个物料类型与现有数据保持同步很难。
 
 ## <a name="accessing-the-power-bi-content-pack"></a>访问 Power BI 内容包
-如果您使用的是 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），则**仓库绩效** Power BI 内容显示在**仓库绩效**页（**仓库管理** > **查询和报表** > **仓库绩效分析** > **仓库绩效**）上。 
+**库绩效绩** Power BI 内容显示在**库绩效绩**页面（**库绩管理** > **查询和报表** > **库绩效绩分析** > **库绩效绩**）。 
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
 **仓库绩效** Power BI 内容包括报表。 此报表包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**仓库绩效** Power BI 内容的可视化。

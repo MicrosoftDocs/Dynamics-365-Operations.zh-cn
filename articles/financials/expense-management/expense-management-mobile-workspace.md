@@ -3,7 +3,7 @@ title: "费用管理移动工作区"
 description: "本主题提供有关费用报销管理移动工作区的信息。 此工作区让用户能够捕获和上载收据，以便以后可以将其附加到支出报表。 用户还可以使用附加的收据快速创建支出行，并创建和管理其支出报表。"
 author: KimANelson
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.dyn365.ops.intro: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4880c74047f53704f5f4d8efb19b6f8c6b04d479
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: bbbe37330e16a079b817dfe04f4a47f046263e88
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 11/03/2017
 - 作为捕获的收据上载文件。 你以后可以将该文件附加到支出报表。
 - 通过使用附加的收据创建新支出行。 你以后可以将该行项添加到支出报表，并提交以供审核和补偿。
 
-如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），您还可以使用以下功能：
+如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，您还可以使用以下功能：
 
 - 创建新支出报表。
 - 将信用卡交易记录和其他以前创建的支出附加到支出报表。
@@ -60,8 +60,8 @@ ms.lasthandoff: 11/03/2017
 ## <a name="prerequisites"></a>必备项
 先决条件根据为你的组织部署的 Microsoft Dynamics 365 版本不同。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）时的先决条件 
-如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月），系统管理员必须发布**费用管理**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的先决条件 
+如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，系统管理员必须发布**费用管理**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 

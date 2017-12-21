@@ -3,7 +3,7 @@ title: "福利 Power BI 内容"
 description: "此主题描述福利 Power BI 内容。 它说明如何访问包含的报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: jcart1106
 manager: AnnBe
-ms.date: 05/24/2017
+ms.date: 12/01/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 21f7f77148728a6e7584af76ec053250f52bc73c
+ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
+ms.openlocfilehash: 25111ac7ae07e04bc81ac23a348464bcbe1393af
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/01/2017
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 如果您使用以下其中一种产品，则**福利** Power BI 内容显示在**福利管理**工作区中：
 
-- Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）
+- Microsoft Dynamics 365 for Finance and Operations, Enterprise edition
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
