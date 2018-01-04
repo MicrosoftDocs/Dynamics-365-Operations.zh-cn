@@ -3,7 +3,7 @@ title: "使用 Excel 加载项"
 description: "此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。"
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 11/30/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bf2607596993d01abaf5e8a66f14f8c091791d4a
-ms.openlocfilehash: b4151ca929d0dbe073c1a8444cf63a90ac74e20c
+ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
+ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 11/07/2017
 
 ---
 
@@ -104,6 +104,18 @@ ms.lasthandoff: 11/27/2017
 
 4. 若要应用对数据源的更改，选择**更新**。 然后选择**完成**退出设计器。
 5. 如果添加了字段（列），选择**刷新**提取更新后的数据集。
+
+## <a name="copy-environment-data"></a>复制环境数据
+
+读入一个环境的工作簿中的数据可以复制到另一个环境。 但是，您无法仅更改连接 URL，因为工作簿中的数据缓存会继续将该数据视为现有数据。 您必须使用“复制环境数据”功能将数据作为新数据发布到新的环境。
+
+1. 选择**选项**按钮（齿轮符号），然后，在**数据连接器**快速选项卡上，选择**复制环境数据**。 
+2. 输入新环境的服务器 URL。 
+3. 选择**确定**，然后选择**是**确认操作。 Excel 加载项将重新启动并连接到新的环境。 工作簿中的所有现有数据将被视为新数据。
+
+    在 Excel 加载项重新启动后，消息框显示工作簿处于环境复制模式。
+
+4. 若要作为新数据将数据复制到新环境，请选择**发布**。 若要取消环境复制操作并在新环境中查看现有数据，选择**刷新**。
 
 ## <a name="troubleshooting"></a>疑难解答
 可通过某些简单步骤解决一些问题。
