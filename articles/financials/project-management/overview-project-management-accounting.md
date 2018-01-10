@@ -3,7 +3,7 @@ title: "项目管理与核算"
 description: "项目管理和核算功能可在多个行业提供服务、生产产品或实现结果。"
 author: KimANelson
 manager: AnnBe
-ms.date: 11/03/2017
+ms.date: 01/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
