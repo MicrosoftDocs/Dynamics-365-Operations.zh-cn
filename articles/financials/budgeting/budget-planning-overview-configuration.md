@@ -3,7 +3,7 @@ title: "预算计划概览"
 description: "本文介绍预算计划并包含帮助您配置预算计划和设置预算计划流程的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d904a2fe9411da1fd1a4e5810f7dcea782f1c2f7
+ms.sourcegitcommit: 263bfe858f2ca5f7fe2f7426565938899d98130f
+ms.openlocfilehash: 1c20c3f5453c032257e33e4c26d2a08b0ec4dcf1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 

@@ -3,7 +3,7 @@ title: "银行对账单文件导入故障排除"
 description: "银行的银行对账单文件与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4feb77bf0031494dfd456c23c632a264c96f0e43
+ms.sourcegitcommit: 263bfe858f2ca5f7fe2f7426565938899d98130f
+ms.openlocfilehash: 14ec157ee822ffc5e3a6bc2012d8ec36bb09f0b7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/11/2018
 
 ---
 
