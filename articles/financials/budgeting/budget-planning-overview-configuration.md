@@ -3,7 +3,7 @@ title: "预算计划概览"
 description: "本文介绍预算计划并包含帮助您配置预算计划和设置预算计划流程的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

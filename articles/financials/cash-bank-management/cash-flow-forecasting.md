@@ -3,7 +3,7 @@ title: "现金流量预测"
 description: "此主题提供现金流量预测流程的概览。 它还介绍了现金流量预测如何与系统中的其他模块集成。"
 author: saraschi
 manager: AnnBe
-ms.date: 05/15/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

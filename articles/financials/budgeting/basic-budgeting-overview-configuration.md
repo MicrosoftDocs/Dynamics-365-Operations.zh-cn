@@ -3,7 +3,7 @@ title: "预算概览"
 description: "几乎每家使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations Enterprise Edition 中创建预算或从第三方程序加载预算所需的最低配置。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
