@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5f4ff7eb8ee9b87b9d90af4d215743596555fd73
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 8e3899e1ad5f4be754687c0e2d59348e7a773fd8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 

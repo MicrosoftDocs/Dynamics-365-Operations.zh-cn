@@ -3,7 +3,7 @@ title: "预算计划"
 description: "此实验室的目的是提供 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本在预算计划领域的功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c6440591f847cbbb6be352270e3629a49d71598e
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 8d1174599e383f96a9eaa7a9235664079079906c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 

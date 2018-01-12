@@ -3,7 +3,7 @@ title: "预算计划的 Excel 模板"
 description: "此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。"
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
+ms.openlocfilehash: 747e57b11c13f71c672d43531255751ff273f57c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -92,7 +92,7 @@ ms.lasthandoff: 11/03/2017
 > [!NOTE] 
 > <span data-ttu-id="3f76a-154">若要定义公式，请在电子表格中创建公式，然后将其复制到**设计**窗口中。</span><span class="sxs-lookup"><span data-stu-id="3f76a-154">To define the formula, create the formula in the spreadsheet, and then copy it to the **Design** window.</span></span> <span data-ttu-id="3f76a-155">Finance and Operations 绑定表通常命名为“AXTable1”。</span><span class="sxs-lookup"><span data-stu-id="3f76a-155">A Finance and Operations bound table will typically be named "AXTable1".</span></span> <span data-ttu-id="3f76a-156">例如，若要计算电子表格中的 Request Q1 到 Request Q4 列之和，则公式 = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\]。</span><span class="sxs-lookup"><span data-stu-id="3f76a-156">For example, to summarize Request Q1 : Request Q4 columns in the spreadsheet, the formula = AxTable1\[Request Q1\]+AxTable1\[Request Q2\]+AxTable1\[Request Q3\]+AxTable1\[Request Q4\].</span></span>
 
-<span data-ttu-id="3f76a-157">重复此步骤以插入**调整**列。</span><span class="sxs-lookup"><span data-stu-id="3f76a-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="3f76a-158">为此列使用公式 = AxTable1\[Total request\]\*$I$1。</span><span class="sxs-lookup"><span data-stu-id="3f76a-158">Use formula = AxTable1\[Total request\]\*$I$1 for this column.</span></span> <span data-ttu-id="3f76a-159">这将提取单元格 I1 中的值并乘以**请求总数**列中的值，以计算调整金额。</span><span class="sxs-lookup"><span data-stu-id="3f76a-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
+<span data-ttu-id="3f76a-157">重复此步骤以插入**调整**列。</span><span class="sxs-lookup"><span data-stu-id="3f76a-157">Repeat these steps to insert the **Adjustment** column.</span></span> <span data-ttu-id="3f76a-158">为此列使用公式 = AxTable1\[Total request\]\\*$I$1。</span><span class="sxs-lookup"><span data-stu-id="3f76a-158">Use formula = AxTable1\[Total request\]\\*$I$1 for this column.</span></span> <span data-ttu-id="3f76a-159">这将提取单元格 I1 中的值并乘以**请求总数**列中的值，以计算调整金额。</span><span class="sxs-lookup"><span data-stu-id="3f76a-159">This will take the value in cell I1 and multiply the values in the **Total request** column to calculate adjustment amounts.</span></span>
 
 <span data-ttu-id="3f76a-160">保存然后关闭该 Excel 文件。</span><span class="sxs-lookup"><span data-stu-id="3f76a-160">Save and close the Excel file.</span></span> <span data-ttu-id="3f76a-161">返回 Finance and Operations，然后在**布局**中，单击**模板 &gt; 上传**，上传要已保存的用于预算计划的 Excel 模板。</span><span class="sxs-lookup"><span data-stu-id="3f76a-161">Return to Finance and Operations, and in **Layouts**, click **Template &gt; Upload** to upload the saved Excel template to be used for the budget plan.</span></span> 
 
