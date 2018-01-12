@@ -3,7 +3,7 @@ title: "费用报销管理参数"
 description: "以下参数控制费用报销管理中的行为。"
 author: KimANelson
 manager: AnnBe
-ms.date: 06/23/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

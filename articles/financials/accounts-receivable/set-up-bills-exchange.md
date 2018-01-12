@@ -3,7 +3,7 @@ title: "设置汇票"
 description: "此主题描述设置汇票的步骤。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

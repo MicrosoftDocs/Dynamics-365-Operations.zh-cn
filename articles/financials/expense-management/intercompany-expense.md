@@ -3,7 +3,7 @@ title: "内部公司支出"
 description: "由在组织中的一个法人雇佣的工作人员可能在同一组织执行其他法人的工作。 在此情况下，您可以使用内部公司费用功能来将工作人员的费用分配到执行该工作的法人。"
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications

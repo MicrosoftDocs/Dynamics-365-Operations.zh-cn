@@ -3,7 +3,7 @@ title: "定义支出策略"
 description: "您可以通过在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中输入和提交费用报表和出差申请来定义工作人员必须遵守的支出策略。"
 author: saraschi2
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
