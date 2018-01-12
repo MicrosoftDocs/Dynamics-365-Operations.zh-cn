@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, InventItemOrderSetup
+ms.search.form: BOMConsistOf, BOMDesigner, InventItemOrderSetup
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
