@@ -3,13 +3,13 @@ title: "查看财务报表"
 description: "本文介绍如何在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。"
 author: kweekley
 manager: AnnBe
-ms.date: 06/08/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 10334
 ms.assetid: d20f435f-fb65-4068-ab09-7efc7be683a6
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 61763e57a54a24665d7ca899d8a26cf9e4d3984b
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: c3e212417d053f659bd4a5779ec6c399ca92354e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 

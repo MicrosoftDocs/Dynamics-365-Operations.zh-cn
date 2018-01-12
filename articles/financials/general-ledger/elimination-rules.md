@@ -3,14 +3,14 @@ title: "清除规则"
 description: "本主题提供有关清除规则和有关清除的不同报告选项的信息。"
 author: aprilolson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerEliminationRule
 audience: Application User
-ms.reviewer: robinr
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.custom: 13131
 ms.assetid: 08fd46ef-2eb8-4942-985d-40fd757b74a8
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
+ms.openlocfilehash: 2a0897bd80a508474be384e8086ca47dd9de7efb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="6ace5-182">定义基本信息之后，可以通过单击**行**定义实际处理规则。</span><span class="sxs-lookup"><span data-stu-id="6ace5-182">After you have defined the basics, you can define the actual processing rules by clicking **Lines**.</span></span> <span data-ttu-id="6ace5-183">清除选项有两种，一种清除净更改金额，一种定义固定金额。</span><span class="sxs-lookup"><span data-stu-id="6ace5-183">There are two options for eliminations, eliminating the net change amount or defining a fixed amount.</span></span> 
 
-<span data-ttu-id="6ace5-184">选择源科目。</span><span class="sxs-lookup"><span data-stu-id="6ace5-184">Select your source account.</span></span> <span data-ttu-id="6ace5-185">您可以使用星号 (\*) 作为通配符。</span><span class="sxs-lookup"><span data-stu-id="6ace5-185">You can use an asterisk (\*) as a wild card.</span></span> <span data-ttu-id="6ace5-186">例如，1\** 将选择以 1 开头的所有科目作为分配的数据源。</span><span class="sxs-lookup"><span data-stu-id="6ace5-186">For example, 1\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
+<span data-ttu-id="6ace5-184">选择源科目。</span><span class="sxs-lookup"><span data-stu-id="6ace5-184">Select your source account.</span></span> <span data-ttu-id="6ace5-185">您可以使用星号 (\\*) 作为通配符。</span><span class="sxs-lookup"><span data-stu-id="6ace5-185">You can use an asterisk (\\*) as a wild card.</span></span> <span data-ttu-id="6ace5-186">例如，1\** 将选择以 1 开头的所有科目作为分配的数据源。</span><span class="sxs-lookup"><span data-stu-id="6ace5-186">For example, 1\\* would select all accounts that start with a 1 as a source of data for the allocation.</span></span> 
 
 <span data-ttu-id="6ace5-187">选择源科目帐户，**科目说明**决定所用目标公司的科目。</span><span class="sxs-lookup"><span data-stu-id="6ace5-187">After you have selected your source accounts, the **Account specification** determines the account from the destination company that is used.</span></span> <span data-ttu-id="6ace5-188">如果要使用**源**科目中定义的同一个主科目，请选择**源**。</span><span class="sxs-lookup"><span data-stu-id="6ace5-188">Select **Source** if you want to use the same main account defined in the **Source** account.</span></span> <span data-ttu-id="6ace5-189">如果选择**用户定义的**，则必须指定目标科目。</span><span class="sxs-lookup"><span data-stu-id="6ace5-189">If you select **User defined**, then you must specify a destination account.</span></span> 
 
