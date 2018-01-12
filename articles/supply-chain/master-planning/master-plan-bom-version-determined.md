@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, InventItemOrderSetup
+ms.search.form: BOMConsistOf, BOMDesigner, InventItemOrderSetup
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7e6745a52138e545b557fa1aa286cd49481b2ecd
+ms.sourcegitcommit: 737784bd9bd87a72227978cb61e99d2b317088af
+ms.openlocfilehash: 1670cd41d3c4c17fcc91556cd56d18cc112668ed
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 

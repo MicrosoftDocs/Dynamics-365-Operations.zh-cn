@@ -15,10 +15,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 00de566dcfbd3eb8c72816f66599863fa6cd1a41
+ms.sourcegitcommit: 04809337167741c30677844adad8addeaba303bc
+ms.openlocfilehash: e55c4f6fb2168ec1a308c49545f372872610aff0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 # <a name="vendor-invoice-automation"></a><span data-ttu-id="d7c58-103">供应商发票自动化</span><span class="sxs-lookup"><span data-stu-id="d7c58-103">Vendor invoice automation</span></span>

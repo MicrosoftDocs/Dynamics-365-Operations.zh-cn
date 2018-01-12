@@ -3,7 +3,7 @@ title: "供应商发票日记帐和发票审核日记帐的默认对方科目"
 description: "本主题将帮助您决定应为发票日记帐分配的默认科目。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf7af869e44a60d07d66e83bfb55bd0cc7edfb91
+ms.sourcegitcommit: 8db36355f4ef05fb6c11b9eff2090df8d6ad03b4
+ms.openlocfilehash: 6b2a6adada476920d61162a268ee52fb44127731
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/12/2018
 
 ---
 
