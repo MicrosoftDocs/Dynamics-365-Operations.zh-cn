@@ -1,7 +1,7 @@
 ---
 title: "采购主页"
 description: "此主题提供了可用于采购的帮助主题和其他资源列表。"
-author: YuyuScheller
+author: mkirknel
 manager: AnnBe
 ms.date: 09/27/2017
 ms.topic: article
@@ -9,19 +9,19 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 50651
 ms.assetid: 17f06036-cac2-4c28-8dc6-1dff6b81a7cc
 ms.search.region: Global
-ms.author: yuyus
+ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 091b50c26cf596fc03e42f60fc662b8d1f25f06b
+ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
+ms.openlocfilehash: ed8d3673c51b16b73560bb6528697c5532c5f2f2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/15/2018
 
 ---
 
