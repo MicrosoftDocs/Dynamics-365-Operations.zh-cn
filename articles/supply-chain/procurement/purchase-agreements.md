@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AgreementClassification, AgreementLine, AgreementLinePrompt, PurchAgreement, PurchAgreementCreate, PurchAgreementGenerateReleaseOrder, PurchAgreementHistory, PurchAgreementInvoiceJournal
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 11634
 ms.assetid: 8ac20adf-7412-4929-be8c-aaedf23a76ad

@@ -1,7 +1,7 @@
 ---
 title: "订单输入截止时间"
 description: "本文提供有关订单条目截止时间的信息。 订单条目截止日期是确定客户订单是否被视作（并履行）在当前日期或第二天接收。"
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventOrderEntryDeadlineGroup, InventOrderEntryDeadlineParameters, InventOrderEntryDeadlineTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 7151
 ms.assetid: bbc4f9a2-df4b-4d92-9f18-25282a85541f

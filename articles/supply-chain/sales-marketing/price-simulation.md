@@ -1,7 +1,7 @@
 ---
 title: "价格模拟"
 description: "本文提供有关报价单价格模拟的信息。 价格模拟帮助您在确定特定价格前评估报价流程中将来销售价格扣除额的效果。"
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 12254
 ms.assetid: 92be7c85-73cf-4f77-833c-d37ce779a031

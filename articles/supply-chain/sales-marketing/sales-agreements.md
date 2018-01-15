@@ -1,7 +1,7 @@
 ---
 title: "销售协议"
 description: "此主题提供了有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。"
-author: YuyuScheller
+author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 9554
 ms.assetid: c5d55c8d-99f2-44f9-a897-5b0dee85fc81
