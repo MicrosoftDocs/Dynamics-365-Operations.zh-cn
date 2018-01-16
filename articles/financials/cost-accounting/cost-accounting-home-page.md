@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6b2346c635fd16fce99c2813856e0fc9b5b03a44
+ms.sourcegitcommit: 6f9c338216fe13a020c92f05ae113676c4fb09e7
+ms.openlocfilehash: 2b150a3d847e81bf758cf91f011583242c85f97d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/16/2018
 
 ---
 

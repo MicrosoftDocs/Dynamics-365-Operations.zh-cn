@@ -17,25 +17,26 @@
 ##### [购买 Finance and Operations（本地）](get-started/purchase-on-premises.md)
 
 ### [新增功能或更改的功能](get-started/whats-new-changed.md)
-#### [弃用的功能](../dev-itpro/migration-upgrade/deprecated-features.md)
+#### [已删除或弃用的功能](../dev-itpro/migration-upgrade/deprecated-features.md)
 #### [延迟发布的 AX 2012 功能](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [未在本地部署中实现的功能](get-started/features-not-implemented-on-prem.md)
-#### [生命周期策略](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [平台 Update 12（2017 年 11 月）](get-started/whats-new-platform-update-12.md)
-#### [平台 Update 11（2017 年 10 月）](get-started/whats-new-platform-update-11.md)
-#### [平台 Update 10（2017 年 8 月）](get-started/whats-new-platform-update-10.md)
-#### [Finance and Operations Enterprise edition（2017 年 7 月）](get-started/whats-new-application-July-2017-update.md)
-#### [平台 Update 9（2017 年 7 月）](get-started/whats-new-platform-update-9.md)
-#### [平台 Update 8（2017 年 6 月）](get-started/whats-new-platform-update-8.md)
-#### [平台 Update 7（2017 年 5 月）](get-started/whats-new-platform-update-7.md)
-#### [平台 Update 6（2017 年 4 月）](get-started/whats-new-platform-update-6.md)
-#### [平台 Update 5（2017 年 3 月）](get-started/whats-new-platform-update-5.md)
-#### [平台 Update 4（2017 年 2 月）](get-started/whats-new-platform-update-4.md)
+#### [版本和生命周期策略](../dev-itpro/migration-upgrade/versions-update-policy.md)
+#### [Finance and Operations，Enterprise 版本 7.3](get-started/whats-new-application-7.3-update.md)
+#### [Platform 更新 12（2017 年 11 月）](get-started/whats-new-platform-update-12.md)
+#### [Platform 更新 11（2017 年 10 月）](get-started/whats-new-platform-update-11.md)
+#### [Platform 更新 10（2017 年 8 月）](get-started/whats-new-platform-update-10.md)
+#### [Finance and Operations Enterprise 版本（2017 年 7 月）](get-started/whats-new-application-July-2017-update.md)
+#### [Platform 更新 9（2017 年 7 月）](get-started/whats-new-platform-update-9.md)
+#### [Platform 更新 8（2017 年 6 月）](get-started/whats-new-platform-update-8.md)
+#### [Platform 更新 7（2017 年 5 月）](get-started/whats-new-platform-update-7.md)
+#### [Platform 更新 6（2017 年 4 月）](get-started/whats-new-platform-update-6.md)
+#### [Platform 更新 5（2017 年 3 月）](get-started/whats-new-platform-update-5.md)
+#### [Platform 更新 4（2017 年 2 月）](get-started/whats-new-platform-update-4.md)
 #### [Operations 版本 1611（2016 年 11 月）](get-started/whats-new-dynamics-365-operations-1611.md)
-#### [平台 Update 3（2016 年 11 月）](get-started/whats-new-platform-update-3.md)
-#### [平台 Update 2（2016 年 8 月）](get-started/whats-new-platform-update-2.md) 
+#### [Platform 更新 3（2016 年 11 月）](get-started/whats-new-platform-update-3.md)
+#### [Platform 更新 2（2016 年 8 月）](get-started/whats-new-platform-update-2.md) 
 #### [Dynamics AX 应用程序 7.0.1 版（2016 年 5 月）](get-started/whats-new-changed-application-version-7-0-1-may-2016.md)
-#### [平台 Update 1（2016 年 5 月）](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
+#### [Platform 更新 1（2016 年 5 月）](get-started/whats-new-changed-platform-version-7-1-may-2016.md)
 #### [Dynamics AX 7.0（2016 年 2 月）](get-started/whats-new-changed-7-0-february-2016.md)
 #### 更新的任务指南
 ##### [2016 年 11 月任务指南](get-started/new-task-guides-november-2016.md)
@@ -141,7 +142,7 @@
 #### [数据管理包 API](../dev-itpro/data-entities/data-management-api.md)
 #### [服务终结点](../dev-itpro/data-entities/services-home-page.md)
 ##### [服务身份验证故障排除](../dev-itpro/data-entities/troubleshoot-service-authentication.md)
-#### [OData](../dev-itpro//data-entities/odata.md)
+#### [OData](../dev-itpro/data-entities/odata.md)
 #### [自定义服务](../dev-itpro/data-entities/custom-services.md)
 #### [定期集成](../dev-itpro/data-entities/recurring-integrations.md)
 
@@ -179,9 +180,10 @@
 ### [数据实体](../dev-itpro/data-entities/data-entities.md)
 
 #### [配置数据项目](../dev-itpro/data-entities/configuration-data-projects.md)
-#### [配置数据包](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [在公司间复制配置数据](../dev-itpro/data-entities/copy-configuration.md)
+##### [配置数据包（仅限 2017 年 7 月版本）](../dev-itpro/data-entities/configuration-data-packages.md)
 #### [配置数据模板](../dev-itpro/data-entities/configuration-data-templates.md)
+
 #### [跟踪实体更改](../dev-itpro/data-entities/entity-change-track.md)
 
 ### 标准数据实体
@@ -644,8 +646,13 @@
 ##### [设置中国式凭证](../financials/localizations/tasks/set-up-chinese-vouchers.md)
 ##### [设置固定资产折旧分摊](../financials/localizations/tasks/fixed-asset-depreciation-allocation.md)
 ##### [设置负借记和贷记](../financials/localizations/apac-chn-negative-debits-credits.md)
-##### [按中国工作规则分类用户操作日志](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
+##### [符合中国工作规则的用户操作日志](../financials/localizations/tasks/user-operation-log-china-working-rule.md)
 ##### [增值税客户发票常见问题](../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
+
+#### 印度
+##### [税引擎概览](../financials/general-ledger/tax-engine.md)
+##### [税引擎集成](../financials/general-ledger/tax-engine-integration.md)
+##### [扩展税引擎](../financials/general-ledger/extend-tax-engine-configurations.md)
 
 #### 日本
 ##### [购置固定资产并要求政府授予补贴](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -1214,7 +1221,8 @@
 #### [劳动力指标](../dev-itpro/analytics/workforce-analysis-power-bi-content-pack.md)
 
 ### 文档报告和打印
-#### [文档报告服务概览](../dev-itpro/analytics/document-reporting-services.md)
+#### [Document Reporting Services 概览](../dev-itpro/analytics/document-reporting-services.md)
+#### [在本地环境中安装网络打印机设备](../dev-itpro/analytics/install-network-printer-onprem.md)
 #### [为本地部署配置 SSRS](../dev-itpro/analytics/configure-ssrs-on-premises.md)
 #### [打印](../dev-itpro/analytics/print-documents.md)
 ##### [安装文档路线选择代理以启用网络打印机设备](../dev-itpro/analytics/install-document-routing-agent.md)
@@ -1284,35 +1292,33 @@
 ##### [针对电子申报创建要从外部文件导入数据所需的配置](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md)
 ##### [针对电子申报选择数据模型定义，同时创建格式](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md)
 ##### [针对电子申报通过采用您的格式的新基本版本来升级该格式](../dev-itpro/analytics/tasks/er-upgrade-format.md)
-##### [针对电子申报将配置上传到 Lifecycle Services 中](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [将配置上传到 Lifecycle Services 中用于电子申报](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md)
+##### [针对应用程序更新 7.3 的电子申报框架 API 更改](../dev-itpro/analytics/er-apis-app73.md)
 
-### 分析工具和可视化效果
+### 嵌入的分析解决方案
+#### [工作区中的嵌入 Power BI](../dev-itpro/analytics/embed-power-bi-workspaces.md)
+#### [Power BI Embedded 集成](../dev-itpro/analytics/power-bi-embedded-integration.md)
+
+### PowerBI.com 的个性化选项
+#### [Power BI 集成](../dev-itpro/analytics/power-bi-integration.md)
+#### [将 Power BI 报表固定到工作区](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### 用于创建和扩展解决方案的工具
 #### [分析、聚合度量和 KPI 建模](../dev-itpro/analytics/analytics.md)
+#### [通过使用 Power BI Desktop 创作分析报告](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
 #### [建模和聚合数据](../dev-itpro/analytics/model-aggregate-data.md)
 #### [向聚合度量添加财务维度](../dev-itpro/analytics/add-financial-dimensions-aggregate-measurements.md)
-#### [将上下文 BI 添加到窗体](../dev-itpro/analytics/add-contextual-bi-forms.md)
-#### [聚合度量报表](../dev-itpro/analytics/aggregate-measurements-report.md)
-#### [聚合数据实体报表](../dev-itpro/analytics/aggregate-data-entities-report.md)
-#### [关键绩效指标 (KPI.md) 报表](../dev-itpro/analytics/key-performance-indicators-report.md)
-#### [Power BI 集成](../dev-itpro/analytics/power-bi-integration.md)
-#### [访问 Power BI 内容](../dev-itpro/analytics/power-bi-content-microsoft-partners.md)
-#### [创建 Power BI 报告和仪表板](../dev-itpro/analytics/create-powerbi-report-dashboard.md)
-#### [使用 Finance and Operations 数据创建 Power BI 报告](../dev-itpro/analytics/create-powerbi-report-data.md)
-#### [为工作区配置 Power BI 集成](../dev-itpro/analytics/configure-power-bi-integration.md)
-#### [Power BI Embedded 集成](../dev-itpro/analytics/power-bi-embedded-integration.md)
-#### [工作区中的嵌入 Power BI](../dev-itpro/analytics/embed-power-bi-workspaces.md)
 #### [使用 Power BI Embedded 将分析添加到工作区](../dev-itpro/analytics/add-analytics-tab-workspaces.md)
 #### [使用 Power BI Embedded 帮助保护分析工作区和报表](../dev-itpro/analytics/secure-analytical-workspaces.md)
-#### [将 Power BI 添加到工作区](../dev-itpro/analytics/add-bi-workspaces.md)
-#### [将 Power BI 报表固定到工作区](../dev-itpro/analytics/pin-power-bi-reports.md)
+
+### 超级用户管理工具
 #### [Power BI 与实体商店的集成](../dev-itpro/analytics/power-bi-integration-entity-store.md)
+#### [为工作区配置 Power BI 集成](../dev-itpro/analytics/configure-power-bi-integration.md)
 #### [提供您自己的数据库](../dev-itpro/analytics/export-entities-to-your-own-database.md)
-#### [通过使用 Power BI 桌面创作分析报告](../dev-itpro/analytics/author-distribute-power-bi-reports.md)
-#### [在 Power BI 上发布分析应用程序](../dev-itpro/analytics/publish-apps-powerbi.md)
 
 
 ## [库存管理](../supply-chain/inventory/inventory-home-page.md)
-### [到货概览](../supply-chain/inventory/arrival-overview.md)
+### [到达概览](../supply-chain/inventory/arrival-overview.md)
 ### [设置物料到达概览配置文件（任务指南）](../supply-chain/inventory/tasks/set-up-item-arrival-overview-profile.md)
 ### [质量管理流程](../supply-chain/inventory/quality-management-processes.md)
 ### [启用质量管理](../supply-chain/inventory/enable-quality-management.md)
@@ -1362,6 +1368,7 @@
 #### [生成受约束计划（任务指南）](../supply-chain/master-planning/tasks/constrained-plan.md)
 #### [创建联产品的物料计划（任务指南）](../supply-chain/master-planning/tasks/create-material-plan-co-products.md)
 #### [维护计划订单](../supply-chain/master-planning/maintain-planned-orders.md)
+#### [处理安全存货](../supply-chain/master-planning/safety-stock-replenishment.md)
 #### [处理延迟](../supply-chain/master-planning/delays.md)
 #### [跟踪分解](../supply-chain/master-planning/trace-explosion.md)
 #### [行动消息](../supply-chain/master-planning/action-messages.md)
@@ -1438,6 +1445,8 @@
 #### [设置和维护供应商协作](../supply-chain/procurement/set-up-maintain-vendor-collaboration.md)
 #### [管理供应商协作用户](../supply-chain/procurement/manage-vendor-collaboration-users.md)
 #### [设置供应商帐户](../supply-chain/procurement/set-up-vendor-accounts.md)
+#### [供应商请求配置](../supply-chain/procurement/vendor-request-configurations.md)
+#### [供应商入职](../supply-chain/procurement/vendor-onboarding.md)
 #### [供应商与外部供应商的协作](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [供应商与客户的协作](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
 #### [为电子采购发包设置外部目录](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
@@ -1550,7 +1559,9 @@
 #### 执行生产作业
 ##### [创建生产订单](../supply-chain/production-control/create-production-orders.md)
 ##### [下达生产订单](../supply-chain/production-control/release-production-orders.md)。
-##### [恢复生产订单状态](../supply-chain/production-control/reverse-production-order-status.md)
+##### [材料异常的可见性](../supply-chain/production-control/improved-visibility-into-material-exceptions.md)
+##### [将物料清单和配方行发放到仓库](../supply-chain/production-control/releasing-bom-and-formula-lines-to-warehouse.md)
+#####[恢复生产订单状态](../supply-chain/production-control/reverse-production-order-status.md)
 ##### [使用移动设备登记物料消耗量](../supply-chain/production-control/register-material-consumption-hand-held-device.md)
 ##### [使用耗用原则控制原材料消耗量](../supply-chain/production-control/flushing-principles.md) 
 ##### [从生产订单到出货台的越库配送](../supply-chain/production-control/cross-docking-opportunities.md)
@@ -1561,7 +1572,7 @@
 ##### [制造执行的登记](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [生产反馈](../supply-chain/production-control/production-feedback.md)
 ##### [考勤管理登记](../supply-chain/production-control/time-attendance-registrations.md)
-##### [考勤管理中的缺勤登记](..//supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [考勤管理中的缺勤登记](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 #### 管理生产中的财务
 ##### [将时间分配到作业捆绑中的作业](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [计算物料消耗量](../supply-chain/production-control/consumption.md)
@@ -1686,6 +1697,7 @@
 #### [创建基础产品（任务指南）](../supply-chain/pim/tasks/create-product-master.md)
 #### [创建预定义的产品变型（任务指南）](../supply-chain/pim/tasks/create-predefined-product-variants.md)
 #### [创建单个公司的已发布产品（任务指南）](../supply-chain/pim/tasks/create-released-product-single-company.md)
+#### [产品生命周期状态](../supply-chain/pim/product-lifecycle.md)
 #### [为产品创建条码（任务指南）](../supply-chain/pim/tasks/create-bar-code-product.md)
 #### [输入产品的 GTIN 代码（任务指南）](../supply-chain/pim/tasks/enter-gtin-code-product.md)
 #### [创建产品的批属性（任务指南）](../supply-chain/pim/tasks/create-batch-attributes-product.md)
@@ -1800,7 +1812,8 @@
 ### [设置物料的运输约束](../supply-chain/transportation/tasks/set-up-transportation-constraints-item.md)
 
 ## [仓库管理](../supply-chain/warehousing/warehouse-management-overview.md)
-### [仓库配置](../supply-chain/warehousing/warehouse-configuration.md) 
+### [仓库配置](../supply-chain/warehousing/warehouse-configuration.md)
+#### [使用仓库配置模板设置仓库](../supply-chain/inventory/warehouse-template.md)
 #### [使用工作模板和位置指令控制工作](../supply-chain/warehousing/control-warehouse-location-directives.md)
 #### [度量单位和库存策略](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [仓库 Power BI 内容](../dev-itpro/analytics/warehouse-power-bi-content.md)
