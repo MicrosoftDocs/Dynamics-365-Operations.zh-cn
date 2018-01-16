@@ -2,6 +2,7 @@
 # [云部署的系统要求](../fin-and-ops/get-started/system-requirements.md)
 # [本地部署的系统要求](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [演示数据](../fin-and-ops/get-started/demo-data.md)
+## [生成演示数据包](data-entities/generate-demo-data-packages.md)
 
 
 # [使用 Visual Studio 进行开发和自定义](dev-tools/developer-home-page.md)
@@ -28,7 +29,7 @@
 ### [导出和导入模型](dev-tools/models-export-import.md)
 ### [Visual Studio 中的元数据搜索](dev-tools/metadata-search-visual-studio.md)
 ### [模型](dev-tools/models.md)
-### [Dynamics 365 for Finance and Operations, Enterprise edition 中的项目](dev-tools/projects.md)
+### [Dynamics 365 for Finance and Operations, Enterprise 版本中的项目](dev-tools/projects.md)
 ### [Visual Studio Tools 加载项](dev-tools/developer-tools-add-ins.md)
 ### [关闭模型自定义和弃用功能](dev-tools/lock-models.md)
 ### [更新 Visual Studio 开发工具](dev-tools/update-development-tools.md)
@@ -160,8 +161,8 @@
 ### [构建导航](user-interface/build-navigation.md)
 ### [构建工作区](user-interface/build-workspace.md)
 ## 窗体
-### [Dynamics 365 for Finance and Operations, Enterprise edition 中的导航](user-interface/page-navigation.md)
-### [Dynamics 365 for Finance and Operations, Enterprise edition 中的布局](user-interface/page-layout.md)
+### [Dynamics 365 for Finance and Operations, Enterprise 版本中的导航](user-interface/page-navigation.md)
+### [Dynamics 365 for Finance and Operations, Enterprise 版本中的布局](user-interface/page-layout.md)
 ### [Symbol 字体](user-interface/symbol-font.md)
 ### [具有自定义模式的测试窗体](user-interface/testing-forms-custom-patterns.md)
 ### [创建并使用深层链接](user-interface/create-deep-links.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [客户服务](data-entities/custom-services.md)
 ### [定期集成](data-entities/recurring-integrations.md)
+### [使用第三方服务测试带有服务的实用程序](data-entities/third-party-service-test.md)
 
 ## 集成开发
 ### [使用数据实体进行数据集成](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [配置数据包](data-entities/configuration-data-packages.md)
 ### [复制公司间的配置数据](data-entities/copy-configuration.md)
 ### [配置数据模板](data-entities/configuration-data-templates.md)
+### [带有多个工作表的数据模板](data-entities/excel-template-multiple.md)
 ### [跟踪实体更改](data-entities/entity-change-track.md)
 
 ## 标准数据实体
@@ -497,17 +500,20 @@
 
 ## 云部署
 ### [Azure Resource Manager 使用培训](deployment/arm-onboarding.md)
-### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations，Enterprise 版本](deployment/expressroute.md)
 
 ## [本地部署](deployment/on-premises-deployment-landing-page.md)
 ### [本地概览](deployment/on-premises-overview.md)
+### [规划本地部署](deployment/plan-onprem-deployment.md)
 ### [硬件规模调整](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [创建本地项目](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [设置并部署本地环境](deployment/setup-deploy-on-premises-environments.md)
 ### [开发自定义模型并将其部署到本地环境](deployment/develop-deploy-custom-models-on-premises.md)
-### [将更新为本地部署](deployment/apply-updates-on-premises.md)
+### [将更新应用于本地部署](deployment/apply-updates-on-premises.md)
 ### [重新部署本地部署](deployment/redeploy-on-prem.md)
-### [Dynamics 365 for Finance and Operations, Enterprise edition（本地）故障排除](deployment/troubleshoot-on-prem.md)
+### [更新本地代理](lifecycle-services/update-local-agent.md)
+### [重新配置您的环境](lifecycle-services/reconfigure-environment.md)
+### [Dynamics 365 for Finance and Operations，Enterprise 版本本地故障排除](deployment/troubleshoot-on-prem.md)
 
 ## 部署自定义代码
 ### [创建可部署包](deployment/create-apply-deployable-package.md)
@@ -695,10 +701,10 @@
 ## [请求沙盒数据库刷新](database/database-refresh.md)
 
 # 支持
-## [获取对 Dynamics 365 for Finance and Operations, Enterprise edition 和 Lifecycle Services 的支持](lifecycle-services/lcs-support.md)
+## [获取对 Dynamics 365 for Finance and Operations, Enterprise 版本和 Lifecycle Services 的支持](lifecycle-services/lcs-support.md)
 ## [记录顶级支持票证](lifecycle-services/premier-support.md)
 ## [将请求提交给 Dynamics Service 工程团队](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [设置对 Dynamics 365 for Finance and Operations, Enterprise edition 的技术支持](lifecycle-services/support-experience.md) 
+## [设置对 Dynamics 365 for Finance and Operations, Enterprise 版本的技术支持](lifecycle-services/support-experience.md) 
 ## [计划的维护时段常见问题](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [云操作和服务](lifecycle-services/cloud-operations-servicing.md)
 ## [管理 Finance and Operations 支持体验](lifecycle-services/cloud-powered-support-lcs.md)

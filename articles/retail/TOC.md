@@ -43,7 +43,8 @@
 ## [配置并安装零售硬件工作站](retail-hardware-station-configuration-installation.md)
 ## [Retail 考勤管理](retail-time-attendance.md)
 
-# Modern 销售点 (MPOS) 和 Cloud POS
+# Modern Point of Sale (MPOS) 和 Cloud POS
+## [在 Modern POS 和 Cloud POS 之间选择](MPOS-or-CPOS.md)
 ## [POS 操作](POS-operations.md)
 ## [MPOS/CPOS 中的演示数据屏幕布局](demo-data.md)
 ## 硬件外围设备
@@ -76,6 +77,11 @@
 ### [设置收据模板](receipt-templates-printing.md) 
 ### [从 MPOS 发送电子邮件收据](email-receipts.md)
 ## [POS 的任务录制器和帮助](task-recorder-retail-pos.md)
+
+# 订单履行状况
+## [商店订单履行情况概览](Order-fulfillment-overview.md)
+## [在商店中设置履行状况](Order-fulfillment-POS-setup.md)
+## [启用销售点中的通知](Notifications-POS.md)
 
 # 监控和分析
 ## [监控销售和利润率](monitor-sales-margin-performance.md)
@@ -171,7 +177,7 @@
 # [零售开发和管理](dev-itpro/dev-retail-home-page.md)
 
 ## 体系结构
-### [Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 的组件 - 零售](retail-components.md)
+### [Microsoft Dynamics 365 for Finance and Operations, Enterprise 版本的组件 - 零售](retail-components.md)
 ### [零售服务器体系结构](dev-itpro/retail-server-architecture.md)
 ### [零售渠道通信](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS 体系结构](dev-itpro/retail-modern-pos-architecture.md)
@@ -258,8 +264,10 @@
 ### [将自定义控件添加到 Retail Modern POS 交易记录页](dev-itpro/pos-custom-transaction.md)
 ### [将自定义列添加到 POS 交易记录网格](dev-itpro/pos-custom-transaction-column.md)
 ### [调用 POS API 或 POS 扩展中的操作](dev-itpro/pos-api-extension.md)
-### [扩展 POS 视图，以添加自定义列和应用程序栏按钮](dev-itpro/pos-view-extension.md)
 ### [Retail Modern POS 触发器和打印](dev-itpro/pos-trigger-printing.md)
+### [向 Retail Modern POS 基于设计器的非屏幕视图中添加自定义控件](dev-itpro/pos-control-non-screen.md)
+### [为 POS 和电子商务生成 Retail 代理](dev-itpro/pos-generate-retail-proxy.md)
+### [适用于 Retail 开发人员在云托管开发框中实施的配置步骤](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime
 ### [会员扩展](dev-itpro/retail-sdk/loyalty-extension-sample.md)
