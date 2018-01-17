@@ -1,6 +1,6 @@
 ---
 title: "智能"
-description: "此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations, Enterprise 版本中提供的商业智能和报告工具的详细信息。"
+description: "此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中提供的商业智能和报告工具的详细信息。"
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
@@ -29,7 +29,7 @@ ms.lasthandoff: 12/18/2017
 
 [!include[banner](../includes/banner.md)]
 
-此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations, Enterprise 版本中提供的商业智能 (BI) 和报告工具的详细信息。
+此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中提供的商业智能 (BI) 和报告工具的详细信息。
 
 ## <a name="get-started"></a>开始
 - [信息访问和报告](information-access-reporting.md)

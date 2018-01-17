@@ -177,7 +177,7 @@
 # [零售开发和管理](dev-itpro/dev-retail-home-page.md)
 
 ## 体系结构
-### [Microsoft Dynamics 365 for Finance and Operations, Enterprise 版本的组件 - 零售](retail-components.md)
+### [Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 的组件 - 零售](retail-components.md)
 ### [零售服务器体系结构](dev-itpro/retail-server-architecture.md)
 ### [零售渠道通信](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS 体系结构](dev-itpro/retail-modern-pos-architecture.md)
