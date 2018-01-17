@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerConsolidateAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 263bfe858f2ca5f7fe2f7426565938899d98130f
-ms.openlocfilehash: 2f4e2ab49e23136d5c367c31283d055e5ce9da5b
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 39cde4f7f5450a8951eecdbb853a27514f975a47
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

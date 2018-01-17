@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c017d7719ac6af43b0c8a162080bb753587df030
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 6fbe5ce18d538b6301f047272406aba1ed05c984
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a><span data-ttu-id="ee8c1-103">维护产品配置模型的物料清单</span><span class="sxs-lookup"><span data-stu-id="ee8c1-103">Maintain BOM for a product configuration model</span></span>

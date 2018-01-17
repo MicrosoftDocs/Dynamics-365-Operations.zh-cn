@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 263bfe858f2ca5f7fe2f7426565938899d98130f
-ms.openlocfilehash: 1c20c3f5453c032257e33e4c26d2a08b0ec4dcf1
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 6c03f112fba2f6d9b0b8990240bb289274602ea0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

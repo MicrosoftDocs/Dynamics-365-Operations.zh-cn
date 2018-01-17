@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: db79d594e67a0e163cabbd3a5f7b7b1452c2ae9e
-ms.openlocfilehash: a395f29aa8a1ed58f4d8681c4d874ee8b8b0a860
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

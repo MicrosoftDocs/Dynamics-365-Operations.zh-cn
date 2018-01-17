@@ -15,13 +15,13 @@ ms.custom: 267074
 ms.assetid: 1d293b3a-2fa2-418d-9347-78c2809d67fe
 ms.search.region: global
 ms.author: mkirknel
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 6028f6007cf2fd3f21c2e6cf3f5fac85c6e0da0a
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: c2f19e5b5570f608cab60a6c4789a10b11c0aa73
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

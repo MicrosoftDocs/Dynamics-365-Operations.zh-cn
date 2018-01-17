@@ -14,13 +14,12 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
-ms.dyn365.ops.intro: Platform update 8
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: bf2c6c9be05f2b1f941d99c90a681cb9951de875
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

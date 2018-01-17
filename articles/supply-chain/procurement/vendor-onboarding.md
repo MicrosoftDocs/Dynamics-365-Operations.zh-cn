@@ -13,12 +13,12 @@ ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: AX 7.3
+ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 4804fc1a52371284ab69d1490454bebd5e91fcd9
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 4a0a1e66cb778c0880315bf1b053af8f93bdd75d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

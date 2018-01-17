@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustBillOfExchangeJour
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
-ms.openlocfilehash: d5545e2eb9f8e54cb4e9f79085aa6fad1b31d56e
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 9b051c9a32a026af0680314f6821c251ada51d40
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

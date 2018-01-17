@@ -11,16 +11,16 @@ ms.technology:
 audience: Application User
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi2
+ms.author: saraschi
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 13d7478197c05211eda30f28b483ec68858ad464
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 949bb5e13057d109c9f69c63e51f5d9a59dc4723
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

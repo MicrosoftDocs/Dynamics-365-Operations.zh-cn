@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 88402bef6fd5dad38a74795cd31a4046085d6db7
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: b4cddb3427e3e94d9db9a095a8e8c60bdeb9cc95
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="8e1ae-103">为可配置产品设置基于属性的定价</span><span class="sxs-lookup"><span data-stu-id="8e1ae-103">Set up attribute-based pricing for configurable products</span></span>

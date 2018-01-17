@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
-ms.openlocfilehash: d494a20ba6f1f9c33a3935779b4bd3a8eefce26a
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 409179f5e02c0854835251504063b2bc1d8e41b4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="create-a-product-configuration-model"></a><span data-ttu-id="4b20f-103">创建产品配置模型</span><span class="sxs-lookup"><span data-stu-id="4b20f-103">Create a product configuration model</span></span>

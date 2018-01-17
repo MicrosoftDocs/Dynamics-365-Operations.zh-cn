@@ -15,13 +15,13 @@ ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: sericks
-ms.dyn365.ops.intro: Platform update 4
+ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: c064aa3bc799c846af80d02550451e58ad6bf9f4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

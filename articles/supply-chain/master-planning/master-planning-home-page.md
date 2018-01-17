@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: roxanadiaconu
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8db36355f4ef05fb6c11b9eff2090df8d6ad03b4
-ms.openlocfilehash: f82e0c82e6287f15415534377fd12e1645d637eb
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 30c3f9a142b062cd6810387b42995907763ad17c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
-ms.openlocfilehash: 78de3117c530cc08e01c85b8f87903b8f4e273fd
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: e7136c2e13b0e4fd3315e91f281174bdd8a45cb0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

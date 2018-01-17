@@ -17,13 +17,13 @@ ms.assetid: 527f6084-44fe-41bb-924f-4386e926358a
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: crytt
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b2ecf2d5b14dac28a26fe172807ae2931cb4c3ca
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 4d59db5a8909cca2ee958a928345e57f4c2abaa2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

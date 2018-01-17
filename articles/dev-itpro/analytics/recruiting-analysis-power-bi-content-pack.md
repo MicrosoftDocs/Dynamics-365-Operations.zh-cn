@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: db79d594e67a0e163cabbd3a5f7b7b1452c2ae9e
-ms.openlocfilehash: 3f672053966858c106b398bd339b2364012e91fc
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: ee82e3c8cabde0a1bfb3a89308fdc020feacc4c6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

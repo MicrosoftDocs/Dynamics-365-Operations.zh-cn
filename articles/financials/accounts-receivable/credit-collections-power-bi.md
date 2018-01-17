@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -16,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 04809337167741c30677844adad8addeaba303bc
-ms.openlocfilehash: e9359b9fb6a54be0a9fc983c52a23548ef9d6351
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 34a63c4690105c66a7f3d8b7bc591193bed6136c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

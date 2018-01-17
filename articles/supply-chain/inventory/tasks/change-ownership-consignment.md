@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5925f5423d596adc4326dfff4734de2afd80b5a8
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f02e37a21e2417d46c5ad990e165c2eff5a70811
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="9aaf6-103">根据生产需求更改托运库存的所有权</span><span class="sxs-lookup"><span data-stu-id="9aaf6-103">Change the ownership of consignment inventory based on production demand</span></span>

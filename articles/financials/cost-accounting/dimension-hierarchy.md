@@ -16,14 +16,14 @@ ms.custom:
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: YuyuScheller
+ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: d55e9a520b1f895d130f24834626429e19b4b939
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -255,10 +255,10 @@ ms.lasthandoff: 11/03/2017
 |---------------------------------------|--------------------------------------|------------------|--------------|------------|----------|
 | <span data-ttu-id="4141a-340">固定成本</span><span class="sxs-lookup"><span data-stu-id="4141a-340">Fixed cost</span></span>                            | <span data-ttu-id="4141a-341">组织</span><span class="sxs-lookup"><span data-stu-id="4141a-341">Organization</span></span>                         | <span data-ttu-id="4141a-342">100.00</span><span class="sxs-lookup"><span data-stu-id="4141a-342">100.00</span></span>           | <span data-ttu-id="4141a-343">0.00</span><span class="sxs-lookup"><span data-stu-id="4141a-343">0.00</span></span>         | <span data-ttu-id="4141a-344">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4141a-344">1/1/2017</span></span>   | <span data-ttu-id="4141a-345">从不</span><span class="sxs-lookup"><span data-stu-id="4141a-345">Never</span></span>    |
 | <span data-ttu-id="4141a-346">10001</span><span class="sxs-lookup"><span data-stu-id="4141a-346">10001</span></span>                                 | <span data-ttu-id="4141a-347">组织</span><span class="sxs-lookup"><span data-stu-id="4141a-347">Organization</span></span>                         | <span data-ttu-id="4141a-348">0.00</span><span class="sxs-lookup"><span data-stu-id="4141a-348">0.00</span></span>             | <span data-ttu-id="4141a-349">150.00</span><span class="sxs-lookup"><span data-stu-id="4141a-349">150.00</span></span>       | <span data-ttu-id="4141a-350">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4141a-350">1/1/2017</span></span>   | <span data-ttu-id="4141a-351">从不</span><span class="sxs-lookup"><span data-stu-id="4141a-351">Never</span></span>    |
-| <span data-ttu-id="4141a-352">10001（“\*”）</span><span class="sxs-lookup"><span data-stu-id="4141a-352">10001 (\*)</span></span>                             | <span data-ttu-id="4141a-353">财务</span><span class="sxs-lookup"><span data-stu-id="4141a-353">Finance</span></span>                              |                  | <span data-ttu-id="4141a-354">50.00</span><span class="sxs-lookup"><span data-stu-id="4141a-354">50.00</span></span>        | <span data-ttu-id="4141a-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4141a-355">1/1/2017</span></span>   | <span data-ttu-id="4141a-356">从不</span><span class="sxs-lookup"><span data-stu-id="4141a-356">Never</span></span>    |
+| <span data-ttu-id="4141a-352">10001（“\\*”）</span><span class="sxs-lookup"><span data-stu-id="4141a-352">10001 (\\*)</span></span>                             | <span data-ttu-id="4141a-353">财务</span><span class="sxs-lookup"><span data-stu-id="4141a-353">Finance</span></span>                              |                  | <span data-ttu-id="4141a-354">50.00</span><span class="sxs-lookup"><span data-stu-id="4141a-354">50.00</span></span>        | <span data-ttu-id="4141a-355">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4141a-355">1/1/2017</span></span>   | <span data-ttu-id="4141a-356">从不</span><span class="sxs-lookup"><span data-stu-id="4141a-356">Never</span></span>    |
 | <span data-ttu-id="4141a-357">成本行为或可变成本 (\*\*)</span><span class="sxs-lookup"><span data-stu-id="4141a-357">Cost behavior or Variable cost (\*\*)</span></span>   | <span data-ttu-id="4141a-358">组织</span><span class="sxs-lookup"><span data-stu-id="4141a-358">Organization</span></span>                         | <span data-ttu-id="4141a-359">0.00</span><span class="sxs-lookup"><span data-stu-id="4141a-359">0.00</span></span>             | <span data-ttu-id="4141a-360">0.00</span><span class="sxs-lookup"><span data-stu-id="4141a-360">0.00</span></span>         | <span data-ttu-id="4141a-361">1/1/2017</span><span class="sxs-lookup"><span data-stu-id="4141a-361">1/1/2017</span></span>   | <span data-ttu-id="4141a-362">从不</span><span class="sxs-lookup"><span data-stu-id="4141a-362">Never</span></span>    |
 
-<span data-ttu-id="4141a-363">\* 不要求可变成本节点。</span><span class="sxs-lookup"><span data-stu-id="4141a-363">\* The variable cost node isn't required.</span></span> <span data-ttu-id="4141a-364">如果成本未分类为固定成本，则它必须是可变成本。</span><span class="sxs-lookup"><span data-stu-id="4141a-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
+<span data-ttu-id="4141a-363">\\* 不要求可变成本节点。</span><span class="sxs-lookup"><span data-stu-id="4141a-363">\\* The variable cost node isn't required.</span></span> <span data-ttu-id="4141a-364">如果成本未分类为固定成本，则它必须是可变成本。</span><span class="sxs-lookup"><span data-stu-id="4141a-364">If a cost isn't classified as a fixed cost, it must be a variable cost.</span></span>
 
 <span data-ttu-id="4141a-365">\*\* 为成本元素成员 10001 和在财务层次结构级别下合并的所有成本对象成员（CC002、CC003、CC007）的组合创建详细规则。</span><span class="sxs-lookup"><span data-stu-id="4141a-365">\*\* A detailed rule is created for the combination of cost element member 10001 and all cost object members that are aggregated under the Finance hierarchy level (CC002, CC003, CC007).</span></span>
 

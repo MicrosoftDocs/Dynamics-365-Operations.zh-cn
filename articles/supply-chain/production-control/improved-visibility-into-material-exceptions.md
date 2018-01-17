@@ -14,13 +14,13 @@ ms.search.scope: AX 7.3.0, Operations, UnifiedOperations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2018-03-28
-ms.dyn365.ops.version: AX 7.3.0
+ms.search.validfrom: 2017-12-31
+ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 18c8b5d1d3e83259cf5dafd08bfc779161a4c916
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 29c5cf9af6b678bacb7ba6ad5dbba41acf191da6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="visibility-into-material-exceptions"></a><span data-ttu-id="81301-103">物料异常的可见性</span><span class="sxs-lookup"><span data-stu-id="81301-103">Visibility into material exceptions</span></span>

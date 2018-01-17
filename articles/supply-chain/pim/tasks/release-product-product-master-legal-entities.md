@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: josaw1
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 879459495e393ae19f660020ae817d6bc895426e
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 8f3a1ae27bd1569d7a8fb9fe4ea609d43bc57298
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a><span data-ttu-id="d5346-103">向法人发布产品/基础产品</span><span class="sxs-lookup"><span data-stu-id="d5346-103">Release a product/product master to legal entities</span></span>

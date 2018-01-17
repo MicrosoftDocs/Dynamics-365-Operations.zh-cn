@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4bb4af7cb7aff101a8b9e6162823515f63b12886
-ms.openlocfilehash: 9b5b05a3c00f093066a2714964bb99146427c3bc
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 5f8499f53c785170fa1ec13b0a34a306ac6c45b5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="set-up-prerequisites-for-management"></a><span data-ttu-id="fd9d6-103">设置管理的先决条件</span><span class="sxs-lookup"><span data-stu-id="fd9d6-103">Set up prerequisites for management</span></span>

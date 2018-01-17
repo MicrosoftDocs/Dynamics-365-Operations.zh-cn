@@ -17,13 +17,13 @@ ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 936e54c0ef1de449afda2392cd1fbb304eed631b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

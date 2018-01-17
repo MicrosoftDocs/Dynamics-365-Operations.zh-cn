@@ -13,14 +13,14 @@ ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
-ms.author: johanhoffmann
+ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 477724e6211a084638e8a0b7133f60edef07b3ad
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 573519038e6358601e9a67dbcd81c3dc2051dd29
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

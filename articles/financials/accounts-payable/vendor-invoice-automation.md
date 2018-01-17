@@ -8,17 +8,19 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: twheeloc
+ms.search.scope: Operations, Core
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 04809337167741c30677844adad8addeaba303bc
-ms.openlocfilehash: e55c4f6fb2168ec1a308c49545f372872610aff0
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 517396df439b01cb55ee34bbfe167c27df229288
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="vendor-invoice-automation"></a><span data-ttu-id="d7c58-103">供应商发票自动化</span><span class="sxs-lookup"><span data-stu-id="d7c58-103">Vendor invoice automation</span></span>

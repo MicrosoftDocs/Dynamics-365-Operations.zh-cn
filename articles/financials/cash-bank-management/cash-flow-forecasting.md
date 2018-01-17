@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerCovParameters
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: sarasch
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 263bfe858f2ca5f7fe2f7426565938899d98130f
-ms.openlocfilehash: 203f28c9c2d179e2173f65472b05019dc69af45a
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f1adc51f60f1f68c272a79ba8b4a208d8bb16a14
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 263bfe858f2ca5f7fe2f7426565938899d98130f
-ms.openlocfilehash: bdd9d24ed64f583394ab67e1deec84d1d776962f
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: d967818ae9694f964c2577c70bc56066277df180
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/11/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

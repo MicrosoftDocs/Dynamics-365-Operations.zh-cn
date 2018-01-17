@@ -17,13 +17,13 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: 
 ms.author: cvocph
-ms.dyn365.ops.intro: 7.3
+ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 33130a4061f22335aeeffa69c478b693604393a9
-ms.openlocfilehash: a57f306ba02c5758c39c4bd29d9a4fa0d7efbcd3
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: b5bb91c809c2130ea71adb80d637e8a5f51a6e93
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

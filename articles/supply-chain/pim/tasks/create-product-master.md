@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f944258e7efdd5c9eba7daf9a80c67058a6cc055
-ms.openlocfilehash: 6e5cf92f7736523faf25ac97278a8a273e14ff88
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: e67b0040a2f6cac23d0b51216278abb9b6eb0e8a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/25/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="create-a-product-master"></a><span data-ttu-id="252e0-103">创建基础产品</span><span class="sxs-lookup"><span data-stu-id="252e0-103">Create a product master</span></span>

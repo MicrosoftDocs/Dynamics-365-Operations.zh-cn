@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent, Core
@@ -16,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: db79d594e67a0e163cabbd3a5f7b7b1452c2ae9e
-ms.openlocfilehash: 876e740d66cbd731d15de1e632ff30e7029feb41
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 524d14ac9be33377f984e3cf3f98473452eabdf4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

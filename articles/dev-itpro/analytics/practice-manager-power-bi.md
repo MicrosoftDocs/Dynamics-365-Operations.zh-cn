@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: db79d594e67a0e163cabbd3a5f7b7b1452c2ae9e
-ms.openlocfilehash: b98101886113233514653e50051401dbbac09139
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 903eeac732f0c5dc3d94d609ee08988029e33f0c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/09/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

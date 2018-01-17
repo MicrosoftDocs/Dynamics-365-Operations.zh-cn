@@ -17,13 +17,13 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: 
 ms.author: crytt
-ms.dyn365.ops.intro: July 2017 update
+ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 674d2e1f2c5cdbccf43618a9083ca01abed0735a
-ms.openlocfilehash: 8a75c6dd91020ab3e676e2bb40d5c822731e244f
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 3d546dc180ec53ad0fac40fe134ed811af68658f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

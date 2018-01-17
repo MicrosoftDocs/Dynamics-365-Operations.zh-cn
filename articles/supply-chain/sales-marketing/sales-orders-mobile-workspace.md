@@ -16,13 +16,13 @@ ms.assetid: 0ce96511-002b-4de7-b31e-4303f94edc84
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: mirzaab
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 6a613d8b2ea1503b70efad7b14fb340faad0f62e
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 6b8b917a47998478f883060bcc88259cbaa6e1dd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

@@ -8,20 +8,21 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SysPolicyListPage
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi2
+ms.author: saraschi
 ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 63bf043124797b328116fd7951913eaeda6ff97b
-ms.openlocfilehash: e04fae56cf0ed988b267477ba1ed327e8e8f72c0
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: b0f9a5ca275944aeb27798a2f3377356319589c7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

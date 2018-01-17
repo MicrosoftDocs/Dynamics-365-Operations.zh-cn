@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d804480167414cd038f8229db312dc9c52d131f8
-ms.openlocfilehash: 3b4685b034f7e6a3af0259fb921230e7b3397754
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 5baea2a0f194012406d378effbc0ae5d4062fd65
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a><span data-ttu-id="b1262-103">初始化仓库中的库存级别</span><span class="sxs-lookup"><span data-stu-id="b1262-103">Initialize stock levels in the warehouse</span></span>

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendorInvoiceWorkspace, VendInvoiceInfoListPage
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 83d325b6511cb17156d3ef40d08cf09258d3f285
-ms.openlocfilehash: 90e30200d508b45da3891776aac6014840cc1ecf
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 3d02b2ee0ee748546158bce1094d2b343afef7c5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/10/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 

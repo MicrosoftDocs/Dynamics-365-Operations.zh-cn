@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProjTable
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 83d325b6511cb17156d3ef40d08cf09258d3f285
-ms.openlocfilehash: bdf020ac90856778a18a0a8b83f5cad395165e77
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 8495b08887bbdf5eff975c973d1be982c85ca459
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/10/2018
+ms.lasthandoff: 01/17/2018
 
 ---
 
