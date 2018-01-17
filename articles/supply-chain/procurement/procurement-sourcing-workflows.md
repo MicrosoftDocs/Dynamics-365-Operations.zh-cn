@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3bf244786e308ebcaee27a16fae378f41086f963
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -44,10 +44,11 @@ ms.lasthandoff: 11/03/2017
 |                                  |                                                               |
 |----------------------------------|---------------------------------------------------------------|
 | **类型**                         | **使用此类型可以**                                          |
-| 采购申请审核      | 针对采购申请创建检查工作流。            |
-| 采购申请行审查 | 针对采购申请行创建检查工作流。       |
+| 采购申请审核      | 为采购申请创建审核和批准工作流。            |
+| 采购申请行审查 | 为采购申请行创建审核和批准工作流。       |
 | 采购订单工作流          | 针对采购订单创建检查和审核工作流。     |
 | 采购订单行工作流     | 针对采购订单行创建检查和审核工作流。 |
+| 供应商添加申请工作流  | 为通过供应商请求添加新供应商创建审核和批准工作流。 |
 
 ## <a name="creating-a-workflow"></a>创建工作流
 若要创建工作流，请转到“采购”&gt;“设置”&gt;“采购”工作流，并通过选择您要创建的工作流类型创建新工作流。  
@@ -75,6 +76,6 @@ ms.lasthandoff: 11/03/2017
 
 [采购申请工作流](purchase-requisitions-workflow.md)
 
-
+[载入供应商](vendor-onboarding.md)
 
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: SysHelpSetup
 audience: Application User, IT Pro
-ms.reviewer: robinr
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 25391
 ms.assetid: 59bf39f8-1464-441e-8b23-9a856c73471b
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b744a895bbd494212c4c388362dd7290207af938
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: ed3f8260cace494170bf1d4db80c3bcb9a1a086e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
 
 > [!IMPORTANT]
-> 您无法为 Dynamics 365 for Talent 创建自定义任务指南。 Talent 的帮助系统自动连接至产品的任务指南。 
+> 您可以录制自己的 Dynamics 365 for Talent 任务指南，但暂时不能将其保存到业务流程建模器 (BPM) 库或从“帮助”窗格中打开它。 您可以将其保存到本地或网络位置，然后使用任务录制器打开并播放。 
 
 <a name="learn-about-task-recorder"></a>了解任务录制器
 -------------------------
@@ -42,7 +42,7 @@ ms.lasthandoff: 11/03/2017
 
 -   **任务录制可作为任务指南播放。** 任务指南是帮助体验的一个组成部分。 任务指南是通过业务流程执行的受控的、引导式、交互式的体验。 系统将通过弹出提示（或“气泡”）方式指示用户完成每个步骤，这将跨 UI 创建动画效果并指向用户应与之交互的 UI 元素。 “气泡”还提供了有关如何与元素进行交互的信息，如“单击此处”或“在此字段中，输入一个值”。 任务指南针对用户的当前数据集运行，而且输入的数据将保存在用户的环境中。
 -   **任务录制可作为操作步骤显示在“帮助”窗格中。** 您可以使用“帮助”窗格搜索和显示任务录制。 您可以通过单击顶部导航栏中的 **?** 图标访问“帮助”窗格， 也可以使用快捷键组合 **Ctrl+Shift+?**。 您可以阅读“帮助”窗格中的任务录制步骤，也可以选择以任务指南方式播放录制以便其指导您完成 UI。
--   **任务录制可保存到 BPM。** 您可以将任务录制保存到 Lifecycle Services (LCS) 中业务流程建模器 (BPM) 中的层次结构行。 将从录制中生成一个步骤列表和一个业务流程图表。 已保存到 BPM 库中的任务录制可显示为帮助。
+-   **任务录制可保存到 BPM。** 您可以将任务录制保存到 Lifecycle Services (LCS) 中 BPM 库中的层次结构行。 将从录制中生成一个步骤列表和一个业务流程图表。 已保存到 BPM 库中的任务录制可显示为帮助。
 -   **任务录制可另存为 Word 文档。** 这将允许您轻松地生成可打印的培训指南。
 
 您可以创建自己的任务录制、播放 Microsoft 提供的任务录制或修改 Microsoft 提供的任务录制以反映您的配置。 有关任务录制器的详细信息，请参阅 [任务录制器](task-recorder.md)。

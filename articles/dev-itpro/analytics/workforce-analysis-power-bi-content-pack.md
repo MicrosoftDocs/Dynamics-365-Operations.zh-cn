@@ -3,7 +3,7 @@ title: "劳动力指标 Power BI 内容"
 description: "此主题描述劳动力指标 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: ade42c932b764b8cf5540bddd099e57901637f35
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 8ff4eb80eeb47a72fc1ac91ddc4bdfccebc4c0c6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -58,11 +58,6 @@ ms.lasthandoff: 12/01/2017
 
 可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
 
-## <a name="extending-the-power-bi-content"></a>扩展 Power BI 内容
-使用在 Microsoft Dynamics Lifecycle Services (LCS) 中可用的内容包可以对未登录到 Finance and Operations 的人员提供出色的分析。 您可以修改这些内容包，使它们包含其他报表或视觉对象，然后将内容包发布到您的 Power BI.com 租户进行分析。
-
-可在 LCS 中的共享资产库内找到**劳动力指标** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。
-
 请确保下载适用于您使用的 Microsoft Dynamics 365 版本的**劳动力指标** Power BI 内容。
 
 >[!NOTE]
@@ -93,5 +88,5 @@ ms.lasthandoff: 12/01/2017
 | 大批雇用项目        | 大批雇用项目数量，项目所有者和项目状态                     | 公司，大批雇用行 |
 | 大批雇用行           | 部门，雇用类型和职位                                           | 日期，作业，大批雇用项目 |
 
-这些实体用于在数据模型中创建计算度量值。 这些计算的度量值之后用于计算在 Power BI 内容中使用的关键绩效指标 (KPI) 和报表。 如果要在报表和仪表板中包含更多计算，可以从 LCS 下载 .pbix 文件并修改。 此文件是用于创建 Power BI 内容的默认数据模型。 修改后，可以创建包含您已添加的信息的组织内容包和仪表板。
+
 

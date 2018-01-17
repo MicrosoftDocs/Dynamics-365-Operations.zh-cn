@@ -3,7 +3,7 @@ title: "键盘快捷方式"
 description: "以下键盘快捷方式在整个 Dynamics 365 for Finance and Operations Enterprise Edition 中都适用。"
 author: jasongre
 manager: AnnBe
-ms.date: 10/10/2017
+ms.date: 12/12/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 8e87721af34e1527d1d8eb254f0443e37d137730
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 8bf0f44583d183d992547c773f2cf7a8ac1db5fc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/20/2017
 
 **注意：**此处描述的键盘快捷方式是指美式键盘布局。 其他键盘布局中的键可能不能与美式键盘上的键完全对应。
 
-## <a name="finding-a-shorcut"></a>查找快捷方式
+## <a name="finding-a-shortcut"></a>查找快捷方式
 从平台更新 11 开始，用户可以直接从用户界面发现当前可用的快捷方式。 只需右键单击控件并选择**查看快捷方式**。 这将基于您在页面上的位置打开显示您可以使用的快捷方式的对话框。 
 
 
@@ -143,6 +143,9 @@ ms.lasthandoff: 11/20/2017
 | 移至第一个记录                                                                                               | Ctrl+Home                       |
 | 移至最后一条记录                                                                                                | Ctrl+End                        |
 | 在网格中执行默认操作<br><br>**注意：**当焦点放在含有超链接的单元格上且该列中的所有单元格都具有超链接时，启用此快捷方式。                 | Enter                           |
+| 在所选行和标题行之间切换焦点                                                               | Alt+Shift+H                     |
+| 放大/缩小当前列（焦点放在标题行中）                                                  | 右箭头/左箭头        |
+| 打开当前列的网格筛选（焦点放在标题行中）                                              | Enter                           |
 
 ## <a name="input-control-shortcuts"></a>输入控制快捷方式
 |                                                                              |                               |

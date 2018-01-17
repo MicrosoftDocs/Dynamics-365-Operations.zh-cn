@@ -19,10 +19,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a527136f77b65ef5a43576291e38cb168dbbd322
+ms.sourcegitcommit: e66208ccceb4c248c2704bb7358d77447e032205
+ms.openlocfilehash: 43360ea18ccc0fc4622f6da70ff10f2aca8b56c8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -98,10 +98,10 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 
 ### <a name="capture-screenshots"></a>捕获屏幕快照
 
-任务录制器可以在您录制业务流程时捕获 Retail Modern POS UI 的屏幕快照。 如果您将录制下载为 Word 文档，任务录制器将使用屏幕快照。 若要开启屏幕快照捕获功能，将**捕捉屏幕快照**选项设置为**是**。 
+任务录制器可以在您录制业务流程时捕获 Retail Modern POS UI 的屏幕快照。 若要开启屏幕快照捕获功能，将**捕捉屏幕快照**选项设置为**是**，然后进行录制。 录制完成后，单击**停止**并下载 Word 文档。 文档将包含具有相关屏幕截图的步骤。
 
 #### <a name="note"></a>单据
-> Cloud POS 不支持捕获屏幕快照功能。
+> 现代 POS 不支持捕获屏幕快照功能。
 
 ### <a name="start-task-and-end-task"></a>开始任务和结束任务
 

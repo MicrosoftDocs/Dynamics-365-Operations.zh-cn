@@ -1,9 +1,9 @@
 ---
 title: "成本管理 Power BI 内容"
-description: "此主题介绍成本管理 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
+description: "此主题介绍成本管理 Power BI 内容中的内容。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f509852f15b9518d0a01be1f89d4f07c76caf341
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题介绍成本管理 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题介绍成本管理 Power BI 内容中的内容。 
 
 # <a name="overview"></a>概览
 
@@ -51,8 +51,6 @@ ms.lasthandoff: 11/03/2017
 
 CostAggregatedCostStatementEntryEntity 的主要数据源为 CostStatementCache 表。 此表由数据集高速缓存框架管理。 默认情况下，此表每隔 24 小时更新一次，但是您可以在数据高速缓存配置中启用手动更新。 可以在**成本管理**或**成本分析**工作区中执行手动更新。 运行 CostStatementCache 的更新之后，必须在 Power BI.com 中更新 OData 连接才能在该网址中查看更新后的数据。 此 Power BI 内容中的差异（采购、生产）度量仅适用于通过标准成本库存方法估值的物料。 生产差异计算为有效成本与实际成本之差。 生产订单的状态为**已结束**时，计算生产差异。 有关生产差异类型和如何计算各种类型的详细信息，请参阅[关于分析已完成生产订单的差异](https://technet.microsoft.com/en-us/library/gg242850.aspx)。
 
-## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-**成本管理** Power BI 内容可从 PowerBI.com 获取。有关如何连接和加载您的 Microsoft Dynamics 365 for Finance and Operations 数据的详细信息，请参阅[从 PowerBI.com 访问 Power BI 内容](power-bi-home-page.md)。
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
 此内容中包含一组报表页面。 每个页面中包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**成本管理** Power BI 内容中的可视化。
@@ -136,13 +134,6 @@ Finance and Operations 数据用于填充**成本管理** Power BI 内容中的�
 | 分类帐          | 货币，名称，描述                  |
 | 站点            | ID，名称，国家/地区，市/县                      |
 
-## <a name="additional-resources"></a>其他资源
-以下是与实体和构建 Power BI 内容相关的一些有用的链接：
-
--   [数据实体](..\data-entities\data-entities.md)
--   [创建组织内容包](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [使用 Power BI 的数据建模](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [将 Power BI 磁贴添加到工作区](configure-power-bi-integration.md)
 
 
 

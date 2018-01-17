@@ -1,9 +1,9 @@
 ---
 title: "员工能力与发展 Power BI 内容"
-description: "此主题描述 Finance and Operations - 员工能力与发展 Power BI 内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。"
+description: "此主题描述 Finance and Operations - 员工能力与发展 Power BI 内容。"
 author: jcart1106
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b2b3d96a64a552d1f0e0144dcbd809964fdf63c4
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99fa6e396989e6e204d84cc776f627c7c4baf1d1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,12 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题描述 Finance and Operations - 员工能力与发展 Power BI 内容。 它说明如何访问内容包中包括的报表，并提供有关用于构建内容包的数据模型和实体的信息。
-
-<a name="accessing-the-content-pack"></a>访问内容包
---------------------------
-
-Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含员工能力与发展内容包。 有关如何下载该内容包并将其连接到您的 Microsoft Dynamics 365 for Finance and Operations 数据的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
+此主题描述 Finance and Operations - 员工能力与发展 Power BI 内容。 
 
 ## <a name="reports-that-are-included-in-the-content-pack"></a>此内容包中包含的报表
 在连接内容包到您的 Dynamics 365 for Finance and Operations 数据后，报表将显示组织的数据。 如果您之前从未使用 Microsoft Power BI，请可以通过 [Power BI 的指导学习页](https://powerbi.microsoft.com/en-us/guided-learning/?WT.mc_id=PBIService_GetData)了解更多相关信息。 此内容包中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
@@ -78,15 +73,6 @@ Finance and Operations 数据用于填充员工能力与发展内容包中的报
 | 劳动力\_工作人员职务            | 职务和资历日期                                                                                   |                                                                                                                                                                                                                                                                                                         |
 | 劳动力\_工作人员趋势             | 一段时间的工作人员，人数，公司和职位                                                        | 劳动力\_公司 劳动力\_薪酬 劳动力\_地理位置 劳动力\_绩效 劳动力\_工作人员姓名 劳动力\_报告对象工作人员姓名 劳动力\_日历偏差 劳动力\_日期 劳动力\_工作人员职务 劳动力\_人口统计数据 劳动力\_雇用 劳动力\_作业                     |
 
-这些实体用于在数据模型中创建计算度量值。 然后，这些计算的度量值用于计算在数据模型中使用的关键绩效指标 (KPI) 和报表。 如果要在报表和仪表板中包含更多计算，可以从 LCS 下载 CompetenciesandDevelopment.pbix 文件并修改。 此文件是用于创建内容包的默认数据模型。 修改后，可以创建包含您已添加的信息的组织内容包和仪表板。
-
-## <a name="additional-resources"></a>其他资源
-以下是与实体和构建 Power BI 内容相关的一些有用的链接：
-
--   [数据实体](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)
--   [创建组织内容包](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
--   [使用 Power BI 的数据建模](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
--   [将 Power BI 磁贴添加到工作区](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/07/06/pinning-power-bi-reports-to-dynamics-ax-client/)
 
 
 

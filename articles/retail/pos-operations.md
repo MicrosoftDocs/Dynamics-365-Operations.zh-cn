@@ -19,15 +19,15 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02d777da3b97706f9e63478a1978ac9b230a591e
+ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
+ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
 # <a name="pos-operations"></a>POS 操作
-用户在销售点 (POS) 执行的大多数行动被视为操作。 操作在 Microsoft Dynamics 365 for Retail 后端管理系统中配置和管理。 许多操作可以添加到 POS 按钮网格中的按钮。 用户随后可以选择按钮来调用操作并执行其功能。 其他操作是主 POS 应用程序的一部分，从屏幕上按钮或作为其他工作流或流程的一部分调用。
+用户在销售点 (POS) 执行的大多数行动被视为操作。 操作在 Microsoft Dynamics 365 for Retail 后端办公系统中配置和管理。 许多操作可以添加到 POS 按钮网格中的按钮。 用户随后可以选择按钮来调用操作并执行其功能。 其他操作是主 POS 应用程序的一部分，从屏幕上按钮或作为其他工作流或流程的一部分调用。
 
 下表提供有关可用于 Retail Modern POS 和 Dynamics 365 for Retail 的 Cloud POS 的操作的详细信息。 该表还指定了操作可以在应用程序的哪个位置调用，以及是否可在 POS 处于脱机模式时使用。
 
@@ -104,6 +104,7 @@ ms.lasthandoff: 11/03/2017
 | 521 | 会员卡积分余额 | 显示指定会员卡的积分余额。 | 是 | 是 | 无 | 无 | 无 |
 | 914 | POS 窗口最小化 | 此操作不受支持。 | 不适用 | 不适用 | 不适用 | 不适用 | 无 |
 | 1000 | 开银箱 | 执行“无销售”操作，并打开当前所选的银箱。 | 是 | 是 | 是 | 是 | 无 |
+| 928 | 订单履行状况 | 此操作允许用户领取、包装、装运或撤回用于商店提货的订单。 | 是 | 是 | 是 | 无 | 无 |
 | 129 | 覆盖行产品税 | 覆盖所选行项上的税，并使用其他指定税。 | 是 | 是 | 无 | 是 | 无 |
 | 130 | 覆盖列表中的行产品税 | 使用用户在列表中所选的税覆盖所选行项目上的销项税。 | 是 | 是 | 无 | 是 | 无 |
 | 127 | 覆盖交易税 | 覆盖交易记录上的税，并使用不同的指定税。 | 是 | 是 | 无 | 是 | 无 |

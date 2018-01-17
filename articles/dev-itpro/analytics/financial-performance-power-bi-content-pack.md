@@ -1,9 +1,9 @@
 ---
 title: "财务绩效 Power BI 内容"
-description: "此主题描述财务绩效 Power BI 内容。 它介绍其中包含的仪表板和报表，并提供有关用于构建内容的数据模型和实体的信息。"
+description: "此主题描述财务绩效 Power BI 内容。"
 author: kweekley
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 3638f5acf6a05ec419dc4308e861d95f0d7b2cea
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 83ea868e7612f30afa1b99f374878f4ba415113f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -30,21 +30,6 @@ ms.lasthandoff: 12/01/2017
 [!include[banner](../includes/banner.md)]
 
 此主题描述**财务绩效** Microsoft Power BI 内容。 它介绍其中包含的仪表板和报表，并提供有关用于构建内容的数据模型和实体的信息。
-
-## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-
-您可以从 Microsoft Dynamics Lifecycle Services (LCS) 和 PowerBI.com 访问**财务绩效** Power BI。
-
-### <a name="available-from-lcs"></a>从 LCS 获取
-从 LCS 获取的**财务绩效** Power BI 内容支持以下版本：
-
-- Microsoft Dynamics 365 for Finance and Operations Enterprise edition 版本
-- Microsoft Dynamics 365 for Operations 版本 1611 
-
-您可以在 LCS 中的共享资产库内找到 Power BI 内容。 有关如何下载内容包并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。
-
-### <a name="available-from-powerbicom"></a>从 PowerBI.com 获取
-从 PowerBI.com 获取的**财务绩效** Power BI 内容支持 Microsoft Dynamics AX 版本 7.0 和 7.0.1。 有关如何连接和加载您的 Dynamics AX 数据的详细信息，请参阅 [从 PowerBI.com 访问 Power BI 内容](power-bi-home-page.md)。
 
 ## <a name="main-account-setup"></a>主科目设置
 由于组织希望负债和收入金额在报表中显示为正金额，所以设置主科目很重要。 要让这些主科目显示为正金额，必须将主科目类型设置为**负债**或**收入**。 在使用这些科目类型时，通过 Power BI 申报将逆转正负符号，将金额显示为正。
@@ -101,5 +86,5 @@ ms.lasthandoff: 12/01/2017
 - 分类帐
 - ChartofAccounts
 
-这些实体用于在数据模型中创建计算度量值。 计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。 默认情况下，内容提供过去三年和未来一年的数据。 若要在报表和仪表板中包括其他计算，您可以修改 [Microsoft Excel 工作簿](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi)。 此工作簿是用于创建内容的默认数据模型。 在您完成您的修改后，可以创建包含您已添加的信息的组织内容包和仪表板。
+这些实体用于在数据模型中创建计算度量值。 计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。 默认情况下，内容提供过去三年和未来一年的数据。 若要在报表和仪表板中包括其他计算，您可以修改 [Microsoft Excel 工作簿](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi)。 此工作簿是用于创建内容的默认数据模型。 
 

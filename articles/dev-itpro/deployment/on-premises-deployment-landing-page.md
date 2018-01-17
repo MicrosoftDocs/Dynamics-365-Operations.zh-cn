@@ -3,7 +3,7 @@ title: "本地部署"
 description: "本主题提供有关本地部署的信息和内容链接。"
 author: kfend
 manager: AnnBe
-ms.date: 06/24/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 855967a9aacd4881315c5d5fefa06b909cd4cb59
-ms.openlocfilehash: 69151ed1c0a0a06e72bbdc8b33eb2fc68e9cc8eb
+ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
+ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 12/20/2017
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>本地部署登录页
@@ -32,6 +32,7 @@ ms.lasthandoff: 11/28/2017
 
 ## <a name="get-started"></a>开始
 - [Dynamics 365 for Finance and Operations Enterprise Edition（本地）概览](on-premises-overview.md)
+- [计划您的本地部署](plan-onprem-deployment.md)
 - [本地部署的系统要求](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [针对本地环境的硬件规模调整](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 - [联机服务和本地软件生命周期策略](../migration-upgrade/versions-update-policy.md)
@@ -41,6 +42,7 @@ ms.lasthandoff: 11/28/2017
 ## <a name="onboard"></a>Onboard
 - [在 Lifecycle Services 中创建本地项目](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
 - [设置并部署本地环境](setup-deploy-on-premises-environments.md)
+- [在本地环境中安装网络打印机设备](../analytics/install-network-printer-onprem.md)
 - [为本地部署配置 SQL Server Reporting Services](../analytics/configure-ssrs-on-premises.md)
 - [开发自定义模型并将其部署到本地环境](develop-deploy-custom-models-on-premises.md)
 
@@ -54,6 +56,7 @@ ms.lasthandoff: 11/28/2017
 - [重新部署本地部署](redeploy-on-prem.md)
 
 ## <a name="other-resources"></a>其他资源
+- [Dynamics 365 for Finance and Operations, Enterprise edition（本地）故障排除](troubleshoot-on-prem.md)
 - [未在本地部署中实现的功能](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [弃用的功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期政策和版本列表](../migration-upgrade/versions-update-policy.md)

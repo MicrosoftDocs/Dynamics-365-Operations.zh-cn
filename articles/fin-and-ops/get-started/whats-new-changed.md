@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 408854737847590841814ed74209618bbf22ec23
-ms.openlocfilehash: 7c99869b70d8b564da859ce2b19ccfff927141b2
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: f3f6690d661ca30b5f3a9dacc75f7b8c6ec36e24
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/27/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,8 +34,6 @@ ms.lasthandoff: 11/27/2017
 
 有关升级到最新版本的信息，请参阅 [升级到最新更新的流程](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)。
 
-> [!NOTE]
-> Dynamics 365 for Operations（本地）目前在重命名。 你将看到整个通信和许可授权指南中引用 Dynamics 365 for Operations（本地）。 你在部署产品时将看到的产品内名称是 Dynamics 365 for Finance and Operations Enterprise 版本。 这两个名称指的是同一个产品。
 
 ## <a name="application-releases"></a>应用程序发布
 
@@ -49,7 +47,7 @@ ms.lasthandoff: 11/27/2017
 </colgroup>
 <thead>
 <tr class="header">
-<th>下达</th>
+<th>版本</th>
 <th>版本</th>
 <th>内部版本号</th>
 <th>可用性</th>
@@ -60,6 +58,13 @@ ms.lasthandoff: 11/27/2017
 <tr class="even">
 
 </tr>
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>7.3</td>
+<td>7.3.11971.56116</td>
+<td>2017 年 12 月</td>
+<td><a href="whats-new-application-7.3-update.md">Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中的新增或更改内容</a></td>
+</tr></tr>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>2017 年 7 月</td>
