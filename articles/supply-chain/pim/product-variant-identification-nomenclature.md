@@ -17,7 +17,7 @@ ms.assetid: 3fe69fb7-5c32-423c-98a8-2f53186cda68
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: roxanad
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
 ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818

@@ -11,13 +11,13 @@ ms.technology:
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
 ms.search.industry: 
-ms.author: roxanadiaconu
-ms.dyn365.ops.intro: 7.3
+ms.author: roxanad
+ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
 ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b

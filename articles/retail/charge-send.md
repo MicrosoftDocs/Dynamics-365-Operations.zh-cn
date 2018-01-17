@@ -17,7 +17,7 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
-ms.dyn365.ops.version: Retail Version
+ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: 986ec7835dac52c326085c47313205d08b1bafa8
 ms.openlocfilehash: d217bc31ad9d93c5440e5329f7b7327d089137f4

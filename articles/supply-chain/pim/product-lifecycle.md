@@ -17,7 +17,7 @@ ms.assetid:
 ms.search.region: global
 ms.search.industry: 
 ms.author: cvocph
-ms.dyn365.ops.intro: 7.3
+ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
 ms.sourcegitcommit: 33130a4061f22335aeeffa69c478b693604393a9

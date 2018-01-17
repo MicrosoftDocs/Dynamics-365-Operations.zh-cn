@@ -14,8 +14,8 @@ ms.search.scope: AX 7.3.0, Operations, UnifiedOperations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
-ms.search.validFrom: 2018-03-28
-ms.dyn365.ops.version: AX 7.3.0
+ms.search.validfrom: 2017-12-31
+ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
 ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
 ms.openlocfilehash: 18c8b5d1d3e83259cf5dafd08bfc779161a4c916

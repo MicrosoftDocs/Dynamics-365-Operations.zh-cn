@@ -13,7 +13,7 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: AX 7.3
+ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
 ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
 ms.openlocfilehash: e45f8698e69a2a870c7c00f91622216deb4cb38a

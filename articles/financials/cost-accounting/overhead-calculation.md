@@ -17,7 +17,7 @@ ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: yuyus
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6

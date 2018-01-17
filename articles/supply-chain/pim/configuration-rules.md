@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMConfigRule
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations
 ms.custom: 19761
 ms.assetid: e4c6622d-1e2d-4a4d-8047-c553a25d4f87

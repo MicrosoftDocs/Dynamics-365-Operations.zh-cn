@@ -10,14 +10,14 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations
 ms.custom: 274503
 ms.assetid: 535ab25d-a031-4e8c-84ec-478f2987a1ad
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: AndersGirke
-ms.dyn365.ops.intro: AX 7.0.0
+ms.author: aevengir
+ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6

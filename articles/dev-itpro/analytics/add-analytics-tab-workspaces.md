@@ -14,7 +14,6 @@ ms.search.scope: Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
-ms.dyn365.ops.intro: Platform update 8
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5

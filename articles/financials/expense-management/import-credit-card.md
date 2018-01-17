@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -15,7 +16,7 @@ ms.custom: 274023
 ms.assetid: 3605eda1-a7ed-4675-8031-5279c5a8f5e4
 ms.search.region: Global
 ms.author: knelson
-ms.dyn365.ops.intro: Version 1611
+ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6

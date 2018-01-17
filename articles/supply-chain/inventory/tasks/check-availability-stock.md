@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -23,14 +23,14 @@ ms.contentlocale: zh-cn
 ms.lasthandoff: 09/29/2017
 
 ---
-# 检查库存可用性
+# <a name="check-the-availability-of-stock"></a>检查库存可用性
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何检查特定物料编号的现有和实际现有库存量。 它还向您显示如何获取有关物料的供应信息。 实际现有库存量为可用现有库存量，即购买、接收和登记的库存量。 现有库存量不仅包括可用的现有库存量，而且还包括已经订购但尚未收到或登记的库存量。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。 如果您正在使用 USMF，则可以使用显示的示例值。 这些任务通常由仓库工作人员完成。
 
 
-## 检查物料的现有库存量
+## <a name="check-on-hand-inventory-for-an-item"></a>检查物料的现有库存量
 1. 转到“库存管理”>“查询和报表”>“现有库存量”。
 2. 选择物料编号行。
     * 要按物料编号查询现有库存量，请选择“表”设置为现有库存量和“字段”设置为物料编号的行。  
@@ -49,7 +49,7 @@ ms.lasthandoff: 09/29/2017
 11. 关闭该页面。
 12. 关闭该页面。
 
-## 检查实际现有库存
+## <a name="check-physical-on-hand-inventory"></a>检查实际现有库存
 1. 转到“库存管理”>“查询和报表”>“实际现有库存量”。
 2. 在“项目编号”字段中，输入一个值。
     * 您可以使用“站点和仓库”字段筛选物料列表。  
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/29/2017
 5. 单击“确定”。
 6. 关闭该页面。
 
-## 按库位查看现有库存量
+## <a name="check-on-hand-inventory-by-location"></a>按库位查看现有库存量
 1. 转到“仓库管理”>“查询和报表”>“现有库位”。
 2. 在“仓库”字段中，键入一个值。
     * 如果您正在使用 USMF 演示数据公司，则可以使用“51”。  

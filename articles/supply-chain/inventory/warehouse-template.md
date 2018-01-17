@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -18,7 +18,7 @@ ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: AX 7.3
+ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
 ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
 ms.openlocfilehash: 87ade03ec2ba78c4d7f5832bfa6dc1b7eabd8d94

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: Dynamics365Talent
 ms.technology: 
+ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.search.scope: Operations, Core, Talent
 ms.search.region: Global
