@@ -29,7 +29,7 @@
 ### [导出和导入模型](dev-tools/models-export-import.md)
 ### [Visual Studio 中的元数据搜索](dev-tools/metadata-search-visual-studio.md)
 ### [模型](dev-tools/models.md)
-### [Dynamics 365 for Finance and Operations, Enterprise 版本中的项目](dev-tools/projects.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition 中的项目](dev-tools/projects.md)
 ### [Visual Studio Tools 加载项](dev-tools/developer-tools-add-ins.md)
 ### [关闭模型自定义和弃用功能](dev-tools/lock-models.md)
 ### [更新 Visual Studio 开发工具](dev-tools/update-development-tools.md)
@@ -161,8 +161,8 @@
 ### [构建导航](user-interface/build-navigation.md)
 ### [构建工作区](user-interface/build-workspace.md)
 ## 窗体
-### [Dynamics 365 for Finance and Operations, Enterprise 版本中的导航](user-interface/page-navigation.md)
-### [Dynamics 365 for Finance and Operations, Enterprise 版本中的布局](user-interface/page-layout.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition 中的导航](user-interface/page-navigation.md)
+### [Dynamics 365 for Finance and Operations, Enterprise edition 中的布局](user-interface/page-layout.md)
 ### [Symbol 字体](user-interface/symbol-font.md)
 ### [具有自定义模式的测试窗体](user-interface/testing-forms-custom-patterns.md)
 ### [创建并使用深层链接](user-interface/create-deep-links.md)
@@ -500,7 +500,7 @@
 
 ## 云部署
 ### [Azure Resource Manager 使用培训](deployment/arm-onboarding.md)
-### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations，Enterprise 版本](deployment/expressroute.md)
+### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations，Enterprise edition](deployment/expressroute.md)
 
 ## [本地部署](deployment/on-premises-deployment-landing-page.md)
 ### [本地概览](deployment/on-premises-overview.md)
@@ -513,7 +513,7 @@
 ### [重新部署本地部署](deployment/redeploy-on-prem.md)
 ### [更新本地代理](lifecycle-services/update-local-agent.md)
 ### [重新配置您的环境](lifecycle-services/reconfigure-environment.md)
-### [Dynamics 365 for Finance and Operations，Enterprise 版本本地故障排除](deployment/troubleshoot-on-prem.md)
+### [Dynamics 365 for Finance and Operations，Enterprise edition 本地故障排除](deployment/troubleshoot-on-prem.md)
 
 ## 部署自定义代码
 ### [创建可部署包](deployment/create-apply-deployable-package.md)
@@ -701,10 +701,10 @@
 ## [请求沙盒数据库刷新](database/database-refresh.md)
 
 # 支持
-## [获取对 Dynamics 365 for Finance and Operations, Enterprise 版本和 Lifecycle Services 的支持](lifecycle-services/lcs-support.md)
+## [获取对 Dynamics 365 for Finance and Operations, Enterprise edition 和 Lifecycle Services 的支持](lifecycle-services/lcs-support.md)
 ## [记录顶级支持票证](lifecycle-services/premier-support.md)
 ## [将请求提交给 Dynamics Service 工程团队](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [设置对 Dynamics 365 for Finance and Operations, Enterprise 版本的技术支持](lifecycle-services/support-experience.md) 
+## [设置对 Dynamics 365 for Finance and Operations, Enterprise edition 的技术支持](lifecycle-services/support-experience.md) 
 ## [计划的维护时段常见问题](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [云操作和服务](lifecycle-services/cloud-operations-servicing.md)
 ## [管理 Finance and Operations 支持体验](lifecycle-services/cloud-powered-support-lcs.md)
