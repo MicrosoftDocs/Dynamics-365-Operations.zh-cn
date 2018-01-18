@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bfd3dd7f7b804eb53cee2f6a9a056ae1a693cfa6
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: e4d7b1048190c430051143a13ade8482256d472d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a><span data-ttu-id="815c8-103">创建贸易协议使用的类别定价规则</span><span class="sxs-lookup"><span data-stu-id="815c8-103">Category pricing rules to create trade agreements</span></span>

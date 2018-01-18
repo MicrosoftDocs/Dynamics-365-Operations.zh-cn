@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e924dc59c3e4cb9b6979014852512453dd3d70db
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: e2fb5255c8f1c4994e7f53b5d05a2782350259ab
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="create-pos-permission-groups"></a><span data-ttu-id="319e0-103">创建 POS 权限组</span><span class="sxs-lookup"><span data-stu-id="319e0-103">Create POS permission groups</span></span>

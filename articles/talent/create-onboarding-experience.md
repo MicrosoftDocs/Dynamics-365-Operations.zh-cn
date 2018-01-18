@@ -6,18 +6,19 @@ manager:
 ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Talent
+ms.service: dynamics-ax-talent
 ms.technology: 
+ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.search.scope: Operations, Core, Talent
 ms.search.region: Global
 ms.author: tbisaacs
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: c62ad20a1e3aa3bae71b07b6f5aecb5908a90a65
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 95319e985a784196a21b8935fa58f270a08b699f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

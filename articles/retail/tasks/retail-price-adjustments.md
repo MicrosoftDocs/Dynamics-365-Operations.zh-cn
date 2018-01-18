@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 06/07/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: dab14468713f9f23d20e7ca648711e2a4337cf7c
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: ba6301329b23b8b4e167e292c1126806bf07d3ba
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="retail-price-adjustments"></a><span data-ttu-id="c973c-103">零售价调整</span><span class="sxs-lookup"><span data-stu-id="c973c-103">Retail price adjustments</span></span>

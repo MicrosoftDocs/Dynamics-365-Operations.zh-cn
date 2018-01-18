@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-talent
 ms.technology: 
 ms.search.form: 
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 601681c64f5fa70aa99ab5179525d02b2c05ed2e
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 331e3eae38d3abc9fa545e84d18de91b81352af9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="14889-105">休假和缺勤管理概览</span><span class="sxs-lookup"><span data-stu-id="14889-105">Leave and absence management overview</span></span>

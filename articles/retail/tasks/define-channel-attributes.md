@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 02/17/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1c5a9bdd0e9eb77308030fb7bea2fa6e438019f1
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: e56a2da90bf92080a09d79a8285ce609f8e3324a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="define-channel-attributes"></a><span data-ttu-id="dedc7-103">定义渠道属性</span><span class="sxs-lookup"><span data-stu-id="dedc7-103">Define channel attributes</span></span>

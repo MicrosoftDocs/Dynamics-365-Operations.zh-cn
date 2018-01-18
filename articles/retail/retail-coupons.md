@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
-ms.search.form: RetailCoupon
+ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -19,8 +19,8 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f7cb062e2b5ba5e12d0127c86a71a7b493ad745d
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 8e0ef5e6170987b1d78e43823bc132fe9a4c6a02
 ms.contentlocale: zh-cn
 ms.lasthandoff: 01/17/2018
 

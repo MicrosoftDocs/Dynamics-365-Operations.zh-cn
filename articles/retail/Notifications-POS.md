@@ -6,8 +6,9 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
+ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.search.scope: 
 ms.search.region: Global
@@ -15,10 +16,10 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ec6cb212766dd90fa9db7719a2119419ecb935c7
-ms.openlocfilehash: aea36591a81f727059e37a958efa62a9ebde9d9d
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 47186026103f1c8aaa0d00415881ec27820584d7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

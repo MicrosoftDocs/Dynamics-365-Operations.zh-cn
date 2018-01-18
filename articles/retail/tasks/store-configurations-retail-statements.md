@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 45aa0caf6fcef4cc49952557a251dd78f816125e
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 96aff33904c1de4a8b2642890eba7bf854d8e0c1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="store-configurations-for-retail-statements"></a><span data-ttu-id="14d59-103">零售报表的商店配置</span><span class="sxs-lookup"><span data-stu-id="14d59-103">Store configurations for Retail statements</span></span>

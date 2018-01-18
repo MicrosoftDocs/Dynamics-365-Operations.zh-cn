@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/28/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: Talent
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
-ms.openlocfilehash: 0ab829803634871c9060daa381bd02d7d2bbdf42
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 80f6d4e54d103b4511cbbbcce75ee29e8a04811b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="a86d1-103">扩展 Microsoft Dynamics 365 for Talent 的功能</span><span class="sxs-lookup"><span data-stu-id="a86d1-103">Extend the functionality of Microsoft Dynamics 365 for Talent</span></span>

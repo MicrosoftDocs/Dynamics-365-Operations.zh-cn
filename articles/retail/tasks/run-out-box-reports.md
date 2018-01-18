@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: e688527bd9ae3346fd2eede956ea673e340f59b8
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: f77b4289613adce27bda43d326d969c984ef01b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="generate-and-run-out-of-box-reports"></a><span data-ttu-id="2208c-103">生成和运行现成报表</span><span class="sxs-lookup"><span data-stu-id="2208c-103">Generate and run out-of-box reports</span></span>

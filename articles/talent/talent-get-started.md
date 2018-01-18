@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Operations
+ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: Talent
 audience: Application User
@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
-ms.openlocfilehash: ba43f5b71dac102c74fe87c0a2b4376b16b5cd40
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 3581dab53ee044f24fe78e3d0f26dcfcc90d2167
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="6897e-103">Microsoft Dynamics 365 for Talent 入门</span><span class="sxs-lookup"><span data-stu-id="6897e-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>

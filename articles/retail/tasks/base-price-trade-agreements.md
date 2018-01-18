@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d9692ce9ad282b76504588d8f796560c00773a8c
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: cdbbf4db6ce9e33e4cb6e31d74cd0a62f5666873
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="base-price-and-trade-agreements"></a><span data-ttu-id="070d7-103">基价和贸易协议</span><span class="sxs-lookup"><span data-stu-id="070d7-103">Base price and trade agreements</span></span>

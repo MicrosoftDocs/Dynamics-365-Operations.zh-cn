@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e8c3f861a53a3f5c2de29248523ff4efd5e1d072
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: ddcee5b2ccb5337f2ef4c7fb4c66b2208c231d2a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="post-online-sales-and-payments"></a><span data-ttu-id="ee571-103">过帐联机销售和付款</span><span class="sxs-lookup"><span data-stu-id="ee571-103">Post online sales and payments</span></span>

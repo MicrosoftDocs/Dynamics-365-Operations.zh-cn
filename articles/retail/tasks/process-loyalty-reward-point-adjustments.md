@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c0e0dc345903f9b2df0a1cd38b9b8d5a65b33afe
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 560bc1fca9e6c3a84e0656df9597eb7bba01be8d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a><span data-ttu-id="444da-103">处理会员奖励分调整</span><span class="sxs-lookup"><span data-stu-id="444da-103">Process loyalty reward point adjustments</span></span>

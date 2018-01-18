@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -16,10 +16,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3d2f6785b9054ede7ea96ebd48c5d1f23e510e7
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: b2741885418de5c2a2c9ed97e5c6146c824857df
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a><span data-ttu-id="4ea72-103">定义呼叫中心渠道和渠道属性</span><span class="sxs-lookup"><span data-stu-id="4ea72-103">Define call center channel and channel attributes</span></span>

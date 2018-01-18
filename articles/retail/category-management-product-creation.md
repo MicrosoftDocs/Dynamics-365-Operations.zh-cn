@@ -6,8 +6,9 @@ manager: AnnBe
 ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
+ms.search.form: RetailCategoryAndProductWorkspace, RetailCategory
 audience: Application User
 ms.search.scope: Core, Retail
 ms.search.region: Global
@@ -15,10 +16,10 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 98250062892e0c5f665616dc3944181a3ff8599a
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: e269f6c3815cea55b69b7eb6a9a65bf7c9e15378
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 

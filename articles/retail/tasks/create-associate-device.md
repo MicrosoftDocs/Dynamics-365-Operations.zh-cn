@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a281b6397e6bee64e6e10bdcd2fb5539c5f73adc
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: b33bc5c710de46e8d6084167392007ddd0777d8b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="create-and-associate-a-device"></a><span data-ttu-id="dee6a-103">创建和关联设备</span><span class="sxs-lookup"><span data-stu-id="dee6a-103">Create and associate a device</span></span>

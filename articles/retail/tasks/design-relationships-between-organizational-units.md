@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e35915d2300755249ecd54bf2e4939d3a8df4f61
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: a9c198b8e732828073b8d2fdb0eb683313ea9e26
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="design-the-relationships-between-organizational-units"></a><span data-ttu-id="62ff2-103">设计组织部门之间的关系</span><span class="sxs-lookup"><span data-stu-id="62ff2-103">Design the relationships between organizational units</span></span>

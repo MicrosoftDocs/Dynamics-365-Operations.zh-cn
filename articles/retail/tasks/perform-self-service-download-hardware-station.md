@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5e69b219c201cf225d94c60b761b702983b6adcf
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: eeaa78ff9e46079c11f0a0ff081eac30992034ed
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a><span data-ttu-id="379ea-103">执行自助服务以下载硬件工作站</span><span class="sxs-lookup"><span data-stu-id="379ea-103">Perform self-service to download hardware station</span></span>

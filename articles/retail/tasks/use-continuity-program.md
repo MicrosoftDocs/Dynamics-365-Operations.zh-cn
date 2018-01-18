@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: e94d9ded5cefc731e28af6898004419a00e0c189
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 111aa3c653f7733031e7c43a52a33ad9219530c5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="use-a-continuity-program"></a><span data-ttu-id="5e724-103">使用连续性计划</span><span class="sxs-lookup"><span data-stu-id="5e724-103">Use a continuity program</span></span>

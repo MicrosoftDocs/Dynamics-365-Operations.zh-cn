@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
-ms.dyn365.ops.version: Retail Version
+ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 986ec7835dac52c326085c47313205d08b1bafa8
-ms.openlocfilehash: d217bc31ad9d93c5440e5329f7b7327d089137f4
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 9f9681d1fa4bf2c1f11c9642f4b3629a8518d316
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/10/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
