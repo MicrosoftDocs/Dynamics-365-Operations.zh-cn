@@ -3,7 +3,7 @@ title: "智能"
 description: "此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中提供的商业智能和报告工具的详细信息。"
 author: sericks007
 manager: AnnBe
-ms.date: 09/07/2017
+ms.date: 12/18/2017
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 335d38e0fb5e47136b87bac5bfa9d2fd2923def6
+ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
+ms.openlocfilehash: 2477062ad324f91ff07f1c79cfccd4389b37badf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/18/2017
 
 ---
 
@@ -48,7 +48,6 @@ Finance and Operations 提供无缝集成到应用程序工作区的交互式报
  - [工作区中的嵌入式 Power BI](embed-power-bi-workspaces.md)
  - [Power BI Embedded 集成](power-bi-embedded-integration.md)
  - [使用 Power BI Embedded 将分析添加到工作区](add-analytics-tab-workspaces.md)
- - [在 Power BI 上发布分析应用程序](publish-apps-powerbi.md)
  - [使用 Power BI Embedded 帮助保护分析工作区和报表](secure-analytical-workspaces.md)
  - [用于 Finance and Operations 的 Power BI 内容](power-bi-home-page.md)
 
@@ -59,7 +58,7 @@ Finance and Operations 提供无缝集成到应用程序工作区的交互式报
 
 若要了解详细信息，请参阅以下主题：
 
-- [文档报告服务概览](document-reporting-services.md)
+- [Document Reporting Services 概览](document-reporting-services.md)
 - [在 Finance and Operations 应用程序中打印](print-documents.md)
 - [安装文档路线选择代理以启用网络打印机设备](install-document-routing-agent.md)
 
@@ -88,10 +87,7 @@ Finance and Operations 提供无缝集成到应用程序工作区的交互式报
 ## <a name="technical-reference-reports"></a>技术参考报告
 以下报告提供了有关 Finance and Operations 中的对象的参考信息：
 
-- [聚合数据实体报表](aggregate-data-entities-report.md)
-- [聚合度量报表](aggregate-measurements-report.md)
 - [数据实体报表](../data-entities/data-entities-report.md)
-- [关键绩效指标 (KPI) 报表](key-performance-indicators-report.md)
 - [许可证代码和 Configuration Key 报表](../sysadmin/license-codes-configuration-keys-report.md)
 - [SQL Server Reporting Services 报表报告](SSRS-report.md)
 - [工作流类型报告](../../fin-and-ops/organization-administration/workflow-types-report.md)

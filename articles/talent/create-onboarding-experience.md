@@ -6,8 +6,9 @@ manager:
 ms.date: 11/14/2017
 ms.topic: article
 ms.prod: 
-ms.service: Dynamics365Talent
+ms.service: dynamics-ax-talent
 ms.technology: 
+ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.search.scope: Operations, Core, Talent
 ms.search.region: Global

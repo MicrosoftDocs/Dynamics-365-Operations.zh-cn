@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9eb962e903ac9ee359134cae35ebd399e23cc4e1
+ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
+ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -41,4 +41,5 @@ ms.lasthandoff: 11/03/2017
     
 - **下达客户订单不需要提供序列号** - 可以在一个商店下达客户订单，并从另一个商店完成该订单。 下达客户订单的出纳不必提供序列号。 在领料或装货步骤中将提供该序列号。 但是，选择了**自提**交货类型的所有行项都必须提供序列号。 否则无法完成交易记录。    
 - **序列化产品没有在交易记录屏幕上聚合** - 使用**功能配置文件**页的**终端**字段组中的**聚合产品**设置可以在交易记录屏幕上聚合相同的非序列化产品。 聚合相同产品时，更容易在交易记录网格中进行查看。 但是，由于序列号通常是唯一的，且销售内勤在结帐前无需输入序列号，因此**聚合产品**设置不适用于序列化产品。 因此，如果选择了**聚合产品**设置，则不会在交易记录屏幕上聚合序列化产品。
+- **按序列号搜索日记帐的功能** - 现在可以额外按序列号搜索日记帐。 若要执行此操作，请打开“日记帐”操作，并按下应用栏上的“高级搜索”按钮。 使用“添加筛选器”按钮，也可以应用筛选器来搜索序列号。
 

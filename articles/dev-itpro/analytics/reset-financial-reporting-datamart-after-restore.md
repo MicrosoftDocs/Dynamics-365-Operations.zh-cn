@@ -3,7 +3,7 @@ title: "重置财务报告数据市场"
 description: "此主题描述如何重置财务报告数据市场。"
 author: aolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/11/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,10 +17,10 @@ ms.author: aloson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0786d3377b914791106ef30455d676e5ab2ae03d
-ms.openlocfilehash: c708fa18b8676d8ff57c26b3176a36d86df29387
+ms.sourcegitcommit: 5b956dcc5a4a93033396ae0ffcf8b7aeba2cf3f2
+ms.openlocfilehash: a07e8b5bae2c4f71e9212cd2f8080d2481769818
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/07/2017
+ms.lasthandoff: 12/14/2017
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 12/07/2017
 - Microsoft Dynamics 365 for Finance and Operations 财务报告版本 7.0.10000.4 及更高版本
 - Microsoft Dynamics 365 for Finance and Operations Enterprise edition（本地）
 
-若要获取 Finance and Operations 财务报告版本 7.2.6.0，您可以从 <https://support.microsoft.com/en-us/help/4052514> 下载 KB 4052514。
+若要获取 Finance and Operations 财务报告版本 7.2.6.0，您可以从 <https://fix.lcs.dynamics.com/Issue/Resolved?kb=4052514> 下载 KB 4052514。
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-7260-and-later"></a>重置 Finance and Operations 财务报告版本 7.2.6.0 及更高版本的财务报告数据市场
 
@@ -55,7 +55,7 @@ ms.lasthandoff: 12/07/2017
 
 要重置数据市场，在报表设计器中，在**工具**菜单中，选择**重置数据市场**。 出现的对话框具有两部分：**统计**和**重置**。
 
-[![“重置数据市场”对话框](./media/Statistics.png)](./media/Statistics.png)
+[![“重置数据市场”对话框](./media/Reset-72.jpg)](./media/Reset-72.jpg)
 
 ##### <a name="integration-attempts"></a>集成尝试次数
 
@@ -83,8 +83,10 @@ ms.lasthandoff: 12/07/2017
 - **还原数据库** – Finance and Operations 数据库已还原，但财务报告数据市场的数据库未还原。
 - **其他** – 您出于其他原因重置数据市场。 如果您担心存在问题，请联系支持人员加以确定。
 
+[![重置数据市场](./media/Integration.png)](./media/Integration.png)
+
 > [!NOTE]
-> 在完成步骤前先验证现有的所有任务已完成集成。 您可以通过选择**工具** &gt; **集成状态**来查看集成的状态。
+> 在开始重置前，验证所有数据市场重置任务已完成初始加载。 您可以通过选择**工具** &gt; **集成状态**查找上一次运行时列中的值的方式进行确认。
 
 #### <a name="clear-users-and-companies"></a>清除用户和公司
 
@@ -94,7 +96,10 @@ ms.lasthandoff: 12/07/2017
 
 如果要查看集成的状态，请选择**工具** &gt; **集成状态**以查看集成运行的上次时间和状态。
 
-[![查看集成的状态](./media/Integration.png)](./media/Integration.png)
+[![查看集成的状态](./media/New-integration.PNG)](./media/New-integration.PNG)
+
+> [!NOTE]
+> 当所有映射显示 RanToCompletion 状态且集成状态窗口的左下角显示“集成完成”时，重置完成。
 
 ## <a name="reset-the-financial-reporting-data-mart-for-finance-and-operations-financial-reporting-release-70100004-and-later"></a>重置 Finance and Operations 财务报告版本 7.0.10000.4 及更高版本的财务报告数据市场
 
@@ -142,7 +147,9 @@ ms.lasthandoff: 12/07/2017
 
 #### <a name="download-the-latest-minorversiondataupgradezip-package"></a>下载最新的 MinorVersionDataUpgrade.zip 程序包
 
-下载最新的 MinorVersionDataUpgrade.zip 程序包。 有关如何查找并下载数据升级包的正确版本的说明，请参阅[下载最新的数据升级可部署程序包](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-packages)。 无需下载 MinorVersionDataUpgrade.zip 程序包即可升级。 因此，您只需执行该主题的“下载最新的数据升级可部署程序包”部分中的步骤。 您可以跳过主题中的所有其他步骤。
+下载最新的 MinorVersionDataUpgrade.zip 程序包。 有关如何查找并下载数据升级包的正确版本的说明，请参阅[下载最新的数据升级可部署程序包](..\migration-upgrade\upgrade-data-to-latest-update.md#download-the-latest-data-upgrade-deployable-package)。 
+
+无需下载 MinorVersionDataUpgrade.zip 程序包即可升级。 因此，您只需执行该主题的“下载最新的数据升级可部署程序包”部分中的步骤。 您可以跳过主题中的所有其他步骤。
 
 #### <a name="run-scripts-against-the-finance-and-operations-database"></a>对 Finance and Operations 数据库运行脚本
 
@@ -193,7 +200,7 @@ Reset-DatamartIntegration -Reason OTHER -ReasonDetail "<reason for resetting>"
 
 3. 选择**默认**构建块，然后选择**导入**。
 4. 选择包含所导出报表定义的文件，然后选择**打开**。
-5. 在“导入”对话框中，选择要导入的报表定义：
+5. 在**导入**对话框中，选择要导入的报表定义：
 
     - 若要导入所有报表定义和关联的构建基块，请选择**全选**。
     - 若要导入特定报表、行、列、树或维度集，请选择要导入的报表、行、列、树或维度集。

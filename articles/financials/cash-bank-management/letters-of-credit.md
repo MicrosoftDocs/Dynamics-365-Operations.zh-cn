@@ -3,11 +3,12 @@ title: "信用证"
 description: "信用证是通常用于跨国界限的货物采购和销售的银行凭证。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

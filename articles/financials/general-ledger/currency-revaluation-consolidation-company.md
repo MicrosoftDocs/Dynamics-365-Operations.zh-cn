@@ -1,13 +1,14 @@
 ---
 title: "合并公司中的币种重估"
 description: "此主题描述如何重估合并公司中的币种。"
-author: rschloma
+author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerExchAdjHist
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

@@ -6,8 +6,9 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
+ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Core, Retail
@@ -17,7 +18,7 @@ ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: Retail Version
+ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: aeb851587cc40828088dfa22fda1d70f49561c3a

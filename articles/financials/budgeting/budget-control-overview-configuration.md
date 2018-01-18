@@ -3,11 +3,12 @@ title: "预算控制概览"
 description: "本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置预算控制，以便您可以管理财务资源的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 01/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

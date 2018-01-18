@@ -3,11 +3,12 @@ title: "预算计划的 Excel 模板"
 description: "此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。"
 author: ryansandness
 manager: AnnBe
-ms.date: 07/27/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

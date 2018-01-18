@@ -3,7 +3,7 @@ title: "生产性能 Power BI 内容"
 description: "此主题介绍生产性能 Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,10 +16,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 898a1a513850024fd0164955bdd204ee4b08c632
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -59,15 +59,6 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 | 按资源分类的缺陷趋势                  | 按加工数量分类的缺陷率 (ppm) | |
 | 用于作业单成本计算的生产差异 | <ul><li>按日期和成本组类型分类的生产差异</li><li>按站点和成本组类型分类的生产差异</li><li>具有不利生产差异的前 10 个产品</li><li>按资源分类的前 10 个不利生产差异</li></ul> | <ul><li>实际成本</li><li>生产差异</li><li>生产差异 %</li></ul> |
 
-## <a name="extending-the-power-bi-content"></a>扩展 Power BI 内容
-使用在 Microsoft Dynamics Lifecycle Services (LCS) 中可用的内容包可以对未登录到 Microsoft Dynamics 365 的人员提供出色的分析。 您可以修改这些内容包，使它们包含其他报表或视觉对象，然后将内容包发布到您的 Power BI.com 租户进行分析。
-
-可在 LCS 中的共享资产库内找到**生产性能** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。
-
-请确保下载适用于您使用的 Dynamics 365 版本的**生产性能**内容。
-
-> [!NOTE]
-> 如果您使用的是 Microsoft Dynamics 365 for Operations 版本 1611，则 KB 4011327 是此 Power BI 内容的先决条件。 登录 LCS 之后，可以在以下位置访问该 KB：https://fix.lcs.dynamics.com/issue/results/?q=kb4011327。
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 
@@ -139,12 +130,5 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 | 资源                 | 资源 ID、资源名称、资源类型和资源组 |
 | 产品                  | 产品编号、产品名称、物料 ID 和物料组         |
 
-## <a name="additional-resources"></a>其他资源
 
-以下是与实体和构建 Power BI 内容相关的一些有用的链接：
-
-- [数据实体](../data-entities/data-entities.md)
-- [创建组织内容包](https://powerbi.microsoft.com/en-us/documentation/powerbi-service-organizational-content-packs-introduction/)
-- [使用 Power BI 的数据建模](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-2-1-intro-modeling-data)
-- [将 Power BI 磁贴添加到工作区](configure-power-bi-integration.md)
 

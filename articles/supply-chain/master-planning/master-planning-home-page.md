@@ -8,9 +8,9 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: roxanadiaconu
+ms.reviewer: yuyus
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 

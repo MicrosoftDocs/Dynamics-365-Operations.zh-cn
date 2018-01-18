@@ -2,6 +2,7 @@
 # [云部署的系统要求](../fin-and-ops/get-started/system-requirements.md)
 # [本地部署的系统要求](../fin-and-ops/get-started/system-requirements-on-prem.md)
 # [演示数据](../fin-and-ops/get-started/demo-data.md)
+## [生成演示数据包](data-entities/generate-demo-data-packages.md)
 
 
 # [使用 Visual Studio 进行开发和自定义](dev-tools/developer-home-page.md)
@@ -362,6 +363,7 @@
 ### [OData](data-entities/odata.md)
 ### [客户服务](data-entities/custom-services.md)
 ### [定期集成](data-entities/recurring-integrations.md)
+### [使用第三方服务测试带有服务的实用程序](data-entities/third-party-service-test.md)
 
 ## 集成开发
 ### [使用数据实体进行数据集成](data-entities/data-management-integration-data-entity.md)
@@ -396,6 +398,7 @@
 ### [配置数据包](data-entities/configuration-data-packages.md)
 ### [复制公司间的配置数据](data-entities/copy-configuration.md)
 ### [配置数据模板](data-entities/configuration-data-templates.md)
+### [带有多个工作表的数据模板](data-entities/excel-template-multiple.md)
 ### [跟踪实体更改](data-entities/entity-change-track.md)
 
 ## 标准数据实体
@@ -497,17 +500,20 @@
 
 ## 云部署
 ### [Azure Resource Manager 使用培训](deployment/arm-onboarding.md)
-### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations, Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations，Enterprise edition](deployment/expressroute.md)
 
 ## [本地部署](deployment/on-premises-deployment-landing-page.md)
 ### [本地概览](deployment/on-premises-overview.md)
+### [规划本地部署](deployment/plan-onprem-deployment.md)
 ### [硬件规模调整](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
 ### [创建本地项目](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [设置并部署本地环境](deployment/setup-deploy-on-premises-environments.md)
 ### [开发自定义模型并将其部署到本地环境](deployment/develop-deploy-custom-models-on-premises.md)
-### [将更新为本地部署](deployment/apply-updates-on-premises.md)
+### [将更新应用于本地部署](deployment/apply-updates-on-premises.md)
 ### [重新部署本地部署](deployment/redeploy-on-prem.md)
-### [Dynamics 365 for Finance and Operations, Enterprise edition（本地）故障排除](deployment/troubleshoot-on-prem.md)
+### [更新本地代理](lifecycle-services/update-local-agent.md)
+### [重新配置您的环境](lifecycle-services/reconfigure-environment.md)
+### [Dynamics 365 for Finance and Operations，Enterprise edition 本地故障排除](deployment/troubleshoot-on-prem.md)
 
 ## 部署自定义代码
 ### [创建可部署包](deployment/create-apply-deployable-package.md)

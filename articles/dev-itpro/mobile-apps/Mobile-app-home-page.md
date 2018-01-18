@@ -15,7 +15,7 @@ ms.custom: 272853
 ms.assetid: c99f818f-27b3-4e45-92b4-74272dad0e17
 ms.search.region: Global
 ms.author: sericks
-ms.dyn365.ops.intro: Platform update 4
+ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
 ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0

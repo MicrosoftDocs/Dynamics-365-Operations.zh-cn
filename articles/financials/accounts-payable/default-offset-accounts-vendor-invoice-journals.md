@@ -3,11 +3,12 @@ title: "供应商发票日记帐和发票审核日记帐的默认对方科目"
 description: "本主题将帮助您决定应为发票日记帐分配的默认科目。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

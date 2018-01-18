@@ -3,11 +3,12 @@ title: "创建客户发票"
 description: "**销售订单的客户发票**是与销售相关的、组织提供给客户的单据。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

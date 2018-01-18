@@ -3,11 +3,12 @@ title: "为利息代码设置多种利率"
 description: "利息代码包含相关的设置利息时计费，以及如何在逾期科目计算。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: Interest
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations

@@ -1,9 +1,9 @@
 ---
 title: "员工发展 Power BI 内容"
-description: "此主题描述员工发展 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。"
+description: "此主题描述员工发展 Power BI 内容。"
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: f8ba7a968a1a5b376bac52106671607247f061d9
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 99ae772f3a7fe9ad274a46398a577ad96f18e251
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -27,11 +27,7 @@ ms.lasthandoff: 12/01/2017
 
 [!include[banner](../includes/banner.md)]
 
-此主题描述**员工发展** Microsoft Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。
-
-## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-
-您可以在 Microsoft Dynamics Lifecycle Services (LCS) 中找到共享资产库内的**员工发展**内容包。 有关如何下载内容包并将其连接到您的数据的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。
+此主题描述**员工发展** Microsoft Power BI 内容。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 **员工发展** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
@@ -74,5 +70,4 @@ ms.lasthandoff: 12/01/2017
 | 绩效              | 评级，描述和评级模型                                                                      | 当前员工、当前职位、员工趋势、作业首选技能、过去的职位分配、职位趋势、已离职的员工 |
 |  技能                   | 技能、技能类型和评级                                                                              | 员工技能分析、作业首选技能 |                                                                                                                        
 
-这些实体用于在数据模型中创建计算度量值。 这些计算的度量值之后用于计算在 Power BI 内容中使用的关键绩效指标 (KPI) 和报表。 如果要在报表和仪表板中包含更多计算，可以从 LCS 下载 .pbix 文件并修改。 此文件是用于创建 Power BI 内容的默认数据模型。 修改后，可以创建包含您已添加的信息的组织内容包和仪表板。
 

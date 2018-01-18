@@ -13,7 +13,7 @@ ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
-ms.author: johanhoffmann
+ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

@@ -3,11 +3,12 @@ title: "薪酬 Power BI 内容"
 description: "此主题描述薪酬 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。"
 author: jcart1106
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 12/19/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmCompensationWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent, Core
@@ -16,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 7143a2750d284080609c884ce15bc2b2e8943394
+ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.openlocfilehash: 01841a2da44bfeebc8f8656229c406bd350cb6e5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 12/19/2017
 
 ---
 
@@ -47,13 +48,6 @@ ms.lasthandoff: 12/01/2017
 
 可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
 
-## <a name="extending-the-power-bi-content"></a>扩展 Power BI 内容
-如果您使用的是 Microsoft Dynamics 365 for Operations 版本 1611 或 Finance and Operations Enterprise Edition（2017 年 7 月），您可以查找 LCS 共享资产库中的**薪酬** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](power-bi-content-microsoft-partners.md)。 若要观看显示如何实现 Power BI 内容的演示，请参阅 [Dynamics Lifecycle Services 中来自 Microsoft 和您的合作伙伴的 Power BI 内容](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix。
-
-请确保下载适用于您使用的 Microsoft Dynamics 365 版本的**薪酬** Power BI 内容。
-
->[!NOTE]
->在 Lifecycle Services 中可用的 .pbix 文件仅适用于 Finance and Operations。
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 以下数据用于填充**薪酬** Power BI 内容中的报表。 此表显示内容所基于的实体。
@@ -81,5 +75,5 @@ ms.lasthandoff: 12/01/2017
 | 员工职务           | 职务和资历日期                                                                                   | 当前员工、已离职的员工、员工趋势 |
 | 员工趋势           | 一段时间的工作人员，人数，公司和职位                                                        | 公司、薪酬、地理位置、员工姓名、报告至、日历偏差、日期、员工职务、人口统计学、雇用、作业、福利 |
 
-这些实体用于在数据模型中创建计算度量值。 然后，这些计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。 如果要在报表和仪表板中包含更多计算，可以从 LCS 下载 .pbix 文件并修改。 此文件是用于创建内容的默认数据模型。 修改后，可以创建包含您已添加的信息的组织内容包和仪表板。
+
 
