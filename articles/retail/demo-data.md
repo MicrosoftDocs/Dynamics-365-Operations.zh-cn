@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailTillLayout
 audience: Application user
 ms.search.scope: Operations, Retail
 ms.custom: 

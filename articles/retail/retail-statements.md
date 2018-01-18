@@ -6,8 +6,9 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-ax-retail
 ms.technology: 
+ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Core, Retail
