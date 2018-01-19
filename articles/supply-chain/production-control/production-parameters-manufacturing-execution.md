@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: JmgProdParameters
 audience: Application User
 ms.reviewer: yuyus
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global

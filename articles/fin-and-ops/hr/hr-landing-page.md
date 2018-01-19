@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.search.region: Global
 ms.author: rschloma

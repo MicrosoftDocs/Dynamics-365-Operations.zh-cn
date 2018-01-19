@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: global

@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations
+ms.search.scope: Core, Operations, Talent
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global

@@ -9,6 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
+ms.reviewer: bis
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: bis

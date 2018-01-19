@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab

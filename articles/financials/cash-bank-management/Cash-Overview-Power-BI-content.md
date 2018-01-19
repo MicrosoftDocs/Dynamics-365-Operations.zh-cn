@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30

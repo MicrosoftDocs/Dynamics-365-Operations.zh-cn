@@ -10,7 +10,7 @@ ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Core, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global

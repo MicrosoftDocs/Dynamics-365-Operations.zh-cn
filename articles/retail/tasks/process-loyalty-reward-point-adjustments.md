@@ -10,7 +10,7 @@ ms.service: dynamics-ax-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations
+ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc

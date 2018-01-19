@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30

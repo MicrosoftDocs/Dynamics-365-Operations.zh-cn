@@ -10,7 +10,7 @@ ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations, Core
+ms.search.scope: Core, Operations, Retail
 ms.custom: 261164
 ms.assetid: 9d99a5b9-4662-499a-bece-3ea1d6092934
 ms.search.region: global
