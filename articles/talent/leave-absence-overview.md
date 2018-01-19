@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-talent
 ms.technology: 
-ms.search.form: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
@@ -19,10 +18,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 331e3eae38d3abc9fa545e84d18de91b81352af9
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: a3d3ffdccc139e261345ddf0ae7e06b287a21b09
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="14889-105">休假和缺勤管理概览</span><span class="sxs-lookup"><span data-stu-id="14889-105">Leave and absence management overview</span></span>

@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Operations
+ms.search.scope: Core, Operations, Retail
 ms.custom: 
 ms.search.region: Global
 ms.search.industry: retail
@@ -19,10 +19,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 8e0ef5e6170987b1d78e43823bc132fe9a4c6a02
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: f68671ea2971d1226bd6b878c41d2dae0d47b4a2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 

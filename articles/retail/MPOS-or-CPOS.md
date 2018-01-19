@@ -10,7 +10,7 @@ ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Core, AX 7.0.0, Operations, UnifiedOperations, Retail
+ms.search.scope: Core, Operations, Retail
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -19,10 +19,10 @@ ms.author:
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7efda507ad826b7765431e6cbdd78c3c9246bc7c
-ms.openlocfilehash: 03b7b4d468e35c7b77cf2a2e52c038c0995c7f53
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 47815643a469b9b1d7f1346ef635b56a03d8bef2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/08/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 

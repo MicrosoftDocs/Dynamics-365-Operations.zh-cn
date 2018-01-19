@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-talent
 ms.technology: 
-ms.search.form: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Talent, Core
+ms.search.scope: Core, Talent
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
@@ -19,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: d676cfa6f5648c52368b14e3a54d912b3f4dde4b
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: ce9b5c0c2ec788dac9d27e3b7c46b4a79d1baa94
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 # <a name="attract-overview"></a><span data-ttu-id="523a8-104">Attract 概述</span><span class="sxs-lookup"><span data-stu-id="523a8-104">Attract overview</span></span>

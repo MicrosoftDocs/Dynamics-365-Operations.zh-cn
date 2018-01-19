@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
 ms.reviewer: kfend
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 27621
 ms.assetid: 018a11ae-854c-4f36-9358-8c39baca882d
 ms.search.region: Global
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7378c1d205b9a9cd61044dc33fc52ff75c6b94b7
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 34654c458ce74bf2ee6c2d2bac655d6c399ca393
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 

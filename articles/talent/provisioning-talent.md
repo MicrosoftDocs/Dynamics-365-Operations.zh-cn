@@ -8,7 +8,6 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: Talent
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -19,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 203d444f63644852c41f47014fdecdac7f3d9c72
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: d8516091ea4427f59e01e02f06b0010628c1a8ed
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="fea8a-103">配置 Microsoft Dynamics 365 for Talent</span><span class="sxs-lookup"><span data-stu-id="fea8a-103">Provision Microsoft Dynamics 365 for Talent</span></span>

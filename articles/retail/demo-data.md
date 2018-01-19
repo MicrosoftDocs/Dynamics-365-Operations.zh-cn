@@ -10,7 +10,8 @@ ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailTillLayout
 audience: Application user
-ms.search.scope: Operations, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
@@ -19,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 61a1eeba0e44a2600157f2e5c3f2de042c786d91
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 747c0cfa36e1220342307ae665e69e02eabd3cce
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -96,13 +97,13 @@ ms.lasthandoff: 01/17/2018
 
 | <span data-ttu-id="3690f-173">布局类型</span><span class="sxs-lookup"><span data-stu-id="3690f-173">Layout type</span></span> | <span data-ttu-id="3690f-174">分辨率</span><span class="sxs-lookup"><span data-stu-id="3690f-174">Resolution</span></span> | <span data-ttu-id="3690f-175">纵横比</span><span class="sxs-lookup"><span data-stu-id="3690f-175">Aspect ratio</span></span> | <span data-ttu-id="3690f-176">目标显示</span><span class="sxs-lookup"><span data-stu-id="3690f-176">Target display</span></span>          |
 |-------------|------------|--------------|-------------------------|
-| <span data-ttu-id="3690f-177">压缩\\*</span><span class="sxs-lookup"><span data-stu-id="3690f-177">Compact\\*</span></span>   | <span data-ttu-id="3690f-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="3690f-178">480 × 853</span></span>  | <span data-ttu-id="3690f-179">16:9</span><span class="sxs-lookup"><span data-stu-id="3690f-179">16:9</span></span>         | <span data-ttu-id="3690f-180">电话</span><span class="sxs-lookup"><span data-stu-id="3690f-180">Phones</span></span>                  |
+| <span data-ttu-id="3690f-177">压缩\*</span><span class="sxs-lookup"><span data-stu-id="3690f-177">Compact\*</span></span>   | <span data-ttu-id="3690f-178">480 × 853</span><span class="sxs-lookup"><span data-stu-id="3690f-178">480 × 853</span></span>  | <span data-ttu-id="3690f-179">16:9</span><span class="sxs-lookup"><span data-stu-id="3690f-179">16:9</span></span>         | <span data-ttu-id="3690f-180">电话</span><span class="sxs-lookup"><span data-stu-id="3690f-180">Phones</span></span>                  |
 | <span data-ttu-id="3690f-181">完全</span><span class="sxs-lookup"><span data-stu-id="3690f-181">Full</span></span>        | <span data-ttu-id="3690f-182">1024 × 768</span><span class="sxs-lookup"><span data-stu-id="3690f-182">1024 × 768</span></span> | <span data-ttu-id="3690f-183">4:3</span><span class="sxs-lookup"><span data-stu-id="3690f-183">4:3</span></span>          | <span data-ttu-id="3690f-184">平板电脑</span><span class="sxs-lookup"><span data-stu-id="3690f-184">Tablets</span></span>                 |
-| <span data-ttu-id="3690f-185">完全\\*</span><span class="sxs-lookup"><span data-stu-id="3690f-185">Full\\*</span></span>      | <span data-ttu-id="3690f-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="3690f-186">1280 × 720</span></span> | <span data-ttu-id="3690f-187">16:9</span><span class="sxs-lookup"><span data-stu-id="3690f-187">16:9</span></span>         | <span data-ttu-id="3690f-188">平板电脑</span><span class="sxs-lookup"><span data-stu-id="3690f-188">Tablets</span></span>                 |
+| <span data-ttu-id="3690f-185">完全\*</span><span class="sxs-lookup"><span data-stu-id="3690f-185">Full\*</span></span>      | <span data-ttu-id="3690f-186">1280 × 720</span><span class="sxs-lookup"><span data-stu-id="3690f-186">1280 × 720</span></span> | <span data-ttu-id="3690f-187">16:9</span><span class="sxs-lookup"><span data-stu-id="3690f-187">16:9</span></span>         | <span data-ttu-id="3690f-188">平板电脑</span><span class="sxs-lookup"><span data-stu-id="3690f-188">Tablets</span></span>                 |
 | <span data-ttu-id="3690f-189">完全</span><span class="sxs-lookup"><span data-stu-id="3690f-189">Full</span></span>        | <span data-ttu-id="3690f-190">1366 × 768</span><span class="sxs-lookup"><span data-stu-id="3690f-190">1366 × 768</span></span> | <span data-ttu-id="3690f-191">16:9</span><span class="sxs-lookup"><span data-stu-id="3690f-191">16:9</span></span>         | <span data-ttu-id="3690f-192">平板电脑，较大屏幕</span><span class="sxs-lookup"><span data-stu-id="3690f-192">Tablets, larger screens</span></span> |
 | <span data-ttu-id="3690f-193">完全</span><span class="sxs-lookup"><span data-stu-id="3690f-193">Full</span></span>        | <span data-ttu-id="3690f-194">1440 × 960</span><span class="sxs-lookup"><span data-stu-id="3690f-194">1440 × 960</span></span> | <span data-ttu-id="3690f-195">3:2</span><span class="sxs-lookup"><span data-stu-id="3690f-195">3:2</span></span>          | <span data-ttu-id="3690f-196">平板电脑，较大屏幕</span><span class="sxs-lookup"><span data-stu-id="3690f-196">Tablets, larger screens</span></span> |
 
-<span data-ttu-id="3690f-197">\\*这些额外的布局大小仅在 Adventure Works 和 Fabrikam 布局中提供。</span><span class="sxs-lookup"><span data-stu-id="3690f-197">\\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
+<span data-ttu-id="3690f-197">\*这些额外的布局大小仅在 Adventure Works 和 Fabrikam 布局中提供。</span><span class="sxs-lookup"><span data-stu-id="3690f-197">\* These additional layout sizes are available only in Adventure Works and Fabrikam layouts.</span></span>
 
 
 >[!TIP]

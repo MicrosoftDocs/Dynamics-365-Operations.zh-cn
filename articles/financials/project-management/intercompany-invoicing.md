@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad14e2d145c6f6620bf8a31738fafa50d033d246
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 1dc6afd5df1fceab3807cf132dfc6a49a85a3305
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -59,9 +60,9 @@ ms.lasthandoff: 11/03/2017
 
 1.  <span data-ttu-id="d78d0-131">将 FRSI 设置为 USSI 法人的客户，并将 USSI 设置为 FRSI 法人的供应商。</span><span class="sxs-lookup"><span data-stu-id="d78d0-131">Set up FRSI as a customer in the USSI legal entity, and set up USSI as a vendor in the FRSI legal entity.</span></span> <span data-ttu-id="d78d0-132">有三个此任务所需的步骤的入口点。</span><span class="sxs-lookup"><span data-stu-id="d78d0-132">There are three entry points for the steps that are required for this task.</span></span>
     | <span data-ttu-id="d78d0-133">步骤</span><span class="sxs-lookup"><span data-stu-id="d78d0-133">Step</span></span> | <span data-ttu-id="d78d0-134">入口点</span><span class="sxs-lookup"><span data-stu-id="d78d0-134">Entry point</span></span>                                                                       | <span data-ttu-id="d78d0-135">说明</span><span class="sxs-lookup"><span data-stu-id="d78d0-135">Description</span></span>   |
-    |------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-    | <span data-ttu-id="d78d0-136">A</span><span class="sxs-lookup"><span data-stu-id="d78d0-136">A</span></span>    | <span data-ttu-id="d78d0-137">在 USSI 中，单击**应收账款** &gt; **客户** &gt; **所有客户**。</span><span class="sxs-lookup"><span data-stu-id="d78d0-137">In USSI, click **Accounts receivable** &gt; **Customers** &gt; **All customers**.</span></span> | <span data-ttu-id="d78d0-138">为 FRSI 创建新的客户记录，然后选择客户组。</span><span class="sxs-lookup"><span data-stu-id="d78d0-138">Create a new customer record for FRSI, and select the customer group.</span></span>                                                                                                                                                                                                                           |
-    | <span data-ttu-id="d78d0-139">B</span><span class="sxs-lookup"><span data-stu-id="d78d0-139">B</span></span>    | <span data-ttu-id="d78d0-140">在 FRSI 中，单击**应付账款** &gt; **供应商** &gt; **所有供应商**。</span><span class="sxs-lookup"><span data-stu-id="d78d0-140">In FRSI, click **Accounts payable** &gt; **Vendors** &gt; **All vendors**.</span></span>        | <span data-ttu-id="d78d0-141">为 USSI 新建供应商记录，然后选择供应商组。</span><span class="sxs-lookup"><span data-stu-id="d78d0-141">Create a new vendor record for USSI, and select the vendor group.</span></span>                                                                                                                                                                                                                               |
+    |------|-----------------------------------------------------------------------------------|------------------|
+    | <span data-ttu-id="d78d0-136">A</span><span class="sxs-lookup"><span data-stu-id="d78d0-136">A</span></span>    | <span data-ttu-id="d78d0-137">在 USSI 中，单击**应收账款** &gt; **客户** &gt; **所有客户**。</span><span class="sxs-lookup"><span data-stu-id="d78d0-137">In USSI, click **Accounts receivable** &gt; **Customers** &gt; **All customers**.</span></span> | <span data-ttu-id="d78d0-138">为 FRSI 创建新的客户记录，然后选择客户组。</span><span class="sxs-lookup"><span data-stu-id="d78d0-138">Create a new customer record for FRSI, and select the customer group.</span></span>                                                                                  |
+    | <span data-ttu-id="d78d0-139">B</span><span class="sxs-lookup"><span data-stu-id="d78d0-139">B</span></span>    | <span data-ttu-id="d78d0-140">在 FRSI 中，单击**应付账款** &gt; **供应商** &gt; **所有供应商**。</span><span class="sxs-lookup"><span data-stu-id="d78d0-140">In FRSI, click **Accounts payable** &gt; **Vendors** &gt; **All vendors**.</span></span>        | <span data-ttu-id="d78d0-141">为 USSI 新建供应商记录，然后选择供应商组。</span><span class="sxs-lookup"><span data-stu-id="d78d0-141">Create a new vendor record for USSI, and select the vendor group.</span></span>                                                                                    |
     | <span data-ttu-id="d78d0-142">C</span><span class="sxs-lookup"><span data-stu-id="d78d0-142">C</span></span>    | <span data-ttu-id="d78d0-143">在 FRSI 中，打开您刚刚创建的供应商记录。</span><span class="sxs-lookup"><span data-stu-id="d78d0-143">In FRSI, open the vendor record that you just created.</span></span>                            | <span data-ttu-id="d78d0-144">在“操作”窗格中，在**常规**选项卡上，在**设置**组中，单击**内部公司**。</span><span class="sxs-lookup"><span data-stu-id="d78d0-144">On the Action Pane, on the **General** tab, in the **Set up** group, click **Intercompany**.</span></span> <span data-ttu-id="d78d0-145">在**内部公司**页，请在**贸易关系**选项卡上，设置**有效**滑块为**是**。</span><span class="sxs-lookup"><span data-stu-id="d78d0-145">On the **Intercompany** page, on the **Trading relationship** tab, set the **Active** slider to **Yes**.</span></span> <span data-ttu-id="d78d0-146">在**客户公司**字段中，选择您在步骤 A 中创建的客户记录。</span><span class="sxs-lookup"><span data-stu-id="d78d0-146">In the **Customer company** field, select the customer record that you created in step A.</span></span> |
 
 2.  <span data-ttu-id="d78d0-147">单击**项目管理与核算** &gt; **设置** &gt; **项目管理核算参数**，然后单击**内部公司**选项卡。您设置参数的方法取决于您是借入法人还是借出法人。</span><span class="sxs-lookup"><span data-stu-id="d78d0-147">Click **Project management and accounting** &gt; **Setup** &gt; **Project management accounting parameters**, and then click the **Intercompany** tab. The way that you set up the parameters depends on whether you're the borrowing legal entity or the lending legal entity.</span></span>

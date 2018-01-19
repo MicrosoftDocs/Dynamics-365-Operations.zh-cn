@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ff1818d927f7ab9212c4d5d9109c426be5e0e152
-ms.openlocfilehash: 0d11e4fecc4c42636be63c1ce622f0b2f8e58f2c
+ms.sourcegitcommit: 17a7d9c40d07524378a671397fed566b9bd3af6b
+ms.openlocfilehash: af284d31714df7fe87d49b311c951f9df818fa22
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -47,10 +48,12 @@ ms.lasthandoff: 11/29/2017
 -   <span data-ttu-id="276ec-113">已付款发票为已经在 Finance and Operations 中全额付清的发票。</span><span class="sxs-lookup"><span data-stu-id="276ec-113">Paid invoices are those that have been fully paid in Finance and Operations.</span></span>
 
 <span data-ttu-id="276ec-114">单击磁贴将打开“**发票列表**”页面的筛选视图。</span><span class="sxs-lookup"><span data-stu-id="276ec-114">Clicking on a tile will open a filtered view of the **Invoices list** page.</span></span>
+
 ### <a name="tabular-lists"></a><span data-ttu-id="276ec-115">表格式列表</span><span class="sxs-lookup"><span data-stu-id="276ec-115">Tabular lists</span></span>
 
 <span data-ttu-id="276ec-116">在“**表格式列表**”部分，发票的状态按照与汇总磁贴类似的方式分解：草稿和已提交，未审核的列表。</span><span class="sxs-lookup"><span data-stu-id="276ec-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="276ec-117">在“草稿”状态，发票可以提交到工作流或删除。</span><span class="sxs-lookup"><span data-stu-id="276ec-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="276ec-118">最后一个表格式列表是用来查找发票的选项。</span><span class="sxs-lookup"><span data-stu-id="276ec-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="276ec-119">您可以在搜索时进行筛选，以便更快地进行搜索。</span><span class="sxs-lookup"><span data-stu-id="276ec-119">You can filter as you search, to allow for faster searches.</span></span>
-<span data-ttu-id="276ec-120">所有供应商发票列表页</span><span class="sxs-lookup"><span data-stu-id="276ec-120">All vendor invoices list page</span></span>
+
+<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="276ec-120">所有供应商发票列表页</span><span class="sxs-lookup"><span data-stu-id="276ec-120">All vendor invoices list page</span></span>
 -----------------------------
 
 <span data-ttu-id="276ec-121">您可以在**供应商协作发票**列表页上查看所有已过帐和未过帐的供应商发票。</span><span class="sxs-lookup"><span data-stu-id="276ec-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="276ec-122">您可以使用此列表页查看发票的付款状态。</span><span class="sxs-lookup"><span data-stu-id="276ec-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="276ec-123">付款状态包括未过帐，未付款，部分支付和完全支付。</span><span class="sxs-lookup"><span data-stu-id="276ec-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>

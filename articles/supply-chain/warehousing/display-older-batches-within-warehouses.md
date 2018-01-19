@@ -11,17 +11,17 @@ ms.technology:
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 68477589ee43dcd7d6258ad259d2f0b8cf0050ca
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: fedb9162c81b9fa115b63402fe80cd4c857e8deb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 

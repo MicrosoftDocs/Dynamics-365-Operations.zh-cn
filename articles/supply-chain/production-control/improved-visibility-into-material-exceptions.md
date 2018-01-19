@@ -10,17 +10,17 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: bis
-ms.search.scope: AX 7.3.0, Operations, UnifiedOperations
+ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 29c5cf9af6b678bacb7ba6ad5dbba41acf191da6
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: e1e2c3f49212a4f8f88bedbb6ba9cfc65a097cc5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/19/2018
 
 ---
 # <a name="visibility-into-material-exceptions"></a><span data-ttu-id="81301-103">物料异常的可见性</span><span class="sxs-lookup"><span data-stu-id="81301-103">Visibility into material exceptions</span></span>
