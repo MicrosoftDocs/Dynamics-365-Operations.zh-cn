@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -19,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bd84dde353972d2d259706dd9f8f3621cef04472
+ms.sourcegitcommit: 83d9b76334c887a92c357eceeffd36e9a1e65b7f
+ms.openlocfilehash: 86b8e5755f5b2591c04ad6f2335d2ed874102a75
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
