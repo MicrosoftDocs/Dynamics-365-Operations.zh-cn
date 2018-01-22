@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ReqGroup
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0990ddc9c330b1d590e4c49eba0582c9cf70aa06
+ms.sourcegitcommit: 938c70faf11acc9a3ab76691b09bb37e51af02c2
+ms.openlocfilehash: e2c5bc4bc64f0f90834fab14b71cc87e3fd202dc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
