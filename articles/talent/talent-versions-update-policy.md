@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-talent
 ms.technology: 
-ms.search.form: Talent, update policy, requirements, system requirements
 audience: Application User, IT Pro
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations
+ms.search.scope: Core, Operations, Talent
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
