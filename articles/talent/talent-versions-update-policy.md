@@ -8,10 +8,9 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-talent
 ms.technology: 
-ms.search.form: Talent, update policy, requirements, system requirements
 audience: Application User, IT Pro
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations
+ms.search.scope: Core, Operations, Talent
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global
@@ -19,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 516d5c916b2078b72707d7088acb758dbb8f4134
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 2dc9758315903bd29f2656e82ecc185ec51def30
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/23/2018
 
 ---
 
