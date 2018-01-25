@@ -31,14 +31,14 @@ ms.lasthandoff: 12/18/2017
 
 此主题描述**实际与预算** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。 
 
-# <a name="overview"></a>概览
+## <a name="overview"></a>概览
 
 **实际与预算** Power BI 内容为负责监督组织中的实际与预算绩效的人员而创建。 **实际与预算** Power BI 内容可用于查看您的预算差异。 您可以按科目类别、预算代码、主科目、主科目描述或会计期间分析当前年度的预算，以更好地了解任何差异的原因。 
 
-# <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
+## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 来自**实际与预算** Power BI 内容的报表显示在**分类帐预算和预测** 和 **CFO** 工作区中。
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
+## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 下表提供有关在**实际与预算** Power BI 内容中的每个报表页找到的指标的详细信息。
 
 | 报告                      | 指标 |
@@ -50,7 +50,7 @@ ms.lasthandoff: 12/18/2017
 | 净收益                  | <ul><li>本年度净收益</li><li>基于预算的净收益目标 </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
+## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 
 | 实体                    | 内容 |
 |---------------------------|----------|

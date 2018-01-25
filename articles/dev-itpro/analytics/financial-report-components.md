@@ -112,7 +112,7 @@ ms.lasthandoff: 11/03/2017
 3.  选择构建基块，然后单击**“撤消签出”**。
 4.  单击**“是”**以签入构建基块。
 
-# <a name="see-also"></a>请参阅
+## <a name="see-also"></a>请参阅
 
 [财务申报](financial-reporting-intro.md)
 

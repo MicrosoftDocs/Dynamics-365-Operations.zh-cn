@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 本文介绍财务报表中行定义的每个单元格必需的信息，并解释如何输入该信息。 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a>在行定义中指定行代码
+## <a name="specify-a-row-code-in-a-row-definition"></a>在行定义中指定行代码
 
 在行定义中，**“行代码”**单元格中的编号或标签标识行定义中的每一行。 你可以指定行代码来引用计算和总计中的数据。
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 11/03/2017
 4.  选择要删除的维度集，然后单击**“删除”**。 单击**“是”**可永久删除维度值集。
 
 
-<a name="see-also"></a>请参阅
---------
+## <a name="see-also"></a>请参阅
 
 [财务申报](financial-reporting-intro.md)
 

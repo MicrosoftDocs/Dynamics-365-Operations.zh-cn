@@ -53,10 +53,9 @@ Julia 使用以下 Excel 模板编制预算：
 
 [![Excel 模板](./media/screenshot2-1024x352.png)](./media/screenshot2.png)
 
-<a name="exercise-1-configuration"></a>练习 1：配置
-=========================
+## <a name="exercise-1-configuration"></a>练习 1：配置
 
-## <a name="task-1-create-organizational-hierarchy"></a>**任务 1：创建组织的层次结构**
+### <a name="task-1-create-organizational-hierarchy"></a>**任务 1：创建组织的层次结构**
 由于所有预算流程在财务部门进行，因此 Julia 需要创建非常简单的组织层次结构 – 仅包括财务部门。 1.1. 导航到组织层次结构（“组织管理”&gt;>“组织”&gt;“组织层次结构”），然后单击新的按钮
 
 ![组织层次结构](./media/screenshot3.png) 
@@ -85,7 +84,7 @@ Julia 使用以下 Excel 模板编制预算：
 
 [![有效日期](./media/screenshot9.png)](./media/screenshot9.png)
 
-## <a name="task-2-configure-user-security"></a>任务 2：配置用户安全性
+### <a name="task-2-configure-user-security"></a>任务 2：配置用户安全性
 预算计划使用特殊安全策略配置对预算计划数据的访问。 Julia 需要授予她自己对财务预算计划的访问权限。 
 
 2.1. 切换到 DEMF 法人环境。 
@@ -109,7 +108,7 @@ Julia 使用以下 Excel 模板编制预算：
 
 [![授予访问权](./media/screenshot14.png)](./media/screenshot14.png)
 
-## <a name="task-3-create-scenarios"></a>任务 3：创建方案
+### <a name="task-3-create-scenarios"></a>任务 3：创建方案
 3.1. 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“方案”页，请注意我们在此实验室将进一步使用的方案：上一年实际和预算。 
 
 *注意：如果您需要，可以为此练习创建新的方案并使用这些方案。* 
@@ -118,7 +117,7 @@ Julia 使用以下 Excel 模板编制预算：
 
 *注意：因为 Julia 未为预算编制使用正式审核流程，我们在此实验室将跳过工作流、阶段和工作流阶段设置，并且将使用现有的自动 – 审核工作流设置。请参阅此工作流配置的附录。*
 
-## <a name="task-4-create-budget-plan-columns"></a>任务4：创建预算计划列
+### <a name="task-4-create-budget-plan-columns"></a>任务4：创建预算计划列
 预算计划列可以是基于货币或基于数量的列，可用于预算计划文档格式。 在我们的示例中，我们需要创建上一年实际列以及在一个预算年度中表示每个月的 12 个列。 列可以通过单击“添加”按钮并填充值来创建，也可以使用数据实体协助。 在此实验室，我们将使用数据实体填充值。 
 
 4.1. 在“预算编制”&gt;“设置”&gt;“预算计划”&gt;“预算计划配置”中打开“列”页。 单击窗体右上角的 Office 按钮并且选择“列”（未筛选） 
@@ -151,7 +150,7 @@ Julia 使用以下 Excel 模板编制预算：
 
 [![刷新](./media/screenshot23.png)](./media/screenshot23.png)
 
-## <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>任务 5：创建预算计划文档格式和模板
+### <a name="task-5-create-budget-plan-document-layouts-and-templates"></a>任务 5：创建预算计划文档格式和模板
 格式定义当用户打开预算计划文档时，预算计划文档行网格将呈现的外观。 它还可以切换预算计划文档的格式，可以在不同的角度查看相同数据。 现在，因为她将列定义为用于我们的预算计划文档，Julia 需要创建预算计划文档格式，其将看起来类似于她用于创建预算数据的 Excel 表（参见此实验室的“方案概览”部分） 
 
 5.1。 在“预算编制”&gt;“设置”&gt;“预算计划”&gt;“预算计划配置”中打开“格式”页。 创建月度预算条目的新格式：
@@ -171,7 +170,7 @@ Julia 使用以下 Excel 模板编制预算：
 
 5.3。 &lt;可选步骤&gt; 修改 Excel 模板使它看似对用户更易用 – 添加汇总公式、标题字段、格式等。保存更改并上载该文件到预算计划格式，方法是通过单击“布局”&gt;“上载”[ ![上载](./media/screenshot26.png)](./media/screenshot26.png)
 
-## <a name="task-6-create-a-budget-planning-process"></a>任务 6：创建预算计划流程
+### <a name="task-6-create-a-budget-planning-process"></a>任务 6：创建预算计划流程
 Julia 需要创建和激活合并上述所有设置的新预算计划流程以开始输入预算计划。 预算计划流程定义哪些预算组织、工作流、格式和模板用于创建预算计划。 
 
 6.1. 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;“预算计划流程”并创建新记录。
@@ -192,10 +191,9 @@ Julia 需要创建和激活合并上述所有设置的新预算计划流程以�
 
 [![启用](./media/screenshot28.png)](./media/screenshot28.png)
 
-<a name="exercise-2-process-simulation"></a>练习 2：流程模似
-==============================
+## <a name="exercise-2-process-simulation"></a>练习 2：流程模似
 
-## <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>任务 7：从总帐生成预算计划的初始数据
+### <a name="task-7-generate-initial-data-for-budget-plan-from-general-ledger"></a>任务 7：从总帐生成预算计划的初始数据
 7.1. 导航到“预算编制”&gt;“定期”&gt;“从总帐生成预算计划”。 填写定期流程参数，然后单击“生成”按钮。 
 
 [![生成](./media/screenshot29.png)](./media/screenshot29.png) 
@@ -208,7 +206,7 @@ Julia 需要创建和激活合并上述所有设置的新预算计划流程以�
 
 [![预算计划显示](./media/screenshot31.png)](./media/screenshot31.png)
 
-## <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>任务 8：基于上一年度实际创建当前年度预算
+### <a name="task-8-create-current-year-budget-based-on-previous-year-actuals"></a>任务 8：基于上一年度实际创建当前年度预算
 分配方法可用于在预算计划中轻松地将预算计划的信息从一个方案复制到另一个/在各个期间内分布它们/分配到维度。 我们将使用分配来从上一年度实际创建当前年度预算。 
 
 8.1. 在预算计划文档网格中选择所有行，然后单击按钮分配预算 
@@ -223,7 +221,7 @@ Julia 需要创建和激活合并上述所有设置的新预算计划流程以�
 
 [![销售曲线](./media/screenshot34.png)](./media/screenshot34.png)
 
-## <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>任务 9：使用 Excel 调整预算计划文档并完成文档
+### <a name="task-9-adjust-budget-plan-document-using-excel-and-finalize-the-document"></a>任务 9：使用 Excel 调整预算计划文档并完成文档
 9.1. 单击按钮“工作表”在 Excel 中打开文档内容
 
 [![Excel](./media/screenshot35.png)](./media/screenshot35.png)
@@ -238,8 +236,7 @@ Julia 需要创建和激活合并上述所有设置的新预算计划流程以�
 
 一旦完成工作流，预算计划文档阶段更改为“已审核”。 [![已审核](./media/screenshot38.png)](./media/screenshot38.png)
 
-<a name="appendix"></a>附录
-========
+## <a name="appendix"></a>附录
 
 ### <a name="auto-approve-workflow-configuration"></a>自动审核工作流配置
 
