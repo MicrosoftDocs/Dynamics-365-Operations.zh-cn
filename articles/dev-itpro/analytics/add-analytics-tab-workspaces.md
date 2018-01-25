@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 7a3ff5a00af72dd7810337d1390b39d4f849dada
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 9447b0d9eedbdd56f1e221a48f687a94a19d31c4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -30,14 +30,14 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="2f317-104">此功能在 Dynamics 365 for Finance and Operations（版本 7.2 及更高版本）上受支持。</span><span class="sxs-lookup"><span data-stu-id="2f317-104">This feature is supported in Dynamics 365 for Finance and Operations (version 7.2 and later).</span></span>
 
-# <a name="introduction"></a><span data-ttu-id="2f317-105">简介</span><span class="sxs-lookup"><span data-stu-id="2f317-105">Introduction</span></span>
+## <a name="introduction"></a><span data-ttu-id="2f317-105">简介</span><span class="sxs-lookup"><span data-stu-id="2f317-105">Introduction</span></span>
 <span data-ttu-id="2f317-106">本主题说明如何在工作区的**分析**选项卡上嵌入 Microsoft Power BI 报表。</span><span class="sxs-lookup"><span data-stu-id="2f317-106">This topic shows how to embed a Microsoft Power BI report on the **Analytics** tab of a workspace.</span></span> <span data-ttu-id="2f317-107">对于此处提供的示例，我们将“车队管理”应用程序中的**预订管理**工作区扩展到在**分析**选项卡上嵌入分析工作区。</span><span class="sxs-lookup"><span data-stu-id="2f317-107">For the example that is given here, we will extend the **Reservation management** workspace in the Fleet Management application to embed an analytical workspace on an **Analytics** tab.</span></span>
 
-# <a name="prerequisites"></a><span data-ttu-id="2f317-108">必备项</span><span class="sxs-lookup"><span data-stu-id="2f317-108">Prerequisites</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="2f317-108">必备项</span><span class="sxs-lookup"><span data-stu-id="2f317-108">Prerequisites</span></span>
 + <span data-ttu-id="2f317-109">对运行平台更新 8 或更高版本的开发人员环境的访问权限。</span><span class="sxs-lookup"><span data-stu-id="2f317-109">Access to a developer environment that runs Platform update 8 or later.</span></span>
 + <span data-ttu-id="2f317-110">使用 Microsoft Power BI 桌面创建的分析报表（.pbix 文件），且具有从实体商店数据库采购的数据模型。</span><span class="sxs-lookup"><span data-stu-id="2f317-110">An analytical report (.pbix file) that was created by using Microsoft Power BI Desktop, and that has a data model that is sourced from the Entity store database.</span></span>
 
-# <a name="overview"></a><span data-ttu-id="2f317-111">概览</span><span class="sxs-lookup"><span data-stu-id="2f317-111">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="2f317-111">概览</span><span class="sxs-lookup"><span data-stu-id="2f317-111">Overview</span></span>
 <span data-ttu-id="2f317-112">无论你是扩展现有的应用程序工作区，还是引入你自己创建新的工作区，都可以使用嵌入的分析视图来提供对你的业务数据的具有见解和交互的视图。</span><span class="sxs-lookup"><span data-stu-id="2f317-112">Whether you extend an existing application workspace or introduce a new workspace of your own, you can use embedded analytical views to deliver insightful and interactive views of your business data.</span></span> <span data-ttu-id="2f317-113">添加分析工作区选项卡的流程具有四个步骤。</span><span class="sxs-lookup"><span data-stu-id="2f317-113">The process for adding an analytical workspace tab has four steps.</span></span>
 
 1. <span data-ttu-id="2f317-114">将 .pbix 文件添加为 Dynamics 365 资源。</span><span class="sxs-lookup"><span data-stu-id="2f317-114">Add a .pbix file as a Dynamics 365 resource.</span></span>
@@ -48,7 +48,7 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="2f317-118">有关如何创建分析报表的详细信息，请参阅 [Power BI 桌面入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。</span><span class="sxs-lookup"><span data-stu-id="2f317-118">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span> <span data-ttu-id="2f317-119">此页是提供帮助你创建出色的分析报告解决方案的见解的出色来源。</span><span class="sxs-lookup"><span data-stu-id="2f317-119">This page is a great source for insights that can help you create compelling analytical reporting solutions.</span></span>
 
-# <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="2f317-120">将 .pbix 文件添加为资源。</span><span class="sxs-lookup"><span data-stu-id="2f317-120">Add a .pbix file as a resource</span></span>
+## <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="2f317-120">将 .pbix 文件添加为资源。</span><span class="sxs-lookup"><span data-stu-id="2f317-120">Add a .pbix file as a resource</span></span>
 <span data-ttu-id="2f317-121">在开始之前，你必须创建或获得在工作区中将嵌入的 Power BI 报表。</span><span class="sxs-lookup"><span data-stu-id="2f317-121">Before you begin, you must create or obtain the Power BI report that you will embed in the workspace.</span></span> <span data-ttu-id="2f317-122">有关如何创建分析报表的详细信息，请参阅 [Power BI 桌面入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。</span><span class="sxs-lookup"><span data-stu-id="2f317-122">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span>
  
 <span data-ttu-id="2f317-123">执行以下步骤以将 .pbix 文件添加为 Visual Studio 项目。</span><span class="sxs-lookup"><span data-stu-id="2f317-123">Follow these steps to add a .pbix file as a Visual Studio project artifact.</span></span>
@@ -66,7 +66,7 @@ ms.lasthandoff: 01/19/2018
   
 <span data-ttu-id="2f317-131">既然你已将 .pbix 文件添加为 Dynamics 365 资源，你现在可以在工作区中嵌入报表并使用菜单项添加直接链接。</span><span class="sxs-lookup"><span data-stu-id="2f317-131">Now that you've added the .pbix file as a Dynamics 365 resource, you can embed the reports in workspaces and add direct links by using menu items.</span></span>
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="2f317-132">将选项卡控件添加到应用程序工作区</span><span class="sxs-lookup"><span data-stu-id="2f317-132">Add a tab control to an application workspace</span></span>
+## <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="2f317-132">将选项卡控件添加到应用程序工作区</span><span class="sxs-lookup"><span data-stu-id="2f317-132">Add a tab control to an application workspace</span></span>
 <span data-ttu-id="2f317-133">在此示例中，我们将通过将**分析**选项卡添加到 **FMClerkWorkspace** 窗体的定义中的方式扩展车队管理模型中的**预订管理**工作区。</span><span class="sxs-lookup"><span data-stu-id="2f317-133">In this example, we will extend the **Reservation management** workspace in the Fleet Management model by adding the **Analytics** tab to the definition of the **FMClerkWorkspace** form.</span></span>
  
 <span data-ttu-id="2f317-134">下图显示 **FMClerkWorkspace** 窗体在 Microsoft Visual Studio 中的设计器中的外观。</span><span class="sxs-lookup"><span data-stu-id="2f317-134">The following illustration shows what the **FMClerkWorkspace** form looks like in the designer in Microsoft Visual Studio.</span></span>
@@ -105,7 +105,7 @@ ms.lasthandoff: 01/19/2018
  
 <span data-ttu-id="2f317-161">你现在已完成了扩展应用程序窗体定义的任务。</span><span class="sxs-lookup"><span data-stu-id="2f317-161">You've now completed the task of extending the application form definition.</span></span> <span data-ttu-id="2f317-162">有关如何使用扩展执行自定义的详细信息，请参阅[自定义：覆盖和扩展](../extensibility/customization-overlayering-extensions.md)。</span><span class="sxs-lookup"><span data-stu-id="2f317-162">For more information about how to use extensions to do customizations, see  [Customization: Overlayering and extensions](../extensibility/customization-overlayering-extensions.md).</span></span>
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="2f317-163">添加 X++ 业务逻辑以嵌入查看器控件</span><span class="sxs-lookup"><span data-stu-id="2f317-163">Add X++ business logic to embed a viewer control</span></span>
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="2f317-163">添加 X++ 业务逻辑以嵌入查看器控件</span><span class="sxs-lookup"><span data-stu-id="2f317-163">Add X++ business logic to embed a viewer control</span></span>
 <span data-ttu-id="2f317-164">按照下面的步骤添加初始化在**预订管理**工作区中嵌入的报表查看器控件的业务逻辑。</span><span class="sxs-lookup"><span data-stu-id="2f317-164">Follow these steps to add business logic that initializes the report viewer control that is embedded in the **Reservation management** workspace.</span></span>
 
 1. <span data-ttu-id="2f317-165">打开 **FMClerkWorkspace** 窗体设计器以扩展设计定义。</span><span class="sxs-lookup"><span data-stu-id="2f317-165">Open the **FMClerkWorkspace** form designer to extend the design definition.</span></span>
@@ -151,12 +151,12 @@ ms.lasthandoff: 01/19/2018
 > [!NOTE]
 > <span data-ttu-id="2f317-172">你可以使用页标题下方的工作区选项卡访问现有的操作视图。</span><span class="sxs-lookup"><span data-stu-id="2f317-172">You can access the existing operational view by using the workspace tabs below the page title.</span></span>
 
-# <a name="reference"></a><span data-ttu-id="2f317-173">参考</span><span class="sxs-lookup"><span data-stu-id="2f317-173">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="2f317-173">参考</span><span class="sxs-lookup"><span data-stu-id="2f317-173">Reference</span></span>
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="2f317-174">PBIReportHelper.initializeReportControl 方法</span><span class="sxs-lookup"><span data-stu-id="2f317-174">PBIReportHelper.initializeReportControl method</span></span>
+### <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="2f317-174">PBIReportHelper.initializeReportControl 方法</span><span class="sxs-lookup"><span data-stu-id="2f317-174">PBIReportHelper.initializeReportControl method</span></span>
 <span data-ttu-id="2f317-175">本节提供有关用于在窗体组控件中嵌入 Power BI 报表（.pbix 资源）的帮助程序类的信息。</span><span class="sxs-lookup"><span data-stu-id="2f317-175">This section provides information about the helper class that is used to embed a Power BI report (.pbix resource) in a form group control.</span></span>
 
-### <a name="syntax"></a><span data-ttu-id="2f317-176">语法</span><span class="sxs-lookup"><span data-stu-id="2f317-176">Syntax</span></span>
+#### <a name="syntax"></a><span data-ttu-id="2f317-176">语法</span><span class="sxs-lookup"><span data-stu-id="2f317-176">Syntax</span></span>
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a><span data-ttu-id="2f317-177">参数设置</span><span class="sxs-lookup"><span data-stu-id="2f317-177">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="2f317-177">参数设置</span><span class="sxs-lookup"><span data-stu-id="2f317-177">Parameters</span></span>
 
 | <span data-ttu-id="2f317-178">姓名</span><span class="sxs-lookup"><span data-stu-id="2f317-178">Name</span></span> | <span data-ttu-id="2f317-179">说明</span><span class="sxs-lookup"><span data-stu-id="2f317-179">Description</span></span> |
 |---|---|

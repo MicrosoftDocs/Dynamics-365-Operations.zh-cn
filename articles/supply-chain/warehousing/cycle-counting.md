@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 68ae9bad8c15f06689c4660ccad27eff5d01c93c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -137,7 +137,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="d7825-192">您可以调整盘点结果值的差异，然后在**待审阅的周期盘点**页上接受该盘点结果值。</span><span class="sxs-lookup"><span data-stu-id="d7825-192">You can adjust differences in the counted value and then accept the counted value on the **Cycle count pending review** page.</span></span> <span data-ttu-id="d7825-193">您可以在**按库位显示的现有量**页中验证修改后的物料数量的盘点。</span><span class="sxs-lookup"><span data-stu-id="d7825-193">You can verify the modified count of the item quantity on the **On hand by location** page.</span></span> <span data-ttu-id="d7825-194">如果差异未被批准则盘点结果值将被拒绝。</span><span class="sxs-lookup"><span data-stu-id="d7825-194">The counted value is rejected if the difference can't be approved.</span></span>
 
-# <a name="see-also"></a><span data-ttu-id="d7825-195">请参阅</span><span class="sxs-lookup"><span data-stu-id="d7825-195">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d7825-195">请参阅</span><span class="sxs-lookup"><span data-stu-id="d7825-195">See also</span></span>
 [<span data-ttu-id="d7825-196">为仓库工作配置移动设备</span><span class="sxs-lookup"><span data-stu-id="d7825-196">Configure mobile devices for warehouse work</span></span>](configure-mobile-devices-warehouse.md)
 
 

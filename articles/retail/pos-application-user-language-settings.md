@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dacc072ab5c070010d86302fa08a3066125b23a6
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: b49450a7deab94c62e173f730007bc40de23b267
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -34,9 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="4aca2-104">此主题介绍如何在 Retail Modern POS (MPOS) 和 Cloud POS 中更改语言设置。</span><span class="sxs-lookup"><span data-stu-id="4aca2-104">This topic describes how to change language settings in Retail Modern POS (MPOS) and Cloud POS.</span></span>
 
-<a name="overview"></a><span data-ttu-id="4aca2-105">概览</span><span class="sxs-lookup"><span data-stu-id="4aca2-105">Overview</span></span>
-========
-
+## <a name="overview"></a><span data-ttu-id="4aca2-105">概览</span><span class="sxs-lookup"><span data-stu-id="4aca2-105">Overview</span></span>
 <span data-ttu-id="4aca2-106">Retail Modern POS (MPOS) 和 Cloud POS 支持商店和用户设置之间的语言设置和交易记录可以改变的环境。</span><span class="sxs-lookup"><span data-stu-id="4aca2-106">Retail Modern POS (MPOS) and Cloud POS support environments where language settings and translations can vary between the store and user settings.</span></span> <span data-ttu-id="4aca2-107">例如，商店所在位置可能是客户最常用英语的区域，而某些工作人员更愿意使用法语翻译的应用程序。</span><span class="sxs-lookup"><span data-stu-id="4aca2-107">For example, the store could be located in a region where English is most common for their customers, but some workers prefer to use the application with French translations.</span></span>
 
 ## <a name="data-language"></a><span data-ttu-id="4aca2-108">数据语言</span><span class="sxs-lookup"><span data-stu-id="4aca2-108">Data language</span></span>

@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e544c592429d00b1ce464740f4e82cb75d10412b
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: bea7dc240f495ac60c733f1a62cebfda281d754e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="9d366-118">[![业务流程](./media/GL-process.PNG)](./media/GL-process.PNG)</span><span class="sxs-lookup"><span data-stu-id="9d366-118">[![Business process](./media/GL-process.PNG)](./media/GL-process.PNG)</span></span>
 
-# <a name="sales-tax"></a><span data-ttu-id="9d366-119">销售税</span><span class="sxs-lookup"><span data-stu-id="9d366-119">Sales tax</span></span>
+## <a name="sales-tax"></a><span data-ttu-id="9d366-119">销售税</span><span class="sxs-lookup"><span data-stu-id="9d366-119">Sales tax</span></span>
 <span data-ttu-id="9d366-120">每个公司都需要向各种税务主管机构缴纳税款。</span><span class="sxs-lookup"><span data-stu-id="9d366-120">Every company collects and pays taxes to various tax authorities.</span></span> <span data-ttu-id="9d366-121">规则和比率根据国家/地区、省/市/自治区、县和城市而改变。</span><span class="sxs-lookup"><span data-stu-id="9d366-121">The rules and rates vary by country/region, state, county, and city.</span></span>
 <span data-ttu-id="9d366-122">此外，当税务主管部门更改它们的要求时，必须定期更新规则。</span><span class="sxs-lookup"><span data-stu-id="9d366-122">In addition, the rules must be updated periodically when tax authorities change their requirements.</span></span> <span data-ttu-id="9d366-123">增值税代码包含您收取以及支付给主管机构的金额数的信息。</span><span class="sxs-lookup"><span data-stu-id="9d366-123">Sales tax codes contain the basic information about how much you collect and pay to the authorities.</span></span> <span data-ttu-id="9d366-124">当您设置增值税代码时，您定义了必须收取的金额或百分比。</span><span class="sxs-lookup"><span data-stu-id="9d366-124">When you set up sales tax codes, you define the amounts or percentages that must be collected.</span></span> <span data-ttu-id="9d366-125">您还定义了将这些金额或百分比应用到交易记录金额中的各种方法。</span><span class="sxs-lookup"><span data-stu-id="9d366-125">You also define the various methods by which those amounts or percentages are applied to transaction amounts.</span></span> <span data-ttu-id="9d366-126">本节中的主题提供了如何针对您的税务主管机构要求的方法和比率设置增值税的信息。</span><span class="sxs-lookup"><span data-stu-id="9d366-126">The topics in this section provide information about how to set up sales tax codes for the methods and rates that your tax authorities require.</span></span>
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 11/03/2017
  - [<span data-ttu-id="9d366-129">销售税支付和舍入规则</span><span class="sxs-lookup"><span data-stu-id="9d366-129">Sales tax payments and rounding rules</span></span>](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a><span data-ttu-id="9d366-130">其他资源</span><span class="sxs-lookup"><span data-stu-id="9d366-130">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="9d366-130">其他资源</span><span class="sxs-lookup"><span data-stu-id="9d366-130">Additional resources</span></span>
 
-#### <a name="whats-new-and-in-development"></a><span data-ttu-id="9d366-131">新增功能和开发中的功能</span><span class="sxs-lookup"><span data-stu-id="9d366-131">What's new and in development</span></span>
+### <a name="whats-new-and-in-development"></a><span data-ttu-id="9d366-131">新增功能和开发中的功能</span><span class="sxs-lookup"><span data-stu-id="9d366-131">What's new and in development</span></span>
 
 <span data-ttu-id="9d366-132">转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。</span><span class="sxs-lookup"><span data-stu-id="9d366-132">Go to the [Microsoft Dynamics 365 Roadmap](https://roadmap.dynamics.com/) to see what new features have been released and what new features are in development.</span></span> 
 
-#### <a name="blogs"></a><span data-ttu-id="9d366-133">博客</span><span class="sxs-lookup"><span data-stu-id="9d366-133">Blogs</span></span>
+### <a name="blogs"></a><span data-ttu-id="9d366-133">博客</span><span class="sxs-lookup"><span data-stu-id="9d366-133">Blogs</span></span>
 
 <span data-ttu-id="9d366-134">您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关应付账款的意见、新闻和其他信息以及其他解决方案。</span><span class="sxs-lookup"><span data-stu-id="9d366-134">You can find opinions, news, and other information about Accounts payable and other solutions on the [Microsoft Dynamics 365 blog](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise).</span></span>
 
@@ -66,10 +66,10 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="9d366-137">[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。</span><span class="sxs-lookup"><span data-stu-id="9d366-137">The [Microsoft Dynamics Operations Partner Community Blog](https://community.dynamics.com/partner/b/operationspartnercommunityblog) gives Microsoft Dynamics Partners a single resource where they can learn what is new and trending in MBS Operations.</span></span>
 
-#### <a name="task-guides"></a><span data-ttu-id="9d366-138">任务指南</span><span class="sxs-lookup"><span data-stu-id="9d366-138">Task guides</span></span>
+### <a name="task-guides"></a><span data-ttu-id="9d366-138">任务指南</span><span class="sxs-lookup"><span data-stu-id="9d366-138">Task guides</span></span>
 <span data-ttu-id="9d366-139">其他帮助在 Finance and Operations 中作为任务指南提供。</span><span class="sxs-lookup"><span data-stu-id="9d366-139">Additional help is available as task guides inside Finance and Operations.</span></span> <span data-ttu-id="9d366-140">若要访问任务指南，请单击任何页面上的“帮助”按钮。</span><span class="sxs-lookup"><span data-stu-id="9d366-140">To access task guides, click the Help button on any page.</span></span>
 
-#### <a name="videos"></a><span data-ttu-id="9d366-141">视频</span><span class="sxs-lookup"><span data-stu-id="9d366-141">Videos</span></span>
+### <a name="videos"></a><span data-ttu-id="9d366-141">视频</span><span class="sxs-lookup"><span data-stu-id="9d366-141">Videos</span></span>
 
 <span data-ttu-id="9d366-142">查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。</span><span class="sxs-lookup"><span data-stu-id="9d366-142">Check out the how-to videos that are now available on the [Microsoft Dynamics 365 YouTube Channel](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ).</span></span>
 

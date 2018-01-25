@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 49b63216cc306553b2d3b7141f57f3c0581e1d5a
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: f3ed894445c44da6de9062da5c9399e867952d43
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/19/2018
 
 <span data-ttu-id="6b843-104">本文介绍财务报表中行定义的每个单元格必需的信息，并解释如何输入该信息。</span><span class="sxs-lookup"><span data-stu-id="6b843-104">This article describes the information that is required for each cell in a row definition on a financial report and explains how to enter that information.</span></span> 
 
-# <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="6b843-105">在行定义中指定行代码</span><span class="sxs-lookup"><span data-stu-id="6b843-105">Specify a row code in a row definition</span></span>
+## <a name="specify-a-row-code-in-a-row-definition"></a><span data-ttu-id="6b843-105">在行定义中指定行代码</span><span class="sxs-lookup"><span data-stu-id="6b843-105">Specify a row code in a row definition</span></span>
 
 <span data-ttu-id="6b843-106">在行定义中，**“行代码”**单元格中的编号或标签标识行定义中的每一行。</span><span class="sxs-lookup"><span data-stu-id="6b843-106">In row definitions, the numbers or labels in the **Row Code** cell identify each line in the row definition.</span></span> <span data-ttu-id="6b843-107">你可以指定行代码来引用计算和总计中的数据。</span><span class="sxs-lookup"><span data-stu-id="6b843-107">You can specify the row code to refer to data in calculations and totals.</span></span>
 
@@ -506,8 +506,7 @@ ms.lasthandoff: 01/19/2018
 4.  <span data-ttu-id="6b843-709">选择要删除的维度集，然后单击**“删除”**。</span><span class="sxs-lookup"><span data-stu-id="6b843-709">Select the set to delete, and then click **Delete**.</span></span> <span data-ttu-id="6b843-710">单击**“是”**可永久删除维度值集。</span><span class="sxs-lookup"><span data-stu-id="6b843-710">Click **Yes** to permanently delete the dimension value set.</span></span>
 
 
-<a name="see-also"></a><span data-ttu-id="6b843-711">请参阅</span><span class="sxs-lookup"><span data-stu-id="6b843-711">See also</span></span>
---------
+## <a name="see-also"></a><span data-ttu-id="6b843-711">请参阅</span><span class="sxs-lookup"><span data-stu-id="6b843-711">See also</span></span>
 
 [<span data-ttu-id="6b843-712">财务申报</span><span class="sxs-lookup"><span data-stu-id="6b843-712">Financial reporting</span></span>](financial-reporting-intro.md)
 

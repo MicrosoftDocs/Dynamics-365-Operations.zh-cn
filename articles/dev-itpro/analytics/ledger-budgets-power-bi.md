@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a351418583ee29ad57bd2586121bb92d24635fb8
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -31,14 +31,14 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="fdcaf-105">此主题描述**实际与预算** Microsoft Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="fdcaf-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
-# <a name="overview"></a><span data-ttu-id="fdcaf-107">概览</span><span class="sxs-lookup"><span data-stu-id="fdcaf-107">Overview</span></span>
+## <a name="overview"></a><span data-ttu-id="fdcaf-107">概览</span><span class="sxs-lookup"><span data-stu-id="fdcaf-107">Overview</span></span>
 
 <span data-ttu-id="fdcaf-108">**实际与预算** Power BI 内容为负责监督组织中的实际与预算绩效的人员而创建。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-108">The **Actual vs budget** Power BI content was created for individuals who are responsible for monitoring actual versus budget performance in their organization.</span></span> <span data-ttu-id="fdcaf-109">**实际与预算** Power BI 内容可用于查看您的预算差异。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-109">The **Actual vs budget** Power BI content provides visibility into your budget variances.</span></span> <span data-ttu-id="fdcaf-110">您可以按科目类别、预算代码、主科目、主科目描述或会计期间分析当前年度的预算，以更好地了解任何差异的原因。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-110">You can analyze budget for the current year by account category, budget code, main account, main account descriptions, or fiscal period to get a better understanding of the cause of any variances.</span></span> 
 
-# <a name="accessing-the-power-bi-content"></a><span data-ttu-id="fdcaf-111">访问 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="fdcaf-111">Accessing the Power BI content</span></span>
+## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="fdcaf-111">访问 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="fdcaf-111">Accessing the Power BI content</span></span>
 <span data-ttu-id="fdcaf-112">来自**实际与预算** Power BI 内容的报表显示在**分类帐预算和预测** 和 **CFO** 工作区中。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-112">Reports from the **Actual vs budget** Power BI content are shown in the **Ledger budget and forecasts** and **CFO** workspaces.</span></span>
 
-# <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="fdcaf-113">此 Power BI 内容中包含的报表</span><span class="sxs-lookup"><span data-stu-id="fdcaf-113">Reports that are included in the Power BI content</span></span>
+## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="fdcaf-113">此 Power BI 内容中包含的报表</span><span class="sxs-lookup"><span data-stu-id="fdcaf-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="fdcaf-114">下表提供有关在**实际与预算** Power BI 内容中的每个报表页找到的指标的详细信息。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
 | <span data-ttu-id="fdcaf-115">报告</span><span class="sxs-lookup"><span data-stu-id="fdcaf-115">Report</span></span>                      | <span data-ttu-id="fdcaf-116">指标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-116">Metrics</span></span> |
@@ -50,7 +50,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="fdcaf-129">净收益</span><span class="sxs-lookup"><span data-stu-id="fdcaf-129">Net income</span></span>                  | <ul><li><span data-ttu-id="fdcaf-130">本年度净收益</span><span class="sxs-lookup"><span data-stu-id="fdcaf-130">Net income this year</span></span></li><li><span data-ttu-id="fdcaf-131">基于预算的净收益目标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-131">Goal for net income based on budget</span></span> </li><ul> |
 
 
-# <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="fdcaf-132">了解数据模型和实体</span><span class="sxs-lookup"><span data-stu-id="fdcaf-132">Understanding the data model and entities</span></span>
+## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="fdcaf-132">了解数据模型和实体</span><span class="sxs-lookup"><span data-stu-id="fdcaf-132">Understanding the data model and entities</span></span>
 
 | <span data-ttu-id="fdcaf-133">实体</span><span class="sxs-lookup"><span data-stu-id="fdcaf-133">Entity</span></span>                    | <span data-ttu-id="fdcaf-134">内容</span><span class="sxs-lookup"><span data-stu-id="fdcaf-134">Contents</span></span> |
 |---------------------------|----------|

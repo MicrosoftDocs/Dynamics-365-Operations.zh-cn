@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7b283b8550bd7e5eff969d45c761d0a54d93a33e
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 85431f12f8870d6133388ae4706b3b0c8c48be62
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -112,7 +112,7 @@ ms.lasthandoff: 11/03/2017
 3.  <span data-ttu-id="25b94-213">选择构建基块，然后单击**“撤消签出”**。</span><span class="sxs-lookup"><span data-stu-id="25b94-213">Select a building block, and then click **Undo Checkout**.</span></span>
 4.  <span data-ttu-id="25b94-214">单击**“是”**以签入构建基块。</span><span class="sxs-lookup"><span data-stu-id="25b94-214">Click **Yes** to check in the building block.</span></span>
 
-# <a name="see-also"></a><span data-ttu-id="25b94-215">请参阅</span><span class="sxs-lookup"><span data-stu-id="25b94-215">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="25b94-215">请参阅</span><span class="sxs-lookup"><span data-stu-id="25b94-215">See also</span></span>
 
 [<span data-ttu-id="25b94-216">财务申报</span><span class="sxs-lookup"><span data-stu-id="25b94-216">Financial reporting</span></span>](financial-reporting-intro.md)
 

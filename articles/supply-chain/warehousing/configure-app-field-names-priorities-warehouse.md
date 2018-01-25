@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2fbf9d84fa0fec32004936542003115cf580d91c
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: 09aef6e149bdbe8366b0b971212b80bdbfb47a9f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -36,8 +36,7 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="86b6a-105">**注意：**本主题适用于仓库管理中的功能。</span><span class="sxs-lookup"><span data-stu-id="86b6a-105">**Note:** This topic applies to features in Warehouse management.</span></span> <span data-ttu-id="86b6a-106">它不适用于库存管理中的功能。</span><span class="sxs-lookup"><span data-stu-id="86b6a-106">It doesn’t apply to features in Inventory management.</span></span> <span data-ttu-id="86b6a-107">Finance and Operations - Warehousing 是可用于执行仓库任务的应用程序。</span><span class="sxs-lookup"><span data-stu-id="86b6a-107">Finance and Operations - Warehousing is an application that you can use to perform warehouse tasks.</span></span> <span data-ttu-id="86b6a-108">可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。</span><span class="sxs-lookup"><span data-stu-id="86b6a-108">You can define and configure the field names that are used in the app, as well as configure the priority to which the field names should be assigned.</span></span> <span data-ttu-id="86b6a-109">此主题说明如何在 Finance and Operations - Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。</span><span class="sxs-lookup"><span data-stu-id="86b6a-109">This topic explains how to define and configure these warehouse app field names and priorities, and how they are used in Finance and Operations - Warehousing.</span></span> <span data-ttu-id="86b6a-110">有关如何配置与 Finance and Operations - Warehousing 之间的连接的详细信息，请参阅教程 [安装和配置 Finance and Operations - Warehousing](install-configure-warehousing-app.md)。</span><span class="sxs-lookup"><span data-stu-id="86b6a-110">For detailed information about how to configure the connection to Finance and Operations  - Warehousing, refer to the tutorial [Install and configure Finance and Operations - Warehousing](install-configure-warehousing-app.md).</span></span>
 
-<a name="configure-warehouse-app-field-names"></a><span data-ttu-id="86b6a-111">配置仓库应用程序字段名</span><span class="sxs-lookup"><span data-stu-id="86b6a-111">Configure warehouse app field names</span></span>
-===================================
+## <a name="configure-warehouse-app-field-names"></a><span data-ttu-id="86b6a-111">配置仓库应用程序字段名</span><span class="sxs-lookup"><span data-stu-id="86b6a-111">Configure warehouse app field names</span></span>
 
 <span data-ttu-id="86b6a-112">在移动设备上使用 Finance and Operations - Warehousing 时，可在**仓库应用字段名**页面中配置应如何在设备上显示元数据。</span><span class="sxs-lookup"><span data-stu-id="86b6a-112">When you use Finance and Operations - Warehousing on your mobile device, you can configure how metadata should be displayed on your device on the **Warehouse app field names** page.</span></span> <span data-ttu-id="86b6a-113">在 Finance and Operations 中的新公司中，选择**创建默认设置**以生成将在仓库移动设备工作流中使用的所有字段名，然后为其分配首选输入模式和输入类型。</span><span class="sxs-lookup"><span data-stu-id="86b6a-113">In a new company in Finance and Operations, select **Create default setup** to generate all field names that will be used in the warehouse mobile device workflows, and then assign a preferred input mode and input type to them.</span></span> <span data-ttu-id="86b6a-114">生成所有字段名之后，可以选择以下输入选项。</span><span class="sxs-lookup"><span data-stu-id="86b6a-114">After you have generated all field names, you can select the following input options.</span></span>
 
@@ -70,8 +69,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
-<a name="configure-warehouse-app-field-priority"></a><span data-ttu-id="86b6a-132">配置仓库应用字段优先级</span><span class="sxs-lookup"><span data-stu-id="86b6a-132">Configure warehouse app field priority</span></span>
-======================================
+## <a name="configure-warehouse-app-field-priority"></a><span data-ttu-id="86b6a-132">配置仓库应用字段优先级</span><span class="sxs-lookup"><span data-stu-id="86b6a-132">Configure warehouse app field priority</span></span>
 
 <span data-ttu-id="86b6a-133">在**仓库应用字段优先级**页面中，可将字段名放入不同优先级组。</span><span class="sxs-lookup"><span data-stu-id="86b6a-133">On the **Warehouse app field priority** page, you can put field names into different priority groups.</span></span> <span data-ttu-id="86b6a-134">这样就可以定义当仓库工作人员使用此应用程序执行任务时，应在主任务页面中显示哪些信息。</span><span class="sxs-lookup"><span data-stu-id="86b6a-134">This makes it possible to decide what information should be displayed on the main task page when warehouse workers perform tasks using the app.</span></span> <span data-ttu-id="86b6a-135">如果单击**创建默认设置**，将生成一组默认优先级组。</span><span class="sxs-lookup"><span data-stu-id="86b6a-135">If you click **Create default setup**, a default set of priority groups will be generated.</span></span> <span data-ttu-id="86b6a-136">可以根据需要创建任意数量的优先级组，但是任务页面中将仅显示三个优先级组。</span><span class="sxs-lookup"><span data-stu-id="86b6a-136">It is possible to create as many priority groups as needed, but only three priority groups will be shown on the task page.</span></span> <span data-ttu-id="86b6a-137">当 Finance and Operations 向该应用程序发送元数据时，将根据每个字段的优先级组为字段分配一个相对优先级，并且该应用程序将在任务页面中显示元数据中包含的前三个优先级组。</span><span class="sxs-lookup"><span data-stu-id="86b6a-137">When Finance and Operations sends metadata to the app, it will assign each field a relative priority depending on its priority group, and the app will display the first three priority groups contained in the metadata on the task page.</span></span> <span data-ttu-id="86b6a-138">将在第二详细信息页面中显示其余过剩元数据。</span><span class="sxs-lookup"><span data-stu-id="86b6a-138">The rest of the overflowing metadata will be displayed on a secondary details page.</span></span> <span data-ttu-id="86b6a-139">下表显示五个优先级组的示例。</span><span class="sxs-lookup"><span data-stu-id="86b6a-139">The following table shows an example of five priority groups.</span></span>
 
