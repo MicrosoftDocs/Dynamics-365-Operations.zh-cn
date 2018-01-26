@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 573519038e6358601e9a67dbcd81c3dc2051dd29
+ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
+ms.openlocfilehash: c515351a24bc86387cd504e55cfc34bb2272553c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 01/26/2018
 
 ---
 

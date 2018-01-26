@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: e1e2c3f49212a4f8f88bedbb6ba9cfc65a097cc5
+ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
+ms.openlocfilehash: 31b94a3e7426a28377d5ffe8ba1d156b9ea5b550
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/26/2018
 
 ---
 # <a name="visibility-into-material-exceptions"></a><span data-ttu-id="81301-103">物料异常的可见性</span><span class="sxs-lookup"><span data-stu-id="81301-103">Visibility into material exceptions</span></span>

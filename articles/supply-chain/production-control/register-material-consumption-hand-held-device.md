@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: f08e43bfd066246419f665bf0ecf06bc9a1d045c
+ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
+ms.openlocfilehash: 33e880107588b80c0944f166ff999b117356731b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/26/2018
 
 ---
 
