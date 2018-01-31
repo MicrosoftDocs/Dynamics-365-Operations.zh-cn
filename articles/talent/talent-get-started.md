@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
 ms.openlocfilehash: c068f8c0bd1b84ab39ef2485025b97e87b8ef65a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/31/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="6897e-103">Microsoft Dynamics 365 for Talent 入门</span><span class="sxs-lookup"><span data-stu-id="6897e-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>

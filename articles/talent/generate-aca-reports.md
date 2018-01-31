@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
 ms.openlocfilehash: e41f14d60b6cb4c6091f8b0f7c82d9c56edeee35
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 01/31/2018
 
 ---
 # <a name="generate-affordable-care-act-reports"></a><span data-ttu-id="c8a1e-103">创建平价医疗法案报告</span><span class="sxs-lookup"><span data-stu-id="c8a1e-103">Generate Affordable Care Act reports</span></span>
