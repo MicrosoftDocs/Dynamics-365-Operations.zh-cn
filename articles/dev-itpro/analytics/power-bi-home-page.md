@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
+ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
 ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
