@@ -10,16 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
-ms.openlocfilehash: ebb92d5ce05f2891d25fb38f6200a10f02bcc948
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: e3bc57dd15ff9af0c3fccedd01f8c4d3064effc1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a><span data-ttu-id="9e46d-103">在可变薪酬计划中登记员工</span><span class="sxs-lookup"><span data-stu-id="9e46d-103">Enroll an employee in a variable compensation plan</span></span>

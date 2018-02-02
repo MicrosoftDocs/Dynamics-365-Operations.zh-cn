@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
-ms.openlocfilehash: 9705f3fd7076e010ec4d497c4d933364f3cfcc8f
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 9cc66eccec146c9f8f562b5d4e4d21bb6b7c6457
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="011fc-103">定义薪酬流程并计算结果</span><span class="sxs-lookup"><span data-stu-id="011fc-103">Define compensation process and calculate results</span></span>

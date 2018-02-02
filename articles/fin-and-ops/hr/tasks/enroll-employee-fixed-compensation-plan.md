@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 88630311a4326508fa69a8938fa216f1a45ba089
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 581224623f3f2bb7c6ebd082f1301474549c3289
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a><span data-ttu-id="d5480-103">在固定薪酬计划中登记员工</span><span class="sxs-lookup"><span data-stu-id="d5480-103">Enroll an employee in a fixed compensation plan</span></span>

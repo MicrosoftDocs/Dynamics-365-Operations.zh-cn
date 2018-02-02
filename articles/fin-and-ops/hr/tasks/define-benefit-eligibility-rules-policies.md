@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 06/10/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c570574d15bbc55b4d0d79b8e62d74adcc15b387
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 329598430edf07e3a743b0d7061a51825f12a066
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a><span data-ttu-id="52d88-103">定义福利资格规则和策略</span><span class="sxs-lookup"><span data-stu-id="52d88-103">Define benefit eligibility rules and policies</span></span>

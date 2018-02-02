@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 06/22/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c902f532e189753a375d4b48edd9ef0b6d74020e
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 38ff9fde897136fa23a2c2951167f6507b047b2d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="set-up-positions"></a><span data-ttu-id="e6f42-103">设置职位</span><span class="sxs-lookup"><span data-stu-id="e6f42-103">Set up positions</span></span>

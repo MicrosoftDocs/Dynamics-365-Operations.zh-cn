@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 06/10/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 665dd5868b9a731caf9c847b7ca33f039fe083e3
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 6f21dd7c5ac0a2e7051d88d14dc6079fa1b32517
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="loan-items-to-a-worker"></a><span data-ttu-id="a12af-103">向工作人员借出物品</span><span class="sxs-lookup"><span data-stu-id="a12af-103">Loan items to a worker</span></span>

@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
-ms.openlocfilehash: 96cae919a865fe70203b50c2867365e1171b4175
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 537708c29716b5b8f88cda2eeee26f97bb3a536d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="benefit-eligibility-process"></a><span data-ttu-id="a2abb-103">福利资格处理</span><span class="sxs-lookup"><span data-stu-id="a2abb-103">Benefit eligibility process</span></span>

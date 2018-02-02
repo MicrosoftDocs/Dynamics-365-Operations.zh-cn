@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d65fe0363e418f9c2e78bd78e802a4b0ea98599c
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 97751310cee3441d80d57860bc90490cf5708de2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a><span data-ttu-id="0c655-103">创建日历和生成工作时间</span><span class="sxs-lookup"><span data-stu-id="0c655-103">Create a calendar and generate working times</span></span>

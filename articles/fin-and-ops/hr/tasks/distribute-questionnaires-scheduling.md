@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
-ms.openlocfilehash: 8dd7365a18f371694f21a19efca76bd3e29ed641
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 1b940ec319bba512407b211ffcfd207674fd5f11
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="distribute-questionnaires-using-scheduling"></a><span data-ttu-id="16671-103">使用计划分发调查表</span><span class="sxs-lookup"><span data-stu-id="16671-103">Distribute questionnaires using scheduling</span></span>

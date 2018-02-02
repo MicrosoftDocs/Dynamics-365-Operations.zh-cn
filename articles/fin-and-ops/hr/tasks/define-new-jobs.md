@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 11/08/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8f2d835bf1c29bdf7a9a247fdcf4db4490a64fce
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: b6708790d13c588fa5854f50ae7fe5bf4f69bca2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="define-new-jobs"></a><span data-ttu-id="27c5f-103">定义新工作</span><span class="sxs-lookup"><span data-stu-id="27c5f-103">Define new jobs</span></span>

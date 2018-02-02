@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 10/13/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 96be343d999d428ee5cbef262f6e7f37b28bae1c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a><span data-ttu-id="cd37e-103">添加到绩效日记帐并向某人发送表扬</span><span class="sxs-lookup"><span data-stu-id="cd37e-103">Add to your performance journal and send praise to someone</span></span>

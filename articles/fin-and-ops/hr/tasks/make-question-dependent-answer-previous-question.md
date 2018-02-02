@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 02/12/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05f7af94813934c1d77d6a509587280395f0e8bd
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: c589ee37bb876892864ee9659a0bcb96e1a3bcd2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a><span data-ttu-id="eef15-103">根据前一个问题的回答设定问题依赖项</span><span class="sxs-lookup"><span data-stu-id="eef15-103">Make a question dependent on the answer of the previous question</span></span>

@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
-ms.openlocfilehash: 7fd32467cfbc8c30b398659d16b268f183b6b3d3
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 5d855e673df5eb6f34e6a7c778b42fe360c9d93f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a><span data-ttu-id="5c6ff-103">制订薪水/薪酬结构和计划</span><span class="sxs-lookup"><span data-stu-id="5c6ff-103">Develop salary/compensation structure and plans</span></span>

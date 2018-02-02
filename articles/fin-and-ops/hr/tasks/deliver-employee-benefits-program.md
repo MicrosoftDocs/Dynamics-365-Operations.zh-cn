@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 12/01/2015
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ec99b86d77c1381b4323a5faaea0487752eee9ed
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 7431d6d1e090bf1dcab48de741b7d08a52209b76
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="deliver-an-employee-benefits-program"></a><span data-ttu-id="13a89-103">交付员工福利计划</span><span class="sxs-lookup"><span data-stu-id="13a89-103">Deliver an employee benefits program</span></span>

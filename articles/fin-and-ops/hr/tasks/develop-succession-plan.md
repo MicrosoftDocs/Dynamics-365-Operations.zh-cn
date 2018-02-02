@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 63a02a64ff28531bae950f1b61d9167eaa0b0373
-ms.openlocfilehash: 2ca5f541abe4f85187aaefdbb03ca84e4f314b3c
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 0e40b97f0019a6bb7e7ede10952256884047c98f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="develop-a-succession-plan"></a><span data-ttu-id="3f05a-103">制订继任计划</span><span class="sxs-lookup"><span data-stu-id="3f05a-103">Develop a succession plan</span></span>

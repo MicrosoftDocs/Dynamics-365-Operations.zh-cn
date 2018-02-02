@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 02/12/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a0edbe6de43a1c99e2e5d8507f9190e6a7b04b8e
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: ce5b9814e238c8fc566280250c90a8a36c181511
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a><span data-ttu-id="3b5be-103">登记和删除工作人员的福利</span><span class="sxs-lookup"><span data-stu-id="3b5be-103">Enroll and remove benefits from workers</span></span>

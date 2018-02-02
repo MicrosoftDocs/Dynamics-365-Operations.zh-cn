@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 10/13/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3fb430780a91dfdd27ce34908c178917f58df15f
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: 21366e82be8ddfcc608164c0a4a98e321799a67c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="create-a-performance-review"></a><span data-ttu-id="0b0d2-103">创建绩效审核</span><span class="sxs-lookup"><span data-stu-id="0b0d2-103">Create a performance review</span></span>

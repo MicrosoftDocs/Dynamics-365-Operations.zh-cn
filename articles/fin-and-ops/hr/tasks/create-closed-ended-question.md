@@ -6,20 +6,20 @@ manager: AnnBe
 ms.date: 06/10/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 59f1af68e4b1198894a7cdab291021de9f3cf8a9
+ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
+ms.openlocfilehash: a3a043fd8c8b312ccfa2a87c2fdfb96ae05e9609
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 # <a name="create-a-closed-ended-question"></a><span data-ttu-id="6c3f1-103">创建封闭式问题</span><span class="sxs-lookup"><span data-stu-id="6c3f1-103">Create a closed ended question</span></span>
