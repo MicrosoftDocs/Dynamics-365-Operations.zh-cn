@@ -1,4 +1,4 @@
---- 
+---
 title: "将生产订单报告为已完工入库"
 description: "该过程显示如何报告生产订单为完工入库。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 17b2285e4669f1ad8fa6cea1250693a2a70c7dfa
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: e6f5e7316f89ba7c2b7091eb9df02aa07ea44dbd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="report-a-production-order-as-finished"></a><span data-ttu-id="1f5f1-103">将生产订单报告为已完工入库</span><span class="sxs-lookup"><span data-stu-id="1f5f1-103">Report a production order as finished</span></span>
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
 3. <span data-ttu-id="1f5f1-123">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="1f5f1-123">In the list, mark the selected row.</span></span>
 4. <span data-ttu-id="1f5f1-124">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1f5f1-124">In the list, click the link in the selected row.</span></span>
     * <span data-ttu-id="1f5f1-125">过帐“完工入库日记帐”。</span><span class="sxs-lookup"><span data-stu-id="1f5f1-125">The Report as finished journal is posted.</span></span> <span data-ttu-id="1f5f1-126">如果您想要对日记帐作调整，您可以在可进行更改的位置手动创建新日记帐。</span><span class="sxs-lookup"><span data-stu-id="1f5f1-126">If you want to make adjustments to the journal, you can manually create  a new journal where you can make changes.</span></span>  
-
 

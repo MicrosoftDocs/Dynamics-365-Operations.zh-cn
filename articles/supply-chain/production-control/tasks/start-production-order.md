@@ -1,4 +1,4 @@
---- 
+---
 title: "开始生产订单"
 description: "该过程显示如何在作业车间启动生产订单。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 33558053d33d9fe4a2ecb3576da569b2c441db80
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 3b5657e5eb2719702eae3a3c5178b3a04f7545e3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="start-a-production-order"></a><span data-ttu-id="84efb-103">开始生产订单</span><span class="sxs-lookup"><span data-stu-id="84efb-103">Start a production order</span></span>
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. <span data-ttu-id="84efb-146">单击“过帐”。</span><span class="sxs-lookup"><span data-stu-id="84efb-146">Click Post.</span></span>
 8. <span data-ttu-id="84efb-147">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="84efb-147">Click OK.</span></span>
     * <span data-ttu-id="84efb-148">在“工艺卡日记帐”，记录各工序所用的时间。</span><span class="sxs-lookup"><span data-stu-id="84efb-148">In the Route card journal, the time spent on the individual operations is recorded.</span></span> <span data-ttu-id="84efb-149">还可以报告完好和残次数量。</span><span class="sxs-lookup"><span data-stu-id="84efb-149">Good and error quantity can also be reported.</span></span>  
-
 

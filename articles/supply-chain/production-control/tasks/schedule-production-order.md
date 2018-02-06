@@ -1,4 +1,4 @@
---- 
+---
 title: "计划生产订单"
 description: "该过程说明安排一个生产订单。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4aeb51fd2d9e916d5838b47c4a6b74800572a9ca
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="schedule-a-production-order"></a><span data-ttu-id="dfe36-103">计划生产订单</span><span class="sxs-lookup"><span data-stu-id="dfe36-103">Schedule a production order</span></span>
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * <span data-ttu-id="dfe36-127">该“产能负荷”页显示计划作业的预留产能，当前可用的预留总工时数，以及计划作业仍可用工时数。</span><span class="sxs-lookup"><span data-stu-id="dfe36-127">The Capacity load page displays the capacity that is reserved through job scheduling, the total number of hours that are currently reserved on the resource, and the number of hours that remain available for job scheduling on the resource.</span></span>  
 6. <span data-ttu-id="dfe36-128">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="dfe36-128">Close the page.</span></span>
 7. <span data-ttu-id="dfe36-129">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="dfe36-129">Close the page.</span></span>
-
 

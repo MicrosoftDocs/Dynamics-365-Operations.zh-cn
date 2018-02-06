@@ -1,4 +1,4 @@
---- 
+---
 title: "估计生产订单"
 description: "您可以使用演示数据公司 USMF 或使用您自己的数据运行该过程。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1d34a891a5b655f801e46b8c07525cdcbc7a65c8
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 862281adac67757e1ce0e9ddd1e96483363abb9a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="estimate-a-production-order"></a><span data-ttu-id="38efe-103">估计生产订单</span><span class="sxs-lookup"><span data-stu-id="38efe-103">Estimate a production order</span></span>
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 1. <span data-ttu-id="38efe-115">在“操作窗格”中，单击“管理成本”。</span><span class="sxs-lookup"><span data-stu-id="38efe-115">On the Action Pane, click Manage costs.</span></span>
 2. <span data-ttu-id="38efe-116">单击“查看计算明细”。</span><span class="sxs-lookup"><span data-stu-id="38efe-116">Click View calculation details.</span></span>
     * <span data-ttu-id="38efe-117">此页显示了成本分解情况。</span><span class="sxs-lookup"><span data-stu-id="38efe-117">This page displays the cost breakdown.</span></span> <span data-ttu-id="38efe-118">例如，您可以查看第一成品行的单位总成本价。</span><span class="sxs-lookup"><span data-stu-id="38efe-118">For example, you can view the total cost price per unit for the finished product in the first row.</span></span> <span data-ttu-id="38efe-119">根据物料清单、生产工艺路线和间接成本，后续行还包括很多成本。</span><span class="sxs-lookup"><span data-stu-id="38efe-119">The subsequent rows contain costs according to the bill of materials, production route, and indirect costs.</span></span>  
-
 

@@ -1,4 +1,4 @@
---- 
+---
 title: "下达生产订单"
 description: "此程序显示了如何发放生产订单。"
 author: johanhoffmann
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2ae2d84bd12d338c9bada5518c43178b22112006
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 6e628d8564c093c5d75fffe268b2107262d508c3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="release-a-production-order"></a><span data-ttu-id="fe5d0-103">下达生产订单</span><span class="sxs-lookup"><span data-stu-id="fe5d0-103">Release a production order</span></span>
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
 5. <span data-ttu-id="fe5d0-123">单击“打印工艺卡”复选框。</span><span class="sxs-lookup"><span data-stu-id="fe5d0-123">Click the Print route card checkbox.</span></span>
 6. <span data-ttu-id="fe5d0-124">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="fe5d0-124">Click OK.</span></span>
 7. <span data-ttu-id="fe5d0-125">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="fe5d0-125">Close the page.</span></span>
-
 
