@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
