@@ -1,4 +1,4 @@
---- 
+---
 title: "计划生产订单"
 description: "该过程说明安排一个生产订单。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * 该“产能负荷”页显示计划作业的预留产能，当前可用的预留总工时数，以及计划作业仍可用工时数。  
 6. 关闭该页面。
 7. 关闭该页面。
-
 

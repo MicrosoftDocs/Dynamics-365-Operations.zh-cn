@@ -1,4 +1,4 @@
---- 
+---
 title: "在物料对于工作单元可用时准备处理看板作业"
 description: "此任务的重点是在所有物料可用于工作单元时准备处理看板作业。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/29/2017
     * 如果选中多个作业，领料单将显示所选作业所需的所有物料的总和。  
 6. 单击“准备”。
     * 准备流程现在已完成。 物料单中选中所有行的复选框指示供应状态为已领料。  
-
 

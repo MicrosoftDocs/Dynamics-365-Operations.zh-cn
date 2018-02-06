@@ -1,4 +1,4 @@
---- 
+---
 title: "估计生产订单"
 description: "您可以使用演示数据公司 USMF 或使用您自己的数据运行该过程。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 1. 在“操作窗格”中，单击“管理成本”。
 2. 单击“查看计算明细”。
     * 此页显示了成本分解情况。 例如，您可以查看第一成品行的单位总成本价。 根据物料清单、生产工艺路线和间接成本，后续行还包括很多成本。  
-
 

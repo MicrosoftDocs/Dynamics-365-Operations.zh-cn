@@ -1,4 +1,4 @@
---- 
+---
 title: "将生产订单报告为已完工入库"
 description: "该过程显示如何报告生产订单为完工入库。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
 3. 在列表中，标记所选的行。
 4. 在列表中，单击所选行中的链接。
     * 过帐“完工入库日记帐”。 如果您想要对日记帐作调整，您可以在可进行更改的位置手动创建新日记帐。  
-
 
