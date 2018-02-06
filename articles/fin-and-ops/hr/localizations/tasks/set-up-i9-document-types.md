@@ -10,16 +10,16 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
-ms.openlocfilehash: b47998eccd7509154ee8863e2e19594cc59ac945
+ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
+ms.openlocfilehash: d3d2f38327ea82ecddf998161edf86bf32e04db0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="set-up-i-9-document-types"></a><span data-ttu-id="cb444-103">设置 I-9 文档类型</span><span class="sxs-lookup"><span data-stu-id="cb444-103">Set up I-9 document types</span></span>
