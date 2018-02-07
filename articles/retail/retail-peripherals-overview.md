@@ -1,6 +1,7 @@
 ---
 title: "零售外设概览"
 description: "此主题介绍与零售外设有关的概念。"
+author: rubencdelgado
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article

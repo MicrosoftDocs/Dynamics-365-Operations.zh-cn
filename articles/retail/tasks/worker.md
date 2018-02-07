@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 02/22/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw

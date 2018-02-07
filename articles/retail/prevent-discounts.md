@@ -1,7 +1,7 @@
 ---
 title: "防止为零售产品打折"
 description: "零售商可能出于多种原因不希望 POS 中某些产品在促销或销售期间不打折。"
-author: jeffbl
+author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

@@ -1,7 +1,7 @@
 ---
 title: "固定资产管理工作区"
 description: "此主题提供有关固定资产管理工作区的信息。 此工作区显示与在系统中输入的固定资产有关的信息。 它包含一个汇总视图和一个分析视图。"
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
@@ -14,7 +14,7 @@ ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT

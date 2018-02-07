@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailCategoryAndProductWorkspace, RetailCategory
 audience: Application User
