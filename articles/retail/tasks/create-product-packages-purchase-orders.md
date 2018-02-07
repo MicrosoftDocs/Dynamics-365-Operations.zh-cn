@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 5f8370ba0c0e4170526d0f9133f9f45973c44a49
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: d89744a4dbe52d201dc370b5cde151cc579508ea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="create-product-packages-for-purchase-orders"></a><span data-ttu-id="da859-103">创建采购订单的产品包装</span><span class="sxs-lookup"><span data-stu-id="da859-103">Create product packages for purchase orders</span></span>

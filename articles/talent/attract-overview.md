@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-talent
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: ce9b5c0c2ec788dac9d27e3b7c46b4a79d1baa94
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: e84449475ce73b4a6a88ab9975e2572178cf0dab
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="attract-overview"></a><span data-ttu-id="523a8-104">Attract 概述</span><span class="sxs-lookup"><span data-stu-id="523a8-104">Attract overview</span></span>

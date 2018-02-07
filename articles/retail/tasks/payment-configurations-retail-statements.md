@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 518f4b7a5bd21cc03fcd6c5dba741e1f460b588d
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 0ffd6dc5fff6d27ec3cfdcd68c53b2299c4100b9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="payment-configurations-for-retail-statements"></a><span data-ttu-id="3371a-103">零售报表的付款配置</span><span class="sxs-lookup"><span data-stu-id="3371a-103">Payment configurations for Retail statements</span></span>

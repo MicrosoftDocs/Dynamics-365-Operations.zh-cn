@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 10/31/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: bef35441753d3b122bb70557359836be63024862
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 1c353a135559a1901f98ae6e7c9671254ab625c3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="manage-assortments"></a><span data-ttu-id="4a2a1-103">管理分类</span><span class="sxs-lookup"><span data-stu-id="4a2a1-103">Manage assortments</span></span> 

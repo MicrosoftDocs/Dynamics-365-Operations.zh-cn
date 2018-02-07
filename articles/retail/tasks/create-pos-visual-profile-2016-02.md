@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 12/05/2015
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 3d2b9c27f1958d46c8a0f304d463c91caa68bf44
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: a75af89efa56e7fbd27021b3516b9a3fec20294c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="create-a-pos-visual-profile"></a><span data-ttu-id="f6d95-103">创建 POS 配置文件</span><span class="sxs-lookup"><span data-stu-id="f6d95-103">Create a POS visual profile</span></span> 

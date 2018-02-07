@@ -1,7 +1,7 @@
 ---
 title: "付款方式"
 description: "设置系统时，必须配置零售商接受的每种付款类型。 本文介绍您可设置的付款类型并介绍设置它们的流程。"
-author: MargoC
+author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -20,10 +20,10 @@ ms.author: yabinl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2bd28d13dbc7e1f2f1cee2835c921f8a88ef0e6a
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 1ba80e48c8b3b5ed94b9e03302788099a1d31909
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 

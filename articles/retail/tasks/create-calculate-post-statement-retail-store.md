@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 11/15/2016
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 3b49ef7f6545193e40ae00dae4bbaead7ee4b7b9
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="3e486-103">创建、计算和过帐零售商店的报表</span><span class="sxs-lookup"><span data-stu-id="3e486-103">Create, calculate, and post a statement for a retail store</span></span>

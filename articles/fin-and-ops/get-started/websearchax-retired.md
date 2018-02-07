@@ -14,14 +14,14 @@ ms.search.scope: AX 2012
 ms.custom: 62303
 ms.assetid: 
 ms.search.region: Global
-ms.author: jasongre
+ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d95dbc4616504fd4782901ef013c816e6551d8ad
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: a869f6f00bd89d918b1387893d1d96f29be3d687
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 

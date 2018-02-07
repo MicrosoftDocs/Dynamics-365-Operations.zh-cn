@@ -13,14 +13,14 @@ ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d4248882608a3d1e23c8c9e9dc8069caaa8352c2
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 5ddc491d73bbb6ac02e37a9c9b9d93545f6f9556
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a><span data-ttu-id="cc60a-103">设置物料到达概览配置文件</span><span class="sxs-lookup"><span data-stu-id="cc60a-103">Set up an item arrival overview profile</span></span>

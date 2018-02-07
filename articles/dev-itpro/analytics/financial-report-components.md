@@ -1,7 +1,7 @@
 ---
 title: "财务报表组件"
 description: "本文介绍如何在财务报告中使用报表定义的组件或构建基块。 这些构造基块包括行定义、列定义和报告树定义。 本文章介绍了如何组织和锁定构建基块，以及如何使用构建基块组。"
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 85431f12f8870d6133388ae4706b3b0c8c48be62
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 
