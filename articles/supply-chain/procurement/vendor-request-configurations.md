@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendProspectiveVendorRegistrationConfig
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 7eecaf8c0d928a5aca5528bada5e5612218d3dcd
+ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
+ms.openlocfilehash: e9b22a6f846607e8afc5d4f01c685f1364b1c01d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
