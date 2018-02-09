@@ -3,7 +3,7 @@ title: "供应链管理主页"
 description: "本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的供应链管理功能的一系列帮助主题和其他资源。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 01/10/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 98008b494f675209949afd961e3cd06dfdc9ec9a
-ms.openlocfilehash: 81a5d21233f12e7c26f0cce6a6c05fefde2ca7dd
+ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
+ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 01/22/2018
 
 ---
 
@@ -52,9 +52,12 @@ ms.lasthandoff: 12/01/2017
 
 ## <a name="videos"></a>视频
 
-### <a name="get-started"></a>开始  
+这些视频短片帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3（2017 年 12 月）中的新功能。
 
-这些视频短片帮助您开始使用 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition（2017 年 7 月）中的新功能。
+-  [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg) 
+-  [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+
+这些视频短片帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）中的新功能。
 
 -  [开始使用成本核算](https://youtu.be/1pUDtJQZ8FU)
 -  [成本控制移动工作区](https://youtu.be/imsuTg8rUVk)
@@ -62,8 +65,7 @@ ms.lasthandoff: 12/01/2017
 -  [在移动设备上审批采购订单](https://youtu.be/gZ-gOlJe7H8)
 -  [使用用于生产和批次订单的甘特图进行可视排产](https://youtu.be/BtbuShkGj4I)
 
-### <a name="tech-conference-recordings"></a>技术会议录制
-其中大多数录制讨论的是 Finance and Operations 的旧版本中的产品功能，但同一概念仍适用，并且相关程序在当前版本中是相似的。 
+这些技术会议录制讨论的是 Finance and Operations 旧版本中的产品功能，但同一概念仍适用，并且相关过程在当前版本中是相似的。 
 
 -  <a href="https://youtu.be/zotrj3SbCl4">Microsoft Dynamics AX 中的产品配置器</a>
 -  <a href="https://youtu.be/7v8BPmEs9Dg">主计划 - 有关性能疑难解答的提示和窍门</a>
