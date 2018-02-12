@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendInvoiceWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -47,10 +48,12 @@ ms.lasthandoff: 11/29/2017
 -   已付款发票为已经在 Finance and Operations 中全额付清的发票。
 
 单击磁贴将打开“**发票列表**”页面的筛选视图。
+
 ### <a name="tabular-lists"></a>表格式列表
 
 在“**表格式列表**”部分，发票的状态按照与汇总磁贴类似的方式分解：草稿和已提交，未审核的列表。 在“草稿”状态，发票可以提交到工作流或删除。 最后一个表格式列表是用来查找发票的选项。 您可以在搜索时进行筛选，以便更快地进行搜索。
-所有供应商发票列表页
+
+<a name="all-vendor-invoices-list-page"></a>所有供应商发票列表页
 -----------------------------
 
 您可以在**供应商协作发票**列表页上查看所有已过帐和未过帐的供应商发票。 您可以使用此列表页查看发票的付款状态。 付款状态包括未过帐，未付款，部分支付和完全支付。

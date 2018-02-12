@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -43,7 +44,7 @@ ms.lasthandoff: 11/03/2017
 
 [![业务流程](./media/GL-process.PNG)](./media/GL-process.PNG)
 
-# <a name="sales-tax"></a>销售税
+## <a name="sales-tax"></a>销售税
 每个公司都需要向各种税务主管机构缴纳税款。 规则和比率根据国家/地区、省/市/自治区、县和城市而改变。
 此外，当税务主管部门更改它们的要求时，必须定期更新规则。 增值税代码包含您收取以及支付给主管机构的金额数的信息。 当您设置增值税代码时，您定义了必须收取的金额或百分比。 您还定义了将这些金额或百分比应用到交易记录金额中的各种方法。 本节中的主题提供了如何针对您的税务主管机构要求的方法和比率设置增值税的信息。
 
@@ -52,13 +53,13 @@ ms.lasthandoff: 11/03/2017
  - [销售税支付和舍入规则](round-sales-tax-payments.md)
 
 
-### <a name="additional-resources"></a>其他资源
+## <a name="additional-resources"></a>其他资源
 
-#### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
+### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
 转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。 
 
-#### <a name="blogs"></a>博客
+### <a name="blogs"></a>博客
 
 您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关应付账款的意见、新闻和其他信息以及其他解决方案。
 
@@ -66,10 +67,10 @@ ms.lasthandoff: 11/03/2017
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
 
-#### <a name="task-guides"></a>任务指南
+### <a name="task-guides"></a>任务指南
 其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。
 
-#### <a name="videos"></a>视频
+### <a name="videos"></a>视频
 
 查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
 

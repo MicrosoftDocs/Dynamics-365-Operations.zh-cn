@@ -6,12 +6,14 @@ manager: AnnBe
 ms.date: 09/01/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 ms.search.form: RetailCategoryAndProductWorkspace, RetailCategory
 audience: Application User
-ms.search.scope: Core, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: 

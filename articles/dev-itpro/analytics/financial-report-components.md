@@ -1,7 +1,7 @@
 ---
 title: "财务报表组件"
 description: "本文介绍如何在财务报告中使用报表定义的组件或构建基块。 这些构造基块包括行定义、列定义和报告树定义。 本文章介绍了如何组织和锁定构建基块，以及如何使用构建基块组。"
-author: aolson
+author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -112,7 +112,7 @@ ms.lasthandoff: 11/03/2017
 3.  选择构建基块，然后单击**“撤消签出”**。
 4.  单击**“是”**以签入构建基块。
 
-# <a name="see-also"></a>请参阅
+## <a name="see-also"></a>请参阅
 
 [财务申报](financial-reporting-intro.md)
 

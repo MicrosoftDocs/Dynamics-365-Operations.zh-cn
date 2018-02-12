@@ -1,4 +1,4 @@
---- 
+---
 title: "下达生产订单"
 description: "此程序显示了如何发放生产订单。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: johanho
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
 5. 单击“打印工艺卡”复选框。
 6. 单击“确定”。
 7. 关闭该页面。
-
 

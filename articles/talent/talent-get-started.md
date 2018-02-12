@@ -8,7 +8,6 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: Talent
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent

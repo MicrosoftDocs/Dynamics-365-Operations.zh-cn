@@ -14,7 +14,7 @@ ms.search.scope: AX 2012
 ms.custom: 62303
 ms.assetid: 
 ms.search.region: Global
-ms.author: jasongre
+ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT

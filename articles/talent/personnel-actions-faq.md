@@ -1,17 +1,16 @@
 ---
 title: "人事行动 [常见问题]"
 description: "如果您的组织使用人事行动，该主题包括对可能有的问题的解答。 人事行动是执行特定与人事相关任务时必须完成的附加步骤。"
-author: shielas
+author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
 ms.technology: 
-ms.search.form: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations
+ms.search.scope: Core, Operations, Talent
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global

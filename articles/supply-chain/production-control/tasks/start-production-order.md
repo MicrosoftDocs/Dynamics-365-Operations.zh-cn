@@ -1,4 +1,4 @@
---- 
+---
 title: "开始生产订单"
 description: "该过程显示如何在作业车间启动生产订单。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. 单击“过帐”。
 8. 单击“确定”。
     * 在“工艺卡日记帐”，记录各工序所用的时间。 还可以报告完好和残次数量。  
-
 

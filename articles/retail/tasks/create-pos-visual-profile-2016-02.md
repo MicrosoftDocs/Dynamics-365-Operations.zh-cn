@@ -6,11 +6,11 @@ manager: AnnBe
 ms.date: 12/05/2015
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-retail
+ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations
+ms.search.scope: Operations, Retail
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno

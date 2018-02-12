@@ -1,7 +1,7 @@
 ---
 title: "付款方式"
 description: "设置系统时，必须配置零售商接受的每种付款类型。 本文介绍您可设置的付款类型并介绍设置它们的流程。"
-author: MargoC
+author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

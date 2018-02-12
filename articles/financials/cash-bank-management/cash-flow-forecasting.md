@@ -1,7 +1,7 @@
 ---
 title: "现金流量预测"
 description: "此主题提供现金流量预测流程的概览。 它还介绍了现金流量预测如何与系统中的其他模块集成。"
-author: saraschi
+author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -13,7 +13,7 @@ audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: sarasch
+ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT

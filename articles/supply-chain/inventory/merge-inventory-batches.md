@@ -1,7 +1,7 @@
 ---
 title: "合并库存批次"
 description: "本文提供有关如何将两个或多个库存批次整合到单个合并批次的信息。"
-author: perlynne
+author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article

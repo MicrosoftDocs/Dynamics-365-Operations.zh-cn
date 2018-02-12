@@ -6,11 +6,11 @@ manager: AnnBe
 ms.date: 12/01/2015
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-talent
 ms.technology: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations
+ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30

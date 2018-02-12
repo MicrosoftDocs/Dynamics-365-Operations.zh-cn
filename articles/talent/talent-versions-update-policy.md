@@ -6,12 +6,11 @@ manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-talent
+ms.service: dynamics-365-talent
 ms.technology: 
-ms.search.form: Talent, update policy, requirements, system requirements
 audience: Application User, IT Pro
 ms.reviewer: rschloma
-ms.search.scope: Operations, Core
+ms.search.scope: Core, Operations, Talent
 ms.custom: 63213
 ms.assetid: 5dbc62fc-0184-4c0e-9856-e735fc68799e
 ms.search.region: Global

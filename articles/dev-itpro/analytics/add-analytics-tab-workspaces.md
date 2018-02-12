@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application user, IT Pro
 ms.reviewer: robinr
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
@@ -30,14 +30,14 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > 此功能在 Dynamics 365 for Finance and Operations（版本 7.2 及更高版本）上受支持。
 
-# <a name="introduction"></a>简介
+## <a name="introduction"></a>简介
 本主题说明如何在工作区的**分析**选项卡上嵌入 Microsoft Power BI 报表。 对于此处提供的示例，我们将“车队管理”应用程序中的**预订管理**工作区扩展到在**分析**选项卡上嵌入分析工作区。
 
-# <a name="prerequisites"></a>必备项
+## <a name="prerequisites"></a>必备项
 + 对运行平台更新 8 或更高版本的开发人员环境的访问权限。
 + 使用 Microsoft Power BI 桌面创建的分析报表（.pbix 文件），且具有从实体商店数据库采购的数据模型。
 
-# <a name="overview"></a>概览
+## <a name="overview"></a>概览
 无论你是扩展现有的应用程序工作区，还是引入你自己创建新的工作区，都可以使用嵌入的分析视图来提供对你的业务数据的具有见解和交互的视图。 添加分析工作区选项卡的流程具有四个步骤。
 
 1. 将 .pbix 文件添加为 Dynamics 365 资源。
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > 有关如何创建分析报表的详细信息，请参阅 [Power BI 桌面入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。 此页是提供帮助你创建出色的分析报告解决方案的见解的出色来源。
 
-# <a name="add-a-pbix-file-as-a-resource"></a>将 .pbix 文件添加为资源。
+## <a name="add-a-pbix-file-as-a-resource"></a>将 .pbix 文件添加为资源。
 在开始之前，你必须创建或获得在工作区中将嵌入的 Power BI 报表。 有关如何创建分析报表的详细信息，请参阅 [Power BI 桌面入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。
  
 执行以下步骤以将 .pbix 文件添加为 Visual Studio 项目。
@@ -66,7 +66,7 @@ ms.lasthandoff: 11/06/2017
   
 既然你已将 .pbix 文件添加为 Dynamics 365 资源，你现在可以在工作区中嵌入报表并使用菜单项添加直接链接。
 
-# <a name="add-a-tab-control-to-an-application-workspace"></a>将选项卡控件添加到应用程序工作区
+## <a name="add-a-tab-control-to-an-application-workspace"></a>将选项卡控件添加到应用程序工作区
 在此示例中，我们将通过将**分析**选项卡添加到 **FMClerkWorkspace** 窗体的定义中的方式扩展车队管理模型中的**预订管理**工作区。
  
 下图显示 **FMClerkWorkspace** 窗体在 Microsoft Visual Studio 中的设计器中的外观。
@@ -105,7 +105,7 @@ ms.lasthandoff: 11/06/2017
  
 你现在已完成了扩展应用程序窗体定义的任务。 有关如何使用扩展执行自定义的详细信息，请参阅[自定义：覆盖和扩展](../extensibility/customization-overlayering-extensions.md)。
 
-# <a name="add-x-business-logic-to-embed-a-viewer-control"></a>添加 X++ 业务逻辑以嵌入查看器控件
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>添加 X++ 业务逻辑以嵌入查看器控件
 按照下面的步骤添加初始化在**预订管理**工作区中嵌入的报表查看器控件的业务逻辑。
 
 1. 打开 **FMClerkWorkspace** 窗体设计器以扩展设计定义。
@@ -151,12 +151,12 @@ ms.lasthandoff: 11/06/2017
 > [!NOTE]
 > 你可以使用页标题下方的工作区选项卡访问现有的操作视图。
 
-# <a name="reference"></a>参考
+## <a name="reference"></a>参考
 
-## <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl 方法
+### <a name="pbireporthelperinitializereportcontrol-method"></a>PBIReportHelper.initializeReportControl 方法
 本节提供有关用于在窗体组控件中嵌入 Power BI 报表（.pbix 资源）的帮助程序类的信息。
 
-### <a name="syntax"></a>语法
+#### <a name="syntax"></a>语法
 ```
 public static void initializeReportControl(
      str                 _resourceName,
@@ -167,7 +167,7 @@ public static void initializeReportControl(
      List                _defaultFilters = new List(Types::Class))
 ```
 
-### <a name="parameters"></a>参数设置
+#### <a name="parameters"></a>参数设置
 
 | 姓名 | 说明 |
 |---|---|

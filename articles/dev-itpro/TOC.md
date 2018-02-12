@@ -114,6 +114,7 @@
 #### [自定义：覆盖和扩展](extensibility/customization-overlayering-extensions.md)
 ### 新增功能
 #### [可扩展性更改 2017 年 7 月](extensibility/changes-july-2017.md)
+#### [Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中的可扩展性更改](extensibility/extensibility-changes-73.md)
 ### 基本原理
 #### [自动插入的自定义项](extensibility/intrusive-customizations.md)
 #### [类扩展](extensibility/class-extensions.md)
@@ -138,14 +139,19 @@
 #### [修改窗体控件属性](extensibility/modify-control-properties.md)
 #### [更改标签](extensibility/change-label.md)
 #### [扩展编号规则作用域](extensibility/extend-number-sequence-scope.md)
+#### [添加新库存维度](extensibility/inventory-dimensions.md)
+#### [价格和折扣可扩展性的更改](extensibility/pricing-app73.md)
+#### [表映射扩展](extensibility/map-extensions.md)
+#### [扩展用作界面的表映射](extensibility/maps-as-interfaces.md)
+#### [扩展用于版本控制的表映射](extensibility/maps-with-versioning.md)
 
 
 
 
 ## 绩效
-### [使用跟踪分析器跟踪](perf-test/trace-trace-tutorial.md)
+### [使用 Trace parser 跟踪](perf-test/trace-trace-tutorial.md)
 ### [使用 Visual Studio Team Services 进行的 PerfSDK 和多用户测试](perf-test/perfsdk-tutorial.md)
-### [使用跟踪分析器诊断问题和分析性能问题](perf-test/trace-parser.md)
+### [使用 Trace parser 诊断问题和分析性能问题](perf-test/trace-parser.md)
 ### [性能计时器](perf-test/performance-timer.md)
 ## Visual Studio 中的测试支持
 ### [测试和验证](perf-test/testing-validation.md)
@@ -523,16 +529,16 @@
 
 # [升级和迁移](migration-upgrade/upgrade-home-page.md)
 ## [从 AX 2012 升级到 Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
-### [分析 - 使用升级分析器工具计划升级](migration-upgrade/upgrade-analyzer-tool.md)
-### [分析 – 使用代码升级服务评估升级代码的工作](migration-upgrade/analyze-code-upgrade.md)
-### [分析 - 部署沙盒环境](migration-upgrade/analysis-sandbox.md)
-### [升级 - 开发环境中的数据升级](migration-upgrade/data-upgrade-2012.md)
-### [升级 - AX 2012 数据升级任务](migration-upgrade/prepare-data-upgrade.md)
-### [升级 - 沙盒环境中的数据升级](migration-upgrade/upgrade-data-sandbox.md)
-### [验证 - 直接转换测试](migration-upgrade/upgrade-cutover-testing.md)
-### [验证 - 在升级后要执行的任务](migration-upgrade/app-validation-process.md)
-### [验证 - 功能测试](migration-upgrade/upgrade-functional-validation.md)
-### [验证 - 准备实施](migration-upgrade/upgrade-go-live-prep.md)
+### [AX 2012 升级 - 使用升级分析器工具进行计划](migration-upgrade/upgrade-analyzer-tool.md)
+### [AX 2012 升级 – 使用代码升级服务评估工作](migration-upgrade/analyze-code-upgrade.md)
+### [AX 2012 升级 - 部署沙盒环境](migration-upgrade/analysis-sandbox.md)
+### [AX 2012 升级 - 开发环境中的数据升级](migration-upgrade/data-upgrade-2012.md)
+### [AX 2012 升级 - AX 2012 数据升级任务](migration-upgrade/prepare-data-upgrade.md)
+### [AX 2012 升级 - 沙盒环境中的数据升级](migration-upgrade/upgrade-data-sandbox.md)
+### [AX 2012 升级 - 直接转换测试](migration-upgrade/upgrade-cutover-testing.md)
+### [AX 2012 升级 - 升级后要完成的任务](migration-upgrade/app-validation-process.md)
+### [AX 2012 升级 - 功能测试通过](migration-upgrade/upgrade-functional-validation.md)
+### [AX 2012 升级 - 准备实施](migration-upgrade/upgrade-go-live-prep.md)
 
 
 ### 影响从 AX 2012 升级的更改
@@ -590,6 +596,8 @@
 ## [批处理](sysadmin/batch-processing-overview.md)
 ### [批处理服务器概览](sysadmin/batch-server-overview.md)
 ### [创建批处理作业](sysadmin/tasks/create-batch-job.md)
+
+## [创建优化顾问规则](sysadmin/optimization-advisor.md)
 
 # Lifecycle Services
 ## [Lifecycle Services 概览](lifecycle-services/lcs.md)

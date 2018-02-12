@@ -1,7 +1,7 @@
 --- 
 title: "向法人发布产品/基础产品"
 description: "此程序会逐步演示如何向一个或多个法人发布产品或基础产品。"
-author: josaw1
+author: BibiSp
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process

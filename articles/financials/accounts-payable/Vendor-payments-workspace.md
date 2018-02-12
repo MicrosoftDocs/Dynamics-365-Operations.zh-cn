@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
 ms.author: shpandey

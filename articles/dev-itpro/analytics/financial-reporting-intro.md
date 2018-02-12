@@ -8,9 +8,10 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: FinanicalReportingSetup
 audience: Application User
 ms.reviewer: twheeloc
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
 ms.search.region: Global
@@ -97,7 +98,7 @@ Finance and Operations 财务申报允许财务和业务专业人员创建、维
 </tbody>
 </table>
 
-#<a name="see-also"></a>请参阅
+## <a name="see-also"></a>请参阅
 [生成财务报表](generate-financial-report.md)
 
 

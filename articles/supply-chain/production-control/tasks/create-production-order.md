@@ -1,4 +1,4 @@
---- 
+---
 title: "创建生产订单"
 description: "此程序说明如何创建一个生产订单。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/29/2017
     * 更改生产时间将会影响生产订单的路线消耗预估和成本预估。  
 6. 单击“保存”。
 7. 关闭该页面。
-
 

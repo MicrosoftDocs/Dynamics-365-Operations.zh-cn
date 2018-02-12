@@ -8,7 +8,9 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WorkflowtableListPageRnr
 audience: Application User
+ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi

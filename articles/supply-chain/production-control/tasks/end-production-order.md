@@ -1,4 +1,4 @@
---- 
+---
 title: "结束生产订单"
 description: "该过程显示如何结束生产订单。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 1. 在“操作窗格”中，单击“管理成本”。
 2. 单击“查看成本比较”。
     * 在结束生产订单后，可以将已实现的成本价与估计成本对比获得生产差异概览。  
-
 

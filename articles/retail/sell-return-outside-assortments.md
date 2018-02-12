@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: RetailAssortmentDetails
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Retail, Core, Operations
+ms.search.scope: Core, Operations, Retail
 ms.custom: 
 ms.search.region: Global
 ms.search.industry: retail

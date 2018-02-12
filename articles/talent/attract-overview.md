@@ -6,12 +6,11 @@ manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-talent
+ms.service: dynamics-365-talent
 ms.technology: 
-ms.search.form: 
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Talent, Core
+ms.search.scope: Core, Talent
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global

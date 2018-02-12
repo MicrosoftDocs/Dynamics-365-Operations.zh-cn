@@ -1,4 +1,4 @@
---- 
+---
 title: "启用考勤管理的工资流程"
 description: "此程序说明如何根据工时与出勤率来生成工资。"
 author: johanhoffmann
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 6. 展开“时间登记”部分。
 7. 单击“编辑”。
 8. 在“支付协议”字段中，输入或选择一个值。
-
 
