@@ -1,7 +1,7 @@
 ---
 title: "POS 中的产品搜索和客户搜索"
 description: "此主题概述 Dynamics 365 for Retail 中的产品和客户搜索的增强功能。"
-author: shalabhjain
+author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 08/16/2017
 ms.topic: article
@@ -9,7 +9,8 @@ ms.prod:
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
-ms.search.scope: Operations, Retail
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
 ms.assetid: 
 ms.search.region: Global
@@ -18,10 +19,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 66859535ee118ffc04a847dfe6e8e0bae1cd9d6c
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 5f6f9a02b20549a75941d367c1b46e3439360078
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 

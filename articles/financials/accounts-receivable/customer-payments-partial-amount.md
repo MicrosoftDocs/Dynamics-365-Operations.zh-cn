@@ -3,11 +3,12 @@ title: "部分金额的客户付款"
 description: "有时客户付款低于的发票金额。 本文介绍处理此情况不同的选项。 可供您使用的选项取决于您的业务要求和配置。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 01/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustPaymEntry
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c2ba17b97bf7a00ff111e72314e98f5af7aaed80
+ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
+ms.openlocfilehash: 6b7494a05392cbee70e6d5883bae0295e8b55ac9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -41,7 +42,7 @@ ms.lasthandoff: 11/03/2017
 您可以在到期日期前为客户支付的发票提供现金折扣。 例如，如果发票在 10 天内付款，您输入 100.00 的发票，该发票指定 2% 的现金折扣。 到期期限为 30 天。 如果您在 10 天内收到 98.00 的付款，则输入 98.00 的付款。 然后，当发票标记为已结算时，现金折扣将自动执行。
 
 ## <a name="partial-payments-with-cash-discounts"></a>使用现金折扣的部分付款
-当客户进行部分付款后，他们可以计划再进行一次部分付款以完全结算发票。 要为部分付款获取现金折扣，则必须将**应收账款参数**页面上的 **计算部分付款的现金折扣** 项设置为**是**。 
+当客户进行部分付款后，他们可以计划再进行一次部分付款以完全结算发票。 要为部分付款获取现金折扣，则必须将**“应收帐款参数”**页面上的**“计算部分付款的现金折扣”**选项设置为**“是”**。 
 
 例如，如果发票在签发后的 10 天内付款，您将提供 2% 的现金折扣。 100.00 的发票已过帐。 如果您在 10 天内收到 49.00 的付款，您将在付款日记帐中输入 49.00 的贷记。 在您在**“结算交易记录”**页面上结算部分付款时，**1.00** 将出现在**“要提取的现金折扣金额”**字段中。 折扣金额过帐到现金折扣帐户。 
 

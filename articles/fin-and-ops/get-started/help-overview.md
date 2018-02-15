@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d2063cd0ae592357d57fb3c787450c604fb9be58
-ms.openlocfilehash: 549d059e549ba470eb299753fd7b87920e6dd43d
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/11/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -74,6 +75,11 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 ### <a name="follow-a-topic"></a>关注主题
 若要关注主题，单击评论框下的“+关注”按钮。 您需要先登录才能够关注主题。 请参阅[对我们作出评论](#leave-us-a-comment) 了解详细信息。  
+
+### <a name="use-an-rss-feed"></a>使用 RSS 源
+若要订阅 Unified Operations 内容的所有更新的 RSS 源，请在支持 RSS 源的浏览器（如 Internet Explorer或 RSS 源管理器）中使用以下链接： 
+
+[RSS 源](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>提供反馈 
 我们真心欢迎客户反馈。 您可以通过 GitHub 进行评论或对我们的内容提出更改建议。

@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CustParameters, VATInvoiceDescTable_CN, TaxProfileTable_CN
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0592bcf8d388a2f8569bb3792f97e8d7ff34fb14
+ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
+ms.openlocfilehash: 4e403f29c79286add175724b00803e54ceecdc3b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/23/2018
 
 ---
 
@@ -31,6 +32,9 @@ ms.lasthandoff: 11/03/2017
 
 
 本主题描述配置中国的税务集成的流程。
+
+## <a name="prerequisite"></a>必备项
+必须先通过为**应收科目参数**页面（**应收帐款** > **设置** > **应收帐款参数** > **分类帐和销售税** > **常规**选项卡）中的**与税务系统集成**选项选择**是**启用税务集成，才能配置税务集成。
 
 若要配置中国的税务集成，请完成以下任务。
 

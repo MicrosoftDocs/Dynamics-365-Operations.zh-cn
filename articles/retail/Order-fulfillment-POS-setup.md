@@ -6,19 +6,22 @@ manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
 ms.prod: 
-ms.service: dynamics-ax-applications
+ms.service: dynamics-365-retail
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
-ms.search.scope: 
+ms.reviewer: josaw
+ms.search.scope: Core, Operations, Retail
 ms.search.region: Global
+ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: bb4d8fae432eca7fe9163dcb0763fff5c8d465f0
+ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
+ms.openlocfilehash: 2fa843aee8927a1cb4f642c31d6f5683098d3c74
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -49,9 +52,9 @@ ms.lasthandoff: 12/20/2017
 
 默认情况下，分配到商店的订单行被标记为**已接受**。 这意味着系统假定这些订单行将从指定的商店履行，而且不会被进一步分配。 在某些情况下，在履行订单前，零售商可能想要手动接受订单。 例如，如果商店人手不够，无法履行订单，商店经理将仅接受他们认为在特定的一天内能够妥善处理的订单量进行处理。 在订单被接受前，只能由后端办公系统将它重新分配到另一个商店。 这样一来，订单接受也提供了指示某个商店已确认订单并将履行该订单的一种方式。 
 
-用于商店提货的订单行始终标记为**挂起**，且不需要被接受。
+用于商店提货的订单行标记为**挂起**，且不需要被接受。
 
-要启用手动接受或订单行，请导航到**零售** > **渠道** > **零售商店** > **所有零售商店**。 选择商店并单击商店 ID 可以查看该商店的详细信息。 单击“编辑”。 在**常规**快速选项卡上，找到**订单履行**子标题，并将**手动接受**从**否**更改为**是**。 
+要为订单行启用手动接受，请导航到**零售** > **渠道** > **零售商店** > **所有零售商店**。 选择商店并单击商店 ID 可以查看该商店的详细信息。 单击**编辑**。 在**常规**快速选项卡上，找到**订单履行**子标题，并将**手动接受**从**否**更改为**是**。 
 
 ### <a name="enable-reject-order-line-capability"></a>启用拒绝订单行功能
 
@@ -114,7 +117,7 @@ ms.lasthandoff: 12/20/2017
 
 **包装** - 包装选项支持两个操作：**打印装箱单**将打印选定行的装箱单，**标记为已包装**将行标记为已包装，并在后端办公系统中将行标记为已交货。 只能同时包装属于相同订单且具有相同交货方式的订单行。 装箱单格式作为收据格式的一部分进行控制。 有关如何设置收据格式的详细信息，请参阅[收据模板和打印](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/receipt-templates-printing)。
 
-**装运** - 装运操作在后端办公系统中将选定行标记为**已交货**。 某一行全部装运后，将不再显示在商店履行视图中。
+**装运** - 装运操作在后端办公系统中将选定行标记为**已交货**。 某一行全部装运后，将不再显示在订单履行视图中。
 
 **提货** - 提货操作将行添加到用于提货的交易记录视图中。 如果一个订单中有其他目前未提货的行，这些行将被添加到交易记录视图中，且数量为零。 某一行全部提货后，将不再显示在订单履行视图中。 
 

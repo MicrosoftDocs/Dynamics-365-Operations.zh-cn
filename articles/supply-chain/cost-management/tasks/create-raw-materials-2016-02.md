@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3d77dcc20fe7402af83dd724e7fef848977e5bf8
-ms.openlocfilehash: f6af7b93d8d1d9a6f7474f24177b16e5295e90d6
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 8ed33e2e80915a80eb4c6de014091f1884799098
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="create-raw-materials-february-2016-only"></a>创建原材料（仅 2016 年 2 月）

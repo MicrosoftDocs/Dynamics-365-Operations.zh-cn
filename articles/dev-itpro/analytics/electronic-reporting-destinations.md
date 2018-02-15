@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 211442c7bd0d3079a5eb4f6d01944c0eddf533af
+ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
+ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/25/2018
 
 ---
 
@@ -52,7 +52,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 [![创建文件目标](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-**注意：**您可以为同一格式的每个输出组件创建一个文件目标，如在**文件名**字段中选择的文件夹或文件。 然后可以在**目标设置**对话框中单独启用和禁用文件目标的目标。 **设置**按钮用来控制所选文件目标的所有目标。 在**目标设置**对话框中，您可以通过设置目标的**已启用**选项来分别控制每个目标。
+> ![注意] 您可以为同一格式的每个输出组件创建一个文件目标，如在**文件名**字段中选择的文件夹或文件。 然后可以在**目标设置**对话框中单独启用和禁用文件目标的目标。 **设置**按钮用来控制所选文件目标的所有目标。 在**目标设置**对话框中，您可以通过设置目标的**已启用**选项来分别控制每个目标。
 
 [![“目标设置”对话框](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -131,7 +131,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 | PaymAccountsPayablePaymentsClerk    | 应付账款付款员            | ERFormatDestinationRuntimeConfigure | 在运行时配置电子报告格式目标 |
 | PaymAccountsReceivablePaymentsClerk | 应收账款付款员         | ERFormatDestinationRuntimeConfigure | 在运行时配置电子报告格式目标 |
 
-**注意：**两个权限用于先前职责。 这些权限与对应职责具有相同名称：**ERFormatDestinationConfigure** 和 **ERFormatDestinationRuntimeConfigure**。
+> ![注意] 两个权限用于先前职责。 这些权限与对应职责具有相同名称：**ERFormatDestinationConfigure** 和 **ERFormatDestinationRuntimeConfigure**。
 
 ## <a name="frequently-asked-questions"></a>常见问题
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>我已导入了电子配置，并在电子申报页看到了它们。 但为何我没在电子申报目标页看到它们？
@@ -154,7 +154,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 先决条件是您的格式必须在 ER 配置中可用。 如果您有格式，打开**电子申报目标**页，创建此配置的一个新引用。 然后，您必须有四个文件目标，每个输出组件一个。 创建第一个文件目标，为其命名，如 **Folder**，并选择在您的配置中表示文件夹的文件名。 然后单击**设置**，并确保禁用所有目标。 对于此文件目标，将不创建文件夹。 默认情况下，由于文件和父文件夹之间的层次结果依赖性，文件将以相同方式运行。 换言之，它们不会被随处发送 若要覆盖默认行为，必须再创建三个文件目标，每个文件一个。 在每个目标的目标设置中，必须启用文件应发送到的目标。
 
-# <a name="see-also"></a>请参阅
+## <a name="see-also"></a>请参阅
 
 [电子申报概览](general-electronic-reporting.md)
 

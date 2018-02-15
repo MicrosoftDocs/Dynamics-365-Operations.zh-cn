@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e79fcaa634c4b4eb601241d75da2f36f2455db4e
+ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
+ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/19/2018
 
 ---
 
@@ -28,6 +28,9 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 要在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中创建和管理数据导入和导出作业，请使用**数据管理**工作区。 默认情况下，数据导入和导出流程为目标数据库中的每个实体创建一个暂存表。 通过暂存表可以在移动数据之前验证、清理或转换数据。
+
+> [!NOTE]
+> 此主题假定您熟悉[数据实体](data-entities.md)。
 
 ## <a name="data-importexport-process"></a>数据导入/导出流程
 以下是导入或导出数据的步骤。

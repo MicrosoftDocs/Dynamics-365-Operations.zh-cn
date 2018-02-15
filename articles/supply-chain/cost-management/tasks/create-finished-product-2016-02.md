@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: YuyuScheller
+ms.reviewer: yuyus
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5485c949e932572542ba22e052007e9625e20314
-ms.openlocfilehash: a14b56b508e5d46bb2898828bd30fdf6c3c14023
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: 19cba700a2c96a09e0444c17323b8b2d4bf43f7d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 # <a name="create-a-finished-product-february-2016-only"></a>创建成品（仅 2016 年 2 月）

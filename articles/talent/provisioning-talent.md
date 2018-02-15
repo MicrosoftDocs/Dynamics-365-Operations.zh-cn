@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 6ffb97b53f522cfe8ccd8e89df854cbc557e4f1f
-ms.openlocfilehash: fadc373b2c1c06987f22d4d9c20a9ab07b0c85d5
+ms.sourcegitcommit: a53c1997f74ebe572b17cc3090d2e236b6fe78f6
+ms.openlocfilehash: 8a84cfe9b73f0c72f3cb0c3843749754c6b3d538
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>配置 Microsoft Dynamics 365 for Talent
@@ -60,6 +60,9 @@ ms.lasthandoff: 11/20/2017
 > 如果您尚未验证最终要求，您可以在项目中部署 Talent 的测试实例。 您可以随后使用此实例来测试您的解决方案，直到验证完成。 如果您使用新环境进行测试，那么您必须重复此过程来创建一个生产环境。
 
 ## <a name="create-a-new-powerapps-environment-if-required"></a>创建新的 PowerApps 环境（如果需要）
+
+Talent 与 PowerApps 环境集成背后的愿景是通过使用 PowerApps 工具和 Talent 数据，启用数据集成和扩展流。 因此，选择要用于 Talent 的环境时，务必了解 PowerApps 环境的用途。 有关 PowerApps 环境的详细信息，包括环境范围、环境访问和创建与选择环境，请参阅[介绍 PowerApps 环境](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/)。  由于默认 PowerApps 环境中将自动设置每个租户，所以该环境可能不是最适合用于您的 Talent 部署的环境。 此步骤中应考虑数据集成和测试策略，所以建议您注意对您的部署的各种影响，因为以后不容易更改。
+
 1. 在 LCS 中选择**管理环境**。 您会被带到 [PowerApps 管理员中心](https://preview.admin.powerapps.com/environments)，从中您可以查看现有的环境并创建新环境。
 2. 选择 (**+**) **新建环境**按钮。
 3. 为环境输入唯一名称，然后选择要部署的位置。
@@ -74,9 +77,20 @@ ms.lasthandoff: 11/20/2017
     > [!IMPORTANT]
     > 如果您以前已创建了 CDS 数据库并在其中输入了您公司的任何生产数据，请注意，以下步骤将删除所选数据库中的**所有**数据，甚至您公司的生产数据。
 
-    1. 登录到 [PowerApps](https://preview.web.powerapps.com/home)，并转至您在步骤 2 中创建的环境。
-    2. 选择**实体**。 在页面的右侧，请选择椭圆形 (**…**) 按钮，然后选择**清除所有数据**。
-    3. 选择**删除数据**以确认您要删除该数据。 此操作默认情况下将删除 CDS 中包括的所有演示数据。 它还会删除在所选数据库中输入的任何其他数据。
-
+    1. 登录 [PowerApps](https://preview.web.powerapps.com/home)，然后从页面右侧的下拉列表中选择步骤 2 中创建的环境。
+    2. 展开左导航窗格中的 **Common Data Service**，然后选择**实体**。
+    3. 在页面的右侧，请选择椭圆形 (**…**) 按钮，然后选择**清除所有数据**。
+    4. 选择**删除数据**以确认您要删除该数据。 此操作默认情况下将删除 CDS 中包括的所有演示数据。 它还会删除在所选数据库中输入的任何其他数据。
+    
 您现在可以使用您的新环境了。
+
+## <a name="granting-access-to-the-environment"></a>创建对环境的访问
+默认情况下，创建环境的全局管理员拥有访问权，但是必须为其他应用程序用户明确授予访问权。 方法是，在 Core HR 环境内部[添加用户](../dev-itpro/sysadmin/tasks/create-new-users.md)并[为其分配相应角色](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md)。 此外，还必须将这些用户添加到 PowerApps 环境，以便他们可以访问 Attract 和 Onboard 应用程序。  博客文章[介绍 PowerApps 管理中心](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/)可能可以帮助您完成下面概述的这些步骤：
+
+> 1.    部署 Talent 环境的全局管理员应导航到 [PowerApps 管理中心](https://preview.admin.powerapps.com/environments)。   
+> 2.    选择所讨论的环境。
+> 3.    在"安全性:选项卡下，将必要的用户添加到“环境制造者”角色。
+
+请注意，这个将用户添加到 PowerApps 环境的最后一步是暂时的。 我们最终将增加功能，以便在 Core HR 内添加了用户时，自动实现此步骤。
+
 

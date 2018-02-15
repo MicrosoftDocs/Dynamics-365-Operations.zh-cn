@@ -3,11 +3,12 @@ title: "预算计划与其他模块的集成"
 description: "预算计划可以从多个不同资源生成。 所有资源的周期性流程的基本元素相同。"
 author: twheeloc
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 01/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: twheeloc
 ms.search.scope: Core, Operations
@@ -18,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7663453ddf87bcb43d2f19ebec3c9bda90eda884
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: f50e58d63a9db4d6a8b5390174e2c7b87970717d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -71,7 +72,7 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="generation-rules"></a>生成规则
 
-三个字段提供其他功能：**系数**、**最小值**和**舍入****规则**。 
+三个字段提供其他功能：**系数**、**最小值**和**舍入规则**。 
 
 **系数**字段中的值乘以源金额来设置预算计划中的金额。 然后在您创建预算计划行时，您可以进行调整。 例如，可以为提高 3% 输入 **1.03**。 系数必须为正数。 
 
