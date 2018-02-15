@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 29c185c6b92a3abf18c53531606205675a6c5062
+ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
+ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 02/14/2018
 
 ---
 
