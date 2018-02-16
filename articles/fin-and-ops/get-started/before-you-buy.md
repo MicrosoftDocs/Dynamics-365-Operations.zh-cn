@@ -1,7 +1,7 @@
 ---
 title: "在购买之前"
 description: "在你考虑购买 Dynamics 365 for Finance and Operations Enterprise 版本时使用的分步指导。"
-author: margoc
+author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
 ms.topic: article
@@ -13,14 +13,14 @@ ms.reviewer: margoc
 ms.search.scope: Core, Operations
 ms.custom: 21761
 ms.search.region: Global
-ms.author: margoc
+ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c4bd67b15e893613bed14d2bdc1d9a07da81dc26
+ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
+ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 01/31/2018
 
 ---
 
@@ -35,7 +35,17 @@ Dynamics 365 for Finance and Operations Enterprise 版本的新用户？ 无论�
 
 ## <a name="step-two-choose-a-deployment-option"></a>步骤二：选择部署选项
 你现在可以在云或本地部署 Microsoft Dynamics 365 for Finance and Operations Enterprise版本。 云部署提供完全由 Microsoft 托管的一项 ERP 服务，而本地部署在客户的数据中心内本地部署。
-有关详细信息，请参阅：[部署选项](../../dev-itpro/deployment/choose-deployment-type.md) 
+
+选择内部部署作为部署选项时，必须注意以下事项：
+- [云认证](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)中不可用的法规和合规性需求
+- 业务流程不连贯，并且访问 Microsoft Dynamics Lifecycle Services (LCS) 以执行应用程序生命周期管理所需的 Internet 连接时断时续
+- [当前未在内部部署中实现的功能](features-not-implemented-on-prem.md)
+- [最低基础结构需求](system-requirements-on-prem.md#minimum-infrastructure-requirements)
+
+> [!IMPORTANT]
+> 所有公共云基础设施（包括 Azure）都不支持本地部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition。 
+
+有关详细信息，请参阅[部署选项](../../dev-itpro/deployment/choose-deployment-type.md)
 
 ## <a name="step-three-buy-and-manage-a-subscription"></a>步骤三：购买和管理订阅
 若要探索订阅选项，请转到 [Dynamics 365](https://www.microsoft.com/en-us/dynamics365/pricing) 定价页。 此页包括若干不同的计划以满足你的组织的需要。

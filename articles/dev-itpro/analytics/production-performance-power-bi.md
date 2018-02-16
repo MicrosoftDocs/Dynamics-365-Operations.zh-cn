@@ -8,6 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -16,10 +17,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 592514e9ef8b0ec1e3bacda0f26d5991da88449e
+ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
+ms.openlocfilehash: d59a7aef90ecef0cd947b833f1cce1e2372f3033
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 01/17/2018
 
 ---
 
@@ -104,7 +105,7 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 | 已延迟               | ‘生产订单’[已 RAF] = TRUE &&‘生产订单’[延迟值] = 1 |
 | 提前                 | ‘生产订单’[已 RAF] = TRUE &&‘生产订单’[延迟的天数] \< 0 |
 | 完全               | ‘生产订单’[完好数量] \>=‘生产订单’[计划的数量] |
-| 已 RAF                | ‘生产订单’[生产状态值] = 5 \|\| ‘生产订单’[生产状态值] = 7 |
+| 已 RAF                | '生产订单'[生产状态值] = 5 \|\| '生产订单'[生产状态值] = 7 |
 | 延期和完全           | COUNTROWS（筛选器（‘生产订单’，‘生产订单’[完全] = TRUE &&‘生产订单’[已延迟] = TRUE）） |
 | 延期 \#                  | COUNTROWS（筛选器（‘生产订单’，‘生产订单’[已延迟] = TRUE）） |
 | 延期 %                   | IFERROR（IF（‘生产订单’[延期 \#] \<\> 0，‘生产订单’[延期 \#]，IF（‘生产订单’[订单总计] = 0，空白()，0））/‘生产订单’[订单总计]，空白()） |

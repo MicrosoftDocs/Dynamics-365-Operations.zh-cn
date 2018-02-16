@@ -3,7 +3,7 @@ title: "成本管理 Power BI 内容"
 description: "此主题介绍成本管理 Power BI 内容中的内容。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e0f9042b2647a484a70670d1d29e8036401b39f1
+ms.sourcegitcommit: b167d7577823bbc88d8e64952333110f9a652b64
+ms.openlocfilehash: 1f552e1ee0286326e3a2a8bb6a7bfb84df53b45d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 02/02/2018
 
 ---
 
@@ -30,10 +30,10 @@ ms.lasthandoff: 12/19/2017
 
 [!include[banner](../includes/banner.md)]
 
+> [注意] 根据 [Power BI 内容包发布到 PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) 中的说明，已弃用此内容包。
+
 
 此主题介绍成本管理 Power BI 内容中的内容。 
-
-# <a name="overview"></a>概览
 
 **成本管理** Microsoft Power BI 内容适用于组织中的库存会计师或负责库存的个人。 **成本管理** Power BI 内容提供对库存和在制品 (WIP) 库存的管理洞察，并按类别介绍一段时间内成本在这些库存中的流向。 也可以将此信息用作财务报表的详细补充。
 
