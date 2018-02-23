@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7bf37ff484323fb05a35419889f2f89ab124fb27
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 8d9a27ecb99265674211a5ec768fe55040b8f5fe
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -54,10 +54,6 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="ddc41-130">如果您希望所有供应商交易记录具有相同的过帐模板，请在“帐户编码”字段中使用“全部”，从而仅建立一个过帐模板。</span><span class="sxs-lookup"><span data-stu-id="ddc41-130">If you want all vendor transactions to have the same posting profile, set up only one posting profile with All in the Account code field.</span></span> <span data-ttu-id="ddc41-131">指定以下值设置您的过帐模板：</span><span class="sxs-lookup"><span data-stu-id="ddc41-131">Specify the following values to set up your posting profile:</span></span>
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th><span data-ttu-id="ddc41-132">字段</span><span class="sxs-lookup"><span data-stu-id="ddc41-132">Field</span></span></th>

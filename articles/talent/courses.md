@@ -1,7 +1,7 @@
 ---
 title: "设置培训课程"
 description: "人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。"
-author: twheeloc
+author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-365-talent
 ms.technology: 
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
 ms.custom: 7532
 ms.assetid: a6950c29-8b3e-45b2-9084-ddfb1317ffaa
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 7c799a41ef0e627bf88c742d9a91c946b21f454f
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
