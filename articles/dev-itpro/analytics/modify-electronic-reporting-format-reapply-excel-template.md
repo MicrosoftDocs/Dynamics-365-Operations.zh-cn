@@ -19,13 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2bc175ceec7ee8771e09f1dac4ede7b3fa619322
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: fca7fb75b965886c2ebc06b12940434f2ffc2543
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/27/2018
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a><span data-ttu-id="bc407-103">通过重新应用 Microsoft Excel 模板修改电子申报格式</span><span class="sxs-lookup"><span data-stu-id="bc407-103">Modify an Electronic reporting format by reapplying a Microsoft Excel template</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="bc407-104">电子报告 (ER) 工具用于生成电子格式的业务文档。</span><span class="sxs-lookup"><span data-stu-id="bc407-104">The Electronic reporting (ER) tool is used to generate business documents in an electronic format.</span></span> <span data-ttu-id="bc407-105">若要生成业务文档，您必须创建 ER 格式，然后使用 ER 设计器来定义业务文档的布局并指定其应包括的数据。</span><span class="sxs-lookup"><span data-stu-id="bc407-105">To generate a business document, you must create an ER format, and then use the ER designer to define the layout of the business document and specify the data that should be included in it.</span></span> <span data-ttu-id="bc407-106">随后您可以运行 ER 格式以生成业务文档。</span><span class="sxs-lookup"><span data-stu-id="bc407-106">You can then run the ER format to generate the business document.</span></span>
 
 <span data-ttu-id="bc407-107">ER 工具可用于将业务文档生成为 Microsoft Excel 文件。</span><span class="sxs-lookup"><span data-stu-id="bc407-107">The ER tool can be used to generate business documents as Microsoft Excel files.</span></span> <span data-ttu-id="bc407-108">可以使用 Excel 文档作为这些文档的模板。</span><span class="sxs-lookup"><span data-stu-id="bc407-108">You can use an Excel document as a template for these documents.</span></span> <span data-ttu-id="bc407-109">若要在 ER 设计器中定义文档布局，可以将您要用作模板的 Excel 文档的内容导入到定义的 ER 格式中。</span><span class="sxs-lookup"><span data-stu-id="bc407-109">To define the document layout in the ER designer, you can import the contents of the Excel document that you want to use as a template into the defined ER format.</span></span> <span data-ttu-id="bc407-110">若要了解详细信息并实践此方案，播放任务指南 **ER 设计用于生成 OPENXML 格式的报表的配置**（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分）。</span><span class="sxs-lookup"><span data-stu-id="bc407-110">For more details, and to practice this scenario, play the task guide **ER Design a configuration for generating reports in OPENXML format** (part of the 7.5.4.3 Acquire/Develop IT service/solution components (10677) business process).</span></span>

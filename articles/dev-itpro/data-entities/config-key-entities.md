@@ -18,14 +18,17 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 1dab5e2e93bb87a926e9c66599ad711556206765
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: f9ea932b48d57baad4b4ab66069191ebd7cbbd6c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
 # <a name="configuration-keys-and-data-entities"></a><span data-ttu-id="1a378-103">配置键和数据实体</span><span class="sxs-lookup"><span data-stu-id="1a378-103">Configuration keys and data entities</span></span>
+
+[!include[banner](../includes/banner.md)]
+
 <span data-ttu-id="1a378-104">使用数据实体导入或导出数据之前，建议首先确定配置键对要使用的数据实体的影响。</span><span class="sxs-lookup"><span data-stu-id="1a378-104">Before you use data entities to import or export data, we recommended that you first determine the impact of configuration keys on the data entities that you are planning to use.</span></span> 
 
 <span data-ttu-id="1a378-105">若要了解有关 Finance and Operations 中的配置键的详细信息，请参阅[许可证代码和配置键报告](../sysadmin/license-codes-configuration-keys-report.md)。</span><span class="sxs-lookup"><span data-stu-id="1a378-105">To learn more about configuration keys in Finance and Operations, see the [License codes and configuration keys report](../sysadmin/license-codes-configuration-keys-report.md).</span></span>
