@@ -17,13 +17,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 8140b452e8f9c7b94b4466a57100a1559cf0919e
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 34dc8d762db4a4802e52188ebda298db234ee376
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="vendor-invoice-automation"></a><span data-ttu-id="d7c58-103">供应商发票自动化</span><span class="sxs-lookup"><span data-stu-id="d7c58-103">Vendor invoice automation</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="d7c58-104">此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。</span><span class="sxs-lookup"><span data-stu-id="d7c58-104">This topic explains the features that are available for end-to-end automation of vendor invoices, even invoices that include attachments.</span></span>
 

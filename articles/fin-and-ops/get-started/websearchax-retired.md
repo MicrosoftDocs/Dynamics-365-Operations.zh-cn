@@ -18,14 +18,16 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a869f6f00bd89d918b1387893d1d96f29be3d687
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 0a863d1826a5f1d19c7ab51c046e3b0137e24eeb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="websearchax-retired"></a><span data-ttu-id="b47e6-104">WebSearchAX 已停用</span><span class="sxs-lookup"><span data-stu-id="b47e6-104">WebSearchAX retired</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="b47e6-105">我们必须停用 WebSearchAX 页。</span><span class="sxs-lookup"><span data-stu-id="b47e6-105">We’ve had to retire the WebSearchAX page.</span></span> <span data-ttu-id="b47e6-106">我们建议您使用喜爱的搜索引擎的站点搜索来替代它。</span><span class="sxs-lookup"><span data-stu-id="b47e6-106">We recommend that you use site search from your favorite search engine to replace it.</span></span>  <span data-ttu-id="b47e6-107">例如:</span><span class="sxs-lookup"><span data-stu-id="b47e6-107">For example:</span></span> 
 
