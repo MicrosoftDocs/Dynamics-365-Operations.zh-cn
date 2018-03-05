@@ -27,6 +27,8 @@ ms.lasthandoff: 12/01/2017
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>云和本地功能比较
 
+[!include[banner](../includes/banner.md)]
+
 此主题显示每个功能在这些产品中是否可用：
 
 + Dynamics 365 for Finance and Operations Enterprise Edition（云）

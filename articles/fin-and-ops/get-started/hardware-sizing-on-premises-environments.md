@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="hardware-sizing-for-on-premises-environments"></a>针对本地环境的硬件规模调整
+
+[!include[banner](../includes/banner.md)]
+
 在你开始对本地环境执行硬件和基础结构规模调整流程前，请熟悉[系统要求](system-requirements.md) 和[设置和部署说明](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) 以充分了解基础结构。 
 
   **注意：**密切关注可实现最优性能的系统设置最佳实践。 
