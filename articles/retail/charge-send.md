@@ -19,14 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7612935c42ee7b28e1d1e24b22801e31114dc675
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: 41434614b01f9a00f2b8a56765ecb90ee07e3d90
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/05/2018
 
 ---
 
 # <a name="ship-an-order-from-a-different-store"></a><span data-ttu-id="44a58-103">装运来自不同商店的订单</span><span class="sxs-lookup"><span data-stu-id="44a58-103">Ship an order from a different store</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="44a58-104">使用 Dynamics 365 for Retail 中的“费用发送”功能，可以在一个商店下达客户订单，从另一个商店装运。</span><span class="sxs-lookup"><span data-stu-id="44a58-104">With the Charge send feature in Dynamics 365 for Retail, customer orders can be placed in one store and shipped from another store.</span></span> <span data-ttu-id="44a58-105">销售点 (POS) 客户端的客户订单支持多个履行选项。</span><span class="sxs-lookup"><span data-stu-id="44a58-105">Customer orders in the point of sale (POS) client support multiple fulfillment options.</span></span> <span data-ttu-id="44a58-106">一些履行选项的示例包括：</span><span class="sxs-lookup"><span data-stu-id="44a58-106">Some examples of fulfillment options include:</span></span>
 -   <span data-ttu-id="44a58-107">在不同日期从同一个商店提货。</span><span class="sxs-lookup"><span data-stu-id="44a58-107">Pick up from the same store on a different date.</span></span>
