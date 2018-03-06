@@ -29,6 +29,8 @@ ms.lasthandoff: 10/17/2017
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a>MPOS/CPOS 中的演示数据屏幕布局
 
+[!include[banner](includes/banner.md)]
+
 本主题提供了有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 体验的演示数据集包含的屏幕布局信息。
 
 ## <a name="overview"></a>概览
