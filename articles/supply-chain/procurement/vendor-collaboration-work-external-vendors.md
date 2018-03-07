@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: PurchTable, PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
+ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: 034c60d7b3215bde354a69463de5cf0bd2e26c1e
+ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
+ms.openlocfilehash: 2d879ee5a23e3263c9dce52f4732a2be74e60f8e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
