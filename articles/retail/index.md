@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="welcome-to-dynamics-365-for-retail"></a>欢迎使用 Dynamics 365 for Retail
 
+[!include[banner](includes/banner.md)]
+
 Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供跨所有渠道的统一商务。 其中包括销售、移动性、智能和工作效率解决方案，帮助零售商和工作人员以云优先和移动优先的方式实现更多目标。 Retail 为实施各类业务流程提供全面的支持，如促销活动、库存和渠道管理功能。 它还跨所有接触点提供沉浸式客户体验。
 
 > [!NOTE] 

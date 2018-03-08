@@ -28,6 +28,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="retail-statements"></a>零售报表
+
+[!include[banner](includes/banner.md)]
+
 在 Microsoft Dynamics 365 for Retail 中，报表过帐流程用于说明在云销售点 (POS) 或现代 POS (MPOS) 中发生的交易记录。 报表过帐流程使用配送计划将一组 POS 交易记录导入到总部 (HQ) 客户端。 在**零售参数**和**商店**页定义的参数用于选择导入到单个报表的交易记录。  
 
 下图显示了报表过帐流程。 在此流程中，通过使用零售调度将 POS 中记录的交易记录传输给客户端。 在客户端接收交易记录后，你可以为商店创建、计算和过帐交易记录报表。 

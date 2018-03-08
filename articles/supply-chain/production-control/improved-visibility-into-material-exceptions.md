@@ -26,6 +26,8 @@ ms.lasthandoff: 12/14/2017
 ---
 # <a name="visibility-into-material-exceptions"></a>物料异常的可见性
 
+[!include[banner](../includes/banner.md)]
+
 **生产车间管理**工作区中的三个磁贴可让您更好地了解用于生产订单和批次订单的原材料的异常情况：
 
 - 需要关注的未发布物料行

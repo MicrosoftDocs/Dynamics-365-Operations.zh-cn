@@ -28,6 +28,8 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>从生产订单到出货台的越库配送
 
+[!include[banner](../includes/banner.md)]
+
 此主题描述如何管理将报告为完工入库的物料从生产线到出站运输台越库配送的流程。
 
 <a name="introduction"></a>简介

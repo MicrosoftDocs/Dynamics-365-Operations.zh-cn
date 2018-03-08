@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="register-material-consumption-using-a-mobile-device"></a>使用移动设备登记物料消耗量
+
+[!include[banner](../includes/banner.md)]
+
 此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
 
 <a name="introduction"></a>简介
