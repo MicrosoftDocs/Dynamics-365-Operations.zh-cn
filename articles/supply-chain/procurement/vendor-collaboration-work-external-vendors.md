@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: PurchTable, PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
+ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations

@@ -26,6 +26,9 @@ ms.lasthandoff: 01/19/2018
 ---
 
 # <a name="configuration-keys-and-data-entities"></a>配置键和数据实体
+
+[!include[banner](../includes/banner.md)]
+
 使用数据实体导入或导出数据之前，建议首先确定配置键对要使用的数据实体的影响。 
 
 若要了解有关 Finance and Operations 中的配置键的详细信息，请参阅[许可证代码和配置键报告](../sysadmin/license-codes-configuration-keys-report.md)。

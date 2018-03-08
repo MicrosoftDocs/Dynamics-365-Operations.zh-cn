@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>为电子采购发包设置外部目录
 
+[!include[banner](../includes/banner.md)]
+
 通过使用外部目录，您可以确保您在 Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月版中后续处理的产品和价格信息准确和最新。 之后可以批准申请和转换为采购订单，并且可以向供应商下单。
 
 设置好外部目录并且员工准备申请时，将有一个选项重定向到外部站点，即外部目录，并返回在外部站点创建的购物篮。 此通信基于 cXML 协议且必须在购买和销售组织的系统间建立。

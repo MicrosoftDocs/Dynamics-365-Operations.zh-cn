@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>通过重新应用 Microsoft Excel 模板修改电子申报格式
+
+[!include[banner](../includes/banner.md)]
+
 电子报告 (ER) 工具用于生成电子格式的业务文档。 若要生成业务文档，您必须创建 ER 格式，然后使用 ER 设计器来定义业务文档的布局并指定其应包括的数据。 随后您可以运行 ER 格式以生成业务文档。
 
 ER 工具可用于将业务文档生成为 Microsoft Excel 文件。 可以使用 Excel 文档作为这些文档的模板。 若要在 ER 设计器中定义文档布局，可以将您要用作模板的 Excel 文档的内容导入到定义的 ER 格式中。 若要了解详细信息并实践此方案，播放任务指南 **ER 设计用于生成 OPENXML 格式的报表的配置**（7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677) 业务流程的一部分）。

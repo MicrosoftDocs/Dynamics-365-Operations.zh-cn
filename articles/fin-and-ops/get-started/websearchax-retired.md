@@ -27,6 +27,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="websearchax-retired"></a>WebSearchAX 已停用
 
+[!include[banner](../includes/banner.md)]
+
 我们必须停用 WebSearchAX 页。 我们建议您使用喜爱的搜索引擎的站点搜索来替代它。  例如: 
 
 site:technet.microsoft.com dynamics ax 2012 "搜索词"

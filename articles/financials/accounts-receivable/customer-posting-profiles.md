@@ -54,10 +54,6 @@ ms.lasthandoff: 11/03/2017
 如果您希望所有客户交易记录具有相同的过帐模板，请在“帐户编码”字段中使用“全部”，从而仅建立一个过帐模板。 指定以下值设置您的过帐模板：
 
 <table>
-<colgroup>
-<col width="50%" />
-<col width="50%" />
-</colgroup>
 <thead>
 <tr class="header">
 <th>字段</th>

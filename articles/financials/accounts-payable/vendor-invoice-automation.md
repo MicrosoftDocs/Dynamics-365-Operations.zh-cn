@@ -25,6 +25,8 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="vendor-invoice-automation"></a>供应商发票自动化
 
+[!include[banner](../includes/banner.md)]
+
 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 
 想要优化其应付账款 (AP) 流程的组织通常将发票处理确定为应提高效率的优先流程领域。 在大多数情况下，这些组织将纸质发票的处理委托给第三方光学字符识别 (OCR) 服务提供商。 然后，他们收到机器可读的发票元数据和每张发票的扫描图像。 为了帮助实现自动化，生成了“最后一英里”解决方案以实现这些项目在发票系统中的使用。 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本现在通过发票自动化解决方案实现此现成的“最后一英里”自动化。

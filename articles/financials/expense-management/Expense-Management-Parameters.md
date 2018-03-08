@@ -25,6 +25,9 @@ ms.lasthandoff: 09/29/2017
 ---
 
 # <a name="expense-management-parameters"></a>费用报销管理参数
+
+[!include[banner](../includes/banner.md)]
+
 -----------------------------
 
 参数控制费用报销管理中的常规行为。

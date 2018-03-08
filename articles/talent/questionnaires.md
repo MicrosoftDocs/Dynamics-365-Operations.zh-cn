@@ -28,6 +28,8 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="questionnaires"></a>调查表
 
+[!include[banner](includes/banner.md)]
+
 本主题提供了有关调查表的一般信息以及指向更多详细信息的链接。 调查表是一组问题，用于收集信息以达到各种目的。 您可以设计、创建、分发和完成调查表，然后对结果进行分析。 
 
 通过使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中提供的各种功能，您可以自定义调查表来满足您的特定要求。 以下是有关如何使用调查表的一些示例：

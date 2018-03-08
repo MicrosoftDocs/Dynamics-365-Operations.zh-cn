@@ -30,6 +30,8 @@ ms.lasthandoff: 01/19/2018
 
 # <a name="prepare-to-maintain-standard-costs-for-manufactured-items"></a>准备为制造物料维护标准成本
 
+[!include[banner](../includes/banner.md)]
+
 本主题介绍准备维护制造物料成本的步骤。 制造物料的步骤与采购物料的步骤稍有不同。
 
 分配给制造物料的策略可能会影响父级制造物料的成本计算。 若要准备维护制造物料的成本，请执行以下步骤。

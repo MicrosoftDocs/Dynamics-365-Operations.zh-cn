@@ -26,6 +26,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="process-compensation"></a>处理薪酬
+
+[!include[banner](includes/banner.md)]
+
 薪酬处理允许您基于权益调整、业绩调薪目标和绩效为您的员工计算新的基本薪酬金额。 本主题涵盖不考虑员工绩效因素的固定薪酬计划的薪酬处理的基本流程。
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a>计划新的薪酬金额和预算

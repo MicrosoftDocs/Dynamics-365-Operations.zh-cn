@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: PurchTable, PurchVendorPortalRequests
+ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: bis
 ms.search.scope: Core, Operations
@@ -27,6 +27,9 @@ ms.lasthandoff: 11/03/2017
 ---
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>针对电子采购发包使用外部目录
+
+[!include[banner](../includes/banner.md)]
+
 通过针对电子采购发包使用外部目录，您不必再在自己的主数据中维护与您的供应商的产品有关的信息。 相反，供应商网站上的购物车将转换为具有正确产品信息的申请行。 
 
 您应该避免在您自己的产品主数据中维护供应商产品的描述和价格。 相反，应针对电子采购发包使用外部目录。 之后当员工创建申请时，他们可以“发包”到供应商的外部目录站点（换言之，他们离开您的系统，前往供应商站点）。 在供应商的网站上添加到购物车的产品随后可以转换为申请行。 因此，您将获得正确的产品信息：产品 ID、名称、价格等。

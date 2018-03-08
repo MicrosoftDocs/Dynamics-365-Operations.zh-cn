@@ -25,6 +25,9 @@ ms.lasthandoff: 12/01/2017
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>扩展 Microsoft Dynamics 365 for Talent 的功能
+
+[!include[banner](includes/banner.md)]
+
 如果您创建了任何 Microsoft PowerApps，您可以从 Microsoft Dynamics 365 for Talent 内的链接启动那些应用程序。 若要设置对您的应用程序的访问，您需要在可以从**系统管理**工作区打开的配置页面上设置 Talent 中的一些信息。
 
 ## <a name="configuring-embedded-powerapps-within-talent"></a>配置 Talent 内嵌入的 PowerApps
