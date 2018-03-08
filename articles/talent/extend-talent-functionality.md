@@ -18,13 +18,16 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: e1d0bbd71737001579218068e2ab0e02bc973f38
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 51eb4288f5b6c732755007c1dcd8c4db090ccc0a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="a86d1-103">扩展 Microsoft Dynamics 365 for Talent 的功能</span><span class="sxs-lookup"><span data-stu-id="a86d1-103">Extend the functionality of Microsoft Dynamics 365 for Talent</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="a86d1-104">如果您创建了任何 Microsoft PowerApps，您可以从 Microsoft Dynamics 365 for Talent 内的链接启动那些应用程序。</span><span class="sxs-lookup"><span data-stu-id="a86d1-104">If you’ve created any Microsoft PowerApps, you can start those applications from links within Microsoft Dynamics 365 for Talent.</span></span> <span data-ttu-id="a86d1-105">若要设置对您的应用程序的访问，您需要在可以从**系统管理**工作区打开的配置页面上设置 Talent 中的一些信息。</span><span class="sxs-lookup"><span data-stu-id="a86d1-105">To set up access to your applications, you’ll need to set up some information in Talent on a configuration page that you can open from the **System administration** workspace.</span></span>
 
 ## <a name="configuring-embedded-powerapps-within-talent"></a><span data-ttu-id="a86d1-106">配置 Talent 内嵌入的 PowerApps</span><span class="sxs-lookup"><span data-stu-id="a86d1-106">Configuring embedded PowerApps within Talent</span></span>

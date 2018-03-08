@@ -18,13 +18,16 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: e84449475ce73b4a6a88ab9975e2572178cf0dab
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: b64a97897a1ea75eb2a9681bc9357433a570dd74
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 # <a name="attract-overview"></a><span data-ttu-id="523a8-104">Attract 概述</span><span class="sxs-lookup"><span data-stu-id="523a8-104">Attract overview</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="523a8-105">Attract 提供用于管理新人才雇用流程的功能。</span><span class="sxs-lookup"><span data-stu-id="523a8-105">Attract provides capabilities to manage the process of hiring new talent.</span></span> <span data-ttu-id="523a8-106">可以将应聘者添加到空缺职位并逐级提升，直到发出聘约或申请被拒绝。</span><span class="sxs-lookup"><span data-stu-id="523a8-106">Candidates can be added to open jobs and advanced from stage to stage until an offer is extended or the application is rejected.</span></span> <span data-ttu-id="523a8-107">在每个阶段，应聘者经历筛选电话、评估或面试安排等活动。</span><span class="sxs-lookup"><span data-stu-id="523a8-107">In each stage, candidates move through activities like screening calls, assessments, or the scheduling of interviews.</span></span> <span data-ttu-id="523a8-108">提交申请后，应聘者将收到一封电子邮件，邀请其注册 Attract，他们可以在此处跟进工作状态、申请表并响应分配给他们的任何任务。</span><span class="sxs-lookup"><span data-stu-id="523a8-108">After they apply, candidates get an email inviting them to sign in to Attract, where they can follow the status of the job, their application, and respond to any tasks that are assigned to them.</span></span>
 
 <span data-ttu-id="523a8-109">Attract 提供下列功能。</span><span class="sxs-lookup"><span data-stu-id="523a8-109">Attract provides the following features.</span></span>

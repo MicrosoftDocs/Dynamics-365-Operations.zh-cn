@@ -18,14 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a1206aea3f78246951581c1dc6338e39a0942ea2
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: d4af3436c609ad7612e72a1dcace2e3c0ffd078a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="display-notifications-in-point-of-sale"></a><span data-ttu-id="bf1df-103">在销售点中显示通知</span><span class="sxs-lookup"><span data-stu-id="bf1df-103">Display notifications in Point of Sale</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="bf1df-104">在当今的现代零售环境中，商店店员被分配了各种任务，例如帮助客户、输入交易记录、执行存货盘点以及在商店接收订单。</span><span class="sxs-lookup"><span data-stu-id="bf1df-104">In today's modern retail environment, store associates are assigned various tasks, such as helping customers, entering transactions, performing stock counts, and receiving orders in store.</span></span> <span data-ttu-id="bf1df-105">销售点 (POS) 客户端使店员能够在一个应用程序中执行所有这些任务以及更多操作。</span><span class="sxs-lookup"><span data-stu-id="bf1df-105">The Point of Sale (POS) client empowers the associates to do these tasks and much more, all in a single application.</span></span> <span data-ttu-id="bf1df-106">由于要在一天内处理各种不同的任务，因此当有些任务需要店员关注时，可能需要向店员发出通知。</span><span class="sxs-lookup"><span data-stu-id="bf1df-106">With various tasks to be performed during a day, associates may need to be notified when something requires their attention.</span></span> <span data-ttu-id="bf1df-107">POS 中的通知框架解决了该问题，它允许零售商配置基于角色的通知。</span><span class="sxs-lookup"><span data-stu-id="bf1df-107">The notification framework in the POS solves this problem by allowing the retailers to configure role-based notifications.</span></span> <span data-ttu-id="bf1df-108">在具有应用程序更新 5 的 Dynamics 365 for Retail 中，这些通知仅可针对 POS 操作进行配置。</span><span class="sxs-lookup"><span data-stu-id="bf1df-108">With Dynamics 365 for Retail with Application update 5, these notifications can be only configured for POS operations.</span></span>
 

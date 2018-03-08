@@ -20,14 +20,17 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f9ea6190823a5af951538e0da2760f05896ee993
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: ddceadb797af98f85670df72a335b2714fe2f01e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="retail-statements"></a><span data-ttu-id="50eea-103">零售报表</span><span class="sxs-lookup"><span data-stu-id="50eea-103">Retail statements</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="50eea-104">在 Microsoft Dynamics 365 for Retail 中，报表过帐流程用于说明在云销售点 (POS) 或现代 POS (MPOS) 中发生的交易记录。</span><span class="sxs-lookup"><span data-stu-id="50eea-104">In Microsoft Dynamics 365 for Retail, the statement posting process is used to account for the transactions that occur in Cloud point of sale (POS) or Modern POS (MPOS).</span></span> <span data-ttu-id="50eea-105">报表过帐流程使用配送计划将一组 POS 交易记录导入到总部 (HQ) 客户端。</span><span class="sxs-lookup"><span data-stu-id="50eea-105">The statement posting process uses the distribution schedule to pull a set of POS transactions into the headquarters (HQ) client.</span></span> <span data-ttu-id="50eea-106">在**零售参数**和**商店**页定义的参数用于选择导入到单个报表的交易记录。</span><span class="sxs-lookup"><span data-stu-id="50eea-106">The parameters that are defined on the **Retail parameters** and **Stores** pages are used to select the transactions that are pulled into individual statements.</span></span>  
 
 <span data-ttu-id="50eea-107">下图显示了报表过帐流程。</span><span class="sxs-lookup"><span data-stu-id="50eea-107">The following illustration shows the statement posting process.</span></span> <span data-ttu-id="50eea-108">在此流程中，通过使用零售调度将 POS 中记录的交易记录传输给客户端。</span><span class="sxs-lookup"><span data-stu-id="50eea-108">In this process, transactions that are recorded in the POS are transmitted to the client by using the Retail scheduler.</span></span> <span data-ttu-id="50eea-109">在客户端接收交易记录后，你可以为商店创建、计算和过帐交易记录报表。</span><span class="sxs-lookup"><span data-stu-id="50eea-109">After the client receives the transactions, you can create, calculate, and post the transaction statement for the store.</span></span> 

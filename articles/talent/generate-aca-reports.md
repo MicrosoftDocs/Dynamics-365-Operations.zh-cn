@@ -18,13 +18,16 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 978870d36f6019845fd62c267ac66ca7c45d34a1
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 1994edc5d6c932be3a285f9bb328a05504c90f07
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 # <a name="generate-affordable-care-act-reports"></a><span data-ttu-id="c8a1e-103">创建平价医疗法案报告</span><span class="sxs-lookup"><span data-stu-id="c8a1e-103">Generate Affordable Care Act reports</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="c8a1e-104">功能可用于协助需要跟踪表单 1095-B 和 1095-C 上申报的信息的雇主支持平价医疗法案的**雇主授权单**。请注意，仅可为美国的法人启用此功能。</span><span class="sxs-lookup"><span data-stu-id="c8a1e-104">Functionality is available to assist employers that need to track the information reported on forms 1095-B and 1095-C in support of the **Employer Mandate** portion of the Affordable Care Act. Note this functionality is only enabled for legal entities in the United States.</span></span>
 
 ## <a name="getting-started"></a><span data-ttu-id="c8a1e-105">入门</span><span class="sxs-lookup"><span data-stu-id="c8a1e-105">Getting started</span></span>

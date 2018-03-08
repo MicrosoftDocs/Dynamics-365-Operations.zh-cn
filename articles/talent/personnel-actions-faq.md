@@ -18,14 +18,17 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: e3f0f79df73cce4a54c7e6abbc38381c708af690
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="0b6c5-104">人事行动 [常见问题]</span><span class="sxs-lookup"><span data-stu-id="0b6c5-104">Personnel actions [FAQ]</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="0b6c5-105">如果您的组织使用人事行动，该主题包括对可能有的问题的解答。</span><span class="sxs-lookup"><span data-stu-id="0b6c5-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="0b6c5-106">人事行动是执行特定与人事相关任务时必须完成的附加步骤。</span><span class="sxs-lookup"><span data-stu-id="0b6c5-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="0b6c5-107">关于可能需要人事行动的示例包括您创建新职位、修改现有职位值、雇用新工作人员、转移工作人员、更改工作员工薪酬、更改职位分配或中止工作人员。</span><span class="sxs-lookup"><span data-stu-id="0b6c5-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
 <span data-ttu-id="0b6c5-108">**注意：**仅当**人力资源共享参数**页上的**人事行动**选项卡中的**启用工作人员变动**和**启用职位变动**自动设置为**是**时，人事行动才可用。</span><span class="sxs-lookup"><span data-stu-id="0b6c5-108">**Note:** Personnel actions are available only if the **Enable worker actions** and **Enable position actions** fields have been set to **Yes**, in the **Personnel actions** tab on the **Human resources shared parameters** page.</span></span> 

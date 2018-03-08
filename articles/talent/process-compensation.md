@@ -18,14 +18,17 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 21782c2906bb887290cfb1f08bea1734081d5c13
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="process-compensation"></a><span data-ttu-id="9bd75-103">处理薪酬</span><span class="sxs-lookup"><span data-stu-id="9bd75-103">Process compensation</span></span>
+
+[!include[banner](includes/banner.md)]
+
 <span data-ttu-id="9bd75-104">薪酬处理允许您基于权益调整、业绩调薪目标和绩效为您的员工计算新的基本薪酬金额。</span><span class="sxs-lookup"><span data-stu-id="9bd75-104">Compensation processing allows you to calculate new base compensation amounts for your employees based on equity adjustments, merit increase targets, and performance.</span></span> <span data-ttu-id="9bd75-105">本主题涵盖不考虑员工绩效因素的固定薪酬计划的薪酬处理的基本流程。</span><span class="sxs-lookup"><span data-stu-id="9bd75-105">This topic covers the basic flow of compensation processing for fixed compensation plans without factoring an employee's performance.</span></span>
 
 ## <a name="plan-the-new-compensation-amounts-and-budgets"></a><span data-ttu-id="9bd75-106">计划新的薪酬金额和预算</span><span class="sxs-lookup"><span data-stu-id="9bd75-106">Plan the new compensation amounts and budgets</span></span>

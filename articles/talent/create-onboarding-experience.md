@@ -17,14 +17,16 @@ ms.author: tbisaacs
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bb0b97c7728f76d84b85fb5cfa209a0d3b2df3de
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 54caf2648766053ec5a662f48bd50a1ec9b8911a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="create-an-engaging-onboarding-experience"></a><span data-ttu-id="31926-103">创造一个有吸引力的入职体验</span><span class="sxs-lookup"><span data-stu-id="31926-103">Create an engaging onboarding experience</span></span>
+
+[!include[banner](includes/banner.md)]
 
 <span data-ttu-id="31926-104">有效完成入职工作将帮助新员工提高效率，同时获得一种融入新角色的归属感。</span><span class="sxs-lookup"><span data-stu-id="31926-104">When done effectively, onboarding helps new employees perform more effectively while also gaining a sense of belonging in their new role.</span></span> <span data-ttu-id="31926-105">与其他途径相比，入职可以帮助新员工更快更准确地了解他们的新角色，让他们抢先建立帮助他们获得成功的关系。</span><span class="sxs-lookup"><span data-stu-id="31926-105">Onboarding can help new employees understand their new role more quickly and accurately than they would have otherwise, and they get a head start on establishing relationships that can help them succeed.</span></span> <span data-ttu-id="31926-106">相反，无效的入职体验可能让员工怀疑他们加入贵公司的决定是否正确。</span><span class="sxs-lookup"><span data-stu-id="31926-106">Alternatively, an ineffective onboarding experience might leave employees questioning their decision to join your organization.</span></span> <span data-ttu-id="31926-107">高德纳在 2014 年开展的一项研究中发现，在 1,005 名入职不到六个月便辞职的回应者中，有近三分之一的人是因为领导给他们的指导方针不明确、他们的培训没有效果或因为他们在新环境中没有建立有效的关系。</span><span class="sxs-lookup"><span data-stu-id="31926-107">A study conducted by Gartner in 2014 found that nearly one third of the 1,005 respondents who quit a job within the first six months, did so because the guidelines they were given by their leadership weren't clear, their training wasn't effective, or because they didn't establish effective relationships in their new environment.</span></span>
 

@@ -19,14 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a><span data-ttu-id="6d914-103">为电子采购发包设置外部目录</span><span class="sxs-lookup"><span data-stu-id="6d914-103">Set up an external catalog for PunchOut eProcurement</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="6d914-104">通过使用外部目录，您可以确保您在 Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月版中后续处理的产品和价格信息准确和最新。</span><span class="sxs-lookup"><span data-stu-id="6d914-104">By using the external catalog, you can ensure that the product and price information that you subsequently process in Dynamics 365 for Finance and Operations, Enterprise edition July 2017 is accurate and up to date.</span></span> <span data-ttu-id="6d914-105">之后可以批准申请和转换为采购订单，并且可以向供应商下单。</span><span class="sxs-lookup"><span data-stu-id="6d914-105">The requisition can then be approved and converted to a purchase order and an order can be placed at the vendor.</span></span>
 

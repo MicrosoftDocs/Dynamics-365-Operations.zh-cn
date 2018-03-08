@@ -19,14 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: a11328b921d3e3537a41cc13957fbb4af3621fa1
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a><span data-ttu-id="15d31-103">从生产订单到出货台的越库配送</span><span class="sxs-lookup"><span data-stu-id="15d31-103">Cross-docking from production orders to outbound docks</span></span>
+
+[!include[banner](../includes/banner.md)]
 
 <span data-ttu-id="15d31-104">此主题描述如何管理将报告为完工入库的物料从生产线到出站运输台越库配送的流程。</span><span class="sxs-lookup"><span data-stu-id="15d31-104">This topic describes how to manage the process of cross-docking material that is being reported as finished from a production line to an outbound transportation dock.</span></span>
 
