@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 1cb4305b3ef425ec19ae63c8186bffef212b9890
+ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
+ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -217,6 +217,21 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品�
 -   [固定资产折旧方法](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
 -   [将固定资产移动到库存](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
 -   [低成本固定资产](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+
+### <a name="india"></a>印度
+
+- [固定资产](../../financials/localizations/apac-ind-fixed-assets.md)
+    - [将资本物料转换为固定资产](../../financials/localizations/tasks/apac-ind-transfer-capital-items.md)
+    - [将基于天的日历附加到固定资产帐簿](../../financials/localizations/tasks/apac-ind-attach-day-based-calendar.md)
+    - [设置参数以计算折旧](../../financials/localizations/tasks/apac-ind-set-up-depreciation.md)
+    - [设置折旧帐簿的资产组折旧](../../financials/localizations/tasks/apac-ind-set-up-asset-group-dep.md)
+    - [创建资本物料的库存模型组](../../financials/localizations/tasks/apac-ind-create-inventory-model-group.md)
+    - [印度固定资产的班次折旧计算](../../financials/localizations/tasks/apac-ind-shift-depreciation-rates.md)
+    - [定义帐簿的班次类型和行业并附加到固定资产](../../financials/localizations/tasks/apac-ind-books-shift-industry-types.md)
+- [税引擎概览](../../financials/general-ledger/tax-engine.md)
+    - [税引擎集成](../../financials/general-ledger/tax-engine-integration.md)
+    - [税金阈值常见问题](../../financials/localizations/apac-ind-tax-thresholds.md)
+    - [扩展税引擎](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
 ### <a name="italy"></a>意大利
 

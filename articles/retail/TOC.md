@@ -118,7 +118,7 @@
 ## [在销售流程中登记序列号](../supply-chain/sales-marketing/register-serial-numbers-sales-process.md)
 ## [库存日记帐](../supply-chain/inventory/inventory-journals.md)
 ## [库存标签盘点](../supply-chain/inventory/inventory-tag-counting.md)
-## [具有实际成本和标记的 FIFO](../supply-chain/cost-management/fifo-physical-value-marking.md)
+## [具有实际成本和标记的先进先出](../supply-chain/cost-management/fifo-physical-value-marking.md)
 ## [具有实际成本和标记的后进先出日期](../supply-chain/cost-management/lifo-date-physical-value-marking.md)
 ## [具有实际成本和标记的后进先出](../supply-chain/cost-management/lifo-physical-value-marking.md)
 ## [加权平均日期](../supply-chain/cost-management/weighted-average-date.md)
@@ -183,10 +183,11 @@
 ### [MPOS 体系结构](dev-itpro/retail-modern-pos-architecture.md)
 ### [零售在线商店发布体系结构](dev-itpro/retail-online-store-publishing-architecture.md)
 ### [零售渠道绩效 Power BI 内容](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [支付应用数据安全标准 (PA-DSS) 认证](dev-itpro/PA-DSS-Certification.md)
 
 ## 部署和修补程序
-### [零售商店扩展单位概览](dev-itpro/retail-store-system-begin.md)
-### [零售商店扩展单位配置和安装](dev-itpro/retail-store-scale-unit-configuration-installation.md)
+### [Retail Store Scale Unit 概览](dev-itpro/retail-store-system-begin.md)
+### [Retail Store Scale Unit 配置和安装](dev-itpro/retail-store-scale-unit-configuration-installation.md)
 ### [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)
 ### [从总部管理 Retail 帐户和设备](set-up-activation-accounts-validate-devices-hq.md)
 ### [Retail POS 设备启用](dev-itpro/retail-device-activation.md)
