@@ -19,10 +19,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d0ddeb85d5c942a8d416215353daa14facb8227a
+ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
+ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
