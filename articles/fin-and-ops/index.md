@@ -3,7 +3,7 @@ title: "Microsoft Dynamics 365 for Finance and Operations, Enterprise edition �
 description: "针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 的文档。"
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2017
+ms.date: 03/02/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bb258999e072dc280bccfe64fb0dbd41d6577a0e
-ms.openlocfilehash: dbcbd7f7b0c23545eec74de538f1d7ec96ac98b6
+ms.sourcegitcommit: 7142c6bcb6e98929afdb8bb982a17efc7223ab12
+ms.openlocfilehash: 0d12082a2b10ae8e83217c5451627239e6ec640b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/13/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -43,9 +43,13 @@ ms.lasthandoff: 11/13/2017
 <h3><a href="get-started/before-you-buy.md">购买之前</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">注册预览订阅</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">选择部署选项</a></p>
-  <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
-  <p><a href="get-started/purchase-on-premises.md">购买 Finance and Operations（本地）</a></p>
+ <p><a href="get-started/purchase-on-premises.md">购买 Finance and Operations（本地）</a></p>
 
+<h3><a href="imp-lifecycle/implementation-lifecycle.md">实施生命周期</a></h3>
+<p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
+<p><a href="imp-lifecycle/onboard.md">入职项目</a></p>
+<p><a href="imp-lifecycle/prepare-go-live.md">准备实施</a></p>
+  
 <h3><a href="../financials/index.md">财务管理</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">应付帐款</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">应收帐款</a></p>
@@ -98,8 +102,9 @@ ms.lasthandoff: 11/13/2017
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">移动平台</a></p>
 <p><a href="get-started/demo-data.md">演示数据</a></p>
 
-<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">系统管理</h3>
-<p><a href="../dev-itpro/deployment/choose-deployment-type.md">部署</a></p>
+<h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">管理</h3>
+<p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">云部署</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">内部部署</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">升级</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">服务</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">数据管理框架</a></p>

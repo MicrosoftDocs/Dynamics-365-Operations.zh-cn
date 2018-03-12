@@ -1,9 +1,9 @@
 ---
 title: "供应链管理主页"
-description: "本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的供应链管理功能的一系列帮助主题和其他资源。"
+description: "本页提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的供应链管理功能的一系列帮助主题和其他资源。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 02/15/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6c193a3a9deba215d4374ccffc3bf2d854fbd0f2
-ms.openlocfilehash: 9314a129b85cf6cb2d2ca379eafc142ce234d535
+ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
+ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 02/21/2018
 
 ---
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 01/22/2018
 选择一个功能区域以了解有关它的更多信息。
 
 - [成本核算](../financials/cost-accounting/cost-accounting-home-page.md)
-- [成本管理](cost-management/costing-sheets.md)  
+- [成本管理](cost-management/cost-management-home-page.md)  
 - [库存管理](inventory/inventory-home-page.md)
 - [主计划](master-planning/master-planning-home-page.md)
 - [采购](procurement/procurement-sourcing-overview.md)
@@ -56,6 +56,7 @@ ms.lasthandoff: 01/22/2018
 
 -  [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg) 
 -  [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
+-  [使用仓库模板复制配置](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
 这些视频短片帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）中的新功能。
 
@@ -63,28 +64,47 @@ ms.lasthandoff: 01/22/2018
 -  [成本控制移动工作区](https://youtu.be/imsuTg8rUVk)
 -  [使用 Excel 进行成本分析](https://youtu.be/-HKHYdClvx8)
 -  [在移动设备上审批采购订单](https://youtu.be/gZ-gOlJe7H8)
--  [使用用于生产和批次订单的甘特图进行可视排产](https://youtu.be/BtbuShkGj4I)
+-  [使用用于生产和批次订单的甘特图进行可视计划](https://youtu.be/BtbuShkGj4I)
 
 这些技术会议录制讨论的是 Finance and Operations 旧版本中的产品功能，但同一概念仍适用，并且相关过程在当前版本中是相似的。 
 
--  <a href="https://youtu.be/zotrj3SbCl4">Microsoft Dynamics AX 中的产品配置器</a>
--  <a href="https://youtu.be/7v8BPmEs9Dg">主计划 - 有关性能疑难解答的提示和窍门</a>
--  <a href="https://youtu.be/RLXybx20B5o">求助! MRP 太慢！</a>
--  <a href="https://mix.office.com/watch/wpf78tr7rjuh/">处理仓库管理中的入库 ASN</a> 
--  <a href="https://www.youtube.com/watch?v=--_didmZKHo&t=10s">充分利用仓库管理系统</a>
--  <a href="https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s">高级 R3 仓库管理 - 收货处理和最小/最大补货</a>
--  <a href="https://youtu.be/Og0gLlVp7jA">高级 R3 仓库管理 - 生命周期、发货处理和需求补货中的一天</a>
--  <a href="https://youtu.be/5w1MngVchBA">新 Microsoft Dynamics AX 2012 R3 仓库管理中的标签</a>
--  <a href="https://www.youtube.com/embed/QUxXUrN-7n4">Dynamics AX 2012 R3：高级仓库管理 - 流程制造生命周期中的一天</a>
--  <a href="https://youtu.be/y1jrd3A_k70">制造中的转包工序和活动</a>
--  <a href="https://youtu.be/jgmTgJIgEFQ">新 Microsoft Dynamics AX 中的运输管理 (TMS)</a>
+**成本管理**
+
+-  [成本管理概览](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)
+
+**主计划**
+
+-  [扩展需求预测功能](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
+-  [主计划 - 有关性能疑难解答的提示和窍门](https://youtu.be/7v8BPmEs9Dg)
+-  [求助！MRP 太慢！](https://youtu.be/RLXybx20B5o)
+
+**产品信息管理**
+
+-  [Microsoft Dynamics AX 中的产品配置器](https://youtu.be/zotrj3SbCl4)
+
+**仓库管理** 
+
+-  [处理仓库管理中的入库 ASN](https://mix.office.com/watch/wpf78tr7rjuh)  
+-  [充分利用仓库管理系统](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
+-  [高级 R3 仓库管理 - 收货处理和最小/最大补货](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
+-  [高级 R3 仓库管理 - 生命周期、发货处理和需求补货中的一天](https://youtu.be/Og0gLlVp7jA)
+-  [新 Microsoft Dynamics AX 2012 R3 仓库管理中的标签](https://youtu.be/5w1MngVchBA)
+-  [Dynamics AX 2012 R3：高级仓库管理 - 流程制造生命周期中的一天](https://www.youtube.com/embed/QUxXUrN-7n4)
+
+**生产控制**
+
+-  [制造中的转包工序和活动](https://youtu.be/y1jrd3A_k70)
+
+**运输管理**
+
+-  [新 Microsoft Dynamics AX 中的运输管理 (TMS)](https://youtu.be/jgmTgJIgEFQ)
 
 ## <a name="blogs"></a>博客
 <a href="https://blogs.msdn.microsoft.com/axmfg/">Dynamics AX 制造研发团队博客</a>和 <a href="https://blogs.msdn.microsoft.com/dynamicsaxscm/">Dynamics AX 研发团队中的供应链管理博客</a>上有很多关于制造和供应链管理的主题。 其中大多数文章是针对 Finance and Operations 的旧版本编写的，但同一概念仍适用，并且相关程序在当前版本中是相似的。 
 
 ## <a name="white-papers"></a>白皮书
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">成本核算动手实验室</a> 
--  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing：可承诺量和看板作业级排产</a> 
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing：可承诺量和看板作业级计划</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">使用成本计算单计算物料清单</a>
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">通过 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 提高仓库中的移动性</a>
 

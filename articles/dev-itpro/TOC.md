@@ -9,7 +9,7 @@
 ## [应用程序堆栈和服务器体系结构](dev-tools/application-stack-server-architecture.md)
 ## [获取评估副本](dev-tools/get-evaluation-copy.md)
 ## [注册订阅](dev-tools/sign-up-preview-subscription.md)
-## [访问实例](dev-tools/access-instances.md)
+## [部署和访问开发环境](dev-tools/access-instances.md)
 ## [开发系统要求](dev-tools/development-system-requirements.md)
 ## 车队管理示例应用程序
 ### [车队管理示例应用程序](dev-tools/fleet-management-sample.md)
@@ -360,7 +360,7 @@
 #### [ValueMetadata 类型](mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md)
 
 # 数据集成
-## [集成模式](data-entities/integration-overview.md)
+## [选择数据集成（导入/导出）策略](data-entities/integration-overview.md)
 
 ## 数据集成 API
 ### [数据管理包 API](data-entities/data-management-api.md)
@@ -381,12 +381,12 @@
 
 ### [使用 Common Data Service 进行数据集成](data-entities/data-integration-cds.md) 
 #### [配置现金方案的目标客户](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [将 Finance and Operations 的产品同步到 Sales](../supply-chain/sales-marketing/products-template-mapping.md)
-##### [将 Sales 的客户同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping.md)
-##### [将 Sales 的联系人同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping.md)
-##### [将 Sales 的销售报价单标题和行同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping.md)
-##### [将 Finance and Operations 的销售订单标题和行同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping.md)
-##### [将 Finance and Operations 的销售发票标题和行同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping.md)
+##### [将 Finance and Operations 的产品同步到 Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
+##### [将 Sales 的客户同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
+##### [将 Sales 的联系人同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
+##### [将 Sales 的销售报价单标题和行同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [将 Finance and Operations 的销售订单标题和行同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
+##### [将 Finance and Operations 的销售发票标题和行同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [将 Sales 的客户直接同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [将 Finance and Operations 的产品直接同步到 Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
@@ -452,6 +452,8 @@
 
 ## [提供您自己的数据库](analytics/export-entities-to-your-own-database.md)
 
+## [用于响应 GDPR 数据请求的资源](gdpr/gdpr-home-page.md)
+
 # [连续交货主页](dev-tools/continuous-delivery-home-page.md)
 ## [开发和连续交货常见问题](dev-tools/continuous-delivery-faq.md)
 ## [从生成输出中排除测试包](dev-tools/exclude-test-packages.md)
@@ -515,6 +517,7 @@
 ### [创建本地项目](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [设置并部署本地环境](deployment/setup-deploy-on-premises-environments.md)
 ### [开发自定义模型并将其部署到本地环境](deployment/develop-deploy-custom-models-on-premises.md)
+### [为本地环境配置反向代理](deployment/onprem-reverseproxy.md)
 ### [将更新应用于本地部署](deployment/apply-updates-on-premises.md)
 ### [重新部署本地部署](deployment/redeploy-on-prem.md)
 ### [更新本地代理](lifecycle-services/update-local-agent.md)
@@ -527,7 +530,7 @@
 ### [安装可部署包](deployment/install-deployable-package.md)
 ### [解决包应用程序问题](deployment/deployable-package-troubleshooting.md)
 
-# [升级和迁移](migration-upgrade/upgrade-home-page.md)
+# [升级、更新和修补程序](migration-upgrade/upgrade-home-page.md)
 ## [从 AX 2012 升级到 Dynamics 365 for Finance and Operations](migration-upgrade/upgrade-overview-2012.md)
 ### [AX 2012 升级 - 使用升级分析器工具进行计划](migration-upgrade/upgrade-analyzer-tool.md)
 ### [AX 2012 升级 – 使用代码升级服务评估工作](migration-upgrade/analyze-code-upgrade.md)
@@ -555,8 +558,7 @@
 ### [拆分模型](dev-tools/model-split.md)
 ### [使用委托解决模型之间的依赖关系](migration-upgrade/delegates-migration.md)
 
-
-## 升级到最近更新
+## 升级到最近更新（云）
 ### [升级到最新更新的流程](migration-upgrade/upgrade-latest-update.md)
 ### [生命周期策略](migration-upgrade/versions-update-policy.md)
 ### [将最新平台更新应用到您的环境](migration-upgrade/upgrade-latest-platform-update.md)
@@ -564,13 +566,17 @@
 ### [升级沙盒环境](migration-upgrade/upgrade-sandbox-environment.md)
 ### [在开发或演示环境中升级数据](migration-upgrade/upgrade-data-to-latest-update.md)
 ### [更新开发工具](dev-tools/update-development-tools.md)
-### [将更新为本地部署](deployment/apply-updates-on-premises.md)
+
+## 升级到最近更新（本地）
+### [将更新应用于本地部署](deployment/apply-updates-on-premises.md)
 ### [重新部署本地部署](deployment/redeploy-on-prem.md)
 
-## 修补程序和服务
+## 修补程序
 ### [从 Lifecycle Services 下载修补程序](migration-upgrade/download-hotfix-lcs.md)
+### [将更新应用至云环境](deployment/apply-deployable-package-system.md)
 ### [安装元数据修补程序](migration-upgrade/install-metadata-hotfix-package.md)
 ### [在一体框环境中修补 Reporting Services](migration-upgrade/patch-reporting-service-environment.md)
+### [更新 Visual Studio 开发工具](dev-tools/update-development-tools.md)
 
 ## 弃用
 ### [弃用的 API](migration-upgrade/deprecated-apis.md)
@@ -676,9 +682,9 @@
 #### [升级分析](lifecycle-services/ax-2012/upgrade-analysis-lcs.md)
 #### [使用情况分析器](lifecycle-services/ax-2012/usage-profiler-lcs.md)
 ### Dynamics AX 2012 可下载的工具
-#### [代码升级工具用户指南 (已弃用)](lifecycle-services/ax-2012/code-upgrade-tool-user-guide.md)
+#### [代码升级工具用户指南（已弃用）](lifecycle-services/ax-2012/code-upgrade-tool-user-guide.md)
 #### [Lifecycle Services 可下载的工具](lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource.md)
-#### [测试数据传输工具(测试版)](lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012.md)
+#### [测试数据传输工具（测试版）](lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012.md)
 ##### [安装](lifecycle-services/ax-2012/install-test-data-transfer-tool-beta.md)
 ##### [运行](lifecycle-services/ax-2012/run-test-data-transfer-tool-beta.md)
 ##### [导入 AX 2012 R3 的演示数据](lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool.md)
