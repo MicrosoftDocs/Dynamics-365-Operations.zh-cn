@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 563c89c75e2136294f8f841bec094c2aeb85d580
-ms.openlocfilehash: b758b48230e8d9fabdccbe267a6ad6b9e74af0ff
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: e812bb13c903e72e31e62effd0c70f9b9d62de55
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/17/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 

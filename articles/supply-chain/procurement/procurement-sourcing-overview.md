@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0692518afc5c8b385773dad3c44dc4e3c978362b
+ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
+ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="prices-and-discounts"></a>价格和折扣
 
-价格和折扣包括有关价格、折扣及其提供的返利条款的信息。 价格和折扣可以表示为*贸易**协议*。 贸易协议表示包含价格或折扣的供应商价目表，并且具有协议生效的一组特定日期。 价格和折扣可以通过包含诸如承诺等条件的*采购协议*进行协商和表示，以作为协商条款的前提条件购买特定数量或货币金额。 可以与供应商建立*返利协议*，规定特定产品或产品组的采购可以根据采购金额或数量触发从供应商的返利。
+价格和折扣包括有关价格、折扣及其提供的返利条款的信息。 价格和折扣可以表示为*贸易协议*。 贸易协议表示包含价格或折扣的供应商价目表，并且具有协议生效的一组特定日期。 价格和折扣可以通过包含诸如承诺等条件的*采购协议*进行协商和表示，以作为协商条款的前提条件购买特定数量或货币金额。 可以与供应商建立*返利协议*，规定特定产品或产品组的采购可以根据采购金额或数量触发从供应商的返利。
 
 ### <a name="delivery-options"></a>交货选项
 

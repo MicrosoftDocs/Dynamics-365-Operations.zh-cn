@@ -18,14 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 6aec3532a36a2c1e67ee0c189e45a352ad7670f6
+ms.sourcegitcommit: a1e539c283800035327196520f6438904c94126d
+ms.openlocfilehash: 0affc07293c886c4c65f99259eb19f1998f277f6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/04/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>将物料清单和配方行发放到仓库
+
+[!include[banner](../includes/banner.md)]
 
 此主题介绍将物料清单 (BOM) 行和配方行的原材料发放到仓库的流程。 在您将物料清单或配方行发放到仓库时，系统将首先确定用于生产流程的物料所在的车间的生产输入库位上是否已经提供该物料。
 
@@ -40,6 +42,9 @@ ms.lasthandoff: 12/14/2017
 
 - **作为生产或批次订单下达的一部分发放物料清单和配方行** - 在该方法中，用于生产或批次订单的物料清单和配方行作为下达订单流程的一部分进行发放。 通常在下达生产或批次订单的过程中，生产作业发放到车间工作人员，并打印生产单。 在此过程中，订单的状态也更改为**已发放**。
 - **通过批处理作业或作为手动交互发放物料清单和配方行** - 在此方法中，物料清单和配方行仅可通过**自动发放物料清单和配方行**批处理作业或作为手动交互进行发放。 要手动发放物料清单和配方行，在生产订单列表页或生产订单详细信息页的操作窗格上，选择**发放到仓库**。
+
+有关如何使用批处理作业将物料清单和配方行发布到生产的快速演示，请观看以下 YouTube 短视频：
+[!Video https://www.youtube.com/embed/8urAJn50dQ8]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>使用批处理作业发放物料清单和配方行
 
@@ -79,6 +84,9 @@ ms.lasthandoff: 12/14/2017
 下图显示含有两个工序（10 和 20）的生产订单。 在此示例中，您可以限制发放到工序 10，仅发放物料 M9203。
 
 ![按工序编号发放物料的示例](media/two-operations.PNG)
+
+有关如何按成品数量的比例发放物料的快速演示，请观看以下 YouTube 短视频：
+[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>按成品数量的比例发放物料
 

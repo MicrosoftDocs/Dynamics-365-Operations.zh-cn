@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 0a78df4ede8fd57afbc3e9a7e5a38b840f479cdf
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 7a81697a8e90fb6b0695a02db0868f5708fdbddf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a>固定资产前滚报表

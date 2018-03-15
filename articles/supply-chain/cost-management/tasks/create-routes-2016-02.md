@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 273ced77a61d485426c0830556e4401e782e86c4
-ms.openlocfilehash: 1ba2ae3ad92149636714701448d4dac8296d6613
+ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
+ms.openlocfilehash: a1da6a38e9e70efdbbd04e85318f208c82ab39ed
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/24/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 # <a name="create-routes-february-2016-only"></a>创建工艺路线（仅 2016 年 2 月）

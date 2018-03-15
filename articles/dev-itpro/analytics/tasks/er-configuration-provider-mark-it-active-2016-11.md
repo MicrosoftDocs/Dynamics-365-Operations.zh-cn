@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 2dfa04f280249884af2a237807fb283059444a6c
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>针对电子申报创建一个配置提供程序，并标记其为当前运行的 (ER)
@@ -33,11 +33,10 @@ ms.lasthandoff: 11/01/2017
 1. 转到“组织管理”>“工作区”>“电子申报”。
 2. 单击“配置提供程序”。
 3. 单击“新建”。
-    * 提供程序具有唯一名称和 URL。 如果 Litware 公司的记录 (http://www.litware.com) 已存在，则查看此页内容并跳过此过程。  
+    * 提供程序具有唯一名称和 URL。 如果已存在 Litware 公司 (`http://www.litware.com`) 的记录，则查看此页内容并跳过此步骤。  
 4. 在“名称”字段中，键入 'Litware, Inc.'。
     * Litware 公司  
-5. 在“网址”字段中，键入 'http://www.litware.com'。
-    * http://www.litware.com  
+5. 在”Internet 地址“字段中，键入 `http://www.litware.com`。
 6. 单击“保存”。
 7. 关闭该页面。
 

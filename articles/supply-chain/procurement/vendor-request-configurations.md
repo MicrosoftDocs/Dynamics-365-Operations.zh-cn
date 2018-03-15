@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: e45f8698e69a2a870c7c00f91622216deb4cb38a
+ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
+ms.openlocfilehash: e9b22a6f846607e8afc5d4f01c685f1364b1c01d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 12/14/2017
 ### <a name="create-a-vendor-configuration-for-a-specific-countryregion"></a>为特定国家/地区创建供应商配置
 1.  单击**采购** > **设置** > **供应商**，然后单击**供应商请求配置**。
 2.  单击**新建**以创建新的配置，然后为该配置提供一个名称。
-3.  单击“保存”。
+3.  单击**保存**。
 4.  打开**国家/地区**选项卡以选择使用配置的国家/地区。
 5.  按照以下默认配置指南完成配置。
 

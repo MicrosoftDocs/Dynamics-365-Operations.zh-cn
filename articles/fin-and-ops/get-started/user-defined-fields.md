@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 5c66f893b0dc26b01e7c4eb024ef543f915bfe9f
-ms.openlocfilehash: e272b846fba16445d3a48f9e6c33805d7b4f4d38
+ms.sourcegitcommit: ad59346f88b7a5984e16418e2aade7ccaedf180b
+ms.openlocfilehash: 142c66c189d6401cfb3db128e45fea6c071e99bf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 

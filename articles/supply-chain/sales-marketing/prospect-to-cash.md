@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 602873e8af976c57f27ce53b76391516351755e3
-ms.openlocfilehash: 29d33d3ecf97c15fed0247d172ff6fb3bbdaa018
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -46,15 +46,6 @@ ms.lasthandoff: 01/25/2018
 - [将 Finance and Operations 中的销售订单直接同步到 Sales](sales-order-template-mapping-direct.md)
 - [直接在 Sales 和 Finance and Operations 之间同步销售订单（等待发布的模板）](sales-order-template-mapping-direct-two-ways.md)
 - [将 Finance and Operations 中的销售发票直接同步到 Sales](sales-invoice-template-mapping-direct.md)
-
-在早期版本中，从目标客户到现金解决方案提供以下类型的非直接同步：
-
-- [维护 Sales 中的帐户并将它们同步到 Finance and Operations](accounts-template-mapping.md)
-- [维护 Sales 中的联系人并将其同步到 Finance and Operations](contacts-template-mapping.md)
-- [维护 Finance and Operations 中的产品并将其同步到 Sales](products-template-mapping.md)
-- [在 Sales 中创建销售报价并将其同步到 Finance and Operations](sales-quotation-template-mapping.md)
-- [在 Finance and Operations 中创建销售订单并将其同步到 Sales](sales-order-template-mapping.md)
-- [在 Finance and Operations 中创建销售发票并将其同步到 Sales](sales-invoice-template-mapping.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations 的系统要求
 
@@ -87,7 +78,7 @@ ms.lasthandoff: 01/25/2018
     - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - 需要支持通过数据实体进行从目标客户到现金的集成。
     
     > [!NOTE]
-    > 安装修补程序后，您必须从 **SalesPopulateProspectToCash** 窗体触发以下批处理作业。 因为只需要一次，因此此窗体会隐藏。 要访问窗体，请登录到环境并将以下内容添加到浏览器地址中的 URL：&mi=action:SalesPopulateProspectToCash，例如 https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash。 打开窗体后，单击“确定”。 这将在 **SalesLine**、**SalesQuotationLine** 和 **CustInvoiceTrans** 表中使用唯一值填充新的 **LineCreationSequnceNumber** 字段，并刷新产品列表。 这是执行从目标客户到现金的集成所必需的。
+    > 安装修补程序后，您必须从 **SalesPopulateProspectToCash** 窗体触发以下批处理作业。 因为只需要一次，因此此窗体会隐藏。 若要访问此窗体，请登录环境，然后将以下信息添加到您的浏览器地址中的 URL：&mi=action:SalesPopulateProspectToCash，例如，`https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`。 打开窗体后，单击“确定”。 这将在 **SalesLine**、**SalesQuotationLine** 和 **CustInvoiceTrans** 表中使用唯一值填充新的 **LineCreationSequnceNumber** 字段，并刷新产品列表。 这是执行从目标客户到现金的集成所必需的。
 
 
 ## <a name="system-requirements-for-sales"></a>Sales 的系统要求
@@ -96,12 +87,6 @@ ms.lasthandoff: 01/25/2018
 
 - Dynamics 365 for Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) 联机
 - Dynamics 365 for Sales 版本 1.15.0.0 (v15) 的从目标客户到现金解决方案 
-
-   > [!NOTE]
-   >
-   > 具有版本 1.0.0.0 和 1.0.0.1 的模板在 Dynamics 365 for Sales 版本 1.14.1.0 的从目标客户到现金解决方案上受支持
-   >
-   > 具有版本 2.0.0.0 和 2.1.0.0 的模板在 Dynamics 365 for Sales 版本 1.15.0.0 的从目标客户到现金解决方案上受支持
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>安装用于 Sales 的从目标客户到现金解决方案
 

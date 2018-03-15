@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7bcc8464d34c35423e86c963c6b493fc09db4472
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: fc0e71e2ffc2adbaed598f788141b651fbcc616a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -48,7 +48,7 @@ Microsoft Dynamics 365 for Talent Web 应用程序可在指定操作系统上运
 > * Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
 > * 若要预览 PDF 文件，我们建议您使用现代浏览器，如 Windows 10 上的 Microsoft Edge（最新公开提供的版本）或 Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）。
 网络要求
-> * Dynamics 365 for Talent 适用于延迟在 250-300 毫秒 (ms) 或更低的网络。 这是从浏览器客户端到主管 Dynamics 365 for Talent 的 Microsoft Azure 数据中心的延迟。 建议使用 [www.azurespeed.com]（http://www.azurespeed.com“Azure 延迟测试”）测试网络延迟。
+> * Dynamics 365 for Talent 适用于延迟在 250-300 毫秒 (ms) 或更低的网络。 这是从浏览器客户端到主管 Dynamics 365 for Talent 的 Microsoft Azure 数据中心的延迟。 建议在 [www.azurespeed.com] (http://www.azurespeed.com "Azure 延迟测试") 测试网络延迟。
 > * Dynamics 365 for Talent 的带宽要求取决于您的方案。 大多数典型方案要求带宽超过每秒 50 千字节 (KBps)。
 
 > [!WARNING]
@@ -56,12 +56,12 @@ Microsoft Dynamics 365 for Talent Web 应用程序可在指定操作系统上运
 
 ## <a name="supported-microsoft-office-applications"></a>支持的 Microsoft Office 应用程序
 
-*   若要运行 Microsoft Excel 和 Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的详细信息，请参阅 [Office 集成疑难解答]（../dev-itpro/office-integration/office-integration-troubleshooting.md“Office 集成疑难解答”）。
+*   若要运行 Microsoft Excel 和 Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的更多详细信息，请参阅 [Office 集成疑难解答] (../dev-itpro/office-integration/office-integration-troubleshooting.md "Office 集成疑难解答")。
 *   若要查看“导出到 Excel”或“导出到 Word”功能生成的文档，必须安装 Microsoft Office 2007 或更高版本。
 
 ## <a name="update-policy"></a>更新策略
 
 Microsoft Dynamics 365 for Talent 以云产品的形式提供。 Microsoft 将持续提供并自动应用对 Dynamics 365 for Talent 的更新。
 
-更新定义发布，并针对所有环境。  对 Dynamics 365 for Talent 的支持根据 [Microsoft 支持生命周期策略]（https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy“Microsoft 支持生命周期策略”）提供，该策略为产品支持可用性提供一致且可预测的指南。
+更新定义发布，并针对所有环境。  对 Dynamics 365 for Talent 的支持根据 [Microsoft 支持生命周期策略] (https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft 支持生命周期")提供，该策略为产品支持可用性提供一致且可预测的指南。
 
