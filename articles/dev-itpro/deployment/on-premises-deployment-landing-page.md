@@ -3,14 +3,14 @@ title: "本地部署"
 description: "本主题提供有关本地部署的信息和内容链接。"
 author: kfend
 manager: AnnBe
-ms.date: 12/11/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
-ms.search.scope: Core
+ms.search.scope: Core, Operations
 ms.custom: 55651
 ms.assetid: 
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 346f5b7a5fbbe2c41aaa54e0b36fe0c46baec0af
-ms.openlocfilehash: 697f5a43124aace645e0cc8c6df98a4f986ab852
+ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
+ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="on-premises-deployment-landing-page"></a>本地部署登录页
@@ -31,6 +31,7 @@ ms.lasthandoff: 12/20/2017
 你可以部署 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本（本地） 当你选择一个本地部署类型时，系统要求、硬件规模调整和功能与云部署不同。 本主题提供包含本地部署特定信息的内容链接。
 
 ## <a name="get-started"></a>开始
+- [带平台更新 12（2018 年 3 月）的 Dynamics 365 for Finance and Operations, Enterprise edition 7.2 本地部署的新增功能或更改的功能](../../fin-and-ops/get-started/whats-new-LBD-PU12-App72.md)
 - [Dynamics 365 for Finance and Operations Enterprise Edition（本地）概览](on-premises-overview.md)
 - [计划您的本地部署](plan-onprem-deployment.md)
 - [本地部署的系统要求](../../fin-and-ops/get-started/system-requirements-on-prem.md)
@@ -50,6 +51,7 @@ ms.lasthandoff: 12/20/2017
 - [配置文档管理](../../fin-and-ops/organization-administration/configure-document-management.md)
 - [导入电子申报配置](../analytics/electronic-reporting-import-ger-configurations.md)
 - [本地部署中的文档生成、发布和打印功能](../analytics/printing-capabilities-on-premises.md)
+- [为本地环境配置反向代理](onprem-reverseproxy.md)
 - [设置技术支持](../lifecycle-services/support-experience.md)
 - [客户端 Internet 连接故障排除](../user-interface/client-disconnected.md)
 - [将更新为本地部署](apply-updates-on-premises.md)

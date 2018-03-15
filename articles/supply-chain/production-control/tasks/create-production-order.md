@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 730adcea0ac59f683ecae8cbb62025bd7db75c55
+ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
+ms.openlocfilehash: 4db56f76c7f8ce0cccf85ab04024d9a1e88a8822
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 # <a name="create-a-production-order"></a>创建生产订单

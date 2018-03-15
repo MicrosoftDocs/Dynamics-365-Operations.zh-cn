@@ -17,10 +17,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d545090daea6f5d4ec2e045da07f7dc1f756f560
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 2652a75f9c4509addd5804d4798f1bc142106c60
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a>配置销售代表的功能模板

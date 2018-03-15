@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ff26974951dc75ee0c6a81b10d296b8c16b329af
+ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
+ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -87,6 +87,8 @@ Finance and Operations 中的需求预测是帮助制造行业客户创建预测
 [监控预测准确性](monitor-forecast-accuracy.md)
 
 [在计算需求预测时，需从历史交易记录数据中删除离群值](remove-historical-outliers-calculating-demand-forecast.md)
+
+[扩展需求预测功能](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 
 
 

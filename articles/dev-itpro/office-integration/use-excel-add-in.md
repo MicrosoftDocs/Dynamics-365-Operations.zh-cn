@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9b1f25f3630ad5126edd20c5508b83a9811a65f8
-ms.openlocfilehash: dd986d8f82c42c4e229e6e60bdfe8d15a273e149
+ms.sourcegitcommit: 002c3bea2803fdf43b0c35620c8d46fc9400fafc
+ms.openlocfilehash: 9db4f7ed9cba0d91a9a8507a33882a9114bdb1f5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/07/2017
+ms.lasthandoff: 01/04/2018
 
 ---
 

@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 87ade03ec2ba78c4d7f5832bfa6dc1b7eabd8d94
+ms.sourcegitcommit: a05fec7b79003d5b98470d85644d70bd1dbac285
+ms.openlocfilehash: 9e0c61505a8af864d7ff38655e7e896c4f6ccb65
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/06/2018
 
 ---
 
@@ -93,6 +93,11 @@ ms.lasthandoff: 12/14/2017
 5. 选择**导入**。 在**增强型**视图中，可以使用**筛选器**选项快速获取在导入过程中可能发生的问题的概览。
 
 **查看执行**日志提供与导入的各个数据实体有关的详细信息。 您可以使用暂存数据视图快速定位到目标数据。 这样一来，您可以看到导入的数据在应用程序中的相关页面上的外观。 当您使用默认数据模板时，各数据实体的导入顺序采用预定义的方式，以帮助保证先导入所有依赖项数据。 如果自定义数据实体是项目的一部分，必须确保定义正确的顺序。 有关详细信息，请参阅[配置数据模板](../../dev-itpro/data-entities/configuration-data-templates.md)。
+
+若要了解有关如何在同一个实例内使用仓库模板将仓库的配置从一家公司复制到新公司的详细信息，请观看 YouTube 上的这个 3 分钟的视频。
+
+> [!Video https://www.youtube.com/embed/K2WIfFlqJYs]
+
 
 ## <a name="related-topic"></a>相关主题
 

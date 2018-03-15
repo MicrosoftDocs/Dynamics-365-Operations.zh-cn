@@ -17,10 +17,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05237a0ba3aa785432c8b1fc36284a47f9aabd4a
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 26b5615df427fb01cc4a1764507fbaa11bf0d7a0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="define-loyalty-reward-points"></a>定义会员奖励分

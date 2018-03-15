@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 151250ed0ad68a0e5827a74918ef6323a4c4279e
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: a75af89efa56e7fbd27021b3516b9a3fec20294c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="create-a-pos-visual-profile"></a>创建 POS 配置文件 

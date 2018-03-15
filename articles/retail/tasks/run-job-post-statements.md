@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0e2dae54cc9ccfc0a85046c5478e539585c3744d
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: f3587fe70dc6a0d8330063db77e625040a53da98
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="configure-and-run-a-job-to-post-statements"></a>配置和运行过帐报表作业

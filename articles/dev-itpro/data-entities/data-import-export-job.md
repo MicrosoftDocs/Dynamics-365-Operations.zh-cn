@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 40bfc3f1f7c5fe1eec788d252cbe7be7d1c7536f
-ms.openlocfilehash: 3bd6eaa0518bd4752704836c04457dccd486d692
+ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
+ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/13/2018
 
 ---
 
@@ -50,6 +50,9 @@ ms.lasthandoff: 01/19/2018
 6. 清除暂存表。
 
 本主题的其余部分提供有关流程的每个步骤的详细信息。
+
+> [!NOTE]
+> 要刷新“数据导入/导出”窗体以查看最新进度，请使用窗体刷新图标。 不建议执行浏览器级刷新，因为这将中断所有未批量运行的导入/导出作业。
 
 ## <a name="create-an-import-or-export-job"></a>创建导入或导出作业
 可以一次性运行或分多次运行数据导入或导出作业。

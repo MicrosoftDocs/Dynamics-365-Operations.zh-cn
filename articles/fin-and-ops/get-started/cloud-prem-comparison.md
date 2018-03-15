@@ -3,7 +3,7 @@ title: "云和本地功能比较"
 description: "此主题显示在云和本地支持的功能。"
 author: robinarh
 manager: AnnBe
-ms.date: 11/29/2017
+ms.date: 03/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
-ms.openlocfilehash: 32cc0c01a096cd678c605f57e0cccfe42d0479aa
+ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
+ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 
@@ -49,8 +49,9 @@ ms.lasthandoff: 12/01/2017
 | | 用于 Power BI 的成本管理内容包 | 是 | 无 |
 | 数据管理和集成| | 是 | 是 |
 | | 配置主导的扩展| 是 | 无 |
-| | 将数据导出到您自己的数据仓库中| 是 | 无 |
+| | 将数据导出到您自己的数据仓库中| 是 | 是 |
 | | 启用将增量更新导出到数据实体 | 是 | 无 |
+| | 定期集成                 |是 | 无|
 | 文档管理| | 是| 是 |
 | 财务管理|  | 是 | 是 |
 | 帮助| | 是 | 无 |

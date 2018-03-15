@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 5737d9c52727077d34c6f5553c9788bf07032914
-ms.openlocfilehash: 0521f0b443efb761e7d3f63182728dd836dbf8a0
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 02/27/2018
 
 ---
 
@@ -33,7 +33,9 @@ ms.lasthandoff: 01/15/2018
 
 
 > [!NOTE]
-> 此主题介绍如何为云部署配置仓库。 如果您需要了解如何为本地部署配置仓库，请参阅[用于本地部署的仓库](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/deployment/warehousing-for-on-premise-deployments)。
+
+> 此主题介绍如何为云部署配置仓库。 如果您需要了解如何为本地部署配置仓库，请参阅[用于本地部署的仓库](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。
+
 
 此主题描述如何安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing。
 
@@ -44,7 +46,7 @@ Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商
 
 | 平台                    | 版本                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Android                     | 4.4、5.0、6.0                                                                                                                                                               |
+| Android                     | 4.4、5.0、6.0、7.0、8.0                                                                                                                                                     |
 | Windows (UWP)               | Windows 10（所有版本）                                                                                                                                                   |
 | Finance and Operations | Microsoft Dynamics 365 for Operations 版本 1611 <br>- 或者 - <br>Microsoft Dynamics AX 版本 7.0/7.0.1 和带修补程序 KB 3210014 的 Microsoft Dynamics AX 平台更新 2 |
 
@@ -93,7 +95,7 @@ Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商
     + **Azure Active Directory 客户端 ID** - 步骤 9 中“在 Active Directory 中创建 Web 服务应用程序”内创建的客户端 ID。 
     + **Azure Active Directory 客户端密码** - 步骤 11 中“在 Active Directory 中创建 Web 服务应用程序”内创建的客户端密码。 
     + **Azure Active Directory 资源** - Azure AD Directory 资源描述 Finance and Operations 根 URL。 **注释**：此字段请勿使用正斜杠支付 (/) 结尾。 
-    + **Azure Active Directory 租户** - 与 Finance and Operations 服务器一起使用的 Azure AD Directory 租户：https://login.windows.net/your-AD-tenant-ID。 例如：https://login.windows.net/contosooperations.onmicrosoft.com。
+    + **Azure Active Directory 租户** - 与 Finance and Operations 服务器一起使用的 Azure AD Directory 租户：`https://login.windows.net/your-AD-tenant-ID`。 例如：`https://login.windows.net/contosooperations.onmicrosoft.com.` 
     <br>**注释**：此字段请勿使用正斜杠支付 (/) 结尾。 
     + **公司** - 在希望应用程序连接到的 Finance and Operations 中输入法人。 <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  选择应用程序左上角中的**后退**按钮。 此应用程序现在将连接到您的 Finance and Operations 服务器，并将显示仓库工作人员的登录屏幕。 <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)

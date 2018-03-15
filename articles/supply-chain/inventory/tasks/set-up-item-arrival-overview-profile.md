@@ -17,10 +17,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: b971e72febbd78ff7c27ad2029e5061b978dc44e
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 5ddc491d73bbb6ac02e37a9c9b9d93545f6f9556
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>设置物料到达概览配置文件

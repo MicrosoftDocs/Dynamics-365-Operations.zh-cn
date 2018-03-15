@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e8c3f861a53a3f5c2de29248523ff4efd5e1d072
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 2feaf580c7ae1fc53f9257f117576c99764c6ea0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="post-online-sales-and-payments"></a>过帐联机销售和付款

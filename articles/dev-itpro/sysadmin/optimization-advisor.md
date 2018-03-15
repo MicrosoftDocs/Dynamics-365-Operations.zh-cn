@@ -3,7 +3,7 @@ title: "为优化顾问创建规则"
 description: "本主题讨论如何为优化顾问添加新规则。"
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 01/23/2018
+ms.date: 02/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: yuyus
-ms.search.scope: Core (Operations, Core)
+ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
 ms.search.region: global
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 88739298405343a36ae5bc11f51c666c414e7157
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: e64d4fc1a7425d38d728b11e503d3e7289312495
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -170,6 +170,9 @@ protected void performAction(SelfHealingOpportunity _opportunity)
 
 **securityMenuItem** 返回操作的名称，以便只有可访问操作菜单项的用户可查看规则。 安全设置可能要求只有授权用户可访问特定规则和商机。 在该示例中，只有可访问 **PurchRFQCaseTitleAction** 的用户可查看商机。 请注意，此操作菜单项是为本示例创建，并作为 **PurchRFQCaseTableMaintain** 安全权限的进入点添加的。 
 
+> [!NOTE]
+> 此菜单项必须是操作菜单项，才能确保安全。 **显示菜单项**之类其他菜单项类型无法正确工作。
+
 ```
 public MenuName securityMenuItem() 
 { 
@@ -191,7 +194,66 @@ class ScanNewRulesJob
 } 
 ```
 
-此规则将在**诊断验证规则**窗体（可从**系统管理** > **定期任务** > **维护诊断验证规则**访问）中显示。 若要评估该规则，请转到**系统管理** > **定期任务** > **计划诊断验证规则**，然后选择规则的频率，如**每日**。 单击“确定”。 转到**系统管理** > **优化顾问**以查看新商机。 
+此规则将在**诊断验证规则**窗体（可从**系统管理** > **定期任务** > **维护诊断验证规则**访问）中显示。 若要评估该规则，请转到**系统管理** > **定期任务** > **计划诊断验证规则**，然后选择规则的频率，如**每日**。 单击**确定**。 转到**系统管理** > **优化顾问**以查看新商机。 
+
+以下示例是带规则摘要的代码段，其中包括所有必需的方法和属性。 可帮助您熟悉如何撰写新规则。 此示例中使用的标签和操作菜单项仅用于演示目的。
+
+```
+[DiagnosticsRuleAttribute]
+public final class SkeletonSelfHealingRule extends SelfHealingRule implements IDiagnosticsRule
+{
+    [DiagnosticsRuleSubscription(DiagnosticsArea::SCM,
+                                 "@SkeletonRuleLabels:SkeletonRuleTitle", // Label with the title of the rule
+                                 DiagnosticsRunFrequency::Monthly,
+                                 "@SkeletonRuleLabels:SkeletonRuleDescription")] // Label with a description of the rule
+    public str opportunityTitle()
+    {
+        // Return a label with the title of the opportunity
+        return "@SkeletonRuleLabels:SkeletonOpportunityTitle";
+    }
+
+    public str opportunityDetails(SelfHealingOpportunity _opportunity)
+    {
+        str details = "";
+
+        // Use _opportunity.data to provide details on the opportunity
+
+        return details;
+    }
+
+    protected List evaluate()
+    {
+        List results = new List(Types::Record);
+
+        // Write here the core logic of the rule
+
+        // When creating an opportunity, use:
+        //     * this.getOpportunityForCompany() for company specific opportunities
+        //     * this.getOpportunityAcrossCompanies() for cross-company opportunities
+
+        return results;
+    }
+
+    public boolean providesHealingAction()
+    {
+        return true;
+    }
+
+    protected void performAction(SelfHealingOpportunity _opportunity)
+    {
+        // Place here the code that performs the healing action
+
+        // To open a form, use the following:
+        // new MenuFunction(menuItemDisplayStr(SkeletonRuleDisplayMenuItem), MenuItemType::Display).run();
+    }
+
+    public MenuName securityMenuItem()
+    {
+        return menuItemActionStr(SkeletonRuleActionMenuItem);
+    }
+
+}
+```
 
 有关详细信息，请观看 YouTube 短视频：
 

@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7378c1d205b9a9cd61044dc33fc52ff75c6b94b7
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: e2447274016f517db3ec0eb8f55c6b3163822f50
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/27/2018
 
 ---
 

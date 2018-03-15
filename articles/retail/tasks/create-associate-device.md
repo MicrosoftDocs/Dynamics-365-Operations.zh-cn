@@ -17,10 +17,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a281b6397e6bee64e6e10bdcd2fb5539c5f73adc
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 19be7c38e9612b54fe56ef6e0fd942587dd64a69
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="create-and-associate-a-device"></a>创建和关联设备

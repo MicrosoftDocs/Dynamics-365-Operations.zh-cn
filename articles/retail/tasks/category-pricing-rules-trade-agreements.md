@@ -17,10 +17,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bfd3dd7f7b804eb53cee2f6a9a056ae1a693cfa6
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 133ca34a0e85454dc40d4e1d36fbe8278019c7e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>创建贸易协议使用的类别定价规则

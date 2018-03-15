@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7f80dc8411d38d051b01d77e35635a920d8803a6
-ms.openlocfilehash: ba43f5b71dac102c74fe87c0a2b4376b16b5cd40
+ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
+ms.openlocfilehash: 668223d8adc7c8e12439b1a112906c2ae71ff452
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent 入门

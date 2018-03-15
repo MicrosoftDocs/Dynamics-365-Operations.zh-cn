@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: b0081ba5f1cbd63f03334af792c3d82c4f103f41
+ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
+ms.openlocfilehash: dcaf0e58afe01a530ef567bfdb3b8e2506da9742
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 02/14/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a>休假和缺勤管理概览

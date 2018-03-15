@@ -19,10 +19,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 6b896c28f475a8f827a1db1b6dd684b6ec64e872
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 6772c1d7906db27333206ea2ecd5a0585c3eb939
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 

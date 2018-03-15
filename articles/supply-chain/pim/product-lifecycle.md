@@ -20,10 +20,10 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 33130a4061f22335aeeffa69c478b693604393a9
-ms.openlocfilehash: a57f306ba02c5758c39c4bd29d9a4fa0d7efbcd3
+ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
+ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/20/2017
+ms.lasthandoff: 02/08/2018
 
 ---
 
@@ -109,10 +109,10 @@ ms.lasthandoff: 12/20/2017
 
 ## <a name="related-topics"></a>相关主题
 
--  创建新的产品生命周期状态
--  创建默认的新产品生命周期状态
--  对已发布的基础产品分配产品生命周期状态
--  对已发布的产品分配产品生命周期状态
--  查找过时的产品变型并分配产品生命周期状态
--  创建产品生命周期状态以从主计划中排除产品
+-  [创建新产品生命周期状态（任务指南）](tasks/new-product-lifecycle-state.md)
+-  [创建默认产品生命周期状态（任务指南）](tasks/default-product-lifecycle-state.md)
+-  [对已发布的基础产品分配产品生命周期状态（任务指南）](tasks/product-lifecycle-state-released-product-master.md)
+-  [对已发布的产品分配产品生命周期状态（任务指南）](tasks/product-lifecycle-state-released-product.md)
+-  [查找过时的产品变型并分配产品生命周期状态（任务指南）](tasks/obsolete-product-variants.md)
+-  [创建产品生命周期状态以从主计划中排除产品（任务指南）](tasks/exclude-products-master-planning.md)
 

@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5d9f9aab56441a7ecd2407b5571de77ece2ab3f
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 3c38807e9ed3b2ced37ada35b72e388c125bd654
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 # <a name="bank-management-workspace"></a>银行管理工作区

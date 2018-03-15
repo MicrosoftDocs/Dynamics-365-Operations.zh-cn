@@ -19,10 +19,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 5f6f9a02b20549a75941d367c1b46e3439360078
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 2af45de0d63b01e71b5009e2f62cfdff6844da7d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 02/07/2018
 
 ---
 

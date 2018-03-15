@@ -17,10 +17,10 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: e94d9ded5cefc731e28af6898004419a00e0c189
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: d2642d922fc1fa03644be8195a8c9dd3edfc3483
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="use-a-continuity-program"></a>使用连续性计划

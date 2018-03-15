@@ -1,5 +1,5 @@
 ---
-title: "POS 操作"
+title: "POS 操作（联机和脱机）"
 description: "此主题提供有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。"
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,17 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8e294f71355219890ac6f807094a930ac2acc279
-ms.openlocfilehash: 41dc188138436947c4bf7eaf074ef704c201e0cf
+ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
+ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 02/12/2018
 
 ---
 
-# <a name="pos-operations"></a>POS 操作
+# <a name="pos-operations-online-and-offline"></a>POS 操作（联机和脱机）
+
+[!include[banner](includes/banner.md)]
+
 用户在销售点 (POS) 执行的大多数行动被视为操作。 操作在 Microsoft Dynamics 365 for Retail 后端办公系统中配置和管理。 许多操作可以添加到 POS 按钮网格中的按钮。 用户随后可以选择按钮来调用操作并执行其功能。 其他操作是主 POS 应用程序的一部分，从屏幕上按钮或作为其他工作流或流程的一部分调用。
 
 下表提供有关可用于 Retail Modern POS 和 Dynamics 365 for Retail 的 Cloud POS 的操作的详细信息。 该表还指定了操作可以在应用程序的哪个位置调用，以及是否可在 POS 处于脱机模式时使用。

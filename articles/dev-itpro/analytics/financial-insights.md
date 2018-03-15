@@ -3,7 +3,7 @@ title: "财务见解"
 description: "财务见解使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。"
 author: kweekley
 manager: AnnBe
-ms.date: 01/09/2018
+ms.date: 02/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 3da5344ec6edec0af28aa21d45af962307231e67
+ms.sourcegitcommit: d527df21e791978b41527c01c2e6b68b393861ac
+ms.openlocfilehash: 90dc6214f1eb31440a3ec78a58c6a07394245cd2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 02/28/2018
 
 ---
 
@@ -102,10 +102,15 @@ ms.lasthandoff: 01/25/2018
 | 查看公司间财务见解   | •   在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中，未将此职责分配给角色。 • 在下一版本中，将把此职责分配给首席财务官角色。 | •    此职责提供对“CFO 概览”工作区菜单项的访问。 •    默认情况下，有效公司用作筛选器。 但是，无论用户是否可访问其他法人，您都可以添加所有法人。             |
 
 
-## <a name="how-financial-statements-work"></a>财务报表的工作原理
-尽管**财务见解**中的确包含财务报表，但不能取代 Finance and Operations 中的“财务报告”。 **财务见解**中的默认财务报表的范围受到限制，并且并非包含所有类型的财务报表。 “财务报告”仍然是用于设计、创建和生成法定财务报表的主要工具。
+## <a name="financial-reporting-vs-finanical-insights"></a>财务申报与财务见解
+尽管**财务见解**中包含财务报表，但不能取代 Finance and Operations 中的“财务申报”。 **财务见解**中的默认财务报表的范围受到限制，并且并非包含所有类型的财务报表。 “财务报告”仍然是用于设计、创建和生成法定财务报表的主要工具。
 
-除了来自原始 **CFO 概览**工作区的视觉对象，现在还有新的 KPI、图表和财务报表可用。 以下财务报表可用：
+下面的对比图可帮助区分这两个选项：
+
+|                                         | **财务申报**                            | **财务见解**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **编辑默认报表**                | 是                                                | 否                                 | | **创建新报表**                  | 是                                                | 否                                 | | **打印报表**                       | 是                                                | 否                                 | | **导出到 Excel**                     | 是          | 受限制，将原始数据导出到 Excel，而不是带格式的报表       | | **支持报告层次结构/组织层次结构**   | 是                               | 否                                 | | **报告子分类帐数据**       | 是，限制为仅供应商、客户    | 是，供应商、客户、供应商/客户组、供应商/客户地址等  | | **申报币种**      | 是，核算币种，并转换为申报币种       | 否，仅限核算币种      | | **安全**                | 是，遵循 Finance and Operations 和申报树安全性 | 受限，查看所有公司（不受 Finance and Operations 安全性限制）或仅有效公司的报表 | | **支持不同会计科目表和财年** | 是                   | 否                   | | **报告外部数据**                              | 否                   | 否                                   | | **支持合并**                               | 是                          | 受限制，可报告多家公司，但是仅使用核算币种                                     |
+
+
+除了来自原始 **CFO 概览**工作区的用户界面，现在还有新的 KPI、图表和财务报表可用。 以下财务报表可用：
 
 •   试算平衡表
 

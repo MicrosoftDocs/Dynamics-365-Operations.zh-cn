@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2bc175ceec7ee8771e09f1dac4ede7b3fa619322
+ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
+ms.openlocfilehash: fca7fb75b965886c2ebc06b12940434f2ffc2543
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/27/2018
 
 ---
 # <a name="modify-an-electronic-reporting-format-by-reapplying-a-microsoft-excel-template"></a>通过重新应用 Microsoft Excel 模板修改电子申报格式

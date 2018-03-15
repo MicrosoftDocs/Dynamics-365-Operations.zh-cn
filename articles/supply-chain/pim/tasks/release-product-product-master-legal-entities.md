@@ -16,10 +16,10 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 879459495e393ae19f660020ae817d6bc895426e
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: b378f65fcb7f557b8689a123577948e2f7c97253
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>向法人发布产品/基础产品

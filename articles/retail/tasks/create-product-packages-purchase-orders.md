@@ -17,10 +17,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 9d3ea8702c79d8aa6bb7cf7caa922277697610fa
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: d89744a4dbe52d201dc370b5cde151cc579508ea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>创建采购订单的产品包装

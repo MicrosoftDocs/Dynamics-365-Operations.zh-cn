@@ -19,10 +19,10 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 52b3e2e78a03ac67507ee65a03e0884e5ed44678
-ms.openlocfilehash: 347100651302bb97806783d00559f2396d031fcc
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 

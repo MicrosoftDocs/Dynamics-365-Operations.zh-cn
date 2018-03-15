@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47c569f3531bf00795078b7b042bf899b51bad8d
+ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
+ms.openlocfilehash: cf2200057053f5a6d4754d37111ebe34849bb99d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 

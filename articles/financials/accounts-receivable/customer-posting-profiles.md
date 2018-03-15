@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ccd663a769aa98afb800f6fcd6217f39bb513597
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d0795a9cb1839c45cf264b0d0f7cffacdc01ea9d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/23/2018
 
 ---
 

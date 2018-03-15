@@ -18,10 +18,10 @@ ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fecffd83f32c8424e3ddcd77fb0651631f73c055
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: 32b0d71d98c64ce998acbf5cdc03645401a2be7b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/05/2018
 
 ---
 

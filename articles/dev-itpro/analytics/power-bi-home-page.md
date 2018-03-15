@@ -3,7 +3,7 @@ title: "Power BI 内容"
 description: "此主题列出可用的 Power BI 内容并向您指示可用来了解详细信息的资源。"
 author: sericks007
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 02/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: b0a7adb684850a0f0b914ea89ce3af1636b3084c
-ms.openlocfilehash: 0969f9f30e50a36b667765fbe375e6c14d3412da
+ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
+ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 02/23/2018
 
 ---
 
@@ -42,6 +42,7 @@ ms.lasthandoff: 02/02/2018
 - [成本核算分析 Power BI 内容](cost-accounting-analysis-content-pack.md) 
 - [信用和收款管理 Power BI 内容](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [员工发展 Power BI 内容](employee-development-PBI.md) 
+- [财务见解 Power BI 内容](financial-insights.md)
 - [财务绩效 Power BI 内容](financial-performance-power-bi-content-pack.md)
 - [固定资产管理 Power BI 内容](../../financials/fixed-assets/Fixed-asset-management-workspace.md)
 - [了解 Power BI 内容](learning-power-bi.md)
@@ -73,6 +74,9 @@ ms.lasthandoff: 02/02/2018
 
 ## <a name="power-bi-content-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX 的 Power BI 内容
 如果您使用的是 Microsoft Dynamics AX 7.0 或 Microsoft Dynamics AX 7.0.1，则以下 Power BI 内容可用：
+
+> [!Note]
+> 根据 [Power BI 内容包发布到 PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) 中的说明，已弃用这些内容包。
 
 - [成本管理 Power BI 内容](cost-management-content-pack.md)    
 - [财务绩效 Power BI 内容](financial-performance-power-bi-content-pack.md)

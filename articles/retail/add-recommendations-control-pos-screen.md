@@ -3,7 +3,7 @@ title: "向 POS 设备上的交易记录页添加建议控件"
 description: "此主题介绍如何使用 Microsoft Dynamics 365 for Retail 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。"
 author: ashishmsft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,10 +20,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47ad5dc8fd698f6f543c6a48e2c7eb01d4e148e6
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: b99d1d30fc320bca5c49921b7c4ccdd7e977f67c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -31,6 +31,8 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](includes/banner.md)]
 
+> [!NOTE]
+> 我们将移除当前的产品建议服务版本，因为我们为这项功能重新设计了更出色的算法和更新的面向零售的功能。 有关详细信息，请参阅[已删除或弃用的功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features)。 
 
 此主题介绍如何使用 Microsoft Dynamics 365 for Retail 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。
 

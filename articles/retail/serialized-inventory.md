@@ -17,10 +17,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 83c2ce79f5bef058f55af0ecf498b207efc0507a
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 74a27761c065e475fa7c10c5812f0307df9f570e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 

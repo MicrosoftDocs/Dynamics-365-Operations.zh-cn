@@ -18,10 +18,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bba06ade1a8681d304ce8c7290ee4593ea33b4cd
+ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
+ms.openlocfilehash: 978870d36f6019845fd62c267ac66ca7c45d34a1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 # <a name="generate-affordable-care-act-reports"></a>创建平价医疗法案报告

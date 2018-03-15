@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 42b4f670dee95c073ce8dcca16afef83bbf78ff8
+ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
+ms.openlocfilehash: f0ec24555f44c6dcbc2c84fa7366ca6b48b135f6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 03/05/2018
 
 ---
 

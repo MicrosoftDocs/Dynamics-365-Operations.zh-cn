@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 93004f45189d16e991a3962ef16b4a102caf07bd
+ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
+ms.openlocfilehash: e3f0f79df73cce4a54c7e6abbc38381c708af690
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 02/14/2018
 
 ---
 

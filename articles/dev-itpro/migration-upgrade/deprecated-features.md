@@ -3,7 +3,7 @@ title: "弃用功能"
 description: "本主题介绍已经删除或计划删除的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 11/28/2017
+ms.date: 02/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: addd8c62ba034b47d8abbec29fa8682deb9698b1
+ms.sourcegitcommit: 16bdf2176869e5822ddf8732c829b65f1e60632c
+ms.openlocfilehash: 03b79816ffea649cf226408ed4660c3419103a7a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 
@@ -40,6 +40,17 @@ ms.lasthandoff: 12/14/2017
 > 从具有平台更新 8 的 Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月版开始，每一个已移除或弃用的功能均备注了部署类型。 本主题中提及的所有之前的版本仅支持云部署。
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>具有平台更新 12 的 Dynamics 365 for Finance and Operations Enterprise Edition 7.3
+
+### <a name="personalized-product-recommendations"></a>个性化产品建议 
+从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参见[个性化产品建议](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations)。  
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们将移除当前的产品建议服务版本，因为我们为这项功能重新设计了更出色的算法和更新的面向零售的功能。  |
+| **被另一个功能取代？**   | 编号 但是，我们计划在 2018 年春季之后恢复此功能，以利用新的建议服务。   |
+| **影响的产品区域**         | POS 中的个性化产品建议。                                                    |
+| **部署选项**              | 全部                                                                                      |
+| **状态**                         |从 2018 年 2 月 15 日开始移除。 这将影响运行 Dynamics 365 for Operations 1611 及更高版本的客户。  |
 
 ### <a name="extension-of-the-list-of-electronic-reporting-er-functions"></a>电子申报 (ER) 功能列表扩展
 可以引入在 ER 表达式生成器中使用的自定义功能（有关详细信息，请参阅[扩展电子申报功能列表](../../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md)）的这一特性不再受支持。 由于 ER API 发生变更，从 ER 表达式生成器调用内置函数的 API 变成内部 API，并且无法再进行扩展。
@@ -132,6 +143,19 @@ ms.lasthandoff: 12/14/2017
 | **部署选项**                       | 所有模块                                                                    |
 | **状态**                                  | 已弃用：尚未确定此功能的移除日期。  |    
 
+
+## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
+
+### <a name="personalized-product-recommendations"></a>个性化产品建议 
+从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参见[个性化产品建议](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations)。  
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 我们将移除当前的产品建议服务版本，因为我们为这项功能重新设计了更出色的算法和更新的面向零售的功能。  |
+| **被另一个功能取代？**   | 编号 但是，我们计划在 2018 年春季之后恢复此功能，以利用新的建议服务。   |
+| **影响的产品区域**         | POS 中的个性化产品建议。                                                    |
+| **部署选项**              | 全部                                                                                      |
+| **状态**                         |从 2018 年 2 月 15 日开始移除。 这将影响运行 Dynamics 365 for Retail 7.2 及更高版本的客户。 |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>具有平台更新 8 的 Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月

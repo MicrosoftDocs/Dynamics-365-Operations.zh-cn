@@ -17,10 +17,10 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: e688527bd9ae3346fd2eede956ea673e340f59b8
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 34e4f4c8c379afa283280bf327abe31377f4a7f0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 02/07/2018
 
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>生成和运行现成报表
