@@ -18,15 +18,13 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8b59ea6a2ac8c1c4e5df6e251fa3390639ff3f30
+ms.sourcegitcommit: 1be4b41f63dd03a1d853d344fcde05e8962424e2
 ms.openlocfilehash: e6266ef5890b5caaf33db76eeccfc8a7a6888a11
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/01/2018
+ms.lasthandoff: 03/17/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>配置 Microsoft Dynamics 365 for Talent
-
-[!include[banner](includes/banner.md)]
 
 [!include[banner](includes/banner.md)]
 
