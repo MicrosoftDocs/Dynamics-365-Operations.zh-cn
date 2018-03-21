@@ -37,10 +37,11 @@
 ## [付款选项](work-with-payments.md)
 
 # 通道设置和管理
-## [初始化零售环境中的种子数据](enable-configure-retail-functionality.md)
+## [初始化 Retail 环境中的种子数据](enable-configure-retail-functionality.md)
 ## [定义零售渠道](define-maintain-retail-channels.md)
+## [分类管理](assortments.md)
 ## [在线商店概览](online-stores.md)
-## [配置并安装零售硬件工作站](retail-hardware-station-configuration-installation.md)
+## [配置并安装 Retail hardware station](retail-hardware-station-configuration-installation.md)
 ## [Retail 考勤管理](retail-time-attendance.md)
 
 # Modern Point of Sale (MPOS) 和 Cloud POS
@@ -55,6 +56,7 @@
 ## 屏幕布局
 ### [配置 POS 的屏幕布局](pos-screen-layouts.md)
 ### [安装 Retail POS 布局设计器](install-pos-layout-designer.md)
+### [选择通知设置](Notifications-POS.md)
 ### [POS 应用程序和用户语言设置](pos-application-user-language-settings.md)
 ### [设置 MPOS 的图像](set-up-manage-images-retail-mpos.md)
 ## [信息代码概览](info-codes-retail.md) 
@@ -100,6 +102,7 @@
 # 产品和促销
 ## [产品信息概览](../supply-chain/pim/product-information.md)
 ## [零售层次结构](retail-hierarchies.md)
+## [属性和属性组概览](attribute-attributegroups-lifecycle.md)
 ## [创建和管理属性](create-manage-attributes.md)
 ## [设置零售产品](set-up-retail-products.md)
 ## [产品维度](../supply-chain/pim/product-dimensions.md)
@@ -130,6 +133,16 @@
 # 人力资源
 ## [使用部门、工作和职位组织您的劳动力](../talent/departments-jobs-positions.md)
 ## [设置作业组件](../talent/create-job.md)
+
+# 本地化和监管功能
+## 印度
+### [适用于印度的收银机 GST 集成](localizations/apac-ind-cash-registers.md)
+### [适用于印度的收银机的部署指南](localizations/apac-ind-loc-deployment-guidelines.md)
+## 挪威
+### [适用于挪威的收银机](localizations/emea-nor-cash-registers.md)
+### [适用于挪威的收银机的部署指南](localizations/emea-nor-loc-deployment-guidelines.md)
+## 瑞典
+### [适用于瑞典的收银机](localizations/emea-swe-cash-registers.md)
 
 # Retail 任务
 ## [创建产品](../supply-chain/pim/tasks/create-product.md)
@@ -249,10 +262,6 @@
 ## [Retail SDK](dev-itpro/retail-sdk/retail-sdk-overview.md)
 ### [将 Retail SDK 与连续生成系统集成](dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md)
 ### [Retail SDK 可扩展性示例](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
-### [适用于瑞典的收银机](localizations/emea-swe-cash-registers.md)
-### [Retail POS 与瑞典的控制主机集成的示例](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
-### [适用于挪威的收银机](localizations/emea-nor-cash-registers.md)
-### [适用于挪威的收银机的部署指南](localizations/emea-nor-loc-deployment-guidelines.md)
 ### [Retail SDK 包装](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Retail SDK 示例](dev-itpro/retail-sdk/retail-sdk-samples.md)
 ### [渠道数据库 (DB) 扩展](dev-itpro/channel-db-extensions.md)
