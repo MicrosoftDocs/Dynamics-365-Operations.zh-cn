@@ -21,7 +21,8 @@
 #### [延迟发布的 AX 2012 功能](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [未在本地部署中实现的功能](get-started/features-not-implemented-on-prem.md)
 #### [版本和生命周期策略](../dev-itpro/migration-upgrade/versions-update-policy.md)
-#### [平台更新 13（2018 年 1 月）](get-started/whats-new-platform-update-13.md)
+#### [本地部署（2018 年 3 月）](get-started/whats-new-LBD-PU12-App72.md)
+#### [Platform update 13（2018 年 1 月）](get-started/whats-new-platform-update-13.md)
 #### [Finance and Operations Enterprise Edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [平台更新 12（2017 年 11 月）](get-started/whats-new-platform-update-12.md)
 #### [Platform 更新 11（2017 年 10 月）](get-started/whats-new-platform-update-11.md)
@@ -134,7 +135,7 @@
 ### [成本管理 Power BI 内容包](../dev-itpro/analytics/cost-management-content-pack.md)
 
 ## 数据集成
-### [集成模式](../dev-itpro/data-entities/integration-overview.md)
+### [选择数据集成（导入/导出）策略](../dev-itpro/data-entities/integration-overview.md)
 
 ### 数据集成 API
 #### [数据管理包 API](../dev-itpro/data-entities/data-management-api.md)
@@ -157,10 +158,9 @@
 ###### [维护 Sales 中的帐户并将其直接从 Sales 同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ###### [维护 Finance and Operations 中的产品并将其直接同步到 Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ###### [维护 Sales 中的联系人并将其直接同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-###### [将 Sales 中的销售报价单直接同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-###### [将 Finance and Operations 中的销售订单直接同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct.md)
-###### [直接在 Sales 和 Finance and Operations 之间同步销售订单](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-###### [将 Finance and Operations 中的销售发票直接同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+###### [维护 Sales 中的销售报价单并将其直接同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+###### [维护 Finance and Operations 中的销售订单并将其直接同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+###### [维护 Finance and Operations 中的销售发票并将其直接同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 
 
 #### [使用外部 Web 服务](../dev-itpro/data-entities/consume-external-web-service.md)
@@ -473,7 +473,13 @@
 #### [费用报表上的分配](../financials/expense-management/expense-report-distributions.md)
 #### [内部公司支出](../financials/expense-management/intercompany-expense.md)
 #### [支出策略](../financials/expense-management/travel-expense-policies.md)
-
+#### [查看支出报表](../financials/expense-management/view-expense-report.md)
+#### [发布支出报表](../financials/expense-management/post-expense.md)
+#### [支出报表和多个审核人](../financials/expense-management/expense-report-multiple-approvers.md)
+#### [支出管理中的增值税退税](../financials/expense-management/VAT-expense-report.md)
+#### [出差津贴规则](../financials/expense-management/per-diem.md)
+#### [出差申请](../financials/expense-management/travel-req.md)
+#### [支出报表上的人员支出](../financials/expense-management/personal-expenses.md)
 
 ### [预算编制](../financials/budgeting/budgeting-overview.md)
 #### [预算计划概览](../financials/budgeting/budget-planning-overview-configuration.md)
@@ -631,6 +637,8 @@
 ##### [税引擎集成](../financials/general-ledger/tax-engine-integration.md)
 ##### [税金阈值常见问题](../financials/localizations/apac-ind-tax-thresholds.md)
 ##### [扩展税引擎](../financials/general-ledger/extend-tax-engine-configurations.md)
+##### [收银机 GST 集成](../retail/localizations/apac-ind-cash-registers.md)
+##### [收银机部署指南](../retail/localizations/apac-ind-loc-deployment-guidelines.md)
 
 #### 日本
 ##### [购置固定资产并要求政府授予补贴](../financials/localizations/tasks/acquire-fixed-asset-claim-government-grant-subsidy.md)
@@ -910,7 +918,10 @@
 ##### [客户和供应商的付款形式](../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md)
 ##### [基于付款 ID 的客户付款](../financials/localizations/tasks/no-00002-customer-payment-based-payment-id.md)
 ##### [净导入格式](../financials/localizations/emea-nor-nets-import-format.md)
-##### [增值税报表](../financials/localizations/emea-nor-sales-tax-payment-report.md) 
+##### [增值税报表](../financials/localizations/emea-nor-sales-tax-payment-report.md)
+##### [收银机](../retail/localizations/emea-nor-cash-registers.md)
+##### [收银机部署指南](../retail/localizations/emea-nor-loc-deployment-guidelines.md)
+
 #### 波兰
 ##### [根据单位价格计算行折扣](../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
 ##### [更正说明](../financials/localizations/emea-pol-correction-notes.md)
@@ -937,6 +948,7 @@
 ##### [特殊条目和期初单](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### 瑞典
 ##### [导入付款形式](../financials/localizations/emea-swe-payment-formats-import.md)
+##### [收银机](../retail/localizations/emea-swe-cash-registers.md)
 #### 瑞士
 ##### [在 ESR 中导入客户付款](../financials/localizations/emea-che-esr-customer-payments-import.md)
 #### 英国
@@ -1643,7 +1655,8 @@
 ##### [配方和配方版本](../supply-chain/production-control/formulas-versions.md)
 ##### [运营资源](../supply-chain/production-control/operations-resources.md)
 ##### [资源功能](../supply-chain/production-control/resource-capabilities.md)
-##### [批次属性](../supply-chain/production-control/batch-attributes.md)
+##### [批属性](../supply-chain/production-control/batch-attributes.md)
+##### [批次平衡](../supply-chain/production-control/batch-balancing.md)
 ##### [复制配方（任务指南）](../supply-chain/production-control/tasks/copy-formula.md)
 ##### [通过从现有配方复制来创建配方（任务指南）](../supply-chain/production-control/tasks/create-formula-copying-existing-formula.md)
 ##### [从现有配方版本中复制联产品（任务指南）](../supply-chain/production-control/tasks/copy-co-products-existing-formula-version.md)
@@ -1808,6 +1821,7 @@
 #### [度量单位和库存策略](../supply-chain/warehousing/unit-measure-stocking-policies.md)
 #### [仓库 Power BI 内容](../dev-itpro/analytics/warehouse-power-bi-content.md)
 #### [对未结工作列表的系统分组](../supply-chain/warehousing/system-group-on-open-work-list.md)
+#### [在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [移动条码支持](../supply-chain/warehousing/mobile-barcode-support.md)
 ### [仓库工作策略](../supply-chain/warehousing/warehouse-work-policies.md)
 #### [仓库管理中关联工作的库存变动](../supply-chain/warehousing/move-inventory-associated-work.md)
@@ -1818,6 +1832,7 @@
 #### [正在接收混合牌照](../supply-chain/warehousing/mixed-license-plate-receiving.md)
 #### [在移动设备上配置“显示仓库内的更早批次”](../supply-chain/warehousing/display-older-batches-within-warehouses.md)
 #### [在移动设备上领取最早的批次](../supply-chain/warehousing/pick-oldest-batch.md)
+#### [在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [单件领料确认](../supply-chain/warehousing/piece-picking-confirmation.md)
 #### [用于群集领料的产品确认](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
 #### [部分预留的转移单批发布](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
