@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 525b5a21047f0f39b9cd15448c4096d17c0e2dbd
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: b84b63ec519ae686b55905170c956fcb2b08334a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 11/03/2017
 
 在开始执行生产订单后，您可以使用用于手持设备的工作流登记物料消耗量。 我们先将批次 B1 的消耗量登记为 25 磅。
 
-6.  在手持设备的菜单中选择**登记物料****消耗量**菜单项，输入以下详细信息： 
+6.  在手持设备的菜单中选择**登记物料消耗量**菜单项，输入以下详细信息： 
 
 -    生产订单编号。 
 -    要消耗物料的库位，在此例中为 PIL-01。 

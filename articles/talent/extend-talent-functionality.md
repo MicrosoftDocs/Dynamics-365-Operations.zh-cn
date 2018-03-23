@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cfd3b475b113fdab4ceeb3e636fea6c9134ab982
-ms.openlocfilehash: 0ab829803634871c9060daa381bd02d7d2bbdf42
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 51eb4288f5b6c732755007c1dcd8c4db090ccc0a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 # <a name="extend-the-functionality-of-microsoft-dynamics-365-for-talent"></a>扩展 Microsoft Dynamics 365 for Talent 的功能

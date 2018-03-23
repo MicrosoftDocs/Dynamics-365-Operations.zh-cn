@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6e83f46df30d13a8bffa5c2b0bd05f456b67e6ec
+ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
+ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -62,12 +62,12 @@ Microsoft Dynamics 365 for Finance and Operations 中的供应商协作界面向
 您可以请求调配新用户之前，必须将新用户设置为一个或多个供应商帐户的联系人。 若要创建新供应商协作用户请求：
 
 1.  在**所有联系人**页面，单击**调配供应商用户**。
-2.  输入该用户的电子邮件地址。 用户将使用该地址登录 Finance and Operations。 如果电子邮件地址属于作为 Microsoft Azure 租户登记的域，则电子邮件地址必须为现有 Azure Active Directory (ADD) 帐户才能成功完成调配流程。 如果电子邮件地址不属于在 Microsoft Azure 登记的域，则必须在调配流程中创建 ADD，且新用户将收到邀请邮件。 域为 @hotmail.com、@gmail.com 或 @comcast.net 等的客户电子邮件不能用来注册 Finance and Operations 用户。
+2.  输入该用户的电子邮件地址。 用户将使用该地址登录 Finance and Operations。 如果电子邮件地址属于作为 Microsoft Azure 租户登记的域，则电子邮件地址必须为现有 Azure Active Directory (AAD) 帐户才能成功完成调配流程。 如果电子邮件地址不属于在 Microsoft Azure 登记的域，则必须在调配流程中创建 ADD，且新用户将收到邀请邮件。 域为 @hotmail.com、@gmail.com 或 @comcast.net 等的客户电子邮件不能用来注册 Finance and Operations 用户。
 3.  将“**允许供应商协作访问**”选项对用户需要访问的所有法人设置为“**是**”。
 4.  在“**分配用户角色**”部分，选择新用户应有的安全角色的“**分配**”复选框。
 5.  单击“**提交**”。
 
-提交供应商用户请求后，**允许供应商协作访问**字段对选定的供应商帐户设置为**是**，并开始用户请求工作流。 作为工作流的一部分，在 Finance and Operations 中创建新用户，并且分配安全角色。 此外还激活 Azure B2B 服务，启动 Azure 门户与“将新的或现有 AAD 帐户与 Finance and Operations 用户帐户相关联”之间的交互。
+提交供应商用户请求后，**允许供应商协作访问**字段对选定的供应商帐户设置为**是**，并开始用户请求工作流。 作为工作流的一部分，在 Finance and Operations 中创建新用户，并且分配安全角色。 此外还激活 Azure B2B 服务，启动 Azure 门户与“将新的或现有 AAD 帐户与 Finance and Operations 用户帐户相关联”之间的交互。 有关详细信息，请参阅 [Azure AD B2B 协作简介](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)。
 
 ### <a name="inactivate-a-user"></a>停用用户
 
@@ -78,7 +78,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的供应商协作界面向
 
 若要请求停用用户：
 
-1.  在**所有联系人**页面上，单击**停用****供应商用户**。
+1.  在**所有联系人**页面上，单击**停用供应商用户**。
 2.  在“**业务理由**”字段中写入备注。
 3.  单击“**提交**”。
 
@@ -88,7 +88,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的供应商协作界面向
 
 若要请求修改用户的安全角色：
 
-1.  在**所有联系人**页面上，单击**维护****供应商用户角色**。
+1.  在**所有联系人**页面上，单击**维护供应商用户角色**。
 2.  在“**业务理由**”字段中写入备注。
 3.  在“**维护用户角色**”部分，选择要分配的安全角色，或者清除要删除的安全角色。
 4.  单击“**提交**”。

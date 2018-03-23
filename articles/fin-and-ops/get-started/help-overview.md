@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 221ce80cb7520f372f38859aa392b1d559448c81
+ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
+ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 03/09/2018
 
 ---
 
@@ -115,7 +115,7 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 > [!NOTE]
 > 目前，我们只接受向我们的英语存储库贡献的内容。  
-> 我们不接受通过 GitHub 报告的问题--请确保使用拉取请求提出内容建议。 产品和功能反馈最好通过 Dynamics 365 思想门户：https://ideas.dynamics.com/ideas/ 处理。 
+> 我们不接受通过 GitHub 报告的问题--请确保使用拉取请求提出内容建议。 产品和功能反馈最好通过 Dynamics 365 思想门户：https://experience.dynamics.com/ideas/ 处理。 
 
 
 ## <a name="task-guides"></a>任务指南

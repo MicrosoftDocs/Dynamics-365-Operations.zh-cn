@@ -20,10 +20,10 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6626540fcf8e39c3cc1c1471fa4bad0bc2fadc24
+ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
+ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/09/2018
 
 ---
 

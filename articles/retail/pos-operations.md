@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: edfed83d4703c081d857faad0771dc1010be41b4
-ms.openlocfilehash: edd6dd23066eca782b8fd510dabab612241e480a
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 82c2fab72923cfec135e207dfe194fda7d16e8e9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/12/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 

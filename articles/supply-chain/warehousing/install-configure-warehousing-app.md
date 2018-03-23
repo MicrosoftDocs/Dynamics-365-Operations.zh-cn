@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: 0f83735ec42e945c5e0abf8d72b83936e076e60e
+ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
+ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/06/2018
 
 ---
 
@@ -99,6 +99,8 @@ Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商
     <br>**注释**：此字段请勿使用正斜杠支付 (/) 结尾。 
     + **公司** - 在希望应用程序连接到的 Finance and Operations 中输入法人。 <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  选择应用程序左上角中的**后退**按钮。 此应用程序现在将连接到您的 Finance and Operations 服务器，并将显示仓库工作人员的登录屏幕。 <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
+
+有关如何设置 Dynamics 365 for Finance and Operations – Warehousing 以使用移动设备上的摄像头扫描条码的详细信息，请参阅[在 Dynamics 365 for Finance and Operations – Warehousing 中使用摄像头扫描条码](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>取消设备的访问权限
 如果设备丢失或被入侵，您必须取消设备对 Finance and Operations 的访问权限。 以下步骤介绍推荐的访问权限取消流程。

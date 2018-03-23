@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 62f328c5a6bf5343c97de0b7d907bbcfe2fcde4d
+ms.sourcegitcommit: e342c67f53828c77f77d99a2c3f909a23ced8989
+ms.openlocfilehash: 5d9bc41c92258f9856088b04ec5af123c8e915e5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -42,9 +42,8 @@ ms.lasthandoff: 02/23/2018
 - [维护 Sales 中的帐户并将它们直接从 Sales 同步到 Finance and Operations](accounts-template-mapping-direct.md)
 - [维护 Finance and Operations 中的产品并将其直接同步到 Sales](products-template-mapping-direct.md)
 - [维护 Sales 中的联系人并将其直接同步到 Finance and Operations 的联系人或客户](contacts-template-mapping-direct.md)
-- [将 Sales 的销售报价单直接同步到 Finance and Operations（等待发布的模板）](sales-quotation-template-mapping-sales-fin.md)
-- [将 Finance and Operations 中的销售订单直接同步到 Sales](sales-order-template-mapping-direct.md)
-- [直接在 Sales 和 Finance and Operations 之间同步销售订单（等待发布的模板）](sales-order-template-mapping-direct-two-ways.md)
+- [将 Sales 中的销售报价单直接同步到 Finance and Operations](sales-quotation-template-mapping-sales-fin.md)
+- [直接在 Sales 和 Finance and Operations 之间同步销售订单](sales-order-template-mapping-direct-two-ways.md)
 - [将 Finance and Operations 中的销售发票直接同步到 Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations 的系统要求
@@ -85,7 +84,7 @@ ms.lasthandoff: 02/23/2018
 
 若要使用从目标客户到现金解决方案，必须安装以下组件：
 
-- Dynamics 365 for Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) 联机
+- Dynamics 365 for Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) 联机或更高版本
 - Dynamics 365 for Sales 版本 1.15.0.0 (v15) 的从目标客户到现金解决方案 
 
 ### <a name="install-the-prospect-to-cash-solution-for-sales"></a>安装用于 Sales 的从目标客户到现金解决方案
