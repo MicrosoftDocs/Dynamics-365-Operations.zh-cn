@@ -1,7 +1,7 @@
 ---
 title: "查看和导出字段描述"
 description: "本文介绍了如何查看字段描述以及如何使用字段描述页导出描述。"
-author: YuyuScheller
+author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -15,7 +15,7 @@ ms.search.scope: Core, Operations
 ms.custom: 11534
 ms.assetid: e2795f51-a8a7-4c74-bdb9-b1be93bdd358
 ms.search.region: Global
-ms.author: yuyus
+ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
