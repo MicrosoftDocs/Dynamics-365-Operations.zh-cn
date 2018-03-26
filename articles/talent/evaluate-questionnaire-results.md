@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9b6357288f340e4248cd5a87c2c3f773e0c32aec
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 7ae83192924a790451d8da511638c7fc1cd92f90
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 11/03/2017
 -   **答卷报表** - 此报表显示针对调查表上每个问题选择的回应者的回答。
 -   **不正确回答** - 此报表显示与回应者所选的不正确回答相关的信息。
 
-**注意：****“结果”**报表仅在您在调查表上使用结果组并已在**“调查表”**页面上选择**“结果页面”**时可用。 **“答卷”**报表和**“不正确回答”**报表仅在您已在**“调查表”**页面上选择**“答卷报表”**时可用。
+**注意：** **“结果”**报表仅在您在调查表上使用结果组并已在**“调查表”**页面上选择**“结果页面”**时可用。 **“答卷”**报表和**“不正确回答”**报表仅在您已在**“调查表”**页面上选择**“答卷报表”**时可用。
 
 ## <a name="questionnaire-statistics"></a>调查表统计
 您可以使用调查表统计分析基于您定义的计算的已完成的调查表的结果。 要定义计算，必须完成以下任务：

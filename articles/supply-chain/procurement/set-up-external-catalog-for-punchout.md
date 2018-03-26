@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a20bb97e451ac59ba23c7f767b5feb336278dcd1
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 
@@ -71,15 +71,15 @@ ms.lasthandoff: 11/03/2017
 
 | 字段 | 说明 | 
 |---------|---------|
-|< 标头 >< 自 >< 凭据域=”” >|采购员公司的域。|
-|< 标头 >< 自 >< 凭据>< 标识 >< /标识 > | 采购员公司的标识。|
-|< 标头 >< 至 >< 凭据域=”” > | 供应商公司的域。|
-|< 标头 >< 至 >< 凭据>< 标识 >< /标识> | 供应商公司的标识。|
-|< 标头 >< 发送方 >< 凭据域=”” > | 采购员公司的域。|
-|< 标头 >< 发送方 >< 凭据 >< 标识 >< /标识> | 采购员公司的标识。|
-|< 标头 >< 发送方 >< 凭据 >< 共享密钥 >< /共享密钥 >|采购员公司的共享密钥。|
+|< Header >< From >< Credential domain=”” >|采购员公司的域。|
+|< Header >< From >< Credential>< Identity >< /Identity > | 采购员公司的标识。|
+|< Header >< To >< Credential domain=”” > | 供应商公司的域。|
+|< Header >< To >< Credential>< Identity >< /Identity> | 供应商公司的标识。|
+|< Header >< Sender >< Credential domain=”” > | 采购员公司的域。|
+|< Header >< Sender >< Credential >< Identity >< /Identity> | 采购员公司的标识。|
+|< Header >< Sender >< Credential >< SharedSecret >< /SharedSecret >|采购员公司的共享密钥。|
 |< 请求 deploymentMode=”” >|测试或生产部署。|
-|< 请求 >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|供应商发包终结点的 URL。|
+|< Request >< PunchOutSetupRequest >< SupplierSetup >< URL >< /URL>|供应商发包终结点的 URL。|
 
 ### <a name="extrinsic-elements"></a>外在元素
 
@@ -92,15 +92,15 @@ ms.lasthandoff: 11/03/2017
 
 | 从供应商接收的消息 | 复制到 Finance and Operations 中的申请行|
 |------------------------------|----------------------------------------------------------|
-|< ItemIn 数量=”” > |数量|
+|< ItemIn quantity=”” > |数量|
 |< ItemIn>< ItemID >< SupplierPartID >< /SupplierPartID >|外部物料 ID|
-|< ItemDetail>< UnitPrice >< 金钱币种=”” >| 币种|
-|< ItemDetail >< UnitPrice >< 金钱 >< /金钱 >| 单价|
-|< ItemDetail >< 描述 ShortName=”” >|产品名称|
-|< ItemDetail >< 描述 >< /描述 >|包含在物料描述中；产品名称，如果未指定 ShortName。|
+|< ItemDetail>< UnitPrice >< Money currency=”” >| 币种|
+|< ItemDetail >< UnitPrice >< Money >< /Money >| 单价|
+|< ItemDetail >< Description ShortName=”” >|产品名称|
+|< ItemDetail >< Description >< /Description >|包含在物料描述中；产品名称，如果未指定 ShortName。|
 |< ItemDetail >< UnitOfMeasure >< /UnitOfMeasure >|单位|
-|< ItemDetail >< 分类 >< /分类 >|包含在物料描述中|
-|< ItemDetail >< 分类域=”” >|包含在物料描述中|
+|< ItemDetail >< Classification >< /Classification >|包含在物料描述中|
+|< ItemDetail >< Classification domain=”” >|包含在物料描述中|
 
 ## <a name="delete-an-external-catalog"></a>删除外部目录
 删除页面上具有删除操作的外部目录。

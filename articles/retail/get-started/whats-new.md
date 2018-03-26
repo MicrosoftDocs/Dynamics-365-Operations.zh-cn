@@ -17,14 +17,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: c72742368916ecfa3c545f374f293641c03be108
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 008f1acec62c1fc6d423dd7629d3f92f758be5e8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>Dynamics 365 for Retail 的新增功能或变更功能
+
+[!include[banner](../../includes/banner.md)]
 
 此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Retail 最新版本的新功能和变更功能的资源。
 
@@ -32,6 +34,7 @@ ms.lasthandoff: 02/27/2018
 
 |版本 | 内部版本号 | 可用性 | 了解更多 |
 |--------|--------------|--------------|------------|
+|Dynamics 365 for Retail 7.3.1 | 7.3.21971.64032 | 2018 年 3 月 | 1. 转至 [Dynamics 365 路线图](https://roadmap.dynamics.com/)。<br><br>2. 单击**新增功能**选项卡。<br><br>3. 单击 **Dynamics 365 for Retail** 复选框。<br><br>4. 搜索**随 Dynamics 365 for Retail 7.3.1 发布的**功能。 |
 |Dynamics 365 for Retail 7.3 | 7.3.21971.64028 | 2018 年 2 月 | 1. 转至 [Dynamics 365 路线图](https://roadmap.dynamics.com/)。<br><br>2. 单击**新增功能**选项卡。<br><br>3. 单击 **Dynamics 365 for Retail** 复选框。<br><br>4. 搜索**随 Dynamics 365 for Retail 7.3 发布的**功能。 |
 |应用程序更新 5 | 7.2.21792.64093 | 2018 年 2 月 | 1. 转至 [Dynamics 365 路线图](https://roadmap.dynamics.com/)。<br><br>2. 单击**新增功能**选项卡。<br><br>3. 单击 **Dynamics 365 for Retail** 复选框。<br><br>4. 搜索**随应用程序更新 5 发布的**功能。 |
 |应用程序更新 4 | 7.2.21792.64070 | 2017 年 10 月 | 1. 转至 [Dynamics 365 路线图](https://roadmap.dynamics.com/)。<br><br>2. 单击**新增功能**选项卡。<br><br>3. 单击 **Dynamics 365 for Retail** 复选框。<br><br>4. 搜索**随应用程序更新 4 发布的**功能。 |

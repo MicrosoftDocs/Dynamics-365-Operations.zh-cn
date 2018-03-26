@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 178f74bba514309748c2dfd060486c49176dff3e
-ms.openlocfilehash: 6afec24c76e3d56b77b1106375830285ad3bedad
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 62194012cfbe101d19e9de3254afb004da79a562
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 03/07/2018
 
 ---
 

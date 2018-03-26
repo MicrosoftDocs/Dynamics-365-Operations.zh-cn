@@ -3,7 +3,7 @@ title: "将 Sales 与 Finance and Operations 的销售订单直接同步"
 description: "本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 之间直接运行销售订单同步的模板和基础任务。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 03/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 9aa8c78f5aea5a818d517c2baa9051750b132fc6
+ms.sourcegitcommit: 0928f9c0af52c2e19f0669841e433423ae9db467
+ms.openlocfilehash: 09c5cd14c5948818878d3f830639abc166d7072e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 03/13/2018
 
 ---
 
@@ -132,6 +132,7 @@ Sales 中的折扣计算模型不同于 Finance and Operations。 在 Finance an
 
     转到**设置** &gt; **安全** &gt; **团队**，选择相关团队，选择**管理角色**，并选择具有所需权限的角色，如**系统管理员**。
 
+- 为确保 Sales 和 Finance and Operations 中的折扣计算均正确无误，必须将**折扣计算方法**设置为**行项**.
 - 转到**设置** &gt; **管理** &gt; **系统设置** &gt; **Sales**，确保使用以下设置：
 
     - **使用系统定价计算系统**选项设置为**是**。

@@ -18,10 +18,10 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 997b6843fb729ed204e4e8ec5369c5a380efc25e
-ms.openlocfilehash: fb36f6ce81c5e781e3c98132f18ecbd84d0d4089
+ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
+ms.openlocfilehash: 1ac73b50c6051ba7d3b96ae49cb7e33cf436ba9e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/12/2018
+ms.lasthandoff: 03/07/2018
 
 ---
 

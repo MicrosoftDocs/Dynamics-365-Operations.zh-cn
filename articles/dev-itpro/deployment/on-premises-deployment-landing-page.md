@@ -3,7 +3,7 @@ title: "本地部署"
 description: "本主题提供有关本地部署的信息和内容链接。"
 author: kfend
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 03/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 12b8a6e8f28501bce76d5a1d58b39e4711b75330
+ms.sourcegitcommit: 0d551818c8d352af96f6e64613cfbbc4aec5bf5b
+ms.openlocfilehash: e35769e45b1017eef2ee5a5b6c2baa35ae13d90c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/15/2018
 
 ---
-# <a name="on-premises-deployment-landing-page"></a>本地部署登录页
+# <a name="on-premises-deployment-home-page"></a>本地部署主页
 
 [!include[banner](../includes/banner.md)]
 
@@ -36,13 +36,13 @@ ms.lasthandoff: 03/05/2018
 - [计划您的本地部署](plan-onprem-deployment.md)
 - [本地部署的系统要求](../../fin-and-ops/get-started/system-requirements-on-prem.md)
 - [针对本地环境的硬件规模调整](../../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
-- [联机服务和本地软件生命周期策略](../migration-upgrade/versions-update-policy.md)
 - [购买 Dynamics 365 for Finance and Operations Enterprise Edition（本地）](../../fin-and-ops/get-started/purchase-on-premises.md)
 - [云和本地功能比较](../../fin-and-ops/get-started/cloud-prem-comparison.md)
 
 ## <a name="onboard"></a>Onboard
 - [在 Lifecycle Services 中创建本地项目](../lifecycle-services/lbd-create-lcs-on-prem-project.md)
-- [设置并部署本地环境](setup-deploy-on-premises-environments.md)
+- [设置并部署本地环境（平台更新 12）](setup-deploy-on-premises-pu12.md)
+- [设置并部署本地环境（平台更新 8 和 11）](setup-deploy-on-premises-pu8-pu11.md)
 - [在本地环境中安装网络打印机设备](../analytics/install-network-printer-onprem.md)
 - [为本地部署配置 SQL Server Reporting Services](../analytics/configure-ssrs-on-premises.md)
 - [开发自定义模型并将其部署到本地环境](develop-deploy-custom-models-on-premises.md)
