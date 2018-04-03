@@ -1,7 +1,7 @@
 # [Dynamics 365 for Finance and Operations 的开发和管理](index.md)
-# [云部署的系统要求](../fin-and-ops/get-started/system-requirements.md)
-# [本地部署的系统要求](../fin-and-ops/get-started/system-requirements-on-prem.md)
-# [演示数据](../fin-and-ops/get-started/demo-data.md)
+# [云部署的系统要求](../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json)
+# [本地部署的系统要求](../fin-and-ops/get-started/system-requirements-on-prem.md?toc=/dev-itpro/toc.json)
+# [演示数据](../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json)
 ## [生成演示数据包](data-entities/generate-demo-data-packages.md)
 
 
@@ -29,7 +29,7 @@
 ### [导出和导入模型](dev-tools/models-export-import.md)
 ### [Visual Studio 中的元数据搜索](dev-tools/metadata-search-visual-studio.md)
 ### [模型](dev-tools/models.md)
-### [Dynamics 365 for Finance and Operations, Enterprise edition 中的项目](dev-tools/projects.md)
+### [Dynamics 365 for Finance and Operations 中的项目](dev-tools/projects.md)
 ### [Visual Studio Tools 加载项](dev-tools/developer-tools-add-ins.md)
 ### [关闭模型自定义和弃用功能](dev-tools/lock-models.md)
 ### [更新 Visual Studio 开发工具](dev-tools/update-development-tools.md)
@@ -113,8 +113,8 @@
 #### [使用扩展自定义模型元素（教程）](extensibility/customize-model-elements-extensions.md)
 #### [自定义：覆盖和扩展](extensibility/customization-overlayering-extensions.md)
 ### 新增功能
-#### [可扩展性更改 2017 年 7 月](extensibility/changes-july-2017.md)
-#### [Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中的可扩展性更改](extensibility/extensibility-changes-73.md)
+#### [可扩展性更改，2017 年 7 月](extensibility/changes-july-2017.md)
+#### [可扩展性更改版本 7.3](extensibility/extensibility-changes-73.md)
 ### 基本原理
 #### [自动插入的自定义项](extensibility/intrusive-customizations.md)
 #### [类扩展](extensibility/class-extensions.md)
@@ -168,8 +168,8 @@
 ### [构建导航](user-interface/build-navigation.md)
 ### [构建工作区](user-interface/build-workspace.md)
 ## 窗体
-### [Dynamics 365 for Finance and Operations, Enterprise edition 中的导航](user-interface/page-navigation.md)
-### [Dynamics 365 for Finance and Operations, Enterprise edition 中的布局](user-interface/page-layout.md)
+### [Dynamics 365 for Finance and Operations 中的导航](user-interface/page-navigation.md)
+### [Dynamics 365 for Finance and Operations 中的布局](user-interface/page-layout.md)
 ### [Symbol 字体](user-interface/symbol-font.md)
 ### [具有自定义模式的测试窗体](user-interface/testing-forms-custom-patterns.md)
 ### [创建并使用深层链接](user-interface/create-deep-links.md)
@@ -489,12 +489,12 @@
 
 ## 云部署
 ### [Azure Resource Manager 使用培训](deployment/arm-onboarding.md)
-### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations，Enterprise edition](deployment/expressroute.md)
+### [Azure ExpressRoute 和 Dynamics 365 for Finance and Operations](deployment/expressroute.md)
 
 ## [本地部署](deployment/on-premises-deployment-landing-page.md)
 ### [本地概览](deployment/on-premises-overview.md)
 ### [规划本地部署](deployment/plan-onprem-deployment.md)
-### [硬件规模调整](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md)
+### [硬件规模调整](../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json)
 ### [创建本地项目](lifecycle-services/lbd-create-lcs-on-prem-project.md)
 ### [设置并部署本地环境](deployment/setup-deploy-on-premises-environments.md)
 #### [使用 Platform update 12 部署本地环境](deployment/setup-deploy-on-premises-pu12.md)
@@ -507,7 +507,7 @@
 ### [更新本地代理](lifecycle-services/update-local-agent.md)
 ### [重新配置您的环境](lifecycle-services/reconfigure-environment.md)
 ### [客户端 Internet 连接](user-interface/client-disconnected.md)
-### [Dynamics 365 for Finance and Operations Enterprise Edition 本地故障排除](deployment/troubleshoot-on-prem.md)
+### [Dynamics 365 for Finance and Operations 本地故障排除](deployment/troubleshoot-on-prem.md)
 
 ## 部署自定义代码
 ### [创建可部署包](deployment/create-apply-deployable-package.md)
@@ -525,12 +525,12 @@
 ### [AX 2012 升级 - 沙盒环境中的数据升级](migration-upgrade/upgrade-data-sandbox.md)
 ### [AX 2012 升级 - 直接转换测试](migration-upgrade/upgrade-cutover-testing.md)
 ### [AX 2012 升级 - 升级后要完成的任务](migration-upgrade/app-validation-process.md)
-### [AX 2012 升级 - 功能测试通过](migration-upgrade/upgrade-functional-validation.md)
+### [AX 2012 升级 - 功能测试传递](migration-upgrade/upgrade-functional-validation.md)
 ### [AX 2012 升级 - 准备实施](migration-upgrade/upgrade-go-live-prep.md)
-
+### [AX 2012 升级 - 实施](migration-upgrade/2012-upgrade-cutover.md)
 
 ### 影响从 AX 2012 升级的更改
-#### [单一凭证和货币重估升级 ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+#### [单一凭证和货币重估升级](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [项目资源计划数据模型](migration-upgrade/data-model-changes-resource-management.md)
 #### [工作流子系统更改](migration-upgrade/workflow-subsystem.md)
 #### [我们为什么从多维数据集移至聚合模型](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -546,7 +546,7 @@
 ## 升级到最近更新（云）
 ### [升级到最新更新的流程](migration-upgrade/upgrade-latest-update.md)
 ### [生命周期策略](migration-upgrade/versions-update-policy.md)
-### [将最新平台更新应用到您的环境](migration-upgrade/upgrade-latest-platform-update.md)
+### [将最新 Platform update 应用到您的环境](migration-upgrade/upgrade-latest-platform-update.md)
 ### [将 Dynamics 平台升级到 2016 年 8 月的版本](migration-upgrade/update-platform-each-release.md)
 ### [升级沙盒环境](migration-upgrade/upgrade-sandbox-environment.md)
 ### [在开发或演示环境中升级数据](migration-upgrade/upgrade-data-to-latest-update.md)
@@ -588,7 +588,9 @@
 ### [批处理服务器概览](sysadmin/batch-server-overview.md)
 ### [创建批处理作业](sysadmin/tasks/create-batch-job.md)
 
-## [创建优化顾问规则](sysadmin/optimization-advisor.md)
+##  [优化顾问概览](sysadmin/optimization-advisor-overview.md)
+### [创建优化顾问规则](sysadmin/create-rules-optimization-advisor.md)
+
 
 # Lifecycle Services
 ## [Lifecycle Services 概览](lifecycle-services/lcs.md)
@@ -701,10 +703,10 @@
 ## [请求沙盒数据库刷新](database/database-refresh.md)
 
 # 支持
-## [获取对 Dynamics 365 for Finance and Operations, Enterprise edition 和 Lifecycle Services 的支持](lifecycle-services/lcs-support.md)
+## [获取对 Dynamics 365 for Finance and Operations 和 Lifecycle Services 的支持](lifecycle-services/lcs-support.md)
 ## [记录顶级支持票证](lifecycle-services/premier-support.md)
 ## [将请求提交给 Dynamics Service 工程团队](lifecycle-services/submit-request-dynamics-service-engineering-team.md)
-## [设置对 Dynamics 365 for Finance and Operations, Enterprise edition 的技术支持](lifecycle-services/support-experience.md) 
+## [设置对 Dynamics 365 for Finance and Operations 的技术支持](lifecycle-services/support-experience.md) 
 ## [计划的维护时段常见问题](lifecycle-services/planned-maintenance-window-faq.md) 
 ## [云操作和服务](lifecycle-services/cloud-operations-servicing.md)
 ## [管理 Finance and Operations 支持体验](lifecycle-services/cloud-powered-support-lcs.md)
