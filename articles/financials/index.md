@@ -1,6 +1,6 @@
 ---
 title: "财务管理主页"
-description: "本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的财务管理功能的一系列帮助主题和其他资源。"
+description: "本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的财务管理功能的一系列帮助主题和其他资源。"
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -18,10 +18,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 02451c702549653ef725b7b5d285a36eabecf3d6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 881b44f1128e732bc768191088e19efc38552eca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](includes/banner.md)]
 
-本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的财务管理功能的一系列帮助主题和其他资源。 
+本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的财务管理功能的一系列帮助主题和其他资源。 
 
 选择一个功能区域以了解有关它的更多信息。
 - [应付帐款](accounts-payable\accounts-payable.md) 

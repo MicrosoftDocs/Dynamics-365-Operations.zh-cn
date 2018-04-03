@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 199a8961f782816c71e47f9e76e097c069fbf686
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ Microsoft Dynamics 365 for Talent 简化了很多例行记录保留任务，并�
 + 设置、提供并分析包含议程、授课和跟踪的培训课程。
 
 > [!NOTE] 
-> Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations, Enterprise edition 中的“人力资源”密切相关。 这两种产品的功能可能存在重合。 因此，在主要涉及“人力资源”的主题中，产品名称将为 Dynamics 365 for Finance and Operations, Enterprise edition；在主要涉及 Talent 的主题中，产品名称将为 Dynamics 365 for Talent。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+> Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations 中的“人力资源”密切相关。 这两种产品的功能可能存在重合。 因此，在主要涉及“人力资源”的主题中，产品名称将为 Dynamics 365 for Finance and Operations；在主要涉及 Talent 的主题中，产品名称将为 Dynamics 365 for Talent。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
 <a name="develop-a-strategy-for-managing-your-human-resources"></a>制定人力资源管理策略
 ---------------------------------------------------------

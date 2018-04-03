@@ -1,6 +1,6 @@
 ---
 title: "预算编制主页"
-description: "此主题概要介绍了 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的预算编制功能组件、预算编制工具和申报功能。"
+description: "此主题概要介绍了 Microsoft Dynamics 365 for Finance and Operations 中的预算编制功能组件、预算编制工具和申报功能。"
 author: twheeloc
 manager: AnnBe
 ms.date: 08/09/2017
@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 953c79b134b82ce2a3e0adc05dc3bdf3ce583482
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
