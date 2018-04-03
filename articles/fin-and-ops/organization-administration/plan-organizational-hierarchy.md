@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: OMHierarchyManager
+ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -19,10 +19,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f2564eca12b109462c2a277a793abfb7f052c471
+ms.sourcegitcommit: a290f6f453d8440d6e68a13915339d3da31d959a
+ms.openlocfilehash: 47c97ee32c345f584c8efa7a00b7ff3ec4b70475
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/03/2018
 
 ---
 

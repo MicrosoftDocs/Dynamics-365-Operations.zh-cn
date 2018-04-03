@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: NumberSequenceTableListPage
+ms.search.form: NumberSequenceTableListPage, NumberSequenceConfiguration
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: e978519a86e32d4440b7c0562c4c5069c001ce81
+ms.sourcegitcommit: a290f6f453d8440d6e68a13915339d3da31d959a
+ms.openlocfilehash: 353113d7c7341eab567224a0d3508f6fdb7bdcec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/03/2018
 
 ---
 
