@@ -19,10 +19,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1335d95c8bf02d5c571d37d78eca0ee7eae32bad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3b6ded5e5accbbdba708c8b31119429e72bd58f5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -53,7 +53,7 @@ EPC（包括欧洲银行）开发 SEPA 付款设备的商业和技术框架。 �
 SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。 付款必须按欧元，并且必须包括国际银行帐号 (IBAN) 和两个当事方的银行标识符代码 (BIC)。 （BIC 也称为国际银行金融电信协会 \[SWIFT\] 代码。）此外，交易记录必须在两个当事方之间共享。 当事方之间的贷方转帐应使用符合 ISO 20022 付款处理标准的 XML 格式和由 EPC 指定的 XML。
 
 ## <a name="how-is-a-credit-transfer-implemented"></a>贷方转帐如何实施？
-欧洲国家的贷方转帐付款格式是使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的电子申报 (ER) 和付款方式功能来实施的。 其他地区使用的一些贷方转帐格式仍在使用传统的付款框架。 在其他许多格式中，有十二种 ISO 20022 贷方转帐文件格式可用。 这些导出格式符合 SEPA ISO 20022 XML 标准。 它们用于按照 EPC 发布的 SEPA Credit Transfer Scheme Rulebook 8.2 版中的规定，为其使用国/地区和欧元付款生成非欧元付款转帐。 在您可以实施贷方转帐前，必须与您的银行联系，以获取加载电子银行文件所需的软件。 您将使用该软件将包含付款订单的 XML 文件转移到您的银行。
+欧洲国家的贷方转帐付款格式是使用 Microsoft Dynamics 365 for Finance and Operations 中的电子申报 (ER) 和付款方式功能来实施的。 其他地区使用的一些贷方转帐格式仍在使用传统的付款框架。 在其他许多格式中，有十二种 ISO 20022 贷方转帐文件格式可用。 这些导出格式符合 SEPA ISO 20022 XML 标准。 它们用于按照 EPC 发布的 SEPA Credit Transfer Scheme Rulebook 8.2 版中的规定，为其使用国/地区和欧元付款生成非欧元付款转帐。 在您可以实施贷方转帐前，必须与您的银行联系，以获取加载电子银行文件所需的软件。 您将使用该软件将包含付款订单的 XML 文件转移到您的银行。
 
 ## <a name="what-credit-transfer-formats-are-currently-supported-in-finance-and-operations"></a>Finance and Operations 中现在支持哪些贷方转帐格式？
 应始终转至 Microsoft Dynamics Lifecycle services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置**的可用文件的最新列表。 下一部分“必须执行哪些设置？”提供一个主题的链接，该主题说明如何创建 LCS 存储库以检查可用配置和导入所选配置。

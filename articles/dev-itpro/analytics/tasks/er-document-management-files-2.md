@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f3d494cc83b273eef071b23d0948b283ba85c17e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ebbd442c9f69290dc995c05462ca70b554f7d9f2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="extend-data-model-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>针对电子申报 (ER) 将数据模型扩展为在格式输出中使用票据管理文件
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/29/2017
 17. 在“物料类型”字段中，选择“字符串”。
 18. 单击“添加”。
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>将新数据模型元素映射到 Dynamics 365 for Finance and Operations Enterprise Edition 数据源
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>将新数据模型元素映射到 Dynamics 365 for Finance and Operations 数据源
 1. 单击“映射模型到数据源”。
 2. 使用快速筛选来筛选值为“InvoiceCustomer”的“定义”字段。
     * InvoiceCustomer  

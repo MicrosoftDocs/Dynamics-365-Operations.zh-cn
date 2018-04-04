@@ -1,6 +1,6 @@
 ---
 title: "在应收账款中的信用和收款"
-description: "使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 集合页，在一个中心视图中管理应收账款收款信息。 贷方和收款经理可以使用此主要观点以管理集合。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。"
+description: "使用 Microsoft Dynamics 365 for Finance and Operations 集合页，在一个中心视图中管理应收帐款收款信息。 信用和收款经理可以使用该中央视图管理收款。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。"
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a071d3151fbcc9e29bd138b096b34b88bc405a4f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 

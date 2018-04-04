@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1797bc49877f1c8c06797083d1c7b76934675ba3
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: dae65394a2180ccbf3317a41b635ba97034e541b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 02/07/2018
 
 本文介绍您可用于为项目创建采购订单的不同方法。 使用的方法取决于当消耗采购物料和将采购物料费用计入项目时，采购订单的用途。
 
-在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中，您可以使用多种方法创建项目的采购订单。 使用的方法取决于当消耗采购物料和将采购物料费用计入项目时，采购订单的用途。
+在 Microsoft Dynamics 365 for Finance and Operations 中，您可以使用多种方法创建项目的采购订单。 使用的方法取决于当消耗采购物料和将采购物料费用计入项目时，采购订单的用途。
 
 ### <a name="methods-for-creating-a-purchase-order"></a>创建采购订单的方法
 

@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 9a36b3e7a8e496632ca7041018abe8176a2e4f25
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 12/14/2017
 设置付款确认以生成提供给银行的支票电子列表。 然后，当支票提交给银行时，银行将支票与支票的列表进行对比。 如果支票与列表中的支票相匹配，银行将清算支票。 如果支票与列表中的支票不匹配，银行将保留支票以供审查。
 
 ## <a name="security-for-positive-pay-files"></a>付款确认文件的安全
-付款确认文件可以包含有关收款人和支票金额的敏感信息。 因此，请您务必自文件生成时便使用相应的安全措施，直到它们由银行接收。 付款确认文件下载到您的 Web 浏览器指定的位置。 由于付款确认文件可能包含敏感信息，务必确保仅授权用户可以在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中生成和查看此信息。 请使用下表帮助您确定所需权限。
+付款确认文件可以包含有关收款人和支票金额的敏感信息。 因此，请您务必自文件生成时便使用相应的安全措施，直到它们由银行接收。 付款确认文件下载到您的 Web 浏览器指定的位置。 由于付款确认文件可能包含敏感信息，务必确保仅授权用户可以在 Microsoft Dynamics 365 for Finance and Operations 中生成和查看此信息。 请使用下表帮助您确定所需权限。
 
 <table>
 <colgroup>

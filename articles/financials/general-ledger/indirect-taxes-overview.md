@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1eb30ccbaa51bf794c7b3ea2be3fe749fb8ff88d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/03/2017
 在每个交易记录上，您可以通过打开“**销售税交易记录**”页查看计算所得的销售税。 您可以对一个文档行或整个文档查找销售税。 对于某些文档（例如，供应商发票和普通日记帐），如果原始文档显示异常金额，则可以调整计算所得的销售税。
 
 ## <a name="sales-tax-settlement-and-reporting"></a>销售税结算和申报
-必须按规定的间隔（每月、每季度等）向税务主管机构申报和缴纳销售税。 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 提供的功能可让您按时间间隔结算税帐户并将余额抵消给在分类帐记帐组中指定的税结算帐户 您可以在**结算并过帐销售税**页上访问此功能。 您必须指定应结算销售税的销售税结算期间。 
+必须按规定的间隔（每月、每季度等）向税务主管机构申报和缴纳销售税。 Microsoft Dynamics 365 for Finance and Operations 提供的功能可让您按时间间隔结算税帐户并将余额抵消给在分类帐记帐组中指定的税结算帐户 您可以在**结算并过帐销售税**页上访问此功能。 您必须指定应结算销售税的销售税结算期间。 
 
 在支付销售税后，销售税结算帐户上的余额应与银行帐户平衡。 如果在销售税结算期间上指定的销售税主管机构与供应商帐户相关，则销售税余额作为未结供应商发票过帐，并可以包括在普通付款方案中。
 

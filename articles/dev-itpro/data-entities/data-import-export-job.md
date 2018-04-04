@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e444168f249e798fa68b9b082556aa8e5e7d8113
-ms.openlocfilehash: 0e1c5120bf8558b955b66e059a8be8bbec2c2ce1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 02/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-要在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中创建和管理数据导入和导出作业，请使用**数据管理**工作区。 默认情况下，数据导入和导出流程为目标数据库中的每个实体创建一个暂存表。 通过暂存表可以在移动数据之前验证、清理或转换数据。
+要在 Microsoft Dynamics 365 for Finance and Operations 中创建和管理数据导入和导出作业，请使用**数据管理**工作区。 默认情况下，数据导入和导出流程为目标数据库中的每个实体创建一个暂存表。 通过暂存表可以在移动数据之前验证、清理或转换数据。
 
 > [!NOTE]
 > 此主题假定您熟悉[数据实体](data-entities.md)。
@@ -66,7 +66,7 @@ ms.lasthandoff: 02/13/2018
 ### <a name="set-the-data-format-for-the-job"></a>设置作业的数据格式
 选择一个实体后，必须选择要导出或导入的数据的格式。 使用**数据源设置**磁贴定义格式。 许多组织从演示数据集中默认包括的格式开始。 以下是其中一些格式的列表：
 
-- AX（导入或导出数据的格式必须与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 所使用的格式相同）
+- AX（导入或导出数据的格式必须与 Microsoft Dynamics 365 for Finance and Operations 所使用的格式相同）
 - ColonSeparated
 - CSV
 - Excel

@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: da3099a07e3084bf49d03e0f4d421aebe9b39940
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -65,7 +65,7 @@ Fabrikam 按照世界上所有地区的多个法人和员工运行。 当交易�
 1.  Sammy 是 Fabrikam 接收部门的工作人员，接受从 Contoso 装运的设备总数。 他在产品收据中输入 5 的数量。 由于采购订单已完全收到，则该采购订单的状态将更改为“已接收”。
 2.  April 是 Fabrikam 的应付账款协调员，输入和验证 Contoso 提交的发票。 她验证了以下信息：
     -   针对要求三向匹配的物料，发票行上的数量与接收的数量匹配。 产品收据上指示的接受的数量与发票上的数量匹配。
-    -   对于要求双向或三个向匹配的物料，发票行上的价格在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中定义的容差范围内。 这包括价格匹配的以下类型：
+    -   对于要求双向或三个向匹配的物料，发票行上的价格在 Microsoft Dynamics 365 for Finance and Operations 中定义的容差范围内。 这包括价格匹配的以下类型：
         -   净单位价格匹配 – 发票行的净单位价格与采购订单行的净单位价格匹配，都在容差百分比内。 在此示例中，净单位价格容差是 +8%。
         -   价格合计匹配 – 发票行的净金额与采购订单行的净金额匹配，都在容差百分比、金额或金额百分比内。 在此示例中，价格合计匹配容差是 +15%。
 

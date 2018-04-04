@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 42ab7beb8a269cd37fd9100385bd302e4945c1e0
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b86363004b8702d1a654f2a1da49bba82fc8ff2a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 12/14/2017
 
 准备好询价案例并添加供应商后，在询价案例上选择**发送**。 将为您发送询价的每个供应商生成询价日记帐。 您可以为“发送”操作配置打印管理设置，从而为每个供应商打印报表以存档，或将报表发送到每个供应商的电子邮件地址。 此外，您可以使用每个供应商的询价日记帐来生成您可以发送或在以后重新发送到供应商的报表。 您还可以配置“发送”操作，从而生成供应商可以填写的回复表。
 
-此主题介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中出价。 有关详细信息，请参阅[供应商与客户的协作](vendor-collaboration-work-customers-dynamics-365-operations.md)。
+此主题介绍不使用供应商协作时处理询价的流程。 如果您的系统已经对供应商协作进行了设置，供应商可以直接在 Microsoft Dynamics 365 for Finance and Operations 中出价。 有关详细信息，请参阅[供应商与客户的协作](vendor-collaboration-work-customers-dynamics-365-operations.md)。
  
 如果您在发送询价后必须对其进行改正，可以在完成后，使用两个改正操作：“创建”和“完成”来重新向供应商发送询价。
 

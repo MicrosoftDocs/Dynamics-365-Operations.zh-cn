@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 2c37f0253454a23d90904dd6b000b955146ad121
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-通过使用外部目录，您可以确保您在 Dynamics 365 for Finance and Operations Enterprise 版本2017 年 7 月版中后续处理的产品和价格信息准确和最新。 之后可以批准申请和转换为采购订单，并且可以向供应商下单。
+通过使用外部目录，您可以确保您在 Dynamics 365 for Finance and Operations 2017 年 7 月版中后续处理的产品和价格信息准确和最新。 之后可以批准申请和转换为采购订单，并且可以向供应商下单。
 
 设置好外部目录并且员工准备申请时，将有一个选项重定向到外部站点，即外部目录，并返回在外部站点创建的购物篮。 此通信基于 cXML 协议且必须在购买和销售组织的系统间建立。
 
@@ -85,7 +85,7 @@ ms.lasthandoff: 03/07/2018
 
 外在元素的附加信息，例如基于发包的用户的用户名称。外在元素在发生发包且可以在请求设置消息中发送时进行设置。
 您的供应商可能提出在设置请求中收到外在元素的要求。 在这种情况下，您应将外在元素添加到**外部目录**页的**消息格式**部分中的外在元素列表。 指定供应商可以识别并将其映射到值的外在元素的名称。 值的选项为：用户名、用户电子邮件或随机值。
-有关 cXML 协议的详细信息，请参阅：http://cxml.org/
+有关 cXML 协议的详细信息，请参阅：http://cxml.org/。
 
 ## <a name="post-back-message"></a>回发消息
 回发消息是当用户从外部站点签出并返回到 Finance and Operations 时从供应商收到的消息。 回发消息不能进行配置。 此消息基于 cXML 协议定义。 以下信息可以是在申请行中收到的回发信息的一部分：

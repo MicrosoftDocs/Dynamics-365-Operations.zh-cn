@@ -17,10 +17,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c9abea228cdaae84ca2b9aada9f36bbe79c1dc6b
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 应始终转至 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库，并查看资产类型为 **GER 配置**的可用文件的当前列表。 下一部分“必须执行哪些设置？”包括一个主题的链接，该主题说明如何创建 LCS 存储库以检查可用配置和导入所选配置。
 
-Microsoft Dynamics 365 for Finance and Operations Enterprise 版本包括一个示例格式，其中支票位于顶部，后面是两个汇款部分。 它还包括一个示例格式，其中支票在中间，后面是两个汇款部分。 这些示例格式对应于 Deluxe 公司支票格式。
+Microsoft Dynamics 365 for Finance and Operations 包括一个示例格式，其中支票位于顶部，后面是两个汇款部分。 它还包括一个示例格式，其中支票在中间，后面是两个汇款部分。 这些示例格式对应于 Deluxe 公司支票格式。
 
 ## <a name="what-do-i-have-to-set-up"></a>我必须设置什么？
 

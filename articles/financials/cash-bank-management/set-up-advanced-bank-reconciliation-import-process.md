@@ -1,6 +1,6 @@
 ---
 title: "设置高级银行对帐导入流程"
-description: "高级银行对帐功能允许您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中导入电子银行对账单，并与银行交易记录自动对帐。 本文介绍如何设置银行对账单的导入功能。"
+description: "高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Finance and Operations 中的银行交易记录自动对帐。 本文介绍如何设置银行对账单的导入功能。"
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d7bb0fc5abedcce973632434a5cc174449cdc22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7292767f48e94f01c50e12ab02a4483c53046ae9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-高级银行对帐功能允许您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中导入电子银行对账单，并与银行交易记录自动对帐。 本文介绍如何设置银行对账单的导入功能。 
+高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Finance and Operations 中的银行交易记录自动对帐。 本文介绍如何设置银行对账单的导入功能。 
 
 银行对账单导入设置因您电子银行对账单的格式的不同而不同。 Finance and Operations 支持三个现成的银行对账单格式︰ISO20022、MT940 和 BAI2。
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/03/2017
 | BankStmtImport\_SampleBankCompositeEntity\_xml          | SampleBankCompositeEntity.xml        |
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>银行对账单格式和技术布局的示例
-下面是高级银行对帐导入文件技术布局定义的示例和三个相关银行对账单示例文件：https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+下面是高级银行对帐导入文件技术布局定义的示例和三个相关银行对帐单示例文件：https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 | 技术布局定义                             | 银行对账单示例文件          |
 |---------------------------------------------------------|--------------------------------------|

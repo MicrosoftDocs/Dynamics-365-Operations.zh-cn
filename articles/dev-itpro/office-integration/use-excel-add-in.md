@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 002c3bea2803fdf43b0c35620c8d46fc9400fafc
-ms.openlocfilehash: 9db4f7ed9cba0d91a9a8507a33882a9114bdb1f5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 01/04/2018
 
 [!include[banner](../includes/banner.md)]
 
-此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本开始。
+此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Microsoft Dynamics 365 for Finance and Operations 开始。
 
 通过在 Excel 中打开实体数据，可以使用 Excel 加载项快速、轻松地查看和编辑这些数据。 此加载项需要 Microsoft Excel 2016。
 

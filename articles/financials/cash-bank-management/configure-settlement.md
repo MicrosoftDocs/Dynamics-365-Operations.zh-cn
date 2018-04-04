@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0069246a60f1db6297df45fa57cd52d90cdb4ab5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 89a13ad5a1d3cb7f93a469d33530ec99b39160da
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本文介绍用于应付账款和应收账款的结算的参数。 
 
-以下参数将影响如何在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中处理结算。 结算是对照付款或贷方通知单结算发票的流程。 这些参数位于**应收账款参数**和**应付账款参数**页的**结算**区域。
+以下参数将影响如何在 Microsoft Dynamics 365 for Finance and Operations 中处理结算。 结算是对照付款或贷方通知单结算发票的流程。 这些参数位于**应收账款参数**和**应付账款参数**页的**结算**区域。
 
 -   **自动结算** – 如果交易记录在过帐时应自动对照其他未结交易记录结算，则设置此选项为**是**。 如果此选项设置为**否**，用户可以使用**结算交易记录**页在输入付款或之后手动结算交易记录。
 -   **现金折扣管理** – 指定[当发票超额支付时如何处理现金折扣](cash-discount-handling-overpayments.md)。 对于超额支付，可以减少现金折扣，可作为差额对待，也可以为供应商或客户在帐户中保留。

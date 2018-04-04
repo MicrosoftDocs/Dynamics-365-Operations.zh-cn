@@ -18,10 +18,10 @@ ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 3d3ad89f80c3e3f42e117109f4a76232795b7d64
-ms.openlocfilehash: e908d4ec41263ed4230ea5e70fa08db793abedc6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/28/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -56,7 +56,7 @@ ms.lasthandoff: 11/28/2017
 |-----------------------|----------------|
 | 登记类型     | 特定国家/地区的登记类型。|
 | 限制为         | 应用于登记类型的限制类型：无、人员、组织。|
-| 登记类别 | 批准在这个国家/地区中使用的唯一登录标识符。 以下是在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中受支持类别的完整列表。 |
+| 登记类别 | 批准在这个国家/地区中使用的唯一登录标识符。 以下是在 Microsoft Dynamics 365 for Finance and Operations 中受支持类别的完整列表。 |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>输入全球通讯簿记录的登录 ID
 

@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5d4f57ae2a309d9e15c1afe60c3e91d7d7eb3870
-ms.openlocfilehash: c5aefc44adc24f9d216f9470e4307a3723690173
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ee951d7f3f04e641f7bed767a2eebd1c180eb9f3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="run-a-report-that-uses-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>针对电子申报 (ER) 运行使用财务维度作为数据源的报表
@@ -44,6 +44,6 @@ ms.lasthandoff: 11/02/2017
 9. 在“标准”字段中，键入“00057”。
 10. 单击“确定”。
 11. 单击“确定”。
-    * 检查生成的输出。 请注意，设置的相应维度中的财务维度表示所选批次的每个交易。 运行此报表并选择不同维度，以便了解该报表不依赖所选维度数量或为此 Dynamics 365 for Finance and Operations Enterprise Edition 实例配置的维度数量。  
+    * 检查生成的输出。 请注意，设置的相应维度中的财务维度表示所选批次的每个交易。 运行此报表并选择不同维度，以便了解该报表不依赖所选维度数量或为此 Dynamics 365 for Finance and Operations 实例配置的维度数量。  
 
 

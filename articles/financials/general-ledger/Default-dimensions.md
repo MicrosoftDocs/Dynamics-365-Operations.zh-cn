@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa494ab9c3b3f0540ec042f952344c15796845e6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -34,7 +34,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="chart-of-accounts-and-financial-dimension-components"></a>会计科目表和财务维度组件
 
-Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 拥有基于规则的丰富系统，用于定义主科目和财务维度值的有效组合。 此部分简介各组件的功能及其位置。
+Microsoft Dynamics 365 for Finance and Operations 拥有基于规则的丰富系统，用于定义主科目和财务维度值的有效组合。 此部分简介各组件的功能及其位置。
 
 ### <a name="account-structures"></a>科目结构
 

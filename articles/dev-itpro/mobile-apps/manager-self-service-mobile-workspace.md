@@ -16,10 +16,10 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: 3cbb7f0b15165d0be9992ce2ea9e625dc70de007
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: aa2bbfab4afa59c15e28526192cc07be13da11d7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 02/13/2018
 <tbody>
 <tr class="odd">
 <td>必须在您的组织中部署以下产品之一：
-<ul><li>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</li>
+<ul><li>Microsoft Dynamics 365 for Finance and Operations</li>
 <li>Microsoft Dynamics 365 for Talent</li>
 </ul>
 </td>

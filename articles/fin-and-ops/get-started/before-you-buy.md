@@ -1,6 +1,6 @@
 ---
 title: "在购买之前"
-description: "在你考虑购买 Dynamics 365 for Finance and Operations Enterprise 版本时使用的分步指导。"
+description: "在你考虑购买 Dynamics 365 for Finance and Operations 时使用的分步指导。"
 author: kfend
 manager: AnnBe
 ms.date: 07/10/2017
@@ -17,24 +17,24 @@ ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
 ms.translationtype: HT
-ms.sourcegitcommit: 98740e5b992283b924adab34f291b9c1f2703457
-ms.openlocfilehash: d6c4e475925cdc94be614822ffb242eb7ac8cfa7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 160313ac375feb875982bfdbbd850db7f2d8be35
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="before-you-buy"></a>在购买之前 
+# <a name="before-you-buy"></a>购买之前 
 
 [!include[banner](../includes/banner.md)]
 
-Dynamics 365 for Finance and Operations Enterprise 版本的新用户？ 无论你是仍然在评估 Finance and Operations 或是准备购买，我们都为你准备了分步指导。
+Dynamics 365 for Finance and Operations 的新用户？ 无论你是仍然在评估 Finance and Operations 或是准备购买，我们都为你准备了分步指导。
 
 ## <a name="step-one--try-out-finance-and-operations-free-for-30-days"></a>步骤一：免费试用 Finance and Operations 30 天
 你只需简单注册一个电子邮箱即可试用 Dynamics 365 for Finance and Operations 30 天。 Finance and Operations 试用版本包括入门任务指导，该指导提供允许你在操作中查看特定方案的分步说明。 该产品可用于探索和体验方案，但无法自定义。 包括演示数据以帮助你轻松使用产品并使体验更有意义。 在试用期到期前 3 天将发送一封提醒电子邮件。 在 [www.microsoft.com/en-us/dynamics365/operations](https://www.microsoft.com/en-us/dynamics365/operations) 获取详细信息。
 
 ## <a name="step-two-choose-a-deployment-option"></a>步骤二：选择部署选项
-你现在可以在云或本地部署 Microsoft Dynamics 365 for Finance and Operations Enterprise版本。 云部署提供完全由 Microsoft 托管的一项 ERP 服务，而本地部署在客户的数据中心内本地部署。
+你现在可以在云或本地部署 Microsoft Dynamics 365 for Finance and Operations。 云部署提供完全由 Microsoft 托管的一项 ERP 服务，而本地部署在客户的数据中心内本地部署。
 
 选择内部部署作为部署选项时，必须注意以下事项：
 - [云认证](https://explore.dynamics.com/operations/microsoft-dynamics-365-for-operations-certification-priorities)中不可用的法规和合规性需求
@@ -43,7 +43,7 @@ Dynamics 365 for Finance and Operations Enterprise 版本的新用户？ 无论�
 - [最低基础结构需求](system-requirements-on-prem.md#minimum-infrastructure-requirements)
 
 > [!IMPORTANT]
-> 所有公共云基础设施（包括 Azure）都不支持本地部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition。 
+> 所有公共云基础设施（包括 Azure）都不支持本地部署 Microsoft Dynamics 365 for Finance and Operations。 
 
 有关详细信息，请参阅[部署选项](../../dev-itpro/deployment/choose-deployment-type.md)
 
@@ -70,7 +70,7 @@ Dynamics 365 for Finance and Operations Enterprise 版本的新用户？ 无论�
 Microsoft 云解决方案提供商可以与你密切合作以了解你的公司或组织的需要。 [使用 Microsoft 合作伙伴中心门户查找满足自身需要的合作伙伴](https://partnercenter.microsoft.com/en-us/partner/home)。 
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>通过 Dynamics 合作伙伴购买（本地）
-你必须与合作伙伴合作以购买本地 Finance and Operations。 有关详细信息，请参阅[购买 Dynamics 365 for Finance and Operations Enterprise 版本（本地）](purchase-on-premises.md)
+你必须与合作伙伴合作以购买本地 Finance and Operations。 有关详细信息，请参阅[购买 Dynamics 365 for Finance and Operations（本地）](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>选择你的支持选项
 Microsoft 提供灵活的、业内领先的支持、服务和资源，使用户可以迅速解决技术问题和最大化 Dynamics 365 投资回报。 选择最能满足你的业务要求的计划。 

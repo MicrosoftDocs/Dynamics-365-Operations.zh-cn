@@ -1,6 +1,6 @@
 ---
 title: "费用工作流"
-description: "此主题介绍如何使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的工作流系统在费用管理中设置费用报表审核流程。"
+description: "此主题介绍如何使用 Microsoft Dynamics 365 for Finance and Operations 中的工作流系统在费用管理中设置费用报表审核流程。"
 author: saraschi2
 manager: AnnBe
 ms.date: 09/13/2017
@@ -19,10 +19,10 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d60d2f462a1fd27d4655e68aab7f96fb28a34b77
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 6ee607f723659a5b6ecd655ba4fdfca35a4c582d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 
 [!include[banner](../includes/banner.md)]
 
-您可以使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的工作流系统在费用管理中设置费用报表审核流程。 您可以设置使用以下条件确定由谁审核费用报表的工作流：
+您可以使用 Microsoft Dynamics 365 for Finance and Operations 中的工作流系统在费用管理中设置费用报表审核流程。 您可以设置使用以下条件确定由谁审核费用报表的工作流：
 
 - 员工报告层次结构和预定义的审核限制
 - 支持临时审核人和最终审核人的多级审核

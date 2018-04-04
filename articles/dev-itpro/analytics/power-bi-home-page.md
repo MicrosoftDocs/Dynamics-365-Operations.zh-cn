@@ -19,10 +19,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: d5b1bb5f25710b7d4feea55414d68d5390c87308
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 99eece7b31034065694f8875c72eb2360088ec23
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,8 +32,8 @@ ms.lasthandoff: 02/23/2018
 
 此主题列出可用的 Microsoft Power BI 内容并向您指示可用来了解详细信息的资源。
 
-## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations-enterprise-edition"></a>适用于 Dynamics 365 for Finance and Operations Enterprise Edition 的 Power BI 内容
-如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，则以下 Power BI 内容可用：
+## <a name="power-bi-content-for-dynamics-365-for-finance-and-operations"></a>用于 Dynamics 365 for Finance and Operations 的 Power BI 内容
+如果您正在使用 Microsoft Dynamics 365 for Finance and Operations，则以下 Power BI 内容可用：
 
 - [实际与预算 Power BI 内容](ledger-budgets-power-bi.md)
 - [福利 Power BI 内容](benefits-power-bi.md)

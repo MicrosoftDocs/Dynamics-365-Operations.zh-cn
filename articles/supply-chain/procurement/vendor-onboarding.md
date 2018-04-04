@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 1bd23b6e87c95d2c3d2131ec1ee9548bc4fe10cb
-ms.openlocfilehash: 2816fb094504bb5d0b595f812764620d480da401
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7265e119a8b59399db1fa35373a7b6aba52ba8e0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/04/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/04/2018
 [!include[banner](../includes/banner.md)]
 ---
 
-新供应商可以基于从该供应商代表人员收集的信息，在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中载入并注册为供应商。
+新供应商可以基于从该供应商代表人员收集的信息，在 Microsoft Dynamics 365 for Finance and Operations 中载入并注册为供应商。
 
 该流程包含以下步骤，由各种角色在系统中执行操作。
 

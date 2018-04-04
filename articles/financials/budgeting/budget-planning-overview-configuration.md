@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d904a2fe9411da1fd1a4e5810f7dcea782f1c2f7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e874d7353e0d9561ca55f313bfb5209299298169
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/03/2017
 
 在您编制组织将实施的预算时执行预算计划。 组织可以配置预算计划，然后设置预算计划流程以满足其组织的策略、过程和预算准备的需求。 
 
-在您了解在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中使用的概念和术语后，您将会更轻松地在组织中实现预算计划。
+在您了解在 Microsoft Dynamics 365 for Finance and Operations 中使用的概念和术语后，则您将会更轻松地在组织中实现预算计划。
 
 ### <a name="key-terms"></a>重要术语
 

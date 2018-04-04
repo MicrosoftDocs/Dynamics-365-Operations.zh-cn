@@ -1,6 +1,6 @@
 ---
 title: "预算概览"
-description: "几乎每家使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations Enterprise Edition 中创建预算或从第三方程序加载预算所需的最低配置。"
+description: "几乎每家使用 Microsoft Dynamics 365 for Finance and Operations 中的财务功能的公司都必须可以创建预算与实际的报表、 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。"
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8e8b3a7e801e98929c4ba1b9fefe341abd91dbd4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1d768ee6d2244a237972f7183f27a60b93eea819
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-几乎每家使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的财务功能的公司都必须可以创建预算与实际的报表。 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
+几乎每家使用 Microsoft Dynamics 365 for Finance and Operations 中的财务功能的公司都必须可以创建预算与实际的报表、 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
 
 <a name="overview"></a>概览
 --------

@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e069bf65e7dcab7f3b049aa786f3daff07383f4c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: ff59250b836a73986848109ce48f843fed1d71a9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/03/2017
     -   此功能可以扩展为任意格式。
 
 2.  设置高级银行对帐使用的编号规则，并且定义银行对帐匹配规则。
-    -   对帐匹配规则是用于在对帐过程中筛选银行对账单行和 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 银行交易记录行的一组条件。 根据您的业务惯例，您可以设置多个匹配规则以自动化和优化您的对帐流程。
+    -   对帐匹配规则是用于在对帐过程中筛选银行对帐单行和 Microsoft Dynamics 365 for Finance and Operations 银行交易记录行的一组条件。 根据您的业务惯例，您可以设置多个匹配规则以自动化和优化您的对帐流程。
 
 3.  将银行对账单与 Finance and Operations 银行交易记录对帐。
     -   执行自动匹配和创建对帐日记帐。

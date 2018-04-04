@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: 70e0249ccf317a5a59afd97899187ee58409de22
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 13a7a842e7b4522b508a34fdf86bb3bf58a0845f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 12/14/2017
 
 对于您想要生成付款确认信息的每个银行帐户，您必须分配付款确认格式。 在生成付款后，您可以生成用于一个法人和一个银行帐户的付款确认文件。 或者，您可以同时为多个法人和银行帐户生成付款确认文件 
 
-当付款确认文件中列出的支票支付后，您将从银行收到一个确认编号。 然后，您可以在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中确认付款确认文件。 
+当付款确认文件中列出的支票支付后，您将从银行收到一个确认编号。 然后，您可以在 Microsoft Dynamics 365 for Finance and Operations 中确认付款确认文件。 
 
 如果您必须更改付款确认文件，您可以撤消它。 然后，对于付款确认文件中的每一张支票，将重置指示该支票是否包括在一个付款确认文件中的字段。
 

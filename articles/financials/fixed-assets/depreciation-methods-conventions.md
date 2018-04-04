@@ -1,6 +1,6 @@
 ---
 title: "折旧方法和惯例"
-description: "本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的折旧惯例和折旧方法的概览。"
+description: "本文提供 Microsoft Dynamics 365 for Finance and Operations 支持的折旧惯例和折旧方法的概览。"
 author: twheeloc
 manager: AnnBe
 ms.date: 04/25/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 69e0decd3ffbdf1f64fa4fbfe070927990f880ad
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: eb38de1e7e39cb66d15bfe344f6f5fcd5d4fccd7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的折旧惯例和折旧方法的概览。
+本文提供 Microsoft Dynamics 365 for Finance and Operations 支持的折旧惯例和折旧方法的概览。
 
 您可以选择不同的折旧法和惯例。 这些方法的目的是将固定资产的可折旧价值分摊到各会计期间中。 固定资产的可折旧价值是购置价格减去残值（如果有）。 
 

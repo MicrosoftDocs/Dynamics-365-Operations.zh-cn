@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 31abc719a8df7507e74b3bf6823306ba52261bc3
-ms.openlocfilehash: ebb3574b3f5c40b5512c0352c83520558f63879a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/10/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/10/2017
 [!include[banner](../includes/banner.md)]
 
 
-Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 提供两种管理和控制您的项目的方式：项目预测和项目预算。 
+Microsoft Dynamics 365 for Finance and Operations 提供两种管理和控制您的项目的方法：项目预测和项目预算。 
 
 如果您的组织有操作视角，并且它侧重于产生自特定交易处理的收入和成本，请使用项目预测。 如果您的组织注重详细的财务金额，请使用项目预算。 
 

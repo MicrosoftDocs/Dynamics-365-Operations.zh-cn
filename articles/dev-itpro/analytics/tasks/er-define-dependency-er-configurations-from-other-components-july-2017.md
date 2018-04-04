@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7de5fbcaa9f287752e3ae4834eb48d622d263579
-ms.openlocfilehash: 890f035a291dbec936594ceeabc5de284d160ad4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/24/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>针对电子申报从其他组件定义配置的依赖项 (ER)
@@ -28,7 +28,7 @@ ms.lasthandoff: 10/24/2017
 
 若要完成这些步骤，首先必须完成任务指南“ER 管理模型映射配置”中的步骤，还必须可以访问 Microsoft Dynamics Lifecycle Services (LCS)。
 
-此过程显示如何设计电子申报 (ER) 配置和指定其与其他软件组件之间的依赖关系，以便帮助确保将配置正确下载到特定 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 版本。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。 
+此过程显示如何设计电子申报 (ER) 配置和指定其与其他软件组件之间的依赖关系，以便帮助确保将配置正确下载到特定 Microsoft Dynamics 365 for Finance and Operations 版本。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。 
 
 此过程针对向其分配了系统管理员角色或电子申报开发人员角色的用户。 这些步骤适用于所有公司，因为这些公司共享 ER 配置。 
 

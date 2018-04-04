@@ -1,5 +1,5 @@
 ---
-title: "配置工作流的属性"
+title: "配置工作流属性"
 description: "本主题说明如何配置工作流的各个属性。"
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5c24f6555508272b65aeb81c5a16a0bd2407f1b4
+ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
+ms.openlocfilehash: 7ea35d851613a19889392400e31cf8492d5dc799
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
-# <a name="configure-the-properties-of-a-workflow"></a>配置工作流的属性
+# <a name="configure-workflow-properties"></a>配置工作流属性
 
 [!include[banner](../includes/banner.md)]
 

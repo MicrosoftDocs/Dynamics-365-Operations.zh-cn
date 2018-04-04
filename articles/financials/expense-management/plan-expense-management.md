@@ -1,6 +1,6 @@
 ---
 title: "配置费用管理"
-description: "本文介绍您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置费用管理前在计划流程中的考虑事项和必须做的决定。"
+description: "本文介绍您在 Microsoft Dynamics 365 for Finance and Operations 中配置费用管理前在计划流程中的考虑事项和必须做的决定。"
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fad62c5da11e88e07f4e9d4343c4ac1a487bdd8
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c87909d9eb3a4d717e0c40289353da0267a51f60
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置费用管理前在计划流程中的考虑事项和必须做的决定。 在费用管理中，您可以存储有关付款方式、出差申请、费用报表和政策等的信息。
+本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations 中配置费用管理前在计划流程中的考虑事项和必须做的决定。 在费用管理中，您可以存储有关付款方式、出差申请、费用报表和政策等的信息。
 
 由于您在计划费用管理的配置时所做的许多决策基于您的组织的层次结构和财务结构，因此您必须是引用这些领域的计划文档。
 

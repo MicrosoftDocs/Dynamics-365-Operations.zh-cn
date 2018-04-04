@@ -19,10 +19,10 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 6fde46c35d5efbb72ad97628d7d5a3f9eeba7c8e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](includes/banner.md)]
 
-可通过*属性*和用户定义的字段（**如内存大小**、**硬盘容量**、**符合能源之星的要求**等）进一步描述产品及其特征。 在 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中，可以将属性与各种零售实体（如产品类别和零售通道）关联，并且可以为属性设置默认值。 当产品与产品类别或销售渠道关联时，产品将继承属性及默认值。 默认值可在单个产品级别、在零售渠道级别或在零售目录中覆盖。
+可通过*属性*和用户定义的字段（**如内存大小**、**硬盘容量**、**符合能源之星的要求**等）进一步描述产品及其特征。 在 Microsoft Dynamics 365 for Finance and Operations 中，可以将属性与各种零售实体（如产品类别和零售通道）关联，并且可以为属性设置默认值。 当产品与产品类别或销售渠道关联时，产品将继承属性及默认值。 默认值可在单个产品级别、在零售渠道级别或在零售目录中覆盖。
  
 例如，电视机产品通常具有以下属性。
 

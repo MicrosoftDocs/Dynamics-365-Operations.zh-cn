@@ -1,6 +1,6 @@
 ---
 title: "供应商与客户协作"
-description: "本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中如何使用供应商协作处理采购订单和监控托运库存。"
+description: "本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations 中如何使用供应商协作处理采购订单和监控托运库存。"
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: 7646b2e01ea1f9cdca58b9971c3dea21b99525e2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4252112272e2f86c2c18dc399a713bf652e4228e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 12/14/2017
 
 [!include[banner](../includes/banner.md)]
 
-本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中如何使用供应商协作处理客户。 供应商可以从以下工作区完成一系列业务流程：
+本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations 中如何使用供应商协作处理客户。 供应商可以从以下工作区完成一系列业务流程：
 
 - **采购订单确认** - 监视和响应采购订单 (PO)。
 - **供应商出价** - 查看询价 (RFQ) 并输入出价以响应询价。

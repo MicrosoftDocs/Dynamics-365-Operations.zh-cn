@@ -19,10 +19,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 4d94a5b2cc0e9ea144fbefc97cc27a2920016358
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 92d0b4dd9611de4d717f30dc8736c673835bea29
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,9 +30,9 @@ ms.lasthandoff: 03/07/2018
 
 [!include[banner](../includes/banner.md)]
 
-本主题提供关于 Microsoft Dynamics 365 for Finance and Operations Enterprise 版中的产品和仓库管理迁移选项的概览。
+本主题提供关于 Microsoft Dynamics 365 for Finance and Operations 中的产品和仓库管理迁移选项的概览。
 
-<a name="introduction"></a>简介
+<a name="introduction"></a>介绍
 ------------
 
 在升级到 Finance and Operations 期间，如果产品所关联的存储维度组的设置与 Finance and Operations 中对存储维度组设置的要求不匹配，则该产品被锁定。 但是，在升级后，您可以使用**更改物料的存储维度组**流程中的一组迁移选项取消锁定在升级期间被锁定的产品。 之后可以处理这些产品的交易记录。 您的一些物料可能已经与其站点、仓库和库位库存维度处于活动状态且被物理跟踪的存储维度组关联。 在这种情况下，您可以使用**更改物料的存储维度组**流程允许这些物料在仓库管理流程中使用。 如果您要为现有物料使用仓库管理功能，此功能十分有用。

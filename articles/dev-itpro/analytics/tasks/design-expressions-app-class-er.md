@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: b0a1dba5afbd7beba45149340f637223f6ecedcf
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="design-expressions-to-call-application-class-methods-er"></a>设计表达式以调用应用类方法 (ER)
@@ -28,13 +28,13 @@ ms.lasthandoff: 02/07/2018
 
 本指南提供有关如何通过在 ER 表达式中调用必需的应用类方法来在电子报告 (ER) 配置中重用现有应用逻辑的信息。 用于调用类的参数值可以在运行时动态定义：例如，根据分析文档中的信息确保其正确性。 在此指南中，将为示例公司 Litware 公司创建所需 ER 配置。此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 
 
-可使用任何数据集完成这些步骤。 您还必须下载并在本地保存以下文件：(https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt。
+可使用任何数据集完成这些步骤。 您还必须下载和本地保存以下文件：(https://go.microsoft.com/fwlink/?linkid=862266): SampleIncomingMessage.txt。
 
 为了完成这些步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。
 
 1. 转到“组织管理”>“工作区”>“电子申报”。
     * 验证示例公司 Litware 公司的配置提供程序可用且标记为有效。 如果没有看到此配置提供程序，您必须首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。   
-    * 我们假定您设计一个流程，用于分析传入的银行对帐单以进行应用程序数据更新。 您将以包含 IBAN 代码的 TXT 文件形式收到传入的银行对帐单。 作为银行对帐单导入过程的一部分，您需要使用 Dynamics 365 for Finance and Operations, Enterprise edition 中已经提供的逻辑验证此 IBAN 代码的更正。   
+    * 我们假定您设计一个流程，用于分析传入的银行对帐单以进行应用程序数据更新。 您将以包含 IBAN 代码的 TXT 文件形式收到传入的银行对帐单。 作为银行对帐单导入过程的一部分，您需要使用 Dynamics 365 for Finance and Operations 中已经提供的逻辑验证此 IBAN 代码的更正。   
 
 ## <a name="import-a-new-er-model-configuration"></a>导入新 ER 模型配置
 1. 在列表中，找到并选择所需记录。

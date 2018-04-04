@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b2514b6ff7500863a312ee378be008a7dcfb7438
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent 入门
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/07/2018
 在 Microsoft Dynamics 365 for Talent 中，可以根据您的需求轻松修改用户界面和设置让软件更加直观的选项。 此主题包括了一些主题的链接，这些主题提供了如何让用户界面适应您的偏好的信息。 主题还包括如何在系统中高效准确地查找信息的信息。 
 
 > [!NOTE] 
-> 以下产品密切相关：Dynamics 365 for Finance and Operations Enterprise 版本；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+> 以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
 ### <a name="personalizing-talent"></a>个性化 Talent 
 以下主题说明如何设置 Dynamics 365 for Talent 的诸多功能，以让您更轻松地及时完成工作。 

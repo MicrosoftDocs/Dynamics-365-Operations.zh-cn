@@ -1,6 +1,6 @@
 ---
 title: "配置键和数据实体"
-description: "本主题介绍 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置键与数据实体之间的关系。"
+description: "本主题介绍 Microsoft Dynamics 365 for Finance and Operations 中配置键与数据实体之间的关系。"
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: f9ea932b48d57baad4b4ab66069191ebd7cbbd6c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f5b6ab35f65dbe325f2202ab2dda71152993359d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 

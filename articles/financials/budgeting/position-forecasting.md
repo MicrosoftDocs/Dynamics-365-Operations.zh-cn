@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa11f1775017dd9bada61340b4bed70ea66a4137
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -96,7 +96,7 @@ Jodi 不希望经理更改福利金额。 因此，她在**预测职位覆盖**�
 
 ### <a name="creating-forecast-positions-for-existing-positions"></a>创建现有职位的预测职位
 
-为获得最准确的预算计划，您可以通过使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中现有职位的详细信息来创建预测职位，不论该职位当前是否填写。 
+为获得最准确的预算计划，您可以通过使用 Microsoft Dynamics 365 for Finance and Operations 中现有职位的详细信息来创建预测职位，不论该职位当前是否填写。 
 
 **添加现有职位**功能显示组织的所有职位。 通过设置**假设**日期，您可以更改职位列表，以使它包含在过去日期存在的职位或在将来日期（例如，下一个预算周期的开始）的职位（更为常见）。 选择预算计划流程和预算计划方案，在列表中选择职位，然后单击**确定**创建所选职位的预测职位。 请注意，在预算计划流程和方案中您只能为每个现有职位创建一个预测职位。 但是，您可以通过分配不同的预算计划方案创建附加版本。 
 

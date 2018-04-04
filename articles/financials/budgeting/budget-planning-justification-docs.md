@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b033f6197e61a6030e12081a9e4f1d820bac458f
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c4ac839e69440c8d3f1e86007a074999189e391d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 
 1.  登录后，单击 Microsoft Dynamics Office Add-in 中的**设计**。
 2.  对于标题信息，请使用**添加字段**按钮。
-3.  选择实体数据源 BudgetPlanJustification，然后单击**下一步**。 **注释：**所有理由文档都需要此实体。 可以使用其他实体，但是如果不包含此实体，上传回 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 将失败。
+3.  选择实体数据源 BudgetPlanJustification，然后单击**下一步**。 **注释：**所有理由文档都需要此实体。 可以使用其他实体，但是如果不包含此实体，上传回 Microsoft Dynamics 365 for Finance and Operations 将失败。
 4.  在 Word 文档中添加 BudgetPlanName、BudgetPlanPreparer、ResponsibilityCenter 和 DocumentNumber 标签和值。 **注释：**如果需要，您可以使用之间的自定义标签，而不是标准标签。
 5.  单击**完成**完成标题部分。
 6.  对于预算计划金额的行级别详细信息，请单击**添加表**。

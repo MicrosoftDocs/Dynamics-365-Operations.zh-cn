@@ -1,6 +1,6 @@
 ---
 title: "预算控制概览"
-description: "本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置预算控制，以便您可以管理财务资源的信息。"
+description: "本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations 中配置预算控制，以便您可以管理财务资源的信息。"
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 98b5620b343a87426aab13997d1f2e5f7dc30d50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中配置预算控制，以便您可以管理财务资源的信息。
+本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations 中配置预算控制，以便您可以管理财务资源的信息。
 
 <a name="overview"></a>概览
 --------

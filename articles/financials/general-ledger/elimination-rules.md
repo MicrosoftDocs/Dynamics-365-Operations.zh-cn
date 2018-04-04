@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 818572a8d1f790aaa7c6e4befc1d2222a1c35c50
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -132,7 +132,7 @@ ms.lasthandoff: 11/03/2017
 所有这些交易记录创建过帐到应付帐户和应收帐户的内部公司交易记录。 此外，在内部公司销售金额和所售货物成本金额不相等时，这些交易记录可能包括加价和减价金额。
 
 ## <a name="set-up-elimination-rules"></a>设置清除规则
-在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中设置清除规则时，建议专门为清除目的创建财务维度。 大多数客户将其命名为“贸易合作伙伴”或类似名称。 如果决定不使用财务维度，请务必设置专用于内部公司交易记录的主科目。 
+在 Microsoft Dynamics 365 for Finance and Operations 中设置清除规则时，建议专门为清除目的创建财务维度。 大多数客户将其命名为“贸易合作伙伴”或类似名称。 如果决定不使用财务维度，请务必设置专用于内部公司交易记录的主科目。 
 
 “合并”模块的“设置”区域中包含清除设置。 输入规则的描述之后，必须选择消除日记帐将过帐到的公司。 该公司应该是可过帐到在法人设置中选择了**用于财务清除过程**的所有公司。 
 

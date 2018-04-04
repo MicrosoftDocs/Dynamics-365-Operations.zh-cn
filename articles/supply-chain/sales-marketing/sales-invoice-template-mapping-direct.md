@@ -1,6 +1,6 @@
 ---
 title: "将直接来自 Finance and Operations 的销售发票标题和行同步到 Sales"
-description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的销售发票标题和行直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。"
+description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的销售发票标题和行直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。"
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
@@ -20,18 +20,18 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: 347509a9556f15e7d880508e36516f04bc6964b7
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: afbf4a24b737cf7221bac4b688b8801b1bcd839c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>将直接来自 Finance and Operations 的销售发票标题和行同步到 Sales
+# <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>将 Finance and Operations 的销售发票标题和行直接同步到 Sales
 
 [!include[banner](../includes/banner.md)]
 
-本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的销售发票标题和行直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。
+本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的销售发票标题和行直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 

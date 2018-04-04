@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d24679a380ec824fe08c56aacb4bc348ff40440a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3d9c2192bac8477e9c9376aab3e3b561da777569
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a>针对电子申报 (ER) 将配置上传到 Lifecycle Services 中
@@ -92,6 +92,6 @@ ms.lasthandoff: 09/29/2017
 10. 单击“打开”。
     * 选择 LCS 存储库然后打开它。  
     * 请注意，所选配置显示为所选 LCS 项目的资产。  
-    * 使用 https://lcs.dynamics.com 打开 LCS。打开之前用于存储库登记的项目，打开此项目的“资产库”，然后展开“GER 配置”资产类型 – 上载的的 ER 配置将可用。 请注意，如果提供程序有权访问此 LCS 项目，上载的 LCS 配置可以导入到其他 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 实例。  
+    * 使用 https://lcs.dynamics.com 打开 LCS。打开之前用于存储库登记的项目，打开此项目的“资产库”，然后展开“GER 配置”资产类型 – 上载的的 ER 配置将可用。 请注意，如果提供程序有权访问此 LCS 项目，上载的 LCS 配置可以导入到其他 Microsoft Dynamics 365 for Finance and Operations 实例。  
 
 

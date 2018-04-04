@@ -1,6 +1,6 @@
 ---
 title: "远期支票"
-description: "本文提供有关 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中远期支票的支持的信息。 远期支票是签发用于在将来时间进行付款和收款的支票。 因此，支票在指定日期前不能兑现。"
+description: "本文提供有关 Microsoft Dynamics 365 for Finance and Operations 中远期支票的支持的信息。 远期支票是签发用于在将来时间进行付款和收款的支票。 因此，支票在指定日期前不能兑现。"
 author: twheeloc
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: afa181830fb822c85dedbc8009fec903d1b98479
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供有关 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中远期支票的支持的信息。 远期支票是签发用于在将来时间进行付款和收款的支票。 因此，支票在指定日期前不能兑现。
+本文提供有关 Microsoft Dynamics 365 for Finance and Operations 中远期支票的支持的信息。 远期支票是签发用于在将来时间进行付款和收款的支票。 因此，支票在指定日期前不能兑现。
 
 Microsoft Dynamics 365 for Finance and Operations 支持应收账款和应付账款中远期支票的完整管理周期，如下表中所示。
 <table>

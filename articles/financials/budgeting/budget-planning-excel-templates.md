@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 96df6bbfe5c9e158b616230c2b061762a5edda08
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 [![示例](./media/bpt4-1024x615.png)](./media/bpt4.png)
 
 > [!NOTE] 
-> 若要避免使用 Excel 查看和编辑预算计划数据时可能出现问题，应使用相同用户登录 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本和 Microsoft Dynamics Office 加载项数据连接器。
+> 若要避免使用 Excel 查看和编辑预算计划数据时可能出现问题，应使用相同用户登录 Microsoft Dynamics 365 for Finance and Operations 和 Microsoft Dynamics Office 加载项数据连接器。
 
 ## <a name="add-a-header-to-budget-plan-document-template"></a>为预算计划文档模板添加标题
 若要添加标题信息，请选择 Excel 文件中的首行，然后插入空行。 单击**数据连接器**中的**设计**向 Excel 文件添加标题字段。

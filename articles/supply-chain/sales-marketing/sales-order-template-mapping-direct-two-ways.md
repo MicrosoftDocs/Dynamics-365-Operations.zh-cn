@@ -1,6 +1,6 @@
 ---
 title: "将 Sales 与 Finance and Operations 的销售订单直接同步"
-description: "本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 之间直接运行销售订单同步的模板和基础任务。"
+description: "本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations 之间直接运行销售订单同步的模板和基础任务。"
 author: ChristianRytt
 manager: AnnBe
 ms.date: 03/13/2018
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0928f9c0af52c2e19f0669841e433423ae9db467
-ms.openlocfilehash: 09c5cd14c5948818878d3f830639abc166d7072e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: e26244ffc380291a40edfbd2c2cb5911b0d8b3cb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 03/13/2018
 
 [!include[banner](../includes/banner.md)]
 
-本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 之间直接运行销售订单同步的模板和基础任务。
+本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations 之间直接运行销售订单同步的模板和基础任务。
 
 ## <a name="templates-and-tasks"></a>模板和任务
 

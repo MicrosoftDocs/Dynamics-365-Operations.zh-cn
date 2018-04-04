@@ -19,10 +19,10 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: c04ffccdcbf104b1d5db30a41116663fcedd4e1d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -48,8 +48,8 @@ ms.lasthandoff: 12/01/2017
 ## <a name="prerequisites"></a>必备项
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的先决条件
-如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，系统管理员必须发布**项目时间条目**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件
+如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**项目时间条目**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 

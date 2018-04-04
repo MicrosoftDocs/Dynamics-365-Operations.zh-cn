@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6a03274da9b81bf71b32a62f4ebba2a374688ae5
-ms.openlocfilehash: 8b6c14d41cac13e7c1fb5a580759514d46d776ee
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -89,7 +89,7 @@ ms.lasthandoff: 11/29/2017
 
 可以将模板中的任务分配给适合该任务的一家或多家公司。 如果分配其他人以完成每家公司中的工作，您可能发现为相同工作创建多个任务非常有用。 为每个公司创建一个任务。 
 
-**任务链接**菜单项与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，可将为应付账款运行币种重估的结帐任务链接到 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中关联的**外币重估**页面。 您还可以链接到外部 URL。 
+**任务链接**菜单项与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，可将为应付帐款运行币种重估的结帐任务链接到 Microsoft Dynamics 365 for Finance and Operations 中关联的**外币重估**页面。 您还可以链接到外部 URL。 
 
 > [!TIP]
 > 如果要链接特定的 Management Reporter 报表到财务期间结算任务，则可以使用报表 URL。 若要访问报表 URL，请打开报表设计器中的报表，然后单击**文件** &gt; **查看报表**以在 Web 浏览器中打开报表。 然后可以复制浏览器地址栏中的 URL 并将其粘贴到**任务链接** **URL** 字段中。 

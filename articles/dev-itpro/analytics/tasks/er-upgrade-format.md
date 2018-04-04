@@ -16,10 +16,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: db9e66a67f20ca24de3a020c1871cdda0cf2f9be
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cfc68c1d0810cbc296b35c09176dde2c948a50d0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>针对电子申报 (ER) 通过采用该格式的新的基本版本升级格式
@@ -107,7 +107,7 @@ Proseware 公司收到包含初始格式的 BACS（英国虚构）配置的版�
     * 请注意已创建配置保存为已完成版本 1.1.1。 这意味着它是自定义 BACS（英国虚构自定义）格式的版本 1，其基于 BACS（英国虚构）格式的版本 1，且基于付款（简化模型）数据模型的版本 1。  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>测试自定义格式以生成付款文件
-在一个并行 Dynamics 365 for Finance and Operations Enterprise Edition 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择 BACS（英国虚构自定义）格式。 确保创建的付款文件包含最近引入的根据区域要求呈现 IBAN 代码的 XML 代码。  
+在一个并行 Dynamics 365 for Finance and Operations 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择 BACS（英国虚构自定义）格式。 确保创建的付款文件包含最近引入的根据区域要求呈现 IBAN 代码的 XML 代码。  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>更新现有国家/地区特定配置
 Litware 公司需要更新 BACS（英国虚构）配置并采用管理电子单据格式的新的国家/地区要求。 随后，这将包括在将为服务订阅者（包括 Proseware, Inc.）提供的此配置的新版本中。  
@@ -203,6 +203,6 @@ Proseware 公司获知 BACS（英国虚构）配置的新版本 1.2 可用于根
     * 请注意，已创建的配置保存为已完成的版本 1.2.2：基本 BACS（英国虚构自定义）格式的版本 2，基于基本 BACS（英国虚构）格式的版本 2，基于付款（简化模型）数据模型的版本 1。  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>测试付款文件生成的自定义格式
-在一个并行 Dynamics 365 for Finance and Operations Enterprise Edition 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择已创建的“BACS（英国虚构自定义）”格式。 确保创建的付款文件包含 Proseware 公司最近引入的根据区域要求呈现 IBAN 帐户代码的 XML 代码。 该文件还应包含 Litware 公司近期根据国家/地区要求引入的 呈现 SWIFT 银行代码到的 XML 节点。  
+在一个并行 Dynamics 365 for Finance and Operations 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择已创建的“BACS（英国虚构自定义）”格式。 确保创建的付款文件包含 Proseware 公司最近引入的根据区域要求呈现 IBAN 帐户代码的 XML 代码。 该文件还应包含 Litware 公司近期根据国家/地区要求引入的 呈现 SWIFT 银行代码到的 XML 节点。  
 
 
