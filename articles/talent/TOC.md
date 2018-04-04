@@ -3,6 +3,8 @@
 # [入门](talent-get-started.md)
 ## [系统要求和更新策略](talent-versions-update-policy.md)
 ## [配置 Microsoft Dynamics 365 for Talent](provisioning-talent.md)
+## [删除 Talent 环境](remove-test-environment.md)
+## [配置 Microsoft Dynamics 365 for Talent 模块化应用](modular-app-tech-faq.md)
 ## [扩展 Talent 功能](extend-talent-functionality.md)
 
 # [制定人力资源战略](departments-jobs-positions.md)
@@ -39,5 +41,5 @@
 ## [评估调查表的结果](evaluate-questionnaire-results.md)
 
 # 工作场所安全和合规(美国)
-## [表格 I-9 工作证明](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
-## [符合 ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
+## [表格 I-9 工作证明](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json)
+## [符合 ADA](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json)

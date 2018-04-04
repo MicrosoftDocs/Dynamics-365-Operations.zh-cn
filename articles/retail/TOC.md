@@ -3,8 +3,8 @@
 # 开始
 ## [新增功能或更改的功能](get-started/whats-new.md)
 ## [在您购买 Dynamics 365 for Retail 之前](get-started/before-you-buy.md)
-## [注册预览订阅](../dev-itpro/dev-tools/sign-up-preview-subscription.md)
-## [部署演示环境](../dev-itpro/deployment/deploy-demo-environment.md)
+## [注册预览订阅](../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json)
+## [部署演示环境](../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json)
 ## [部署选项](dev-itpro/choose-deployment.md)
 
 
@@ -46,8 +46,9 @@
 
 # Modern Point of Sale (MPOS) 和 Cloud POS
 ## [在 Modern POS 和 Cloud POS 之间选择](MPOS-or-CPOS.md)
-## [POS 操作](POS-operations.md)
+## [POS 操作（联机和脱机）](pos-operations.md)
 ## [MPOS/CPOS 中的演示数据屏幕布局](demo-data.md)
+## [销售点中的产品和客户搜索概览](POS-search-improvements.md)
 ## 硬件外围设备
 ### [零售外围设备概览](retail-peripherals-overview.md)
 ### [Microsoft 测试过的 POS 硬件外围设备](microsoft-tested-pos-hardware-peripherals.md)
@@ -60,6 +61,7 @@
 ### [POS 应用程序和用户语言设置](pos-application-user-language-settings.md)
 ### [设置 MPOS 的图像](set-up-manage-images-retail-mpos.md)
 ## [信息代码概览](info-codes-retail.md) 
+## [序列化产品的 POS 改进](serialized-inventory.md)
 ## 产品建议
 ### [个性化产品建议概览](personalized-product-recommendations.md)
 ### [在 POS 设备上添加建议控制](add-recommendations-control-pos-screen.md)
@@ -97,6 +99,7 @@
 ## [价格调整和折扣](price-adjustments-discounts.md)
 ## [确定叠加折扣的最佳组合](optimal-combination-overlapping-discounts.md)
 ## [定义特定于渠道的折扣](define-channel-specific-discounts.md)
+## [防止为零售产品打折](prevent-discounts.md)
 ## [创建零售销售优惠券](retail-coupons.md)
 
 # 产品和促销
@@ -105,6 +108,7 @@
 ## [属性和属性组概览](attribute-attributegroups-lifecycle.md)
 ## [创建和管理属性](create-manage-attributes.md)
 ## [设置零售产品](set-up-retail-products.md)
+## [增强型产品和类别管理](category-management-product-creation.md)
 ## [产品维度](../supply-chain/pim/product-dimensions.md)
 ## [设置条码](set-up-bar-codes.md)
 ## [设置条码掩码](set-up-bar-code-masks.md)
@@ -190,13 +194,14 @@
 # [零售开发和管理](dev-itpro/dev-retail-home-page.md)
 
 ## 体系结构
-### [Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 的组件 - 零售](retail-components.md)
-### [零售服务器体系结构](dev-itpro/retail-server-architecture.md)
+### [Microsoft Dynamics 365 for Finance and Operations 的组件 - Retail‎](retail-components.md)
+### [Retail Server 体系结构](dev-itpro/retail-server-architecture.md)
 ### [零售渠道通信](dev-itpro/define-retail-channel-communications-cdx.md)
 ### [MPOS 体系结构](dev-itpro/retail-modern-pos-architecture.md)
 ### [零售在线商店发布体系结构](dev-itpro/retail-online-store-publishing-architecture.md)
-### [零售渠道绩效 Power BI 内容](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md)
+### [零售渠道绩效 Power BI 内容](../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json)
 ### [支付应用数据安全标准 (PA-DSS) 认证](dev-itpro/PA-DSS-Certification.md)
+### [本地部署中提供的零售功能](retail-onprem.md)
 
 ## 部署和修补程序
 ### [Retail Store Scale Unit 概览](dev-itpro/retail-store-system-begin.md)
@@ -208,7 +213,7 @@
 ### [Retail 硬件工作站配置和安装](retail-hardware-station-configuration-installation.md)
 ### [Retail 自助服务组件批量部署](dev-itpro/retail-mass-deployment.md)
 ### [Retail 组件的诊断和故障排除事件](dev-itpro/retail-component-events-diagnostics-troubleshooting.md)
-### [应用可部署包](../dev-itpro/deployment/apply-deployable-package-system.md)
+### [应用可部署包](../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json)
 
 ## 升级和 N-1 支持
 ### [升级和 N-1 支持概览](dev-itpro/overview-upgrade-n-minus1.md)
@@ -218,7 +223,7 @@
 ### [设备管理实现指南](implementation-considerations-devices.md)
 
 ## 环境配置
-### [添加指向您的组织的法律条款和隐私声明的链接](../dev-itpro/sysadmin/legal-terms-privacy-statement.md)
+### [添加指向您的组织的法律条款和隐私声明的链接](../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json)
 ### [管理必应地图](dev-itpro/manage-bing-maps.md)
 
 ## 销售点可扩展性
@@ -235,7 +240,7 @@
 ## Retail Server 可扩展性
 ### [扩展 Retail Server OData 控制器](dev-itpro/extend-retail-server-odata-controller.md)
 ### [Web API 和 OData 控制器](dev-itpro/odata-controllers-api.md)
-### [零售服务器客户和用户 API](dev-itpro/retail-server-customer-consumer-api.md)
+### [Retail Server 客户和用户 API](dev-itpro/retail-server-customer-consumer-api.md)
 ### [扩展元数据](dev-itpro/extend-metadata.md)
 ### [扩展 Commerce Runtime 以支持 POS 脱机模式](dev-itpro/call-crt-service-offline.md)
 

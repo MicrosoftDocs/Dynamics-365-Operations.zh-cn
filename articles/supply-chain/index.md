@@ -1,6 +1,6 @@
 ---
 title: "供应链管理主页"
-description: "本页提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的供应链管理功能的一系列帮助主题和其他资源。"
+description: "本页提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。"
 author: YuyuScheller
 manager: AnnBe
 ms.date: 02/15/2018
@@ -19,10 +19,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: bf3192a5189a3b18ad28f3c5cb0dd6d402824ed5
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/21/2018
 
 [!include[banner](includes/banner.md)]
 
-本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 中的供应链管理功能的一系列帮助主题和其他资源。 
+本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。 
 
 ## <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 转到 <a href="https://roadmap.dynamics.com/">Dynamics 365 路线图</a>以了解已发布和正在开发的新功能。 
@@ -52,7 +52,7 @@ ms.lasthandoff: 02/21/2018
 
 ## <a name="videos"></a>视频
 
-这些视频短片帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3（2017 年 12 月）中的新功能。
+这些视频短片帮助您了解 Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3（2017 年 12 月）中的新功能。
 
 -  [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg) 
 -  [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
@@ -106,7 +106,7 @@ ms.lasthandoff: 02/21/2018
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/msd365optgtstcostacc/">成本核算动手实验室</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/leanmanufkanban365opt/">Lean manufacturing：可承诺量和看板作业级计划</a> 
 -  <a href="https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/white-papers/365operationsbomcalsheet/">使用成本计算单计算物料清单</a>
--  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">通过 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 提高仓库中的移动性</a>
+-  <a href="https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/white-papers/MobilityWarehouse/">通过 Microsoft Dynamics 365 for Finance and Operations 提高仓库中的移动性</a>
 
 ## <a name="elearning-courses"></a>网络培训课程
 有关 Microsoft Dynamics 365 for Finance and Operations 培训的信息，请参阅 <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics 学习门户</a>。 （需要 CustomerSource 帐户） 

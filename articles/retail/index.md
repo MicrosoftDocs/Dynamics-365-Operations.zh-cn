@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 40d54a9a2920e87caba62c92b5ca6465fa68e3d4
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 03/07/2018
 Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供跨所有渠道的统一商务。 其中包括销售、移动性、智能和工作效率解决方案，帮助零售商和工作人员以云优先和移动优先的方式实现更多目标。 Retail 为实施各类业务流程提供全面的支持，如促销活动、库存和渠道管理功能。 它还跨所有接触点提供沉浸式客户体验。
 
 > [!NOTE] 
-> Dynamics 365 for Retail 与 Dynamics 365 for Finance and Operations, Enterprise edition 和 Dynamics 365 for Talent 密切相关。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Retail；在主要与核心产品 (Finance and Operations) 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition；在主要与人力资源有关的主题中，产品名称将为 Dynamics 365 for Talent。 
+> Dynamics 365 for Retail 与 Dynamics 365 for Finance and Operations 和 Dynamics 365 for Talent 密切相关。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Microsoft Dynamics 365 for Retail；在主要与核心产品 (Finance and Operations) 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations；在主要与人力资源有关的主题中，产品名称将为 Dynamics 365 for Talent。 
 
 在左侧窗格中，选择一个功能区域以了解有关它的更多信息。
 
@@ -48,7 +48,7 @@ Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供�
 此外，客户可以随意选择购买哪种产品、何时购买产品及以期望的价格购买产品。 为了维持客户忠诚度，您可以使用可简化购物流程的个性化通知和服务。
 
 ## <a name="hardware-and-peripherals"></a>硬件和外围设备
-Retail Modern 销售点 (MPOS) 和 Cloud POS 可以使用各种硬件外设。 MPOS 和 Cloud POS 均提供多个界面和部署选项，帮助您应对各种业务场景。
+Modern Point of Sale (MPOS) 和 Cloud POS 可以使用各种硬件外设。 MPOS 和 Cloud POS 均提供多个界面和部署选项，帮助您应对各种业务场景。
 
 Retail 的外围设备模拟器包括一个虚拟外围设备模拟器和一个 POS 模拟器。 虚拟外围设备模拟器主要支持对通常需要实际 POS 外围设备的方案进行测试。 使用 POS 模拟器，您可以通过 Retail 测试实际外围设备的兼容性，而不必部署 POS 客户端。
 
