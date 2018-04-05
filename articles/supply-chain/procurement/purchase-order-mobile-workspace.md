@@ -18,10 +18,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 24a17d3734e39815684098f694a77e96cdbc1cfe
-ms.openlocfilehash: d366ae53f4a9d8e676c3bc19e0450baa254cb716
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,13 +36,13 @@ ms.lasthandoff: 03/07/2018
 ## <a name="overview"></a>概览 
 要求审核的采购订单通过审核工作流。 工作流可能包括要求一个或多个人员采取操作的不同步骤。 例如，人员可能必须完成任务或审核采购订单。 
 
-**采购订单审核**移动工作区能让您轻松地从移动设备查看和响应采购订单。 此工作区还可以让您执行可从 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition Web 客户端执行的相同工作流操作。
+**采购订单审核**移动工作区能让您轻松地从移动设备查看和响应采购订单。 此工作区还可以让您执行可从 Microsoft Dynamics 365 for Finance and Operations Web 客户端执行的相同工作流操作。
 
 ## <a name="prerequisites"></a>必备项
 先决条件根据为您的组织部署的 Finance and Operations 版本不同。
 
-### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations-enterprise-edition"></a>使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的先决条件 
-如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，系统管理员必须发布**采购订单审核**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
+如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**采购订单审核**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 

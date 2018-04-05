@@ -19,10 +19,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cea3ecd66a57780c9ef1b3a3c21f1e5273faa0ef
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: 3fc30669bf7a16616484bf7115cb121ce463840f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -56,7 +56,6 @@ ms.lasthandoff: 11/03/2017
 5.  保存所做的更改。 您会收到一条消息，表示已创建层次结构的草稿版本。
 6.  准备好后，单击层次结构设计器中的**发布**。 您可以输入一个指示何时应发布层次结构的生效日期。 例如，要在下一个日历年的年初添加新部门，请将生效日期设置为新日历年的 1 月 1 日。 对层次结构进行的更改将在该日期生效。
 
-
-
-
+## <a name="steps-for-creating-a-department"></a>部门创建步骤
+请参阅[定义新部门](../fin-and-ops/hr/tasks/define-new-departments.md)主题了解创建新部门的分步过程。 
 

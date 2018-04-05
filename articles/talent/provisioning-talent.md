@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: e4459e8be4bfab8e0789744eacd533286b6c05e0
+ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
+ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/23/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>配置 Microsoft Dynamics 365 for Talent
@@ -47,13 +47,14 @@ ms.lasthandoff: 03/07/2018
 在创建 LCS 项目之后，您可以将 Talent 配置到环境中。
 
 1. 在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。
-2. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 如果您还没有 PowerApps 环境，在继续前请先执行本主题“创建新的 PowerApps 环境（如果需要）”部分中的步骤。
+2. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 PowerApps 环境”部分。 
+3. 如果您还没有 PowerApps 环境，在继续前请先执行本主题“创建新的 PowerApps 环境（如果需要）”部分中的步骤。
 
     > [!NOTE]
     > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 PowerApps P2 许可证。 如果您的组织没有 PowerApps P2 许可证，则可以从 CSP 或从 [PowerApps 定价页面](https://powerapps.microsoft.com/en-us/pricing/)获取一个。
 
-3. 选择**添加**，然后选择要为 Talent 配置的环境。
-4. 选择**是**同意条款并开始部署。
+4. 选择**添加**，然后选择要为 Talent 配置的环境。
+5. 选择**是**同意条款并开始部署。
 
     您的新环境将出现在左侧导航窗格的环境列表中。 不过，在部署状态更新为**已部署**前，您无法开始使用此环境。 此过程通常需要几分钟。 如果配置过程失败，您必须与支持人员联系。
 
@@ -65,32 +66,64 @@ ms.lasthandoff: 03/07/2018
 > [!NOTE]
 > 通过 LCS 设置的 Talent 环境不包含为人力资源 (HR) 任务配置的演示数据或特定于 Talent 的演示数据。 如果需要包含演示数据的环境，建议您注册 60 天的免费 [Talent 试用环境](https://dynamics.microsoft.com/en-us/talent/overview/)。 尽管试用环境归其请求用户所有，仍然可以通过 Core HR 的系统管理体验邀请其他用户。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 不应将其用作生产环境。 请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。 现有环境过期后，可以注册新试用环境。
 
+## <a name="select-a-powerapps-environment"></a>选择 PowerApps 环境
+
+通过 Talent 与 PowerApps 环境之间的集成，可使用 PowerApps 工具集成和扩展 Talent 数据的使用。 了解 PowerApps 环境的用途不仅有助于您构建扩展 Talent 的应用，还可以帮助您在配置 Talent 时选择正确的环境。 有关 PowerApps 环境的信息，包括环境范围、环境访问和创建与选择环境，请参阅[介绍 PowerApps 环境](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/)。 
+
+在确定部署 Talent 的目标 PowerApps 环境时请使用以下指南： 
+1. 在 LCS 中，选择“管理环境”，或直接导航到“PowerApps 管理员中心”，您可以在那里查看现有的环境和创建新的环境。
+2. 单个 Talent 环境映射到单个 PowerApps 环境。
+3. PowerApps 环境“包含”Talent 应用程序，以及相应的 PowerApps、流和 CDS 应用程序。 如果 PowerApps 环境被删除，其中的应用也会被删除。
+4. 应该考虑数据集成和测试策略，例如：沙盒、UAT、生产。 因此，建议您考虑对您的部署的各种影响，因为以后不容易更改将哪个 Talent 环境映射到 PowerApps 环境。
+5. 以下 PowerApps 环境不能用于 Talent，将从 LCS 内的选择列表中筛除：
+ 
+    **CDS 2.0 环境** CDS 2.0 将于 2018 年 3 月 21 日公开提供；不过，Talent 尚不支持 CDS 2.0。 尽管您可以在 PowerApps 管理员中心查看和创建 CDS 2.0 数据库，但它们不能在 Talent 中使用。 Talent 部署中的使用 2.0 CDS 环境选项将在以后提供。
+   
+ > [!Note]
+ > 若要区分管理门户中的 CDS 1.0 和 2.0 环境，选择环境并查看**详细信息**。 CDS 2.0 环境全部参考“您可以在 Dynamics 365 管理中心管理这些设置”的事实，指向实例版本，并且没有“数据库”选项卡。 
+ 
+   **默认 PowerApps 环境**虽然每个租户均自动配置为默认的 PowerApps 环境，但我们不建议在 Talent 中使用它们，因为所有租户用户均有权访问 PowerApps 环境，有可能会在使用 PowerApps 或流集成进行测试和探索时意外损坏生产数据。
+   
+   **测试驱动器环境**具有类似“TestDrive – alias@domain”这样的名称的环境创建后有 60 天的到期期间，此时间过后，会导致您的环境自动删除。
+   
+   **不支持的地区**Talent 当前仅在以下地区受支持：美国、欧洲或澳大利亚。
+  
+6. 一旦您确定了要使用的正确环境，则没有要采取的特定行动。 继续配置流程。 
+ 
 ## <a name="create-a-new-powerapps-environment-if-required"></a>创建新的 PowerApps 环境（如果需要）
-通过 Talent 与 PowerApps 环境之间的集成，可使用 PowerApps 工具集成和扩展 Talent 数据的使用。 了解 PowerApps 环境的用途有助于构建应用以满足对扩展 Talent 的需要。 有关 PowerApps 环境的信息，包括环境范围、环境访问和创建与选择环境，请参阅[介绍 PowerApps 环境](https://powerapps.microsoft.com/en-us/blog/powerapps-environments/)。 由于默认 PowerApps 环境中将自动设置每个租户，所以该环境可能不是最适合用于您的 Talent 部署的环境。 此步骤中应考虑数据集成和测试策略，所以建议您注意可能对您的部署的影响，因为某些决定以后不容易更改。 
 
-尽管默认 PowerApps 环境中将自动设置每个租户，但是该环境可能不是最适合您的 Talent 部署的环境。 此步骤应考虑数据集成和测试策略。 因此，建议您考虑对您的部署的各种影响，因为以后不容易更改 PowerApps 环境。
+运行 PowerShell 脚本以在具有 PowerApps 计划 2 许可证的租户管理员上下文中为 Talent 创建新 PowerApps 环境。 脚本将自动完成以下步骤：
 
-1. 在 LCS 中选择**管理环境**。 您会被带到 [PowerApps 管理员中心](https://preview.admin.powerapps.com/environments)，从中您可以查看现有的环境并创建新环境。
-2. 选择**新建环境**。
-3. 为环境输入唯一名称，然后选择要部署的位置。
 
-    > [!NOTE]
-    > Talent 不是在所有地区都可用。 因此，在您为环境选择位置之前，请务必检查可用性。
+ + 创建 PowerApps 环境
+ + 创建 CDS 1.0 数据库
+ + 清除 CDS 1.0 数据库中的所有示例数据
 
-4. 在询问您是否要创建数据库时，请选择**创建数据库**来创建必须承载Talent 数据的一部分的 Common Data Service (CDS) 数据库。 通过创建数据库，您还可以将 PowerApps 应用程序与 Talent 集成。
-5. 您将被询问要用于数据库的访问级别。 我们建议您选择**限制访问**，因为此选项通过使用 PowerApps 应用程序阻止 Talent 用户直接访问敏感数据。
-6. 创建的 CDS 数据库中包含演示数据，而演示数据会将非活动员工和虚构地址及其他信息添加到您的生产环境中。 若要删除演示数据，在您完成创建 CDS 数据库后执行以下步骤：
 
-    > [!IMPORTANT]
-    > 如果您以前已创建了 CDS 数据库并在其中输入了您公司的任何生产数据，以下步骤将删除所选数据库中的**所有**数据，甚至您公司的生产数据。
+完成以下说明中的步骤以运行脚本：
 
-    1. 登录 [PowerApps](https://preview.web.powerapps.com/home)。
-    2. 在右上方的下拉列表中，选择您在步骤 2 中创建的环境。
-    3. 在左侧的导航窗格中，展开 **Common Data Service**，然后选择**实体**。
-    4. 在页面的右侧，请选择椭圆形 (**…**) 按钮，然后选择**清除所有数据**。
-    5. 选择**删除数据**以确认您要删除该数据。 此操作默认情况下将删除 CDS 中包括的所有演示数据。 它还会删除在所选数据库中输入的任何其他数据。
+1. 从以下位置下载 ProvisionCDSEnvironment.zip 文件：[ProvisionCDSEnvironment 脚本](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-您现在可以使用您的新环境了。
+2. 将整个 ProvisionCDSEnviroinment.zip 文件的内容解压缩到文件夹中。
+
+3. 作为管理员运行 Windows PowerShell 或 Windows PowerShell ISE 程序。
+
+   访问[设置执行策略](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6)主题，了解有关设置执行策略以使脚本运行的详细信息。
+  
+4. 在 PowerShell 中，导航到您解压缩文件的文件夹并运行以下命令，按下方指示替换值：
+ 
+   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
+
+    
+   **EnvironmentName** 应该替换为您的环境名称。 此名称将出现在 LCS 中，并且在用户选择要使用的 Talent 环境时可见。 
+
+   **YourLocation** 应替换为以下一个支持 Talent 的地区：美国、欧洲、澳大利亚。 
+
+   **-Verbose** 是可选的，将提供在出现问题时发送的用于提供支持的详细信息。
+
+5. 继续配置流程。
+ 
+
 
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
 默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 要授予访问权限，请在 Core HR 环境中[添加用户](../dev-itpro/sysadmin/tasks/create-new-users.md)并[为其分配相应角色](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md)。 还必须将这些用户添加到 PowerApps 环境，以便他们可以访问 Attract 和 Onboard 应用程序。 下面概述此过程。 如果需要帮助才能完成这些步骤，请参阅博客文章[介绍 PowerApps 管理中心](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/)。
@@ -101,5 +134,5 @@ ms.lasthandoff: 03/07/2018
 2. 选择相应环境。
 3. 在**安全性**选项卡中，将所需用户添加到**环境制造者**角色。
 
-请注意，将用户手动添加到 PowerApps 环境这一最后步骤是暂时的。 在 Core HR 中添加用户时，将最终自动完成此步骤。
+    请注意，将用户手动添加到 PowerApps 环境这一最后步骤是暂时的。 在 Core HR 中添加用户时，将最终自动完成此步骤。
 

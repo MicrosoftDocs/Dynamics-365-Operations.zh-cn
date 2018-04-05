@@ -18,10 +18,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c579db5a922d81a2781ec2011e148db54fac288d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-商业用户可通过 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的移动功能设计移动体验。 对于高级方案，开发人员还可通过此平台根据需要扩展功能。 若要了解有关移动的一些新概念，最有效的方法是设计一些新方案。 本主题旨在通过以供应商发票的移动审核为使用案例，提供移动方案的设计方法实践。 本主题应该可以帮助您设计这些方案的变型，还可以适用于与供应商发票无关的其他方案。
+商业用户可通过 Microsoft Dynamics 365 for Finance and Operations 中的移动功能设计移动体验。 对于高级方案，开发人员还可通过此平台根据需要扩展功能。 若要了解有关移动的一些新概念，最有效的方法是设计一些新方案。 本主题旨在通过以供应商发票的移动审核为使用案例，提供移动方案的设计方法实践。 本主题应该可以帮助您设计这些方案的变型，还可以适用于与供应商发票无关的其他方案。
 
 <a name="prerequisites"></a>必备项
 -------------

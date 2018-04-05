@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1212a46cc937b9ccc6ebfa9cc4b89b931f144130
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 11/03/2017
 
 本文介绍项目报价单的概念，您可以向客户提供有吸引力的项目报价单，以此作为项目阶段的第一步。 项目报价单可以包含进行报价的物料和服务、基本联系信息、特殊贸易协议和折扣以及可能的税金和附加费。 
 
-对项目报价单和订单的渠道进行监控、审查和控制的能力是项目管理的重要环节。 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的不同工具可以帮助您完成这些任务。 例如，正确的引用数据定义（报价单类型、报价单原件、预测和概率）之类的工具可以帮助您分析渠道。 您可以使用这些工具对得失项目报价单的原因进行分类，以及确定报价单的可能价值。 
+对项目报价单和订单的渠道进行监控、审查和控制的能力是项目管理的重要环节。 Microsoft Dynamics 365 for Finance and Operations 中的不同工具可以帮助您完成这些任务。 例如，正确的引用数据定义（报价单类型、报价单原件、预测和概率）之类的工具可以帮助您分析渠道。 您可以使用这些工具对得失项目报价单的原因进行分类，以及确定报价单的可能价值。 
 
 在项目报价单中，您输入了服务、基本联系人信息、特殊贸易协议和折扣以及您针对项目估计的税金和附加费。 您还可以为项目选址活动或任务，以及创建任务和下级任务的层次结构。 对于每个活动，您可以输入有关活动的计时和持续时间的详细信息，以及执行该活动的工作人员所需的有关技能和经验。 
 

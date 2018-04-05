@@ -19,10 +19,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 84d5f60cdce4cd667c408d17d9892d7079947f58
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 03/07/2018
 
 本主题提供了有关调查表的一般信息以及指向更多详细信息的链接。 调查表是一组问题，用于收集信息以达到各种目的。 您可以设计、创建、分发和完成调查表，然后对结果进行分析。 
 
-通过使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中提供的各种功能，您可以自定义调查表来满足您的特定要求。 以下是有关如何使用调查表的一些示例：
+通过使用 Microsoft Dynamics 365 for Finance and Operations 中提供的各种功能，您可以自定义调查表来满足您的特定要求。 以下是有关如何使用调查表的一些示例：
 
 -   测试员工和申请人的职业技能。
 -   评估课程参与者是否已学习课程材料。

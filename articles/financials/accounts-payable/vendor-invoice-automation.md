@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 34dc8d762db4a4802e52188ebda298db234ee376
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="vendor-invoice-automation"></a>供应商发票自动化
@@ -29,7 +29,7 @@ ms.lasthandoff: 03/05/2018
 
 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 
-想要优化其应付账款 (AP) 流程的组织通常将发票处理确定为应提高效率的优先流程领域。 在大多数情况下，这些组织将纸质发票的处理委托给第三方光学字符识别 (OCR) 服务提供商。 然后，他们收到机器可读的发票元数据和每张发票的扫描图像。 为了帮助实现自动化，生成了“最后一英里”解决方案以实现这些项目在发票系统中的使用。 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本现在通过发票自动化解决方案实现此现成的“最后一英里”自动化。
+想要优化其应付账款 (AP) 流程的组织通常将发票处理确定为应提高效率的优先流程领域。 在大多数情况下，这些组织将纸质发票的处理委托给第三方光学字符识别 (OCR) 服务提供商。 然后，他们收到机器可读的发票元数据和每张发票的扫描图像。 为了帮助实现自动化，生成了“最后一英里”解决方案以实现这些项目在发票系统中的使用。 Microsoft Dynamics 365 for Finance and Operations 现在通过发票自动化解决方案实现此现成的“最后一英里”自动化。
 
 ## <a name="solution-context"></a>解决方案环境
 

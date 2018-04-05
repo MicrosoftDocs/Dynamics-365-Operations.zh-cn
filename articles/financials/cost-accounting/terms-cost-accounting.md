@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 957acdbbc6bba83b8b2e2b83fdf266524385141d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -40,7 +40,7 @@ ms.lasthandoff: 11/03/2017
 
 **成本核算**
 
-成本核算允许您从不同的数据源收集数据，如总帐、子分类帐、预算和统计信息。 然后可以分析、汇总和评估成本数据，因而管理层在价格更新、预算、成本控制等方面可以做出最有利的决策。 用于成本分析的源数据在成本核算中独立处理。 因此，在成本核算中更新不影响源数据。 但是，你从不同的数据源收集成本数据时，尤其是当您从 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本中的总帐中导入主科目作为成本元素时，存在数据冗余，因为相同的数据同时存在于总帐和成本核算中。 此冗余是必需的，因为您使用财务管理进行外部报告，使用成本核算进行内部报告。
+成本核算允许您从不同的数据源收集数据，如总帐、子分类帐、预算和统计信息。 然后可以分析、汇总和评估成本数据，因而管理层在价格更新、预算、成本控制等方面可以做出最有利的决策。 用于成本分析的源数据在成本核算中独立处理。 因此，在成本核算中更新不影响源数据。 但是，你从不同的数据源收集成本数据时，尤其是当您从 Microsoft Dynamics 365 for Finance and Operations 中的总帐中导入主科目作为成本元素时，存在数据冗余，因为相同的数据同时存在于总帐和成本核算中。 此冗余是必需的，因为您使用财务管理进行外部报告，使用成本核算进行内部报告。
 
 **成本核算分类帐**
 
@@ -120,7 +120,7 @@ ms.lasthandoff: 11/03/2017
 成本核算支持通过一组数据连接器集成来自源系统的数据。 提供以下数据连接器：
 
 -  已导入的交易记录（预配置）
--  Dynamics 365 for Finance and Operations Enterprise Edition（预配置）
+-  Dynamics 365 for Finance and Operations（预配置）
 -  Dynamics AX（需要配置）
 
 **注意：**数据连接器导入的交易记录基于数据实体。
@@ -129,7 +129,7 @@ ms.lasthandoff: 11/03/2017
 
 大多数源系统可以提供与成本核算中的一个或多个数据源匹配的数据。 若要根据成本核算中的数据源调整来自源系统的数据，需要配置一个数据提供程序。 下表按数据连接器和数据源列出了数据提供程序的可用性。
 
-|  **数据源** |  **导入的交易记录数据连接器** | **Dynamics 365 for Finance and Operations Enterprise Edition 数据连接器**  | **Dynamics AX 数据连接器**  |
+|  **数据源** |  **导入的交易记录数据连接器** | **Dynamics 365 for Finance and Operations 数据连接器**  | **Dynamics AX 数据连接器**  |
 |---|---|---|---|
 | 成本元素维度成员  |  是 | 是  | 是  |
 |  成本对象维度成员 |  是 | 是  | 是  |

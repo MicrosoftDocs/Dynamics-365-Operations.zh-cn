@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 6e64337f19600b18320550d91c134949c33af7b0
-ms.openlocfilehash: 233d91138b11905d971be90154da54e61bbe2919
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: b84778bd67e8c5bad6e8858d2af71f46e0dfe145
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 12/01/2017
 
 此移动应用让您的组织可以允许移动设备使用此应用的业务流程。 在您的 IT 管理员为您的组织启用此移动工作区后，用户可以登录到此应用并立即开始从其移动设备运行业务流程。 此移动应用包括可帮助提高生产率的以下功能：
 
-- 用户可以查看、编辑并对业务数据进行操作，即使他们具有间歇的网络或其移动设备完全脱机。 在设备重新建立网络连接后，脱机数据操作自动与 Dynamics 365 for Finance and Operations Enterprise 版本或 Microsoft Dynamics 365 for Finance and Operations 同步。
+- 用户可以查看、编辑并对业务数据进行操作，即使他们具有间歇的网络或其移动设备完全脱机。 在设备重新建立网络连接时，脱机数据操作与 Dynamics 365 for Finance and Operations 自动同步。
 - IT 管理员或开发人员可以构建和发布为组织量身定制的移动工作区。 此应用使用您现有的代码资产。 因此，无需再次实施您的验证过程、业务逻辑或安全配置。
 - IT 管理员或开发人员通过使用包含在 Web 客户端内的指向-点击工作区设计器轻松设计移动工作区。
 - 通过使用业务逻辑可扩展性框架，IT 管理员或开发人员可以有选择地优化工作区的脱机功能。 由于数据在设备脱机时继续处理，移动方案仍然丰富、可变，即使设备没有固定的网络连接。
@@ -90,7 +90,7 @@ ms.lasthandoff: 12/01/2017
 <tr class="even">
 <td>2</td>
 <td>系统管理员</td>
-<td><strong>如果您使用的是 Microsoft Dynamics 365 for Finance and Operations 版本 1611：</strong>下载并安装启用 Microsoft 提供的移动工作区的 KB。</td>
+<td><strong>如果您使用的是 Microsoft Dynamics 365 for Operations 版本 1611：</strong>下载并安装启用 Microsoft 提供的移动工作区的 KB。</td>
 <td>有关详细信息，请参阅以下主题：
 <ul>
 

@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: 9c68cd0e1c214e22b8831e4f4a0c5d545387f982
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,10 +33,10 @@ ms.lasthandoff: 03/09/2018
 本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。 
 
 > [!NOTE] 
-> 以下产品密切相关：Dynamics 365 for Finance and Operations Enterprise 版本；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+> 以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
 帮助系统由以下产品共用：
-- Dynamics 365 for Finance and Operations Enterprise Edition
+- Dynamics 365 for Finance and Operations
 - Dynamics 365 for Retail
 - Dynamics 365 for Talent
 
@@ -108,7 +108,7 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>通过 GitHub 提出更改建议或贡献内容
 若要提出更改建议，您需要一个 GitHub 帐户，并签署“贡献者许可协议”。  在提交拉取请求后，我们将审查您建议的更改。 如果需要，我们将展开内部讨论，然后回复您。  
 
-若要开始，单击主题上的**编辑**（铅笔）按钮，或转到我们的存储库：https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public。 
+若要开始，请单击主题上的**编辑**（铅笔）按钮或转到我们的存储库：https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public。 
 
 有关详细信息，请参阅我们的贡献者指南：https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md。 
 

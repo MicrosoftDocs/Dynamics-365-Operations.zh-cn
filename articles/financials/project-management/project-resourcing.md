@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4dbcfd31030db8e40f89f86a76cdc666ac433749
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 
 本主题提供有关项目资源的信息。
 
-项目经理和资源经理在项目计划阶段的一个挑战是资源分配，他们必须在此确定和预留处理项目所需的正确资源。 在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中，项目的资源能力可以定义预留给特定参与或参与的一部分被视为临时资源的角色。 此资源类型允许项目经理和资源经理完成以下任务：
+项目经理和资源经理在项目计划阶段的一个挑战是资源分配，他们必须在此确定和预留处理项目所需的正确资源。 在 Microsoft Dynamics 365 for Finance and Operations 中，项目的资源能力可以定义预留给特定参与或参与的一部分被视为临时资源的角色。 此资源类型允许项目经理和资源经理完成以下任务：
 
 - 定义具有所需能力的角色，以便轻松匹配资源。
 - 使用角色基于预留资源定义初始约定计划。

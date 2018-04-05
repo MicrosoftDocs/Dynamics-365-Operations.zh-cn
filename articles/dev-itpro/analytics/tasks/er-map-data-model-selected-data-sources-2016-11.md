@@ -1,6 +1,6 @@
 --- 
 title: "针对电子申报 (ER) 将数据模型映射到所选的数据源"
-description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何映射电子报表 (ER) 数据模型到所选的 Dynamics 365 for Finance and Operations Enterprise Edition 数据源中。"
+description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何映射电子报表 (ER) 数据模型到所选的 Dynamics 365 for Finance and Operations Enterprise Edition（2016 年 11 月）数据源中。"
 author: NickSelin
 manager: AnnBe
 ms.date: 01/16/2017
@@ -16,17 +16,17 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96974d7c1597db4ac31168be40cecbc7e12d6edd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>针对电子申报 (ER) 将数据模型映射到所选的数据源
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-以下步骤说明属于系统管理员或电子报表开发人员的用户如何映射电子报表 (ER) 数据模型到所选的 Dynamics 365 for Finance and Operations Enterprise Edition 数据源中。 此模型映射稍后将作为用于管理电子付款文件的格式配置中的数据源。 在此示例中，您将示例公司 Litware，Inc. 的数据模型映射到数据源。 为了完成这些步骤，您首先必须完成“为模型映射选择数据源”这一过程中的步骤。
+以下步骤说明属于系统管理员或电子报表开发人员的用户如何映射电子报表 (ER) 数据模型到所选的 Dynamics 365 for Finance and Operations 数据源中。 此模型映射稍后将作为用于管理电子付款文件的格式配置中的数据源。 在此示例中，您将示例公司 Litware，Inc. 的数据模型映射到数据源。 为了完成这些步骤，您首先必须完成“为模型映射选择数据源”这一过程中的步骤。
 
 
 ## <a name="open-er-configurations-tree"></a>打开 ER 配置树

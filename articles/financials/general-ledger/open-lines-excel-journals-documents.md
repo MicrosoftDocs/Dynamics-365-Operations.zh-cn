@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e6e159f84e188bad49db7b99a43c99f2e4d744be
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 11/03/2017
 | 客户付款日记帐 | 支持“科目：客户抵销科目：分类帐、银行内部公司”。                                               | 客户付款日记帐                                                                |
 | 项目支出日记帐  | 支持“科目：项目、分类帐、客户、供应商抵销科目：项目、分类帐、客户、供应商、银行内部公司”。 | 普通日记帐费用（在“项目管理和会计”下）                       |
 
-发布行时，将验证行，以便确保其符合财务日记帐中设置的规则。 发布行之后，用户可从 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 编辑或过帐凭证。 
+发布行时，将验证行，以便确保其符合财务日记帐中设置的规则。 发布行之后，用户可从 Microsoft Dynamics 365 for Finance and Operations 编辑或过帐凭证。 
 
 若要向模板添加财务维度，需要执行更多更改。 有关详细信息，请参阅[向 Microsoft Excel 模板添加维度](../../dev-itpro/financial/add-dimensions-excel-templates.md)。 维度添加到实体之后，将在 Excel 设计器中可用，并可添加到模板。
 

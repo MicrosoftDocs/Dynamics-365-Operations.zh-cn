@@ -1,6 +1,6 @@
 ---
 title: "高级银行对帐设置流程"
-description: "高级银行对帐允许您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中导入电子银行对账单，并与银行交易记录自动对帐。  这篇文章将介绍对帐流程设置。"
+description: "高级银行对帐允许您在 Microsoft Dynamics 365 for Finance and Operations 中导入电子银行对帐单，并与银行交易记录自动对帐。  这篇文章将介绍对帐流程设置。"
 author: twheeloc
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: aec219f545e880407b9a7d62b2dda4a607ac6bdd
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-高级银行对帐允许您在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中导入电子银行对账单，并与银行交易记录自动对帐。  这篇文章将介绍对帐流程设置。  
+高级银行对帐允许您在 Microsoft Dynamics 365 for Finance and Operations 中导入电子银行对帐单，并与银行交易记录自动对帐。  这篇文章将介绍对帐流程设置。  
 
 在使用高级银行对帐功能之前有很多必须设置的部分。 有关设置银行对账单导入的详细信息，请参阅[设置银行对账单导入流程](set-up-advanced-bank-reconciliation-import-process.md)。  下面详细描述了对帐流程设置的要求。
 

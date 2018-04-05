@@ -1,6 +1,6 @@
 ---
 title: "组织管理主页"
-description: "此主题指向可帮助您在组织中使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的资源。"
+description: "此主题指向可帮助您在组织中使用 Microsoft Dynamics 365 for Finance and Operations 的资源。"
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f1cff2388b02ff6dfd52a39b7f3ea90f10807096
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-此主题指向可帮助高级用户和管理员配置 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的内容。 此内容将帮助他们配置系统，使其顺畅有效地为您的组织和业务工作。
+此主题指向可帮助高级用户和管理员配置 Microsoft Dynamics 365 for Finance and Operations 的内容。 此内容将帮助他们配置系统，使其顺畅有效地为您的组织和业务工作。
 
 此处列出的许多内容适用于在**组织管理**模块中的功能。 但是，有一些任务，如创建和使用记录模板，可以在任何模块中执行以帮助您的组织更加有效地运行。 
 

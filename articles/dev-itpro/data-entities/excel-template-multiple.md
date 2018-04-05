@@ -1,6 +1,6 @@
 ---
 title: "从包含多个工作表的 Excel 数据实体模板中导入数据"
-description: "此主题介绍如何使用 Excel 数据实体模板将数据导入 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition。"
+description: "此主题介绍如何使用 Excel 数据实体模板将数据导入 Microsoft Dynamics 365 for Finance and Operations。"
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
@@ -18,10 +18,10 @@ ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: b314a649829dd14a525923802e19b847dc5a115e
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 2aefea9373df20bd3e99026e30aed096dcea9814
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -29,7 +29,7 @@ ms.lasthandoff: 02/27/2018
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的数据管理支持基于 Microsoft Excel 的数据实体模板。 这些模板可能包含一个或多个工作表。 使用包含多个工作表的模板通常是为了方便在一个文件中管理数据并将其导入到多个数据实体中。 例如站点和仓库。
+Microsoft Dynamics 365 for Finance and Operations 中的数据管理支持基于 Microsoft Excel 的数据实体模板。 这些模板可能包含一个或多个工作表。 使用包含多个工作表的模板通常是为了方便在一个文件中管理数据并将其导入到多个数据实体中。 例如站点和仓库。
 
 ## <a name="upload-a-file-once-and-map-it-to-all-entities"></a>一次性上传文件，并将其映射到所有实体
 举个例子，有一个 Excel 文件包含名称为**站点**和**仓库**的工作表。 若要设置数据导入项目，则添加第一个数据实体**站点**，然后上传文件。 您可以选择**站点**作为要对该实体使用的工作表。

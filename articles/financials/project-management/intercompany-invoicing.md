@@ -1,6 +1,6 @@
 ---
 title: "内部公司开票"
-description: "本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中项目的公司内部开票的信息和示例。"
+description: "本文提供 Microsoft Dynamics 365 for Finance and Operations 中项目的公司内部开票的信息和示例。"
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad14e2d145c6f6620bf8a31738fafa50d033d246
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 7cd19340c913fcda3fb537162dfbae52b5c8e922
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中项目的公司内部开票的信息和示例。
+本文提供 Microsoft Dynamics 365 for Finance and Operations 中项目的公司内部开票的信息和示例。
 
 您的组织可能具有多个为项目彼此转移产品和服务的分公司、附属机构和其他法人。 提供服务或产品的法人被称为*借出法人*，而接收这些服务或产品的法人被称为*借入法人*。 
 

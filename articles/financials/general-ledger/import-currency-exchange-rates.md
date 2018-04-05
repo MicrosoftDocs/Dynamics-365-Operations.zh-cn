@@ -19,10 +19,10 @@ ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 270e0de2d58550e517417076b49a5a8bdc62bc64
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 11/03/2017
 以下章节介绍用于设置和处理汇率导入的信息流。
 
 ## <a name="configure-an-exchange-rate-provider"></a>配置汇率提供方
-必须先设置提供汇率的提供方所需信息，才能导入汇率。 请使用**配置汇率提供方**页选择汇率提供方。 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的演示数据随附了一些汇率提供方。 下表描述此页中的各个控件。
+必须先设置提供汇率的提供方所需信息，才能导入汇率。 请使用**配置汇率提供方**页选择汇率提供方。 Microsoft Dynamics 365 for Finance and Operations 中的演示数据随附了一些汇率提供方。 下表描述此页中的各个控件。
 
 |           |                                                                                                                                                                                                                             |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

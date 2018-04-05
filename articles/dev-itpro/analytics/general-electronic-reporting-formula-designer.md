@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 946584d8afa8937afc7a26835e05b0eecebaad35
-ms.openlocfilehash: 67558889dea03738a665d8f1e2f30833b96c4656
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/23/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 12/23/2017
 
 ER 支持公式设计器。 因此，在设计时，您可以配置在运行时可用于执行以下任务的表达式：
 
-- 将从 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 数据库接收的数据以及应输入的数据转换为设计作为 ER 格式的数据源的 ER 数据模型。 （例如，这些转换可以包括筛选、分组和数据转换类型。）
+- 将从 Microsoft Dynamics 365 for Finance and Operations 数据库接收的数据以及应输入的数据转换为设计作为 ER 格式的数据源的 ER 数据模型。 （例如，这些转换可以包括筛选、分组和数据转换类型。）
 - 设置必须发送到生成电子单据的数据的格式，以便满足特定 ER 格式的布局和条件。 （例如，可以根据请求的语言、文化或编码完成格式化）。
 - 控制电子单据的创建过程。 （例如，表达式可根据处理数据启用或禁用该格式的特定元素的输出。 还可以中断单据创建过程，或向用户显示消息。）
 
@@ -540,7 +540,7 @@ ER 表达式可以包含任意或所有以下元素：
 </tr>
 <tr class="even">
 <td>FORMAT (string 1, string 2[, string 3, …])</td>
-<td>返回指定字符串，并且其已通过代替任何出现的带有 <em>n</em> 参数的 <strong>%N</strong> 设置格式。 这些参数是字符串。 如果参数不是为参量提供，则参量在字符串中返回为 <strong>&quot;%N&quot;</strong>。 对于 <strong>real</strong> 类型的值，字符串转换被限制为两位小数。</td>
+<td>返回指定字符串，并且其已通过代替任何出现的带有第 <em>n</em> 个参数的 <strong>%N</strong> 设置格式。 这些参数是字符串。 如果参数不是为参量提供，则参量在字符串中返回为 <strong>&quot;%N&quot;</strong>。 对于 <strong>real</strong> 类型的值，字符串转换被限制为两位小数。</td>
 <td>在下图中，数据源 <strong>PaymentModel</strong> 通过<strong>客户</strong>组件返回客户记录列表，通过 <strong>ProcessingDate</strong> 字段返回处理日期值。
 <p><a href="./media/picture-format-datasource.jpg"><img src="./media/picture-format-datasource.jpg" alt="PaymentModel data source" class="alignnone wp-image-290751 size-full" width="293" height="143" /></a></p>
 <p>在指定用于为所选客户生成电子文件的 ER 格式中，<strong>PaymentModel</strong> 被选择为数据源并控制流程。 当所选客户在处理报表的日期停止时，将引发异常以通知用户。 为此类处理控制设计的配方可以使用以下资源：</p>

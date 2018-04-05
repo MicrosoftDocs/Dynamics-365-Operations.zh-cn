@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3a1bfd4bd5f396c05277159ac112eaa8197d5818
-ms.openlocfilehash: 6a2c51d9ffe288dad2db43ecd0a4c8f717c6379a
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3c4720795313180ba7ad784ea39484d6ffb9ac2f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="projects-across-industries"></a>跨行业的项目
 项目管理和核算功能可在多个行业中使用，如下图所示。 [![跨行业的项目](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
-在呼叫中心，票据可用于描述解决呼叫所需的一系列行动。 咨询公司（如管理或技术咨询组织或广告代理）将其活动称为项目。 在市场营销中，市场活动表示必须完成的一系列工作。 在基于项目的制造中，生产订单与必须完成才能生产某些成品的各种工作相关。 无论对这类项目使用哪种名称，它都涉及资源、计划和成本，而 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中的项目管理和核算功能可帮助规划、执行和分析这些项目。
+在呼叫中心，票据可用于描述解决呼叫所需的一系列行动。 咨询公司（如管理或技术咨询组织或广告代理）将其活动称为项目。 在市场营销中，市场活动表示必须完成的一系列工作。 在基于项目的制造中，生产订单与必须完成才能生产某些成品的各种工作相关。 无论对这类项目使用哪种名称，它都涉及资源、计划和成本，而 Microsoft Dynamics 365 for Finance and Operations 中的项目管理和核算功能可帮助规划、执行和分析这些项目。
 
 ## <a name="project-phases"></a>项目阶段
 尽管以下流程针对的是外部项目或为一个或多个客户完成的项目，但该功能还适用于内部的仅成本项目。 

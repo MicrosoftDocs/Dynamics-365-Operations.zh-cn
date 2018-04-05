@@ -16,10 +16,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e269ef7b33b4d7e171d284d68d28c825c2fe86c
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 799dd89433ff561fd8a5cc5c082165ef9bb74923
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 # <a name="modify-a-demand-forecast-manually"></a>手动修改需求预测
@@ -44,6 +44,6 @@ ms.lasthandoff: 09/29/2017
 ## <a name="modify-the-forecast-in-excel"></a>在 Excel 中修改预测
 1. 单击“在 Microsoft Office 中打开”。
 2. 单击“在 Excel 中编辑需求预测”。
-    * 在 Excel 中，您可以添加、删除和编辑需求预测行。 如果您将无法看到在 Excel 中的数据，需要使用已启用的“登录”选项登录 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，并且需要信任数据连接应用程序。  
+    * 在 Excel 中，您可以添加、删除和编辑需求预测行。 如果您将无法看到在 Excel 中的数据，需要使用已启用的“登录”选项登录 Microsoft Dynamics 365 for Finance and Operations，并且需要信任数据连接应用程序。  
 
 

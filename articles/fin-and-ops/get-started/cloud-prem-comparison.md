@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: 4ffdc5dd54f8a069676f62c8b43f2892764dc046
-ms.openlocfilehash: 88640007ec54ed0c566e163e3dd701faeebc50ce
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,8 +31,8 @@ ms.lasthandoff: 03/05/2018
 
 此主题显示每个功能在这些产品中是否可用：
 
-+ Dynamics 365 for Finance and Operations Enterprise Edition（云）
-+ Dynamics 365 for Finance and Operations Enterprise Edition（本地）
++ Dynamics 365 for Finance and Operations（云）
++ Dynamics 365 for Finance and Operations（本地）
 
 下表列出了产品区域。 作为整体列出功能的云和本地支持。 特定功能与总体区域不同时，在“功能”列的单独的行中列出功能。
 

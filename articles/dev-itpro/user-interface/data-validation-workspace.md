@@ -16,10 +16,10 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: daded9d8ef48456cbd3f97a7bae5fa75885ce9d1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 最后一个卡针对详细任务列表。 此列表显示完整的任务列表。
 可以通过多种方式筛选任务列表。 单击**编辑任务**更改任务的状态或分配任务。 单击**附件**查看任务的附件。
 
-任务名称是链接至 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 页面的超链接，用户必须进入该页面完成工作。 您可以在从**配置数据验证项目**窗体编辑或创建任务时使用**菜单项名称**字段设置此超链接。
+任务名称是链接至 Microsoft Dynamics 365 for Finance and Operations 页面的超链接，用户必须进入该页面完成工作。 您可以在从**配置数据验证项目**窗体编辑或创建任务时使用**菜单项名称**字段设置此超链接。
 
 可通过使用**附件**操作将文件、注释、图像和 URL 附加到任务。 例如，您可以附加为任务打印的报表文件。 如果有附件，任务的**附件**列中将显示一个图标。
 

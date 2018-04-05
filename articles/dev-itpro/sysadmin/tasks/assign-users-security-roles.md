@@ -1,6 +1,6 @@
 --- 
 title: "将用户分配给安全角色"
-description: "若要访问 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，必须为用户分配安全角色。"
+description: "若要访问 Microsoft Dynamics 365 for Finance and Operations，必须为用户分配安全角色。"
 author: maertenm
 manager: AnnBe
 ms.date: 06/07/2016
@@ -16,17 +16,17 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 551048af26f46d334c562d1968963aed262a5e03
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: da96ec8357ea209fd958e32ab438b13e668735df
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 03/26/2018
 
 ---
-# <a name="assign-users-to-security-roles"></a>将用户分配给安全角色
+# <a name="assign-users-to-security-roles"></a>向安全角色分配用户
 
 [!include[task guide banner](../../includes/task-guide-banner.md)]
 
-若要访问 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，必须为用户分配安全角色。 此过程说明系统管理员如何基于业务数据将用户自动分配到角色。 创建此程序的演示数据公司是 USMF。
+若要访问 Microsoft Dynamics 365 for Finance and Operations，必须为用户分配安全角色。 此过程说明系统管理员如何基于业务数据将用户自动分配到角色。 创建此程序的演示数据公司是 USMF。
 
 
 ## <a name="automatically-assign-users-to-roles"></a>将用户自动分配到角色

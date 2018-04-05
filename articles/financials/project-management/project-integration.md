@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: a72963f755f8eddb19b8526d2938eff039ab7df2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 01/17/2018
 规划和维护项目计划可能非常复杂，因此项目经理需要使用工具来帮助管理此任务。 与 Microsoft Project Client 的集成提供了对打开和管理项目工作分解结构的支持。 项目经理可将任何更改发布回 Finance and Operations 项目工作分解结构。
 
 > [!NOTE]
-> 如果你正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月更新，你必须安装 KB 4054797 和 4055884。
+> 如果你正在使用 Microsoft Dynamics 365 for Finance and Operations 2017 年 7 月更新，你必须安装 KB 4054797 和 4055884。
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>配置 Microsoft Project Client 加载项
 若要实现与 Microsoft Project Client 集成，需要在用户的客户端 Microsoft Project 应用程序中安装 Microsoft Dynamics 365 加载项。 方法是打开**项目管理工作区**。
@@ -106,7 +106,7 @@ ms.lasthandoff: 01/17/2018
 
 5.  选择**项目**。
 
-6.  单击“确定”。
+6.  单击**确定**。
 
 ## <a name="create-a-new-project-from-within-microsoft-project-client"></a>从 Microsoft Project Client 内部创建新项目
 
@@ -127,5 +127,5 @@ ms.lasthandoff: 01/17/2018
 
 8.  选择要用于安排资源的**日历**。
 
-11. 单击“确定”。
+11. 单击**确定**。
 

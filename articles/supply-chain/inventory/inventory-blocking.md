@@ -1,6 +1,6 @@
 ---
 title: "库存锁定"
-description: "本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations Enterprise版本中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。"
+description: "本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。"
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
@@ -20,10 +20,10 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: eb8040531ec0c2b9c13fc927e5330772ad11ee1d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 0567cdad6f9f27097f534381655e5b468884bed8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
+本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 
 您可以按照以下方法锁定库存物料：
 -   手动
@@ -64,9 +64,9 @@ ms.lasthandoff: 11/03/2017
 <a name="see-also"></a>请参阅
 --------
 
-[创建和维护库存锁定（任务指南）](tasks/create-maintain-inventory-blocking.md
+[创建和维护库存锁定](tasks/create-maintain-inventory-blocking.md)
 
 [质量管理流程](quality-management-processes.md)
 
-[检查货物的质量（任务指南）](tasks/inspect-quality-goods.md)
+[检查货物质量（任务指南）](tasks/inspect-quality-goods.md)
 

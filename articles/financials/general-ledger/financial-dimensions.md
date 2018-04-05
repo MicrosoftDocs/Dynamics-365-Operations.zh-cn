@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 274a5e696bfde4f5e27bc186fadbab69f5fc655d
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3e9f00fdc32feda0a62f71a92e503a677dce35cc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/03/2017
 
 在您创建了财务维度之后，使用**财务维度值**页给每个财务维度分配附加属性。 
 
-您可以使用财务维度代表法人。 您不必在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中创建实体。 但是，财务维度不用来解决法人的运营或业务需求。 将 Finance and Operations 中的单位间核算功能设计成仅满足由每个交易记录所创建的会计条目。 
+您可以使用财务维度代表法人。 您不必在 Microsoft Dynamics 365 for Finance and Operations 中创建实体。 但是，财务维度不用来解决法人的运营或业务需求。 将 Finance and Operations 中的单位间核算功能设计成仅满足由每个交易记录所创建的会计条目。 
 
 在将财务维度设置为法人之前，评估您的业务流程中的以下区域以确定此设置是否适用于您的组织：
 

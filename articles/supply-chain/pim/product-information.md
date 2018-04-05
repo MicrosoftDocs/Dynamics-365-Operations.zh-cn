@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ef108fb7be65b91c531db750018f00f7fdd67da1
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 02/07/2018
 
 ## <a name="distribution-export-and-import-of-product-data"></a>产品数据的分配、导出和导入
 
-可以在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中创建产品定义。 也可以从产品生命周期管理 (PLM)、产品数据管理 (PDM) 或产品信息管理 (PIM) 系统导入。 使用多个 Finance and Operations 实例时，一个实例通常用于所有其他实例的基础产品数据。 此方法受一组大量数据实体的支持，这些数据实体支持将产品定义数据从一个实例导出和导入到另一个实例。
+可以在 Microsoft Dynamics 365 for Finance and Operations 中创建产品定义。 也可以从产品生命周期管理 (PLM)、产品数据管理 (PDM) 或产品信息管理 (PIM) 系统导入。 使用多个 Finance and Operations 实例时，一个实例通常用于所有其他实例的基础产品数据。 此方法受一组大量数据实体的支持，这些数据实体支持将产品定义数据从一个实例导出和导入到另一个实例。
 
 为了支持将产品数据分配到多个实例，Finance and Operations 允许您使用公共数据服务。 产品定义可以从 Finance and Operations 的一个实例导出到公共数据服务。 然后可以使用产品定义提供其他具有产品数据的业务应用，例如 Microsoft Dynamics 365 for Sales。
 

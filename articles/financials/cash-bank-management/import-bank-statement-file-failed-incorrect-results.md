@@ -1,6 +1,6 @@
 ---
 title: "银行对账单文件导入故障排除"
-description: "银行的银行对账单文件与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
+description: "银行的银行对帐单文件与 Microsoft Dynamics 365 for Finance and Operations 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
 author: twheeloc
 manager: AnnBe
 ms.date: 01/11/2018
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4feb77bf0031494dfd456c23c632a264c96f0e43
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 11/03/2017
 [!include[banner](../includes/banner.md)]
 
 
-银行的银行对账单文件与 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
+银行的银行对帐单文件与 Microsoft Dynamics 365 for Finance and Operations 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
 
 <a name="what-is-the-error"></a>错误是什么？
 ------------------
@@ -64,7 +64,7 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 
 ### <a name="debug-the-xslt"></a>调试 XSLT
 
-有关详细信息，请参阅 <https://msdn.microsoft.com/en-us/library/ms255605.aspx>。
+有关详细信息，请参阅<https://msdn.microsoft.com/en-us/library/ms255605.aspx>。
 
 1.  启动 Microsoft Visual Studio。
 2.  创建控制台申请。
@@ -92,7 +92,7 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 -   MT940XML-to-Reconcilation.xslt GetCreditDebitIndicator 模板
 
 ## <a name="examples-of-bank-statement-formats-and-technical-layouts"></a>银行对账单格式和技术布局的示例
-下表列出了高级银行对帐导入文件技术布局定义的示例和三个相关银行对账单示例文件。 可从以下网址下载示例文件和技术布局：https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
+下表列出了高级银行对帐导入文件技术布局定义的示例和三个相关银行对账单示例文件。 您可以从此处下载示例文件和技术布局：https://mbs.microsoft.com/customersource/northamerica/AX/learning/documentation/how-to-articles/exofbankstfotechlayouts  
 
 
 | 技术布局定义                             | 银行对账单示例文件          |

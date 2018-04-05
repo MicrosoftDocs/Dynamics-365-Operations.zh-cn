@@ -1,6 +1,6 @@
 ---
 title: "将直接来自 Finance and Operations 的产品同步到 Sales"
-description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的产品同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。"
+description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的产品同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。"
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2017
@@ -20,21 +20,21 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: def88c291538e3ef278c51e4b87462782e222de2
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 03/26/2018
 
 ---
 
-# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>将直接来自 Finance and Operations 的产品同步到 Sales
+# <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>将 Finance and Operations 的产品直接同步到 Sales
 
 [!include[banner](../includes/banner.md)]
 
 > [!NOTE]
 > 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉 [Dynamics 365 数据集成](/common-data-service/entity-reference/dynamics-365-integration)。
 
-本主题讨论用于将直接来自 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 的产品同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。
+本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的产品直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 

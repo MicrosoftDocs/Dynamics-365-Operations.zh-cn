@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d183654ada9cdca23cf906f250988a967ffcf1f6
+ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
+ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/26/2018
 
 ---
 
@@ -76,7 +76,7 @@ ms.lasthandoff: 11/03/2017
 
 维度层次结构创建为具有节点和叶节点关系的树结构。
 
--  一个节点可以具有 1:_n_个子节点。
+-  一个节点可以具有 1:_n_ 个子节点。
 -  一个节点不能同时分配有子节点和叶节点。
 -  叶节点只能在层次结构的最低级别进行分配。
 
@@ -156,7 +156,7 @@ ms.lasthandoff: 11/03/2017
 |&nbsp;&nbsp;可变成本 | 40001                     | 40010                   |
 
 > [!NOTE]
-> 在**维度成员范围**下，一个节点可以包含 1:_n_个维度成员范围。 您可以插入尚未作为维度成员存在的维度成员 ID。 此方法使层次结构可以弹性地适应未来的需求。  
+> 在**维度成员范围**下，一个节点可以包含 1:_n_ 个维度成员范围。 您可以插入尚未作为维度成员存在的维度成员 ID。 此方法使层次结构可以弹性地适应未来的需求。  
 
 ### <a name="copy-a-hierarchy"></a>复制层次结构
 
@@ -329,7 +329,7 @@ ms.lasthandoff: 11/03/2017
 - Power BI：
 
     - Power BI 可视化项中显示的数据
-    - Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 客户端中嵌入的数据 Power BI 可视化项。
+    - Microsoft Dynamics 365 for Finance and Operations 客户端中嵌入的数据 Power BI 可视化项
 
 > [!NOTE] 
 > - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。

@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 962b3084c5340813d1697cab680621350510d4b9
+ms.sourcegitcommit: 812db9f1d319e4d16f83700a7153a0a3b318963e
+ms.openlocfilehash: aaa8bdedc31ee03e96a0f7a5e78f25f888913e71
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 03/23/2018
 
 ---
 
@@ -91,6 +91,6 @@ ms.lasthandoff: 11/03/2017
 ## <a name="areas-of-responsibility"></a>职责范围
 可使用职责范围指示担任工作的职位的工作人员负责的工作角色、流程和产品。 例如，对于名为“会计师”的工作，一个职责范围可能是“产品 A 的财务申报”。 可通过使用**职责范围**页面维护职责范围，您可以通过使用搜索功能找到此页面。 在**职责范围**页面中，输入职责范围的名称和描述。 在**注释**字段中，可以选择输入更多信息。 无需更改此处输入的注释，即可针对特定工作更新注释。
 
-
-
+## <a name="steps-for-creating-a-job"></a>作业创建步骤
+请参阅[定义新作业](../fin-and-ops/hr/tasks/define-new-jobs.md)主题了解创建新作业的分步过程。 
 
