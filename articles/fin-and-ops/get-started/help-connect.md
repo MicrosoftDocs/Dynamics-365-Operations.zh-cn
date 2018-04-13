@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="connect-the-help-system"></a>连接帮助系统
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题介绍 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件。 它提供如何连接这些组件的概览和如何创建自定义帮助的摘要。 
 
@@ -42,7 +41,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="connecting-the-help-system"></a>连接帮助系统
 > [!NOTE]
 > **任务指南**选项卡目前在 Microsoft Dynamics 365 for Talent 和 Microsoft Dynamics 365 for Retail 中不可用。 我们目前正在努力在将来的版本中启用此功能。 Talent 中的入门中的任务指南体验可用，以涵盖基本功能。 docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) 上还提供用于 Retail 和 Talent 的过程帮助。
- 
+
 
 使用**系统参数**页，系统管理员连接有关实施的部分帮助系统。 [![具有帮助设置的系统参数窗体](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png) 在**系统参数**页上，执行以下步骤：
 

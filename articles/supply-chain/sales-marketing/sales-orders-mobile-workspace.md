@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="sales-orders-mobile-workspace"></a>销售订单移动工作区
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题提供有关**销售订单**移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。 
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="attract-overview"></a>Attract 概述
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 Attract 提供用于管理新人才雇用流程的功能。 可以将应聘者添加到空缺职位并逐级提升，直到发出聘约或申请被拒绝。 在每个阶段，应聘者经历筛选电话、评估或面试安排等活动。 提交申请后，应聘者将收到一封电子邮件，邀请其注册 Attract，他们可以在此处跟进工作状态、申请表并响应分配给他们的任何任务。
 

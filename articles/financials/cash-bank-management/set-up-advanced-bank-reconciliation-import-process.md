@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a>设置高级银行对帐导入流程
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Finance and Operations 中的银行交易记录自动对帐。 本文介绍如何设置银行对账单的导入功能。 
 
@@ -57,7 +56,7 @@ ms.lasthandoff: 03/26/2018
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
 
- 
+
 
 ## <a name="set-up-the-import-of-iso20022-bank-statements"></a>设置 ISO20022 银行对账单的导入
 首先，您必须通过使用数据实体框架定义 ISO20022 银行对账单的银行对账单格式处理组。

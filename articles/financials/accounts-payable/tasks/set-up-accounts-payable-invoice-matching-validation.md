@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a>设置应付账款发票匹配验证
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此记录使用 USMF 公司演示。 应付账款经理或会计经理将执行以下步骤。 在您开始前，请确保选择发票匹配 Configuration Key。 通过使用费用，如果您的跟踪法人费用，例如运费，请确保选择费用 Configuration Key。  应付账款发票匹配是匹配供应商发票、采购订单和装箱单信息的一个流程。 在这些单据之间的差异称作匹配差异。 用指定的匹配差异容差进行比较。 如果匹配差异超过容差百分比或金额，匹配差异图标将显示在“供应商发票”窗体上和“发票匹配详细信息”窗体上。
 

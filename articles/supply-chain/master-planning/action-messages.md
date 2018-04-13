@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-messages"></a>行动消息
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 行动消息是系统生成的关于更改现有计划订单或确定订单的建议。
 

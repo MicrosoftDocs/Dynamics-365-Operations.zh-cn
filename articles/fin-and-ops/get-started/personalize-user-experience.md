@@ -28,8 +28,7 @@ ms.lasthandoff: 11/20/2017
 
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题说明如何个性化 Microsoft Dynamics 365 for Finance and Operations。
 

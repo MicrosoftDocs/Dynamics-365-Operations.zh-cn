@@ -24,7 +24,7 @@ ms.lasthandoff: 01/17/2018
 ---
 # <a name="create-raw-materials-february-2016-only"></a>创建原材料（仅 2016 年 2 月）
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务的重点是创建成品和半成品的组件。 这是 BOM 计算系列中的第三个任务。 创建此任务的演示数据公司是 USMF。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="remove-a-kanban-job-from-the-schedule"></a>从计划中删除看板作业
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序用于通过恢复一个作业的“无计划”状态，从预定计划中移除该计划处理的看板作业。 创建此程序的演示数据公司是 USMF。 此程序是为车间主管或生产计划主任而设计的。
 

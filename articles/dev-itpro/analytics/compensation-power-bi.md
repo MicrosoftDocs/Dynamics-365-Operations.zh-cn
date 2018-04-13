@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="compensation-power-bi-content"></a>薪酬 Power BI 内容
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题描述**薪酬** Microsoft Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。
 

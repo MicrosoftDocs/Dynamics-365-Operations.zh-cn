@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="customer-payment-overview"></a>客户付款概览
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 本任务指南逐步介绍用于输入客户付款的各种方法。 本任务使用 USMF 公司进行演示。
 

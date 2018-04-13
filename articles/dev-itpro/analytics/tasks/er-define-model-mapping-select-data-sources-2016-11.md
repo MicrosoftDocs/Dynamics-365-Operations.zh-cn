@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-model-mapping-and-select-data-sources-for-electronic-reporting-er"></a>针对电子申报 (ER) 定义模型映射并选择数据源
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明属于系统管理员或电子报表开发人员的用户如何为电子报表 (ER) 数据模型选择数据源。 数据源将绑定到设计时所选数据模型的各个部分中，并在运行时间生成该数据模型的业务数据。 在此示例中，您将为给示例公司 Litware，Inc. 创建的现有数据模型选择数据源。为了完成这些步骤，您首先必须完成“创建新数据模型”这一过程中的步骤。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-worker-information"></a>输入工作人员信息
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 在招聘人员创建了批量雇用项目并生成职位后，下一步是输入受雇人员的信息。 创建此程序的演示数据公司是 USMF。 演示数据包含开放的批量雇用项目。 启动此程序，请转到“人力资源”>“人才招聘”>“大型招聘项目”。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-work-class"></a>创建工作类
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会显示如何设置工作类。 工作类用于处理和/或限制工作指令行的类型，以便仓库工作人员可以在移动设备上进行处理。 可以藉由仓库工作人员可以访问的移动设备菜单项上的工作类和工作行上指定的工作类，确定工作人员可以处理的行。 工作类还可用于验证工作指令行的存放位置。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 该过程专门面向仓库经理。
 

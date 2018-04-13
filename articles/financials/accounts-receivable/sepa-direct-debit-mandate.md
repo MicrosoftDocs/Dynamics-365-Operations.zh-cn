@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-sepa-direct-debit-mandate"></a>设置 SEPA 直接借记授权单
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 在客户将已经签署的授权授予债权人的情况下，单一欧元支付区 (SEPA) 直接借记允许债权人从客户的银行帐户中筹集资金。 客户签署的授权允许债权人收取付款，并指示客户方银行支付该收款。 此主题的组织是为了显示 SEPA 直接借记授权单的设置流程。
 

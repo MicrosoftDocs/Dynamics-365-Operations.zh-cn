@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounting-distributions"></a>会计分配
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关会计分配的信息并介绍可用于处理它们的选项。 会计分配用于将原始凭证的货币金额分配到特定会计科目。 
 

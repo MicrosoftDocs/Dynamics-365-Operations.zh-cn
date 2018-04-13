@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="purchasing-policies"></a>采购策略
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 文本提供有关采购策略的信息。 采购策略是控制申请流程的规则的集合。 采购策略通过创建符合组织的战略采购需求的策略结构帮助采购管理员实现其采购战略。
 

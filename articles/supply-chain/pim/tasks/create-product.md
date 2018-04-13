@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product"></a>创建产品
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何在零售产品层次结构中创建新产品。 用于创建此任务的演示数据公司是 USRT，此任务旨在面向采购经理和产品设计师。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-short-picking-item-reallocation"></a>设置领料短缺的物料重新分配
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何启用仓库工作人员，以便在为其指示的库位的库存不足时，快速找到备用库位。 可以使用自动重新分配流程，该流程使用库位指令检索货物，前提是这些货物在另一个库位可用。 此外，如果使用手动重新分配，则移动设备上将显示库位列表和可用数量，供仓库工作人员选择使用哪个库位的库存。 您可以在演示数据公司 USMF 中使用此过程。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

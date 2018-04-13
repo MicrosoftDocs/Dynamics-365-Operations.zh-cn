@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-address-books"></a>配置通讯簿
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 使用该过程以及您在规划中作出的决定、全球通讯簿的配置和其他通讯簿主题，为您的组织设置其他通讯簿。
 

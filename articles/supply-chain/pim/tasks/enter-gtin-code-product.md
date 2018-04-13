@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>输入产品的 GTIN 代码
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 GTIN 代码由 GS1 组织分配。 在此示例中，您将为演示数据公司 USMF 中的产品编号 M0001 输入代码。
 

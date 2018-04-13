@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-banner-or-logo"></a>更改横幅或徽标
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 系统管理员可以用以下过程列出的步骤更新法人展示所用的横幅或形象标识。 创建此程序的演示数据公司是 USMF。
 

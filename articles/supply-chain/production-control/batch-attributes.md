@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="batch-attributes"></a>批次属性
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 文主题提供有关批属性的信息。 批次属性是构成库存批次的原材料和成品的特征。 本主题还说明如何分配批属性，以及如何在预留批处理时对它们进行搜索。
 

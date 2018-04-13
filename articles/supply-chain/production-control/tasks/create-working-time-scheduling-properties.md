@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-scheduling-properties"></a>创建工作时间计划属性
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 工时安排属性用于对工时间隔进行分类和定义操作人员必须考虑的设置。 该程序说明如何定义工时安排属性及相关属性值。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 

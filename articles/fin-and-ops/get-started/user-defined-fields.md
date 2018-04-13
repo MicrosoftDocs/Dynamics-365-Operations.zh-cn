@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="custom-fields"></a>自定义字段
 
-[!include[banner](../includes/banner.md)] 
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 尽管 Microsoft Dynamics 365 for Finance and Operations 提供了大量的现成字段来管理各种业务流程，公司有时也需要跟踪系统中的更多信息。 为了满足这样的需要，Finance and Operations 允许用户创建自定义字段以根据业务调整应用程序，前提是该用户拥有此项功能的权限。 
 

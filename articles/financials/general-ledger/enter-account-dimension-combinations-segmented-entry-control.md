@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="enter-account-and-dimension-combinations-segmented-entry-control"></a>输入科目和维度组合（Segmented Entry 控件）
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍如何输入帐户和维度组合或会计科目。 此输入经验通常称为 Segmented Entry 控件。
 
@@ -112,7 +111,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
- 
+
 
 
 

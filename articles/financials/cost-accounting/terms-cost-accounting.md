@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="cost-accounting-terminology"></a>成本核算术语
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题定义了成本核算中使用的重要术语。
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  增加额 |
 |  – |  减 |
 | *  | 乘  |
-    
+
 不支持传统的 IF 语句。 但是，您可以创建语句并验证它们是否正确。
 
 |  **对账单验证** | **结果**  |
 |---|---|
 |  a > b| 真  |
 |  a > b |  假 |
-    
+
 **间接成本**
 
 开销成本是指经营业务的持续支出。 这些成本无法直接关联到具体的业务活动。 以下是一些开销成本示例：

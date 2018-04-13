@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-and-design-financial-reports"></a>查看和设计财务报表
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供练习，引导您为 Microsoft Dynamics 365 for Finance and Operations 查看和创建财务报表。 财务申报包含 Finance and Operations 内的查看体验和供您创建和编辑财务报表的一键式报表设计器。  
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balance-sheet-financial-reports"></a>资产负债表财务报表
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。 
 
@@ -71,7 +70,7 @@ ms.lasthandoff: 11/03/2017
     -   **DESC** – 行定义的描述
     -   **FD** – 当前年度的本年迄今财务数据
 
- 
+
 
 <a name="see-also"></a>请参阅
 --------

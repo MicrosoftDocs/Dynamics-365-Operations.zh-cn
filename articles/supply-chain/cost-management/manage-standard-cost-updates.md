@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-standard-cost-updates"></a>管理标准成本更新
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 可以使用两种不同的方法管理对标准成本数据的更新 - 单版本方法或双版本方法。 
 

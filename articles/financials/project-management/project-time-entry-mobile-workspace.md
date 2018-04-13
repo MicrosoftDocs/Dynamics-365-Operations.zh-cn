@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-time-entry-mobile-workspace"></a>项目时间条目移动工作区
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题提供有关**项目时间条目**移动工作区的信息。 此工作区让用户可以使用其移动设备根据项目输入和保存时间。
 

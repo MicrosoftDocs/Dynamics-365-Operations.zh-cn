@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-format-configuration-for-electronic-reporting-er"></a>针对电子申报 (ER) 创建格式配置
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。 此格式配置定义用于处理付款的电子单据的格式。 为了完成这些步骤，您首先必须完成“映射模型到所选数据源”这一过程中的步骤。
 

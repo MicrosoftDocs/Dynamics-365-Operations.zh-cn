@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-resource-capabilities"></a>定义资源功能
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 资源功能描述了运营资源可执行的内容。 在安排期间，每个工作和操作的要求都将与可用资源的功能相匹配。 该任务指南将帮助您创建资源功能并其分配给资源。 创建此任务的演示数据公司是 USMF。
 

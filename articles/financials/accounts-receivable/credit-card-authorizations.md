@@ -28,10 +28,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-card-setup-authorization-and-capture"></a>信用卡设置、授权和捕获
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 本文对 Microsoft Dynamics 365 for Finance and Operations 中的信用卡授权进行概述。 其中包含有关如何设置付款服务，添加信用卡到销售订单和取消授权的信息。
 

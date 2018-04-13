@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a>为 Retail Modern POS 设置和管理图像
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 本文说明设置和管理显示在 Retail Modern POS (MPOS) 中的各个实体的图像所涉及的步骤。
 
@@ -141,7 +140,7 @@ MPOS 可以在联机模式下运行（当 MPOS 连接到零售服务器时），
 6.  当 MPOS 处于联机模式时，在 HQ 中运行目录作业，以确保至少一次将数据发送到脱机数据库。
 7.  将 MPOS 置于脱机模式。 您应该可以在 HQ 中看到您为特定产品上载的图像。 [![offline1](./media/offline1.png)](./media/offline1.png)
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>将目录、类别、员工和客户图像设置为在 MPOS 的脱机模式下显示
 

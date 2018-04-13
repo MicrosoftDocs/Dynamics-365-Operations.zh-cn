@@ -24,7 +24,7 @@ ms.lasthandoff: 10/25/2017
 ---
 # <a name="create-a-product-master"></a>创建基础产品
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 为预定义变型创建基础产品。 创建此程序的演示数据公司是 USMF。 此过程专门针对产品设计人员。
 

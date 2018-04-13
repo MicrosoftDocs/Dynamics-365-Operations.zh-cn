@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="packing-materials-and-fees"></a>包装材料和费用
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 定期向回收公司支付包装材料费用。 为包装单位中包含的每种材料支付每个单位重量的金额。 程序将计算和报告包装材料费用，但是不过帐分录，因为没有将这些费用视为要向主管机构缴纳的税款。
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>在发票上打印包装材料重量
 可以在发票上打印包装材料重量并指明由谁来支付包装材料费用。 重量按包装代码来汇总。
- 
+
 
 
 

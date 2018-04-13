@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a>针对电子申报 (ER) 管理模型映射配置
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明了指派为“系统管理员”或者“电子电子报表开发人员”角色的用户如何管理单独 ER 配置中的电子申报 (ER) 模型映射。 在此任务指南中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成此任务指南，您必须首先完成任务指南“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 
 

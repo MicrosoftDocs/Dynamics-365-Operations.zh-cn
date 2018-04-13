@@ -24,7 +24,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="create-routes-february-2016-only"></a>创建工艺路线（仅 2016 年 2 月）
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务的重点是为一件成品和一件半成品创建生产工艺路线。 这是 BOM 计算系列中的第五个任务。 创建此任务的演示数据公司是 USMF。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>将现有活动添加到生产流版本
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 创建生产流的新版本时，可以选择将为较低版本创建的活动添加到新版本。 此过程显示如何在不复制活动的情况下，为现有生产流创建新版本。 在下一步中，将现有活动添加到新版本。 
 

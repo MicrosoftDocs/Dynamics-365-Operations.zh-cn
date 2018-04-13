@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configuration-keys-and-data-entities"></a>配置键和数据实体
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 使用数据实体导入或导出数据之前，建议首先确定配置键对要使用的数据实体的影响。 
 

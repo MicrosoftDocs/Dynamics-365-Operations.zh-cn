@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>销售税分配和覆盖
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程演示如何为零售渠道分配增值税组。 还逐步演示了新建增值税覆盖并分配给现有增值税覆盖组的过程。 此过程
 

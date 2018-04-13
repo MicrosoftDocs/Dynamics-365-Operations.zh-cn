@@ -29,7 +29,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="cost-management-home-page"></a>成本管理主页
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 可通过[成本管理（视频）](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)处理原材料、半成品、成品和在制品资产的计价和核算。 这是定义、管理和报告[库存会计](cost-object.md)和[制造会计](bom-calculations.md)的过程。
 

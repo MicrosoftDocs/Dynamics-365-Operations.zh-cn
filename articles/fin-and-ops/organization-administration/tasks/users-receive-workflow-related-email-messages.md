@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>使得用户能够接收工作流相关的电子邮件消息
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 在工作流相关事件发生时，您可以配置系统将电子邮件消息发送给用户。 例如，当分配文档供审核时，可以将电子邮件消息发送给用户。 创建此程序的演示数据公司是 USMF。
 

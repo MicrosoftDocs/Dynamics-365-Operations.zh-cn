@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="income-statement-financial-report"></a>收入报表财务报表
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍默认收入报表。 还介绍此报表的关联构建块。 
 
@@ -60,7 +59,7 @@ ms.lasthandoff: 11/03/2017
     -   **FD** – 当前期间的财务数据
     -   **FD** – 本年迄今的财务数据
 
- 
+
 
 <a name="see-also"></a>请参阅
 --------

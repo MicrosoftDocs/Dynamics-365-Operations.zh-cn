@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="include-container-weight-and-volume-on-load"></a>包括容器重量和负荷的体积
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 用于包括容器重量和负荷的体积的功能明确表示容器的总重量和体积以及进入负荷的物料。
 

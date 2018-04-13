@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-customer-and-product-profitability"></a>评估客户和产品收益率
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 本文介绍如何使用内存中的实时分析来从您的 Microsoft Dynamics 365 for Retail 数据访问、探索和深入了解客户和产品收益率。 
 

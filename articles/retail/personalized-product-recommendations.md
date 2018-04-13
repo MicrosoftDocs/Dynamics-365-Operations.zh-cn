@@ -29,8 +29,7 @@ ms.lasthandoff: 03/08/2018
 
 # <a name="personalized-product-recommendations-overview"></a>个性化产品建议概览
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > 我们将移除当前的产品建议服务版本，因为我们为这项功能重新设计了更出色的算法和更新的面向零售的功能。 有关详细信息，请参阅[已删除或弃用的功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features)。 如果您在针对您的环境的已启用产品建议方面遇到问题，请导航到页面底部。 
@@ -86,9 +85,9 @@ ms.lasthandoff: 03/08/2018
 -   将模型凭据和 ID 提供给 CRT，以便可以处理联机模式下对 Cloud POS 和 MPOS 的产品建议的请求。
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a>排除您已启用了产品建议时遇到的问题 
->- 导航到**零售参数** > **机器学习** > **禁用产品建议**，然后运行**全局配置 [1110]**。 如果找不到**机器学习**选项卡，请联系 Dynamics 支持。 
-
->- 如果使用**屏幕布局设计器**为交易记录屏幕添加了**建议控件**，请将其一并移除。 
+> - 导航到**零售参数** > **机器学习** > **禁用产品建议**，然后运行**全局配置 [1110]**。 如果找不到**机器学习**选项卡，请联系 Dynamics 支持。 
+> 
+> - 如果使用**屏幕布局设计器**为交易记录屏幕添加了**建议控件**，请将其一并移除。 
 
 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="call-center-functionality"></a>呼叫中心功能
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 本文提供 Microsoft Dynamics 365 for Retail 中呼叫中心销售功能的概览。
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="navigation-search"></a>导航搜索
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题说明如何使用搜索功能导航到 Microsoft Dynamics 365 for Finance and Operations 中的页面。
 

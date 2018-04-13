@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-bill-of-materials-for-a-dimension-based-product-master"></a>创建基于维度的基础产品的物料清单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 对于此过程，您应该已经以八个记录的这个顺序完成之前的 4 个指南。 前 4 个记录设置完成此过程需要的数据。 创建此程序的演示数据公司是 USMF。 此任务通常由产品设计器处理。
 

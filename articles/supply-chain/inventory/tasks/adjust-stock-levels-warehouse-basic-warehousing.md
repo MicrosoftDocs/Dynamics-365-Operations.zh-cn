@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a>调整仓库中的库存级别（基本仓库）
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程向您介绍创建和过帐库存调整日记帐以调整仓库中的产品库存水平。 在开始前，您需要为库存调整设置一个库存日记帐名称。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。 这些任务通常由仓库员工完成。
 

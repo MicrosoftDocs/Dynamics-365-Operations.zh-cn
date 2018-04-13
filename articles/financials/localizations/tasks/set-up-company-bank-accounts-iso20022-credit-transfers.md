@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a>设置 ISO20022 贷方转帐的公司银行帐户
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何设置生成付款文件所需的，公司具体的银行帐户信息。 您设置生成 ISO 20022 贷方转帐格式所需的信息，但是根据格式可能需要其他信息，如德国 ID 或分类代码。 
 

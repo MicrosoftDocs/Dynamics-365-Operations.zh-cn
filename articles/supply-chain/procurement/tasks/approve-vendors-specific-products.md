@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-vendors-for-specific-products"></a>审核特定产品的供应商
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何审核特定产品的供应商。 这允许您控制使在产品添加到采购订单时可以使用哪个供应商。 您可以使用演示数据公司 USMF 或您自己的数据使用该程序。 此任务通常由采购经理完成。
 

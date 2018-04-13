@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="postdated-checks"></a>远期支票
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关 Microsoft Dynamics 365 for Finance and Operations 中远期支票的支持的信息。 远期支票是签发用于在将来时间进行付款和收款的支票。 因此，支票在指定日期前不能兑现。
 
@@ -76,14 +75,14 @@ Microsoft Dynamics 365 for Finance and Operations 支持应收账款和应付账
 <td>您可以在以下情况下取消已过帐的远期支票: - 银行退回了支票。
 - 该支票被应用于不正确的发票。
 - 现金支付是针对发票而存在的。
-</td>
-</tr>
-<tr class="even">
-<td>停止远期支票付款</td>
-<td>您可以停止对签发给供应商的远期支票的付款，原因可以是资金不足、与供应商的协议更改、供应商提供残次货物或货物返还给了供应商等。 您只能停止未清算的支票上的付款。</td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td>停止远期支票付款</td>
+  <td>您可以停止对签发给供应商的远期支票的付款，原因可以是资金不足、与供应商的协议更改、供应商提供残次货物或货物返还给了供应商等。 您只能停止未清算的支票上的付款。</td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

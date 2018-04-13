@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>在固定薪酬计划中登记员工
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 薪酬福利经理可以指派不同雇员不同的固定薪酬计划以确定其各自的基本工资。 此程序假设已经创建了一个有效的固定薪酬计划，且该计划的资格规定也已经设置完成。 创建此程序的演示数据公司是 USMF。 启动该程序，请转到“人力资源”>“工作人员”>“雇员”>“薪酬”>“固定计划”
 

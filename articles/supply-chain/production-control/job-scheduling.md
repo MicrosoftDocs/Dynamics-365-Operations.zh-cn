@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="job-scheduling"></a>作业级排产
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关作业级排产的信息，其是比工序级排产更详细的排产形式。 您可以使用作业级排产来计划单独的作业或车间订单和控制制造环境。
 

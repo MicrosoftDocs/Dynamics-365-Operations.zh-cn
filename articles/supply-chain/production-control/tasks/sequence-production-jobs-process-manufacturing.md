@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>对流程制造的生产作业排序
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程使用油漆产品作为示例显示如何根据颜色和包装大小的优先级排序计划订单。 创建此程序的演示数据公司是 USPI。 此程序是专为生产规划员设计的。
 

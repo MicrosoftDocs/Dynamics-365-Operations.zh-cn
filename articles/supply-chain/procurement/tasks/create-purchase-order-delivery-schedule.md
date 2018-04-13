@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>创建含交货计划的采购订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何为采购订单创建交货计划。 在请求在多个装运中交付订单或日记帐上的数量时，使用交货计划。 可以在 USMF 演示数据公司中使用本指南中的示例。 此过程通常由采购代理完成。
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 03/05/2018
 
 # <a name="ship-an-order-from-a-different-store"></a>装运来自不同商店的订单
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 使用 Dynamics 365 for Retail 中的“费用发送”功能，可以在一个商店下达客户订单，从另一个商店装运。 销售点 (POS) 客户端的客户订单支持多个履行选项。 一些履行选项的示例包括：
 -   在不同日期从同一个商店提货。

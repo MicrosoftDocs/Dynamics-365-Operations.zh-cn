@@ -28,7 +28,7 @@ ms.lasthandoff: 03/21/2018
 
 # <a name="display-debit-and-credit-amounts-in-ledger-accounts-for-china"></a>显示中国会计科目的借方和贷方金额
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。 
 

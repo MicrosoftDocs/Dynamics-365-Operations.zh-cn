@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-carrier-fuel-index"></a>设置承运人燃油指数
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 本指南介绍了如何创建燃油指数区域、燃油指数和承运人燃油指数。 燃油指数区域指定燃油指数应该应用到哪个区域，燃油指数指定特定时间段的燃油价格。 若要反映燃料价格随时间的变化，可将多个燃油指数与承运人关联。  这些任务通常由运输协调员完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。
 

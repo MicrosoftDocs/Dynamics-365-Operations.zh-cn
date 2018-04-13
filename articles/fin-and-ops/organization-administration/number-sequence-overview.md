@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="number-sequences"></a>编号规则
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 编号规则用于为需要标识符的主数据记录和交易记录生成可读的唯一标识符。 需要标识符的主数据记录或交易记录称为*“参考”*。
 

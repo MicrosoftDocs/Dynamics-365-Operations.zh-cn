@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>为制造物料摊销固定成本
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 制造物料的固定成本反映工序设置时间以及具有固定数量或固定残值金额的组件。 
 

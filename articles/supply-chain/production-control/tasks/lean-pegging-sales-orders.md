@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="lean-pegging-from-sales-orders"></a>销售订单的精益限定标准
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程主要为验证看板生产物料的销售行限定标准树形图而设计的。 在验证限定标准树形图后，所有的看板作业为计划作业。 这对订单员需要保证立刻生产的订单方案有用。 创建此程序的演示数据公司是 USMF。 该过程目的在于设计精益公司的高级订单员的工作。
 

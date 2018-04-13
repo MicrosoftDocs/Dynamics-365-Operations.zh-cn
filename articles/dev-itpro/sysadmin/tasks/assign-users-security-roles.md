@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="assign-users-to-security-roles"></a>向安全角色分配用户
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 若要访问 Microsoft Dynamics 365 for Finance and Operations，必须为用户分配安全角色。 此过程说明系统管理员如何基于业务数据将用户自动分配到角色。 创建此程序的演示数据公司是 USMF。
 

@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent 入门
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 在 Microsoft Dynamics 365 for Talent 中，可以根据您的需求轻松修改用户界面和设置让软件更加直观的选项。 此主题包括了一些主题的链接，这些主题提供了如何让用户界面适应您的偏好的信息。 主题还包括如何在系统中高效准确地查找信息的信息。 
 

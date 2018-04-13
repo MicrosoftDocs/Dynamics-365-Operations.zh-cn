@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="standard-cost-conversion-overview"></a>标准成本转换概览
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供帮助您设置和运行标准成本转换的流程概览。 列出的步骤用于在您完成了标准成本转换的先决条件后完成。 
 

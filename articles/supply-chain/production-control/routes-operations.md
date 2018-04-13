@@ -29,8 +29,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="routes-and-operations"></a>工艺路线和工序
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题提供了有关工艺路线和工序的信息。 工艺路线定义生产产品或产品变型的流程。 它描述生产流程中的各步骤（工序）和这些步骤必须遵循的执行顺序。 对于每个步骤，工艺路线还定义所需工序资源、所需设置时间和运行时间，以及应如何计算成本。
 

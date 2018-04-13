@@ -28,8 +28,7 @@ ms.lasthandoff: 01/23/2018
 
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题描述配置中国的税务集成的流程。
 

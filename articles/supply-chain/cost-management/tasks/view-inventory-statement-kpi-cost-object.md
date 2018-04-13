@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>按成本对象查看库存报表和 KPI
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 创建此程序的演示数据公司是 USMF。 此程序是专为成本控制设计的。
 

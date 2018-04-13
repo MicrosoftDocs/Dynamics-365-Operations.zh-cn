@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>为负荷设置约会
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何为负荷设置和计划码头预约。 这通常由运输协调员完成。 您可以在 USMF 演示数据公司中使用此过程。
 

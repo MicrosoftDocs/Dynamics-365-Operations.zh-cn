@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-replacement-kanban-rule"></a>创建替换看板规则
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程介绍在特定日期将现有看板规则替换为新看板规则。 在生产流或补货规则的更改需要协调和计划时这很有用。 用于创建过程的演示数据公司是 USMF。 当他们为更改的生产流或新补货规则准备生产时，该过程面向工艺工程师和价值流经理。 此任务使用新规则替换看板规则 000022，并且将新规则的最大数量从 48 增加到 100。
 

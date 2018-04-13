@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-closed-ended-question"></a>创建封闭式问题
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 封闭式问题允许您为回答者提供供选择的选项。 首先，您需要创建有回答的回答组，然后创建使用该回答组的问题。 创建此程序的演示数据公司是 USMF。
 

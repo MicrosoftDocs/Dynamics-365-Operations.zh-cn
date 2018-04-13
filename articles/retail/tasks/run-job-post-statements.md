@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-and-run-a-job-to-post-statements"></a>配置和运行过帐报表作业
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何配置和运行某一重复批处理作业，以过帐选定商店或商店组的报表。 此程序使用 USRT 演示数据公司。
 

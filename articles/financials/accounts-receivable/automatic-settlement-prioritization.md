@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="automatic-settlement-and-prioritization"></a>自动结算和优先级
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍如果您在应收账款参数页选择“自动结算”，交易记录如何结算。 另外还说明自动结算如何与付款优先级结合使用。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 11/08/2017
 ---
 # <a name="rename-or-modify-a-project-stage"></a>重命名或修改项目阶段
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 项目阶段可以充当项目生命周期的指引。 您可以在“项目管理与核算参数”页的“项目阶段”区域定义您想要包括在您的项目中的项目阶段。 Dynamics 365 for Finance and Operations 提供五个预定义的项目阶段和三个用户定义的阶段。 可以更新用于跟踪项目进度的项目阶段的名称。 还可以为用户定义的状态名称提供名称。 此任务显示如何重命名或修改项目阶段，以及如何使用 USSI 数据集。
 

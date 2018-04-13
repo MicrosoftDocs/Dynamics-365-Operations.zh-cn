@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="access-rights-of-a-cost-object-controller"></a>成本对象控制员的访问权限
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **成本控制**工作区是经理可以查看其成本对象的性能的一个中心点。 此工作区使经理可以使用成本核算数据，即使他们不是成本会计员。 出于安全原因，应仅允许经理查看与他们负责的具体成本对象有关的成本核算数据。
 

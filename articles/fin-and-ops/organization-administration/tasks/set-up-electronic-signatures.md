@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-electronic-signatures"></a>设置电子签名
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 使用该过程设置电子签名。 电子签名确认要启动或审核计算流程的人员的身份。 用于创建该过程的演示数据公司是 DAT。
 

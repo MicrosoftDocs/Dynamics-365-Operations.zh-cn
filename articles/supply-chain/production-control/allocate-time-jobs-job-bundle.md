@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>分配时间到作业捆绑中的作业
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 在“制造执行”中，您可以捆绑作业。 然后您可以在工作列表页同时开始多个作业。
 

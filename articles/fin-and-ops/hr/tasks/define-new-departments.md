@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-departments"></a>定义新部门
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 部门作为运作单位代表一个商业职能范围，如销售或财务部门。 许多公司的组织结构都展示了商业中部门的多样性。 该过程简单介绍了如何创建部门并把这些部门添加到一个组织结构。 创建此程序的演示数据公司是 USMF。
 

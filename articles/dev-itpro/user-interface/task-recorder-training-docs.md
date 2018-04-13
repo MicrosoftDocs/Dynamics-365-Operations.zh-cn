@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="create-documentation-or-training-using-task-recordings"></a>使用任务录制创建文档或培训
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题介绍任务录制器和任务指南是什么，如何创建任务录制，以及如何自定义 Microsoft 任务指南和将其加入帮助中。
 

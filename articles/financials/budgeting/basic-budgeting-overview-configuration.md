@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budgeting-overview"></a>预算编制概览
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 几乎每家使用 Microsoft Dynamics 365 for Finance and Operations 中的财务功能的公司都必须可以创建预算与实际的报表、 本文说明要在 Finance and Operations 中创建预算或从第三方程序加载预算所需的最低配置。
 

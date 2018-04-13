@@ -28,10 +28,9 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>使用部门、工作和职位组织您的员工
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
-[!include[retail name](includes/retail-name.md)]
-
+[!INCLUDE [retail name](includes/retail-name.md)]
 
 部门、作业和职位在人力资源中维护的组织元素。 本主题介绍有关这些元素的概念信息。 
 
@@ -48,7 +47,7 @@ ms.lasthandoff: 02/07/2018
 |**人力资源**|人力资源经理（西部）|人力资源经理|
 |**人力资源**|人力资源经理（中部）|人力资源经理|
 
- 
+
  <a name="departments"></a>部门
 ------------
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="plan-loads-and-shipments-using-the-load-planning-workbench"></a>使用装载计划工作台计划负荷和装运
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何使用装载计划工作台创建销售订单的装载量。 作为先决条件，我们将首先创建销售订单。 此过程为运输协调员日常工作的一部分。 创建此程序的演示数据公司是 USMF。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-pos-permission-groups"></a>创建 POS 权限组
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序将会显示如何创建 POS 权限组。 创建此任务的演示数据公司是 USRT。 此任务旨在面向零售运营经理。
 

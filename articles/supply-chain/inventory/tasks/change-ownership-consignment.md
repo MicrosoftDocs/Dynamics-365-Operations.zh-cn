@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a>根据生产需求更改托运库存的所有权
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示在生产需要库存时，如何将托运库存的所有者从供应商更改为法人。 所有权的此项更改通过创建并过帐库存所有权更改日记帐完成。 所有权更改日记帐行可以手动创建，也可以根据现有生产需要按照此记录中的显示创建。 通常由车间主管执行此任务。 您可以在 USMF 演示数据公司，也可在您自己的数据中运行该过程。 如果您在使用自己的数据，请确保已满足以下先决条件：为库存所有权更改设置的库存日记帐名称、物理记录且由供应商拥有的现成物料，以及材料的一个或多个生产订单行。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

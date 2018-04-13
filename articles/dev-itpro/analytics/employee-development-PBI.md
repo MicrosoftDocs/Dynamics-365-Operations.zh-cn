@@ -25,7 +25,7 @@ ms.lasthandoff: 12/19/2017
 
 # <a name="employee-development-power-bi-content"></a>员工发展 Power BI 内容
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题描述**员工发展** Microsoft Power BI 内容。
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 12/19/2017
 可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
+
 | 实体                   | 内容                                                                                                   | 与其他实体之间的关系 |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | 日历偏差          | 要切分的日历偏差报表                                                                          | 过去的职位分配、职位趋势、员工趋势、已离职的员工 

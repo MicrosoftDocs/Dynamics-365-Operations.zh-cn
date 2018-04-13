@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-delivery-schedule"></a>创建交货计划
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何为销售订单创建交货计划。 在请求在多个装运中交付订单或报价单上的数量时，使用交货计划。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。
 

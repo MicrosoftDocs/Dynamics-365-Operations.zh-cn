@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="execute-kanban-process-jobs"></a>执行看板处理作业
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程介绍看板流程作业的执行。 第一个作业按预期数量完成并没有错误。 第二个作业完成时包含错误。 创建此程序的演示数据公司是 USMF。 此过程是专为机器操作员设计的。
 

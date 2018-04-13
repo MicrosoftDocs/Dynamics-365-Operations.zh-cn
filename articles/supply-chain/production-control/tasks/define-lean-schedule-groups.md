@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-schedule-groups"></a>定义精益计划组
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 精益计划组被定义为组，可区分看板计划中的产品。 每个公司或特定工作单元均可以通过通用关联实现分组。 为了在看板计划列表页具有目视识别特征，每个组都被分配了一个颜色代码。 创建此程序的演示数据公司是 USMF。
 

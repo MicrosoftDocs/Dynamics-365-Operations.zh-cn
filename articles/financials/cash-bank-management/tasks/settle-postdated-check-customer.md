@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a>结算客户的远期支票
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该支票由银行清算后，您可以结算过期支票。 此财务交易记录也清算了过期支票的过桥科目交易记录。 
 

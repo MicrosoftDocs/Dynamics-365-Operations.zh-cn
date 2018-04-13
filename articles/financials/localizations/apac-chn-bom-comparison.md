@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bill-of-materials-comparison-for-china"></a>中国的物料清单比较
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题提供了有关中国的物料清单比较的信息。
 

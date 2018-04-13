@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="kanban-job-scheduling-for-lean-manufacturing"></a>Lean manufacturing 的 看板作业计划
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 文本提供有关看板作业计划和各种看板作业计划方法的可视化控制的信息。  
 

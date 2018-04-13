@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="manage-warehouse-workers"></a>管理仓库工作人员
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍如何使用 Microsoft Dynamics 365 for Finance and Operations 帮助监控由您仓库的员工执行的工作。
 

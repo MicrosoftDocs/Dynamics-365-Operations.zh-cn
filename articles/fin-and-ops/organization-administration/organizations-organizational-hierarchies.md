@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="organizations-and-organizational-hierarchies"></a>组织和组织层次结构
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 组织是共同工作以执行业务流程的群体。 组织层次结构表示构成您的公司的组织之间的关系。
 

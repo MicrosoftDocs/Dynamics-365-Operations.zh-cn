@@ -28,8 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-invoices-overview"></a>供应商发票概览
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关供应商发票的一般信息。 供应商发票收到的产品和服务的付款请求。 供应商发票可以表示正在进行中的服务的帐单，也可以基于特定物料和服务的采购订单。 
 
@@ -87,11 +86,11 @@ ms.lasthandoff: 12/14/2017
  - [设置供应商发票策略](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [使用供应商发票将发票数据键入应付账款](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [使用审核日记帐将发票数据键入应付帐款](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [使用发票池将发票数据键入 AP 系统](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [在发票日记帐中记录供应商发票](tasks/record-vendor-invoice-invoice-journal.md)
 
 

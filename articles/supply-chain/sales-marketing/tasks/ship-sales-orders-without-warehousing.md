@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>装运无仓库的销售订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 本指南演示在将产品发运给客户时如何更新销售订单。 本指南适用于没有为仓库管理设置的履行流程（不论是基本还是高级仓库），因而不需要在装运前登记产品领料。 您可以使用演示数据公司 USMF 或您自己的数据运行该过程。 在这两种情况下，在您开始此任务前，为数量大于 1 的库存产品创建销售订单。 为了避免过帐错误，您需要检查您在订单上选择的站点和仓库中产品的现有数量包含订单数量。
 

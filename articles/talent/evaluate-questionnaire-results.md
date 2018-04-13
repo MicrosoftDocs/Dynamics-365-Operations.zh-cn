@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="view-and-evaluate-the-results-of-a-questionnaire"></a>查看和评估调查表的结果
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 本主题介绍如何查看和评估回应者完成的调查表的结果。 
 

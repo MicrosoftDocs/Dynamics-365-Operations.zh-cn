@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>向 CFO 工作区添加财务维度
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题说明如何向首席财务官 (CFO) 工作区添加财务维度，以便可将其用于分类帐和预算报表。 CFO 工作区具有**概述**选项卡和**财务**选项卡。这两个选项卡上的报表受以下两个度量支持：LedgerActivityMeasure 和 BudgetActivityMeasure。 在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）中，这两个度量与 DimensionCombinationEntity 实体之间存在关系。 因此，您可以选择维度。
 

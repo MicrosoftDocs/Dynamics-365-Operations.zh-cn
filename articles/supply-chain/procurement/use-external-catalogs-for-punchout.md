@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="use-external-catalogs-for-punchout-eprocurement"></a>针对电子采购发包使用外部目录
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 通过针对电子采购发包使用外部目录，您不必再在自己的主数据中维护与您的供应商的产品有关的信息。 相反，供应商网站上的购物车将转换为具有正确产品信息的申请行。 
 

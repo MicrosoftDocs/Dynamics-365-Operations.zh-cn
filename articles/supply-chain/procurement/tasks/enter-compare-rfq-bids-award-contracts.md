@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>输入和比较询价出价并授予合同
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示您如何输入给询价的回复，以及如何对出价评分和比较出价，然后将出价授予某一供应商。 您可以在演示数据公司 USMF 中使用此过程。 在您开始前，您必须有具有至少发送给两个供应商的两个行的询价。 您可以运行“创建询价”过程作为创建此询价的先决条件。 您需要先设置计分条件才能运行此过程。
 

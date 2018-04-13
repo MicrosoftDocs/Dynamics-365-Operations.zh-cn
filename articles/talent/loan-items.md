@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-items-lent-to-workers"></a>管理借出给工作人员的物品
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 借出物品是帮助经理跟踪您的公司借出给工作人员的实际物品。 
 
@@ -51,7 +50,7 @@ ms.lasthandoff: 11/03/2017
 
 如果物品被损坏或放错了地方，应输入虚拟的归还记录。 然后删除该物品或将其保留在概览中，并更改描述以指出该物品不可用。
 
- 
+
 <a name="see-also"></a>请参阅
 --------
 

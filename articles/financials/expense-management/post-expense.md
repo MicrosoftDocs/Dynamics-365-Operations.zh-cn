@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="post-an-expense-report"></a>过帐支出报表
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 在支出报表已审核和转移到总帐后，可以将其过帐到总帐。 在您过帐支出报表时，将标识适用于增值税 (VAT) 回收的费用。 验证和回收增值税付款的任务被分配给负责验证支出报表的员工。
 

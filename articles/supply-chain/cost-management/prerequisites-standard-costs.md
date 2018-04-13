@@ -29,8 +29,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="prerequisites-for-standard-costs"></a>针对标准成本的先决条件
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍使用标准成本的基本步骤。 后续步骤取决于公司的运营。 例如，对于非制造环境、不使用工艺路线的制造环境和使用工艺路线的制造环境，这些步骤有所不同。 
 

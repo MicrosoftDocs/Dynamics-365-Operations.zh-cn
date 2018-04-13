@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-control-overview"></a>成本控制概览 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **成本控制**工作区是负责控制一个维度内或跨维度（例如，成本中心和产品组）的一个成本对象或一组成本对象的经理可以访问报表的一个中心点。 此工作区中的报表由成本会计员完全管理，因此版式和用于报表的数据可以在整个组织中保持一致。
 

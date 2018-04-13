@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>设计配置以分析应用程序数据更新的传入单据 (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何设计电子报告 (ER) 配置以分析传入电子单据。 在此过程中，将导入已为示例公司 Litware 公司创建的所需 ER 配置，并用于分析传入的电子单据。 为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。
 

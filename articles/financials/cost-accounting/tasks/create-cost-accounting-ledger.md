@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-cost-accounting-ledger"></a>创建成本核算分类帐
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 成本核算分类帐表示整个报告单位。 它由成本元素维度、统计维度、会计日历和币种定义。 它对法人概念不可知。 可将法人及其数据与多个成本核算分类帐关联。 此录制使用 USP2 演示数据公司。
 

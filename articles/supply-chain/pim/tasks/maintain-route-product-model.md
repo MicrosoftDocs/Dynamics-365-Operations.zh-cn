@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-a-route-for-a-product-model"></a>维护产品模型的工艺路线
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程的运行要求有现有的产品配置模型。 该过程使用演示公司 USMF 的高端扬声器模型向您介绍流程步骤。
 

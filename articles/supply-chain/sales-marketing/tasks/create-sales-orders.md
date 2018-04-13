@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-orders"></a>创建销售订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程说明如何创建销售订单。 您可以在演示数据公司 USMF 中使用此过程。 销售订单通常由销售订单处理器创建。 
 

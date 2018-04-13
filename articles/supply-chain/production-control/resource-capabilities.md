@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="resource-capabilities"></a>资源功能
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此期限提供有关资源功能的信息。 功能指执行特定活动的运营资源的能力。 本文章说明功能和相关概念（例如熟练程度和优先级）如何用于选择活动的相应资源。
 

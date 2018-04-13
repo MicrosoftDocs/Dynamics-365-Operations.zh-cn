@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="price-simulation"></a>价格模拟
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关报价单价格模拟的信息。 价格模拟帮助您在确定特定价格前评估报价流程中将来销售价格扣除额的效果。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-chinese-vouchers"></a>设置中国式凭证
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程逐步演示如何使用特定演示数据设置中国式凭证。
 中国式凭证编号是中国式财务报表的基础。 必须先设置此类编号，才能执行任何财务交易过帐。 只能按照此过程的演示一次一个设置凭证，也可以使用凭证类型设置向导设置。

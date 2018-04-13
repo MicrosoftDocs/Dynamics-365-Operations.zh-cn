@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="action-search"></a>操作搜索
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍了 Microsoft Dynamics 365 for Finance and Operations 中的操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。
 

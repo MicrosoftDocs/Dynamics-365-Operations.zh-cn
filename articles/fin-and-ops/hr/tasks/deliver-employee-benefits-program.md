@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deliver-an-employee-benefits-program"></a>交付员工福利计划
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该任务将向您显示，如何创建在创建新福利时需要使用的福利元素。 创建此任务的演示数据公司是 USMF。 此任务专门面向薪资和福利经理。
 

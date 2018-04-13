@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="personnel-actions-faq"></a>人事行动 [常见问题]
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 如果您的组织使用人事行动，该主题包括对可能有的问题的解答。 人事行动是执行特定与人事相关任务时必须完成的附加步骤。 关于可能需要人事行动的示例包括您创建新职位、修改现有职位值、雇用新工作人员、转移工作人员、更改工作员工薪酬、更改职位分配或中止工作人员。
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/07/2018
 如果人事行动请求失败，请执行以下步骤解决错误并重新提交请求：
 
 > 1. 在**操作窗格**上单击**错误文本**按钮查看描述问题的消息文本。
-
+> 
 > 2. 在**操作窗格**上单击**重新启用**可加载最新信息并将人事行动状态设置回**草稿**。
-
+> 
 > 3. 解决该错误，然后单击**完成**或**提交**。
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a>当完成最终批准时使用工作流，人事行动会发生什么？

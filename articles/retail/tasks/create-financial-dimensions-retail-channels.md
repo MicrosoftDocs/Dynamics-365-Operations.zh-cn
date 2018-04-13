@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a>创建零售渠道的财务维度和配置商店上的维度值
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建带有维度值的零售渠道财务维度，以及配置零售商店的财务维度值的步骤。 该主题不包括其他相关步骤，例如创建维度集和科目结构。 此程序使用 USRT 演示数据公司。
 

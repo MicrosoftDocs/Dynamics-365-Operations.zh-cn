@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="help-system-overview"></a>帮助系统概览
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。 
 

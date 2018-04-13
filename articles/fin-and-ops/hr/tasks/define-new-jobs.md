@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-new-jobs"></a>定义新工作
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务的重点是创建新工作。 将通过手动输入和复制模板功能完成创建。 创建此任务的演示数据公司是 USMF。 此任务专门面向人力资源专员。
 

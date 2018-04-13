@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-open-ended-question"></a>创建开放式问题
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 开放式问题使回答者提供他们自己的回答。 您可以控制回答类型：编号、小数、日期、评论等。 此过程介绍创建特定问题类型、开放式问题的整个流程。 若要开始此过程，请转到“调查表”>“设计”>“问题”。 创建此程序的演示数据公司是 USMF。
 

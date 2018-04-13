@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-legal-entity"></a>创建法人
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 法人是通过在法律机关注册标识的组织。 法人可以签订合同，并需要编制汇报其业绩的报表。 以下过程说明如何创建法人。 创建此程序的演示数据公司是 USMF。
 

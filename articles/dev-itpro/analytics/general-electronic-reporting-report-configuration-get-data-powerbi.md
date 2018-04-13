@@ -27,8 +27,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a>配置电子申报以便将数据导入 Power BI
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的 Finance and Operations 实例转移至 Power BI 服务。 例如，本主题使用内部统计交易记录作为必须转移的业务数据。 Power BI 地图可视化使用此内部统计交易记录数据显示 Power BI 报表上的公司导入/导出活动的分析视图。
 
@@ -118,9 +117,9 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a>使用新的数据集创建 Power BI 报表
 1. 单击您创建的**导入和导出详细信息** Power BI 数据集。 
 2. 配置可视化。 例如，选择“**填充的地图**”可视化，然后进行以下配置：
- -   将“**CountryOrigin**”数据集字段分配到地图可视化的“**位置**”字段。
- -   将“**量**”数据集字段分配到地图可视化的“**色饱和度**”字段。
- -   将“**活动**”和“**年度**”数据集字段添加到地图可视化的“**筛选器**”字段集合。
+   -   将“**CountryOrigin**”数据集字段分配到地图可视化的“**位置**”字段。
+   -   将“**量**”数据集字段分配到地图可视化的“**色饱和度**”字段。
+   -   将“**活动**”和“**年度**”数据集字段添加到地图可视化的“**筛选器**”字段集合。
 
 3. 将 Power BI 报表保存为“**导入和导出详细报表**”。 [![导入和导出详细报表](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) 注意地图显示 Excel 文件中提及的国家/地区（在此示例中为奥地利和瑞士）。 这些国家/地区通过颜色显示每个国家/地区开票金额的比例。 
 4. 更新内部统计交易记录列表。 添加由意大利发起的导出交易记录。 [![内部统计交易记录列表](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png) 

@@ -24,7 +24,7 @@ ms.lasthandoff: 03/09/2018
 ---
 # <a name="use-a-model-mapping-configuration-for-aggregate-calculations-at-the-database-leveler"></a>使用模型映射配置在数据库级别执行聚合计算 (ER) 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程提供有关如何设计新电子申报 (ER) 模型映射配置和使用内置 ER 执行有效聚合计算的信息。 在此过程中，您将创建示例公司“Litware 公司”的配置。 
 

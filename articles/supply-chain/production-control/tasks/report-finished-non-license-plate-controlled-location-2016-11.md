@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a>报告为已完工入库到非牌照控制的库位 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务指南显示报告为完工入库到非牌照控制的位置的示例。 一个适用的工作策略是此任务的先决条件。 以前的任务指南显示工作策略的设置。 此任务指南需要 Dynamics AX 应用程序 7.0.1 或更高版本。
 

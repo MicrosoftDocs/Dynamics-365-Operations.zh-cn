@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>在可变薪酬计划中登记员工
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 “薪酬福利经理”招聘可变薪酬计划的雇员，需要计算雇员的现金和非现金奖金。 此程序假设已经创建了一个可变薪酬计划，且该计划的资格规定也已经创建完成，在“招聘能力”字段中设置为“是”。 创建此程序的演示数据公司是 USMF。 启动该过程，请转到“人力资源”>“工作人员”>“雇员”>“薪酬”>“可变薪酬计划招聘”
 

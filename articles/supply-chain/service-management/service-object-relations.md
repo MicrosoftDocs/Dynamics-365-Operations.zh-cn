@@ -28,9 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-relations"></a>服务对象关系 
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 您可以在服务对象和服务协议或服务订单之间创建服务对象关系。 在您创建某一关系时，将服务对象附加到服务协议或服务订单。
 

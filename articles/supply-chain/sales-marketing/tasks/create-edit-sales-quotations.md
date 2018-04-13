@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-and-edit-sales-quotations"></a>创建和编辑销售报价单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程演示如何创建和更新销售报价单。 您可以使用演示数据公司 USMF 或您自己的数据运行该过程。
 

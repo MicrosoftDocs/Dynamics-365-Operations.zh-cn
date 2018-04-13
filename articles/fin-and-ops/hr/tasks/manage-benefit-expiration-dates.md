@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-benefit-expiration-dates"></a>管理福利到期日期
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何终止或延长福利，以及管理在福利日期内招聘的工作人员的招聘日期。 创建此程序的演示数据公司是 USMF。
 

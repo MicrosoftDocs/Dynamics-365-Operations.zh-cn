@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a>创建产品分类的层次结构
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会显示如何创建新类别层次结构，和分配商品代码层次结构类型。 创建此程序的演示数据公司是 USMF。 该过程专门面向类别经理。
 

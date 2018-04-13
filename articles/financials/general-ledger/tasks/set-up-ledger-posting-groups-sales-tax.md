@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>设置增值税分类帐记帐组
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 将计算销售税，并过帐到分类帐过帐组中指定的主科目。 分类帐过帐组将分配给每个销售税代码。 您可以为每个销售税代码设置单独的分类帐过帐组，将一个分类帐过帐组用于所有销售税代码，或者可以将多个分类帐过帐组分配给销售税代码。 此记录使用 DEMF 公司演示。 
 

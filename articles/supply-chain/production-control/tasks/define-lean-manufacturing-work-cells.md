@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>定义 lean manufacturing 工作单元
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 工作单元是可用于精益制造流程活动的特定形式的资源组。 工作单元具有输入和输出位置以及基于生产流模型的产能定义。 若要了解有关精益制造工作单元和产能计算的基本概念，请参阅 Lean manufacturing 白皮书。 用于创建此过程的演示数据公司是 USMF。
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-order-cost-estimation"></a>生产订单成本估计
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关生产成本估计的信息。 生产成本估计提供按计划的生产订单数量生产一个物料的预计材料和产能消耗成本。 
 

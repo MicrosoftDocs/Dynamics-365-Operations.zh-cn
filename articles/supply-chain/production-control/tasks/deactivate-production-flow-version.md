@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="deactivate-a-production-flow-version"></a>停用生产流版本
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 如果不再需要某个有效生产流版本，可将其停用。 仅当所有看板规则和活动已结束且将不再激活，才应使用此选项。 请注意，将使用当前日期和时间更新与此生产流版本有关的所有看板规则的到期日期。 
 

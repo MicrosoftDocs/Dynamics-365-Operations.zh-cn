@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="move-scheduled-kanban-jobs"></a>移动计划的看板作业
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序用于将计划特殊处理的看板作业转移到另一个不同期间。 创建此程序的演示数据公司是 USMF。 此程序用于车间主管与生产计划主任共同使用看板管理。
 

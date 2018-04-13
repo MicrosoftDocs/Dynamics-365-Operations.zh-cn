@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-warehouse-layout"></a>创建新仓库布局
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该程序将向您说明如何设置有关仓库库位的信息。 此程序仅适用于仓库中“库存管理模块”的“基本仓储”，不适用于“仓库管理模块”。 您可以使用演示数据公司 USMF 或您自己的数据使用该程序。
 

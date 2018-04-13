@@ -25,7 +25,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="adjust-project-transactions"></a>调整项目交易记录
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务指南向您介绍如何调整项目的交易记录。 但是，您可以一次一个的调整项目交易，或者从所有项目交易记录列表中进行选择。 此任务通常由项目主管来完成。 此任务指南使用 USSI 数据集。
 

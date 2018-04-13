@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a>混合模式计划 - 合并不同的流程和精益采购
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 文主题提供有关混合模式计划的信息。 在混合模式计划中，您可以基于物料流来模拟供应链。 Microsoft Dynamics 365 for Finance and Operations 确保物料流遵循您的模型，不论您选择的是哪种供应策略（看板、生产订单、采购订单、批次订单或转移单）。 
 

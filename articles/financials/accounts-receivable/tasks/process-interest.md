@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-interest"></a>处理利息
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程将向您展示如何创建、打印和过帐利息单。 本任务使用 USMF 公司进行演示。
 

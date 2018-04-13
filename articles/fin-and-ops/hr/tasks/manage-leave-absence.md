@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-leave-of-absence"></a>管理休假
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程为员工休假记录的创建。 您可以跟踪休假原因，包括医疗、教育或父母亲活动。 创建此程序的演示数据公司是 USMF。
 

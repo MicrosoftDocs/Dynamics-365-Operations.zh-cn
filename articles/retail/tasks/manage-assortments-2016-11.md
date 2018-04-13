@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="manage-assortments"></a>管理分类 
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此过程演示如何创建和发布新产品分类，并使用演示数据公司 USRT。 此过程需要 Dynamics AX 应用程序 7.0.1 或更高版本，以及 Dynamics AX 平台 7.1。  
 

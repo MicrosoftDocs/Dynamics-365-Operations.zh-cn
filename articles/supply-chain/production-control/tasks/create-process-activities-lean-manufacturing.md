@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a>创建 lean manufacturing 的流程活动
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 创建 lean manufacturing 的流程活动。 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>通过复制现有看板规则创建新看板规则
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程的重点是创建现有看板规则的副本。 如果您想要根据现有看板规则创建新的看板规则，这很有用。 创建此程序的演示数据公司是 USMF。 该过程面向工艺工程师和价值流经理，因为他们负责改进的生产流或新补货规则的制定。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-injury-and-illness-information"></a>设置伤害和疾病信息
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 雇主需要了解员工受伤或者生病是否是由于工作场所的危险而造成的。 您可在受伤与疾病页设置相关信息，以便于报告工作场所的受伤或疾病。 您可以设置伤害和疾病的类型，包括治疗方式、费用和结果。 创建此程序的演示数据公司是 USMF。
 

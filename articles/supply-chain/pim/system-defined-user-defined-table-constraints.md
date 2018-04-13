@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>系统定义和用户定义的表约束
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文说明产品配置模型中的组件的表约束的两个类型 - 用户定义和系统定义。 表约束表示允许的属性组合的矩阵，在其中每行定义一组可能的属性值。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="schedule-a-production-order"></a>计划生产订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程说明安排一个生产订单。 创建此程序的演示数据公司是 USMF。 这是生产订单循环周期七个程序中的第三个。
 

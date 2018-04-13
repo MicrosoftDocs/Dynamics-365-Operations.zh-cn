@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="procurement-catalogs"></a>采购目录
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍在高级别，采购专业人员能够如何设置和维护采购目录。 采购目录定义公司员工可以订购供内部使用的物料和服务。
 

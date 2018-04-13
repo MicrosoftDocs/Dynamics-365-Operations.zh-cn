@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="mass-create-sales-quotations"></a>成批创建销售报价单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程演示如何有效创建发送一组产品或服务给多个客户的报价单。 此成批报价单创建基于报价单模板。 您可以使用演示数据公司 USMF 或您自己的数据运行该过程。
 

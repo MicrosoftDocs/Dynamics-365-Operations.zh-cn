@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="time-windows"></a>时间范围  
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 您可以使用时间范围优化服务订单行的计划。 您可以设置系统，以便自动创建服务订单。 基于时间范围指定的条件，您可以将尽可能多的服务订单行连接到尽可能少的服务订单。
 

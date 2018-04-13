@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>成本累积政策和开销计算 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 成本核算让您能够了解成本流与在组织中交付的产品和服务之间的关联。 若要查看成本的透明度，基于适当的分配基础实现成本对象间的成本分配十分重要。 默认情况下，为主要成本元素实现成本分配，这在有些情况下有利，但它有一些应该考虑的影响。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-device"></a>创建和关联设备
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建新设备并将其与收银机关联起来。 系统会假定收银机已创建。   此任务使用 USRT 演示数据公司。 此任务旨在面向管理员、IT 专业人员或零售 IT 和商店经理。
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-the-electronic-reporting-configuration-lifecycle"></a>管理电子申报配置生命周期
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍如何管理 Microsoft Dynamics 365 for Finance and Operations 解决方案的电子申报 (ER) 配置的生命周期。
 

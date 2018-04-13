@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="cross-docking-from-production-orders-to-outbound-docks"></a>从生产订单到出货台的越库配送
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题描述如何管理将报告为完工入库的物料从生产线到出站运输台越库配送的流程。
 
@@ -76,10 +76,10 @@ ms.lasthandoff: 03/07/2018
 
 ### <a name="cross-docking-policy-name-transfer-order"></a>越库配送策略名称：转移单
 
--   序列号：10
- -   工作订单类型：转移发货
--   越库配送需求需要库位：错误
--   越库配送策略：日期和时间
+- 序列号：10
+  -   工作订单类型：转移发货
+- 越库配送需求需要库位：错误
+- 越库配送策略：日期和时间
 
 ### <a name="sequence-number"></a>序列号
 

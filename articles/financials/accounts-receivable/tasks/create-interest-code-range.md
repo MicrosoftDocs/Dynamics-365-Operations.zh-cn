@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-interest-code-with-a-range"></a>创建带范围的利息代码
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 可以设置利息代码，根据值范围以计算不同的利息金额。 该过程将向您显示如何添加利息代码和范围。
 

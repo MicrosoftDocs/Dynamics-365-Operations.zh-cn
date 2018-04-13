@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-fixed-compensation-plans"></a>创建固定薪酬计划
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 固定薪酬指员工的标准总薪水或工资。 本主题介绍在创建固定薪酬和登记员工前必须设置的组件。
 

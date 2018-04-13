@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="pos-improvements-for-serialized-products"></a>序列化产品中的 POS 改进
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a>概览 
 基于零售总部中的设置，产品可归类为序列化或非序列化。 产品序列化时，可以为每个物料分配一个唯一编号，以便跟踪保修、跟踪物料和确认所有权。 尽管在我们的现代/云销售点 (POS) 中存在为序列化产品提供序列号的能力，我们仍然增加了一些改进，以帮助出纳节省时间和提高生产效率。  

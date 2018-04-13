@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a>创建信用证的银行信贷协议
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务可以简单了解如何创建银行信贷协议以办理信用证。 在执行此任务之前，您需要建立银行信贷并邮寄个人档案。  此任务使用演示公司“USMF”。  
 

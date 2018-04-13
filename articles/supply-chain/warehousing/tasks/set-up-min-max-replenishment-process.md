@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a>设置最小-最大补货流程
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示设置使用最小/最大补货战略的新补货流程。 在库存低于最低水平时，将创建工作以在此位置补货。 过程还显示如何使用固定领料位置以允许补货，即使库存低于最低水平，以及如何使用批处理作业使补货流程定期运行。 这些任务通常由仓库管理员完成。 您可以使用注释中的示例值在 USMF 演示数据公司中运行此过程，或可以对您自己的数据运行它。 如果您使用自己的数据，请确保您有为仓库管理流程启用的仓库。
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 10/23/2017
 
 # <a name="prevent-discounts-for-retail-products"></a>防止为零售产品打折
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 零售商可能出于多种原因不希望 POS 中某些产品在促销或销售期间不打折。
 

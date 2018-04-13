@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>精益生产概览
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供 Microsoft Dynamics 365 for Finance and Operations 中的 lean manufacturing 功能的概览和描述。
 
@@ -40,6 +39,7 @@ ms.lasthandoff: 03/26/2018
 -   监控和维护看板作业。
 
 Finance and Operations 中的 lean manufacturing 体系结构由生产流程、活动和种规则组成。 这些结构完全由 Finance and Operations 流程集成。 在混合模式的制造环境可以使用精益制造合并各种供应来源、生产和采购策略。 这些策略包括生产订单、批次订单、流程工业、采购订单和转移单。
+
 | **重要**                                                                                                                                                                                                                                                                |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 您可以通过看板使用 Finance and Operations 支持 lean manufacturing 的执行。 但是，原则的精益一个成功的部署取决于您使用实际生产条件和环境的内部业务流程。 |

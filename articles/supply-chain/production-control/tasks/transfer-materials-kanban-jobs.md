@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a>转移具有看板作业的物料（仅 2016 年 2 月）
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程重点是撤销看板作业，以转移物料。 创建此程序的演示数据公司是 USMF。 此过程是专为仓库工作人员设计的。
 

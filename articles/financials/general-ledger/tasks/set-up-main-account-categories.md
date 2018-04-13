@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-main-account-categories"></a>设置主科目类别
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 主科目类别用于财务报表和 Power BI 中的默认报表。 默认创建的主科目类别可以重命名，但不可删除。 可创建其他科目类别，并用于报告和分析。 本任务使用 USMF 公司进行演示。
 

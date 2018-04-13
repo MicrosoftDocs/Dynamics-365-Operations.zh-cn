@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-templates-for-excel"></a>预算计划的 Excel 模板
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。
 
@@ -42,11 +41,11 @@ ms.lasthandoff: 03/26/2018
 1. 打开**预算计划列表**（**预算编制** &gt; **预算计划**）。 
 2. 单击**“新建”**创建新的预算计划文档。 
 
-  [![预算计划列表](./media/bpt11-1024x552.png)](./media/bpt11.png) 
+   [![预算计划列表](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
 3. 使用**添加**行选项添加行。 单击**布局**查看预算计划文档布局配置。 
 
-  [![添加预算计划](./media/bpt2-1024x274.png)](./media/bpt2.png) 
+   [![添加预算计划](./media/bpt2-1024x274.png)](./media/bpt2.png) 
 
 可以检查布局配置并根据需要调整。 
 1. 转至**模板** &gt; **生成**，为该布局生成一个 Excel 文件。 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settlement-overview"></a>结算概览
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关结算流程的一般信息。 介绍可以结算的交易记录类型，可以在何时和如何结算交易记录，以及结算流程的结果。
 
