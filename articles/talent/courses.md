@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a86709bc222339531a21997510a65c138024256c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-training-courses"></a><span data-ttu-id="681d9-103">设置培训课程</span><span class="sxs-lookup"><span data-stu-id="681d9-103">Set up training courses</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="681d9-104">人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。</span><span class="sxs-lookup"><span data-stu-id="681d9-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 
@@ -81,15 +80,15 @@ ms.lasthandoff: 02/23/2018
 
 ## <a name="course-tasks"></a><span data-ttu-id="681d9-134">课程任务</span><span class="sxs-lookup"><span data-stu-id="681d9-134">Course tasks</span></span>
 <span data-ttu-id="681d9-135">对于每个课程，都可以完成以下任务。</span><span class="sxs-lookup"><span data-stu-id="681d9-135">For each course, you can complete the following tasks.</span></span>
--   <span data-ttu-id="681d9-136">登记参与者</span><span class="sxs-lookup"><span data-stu-id="681d9-136">Register participants</span></span>
--   <span data-ttu-id="681d9-137">指定登记截止日期</span><span class="sxs-lookup"><span data-stu-id="681d9-137">Specify a registration deadline</span></span>
--   <span data-ttu-id="681d9-138">定义参与者的最小和最大数目</span><span class="sxs-lookup"><span data-stu-id="681d9-138">Define the minimum and maximum number of participants</span></span>
--   <span data-ttu-id="681d9-139">分配课程所在的地点和教室</span><span class="sxs-lookup"><span data-stu-id="681d9-139">Assign a course location and classroom</span></span>
--   <span data-ttu-id="681d9-140">为课程参与者推荐旅馆</span><span class="sxs-lookup"><span data-stu-id="681d9-140">Recommend hotels to course participants</span></span>
--   <span data-ttu-id="681d9-141">创建课程描述，然后您可以在员工自助服务上进行建议</span><span class="sxs-lookup"><span data-stu-id="681d9-141">Create a course description, which you can then advertise on Employee self service</span></span>
+- <span data-ttu-id="681d9-136">登记参与者</span><span class="sxs-lookup"><span data-stu-id="681d9-136">Register participants</span></span>
+- <span data-ttu-id="681d9-137">指定登记截止日期</span><span class="sxs-lookup"><span data-stu-id="681d9-137">Specify a registration deadline</span></span>
+- <span data-ttu-id="681d9-138">定义参与者的最小和最大数目</span><span class="sxs-lookup"><span data-stu-id="681d9-138">Define the minimum and maximum number of participants</span></span>
+- <span data-ttu-id="681d9-139">分配课程所在的地点和教室</span><span class="sxs-lookup"><span data-stu-id="681d9-139">Assign a course location and classroom</span></span>
+- <span data-ttu-id="681d9-140">为课程参与者推荐旅馆</span><span class="sxs-lookup"><span data-stu-id="681d9-140">Recommend hotels to course participants</span></span>
+- <span data-ttu-id="681d9-141">创建课程描述，然后您可以在员工自助服务上进行建议</span><span class="sxs-lookup"><span data-stu-id="681d9-141">Create a course description, which you can then advertise on Employee self service</span></span>
 
   ><span data-ttu-id="681d9-142">**注意** 只有当没有人登记课程时，您才可以删除它。</span><span class="sxs-lookup"><span data-stu-id="681d9-142">**Note** You can delete a course only if no one has registered for it.</span></span> 
-    
+
 ## <a name="course-statuses"></a><span data-ttu-id="681d9-143">课程状态</span><span class="sxs-lookup"><span data-stu-id="681d9-143">Course statuses</span></span>
 <span data-ttu-id="681d9-144">下表列出了可能的课程状态，以及在课程具有特定状态时您可以完成的操作。</span><span class="sxs-lookup"><span data-stu-id="681d9-144">The following table lists the possible course statuses and the actions that you can complete when the course has a specific status.</span></span>
 

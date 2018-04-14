@@ -19,17 +19,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a290f6f453d8440d6e68a13915339d3da31d959a
-ms.openlocfilehash: 47c97ee32c345f584c8efa7a00b7ff3ec4b70475
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e04926abca47444d06708f34278eb02bb1640cd6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/03/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="plan-your-organizational-hierarchy"></a><span data-ttu-id="3d7ab-103">规划组织层次结构</span><span class="sxs-lookup"><span data-stu-id="3d7ab-103">Plan your organizational hierarchy</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3d7ab-104">在 Microsoft Dynamics 365 for Finance and Operations 中设置组织和组织层次结构之前，请确保您已计划好您的业务将如何建模。</span><span class="sxs-lookup"><span data-stu-id="3d7ab-104">Before you set up organizations and organization hierarchies in Microsoft Dynamics 365 for Finance and Operations, make sure that you plan how your business will be modeled.</span></span> <span data-ttu-id="3d7ab-105">组织模型对 Finance and Operations 实施和业务流程有重大影响。</span><span class="sxs-lookup"><span data-stu-id="3d7ab-105">The organization model has a significant effect on the implementation of Finance and Operations and on business processes.</span></span> 
 
@@ -158,7 +157,7 @@ ms.lasthandoff: 04/03/2018
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a><span data-ttu-id="3d7ab-254">如果以运营单位建模组织</span><span class="sxs-lookup"><span data-stu-id="3d7ab-254">If the organization is modeled as an operating unit</span></span> 
 <span data-ttu-id="3d7ab-255">如果法律和会计准则在您的组织所在的国家/地区中相同，您可能使用单个集的年终结算过程。</span><span class="sxs-lookup"><span data-stu-id="3d7ab-255">If laws and accounting practices are the same among the countries/regions where your organizations are located, you may use a single set of year-end procedures.</span></span> <span data-ttu-id="3d7ab-256">这意味着您可以以运营单位建模组织。</span><span class="sxs-lookup"><span data-stu-id="3d7ab-256">This means that you can model the organizations as operating units.</span></span> <span data-ttu-id="3d7ab-257">所有运营单位必须使用相同的年终结算过程。</span><span class="sxs-lookup"><span data-stu-id="3d7ab-257">All operating units must use the same year-end closing procedure.</span></span> 
-   
+
 ### <a name="number-sequences"></a><span data-ttu-id="3d7ab-258">编号规则</span><span class="sxs-lookup"><span data-stu-id="3d7ab-258">Number sequences</span></span>
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a><span data-ttu-id="3d7ab-259">如果以法人建模组织</span><span class="sxs-lookup"><span data-stu-id="3d7ab-259">If the organization is modeled as a legal entity</span></span>
 <span data-ttu-id="3d7ab-260">可以按法人设置一些参考的编号规则。</span><span class="sxs-lookup"><span data-stu-id="3d7ab-260">Number sequences for some references can be set up per legal entity.</span></span> <span data-ttu-id="3d7ab-261">可以共享一些编号规则。</span><span class="sxs-lookup"><span data-stu-id="3d7ab-261">Some number sequences can be shared.</span></span> 

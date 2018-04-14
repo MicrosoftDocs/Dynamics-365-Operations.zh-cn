@@ -20,17 +20,16 @@ ms.author: prabhup
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2066f6c9dd71144a330e00a71f02dfc21dd930bc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dccb702c072b7fae41f5200783a9c95eb8c54988
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-and-manage-attributes"></a><span data-ttu-id="088df-104">创建和管理属性</span><span class="sxs-lookup"><span data-stu-id="088df-104">Create and manage attributes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="088df-105">本文介绍 Microsoft Dynamics 365 for Retail 中的属性。</span><span class="sxs-lookup"><span data-stu-id="088df-105">This article describes attributes in Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="088df-106">属性可让您通过用户定义字段描述产品及其特征。</span><span class="sxs-lookup"><span data-stu-id="088df-106">Attributes let you describe a product and its characteristics through user-defined fields.</span></span>
 
@@ -58,7 +57,7 @@ ms.lasthandoff: 01/17/2018
 
 ## <a name="attribute-type"></a><span data-ttu-id="088df-173">属性类型</span><span class="sxs-lookup"><span data-stu-id="088df-173">Attribute type</span></span>
   <span data-ttu-id="088df-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span><span class="sxs-lookup"><span data-stu-id="088df-174">[![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png)</span></span> 
-  
+
 <span data-ttu-id="088df-175">属性基于属性类型。</span><span class="sxs-lookup"><span data-stu-id="088df-175">Attributes are based on attribute types.</span></span> <span data-ttu-id="088df-176">属性类型用于确定可为特定属性输入的数据的类型。</span><span class="sxs-lookup"><span data-stu-id="088df-176">Attribute types identify the type of data that can be entered for a specific attribute.</span></span> <span data-ttu-id="088df-177">当前，Microsoft Dynamics 365 for Retail 支持以下属性类型：</span><span class="sxs-lookup"><span data-stu-id="088df-177">Currently, Microsoft Dynamics 365 for Retail supports the following attribute types:</span></span>
 
 -   <span data-ttu-id="088df-178">**货币** - 此属性类型支持货币值。</span><span class="sxs-lookup"><span data-stu-id="088df-178">**Currency** – This attribute type supports currency values.</span></span> <span data-ttu-id="088df-179">它可以受约束（即，它可以支持某个值范围），也可以保持开放。</span><span class="sxs-lookup"><span data-stu-id="088df-179">It can be bounded (that is, it can support a value range), or it can be left open.</span></span>

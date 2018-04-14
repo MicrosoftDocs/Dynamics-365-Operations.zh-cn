@@ -17,15 +17,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: d5e1601d49a37f48fa6bed5727a7de88f20a2af5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 17b5c679381d1f8d1b0a757a19e125f0c50b950c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-rebates"></a><span data-ttu-id="37147-104">供应商返利</span><span class="sxs-lookup"><span data-stu-id="37147-104">Vendor rebates</span></span>
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="37147-105">供应商返利有助于公司自动执行管理、跟踪和索赔其所获返利所需的任务，从而更好地管理其供应商返利计划。</span><span class="sxs-lookup"><span data-stu-id="37147-105">Vendor rebates help companies better manage their supplier rebate programs by automating tasks that are required in order to administer, track, and claim rebates that are earned.</span></span>
 

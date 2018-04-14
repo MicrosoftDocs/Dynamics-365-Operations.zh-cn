@@ -16,15 +16,15 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1418f04d8fb4d05756ac7a5f4b92a1950037be1d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bfccbaab5b4d0b4d84d1bf344521b22b7a5e6efc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a><span data-ttu-id="12a2e-103">定义呼叫中心渠道和渠道属性</span><span class="sxs-lookup"><span data-stu-id="12a2e-103">Define call center channel and channel attributes</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="12a2e-104">此程序会逐步演示如何新建零售渠道和定义渠道属性。</span><span class="sxs-lookup"><span data-stu-id="12a2e-104">This procedure walks through creating a new retail channel and defining channel attributes.</span></span> <span data-ttu-id="12a2e-105">创建此任务的演示数据公司是 USRT。</span><span class="sxs-lookup"><span data-stu-id="12a2e-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="12a2e-106">此程序是专为零售 IT 角色设计的。</span><span class="sxs-lookup"><span data-stu-id="12a2e-106">This procedure is intended for the Retail IT role.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f8eea27edaa97150ceb2c36996177395cba8bdb9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fd01f742ee7a45e9c7d4feee4f3bf58dce4a3bf7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="common-sources-of-production-variances"></a><span data-ttu-id="cc4f5-103">生产差异的常见来源</span><span class="sxs-lookup"><span data-stu-id="cc4f5-103">Common sources of production variances</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cc4f5-104">本文说明生产差异的每个生产类型的各个典型来源。</span><span class="sxs-lookup"><span data-stu-id="cc4f5-104">This article explains various typical sources of each type of production variance.</span></span> 
 

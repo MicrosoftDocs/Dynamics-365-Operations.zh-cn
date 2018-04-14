@@ -20,16 +20,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 9243c1bc2af1f6c60333007fd04e1f872a440b8b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 121b5e15912b9ecbf26f8831fdaef7637390cdd0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="adjust-on-hand-inventory-cost-values"></a><span data-ttu-id="a7111-103">调整现有库存量成本价值</span><span class="sxs-lookup"><span data-stu-id="a7111-103">Adjust on-hand inventory cost values</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a7111-104">使用”现有库存量调整“页调整库存结转流程运行后的现有库存量数量的成本价值。</span><span class="sxs-lookup"><span data-stu-id="a7111-104">Use the Adjustment of on-hand inventory page to adjust the cost value of the on-hand inventory quantities after an inventory close process is run.</span></span>
 

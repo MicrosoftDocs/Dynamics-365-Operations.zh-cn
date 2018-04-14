@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27bf4ba33bd7d22443512d072572b9b1ffc164fa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4a5fb8782b0e7aecd0e01a7d61046d904d46fc54
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a><span data-ttu-id="d882c-103">在单据中创建销售税交易记录</span><span class="sxs-lookup"><span data-stu-id="d882c-103">Create sales tax transactions on documents</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d882c-104">单据上的销售税通过在单据行上提供销售税组和物料销售税组计算。</span><span class="sxs-lookup"><span data-stu-id="d882c-104">Sales tax on documents is calculated by providing a Sales tax group and an Item sales tax group on document lines.</span></span> <span data-ttu-id="d882c-105">这些默认显示主数据，但可以根据需要手动更改。</span><span class="sxs-lookup"><span data-stu-id="d882c-105">These default from master data but can be changed manually if necessary.</span></span> <span data-ttu-id="d882c-106">计算出的销售税可在行和单据中选中。</span><span class="sxs-lookup"><span data-stu-id="d882c-106">The calculated sales tax can be checked on a line and document level.</span></span> <span data-ttu-id="d882c-107">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="d882c-107">This task uses the USMF demo company.</span></span>
 

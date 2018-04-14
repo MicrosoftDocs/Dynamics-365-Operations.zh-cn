@@ -17,15 +17,15 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: b2ecf9fb75f67b4ff505598e7a38f4cc3ee328d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 07168d71f62e8bbe97c189077bf53513d784ff26
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="design-the-relationships-between-organizational-units"></a><span data-ttu-id="ab092-103">设计组织部门之间的关系</span><span class="sxs-lookup"><span data-stu-id="ab092-103">Design the relationships between organizational units</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ab092-104">此过程可以通过设计组织单位关系的方式完成。</span><span class="sxs-lookup"><span data-stu-id="ab092-104">This procedure walks through how to design the relationship between organizational units.</span></span> <span data-ttu-id="ab092-105">您必须在定义组织单位关系之前创建一个新的组织用途，也可以使用现有的组织用途。</span><span class="sxs-lookup"><span data-stu-id="ab092-105">You must create a new organization purpose before defining the relationship, or you can use the existing organization purpose.</span></span> <span data-ttu-id="ab092-106">使用 USRT 公司演示数据完成此过程。</span><span class="sxs-lookup"><span data-stu-id="ab092-106">The demo data company used to complete this procedure is USRT.</span></span> <span data-ttu-id="ab092-107">此任务专门面向管理人员。</span><span class="sxs-lookup"><span data-stu-id="ab092-107">This task is intended for the administrator role.</span></span>
 

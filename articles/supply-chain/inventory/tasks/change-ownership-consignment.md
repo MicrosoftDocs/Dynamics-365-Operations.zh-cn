@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: f02e37a21e2417d46c5ad990e165c2eff5a70811
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e3058987dcd511c59a9eae1b79ef5d1b6d4b3d68
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="9aaf6-103">根据生产需求更改托运库存的所有权</span><span class="sxs-lookup"><span data-stu-id="9aaf6-103">Change the ownership of consignment inventory based on production demand</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9aaf6-104">此过程显示在生产需要库存时，如何将托运库存的所有者从供应商更改为法人。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-104">This procedure shows how to change the owner of consignment inventory from the vendor to your legal entity when there is demand for the inventory in production.</span></span> <span data-ttu-id="9aaf6-105">所有权的此项更改通过创建并过帐库存所有权更改日记帐完成。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-105">This change of ownership is done by creating and posting an inventory ownership change journal.</span></span> <span data-ttu-id="9aaf6-106">所有权更改日记帐行可以手动创建，也可以根据现有生产需要按照此记录中的显示创建。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-106">The ownership change journal lines can be created manually or, as shown in this recording, based on existing production demand.</span></span> <span data-ttu-id="9aaf6-107">通常由车间主管执行此任务。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-107">Typically, a shop floor supervisor performs this task.</span></span> <span data-ttu-id="9aaf6-108">您可以在 USMF 演示数据公司，也可在您自己的数据中运行该过程。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-108">You can use this procedure in the USMF demo data company or on your own data.</span></span> <span data-ttu-id="9aaf6-109">如果您在使用自己的数据，请确保已满足以下先决条件：为库存所有权更改设置的库存日记帐名称、物理记录且由供应商拥有的现成物料，以及材料的一个或多个生产订单行。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-109">If you're using your own data, make sure that you have the following prerequisites: an inventory journal name that has been set up for inventory ownership change, physically recorded vendor-owned on-hand items, and one or more production order lines for the material.</span></span> <span data-ttu-id="9aaf6-110">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-110">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

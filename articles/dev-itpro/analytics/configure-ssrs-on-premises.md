@@ -18,15 +18,15 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bea198488da52de21aba0c33b4004b6ad7518fd3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a><span data-ttu-id="85ccd-103">为本地部署配置 SQL Server Reporting Services</span><span class="sxs-lookup"><span data-stu-id="85ccd-103">Configure SQL Server Reporting Services for an on-premises deployment</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="85ccd-104">使用本主题中的步骤为你的 Microsoft Dynamics 365 for Finance and Operations（本地）部署配置 SQL Server Reporting Services (SSRS)。</span><span class="sxs-lookup"><span data-stu-id="85ccd-104">Use the steps in this topic to configure SQL Server Reporting Services (SSRS) for your Microsoft Dynamics 365 for Finance and Operations (on-premises) deployment.</span></span>
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 03/26/2018
 
     <span data-ttu-id="85ccd-119">[![Web 门户 URL 选项卡](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-119">[![web portal url tab](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)</span></span>
     
-  <span data-ttu-id="85ccd-120">配置门户后，**Web 门户**选项卡将与以下图形匹配。</span><span class="sxs-lookup"><span data-stu-id="85ccd-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
+   <span data-ttu-id="85ccd-120">配置门户后，**Web 门户**选项卡将与以下图形匹配。</span><span class="sxs-lookup"><span data-stu-id="85ccd-120">After the Portal is configured, the **Web Portal** tab will match the following graphic.</span></span>
     <span data-ttu-id="85ccd-121">[![Web 门户选项卡](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-121">[![web portal tab](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)</span></span>
     
 8. <span data-ttu-id="85ccd-122">单击报表 URL 以查看 SQL Server Reporting Services Web 门户。</span><span class="sxs-lookup"><span data-stu-id="85ccd-122">Click the reports URL to view the SQL Server Reporting Services web portal.</span></span> 
-9.  <span data-ttu-id="85ccd-123">当你在该门户时，创建名为 **Dynamics** 的新文件夹。</span><span class="sxs-lookup"><span data-stu-id="85ccd-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
+9. <span data-ttu-id="85ccd-123">当你在该门户时，创建名为 **Dynamics** 的新文件夹。</span><span class="sxs-lookup"><span data-stu-id="85ccd-123">When you are in the portal, create a new folder named **Dynamics**.</span></span>
 
-    <span data-ttu-id="85ccd-124">[![Dynamics 文件夹](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
+   <span data-ttu-id="85ccd-124">[![Dynamics 文件夹](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-124">[![dynamics folder](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)</span></span>
     
 10. <span data-ttu-id="85ccd-125">在 **Reporting Services 配置管理器**中，单击**电子邮件设置**选项卡并验证设置是否与以下图形匹配。</span><span class="sxs-lookup"><span data-stu-id="85ccd-125">In the **Reporting Services Configuration Manager**, click the **E-mail Settings** tab and verify that the settings match the following graphic.</span></span>
 
@@ -68,15 +68,15 @@ ms.lasthandoff: 03/26/2018
 
     <span data-ttu-id="85ccd-128">[![执行帐户选项卡](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-128">[![execution account tab](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)</span></span>
     
-  <span data-ttu-id="85ccd-129">不要更改**加密密钥**选项卡上的默认设置。[![加密密钥选项卡](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-129">Don’t change the default settings on the **Encryption Keys** tab. [![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
+    <span data-ttu-id="85ccd-129">不要更改**加密密钥**选项卡上的默认设置。[![加密密钥选项卡](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-129">Don’t change the default settings on the **Encryption Keys** tab. [![encryption keys tab](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)</span></span>
     
 12. <span data-ttu-id="85ccd-130">单击**订阅设置**选项卡，并验证设置是否与以下图形匹配。</span><span class="sxs-lookup"><span data-stu-id="85ccd-130">Click the **Subscription Settings** tab, and verify that the settings match the following graphic.</span></span>
 
     <span data-ttu-id="85ccd-131">[![订阅设置选项卡](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-131">[![subscription settings tab](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)</span></span>
     
-  <span data-ttu-id="85ccd-132">不要更改**扩大部署**选项卡上的默认设置。[![扩大部署选项卡](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-132">Don’t change the default settings on the **Scale-out Deployment** tab. [![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
+    <span data-ttu-id="85ccd-132">不要更改**扩大部署**选项卡上的默认设置。[![扩大部署选项卡](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-132">Don’t change the default settings on the **Scale-out Deployment** tab. [![scale-out deployment tab](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)</span></span>
     
-  <span data-ttu-id="85ccd-133">不要更改 **Power BI 集成**选项卡上的默认设置。[![Power BI 集成选项卡](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-133">Don’t change the default settings on the **Power BI Integration** tab. [![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span> 
+    <span data-ttu-id="85ccd-133">不要更改 **Power BI 集成**选项卡上的默认设置。[![Power BI 集成选项卡](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span><span class="sxs-lookup"><span data-stu-id="85ccd-133">Don’t change the default settings on the **Power BI Integration** tab. [![power bi integration tab](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png)</span></span> 
     
 13. <span data-ttu-id="85ccd-134">单击**退出**以关闭 **Reporting Services 配置管理器**。</span><span class="sxs-lookup"><span data-stu-id="85ccd-134">Click **Exit** to close the **Reporting Services Configuration Manager**.</span></span>
 

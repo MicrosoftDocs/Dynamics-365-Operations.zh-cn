@@ -18,16 +18,16 @@ ms.author: margoc
 ms.search.validFrom: 2017-08-30
 ms.dyn365.ops.version: AX 2012
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 0a863d1826a5f1d19c7ab51c046e3b0137e24eeb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 823c26247a8c02e5b75557d5b252e6aba2b0113e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="websearchax-retired"></a><span data-ttu-id="71a77-104">WebSearchAX 已停用</span><span class="sxs-lookup"><span data-stu-id="71a77-104">WebSearchAX retired</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="71a77-105">我们必须停用 WebSearchAX 页。</span><span class="sxs-lookup"><span data-stu-id="71a77-105">We’ve had to retire the WebSearchAX page.</span></span> <span data-ttu-id="71a77-106">我们建议您使用喜爱的搜索引擎的站点搜索来替代它。</span><span class="sxs-lookup"><span data-stu-id="71a77-106">We recommend that you use site search from your favorite search engine to replace it.</span></span>  <span data-ttu-id="71a77-107">例如:</span><span class="sxs-lookup"><span data-stu-id="71a77-107">For example:</span></span> 
 

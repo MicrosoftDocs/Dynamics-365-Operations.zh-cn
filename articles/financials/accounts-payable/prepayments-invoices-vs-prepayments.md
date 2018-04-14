@@ -19,23 +19,23 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f30e375b759641875ed6a5a7d2f77132715c57
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9d2ce5dd0e9072c0f8430ee5390c8cafed9a6f60
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="prepayment-invoices-vs-prepayments"></a><span data-ttu-id="44579-105">预付款发票与预付款</span><span class="sxs-lookup"><span data-stu-id="44579-105">Prepayment invoices vs. prepayments</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="44579-106">本主题介绍和对比组织可以用于预付款（预先付款）的两种方法。</span><span class="sxs-lookup"><span data-stu-id="44579-106">This topic describes and contrasts the two methods that organizations can use for advance payments (prepayments).</span></span> <span data-ttu-id="44579-107">在一种方法中，您创建与采购订单相关联的预付款发票。</span><span class="sxs-lookup"><span data-stu-id="44579-107">In one method, you create a prepayment invoice that is associated with a purchase order.</span></span> <span data-ttu-id="44579-108">在另一种方法中，您通过创建日志条目并将它们标记为预付款日志凭证来创建预付款日志凭证。</span><span class="sxs-lookup"><span data-stu-id="44579-108">In the other method, you create prepayment journal vouchers by creating journal entries and marking them as prepayment journal vouchers.</span></span>
 
 <span data-ttu-id="44579-109">组织可能向货物或服务的供应商发布预付款（在满足这些货物或服务之前）。</span><span class="sxs-lookup"><span data-stu-id="44579-109">Organizations might issue prepayments (advance payments) to vendors for goods or services before those goods or services are fulfilled.</span></span> <span data-ttu-id="44579-110">两种方法可用于向供应商发布预付款。</span><span class="sxs-lookup"><span data-stu-id="44579-110">Two methods can be used to issue prepayments to vendors.</span></span> <span data-ttu-id="44579-111">若要将风险最小化，您可以通过跟踪采购订单上的预付款跟踪这些预付款。</span><span class="sxs-lookup"><span data-stu-id="44579-111">To minimize risk, you can track prepayments by defining the prepayment on a purchase order.</span></span> <span data-ttu-id="44579-112">对于此方法，您必须创建与采购订单相关联的预付款发票。</span><span class="sxs-lookup"><span data-stu-id="44579-112">For this method, you must create a prepayment invoice that is associated with a purchase order.</span></span> <span data-ttu-id="44579-113">此方法称为预付款开票。</span><span class="sxs-lookup"><span data-stu-id="44579-113">This method is referred to as prepayment invoicing.</span></span> <span data-ttu-id="44579-114">不想那么紧密跟踪预付款或不从供应商那里接收预付款发票的组织可以使用预付款日记帐凭证，而不是预付款开票方法。</span><span class="sxs-lookup"><span data-stu-id="44579-114">Organizations that don't want to track prepayments as closely or don't receive a prepayment invoice from their vendor can use prepayment journal vouchers instead of the prepayment invoicing method.</span></span> <span data-ttu-id="44579-115">您可以通过创建日志条目并将它们标记为预付款日志凭证来创建预付款日志凭证。</span><span class="sxs-lookup"><span data-stu-id="44579-115">You can create prepayment journal vouchers by creating journal entries and marking them as prepayment journal vouchers.</span></span> <span data-ttu-id="44579-116">对于此方法，您不能跟踪根据那个采购订单对供应商进行哪种预付款。</span><span class="sxs-lookup"><span data-stu-id="44579-116">For this method, you can't track which prepayments to a vendor are made against which purchase orders.</span></span> <span data-ttu-id="44579-117">但是，您可以比对采购订单标记要进行结算的过帐预付款。</span><span class="sxs-lookup"><span data-stu-id="44579-117">However, you can mark a posted prepayment for settlement against a purchase order.</span></span>
 
 ## <a name="when-to-use-prepayment-invoicing-vs-prepayments"></a><span data-ttu-id="44579-118">什么时候使用预付款开票与预付款</span><span class="sxs-lookup"><span data-stu-id="44579-118">When to use prepayment invoicing vs. prepayments</span></span>
+
 | <span data-ttu-id="44579-119">预付款开票</span><span class="sxs-lookup"><span data-stu-id="44579-119">Prepayment invoicing</span></span>                                                                | <span data-ttu-id="44579-120">预付款</span><span class="sxs-lookup"><span data-stu-id="44579-120">Prepayments</span></span>                                                              |
 |-------------------------------------------------------------------------------------|--------------------------------------------------------------------------|
 | <span data-ttu-id="44579-121">在采购订单上定义预付款值。</span><span class="sxs-lookup"><span data-stu-id="44579-121">Define a prepayment value on the purchase order.</span></span>                                    | <span data-ttu-id="44579-122">在采购订单上未定义预付款值。</span><span class="sxs-lookup"><span data-stu-id="44579-122">No prepayment value is defined on the purchase order.</span></span>                    |

@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f1f66157b2e74ad1b490e10112cbc121ac9826fb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 67dc36565739b8e902334d9a55af226a0cef5b85
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-sales-event-kanban-rule"></a><span data-ttu-id="e87be-103">创建销售事件看板规则</span><span class="sxs-lookup"><span data-stu-id="e87be-103">Create a sales event kanban rule</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e87be-104">该过程的重点是创建在销售订单创建期间触发的看板规则所需的设置。</span><span class="sxs-lookup"><span data-stu-id="e87be-104">This procedure focuses on the setup needed to create a kanban rule that is triggered during sales order creation.</span></span> <span data-ttu-id="e87be-105">事件看板规则源自销售订单行的补货要求。</span><span class="sxs-lookup"><span data-stu-id="e87be-105">The event kanban rule replenishes requirements that originate from sales order lines.</span></span> <span data-ttu-id="e87be-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="e87be-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="e87be-107">这面向工艺工程师和价值流经理，因为他们负责新型或改良产品的生产准备。</span><span class="sxs-lookup"><span data-stu-id="e87be-107">It is intended for the process engineer or the value stream manager as they prepare production of a new or modified product.</span></span>
 

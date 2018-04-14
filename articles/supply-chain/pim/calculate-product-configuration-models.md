@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: daae96502f705f05076cb351aa1baefc37957803
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cfdf90a03da6cfd6c0e7c59f9cae8f9741d8d520
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="calculations-for-product-configuration-models-faq"></a><span data-ttu-id="f269d-103">产品配置模型的计算常见问题</span><span class="sxs-lookup"><span data-stu-id="f269d-103">Calculations for product configuration models FAQ</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f269d-104">本主题描述产品配置模型的计算。并说明如何与约束一起使用计算。</span><span class="sxs-lookup"><span data-stu-id="f269d-104">This topic describes calculations for product configuration models and explains how to use calculations together with constraints.</span></span>
 

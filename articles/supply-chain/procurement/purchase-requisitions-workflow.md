@@ -19,17 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: db1d517c305644b2157a2cc54b6ccc315fed5969
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 17f18b3cc74867f268101a4e5a1f9053b0f244b3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-requisition-workflow"></a><span data-ttu-id="2b98e-105">采购申请工作流</span><span class="sxs-lookup"><span data-stu-id="2b98e-105">Purchase requisition workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2b98e-106">工作流在审核过程中移动采购申请，从“草稿”的初始状态到“已审核”最终状态。</span><span class="sxs-lookup"><span data-stu-id="2b98e-106">The workflow process moves purchase requisitions through the review process, from an initial status of Draft to a final status of Approved.</span></span> <span data-ttu-id="2b98e-107">在采购申请被提交审核时，该工作流流程开始。</span><span class="sxs-lookup"><span data-stu-id="2b98e-107">When a purchase requisition is submitted for review, the workflow process is started.</span></span> <span data-ttu-id="2b98e-108">在审核采购申请后，采购订单可为采购申请行生成并提交到供应商进行订单执行。</span><span class="sxs-lookup"><span data-stu-id="2b98e-108">After a purchase requisition is approved, a purchase order can be generated for the purchase requisition lines and submitted to the vendor for order fulfillment.</span></span>
 

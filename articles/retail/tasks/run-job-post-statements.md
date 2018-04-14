@@ -17,15 +17,15 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f3587fe70dc6a0d8330063db77e625040a53da98
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 564f628ff082887a0f6476ded76c13d2824abf08
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-and-run-a-job-to-post-statements"></a><span data-ttu-id="0f12b-103">配置和运行过帐报表作业</span><span class="sxs-lookup"><span data-stu-id="0f12b-103">Configure and run a job to post statements</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0f12b-104">此程序会逐步演示如何配置和运行某一重复批处理作业，以过帐选定商店或商店组的报表。</span><span class="sxs-lookup"><span data-stu-id="0f12b-104">This procedure walks through configuring and running a recurrent batch job to post statements for a selected store or group of stores.</span></span> <span data-ttu-id="0f12b-105">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="0f12b-105">This procedure uses the USRT company in demo data.</span></span>
 

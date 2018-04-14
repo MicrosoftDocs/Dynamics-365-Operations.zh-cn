@@ -20,17 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b131cdfa2f0e3b6a8f116464323d49eaa4584634
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 46178d9da5464d8cb74b1d52142d6ad08a293349
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="packing-materials-and-fees"></a><span data-ttu-id="0460f-105">包装材料和费用</span><span class="sxs-lookup"><span data-stu-id="0460f-105">Packing materials and fees</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0460f-106">定期向回收公司支付包装材料费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-106">Packing material fees are paid to a recycling company at certain intervals.</span></span> <span data-ttu-id="0460f-107">为包装单位中包含的每种材料支付每个单位重量的金额。</span><span class="sxs-lookup"><span data-stu-id="0460f-107">An amount is paid, per unit of weight, for each material that a packing unit consists of.</span></span> <span data-ttu-id="0460f-108">程序将计算和报告包装材料费用，但是不过帐分录，因为没有将这些费用视为要向主管机构缴纳的税款。</span><span class="sxs-lookup"><span data-stu-id="0460f-108">Packing material fees are calculated and reported, but no ledger transactions are posted because the fees are not regarded as taxes to be paid to an authority.</span></span>
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="print-packaging-material-weights-on-invoices"></a><span data-ttu-id="0460f-147">在发票上打印包装材料重量</span><span class="sxs-lookup"><span data-stu-id="0460f-147">Print packaging material weights on invoices</span></span>
 <span data-ttu-id="0460f-148">可以在发票上打印包装材料重量并指明由谁来支付包装材料费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-148">You can print the packaging material weights on the invoice, and indicate who pays the packaging material fees.</span></span> <span data-ttu-id="0460f-149">重量按包装代码来汇总。</span><span class="sxs-lookup"><span data-stu-id="0460f-149">The weights are summarized by packaging code.</span></span>
- 
+
 
 
 

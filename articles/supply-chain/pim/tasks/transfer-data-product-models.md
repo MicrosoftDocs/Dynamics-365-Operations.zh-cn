@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 825f669dc5d4476ac9724e5f43016045032fefe0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 10c85eba95701f47555b9603933de1687f8dc90f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="transfer-data-for-product-models"></a><span data-ttu-id="b2f00-103">转移产品模型的数据</span><span class="sxs-lookup"><span data-stu-id="b2f00-103">Transfer data for product models</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b2f00-104">产品配置模型的导出数据要求至少有一个可用的产品模型。</span><span class="sxs-lookup"><span data-stu-id="b2f00-104">Exporting data for a product configuration model requires that you have at least one product model available.</span></span> <span data-ttu-id="b2f00-105">该过程使用演示公司 USMF 中的“高端扬声器模型”向您显示如何导出此模型的数据。</span><span class="sxs-lookup"><span data-stu-id="b2f00-105">This procedure uses the High end speaker model in the demo company USMF to show you how to export data for this model.</span></span>
 

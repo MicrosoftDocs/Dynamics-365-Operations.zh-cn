@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0161ac3d67b57484f05a64ab785bbbcc90816ba2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bom-calculations-groups"></a><span data-ttu-id="d24cd-105">物料清单计算组</span><span class="sxs-lookup"><span data-stu-id="d24cd-105">BOM calculations groups</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d24cd-106">本文提供有关物料清单 (BOM) 的计算组以及如何设置它们的信息。</span><span class="sxs-lookup"><span data-stu-id="d24cd-106">This article provides information about calculation groups for bills of materials (BOMs) and how to set them up.</span></span> <span data-ttu-id="d24cd-107">若要运行物料清单计算，您必须设置计算组并将它们分配到各个物料，或设置默认计算组。</span><span class="sxs-lookup"><span data-stu-id="d24cd-107">To run a BOM calculation, you must either set up calculation groups and assign them to individual items, or set a default calculation group.</span></span> <span data-ttu-id="d24cd-108">然后，计算组的计算设置在物料清单计算时用作物料清单计算页的默认值。</span><span class="sxs-lookup"><span data-stu-id="d24cd-108">The calculation settings from the calculation group are then used as default values on the BOM calculation page at the time of BOM calculation.</span></span> 
 

@@ -20,17 +20,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: d369b760047a18c82dd89f3452d94b9c62ba8841
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b6a1968eba001d426de944061b6a782f6450ac2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a><span data-ttu-id="23069-103">设置 Cloud POS 和 MPOS 的扩展登录功能</span><span class="sxs-lookup"><span data-stu-id="23069-103">Set up extended logon functionality for Cloud POS and MPOS</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="23069-104">此介绍介绍设置 Cloud POS 和 Retail Modern POS (MPOS) 扩展登录的选项。</span><span class="sxs-lookup"><span data-stu-id="23069-104">This topic covers your options for setting up extended logon for Cloud POS and Retail Modern POS (MPOS).</span></span>
 

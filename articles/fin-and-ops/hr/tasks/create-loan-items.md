@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 2cce715ea17689ec128e31e9d6cff0b052c9ca9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 429b33366ab9ab705a0f31cb9659f58b41689152
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-loan-items"></a><span data-ttu-id="876a9-103">创建借出物品</span><span class="sxs-lookup"><span data-stu-id="876a9-103">Create loan items</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="876a9-104">借出物品是帮助您跟踪您的公司借出给工作人员的实际物品（如手机或电脑）的记录。</span><span class="sxs-lookup"><span data-stu-id="876a9-104">Loan items are records that help you track physical items, such as phones or computers, that your company lends to workers.</span></span> <span data-ttu-id="876a9-105">每个实际物品都必须具有相应的借出物品。</span><span class="sxs-lookup"><span data-stu-id="876a9-105">Each physical item must have a corresponding loan item.</span></span> <span data-ttu-id="876a9-106">每个借出物品记录都应描述所借物品，负责借出的员工和物品可以借出的天数。</span><span class="sxs-lookup"><span data-stu-id="876a9-106">Each loan item record should describe what is being loaned, who is responsible for the loan, and the number of days the item can be on loan.</span></span> <span data-ttu-id="876a9-107">您可以同时创建多个借出物品，例如钥匙、门卡或制服等。</span><span class="sxs-lookup"><span data-stu-id="876a9-107">You can create multiple loan items, such as keys, access cards, or uniforms, at the same time.</span></span> <span data-ttu-id="876a9-108">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="876a9-108">The demo data company used to create this procedure is USMF.</span></span>
 

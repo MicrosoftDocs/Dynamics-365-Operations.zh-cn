@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07d8cf2f1c46b99dfcd1d7c3419fe835f37c5a02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad87cc2ac2d8ce47369168ddbd7f310ec1275c4e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-depreciation-proposal"></a><span data-ttu-id="f894f-103">创建折旧方案</span><span class="sxs-lookup"><span data-stu-id="f894f-103">Create a depreciation proposal</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f894f-104">本程序描述了批处理折旧方案的工作原理，并说明了如何为固定资产建议折旧方案。</span><span class="sxs-lookup"><span data-stu-id="f894f-104">This procedure describes how depreciation batch proposals work and explains how to propose depreciation for fixed assets.</span></span> <span data-ttu-id="f894f-105">此任务使用 USMF 演示公司和会计角色。</span><span class="sxs-lookup"><span data-stu-id="f894f-105">This task uses the USMF demo company and the accountant role.</span></span>
 

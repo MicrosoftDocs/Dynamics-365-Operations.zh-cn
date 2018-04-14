@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 9e4b0cb73c56e7800bfb90c037687dd4b91887f6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 83b15e89e87d2936cd175e05fc99e7faf4c0467e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-fraud-alerts"></a><span data-ttu-id="202ae-104">设置欺诈预警</span><span class="sxs-lookup"><span data-stu-id="202ae-104">Set up fraud alerts</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="202ae-105">本主题说明如何设置条件和规则以将具有欺诈可能性的销售订单置于暂停状态以进一步审核。</span><span class="sxs-lookup"><span data-stu-id="202ae-105">This topic explains how to set up criteria and rules to place potentially fraudulent sales orders on hold for further review.</span></span> <span data-ttu-id="202ae-106">欺诈审核功能用于确定销售订单中信息的有效性。</span><span class="sxs-lookup"><span data-stu-id="202ae-106">Fraud review functionality is used to determine the validity of information in a sales order.</span></span> <span data-ttu-id="202ae-107">如果根据组织的欺诈条件和规则，销售订单中的信息似乎可疑，则可以暂停订单以由管理员执行进一步审核。</span><span class="sxs-lookup"><span data-stu-id="202ae-107">If the information in the sales order appears to be questionable based on an organization’s fraud criteria and rules, the order may be put on hold for further review by an administrator.</span></span>
 

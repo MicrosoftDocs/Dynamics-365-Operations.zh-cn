@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: 4d591eec163cfe2952f37b93e634eae676860889
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 30bff74da8399ddc15f2bc84e83887c8b5e60570
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-min-max-replenishment-process"></a><span data-ttu-id="fa59d-103">设置最小-最大补货流程</span><span class="sxs-lookup"><span data-stu-id="fa59d-103">Set up a min-max replenishment process</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fa59d-104">此过程显示设置使用最小/最大补货战略的新补货流程。</span><span class="sxs-lookup"><span data-stu-id="fa59d-104">This procedure shows you how to set up a new replenishment process which uses the minimum/maximum replenishment strategy.</span></span> <span data-ttu-id="fa59d-105">在库存低于最低水平时，将创建工作以在此位置补货。</span><span class="sxs-lookup"><span data-stu-id="fa59d-105">When inventory falls below the minimum level, work will be created to replenish the location.</span></span> <span data-ttu-id="fa59d-106">过程还显示如何使用固定领料位置以允许补货，即使库存低于最低水平，以及如何使用批处理作业使补货流程定期运行。</span><span class="sxs-lookup"><span data-stu-id="fa59d-106">The procedure also shows how to use fixed picking locations to allow restocking even if inventory falls below the minimum level, and how to enable the replenishment process to run regularly using a batch job.</span></span> <span data-ttu-id="fa59d-107">这些任务通常由仓库管理员完成。</span><span class="sxs-lookup"><span data-stu-id="fa59d-107">These tasks would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="fa59d-108">您可以使用注释中的示例值在 USMF 演示数据公司中运行此过程，或可以对您自己的数据运行它。</span><span class="sxs-lookup"><span data-stu-id="fa59d-108">You can run this procedure in the USMF demo data company using the example values in the notes, or can run it on your own data.</span></span> <span data-ttu-id="fa59d-109">如果您使用自己的数据，请确保您有为仓库管理流程启用的仓库。</span><span class="sxs-lookup"><span data-stu-id="fa59d-109">If you’re using your own data, make sure that you have a warehouse that’s enabled for Warehouse management processes.</span></span>
 
@@ -120,7 +120,7 @@ ms.lasthandoff: 11/02/2017
     * <span data-ttu-id="fa59d-206">这是定义应补货哪些产品的位置。</span><span class="sxs-lookup"><span data-stu-id="fa59d-206">This is the place to define which products should be replenished.</span></span> <span data-ttu-id="fa59d-207">如果选择“固定领料位置”选项，还需要在此查询中定义位置。</span><span class="sxs-lookup"><span data-stu-id="fa59d-207">If the Fixed picking locations option is selected, you also need to define the locations in this query.</span></span> <span data-ttu-id="fa59d-208">变型特定查询可用，产品特定查询也可用。</span><span class="sxs-lookup"><span data-stu-id="fa59d-208">Variant-specific queries are available as well product-specific queries.</span></span>  
 18. <span data-ttu-id="fa59d-209">选择“物料行”。</span><span class="sxs-lookup"><span data-stu-id="fa59d-209">Select the Items row.</span></span>
 19. <span data-ttu-id="fa59d-210">在“标准”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="fa59d-210">In the Criteria field, type a value.</span></span>
-    * <span data-ttu-id="fa59d-211">选择应在固定位置补货的物料。</span><span class="sxs-lookup"><span data-stu-id="fa59d-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="fa59d-212">例如，键入 A* 可以选择所有以 A 开头的物料编号。</span><span class="sxs-lookup"><span data-stu-id="fa59d-212">For example, type A* to select all item numbers beginning with A.</span></span>  
+    * <span data-ttu-id="fa59d-211">选择应在固定位置补货的物料。</span><span class="sxs-lookup"><span data-stu-id="fa59d-211">Select the items that should be replenished at the fixed locations.</span></span> <span data-ttu-id="fa59d-212">例如，键入 A\* 可以选择所有以 A 开头的物料编号。</span><span class="sxs-lookup"><span data-stu-id="fa59d-212">For example, type A\* to select all item numbers beginning with A.</span></span>  
 20. <span data-ttu-id="fa59d-213">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="fa59d-213">Click Add.</span></span>
     * <span data-ttu-id="fa59d-214">添加位置实体（除非已经存在）可以将补货工作限制到特定仓库区域内的固定领料库位。</span><span class="sxs-lookup"><span data-stu-id="fa59d-214">Add the Location entity (unless it already exists) to be able to restrict the replenishment work to the fixed picking locations within a specific area of the warehouse.</span></span>  
 21. <span data-ttu-id="fa59d-215">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="fa59d-215">In the list, mark the selected row.</span></span>

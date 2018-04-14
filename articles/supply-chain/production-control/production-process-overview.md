@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c785b2eb787fa7327e336ea74c91177816d33a9c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-process-overview"></a><span data-ttu-id="60ef9-104">生产流程概览</span><span class="sxs-lookup"><span data-stu-id="60ef9-104">Production process overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="60ef9-105">本主题提供生产流程的概览。</span><span class="sxs-lookup"><span data-stu-id="60ef9-105">This topic gives an overview of the production processes.</span></span> <span data-ttu-id="60ef9-106">其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。</span><span class="sxs-lookup"><span data-stu-id="60ef9-106">It describes the various stages of production orders, batch orders, and kanbans, from order creation to closing of the financial period.</span></span> 
 

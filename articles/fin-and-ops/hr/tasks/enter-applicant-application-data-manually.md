@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6aef83b18ba5f18506921e08f3674b6bb272d3ab
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0da2c4e308ef377b7657f0905fec56e47f27b99
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-applicant-and-application-data-manually"></a><span data-ttu-id="47e28-103">手动输入申请人和申请表数据</span><span class="sxs-lookup"><span data-stu-id="47e28-103">Enter applicant and application data manually</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="47e28-104">此过程显示如何手动维护申请人及其申请表的信息。</span><span class="sxs-lookup"><span data-stu-id="47e28-104">This procedure shows how to manually maintain information about applicants and their application.</span></span>   <span data-ttu-id="47e28-105">您可以输入和维护个人信息、面试日期和时间、推荐人、能力和申请人的住宿请求。</span><span class="sxs-lookup"><span data-stu-id="47e28-105">You can enter and maintain personal information, interview dates and times, references, competencies, and accommodation requests for applicants.</span></span> <span data-ttu-id="47e28-106">您还可以更新申请人的工作申请状态，以及写信或发送电子邮件与申请人沟通。</span><span class="sxs-lookup"><span data-stu-id="47e28-106">You can also update the status of applicants’ applications for employment and create letters or email messages to communicate with applicants.</span></span> <span data-ttu-id="47e28-107">在您创建申请人记录时，在全球通讯簿中创建该申请人的人员记录。</span><span class="sxs-lookup"><span data-stu-id="47e28-107">When you create an applicant record, a person record for that applicant is created in the global address book.</span></span>       <span data-ttu-id="47e28-108">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="47e28-108">The demo data company used to create this procedure is USMF.</span></span>
 

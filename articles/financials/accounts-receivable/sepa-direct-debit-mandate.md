@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b06a5385d7c33ddcfe6bfabbfda6a1f7fa99aada
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 84e4a714b1233a0fb4ebb04757ba12a5d14d6f44
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-sepa-direct-debit-mandate"></a><span data-ttu-id="91611-103">设置 SEPA 直接借记授权单</span><span class="sxs-lookup"><span data-stu-id="91611-103">Set up SEPA direct debit mandate</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="91611-104">在客户将已经签署的授权授予债权人的情况下，单一欧元支付区 (SEPA) 直接借记允许债权人从客户的银行帐户中筹集资金。</span><span class="sxs-lookup"><span data-stu-id="91611-104">A Single Euro Payment Area (SEPA) direct debit lets a creditor collect funds from a customer's bank account, provided that the customer has granted a signed mandate to the creditor.</span></span> <span data-ttu-id="91611-105">客户签署的授权允许债权人收取付款，并指示客户方银行支付该收款。</span><span class="sxs-lookup"><span data-stu-id="91611-105">The mandate that the customer signs authorizes the creditor to collect a payment and instructs the customer's bank to pay the collection.</span></span> <span data-ttu-id="91611-106">此主题的组织是为了显示 SEPA 直接借记授权单的设置流程。</span><span class="sxs-lookup"><span data-stu-id="91611-106">This topic is organized to show the process for setting up SEPA direct debit mandates.</span></span>
 

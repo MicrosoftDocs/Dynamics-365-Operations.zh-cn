@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf9d0a6ab0fcf7d6f5a31813d68f0bd452ce1019
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3ec6928265dca5f80d6e278a05975ec9c16a7cca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="year-end-close"></a><span data-ttu-id="13cfe-103">年终结算</span><span class="sxs-lookup"><span data-stu-id="13cfe-103">Year-end close</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="13cfe-104">此主题描述运行总帐年终结算流程所需设置和步骤。</span><span class="sxs-lookup"><span data-stu-id="13cfe-104">This topic describes the required setup and steps for running the general ledger year-end close process.</span></span> 
 

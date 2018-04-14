@@ -19,17 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: f71727bc69ee2dc33a8e311d0e90f3df847d41a3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8fb72864be4dd3199e5be8384655b5fcb0fc6e2b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-agreements"></a><span data-ttu-id="d41df-105">采购协议</span><span class="sxs-lookup"><span data-stu-id="d41df-105">Purchase agreements</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d41df-106">文本提供有关采购协议的信息。</span><span class="sxs-lookup"><span data-stu-id="d41df-106">This article provides information about purchase agreements.</span></span> <span data-ttu-id="d41df-107">采购协议是提交到某一组织，随时间推移通过使用多个采购订单购买指定的数量或金额的合同。</span><span class="sxs-lookup"><span data-stu-id="d41df-107">A purchase agreement is a contract that commits an organization to buy a specified quantity or amount by using multiple purchase orders over time.</span></span> <span data-ttu-id="d41df-108">以此承诺作为交换，买方接收特价和折扣。</span><span class="sxs-lookup"><span data-stu-id="d41df-108">In exchange for this commitment, the buyer receives special prices and discounts.</span></span> 
 

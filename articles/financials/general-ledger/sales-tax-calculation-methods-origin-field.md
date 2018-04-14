@@ -19,19 +19,18 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b36b290026f384109ccd710a9979892dd5268307
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c1e1a588e07b9f60880dcf1c34139c5c1ceba35
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-tax-calculation-methods-in-the-origin-field"></a><span data-ttu-id="2518a-103">“源”字段中的销售税计算方法</span><span class="sxs-lookup"><span data-stu-id="2518a-103">Sales tax calculation methods in the Origin field</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="2518a-104">本文说明销售税代码页上“来源”字段中的选项，以及如何基于销售税代码的所选选项计算销售税。</span><span class="sxs-lookup"><span data-stu-id="2518a-104">This article explains the options in the Origin field on the sales tax codes page and how sales tax is calculated based on the selected option for a sales tax code.</span></span>
 
@@ -53,11 +52,12 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="2518a-122">SALESTAX = 25%，使用总额百分比计算方法</span><span class="sxs-lookup"><span data-stu-id="2518a-122">SALESTAX = 25%, using the Percentage of gross amount calculation method</span></span>
 
 <span data-ttu-id="2518a-123">如果净额是 10.00，然后“DUTY 1”是 1.00 (10.00 x 10%)，“DUTY 2” = 2.00 (10.00 x 20%)。</span><span class="sxs-lookup"><span data-stu-id="2518a-123">If the net amount is 10.00, then DUTY 1 is 1.00 (10.00 x 10%) and DUTY 2 = 2.00 (10.00 x 20%).</span></span> <span data-ttu-id="2518a-124">金额如下：总额：净额 + DUTY 1 金额 + DUTY 2 金额 (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 总计 DUTIES 和 SALESTAX：1.00 + 2.00 + 3.25 = 6.25 总金额：10.00 + 6.25 = 16.25</span><span class="sxs-lookup"><span data-stu-id="2518a-124">The amounts would be as follows: Gross amount: Net amount + DUTY 1 amount + DUTY 2 amount (10.00 + 1.00 + 2.00) = 13.00 SALESTAX = 13.00 x 25% = 3.25 Total DUTIES and SALESTAX: 1.00 + 2.00 + 3.25 = 6.25 Total amount: 10.00 + 6.25 = 16.25</span></span>
+
 | <span data-ttu-id="2518a-125">**注意**</span><span class="sxs-lookup"><span data-stu-id="2518a-125">**Note**</span></span>                                                                                                                                                                                                                 |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="2518a-126">仅原始金额 = 总额百分比的一个税务代码可以用于交易记录。</span><span class="sxs-lookup"><span data-stu-id="2518a-126">Only one tax code with Origin = Percentage of gross amount can be used for a transaction.</span></span> <span data-ttu-id="2518a-127">如果多个此类税码为交易记录确定，错误将显示销售税不能计算。</span><span class="sxs-lookup"><span data-stu-id="2518a-127">If more than one such tax code is determined for a transaction an error will be displayed that sales tax cannot be calculated.</span></span> |
 
- 
+
 <a name="percentage-of-sales-tax"></a><span data-ttu-id="2518a-128">销售税百分比</span><span class="sxs-lookup"><span data-stu-id="2518a-128">Percentage of sales tax</span></span>
 -----------------------
 
@@ -70,6 +70,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="2518a-136">SALESTAX = 25%，使用总额百分比方法</span><span class="sxs-lookup"><span data-stu-id="2518a-136">SALESTAX = 25%, using the Percentage of gross amount method</span></span>
 
 <span data-ttu-id="2518a-137">净额：10.00 DUTY 1：10.00 x 10% = 1.00 DUTY 2：1.00 x 20% = 0.20 总额：10.00 + 1.00 + 0.20 = 11.20 SALESTAX：11.20 x 25% = 2.80 总计 DUTIES 和 SALESTAX：1.00 + 0.20 + 2.80 = 4.00 总金额：10.00 + 4.00 = 14.00</span><span class="sxs-lookup"><span data-stu-id="2518a-137">Net amount: 10.00 DUTY 1: 10.00 x 10% = 1.00 DUTY 2: 1.00 x 20% = 0.20 Gross amount: 10.00 + 1.00 + 0.20 = 11.20 SALESTAX: 11.20 x 25% = 2.80 Total DUTIES and SALESTAX: 1.00 + 0.20 + 2.80 = 4.00 Total amount: 10.00 + 4.00 = 14.00</span></span>
+
 | <span data-ttu-id="2518a-138">**注意**</span><span class="sxs-lookup"><span data-stu-id="2518a-138">**Note**</span></span>                                                                                                                                                                                                                    |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="2518a-139">多级别税上税计算是不可能的。</span><span class="sxs-lookup"><span data-stu-id="2518a-139">Multilevel tax on tax calculations are not possible.</span></span> <span data-ttu-id="2518a-140">税不能基于已基于其他税计算的税计算。</span><span class="sxs-lookup"><span data-stu-id="2518a-140">A tax cannot be calculated based on a tax which already is calculated based on another tax.</span></span> <span data-ttu-id="2518a-141">多个单一级别税上税代码可以基于交易记录计算。</span><span class="sxs-lookup"><span data-stu-id="2518a-141">Multiple single level tax on tax codes can be calculated on a transaction.</span></span> |
@@ -79,6 +80,7 @@ ms.lasthandoff: 11/03/2017
 ### <a name="example"></a><span data-ttu-id="2518a-146">示例</span><span class="sxs-lookup"><span data-stu-id="2518a-146">Example</span></span>
 
 <span data-ttu-id="2518a-147">销售税代码的设置如下：每单位 USD 1.20 = 箱 在销售发票行上，物料销售 25 箱 销售税计算为 25 x 1.20 = 30.00</span><span class="sxs-lookup"><span data-stu-id="2518a-147">Sales tax code is set up as: USD 1.20 per unit = box On a sales invoice line 25 boxes of an item are sold Sales tax is calculated as 25 x 1.20 = 30.00</span></span>
+
 | <span data-ttu-id="2518a-148">**注意**</span><span class="sxs-lookup"><span data-stu-id="2518a-148">**Note**</span></span>                                                                                                                                                                                                 |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="2518a-149">如果交易记录用与在销售税代码中指定的单位不同的单位输入，它将基于在“单位换算”页设置的单位换算自动换算。</span><span class="sxs-lookup"><span data-stu-id="2518a-149">If the transaction is entered in different unit than the unit specified on the sales tax code, it is converted automatically based on the unit conversions that are set up in the Unit conversions page.</span></span> |

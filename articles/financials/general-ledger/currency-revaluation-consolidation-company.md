@@ -19,19 +19,16 @@ ms.author: hminzner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 06490f14ed01c3061b20a0e6977746e9fd2a6ffa
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2330939ddd7ccf4555cf1eff1e264c51f779c4eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a><span data-ttu-id="c6947-103">合并公司中的币种重估</span><span class="sxs-lookup"><span data-stu-id="c6947-103">Currency revaluation in a consolidation company</span></span>
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c6947-104">将一个记帐币种的数据与另一个记帐币种的数据合并时，如果汇率发生更改，则仍必须运行币种重估，以便准确重估帐户余额。</span><span class="sxs-lookup"><span data-stu-id="c6947-104">When you consolidate data from one accounting currency to another, you must still run currency revaluation if there is a change in exchange rates, so that your account balances  are correctly revalued.</span></span> <span data-ttu-id="c6947-105">在最初合并数据时，使用**“币种折算”**选项卡可选择合并过程中用于折算的初始汇率。</span><span class="sxs-lookup"><span data-stu-id="c6947-105">When you originally consolidate the data, use the **Currency translation** tab to select the initial exchange rates to for translation during the consolidation process.</span></span> <span data-ttu-id="c6947-106">在输入新的汇率后（例如，在下一个月），您必须重估帐户余额。</span><span class="sxs-lookup"><span data-stu-id="c6947-106">After a new exchange rate is entered (for example, in the next month), you must revalue the account balances.</span></span> <span data-ttu-id="c6947-107">随后，将根据新的汇率和日期更新或有利润或损失。</span><span class="sxs-lookup"><span data-stu-id="c6947-107">The unrealized gains or losses are then updated accordingly, based on the new exchange rate and date.</span></span> <span data-ttu-id="c6947-108">以下示例说明了该过程中创建的会计条目。</span><span class="sxs-lookup"><span data-stu-id="c6947-108">The following example illustrates the accounting entries that are created during the process.</span></span>
 
@@ -52,6 +49,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="c6947-126">10/11/2015</span><span class="sxs-lookup"><span data-stu-id="c6947-126">10/11/2015</span></span> | <span data-ttu-id="c6947-127">130100 – 应收账款</span><span class="sxs-lookup"><span data-stu-id="c6947-127">130100 – Accounts Receivable</span></span> | <span data-ttu-id="c6947-128">美元</span><span class="sxs-lookup"><span data-stu-id="c6947-128">USD</span></span>      | <span data-ttu-id="c6947-129">-500</span><span class="sxs-lookup"><span data-stu-id="c6947-129">-500</span></span>   |
 
 ## <a name="exchange-rates"></a><span data-ttu-id="c6947-130">汇率</span><span class="sxs-lookup"><span data-stu-id="c6947-130">Exchange rates</span></span>
+
 | <span data-ttu-id="c6947-131">原始币种</span><span class="sxs-lookup"><span data-stu-id="c6947-131">From currency</span></span> | <span data-ttu-id="c6947-132">目标币种</span><span class="sxs-lookup"><span data-stu-id="c6947-132">To currency</span></span> | <span data-ttu-id="c6947-133">开始日期</span><span class="sxs-lookup"><span data-stu-id="c6947-133">Start date</span></span> | <span data-ttu-id="c6947-134">汇率</span><span class="sxs-lookup"><span data-stu-id="c6947-134">Exchange rate</span></span> |
 |---------------|-------------|------------|---------------|
 | <span data-ttu-id="c6947-135">欧元</span><span class="sxs-lookup"><span data-stu-id="c6947-135">EUR</span></span>           | <span data-ttu-id="c6947-136">美元</span><span class="sxs-lookup"><span data-stu-id="c6947-136">USD</span></span>         | <span data-ttu-id="c6947-137">10/1/2015</span><span class="sxs-lookup"><span data-stu-id="c6947-137">10/1/2015</span></span>  | <span data-ttu-id="c6947-138">200</span><span class="sxs-lookup"><span data-stu-id="c6947-138">200</span></span>           |

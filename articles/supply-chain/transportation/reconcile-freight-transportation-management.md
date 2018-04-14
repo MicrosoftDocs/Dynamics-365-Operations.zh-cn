@@ -20,17 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: 1004e493611dd77289d092961793b8bb4fef01fc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 08b513609306bd4604cc910560324d87105afbf9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reconcile-freight-in-transportation-management"></a><span data-ttu-id="6f007-103">在运输管理中对运费进行对帐</span><span class="sxs-lookup"><span data-stu-id="6f007-103">Reconcile freight in transportation management</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6f007-104">本文介绍了运费对帐流程。</span><span class="sxs-lookup"><span data-stu-id="6f007-104">This article describes the freight reconciliation process.</span></span>
 

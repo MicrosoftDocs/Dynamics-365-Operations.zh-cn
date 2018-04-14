@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 57e72f421cfe59dfc4fd60b78d4ddfe6840038ca
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bf341e1494bac10da221654be98c37f51fe6276b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bill-of-materials-comparison-for-china"></a><span data-ttu-id="0272d-103">中国的物料清单比较</span><span class="sxs-lookup"><span data-stu-id="0272d-103">Bill of materials comparison for China</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="0272d-104">本主题提供了有关中国的物料清单比较的信息。</span><span class="sxs-lookup"><span data-stu-id="0272d-104">This topic provides information about BOM comparison for China.</span></span>
 

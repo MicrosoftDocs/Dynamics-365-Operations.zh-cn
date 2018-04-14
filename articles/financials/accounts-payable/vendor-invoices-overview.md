@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 3d02b2ee0ee748546158bce1094d2b343afef7c5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 82370fffe9c296ef77f3b15929a9028bcac77677
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-invoices-overview"></a><span data-ttu-id="06593-105">供应商发票概览</span><span class="sxs-lookup"><span data-stu-id="06593-105">Vendor invoices overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="06593-106">本文提供有关供应商发票的一般信息。</span><span class="sxs-lookup"><span data-stu-id="06593-106">This article provides general information about vendor invoices.</span></span> <span data-ttu-id="06593-107">供应商发票收到的产品和服务的付款请求。</span><span class="sxs-lookup"><span data-stu-id="06593-107">Vendor invoices are requests for payment for products and services that were received.</span></span> <span data-ttu-id="06593-108">供应商发票可以表示正在进行中的服务的帐单，也可以基于特定物料和服务的采购订单。</span><span class="sxs-lookup"><span data-stu-id="06593-108">Vendor invoices can represent a bill for ongoing services, or they can be based on purchase orders for specific items and services.</span></span> 
 
@@ -87,11 +86,11 @@ ms.lasthandoff: 01/17/2018
  - [<span data-ttu-id="06593-170">设置供应商发票策略</span><span class="sxs-lookup"><span data-stu-id="06593-170">Set up vendor invoice policies</span></span>](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
  - [<span data-ttu-id="06593-171">使用供应商发票将发票数据键入应付账款</span><span class="sxs-lookup"><span data-stu-id="06593-171">Key invoice data into accounts payable using a vendor invoice</span></span>](tasks/key-invoice-data-ap-system-vendor-invoice.md)
- 
+
  - [<span data-ttu-id="06593-172">使用审核日记帐将发票数据键入应付帐款</span><span class="sxs-lookup"><span data-stu-id="06593-172">Key invoice data into accounts payable using an approval journal</span></span>](tasks/key-invoice-data-into-ap-system-approval-journal.md)
-  
+
  - [<span data-ttu-id="06593-173">使用发票池将发票数据键入 AP 系统</span><span class="sxs-lookup"><span data-stu-id="06593-173">Key invoice data into the AP system using invoice pool</span></span>](tasks/key-invoice-data-into-ap-system-invoice-pool.md)
- 
+
  - [<span data-ttu-id="06593-174">在发票日记帐中记录供应商发票</span><span class="sxs-lookup"><span data-stu-id="06593-174">Record a vendor invoice in the invoice journal</span></span>](tasks/record-vendor-invoice-invoice-journal.md)
 
 

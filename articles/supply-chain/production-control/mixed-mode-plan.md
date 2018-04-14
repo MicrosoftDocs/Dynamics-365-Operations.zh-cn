@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb8fa816d48ee808b92a5bf80c2c39c51f33a195
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a28879586a8af3f98d6864ecc009822e8a29cf1d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mixed-mode-planning---combine-discrete-process-and-lean-sourcing"></a><span data-ttu-id="10fe8-103">混合模式计划 - 合并不同的流程和精益采购</span><span class="sxs-lookup"><span data-stu-id="10fe8-103">Mixed mode planning - Combine discrete, process, and lean sourcing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="10fe8-104">文主题提供有关混合模式计划的信息。</span><span class="sxs-lookup"><span data-stu-id="10fe8-104">This topic provides information about mixed mode planning.</span></span> <span data-ttu-id="10fe8-105">在混合模式计划中，您可以基于物料流来模拟供应链。</span><span class="sxs-lookup"><span data-stu-id="10fe8-105">In mixed mode planning, you can model your supply chain based on the material flow.</span></span> <span data-ttu-id="10fe8-106">Microsoft Dynamics 365 for Finance and Operations 确保物料流遵循您的模型，不论您选择的是哪种供应策略（看板、生产订单、采购订单、批次订单或转移单）。</span><span class="sxs-lookup"><span data-stu-id="10fe8-106">Microsoft Dynamics 365 for Finance and Operations makes sure that the material flow follows your models, regardless of the supply policy that is selected (kanbans, production orders, purchase orders, batch orders, or transfer orders).</span></span> 
 

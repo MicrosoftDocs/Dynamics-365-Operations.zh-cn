@@ -20,17 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c5b9ee57b0b855766628caca239059205c103b86
-ms.openlocfilehash: 4a0586324dddc10d64ad6760222f2540f31d6bce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e6bab3de11dbd2aba8b1330284986514a6ac1dfc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personalized-product-recommendations-overview"></a><span data-ttu-id="1b30e-103">个性化产品建议概览</span><span class="sxs-lookup"><span data-stu-id="1b30e-103">Personalized product recommendations overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 > [!NOTE]
 > <span data-ttu-id="1b30e-104">我们将移除当前的产品建议服务版本，因为我们为这项功能重新设计了更出色的算法和更新的面向零售的功能。</span><span class="sxs-lookup"><span data-stu-id="1b30e-104">We are removing the current version of the product recommendation service as we redesign this feature with a better algorithm and newer retail-oriented capabilities.</span></span> <span data-ttu-id="1b30e-105">有关详细信息，请参阅[已删除或弃用的功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features)。</span><span class="sxs-lookup"><span data-stu-id="1b30e-105">For more information see [Removed or deprecated features](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features).</span></span> <span data-ttu-id="1b30e-106">如果您在针对您的环境的已启用产品建议方面遇到问题，请导航到页面底部。</span><span class="sxs-lookup"><span data-stu-id="1b30e-106">Navigate to the bottom of the page if you are facing issues with already-enabled product recommendations for your environment.</span></span> 
@@ -86,9 +85,9 @@ ms.lasthandoff: 03/08/2018
 -   <span data-ttu-id="1b30e-145">将模型凭据和 ID 提供给 CRT，以便可以处理联机模式下对 Cloud POS 和 MPOS 的产品建议的请求。</span><span class="sxs-lookup"><span data-stu-id="1b30e-145">Model credentials and ID are made available to CRT so that calls for product recommendations from Cloud POS and MPOS in online mode can be honored.</span></span>
 
 > ## <a name="troubleshoot-issues-where-you-have-product-recommendations-already-enabled"></a><span data-ttu-id="1b30e-146">排除您已启用了产品建议时遇到的问题</span><span class="sxs-lookup"><span data-stu-id="1b30e-146">Troubleshoot issues where you have Product recommendations already enabled</span></span> 
->- <span data-ttu-id="1b30e-147">导航到**零售参数** > **机器学习** > **禁用产品建议**，然后运行**全局配置 [1110]**。</span><span class="sxs-lookup"><span data-stu-id="1b30e-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="1b30e-148">如果找不到**机器学习**选项卡，请联系 Dynamics 支持。</span><span class="sxs-lookup"><span data-stu-id="1b30e-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
-
->- <span data-ttu-id="1b30e-149">如果使用**屏幕布局设计器**为交易记录屏幕添加了**建议控件**，请将其一并移除。</span><span class="sxs-lookup"><span data-stu-id="1b30e-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
+> - <span data-ttu-id="1b30e-147">导航到**零售参数** > **机器学习** > **禁用产品建议**，然后运行**全局配置 [1110]**。</span><span class="sxs-lookup"><span data-stu-id="1b30e-147">Navigate to **Retail Parameters** > **Machine learning** > **Disable product recommendations** and run **Global configuration job [1110]**.</span></span> <span data-ttu-id="1b30e-148">如果找不到**机器学习**选项卡，请联系 Dynamics 支持。</span><span class="sxs-lookup"><span data-stu-id="1b30e-148">If you are not able to locate **Machine learning** tab, please contact Dynamics Support.</span></span> 
+> 
+> - <span data-ttu-id="1b30e-149">如果使用**屏幕布局设计器**为交易记录屏幕添加了**建议控件**，请将其一并移除。</span><span class="sxs-lookup"><span data-stu-id="1b30e-149">If you added the **Recommendations control** to your transaction screen using the **Screen layout designer**, please remove that as well.</span></span> 
 
 
 

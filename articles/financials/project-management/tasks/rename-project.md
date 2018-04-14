@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: c9b2c03f87bc4d43e6795aa2e1ac378637fe11ce
-ms.openlocfilehash: c3fbaa70ee2ae581e87031e5586b500098793c25
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41db5fa77c020c0929868593fec16223676e5e31
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/08/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="rename-or-modify-a-project-stage"></a><span data-ttu-id="7d8cb-103">重命名或修改项目阶段</span><span class="sxs-lookup"><span data-stu-id="7d8cb-103">Rename or modify a project stage</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7d8cb-104">项目阶段可以充当项目生命周期的指引。</span><span class="sxs-lookup"><span data-stu-id="7d8cb-104">Project stages can serve as a guide to the project life cycle.</span></span> <span data-ttu-id="7d8cb-105">您可以在“项目管理与核算参数”页的“项目阶段”区域定义您想要包括在您的项目中的项目阶段。</span><span class="sxs-lookup"><span data-stu-id="7d8cb-105">You can define the project stages that you want to include in your projects in the Project stage area in the Project management and accounting parameters page.</span></span> <span data-ttu-id="7d8cb-106">Dynamics 365 for Finance and Operations 提供五个预定义的项目阶段和三个用户定义的阶段。</span><span class="sxs-lookup"><span data-stu-id="7d8cb-106">Dynamics 365 for Finance and Operations provides five predefined project stages and three user-defined stages.</span></span> <span data-ttu-id="7d8cb-107">可以更新用于跟踪项目进度的项目阶段的名称。</span><span class="sxs-lookup"><span data-stu-id="7d8cb-107">You can update the name of a project stage that you are using to track the progress of projects.</span></span> <span data-ttu-id="7d8cb-108">还可以为用户定义的状态名称提供名称。</span><span class="sxs-lookup"><span data-stu-id="7d8cb-108">You can also provide names for user-defined status names.</span></span> <span data-ttu-id="7d8cb-109">此任务显示如何重命名或修改项目阶段，以及如何使用 USSI 数据集。</span><span class="sxs-lookup"><span data-stu-id="7d8cb-109">This task shows how to rename or modify a project stage and uses the USSI data set.</span></span>
 

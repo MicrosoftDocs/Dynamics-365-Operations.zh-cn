@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 0af9dd6c399032597b863f0fa15c58d3e094ba5b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c5d13024ba15744f81406c4c8f5d5d33de658d63
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-fixed-compensation-plans"></a><span data-ttu-id="92cb9-104">创建固定薪酬计划</span><span class="sxs-lookup"><span data-stu-id="92cb9-104">Create fixed compensation plans</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="92cb9-105">固定薪酬指员工的标准总薪水或工资。</span><span class="sxs-lookup"><span data-stu-id="92cb9-105">Fixed compensation refers to an employee's regular gross salary or wages.</span></span> <span data-ttu-id="92cb9-106">本主题介绍在创建固定薪酬和登记员工前必须设置的组件。</span><span class="sxs-lookup"><span data-stu-id="92cb9-106">This topic describes the components that must be set up before you can create a fixed compensation plan and enroll employees.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 94e17d7cbcc8f826e806a8d4bc026a9d7844e910
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d67ca0f21388630ca7875b0cb647195a8344b80e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-main-account-categories"></a><span data-ttu-id="19a60-103">设置主科目类别</span><span class="sxs-lookup"><span data-stu-id="19a60-103">Set up main account categories</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="19a60-104">主科目类别用于财务报表和 Power BI 中的默认报表。</span><span class="sxs-lookup"><span data-stu-id="19a60-104">Main account categories are used for the default reports in financial reporting and in Power BI.</span></span> <span data-ttu-id="19a60-105">默认创建的主科目类别可以重命名，但不可删除。</span><span class="sxs-lookup"><span data-stu-id="19a60-105">Main account categories that are created by default can be renamed but not deleted.</span></span> <span data-ttu-id="19a60-106">可创建其他科目类别，并用于报告和分析。</span><span class="sxs-lookup"><span data-stu-id="19a60-106">Additional account categories can be created and used for reporting and analysis purposes.</span></span> <span data-ttu-id="19a60-107">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="19a60-107">This task uses the USMF demo company.</span></span>
 

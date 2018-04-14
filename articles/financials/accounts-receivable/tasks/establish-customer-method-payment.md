@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 0ba359567126efaa8274644444a8a261e24c6621
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0ef767c8e6649f0c066bf8840f724b03bdf5486
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="establish-customer-method-of-payment"></a><span data-ttu-id="56f95-103">设定客户付款方式</span><span class="sxs-lookup"><span data-stu-id="56f95-103">Establish customer method of payment</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="56f95-104">为客户付款创建一种付款方式。</span><span class="sxs-lookup"><span data-stu-id="56f95-104">Create a method of payment for customer payments.</span></span> <span data-ttu-id="56f95-105">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="56f95-105">This task uses the USMF demo company.</span></span>
 

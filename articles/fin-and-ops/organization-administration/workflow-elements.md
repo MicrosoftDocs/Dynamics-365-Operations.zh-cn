@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec6a9b5133679ed41cc4da3f74d3dbbcf9766a3f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="workflow-elements"></a><span data-ttu-id="2f329-103">工作流元素</span><span class="sxs-lookup"><span data-stu-id="2f329-103">Workflow elements</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2f329-104">本主题介绍构成工作流的不同元素。</span><span class="sxs-lookup"><span data-stu-id="2f329-104">This topic describes the various elements that make up a workflow.</span></span>
 

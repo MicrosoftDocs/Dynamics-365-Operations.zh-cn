@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a896ff1f2bf60a12b415a270853ae25f8af0f813
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 58df4768f33bc4a98c5a229b698754692ce6edbb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a><span data-ttu-id="127f2-103">执行自助服务以下载硬件工作站</span><span class="sxs-lookup"><span data-stu-id="127f2-103">Perform self-service to download hardware station</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="127f2-104">此程序会逐步演示如何下载预定义的硬件工作站。</span><span class="sxs-lookup"><span data-stu-id="127f2-104">This procedure walks through how to download a pre-defined hardware station.</span></span> <span data-ttu-id="127f2-105">此程序使用的演示数据公司是 USRT。</span><span class="sxs-lookup"><span data-stu-id="127f2-105">The demo data company used for this procedure is USRT.</span></span> <span data-ttu-id="127f2-106">在开始此任务之前，您必须已创建一个新的硬件工作站配置文件和硬件工作站。</span><span class="sxs-lookup"><span data-stu-id="127f2-106">You must have created a new hardware station profile and hardware station before starting this task.</span></span>
 

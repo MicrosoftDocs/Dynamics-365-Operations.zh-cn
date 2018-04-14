@@ -18,16 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3abbb2d124ee6c11e46e3680a342ecb12a12ec3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personnel-actions-faq"></a><span data-ttu-id="de900-104">人事行动 [常见问题]</span><span class="sxs-lookup"><span data-stu-id="de900-104">Personnel actions [FAQ]</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="de900-105">如果您的组织使用人事行动，该主题包括对可能有的问题的解答。</span><span class="sxs-lookup"><span data-stu-id="de900-105">This topic contains answers to questions that you might have if your organization uses personnel actions.</span></span> <span data-ttu-id="de900-106">人事行动是执行特定与人事相关任务时必须完成的附加步骤。</span><span class="sxs-lookup"><span data-stu-id="de900-106">Personnel actions are additional steps that you must complete when you perform certain personnel-related tasks.</span></span> <span data-ttu-id="de900-107">关于可能需要人事行动的示例包括您创建新职位、修改现有职位值、雇用新工作人员、转移工作人员、更改工作员工薪酬、更改职位分配或中止工作人员。</span><span class="sxs-lookup"><span data-stu-id="de900-107">Examples of tasks that might require personnel actions are when you create new positions, modify existing position values, hire new workers, transfer workers, change worker compensation, change position assignments, or terminate workers.</span></span>
 
@@ -64,9 +64,9 @@ ms.lasthandoff: 03/07/2018
 <span data-ttu-id="de900-140">如果人事行动请求失败，请执行以下步骤解决错误并重新提交请求：</span><span class="sxs-lookup"><span data-stu-id="de900-140">If a personnel action request fails, follow these steps to resolve the error and resubmit the request:</span></span>
 
 > 1. <span data-ttu-id="de900-141">在**操作窗格**上单击**错误文本**按钮查看描述问题的消息文本。</span><span class="sxs-lookup"><span data-stu-id="de900-141">On the **Action Pane**, click the **Error text** button to view the message text that describes the problem.</span></span>
-
+> 
 > 2. <span data-ttu-id="de900-142">在**操作窗格**上单击**重新启用**可加载最新信息并将人事行动状态设置回**草稿**。</span><span class="sxs-lookup"><span data-stu-id="de900-142">On the **Action Pane**, click **Reactivate** to load the latest information and set the status of the personnel action back to **Draft**.</span></span>
-
+> 
 > 3. <span data-ttu-id="de900-143">解决该错误，然后单击**完成**或**提交**。</span><span class="sxs-lookup"><span data-stu-id="de900-143">Resolve the error, and then click **Complete** or **Submit**.</span></span>
 
 ## <a name="what-happens-to-a-personnel-action-that-uses-workflow-when-the-final-approval-is-completed"></a><span data-ttu-id="de900-144">当完成最终批准时使用工作流，人事行动会发生什么？</span><span class="sxs-lookup"><span data-stu-id="de900-144">What happens to a personnel action that uses workflow when the final approval is completed?</span></span>

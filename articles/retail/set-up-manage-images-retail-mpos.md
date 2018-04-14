@@ -20,17 +20,16 @@ ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: b11d8cc534964959662b4e2c67c19e3961295c3a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 16c6603ee6b4ed6cdd002adf516eeaf876ce7bb9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-and-manage-images-for-retail-modern-pos"></a><span data-ttu-id="656b3-103">为 Retail Modern POS 设置和管理图像</span><span class="sxs-lookup"><span data-stu-id="656b3-103">Set up and manage images for Retail Modern POS</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="656b3-104">本文说明设置和管理显示在 Retail Modern POS (MPOS) 中的各个实体的图像所涉及的步骤。</span><span class="sxs-lookup"><span data-stu-id="656b3-104">This article explains the steps that are involved in setting up and managing images for the various entities that appear in Retail Modern POS (MPOS).</span></span>
 
@@ -141,7 +140,7 @@ ms.lasthandoff: 01/17/2018
 6.  <span data-ttu-id="656b3-270">当 MPOS 处于联机模式时，在 HQ 中运行目录作业，以确保至少一次将数据发送到脱机数据库。</span><span class="sxs-lookup"><span data-stu-id="656b3-270">While MPOS is in Online mode, run the Catalog job in HQ, to make sure that the data is sent at least one time to the offline database.</span></span>
 7.  <span data-ttu-id="656b3-271">将 MPOS 置于脱机模式。</span><span class="sxs-lookup"><span data-stu-id="656b3-271">Put MPOS into Offline mode.</span></span> <span data-ttu-id="656b3-272">您应该可以在 HQ 中看到您为特定产品上载的图像。</span><span class="sxs-lookup"><span data-stu-id="656b3-272">You should see the image that you uploaded for the specific product in HQ.</span></span> <span data-ttu-id="656b3-273">[![offline1](./media/offline1.png)](./media/offline1.png)</span><span class="sxs-lookup"><span data-stu-id="656b3-273">[![offline1](./media/offline1.png)](./media/offline1.png)</span></span>
 
- 
+
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a><span data-ttu-id="656b3-274">将目录、类别、员工和客户图像设置为在 MPOS 的脱机模式下显示</span><span class="sxs-lookup"><span data-stu-id="656b3-274">Set up catalog, category, employee, and customer images to appear in Offline mode for MPOS</span></span>
 

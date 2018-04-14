@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 76334f7ee4efe33df4a86aaa11a59748387cec89
-ms.openlocfilehash: 6a712077fed4a94ae6ae6ce7ea2cfba8848e5fa5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ef11f3779fc94fa95f082893f6863dde8d8c921e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/02/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-baseline-forecast"></a><span data-ttu-id="c0b42-103">创建基准预测</span><span class="sxs-lookup"><span data-stu-id="c0b42-103">Create a baseline forecast</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c0b42-104">生产规划员可通过使用时间序列预测模型或复制历史需求来创建基线预测。</span><span class="sxs-lookup"><span data-stu-id="c0b42-104">A production planner can create a baseline forecast either by using time series forecast models or by copying the historical demand.</span></span> <span data-ttu-id="c0b42-105">此过程显示如何复制历史需求以使用一个物料分配参数来创建所有产品的基线预测。</span><span class="sxs-lookup"><span data-stu-id="c0b42-105">This procedure shows how to copy the historical demand to create a baseline forecast for all products using one item allocation key.</span></span> 
 

@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d8eb8a8c4e98dde0b1e8583a8b7f6f603bc736c7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4a10007be4b9277defe9f170b24e68d3fba30ed7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="master-plans"></a><span data-ttu-id="3f285-103">主计划</span><span class="sxs-lookup"><span data-stu-id="3f285-103">Master plans</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3f285-104">使用各种主计划来支持公司的日常运营、模拟要监控的不同计划策略、实现公司策略，例如有关内部绩效或客户满意度的政策。</span><span class="sxs-lookup"><span data-stu-id="3f285-104">Use various master plans to support your company's daily working operations, simulate different planning strategies that you want to monitor, and implement a company policy, such as a policy about internal performance or customer satisfaction.</span></span> 
 

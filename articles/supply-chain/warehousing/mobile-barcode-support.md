@@ -18,16 +18,16 @@ ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: 3cae5d4c4680f61b671f63616908bc3b6c463da6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6cf870974b2f772e82fbf828e83f065dc945d377
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-bar-code-support"></a><span data-ttu-id="3bd33-103">移动条码支持</span><span class="sxs-lookup"><span data-stu-id="3bd33-103">Mobile bar code support</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3bd33-104">由于 Android 是一个开源项目，仓库条码扫描仪的任何硬件制造商都可以构建设备来运行 Android 操作系统。</span><span class="sxs-lookup"><span data-stu-id="3bd33-104">Because Android is an open source project, any manufacturer of hardware for warehouse bar code scanners can build a device to run the Android operating system.</span></span> <span data-ttu-id="3bd33-105">如果设备能够运行为 Android 执行环境编写的应用，其只能是 Android 兼容设备。</span><span class="sxs-lookup"><span data-stu-id="3bd33-105">A device is only Android-compatible if it can run apps that are written for the Android execution environment.</span></span>
 <span data-ttu-id="3bd33-106">但是，硬件供应商可以修改和创建在其硬件上运行的 Android 版本的覆盖。</span><span class="sxs-lookup"><span data-stu-id="3bd33-106">However, a hardware vendor can modify and create overlays for the Android version that runs on their hardware.</span></span> <span data-ttu-id="3bd33-107">Microsoft 不负责确保 Android 的移动条码扫描应用与制造商的条码扫描硬件和在其中运行的 Android 版本兼容。</span><span class="sxs-lookup"><span data-stu-id="3bd33-107">Microsoft cannot take any responsibility to ensure that a mobile bar code scanning app for Android is compatible with a manufacturer’s bar code scanning hardware and the Android version that runs on it.</span></span> 

@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4082facdba02cd69c6679e7f3e68e391d29e4195
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba1b158908ac2328c29f7efe23756248be5be33c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-items-lent-to-workers"></a><span data-ttu-id="db2d0-103">管理借出给工作人员的物品</span><span class="sxs-lookup"><span data-stu-id="db2d0-103">Manage items lent to workers</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="db2d0-104">借出物品是帮助经理跟踪您的公司借出给工作人员的实际物品。</span><span class="sxs-lookup"><span data-stu-id="db2d0-104">Loan items are records that help managers track the physical items that your company lends to its workers.</span></span> 
 
@@ -51,7 +50,7 @@ ms.lasthandoff: 01/31/2018
 
 <span data-ttu-id="db2d0-120">如果物品被损坏或放错了地方，应输入虚拟的归还记录。</span><span class="sxs-lookup"><span data-stu-id="db2d0-120">If an item becomes damaged or misplaced, enter a fictitious return record.</span></span> <span data-ttu-id="db2d0-121">然后删除该物品或将其保留在概览中，并更改描述以指出该物品不可用。</span><span class="sxs-lookup"><span data-stu-id="db2d0-121">Then either delete the item or keep it in the overview and change the description to indicate that the item is not available.</span></span>
 
- 
+
 <a name="see-also"></a><span data-ttu-id="db2d0-122">请参阅</span><span class="sxs-lookup"><span data-stu-id="db2d0-122">See also</span></span>
 --------
 

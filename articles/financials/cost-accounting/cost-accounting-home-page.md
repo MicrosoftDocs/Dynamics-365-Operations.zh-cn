@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 6f9c338216fe13a020c92f05ae113676c4fb09e7
-ms.openlocfilehash: 2b150a3d847e81bf758cf91f011583242c85f97d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 547163da868cce1b81a70075554ef519201b18bc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/16/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-home-page"></a><span data-ttu-id="5306e-103">成本核算主页</span><span class="sxs-lookup"><span data-stu-id="5306e-103">Cost accounting home page</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a><span data-ttu-id="5306e-104">学习图</span><span class="sxs-lookup"><span data-stu-id="5306e-104">Learning map</span></span> 
 
@@ -37,6 +37,7 @@ ms.lasthandoff: 01/16/2018
 <span data-ttu-id="5306e-107">[![成本核算学习图](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span><span class="sxs-lookup"><span data-stu-id="5306e-107">[![Learning map for cost accounting](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)</span></span>
 
 ## <a name="quick-links"></a><span data-ttu-id="5306e-108">快速链接</span><span class="sxs-lookup"><span data-stu-id="5306e-108">Quick links</span></span>
+
 |      |   |
 |------|---|
 |  <span data-ttu-id="5306e-109">[配置基本实体（网络培训）](https://mbspartner.microsoft.com/Home)（需要 CustomerSource 帐户）</span><span class="sxs-lookup"><span data-stu-id="5306e-109">[Configure base entities (eLearning)](https://mbspartner.microsoft.com/Home) (requires CustomerSource account)</span></span>  |[<span data-ttu-id="5306e-110">创建维度</span><span class="sxs-lookup"><span data-stu-id="5306e-110">Create dimensions</span></span>](cost-elements.md)  |

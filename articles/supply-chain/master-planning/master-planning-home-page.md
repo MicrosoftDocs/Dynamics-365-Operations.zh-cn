@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 336356b5abe38b27fdfa5fe74d52a130e7b8d445
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="master-planning-home-page"></a><span data-ttu-id="3d0d8-103">主计划主页</span><span class="sxs-lookup"><span data-stu-id="3d0d8-103">Master planning home page</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3d0d8-104">在其核心，主计划允许公司确定和平衡原材料和产能的将来需求，以实现公司目标。</span><span class="sxs-lookup"><span data-stu-id="3d0d8-104">At its core, Master planning allows companies to determine and balance the future need for raw materials and capacity to meet company goals.</span></span> <span data-ttu-id="3d0d8-105">主计划评估以下情况：</span><span class="sxs-lookup"><span data-stu-id="3d0d8-105">Master planning assesses the following:</span></span> 
 
@@ -58,6 +57,7 @@ ms.lasthandoff: 02/13/2018
 <span data-ttu-id="3d0d8-130">[![主计划的学习图](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)</span><span class="sxs-lookup"><span data-stu-id="3d0d8-130">[![Learning map for master planning](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)</span></span>
 
 ## <a name="quick-links"></a><span data-ttu-id="3d0d8-131">快速链接</span><span class="sxs-lookup"><span data-stu-id="3d0d8-131">Quick links</span></span>
+
 |      |   |
 |------|---|
 |        [<span data-ttu-id="3d0d8-132">主计划</span><span class="sxs-lookup"><span data-stu-id="3d0d8-132">Master plans</span></span>](master-plans.md)       |     [<span data-ttu-id="3d0d8-133">生成受约束计划</span><span class="sxs-lookup"><span data-stu-id="3d0d8-133">Generate a constrained plan</span></span>](./tasks/constrained-plan.md)  |

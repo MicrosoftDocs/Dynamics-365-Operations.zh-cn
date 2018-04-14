@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3843935cf17aeb0fd358398dccbca4cf494b132
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5938f7a439c742426e3e73a1ea6c8f66f2e0efdb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="settle-a-partial-customer-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a><span data-ttu-id="dafb0-104">在使用最后付款的折扣日期之前的折扣日期之后结算部分客户付款</span><span class="sxs-lookup"><span data-stu-id="dafb0-104">Settle a partial customer payment before the discount date with a final payment after the discount date</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="dafb0-105">文本讨论结算客户发票付款的影响。</span><span class="sxs-lookup"><span data-stu-id="dafb0-105">This article discusses the effect of settling payments to invoices for customers.</span></span> <span data-ttu-id="dafb0-106">此情况关注对子分类帐而不是总帐的影响。</span><span class="sxs-lookup"><span data-stu-id="dafb0-106">The scenario focuses on the effects in the subledger, not in General ledger.</span></span>
 

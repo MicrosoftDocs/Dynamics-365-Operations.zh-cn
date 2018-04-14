@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 6084ddb1c5b8fae9111ea1459f6e94b14930bfc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="a748e-104">销售和收益率绩效 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="a748e-104">Sales and profitability performance Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a748e-105">此主题介绍**销售和收益率绩效** Microsoft Power BI 内容中的内容。</span><span class="sxs-lookup"><span data-stu-id="a748e-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="a748e-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="a748e-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 01/17/2018
 | <span data-ttu-id="a748e-140">按产品的收入</span><span class="sxs-lookup"><span data-stu-id="a748e-140">Revenue by product</span></span>     | <span data-ttu-id="a748e-141">按销售类别的收入和毛利润</span><span class="sxs-lookup"><span data-stu-id="a748e-141">Revenue & gross profit by sales category</span></span>   | <span data-ttu-id="a748e-142">产品\#总数</span><span class="sxs-lookup"><span data-stu-id="a748e-142">Total \# of products</span></span>                                    |
 |                        | <span data-ttu-id="a748e-143">按收入排名前 10 位的产品</span><span class="sxs-lookup"><span data-stu-id="a748e-143">Top 10 products by revenue</span></span>                 | <span data-ttu-id="a748e-144">有效产品总数和在总数中所占百分比</span><span class="sxs-lookup"><span data-stu-id="a748e-144">Total number of active products and percentage of total</span></span> |
 |                        | <span data-ttu-id="a748e-145">按收入类别的总收入</span><span class="sxs-lookup"><span data-stu-id="a748e-145">Total revenue by sales category</span></span>            | <span data-ttu-id="a748e-146">占利润中的 80% 的产品的数量</span><span class="sxs-lookup"><span data-stu-id="a748e-146">Number of products accounting for 80% revenue</span></span>           |
-| <span data-ttu-id="a748e-147">按期间的收入\\*</span><span class="sxs-lookup"><span data-stu-id="a748e-147">Revenue by period\\*</span></span>    | <span data-ttu-id="a748e-148">按月的收入</span><span class="sxs-lookup"><span data-stu-id="a748e-148">Revenue by month</span></span>                           | <span data-ttu-id="a748e-149">YOY 收入增长</span><span class="sxs-lookup"><span data-stu-id="a748e-149">YOY revenue growth</span></span>                                      |
+| <span data-ttu-id="a748e-147">按期间的收入\*</span><span class="sxs-lookup"><span data-stu-id="a748e-147">Revenue by period\*</span></span>    | <span data-ttu-id="a748e-148">按月的收入</span><span class="sxs-lookup"><span data-stu-id="a748e-148">Revenue by month</span></span>                           | <span data-ttu-id="a748e-149">YOY 收入增长</span><span class="sxs-lookup"><span data-stu-id="a748e-149">YOY revenue growth</span></span>                                      |
 |                        | <span data-ttu-id="a748e-150">跟踪收入差异、YOY</span><span class="sxs-lookup"><span data-stu-id="a748e-150">Trailing revenue variance, YOY</span></span>             | <span data-ttu-id="a748e-151">YOY 收入增长百分比</span><span class="sxs-lookup"><span data-stu-id="a748e-151">YOY revenue growth %</span></span>                                    |
 |                        | <span data-ttu-id="a748e-152">按客户区域的销售总差异</span><span class="sxs-lookup"><span data-stu-id="a748e-152">Total sales variance by customer region</span></span>    |                                                         |
 | <span data-ttu-id="a748e-153">按位置的收入</span><span class="sxs-lookup"><span data-stu-id="a748e-153">Revenue by location</span></span>    | <span data-ttu-id="a748e-154">按城市的销售收入</span><span class="sxs-lookup"><span data-stu-id="a748e-154">Sales revenue by city</span></span>                      |                                                         |
@@ -75,7 +75,7 @@ ms.lasthandoff: 01/17/2018
 |                        | <span data-ttu-id="a748e-162">按毛利排名前 15 位的客户</span><span class="sxs-lookup"><span data-stu-id="a748e-162">Top 15 customers by gross margin</span></span>           |                                                         |
 |                        | <span data-ttu-id="a748e-163">按月的毛利润、YOY</span><span class="sxs-lookup"><span data-stu-id="a748e-163">Gross profit by month, YOY</span></span>                 |                                                         |
 
-<span data-ttu-id="a748e-164">\\* 按销售类别的今年和去年收入，以及增长。</span><span class="sxs-lookup"><span data-stu-id="a748e-164">\\* Revenue this and last year, and growth by sales category.</span></span>
+<span data-ttu-id="a748e-164">\* 按销售类别的今年和去年收入，以及增长。</span><span class="sxs-lookup"><span data-stu-id="a748e-164">\* Revenue this and last year, and growth by sales category.</span></span>
 
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="a748e-165">了解数据模型和实体</span><span class="sxs-lookup"><span data-stu-id="a748e-165">Understanding the data model and entities</span></span>

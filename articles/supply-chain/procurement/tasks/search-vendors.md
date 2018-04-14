@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fa02b4fb6f309e55d0c74e477952e928ad8dfb12
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7fd7a839f5b9b3a80ad944a66cc75232a336c48f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="search-for-vendors"></a><span data-ttu-id="a782a-103">搜索供应商</span><span class="sxs-lookup"><span data-stu-id="a782a-103">Search for vendors</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a782a-104">了解如何基于特定条件检索供应商。</span><span class="sxs-lookup"><span data-stu-id="a782a-104">Learn how to search for vendors based on specific criteria.</span></span> <span data-ttu-id="a782a-105">此示例显示了如何检索被批准用于特定采购类别，并拥有特定国家内首选地址的供应商。</span><span class="sxs-lookup"><span data-stu-id="a782a-105">This example shows you how to search for vendors that are approved for a particular procurement category and have their primary address in a specific country.</span></span> <span data-ttu-id="a782a-106">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="a782a-106">You can run this procedure in demo data company USMF, or on your own data.</span></span> <span data-ttu-id="a782a-107">此任务通常由采购专业人员完成。</span><span class="sxs-lookup"><span data-stu-id="a782a-107">This task would usually be carried out by a procurement professional.</span></span>
 

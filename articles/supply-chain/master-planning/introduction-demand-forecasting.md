@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 6a0455c5d86f953e270501a7f1648f7700f717d0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7a4a284c818b68e36baea55eac3d97b8396db993
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="demand-forecasting-overview"></a><span data-ttu-id="aabac-104">需求预测概览</span><span class="sxs-lookup"><span data-stu-id="aabac-104">Demand forecasting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="aabac-105">需求预测用于从销售订单预测无关需求并从客户订单的任何解耦点预测相关需求。</span><span class="sxs-lookup"><span data-stu-id="aabac-105">Demand forecasting is used to predict independent demand from sales orders and dependent demand at any decoupling point for customer orders.</span></span> <span data-ttu-id="aabac-106">增强型需求预测缩减规则为批量自定义提供了一个理想的解决方案。</span><span class="sxs-lookup"><span data-stu-id="aabac-106">The enhanced demand forecast reduction rules provide an ideal solution for mass customization.</span></span>
 

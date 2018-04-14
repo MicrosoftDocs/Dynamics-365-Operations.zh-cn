@@ -17,15 +17,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bdf7b21d216f41f97a5b766f2de27cce918290c7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-sales-agreements"></a><span data-ttu-id="f2285-103">输入销售协议</span><span class="sxs-lookup"><span data-stu-id="f2285-103">Enter sales agreements</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f2285-104">该过程向您显示如何向您的客户创建承诺：在超限时间采购议定数量的产品将获得特定的销售折扣的的销售协议。</span><span class="sxs-lookup"><span data-stu-id="f2285-104">This procedure shows you how to create a sales agreement that commits one of your customers to buy a product for an agreed amount over time in exchange for special discounts.</span></span> <span data-ttu-id="f2285-105">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="f2285-105">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

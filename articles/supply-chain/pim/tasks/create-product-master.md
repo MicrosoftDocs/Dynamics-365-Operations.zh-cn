@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: e67b0040a2f6cac23d0b51216278abb9b6eb0e8a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1cf621b0fad72ad8785a0c9cb35fbf1964ee3b0d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-product-master"></a><span data-ttu-id="252e0-103">创建基础产品</span><span class="sxs-lookup"><span data-stu-id="252e0-103">Create a product master</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="252e0-104">为预定义变型创建基础产品。</span><span class="sxs-lookup"><span data-stu-id="252e0-104">Create a product master for the predefined variants.</span></span> <span data-ttu-id="252e0-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="252e0-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="252e0-106">此过程专门针对产品设计人员。</span><span class="sxs-lookup"><span data-stu-id="252e0-106">This procedure is intended for the product designer.</span></span>
 

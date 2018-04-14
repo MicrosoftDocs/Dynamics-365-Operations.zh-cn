@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 85b6d502f8dea32602d2fd5edc223a9660b863ad
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fe7127e84868492e9e22cf7d651d77f4415a4a26
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a><span data-ttu-id="32525-103">查看日记帐的相关内部公司凭证</span><span class="sxs-lookup"><span data-stu-id="32525-103">View a related intercompany voucher from a journal</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="32525-104">在过帐内部公司交易的普通日记帐时，相关的凭证窗口显示该凭证来自其他公司。</span><span class="sxs-lookup"><span data-stu-id="32525-104">The related voucher window shows the voucher from the offset company when posting an intercompany transaction from the general journal.</span></span>
 

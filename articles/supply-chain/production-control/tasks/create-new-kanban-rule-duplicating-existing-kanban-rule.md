@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6bdd79de9f7dd71c3acbfa32c4decbf0b4593798
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d375e6c029e575269f7b9fce8a2eb9ac95717b5c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a><span data-ttu-id="91c5d-103">通过复制现有看板规则创建新看板规则</span><span class="sxs-lookup"><span data-stu-id="91c5d-103">Create a new kanban rule by duplicating an existing kanban rule</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="91c5d-104">该过程的重点是创建现有看板规则的副本。</span><span class="sxs-lookup"><span data-stu-id="91c5d-104">This procedure focuses on creating a duplicate of an existing kanban rule.</span></span> <span data-ttu-id="91c5d-105">如果您想要根据现有看板规则创建新的看板规则，这很有用。</span><span class="sxs-lookup"><span data-stu-id="91c5d-105">This is useful if you want to create new kanban rules based on existing kanban rules.</span></span> <span data-ttu-id="91c5d-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="91c5d-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="91c5d-107">该过程面向工艺工程师和价值流经理，因为他们负责改进的生产流或新补货规则的制定。</span><span class="sxs-lookup"><span data-stu-id="91c5d-107">This procedure is intended for the process engineer or the value stream manager as they prepare production for a changed production flow or a new replenishment rule.</span></span>
 

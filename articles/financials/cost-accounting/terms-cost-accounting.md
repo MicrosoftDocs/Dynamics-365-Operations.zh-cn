@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 1ec2f4a407c705fb37681f5593d0f7ea31f4cf0f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="c5ee5-103">成本核算术语</span><span class="sxs-lookup"><span data-stu-id="c5ee5-103">Cost accounting terminology</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c5ee5-104">本主题定义了成本核算中使用的重要术语。</span><span class="sxs-lookup"><span data-stu-id="c5ee5-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 
@@ -150,14 +149,14 @@ ms.lasthandoff: 03/26/2018
 |  + |  <span data-ttu-id="c5ee5-241">增加额</span><span class="sxs-lookup"><span data-stu-id="c5ee5-241">Addition</span></span> |
 |  <span data-ttu-id="c5ee5-242">–</span><span class="sxs-lookup"><span data-stu-id="c5ee5-242">–</span></span> |  <span data-ttu-id="c5ee5-243">减</span><span class="sxs-lookup"><span data-stu-id="c5ee5-243">Subtraction</span></span> |
 | *  | <span data-ttu-id="c5ee5-244">乘</span><span class="sxs-lookup"><span data-stu-id="c5ee5-244">Multiplication</span></span>  |
-    
+
 <span data-ttu-id="c5ee5-245">不支持传统的 IF 语句。</span><span class="sxs-lookup"><span data-stu-id="c5ee5-245">Traditional IF statements are not supported.</span></span> <span data-ttu-id="c5ee5-246">但是，您可以创建语句并验证它们是否正确。</span><span class="sxs-lookup"><span data-stu-id="c5ee5-246">However, you can create statements and validate whether they are true.</span></span>
 
 |  <span data-ttu-id="c5ee5-247">**对账单验证**</span><span class="sxs-lookup"><span data-stu-id="c5ee5-247">**Statement  Validation**</span></span> | <span data-ttu-id="c5ee5-248">**结果**</span><span class="sxs-lookup"><span data-stu-id="c5ee5-248">**Result**</span></span>  |
 |---|---|
 |  <span data-ttu-id="c5ee5-249">a > b</span><span class="sxs-lookup"><span data-stu-id="c5ee5-249">a > b</span></span>| <span data-ttu-id="c5ee5-250">真</span><span class="sxs-lookup"><span data-stu-id="c5ee5-250">True</span></span>  |
 |  <span data-ttu-id="c5ee5-251">a > b</span><span class="sxs-lookup"><span data-stu-id="c5ee5-251">a > b</span></span> |  <span data-ttu-id="c5ee5-252">假</span><span class="sxs-lookup"><span data-stu-id="c5ee5-252">False</span></span> |
-    
+
 <span data-ttu-id="c5ee5-253">**间接成本**</span><span class="sxs-lookup"><span data-stu-id="c5ee5-253">**Overhead cost**</span></span>
 
 <span data-ttu-id="c5ee5-254">开销成本是指经营业务的持续支出。</span><span class="sxs-lookup"><span data-stu-id="c5ee5-254">Overhead costs refer to the ongoing expenses of operating a business.</span></span> <span data-ttu-id="c5ee5-255">这些成本无法直接关联到具体的业务活动。</span><span class="sxs-lookup"><span data-stu-id="c5ee5-255">They are the costs that can’t be linked directly to specific business activities.</span></span> <span data-ttu-id="c5ee5-256">以下是一些开销成本示例：</span><span class="sxs-lookup"><span data-stu-id="c5ee5-256">Here are some examples of overhead costs:</span></span>

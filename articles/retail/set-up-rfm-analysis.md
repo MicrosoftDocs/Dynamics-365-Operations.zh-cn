@@ -20,17 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: e7c815cc5b660b505cb06560efc3e7501645c350
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="02252-103">设置 RFM 分析</span><span class="sxs-lookup"><span data-stu-id="02252-103">Set up RFM analysis</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="02252-104">本主题解释了如何设置客户的 Recency、频率和货币 (RFM) 分析。</span><span class="sxs-lookup"><span data-stu-id="02252-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 
@@ -60,25 +59,25 @@ ms.lasthandoff: 01/17/2018
     - <span data-ttu-id="02252-126">如果 RFM 得分的每个部分必须包含同等数量的客户，请选择**均匀分布**复选框。</span><span class="sxs-lookup"><span data-stu-id="02252-126">If each section of the RFM score must contain an equal count of customers, select the **Even distribution** check box.</span></span> 
     - <span data-ttu-id="02252-127">选择**添加分数**复选框总计三类得分。</span><span class="sxs-lookup"><span data-stu-id="02252-127">Select the **Add scores** check box to aggregate the three scores.</span></span> <span data-ttu-id="02252-128">例如，客户的 RFM 得分将为 13，而不是 535。</span><span class="sxs-lookup"><span data-stu-id="02252-128">For example, this would give a customer an RFM score of 13 instead of 535.</span></span> 
     - <span data-ttu-id="02252-129">选择**保存历史记录**复选框，以要求系统保存客户的统计数据，以便使用数据计算 RFM 得分。</span><span class="sxs-lookup"><span data-stu-id="02252-129">Select the **Save history** check box to require the system to save the statistical data for customers so that the data can be used to calculate the RFM score.</span></span>
-  
+
 5.  <span data-ttu-id="02252-130">在 **Recency** 快速选项卡上，执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="02252-130">On the **Recency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="02252-131">在**部门**字段中，输入用于计算客户的 recency 得分的部门编号或组编号。</span><span class="sxs-lookup"><span data-stu-id="02252-131">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the recency score for customers.</span></span> <span data-ttu-id="02252-132">例如，但是，如果您有 100 个客户，5 个部门则表示每分对应 20 个客户。</span><span class="sxs-lookup"><span data-stu-id="02252-132">For example, if you have 100 customers, a division of 5 means that there are 20 customers for each score.</span></span> <span data-ttu-id="02252-133">最近进行购买的 20 位客户的 recency 得分为 5。</span><span class="sxs-lookup"><span data-stu-id="02252-133">The 20 customers who have made purchases most recently have a recency score of 5.</span></span> <span data-ttu-id="02252-134">随后的 20 位客户的 recency 得分为 4，依此类推。</span><span class="sxs-lookup"><span data-stu-id="02252-134">The next 20 customers have a recency score of 4, and so on.</span></span> <span data-ttu-id="02252-135">如果您有 50 个客户，10 个客户的 recency 得分为 5，10 个的 recency 得分为 4，依此类推。</span><span class="sxs-lookup"><span data-stu-id="02252-135">If you have 50 customers, 10 customers have a recency score of 5, 10 have a recency score of 4, and so on.</span></span> 
     - <span data-ttu-id="02252-136">在**优先级**字段中，在为客户计算 RFM 得分时，选择 recency 参数相对于其他参数的权重。</span><span class="sxs-lookup"><span data-stu-id="02252-136">In the **Priority** field, select how much weight to give the recency parameter in relation to the other parameters when the RFM score is calculated for a customer.</span></span> <span data-ttu-id="02252-137">例如，您给 recency 得分的分量可能大于货币得分的分量。</span><span class="sxs-lookup"><span data-stu-id="02252-137">For example, you might place more value on the recency score than the monetary score.</span></span> 
     - <span data-ttu-id="02252-138">在**倍数**字段中，输入要与 recency 得分相乘的值。</span><span class="sxs-lookup"><span data-stu-id="02252-138">In the **Multiplier** field, enter the value by which to multiply the recency score.</span></span> <span data-ttu-id="02252-139">如果未输入值，则得分将不会增加。</span><span class="sxs-lookup"><span data-stu-id="02252-139">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="02252-140">在**期间**字段中，选择计算 recency 得分的时段。</span><span class="sxs-lookup"><span data-stu-id="02252-140">In the **Period** field, select the time period by which the recency score is calculated.</span></span> <span data-ttu-id="02252-141">例如，按周或按月计算。</span><span class="sxs-lookup"><span data-stu-id="02252-141">For example, by week or by month.</span></span>
-   
+
 6.  <span data-ttu-id="02252-142">在**频率**快速选项卡上，执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="02252-142">On the **Frequency** FastTab, do the following:</span></span> 
     - <span data-ttu-id="02252-143">在**部门**字段中，输入用于计算客户的频率得分的部门编号或组编号。</span><span class="sxs-lookup"><span data-stu-id="02252-143">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the frequency score for customers.</span></span> 
     - <span data-ttu-id="02252-144">在**优先级**字段中，在计算客户的 RFM 得分时，选择频率参数相对于其他参数的权重。</span><span class="sxs-lookup"><span data-stu-id="02252-144">In the **Priority** field, select how much weight to give the frequency parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="02252-145">在**倍数**字段中，输入要与频率得分相乘的值。</span><span class="sxs-lookup"><span data-stu-id="02252-145">In the **Multiplier** field, enter the value by which to multiply the frequency score.</span></span> <span data-ttu-id="02252-146">如果未输入值，则得分将不会增加。</span><span class="sxs-lookup"><span data-stu-id="02252-146">If you do not enter a value, the score will not be multiplied.</span></span>
-   
+
 7.  <span data-ttu-id="02252-147">在**货币**快速选项卡上，执行以下操作：</span><span class="sxs-lookup"><span data-stu-id="02252-147">On the **Monetary** FastTab, do the following:</span></span> 
     - <span data-ttu-id="02252-148">在**部门**字段中，输入用于计算客户的货币得分的部门编号或组编号。</span><span class="sxs-lookup"><span data-stu-id="02252-148">In the **Divisions** field, enter the number of divisions, or groups, which will be used to calculate the monetary score for customers.</span></span> 
     - <span data-ttu-id="02252-149">在**优先级**字段中，在计算客户的 RFM 得分时，选择货币参数相对于其他参数的权重。</span><span class="sxs-lookup"><span data-stu-id="02252-149">In the **Priority** field, select how much weight to give the monetary parameter in relation to the others when the RFM score is calculated for a customer.</span></span> 
     - <span data-ttu-id="02252-150">在**倍数**字段中，输入要与货币得分相乘的值。</span><span class="sxs-lookup"><span data-stu-id="02252-150">In the **Multiplier** field, enter the value by which to multiply the monetary score.</span></span> <span data-ttu-id="02252-151">如果未输入值，则得分将不会增加。</span><span class="sxs-lookup"><span data-stu-id="02252-151">If you do not enter a value, the score will not be multiplied.</span></span> 
     - <span data-ttu-id="02252-152">在**总额/净额**字段中，选择客户的货币得分是使用总发票金额还是净发票金额计算。</span><span class="sxs-lookup"><span data-stu-id="02252-152">In the **Gross/net** field, select whether the customer’s monetary score should be calculated by using the gross or net invoice amount.</span></span> 
     - <span data-ttu-id="02252-153">如果客户的返回金额应从客户的总发票计算中减去，请选择**减去退款**复选框。</span><span class="sxs-lookup"><span data-stu-id="02252-153">If a customer’s return amounts should be subtracted from the customer’s total invoice calculation, select the **Subtract returns** check box.</span></span> 
- 
+
 ## <a name="view-a-customers-rfm-score"></a><span data-ttu-id="02252-154">查看客户的 RFM 分数</span><span class="sxs-lookup"><span data-stu-id="02252-154">View a customer’s RFM score</span></span>
 <span data-ttu-id="02252-155">用此过程查看客户的 RFM 分数。</span><span class="sxs-lookup"><span data-stu-id="02252-155">Use this procedure to view a customer’s RFM score.</span></span> 
 

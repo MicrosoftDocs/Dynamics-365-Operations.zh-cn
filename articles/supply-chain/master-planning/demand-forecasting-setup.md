@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 762523f4714a8ff84751abc4b2e0472670883e9c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a><span data-ttu-id="cdc28-103">需求预测设置</span><span class="sxs-lookup"><span data-stu-id="cdc28-103">Demand forecasting setup</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="cdc28-104">本主题介绍为准备需求预测您必须执行的设置任务。</span><span class="sxs-lookup"><span data-stu-id="cdc28-104">This topic describes the setup tasks that you must perform to prepare for demand forecasting.</span></span>  
 

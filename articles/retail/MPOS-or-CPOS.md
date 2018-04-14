@@ -19,16 +19,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7eb15f9f73f4773d98160e1b0ec5ce74c159cdea
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c8d63ab3dcde9c206f1c0ddd0185109a3298f5a4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a><span data-ttu-id="0b520-104">在 Modern POS 和 Cloud POS 之间选择</span><span class="sxs-lookup"><span data-stu-id="0b520-104">Choose between Modern POS and Cloud POS</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="0b520-105">此主题为实施人员提供在部署 Microsoft Dynamics 365 for Retail 时应该考虑的因素的其他背景、建议和指南。</span><span class="sxs-lookup"><span data-stu-id="0b520-105">This topic gives implementers additional background, tips, and guidance for factors that they should consider when they deploy Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="0b520-106">通过查看并在部署过程中遵循此指导，实施人员可以避免可能会影响用户满意度或性能的问题。</span><span class="sxs-lookup"><span data-stu-id="0b520-106">By reviewing and following this guidance as part of the deployment process, implementers can avoid issues that might affect user satisfaction or performance.</span></span>
 
@@ -92,8 +92,8 @@ ms.lasthandoff: 02/07/2018
 
     <span data-ttu-id="0b520-178">除非特定设备的连接非常可靠和灵活，或者零售商可以接受一定的停机时间，否则我们建议以下选项之一：</span><span class="sxs-lookup"><span data-stu-id="0b520-178">Unless the connectivity for a given device is very dependable and resilient, or unless a certain amount of downtime is acceptable to the retailer, we recommend one of the following options:</span></span>
 
-    - <span data-ttu-id="0b520-179">在 Windows 中使用 MPOS，并启用脱机模式。</span><span class="sxs-lookup"><span data-stu-id="0b520-179">Use MPOS in Windows, and enable offline mode.</span></span>
-    - <span data-ttu-id="0b520-180">部署本地 RSSU。</span><span class="sxs-lookup"><span data-stu-id="0b520-180">Deploy an on-premises RSSU.</span></span>
+  - <span data-ttu-id="0b520-179">在 Windows 中使用 MPOS，并启用脱机模式。</span><span class="sxs-lookup"><span data-stu-id="0b520-179">Use MPOS in Windows, and enable offline mode.</span></span>
+  - <span data-ttu-id="0b520-180">部署本地 RSSU。</span><span class="sxs-lookup"><span data-stu-id="0b520-180">Deploy an on-premises RSSU.</span></span>
 
     <span data-ttu-id="0b520-181">这两个选项不彼此排斥。</span><span class="sxs-lookup"><span data-stu-id="0b520-181">These two options aren't mutually exclusive.</span></span> <span data-ttu-id="0b520-182">对于最可靠的拓扑，零售商可以部署本地 RSSU 以减少对互联网连接与 Azure 可用性的依赖，如果本地服务器或网络有问题，他们还可以部署启用脱机模式的 POS 收银机。</span><span class="sxs-lookup"><span data-stu-id="0b520-182">For the most reliable topology, retailers can deploy a local RSSU to reduce the dependency on internet connectivity or Azure availability, and they can also deploy POS registers where offline mode is enabled if there is an issue with the local server or network.</span></span>
 

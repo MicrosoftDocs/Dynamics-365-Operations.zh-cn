@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f674de4877dd2d6e6f1ff02f16a68cb4805d9864
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8691eea1f339902aa74978fa8f27151754cb3e09
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="ship-orders-as-direct-deliveries"></a><span data-ttu-id="77ecc-103">以直接交运方式装运订单</span><span class="sxs-lookup"><span data-stu-id="77ecc-103">Ship orders as direct deliveries</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="77ecc-104">该过程显示如何为销售订单创建直接交货。</span><span class="sxs-lookup"><span data-stu-id="77ecc-104">This procedure demonstrates how to create a direct delivery for a sales order.</span></span> <span data-ttu-id="77ecc-105">在想要从供应商处直接装运货物给客户，而不是先装运至您自身的仓库时，可使用直接交货。</span><span class="sxs-lookup"><span data-stu-id="77ecc-105">You use direct delivery when you want to ship goods to the customer directly from your vendor, instead of shipping them to your own warehouse first.</span></span> <span data-ttu-id="77ecc-106">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="77ecc-106">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="77ecc-107">要想成功完成第二个子任务“从工作台创建直接交货”，确保您在销售订单上选择的物料有默认“供应商”，该供应商在“已发布基础产品”的“采购”快速项卡上有指定。</span><span class="sxs-lookup"><span data-stu-id="77ecc-107">To successfully complete the second sub-task "Create direct deliveries from the workbench", make sure that the item that you choose on the sales order has a default Vendor specified on the Purchase FastTab of the Released product master.</span></span>
 

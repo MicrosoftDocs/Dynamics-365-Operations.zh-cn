@@ -19,19 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: 7f7a563802b42a8e3a29d0aaafb7ff329715a07e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: df8ebd4b4a92227120fcc8537ced899b7cafb2d4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-purchase-orders"></a><span data-ttu-id="04293-103">创建采购订单</span><span class="sxs-lookup"><span data-stu-id="04293-103">Create purchase orders</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="04293-104">本文介绍手动创建采购订单的流程和选项。</span><span class="sxs-lookup"><span data-stu-id="04293-104">This article describes the process and options when you manually create a purchase order.</span></span>
 

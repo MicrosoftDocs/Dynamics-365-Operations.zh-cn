@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: fe0be9164a285ce3884d1f35e99bdad80eb8b581
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="11722-104">分配基础</span><span class="sxs-lookup"><span data-stu-id="11722-104">Allocation bases</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="11722-105">分配基础是成本核算分配开销成本的基础。</span><span class="sxs-lookup"><span data-stu-id="11722-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="11722-106">分配基础可以是数量，例如使用机器的时间、消耗的千瓦时 (kWh) 或占用的平方英尺。</span><span class="sxs-lookup"><span data-stu-id="11722-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="11722-107">分配基础最常用于为生产的库存分配开销成本。</span><span class="sxs-lookup"><span data-stu-id="11722-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="11722-108">例如，IT 部门根据各部门使用的计算机数量分配其支出。</span><span class="sxs-lookup"><span data-stu-id="11722-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 
@@ -424,9 +424,11 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="11722-775">此示例说明是否将固定用电量公式分配基础指定为其中的分配基础的成本分配规则。</span><span class="sxs-lookup"><span data-stu-id="11722-775">Here is an example of a cost distribution rule if the Electricity fixed formula allocation base is assigned as the allocation base in it.</span></span>
 
-| <span data-ttu-id="11722-776">成本对象</span><span class="sxs-lookup"><span data-stu-id="11722-776">Cost object</span></span> |  <span data-ttu-id="11722-777">说明</span><span class="sxs-lookup"><span data-stu-id="11722-777">Description</span></span>  | <span data-ttu-id="11722-778">度量值</span><span class="sxs-lookup"><span data-stu-id="11722-778">Magnitude</span></span> | <span data-ttu-id="11722-779">分配系数</span><span class="sxs-lookup"><span data-stu-id="11722-779">Allocation factor</span></span>                |
-|-------------|----|-----------|----------------------------------|
-| <span data-ttu-id="11722-780">CC001</span><span class="sxs-lookup"><span data-stu-id="11722-780">CC001</span></span>       | <span data-ttu-id="11722-781">HR</span><span class="sxs-lookup"><span data-stu-id="11722-781">HR</span></span> | <span data-ttu-id="11722-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="11722-782">1,837.50</span></span>  | <span data-ttu-id="11722-783">(1,837.50 ÷ 18,162.50) × 金额</span><span class="sxs-lookup"><span data-stu-id="11722-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="11722-784">CC002</span><span class="sxs-lookup"><span data-stu-id="11722-784">CC002</span></span>       | <span data-ttu-id="11722-785">FI</span><span class="sxs-lookup"><span data-stu-id="11722-785">FI</span></span> | <span data-ttu-id="11722-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="11722-786">3,075.00</span></span>  | <span data-ttu-id="11722-787">(3,075.00 ÷ 18,162.50) × 金额</span><span class="sxs-lookup"><span data-stu-id="11722-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
-| <span data-ttu-id="11722-788">CC003</span><span class="sxs-lookup"><span data-stu-id="11722-788">CC003</span></span>       | <span data-ttu-id="11722-789">IT</span><span class="sxs-lookup"><span data-stu-id="11722-789">IT</span></span> | <span data-ttu-id="11722-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="11722-790">13,250.00</span></span> | <span data-ttu-id="11722-791">(13,250.00 ÷ 18,162.50) × 金额</span><span class="sxs-lookup"><span data-stu-id="11722-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
+| <span data-ttu-id="11722-776">成本对象</span><span class="sxs-lookup"><span data-stu-id="11722-776">Cost object</span></span> | <span data-ttu-id="11722-777">说明</span><span class="sxs-lookup"><span data-stu-id="11722-777">Description</span></span> | <span data-ttu-id="11722-778">度量值</span><span class="sxs-lookup"><span data-stu-id="11722-778">Magnitude</span></span> |        <span data-ttu-id="11722-779">分配系数</span><span class="sxs-lookup"><span data-stu-id="11722-779">Allocation factor</span></span>         |
+|-------------|-------------|-----------|----------------------------------|
+|    <span data-ttu-id="11722-780">CC001</span><span class="sxs-lookup"><span data-stu-id="11722-780">CC001</span></span>    |     <span data-ttu-id="11722-781">HR</span><span class="sxs-lookup"><span data-stu-id="11722-781">HR</span></span>      | <span data-ttu-id="11722-782">1,837.50</span><span class="sxs-lookup"><span data-stu-id="11722-782">1,837.50</span></span>  | <span data-ttu-id="11722-783">(1,837.50 ÷ 18,162.50) × 金额</span><span class="sxs-lookup"><span data-stu-id="11722-783">(1,837.50 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="11722-784">CC002</span><span class="sxs-lookup"><span data-stu-id="11722-784">CC002</span></span>    |     <span data-ttu-id="11722-785">FI</span><span class="sxs-lookup"><span data-stu-id="11722-785">FI</span></span>      | <span data-ttu-id="11722-786">3,075.00</span><span class="sxs-lookup"><span data-stu-id="11722-786">3,075.00</span></span>  | <span data-ttu-id="11722-787">(3,075.00 ÷ 18,162.50) × 金额</span><span class="sxs-lookup"><span data-stu-id="11722-787">(3,075.00 ÷ 18,162.50) × Amount</span></span>  |
+|    <span data-ttu-id="11722-788">CC003</span><span class="sxs-lookup"><span data-stu-id="11722-788">CC003</span></span>    |     <span data-ttu-id="11722-789">IT</span><span class="sxs-lookup"><span data-stu-id="11722-789">IT</span></span>      | <span data-ttu-id="11722-790">13,250.00</span><span class="sxs-lookup"><span data-stu-id="11722-790">13,250.00</span></span> | <span data-ttu-id="11722-791">(13,250.00 ÷ 18,162.50) × 金额</span><span class="sxs-lookup"><span data-stu-id="11722-791">(13,250.00 ÷ 18,162.50) × Amount</span></span> |
+
 

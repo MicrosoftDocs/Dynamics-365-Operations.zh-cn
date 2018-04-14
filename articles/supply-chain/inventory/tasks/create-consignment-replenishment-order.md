@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: c9d142e50d39f9e98adeef170da93b8137de4131
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a9cb8050d5d2f0945be76be7370a2e49dee52819
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="c6818-103">创建托运补货订单</span><span class="sxs-lookup"><span data-stu-id="c6818-103">Create a consignment replenishment order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c6818-104">此过程显示如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。</span><span class="sxs-lookup"><span data-stu-id="c6818-104">This procedure shows how to create a consignment replenishment order where you can track the expected delivery from a vendor into your consignment inventory.</span></span> <span data-ttu-id="c6818-105">还显示如何记录物料收据，以便将托运库存登记为供应商拥有的现有库存。</span><span class="sxs-lookup"><span data-stu-id="c6818-105">It also shows how to record a receipt of products so that the consignment inventory is registered as on-hand inventory owned by the vendor.</span></span> <span data-ttu-id="c6818-106">此过程通常由采购专员完成。</span><span class="sxs-lookup"><span data-stu-id="c6818-106">This procedure would typically be done by a procurement professional.</span></span> <span data-ttu-id="c6818-107">您可以使用演示数据公司 USMF 运行此指南。</span><span class="sxs-lookup"><span data-stu-id="c6818-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="c6818-108">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="c6818-108">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

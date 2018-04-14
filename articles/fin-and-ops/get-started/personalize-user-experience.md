@@ -19,17 +19,16 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7a828090fa34eb96d2b557eb06e48ad05b421ae8
-ms.openlocfilehash: 3d969069dd5f447b449df84b097527d3814aa338
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f7f5f458608928837e6a59269354c6388bbed5f4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="personalize-the-user-experience"></a><span data-ttu-id="14c9f-103">打造个性化的用户体验</span><span class="sxs-lookup"><span data-stu-id="14c9f-103">Personalize the user experience</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="14c9f-104">本主题说明如何个性化 Microsoft Dynamics 365 for Finance and Operations。</span><span class="sxs-lookup"><span data-stu-id="14c9f-104">This topic explains how you can personalize Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

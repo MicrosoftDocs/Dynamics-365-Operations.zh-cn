@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3988bd478cfad791b5d4c73d28a86c9cfb68288f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ddba210ced7c7ed5fad818945765528e5b1c1d1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="costing-sheets"></a><span data-ttu-id="d1bc6-108">成本计算单</span><span class="sxs-lookup"><span data-stu-id="d1bc6-108">Costing sheets</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d1bc6-109">设置成本计算单涉及两个目标。</span><span class="sxs-lookup"><span data-stu-id="d1bc6-109">Setting up the costing sheet involves two objectives.</span></span> <span data-ttu-id="d1bc6-110">作为第一个目标，您定义用于显示与制造物料或生产订单有关的所售货物成本信息的格式。</span><span class="sxs-lookup"><span data-stu-id="d1bc6-110">As the first objective, you define the format for displaying cost of goods sold information about a manufactured item or production order.</span></span> <span data-ttu-id="d1bc6-111">采用此格式的显示称作成本计算单。</span><span class="sxs-lookup"><span data-stu-id="d1bc6-111">The formatted display is termed a costing sheet.</span></span> <span data-ttu-id="d1bc6-112">作为第二个目标，您定义用于计算间接成本的基数。</span><span class="sxs-lookup"><span data-stu-id="d1bc6-112">As the second objective, you define the basis for calculating indirect costs.</span></span> <span data-ttu-id="d1bc6-113">成本计算单设置建立在用于显示信息和用于间接成本计算公式的成本组功能的基础上。</span><span class="sxs-lookup"><span data-stu-id="d1bc6-113">The costing sheet setup builds on the cost group feature for displaying information and for the indirect cost calculation formulas.</span></span> <span data-ttu-id="d1bc6-114">本文介绍两个成本计算单设置的目标。</span><span class="sxs-lookup"><span data-stu-id="d1bc6-114">The two objectives of costing sheet setup are described in this article.</span></span> 
 

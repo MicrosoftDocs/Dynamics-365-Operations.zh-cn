@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05ca41dd5d660e9f0ef72ee5bd49d800645081a5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a532bdf052bac60c206e509bd00ef5ba082908a9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-an-interest-code-with-a-range"></a><span data-ttu-id="6f4da-103">创建带范围的利息代码</span><span class="sxs-lookup"><span data-stu-id="6f4da-103">Create an interest code with a range</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6f4da-104">可以设置利息代码，根据值范围以计算不同的利息金额。</span><span class="sxs-lookup"><span data-stu-id="6f4da-104">Interest codes can be set up to calculate different interest amounts based on a range of values.</span></span> <span data-ttu-id="6f4da-105">该过程将向您显示如何添加利息代码和范围。</span><span class="sxs-lookup"><span data-stu-id="6f4da-105">This procedure will show you how to add an interest code and add a range to it.</span></span>
 

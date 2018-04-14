@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e8189f8d16e9b6dcbc339a23c1af5402c0316ce3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ee09eb05b5f2f8db3a368b10f511383fb5205bcf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-an-automated-task-in-a-workflow"></a><span data-ttu-id="8afc3-103">在工作流中配置自动化任务</span><span class="sxs-lookup"><span data-stu-id="8afc3-103">Configure an automated task in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8afc3-104">本主题说明如何配置自动化任务的属性。</span><span class="sxs-lookup"><span data-stu-id="8afc3-104">This topic explains how to configure the properties for an automated task.</span></span>
 

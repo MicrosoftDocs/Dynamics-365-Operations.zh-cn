@@ -19,17 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6245d37ace9f46ecce83a0cf80a014d5de898bbc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 14cf34d1433d13ad60c8192b438f0d5edfddce61
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-store-inventory"></a><span data-ttu-id="9d9f8-103">管理商店库存</span><span class="sxs-lookup"><span data-stu-id="9d9f8-103">Manage store inventory</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="9d9f8-104">本文描述可用于管理库存的文档类型。</span><span class="sxs-lookup"><span data-stu-id="9d9f8-104">This article describes the types of documents that you can use to manage inventory.</span></span>
 

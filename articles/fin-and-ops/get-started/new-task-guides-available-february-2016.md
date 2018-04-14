@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 33cd67bda4d4b868b00cb1c0a062de03d3aa6273
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: caa07418cb834c7f004c4fb95d5ea1c0e3a28f56
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-task-guides-february-2016"></a><span data-ttu-id="3a1f8-104">新任务指南（2016 年 2 月）</span><span class="sxs-lookup"><span data-stu-id="3a1f8-104">New task guides (February 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3a1f8-105">此主题列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。</span><span class="sxs-lookup"><span data-stu-id="3a1f8-105">This topic lists the Task guides that were released to the Microsoft BPM libraries as of February 2016.</span></span>  <span data-ttu-id="3a1f8-106">已发布的库包括 Microsoft Dynamics AX 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。</span><span class="sxs-lookup"><span data-stu-id="3a1f8-106">The libraries that were published include the (February 2016) APQC Unified Library for Microsoft Dynamics AX and (February 2016) Getting started.</span></span>
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-124">设置应付账款发票匹配验证</span><span class="sxs-lookup"><span data-stu-id="3a1f8-124">Set up Accounts payable invoice matching validation</span></span>       | <span data-ttu-id="3a1f8-125">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-125">Global</span></span>             |
 | <span data-ttu-id="3a1f8-126">设置供应商发票策略</span><span class="sxs-lookup"><span data-stu-id="3a1f8-126">Set up vendor invoice policies</span></span>                            | <span data-ttu-id="3a1f8-127">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-127">Global</span></span>             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a><span data-ttu-id="3a1f8-128">应收账款</span><span class="sxs-lookup"><span data-stu-id="3a1f8-128">Accounts receivable</span></span>
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-153">审核收款信息</span><span class="sxs-lookup"><span data-stu-id="3a1f8-153">Review collections information</span></span>                              | <span data-ttu-id="3a1f8-154">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-154">Global</span></span>             |
 | <span data-ttu-id="3a1f8-155">设置并生成应收账款的帐龄信息</span><span class="sxs-lookup"><span data-stu-id="3a1f8-155">Set up and generate accounts receivable aging information</span></span>   | <span data-ttu-id="3a1f8-156">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-156">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a><span data-ttu-id="3a1f8-157">现金和银行管理</span><span class="sxs-lookup"><span data-stu-id="3a1f8-157">Cash and bank management</span></span>
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-196">结算客户的远期支票</span><span class="sxs-lookup"><span data-stu-id="3a1f8-196">Settle a postdated check from a customer</span></span>                             | <span data-ttu-id="3a1f8-197">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-197">Global</span></span>             |
 | <span data-ttu-id="3a1f8-198">供应商付款概览</span><span class="sxs-lookup"><span data-stu-id="3a1f8-198">Vendor payment overview</span></span>                                              | <span data-ttu-id="3a1f8-199">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-199">Global</span></span>             |
 
- 
 
+ 
 ### <a name="compliance"></a><span data-ttu-id="3a1f8-200">符合性</span><span class="sxs-lookup"><span data-stu-id="3a1f8-200">Compliance</span></span>
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-201">**BPM 行**</span><span class="sxs-lookup"><span data-stu-id="3a1f8-201">**BPM Line**</span></span>                               | <span data-ttu-id="3a1f8-202">**国家/地区**</span><span class="sxs-lookup"><span data-stu-id="3a1f8-202">**Country/Region**</span></span> |
 | <span data-ttu-id="3a1f8-203">定义原始单据的审计策略</span><span class="sxs-lookup"><span data-stu-id="3a1f8-203">Define audit policies for source documents</span></span> | <span data-ttu-id="3a1f8-204">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-204">Global</span></span>             |
 
- 
 
+ 
 ### <a name="cost-management"></a><span data-ttu-id="3a1f8-205">成本管理</span><span class="sxs-lookup"><span data-stu-id="3a1f8-205">Cost management</span></span>
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-214">查看生产订单的当前 WIP 状态</span><span class="sxs-lookup"><span data-stu-id="3a1f8-214">View current WIP status on a production order</span></span>                       | <span data-ttu-id="3a1f8-215">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-215">Global</span></span>             |
 | <span data-ttu-id="3a1f8-216">按成本对象查看库存报表和 KPI</span><span class="sxs-lookup"><span data-stu-id="3a1f8-216">View inventory statement and KPI by cost object</span></span>                     | <span data-ttu-id="3a1f8-217">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-217">Global</span></span>             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a><span data-ttu-id="3a1f8-218">国家/地区功能</span><span class="sxs-lookup"><span data-stu-id="3a1f8-218">Country/Region functionality</span></span>
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-485">GB-00009 为结账折扣生成信用证。</span><span class="sxs-lookup"><span data-stu-id="3a1f8-485">GB-00009 Create a credit note on the settlement discount</span></span>                                               | <span data-ttu-id="3a1f8-486">英国</span><span class="sxs-lookup"><span data-stu-id="3a1f8-486">United Kingdom</span></span>                  |
 | <span data-ttu-id="3a1f8-487">GB-00009 为现金付账折扣信用证设置参数。</span><span class="sxs-lookup"><span data-stu-id="3a1f8-487">GB-00009 Setup parameters for credit note on prompt payment discount</span></span>                                   | <span data-ttu-id="3a1f8-488">英国</span><span class="sxs-lookup"><span data-stu-id="3a1f8-488">United Kingdom</span></span>                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a><span data-ttu-id="3a1f8-489">制定愿景和策略</span><span class="sxs-lookup"><span data-stu-id="3a1f8-489">Develop Vision and Strategy</span></span>
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-498">根据前一个问题的回答设定问题依赖项（有条件问题）</span><span class="sxs-lookup"><span data-stu-id="3a1f8-498">Make a question dependent on the answer of the previous question (Conditional questions)</span></span> | <span data-ttu-id="3a1f8-499">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-499">Global</span></span>             |
 | <span data-ttu-id="3a1f8-500">基于“百分比”评估调查问卷得分</span><span class="sxs-lookup"><span data-stu-id="3a1f8-500">Score a questionnaire based on Percent</span></span>                                                   | <span data-ttu-id="3a1f8-501">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-501">Global</span></span>             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a><span data-ttu-id="3a1f8-502">电子申报</span><span class="sxs-lookup"><span data-stu-id="3a1f8-502">Electronic reporting</span></span>
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-511">ER 将数据模型映射到所选数据源</span><span class="sxs-lookup"><span data-stu-id="3a1f8-511">ER Map data model to selected data sources</span></span>      | <span data-ttu-id="3a1f8-512">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-512">Global</span></span>             |
 | <span data-ttu-id="3a1f8-513">ER 选择服务提供商</span><span class="sxs-lookup"><span data-stu-id="3a1f8-513">ER Select service provider</span></span>                      | <span data-ttu-id="3a1f8-514">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-514">Global</span></span>             |
 
- 
 
+ 
 ### <a name="expense-management"></a><span data-ttu-id="3a1f8-515">费用管理</span><span class="sxs-lookup"><span data-stu-id="3a1f8-515">Expense management</span></span>
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-516">**BPM 行**</span><span class="sxs-lookup"><span data-stu-id="3a1f8-516">**BPM Line**</span></span>                 | <span data-ttu-id="3a1f8-517">**国家/地区**</span><span class="sxs-lookup"><span data-stu-id="3a1f8-517">**Country/Region**</span></span> |
 | <span data-ttu-id="3a1f8-518">配置费用管理</span><span class="sxs-lookup"><span data-stu-id="3a1f8-518">Configure expense management</span></span> | <span data-ttu-id="3a1f8-519">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-519">Global</span></span>             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a><span data-ttu-id="3a1f8-520">固定资产</span><span class="sxs-lookup"><span data-stu-id="3a1f8-520">Fixed assets</span></span>
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-549">拆分固定资产</span><span class="sxs-lookup"><span data-stu-id="3a1f8-549">Split a fixed asset</span></span>                                       | <span data-ttu-id="3a1f8-550">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-550">Global</span></span>             |
 | <span data-ttu-id="3a1f8-551">转移固定资产。</span><span class="sxs-lookup"><span data-stu-id="3a1f8-551">Transfer a fixed asset</span></span>                                    | <span data-ttu-id="3a1f8-552">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-552">Global</span></span>             |
 
- 
 
+ 
 ### <a name="general-ledger"></a><span data-ttu-id="3a1f8-553">总帐</span><span class="sxs-lookup"><span data-stu-id="3a1f8-553">General ledger</span></span>
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-602">查看日记帐分录或交易记录。</span><span class="sxs-lookup"><span data-stu-id="3a1f8-602">View journal entries or transactions</span></span>                              | <span data-ttu-id="3a1f8-603">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-603">Global</span></span>             |
 | <span data-ttu-id="3a1f8-604">查看日记帐中的相关内部公司凭证</span><span class="sxs-lookup"><span data-stu-id="3a1f8-604">View related intercompany voucher from journal</span></span>                    | <span data-ttu-id="3a1f8-605">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-605">Global</span></span>             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a><span data-ttu-id="3a1f8-606">人力资本管理</span><span class="sxs-lookup"><span data-stu-id="3a1f8-606">Human capital management</span></span>
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-677">设置福利资格策略</span><span class="sxs-lookup"><span data-stu-id="3a1f8-677">Setting benefit eligibility policies</span></span>                             | <span data-ttu-id="3a1f8-678">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-678">Global</span></span>             |
 | <span data-ttu-id="3a1f8-679">设置 i9 文件类型</span><span class="sxs-lookup"><span data-stu-id="3a1f8-679">Setting up i9 document types</span></span>                                     | <span data-ttu-id="3a1f8-680">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-680">Global</span></span>             |
 
- 
 
+ 
 ### <a name="inventory-management"></a><span data-ttu-id="3a1f8-681">库存管理</span><span class="sxs-lookup"><span data-stu-id="3a1f8-681">Inventory management</span></span>
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-712">跟踪物料或原材料</span><span class="sxs-lookup"><span data-stu-id="3a1f8-712">Trace an item or raw material</span></span>                                                     | <span data-ttu-id="3a1f8-713">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-713">Global</span></span>             |
 | <span data-ttu-id="3a1f8-714">仓库内的实际库存转移</span><span class="sxs-lookup"><span data-stu-id="3a1f8-714">Transfer physical inventory within the warehouse</span></span>                                  | <span data-ttu-id="3a1f8-715">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-715">Global</span></span>             |
 
- 
 
+ 
 ### <a name="manufacturing"></a><span data-ttu-id="3a1f8-716">制造</span><span class="sxs-lookup"><span data-stu-id="3a1f8-716">Manufacturing</span></span>
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-803">转移物料与看板作业</span><span class="sxs-lookup"><span data-stu-id="3a1f8-803">Transfer material with Kanban jobs</span></span>                            | <span data-ttu-id="3a1f8-804">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-804">Global</span></span>             |
 | <span data-ttu-id="3a1f8-805">验证生产流和版本</span><span class="sxs-lookup"><span data-stu-id="3a1f8-805">Validate production flow and version</span></span>                          | <span data-ttu-id="3a1f8-806">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-806">Global</span></span>             |
 
- 
 
+ 
 ### <a name="master-planning"></a><span data-ttu-id="3a1f8-807">主计划</span><span class="sxs-lookup"><span data-stu-id="3a1f8-807">Master planning</span></span>
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-816">确定关键物料和供应商能力</span><span class="sxs-lookup"><span data-stu-id="3a1f8-816">Identify critical materials and supplier capacity</span></span> | <span data-ttu-id="3a1f8-817">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-817">Global</span></span>             |
 | <span data-ttu-id="3a1f8-818">手动修改需求预测</span><span class="sxs-lookup"><span data-stu-id="3a1f8-818">Modify a demand forecast manually</span></span>                 | <span data-ttu-id="3a1f8-819">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-819">Global</span></span>             |
 
- 
 
+ 
 ### <a name="organization-administration"></a><span data-ttu-id="3a1f8-820">组织管理</span><span class="sxs-lookup"><span data-stu-id="3a1f8-820">Organization administration</span></span>
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-831">设置电子签名</span><span class="sxs-lookup"><span data-stu-id="3a1f8-831">Set up electronic signatures</span></span>              | <span data-ttu-id="3a1f8-832">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-832">Global</span></span>             |
 | <span data-ttu-id="3a1f8-833">通过使用向导设置编号规则</span><span class="sxs-lookup"><span data-stu-id="3a1f8-833">Set up number sequences by using a wizard</span></span> | <span data-ttu-id="3a1f8-834">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-834">Global</span></span>             |
 
- 
 
+ 
 ### <a name="planning"></a><span data-ttu-id="3a1f8-835">计划</span><span class="sxs-lookup"><span data-stu-id="3a1f8-835">Planning</span></span>
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-836">**BPM 行**</span><span class="sxs-lookup"><span data-stu-id="3a1f8-836">**BPM Line**</span></span>           | <span data-ttu-id="3a1f8-837">**国家/地区**</span><span class="sxs-lookup"><span data-stu-id="3a1f8-837">**Country/Region**</span></span> |
 | <span data-ttu-id="3a1f8-838">确定可用性</span><span class="sxs-lookup"><span data-stu-id="3a1f8-838">Determine availability</span></span> | <span data-ttu-id="3a1f8-839">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-839">Global</span></span>             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a><span data-ttu-id="3a1f8-840">采购</span><span class="sxs-lookup"><span data-stu-id="3a1f8-840">Procurement and sourcing</span></span>
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-853">搜索供应商</span><span class="sxs-lookup"><span data-stu-id="3a1f8-853">Search for vendors</span></span>                                               | <span data-ttu-id="3a1f8-854">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-854">Global</span></span>             |
 | <span data-ttu-id="3a1f8-855">设置一个采购类别层次结构</span><span class="sxs-lookup"><span data-stu-id="3a1f8-855">Set up a procurement category hierarchy</span></span>                          | <span data-ttu-id="3a1f8-856">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-856">Global</span></span>             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a><span data-ttu-id="3a1f8-857">产品信息和配置</span><span class="sxs-lookup"><span data-stu-id="3a1f8-857">Product information and configuration</span></span>
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-892">发布 ..\财务维度\基于维度的基础产品</span><span class="sxs-lookup"><span data-stu-id="3a1f8-892">Release a ..\financial-dimensions\dimension-based product master</span></span>              | <span data-ttu-id="3a1f8-893">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-893">Global</span></span>             |
 | <span data-ttu-id="3a1f8-894">转移产品模型数据</span><span class="sxs-lookup"><span data-stu-id="3a1f8-894">Transfer data for product models</span></span>                      | <span data-ttu-id="3a1f8-895">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-895">Global</span></span>             |
 
- 
 
+ 
 ### <a name="public-sector"></a><span data-ttu-id="3a1f8-896">公共部门</span><span class="sxs-lookup"><span data-stu-id="3a1f8-896">Public sector</span></span>
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-931">为公共部门设置资金</span><span class="sxs-lookup"><span data-stu-id="3a1f8-931">Set up a fund for Public sector</span></span>                                                         | <span data-ttu-id="3a1f8-932">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-932">Global</span></span>             |
 | <span data-ttu-id="3a1f8-933">设置公共部门的采购协议分类</span><span class="sxs-lookup"><span data-stu-id="3a1f8-933">Set up purchase agreement classifications for Public Sector</span></span>                             | <span data-ttu-id="3a1f8-934">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-934">Global</span></span>             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a><span data-ttu-id="3a1f8-935">零售和商用</span><span class="sxs-lookup"><span data-stu-id="3a1f8-935">Retail and commerce</span></span>
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-1002">零售价格调整</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1002">Retail price adjustments</span></span>                                                                  | <span data-ttu-id="3a1f8-1003">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1003">Global</span></span>             |
 | <span data-ttu-id="3a1f8-1004">零售报表的商店配置</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1004">Store configurations for Retail statements</span></span>                                                | <span data-ttu-id="3a1f8-1005">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1005">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales"></a><span data-ttu-id="3a1f8-1006">销售额</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1006">Sales</span></span>
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-1035">作为直接交货装运订单</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1035">Ship orders as direct deliveries</span></span>           | <span data-ttu-id="3a1f8-1036">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1036">Global</span></span>             |
 | <span data-ttu-id="3a1f8-1037">装运无仓库的销售订单</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1037">Ship sales orders without warehousing</span></span>      | <span data-ttu-id="3a1f8-1038">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1038">Global</span></span>             |
 
- 
 
+ 
 ### <a name="sales-tax"></a><span data-ttu-id="3a1f8-1039">增值税</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1039">Sales tax</span></span>
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-1060">设置预缴税金</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1060">Set up withholding tax</span></span>                             | <span data-ttu-id="3a1f8-1061">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1061">Global</span></span>             |
 | <span data-ttu-id="3a1f8-1062">查看已过帐的销售税交易记录</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1062">View posted sales tax transactions</span></span>                 | <span data-ttu-id="3a1f8-1063">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1063">Global</span></span>             |
 
- 
 
+ 
 ### <a name="security"></a><span data-ttu-id="3a1f8-1064">安全性</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1064">Security</span></span>
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-1069">确定和解决职责划分冲突</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1069">Identify and resolve conflicts in segregation of duties</span></span> | <span data-ttu-id="3a1f8-1070">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1070">Global</span></span>             |
 | <span data-ttu-id="3a1f8-1071">设置职责划分</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1071">Set up segregation of duties</span></span>                            | <span data-ttu-id="3a1f8-1072">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1072">Global</span></span>             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a><span data-ttu-id="3a1f8-1073">仓库和运输</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1073">Warehouse and transportation</span></span>
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="3a1f8-1106">设置装运承运人</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1106">Set up shipping carriers</span></span>                                                          | <span data-ttu-id="3a1f8-1107">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1107">Global</span></span>             |
 | <span data-ttu-id="3a1f8-1108">使用装载计划工作台计划装载量和装运</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1108">Use the Load Planning Workbench to plan loads and shipments</span></span>                       | <span data-ttu-id="3a1f8-1109">全局</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1109">Global</span></span>             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a><span data-ttu-id="3a1f8-1110">（2016 年 2 月）入门库的任务指南</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1110">Task guides in the (February 2016) Getting started library</span></span>
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | <span data-ttu-id="3a1f8-1111">**BPM 行**</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1111">**BPM Line**</span></span>                                       | <span data-ttu-id="3a1f8-1112">**国家/地区**</span><span class="sxs-lookup"><span data-stu-id="3a1f8-1112">**Country/Region**</span></span> |

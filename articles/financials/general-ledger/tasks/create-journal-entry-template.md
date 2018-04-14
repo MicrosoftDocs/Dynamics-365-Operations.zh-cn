@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 055fe129b9fc9cf50e1d9e1a5b4cb77285f20c92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5885e90786c15542997deb8fcea7038a39bd0bec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-journal-entry-using-a-template"></a><span data-ttu-id="ccb2e-103">使用模板创建日记帐条目</span><span class="sxs-lookup"><span data-stu-id="ccb2e-103">Create a journal entry using a template</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ccb2e-104">已过帐的日记帐凭证可以保存为凭证模板并应用到新日记帐凭证中。</span><span class="sxs-lookup"><span data-stu-id="ccb2e-104">Posted journal vouchers can be saved as Voucher templates and applied in a new journal voucher.</span></span> <span data-ttu-id="ccb2e-105">该程序适用于 USMF 演示公司。</span><span class="sxs-lookup"><span data-stu-id="ccb2e-105">This procedure uses the USMF demo company.</span></span>
 

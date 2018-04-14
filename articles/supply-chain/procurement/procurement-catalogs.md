@@ -19,17 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f51fb41e19a47a9db02166de91b9e027154d6a7d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8dc038a4e0a3fd1b37c05dd02f594a8ac9796e7f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-catalogs"></a><span data-ttu-id="49997-104">采购目录</span><span class="sxs-lookup"><span data-stu-id="49997-104">Procurement catalogs</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="49997-105">本文介绍在高级别，采购专业人员能够如何设置和维护采购目录。</span><span class="sxs-lookup"><span data-stu-id="49997-105">This article describes, at a high level, how purchasing professionals can set up and maintain procurement catalogs.</span></span> <span data-ttu-id="49997-106">采购目录定义公司员工可以订购供内部使用的物料和服务。</span><span class="sxs-lookup"><span data-stu-id="49997-106">Procurement catalogs define the items and services that company employees can order for internal use.</span></span>
 

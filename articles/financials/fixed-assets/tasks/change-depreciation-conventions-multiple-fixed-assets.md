@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0f711d2e18a13ab972e548d3304652dee3f2e406
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ef0d5d6a56967c7a1d4353f6cb340245a99ebafa
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="change-depreciation-conventions-for-multiple-fixed-assets"></a><span data-ttu-id="b3899-103">更改多项固定资产的折旧惯例</span><span class="sxs-lookup"><span data-stu-id="b3899-103">Change depreciation conventions for multiple fixed assets</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b3899-104">此任务更新特定固定资产组的折旧惯例。</span><span class="sxs-lookup"><span data-stu-id="b3899-104">This task updates the depreciation convention for a specified fixed asset group.</span></span> <span data-ttu-id="b3899-105">此任务指南使用 USMF 公司演示。</span><span class="sxs-lookup"><span data-stu-id="b3899-105">This task guide uses the USMF demo company.</span></span>
 

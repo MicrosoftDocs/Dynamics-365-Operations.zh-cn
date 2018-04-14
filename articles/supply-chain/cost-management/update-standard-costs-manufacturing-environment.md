@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b9ad13071c3e0c3a294e9d4413de160a58559640
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8dceb6ee278d222106e7f44b0aeea55a7a1b3f22
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a><span data-ttu-id="630b3-103">更新制造环境中的标准成本</span><span class="sxs-lookup"><span data-stu-id="630b3-103">Update standard costs in a manufacturing environment</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="630b3-104">本文提供有关如何在非制造环境中更新标准成本的指导。</span><span class="sxs-lookup"><span data-stu-id="630b3-104">This article provides guidance about how to update standard costs in a manufacturing environment.</span></span> 
 

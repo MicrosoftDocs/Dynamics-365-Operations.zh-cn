@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c055c673443255f3e6dda5e1179e1ef28d90e693
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4eeb5802831f5a02408e1ac2a2b529a78761966b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="optimization-advisor-overview"></a><span data-ttu-id="3c2d7-103">优化顾问概述</span><span class="sxs-lookup"><span data-stu-id="3c2d7-103">Optimization advisor overview</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3c2d7-104">此主题描述如何使用优化顾问来帮助保证 Microsoft Dynamics 365 Finance and Operations 的最佳配置。</span><span class="sxs-lookup"><span data-stu-id="3c2d7-104">This topic describes how you can use Optimization advisor to help guarantee optimal configuration of Microsoft Dynamics 365 Finance and Operations.</span></span>
 

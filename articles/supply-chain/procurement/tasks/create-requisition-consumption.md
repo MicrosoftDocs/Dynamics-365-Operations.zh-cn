@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7d8ca4e7eedea140f32e264c205b243027a06d03
-ms.openlocfilehash: d1ea95d0bc283297fcedaee730e1829850f07998
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bad86a4726ce69015f318d9af98992b36d34b29a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/20/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-requisition-for-consumption"></a><span data-ttu-id="2dc36-103">创建消耗量申请</span><span class="sxs-lookup"><span data-stu-id="2dc36-103">Create a requisition for consumption</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2dc36-104">该过程向您介绍创建申请的流程。</span><span class="sxs-lookup"><span data-stu-id="2dc36-104">This procedure walks you through the process of creating a requisition.</span></span> <span data-ttu-id="2dc36-105">它显示了在您的采购目录中搜索产品以及添加不在您目录中的产品的各种方法。</span><span class="sxs-lookup"><span data-stu-id="2dc36-105">It shows you different ways to search for products in your procurement catalog and how to add a product that isn’t in your catalog.</span></span> <span data-ttu-id="2dc36-106">在启动此过程前，必须将采购策略设置为申请默认类型为“消耗量”。</span><span class="sxs-lookup"><span data-stu-id="2dc36-106">Before you start this procedure, you must have a purchasing policy set up with Consumption as the default type of requisition.</span></span> <span data-ttu-id="2dc36-107">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="2dc36-107">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="2dc36-108">此过程只能由设置为工作人员的用户配置文件执行。</span><span class="sxs-lookup"><span data-stu-id="2dc36-108">The procedure can only be carried out by a user profile that is set up as worker.</span></span>  <span data-ttu-id="2dc36-109">此任务通常由员工完成。</span><span class="sxs-lookup"><span data-stu-id="2dc36-109">This task would normally be carried out by an employee.</span></span> <span data-ttu-id="2dc36-110">员工雇用安全角色可以使您执行任务，或者，如果您使用 USMF，您可以以Alicia身份登录。</span><span class="sxs-lookup"><span data-stu-id="2dc36-110">The Employee employ security role will allow you to carry out the tasks, or if you’re using USMF, you can log in as Alicia.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4cdc0b480649bc07d423372651f50d5451ac7675
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-financial-reports"></a><span data-ttu-id="059db-104">查看财务报表</span><span class="sxs-lookup"><span data-stu-id="059db-104">View financial reports</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="059db-105">本文介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中查看和探索财务报表。</span><span class="sxs-lookup"><span data-stu-id="059db-105">This article describes how to view and explore financial reports in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="059db-106">它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。</span><span class="sxs-lookup"><span data-stu-id="059db-106">It includes information about the various options that you can apply to financial reports to change their appearance and the data that they include.</span></span>
 

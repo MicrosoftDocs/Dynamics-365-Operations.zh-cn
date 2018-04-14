@@ -20,18 +20,18 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: 061555a228d1d40f2a2d864e72f39dc27155d1bd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5034ecf6b6d8c27b2b22ce0a36c5ff5df3205e15
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a><span data-ttu-id="2d2f3-104">在销售流程中登记序列号</span><span class="sxs-lookup"><span data-stu-id="2d2f3-104">Register serial numbers in the sales process</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="2d2f3-105">本主题说明如何在销售流程中登记装箱单或发票的序列号。</span><span class="sxs-lookup"><span data-stu-id="2d2f3-105">This topic explains how you can register serial numbers on packing slips or invoices during the sales process.</span></span> <span data-ttu-id="2d2f3-106">如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。</span><span class="sxs-lookup"><span data-stu-id="2d2f3-106">This functionality is useful if a company wants to capture serial numbers for service and warranty purposes, but doesn't have to maintain serial numbers in inventory from receipt to issue.</span></span>
 

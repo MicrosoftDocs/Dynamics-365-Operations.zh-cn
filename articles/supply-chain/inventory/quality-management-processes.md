@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 180a72b6876036d68f4a3abf2e8d523aaba9acf7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 04e022f7f8e33e49101a058cf62fe0ed8715efdf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="quality-management-processes"></a><span data-ttu-id="d0ee4-104">质量管理流程</span><span class="sxs-lookup"><span data-stu-id="d0ee4-104">Quality management processes</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d0ee4-105">本文提供有关未达标产品的质量管理流程的信息。</span><span class="sxs-lookup"><span data-stu-id="d0ee4-105">This article provides information about the quality management process for nonconforming products.</span></span> <span data-ttu-id="d0ee4-106">它介绍了如何使用质量控制功能、如何定义和维护不符合项以及如何处理更正。</span><span class="sxs-lookup"><span data-stu-id="d0ee4-106">It describes how you can use quality control functionality, how to define and maintain nonconformances, and how to handle corrections.</span></span>
 

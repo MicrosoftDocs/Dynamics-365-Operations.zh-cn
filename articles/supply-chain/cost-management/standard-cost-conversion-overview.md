@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1176ce1fcd406cf363969e60ae388a83d7df210f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b2e9449e4ba1c534bcdb5a05e5da0311b2bb2e3c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="standard-cost-conversion-overview"></a><span data-ttu-id="b2ef1-104">标准成本转换概览</span><span class="sxs-lookup"><span data-stu-id="b2ef1-104">Standard cost conversion overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b2ef1-105">本文提供帮助您设置和运行标准成本转换的流程概览。</span><span class="sxs-lookup"><span data-stu-id="b2ef1-105">This article provides a process overview to help you set up and run a standard cost conversion.</span></span> <span data-ttu-id="b2ef1-106">列出的步骤用于在您完成了标准成本转换的先决条件后完成。</span><span class="sxs-lookup"><span data-stu-id="b2ef1-106">The steps listed are intended to be completed after you've completed the prerequisites for a standard cost conversion.</span></span> 
 

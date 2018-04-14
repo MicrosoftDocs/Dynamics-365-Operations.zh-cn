@@ -16,15 +16,15 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9a840e7934ad87ef7bfd0cd4ff2423b0d9072013
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0d665f112b21b204cadfebe52dc0db6694835b03
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="golden-tax-integration-export-setup-china"></a><span data-ttu-id="a1633-103">金税集成导出设置（中国）</span><span class="sxs-lookup"><span data-stu-id="a1633-103">Golden tax integration export setup (China)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a1633-104">此过程显示如何配置金税集成的导出格式。</span><span class="sxs-lookup"><span data-stu-id="a1633-104">This procedure shows how to configure the export format for golden tax integration.</span></span> <span data-ttu-id="a1633-105">应该已经完成了金税集成的设置，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="a1633-105">Before you complete this procedure, you should have already completed the setup of the golden tax integration.</span></span>
 <span data-ttu-id="a1633-106">完成此过程之后，接下来应该更新“税集成配置文件”页面中的“格式映射”字段。</span><span class="sxs-lookup"><span data-stu-id="a1633-106">After you complete this procedure, your next steps are to update the Format mapping field on the Tax integration profile page.</span></span> 

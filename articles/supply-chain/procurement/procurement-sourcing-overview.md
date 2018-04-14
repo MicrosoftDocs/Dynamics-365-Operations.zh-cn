@@ -19,17 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7c738d888b7177a26b28438c820ce18312947318
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-overview"></a><span data-ttu-id="99ec1-103">采购概览</span><span class="sxs-lookup"><span data-stu-id="99ec1-103">Procurement and sourcing overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="99ec1-104">文本提供在采购模块中可用的功能的概览。</span><span class="sxs-lookup"><span data-stu-id="99ec1-104">This article gives an overview of the functionality that's available in the Procurement and sourcing module.</span></span>
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/08/2018
 <span data-ttu-id="99ec1-108">产品或服务的需求可能源自*申请*，例如，当员工需要产品时。</span><span class="sxs-lookup"><span data-stu-id="99ec1-108">The need for products or services may arise from *requisitions*, for example, when an employee requires a product.</span></span> <span data-ttu-id="99ec1-109">可以设置*产品目录*来引导从中进行选择的可用产品的选择，或对目录中尚未可用的产品提出请求，从而允许采购部门考虑如何供应产品。</span><span class="sxs-lookup"><span data-stu-id="99ec1-109">*Product catalogs* can be set up to guide the selection of available products to select from, or requests can be made for products that are not yet made available in a catalog, allowing the purchasing department to consider how the product can be supplied.</span></span>  
 
 <span data-ttu-id="99ec1-110">*花费限制*可以用于约束申请花费，*采购工作流*添加在订购发生前要求审核的选项。</span><span class="sxs-lookup"><span data-stu-id="99ec1-110">*Spending limits* can be used to constrain requisition spending, and the *purchasing workflow* adds the option of requiring approval before ordering happen.</span></span> <span data-ttu-id="99ec1-111">如果需要，还可以指定预算资金分配。</span><span class="sxs-lookup"><span data-stu-id="99ec1-111">It's also possible to specify budget fund allocation, if required.</span></span>  
-  
+
 <span data-ttu-id="99ec1-112">采购部门为所需的产品和服务确定供应商，这可能涉及发送给多个潜在供应商的*询价*。</span><span class="sxs-lookup"><span data-stu-id="99ec1-112">The procurement department identifies suppliers for required products and services, and this can involve a *request for quotation* being sent out to multiple potential suppliers.</span></span> <span data-ttu-id="99ec1-113">可以共享请求产品的规格，并且供应商能够查看这些信息来确定其能否交付符合这些规格的产品。</span><span class="sxs-lookup"><span data-stu-id="99ec1-113">It's possible to share the specifications of the product that's being requested and potential vendors can view these to see if they can deliver a product that conforms with them.</span></span> <span data-ttu-id="99ec1-114">供应商返回出价，采购部门然后在选择要采购的供应商前审查该出价。</span><span class="sxs-lookup"><span data-stu-id="99ec1-114">Vendors return their bids which are then reviewed by the procurement department before they select the supplier that they want to procure from.</span></span>  
 
 <span data-ttu-id="99ec1-115">采购订单包括将*采购查询*发送到供应商的选项，作为更为全面的询价流程的备选。</span><span class="sxs-lookup"><span data-stu-id="99ec1-115">Purchase orders include an option to send out a *purchase inquiry* to the vendor as an alternative to a more comprehensive request for quotation process.</span></span> <span data-ttu-id="99ec1-116">采购查询可用于帮助设定诸如订单的价格、折扣和交货日期等期限。</span><span class="sxs-lookup"><span data-stu-id="99ec1-116">The purchase inquiry can be used to help establish terms like prices, discounts, and delivery date for the order.</span></span> <span data-ttu-id="99ec1-117">如果供应商被设置为使用**供应商**门户，采购查询功能将禁用。</span><span class="sxs-lookup"><span data-stu-id="99ec1-117">If vendors are set up to use the **Vendor** portal, purchase inquiry functionality is disabled.</span></span> <span data-ttu-id="99ec1-118">而如果该订单在**供应商**门户共享，当*确认请求*发送时，供应商可以直接确认该订单。</span><span class="sxs-lookup"><span data-stu-id="99ec1-118">Instead the order is shared on the **Vendor** portal, and when a *confirmation request* is sent the vendor can directly confirm the order.</span></span>  

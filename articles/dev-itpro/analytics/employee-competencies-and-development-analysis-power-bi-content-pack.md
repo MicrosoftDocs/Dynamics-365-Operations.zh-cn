@@ -18,17 +18,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: 0769596c5ebaed1f5698d596d66d6f0334d5fcc2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2e1125acbf165f917900742b8aed164fedc437bf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-competencies-and-development-power-bi-content"></a><span data-ttu-id="3f3d5-103">员工能力与发展 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="3f3d5-103">Employee competencies and development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3f3d5-104">此主题描述 Finance and Operations - 员工能力与发展 Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="3f3d5-104">This topic describes the Finance and Operations - Employee competencies and development Power BI content.</span></span> 
 

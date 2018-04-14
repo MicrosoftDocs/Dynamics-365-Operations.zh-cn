@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e6ebb13084626b477b6e0b24acdc09e2c0d3d6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3d78be58ee678dbe7a5b5c8798e626125e6a0755
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-bonus-depreciation"></a><span data-ttu-id="07b68-103">设置额外折旧</span><span class="sxs-lookup"><span data-stu-id="07b68-103">Set up bonus depreciation</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="07b68-104">此过程显示如何创建特殊折旧补偿并将其与固定资产帐簿关联。</span><span class="sxs-lookup"><span data-stu-id="07b68-104">This procedure shows how to create a special depreciation allowance and associate it with a fixed asset book.</span></span> <span data-ttu-id="07b68-105">它为 USMF 法人实体使用会计角色和演示数据。</span><span class="sxs-lookup"><span data-stu-id="07b68-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 

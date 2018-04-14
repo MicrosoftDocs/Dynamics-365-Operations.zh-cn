@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: bf9df2a31c758ba6b63ac7952e00065df04552dc
-ms.openlocfilehash: d785d64e97caabdfb499289c7979654789c97541
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: dc3d7b17cf90c02f96e2d116177d66dc6e162da7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-subscriptions"></a><span data-ttu-id="7b839-104">服务预订</span><span class="sxs-lookup"><span data-stu-id="7b839-104">Service subscriptions</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="7b839-105">预订是基于时间和材料项目的。</span><span class="sxs-lookup"><span data-stu-id="7b839-105">Subscriptions are based on a time-and-materials project.</span></span> <span data-ttu-id="7b839-106">您可以从**服务订阅**页面中，或通过使用服务预订组，创建项目的预定。</span><span class="sxs-lookup"><span data-stu-id="7b839-106">You can create subscriptions from a project, from the **Service subscriptions** page, or by using a service subscription group.</span></span>
 

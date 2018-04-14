@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0e2e99bc1132f50bca4e6c21abccdc685658a178
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-production-flow-version"></a><span data-ttu-id="128c8-103">创建生产流版本</span><span class="sxs-lookup"><span data-stu-id="128c8-103">Create a production flow version</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="128c8-104">该过程主要讲述创建新的生产流版本。</span><span class="sxs-lookup"><span data-stu-id="128c8-104">This procedure focuses on creating a new production flow version.</span></span> <span data-ttu-id="128c8-105">对于该过程，必须定义的 lean manufacturing 生产参数和上课时间的度量单位。</span><span class="sxs-lookup"><span data-stu-id="128c8-105">For this procedure, the production parameters for lean manufacturing and the units of measurement for class time must be defined.</span></span> <span data-ttu-id="128c8-106">您还需要定义价值流和生产组。</span><span class="sxs-lookup"><span data-stu-id="128c8-106">You also need to define a value stream and a production group.</span></span> <span data-ttu-id="128c8-107">若要了解更多 lean manufacturing 中生产流程和活动，请参阅 Microsoft Dynamics AX 的 Lean manufacturing 白皮书。</span><span class="sxs-lookup"><span data-stu-id="128c8-107">To learn more about production flows and activities in lean manufacturing, see the white papers on Lean manufacturing for Microsoft Dynamics AX.</span></span> <span data-ttu-id="128c8-108">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="128c8-108">The demo data company used to create this procedure is USMF.</span></span>
 

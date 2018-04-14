@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 658d5a1a031f2292dbd445fa7fb345be01c61947
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6f65b0ea66b4ce876e4a7d1cbf7125b5241c1e20
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="finance-and-operations-client-faq"></a><span data-ttu-id="f2c47-103">Finance and Operations 客户端常见问题</span><span class="sxs-lookup"><span data-stu-id="f2c47-103">Finance and Operations client FAQ</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f2c47-104">本文提供对有关 Microsoft Dynamics 365 for Finance and Operations 客户端的常见问题的解答。</span><span class="sxs-lookup"><span data-stu-id="f2c47-104">This article provides answers to frequently asked questions about the Microsoft Dynamics 365 for Finance and Operations client.</span></span>
 

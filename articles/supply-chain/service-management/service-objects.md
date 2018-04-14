@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: a69fd6a1b07683383d88c7f5c7986529c7bb1875
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0f7b63393085858c5ff4c64ebdf5d64b3c3ccdef
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-objects"></a><span data-ttu-id="d91b0-103">服务对象</span><span class="sxs-lookup"><span data-stu-id="d91b0-103">Service objects</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d91b0-104">服务对象是您可以对其执行服务的客户的资产和产品。</span><span class="sxs-lookup"><span data-stu-id="d91b0-104">Service objects are a customer’s assets and products for which you can perform a service.</span></span> <span data-ttu-id="d91b0-105">根据您提供的服务类型，对象可以是有形对象或无形对象：</span><span class="sxs-lookup"><span data-stu-id="d91b0-105">Depending on the type of service you provide, objects can be tangible or intangible:</span></span>
 

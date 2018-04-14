@@ -18,16 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 554c350961baed8be8f37854dd1b095d4342ae0e
-ms.openlocfilehash: 67d51e3f3ed7001a4b14cb473584448653b198cf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1051447ad25eb16ca2ba041f976b03959b45c767
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-assets-depreciation-methods-for-china"></a><span data-ttu-id="d9c4c-103">中国的固定资产折旧法</span><span class="sxs-lookup"><span data-stu-id="d9c4c-103">Fixed assets depreciation methods for China</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d9c4c-104">此主题描述为中国法人设置的折旧法。</span><span class="sxs-lookup"><span data-stu-id="d9c4c-104">This topic describes the depreciation method set up for legal entities in China.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93e45257dec65dee0d20f4a6b14a7cc682fa0ab5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-management-mobile-workspace"></a><span data-ttu-id="6c157-105">费用报销管理移动工作区</span><span class="sxs-lookup"><span data-stu-id="6c157-105">Expense management mobile workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6c157-106">本主题提供有关**费用报销管理**移动工作区的信息。</span><span class="sxs-lookup"><span data-stu-id="6c157-106">This topic provides information about the **Expense management** mobile workspace.</span></span> <span data-ttu-id="6c157-107">此工作区让用户能够捕获和上载收据，以便以后可以将其附加到支出报表。</span><span class="sxs-lookup"><span data-stu-id="6c157-107">This workspace lets users capture and upload a receipt, so that they can attach it to an expense report later.</span></span> <span data-ttu-id="6c157-108">用户还可以使用附加的收据快速创建支出行，并创建和管理其支出报表。</span><span class="sxs-lookup"><span data-stu-id="6c157-108">Users can also quickly create an expense line by using an attached receipt, and create and manage their expense reports.</span></span> <span data-ttu-id="6c157-109">此外，审核人可以使用**费用报销管理**移动工作区查看分配给他们的支出报表，并且审核或拒绝这些支出报表。</span><span class="sxs-lookup"><span data-stu-id="6c157-109">Additionally, approvers can use the **Expense management** mobile workspace to view expense reports that are assigned to them, and either approve or reject those expense reports.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a8789d7c5b06e83d0d1799b249b48a00e7c0ae34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 91b862155d60f297a1278e44f58804ac385be64c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-mass-hire-project"></a><span data-ttu-id="a5be1-103">创建大批雇用项目</span><span class="sxs-lookup"><span data-stu-id="a5be1-103">Create a mass hire project</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a5be1-104">此程序简单说明了一个大型招聘项目的设置流程。</span><span class="sxs-lookup"><span data-stu-id="a5be1-104">This procedure walks through the process of setting up a mass hire project.</span></span> <span data-ttu-id="a5be1-105">招聘人员通过大型雇用项目轻松创建多个职位，并且为这些职位雇用若干个员工。</span><span class="sxs-lookup"><span data-stu-id="a5be1-105">A recruiter can use mass hire projects to easily create multiple positions and hire a number of workers into those positions.</span></span> <span data-ttu-id="a5be1-106">启动此程序，请转到“人力资源”>“人才招聘”>“大型招聘项目”。</span><span class="sxs-lookup"><span data-stu-id="a5be1-106">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span> <span data-ttu-id="a5be1-107">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="a5be1-107">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8ac8ebede5c333835b0974843a69e70e51028117
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="moving-average"></a><span data-ttu-id="f7556-105">移动平均</span><span class="sxs-lookup"><span data-stu-id="f7556-105">Moving average</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f7556-106">移动平均是一种基于平均原则的永久成本方法，在执行采购成本时在库存发货的成本不更改。</span><span class="sxs-lookup"><span data-stu-id="f7556-106">Moving average is a perpetual costing method based on the average principle, where the costs on inventory issues do not change when the purchase cost does.</span></span> <span data-ttu-id="f7556-107">该差异基于一种比例的计算资本化。</span><span class="sxs-lookup"><span data-stu-id="f7556-107">The difference is capitalized and is based on a proportional calculation.</span></span> <span data-ttu-id="f7556-108">支出剩余金额。</span><span class="sxs-lookup"><span data-stu-id="f7556-108">The amount that remains is expensed.</span></span> 
 

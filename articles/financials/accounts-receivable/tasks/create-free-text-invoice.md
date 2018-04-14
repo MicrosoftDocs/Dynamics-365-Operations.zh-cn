@@ -16,15 +16,15 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 87e293008fd748aa0dcc6b3caa94a4889bed35de
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ca7c0f46f0cab298580e37c236bd10e4325e011b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-free-text-invoice"></a><span data-ttu-id="2aaae-103">创建普通发票</span><span class="sxs-lookup"><span data-stu-id="2aaae-103">Create a free text invoice</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2aaae-104">此任务指南演示如何创建普通发票。</span><span class="sxs-lookup"><span data-stu-id="2aaae-104">This task guide demonstrates creating a free text invoice.</span></span> <span data-ttu-id="2aaae-105">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="2aaae-105">This task uses the USMF demo company.</span></span>
 

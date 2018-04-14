@@ -19,16 +19,16 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 4963cc5fb94097ef831813e7732961821c20ad25
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 37f3b1b4d362bd8b40977648b4aa4387011eea08
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-spend-analysis-power-bi-content"></a><span data-ttu-id="8e4ca-104">采购支出分析 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="8e4ca-104">Purchase spend analysis Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8e4ca-105">此主题介绍**采购支出分析** Microsoft Power BI 内容中的内容。</span><span class="sxs-lookup"><span data-stu-id="8e4ca-105">This topic describes what is included in the **Purchase spend analysis** Microsoft Power BI content.</span></span> <span data-ttu-id="8e4ca-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="8e4ca-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 
@@ -131,7 +131,7 @@ ms.lasthandoff: 01/17/2018
 </tbody>
 </table>
 
-<span data-ttu-id="8e4ca-160">\\* 今年和去年的采购，以及按采购类别的增长</span><span class="sxs-lookup"><span data-stu-id="8e4ca-160">\\* Purchase this year and last year, and growth by procurement category</span></span>
+<span data-ttu-id="8e4ca-160">\* 今年和去年的采购，以及按采购类别的增长</span><span class="sxs-lookup"><span data-stu-id="8e4ca-160">\* Purchase this year and last year, and growth by procurement category</span></span>
 
 ## <a name="data-model-and-entities"></a><span data-ttu-id="8e4ca-161">数据模型和实体</span><span class="sxs-lookup"><span data-stu-id="8e4ca-161">Data model and entities</span></span>
 <span data-ttu-id="8e4ca-162">以下数据用于填充**采购支出分析** Power BI 内容中的报表页。</span><span class="sxs-lookup"><span data-stu-id="8e4ca-162">The following data is used to fill the report pages in the **Purchase spend analysis** Power BI content.</span></span> <span data-ttu-id="8e4ca-163">此数据表示为实体商店内已分组的聚合度量。</span><span class="sxs-lookup"><span data-stu-id="8e4ca-163">This data is represented as aggregate measurements that are staged in the Entity store.</span></span> <span data-ttu-id="8e4ca-164">实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。</span><span class="sxs-lookup"><span data-stu-id="8e4ca-164">The Entity store is a Microsoft SQL Server database that is optimized for analytics.</span></span> <span data-ttu-id="8e4ca-165">有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。</span><span class="sxs-lookup"><span data-stu-id="8e4ca-165">For more information, see [Overview of Power BI integration with Entity store](power-bi-integration-entity-store.md).</span></span>

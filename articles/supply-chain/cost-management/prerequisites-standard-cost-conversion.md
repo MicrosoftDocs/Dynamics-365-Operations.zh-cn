@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bbbdd697a6a79cd2b483414eeb158fabff48d50b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="prerequisites-for-a-standard-cost-conversion"></a><span data-ttu-id="420de-103">用于标准成本转换的先决条件</span><span class="sxs-lookup"><span data-stu-id="420de-103">Prerequisites for a standard cost conversion</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="420de-104">本主题讨论在运行标准成本转换前需执行的任务。</span><span class="sxs-lookup"><span data-stu-id="420de-104">This topic discusses tasks to perform before you run a standard cost conversion.</span></span> 
 

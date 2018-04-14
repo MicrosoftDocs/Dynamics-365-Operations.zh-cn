@@ -17,17 +17,16 @@ ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: 13f7cfa8776436ed2c73fc588948ce88fee93326
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a99af169bd1c447a15bc46a5adc89719dabc0718
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="actual-vs-budget-power-bi-content"></a><span data-ttu-id="fdcaf-104">实际与预算 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="fdcaf-104">Actual vs budget Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fdcaf-105">此主题描述**实际与预算** Microsoft Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-105">This topic describes the **Actual vs budget** Microsoft Power BI content.</span></span> <span data-ttu-id="fdcaf-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span> 
 
@@ -41,24 +40,25 @@ ms.lasthandoff: 01/25/2018
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a><span data-ttu-id="fdcaf-113">此 Power BI 内容中包含的报表</span><span class="sxs-lookup"><span data-stu-id="fdcaf-113">Reports that are included in the Power BI content</span></span>
 <span data-ttu-id="fdcaf-114">下表提供有关在**实际与预算** Power BI 内容中的每个报表页找到的指标的详细信息。</span><span class="sxs-lookup"><span data-stu-id="fdcaf-114">The following table provides details about the metrics that are found on each report page in the **Actual vs budget** Power BI content.</span></span>
 
-| <span data-ttu-id="fdcaf-115">报告</span><span class="sxs-lookup"><span data-stu-id="fdcaf-115">Report</span></span>                      | <span data-ttu-id="fdcaf-116">指标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-116">Metrics</span></span> |
-|-----------------------------|---------|
-| <span data-ttu-id="fdcaf-117">支出 - 实际与预算</span><span class="sxs-lookup"><span data-stu-id="fdcaf-117">Expenses - Actual vs budget</span></span> | <ul><li><span data-ttu-id="fdcaf-118">本年支出总额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-118">Total expenses this year</span></span></li><li><span data-ttu-id="fdcaf-119">本年支出总额预算</span><span class="sxs-lookup"><span data-stu-id="fdcaf-119">Budget total expenses this year</span></span></li></ul> |
-| <span data-ttu-id="fdcaf-120">收入 - 实际与预算</span><span class="sxs-lookup"><span data-stu-id="fdcaf-120">Revenue - Actual vs budget</span></span>  | <ul><li><span data-ttu-id="fdcaf-121">本年收入总额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-121">Total revenue this year</span></span></li><li><span data-ttu-id="fdcaf-122">本年收入总额预算</span><span class="sxs-lookup"><span data-stu-id="fdcaf-122">Budget total revenue this year</span></span></li><ul> |
-| <span data-ttu-id="fdcaf-123">费用</span><span class="sxs-lookup"><span data-stu-id="fdcaf-123">Expense</span></span>                     | <ul><li><span data-ttu-id="fdcaf-124">本年支出总额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-124">Total expenses this year</span></span></li><li><span data-ttu-id="fdcaf-125">基于预算的支出目标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-125">Goal for expenses based on budget</span></span> </li><ul> |
-| <span data-ttu-id="fdcaf-126">收入</span><span class="sxs-lookup"><span data-stu-id="fdcaf-126">Revenue</span></span>                     | <ul><li><span data-ttu-id="fdcaf-127">本年收入总额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-127">Total revenue this year</span></span></li><li><span data-ttu-id="fdcaf-128">基于预算的收入目标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-128">Goal for revenue based on budget</span></span> </li><ul> |
-| <span data-ttu-id="fdcaf-129">净收益</span><span class="sxs-lookup"><span data-stu-id="fdcaf-129">Net income</span></span>                  | <ul><li><span data-ttu-id="fdcaf-130">本年度净收益</span><span class="sxs-lookup"><span data-stu-id="fdcaf-130">Net income this year</span></span></li><li><span data-ttu-id="fdcaf-131">基于预算的净收益目标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-131">Goal for net income based on budget</span></span> </li><ul> |
 
+|           <span data-ttu-id="fdcaf-115">报告</span><span class="sxs-lookup"><span data-stu-id="fdcaf-115">Report</span></span>            |                                       <span data-ttu-id="fdcaf-116">指标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-116">Metrics</span></span>                                        |
+|-----------------------------|--------------------------------------------------------------------------------------|
+| <span data-ttu-id="fdcaf-117">支出 - 实际与预算</span><span class="sxs-lookup"><span data-stu-id="fdcaf-117">Expenses - Actual vs budget</span></span> |  <ul><li><span data-ttu-id="fdcaf-118">本年支出总额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-118">Total expenses this year</span></span></li><li><span data-ttu-id="fdcaf-119">本年支出总额预算</span><span class="sxs-lookup"><span data-stu-id="fdcaf-119">Budget total expenses this year</span></span></li></ul>  |
+| <span data-ttu-id="fdcaf-120">收入 - 实际与预算</span><span class="sxs-lookup"><span data-stu-id="fdcaf-120">Revenue - Actual vs budget</span></span>  |   <ul><li><span data-ttu-id="fdcaf-121">本年收入总额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-121">Total revenue this year</span></span></li><li><span data-ttu-id="fdcaf-122">本年收入总额预算</span><span class="sxs-lookup"><span data-stu-id="fdcaf-122">Budget total revenue this year</span></span></li><ul>    |
+|           <span data-ttu-id="fdcaf-123">费用</span><span class="sxs-lookup"><span data-stu-id="fdcaf-123">Expense</span></span>           | <ul><li><span data-ttu-id="fdcaf-124">本年支出总额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-124">Total expenses this year</span></span></li><li><span data-ttu-id="fdcaf-125">基于预算的支出目标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-125">Goal for expenses based on budget</span></span> </li><ul> |
+|           <span data-ttu-id="fdcaf-126">收入</span><span class="sxs-lookup"><span data-stu-id="fdcaf-126">Revenue</span></span>           |  <ul><li><span data-ttu-id="fdcaf-127">本年收入总额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-127">Total revenue this year</span></span></li><li><span data-ttu-id="fdcaf-128">基于预算的收入目标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-128">Goal for revenue based on budget</span></span> </li><ul>  |
+|         <span data-ttu-id="fdcaf-129">净收益</span><span class="sxs-lookup"><span data-stu-id="fdcaf-129">Net income</span></span>          |  <ul><li><span data-ttu-id="fdcaf-130">本年度净收益</span><span class="sxs-lookup"><span data-stu-id="fdcaf-130">Net income this year</span></span></li><li><span data-ttu-id="fdcaf-131">基于预算的净收益目标</span><span class="sxs-lookup"><span data-stu-id="fdcaf-131">Goal for net income based on budget</span></span> </li><ul>  |
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="fdcaf-132">了解数据模型和实体</span><span class="sxs-lookup"><span data-stu-id="fdcaf-132">Understanding the data model and entities</span></span>
 
-| <span data-ttu-id="fdcaf-133">实体</span><span class="sxs-lookup"><span data-stu-id="fdcaf-133">Entity</span></span>                    | <span data-ttu-id="fdcaf-134">内容</span><span class="sxs-lookup"><span data-stu-id="fdcaf-134">Contents</span></span> |
-|---------------------------|----------|
-| <span data-ttu-id="fdcaf-135">总帐活动</span><span class="sxs-lookup"><span data-stu-id="fdcaf-135">General Ledger Activities</span></span> | <span data-ttu-id="fdcaf-136">总帐交易金额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-136">Transaction amounts for the general ledger</span></span> |
-| <span data-ttu-id="fdcaf-137">预算活动</span><span class="sxs-lookup"><span data-stu-id="fdcaf-137">Budget Activities</span></span>         | <span data-ttu-id="fdcaf-138">预算登记的交易金额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-138">Transaction amounts for the budget register</span></span> |
-| <span data-ttu-id="fdcaf-139">主科目</span><span class="sxs-lookup"><span data-stu-id="fdcaf-139">Main Accounts</span></span>             | <span data-ttu-id="fdcaf-140">充当报表筛选依据的主科目</span><span class="sxs-lookup"><span data-stu-id="fdcaf-140">Main accounts to filter reports by</span></span> |
-| <span data-ttu-id="fdcaf-141">会计日历</span><span class="sxs-lookup"><span data-stu-id="fdcaf-141">Fiscal Calendars</span></span>          | <span data-ttu-id="fdcaf-142">充当报表筛选依据的会计日历</span><span class="sxs-lookup"><span data-stu-id="fdcaf-142">Fiscal calendars to filter reports by</span></span> |
-| <span data-ttu-id="fdcaf-143">分类帐</span><span class="sxs-lookup"><span data-stu-id="fdcaf-143">Ledgers</span></span>                   | <span data-ttu-id="fdcaf-144">可用于筛选报表到当前分类帐的分类帐</span><span class="sxs-lookup"><span data-stu-id="fdcaf-144">Ledgers that can be used to filter the report to the current ledger</span></span> |
-| <span data-ttu-id="fdcaf-145">预算代码</span><span class="sxs-lookup"><span data-stu-id="fdcaf-145">Budget Codes</span></span>              | <span data-ttu-id="fdcaf-146">充当报表筛选依据的预算代码</span><span class="sxs-lookup"><span data-stu-id="fdcaf-146">Budget codes to filter reports by</span></span> |
-| <span data-ttu-id="fdcaf-147">法人</span><span class="sxs-lookup"><span data-stu-id="fdcaf-147">Legal Entities</span></span>            | <span data-ttu-id="fdcaf-148">可用于筛选报表到当前法人的法人</span><span class="sxs-lookup"><span data-stu-id="fdcaf-148">Legal entities that can be used to filter the report to the current legal entity</span></span> |
+|          <span data-ttu-id="fdcaf-133">实体</span><span class="sxs-lookup"><span data-stu-id="fdcaf-133">Entity</span></span>           |                                     <span data-ttu-id="fdcaf-134">内容</span><span class="sxs-lookup"><span data-stu-id="fdcaf-134">Contents</span></span>                                     |
+|---------------------------|----------------------------------------------------------------------------------|
+| <span data-ttu-id="fdcaf-135">总帐活动</span><span class="sxs-lookup"><span data-stu-id="fdcaf-135">General Ledger Activities</span></span> |                    <span data-ttu-id="fdcaf-136">总帐交易金额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-136">Transaction amounts for the general ledger</span></span>                    |
+|     <span data-ttu-id="fdcaf-137">预算活动</span><span class="sxs-lookup"><span data-stu-id="fdcaf-137">Budget Activities</span></span>     |                   <span data-ttu-id="fdcaf-138">预算登记的交易金额</span><span class="sxs-lookup"><span data-stu-id="fdcaf-138">Transaction amounts for the budget register</span></span>                    |
+|       <span data-ttu-id="fdcaf-139">主科目</span><span class="sxs-lookup"><span data-stu-id="fdcaf-139">Main Accounts</span></span>       |                        <span data-ttu-id="fdcaf-140">充当报表筛选依据的主科目</span><span class="sxs-lookup"><span data-stu-id="fdcaf-140">Main accounts to filter reports by</span></span>                        |
+|     <span data-ttu-id="fdcaf-141">会计日历</span><span class="sxs-lookup"><span data-stu-id="fdcaf-141">Fiscal Calendars</span></span>      |                      <span data-ttu-id="fdcaf-142">充当报表筛选依据的会计日历</span><span class="sxs-lookup"><span data-stu-id="fdcaf-142">Fiscal calendars to filter reports by</span></span>                       |
+|          <span data-ttu-id="fdcaf-143">分类帐</span><span class="sxs-lookup"><span data-stu-id="fdcaf-143">Ledgers</span></span>          |       <span data-ttu-id="fdcaf-144">可用于筛选报表到当前分类帐的分类帐</span><span class="sxs-lookup"><span data-stu-id="fdcaf-144">Ledgers that can be used to filter the report to the current ledger</span></span>        |
+|       <span data-ttu-id="fdcaf-145">预算代码</span><span class="sxs-lookup"><span data-stu-id="fdcaf-145">Budget Codes</span></span>        |                        <span data-ttu-id="fdcaf-146">充当报表筛选依据的预算代码</span><span class="sxs-lookup"><span data-stu-id="fdcaf-146">Budget codes to filter reports by</span></span>                         |
+|      <span data-ttu-id="fdcaf-147">法人</span><span class="sxs-lookup"><span data-stu-id="fdcaf-147">Legal Entities</span></span>       | <span data-ttu-id="fdcaf-148">可用于筛选报表到当前法人的法人</span><span class="sxs-lookup"><span data-stu-id="fdcaf-148">Legal entities that can be used to filter the report to the current legal entity</span></span> |
+
 

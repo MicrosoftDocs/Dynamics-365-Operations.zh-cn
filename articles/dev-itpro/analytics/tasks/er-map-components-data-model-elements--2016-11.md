@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1c81a1268a56164e0d4465359a0f9ec425ee7c31
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8b32b32a2cc8f7ac36e6c27ab17e550b5e3bd17
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a><span data-ttu-id="7b005-103">针对电子申报 (ER) 将已创建格式的组件映射到数据模型元素</span><span class="sxs-lookup"><span data-stu-id="7b005-103">Map components of the created format to data model elements for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7b005-104">以下过程显示属于系统管理员或电子报表开发人员的用户如何将数据模型元素映射到创建的电子申报 (ER) 配置的组件，该配置用于定义付款业务域的电子单据格式。</span><span class="sxs-lookup"><span data-stu-id="7b005-104">The following procedure shows how a user in either the System administrator or Electronic reporting developer role can map data model elements to components of the created Electronic reporting (ER) configuration, which defines an electronic document format for the payments business domain.</span></span> <span data-ttu-id="7b005-105">后面将使用此格式生成用于处理付款的电子单据。</span><span class="sxs-lookup"><span data-stu-id="7b005-105">This format will be used later to generate electronic documents for processing payments.</span></span> <span data-ttu-id="7b005-106">在此示例中，您将创建示例公司“Litware 公司”的格式配置。</span><span class="sxs-lookup"><span data-stu-id="7b005-106">In this example, you will create a format configuration for the sample company, ‘Litware, Inc.’.</span></span> <span data-ttu-id="7b005-107">这些步骤适用于所有公司，因为所有公司共享 ER 配置。</span><span class="sxs-lookup"><span data-stu-id="7b005-107">These steps can be performed in any company as ER configurations are shared for all companies.</span></span> <span data-ttu-id="7b005-108">为了完成这些步骤，您首先必须完成任务指南“创建格式配置”中的步骤。</span><span class="sxs-lookup"><span data-stu-id="7b005-108">To complete these steps, you must first complete the steps in the “Create a format configuration” task guide.</span></span>
 

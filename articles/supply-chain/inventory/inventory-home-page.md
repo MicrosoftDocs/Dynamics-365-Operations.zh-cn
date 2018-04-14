@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 938c70faf11acc9a3ab76691b09bb37e51af02c2
-ms.openlocfilehash: b0302ead613c692e7518d60d3e11b518b8e3d8f1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cb1547a6a01164c19632644e6a3dad6dbac9ecc6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/22/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-management"></a><span data-ttu-id="f4211-103">库存管理</span><span class="sxs-lookup"><span data-stu-id="f4211-103">Inventory management</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="f4211-104">您可以使用库存管理来执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="f4211-104">You can use Inventory management to perform the following tasks:</span></span>
 

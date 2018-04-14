@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: c70aab2cc873be7c9e47d7c7c23017e390c27af4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e293350b1d12f1005af6cd86f26c5be78c0a4be0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a><span data-ttu-id="82743-103">创建产品分类的层次结构</span><span class="sxs-lookup"><span data-stu-id="82743-103">Create a hierarchy of product classification</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="82743-104">该过程会显示如何创建新类别层次结构，和分配商品代码层次结构类型。</span><span class="sxs-lookup"><span data-stu-id="82743-104">This procedure shows how to create a new category hierarchy and assign a commodity code hierarchy type.</span></span> <span data-ttu-id="82743-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="82743-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="82743-106">该过程专门面向类别经理。</span><span class="sxs-lookup"><span data-stu-id="82743-106">This procedure is intended for the category manager.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6331c3680169b305c4bfbfada4ba106b619be092
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5905a630addfd850d22d34bdbecf116e83b4933f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-collection-letter-sequence"></a><span data-ttu-id="dd8f9-103">创建催款单序列</span><span class="sxs-lookup"><span data-stu-id="dd8f9-103">Create a collection letter sequence</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dd8f9-104">使用此任务指南创建收款单序列。</span><span class="sxs-lookup"><span data-stu-id="dd8f9-104">Use this task guide to create a collection letter sequence.</span></span> <span data-ttu-id="dd8f9-105">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="dd8f9-105">This task uses the USMF demo company.</span></span>
 

@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 80a882e51332d87835bdfb41a1bb1fcda2471f02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fa40733e3f1310869ead8b0ac774bb621637e250
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="report-production-orders-as-finished"></a><span data-ttu-id="2fc1f-104">将生产订单报告为已完工入库</span><span class="sxs-lookup"><span data-stu-id="2fc1f-104">Report production orders as finished</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2fc1f-105">完工入库是生产阶段。</span><span class="sxs-lookup"><span data-stu-id="2fc1f-105">Report as finished is a production stage.</span></span> <span data-ttu-id="2fc1f-106">在此阶段，将报告成品并将其从生产订单移到库存。</span><span class="sxs-lookup"><span data-stu-id="2fc1f-106">At this stage, a finished product is reported and moved from the production order to the inventory.</span></span>
 

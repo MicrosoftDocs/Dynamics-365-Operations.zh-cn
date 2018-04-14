@@ -18,17 +18,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: 838dc40fb3fa2b0de7fa131850754c3674266d73
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c9a3f71ade04631e2a4494c5616f3b29bd12c5c9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-august-2016"></a><span data-ttu-id="1edfb-104">新的或更新任务指南（2016 年 8 月）</span><span class="sxs-lookup"><span data-stu-id="1edfb-104">New or updated task guides (August 2016)</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1edfb-105">本主题列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。</span><span class="sxs-lookup"><span data-stu-id="1edfb-105">This topic lists the new or updated Task guides that were released to the Microsoft (August 2016 - all languages) APQC Unified Library for Microsoft Dynamics AX.</span></span> <span data-ttu-id="1edfb-106">没有发布新入门库。</span><span class="sxs-lookup"><span data-stu-id="1edfb-106">No new Getting Started Library was released.</span></span>
 

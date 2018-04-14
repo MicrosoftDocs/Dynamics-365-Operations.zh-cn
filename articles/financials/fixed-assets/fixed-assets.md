@@ -19,17 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3c49ff15a6ac5dddd64ded4a6e9c755504393346
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fcc7071db8da4d098c8744c82502229745bc539a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="fixed-assets-home-page"></a><span data-ttu-id="1a4ae-103">固定资产主页</span><span class="sxs-lookup"><span data-stu-id="1a4ae-103">Fixed assets home page</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1a4ae-104">固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。</span><span class="sxs-lookup"><span data-stu-id="1a4ae-104">Fixed assets are items of value, such as buildings, vehicles, land, and equipment, which are owned by an individual or organization.</span></span> 
 

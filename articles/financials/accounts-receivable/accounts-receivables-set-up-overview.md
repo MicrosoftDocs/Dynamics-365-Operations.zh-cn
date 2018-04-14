@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 64f0a9a44b97a9980f8d1b76ff158f1ac9cbc114
-ms.openlocfilehash: 7563c749d0d2b5747f1b7886def82ba7191499b1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 43c8d0db28fb0a845c4520b279f16d7c20c6da88
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a><span data-ttu-id="fd16d-103">配置应收账款以及信用和收款</span><span class="sxs-lookup"><span data-stu-id="fd16d-103">Configure Accounts receivables and Credit and collections</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="fd16d-104">配置“应收账款”和“信用和收款”以跟踪来自客户的发票和收入。</span><span class="sxs-lookup"><span data-stu-id="fd16d-104">Configure Accounts receivable and Credit and Collections to track invoices and incoming payments from customers.</span></span>
 
@@ -107,7 +106,7 @@ ms.lasthandoff: 11/14/2017
 |                                                      | <span data-ttu-id="fd16d-251">NSF 信息。</span><span class="sxs-lookup"><span data-stu-id="fd16d-251">NSF information.</span></span>                     | <span data-ttu-id="fd16d-252">在“收款”页上将付款标记为 NSF 交易记录时，在将要使用的银行帐户上设置 NSF 信息。</span><span class="sxs-lookup"><span data-stu-id="fd16d-252">Set up NSF information on the bank account that will be used when a payment is marked as an NSF transaction on the Collections page.</span></span>                                                                                                                                              |
 |                                                      | <span data-ttu-id="fd16d-253">销售人员信息</span><span class="sxs-lookup"><span data-stu-id="fd16d-253">Salesperson information</span></span>              | <span data-ttu-id="fd16d-254">设置销售人员的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="fd16d-254">Set up the email address for salespersons.</span></span> <span data-ttu-id="fd16d-255">这些地址将出现在“收款”页上，您可以从该页中使用它们将电子邮件发送至销售人员。</span><span class="sxs-lookup"><span data-stu-id="fd16d-255">These addresses will appear on the Collections page and you can use them to send email to a salesperson from that page.</span></span>                                                                                                                |
 
- 
+
 <span data-ttu-id="fd16d-256">有关详细信息，请参阅[在应收账款中的信用和收款](collections-credit-accounts-receivable.md)。</span><span class="sxs-lookup"><span data-stu-id="fd16d-256">For more information, see [Credit and collections in Accounts receivable](collections-credit-accounts-receivable.md).</span></span>
 
 

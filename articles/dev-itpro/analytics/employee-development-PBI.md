@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 4cf60021b96ab492c5d0b2535a117cb33ab13524
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a451a3e936916c6bec750ddfbc2bf71fadb7c222
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/31/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="employee-development-power-bi-content"></a><span data-ttu-id="427d3-103">员工发展 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="427d3-103">Employee development Power BI content</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="427d3-104">此主题描述**员工发展** Microsoft Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="427d3-104">This topic describes the **Employee development** Microsoft Power BI content.</span></span>
 
@@ -45,6 +45,7 @@ ms.lasthandoff: 01/31/2018
 <span data-ttu-id="427d3-124">可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。</span><span class="sxs-lookup"><span data-stu-id="427d3-124">You can filter the charts and tiles on these reports, and pin the charts and tiles to the dashboard.</span></span> <span data-ttu-id="427d3-125">有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。</span><span class="sxs-lookup"><span data-stu-id="427d3-125">For more information about how to filter and pin in Power BI, see [Create and Configure A Dashboard](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards).</span></span>
 
 ## <a name="understanding-the-data-model-and-entities"></a><span data-ttu-id="427d3-126">了解数据模型和实体</span><span class="sxs-lookup"><span data-stu-id="427d3-126">Understanding the data model and entities</span></span>
+
 | <span data-ttu-id="427d3-127">实体</span><span class="sxs-lookup"><span data-stu-id="427d3-127">Entity</span></span>                   | <span data-ttu-id="427d3-128">内容</span><span class="sxs-lookup"><span data-stu-id="427d3-128">Contents</span></span>                                                                                                   | <span data-ttu-id="427d3-129">与其他实体之间的关系</span><span class="sxs-lookup"><span data-stu-id="427d3-129">Relationships with other entities</span></span> |
 |--------------------------|------------------------------------------------------------------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="427d3-130">日历偏差</span><span class="sxs-lookup"><span data-stu-id="427d3-130">Calendar Offset</span></span>          | <span data-ttu-id="427d3-131">要切分的日历偏差报表</span><span class="sxs-lookup"><span data-stu-id="427d3-131">Calendar offsets to slice reports</span></span>                                                                          | <span data-ttu-id="427d3-132">过去的职位分配、职位趋势、员工趋势、已离职的员工</span><span class="sxs-lookup"><span data-stu-id="427d3-132">Past Position Assignment, Position Trend, Employee Trend, Terminated Employee</span></span> 

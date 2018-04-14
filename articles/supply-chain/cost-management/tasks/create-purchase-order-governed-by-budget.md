@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cc024caa54db6629a1e573df295fe8333996647
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ddd725df4e06caf36be0e8913b556469421fa1af
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-purchase-order-governed-by-budget"></a><span data-ttu-id="8308f-103">创建按预算管理的采购订单</span><span class="sxs-lookup"><span data-stu-id="8308f-103">Create a purchase order governed by budget</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8308f-104">使用此过程可以创建为可用预算检查的采购订单。</span><span class="sxs-lookup"><span data-stu-id="8308f-104">Use this procedure to create a purchase order that is checked for available budget.</span></span> <span data-ttu-id="8308f-105">此录制使用 USMF 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="8308f-105">This recording uses the USMF demo data company.</span></span>
 

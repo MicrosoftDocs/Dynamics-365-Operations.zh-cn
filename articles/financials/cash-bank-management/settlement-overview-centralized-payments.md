@@ -19,17 +19,16 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 38e248d3d782d868e69761323a7d804f2932afe3
-ms.openlocfilehash: a8c1735efce0f5fbf7212cf9e0a8b137cbe8e43c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961623b44fa098aa78bc512b5a6e3a8a4fe263dd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="settlement-overview-for-centralized-payments"></a><span data-ttu-id="72460-104">集中付款结算概览</span><span class="sxs-lookup"><span data-stu-id="72460-104">Settlement overview for centralized payments</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="72460-105">包括多个法人的组织可以使用处理所有付款的法人创建和管理付款。</span><span class="sxs-lookup"><span data-stu-id="72460-105">Organizations that include multiple legal entities can create and manage payments by using a legal entity that handles all payments.</span></span> <span data-ttu-id="72460-106">这样，就无需在多个法人分别输入相同的交易记录，通过优化付款方案流程、结算流程、未结交易记录编辑和针对集中式付款的已结算交易记录编辑来节约时间。</span><span class="sxs-lookup"><span data-stu-id="72460-106">This eliminates the need to enter the same transaction in multiple legal entities and saves time by streamlining the payment proposal process, the settlement process, open transaction editing, and closed transaction editing for centralized payments.</span></span> 
 

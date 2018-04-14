@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: afe9d397872b9328b59f4036049ab53b3bba2aec
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 009f2760cdd98d9158209f2265e5423df75e8e73
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a><span data-ttu-id="ef104-103">针对电子申报 (ER) 配置目标</span><span class="sxs-lookup"><span data-stu-id="ef104-103">Configure destinations for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ef104-104">此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。</span><span class="sxs-lookup"><span data-stu-id="ef104-104">This procedure demonstrates how to set up and use different destinations for Electronic reporting (ER) output components, such as a folder or a file.</span></span> <span data-ttu-id="ef104-105">用于创建此过程的演示数据公司是 DEMF。</span><span class="sxs-lookup"><span data-stu-id="ef104-105">The demo data company used to create this procedure is DEMF.</span></span> <span data-ttu-id="ef104-106">德国为法人主要地址的国家\地区，但您可以为此过程使用任何法人。</span><span class="sxs-lookup"><span data-stu-id="ef104-106">Germany is the country\region of the legal entity’s primary address, however you can use any legal entity for this procedure.</span></span> 
 

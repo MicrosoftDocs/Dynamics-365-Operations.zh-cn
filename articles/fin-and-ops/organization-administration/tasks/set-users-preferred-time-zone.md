@@ -16,15 +16,15 @@ ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b39b0f0acf0a0fcdc472ba0bbfc3b15451c7a274
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: edfd9d824fbd86506456e875b510eb56fec84b7e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-a-users-preferred-time-zone"></a><span data-ttu-id="c7245-103">设置用户的首选时区</span><span class="sxs-lookup"><span data-stu-id="c7245-103">Set a user's preferred time zone</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c7245-104">以下过程说明系统管理员角色的用户可以如何为用户设置时区。</span><span class="sxs-lookup"><span data-stu-id="c7245-104">The following procedure explains how a user in the System Administrator role can set the time zone for a user.</span></span>
 

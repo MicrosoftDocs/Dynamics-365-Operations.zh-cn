@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 00550b4e3fa52108533c516d7ae1de0454c065ec
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 510e3ac8bbec891436eaf6849dfe00b68ba2eb40
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a><span data-ttu-id="701a2-104">会计分配和供应商发票的子分类日记帐条目</span><span class="sxs-lookup"><span data-stu-id="701a2-104">Accounting distributions and subledger journal entries for vendor invoices</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="701a2-105">会计分配用于定义将如何对账金额，例如将如何对账普通发票中的收入、税金或费用。</span><span class="sxs-lookup"><span data-stu-id="701a2-105">Accounting distributions are used to define how an amount will be accounted for, such as how the expense, tax, or charges will be accounted for on a vendor invoice.</span></span> <span data-ttu-id="701a2-106">普通发票已记入日记帐时，必须对账的每笔金额都将具有一个或多个会计分配。</span><span class="sxs-lookup"><span data-stu-id="701a2-106">Every amount that must be accounted for when the vendor invoice is journalized will have one or more accounting distributions.</span></span> 
 
@@ -231,7 +230,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
- 
+
 <a name="distributing-taxes"></a><span data-ttu-id="701a2-213">分配税</span><span class="sxs-lookup"><span data-stu-id="701a2-213">Distributing taxes</span></span>
 ------------------
 

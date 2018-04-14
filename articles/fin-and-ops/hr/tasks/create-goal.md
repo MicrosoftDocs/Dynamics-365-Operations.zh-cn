@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 81707760e3ee3bc212706fb0857ed087455b0a9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8a01506d94a12642cae1c8331f473afb76bcf2b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-goal"></a><span data-ttu-id="9b8d0-103">创建目标</span><span class="sxs-lookup"><span data-stu-id="9b8d0-103">Create a goal</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9b8d0-104">可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。</span><span class="sxs-lookup"><span data-stu-id="9b8d0-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="9b8d0-105">创建该过程的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="9b8d0-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="9b8d0-106">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="9b8d0-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

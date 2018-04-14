@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 90d270eb04cd64c444e8a7e0ce0719762725293c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f3596bd53669bb495ede76394a3574d5f8058bcf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-predefined-product-variants"></a><span data-ttu-id="447dd-103">创建预定义的产品变型</span><span class="sxs-lookup"><span data-stu-id="447dd-103">Create predefined product variants</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="447dd-104">此过程全面介绍如何使用产品维度的组合创建基础产品的产品变型。</span><span class="sxs-lookup"><span data-stu-id="447dd-104">This procedure walks through creating product variants for a product master using the combinations of product dimensions.</span></span> <span data-ttu-id="447dd-105">创建此过程使用的演示数据公司为 USMF。</span><span class="sxs-lookup"><span data-stu-id="447dd-105">The demo company used to create this procedure is USMF.</span></span>
 

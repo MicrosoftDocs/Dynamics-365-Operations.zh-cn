@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9ef7b8e920d22cbc4f96676e68a263f2da7f232c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9d2c2fbd223bd2b410e4a5db87ec468eb25dc87f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-kanban-rule-using-a-kanban-line-event"></a><span data-ttu-id="6dea9-103">使用看板行事件创建看板规则</span><span class="sxs-lookup"><span data-stu-id="6dea9-103">Create a kanban rule using a kanban line event</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6dea9-104">此过程通过使用看板行事件设置触发从进程活动的提取来创建看板规则。</span><span class="sxs-lookup"><span data-stu-id="6dea9-104">This procedure creates a kanban rule by using the kanban line event setting to trigger pull from a process activity.</span></span> <span data-ttu-id="6dea9-105">看板规则由各数量等于或大于 25 的看板进程活动触发。</span><span class="sxs-lookup"><span data-stu-id="6dea9-105">The kanban rule is triggered by a kanban process activity, with a quantity equal to or greater than 25 each.</span></span> <span data-ttu-id="6dea9-106">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="6dea9-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="6dea9-107">该任务面向工艺工程师或价值流经理，因为他们负责新型或改良产品的生产准备。</span><span class="sxs-lookup"><span data-stu-id="6dea9-107">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 

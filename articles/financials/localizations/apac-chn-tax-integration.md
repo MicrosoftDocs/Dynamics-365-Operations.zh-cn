@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 4e403f29c79286add175724b00803e54ceecdc3b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e28af8f6cd1b6defa2c48172ac18ba3247618f02
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-tax-integration-for-china"></a><span data-ttu-id="b8b62-103">配置中国的税务集成</span><span class="sxs-lookup"><span data-stu-id="b8b62-103">Configure tax integration for China</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b8b62-104">本主题描述配置中国的税务集成的流程。</span><span class="sxs-lookup"><span data-stu-id="b8b62-104">This topic describes the process for configuring tax integration for China.</span></span>
 

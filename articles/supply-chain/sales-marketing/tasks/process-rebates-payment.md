@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 791ec304b9ea7c49fbea506d73c4daffd4478739
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a6eb7fd5a44d5e4fb81f5939d820e429ff131246
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="process-rebates-for-payment"></a><span data-ttu-id="7cd69-103">处理付款返利</span><span class="sxs-lookup"><span data-stu-id="7cd69-103">Process rebates for payment</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="7cd69-104">该过程说明如何将已批准和处理的客户返利转换到贷方通知单。</span><span class="sxs-lookup"><span data-stu-id="7cd69-104">This procedure demonstrates how to convert approved and processed customer rebates to credit notes.</span></span> <span data-ttu-id="7cd69-105">您可以使用 USMF 公司演示运行此指南。</span><span class="sxs-lookup"><span data-stu-id="7cd69-105">You can use this guide in the USMF demo company.</span></span> <span data-ttu-id="7cd69-106">本指南中的先决条件是拥有一个或多个状态为“标记”的要求。</span><span class="sxs-lookup"><span data-stu-id="7cd69-106">The precondition for this guide is to have one or more rebate claims which have a status of Mark.</span></span> <span data-ttu-id="7cd69-107">如果您正在使用 USMF，在开始本指南之前，您应该运行“生成和处理客户返利”指南。</span><span class="sxs-lookup"><span data-stu-id="7cd69-107">If you’re using USMF you should run the "Generate and process customer rebates" guide before you start this guide.</span></span>
 

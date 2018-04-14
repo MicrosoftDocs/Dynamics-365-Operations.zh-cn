@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: e9b22a6f846607e8afc5d4f01c685f1364b1c01d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9089b9ad773890424a6f73107a26a35a32e988ae
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-request-configurations"></a><span data-ttu-id="4b8c3-103">供应商请求配置</span><span class="sxs-lookup"><span data-stu-id="4b8c3-103">Vendor request configurations</span></span>
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4b8c3-104">为了完成供应商请求，供应商联系人必须完成潜在供应商注册向导。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-104">To complete a vendor request, a vendor contact person must complete the prospective vendor registration wizard.</span></span>
 
@@ -39,12 +39,12 @@ ms.lasthandoff: 02/08/2018
 
 <span data-ttu-id="4b8c3-111">不能选择默认配置的国家/地区，因此无法更改**国家/地区**部分。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-111">It is not possible to select country/regions for the default configuration, so the **Countries/regions** section cannot be changed.</span></span>
 
-1.  <span data-ttu-id="4b8c3-112">单击**采购** > **设置** > **供应商**，然后单击**供应商请求配置**。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
-2.  <span data-ttu-id="4b8c3-113">单击**字段**选项卡可以设置所列字段的状态。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
--   <span data-ttu-id="4b8c3-114">隐藏（不可见）</span><span class="sxs-lookup"><span data-stu-id="4b8c3-114">Hidden (Not visible)</span></span>
--   <span data-ttu-id="4b8c3-115">显示（可见但非必填）</span><span class="sxs-lookup"><span data-stu-id="4b8c3-115">Displayed (Visible but not mandatory)</span></span>
--   <span data-ttu-id="4b8c3-116">必填（可见且必填）</span><span class="sxs-lookup"><span data-stu-id="4b8c3-116">Required (Visible and mandatory)</span></span>
-3.  <span data-ttu-id="4b8c3-117">单击**内容**选项卡可指定文本是否要显示在向导上，以及是否应该确认潜在供应商用户必须接受后才能进入向导的下一步。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="4b8c3-118">将针对用户必须接受后才能继续的任何条款和条件请求确认。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
+1. <span data-ttu-id="4b8c3-112">单击**采购** > **设置** > **供应商**，然后单击**供应商请求配置**。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-112">Click **Procurement and sourcing** > **Setup** > **Vendors**, and then click **Vendor request configurations**.</span></span>
+2. <span data-ttu-id="4b8c3-113">单击**字段**选项卡可以设置所列字段的状态。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-113">Click the **Fields** tab to set the status of the listed fields.</span></span>
+3. <span data-ttu-id="4b8c3-114">隐藏（不可见）</span><span class="sxs-lookup"><span data-stu-id="4b8c3-114">Hidden (Not visible)</span></span>
+4. <span data-ttu-id="4b8c3-115">显示（可见但非必填）</span><span class="sxs-lookup"><span data-stu-id="4b8c3-115">Displayed (Visible but not mandatory)</span></span>
+5. <span data-ttu-id="4b8c3-116">必填（可见且必填）</span><span class="sxs-lookup"><span data-stu-id="4b8c3-116">Required (Visible and mandatory)</span></span>
+6. <span data-ttu-id="4b8c3-117">单击**内容**选项卡可指定文本是否要显示在向导上，以及是否应该确认潜在供应商用户必须接受后才能进入向导的下一步。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-117">Click the **Content** tab to specify if text is going to be shown on the wizard and if there should be an acknowledgement that the prospective vendor user must accept this before moving to the next step in the wizard.</span></span> <span data-ttu-id="4b8c3-118">将针对用户必须接受后才能继续的任何条款和条件请求确认。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-118">The acknowledgement will be requested for any terms and conditions that the user must accept to continue.</span></span>
 
 <span data-ttu-id="4b8c3-119">您还可以输入在完成向导时将要显示的确认消息，并且可以添加一个或多个调查表。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-119">You can also enter a confirmation message that will be displayed when the wizard is finalized, and you can add one or more questionnaires.</span></span>
 

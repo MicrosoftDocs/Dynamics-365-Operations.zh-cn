@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b16f4ea27f406f3d5d5957670bd32a73d2d55529
-ms.openlocfilehash: bb616f8102c67db3f8c3e872101d61657b6b64d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0d4a61fef7a4698098d932568dc7547037f6eca1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-mobile-device-display-settings"></a><span data-ttu-id="bbccf-103">仓库移动设备的显示设置</span><span class="sxs-lookup"><span data-stu-id="bbccf-103">Warehouse mobile device display settings</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bbccf-104">此文章介绍如何设置移动设备显示的外观，以及如何将键盘快捷键映射到控件（例如按钮）。</span><span class="sxs-lookup"><span data-stu-id="bbccf-104">This article describes how to set up the appearance of a mobile device display and map keyboard shortcuts to controls such as buttons.</span></span> 
 

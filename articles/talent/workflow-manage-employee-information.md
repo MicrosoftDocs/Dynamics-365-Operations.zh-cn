@@ -18,17 +18,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: cf2200057053f5a6d4754d37111ebe34849bb99d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ab84dd4e5ad87c2f3176265f81b0395cfb744315
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-workflows-to-manage-employee-information"></a><span data-ttu-id="6e553-104">使用工作流管理员工信息</span><span class="sxs-lookup"><span data-stu-id="6e553-104">Use workflows to manage employee information</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="6e553-105">本主题说明如何使用人力资源的工作流功能管理员工信息。</span><span class="sxs-lookup"><span data-stu-id="6e553-105">This topic explains how you can use the workflow capability for Human resources to manage employee information.</span></span> <span data-ttu-id="6e553-106">例如，可以将工作流与职位关联，以及配置员工更改其记录时启动的批准工作流。</span><span class="sxs-lookup"><span data-stu-id="6e553-106">For example, you can associate a workflow with a position and configure an approval workflow that is started when employees change their record.</span></span>
 

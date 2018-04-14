@@ -20,17 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 2b09358e18d02e58cf10ca6247ede29052409de0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 099779707cb2b9b821085563b155976cd6ff8777
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-bar-codes"></a><span data-ttu-id="1986d-103">设置条码</span><span class="sxs-lookup"><span data-stu-id="1986d-103">Set up bar codes</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="1986d-104">本文介绍如何在 Microsoft Dynamics 365 for Retail 中使用条码。</span><span class="sxs-lookup"><span data-stu-id="1986d-104">This article describes how to use bar codes in Microsoft Dynamics 365 for Retail.</span></span>
 

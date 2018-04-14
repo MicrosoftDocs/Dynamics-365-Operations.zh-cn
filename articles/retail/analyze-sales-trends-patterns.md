@@ -20,17 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: c49219f1dbc178fb36a6d35929f82d4135ee4d23
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6be3a28c6912c52fb86e9f204a3f0d47170b8418
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="analyze-sales-trends-and-patterns"></a><span data-ttu-id="2d7b8-103">分析销售趋势和模式</span><span class="sxs-lookup"><span data-stu-id="2d7b8-103">Analyze sales trends and patterns</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="2d7b8-104">您可以在 Microsoft Dynamics 365 for Retail 中实时研究销售趋势和模式。</span><span class="sxs-lookup"><span data-stu-id="2d7b8-104">You can study sales trends and patterns in real time in Microsoft Dynamics 365 for Retail.</span></span>
 

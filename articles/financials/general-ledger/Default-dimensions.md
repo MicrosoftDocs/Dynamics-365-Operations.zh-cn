@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b6a85480948d1280ddb7e588d41dcc09692d823c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-dimensions-and-posting"></a><span data-ttu-id="c33c7-105">财务维度和过帐</span><span class="sxs-lookup"><span data-stu-id="c33c7-105">Financial dimensions and posting</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c33c7-106">在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。</span><span class="sxs-lookup"><span data-stu-id="c33c7-106">When you plan and set up your chart of accounts, you must consider how the various components will work together when you post a document or journal.</span></span> <span data-ttu-id="c33c7-107">这些组件包括科目结构、高级规则和平衡与固定维度。</span><span class="sxs-lookup"><span data-stu-id="c33c7-107">These components include account structures, advanced rules, and balancing and fixed dimensions.</span></span> <span data-ttu-id="c33c7-108">本主题介绍各组件的定义及其协同工作方式。</span><span class="sxs-lookup"><span data-stu-id="c33c7-108">This topic explains what each component is and how the components work together.</span></span>
 

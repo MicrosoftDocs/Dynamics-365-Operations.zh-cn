@@ -18,17 +18,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: dba0b9fee269a13059180131d768382f5a3b55dd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 154f9359d224b6d39ae5b561baf9f1f8c6b3979c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a><span data-ttu-id="38e44-104">增值税客户发票的中国税务集成修改常见问题</span><span class="sxs-lookup"><span data-stu-id="38e44-104">Chinese tax integration modification for VAT customer invoices FAQ</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="38e44-105">您可以生成增值税 (VAT) 客户发票，然后以文本文件导出。</span><span class="sxs-lookup"><span data-stu-id="38e44-105">You can generate value-added tax (VAT) customer invoices, and then export them as text files.</span></span> <span data-ttu-id="38e44-106">接下来，您可以导入可与原始发票关联的增值税客户发票的参考编号。</span><span class="sxs-lookup"><span data-stu-id="38e44-106">You can then import reference numbers for the VAT customer invoices that can be linked to the original invoices.</span></span>
 

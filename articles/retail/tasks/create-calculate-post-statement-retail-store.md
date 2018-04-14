@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 33ebb28196baa9ae944dbd124274b05cb587fea4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9f9888d04f4e2419de9d4a6857a81ae40f6f21a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="adbf3-103">创建、计算和过帐零售商店的报表</span><span class="sxs-lookup"><span data-stu-id="adbf3-103">Create, calculate, and post a statement for a retail store</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="adbf3-104">此程序会逐步演示如何手动创建、计算和过帐某一商店的报表。</span><span class="sxs-lookup"><span data-stu-id="adbf3-104">This procedure walks through the manual steps for creating, calculating, and posting a statement for a store.</span></span> <span data-ttu-id="adbf3-105">还可以配置相同任务的批处理作业。</span><span class="sxs-lookup"><span data-stu-id="adbf3-105">There are also batch jobs that can be configured for the same tasks.</span></span> <span data-ttu-id="adbf3-106">配置和运行批处理作业的步骤可以在其他主题中找到。</span><span class="sxs-lookup"><span data-stu-id="adbf3-106">The steps for configuring and running the batch jobs can be found in other topics.</span></span> <span data-ttu-id="adbf3-107">要完成此程序，您必须在 POS 中有已完成的交易，让后将其拉到 Dynamics AX 中。</span><span class="sxs-lookup"><span data-stu-id="adbf3-107">To complete this procedure, you must have transactions that were completed in POS and then pulled into Dynamics AX.</span></span> <span data-ttu-id="adbf3-108">此记录使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="adbf3-108">This recording uses the USRT company in demo data.</span></span> <span data-ttu-id="adbf3-109">此过程可能涉及 Microsoft Dynamics AX。</span><span class="sxs-lookup"><span data-stu-id="adbf3-109">This procedure may refer to Microsoft Dynamics AX.</span></span> <span data-ttu-id="adbf3-110">请注意，Dynamics AX 现在称为 Microsoft Dynamics 365 for Operations。</span><span class="sxs-lookup"><span data-stu-id="adbf3-110">Please note that Dynamics AX is now called Microsoft Dynamics 365 for Operations.</span></span>
 

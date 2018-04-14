@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: 861b4eda291dc7b0a5c045a767c860b7e4718404
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: beb110091ea452ec46739c10fa2570eb9b6f656f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-control-overview"></a><span data-ttu-id="00c04-104">成本控制概览</span><span class="sxs-lookup"><span data-stu-id="00c04-104">Cost control overview</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="00c04-105">**成本控制**工作区是负责控制一个维度内或跨维度（例如，成本中心和产品组）的一个成本对象或一组成本对象的经理可以访问报表的一个中心点。</span><span class="sxs-lookup"><span data-stu-id="00c04-105">The **Cost control** workspace is a central point where managers who are responsible for controlling a cost object or a set of cost objects within a dimension or across dimensions (for example, cost centers and product groups) can access reports.</span></span> <span data-ttu-id="00c04-106">此工作区中的报表由成本会计员完全管理，因此版式和用于报表的数据可以在整个组织中保持一致。</span><span class="sxs-lookup"><span data-stu-id="00c04-106">The reports in the workspace are fully managed by cost accountants, so that the layout and data that are used for reporting can be consistent across the whole organization.</span></span>
 

@@ -18,17 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: eb3db5863bf2fcca31b6af878e7324b079f1c630
-ms.openlocfilehash: ad706a9ee441858a6f4a128ff978e24efb6ecfce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2831231c057588e8e5131574b9f6945ac87f2354
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a><span data-ttu-id="5146e-103">重新计算重置成本和固定资产组的保险额</span><span class="sxs-lookup"><span data-stu-id="5146e-103">Recalculate replacement costs and insured values for fixed asset groups</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5146e-104">本文说明更新重置成本和固定资产的保险额的流程。</span><span class="sxs-lookup"><span data-stu-id="5146e-104">This article explains the process to update the replacement costs and insured values for fixed assets.</span></span>
 

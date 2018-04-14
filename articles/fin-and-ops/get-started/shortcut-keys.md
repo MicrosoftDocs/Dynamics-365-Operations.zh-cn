@@ -18,17 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c4446a04cd01645b3b79f2d952622daf60953331
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="06250-103">键盘快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-103">Keyboard shortcuts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="06250-104">以下键盘快捷方式在整个 Dynamics 365 for Finance and Operations 中都适用。</span><span class="sxs-lookup"><span data-stu-id="06250-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 
@@ -39,6 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 
 ## <a name="action-shortcuts"></a><span data-ttu-id="06250-111">操作快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-111">Action shortcuts</span></span>
+
 |                                                   |                                  |
 |---------------------------------------------------|----------------------------------|
 | <span data-ttu-id="06250-112">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-112">**To do this**</span></span>                                    | <span data-ttu-id="06250-113">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-113">**Press**</span></span>                        |
@@ -55,6 +55,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-134">查看当前可用的快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-134">View currently available shortcuts</span></span>                | <span data-ttu-id="06250-135">Alt+Shift+K</span><span class="sxs-lookup"><span data-stu-id="06250-135">Alt+Shift+K</span></span>                      |                              
 
 ## <a name="date-picker-shortcuts"></a><span data-ttu-id="06250-136">日期选择器快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-136">Date picker shortcuts</span></span>
+
 |                                       |                                           |
 |---------------------------------------|-------------------------------------------|
 | <span data-ttu-id="06250-137">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-137">**To do this**</span></span>                        | <span data-ttu-id="06250-138">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-138">**Press**</span></span>                                 |
@@ -68,6 +69,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-153">从不领取（或最大日期）</span><span class="sxs-lookup"><span data-stu-id="06250-153">Pick Never (or the max date)</span></span>          | <span data-ttu-id="06250-154">N</span><span class="sxs-lookup"><span data-stu-id="06250-154">N</span></span>                                         |
 
 ## <a name="factbox-shortcuts"></a><span data-ttu-id="06250-155">速见表快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-155">FactBox shortcuts</span></span>
+
 |                                                                                 |                                           |
 |---------------------------------------------------------------------------------|-------------------------------------------|
 | <span data-ttu-id="06250-156">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-156">**To do this**</span></span>                                                                  | <span data-ttu-id="06250-157">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-157">**Press**</span></span>                                 |
@@ -79,6 +81,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-168">折叠当前速见表</span><span class="sxs-lookup"><span data-stu-id="06250-168">Collapse the current FactBox</span></span>                                                    | <span data-ttu-id="06250-169">Alt+0</span><span class="sxs-lookup"><span data-stu-id="06250-169">Alt+0</span></span>                                     |
 
 ## <a name="filtering-shortcuts"></a><span data-ttu-id="06250-170">筛选快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-170">Filtering shortcuts</span></span>
+
 |                                    |                          |
 |------------------------------------|--------------------------|
 | <span data-ttu-id="06250-171">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="06250-171">**To do this**</span></span>                     | <span data-ttu-id="06250-172">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-172">**Press**</span></span>                |
@@ -89,6 +92,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-181">打开高级筛选/排序</span><span class="sxs-lookup"><span data-stu-id="06250-181">Open advanced filtering/sort</span></span>                                      | <span data-ttu-id="06250-182">Ctrl+Shift+F3</span><span class="sxs-lookup"><span data-stu-id="06250-182">Ctrl+Shift+F3</span></span>            | 
 
 ## <a name="form-shortcuts"></a><span data-ttu-id="06250-183">窗体快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-183">Form shortcuts</span></span>
+
 |                                                     |                   |
 |-----------------------------------------------------|-------------------|
 | <span data-ttu-id="06250-184">**要完成的任务**</span><span class="sxs-lookup"><span data-stu-id="06250-184">**To do this**</span></span>                                      | <span data-ttu-id="06250-185">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-185">**Press**</span></span>         |
@@ -110,6 +114,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-216">关闭窗体，放弃所有未保存的更改</span><span class="sxs-lookup"><span data-stu-id="06250-216">Close the form discarding any unsaved changes</span></span>       | <span data-ttu-id="06250-217">Alt+Shift+Q</span><span class="sxs-lookup"><span data-stu-id="06250-217">Alt+Shift+Q</span></span>       |
 
 ## <a name="form-navigation-shortcuts"></a><span data-ttu-id="06250-218">窗体导航快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-218">Form navigation shortcuts</span></span>
+
 |                                                     |                                              |
 |-----------------------------------------------------|----------------------------------------------|
 | <span data-ttu-id="06250-219">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-219">**To do this**</span></span>                                      | <span data-ttu-id="06250-220">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-220">**Press**</span></span>                                    |
@@ -128,6 +133,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-245">切换到行视图</span><span class="sxs-lookup"><span data-stu-id="06250-245">Switch to lines view</span></span>                                | <span data-ttu-id="06250-246">Ctrl+Shift+L</span><span class="sxs-lookup"><span data-stu-id="06250-246">Ctrl+Shift+L</span></span>                                 |
 
 ## <a name="grid-shortcuts"></a><span data-ttu-id="06250-247">网格快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-247">Grid shortcuts</span></span>
+
 |                                                                                                                        |                                 |
 |------------------------------------------------------------------------------------------------------------------------|---------------------------------|
 | <span data-ttu-id="06250-248">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-248">**To do this**</span></span>                                                                                                         | <span data-ttu-id="06250-249">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-249">**Press**</span></span>                       |
@@ -148,6 +154,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-283">打开当前列的网格筛选（焦点放在标题行中）</span><span class="sxs-lookup"><span data-stu-id="06250-283">Open grid filtering for the current column (with focus in the header row)</span></span>                                              | <span data-ttu-id="06250-284">Enter</span><span class="sxs-lookup"><span data-stu-id="06250-284">Enter</span></span>                           |
 
 ## <a name="input-control-shortcuts"></a><span data-ttu-id="06250-285">输入控制快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-285">Input control shortcuts</span></span>
+
 |                                                                              |                               |
 |------------------------------------------------------------------------------|-------------------------------|
 | <span data-ttu-id="06250-286">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-286">**To do this**</span></span>                                                               | <span data-ttu-id="06250-287">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-287">**Press**</span></span>                     |
@@ -163,6 +170,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-306">在文本区域和 HTML 编辑器控制中的工具栏之间切换焦点</span><span class="sxs-lookup"><span data-stu-id="06250-306">Switch focus between the text area and the toolbar in an HTML editor control</span></span> | <span data-ttu-id="06250-307">F6</span><span class="sxs-lookup"><span data-stu-id="06250-307">F6</span></span>                            |
 
 ## <a name="messaging-shortcuts"></a><span data-ttu-id="06250-308">消息快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-308">Messaging shortcuts</span></span>
+
 |                          |               |
 |--------------------------|---------------|
 | <span data-ttu-id="06250-309">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-309">**To do this**</span></span>           | <span data-ttu-id="06250-310">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-310">**Press**</span></span>     |
@@ -170,6 +178,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-313">转到消息栏</span><span class="sxs-lookup"><span data-stu-id="06250-313">Go to the Message Bar</span></span>    | <span data-ttu-id="06250-314">Ctrl+F7</span><span class="sxs-lookup"><span data-stu-id="06250-314">Ctrl+F7</span></span>       |
 
 ## <a name="navigation-shortcuts"></a><span data-ttu-id="06250-315">导航快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-315">Navigation shortcuts</span></span>
+
 |                                                                               |                            |
 |-------------------------------------------------------------------------------|----------------------------|
 | <span data-ttu-id="06250-316">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-316">**To do this**</span></span>                                                                | <span data-ttu-id="06250-317">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-317">**Press**</span></span>                  |
@@ -191,6 +200,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-348">移到速见表窗格（可能包括将其打开）</span><span class="sxs-lookup"><span data-stu-id="06250-348">Move to the FactBox pane (which may include opening it)</span></span>                       | <span data-ttu-id="06250-349">Alt+M、B 或 Ctrl+F2</span><span class="sxs-lookup"><span data-stu-id="06250-349">Alt+M,B or Ctrl+F2</span></span>         |
 
 ## <a name="personalization-shortcuts"></a><span data-ttu-id="06250-350">个性化快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-350">Personalization shortcuts</span></span>
+
 |                                                                                                                        |                                     |
 |------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
 | <span data-ttu-id="06250-351">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-351">**To do this**</span></span>                                                                                                         | <span data-ttu-id="06250-352">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-352">**Press**</span></span>                           |
@@ -219,6 +229,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="06250-397">退出个性化模式（在个性化模式中）</span><span class="sxs-lookup"><span data-stu-id="06250-397">Exit personalization mode (when in personalization mode)</span></span>                                                               | <span data-ttu-id="06250-398">Esc</span><span class="sxs-lookup"><span data-stu-id="06250-398">Esc</span></span>                                 |
 
 ## <a name="segmented-entry-shortcuts"></a><span data-ttu-id="06250-399">细分的输入快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-399">Segmented entry shortcuts</span></span>
+
 |                                                                                                                         |                                  |
 |-------------------------------------------------------------------------------------------------------------------------|----------------------------------|
 | <span data-ttu-id="06250-400">**要执行的操作**</span><span class="sxs-lookup"><span data-stu-id="06250-400">**To do this**</span></span>                                                                                                          | <span data-ttu-id="06250-401">**按**</span><span class="sxs-lookup"><span data-stu-id="06250-401">**Press**</span></span>                        |

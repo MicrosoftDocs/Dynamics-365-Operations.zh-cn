@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: e04bbbf7d9861e05267b822099da46664e421bcf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5a7767433750a0f76fa234ebdba91991d3b8e947
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="manage-benefit-expiration-dates"></a><span data-ttu-id="137ec-103">管理福利到期日期</span><span class="sxs-lookup"><span data-stu-id="137ec-103">Manage benefit expiration dates</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="137ec-104">此过程显示如何终止或延长福利，以及管理在福利日期内招聘的工作人员的招聘日期。</span><span class="sxs-lookup"><span data-stu-id="137ec-104">This procedure shows how you can expire or extend a benefit, and manage the enrollment dates of workers that are enrolled in the benefit.</span></span> <span data-ttu-id="137ec-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="137ec-105">The demo data company used to create this procedure is USMF.</span></span>
 

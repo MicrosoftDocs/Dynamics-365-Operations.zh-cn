@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1bb1663b0f5d7e6a550e1ffd2ee2edf3771a13b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 36f4edd6fa9711022e291ea5ceffbcc9ef55b2a9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-advanced-rules-for-journals"></a><span data-ttu-id="accff-103">创建日记帐高级规则</span><span class="sxs-lookup"><span data-stu-id="accff-103">Create advanced rules for journals</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="accff-104">该过程介绍创建日记帐高级规则的步骤。</span><span class="sxs-lookup"><span data-stu-id="accff-104">This procedure steps through creating advanced rules for journals.</span></span> <span data-ttu-id="accff-105">这包括设置日记帐控制和用户过帐限制。</span><span class="sxs-lookup"><span data-stu-id="accff-105">This includes setting up journal control and user posting restrictions.</span></span> <span data-ttu-id="accff-106">此过程使用演示数据公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="accff-106">This procedure uses the USMF demo data company.</span></span>
 

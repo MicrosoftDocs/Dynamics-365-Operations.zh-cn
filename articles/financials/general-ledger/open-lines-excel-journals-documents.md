@@ -19,21 +19,21 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 034e25eea8a4db3126f7f33ae0712b6f30606651
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="publish-journal-lines-and-documents-from-excel"></a><span data-ttu-id="69174-104">从 Excel 发布日记帐行和单据</span><span class="sxs-lookup"><span data-stu-id="69174-104">Publish journal lines and documents from Excel</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="69174-105">本主题说明如何从 Microsoft Excel 输入和发布普通日记帐的行。</span><span class="sxs-lookup"><span data-stu-id="69174-105">This topic explains how to enter and publish lines for general journals from Microsoft Excel.</span></span> <span data-ttu-id="69174-106">其中包含有关您可使用的各种模板的信息，具体取决于您要输入的交易记录类型。</span><span class="sxs-lookup"><span data-stu-id="69174-106">It includes information about the various templates that you can use, depending on the type of transactions that you're entering.</span></span>
 
 <span data-ttu-id="69174-107">用户可从 Microsoft Excel 输入和发布财务日记帐的行。</span><span class="sxs-lookup"><span data-stu-id="69174-107">Users can enter and publish lines for financial journals from Microsoft Excel.</span></span> <span data-ttu-id="69174-108">用户创建日记帐之后，**在 Excel 中打开文件**按钮将显示可用模板。</span><span class="sxs-lookup"><span data-stu-id="69174-108">After a user creates a journal, the **Open lines in Excel** button displays the templates that are available.</span></span> <span data-ttu-id="69174-109">模板设计为支持特定方案，但是日记帐中并非支持科目类型的所有组合。</span><span class="sxs-lookup"><span data-stu-id="69174-109">Templates are designed to support specific scenarios, however not every combination of account type is supported in the journal.</span></span> <span data-ttu-id="69174-110">下表显示可用模板及其支持的科目类型。</span><span class="sxs-lookup"><span data-stu-id="69174-110">The following table shows the templates that are available and the account types which they support.</span></span>
+
 |                          |                                                                                                                         |                                                                                         |
 |--------------------------|-------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------|
 | <span data-ttu-id="69174-111">**模板**</span><span class="sxs-lookup"><span data-stu-id="69174-111">**Template**</span></span>             | <span data-ttu-id="69174-112">**支持的科目类型**</span><span class="sxs-lookup"><span data-stu-id="69174-112">**Supported account types**</span></span>                                                                                             | <span data-ttu-id="69174-113">**模板的访问方法**</span><span class="sxs-lookup"><span data-stu-id="69174-113">**How to access the template**</span></span>                                                          |

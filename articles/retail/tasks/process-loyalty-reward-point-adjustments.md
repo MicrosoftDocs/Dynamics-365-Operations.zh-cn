@@ -17,15 +17,15 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfb5095c1db2a5ab9fb528d08d979ec850543fc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e106e79674b47b918c79f734e809d19994a94350
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a><span data-ttu-id="90a3d-103">处理会员奖励分调整</span><span class="sxs-lookup"><span data-stu-id="90a3d-103">Process loyalty reward point adjustments</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="90a3d-104">该过程说明了如何查看积分卡信息，以及如何调整奖励积分点数。</span><span class="sxs-lookup"><span data-stu-id="90a3d-104">This procedure demonstrates how to look up loyalty card information and adjust loyalty reward points.</span></span> <span data-ttu-id="90a3d-105">创建此任务的演示数据公司是 USRT。</span><span class="sxs-lookup"><span data-stu-id="90a3d-105">The demo data company used to create this task is USRT.</span></span> <span data-ttu-id="90a3d-106">此任务是为“零售业务经理”角色或“客服服务经理”角色而设计的。</span><span class="sxs-lookup"><span data-stu-id="90a3d-106">This task is intended for the Retail operations manager role or a Customer service manager role.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 13a7a842e7b4522b508a34fdf86bb3bf58a0845f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ed4ca769c8d2b7e4935edbd442f8e96756ae78c1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="positive-pay-overview"></a><span data-ttu-id="e8afe-103">付款确认概览</span><span class="sxs-lookup"><span data-stu-id="e8afe-103">Positive pay overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e8afe-104">本文提供有关付款确认的信息，其用于生成一份可以呈现给银行的支票电子列表。</span><span class="sxs-lookup"><span data-stu-id="e8afe-104">This article provides information about positive pay, which is used to generate an electronic list of checks that can be presented to a bank.</span></span> 
 

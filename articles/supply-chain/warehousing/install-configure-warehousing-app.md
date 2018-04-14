@@ -20,20 +20,19 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f8ab1d719b6f0a469219b58ed3a919b0c36dcb45
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a><span data-ttu-id="e1e19-103">安装和配置 Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing</span><span class="sxs-lookup"><span data-stu-id="e1e19-103">Install and configure Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
-
+> 
 > <span data-ttu-id="e1e19-104">此主题介绍如何为云部署配置仓库。</span><span class="sxs-lookup"><span data-stu-id="e1e19-104">This topic describes how to configure warehousing for cloud deployments.</span></span> <span data-ttu-id="e1e19-105">如果您需要了解如何为本地部署配置仓库，请参阅[用于本地部署的仓库](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。</span><span class="sxs-lookup"><span data-stu-id="e1e19-105">If you are looking for how to configure warehousing for on-premises deployments, please see [Warehousing for on-premises deployments](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md).</span></span>
 
 

@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3bcb59c6edd04877dc2a052002be513205ae840a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8313803e0c6adaed7bc4ca295641f51c7e1185b0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a><span data-ttu-id="4e2ea-103">向客户分配普通发票模板</span><span class="sxs-lookup"><span data-stu-id="4e2ea-103">Assign a free text invoice template to a customer</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4e2ea-104">此任务展示的是如何将普通发票模板分配到客户。</span><span class="sxs-lookup"><span data-stu-id="4e2ea-104">This task demonstrates how to assign a free text invoice template to a customer.</span></span> <span data-ttu-id="4e2ea-105">此任务使用 USMF 演示公司，旨在为负责管理和处理应收账款发票的用户使用。</span><span class="sxs-lookup"><span data-stu-id="4e2ea-105">This task uses the USMF demo company and is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
 

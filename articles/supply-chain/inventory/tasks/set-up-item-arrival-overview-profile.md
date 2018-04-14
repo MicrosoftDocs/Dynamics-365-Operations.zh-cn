@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5ddc491d73bbb6ac02e37a9c9b9d93545f6f9556
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5f9df0afe90bcb619304c39b53165e3fe2970ec3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a><span data-ttu-id="8e488-103">设置物料到达概览配置文件</span><span class="sxs-lookup"><span data-stu-id="8e488-103">Set up an item arrival overview profile</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8e488-104">此任务侧重于到货概览配置文件的设置。</span><span class="sxs-lookup"><span data-stu-id="8e488-104">This task focuses on the setup of an arrival overview profile.</span></span> <span data-ttu-id="8e488-105">到货概览配置文件是用户打开到货概览页面时将应用的规则的集合。</span><span class="sxs-lookup"><span data-stu-id="8e488-105">The arrival overview profile is a collection of rules that will be applied when the Arrival overview page is opened by a user.</span></span> <span data-ttu-id="8e488-106">您可以在演示数据公司 USMF 中使用此过程。</span><span class="sxs-lookup"><span data-stu-id="8e488-106">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="8e488-107">此过程通常由验收员完成。</span><span class="sxs-lookup"><span data-stu-id="8e488-107">This procedure would typically be carried out by a receiving clerk.</span></span>
 

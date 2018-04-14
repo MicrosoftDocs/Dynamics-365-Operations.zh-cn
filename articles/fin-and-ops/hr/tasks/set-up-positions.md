@@ -16,15 +16,15 @@ ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 38ff9fde897136fa23a2c2951167f6507b047b2d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 110dde293fea31f82fb4b2b1c54bf96d5baa04b3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-positions"></a><span data-ttu-id="e6f42-103">设置职位</span><span class="sxs-lookup"><span data-stu-id="e6f42-103">Set up positions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e6f42-104">职位是更低级别的组织层次结构中的重要元素。</span><span class="sxs-lookup"><span data-stu-id="e6f42-104">Positions are an important element of the lower level of an organization hierarchy.</span></span> <span data-ttu-id="e6f42-105">位置是工作的单个实例。</span><span class="sxs-lookup"><span data-stu-id="e6f42-105">A position is an individual instance of a job.</span></span> <span data-ttu-id="e6f42-106">例如，职位“销售经理（东部）”是与工作“销售经理”关联的职位。</span><span class="sxs-lookup"><span data-stu-id="e6f42-106">For example, the position, “Sales manager (East),” is one of the positions that is associated with the job, “Sales manager.”</span></span> <span data-ttu-id="e6f42-107">职位存在于部门中，可能只有一个工作人员与之关联。</span><span class="sxs-lookup"><span data-stu-id="e6f42-107">A position exists in a department and may have only one worker associated with it.</span></span> <span data-ttu-id="e6f42-108">在此任务中，我们将全面介绍创建职位所需的各个步骤。</span><span class="sxs-lookup"><span data-stu-id="e6f42-108">In this task we will walk through the steps required to create a position.</span></span> <span data-ttu-id="e6f42-109">此过程专门面向人力资源专员。</span><span class="sxs-lookup"><span data-stu-id="e6f42-109">This procedure is intended for Human Resources Specialists.</span></span>
 

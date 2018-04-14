@@ -17,16 +17,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 3c43a42822f291607fbc9708dd07ebf99b9d7ec4
-ms.openlocfilehash: 0250706fea6d6dfa7b59729162c2afad9ca11a46
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e57389ac2882b011bf4ae98334db18a8f35846e2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="credit-limits-for-customers"></a><span data-ttu-id="42472-103">客户的信用额度</span><span class="sxs-lookup"><span data-stu-id="42472-103">Credit limits for customers</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="42472-104">设置信用额度可以指定要为您的客户扩展的最大信用金额。</span><span class="sxs-lookup"><span data-stu-id="42472-104">Setting a credit limit lets you specify the maximum amount of credit to extend to your customers.</span></span> <span data-ttu-id="42472-105">如果指定了信用额度，系统将自动检查用户何时尝试更新单据。</span><span class="sxs-lookup"><span data-stu-id="42472-105">If a credit limit is specified, it is checked automatically when a user attempts to update a document.</span></span> <span data-ttu-id="42472-106">如果超出信用额度，将向用户显示消息。</span><span class="sxs-lookup"><span data-stu-id="42472-106">If the credit limit is exceeded, a message is displayed to the user.</span></span> <span data-ttu-id="42472-107">本文提供信用额度如何运作的概述，并回答以下问题：</span><span class="sxs-lookup"><span data-stu-id="42472-107">This article provides an overview of how credit limits work  and answers the following questions:</span></span>
 

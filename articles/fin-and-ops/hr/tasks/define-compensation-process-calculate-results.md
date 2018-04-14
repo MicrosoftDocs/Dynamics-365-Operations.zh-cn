@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 9cc66eccec146c9f8f562b5d4e4d21bb6b7c6457
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a><span data-ttu-id="011fc-103">定义薪酬流程并计算结果</span><span class="sxs-lookup"><span data-stu-id="011fc-103">Define compensation process and calculate results</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="011fc-104">薪酬流程用于确定在固定和可变薪酬计划中登记的员工的新的薪酬金额和奖励。</span><span class="sxs-lookup"><span data-stu-id="011fc-104">Compensation processes are used to determine new compensation amounts and awards for employees enrolled in fixed and variable compensation plans.</span></span> <span data-ttu-id="011fc-105">薪酬流程可以运行多次以执行“假设”分析，从而验证所有的更改和设置都正确。</span><span class="sxs-lookup"><span data-stu-id="011fc-105">Compensation processes can be run multiple times to perform "what-if" analysis, to verify all changes and settings are correct.</span></span> <span data-ttu-id="011fc-106">该过程将创建薪酬流程，运行流程，并查看结果。</span><span class="sxs-lookup"><span data-stu-id="011fc-106">This procedure will create a compensation process, run the process, and view the results.</span></span> <span data-ttu-id="011fc-107">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="011fc-107">The demo data company used to create this procedure is USMF.</span></span>
 

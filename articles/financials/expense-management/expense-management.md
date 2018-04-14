@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1e075a7f114efdea1d9cc62cf302eaaba63c7ba0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 185f6878e8ffb18b7685439e3ccb5803726e3118
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expense-management"></a><span data-ttu-id="8f1ad-103">费用报销管理</span><span class="sxs-lookup"><span data-stu-id="8f1ad-103">Expense management</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8f1ad-104">使用“费用管理”创建集成的工作流，从中您可以存储付款方式信息、导入信用卡交易记录和在员工产生业务支出时跟踪所花的金钱。</span><span class="sxs-lookup"><span data-stu-id="8f1ad-104">Use Expense management to create an integrated workflow where you can store payment method information, import credit card transactions, and track the money that employees are spending when they incur expenses for your business.</span></span> <span data-ttu-id="8f1ad-105">您还可以定义支出策略并且自动化差旅费用的偿还。</span><span class="sxs-lookup"><span data-stu-id="8f1ad-105">You can also define expense policies and automate the reimbursement of travel expenses.</span></span> 
 

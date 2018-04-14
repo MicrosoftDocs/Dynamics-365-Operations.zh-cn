@@ -20,19 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0b94d3f23c929c45a67894bd08706144c9226491
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ba4c7b8ca5da5956340046932cd097ef3c7f0278
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="lifo-date-with-physical-value-and-marking"></a><span data-ttu-id="7e03b-106">具有实际成本和标记的后进先出日期</span><span class="sxs-lookup"><span data-stu-id="7e03b-106">LIFO Date with physical value and marking</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
-
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="7e03b-107">后进先出日期（LIFO 日期）是一种基于 LIFO 原则的库存模型。</span><span class="sxs-lookup"><span data-stu-id="7e03b-107">Last in, First out Date (LIFO Date) is an inventory model based on the LIFO principle.</span></span> <span data-ttu-id="7e03b-108">基于库存交易记录的日期，按照最后入库的收货结算库存发货。</span><span class="sxs-lookup"><span data-stu-id="7e03b-108">Issues from inventory are settled against the last receipts into inventory based on the date of the inventory transaction.</span></span> <span data-ttu-id="7e03b-109">使用 LIFO 日期时，如果在发货前没有收货，则根据在发货日期后发生的任何收货结算该发货。</span><span class="sxs-lookup"><span data-stu-id="7e03b-109">By using LIFO Date, if there is no receipt before the issue, the issue is settled against any receipts that occur after the date of the issue.</span></span> <span data-ttu-id="7e03b-110">同一日期上的若干发货将按照最后发货、最后收货的顺序结算。</span><span class="sxs-lookup"><span data-stu-id="7e03b-110">Several issues on the same date may be settled in the order of last issue, last receipt.</span></span> 
 
@@ -66,16 +65,16 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="7e03b-148">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="7e03b-148">**Key to the diagram**</span></span>
 
--   <span data-ttu-id="7e03b-149">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-149">Inventory transactions are represented by vertical arrows.</span></span>
--   <span data-ttu-id="7e03b-150">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-150">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
--   <span data-ttu-id="7e03b-151">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-151">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
--   <span data-ttu-id="7e03b-152">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="7e03b-152">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
--   <span data-ttu-id="7e03b-153">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-153">An inventory transaction value that is enclosed in parentheses indicates that the inventory transaction is physically posted into inventory.</span></span>
--   <span data-ttu-id="7e03b-154">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-154">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
--   <span data-ttu-id="7e03b-155">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="7e03b-155">Each new receipt or issue transaction is designated by a new label.</span></span>
--   <span data-ttu-id="7e03b-156">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="7e03b-156">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="7e03b-157">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="7e03b-157">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
--   <span data-ttu-id="7e03b-158">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-158">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
--   <span data-ttu-id="7e03b-159">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-159">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
+- <span data-ttu-id="7e03b-149">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-149">Inventory transactions are represented by vertical arrows.</span></span>
+- <span data-ttu-id="7e03b-150">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-150">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+- <span data-ttu-id="7e03b-151">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-151">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+- <span data-ttu-id="7e03b-152">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="7e03b-152">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+- <span data-ttu-id="7e03b-153">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-153">An inventory transaction value that is enclosed in parentheses indicates that the inventory transaction is physically posted into inventory.</span></span>
+- <span data-ttu-id="7e03b-154">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-154">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
+- <span data-ttu-id="7e03b-155">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="7e03b-155">Each new receipt or issue transaction is designated by a new label.</span></span>
+- <span data-ttu-id="7e03b-156">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="7e03b-156">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="7e03b-157">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="7e03b-157">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
+- <span data-ttu-id="7e03b-158">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-158">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
+- <span data-ttu-id="7e03b-159">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-159">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
 
 ## <a name="lifo-date-with-the-include-physical-value-option"></a><span data-ttu-id="7e03b-160">具有“包括实际成本”选项的后进先出日期</span><span class="sxs-lookup"><span data-stu-id="7e03b-160">LIFO Date with the Include physical value option</span></span>
 <span data-ttu-id="7e03b-161">您可以在**物料模型组**页为物料选择**包括实际成本**复选框。</span><span class="sxs-lookup"><span data-stu-id="7e03b-161">You can select the **Include physical value** check box for an item on the **Item model groups** page.</span></span> <span data-ttu-id="7e03b-162">在此情况下，此系统使用实际和财务收货交易记录计算移动平均成本价。</span><span class="sxs-lookup"><span data-stu-id="7e03b-162">In this case, the system uses both physical and financial receipt transactions to calculate the running average cost price.</span></span> <span data-ttu-id="7e03b-163">如果适用，系统将对实际更新的发货交易记录进行调整。</span><span class="sxs-lookup"><span data-stu-id="7e03b-163">Where applicable, the system also makes adjustments to the physically updated issue transaction.</span></span> <span data-ttu-id="7e03b-164">在清除**包括实际成本**复选框时，使用后进先出日期库存模型的库存结转将只对财务更新的交易记录进行结算。</span><span class="sxs-lookup"><span data-stu-id="7e03b-164">When the **Include physical value** check box is cleared, inventory close that uses the LIFO Date inventory model makes settlements only to transactions that are financially updated.</span></span> 
@@ -101,16 +100,16 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="7e03b-192">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="7e03b-192">**Key to the diagram**</span></span>
 
--   <span data-ttu-id="7e03b-193">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-193">Inventory transactions are represented by vertical arrows.</span></span>
--   <span data-ttu-id="7e03b-194">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-194">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
--   <span data-ttu-id="7e03b-195">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-195">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
--   <span data-ttu-id="7e03b-196">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="7e03b-196">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
--   <span data-ttu-id="7e03b-197">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-197">An inventory transaction value that is enclosed in parentheses indicates that the inventory transaction is physically posted into inventory.</span></span>
--   <span data-ttu-id="7e03b-198">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-198">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
--   <span data-ttu-id="7e03b-199">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="7e03b-199">Each new receipt or issue transaction is designated by a new label.</span></span>
--   <span data-ttu-id="7e03b-200">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="7e03b-200">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="7e03b-201">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="7e03b-201">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
--   <span data-ttu-id="7e03b-202">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-202">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
--   <span data-ttu-id="7e03b-203">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-203">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
+- <span data-ttu-id="7e03b-193">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-193">Inventory transactions are represented by vertical arrows.</span></span>
+- <span data-ttu-id="7e03b-194">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-194">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+- <span data-ttu-id="7e03b-195">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-195">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+- <span data-ttu-id="7e03b-196">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="7e03b-196">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+- <span data-ttu-id="7e03b-197">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-197">An inventory transaction value that is enclosed in parentheses indicates that the inventory transaction is physically posted into inventory.</span></span>
+- <span data-ttu-id="7e03b-198">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-198">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
+- <span data-ttu-id="7e03b-199">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="7e03b-199">Each new receipt or issue transaction is designated by a new label.</span></span>
+- <span data-ttu-id="7e03b-200">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="7e03b-200">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="7e03b-201">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="7e03b-201">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
+- <span data-ttu-id="7e03b-202">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-202">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
+- <span data-ttu-id="7e03b-203">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-203">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
 
 ## <a name="lifo-date-with-marking"></a><span data-ttu-id="7e03b-204">具有标记的后进先出日期</span><span class="sxs-lookup"><span data-stu-id="7e03b-204">LIFO Date with marking</span></span>
 <span data-ttu-id="7e03b-205">标记是一个过程，您可以将某一发货交易记录链接到（或标记到）某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="7e03b-205">Marking is a process that lets you link, or mark, an issue transaction to a receipt transaction.</span></span> <span data-ttu-id="7e03b-206">标记可以在过帐交易记录之前或之后发生。</span><span class="sxs-lookup"><span data-stu-id="7e03b-206">Marking can occur either before or after a transaction is posted.</span></span> <span data-ttu-id="7e03b-207">如果您想要在过帐交易记录时或执行库存结转时确保库存的准确成本，则可以使用标记。</span><span class="sxs-lookup"><span data-stu-id="7e03b-207">You can use marking when you want to be sure of the exact cost of inventory when the transaction is posted or the inventory close is performed.</span></span> 
@@ -147,16 +146,16 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="7e03b-249">**图形要点**</span><span class="sxs-lookup"><span data-stu-id="7e03b-249">**Key to the diagram**</span></span>
 
--   <span data-ttu-id="7e03b-250">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-250">Inventory transactions are represented by vertical arrows.</span></span>
--   <span data-ttu-id="7e03b-251">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-251">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
--   <span data-ttu-id="7e03b-252">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-252">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
--   <span data-ttu-id="7e03b-253">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="7e03b-253">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
--   <span data-ttu-id="7e03b-254">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-254">An inventory transaction value that is enclosed in parentheses indicates that the inventory transaction is physically posted into inventory.</span></span>
--   <span data-ttu-id="7e03b-255">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-255">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
--   <span data-ttu-id="7e03b-256">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="7e03b-256">Each new receipt or issue transaction is designated by a new label.</span></span>
--   <span data-ttu-id="7e03b-257">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="7e03b-257">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="7e03b-258">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="7e03b-258">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
--   <span data-ttu-id="7e03b-259">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-259">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
--   <span data-ttu-id="7e03b-260">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-260">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
+- <span data-ttu-id="7e03b-250">库存交易记录用垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-250">Inventory transactions are represented by vertical arrows.</span></span>
+- <span data-ttu-id="7e03b-251">入库用时间线上的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-251">Receipts into inventory are represented by vertical arrows above the timeline.</span></span>
+- <span data-ttu-id="7e03b-252">出库用时间线下的垂直箭头表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-252">Issues out of inventory are represented by vertical arrows below the timeline.</span></span>
+- <span data-ttu-id="7e03b-253">在每一垂直箭头之上（或之下），以 Quantity@Unitprice 格式指定库存交易记录的值。</span><span class="sxs-lookup"><span data-stu-id="7e03b-253">Above (or below) each vertical arrow, the value of the inventory transaction is specified in the format Quantity@Unitprice.</span></span>
+- <span data-ttu-id="7e03b-254">用括号括起来的库存交易记录值指示该库存交易记录实际过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-254">An inventory transaction value that is enclosed in parentheses indicates that the inventory transaction is physically posted into inventory.</span></span>
+- <span data-ttu-id="7e03b-255">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="7e03b-255">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
+- <span data-ttu-id="7e03b-256">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="7e03b-256">Each new receipt or issue transaction is designated by a new label.</span></span>
+- <span data-ttu-id="7e03b-257">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="7e03b-257">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="7e03b-258">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="7e03b-258">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
+- <span data-ttu-id="7e03b-259">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-259">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
+- <span data-ttu-id="7e03b-260">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="7e03b-260">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
 
 
 

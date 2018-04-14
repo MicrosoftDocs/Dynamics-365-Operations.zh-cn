@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 7ef63151f352b3664bccd7a59e7417dfddc7470b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c90de64ccc61a6515298c55dacaec44b79b19a3b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a><span data-ttu-id="e7cd6-103">查找适用的价格和折扣</span><span class="sxs-lookup"><span data-stu-id="e7cd6-103">Look up applicable prices and discounts</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e7cd6-104">该过程会显示如何查找当前对于特定客户有效的产品价格和折扣，无需创建销售订单。</span><span class="sxs-lookup"><span data-stu-id="e7cd6-104">This procedure shows how to find the price and/or discount for a product which is currently valid for a specific customer, without creating a sales order.</span></span> <span data-ttu-id="e7cd6-105">该过程用一个具体示例进行示范，您需要遵循该示例，使用 USMF 演示公司，以选择所需的值。</span><span class="sxs-lookup"><span data-stu-id="e7cd6-105">The procedure walks through a specific example, and you need follow the example using the USMF demo company in order to select the necessary values.</span></span>
 

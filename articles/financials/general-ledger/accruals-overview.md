@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 47336a19899b1fad0e63265173fd7fd02fc74ec3
-ms.openlocfilehash: 4fa27cbfe6129aa78b5e05de704894da173d853b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0b4d8e7eb268857ce753415a24e600b8006eb5e3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="accruals-overview"></a><span data-ttu-id="bed28-103">应计概览</span><span class="sxs-lookup"><span data-stu-id="bed28-103">Accruals overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="bed28-104">本文介绍应计项目，并且提供有关如何设置和创建交易记录的信息。</span><span class="sxs-lookup"><span data-stu-id="bed28-104">This article describes accruals, and provides information about how to set them up and create transactions.</span></span>
 

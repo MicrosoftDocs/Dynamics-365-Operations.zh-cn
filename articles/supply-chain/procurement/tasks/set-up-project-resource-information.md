@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9824971eb2a970f6136df9cc2c5feffc038b8f09
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7b2a2c7b6e30808c4c086695d481f46cef5304fd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-project-resource-information"></a><span data-ttu-id="070ba-103">设置项目资源信息</span><span class="sxs-lookup"><span data-stu-id="070ba-103">Set up project resource information</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="070ba-104">此过程显示如何设置项目资源。</span><span class="sxs-lookup"><span data-stu-id="070ba-104">This procedure shows how to set up a project resource.</span></span> <span data-ttu-id="070ba-105">此任务使用 USMF 数据集。</span><span class="sxs-lookup"><span data-stu-id="070ba-105">This task uses the USMF data set.</span></span>
 

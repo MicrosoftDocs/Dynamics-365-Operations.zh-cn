@@ -19,17 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9960af8c4961a42e7e829077da40bcbbf3bc71c2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 52e6003dfddc398c19055405bf936195febe0737
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cash-discounts"></a><span data-ttu-id="d3a1d-104">现金折扣</span><span class="sxs-lookup"><span data-stu-id="d3a1d-104">Cash discounts</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d3a1d-105">为应付账款和应收账款设置和共享现金折扣。</span><span class="sxs-lookup"><span data-stu-id="d3a1d-105">Cash discounts are setup and shared for Accounts payable and Accounts receivable.</span></span>  <span data-ttu-id="d3a1d-106">可用现金折扣可以在客户发票或供应商发票上定义，并在现金折扣日期内支付发票时执行。</span><span class="sxs-lookup"><span data-stu-id="d3a1d-106">The cash discount available can be defined on the customer invoice or vendor invoice, and will be taken if the invoice is paid within the cash discount date.</span></span> 
 
@@ -65,6 +64,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="d3a1d-135">3 月 1 日 = 80</span><span class="sxs-lookup"><span data-stu-id="d3a1d-135">March 1 = 80</span></span>
 
 <span data-ttu-id="d3a1d-136">2 月 15 日按照现金折扣条例 20D2% 过账 1000 USD 的发票。</span><span class="sxs-lookup"><span data-stu-id="d3a1d-136">An invoice for 1000 USD with cash discount terms of 20D2% is posted on February 15.</span></span> <span data-ttu-id="d3a1d-137">该发票的记账币种金额为 1100 EUR。</span><span class="sxs-lookup"><span data-stu-id="d3a1d-137">The accounting currency amount of the invoice is 1100 EUR.</span></span> <span data-ttu-id="d3a1d-138">3 月 1 日使用发票结算 980 USD 的付款。</span><span class="sxs-lookup"><span data-stu-id="d3a1d-138">A payment for 980 USD is settled with the invoice on March 1.</span></span> <span data-ttu-id="d3a1d-139">现金折扣金额为 20 USD。</span><span class="sxs-lookup"><span data-stu-id="d3a1d-139">The cash discount amount is 20 USD.</span></span> <span data-ttu-id="d3a1d-140">付款的记账币种金额为 784 EUR。</span><span class="sxs-lookup"><span data-stu-id="d3a1d-140">The accounting currency amount of the payment is 784 EUR.</span></span> <span data-ttu-id="d3a1d-141">使用汇率（3 月 1 日：20 \* 80 / 100 = 16 EUR）计算现金折扣的记账币种金额。</span><span class="sxs-lookup"><span data-stu-id="d3a1d-141">The accounting currency amount of the cash discount is calculated by using the exchange rate as of March 1: 20 \* 80 / 100 = 16 EUR.</span></span>
+
 | <span data-ttu-id="d3a1d-142">**注释**</span><span class="sxs-lookup"><span data-stu-id="d3a1d-142">**Note**</span></span>                                                                                                                                                                                                                             |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="d3a1d-143">如果“计算部分付款的现金折扣”选项在“应收账款参数”或“应付账款参数”页中被选定时，会使用在每个部分付款的日期有效的汇率。</span><span class="sxs-lookup"><span data-stu-id="d3a1d-143">If the Calculate cash discounts for partial payments option is selected in the Accounts receivable parameters or Accounts payable parameters pages, the exchange rate that is in effect on the date of each partial payment is used.</span></span> |

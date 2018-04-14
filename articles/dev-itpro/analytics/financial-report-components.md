@@ -19,23 +19,23 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3679ccf304a32385c162ba3663eba2300f028817
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5c824bd9537dd326ac348c66546051968155e9f9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-report-components"></a><span data-ttu-id="3b489-105">财务报表组件</span><span class="sxs-lookup"><span data-stu-id="3b489-105">Financial report components</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3b489-106">本文介绍如何在财务报告中使用报表定义的组件或构建基块。</span><span class="sxs-lookup"><span data-stu-id="3b489-106">This article describes how the components, or building blocks, of report definitions are used in financial reporting.</span></span> <span data-ttu-id="3b489-107">这些构造基块包括行定义、列定义和报告树定义。</span><span class="sxs-lookup"><span data-stu-id="3b489-107">These building blocks include row definitions, column definitions, and reporting tree definitions.</span></span> <span data-ttu-id="3b489-108">本文说明如何整理和锁定构建基块。</span><span class="sxs-lookup"><span data-stu-id="3b489-108">The article explains how to organize and lock building blocks.</span></span> 
 
 <span data-ttu-id="3b489-109">财务报表设计器的设计理念是将信息分解为最小的组件或构建基块，然后根据需要混合和匹配组件。</span><span class="sxs-lookup"><span data-stu-id="3b489-109">The design philosophy behind financial report designer is to break information down into the smallest component or building block, and then mix and match the components as required.</span></span> <span data-ttu-id="3b489-110">因此，您的报表格式独立于您的财务数据，您可以更改报表的设计，而无需修改 Microsoft Dynamics ERP 系统中的财务数据。</span><span class="sxs-lookup"><span data-stu-id="3b489-110">Therefore, your report formatting is separate from your financial data, and you can change the design of a report without modifying the financial data in your Microsoft Dynamics ERP system.</span></span> <span data-ttu-id="3b489-111">通过使用此构建基块方法，您可以组合文本、金额和计算，以生成所需的报表。</span><span class="sxs-lookup"><span data-stu-id="3b489-111">By using this building block approach, you can combine text, amounts, and calculations to produce the reports that you require.</span></span> <span data-ttu-id="3b489-112">此外，这种灵活性通过方便您以各种方式查看操作来激发创造力。</span><span class="sxs-lookup"><span data-stu-id="3b489-112">Additionally, this flexibility encourages creativity by making it easy for you to view your operations in different ways.</span></span> <span data-ttu-id="3b489-113">报表定义的单个构建基块类似于一个三维电子表格，但前者具有更多功能。</span><span class="sxs-lookup"><span data-stu-id="3b489-113">The individual building blocks of a report definition are similar to a three-dimensional spreadsheet, but they have more power.</span></span> <span data-ttu-id="3b489-114">报表定义指定应用于报表的行定义、列定义和可选报告树定义。</span><span class="sxs-lookup"><span data-stu-id="3b489-114">A report definition specifies the row definition, column definition, and optional reporting tree definition that should be used for the report.</span></span> <span data-ttu-id="3b489-115">它还包含有关存储生成的报表的位置以及如果设置报表格式的信息。</span><span class="sxs-lookup"><span data-stu-id="3b489-115">It also includes information about where to store the report that is generated and how to format it.</span></span> 
 
 ## <a name="building-blocks-of-a-report"></a><span data-ttu-id="3b489-116">报表的构建基块</span><span class="sxs-lookup"><span data-stu-id="3b489-116">Building blocks of a report</span></span>
+
 | <span data-ttu-id="3b489-117">构建基块</span><span class="sxs-lookup"><span data-stu-id="3b489-117">Building block</span></span>            | <span data-ttu-id="3b489-118">说明</span><span class="sxs-lookup"><span data-stu-id="3b489-118">Description</span></span>                     | <span data-ttu-id="3b489-119">有关详细信息</span><span class="sxs-lookup"><span data-stu-id="3b489-119">For more information</span></span>                                    |
 |---------------------------|---------------------------------|---------------------------------------------------------|
 | <span data-ttu-id="3b489-120">行定义</span><span class="sxs-lookup"><span data-stu-id="3b489-120">Row definition</span></span>            | <span data-ttu-id="3b489-121">行定义定义报表上的描述性行（例如薪金或销售额）。</span><span class="sxs-lookup"><span data-stu-id="3b489-121">A row definition defines the descriptive lines (for example, salaries or sales) on a report.</span></span> <span data-ttu-id="3b489-122">它还列出了段值和每个行项中包含值的维度并且包含行格式设置和计算。</span><span class="sxs-lookup"><span data-stu-id="3b489-122">It also lists the segment values or dimensions that contain the values for each line item, and includes row formatting and calculations.</span></span>                                                    | [<span data-ttu-id="3b489-123">行定义</span><span class="sxs-lookup"><span data-stu-id="3b489-123">Row definitions</span></span>](row-definitions-financial-reporting.md)                       |

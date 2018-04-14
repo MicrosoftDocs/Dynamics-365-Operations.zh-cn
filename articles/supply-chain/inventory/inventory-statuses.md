@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 15ee75e11bfce55886052cc57729f5127f22d7da
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 52d05dfe3eedd5735f47638a1fdec4e5855ca965
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-statuses"></a><span data-ttu-id="24ddf-103">库存状态</span><span class="sxs-lookup"><span data-stu-id="24ddf-103">Inventory statuses</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="24ddf-104">本文介绍如何使用库存状态来分类和跟踪库存。</span><span class="sxs-lookup"><span data-stu-id="24ddf-104">This article describes how you can use inventory statuses to categorize and keep track of inventory.</span></span>
 

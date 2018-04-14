@@ -20,17 +20,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 0c469d09905bd3afec09d08f1f4248edcc56f10f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fefd2578d4bc0b350224bc2a55fdcdb3fb461c0d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-a-customer-loyalty-program"></a><span data-ttu-id="7ca2b-105">设置客户会员计划</span><span class="sxs-lookup"><span data-stu-id="7ca2b-105">Set up a customer loyalty program</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="7ca2b-106">本文介绍如何设置会员计划。</span><span class="sxs-lookup"><span data-stu-id="7ca2b-106">This article describes how to set up a loyalty program.</span></span> <span data-ttu-id="7ca2b-107">通过奖励购买您零售店产品的客户，会员计划有助于增加客户忠诚度。</span><span class="sxs-lookup"><span data-stu-id="7ca2b-107">Loyalty programs can help increase customer loyalty by rewarding customers for buying products in your retail stores.</span></span> <span data-ttu-id="7ca2b-108">在 Microsoft Dynamics 365 for Retail 中，您可以在所有零售渠道设置简单或复杂的应用于整个法人实体的会员计划。</span><span class="sxs-lookup"><span data-stu-id="7ca2b-108">In Microsoft Dynamics 365 for Retail, you can set up simple or complex loyalty programs that apply across your legal entities in any retail channel.</span></span>
 

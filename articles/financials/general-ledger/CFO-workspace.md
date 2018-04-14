@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5faefe5da8c3a64987a38ebef92eb87049ebe874
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 04643d4d9e3c0a21f2dac3ce27a7398f7be4f775
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a><span data-ttu-id="6f937-103">向 CFO 工作区添加财务维度</span><span class="sxs-lookup"><span data-stu-id="6f937-103">Add financial dimensions to the CFO workspace</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6f937-104">本主题说明如何向首席财务官 (CFO) 工作区添加财务维度，以便可将其用于分类帐和预算报表。</span><span class="sxs-lookup"><span data-stu-id="6f937-104">This topic explains how to add financial dimensions to the Chief Financial Officer (CFO) workspace, so that they can be used for the ledger and budget reports.</span></span> <span data-ttu-id="6f937-105">CFO 工作区具有**概述**选项卡和**财务**选项卡。这两个选项卡上的报表受以下两个度量支持：LedgerActivityMeasure 和 BudgetActivityMeasure。</span><span class="sxs-lookup"><span data-stu-id="6f937-105">The CFO workspace has an **Overview** tab and a **Financial** tab. The reports on these two tabs are backed by two measures: LedgerActivityMeasure and BudgetActivityMeasure.</span></span> <span data-ttu-id="6f937-106">在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）中，这两个度量与 DimensionCombinationEntity 实体之间存在关系。</span><span class="sxs-lookup"><span data-stu-id="6f937-106">In Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017), there is a relation between those two measures and the DimensionCombinationEntity entity.</span></span> <span data-ttu-id="6f937-107">因此，您可以选择维度。</span><span class="sxs-lookup"><span data-stu-id="6f937-107">Therefore, you can select dimensions.</span></span>
 

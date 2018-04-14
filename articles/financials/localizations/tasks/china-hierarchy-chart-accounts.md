@@ -16,15 +16,15 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3cd32fe45281a1fd8cf65947233dedb90b624b24
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ac65ee3e1faf59bf799a19f6d3dac0254c340211
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="chinese-hierarchy-of-chart-of-accounts"></a><span data-ttu-id="6467c-103">中国式会计科目表层次结构</span><span class="sxs-lookup"><span data-stu-id="6467c-103">Chinese hierarchy of chart of accounts</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6467c-104">此过程演示如何通过设置多个会计科目级别在层次结构树状结构中创建会计科目表。</span><span class="sxs-lookup"><span data-stu-id="6467c-104">This procedure shows how to create a chart of accounts in a hierarchy tree structure by setting up multiple levels for ledger accounts.</span></span>
 

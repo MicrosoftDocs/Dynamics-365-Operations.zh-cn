@@ -18,17 +18,16 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 426e0f8096a65b2233cf04663c38335ee6e9bb2d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d9d889b7a64cff763c31b4375fd0e1553a4beeeb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="performance-management-overview"></a><span data-ttu-id="cf03a-104">绩效管理概览</span><span class="sxs-lookup"><span data-stu-id="cf03a-104">Performance management overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="cf03a-105">绩效管理流程供员工记录自己的绩效并与经理讨论。</span><span class="sxs-lookup"><span data-stu-id="cf03a-105">The performance management process lets employees document and discuss their performance with their manager.</span></span> <span data-ttu-id="cf03a-106">相应地，经理然后可以向员工提供反馈和指导。</span><span class="sxs-lookup"><span data-stu-id="cf03a-106">In turn, managers can then provide feedback and guidance to the employees.</span></span>  
 

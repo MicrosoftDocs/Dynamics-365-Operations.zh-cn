@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 042eafc29e377e0ad6fb8dc1499daf8eb105b7ed
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ced48377f8f6cfdf416bcaf5e2b5e6473998ea91
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-released-product-for-a-single-company"></a><span data-ttu-id="cc3ce-103">创建单个公司的已发布产品</span><span class="sxs-lookup"><span data-stu-id="cc3ce-103">Create a released product for a single company</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cc3ce-104">此过程介绍如何在单个法定单位背景下创建单个已发布产品。</span><span class="sxs-lookup"><span data-stu-id="cc3ce-104">This procedure walks through how to create a single released product in the context of a single legal unit.</span></span> <span data-ttu-id="cc3ce-105">在创建已发布产品后，其仅立即在该单位中可用。</span><span class="sxs-lookup"><span data-stu-id="cc3ce-105">After the released product is created,  it's immediately available in this unit only.</span></span> <span data-ttu-id="cc3ce-106">您可以使用 USMF 公司演示数据浏览此过程。</span><span class="sxs-lookup"><span data-stu-id="cc3ce-106">You can walk through this procedure in demo data company USMF.</span></span> <span data-ttu-id="cc3ce-107">此任务通常由产品设计者执行。</span><span class="sxs-lookup"><span data-stu-id="cc3ce-107">This task is usually performed by a product designer.</span></span>
 

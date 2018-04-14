@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3ea3998014eb9ac2fd4610b5d52bd792d4f73869
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ef5a1b83ad0e6e0ef5c840913ce1a985dba69174
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="production-order-cost-estimation"></a><span data-ttu-id="9acf2-104">生产订单成本估计</span><span class="sxs-lookup"><span data-stu-id="9acf2-104">Production order cost estimation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9acf2-105">本文提供有关生产成本估计的信息。</span><span class="sxs-lookup"><span data-stu-id="9acf2-105">This article provides information about production cost estimation.</span></span> <span data-ttu-id="9acf2-106">生产成本估计提供按计划的生产订单数量生产一个物料的预计材料和产能消耗成本。</span><span class="sxs-lookup"><span data-stu-id="9acf2-106">Production cost estimation provides the projected material and capacity consumption costs of producing an item in the planned production order quantity.</span></span> 
 

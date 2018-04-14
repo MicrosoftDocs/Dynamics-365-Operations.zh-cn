@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5de1f5b40af076173dd0b38c6f6110f83c04528a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1aa6c869b5bd109b2da1a33d659854a79b73894c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-reporting"></a><span data-ttu-id="2b9b1-104">财务申报</span><span class="sxs-lookup"><span data-stu-id="2b9b1-104">Financial reporting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2b9b1-105">本主题介绍从哪里访问 Microsoft Dynamics 365 for Finance and Operations 中的财务申报，以及如何使用财务申报功能。</span><span class="sxs-lookup"><span data-stu-id="2b9b1-105">This topic describes where to access financial reporting in Microsoft Dynamics 365 for Finance and Operations and how to use the financial reporting capabilities.</span></span> <span data-ttu-id="2b9b1-106">其中包括提供的默认财务报表的描述。</span><span class="sxs-lookup"><span data-stu-id="2b9b1-106">It includes a description of the default financial reports that are provided.</span></span>
 

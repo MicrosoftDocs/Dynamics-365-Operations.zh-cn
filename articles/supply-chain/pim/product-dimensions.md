@@ -20,19 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9cb4bded4b8d841c6d164e6b8ded2cb3fb4d0978
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9ba0c5d44d58faac47b6a44265431a48c49874df
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-dimensions"></a><span data-ttu-id="5ef3c-105">产品维度</span><span class="sxs-lookup"><span data-stu-id="5ef3c-105">Product dimensions</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
-
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="5ef3c-106">有四产品维度 - 颜色、配置、大小和样式。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-106">There are four product dimensions -  Color, Configuration, Size and Style.</span></span> <span data-ttu-id="5ef3c-107">您在维度组中合并产品维度，并将维度组分配给基础产品。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-107">You combine product dimensions in dimension groups and assign dimension groups to product masters.</span></span> <span data-ttu-id="5ef3c-108">产品维度的组合确定如何定义产品变型。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-108">The combinations of product dimensions determine how product variants are defined.</span></span>
 
@@ -51,6 +50,7 @@ ms.lasthandoff: 02/07/2018
 -   <span data-ttu-id="5ef3c-129">单击**产品信息管理** &gt; **已发布产品**。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-129">Click **Product information management** &gt; **Released products**.</span></span> <span data-ttu-id="5ef3c-130">选择基础产品。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-130">Select a product master.</span></span> <span data-ttu-id="5ef3c-131">在**操作窗格**上，单击**产品**。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-131">On the **Action Pane**, click **Product**.</span></span> <span data-ttu-id="5ef3c-132">在**基础产品**组，单击**产品维度**。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-132">In the **Product master** group, click **Product dimensions**.</span></span>
 
 <span data-ttu-id="5ef3c-133">为物料可创建的变型数受限于可能的产品维度组合数。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-133">The number of variants that you can create for an item is limited by the number of possible product dimension combinations.</span></span>
+
 | <span data-ttu-id="5ef3c-134">**提示**</span><span class="sxs-lookup"><span data-stu-id="5ef3c-134">**Tip**</span></span>                                                                                                                                              |
 |------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="5ef3c-135">例如，当您在订单行上使用一个产品时，选择产品维度以确定您要使用的产品变型。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-135">When you use a product on, for example, an order line, you select the product dimensions to identify the product variant that you want to work with.</span></span> |

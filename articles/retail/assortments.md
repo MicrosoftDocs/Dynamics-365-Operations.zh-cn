@@ -15,15 +15,15 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 364207d188c0361cbbc9627bec35e059a7bb552c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="assortment-management"></a><span data-ttu-id="7f669-103">分类管理</span><span class="sxs-lookup"><span data-stu-id="7f669-103">Assortment management</span></span>
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a><span data-ttu-id="7f669-104">概览</span><span class="sxs-lookup"><span data-stu-id="7f669-104">Overview</span></span>
 <span data-ttu-id="7f669-105">Microsoft Dynamics 365 for Retail 提供*分类*，供您管理渠道中的产品可用性。</span><span class="sxs-lookup"><span data-stu-id="7f669-105">Microsoft Dynamics 365 for Retail provides *assortments* that let you manage product availability across channels.</span></span> <span data-ttu-id="7f669-106">分类决定哪些产品在特定商店和特定时间段内可用。</span><span class="sxs-lookup"><span data-stu-id="7f669-106">Assortments determine which products are available at specific stores and during a specific period.</span></span>

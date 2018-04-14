@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 862281adac67757e1ce0e9ddd1e96483363abb9a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 454ecd9bfa19a2486610d9a412057f42ae2d68a2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="estimate-a-production-order"></a><span data-ttu-id="e6461-103">估计生产订单</span><span class="sxs-lookup"><span data-stu-id="e6461-103">Estimate a production order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e6461-104">您可以使用演示数据公司 USMF 或使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="e6461-104">You can run this procedure by using the USMF demo data company or your own data set.</span></span> <span data-ttu-id="e6461-105">在这两种情况下，您需要有一个状态为“已创建”的未结生产订单。</span><span class="sxs-lookup"><span data-stu-id="e6461-105">In both cases, you need to have an open production order that has the Created status.</span></span> <span data-ttu-id="e6461-106">这是解释生产订单周期的七个步骤中的第二步。</span><span class="sxs-lookup"><span data-stu-id="e6461-106">This is the second procedure out of seven which explains the production order lifecycle.</span></span>
 

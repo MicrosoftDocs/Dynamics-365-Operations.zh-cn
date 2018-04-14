@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f674a1f0051ee4b228b8a92f717ef5348a452bed
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5fe073db08c276eff9ba6c6a8fd54ac5e6d333ea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="calculate-material-consumption"></a><span data-ttu-id="62573-103">计算物料消耗量</span><span class="sxs-lookup"><span data-stu-id="62573-103">Calculate material consumption</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="62573-104">本文提供有关与物料消耗量的计算相关的不同选项的信息。</span><span class="sxs-lookup"><span data-stu-id="62573-104">This article provides information about various options that are related to the calculation of material consumption.</span></span> 
 

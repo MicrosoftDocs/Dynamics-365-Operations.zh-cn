@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 42656cbf445fd3f79844884d7d35243c5b051a4a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 165d12efe1e3caf436a7573936e94203bad88330
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-cost-rollup-policy"></a><span data-ttu-id="4dd9a-103">创建成本累积政策</span><span class="sxs-lookup"><span data-stu-id="4dd9a-103">Create a cost rollup policy</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4dd9a-104">此过程显示如何创建成本累积政策并为其创建规则。</span><span class="sxs-lookup"><span data-stu-id="4dd9a-104">This procedure shows how to create a cost rollup policy and create rules for the policy.</span></span> <span data-ttu-id="4dd9a-105">使用 USP2 演示数据创建此过程。</span><span class="sxs-lookup"><span data-stu-id="4dd9a-105">The demo data used to create this procedure is USP2.</span></span>
 

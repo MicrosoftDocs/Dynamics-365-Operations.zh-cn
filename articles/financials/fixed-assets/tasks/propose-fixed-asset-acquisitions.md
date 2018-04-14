@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c1c08bb05b7f6b57cfc8c86a1d0c0d1a7cc2ce5a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0bd030c71a53aebcec476af6871b3db8e164828
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="ca527-103">建议固定资产购置</span><span class="sxs-lookup"><span data-stu-id="ca527-103">Propose fixed asset acquisitions</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ca527-104">此过程显示如何使用固定资产日记帐中的购置方案购置固定资产。</span><span class="sxs-lookup"><span data-stu-id="ca527-104">This procedure shows how to acquire a fixed asset using the acquisition proposal in the Fixed assets journal.</span></span> <span data-ttu-id="ca527-105">它为 USMF 法人实体使用会计角色和演示数据。</span><span class="sxs-lookup"><span data-stu-id="ca527-105">It uses the accountant role and demo data for the USMF legal entity.</span></span>
 

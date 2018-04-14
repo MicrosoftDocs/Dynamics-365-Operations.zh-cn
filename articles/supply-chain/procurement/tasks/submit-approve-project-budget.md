@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 7b1a248082b1ec8a7321b4aa94886d147be6a2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 694f3d78e66d0caa28677288bf1e10893e9783ad
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="submit-and-approve-project-budgets"></a><span data-ttu-id="305b7-103">提交和审核项目预算</span><span class="sxs-lookup"><span data-stu-id="305b7-103">Submit and approve project budgets</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="305b7-104">此过程显示如何创建和提交项目的预算。</span><span class="sxs-lookup"><span data-stu-id="305b7-104">This procedure shows you how to create and submit the budget for a project.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 007eae16a2a3c3fd138899f7b8a9ed768cc6600d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="schedule-a-production-order"></a><span data-ttu-id="c3cfb-103">计划生产订单</span><span class="sxs-lookup"><span data-stu-id="c3cfb-103">Schedule a production order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c3cfb-104">该过程说明安排一个生产订单。</span><span class="sxs-lookup"><span data-stu-id="c3cfb-104">This procedure shows how to schedule a production order.</span></span> <span data-ttu-id="c3cfb-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="c3cfb-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c3cfb-106">这是生产订单循环周期七个程序中的第三个。</span><span class="sxs-lookup"><span data-stu-id="c3cfb-106">This is the third procedure out of seven which explains the production order lifecycle.</span></span>
 

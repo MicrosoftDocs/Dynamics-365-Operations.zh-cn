@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 41bd03757a347a1b5f189bd50dae2545baaddf20
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a0d3b858659e3bcf98b9461f7cc3880bb98431de
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a><span data-ttu-id="44ca9-103">配置工作流中的并行分支</span><span class="sxs-lookup"><span data-stu-id="44ca9-103">Configure a parallel branch in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="44ca9-104">要配置并行分支，请在工作流编辑器中完成以下过程。</span><span class="sxs-lookup"><span data-stu-id="44ca9-104">To configure a parallel branch, complete the following procedures in the workflow editor.</span></span>
 

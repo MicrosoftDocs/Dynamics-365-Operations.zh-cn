@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3cc041ef35168ddb4bf2b324dc9c0b6e04148830
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60693e5a549bafa23de09a22e3beb7c721ae28fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="chinese-vouchers"></a><span data-ttu-id="089e4-103">中国式凭证</span><span class="sxs-lookup"><span data-stu-id="089e4-103">Chinese vouchers</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="089e4-104">此主题介绍中国式凭证及其在 Microsoft Dynamics 365 for Finance and Operations 中的使用方法。</span><span class="sxs-lookup"><span data-stu-id="089e4-104">This topic describes Chinese vouchers and how they are used in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

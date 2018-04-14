@@ -19,17 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: dae65394a2180ccbf3317a41b635ba97034e541b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4a69b68fdf9b8a4d6162fe132469d51ff7ff14ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="purchase-orders-for-a-project"></a><span data-ttu-id="274f8-104">项目的采购订单</span><span class="sxs-lookup"><span data-stu-id="274f8-104">Purchase orders for a project</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="274f8-105">本文介绍您可用于为项目创建采购订单的不同方法。</span><span class="sxs-lookup"><span data-stu-id="274f8-105">This article describes the various methods that you can use to create purchase orders for a project.</span></span> <span data-ttu-id="274f8-106">使用的方法取决于当消耗采购物料和将采购物料费用计入项目时，采购订单的用途。</span><span class="sxs-lookup"><span data-stu-id="274f8-106">The method that you use depends on the purpose of the purchase order, and when the purchased items are consumed and charged to a project.</span></span>
 

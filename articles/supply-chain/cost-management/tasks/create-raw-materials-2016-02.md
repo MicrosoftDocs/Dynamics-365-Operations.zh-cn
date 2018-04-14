@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 8ed33e2e80915a80eb4c6de014091f1884799098
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5a31ceacb7037164d35e38fb70a013b33d670d94
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-raw-materials-february-2016-only"></a><span data-ttu-id="645d8-103">创建原材料（仅 2016 年 2 月）</span><span class="sxs-lookup"><span data-stu-id="645d8-103">Create raw materials (February 2016 only)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="645d8-104">此任务的重点是创建成品和半成品的组件。</span><span class="sxs-lookup"><span data-stu-id="645d8-104">This task focuses on creating the components of finished and semi-finished products.</span></span> <span data-ttu-id="645d8-105">这是 BOM 计算系列中的第三个任务。</span><span class="sxs-lookup"><span data-stu-id="645d8-105">It is the third task in the BOM calculation series.</span></span> <span data-ttu-id="645d8-106">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="645d8-106">The demo data company used to create this task is USMF.</span></span>
 

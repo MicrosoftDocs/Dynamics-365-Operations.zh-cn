@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 513d3e20e0c89eb0064e3c1bc11a3a8dea43cfe4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: aa80976e539e88af8b157257d043d410ede49e8d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="posting-definitions"></a><span data-ttu-id="a0a49-104">过帐定义</span><span class="sxs-lookup"><span data-stu-id="a0a49-104">Posting definitions</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a0a49-105">本文提供有关过帐定义以及如何定义和关联它们的信息。</span><span class="sxs-lookup"><span data-stu-id="a0a49-105">This article provides information about posting definitions, and how to define and link them.</span></span> <span data-ttu-id="a0a49-106">对于支持的过帐类型和文档，则可以使用过帐定义而不是过帐模板来分类会计条目中的主科目和财务维度。</span><span class="sxs-lookup"><span data-stu-id="a0a49-106">For supported posting types and documents, you can use posting definitions instead of posting profiles to classify main accounts and financial dimensions on accounting entries.</span></span>
 

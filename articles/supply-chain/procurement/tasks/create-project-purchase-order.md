@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5023ca589b3ab25d808a52a9162f27430bd69241
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b8409586e6d4ae13da2b171da82e313c7fc5a371
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-project-purchase-order"></a><span data-ttu-id="bb9d4-103">创建项目采购订单</span><span class="sxs-lookup"><span data-stu-id="bb9d4-103">Create project purchase order</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bb9d4-104">此过程说明如何创建项目采购订单。</span><span class="sxs-lookup"><span data-stu-id="bb9d4-104">This procedure shows you how to create a project purchase order.</span></span> <span data-ttu-id="bb9d4-105">此任务使用 USSI 数据集。</span><span class="sxs-lookup"><span data-stu-id="bb9d4-105">This task uses the USSI data set.</span></span>
 

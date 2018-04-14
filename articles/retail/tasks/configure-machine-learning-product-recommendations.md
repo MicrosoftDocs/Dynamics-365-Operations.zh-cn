@@ -17,15 +17,15 @@ ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 854b396a847c0764f1eea2a6fc57c68226800d29
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a><span data-ttu-id="6bbd9-103">配置机器学习支持的产品建议</span><span class="sxs-lookup"><span data-stu-id="6bbd9-103">Configure machine learning-powered product recommendations</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6bbd9-104">此过程刷新实体商店中为生产建议提供支持的机器学习系统使用的数据，然后启用有关 POS 客户端的产品建议。</span><span class="sxs-lookup"><span data-stu-id="6bbd9-104">This procedure refreshes the data in the Entity store that is used by the machine learning system that powers product recommendations, and then enables product recommendations on POS clients.</span></span> <span data-ttu-id="6bbd9-105">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="6bbd9-105">This procedure uses the USRT company in demo data.</span></span>
 

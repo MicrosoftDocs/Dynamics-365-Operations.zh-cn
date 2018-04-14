@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2ada46f8be165282557044468a24291185b4aa5b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a><span data-ttu-id="d69a2-103">查看日记帐分录和交易记录</span><span class="sxs-lookup"><span data-stu-id="d69a2-103">View journal entries and transactions</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="d69a2-104">本文说明您可以查看日记帐条目和交易记录的各种方式。</span><span class="sxs-lookup"><span data-stu-id="d69a2-104">This article explains the various ways that you can view journal entries and transactions.</span></span> 
 
@@ -55,7 +54,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="d69a2-128">**交易记录来源** – 此交易记录报表按日记帐，以及按交易记录、核算和申报币种显示帐户。</span><span class="sxs-lookup"><span data-stu-id="d69a2-128">**Transaction origin** – This transaction report shows the account by journal, and by transaction, accounting, and reporting currency.</span></span> <span data-ttu-id="d69a2-129">它还显示用作对方的每一行。</span><span class="sxs-lookup"><span data-stu-id="d69a2-129">It also shows each line of the journal that was used as an offset.</span></span>
 
 
-##<a name="see-also"></a><span data-ttu-id="d69a2-130">请参阅</span><span class="sxs-lookup"><span data-stu-id="d69a2-130">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d69a2-130">请参阅</span><span class="sxs-lookup"><span data-stu-id="d69a2-130">See also</span></span>
 - [<span data-ttu-id="d69a2-131">总帐科目余额</span><span class="sxs-lookup"><span data-stu-id="d69a2-131">General ledger account balances</span></span>](general-ledger-account-balances.md) 
 - [<span data-ttu-id="d69a2-132">会计源资源管理器</span><span class="sxs-lookup"><span data-stu-id="d69a2-132">Accounting source explorer</span></span>](..\accounts-payable\accounting-source-explorer.md)
 - [<span data-ttu-id="d69a2-133">财务申报</span><span class="sxs-lookup"><span data-stu-id="d69a2-133">Financial reporting</span></span>](financial-reporting-getting-started.md)

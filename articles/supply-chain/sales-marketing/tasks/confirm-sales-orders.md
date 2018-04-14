@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7cab69222c5004e6a62c632a9e85085403434ffd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b60dbe15eca10511f4aaaf472b512eb003fbf6bc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="confirm-sales-orders"></a><span data-ttu-id="a2ce0-103">确认销售订单</span><span class="sxs-lookup"><span data-stu-id="a2ce0-103">Confirm sales orders</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a2ce0-104">该过程说明了如何确认销售订单。</span><span class="sxs-lookup"><span data-stu-id="a2ce0-104">This procedure demonstrates how to confirm sales orders.</span></span> <span data-ttu-id="a2ce0-105">将会向您显示如何确认单个订单，以及如何一次确认多个订单。</span><span class="sxs-lookup"><span data-stu-id="a2ce0-105">You’ll be shown how to confirm a single order, and how to confirm multiple orders at once.</span></span> <span data-ttu-id="a2ce0-106">这些任务通常由销售订单处理员完成。</span><span class="sxs-lookup"><span data-stu-id="a2ce0-106">These tasks would typically be carried out by a sales order processor.</span></span> <span data-ttu-id="a2ce0-107">您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="a2ce0-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="a2ce0-108">在您开始前，确保同一客户的若干未结销售订单可用。</span><span class="sxs-lookup"><span data-stu-id="a2ce0-108">Before you start, make sure there are several open sales orders for the same customer.</span></span> <span data-ttu-id="a2ce0-109">如果您正在使用 USMF，您可以使用客户 US-027。</span><span class="sxs-lookup"><span data-stu-id="a2ce0-109">If you’re using USMF, you can use customer US-027.</span></span>
 

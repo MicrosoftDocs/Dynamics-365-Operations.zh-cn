@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ff2357d5266c45be2f403e463c72089d73db21b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 829a0bbb1b5ab01728c096872b0ada27cfc570c9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-vendor-account"></a><span data-ttu-id="8b3e2-103">创建供应商帐户</span><span class="sxs-lookup"><span data-stu-id="8b3e2-103">Create a vendor account</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8b3e2-104">该过程会显示如何创建供应商帐户，以及添加地址和联系信息。</span><span class="sxs-lookup"><span data-stu-id="8b3e2-104">This procedure shows how to create a vendor account, and add an address and contact information.</span></span> <span data-ttu-id="8b3e2-105">该过程不会显示如何填充所有字段，以用于采购和财务目的。</span><span class="sxs-lookup"><span data-stu-id="8b3e2-105">The procedure does not show how to populate all fields for purchasing and financial purposes.</span></span> <span data-ttu-id="8b3e2-106">若要了解关于这些字段的更多信息，请阅读字段描述。</span><span class="sxs-lookup"><span data-stu-id="8b3e2-106">To learn more about those fields, please read the field descriptions.</span></span> <span data-ttu-id="8b3e2-107">您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="8b3e2-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="8b3e2-108">供应商帐户通常由采购专业人员或应收账款人员创建。</span><span class="sxs-lookup"><span data-stu-id="8b3e2-108">Vendor accounts are typically created by a procurement professional or accounts receivable personnel.</span></span>
 

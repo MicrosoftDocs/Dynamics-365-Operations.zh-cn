@@ -18,17 +18,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: ed8d3673c51b16b73560bb6528697c5532c5f2f2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d4bcf59ecd25acdbc51c784c42c75231d8aef9ba
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="procurement-and-sourcing-home-page"></a><span data-ttu-id="3a416-103">采购主页</span><span class="sxs-lookup"><span data-stu-id="3a416-103">Procurement and sourcing home page</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3a416-104">此主题提供了可用于采购的帮助主题和其他资源列表。</span><span class="sxs-lookup"><span data-stu-id="3a416-104">This topic provides a list of the help topics and other resources that are available for Procurement and sourcing.</span></span>
 

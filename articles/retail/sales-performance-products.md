@@ -20,17 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d9b080ff46a0fbc73ed4f8fa3f03d71e9d758cc2
-ms.openlocfilehash: 82f47af39277e69a01ce9845dee5ff349b81d7dd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 928ddaaf5e5ff0cba31171f158989c96c54ed1e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="assess-sales-performance-by-product"></a><span data-ttu-id="6f30b-103">按产品评估销售业绩</span><span class="sxs-lookup"><span data-stu-id="6f30b-103">Assess sales performance by product</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="6f30b-104">您可以使用 Microsoft Dynamics 365 for Retail 研究排名前 10 位的产品的收益率。</span><span class="sxs-lookup"><span data-stu-id="6f30b-104">You can study profitability for the top 10 products using Microsoft Dynamics 365 for Retail.</span></span> 
 

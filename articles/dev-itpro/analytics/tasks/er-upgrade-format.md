@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cfc68c1d0810cbc296b35c09176dde2c948a50d0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a2c593b53b9cac9024f565458c6b7d0e19ecdde5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a><span data-ttu-id="293df-103">针对电子申报 (ER) 通过采用该格式的新的基本版本升级格式</span><span class="sxs-lookup"><span data-stu-id="293df-103">Upgrade your format by adopting of new base version of that format for electronic reporting (ER)</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="293df-104">以下步骤说明属于系统管理员或电子报表开发人员的用户如何维护电子申报 (ER) 格式配置。</span><span class="sxs-lookup"><span data-stu-id="293df-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can maintain an Electronic reporting (ER) format configuration.</span></span> <span data-ttu-id="293df-105">此过程说明如何基于配置提供程序 (CP) 接收的格式创建格式的自定义版本。</span><span class="sxs-lookup"><span data-stu-id="293df-105">This procedure explains how a custom version of a format can be created based on the format received from a configuration provider (CP).</span></span> <span data-ttu-id="293df-106">它还说明如何采用该格式的新的基本版本。</span><span class="sxs-lookup"><span data-stu-id="293df-106">It also explains how to adopt a new, base version of that format.</span></span>
 

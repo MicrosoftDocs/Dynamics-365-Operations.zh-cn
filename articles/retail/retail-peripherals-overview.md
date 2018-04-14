@@ -19,17 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3e9835af4b931ee07dd0df48c11bb916eb70f4f3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="retail-peripherals-overview"></a><span data-ttu-id="a52f7-103">硬件外围设备概览</span><span class="sxs-lookup"><span data-stu-id="a52f7-103">Retail peripherals overview</span></span>
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="a52f7-104">此主题介绍与零售外设有关的概念。</span><span class="sxs-lookup"><span data-stu-id="a52f7-104">This topic explains the concepts that are related to retail peripherals.</span></span> <span data-ttu-id="a52f7-105">它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。</span><span class="sxs-lookup"><span data-stu-id="a52f7-105">It describes the various ways that peripherals can be connected to the point of sale (POS) and the components that are responsible for managing the connection with the POS.</span></span>
 

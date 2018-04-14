@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: ffd30775b15037f12a4eeb7d750aca80062455fd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bfcebf61a5f613517e05af5c1548b5ceaaed53ee
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-worker-information"></a><span data-ttu-id="b6237-103">输入工作人员信息</span><span class="sxs-lookup"><span data-stu-id="b6237-103">Enter worker information</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b6237-104">在招聘人员创建了批量雇用项目并生成职位后，下一步是输入受雇人员的信息。</span><span class="sxs-lookup"><span data-stu-id="b6237-104">After a recruiter has created a mass hire project and generated the positions, the next step is to enter the worker information for the people being hired.</span></span> <span data-ttu-id="b6237-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="b6237-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b6237-106">演示数据包含开放的批量雇用项目。</span><span class="sxs-lookup"><span data-stu-id="b6237-106">The demo data contains an open mass hire project.</span></span> <span data-ttu-id="b6237-107">启动此程序，请转到“人力资源”>“人才招聘”>“大型招聘项目”。</span><span class="sxs-lookup"><span data-stu-id="b6237-107">To begin this procedure, go to Human resources > Recruitment > Mass hire projects.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6403aabb6b029807b42ab1ccb11756dcb0dda5dc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0ba52f4c06d5cd18c8f0ff7972671cc722289e7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="access-rights-of-a-cost-object-controller"></a><span data-ttu-id="186a2-103">成本对象控制员的访问权限</span><span class="sxs-lookup"><span data-stu-id="186a2-103">Access rights of a cost object controller</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="186a2-104">**成本控制**工作区是经理可以查看其成本对象的性能的一个中心点。</span><span class="sxs-lookup"><span data-stu-id="186a2-104">The **Cost control** workspace is a central point where managers can view the performance of their cost objects.</span></span> <span data-ttu-id="186a2-105">此工作区使经理可以使用成本核算数据，即使他们不是成本会计员。</span><span class="sxs-lookup"><span data-stu-id="186a2-105">This workspace lets managers consume Cost accounting data even though they aren't cost accountants.</span></span> <span data-ttu-id="186a2-106">出于安全原因，应仅允许经理查看与他们负责的具体成本对象有关的成本核算数据。</span><span class="sxs-lookup"><span data-stu-id="186a2-106">For security reasons, managers should be allowed to see only the Cost accounting data that is related to the specific cost objects that they are responsible for.</span></span>
 

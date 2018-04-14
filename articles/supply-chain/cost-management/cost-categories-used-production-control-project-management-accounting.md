@@ -20,17 +20,16 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d641ce950aed87b0cf6763fc9dae67ef47268b8d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 53141f29cdcd847611e1b6a8dc4c2ded1f09a9c9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a><span data-ttu-id="1eae9-104">用于项目控制和项目管理核算的成本类别</span><span class="sxs-lookup"><span data-stu-id="1eae9-104">Cost categories used in Production control and Project management accounting</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1eae9-105">某些生产工作类型可以应用于项目时间评估和报告。</span><span class="sxs-lookup"><span data-stu-id="1eae9-105">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="1eae9-106">本文提供有关您必须为这些用于生产和项目目的生产工作类型定义的成本类别的信息。</span><span class="sxs-lookup"><span data-stu-id="1eae9-106">This article provides information about the cost categories that you must define for these types of production work for production and project purposes.</span></span>
 

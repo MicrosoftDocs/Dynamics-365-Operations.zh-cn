@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ceea24519d641c676521771cee274feb64ca7783
-ms.openlocfilehash: bce608594e2eb0e7769e7dfa2e254e29385000b6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 90a947d4564c8ad97b415b556986c3f815674aa4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/19/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a><span data-ttu-id="47066-103">成本累积政策和开销计算</span><span class="sxs-lookup"><span data-stu-id="47066-103">Cost rollup policy and overhead calculation</span></span> 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="47066-104">成本核算让您能够了解成本流与在组织中交付的产品和服务之间的关联。</span><span class="sxs-lookup"><span data-stu-id="47066-104">Cost accounting lets you gain insight into how the cost flow relates to the products and services that are delivered within an organization.</span></span> <span data-ttu-id="47066-105">若要查看成本的透明度，基于适当的分配基础实现成本对象间的成本分配十分重要。</span><span class="sxs-lookup"><span data-stu-id="47066-105">To see the cost transparency, it's crucial to achieve cost allocation between cost objects based on an appropriate allocation basis.</span></span> <span data-ttu-id="47066-106">默认情况下，为主要成本元素实现成本分配，这在有些情况下有利，但它有一些应该考虑的影响。</span><span class="sxs-lookup"><span data-stu-id="47066-106">By default, the cost allocation is achieved for the primary cost element, which is desired in some situations, but it has a few implications that should be considered.</span></span>
 

@@ -19,17 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeea5f6f9860bf109bb3063c5a2cc0517192e95d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a><span data-ttu-id="47726-104">电子申报概览</span><span class="sxs-lookup"><span data-stu-id="47726-104">Electronic reporting overview</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="47726-105">此主题概要介绍了电子申报 (ER) 工具。</span><span class="sxs-lookup"><span data-stu-id="47726-105">This topic provides an overview of the Electronic reporting (ER) tool.</span></span> <span data-ttu-id="47726-106">内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。</span><span class="sxs-lookup"><span data-stu-id="47726-106">It includes information about key concepts, the scenarios that ER supports, and a list of formats that have been designed and released as part of the solution.</span></span>
 
@@ -287,6 +286,7 @@ ms.lasthandoff: 11/03/2017
 <span data-ttu-id="47726-344">ER 支持在当前草稿版的派生组件中自动采用最新版本的基础组件的更改的功能。</span><span class="sxs-lookup"><span data-stu-id="47726-344">ER lets you automatically adopt changes of the latest version of the base component in the current draft version of the derived component.</span></span> <span data-ttu-id="47726-345">此流程称为*重定基本值*。</span><span class="sxs-lookup"><span data-stu-id="47726-345">This process is known as *rebasing*.</span></span> <span data-ttu-id="47726-346">例如，新的法规性更改（将在从 LCS 导入的最新版的格式组件中引入）可自动合并到电子单据此格式的自定义版本中。</span><span class="sxs-lookup"><span data-stu-id="47726-346">For example, a new regulatory change that has been introduced in the latest version of the format that was imported from LCS can be automatically merged into the customized version of this format of the electronic document.</span></span> <span data-ttu-id="47726-347">任何不能自动合并的更改视为冲突。</span><span class="sxs-lookup"><span data-stu-id="47726-347">Any changes that can’t be merged automatically are considered conflicts.</span></span> <span data-ttu-id="47726-348">这些冲突将在相应组件的设计器工具中呈现以进行手动解决。</span><span class="sxs-lookup"><span data-stu-id="47726-348">These conflicts are presented for manual resolution in the designer tool for the appropriate component.</span></span> <span data-ttu-id="47726-349">若要详细了解此方案，播放 **ER 通过采用该格式的新基础版本来升级格式**任务指南（**7.5.5.3 获取/开发更改的 IT 服务/解决方案组件 (10683)** 业务流程的一部分）。</span><span class="sxs-lookup"><span data-stu-id="47726-349">To become familiar with the details of this scenario, play the **ER Upgrade format by adoption of new base version of that format** task guide (part of the **7.5.5.3 Acquire/Develop changed IT service/solution component (10683)** business process).</span></span>
 
 ## <a name="list-of-er-configurations-that-are-delivered-in-the-finance-and-operations-solution"></a><span data-ttu-id="47726-350">在 Finance and Operations 解决方案中交付的 ER 配置列表</span><span class="sxs-lookup"><span data-stu-id="47726-350">List of ER configurations that are delivered in the Finance and Operations solution</span></span>
+
 | <span data-ttu-id="47726-351">特定于域的数据模型配置︰标题</span><span class="sxs-lookup"><span data-stu-id="47726-351">Domain-specific data model configurations: Title</span></span> | <span data-ttu-id="47726-352">域</span><span class="sxs-lookup"><span data-stu-id="47726-352">Domain</span></span>                | <span data-ttu-id="47726-353">数据模型依赖格式配置︰标题</span><span class="sxs-lookup"><span data-stu-id="47726-353">Data model–dependent format configurations: Title</span></span> | <span data-ttu-id="47726-354">说明</span><span class="sxs-lookup"><span data-stu-id="47726-354">Description</span></span>                                                        |
 |--------------------------------------------------|-----------------------|---------------------------------------------------|--------------------------------------------------------------------|
 | <span data-ttu-id="47726-355">审计文件模型</span><span class="sxs-lookup"><span data-stu-id="47726-355">Audit file model</span></span>                                 | <span data-ttu-id="47726-356">财务审计</span><span class="sxs-lookup"><span data-stu-id="47726-356">Financial audit</span></span>       |                                                   |                                                                    |

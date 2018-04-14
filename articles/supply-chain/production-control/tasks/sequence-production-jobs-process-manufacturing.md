@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 87e35de4744a0728cd41192b4afc750b575a1324
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0cf90ff7be59150e20d61a831e57062f9d9996d5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a><span data-ttu-id="f1de2-103">对流程制造的生产作业排序</span><span class="sxs-lookup"><span data-stu-id="f1de2-103">Sequence production jobs for process manufacturing</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f1de2-104">此过程使用油漆产品作为示例显示如何根据颜色和包装大小的优先级排序计划订单。</span><span class="sxs-lookup"><span data-stu-id="f1de2-104">This procedure uses paint products as an example to show how to sequence planned orders according to the priority of color and package size.</span></span> <span data-ttu-id="f1de2-105">创建此程序的演示数据公司是 USPI。</span><span class="sxs-lookup"><span data-stu-id="f1de2-105">The demo data company used to create this procedure is USPI.</span></span> <span data-ttu-id="f1de2-106">此程序是专为生产规划员设计的。</span><span class="sxs-lookup"><span data-stu-id="f1de2-106">This procedure is intended for the production planner.</span></span>
 

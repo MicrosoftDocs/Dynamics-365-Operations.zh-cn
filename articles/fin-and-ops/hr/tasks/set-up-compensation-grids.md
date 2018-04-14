@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a9d0d9a3f278a09e89311ee75b6f95fb4f3b04cb
-ms.openlocfilehash: 39655850c1d54c56737881363bf5f805079fac89
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d507224004bdf319f9bf13ba07ed07ef29cc85dc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/02/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-compensation-grids"></a><span data-ttu-id="30bcd-103">设置薪酬网格</span><span class="sxs-lookup"><span data-stu-id="30bcd-103">Set up compensation grids</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="30bcd-104">薪酬网格用于定义及维持固定薪酬计划的工资结构。</span><span class="sxs-lookup"><span data-stu-id="30bcd-104">Compensation grids are used to define and maintain the pay structures for fixed compensation plans.</span></span> <span data-ttu-id="30bcd-105">新建薪酬计划时薪酬网格可以在多个计划中共享或复制。</span><span class="sxs-lookup"><span data-stu-id="30bcd-105">Compensation grids can be shared between multiple plans or copied when creating a new compensation plan.</span></span>  <span data-ttu-id="30bcd-106">在创建薪酬网格之前，必须设置“级别”和“参考点”。</span><span class="sxs-lookup"><span data-stu-id="30bcd-106">Before creating a compensation grid, Levels and Reference points must be set up.</span></span> <span data-ttu-id="30bcd-107">此示例将使用“级别”和“参考点”演示数据创建新的薪酬网格等级类型。</span><span class="sxs-lookup"><span data-stu-id="30bcd-107">This example will create a new Grade type of compensation grid using demo data for the Levels and Reference points.</span></span> <span data-ttu-id="30bcd-108">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="30bcd-108">The demo data company used to create this procedure is USMF.</span></span>
 

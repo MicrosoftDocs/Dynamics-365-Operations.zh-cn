@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad4212584b0f9062edbd5c13f4c75eaa03c853f7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="postdated-checks"></a><span data-ttu-id="07459-105">远期支票</span><span class="sxs-lookup"><span data-stu-id="07459-105">Postdated checks</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="07459-106">本文提供有关 Microsoft Dynamics 365 for Finance and Operations 中远期支票的支持的信息。</span><span class="sxs-lookup"><span data-stu-id="07459-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="07459-107">远期支票是签发用于在将来时间进行付款和收款的支票。</span><span class="sxs-lookup"><span data-stu-id="07459-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="07459-108">因此，支票在指定日期前不能兑现。</span><span class="sxs-lookup"><span data-stu-id="07459-108">Therefore, the check can't be cashed until the specified date.</span></span>
 
@@ -76,14 +75,14 @@ ms.lasthandoff: 03/26/2018
 <td><span data-ttu-id="07459-132">您可以在以下情况下取消已过帐的远期支票: - 银行退回了支票。</span><span class="sxs-lookup"><span data-stu-id="07459-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
 <span data-ttu-id="07459-133">- 该支票被应用于不正确的发票。</span><span class="sxs-lookup"><span data-stu-id="07459-133">- The check is applied to an incorrect invoice.</span></span>
 <span data-ttu-id="07459-134">- 现金支付是针对发票而存在的。</span><span class="sxs-lookup"><span data-stu-id="07459-134">- A cash payment is made against the check.</span></span>
-</td>
-</tr>
-<tr class="even">
-<td><span data-ttu-id="07459-135">停止远期支票付款</span><span class="sxs-lookup"><span data-stu-id="07459-135">Stop payment for a postdated check</span></span></td>
-<td><span data-ttu-id="07459-136">您可以停止对签发给供应商的远期支票的付款，原因可以是资金不足、与供应商的协议更改、供应商提供残次货物或货物返还给了供应商等。</span><span class="sxs-lookup"><span data-stu-id="07459-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="07459-137">您只能停止未清算的支票上的付款。</span><span class="sxs-lookup"><span data-stu-id="07459-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
-</tr>
-</tbody>
-</table>
+  </td>
+  </tr>
+  <tr class="even">
+  <td><span data-ttu-id="07459-135">停止远期支票付款</span><span class="sxs-lookup"><span data-stu-id="07459-135">Stop payment for a postdated check</span></span></td>
+  <td><span data-ttu-id="07459-136">您可以停止对签发给供应商的远期支票的付款，原因可以是资金不足、与供应商的协议更改、供应商提供残次货物或货物返还给了供应商等。</span><span class="sxs-lookup"><span data-stu-id="07459-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="07459-137">您只能停止未清算的支票上的付款。</span><span class="sxs-lookup"><span data-stu-id="07459-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
+  </tr>
+  </tbody>
+  </table>
 
 
 

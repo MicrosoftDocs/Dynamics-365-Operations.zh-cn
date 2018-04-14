@@ -19,16 +19,16 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 82b3076eba0d374c80e37572233cf7ba440cc65a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8d2188ddac937ab373315759b89ecf85c0b7e007
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a><span data-ttu-id="ab05b-103">销售和退回不属此类的产品</span><span class="sxs-lookup"><span data-stu-id="ab05b-103">Sell and return products outside of an assortment</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="ab05b-104">对于任何零售商的一个常见方案是将产品销售给他们的客户或接受客户的退货，即使他们在商店并不存放特定的产品（换言之，该产品未分类到商店）。</span><span class="sxs-lookup"><span data-stu-id="ab05b-104">A common scenario for any retailer is to sell products to their customers or accept returns from their customers even if they don’t carry the specific products in their store (in other words, the products are not assorted to the store).</span></span>
 <span data-ttu-id="ab05b-105">下面是一些典型方案：</span><span class="sxs-lookup"><span data-stu-id="ab05b-105">Here are some typical scenarios:</span></span>

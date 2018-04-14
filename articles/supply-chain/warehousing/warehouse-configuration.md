@@ -19,17 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9c2f8fd846181c404492ff32907a3396beb90685
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 116087516d424ef83e888fee92344e98746e9505
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-configuration"></a><span data-ttu-id="23945-104">仓库配置</span><span class="sxs-lookup"><span data-stu-id="23945-104">Warehouse configuration</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="23945-105">本文说明如何配置仓库。</span><span class="sxs-lookup"><span data-stu-id="23945-105">This article explains how to configure a warehouse.</span></span> <span data-ttu-id="23945-106">它包含有关如何启用仓库布局和仓库流程的信息。</span><span class="sxs-lookup"><span data-stu-id="23945-106">It includes information about how to enable a warehouse layout and warehouse processes.</span></span>
 

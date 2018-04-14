@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-04
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d412c60f22347a38e38ca5f2c5515bd132814f25
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="microsoft-project-client-integration"></a><span data-ttu-id="6d761-104">Microsoft Project Client 集成</span><span class="sxs-lookup"><span data-stu-id="6d761-104">Microsoft Project client integration</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6d761-105">规划和维护项目计划可能非常复杂，因此项目经理需要使用工具来帮助管理此任务。</span><span class="sxs-lookup"><span data-stu-id="6d761-105">Planning and maintaining a project schedule can be complex, so project managers need to use tools that help them manage this task.</span></span> <span data-ttu-id="6d761-106">与 Microsoft Project Client 的集成提供了对打开和管理项目工作分解结构的支持。</span><span class="sxs-lookup"><span data-stu-id="6d761-106">Integration with Microsoft Project Client provides support to open and manage a project work breakdown structure.</span></span> <span data-ttu-id="6d761-107">项目经理可将任何更改发布回 Finance and Operations 项目工作分解结构。</span><span class="sxs-lookup"><span data-stu-id="6d761-107">The project manager can publish any changes back to the Finance and Operations project work breakdown structure.</span></span>
 

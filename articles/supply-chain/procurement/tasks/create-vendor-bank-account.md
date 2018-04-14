@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: adb759c59d7275e7323dbb760de56acdef2e3cff
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2bdd1264f92b73aed2eeb6ab13e435bb3c0dde19
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-vendor-bank-account"></a><span data-ttu-id="cd97c-103">创建供应商银行帐户</span><span class="sxs-lookup"><span data-stu-id="cd97c-103">Create a vendor bank account</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cd97c-104">此过程演示如何为供应商创建银行帐户。</span><span class="sxs-lookup"><span data-stu-id="cd97c-104">This procedure shows you how to create a bank account for a vendor.</span></span> <span data-ttu-id="cd97c-105">您可以在演示数据公司 USMF 中使用此过程。</span><span class="sxs-lookup"><span data-stu-id="cd97c-105">You can use this procedure in demo data company USMF.</span></span>
 

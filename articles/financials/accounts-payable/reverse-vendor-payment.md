@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 019b765cd1e9fa00078018354f0d0792b97faba6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7633b08bcb701863fb59c57eed3d9656ea72998c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reverse-a-vendor-payment"></a><span data-ttu-id="5af0f-104">冲销供应商付款</span><span class="sxs-lookup"><span data-stu-id="5af0f-104">Reverse a vendor payment</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="5af0f-105">文本介绍冲销、删除、取消和拒绝付款之间的差异。</span><span class="sxs-lookup"><span data-stu-id="5af0f-105">This article describes the differences between reversing, deleting, voiding, and rejecting a payment.</span></span> <span data-ttu-id="5af0f-106">此外，还说明冲销供应商支票的两种方法。</span><span class="sxs-lookup"><span data-stu-id="5af0f-106">Additionally, it explains the two methods for reversing a vendor check.</span></span> 
 

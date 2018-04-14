@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6aa58bc1ca4ea59d268f97139cf6729cc6cd1d93
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-a-product-configuration-model"></a><span data-ttu-id="1d927-103">设置产品配置模型</span><span class="sxs-lookup"><span data-stu-id="1d927-103">Set up a product configuration model</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="1d927-104">本文介绍设置和创建产品模型配置的步骤。</span><span class="sxs-lookup"><span data-stu-id="1d927-104">This article describes the steps for setting up and creating a product configuration model.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: e812bb13c903e72e31e62effd0c70f9b9d62de55
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 41bd135c1b891841bd147d8ff9c905d49319b88e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="demo-data-screen-layouts-in-mposcpos"></a><span data-ttu-id="0eb50-103">MPOS/CPOS 中的演示数据屏幕布局</span><span class="sxs-lookup"><span data-stu-id="0eb50-103">Demo data screen layouts in MPOS/CPOS</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="0eb50-104">本主题提供了有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 体验的演示数据集包含的屏幕布局信息。</span><span class="sxs-lookup"><span data-stu-id="0eb50-104">This topic provides information about the screen layouts that are included with the demo data set for the point of sale (POS) experiences in Microsoft Dynamics 365 for Retail.</span></span>
 

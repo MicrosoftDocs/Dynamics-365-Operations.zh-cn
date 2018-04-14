@@ -19,17 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b35b8ea652ccb06c45b8091cc7f57e849e1a5915
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 931c12278853d87e6fddbb166b56c6079d40b142
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="150-percent-reducing-balance-depreciation"></a><span data-ttu-id="25c31-103">150% 余额递减法</span><span class="sxs-lookup"><span data-stu-id="25c31-103">150 percent reducing balance depreciation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="25c31-104">本文提供了 150% 余额递减法折旧方法的概览。</span><span class="sxs-lookup"><span data-stu-id="25c31-104">This article gives an overview of the 150 percent reducing balance method of depreciation.</span></span>
 
@@ -68,6 +67,7 @@ ms.lasthandoff: 11/03/2017
 -   <span data-ttu-id="25c31-135">**“会计期间”**将过帐为该会计年度计算的折旧总额。</span><span class="sxs-lookup"><span data-stu-id="25c31-135">**Fiscal period** posts the total amount of the depreciation that is calculated for the fiscal year.</span></span> <span data-ttu-id="25c31-136">此金额计入在**“会计日历”**页上定义的会计期间。</span><span class="sxs-lookup"><span data-stu-id="25c31-136">This amount is accrued into the fiscal periods that are defined on the **Fiscal calendars** page.</span></span>
 
 ## <a name="example-of-150-reducing-balance-depreciation"></a><span data-ttu-id="25c31-137">150% 余额递减法的示例</span><span class="sxs-lookup"><span data-stu-id="25c31-137">Example of 150% reducing balance depreciation</span></span>
+
 |                                |        |
 |--------------------------------|--------|
 | <span data-ttu-id="25c31-138">购置成本</span><span class="sxs-lookup"><span data-stu-id="25c31-138">Acquisition cost</span></span>               | <span data-ttu-id="25c31-139">11,000</span><span class="sxs-lookup"><span data-stu-id="25c31-139">11,000</span></span> |

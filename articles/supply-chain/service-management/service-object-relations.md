@@ -19,18 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: 0e54a0dc9b643077d45fe76e073772e81f99ea44
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e7ee1935c006636f8d7bfce53287229e736e2f80
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="service-object-relations"></a><span data-ttu-id="b807d-103">服务对象关系</span><span class="sxs-lookup"><span data-stu-id="b807d-103">Service object relations</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b807d-104">您可以在服务对象和服务协议或服务订单之间创建服务对象关系。</span><span class="sxs-lookup"><span data-stu-id="b807d-104">You can create service object relations between a service object and a service agreement or service order.</span></span> <span data-ttu-id="b807d-105">在您创建某一关系时，将服务对象附加到服务协议或服务订单。</span><span class="sxs-lookup"><span data-stu-id="b807d-105">When you create a relation, you attach the service object to the service agreement or service order.</span></span>
 

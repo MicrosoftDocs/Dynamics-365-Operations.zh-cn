@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a83a3325c80eb6fc1a19371a6115413ca9b82185
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="time-and-attendance-registration"></a><span data-ttu-id="771da-104">考勤管理登记</span><span class="sxs-lookup"><span data-stu-id="771da-104">Time and attendance registration</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="771da-105">时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。</span><span class="sxs-lookup"><span data-stu-id="771da-105">Time registration workers can enter different types of time registrations, for example, clock in, clock out, register indirect activities, and absence registration.</span></span> <span data-ttu-id="771da-106">本主题介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。</span><span class="sxs-lookup"><span data-stu-id="771da-106">This topic describes registrations, their calculation, approval, and the use of workflow to add structure and automated approval to the process of approving timesheets.</span></span> 
 
@@ -95,7 +94,7 @@ ms.lasthandoff: 11/03/2017
 | <span data-ttu-id="771da-168">考勤管理天数总计</span><span class="sxs-lookup"><span data-stu-id="771da-168">Time and attendance days total</span></span>            | <span data-ttu-id="771da-169">该工作流根据当天的预期工作时数等验证登记。</span><span class="sxs-lookup"><span data-stu-id="771da-169">The workflow validates registrations against, for example, the expected number of work hours for the day.</span></span> |                                                                                                                                                                                                                                                       |
 | <span data-ttu-id="771da-170">考勤管理日记帐登记。</span><span class="sxs-lookup"><span data-stu-id="771da-170">Time and attendance journal registration.</span></span> | <span data-ttu-id="771da-171">该工作流针对每个登记日期验证每个登记类型。</span><span class="sxs-lookup"><span data-stu-id="771da-171">The workflow validates each registration type for the date of the registration.</span></span>                           | <span data-ttu-id="771da-172">考勤管理 • 上班打卡 • 下班打卡 • 缺勤 • 休息 • 切换代码 • 项目 • 项目活动 • 间接活动生产工作 • 之前的队列 • 设置 • 流程 • 重叠 • 运输 • 之后的队列 • 开始帮助 • 停止帮助</span><span class="sxs-lookup"><span data-stu-id="771da-172">Time and attendance • Clock-in • Clock-out • Absence • Break • Switch code • Project • Project activity • Indirect activity Production jobs • Queue before • Setup • Process • Overlap • Transport • Queue after • Start assistance • Stop assistance</span></span> |
 
- 
+
 
 ## <a name="transferring-approved-registrations"></a><span data-ttu-id="771da-173">转移和审核登记</span><span class="sxs-lookup"><span data-stu-id="771da-173">Transferring approved registrations</span></span>
 <span data-ttu-id="771da-174">在审核登记后，才能将其转移到定期的工资单工作。</span><span class="sxs-lookup"><span data-stu-id="771da-174">After approval of the registrations you can transfer them to a periodic payroll job.</span></span> <span data-ttu-id="771da-175">将已转移的登记过账到与生产订单或项目等相关的活动或作业。</span><span class="sxs-lookup"><span data-stu-id="771da-175">A transferred registration is posted to an activity or job that it relates to, for example, a production order or a project.</span></span> <span data-ttu-id="771da-176">基于登记为每个工作人员生成工资交易记录。</span><span class="sxs-lookup"><span data-stu-id="771da-176">Payroll transactions are generated for each worker based on the registrations.</span></span>  

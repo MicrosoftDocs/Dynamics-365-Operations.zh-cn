@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 529608ef2a3277eb9d026ee56458738e0ed6576f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="order-promising"></a><span data-ttu-id="68ee3-104">订单承诺</span><span class="sxs-lookup"><span data-stu-id="68ee3-104">Order promising</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="68ee3-105">本文提供有关订单承诺的信息。</span><span class="sxs-lookup"><span data-stu-id="68ee3-105">This article provides information about order promising.</span></span> <span data-ttu-id="68ee3-106">订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。</span><span class="sxs-lookup"><span data-stu-id="68ee3-106">Order promising helps you reliably promise delivery dates to your customers and gives you flexibility so that you can meet those dates.</span></span>
 

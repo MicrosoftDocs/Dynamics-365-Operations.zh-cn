@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3525972dd06020538a780f830cf832d7bfde3f8e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc6a7b601b492c781ad9e62a465439a993c58c9b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="monthly-average-cost-model-for-china"></a><span data-ttu-id="e2e63-103">中国的每月平均成本模型</span><span class="sxs-lookup"><span data-stu-id="e2e63-103">Monthly average cost model for China</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e2e63-104">库存成本用于确定仓库库存物料的成本或货币值。</span><span class="sxs-lookup"><span data-stu-id="e2e63-104">Inventory costing is used to determine the cost or monetary value of warehoused inventory items.</span></span>
 
@@ -60,6 +59,7 @@ ms.lasthandoff: 03/26/2018
 
 
 <span data-ttu-id="e2e63-143">许多中国贸易制造公司使用每月平均成本模型，因为这是一个简单的手动计算库存成本的方法。</span><span class="sxs-lookup"><span data-stu-id="e2e63-143">Many Chinese manufacturing and trading companies use a monthly average cost model because it is a simple means of manually calculating inventory value.</span></span> <span data-ttu-id="e2e63-144">下表比较用于句柄发货和收货交易记录在手动每月平均成本模型和每月平均成本模型中可用于 Microsoft Dynamics 365 for Finance and Operations 中。</span><span class="sxs-lookup"><span data-stu-id="e2e63-144">The following table compares the processes that are used to handle issue and receipt transactions in the manual monthly average cost model and the monthly average cost model that is available in Microsoft Dynamics 365 for Finance and Operations.</span></span>
+
 | <span data-ttu-id="e2e63-145">手动每月平均成本模型</span><span class="sxs-lookup"><span data-stu-id="e2e63-145">Manual monthly average cost model</span></span>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           | <span data-ttu-id="e2e63-146">在 Finance and Operations 中的每月平均成本模型</span><span class="sxs-lookup"><span data-stu-id="e2e63-146">Monthly average cost model in Finance and Operations</span></span>                                                                                                                                                        |
 |-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <span data-ttu-id="e2e63-147">计算每月平均成本，包括所有收货和发货交易记录。</span><span class="sxs-lookup"><span data-stu-id="e2e63-147">The monthly average cost is calculated, including all receipt and issue transactions.</span></span> <span data-ttu-id="e2e63-148">如果收货交易记录尚未开票，考虑估计的实际价格。</span><span class="sxs-lookup"><span data-stu-id="e2e63-148">If the receipt transactions have not been invoiced, the estimated physical price is considered.</span></span> <span data-ttu-id="e2e63-149">计算每月平均成本用于结算当月的发货交易记录，它们是否开票。</span><span class="sxs-lookup"><span data-stu-id="e2e63-149">The calculated monthly average cost is used to settle all issued transactions for the month, whether they are invoiced or not.</span></span> <span data-ttu-id="e2e63-150">将收货开票时，如果在估计实际价格与发票上的价格之间有差异，该差额将添加到现有库存成本。</span><span class="sxs-lookup"><span data-stu-id="e2e63-150">When the receipts are invoiced, if there are differences between the estimated physical price and the invoiced price, the difference is added to the current on-hand inventory value.</span></span> <span data-ttu-id="e2e63-151">不对以前开出的交易记录进行调整。</span><span class="sxs-lookup"><span data-stu-id="e2e63-151">No adjustment is made to the previously issued transactions.</span></span> <span data-ttu-id="e2e63-152">如果当前库存数量为 0 (0)，则该差额将在支出帐户中进行调整。</span><span class="sxs-lookup"><span data-stu-id="e2e63-152">If the current inventory quantity is 0 (zero), the differences are adjusted in the expense account.</span></span> | <span data-ttu-id="e2e63-153">仅从已开票的收货计算每月平均成本，并仅结算已开票的发货交易记录。</span><span class="sxs-lookup"><span data-stu-id="e2e63-153">Only the monthly average cost from invoiced receipts is calculated, and only invoiced issue transactions are settled.</span></span> <span data-ttu-id="e2e63-154">仅当开票时，才会计算未开票收货和发货交易记录并结算。</span><span class="sxs-lookup"><span data-stu-id="e2e63-154">Non-invoiced receipts and issue transactions are calculated and settled only when they are invoiced.</span></span> |

@@ -16,16 +16,16 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e9bf83269c34133509734691fd018ee703c40626
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6cc5c5b8dc60e3807a535b0d40e68200fb4da165
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-accounts-payable-invoice-matching-validation"></a><span data-ttu-id="75ab2-103">设置应付账款发票匹配验证</span><span class="sxs-lookup"><span data-stu-id="75ab2-103">Set up accounts payable invoice matching validation</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="75ab2-104">此记录使用 USMF 公司演示。</span><span class="sxs-lookup"><span data-stu-id="75ab2-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="75ab2-105">应付账款经理或会计经理将执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="75ab2-105">The accounts payable manager or accounting manager role would perform these steps.</span></span> <span data-ttu-id="75ab2-106">在您开始前，请确保选择发票匹配 Configuration Key。</span><span class="sxs-lookup"><span data-stu-id="75ab2-106">Before you begin, make sure that the Invoice matching configuration key is selected.</span></span> <span data-ttu-id="75ab2-107">通过使用费用，如果您的跟踪法人费用，例如运费，请确保选择费用 Configuration Key。</span><span class="sxs-lookup"><span data-stu-id="75ab2-107">If your legal entity tracks expenses, such as freight, by using charges, make sure that the Charges configuration key is selected.</span></span>  <span data-ttu-id="75ab2-108">应付账款发票匹配是匹配供应商发票、采购订单和装箱单信息的一个流程。</span><span class="sxs-lookup"><span data-stu-id="75ab2-108">Accounts payable invoice matching is the process of matching vendor invoice, purchase order, and product receipt information.</span></span> <span data-ttu-id="75ab2-109">在这些单据之间的差异称作匹配差异。</span><span class="sxs-lookup"><span data-stu-id="75ab2-109">Differences among these documents are called matching discrepancies.</span></span> <span data-ttu-id="75ab2-110">用指定的匹配差异容差进行比较。</span><span class="sxs-lookup"><span data-stu-id="75ab2-110">Matching discrepancies are compared with the tolerances that are specified.</span></span> <span data-ttu-id="75ab2-111">如果匹配差异超过容差百分比或金额，匹配差异图标将显示在“供应商发票”窗体上和“发票匹配详细信息”窗体上。</span><span class="sxs-lookup"><span data-stu-id="75ab2-111">If a matching discrepancy exceeds the tolerance percentage or amount, match variance icons are displayed in the Vendor invoice form and in the Invoice matching details form.</span></span>
 

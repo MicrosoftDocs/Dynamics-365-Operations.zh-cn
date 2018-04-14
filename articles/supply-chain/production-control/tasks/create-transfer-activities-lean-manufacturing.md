@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 010ac08fa96ead49b6ecbbe083e59fb96427e29e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7fed5129a963d4c911ffe0b007dce342837ebb65
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-transfer-activities-for-lean-manufacturing"></a><span data-ttu-id="134a9-103">创建 lean manufacturing 的转移活动</span><span class="sxs-lookup"><span data-stu-id="134a9-103">Create transfer activities for lean manufacturing</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="134a9-104">创建 lean manufacturing 的转移活动。</span><span class="sxs-lookup"><span data-stu-id="134a9-104">Create a transfer activity for lean manufacturing.</span></span> 
 

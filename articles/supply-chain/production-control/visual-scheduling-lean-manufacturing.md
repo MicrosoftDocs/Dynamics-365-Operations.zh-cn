@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92beae76b35da6e18d1d9b2621b48b9a46dfaad0
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9a7f7c3f69c38abe50da9b7880850579a4e84568
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="visual-scheduling-for-lean-manufacturing"></a><span data-ttu-id="8e566-103">用于精益生产的可视排产</span><span class="sxs-lookup"><span data-stu-id="8e566-103">Visual scheduling for lean manufacturing</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="8e566-104">本主题提供关于看板计划板的信息，生产规划人员可以使用看板计划板控制和优化看板作业的生产计划。</span><span class="sxs-lookup"><span data-stu-id="8e566-104">This topic provides information about the Kanban schedule board, which the production planner can use to control and optimize the production plan for kanban jobs.</span></span>
 

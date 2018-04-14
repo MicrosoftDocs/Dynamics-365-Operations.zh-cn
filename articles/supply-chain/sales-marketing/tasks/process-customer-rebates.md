@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8278a57271314104c36b074c7a7ee422751f2c19
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="generate-and-process-customer-rebates"></a><span data-ttu-id="0e2fd-103">生成和处理客户返利</span><span class="sxs-lookup"><span data-stu-id="0e2fd-103">Generate and process customer rebates</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0e2fd-104">该过程会说明如何处理从要求生成到将它们作为应计项目过帐到“应收账款”的客户返利。</span><span class="sxs-lookup"><span data-stu-id="0e2fd-104">This procedure demonstrates how to process customer rebates from claim generation to the point of passing them as accruals to Accounts receivable.</span></span> <span data-ttu-id="0e2fd-105">它会从头至尾引导您完成特定示例，以解释返利行的各种条件如何对将被记入客户帐上的最终金额产生影响。</span><span class="sxs-lookup"><span data-stu-id="0e2fd-105">It walks you through a specific example to explain how the various conditions on the rebate lines affect the final amounts that will be credited to the customer.</span></span> <span data-ttu-id="0e2fd-106">在开始该指南之前，您需要使用 USMF 公司演示数据，并完成以下任务：(1) 转至“应收账款参数”页面，并先后展开“价格”选项卡和“价格详情”选项卡，然后检查“启用价格详情”选项是否被设置为“是”。</span><span class="sxs-lookup"><span data-stu-id="0e2fd-106">You need to use the USMF demo data company, and carry out the following tasks before you start the guide: (1) Go to the Accounts receivable parameters page, and expand the Prices tab and then the Price details tab, and check that the Enable price details option is set to Yes.</span></span> <span data-ttu-id="0e2fd-107">(2) 转至“返利协议”页面，并选择客户返利协议：USMF-000001.</span><span class="sxs-lookup"><span data-stu-id="0e2fd-107">(2) Go to the Rebate agreements page and select the customer rebate agreement: USMF-000001.</span></span> <span data-ttu-id="0e2fd-108">如果“工作流审核状态”字段未被设置为“已审核”，您需要单击“操作窗格”上的“验证”，以批准该工作流程。</span><span class="sxs-lookup"><span data-stu-id="0e2fd-108">If the Workflow approval status field is not set to Approved, you need click Validation on the Action pane to approve it.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9149378047fc22efbd401b7af86df07c1403e4f5
-ms.openlocfilehash: cfe920b2ef493ab3ae36a9557001086ed99c3e4e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ae6f2358cb8e7d1f093f9fcbf60b0957e9e6a629
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/04/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a><span data-ttu-id="98b52-103">从应付账款创建和购置资产</span><span class="sxs-lookup"><span data-stu-id="98b52-103">Create and acquire assets from accounts payable</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="98b52-104">本指到任务帮助了解如何遵照采购流程来创建和购置固定资产。 </span><span class="sxs-lookup"><span data-stu-id="98b52-104">This task guide will walk through creation and acquisition of a fixed asset with the purchasing process.</span></span> <span data-ttu-id="98b52-105">本任务需要用到普通及应付账目会计和演示公司USMF的数据。</span><span class="sxs-lookup"><span data-stu-id="98b52-105">It uses the Accountant and Accounts payable clerks and the demo company USMF.</span></span>
 

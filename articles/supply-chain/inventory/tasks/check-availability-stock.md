@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 74eaa59db44e21b3ddfae38d28f84712959cc40e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4b08aa7376bee6526d1993ee38916b60d0e0648
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="check-the-availability-of-stock"></a><span data-ttu-id="3c7d5-103">检查库存可用性</span><span class="sxs-lookup"><span data-stu-id="3c7d5-103">Check the availability of stock</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3c7d5-104">此过程显示如何检查特定物料编号的现有和实际现有库存量。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-104">This procedure shows you how to check on-hand and physical on-hand inventory for a specific item number.</span></span> <span data-ttu-id="3c7d5-105">它还向您显示如何获取有关物料的供应信息。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-105">It also shows you how to get supply information related to an item.</span></span> <span data-ttu-id="3c7d5-106">实际现有库存量为可用现有库存量，即购买、接收和登记的库存量。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-106">Physical on-hand inventory is the on-hand inventory that’s available – that is, it’s purchased, received and registered.</span></span> <span data-ttu-id="3c7d5-107">现有库存量不仅包括可用的现有库存量，而且还包括已经订购但尚未收到或登记的库存量。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-107">On-hand inventory includes the available on-hand inventory, but also the inventory that’s been ordered and is expected, but not yet received or registered.</span></span> <span data-ttu-id="3c7d5-108">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-108">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="3c7d5-109">如果您正在使用 USMF，则可以使用显示的示例值。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-109">If you are using USMF you can use the example values that are shown.</span></span> <span data-ttu-id="3c7d5-110">这些任务通常由仓库工作人员完成。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-110">These tasks would typically be carried out by a warehouse worker.</span></span>
 

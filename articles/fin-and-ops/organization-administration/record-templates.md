@@ -18,17 +18,16 @@ ms.author: pvillads
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ef5e95d9d6beed10cd6c80aa131c5cbef85c07a8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 298f34871265dbf5c437dcdc6c05270b4e2a9a9d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="record-templates"></a><span data-ttu-id="ea275-103">记录模板</span><span class="sxs-lookup"><span data-stu-id="ea275-103">Record templates</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="ea275-104">本文介绍记录模板的概念并说明如何使用它们创建共享信息的记录。</span><span class="sxs-lookup"><span data-stu-id="ea275-104">This article introduces the concept of record templates and explains how they can be used to create records that share information.</span></span>
 

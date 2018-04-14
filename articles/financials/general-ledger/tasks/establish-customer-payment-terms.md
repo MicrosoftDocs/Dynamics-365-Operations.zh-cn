@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: 04b45508047d26ef7c08ede5862be75835783ef5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e8b4a8f304f8d4b7323b1432413e183df74060eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="establish-customer-payment-terms"></a><span data-ttu-id="4fff2-103">设定客户付款期限</span><span class="sxs-lookup"><span data-stu-id="4fff2-103">Establish customer payment terms</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4fff2-104">此程序定义了一个现金折扣和到期日期设置。</span><span class="sxs-lookup"><span data-stu-id="4fff2-104">This procedure defines a cash discount and due date setup.</span></span> <span data-ttu-id="4fff2-105">此任务指南使用 USMF 公司演示。</span><span class="sxs-lookup"><span data-stu-id="4fff2-105">This task guide uses the USMF demo company.</span></span>
 

@@ -17,14 +17,14 @@ ms.author: twheeloc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6fade54157cab7a3ae1026afdcc166838765bf74
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 # <a name="electronic-reporting-sample-check-formats"></a><span data-ttu-id="ae0fc-103">电子申报示例支票格式</span><span class="sxs-lookup"><span data-stu-id="ae0fc-103">Electronic reporting sample check formats</span></span>
 

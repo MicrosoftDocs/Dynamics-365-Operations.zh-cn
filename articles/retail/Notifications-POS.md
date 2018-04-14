@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 0d409b3b7f19ca31d9c720bca191f1ddba81caa3
-ms.openlocfilehash: a55af4c26d74cc392d3c53aacb66e0a8bc97abf2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 483bb63f9fe9d88c8d5f3a6c46b372f344f90cdd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a><span data-ttu-id="1ce6d-104">在销售点中显示订单通知</span><span class="sxs-lookup"><span data-stu-id="1ce6d-104">Show order notifications in the point of sale</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="1ce6d-105">在现代零售环境中，商店店员被分配了各种任务，例如帮助客户、输入交易记录、执行存货盘点以及在商店接收订单。</span><span class="sxs-lookup"><span data-stu-id="1ce6d-105">In the modern retail environment, store associates are assigned various tasks, such as helping customers, entering transactions, doing stock counts, and receiving orders in the store.</span></span> <span data-ttu-id="1ce6d-106">销售点 (POS) 客户端提供一个应用程序，可供店员执行所有这些任务和其他大量任务。</span><span class="sxs-lookup"><span data-stu-id="1ce6d-106">The point of sale (POS) client provides a single application where associates can perform all these tasks and many others.</span></span> <span data-ttu-id="1ce6d-107">由于各种任务必须在当天执行，所以可能必须在需要店员注意时通知店员。</span><span class="sxs-lookup"><span data-stu-id="1ce6d-107">Because various tasks must be performed during the day, associates might have to be notified when something requires their attention.</span></span> <span data-ttu-id="1ce6d-108">POS 中的通知框架可以提供帮助，方法是让零售商配置基于角色的通知。</span><span class="sxs-lookup"><span data-stu-id="1ce6d-108">The notification framework in the POS helps by letting retailers configure role-based notifications.</span></span> <span data-ttu-id="1ce6d-109">在具有应用程序更新 5 的 Microsoft Dynamics 365 for Retail 中，这些通知仅可针对 POS 操作进行配置。</span><span class="sxs-lookup"><span data-stu-id="1ce6d-109">In Microsoft Dynamics 365 for Retail with application update 5, these notifications can be configured only for POS operations.</span></span>
 

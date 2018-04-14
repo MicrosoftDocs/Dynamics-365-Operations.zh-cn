@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8ede40951d08e159358b713fc3dde46576a1b4e3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1d2448642b0f60f8c060b3fd3e04b22e269814d4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-cost-control-workspace-parameters"></a><span data-ttu-id="fd609-103">配置成本控制工作区参数</span><span class="sxs-lookup"><span data-stu-id="fd609-103">Configure cost control workspace parameters</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fd609-104">此过程用于配置“成本控制”工作区，以便组织中各级经理可洞察自己的成本对象，如成本中心和产品组。</span><span class="sxs-lookup"><span data-stu-id="fd609-104">Use this procedure to configure the Cost control workspace so that managers at various levels in an organization can gain insight into their cost objects, such as cost centers and product groups.</span></span> <span data-ttu-id="fd609-105">USP2 演示公司用于创建此录制。</span><span class="sxs-lookup"><span data-stu-id="fd609-105">The USP2 demo company was used to create this recording.</span></span>
 

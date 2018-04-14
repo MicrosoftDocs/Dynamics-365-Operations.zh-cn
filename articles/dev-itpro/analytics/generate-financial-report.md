@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: 95669d83fdf69a6d55dd7ee1e4e33a67108e0371
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e4c49a9aaae2d6c7324dfb6a13f6079610bb24fa
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="generate-a-financial-report"></a><span data-ttu-id="9538d-103">生成财务报表</span><span class="sxs-lookup"><span data-stu-id="9538d-103">Generate a financial report</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9538d-104">本主题提供了有关生成财务报表的信息。</span><span class="sxs-lookup"><span data-stu-id="9538d-104">This topic provides information about generating a financial report.</span></span> 
 
@@ -50,13 +49,13 @@ ms.lasthandoff: 12/01/2017
 ## <a name="generate-a-financial-report"></a><span data-ttu-id="9538d-115">生成财务报表</span><span class="sxs-lookup"><span data-stu-id="9538d-115">Generate a financial report</span></span>
 
 <span data-ttu-id="9538d-116">若要使用 Microsoft Dynamics 365 for Finance and Operations 生成财务报表，请转到**总帐** > **查询和报表** > **财务报表**。</span><span class="sxs-lookup"><span data-stu-id="9538d-116">To generate a financal report with Microsoft Dynamics 365 for Finance and Operations, go to **General ledger** > **Inquiries and reports** > **Financial reports**.</span></span> 
- - <span data-ttu-id="9538d-117">选择要生成的报表并单击**生成**。</span><span class="sxs-lookup"><span data-stu-id="9538d-117">Select a report to generate and click **Generate**.</span></span> 
- - <span data-ttu-id="9538d-118">填写**报表日期**字段，然后单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="9538d-118">Fill in the **Report date** field and click **OK**.</span></span>
- 
- <span data-ttu-id="9538d-119">在报表生成后，报表可以在**报表**部分查看。</span><span class="sxs-lookup"><span data-stu-id="9538d-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
- <span data-ttu-id="9538d-120">您可以选择**查看**或**删除**报表。</span><span class="sxs-lookup"><span data-stu-id="9538d-120">You can select to **View** or **Delete** the report.</span></span>
- 
- 
+- <span data-ttu-id="9538d-117">选择要生成的报表并单击**生成**。</span><span class="sxs-lookup"><span data-stu-id="9538d-117">Select a report to generate and click **Generate**.</span></span> 
+- <span data-ttu-id="9538d-118">填写**报表日期**字段，然后单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="9538d-118">Fill in the **Report date** field and click **OK**.</span></span>
+
+  <span data-ttu-id="9538d-119">在报表生成后，报表可以在**报表**部分查看。</span><span class="sxs-lookup"><span data-stu-id="9538d-119">After the report has been generated, the report will be available to view in the **Reports** section.</span></span>
+  <span data-ttu-id="9538d-120">您可以选择**查看**或**删除**报表。</span><span class="sxs-lookup"><span data-stu-id="9538d-120">You can select to **View** or **Delete** the report.</span></span>
+
+
 <span data-ttu-id="9538d-121">若要使用**报表设计器**生成报表，请打开报表定义，然后单击工具栏中的“生成”按钮。</span><span class="sxs-lookup"><span data-stu-id="9538d-121">To generate a report using **Report designer**, open the report definition and then click the Generate button in the toolbar.</span></span> <span data-ttu-id="9538d-122">“报表队列状态”窗口将打开并指示您的报表在队列中的位置。</span><span class="sxs-lookup"><span data-stu-id="9538d-122">The Report Queue Status window will open and indicate the location of your report in the queue.</span></span> <span data-ttu-id="9538d-123">默认情况下，生成的报表将在 Web 查看器中打开。</span><span class="sxs-lookup"><span data-stu-id="9538d-123">By default, the generated report will open in the Web Viewer.</span></span>
 
 > [!NOTE]
@@ -159,7 +158,7 @@ ms.lasthandoff: 12/01/2017
 | <span data-ttu-id="9538d-237">打开所选报表定义</span><span class="sxs-lookup"><span data-stu-id="9538d-237">Open the selected report definition</span></span>  | <span data-ttu-id="9538d-238">Ctrl+R</span><span class="sxs-lookup"><span data-stu-id="9538d-238">Ctrl+R</span></span>                     |
 | <span data-ttu-id="9538d-239">打开所选行定义</span><span class="sxs-lookup"><span data-stu-id="9538d-239">Open the selected row definition</span></span>     | <span data-ttu-id="9538d-240">Ctrl+O</span><span class="sxs-lookup"><span data-stu-id="9538d-240">Ctrl+O</span></span>                     |
 
- 
+
 <a name="see-also"></a><span data-ttu-id="9538d-241">请参阅</span><span class="sxs-lookup"><span data-stu-id="9538d-241">See also</span></span>
 --------
 

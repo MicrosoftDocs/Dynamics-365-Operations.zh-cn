@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 714a892ff4c168ee3ba1cefd25ae18345af5631b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3313299876ee8c3e540c7d5ca5cbd160a94784c3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="remove-outliers-from-historical-transaction-data-when-calculating-a-demand-forecast"></a><span data-ttu-id="c8455-104">在计算需求预测时，需从历史交易记录数据中删除离群值</span><span class="sxs-lookup"><span data-stu-id="c8455-104">Remove outliers from historical transaction data when calculating a demand forecast</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c8455-105">本文描述如何从用于计算需求预测的历史数据中排除外离群值。</span><span class="sxs-lookup"><span data-stu-id="c8455-105">This article describes how to exclude outliers from the historical data that is used to calculate a demand forecast.</span></span> <span data-ttu-id="c8455-106">通过排除离群值，您可以提高预测准确性。</span><span class="sxs-lookup"><span data-stu-id="c8455-106">By excluding outliers, you can improve forecast accuracy.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2652a75f9c4509addd5804d4798f1bc142106c60
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cc42a3d43914dd62b97e1be1f9eb7f9c4f01ea09
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a><span data-ttu-id="912a6-103">配置销售代表的功能模板</span><span class="sxs-lookup"><span data-stu-id="912a6-103">Configure the functionality profile for a sales representative</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="912a6-104">此过程演示如何配置应用于销售代表的商店功能配置文件设置。</span><span class="sxs-lookup"><span data-stu-id="912a6-104">This procedure demonstrates how to configure a store's functionality profile settings that apply to sales representatives.</span></span> <span data-ttu-id="912a6-105">此过程使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="912a6-105">This procedures uses the USRT demo data company.</span></span>
 

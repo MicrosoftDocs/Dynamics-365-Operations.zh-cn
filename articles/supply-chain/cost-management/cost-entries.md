@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d8a443d03f8eb2d6ff44d869964b47b6569ce4c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 39e31b7290668ae6d84b699a45fcd999c558e841
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-entries"></a><span data-ttu-id="b447a-104">成本条目</span><span class="sxs-lookup"><span data-stu-id="b447a-104">Cost entries</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b447a-105">本文提供有关成本条目及其何时创建的信息。</span><span class="sxs-lookup"><span data-stu-id="b447a-105">This article provides information about cost entries and when they are created.</span></span> <span data-ttu-id="b447a-106">成本条目是登记指定事件的数量和成本的记录。</span><span class="sxs-lookup"><span data-stu-id="b447a-106">A cost entry is a record that registers the quantity and cost of a given event.</span></span>
 

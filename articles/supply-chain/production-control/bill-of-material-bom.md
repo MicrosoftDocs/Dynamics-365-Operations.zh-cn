@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 203eddac527bc91b448ca4227ae2b67086069c58
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="bills-of-materials-and-formulas"></a><span data-ttu-id="e7c67-103">物料清单和配方</span><span class="sxs-lookup"><span data-stu-id="e7c67-103">Bills of materials and formulas</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="e7c67-104">本主题提供有关物料清单 (BOM) 和配方的信息，物料清单和配方是产品和产品变型定义的核心部分。</span><span class="sxs-lookup"><span data-stu-id="e7c67-104">This topic provides information about bills of materials (BOMs) and formulas, which are a central part of the definition of products and product variants.</span></span> <span data-ttu-id="e7c67-105">物料清单和配方指定特定产品必需的成分或材料。</span><span class="sxs-lookup"><span data-stu-id="e7c67-105">BOMs and formulas specify the required materials or ingredients for a specific product.</span></span> <span data-ttu-id="e7c67-106">配方还指定特定生产环境中接收的联产品和副产品。</span><span class="sxs-lookup"><span data-stu-id="e7c67-106">Formulas also specify the co-products and by-products that are received in a specific production context.</span></span> 
 

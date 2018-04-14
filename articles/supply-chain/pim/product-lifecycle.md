@@ -20,24 +20,23 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8625e9c9b91acee52e2207d462f38286cafeb773
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="product-lifecycle-state"></a><span data-ttu-id="790f4-103">产品生命周期状态</span><span class="sxs-lookup"><span data-stu-id="790f4-103">Product lifecycle state</span></span> 
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="790f4-104">产品生命周期状态记载已发布产品或产品变型的生命周期状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-104">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="790f4-105">产品生命周期状态由用户定义，通常是产品经理或产品主数据经理。</span><span class="sxs-lookup"><span data-stu-id="790f4-105">Product lifecycle states are defined by the user, typically a product manager or a product master data manager.</span></span> <span data-ttu-id="790f4-106">特定业务流程，例如主计划，可能受特定生命周期状态的影响。</span><span class="sxs-lookup"><span data-stu-id="790f4-106">Specific business processes, such as master planning, can be affected by a specific lifecycle state.</span></span>   
- 
+
 <span data-ttu-id="790f4-107">已发布产品或产品变型可以与记载特定产品或变型目前所处生命周期状态的产品生命周期状态关联。</span><span class="sxs-lookup"><span data-stu-id="790f4-107">A released product or product variant can be associated with a product lifecycle state that documents in which lifecycle state a specific product or variant is currently in.</span></span> <span data-ttu-id="790f4-108">您可以通过指定状态名称和描述的方式定义任何数量的产品生命周期状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-108">You can define any number of product lifecycle states by assigning a state name and description.</span></span> <span data-ttu-id="790f4-109">您可以选择一个生命周期状态作为新发布产品的默认状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-109">You can select one lifecycle state as the default state for new released products.</span></span> <span data-ttu-id="790f4-110">已发布产品变型在创建时从它们已发布的基础产品继承其产品生命周期状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-110">Released product variants inherit their product lifecycle state from their released product master on creation.</span></span> <span data-ttu-id="790f4-111">在已发布基础产品上更改生命周期状态时，您可以选择更新具有相同原始状态的所有现有变型。</span><span class="sxs-lookup"><span data-stu-id="790f4-111">When changing the lifecycle state on a released product master, you can choose to update all existing variants that have the same original state.</span></span>  
 
 ## <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="790f4-112">创建新的产品生命周期状态</span><span class="sxs-lookup"><span data-stu-id="790f4-112">Create a new product lifecycle state</span></span> 
- 
+
 - <span data-ttu-id="790f4-113">要创建新的产品生命周期状态，请播放或阅读任务指南**创建新的产品生命周期状态**。</span><span class="sxs-lookup"><span data-stu-id="790f4-113">To create a new product lifecycle state, play or read the task guide **Create a new product lifecycle state**.</span></span> 
 
 -  <span data-ttu-id="790f4-114">要创建默认的产品生命周期状态，请播放或阅读任务指南**创建默认的产品生命周期状态**。</span><span class="sxs-lookup"><span data-stu-id="790f4-114">To create a default product lifecycle state, play or read the task guide **Create a default product lifecycle state**.</span></span>   
@@ -73,7 +72,7 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > <span data-ttu-id="790f4-134">由于性能原因，强烈建议使用对主计划禁用的产品生命周期状态关联所有过时的已发布产品或产品变型，尤其是当使用不可重复使用的产品配置变型时。</span><span class="sxs-lookup"><span data-stu-id="790f4-134">For performance reasons, it is highly recommended to associate all obsolete released products or product variants, especially when working with non-reusable product configuration variants, with a product lifecycle state that is deactivated for master planning.</span></span>  
- 
+
 ## <a name="default-migration-import-and-export"></a><span data-ttu-id="790f4-135">默认迁移、导入和导出</span><span class="sxs-lookup"><span data-stu-id="790f4-135">Default migration, import, and export</span></span> 
 
 <span data-ttu-id="790f4-136">产品生命周期状态不受数据实体的支持，且生命周期状态无法通过已发布的产品数据实体设置为可变状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-136">The product lifecycle states are not supported by data entities, and the lifecycle state cannot be set to a variable state through the released product data entities.</span></span>
@@ -81,18 +80,18 @@ ms.lasthandoff: 02/08/2018
 -  <span data-ttu-id="790f4-137">从以前的版本中迁移时，所有产品和产品变型的生命周期状态将为空。</span><span class="sxs-lookup"><span data-stu-id="790f4-137">On migration from previous releases, the lifecycle state of all products and product variants will be blank.</span></span>  
 -  <span data-ttu-id="790f4-138">通过数据实体导入已发布的产品时，将在创建时应用默认的生命周期状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-138">When importing released products through a data entity, the default lifecycle state will be applied on creation.</span></span>  
 -  <span data-ttu-id="790f4-139">通过数据实体导入已发布的产品变型时，将导入已发布的基础产品的产品生命周期状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-139">When importing released product variants through a data entity, the product lifecycle state of the released product master will be imported.</span></span>   
- 
+
 ## <a name="find-obsolete-products-and-products-variants"></a><span data-ttu-id="790f4-140">查找过时的产品和产品变型</span><span class="sxs-lookup"><span data-stu-id="790f4-140">Find obsolete products and products variants</span></span> 
- 
+
 <span data-ttu-id="790f4-141">您可以运行模拟分析以查找过时的已发布产品或产品变型，然后更新它们的产品生命周期状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-141">You can run a simulation analysis to find the obsolete released products or product variants and then update their product lifecycle status.</span></span> <span data-ttu-id="790f4-142">要查找过时的产品，请播放和阅读任务指南**查找过时的产品变型并分配产品生命周期状态**。</span><span class="sxs-lookup"><span data-stu-id="790f4-142">To find obsolete products, play and read the task guide **Find obsolete product variants and assign a product lifecycle state**.</span></span> <span data-ttu-id="790f4-143">此任务指南显示如何查找过时的已发布产品或产品变型以及如何将产品生命周期状态关联到过时的产品。</span><span class="sxs-lookup"><span data-stu-id="790f4-143">This task guide shows how to find obsolete released products or product variants and how to associate a product lifecycle state to the obsolete products.</span></span> <span data-ttu-id="790f4-144">它还显示如何查看模拟结果以及评估在不通过模拟运行更新时有多少产品和产品变型将与新产品生命周期状态关联。</span><span class="sxs-lookup"><span data-stu-id="790f4-144">It also shows hot to view the simulation results and assess how many products and product variants will be associated with a new product lifecycle state when running the update without simulation.</span></span>  
- 
+
 <span data-ttu-id="790f4-145">通过在模拟模式中运行分析，标识为过时的产品和产品变型显示在特定窗体中，可以轻松地查看。</span><span class="sxs-lookup"><span data-stu-id="790f4-145">By running the analysis in a simulation mode, the products and product variants identified as obsolete are displayed in a specific form, where they can easily be reviewed.</span></span> <span data-ttu-id="790f4-146">分析过程将搜索交易记录和特定主数据，以识别在特定可变期间内没有需求且没有可以产生需求的主数据的产品。</span><span class="sxs-lookup"><span data-stu-id="790f4-146">The analysis searches for transactions and specific master data to identify products that have no demand within a variable period and no master data that can result in demand.</span></span> <span data-ttu-id="790f4-147">在可变期间内新发布的产品可以从分析中排除。</span><span class="sxs-lookup"><span data-stu-id="790f4-147">New released products within a variable period can be excluded from the analysis.</span></span> <span data-ttu-id="790f4-148">当分析模拟返回预期结果时，用户可以运行分析并对在分析过程中识别为过时的所有产品设置新的产品生命周期状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-148">When the analysis simulation returns the expected result, the user can run the analysis and set a new product lifecycle state to all products identified as obsolete by the analysis.</span></span>  
- 
+
 > [!NOTE]
 > <span data-ttu-id="790f4-149">请注意，所有分析和更新必须在相同法人内进行。</span><span class="sxs-lookup"><span data-stu-id="790f4-149">Note that all analysis and updates must be done within the same legal entity.</span></span>  
- 
+
 ## <a name="criteria-to-select-and-update-released-products-or-product-variants"></a><span data-ttu-id="790f4-150">选择和更新已发布产品或产品变型的条件</span><span class="sxs-lookup"><span data-stu-id="790f4-150">Criteria to select and update released products or product variants</span></span> 
- 
+
 <span data-ttu-id="790f4-151">使用以下条件选择和更新已发布的产品和产品变型：</span><span class="sxs-lookup"><span data-stu-id="790f4-151">Use the following criteria to select and update the released products and product variants:</span></span> 
 
 -    <span data-ttu-id="790f4-152">产品或产品变型的产品生命周期状态必须不同于新的所需状态。</span><span class="sxs-lookup"><span data-stu-id="790f4-152">The product lifecycle state of the product or product variant must be different from the new desired state.</span></span> 

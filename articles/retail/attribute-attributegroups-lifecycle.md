@@ -19,16 +19,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad524e8d585da2140f3cdae17e3a1a2832ada3f0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a><span data-ttu-id="0ff3b-102">Finance and Operations 中各种零售实体的属性、属性组及其关联</span><span class="sxs-lookup"><span data-stu-id="0ff3b-102">Attributes, attribute groups, and their associations with various Retail entities in Finance and Operations</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="0ff3b-103">可通过*属性*和用户定义的字段（**如内存大小**、**硬盘容量**、**符合能源之星的要求**等）进一步描述产品及其特征。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-103">*Attributes* provide a way to further describe a product and its characteristics through user-defined fields (such as **Memory size**, **Hard disk capacity**, **Is Energy star compliant**, and so on).</span></span> <span data-ttu-id="0ff3b-104">在 Microsoft Dynamics 365 for Finance and Operations 中，可以将属性与各种零售实体（如产品类别和零售通道）关联，并且可以为属性设置默认值。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-104">In Microsoft Dynamics 365 for Finance and Operations, attributes can be associated with various Retail entities, such as product categories and retail channels, and default values can be set for them.</span></span> <span data-ttu-id="0ff3b-105">当产品与产品类别或销售渠道关联时，产品将继承属性及默认值。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-105">Products then inherit the attributes and the default values when they are associated with the product categories or retail channels.</span></span> <span data-ttu-id="0ff3b-106">默认值可在单个产品级别、在零售渠道级别或在零售目录中覆盖。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-106">The default values can be overridden at the individual product level, at the retail channel level, or in a retail catalog.</span></span>
  
@@ -227,13 +227,13 @@ ms.lasthandoff: 03/26/2018
 5. <span data-ttu-id="0ff3b-307">在**产品**快速选项卡中，选择所需产品，然后选择产品网格上方的**属性**。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-307">On the **Products** FastTab, select the required product, and then select **Attributes** above the product grid.</span></span>
 6. <span data-ttu-id="0ff3b-308">在以下快速选项卡上，更新所需属性的值。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-308">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="0ff3b-309">共享的产品媒体</span><span class="sxs-lookup"><span data-stu-id="0ff3b-309">Shared product media</span></span>
-    - <span data-ttu-id="0ff3b-310">共享产品属性</span><span class="sxs-lookup"><span data-stu-id="0ff3b-310">Shared product attributes</span></span>
-    - <span data-ttu-id="0ff3b-311">通道媒体</span><span class="sxs-lookup"><span data-stu-id="0ff3b-311">Channel media</span></span>
-    - <span data-ttu-id="0ff3b-312">渠道产品属性</span><span class="sxs-lookup"><span data-stu-id="0ff3b-312">Channel product attributes</span></span>
+   - <span data-ttu-id="0ff3b-309">共享的产品媒体</span><span class="sxs-lookup"><span data-stu-id="0ff3b-309">Shared product media</span></span>
+   - <span data-ttu-id="0ff3b-310">共享产品属性</span><span class="sxs-lookup"><span data-stu-id="0ff3b-310">Shared product attributes</span></span>
+   - <span data-ttu-id="0ff3b-311">通道媒体</span><span class="sxs-lookup"><span data-stu-id="0ff3b-311">Channel media</span></span>
+   - <span data-ttu-id="0ff3b-312">渠道产品属性</span><span class="sxs-lookup"><span data-stu-id="0ff3b-312">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="0ff3b-313">如果在 Finance and Operations 中创建共享产品介质和共享产品属性，它们将应用于所有零售产品。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="0ff3b-313">如果在 Finance and Operations 中创建共享产品介质和共享产品属性，它们将应用于所有零售产品。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-313">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 
 ![目录产品属性组](media/CatalogProdAttrValues.png)
 
@@ -249,11 +249,11 @@ ms.lasthandoff: 03/26/2018
 
 5. <span data-ttu-id="0ff3b-321">在以下快速选项卡上，更新所需属性的值。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-321">On the following FastTabs, update the values of the required attributes:</span></span>
 
-    - <span data-ttu-id="0ff3b-322">共享的产品媒体</span><span class="sxs-lookup"><span data-stu-id="0ff3b-322">Shared product media</span></span>
-    - <span data-ttu-id="0ff3b-323">共享产品属性</span><span class="sxs-lookup"><span data-stu-id="0ff3b-323">Shared product attributes</span></span>
-    - <span data-ttu-id="0ff3b-324">通道媒体</span><span class="sxs-lookup"><span data-stu-id="0ff3b-324">Channel media</span></span>
-    - <span data-ttu-id="0ff3b-325">渠道产品属性</span><span class="sxs-lookup"><span data-stu-id="0ff3b-325">Channel product attributes</span></span>
+   - <span data-ttu-id="0ff3b-322">共享的产品媒体</span><span class="sxs-lookup"><span data-stu-id="0ff3b-322">Shared product media</span></span>
+   - <span data-ttu-id="0ff3b-323">共享产品属性</span><span class="sxs-lookup"><span data-stu-id="0ff3b-323">Shared product attributes</span></span>
+   - <span data-ttu-id="0ff3b-324">通道媒体</span><span class="sxs-lookup"><span data-stu-id="0ff3b-324">Channel media</span></span>
+   - <span data-ttu-id="0ff3b-325">渠道产品属性</span><span class="sxs-lookup"><span data-stu-id="0ff3b-325">Channel product attributes</span></span>
 
-    > [!NOTE]
-    > <span data-ttu-id="0ff3b-326">如果在 Finance and Operations 中创建共享产品介质和共享产品属性，它们将应用于所有零售产品。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
+     > [!NOTE]
+     > <span data-ttu-id="0ff3b-326">如果在 Finance and Operations 中创建共享产品介质和共享产品属性，它们将应用于所有零售产品。</span><span class="sxs-lookup"><span data-stu-id="0ff3b-326">If shared product media and shared product attributes are created in Finance and Operations, they apply to all the retail products.</span></span>
 

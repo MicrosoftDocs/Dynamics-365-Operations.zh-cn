@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 5baea2a0f194012406d378effbc0ae5d4062fd65
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4ad9ab54fbe84c8ec47aa2bebcca44656124a73e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="initialize-stock-levels-in-the-warehouse"></a><span data-ttu-id="b1262-103">初始化仓库中的库存级别</span><span class="sxs-lookup"><span data-stu-id="b1262-103">Initialize stock levels in the warehouse</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b1262-104">该过程说明如何利用“库存移动日记帐”手动更新现有库存。</span><span class="sxs-lookup"><span data-stu-id="b1262-104">This procedure shows you how to get the on-hand inventory updated manually using an Inventory movement journal.</span></span> <span data-ttu-id="b1262-105">（也可根据导入交易的数据实体更新现有库存。）您可以通过演示数据公司 USMF 运行此指南，通过它可以获得所有的必要条件，如日记帐名称、项目设置、过帐文件以及帐号。</span><span class="sxs-lookup"><span data-stu-id="b1262-105">(It’s also possible to update on-hand inventory by importing transactions in data entities.) You can run this guide in demo data company USMF where all the prerequisites like journal name, item setup, posting profiles, and accounts are available.</span></span> <span data-ttu-id="b1262-106">该指南显示了所使用的物料和维度的特定值。</span><span class="sxs-lookup"><span data-stu-id="b1262-106">The guide suggests specific values for the item and dimensions that are used.</span></span> <span data-ttu-id="b1262-107">如果选择不同的项目，则需要输入不同的维度值。</span><span class="sxs-lookup"><span data-stu-id="b1262-107">If you choose a different item, you may need to enter values for different dimensions.</span></span>
 

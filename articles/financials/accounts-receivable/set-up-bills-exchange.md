@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 9b051c9a32a026af0680314f6821c251ada51d40
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 914f6685227dc53de0fa2dc7472bb735f98e23b2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-bills-of-exchange"></a><span data-ttu-id="338ef-103">设置汇票</span><span class="sxs-lookup"><span data-stu-id="338ef-103">Set up bills of exchange</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="338ef-104">此主题描述设置汇票的步骤。</span><span class="sxs-lookup"><span data-stu-id="338ef-104">This topic describes the steps for setting up bills of exchange.</span></span>
 

@@ -18,17 +18,17 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: ccff6533257379c0305f7414dd36e17d1c323c21
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cc6494ea8bbf7e80790e885bb56e914f2caebcba
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 
 # <a name="set-up-order-fulfillment-for-stores"></a><span data-ttu-id="7c000-103">设置商店订单履行</span><span class="sxs-lookup"><span data-stu-id="7c000-103">Set up order fulfillment for stores</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview"></a><span data-ttu-id="7c000-104">概览</span><span class="sxs-lookup"><span data-stu-id="7c000-104">Overview</span></span>
 <span data-ttu-id="7c000-105">许多零售商希望通过让商店填写订单的方式优化订单履行。</span><span class="sxs-lookup"><span data-stu-id="7c000-105">Many retailers would like to optimize order fulfillment by enabling stores to fill orders.</span></span> <span data-ttu-id="7c000-106">商店级别的订单履行有助于缓解特定商店的存货过剩情况，或者当商店产能过剩或与客户之间的装运距离较短时，从物流的角度而言具有必要性。</span><span class="sxs-lookup"><span data-stu-id="7c000-106">Order fulfillment at the store level can help to ease overstock scenarios for a specific store, or may be needed from a logistical standpoint in cases where a store has extra capacity or is located within closer shipping distance to the customer.</span></span> <span data-ttu-id="7c000-107">为了解决此需求，在销售点提供了统一订单履行操作。</span><span class="sxs-lookup"><span data-stu-id="7c000-107">To address this need, a unified order fulfillment operation is available at the point of sale.</span></span>

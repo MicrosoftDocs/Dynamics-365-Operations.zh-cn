@@ -16,15 +16,15 @@ ms.author: epopov
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9700571110a1b488e250dd8ee7b8c5c8f15cbc01
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cb78cbe1b2511039badc85bc596b8d77646f723f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a><span data-ttu-id="ea014-103">设置项目发票的付款单格式</span><span class="sxs-lookup"><span data-stu-id="ea014-103">Set up payment slip format for project invoices</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ea014-104">企业通常将打印的付款单附加到发票上以帮助客户，并提供用于过帐和结算的付款参考。</span><span class="sxs-lookup"><span data-stu-id="ea014-104">Businesses commonly attach printed payment slips to invoices to assist customers and provide a payment reference for posting and settlement.</span></span> <span data-ttu-id="ea014-105">除了销售发票和普通发票，付款单可用于项目或服务发票，催款单、利息单和帐户对账单。</span><span class="sxs-lookup"><span data-stu-id="ea014-105">The payment slip can be used for project or service invoices, collection letters, interest notes, and account statements, in addition to sales invoices and free text invoices.</span></span> <span data-ttu-id="ea014-106">若要处理付款单，首先设置您的债权人标识号和付款单附件格式。</span><span class="sxs-lookup"><span data-stu-id="ea014-106">To process payment slips, first set up your creditor identification number and payment slip attachment formats.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 506c4db7cd37fd85b3e132e7900eafdc4385fa5a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2b03bea4e9814c6be5b42d658633ddcd4a4e8281
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="design-a-questionnaire"></a><span data-ttu-id="1ec81-105">设计调查表</span><span class="sxs-lookup"><span data-stu-id="1ec81-105">Design a questionnaire</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="1ec81-106">本主题描述创建调查表的过程。</span><span class="sxs-lookup"><span data-stu-id="1ec81-106">This topic describes the process for creating a questionnaire.</span></span> <span data-ttu-id="1ec81-107">第一步是设计调查表。</span><span class="sxs-lookup"><span data-stu-id="1ec81-107">The first step is to design the questionnaire.</span></span> <span data-ttu-id="1ec81-108">在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。</span><span class="sxs-lookup"><span data-stu-id="1ec81-108">When you design a questionnaire, you not only write the questions and answers, but also create the structure that enables answers to be recorded and tabulated.</span></span> 
 

@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: 5f593880f52848d6b338bfb7532a652520382d02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 09712cc86cde75a922ab43eaf42d62c6048ee3a1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a><span data-ttu-id="dc6f5-103">审核和确认采购订单</span><span class="sxs-lookup"><span data-stu-id="dc6f5-103">Approve and confirm purchase orders</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="dc6f5-104">本文介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。</span><span class="sxs-lookup"><span data-stu-id="dc6f5-104">This article describes the statuses that a purchase order (PO) goes through after it has been created, and the effect of enabling change management on POs.</span></span>
 

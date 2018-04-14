@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: f791f811f78b788cae7e6417b4266d9f82662310
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a1d686106ffaf3b2f392b6c1f81c6bda8c8cdd95
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-agreements"></a><span data-ttu-id="22c31-104">销售协议</span><span class="sxs-lookup"><span data-stu-id="22c31-104">Sales agreements</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="22c31-105">此主题提供了有关销售协议的信息。</span><span class="sxs-lookup"><span data-stu-id="22c31-105">This topic provides information about sales agreements.</span></span> <span data-ttu-id="22c31-106">销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。</span><span class="sxs-lookup"><span data-stu-id="22c31-106">A sales agreement is a contract that commits the customer to buy products in a specific quantity or for a specific amount over time, in exchange for special prices and discounts.</span></span>
 

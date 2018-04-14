@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9a775366bdaecb59a375f245f7a4d17a659cab11
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 11e506c41eb5e8d5bd28db8e6d5ca51ff9e72a62
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-a-work-class"></a><span data-ttu-id="501f7-103">创建工作类</span><span class="sxs-lookup"><span data-stu-id="501f7-103">Create a work class</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="501f7-104">该过程会显示如何设置工作类。</span><span class="sxs-lookup"><span data-stu-id="501f7-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="501f7-105">工作类用于处理和/或限制工作指令行的类型，以便仓库工作人员可以在移动设备上进行处理。</span><span class="sxs-lookup"><span data-stu-id="501f7-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="501f7-106">可以藉由仓库工作人员可以访问的移动设备菜单项上的工作类和工作行上指定的工作类，确定工作人员可以处理的行。</span><span class="sxs-lookup"><span data-stu-id="501f7-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that’s specified on the work lines.</span></span> <span data-ttu-id="501f7-107">工作类还可用于验证工作指令行的存放位置。</span><span class="sxs-lookup"><span data-stu-id="501f7-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="501f7-108">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="501f7-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="501f7-109">该过程专门面向仓库经理。</span><span class="sxs-lookup"><span data-stu-id="501f7-109">This procedure is intended for the warehouse manager.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f75ee28343161026a73dd889b345d65ecc345884
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3c5c8f8b01b1e48856b45e3c81df5671a1a36935
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-sales-tax-authorities"></a><span data-ttu-id="480e7-103">设置增值税主管机构</span><span class="sxs-lookup"><span data-stu-id="480e7-103">Set up sales tax authorities</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="480e7-104">销售税主管机构是收缴需要申报和缴纳的销售税的实体。</span><span class="sxs-lookup"><span data-stu-id="480e7-104">Sales tax authorities are entities to which collected sales tax needs to be reported and paid.</span></span> <span data-ttu-id="480e7-105">您可以直接向销售税主管机构支付销售税，也可以通过为销售税主管机构创建的供应商帐户支付。</span><span class="sxs-lookup"><span data-stu-id="480e7-105">You can pay sales taxes to the authority directly or through a vendor account that you create for the sales tax authority.</span></span> <span data-ttu-id="480e7-106">如果您这样做，公司可以使用其日常付款程序及时向增值税主管机构付款。</span><span class="sxs-lookup"><span data-stu-id="480e7-106">If you do this, the company can use its usual payment routines to pay the sales tax authority on time.</span></span> <span data-ttu-id="480e7-107">如果您没有将增值税主管机构设置为供应商，则某个人必须在相应的到期日期时准备向增值税主管机构手动付款。</span><span class="sxs-lookup"><span data-stu-id="480e7-107">If you do not set up the tax authority as a vendor, someone must prepare a manual payment to the tax authority on the appropriate due date.</span></span> <span data-ttu-id="480e7-108">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="480e7-108">This task uses the USMF demo company.</span></span>
 

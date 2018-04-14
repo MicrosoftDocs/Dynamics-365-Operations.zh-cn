@@ -18,17 +18,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 8f89d0740098fbd5af9d838f1f4b7ddf47ee7e10
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6587189fe2a366caebd0dbaf34487d578815bb94
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-electronic-reporting-to-pull-data-into-power-bi"></a><span data-ttu-id="a83f3-103">配置电子申报以便将数据导入 Power BI</span><span class="sxs-lookup"><span data-stu-id="a83f3-103">Configure Electronic reporting to pull data into Power BI</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="a83f3-104">本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的 Finance and Operations 实例转移至 Power BI 服务。</span><span class="sxs-lookup"><span data-stu-id="a83f3-104">This topic explains how you can use your Electronic reporting (ER) configuration to arrange the transfer of data from your instance of Finance and Operations to Power BI services.</span></span> <span data-ttu-id="a83f3-105">例如，本主题使用内部统计交易记录作为必须转移的业务数据。</span><span class="sxs-lookup"><span data-stu-id="a83f3-105">As an example, this topic uses Intrastat transactions as business data that must be transferred.</span></span> <span data-ttu-id="a83f3-106">Power BI 地图可视化使用此内部统计交易记录数据显示 Power BI 报表上的公司导入/导出活动的分析视图。</span><span class="sxs-lookup"><span data-stu-id="a83f3-106">The Power BI map visualization uses this Intrastat transaction data to present a view for analysis of company import/export activities on the Power BI report.</span></span>
 
@@ -118,9 +117,9 @@ ms.lasthandoff: 02/23/2018
 ## <a name="create-a-power-bi-report-by-using-the-new-dataset"></a><span data-ttu-id="a83f3-217">使用新的数据集创建 Power BI 报表</span><span class="sxs-lookup"><span data-stu-id="a83f3-217">Create a Power BI report by using the new dataset</span></span>
 1. <span data-ttu-id="a83f3-218">单击您创建的**导入和导出详细信息** Power BI 数据集。</span><span class="sxs-lookup"><span data-stu-id="a83f3-218">Click the **Import and export details** Power BI dataset that you created.</span></span> 
 2. <span data-ttu-id="a83f3-219">配置可视化。</span><span class="sxs-lookup"><span data-stu-id="a83f3-219">Configure the visualization.</span></span> <span data-ttu-id="a83f3-220">例如，选择“**填充的地图**”可视化，然后进行以下配置：</span><span class="sxs-lookup"><span data-stu-id="a83f3-220">For example, select the **Filled map** visualization, and configure it as follows:</span></span>
- -   <span data-ttu-id="a83f3-221">将“**CountryOrigin**”数据集字段分配到地图可视化的“**位置**”字段。</span><span class="sxs-lookup"><span data-stu-id="a83f3-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
- -   <span data-ttu-id="a83f3-222">将“**量**”数据集字段分配到地图可视化的“**色饱和度**”字段。</span><span class="sxs-lookup"><span data-stu-id="a83f3-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
- -   <span data-ttu-id="a83f3-223">将“**活动**”和“**年度**”数据集字段添加到地图可视化的“**筛选器**”字段集合。</span><span class="sxs-lookup"><span data-stu-id="a83f3-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
+   -   <span data-ttu-id="a83f3-221">将“**CountryOrigin**”数据集字段分配到地图可视化的“**位置**”字段。</span><span class="sxs-lookup"><span data-stu-id="a83f3-221">Assign the **CountryOrigin** dataset field to the **Location** field of the map visualization.</span></span>
+   -   <span data-ttu-id="a83f3-222">将“**量**”数据集字段分配到地图可视化的“**色饱和度**”字段。</span><span class="sxs-lookup"><span data-stu-id="a83f3-222">Assign the **Amount** dataset field to the **Color saturation** field of the map visualization.</span></span>
+   -   <span data-ttu-id="a83f3-223">将“**活动**”和“**年度**”数据集字段添加到地图可视化的“**筛选器**”字段集合。</span><span class="sxs-lookup"><span data-stu-id="a83f3-223">Add the **Activity** and **Year** dataset fields to the **Filters** fields collection of the map visualization.</span></span>
 
 3. <span data-ttu-id="a83f3-224">将 Power BI 报表保存为“**导入和导出详细报表**”。</span><span class="sxs-lookup"><span data-stu-id="a83f3-224">Save the Power BI report as **Import and export details report**.</span></span> <span data-ttu-id="a83f3-225">[![导入和导出详细报表](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) 注意地图显示 Excel 文件中提及的国家/地区（在此示例中为奥地利和瑞士）。</span><span class="sxs-lookup"><span data-stu-id="a83f3-225">[![Import and export details report](./media/ger-power-bi-added-report-1024x498.png)](./media/ger-power-bi-added-report.png) Note that the map shows the countries/regions that are mentioned in the Excel file (Austria and Switzerland in this example).</span></span> <span data-ttu-id="a83f3-226">这些国家/地区通过颜色显示每个国家/地区开票金额的比例。</span><span class="sxs-lookup"><span data-stu-id="a83f3-226">These countries/regions are colored to show the proportion of invoiced amounts for each.</span></span> 
 4. <span data-ttu-id="a83f3-227">更新内部统计交易记录列表。</span><span class="sxs-lookup"><span data-stu-id="a83f3-227">Update the list of Intrastat transactions.</span></span> <span data-ttu-id="a83f3-228">添加由意大利发起的导出交易记录。</span><span class="sxs-lookup"><span data-stu-id="a83f3-228">The export transaction that originated from Italy is added.</span></span> <span data-ttu-id="a83f3-229">[![内部统计交易记录列表](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span><span class="sxs-lookup"><span data-stu-id="a83f3-229">[![Intrastat transactions list](./media/ger-power-bi-new-run-new-transaction-1024x321.png)](./media/ger-power-bi-new-run-new-transaction.png)</span></span> 

@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 577204b49355a470769237eb46ad74e7f319a55e
-ms.openlocfilehash: d308edfbfb614ef744cb879bd1dc9753601d39bb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eea198bd72d4434b2f7408816e75cabb3ac2bff9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/15/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a><span data-ttu-id="db6ad-104">订单输入截止时间</span><span class="sxs-lookup"><span data-stu-id="db6ad-104">Order entry deadlines</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="db6ad-105">本文提供有关订单条目截止时间的信息。</span><span class="sxs-lookup"><span data-stu-id="db6ad-105">This article provides information about order entry deadlines.</span></span> <span data-ttu-id="db6ad-106">订单条目截止日期是确定客户订单是否被视作（并履行）在当前日期或第二天接收。</span><span class="sxs-lookup"><span data-stu-id="db6ad-106">An order entry deadline is a cut-off time that determines whether a customer order is treated (and fulfilled) as if it was received on the current day or the next day.</span></span>
 

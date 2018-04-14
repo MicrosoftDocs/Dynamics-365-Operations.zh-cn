@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0eb5ec731655e2f023d941724a10d1cf12f8e558
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 403e1d3d4c599050f118ab019288784d7782ac2b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="develop-and-open-a-job-requisition"></a><span data-ttu-id="a7110-103">制订和开放工作申请</span><span class="sxs-lookup"><span data-stu-id="a7110-103">Develop and open a job requisition</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a7110-104">“招聘项目”帮助您管理招聘流程。</span><span class="sxs-lookup"><span data-stu-id="a7110-104">Recruitment projects help manage the recruiting process.</span></span> <span data-ttu-id="a7110-105">对于每个招聘项目，您可以设置信息，例如招聘职位、招聘人员的姓名、项目进展状态以及职位所属的部门。</span><span class="sxs-lookup"><span data-stu-id="a7110-105">For each recruitment project, you can set up information, such as the job that recruiting is for, the name of the recruiter, the status of the project and the department that the job will be located in.</span></span> <span data-ttu-id="a7110-106">在您创建招聘项目后，可以为该项目输入职位广告，或在员工自助服务页上发布广告，将就业申请表与该项目进行关联，并在该项目中跟踪进展。</span><span class="sxs-lookup"><span data-stu-id="a7110-106">After creating a recruitment project, you can write a job advertisement for the project, publish the ad on Employee self-service pages, associate applications for employment with the project, and track activities for that project.</span></span> <span data-ttu-id="a7110-107">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="a7110-107">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="a7110-108">若要启动该程序，请转到“人力资源”>“招聘”>“招聘项目”>“招聘项目”</span><span class="sxs-lookup"><span data-stu-id="a7110-108">To begin the procedure, go to Human resources > Recruitment > Recruitment projects > Recruitment projects</span></span>
 

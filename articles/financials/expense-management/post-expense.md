@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: cc3aae061038202ec4f314654d9149c31e2575bb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4c0975cf36d87125b8184a7be8a6a8696eef2d3e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="post-an-expense-report"></a><span data-ttu-id="61ed0-103">过帐支出报表</span><span class="sxs-lookup"><span data-stu-id="61ed0-103">Post an expense report</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="61ed0-104">在支出报表已审核和转移到总帐后，可以将其过帐到总帐。</span><span class="sxs-lookup"><span data-stu-id="61ed0-104">After an expense report has been approved and transferred to the general journal, it can be posted to the general ledger.</span></span> <span data-ttu-id="61ed0-105">在您过帐支出报表时，将标识适用于增值税 (VAT) 回收的费用。</span><span class="sxs-lookup"><span data-stu-id="61ed0-105">When you post an expense report, expenses that are eligible for recovery of value-added tax (VAT) are identified.</span></span> <span data-ttu-id="61ed0-106">验证和回收增值税付款的任务被分配给负责验证支出报表的员工。</span><span class="sxs-lookup"><span data-stu-id="61ed0-106">The task of verifying and recovering VAT payments is assigned to the employee who is responsible for verifying the expense report.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b85da42e94fe3108bc89d05fc800a9d8a06bfc97
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pos-operations-online-and-offline"></a><span data-ttu-id="e355d-104">POS 操作（联机和脱机）</span><span class="sxs-lookup"><span data-stu-id="e355d-104">POS operations, online and offline</span></span>
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 <span data-ttu-id="e355d-105">用户在销售点 (POS) 执行的大多数行动被视为操作。</span><span class="sxs-lookup"><span data-stu-id="e355d-105">Most actions that user take in the point of sale (POS) are considered operations.</span></span> <span data-ttu-id="e355d-106">操作在 Microsoft Dynamics 365 for Retail 后端办公系统中配置和管理。</span><span class="sxs-lookup"><span data-stu-id="e355d-106">Operations are configured and managed in the Microsoft Dynamics 365 for Retail back office.</span></span> <span data-ttu-id="e355d-107">许多操作可以添加到 POS 按钮网格中的按钮。</span><span class="sxs-lookup"><span data-stu-id="e355d-107">Many operations can be added to buttons in the POS button grid.</span></span> <span data-ttu-id="e355d-108">用户随后可以选择按钮来调用操作并执行其功能。</span><span class="sxs-lookup"><span data-stu-id="e355d-108">Users can then select the buttons to invoke the operations and perform their function.</span></span> <span data-ttu-id="e355d-109">其他操作是主 POS 应用程序的一部分，从屏幕上按钮或作为其他工作流或流程的一部分调用。</span><span class="sxs-lookup"><span data-stu-id="e355d-109">Other operations are part of the main POS application, and are invoked either from on-screen buttons or as part of other workflows or processes.</span></span>
 

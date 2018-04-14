@@ -18,17 +18,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8b11df3b21f8d97986d934ff3c65931aa7ee0c6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6378e5f960c651e51ccbe696d14530e9e22e783a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="update-the-bank-journal-composite-entity"></a><span data-ttu-id="6fe6d-103">更新银行日记帐组合实体</span><span class="sxs-lookup"><span data-stu-id="6fe6d-103">Update the bank journal composite entity</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="6fe6d-104">需按照以下步骤将更多 BankTransactionType 字段添加到组合 BankJournalEntity 中。</span><span class="sxs-lookup"><span data-stu-id="6fe6d-104">The following steps are needed in order to add the additional BankTransactionType field to the composite BankJournalEntity.</span></span>
 

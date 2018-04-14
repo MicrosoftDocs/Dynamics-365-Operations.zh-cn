@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: b1868851d22f41d3278cd9574a48bdf062185012
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="c8c5e-103">单件领料确认</span><span class="sxs-lookup"><span data-stu-id="c8c5e-103">Piece picking confirmation</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="c8c5e-104">单件领料允许您通过移动设备上的领料或盘点工作确认单件库存。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="c8c5e-105">对于领料，您可以确认在对要领料的工作指定的数量范围内的待处理工作的数量。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="c8c5e-106">对于盘点工作，您可以扫描您正在盘点的库存和跟踪总金额。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 
@@ -46,8 +46,10 @@ ms.lasthandoff: 01/17/2018
 
 <span data-ttu-id="c8c5e-122">当工作类型为领料或盘点时，以下选项可供选择。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-122">The following options become available for selection when the work type is pick or counting.</span></span>
 
-| <span data-ttu-id="c8c5e-123">选项</span><span class="sxs-lookup"><span data-stu-id="c8c5e-123">Option</span></span>        | <span data-ttu-id="c8c5e-124">说明</span><span class="sxs-lookup"><span data-stu-id="c8c5e-124">Description</span></span>   | 
-| ------------- | ------------- |
-| <span data-ttu-id="c8c5e-125">单件领料确认</span><span class="sxs-lookup"><span data-stu-id="c8c5e-125">Piece picking confirmation</span></span>   | <span data-ttu-id="c8c5e-126">可用于领料和盘点工作类型。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-126">Available for pick and counting work types.</span></span> <span data-ttu-id="c8c5e-127">自动选择产品确认。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="c8c5e-128">允许您从移动设备确认每件库存。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> | 
-| <span data-ttu-id="c8c5e-129">最大件数</span><span class="sxs-lookup"><span data-stu-id="c8c5e-129">Maximum number of pieces</span></span>     | <span data-ttu-id="c8c5e-130">如果启用单件领料确认，可用于领料工作。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="c8c5e-131">设置您必须确认的件数限制。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-131">Sets a limit to the number of pieces that you must confirm.</span></span> |  
+
+|           <span data-ttu-id="c8c5e-123">选项</span><span class="sxs-lookup"><span data-stu-id="c8c5e-123">Option</span></span>           |                                                                            <span data-ttu-id="c8c5e-124">说明</span><span class="sxs-lookup"><span data-stu-id="c8c5e-124">Description</span></span>                                                                            |
+|----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <span data-ttu-id="c8c5e-125">单件领料确认</span><span class="sxs-lookup"><span data-stu-id="c8c5e-125">Piece picking confirmation</span></span> | <span data-ttu-id="c8c5e-126">可用于领料和盘点工作类型。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-126">Available for pick and counting work types.</span></span> <span data-ttu-id="c8c5e-127">自动选择产品确认。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-127">Product confirmation is automatically selected.</span></span> <span data-ttu-id="c8c5e-128">允许您从移动设备确认每件库存。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-128">Allows you to confirm each piece of inventory from the mobile device.</span></span> |
+|  <span data-ttu-id="c8c5e-129">最大件数</span><span class="sxs-lookup"><span data-stu-id="c8c5e-129">Maximum number of pieces</span></span>  |                   <span data-ttu-id="c8c5e-130">如果启用单件领料确认，可用于领料工作。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-130">Available for pick work if piece picking confirmation is enabled.</span></span> <span data-ttu-id="c8c5e-131">设置您必须确认的件数限制。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-131">Sets a limit to the number of pieces that you must confirm.</span></span>                   |
+
 

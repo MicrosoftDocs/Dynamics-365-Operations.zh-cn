@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8ccd82b3249e99dd2884fb257f3e65261ab64d96
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: eeb2489b857b84efe16f53e8d47deb4a5ffa279e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="set-up-a-transportation-tender"></a><span data-ttu-id="62421-103">设置运输支付方式</span><span class="sxs-lookup"><span data-stu-id="62421-103">Set up a transportation tender</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="62421-104">此过程显示如何设置运输支付方式。</span><span class="sxs-lookup"><span data-stu-id="62421-104">This procedure shows how to set up a transportation tender.</span></span> <span data-ttu-id="62421-105">这通常由运输协调员完成。</span><span class="sxs-lookup"><span data-stu-id="62421-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="62421-106">您可以在 USMF 演示数据公司中使用此过程。</span><span class="sxs-lookup"><span data-stu-id="62421-106">You can use this procedure in the USMF demo data company.</span></span>
 

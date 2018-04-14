@@ -19,17 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 80374d6dce8aa5d5f2e5afc0656b42236ac974ec
-ms.openlocfilehash: 036e8079bd976087514a074529dd4593c5a2b0a5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 932e158f35f535775647795b19128f63db378eea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="manage-vendor-collaboration-users"></a><span data-ttu-id="3e7f6-103">管理供应商协作用户</span><span class="sxs-lookup"><span data-stu-id="3e7f6-103">Manage vendor collaboration users</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3e7f6-104">本主题介绍您如何请求调配新供应商协作用户，以及如何添加新供应商协作联系人。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-104">This topic describes how you can request the provisioning of new vendor collaboration users, and how to add new vendor collaboration contacts.</span></span> 
 
@@ -61,11 +60,11 @@ ms.lasthandoff: 03/13/2018
 
 <span data-ttu-id="3e7f6-132">您可以请求调配新用户之前，必须将新用户设置为一个或多个供应商帐户的联系人。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-132">Before you can request that a new user is provisioned, that person must be set up as a contact for one or more vendor accounts.</span></span> <span data-ttu-id="3e7f6-133">若要创建新供应商协作用户请求：</span><span class="sxs-lookup"><span data-stu-id="3e7f6-133">To create a request for a new vendor collaboration user:</span></span>
 
-1.  <span data-ttu-id="3e7f6-134">在**所有联系人**页面，单击**调配供应商用户**。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-134">On the **All contacts** page, click **Provision vendor user**.</span></span>
-2.  <span data-ttu-id="3e7f6-135">输入该用户的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-135">Enter an email address for the user.</span></span> <span data-ttu-id="3e7f6-136">用户将使用该地址登录 Finance and Operations。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-136">This address will be used by the user to log onto Finance and Operations.</span></span> <span data-ttu-id="3e7f6-137">如果电子邮件地址属于作为 Microsoft Azure 租户登记的域，则电子邮件地址必须为现有 Azure Active Directory (AAD) 帐户才能成功完成调配流程。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-137">If the email address belongs to a domain registered as a tenant with Microsoft Azure, then the email address has to be an existing Azure Active Directory (AAD) account in order for the provisioning process to complete successfully.</span></span> <span data-ttu-id="3e7f6-138">如果电子邮件地址不属于在 Microsoft Azure 登记的域，则必须在调配流程中创建 ADD，且新用户将收到邀请邮件。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-138">If the email address does not belong to a domain registered with Microsoft Azure, an ADD account will be created as part of the provisioning process and the new user will receive an invitation mail.</span></span> <span data-ttu-id="3e7f6-139">域为 @hotmail.com、@gmail.com 或 @comcast.net 等的客户电子邮件不能用来注册 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-139">Consumer email addresses with domains such as @hotmail.com, @gmail.com, or @comcast.net cannot be used to register a Finance and Operations user.</span></span>
-3.  <span data-ttu-id="3e7f6-140">将“**允许供应商协作访问**”选项对用户需要访问的所有法人设置为“**是**”。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-140">Set the **Vendor collaboration access allowed** option to **Yes** for all the legal entities that the user needs access to.</span></span>
-4.  <span data-ttu-id="3e7f6-141">在“**分配用户角色**”部分，选择新用户应有的安全角色的“**分配**”复选框。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-141">In the **Assign user roles** section, select the **Assign** check box for the security roles that the new user should have.</span></span>
-5.  <span data-ttu-id="3e7f6-142">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-142">Click **Submit**.</span></span>
+1. <span data-ttu-id="3e7f6-134">在**所有联系人**页面，单击**调配供应商用户**。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-134">On the **All contacts** page, click **Provision vendor user**.</span></span>
+2. <span data-ttu-id="3e7f6-135">输入该用户的电子邮件地址。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-135">Enter an email address for the user.</span></span> <span data-ttu-id="3e7f6-136">用户将使用该地址登录 Finance and Operations。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-136">This address will be used by the user to log onto Finance and Operations.</span></span> <span data-ttu-id="3e7f6-137">如果电子邮件地址属于作为 Microsoft Azure 租户登记的域，则电子邮件地址必须为现有 Azure Active Directory (AAD) 帐户才能成功完成调配流程。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-137">If the email address belongs to a domain registered as a tenant with Microsoft Azure, then the email address has to be an existing Azure Active Directory (AAD) account in order for the provisioning process to complete successfully.</span></span> <span data-ttu-id="3e7f6-138">如果电子邮件地址不属于在 Microsoft Azure 登记的域，则必须在调配流程中创建 ADD，且新用户将收到邀请邮件。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-138">If the email address does not belong to a domain registered with Microsoft Azure, an ADD account will be created as part of the provisioning process and the new user will receive an invitation mail.</span></span> <span data-ttu-id="3e7f6-139">域为 @hotmail.com、@gmail.com 或 @comcast.net 等的客户电子邮件不能用来注册 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-139">Consumer email addresses with domains such as @hotmail.com, @gmail.com, or @comcast.net cannot be used to register a Finance and Operations user.</span></span>
+3. <span data-ttu-id="3e7f6-140">将“**允许供应商协作访问**”选项对用户需要访问的所有法人设置为“**是**”。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-140">Set the **Vendor collaboration access allowed** option to **Yes** for all the legal entities that the user needs access to.</span></span>
+4. <span data-ttu-id="3e7f6-141">在“**分配用户角色**”部分，选择新用户应有的安全角色的“**分配**”复选框。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-141">In the **Assign user roles** section, select the **Assign** check box for the security roles that the new user should have.</span></span>
+5. <span data-ttu-id="3e7f6-142">单击“**提交**”。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-142">Click **Submit**.</span></span>
 
 <span data-ttu-id="3e7f6-143">提交供应商用户请求后，**允许供应商协作访问**字段对选定的供应商帐户设置为**是**，并开始用户请求工作流。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-143">When the vendor user request is submitted, the **Vendor collaboration access allowed** field is set to **Yes** for the selected vendor account and a user request workflow is started.</span></span> <span data-ttu-id="3e7f6-144">作为工作流的一部分，在 Finance and Operations 中创建新用户，并且分配安全角色。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-144">As part of the workflow, a new user is created in Finance and Operations, and security roles are assigned.</span></span> <span data-ttu-id="3e7f6-145">此外还激活 Azure B2B 服务，启动 Azure 门户与“将新的或现有 AAD 帐户与 Finance and Operations 用户帐户相关联”之间的交互。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-145">In addition, an Azure B2B service is activated which initiates interaction with Azure portal and associates a new or existing AAD account with the Finance and Operations user account.</span></span> <span data-ttu-id="3e7f6-146">有关详细信息，请参阅 [Azure AD B2B 协作简介](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b)。</span><span class="sxs-lookup"><span data-stu-id="3e7f6-146">For more information, see [What is Azure AD B2B collaboration?](https://docs.microsoft.com/en-us/azure/active-directory/active-directory-b2b-what-is-azure-ad-b2b).</span></span>
 

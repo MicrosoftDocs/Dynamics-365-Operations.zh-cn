@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 245d1fd9e5489a5f996a385979d2e5aaf891846a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5b1350524c4e59c3148d07cef6f8e1ab02ec43b4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a><span data-ttu-id="38712-103">在工作流中配置手动决策</span><span class="sxs-lookup"><span data-stu-id="38712-103">Configure a manual decision in a workflow</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="38712-104">本主题说明如何配置手动决策的属性。</span><span class="sxs-lookup"><span data-stu-id="38712-104">This topic explains how to configure the properties of a manual decision.</span></span>
 
@@ -253,73 +252,74 @@ ms.lasthandoff: 11/03/2017
 ## <a name="specify-what-happens-when-a-decision-is-overdue"></a><span data-ttu-id="38712-266">指定决策逾期时执行的操作</span><span class="sxs-lookup"><span data-stu-id="38712-266">Specify what happens when a decision is overdue</span></span>
 <span data-ttu-id="38712-267">如果用户未在分配的时间内制定决策，则决策逾期。</span><span class="sxs-lookup"><span data-stu-id="38712-267">If a user doesn't make the decision in the allotted time, the decision is overdue.</span></span> <span data-ttu-id="38712-268">可呈报逾期的决策，或自动将该单据分配给其他用户。</span><span class="sxs-lookup"><span data-stu-id="38712-268">A decision that is overdue can be escalated, or automatically assigned to another user.</span></span> <span data-ttu-id="38712-269">如果决策逾期，请执行以下步骤进行呈报。</span><span class="sxs-lookup"><span data-stu-id="38712-269">Follow these steps to escalate the decision if it's overdue.</span></span>
 
-1.  <span data-ttu-id="38712-270">在左窗格中，单击**呈报**。</span><span class="sxs-lookup"><span data-stu-id="38712-270">In the left pane, click **Escalation**.</span></span>
-2.  <span data-ttu-id="38712-271">选择**使用呈报路线**复选框创建呈报路线。</span><span class="sxs-lookup"><span data-stu-id="38712-271">Select the **Use escalation path** check box to create an escalation path.</span></span> <span data-ttu-id="38712-272">系统自动将决策分配给呈报路线中列出的用户。</span><span class="sxs-lookup"><span data-stu-id="38712-272">The system automatically assigns the decision to the users who are listed in the escalation path.</span></span> <span data-ttu-id="38712-273">例如，下表显示呈报路线。</span><span class="sxs-lookup"><span data-stu-id="38712-273">For example, the following table represents an escalation path.</span></span>
-    | <span data-ttu-id="38712-274">序列</span><span class="sxs-lookup"><span data-stu-id="38712-274">Sequence</span></span> | <span data-ttu-id="38712-275">呈报路线</span><span class="sxs-lookup"><span data-stu-id="38712-275">Escalation path</span></span>            |
-    |----------|----------------------------|
-    | <span data-ttu-id="38712-276">1</span><span class="sxs-lookup"><span data-stu-id="38712-276">1</span></span>        | <span data-ttu-id="38712-277">分配给：Donna</span><span class="sxs-lookup"><span data-stu-id="38712-277">Assign to: Donna</span></span>           |
-    | <span data-ttu-id="38712-278">2</span><span class="sxs-lookup"><span data-stu-id="38712-278">2</span></span>        | <span data-ttu-id="38712-279">分配给：Erin</span><span class="sxs-lookup"><span data-stu-id="38712-279">Assign to: Erin</span></span>            |
-    | <span data-ttu-id="38712-280">3</span><span class="sxs-lookup"><span data-stu-id="38712-280">3</span></span>        | <span data-ttu-id="38712-281">最后操作：\[选择 1\]</span><span class="sxs-lookup"><span data-stu-id="38712-281">Final action: \[Choice 1\]</span></span> |
+1. <span data-ttu-id="38712-270">在左窗格中，单击**呈报**。</span><span class="sxs-lookup"><span data-stu-id="38712-270">In the left pane, click **Escalation**.</span></span>
+2. <span data-ttu-id="38712-271">选择**使用呈报路线**复选框创建呈报路线。</span><span class="sxs-lookup"><span data-stu-id="38712-271">Select the **Use escalation path** check box to create an escalation path.</span></span> <span data-ttu-id="38712-272">系统自动将决策分配给呈报路线中列出的用户。</span><span class="sxs-lookup"><span data-stu-id="38712-272">The system automatically assigns the decision to the users who are listed in the escalation path.</span></span> <span data-ttu-id="38712-273">例如，下表显示呈报路线。</span><span class="sxs-lookup"><span data-stu-id="38712-273">For example, the following table represents an escalation path.</span></span>
 
-    <span data-ttu-id="38712-282">在此示例中，系统将逾期决策分配给 Donna。</span><span class="sxs-lookup"><span data-stu-id="38712-282">In this example, the system assigns the overdue decision to Donna.</span></span> <span data-ttu-id="38712-283">如果 Donna 未在分配的时间内制定决策，则系统将决策分配给 Erin。</span><span class="sxs-lookup"><span data-stu-id="38712-283">If Donna doesn't make the decision in the allotted time, the system assigns the decision to Erin.</span></span> <span data-ttu-id="38712-284">如果 Erin 未在分配的时间内制定决策，则系统选择**\[选择 1\]** 作为决策。</span><span class="sxs-lookup"><span data-stu-id="38712-284">If Erin doesn't make the decision in the allotted time, the system selects **\[Choice 1\]** as the decision.</span></span>
-3.  <span data-ttu-id="38712-285">要将用户添加到呈报路线中，单击**添加呈报**。</span><span class="sxs-lookup"><span data-stu-id="38712-285">To add a user to the escalation path, click **Add escalation**.</span></span> <span data-ttu-id="38712-286">选择下表中的选项之一，然后按照该选项的其他步骤转到第 4 步。</span><span class="sxs-lookup"><span data-stu-id="38712-286">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 4.</span></span>
-    <table>
-    <colgroup>
-    <col width="33%" />
-    <col width="33%" />
-    <col width="33%" />
-    </colgroup>
-    <thead>
-    <tr class="header">
-    <th><span data-ttu-id="38712-287">选项</span><span class="sxs-lookup"><span data-stu-id="38712-287">Option</span></span></th>
-    <th><span data-ttu-id="38712-288">决策呈报到的用户</span><span class="sxs-lookup"><span data-stu-id="38712-288">Users that the decision is escalated to</span></span></th>
-    <th><span data-ttu-id="38712-289">附加步骤</span><span class="sxs-lookup"><span data-stu-id="38712-289">Additional steps</span></span></th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr class="odd">
-    <td><span data-ttu-id="38712-290">层次结构</span><span class="sxs-lookup"><span data-stu-id="38712-290">Hierarchy</span></span></td>
-    <td><span data-ttu-id="38712-291">特定组织层次结构中的用户</span><span class="sxs-lookup"><span data-stu-id="38712-291">Users in a specific organizational hierarchy</span></span></td>
-    <td><ol>
-    <li><span data-ttu-id="38712-292">在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其呈报决策的层次结构的类型。</span><span class="sxs-lookup"><span data-stu-id="38712-292">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the decision to.</span></span></li>
-    <li><span data-ttu-id="38712-293">系统必须从层次结构中检索一系列用户姓名。</span><span class="sxs-lookup"><span data-stu-id="38712-293">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="38712-294">这些姓名代表可向其呈报决策的用户。</span><span class="sxs-lookup"><span data-stu-id="38712-294">These names represent users that the decision can be escalated to.</span></span> <span data-ttu-id="38712-295">按照以下步骤指定系统检索的用户名范围的起点和终点：</span><span class="sxs-lookup"><span data-stu-id="38712-295">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
-    <li><span data-ttu-id="38712-296">若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</span><span class="sxs-lookup"><span data-stu-id="38712-296">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
-    <li><span data-ttu-id="38712-297">若要指定终点，请单击“<strong>添加条件</strong>”。</span><span class="sxs-lookup"><span data-stu-id="38712-297">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="38712-298">然后输入一个确定系统停止检索姓名的层次结构的条件。</span><span class="sxs-lookup"><span data-stu-id="38712-298">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
-    </ol></li>
-    <li><span data-ttu-id="38712-299">在<strong>层次结构选项</strong>选项卡上，指定应向其呈报决策的范围内的用户：</span><span class="sxs-lookup"><span data-stu-id="38712-299">On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be escalated to:</span></span> <ul>
-    <li><span data-ttu-id="38712-300"><strong>分配给所有检索到的用户</strong> – 决策将呈报给范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="38712-300"><strong>Assign to all users retrieved</strong> – The decision is escalated to all users in the range.</span></span></li>
-    <li><span data-ttu-id="38712-301"><strong>仅分配给最后检索到的用户</strong> – 决策将呈报给范围内的最后一名用户。</span><span class="sxs-lookup"><span data-stu-id="38712-301"><strong>Assign only to last user retrieved</strong> – The decision is escalated to only the last user in the range.</span></span></li>
-    <li><span data-ttu-id="38712-302"><strong>排除满足以下条件的用户：</strong> – 此决策不呈报给满足特定条件的范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="38712-302"><strong>Exclude users with the following condition:</strong> – The decision isn't escalated to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="38712-303">单击“<strong>添加条件</strong>”以指定条件。</span><span class="sxs-lookup"><span data-stu-id="38712-303">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
-    </ul></li>
-    </ol></td>
-    </tr>
-    <tr class="even">
-    <td><span data-ttu-id="38712-304">工作流用户</span><span class="sxs-lookup"><span data-stu-id="38712-304">Workflow user</span></span></td>
-    <td><span data-ttu-id="38712-305">当前工作流中的用户</span><span class="sxs-lookup"><span data-stu-id="38712-305">Users in the current workflow</span></span></td>
-    <td><ul>
-    <li><span data-ttu-id="38712-306">在您选择<strong>工作流用户</strong>后，在选项卡<strong>工作流用户</strong>上，在<strong>工作流用户</strong>列表中，选择参与工作流的用户。</span><span class="sxs-lookup"><span data-stu-id="38712-306">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
-    </ul></td>
-    </tr>
-    <tr class="odd">
-    <td><span data-ttu-id="38712-307">用户</span><span class="sxs-lookup"><span data-stu-id="38712-307">User</span></span></td>
-    <td><span data-ttu-id="38712-308">特定 Finance and Operations 用户</span><span class="sxs-lookup"><span data-stu-id="38712-308">Specific Finance and Operations users</span></span></td>
-    <td><ol>
-    <li><span data-ttu-id="38712-309">在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="38712-309">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
-    <li><span data-ttu-id="38712-310"><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="38712-310">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="38712-311">选择要向其呈报决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</span><span class="sxs-lookup"><span data-stu-id="38712-311">Select the users to escalate the decision to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
-    </ol></td>
-    </tr>
-    </tbody>
-    </table>
+   | <span data-ttu-id="38712-274">序列</span><span class="sxs-lookup"><span data-stu-id="38712-274">Sequence</span></span> | <span data-ttu-id="38712-275">呈报路线</span><span class="sxs-lookup"><span data-stu-id="38712-275">Escalation path</span></span>            |
+   |----------|----------------------------|
+   | <span data-ttu-id="38712-276">1</span><span class="sxs-lookup"><span data-stu-id="38712-276">1</span></span>        | <span data-ttu-id="38712-277">分配给：Donna</span><span class="sxs-lookup"><span data-stu-id="38712-277">Assign to: Donna</span></span>           |
+   | <span data-ttu-id="38712-278">2</span><span class="sxs-lookup"><span data-stu-id="38712-278">2</span></span>        | <span data-ttu-id="38712-279">分配给：Erin</span><span class="sxs-lookup"><span data-stu-id="38712-279">Assign to: Erin</span></span>            |
+   | <span data-ttu-id="38712-280">3</span><span class="sxs-lookup"><span data-stu-id="38712-280">3</span></span>        | <span data-ttu-id="38712-281">最后操作：\[选择 1\]</span><span class="sxs-lookup"><span data-stu-id="38712-281">Final action: \[Choice 1\]</span></span> |
 
-4.  <span data-ttu-id="38712-312">在**时间限制**选项卡上，在**持续时间**字段中，指定指定用户必须在多长时间内制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-312">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to make the decision.</span></span> <span data-ttu-id="38712-313">选择以下选项之一：</span><span class="sxs-lookup"><span data-stu-id="38712-313">Select one of the following options:</span></span>
-    -   <span data-ttu-id="38712-314">**小时** – 输入用户必须在几小时内制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-314">**Hours** – Enter the number of hours that the user has to make the decision.</span></span> <span data-ttu-id="38712-315">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="38712-315">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    -   <span data-ttu-id="38712-316">**天** – 输入用户必须在几天内制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-316">**Days** – Enter the number of days that the user has to make the decision.</span></span> <span data-ttu-id="38712-317">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="38712-317">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    -   <span data-ttu-id="38712-318">**周** – 输入用户必须在几周内制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-318">**Weeks** – Enter the number of weeks that the user has to make the decision.</span></span>
-    -   <span data-ttu-id="38712-319">**月** – 选择用户必须在哪一天和哪一周前制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-319">**Months** – Select the day and week that the user must make the decision by.</span></span> <span data-ttu-id="38712-320">例如，您可能希望用户在当月第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-320">For example, you might want the user to make the decision by Friday of the third week of the month.</span></span>
-    -   <span data-ttu-id="38712-321">**年** – 选择用户必须在哪一天、哪一周和哪一月前制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-321">**Years** – Select the day, week, and month that the user must make the decision by.</span></span> <span data-ttu-id="38712-322">例如，您可能希望用户在十二月的第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-322">For example, you might want the user to make the decision by Friday of the third week of December.</span></span>
+   <span data-ttu-id="38712-282">在此示例中，系统将逾期决策分配给 Donna。</span><span class="sxs-lookup"><span data-stu-id="38712-282">In this example, the system assigns the overdue decision to Donna.</span></span> <span data-ttu-id="38712-283">如果 Donna 未在分配的时间内制定决策，则系统将决策分配给 Erin。</span><span class="sxs-lookup"><span data-stu-id="38712-283">If Donna doesn't make the decision in the allotted time, the system assigns the decision to Erin.</span></span> <span data-ttu-id="38712-284">如果 Erin 未在分配的时间内制定决策，则系统选择**\[选择 1\]** 作为决策。</span><span class="sxs-lookup"><span data-stu-id="38712-284">If Erin doesn't make the decision in the allotted time, the system selects **\[Choice 1\]** as the decision.</span></span>
+3. <span data-ttu-id="38712-285">要将用户添加到呈报路线中，单击**添加呈报**。</span><span class="sxs-lookup"><span data-stu-id="38712-285">To add a user to the escalation path, click **Add escalation**.</span></span> <span data-ttu-id="38712-286">选择下表中的选项之一，然后按照该选项的其他步骤转到第 4 步。</span><span class="sxs-lookup"><span data-stu-id="38712-286">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 4.</span></span>
+   <table>
+   <colgroup>
+   <col width="33%" />
+   <col width="33%" />
+   <col width="33%" />
+   </colgroup>
+   <thead>
+   <tr class="header">
+   <th><span data-ttu-id="38712-287">选项</span><span class="sxs-lookup"><span data-stu-id="38712-287">Option</span></span></th>
+   <th><span data-ttu-id="38712-288">决策呈报到的用户</span><span class="sxs-lookup"><span data-stu-id="38712-288">Users that the decision is escalated to</span></span></th>
+   <th><span data-ttu-id="38712-289">附加步骤</span><span class="sxs-lookup"><span data-stu-id="38712-289">Additional steps</span></span></th>
+   </tr>
+   </thead>
+   <tbody>
+   <tr class="odd">
+   <td><span data-ttu-id="38712-290">层次结构</span><span class="sxs-lookup"><span data-stu-id="38712-290">Hierarchy</span></span></td>
+   <td><span data-ttu-id="38712-291">特定组织层次结构中的用户</span><span class="sxs-lookup"><span data-stu-id="38712-291">Users in a specific organizational hierarchy</span></span></td>
+   <td><ol>
+   <li><span data-ttu-id="38712-292">在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其呈报决策的层次结构的类型。</span><span class="sxs-lookup"><span data-stu-id="38712-292">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the decision to.</span></span></li>
+   <li><span data-ttu-id="38712-293">系统必须从层次结构中检索一系列用户姓名。</span><span class="sxs-lookup"><span data-stu-id="38712-293">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="38712-294">这些姓名代表可向其呈报决策的用户。</span><span class="sxs-lookup"><span data-stu-id="38712-294">These names represent users that the decision can be escalated to.</span></span> <span data-ttu-id="38712-295">按照以下步骤指定系统检索的用户名范围的起点和终点：</span><span class="sxs-lookup"><span data-stu-id="38712-295">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+   <li><span data-ttu-id="38712-296">若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</span><span class="sxs-lookup"><span data-stu-id="38712-296">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+   <li><span data-ttu-id="38712-297">若要指定终点，请单击“<strong>添加条件</strong>”。</span><span class="sxs-lookup"><span data-stu-id="38712-297">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="38712-298">然后输入一个确定系统停止检索姓名的层次结构的条件。</span><span class="sxs-lookup"><span data-stu-id="38712-298">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
+   </ol></li>
+   <li><span data-ttu-id="38712-299">在<strong>层次结构选项</strong>选项卡上，指定应向其呈报决策的范围内的用户：</span><span class="sxs-lookup"><span data-stu-id="38712-299">On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be escalated to:</span></span> <ul>
+   <li><span data-ttu-id="38712-300"><strong>分配给所有检索到的用户</strong> – 决策将呈报给范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="38712-300"><strong>Assign to all users retrieved</strong> – The decision is escalated to all users in the range.</span></span></li>
+   <li><span data-ttu-id="38712-301"><strong>仅分配给最后检索到的用户</strong> – 决策将呈报给范围内的最后一名用户。</span><span class="sxs-lookup"><span data-stu-id="38712-301"><strong>Assign only to last user retrieved</strong> – The decision is escalated to only the last user in the range.</span></span></li>
+   <li><span data-ttu-id="38712-302"><strong>排除满足以下条件的用户：</strong> – 此决策不呈报给满足特定条件的范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="38712-302"><strong>Exclude users with the following condition:</strong> – The decision isn't escalated to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="38712-303">单击“<strong>添加条件</strong>”以指定条件。</span><span class="sxs-lookup"><span data-stu-id="38712-303">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
+   </ul></li>
+   </ol></td>
+   </tr>
+   <tr class="even">
+   <td><span data-ttu-id="38712-304">工作流用户</span><span class="sxs-lookup"><span data-stu-id="38712-304">Workflow user</span></span></td>
+   <td><span data-ttu-id="38712-305">当前工作流中的用户</span><span class="sxs-lookup"><span data-stu-id="38712-305">Users in the current workflow</span></span></td>
+   <td><ul>
+   <li><span data-ttu-id="38712-306">在您选择<strong>工作流用户</strong>后，在选项卡<strong>工作流用户</strong>上，在<strong>工作流用户</strong>列表中，选择参与工作流的用户。</span><span class="sxs-lookup"><span data-stu-id="38712-306">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
+   </ul></td>
+   </tr>
+   <tr class="odd">
+   <td><span data-ttu-id="38712-307">用户</span><span class="sxs-lookup"><span data-stu-id="38712-307">User</span></span></td>
+   <td><span data-ttu-id="38712-308">特定 Finance and Operations 用户</span><span class="sxs-lookup"><span data-stu-id="38712-308">Specific Finance and Operations users</span></span></td>
+   <td><ol>
+   <li><span data-ttu-id="38712-309">在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="38712-309">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+   <li><span data-ttu-id="38712-310"><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="38712-310">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="38712-311">选择要向其呈报决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</span><span class="sxs-lookup"><span data-stu-id="38712-311">Select the users to escalate the decision to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
+   </ol></td>
+   </tr>
+   </tbody>
+   </table>
 
-5.  <span data-ttu-id="38712-323">对每个应添加到呈报路线的用户重复第 3 步到第 4 步。</span><span class="sxs-lookup"><span data-stu-id="38712-323">Repeat steps 3 through 4 for each user that should be added to the escalation path.</span></span> <span data-ttu-id="38712-324">您可以更改用户的顺序。</span><span class="sxs-lookup"><span data-stu-id="38712-324">You can change the order of the users.</span></span>
-6.  <span data-ttu-id="38712-325">如果呈报路线中的用户未在分配的时间内制定决策，则系统制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-325">If the users in the escalation path don't make the decision in the allotted time, the system makes the decision.</span></span> <span data-ttu-id="38712-326">若要指定系统选择的选项，选择**操作**行，然后，在**结束操作**选项卡上，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="38712-326">To specify the option that the system selects, select the **Action** row, and then, on the **End action** tab, select an option.</span></span>
+4. <span data-ttu-id="38712-312">在**时间限制**选项卡上，在**持续时间**字段中，指定指定用户必须在多长时间内制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-312">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to make the decision.</span></span> <span data-ttu-id="38712-313">选择以下选项之一：</span><span class="sxs-lookup"><span data-stu-id="38712-313">Select one of the following options:</span></span>
+   -   <span data-ttu-id="38712-314">**小时** – 输入用户必须在几小时内制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-314">**Hours** – Enter the number of hours that the user has to make the decision.</span></span> <span data-ttu-id="38712-315">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="38712-315">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+   -   <span data-ttu-id="38712-316">**天** – 输入用户必须在几天内制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-316">**Days** – Enter the number of days that the user has to make the decision.</span></span> <span data-ttu-id="38712-317">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="38712-317">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+   -   <span data-ttu-id="38712-318">**周** – 输入用户必须在几周内制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-318">**Weeks** – Enter the number of weeks that the user has to make the decision.</span></span>
+   -   <span data-ttu-id="38712-319">**月** – 选择用户必须在哪一天和哪一周前制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-319">**Months** – Select the day and week that the user must make the decision by.</span></span> <span data-ttu-id="38712-320">例如，您可能希望用户在当月第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-320">For example, you might want the user to make the decision by Friday of the third week of the month.</span></span>
+   -   <span data-ttu-id="38712-321">**年** – 选择用户必须在哪一天、哪一周和哪一月前制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-321">**Years** – Select the day, week, and month that the user must make the decision by.</span></span> <span data-ttu-id="38712-322">例如，您可能希望用户在十二月的第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-322">For example, you might want the user to make the decision by Friday of the third week of December.</span></span>
+
+5. <span data-ttu-id="38712-323">对每个应添加到呈报路线的用户重复第 3 步到第 4 步。</span><span class="sxs-lookup"><span data-stu-id="38712-323">Repeat steps 3 through 4 for each user that should be added to the escalation path.</span></span> <span data-ttu-id="38712-324">您可以更改用户的顺序。</span><span class="sxs-lookup"><span data-stu-id="38712-324">You can change the order of the users.</span></span>
+6. <span data-ttu-id="38712-325">如果呈报路线中的用户未在分配的时间内制定决策，则系统制定决策。</span><span class="sxs-lookup"><span data-stu-id="38712-325">If the users in the escalation path don't make the decision in the allotted time, the system makes the decision.</span></span> <span data-ttu-id="38712-326">若要指定系统选择的选项，选择**操作**行，然后，在**结束操作**选项卡上，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="38712-326">To specify the option that the system selects, select the **Action** row, and then, on the **End action** tab, select an option.</span></span>
 
 ## <a name="set-a-time-limit"></a><span data-ttu-id="38712-327">设置时间限制</span><span class="sxs-lookup"><span data-stu-id="38712-327">Set a time limit</span></span>
 <span data-ttu-id="38712-328">如果必须在特定时间制定决策，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="38712-328">Follow these steps if the decision must be made in a specific time.</span></span> <span data-ttu-id="38712-329">**注意：**您在此过程中选择的选项将覆盖您在页面的**分配**和**呈报**区域选择的选项。</span><span class="sxs-lookup"><span data-stu-id="38712-329">**Note:** The options that you select in this procedure override the options that you selected in the **Assignment** and **Escalation** areas of the page.</span></span>

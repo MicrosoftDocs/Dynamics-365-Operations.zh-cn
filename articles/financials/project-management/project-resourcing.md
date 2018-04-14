@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 55cfdd24dc13305f716e2ad0425ca3f24567e7b9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="project-resourcing"></a><span data-ttu-id="4a675-103">项目资源</span><span class="sxs-lookup"><span data-stu-id="4a675-103">Project resourcing</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="4a675-104">本主题提供有关项目资源的信息。</span><span class="sxs-lookup"><span data-stu-id="4a675-104">This topic provides information about project resourcing.</span></span>
 

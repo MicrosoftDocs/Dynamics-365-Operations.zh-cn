@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: c447440c33c1f80c6056974086b90d3b43e8499e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b9e73f1dec1bc36431227e165d86b7ce052af3be
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reuse-product-configurations"></a><span data-ttu-id="3a8d8-105">重复使用产品配置</span><span class="sxs-lookup"><span data-stu-id="3a8d8-105">Reuse product configurations</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3a8d8-106">可以指定要自动重用产品的现有配置。</span><span class="sxs-lookup"><span data-stu-id="3a8d8-106">You can specify that you want to automatically reuse an existing configuration for a product.</span></span> <span data-ttu-id="3a8d8-107">然后，当用户完成配置会话后，系统会验证匹配用户选择的配置是否存在。</span><span class="sxs-lookup"><span data-stu-id="3a8d8-107">Then, when a user has completed a configuration session, the system verifies whether a configuration that matches the user’s selections already exists.</span></span> <span data-ttu-id="3a8d8-108">如果找到匹配配置，则再用配置 ID、相应的物料清单 (BOM) 以及路径。</span><span class="sxs-lookup"><span data-stu-id="3a8d8-108">If a matching configuration is found, the configuration ID, corresponding bill of materials (BOM), and route are reused.</span></span>
 

@@ -20,17 +20,17 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e14d5d11e987d2dbc841f86c39fc7e94864144d3
-ms.openlocfilehash: 658575492597eed91509561f4710f07e271c53c8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 84cb1b81d1ab6ac1e38b41f7f3f8629415f92926
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 
 #  <a name="restrictions-on-costing-versions-for-standard-costs"></a><span data-ttu-id="519d4-103">对标准成本的成本计算版本的限制</span><span class="sxs-lookup"><span data-stu-id="519d4-103">Restrictions on costing versions for standard costs</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="519d4-104">本主题介绍适用于标准成本的成本计算版本的限制。</span><span class="sxs-lookup"><span data-stu-id="519d4-104">This topic describes the restrictions that apply to a costing version for standard costs.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e25d631dbfde4013ebf29d5ad3e88602ae3f317a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: db6c78942d1824adf82869b1258f00a18526058f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a><span data-ttu-id="87fea-103">使用类别层次结构分类产品</span><span class="sxs-lookup"><span data-stu-id="87fea-103">Classify a product using category hierarchies</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="87fea-104">类别层次结构用于为出口、采购、销售或其他目的为产品分类。</span><span class="sxs-lookup"><span data-stu-id="87fea-104">Use category hierarchies to classify products for export, procurement, sales, or other purposes.</span></span> <span data-ttu-id="87fea-105">此任务通常由产品经理执行。</span><span class="sxs-lookup"><span data-stu-id="87fea-105">This task is typically performed by a product manager.</span></span> <span data-ttu-id="87fea-106">此示例使用演示数据公司 USMF 中的产品编号 M0009。</span><span class="sxs-lookup"><span data-stu-id="87fea-106">The example uses product number M0009 in demo data company USMF.</span></span>
 

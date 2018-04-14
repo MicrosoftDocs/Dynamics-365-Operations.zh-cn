@@ -18,17 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2c1d846527eac4db0a043c7f1c51da0e73bd796
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 92c3487e7174497cd77e6685f5ed9ea2bc675d2a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="organization-administration-home-page"></a><span data-ttu-id="3d504-103">组织管理主页</span><span class="sxs-lookup"><span data-stu-id="3d504-103">Organization administration home page</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="3d504-104">此主题指向可帮助高级用户和管理员配置 Microsoft Dynamics 365 for Finance and Operations 的内容。</span><span class="sxs-lookup"><span data-stu-id="3d504-104">This topic points to content that will help power users and administrators configure Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="3d504-105">此内容将帮助他们配置系统，使其顺畅有效地为您的组织和业务工作。</span><span class="sxs-lookup"><span data-stu-id="3d504-105">This content will help them configure the system to work smoothly and effectively for your organization and business.</span></span>
 

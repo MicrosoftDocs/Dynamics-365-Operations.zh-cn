@@ -19,17 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b48accdc7aaaa65b4c620777546b20056038905b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d3e841f30f133644d0c6e1f0b0e9e990934a78db
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-bank-reconciliation-matching-rules"></a><span data-ttu-id="791da-104">设置银行对帐匹配规则</span><span class="sxs-lookup"><span data-stu-id="791da-104">Set up bank reconciliation matching rules</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="791da-105">本主题说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。</span><span class="sxs-lookup"><span data-stu-id="791da-105">This topic explains how to set up reconciliation matching rules and reconciliation matching rule sets to help with the bank reconciliation process.</span></span> <span data-ttu-id="791da-106">对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。</span><span class="sxs-lookup"><span data-stu-id="791da-106">Reconciliation matching rules are a set of criteria that are used to filter bank statement lines and bank document lines during the reconciliation process.</span></span>
 
@@ -50,7 +49,7 @@ ms.lasthandoff: 03/26/2018
 | <span data-ttu-id="791da-122">**清除冲销对账单行**</span><span class="sxs-lookup"><span data-stu-id="791da-122">**Clear reversal statement lines**</span></span> | <span data-ttu-id="791da-123">创建条件，以指定运行匹配规则时，应如何从**银行对帐工作表**页中删除冲销对账单行。</span><span class="sxs-lookup"><span data-stu-id="791da-123">Create criteria to specify how reversal statement lines should be removed from the **Bank reconciliation worksheet** page when the matching rule is run.</span></span> <span data-ttu-id="791da-124">在银行犯错误导致在导入的银行对账单中列出两个必须对帐的银行对账单行时使用此选项。</span><span class="sxs-lookup"><span data-stu-id="791da-124">This option is used when a bank error causes two bank statement lines to be listed in the imported bank statement, and the lines must be reconciled.</span></span> | <span data-ttu-id="791da-125">**第 1 步**：**查找冲销报表行** – 添加选择条件以选择冲销银行对账单行。</span><span class="sxs-lookup"><span data-stu-id="791da-125">**Step 1**: **Find reversal statement lines** – Add selection criteria to select reversal bank statement lines.</span></span> <span data-ttu-id="791da-126">例如，若要选择仅支票，请在“字段”字段中选择**银行交易记录代码**，在**运算符**字段中选择加号 (+)，然后在“值”字段中输入**支票**。</span><span class="sxs-lookup"><span data-stu-id="791da-126">For example, to select only checks, select the **Bank transaction code** in the Field field, select the plus sign (+) in the **Operator** field, and then enter **Checks** in the Value field.</span></span> <span data-ttu-id="791da-127">**第 2 步：查找原始对账单行** – 您可以添加选择条件，以使银行单据行与银行对账单行匹配。</span><span class="sxs-lookup"><span data-stu-id="791da-127">**Step 2: Find original statement lines** – You can add selection criteria to match bank document lines to bank statement lines.</span></span> <span data-ttu-id="791da-128">**第 3 步：查找 Finance and Operations 银行交易记录**– 您可以添加选择条件，以使 Finance and Operations 银行交易记录与银行对账单行匹配。</span><span class="sxs-lookup"><span data-stu-id="791da-128">**Step 3: Find Finance and Operations bank transactions **– You can add selection criteria to match Finance and Operations bank transactions to bank statement lines.</span></span> |
 | <span data-ttu-id="791da-129">**标记新交易记录**</span><span class="sxs-lookup"><span data-stu-id="791da-129">**Mark new transactions**</span></span>          | <span data-ttu-id="791da-130">创建条件，以指定运行匹配规则时，应如何在**银行对帐工作表**页中标记新交易记录。</span><span class="sxs-lookup"><span data-stu-id="791da-130">Create criteria to specify how new transactions should be marked on the **Bank reconciliation workshee**t page when the matching rule is run.</span></span>                                                                                                                                                                 | <span data-ttu-id="791da-131">**第 1 步：查找对账单行** – 添加选择字段以指定应从**银行对帐工作表**页中选择哪些银行对账单行。</span><span class="sxs-lookup"><span data-stu-id="791da-131">**Step 1: Find statement lines** – Add selection fields to specify which bank statement lines should be selected from the **Bank reconciliation worksheet** page.</span></span> <span data-ttu-id="791da-132">**第 2 步：查找 Finance and Operations**– 您可以添加选择条件，以搜索银行单据行。</span><span class="sxs-lookup"><span data-stu-id="791da-132">**Step 2: Find Finance and Operations **– You can add selection criteria to search bank document lines.</span></span> <span data-ttu-id="791da-133">如果未找到任何银行单据，对账单行将标记为新交易记录。</span><span class="sxs-lookup"><span data-stu-id="791da-133">If no bank document is found, a statement line will be marked as a new transaction.</span></span>                                                                                                                                                                                                                                             |
 
- 
+
 
 
 

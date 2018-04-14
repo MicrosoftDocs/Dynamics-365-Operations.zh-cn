@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a27a2367ac41e86a3038594261c080ad2515eb94
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8b0271aa9db79bd1f002624c7619bb3d572a3ec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-loyalty-programs"></a><span data-ttu-id="bcc53-103">定义会员计划</span><span class="sxs-lookup"><span data-stu-id="bcc53-103">Define loyalty programs</span></span>
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bcc53-104">此程序会显示如何设置一个带有两个会员层级的会员计划。</span><span class="sxs-lookup"><span data-stu-id="bcc53-104">This procedure shows how to set up a loyalty program with two loyalty tiers.</span></span> <span data-ttu-id="bcc53-105">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="bcc53-105">This procedure uses the USRT demo data company.</span></span>
 

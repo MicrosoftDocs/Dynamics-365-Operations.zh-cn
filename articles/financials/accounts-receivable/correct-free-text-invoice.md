@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cbae4c444db29a8dc7f3040aa78e45c0da092efd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4dfa559ae5abeb8a02e5b0f1af35b04af769a0b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="correct-a-free-text-invoice"></a><span data-ttu-id="881f6-103">更正普通发票</span><span class="sxs-lookup"><span data-stu-id="881f6-103">Correct a free text invoice</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="881f6-104">本文说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。</span><span class="sxs-lookup"><span data-stu-id="881f6-104">This article explains how to correct a free text invoice that has been posted and reissue it as a corrected invoice.</span></span>
 

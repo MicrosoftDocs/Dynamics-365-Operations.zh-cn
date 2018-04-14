@@ -20,17 +20,16 @@ ms.author: yuyus
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 936e54c0ef1de449afda2392cd1fbb304eed631b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f56feac74dfe78b740342688a908d001614cffd0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="overhead-calculation"></a><span data-ttu-id="faef6-103">开销计算</span><span class="sxs-lookup"><span data-stu-id="faef6-103">Overhead calculation</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="faef6-104">此主题描述计算和分配间接成本的典型流程。</span><span class="sxs-lookup"><span data-stu-id="faef6-104">This topic describes the typical processes for calculating and allocating overhead costs.</span></span>
 

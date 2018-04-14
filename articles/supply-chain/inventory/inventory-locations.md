@@ -20,17 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 029511634e56aec7fdd91bad9441cd12951fbd8d
-ms.openlocfilehash: 225735f6776281fdf2185de1f7d1c73f50e125b1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2a0af10d1d94f9ead2b024e1afd009d60ee13590
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-locations"></a><span data-ttu-id="2be04-103">库存库位</span><span class="sxs-lookup"><span data-stu-id="2be04-103">Inventory locations</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="2be04-104">库存库位用于与基本仓库 (WMS I) 一同确定物料的存储位置和从 WMS I 仓库领取物料的位置。</span><span class="sxs-lookup"><span data-stu-id="2be04-104">Inventory locations are used with basic warehousing (WMS I) to determine where items are stored and where items are picked from in a WMS I warehouse.</span></span>
 

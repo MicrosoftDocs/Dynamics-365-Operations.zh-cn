@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 6a620f2a0105d578d419d3aac816c7d78fbf3e46
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2198e325746cc38c721cee0517494b3377a412e5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a><span data-ttu-id="b222c-103">产品变型编号和名称的命名法</span><span class="sxs-lookup"><span data-stu-id="b222c-103">Nomenclature of product variant numbers and names</span></span>
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="b222c-104">此主题介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。</span><span class="sxs-lookup"><span data-stu-id="b222c-104">This topic describes how you can set up a product number nomenclature to replace the fixed [Product master number - Configuration - Size - Color - Style] format.</span></span> <span data-ttu-id="b222c-105">新的命名法具有目标格式，包括您选择的基础产品编号、有效产品维度和文本分隔符。</span><span class="sxs-lookup"><span data-stu-id="b222c-105">The new nomenclature has a targeted format that includes the product master number, active product dimensions, and text delimiters of your choice.</span></span> <span data-ttu-id="b222c-106">您还可以创建产品名称的命名法。</span><span class="sxs-lookup"><span data-stu-id="b222c-106">You can also create a nomenclature for product names.</span></span> <span data-ttu-id="b222c-107">最后，您可以构建命名法以识别由基于约束的产品配置器创建的配置。</span><span class="sxs-lookup"><span data-stu-id="b222c-107">Finally, you can build a nomenclature to identify configurations that are created by the constraint-based product configurator.</span></span> <span data-ttu-id="b222c-108">这些命名法可包含您选择的属性。</span><span class="sxs-lookup"><span data-stu-id="b222c-108">These nomenclatures can contain attributes of your choice.</span></span>
 

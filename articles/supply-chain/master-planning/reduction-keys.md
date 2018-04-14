@@ -20,17 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 506ca3aac7ad271ca7472f3b74627e94d97a74ee
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6ca65d3c12abd64bef23954b45f73af1bf62f9f3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="reduction-keys"></a><span data-ttu-id="9b4c5-105">缩减参数</span><span class="sxs-lookup"><span data-stu-id="9b4c5-105">Reduction keys</span></span>
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <span data-ttu-id="9b4c5-106">文本提供显示如何设置缩减参数的示例。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-106">This articles provides examples that show how to set up a reduction key.</span></span> <span data-ttu-id="9b4c5-107">它包含有关各种缩减参数设置以及每个结果的信息。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-107">It includes information about the various reduction key settings and the results of each.</span></span> <span data-ttu-id="9b4c5-108">可以使用缩减参数以定义如何缩减预测需求。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-108">You can use a reduction key to define how to reduce forecast requirements.</span></span>
 
@@ -39,17 +38,19 @@ ms.lasthandoff: 11/03/2017
 
 <span data-ttu-id="9b4c5-110">此示例显示由缩减参数如何根据由缩减参数定义的百分比和期间缩减需求预测要求。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-110">This example shows how a reduction key reduces demand forecast requirements according to the percentages and periods that are defined by the reduction key.</span></span>
 
-1.  <span data-ttu-id="9b4c5-111">在**“缩减参数”**页上，设置以下行。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-111">On the **Reduction keys** page, set up the following lines.</span></span>
-    | <span data-ttu-id="9b4c5-112">找零</span><span class="sxs-lookup"><span data-stu-id="9b4c5-112">Change</span></span> | <span data-ttu-id="9b4c5-113">单位</span><span class="sxs-lookup"><span data-stu-id="9b4c5-113">Unit</span></span>  | <span data-ttu-id="9b4c5-114">百分比</span><span class="sxs-lookup"><span data-stu-id="9b4c5-114">Percent</span></span> |
-    |--------|-------|---------|
-    | <span data-ttu-id="9b4c5-115">1</span><span class="sxs-lookup"><span data-stu-id="9b4c5-115">1</span></span>      | <span data-ttu-id="9b4c5-116">月</span><span class="sxs-lookup"><span data-stu-id="9b4c5-116">Month</span></span> | <span data-ttu-id="9b4c5-117">100</span><span class="sxs-lookup"><span data-stu-id="9b4c5-117">100</span></span>     |
-    | <span data-ttu-id="9b4c5-118">2</span><span class="sxs-lookup"><span data-stu-id="9b4c5-118">2</span></span>      | <span data-ttu-id="9b4c5-119">月</span><span class="sxs-lookup"><span data-stu-id="9b4c5-119">Month</span></span> | <span data-ttu-id="9b4c5-120">75</span><span class="sxs-lookup"><span data-stu-id="9b4c5-120">75</span></span>      |
-    | <span data-ttu-id="9b4c5-121">3</span><span class="sxs-lookup"><span data-stu-id="9b4c5-121">3</span></span>      | <span data-ttu-id="9b4c5-122">月</span><span class="sxs-lookup"><span data-stu-id="9b4c5-122">Month</span></span> | <span data-ttu-id="9b4c5-123">50</span><span class="sxs-lookup"><span data-stu-id="9b4c5-123">50</span></span>      |
-    | <span data-ttu-id="9b4c5-124">4</span><span class="sxs-lookup"><span data-stu-id="9b4c5-124">4</span></span>      | <span data-ttu-id="9b4c5-125">月</span><span class="sxs-lookup"><span data-stu-id="9b4c5-125">Month</span></span> | <span data-ttu-id="9b4c5-126">25</span><span class="sxs-lookup"><span data-stu-id="9b4c5-126">25</span></span>      |
+1. <span data-ttu-id="9b4c5-111">在**“缩减参数”**页上，设置以下行。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-111">On the **Reduction keys** page, set up the following lines.</span></span>
 
-2.  <span data-ttu-id="9b4c5-127">链接缩减参数至物料的覆盖范围组。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-127">Link the reduction key to the item's coverage group.</span></span>
-3.  <span data-ttu-id="9b4c5-128">在**“主计划”**页上，在**“缩减原则”**字段中，选择**“百分比 - 缩减参数”**。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
-4.  <span data-ttu-id="9b4c5-129">创建每月 1,000 份的需求预测。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-129">Create a demand forecast of 1,000 pieces per month.</span></span>
+   | <span data-ttu-id="9b4c5-112">找零</span><span class="sxs-lookup"><span data-stu-id="9b4c5-112">Change</span></span> | <span data-ttu-id="9b4c5-113">单位</span><span class="sxs-lookup"><span data-stu-id="9b4c5-113">Unit</span></span>  | <span data-ttu-id="9b4c5-114">百分比</span><span class="sxs-lookup"><span data-stu-id="9b4c5-114">Percent</span></span> |
+   |--------|-------|---------|
+   |   <span data-ttu-id="9b4c5-115">1</span><span class="sxs-lookup"><span data-stu-id="9b4c5-115">1</span></span>    | <span data-ttu-id="9b4c5-116">月</span><span class="sxs-lookup"><span data-stu-id="9b4c5-116">Month</span></span> |   <span data-ttu-id="9b4c5-117">100</span><span class="sxs-lookup"><span data-stu-id="9b4c5-117">100</span></span>   |
+   |   <span data-ttu-id="9b4c5-118">2</span><span class="sxs-lookup"><span data-stu-id="9b4c5-118">2</span></span>    | <span data-ttu-id="9b4c5-119">月</span><span class="sxs-lookup"><span data-stu-id="9b4c5-119">Month</span></span> |   <span data-ttu-id="9b4c5-120">75</span><span class="sxs-lookup"><span data-stu-id="9b4c5-120">75</span></span>    |
+   |   <span data-ttu-id="9b4c5-121">3</span><span class="sxs-lookup"><span data-stu-id="9b4c5-121">3</span></span>    | <span data-ttu-id="9b4c5-122">月</span><span class="sxs-lookup"><span data-stu-id="9b4c5-122">Month</span></span> |   <span data-ttu-id="9b4c5-123">50</span><span class="sxs-lookup"><span data-stu-id="9b4c5-123">50</span></span>    |
+   |   <span data-ttu-id="9b4c5-124">4</span><span class="sxs-lookup"><span data-stu-id="9b4c5-124">4</span></span>    | <span data-ttu-id="9b4c5-125">月</span><span class="sxs-lookup"><span data-stu-id="9b4c5-125">Month</span></span> |   <span data-ttu-id="9b4c5-126">25</span><span class="sxs-lookup"><span data-stu-id="9b4c5-126">25</span></span>    |
+
+
+2. <span data-ttu-id="9b4c5-127">链接缩减参数至物料的覆盖范围组。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-127">Link the reduction key to the item's coverage group.</span></span>
+3. <span data-ttu-id="9b4c5-128">在**“主计划”**页上，在**“缩减原则”**字段中，选择**“百分比 - 缩减参数”**。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-128">On the **Master plans** page, in the **Reduction principle** field, select **Percent - reduction key**.</span></span>
+4. <span data-ttu-id="9b4c5-129">创建每月 1,000 份的需求预测。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-129">Create a demand forecast of 1,000 pieces per month.</span></span>
 
 <span data-ttu-id="9b4c5-130">如果在 1 月 1 日运行预测计划编制，则将根据您在**“缩减参数”**页上设置的百分比来消耗销售预测需求。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-130">If you run forecast scheduling on January 1, the demand forecast requirements are consumed according to the percentages that you set up on the **Reduction keys** page.</span></span> <span data-ttu-id="9b4c5-131">以下需求数量将转移到主计划。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-131">The following requirement quantities are transferred to the master plan.</span></span>
 
@@ -88,20 +89,21 @@ ms.lasthandoff: 11/03/2017
 ## <a name="example-3-transactions--dynamic-period-forecast-reduction-principle"></a><span data-ttu-id="9b4c5-171">示例 3：交易记录 - 动态期间预测缩减原则</span><span class="sxs-lookup"><span data-stu-id="9b4c5-171">Example 3: Transactions  dynamic period forecast reduction principle</span></span>
 <span data-ttu-id="9b4c5-172">在大多数情况下，会设置系统以使交易记录在特定预测期间减少需求预测：周、月，等等。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-172">In most cases, systems are set up so that transactions reduce demand forecast within specific forecast periods: weeks, months, and so on.</span></span> <span data-ttu-id="9b4c5-173">这些期间是在缩减参数中定义的。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-173">These periods are defined in the reduction key.</span></span> <span data-ttu-id="9b4c5-174">但是，两个需求预测行之间的时间还可*提示*期间。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-174">However, the time between two demand forecast lines can also *imply* a period.</span></span>
 
-1.  <span data-ttu-id="9b4c5-175">为以下日期和数量创建需求预测。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-175">Create a demand forecast for the following dates and quantities.</span></span>
-    | <span data-ttu-id="9b4c5-176">日期</span><span class="sxs-lookup"><span data-stu-id="9b4c5-176">Date</span></span>       | <span data-ttu-id="9b4c5-177">需求预测</span><span class="sxs-lookup"><span data-stu-id="9b4c5-177">Demand forecast</span></span> |
-    |------------|-----------------|
-    | <span data-ttu-id="9b4c5-178">1 月 1 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-178">January 1</span></span>  | <span data-ttu-id="9b4c5-179">1,000</span><span class="sxs-lookup"><span data-stu-id="9b4c5-179">1,000</span></span>           |
-    | <span data-ttu-id="9b4c5-180">1 月 5 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-180">January 5</span></span>  | <span data-ttu-id="9b4c5-181">500</span><span class="sxs-lookup"><span data-stu-id="9b4c5-181">500</span></span>             |
-    | <span data-ttu-id="9b4c5-182">1 月 12 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-182">January 12</span></span> | <span data-ttu-id="9b4c5-183">1,000</span><span class="sxs-lookup"><span data-stu-id="9b4c5-183">1,000</span></span>           |
+1. <span data-ttu-id="9b4c5-175">为以下日期和数量创建需求预测。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-175">Create a demand forecast for the following dates and quantities.</span></span>
 
-    <span data-ttu-id="9b4c5-184">在此预测中，预测日期之间没有明确的期间：在第一个和第二个日期之间有一个四天间隔，在第二个和第三个日期之间有一个七天间隔。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="9b4c5-185">这些不同间隔是动态期间。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-185">These various spans are the dynamic periods.</span></span>
-2.  <span data-ttu-id="9b4c5-186">如下所示创建销售订单行。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-186">Create sales order lines as follows.</span></span>
-    | <span data-ttu-id="9b4c5-187">日期</span><span class="sxs-lookup"><span data-stu-id="9b4c5-187">Date</span></span>                             | <span data-ttu-id="9b4c5-188">销售订单数量</span><span class="sxs-lookup"><span data-stu-id="9b4c5-188">Sales order quantity</span></span> |
-    |----------------------------------|----------------------|
-    | <span data-ttu-id="9b4c5-189">上一年度的 12 月 15 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-189">December 15 in the previous year</span></span> | <span data-ttu-id="9b4c5-190">500</span><span class="sxs-lookup"><span data-stu-id="9b4c5-190">500</span></span>                  |
-    | <span data-ttu-id="9b4c5-191">1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-191">January 3</span></span>                        | <span data-ttu-id="9b4c5-192">100</span><span class="sxs-lookup"><span data-stu-id="9b4c5-192">100</span></span>                  |
-    | <span data-ttu-id="9b4c5-193">1 月 10 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-193">January 10</span></span>                       | <span data-ttu-id="9b4c5-194">200</span><span class="sxs-lookup"><span data-stu-id="9b4c5-194">200</span></span>                  |
+   | <span data-ttu-id="9b4c5-176">日期</span><span class="sxs-lookup"><span data-stu-id="9b4c5-176">Date</span></span>       | <span data-ttu-id="9b4c5-177">需求预测</span><span class="sxs-lookup"><span data-stu-id="9b4c5-177">Demand forecast</span></span> |
+   |------------|-----------------|
+   | <span data-ttu-id="9b4c5-178">1 月 1 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-178">January 1</span></span>  | <span data-ttu-id="9b4c5-179">1,000</span><span class="sxs-lookup"><span data-stu-id="9b4c5-179">1,000</span></span>           |
+   | <span data-ttu-id="9b4c5-180">1 月 5 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-180">January 5</span></span>  | <span data-ttu-id="9b4c5-181">500</span><span class="sxs-lookup"><span data-stu-id="9b4c5-181">500</span></span>             |
+   | <span data-ttu-id="9b4c5-182">1 月 12 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-182">January 12</span></span> | <span data-ttu-id="9b4c5-183">1,000</span><span class="sxs-lookup"><span data-stu-id="9b4c5-183">1,000</span></span>           |
+
+   <span data-ttu-id="9b4c5-184">在此预测中，预测日期之间没有明确的期间：在第一个和第二个日期之间有一个四天间隔，在第二个和第三个日期之间有一个七天间隔。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-184">In this forecast, there isn't a clear period between the forecast dates: between the first and second dates there is a four-day span, and between the second and third dates there is a seven-day span.</span></span> <span data-ttu-id="9b4c5-185">这些不同间隔是动态期间。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-185">These various spans are the dynamic periods.</span></span>
+2. <span data-ttu-id="9b4c5-186">如下所示创建销售订单行。</span><span class="sxs-lookup"><span data-stu-id="9b4c5-186">Create sales order lines as follows.</span></span>
+   | <span data-ttu-id="9b4c5-187">日期</span><span class="sxs-lookup"><span data-stu-id="9b4c5-187">Date</span></span>                             | <span data-ttu-id="9b4c5-188">销售订单数量</span><span class="sxs-lookup"><span data-stu-id="9b4c5-188">Sales order quantity</span></span> |
+   |----------------------------------|----------------------|
+   | <span data-ttu-id="9b4c5-189">上一年度的 12 月 15 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-189">December 15 in the previous year</span></span> | <span data-ttu-id="9b4c5-190">500</span><span class="sxs-lookup"><span data-stu-id="9b4c5-190">500</span></span>                  |
+   | <span data-ttu-id="9b4c5-191">1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-191">January 3</span></span>                        | <span data-ttu-id="9b4c5-192">100</span><span class="sxs-lookup"><span data-stu-id="9b4c5-192">100</span></span>                  |
+   | <span data-ttu-id="9b4c5-193">1 月 10 日</span><span class="sxs-lookup"><span data-stu-id="9b4c5-193">January 10</span></span>                       | <span data-ttu-id="9b4c5-194">200</span><span class="sxs-lookup"><span data-stu-id="9b4c5-194">200</span></span>                  |
 
 <span data-ttu-id="9b4c5-195">预测会减少，如下所示：</span><span class="sxs-lookup"><span data-stu-id="9b4c5-195">The forecast will be reduced as follows:</span></span>
 

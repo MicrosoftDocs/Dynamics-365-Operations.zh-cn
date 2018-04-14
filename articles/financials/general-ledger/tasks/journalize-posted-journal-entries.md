@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 490e9a4beda43f6e32b87792b11153c3e8e322d6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 253794b4eb44cb5fa6f946caa96ec39a477c061e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="journalize-posted-journal-entries"></a><span data-ttu-id="139ff-103">将过帐日记帐条目记入日记帐</span><span class="sxs-lookup"><span data-stu-id="139ff-103">Journalize posted journal entries</span></span>
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="139ff-104">该过程显示如何将过帐的日记帐条目记入日记帐。</span><span class="sxs-lookup"><span data-stu-id="139ff-104">This procedure shows how to journalize posted journal entries.</span></span> <span data-ttu-id="139ff-105">此过程使用演示数据公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="139ff-105">This procedure uses the USMF demo data company.</span></span>
 
