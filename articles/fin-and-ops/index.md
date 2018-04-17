@@ -8,6 +8,7 @@ ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
