@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: SysUserSetup
+ms.search.form: SysUserSetup, DefaultDashboard
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -19,10 +19,10 @@ ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7f5f458608928837e6a59269354c6388bbed5f4
+ms.sourcegitcommit: a16fa8741efae860de50947eb0fe3382a43d3d08
+ms.openlocfilehash: 9b35569b2ff24da1649ec1b1e7bfd5faad2a59ae
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/17/2018
 
 ---
 

@@ -8,6 +8,7 @@ ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -17,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5973e49918968f2dc031fbb060e916d9a2d954fe
+ms.sourcegitcommit: a16fa8741efae860de50947eb0fe3382a43d3d08
+ms.openlocfilehash: c96f75f02ec684da21d44087bfc59df9012d5c8c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/17/2018
 
 ---
 
