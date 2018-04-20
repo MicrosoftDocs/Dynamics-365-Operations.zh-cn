@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8c2d097626fad905741c35ffa8c13336f8735b9
+ms.sourcegitcommit: 3662bb1a20fbdd3769b94247ac071a7cfd7e04f1
+ms.openlocfilehash: 94c07d18de06a75ad86d69d7c06a78e446f0b506
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/20/2018
 
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a><span data-ttu-id="2f42a-103">Microsoft Dynamics 365 for Talent 入门</span><span class="sxs-lookup"><span data-stu-id="2f42a-103">Getting started with Microsoft Dynamics 365 for Talent</span></span>
@@ -33,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 > [!NOTE] 
 > <span data-ttu-id="2f42a-107">以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。</span><span class="sxs-lookup"><span data-stu-id="2f42a-107">The following products are closely related: Dynamics 365 for Finance and Operations; Dynamics 365 for Retail; and Dynamics 365 for Talent.</span></span> <span data-ttu-id="2f42a-108">这三种产品的功能可能存在重合。</span><span class="sxs-lookup"><span data-stu-id="2f42a-108">The same functionality may appear in all 3 products.</span></span> <span data-ttu-id="2f42a-109">因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。</span><span class="sxs-lookup"><span data-stu-id="2f42a-109">As a result, in topics that are primarily related to Retail, the product name will be Dynamics 365 for Retail; in topics that are primarily related to Talent, the product name will be Dynamics 365 for Talent; and in topics that are related to the core product, the product name will be Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="2f42a-110">针对一种产品撰写的主题可能适用于其相关产品的相同功能。</span><span class="sxs-lookup"><span data-stu-id="2f42a-110">Topics that are written for one product may apply to the same functionality in a related product.</span></span>
 
-### <a name="personalizing-talent"></a><span data-ttu-id="2f42a-111">个性化 Talent</span><span class="sxs-lookup"><span data-stu-id="2f42a-111">Personalizing Talent</span></span> 
+## <a name="personalizing-talent"></a><span data-ttu-id="2f42a-111">个性化 Talent</span><span class="sxs-lookup"><span data-stu-id="2f42a-111">Personalizing Talent</span></span> 
 <span data-ttu-id="2f42a-112">以下主题说明如何设置 Dynamics 365 for Talent 的诸多功能，以让您更轻松地及时完成工作。</span><span class="sxs-lookup"><span data-stu-id="2f42a-112">The following topics show how to set up many features in Dynamics 365 for Talent that make it easier for you to get your work done in a timely manner.</span></span> 
 
 -   <span data-ttu-id="2f42a-113">[个性化用户体验](../fin-and-ops/get-started/personalize-user-experience.md) - 本主题说明您可以个性化 Talent 以及让产品的各个分部更贴近您的偏好的不同方式。</span><span class="sxs-lookup"><span data-stu-id="2f42a-113">[Personalize the user experience](../fin-and-ops/get-started/personalize-user-experience.md) - This topic explains the different ways in which you can personalize Talent and adapt parts of the product to more closely suite your preferences.</span></span>
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 -   <span data-ttu-id="2f42a-117">[键盘快捷键](../fin-and-ops/get-started/shortcut-keys.md) - 此主题列出了美式键盘布局的键盘快捷方式。</span><span class="sxs-lookup"><span data-stu-id="2f42a-117">[Keyboard shortcuts](../fin-and-ops/get-started/shortcut-keys.md) - This topic lists keyboard shortcuts for the United States keyboard layout.</span></span> 
 
-### <a name="accessing-information"></a><span data-ttu-id="2f42a-118">访问信息</span><span class="sxs-lookup"><span data-stu-id="2f42a-118">Accessing information</span></span>
+## <a name="accessing-information"></a><span data-ttu-id="2f42a-118">访问信息</span><span class="sxs-lookup"><span data-stu-id="2f42a-118">Accessing information</span></span>
 <span data-ttu-id="2f42a-119">以下主题说明如何使用查找以及搜索和筛选功能快速查找信息。</span><span class="sxs-lookup"><span data-stu-id="2f42a-119">The following topics explain how to use lookups, and the search and filtering features, to find information quickly.</span></span> 
 
 -   <span data-ttu-id="2f42a-120">[使用查询来查找信息](../fin-and-ops/get-started/use-lookups-to-find-information.md) - 此主题显示查找功能如何能够快速地帮助您找到正确的或所需的值。</span><span class="sxs-lookup"><span data-stu-id="2f42a-120">[Use lookups to find information](../fin-and-ops/get-started/use-lookups-to-find-information.md) - This topic shows how lookups can help you quickly find the correct or desired value.</span></span> <span data-ttu-id="2f42a-121">本主题描述查找功能的工作原理，还包括可帮助您优化使用的技巧。</span><span class="sxs-lookup"><span data-stu-id="2f42a-121">The topic describes how lookups work and includes tips to help you optimize your use of them.</span></span>
