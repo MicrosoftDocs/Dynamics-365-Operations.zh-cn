@@ -1,3 +1,4 @@
+
 # [Dynamics 365 for Finance and Operations](index.md)
 
 ## 开始
@@ -17,12 +18,14 @@
 ##### [购买 Finance and Operations（本地）](get-started/purchase-on-premises.md)
 
 ### [新增功能或更改的功能](get-started/whats-new-changed.md)
+#### [软件生命周期策略和云版本](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
+#### [软件生命周期策略和本地版本](../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json)
 #### [已删除或弃用的功能](../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json)
 #### [延迟发布的 AX 2012 功能](get-started/ax-2012-features-not-implemented-but-not-deprecated.md)
 #### [未在本地部署中实现的功能](get-started/features-not-implemented-on-prem.md)
+#### [Finance and Operations 8.0（2018 年 4 月）](get-started/whats-new-changed-8-0-April-2018.md)
 #### [Platform update 15（2018 年 3 月）](get-started/whats-new-platform-update-15.md)
-#### [版本和生命周期策略](../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json)
-#### [本地部署（2018 年 3 月）](get-started/whats-new-LBD-PU12-App72.md)
+#### [使用 Platform update 12 的版本 7.2 本地部署（2018 年 3 月）](get-started/whats-new-LBD-PU12-App72.md)
 #### [Finance and Operations, Enterprise edition 7.3](get-started/whats-new-application-7.3-update.md)
 #### [Platform update 12（2017 年 11 月）](get-started/whats-new-platform-update-12.md)
 #### [Platform update 11（2017 年 10 月）](get-started/whats-new-platform-update-11.md)
@@ -162,6 +165,10 @@
 ###### [将 Sales 的销售报价单标题和行直接同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
 ###### [直接在 Sales 和 Finance and Operations 之间同步销售订单](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ###### [将 Finance and Operations 的销售发票标题和行直接同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+##### [配置与 Field Service 的集成](../supply-chain/sales-marketing/field-service.md)
+###### [将 Finance and Operations 的产品与 Field Service 的产品同步](../supply-chain/sales-marketing/field-service-product.md)
+###### [将 Field Service 的工作订单同步到 Finance and Operations 的销售订单](../supply-chain/sales-marketing/field-service-work-order.md)
+###### [将 Field Service 的协议发票同步到 Finance and Operations 的普通发票](../supply-chain/sales-marketing/field-service-invoice.md)
 
 
 #### [使用外部 Web 服务](../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json)
@@ -198,6 +205,8 @@
 #### [安全和数据实体](../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json)
 
 ### [提供您自己的数据库](../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json)
+
+### [数据任务自动化](../dev-itpro/data-entities/data-task-automation.md)
 
 ## [财务管理](../financials/index.md)
 
@@ -754,6 +763,7 @@
 #### [付款方式的文件格式](../financials/localizations/emea-select-file-formats-for-the-method-of-payments.md)
 #### [会计服务 (ESR) 集成](../financials/localizations/emea-fiscal-service-integration.md)
 #### [爱沙尼亚和立陶宛的固定资产处置](../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+#### [外币重估](../financials/localizations/emea-foreign-currency-revaluation.md)
 #### [为内部库存转移生成转移文档](../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md)
 #### [生成欧盟内部统计申报](../financials/localizations/tasks/eur-00002-eu-intrastat-declaration.md)
 #### [生成欧盟销售清单报表](../financials/localizations/tasks/eur-00011-eu-sales-list-report.md)
@@ -809,13 +819,7 @@
 
 #### [奥地利](../financials/localizations/austria.md)
 
-#### 比利时
-##### [CODA 银行对帐单](../financials/localizations/emea-bel-coda-bank-statement-import.md)
-##### [创建交易记录并将交易记录转移到 BLWI](../financials/localizations/tasks/be-00011-create-transfer-blwi.md)
-##### [Intervat 纳税申报](../financials/localizations/emea-bel-intervat-tax-declaration.md)
-##### [PRODCOM 报告设置](../financials/localizations/emea-bel-prodcom-report.md)
-##### [对帐报表](../financials/localizations/emea-bel-reconciliation-reports.md)
-##### [设置付款余额申报](../financials/localizations/tasks/be-00011-set-up-payment-balance-reporting.md)
+#### [比利时](../financials/localizations/belgium.md)
 
 #### [捷克共和国](../financials/localizations/czech-republic.md)
 
@@ -833,6 +837,7 @@
 ##### [设置付款单格式](../financials/localizations/tasks/set-up-payment-slip-format.md)
 
 #### 爱沙尼亚
+##### [个人信息请求](../financials/localizations/emea-est-personal-info.md)
 ##### [增值税报表](../financials/localizations/emea-est-vat-statement-details.md)
 
 #### 法国
@@ -859,6 +864,9 @@
 ##### [RB/SL 折旧](../financials/localizations/emea-fra-rbsl-depreciation.md)
 ##### [设置付款方式](../financials/localizations/tasks/fr-00004-setup-method-payment.md)
 ##### [更新客户上的付款方式](../financials/localizations/tasks/fr-00004-update-method-payment-customer.md)
+##### Retail
+###### [收银机](../retail/localizations/emea-fra-cash-registers.md)
+###### [收银机部署指南](../retail/localizations/emea-fra-deployment.md)
 
 #### 德国
 ##### [其他购置折旧](../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
@@ -877,6 +885,7 @@
 ##### [固定资产折旧方法](../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)
 ##### [低成本固定资产](../financials/localizations/emea-hun-low-cost-fixed-assets.md)
 ##### [将固定资产移动到库存](../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
+##### [退税文档](../financials/localizations/emea-hun-tax-reimbursement-docs.md)
 
 #### 冰岛
 ##### [创建供应商帐户和附加发票申报类别](../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md)
@@ -891,6 +900,7 @@
 ##### [固定资产的折旧](../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
 ##### [Modello 770](../financials/localizations/emea-ita-modello770.md)
 ##### [发票上的装箱单日期验证](../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
+##### [过帐和打印包含运输交货详细信息的装箱单](../financials/localizations/emea-ita-packing-slip.md)
 ##### [销售税帐簿](../financials/localizations/emea-ita-fiscal-books.md)
 ##### [拆分签发给公共行政部门的发票的付款](../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
 ##### [预缴税金](../financials/localizations/emea-ita-withholding-tax.md)
@@ -945,6 +955,7 @@
 ##### [销售和采购周期](../financials/localizations/emea-esp-sales-purchase-cycle.md)
 ##### [特殊条目和期初单](../financials/localizations/emea-esp-opening-sheets-spain.md)
 #### 瑞典
+##### [为瑞典审计员导出财务信息](../financials/localizations/emea-swe-sie-standard-report.md)
 ##### [导入付款形式](../financials/localizations/emea-swe-payment-formats-import.md)
 ##### [收银机](../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json)
 #### 瑞士
@@ -1219,6 +1230,7 @@
 #### [为本地部署配置 SSRS](../dev-itpro/analytics/configure-ssrs-on-premises.md?toc=/fin-and-ops/toc.json)
 #### [打印](../dev-itpro/analytics/print-documents.md?toc=/fin-and-ops/toc.json)
 ##### [安装文档路线选择代理以启用网络打印机设备](../dev-itpro/analytics/install-document-routing-agent.md?toc=/fin-and-ops/toc.json)
+##### [升级文档路线选择代理](../dev-itpro/analytics/upgrade-document-routing-agent.md)
 ##### [在本地环境中安装网络打印机设备](../dev-itpro/analytics/install-network-printer-onprem.md?toc=/fin-and-ops/toc.json)
 ##### [本地部署中的文档生成、发布和打印功能](../dev-itpro/analytics/printing-capabilities-on-premises.md?toc=/fin-and-ops/toc.json)
 ##### [将文档路线选择代理作为 Windows 服务运行](../dev-itpro/analytics/run-document-routing-agent-as-windows-service.md?toc=/fin-and-ops/toc.json)
@@ -1234,6 +1246,7 @@
 
 ### [电子申报](../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json)
 #### [配置电子申报框架](../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json)
+#### [创建配置](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
 ##### [针对电子申报创建一个配置提供程序，并标记其为当前运行的](../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [针对电子申报设计特定于域的数据模型](../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json)
 ##### [针对电子申报定义模型映射并选择数据源](../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json)
@@ -1248,48 +1261,46 @@
 ##### [针对电子申报配置目标](../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [针对电子申报设计用于生成 Microsoft Word 格式的报表的配置](../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json)
 #### [针对电子申报设计用于生成 OpenXML 格式的报表的配置](../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json)
-#### [针对电子申报通过重新应用 Microsoft Excel 模板修改格式](../dev-itpro/analytics/tasks/er-modify-format-by-reapplying-microsoft-excel-template-july-2017.md?toc=/fin-and-ops/toc.json)
 #### [通过重新应用 Microsoft Excel 模板修改电子申报格式](../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json)
 #### [针对电子申报选择数据模型定义，同时创建格式](../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报从其他组件定义配置的依赖项](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报将数据模型设计为使用财务维度作为数据源](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报将模型映射为使用财务维度作为数据源](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报将报表设计为使用财务维度作为数据源](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报运行使用财务维度作为数据源的报表](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报创建用于盘点和合计的格式](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报配置计算以执行盘点和合计](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报使用计算以生成用于盘点和合计的输出](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报运行执行盘点和合计的格式](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报设计用于使用可水平扩展的范围在 Excel 报表中动态添加列的格式](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报运行使用可水平扩展的范围在 Excel 报表中动态添加列的格式](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报为数据模型做好在格式输出中使用票据管理文件的准备](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报将数据模型扩展为在格式输出中使用票据管理文件](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报创建在格式输出中使用票据管理文件的格式](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报运行在格式输出中使用票据管理文件的格式](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报修改和运行在格式输出中使用票据管理文件的格式](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报 (ER) 设计配置以生成 Microsoft Office 格式的包含嵌入图像的报表（第 1 部分）](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报检查配置以创建 Microsoft Office 格式的包含嵌入图像的报表](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报生成 Microsoft Office 格式的包含嵌入图像的报表](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
+#### [针对电子申报从其他组件定义配置的依赖项](../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [将数据模型设计为使用财务维度作为数据源](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json)
+##### [将模型映射为使用财务维度作为数据源](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json)
+##### [将报表设计为使用财务维度作为数据源](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json)
+##### [运行使用财务维度作为数据源的报表](../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json)
+##### [创建用于盘点和合计的格式](../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json)
+##### [配置计算以执行盘点和合计](../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json)
+##### [使用计算以生成用于盘点和合计的输出](../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json)
+##### [运行执行盘点和合计的格式](../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json)
+##### [设计用于使用可水平扩展的范围在 Excel 报表中动态添加列的格式](../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json)
+##### [运行用于使用可水平扩展的范围在 Excel 报表中动态添加列的格式](../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json)
+##### [为数据模型做好在格式输出中使用票据管理文件的准备](../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json)
+##### [将数据模型扩展为在格式输出中使用票据管理文件](../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json)
+##### [创建在格式输出中使用票据管理文件的格式](../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json)
+##### [运行在格式输出中使用票据管理文件的格式](../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json)
+##### [修改和运行在格式输出中使用票据管理文件的格式](../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json)
+##### [设计配置以生成 Microsoft Office 格式的包含嵌入图像的报表](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [检查配置以制作 Microsoft Office 格式的包含嵌入图像的报表](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json)
+##### [生成 Microsoft Office 格式的包含嵌入图像的报表](../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json)
 #### [使用电子申报工具生成电子文档并更新申请表数据](../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报导入配置以生成包含申请表数据更新的文档](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报生成包含申请表数据更新的文档](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报修改模型和映射以生成包含申请表数据更新的文档](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报修改可生成包含申请表数据更新的文档的格式](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报生成包含申请表数据更新的文档](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
+##### [导入配置以生成包含申请表数据的文档](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json)
+##### [设计配置以生成包含申请表数据的文档](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json)
+##### [修改模型和映射以生成包含申请表数据的文档](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json)
+##### [修改格式以生成包含申请表数据的文档](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json)
+##### [生成包含申请表数据的文档](../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json)
 #### [业务文档中使用电子申报工具生成的嵌入图像和形状](../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json)
-#### [将配置上传到 Lifecycle Services 中用于电子申报](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报从 Lifecycle Services 导入配置](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
 #### [管理配置生命周期](../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json)
-#### [创建配置](../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json)
-#### [从 Lifecycle Services 下载配置](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
-#### [扩展电子申报功能](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
-##### [针对电子申报管理模型映射配置](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
+##### [针对电子申报将配置上传到 Lifecycle Services 中](../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [针对电子申报从 Lifecycle Services 导入配置](../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json)
+##### [从 Lifecycle Services 下载配置](../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json)
+##### [导入电子申报配置](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
+#### [针对电子申报管理模型映射配置](../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json)
 ##### [针对电子申报创建要从外部文件导入数据所需的配置](../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json)
-#### [导入电子申报配置](../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json)
-#### [分析传入的文档以更新应用程序数据](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
+#### [分析传入的文档以更新申请表数据](../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json)
 #### [分析 CSV 格式的传入文档](../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json)
-
+##### [扩展电子申报功能](../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json)
 ##### [针对 Application update 7.3 的电子申报框架 API 更改](../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json)
+
 
 ### 嵌入的分析解决方案
 #### [工作区中的嵌入 Power BI](../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/fin-and-ops/toc.json)
@@ -1451,6 +1462,7 @@
 #### [供应商入职](../supply-chain/procurement/vendor-onboarding.md)
 #### [供应商与外部供应商的协作](../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)
 #### [供应商与客户的协作](../supply-chain/procurement/vendor-collaboration-work-customers-dynamics-365-operations.md)
+#### [供应商目录导入](../supply-chain/procurement/vendor-catalogs-import.md)
 #### [为电子采购发包设置外部目录](../supply-chain/procurement/set-up-external-catalog-for-punchout.md)
 #### [针对电子采购发包使用外部目录](../supply-chain/procurement/use-external-catalogs-for-punchout.md)
 #### [供应商协作移动工作区](../supply-chain/procurement/vendor-collaboration-mobile-workspace.md)
@@ -1598,14 +1610,16 @@
 ##### [生产中的物料替换](../supply-chain/production-control/substitute-items-bom-lines.md)
 ##### [制造执行的登记](../supply-chain/production-control/registration-manufacturing-execution.md)
 ##### [生产反馈](../supply-chain/production-control/production-feedback.md)
-##### [考勤管理登记](../supply-chain/production-control/time-attendance-registrations.md)
-##### [考勤管理中的缺勤登记](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
 ##### [启用考勤管理的工资流程](../supply-chain/production-control/tasks/payroll-process-time-attendance.md)
 ##### [使用移动作业设备配置工作人员](../supply-chain/production-control/tasks/worker-mobile-job-device.md)
 #### 管理生产中的财务
 ##### [将时间分配到作业捆绑中的作业](../supply-chain/production-control/allocate-time-jobs-job-bundle.md)
 ##### [计算物料消耗量](../supply-chain/production-control/consumption.md)
 ##### [生产过帐](../supply-chain/cost-management/production-posting.md)
+#### [考勤管理登记](../supply-chain/production-control/time-attendance-registrations.md)
+##### [基于登记付薪](../supply-chain/production-control/pay-based-on-registrations.md)
+##### [考勤管理中的缺勤登记](../supply-chain/production-control/absence-registration-in-time-and-attendance.md)
+##### [弹性组](../supply-chain/production-control/time-attendance-flex-groups.md)
 
 ### Lean manufacturing 
 #### [Lean manufacturing 概览](../supply-chain/production-control/lean-manufacturing-overview.md)
@@ -1836,6 +1850,7 @@
 #### [仓库管理中关联工作的库存变动](../supply-chain/warehousing/move-inventory-associated-work.md)
 #### [管理仓库工作人员](../supply-chain/warehousing/manage-warehouse-workers.md)
 ### 领料和打包
+#### [设置群集领料](../supply-chain/warehousing/set-up-cluster-picking.md)
 #### [批次和牌照确认](../supply-chain/warehousing/batch-and-license-plate-confirmation.md)
 #### [创建牌照合并的移动设备菜单项](../supply-chain/warehousing/tasks/create-mobile-device-license-plate-consolidation.md)
 #### [正在接收混合牌照](../supply-chain/warehousing/mixed-license-plate-receiving.md)
@@ -1843,10 +1858,11 @@
 #### [在移动设备上领取最早的批次](../supply-chain/warehousing/pick-oldest-batch.md)
 #### [在 Dynamics 365 for Finance and Operations 中使用摄像头扫描条码](../supply-chain/warehousing/scan-bar-codes-using-a-camera.md)
 #### [单件领料确认](../supply-chain/warehousing/piece-picking-confirmation.md)
-#### [用于群集领料的产品确认](../supply-chain/warehousing/cluster-picking-item-confirmation.md)
+#### [运输负荷的部分装运](../supply-chain/warehousing/partial-shipping-of-transport-loads.md)
 #### [部分预留的转移单批发布](../supply-chain/warehousing/batch-release-of-partially-reserved-transfer-orders.md)
 #### [包装材料和费用](../supply-chain/warehousing/pack-materials-packing-material-fees.md)
 ### 库存盘点
+#### [库存盘点原因代码](../supply-chain/warehousing/reason-codes-for-counting-journals.md)
 #### [锁定库存](../supply-chain/inventory/inventory-blocking.md)
 #### [周期盘点](../supply-chain/warehousing/cycle-counting.md)
 #### [定义周期盘点](../supply-chain/warehousing/tasks/define-cycle-counting-microsoft-dynamics-365-finance-operations-enterprise-edition-july-2017.md)
@@ -1857,6 +1873,7 @@
 #### [库存状态](../supply-chain/inventory/inventory-statuses.md)
 #### [库存标签盘点](../supply-chain/inventory/inventory-tag-counting.md)
 ### [补货](../supply-chain/warehousing/replenishment.md)
+#### [即时补货](../supply-chain/warehousing/immediate-replenishment.md)
 #### [通过取料看板补货](../supply-chain/warehousing/material-replenishment-withdrawal-kanban.md)
 ### [安装和配置仓库应用](../supply-chain/warehousing/install-configure-warehousing-app.md)
 #### [在仓库应用中配置字段名称](../supply-chain/warehousing/configure-app-field-names-priorities-warehouse.md)

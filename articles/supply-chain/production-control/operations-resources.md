@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: WrkCtrCapability
+ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations

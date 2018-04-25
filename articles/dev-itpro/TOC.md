@@ -115,6 +115,7 @@
 ### 新增功能
 #### [可扩展性更改，2017 年 7 月](extensibility/changes-july-2017.md)
 #### [可扩展性更改版本 7.3](extensibility/extensibility-changes-73.md)
+#### [可扩展性更改版本 8.0](extensibility/changes-80.md)
 ### 基本原理
 #### [自动插入的自定义项](extensibility/intrusive-customizations.md)
 #### [类扩展](extensibility/class-extensions.md)
@@ -382,17 +383,18 @@
 
 ### [使用 Common Data Service 进行数据集成](data-entities/data-integration-cds.md) 
 #### [配置现金方案的目标客户](../supply-chain/sales-marketing/prospect-to-cash.md)
-##### [将 Finance and Operations 的产品同步到 Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
-##### [将 Sales 的客户同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
-##### [将 Sales 的联系人同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [将 Sales 的销售报价单标题和行同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
-##### [将 Finance and Operations 的销售订单标题和行同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
-##### [将 Finance and Operations 的销售发票标题和行同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
 ##### [将 Sales 的客户直接同步到 Finance and Operations](../supply-chain/sales-marketing/accounts-template-mapping-direct.md)
 ##### [将 Finance and Operations 的产品直接同步到 Sales](../supply-chain/sales-marketing/products-template-mapping-direct.md)
 ##### [将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户](../supply-chain/sales-marketing/contacts-template-mapping-direct.md)
-##### [将 Finance and Operations 的销售订单标题和行直接同步到 Sales](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
+##### [将 Sales 的销售报价单标题和行直接同步到 Finance and Operations](../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md)
+##### [直接在 Sales 和 Finance and Operations 之间同步销售订单](../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md)
 ##### [将 Finance and Operations 的销售发票标题和行直接同步到 Sales](../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md)
+#### [配置与 Field Service 的集成](../supply-chain/sales-marketing/field-service.md)
+##### [将 Finance and Operations 的产品与 Field Service 的产品同步](../supply-chain/sales-marketing/field-service-product.md)
+##### [将 Field Service 的工作订单同步到 Finance and Operations 的销售订单](../supply-chain/sales-marketing/field-service-work-order.md)
+##### [将 Field Service 的协议发票同步到 Finance and Operations 的普通发票](../supply-chain/sales-marketing/field-service-invoice.md)
+
+
 
 ### [使用外部 Web 服务](data-entities/consume-external-web-service.md)
 
@@ -407,7 +409,9 @@
 ### [配置数据模板](data-entities/configuration-data-templates.md)
 ### [带有多个工作表的数据模板](data-entities/excel-template-multiple.md)
 ### [跟踪实体更改](data-entities/entity-change-track.md)
+
 ### [查找有关标准数据实体的信息](data-entities/data-entities-report.md)
+
 
 ## [数据导入和导出作业](data-entities/data-import-export-job.md)
 
@@ -427,13 +431,18 @@
 
 ## [提供您自己的数据库](analytics/export-entities-to-your-own-database.md)
 
+
+## [数据任务自动化](data-entities/data-task-automation.md)
+
 ## [用于响应 GDPR 数据请求的资源](gdpr/gdpr-home-page.md)
 ### [适用于 Microsoft Dynamics 365 for Finance and Operations 的 GDPR 指南](gdpr/gdpr-auditing-sensitive-data.md)
+### [资产分类](gdpr/gdpr-asset-classification-values.md)
 ### [使用人员搜索报表](gdpr/gdpr-person-search-report.md)
 ### [扩展人员搜索报表](gdpr/gdpr-extend-person-search-report.md)
 ### [管理对敏感数据的访问权限](gdpr/gdpr-auditing-sensitive-data.md)
 ### [使用 Talent 响应个人数据请求](gdpr/respond-dsr-request-talent.md)
 ### [使用 Microsoft Dynamics AX 2012 响应个人数据请求](gdpr/gdpr-ax2012.md)
+
 
 # [连续交货主页](dev-tools/continuous-delivery-home-page.md)
 ## [开发和连续交货常见问题](dev-tools/continuous-delivery-faq.md)
@@ -530,7 +539,8 @@
 ### [AX 2012 升级 - 实施](migration-upgrade/2012-upgrade-cutover.md)
 
 ### 影响从 AX 2012 升级的更改
-#### [单一凭证和货币重估升级](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
+#### [会计科目表分隔符必须是唯一的](migration-upgrade/chart-accounts-delimiter-unique.md)
+#### [单一凭证和货币重估升级 ](migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md)
 #### [项目资源计划数据模型](migration-upgrade/data-model-changes-resource-management.md)
 #### [工作流子系统更改](migration-upgrade/workflow-subsystem.md)
 #### [我们为什么从多维数据集移至聚合模型](migration-upgrade/in-memory-real-time-aggregate-models.md)
@@ -569,6 +579,7 @@
 
 # [系统管理](sysadmin/system-administration-home-page.md)
 ## [平台每月更新常见问题](sysadmin/faq-platform-monthly-updates.md)
+## [有关管理员无权访问的虚拟机的常见问题](sysadmin/VMs-no-admin-access.md)
 ## [添加指向您的组织的法律条款和隐私声明的链接](sysadmin/legal-terms-privacy-statement.md)
 ## [许可证代码和 Configuration Key 报表](sysadmin/license-codes-configuration-keys-report.md)
 ## [跨公司数据共享](sysadmin/cross-company-data-sharing.md)
@@ -612,6 +623,7 @@
 ## [在 BPM 库中完成任务](lifecycle-services/complete-tasks-bpm.md)
 ## [使用活动图](lifecycle-services/using-activity-diagrams.md)
 ## [使用 Visual Studio Team Services (VSTS) 同步 BPM 库](lifecycle-services/synchronize-bpm-vsts.md)
+## [使用任务指南和 BPM 创建接受度测试套件](lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md)
 ## [业务流程建模器流程图](lifecycle-services/flowcharts-business-process-modeler.md)
 ## [上载自定义业务流程](lifecycle-services/upload-business-processes-bpm-task-recorder.md)
 ## [监控和诊断](lifecycle-services/monitoring-diagnostics.md)
@@ -620,6 +632,8 @@
 ## [资产库](lifecycle-services/asset-library.md)
 ## [Microsoft Dynamics 365 - 翻译服务概览](lifecycle-services/translation-service-overview.md)
 ### [Microsoft Dynamics 365 翻译服务用户指南](lifecycle-services/use-translation-service.md)
+### [Microsoft Dynamics 365 翻译服务 - 文档文件翻译](lifecycle-services/use-translation-service-ua.md)
+### [Microsoft Dynamics 365 翻译服务 - 翻译记忆库](lifecycle-services/use-translation-service-tm.md)
 
 ## Dynamics AX 2012 Lifecycle Services 功能
 ### 部署

@@ -3,7 +3,7 @@ title: "本地化和监管功能"
 description: "本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/30/2017
+ms.date: 04/12/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f76359878d162e93d8f8b7c11be529c43c94455
-ms.openlocfilehash: c1c180432e014c69b43612693790a1cac6e54c34
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 389efbe1853264c1503737b55dd7767fdcb966ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/08/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="localization-and-regulatory-features"></a>本地化和监管功能
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品可用性指南](http://download.microsoft.com/documents/en-us/dynamics/Microsoft%20Dynamics%20AX%20Product%20Availability%20Guide.pdf)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
 
@@ -53,8 +52,8 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品�
 -   [监管观察和监管更新通信](regulatory-watch-communication.md)
 -   [向 Microsoft 告知国家/地区监管预警并跟踪监管功能的状态](submit-localization-alerts.md)
 
-### <a name="dynamics-365-roadmap"></a>Dynamics 365 路线图
-[Dynamics 365 路线图](https://roadmap.dynamics.com/)可提供我们当前工作内容的快照。 使用此路线图可了解通常可用的功能以及仍在开发中的功能。 开发中的所有日期和功能都是基于当前预期的初步设计，如有更改，恕不另行通知。
+### <a name="dynamics-365-release-notes"></a>Dynamics 365 版本说明
+[Dynamics 365 版本说明（PDF 下载）](https://aka.ms/businessappsreleasenotes)提供 Dynamics 365 业务应用程序和应用程序平台新增功能和增强功能的描述。 
 
 ## <a name="electronic-reporting"></a>电子申报
 电子申报 (ER) 工具可让您根据各个国家/地区的法律要求配置电子单据的格式。 ER 可让您在电子单据的生命周期中管理它们。 有关详细信息，请参阅以下主题之一：
@@ -79,25 +78,9 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品�
 ## <a name="countryregion-specific-help-topics"></a>特定于国家/地区的帮助主题
 以下各节按国家/地区列出了资源。
 
-### <a name="australia"></a>澳大利亚
-
--   [银行文件格式](../../financials/localizations/apac-aus-method-of-payment-pay-vendors-banks.md)
--   [营业活动报表](../../financials/localizations/apac-aus-business-activity-statement.md)
--   [低价值池折旧](../../financials/localizations/apac-aus-low-value-pool-depreciation.md)
-
-### <a name="austria"></a>奥地利
-
-- [半年折旧](../../financials/localizations/emea-aut-half-year-depreciation.md)
-- [包装材料费用](../../financials/localizations/emea-aut-packing-material-fee-calculation.md)
-- [进项税](../../financials/localizations/emea-aut-purchase-duties.md)
-- [增值税报表](../../financials/localizations/emea-aut-vat-statement-details.md)
-
-### <a name="belgium"></a>比利时
-
--   [CODA 银行对帐单](../../financials/localizations/emea-bel-coda-bank-statement-import.md)
--   [Intervat 纳税申报](../../financials/localizations/emea-bel-intervat-tax-declaration.md)
--   [PRODCOM 报告设置](../../financials/localizations/emea-bel-prodcom-report.md)
--   [对帐报表](../../financials/localizations/emea-bel-reconciliation-reports.md)
+### <a name="australiafinancialslocalizationsaustraliamd"></a>[澳大利亚](../../financials/localizations/australia.md)
+### <a name="austriafinancialslocalizationsaustriamd"></a>[奥地利](../../financials/localizations/austria.md)
+### <a name="belgiumfinancialslocalizationsbelgiummd"></a>[比利时](../../financials/localizations/belgium.md)
 
 ### <a name="brazil"></a>巴西
 
@@ -134,22 +117,9 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品�
 -   [按站点过帐库存主科目](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
 -   [显示会计科目的借方和贷方金额](../../financials/localizations/apac-chn-negative-debits-credits.md)
 
-### <a name="the-czech-republic"></a>捷克共和国
-
--   [贷方通知单上的现金折扣](../../financials/localizations/emea-cze-credit-note-cash-discount.md)
--   [折旧舍入](../../financials/localizations/emea-cze-depreciation-rounding.md)
--   [捷克共和国的固定资产处置的半年折旧](../../financials/localizations/emea-cze-half-depreciation-fixed-asset-disposal.md)
--   [折旧挂起 (holidays.md)](../../financials/localizations/emea-cze-depreciation-suspension-holidays.md)
--   [捷克共和国的固定资产折旧方法](../../financials/localizations/emea-cze-fixed-assets-depreciation.md)
--   [过帐购置前的固定资产](../../financials/localizations/emea-pre-acquisition-acquisition-fixed-asset.md)
--   [捷克共和国的增值税报表](../../financials/localizations/emea-cze-vat-statement-details.md)
--   [销售税申报](../../financials/localizations/emea-cze-intra-community-vat-transactions.md)
--   [拆分期间日记帐中的期间](../../financials/localizations/emea-create-post-periodic-journals.md)
--   [设置打印表格的签名人](../../financials/localizations/emea-set-up-signers-for-printing-forms.md)
--   [更新金额在报表和单据上显示的方式](../../financials/localizations/emea-amount-printing-forms.md)
+### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[捷克共和国](../../financials/localizations/czech-republic.md)
 
 ### <a name="estonia"></a>爱沙尼亚
-
 -   [爱沙尼亚的增值税报表明细](../../financials/localizations/emea-est-vat-statement-details.md)
 -   [固定资产处置](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
 
@@ -280,7 +250,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品�
 -   [调整通货膨胀申报报告](../../financials/localizations/latam-mex-adjustment-inflation-declaration-report.md)
 -   [ISR 申报报表](../../financials/localizations/latam-mex-isr-declaration-report-supporting-processes.md)
 -   [电子发票 (CFDI)](../../financials/localizations/latam-mex-CFDI-electronic-invoices.md)
-   
+
 ### <a name="malaysia"></a>马来西亚
 
 -   [商品劳务税 (GST)](../../financials/localizations/apac-mys-gst.md)
