@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: WrkCtrCapability
+ms.search.form: OpResLifecycleManagementWorkspace, WrkCtrCapability
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,10 +20,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7f3a4e8fa4bbcbc837d28aef2ef2b9065ab8d5aa
+ms.sourcegitcommit: 1f6a0922ebd0d2436715f0d1a1cc5d99876427f1
+ms.openlocfilehash: 3449c24bb90478ee2ba3c042f551e1de8709e86c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/25/2018
 
 ---
 

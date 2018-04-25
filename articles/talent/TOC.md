@@ -3,7 +3,7 @@
 # [入门](talent-get-started.md)
 ## [系统要求和更新策略](talent-versions-update-policy.md)
 ## [配置 Microsoft Dynamics 365 for Talent](provisioning-talent.md)
-## [删除 Talent 环境](remove-test-environment.md)
+## [删除 Talent 环境](remove-talent-environment.md)
 ## [配置 Microsoft Dynamics 365 for Talent 模块化应用](modular-app-tech-faq.md)
 ## [扩展 Talent 功能](extend-talent-functionality.md)
 
@@ -13,6 +13,7 @@
 ## [跨法人设置人力资源参数](set-up-hr-parameters-across-legal-entities.md)
 ## [设置特定于公司的人力资源参数](set-up-company-specific-hr-parameters.md)
 ## [人事行动常见问题](personnel-actions-faq.md)
+## [确定业务流程](formalize-business-processes.md)
 ## [使用工作流管理员工信息](workflow-manage-employee-information.md)
 ## [休假和缺勤概览](leave-absence-overview.md)
 
