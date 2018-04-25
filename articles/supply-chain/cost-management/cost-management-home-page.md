@@ -3,12 +3,12 @@ title: "成本管理主页"
 description: "可通过成本管理处理原材料、半成品、成品和在制品资产的计价和核算。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 02/14/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25115084af1366770741063a9f839bc0ddd9147d
+ms.sourcegitcommit: 0a8946b5258e467328fa220ad555e5b9d4dc38e8
+ms.openlocfilehash: c196d5117abbaa8926bf051eaca683657fbc81e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/25/2018
 
 ---
 
