@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 57fc1c21394d91f6a8bd4726c9d948c8ae2cf4d0
+ms.sourcegitcommit: 8af424d1a1ce41316008649472c2b8748806c6d6
+ms.openlocfilehash: 0a76417e01b67b493b320973c14e059850ab772e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/25/2018
 
 ---
 
@@ -52,16 +52,12 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="5ac76-116">在“**表格式列表**”部分，发票的状态按照与汇总磁贴类似的方式分解：草稿和已提交，未审核的列表。</span><span class="sxs-lookup"><span data-stu-id="5ac76-116">In the **Tabular lists** section, the status of the invoicing is broken down in similar ways as the summary tiles: Draft and Submitted, not approved lists.</span></span> <span data-ttu-id="5ac76-117">在“草稿”状态，发票可以提交到工作流或删除。</span><span class="sxs-lookup"><span data-stu-id="5ac76-117">While in the Draft state, an invoice can be submitted to workflow or deleted.</span></span> <span data-ttu-id="5ac76-118">最后一个表格式列表是用来查找发票的选项。</span><span class="sxs-lookup"><span data-stu-id="5ac76-118">The last tabular list is an option to find invoices.</span></span> <span data-ttu-id="5ac76-119">您可以在搜索时进行筛选，以便更快地进行搜索。</span><span class="sxs-lookup"><span data-stu-id="5ac76-119">You can filter as you search, to allow for faster searches.</span></span>
 
-<a name="all-vendor-invoices-list-page"></a><span data-ttu-id="5ac76-120">所有供应商发票列表页</span><span class="sxs-lookup"><span data-stu-id="5ac76-120">All vendor invoices list page</span></span>
------------------------------
+### <a name="all-vendor-invoices-list-page"></a><span data-ttu-id="5ac76-120">所有供应商发票列表页</span><span class="sxs-lookup"><span data-stu-id="5ac76-120">All vendor invoices list page</span></span>
 
 <span data-ttu-id="5ac76-121">您可以在**供应商协作发票**列表页上查看所有已过帐和未过帐的供应商发票。</span><span class="sxs-lookup"><span data-stu-id="5ac76-121">You can view all posted and unposted vendor invoices on the **Vendor collaboration invoices** list page.</span></span> <span data-ttu-id="5ac76-122">您可以使用此列表页查看发票的付款状态。</span><span class="sxs-lookup"><span data-stu-id="5ac76-122">You can use this list page to view the payment status of the invoices.</span></span> <span data-ttu-id="5ac76-123">付款状态包括未过帐，未付款，部分支付和完全支付。</span><span class="sxs-lookup"><span data-stu-id="5ac76-123">The payment statuses include Unposted, Unpaid, Partially paid, and Fully paid.</span></span>
 <span data-ttu-id="5ac76-124">从采购订单创建新发票</span><span class="sxs-lookup"><span data-stu-id="5ac76-124">Creating a new invoice from a purchase order</span></span>
---------------------------------------------
 
 <span data-ttu-id="5ac76-125">您可以通过选择“**供应商协作开票**”工作区上的“**新建**”操作创建新的供应商发票。</span><span class="sxs-lookup"><span data-stu-id="5ac76-125">You can create a new vendor invoice by selecting the **New** action on the **Vendor collaboration invoicing** workspace.</span></span> <span data-ttu-id="5ac76-126">采购订单编号以及发票编号必须由供应商提供。</span><span class="sxs-lookup"><span data-stu-id="5ac76-126">The purchase order number and invoice number must be provided by the vendor.</span></span> <span data-ttu-id="5ac76-127">默认情况下，新发票上将显示供应商采购订单的所有行。</span><span class="sxs-lookup"><span data-stu-id="5ac76-127">By default, all of the lines from the vendor's purchase order will appear on the new invoice.</span></span> <span data-ttu-id="5ac76-128">将供应商发票提交到工作流之前，可以编辑数量和成本信息。</span><span class="sxs-lookup"><span data-stu-id="5ac76-128">The quantity and cost information can be edited prior to submitting the vendor invoice to workflow.</span></span> <span data-ttu-id="5ac76-129">提交发票前，您可以在发票上附加文件、附注、图片和 URL。</span><span class="sxs-lookup"><span data-stu-id="5ac76-129">You can attach files, notes, images, and URLs to an invoice before submitting it.</span></span>
-
-
 
 <span data-ttu-id="5ac76-130">有关详细信息，请参阅[供应商与外部供应商的协作](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)</span><span class="sxs-lookup"><span data-stu-id="5ac76-130">For more information, see [Vendor collaboration with external vendors](../../supply-chain/procurement/vendor-collaboration-work-external-vendors.md)</span></span>
 
