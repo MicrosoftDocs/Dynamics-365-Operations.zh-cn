@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>向看板规则中添加看板数量计算策略
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程重点是创建看板数量计算策略，并将其添加到看板规则，以优化看板大小和数量。 创建此程序的演示数据公司是 USMF。 此程序是专为价值流经理设计的。 此过程是创建“计算看板数量建议”这一过程的先决条件。 
 

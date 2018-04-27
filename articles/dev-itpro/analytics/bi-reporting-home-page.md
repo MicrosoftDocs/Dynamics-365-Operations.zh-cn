@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="intelligence"></a>智能
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations 中提供的商业智能 (BI) 和报告工具的详细信息。
 

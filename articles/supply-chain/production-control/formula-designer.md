@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: d9b61e545067db592545d5fbce7b4315c51a8bf8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer"></a>配方设计器
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题说明如何使用配方设计器来分析和维护树视图中的配方。
 
@@ -116,8 +116,10 @@ ms.lasthandoff: 02/07/2018
 ## <a name="configuring-the-tree-view"></a>配置树视图
 单击**设置**以自定义在配方设计器的树视图中显示的信息。
 
-| 字段组 | 说明 |
-|-------------|-------------|
-| 物料清单         | 使用该复选框可选择在树结构中显示的条件。 配方设计器将在两个选项卡的底部显示所选条件。 |
-| 工艺路线       | 使用该复选框可选择对工艺路线显示的条件。 |
+
+| 字段组 |                                                                          说明                                                                          |
+|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|     物料清单     | 使用该复选框可选择在树结构中显示的条件。 配方设计器将在两个选项卡的底部显示所选条件。 |
+|    工艺路线    |                                           使用该复选框可选择对工艺路线显示的条件。                                           |
+
 

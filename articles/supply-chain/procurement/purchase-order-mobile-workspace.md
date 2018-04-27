@@ -27,9 +27,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="purchase-order-approval-mobile-workspace"></a>采购订单审核移动工作区
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
 此主题提供有关**采购订单审核**移动工作区的信息。 此工作区可让您查看采购订单和通过操作作出响应。 例如，您可以审核或拒绝采购订单。
  

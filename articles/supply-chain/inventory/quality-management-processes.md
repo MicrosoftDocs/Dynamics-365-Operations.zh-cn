@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="quality-management-processes"></a>质量管理流程
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关未达标产品的质量管理流程的信息。 它介绍了如何使用质量控制功能、如何定义和维护不符合项以及如何处理更正。
 

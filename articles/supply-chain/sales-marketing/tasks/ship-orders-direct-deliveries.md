@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>以直接交运方式装运订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程显示如何为销售订单创建直接交货。 在想要从供应商处直接装运货物给客户，而不是先装运至您自身的仓库时，可使用直接交货。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 要想成功完成第二个子任务“从工作台创建直接交货”，确保您在销售订单上选择的物料有默认“供应商”，该供应商在“已发布基础产品”的“采购”快速项卡上有指定。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-sales-commissions"></a>登记销售佣金
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程显示如何计算和登记销售佣金。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 在开始此指南前，运行名为“设置销售佣金规则”的指南，以确保您已设置好所有必要的佣金计算设置。
 

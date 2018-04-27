@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="create-cost-objects"></a>创建成本对象 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何通过数据连接器将 Dynamics 365 for Finance and Operations 成本中心财务维度导入成本核算来创建成本对象。 用于创建该过程的是演示公司 USMF。 此过程针对 Microsoft Dynamics 365 for Operations 版本 1611 中增加的成本核算功能。
 

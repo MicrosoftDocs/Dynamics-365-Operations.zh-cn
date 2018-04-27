@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-and-associate-a-hardware-station"></a>创建和关联硬件工作站
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建新的硬件工作站。 新硬件配置文件将被创建和用于添加新的硬件工作站到预定义的商店（渠道）。 此程序使用 USRT 演示数据公司。
 

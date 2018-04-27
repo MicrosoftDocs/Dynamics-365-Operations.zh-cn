@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
-ms.openlocfilehash: 9705f3fd7076e010ec4d497c4d933364f3cfcc8f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 93f6cddd8d698dbc1a3539a156a762b8e6017aa6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>定义薪酬流程并计算结果
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 薪酬流程用于确定在固定和可变薪酬计划中登记的员工的新的薪酬金额和奖励。 薪酬流程可以运行多次以执行“假设”分析，从而验证所有的更改和设置都正确。 该过程将创建薪酬流程，运行流程，并查看结果。 创建此程序的演示数据公司是 USMF。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>设置采购订单的工作模板
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程的重点是设置物料入库时使用的简单工作模板。 工作模板确定了在从接受区转移物料时，向仓管人员移动设备显示的指令集。 您可以使用演示数据公司 USMF 中提及的数据运行该过程。 在您开始本指南之前，请创建工作池 ID。 在此示例中，将使用称为“进货”的工作池 ID。 该过程专门面向仓库经理。
 

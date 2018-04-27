@@ -3,11 +3,12 @@ title: "成本管理 Power BI 内容"
 description: "此主题介绍成本管理 Power BI 内容中的内容。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/02/2018
+ms.date: 03/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
+ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -19,124 +20,195 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7b5c4428c8610a7b2d4cf1a28287ba2bb1f9c2ea
-ms.openlocfilehash: 6739d769c3f7876f67d80554743458b0abd5aae5
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/06/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cost-management-power-bi-content"></a>成本管理 Power BI 内容
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
+
+## <a name="overview"></a>概览
+
+**成本管理** Microsoft Power BI 内容面向库存核算师或负责库存或在制品 (WIP) 的状态或对此类状态感兴趣的个人，或负责分析标准成本差异或对此类差异感兴趣的人员。
 
 > [!Note]
-> 根据 [Power BI 内容包发布到 PowerBI.com](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features#power-bi-content-packs-published-to-powerbicom) 中的说明，已弃用此内容包。
+> 本主题中介绍的**成本管理** Power BI 内容适用于 Dynamics 365 for Finance and Operations 8.0。
+> 
+> 已废弃了 PowerBI.com 站点中发布的**成本管理** Power BI 内容包。 有关此项废弃的详细信息，请参阅 [Power BI 内容包发布到 PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom)。
 
 
-此主题介绍成本管理 Power BI 内容中的内容。 
+此 Power BI 内容提供分类格式，帮助您监控库存性能，并显示库存中的成本分布。 您可获取管理见解，如周转率、现货库存天数，以及首选聚合级别的“ABC 分类”（公司、物料、物料组或站点）。 也可以将可用信息用作财务报表的详细补充。
 
-**成本管理** Microsoft Power BI 内容适用于组织中的库存会计师或负责库存的个人。 **成本管理** Power BI 内容提供对库存和在制品 (WIP) 库存的管理洞察，并按类别介绍一段时间内成本在这些库存中的流向。 也可以将此信息用作财务报表的详细补充。
+此 Power BI 内容基于 **CostObjectStatementCacheMonthly** 聚合度量构建，后者采用 **CostObjectStatementCache** 表充当主要数据源。 此表由数据集高速缓存框架管理。 默认情况下，此表每隔 24 小时更新一次，但是您可以在数据集高速缓存配置中更改更新频率或启用手动更新。 可以在**成本管理**工作区或**成本分析**工作区中运行手动更新。
 
-## <a name="key-measures"></a>关键度量
+每次更新 **CostObjectStatementCache** 表之后，必须先更新 **CostObjectStatementCacheMonthly** 聚合度量，再更新 Power BI 可视化中的数据。
 
-+ 期初余额
-+ 期末余额
-+ 净改变
-+ 净更改（百分比）
-+ 帐龄
+## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
-## <a name="key-performance-indicators"></a>关键绩效指标
-+ 库存周转
-+ 库存准确性
+**成本管理** Power BI 内容在**成本管理**和**成本分析**工作区中显示。
 
-CostAggregatedCostStatementEntryEntity 的主要数据源为 CostStatementCache 表。 此表由数据集高速缓存框架管理。 默认情况下，此表每隔 24 小时更新一次，但是您可以在数据高速缓存配置中启用手动更新。 可以在**成本管理**或**成本分析**工作区中执行手动更新。 运行 CostStatementCache 的更新之后，必须在 Power BI.com 中更新 OData 连接才能在该网址中查看更新后的数据。 此 Power BI 内容中的差异（采购、生产）度量仅适用于通过标准成本库存方法估值的物料。 生产差异计算为有效成本与实际成本之差。 生产订单的状态为**已结束**时，计算生产差异。 有关生产差异类型和如何计算各种类型的详细信息，请参阅[关于分析已完成生产订单的差异](https://technet.microsoft.com/en-us/library/gg242850.aspx)。
+**成本管理**工作区中包含以下选项卡：
 
+- **概述** – 此选项卡显示应用程序数据。
+- **库存会计状态** – 此选项卡显示 Power BI 内容。
+- **制造会计状态** – 此选项卡显示 Power BI 内容。
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
-此内容中包含一组报表页面。 每个页面中包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**成本管理** Power BI 内容中的可视化。
+**成本分析**工作区中包含以下选项卡：
 
-| 报表页 | 图表 | 职称 |
-|---|---|---|
-|库存总体情况（默认按当前期间） |准确性 |库存度量：<br>库存期末余额<br>库存净更改<br>库存净更改百分比<br>|
-| |库存周转 | |
-| |按资源组的库存期末余额 | |
-| |按类别名称级别 1 和类别名称级别 2 的库存净更改| |
-| |按资源组和类别名称级别 3 的采购差异 | |
-|按站点的库存（默认按当前期间） |按站点名称和资源组的库存期末余额 | |
-| |按站点名称和资源组的库存周转 | |
-| |按市/县和资源组的库存期末余额 | |
-|按资源组的库存（默认按当前期间） |库存度量 | |
-| |按金额和资源组的库存精确性 | |
-| |按金额和资源组的库存周转 | |
-|库存 YOY（默认本年对比上一年） |库存度量 | |
-| |库存 KPI：<br>库存周转<br>库存准确性 | |
-| |按年和资源组的库存期末余额 | |
-| |按年和类别名称级别 3 的采购差异 | |
-|库存帐龄（默认按本年） |按季度和资源组的库存帐龄 | |
-| |按季度和站点名称的库存帐龄 | |
-|WIP 总体情况（默认按当前期间） |按类别名称级别 1 和类别名称级别 2 的 WIP 净更改 |在制品 WIP 度量：<br>WIP 期末余额<br>WIP 净改变<br>WIP 净改变百分比<br> |
-| |按资源组和类别名称级别 3 的生产差异 | |
-| |按资源组的 WIP 净改变 | |
-|按站点的 WIP（默认按当前期间） |在制品 WIP 度量 | |
-| |按站点名称和类别名称级别 2 的 WIP 净更改 | |
-| |按站点名称和类别名称级别 3 的生产差异 | |
+- **概述** – 此选项卡显示应用程序数据。
+- **库存会计分析** – 此选项卡显示 Power BI 内容。
+- **制造会计分析** – 此选项卡显示 Power BI 内容。
+- **标准成本差异分析** – 此选项卡显示 Power BI 内容。
 
-## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-Finance and Operations 数据用于填充**成本管理** Power BI 内容中的报表页面。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL 数据库）中暂存的聚合度量。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。 以下关键聚合度量用作该内容的基础。
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表页
 
-| 实体            | 关键聚合度量 | Finance and Operations 的数据源 | 字段             | 说明                       |
-|-------------------|---------------------------|---------------------------------------------|-------------------|-----------------------------------|
-| 报表条目 | 净改变                | CostAggregatedCostStatementEntryEntity      | sum(\[Amount\])   | 按记帐币种计算的金额 |
-| 报表条目 | 净更改数量       | CostAggregatedCostStatementEntryEntity      | sum(\[Quantity\]) |                                   |
+**成本管理** Power BI 内容包括一组含有一组指标的报表页。 这些指标显示为图表、磁贴和表。 
 
-下表显示如何使用关键聚合度量在该内容的数据集中创建若干计算度量。
+下面的表概要介绍**成本管理** Power BI 内容中的可视化。
 
-| 度量                                 | 该度量的计算方法                                                                                                                                                                                                                                                                                                                                                                                                                                              |
-|-----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 期初余额                       | \[期末余额\]-\[净更改\]                                                                                                                                                                                                                                                                                                                                                                                                                                          |
-| 期初余额数量              | \[期末余额数量\]-\[净更改数量\]                                                                                                                                                                                                                                                                                                                                                                                                                        |
-| 期末余额                          | CALCULATE(SUM(\[Amount\]), FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &lt;= MAX('Fiscal calendars'\[Date\])))                                                                                                                                                                                           |
-| 期末余额数量                 | CALCULATE(SUM(\[Quantity\]), FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &lt;= MAX('Fiscal calendars'\[Date\])))                                                                                                                                                                                         |
-| 库存期初余额             | CALCULATE(\[Beginning balance\], 'Statement entries'\[Statement Type\] = "Inventory")                                                                                                                                                                                                                                                                                                                                                                                      |
-| 库存期末余额                | CALCULATE(\[Ending balance\], 'Statement entries'\[Statement Type\] = "Inventory")                                                                                                                                                                                                                                                                                                                                                                                         |
-| 库存净更改                    | CALCULATE(\[Net change\], 'Statement entries'\[Statement type\] = "Inventory")                                                                                                                                                                                                                                                                                                                                                                                             |
-| 库存净更改数量           | CALCULATE(\[Net change quantity\], 'Statement entries'\[Statement type\] = "Inventory")                                                                                                                                                                                                                                                                                                                                                                                    |
-| 库存净更改百分比                  | IF(\[Inventory ending balance\] = 0, 0, \[Inventory net change\] / \[Inventory ending balance\])                                                                                                                                                                                                                                                                                                                                                                           |
-| 按金额的库存周转                | if(OR(\[Inventory average balance\] &lt;= 0, \[Inventory sold or consumed issues\] &gt;= 0), 0, ABS(\[Inventory sold or consumed issues\])/\[Inventory average balance\])                                                                                                                                                                                                                                                                                                  |
-| 库存平均余额               | (\[库存期末余额\] + \[库存期初余额\]) / 2                                                                                                                                                                                                                                                                                                                                                                                                       |
-| 已售或已消耗库存问题       | \[已售库存\] + \[库存的消耗物料成本\]                                                                                                                                                                                                                                                                                                                                                                                                                  |
-| 库存消耗的物料成本        | CALCULATE(\[Inventory net change\], 'Statement entries'\[Category name - level 2\_\] = "ConsumedMaterialsCost")                                                                                                                                                                                                                                                                                                                                                            |
-| 已售库存                          | CALCULATE(\[Inventory net change\], 'Statement entries'\[Category name - level 2\_\] = "Sold")                                                                                                                                                                                                                                                                                                                                                                             |
-| 按金额的库存准确性            | IF(\[Inventory ending balance\] &lt;= 0, IF(OR(\[Inventory counted amount\] &lt;&gt; 0, \[Inventory ending balance\] &lt; 0), 0, 1), MAX(0, (\[Inventory ending balance\] - ABS(\[Inventory counted amount\]))/\[Inventory ending balance\]))                                                                                                                                                                                                                              |
-| 库存盘点金额                | CALCULATE(\[Inventory net change\], 'Statement entries'\[Category name - level 3\_\] = "Counting")                                                                                                                                                                                                                                                                                                                                                                         |
-| 库龄                         | if(ISBLANK(max('Fiscal calendars'\[Date\])), blank(), MAX(0, MIN(\[Inventory aging receipts quantity\], \[Inventory aging ending balance quantity\] - \[Inventory aging receipts quantity in the future\]))) \* \[Inventory avg unit cost\]                                                                                                                                                                                                                                |
-| 库存帐龄收货数量       | IF(\[minDate\] = \[minDateAllSelected\], CALCULATE(\[Inventory net change quantity\], 'Statement entries'\[Quantity\] &gt; 0, FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &lt;= MAX('Fiscal calendars'\[Date\]))), CALCULATE(\[Inventory net change quantity\], 'Statement entries'\[Quantity\] &gt; 0)) |
-| 库存帐龄期末余额数量 | \[Inventory ending balance quantity\] + CALCULATE(\[Inventory net change quantity\], FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &gt; max('Fiscal calendars'\[Date\]) ))                                                                                                                                 |
-| 将来的库存帐龄收货  | CALCULATE(\[Inventory net change\], 'Statement entries'\[Amount\] &gt; 0, FILTER(ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]), 'Fiscal calendars'\[Date\] &gt; MAX('Fiscal calendars'\[Date\])))                                                                                                                                             |
-| 库存平均单位成本                 | CALCULATE(\[Inventory ending balance\] / \[Inventory ending balance quantity\],ALLEXCEPT('Fiscal calendars', 'Fiscal calendars'\[LedgerRecId\], 'entities'\[ID\], 'entities'\[Name\], 'Ledgers'\[Currency\], 'Ledgers'\[Description\], 'Ledgers'\[Name\]))                                                                                                                                                                                                                 |
-| 采购差异                      | CALCULATE(SUM(\[Amount\]), 'Statement entries'\[Category name - level 2\_\] = "Procured", 'Statement entries'\[Statement type\] = "Variance")                                                                                                                                                                                                                                                                                                                              |
-| WIP 期初余额                   | CALCULATE(\[Beginning balance\], 'Statement entries'\[Statement Type\] = "WIP")                                                                                                                                                                                                                                                                                                                                                                                            |
-| WIP 期末余额                      | CALCULATE(\[Ending balance\], 'Statement entries'\[Statement Type\] = "WIP")                                                                                                                                                                                                                                                                                                                                                                                               |
-| WIP 净更改                          | CALCULATE(\[Net change\], 'Statement entries'\[Statement type\] = "WIP")                                                                                                                                                                                                                                                                                                                                                                                                   |
-| WIP 净改变百分比                        | IF(\[WIP ending balance\] = 0, 0, \[WIP net change\] / \[WIP ending balance\])                                                                                                                                                                                                                                                                                                                                                                                             |
-| 生产差异                    | CALCULATE(SUM(\[Amount\]), 'Statement entries'\[Category name - level 2\_\] = "ManufacturedCost", 'Statement entries'\[Statement type\] = "Variance")                                                                                                                                                                                                                                                                                                                      |
-| 类别名称 - 级别 1                 | switch(\[Category name - level 1\_\], "None", "None", "NetSourcing", "Net sourcing", "NetUsage", "Net usage", "NetConversionCost", "Net conversion cost", "NetCostOfGoodsManufactured", "Net cost of goods manufactured", "BeginningBalance", "Beginning balance")                                                                                                                                                                                                         |
-| 类别名称 - 级别 2                 | switch(\[Category name - level 2\_\], "None", "None", "Procured", "Procured", "Disposed", "Disposed", "Transferred", "Transferred", "Sold", "Sold", "ConsumedMaterialsCost", "Consumed material cost", "ConsumedManufacturingCost", "Consumed manufacturing cost", "ConsumedOutsourcingCost", "Consumed outsourcing cost", "ConsumedIndirectCost", "Consumed indirect cost", "ManufacturedCost", "Manufactured cost", "Variances", "Variances")                            |
-| 类别名称 - 级别 3                 | switch(\[Category name - level 3\_\], "None", "None", "Counting", "None", "ProductionPriceVariance", "Production price", "QuantityVariance", "Quantity", "SubstitutionVariance", "Substitution", "ScrapVariance", "Scrap", "LotSizeVariance", "Lot size", "RevaluationVariance", "Revaluation", "PurchasePriceVariance", "Purchase price", "CostChangeVariance", "Cost change", "RoundingVariance", "Rounding variance")                                                   |
+### <a name="inventory-accounting-status"></a>库存会计状态
+
+| 报表页                               | 可视化                                   |
+|-------------------------------------------|-------------------------------------------------|
+| 库存概览                        | 期初余额                               |
+|                                           | 净改变                                      |
+|                                           | 净改变百分比                                    |
+|                                           | 期末余额                                  |
+|                                           | 库存准确性                              |
+|                                           | 库存周转率                        |
+|                                           | 现货库存天数                          |
+|                                           | 周期内的有效产品                        |
+|                                           | 周期内的有效成本对象                   |
+|                                           | 按物料组分类的余额                           |
+|                                           | 按站点分类的余额                                 |
+|                                           | 按类别分类的报表                           |
+|                                           | 按季度分类的净改变                           |
+| 按站点和物料组分类的库存概览 | 按站点分类的库存准确性                      |
+|                                           | 按站点分类的库存周转率                |
+|                                           | 按站点分类的库存期末余额                |
+|                                           | 按物料组分类的库存准确性                |
+|                                           | 按物料组分类的库存周转率          |
+|                                           | 按站点和物料组分类的库存期末余额 |
+| 库存报表                       | 库存报表                             |
+| 按站点分类的库存报表               | 按站点分类的库存报表                     |
+| 按产品层次结构分类的库存报表  | 库存报表                             |
+| 按产品层次结构分类的库存报表  | 按站点分类的库存报表                     |
+
+### <a name="manufacturing-accounting-status"></a>制造会计状态
+
+| 报表页                | 可视化                       |
+|----------------------------|-------------------------------------|
+| 年初至今的 WIP 概览           | 期初余额                   |
+|                            | 净改变                          |
+|                            | 净改变百分比                        |
+|                            | 期末余额                      |
+|                            | WIP 周转率                  |
+|                            | WIP 现货天数                    |
+|                            | 周期内的有效成本对象        |
+|                            | 按资源组分类的净改变        |
+|                            | 按站点分类的余额                     |
+|                            | 按类别分类的报表               |
+|                            | 按季度分类的净改变               |
+| WIP statement / WIP 报表              | 期初余额                   |
+|                            | 期末余额                      |
+|                            | 按类别分类的 WIP 报表           |
+| 按站点分类的 WIP 报表      | 期初余额                   |
+|                            | 期末余额                      |
+|                            | 按类别和站点分类的 WIP 报表  |
+| 按层次结构分类的 WIP 报表 | 期初余额                   |
+|                            | 期末余额                      |
+|                            | 按类别层次结构分类的 WIP 报表 |
+
+### <a name="inventory-accounting-analysis"></a>库存会计分析
+
+| 报表页        | 可视化                                                                |
+|--------------------|------------------------------------------------------------------------------|
+| 库存详细信息  | 按期末余额分类的前 10 项资源                                           |
+|                    | 按净改变增加前 10 项资源                                      |
+|                    | 按净改变减小前 10 项资源                                      |
+|                    | 按库存周转率分类的前 10 项资源                                 |
+|                    | 按库存周转率和高于阈值的期末余额分类的资源 |
+|                    | 按低准确性分类的前 10 项资源                                             |
+| ABC 分类 | 库存期末余额                                                     |
+|                    | 已消耗的材料                                                            |
+|                    | 已售(COGS)                                                                  |
+| 趋势库存   | 库存期末余额                                                     |
+|                    | 库存净更改                                                         |
+|                    | 库存周转率                                                     |
+|                    | 库存准确性                                                           |
+
+### <a name="manufacturing-accounting-analysis"></a>制造会计分析
+
+| 报表页 | 可视化      |
+|-------------|--------------------|
+| WIP 趋势  | WIP 期末余额 |
+|             | WIP 净改变     |
+|             | WIP 周转率 |
+
+### <a name="std-cost-variance-analysis"></a>标准成本差异分析
+
+| 报表页                             | 可视化                                        |
+|-----------------------------------------|------------------------------------------------------|
+| 年初至今的采购价差异（标准成本） | 已采购余额                                     |
+|                                         | 采购价差异                              |
+|                                         | 采购价差异率                        |
+|                                         | 按物料组分类的差异                               |
+|                                         | 按站点分类的差异                                     |
+|                                         | 按季节分类的采购价                            |
+|                                         | 按季节和物料组分类的采购价             |
+|                                         | 按不利采购价率分类的前 10 项资源 |
+|                                         | 按有利采购价率分类的前 10 项资源   |
+| 年初至今的生产差异（标准成本）     | 制造成本                                    |
+|                                         | 生产差异                                  |
+|                                         | 生产差异率                            |
+|                                         | 按物料组分类的差异                               |
+|                                         | 按站点分类的差异                                     |
+|                                         | 按季节分类的生产差异                       |
+|                                         | 按季节和差异类型分类的生产差异     |
+|                                         | 按不利生产差异分类的前 10 项资源  |
+|                                         | 按有利生产差异分类的前 10 项资源    |
+
+### <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
+
+将使用来自 Microsoft Dynamics 365 for Finance and Operations 的数据填充**成本管理** Power BI 内容中的报表页。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL Server 数据库）中暂存的聚合度量。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
+
+以下对象的关键聚合度量用作 Power BI 内容的基础。
+
+| 对象                          | 关键聚合度量 | Finance and Operations 的数据源 | 字段               |
+|---------------------------------|----------------------------|----------------------------------------|---------------------|
+| CostObjectStatementCacheMonthly | 时长                     | CostObjectStatementCache               | 时长              |
+| CostObjectStatementCacheMonthly | 数量                   | CostObjectStatementCache               | 数量                 |
+| CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
+| CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
+
+下表显示 Power BI content 中的关键计算度量。
+
+| 度量                            | 计算 |
+|------------------------------------|-------------|
+| 期初余额                  | 期初余额 = [期末余额]-[净改变] |
+| 期初余额数量             | 期初余额数量 = [期末余额数量]-[净改变数量] |
+| 期末余额                     | 期末余额 = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
+| 期末余额数量                | 期末余额数量 = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
+| 净改变                         | 净改变 = SUM([AMOUNT]) |
+| 净改变数量                    | 净改变数量 = SUM([QTY]) |
+| 按金额分类的库存周转率 | 按金额分类的库存周转率 = if(OR([Inventory average balance] \<= 0, [Inventory sold or consumed issues] \>= 0), 0, ABS([Inventory sold or consumed issues])/[Inventory average balance]) |
+| 库存平均余额          | 库存平均余额 = (([期末余额] + [期初余额]) / 2) |
+| 现货库存天数             | 现货库存天数 = 365 / CostObjectStatementEntries[Inventory turnover ratio by amount] |
+| 库存准确性                 | 按金额的库存准确性 = IF([Ending balance] \<= 0, IF(OR([Inventory counted amount] \<\> 0, [Ending balance] \< 0), 0, 1), MAX(0, ([Ending balance] - ABS([Inventory counted amount]))/[Ending balance])) |
 
 以下关键维度用作筛选器以切分聚合度量，以便获得粒度更细微，更深入的分析洞察。
 
-| 实体           | 属性示例                       |
-|------------------|----------------------------------------------|
-| 实体         | ID，名称                                     |
-| 会计日历 | 日历，月，期间，季度，年       |
-| KPI 目标        | 库存精确性目标，库存周转目标 |
-| 分类帐          | 货币，名称，描述                  |
-| 站点            | ID，名称，国家/地区，市/县                      |
 
-
-
-
+|                         实体                          |             属性示例              |
+|---------------------------------------------------------|-------------------------------------------------|
+|                        产品                         | 产品编号、产品名称、单位、物料组 |
+| 类别层次结构（已分配给角色成本管理） |       类别层次结构，类别级别        |
+|                     法人                      |               法人名称                |
+|                    会计日历                     |  会计日历、年、季度、期间、月  |
+|                          站点                           |        ID、名称、地址、省/市/自治区、国家/地区        |
 
 

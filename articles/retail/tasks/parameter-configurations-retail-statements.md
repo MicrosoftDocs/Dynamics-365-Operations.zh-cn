@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="parameter-configurations-for-retail-statements"></a>零售报表的参数配置
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会演示零售参数的配置，这些参数会影响如何创建和过帐零售报表。 此程序使用 USRT 演示公司。
 

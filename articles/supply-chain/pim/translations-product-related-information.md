@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="product-related-translations-faq"></a>与产品相关的翻译常见问题
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题描述了如何管理产品、产品维度值和产品属性的转换。 
 
@@ -95,8 +94,7 @@ ms.lasthandoff: 02/07/2018
 <tbody>
 <tr class="odd">
 <td>若要设置客户的首选语言，请执行以下步骤：
-<ol>  
-<li>单击<strong>销售和市场营销</strong> &gt; <strong>通用</strong> &gt; <strong>客户</strong> &gt; <strong>所有</strong> <strong>客户</strong>。</li>
+<ol><br/><li>单击<strong>销售和市场营销</strong> &gt; <strong>通用</strong> &gt; <strong>客户</strong> &gt; <strong>所有</strong> <strong>客户</strong>。</li>
 <li>双击客户以打开“<strong>客户</strong>”页面。 在“<strong>常规</strong>”选项卡中的“<strong>语言</strong>”字段中选择“<strong>语言</strong>”。</li>
 </ol></td>
 </tr>

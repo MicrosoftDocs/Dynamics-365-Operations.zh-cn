@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-product-number-for-configured-product-variants"></a>为预配置的产品变型创建产品编号
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此步骤显示如何为配置的产品变型设置产品编号命名法，以及如何将其附加到可配置的基础产品。 此过程还演示如何为产品配置模型组件构建配置命名法。 创建此程序的演示数据公司是 USMF。 为基础产品 D0004 分配了新的产品编号命名法。 此任务通常由产品设计师完成。
 

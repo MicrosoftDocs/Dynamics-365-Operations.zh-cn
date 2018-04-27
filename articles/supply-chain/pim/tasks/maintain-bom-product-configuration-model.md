@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="maintain-bom-for-a-product-configuration-model"></a>维护产品配置模型的物料清单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 运行该过程要求有现有的产品配置模型。 该过程使用演示公司 USMF 的“高端扬声器模型”创建。
 

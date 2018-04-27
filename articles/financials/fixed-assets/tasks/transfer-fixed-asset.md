@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-a-fixed-asset"></a>转移固定资产
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。  它为 USMF 法人实体使用会计角色和演示数据。
 

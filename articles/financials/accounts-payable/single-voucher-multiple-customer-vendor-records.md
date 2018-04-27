@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>具有多个客户或供应商记录的一个凭证
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 for Finance and Operations 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。 
 
@@ -251,7 +250,7 @@ ms.lasthandoff: 03/26/2018
 | 001         | 客户         | US-008      |                 |           |  75.00     | 分类帐          | 999999---          |
 | 002         | 供应商           | 1001        |                 |  75.00    |            | 分类帐          | 999999---          |
 
- 
+
 
 
 

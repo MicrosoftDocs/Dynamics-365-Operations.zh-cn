@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="moving-average"></a>移动平均
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 移动平均是一种基于平均原则的永久成本方法，在执行采购成本时在库存发货的成本不更改。 该差异基于一种比例的计算资本化。 支出剩余金额。 
 

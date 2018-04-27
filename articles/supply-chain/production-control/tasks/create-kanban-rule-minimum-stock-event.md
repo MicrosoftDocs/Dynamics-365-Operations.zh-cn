@@ -23,14 +23,14 @@ ms.contentlocale: zh-cn
 ms.lasthandoff: 09/29/2017
 
 ---
-# 使用最小库存事件创建看板规则
+# <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a>使用最小库存事件创建看板规则
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程重点介绍通过使用最低存货事件创建看板规则以确保特定产品在特定地点始终可用时所需的设置。 创建看板规则，以便在库存水平下降到低于 200 件时将物料转移到该地点。 通过运行需求声明事件处理，创建所需看板。 创建此任务的演示数据公司是 USMF。 该任务面向工艺工程师或价值流经理，因为他们负责新型或改良产品的生产准备。
 
 
-## 创建新看板规则
+## <a name="create-a-new-kanban-rule"></a>创建新看板规则
 1. 转到“产品信息管理”>“Lean manufacturing”>“看板规则”。
 2. 单击“新建”。
 3. 在“类型”字段中选择“提领”。
@@ -46,7 +46,7 @@ ms.lasthandoff: 09/29/2017
 9. 在“补货事件”字段中，选择“批处理”。
     * 这将创建看板，以便满足处理需求声明事件期间相关地点的物料需求。  
 
-## 设置物料的最低数量
+## <a name="set-the-minimum-quantity-for-the-item"></a>设置物料的最低数量
 1. 单击以访问“产品”字段中的链接。
 2. 单击并打开“物料编号”字段中的链接。
 3. 展开“产品图像”速见表。
@@ -58,7 +58,7 @@ ms.lasthandoff: 09/29/2017
     * 将“仓库”设置为 12。  
 9. 将“最小值”设置为“200”。
 
-## 运行批量事件创建作业。
+## <a name="run-the-batch-event-creation-job"></a>运行批量事件创建作业。
 1. 转到“生产控制”>“定期任务”>“看板作业批处理”>“需求声明事件处理”。
 2. 单击“确定”。
 3. 转到“产品信息管理”>“Lean manufacturing”>“看板规则”。

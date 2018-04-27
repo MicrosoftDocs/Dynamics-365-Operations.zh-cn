@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="schedule-kanban-jobs"></a>计划看板作业
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序是为特定工作单元调度处理看板作业而设计的。 创建该程序的先决条件是该程序为“在材料不可用的情况下特殊处理看板作业备用”。 创建此程序的演示数据公司是 USMF。 此任务用于车间主管与生产计划主任共同使用看板管理。
 

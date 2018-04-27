@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="audit-policy-violations-and-cases"></a>审计策略违规记录和案例
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文说明如何从审计政策规则违规生成审计案例。 它还包括有关审计策略使用文档选择日期范围的各个方式的信息。
 

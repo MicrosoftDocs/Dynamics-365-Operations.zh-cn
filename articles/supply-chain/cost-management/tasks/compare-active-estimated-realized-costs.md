@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a>比较生产订单上的有效、估计和实际成本
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序显示如何查看生产订单出现高产量差异的原因。 创建此程序的演示数据公司是 USMF。 此程序是专为成本控制设计的。
 

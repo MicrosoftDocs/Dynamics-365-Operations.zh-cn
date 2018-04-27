@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 
 # <a name="set-up-depreciation-books"></a>设置折旧帐簿 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务指南将创建新的折旧帐簿并将其与固定资产组关联。  它为 USMF 法人实体使用会计角色和演示数据。
 

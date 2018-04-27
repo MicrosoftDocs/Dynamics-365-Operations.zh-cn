@@ -19,17 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fa56911c19e9b6514829084221ba03c7cd421c92
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e2125b3616310196b2c5ede0ddcaab24856ddc34
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="sales-returns"></a>销售退货
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题提供有关退货单流程的信息。 其中包含有关客户退货及其对成本计算和现有库存数量的影响的信息。
 
@@ -138,7 +137,7 @@ ms.lasthandoff: 11/03/2017
 </ul></td>
 </tr>
 <tr class="even">
-<td>信用卡</td>
+<td>贷记</td>
 <td><ul>
 <li>为客户贷记销售价减去任何费用。</li>
 <li>退回的物料的成本增加库存值。</li>

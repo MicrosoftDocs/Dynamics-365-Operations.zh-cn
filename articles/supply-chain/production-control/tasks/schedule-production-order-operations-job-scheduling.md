@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>使用工序级和作业级排产计划生产订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程的重点是使用工序级排产和作业级排产计划生产订单。 不使用工序级排产创建作业，而使用作业级排产创建。 创建此任务的演示数据公司是 USMF。 此过程适用于在离散制造环境中工作的生产经理、生产规划员或车间主管。
 

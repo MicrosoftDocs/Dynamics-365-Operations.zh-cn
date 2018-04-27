@@ -24,7 +24,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="release-a-production-order"></a>下达生产订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序显示了如何发放生产订单。 创建此程序的演示数据公司是 USMF。 这是解释生产订单周期七个程序中的第四个程序。
 

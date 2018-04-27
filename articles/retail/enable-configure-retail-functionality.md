@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="initialize-seed-data-in-a-new-retail-environment"></a>初始化新 Retail 环境中的种子数据
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 本主题介绍 Microsoft Dynamics 365 for Retail 的初始化流程期间创建的数据。
 

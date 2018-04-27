@@ -19,17 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7e05361bf865e44ba6073198fba94d7102b1ed19
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a>创建零售销售优惠券
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a>优惠券概览
 
@@ -46,9 +45,12 @@ ms.lasthandoff: 09/29/2017
 
 ### <a name="limited-use-coupons"></a>有限使用的优惠券
 
-优惠券可以配置为有限使用的优惠券。 使用限制可以按客户或渠道进行配置，或配置为全球限制。 在 POS 中或销售订单录入期间输入或扫描代码或条码时执行此限制。 当关联优惠券的订单完成时，优惠券记录为已使用。
+优惠券可以配置为有限使用的优惠券。 使用限制可以按客户或渠道进行配置，或配置为全球限制。 在 POS 中或销售订单录入期间输入或扫描代码或条码时执行此限制。
 
 此限制按优惠券上的优惠券代码执行。 例如，具有两个优惠券代码的单次使用优惠券可以使用两次：每个优惠券代码可使用一次。 优惠券上的每个代码可以单独设置为有效。
+
+> [!NOTE]
+> 优惠券达到使用限制时，系统*不*自动将优惠券代码的状态更改为“已用”。 但是，系统不允许再使用已达到使用限制的优惠券代码。 如果将优惠券代码的状态手动设置为除“活动”之外的其他状态，则任何渠道均不可使用此优惠券代码。
 
 ## <a name="managing-coupons"></a>管理优惠券
 
@@ -68,8 +70,8 @@ ms.lasthandoff: 09/29/2017
     > [!NOTE]
     > 对于这两种编号规则，必须将**作用域**字段设置为**公司**。 在大多数情况下，都应自动生成两个序列号。
 
-5.  在**零售共享参数**页的**条码**选项卡上，选择您之前创建的条码。
-6.  在**零售参数**页的**编号规则**选项卡上，选择您已为优惠券编号和优惠券代码 ID 创建的编号规则。
+5.  在**零售参数**页的**条码**选项卡上，选择您之前创建的条码。
+6.  在**零售共享参数**页的**编号规则**选项卡上，选择您已为优惠券编号和优惠券代码 ID 创建的编号规则。
 7.  您现在可以打开**优惠券**页和创建新优惠券。
 
 ## <a name="the-effect-of-partial-updates-on-coupons"></a>部分更新对优惠券的影响

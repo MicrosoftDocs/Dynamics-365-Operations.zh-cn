@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations"></a>BOM 计算
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 此主题提供了有关物料清单计算的信息。
 

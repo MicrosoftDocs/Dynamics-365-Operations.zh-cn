@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-and-generate-accounts-receivable-aging-information"></a>设置并生成应收账款的帐龄信息
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 本指南将帮助您设置帐龄期间定义、帐龄客户余额以及查看“帐龄余额表”和“收款”页的余额。 此记录使用 USMF 公司演示。
 

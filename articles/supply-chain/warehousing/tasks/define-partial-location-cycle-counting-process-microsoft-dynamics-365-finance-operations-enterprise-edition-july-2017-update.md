@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-partial-location-cycle-counting-process"></a>定义部分库位周期盘点流程 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 使用周期盘点计划创建盘点工作时，可以通过请求仅盘点特定产品和产品变型，而不是盘点库位中的所有现成库存，指导实际盘点操作。 通过筛选特定产品，仓库经理可以降低审核开销，帮助避免合并错误和节省时间。 通常，仓库管理员执行设置任务。 您可以在 USMF 演示数据公司或您自己的数据中了解该过程。
 

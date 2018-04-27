@@ -24,7 +24,7 @@ ms.lasthandoff: 10/04/2017
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>从应付账款创建和购置资产
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 本指到任务帮助了解如何遵照采购流程来创建和购置固定资产。  本任务需要用到普通及应付账目会计和演示公司USMF的数据。
 

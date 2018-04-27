@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="assign-a-free-text-invoice-template-to-a-customer"></a>向客户分配普通发票模板
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务展示的是如何将普通发票模板分配到客户。 此任务使用 USMF 演示公司，旨在为负责管理和处理应收账款发票的用户使用。
 

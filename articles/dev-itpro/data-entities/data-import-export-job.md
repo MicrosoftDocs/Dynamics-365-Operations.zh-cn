@@ -16,16 +16,16 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bd26ac6fd8376fd42467c7a3d2ecd2ec035a4479
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="data-import-and-export-jobs"></a>数据导入和导出作业
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 要在 Microsoft Dynamics 365 for Finance and Operations 中创建和管理数据导入和导出作业，请使用**数据管理**工作区。 默认情况下，数据导入和导出流程为目标数据库中的每个实体创建一个暂存表。 通过暂存表可以在移动数据之前验证、清理或转换数据。
 
@@ -64,13 +64,15 @@ ms.lasthandoff: 03/26/2018
 您可以将特定实体添加到导入或导出作业或选择一个要应用的模板。 模板使用一个实体列表填充一个作业。 给作业命名并保存作业后，**应用模板**选项可用。
 
 ### <a name="set-the-data-format-for-the-job"></a>设置作业的数据格式
-选择一个实体后，必须选择要导出或导入的数据的格式。 使用**数据源设置**磁贴定义格式。 许多组织从演示数据集中默认包括的格式开始。 以下是其中一些格式的列表：
+选择一个实体后，必须选择要导出或导入的数据的格式。 使用**数据源设置**磁贴定义格式。 源数据格式是**类型**、**文件格式**、**行分隔符**和**列分隔符**的组合。 还有其他属性，但以上属性则是需要了解的关键属性。 下表列出了有效组合。
 
-- AX（导入或导出数据的格式必须与 Microsoft Dynamics 365 for Finance and Operations 所使用的格式相同）
-- ColonSeparated
-- CSV
-- Excel
-- 套装
+| **文件格式**        | **行/列分隔符**                   | **XML 样式**             |
+|------------------------|--------------------------------------------|---------------------------|
+| Excel                  | Excel                                      | \-NA-                     |
+| XML                    | \-NA-                                      | XML 元素 XML 属性 |
+| 分隔，固定宽度 | 逗号、分号、制表符、竖线、冒号 | \-NA-                     |
+
+
 
 ### <a name="sequence-the-entities"></a>给实体排序
 实体可以在数据模板或导入和导出作业中排序。 运行的作业包含多个数据实体时，必须确保数据实体的序列正确。 给实体排序的主要目的是为了解决实体中的任何功能依赖项。 如果实体不具有任何功能依赖项，可以计划并行导入或导出。

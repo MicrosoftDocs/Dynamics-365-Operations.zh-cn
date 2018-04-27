@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-cost-entries-for-a-cost-object"></a>查看成本对象的成本条目
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程说明如何查看成本对象的成本条目。 创建此程序的演示数据公司是 USMF。 此程序是专为成本控制设计的。
 

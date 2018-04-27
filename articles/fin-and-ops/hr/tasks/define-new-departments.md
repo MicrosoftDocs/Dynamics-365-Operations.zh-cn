@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 36cf78bb9d97b1551ebfac6bf5f3f17ebbc78c6f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ccd1714d5ac594e04eea65d997fe198bdae32a86
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="define-new-departments"></a>定义新部门
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 部门作为运作单位代表一个商业职能范围，如销售或财务部门。 许多公司的组织结构都展示了商业中部门的多样性。 该过程简单介绍了如何创建部门并把这些部门添加到一个组织结构。 创建此程序的演示数据公司是 USMF。
 

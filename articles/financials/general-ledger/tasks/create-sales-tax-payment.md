@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-sales-tax-payment"></a>创建销售税支付
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 结算和过帐销售税作业结算销售税帐户的销售税余额，并冲销特定期间内的销售税结算帐户。
 

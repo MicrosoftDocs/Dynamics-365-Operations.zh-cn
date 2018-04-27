@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-call-center-channel-and-channel-attributes"></a>定义呼叫中心渠道和渠道属性
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何新建零售渠道和定义渠道属性。 创建此任务的演示数据公司是 USRT。 此程序是专为零售 IT 角色设计的。
 

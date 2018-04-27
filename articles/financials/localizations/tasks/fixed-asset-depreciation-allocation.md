@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-fixed-asset-depreciation-allocation-china"></a>设置固定资产折旧分摊（中国）
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 在日本， 固定资产折旧费用可以被多个部门分摊。 
 

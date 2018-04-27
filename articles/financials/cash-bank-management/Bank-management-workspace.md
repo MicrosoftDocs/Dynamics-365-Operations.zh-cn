@@ -25,7 +25,7 @@ ms.lasthandoff: 03/05/2018
 ---
 # <a name="bank-management-workspace"></a>银行管理工作区
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **银行管理**工作区显示与公司银行帐户关联的信息。 该工作区包括一个**汇总**视图和一个**分析**页。 **汇总**视图显示汇总磁贴、银行帐户信息、余额图表和关联信息。 **分析**页使用 Microsoft Power BI 的功能显示与银行帐户余额相关的视觉对象。
 

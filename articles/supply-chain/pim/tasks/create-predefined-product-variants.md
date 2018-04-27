@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-predefined-product-variants"></a>创建预定义的产品变型
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程全面介绍如何使用产品维度的组合创建基础产品的产品变型。 创建此过程使用的演示数据公司为 USMF。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a>从现有配方版本中复制联产品
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程展示如何为发布的产品从现有配方版本向不同的配方版本中复制联产品。 它是与联产品关联至少一个配方版本的先决条件。 用于创建该过程的是演示数据公司 USP2。
 

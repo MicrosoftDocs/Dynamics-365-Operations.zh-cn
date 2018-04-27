@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>规划组织层次结构
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 在 Microsoft Dynamics 365 for Finance and Operations 中设置组织和组织层次结构之前，请确保您已计划好您的业务将如何建模。 组织模型对 Finance and Operations 实施和业务流程有重大影响。 
 
@@ -158,7 +157,7 @@ ms.lasthandoff: 11/03/2017
 
 #### <a name="if-the-organization-is-modeled-as-an-operating-unit"></a>如果以运营单位建模组织 
 如果法律和会计准则在您的组织所在的国家/地区中相同，您可能使用单个集的年终结算过程。 这意味着您可以以运营单位建模组织。 所有运营单位必须使用相同的年终结算过程。 
-   
+
 ### <a name="number-sequences"></a>编号规则
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>如果以法人建模组织
 可以按法人设置一些参考的编号规则。 可以共享一些编号规则。 

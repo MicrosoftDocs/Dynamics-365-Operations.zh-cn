@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mass-hire-projects"></a>大批雇用项目
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 大型雇用项目允许人力资源专员创建多个职位，并且高效地为这些职位雇用工作人员。
 
@@ -94,7 +93,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
- 
+
 
 
 

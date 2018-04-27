@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。 
 
@@ -99,7 +98,7 @@ Microsoft Dynamics 365 for Finance and Operations 的财务报表中提供三个
     -   **FD** – 只包含上一年度的借方的财务数据
     -   **FD** – 只包含上一年度的贷方的财务数据
 
- 
+
 
 <a name="see-also"></a>请参阅
 --------

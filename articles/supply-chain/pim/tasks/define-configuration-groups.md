@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-groups"></a>定义配置组
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会显示如何通过在演示数据公司 USMF 公司中创建两个组，定义产品配置组。 这是八个过程中第四个说明如何构建基于维度的配置组合的过程。
 

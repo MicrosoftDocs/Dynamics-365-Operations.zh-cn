@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>确定和部署候选人选择工具
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 找到符合条件的候选人填补空缺不是一件容易的事，尤其是在该职位需要一系列独特技能时。  但是，具有所需技能的候选人可能已在您的组织中被雇用。 您可以在现有员工或新申请人之间搜索特定的技能组。 这允许招聘人员快速收集和筛选现在或过去申请空缺位置的申请人，或从现有员工库中找到潜在候选人。 使用此任务记录以学习技能表功能如何帮助您为空缺职位找到合适人选。 创建此程序的演示数据公司是 USMF。
 

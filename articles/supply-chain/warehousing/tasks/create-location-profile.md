@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-location-profile"></a>创建库位模板
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 仓库中的每个库位都需要关联一个库位模板，用于描述库位的属性，例如，库位是否允许混合物料。 在此过程中，我们将为不需要牌照控制的库位创建模板。 我们将启用混合物料和混合库存状态，并允许周期盘点。 您可以在 USMF 演示数据公司中使用此过程。
 

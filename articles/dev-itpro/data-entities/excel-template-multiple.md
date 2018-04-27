@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="excel-templates-with-multiple-worksheets"></a>包含多个工作表的 Excel 模板
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations 中的数据管理支持基于 Microsoft Excel 的数据实体模板。 这些模板可能包含一个或多个工作表。 使用包含多个工作表的模板通常是为了方便在一个文件中管理数据并将其导入到多个数据实体中。 例如站点和仓库。
 

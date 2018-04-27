@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-subscriptions"></a>服务预订
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 预订是基于时间和材料项目的。 您可以从**服务订阅**页面中，或通过使用服务预订组，创建项目的预定。
 

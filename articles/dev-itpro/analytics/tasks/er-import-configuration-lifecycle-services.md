@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-a-configuration-from-lifecycle-services-for-electronic-reporting-er"></a>针对电子申报 (ER) 从 Lifecycle Services 导入配置
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Lifecycle Services (LCS) 导入新电子申报 (ER) 配置版本。
 

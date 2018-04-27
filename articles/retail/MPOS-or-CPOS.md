@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="choose-between-modern-pos-and-cloud-pos"></a>在 Modern POS 和 Cloud POS 之间选择
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 此主题为实施人员提供在部署 Microsoft Dynamics 365 for Retail 时应该考虑的因素的其他背景、建议和指南。 通过查看并在部署过程中遵循此指导，实施人员可以避免可能会影响用户满意度或性能的问题。
 
@@ -92,8 +92,8 @@ Retail 服务器是承载 CRT 的组件。 CRT 包含 POS 使用的所有业务�
 
     除非特定设备的连接非常可靠和灵活，或者零售商可以接受一定的停机时间，否则我们建议以下选项之一：
 
-    - 在 Windows 中使用 MPOS，并启用脱机模式。
-    - 部署本地 RSSU。
+  - 在 Windows 中使用 MPOS，并启用脱机模式。
+  - 部署本地 RSSU。
 
     这两个选项不彼此排斥。 对于最可靠的拓扑，零售商可以部署本地 RSSU 以减少对互联网连接与 Azure 可用性的依赖，如果本地服务器或网络有问题，他们还可以部署启用脱机模式的 POS 收银机。
 

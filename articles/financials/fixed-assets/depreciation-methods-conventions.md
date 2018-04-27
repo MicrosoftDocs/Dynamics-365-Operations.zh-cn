@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="depreciation-methods-and-conventions"></a>折旧方法和惯例
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供 Microsoft Dynamics 365 for Finance and Operations 支持的折旧惯例和折旧方法的概览。
 
@@ -62,7 +61,7 @@ ms.lasthandoff: 03/26/2018
 -   150% 余额递减法
 -   125% 余额递减法
 
- 
+
 
 
 

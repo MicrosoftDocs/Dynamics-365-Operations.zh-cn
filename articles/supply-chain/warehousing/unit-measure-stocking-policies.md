@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="unit-of-measure-and-stocking-policies"></a>度量单位和库存政策
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍如何在仓库流程中使用默认单位、单位序列和单位换算。
 

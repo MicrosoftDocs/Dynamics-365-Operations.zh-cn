@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-process-customer-rebates"></a>生成和处理客户返利
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会说明如何处理从要求生成到将它们作为应计项目过帐到“应收账款”的客户返利。 它会从头至尾引导您完成特定示例，以解释返利行的各种条件如何对将被记入客户帐上的最终金额产生影响。 在开始该指南之前，您需要使用 USMF 公司演示数据，并完成以下任务：(1) 转至“应收账款参数”页面，并先后展开“价格”选项卡和“价格详情”选项卡，然后检查“启用价格详情”选项是否被设置为“是”。 (2) 转至“返利协议”页面，并选择客户返利协议：USMF-000001. 如果“工作流审核状态”字段未被设置为“已审核”，您需要单击“操作窗格”上的“验证”，以批准该工作流程。
 

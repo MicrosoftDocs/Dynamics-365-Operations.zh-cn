@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-containerization"></a>设置集装化
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程描述如何在“仓库管理”中自动进行装载集装化。 自动执行集装化在处理波次，且工作行可以分解为适合集装箱的数量时，创建集装箱和用于装运的领料工作。 这有助于仓库工作人员将物料直接拣选到选择的集装箱内。 与手动包装流程对比，创建集装箱、分配物料和封闭集装箱等任务由系统自动执行。 此过程使用 USMF 演示公司，并由仓库经理执行。
 

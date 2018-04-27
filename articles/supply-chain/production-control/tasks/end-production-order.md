@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="end-a-production-order"></a>结束生产订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程显示如何结束生产订单。 创建此程序的演示数据公司是 USMF。 这是解释生产订单周期的七个步骤中的最后一步。
 

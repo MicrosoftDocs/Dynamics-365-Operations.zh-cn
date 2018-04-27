@@ -18,17 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a913655b584aa23c2614903e6ede4f5826fec1fb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ec1c1d8abc49deb8ef16322370c59d40b01d344c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a>配置工作流中的并行活动
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 要配置并行活动，请在工作流编辑器中完成以下过程。
 
@@ -43,13 +42,15 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="configure-the-branches-of-a-parallel-activity"></a>配置并行活动的分支
 按照以下步骤添加和配置此并行活动的分支。
-1.  双击并行活动显示并行活动的分支。
-2.  要添加分支，将“**工作流元素**”区域的“**分支**”元素拖到画布上的一个插入点。 下图显示了一个插入点。![插入点](./media/workflow_insertionpoint.gif)
-    | **注意**                                                                                                         |
-    |------------------------------------------------------------------------------------------------------------------|
-    | 分支的顺序并不重要，因为并行活动的所有分支同时运行。 |
+1. 双击并行活动显示并行活动的分支。
+2. 要添加分支，将“**工作流元素**”区域的“**分支**”元素拖到画布上的一个插入点。 下图显示了一个插入点。![插入点](./media/workflow_insertionpoint.gif)
 
-3.  若要配置每个分支，请参阅“[配置并行分支](configure-parallel-branch-workflow.md)”。
+   |                                              <strong>注意</strong>                                               |
+   |------------------------------------------------------------------------------------------------------------------|
+   | 分支的顺序并不重要，因为并行活动的所有分支同时运行。 |
+
+
+3. 若要配置每个分支，请参阅“[配置并行分支](configure-parallel-branch-workflow.md)”。
 
 
 

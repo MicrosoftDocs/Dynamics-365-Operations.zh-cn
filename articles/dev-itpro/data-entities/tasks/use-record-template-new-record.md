@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="use-a-record-template-to-create-a-new-record"></a>使用记录模板创建新记录
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何使用以前定义的记录模板创建新记录。 要完成此过程，您必须首先完成“创建记录模板以简化数据录入”过程。
 

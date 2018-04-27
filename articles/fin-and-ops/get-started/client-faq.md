@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="finance-and-operations-client-faq"></a>Finance and Operations 客户端常见问题
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供对有关 Microsoft Dynamics 365 for Finance and Operations 客户端的常见问题的解答。
 

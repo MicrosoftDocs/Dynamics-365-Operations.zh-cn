@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 17195b28ebe828423b4e5bb862f5c2e9884471ce
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="enter-project-timesheets"></a>输入项目工时单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 通过该过程您可以利用空余的时间表窗体创建时间表。 新时间表是以之前的时间表的信息为基础，或以“我的收藏夹”页的项目和活动分配为基础。 在默认情况下，“所有时间表列表页”显示了您在当前周期内的所有时间表。 您可以利用“我的时间表”页面中“显示”字段的下拉式列表，根据周期或项目来筛选时间列表表单，或者查看由其他工人所创建的时间表。 用于创建该过程的演示数据公司为 USSI。 开始该过程，转到“项目管理和核算”>“时间表”>“我的时间表”
 

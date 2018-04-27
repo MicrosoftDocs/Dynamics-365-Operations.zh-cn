@@ -1,9 +1,9 @@
 ---
 title: "库存日记帐"
-description: "本文介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。"
-author: MarkusFogelberg
+description: "本主题介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。"
+author: perlynne
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/05/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,21 +19,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 968bf9a243d0c0cc9f0dfec474cb207ca32f9eeb
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="inventory-journals"></a>库存日记帐
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[retail name](../includes/retail-name.md)]
+[!INCLUDE [retail name](../includes/retail-name.md)]
 
-
-本文介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。
+本主题介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。
 
 Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过帐多种类型的实际库存交易记录，如发货和收货的过帐、库存变动、物料清单的创建，以及实际库存的对帐。 所有这些库存日记帐以相同的方式被使用，不过，它们划分为不同类型。
 
@@ -51,7 +50,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 
 ### <a name="movement"></a>移动
 
-当您使用一个库存变动日记帐时，您可以在添加库存时向物料中添加成本，不过，您必须通过在创建日记帐时指定总帐对方科目，手动将附加成本分配给特定的总帐科目。 如果您想要将物料支出分配给不同部门，或者，如果要针对支出用途从库存中删除物料，则此库存日记帐类型很有用。
+当您使用一个库存变动日记帐时，您可以在添加库存时向物料中添加成本，不过，您必须通过在创建日记帐时指定总帐对方科目，手动将附加成本分配给特定的总帐科目。 如果要替代默认过帐科目，此库存日记帐类型非常有用。
 
 ### <a name="inventory-adjustment"></a>库存调整
 
@@ -61,8 +60,8 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 
 您可以使用转移日记帐在库存位置、批次或产品变型之间转移物料而不关联任何成本影响。 例如，您可以将物料在同一公司内从一个仓库转移到另一个仓库。 在您使用转移日记帐时，必须指定“从”和“到”库存维度（例如，对于站点和仓库）。 已定义库存维度的现有库存量相应更改。 库存转移反映物料的即时移动。 中转库存不被跟踪。 如果必须跟踪中转库存，则应使用转移单。 在过帐转移日记帐时，将为每个日记帐行创建两个库存交易记录：
 
--   “从”位置的库存发货
--   “到”位置的库存收货
+-   “从”位置的库存发货。
+-   “到”位置的库存收货。
 
 ### <a name="bom"></a>物料清单
 
@@ -78,11 +77,11 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 
 ### <a name="counting"></a>正在盘点
 
-盘点日记帐能让您纠正为物料或物料组登记的现有库存量，然后过帐实际盘点，因此，您可以进行为对帐差异而需要的调整。 您可以将盘点策略与盘点组关联，以帮助对具有多种特征的物料进行分组，因此，这些物料可以包括到盘点日记帐中。 例如，您可以设置盘点组以盘点具有特定频率的物料，或在存货下跌到特定级别时盘点物料。 有关如何定义盘点组的信息，请参阅[定义库存盘点流程（任务指南）](tasks/define-inventory-counting-processes.md)。
+盘点日记帐能让您纠正为物料或物料组登记的现货库存量，然后过帐实际盘点，因此，您可以进行为对帐差异而需要的调整。 您可以将盘点策略与盘点组关联，以帮助对具有多种特征的物料进行分组，因此，这些物料可以包括到盘点日记帐中。 例如，您可以设置盘点组以盘点具有特定频率的物料，或在存货下跌到特定级别时盘点物料。 有关如何定义盘点组的信息，请参阅[定义库存盘点流程（任务指南）](tasks/define-inventory-counting-processes.md)。
 
 ### <a name="tag-counting"></a>标签盘点
 
-标签盘点日记帐用于将带编号的标签分配给盘点批次。 标记应包含标记编号、物料编号和物料数量。 为了帮助确保标记只使用一次，并且所有标记都被使用，每个物料编号应该有唯一的一组标记，其具有自己的编号规则。 可以为每个标记设置三种状态值：
+标签盘点日记帐用于将带编号的标签分配给盘点批次。 标记应包含标记编号、物料编号和物料数量。 为了确保标记只使用一次，并且所有标记都被使用，每个物料编号应该有唯一的一组标记，其具有自己的编号规则。 可以为每个标记设置三种状态值：
 
 -   **已使用** – 为此标签计数物料编号。
 -   **已失效** – 为此标签使物料编号失效。
@@ -95,4 +94,30 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 
 ## <a name="posting-journal-lines"></a>记帐日志行
 您可以在任何时间过帐您创建的日记帐行，直到您锁定了来自附加交易记录的物料。 在日记帐中输入的数据保留在该日记帐中，即使您关闭该日记帐而不过帐这些行。
+
+## <a name="data-entity-support-for-inventory-journals"></a>库存日记帐的数据实体支持
+
+数据实体支持以下类型的集成方案：
+-    同步服务 (OData)
+-  异步集成
+
+有关详细信息，请参阅[数据实体](../../dev-itpro/data-entities/data-entities.md)。
+
+> [!NOTE]
+> 并非所有库存日记帐均支持 OData，因此不能使用 Excel 数据连接器发布，更新和导回数据到 Dynamics 365 for Finance and Operations。 
+
+日记帐数据实体的另一个区别是可以使用同时包含标头和行数据的组合实体。 现在可将组合实体用于：
+-   库存调整日记帐
+-   库存变动日记帐
+
+这两种库存日记帐仅支持数据管理导入项目中的*初始化仓库*方案：
+-  如果不指定日记帐标头号，但为日记帐类型指定了编号规则，导入作业将每 1000 行创建自动一个日记帐标头。 例如，导入 2020 行将生成下面的三个日记帐标头：
+    -  标头 1：包含 1000 行
+    -  标头 2：包含 1000 行
+    -  标头 3：包含 20 行
+-  假设每个库存维度（可以是产品、存储和跟踪维度）都有唯一行信息。 因此不能导入同一个导入项目中只有日期字段不同的日记帐行。
+
+## <a name="additional-resources"></a>其他资源
+
+[数据实体](../../dev-itpro/data-entities/data-entities.md)
 

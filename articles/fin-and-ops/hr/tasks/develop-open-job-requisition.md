@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="develop-and-open-a-job-requisition"></a>制订和开放工作申请
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 “招聘项目”帮助您管理招聘流程。 对于每个招聘项目，您可以设置信息，例如招聘职位、招聘人员的姓名、项目进展状态以及职位所属的部门。 在您创建招聘项目后，可以为该项目输入职位广告，或在员工自助服务页上发布广告，将就业申请表与该项目进行关联，并在该项目中跟踪进展。 创建此程序的演示数据公司是 USMF。 若要启动该程序，请转到“人力资源”>“招聘”>“招聘项目”>“招聘项目”
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-designer-interface"></a>报表设计器界面
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍如何在报表设计器内导航，以及如何使用各种选项以满足您的特定要求。 
 

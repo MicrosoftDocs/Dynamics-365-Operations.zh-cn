@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="create-an-organization-report-hierarchy"></a>创建组织报告层次结构
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程用于为组织报告创建报告层次结构。 此录制的目的是引导您熟悉维度层次结构，以便继续操作，直到创建整个组织报告结构。 此录制使用 USP2 演示数据公司。
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="production-process-overview"></a>生产流程概览
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。 
 

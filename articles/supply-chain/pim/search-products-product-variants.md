@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 08715b4c31c42dfa23d72b1035a1e7cc737c13a2
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2441f7cbf95512677f62eb862be99af90f3c4b17
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="search-for-products-and-product-variants-during-order-entry"></a>在输入订单时搜索产品和产品变型
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[Retail name](../includes/retail-name.md)]
+[!INCLUDE [Retail name](../includes/retail-name.md)]
 
 当您手动创建销售订单行或采购订单行时，使用“<strong>物料编号</strong>”字段搜索产品和产品变型。  当您仅有配置字符串或一个产品维度可用时，它可以让您迅速找到产品变型。
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 02/07/2018
 
 转到**销售和市场 &gt; 设置 &gt; 搜索 &gt; 搜索条件**页面。 **搜索条件**页允许您定义客户、目标客户和产品搜索的条件。 确保您使用产品搜索条件筛选页面。 为此，您可以切换至页面菜单中的“**产品**”。  
 
-要将显示产品编号添加到搜索条件，请单击页面菜单中的**新建**。 这将在**搜索条件**网格中添加新的记录。 打开“**字段名称**”列查找并选择“**DisplayProductNumber**”。 若要将产品配置添加到搜索条件，请在 **搜索条件** 网格中创建新记录，并选择**字段名称**列中的**configId**。 同样，使用“**字段名称**”“**InventColorId**”对颜色维度创建记录，使用“**InventSizeId**”对尺寸维度创建记录，使用“**InventStyleId**”对样式维度创建记录。
+要将显示产品编号添加到搜索条件，请单击页面菜单中的<strong>新建</strong>。 这将在<strong>搜索条件</strong>网格中添加新的记录。 打开“<strong>字段名称</strong>”列查找并选择“<strong>DisplayProductNumber</strong>”。 若要将产品配置添加到搜索条件，请在<strong>搜索条件</strong>网格中创建新记录，并选择<strong>字段名称</strong>列中的**configId**。 同样，使用“<strong>字段名称</strong>”“<strong>InventColorId</strong>”对颜色维度创建记录，使用“<strong>InventSizeId</strong>”对尺寸维度创建记录，使用“<strong>InventStyleId</strong>”对样式维度创建记录。
 
 ### <a name="step-2-populate-the-database-table-that-is-used-for-product-search"></a>第 2 步：填充用于产品搜索的数据库表格
 

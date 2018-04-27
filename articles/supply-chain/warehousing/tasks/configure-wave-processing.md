@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-wave-processing"></a>配置波次处理
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此指南描述了如何设置确定在处理波次时为仓库生成的工作的条件，以及是手动还是自动处理波次。 在销售订单、生产订单或看板订单中，通过设置波模板和将波与已发布行匹配的查询来指定条件 波次处理在使用仓库管理模块中的功能的仓库中使用，而不是那些使用库存管理模块中的功能的仓库。 您可以使用演示数据公司 USMF 运行此程序。
 

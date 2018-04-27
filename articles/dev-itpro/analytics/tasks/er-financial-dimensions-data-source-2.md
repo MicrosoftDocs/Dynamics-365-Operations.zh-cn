@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 映射模型以将财务维度用作数据源"
+title: "映射模型以将财务维度用作数据源"
 description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7be3e9970e2599c159e7c9d414b54876d0116350
-ms.openlocfilehash: a5fa6fb07fb2ba08812826acba748b38738bb468
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c26713a8a391f9f10a6e24f6619c24c1615d4560
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="map-models--to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>针对电子申报 (ER) 映射模型以将财务维度用作数据源
+# <a name="map-models--to-use-financial-dimensions-as-a-data-source"></a>映射模型以将财务维度用作数据源 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。 这些步骤可以在任何公司执行。
 

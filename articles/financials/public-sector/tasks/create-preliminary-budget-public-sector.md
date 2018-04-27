@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a>为公共部门创建初步预算
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 您可以为特定的预算模型和维度值创建初步预算登记条目。 在实际预算经过审核后，您可以创建原始预算登记簿条目。 通过使用 PSUS 演示公司数据的公共扇区分区创建该过程。
 

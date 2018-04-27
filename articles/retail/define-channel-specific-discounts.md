@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="define-channel-specific-discounts"></a>定义渠道特定的折扣
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 零售商通常为不同渠道设置不同折扣。 此主题审查您为特定渠道创建折扣所需了解的概念。 
 
@@ -61,7 +60,7 @@ Microsoft Dynamics 365 for Retail 使用价格组来定义渠道特定的折扣
 4.  在您创建新的**“返回学校”**折扣后，需要单击**“折扣”**页顶部的**“价格组”**。 **“折扣价格组”**页将打开。 接下来，单击**“新建”**，选择**“Houston-PG”**价格组。
 5.  现在您可以启用折扣并将其推送到渠道。
 
- 
+
 
 <a name="see-also"></a>请参阅
 --------

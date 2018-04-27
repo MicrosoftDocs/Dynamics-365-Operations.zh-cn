@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="operations-scheduling-options"></a>工序级排产选项
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍工序级排产的选项。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
 

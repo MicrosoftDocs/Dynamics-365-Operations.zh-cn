@@ -28,8 +28,7 @@ ms.lasthandoff: 11/14/2017
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a>配置应收账款以及信用和收款
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 配置“应收账款”和“信用和收款”以跟踪来自客户的发票和收入。
 
@@ -107,7 +106,7 @@ ms.lasthandoff: 11/14/2017
 |                                                      | NSF 信息。                     | 在“收款”页上将付款标记为 NSF 交易记录时，在将要使用的银行帐户上设置 NSF 信息。                                                                                                                                              |
 |                                                      | 销售人员信息              | 设置销售人员的电子邮件地址。 这些地址将出现在“收款”页上，您可以从该页中使用它们将电子邮件发送至销售人员。                                                                                                                |
 
- 
+
 有关详细信息，请参阅[在应收账款中的信用和收款](collections-credit-accounts-receivable.md)。
 
 

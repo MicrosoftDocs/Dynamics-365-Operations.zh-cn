@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-cost-control-workspace-parameters"></a>配置成本控制工作区参数
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程用于配置“成本控制”工作区，以便组织中各级经理可洞察自己的成本对象，如成本中心和产品组。 USP2 演示公司用于创建此录制。
 

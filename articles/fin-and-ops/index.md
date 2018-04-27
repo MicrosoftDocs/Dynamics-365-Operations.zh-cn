@@ -8,6 +8,7 @@ ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -25,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations 简介
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 使用以下资源查找适用于最终用户、开发人员和 IT 专业人员的重要内容，了解如何让 Microsoft Dynamics 365 for Finance and Operations 为您的组织服务。 
 

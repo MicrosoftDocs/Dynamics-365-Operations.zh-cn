@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="master-planning-for-site-coverage-mandatory-warehouse"></a>站点覆盖范围的主计划，仓库为必需
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题介绍如何计划将站点作为覆盖范围维度的物料。 仓库是必填维度。
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="hybrid-customer-orders"></a>混合客户订单
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 混合客户订单是一份订单，其中包含客户可以从店内自提的产品，以及以后将拣货或装运的产品。
 

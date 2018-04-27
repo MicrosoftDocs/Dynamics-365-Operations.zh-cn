@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="chinese-voucher-continuity-check"></a>中国式凭证连续性检查
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 每个凭证类型的中国式凭证号必须从 1 开始并且具有连续性，才能结转会计期间。
 此过程显示如何检查会计期间中的所有已过帐凭证，以及如何将中国式凭证号连续编号。 此过程是会计期间结转流程的一部分，因此只能为“暂停”会计期间运行。 第一个子任务逐步演示如何停止会计期间。 

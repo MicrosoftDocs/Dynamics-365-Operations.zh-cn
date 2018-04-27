@@ -18,17 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 98e32298d1c8285437adf3df9820a71e7a0d7f6c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: a44e5d04edf327da2b3ba4676c8b823291801abe
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="mobile-invoice-approvals"></a>移动发票审核
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 商业用户可通过 Microsoft Dynamics 365 for Finance and Operations 中的移动功能设计移动体验。 对于高级方案，开发人员还可通过此平台根据需要扩展功能。 若要了解有关移动的一些新概念，最有效的方法是设计一些新方案。 本主题旨在通过以供应商发票的移动审核为使用案例，提供移动方案的设计方法实践。 本主题应该可以帮助您设计这些方案的变型，还可以适用于与供应商发票无关的其他方案。
 
@@ -127,7 +126,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="create-the-workspace"></a>创建工作区
 
 1.  在浏览器中，打开 Finance and Operations 并登录。
-2.  登录之后，按照以下示例所示将 **&mode=mobile** 追加到 URL，然后刷新页面：https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard**&mode=mobile**
+2.  登录之后，按照以下示例所示将 **&mode=mobile** 追加到 URL，然后刷新页面：https://&lt;yoururl&gt;/?cmp=usmf&mi=DefaultDashboard **&mode=mobile**
 3.  单击页面右上角的**设置**（齿轮）按钮，然后单击**移动应用程序**。 任务录制器显示时，移动应用程序设计器也必须显示。
 4.  单击**添加**以创建新工作区。 对于此示例，请将该工作区命名为**我的审核**。
 5.  输入描述。
@@ -173,23 +172,23 @@ ms.lasthandoff: 03/26/2018
 
 若要为移动设计发票明细页面，请使用 Finance and Operations 中的 **VendMobileInvoiceHeaderDetails** 页面。 请注意，此页面根据您在系统中的发票数量，显示时间最久的发票（即最先创建的发票）。 若要查找特定发票，必须使用左侧的筛选器。 但是，此示例不需要特定发票。 我们仅需要一些发票数据，以便设计移动页面。 [![工作流页面](./media/mobile-invoice-approvals04-1024x425.png)](./media/mobile-invoice-approvals04.png)
 
-1.  在 Finance and Operations URL 中，将菜单项的名称替换为 **VendMobileInvoiceHeaderDetails** 以打开窗体
-2.  通过**设置**（齿轮）按钮打开移动设计器。
-3.  单击**编辑**按钮在工作区中启动编辑模式。
-4.  选择前面创建的 **我的供应商发票** 页面，然后单击**编辑**。
-5.  在**字段**选项卡上，单击**窗格**列标题。
-6.  单击**属性** &gt; **添加页面**。 **注释：**单击**窗格**标题并添加页面时，将自动建立与明细页面之间的关系。
-7.  输入页面标题（如**发票明细**）和描述（如**查看发票抬头和行明细**）。
-8.  单击**选择字段**。 请注意，添加顺序为字段向最终用户显示的顺序。 只能通过重新选择所有字段才能更改字段的顺序。 
-9.  根据此方案的要求，从抬头添加以下字段：
-    - 供应商名称
-    - 发票合计
-    - 发票帐户
-    - 发票编号
-    - 发票日期
-    - 发票描述
-    - 到期日期
-    - 发票币种
+1. 在 Finance and Operations URL 中，将菜单项的名称替换为 **VendMobileInvoiceHeaderDetails** 以打开窗体
+2. 通过**设置**（齿轮）按钮打开移动设计器。
+3. 单击**编辑**按钮在工作区中启动编辑模式。
+4. 选择前面创建的<strong>我的供应商发票</strong>页面，然后单击**编辑**。
+5. 在**字段**选项卡上，单击**窗格**列标题。
+6. 单击**属性** &gt; **添加页面**。 **注释：**单击**窗格**标题并添加页面时，将自动建立与明细页面之间的关系。
+7. 输入页面标题（如**发票明细**）和描述（如**查看发票抬头和行明细**）。
+8. 单击**选择字段**。 请注意，添加顺序为字段向最终用户显示的顺序。 只能通过重新选择所有字段才能更改字段的顺序。 
+9. 根据此方案的要求，从抬头添加以下字段：
+   - 供应商名称
+   - 发票合计
+   - 发票帐户
+   - 发票编号
+   - 发票日期
+   - 发票描述
+   - 到期日期
+   - 发票币种
 
 10. 从页面中的行窗格添加以下字段：
     - 采购类别
@@ -199,7 +198,7 @@ ms.lasthandoff: 03/26/2018
     - 1099 金额
 
 11. 添加了前面两步骤中的所有字段之后，单击**完成**。 此页面必须类似下图。
-[![添加字段后的页面](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
+    [![添加字段后的页面](./media/mobile-invoice-approvals05.png)](./media/mobile-invoice-approvals05.png)
 12. 单击**完成**退出编辑模式。
 13. 单击**后退**，然后单击**完成**退出工作区
 14. 单击**发布工作区**以保存工作
@@ -296,14 +295,14 @@ ms.lasthandoff: 03/26/2018
 
 ### <a name="vendor-invoice-attachments"></a>供应商发票附件
 
-1.  单击页面右上角的**设置**（齿轮）按钮，然后单击**移动应用程序**
-2.  单击**编辑**按钮在工作区中启动编辑模式。
-3.  选择前面创建的 **发票明细** 页面，然后单击**编辑**。
-4.  将**文档管理**选项设置为**是**，如下所示。 **注释：**如果需要在移动设备上显示附件，可以让此选项保留为**否**（这是默认设置）。
-![文档管理](./media/docmanagement-216x300.png)
-6.  单击**完成**退出编辑模式。
-7.  单击**后退**，然后单击**完成**退出工作区
-8.  单击**发布工作区**以保存工作
+1. 单击页面右上角的**设置**（齿轮）按钮，然后单击**移动应用程序**
+2. 单击**编辑**按钮在工作区中启动编辑模式。
+3. 选择前面创建的<strong>发票明细</strong>页面，然后单击**编辑**。
+4. 将**文档管理**选项设置为**是**，如下所示。 **注释：**如果需要在移动设备上显示附件，可以让此选项保留为**否**（这是默认设置）。
+   ![文档管理](./media/docmanagement-216x300.png)
+5. 单击**完成**退出编辑模式。
+6. 单击**后退**，然后单击**完成**退出工作区
+7. 单击**发布工作区**以保存工作
 
 ### <a name="vendor-invoice-line-distributions"></a>供应商发票行配送
 

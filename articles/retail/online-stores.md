@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="online-store-overview"></a>在线商店概览
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 本文提供有关 Retail 在线商店以及如何在 Microsoft Dynamics 365 for Retail 中设置它们的信息。
 

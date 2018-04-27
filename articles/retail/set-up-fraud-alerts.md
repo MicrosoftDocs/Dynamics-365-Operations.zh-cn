@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-fraud-alerts"></a>设置欺诈预警
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 本主题说明如何设置条件和规则以将具有欺诈可能性的销售订单置于暂停状态以进一步审核。 欺诈审核功能用于确定销售订单中信息的有效性。 如果根据组织的欺诈条件和规则，销售订单中的信息似乎可疑，则可以暂停订单以由管理员执行进一步审核。
 

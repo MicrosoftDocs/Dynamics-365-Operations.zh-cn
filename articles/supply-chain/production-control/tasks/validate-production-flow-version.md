@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="validate-a-production-flow-and-version"></a>验证生产流和版本
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程显示如何创建新的生产流以及 lean manufacturing 的第一个版本。 先决条件：必须定义 Lean manufacturing 的生产参数以及类别时间的度量单位。 您需要定义“价值流”和“生产组”。 请参阅 Lean manufacturing 白皮书，以了解生产流和活动的概念。 该过程在演示数据中使用的是 USMF 法人。 但是，如果已配置 Lean manufacturing 的法人，则可使用其他法人。
 

@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="new-task-guides-february-2016"></a>新任务指南（2016 年 2 月）
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics AX 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。
 
@@ -50,8 +49,8 @@ ms.lasthandoff: 11/03/2017
 | 设置应付账款发票匹配验证       | 全局             |
 | 设置供应商发票策略                            | 全局             |
 
- 
 
+ 
 ### <a name="accounts-receivable"></a>应收账款
 
 |                                                             |                    |
@@ -71,8 +70,8 @@ ms.lasthandoff: 11/03/2017
 | 审核收款信息                              | 全局             |
 | 设置并生成应收账款的帐龄信息   | 全局             |
 
- 
 
+ 
 ### <a name="cash-and-bank-management"></a>现金和银行管理
 
 |                                                                      |                    |
@@ -99,8 +98,8 @@ ms.lasthandoff: 11/03/2017
 | 结算客户的远期支票                             | 全局             |
 | 供应商付款概览                                              | 全局             |
 
- 
 
+ 
 ### <a name="compliance"></a>符合性
 
 |                                            |                    |
@@ -108,8 +107,8 @@ ms.lasthandoff: 11/03/2017
 | **BPM 行**                               | **国家/地区** |
 | 定义原始单据的审计策略 | 全局             |
 
- 
 
+ 
 ### <a name="cost-management"></a>成本管理
 
 |                                                                     |                    |
@@ -121,8 +120,8 @@ ms.lasthandoff: 11/03/2017
 | 查看生产订单的当前 WIP 状态                       | 全局             |
 | 按成本对象查看库存报表和 KPI                     | 全局             |
 
- 
 
+ 
 ### <a name="countryregion-functionality"></a>国家/地区功能
 
 |                                                                                                        |                                 |
@@ -263,8 +262,8 @@ ms.lasthandoff: 11/03/2017
 | GB-00009 为结账折扣生成信用证。                                               | 英国                  |
 | GB-00009 为现金付账折扣信用证设置参数。                                   | 英国                  |
 
- 
 
+ 
 ### <a name="develop-vision-and-strategy"></a>制定愿景和策略
 
 |                                                                                          |                    |
@@ -276,8 +275,8 @@ ms.lasthandoff: 11/03/2017
 | 根据前一个问题的回答设定问题依赖项（有条件问题） | 全局             |
 | 基于“百分比”评估调查问卷得分                                                   | 全局             |
 
- 
 
+ 
 ### <a name="electronic-reporting"></a>电子申报
 
 |                                                 |                    |
@@ -289,8 +288,8 @@ ms.lasthandoff: 11/03/2017
 | ER 将数据模型映射到所选数据源      | 全局             |
 | ER 选择服务提供商                      | 全局             |
 
- 
 
+ 
 ### <a name="expense-management"></a>费用管理
 
 |                              |                    |
@@ -298,8 +297,8 @@ ms.lasthandoff: 11/03/2017
 | **BPM 行**                 | **国家/地区** |
 | 配置费用管理 | 全局             |
 
- 
 
+ 
 ### <a name="fixed-assets"></a>固定资产
 
 |                                                           |                    |
@@ -321,8 +320,8 @@ ms.lasthandoff: 11/03/2017
 | 拆分固定资产                                       | 全局             |
 | 转移固定资产。                                    | 全局             |
 
- 
 
+ 
 ### <a name="general-ledger"></a>总帐
 
 |                                                                   |                    |
@@ -354,8 +353,8 @@ ms.lasthandoff: 11/03/2017
 | 查看日记帐分录或交易记录。                              | 全局             |
 | 查看日记帐中的相关内部公司凭证                    | 全局             |
 
- 
 
+ 
 ### <a name="human-capital-management"></a>人力资本管理
 
 |                                                                  |                    |
@@ -398,8 +397,8 @@ ms.lasthandoff: 11/03/2017
 | 设置福利资格策略                             | 全局             |
 | 设置 i9 文件类型                                     | 全局             |
 
- 
 
+ 
 ### <a name="inventory-management"></a>库存管理
 
 |                                                                                   |                    |
@@ -422,8 +421,8 @@ ms.lasthandoff: 11/03/2017
 | 跟踪物料或原材料                                                     | 全局             |
 | 仓库内的实际库存转移                                  | 全局             |
 
- 
 
+ 
 ### <a name="manufacturing"></a>制造
 
 |                                                               |                    |
@@ -474,8 +473,8 @@ ms.lasthandoff: 11/03/2017
 | 转移物料与看板作业                            | 全局             |
 | 验证生产流和版本                          | 全局             |
 
- 
 
+ 
 ### <a name="master-planning"></a>主计划
 
 |                                                   |                    |
@@ -487,8 +486,8 @@ ms.lasthandoff: 11/03/2017
 | 确定关键物料和供应商能力 | 全局             |
 | 手动修改需求预测                 | 全局             |
 
- 
 
+ 
 ### <a name="organization-administration"></a>组织管理
 
 |                                           |                    |
@@ -501,8 +500,8 @@ ms.lasthandoff: 11/03/2017
 | 设置电子签名              | 全局             |
 | 通过使用向导设置编号规则 | 全局             |
 
- 
 
+ 
 ### <a name="planning"></a>计划
 
 |                        |                    |
@@ -510,8 +509,8 @@ ms.lasthandoff: 11/03/2017
 | **BPM 行**           | **国家/地区** |
 | 确定可用性 | 全局             |
 
- 
 
+ 
 ### <a name="procurement-and-sourcing"></a>采购
 
 |                                                                  |                    |
@@ -525,8 +524,8 @@ ms.lasthandoff: 11/03/2017
 | 搜索供应商                                               | 全局             |
 | 设置一个采购类别层次结构                          | 全局             |
 
- 
 
+ 
 ### <a name="product-information-and-configuration"></a>产品信息和配置
 
 |                                                       |                    |
@@ -551,8 +550,8 @@ ms.lasthandoff: 11/03/2017
 | 发布 ..\财务维度\基于维度的基础产品              | 全局             |
 | 转移产品模型数据                      | 全局             |
 
- 
 
+ 
 ### <a name="public-sector"></a>公共部门
 
 |                                                                                         |                    |
@@ -577,8 +576,8 @@ ms.lasthandoff: 11/03/2017
 | 为公共部门设置资金                                                         | 全局             |
 | 设置公共部门的采购协议分类                             | 全局             |
 
- 
 
+ 
 ### <a name="retail-and-commerce"></a>零售和商用
 
 |                                                                                           |                    |
@@ -619,8 +618,8 @@ ms.lasthandoff: 11/03/2017
 | 零售价格调整                                                                  | 全局             |
 | 零售报表的商店配置                                                | 全局             |
 
- 
 
+ 
 ### <a name="sales"></a>销售额
 
 |                                            |                    |
@@ -642,8 +641,8 @@ ms.lasthandoff: 11/03/2017
 | 作为直接交货装运订单           | 全局             |
 | 装运无仓库的销售订单      | 全局             |
 
- 
 
+ 
 ### <a name="sales-tax"></a>增值税
 
 |                                                    |                    |
@@ -661,8 +660,8 @@ ms.lasthandoff: 11/03/2017
 | 设置预缴税金                             | 全局             |
 | 查看已过帐的销售税交易记录                 | 全局             |
 
- 
 
+ 
 ### <a name="security"></a>安全性
 
 |                                                         |                    |
@@ -672,8 +671,8 @@ ms.lasthandoff: 11/03/2017
 | 确定和解决职责划分冲突 | 全局             |
 | 设置职责划分                            | 全局             |
 
- 
 
+ 
 ### <a name="warehouse-and-transportation"></a>仓库和运输
 
 |                                                                                   |                    |
@@ -697,9 +696,10 @@ ms.lasthandoff: 11/03/2017
 | 设置装运承运人                                                          | 全局             |
 | 使用装载计划工作台计划装载量和装运                       | 全局             |
 
- 
 
+ 
 ## <a name="task-guides-in-the-february-2016-getting-started-library"></a>（2016 年 2 月）入门库的任务指南
+
 |                                                    |                    |
 |----------------------------------------------------|--------------------|
 | **BPM 行**                                       | **国家/地区** |

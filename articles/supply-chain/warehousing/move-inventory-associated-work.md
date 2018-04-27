@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>仓库管理中关联工作的库存变动
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 使用库存变动可以决定允许哪些仓库工作人员移动预留的库存。 您可以灵活地在受管制的仓库中决定不允许工作人员为已经创建的领料工作选择新的领料库位。 它还允许仓库经理控制一些缺乏经验的工作人员应具有哪些功能。
 

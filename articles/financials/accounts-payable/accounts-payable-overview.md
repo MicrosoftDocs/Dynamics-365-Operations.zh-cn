@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-accounts-payable"></a>配置应付账款
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍您用于在 Microsoft Dynamics 365 for Finance and Operations 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付账款前必须完成的设置步骤。
 

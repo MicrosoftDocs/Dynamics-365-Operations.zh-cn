@@ -29,8 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>主计划主页
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 在其核心，主计划允许公司确定和平衡原材料和产能的将来需求，以实现公司目标。 主计划评估以下情况： 
 
@@ -58,6 +57,7 @@ ms.lasthandoff: 02/13/2018
 [![主计划的学习图](./media/master-planning-learning-map.png)](./media/master-planning-learning-map.png)
 
 ## <a name="quick-links"></a>快速链接
+
 |      |   |
 |------|---|
 |        [主计划](master-plans.md)       |     [生成受约束计划](./tasks/constrained-plan.md)  |

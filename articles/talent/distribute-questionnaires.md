@@ -28,8 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="distribute-and-complete-a-questionnaire"></a>分配和完成调查表
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 本主题描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。 
 

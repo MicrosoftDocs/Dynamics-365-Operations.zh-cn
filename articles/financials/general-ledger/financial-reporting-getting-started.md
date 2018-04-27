@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-reporting"></a>财务申报
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍从哪里访问 Microsoft Dynamics 365 for Finance and Operations 中的财务申报，以及如何使用财务申报功能。 其中包括提供的默认财务报表的描述。
 

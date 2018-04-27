@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-a-production-flow-version"></a>创建生产流版本
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程主要讲述创建新的生产流版本。 对于该过程，必须定义的 lean manufacturing 生产参数和上课时间的度量单位。 您还需要定义价值流和生产组。 若要了解更多 lean manufacturing 中生产流程和活动，请参阅 Microsoft Dynamics AX 的 Lean manufacturing 白皮书。 创建此程序的演示数据公司是 USMF。
 

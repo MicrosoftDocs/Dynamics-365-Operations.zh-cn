@@ -20,17 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0c900dc208736f1823be50e8522061406c9f126
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="warehouse-work-policies"></a>仓库工作策略
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。
 
@@ -68,14 +67,15 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 
 这是您基于这些注意事项可以设置的工作策略示例。
 
-|                                         |                                                       |
-|-----------------------------------------|-------------------------------------------------------|
-|**工作策略名称**<br>                 |**工作订单类型**<br>                               |
-| 无储存 01     `                    |- 成品储存<br>                           |
-|                                         |**位置**<br>                                      |
-|                                         |- O1   |                                               |
-|                                         |**产品** <br>                                      |
-|                                         |- SC1                                                  |
+
+|                                       |                                       |
+|---------------------------------------|---------------------------------------|
+| <strong>工作策略名称</strong><br> | <strong>工作订单类型</strong><br> |
+|         无储存 01     `          |     - 成品储存<br>      |
+|                                       |    <strong>位置</strong><br>     |
+|                                       |                 - O1                  |
+|                                       |    <strong>产品</strong> <br>     |
+|                                       |                 - SC1                 |
 
 以下步骤提供了关于如何为此场景设置仓库工作策略的详细说明。 还介绍了一个示例设置，显示如何报告生产订单完工入库到非牌照控制的库位。
 
@@ -126,7 +126,7 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 <tr>
 <td></td>
 <td>2.</td>
-<td>在列表中选择资源组 '5102'。</td>
+<td>在列表中选择资源组“5102”。</td>
 </tr>
 <tr>
 <td></td>
@@ -136,12 +136,12 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 <tr>
 <td></td>
 <td>4.</td>
-<td>在“输出仓库”字段中，输入 '51'。</td>
+<td>在“输出仓库”字段中，输入“51”。</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>在“输出库位”字段中，输入 '001'。</td>
+<td>在“输出库位”字段中，输入“001”。</td>
 </tr>
 <tr>
 <td></td>
@@ -169,7 +169,7 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 <tr>
 <td></td>
 <td>4.</td>
-<td>在“物料编号”字段中输入 'L0101'。</td>
+<td>在“物料编号”字段中输入“L0101”。</td>
 </tr>
 <tr>
 <td></td>
@@ -179,7 +179,7 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 <tr>
 <td></td>
 <td>6.</td>
-<td>在“操作窗格”中，单击“生产订单”。</td>
+<td>在操作窗格上单击“生产订单”。</td>
 </tr>
 <tr>
 <td></td>

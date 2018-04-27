@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="generate-and-run-out-of-box-reports"></a>生成和运行现成报表
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 可使用此任务指南运行不同工作区中总部的现成报表和“零售和商业”下的“查询和销售“报表。
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="ledger-journal-types"></a>分类帐日记帐类型
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍可以为财务日记帐设置的日记帐类型。 使用**日记帐名称**页可以设置可在 Microsoft Dynamics 365 for Finance and Operations 中全程使用的日记帐。
 

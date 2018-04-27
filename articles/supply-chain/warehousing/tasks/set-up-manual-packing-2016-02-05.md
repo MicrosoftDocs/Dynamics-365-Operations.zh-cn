@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-manual-packing-february--may-2016-only"></a>设置人工装箱（仅 2016 年 2 月和 5 月）
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 包装流程允许您验证并将产品包装到集装箱中。 在此流程中，仓库工作人员从存储位置的拣选产品并将它们移到包装站，他们在包装站检查物料数量和类型，并将其分配到相应的集装箱。 在完全包装容器时，可以封闭它并将其移至出货台，然后产品可进行装运。 该程序适用于 USMF 演示公司。
 

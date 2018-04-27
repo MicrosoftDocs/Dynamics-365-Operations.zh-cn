@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enter-applicant-and-application-data-manually"></a>手动输入申请人和申请表数据
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何手动维护申请人及其申请表的信息。   您可以输入和维护个人信息、面试日期和时间、推荐人、能力和申请人的住宿请求。 您还可以更新申请人的工作申请状态，以及写信或发送电子邮件与申请人沟通。 在您创建申请人记录时，在全球通讯簿中创建该申请人的人员记录。       创建此程序的演示数据公司是 USMF。
 

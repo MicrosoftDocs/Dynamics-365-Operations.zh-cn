@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-assets-integration"></a>固定资产集成
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 固定资产可以与总帐、库存管理、应收账款和应付账款一起集成。 您也可以设置固定资产，以便与采购订单相集成。
 

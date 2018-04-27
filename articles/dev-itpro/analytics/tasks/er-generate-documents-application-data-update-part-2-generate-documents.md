@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 生成包含申请表数据更新的文档"
+title: "设计配置以使用应用程序数据生成单据"
 description: "若要完成此过程中的步骤，首先必须完成“ER 使用应用程序数据更新生成单据（第 1 部分 - 导入配置）”这一过程。"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: c724ce3c39ed7097a5a842b44a095628dcdfa131
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad5508ea5807f505b29f2e60a1459c9c22552694
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="generate-documents-with-application-data-update-for-electronic-reporting-er"></a>针对电子申报 (ER) 生成包含申请表数据更新的文档
+# <a name="design-configurations-to-generate-documents-with-application-data"></a>设计配置以使用应用程序数据生成单据
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 若要完成此过程中的步骤，首先必须完成“ER 使用应用程序数据更新生成单据（第 1 部分：导入配置）”这一过程。
 

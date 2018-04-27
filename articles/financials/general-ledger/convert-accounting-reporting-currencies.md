@@ -27,8 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="convert-accounting-or-reporting-currencies"></a>转换记帐或申报币种
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 必须更改该记帐币种或申报币种的公司有两个选项。 第一个选项是创建一个新公司并全新开始。 第二个选项是运行记帐和申报币种转换流程。 这是一个运行时间很长的流程，会更改系统中的每个交易记录。 在流程可以运行之前，必须进行某些设置。
 

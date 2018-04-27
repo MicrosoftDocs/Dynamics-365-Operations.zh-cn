@@ -26,7 +26,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="credit-limits-for-customers"></a>客户的信用额度
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 设置信用额度可以指定要为您的客户扩展的最大信用金额。 如果指定了信用额度，系统将自动检查用户何时尝试更新单据。 如果超出信用额度，将向用户显示消息。 本文提供信用额度如何运作的概述，并回答以下问题：
 

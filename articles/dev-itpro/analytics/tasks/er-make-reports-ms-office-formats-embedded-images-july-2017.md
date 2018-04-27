@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 设计配置以生成 Microsoft Office 格式的包含嵌入图像的报表（第 1 部分）"
+title: "设计配置以生成包含嵌入图像的 Microsoft Office 格式报表"
 description: "本主题中的步骤提供有关如何设计电子申报 (ER) 配置，以便生成 Microsoft Office 格式（Excel 和 Word）且包含嵌入图像的电子单据的信息。"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 9cb9343028acacc387370e1cdd2202b84919185e
-ms.openlocfilehash: 844d8de1d5a1958457eaab1d434bef015f92e33c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5e3ba5c76df3dcc5042074a565d102ceaeeadfb0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images-for-electronic-reporting-er-part-1"></a>针对电子申报 (ER) 设计配置以生成 Microsoft Office 格式的包含嵌入图像的报表（第 1 部分） 
+# <a name="design-configurations-to-generate-reports-in-microsoft-office-formats-with-embedded-images"></a>设计配置以生成包含嵌入图像的 Microsoft Office 格式报表
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 为了完成此过程中的步骤，首先完成“ER 创建配置提供商并标记为有效”这一过程。 此过程介绍如何设计电子申报 (ER) 配置，以便生成包含嵌入图像的 Microsoft Excel 或 Word 文档。 在此过程中，将为示例公司 Litware, Inc. 创建所需 ER 配置。可使用 USMF 数据集完成这些步骤。 此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 首先，下载并保存“帮助”主题[业务文档中使用电子申报工具生成的嵌入图像和形状](../electronic-reporting-embed-images-shapes.md)中列举的文件。 这些文件是：Model for cheques.xml、Cheques printing format.xml、Company logo.png、Signature image.png、Signature image 2.png 和 Cheque template Word.docx。
 

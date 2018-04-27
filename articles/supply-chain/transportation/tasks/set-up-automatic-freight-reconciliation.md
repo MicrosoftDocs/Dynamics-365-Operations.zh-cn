@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>设置自动装运对帐
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何为自动货运对帐设置数据。 此操作通常由仓库经理完成。 您可以在演示数据公司 USMF 中使用此过程。
 

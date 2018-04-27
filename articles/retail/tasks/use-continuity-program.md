@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="use-a-continuity-program"></a>使用连续性计划
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此过程逐步演示如何销售连续性计划和如何处理相关销售订单。 若要完成此过程，必须将用户设置为呼叫中心用户。 此程序使用 USRT 演示数据公司。
 

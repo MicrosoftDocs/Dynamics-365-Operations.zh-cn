@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-email-templates"></a>管理电子邮件模板
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 您可以将组织数据库的信息转移到新文件的书签中，并在有助于您与申请人和职位候选人有效沟通的模板中使用。 为此，您创建包含某些标准文本和应向其插入系统数据的某些书签的模板。 例如，您可以将申请人的地址和联系信息插入到 Microsoft Word 文档中，这样您在与该申请人沟通时可使用该文档。 创建此程序的演示数据公司是 USMF。
 

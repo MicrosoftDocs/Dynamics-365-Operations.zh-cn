@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>统计维度成员和统计度量提供方模板
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 统计维度及其成员用于登记和控制成本核算中的非货币条目。 统计维度成员可用于两个目的：
 

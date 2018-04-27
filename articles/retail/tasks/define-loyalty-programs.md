@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-programs"></a>定义会员计划
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会显示如何设置一个带有两个会员层级的会员计划。 此程序使用 USRT 演示数据公司。
 

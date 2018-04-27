@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="travel-requisitions"></a>出差申请
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 *出差申请*是列举出于出差目的引发的费用的源文档。 提交出差申请审核，然后可以使用授权费用。
 

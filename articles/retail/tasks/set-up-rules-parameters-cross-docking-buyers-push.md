@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-rules-and-parameters-for-cross-docking-and-buyers-push"></a>设置越库配送和集中采购配送的规则和参数
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会演示补货规则的创建步骤。 在使用越库配送和集中采购配送时，补货规则可用于控制如何将产品配送到商店。 可以为商店或商店组设置补货规则。 在使用补货规则作为越库配送或集中采购配送的配送方法时，规则内为每一行定义的权重将控制如何在商店之间分配产品的数量。 此程序使用 USRT 演示公司。
 

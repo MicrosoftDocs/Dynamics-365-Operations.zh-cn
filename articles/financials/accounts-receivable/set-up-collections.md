@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-credit-and-collections"></a>设置信用和收款
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍如何设置收款功能。
 
@@ -97,9 +96,9 @@ ms.lasthandoff: 11/03/2017
 有关详细信息，请参阅以下主题：
 
  - [创建催款单序列](tasks/create-collection-letter-sequence.md)
- 
+
  - [处理催款单](tasks/process-collection-letters.md)
- 
+
  - [审核收款信息](tasks/review-collections-information.md)
 
 

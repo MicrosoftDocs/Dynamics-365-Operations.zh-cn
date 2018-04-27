@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 76c2b078b583a1f8f2235eef15dbba514e57b0f8
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **供应商协作**模块针对的是没有与 Microsoft Dynamics 365 for Finance and Operations 进行电子数据交换 (EDI) 集成的供应商。 它允许供应商处理采购订单 (PO)、发票、托运库存信息和询价 (RFQ)，也可用来访问一部分供应商主数据。 本主题介绍您可以如何与使用供应商协作界面的外部供应商协作处理 PO、询价和托运库存。 还介绍了如何允许特定供应商使用供应商协作，以及如何定义所有供应商在响应采购订单时将看到的信息。
 

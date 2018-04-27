@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-and-manage-attributes"></a>创建和管理属性
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 本文介绍 Microsoft Dynamics 365 for Retail 中的属性。 属性可让您通过用户定义字段描述产品及其特征。
 
@@ -58,7 +57,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="attribute-type"></a>属性类型
   [![attributes-fixed-copy](./media/attributes-fixed-copy.png)](./media/attributes-fixed-copy.png) 
-  
+
 属性基于属性类型。 属性类型用于确定可为特定属性输入的数据的类型。 当前，Microsoft Dynamics 365 for Retail 支持以下属性类型：
 
 -   **货币** - 此属性类型支持货币值。 它可以受约束（即，它可以支持某个值范围），也可以保持开放。

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>登记约会的驾驶员签入和签出
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何登记驾驶员签入和驾驶员签出。这通常由运输协调员完成。 您可以在 USMF 演示数据公司中使用此过程。 首先必须为负荷设置预约。 若要创建预约，可以提前运行“为负荷设置预约”过程。
 

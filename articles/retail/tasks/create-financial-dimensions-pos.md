@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-financial-dimensions-for-pos-registers-and-configure-dimension-values-on-registers"></a>创建 POS 收银机的财务维度并配置收银机上的维度值
 
-[!include[task guide banner](../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建销售点 (POS) 收银机的财务维度，以及演示如何配置收银机的财务维度值。 此程序不包括其他相关步骤，例如创建维度集和科目结构。 这些任务可在其他主题中找到。 此记录使用 USRT 演示公司。
 

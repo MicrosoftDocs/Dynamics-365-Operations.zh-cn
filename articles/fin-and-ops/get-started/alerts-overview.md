@@ -17,18 +17,18 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 1f0b5ff383c8bb2d1ac892ef771e15f0afec2655
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: ad9373faa19761cccca2b5d581de05f0ac9dd165
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="alerts-overview"></a>预警概述
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
-[!include[banner](../includes/pre-release.md)] 
+[!INCLUDE [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>关于预警
 预警构成了 Microsoft Dynamics 365 for Finance and Operations 中重要事件的通知系统。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。 您可轻松创建自己的一套预警规则，以便获得有关逾期交货、删除订单、价格更改或其他必须响应的事件的预警。
@@ -71,4 +71,7 @@ ms.lasthandoff: 03/23/2018
 
     > [!NOTE]
     > 此选项仅限组织管理员使用。
+
+## <a name="email-notifications-from-alerts"></a>警报电子邮件通知
+尚未启用警报电子邮件通知。 以后的更新中将启用此功能。
 

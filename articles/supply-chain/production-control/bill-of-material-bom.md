@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bills-of-materials-and-formulas"></a>物料清单和配方
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题提供有关物料清单 (BOM) 和配方的信息，物料清单和配方是产品和产品变型定义的核心部分。 物料清单和配方指定特定产品必需的成分或材料。 配方还指定特定生产环境中接收的联产品和副产品。 
 

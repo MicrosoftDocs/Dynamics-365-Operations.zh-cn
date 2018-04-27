@@ -27,7 +27,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-asset-management-workspace"></a>固定资产管理工作区
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **固定资产管理**工作区显示与在系统中输入的固定资产有关的信息。 该工作区包括一个汇总视图和一个分析视图。 **我的工作**选项卡显示汇总磁贴、固定资产详细信息和与当前公司中的固定资产有关的信息。 您还可以直接将分析添加到工作区中的 Power BI 分析部分。 **分析 - 所有公司**选项卡使用 Microsoft Power BI 的功能显示与所有公司中的固定资产有关的视觉对象。
 

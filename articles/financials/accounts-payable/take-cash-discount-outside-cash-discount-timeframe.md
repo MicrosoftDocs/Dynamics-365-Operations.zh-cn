@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="take-a-cash-discount-outside-the-cash-discount-period"></a>在现金折扣期间之外执行现金折扣
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供显示即使在现金折扣期间外进行付款时也可以执行的现金折扣的两种情况。
 

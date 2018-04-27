@@ -29,8 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-blocking"></a>库存锁定
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 

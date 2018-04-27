@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reduce-balance-depreciation"></a>余额递减法折旧
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供了余额递减法折旧方法的概览。
 
@@ -80,7 +79,7 @@ ms.lasthandoff: 11/03/2017
 | 第 2 年 | (7,000 - 1,000) \* 30% = 1,800            | (7,000 -1,800) = 5,200                |
 | 第 3 年 | (5,200 - 1,000) \* 30% = 1,260            | (5,200 - 1,260) = 3,940               |
 
- 
+
 -
 
 

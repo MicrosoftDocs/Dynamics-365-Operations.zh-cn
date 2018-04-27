@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>创建成本分配政策并将其分配到成本控制单元
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 成本分配规则用于分配集体成本中心中已财务盘点的成本。 成本会计师确保根据所选分配基数将成本分配给成本中心。 将为成本控制单元分配政策和相应规则。 此任务指南使用示例显示如何创建成本分配政策和相应规则。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a>导入 ISO20022 贷方转帐配置
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何导入供应商付款电子申报配置。 以德国 ISO 20022 贷方转帐格式为例。 此过程可用于其他可用电子申报格式。 
 

@@ -19,17 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1bbd9230219f11407bc7afbd59670c6287b77c02
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 10015952773ce0ae6ab36912df636919b572704d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="posting-definition-examples"></a>过帐定义示例
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供示例以显示如何将过帐定义用于采购订单保留款和预算拨款。
 
@@ -53,11 +52,11 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="posting-definition--match-criteria"></a>过帐定义 – 匹配条件
 
-| 科目结构       | 匹配帐号 | 优先级 |
+| 科目结构       | 匹配帐号 | 优先级  |
 |-------------------------|----------------------|----------|
 | 科目结构 - P&L | \*                   | 1        |
 
-**匹配帐号**字段中的 *A 空值意味着定义的科目结构中的所有匹配的科目都是匹配规则的一部分。
+<em>**匹配帐号</em>* 字段中的空值意味着定义的科目结构中的所有匹配的科目都是匹配规则的一部分。
 
 ### <a name="posting-definition--generated-entries"></a>过帐定义 – 生成的条目
 
@@ -94,11 +93,11 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="posting-definition--match-criteria"></a>过帐定义 – 匹配条件
 
-| 科目结构       | 匹配帐号 | 优先级 |
+| 科目结构       | 匹配帐号 | 优先级  |
 |-------------------------|----------------------|----------|
 | 科目结构 - P&L | \*                   | 1        |
 
-**匹配帐号**字段中的 *A 空值意味着定义的科目结构中的所有匹配的科目都是匹配规则的一部分。
+<em>**匹配帐号</em>* 字段中的空值意味着定义的科目结构中的所有匹配的科目都是匹配规则的一部分。
 
 ### <a name="posting-definition--generated-entries"></a>过帐定义 – 生成的条目
 

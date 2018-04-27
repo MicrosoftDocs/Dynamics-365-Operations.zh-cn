@@ -27,8 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="organization-administration-home-page"></a>组织管理主页
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题指向可帮助高级用户和管理员配置 Microsoft Dynamics 365 for Finance and Operations 的内容。 此内容将帮助他们配置系统，使其顺畅有效地为您的组织和业务工作。
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="monitor-forecast-accuracy"></a>监控预测准确性
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍 Microsoft Dynamics 365 for Finance and Operations 计算的预测准确性的类型，并说明如何可以查看准确性值。
 

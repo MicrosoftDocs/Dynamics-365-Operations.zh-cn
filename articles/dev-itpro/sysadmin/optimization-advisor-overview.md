@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="optimization-advisor-overview"></a>优化顾问概述
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题描述如何使用优化顾问来帮助保证 Microsoft Dynamics 365 Finance and Operations 的最佳配置。
 

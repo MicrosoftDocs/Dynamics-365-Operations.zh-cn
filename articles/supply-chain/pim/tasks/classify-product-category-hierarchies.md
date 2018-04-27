@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="classify-a-product-using-category-hierarchies"></a>使用类别层次结构分类产品
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 类别层次结构用于为出口、采购、销售或其他目的为产品分类。 此任务通常由产品经理执行。 此示例使用演示数据公司 USMF 中的产品编号 M0009。
 

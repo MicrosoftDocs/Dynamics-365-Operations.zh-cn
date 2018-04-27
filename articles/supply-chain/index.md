@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="supply-chain-management-home-page"></a>供应链管理主页
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。 
 

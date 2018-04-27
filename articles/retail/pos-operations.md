@@ -28,7 +28,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="pos-operations-online-and-offline"></a>POS 操作（联机和脱机）
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 用户在销售点 (POS) 执行的大多数行动被视为操作。 操作在 Microsoft Dynamics 365 for Retail 后端办公系统中配置和管理。 许多操作可以添加到 POS 按钮网格中的按钮。 用户随后可以选择按钮来调用操作并执行其功能。 其他操作是主 POS 应用程序的一部分，从屏幕上按钮或作为其他工作流或流程的一部分调用。
 

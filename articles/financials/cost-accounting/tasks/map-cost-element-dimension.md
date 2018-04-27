@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-a-cost-element-dimension"></a>映射成本元素维度
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 成本总监可使用此过程将成本元素维度映射到 MXMF 法人中的成本元素维度。 此录制使用 USP2 演示数据公司。
 

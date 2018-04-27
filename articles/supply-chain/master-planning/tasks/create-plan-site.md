@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-plan-for-a-site"></a>创建站点计划
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 生产规划人员计算特定物料生产的物料和产能需求。 在采购建议创建后，他在计划的站点查找订单并确认订单，从最紧急的订单开始。 最紧急的订单是需要在当前日期确定的订单。 使用演示数据公司 USMF 执行这些任务。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-allocation-policy-to-a-cost-control-unit"></a>创建成本分摊策略并将其分配到成本控制单元
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程用于创建和分配成本分配政策，以及为成本控制单元分配相应规则。 此录制使用 USP2 演示数据公司。
 

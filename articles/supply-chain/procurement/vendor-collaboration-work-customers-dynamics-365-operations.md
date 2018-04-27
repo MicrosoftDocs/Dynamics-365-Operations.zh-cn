@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="vendor-collaboration-with-customers"></a>供应商与客户的协作
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations 中如何使用供应商协作处理客户。 供应商可以从以下工作区完成一系列业务流程：
 

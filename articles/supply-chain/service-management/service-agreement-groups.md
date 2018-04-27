@@ -28,7 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreement-groups"></a>服务协议组 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 服务协议组用于对服务协议进行排序和筛选。 例如，使用服务协议组可以按公司规模、地理位置或行业类型对服务协议进行分组。 或者，可以使用协议组按提供给客户的服务级别对服务协议进行分组。
 

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="view-journal-entries-and-transactions"></a>查看日记帐分录和交易记录
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文说明您可以查看日记帐条目和交易记录的各种方式。 
 
@@ -55,7 +54,7 @@ ms.lasthandoff: 11/03/2017
 -   **交易记录来源** – 此交易记录报表按日记帐，以及按交易记录、核算和申报币种显示帐户。 它还显示用作对方的每一行。
 
 
-##<a name="see-also"></a>请参阅
+## <a name="see-also"></a>请参阅
 - [总帐科目余额](general-ledger-account-balances.md) 
 - [会计源资源管理器](..\accounts-payable\accounting-source-explorer.md)
 - [财务申报](financial-reporting-getting-started.md)

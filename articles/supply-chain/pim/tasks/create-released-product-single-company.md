@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-released-product-for-a-single-company"></a>创建单个公司的已发布产品
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程介绍如何在单个法定单位背景下创建单个已发布产品。 在创建已发布产品后，其仅立即在该单位中可用。 您可以使用 USMF 公司演示数据浏览此过程。 此任务通常由产品设计者执行。
 

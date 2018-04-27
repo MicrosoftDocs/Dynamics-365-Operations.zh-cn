@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a>创建 lean manufacturing 的转包工作单元
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 若要为 lean manufacturing 的转包工作建模，必须创建与提供该工作的供应商关联的工作单元。 转包工作单元通过关联供应商类型的资源链接到供应商。 如果在 USMF 演示公司播放此录制，可以选择供应商帐户 ID 1002 和站点 1。
 

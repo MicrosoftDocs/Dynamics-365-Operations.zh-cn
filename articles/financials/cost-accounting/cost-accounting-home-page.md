@@ -3,12 +3,12 @@ title: "成本核算主页"
 description: "本主题提供可用于成本核算的帮助主题和其他资源列表。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 08/20/2017
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration
+ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-accounting-home-page"></a>成本核算主页
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a>学习图 
 
@@ -37,6 +37,7 @@ ms.lasthandoff: 11/03/2017
 [![成本核算学习图](./media/cost-accounting-map.png)](./media/cost-accounting-map.png)
 
 ## <a name="quick-links"></a>快速链接
+
 |      |   |
 |------|---|
 |  [配置基本实体（网络培训）](https://mbspartner.microsoft.com/Home)（需要 CustomerSource 帐户）  |[创建维度](cost-elements.md)  |

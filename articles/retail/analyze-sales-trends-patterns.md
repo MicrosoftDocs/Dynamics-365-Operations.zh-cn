@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-sales-trends-and-patterns"></a>分析销售趋势和模式
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 您可以在 Microsoft Dynamics 365 for Retail 中实时研究销售趋势和模式。
 

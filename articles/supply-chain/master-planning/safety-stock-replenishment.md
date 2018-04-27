@@ -29,8 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="safety-stock-fulfillment-for-items"></a>物料的安全存货履行
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 安全存货是指为了降低物料库存不足的风险，在库存中应该持有该物料的额外数量。 安全存货用于当接到销售订单且供应商无法交付满足客户要求装运日期的额外物料时的缓冲存货。 当使用安全存货履行销售订单时，安全存货将减少。 您可以使用主计划自动使库存恢复到安全水平。    
 

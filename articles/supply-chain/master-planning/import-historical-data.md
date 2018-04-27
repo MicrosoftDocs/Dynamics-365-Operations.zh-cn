@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-historical-data-for-demand-forecasts"></a>导入需求预测的历史数据
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 为了帮助确保需求预测的准确性，您必须尽可能多地获得每个物料或物料分配参数的历史需求数据。 如果尚未导入历史需求数据，请使用 Microsoft Dynamics 365 for Finance and Operations 中**历史外部需求** (ReqDemPlanHistoricalExternalDemandEntity) 导入它。
 

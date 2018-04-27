@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-tax-transactions-on-documents"></a>在单据中创建销售税交易记录
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 单据上的销售税通过在单据行上提供销售税组和物料销售税组计算。 这些默认显示主数据，但可以根据需要手动更改。 计算出的销售税可在行和单据中选中。 本任务使用 USMF 公司进行演示。
 

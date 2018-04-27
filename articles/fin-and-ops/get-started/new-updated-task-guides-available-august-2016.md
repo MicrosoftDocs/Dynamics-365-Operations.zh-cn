@@ -27,8 +27,7 @@ ms.lasthandoff: 11/06/2017
 
 # <a name="new-or-updated-task-guides-august-2016"></a>新的或更新任务指南（2016 年 8 月）
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 8 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 

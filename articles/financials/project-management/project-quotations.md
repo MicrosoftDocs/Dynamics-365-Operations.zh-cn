@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-quotations"></a>项目报价单
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍项目报价单的概念，您可以向客户提供有吸引力的项目报价单，以此作为项目阶段的第一步。 项目报价单可以包含进行报价的物料和服务、基本联系信息、特殊贸易协议和折扣以及可能的税金和附加费。 
 

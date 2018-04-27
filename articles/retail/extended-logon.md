@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-extended-logon-functionality-for-cloud-pos-and-mpos"></a>设置 Cloud POS 和 MPOS 的扩展登录功能
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 此介绍介绍设置 Cloud POS 和 Retail Modern POS (MPOS) 扩展登录的选项。
 

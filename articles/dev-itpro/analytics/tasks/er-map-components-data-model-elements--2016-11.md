@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="map-components-of-the-created-format-to-data-model-elements-for-electronic-reporting-er"></a>针对电子申报 (ER) 将已创建格式的组件映射到数据模型元素
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下过程显示属于系统管理员或电子报表开发人员的用户如何将数据模型元素映射到创建的电子申报 (ER) 配置的组件，该配置用于定义付款业务域的电子单据格式。 后面将使用此格式生成用于处理付款的电子单据。 在此示例中，您将创建示例公司“Litware 公司”的格式配置。 这些步骤适用于所有公司，因为所有公司共享 ER 配置。 为了完成这些步骤，您首先必须完成任务指南“创建格式配置”中的步骤。
 

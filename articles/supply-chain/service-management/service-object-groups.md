@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-object-groups"></a>服务对象组 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 对象组有用于排序和筛选有关报告和统计对象的数据。 例如，您可以按地理位置或按类型对对象进行分组。
 

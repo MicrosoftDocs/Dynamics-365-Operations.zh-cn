@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="cost-element-dimensions"></a>成本元素维度
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 作为成本核算中的其中一个核心支柱，成本元素维度用来对成本分类和跟踪成本流向。 
 

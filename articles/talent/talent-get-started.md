@@ -26,14 +26,14 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent 入门
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 在 Microsoft Dynamics 365 for Talent 中，可以根据您的需求轻松修改用户界面和设置让软件更加直观的选项。 此主题包括了一些主题的链接，这些主题提供了如何让用户界面适应您的偏好的信息。 主题还包括如何在系统中高效准确地查找信息的信息。 
 
 > [!NOTE] 
 > 以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
-### <a name="personalizing-talent"></a>个性化 Talent 
+## <a name="personalizing-talent"></a>个性化 Talent 
 以下主题说明如何设置 Dynamics 365 for Talent 的诸多功能，以让您更轻松地及时完成工作。 
 
 -   [个性化用户体验](../fin-and-ops/get-started/personalize-user-experience.md) - 本主题说明您可以个性化 Talent 以及让产品的各个分部更贴近您的偏好的不同方式。
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/26/2018
 
 -   [键盘快捷键](../fin-and-ops/get-started/shortcut-keys.md) - 此主题列出了美式键盘布局的键盘快捷方式。 
 
-### <a name="accessing-information"></a>访问信息
+## <a name="accessing-information"></a>访问信息
 以下主题说明如何使用查找以及搜索和筛选功能快速查找信息。 
 
 -   [使用查询来查找信息](../fin-and-ops/get-started/use-lookups-to-find-information.md) - 此主题显示查找功能如何能够快速地帮助您找到正确的或所需的值。 本主题描述查找功能的工作原理，还包括可帮助您优化使用的技巧。

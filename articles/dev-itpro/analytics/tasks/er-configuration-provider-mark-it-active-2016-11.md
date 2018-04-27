@@ -24,7 +24,7 @@ ms.lasthandoff: 02/23/2018
 ---
 # <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>针对电子申报创建一个配置提供程序，并标记其为当前运行的 (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明了用户如何指派“系统管理员”或者“电子电子报表开发人员”为“电子申报 (ER)”新建一个配置提供程序。 每个 ER 配置都将把该提供程序归类为其作者。 以样本公司 Litware，Inc. 为例，新建一个配置提供程序。这些步骤适用于所有公司，因为所有公司都共享 ER 配置提供程序。
 

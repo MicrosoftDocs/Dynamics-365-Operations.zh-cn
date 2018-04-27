@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cabaf8a579fcd9722e409630038167afb07ffc6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>财务报表设计器中的用户首选项
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍如何设置用户首选项来自定义财务报表设计器中的用户交互和控制初始登录体验。 您还可以控制各个报表、报表库和默认文件位置的显示方式。 
 
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 <td>选择是否要在退出应用程序时收到警告消息。 此消息有助于确保不会无意中退出程序。</td>
 </tr>
 <tr class="odd">
-<td>在列标题中自动应用单元格下划线</td>
+<td>自动在列标题中应用单元格下划线</td>
 <td>选择是否在新的列标题的单元格中插入下划线。</td>
 </tr>
 <tr class="even">

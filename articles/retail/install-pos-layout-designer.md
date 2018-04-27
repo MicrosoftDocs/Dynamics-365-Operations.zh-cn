@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="install-the-retail-pos-layout-designer"></a>安装 Retail POS 布局设计器
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 您可以使用一键式设计器在横向或纵向模式下为商店、收银机、出纳和经理设计不同的 Retail Modern POS (MPOS) 和 Cloud POS 布局。
 

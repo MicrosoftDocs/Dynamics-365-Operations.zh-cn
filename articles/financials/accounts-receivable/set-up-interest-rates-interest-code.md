@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7ae0bfdc157a7e2e5b9f871dae487a6f85e889b9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c0e80bae4716d2b12f515f38d3b641de24680571
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="set-up-interest-rates-for-an-interest-code"></a>为利息代码设置多种利率
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 利息代码包含相关的设置利息时计费，以及如何在逾期科目计算。
 
@@ -47,17 +46,17 @@ ms.lasthandoff: 11/03/2017
 ## <a name="interest-rates-based-on-a-percentage"></a>基于百分比的利率
 您可以设置多种利率计算指定的百分比。
 
--   利息金额应用于所有币种。
--   可输入可选利息金额限制。
--   **百分比**是在**设置利息代码**页上的**利息计算依据**字段中选择的。
+- 利息金额应用于所有币种。
+- 可输入可选利息金额限制。
+- <strong>设置利息代码</strong>页上的<strong>利息计算依据</strong>字段中已选择<strong>百分比</strong>。
 
 例如，设置项目 5 的利息每两个月的利息代码发票付款超过交易到期日期，则在**计算利息间隔**字段中输入“2”，然后选择**月**。
 
 ## <a name="interest-rates-based-on-amounts"></a>基于金额的利率
 您可以设置计算针对指定币种的利率金额。
--   为利息代码中的每个币种指定利息金额。
--   可输入可选利息金额限制。
--   **金额** 是在**设置利息代码**页上的**利息计算依据**字段中选择的。
+- 为利息代码中的每个币种指定利息金额。
+- 可输入可选利息金额限制。
+- <strong>设置利息代码</strong>页上的**利息计算依据**字段中已选择<strong>金额</strong>。
 
 例如，若要设置发票付款超过交易到期日期每 20 天的 25.00 的利息的利息代码，则在**计算利息间隔**字段中输入“20”，然后选择**天**。
 
@@ -84,7 +83,7 @@ ms.lasthandoff: 11/03/2017
 | 1,001          | 2                  |
 | 5,001          | 3                  |
 
- 
+
 ## <a name="example-2-interest-by-range--days"></a>示例 2：按大小的利息 = 天
 --------------------------------------------------
 
@@ -105,7 +104,7 @@ ms.lasthandoff: 11/03/2017
 | 61             | 15                 |
 | 91             | 20                 |
 
- 
+
 ## <a name="example-3-interest-by-range--months"></a>示例 3：按大小的利息 = 月
 ----------------------------------------------------
 

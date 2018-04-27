@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>为本地部署配置 SQL Server Reporting Services
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 使用本主题中的步骤为你的 Microsoft Dynamics 365 for Finance and Operations（本地）部署配置 SQL Server Reporting Services (SSRS)。
 
@@ -52,13 +52,13 @@ ms.lasthandoff: 03/26/2018
 
     [![Web 门户 URL 选项卡](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     
-  配置门户后，**Web 门户**选项卡将与以下图形匹配。
+   配置门户后，**Web 门户**选项卡将与以下图形匹配。
     [![Web 门户选项卡](./media/ssrs-config-manager-06.png)](./media/ssrs-config-manager-06.png)
     
 8. 单击报表 URL 以查看 SQL Server Reporting Services Web 门户。 
-9.  当你在该门户时，创建名为 **Dynamics** 的新文件夹。
+9. 当你在该门户时，创建名为 **Dynamics** 的新文件夹。
 
-    [![Dynamics 文件夹](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
+   [![Dynamics 文件夹](./media/ssrs-config-manager-07.png)](./media/ssrs-config-manager-07.png)
     
 10. 在 **Reporting Services 配置管理器**中，单击**电子邮件设置**选项卡并验证设置是否与以下图形匹配。
 
@@ -68,15 +68,15 @@ ms.lasthandoff: 03/26/2018
 
     [![执行帐户选项卡](./media/ssrs-config-manager-09.png)](./media/ssrs-config-manager-09.png)
     
-  不要更改**加密密钥**选项卡上的默认设置。[![加密密钥选项卡](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
+    不要更改**加密密钥**选项卡上的默认设置。[![加密密钥选项卡](./media/ssrs-config-manager-10.png)](./media/ssrs-config-manager-10.png)
     
 12. 单击**订阅设置**选项卡，并验证设置是否与以下图形匹配。
 
     [![订阅设置选项卡](./media/ssrs-config-manager-11.png)](./media/ssrs-config-manager-11.png)
     
-  不要更改**扩大部署**选项卡上的默认设置。[![扩大部署选项卡](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
+    不要更改**扩大部署**选项卡上的默认设置。[![扩大部署选项卡](./media/ssrs-config-manager-12.png)](./media/ssrs-config-manager-12.png)
     
-  不要更改 **Power BI 集成**选项卡上的默认设置。[![Power BI 集成选项卡](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
+    不要更改 **Power BI 集成**选项卡上的默认设置。[![Power BI 集成选项卡](./media/ssrs-config-manager-13.png)](./media/ssrs-config-manager-13.png) 
     
 13. 单击**退出**以关闭 **Reporting Services 配置管理器**。
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="nomenclature-of-product-variant-numbers-and-names"></a>产品变型编号和名称的命名法
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题介绍如何设置产品编号命名法来替换固定的[基础产品编号 - 配置 - 尺寸 - 颜色 - 样式] 格式。 新的命名法具有目标格式，包括您选择的基础产品编号、有效产品维度和文本分隔符。 您还可以创建产品名称的命名法。 最后，您可以构建命名法以识别由基于约束的产品配置器创建的配置。 这些命名法可包含您选择的属性。
 

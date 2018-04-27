@@ -28,8 +28,7 @@ ms.lasthandoff: 02/19/2018
 
 # <a name="service-agreements"></a>服务协议
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 在服务协议中，您可以定义在典型服务访问中使用的资源以及如何对这些资源向客户开票。
 

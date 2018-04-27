@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="design-a-questionnaire"></a>设计调查表
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 本主题描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。 
 

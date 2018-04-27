@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-guarantee"></a>保函
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关保函的信息。 在保函中，如果银行客户之一拖欠某人员的付款或合同，银行同意向该人员支付特定金额。 
 

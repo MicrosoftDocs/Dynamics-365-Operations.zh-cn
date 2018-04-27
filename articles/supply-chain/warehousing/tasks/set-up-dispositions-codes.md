@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-dispositions-codes"></a>设置处置代码
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程在针对可以在移动设备上用于退货单接收流程的处置代码的设置。 部署代码是收到物料时可以使用的规则集合。 例如，在工作用户使用设备接收损坏的物料时，用户必须扫描损坏物料的处置代码。 接收的货物的库存状态、工作模板和位置指令可以通过扫描的处置代码确定。 对于采购订单接收流程和生产订单完工入库流程，使用处置代码是可选的。 对于销售订单退货接收流程，如果使用移动设备登记物料，使用处置代码是强制的。  本指南使用演示数据公司 USMF 创建。 该过程专门面向仓库经理。 
 

@@ -19,17 +19,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1fe940d2d282a5b4468b3ba572626b5c87839e6d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍当您在“高级筛选/排序”对话框中使用“matches”运算符时可用的筛选和查询选项。
 
@@ -68,7 +67,7 @@ ms.lasthandoff: 11/03/2017
 <td><em>开始值</em>..<em>结束值</em>（双句点）</td>
 <td>用双句点分隔的两个值之间</td>
 <td>键入开始值，然后是两个句点，最后键入结束值。</td>
-<td><strong>1..10</strong> 查找从 1 到 10 的所有值。 不过，在字符串字段中，<strong>A..C</strong> 将查找以 &quot;A&quot; 开头和以 &quot;B&quot; 开头的所有值以及恰好为 &quot;C&quot; 的值。 例如，此查询不会查找 &quot;Ca&quot;。 若要查找从 &quot;A*&quot; 到 &quot;C*&quot; 的所有值，请键入 <strong>A..D</strong>。</td>
+<td><strong>1..10</strong> 查找从 1 到 10 的所有值。 不过，在字符串字段中，<strong>A..C</strong> 将查找以 &quot;A&quot; 开头和以 &quot;B&quot; 开头的所有值以及恰好为 &quot;C&quot; 的值。 例如，此查询不会查找 &quot;Ca&quot;。 若要查找从 &quot;A<em>&quot; 到 &quot;C</em>&quot; 的所有值，请键入 <strong>A..D</strong>。</td>
 </tr>
 <tr class="even">
 <td>..<em>值</em>（双句点）</td>
@@ -97,20 +96,20 @@ ms.lasthandoff: 11/03/2017
 <tr class="even">
 <td><em>值</em>*（星号）</td>
 <td>以输入的值开头</td>
-<td>键入字符串值，然后键入星号 (<strong>*</strong>)。</td>
-<td><strong>S*</strong>查找以 &quot;S&quot; 开头的任何字符串，例如 &quot;Stockholm&quot;、&quot;Sydney&quot; 和 &quot;San Francisco&quot;。</td>
+<td>键入字符串值，然后键入星号 (<strong><em></strong>)。</td>
+<td><strong>S</em></strong> 查找以“S”开头的任何字符串，例如“Stockholm”、“Sydney”和“San Francisco”。</td>
 </tr>
 <tr class="odd">
-<td>*<em>值</em>（星号）</td>
+<td><em><em>值</em>（星号）</td>
 <td>以输入的值结尾</td>
 <td>键入星号，然后键入结尾值。</td>
-<td><strong>*east</strong> 查找以 &quot;east&quot; 结尾的任何字符串，例如 &quot;Northeast&quot; 和 &quot;Southeast&quot;。</td>
+<td><strong></em>east</strong> 查找以“east”结尾的任何字符串，例如“Northeast”和“Southeast”。</td>
 </tr>
 <tr class="even">
-<td>*<em>值</em>*（星号）</td>
+<td><em><em>值</em></em>（星号）</td>
 <td>包含输入的值</td>
 <td>键入星号，然后键入值，再键入另一个星号。</td>
-<td><strong>*th*</strong>查找包含 &quot;th&quot; 的任何字符串，例如 &quot;Northeast&quot; 和 &quot;Southeast&quot;。</td>
+<td><strong><em>th</em></strong>查找包含 &quot;th&quot; 的任何字符串，例如 &quot;Northeast&quot; 和 &quot;Southeast&quot;。</td>
 </tr>
 <tr class="odd">
 <td>? （问号）</td>
@@ -131,7 +130,7 @@ ms.lasthandoff: 11/03/2017
 <td><strong><span class="code">(data source.Fieldname != &quot;A&quot;)</span></strong></td>
 </tr>
 <tr class="even">
-<td>二</td>
+<td>T</td>
 <td>今天的日期</td>
 <td>类型 <strong>T</strong>。</td>
 <td><strong>T</strong> 匹配今天的日期。</td>

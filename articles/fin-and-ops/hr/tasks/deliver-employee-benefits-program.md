@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ec99b86d77c1381b4323a5faaea0487752eee9ed
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: c94f731cbdd62d51a21a42e8fcc86c5711c0e965
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="deliver-an-employee-benefits-program"></a>交付员工福利计划
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该任务将向您显示，如何创建在创建新福利时需要使用的福利元素。 创建此任务的演示数据公司是 USMF。 此任务专门面向薪资和福利经理。
 

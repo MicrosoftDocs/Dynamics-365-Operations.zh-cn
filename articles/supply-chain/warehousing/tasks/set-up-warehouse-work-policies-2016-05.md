@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-warehouse-work-policies"></a>设置仓库工作策略 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 仓库流程不是始终包括仓库工作。 通过定义工作策略，您可以防止为原材料领料创建工作，并将一组产品的成品储存在特定位置。 USMF 演示数据公司用于创建此记录。 此任务指南需要 Dynamics AX 应用程序 7.0.1 或更高版本。
 

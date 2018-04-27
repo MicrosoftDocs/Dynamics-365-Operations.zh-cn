@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="absence-registration-in-time-and-attendance"></a>“时间和出勤”中的缺勤登记
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题描述缺勤的概念并说明如何处理“时间和出勤”中的缺勤。
 

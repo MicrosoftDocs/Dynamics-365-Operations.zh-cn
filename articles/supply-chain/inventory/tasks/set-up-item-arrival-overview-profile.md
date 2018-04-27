@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>设置物料到达概览配置文件
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务侧重于到货概览配置文件的设置。 到货概览配置文件是用户打开到货概览页面时将应用的规则的集合。 您可以在演示数据公司 USMF 中使用此过程。 此过程通常由验收员完成。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-sales-order-invoices"></a>创建销售订单发票
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务指南介绍如何给销售订单开票，包括合并发票以及成批处理。 该程序适用于 USMF 演示公司。
 

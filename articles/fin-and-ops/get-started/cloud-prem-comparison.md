@@ -18,16 +18,16 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: cd267f6e5623bd83bfbd21a49a72dd216259167a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 911996f9d1854f027f5085725538bd87ba307c25
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="cloud-and-on-premises-feature-comparison"></a>云和本地功能比较
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题显示每个功能在这些产品中是否可用：
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 03/26/2018
 | | 配置主导的扩展| 是 | 无 |
 | | 将数据导出到您自己的数据仓库中| 是 | 是 |
 | | 启用将增量更新导出到数据实体 | 是 | 无 |
-| | 定期集成                 |是 | 无|
+| | 数据集成                 |是 | 是|
 | 文档管理| | 是| 是 |
 | 财务管理|  | 是 | 是 |
 | 帮助| | 是 | 无 |

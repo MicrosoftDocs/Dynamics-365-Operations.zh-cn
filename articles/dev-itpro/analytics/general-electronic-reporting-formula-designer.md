@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d5671d180bae039d873419352d52afe90e386b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>电子申报中的配方设计器
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题说明如何在电子申报 (ER) 中使用配方设计器。 在您在 ER 中为特定电子文档设计格式时，您可以使用公式转换数据，以便使其满足该文档的履行和格式的要求。 这些公式类似 Microsoft Excel 中的公式。 公式中支持各种函数类型：文本、日期和时间、数学、逻辑、信息、数据类型转换和其他（企业域特定函数）。
 
@@ -313,12 +313,12 @@ ER 表达式可以包含任意或所有以下元素：
 <tr class="odd">
 <td>ORDERBY（列表 [，表达式 1，表达式 2，...]）</td>
 <td>根据指定变量排序后返回指定的列表。 可将这些变量定义为表达式。</td>
-<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>ORDERBY (Vendors, Vendors.'name()')</strong> 返回升序排列的按名称排序的供应商列表。</td>
+<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> 返回升序排列的按名称排序的供应商列表。</td>
 </tr>
 <tr class="even">
 <td>REVERSE（列表）</td>
 <td>以反转排序顺序返回指定的列表。</td>
-<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> 返回降序排列的按名称排序的供应商列表。</td>
+<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> 返回降序排列的按名称排序的供应商列表。</td>
 </tr>
 <tr class="odd">
 <td>WHERE（列表，条件）</td>
@@ -395,7 +395,9 @@ ER 表达式可以包含任意或所有以下元素：
 <tr class="even">
 <td>STRINGJOIN（列表、字段名称，分隔符）</td>
 <td>返回由指定列表中的指定字段的连接值组成的字符串。 这些值通过指定分隔符分隔。</td>
-<td>如果输入<strong>SPLIT(&quot;abc&quot; , 1)</strong> 作为数据源 (DS)，则表达式 <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> 返回 <strong>&quot;a:b:c&quot;</strong>。</td>
+
+<td>如果输入 <strong>SPLIT(&quot;abc&quot; , 1)</strong> 作为数据源 (DS)，则表达式 <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> 返回 <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>。</td>
+
 </tr>
 <tr class="odd">
 <td>SPLITLISTBYLIMIT（列表、限值，源限制）</td>
@@ -416,7 +418,7 @@ ER 表达式可以包含任意或所有以下元素：
 <tr class="even">
 <td>FILTER（列表，条件）</td>
 <td>已修改查询以针对指定条件进行筛选后，返回指定列表。 此函数与 <strong>WHERE</strong> 函数，因为指定条件适用于数据库级别的<strong>表格记录</strong>类型的任何 ER 数据源。 可使用表格和关系定义列表和条件。</td>
-  <td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> 返回仅包含属于供应商组 40 的供应商的列表。 如果<strong>供应商</strong>配置为引用 <strong>VendTable</strong> 表的 ER 数据源，并且配置为 ER 数据源的 <strong>parmVendorBankGroup</strong> 返回字符串数据类型的值，则 <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> 返回仅包含属于特定空白组的供应商帐户的列表。</td>
+  <td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> 返回仅包含属于供应商组 40 的供应商的列表。 如果<strong>供应商</strong>配置为引用 <strong>VendTable</strong> 表的 ER 数据源，并且配置为 ER 数据源的 <strong>parmVendorBankGroup</strong> 返回字符串数据类型的值，则 <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> 返回仅包含属于特定空白组的供应商帐户的列表。</td>
 </tr>
 </tbody>
 </table>
@@ -553,7 +555,7 @@ ER 表达式可以包含任意或所有以下元素：
 <li>Finance and Operations 标签 SYS18389，具有以下文本：
 <ul>
 <li><strong>对于 EN-US 语言：</strong>&quot;Customer %1 is stopped for %2&quot;。</li>
-<li><strong>对于 DE 语言：</strong>&quot;Debitor '%1' wird für %2 gesperrt&quot;。</li>
+<li><strong>对于 DE 语言：</strong>&quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>这是一个可设计的公式：</p>
@@ -561,7 +563,7 @@ ER 表达式可以包含任意或所有以下元素：
 <p>如果报表于 2015 年 12 月 17 日为 <strong>Litware 零售</strong>客户处理，在 <strong>EN-US</strong> 区域性和 <strong>EN-US</strong> 语言中，此公式返回以下文本，其可能呈现为用户的异常消息：</p>
 <p>&quot;没有要打印的内容。 客户 Litware 零售已于 2015 年 12 月 17 日停止。&quot;</p>
 <p>如果 2015 年 12 月 17 日为 <strong>Litware 零售</strong>客户处理同一个报表，在 <strong>DE</strong> 区域性和 <strong>DE</strong> 语言中，此公式返回以下文本（使用不同的日期格式）：</p>
-<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt。&quot;</p>
+<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
 <blockquote>[!NOTE]<br>
 以下语法在标签的 ER 公式中应用：
 <ul>

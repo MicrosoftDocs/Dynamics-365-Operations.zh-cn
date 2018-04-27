@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 9ee81bbdd22fed4ef6ea97080fe1f6b3d82bcaf5
-ms.openlocfilehash: ee95c3d79f7f401c767b9bc8415b21369c14478b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/06/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>使用 Power BI Embedded 将分析添加到工作区
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 > [!NOTE]
 > 此功能在 Dynamics 365 for Finance and Operations（版本 7.2 及更高版本）上受支持。
@@ -50,7 +50,7 @@ ms.lasthandoff: 11/06/2017
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>将 .pbix 文件添加为资源。
 在开始之前，你必须创建或获得在工作区中将嵌入的 Power BI 报表。 有关如何创建分析报表的详细信息，请参阅 [Power BI 桌面入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。
- 
+
 执行以下步骤以将 .pbix 文件添加为 Visual Studio 项目。
 
 1. 在相应的模型中创建新项目。
@@ -63,12 +63,12 @@ ms.lasthandoff: 11/06/2017
 5. 查找包含分析报表的定义的 .pbix 文件，然后单击**打开**。
 
     ![选择“资源”文件对话框](media/analytical-workspace-select-resource.png)
-  
+
 既然你已将 .pbix 文件添加为 Dynamics 365 资源，你现在可以在工作区中嵌入报表并使用菜单项添加直接链接。
 
 ## <a name="add-a-tab-control-to-an-application-workspace"></a>将选项卡控件添加到应用程序工作区
 在此示例中，我们将通过将**分析**选项卡添加到 **FMClerkWorkspace** 窗体的定义中的方式扩展车队管理模型中的**预订管理**工作区。
- 
+
 下图显示 **FMClerkWorkspace** 窗体在 Microsoft Visual Studio 中的设计器中的外观。
 
 ![进行更改前的 FMClerkWorkspace 窗体](media/analytical-workspace-definition-before.png)
@@ -93,16 +93,16 @@ ms.lasthandoff: 11/06/2017
 16. 右键单击，然后选择**删除模式**。
 17. 再次右键单击，然后选择**添加模式** > **工作区选项卡式**。
 18. 执行内部版本以验证你的更改。
- 
+
 下图显示设计在应用这些更改后的外观。
 
 ![进行更改后的 FMClerkWorkspace](media/analytical-workspace-definition-after.png)
 
 既然你已添加了将用于嵌入工作区报表的窗体控件，你现在必须定义父控件的大小，使之适应布局。 默认情况下，**筛选器窗格**页和**选项卡**页将在报表上显示。 但是，你可以根据报表的目标使用者相应地更改这些控件的可见性。
- 
+
 > [!NOTE]
 > 对于嵌入的工作区，为了获得一致性，我们建议你使用扩展以同时隐藏**筛选器窗格**和**选项卡**页。
- 
+
 你现在已完成了扩展应用程序窗体定义的任务。 有关如何使用扩展执行自定义的详细信息，请参阅[自定义：覆盖和扩展](../extensibility/customization-overlayering-extensions.md)。
 
 ## <a name="add-x-business-logic-to-embed-a-viewer-control"></a>添加 X++ 业务逻辑以嵌入查看器控件
@@ -169,12 +169,13 @@ public static void initializeReportControl(
 
 #### <a name="parameters"></a>参数设置
 
-| 姓名 | 说明 |
-|---|---|
-| resourceName | .pbix 资源的名称。 |
-| formGroupControl | 要应用 Power BI 报表控件的窗体组控件。 |
-| defaultPageName | 默认页名称。 |
-| showFilterPane | 指示是否应显示 (**true**) 或隐藏 (**false**) 筛选器窗格的布尔值。 |
-| showNavPane | 指示是否应显示 (**true**) 或隐藏 (**false**) 导航窗格的布尔值。 |
-| defaultFilters | Power BI 报表的默认筛选器。 |
+|       姓名       |                                                              说明                                                               |
+|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+|   resourceName   |                                                    .pbix 资源的名称。                                                     |
+| formGroupControl |                                    要应用 Power BI 报表控件的窗体组控件。                                     |
+| defaultPageName  |                                                         默认页名称。                                                         |
+|  showFilterPane  |   指示是否应显示 (<strong>true</strong>) 或隐藏 (<strong>false</strong>) 筛选器窗格的布尔值。   |
+|   showNavPane    | 指示是否应显示 (<strong>true</strong>) 或隐藏 (<strong>false</strong>) 导航窗格的布尔值。 |
+|  defaultFilters  |                                              Power BI 报表的默认筛选器。                                              |
+
 

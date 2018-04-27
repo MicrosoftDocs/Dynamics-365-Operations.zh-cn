@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a>设计一个配置以从 CSV 格式的外部文件导入数据 (ER)
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 使用此过程可以设计电子报告 (ER) 配置以从 CSV 格式的外部文件将数据导入 Dynamics 365 for Finance and Operations 应用的信息。 在此过程中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成过程“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 
 

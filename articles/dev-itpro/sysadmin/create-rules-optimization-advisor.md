@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: e64d4fc1a7425d38d728b11e503d3e7289312495
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 943239c7d57b4a438c405f1ad0551db29d7a8145
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-rules-for-optimization-advisor"></a>为优化顾问创建规则
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍如何为**优化顾问**创建新规则。 例如，可创建一个新规则来识别哪些询价单 (RFQ) 案例的标题为空。 可通过案例的标题轻松识别和搜索案例。 此示例非常简单，介绍了通过优化规则可达到哪些目的。 
 

@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="total-cost-allocation-method"></a>总成本分摊方法
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题提供使用总成本分摊 (TCA) 的指南。 TCA 是计算批次订单的主要配方物料和为配方定义的联产品之间的成本的方法。
 

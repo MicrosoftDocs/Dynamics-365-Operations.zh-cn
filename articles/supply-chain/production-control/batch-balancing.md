@@ -19,19 +19,20 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 84e00ef62a995d37878de6b2786dbc2ee2277070
-ms.openlocfilehash: 8a1ec5a3b19d1022232527f4960617bd985bc2b3
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="batch-balancing"></a>批次平衡
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
+此主题介绍对批次平衡流程的支持。 
 
-此主题介绍对批次平衡流程的支持。
+观看[有关 Microsoft Dynamics 365 for Finance and Operations 中的批次平衡的视频](https://www.youtube.com/watch?v=4SNLWsU9KyI&feature=youtu.be)。
 
 在批次平衡流程中，生产批次中使用的成分量通过所选产品批次中的有效成分浓度计算。
 
@@ -179,7 +180,7 @@ ms.lasthandoff: 03/12/2018
 
 -   如果为仓库管理流程启用了某个产品，将根据仓库管理流程的原则把配方行下达给仓库。 配方行按照匹配平衡数量的数量下达，并针对为有效成分选择的特定批次下达。
 
->   [!NOTE]
+> [!NOTE]
 >   配方行只能作为批次平衡流程的一部分下达给仓库。 尽管可通过其他选项将生产物料下达给仓库，但是那些选项不能用于配方行。
 
 -   如果不为仓库管理流程启用产品，确认并下达配方时，将为产品创建生产领料单。

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>将物料清单和配方行发放到仓库
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题介绍将物料清单 (BOM) 行和配方行的原材料发放到仓库的流程。 在您将物料清单或配方行发放到仓库时，系统将首先确定用于生产流程的物料所在的车间的生产输入库位上是否已经提供该物料。
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 03/07/2018
 - **通过批处理作业或作为手动交互发放物料清单和配方行** - 在此方法中，物料清单和配方行仅可通过**自动发放物料清单和配方行**批处理作业或作为手动交互进行发放。 要手动发放物料清单和配方行，在生产订单列表页或生产订单详细信息页的操作窗格上，选择**发放到仓库**。
 
 有关如何使用批处理作业将物料清单和配方行发布到生产的快速演示，请观看以下 YouTube 短视频：
-[!Video https://www.youtube.com/embed/8urAJn50dQ8]
+[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>使用批处理作业发放物料清单和配方行
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 03/07/2018
 ![按工序编号发放物料的示例](media/two-operations.PNG)
 
 有关如何按成品数量的比例发放物料的快速演示，请观看以下 YouTube 短视频：
-[!Video https://www.youtube.com/embed/Rm3ojAz6Zu0]
+[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>按成品数量的比例发放物料
 

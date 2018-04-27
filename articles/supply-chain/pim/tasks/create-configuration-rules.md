@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-configuration-rules"></a>创建配置规则
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程创建配置规则，以用于基于维度的配置，从而执行或防止物料清单行的某些组合。 创建此程序的演示数据公司是 USMF。 这是八个过程中第七个说明如何构建基于维度的配置组合的过程。
 

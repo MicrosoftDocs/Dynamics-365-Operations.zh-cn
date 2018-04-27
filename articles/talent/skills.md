@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e9e66d3c6309c195e076fd86c31aa0adade97394
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3a5b9f98b371dbad9b6b0538e0d9975dc5ed701c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="align-workforce-skills-with-business-needs"></a>让劳动力技能符合业务需要
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 您可以跟踪工作人员、申请人或联系人具有或应该具有的技能，以有效地履行其角色。 您还可以指定特定工作所需的技能。
 
@@ -55,8 +54,8 @@ ms.lasthandoff: 11/03/2017
 
 技能表模板允许您查找具备具有直接符合业务需要的当前员工或候选人。  例如，您可以为您的组织中的一个空缺职位创建技能表模板。 通过为特定工作创建模板并从该工作将技能、教育和证书复制到模板，您可以迅速搜索与模板中输入的一个或多个条件匹配的工作人员、申请人，并查看其技能最密切匹配该工作所要求的技能的候选人列表。
 
->**注意**只有在技能表搜索中包括的所选工作人员、申请人和联系人可以在技能表搜索结果列表中显示或包含在技能模板中。 若要将工作人员、申请人或联系人包括到技能表搜索中，请在以下页面中将**“包括在技能表中”**选择设置为“是”：
-
+> **注意**只有在技能表搜索中包括的所选工作人员、申请人和联系人可以在技能表搜索结果列表中显示或包含在技能模板中。 若要将工作人员、申请人或联系人包括到技能表搜索中，请在以下页面中将**“包括在技能表中”**选择设置为“是”：
+> 
 > + 工作线程
 > + 员工
 > + 申请人

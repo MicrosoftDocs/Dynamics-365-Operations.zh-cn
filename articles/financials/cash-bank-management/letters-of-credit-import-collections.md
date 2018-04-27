@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="letters-of-credit-and-import-collections"></a>信用证和进口托收
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关信用证和进口托收的一般信息。 两种银行单据类型经常用于跨国界限的货物采购和销售。
 

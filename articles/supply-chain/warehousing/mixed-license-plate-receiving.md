@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mixed-license-plate-receiving"></a>正在接收混合牌照
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 混合牌照接收允许您在登记和创建入库工作前生成包含多个物料的牌照。 
 

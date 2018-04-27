@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-agreement"></a>创建采购协议
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会从头至尾指导您创建一份采购协议。 这通常由采购经理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 在您开始之前，您需要设置采购协议分类。 一旦创建完协议，您可以在创建采购订单时使用该协议，并且这会将采购协议条件复制到受该协议影响的订单的标题和任何行。
 

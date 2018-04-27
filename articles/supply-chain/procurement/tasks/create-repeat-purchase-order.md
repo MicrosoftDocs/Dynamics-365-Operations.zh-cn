@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-repeat-purchase-order"></a>创建重复采购订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程演示如何通过将早期采购订单 (PO) 单据中的行复制到新采购订单或现有采购订单，创建重复采购订单。 可以通过两种方法创建重复订单。 可以使用操作窗格中单据级的可用操作，也可以使用行详细信息操作。 单据级操作主要用于通过从其他订单添加行和头信息来新建采购订单，而行详细信息操作则主要用于向现有订单添加行。 可以在 USMF 演示数据公司中使用本指南中的示例。 此任务通常由采购代理完成。
 

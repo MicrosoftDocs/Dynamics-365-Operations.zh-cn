@@ -24,7 +24,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>查找适用的价格和折扣
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会显示如何查找当前对于特定客户有效的产品价格和折扣，无需创建销售订单。 该过程用一个具体示例进行示范，您需要遵循该示例，使用 USMF 演示公司，以选择所需的值。
 

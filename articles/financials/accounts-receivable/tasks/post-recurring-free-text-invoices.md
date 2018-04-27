@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="generate-and-post-recurring-free-text-invoices"></a>生成和过帐重复执行普通发票
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 使用重复发票定期给客户开相同金额的发票。 此记录使用 USMF 公司演示。 由负责管理和处理应收账款发票的用户负责记录。
 

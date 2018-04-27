@@ -23,7 +23,7 @@ ms.lasthandoff: 03/12/2018
 ---
 
 # <a name="assortment-management"></a>分类管理
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>概览
 Microsoft Dynamics 365 for Retail 提供*分类*，供您管理渠道中的产品可用性。 分类决定哪些产品在特定商店和特定时间段内可用。

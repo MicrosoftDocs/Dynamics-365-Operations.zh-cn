@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-payment-slip-format-for-project-invoices"></a>设置项目发票的付款单格式
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 企业通常将打印的付款单附加到发票上以帮助客户，并提供用于过帐和结算的付款参考。 除了销售发票和普通发票，付款单可用于项目或服务发票，催款单、利息单和帐户对账单。 若要处理付款单，首先设置您的债权人标识号和付款单附件格式。
 

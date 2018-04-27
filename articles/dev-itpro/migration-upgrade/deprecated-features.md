@@ -3,7 +3,7 @@ title: "弃用功能"
 description: "本主题介绍已经删除或计划删除的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 02/05/2018
+ms.date: 03/22/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 0618d71fdb4b29bfdacd6b9e1a8ed47e03abe00d
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="removed-or-deprecated-features"></a>已移除或弃用的功能
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍已从 Dynamics 365 for Finance and Operations 移除或弃用的功能。
 
@@ -37,7 +37,10 @@ ms.lasthandoff: 03/26/2018
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
 > [!Note]
-> 从具有平台更新 8 的 Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月版开始，每一个已移除或弃用的功能均备注了部署类型。 本主题中提及的所有之前的版本仅支持云部署。
+> 从具有平台更新 8 的 Dynamics 365 for Finance and Operations 2017 年 7 月版开始，每一个已移除或弃用的功能均备注了部署类型。 本主题中提及的所有之前的版本仅支持云部署。
+
+## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>具有平台更新 15 的 Dynamics 365 for Finance and Operations 8.0
+此版本中未移除或弃用任何功能。 平台更新 15 是累积功能，其中包含平台更新 13、14 和 15 中的新增功能或更改功能。
 
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>具有平台更新 12 的 Dynamics 365 for Finance and Operations Enterprise Edition 7.3
 
@@ -96,7 +99,7 @@ ms.lasthandoff: 03/26/2018
 | **被另一个功能取代？**   | 新 UI 称为*增强型视图*，它将取代旧 UI。            |
 | **影响的产品区域**         | 数据管理工作区                                                     |
 | **部署选项**              | 全部                                                                           |
-| **状态**                         | 已弃用：移除功能的目标时间范围为 2018 年第一季度。 |
+| **状态**                         | 已弃用：移除功能的目标时间范围为 2018 年第二季度。 |
 
 ### <a name="excise-sales-tax-service-tax-for-india"></a>适用于印度的消费税、销售税、服务税
 
@@ -537,7 +540,7 @@ Telepay 付款格式包括供应商付款导出（贷方转帐）和客户付款
 
 ### <a name="aif-axd-and-axbc-integrations"></a>AIF、Axd 和 AxBC 集成
 
-在应用集成框架 (AIF) 中，数据可以通过显示为服务的业务逻辑与外部系统交换。 Dynamics AX 包括基于文档和 .NET Business Connector (AxBC) 的服务。 文档是通过使用 XML 创建的。 XML 包括标题信息，添加该信息的目的是创建可在 Dynamics AX 内外传送的*消息*。 文档的示例包括销售订单和采购订单。 但是，几乎所有实体（例如客户）都可以被文档代表。 基于文档的服务使用 **Axd \<文档\>**类。
+在应用集成框架 (AIF) 中，数据可以通过显示为服务的业务逻辑与外部系统交换。 Dynamics AX 包括基于文档和 .NET Business Connector (AxBC) 的服务。 文档是通过使用 XML 创建的。 XML 包括标题信息，添加该信息的目的是创建可在 Dynamics AX 内外传送的*消息*。 文档的示例包括销售订单和采购订单。 但是，几乎所有实体（例如客户）都可以被文档代表。 基于文档的服务使用 **Axd \<文档\>** 类。
 
 |   |  |
 |------------|--------------------|
@@ -1033,10 +1036,11 @@ Windows 8 平板电脑应用提供用于费用录入和审核的功能。
 
 ### <a name="x-financial-statements"></a>X++ 财务报表
 
-|   |  |
-|------------|--------------------|
-| **弃用/移除的原因** | 此功能已被另一个功能取代。                                    |
-| **被另一个功能取代？**   | Management Reporter（在 Dynamics AX 的当前版本中标记为**“财务报告”**。） |
-| **影响的产品区域**         | 总帐                                                                              |
-| **状态**                         | 从 Dynamics AX 2012 开始移除                                                              |
+|                                                 |                                                                                                          |
+|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| <strong>弃用/移除的原因</strong> |                         此功能已被另一个功能取代。                         |
+|  <strong>被另一个功能取代？</strong>  | Management Reporter（在 Dynamics AX 的当前版本中标记为<strong>“财务报告”</strong>。） |
+|     <strong>影响的产品区域</strong>     |                                              总帐                                              |
+|             <strong>状态</strong>             |                                      从 Dynamics AX 2012 开始移除                                      |
+
 

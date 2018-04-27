@@ -29,8 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="build-a-product-configuration-model"></a>构建产品配置模型
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 “将产品配置为可满足特定要求”这一需求在“企业对企业”和“企业对消费者”关系中都正在成为规则而不是特例。
 

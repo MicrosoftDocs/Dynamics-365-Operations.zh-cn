@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pos-hardware-peripherals"></a>POS 硬件外围设备
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 Retail Modern 销售点 (POS) 和 Cloud POS 可以使用一系列广泛的 POS 硬件外设，具有多个界面和部署选项以满足零售商的各种业务场景。 
 

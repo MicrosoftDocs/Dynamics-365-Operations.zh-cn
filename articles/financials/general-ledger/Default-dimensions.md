@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="financial-dimensions-and-posting"></a>财务维度和过帐 
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。 这些组件包括科目结构、高级规则和平衡与固定维度。 本主题介绍各组件的定义及其协同工作方式。
 

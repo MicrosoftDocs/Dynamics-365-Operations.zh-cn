@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-quality-orders"></a>设置质检订单
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程说明了如何启用到达登记后必须立即检查传入库存的质量管理流程。 该过程通常由质量经理执行。 流程包括创建质量组，以定义要进行抽样的物料，和分组要在质量组中对物料执行的测试的测试组。 您可以使用 USMF 演示数据公司运行此指南。
 

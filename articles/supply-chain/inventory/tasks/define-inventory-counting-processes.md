@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-inventory-counting-processes"></a>定义库存盘点流程
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程向您介绍，通过创建一个盘点组和盘点日记帐，配置基本存货盘点过程。 它也将向您展示如何在仓库和物料级别启用盘点策略。 这些任务通常由仓库主管执行。 它是某些现有发布产品和仓库的先决条件。 如果您使用演示数据公司，您可以在 USMF 公司中对任何库存物料执行此过程。
 

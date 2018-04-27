@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-subcontracting-work-in-production"></a>管理生产中的转包工作
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-a-product-configuration-model"></a>创建产品配置模型
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程显示如何创建产品配置模型和输入基础信息，如属性和子组件。 创建此程序的演示数据公司是 USMF。
 

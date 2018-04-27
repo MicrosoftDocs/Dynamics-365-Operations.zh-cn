@@ -28,10 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="address-books-faq"></a>通讯簿常见问题
 
-[!include[banner](../includes/banner.md)]
-
-
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 <a name="how-do-i-check-for-duplicate-records"></a>如何检查重复的记录？
 -------------------------------------

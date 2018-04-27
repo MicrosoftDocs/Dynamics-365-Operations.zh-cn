@@ -31,7 +31,7 @@
 ## [呼叫中心目录](call-center-catalogs.md)
 ## [创建呼叫中心目录](create-call-center-catalogs.md)
 ## [设置欺诈预警](set-up-fraud-alerts.md)
-## [设置订单处理选项](set-up-order-processing-options.md)
+## [设置呼叫中心](set-up-order-processing-options.md)
 ## [设置呼叫中心的连续性计划](set-up-continuity-program.md)
 ## [订单保留](work-with-order-holds.md)
 ## [付款选项](work-with-payments.md)
@@ -49,6 +49,7 @@
 ## [POS 操作（联机和脱机）](pos-operations.md)
 ## [MPOS/CPOS 中的演示数据屏幕布局](demo-data.md)
 ## [销售点中的产品和客户搜索概览](POS-search-improvements.md)
+## [销售点中的库存查找](product-variants-POS.md)
 ## 硬件外围设备
 ### [零售外围设备概览](retail-peripherals-overview.md)
 ### [Microsoft 测试过的 POS 硬件外围设备](microsoft-tested-pos-hardware-peripherals.md)
@@ -96,6 +97,7 @@
 ## [设置 RFM 分析](set-up-rfm-analysis.md)
 
 # 折扣和价格调整
+## [零售销售价管理](price-management.md)
 ## [价格调整和折扣](price-adjustments-discounts.md)
 ## [确定叠加折扣的最佳组合](optimal-combination-overlapping-discounts.md)
 ## [定义特定于渠道的折扣](define-channel-specific-discounts.md)
@@ -139,14 +141,18 @@
 ## [设置作业组件](../talent/create-job.md)
 
 # 本地化和监管功能
+## 法国
+### [适用于法国的收银机](localizations/emea-fra-cash-registers.md)
+### [适用于法国的收银机的部署指南](localizations/emea-fra-deployment.md)
 ## 印度
-### [适用于印度的收银机 GST 集成](localizations/apac-ind-cash-registers.md)
+### [收银机 GST 集成](localizations/apac-ind-cash-registers.md)
 ### [适用于印度的收银机的部署指南](localizations/apac-ind-loc-deployment-guidelines.md)
 ## 挪威
 ### [适用于挪威的收银机](localizations/emea-nor-cash-registers.md)
 ### [适用于挪威的收银机的部署指南](localizations/emea-nor-loc-deployment-guidelines.md)
 ## 瑞典
 ### [适用于瑞典的收银机](localizations/emea-swe-cash-registers.md)
+### [Retail POS 与控制主机集成的示例](dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
 
 # Retail 任务
 ## [创建产品](../supply-chain/pim/tasks/create-product.md)
@@ -260,6 +266,7 @@
 ### [电子商务平台 SDK](dev-itpro/ecommerce-platform-sdk.md)
 
 ## 付款连接器可扩展性
+### [付款与付款终端的集成](dev-itpro/end-to-end-payment-extension.md)
 ### [实施付款连接器和付款设备（白皮书）](http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx)
 ### [部署付款连接器](dev-itpro/deploy-payment-connector.md)
 ### [为付款连接器创建 Windows 安装程序](dev-itpro/create-windows-installer-payment-connector.md)
@@ -269,6 +276,7 @@
 ### [Retail SDK 可扩展性示例](dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md)
 ### [Retail SDK 包装](dev-itpro/retail-sdk/retail-sdk-packaging.md)
 ### [Retail SDK 示例](dev-itpro/retail-sdk/retail-sdk-samples.md)
+#### [装箱单的扩展点](dev-itpro/extensions-shipping-carrier-integration.md)
 ### [渠道数据库 (DB) 扩展](dev-itpro/channel-db-extensions.md)
 ### [CDX 可扩展性](dev-itpro/cdx-extensibility.md)
 ### [订单属性](dev-itpro/order-attributes.md)

@@ -28,8 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="125-percent-reducing-balance-depreciation"></a>125% 余额递减法
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供了 125% 余额递减法折旧方法的概览。
 
@@ -68,6 +67,7 @@ ms.lasthandoff: 11/03/2017
 -   **“会计期间”**将过帐为该会计年度计算的折旧总额。 此金额计入在**“会计日历”**页上定义的会计期间。
 
 ## <a name="example-of-125-reducing-balance-depreciation"></a>125% 余额递减法折旧示例
+
 |                                |        |
 |--------------------------------|--------|
 | 购置成本               | 11,000 |

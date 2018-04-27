@@ -28,8 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="process-allocations"></a>处理分配
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文提供有关分配、在 Microsoft Dynamics 365 for Finance and Operations 中处理分配的选项，以及如何在预算计划中使用它们的信息。 分配用于跨多个会计科目组合分配金额。 它们帮助确保向核算的正确对象计入费用或收入。
 

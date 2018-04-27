@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-app-field-names-in-warehousing-app"></a>配置 Warehousing 应用程序中的应用程序字段名
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题介绍如何在 Dynamics 365 for Finance and Operations 中定义和配置仓库应用程序字段名和优先级。 
 

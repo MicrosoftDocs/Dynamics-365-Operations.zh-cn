@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-workflow"></a>费用工作流
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 您可以使用 Microsoft Dynamics 365 for Finance and Operations 中的工作流系统在费用管理中设置费用报表审核流程。 您可以设置使用以下条件确定由谁审核费用报表的工作流：
 

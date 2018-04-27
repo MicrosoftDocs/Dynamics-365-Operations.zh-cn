@@ -24,7 +24,7 @@ ms.lasthandoff: 10/30/2017
 ---
 # <a name="vendor-payment-overview"></a>供应商付款概览
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。 该程序适用于 USMF 演示公司。
 

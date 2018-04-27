@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="create-a-baseline-forecast"></a>创建基准预测
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 生产规划员可通过使用时间序列预测模型或复制历史需求来创建基线预测。 此过程显示如何复制历史需求以使用一个物料分配参数来创建所有产品的基线预测。 
 

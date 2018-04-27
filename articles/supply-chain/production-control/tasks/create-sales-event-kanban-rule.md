@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-sales-event-kanban-rule"></a>创建销售事件看板规则
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程的重点是创建在销售订单创建期间触发的看板规则所需的设置。 事件看板规则源自销售订单行的补货要求。 创建此程序的演示数据公司是 USMF。 这面向工艺工程师和价值流经理，因为他们负责新型或改良产品的生产准备。
 

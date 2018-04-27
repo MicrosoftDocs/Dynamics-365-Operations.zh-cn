@@ -29,8 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="receipt-templates-and-printing"></a>收据模板和打印
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 本文介绍如何修改窗体布局以控制如何打印收据、发票和其他单据。 Microsoft Dynamics 365 for Retail 包括您可以用于轻松创建和修改不同类型的窗体布局的窗体布局设计器。
 
