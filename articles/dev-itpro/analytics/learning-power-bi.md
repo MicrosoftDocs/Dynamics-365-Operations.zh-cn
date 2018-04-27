@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: e5a78812aabaa5c835fe23787a9cbb57d1a7770e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0ee0cc2e22609d1a87e7d2b6dcd031606191f879
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/19/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 

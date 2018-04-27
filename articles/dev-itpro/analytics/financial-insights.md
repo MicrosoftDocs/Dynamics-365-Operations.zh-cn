@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 33a8bc78006ae9e7d5ca905a98886fd7af706604
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-insights"></a>财务见解
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 **财务见解**使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。 Microsoft Dynamics 365 for Finance and Operations 中已嵌入 Power BI。
 **财务见解**的主要功能是分析报告。 组织中的人员可查看、研究、了解和采取行动。 
@@ -107,8 +107,20 @@ ms.lasthandoff: 03/26/2018
 
 下面的对比图可帮助区分这两个选项：
 
-|                                         | **财务申报**                            | **财务见解**             | |-----------------------------------------|----------------------------------------------------|---------- -------------------------| | **编辑默认报表**                | 是                                                | 否                                 | | **创建新报表**                  | 是                                                | 否                                 | | **打印报表**                       | 是                                                | 否                                 | | **导出到 Excel**                     | 是          | 受限制，将原始数据导出到 Excel，而不是带格式的报表       | | **支持报告层次结构/组织层次结构**   | 是                               | 否                                 | | **报告子分类帐数据**       | 是，限制为仅供应商、客户    | 是，供应商、客户、供应商/客户组、供应商/客户地址等  | | **申报币种**      | 是，核算币种，并转换为申报币种       | 否，仅限核算币种      | | **安全**                | 是，遵循 Finance and Operations 和申报树安全性 | 受限，查看所有公司（不受 Finance and Operations 安全性限制）或仅有效公司的报表 | | **支持不同会计科目表和财年** | 是                   | 否                   | | **报告外部数据**                              | 否                   | 否                                   | | **支持合并**                               | 是                          | 受限制，可报告多家公司，但是仅使用核算币种                                     |
 
+|                                                                       |               <strong>财务申报</strong>                |                                      <strong>财务见解</strong>                                      |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------|
+|                 <strong>编辑默认报表</strong>                 |                                是                                |                                                      无                                                       |
+|                  <strong>创建新报表</strong>                  |                                是                                |                                                      无                                                       |
+|                    <strong>打印报表</strong>                     |                                是                                |                                                      无                                                       |
+|                   <strong>导出至 Excel</strong>                    |                                是                                |                           受限制，将原始数据导出到 Excel，而不是带格式的报表                           |
+|  <strong>支持报告层次结构/组织层次结构</strong>  |                                是                                |                                                      无                                                       |
+|               <strong>报告子分类帐数据</strong>               |               是，限制为仅供应商、客户                |                 是，供应商、客户、供应商/客户组、供应商/客户地址等                 |
+|                  <strong>申报币种</strong>                  |    是，会计币种，并转换为申报币种    |                                          否，仅限会计币种                                          |
+|                       <strong>安全性</strong>                       | 是，遵循 Finance and Operations 和申报树安全性 | 受限，查看所有公司（不受 Finance and Operations 安全性限制）或仅有效公司的报表  |
+| <strong>支持不同会计科目表和会计年度</strong> |                                是                                |                                                      无                                                       |
+|               <strong>报告外部数据</strong>                |                                无                                 |                                                      无                                                       |
+|                <strong>支持合并</strong>                |                                是                                |                   受限制，可报告多家公司，但是仅使用会计币种                   |
 
 除了来自原始 **CFO 概览**工作区的用户界面，现在还有新的 KPI、图表和财务报表可用。 以下财务报表可用：
 

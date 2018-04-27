@@ -19,23 +19,23 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: 47de452c2072b6a29d7e2d34eb73b472be669a6c
-ms.openlocfilehash: eb6132b6d535deb13a4cd1343d04967893a2cfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0936ae3b8d07ef221345bda272170e1482f37cbf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="whats-new-or-changed"></a>新增功能或更改的功能
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本最新版本的新功能的主题。
 
 有关升级到最新版本的信息，请参阅 [升级到最新更新的流程](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)。
 
 
-[!include[release notes](../includes/release-notes.md)]
+[!INCLUDE [release notes](../includes/release-notes.md)]
 
 ## <a name="application-releases"></a>应用程序发布
 
@@ -61,6 +61,13 @@ ms.lasthandoff: 03/25/2018
 
 </tr>
 <tr class="even">
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.0</td>
+<td>8.0.30</td>
+<td>2018 年 4 月</td>
+  <td><a href="whats-new-changed-8-0-April-2018.md">Dynamics 365 for Finance and Operations 版本 8.0（2018 年 4 月）中的新增功能或更改内容</a></td>
+</tr>
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
@@ -122,7 +129,7 @@ ms.lasthandoff: 03/25/2018
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>平台 update 15</td>
 <td>7.0.4839</td>
-<td>2018 年 3 月（这是仅对已选择参加持续自动更新优势计划 (CAAP) 的用户提供的针对性版本。）</td>
+<td>2018 年 3 月（这是仅对已选择参加持续自动更新优势计划 (CAAP) 的用户提供的针对性版本。 Dynamics 365 for Finance and Operations 版本 8.0 中也提供了平台更新 15。）</td>
 <td><a href="whats-new-platform-update-15.md">Dynamics 365 for Finance and Operations Enterprise Edition 平台更新 15（2018 年 3 月）的新增或更改内容</a></td><tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>

@@ -19,17 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 81c09c551dfa4238782c3796f5d08990b30ca575
-ms.openlocfilehash: b23883c1f66cda8a719db64a2f50e00605f6bfe9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f4b70f1aee6b0b55a41dbfd33fcd1216579bb78c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="financial-reporting-for-finance-and-operations"></a>Finance and Operations 财务申报
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 Finance and Operations 财务申报允许财务和业务专业人员创建、维护、部署和查看财务报表。 它超出了传统报告约束，可以帮助您高效地设计各种类型的报表。
 

@@ -3,7 +3,7 @@ title: "使用 Excel 加载项"
 description: "此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。"
 author: ChrisGarty
 manager: AnnBe
-ms.date: 11/30/2017
+ms.date: 04/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,16 +18,16 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f3ed06dbbce21ac093107953d3a72d8ab086af2a
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: e0e3e86820e0857b320d832c3bf3c94757667919
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="use-the-excel-add-in"></a>使用 Excel 加载项
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题介绍如何通过使用适用于 Excel 的 Microsoft Dynamics Office 加载项，在 Microsoft Excel 中打开实体数据，然后查看、更新和编辑这些数据。 若要打开实体数据，可从 Excel 或 Microsoft Dynamics 365 for Finance and Operations 开始。
 
@@ -35,6 +35,11 @@ ms.lasthandoff: 03/26/2018
 
 > [!NOTE]
 > 如果将您的 Microsoft Azure Active Directory (Azure AD) 租户配置为使用 Active Directory Federation Services (AD FS)，则必须确保已应用了 2016 年 5 月的 Office 更新，以便 Excel 加载项可以让您正确登录。
+
+若要了解有关如何使用 Excel 加载项的详细信息，请观看短片[在 Dynamics 365 for Finance and Operations 中为标头和行模式创建 Excel 模板](https://youtu.be/RTicLb-6dbI)。
+
+> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
+
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>从 Finance and Operations 开始时在 Excel 中打开实体数据
 1. 在 Finance and Operations 中的一个页面内，选择**在 Microsoft Office 中打开**。

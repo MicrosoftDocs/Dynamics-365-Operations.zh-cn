@@ -16,10 +16,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 05f7af94813934c1d77d6a509587280395f0e8bd
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d3221a62079e719c1d9d6f2df8edf8c5ed5584b7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="make-a-question-dependent-on-the-answer-of-the-previous-question"></a>根据前一个问题的回答设定问题依赖项

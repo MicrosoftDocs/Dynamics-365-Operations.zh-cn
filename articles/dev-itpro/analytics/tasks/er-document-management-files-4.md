@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 运行在格式输出中使用票据管理文件的格式"
+title: "运行格式以在格式输出中使用票据管理文件"
 description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 419c3e305dfdd7d8612340b4a8e8e54e13c6362b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 554de60fb8d2b6cb03cac5dc8d01df98390ad844
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="run-format-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>针对电子申报 (ER) 运行在格式输出中使用票据管理文件的格式
+# <a name="run-format-to-use-document-management-files-in-format-outputs"></a>运行格式以在格式输出中使用票据管理文件 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。 这些步骤可以在 DEMF 公司执行。
 

@@ -19,17 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6426f208a51ffbf72c6faa8cb281aba2984052d7
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>查看和导出字段描述
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本文介绍了如何查看字段描述以及如何使用字段描述页导出描述。
 
@@ -77,7 +76,7 @@ Microsoft Dynamics 365 for Finance and Operations 具有某些较为复杂的字
     -   如果有多个精确匹配，则不显示描述。 您必须打开下拉列表并选择所需的网页。
     -   如果您键入的名称是另一个页面的名称的一部分，您会看到您的页面的描述。 但是，如果打开下拉列表，您将看到包含该名称的其他页面。
 
-例如，当您在 ****选择页面**** 字段键入**盘点**时，将不显示描述。 您打开下拉列表，将看到具有名称**盘点**的两个页面，以及名称中包含字词“盘点”的若干页面。 如果选择 AOT 名称为 **InventJournalCount** 的页，将显示该页的字段描述。 但是，如果再次打开下拉列表，将看到列表中现在包含 AOT 名中包含“InventJournalCount”的所有页。
+例如，当您在*<strong><em>选择页面</em></strong>* 字段键入<strong>盘点</strong>时，将不显示描述。 您打开下拉列表，将看到具有名称<strong>盘点</strong>的两个页面，以及名称中包含字词“盘点”的若干页面。 如果选择 AOT 名称为 <strong>InventJournalCount</strong> 的页，将显示该页的字段描述。 但是，如果再次打开下拉列表，将看到列表中现在包含 AOT 名中包含“InventJournalCount”的所有页。
 
 ## <a name="troubleshooting"></a>疑难解答
 此部分提供的信息帮助您解决使用字段描述页时可能遇到的问题。

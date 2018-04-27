@@ -19,17 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ced76315bb4667f84be532a703e7e9b134b829b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 6d11e772cfbcd8ab7a0d4a08ccd71049723f9e32
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-variable-compensation-plans"></a>创建可变薪酬计划
 
-[!include[banner](includes/banner.md)]
-
+[!INCLUDE [banner](includes/banner.md)]
 
 可变薪酬构成员工的非常规薪酬，例如奖金或股票奖励。 本文介绍在使用可变薪酬和在可变薪酬计划中登记员工前必须设置的组件。
 
@@ -78,12 +77,12 @@ ms.lasthandoff: 11/03/2017
 
 **注意：**资格规则确定固定薪酬计划和可变薪酬计划的资格。 资格规则在工作、职位和员工记录中使用以下字段来确定某员工是否有资格享受薪酬计划：
 
--   在**工作**页上：
-    -   **工作**字段
-    -   **工作分类**选项卡上的**职能**和**工作类型**字段
-    -   **薪酬**选项卡上的**级别**字段
--   在**职位**页上：**部门**和**薪酬区域**字段
--   在**员工**页上：****工作人员**** 选项卡上**个人信息** &gt; **工会**下的有关与员工关联的工会的信息
+- 在**工作**页上：
+  -   **工作**字段
+  -   **工作分类**选项卡上的**职能**和**工作类型**字段
+  -   **薪酬**选项卡上的**级别**字段
+- 在**职位**页上：**部门**和**薪酬区域**字段
+- 在<strong>员工</strong>页上：*<strong><em>工作人员</em></strong>* 选项卡上<strong>个人信息</strong> &gt; <strong>工会</strong>下的有关与员工关联的工会的信息
 
 ### <a name="enable-enrollment-for-the-variable-compensation-plan"></a>启用可变薪酬计划登记
 

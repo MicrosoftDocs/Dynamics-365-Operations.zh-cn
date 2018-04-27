@@ -19,17 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 8075abccdcdde21df967dcc9948a738895f35cef
-ms.openlocfilehash: cbe0374ff21ff39ed2bbc8d647bd933ced9dcff6
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 5c92c1ca3f46d80a58ca315f1f695f082d1929ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/25/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="electronic-reporting-destinations"></a>电子申报目标
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 您可以为每个电子申报 (ER) 格式配置和及其输出组件（文件夹或文件）配置目标。 被授予适当访问权限的用户还可以在运行时修改目标设置。 本文介绍 ER 目标管理，支持的目标类型，以及安全考虑。
 
@@ -71,7 +70,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 #### <a name="print-management"></a>打印管理
 
-如果选择**打印管理电子邮件**类型，则可以在**收件人**字段中输入固定电子邮件地址。 若要使用非固定电子邮件地址，您必须选择文件目标的电子邮件源类型。 支持下列值：**客户**、**供应商**、**目标客户**、**联系人**、**竞争对手**、**工作人员**、**申请人**、**潜在供应商**和**非许可供应商**。 选择电子邮件源类型后，请使用**电子邮件源帐户**字段旁边的按钮打开 **公式设计器** 窗体。 可以使用此窗体将表示所选方帐户的公式附加到电子邮件目标。
+如果选择**打印管理电子邮件**类型，则可以在**收件人**字段中输入固定电子邮件地址。 若要使用非固定电子邮件地址，您必须选择文件目标的电子邮件源类型。 支持下列值：**客户**、**供应商**、**目标客户**、**联系人**、**竞争对手**、**工作人员**、**申请人**、**潜在供应商**和**非许可供应商**。 选择电子邮件源类型后，请使用**电子邮件源帐户**字段旁边的按钮打开**公式设计器**窗体。 可以使用此窗体将表示所选方帐户的公式附加到电子邮件目标。
 
 [![配置打印管理电子邮件类型](./media/ger-destinations-email-2-1611-1024x588.jpg)](./media/ger-destinations-email-2-1611.jpg) 
 

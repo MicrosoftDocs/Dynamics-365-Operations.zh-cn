@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fc2fa16a44b6421d56e9cb662cfaa26da5b1c5d1
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 8bc3d23fac6112622e722e57b61fdb686f5a98ed
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="work-breakdown-structures"></a>工作分解结构
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 工作分解结构 (WBS) 是项目中要完成的工作的描述。 它是一种任务的层次结构，代表项目团队对工作构成和大小、成本以及每个组件或任务的持续时间的理解。 WBS 包含三个主要目的：
 
@@ -115,7 +115,7 @@ WBS 中详细信息的级别取决于评估中需要的准确性等级和这些�
 
 没有前置任务的叶节点任务的开始日期将自动设置为项目的计划开始日期。 叶节点任务的持续时间始终计算为其开始日期和结束日期之间的工作日天数。 
 
-****计划编制规则**** 当自动计划编制辅助开启时，以下规则适用于叶节点任务的任务计划编制：
+*<strong><em>计划编制规则</em></strong>* 当自动计划编制辅助开启时，以下规则适用于叶节点任务的任务计划编制：
 
 -   任务的开始日期和结束日期按照项目的计划编制日历必须为工作日。
 -   有前置任务的任务的开始日期将自动设置为其前置任务的最晚结束日期。

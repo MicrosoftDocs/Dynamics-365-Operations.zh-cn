@@ -20,17 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3206e53c4f2659c6d9b9be64b01ac28cdd17bc88
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>产品配置模型中的表达式约束和表约束
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍的是表达式约束和表约束的使用。 约束控制的对象是您在配置销售订单、销售报价单、采购订单或生产订单的产品时您可以选择的属性值。 您可以根据自己喜欢的构建约束方式来选择使用表达式约束或表约束。 
 
@@ -204,23 +203,24 @@ ms.lasthandoff: 02/07/2018
 
 下表示例显示的是如何编写中缀表示法。
 
-| 中缀表示法    | 说明                                                                                   |
+
+|  中缀表示法   |                                          说明                                          |
 |-------------------|-----------------------------------------------------------------------------------------------|
-| x + y + z         | 增加额                                                                                      |
-| x \* y \* z       | 乘                                                                                |
-| x - y             | 二进制减法的转换方式与第二个数为负的二进制加法相同。 |
-| x ^ y ^ z         | 具有右关联的求幂                                                   |
-| !x                | 布尔值“非”。                                                                                   |
-| x -: y            | 布尔值影响                                                                           |
-|  x | y | z         | 布尔值“或”                                                                                    |
-| x & y & z         | 布尔值“与”                                                                                   |
-| x == y == z       | 等式                                                                                      |
-| x != y != z       | 明确的                                                                                      |
-| x &lt; y &lt; z   | 小于                                                                                     |
-| x &gt; y &gt; z   | 大于                                                                                  |
-| x &lt;= y &lt;= z | 小于等于                                                                         |
-| x &gt;= y &gt;= z | 大于等于                                                                      |
-| (x)               | 括号覆盖默认优先级顺序。                                                      |
+|     x + y + z     |                                           增加额                                            |
+|    x \* y \* z    |                                        乘                                         |
+|       x - y       | 二进制减法的转换方式与第二个数为负的二进制加法相同。 |
+|     x ^ y ^ z     |                          具有右关联的求幂                          |
+|        !x         |                                          布尔值“非”。                                          |
+|      x -: y       |                                      布尔值影响                                      |
+|         x         |                                               y                                               |
+|     x & y & z     |                                          布尔值“与”                                          |
+|    x == y == z    |                                           等式                                            |
+|    x != y != z    |                                           明确的                                            |
+|  x &lt; y &lt; z  |                                           小于                                           |
+|  x &gt; y &gt; z  |                                         大于                                          |
+| x &lt;= y &lt;= z |                                     小于等于                                     |
+| x &gt;= y &gt;= z |                                   大于等于                                    |
+|        (x)        |                           括号覆盖默认优先级顺序。                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>为什么我的表达式约束验证为错误？
 您不能使用预留的关键字作为产品配置模型中的属性、组件或子组件的求解器名称。 下面是不能使用的预留关键字的列表：

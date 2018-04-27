@@ -3,7 +3,7 @@ title: "从目标客户到现金"
 description: "本主题提供在 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Sales 之间从目标客户到现金解决方案的概述。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 02/08/2018
+ms.date: 04/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,16 +20,16 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 025be8b44726194e6fc219816c40d2a15a7349df
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: bc0fa8fe3e20ae4be3e572932f99ccc54e3b746b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="prospect-to-cash"></a>从目标客户到现金
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 从目标客户到现金解决方案提供跨 Dynamics 365 for Finance and Operations 与 Dynamics 365 for Sales 的直接同步。 提供“数据集成”功能的“从目标客户到现金”模板启用 Finance and Operations 与 Sales 之间的帐户、联系人、产品、销售报价、销售订单和销售发票的数据流。 当数据在 Finance and Operations 与 Sales 之间流动时，您可以在 Sales 中执行销售和市场营销活动，并可以使用 Finance and Operations 中的库存管理处理订单履行。 
 
@@ -47,7 +47,6 @@ ms.lasthandoff: 03/26/2018
 - [将 Finance and Operations 中的销售发票直接同步到 Sales](sales-invoice-template-mapping-direct.md)
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations 的系统要求
-
 以下版本支持“从目标客户到现金”集成：
 
 ### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3（2017 年 12 月）
@@ -59,9 +58,9 @@ ms.lasthandoff: 03/26/2018
 - Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）- 具有平台更新 8（使用平台版本 7.0.4565.16212 的应用程序版本 7.2.11792.56024）。
 - 必须包含以下修补程序：
 
-    - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – 此修补程序可以通过数据集成功能将销售订单从 Sales 同步到 Finance and Operations。 它还提供多个其他增强。
-    - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – 此修补程序可以通过数据集成功能将销售订单行从 Finance and Operations 同步到 Sales。
-    - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – 此修补程序可以通过数据集成功能将销售订单从 Finance and Operations 同步到 Sales。
+  - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – 此修补程序可以通过数据集成功能将销售订单从 Sales 同步到 Finance and Operations。 它还提供多个其他增强。
+  - **[KB4036524](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036524&bugId=3847504&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – 此修补程序可以通过数据集成功能将销售订单行从 Finance and Operations 同步到 Sales。
+  - **[KB4036461](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4036461&bugId=3847029&qc=e2fcfae08b1a5d5ce9f53f330e8c212b0636c375368ff7d8d9b5ec6701523ad2)** – 此修补程序可以通过数据集成功能将销售订单从 Finance and Operations 同步到 Sales。
 
     > [!NOTE]
     > 您只需安装 KB4045570，因为该安装包括来自其他修补程序的更改。 
@@ -72,9 +71,9 @@ ms.lasthandoff: 03/26/2018
 
 - 必须包含以下修补程序：
 
-    - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - 使用数据集成器将销售订单从 Finance and Operations 同步到 Sales。 
-    - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - 使用数据集成器将销售订单头和行从 Finance and Operations 同步到 Sales。
-    - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - 需要支持通过数据实体进行从目标客户到现金的集成。
+  - **[KB4051266](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4051266&bugId=3863566&qc=ee80faaa7bc6c77b368d5eaf456c9c08e0b9fba5903a7b6fd8c13756c3a4b757)** - 使用数据集成器将销售订单从 Finance and Operations 同步到 Sales。 
+  - **[KB4037542](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4037542&bugId=3848253&qc=8323b93c15280172c5ab4159e0256e37104ced1729462c91ab2f7d00cb8d419c)** - 使用数据集成器将销售订单头和行从 Finance and Operations 同步到 Sales。
+  - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - 需要支持通过数据实体进行从目标客户到现金的集成。
     
     > [!NOTE]
     > 安装修补程序后，您必须从 **SalesPopulateProspectToCash** 窗体触发以下批处理作业。 因为只需要一次，因此此窗体会隐藏。 若要访问此窗体，请登录环境，然后将以下信息添加到您的浏览器地址中的 URL：&mi=action:SalesPopulateProspectToCash，例如，`https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`。 打开窗体后，单击“确定”。 这将在 **SalesLine**、**SalesQuotationLine** 和 **CustInvoiceTrans** 表中使用唯一值填充新的 **LineCreationSequnceNumber** 字段，并刷新产品列表。 这是执行从目标客户到现金的集成所必需的。
@@ -85,19 +84,5 @@ ms.lasthandoff: 03/26/2018
 若要使用从目标客户到现金解决方案，必须安装以下组件：
 
 - Dynamics 365 for Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) 联机或更高版本
-- Dynamics 365 for Sales 版本 1.15.0.0 (v15) 的从目标客户到现金解决方案 
-
-### <a name="install-the-prospect-to-cash-solution-for-sales"></a>安装用于 Sales 的从目标客户到现金解决方案
-
-1. 从 CustomerSource 下载[用于 Dynamics 365 for Sales 的从目标客户到现金解决方案包 zip 文件](https://mbs.microsoft.com/customersource/Global/365Enterprise/downloads/product-releases/MD365FNOPENTProspectToCash)。
-2. 确保 zip 文件是否未锁定。 否则，在尝试安装解决方案包时，您可能会收到以下错误消息：“找不到导入包”。 若要解锁 zip 文件，右键单击文件，然后选择**属性**。 选择**解锁**。
-3. 解压缩和运行 **PackageDeployer.exe**。
-4. 在 Sales 实例中安装从目标客户到现金解决方案：
-
-    1. 选择 **Office 365** 作为部署类型。
-    2. 选择**显示高级**。
-    3. 对于快速安装，请选择一个区域。 如果您选择**不知道**，系统将搜索所有区域并且安装需要更长时间。
-    4. 输入具有安装权限的管理员用户的用户名和密码。
-
-
+- Dynamics 365 for Sales 版本 1.15.0.0 或更高版本的从目标客户到现金解决方案。 可从 AppSource 下载此解决方案。 [下载 Dynamics 365 从目标客户到现金](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)。
 

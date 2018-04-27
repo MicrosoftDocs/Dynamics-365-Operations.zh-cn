@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 6cd1e3a1f6b5c979a4f60d97cc2203cdcd32bbbe
-ms.openlocfilehash: 6de88b82c9a663bfe6d2756fde6f1a7412a44b1e
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="pay-based-on-registrations"></a>基于登记付薪
 
-[!include[banner](../includes/banner.md)]
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题详细说明如何基于工作人员登记计算付薪。 其中包含显示可用于计算的各种设置选项的组合如何影响结果的示例。 这是包括的一些区域：
 
@@ -198,7 +198,7 @@ ms.lasthandoff: 03/23/2018
 
 必须将切换代码定义为间接活动类型，切换代码才可以使用。 您随后必须将切换代码添加到要允许模板类型更改的期间的时间模板。 例如，按照以下步骤创建切换代码，以允许弹性+ 期间从上午 06:00 到上午 07:00 更改为加班时间。
 
-1. 创建名为 **OTBCI (在上班打卡前将弹性时间转换为加班时间)**的切换代码。 选择**考勤管理** &gt; **管理间接活动** &gt; **间接活动**。
+1. 创建名为 **OTBCI (在上班打卡前将弹性时间转换为加班时间)** 的切换代码。 选择**考勤管理** &gt; **管理间接活动** &gt; **间接活动**。
 2. 在**切换代码**列，将 OTBCI 添加到时间模板的弹性+ 行。
 3. 在**附属**列，添加**加班时间**模板类型。
 
@@ -446,7 +446,7 @@ ms.lasthandoff: 03/23/2018
 此作业基于查询。 因此，你可以为多个工作人员创建计划缺勤，例如属于同一个计算组的工作人员。 如果计划的缺勤是针对单个工作人员，登记可从**考勤管理**页或**时间登记工作人员**页输入。
 
 - 要从**考勤管理**页输入缺勤登记，请选择**考勤管理** &gt; **查询和报表** &gt; **出勤** &gt; **出勤**，然后选择**缺勤登记**。
-- 要从****时间登记工作人员****页面输入缺勤登记，请选择**考勤管理** &gt; **设置** &gt; **时间登记工作人员**，然后，在**时间**选项卡上，在**时间分配**下，选择**缺勤登记**。
+- 要从*<strong><em>时间登记工作人员</em></strong>* 页面输入缺勤登记，请选择<strong>考勤管理</strong> &gt; <strong>设置</strong> &gt; <strong>时间登记工作人员</strong>，然后，在<strong>时间</strong>选项卡上，在<strong>时间分配</strong>下，选择<strong>缺勤登记</strong>。
 
 您可以使用**计划缺勤**报表来查看工作人员的计划缺勤的概览。 若要打开此报表，请选择**考勤管理** &gt; **查询和报表** &gt; **缺勤表** &gt; **计划缺勤**。
 

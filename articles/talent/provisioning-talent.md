@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ba1a3a78d59f3aec91473ba9bb20bda4804ec92e
-ms.openlocfilehash: 0a43f5ff0987ede9f0cb80e5b4854f78e19e329b
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>配置 Microsoft Dynamics 365 for Talent
 
-[!include[banner](includes/banner.md)]
+[!INCLUDE [banner](includes/banner.md)]
 
 此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新生产环境。 此主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Talent。 如果您有已包括 Talent 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本主题中的步骤，请联系支持人员。
 
@@ -79,12 +79,12 @@ ms.lasthandoff: 03/23/2018
  
     **CDS 2.0 环境** CDS 2.0 将于 2018 年 3 月 21 日公开提供；不过，Talent 尚不支持 CDS 2.0。 尽管您可以在 PowerApps 管理员中心查看和创建 CDS 2.0 数据库，但它们不能在 Talent 中使用。 Talent 部署中的使用 2.0 CDS 环境选项将在以后提供。
    
- > [!Note]
- > 若要区分管理门户中的 CDS 1.0 和 2.0 环境，选择环境并查看**详细信息**。 CDS 2.0 环境全部参考“您可以在 Dynamics 365 管理中心管理这些设置”的事实，指向实例版本，并且没有“数据库”选项卡。 
+   > [!Note]
+   > 若要区分管理门户中的 CDS 1.0 和 2.0 环境，选择环境并查看**详细信息**。 CDS 2.0 环境全部参考“您可以在 Dynamics 365 管理中心管理这些设置”的事实，指向实例版本，并且没有“数据库”选项卡。 
  
    **默认 PowerApps 环境**虽然每个租户均自动配置为默认的 PowerApps 环境，但我们不建议在 Talent 中使用它们，因为所有租户用户均有权访问 PowerApps 环境，有可能会在使用 PowerApps 或流集成进行测试和探索时意外损坏生产数据。
    
-   **测试驱动器环境**具有类似“TestDrive – alias@domain”这样的名称的环境创建后有 60 天的到期期间，此时间过后，会导致您的环境自动删除。
+   <strong>测试驱动器环境</strong>具有类似“TestDrive – alias@domain”这样的名称的环境创建后有 60 天的到期期间，此时间过后，会导致您的环境自动删除。
    
    **不支持的地区**Talent 当前仅在以下地区受支持：美国、欧洲或澳大利亚。
   
@@ -115,7 +115,7 @@ ms.lasthandoff: 03/23/2018
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
     
-   **EnvironmentName** 应该替换为您的环境名称。 此名称将出现在 LCS 中，并且在用户选择要使用的 Talent 环境时可见。 
+   **MyNewEnvironment** 应该替换为您的环境名称。 此名称将出现在 LCS 中，并且在用户选择要使用的 Talent 环境时可见。 
 
    **YourLocation** 应替换为以下一个支持 Talent 的地区：美国、欧洲、澳大利亚。 
 

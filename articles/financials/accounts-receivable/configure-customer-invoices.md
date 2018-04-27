@@ -1,6 +1,6 @@
 ---
 title: "创建客户发票"
-description: "**销售订单的客户发票**是与销售相关的、组织提供给客户的单据。"
+description: "**“销售订单的客户发票”**是与销售相关的、组织提供给客户的单据。"
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
@@ -19,17 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0e5605b65b6203a50ef2fef81d032a887da32bf9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 **“销售订单的客户发票”**是与销售相关的、组织提供给客户的单据。 此类型的客户发票是基于销售订单创建的，其中包括订单行和物料编号。 在分类帐中指定和过帐物料编号。 子分类日志条目为销售订单的客户发票不可用。 有关详细信息，请参阅[创建销售订单发票](tasks/create-sales-order-invoices.md)。
 

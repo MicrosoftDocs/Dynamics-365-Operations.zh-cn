@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报从其他组件定义配置的依赖项 (ER)"
+title: "定义配置与其他组件之间的依赖关系"
 description: "若要完成这些步骤，首先必须完成任务指南“ER 管理模型映射配置”中的步骤，还必须可以访问 Microsoft Dynamics Lifecycle Services (LCS)。"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a1ccd440353e986d296de370506fb1951331e2cf
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: cbd65f0734f54ed497758faffb452e4f61ab2089
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="define-the-dependency-of-configurations-from-other-components-for-electronic-reporting-er"></a>针对电子申报从其他组件定义配置的依赖项 (ER)
+# <a name="define-the-dependency-of-configurations-from-other-components"></a>定义配置与其他组件之间的依赖关系 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 若要完成这些步骤，首先必须完成任务指南“ER 管理模型映射配置”中的步骤，还必须可以访问 Microsoft Dynamics Lifecycle Services (LCS)。
 

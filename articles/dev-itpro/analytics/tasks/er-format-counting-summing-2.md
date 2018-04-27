@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 配置计算以执行盘点和合计"
+title: "配置计算以执行盘点和合计"
 description: "以下步骤介绍指定为系统管理或电子申报开发人员角色的用户如何配置电子申报 (ER) 格式，以便基于已生成的文本输出的数据执行盘点和合计。"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f7b9035d8e7baf3c7ecb063b104b9a567be60840
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: d41ce101c0b038627e2baf6b5eac2410095af7ce
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="configure-computations-to-do-counting-and-summing-for-electronic-reporting-er"></a>针对电子申报 (ER) 配置计算以执行盘点和合计
+# <a name="configure-computations-to-do-counting-and-summing"></a>配置计算以执行盘点和合计
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤介绍指定为系统管理或电子申报开发人员角色的用户如何配置电子申报 (ER) 格式，以便基于已生成的文本输出的数据执行盘点和合计。 这些步骤可以在任何公司执行。
 

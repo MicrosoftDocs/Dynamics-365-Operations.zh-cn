@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 为数据模型做好在格式输出中使用票据管理文件的准备"
+title: "准备数据模型以在格式输出中使用票据管理文件"
 description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 5d224afd799306828a59e97f7f3bcd4cb831537c
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 9f99259056fab2d56d1ccf7487681c183551c64f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="prepare-data-model-to-use-document-management-files-in-format-outputs-for-electronic-reporting-er"></a>针对电子申报 (ER) 为数据模型做好在格式输出中使用票据管理文件的准备
+# <a name="prepare-data-model-to-use-document-management-files-in-format-outputs"></a>准备数据模型以在格式输出中使用票据管理文件
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。 这些步骤可以在任何公司执行。
 

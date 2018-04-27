@@ -19,17 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b5472d69f6d0bb7a60fb417a0d1bdc3fbc6a5e18
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="transportation-management-engines"></a>运输管理引擎
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 运输管理引擎定义用于生成和处理运输管理中的运输费率的逻辑。 
 
@@ -47,7 +46,7 @@ ms.lasthandoff: 11/03/2017
 | **区域引擎**                  | 计算出当前地址所在区域，并计算出为了从 A 地址到达 B 地址所需跨越的区域数量。                                                                                                                                                                    |
 | **货运帐单类型**            | 标准化货票和货运单线用于自动化货运单匹配。                                                                                                                                                                                                                |
 
- 
+
 <a name="what-engines-must-be-configured-to-rate-a-shipment"></a>必须配置什么引擎来评价一次装运？
 ---------------------------------------------------
 
@@ -60,13 +59,13 @@ ms.lasthandoff: 11/03/2017
 -   简单的配置数据。
 
 在大多数情况下，您可以单击运输管理引擎设置表单里的**参数**按钮配置初始化数据。 **引用里程引擎的费率引擎的配置示例**以下示例显示了费率引擎所需的设置，费率引擎是基于 .NET 引擎类型以及 Microsoft.Dynamics.Ax.Tms.Bll.MileageRateEngine 并引用了里程引擎。
-| 参数             | 描述                                                                                                                                                                                                                                                                                                                                                                      |
-|-----------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| *RateBaseAssigner*    | 它是表明在特定模式下的费率基数分配数据的 .NET 类型。 参数值的语法由两部分组成，它们被竖线 (|) 分割|。 第一部分包含定义了分配器类型的装配名。 第二部分定义了分配器类型的全称。 这包括类型的命名空间。 |
-| *MileageEngineCode*   | 里程引擎代码标识 Microsoft Dynamics 365 for Finance and Operations 数据库中的里程引擎记录。                                                                                                                                                                                                                                                             |
-| *ApportionmentEngine* | 通用引擎代码标识 Microsoft Dynamics 365 for Finance and Operations 数据库中的分摊引擎。                                                                                                                                                                                                                                                              |
 
- 
+|          参数           |                                                                                  描述                                                                                  |
+|------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|  <em>RateBaseAssigner</em>   | 它是表明在特定模式下的费率基数分配数据的 .NET 类型。 参数值的语法由两部分组成，它们被竖线 (|) 分割 |
+|  <em>MileageEngineCode</em>  |                       里程引擎代码标识 Microsoft Dynamics 365 for Finance and Operations 数据库中的里程引擎记录。                        |
+| <em>ApportionmentEngine</em> |                        通用引擎代码标识 Microsoft Dynamics 365 for Finance and Operations 数据库中的分摊引擎。                        |
+
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>元数据如何用在运输管理引擎？
 ----------------------------------------------------------
 
@@ -77,6 +76,7 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="do-all-engine-configurations-require-metadata"></a>是否所有引擎配置都需要元数据？
 不是这样，用于检索来自外部系统的费率计算所需数据的运输管理引擎不需要元数据。 这些引擎的费率数据可以从外部运输承运人系统检索，通常通过 Web 服务。 例如，可以使用直接从必应地图检索数据的里程引擎，这样您就无需此引擎的元数据。
+
 | **注意**                                                                                                                                                                                                                                                                                                                                                                     |
 |------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 和 Microsoft Dynamics Finance and Operations 一起传递的运输管理引擎依赖于从应用程序中检索的数据。 连接到外部系统的引擎不包含在 Operations 中。 但是，基于引擎的延伸性模型允许您使用 Microsoft Dynamics 365 for Finance and Operations Visual Studio 工具创建扩展。 |

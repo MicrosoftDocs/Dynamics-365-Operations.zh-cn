@@ -20,44 +20,43 @@ ms.author: asharchw
 ms.search.validFrom: 2017-09-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 4b7ef962b777a31e1da238a8ec1be9a42ec5bb5f
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2246024d7d70947690173f3d0768292abe43efd7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
+# <a name="manage-retail-product-categories-and-products"></a>管理零售产品类别和产品
 
-# <a name="enhanced-product-and-category-management"></a>增强的产品和类别管理
+[!INCLUDE [banner](./includes/banner.md)]
 
-[!include[banner](./includes/banner.md)]
+此主题介绍如何在 Microsoft Dynamics 365 for Retail 中通过改进的方法管理零售产品类别和产品。 这些改进使促销活动经理可以查看零售产品层次结构与已发布的产品详细信息之间共有的产品属性结构。
 
-此主题介绍如何在 Dynamics 365 for Retail 中通过改进的方法管理零售产品类别和产品。 这些改进使促销活动经理可以查看零售产品层次结构与已发布的产品详细信息之间共有产品属性的结构。
+若要了解有关如何管理零售产品类别的更多信息，请在**类别和产品管理**工作区中选择**零售产品层次结构**磁贴。
 
-若要了解如何配置零售产品类别的详细信息，请从**类别和产品管理**工作区转至**零售产品类别**，然后记下改进的**零售产品类别**页面结构。
+请注意显示的**零售产品层次结构**页的增强结构。 在以前的 Retail 版本中，产品属性基于其适用范围划分为*基本产品属性*和*零售产品属性*。 零售产品属性的适用范围为*全局*。 换言之，对于给定的零售产品属性，在所有法人之间共享相同的值。 比较而言，基本产品属性是*特定于法人的*。 换言之，对于给定基本产品属性，不同法人之间的值可能不同，具体取决于各法人各自的业务需求。
 
-![类别和产品管理工作区](media/LaunchRetailProductHierarchy.png)
+在改进的零售产品类别结构中，产品属性基于其在组中的适用性分隔，以反映已发布产品详细信息窗体结构的结构。
 
-在以前的版本中，产品属性基于其适用范围划分为**基本产品属性**和**零售产品属性**。 **零售产品类别**按范围来说是*全局的*，也就是说，对于给定**零售产品属性**，所有法人共用一个值。 **基本产品属性**是*特定于法人的*。 换言之，对于给定**基本产品属性**，基于各个业务需求，不同法人之间的值可能不同。
+![基于属性适用范围分组的字段](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
 
-在改进的零售产品类别结构中，产品属性基于其在组中的适用性分隔，以反映已发布产品详细信息窗体结构。
+您可以在跨所有法人管理法人特定属性与针对特定法人进行管理之间进行切换。
 
-![基于适用范围为字段分组](media/NoticeGroupingOfFieldsBasedOnTheirScope.PNG)
+若要管理所有法人的属性，请选择**查看所有法人**（或 **编辑所有法人**）。
 
-您可以在跨所有法人管理法人特定属性与针对特定法人进行管理之间进行切换。 方法是，选择**查看/编辑所有法人**或**查看/编辑特定法人**。
+![查看/编辑所有法人](media/ToggleBackToEditForSpecificLegalEntity.PNG)
 
-![在单个法人与所有法人之间切换视图](media/ToggleBackToEditForSpecificLegalEntity.PNG)
+若要管理特定法人的属性，请选择**查看特定法人**（或**编辑特定法人**）。
 
-![在单个法人与所有法人之间切换视图](media/ToggleToEditForAllLegalEntities.PNG)  
+![查看/编辑特定法人](media/ToggleToEditForAllLegalEntities.PNG)
 
-与以前的版本相比，在新版零售产品类别结构中，促销活动经理还可以在单个类别级别再为一组产品属性定义默认值。 创建产品时，产品将基于这些默认产品属性与零售产品层次结构中单个类别之间的关联继承这些产品属性。 还可以可以对每个产品修改这些继承的产品属性，以满足单独的业务要求。
+此外，在增强的零售产品类别结构中，促销活动经理现在可以在单个类别级别再为一组产品属性定义默认值。 然后，创建产品时，产品将根据其产品属性与零售产品层次结构中的单个类别的关联，继承这些属性的默认值。 还可以针对每个产品修改这些继承的产品属性，以满足单独的业务要求。
 
-## <a name="select-properties-to-update-products-from-the-retail-product-category-form"></a>从零售产品类别窗体中选择要更新产品的属性。 
- 
-可使用这个新改进的产品属性结构选择必须将哪些更新的产品属性推送到关联的产品。 
+## <a name="selecting-properties-to-update-products-on-the-retail-product-hierarchy-page"></a>在零售产品层次结构页中选择要更新产品的属性。
 
-![新改进的更新产品视图](media/NewUpdateProductsEnhancedView.PNG) 
+可使用这个新改进的产品属性结构选择必须将哪些更新的产品属性推送到关联的产品。 在**零售产品层次结构**页上的操作窗格中，选择**类别**，然后选择**更新产品**以打开**更新产品**对话框。
 
-促销活动经理可以对每个产品修改这些继承的产品属性，以满足单独的业务要求。
+![“更新产品”对话框](media/NewUpdateProductsEnhancedView.PNG)
 
 

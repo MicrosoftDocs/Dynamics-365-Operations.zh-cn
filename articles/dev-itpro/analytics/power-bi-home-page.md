@@ -3,7 +3,7 @@ title: "Power BI 内容"
 description: "此主题列出可用的 Power BI 内容并向您指示可用来了解详细信息的资源。"
 author: sericks007
 manager: AnnBe
-ms.date: 02/22/2018
+ms.date: 04/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -11,7 +11,7 @@ ms.technology:
 ms.search.form: PowerBIPbixDeployForm
 audience: Application User, IT Pro
 ms.reviewer: sericks
-ms.search.scope: Operations
+ms.search.scope: Operations, Core
 ms.custom: 265694
 ms.assetid: 0095a7cf-8cc9-41f6-bf00-b59868fa6ea2
 ms.search.region: Global
@@ -19,16 +19,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 99eece7b31034065694f8875c72eb2360088ec23
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="power-bi-content"></a>Power BI 内容
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 此主题列出可用的 Microsoft Power BI 内容并向您指示可用来了解详细信息的资源。
 
@@ -41,6 +40,7 @@ ms.lasthandoff: 03/26/2018
 - [CFO 概览 Power BI 内容](CFO-power-bi.md)
 - [薪酬 Power BI 内容](compensation-power-bi.md)
 - [成本核算分析 Power BI 内容](cost-accounting-analysis-content-pack.md) 
+- [成本管理 Power BI 内容](cost-management-content-pack.md)    
 - [信用和收款管理 Power BI 内容](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [员工发展 Power BI 内容](employee-development-PBI.md) 
 - [财务见解 Power BI 内容](financial-insights.md)

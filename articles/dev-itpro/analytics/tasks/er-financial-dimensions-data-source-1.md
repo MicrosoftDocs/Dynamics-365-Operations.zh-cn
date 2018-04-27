@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 将数据模型设计为使用财务维度作为数据源"
+title: "设计数据模型以将财务维度用作数据源"
 description: "以下步骤说明系统管理员或电子申报开发人员可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。"
 author: NickSelin
 manager: AnnBe
@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: d8a03c4b85666975a7b42d46f3afdd35019e9b93
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 3e55eedba1955ae79733afee1a0b3c7072147bb5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 04/13/2018
 
 ---
-# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source-for-electronic-reporting-er"></a>针对电子申报 (ER) 将数据模型设计为使用财务维度作为数据源
+# <a name="design-data-model-to-use-financial-dimensions-as-a-data-source"></a>设计数据模型以将财务维度用作数据源 
 
-[!include[task guide banner](../../includes/task-guide-banner.md)]
+[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明系统管理员或电子申报开发人员可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。 这些步骤可以在任何公司执行。
 

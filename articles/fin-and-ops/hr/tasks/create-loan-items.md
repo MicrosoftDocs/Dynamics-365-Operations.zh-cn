@@ -16,10 +16,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 950237499441e7f1d5b9e3355c4bd9513ad3783e
-ms.openlocfilehash: aa5824a7a56136b6d09860f2ff493359dbeab9f9
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 429b33366ab9ab705a0f31cb9659f58b41689152
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
+ms.lasthandoff: 04/13/2018
 
 ---
 # <a name="create-loan-items"></a>创建借出物品

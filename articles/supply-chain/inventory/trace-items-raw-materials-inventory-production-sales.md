@@ -19,17 +19,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 98f5696cd6a279bdf0f8d9026a74e5a9bccd2f13
+ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
+ms.openlocfilehash: 60edc05bb45db973eb2e16dd833015c9a4873918
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 04/13/2018
 
 ---
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>库存、生产和销售中的物料和原材料跟踪
 
-[!include[banner](../includes/banner.md)]
-
+[!INCLUDE [banner](../includes/banner.md)]
 
 本主题介绍如何使用物料跟踪来确定物料或原材料被用在了何处、正在被何处使用或者将被运用于生产和销售流程中的哪个环节。
 
@@ -129,7 +128,7 @@ ms.lasthandoff: 03/09/2018
 在 Microsoft Dynamics AX 的当前版本中，如果您要使用“**新建反向跟踪**”或“**新建正向跟踪**”选项，则必须使用“**在新窗口中打开**”功能让新跟踪显示在新窗口中。
 
 ## <a name="can-i-save-the-trace-details"></a>可不可以保存跟踪详细信息？
-您可以通过在 ****操作**** 窗格上的跟踪操作下单击**导出**将**详细信息**选项卡上的信息另存为 XML 文件。 除了跟踪详细信息之外，XML 文件还包括跟踪标准、母节点和现有数量。 保存跟踪的详细信息的功能很有用，例如，如果您要附加信息至质检订单或其他符合性文档。 您可以指定该文件的保存位置。 若要立刻查看文件，请选中**显示文档**选项。 **注意：**即使您只想查看它，该文件始终被保存。 默认情况下，XML 文档在浏览器窗口中打开。 但是，您可以通过右键单击该文件，选择**打开方式**，然后选择用于显示内容的程序将来更改。
+您可以通过在“操作”窗格上的*<strong><em>跟踪</em></strong>* 操作下单击<strong>导出</strong>将<strong>详细信息</strong>选项卡上的信息另存为 XML 文件。 除了跟踪详细信息之外，XML 文件还包括跟踪标准、母节点和现有数量。 保存跟踪的详细信息的功能很有用，例如，如果您要附加信息至质检订单或其他符合性文档。 您可以指定该文件的保存位置。 若要立刻查看文件，请选中<strong>显示文档</strong>选项。 <strong>注意：</strong>即使您只想查看它，该文件始终被保存。 默认情况下，XML 文档在浏览器窗口中打开。 但是，您可以通过右键单击该文件，选择<strong>打开方式</strong>，然后选择用于显示内容的程序将来更改。
 
 ## <a name="can-i-calculate-a-balance-for-a-particular-item-or-ingredient"></a>可不可以计算某一物料或成分的余量？
 您可以从汇总页面导出信息至 Microsoft Excel。 打开相关页，单击**在 Microsoft Office 中打开**图标，然后选择**导出到 Microsoft Excel**。 当您要从**交易记录汇总**页中计算物料或成分的大批余量时，此功能尤其有用。 在**交易记录汇总**页中，您可筛选物料或成分，或者在批处理中，将信息导出到 Excel。 在 Excel 中，您可以（例如）将现有数量、所售出的数量以及在生产中使用的数量区分开来。
