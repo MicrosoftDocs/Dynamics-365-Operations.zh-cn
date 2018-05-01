@@ -3,12 +3,12 @@ title: "BOM 计算"
 description: "成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 此主题提供了有关物料清单计算的信息。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/10/2017
+ms.date: 05/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice, SalesQuotationTable, SalesTable, SMAServiceOrderTable
+ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
