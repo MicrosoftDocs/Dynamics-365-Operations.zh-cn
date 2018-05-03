@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ac3c55ac56c800f6f4e8e593cce7fe0874d99a5d
+ms.sourcegitcommit: 69b9c5590e6f9311696bbbed2e63a6eeba2a90bf
+ms.openlocfilehash: 3f527911183a6e9b335f30d472ff57144e6a5aff
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/03/2018
 
 ---
 
@@ -57,8 +57,8 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="5c016-127">如果要求供应商提供回复的第二个迭代，则选择**询价回复**页的**返回**。</span><span class="sxs-lookup"><span data-stu-id="5c016-127">If a second iteration of a reply from a vendor is required, select **Return** on the **Request for quotation** page.</span></span> <span data-ttu-id="5c016-128">“返回”操作根据您的打印设置生成要打印、存档和发送的新日记帐和报表。</span><span class="sxs-lookup"><span data-stu-id="5c016-128">The Return action generates a new journal and a report that will be printed, archived, and sent according to your Printing settings.</span></span>
 
-[!NOTE]
-<span data-ttu-id="5c016-129">已更改了**询价**页的名称。</span><span class="sxs-lookup"><span data-stu-id="5c016-129">The name of the **Request for quotation** page has been changed.</span></span> <span data-ttu-id="5c016-130">在 Dynamics 365 for Finance and Operations 早期版本中，此页称为**询价回复**。</span><span class="sxs-lookup"><span data-stu-id="5c016-130">In earlier releases of Dynamics 365 for Finance and Operations, this page is called **Request for quotations reply**.</span></span>
+> [!NOTE]
+> <span data-ttu-id="5c016-129">已更改了**询价**页的名称。</span><span class="sxs-lookup"><span data-stu-id="5c016-129">The name of the **Request for quotation** page has been changed.</span></span> <span data-ttu-id="5c016-130">在 Dynamics 365 for Finance and Operations 早期版本中，此页称为**询价回复**。</span><span class="sxs-lookup"><span data-stu-id="5c016-130">In earlier releases of Dynamics 365 for Finance and Operations, this page is called **Request for quotations reply**.</span></span>
 
 <span data-ttu-id="5c016-131">如果您已添加了计分条件到您的询价案例，询价将具有您可以输入分数的计分面板。</span><span class="sxs-lookup"><span data-stu-id="5c016-131">If you added scoring criteria to your RFQ case, the RFQ will have a scoring panel where you can enter the scores.</span></span> <span data-ttu-id="5c016-132">当您在**比较回复**页上比较回复时，询价将显示总分数。</span><span class="sxs-lookup"><span data-stu-id="5c016-132">The total scores will appear on the RFQ and when you compare the replies on the **Compare replies** page.</span></span> <span data-ttu-id="5c016-133">在**比较回复**页上，您还可以比较其他回复数据，例如行价格、交货日期和总价。</span><span class="sxs-lookup"><span data-stu-id="5c016-133">On the **Compare replies** page, you can also compare other reply data, such as the line price, delivery date, and total price.</span></span>
 
@@ -126,8 +126,8 @@ ms.lasthandoff: 04/13/2018
 
 <span data-ttu-id="5c016-187">在采购中的**窗体设置**页上，可以配置打印的或已存储的询价文档的外观。</span><span class="sxs-lookup"><span data-stu-id="5c016-187">On the **Form setup** page in Procurement and sourcing, you can configure the appearance of your printed or stored RFQ documents.</span></span>
 
-[!NOTE]
-<span data-ttu-id="5c016-188">对于公共部门配置，必须使用改正流程对已发送的询价进行更改。</span><span class="sxs-lookup"><span data-stu-id="5c016-188">For a public-sector configuration, you must use the amendment process to change an RFQ that has already been sent.</span></span> <span data-ttu-id="5c016-189">当发送询价时，字段被锁定。</span><span class="sxs-lookup"><span data-stu-id="5c016-189">When an RFQ is sent, fields are locked.</span></span>
+> [!NOTE]
+> <span data-ttu-id="5c016-188">对于公共部门配置，必须使用改正流程对已发送的询价进行更改。</span><span class="sxs-lookup"><span data-stu-id="5c016-188">For a public-sector configuration, you must use the amendment process to change an RFQ that has already been sent.</span></span> <span data-ttu-id="5c016-189">当发送询价时，字段被锁定。</span><span class="sxs-lookup"><span data-stu-id="5c016-189">When an RFQ is sent, fields are locked.</span></span>
 <span data-ttu-id="5c016-190">因此，要对询价进行更改，必须选择**创建**以启动改正流程，如前文所述。</span><span class="sxs-lookup"><span data-stu-id="5c016-190">Therefore, to make changes to the RFQ, you must select **Create** to start the amendment process, as described earlier.</span></span> <span data-ttu-id="5c016-191">锁定行为由**采购参数**页上的**发送询价时将其锁定**选项控制。</span><span class="sxs-lookup"><span data-stu-id="5c016-191">The locking behavior is controlled by the **Lock RFQ when they are sent** option on the **Procurement and sourcing parameters** page.</span></span> <span data-ttu-id="5c016-192">默认情况下，此参数设置为**是**，并且对于公共部门配置，无法更改该默认设置。</span><span class="sxs-lookup"><span data-stu-id="5c016-192">By default, this parameter is set to **Yes**, and for a public-sector configuration, the default setting can't be changed.</span></span> <span data-ttu-id="5c016-193">因此，尽管在非公共部门配置中可以手动处理改正流程，但它必须用于公共部门配置。</span><span class="sxs-lookup"><span data-stu-id="5c016-193">Therefore, although the amendment process can be handled manually in a non-public-sector configuration, it must be used for a public-sector configuration.</span></span>
 
 <span data-ttu-id="5c016-194">创建采购订单类型的询价案例并将库存物料添加到询价时，将生成一个收货状态为**报价单接收**的库存交易记录。</span><span class="sxs-lookup"><span data-stu-id="5c016-194">When you create an RFQ case of the type Purchase order and add an inventory item to the RFQ, an inventory transaction is generated that has a receipt status of **Quotation receipt**.</span></span> <span data-ttu-id="5c016-195">在使用主计划计算供应时，只考虑具有此状态的询价案例行。</span><span class="sxs-lookup"><span data-stu-id="5c016-195">Only RFQ case lines that have this status are considered when you use a master plan to calculate supplies.</span></span> <span data-ttu-id="5c016-196">如果您希望主计划包括询价案例行作为预期收货，您必须在主计划设置中配置此行为。</span><span class="sxs-lookup"><span data-stu-id="5c016-196">If you want the master plan to include RFQ case lines as an expected receipt, you must configure this behavior in the setup of master planning.</span></span>
