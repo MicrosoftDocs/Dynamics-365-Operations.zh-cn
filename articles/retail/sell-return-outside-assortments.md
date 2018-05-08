@@ -28,7 +28,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="sell-and-return-products-outside-of-an-assortment"></a>销售和退回不属此类的产品
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 对于任何零售商的一个常见方案是将产品销售给他们的客户或接受客户的退货，即使他们在商店并不存放特定的产品（换言之，该产品未分类到商店）。
 下面是一些典型方案：

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="bom-calculations-groups"></a>物料清单计算组
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供有关物料清单 (BOM) 的计算组以及如何设置它们的信息。 若要运行物料清单计算，您必须设置计算组并将它们分配到各个物料，或设置默认计算组。 然后，计算组的计算设置在物料清单计算时用作物料清单计算页的默认值。 
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="category-pricing-rules-to-create-trade-agreements"></a>创建贸易协议使用的类别定价规则
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 该过程说明了如何使用分类价格规则创建销售价格贸易协议。 创建此任务的演示数据公司是 USRT。 此任务目的在于供零售推销经理角色使用。
 

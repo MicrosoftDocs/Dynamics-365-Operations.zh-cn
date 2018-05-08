@@ -29,7 +29,7 @@ ms.lasthandoff: 02/06/2018
 
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>使用仓库配置模板设置仓库
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题介绍如何使用仓库配置模板设置仓库。 有多个预定义的配置模板可供使用。 有关如何使用这些模板的信息，请参阅[配置数据模板](../../dev-itpro/data-entities/configuration-data-templates.md)。
 

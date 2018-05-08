@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>维护员工伤害和疾病信息
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 建议首先完成“设置伤害和疾病”任务指南，因为此处使用这些设置信息中的一部分。 
 

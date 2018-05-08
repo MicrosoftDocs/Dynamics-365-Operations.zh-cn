@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-depreciation-proposal"></a>创建折旧方案
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 本程序描述了批处理折旧方案的工作原理，并说明了如何为固定资产建议折旧方案。 此任务使用 USMF 演示公司和会计角色。
 

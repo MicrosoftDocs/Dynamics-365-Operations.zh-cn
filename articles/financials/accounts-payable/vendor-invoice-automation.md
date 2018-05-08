@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="vendor-invoice-automation"></a>供应商发票自动化
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 

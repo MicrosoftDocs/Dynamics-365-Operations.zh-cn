@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的销售报价单标头和行直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="estimate-a-production-order"></a>估计生产订单
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 您可以使用演示数据公司 USMF 或使用您自己的数据运行该过程。 在这两种情况下，您需要有一个状态为“已创建”的未结生产订单。 这是解释生产订单周期的七个步骤中的第二步。
 

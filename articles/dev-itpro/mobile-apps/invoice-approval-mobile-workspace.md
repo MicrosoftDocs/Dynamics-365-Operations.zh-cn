@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="invoice-approvals-mobile-workspace"></a>发票审核移动工作区
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题提供有关**发票审核**移动工作区的信息。 此工作区提供通过供应商发票抬头工作流程分配给您的发票的列表。 
 

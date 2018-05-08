@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-cost-accrual-on-purchase-receipts"></a>采购收据中的应计项目成本
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中跟踪采购收据内的应计项目成本。 
 

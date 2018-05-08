@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="balanced-journals-for-interunit-accounting"></a>平衡单位间核算的日记帐
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文显示当在分类帐页中选择平衡财务维度时日记帐如何自动平衡。 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="release-a-dimension-based-product-master"></a>发布基于维度的基础产品
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会显示如何发布基础物料（将被用于基于维度的配置）。 创建此程序的演示数据公司是 USMF。 先决条件是您已使用基于维度的配置技术创建了某一基础物料。 这是八个过程中第二个说明如何构建基于维度的配置组合的过程。
 

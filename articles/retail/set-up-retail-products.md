@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-retail-products"></a>设置零售产品
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本文介绍如何在 Microsoft Dynamics 365 for Retail 中设置零售产品。
 

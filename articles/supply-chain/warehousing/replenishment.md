@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="replenishment"></a>补货
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题介绍可用于使用仓库管理提供功能的仓库的补货策略。 此主题中的信息不适用于可用于库存管理的仓库解决方案。
 

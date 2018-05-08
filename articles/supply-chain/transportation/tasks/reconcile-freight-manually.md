@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="reconcile-freight-manually"></a>对货运进行手动对帐
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何手动对帐货运。 这通常由运输协调员完成。 您可以在 USMF 演示数据公司中使用此过程。
 

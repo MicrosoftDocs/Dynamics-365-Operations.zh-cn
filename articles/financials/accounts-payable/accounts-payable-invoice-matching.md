@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="accounts-payable-invoice-matching"></a>应付账款发票匹配
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 应付账款发票匹配是匹配供应商发票、采购订单和装箱单信息的一个流程。
 

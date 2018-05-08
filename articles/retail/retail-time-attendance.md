@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="retail-time-and-attendance"></a>零售考勤管理
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 此主题介绍 Microsoft Dynamics 365 for Retail 中零售工时和出勤管理支持的方案。 
 

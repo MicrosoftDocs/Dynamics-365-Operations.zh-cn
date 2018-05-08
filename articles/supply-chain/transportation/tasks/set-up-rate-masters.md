@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-rate-masters"></a>设置费率主数据
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何设置费率主数据。 物流经理通常根据与承运人签订的合同设置费率主数据。 在此场景中，您将设置航空承运人的费率主数据。 创建此程序的演示数据公司是 USMF。
 

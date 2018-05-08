@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>使用可变权重将变型产品添加到采购订单
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何使用变型权重，自动填充每个产品变型的采购订单行。 在您选择您想要购买的产品数量时，基于产品变型的配置权重为所有产品变型创建采购订单行，且随附数量建议。 此程序不包括配置产品维度和产品变型的权重值的步骤。 此程序使用 USRT 演示数据公司。
 

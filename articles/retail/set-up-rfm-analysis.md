@@ -29,7 +29,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="set-up-rfm-analysis"></a>设置 RFM 分析
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本主题解释了如何设置客户的 Recency、频率和货币 (RFM) 分析。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-a-product-configuration-model"></a>审核产品配置模型
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程的运行要求至少有一个产品配置模型可用。 该过程使用演示数据公司 USMF 的高端扬声器模型。 请注意，此模型已通过审核，但该过程将向您介绍完整流程。
 

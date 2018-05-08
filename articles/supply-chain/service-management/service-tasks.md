@@ -28,7 +28,7 @@ ms.lasthandoff: 02/21/2018
 
 # <a name="service-tasks"></a>服务任务  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 使用服务任务可以描述要在服务订单期间完成的任务。
 技术人员和客户都可以看到此信息。

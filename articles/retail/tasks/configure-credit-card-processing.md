@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="configure-credit-card-processing"></a>配置信用卡处理
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何查看付款提供商列表，以及如何配置应收账款的付款帐户。 此程序使用 USRT 演示数据公司，且旨在面向管理员和 IT 专业人员。
 

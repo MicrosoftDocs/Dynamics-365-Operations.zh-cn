@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-online-channels-and-define-channel-attributes"></a>创建在线渠道并定义渠道属性
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。 在创建新的在线渠道之前，您必须创建组织层次结构。 此程序使用 USRT 演示数据公司。
 

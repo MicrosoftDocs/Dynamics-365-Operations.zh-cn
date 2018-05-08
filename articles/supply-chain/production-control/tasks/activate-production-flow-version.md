@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="activate-a-production-flow-version"></a>启用生产流版本
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 应先启用生产流版本，才能为该版本创建看板作业和处理活动。 最佳实践是，在版本的生效开始日期和时间到期前启用此版本。 要完成这项任务，您必须有状态为“草稿”的生产流版本以启用该版本。 
 

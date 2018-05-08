@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="payment-methods"></a>付款方式
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 设置系统时，必须配置零售商接受的每种付款类型。 本文介绍您可设置的付款类型并介绍设置它们的流程。
 

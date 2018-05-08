@@ -24,7 +24,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="set-up-sales-commission-rules"></a>设置销售佣金规则
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程显示如何设置和启用销售佣金计算和跟踪。 该过程显示如何创建客户和物料佣金组，以及如何链接选定客户和产品到各个组中。 这些组将用于佣金计算设置中，以创建客户、物料和销售代表组合，这必须与销售订单匹配，以使销售人员有权获得佣金。 客户和物料佣金组的创建为可选项，因为还可为单个客户和/或物料计算佣金。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。
 

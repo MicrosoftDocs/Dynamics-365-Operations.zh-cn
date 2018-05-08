@@ -27,7 +27,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="vendor-payments-workspace"></a>供应商付款工作区
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **供应商付款**工作区显示与处理供应商付款有关的信息。 该工作区包括一个**我的工作**视图和一个**分析**页。 **我的工作**视图显示汇总磁贴、供应商交易记录网格和相关供应商信息。 **分析**页使用 Microsoft Power BI 的功能显示与供应商付款相关的视觉对象。
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 12/14/2017
 
 ### <a name="related-information"></a>相关信息
 
-您可以使用工作区的**相关信息**部分中的链接查看**供应商帐龄**报表和**付款汇总(按日期)**报表。
+您可以使用工作区的**相关信息**部分中的链接查看**供应商帐龄**报表和**付款汇总(按日期)** 报表。
 
 ## <a name="analytics-page"></a>分析页
 

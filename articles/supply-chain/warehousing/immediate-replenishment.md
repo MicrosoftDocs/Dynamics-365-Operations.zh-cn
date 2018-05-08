@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="immediate-replenishment"></a>即时补货
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 位置指令行无法分配库存时，可立即通过即时补货为库存补货。 这种补货基于位置指令设置中的一行。 如果库存现货的度量单位不是该行指定的度量单位，将立即使用该度量单位补货。
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="keyboard-shortcuts"></a>键盘快捷方式
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 以下键盘快捷方式在整个 Dynamics 365 for Finance and Operations 中都适用。 
 

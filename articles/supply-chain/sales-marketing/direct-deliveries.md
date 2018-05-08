@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="direct-deliveries"></a>直接交货
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供有关直接交运的信息。 直接交运是直接从供应商发送到您的客户的交货。
 

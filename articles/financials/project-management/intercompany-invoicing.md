@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="intercompany-invoicing"></a>内部公司开票
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供 Microsoft Dynamics 365 for Finance and Operations 中项目的公司内部开票的信息和示例。
 

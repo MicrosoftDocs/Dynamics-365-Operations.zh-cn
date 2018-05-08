@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="analyze-questionnaire-results"></a>分析调查表结果
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 调查表统计可用于计算平均数、总数和基于人口统计数据的百分比。 若要启动此过程，请转到“调查表”>“查看和分析结果”>“调查表统计”。 创建此程序的演示数据公司是 USMF。
 

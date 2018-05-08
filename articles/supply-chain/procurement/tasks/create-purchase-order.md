@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order"></a>创建采购订单
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程说明如何手动创建采购订单。 作为主计划、直接交运和其他流程的结果自动创建对于采购订单更为典型。 采购订单通常由采购代理创建。 此处显示的示例可以在使用各步骤的注释建议的值的 USMF 演示数据公司使用。
 

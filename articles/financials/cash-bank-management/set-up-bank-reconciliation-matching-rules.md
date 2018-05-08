@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="set-up-bank-reconciliation-matching-rules"></a>设置银行对帐匹配规则
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。
 

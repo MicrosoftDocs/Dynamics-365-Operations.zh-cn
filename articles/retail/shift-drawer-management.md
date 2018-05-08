@@ -29,7 +29,7 @@ ms.lasthandoff: 03/22/2018
 
 # <a name="shift-and-cash-drawer-management"></a>班次和银箱管理
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本文介绍了如何设置和使用两种类型的零售销售点 (POS) 班次 - 共享和独立。 共享班次可由多个用户在多个位置使用，而独立班次一次只能由一个工作人员使用。
 

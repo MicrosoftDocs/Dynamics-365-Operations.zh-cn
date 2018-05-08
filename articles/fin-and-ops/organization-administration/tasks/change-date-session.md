@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="change-the-date-for-the-session"></a>更改会话日期
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 默认情况下，在输入和过账日志条目或原始凭证时使用当前日期。 您可以更改用于当前会话的日期。 可根据需要使用此功能回溯日志条目或原始凭证。
 

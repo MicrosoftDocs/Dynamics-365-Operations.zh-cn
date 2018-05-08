@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="data-import-and-export-jobs"></a>数据导入和导出作业
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 要在 Microsoft Dynamics 365 for Finance and Operations 中创建和管理数据导入和导出作业，请使用**数据管理**工作区。 默认情况下，数据导入和导出流程为目标数据库中的每个实体创建一个暂存表。 通过暂存表可以在移动数据之前验证、清理或转换数据。
 

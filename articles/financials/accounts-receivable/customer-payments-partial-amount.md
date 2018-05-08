@@ -28,7 +28,7 @@ ms.lasthandoff: 01/17/2018
 
 # <a name="customer-payments-for-a-partial-amount"></a>部分金额的客户付款
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 有时客户付款低于的发票金额。 本文介绍处理此情况不同的选项。 可供您使用的选项取决于您的业务要求和配置。
 

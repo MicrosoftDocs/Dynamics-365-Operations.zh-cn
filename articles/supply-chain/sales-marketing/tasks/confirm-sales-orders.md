@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="confirm-sales-orders"></a>确认销售订单
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程说明了如何确认销售订单。 将会向您显示如何确认单个订单，以及如何一次确认多个订单。 这些任务通常由销售订单处理员完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 在您开始前，确保同一客户的若干未结销售订单可用。 如果您正在使用 USMF，您可以使用客户 US-027。
 

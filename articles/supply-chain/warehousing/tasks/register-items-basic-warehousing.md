@@ -25,7 +25,7 @@ ms.lasthandoff: 11/01/2017
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-arrival-journal"></a>使用物料到达日记帐登记启用了基本仓库的物料
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程说明了在库存管理模块中使用“基本仓库”时如何使用物料到达日记帐登记物料。 这将通常由一个收料员完成。 您可以使用所示的示例值运行 USMF 公司演示数据的过程。  如果您没有使用 USMF，则在开始本指南前，您需要使用未结采购订单行以确认采购订单。 该行上的物料必须进行存储，并且不可使用产品变型，亦不能具有跟踪维度。 而且物料需与存储维度组进行关联，其站点和仓库是有效的。
 

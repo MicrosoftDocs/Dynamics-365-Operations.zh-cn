@@ -28,7 +28,7 @@ ms.lasthandoff: 02/20/2018
 
 # <a name="service-intervals"></a>服务间隔
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 服务协议间隔指示在您自动创建服务订单时为服务协议行创建服务订单行所采用的频率。
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="depreciation-book-upgrade-overview"></a>折旧帐簿升级概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。 
 
@@ -62,17 +62,17 @@ ms.lasthandoff: 11/03/2017
 参数位于 ReleaseUpdateDB70\_FixedAssetJournalDepBookRemovalDepBookJournalTrans 类的开头。 
 
 *// 指定凭证分配的首选方法* 
-*// true，如果您要使用现有的编号规则代码* 
-*// false，如果您要使用系统定义的编号规则（默认）* const boolean NumberSequenceUseExistingCode = false;  
+ *// true，如果您要使用现有的编号规则代码* 
+ *// false，如果您要使用系统定义的编号规则（默认）* const boolean NumberSequenceUseExistingCode = false;  
 
 *// 如果使用系统定义的编号规则方法，则指定编号规则的参数。*
-*// 将使用这些参数创建新的编号规则。* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
+ *// 将使用这些参数创建新的编号规则。* const str NumberSequenceDefaultCode = 'FADBUpgr'; const str NumberSequenceDefaultParameterPrefix = 'FADBUpgr'; const int NumberSequenceDefaultParameterAlpanumericLength = 9; const int NumberSequenceDefaultParameterStartNumber = 1;   
 
 *// 如果使用现有编号规则方法，则指定现有的编号规则代码。* 
-*// 将对现有的编号规则逐行进行凭证分配。* const str NumberSequenceExistingCode = ''; *// 指定现有编号规则代码的作用域* 
-*// true，如果指定的编号规则为共享* 
-*// false，如果指定的编号规则为针对特定公司* 
-*// 如果未找到具有指定作用域的编号规则代码，将使用默认的系统定义的编号规则。* const boolean NumberSequenceExistingIsShared = true; 
+ *// 将对现有的编号规则逐行进行凭证分配。* const str NumberSequenceExistingCode = ''; *// 指定现有编号规则代码的作用域* 
+ *// true，如果指定的编号规则为共享* 
+ *// false，如果指定的编号规则为针对特定公司* 
+ *// 如果未找到具有指定作用域的编号规则代码，将使用默认的系统定义的编号规则。* const boolean NumberSequenceExistingIsShared = true; 
 
 修改常量后重新构建含有类的项目。 
 

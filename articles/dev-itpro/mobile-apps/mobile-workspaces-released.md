@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-workspaces"></a>移动工作区
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题列出了可与 Microsoft Dynamics 365 for Unified Operations 移动应用配合使用的移动工作区。
 

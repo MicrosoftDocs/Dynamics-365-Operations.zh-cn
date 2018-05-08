@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="assess-sales-performance-by-product"></a>按产品评估销售业绩
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 您可以使用 Microsoft Dynamics 365 for Retail 研究排名前 10 位的产品的收益率。 
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 您可使用现金和银行管理来维护法人的银行帐户以及与这些银行帐户关联的财务票据。 
 

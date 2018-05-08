@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>管理成本核算分类帐的数据源
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程用于管理成本核算分类帐的总帐数据源。 完成此任务之前，确保播放“创建成本核算分类帐”和“定义成本控制单元”任务指南。 此录制使用 USP2 演示数据公司。
 

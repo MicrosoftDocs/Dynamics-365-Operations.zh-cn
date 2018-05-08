@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="electronic-signature-overview"></a>电子签名概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Finance and Operations 中使用它们。
 

@@ -26,11 +26,11 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>Dynamics 365 for Retail 的新增功能或变更功能
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Retail 最新版本的新功能和变更功能的资源。
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="releases-of-dynamics-365-for-retail"></a>Dynamics 365 for Retail 的版本
 

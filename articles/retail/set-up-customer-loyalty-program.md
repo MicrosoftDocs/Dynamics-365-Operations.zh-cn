@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-a-customer-loyalty-program"></a>设置客户会员计划
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本文介绍如何设置会员计划。 通过奖励购买您零售店产品的客户，会员计划有助于增加客户忠诚度。 在 Microsoft Dynamics 365 for Retail 中，您可以在所有零售渠道设置简单或复杂的应用于整个法人实体的会员计划。
 

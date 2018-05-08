@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-loyalty-reward-points"></a>定义会员奖励分
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何定义会员奖励积分。 在设置会员计划之前，您应设置会员奖励积分。 此程序使用 USRT 演示数据公司。
 

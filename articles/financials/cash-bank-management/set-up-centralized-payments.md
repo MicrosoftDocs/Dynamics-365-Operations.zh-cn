@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-centralized-payments"></a>设置集中的付款
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 按照以下步骤可以代表您的组织中的其他法人准备一个法人的处理付款。 在您开始前，必须完成以下设置：
 

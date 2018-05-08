@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="set-up-assortments"></a>设置分类
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本主题介绍 Microsoft Dynamics 365 for Retail 中的分类并说明如何设置分类。
 

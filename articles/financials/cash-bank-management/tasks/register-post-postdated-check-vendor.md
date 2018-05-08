@@ -24,7 +24,7 @@ ms.lasthandoff: 10/31/2017
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>为供应商登记和过帐远期支票
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 在通过使用日记帐凭证给供应商签发支票之前，先注册远期支票的详细信息。 您还可以过帐该远期发票并生成财务交易记录。 在注册并过帐远期支票给供应商之前，请完成以下任务： 
 

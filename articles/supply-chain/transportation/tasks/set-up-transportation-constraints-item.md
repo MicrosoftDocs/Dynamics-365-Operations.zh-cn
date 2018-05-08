@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a>设置物料的运输约束
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程将设置运输约束以阻止所选物料通过所选中心运输。 此任务通常由运输协调员完成。 您可以在 USMF 演示数据公司，也可在您自己的数据中运行该过程。
 

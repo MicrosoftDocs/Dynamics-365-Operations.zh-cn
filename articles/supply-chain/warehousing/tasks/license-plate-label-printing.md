@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="enable-license-plate-label-printing"></a>启用牌照标签打印
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 销售领料工作流程的最后一项工作是库存拣货，此程序适用于在此之后的串行装运集装箱码 (SSCC) 标签的自动打印。 您可以使用演示数据公司 USMF 运行此程序。 如果您使用自己的数据运行，则须为牌照设置一个数序。 在您开始此任务前，需要装配一台标签打印机。 转到“组织管理”>“设置”>“网络打印机”。 在“操作窗格”中，单击“选项”，然后单击“下载文档路由代理安装程序”按钮。 运行此安装程序并确认工作网络打印机设置为“主动”，方可继续该程序。
 

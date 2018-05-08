@@ -27,7 +27,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="show-order-notifications-in-the-point-of-sale"></a>在销售点中显示订单通知
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 在现代零售环境中，商店店员被分配了各种任务，例如帮助客户、输入交易记录、执行存货盘点以及在商店接收订单。 销售点 (POS) 客户端提供一个应用程序，可供店员执行所有这些任务和其他大量任务。 由于各种任务必须在当天执行，所以可能必须在需要店员注意时通知店员。 POS 中的通知框架可以提供帮助，方法是让零售商配置基于角色的通知。 在具有应用程序更新 5 的 Microsoft Dynamics 365 for Retail 中，这些通知仅可针对 POS 操作进行配置。
 

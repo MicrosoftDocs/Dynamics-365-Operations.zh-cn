@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>为本地部署配置 SQL Server Reporting Services
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 使用本主题中的步骤为你的 Microsoft Dynamics 365 for Finance and Operations（本地）部署配置 SQL Server Reporting Services (SSRS)。
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 03/09/2018
 
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>在 Dynamics 365 for Finance and Operations – Warehousing 中使用摄像头扫描条码
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题介绍如何设置 Dynamics 365 for Finance and Operations – Warehousing 以在移动设备上使用摄像头扫描条码。 
 

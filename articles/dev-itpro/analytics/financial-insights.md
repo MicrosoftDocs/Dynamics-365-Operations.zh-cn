@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="financial-insights"></a>财务见解
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **财务见解**使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。 Microsoft Dynamics 365 for Finance and Operations 中已嵌入 Power BI。
 **财务见解**的主要功能是分析报告。 组织中的人员可查看、研究、了解和采取行动。 

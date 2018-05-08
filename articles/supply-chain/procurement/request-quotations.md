@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="requests-for-quotation-rfqs"></a>询价 (RFQ)
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。 询价时，您要求供应商提供您指定的物料数量的价格和交货时间。
 您还可以就有关是否存在任何附加费用，如运费，或者是否对订购数量多的大订单有折扣价或能否提前支付供应商发票等问题询问供应商。

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="chinese-hierarchy-of-chart-of-accounts"></a>中国式会计科目表层次结构
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程演示如何通过设置多个会计科目级别在层次结构树状结构中创建会计科目表。
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="reverse-a-vendor-payment"></a>冲销供应商付款
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 文本介绍冲销、删除、取消和拒绝付款之间的差异。 此外，还说明冲销供应商支票的两种方法。 
 

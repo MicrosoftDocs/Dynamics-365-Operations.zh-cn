@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="warehouse-management"></a>仓库管理
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 用于 Dynamics 365 for Finance and Operations 的仓库管理模块可用于管理制造、分配和零售公司中的仓库流程。 此模块具有多种功能以随时为仓库设施提供最优级别的支持。 仓库管理与 Finance and Operations 中的其他业务流程完全集成，如运输、制造、质量控制、采购、转移、销售和退货。
 

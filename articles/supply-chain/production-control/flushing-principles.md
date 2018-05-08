@@ -28,7 +28,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>使用耗用原则控制原材料消耗量
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 耗用原则反映用于生产流程中使用的原材料的不同的消耗策略。 消耗是从现有库存量中扣减物料并为生产订单和批次订单将已消耗物料的值设置为**在制品** (WIP) 的流程。 原材料通常从为使用物料的流程配置的位置使用。 此位置称作生产输入位置。
 

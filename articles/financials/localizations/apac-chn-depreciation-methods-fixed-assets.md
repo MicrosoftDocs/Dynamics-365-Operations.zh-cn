@@ -27,7 +27,7 @@ ms.lasthandoff: 03/21/2018
 
 # <a name="fixed-assets-depreciation-methods-for-china"></a>中国的固定资产折旧法
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题描述为中国法人设置的折旧法。
 

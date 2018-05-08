@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-control-overview"></a>预算控制概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations 中配置预算控制，以便您可以管理财务资源的信息。
 

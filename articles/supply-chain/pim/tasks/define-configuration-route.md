@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-configuration-routes"></a>定义配置工艺路线
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程专注于定义配置流程，以确定配置组将会显示的序列。 创建此程序的演示数据公司是 USMF。 这是八个过程中第六个说明如何构建基于维度的配置组合的过程。
 

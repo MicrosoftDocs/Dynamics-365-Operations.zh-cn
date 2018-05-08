@@ -25,9 +25,9 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="embed-powerapps"></a>嵌入 PowerApps
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 在平台更新 14 中，Microsoft Dynamics 365 for Finance and Operations 支持与 Microsoft PowerApps 集成，这是一项面向为移动设备、平板电脑和 Web 构建自定义企业应用、而无需编写代码的开发人员和非技术用户的服务。 由您、您的组织或者更广泛的生态系统开发的 PowerApps 反之可以嵌入到 Finance and Operations 客户端以细分产品的功能。 例如，您可以构建 PowerApp 来使用从其他系统检索的信息补充 Finance and Operations。 
 

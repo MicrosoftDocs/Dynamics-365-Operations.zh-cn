@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="revert-kanban-job-status"></a>恢复看板作业状态
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程用于恢复一个不正确的看板作业状态。 此用于机器操作员更新错误作业或设置错误状态的情况。 在该过程中，先把一项看板作业错误登记为已准备，然后恢复其状态。 创建此程序的演示数据公司是 USMF。 该过程是为在 lean manufacturing 公司工作的店铺主管或机器操作员设计的。
 

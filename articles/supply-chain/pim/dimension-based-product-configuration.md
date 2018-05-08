@@ -29,7 +29,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="dimension-based-product-configuration"></a>基于维度的产品配置
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 基于维度的产品配置表示从单个基础产品和物料清单创建多个产品变型的简单解决方案。
 

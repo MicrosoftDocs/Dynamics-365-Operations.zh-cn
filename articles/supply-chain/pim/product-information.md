@@ -29,9 +29,9 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="product-information-overview"></a>产品信息概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 此主题提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。 
 

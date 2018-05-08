@@ -28,7 +28,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="set-up-training-courses"></a>设置培训课程
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。
 

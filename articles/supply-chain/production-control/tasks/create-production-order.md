@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="create-a-production-order"></a>创建生产订单
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序说明如何创建一个生产订单。 创建此程序的演示数据公司是 USMF。 这七个程序中的第一个诠释了生产订单的生命周期。
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>总帐的外币重估
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题概述了总帐外币重估流程的以下内容 - 设置，运行流程，流程计算，以及在必要时如何冲销重估交易记录。 
 

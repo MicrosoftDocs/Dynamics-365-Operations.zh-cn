@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="update-the-bank-journal-composite-entity"></a>更新银行日记帐组合实体
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 需按照以下步骤将更多 BankTransactionType 字段添加到组合 BankJournalEntity 中。
 

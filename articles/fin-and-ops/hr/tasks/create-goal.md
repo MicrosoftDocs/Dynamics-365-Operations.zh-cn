@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-goal"></a>创建目标
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。 创建该过程的演示数据公司是 USMF。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

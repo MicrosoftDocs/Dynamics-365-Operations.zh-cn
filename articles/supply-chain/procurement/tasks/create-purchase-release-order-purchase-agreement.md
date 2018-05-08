@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-release-order-from-a-purchase-agreement"></a>基于采购协议创建采购下达订单
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会显示在创建采购订单时，如何使用采购协议。 在创建采购订单时必须应用采购协议，因为存在应复制到采购订单标题的一般条件。 此任务通常由采购人员完成。 作为本指南的先决条件，您必须拥有某个供应商和物料的带产品数量承诺的有效采购协议。 如果您拥有带其他类型承诺的采购协议，则可以使用相同过程。 您可以使用 USMF 公司演示数据运行此指南。 如果您正在使用 USMF，您可以先运行“创建采购协议”，以设置本指南所需的前提条件。
 

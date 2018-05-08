@@ -24,7 +24,7 @@ ms.lasthandoff: 11/06/2017
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>设置采购类别层次结构
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会显示如何在采购类别层次结构中创建新节点，以及如何配置采购类别以用于采购流程。 这些任务通常由采购经理完成。 在您开始该过程之前，采购类型层次结构必须存在。 如果您正在使用公司演示数据，则您可以在 USMF 公司中执行该过程。
 

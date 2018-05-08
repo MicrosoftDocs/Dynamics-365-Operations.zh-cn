@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-accessorial-assignments"></a>设置附属分配
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何设置附属分配。 这通常由运输协调员完成。 您需要运行“设置运输中心附加费用和附属主数据”指南才能使用该指南。
 

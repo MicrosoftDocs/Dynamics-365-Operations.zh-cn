@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-vouchers-from-the-general-journal-china"></a>过帐普通日记帐的凭证（中国）
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程逐步演示如何使用普通日记帐过帐中国式凭证。  必须确保已创建所有必需的会计日历，才能完成此过程。 
 

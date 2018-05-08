@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-salarycompensation-structure-and-plans"></a>制订薪水/薪酬结构和计划
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务指南将介绍创建固定薪酬计划的流程，以及通过资格规则筛选加入薪资计划的员工。 创建此任务的演示数据公司是 USMF，此任务专门面向薪酬和福利经理。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>添加到绩效日记帐并向某人发送表扬
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 绩效日记帐中包含与如何满足目标或您在某个期间的表现有关的信息。 您还可以从日记帐表扬同事的操作。 创建此程序的演示数据公司是 USMF。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

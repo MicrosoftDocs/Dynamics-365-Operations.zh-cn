@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="count-inventory-in-a-warehouse"></a>盘点仓库中的库存
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。 该过程适用于“基础仓储”功能，在库存管理模块可用，在仓库管理模块的仓储功能不可用。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。 如果您使用自己的数据，确保您有产品和库位设置，并且您为盘点日记帐创建了库存日记帐名称。 库存盘点通常由仓管人员执行。
 

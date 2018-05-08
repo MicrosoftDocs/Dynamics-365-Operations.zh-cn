@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="system-grouping-on-an-open-work-list"></a>对未结工作列表的系统分组
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 通过使用系统分组字段可以筛选未结工作列表，而不必编辑移动设备菜单项。
 适用时，系统分组可用于在单个工作标题字段上筛选工作列表。 无法使用系统分组筛选行级别字段。

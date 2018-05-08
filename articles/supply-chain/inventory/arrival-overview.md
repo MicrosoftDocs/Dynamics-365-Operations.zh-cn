@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="arrival-overview"></a>到达概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题提供有关“到达概览”功能的信息。 “到达概览”页是此功能的一部分，提供预期作为到货物料到达的所有物料的概览。
 

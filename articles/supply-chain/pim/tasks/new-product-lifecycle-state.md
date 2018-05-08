@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-new-product-lifecycle-state"></a>创建新的产品生命周期状态
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何创建新的产品生命周期状态。 产品生命周期状态记载已发布产品或产品变型的生命周期状态。 产品生命周期状态由用户定义，通常是产品经理或产品主数据经理。 特定业务流程，例如主计划，可能受特定生命周期状态的影响。
 

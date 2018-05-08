@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍当您在“高级筛选/排序”对话框中使用“matches”运算符时可用的筛选和查询选项。
 

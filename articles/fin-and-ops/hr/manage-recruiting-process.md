@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="manage-a-recruiting-process"></a>管理招聘流程
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题介绍招聘人员可以用于跟踪招聘流程的步骤的概念，包括宣传空缺职位和招聘申请人的工作，跟踪申请人和申请信息，面试申请人，以及选择一个或多个候选人以填充您的组织的空缺职位。
 

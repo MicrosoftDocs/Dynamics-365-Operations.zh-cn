@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-material-plan-for-co-products"></a>创建联产品的物料计划
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 生产规划员为属于配方联产品的物料规划物料要求。 使用 USP2 公司演示数据创建此过程。
 

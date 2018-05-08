@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示零售商店的配置（这会影响到如何创建和过帐零售报表）。 零售商店的财务维度将在另一个程序中论述。 此程序使用 USRT 演示公司。
 

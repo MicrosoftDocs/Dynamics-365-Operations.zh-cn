@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>确定叠加折扣的最佳组合
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 折扣叠加时，必须确定将产生最低交易记录总额或最高折扣总额的叠加折扣组合。 当折扣金额根据购买的产品价格变化时（如常见的“第二件打折 (BOGO) 零售折扣），此过程就成为了组合优化问题。
 

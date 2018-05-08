@@ -25,7 +25,7 @@ ms.lasthandoff: 02/23/2018
 
 # <a name="cfo-overview-power-bi-content"></a>CFO 概览 Power BI 内容
 
-[!INCLUDE [banner](../includes/banner.md)] 
+[!include [banner](../includes/banner.md)] 
 
 此主题介绍 **CFO 概览** Microsoft Power BI 内容。 此 Power BI 内容适用于 Microsoft Dynamics 365 for Finance and Operations 版本 7.2 的用户。 如果您使用的是 7.3 或更高版本，请参阅[财务见解](financial-insights.md)。
 

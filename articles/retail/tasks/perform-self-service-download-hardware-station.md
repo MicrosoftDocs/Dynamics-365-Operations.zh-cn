@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="perform-self-service-to-download-hardware-station"></a>执行自助服务以下载硬件工作站
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何下载预定义的硬件工作站。 此程序使用的演示数据公司是 USRT。 在开始此任务之前，您必须已创建一个新的硬件工作站配置文件和硬件工作站。
 

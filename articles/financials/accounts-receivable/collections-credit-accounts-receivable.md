@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="credit-and-collections-in-accounts-receivable"></a>在应收账款中的信用和收款
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 使用 Finance and Operations 收款页，在一个中心视图中管理应收账款收款信息。 贷方和收款经理可以使用此主要观点以管理集合。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。
 

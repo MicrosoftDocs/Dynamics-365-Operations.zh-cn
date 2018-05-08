@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-a-candidate-through-recruiting"></a>通过招聘雇用候选人
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程使得招聘人员能够雇用通过特定招聘项目提交申请表的申请人。 通过招聘项目雇用申请人时，将会创建新的工作人员记录，且申请人的记录状态将为“已雇用”。 创建此程序的演示数据公司是 USMF。 若要完成此过程，请导航至“人力资源”>“招聘”>“申请表”>“申请表” 
 

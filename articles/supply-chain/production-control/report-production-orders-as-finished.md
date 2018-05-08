@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="report-production-orders-as-finished"></a>将生产订单报告为已完工入库
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 完工入库是生产阶段。 在此阶段，将报告成品并将其从生产订单移到库存。
 

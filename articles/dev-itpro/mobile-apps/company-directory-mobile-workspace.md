@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="company-directory-mobile-workspace"></a>公司目录移动电话工作区
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题提供有关**公司目录**移动工作区的信息。 此工作区让用户能够查看和联系其组织中的其他员工。
 

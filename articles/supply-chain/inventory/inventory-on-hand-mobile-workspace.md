@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题提供有关**现有库存量**移动工作区的信息。 此工作区可帮助您随时随地洞察预留库存和可用库存。
 

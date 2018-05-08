@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="user-operation-log-by-china-working-rule"></a>按中国工作规则分类用户操作日志
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程演示如何创建用户操作日志。 必须先设置数据库日志，才能生成用户操作日志。  
 

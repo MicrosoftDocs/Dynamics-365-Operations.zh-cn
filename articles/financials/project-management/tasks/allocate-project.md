@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a>跨期间分配一个项目预算或预算修订
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 在输入项目预算或项目预算修订后，在您将其提交进行审核之前，您可以跨期分配这些金额。 如果拒绝了该预算或预算修订，您还可以在重新提交前分配金额。 
 

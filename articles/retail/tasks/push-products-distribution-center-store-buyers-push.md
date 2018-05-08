@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a>使用集中采购配送将产品从配送中心配送到商店
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建和处理集中采购配送，以将产品从一个位置配送到一个或许多商店。 用户可以定义多个配置，并让系统建议如何配送产品，或手动输入物料的配送目的地，以及如何配送到每一个商店。 此程序不包括可用于集中采购配送的数据的设置，例如补货规则、组织层次结构和商店权重。 此程序使用 USRT 演示公司。
 

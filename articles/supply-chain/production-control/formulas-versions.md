@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="formulas-and-formula-versions"></a>配方和配方版本
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 配方定义流程制造中的特定流程的物料、成分和结果。 配方与相应的工艺路线一起定义流程制造中的整个流程。 配方用于计划和生产流程制造中的产品。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-purchasing-policies"></a>创建采购策略
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程演示如何创建与您的采购业务流程一致的采购政策。 在您可以创建采购政策之前，必须设置采购政策参数。 可以创建、修改和废弃采购政策，但不能删除采购政策。 此过程通常由采购经理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。
 

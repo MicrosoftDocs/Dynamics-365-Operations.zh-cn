@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a>销售点库存查找 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 销售点 (POS) 库存查找通过连接商店、POS 和后端管理系统，帮助零售商获得卓越的实时运营体验和洞察体验。 此功能提供精确的商店和配送中心产品库存实时视图。 还通过实时改进库存规划，帮助零售商提高效率和节约成本。
 

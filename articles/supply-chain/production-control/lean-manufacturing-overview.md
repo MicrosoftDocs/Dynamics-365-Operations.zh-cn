@@ -29,7 +29,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="lean-manufacturing-overview"></a>精益生产概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供 Microsoft Dynamics 365 for Finance and Operations 中的 lean manufacturing 功能的概览和描述。
 

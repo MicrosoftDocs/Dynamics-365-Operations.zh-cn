@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-workflow-history"></a>查看工作流历史记录
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 使用这些步骤可以查看提交给工作流系统进行处理和审核的单据的状态。 创建此程序的演示数据公司是 USMF。
 

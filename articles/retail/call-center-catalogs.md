@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="call-center-catalogs"></a>呼叫中心目录
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本文介绍 Microsoft Dynamics 365 for Retail 中目录的呼叫中心特定功能。
 

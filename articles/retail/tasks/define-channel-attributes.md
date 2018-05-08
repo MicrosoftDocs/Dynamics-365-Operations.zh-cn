@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-channel-attributes"></a>定义渠道属性
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 通过添加渠道与产品属性充实渠道。 在定义属性前，必须把该渠道添加到默认的组织层次结构中。
 

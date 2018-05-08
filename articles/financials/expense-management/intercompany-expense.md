@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="intercompany-expenses"></a>内部公司支出
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 由在组织中的一个法人雇佣的工作人员可能在同一组织执行其他法人的工作。 在此情况下，您可以使用内部公司费用功能来将工作人员的费用分配到执行该工作的法人。 雇用该工作人员的法人称为借出方法人。 工作人员产生费用的法人称为“借款法人”。 
 

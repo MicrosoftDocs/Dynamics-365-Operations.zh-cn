@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="overview-of-product-and-customer-search-in-point-of-sale"></a>销售点中的产品和客户搜索概览
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 现代销售点 (MPOS) 和云销售点 (CPOS) 提供易于使用的搜索功能，便于搜索产品和客户。 由于搜索栏始终显示在 MPOS 和 CPOS 窗口顶部，因此员工可以快速搜索产品和客户。
 

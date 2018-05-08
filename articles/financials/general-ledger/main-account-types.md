@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="main-account-types"></a>主科目类型
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 主科目类型确定主科目如何用于会计科目表。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 11/20/2017
 ---
 # <a name="create-a-requisition-for-consumption"></a>创建消耗量申请
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程向您介绍创建申请的流程。 它显示了在您的采购目录中搜索产品以及添加不在您目录中的产品的各种方法。 在启动此过程前，必须将采购策略设置为申请默认类型为“消耗量”。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。 此过程只能由设置为工作人员的用户配置文件执行。  此任务通常由员工完成。 员工雇用安全角色可以使您执行任务，或者，如果您使用 USMF，您可以以Alicia身份登录。
 

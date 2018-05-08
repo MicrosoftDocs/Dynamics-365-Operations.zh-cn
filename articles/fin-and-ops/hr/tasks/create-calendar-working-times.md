@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a>创建日历和生成工作时间
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 日历描述运营资源的产能和工作时间。 该过程将帮助您定义基于工作时间模板的工作日历。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 

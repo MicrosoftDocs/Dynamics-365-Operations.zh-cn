@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="enter-payroll-beginning-balances"></a>输入工资期初余额
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 此主题介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。 此信息对于从其他系统转移用于新的工资单实现方式的数据的合作伙伴十分重要。 为了准备输入期初工资单余额，我们验证以下信息：
 

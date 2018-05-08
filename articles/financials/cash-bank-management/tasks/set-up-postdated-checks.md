@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-postdated-checks"></a>设置远期支票
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 本主题说明如何指定是否过帐远期支票的日记帐分录，以及选用哪一个过帐日记帐来清算会计条目和供应商付款。 您还可以指定已签发支票、已收到支票和预缴税金的清算帐户。 签发用于在将来时间进行付款和收款的远期支票。 您可以指定支票是否必须在其到期日期之前反映在会计帐簿中。
 

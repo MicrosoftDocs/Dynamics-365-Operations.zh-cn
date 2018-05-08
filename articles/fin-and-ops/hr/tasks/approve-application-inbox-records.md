@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="approve-application-inbox-records"></a>审核申请表收件箱记录
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何通过员工自助服务页查看接收的申请表。 除了审查申请表外，您可以审核您选择的申请表收件箱记录。 申请表收件箱记录表示提交供公司考虑的求职申请。 在审核记录后，将为提交申请表的人员创建申请人记录。 创建此程序的演示数据公司是 USMF。
 

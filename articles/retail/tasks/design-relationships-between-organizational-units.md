@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>设计组织部门之间的关系
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此过程可以通过设计组织单位关系的方式完成。 您必须在定义组织单位关系之前创建一个新的组织用途，也可以使用现有的组织用途。 使用 USRT 公司演示数据完成此过程。 此任务专门面向管理人员。
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="reason-codes-for-inventory-counting"></a>库存盘点的原因代码
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 原因代码用于分析盘点流程的结果和执行该流程期间出现的任何差异。 可指定执行盘点的原因，如货盘损坏或基于库存样本调整存货。
 

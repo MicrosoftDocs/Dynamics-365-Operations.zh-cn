@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="find-support-for-microsoft-dynamics-365-for-finance-and-operations-and-dynamics-lifecycle-services"></a>查找对 Microsoft Dynamics 365 for Finance and Operations 和 Dynamics Lifecycle Services 的支持
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍如何获取有关 Finance and Operations Enterprise Edition 或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。 
 

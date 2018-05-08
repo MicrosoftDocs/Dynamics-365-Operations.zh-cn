@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="general-ledger"></a>总帐 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 使用总帐定义和管理法人的财务记录。 总帐是借方和贷方登记条目。 这些条目进行分类使用在会计科目表中列出的科目。 
 

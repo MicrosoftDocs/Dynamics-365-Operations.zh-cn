@@ -25,7 +25,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题提供有关**我的团队**移动工作区的信息。 此工作区允许经理查看其直接下属和扩展职员。 他们还可以向其报告链中的人员发送表扬。
 

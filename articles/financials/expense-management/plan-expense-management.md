@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="configure-expense-management"></a>配置费用管理
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations 中配置费用管理前在计划流程中的考虑事项和必须做的决定。 在费用管理中，您可以存储有关付款方式、出差申请、费用报表和政策等的信息。
 

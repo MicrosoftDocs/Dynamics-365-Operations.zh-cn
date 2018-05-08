@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="compensation-plans"></a>薪酬计划
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 薪酬和福利经理可以使用薪酬管理来维护和处理组织的员工的固定薪酬计划和可变薪酬计划。
 

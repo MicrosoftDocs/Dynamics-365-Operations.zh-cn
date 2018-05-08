@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="transfer-data-for-product-models"></a>转移产品模型的数据
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 产品配置模型的导出数据要求至少有一个可用的产品模型。 该过程使用演示公司 USMF 中的“高端扬声器模型”向您显示如何导出此模型的数据。
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>库存、生产和销售中的物料和原材料跟踪
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题介绍如何使用物料跟踪来确定物料或原材料被用在了何处、正在被何处使用或者将被运用于生产和销售流程中的哪个环节。
 

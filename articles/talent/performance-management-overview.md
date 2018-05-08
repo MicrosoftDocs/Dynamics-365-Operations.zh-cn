@@ -27,7 +27,7 @@ ms.lasthandoff: 02/14/2018
 
 # <a name="performance-management-overview"></a>绩效管理概览
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 绩效管理流程供员工记录自己的绩效并与经理讨论。 相应地，经理然后可以向员工提供反馈和指导。  
 

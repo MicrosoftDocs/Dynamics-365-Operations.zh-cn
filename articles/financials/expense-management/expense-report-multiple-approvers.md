@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="expense-reports-and-multiple-approvers"></a>支出报表和多个审核人
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 根据您组织的支出审核策略，可能需要多人审核由员工提交的支出报表。 在您设置支出报表审核的工作流程时，可以添加包括一个或多个支出报表审核人的任务或步骤的工作流元素。 例如，您可能需要所有支出报表首先由提交报表的员工经理审核，然后由应付帐款协调员进行审核。
 

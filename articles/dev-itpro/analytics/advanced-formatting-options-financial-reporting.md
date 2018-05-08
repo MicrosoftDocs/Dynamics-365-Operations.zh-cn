@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="advanced-formatting-options-in-financial-reporting"></a>财务申报中的高级格式设置选项
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 当您在财务申报中创建报表时，其他格式设置功能可用，包括维度筛选器、列和报告单位限制、非打印行和计算中的 IF/THEN/ELSE 语句。 
 

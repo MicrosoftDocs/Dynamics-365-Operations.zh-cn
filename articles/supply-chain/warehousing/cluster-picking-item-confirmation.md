@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 
 ---
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="product-confirmation-for-cluster-picking"></a>用于群集领料的产品确认
 群集领料让您能够同时领取多个订单的物料。 应用群集领料时，物料确认是验证添加到群集的物料的关键。 您可以在群集领料流程中验证群集领料中的物料。

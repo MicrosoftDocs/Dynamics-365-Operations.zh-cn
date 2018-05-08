@@ -29,7 +29,7 @@ ms.lasthandoff: 02/13/2018
 
 # <a name="master-planning-home-page"></a>主计划主页
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 在其核心，主计划允许公司确定和平衡原材料和产能的将来需求，以实现公司目标。 主计划评估以下情况： 
 

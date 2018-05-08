@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-a-call-center-channel"></a>设置呼叫中心渠道
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 一家公司可在 Microsoft Dynamics 365 for Retail 中定义多个呼叫中心渠道。 呼叫中心渠道在 **Retail** \> **渠道** \> **呼叫中心** \> **所有呼叫中心**中配置，并特定于法人。
 

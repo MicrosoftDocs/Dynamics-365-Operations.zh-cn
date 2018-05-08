@@ -24,7 +24,7 @@ ms.lasthandoff: 02/08/2018
 ---
 # <a name="find-obsolete-product-variants"></a>查找过时产品变型 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何查找过时的已发布产品或产品变型以及如何将产品生命周期状态关联到过时的产品。 先决条件：您需要至少先定义一个对于计划无效的产品生命周期状态，然后才能够播放此任务指南。
 

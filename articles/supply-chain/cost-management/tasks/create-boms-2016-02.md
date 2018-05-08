@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-boms-february-2016-only"></a>创建物料清单（仅 2016 年 2 月）
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务的重点是为一件成品和一件半成品创建物料清单结构。 这是 BOM 计算系列中的第四个任务。 创建此任务的演示数据公司是 USMF。
 

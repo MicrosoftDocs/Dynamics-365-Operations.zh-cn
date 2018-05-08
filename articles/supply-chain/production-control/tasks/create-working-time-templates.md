@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-working-time-templates"></a>创建工作时间模板
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 工作时间模板定义一周内的工作时间，可用于生成一段时期的工作时间。 该过程说明如何使用对工作时间间隔进行分类的工作时间计划属性定义工作时间模板。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 

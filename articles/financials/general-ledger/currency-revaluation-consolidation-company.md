@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="currency-revaluation-in-a-consolidation-company"></a>合并公司中的币种重估
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 将一个记帐币种的数据与另一个记帐币种的数据合并时，如果汇率发生更改，则仍必须运行币种重估，以便准确重估帐户余额。 在最初合并数据时，使用**“币种折算”**选项卡可选择合并过程中用于折算的初始汇率。 在输入新的汇率后（例如，在下一个月），您必须重估帐户余额。 随后，将根据新的汇率和日期更新或有利润或损失。 以下示例说明了该过程中创建的会计条目。
 

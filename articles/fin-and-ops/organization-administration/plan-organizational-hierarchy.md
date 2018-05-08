@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="plan-your-organizational-hierarchy"></a>规划组织层次结构
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 在 Microsoft Dynamics 365 for Finance and Operations 中设置组织和组织层次结构之前，请确保您已计划好您的业务将如何建模。 组织模型对 Finance and Operations 实施和业务流程有重大影响。 
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-posted-sales-tax-transactions"></a>查看已过帐的销售税交易记录
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。 本任务使用 USMF 公司进行演示。
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>应付账款和应收账款的外币重估
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本文提供有关您运行的以更新应收账款和应付账款的未结交易记录的值的外币重估流程的信息。 
 

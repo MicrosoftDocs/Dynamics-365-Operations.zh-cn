@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-cost-elements"></a>创建成本元素 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 可通过几种方法在成本核算中创建成本要素。 此过程显示如何通过数据连接器导入主科目来创建成本要素。 用于创建该过程的是演示公司 USMF。 此过程针对 Microsoft Dynamics 365 for Operations 版本 1611 中增加的成本核算功能。
 
