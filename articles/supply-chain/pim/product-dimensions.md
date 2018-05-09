@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9ba0c5d44d58faac47b6a44265431a48c49874df
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e9b1400de76858ca458d6742fba63c967ac6ad74
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-dimensions"></a><span data-ttu-id="5ef3c-105">产品维度</span><span class="sxs-lookup"><span data-stu-id="5ef3c-105">Product dimensions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [Retail name](../includes/retail-name.md)]
+[!include [Retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="5ef3c-106">有四产品维度 - 颜色、配置、大小和样式。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-106">There are four product dimensions -  Color, Configuration, Size and Style.</span></span> <span data-ttu-id="5ef3c-107">您在维度组中合并产品维度，并将维度组分配给基础产品。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-107">You combine product dimensions in dimension groups and assign dimension groups to product masters.</span></span> <span data-ttu-id="5ef3c-108">产品维度的组合确定如何定义产品变型。</span><span class="sxs-lookup"><span data-stu-id="5ef3c-108">The combinations of product dimensions determine how product variants are defined.</span></span>
 

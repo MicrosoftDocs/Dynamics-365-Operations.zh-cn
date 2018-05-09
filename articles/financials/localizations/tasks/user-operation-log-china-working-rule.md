@@ -16,15 +16,15 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8509ba205fc164c36186b82580353e733a3fcdaa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6847b5fe070fd9ed4d654b6a0f1b0d74fac810b5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="user-operation-log-by-china-working-rule"></a><span data-ttu-id="c8dc7-103">按中国工作规则分类用户操作日志</span><span class="sxs-lookup"><span data-stu-id="c8dc7-103">User operation log by China working rule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c8dc7-104">此过程演示如何创建用户操作日志。</span><span class="sxs-lookup"><span data-stu-id="c8dc7-104">This procedure demonstrates how to generate a user operation log.</span></span> <span data-ttu-id="c8dc7-105">必须先设置数据库日志，才能生成用户操作日志。</span><span class="sxs-lookup"><span data-stu-id="c8dc7-105">The database log must be set up before you can generate the user operation log.</span></span>  
 

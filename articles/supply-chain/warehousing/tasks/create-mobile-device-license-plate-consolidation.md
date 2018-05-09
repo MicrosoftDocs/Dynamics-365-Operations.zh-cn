@@ -17,15 +17,15 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4d7e1115d8a53a6667768dd5da1dc0cffded61cd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 107f3dc015e0de49ea0e61cea9a0aa0c22d39b2b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a><span data-ttu-id="ed409-103">创建牌照合并的移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="ed409-103">Create a mobile device menu item for license plate consolidation</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ed409-104">此过程显示如何为牌照合并工作创建移动设备菜单项。</span><span class="sxs-lookup"><span data-stu-id="ed409-104">This procedure shows you how to create a mobile device menu item for license plate consolidation work.</span></span> <span data-ttu-id="ed409-105">这样仓库工作人员就可以将一个牌照的物料与同一个库位中的另一个牌照合并合。</span><span class="sxs-lookup"><span data-stu-id="ed409-105">This enables warehouse workers to consolidate items on one license plate with items on another license place within the same location.</span></span> <span data-ttu-id="ed409-106">例如，如果后续暂存步骤在两个工作订单中均相同，可能使用此过程，以便只需要为合并的物料执行一次工作。</span><span class="sxs-lookup"><span data-stu-id="ed409-106">For example, they might use this if subsequent staging steps were the same on both work orders, so that the work only needs to be performed once for the merged items.</span></span> <span data-ttu-id="ed409-107">您可以在演示数据公司 USMF 中使用此过程。</span><span class="sxs-lookup"><span data-stu-id="ed409-107">You can use this procedure in demo data company USMF.</span></span> <span data-ttu-id="ed409-108">此任务通常由仓库管理员完成。</span><span class="sxs-lookup"><span data-stu-id="ed409-108">The task would typically be carried out by a warehouse manager.</span></span> <span data-ttu-id="ed409-109">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="ed409-109">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

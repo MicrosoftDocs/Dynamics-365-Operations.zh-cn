@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3f8d97fc42cde9053b0552fc1dfe8e6de0f5e03b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d6106125af91f8bf9b3ffc3047578f6c6f60f0eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="plan-your-chart-of-accounts"></a><span data-ttu-id="cc738-103">计划您的会计科目表</span><span class="sxs-lookup"><span data-stu-id="cc738-103">Plan your chart of accounts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="cc738-104">本主题提供将帮助您为您的组织计划会计科目表的信息。</span><span class="sxs-lookup"><span data-stu-id="cc738-104">This topic provides information that will help you plan the chart of accounts for your organization.</span></span>
 

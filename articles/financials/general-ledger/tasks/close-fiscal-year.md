@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e20ab044b8fb6466c366cea81a0442c76b85fe62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4fa8f44f189efcb3791d337ba33ec1b9d28de405
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="close-the-fiscal-year"></a><span data-ttu-id="d9aff-103">结算会计年度</span><span class="sxs-lookup"><span data-stu-id="d9aff-103">Close the fiscal year</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d9aff-104">此过程介绍将余额转移到新会计年度的年终结算的步骤。</span><span class="sxs-lookup"><span data-stu-id="d9aff-104">This procedure steps through the year end close process that transfers balances to a new fiscal year.</span></span>
 

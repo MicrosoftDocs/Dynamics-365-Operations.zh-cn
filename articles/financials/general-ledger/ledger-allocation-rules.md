@@ -19,16 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e5eb9d79fee7ec2e288db24aee9535d6414fdeed
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 33428c4b811cfebda306cb721871f04cbab18b70
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="ledger-allocation-rules"></a><span data-ttu-id="ca05e-104">分类帐分配规则</span><span class="sxs-lookup"><span data-stu-id="ca05e-104">Ledger allocation rules</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ca05e-105">本文提供有关分类帐分配规则的信息。</span><span class="sxs-lookup"><span data-stu-id="ca05e-105">This article provides information about ledger allocation rules.</span></span> <span data-ttu-id="ca05e-106">介绍这些分配规则的各个组件和可为其使用的分配方法。</span><span class="sxs-lookup"><span data-stu-id="ca05e-106">It describes the various components of these allocation rules and the allocation methods that can be used for them.</span></span>
 

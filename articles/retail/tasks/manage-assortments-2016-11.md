@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5caea292ebdc6766256228fd739684f622fe3ba5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc0d947fbc821295bf9b48f2433c05845309af97
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="manage-assortments"></a><span data-ttu-id="ceaa1-103">管理分类</span><span class="sxs-lookup"><span data-stu-id="ceaa1-103">Manage assortments</span></span> 
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ceaa1-104">此过程演示如何创建和发布新产品分类，并使用演示数据公司 USRT。</span><span class="sxs-lookup"><span data-stu-id="ceaa1-104">This procedure demonstrates how to create and publish a new product assortment and uses the demo data company USRT.</span></span> <span data-ttu-id="ceaa1-105">此过程需要 Dynamics AX 应用程序 7.0.1 或更高版本，以及 Dynamics AX 平台 7.1。</span><span class="sxs-lookup"><span data-stu-id="ceaa1-105">This procedure requires Dynamics AX application 7.0.1 or later, and Dynamics AX platform 7.1.</span></span>  
 

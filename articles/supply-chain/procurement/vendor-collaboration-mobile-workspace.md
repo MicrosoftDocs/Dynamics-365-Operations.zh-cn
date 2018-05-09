@@ -18,16 +18,16 @@ ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-mobile-workspace"></a><span data-ttu-id="76ad3-105">供应商协作移动工作区</span><span class="sxs-lookup"><span data-stu-id="76ad3-105">Vendor collaboration mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="76ad3-106">此主题提供有关**供应商协作**移动工作区的信息。</span><span class="sxs-lookup"><span data-stu-id="76ad3-106">This topic provides information about the **Vendor collaboration** mobile workspace.</span></span> <span data-ttu-id="76ad3-107">此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。</span><span class="sxs-lookup"><span data-stu-id="76ad3-107">This workspace helps your vendors stay up to date about the purchase orders that have been sent to them for approval.</span></span> <span data-ttu-id="76ad3-108">它们还可以查看有关新的和更新的采购订单和联系人的信息。</span><span class="sxs-lookup"><span data-stu-id="76ad3-108">They can also view information about new and updated purchase orders and contacts.</span></span>
 

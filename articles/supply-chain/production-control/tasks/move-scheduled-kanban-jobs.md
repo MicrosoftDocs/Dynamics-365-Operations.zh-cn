@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a20765f29a3d8b3bff75229ebbb1996a4d601154
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ae6ea66f0e0ce03008882e59140ad7a0d89f0e30
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="move-scheduled-kanban-jobs"></a><span data-ttu-id="6e87c-103">移动计划的看板作业</span><span class="sxs-lookup"><span data-stu-id="6e87c-103">Move scheduled kanban jobs</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6e87c-104">此程序用于将计划特殊处理的看板作业转移到另一个不同期间。</span><span class="sxs-lookup"><span data-stu-id="6e87c-104">This procedure focuses on moving planned process kanban jobs to a different period.</span></span> <span data-ttu-id="6e87c-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="6e87c-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="6e87c-106">此程序用于车间主管与生产计划主任共同使用看板管理。</span><span class="sxs-lookup"><span data-stu-id="6e87c-106">This procedure is intended for the shop floor supervisor or production planner working with kanbans.</span></span>
 

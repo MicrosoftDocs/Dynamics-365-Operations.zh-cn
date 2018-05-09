@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 92076bf8e57aae31f40411f82d04731d0f3b5477
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95651e602bd4f576a7fcf96379f61252cdf392f6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a><span data-ttu-id="71a2b-103">结算客户的远期支票</span><span class="sxs-lookup"><span data-stu-id="71a2b-103">Settle a postdated check from a customer</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="71a2b-104">该支票由银行清算后，您可以结算过期支票。</span><span class="sxs-lookup"><span data-stu-id="71a2b-104">You can settle a postdated check after the check has been cleared by the bank.</span></span> <span data-ttu-id="71a2b-105">此财务交易记录也清算了过期支票的过桥科目交易记录。</span><span class="sxs-lookup"><span data-stu-id="71a2b-105">This financial transaction also clears the bridge account transaction for the postdated check.</span></span> 
 

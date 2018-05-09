@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 37010003ad638e068ed7650532da29c6dbc033cb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3c048a18ee8150880ed9df139cd498f2ec52852
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a><span data-ttu-id="41db7-103">为完成采购订单中的工作设置移动设备菜单项</span><span class="sxs-lookup"><span data-stu-id="41db7-103">Set up a mobile device menu item for completing work in a purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="41db7-104">此过程演示如何设置“移动设备”菜单项。</span><span class="sxs-lookup"><span data-stu-id="41db7-104">This procedure shows how to set up a Mobile device menu item.</span></span> <span data-ttu-id="41db7-105">在此示例中，此菜单项用于执行采购订单类型的工作。</span><span class="sxs-lookup"><span data-stu-id="41db7-105">In this example, the menu item is used for performing work of type Purchase order.</span></span> <span data-ttu-id="41db7-106">与此菜单项关联的工作类决定哪项工作有效。</span><span class="sxs-lookup"><span data-stu-id="41db7-106">The work class that’s associated with the menu item determines which work is valid.</span></span> <span data-ttu-id="41db7-107">您可以使用演示数据公司 USMF 运行此指南。</span><span class="sxs-lookup"><span data-stu-id="41db7-107">You can use this guide in demo data company USMF.</span></span> <span data-ttu-id="41db7-108">此过程通常由仓库经理执行。</span><span class="sxs-lookup"><span data-stu-id="41db7-108">This procedure is typically carried out by a warehouse manager.</span></span>
 

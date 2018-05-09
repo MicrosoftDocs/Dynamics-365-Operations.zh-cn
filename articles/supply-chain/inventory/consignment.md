@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7865b2f327ba2053b08cb8207ed5f2c973ebb201
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2d557354519fe85f58db3d871a8b949a25dceee6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-consignment"></a><span data-ttu-id="ae70c-103">设置托运</span><span class="sxs-lookup"><span data-stu-id="ae70c-103">Set up consignment</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ae70c-104">本主题介绍如何使用入站托运库存流程。</span><span class="sxs-lookup"><span data-stu-id="ae70c-104">This topic explains how to use the inbound consignment inventory processes.</span></span>
 

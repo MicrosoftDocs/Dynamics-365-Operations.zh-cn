@@ -18,16 +18,16 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d4fb8251afad657d76f4b7b1de0a53ca584477a9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 211a64162c52377a7643004416d90029a3d17ee7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-payments-workspace"></a><span data-ttu-id="51ad2-104">供应商付款工作区</span><span class="sxs-lookup"><span data-stu-id="51ad2-104">Vendor payments workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="51ad2-105">**供应商付款**工作区显示与处理供应商付款有关的信息。</span><span class="sxs-lookup"><span data-stu-id="51ad2-105">The **Vendor payments** workspace shows information that is related to the processing of vendor payments.</span></span> <span data-ttu-id="51ad2-106">该工作区包括一个**我的工作**视图和一个**分析**页。</span><span class="sxs-lookup"><span data-stu-id="51ad2-106">This workspace includes a **My work** view and an **Analytics** page.</span></span> <span data-ttu-id="51ad2-107">**我的工作**视图显示汇总磁贴、供应商交易记录网格和相关供应商信息。</span><span class="sxs-lookup"><span data-stu-id="51ad2-107">The **My work** view shows summary tiles, vendor transaction grids, and related vendor information.</span></span> <span data-ttu-id="51ad2-108">**分析**页使用 Microsoft Power BI 的功能显示与供应商付款相关的视觉对象。</span><span class="sxs-lookup"><span data-stu-id="51ad2-108">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to vendor payments.</span></span>
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 04/13/2018
 
 ### <a name="related-information"></a><span data-ttu-id="51ad2-122">相关信息</span><span class="sxs-lookup"><span data-stu-id="51ad2-122">Related information</span></span>
 
-<span data-ttu-id="51ad2-123">您可以使用工作区的**相关信息**部分中的链接查看**供应商帐龄**报表和**付款汇总(按日期)**报表。</span><span class="sxs-lookup"><span data-stu-id="51ad2-123">You can view the **Vendor aging** report and the **Payment summary by date** report by using the links in the **Related information** section of the workspace.</span></span>
+<span data-ttu-id="51ad2-123">您可以使用工作区的**相关信息**部分中的链接查看**供应商帐龄**报表和**付款汇总(按日期)** 报表。</span><span class="sxs-lookup"><span data-stu-id="51ad2-123">You can view the **Vendor aging** report and the **Payment summary by date** report by using the links in the **Related information** section of the workspace.</span></span>
 
 ## <a name="analytics-page"></a><span data-ttu-id="51ad2-124">分析页</span><span class="sxs-lookup"><span data-stu-id="51ad2-124">Analytics page</span></span>
 

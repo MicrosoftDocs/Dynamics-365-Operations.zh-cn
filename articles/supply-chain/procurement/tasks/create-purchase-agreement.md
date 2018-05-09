@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 84b8f08c5e72d3bae597d78cd8f1f77d59355917
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f060346308e7ee1191d0769664648cfe72c22b21
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-agreement"></a><span data-ttu-id="a30e3-103">创建采购协议</span><span class="sxs-lookup"><span data-stu-id="a30e3-103">Create a purchase agreement</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a30e3-104">该过程会从头至尾指导您创建一份采购协议。</span><span class="sxs-lookup"><span data-stu-id="a30e3-104">This procedure guides you through the creation of a purchase agreement.</span></span> <span data-ttu-id="a30e3-105">这通常由采购经理完成。</span><span class="sxs-lookup"><span data-stu-id="a30e3-105">This would typically be done by a purchasing manager.</span></span> <span data-ttu-id="a30e3-106">您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="a30e3-106">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="a30e3-107">在您开始之前，您需要设置采购协议分类。</span><span class="sxs-lookup"><span data-stu-id="a30e3-107">You need to have set up purchase agreement classifications before you start.</span></span> <span data-ttu-id="a30e3-108">一旦创建完协议，您可以在创建采购订单时使用该协议，并且这会将采购协议条件复制到受该协议影响的订单的标题和任何行。</span><span class="sxs-lookup"><span data-stu-id="a30e3-108">Once you've created an agreement you can use it when you create a PO, and this will copy the purchase agreement conditions to the header and to any lines in the order that are affected by the agreement.</span></span>
 

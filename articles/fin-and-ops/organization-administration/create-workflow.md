@@ -19,16 +19,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3691379ea08ebebdad9e33359140d007d5d899dd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: adf6614bf8db9249a30c5e8447e1d148e3db8413
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-workflow"></a><span data-ttu-id="d0aa8-103">创建工作流</span><span class="sxs-lookup"><span data-stu-id="d0aa8-103">Create a workflow</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d0aa8-104">本主题介绍如何创建工作流。</span><span class="sxs-lookup"><span data-stu-id="d0aa8-104">This topic explains how to create a workflow.</span></span>
 

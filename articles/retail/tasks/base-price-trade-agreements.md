@@ -17,15 +17,15 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d2462e3e3c2fdd925a1fdbdcdfc20396e6c1731e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f730ef8e9c9c089b4ee209d8e54011e6d8798399
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="base-price-and-trade-agreements"></a><span data-ttu-id="eff14-103">基价和贸易协议</span><span class="sxs-lookup"><span data-stu-id="eff14-103">Base price and trade agreements</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="eff14-104">此程序会逐步演示如何创建渠道特定销售价格贸易协议。</span><span class="sxs-lookup"><span data-stu-id="eff14-104">This procedure walks through creating channel-specific sales price trade agreements.</span></span> <span data-ttu-id="eff14-105">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="eff14-105">This procedure uses the USRT demo data company.</span></span>
 

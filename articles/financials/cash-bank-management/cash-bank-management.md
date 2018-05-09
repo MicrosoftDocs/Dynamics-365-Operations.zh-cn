@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e7e0fffcda8f05d5cbff4cd1674c5e0967ab4040
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ed5dffb4317b9adec03c8f847717c0d901989b78
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cash-and-bank-management-home-page"></a><span data-ttu-id="86e70-103">现金和银行管理主页</span><span class="sxs-lookup"><span data-stu-id="86e70-103">Cash and bank management home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="86e70-104">您可使用现金和银行管理来维护法人的银行帐户以及与这些银行帐户关联的财务票据。</span><span class="sxs-lookup"><span data-stu-id="86e70-104">You can use Cash and bank management to maintain the legal entity’s bank accounts and the financial instruments that are associated with those bank accounts.</span></span> 
 

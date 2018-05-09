@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9932248d095f11096fb5ea96324902ad1b9e5fb5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a4aed162ecf0cfa8c52368b05d65051049aa59db
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-call-center-catalog"></a><span data-ttu-id="d103c-103">创建呼叫中心目录</span><span class="sxs-lookup"><span data-stu-id="d103c-103">Create a call center catalog</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="d103c-104">文本提供创建呼叫中心目录的流程的概览。</span><span class="sxs-lookup"><span data-stu-id="d103c-104">This article provides an overview of the process for creating a catalog for a call center.</span></span> 
 

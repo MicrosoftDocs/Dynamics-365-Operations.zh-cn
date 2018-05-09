@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ccd1714d5ac594e04eea65d997fe198bdae32a86
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 29256eccc0b188f49256ed64f248bbd7d61afc0d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-new-departments"></a><span data-ttu-id="e0d54-103">定义新部门</span><span class="sxs-lookup"><span data-stu-id="e0d54-103">Define new departments</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e0d54-104">部门作为运作单位代表一个商业职能范围，如销售或财务部门。</span><span class="sxs-lookup"><span data-stu-id="e0d54-104">Departments are operating units that represent a functional area of a business, such as sales or accounting.</span></span> <span data-ttu-id="e0d54-105">许多公司的组织结构都展示了商业中部门的多样性。</span><span class="sxs-lookup"><span data-stu-id="e0d54-105">Many companies have organizational hierarchies that display the various departments within a business.</span></span> <span data-ttu-id="e0d54-106">该过程简单介绍了如何创建部门并把这些部门添加到一个组织结构。</span><span class="sxs-lookup"><span data-stu-id="e0d54-106">This procedure walks through the process of creating departments, and adding those departments to an organizations departmental hierarchy.</span></span> <span data-ttu-id="e0d54-107">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="e0d54-107">The demo data company used to create this procedure is USMF.</span></span>
 

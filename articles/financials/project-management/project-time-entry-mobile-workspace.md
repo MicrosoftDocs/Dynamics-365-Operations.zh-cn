@@ -19,16 +19,16 @@ ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: eb1d4a85c0e522d05c8566ce491ea946a656b35e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="project-time-entry-mobile-workspace"></a><span data-ttu-id="b96ec-104">项目时间条目移动工作区</span><span class="sxs-lookup"><span data-stu-id="b96ec-104">Project time entry mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b96ec-105">此主题提供有关**项目时间条目**移动工作区的信息。</span><span class="sxs-lookup"><span data-stu-id="b96ec-105">This topic provides information about the **Project time entry** mobile workspace.</span></span> <span data-ttu-id="b96ec-106">此工作区让用户可以使用其移动设备根据项目输入和保存时间。</span><span class="sxs-lookup"><span data-stu-id="b96ec-106">This workspace lets users enter and save time against a project by using their mobile device.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 931c12278853d87e6fddbb166b56c6079d40b142
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ecc4f03c1571987aeb92e03004e0083b28bfbb43
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="150-percent-reducing-balance-depreciation"></a><span data-ttu-id="25c31-103">150% 余额递减法</span><span class="sxs-lookup"><span data-stu-id="25c31-103">150 percent reducing balance depreciation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="25c31-104">本文提供了 150% 余额递减法折旧方法的概览。</span><span class="sxs-lookup"><span data-stu-id="25c31-104">This article gives an overview of the 150 percent reducing balance method of depreciation.</span></span>
 

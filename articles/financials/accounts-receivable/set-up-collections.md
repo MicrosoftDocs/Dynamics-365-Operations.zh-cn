@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e5c96f16a2c6a4bc5213293e0dbaac3918a6e9c5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 97ee52f9224ae82a32dc28549b77412b1960102f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-credit-and-collections"></a><span data-ttu-id="bd249-103">设置信用和收款</span><span class="sxs-lookup"><span data-stu-id="bd249-103">Set up Credit and collections</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bd249-104">本文介绍如何设置收款功能。</span><span class="sxs-lookup"><span data-stu-id="bd249-104">This article explains how to set up the collections functionality.</span></span>
 

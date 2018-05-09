@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6440bae664e4eac6643e480dbf60191fb0050375
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5da697d4a6765f7a7ab13284b90a93e596af0559
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-agreement-groups"></a><span data-ttu-id="e1176-103">服务协议组</span><span class="sxs-lookup"><span data-stu-id="e1176-103">Service agreement groups</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e1176-104">服务协议组用于对服务协议进行排序和筛选。</span><span class="sxs-lookup"><span data-stu-id="e1176-104">Service agreement groups are useful for sorting and filtering service agreements.</span></span> <span data-ttu-id="e1176-105">例如，使用服务协议组可以按公司规模、地理位置或行业类型对服务协议进行分组。</span><span class="sxs-lookup"><span data-stu-id="e1176-105">Use service agreement groups to group service agreements by, for example, company size, geographical location, or industry type.</span></span> <span data-ttu-id="e1176-106">或者，可以使用协议组按提供给客户的服务级别对服务协议进行分组。</span><span class="sxs-lookup"><span data-stu-id="e1176-106">Alternatively, you can use agreement groups to group service agreements by the level of service offered to a customer.</span></span>
 

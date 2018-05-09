@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9089b9ad773890424a6f73107a26a35a32e988ae
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5610d1fc2adff0d04ea3931de4b1e23225e50ff0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-request-configurations"></a><span data-ttu-id="4b8c3-103">供应商请求配置</span><span class="sxs-lookup"><span data-stu-id="4b8c3-103">Vendor request configurations</span></span>
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4b8c3-104">为了完成供应商请求，供应商联系人必须完成潜在供应商注册向导。</span><span class="sxs-lookup"><span data-stu-id="4b8c3-104">To complete a vendor request, a vendor contact person must complete the prospective vendor registration wizard.</span></span>
 

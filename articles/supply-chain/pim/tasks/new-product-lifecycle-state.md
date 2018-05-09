@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a1502d90c3ed02246a056d6acc89d39166faac11
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 517d0c0c95dbce2e48ef0f3a3118db5a7b2e63d3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-new-product-lifecycle-state"></a><span data-ttu-id="924ce-103">创建新的产品生命周期状态</span><span class="sxs-lookup"><span data-stu-id="924ce-103">Create a new product lifecycle state</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="924ce-104">此过程显示如何创建新的产品生命周期状态。</span><span class="sxs-lookup"><span data-stu-id="924ce-104">This procedure shows how to create a new product lifecycle state.</span></span> <span data-ttu-id="924ce-105">产品生命周期状态记载已发布产品或产品变型的生命周期状态。</span><span class="sxs-lookup"><span data-stu-id="924ce-105">A product lifecycle state documents the lifecycle state of a released product or product variant.</span></span> <span data-ttu-id="924ce-106">产品生命周期状态由用户定义，通常是产品经理或产品主数据经理。</span><span class="sxs-lookup"><span data-stu-id="924ce-106">Product lifecycle states are defined by the user, typically a product manager, or a product master data manager.</span></span> <span data-ttu-id="924ce-107">特定业务流程，例如主计划，可能受特定生命周期状态的影响。</span><span class="sxs-lookup"><span data-stu-id="924ce-107">Specific business processes, for example, Master planning, can be affected by a specific lifecycle state.</span></span>
 

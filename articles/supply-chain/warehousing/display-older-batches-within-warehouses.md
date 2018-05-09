@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4f2dc9221b72600c928db9fd306038725c7af305
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 27fbf57ba7114ca773f2a80de51b36b4e63c6dd6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a><span data-ttu-id="f97c8-103">在移动设备上配置“显示仓库内的更早批次”</span><span class="sxs-lookup"><span data-stu-id="f97c8-103">Configure Display older batches within warehouse on a mobile device</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f97c8-104">**显示仓库内的更早批次**配置让你能够显示早于当前工作行位置的批次的位置列表。</span><span class="sxs-lookup"><span data-stu-id="f97c8-104">The **Display older batches within warehouse** configuration lets you display a list of locations with batches older than the current location of the work line.</span></span> <span data-ttu-id="f97c8-105">显示的位置的列表包括与位置中的更早批次以及各批次的到期日期和物理库存有关的信息。</span><span class="sxs-lookup"><span data-stu-id="f97c8-105">The list of locations that are displayed includes information about the older batches in the location with the expiration date and the physical inventory of each batch.</span></span> <span data-ttu-id="f97c8-106">你可以选择从新位置领料或继续从当前位置领料。</span><span class="sxs-lookup"><span data-stu-id="f97c8-106">You can choose to pick from a new location or to continue picking from the current location.</span></span> 
 - <span data-ttu-id="f97c8-107">从新位置领料 - 如果你选择一个要从中领料的新位置，当前工作行将更新为使用新位置且新位置的工作将照常进行。</span><span class="sxs-lookup"><span data-stu-id="f97c8-107">Pick from a new location - If you select a new location to pick from, the  current work line will be updated to use the new location and work will continue as usual with the new location.</span></span> <span data-ttu-id="f97c8-108">为了使新位置生效，它必须具有用于整个工作行的足够的可用数量。</span><span class="sxs-lookup"><span data-stu-id="f97c8-108">For the new location to be valid, it must have enough available quantity for the whole work line.</span></span> <span data-ttu-id="f97c8-109">如果无法提供需要的数量，则不会更新工作行，且将显示列表。</span><span class="sxs-lookup"><span data-stu-id="f97c8-109">If the required quantity is not available, the work line will not be updated, and the list will display.</span></span> 

@@ -17,15 +17,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fdc9567040a2ea4e50325c98a2da19da039586bb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1ccaeffde4c288667fe797d07e08b5a346b4716
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-project-timesheets"></a><span data-ttu-id="c5628-103">输入项目工时单</span><span class="sxs-lookup"><span data-stu-id="c5628-103">Enter project timesheets</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c5628-104">通过该过程您可以利用空余的时间表窗体创建时间表。</span><span class="sxs-lookup"><span data-stu-id="c5628-104">This procedure lets you create a timesheet by using an empty timesheet form.</span></span> <span data-ttu-id="c5628-105">新时间表是以之前的时间表的信息为基础，或以“我的收藏夹”页的项目和活动分配为基础。</span><span class="sxs-lookup"><span data-stu-id="c5628-105">The new timesheet can be based on information from a previous timesheet, or from project and activity assignments in the My favorites page.</span></span> <span data-ttu-id="c5628-106">在默认情况下，“所有时间表列表页”显示了您在当前周期内的所有时间表。</span><span class="sxs-lookup"><span data-stu-id="c5628-106">By default, the All timesheets list page displays all your timesheets for the current period.</span></span> <span data-ttu-id="c5628-107">您可以利用“我的时间表”页面中“显示”字段的下拉式列表，根据周期或项目来筛选时间列表表单，或者查看由其他工人所创建的时间表。</span><span class="sxs-lookup"><span data-stu-id="c5628-107">You can use the drop-down list for the Show field in the My timesheets page to filter the timesheet list by time period or project, or to view timesheets that were created on behalf of other workers.</span></span> <span data-ttu-id="c5628-108">用于创建该过程的演示数据公司为 USSI。</span><span class="sxs-lookup"><span data-stu-id="c5628-108">The demo data company used to create this procedure is USSI.</span></span> <span data-ttu-id="c5628-109">开始该过程，转到“项目管理和核算”>“时间表”>“我的时间表”</span><span class="sxs-lookup"><span data-stu-id="c5628-109">To begin this procedure, go to Project management and accounting > Timesheets >My timesheets</span></span>
 

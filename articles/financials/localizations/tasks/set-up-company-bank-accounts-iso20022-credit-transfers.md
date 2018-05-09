@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 50cc79c076feac17b945c632d584e99b808d00ad
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 66fd18c415a11a6b9bb027a323b416cb12f2a3a4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-credit-transfers"></a><span data-ttu-id="80518-103">设置 ISO20022 贷方转帐的公司银行帐户</span><span class="sxs-lookup"><span data-stu-id="80518-103">Set up company bank accounts for ISO20022 credit transfers</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="80518-104">此过程显示如何设置生成付款文件所需的，公司具体的银行帐户信息。</span><span class="sxs-lookup"><span data-stu-id="80518-104">This procedure shows how to set up company-specific bank account information that is required for payment file generation.</span></span> <span data-ttu-id="80518-105">您设置生成 ISO 20022 贷方转帐格式所需的信息，但是根据格式可能需要其他信息，如德国 ID 或分类代码。</span><span class="sxs-lookup"><span data-stu-id="80518-105">You set up information required to generate ISO 20022 credit transfer format but depending on the format there might be other information required, such as the Company ID or the Sort code.</span></span> 
 

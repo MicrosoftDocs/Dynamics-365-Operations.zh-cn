@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 258f3e801b735ee54db3642e7fbdfc0f0ff153a0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6876f8ed0f69ec5a34c4c9671081c76245945b1e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="9b93d-103">创建询价的申请类型和计分条件</span><span class="sxs-lookup"><span data-stu-id="9b93d-103">Create solicitation types and scoring criteria for RFQs</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9b93d-104">此指南演示如何创建申请类型和将其与计分方法关联。</span><span class="sxs-lookup"><span data-stu-id="9b93d-104">This guide shows you how to create a solicitation type and associate this with a scoring method.</span></span> <span data-ttu-id="9b93d-105">还演示如何在随后将设置默认计分方法的询价 (RFQ) 中使用申请类型。</span><span class="sxs-lookup"><span data-stu-id="9b93d-105">It also shows how to use the solicitation type on a request for quotation (RFQ) which then sets the default scoring method.</span></span> <span data-ttu-id="9b93d-106">这些任务通常由采购经理完成。</span><span class="sxs-lookup"><span data-stu-id="9b93d-106">These tasks would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="9b93d-107">您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="9b93d-107">You can use this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="9b93d-108">首先需要有计分方法。</span><span class="sxs-lookup"><span data-stu-id="9b93d-108">You need to have a scoring method available before you start.</span></span>
 

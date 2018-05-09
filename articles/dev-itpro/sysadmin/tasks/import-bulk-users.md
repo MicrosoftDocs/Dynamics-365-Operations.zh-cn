@@ -16,15 +16,15 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 046b06f663f2fa4b503bcfff15c9fd7675d6acdd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 339cc1d3bcdc1dc93b796c385d2165f45f8f7ecf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="import-users-in-bulk"></a><span data-ttu-id="3a74f-103">批量导入用户</span><span class="sxs-lookup"><span data-stu-id="3a74f-103">Import users in bulk</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3a74f-104">系统管理员可通过此过程从 Azure Active Directory 导入大量用户。</span><span class="sxs-lookup"><span data-stu-id="3a74f-104">This procedure can be used by system administrators to import a large number of users from Azure Active Directory.</span></span>
 

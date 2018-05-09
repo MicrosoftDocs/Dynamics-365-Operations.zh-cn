@@ -16,16 +16,16 @@ ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6950c7d96b325783820fb53b34ee6cc3e7eecf10
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="project-timesheets-on-a-mobile-device"></a><span data-ttu-id="8521e-103">移动设备上的项目工时单</span><span class="sxs-lookup"><span data-stu-id="8521e-103">Project timesheets on a mobile device</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 # <a name="overview"></a><span data-ttu-id="8521e-104">概览</span><span class="sxs-lookup"><span data-stu-id="8521e-104">Overview</span></span>
 

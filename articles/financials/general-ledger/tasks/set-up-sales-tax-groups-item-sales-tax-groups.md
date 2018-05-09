@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7c63c8c6d31d803eba384ad46407abaae2654a97
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1214d86be5f8f5a5d1c65e25dfc0d4c046ff6e62
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="82115-103">设置销售税组和物料销售税组</span><span class="sxs-lookup"><span data-stu-id="82115-103">Set up sales tax groups and item sales tax groups</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="82115-104">此任务记录向您介绍销售税和物料销售税组的设置。</span><span class="sxs-lookup"><span data-stu-id="82115-104">This task recording walks you through the setup of Sales tax and Item sales tax groups.</span></span> <span data-ttu-id="82115-105">增值税组是附加到客户和供应商的增值税代码组。</span><span class="sxs-lookup"><span data-stu-id="82115-105">Sales tax groups are groups of sales tax codes that are attached to customers and vendors.</span></span> <span data-ttu-id="82115-106">它们也附加到了交易记录的会计科目，这些会计科目没有过账到某个特定的供应商或客户。</span><span class="sxs-lookup"><span data-stu-id="82115-106">They are also attached to ledger accounts for transactions that are not posted to a particular vendor or customer.</span></span>  <span data-ttu-id="82115-107">物料销售税组是附到产品等资源中的销售税代码组。</span><span class="sxs-lookup"><span data-stu-id="82115-107">Item sales tax groups are groups of sales tax codes that are attached to resources like products.</span></span>  <span data-ttu-id="82115-108">应用到特定交易记录的增值税由该交易记录的增值税组及增值税（物料）组中包括的增值税代码决定。</span><span class="sxs-lookup"><span data-stu-id="82115-108">The sales taxes that apply to a particular transaction are determined by the sales tax codes that are included both in the sales tax group and in the item sales tax group of the transaction.</span></span>  <span data-ttu-id="82115-109">仅当为必须及时或记录增值税的每个交易记录选择了增值税组合物料增值税组，才能计算增值税。</span><span class="sxs-lookup"><span data-stu-id="82115-109">Sales tax can be calculated only if a sales tax group and an item sales tax group are selected for each transaction for which sales tax must be calculated or recorded.</span></span>  
 

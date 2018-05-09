@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 50435f858524013c3b0e67939bd29ab18b4272b0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d306b9f28daf73884d5804720be3dba41e569509
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-lean-schedule-groups"></a><span data-ttu-id="54d8f-103">定义精益计划组</span><span class="sxs-lookup"><span data-stu-id="54d8f-103">Define lean schedule groups</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="54d8f-104">精益计划组被定义为组，可区分看板计划中的产品。</span><span class="sxs-lookup"><span data-stu-id="54d8f-104">Lean schedule groups are defined to group and distinguish products in kanban scheduling.</span></span> <span data-ttu-id="54d8f-105">每个公司或特定工作单元均可以通过通用关联实现分组。</span><span class="sxs-lookup"><span data-stu-id="54d8f-105">The grouping can be done as generic association per company or specific to a work cell.</span></span> <span data-ttu-id="54d8f-106">为了在看板计划列表页具有目视识别特征，每个组都被分配了一个颜色代码。</span><span class="sxs-lookup"><span data-stu-id="54d8f-106">Each group has a color code assigned for visual indication in the kanban scheduling list page.</span></span> <span data-ttu-id="54d8f-107">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="54d8f-107">The demo data company used to create this procedure is USMF.</span></span>
 

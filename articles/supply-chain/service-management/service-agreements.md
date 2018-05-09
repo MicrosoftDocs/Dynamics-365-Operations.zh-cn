@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dfb8d101c69e9bfdb918dca5cf48da1f6d2564b8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cb49aeab26decf7c40d890fe3a73f0651e86281b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-agreements"></a><span data-ttu-id="5c1bf-103">服务协议</span><span class="sxs-lookup"><span data-stu-id="5c1bf-103">Service agreements</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5c1bf-104">在服务协议中，您可以定义在典型服务访问中使用的资源以及如何对这些资源向客户开票。</span><span class="sxs-lookup"><span data-stu-id="5c1bf-104">Service agreements let you define the resources that are used in a typical service visit and how those resources are invoiced to the customer.</span></span>
 

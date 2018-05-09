@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f3defa29581c6c90994a673bd73d96613101a391
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cc01f7d2cec25d754263e361e5de9ad1499d9523
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="general-ledger"></a><span data-ttu-id="e9226-103">总帐</span><span class="sxs-lookup"><span data-stu-id="e9226-103">General ledger</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e9226-104">使用总帐定义和管理法人的财务记录。</span><span class="sxs-lookup"><span data-stu-id="e9226-104">Use General ledger to define and manage the legal entity’s financial records.</span></span> <span data-ttu-id="e9226-105">总帐是借方和贷方登记条目。</span><span class="sxs-lookup"><span data-stu-id="e9226-105">The general ledger is a register of debit and credit entries.</span></span> <span data-ttu-id="e9226-106">这些条目进行分类使用在会计科目表中列出的科目。</span><span class="sxs-lookup"><span data-stu-id="e9226-106">These entries are classified using the accounts that are listed in a chart of accounts.</span></span> 
 

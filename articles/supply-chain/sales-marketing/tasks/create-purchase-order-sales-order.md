@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a840324862a7d3e279fce49288771d202527b77
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3774943e7147df88be0133c6fc983df54ca70f35
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a><span data-ttu-id="a7294-103">基于销售订单创建采购订单</span><span class="sxs-lookup"><span data-stu-id="a7294-103">Create a purchase order from a sales order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a7294-104">此过程向您显示如何创建基于销售订单的采购订单。</span><span class="sxs-lookup"><span data-stu-id="a7294-104">This procedure shows you how to create a purchase order that is based on a sales order.</span></span> <span data-ttu-id="a7294-105">采购订单上的产品数量将指定以履行源销售订单的需求。</span><span class="sxs-lookup"><span data-stu-id="a7294-105">The product's quantities on the purchase order are then designated to fulfill the demand of the originating sales order.</span></span> <span data-ttu-id="a7294-106">这一履行销售需求的方法是更全面、优化的方法“分配需求计划”的替代方法。</span><span class="sxs-lookup"><span data-stu-id="a7294-106">Fulfilling sales demand this way is an alternative to a more comprehensive and optimized method of Distribution Requirements Planning.</span></span> <span data-ttu-id="a7294-107">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="a7294-107">You can run this procedure in demo data company USMF or on your own data.</span></span>
 

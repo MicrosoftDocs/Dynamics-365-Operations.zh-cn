@@ -17,16 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 11739c8b2979cf7ac9aad04e5be9903d6bc1837a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e21605dbe9d4f8182b868183e33a12e9b7e62422
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="personal-expenses-on-an-expense-report"></a><span data-ttu-id="39a8d-103">支出报表上的人员支出</span><span class="sxs-lookup"><span data-stu-id="39a8d-103">Personal expenses on an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="39a8d-104">在出差期间，员工有时可能将个人支出计费到它们的公司信用卡。</span><span class="sxs-lookup"><span data-stu-id="39a8d-104">During business travel, workers might sometimes charge personal expenses to their corporate credit cards.</span></span> <span data-ttu-id="39a8d-105">如果不制订个人支出处理流程，则在员工提交其明细化的支出报表时，支出报表审核流程可能会中断。</span><span class="sxs-lookup"><span data-stu-id="39a8d-105">If you don't define a process for handling personal expenses, the approval process for expense reports might be disrupted when workers submit their itemized expense reports.</span></span> 
 

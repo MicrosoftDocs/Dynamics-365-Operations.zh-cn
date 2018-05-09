@@ -20,16 +20,16 @@ ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c094bfa07275c14ba63cae5404156ce72c52d0b5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 633fd6d8bfe9e2b46a899779ad823e5738de7dbe
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a><span data-ttu-id="9e557-104">确定叠加折扣的最佳组合</span><span class="sxs-lookup"><span data-stu-id="9e557-104">Determine the optimal combination of overlapping discounts</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="9e557-105">折扣叠加时，必须确定将产生最低交易记录总额或最高折扣总额的叠加折扣组合。</span><span class="sxs-lookup"><span data-stu-id="9e557-105">When discounts overlap, you must determine the combination of overlapping discounts that will produce the lowest transaction total or the highest total discount.</span></span> <span data-ttu-id="9e557-106">当折扣金额根据购买的产品价格变化时（如常见的“第二件打折 (BOGO) 零售折扣），此过程就成为了组合优化问题。</span><span class="sxs-lookup"><span data-stu-id="9e557-106">When the discount amount varies according to the price of the products that are purchased, such as in the common “Buy 1, get 1 X percent off” (BOGO) retail discount, this process becomes an issue of combinatorial optimization.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae064c6a8fe49df4c462c59ac71dedfb1bca28f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 87fe34fab111866c07365ce51dd0c45633ea6580
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-time-and-attendance"></a><span data-ttu-id="06670-103">零售考勤管理</span><span class="sxs-lookup"><span data-stu-id="06670-103">Retail time and attendance</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="06670-104">此主题介绍 Microsoft Dynamics 365 for Retail 中零售工时和出勤管理支持的方案。</span><span class="sxs-lookup"><span data-stu-id="06670-104">This topic describes the scenarios that are supported for time and attendance management in Microsoft Dynamics 365 for Retail.</span></span> 
 

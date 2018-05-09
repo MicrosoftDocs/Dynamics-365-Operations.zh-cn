@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 27097eccd3d3c2db03b62b27d793c3410afe276b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6fd8fa935a868ec72f33088d0479d1c42b3fc926
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formulas-and-formula-versions"></a><span data-ttu-id="aaad6-105">配方和配方版本</span><span class="sxs-lookup"><span data-stu-id="aaad6-105">Formulas and formula versions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="aaad6-106">配方定义流程制造中的特定流程的物料、成分和结果。</span><span class="sxs-lookup"><span data-stu-id="aaad6-106">A formula defines the materials, ingredients, and outcomes of a specific process in process manufacturing.</span></span> <span data-ttu-id="aaad6-107">配方与相应的工艺路线一起定义流程制造中的整个流程。</span><span class="sxs-lookup"><span data-stu-id="aaad6-107">Together with the corresponding route, the formula defines the whole process in process manufacturing.</span></span> <span data-ttu-id="aaad6-108">配方用于计划和生产流程制造中的产品。</span><span class="sxs-lookup"><span data-stu-id="aaad6-108">Formulas are used to plan and produce products in process manufacturing.</span></span>
 

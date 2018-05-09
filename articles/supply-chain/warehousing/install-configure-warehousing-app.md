@@ -20,16 +20,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f8ab1d719b6f0a469219b58ed3a919b0c36dcb45
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cccfb89639e7160a5fd0e3a676b125aeff9d861a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a><span data-ttu-id="e1e19-103">安装和配置 Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing</span><span class="sxs-lookup"><span data-stu-id="e1e19-103">Install and configure Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > 

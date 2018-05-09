@@ -16,15 +16,15 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e326acd4a7f681b02ee4846d36e94559ce6dbdfa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b2587af5e004bb6ccebe01487a7b3b92ee965f38
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a><span data-ttu-id="d7fcc-103">设置增值税分类帐记帐组</span><span class="sxs-lookup"><span data-stu-id="d7fcc-103">Set up ledger posting groups for sales tax</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d7fcc-104">将计算销售税，并过帐到分类帐过帐组中指定的主科目。</span><span class="sxs-lookup"><span data-stu-id="d7fcc-104">Sales tax is calculated and posted to main accounts that are specified in the Ledger posting groups.</span></span> <span data-ttu-id="d7fcc-105">分类帐过帐组将分配给每个销售税代码。</span><span class="sxs-lookup"><span data-stu-id="d7fcc-105">Ledger posting groups are attached to each sales tax code.</span></span> <span data-ttu-id="d7fcc-106">您可以为每个销售税代码设置单独的分类帐过帐组，将一个分类帐过帐组用于所有销售税代码，或者可以将多个分类帐过帐组分配给销售税代码。</span><span class="sxs-lookup"><span data-stu-id="d7fcc-106">You can set up individual ledger posting groups for each sales tax code, use one ledger posting group for all sales tax codes or assign multiple ledger posting groups to the sales tax codes.</span></span> <span data-ttu-id="d7fcc-107">此记录使用 DEMF 公司演示。</span><span class="sxs-lookup"><span data-stu-id="d7fcc-107">This recording uses the DEMF demo company.</span></span> 
 

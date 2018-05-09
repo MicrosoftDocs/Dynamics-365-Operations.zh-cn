@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 98005c91c98c5e924a36a71a88621cbcecb531bc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9155a770af72a6cf5d391171f4267eb140b244e0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-an-operating-unit"></a><span data-ttu-id="dcefd-103">创建运营单位</span><span class="sxs-lookup"><span data-stu-id="dcefd-103">Create an operating unit</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dcefd-104">运营单位是用来拆分企业中的经济资源和运营流程的控件的组织。</span><span class="sxs-lookup"><span data-stu-id="dcefd-104">An operating unit is an organization that is used to divide the control of economic resources and operational processes in a business.</span></span> <span data-ttu-id="dcefd-105">运营单位中的人有义务最大化对稀有资源的使用、改进流程和记录他们的业绩。</span><span class="sxs-lookup"><span data-stu-id="dcefd-105">People in an operating unit have a duty to maximize the use of scarce resources, improve processes, and account for their performance.</span></span> <span data-ttu-id="dcefd-106">运营单位的类型包括成本中心、业务单位、部门以及价值流。</span><span class="sxs-lookup"><span data-stu-id="dcefd-106">The types of operating units include cost centers, business units, departments, and value streams.</span></span> <span data-ttu-id="dcefd-107">使用以下过程创建运营单位。</span><span class="sxs-lookup"><span data-stu-id="dcefd-107">Use the following procedure to create an operating unit.</span></span> <span data-ttu-id="dcefd-108">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="dcefd-108">The demo data company used to create this procedure is USMF.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 21efce9bb38aa5fc93d51bf34c1fe41e89513552
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ccddd60e69768362839750f07adf5293d0b16f03
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-and-process-recurring-invoices"></a><span data-ttu-id="a52b7-104">设置和处理重复发票</span><span class="sxs-lookup"><span data-stu-id="a52b7-104">Set up and process recurring invoices</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a52b7-105">本文说明如何设置和处理重复发票。</span><span class="sxs-lookup"><span data-stu-id="a52b7-105">This article explains how to set up and process recurring invoices.</span></span> <span data-ttu-id="a52b7-106">如果您必须定期为客户开具相同金额的发票，可以使用重复发票。</span><span class="sxs-lookup"><span data-stu-id="a52b7-106">You can use recurring invoices if you must invoice customers for the same amount on a regular basis.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a8dcef8d8ba6f6d41a997b5b0623cb9577ce00d3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ba2a5e4d96e02d627df1f7f88548ff5a214a3830
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-calendar-and-generate-working-times"></a><span data-ttu-id="41539-103">创建日历和生成工作时间</span><span class="sxs-lookup"><span data-stu-id="41539-103">Create a calendar and generate working times</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="41539-104">日历描述运营资源的产能和工作时间。</span><span class="sxs-lookup"><span data-stu-id="41539-104">Calendars describe the capacity and working times of operations resources.</span></span> <span data-ttu-id="41539-105">该过程将帮助您定义基于工作时间模板的工作日历。</span><span class="sxs-lookup"><span data-stu-id="41539-105">This procedure will help you define a work calendar based on a working time template.</span></span> <span data-ttu-id="41539-106">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="41539-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 

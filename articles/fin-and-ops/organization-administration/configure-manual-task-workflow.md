@@ -18,16 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8cda2ea6e75b3d33160599cc4334a7b4d2612815
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b2bdfb2f0f527c4f9b14f37c3a55fcdc3c0605f7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-a-manual-task-in-a-workflow"></a><span data-ttu-id="f2cbd-103">在工作流中配置手动任务</span><span class="sxs-lookup"><span data-stu-id="f2cbd-103">Configure a manual task in a workflow</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f2cbd-104">本主题说明如何配置手动任务的属性。</span><span class="sxs-lookup"><span data-stu-id="f2cbd-104">This topic explains how to configure the properties for a manual task.</span></span>
 

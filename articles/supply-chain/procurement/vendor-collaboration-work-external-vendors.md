@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0c035f73fb35c6390be3c665c2645b1fdc411650
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="vendor-collaboration-with-external-vendors"></a><span data-ttu-id="8d91e-103">供应商与外部供应商的协作</span><span class="sxs-lookup"><span data-stu-id="8d91e-103">Vendor collaboration with external vendors</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8d91e-104">**供应商协作**模块针对的是没有与 Microsoft Dynamics 365 for Finance and Operations 进行电子数据交换 (EDI) 集成的供应商。</span><span class="sxs-lookup"><span data-stu-id="8d91e-104">The **Vendor collaboration** module is targeted at vendors who don't have electronic data interchange (EDI) integration with Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="8d91e-105">它允许供应商处理采购订单 (PO)、发票、托运库存信息和询价 (RFQ)，也可用来访问一部分供应商主数据。</span><span class="sxs-lookup"><span data-stu-id="8d91e-105">It lets vendors work with purchase orders (POs), invoices, consignment inventory information, and requests for quotation (RFQs), and also lets them access parts of their vendor master data.</span></span> <span data-ttu-id="8d91e-106">本主题介绍您可以如何与使用供应商协作界面的外部供应商协作处理 PO、询价和托运库存。</span><span class="sxs-lookup"><span data-stu-id="8d91e-106">This topic explains how you can collaborate with external vendors who use the vendor collaboration interface to work with POs, RFQs, and consignment inventory.</span></span> <span data-ttu-id="8d91e-107">还介绍了如何允许特定供应商使用供应商协作，以及如何定义所有供应商在响应采购订单时将看到的信息。</span><span class="sxs-lookup"><span data-stu-id="8d91e-107">It also explains how to enable a specific vendor to use vendor collaboration, and how to define the information that all vendors see when they respond to a PO.</span></span>
 

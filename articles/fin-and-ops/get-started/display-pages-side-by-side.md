@@ -18,16 +18,16 @@ ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f19ca5e9642b5a8222ee7bf23fdd228ab75d2ed1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b0ffd313e0f1d50f35235d3a48f8715bb6c8de7b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="display-pages-side-by-side-using-the-open-in-new-window-icon"></a><span data-ttu-id="3de15-103">使用“在新窗口中打开”图标并排显示页面</span><span class="sxs-lookup"><span data-stu-id="3de15-103">Display pages side-by-side using the Open in New Window icon</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3de15-104">本文说明如何在 Microsoft Dynamics 365 for Finance and Operations 中并行显示页面。</span><span class="sxs-lookup"><span data-stu-id="3de15-104">This article explains how to display pages side-by-side in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

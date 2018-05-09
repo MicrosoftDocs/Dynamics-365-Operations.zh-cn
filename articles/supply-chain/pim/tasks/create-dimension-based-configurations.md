@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 103d925a301e62c52faacd7bbaf100d27901728d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 55f69d75b7b00eb640eb3fff5eda28a420fa84ad
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-dimension-based-configurations"></a><span data-ttu-id="03f5d-103">创建基于维度的配置</span><span class="sxs-lookup"><span data-stu-id="03f5d-103">Create dimension-based configurations</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="03f5d-104">此过程显示如何定义基于维度的产品的配置。</span><span class="sxs-lookup"><span data-stu-id="03f5d-104">This procedure shows how to define a configuration for a dimension-based product.</span></span> <span data-ttu-id="03f5d-105">这是此系列中最后一个说明如何构建基于维度的配置组合的过程。</span><span class="sxs-lookup"><span data-stu-id="03f5d-105">This is the last procedure in the series that explains how to build combinations for dimension-based configuration.</span></span> <span data-ttu-id="03f5d-106">此过程的执行取决于在前七个记录中创建的数据。</span><span class="sxs-lookup"><span data-stu-id="03f5d-106">The execution of this procedure is dependent on the data created in the previous seven recordings.</span></span> <span data-ttu-id="03f5d-107">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="03f5d-107">The demo data company used to create this procedure is USMF.</span></span>
 

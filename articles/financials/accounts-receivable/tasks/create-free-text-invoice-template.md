@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d785922d1c6775d95ad5697eb6a872434e59c8e4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 519d0b0ef8153283aa63bc7fa00b4f4b5283fbc1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-free-text-invoice-template"></a><span data-ttu-id="fd596-103">创建普通发票模板</span><span class="sxs-lookup"><span data-stu-id="fd596-103">Create a free text invoice template</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fd596-104">此记录使用 USMF 公司演示。</span><span class="sxs-lookup"><span data-stu-id="fd596-104">This recording uses the USMF demo company.</span></span> <span data-ttu-id="fd596-105">该记录由负责管理和处理“应收账款”发票的用户负责。</span><span class="sxs-lookup"><span data-stu-id="fd596-105">The recording is intended for the user who is responsible for managing and processing A/R invoices.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1285b62130e0c3b0eb30773b3ccaa7a31d844461
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 27c3f8d5a3e62d3867dcb4435479baf6db208942
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="practice-manager-power-bi-content"></a><span data-ttu-id="184f3-104">实践经理 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="184f3-104">Practice manager Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="184f3-105">此主题介绍**实践经理** Microsoft Power BI 内容中的内容。</span><span class="sxs-lookup"><span data-stu-id="184f3-105">This topic describes what is included in the **Practice manager** Microsoft Power BI content.</span></span> <span data-ttu-id="184f3-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="184f3-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 

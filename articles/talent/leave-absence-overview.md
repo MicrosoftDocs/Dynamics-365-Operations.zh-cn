@@ -19,15 +19,15 @@ ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 66e4be092a7728f061cb9b09157712ffcf37c923
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5568482424f5afca6773fa66ca43691bcd1e95e2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="leave-and-absence-management-overview"></a><span data-ttu-id="e1538-103">休假和缺勤管理概览</span><span class="sxs-lookup"><span data-stu-id="e1538-103">Leave and absence management overview</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="e1538-104">**休假爱喝缺勤管理**模块提供灵活的框架，用于定义缺勤管理流程。</span><span class="sxs-lookup"><span data-stu-id="e1538-104">The **Leave and absence management** module offers a flexible framework for defining the absence management process.</span></span> <span data-ttu-id="e1538-105">可以创建休假和缺勤计划以确定员工累积假期或如何赠予休假。</span><span class="sxs-lookup"><span data-stu-id="e1538-105">Leave and absence plans can be created to determine how employees accrue or are granted time off.</span></span> <span data-ttu-id="e1538-106">员工在计划中登记后，可以提交休假申请供经理审批。</span><span class="sxs-lookup"><span data-stu-id="e1538-106">After employees are enrolled in a plan, they can submit time-off requests for approval by managers.</span></span> <span data-ttu-id="e1538-107">休假跟踪荣一线经理和人力资源 (HR) 经理都可以看到谁在休假，以及每位员工剩余的假期量。</span><span class="sxs-lookup"><span data-stu-id="e1538-107">Leave tracking lets both first-level managers and Human Resources (HR) managers see who is taking time off and how much time off each employee still has.</span></span>  
 

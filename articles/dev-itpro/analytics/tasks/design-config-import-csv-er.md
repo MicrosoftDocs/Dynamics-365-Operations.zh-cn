@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0859eb7bf461f61396c34f4bcd89537260a536a0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f80b9824e005ccca5beb8577576781d00a43d7b3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="design-a-configuration-to-import-data-from-an-external-file-in-csv-format-er"></a><span data-ttu-id="422e2-103">设计一个配置以从 CSV 格式的外部文件导入数据 (ER)</span><span class="sxs-lookup"><span data-stu-id="422e2-103">Design a configuration to import data from an external file in CSV format (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="422e2-104">使用此过程可以设计电子报告 (ER) 配置以从 CSV 格式的外部文件将数据导入 Dynamics 365 for Finance and Operations 应用的信息。</span><span class="sxs-lookup"><span data-stu-id="422e2-104">Use this procedure to design Electronic reporting (ER) configurations to import data in to the Dynamics 365 for Finance and Operations application from an external file in CSV format.</span></span> <span data-ttu-id="422e2-105">在此过程中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成过程“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。</span><span class="sxs-lookup"><span data-stu-id="422e2-105">In this procedure, you will create the required ER configurations for the sample company, Litware, Inc. To complete these steps, you must first complete the steps in the procedure, “ER Create a configuration provider and mark it as active.”</span></span> 
 

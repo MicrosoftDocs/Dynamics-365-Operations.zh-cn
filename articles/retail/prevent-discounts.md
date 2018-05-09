@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 77249f763f3ff6d937aef4db1a13aabfba6fd606
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3b10270ea410b45d8c39885b3b87183b078378e0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prevent-discounts-for-retail-products"></a><span data-ttu-id="e989e-103">防止为零售产品打折</span><span class="sxs-lookup"><span data-stu-id="e989e-103">Prevent discounts for retail products</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="e989e-104">零售商可能出于多种原因不希望 POS 中某些产品在促销或销售期间不打折。</span><span class="sxs-lookup"><span data-stu-id="e989e-104">There are various reasons why retailers may want to prevent some products from being discounted, either from a promotion or during the sale at the POS.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 101ebe4a2e177a5702a162297e1820598e56a6e5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b0336bcaa7062a9b24079d8491ce426041751ccf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="associate-a-fuel-index-with-a-carrier-as-an-accessorial-charge"></a><span data-ttu-id="d7b41-103">将燃油指数作为附属费用与承运人关联</span><span class="sxs-lookup"><span data-stu-id="d7b41-103">Associate a fuel index with a carrier as an accessorial charge</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d7b41-104">本指南显示如何创建附属分配、承运人附加费用、燃油附加费的附属主数据，以及将承运人燃油指数与承运人关联。</span><span class="sxs-lookup"><span data-stu-id="d7b41-104">This guide shows how to create an accessorial assignment, carrier accessorial charge, accessorial master for fuel surcharge, and associate a carrier fuel index with a carrier.</span></span> <span data-ttu-id="d7b41-105">您需要设置承运人燃油指数才能运行此指南。</span><span class="sxs-lookup"><span data-stu-id="d7b41-105">You need to have set up a carrier fuel index before you run this guide.</span></span> <span data-ttu-id="d7b41-106">您可以使用“设置承运人燃油指数”指南来执行此操作。</span><span class="sxs-lookup"><span data-stu-id="d7b41-106">You can use the “Set up a carrier fuel index” guide to do this.</span></span> <span data-ttu-id="d7b41-107">这些设置任务通常由物流经理完成。</span><span class="sxs-lookup"><span data-stu-id="d7b41-107">These setup tasks are typically done by a Logistics manager.</span></span> <span data-ttu-id="d7b41-108">使用 USMF 演示数据创建此过程。</span><span class="sxs-lookup"><span data-stu-id="d7b41-108">The demo data used to create this procedure is USMF.</span></span>
 

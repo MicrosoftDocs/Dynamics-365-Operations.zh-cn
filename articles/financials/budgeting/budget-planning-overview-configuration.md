@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dca3db2177a50b6fbc7c1984a9f277087cc63281
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-overview"></a><span data-ttu-id="f0123-103">预算计划概览</span><span class="sxs-lookup"><span data-stu-id="f0123-103">Budget planning overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f0123-104">本文介绍预算计划并包含帮助您配置预算计划和设置预算计划流程的信息。</span><span class="sxs-lookup"><span data-stu-id="f0123-104">This article introduces budget planning, and contains information to help you configure budget planning and set up budget planning processes.</span></span>
 

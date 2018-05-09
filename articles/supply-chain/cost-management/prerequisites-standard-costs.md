@@ -20,16 +20,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7f1cef3198462eab15c1c7d2de4c5d4a5576919
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1b0de596c1b40a4213128d5ed51066ee414681d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prerequisites-for-standard-costs"></a><span data-ttu-id="d85c1-103">针对标准成本的先决条件</span><span class="sxs-lookup"><span data-stu-id="d85c1-103">Prerequisites for standard costs</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d85c1-104">本主题介绍使用标准成本的基本步骤。</span><span class="sxs-lookup"><span data-stu-id="d85c1-104">This topic describes the basic steps for using standard costs.</span></span> <span data-ttu-id="d85c1-105">后续步骤取决于公司的运营。</span><span class="sxs-lookup"><span data-stu-id="d85c1-105">Subsequent steps depend on the company's operations.</span></span> <span data-ttu-id="d85c1-106">例如，对于非制造环境、不使用工艺路线的制造环境和使用工艺路线的制造环境，这些步骤有所不同。</span><span class="sxs-lookup"><span data-stu-id="d85c1-106">For example, the steps differ for a nonmanufacturing environment, a manufacturing environment that doesn't use routings, and a manufacturing environment that uses routings.</span></span> 
 

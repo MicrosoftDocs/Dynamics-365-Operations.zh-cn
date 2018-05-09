@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 65471905c033aa7bbfd642a6c4ea584e9c8346d5
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dc3d6790e6fde3efac948773996894daa0be4143
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-schedule-for-a-site"></a><span data-ttu-id="e4a3e-103">创建站点计划</span><span class="sxs-lookup"><span data-stu-id="e4a3e-103">Create a schedule for a site</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e4a3e-104">此过程显示如何计划没有为站点开始的生产订单。</span><span class="sxs-lookup"><span data-stu-id="e4a3e-104">This procedure shows how to schedule production orders that are not yet started for a site.</span></span>  <span data-ttu-id="e4a3e-105">演示数据公司 USMF 用于完成此过程。</span><span class="sxs-lookup"><span data-stu-id="e4a3e-105">The demo data company USMF is used to complete this procedure.</span></span>
 

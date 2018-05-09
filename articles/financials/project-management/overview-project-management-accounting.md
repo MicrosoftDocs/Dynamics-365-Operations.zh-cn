@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 24a2c35685084ccb3f7554dd6c9c6f46c031b129
-ms.openlocfilehash: d7cd81c344dabde50c30fc9b52053221470887a7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 663b0dcb14cedc070198cf5d99976027bac1eef5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="project-management-and-accounting"></a><span data-ttu-id="87933-103">项目管理与核算</span><span class="sxs-lookup"><span data-stu-id="87933-103">Project management and accounting</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="87933-104">项目管理和核算功能可在多个行业提供服务、生产产品或实现结果。</span><span class="sxs-lookup"><span data-stu-id="87933-104">The project management and accounting functionality can be used in multiple industries to provide a service, produce a product, or achieve a result.</span></span>  
 

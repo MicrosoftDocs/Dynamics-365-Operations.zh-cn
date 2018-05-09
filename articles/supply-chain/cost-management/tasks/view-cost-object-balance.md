@@ -17,15 +17,15 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0d6ac0bcd1bc4b8e4395fd6d9d4e00c39d8c8695
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 35ba70cbf2f7d88ea219716c92ae7880c7ef62a9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="view-cost-object-balance"></a><span data-ttu-id="b0969-103">查看成本对象余额</span><span class="sxs-lookup"><span data-stu-id="b0969-103">View cost object balance</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b0969-104">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="b0969-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="b0969-105">此程序是专为成本控制设计的。</span><span class="sxs-lookup"><span data-stu-id="b0969-105">This procedure is intended for the cost controller.</span></span>
 

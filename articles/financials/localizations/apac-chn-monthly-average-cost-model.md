@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fc6a7b601b492c781ad9e62a465439a993c58c9b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 309fab261dc3d43e46ee627b39c9285cb93cef27
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="monthly-average-cost-model-for-china"></a><span data-ttu-id="e2e63-103">中国的每月平均成本模型</span><span class="sxs-lookup"><span data-stu-id="e2e63-103">Monthly average cost model for China</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="e2e63-104">库存成本用于确定仓库库存物料的成本或货币值。</span><span class="sxs-lookup"><span data-stu-id="e2e63-104">Inventory costing is used to determine the cost or monetary value of warehoused inventory items.</span></span>
 

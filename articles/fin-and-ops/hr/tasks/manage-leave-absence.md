@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec30fc5e4d3289264da0e40dc981c597c04f4c15
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dda5b8e1f970a0de4c362cb825947f0fde4f41d9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="manage-leave-of-absence"></a><span data-ttu-id="f5ea9-103">管理休假</span><span class="sxs-lookup"><span data-stu-id="f5ea9-103">Manage leave of absence</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f5ea9-104">此过程为员工休假记录的创建。</span><span class="sxs-lookup"><span data-stu-id="f5ea9-104">This procedure walks through the creation of employee leave records.</span></span> <span data-ttu-id="f5ea9-105">您可以跟踪休假原因，包括医疗、教育或父母亲活动。</span><span class="sxs-lookup"><span data-stu-id="f5ea9-105">You can track leave time for reasons that include medical, educational, or parental activities.</span></span> <span data-ttu-id="f5ea9-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="f5ea9-106">The demo data company used to create this procedure is USMF.</span></span>
 

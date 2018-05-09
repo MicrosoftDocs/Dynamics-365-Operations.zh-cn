@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2acb1f1bddb725edf47440b1860eed612edaf17f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a3726f7de1679fa3aaeda43a55b9ca14895f5ac4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-dimensions-and-import-dimension-members"></a><span data-ttu-id="a42aa-103">创建维度并导入维度成员</span><span class="sxs-lookup"><span data-stu-id="a42aa-103">Create dimensions and import dimension members</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a42aa-104">成本核算是一个独立的模块，需要来自其他模块的数据。</span><span class="sxs-lookup"><span data-stu-id="a42aa-104">Cost accounting is an independent module that requires data from other modules.</span></span> <span data-ttu-id="a42aa-105">该数据分为以下类别：</span><span class="sxs-lookup"><span data-stu-id="a42aa-105">This data is categorized into the following:</span></span>
 

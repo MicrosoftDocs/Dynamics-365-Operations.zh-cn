@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 73f5e34054bee5c7b81ca6d4b3e4b3d2339a6b86
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8e2db9b3d925b75d8f59aa3168537078592cd2f7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="deposit-customer-payments"></a><span data-ttu-id="53d36-103">存放客户付款</span><span class="sxs-lookup"><span data-stu-id="53d36-103">Deposit customer payments</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="53d36-104">存入客户付款。</span><span class="sxs-lookup"><span data-stu-id="53d36-104">Deposit customer payments.</span></span> <span data-ttu-id="53d36-105">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="53d36-105">This task uses the USMF demo company.</span></span>
 

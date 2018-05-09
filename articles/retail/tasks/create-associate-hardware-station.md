@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 023c3b3be6544ecf25975965daf1487159c6076b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2720ba4060252ef6d6d27e310619ec5639f020ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-associate-a-hardware-station"></a><span data-ttu-id="3b99c-103">创建和关联硬件工作站</span><span class="sxs-lookup"><span data-stu-id="3b99c-103">Create and associate a hardware station</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3b99c-104">此程序会逐步演示如何创建新的硬件工作站。</span><span class="sxs-lookup"><span data-stu-id="3b99c-104">This procedure walks through how to create a new hardware station.</span></span> <span data-ttu-id="3b99c-105">新硬件配置文件将被创建和用于添加新的硬件工作站到预定义的商店（渠道）。</span><span class="sxs-lookup"><span data-stu-id="3b99c-105">A new hardware profile will be created and used to add new hardware stations to a pre-defined store (channel).</span></span> <span data-ttu-id="3b99c-106">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="3b99c-106">This procedure uses the USRT company in demo data.</span></span>
 

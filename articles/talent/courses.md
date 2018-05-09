@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a86709bc222339531a21997510a65c138024256c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3e0a13d0b1882e6160a05925d97ecd85f1edfbaa
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-training-courses"></a><span data-ttu-id="681d9-103">设置培训课程</span><span class="sxs-lookup"><span data-stu-id="681d9-103">Set up training courses</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="681d9-104">人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。</span><span class="sxs-lookup"><span data-stu-id="681d9-104">Human resources administrators and managers can use the courses features to maintain information about the training that's offered to workers.</span></span>
 

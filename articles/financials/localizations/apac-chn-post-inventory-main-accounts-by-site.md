@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bfce77098ca8fd880c018e756a614b0981c6e9b0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ec9cedcd93f04914a1a6e9e5ec680cb56d3f574a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="post-inventory-main-accounts-by-site-for-china"></a><span data-ttu-id="c692e-103">按中国站点过帐主库存科目</span><span class="sxs-lookup"><span data-stu-id="c692e-103">Post inventory main accounts by site for China</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c692e-104">此主题提供有关按中国的站点过帐库存主科目过帐的信息。</span><span class="sxs-lookup"><span data-stu-id="c692e-104">This topic provides information about the posting of inventory main accounts by site for China.</span></span>
 

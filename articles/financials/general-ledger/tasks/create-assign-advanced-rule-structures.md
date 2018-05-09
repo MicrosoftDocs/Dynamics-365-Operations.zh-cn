@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 42b474302f5a930c3f7969317ba68cb3f22acd91
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f9334e123733357a9c94f45180393b93cf4c40ba
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a><span data-ttu-id="fb626-103">创建和分配高级规则结构</span><span class="sxs-lookup"><span data-stu-id="fb626-103">Create and assign advanced rule structures</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fb626-104">此任务指南介绍创建高级规则结构并分配至帐户结构的步骤。</span><span class="sxs-lookup"><span data-stu-id="fb626-104">This task guide steps through creating and assigning an advanced rule structure to an account structure.</span></span> <span data-ttu-id="fb626-105">此指南使用演示公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="fb626-105">This guide uses the USMF demo company.</span></span>
 

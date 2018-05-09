@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c5f795f8d3c31c9acdbddd94879dbd427145956c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3b70bdf110a1bcf27a73dea3f593c6f6a4cbf5ea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-kanban-rule-using-a-minimum-stock-event"></a><span data-ttu-id="dafcf-103">使用最小库存事件创建看板规则</span><span class="sxs-lookup"><span data-stu-id="dafcf-103">Create a kanban rule using a minimum stock event</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dafcf-104">此过程重点介绍通过使用最低存货事件创建看板规则以确保特定产品在特定地点始终可用时所需的设置。</span><span class="sxs-lookup"><span data-stu-id="dafcf-104">This procedure focuses on the setup needed to create a kanban rule using a minimum stock event to ensure that a specific product is always available at a specific location.</span></span> <span data-ttu-id="dafcf-105">创建看板规则，以便在库存水平下降到低于 200 件时将物料转移到该地点。</span><span class="sxs-lookup"><span data-stu-id="dafcf-105">A kanban rule is created to transfer material to the location when the inventory level drops below 200 pieces.</span></span> <span data-ttu-id="dafcf-106">通过运行需求声明事件处理，创建所需看板。</span><span class="sxs-lookup"><span data-stu-id="dafcf-106">By running the Pegging event processing, the needed kanbans are created.</span></span> <span data-ttu-id="dafcf-107">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="dafcf-107">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="dafcf-108">该任务面向工艺工程师或价值流经理，因为他们负责新型或改良产品的生产准备。</span><span class="sxs-lookup"><span data-stu-id="dafcf-108">This task is intended for the process engineer or the value stream manager, as they prepare production of a new or modified product in a lean environment.</span></span>
 

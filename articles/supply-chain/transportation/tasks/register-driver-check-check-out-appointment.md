@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d21a4aa035b55385c8b0ced3bfe91c7aaf064267
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ec4d3b1503d8159847bcf8083b5b663499df9798
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a><span data-ttu-id="b511b-103">登记约会的驾驶员签入和签出</span><span class="sxs-lookup"><span data-stu-id="b511b-103">Register driver check-in and check-out for an appointment</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b511b-104">此过程显示如何登记驾驶员签入和驾驶员签出。这通常由运输协调员完成。</span><span class="sxs-lookup"><span data-stu-id="b511b-104">This procedure shows how to register a driver check-in and a driver check-out. This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="b511b-105">您可以在 USMF 演示数据公司中使用此过程。</span><span class="sxs-lookup"><span data-stu-id="b511b-105">You can use this procedure in the USMF demo data company.</span></span> <span data-ttu-id="b511b-106">首先必须为负荷设置预约。</span><span class="sxs-lookup"><span data-stu-id="b511b-106">Before you start, there must be an appointment set up for a load.</span></span> <span data-ttu-id="b511b-107">若要创建预约，可以提前运行“为负荷设置预约”过程。</span><span class="sxs-lookup"><span data-stu-id="b511b-107">To create an appointment, you can run the “Set up an appointment for a load” procedure as a prerequisite.</span></span>
 

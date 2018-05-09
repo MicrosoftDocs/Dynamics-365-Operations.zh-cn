@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ebfaa28d85d53e1bac95eb84bd8410204ecca824
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6a522191f35a0455242c5c001548cc4d7e21fecc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-boms-as-finished"></a><span data-ttu-id="00200-103">将物料清单报告为已完工入库</span><span class="sxs-lookup"><span data-stu-id="00200-103">Report BOMs as finished</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="00200-104">本文提供了有关将物料清单报告为已完工入库的信息。</span><span class="sxs-lookup"><span data-stu-id="00200-104">This article provides information about reporting BOMs as finished.</span></span>
 

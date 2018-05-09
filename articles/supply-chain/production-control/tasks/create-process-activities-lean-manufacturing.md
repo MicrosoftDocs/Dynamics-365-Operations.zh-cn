@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 977856385cd6170e141884320b8f8c7226d206cf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c1e7cb939c9b936a58486de13f73150aebccb548
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-process-activities-for-lean-manufacturing"></a><span data-ttu-id="d5345-103">创建 lean manufacturing 的流程活动</span><span class="sxs-lookup"><span data-stu-id="d5345-103">Create process activities for lean manufacturing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d5345-104">创建 lean manufacturing 的流程活动。</span><span class="sxs-lookup"><span data-stu-id="d5345-104">Create a process activity for lean manufacturing.</span></span> 
 

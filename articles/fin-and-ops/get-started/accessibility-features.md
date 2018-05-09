@@ -16,16 +16,16 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8f23791736d677027dc6e172b4ee322b73da3f57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 97e4f20871e36cf6d9665120428c90ca3b45dd13
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="accessibility-features"></a><span data-ttu-id="3d886-103">辅助功能</span><span class="sxs-lookup"><span data-stu-id="3d886-103">Accessibility features</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="3d886-104">本主题介绍为帮助残障用户使用 Dynamics 365 for Finance and Operations、Dynamics 365 for Retail 和 Dynamics 365 for Talent 而设计的功能。</span><span class="sxs-lookup"><span data-stu-id="3d886-104">This topic describes the functionality that is designed to help users who have various disabilities use Dynamics 365 for Finance and Operations, Dynamics 365 for Retail, and Dynamics 365 for Talent.</span></span> <span data-ttu-id="3d886-105">例如，有的功能供使用视觉辅助技术（如 Microsoft Windows Narrator）的人员使用。</span><span class="sxs-lookup"><span data-stu-id="3d886-105">For example, there are features for people who use sight-assistive technologies such as Microsoft Windows Narrator.</span></span>
 

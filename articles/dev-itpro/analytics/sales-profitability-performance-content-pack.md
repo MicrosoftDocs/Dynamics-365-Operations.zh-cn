@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9ec77585e259bc759b422b97f4f3b10271a02b02
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30df26aad5b29d8db89b4acd82cbd9aef05f60a0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sales-and-profitability-performance-power-bi-content"></a><span data-ttu-id="a748e-104">销售和收益率绩效 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="a748e-104">Sales and profitability performance Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a748e-105">此主题介绍**销售和收益率绩效** Microsoft Power BI 内容中的内容。</span><span class="sxs-lookup"><span data-stu-id="a748e-105">This topic describes what is included in the **Sales and profitability performance** Microsoft Power BI content.</span></span> <span data-ttu-id="a748e-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="a748e-106">It explains how to access the Power BI reports, and provides information about the data model and entities that are used to build the content.</span></span>
 

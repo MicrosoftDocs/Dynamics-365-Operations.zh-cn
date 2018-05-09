@@ -16,15 +16,15 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e953c44e2a22c7d8378b32d3301c348043c2c31e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cd0d2e97e986e0d3b98b6e386a1f3f06d265c50f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-chinese-vouchers"></a><span data-ttu-id="b8402-103">设置中国式凭证</span><span class="sxs-lookup"><span data-stu-id="b8402-103">Set up Chinese vouchers</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b8402-104">此过程逐步演示如何使用特定演示数据设置中国式凭证。</span><span class="sxs-lookup"><span data-stu-id="b8402-104">This procedure walks you through setting up Chinese vouchers with specific demo data.</span></span>
 <span data-ttu-id="b8402-105">中国式凭证编号是中国式财务报表的基础。</span><span class="sxs-lookup"><span data-stu-id="b8402-105">Chinese voucher numbers are the foundation for Chinese financial reporting.</span></span> <span data-ttu-id="b8402-106">必须先设置此类编号，才能执行任何财务交易过帐。</span><span class="sxs-lookup"><span data-stu-id="b8402-106">You must set them up before you do any financial transaction posting.</span></span> <span data-ttu-id="b8402-107">只能按照此过程的演示一次一个设置凭证，也可以使用凭证类型设置向导设置。</span><span class="sxs-lookup"><span data-stu-id="b8402-107">You can set up the vouchers one at a time as this procedure demonstrates or you can use the Voucher type setup wizard to set them up.</span></span>

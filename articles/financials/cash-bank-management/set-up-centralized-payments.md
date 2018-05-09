@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fd6f32e266dcbd78c464e42da50a347bea39fcfc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 52e48c0d1b0ef41074538180556f96fe65c206e7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-centralized-payments"></a><span data-ttu-id="2a143-103">设置集中的付款</span><span class="sxs-lookup"><span data-stu-id="2a143-103">Set up centralized payments</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2a143-104">按照以下步骤可以代表您的组织中的其他法人准备一个法人的处理付款。</span><span class="sxs-lookup"><span data-stu-id="2a143-104">Follow these steps to prepare to process payments in one legal entity on behalf of other legal entities in your organization.</span></span> <span data-ttu-id="2a143-105">在您开始前，必须完成以下设置：</span><span class="sxs-lookup"><span data-stu-id="2a143-105">Before you begin, the following setup must be completed:</span></span>
 

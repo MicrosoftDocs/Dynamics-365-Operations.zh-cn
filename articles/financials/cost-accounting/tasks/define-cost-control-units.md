@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 49cc951d58a1b956528cf5773af6e6dec9086d5d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 773c6b5a1bb804b7878f9b48241097641238570a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-cost-control-units"></a><span data-ttu-id="054b3-103">定义成本控制单元</span><span class="sxs-lookup"><span data-stu-id="054b3-103">Define cost control units</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="054b3-104">此过程显示如何定义成本核算分类帐中的成本控制单元。</span><span class="sxs-lookup"><span data-stu-id="054b3-104">This procedure shows how to define cost control units in the cost accounting ledger.</span></span> <span data-ttu-id="054b3-105">选择您要在分类帐中控制其成本的成本对象维度。</span><span class="sxs-lookup"><span data-stu-id="054b3-105">You select the cost object dimension for which you want to control costs in the ledger.</span></span> <span data-ttu-id="054b3-106">成本对象维度将转换为成本控制单元的成本对象。</span><span class="sxs-lookup"><span data-stu-id="054b3-106">The cost object dimension members are transformed into cost objects of the cost control units.</span></span> <span data-ttu-id="054b3-107">使用 USP2 公司演示数据创建此过程。</span><span class="sxs-lookup"><span data-stu-id="054b3-107">The demo data company used to create this procedure is USP2.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dadf5e82a43ce805bb185c82830979dc9f34b2e7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="removed-or-deprecated-features"></a><span data-ttu-id="9993c-103">已移除或弃用的功能</span><span class="sxs-lookup"><span data-stu-id="9993c-103">Removed or deprecated features</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9993c-104">本主题介绍已从 Dynamics 365 for Finance and Operations 移除或弃用的功能。</span><span class="sxs-lookup"><span data-stu-id="9993c-104">This topic describes features that have been removed or deprecated for Dynamics 365 for Finance and Operations.</span></span>
 

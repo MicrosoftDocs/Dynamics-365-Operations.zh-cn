@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 0a8946b5258e467328fa220ad555e5b9d4dc38e8
-ms.openlocfilehash: 860685cb955ed18116a9662f9577deb632547ccc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ad2648c402db8827d40c906b2f255862f6ed0e50
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-accounting-home-page"></a><span data-ttu-id="5306e-103">成本核算主页</span><span class="sxs-lookup"><span data-stu-id="5306e-103">Cost accounting home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="learning-map"></a><span data-ttu-id="5306e-104">学习图</span><span class="sxs-lookup"><span data-stu-id="5306e-104">Learning map</span></span> 
 

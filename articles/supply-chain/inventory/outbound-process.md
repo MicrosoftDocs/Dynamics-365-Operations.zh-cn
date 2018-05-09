@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 522d06fe72dd54b993caa8bf6d0216fa98f2743b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c672a2ce6e962e49043cba4593a9899a8613c23e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="outbound-process"></a><span data-ttu-id="7f102-103">出库流程</span><span class="sxs-lookup"><span data-stu-id="7f102-103">Outbound process</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="7f102-104">此主题概要介绍了库存管理中的出库流程。</span><span class="sxs-lookup"><span data-stu-id="7f102-104">This topic provides an overview of the outbound process in Inventory management.</span></span>
 

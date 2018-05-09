@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3bab4b9981f58c133e8c5ed693e6ed345248809d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: effaffe8b5fbfc79713501973ece49db0517e30d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="letters-of-credit-and-import-collections"></a><span data-ttu-id="98dd8-104">信用证和进口托收</span><span class="sxs-lookup"><span data-stu-id="98dd8-104">Letters of credit and import collections</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="98dd8-105">本文提供有关信用证和进口托收的一般信息。</span><span class="sxs-lookup"><span data-stu-id="98dd8-105">This article provides general information about letters of credit and import collections.</span></span> <span data-ttu-id="98dd8-106">两种银行单据类型经常用于跨国界限的货物采购和销售。</span><span class="sxs-lookup"><span data-stu-id="98dd8-106">Both types of bank document are often used for the purchase and sale of goods across international borders.</span></span>
 

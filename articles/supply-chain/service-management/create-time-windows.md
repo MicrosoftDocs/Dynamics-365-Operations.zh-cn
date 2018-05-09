@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a5a23d61ba8f45c068e17d5f60899c0ca9b6315
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 43fd43356b977c8b3926d5712b63815a0a9e339c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-time-windows"></a><span data-ttu-id="ea58b-103">创建时间范围</span><span class="sxs-lookup"><span data-stu-id="ea58b-103">Create time windows</span></span>   
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ea58b-104">您可以使用时间范围优化服务订单行的计划。</span><span class="sxs-lookup"><span data-stu-id="ea58b-104">You can use time windows to optimize the scheduling of service order lines.</span></span>
 

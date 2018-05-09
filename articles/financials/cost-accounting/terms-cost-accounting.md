@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3c493ab60952e60e6816ebdc3decb1ebe670806f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c39b16256fdd31d3ac63590ca7ee64ef43eda9a0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-accounting-terminology"></a><span data-ttu-id="c5ee5-103">成本核算术语</span><span class="sxs-lookup"><span data-stu-id="c5ee5-103">Cost accounting terminology</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c5ee5-104">本主题定义了成本核算中使用的重要术语。</span><span class="sxs-lookup"><span data-stu-id="c5ee5-104">This topic defines the key terms that are used in Cost accounting.</span></span>
 

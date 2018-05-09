@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 713e02b6537da0d72b34e796d81ad32a6cb74bc3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dd5a62dc1459f1768104eeaea3e71780431e8e79
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-purchasing-policies"></a><span data-ttu-id="9eb75-103">创建采购策略</span><span class="sxs-lookup"><span data-stu-id="9eb75-103">Create purchasing policies</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9eb75-104">此过程演示如何创建与您的采购业务流程一致的采购政策。</span><span class="sxs-lookup"><span data-stu-id="9eb75-104">This procedure shows you how to create purchasing policies to align with your business processes for purchasing.</span></span> <span data-ttu-id="9eb75-105">在您可以创建采购政策之前，必须设置采购政策参数。</span><span class="sxs-lookup"><span data-stu-id="9eb75-105">Before you can create purchasing policies, you must set up the purchasing policy parameters.</span></span> <span data-ttu-id="9eb75-106">可以创建、修改和废弃采购政策，但不能删除采购政策。</span><span class="sxs-lookup"><span data-stu-id="9eb75-106">It’s possible to create, modify, and retire a purchasing policy, but you can’t delete a purchasing policy.</span></span> <span data-ttu-id="9eb75-107">此过程通常由采购经理完成。</span><span class="sxs-lookup"><span data-stu-id="9eb75-107">This procedure would typically be carried out by a purchasing manager.</span></span> <span data-ttu-id="9eb75-108">您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="9eb75-108">You can use this procedure in demo data company USMF or on your own data.</span></span>
 

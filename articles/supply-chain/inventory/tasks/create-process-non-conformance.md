@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adecf9b2ea29abaee378f1c02c64551c3aeede6d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e73295698a17b7500db40820dd9603855810ca3a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-and-process-a-conformance"></a><span data-ttu-id="107fa-103">创建和处理符合项</span><span class="sxs-lookup"><span data-stu-id="107fa-103">Create and process a conformance</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="107fa-104">使用此过程可以执行不符合项管理，基于现有的质检订单。</span><span class="sxs-lookup"><span data-stu-id="107fa-104">Use this procedure to perform nonconformance management, based on an existing quality order.</span></span> <span data-ttu-id="107fa-105">您可以在 USMF 演示公司运行此录制并可以使用建议的值。</span><span class="sxs-lookup"><span data-stu-id="107fa-105">You can run this recording in the USMF demo company and can use the suggested values.</span></span> <span data-ttu-id="107fa-106">此过程通常由质检员执行。</span><span class="sxs-lookup"><span data-stu-id="107fa-106">Typically, this procedure is performed by a quality clerk.</span></span>  <span data-ttu-id="107fa-107">作为先决条件，运行“检查货物质量”任务录制。</span><span class="sxs-lookup"><span data-stu-id="107fa-107">As a prerequisite, run the “Inspect the quality of goods” task recording.</span></span> <span data-ttu-id="107fa-108">若要处理不符合项的审核，运行任务录制的用户必须有在用户页分配的“名称”值。</span><span class="sxs-lookup"><span data-stu-id="107fa-108">To process the approval of a nonconformance, the user who runs the task recording must have a “Name” value assigned on the Users page.</span></span> <span data-ttu-id="107fa-109">若要使用文档注释，用户还必须具有在用户选项内启用的“文档处理”。</span><span class="sxs-lookup"><span data-stu-id="107fa-109">To use the document notes, the user must also have Document handling activated in the user options.</span></span>
 

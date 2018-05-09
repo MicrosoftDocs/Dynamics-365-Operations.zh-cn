@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ee053759be244f04efaa6ef6e2cf98e6509da230
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9c2b7e14659bd4cb744c3818df1ab39990c6dc6e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a><span data-ttu-id="961e1-103">维护员工伤害和疾病信息</span><span class="sxs-lookup"><span data-stu-id="961e1-103">Maintain employee injury and illness information</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="961e1-104">建议首先完成“设置伤害和疾病”任务指南，因为此处使用这些设置信息中的一部分。</span><span class="sxs-lookup"><span data-stu-id="961e1-104">It is recommended to complete the 'Setup injury and illness' task guide first, as some of the setup information is used here.</span></span> 
 

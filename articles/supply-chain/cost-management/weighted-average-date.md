@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4aaca7f7459d7cfff4caeb23963294d8cb7a1b58
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: aa787165ee750c40e69bc3659061e9a1e2e6efaf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="weighted-average-date"></a><span data-ttu-id="b891c-103">加权平均日期</span><span class="sxs-lookup"><span data-stu-id="b891c-103">Weighted average date</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="b891c-104">加权平均日期是基于加权平均原则的库存模型。</span><span class="sxs-lookup"><span data-stu-id="b891c-104">Weighted average date is an inventory model that is based on the weighted average principle.</span></span> <span data-ttu-id="b891c-105">对于加权平均原则，来自库存的发货按照物料的平均价值进行估价，这些物料是在库存结转期间中的每一天接收到库存中的物料。</span><span class="sxs-lookup"><span data-stu-id="b891c-105">For the weighted average principle, issues from inventory are valued at the average value of the items that are received into inventory for each day in the inventory closing period.</span></span> 
 

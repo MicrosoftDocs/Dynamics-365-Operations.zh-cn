@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 55cfdd24dc13305f716e2ad0425ca3f24567e7b9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6d5d21cebc42cb044172d61916f26b815bb96737
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="project-resourcing"></a><span data-ttu-id="4a675-103">项目资源</span><span class="sxs-lookup"><span data-stu-id="4a675-103">Project resourcing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4a675-104">本主题提供有关项目资源的信息。</span><span class="sxs-lookup"><span data-stu-id="4a675-104">This topic provides information about project resourcing.</span></span>
 
@@ -183,7 +183,7 @@ ms.lasthandoff: 04/13/2018
 ## <a name="set-up-role-based-pricing"></a><span data-ttu-id="4a675-239">设置基于角色的定价</span><span class="sxs-lookup"><span data-stu-id="4a675-239">Set up role-based pricing</span></span>
 <span data-ttu-id="4a675-240">可为角色设置所有成本、销售以及转让价格。</span><span class="sxs-lookup"><span data-stu-id="4a675-240">All cost, sales, and transfer prices can be set up for roles.</span></span>
 
-1. <span data-ttu-id="4a675-241">在**销售价(工时)**页上，选择**新建**，并输入生效日期。</span><span class="sxs-lookup"><span data-stu-id="4a675-241">On the **Sales price (hour)** page, select **New**, and enter an effective date.</span></span>
+1. <span data-ttu-id="4a675-241">在**销售价(工时)** 页上，选择**新建**，并输入生效日期。</span><span class="sxs-lookup"><span data-stu-id="4a675-241">On the **Sales price (hour)** page, select **New**, and enter an effective date.</span></span>
 2. <span data-ttu-id="4a675-242">在**角色**列中，选择角色。</span><span class="sxs-lookup"><span data-stu-id="4a675-242">In the **Role** column, select a role.</span></span>
 3. <span data-ttu-id="4a675-243">在**定价**列中，输入所选资源角色的价格。</span><span class="sxs-lookup"><span data-stu-id="4a675-243">In the **Pricing** column, enter a price for the selected resource role.</span></span>
 

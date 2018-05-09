@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.dyn365.ops.version: 7.3
 ms.search.validFrom: 2017-12-31
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a836ce76f635fd42b0613b2abf131315b19aa5fe
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6ca6b0e2cdc8d1ca46c5a17be187989a71a55f75
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="safety-stock-fulfillment-for-items"></a><span data-ttu-id="c34e9-103">物料的安全存货履行</span><span class="sxs-lookup"><span data-stu-id="c34e9-103">Safety stock fulfillment for items</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c34e9-104">安全存货是指为了降低物料库存不足的风险，在库存中应该持有该物料的额外数量。</span><span class="sxs-lookup"><span data-stu-id="c34e9-104">Safety stock indicates an additional quantity of an item held in the inventory in order to reduce the risk that the item will be out of stock.</span></span> <span data-ttu-id="c34e9-105">安全存货用于当接到销售订单且供应商无法交付满足客户要求装运日期的额外物料时的缓冲存货。</span><span class="sxs-lookup"><span data-stu-id="c34e9-105">Safety stock is used as a buffer stock in case sales orders come in and the supplier is unable to deliver the additional items to meet the customer's requested ship date.</span></span> <span data-ttu-id="c34e9-106">当使用安全存货履行销售订单时，安全存货将减少。</span><span class="sxs-lookup"><span data-stu-id="c34e9-106">When safety stock is used to fulfill a sales order, the safety stock will be reduced.</span></span> <span data-ttu-id="c34e9-107">您可以使用主计划自动使库存恢复到安全水平。</span><span class="sxs-lookup"><span data-stu-id="c34e9-107">You can use Master planning to automatically bring the inventory back to the safety level.</span></span>    
 

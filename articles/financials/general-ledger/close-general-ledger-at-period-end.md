@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c08d039863253b33438c92243d5c164408ef85f3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 723e7306a0ffd0fd1a396a7852d9e7aa76f381fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="close-the-general-ledger-at-period-end"></a><span data-ttu-id="39fc8-103">在期间结束时关闭总帐</span><span class="sxs-lookup"><span data-stu-id="39fc8-103">Close the general ledger at period end</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="39fc8-104">本主题介绍为总帐执行定期结算时通常完成的任务。</span><span class="sxs-lookup"><span data-stu-id="39fc8-104">This topic describes the tasks that are typically completed when performing a period closing for General ledger.</span></span> 
 

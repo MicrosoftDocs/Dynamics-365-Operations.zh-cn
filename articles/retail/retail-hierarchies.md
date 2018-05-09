@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5a66cbb2051e762b0188c95d5287e2cab7a9cc53
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 012906c0b7b718d86ccc760c0b82df14501beabe
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-hierarchies"></a><span data-ttu-id="6d841-103">零售层次结构</span><span class="sxs-lookup"><span data-stu-id="6d841-103">Retail hierarchies</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="6d841-104">本文介绍 Microsoft Dynamics 365 for Retail 中的零售层次结构。</span><span class="sxs-lookup"><span data-stu-id="6d841-104">This article describes retail hierarchies in Microsoft Dynamics 365 for Retail.</span></span>
 

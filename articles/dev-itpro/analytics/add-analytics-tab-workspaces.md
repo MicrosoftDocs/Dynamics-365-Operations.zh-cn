@@ -16,16 +16,16 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1d4243d56828430bc04dfb24a287e6acdd572b5f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a><span data-ttu-id="8992a-103">使用 Power BI Embedded 将分析添加到工作区</span><span class="sxs-lookup"><span data-stu-id="8992a-103">Add analytics to workspaces by using Power BI Embedded</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 > <span data-ttu-id="8992a-104">此功能在 Dynamics 365 for Finance and Operations（版本 7.2 及更高版本）上受支持。</span><span class="sxs-lookup"><span data-stu-id="8992a-104">This feature is supported in Dynamics 365 for Finance and Operations (version 7.2 and later).</span></span>

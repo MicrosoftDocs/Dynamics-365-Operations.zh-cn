@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f5e4804035d16b525f0179e5e395ea11eab48ca0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 106ce40f93704e67e53db2e62ae481d271aed755
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-holds"></a><span data-ttu-id="a4b60-103">订单保留</span><span class="sxs-lookup"><span data-stu-id="a4b60-103">Order holds</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="a4b60-104">本主题描述使用 Dynamics 365 for Retail 将订单置于暂停状态。</span><span class="sxs-lookup"><span data-stu-id="a4b60-104">This topic describes holds on orders using Dynamics 365 for Retail.</span></span>
 

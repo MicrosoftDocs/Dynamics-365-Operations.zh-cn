@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5109bc180cedfb21dfb8b2920d71d54812e7e6cf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 31b285f06ea8b7951f2439637a4fccb83db31578
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="piece-picking-confirmation"></a><span data-ttu-id="c8c5e-103">单件领料确认</span><span class="sxs-lookup"><span data-stu-id="c8c5e-103">Piece picking confirmation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c8c5e-104">单件领料允许您通过移动设备上的领料或盘点工作确认单件库存。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-104">Piece picking allows you to confirm each piece of inventory through picking or counting work on a mobile device.</span></span> <span data-ttu-id="c8c5e-105">对于领料，您可以确认在对要领料的工作指定的数量范围内的待处理工作的数量。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-105">For picks, you can confirm the quantity of work to be processed up to the quantity that is specified on work to be picked.</span></span> <span data-ttu-id="c8c5e-106">对于盘点工作，您可以扫描您正在盘点的库存和跟踪总金额。</span><span class="sxs-lookup"><span data-stu-id="c8c5e-106">For counting work, you can scan the inventory that you are counting and track the total amount.</span></span>
 

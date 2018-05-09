@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d10f62126b54db362408c120fb215be44a18f676
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9be74afb2187ca8638102f09ea79497e228df906
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="activity-based-subcontracting"></a><span data-ttu-id="d330d-103">基于活动的转包</span><span class="sxs-lookup"><span data-stu-id="d330d-103">Activity-based subcontracting</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d330d-104">此主题介绍如何在用于 lean manufacturing 的生产流中使用已转包活动。</span><span class="sxs-lookup"><span data-stu-id="d330d-104">This topic describes, in detail, how to use subcontracted activities in a production flow for lean manufacturing.</span></span>
 

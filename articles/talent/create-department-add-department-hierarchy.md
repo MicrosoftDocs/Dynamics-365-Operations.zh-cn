@@ -19,16 +19,16 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3874c2d97117ccc19916a9ad32971c8c8cea56f6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cb23a3bab7388afb3adc41f9bd8ecf9fc4e2d624
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-department-and-associate-it-with-the-department-hierarchy"></a><span data-ttu-id="fa005-106">创建一个部门并将该部门与部门层次结构关联</span><span class="sxs-lookup"><span data-stu-id="fa005-106">Create a department and associate it with the department hierarchy</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="fa005-107">部门是一个运营单位，表示组织的类别或功能区域。</span><span class="sxs-lookup"><span data-stu-id="fa005-107">A department is an operating unit that represents a category or functional area of an organization.</span></span> <span data-ttu-id="fa005-108">部门负责组织的特定区域，例如，销售、会计或人力资源。</span><span class="sxs-lookup"><span data-stu-id="fa005-108">A department is responsible for a specific area of the organization, such as sales, accounting, or human resources.</span></span> <span data-ttu-id="fa005-109">您可以在功能区中使用要上报的部门。</span><span class="sxs-lookup"><span data-stu-id="fa005-109">You can use departments to report on functional areas.</span></span> <span data-ttu-id="fa005-110">部门可能具有损益职责。</span><span class="sxs-lookup"><span data-stu-id="fa005-110">Departments might have profit and loss responsibility.</span></span>
 

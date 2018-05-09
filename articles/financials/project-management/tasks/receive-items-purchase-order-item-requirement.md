@@ -16,15 +16,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fef6a597ed126ff4e1148fd9710b214c0425c3ab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 96b670531249175de938694d9b97b6e94461df42
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="4f6d7-103">根据物料需求接收采购订单上的物料</span><span class="sxs-lookup"><span data-stu-id="4f6d7-103">Receive items on purchase order from item requirement</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4f6d7-104">此过程显示如何根据物料需求接收某一采购订单的物料。</span><span class="sxs-lookup"><span data-stu-id="4f6d7-104">This procedure shows how to receive items on a purchase order from an item requirement.</span></span>
 

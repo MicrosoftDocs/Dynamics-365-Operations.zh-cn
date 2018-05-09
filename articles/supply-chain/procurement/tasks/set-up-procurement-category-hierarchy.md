@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 767fbe69eb918b6e37842ad1c393d08d11346e71
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5c48bdc1446b1555f76562afb7ecc3bdb0c5914c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a><span data-ttu-id="d3f07-103">设置采购类别层次结构</span><span class="sxs-lookup"><span data-stu-id="d3f07-103">Set up a procurement category hierarchy</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d3f07-104">该过程会显示如何在采购类别层次结构中创建新节点，以及如何配置采购类别以用于采购流程。</span><span class="sxs-lookup"><span data-stu-id="d3f07-104">This procedure shows you how to create new nodes in a procurement category hierarchy and how to configure a procurement category to be used in a procurement process.</span></span> <span data-ttu-id="d3f07-105">这些任务通常由采购经理完成。</span><span class="sxs-lookup"><span data-stu-id="d3f07-105">These tasks would typically be carried out by a Purchasing manager.</span></span> <span data-ttu-id="d3f07-106">在您开始该过程之前，采购类型层次结构必须存在。</span><span class="sxs-lookup"><span data-stu-id="d3f07-106">Before you can start this procedure, there must be a category hierarchy of type Procurement.</span></span> <span data-ttu-id="d3f07-107">如果您正在使用公司演示数据，则您可以在 USMF 公司中执行该过程。</span><span class="sxs-lookup"><span data-stu-id="d3f07-107">If you're using a demo data company, you can run this procedure in the USMF company.</span></span>
 

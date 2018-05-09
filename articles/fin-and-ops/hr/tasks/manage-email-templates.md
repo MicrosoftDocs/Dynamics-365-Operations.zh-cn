@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 67817a3db1aa7d90fd64509b707f075b22010dcb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f09d18e39c58385cfdbbbbb0ff398d1a11bbcbe0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="manage-email-templates"></a><span data-ttu-id="a71f9-103">管理电子邮件模板</span><span class="sxs-lookup"><span data-stu-id="a71f9-103">Manage email templates</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a71f9-104">您可以将组织数据库的信息转移到新文件的书签中，并在有助于您与申请人和职位候选人有效沟通的模板中使用。</span><span class="sxs-lookup"><span data-stu-id="a71f9-104">You can transfer information from your organization’s database to the bookmarks in a new document and use it in templates that help you communicate efficiently with applicants and candidates.</span></span> <span data-ttu-id="a71f9-105">为此，您创建包含某些标准文本和应向其插入系统数据的某些书签的模板。</span><span class="sxs-lookup"><span data-stu-id="a71f9-105">To do this, you create a template that contains standard text and some bookmarks where the system data should be inserted.</span></span> <span data-ttu-id="a71f9-106">例如，您可以将申请人的地址和联系信息插入到 Microsoft Word 文档中，这样您在与该申请人沟通时可使用该文档。</span><span class="sxs-lookup"><span data-stu-id="a71f9-106">For example, you can insert address and contact information for an applicant into a Microsoft Word document that you can use when communicating with that applicant.</span></span> <span data-ttu-id="a71f9-107">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="a71f9-107">The demo data company used to create this procedure is USMF.</span></span>
 

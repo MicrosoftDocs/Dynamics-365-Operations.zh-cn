@@ -17,16 +17,16 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c21e1d7e40d03bbf08c54e90009bc3671b6f14c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="credit-and-collections-management-power-bi-content"></a><span data-ttu-id="42578-104">信用和收款管理 Power BI 内容包</span><span class="sxs-lookup"><span data-stu-id="42578-104">Credit and collections management Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="42578-105">此主题介绍**信用和收款管理** Microsoft Power BI 内容中的内容。</span><span class="sxs-lookup"><span data-stu-id="42578-105">This topic describes what is included in the **Credit and collections management** Microsoft Power BI content.</span></span> <span data-ttu-id="42578-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="42578-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

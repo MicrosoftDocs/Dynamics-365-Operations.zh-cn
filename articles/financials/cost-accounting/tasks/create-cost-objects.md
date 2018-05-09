@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e469fc30d649aac0c544b6de9e17fd173f3ce497
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c76a26ea63d1fd44c20fbee271d2767b8ea68b1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-cost-objects"></a><span data-ttu-id="287d0-103">创建成本对象</span><span class="sxs-lookup"><span data-stu-id="287d0-103">Create cost objects</span></span> 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="287d0-104">此过程显示如何通过数据连接器将 Dynamics 365 for Finance and Operations 成本中心财务维度导入成本核算来创建成本对象。</span><span class="sxs-lookup"><span data-stu-id="287d0-104">This procedure shows how to create cost objects by importing the Dynamics 365 for Finance and Operations cost center financial dimension into Cost accounting via a data connector.</span></span> <span data-ttu-id="287d0-105">用于创建该过程的是演示公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="287d0-105">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="287d0-106">此过程针对 Microsoft Dynamics 365 for Operations 版本 1611 中增加的成本核算功能。</span><span class="sxs-lookup"><span data-stu-id="287d0-106">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

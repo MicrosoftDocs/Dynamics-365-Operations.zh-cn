@@ -17,15 +17,15 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab536047340bdebecb7c8317e20208c87a4776f7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3afa22d99f1915015b49964d9e22a6df15ecf6f9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="inspect-the-quality-of-goods"></a><span data-ttu-id="33dc5-103">检查货物质量</span><span class="sxs-lookup"><span data-stu-id="33dc5-103">Inspect the quality of goods</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="33dc5-104">此过程显示如何处理质检订单。</span><span class="sxs-lookup"><span data-stu-id="33dc5-104">This procedure shows you how to process a quality order.</span></span> <span data-ttu-id="33dc5-105">您可以使用 USMF 公司演示数据运行此指南。</span><span class="sxs-lookup"><span data-stu-id="33dc5-105">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="33dc5-106">在开始此示例过程前，需要确认采购订单为“000016”，并且将产品收据过帐。</span><span class="sxs-lookup"><span data-stu-id="33dc5-106">Before you start this example procedure, you need to confirm purchase order “000016” and post a product receipt.</span></span> <span data-ttu-id="33dc5-107">这将自动创建质检订单。</span><span class="sxs-lookup"><span data-stu-id="33dc5-107">This will automatically create a quality order.</span></span> <span data-ttu-id="33dc5-108">质量检查通常由质检员执行。</span><span class="sxs-lookup"><span data-stu-id="33dc5-108">Quality inspections are typically carried out by a quality clerk.</span></span>
 

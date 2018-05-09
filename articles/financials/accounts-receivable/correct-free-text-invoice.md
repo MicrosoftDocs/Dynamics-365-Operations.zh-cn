@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dfa559ae5abeb8a02e5b0f1af35b04af769a0b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1439a52c6096be93902f812aa912959347e8009
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="correct-a-free-text-invoice"></a><span data-ttu-id="881f6-103">更正普通发票</span><span class="sxs-lookup"><span data-stu-id="881f6-103">Correct a free text invoice</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="881f6-104">本文说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。</span><span class="sxs-lookup"><span data-stu-id="881f6-104">This article explains how to correct a free text invoice that has been posted and reissue it as a corrected invoice.</span></span>
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 04/13/2018
 <span data-ttu-id="881f6-116">您可以通过两种方式标识取消和更正发票：</span><span class="sxs-lookup"><span data-stu-id="881f6-116">You can identify canceling and correcting invoices in two ways:</span></span>
 
 -   <span data-ttu-id="881f6-117">**“所有普通发票”**页包括**“更正”**列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。</span><span class="sxs-lookup"><span data-stu-id="881f6-117">The **All free text invoices** page includes a **Correction** column, where you can see which invoices are canceling invoices and corrected invoices.</span></span>
--   <span data-ttu-id="881f6-118">普通发票的标题显示状态**正在取消发票‘\[发票编号\]**或**已更正的发票‘\[发票编号\]**。</span><span class="sxs-lookup"><span data-stu-id="881f6-118">The header of the free text invoice shows a status of **Cancelling invoice '\[invoice number\]'** or **Corrected invoice '\[invoice number\]'**.</span></span>
+-   <span data-ttu-id="881f6-118">普通发票的标题显示状态**正在取消发票‘\[发票编号\]** 或**已更正的发票‘\[发票编号\]**。</span><span class="sxs-lookup"><span data-stu-id="881f6-118">The header of the free text invoice shows a status of **Cancelling invoice '\[invoice number\]'** or **Corrected invoice '\[invoice number\]'**.</span></span>
 
 > [!NOTE]
 > <span data-ttu-id="881f6-119">只有当选择**普通发票更正**配置键后，此功能才可用。</span><span class="sxs-lookup"><span data-stu-id="881f6-119">This feature is available only if the **Free text invoice correction** configuration key is selected.</span></span>

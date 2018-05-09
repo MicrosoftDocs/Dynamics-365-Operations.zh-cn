@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b215e1645c0f0f60437dc363530e2af3d262c4e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a537c2491f2540e48b6ccdccaee11b4fa8b208d9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="time-windows"></a><span data-ttu-id="06901-103">时间范围</span><span class="sxs-lookup"><span data-stu-id="06901-103">Time windows</span></span>  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="06901-104">您可以使用时间范围优化服务订单行的计划。</span><span class="sxs-lookup"><span data-stu-id="06901-104">You can use time windows to optimize the scheduling of service order lines.</span></span> <span data-ttu-id="06901-105">您可以设置系统，以便自动创建服务订单。</span><span class="sxs-lookup"><span data-stu-id="06901-105">You can set up the system so that it automatically creates service orders.</span></span> <span data-ttu-id="06901-106">基于时间范围指定的条件，您可以将尽可能多的服务订单行连接到尽可能少的服务订单。</span><span class="sxs-lookup"><span data-stu-id="06901-106">Based on the criteria specified by a time window, you can connect as many service order lines as possible to as few service orders as possible.</span></span>
 

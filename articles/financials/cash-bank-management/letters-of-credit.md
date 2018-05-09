@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1cff7d263cab4cce46d72f567c7efe5dbce9315f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 547827d8512fae62a991b2f5c1e98b2e0f05710c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="letters-of-credit"></a><span data-ttu-id="85565-103">信用证</span><span class="sxs-lookup"><span data-stu-id="85565-103">Letters of credit</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="85565-104">信用证是通常用于跨国界限的货物采购和销售的银行凭证。</span><span class="sxs-lookup"><span data-stu-id="85565-104">Letters of credit are bank documents that are commonly used for the purchase and sale of goods across international borders.</span></span> 
 

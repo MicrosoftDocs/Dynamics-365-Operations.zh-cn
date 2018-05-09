@@ -18,16 +18,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 39e70aa7b020cdceb53e9ed4af8fa87268161f54
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 614bce43e486667a894e77cbf03f3a18f9d5d68a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a><span data-ttu-id="0e420-103">部分预留的转移单批发布</span><span class="sxs-lookup"><span data-stu-id="0e420-103">Batch release of partially reserved transfer orders</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0e420-104">通过部分预留的转移单批发布功能可以使用批处理作业将转移单部分发布到仓库。</span><span class="sxs-lookup"><span data-stu-id="0e420-104">The functionality for batch release of partially reserved transfer orders lets you partially release transfer orders to a warehouse by using a batch job.</span></span>
 <span data-ttu-id="0e420-105">由于您可以选择发布部分数量，因此您无需等到全部订单数量在仓库中可用后再发布订单。</span><span class="sxs-lookup"><span data-stu-id="0e420-105">Because you have the option to release a partial quantity, you don’t have to wait for the whole order quantity to be available in the warehouse before you release an order.</span></span>

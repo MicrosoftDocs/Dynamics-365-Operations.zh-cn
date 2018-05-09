@@ -18,16 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5b1350524c4e59c3148d07cef6f8e1ab02ec43b4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c61c3c4fd3c888888e7ac8cc8fc8275c15ff4692
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-a-manual-decision-in-a-workflow"></a><span data-ttu-id="38712-103">在工作流中配置手动决策</span><span class="sxs-lookup"><span data-stu-id="38712-103">Configure a manual decision in a workflow</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="38712-104">本主题说明如何配置手动决策的属性。</span><span class="sxs-lookup"><span data-stu-id="38712-104">This topic explains how to configure the properties of a manual decision.</span></span>
 

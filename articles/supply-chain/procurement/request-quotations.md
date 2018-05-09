@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69b9c5590e6f9311696bbbed2e63a6eeba2a90bf
-ms.openlocfilehash: 3f527911183a6e9b335f30d472ff57144e6a5aff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c376273f901f0c860aea92db587a1b156ab079b5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="requests-for-quotation-rfqs"></a><span data-ttu-id="5c016-104">询价 (RFQ)</span><span class="sxs-lookup"><span data-stu-id="5c016-104">Requests for quotation (RFQs)</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5c016-105">此主题对询价 (RFQ) 进行简要介绍。</span><span class="sxs-lookup"><span data-stu-id="5c016-105">This topic provides an overview of requests for quotation (RFQs).</span></span> <span data-ttu-id="5c016-106">当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。</span><span class="sxs-lookup"><span data-stu-id="5c016-106">Organizations issue RFQs when they want to receive competitive offers from several vendors for the items or services that they must purchase.</span></span> <span data-ttu-id="5c016-107">询价时，您要求供应商提供您指定的物料数量的价格和交货时间。</span><span class="sxs-lookup"><span data-stu-id="5c016-107">In an RFQ, you ask vendors to provide the prices and delivery times for the item quantities that you specify.</span></span>
 <span data-ttu-id="5c016-108">您还可以就有关是否存在任何附加费用，如运费，或者是否对订购数量多的大订单有折扣价或能否提前支付供应商发票等问题询问供应商。</span><span class="sxs-lookup"><span data-stu-id="5c016-108">You can also ask vendors to specify whether there are any incidental charges, such as shipping costs, or any discounts for large orders or early payment of the vendor invoice.</span></span>

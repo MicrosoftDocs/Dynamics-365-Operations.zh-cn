@@ -20,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 933875f56b0f47990cb1cb767f84b23b9c9710d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ff11cf7b23c48675b108d7d03d241fcec2cb792a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="inventory-lookup-in-the-point-of-sale"></a><span data-ttu-id="46a36-103">销售点库存查找</span><span class="sxs-lookup"><span data-stu-id="46a36-103">Inventory lookup in the Point of Sale</span></span> 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="46a36-104">销售点 (POS) 库存查找通过连接商店、POS 和后端管理系统，帮助零售商获得卓越的实时运营体验和洞察体验。</span><span class="sxs-lookup"><span data-stu-id="46a36-104">Inventory lookup in the point of sale (POS) helps retailers achieve real-time operational excellence and gain insights by connecting stores, the POS, and the back office.</span></span> <span data-ttu-id="46a36-105">此功能提供精确的商店和配送中心产品库存实时视图。</span><span class="sxs-lookup"><span data-stu-id="46a36-105">This functionality provides an accurate real-time view of product inventory across stores and distribution centers.</span></span> <span data-ttu-id="46a36-106">还通过实时改进库存规划，帮助零售商提高效率和节约成本。</span><span class="sxs-lookup"><span data-stu-id="46a36-106">It also helps retailers drive additional efficiencies and cost savings by improving inventory planning in real time.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5839962a5a3be5d7836c74fc8476ceafa414d48c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30d91d2ffab74250b3a8a46d7b7c5441a94d8dfd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a><span data-ttu-id="5278d-103">代表他人设置产品订购权限</span><span class="sxs-lookup"><span data-stu-id="5278d-103">Set up permissions for ordering products on behalf of someone else</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5278d-104">此过程演示如何为工作人员授予代表其他工作人员起草采购申请的权限。</span><span class="sxs-lookup"><span data-stu-id="5278d-104">This procedure shows how to grant workers permission to prepare purchase requisitions on behalf of other workers.</span></span> <span data-ttu-id="5278d-105">换句话说，采购申请“准备人”可以为其他“申请人”创建申请。</span><span class="sxs-lookup"><span data-stu-id="5278d-105">In other words, a purchase requisition “preparer” can create a requisition for another “requester.”</span></span> <span data-ttu-id="5278d-106">此过程还演示如何为工作人员授予在不同法人或营运单位中订购物料和服务的权限。</span><span class="sxs-lookup"><span data-stu-id="5278d-106">The procedure also shows how to grant a worker permission to order items and services in different legal entities or operating units.</span></span> <span data-ttu-id="5278d-107">这些任务通常由采购经理执行。</span><span class="sxs-lookup"><span data-stu-id="5278d-107">Typically, these tasks are performed by a purchasing manager.</span></span> <span data-ttu-id="5278d-108">您可以在此过程中使用 USMF 演示数据公司的数据，也可以使用您自己的数据。</span><span class="sxs-lookup"><span data-stu-id="5278d-108">You can use this procedure either on data for the USMF demo company or on your own data.</span></span>
 

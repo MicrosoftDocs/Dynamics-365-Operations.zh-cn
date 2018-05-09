@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 67ed4bb04377c15398dd671a7e078beefc093ad3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 932a6c8e1cadb65138baf63a0c9fd443207f8f48
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="display-debit-and-credit-amounts-in-ledger-accounts-for-china"></a><span data-ttu-id="1e528-103">显示中国会计科目的借方和贷方金额</span><span class="sxs-lookup"><span data-stu-id="1e528-103">Display debit and credit amounts in ledger accounts for China</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1e528-104">本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。</span><span class="sxs-lookup"><span data-stu-id="1e528-104">This topic shows how to display credit and debit amounts for ledger accounts in two separate columns in the general ledger for China.</span></span> 
 

@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4792cb9e4309ad0659381196012b977ebb39da4e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="intercompany-invoicing"></a><span data-ttu-id="d466e-103">内部公司开票</span><span class="sxs-lookup"><span data-stu-id="d466e-103">Intercompany invoicing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d466e-104">本文提供 Microsoft Dynamics 365 for Finance and Operations 中项目的公司内部开票的信息和示例。</span><span class="sxs-lookup"><span data-stu-id="d466e-104">This article provides information and examples about intercompany invoicing for projects in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

@@ -18,16 +18,16 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8e5ddb8991d98aafc0a18788107ee65f0a950059
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 205317cccbde220d9198246f47076fc186286969
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="pick-oldest-batch-on-a-mobile-device"></a><span data-ttu-id="01c34-103">在移动设备上领取最早的批次</span><span class="sxs-lookup"><span data-stu-id="01c34-103">Pick oldest batch on a mobile device</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="01c34-104">您可以通过移动设备菜单访问配置**领取最早的批次**，它将允许您强制或警告仓库工作人员领取其当前库位中的最早批次。</span><span class="sxs-lookup"><span data-stu-id="01c34-104">You can access the configuration **Pick oldest batch** via a mobile device menu and it allows you to force or warn warehouse workers to pick the oldest batch in their current location.</span></span>  
 

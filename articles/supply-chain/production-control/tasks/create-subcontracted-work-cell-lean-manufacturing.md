@@ -16,15 +16,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d5b7149551df33d439980ec4e04fa343749daa16
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3a42873cde84d67e1a4dd8c01f97b125b3a4f8cf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a><span data-ttu-id="029e5-103">创建 lean manufacturing 的转包工作单元</span><span class="sxs-lookup"><span data-stu-id="029e5-103">Create a subcontracted work cell for lean manufacturing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="029e5-104">若要为 lean manufacturing 的转包工作建模，必须创建与提供该工作的供应商关联的工作单元。</span><span class="sxs-lookup"><span data-stu-id="029e5-104">To model subcontracted work for lean manufacturing, you must create a work cell that is associated with the vendor that provides the work.</span></span> <span data-ttu-id="029e5-105">转包工作单元通过关联供应商类型的资源链接到供应商。</span><span class="sxs-lookup"><span data-stu-id="029e5-105">A subcontracted work cell is linked to the vendor through the association of a resource of the Vendor type.</span></span> <span data-ttu-id="029e5-106">如果在 USMF 演示公司播放此录制，可以选择供应商帐户 ID 1002 和站点 1。</span><span class="sxs-lookup"><span data-stu-id="029e5-106">If you play this recording in the USMF demo company, you can select vendor account ID 1002 and site 1.</span></span>
 

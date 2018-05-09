@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dc10459d3b15f274da964700d785549942c91a4a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 81224eb80ba5a66837fa3476c4cb799aa578cec3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-new-product"></a><span data-ttu-id="e81b3-103">创建新产品</span><span class="sxs-lookup"><span data-stu-id="e81b3-103">Create a new product</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e81b3-104">此任务显示如何创建新的共享的产品。</span><span class="sxs-lookup"><span data-stu-id="e81b3-104">This task shows how to create a new shared product.</span></span> <span data-ttu-id="e81b3-105">它通常由产品设计器执行。</span><span class="sxs-lookup"><span data-stu-id="e81b3-105">It is usually carried out by a product designer.</span></span> <span data-ttu-id="e81b3-106">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="e81b3-106">The demo data company used to create this task is USMF.</span></span>
 

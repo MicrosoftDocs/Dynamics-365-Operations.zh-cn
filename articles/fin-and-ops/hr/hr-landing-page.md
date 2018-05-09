@@ -17,16 +17,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 437e6e0cd3052083bb1094f42bb741d491b27242
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 341cba34366fee61d5e65ac73326c5d3c9c274a9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="welcome-to-human-resources"></a><span data-ttu-id="0fdee-105">欢迎使用“人力资源”</span><span class="sxs-lookup"><span data-stu-id="0fdee-105">Welcome to human resources</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0fdee-106">“人力资源”简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。</span><span class="sxs-lookup"><span data-stu-id="0fdee-106">Human resources streamlines many routine recordkeeping tasks and automates a number of processes related to staffing your organization.</span></span> <span data-ttu-id="0fdee-107">它还提供了一个框架，供人力资源员工管理监督领域。</span><span class="sxs-lookup"><span data-stu-id="0fdee-107">It also provides a framework for human resources staff to manage areas of oversight.</span></span> <span data-ttu-id="0fdee-108">这些领域包括员工招聘和挽留、福利管理、培训、绩效评审和变更管理。</span><span class="sxs-lookup"><span data-stu-id="0fdee-108">These areas include employee recruitment and retention, benefits administration, training, performance reviews, and change management.</span></span>
 

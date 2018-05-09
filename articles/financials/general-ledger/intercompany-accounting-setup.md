@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b23c0d1e544a18c72fd1cbf6b2346ae542541177
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7bd38e3763957cd23da5d4a6a4a78b36fa1886ab
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="intercompany-accounting-setup"></a><span data-ttu-id="c0ff3-103">内部公司会计设置</span><span class="sxs-lookup"><span data-stu-id="c0ff3-103">Intercompany accounting setup</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c0ff3-104">本主题说明如何设置内部公司会计，以便将内部公司日记帐用于分类帐分配和财务日记帐，如日常记帐、供应商发票日记帐和付款日记帐。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-104">This topic explains how to set up intercompany accounting so that you can use intercompany journals for ledger allocations and financial journals, such as daily journals, vendor invoice journals, and payment journals.</span></span>
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 04/13/2018
 ## <a name="define-intercompany-accounting-setup"></a><span data-ttu-id="c0ff3-116">定义内部公司会计设置</span><span class="sxs-lookup"><span data-stu-id="c0ff3-116">Define intercompany accounting setup</span></span>
 <span data-ttu-id="c0ff3-117">**内部公司会计**页用于创建可彼此交易的法人对。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-117">The **Intercompany accounting** page is used to create the pairs of legal entities that can transact with each other.</span></span> <span data-ttu-id="c0ff3-118">内部公司会计设置是共享的，因此可从所有法人内查看此设置。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-118">The Intercompany accounting setup is shared, so the setup is visible from within all legal entities.</span></span> <span data-ttu-id="c0ff3-119">在创建新的法人对时，请确保您知道哪个法人定义为源公司，哪个定义为目标公司。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-119">When creating a new legal entity pair, ensure that you are aware of which legal entity is defined as the originating company versus the destination company.</span></span> <span data-ttu-id="c0ff3-120">在输入内部公司交易记录时，该交易记录确定哪个法人发起或创建了该交易记录。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-120">When entering intercompany transactions, the transaction determines which legal entity is initiating or originating the transaction.</span></span> <span data-ttu-id="c0ff3-121">例如，内部公司会计是为 USMF（发起方）和 USSI（目标方）设置的。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-121">For example, the intercompany accounting is setup for USMF (originating) and USSI (destination).</span></span> <span data-ttu-id="c0ff3-122">如果用户在 USSI 中处于活动状态，并输入了与 USMF 之间的内部公司交易记录，此交易记录将不过帐，因为内部公司会计是仅为充当发起方的 USMF 定义的。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-122">If a user is active in USSI and enters an intercompany transaction with USMF, the transaction will not post because the intercompany accounting is only defined for USMF being the originator.</span></span> <span data-ttu-id="c0ff3-123">如果两个公司都可以发起交易记录，您需要为互惠设置再创建一个法人对。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-123">If either company can originate a transaction, you will need to create a second legal entity pair for the reciprocal setup.</span></span> 
 
-<span data-ttu-id="c0ff3-124">请为源和目标法人选择**借方科目(应收金额)**和**贷方科目(应付金额)**。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-124">Select the **Debit account (Due from)** and **Credit account (Due to)** for both the originating and destination legal entity.</span></span> <span data-ttu-id="c0ff3-125">定义在目标公司中创建交易记录时使用哪个**日记帐名称**。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-125">Define which **Journal name** will be used when the transaction is created in the destination company.</span></span> <span data-ttu-id="c0ff3-126">源公司的日记帐已知，因为是用户在创建内部公司交易记录时选择的。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-126">The journal for the originating company is already known because it's selected by the user when creating the intercompany transaction.</span></span> 
+<span data-ttu-id="c0ff3-124">请为源和目标法人选择**借方科目(应收金额)** 和**贷方科目(应付金额)**。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-124">Select the **Debit account (Due from)** and **Credit account (Due to)** for both the originating and destination legal entity.</span></span> <span data-ttu-id="c0ff3-125">定义在目标公司中创建交易记录时使用哪个**日记帐名称**。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-125">Define which **Journal name** will be used when the transaction is created in the destination company.</span></span> <span data-ttu-id="c0ff3-126">源公司的日记帐已知，因为是用户在创建内部公司交易记录时选择的。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-126">The journal for the originating company is already known because it's selected by the user when creating the intercompany transaction.</span></span> 
 
 <span data-ttu-id="c0ff3-127">最后，选择哪个法人将接收支持科目的会计，如集中付款的现金折扣或已有损益。</span><span class="sxs-lookup"><span data-stu-id="c0ff3-127">Finally, select which legal entity will receive the accounting for supporting amounts, such as cash discount or realized gains/losses for centralized payments.</span></span> 
 

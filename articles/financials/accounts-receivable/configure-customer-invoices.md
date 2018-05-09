@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f08131e01fddb259d3bb537b1625ea2615a1e958
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 787c958f07bc3fbd442be8132b55de7f3e769cae
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-customer-invoice"></a><span data-ttu-id="8ec4b-103">创建客户发票</span><span class="sxs-lookup"><span data-stu-id="8ec4b-103">Create a customer invoice</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8ec4b-104">**“销售订单的客户发票”**是与销售相关的、组织提供给客户的单据。</span><span class="sxs-lookup"><span data-stu-id="8ec4b-104">A **customer invoice for a sales order** is a bill that is related to a sale, and that an organization gives to a customer.</span></span> <span data-ttu-id="8ec4b-105">此类型的客户发票是基于销售订单创建的，其中包括订单行和物料编号。</span><span class="sxs-lookup"><span data-stu-id="8ec4b-105">This type of customer invoice is created based on a sales order, which includes order lines and item numbers.</span></span> <span data-ttu-id="8ec4b-106">在分类帐中指定和过帐物料编号。</span><span class="sxs-lookup"><span data-stu-id="8ec4b-106">Item numbers are specified and posted in the ledger.</span></span> <span data-ttu-id="8ec4b-107">子分类日志条目为销售订单的客户发票不可用。</span><span class="sxs-lookup"><span data-stu-id="8ec4b-107">Subledger journal entries aren't available for a customer invoice for a sales order.</span></span> <span data-ttu-id="8ec4b-108">有关详细信息，请参阅[创建销售订单发票](tasks/create-sales-order-invoices.md)。</span><span class="sxs-lookup"><span data-stu-id="8ec4b-108">For more information, see [Create sales order invoices](tasks/create-sales-order-invoices.md).</span></span>
 

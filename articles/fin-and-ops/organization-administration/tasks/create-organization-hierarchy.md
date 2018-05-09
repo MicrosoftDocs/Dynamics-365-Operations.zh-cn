@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2deec5470eef68f18042bb789e3760189caffdeb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 40efd239a4d86c0b1d07b02bba5158dabe7b3078
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-an-organization-hierarchy"></a><span data-ttu-id="ce2b8-103">创建组织层次结构。</span><span class="sxs-lookup"><span data-stu-id="ce2b8-103">Create an organization hierarchy</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ce2b8-104">使用以下过程创建组织层次结构。</span><span class="sxs-lookup"><span data-stu-id="ce2b8-104">Use the following procedure to create an organizational hierarchy.</span></span> <span data-ttu-id="ce2b8-105">可以使用组织层次结构查看和申报来自各种视角的业务。</span><span class="sxs-lookup"><span data-stu-id="ce2b8-105">You can use organizational hierarchies to view and report on your business from various perspectives.</span></span> <span data-ttu-id="ce2b8-106">例如，您可以针对纳税、法律或法定申报设置一种层次结构。</span><span class="sxs-lookup"><span data-stu-id="ce2b8-106">For example, you can set up one hierarchy for tax, legal, or statutory reporting.</span></span> <span data-ttu-id="ce2b8-107">然后，您可以设置另一层次结构，以报告不是法律要求但用于内部报表的财务信息。</span><span class="sxs-lookup"><span data-stu-id="ce2b8-107">You can then set up another hierarchy to report financial information that is not legally required, but that is used for internal reporting.</span></span> 
 

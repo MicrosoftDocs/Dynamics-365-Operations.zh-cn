@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83ecd06c1bb0b2179251fdccb3898fb3edbca51f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e329cb0f842232a66f74879c498db22c0ee7d768
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="mass-financial-period-close"></a><span data-ttu-id="03ca9-103">批量财务期间结帐</span><span class="sxs-lookup"><span data-stu-id="03ca9-103">Mass financial period close</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="03ca9-104">此过程显示如何暂停期间，或一次性永久关闭一个期间或多个法人。</span><span class="sxs-lookup"><span data-stu-id="03ca9-104">This procedure shows how to place a period on hold or permanently close a period or more than one legal entity at a time.</span></span> <span data-ttu-id="03ca9-105">此外，此任务将显示如何把用户组过帐限制到特定模块。</span><span class="sxs-lookup"><span data-stu-id="03ca9-105">In addition, the task will show how to restrict user group posting to specific modules.</span></span>
 

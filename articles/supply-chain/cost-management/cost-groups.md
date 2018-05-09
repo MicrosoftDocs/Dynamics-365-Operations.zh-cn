@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 750853de01213187b4df273087c53321abe25d5d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e0c2ac0442be0aaec415c69a018fbc607b87742f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-groups"></a><span data-ttu-id="b7c8b-104">成本组</span><span class="sxs-lookup"><span data-stu-id="b7c8b-104">Cost groups</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="b7c8b-105">在对制造物料的计算成本中的成本份额（例如针对材料、人工和开销的成本份额）进行细分和分析时，可将成本组作为基础。</span><span class="sxs-lookup"><span data-stu-id="b7c8b-105">Cost groups provide the basis for segmenting and analyzing cost contributions in a manufactured item’s calculated cost, such as the cost contributions for material, labor, and overhead.</span></span> <span data-ttu-id="b7c8b-106">成本组细分在制造环境中有若干同义词，例如成本细分、成本分解或成本分类。</span><span class="sxs-lookup"><span data-stu-id="b7c8b-106">Cost group segmentation has several synonyms within manufacturing environments, such as cost breakdown, cost decomposition, or cost classification.</span></span> 
 

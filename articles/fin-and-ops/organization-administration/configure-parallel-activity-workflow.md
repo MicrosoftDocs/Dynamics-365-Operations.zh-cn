@@ -18,16 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec1c1d8abc49deb8ef16322370c59d40b01d344c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3e0cf27c7932415c822843b3376894ba172578b9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-a-parallel-activity-in-a-workflow"></a><span data-ttu-id="6460f-103">配置工作流中的并行活动</span><span class="sxs-lookup"><span data-stu-id="6460f-103">Configure a parallel activity in a workflow</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6460f-104">要配置并行活动，请在工作流编辑器中完成以下过程。</span><span class="sxs-lookup"><span data-stu-id="6460f-104">To configure a parallel activity, complete the following procedures in the workflow editor.</span></span>
 

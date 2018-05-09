@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 953520ec7525d85baee6baf0b70930e52120d6c0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b79362942663583b5f438e0a54fd4960ca7ef919
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-lean-manufacturing-work-cells"></a><span data-ttu-id="4681c-103">定义 lean manufacturing 工作单元</span><span class="sxs-lookup"><span data-stu-id="4681c-103">Define lean manufacturing work cells</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4681c-104">工作单元是可用于精益制造流程活动的特定形式的资源组。</span><span class="sxs-lookup"><span data-stu-id="4681c-104">A work cell is a specific form of resource groups that can be used in lean manufacturing process activities.</span></span> <span data-ttu-id="4681c-105">工作单元具有输入和输出位置以及基于生产流模型的产能定义。</span><span class="sxs-lookup"><span data-stu-id="4681c-105">Work cells have input and output locations and a capacity definition based on a production flow model.</span></span> <span data-ttu-id="4681c-106">若要了解有关精益制造工作单元和产能计算的基本概念，请参阅 Lean manufacturing 白皮书。</span><span class="sxs-lookup"><span data-stu-id="4681c-106">To learn more about the basic concepts of lean manufacturing work cells and capacity calculations, see the white papers on Lean manufacturing.</span></span> <span data-ttu-id="4681c-107">用于创建此过程的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="4681c-107">The demo data company used to create this procedure is USMF</span></span>
 

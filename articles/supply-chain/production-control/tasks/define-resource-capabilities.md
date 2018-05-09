@@ -17,15 +17,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6cd8b8e409348b4df1144ad58700882879012766
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 94a1a6bf72a24549b29d24277e5524990b357074
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-resource-capabilities"></a><span data-ttu-id="b81c9-103">定义资源功能</span><span class="sxs-lookup"><span data-stu-id="b81c9-103">Define resource capabilities</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b81c9-104">资源功能描述了运营资源可执行的内容。</span><span class="sxs-lookup"><span data-stu-id="b81c9-104">Resource capabilities describe what operations resources can do.</span></span> <span data-ttu-id="b81c9-105">在安排期间，每个工作和操作的要求都将与可用资源的功能相匹配。</span><span class="sxs-lookup"><span data-stu-id="b81c9-105">During scheduling, the requirements of each job and operation are matched against the capabilities of the available resources.</span></span> <span data-ttu-id="b81c9-106">该任务指南将帮助您创建资源功能并其分配给资源。</span><span class="sxs-lookup"><span data-stu-id="b81c9-106">This task guide will help you create a resource capability and assign it to a resource.</span></span> <span data-ttu-id="b81c9-107">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="b81c9-107">The demo data company used to create this task is USMF.</span></span>
 

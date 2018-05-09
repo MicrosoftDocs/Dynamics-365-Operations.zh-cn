@@ -18,16 +18,16 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1c5db6c7b3b8906d97498ee99dca73214919e016
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 12b44a013864ade699e16afd41f3e0643fb16b87
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="find-support-for-microsoft-dynamics-365-for-finance-and-operations-and-dynamics-lifecycle-services"></a><span data-ttu-id="984d8-103">查找对 Microsoft Dynamics 365 for Finance and Operations 和 Dynamics Lifecycle Services 的支持</span><span class="sxs-lookup"><span data-stu-id="984d8-103">Find support for Microsoft Dynamics 365 for Finance and Operations and Dynamics Lifecycle Services</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="984d8-104">本文介绍如何获取有关 Finance and Operations Enterprise Edition 或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。</span><span class="sxs-lookup"><span data-stu-id="984d8-104">This article explains how to get help with Finance and Operations or Microsoft Dynamics Lifecycle Services (LCS).</span></span> 
 

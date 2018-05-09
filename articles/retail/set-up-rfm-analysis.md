@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec804559d6514b4443bd295ec9d9b8b192f45ec0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0ab36301532cf8d4b509aa250ad22ea2ad6954c6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-rfm-analysis"></a><span data-ttu-id="02252-103">设置 RFM 分析</span><span class="sxs-lookup"><span data-stu-id="02252-103">Set up RFM analysis</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="02252-104">本主题解释了如何设置客户的 Recency、频率和货币 (RFM) 分析。</span><span class="sxs-lookup"><span data-stu-id="02252-104">This topic explains how to set up a Recency, Frequency, and Monetary (RFM) analysis of your customers.</span></span>
 

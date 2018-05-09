@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 105ae607aa14c8ca1629e33cd5e2ff628ee6db95
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e246e2a48d5348b3088e3c992489f1d27f92d65e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="acquire-assets-through-procurement"></a><span data-ttu-id="2f4ff-103">通过采购获得资产</span><span class="sxs-lookup"><span data-stu-id="2f4ff-103">Acquire assets through procurement</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2f4ff-104">本主题介绍如何设置固定资产和应付账款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。</span><span class="sxs-lookup"><span data-stu-id="2f4ff-104">This topic describes how to set up the integration between Fixed assets and Accounts payable to automatically create fixed assets from purchase orders or vendor invoices, or automatically post acquisition and acquisition adjustment transactions for fixed assets.</span></span>
 

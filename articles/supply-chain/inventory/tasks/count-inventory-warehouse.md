@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9832a60ee703878701927b66b0b4b63cb7efb985
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e7813f9add1c8cf3c2f22aff826daf22f54f348e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="count-inventory-in-a-warehouse"></a><span data-ttu-id="0eef4-103">盘点仓库中的库存</span><span class="sxs-lookup"><span data-stu-id="0eef4-103">Count inventory in a warehouse</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0eef4-104">该过程介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。</span><span class="sxs-lookup"><span data-stu-id="0eef4-104">This procedure walks you through the process of creating and posting an inventory counting journal in order to count a specific item at a location in the warehouse.</span></span> <span data-ttu-id="0eef4-105">该过程适用于“基础仓储”功能，在库存管理模块可用，在仓库管理模块的仓储功能不可用。</span><span class="sxs-lookup"><span data-stu-id="0eef4-105">The procedure applies to “basic warehousing” functionality, available in the Inventory management module, not to the warehousing functionality that’s available in the Warehouse management module.</span></span> <span data-ttu-id="0eef4-106">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="0eef4-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="0eef4-107">如果您使用自己的数据，确保您有产品和库位设置，并且您为盘点日记帐创建了库存日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="0eef4-107">If you’re using your own data, make sure that you have products and locations set up, and that you’ve created an inventory journal name for counting journals.</span></span> <span data-ttu-id="0eef4-108">库存盘点通常由仓管人员执行。</span><span class="sxs-lookup"><span data-stu-id="0eef4-108">Inventory counting is normally carried out by a warehouse employee.</span></span>
 

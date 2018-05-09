@@ -20,16 +20,16 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0a8946b5258e467328fa220ad555e5b9d4dc38e8
-ms.openlocfilehash: c196d5117abbaa8926bf051eaca683657fbc81e4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0a437d03a923e54c64bd7546dfccb4f6dcc13b12
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-management-home-page"></a><span data-ttu-id="2e6b2-103">成本管理主页</span><span class="sxs-lookup"><span data-stu-id="2e6b2-103">Cost management home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2e6b2-104">可通过[成本管理（视频）](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be)处理原材料、半成品、成品和在制品资产的计价和核算。</span><span class="sxs-lookup"><span data-stu-id="2e6b2-104">[Cost management (video)](https://www.youtube.com/watch?v=vXzlC-mOBcg&feature=youtu.be) lets you work with the valuation and accounting of raw materials, semi-finished goods, finished goods, and work-in-progress assets.</span></span> <span data-ttu-id="2e6b2-105">这是定义、管理和报告[库存会计](cost-object.md)和[制造会计](bom-calculations.md)的过程。</span><span class="sxs-lookup"><span data-stu-id="2e6b2-105">It is the process of defining, managing, and reporting [Inventory accounting](cost-object.md) and [Manufacturing accounting](bom-calculations.md).</span></span>
 

@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d0bece11b4f78d2e7abc701b8b5b9aa0d76a6a6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a69073328be1e92f40ab1a821204310f10545303
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="analyze-questionnaire-results"></a><span data-ttu-id="c2f46-103">分析调查表结果</span><span class="sxs-lookup"><span data-stu-id="c2f46-103">Analyze questionnaire results</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c2f46-104">调查表统计可用于计算平均数、总数和基于人口统计数据的百分比。</span><span class="sxs-lookup"><span data-stu-id="c2f46-104">Questionnaire statistics can be used to calculate averages, totals, and percentages based on a set of demographic data.</span></span> <span data-ttu-id="c2f46-105">若要启动此过程，请转到“调查表”>“查看和分析结果”>“调查表统计”。</span><span class="sxs-lookup"><span data-stu-id="c2f46-105">To begin this procedure, go to Questionnaire > View and analyze results > Questionnaire statistics.</span></span> <span data-ttu-id="c2f46-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="c2f46-106">The demo data company used to create this procedure is USMF.</span></span>
 

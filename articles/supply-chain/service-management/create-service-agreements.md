@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5447787ea0f6b0c83e43fa5f0a4e18db9361f04c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a3d848b0cfebd190f1aa1d8aa6717d9cf3b80685
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-service-agreements"></a><span data-ttu-id="337e2-103">创建服务协议</span><span class="sxs-lookup"><span data-stu-id="337e2-103">Create service agreements</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="337e2-104">本主题描述如何在服务管理和项目管理与核算模块中使用功能创建服务协议。</span><span class="sxs-lookup"><span data-stu-id="337e2-104">This topic describes how to use features in the Service management and the Project management and accounting modules to create service agreements.</span></span>
 

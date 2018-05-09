@@ -19,16 +19,16 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: aa7c7bfaf4301904e1b7ae242efaf8b660fb076a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e213c4436452ddf1d0e22d791c7ee2cee803edc7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-expense-management"></a><span data-ttu-id="6946d-103">配置费用管理</span><span class="sxs-lookup"><span data-stu-id="6946d-103">Configure expense management</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6946d-104">本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations 中配置费用管理前在计划流程中的考虑事项和必须做的决定。</span><span class="sxs-lookup"><span data-stu-id="6946d-104">This topic describes the considerations and the decisions that you must make during the planning process before you configure Expense management in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="6946d-105">在费用管理中，您可以存储有关付款方式、出差申请、费用报表和政策等的信息。</span><span class="sxs-lookup"><span data-stu-id="6946d-105">In Expense management, you can store information about payment methods, travel requisitions, expense reports, policies, and so on.</span></span>
 

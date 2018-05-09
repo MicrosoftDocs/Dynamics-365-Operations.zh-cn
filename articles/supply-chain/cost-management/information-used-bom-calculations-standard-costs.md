@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 80e12de7a4da36ee6a8f54d9f6eeae52e94fb856
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d76d54e6123789c0710764b34a7c9ee50342fcbd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a><span data-ttu-id="6891c-104">在使用标准成本进行的物料清单计算中使用的信息</span><span class="sxs-lookup"><span data-stu-id="6891c-104">Information used in BOM calculations with standard costs</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6891c-105">物料清单 (BOM) 计算利用来自若干来源的数据，以便计算制造物料的标准成本。</span><span class="sxs-lookup"><span data-stu-id="6891c-105">Bills of material (BOM) calculations use data from several sources to calculate the standard costs of a manufactured item.</span></span> <span data-ttu-id="6891c-106">这些来源包括与物料、物料清单工艺路线、间接成本计算公式和成本计算版本有关的信息。</span><span class="sxs-lookup"><span data-stu-id="6891c-106">The sources include information about items, bills routings, indirect cost calculation formulas, and the costing version.</span></span>
 

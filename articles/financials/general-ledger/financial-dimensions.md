@@ -18,16 +18,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3d3423b1d3cc235fa10f0a26aa5cd880d08be45b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: dccd8cc7e99454a2adb1c710d73792e62d510bd7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-dimensions"></a><span data-ttu-id="a028d-103">财务维度</span><span class="sxs-lookup"><span data-stu-id="a028d-103">Financial dimensions</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a028d-104">本主题说明财务维度的不同类型以及如何设置。</span><span class="sxs-lookup"><span data-stu-id="a028d-104">This topic explains the various types of financial dimensions and how they are set up.</span></span>
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="custom-dimensions"></a><span data-ttu-id="a028d-124">自定义维度</span><span class="sxs-lookup"><span data-stu-id="a028d-124">Custom dimensions</span></span>
 
-<span data-ttu-id="a028d-125">若要创建用户定义的财务维度，在**使用以下来源中的值**字段中，选择**&lt;自定义维度&gt;**。</span><span class="sxs-lookup"><span data-stu-id="a028d-125">To create a user-defined financial dimension, in the **Use values from** field, select **&lt; Custom dimension &gt;**.</span></span> <span data-ttu-id="a028d-126">您还可以指定科目掩码以限制您为维度值输入的金额和信息类型。</span><span class="sxs-lookup"><span data-stu-id="a028d-126">You can also specify an account mask to limit the amount and type of information that you can enter for dimension values.</span></span> <span data-ttu-id="a028d-127">您可以输入保持不变的每个维度值的信息，例如字母或连字符 (-)。</span><span class="sxs-lookup"><span data-stu-id="a028d-127">You can enter characters that remain the same for each dimension value, such as letters or a hyphen (-).</span></span> <span data-ttu-id="a028d-128">还可以输入数字标志 (\#) 和和符号 (&) 作为每次要更改的字母和数字的占位符创建维度值。</span><span class="sxs-lookup"><span data-stu-id="a028d-128">You can also enter number signs (\#) and ampersands (&) as placeholders for letters and numbers that will change every time that a dimension value is created.</span></span> <span data-ttu-id="a028d-129">使用一个数字标志 (\#) 作为编号占位符和符号 (&) 作为信函的占位符。</span><span class="sxs-lookup"><span data-stu-id="a028d-129">Use a number sign (\#) as a placeholder for a number and an ampersand (&) as a placeholder for a letter.</span></span> <span data-ttu-id="a028d-130">只有在**&lt;使用以下来源中的值&gt;**字段中选择**自定义维度**后，用于格式掩码的字段才可用。</span><span class="sxs-lookup"><span data-stu-id="a028d-130">The field for the format mask is available only when you select **&lt; Custom dimension &gt;** in the **Use values from** field.</span></span>
+<span data-ttu-id="a028d-125">若要创建用户定义的财务维度，在**使用以下来源中的值**字段中，选择**&lt;自定义维度&gt;**。</span><span class="sxs-lookup"><span data-stu-id="a028d-125">To create a user-defined financial dimension, in the **Use values from** field, select **&lt; Custom dimension &gt;**.</span></span> <span data-ttu-id="a028d-126">您还可以指定科目掩码以限制您为维度值输入的金额和信息类型。</span><span class="sxs-lookup"><span data-stu-id="a028d-126">You can also specify an account mask to limit the amount and type of information that you can enter for dimension values.</span></span> <span data-ttu-id="a028d-127">您可以输入保持不变的每个维度值的信息，例如字母或连字符 (-)。</span><span class="sxs-lookup"><span data-stu-id="a028d-127">You can enter characters that remain the same for each dimension value, such as letters or a hyphen (-).</span></span> <span data-ttu-id="a028d-128">还可以输入数字标志 (\#) 和和符号 (&) 作为每次要更改的字母和数字的占位符创建维度值。</span><span class="sxs-lookup"><span data-stu-id="a028d-128">You can also enter number signs (\#) and ampersands (&) as placeholders for letters and numbers that will change every time that a dimension value is created.</span></span> <span data-ttu-id="a028d-129">使用一个数字标志 (\#) 作为编号占位符和符号 (&) 作为信函的占位符。</span><span class="sxs-lookup"><span data-stu-id="a028d-129">Use a number sign (\#) as a placeholder for a number and an ampersand (&) as a placeholder for a letter.</span></span> <span data-ttu-id="a028d-130">只有在**&lt;使用以下来源中的值&gt;** 字段中选择**自定义维度**后，用于格式掩码的字段才可用。</span><span class="sxs-lookup"><span data-stu-id="a028d-130">The field for the format mask is available only when you select **&lt; Custom dimension &gt;** in the **Use values from** field.</span></span>
 
 <span data-ttu-id="a028d-131">**示例**</span><span class="sxs-lookup"><span data-stu-id="a028d-131">**Example**</span></span>
 

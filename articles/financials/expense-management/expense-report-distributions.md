@@ -18,16 +18,16 @@ ms.search.validFrom:
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8c3eccb686f5577cd55d7ed31e6f1adf3456096a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="distributions-on-an-expense-report"></a><span data-ttu-id="2b4f1-103">费用报表上的分配</span><span class="sxs-lookup"><span data-stu-id="2b4f1-103">Distributions on an expense report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="2b4f1-104">在费用报表输入费用时，您可以在您的组织中配送多个项目、财务维度或帐户。</span><span class="sxs-lookup"><span data-stu-id="2b4f1-104">When you enter expenses on an expense report, you can distribute the expense across multiple projects, financial dimensions, or accounts in your organization.</span></span>
 

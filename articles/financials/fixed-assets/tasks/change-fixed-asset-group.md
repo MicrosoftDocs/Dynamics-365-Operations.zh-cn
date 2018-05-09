@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fbcff3e9d415c3bd10782136f08aec2adad8f943
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e898190da8f0c9b9c46c5d9cd6d03c96dfdd9c06
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="change-a-fixed-asset-group"></a><span data-ttu-id="9d9a0-103">更改固定资产组</span><span class="sxs-lookup"><span data-stu-id="9d9a0-103">Change a fixed asset group</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9d9a0-104">应将固定资产分配给正确的固定资产组。</span><span class="sxs-lookup"><span data-stu-id="9d9a0-104">Fixed assets should be assigned to the correct fixed assets group.</span></span> <span data-ttu-id="9d9a0-105">固定资产组的使用场景：</span><span class="sxs-lookup"><span data-stu-id="9d9a0-105">The fixed assets group is used when you:</span></span>
 

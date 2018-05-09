@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6d09e32c9e2c41c49e376320d507593849f68cb0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 61a506b3824fa220d052ca667199edac526c1cbc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-hub-accessorial-charges-and-accessorial-masters"></a><span data-ttu-id="a51c2-103">设置中心附属费用和附属主数据</span><span class="sxs-lookup"><span data-stu-id="a51c2-103">Set up hub accessorial charges and accessorial masters</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a51c2-104">此过程显示如何为中心创建附属主数据，并使用主数据来创建中心附加费。</span><span class="sxs-lookup"><span data-stu-id="a51c2-104">This procedure shows how to create an accessorial master for a hub and use that master to create a hub accessorial charge.</span></span> <span data-ttu-id="a51c2-105">此过程使用 USMF 数据集。</span><span class="sxs-lookup"><span data-stu-id="a51c2-105">The procedure uses the USMF dataset.</span></span> <span data-ttu-id="a51c2-106">此设置通常由运输协调员完成。</span><span class="sxs-lookup"><span data-stu-id="a51c2-106">This set up will typically be done by a transportation coordinator.</span></span>
 

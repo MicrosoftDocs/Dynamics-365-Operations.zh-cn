@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 162b6d660fb5ec8df79dc44b89dea87d877c6470
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1cecc57bbcac4a8b9d2bfc009499d567d2569c84
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a><span data-ttu-id="6f68e-103">将物料清单和配方行发放到仓库</span><span class="sxs-lookup"><span data-stu-id="6f68e-103">Release BOM and formula lines to the warehouse</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6f68e-104">此主题介绍将物料清单 (BOM) 行和配方行的原材料发放到仓库的流程。</span><span class="sxs-lookup"><span data-stu-id="6f68e-104">This topic describes the process for releasing raw material for bill of materials (BOM) lines and formula lines to the warehouse.</span></span> <span data-ttu-id="6f68e-105">在您将物料清单或配方行发放到仓库时，系统将首先确定用于生产流程的物料所在的车间的生产输入库位上是否已经提供该物料。</span><span class="sxs-lookup"><span data-stu-id="6f68e-105">When you release a BOM or formula line to the warehouse, the system first determines whether material is already available at the production input location on the shop floor where the material will be consumed for the production process.</span></span>
 

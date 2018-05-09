@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4d28abe06cb7bfd43fd95af8cd88e022a51f5380
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3205fe6a10ce714073334c7ccd25acb755e0aebf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="define-coverage-rules-for-items"></a><span data-ttu-id="f5fa5-103">定义物料的覆盖规则</span><span class="sxs-lookup"><span data-stu-id="f5fa5-103">Define coverage rules for items</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f5fa5-104">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="f5fa5-104">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f5fa5-105">该过程会显示如何创建覆盖范围规则，以及覆写特定物料的覆盖范围设置。</span><span class="sxs-lookup"><span data-stu-id="f5fa5-105">This procedure shows how to create coverage rules and override coverage settings for a specific item.</span></span> <span data-ttu-id="f5fa5-106">它也显示了如何确定默认库存设置。</span><span class="sxs-lookup"><span data-stu-id="f5fa5-106">It also shows how to specify default inventory settings.</span></span>
 

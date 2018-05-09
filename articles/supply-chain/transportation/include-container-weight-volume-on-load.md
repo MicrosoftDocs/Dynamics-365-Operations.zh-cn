@@ -18,16 +18,16 @@ ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bafd6129dbbf3aff5f4be0cf10a71e9039f879e2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5b0d8c8a3985d1f49a493615b3c69a9dbe65635f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="include-container-weight-and-volume-on-load"></a><span data-ttu-id="eb26b-103">包括容器重量和负荷的体积</span><span class="sxs-lookup"><span data-stu-id="eb26b-103">Include container weight and volume on load</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="eb26b-104">用于包括容器重量和负荷的体积的功能明确表示容器的总重量和体积以及进入负荷的物料。</span><span class="sxs-lookup"><span data-stu-id="eb26b-104">The functionality for including the container weight and volume on a load gives a clear representation of the total weight and volume of containers and items that are going on a load.</span></span>
 

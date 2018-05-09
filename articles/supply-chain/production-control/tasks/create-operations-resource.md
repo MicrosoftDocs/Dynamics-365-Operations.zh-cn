@@ -17,15 +17,15 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 94b1bc306ecbc8bec6beac149001f202c77a9090
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8d87bd2b3f617eab905fa484ee03821a1a44e20b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-an-operations-resource"></a><span data-ttu-id="ec04c-103">创建运营资源</span><span class="sxs-lookup"><span data-stu-id="ec04c-103">Create an operations resource</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ec04c-104">运营资源执行项目或生产流程的活动。</span><span class="sxs-lookup"><span data-stu-id="ec04c-104">An operations resource performs the activities of a project or a production process.</span></span> <span data-ttu-id="ec04c-105">此过程显示您如何定义运营资源。</span><span class="sxs-lookup"><span data-stu-id="ec04c-105">This procedure shows you how to define an operations resource.</span></span> <span data-ttu-id="ec04c-106">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="ec04c-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 

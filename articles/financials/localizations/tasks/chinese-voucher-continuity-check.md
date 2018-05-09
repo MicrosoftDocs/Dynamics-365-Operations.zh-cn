@@ -16,15 +16,15 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 80a3d853fcf3503eccbef1ab1960ec6f956bab7e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 328b697b7844db6878a09387c4465aab462f1024
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="chinese-voucher-continuity-check"></a><span data-ttu-id="6af4f-103">中国式凭证连续性检查</span><span class="sxs-lookup"><span data-stu-id="6af4f-103">Chinese voucher continuity check</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6af4f-104">每个凭证类型的中国式凭证号必须从 1 开始并且具有连续性，才能结转会计期间。</span><span class="sxs-lookup"><span data-stu-id="6af4f-104">Before you can close a fiscal period, the Chinese voucher numbers for each voucher type must start at 1 and be sequential.</span></span>
 <span data-ttu-id="6af4f-105">此过程显示如何检查会计期间中的所有已过帐凭证，以及如何将中国式凭证号连续编号。</span><span class="sxs-lookup"><span data-stu-id="6af4f-105">This procedure shows how to check all posted vouchers in a fiscal period and renumber the Chinese voucher numbers to be sequential.</span></span> <span data-ttu-id="6af4f-106">此过程是会计期间结转流程的一部分，因此只能为“暂停”会计期间运行。</span><span class="sxs-lookup"><span data-stu-id="6af4f-106">This process is part of the fiscal period closing process, so it can only be run for On hold fiscal periods.</span></span> <span data-ttu-id="6af4f-107">第一个子任务逐步演示如何停止会计期间。</span><span class="sxs-lookup"><span data-stu-id="6af4f-107">The first sub task walks you through stopping a fiscal period.</span></span> 

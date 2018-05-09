@@ -16,15 +16,15 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8a47dac61705831b330f7b4939a18c865a8ace7
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3a9c87b8790ed6cfe4139180f1f1785db04e7431
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a><span data-ttu-id="50f46-103">记录采购订单上的收货</span><span class="sxs-lookup"><span data-stu-id="50f46-103">Record the receipt of goods on the purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="50f46-104">此过程演示如何直接在采购订单中记录收货。</span><span class="sxs-lookup"><span data-stu-id="50f46-104">This procedure shows you how to record receipt of goods directly on a purchase order.</span></span> <span data-ttu-id="50f46-105">还可以在仓库中登记产品收货，以后再记录到采购订单中。</span><span class="sxs-lookup"><span data-stu-id="50f46-105">It’s also possible to register product receipt in the warehouse, and then later record it on the purchase order.</span></span> <span data-ttu-id="50f46-106">此任务通常由代购代理或应付账款协调员执行。</span><span class="sxs-lookup"><span data-stu-id="50f46-106">This task is typically done by a purchasing agent or an accounts payable coordinator.</span></span> <span data-ttu-id="50f46-107">可以在 USMF 演示数据公司中使用本指南中的示例。</span><span class="sxs-lookup"><span data-stu-id="50f46-107">The example shown in this guide can be used in the USMF demo data company.</span></span> <span data-ttu-id="50f46-108">此示例包括简单采购订单的创建步骤，以便您将此过程用作任务指南。</span><span class="sxs-lookup"><span data-stu-id="50f46-108">The example includes steps to create a simple purchase order so that you can play the procedure as a task guide.</span></span> <span data-ttu-id="50f46-109">如果您使用此过程和您自己的数据，则可以从“记录收货”子任务着手。</span><span class="sxs-lookup"><span data-stu-id="50f46-109">If you were using the procedure on your own data, you would start at the Record receipt of goods subtask.</span></span>
 

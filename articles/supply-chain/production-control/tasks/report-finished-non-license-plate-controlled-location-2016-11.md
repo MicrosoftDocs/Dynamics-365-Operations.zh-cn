@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9a7901b307cffb81cce351e4e45ac8f73f328b02
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9e4cf2b2d4fe1170c75514a1e554d54dc8c32140
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a><span data-ttu-id="cd1d6-103">报告为已完工入库到非牌照控制的库位</span><span class="sxs-lookup"><span data-stu-id="cd1d6-103">Report as finished to a plate-controlled location</span></span> 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cd1d6-104">此任务指南显示报告为完工入库到非牌照控制的位置的示例。</span><span class="sxs-lookup"><span data-stu-id="cd1d6-104">This task guide shows an example of reporting as finished to a location that isn't license plate–controlled.</span></span> <span data-ttu-id="cd1d6-105">一个适用的工作策略是此任务的先决条件。</span><span class="sxs-lookup"><span data-stu-id="cd1d6-105">An applicable work policy is the prerequisite for this task.</span></span> <span data-ttu-id="cd1d6-106">以前的任务指南显示工作策略的设置。</span><span class="sxs-lookup"><span data-stu-id="cd1d6-106">A previous task guide showed the setup of the work policy.</span></span> <span data-ttu-id="cd1d6-107">此任务指南需要 Dynamics AX 应用程序 7.0.1 或更高版本。</span><span class="sxs-lookup"><span data-stu-id="cd1d6-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
 

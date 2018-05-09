@@ -16,15 +16,15 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5ca839e091ab49ea0d47d5e039a4c6d4007c2650
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cd19b542e4a445091cc53c2a6c7ba49b8fa6fc9d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-required-configurations-to-import-data-from-an-external-file-for-electronic-reporting-er"></a><span data-ttu-id="e4e7c-103">针对电子申报 (ER) 创建从外部文件导入数据所需配置</span><span class="sxs-lookup"><span data-stu-id="e4e7c-103">Create required configurations to import data from an external file for electronic reporting (ER)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e4e7c-104">以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入 Dynamics 365 for Finance and Operations 应用程序中。</span><span class="sxs-lookup"><span data-stu-id="e4e7c-104">The following steps explain how a user in the System administrator or Electronic reporting developer role can design Electronic reporting (ER) configurations to import data in to the Dynamics 365 for Finance and Operations application from an external file.</span></span> <span data-ttu-id="e4e7c-105">在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成任务指南“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。</span><span class="sxs-lookup"><span data-stu-id="e4e7c-105">In this example, you will create the required ER configurations for the sample company, Litware, Inc. To complete these steps, you must first complete the steps in the Task guide, “ER Create a configuration provider and mark it as active.”</span></span> <span data-ttu-id="e4e7c-106">可使用 USMF 数据集完成这些步骤。</span><span class="sxs-lookup"><span data-stu-id="e4e7c-106">These steps can be completed using the USMF data set.</span></span> <span data-ttu-id="e4e7c-107">还必须使用“电子申报概述”主题中的链接下载以下文件并保存到本地 (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml、1099format.xml、1099entries.xml、1099entries.xlsx。</span><span class="sxs-lookup"><span data-stu-id="e4e7c-107">You must also download and save the following files locally using links from the Electronic reporting overview topic (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml, 1099format.xml, 1099entries.xml, 1099entries.xlsx.</span></span>
 

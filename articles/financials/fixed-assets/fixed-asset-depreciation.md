@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c8ec644a9559946254a1d35f8698e892be1ca50d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b1d4ced73ed3ce486c33a59ae1de40b8b8444673
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-depreciation"></a><span data-ttu-id="c5007-103">固定资产折旧</span><span class="sxs-lookup"><span data-stu-id="c5007-103">Fixed asset depreciation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="c5007-104">文主题提供固定资产折旧的概览。</span><span class="sxs-lookup"><span data-stu-id="c5007-104">This topic provides an overview of depreciation for fixed assets.</span></span>
 

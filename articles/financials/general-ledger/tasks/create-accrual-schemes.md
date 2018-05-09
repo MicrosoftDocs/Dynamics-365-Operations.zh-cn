@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 871745109e15c0a6007ca1e8d81791de2d084bdf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1d7d531f547f517d1f39a6b181d9a7a782771e6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-accrual-schemes"></a><span data-ttu-id="6b2cb-103">创建应计方案</span><span class="sxs-lookup"><span data-stu-id="6b2cb-103">Create accrual schemes</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6b2cb-104">此任务指南介绍创建应计架构的步骤。</span><span class="sxs-lookup"><span data-stu-id="6b2cb-104">This task guide steps through creating an accrual scheme.</span></span> <span data-ttu-id="6b2cb-105">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="6b2cb-105">This task uses the USMF demo company.</span></span>
 

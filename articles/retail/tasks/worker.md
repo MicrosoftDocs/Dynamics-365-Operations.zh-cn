@@ -17,15 +17,15 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5e168c4d0b4e48b73d4a31ca8525e2aeb288846c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1699dbd8a9f4c23274facb741528d4b5ef7aecbd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-a-worker"></a><span data-ttu-id="807c4-103">配置工作人员</span><span class="sxs-lookup"><span data-stu-id="807c4-103">Configure a worker</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="807c4-104">此过程演示如何将零售工作人员配置为有资格享受 POS 中的销售佣金的销售代表。</span><span class="sxs-lookup"><span data-stu-id="807c4-104">This procedure demonstrates how to configure a retail worker as a sales representative who is eligible for commission on sales in POS.</span></span> <span data-ttu-id="807c4-105">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="807c4-105">This procedure uses the USRT demo data company.</span></span>
 

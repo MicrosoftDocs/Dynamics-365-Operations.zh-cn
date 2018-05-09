@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cf82898b6ff731433bad100b12ba48a8f42ee11b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 44f5d586ac4cedc5d0611ac190bed94a67827182
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="settle-transactions-between-ledger-accounts"></a><span data-ttu-id="60008-103">结算会计科目之间的交易记录</span><span class="sxs-lookup"><span data-stu-id="60008-103">Settle transactions between ledger accounts</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="60008-104">该过程显示如何结算会计科目间的交易和取消分类帐结算。</span><span class="sxs-lookup"><span data-stu-id="60008-104">This procedure shows how to settle transactions between ledger accounts and cancel a ledger settlement.</span></span> <span data-ttu-id="60008-105">此过程使用演示数据公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="60008-105">This procedure uses the USMF demo data company.</span></span>
 

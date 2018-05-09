@@ -20,18 +20,18 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 36c3f9f0afe91c2326bafcbdcc636ae4b3406b01
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9994b527bde6d27060dabc2d422d1ce9187a3fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fifo-with-physical-value-and-marking"></a><span data-ttu-id="10edc-104">具有实际成本和标记的先进先出</span><span class="sxs-lookup"><span data-stu-id="10edc-104">FIFO with physical value and marking</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="10edc-105">先进先出 (FIFO) 是一种库存模型，其中，最先的收货将最先发货。</span><span class="sxs-lookup"><span data-stu-id="10edc-105">First in, First out (FIFO) is an inventory model in which the first acquired receipts are issued first.</span></span> <span data-ttu-id="10edc-106">基于库存交易记录的财务日期，按照最先财务更新的入库结算从库存的财务更新的发货。</span><span class="sxs-lookup"><span data-stu-id="10edc-106">Financially updated issues from inventory are settled against the first financially updated receipts into inventory, based on the financial date of the inventory transaction.</span></span> 
 

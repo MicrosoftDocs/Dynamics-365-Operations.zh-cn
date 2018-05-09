@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4675a78b47ae922a570e4975c2cce68ac0d76d5a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8568dd98635e463f48f3ecfb2cead57b9896b126
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-performance-review"></a><span data-ttu-id="4c991-103">创建绩效审核</span><span class="sxs-lookup"><span data-stu-id="4c991-103">Create a performance review</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4c991-104">此过程显示如何创建绩效审核和介绍审核各部分的目的。</span><span class="sxs-lookup"><span data-stu-id="4c991-104">This procedure shows how to create a performance review and describes the purpose for each section of the review.</span></span> <span data-ttu-id="4c991-105">创建该过程的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="4c991-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="4c991-106">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="4c991-106">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 

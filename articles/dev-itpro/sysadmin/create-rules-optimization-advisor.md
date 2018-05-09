@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 943239c7d57b4a438c405f1ad0551db29d7a8145
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e78427dacb0d2adfd0334115581d5a5a9cfd2921
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-rules-for-optimization-advisor"></a><span data-ttu-id="73908-103">为优化顾问创建规则</span><span class="sxs-lookup"><span data-stu-id="73908-103">Create rules for Optimization advisor</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="73908-104">本主题介绍如何为**优化顾问**创建新规则。</span><span class="sxs-lookup"><span data-stu-id="73908-104">This topic explains how to create new rules for **Optimization advisor**.</span></span> <span data-ttu-id="73908-105">例如，可创建一个新规则来识别哪些询价单 (RFQ) 案例的标题为空。</span><span class="sxs-lookup"><span data-stu-id="73908-105">For example, you can create a new rule that identifies which Request for Quotations (RFQ) cases have an empty title.</span></span> <span data-ttu-id="73908-106">可通过案例的标题轻松识别和搜索案例。</span><span class="sxs-lookup"><span data-stu-id="73908-106">Using titles on cases makes them easily identifiable and searchable.</span></span> <span data-ttu-id="73908-107">此示例非常简单，介绍了通过优化规则可达到哪些目的。</span><span class="sxs-lookup"><span data-stu-id="73908-107">While quite simple, this example shows what can be achieved with optimization rules.</span></span> 
 

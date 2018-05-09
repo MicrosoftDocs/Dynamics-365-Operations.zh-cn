@@ -19,16 +19,16 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 04ac47adb6ad994deb4bc7ee2972d2489e162ca4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9e577427e372d778a0a6bf5c20fd4b0d2972f5cb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="accounts-receivable-home-page"></a><span data-ttu-id="988c3-103">应收帐款主页</span><span class="sxs-lookup"><span data-stu-id="988c3-103">Accounts receivable home page</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="988c3-104">使用应收帐款可以跟踪客户发票和收入付款。</span><span class="sxs-lookup"><span data-stu-id="988c3-104">Use Accounts receivable to track customer invoices and incoming payments.</span></span> 
 

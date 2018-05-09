@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b7d4530ecccf18d9370d84ff2b61be1514b80192
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ab6edcdb9dece5c6a5ac8cdb5f978477430c9cea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="bom-designer-functionality"></a><span data-ttu-id="9826e-103">物料清单设计器功能</span><span class="sxs-lookup"><span data-stu-id="9826e-103">BOM designer functionality</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9826e-104">本主题介绍如何使用物料清单设计器页设计和使用物料清单 (BOM) 的树状结构。</span><span class="sxs-lookup"><span data-stu-id="9826e-104">This topic describes how you can use the BOM designer page to design and work with tree structures for bills of materials (BOMs).</span></span> <span data-ttu-id="9826e-105">您可以单击“设置”选择不同的配置并指定要在树的行上显示哪些信息。</span><span class="sxs-lookup"><span data-stu-id="9826e-105">You can click Setup to select different configurations and specify what information appears on the lines of the tree.</span></span>
 

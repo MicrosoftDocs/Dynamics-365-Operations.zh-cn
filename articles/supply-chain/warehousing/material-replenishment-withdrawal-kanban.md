@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2413c55a598e8ea8800aff2fca5244e6b204ffae
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 30abf2421df3e5bd3fca927ddc78f1dd821c0d68
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="replenishment-with-withdrawal-kanbans"></a><span data-ttu-id="31345-103">通过提领看板补货</span><span class="sxs-lookup"><span data-stu-id="31345-103">Replenishment with withdrawal kanbans</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="31345-104">此主题介绍如何使用提领看板进行物料补货用于制造活动。</span><span class="sxs-lookup"><span data-stu-id="31345-104">This topic describes how the withdrawal kanban is used for material replenishment for manufacturing activities.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16b6510e4bc9e844e4bdda372733507937c27315
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3fd607bf186d82c9fbacbc208f277d2fdc4dbcb9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-preliminary-budget-for-public-sector"></a><span data-ttu-id="9479f-103">为公共部门创建初步预算</span><span class="sxs-lookup"><span data-stu-id="9479f-103">Create a preliminary budget for public sector</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="9479f-104">您可以为特定的预算模型和维度值创建初步预算登记条目。</span><span class="sxs-lookup"><span data-stu-id="9479f-104">You can create preliminary budget register entries for a specific budget model and dimension values.</span></span> <span data-ttu-id="9479f-105">在实际预算经过审核后，您可以创建原始预算登记簿条目。</span><span class="sxs-lookup"><span data-stu-id="9479f-105">After the actual budget is approved, you can create original budget register entries.</span></span> <span data-ttu-id="9479f-106">通过使用 PSUS 演示公司数据的公共扇区分区创建该过程。</span><span class="sxs-lookup"><span data-stu-id="9479f-106">This procedure was created using the PSUS demo company data in the public sector partition.</span></span>
 

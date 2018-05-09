@@ -18,16 +18,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1235fe1db6663018c019322a7850cb428e3935d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ef820db6cdb2ce485ded0dbca9635af5c68403c6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-output-location"></a><span data-ttu-id="f3ca0-103">生产输出位置</span><span class="sxs-lookup"><span data-stu-id="f3ca0-103">Production output location</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f3ca0-104">本主题描述用于标识生产输出位置的层次结构。</span><span class="sxs-lookup"><span data-stu-id="f3ca0-104">This topic describes the hierarchy that is used to identify the production output location.</span></span>
 

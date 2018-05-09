@@ -16,15 +16,15 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 46cdc37181a1d4da0b14b428cc3231f740cc54aa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: db98d98caffe6819c3546426b6359de37b1be9c1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="import-iso20022-credit-transfer-configuration"></a><span data-ttu-id="1e48c-103">导入 ISO20022 贷方转帐配置</span><span class="sxs-lookup"><span data-stu-id="1e48c-103">Import ISO20022 credit transfer configuration</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1e48c-104">此过程显示如何导入供应商付款电子申报配置。</span><span class="sxs-lookup"><span data-stu-id="1e48c-104">This procedure shows how to import a vendor payment electronic reporting configuration.</span></span> <span data-ttu-id="1e48c-105">以德国 ISO 20022 贷方转帐格式为例。</span><span class="sxs-lookup"><span data-stu-id="1e48c-105">The German ISO 20022 credit transfer format is used as an example.</span></span> <span data-ttu-id="1e48c-106">此过程可用于其他可用电子申报格式。</span><span class="sxs-lookup"><span data-stu-id="1e48c-106">This procedure can be used for other available electronic reporting format.</span></span> 
 

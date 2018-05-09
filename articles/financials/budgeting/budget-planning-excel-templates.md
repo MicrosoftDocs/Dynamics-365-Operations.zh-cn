@@ -19,16 +19,16 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8b597f417fc144b90aa6469ebe1b9961dc968c15
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eaf491d458643a3c31d8654ead86b3ca709bd0be
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-templates-for-excel"></a><span data-ttu-id="efa5b-103">预算计划的 Excel 模板</span><span class="sxs-lookup"><span data-stu-id="efa5b-103">Budget planning templates for Excel</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="efa5b-104">此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。</span><span class="sxs-lookup"><span data-stu-id="efa5b-104">This topic describes how to create Microsoft Excel templates that can be used with budget plans.</span></span>
 

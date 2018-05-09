@@ -16,15 +16,15 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 690150cba1710c1060a8c5258acecc55e506e9a6
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93c2e06545a74c656f624848bd4e5dc4611be67b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="maintain-financial-dimension-default-templates"></a><span data-ttu-id="dfd79-103">维护财务维度默认模板</span><span class="sxs-lookup"><span data-stu-id="dfd79-103">Maintain financial dimension default templates</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="dfd79-104">此过程显示如何设置财务维度默认模板。</span><span class="sxs-lookup"><span data-stu-id="dfd79-104">This procedure shows how to set up financial dimension default templates.</span></span> <span data-ttu-id="dfd79-105">模板可用于快速分配原始凭证的金额。</span><span class="sxs-lookup"><span data-stu-id="dfd79-105">The templates can be used to quickly distribute amounts on source documents.</span></span>
 

@@ -17,15 +17,15 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c399ad1a412d334fa3f3d06a7d37b41b168779ad
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f59df16d58c4dde68e1077b606665a1f178e5ae3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="activate-a-production-flow-version"></a><span data-ttu-id="25cab-103">启用生产流版本</span><span class="sxs-lookup"><span data-stu-id="25cab-103">Activate a production flow version</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="25cab-104">应先启用生产流版本，才能为该版本创建看板作业和处理活动。</span><span class="sxs-lookup"><span data-stu-id="25cab-104">Before kanban jobs can be created and activities can be processed for a production flow version, you should activate the version.</span></span> <span data-ttu-id="25cab-105">最佳实践是，在版本的生效开始日期和时间到期前启用此版本。</span><span class="sxs-lookup"><span data-stu-id="25cab-105">As a best practice, activate the version before its effective start date and time expire.</span></span> <span data-ttu-id="25cab-106">要完成这项任务，您必须有状态为“草稿”的生产流版本以启用该版本。</span><span class="sxs-lookup"><span data-stu-id="25cab-106">To complete this task, you must have a production flow version that has the Draft status in order to activate the version.</span></span> 
 

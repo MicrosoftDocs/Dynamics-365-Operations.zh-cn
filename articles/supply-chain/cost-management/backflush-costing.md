@@ -20,16 +20,16 @@ ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 004ec0d47db4afca20d30a787a82ff4afe153294
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ffec5673793aa08c3974df04299859b930232805
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="backflush-costing"></a><span data-ttu-id="8328c-103">倒冲成本计算</span><span class="sxs-lookup"><span data-stu-id="8328c-103">Backflush costing</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8328c-104">本主题介绍了用于 Lean manufacturing 的倒冲成本计算法概念。</span><span class="sxs-lookup"><span data-stu-id="8328c-104">This topic introduces the concept of backflush costing that is used for Lean manufacturing.</span></span> 
 

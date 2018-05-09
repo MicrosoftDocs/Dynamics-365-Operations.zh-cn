@@ -19,15 +19,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4bb3865488c7dcb5a8417d277bdae52c2abb23de
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a><span data-ttu-id="1e3f7-103">固定资产前滚报表</span><span class="sxs-lookup"><span data-stu-id="1e3f7-103">Fixed assets roll forward report</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="1e3f7-104">**固定资产前滚**报表以通俗易懂的 Microsoft Excel 格式提供期间结帐、财务报表和报税所需的详细固定资产数据。</span><span class="sxs-lookup"><span data-stu-id="1e3f7-104">The **Fixed assets roll forward** report provides, in an easy-to-read Microsoft Excel format, the detailed fixed asset data that you require for period closing, financial statements, and tax reporting.</span></span> <span data-ttu-id="1e3f7-105">该报表中包含固定资产的期初余额和期末余额，期间的评估变动，以及该期间发生的任何新资产购置和处置。</span><span class="sxs-lookup"><span data-stu-id="1e3f7-105">The report includes start and end balances for fixed assets, together with valuation movements for the period, and any new asset acquisitions and disposals that occurred during the period.</span></span> <span data-ttu-id="1e3f7-106">将为单个固定资产报告数据，还将为固定资产组和法人汇总价值。</span><span class="sxs-lookup"><span data-stu-id="1e3f7-106">Data is reported for individual fixed assets, and values are also summarized for fixed asset groups and the legal entity.</span></span>
 

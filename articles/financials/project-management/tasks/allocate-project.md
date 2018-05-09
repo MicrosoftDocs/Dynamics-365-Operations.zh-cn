@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a253a37bc83482c5bc971cad585e18ccb230b16f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f1d6121ecadc7ebb4d41139d0505ba35790eee55
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a><span data-ttu-id="4a2c7-103">跨期间分配一个项目预算或预算修订</span><span class="sxs-lookup"><span data-stu-id="4a2c7-103">Allocate a project budget or budget revision across periods</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4a2c7-104">在输入项目预算或项目预算修订后，在您将其提交进行审核之前，您可以跨期分配这些金额。</span><span class="sxs-lookup"><span data-stu-id="4a2c7-104">After you enter a project budget or project budget revision, and before you submit it for approval, you can allocate the amounts across periods.</span></span> <span data-ttu-id="4a2c7-105">如果拒绝了该预算或预算修订，您还可以在重新提交前分配金额。</span><span class="sxs-lookup"><span data-stu-id="4a2c7-105">If the budget or budget revision is rejected, you can also allocate the amounts before you resubmit it.</span></span> 
 

@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe8dd3136f14e182e261a4dce57eef0b1946d304
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20fc9da6ce977845c32c91b9bddd9aebc69e2622
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="payment-methods-in-a-call-center"></a><span data-ttu-id="021ca-103">呼叫中心内的付款方法</span><span class="sxs-lookup"><span data-stu-id="021ca-103">Payment methods in a call center</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="021ca-104">在 Microsoft Dynamics 365 for Retail 中，呼叫中心渠道配置中包含一个名称为**启用订单完成**的设置。</span><span class="sxs-lookup"><span data-stu-id="021ca-104">In Microsoft Dynamics 365 for Retail, the configuration of the call center channel includes a setting that is named **Enable order completion**.</span></span> <span data-ttu-id="021ca-105">此设置有助于确保仅当渠道用户的预付款或预授权付款在批准的容差范围内时，才发放其创建的所有订单以执行其他处理。</span><span class="sxs-lookup"><span data-stu-id="021ca-105">This setting helps guarantee that all orders that users of the channel create are released to order processing only if they have a prepaid or pre-authorized payment that is within approved tolerances.</span></span> <span data-ttu-id="021ca-106">如果开启了**启用订单完成**设置，则呼叫中心用户可通过使用呼叫中心的付款处理功能为客户输入销售订单付款。</span><span class="sxs-lookup"><span data-stu-id="021ca-106">If the **Enable order completion** setting is turned on, call center users can enter payments against sales orders for customers by using the payment processing features of Call center.</span></span> <span data-ttu-id="021ca-107">如果关闭此设置，则呼叫中心用户不能使用呼叫中心付款处理功能，但是仍然可以通过使用标准的应收帐款功能对销售订单应用预付款。</span><span class="sxs-lookup"><span data-stu-id="021ca-107">If the setting is turned off, call center users can't use the Call center payment processing features, but they can still apply prepayments to sales orders by using standard Accounts receivable functionality.</span></span>
 

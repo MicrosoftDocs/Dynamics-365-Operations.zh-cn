@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 66c0f41e1c98cf84b6a0afff5ee55e7c15fecd2d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2bda068c71b768eb0caadfdbf8b4fe5620bd8eea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-procurement-catalog"></a><span data-ttu-id="6212e-103">创建采购目录</span><span class="sxs-lookup"><span data-stu-id="6212e-103">Create a procurement catalog</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="6212e-104">此指南演示如何创建采购目录。</span><span class="sxs-lookup"><span data-stu-id="6212e-104">This guide shows you how to create a procurement catalog.</span></span> <span data-ttu-id="6212e-105">此任务通常由采购专业人员完成。</span><span class="sxs-lookup"><span data-stu-id="6212e-105">This task would typically be carried out by a procurement professional.</span></span> <span data-ttu-id="6212e-106">您还将了解员工在创建申请时如何使用目录。</span><span class="sxs-lookup"><span data-stu-id="6212e-106">You will also learn how employees can use the catalog when they create a requisition.</span></span> <span data-ttu-id="6212e-107">系统中必须已有采购类别层次结构，才能创建目录。</span><span class="sxs-lookup"><span data-stu-id="6212e-107">Before you can create a catalog, there must be a procurement category hierarchy in your system.</span></span> <span data-ttu-id="6212e-108">新目录继承层次结构，以及其中的所有产品。</span><span class="sxs-lookup"><span data-stu-id="6212e-108">The hierarchy is inherited by the new catalog, along with all the products that are in the hierarchy.</span></span> <span data-ttu-id="6212e-109">可在采购类别层次结构可用的演示数据公司 USMF 中使用此指南，以及使用前面的步骤中使用的示例。</span><span class="sxs-lookup"><span data-stu-id="6212e-109">You can use this guide in demo data company USMF where the procurement category hierarchy is available, as well as the examples used in the procedure steps.</span></span>
 

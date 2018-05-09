@@ -17,15 +17,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 325cf12345afcf531181f65a41d0e5262798c14f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1230d5ded2496271adc7b6438afd36fb93f3d782
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="onboard-vendors"></a><span data-ttu-id="99e71-104">供应商载入</span><span class="sxs-lookup"><span data-stu-id="99e71-104">Onboard vendors</span></span>
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ---
 

@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 04be3c8b07afc3ad3341600aef1f9e93b6b24dde
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 09d5d61a1950a5ab341d3bb3c814b6985d5e910e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a><span data-ttu-id="3823c-103">使用物料到达日记帐登记启用了高级仓库的物料</span><span class="sxs-lookup"><span data-stu-id="3823c-103">Register items for an advanced warehousing enabled item using an item arrival journal</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="3823c-104">此过程说明了在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。</span><span class="sxs-lookup"><span data-stu-id="3823c-104">This procedure shows you how to register items using the item arrival journal when you are using advanced warehouse management processes.</span></span> <span data-ttu-id="3823c-105">这将通常由一个收料员完成。</span><span class="sxs-lookup"><span data-stu-id="3823c-105">This would usually be done by a receiving clerk.</span></span> 
 

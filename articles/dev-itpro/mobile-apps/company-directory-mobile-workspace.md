@@ -16,16 +16,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0b27c5c0ed2cd380819c5208c57fa2a3de1d5aaa
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9487656cae69a20ee8218e039a501506a470730d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="company-directory-mobile-workspace"></a><span data-ttu-id="64983-103">公司目录移动电话工作区</span><span class="sxs-lookup"><span data-stu-id="64983-103">Company directory mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="64983-104">此主题提供有关**公司目录**移动工作区的信息。</span><span class="sxs-lookup"><span data-stu-id="64983-104">This topic provides information about the **Company directory** mobile workspace.</span></span> <span data-ttu-id="64983-105">此工作区让用户能够查看和联系其组织中的其他员工。</span><span class="sxs-lookup"><span data-stu-id="64983-105">This workspace lets users view and contact other employees in their organization.</span></span>
 

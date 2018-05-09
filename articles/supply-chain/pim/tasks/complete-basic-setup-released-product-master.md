@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d52b337d9062fa8051e02144df5d064e54a6784d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 35ca13f157537087346a5bcf9c6ccdd659a0d772
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="complete-basic-setup-of-a-released-product-master"></a><span data-ttu-id="0fd05-103">完成已发布基础产品的基本设置</span><span class="sxs-lookup"><span data-stu-id="0fd05-103">Complete basic setup of a released product master</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0fd05-104">该过程会显示在基础产品可用于物料清单版本之前，如何完成所需的最低设置。</span><span class="sxs-lookup"><span data-stu-id="0fd05-104">This procedure shows how to complete the minimum setup that is required before the product master can be used in BOM versions.</span></span>
 

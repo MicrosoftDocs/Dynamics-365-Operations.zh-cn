@@ -16,15 +16,15 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 85681a7649a33d8bc65c9481b514c177193f7fdf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e48c30459db7e296ad8b1428bfaac5c0d7f5c0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="post-vouchers-from-the-general-journal-china"></a><span data-ttu-id="a3f35-103">过帐普通日记帐的凭证（中国）</span><span class="sxs-lookup"><span data-stu-id="a3f35-103">Post vouchers from the general journal (China)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="a3f35-104">此过程逐步演示如何使用普通日记帐过帐中国式凭证。</span><span class="sxs-lookup"><span data-stu-id="a3f35-104">This procedure walks you through posting Chinese vouchers using the general journal.</span></span>  <span data-ttu-id="a3f35-105">必须确保已创建所有必需的会计日历，才能完成此过程。</span><span class="sxs-lookup"><span data-stu-id="a3f35-105">Before you can complete this procedure, be sure that you’ve created all of the necessary fiscal calendars.</span></span> 
 

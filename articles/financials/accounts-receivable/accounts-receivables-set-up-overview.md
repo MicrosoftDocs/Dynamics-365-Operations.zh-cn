@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 43c8d0db28fb0a845c4520b279f16d7c20c6da88
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b31b5c6cbd43aa4997b11edc1aac39878c3671fd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-accounts-receivables-and-credit-and-collections"></a><span data-ttu-id="fd16d-103">配置应收账款以及信用和收款</span><span class="sxs-lookup"><span data-stu-id="fd16d-103">Configure Accounts receivables and Credit and collections</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="fd16d-104">配置“应收账款”和“信用和收款”以跟踪来自客户的发票和收入。</span><span class="sxs-lookup"><span data-stu-id="fd16d-104">Configure Accounts receivable and Credit and Collections to track invoices and incoming payments from customers.</span></span>
 

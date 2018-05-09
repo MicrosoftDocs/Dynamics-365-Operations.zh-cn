@@ -16,15 +16,15 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ed1652a65a73c4b91131f9af7313789ad302b19
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3a09e4745a50ff48ffc7576f6f8d4b68ef97749e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="review-collections-information"></a><span data-ttu-id="0b709-103">审核收款信息</span><span class="sxs-lookup"><span data-stu-id="0b709-103">Review collections information</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0b709-104">该过程简单说明了如何查看收款信息以及如何设置各种选项和收款交易记录。</span><span class="sxs-lookup"><span data-stu-id="0b709-104">This procedure walks you through how to review collections information as well as various setup options and collections transactions.</span></span> <span data-ttu-id="0b709-105">该程序适用于 USMF 演示公司。</span><span class="sxs-lookup"><span data-stu-id="0b709-105">This procedure uses the USMF demo company.</span></span>
 

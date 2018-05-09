@@ -18,16 +18,16 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 445c639dc56a5d240f4e35353276ef893f2137da
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9472446a1683cc34a65933a0cd27d7a72c92a9d8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="keyboard-shortcuts"></a><span data-ttu-id="06250-103">键盘快捷方式</span><span class="sxs-lookup"><span data-stu-id="06250-103">Keyboard shortcuts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="06250-104">以下键盘快捷方式在整个 Dynamics 365 for Finance and Operations 中都适用。</span><span class="sxs-lookup"><span data-stu-id="06250-104">The following keyboard shortcuts apply across Dynamics 365 for Finance and Operations.</span></span> 
 

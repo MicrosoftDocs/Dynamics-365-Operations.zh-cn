@@ -17,15 +17,15 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 84ed2bfa708664674af781c575cfab35640e7079
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 890d501bf8b111ccd0698372f9df1dd63c2039a0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="c3164-103">调整仓库中的库存级别（基本仓库）</span><span class="sxs-lookup"><span data-stu-id="c3164-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c3164-104">该过程向您介绍创建和过帐库存调整日记帐以调整仓库中的产品库存水平。</span><span class="sxs-lookup"><span data-stu-id="c3164-104">This procedure walks you through the process of creating and posting an inventory adjustment journal in order to adjust stock levels of products in the warehouse.</span></span> <span data-ttu-id="c3164-105">在开始前，您需要为库存调整设置一个库存日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="c3164-105">You need to have an inventory journal name set up for inventory adjustments before you start this.</span></span> <span data-ttu-id="c3164-106">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="c3164-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span> <span data-ttu-id="c3164-107">这些任务通常由仓库员工完成。</span><span class="sxs-lookup"><span data-stu-id="c3164-107">These tasks would normally be carried out by a warehouse employee.</span></span>
 

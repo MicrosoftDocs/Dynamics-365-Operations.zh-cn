@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 20bb2a046eba54cf59d6029d4278ffd7a1d4736f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cb7c88aed1a825b6b0203bbb9339c0073e2c9741
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-disposal-posting-accounts"></a><span data-ttu-id="5c2a7-103">固定资产处置过帐科目</span><span class="sxs-lookup"><span data-stu-id="5c2a7-103">Fixed asset disposal posting accounts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5c2a7-104">本主题说明如何为处理资产设置总帐过帐科目。</span><span class="sxs-lookup"><span data-stu-id="5c2a7-104">This topic explains how to set up general ledger posting accounts for disposing of assets.</span></span>
 

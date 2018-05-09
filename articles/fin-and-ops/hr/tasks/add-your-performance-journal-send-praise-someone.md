@@ -16,15 +16,15 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b898a5ab5ad2837ef1d9ef8ebf88aaa05f56b3a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 24efc88414e33b421a7bed32c90d3aaf81af612c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a><span data-ttu-id="04dc5-103">添加到绩效日记帐并向某人发送表扬</span><span class="sxs-lookup"><span data-stu-id="04dc5-103">Add to your performance journal and send praise to someone</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="04dc5-104">绩效日记帐中包含与如何满足目标或您在某个期间的表现有关的信息。</span><span class="sxs-lookup"><span data-stu-id="04dc5-104">The performance journal holds information that relates to how you met your goals or how you performed during a period.</span></span> <span data-ttu-id="04dc5-105">您还可以从日记帐表扬同事的操作。</span><span class="sxs-lookup"><span data-stu-id="04dc5-105">You can also praise the actions of a co-worker from the journal.</span></span> <span data-ttu-id="04dc5-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="04dc5-106">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="04dc5-107">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="04dc5-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 

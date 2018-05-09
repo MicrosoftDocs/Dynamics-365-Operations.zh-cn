@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1a32b49e7589113d518ef17a39eecc4c518b362d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d3de34eeef042cb3f283ee53579b199c6a4c9091
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="allocation-bases"></a><span data-ttu-id="11722-104">分配基础</span><span class="sxs-lookup"><span data-stu-id="11722-104">Allocation bases</span></span> 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="11722-105">分配基础是成本核算分配开销成本的基础。</span><span class="sxs-lookup"><span data-stu-id="11722-105">An allocation base is the basis on which Cost accounting allocates overhead costs.</span></span> <span data-ttu-id="11722-106">分配基础可以是数量，例如使用机器的时间、消耗的千瓦时 (kWh) 或占用的平方英尺。</span><span class="sxs-lookup"><span data-stu-id="11722-106">An allocation base can be a quantity, such as machine hours that are used, kilowatt hours (kWh) that are consumed, or square footage that is occupied.</span></span> <span data-ttu-id="11722-107">分配基础最常用于为生产的库存分配开销成本。</span><span class="sxs-lookup"><span data-stu-id="11722-107">Allocation bases are mostly used to assign overhead costs to inventory that is produced.</span></span> <span data-ttu-id="11722-108">例如，IT 部门根据各部门使用的计算机数量分配其支出。</span><span class="sxs-lookup"><span data-stu-id="11722-108">For example, an IT department allocates its expenses according to the number of computers that each department uses.</span></span>
 

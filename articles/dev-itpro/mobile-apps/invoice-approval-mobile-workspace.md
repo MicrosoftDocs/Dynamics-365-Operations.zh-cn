@@ -16,16 +16,16 @@ ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8554d868e675a152ff6e2ff25dd08ab49f02359c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="invoice-approvals-mobile-workspace"></a><span data-ttu-id="26d63-104">发票审核移动工作区</span><span class="sxs-lookup"><span data-stu-id="26d63-104">Invoice approvals mobile workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="26d63-105">此主题提供有关**发票审核**移动工作区的信息。</span><span class="sxs-lookup"><span data-stu-id="26d63-105">This topic provides information about the **Invoice approvals** mobile workspace.</span></span> <span data-ttu-id="26d63-106">此工作区提供通过供应商发票抬头工作流程分配给您的发票的列表。</span><span class="sxs-lookup"><span data-stu-id="26d63-106">This workspace provides a list of invoices that have been assigned to you through the vendor invoice header workflow process.</span></span> 
 

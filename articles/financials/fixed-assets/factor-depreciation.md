@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6e7eb5c924f27446fcba9b0f340b7110dbdaab8b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d56386db5f1223dd03764d0f515aca6409f2c8a7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="factor-depreciation"></a><span data-ttu-id="73685-103">因素/系数折旧</span><span class="sxs-lookup"><span data-stu-id="73685-103">Factor depreciation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="73685-104">本文提供系数折旧法的概览。</span><span class="sxs-lookup"><span data-stu-id="73685-104">This article gives an overview of the factor depreciation method.</span></span>
 

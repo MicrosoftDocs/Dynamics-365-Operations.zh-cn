@@ -19,16 +19,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 11e7aa072d4c99bd33cfea7114032b7968d8d024
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 10db562a74b13aa968aca705bb02b061c9eb64c5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="action-messages"></a><span data-ttu-id="78ac4-103">行动消息</span><span class="sxs-lookup"><span data-stu-id="78ac4-103">Action messages</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="78ac4-104">行动消息是系统生成的关于更改现有计划订单或确定订单的建议。</span><span class="sxs-lookup"><span data-stu-id="78ac4-104">An action message is a system-generated suggestion to change an existing planned or firmed order.</span></span>
 

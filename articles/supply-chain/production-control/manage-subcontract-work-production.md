@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 67c0ebb47cc24b2d47add00eac07101abf596266
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9d665b7f6308618d34695626371dfc9dc1c6f2e7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="manage-subcontracting-work-in-production"></a><span data-ttu-id="8df9c-104">管理生产中的转包工作</span><span class="sxs-lookup"><span data-stu-id="8df9c-104">Manage subcontracting work in production</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="8df9c-105">此主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中管理已转包工序。</span><span class="sxs-lookup"><span data-stu-id="8df9c-105">This topic explains how subcontracted operations are managed in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="8df9c-106">换言之，说明供应商如何管理分配给资源的生产工序。</span><span class="sxs-lookup"><span data-stu-id="8df9c-106">In other words, it explains how production operations that are allocated to a resource are managed by a vendor.</span></span>
 

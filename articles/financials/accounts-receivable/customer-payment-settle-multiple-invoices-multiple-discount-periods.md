@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: df8c74697251fa762520d62f7d87d82179390f80
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b7ca1ca030463ae08759accda8f77c0a0df1d384
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a><span data-ttu-id="ff50b-104">使用一次客户付款来结算跨多个折扣期间的多张发票</span><span class="sxs-lookup"><span data-stu-id="ff50b-104">Use a customer payment to settle multiple invoices that span multiple discount periods</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="ff50b-105">本主题显示当每个发票有资格使用现金折扣时如何支付多个发票。</span><span class="sxs-lookup"><span data-stu-id="ff50b-105">This topic shows how multiple invoices are paid when each invoice qualifies for a cash discount.</span></span> <span data-ttu-id="ff50b-106">本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。</span><span class="sxs-lookup"><span data-stu-id="ff50b-106">The scenarios in his article highlight how the cash discounts that are taken vary, depending on when the payment is made.</span></span>
 

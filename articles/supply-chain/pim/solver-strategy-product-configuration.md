@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 468e2c5ce2915bf346ade20159e24fb98fcd4336
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 957dea7a37720a8f28ea5aa0568bf1f233574a8a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="solver-strategy-for-product-configuration"></a><span data-ttu-id="36e4c-103">产品配置的求解器策略</span><span class="sxs-lookup"><span data-stu-id="36e4c-103">Solver strategy for product configuration</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="36e4c-104">此主题介绍如何使用求解器策略改进产品配置的性能。</span><span class="sxs-lookup"><span data-stu-id="36e4c-104">This topic describes how you can use the solver strategy to improve the performance of product configuration.</span></span>
 

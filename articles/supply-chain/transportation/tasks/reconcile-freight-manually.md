@@ -17,15 +17,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c347f8bb0dd36ab4a18cbf6ccd16855efb1bc355
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 48623e53633d00e4c3871d3a0266981b78a2f380
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="reconcile-freight-manually"></a><span data-ttu-id="cd212-103">对货运进行手动对帐</span><span class="sxs-lookup"><span data-stu-id="cd212-103">Reconcile freight manually</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="cd212-104">此过程显示如何手动对帐货运。</span><span class="sxs-lookup"><span data-stu-id="cd212-104">This procedure shows how to reconcile freight manually.</span></span> <span data-ttu-id="cd212-105">这通常由运输协调员完成。</span><span class="sxs-lookup"><span data-stu-id="cd212-105">This is typically done by a transportation coordinator.</span></span> <span data-ttu-id="cd212-106">您可以在 USMF 演示数据公司中使用此过程。</span><span class="sxs-lookup"><span data-stu-id="cd212-106">You can use this procedure in the USMF demo data company.</span></span>
 

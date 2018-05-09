@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1c867e1b5f908772d721e349ea148b7e5fc7d9fc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 57602f03706e54475aee3ca1817a9f170a2b9f2d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="map-cost-element-dimension-members-to-a-common-set-of-dimension-members"></a><span data-ttu-id="f80f4-103">将成本元素维度成员映射到一组常用维度成员</span><span class="sxs-lookup"><span data-stu-id="f80f4-103">Map cost element dimension members to a common set of dimension members</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f80f4-104">通过将不同的成本元素维度成员映射到一组通用的成本元素维度成员，您可以将数据合并为通用格式进行分析。</span><span class="sxs-lookup"><span data-stu-id="f80f4-104">By mapping different cost element dimension members to a common set of cost element dimension members, you merge data into a common format for analysis purposes.</span></span>
 

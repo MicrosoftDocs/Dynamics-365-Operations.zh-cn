@@ -18,15 +18,15 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a16fa8741efae860de50947eb0fe3382a43d3d08
-ms.openlocfilehash: c96f75f02ec684da21d44087bfc59df9012d5c8c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e1b3461c81061f1043e29147b62dda9de4779b70
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/17/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a><span data-ttu-id="67486-103">Microsoft Dynamics 365 for Finance and Operations 简介</span><span class="sxs-lookup"><span data-stu-id="67486-103">Introduction to Microsoft Dynamics 365 for Finance and Operations</span></span>
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="67486-104">使用以下资源查找适用于最终用户、开发人员和 IT 专业人员的重要内容，了解如何让 Microsoft Dynamics 365 for Finance and Operations 为您的组织服务。</span><span class="sxs-lookup"><span data-stu-id="67486-104">Learn how to make Microsoft Dynamics 365 for Finance and Operations work for your business, using the resources below to find great content for end users, developers, and IT professionals.</span></span> 
 

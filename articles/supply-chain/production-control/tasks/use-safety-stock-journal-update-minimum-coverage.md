@@ -17,15 +17,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b9e3245af746b120117a23b3859e03bd4216e1cd
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ad194efd151dab8c8fe5542cb40de2d811fb4b3d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="use-the-safety-stock-journal-to-update-minimum-coverage"></a><span data-ttu-id="e3307-103">使用安全存货日记帐更新最小覆盖范围</span><span class="sxs-lookup"><span data-stu-id="e3307-103">Use the safety stock journal to update minimum coverage</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e3307-104">此过程演示如何根据历史交易记录计算最低覆盖范围方案，然后使用这些方案更新物料覆盖范围。</span><span class="sxs-lookup"><span data-stu-id="e3307-104">This procedure shows how to calculate minimum coverage proposals based on historical transactions and then update the item coverage with the proposals.</span></span> <span data-ttu-id="e3307-105">方法是使用安全存货日记帐。</span><span class="sxs-lookup"><span data-stu-id="e3307-105">This is done using the safety stock journal.</span></span> <span data-ttu-id="e3307-106">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="e3307-106">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="e3307-107">这项任务供生产计划者用于帮助维护最低覆盖范围。</span><span class="sxs-lookup"><span data-stu-id="e3307-107">This task is intended for the production planner, to help maintain minimum coverage.</span></span>
 

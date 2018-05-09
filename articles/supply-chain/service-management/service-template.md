@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 24b7ffd18e6f69f497597eb12657d09f8d600dcf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3a64df055ffc7aa08c5983209987256455626f50
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-templates"></a><span data-ttu-id="9d09b-103">服务模板</span><span class="sxs-lookup"><span data-stu-id="9d09b-103">Service templates</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9d09b-104">您可以将某一服务协议定义为模板，并且以后将该模板上的行复制到其他服务协议或服务订单中。</span><span class="sxs-lookup"><span data-stu-id="9d09b-104">You can define a service agreement as a template and copy the lines of the template later into another service agreement or into a service order.</span></span>
 

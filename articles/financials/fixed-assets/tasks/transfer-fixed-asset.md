@@ -16,15 +16,15 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ab115ff3bd79ba42de5b28be962ab2a55c1d4aa4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d3a0c4dcee5d57dedf418c8f5df9edd2f7e1b648
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="transfer-a-fixed-asset"></a><span data-ttu-id="8641f-103">转移固定资产</span><span class="sxs-lookup"><span data-stu-id="8641f-103">Transfer a fixed asset</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8641f-104">此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。</span><span class="sxs-lookup"><span data-stu-id="8641f-104">This task guide will transfer the financial information for a fixed asset book from one financial dimension set to a new financial dimension set.</span></span>  <span data-ttu-id="8641f-105">它为 USMF 法人实体使用会计角色和演示数据。</span><span class="sxs-lookup"><span data-stu-id="8641f-105">It uses the Accountant role and demo data for the USMF legal entity.</span></span>
 

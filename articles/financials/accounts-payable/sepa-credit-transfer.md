@@ -19,16 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a2bf472d1850e1d97f5c51f66c215143ae646b5a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="sepa-credit-transfer-overview"></a><span data-ttu-id="5d7b4-105">SEPA 贷方转帐概览</span><span class="sxs-lookup"><span data-stu-id="5d7b4-105">SEPA credit transfer overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="5d7b4-106">此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。</span><span class="sxs-lookup"><span data-stu-id="5d7b4-106">This article provides general information about ISO 20022 credit transfers, which include Single Euro Payments Area (SEPA) credit transfers and any other electronic payments for vendors.</span></span> <span data-ttu-id="5d7b4-107">SEPA 贷方转帐是从一个公司或个人到另一个公司或个人的一种特定类型的付款（用欧元）。</span><span class="sxs-lookup"><span data-stu-id="5d7b4-107">A SEPA credit transfer is a specific type of payment in euros from one company or individual to another company or individual.</span></span> <span data-ttu-id="5d7b4-108">本主题还讨论如何设置和传输贷方转帐付款文件。</span><span class="sxs-lookup"><span data-stu-id="5d7b4-108">The topic also explains how to set up and transmit a credit transfer payment file.</span></span>
 

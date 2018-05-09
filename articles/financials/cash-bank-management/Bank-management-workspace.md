@@ -17,15 +17,15 @@ ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 68fe68ba92495eb089e9b38cfbd42eba05b7dc47
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f0bb5be885491e97d8d9c2f90608d139745db650
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="bank-management-workspace"></a><span data-ttu-id="69996-106">银行管理工作区</span><span class="sxs-lookup"><span data-stu-id="69996-106">Bank management workspace</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="69996-107">**银行管理**工作区显示与公司银行帐户关联的信息。</span><span class="sxs-lookup"><span data-stu-id="69996-107">The **Bank management** workspace shows information that is related to company bank accounts.</span></span> <span data-ttu-id="69996-108">该工作区包括一个**汇总**视图和一个**分析**页。</span><span class="sxs-lookup"><span data-stu-id="69996-108">This workspace includes a **Summary** view and an **Analytics** page.</span></span> <span data-ttu-id="69996-109">**汇总**视图显示汇总磁贴、银行帐户信息、余额图表和关联信息。</span><span class="sxs-lookup"><span data-stu-id="69996-109">The **Summary** view shows summary tiles, bank account information, a balance chart, and related information.</span></span> <span data-ttu-id="69996-110">**分析**页使用 Microsoft Power BI 的功能显示与银行帐户余额相关的视觉对象。</span><span class="sxs-lookup"><span data-stu-id="69996-110">The **Analytics** page uses the capabilities of Microsoft Power BI to show visuals that are related to bank account balances.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f246780a320f9a5e25ca423a099669a4f7e57bab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0147ea5ee908995686ac56ca2c5811184e2f74c3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="customer-posting-profiles"></a><span data-ttu-id="743ab-103">客户过帐模板</span><span class="sxs-lookup"><span data-stu-id="743ab-103">Customer posting profiles</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="743ab-104">客户过帐模板控制将客户交易记录过帐到总帐。</span><span class="sxs-lookup"><span data-stu-id="743ab-104">Customer posting profiles control the posting of customer transactions to the general ledger.</span></span>
 

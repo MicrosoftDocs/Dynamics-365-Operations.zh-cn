@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9e06cab5176380609d7dc531d6eda424c6ca0ca8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0809ee798dc00ad3d252d5e8704259ea5cbe4956
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="elimination-rules"></a><span data-ttu-id="6dcb4-103">清除规则</span><span class="sxs-lookup"><span data-stu-id="6dcb4-103">Elimination rules</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="6dcb4-104">本主题提供有关清除规则和有关清除的不同报告选项的信息。</span><span class="sxs-lookup"><span data-stu-id="6dcb4-104">This topic provides information about elimination rules and the various options for reporting about eliminations.</span></span>
 

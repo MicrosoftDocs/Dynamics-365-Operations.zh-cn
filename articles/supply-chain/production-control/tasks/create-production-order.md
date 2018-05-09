@@ -17,15 +17,15 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0c83c8e4506db41a69e94f35272bb651197f3478
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d53b3f205a1564102b346b3673eca34b98df740a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-production-order"></a><span data-ttu-id="0b351-103">创建生产订单</span><span class="sxs-lookup"><span data-stu-id="0b351-103">Create a production order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0b351-104">此程序说明如何创建一个生产订单。</span><span class="sxs-lookup"><span data-stu-id="0b351-104">This procedure shows how to create a production order.</span></span> <span data-ttu-id="0b351-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="0b351-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="0b351-106">这七个程序中的第一个诠释了生产订单的生命周期。</span><span class="sxs-lookup"><span data-stu-id="0b351-106">This is the first procedure out of seven which explains the production order lifecycle.</span></span>
 

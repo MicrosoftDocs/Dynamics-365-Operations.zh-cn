@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3806dafa6ca6ea8355db3d6a8c2432ad67cd69c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0de2bc15cf3f46271e4cf74c93b639070f6bcfec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-the-advanced-bank-reconciliation-import-process"></a><span data-ttu-id="62a46-104">设置高级银行对帐导入流程</span><span class="sxs-lookup"><span data-stu-id="62a46-104">Set up the advanced bank reconciliation import process</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="62a46-105">高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Finance and Operations 中的银行交易记录自动对帐。</span><span class="sxs-lookup"><span data-stu-id="62a46-105">The Advanced bank reconciliation feature lets you import electronic bank statements and automatically reconcile them with bank transactions in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="62a46-106">本文介绍如何设置银行对账单的导入功能。</span><span class="sxs-lookup"><span data-stu-id="62a46-106">This article explains how to set up the import functionality for your bank statements.</span></span> 
 

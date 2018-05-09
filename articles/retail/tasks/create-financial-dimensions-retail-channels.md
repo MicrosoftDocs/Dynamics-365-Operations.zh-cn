@@ -17,15 +17,15 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0ee9e2edcda436d3dec6f9002a2d3d30de85503
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3782d5d2a43b6b22a6f5b25c806e9d4bba5999a5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a><span data-ttu-id="f00c6-103">创建零售渠道的财务维度和配置商店上的维度值</span><span class="sxs-lookup"><span data-stu-id="f00c6-103">Create financial dimensions for Retail channels and configure dimension values on stores</span></span>
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="f00c6-104">此程序会逐步演示如何创建带有维度值的零售渠道财务维度，以及配置零售商店的财务维度值的步骤。</span><span class="sxs-lookup"><span data-stu-id="f00c6-104">This procedure walks through creating a retail channel financial dimension with dimension values and steps to configure financial dimension values on retail stores.</span></span> <span data-ttu-id="f00c6-105">该主题不包括其他相关步骤，例如创建维度集和科目结构。</span><span class="sxs-lookup"><span data-stu-id="f00c6-105">The topic does not include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="f00c6-106">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="f00c6-106">This procedure uses the USRT company in demo data.</span></span>
 

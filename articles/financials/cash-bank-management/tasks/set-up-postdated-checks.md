@@ -16,15 +16,15 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 47686504b8fd35898951e2d1e8db5e37110bbe65
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 084b935355625b165aeb09e2cf19df9662982b65
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-postdated-checks"></a><span data-ttu-id="fca40-103">设置远期支票</span><span class="sxs-lookup"><span data-stu-id="fca40-103">Set up postdated checks</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="fca40-104">本主题说明如何指定是否过帐远期支票的日记帐分录，以及选用哪一个过帐日记帐来清算会计条目和供应商付款。</span><span class="sxs-lookup"><span data-stu-id="fca40-104">This topic explains how to specify whether to post journal entries for postdated checks and which posting journals to use for clearing entries and vendor payments.</span></span> <span data-ttu-id="fca40-105">您还可以指定已签发支票、已收到支票和预缴税金的清算帐户。</span><span class="sxs-lookup"><span data-stu-id="fca40-105">You can also specify clearing accounts for issued checks, received checks, and withholding tax.</span></span> <span data-ttu-id="fca40-106">签发用于在将来时间进行付款和收款的远期支票。</span><span class="sxs-lookup"><span data-stu-id="fca40-106">Postdated checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="fca40-107">您可以指定支票是否必须在其到期日期之前反映在会计帐簿中。</span><span class="sxs-lookup"><span data-stu-id="fca40-107">You can specify whether the check must be reflected in the accounting books before its maturity date.</span></span>
 

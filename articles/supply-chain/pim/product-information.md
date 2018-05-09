@@ -20,18 +20,18 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f6a0922ebd0d2436715f0d1a1cc5d99876427f1
-ms.openlocfilehash: 5d8a5d080ba4d682e19dfb6a87924663eefe6257
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: acf58d1d203aefbb9f39a387ea1529b43be826c6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="product-information-overview"></a><span data-ttu-id="9868e-104">产品信息概览</span><span class="sxs-lookup"><span data-stu-id="9868e-104">Product information overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 <span data-ttu-id="9868e-105">此主题提供有关产品信息管理的信息。</span><span class="sxs-lookup"><span data-stu-id="9868e-105">This topic provides information about product information management.</span></span> <span data-ttu-id="9868e-106">产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。</span><span class="sxs-lookup"><span data-stu-id="9868e-106">Product information management works with a shared product definition, categorization, and identifiers across all legal entities, and also specific configurations of a product, to fit into the business processes.</span></span> 
 

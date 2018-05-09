@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c94f731cbdd62d51a21a42e8fcc86c5711c0e965
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cedb3f382a07934dcec7e4efeb91e9b30ebef10c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="deliver-an-employee-benefits-program"></a><span data-ttu-id="25cbb-103">交付员工福利计划</span><span class="sxs-lookup"><span data-stu-id="25cbb-103">Deliver an employee benefits program</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="25cbb-104">该任务将向您显示，如何创建在创建新福利时需要使用的福利元素。</span><span class="sxs-lookup"><span data-stu-id="25cbb-104">This task will show you how to create benefit elements which will be used when creating a new benefit.</span></span> <span data-ttu-id="25cbb-105">创建此任务的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="25cbb-105">The demo data company used to create this task is USMF.</span></span> <span data-ttu-id="25cbb-106">此任务专门面向薪资和福利经理。</span><span class="sxs-lookup"><span data-stu-id="25cbb-106">This task is intended for a Compensation and Benefits manager.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6562e4776e8d15258921f174fdc3cd30f4ac18e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a3afc9b268e9bab1b33013cc49ca372f89d8957c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="8e1ae-103">为可配置产品设置基于属性的定价</span><span class="sxs-lookup"><span data-stu-id="8e1ae-103">Set up attribute-based pricing for configurable products</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8e1ae-104">此过程显示如何设置基于属性的定价。</span><span class="sxs-lookup"><span data-stu-id="8e1ae-104">This procedure shows how to set up attribute-based pricing.</span></span> <span data-ttu-id="8e1ae-105">首先必须有一个拥有一个或多个组件和属性的产品配置模型。</span><span class="sxs-lookup"><span data-stu-id="8e1ae-105">As a prerequisite, you must have a product configuration model that has one or more components and attributes.</span></span> <span data-ttu-id="8e1ae-106">此示例使用 USMF 演示数据公司中的高端扬声器产品模型。</span><span class="sxs-lookup"><span data-stu-id="8e1ae-106">This example uses the High End Speaker product model in the USMF demo data company.</span></span> <span data-ttu-id="8e1ae-107">通常，产品经理使用此过程。</span><span class="sxs-lookup"><span data-stu-id="8e1ae-107">Typically, a product manager uses this procedure.</span></span>
 

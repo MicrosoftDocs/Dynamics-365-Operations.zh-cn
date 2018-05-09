@@ -17,15 +17,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 449c8411b06303a470aba279f85fb904ca1ad3c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5322d77af470c25f0849cbbfbbfbc4a50a7e859b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a><span data-ttu-id="167c9-103">使用移动作业设备配置工作人员</span><span class="sxs-lookup"><span data-stu-id="167c9-103">Configure a worker using the mobile job device</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="167c9-104">该过程向您显示如何给工作人员的用户帐户分配正确的角色，并使工作人员执行车间登记。</span><span class="sxs-lookup"><span data-stu-id="167c9-104">This procedure shows you how to assign the correct roles to the user account of a worker, and then enable the worker to do shop floor registrations.</span></span>
 

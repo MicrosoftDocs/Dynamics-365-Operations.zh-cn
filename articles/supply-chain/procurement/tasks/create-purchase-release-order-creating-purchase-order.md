@@ -16,15 +16,15 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc133306fccd747f15e6a0c6eb347d04a80df0fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2a5fde13fac7f0523c098f750d897ca5da06473b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-purchase-release-order-when-creating-the-purchase-order"></a><span data-ttu-id="b6fb5-103">创建采购订单时创建采购下达单</span><span class="sxs-lookup"><span data-stu-id="b6fb5-103">Create a purchase release order when creating the purchase order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b6fb5-104">该过程会显示在创建采购订单时，如何使用采购协议。</span><span class="sxs-lookup"><span data-stu-id="b6fb5-104">This procedure shows how to use a purchase agreement when you create a purchase order.</span></span> <span data-ttu-id="b6fb5-105">在创建采购订单时必须应用采购协议，因为存在应复制到采购订单标题的一般条件。</span><span class="sxs-lookup"><span data-stu-id="b6fb5-105">The purchase agreement has to be applied when you create the purchase order because there are general terms that should be copied to the purchase order header.</span></span> <span data-ttu-id="b6fb5-106">此任务通常由采购人员完成。</span><span class="sxs-lookup"><span data-stu-id="b6fb5-106">Typically this task would be carried out by a purchasing agent.</span></span> <span data-ttu-id="b6fb5-107">作为本指南的先决条件，您必须拥有某个供应商和物料的带产品数量承诺的有效采购协议。</span><span class="sxs-lookup"><span data-stu-id="b6fb5-107">As a prerequisite for this guide, you must have an effective purchase agreement with a product quantity commitment for a vendor and items.</span></span> <span data-ttu-id="b6fb5-108">如果您拥有带其他类型承诺的采购协议，则可以使用相同过程。</span><span class="sxs-lookup"><span data-stu-id="b6fb5-108">The same procedure can be used if you have a purchase agreement with other types of commitments.</span></span> <span data-ttu-id="b6fb5-109">您可以使用 USMF 公司演示数据运行此指南。</span><span class="sxs-lookup"><span data-stu-id="b6fb5-109">You can run this guide in demo data company USMF.</span></span> <span data-ttu-id="b6fb5-110">如果您正在使用 USMF，您可以先运行“创建采购协议”，以设置本指南所需的前提条件。</span><span class="sxs-lookup"><span data-stu-id="b6fb5-110">If you’re using USMF, you can run the “Create a purchase agreement” guide first to set up the necessary preconditions for this guide.</span></span>
 

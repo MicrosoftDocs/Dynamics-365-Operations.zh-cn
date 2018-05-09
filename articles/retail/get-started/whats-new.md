@@ -17,20 +17,20 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 74e45d86c6d9f45ca9b1a4b0e60860a793b537a0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cc7d6cf29fbd3df2f23cbcbe5c158800b712062c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a><span data-ttu-id="308c0-103">Dynamics 365 for Retail 的新增功能或变更功能</span><span class="sxs-lookup"><span data-stu-id="308c0-103">What's new or changed in Dynamics 365 for Retail</span></span>
 
-[!INCLUDE [banner](../../includes/banner.md)]
+[!include [banner](../../includes/banner.md)]
 
 <span data-ttu-id="308c0-104">此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Retail 最新版本的新功能和变更功能的资源。</span><span class="sxs-lookup"><span data-stu-id="308c0-104">This page points you to resources that can help you learn about the new features and changes in the latest releases of Microsoft Dynamics 365 for Retail.</span></span>
 
-[!INCLUDE [release notes](../includes/release-notes.md)]
+[!include [release notes](../includes/release-notes.md)]
 
 ## <a name="releases-of-dynamics-365-for-retail"></a><span data-ttu-id="308c0-105">Dynamics 365 for Retail 的版本</span><span class="sxs-lookup"><span data-stu-id="308c0-105">Releases of Dynamics 365 for Retail</span></span>
 

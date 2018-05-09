@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6679215a664ddf938a204196b00f3bc28bf65f8f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8250b612ca62048a8ab9e0c5f082a6e652e1b5c1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="financial-insights"></a><span data-ttu-id="67785-103">财务见解</span><span class="sxs-lookup"><span data-stu-id="67785-103">Financial Insights</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="67785-104">**财务见解**使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。</span><span class="sxs-lookup"><span data-stu-id="67785-104">**Financial Insights** uses Microsoft Power BI to bring together financial key performance indicators (KPIs), charts, and financial statements.</span></span> <span data-ttu-id="67785-105">Microsoft Dynamics 365 for Finance and Operations 中已嵌入 Power BI。</span><span class="sxs-lookup"><span data-stu-id="67785-105">Power BI is embedded in Microsoft Dynamics 365 Finance and Operations.</span></span>
 <span data-ttu-id="67785-106">**财务见解**的主要功能是分析报告。</span><span class="sxs-lookup"><span data-stu-id="67785-106">The focus of **Financial Insights** is analytical reporting.</span></span> <span data-ttu-id="67785-107">组织中的人员可查看、研究、了解和采取行动。</span><span class="sxs-lookup"><span data-stu-id="67785-107">Personas across an organization can view, research, understand, and act.</span></span> 

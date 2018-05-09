@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6436a412f6b10040e1c7254a4912c839e610dede
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 20dd11ad8b632de279855c1641f7bdeddb33cb4b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-data-allocation"></a><span data-ttu-id="98725-103">预算计划数据分配</span><span class="sxs-lookup"><span data-stu-id="98725-103">Budget planning data allocation</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="98725-104">本文介绍 Microsoft Dynamics 365 for Finance and Operations 中可用的不同分配方法以及如何使用它们。</span><span class="sxs-lookup"><span data-stu-id="98725-104">This article describes the various allocation methods that are available in Microsoft Dynamics 365 for Finance and Operations and how they can be used.</span></span>  
 

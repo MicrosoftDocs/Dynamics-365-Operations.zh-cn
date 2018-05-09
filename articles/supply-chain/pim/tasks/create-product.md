@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 8eecd5c87e19e36eabf5350bc71d55c4a94f37ba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6eb0645d199beeb99a943b81c6a187b8a93c5710
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-product"></a><span data-ttu-id="8ea0e-103">创建产品</span><span class="sxs-lookup"><span data-stu-id="8ea0e-103">Create a product</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8ea0e-104">此程序会逐步演示如何在零售产品层次结构中创建新产品。</span><span class="sxs-lookup"><span data-stu-id="8ea0e-104">This procedure walks through creating a new product in the retail product hierarchy.</span></span> <span data-ttu-id="8ea0e-105">用于创建此任务的演示数据公司是 USRT，此任务旨在面向采购经理和产品设计师。</span><span class="sxs-lookup"><span data-stu-id="8ea0e-105">The demo data company used to create this task is USRT, and this task is intended for the Merchandising Manager and Product Designer.</span></span>
 

@@ -19,16 +19,16 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5436aaeadbf2d59324fe6b74a837d4ca85e4baff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6c0c6e1a2b780707f7af284c5ecd69abc309eee4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="settle-a-partial-vendor-payment-before-the-discount-date-with-a-final-payment-after-the-discount-date"></a><span data-ttu-id="a2eeb-103">在使用最后付款的折扣日期之前的折扣日期之后结算部分供应商付款</span><span class="sxs-lookup"><span data-stu-id="a2eeb-103">Settle a partial vendor payment before the discount date with a final payment after the discount date</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a2eeb-104">本文向您介绍执行多个部分付款的情况，部分在现金折扣期间内，其他在现金折扣期间外。</span><span class="sxs-lookup"><span data-stu-id="a2eeb-104">This article walks you through a scenario where multiple partial payments are made, some within the cash discount period and others outside the cash discount period.</span></span>
 

@@ -20,16 +20,16 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6f0042bf45354113b2bce22ae81365dee837824d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 106128399a64afb808c82e9a7b268039f9a3cf32
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="set-up-a-continuity-program-for-a-call-center"></a><span data-ttu-id="08261-103">设置呼叫中心的连续性计划</span><span class="sxs-lookup"><span data-stu-id="08261-103">Set up a continuity program for a call center</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 <span data-ttu-id="08261-104">本文介绍如何为呼叫中心设置连续性计划。</span><span class="sxs-lookup"><span data-stu-id="08261-104">This article describes how to set up a continuity program for a call center.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 52497aa2c67e852b366a39058d4cbf7597f1bd4a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cfad9c5c02f5002f075e2de99eaf407b4c75f596
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="map-a-cost-element-dimension"></a><span data-ttu-id="0923b-103">映射成本元素维度</span><span class="sxs-lookup"><span data-stu-id="0923b-103">Map a cost element dimension</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="0923b-104">成本总监可使用此过程将成本元素维度映射到 MXMF 法人中的成本元素维度。</span><span class="sxs-lookup"><span data-stu-id="0923b-104">A cost controller can use this procedure to map a cost element dimension to a cost element dimension in the MXMF legal entity.</span></span> <span data-ttu-id="0923b-105">此录制使用 USP2 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="0923b-105">This recording uses the USP2 demo data company.</span></span>
 

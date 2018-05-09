@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 006f3d4b30711651e389dd76f871de1214c158d1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7c03cb914db83de1f3229e1b659eab02698e5e8a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="develop-a-succession-plan"></a><span data-ttu-id="15b6c-103">制订继任计划</span><span class="sxs-lookup"><span data-stu-id="15b6c-103">Develop a succession plan</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="15b6c-104">当您的组织结构增加，或考虑继任计划，您可能需要具有类似技能分配给其他人士的人员。</span><span class="sxs-lookup"><span data-stu-id="15b6c-104">As your organization grows, and you consider succession planning, you may want to find someone who has similar skills to another person.</span></span>  <span data-ttu-id="15b6c-105">技能表允许您分析现有的员工和申请人，以查看他们是否符合一个有价值的员工的技能集。</span><span class="sxs-lookup"><span data-stu-id="15b6c-105">Skill mapping allows you to analyze your existing employees and applicants to see if they match the skill set of a valued employee.</span></span> <span data-ttu-id="15b6c-106">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="15b6c-106">The demo data company used to create this procedure is USMF.</span></span>
 

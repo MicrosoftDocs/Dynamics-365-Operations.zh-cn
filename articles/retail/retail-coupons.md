@@ -19,16 +19,16 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b0f86c254a7aee42f10dd369c9f0a4cdaf3e08a9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-coupons-for-retail-sales"></a><span data-ttu-id="2e0b2-103">创建零售销售优惠券</span><span class="sxs-lookup"><span data-stu-id="2e0b2-103">Create coupons for retail sales</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 ## <a name="overview-of-coupons"></a><span data-ttu-id="2e0b2-104">优惠券概览</span><span class="sxs-lookup"><span data-stu-id="2e0b2-104">Overview of coupons</span></span>
 

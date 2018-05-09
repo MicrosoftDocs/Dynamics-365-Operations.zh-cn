@@ -19,16 +19,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 818d7d21605ada63a29a41d3bf20ed9cbf21a178
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 36707ec37d4756393d0c3c2cf071d87a78ebc6c5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a><span data-ttu-id="d21b6-103">使用耗用原则控制原材料消耗量</span><span class="sxs-lookup"><span data-stu-id="d21b6-103">Controlling raw material consumption by using flushing principles</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="d21b6-104">耗用原则反映用于生产流程中使用的原材料的不同的消耗策略。</span><span class="sxs-lookup"><span data-stu-id="d21b6-104">The flushing principles reflect different consumption strategies for raw materials that are used in production processes.</span></span> <span data-ttu-id="d21b6-105">消耗是从现有库存量中扣减物料并为生产订单和批次订单将已消耗物料的值设置为**在制品** (WIP) 的流程。</span><span class="sxs-lookup"><span data-stu-id="d21b6-105">Consumption is the process that deducts material from the on-hand inventory and sets the value of the consumed materials to **Work in progress** (WIP) for production orders and batch orders.</span></span> <span data-ttu-id="d21b6-106">原材料通常从为使用物料的流程配置的位置使用。</span><span class="sxs-lookup"><span data-stu-id="d21b6-106">Raw materials are usually consumed from a location that is configured for the process that consumes the material.</span></span> <span data-ttu-id="d21b6-107">此位置称作生产输入位置。</span><span class="sxs-lookup"><span data-stu-id="d21b6-107">This location is known as the production input location.</span></span>
 

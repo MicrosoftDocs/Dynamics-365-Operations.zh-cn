@@ -20,16 +20,16 @@ ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2e9d15e35661d37036af48d4d1183e4f25012e57
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a4e247013c97a72f02209bd460cac82798d3cef
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a><span data-ttu-id="f8588-103">为制造物料摊销固定成本</span><span class="sxs-lookup"><span data-stu-id="f8588-103">Amortize constant costs for a manufactured item</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="f8588-104">制造物料的固定成本反映工序设置时间以及具有固定数量或固定残值金额的组件。</span><span class="sxs-lookup"><span data-stu-id="f8588-104">A manufactured item’s constant costs reflect the operation setup times and the components that have a constant quantity or a constant scrap amount.</span></span> 
 

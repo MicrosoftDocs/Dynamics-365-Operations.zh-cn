@@ -19,16 +19,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1e30d9f8ee4c7d6aea2da33975cd7f353cdc62eb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ec23f6a70200aeac50d47a0b0c2f985d9d29c35c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="fixed-asset-acquisition-posting-accounts"></a><span data-ttu-id="a19d8-103">固定资产购置过帐帐户</span><span class="sxs-lookup"><span data-stu-id="a19d8-103">Fixed asset acquisition posting accounts</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="a19d8-104">本文说明如何为购置资产设置总帐过帐科目。</span><span class="sxs-lookup"><span data-stu-id="a19d8-104">This article explains how to set up general ledger posting accounts for acquiring assets.</span></span>
 

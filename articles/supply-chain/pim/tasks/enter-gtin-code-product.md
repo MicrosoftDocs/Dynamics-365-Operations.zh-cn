@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d4838655e6ed87b704de35271314f885da5b3476
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 122f64c751cc6b40b697b376653309ccacaf625a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a><span data-ttu-id="b7546-103">输入产品的 GTIN 代码</span><span class="sxs-lookup"><span data-stu-id="b7546-103">Enter the GTIN code for a product</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="b7546-104">GTIN 代码由 GS1 组织分配。</span><span class="sxs-lookup"><span data-stu-id="b7546-104">GTIN codes are assigned by the GS1 organization.</span></span> <span data-ttu-id="b7546-105">在此示例中，您将为演示数据公司 USMF 中的产品编号 M0001 输入代码。</span><span class="sxs-lookup"><span data-stu-id="b7546-105">In this example, you will enter a code for product number M0001 in demo data company USMF.</span></span>
 

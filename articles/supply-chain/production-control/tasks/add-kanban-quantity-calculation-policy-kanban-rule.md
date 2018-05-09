@@ -16,15 +16,15 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 134fbbb2cde4c611798ec010ee7a128c06a80392
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: aae6e85397ed4a09812389bc39306201953ab9c2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a><span data-ttu-id="2349f-103">向看板规则中添加看板数量计算策略</span><span class="sxs-lookup"><span data-stu-id="2349f-103">Add a kanban quantity calculation policy to a kanban rule</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="2349f-104">此过程重点是创建看板数量计算策略，并将其添加到看板规则，以优化看板大小和数量。</span><span class="sxs-lookup"><span data-stu-id="2349f-104">This procedure focuses on creating a kanban quantity calculation policy and adding it to a kanban rule to optimize the kanban size and quantities.</span></span> <span data-ttu-id="2349f-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="2349f-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="2349f-106">此程序是专为价值流经理设计的。</span><span class="sxs-lookup"><span data-stu-id="2349f-106">This procedure is intended for the value stream manager.</span></span> <span data-ttu-id="2349f-107">此过程是创建“计算看板数量建议”这一过程的先决条件。</span><span class="sxs-lookup"><span data-stu-id="2349f-107">This procedure is a prerequisite for creating the procedure Calculate kanban quantity suggestions.</span></span> 
 

@@ -17,15 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: aa7889e33cff34c6679ea6e2f99c8647b89ce05b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 81c41b121732cb72a40ab3d89075770e5404e3c0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="configure-intercompany-project-invoicing"></a><span data-ttu-id="5ff27-103">配置内部公司项目开票</span><span class="sxs-lookup"><span data-stu-id="5ff27-103">Configure intercompany project invoicing</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="5ff27-104">此过程显示如何设置贵组织内部两个公司之间的项目开票。</span><span class="sxs-lookup"><span data-stu-id="5ff27-104">This procedure shows how to set up project invoicing between two companies in your organization.</span></span> <span data-ttu-id="5ff27-105">此任务使用 USSI 数据集。</span><span class="sxs-lookup"><span data-stu-id="5ff27-105">This task uses the USSI data set.</span></span>
 

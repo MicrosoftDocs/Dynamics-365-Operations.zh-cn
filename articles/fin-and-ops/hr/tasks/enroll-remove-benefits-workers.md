@@ -16,15 +16,15 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 844582904f7d3c14f6d5aa425a3c9d8234c01568
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4973130622b797778c0577f9dbae2461fd176582
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="enroll-and-remove-benefits-from-workers"></a><span data-ttu-id="73c4f-103">登记和删除工作人员的福利</span><span class="sxs-lookup"><span data-stu-id="73c4f-103">Enroll and remove benefits from workers</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="73c4f-104">该过程演示了如何在一项或多项福利中登记单个工作人员，以及如何在一项福利中等级多个工作人员。</span><span class="sxs-lookup"><span data-stu-id="73c4f-104">This procedure demonstrates how a single worker can be enrolled in one or more benefits, as well as multiple workers can be enrolled in a benefit.</span></span> <span data-ttu-id="73c4f-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="73c4f-105">The demo data company used to create this procedure is USMF.</span></span>
 

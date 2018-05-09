@@ -16,17 +16,17 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b50871ff1283c9ba95455542cae3ad0432c0254
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b743bf64755f229faba2ec561dd51a776ad8128b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="batch-processing-for-alerts"></a><span data-ttu-id="eced0-103">预警的批处理</span><span class="sxs-lookup"><span data-stu-id="eced0-103">Batch processing for alerts</span></span>
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 <span data-ttu-id="eced0-104">预警由 Microsoft Dynamics 365 for Finance and Operations 中的批处理功能处理。</span><span class="sxs-lookup"><span data-stu-id="eced0-104">Alerts are processed by the batch processing functionality in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="eced0-105">您必须首先设置批处理，然后才可以发出预警。</span><span class="sxs-lookup"><span data-stu-id="eced0-105">You must set up batch processing before alerts can be delivered.</span></span>
 

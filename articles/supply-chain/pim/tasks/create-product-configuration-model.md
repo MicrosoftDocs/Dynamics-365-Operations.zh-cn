@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4c5012ac05db7fc8769afa54115b203623809c9f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0a731a2a0fedcb92523b3f345abb49a18ff0e56a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-product-configuration-model"></a><span data-ttu-id="4b20f-103">创建产品配置模型</span><span class="sxs-lookup"><span data-stu-id="4b20f-103">Create a product configuration model</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="4b20f-104">该过程显示如何创建产品配置模型和输入基础信息，如属性和子组件。</span><span class="sxs-lookup"><span data-stu-id="4b20f-104">This procedure shows how to create a product configuration model and enter basic information such as attributes and subcomponents.</span></span> <span data-ttu-id="4b20f-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="4b20f-105">The demo data company used to create this procedure is USMF.</span></span>
 

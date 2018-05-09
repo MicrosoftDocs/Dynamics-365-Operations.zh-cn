@@ -20,16 +20,16 @@ ms.author: sorenand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 1f6a0922ebd0d2436715f0d1a1cc5d99876427f1
-ms.openlocfilehash: 3449c24bb90478ee2ba3c042f551e1de8709e86c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ede2952cac4f4aba9e1a65ed790ea1ae7a264817
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/25/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-resources"></a><span data-ttu-id="0b335-104">Operations 资源</span><span class="sxs-lookup"><span data-stu-id="0b335-104">Operations resources</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0b335-105">运营资源执行项目或生产流程的活动。</span><span class="sxs-lookup"><span data-stu-id="0b335-105">Operations resources perform the activities of a project or a production process.</span></span> <span data-ttu-id="0b335-106">它们可以是不同类型，可以具有不同功能。</span><span class="sxs-lookup"><span data-stu-id="0b335-106">They can be of different types, and can have different capabilities.</span></span> 
 

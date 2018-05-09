@@ -16,15 +16,15 @@ ms.author: bis
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5fc9b50e2b2b473cad9a6cf27b6245e17bcb56ad
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 81242773342bc40b89b470a3fd60e2bb3c3eeaa6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-a-product-number-for-predefined-product-variants"></a><span data-ttu-id="bfc64-103">为预定义的产品变型创建产品编号</span><span class="sxs-lookup"><span data-stu-id="bfc64-103">Create a product number for predefined product variants</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="bfc64-104">此指南显示如何为预定义的产品变型设置产品编号命名法，以及如何将其分配给适当的产品维度组。</span><span class="sxs-lookup"><span data-stu-id="bfc64-104">This guide shows you how to set up a product number nomenclature for predefined product variants, and how you assign it to the appropriate product dimension group.</span></span> <span data-ttu-id="bfc64-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="bfc64-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="bfc64-106">将为“颜色和大小”产品维度组分配新产品编号命名法。</span><span class="sxs-lookup"><span data-stu-id="bfc64-106">The new product number nomenclature is assigned to the Color and Size product dimension group.</span></span> <span data-ttu-id="bfc64-107">此任务通常由产品设计师完成。</span><span class="sxs-lookup"><span data-stu-id="bfc64-107">This task would typically be done by a product designer.</span></span>
 

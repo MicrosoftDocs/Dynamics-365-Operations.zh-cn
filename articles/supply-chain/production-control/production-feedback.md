@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6a4525734c468bf6eb8bc1da0c1b98f19e8d343c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 812bf62d3d2cd84b79e46b615ec6ed856feff13f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-feedback"></a><span data-ttu-id="bc666-104">生产反馈</span><span class="sxs-lookup"><span data-stu-id="bc666-104">Production feedback</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="bc666-105">本文提供有关向工作人员提供生产作业反馈的生产反馈的信息。</span><span class="sxs-lookup"><span data-stu-id="bc666-105">This article provides information about production feedback, which gives workers feedback about production jobs.</span></span> <span data-ttu-id="bc666-106">本文包括有关可以更新生产反馈的各个方法的信息。</span><span class="sxs-lookup"><span data-stu-id="bc666-106">The article includes information about the various ways that production feedback can be updated.</span></span>
 

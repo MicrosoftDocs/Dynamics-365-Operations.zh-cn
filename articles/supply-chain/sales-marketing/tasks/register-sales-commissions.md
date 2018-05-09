@@ -16,15 +16,15 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d21f9047dcea0af59c24339ebb57e8eabe3950d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 0fad3c62f926e508e09a265a600194b7ea595bf0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="register-sales-commissions"></a><span data-ttu-id="e4a1c-103">登记销售佣金</span><span class="sxs-lookup"><span data-stu-id="e4a1c-103">Register sales commissions</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="e4a1c-104">该过程显示如何计算和登记销售佣金。</span><span class="sxs-lookup"><span data-stu-id="e4a1c-104">This procedure shows you how sales commissions are calculated and registered.</span></span> <span data-ttu-id="e4a1c-105">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="e4a1c-105">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="e4a1c-106">在开始此指南前，运行名为“设置销售佣金规则”的指南，以确保您已设置好所有必要的佣金计算设置。</span><span class="sxs-lookup"><span data-stu-id="e4a1c-106">Before starting this guide, run the guide called "Set up sales commission rules" to make sure that you have all the necessary commission calculation setup.</span></span>
 

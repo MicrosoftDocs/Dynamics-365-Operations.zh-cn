@@ -19,18 +19,18 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 88e8c1ae98ad5618feff3d2bb88d8f8cfe2ff9ba
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 538c6824c5943fc9751068a0f10fd14b70ccea29
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="setting-up-the-components-of-a-job"></a><span data-ttu-id="63579-103">设置工作的组件</span><span class="sxs-lookup"><span data-stu-id="63579-103">Setting up the components of a job</span></span>
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-[!INCLUDE [retail name](includes/retail-name.md)]
+[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="63579-104">此主题介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。</span><span class="sxs-lookup"><span data-stu-id="63579-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 

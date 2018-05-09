@@ -19,16 +19,16 @@ ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4a0093f2275bafdb91a76adcca02bf3f2d1bffff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6c8dbf53a4ad38ee56592dfccc3fb216166b3bd5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="electronic-signature-overview"></a><span data-ttu-id="035c8-103">电子签名概览</span><span class="sxs-lookup"><span data-stu-id="035c8-103">Electronic signature overview</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="035c8-104">本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Finance and Operations 中使用它们。</span><span class="sxs-lookup"><span data-stu-id="035c8-104">This article provides an overview of electronic signatures and describes how they can be used in Microsoft Dynamics 365 for Finance and Operations.</span></span>
 

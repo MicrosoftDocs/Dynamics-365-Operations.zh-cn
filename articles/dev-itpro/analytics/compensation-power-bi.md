@@ -17,16 +17,16 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fa3f93dae69040c77ff28484a2bea4d1503a616d
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3cbe43dc7c913971f679e4e82ebaa5bcfe751685
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="compensation-power-bi-content"></a><span data-ttu-id="04ebb-104">薪酬 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="04ebb-104">Compensation Power BI content</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="04ebb-105">此主题描述**薪酬** Microsoft Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="04ebb-105">This topic describes the **Compensation** Microsoft Power BI content.</span></span> <span data-ttu-id="04ebb-106">它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="04ebb-106">It explains how to access the reports, and provides information about the data model and entities that were used to build the content.</span></span>
 

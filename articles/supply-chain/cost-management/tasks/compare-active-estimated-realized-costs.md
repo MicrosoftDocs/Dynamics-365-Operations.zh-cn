@@ -17,15 +17,15 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c705c4e411909cee2996049b519f1055c413eaf2
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5b636988d20a8004f9d556eb6814ea0048843c49
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="compare-active-estimated-and-realized-costs-on-a-production-order"></a><span data-ttu-id="c3481-103">比较生产订单上的有效、估计和实际成本</span><span class="sxs-lookup"><span data-stu-id="c3481-103">Compare active, estimated, and realized costs on a production order</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="c3481-104">此程序显示如何查看生产订单出现高产量差异的原因。</span><span class="sxs-lookup"><span data-stu-id="c3481-104">This procedure shows how to view reasons for high production variance for a production order.</span></span> <span data-ttu-id="c3481-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="c3481-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c3481-106">此程序是专为成本控制设计的。</span><span class="sxs-lookup"><span data-stu-id="c3481-106">This procedure is intended for the cost controller.</span></span>
 

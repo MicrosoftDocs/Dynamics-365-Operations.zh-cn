@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4c2d04f6b9cb8ea4eab4eea246f5f753bb24388b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2d278194ca60ba9e8ce8bd9d2c37f9a47e660da9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-service-template-group"></a><span data-ttu-id="9a113-103">创建服务模板组</span><span class="sxs-lookup"><span data-stu-id="9a113-103">Create a service template group</span></span>  
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="9a113-104">您可以使用服务模板组对服务模板进行排序和筛选。</span><span class="sxs-lookup"><span data-stu-id="9a113-104">You can use service template groups to sort and filter service templates.</span></span>
 

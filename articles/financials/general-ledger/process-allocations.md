@@ -19,16 +19,16 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 70e6c17b5c7e38c2f9f7a5087175e7cfd2e5542a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 51a2820231583f0936d1a9d5e92003adbb0c342d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="process-allocations"></a><span data-ttu-id="4739d-105">处理分配</span><span class="sxs-lookup"><span data-stu-id="4739d-105">Process allocations</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="4739d-106">本文提供有关分配、在 Microsoft Dynamics 365 for Finance and Operations 中处理分配的选项，以及如何在预算计划中使用它们的信息。</span><span class="sxs-lookup"><span data-stu-id="4739d-106">This article provides information about allocations, the options for processing them in Microsoft Dynamics 365 for Finance and Operations, and how they can be used in budget planning.</span></span> <span data-ttu-id="4739d-107">分配用于跨多个会计科目组合分配金额。</span><span class="sxs-lookup"><span data-stu-id="4739d-107">Allocations are used to distribute amounts across multiple ledger account combinations.</span></span> <span data-ttu-id="4739d-108">它们帮助确保向核算的正确对象计入费用或收入。</span><span class="sxs-lookup"><span data-stu-id="4739d-108">They help guarantee that expenses or revenue is charged to the correct object in accounting.</span></span>
 

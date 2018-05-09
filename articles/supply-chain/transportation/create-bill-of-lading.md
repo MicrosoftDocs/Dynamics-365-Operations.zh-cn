@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1c6f953465879ea9ba31827a352351daf72a2971
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c42106f150ef87fdbdf5838cd6e8deb19004bd4e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="create-a-bill-of-lading"></a><span data-ttu-id="45055-103">创建提单</span><span class="sxs-lookup"><span data-stu-id="45055-103">Create a bill of lading</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="45055-104">此主题介绍在使用仓库管理流程时如何创建提单。</span><span class="sxs-lookup"><span data-stu-id="45055-104">This topic describes how to create a bill of lading when using warehouse management processes.</span></span>  
 

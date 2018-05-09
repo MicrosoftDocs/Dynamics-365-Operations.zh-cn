@@ -16,15 +16,15 @@ ms.author: yuyus
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 266cb53b3734c8252810ba8e82759d9dec785196
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f9eda5f8a2ebf428d7b9b8197a2c8c5f817b9799
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="create-cost-elements"></a><span data-ttu-id="8ffbf-103">创建成本元素</span><span class="sxs-lookup"><span data-stu-id="8ffbf-103">Create cost elements</span></span> 
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="8ffbf-104">可通过几种方法在成本核算中创建成本要素。</span><span class="sxs-lookup"><span data-stu-id="8ffbf-104">There are several ways to create cost elements in Cost accounting.</span></span> <span data-ttu-id="8ffbf-105">此过程显示如何通过数据连接器导入主科目来创建成本要素。</span><span class="sxs-lookup"><span data-stu-id="8ffbf-105">This procedure shows how to create cost elements by importing main accounts via a data connector.</span></span> <span data-ttu-id="8ffbf-106">用于创建该过程的是演示公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="8ffbf-106">The USMF demo company was used to create this procedure.</span></span> <span data-ttu-id="8ffbf-107">此过程针对 Microsoft Dynamics 365 for Operations 版本 1611 中增加的成本核算功能。</span><span class="sxs-lookup"><span data-stu-id="8ffbf-107">This procedure is for a Cost accounting feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 

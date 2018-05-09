@@ -19,15 +19,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2473fa408ae8884b8713198debfff489ff6e6c46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 43675cdeaa8498e38e7ab030b935293d71035ea0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="power-bi-content"></a><span data-ttu-id="aeba7-103">Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="aeba7-103">Power BI content</span></span>
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="aeba7-104">此主题列出可用的 Microsoft Power BI 内容并向您指示可用来了解详细信息的资源。</span><span class="sxs-lookup"><span data-stu-id="aeba7-104">This topic lists the Microsoft Power BI content that is available and points you to resources where you can learn more about it.</span></span>
 

@@ -16,15 +16,15 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e7d988cd1261c00925ad7ae612a947a0083028ee
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e8f3227f231ffc287bd6ea6204ed50f8b684e5fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a><span data-ttu-id="d466a-103">通过使用向导设置编号规则</span><span class="sxs-lookup"><span data-stu-id="d466a-103">Set up number sequences by using a wizard</span></span>
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="d466a-104">“数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。</span><span class="sxs-lookup"><span data-stu-id="d466a-104">Number sequences are used to generate readable, unique identifiers for master data records and transaction records that require them.</span></span> <span data-ttu-id="d466a-105">需要标识符的主数据或交易记录称为“参考”。</span><span class="sxs-lookup"><span data-stu-id="d466a-105">A master data or transaction record that requires an identifier is referred to as a reference.</span></span> <span data-ttu-id="d466a-106">在您能为一个参考创建新记录之前，您必须设置编号规则并将其与参考相关联。</span><span class="sxs-lookup"><span data-stu-id="d466a-106">Before you can create new records for a reference, you must set up a number sequence and associate it with the reference.</span></span> <span data-ttu-id="d466a-107">该过程会说明如何同时使用向导设置所有必需的数序。</span><span class="sxs-lookup"><span data-stu-id="d466a-107">This procedure explains how to set up all required number sequences at the same time by using a wizard.</span></span> <span data-ttu-id="d466a-108">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="d466a-108">The demo data company used to create this procedure is USMF.</span></span>
 
