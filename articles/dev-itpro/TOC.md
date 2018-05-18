@@ -10,7 +10,12 @@
 ## [获取评估副本](dev-tools/get-evaluation-copy.md)
 ## [注册订阅](dev-tools/sign-up-preview-subscription.md)
 ## [部署和访问开发环境](dev-tools/access-instances.md)
-## [开发系统要求](dev-tools/development-system-requirements.md)
+### [配置开发人员 VM](dev-tools/configure-developer-vm.md)
+### [在开发计算机上创建新用户](dev-tools/enable-development-machine.md)
+### [开发和创建不允许管理员访问常见问题的 VM](sysadmin/VMs-no-admin-access.md)
+### [重命名本地环境以支持对 Visual Studio Team Services 的访问](migration-upgrade/vso-machine-renaming.md)
+### [开发系统要求](dev-tools/development-system-requirements.md)
+## [版本控制、元数据搜索和导航](dev-tools/version-control-metadata-navigation.md)
 ## 车队管理示例应用程序
 ### [车队管理示例应用程序](dev-tools/fleet-management-sample.md)
 ### [车队管理示例应用程序概览](dev-tools/introduction-fleet-management-sample.md)
@@ -22,7 +27,8 @@
 ### [生成操作](dev-tools/build-operations.md)
 ### [代码编辑器](dev-tools/code-editor.md)
 ### [创建模型和数据模型元素](dev-tools/create-data-model-elements.md)
-### [在开发计算机上创建新用户](dev-tools/enable-development-machine.md)
+#### [命名准则](extensibility/NamingGuidelines.md)
+#### [关闭模型自定义和弃用功能](dev-tools/lock-models.md)
 ### [定制分析报表](dev-tools/customization-analysis-report.md)
 ### [元素设计器](dev-tools/element-designers.md)
 ### [元素使用](dev-tools/element-usage.md)
@@ -31,7 +37,6 @@
 ### [模型](dev-tools/models.md)
 ### [Dynamics 365 for Finance and Operations 中的项目](dev-tools/projects.md)
 ### [Visual Studio Tools 加载项](dev-tools/developer-tools-add-ins.md)
-### [关闭模型自定义和弃用功能](dev-tools/lock-models.md)
 ### [更新 Visual Studio 开发工具](dev-tools/update-development-tools.md)
 ## X++ 编程语言
 ### [X++ 和调试器功能 ](dev-tools/new-x-debugger-features.md)
@@ -104,7 +109,7 @@
 #### [W 类](dev-ref/w-classes.md)
 #### [X 类](dev-ref/x-classes.md)
 
-## [可扩展性主页](extensibility/extensibility-home-page.md)
+## [可扩展性](extensibility/extensibility-home-page.md)
 ### 简介和开始
 #### [应用程序可扩展性计划](extensibility/extensibility-roadmap.md)
 #### [可扩展性请求](extensibility/extensibility-requests.md) 
@@ -261,9 +266,9 @@
 ### [使用任务录制器创建文档或培训](user-interface/task-recorder-training-docs.md)
 
 # [移动平台](mobile-apps/platform/mobile-platform-home-page.md)
-## 入门
-### [入门](mobile-apps/platform/mobile-platform-getting-started.md)
+## [入门](mobile-apps/platform/mobile-platform-getting-started.md)
 ### [体系结构](mobile-apps/platform/mobile-platform-architecture.md)
+### [业务逻辑事件概述](mobile-apps/platform/business-logic-events-overview.md)
 ### [页面设计准则](mobile-apps/platform/page-design-guidelines.md)
 ### [操作设计准则](mobile-apps/platform/action-design-guidelines.md)
 ### [窗体设计要求](mobile-apps/platform/form-design-requirements.md)
@@ -409,7 +414,7 @@
 ### [配置数据模板](data-entities/configuration-data-templates.md)
 ### [带有多个工作表的数据模板](data-entities/excel-template-multiple.md)
 ### [跟踪实体更改](data-entities/entity-change-track.md)
-
+### [配置键和数据实体](data-entities/config-key-entities.md)
 ### [查找有关标准数据实体的信息](data-entities/data-entities-report.md)
 
 
@@ -418,6 +423,7 @@
 ### [使用总帐实体导入凭证的最佳实践](data-entities/tips-tricks-import-general-journal-entity.md)
 
 ## 数据实体开发
+### [数据实体的设计原则和最佳实践](dev-tools/design-best-practices.md)
 ### [创建新数据实体](data-entities/build-consuming-data-entities.md)
 ### [数据实体属性](data-entities/behavioral-properties-data-entities.md)
 ### [创建计算列和虚拟字段](data-entities/data-entity-computed-columns-virtual-fields.md)
@@ -428,6 +434,9 @@
 ### [元数据属性](data-entities/behavioral-properties-data-entities.md)
 ### [验证、默认值和未映射的字段](data-entities/validations-defaults-unmapped-fields.md)
 ### [安全和数据实体](data-entities/security-data-entities.md)
+### [生成用于公开财务维度的只读实体](financial/read-only-entity-financial.md)
+ 
+
 
 ## [提供您自己的数据库](analytics/export-entities-to-your-own-database.md)
 
@@ -435,7 +444,7 @@
 ## [数据任务自动化](data-entities/data-task-automation.md)
 
 ## [用于响应 GDPR 数据请求的资源](gdpr/gdpr-home-page.md)
-### [适用于 Microsoft Dynamics 365 for Finance and Operations 的 GDPR 指南](gdpr/gdpr-auditing-sensitive-data.md)
+### [适用于 Microsoft Dynamics 365 for Finance and Operations 的 GDPR 指南](gdpr/gdpr-guide.md)
 ### [资产分类](gdpr/gdpr-asset-classification-values.md)
 ### [使用人员搜索报表](gdpr/gdpr-person-search-report.md)
 ### [扩展人员搜索报表](gdpr/gdpr-extend-person-search-report.md)
@@ -443,8 +452,9 @@
 ### [使用 Talent 响应个人数据请求](gdpr/respond-dsr-request-talent.md)
 ### [使用 Microsoft Dynamics AX 2012 响应个人数据请求](gdpr/gdpr-ax2012.md)
 
+## [数据验证工作区](user-interface/data-validation-workspace.md)
 
-# [连续交货主页](dev-tools/continuous-delivery-home-page.md)
+# [连续交货](dev-tools/continuous-delivery-home-page.md)
 ## [开发和连续交货常见问题](dev-tools/continuous-delivery-faq.md)
 ## [从生成输出中排除测试包](dev-tools/exclude-test-packages.md)
 ## [使用源代码管理来管理第三方模型和运行时包](dev-tools/manage-runtime-packages.md)
@@ -487,6 +497,7 @@
 ## [分段条目控件参数方法](financial/segmented-entry-control-parm-method-specification.md)
 ## [添加在 Microsoft Excel 模板中查找财务维度值的功能](financial/add-dimensions-excel-templates.md)
 ## [创建汇率提供方](financial/create-exchange-rate-providers.md)
+## [在 Microsoft Dynamics Finance and Operations 版本 8.0 中创建汇率提供方](financial/create-exchange-rate-8.md)
 
 # 供应链开发
 ## [甘特图开发指南](user-interface/gantt-development-guide.md)
@@ -579,7 +590,6 @@
 
 # [系统管理](sysadmin/system-administration-home-page.md)
 ## [平台每月更新常见问题](sysadmin/faq-platform-monthly-updates.md)
-## [有关管理员无权访问的虚拟机的常见问题](sysadmin/VMs-no-admin-access.md)
 ## [添加指向您的组织的法律条款和隐私声明的链接](sysadmin/legal-terms-privacy-statement.md)
 ## [许可证代码和 Configuration Key 报表](sysadmin/license-codes-configuration-keys-report.md)
 ## [跨公司数据共享](sysadmin/cross-company-data-sharing.md)
