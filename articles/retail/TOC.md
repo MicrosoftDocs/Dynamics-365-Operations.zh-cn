@@ -24,6 +24,7 @@
 # 销售税
 ## [销售税概览](../financials/general-ledger/indirect-taxes-overview.md)
 ## [“源”字段中的销售税计算方法](../financials/general-ledger/sales-tax-calculation-methods-origin-field.md)
+## #### [销售税分配和覆盖](../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md)
 ## [全部金额和销售税代码的间隔计算选项](../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md)
 
 # 呼叫中心
@@ -167,6 +168,7 @@
 ## [创建和关联硬件工作站](tasks/create-associate-hardware-station.md)
 ## [创建和关联收银机](tasks/create-associate-registers.md)
 ## [创建、计算和过帐零售商店的报表](tasks/create-calculate-post-statement-retail-store.md)
+## [对帐单过帐改进](statement-posting-EOD.md)
 ## [创建呼叫中心订单](tasks/create-call-center-orders.md)
 ## [创建 POS 收银机的财务维度并配置收银机上的维度值](tasks/create-financial-dimensions-pos.md)
 ## [创建零售渠道的财务维度和配置商店上的维度值](tasks/create-financial-dimensions-retail-channels.md)
@@ -289,7 +291,6 @@
 ### [调用 POS API 或 POS 扩展中的操作](dev-itpro/pos-api-extension.md)
 ### [Retail Modern POS 触发器和打印](dev-itpro/pos-trigger-printing.md)
 ### [向 Retail Modern POS 基于设计器的非屏幕视图中添加自定义控件](dev-itpro/pos-control-non-screen.md)
-### [为 POS 和电子商务生成 Retail 代理](dev-itpro/pos-generate-retail-proxy.md)
 ### [适用于 Retail 开发人员在云托管开发框中实施的配置步骤](dev-itpro/cloud-dev-box.md)
 
 ## Commerce Runtime
