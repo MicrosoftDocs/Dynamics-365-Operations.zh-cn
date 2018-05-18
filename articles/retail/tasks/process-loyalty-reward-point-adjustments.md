@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="process-loyalty-reward-point-adjustments"></a>处理会员奖励分调整
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 该过程说明了如何查看积分卡信息，以及如何调整奖励积分点数。 创建此任务的演示数据公司是 USRT。 此任务是为“零售业务经理”角色或“客服服务经理”角色而设计的。
 

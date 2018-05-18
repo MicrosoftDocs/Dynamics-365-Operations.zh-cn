@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-an-organization-hierarchy"></a>创建组织层次结构。
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 使用以下过程创建组织层次结构。 可以使用组织层次结构查看和申报来自各种视角的业务。 例如，您可以针对纳税、法律或法定申报设置一种层次结构。 然后，您可以设置另一层次结构，以报告不是法律要求但用于内部报表的财务信息。 
 

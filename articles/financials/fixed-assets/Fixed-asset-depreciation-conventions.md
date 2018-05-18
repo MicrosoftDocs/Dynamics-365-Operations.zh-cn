@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="fixed-asset-depreciation-conventions"></a>固定资产折旧惯例
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 折旧惯例用于确定何时和如何为固定资产的购买年份和处置年份计算折旧。
 

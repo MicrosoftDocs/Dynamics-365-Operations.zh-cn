@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-policies"></a>支出策略
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 您可以定义您的工作人员在输入和提交支出报表和出差申请时必须遵守的政策。         
 实施支出策略可以帮助您更有效地管理支出。         

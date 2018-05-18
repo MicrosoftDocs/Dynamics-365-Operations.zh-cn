@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="chinese-vouchers"></a>中国式凭证
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题介绍中国式凭证及其在 Microsoft Dynamics 365 for Finance and Operations 中的使用方法。
 

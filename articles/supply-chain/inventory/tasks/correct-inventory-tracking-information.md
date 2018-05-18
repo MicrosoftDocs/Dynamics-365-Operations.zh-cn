@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="correct-inventory-tracking-information"></a>更正库存跟踪信息
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程让您了解创建和过帐库存转移日志的流程，以纠正库存跟踪信息。 在此示例中，我们通过将不正确登记的批更新为其他批，来更新批控制物料的信息。 您可以使用演示数据公司 USPI 或您自己的数据了解该过程。 如果您使用您自己的数据，需启用可以批处理的物料；并且它不能是位置控制。 您还需要有一个为库存转移而设置的库存日记帐名称。 这些任务通常由仓库员工完成。
 

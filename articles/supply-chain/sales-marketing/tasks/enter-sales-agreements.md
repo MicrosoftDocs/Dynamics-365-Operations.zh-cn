@@ -25,7 +25,7 @@ ms.lasthandoff: 02/13/2018
 ---
 # <a name="enter-sales-agreements"></a>输入销售协议
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程向您显示如何向您的客户创建承诺：在超限时间采购议定数量的产品将获得特定的销售折扣的的销售协议。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。
 

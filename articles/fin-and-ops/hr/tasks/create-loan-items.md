@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-loan-items"></a>创建借出物品
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 借出物品是帮助您跟踪您的公司借出给工作人员的实际物品（如手机或电脑）的记录。 每个实际物品都必须具有相应的借出物品。 每个借出物品记录都应描述所借物品，负责借出的员工和物品可以借出的天数。 您可以同时创建多个借出物品，例如钥匙、门卡或制服等。 创建此程序的演示数据公司是 USMF。
 

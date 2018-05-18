@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="one-voucher"></a>一个凭证
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 > [!NOTE]
 >  此功能在 Dynamics 365 for Finance and Operations 版本 8.0 中提供，将于 2018 年春季的发布中推出。   

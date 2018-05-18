@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>创建记录模板以加快数据输入
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。 在此过程中，您将为应添加到固定资产的新笔记本电脑创建一条新记录。 本流程使用了 USMF 示例公司。
 

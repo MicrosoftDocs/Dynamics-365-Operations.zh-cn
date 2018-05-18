@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-journal-entry-using-a-template"></a>使用模板创建日记帐条目
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 已过帐的日记帐凭证可以保存为凭证模板并应用到新日记帐凭证中。 该程序适用于 USMF 演示公司。
 

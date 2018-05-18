@@ -27,7 +27,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="expense-management-mobile-workspace"></a>费用报销管理移动工作区
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题提供有关**费用报销管理**移动工作区的信息。 此工作区让用户能够捕获和上载收据，以便以后可以将其附加到支出报表。 用户还可以使用附加的收据快速创建支出行，并创建和管理其支出报表。 此外，审核人可以使用**费用报销管理**移动工作区查看分配给他们的支出报表，并且审核或拒绝这些支出报表。
 

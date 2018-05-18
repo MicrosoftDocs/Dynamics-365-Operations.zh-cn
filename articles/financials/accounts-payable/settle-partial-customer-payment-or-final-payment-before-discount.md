@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="settle-a-partial-customer-payment-and-the-final-payment-in-full-before-the-discount-date"></a>在折扣日期之前完全结算部分客户付款和最后付款
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供显示如何记录客户的部分付款以及在现金折扣期间内执行现金折扣的情况。
 

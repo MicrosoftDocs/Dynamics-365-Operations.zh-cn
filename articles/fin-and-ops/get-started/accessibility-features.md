@@ -25,7 +25,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="accessibility-features"></a>辅助功能
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题介绍为帮助残障用户使用 Dynamics 365 for Finance and Operations、Dynamics 365 for Retail 和 Dynamics 365 for Talent 而设计的功能。 例如，有的功能供使用视觉辅助技术（如 Microsoft Windows Narrator）的人员使用。
 

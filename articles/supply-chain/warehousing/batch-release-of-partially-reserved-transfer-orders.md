@@ -27,7 +27,7 @@ ms.lasthandoff: 02/08/2018
 
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>部分预留的转移单批发布
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 通过部分预留的转移单批发布功能可以使用批处理作业将转移单部分发布到仓库。
 由于您可以选择发布部分数量，因此您无需等到全部订单数量在仓库中可用后再发布订单。

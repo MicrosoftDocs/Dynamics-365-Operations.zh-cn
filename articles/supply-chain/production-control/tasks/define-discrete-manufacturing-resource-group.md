@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="define-discrete-manufacturing-resource-group"></a>定义离散制造资源组
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 一个资源组通常对应于工作单元里的某个物理组织的一组操作资源，由生产车间的黄线定义。 本流程展示如何为订单生产企业定义资源组。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 

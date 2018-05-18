@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="project-resourcing"></a>项目资源
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题提供有关项目资源的信息。
 
@@ -183,7 +183,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="set-up-role-based-pricing"></a>设置基于角色的定价
 可为角色设置所有成本、销售以及转让价格。
 
-1. 在**销售价(工时)**页上，选择**新建**，并输入生效日期。
+1. 在**销售价(工时)** 页上，选择**新建**，并输入生效日期。
 2. 在**角色**列中，选择角色。
 3. 在**定价**列中，输入所选资源角色的价格。
 

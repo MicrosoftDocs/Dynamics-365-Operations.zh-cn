@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> 此功能仅在 Dynamics 365 for Finance and Operations 版本 8.0 中可用，且仅面向加入 Continuous Auto-update Advantage Program (CAAP) 以获得平台更新的用户。 有关标准和目标版本的更多信息，请参阅[标准和目标平台版本](../../fin-and-ops/get-started/public-preview-releases.md)。
+> 此功能在 Platform update 15 (7.0.4841) 或更高版本中可用。 此更新当前仅对目标客户可用，将于 2018 年 6 月向所有用户开放。

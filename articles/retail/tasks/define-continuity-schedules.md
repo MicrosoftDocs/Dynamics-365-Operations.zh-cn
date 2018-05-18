@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="define-continuity-schedules"></a>定义连续性计划
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 本主题逐步演示如何设置连续性计划（也称为重复订单）。 本主题使用演示数据中的公司 USRT。
 

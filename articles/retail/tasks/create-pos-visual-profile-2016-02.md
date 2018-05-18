@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-a-pos-visual-profile"></a>创建 POS 配置文件 
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建新的销售点 (POS) 可视化配置文件。 可视化配置文件包含可以确定 POS 收银机外观的基本信息。 您可以创建多个可视化配置文件，并分配特定配置文件以在注册机上运行。 此程序使用 USRT 演示数据公司。
 

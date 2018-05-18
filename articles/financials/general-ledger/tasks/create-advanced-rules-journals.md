@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-advanced-rules-for-journals"></a>创建日记帐高级规则
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程介绍创建日记帐高级规则的步骤。 这包括设置日记帐控制和用户过帐限制。 此过程使用演示数据公司 USMF。
 

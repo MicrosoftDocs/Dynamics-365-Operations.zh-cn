@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **“销售订单的客户发票”**是与销售相关的、组织提供给客户的单据。 此类型的客户发票是基于销售订单创建的，其中包括订单行和物料编号。 在分类帐中指定和过帐物料编号。 子分类日志条目为销售订单的客户发票不可用。 有关详细信息，请参阅[创建销售订单发票](tasks/create-sales-order-invoices.md)。
 

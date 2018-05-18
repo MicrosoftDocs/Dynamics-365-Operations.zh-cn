@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="develop-a-succession-plan"></a>制订继任计划
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 当您的组织结构增加，或考虑继任计划，您可能需要具有类似技能分配给其他人士的人员。  技能表允许您分析现有的员工和申请人，以查看他们是否符合一个有价值的员工的技能集。 创建此程序的演示数据公司是 USMF。
 

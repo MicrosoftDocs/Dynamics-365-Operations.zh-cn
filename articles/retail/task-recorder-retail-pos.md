@@ -29,7 +29,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="task-recorder-and-help-for-pos"></a>POS 的任务录制器和帮助
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 此主题介绍如何在 Retail Modern POS 和 Cloud POS 中使用任务录制器。
 

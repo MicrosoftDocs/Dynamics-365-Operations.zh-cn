@@ -28,7 +28,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="fixed-assets-home-page"></a>固定资产主页
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。 
 

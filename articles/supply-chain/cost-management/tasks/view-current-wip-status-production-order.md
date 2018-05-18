@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-current-wip-status-on-a-production-order"></a>查看生产订单当前的 WIP 状态
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程显示如何查看生产订单的“WIP 报表”。 创建此程序的演示数据公司是 USMF。 此程序是专为成本控制设计的。
 

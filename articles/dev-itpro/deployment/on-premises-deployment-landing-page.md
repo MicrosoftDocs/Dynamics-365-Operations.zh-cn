@@ -26,7 +26,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="on-premises-deployment-home-page"></a>本地部署主页
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 您可以部署 Microsoft Dynamics 365 for Finance and Operations（本地）。 当你选择一个本地部署类型时，系统要求、硬件规模调整和功能与云部署不同。 本主题提供包含本地部署特定信息的内容链接。
 

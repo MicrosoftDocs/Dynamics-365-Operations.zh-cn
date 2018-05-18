@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="chart-of-accounts-delimiter-must-be-unique"></a>会计科目表分隔符必须是唯一的。
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 在 Microsoft Dynamics AX 2012 中，可为科目表和维度值使用相同分隔符。 在 Dynamics 365 for Finance and Operations 中，科目表和维度值的分隔符不能相同。 如果有相同分隔符，可在升级后更改。 
 

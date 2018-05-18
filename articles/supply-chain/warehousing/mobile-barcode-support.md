@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="mobile-bar-code-support"></a>移动条码支持
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 由于 Android 是一个开源项目，仓库条码扫描仪的任何硬件制造商都可以构建设备来运行 Android 操作系统。 如果设备能够运行为 Android 执行环境编写的应用，其只能是 Android 兼容设备。
 但是，硬件供应商可以修改和创建在其硬件上运行的 Android 版本的覆盖。 Microsoft 不负责确保 Android 的移动条码扫描应用与制造商的条码扫描硬件和在其中运行的 Android 版本兼容。 

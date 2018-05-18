@@ -24,7 +24,7 @@ ms.lasthandoff: 02/14/2018
 ---
 # <a name="benefit-eligibility-process"></a>福利资格处理
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程显示了福利资格流程的工作原理。 完成该流程后，您可以查看结果。 创建此程序的演示数据公司是 USMF。
 

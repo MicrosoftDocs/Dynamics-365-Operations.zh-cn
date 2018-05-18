@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-cost-control-units"></a>定义成本控制单元
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何定义成本核算分类帐中的成本控制单元。 选择您要在分类帐中控制其成本的成本对象维度。 成本对象维度将转换为成本控制单元的成本对象。 使用 USP2 公司演示数据创建此过程。
 

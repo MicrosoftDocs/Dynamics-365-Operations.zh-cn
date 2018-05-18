@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="view-a-related-intercompany-voucher-from-a-journal"></a>查看日记帐的相关内部公司凭证
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 在过帐内部公司交易的普通日记帐时，相关的凭证窗口显示该凭证来自其他公司。
 

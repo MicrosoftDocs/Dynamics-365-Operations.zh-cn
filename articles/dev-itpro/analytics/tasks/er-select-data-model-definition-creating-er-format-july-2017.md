@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="select-data-model-definition-while-creating-format-for-electronic-reporting-er"></a>针对电子申报 (ER) 选择数据模型定义，同时创建格式
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。 
 

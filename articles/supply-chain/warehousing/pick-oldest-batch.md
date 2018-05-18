@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="pick-oldest-batch-on-a-mobile-device"></a>在移动设备上领取最早的批次
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 您可以通过移动设备菜单访问配置**领取最早的批次**，它将允许您强制或警告仓库工作人员领取其当前库位中的最早批次。  
 

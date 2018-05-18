@@ -3,7 +3,7 @@ title: "供应链管理主页"
 description: "本页提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/15/2018
+ms.date: 05/09/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9e3551580cc03ebf62ec42283c5a9a885d8c8d8f
+ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
+ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
 # <a name="supply-chain-management-home-page"></a>供应链管理主页
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本主题提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。 
 
@@ -47,12 +47,17 @@ ms.lasthandoff: 03/26/2018
 - [产品信息管理](pim/product-information.md)
 - [生产控制](production-control/production-process-overview.md)
 - [销售和市场营销](sales-marketing/overview-sales-marketing.md)
+- [服务管理](service-management/service-management-home-page.md)
 - [运输管理](transportation/transportation-management-overview.md)
 - [仓库管理](warehousing/warehouse-configuration.md)
 
 ## <a name="videos"></a>视频
 
-这些视频短片帮助您了解 Microsoft Dynamics 365 for Finance and Operations, Enterprise Edition 7.3（2017 年 12 月）中的新功能。
+这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations 版本 8.0（2018 年 4 月）中的新功能。
+
+- [在 Field Service 和 Finance and Operations 之间同步工作订单](https://youtu.be/hAB4TDVMjxU)
+
+这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3（2017 年 12 月）中的新功能。
 
 -  [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg) 
 -  [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
@@ -84,7 +89,7 @@ ms.lasthandoff: 03/26/2018
 
 **仓库管理** 
 
--  [处理仓库管理中的入库 ASN](https://mix.office.com/watch/wpf78tr7rjuh)  
+<!---  [Process inbound ASNs in Warehouse management](https://mix.office.com/watch/wpf78tr7rjuh)-->  
 -  [充分利用仓库管理系统](https://www.youtube.com/watch?v=--_didmZKHo&t=10s)
 -  [高级 R3 仓库管理 - 收货处理和最小/最大补货](https://www.youtube.com/watch?v=z5_V5Eqlf5M&t=48s)
 -  [高级 R3 仓库管理 - 生命周期、发货处理和需求补货中的一天](https://youtu.be/Og0gLlVp7jA)

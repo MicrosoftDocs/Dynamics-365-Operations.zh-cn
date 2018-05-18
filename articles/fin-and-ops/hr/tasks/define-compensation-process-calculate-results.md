@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>定义薪酬流程并计算结果
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 薪酬流程用于确定在固定和可变薪酬计划中登记的员工的新的薪酬金额和奖励。 薪酬流程可以运行多次以执行“假设”分析，从而验证所有的更改和设置都正确。 该过程将创建薪酬流程，运行流程，并查看结果。 创建此程序的演示数据公司是 USMF。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-request-for-quotation"></a>创建询价
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程向您说明如何创建询价。 这通常由采购代理完成。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 在您开始之前，您需要设置申请类型。 一旦您完成此任务，并且您已创建和发送了询价，然后您可以输入每个供应商的回复，比较它们并授予合同。
 

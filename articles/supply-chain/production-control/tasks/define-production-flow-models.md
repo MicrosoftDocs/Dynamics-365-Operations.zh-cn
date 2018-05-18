@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="define-production-flow-models"></a>定义生产流模型
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 生产流模型描述如何计算并维持精益制造工作单元的产能。 因此，定义生产流模型是定义工作单元的先决条件。 创建此程序的演示数据公司是 USMF。
 

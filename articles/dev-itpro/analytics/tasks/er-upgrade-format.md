@@ -24,7 +24,7 @@ ms.lasthandoff: 03/26/2018
 ---
 # <a name="upgrade-your-format-by-adopting-of-new-base-version-of-that-format-for-electronic-reporting-er"></a>针对电子申报 (ER) 通过采用该格式的新的基本版本升级格式
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明属于系统管理员或电子报表开发人员的用户如何维护电子申报 (ER) 格式配置。 此过程说明如何基于配置提供程序 (CP) 接收的格式创建格式的自定义版本。 它还说明如何采用该格式的新的基本版本。
 

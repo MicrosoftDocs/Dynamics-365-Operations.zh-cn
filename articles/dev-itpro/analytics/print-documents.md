@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="printing-in-finance-and-operations-applications"></a>在 Finance and Operations 应用程序中打印
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 在 Microsoft Dynamics 365 for Finance and Operations 中，可使用本地打印机或联网设备打印文档。 本文概述如何打印文档。
 

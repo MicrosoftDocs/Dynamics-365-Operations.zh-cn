@@ -26,7 +26,7 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="view-an-expense-report"></a>查看支出报表
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 在总帐或采购中运行查询以查看交易记录时，查询可能会返回过多信息。 因此，可能需要缩小搜索范围。 若要获取所需的信息，您可以深化到交易记录以查看它将出现的支出报表。
 

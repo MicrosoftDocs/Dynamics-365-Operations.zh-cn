@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-new-users"></a>创建新用户
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 用户是您的组织的内部员工或外部客户和供应商，该用户需要访问系统以履行职责。 系统管理员可以完成该过程，以将用户添加到系统。 创建此程序的演示数据公司是 USMF。 
 

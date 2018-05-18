@@ -24,7 +24,7 @@ ms.lasthandoff: 10/26/2017
 ---
 # <a name="mass-financial-period-close"></a>批量财务期间结帐
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何暂停期间，或一次性永久关闭一个期间或多个法人。 此外，此任务将显示如何把用户组过帐限制到特定模块。
 

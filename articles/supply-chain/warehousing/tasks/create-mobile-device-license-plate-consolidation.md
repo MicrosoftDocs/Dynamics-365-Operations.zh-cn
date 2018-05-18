@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>创建牌照合并的移动设备菜单项
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何为牌照合并工作创建移动设备菜单项。 这样仓库工作人员就可以将一个牌照的物料与同一个库位中的另一个牌照合并合。 例如，如果后续暂存步骤在两个工作订单中均相同，可能使用此过程，以便只需要为合并的物料执行一次工作。 您可以在演示数据公司 USMF 中使用此过程。 此任务通常由仓库管理员完成。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

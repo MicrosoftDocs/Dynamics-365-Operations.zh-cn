@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="pay-based-on-registrations"></a>基于登记付薪
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题详细说明如何基于工作人员登记计算付薪。 其中包含显示可用于计算的各种设置选项的组合如何影响结果的示例。 这是包括的一些区域：
 

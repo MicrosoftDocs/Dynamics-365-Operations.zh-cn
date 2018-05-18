@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-policies-for-procurement-category-hierarchies"></a>设置采购类别层次结构的策略
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 使用此过程设置类别中订购产品的规则。 规则是为具体采购政策定义的。 类别访问策略规则控制员工在创建申请时有权访问的采购类别。 在创建申请时，应采用的采购政策和类别访问规则由员工所属法人和运营单位确定。 您可以在演示数据公司 USMF 中使用此过程。 此任务通常由采购经理完成。
 

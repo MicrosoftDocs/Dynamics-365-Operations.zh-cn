@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="budget-planning-data-allocation"></a>预算计划数据分配
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍 Microsoft Dynamics 365 for Finance and Operations 中可用的不同分配方法以及如何使用它们。  
 

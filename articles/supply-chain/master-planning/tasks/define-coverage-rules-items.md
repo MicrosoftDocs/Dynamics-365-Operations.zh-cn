@@ -24,7 +24,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="define-coverage-rules-for-items"></a>定义物料的覆盖规则
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 创建此程序的演示数据公司是 USMF。 该过程会显示如何创建覆盖范围规则，以及覆写特定物料的覆盖范围设置。 它也显示了如何确定默认库存设置。
 

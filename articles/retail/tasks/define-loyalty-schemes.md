@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="define-loyalty-schemes"></a>定义会员方案
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何定义会员方案。 会员方案是会员计划的奖励获得和兑换规则。 此程序使用 USRT 演示数据公司。
 

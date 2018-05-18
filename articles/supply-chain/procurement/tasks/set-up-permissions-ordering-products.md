@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-permissions-for-ordering-products-on-behalf-of-someone-else"></a>代表他人设置产品订购权限
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程演示如何为工作人员授予代表其他工作人员起草采购申请的权限。 换句话说，采购申请“准备人”可以为其他“申请人”创建申请。 此过程还演示如何为工作人员授予在不同法人或营运单位中订购物料和服务的权限。 这些任务通常由采购经理执行。 您可以在此过程中使用 USMF 演示数据公司的数据，也可以使用您自己的数据。
 

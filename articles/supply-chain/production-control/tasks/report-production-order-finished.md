@@ -25,7 +25,7 @@ ms.lasthandoff: 02/06/2018
 ---
 # <a name="report-a-production-order-as-finished"></a>将生产订单报告为已完工入库
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程显示如何报告生产订单为完工入库。 创建此程序的演示数据公司是 USMF。 这是解释生产订单周期的七个过程中的第六个过程。
 

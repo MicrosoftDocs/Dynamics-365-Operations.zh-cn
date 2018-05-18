@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-and-assign-a-cost-behavior-policy-to-a-cost-control-unit"></a>创建成本行为策略并将其分配到成本控制单元
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 成本行为是将成本分类为固定或可变。 必须将政策和相应规则分配给成本控制单元，政策才能生效。 此过程用于创建政策，然后将其分配给成本控制单元。
 

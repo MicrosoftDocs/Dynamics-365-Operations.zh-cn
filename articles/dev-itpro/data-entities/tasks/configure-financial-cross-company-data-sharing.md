@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-financial-cross-company-data-sharing"></a>配置跨公司财务数据共享
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示在公司间共享数据时，如何配置、启用、验证和解决冲突。 它使用 USMF 公司和共享模板的财务数据。
 

@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="configure-a-conditional-decision-in-a-workflow"></a>在工作流中配置有条件决策
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 使用以下过程配置有条件决策的属性。
 

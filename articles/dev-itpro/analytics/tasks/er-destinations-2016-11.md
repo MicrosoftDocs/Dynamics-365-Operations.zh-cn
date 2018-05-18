@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="configure-destinations-for-electronic-reporting-er"></a>针对电子申报 (ER) 配置目标
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。 用于创建此过程的演示数据公司是 DEMF。 德国为法人主要地址的国家\地区，但您可以为此过程使用任何法人。 
 

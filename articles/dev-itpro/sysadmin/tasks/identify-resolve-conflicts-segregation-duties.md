@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>确定和解决职责划分冲突
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 您可以设置规则，以分离必须由不同用户执行的任务。 此概念被称作职责划分。 当安全角色定义或用户的角色分配违反规则时，会记录冲突。 所有冲突必须由管理员解决。 完成以下过程以确定和解决冲突。 创建此程序的演示数据公司是 USMF。
 

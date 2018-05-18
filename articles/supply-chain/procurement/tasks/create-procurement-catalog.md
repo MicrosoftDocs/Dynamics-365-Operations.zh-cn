@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-procurement-catalog"></a>创建采购目录
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此指南演示如何创建采购目录。 此任务通常由采购专业人员完成。 您还将了解员工在创建申请时如何使用目录。 系统中必须已有采购类别层次结构，才能创建目录。 新目录继承层次结构，以及其中的所有产品。 可在采购类别层次结构可用的演示数据公司 USMF 中使用此指南，以及使用前面的步骤中使用的示例。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="create-a-performance-review"></a>创建绩效审核
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何创建绩效审核和介绍审核各部分的目的。 创建该过程的演示数据公司是 USMF。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

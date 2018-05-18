@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="golden-tax-integration-export-setup-china"></a>金税集成导出设置（中国）
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何配置金税集成的导出格式。 应该已经完成了金税集成的设置，才能完成此过程。
 完成此过程之后，接下来应该更新“税集成配置文件”页面中的“格式映射”字段。 

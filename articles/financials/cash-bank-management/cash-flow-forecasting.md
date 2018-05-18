@@ -26,7 +26,7 @@ ms.lasthandoff: 02/07/2018
 
 # <a name="cash-flow-forecasting"></a>现金流量预测
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 您可以使用现金流量预测工具分析即将发生的现金流量和币种要求，因此可以估计公司对现金的未来需求。 要获取现金流量的预测，您必须完成以下任务：
 

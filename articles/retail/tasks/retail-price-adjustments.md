@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="retail-price-adjustments"></a>零售价调整
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序将逐步演示如何创建零售价格调整。 零售价格调整可以直接设置某一物料的销售价格，或修改其基础销售价格或贸易协议销售价格。 此程序使用 USRT 演示数据公司。
 

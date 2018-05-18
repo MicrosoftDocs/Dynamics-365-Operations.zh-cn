@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-the-transfer-documents-for-goods-movement-inside-a-company"></a>为公司内货物转移设置转移文档
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何为公司内货物转移创建转移单据。 此过程仅适用于主地址在立陶宛的法人。 此过程所用的演示数据公司为“DEMF“，其主要地址在立陶宛。 必须先完成“为公司内的货物转移设置转移单据”过程，才能完成此过程。 该过程是专为库存会计师设计的。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

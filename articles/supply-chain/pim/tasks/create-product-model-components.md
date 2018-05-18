@@ -24,7 +24,7 @@ ms.lasthandoff: 11/14/2017
 ---
 # <a name="create-product-model-components"></a>创建产品模型组件
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 基于约束的产品配置模型使用组件作为基本结构块以建立产品模型结构。 这些组件必须在可构建产品模型前创建。 创建此程序的演示数据公司是 USMF。
 

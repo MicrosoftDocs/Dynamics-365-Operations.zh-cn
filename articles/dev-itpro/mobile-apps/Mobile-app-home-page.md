@@ -27,7 +27,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="mobile-app-home-page"></a>移动应用主页
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题描述 Microsoft Dynamics 365 for Unified Operations 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 

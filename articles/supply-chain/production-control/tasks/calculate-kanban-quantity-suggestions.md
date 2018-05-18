@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-kanban-quantity-suggestions"></a>计算看板数量建议
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程重点是通过使用看板数量计算，优化特定看板规则的看板大小和数量。 创建此程序的演示数据公司是 USMF。 此程序是专为价值流经理设计的。 这是您完成“添加新看板数量计算策略到看到规则”这一过程的先决条件。
 

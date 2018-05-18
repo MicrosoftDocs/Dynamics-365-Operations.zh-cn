@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-prerequisites-for-management"></a>设置管理的先决条件
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 使用此过程可以启用未达标管理流程。 未达标描述存在质量问题的过程或物料，有关的描述性信息将包括问题的来源和类型。 此过程使用演示数据公司 USMF。 此过程通常由质量经理执行。
 

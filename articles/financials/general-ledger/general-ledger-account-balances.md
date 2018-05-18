@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="general-ledger-account-balances"></a>总帐科目余额
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文说明查看总帐科目余额的两种方法：试算平衡表列表页和财务报表。 它还讨论如何更新维度集余额。
 

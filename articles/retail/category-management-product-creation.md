@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="manage-retail-product-categories-and-products"></a>管理零售产品类别和产品
 
-[!INCLUDE [banner](./includes/banner.md)]
+[!include [banner](./includes/banner.md)]
 
 此主题介绍如何在 Microsoft Dynamics 365 for Retail 中通过改进的方法管理零售产品类别和产品。 这些改进使促销活动经理可以查看零售产品层次结构与已发布的产品详细信息之间共有的产品属性结构。
 

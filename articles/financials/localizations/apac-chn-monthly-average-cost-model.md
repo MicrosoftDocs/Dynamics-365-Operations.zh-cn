@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="monthly-average-cost-model-for-china"></a>中国的每月平均成本模型
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 库存成本用于确定仓库库存物料的成本或货币值。
 

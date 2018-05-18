@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="piece-picking-confirmation"></a>单件领料确认
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 单件领料允许您通过移动设备上的领料或盘点工作确认单件库存。 对于领料，您可以确认在对要领料的工作指定的数量范围内的待处理工作的数量。 对于盘点工作，您可以扫描您正在盘点的库存和跟踪总金额。
 

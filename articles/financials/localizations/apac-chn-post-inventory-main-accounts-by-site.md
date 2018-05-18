@@ -28,7 +28,7 @@ ms.lasthandoff: 03/21/2018
 
 # <a name="post-inventory-main-accounts-by-site-for-china"></a>按中国站点过帐主库存科目
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题提供有关按中国的站点过帐库存主科目过帐的信息。
 

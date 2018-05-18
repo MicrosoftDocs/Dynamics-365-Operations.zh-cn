@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="set-up-workflows-for-expense"></a>设置费用的工作流
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 您可以设置用于查看和审核出差和支出单据的工作流流程。 工作流可以定义的单据包括费用报表、出差申请和预付现金请求。
 

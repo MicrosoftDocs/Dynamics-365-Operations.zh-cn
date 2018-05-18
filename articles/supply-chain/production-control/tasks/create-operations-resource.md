@@ -25,7 +25,7 @@ ms.lasthandoff: 11/03/2017
 ---
 # <a name="create-an-operations-resource"></a>创建运营资源
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 运营资源执行项目或生产流程的活动。 此过程显示您如何定义运营资源。 您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。
 

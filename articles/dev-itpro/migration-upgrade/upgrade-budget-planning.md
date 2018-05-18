@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="upgrade-budget-planning"></a>升级预算计划
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics AX 2012 和 Microsoft Dynamics 365 for Finance and Operations 的预算计划之间存在显著差异。 某些功能尚未升级，因此需要重新配置。 本主题说明必须重新配置的功能，描述完成升级后应考虑的新功能。  
 

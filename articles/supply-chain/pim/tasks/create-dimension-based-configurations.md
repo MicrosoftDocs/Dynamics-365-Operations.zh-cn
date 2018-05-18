@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-dimension-based-configurations"></a>创建基于维度的配置
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何定义基于维度的产品的配置。 这是此系列中最后一个说明如何构建基于维度的配置组合的过程。 此过程的执行取决于在前七个记录中创建的数据。 创建此程序的演示数据公司是 USMF。
 

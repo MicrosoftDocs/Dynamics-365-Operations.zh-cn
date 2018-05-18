@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>将物料清单和配方行发放到仓库
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题介绍将物料清单 (BOM) 行和配方行的原材料发放到仓库的流程。 在您将物料清单或配方行发放到仓库时，系统将首先确定用于生产流程的物料所在的车间的生产输入库位上是否已经提供该物料。
 

@@ -28,7 +28,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="work-breakdown-structures"></a>工作分解结构
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 工作分解结构 (WBS) 是项目中要完成的工作的描述。 它是一种任务的层次结构，代表项目团队对工作构成和大小、成本以及每个组件或任务的持续时间的理解。 WBS 包含三个主要目的：
 

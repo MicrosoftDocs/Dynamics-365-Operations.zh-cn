@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-vendor-account"></a>创建供应商帐户
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程会显示如何创建供应商帐户，以及添加地址和联系信息。 该过程不会显示如何填充所有字段，以用于采购和财务目的。 若要了解关于这些字段的更多信息，请阅读字段描述。 您可以使用演示数据公司 USMF，也可使用您自己的数据运行该过程。 供应商帐户通常由采购专业人员或应收账款人员创建。
 

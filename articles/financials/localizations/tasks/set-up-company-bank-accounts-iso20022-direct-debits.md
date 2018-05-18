@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>设置 ISO20022 直接借记的公司银行帐户
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务通过设置所需的特定于公司的银行帐户信息以生成客户付款文件。 此过程以 ISO 20022 直接借记格式为例。 其他格式可能需要更多设置信息，如公司 ID 或分类代码。
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016-only"></a>通过使用多级结构计算 BOM（仅限 2016 年 2 月）
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何通过使用“成本计算单”中的多级分解计算成品的成本。 这是 BOM 计算系列中的第七个任务。 创建此任务的演示数据公司是 USMF。
 

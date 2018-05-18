@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="set-up-positions"></a>设置职位
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 职位是更低级别的组织层次结构中的重要元素。 位置是工作的单个实例。 例如，职位“销售经理（东部）”是与工作“销售经理”关联的职位。 职位存在于部门中，可能只有一个工作人员与之关联。 在此任务中，我们将全面介绍创建职位所需的各个步骤。 此过程专门面向人力资源专员。
 

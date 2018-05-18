@@ -24,7 +24,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="release-a-productproduct-master-to-legal-entities"></a>向法人发布产品/基础产品
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何向一个或多个法人发布产品或基础产品。 用于创建此任务的演示数据公司是 USRT，此任务旨在面向采购经理和产品设计师。
 

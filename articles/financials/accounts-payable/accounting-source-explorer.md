@@ -28,7 +28,7 @@ ms.lasthandoff: 12/14/2017
 
 # <a name="accounting-source-explorer"></a>会计源资源管理器
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供有关会计源资源管理器的信息，您可用此信息来进行总帐会计条目后源信息的详细分析。
 

@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="fulfill-sales-agreements"></a>履行销售协议
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程向您显示如何通过将销售订单与销售协议关联来履行销售协议。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。 在开始本指南前，请确保您具有有效的类型为“产品价值承诺”的销售协议。 或者，您可以运行名为“创建销售协议”的任务指南。  
 

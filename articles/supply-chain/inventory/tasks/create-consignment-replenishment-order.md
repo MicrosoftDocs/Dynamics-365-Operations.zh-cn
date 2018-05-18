@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-consignment-replenishment-order"></a>创建托运补货订单
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。 还显示如何记录物料收据，以便将托运库存登记为供应商拥有的现有库存。 此过程通常由采购专员完成。 您可以使用演示数据公司 USMF 运行此指南。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

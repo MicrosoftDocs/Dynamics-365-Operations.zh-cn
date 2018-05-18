@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="import-and-maintain-credit-card-transactions"></a>导入和维护信用卡交易记录
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 与费用相关的信用卡交易记录可以设置为对重复执行的计划自动导入。 或者根据需要手动导入。 信用卡交易记录通过信用卡交易记录数据实体进行导入。
 

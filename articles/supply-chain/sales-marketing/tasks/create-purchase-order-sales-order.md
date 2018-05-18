@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>基于销售订单创建采购订单
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程向您显示如何创建基于销售订单的采购订单。 采购订单上的产品数量将指定以履行源销售订单的需求。 这一履行销售需求的方法是更全面、优化的方法“分配需求计划”的替代方法。 您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。
 

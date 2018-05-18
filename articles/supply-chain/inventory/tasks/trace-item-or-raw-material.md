@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="trace-an-item-or-raw-material"></a>跟踪物料或原材料
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程演示如何使用物料跟踪确定使用或正在使用物料或原材料的位置。 通过该过程，您可以确定物料，跟踪其来源，然后继续跟踪其生产和成品销售。 该流程可用于调查受影响客户和订单以及其他信息。 该过程使用演示数据公司 USP2。
 

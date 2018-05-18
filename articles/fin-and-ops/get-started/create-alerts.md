@@ -26,9 +26,9 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="create-alerts"></a>创建预警
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 ## <a name="getting-started"></a>入门
 设置预警规则之前，请确定何时或在何种情况下您想要收到预警。 当您确定要通知的事件时，在 Microsoft Dynamics 365 for Finance and Operations 中，找到出现引起该事件的数据的页面。 事件可以是即将来临的日期，也可以是发生的特定更改。 因此，您必须找到指定此日期或者显示更改的字段或创建的新记录的页面。 获得此信息之后，您便可以创建预警规则。

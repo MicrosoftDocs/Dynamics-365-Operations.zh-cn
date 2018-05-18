@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="post-vouchers-from-other-modules-china"></a>过帐其他模块的凭证（中国）
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 可以从总帐、库存变动日记帐、销售发票和采购发票过帐中国式凭证。 . 从这些源过帐时，将为这些财务凭证分配默认中国式凭证类型和中国式凭证号。
 此任务逐步演示如何从库存变动日记帐和从销售发票过帐中国式凭证。

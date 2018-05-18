@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="submit-and-approve-project-budget-revisions"></a>提交和审核项目预算修订
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程提供有关如何修订项目预算的信息。 可以根据需要修订项目预算任意次数，但是如果预算的修订次数超过一次，则不能查看单次修订的金额。 
 

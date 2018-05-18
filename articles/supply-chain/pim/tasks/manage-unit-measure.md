@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="manage-unit-of-measure"></a>管理度量单位
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何定义度量单位，提供单位换算及其描述，以及定义相关单位的转换规则。 您可以使用演示数据或使用您自己的数据浏览此过程。
 

@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="analyze-store-performance"></a>分析商店业绩
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本文介绍如何使用内存中和实时分析来基于您的 Microsoft Dynamics 365 for Retail 数据访问、探索和深入了解商店业绩。 
 

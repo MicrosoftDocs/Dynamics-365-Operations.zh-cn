@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-rebates-for-payment"></a>处理付款返利
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 该过程说明如何将已批准和处理的客户返利转换到贷方通知单。 您可以使用 USMF 公司演示运行此指南。 本指南中的先决条件是拥有一个或多个状态为“标记”的要求。 如果您正在使用 USMF，在开始本指南之前，您应该运行“生成和处理客户返利”指南。
 

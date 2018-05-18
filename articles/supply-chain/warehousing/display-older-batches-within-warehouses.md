@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="configure-display-older-batches-within-warehouse-on-a-mobile-device"></a>在移动设备上配置“显示仓库内的更早批次”
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **显示仓库内的更早批次**配置让你能够显示早于当前工作行位置的批次的位置列表。 显示的位置的列表包括与位置中的更早批次以及各批次的到期日期和物理库存有关的信息。 你可以选择从新位置领料或继续从当前位置领料。 
 - 从新位置领料 - 如果你选择一个要从中领料的新位置，当前工作行将更新为使用新位置且新位置的工作将照常进行。 为了使新位置生效，它必须具有用于整个工作行的足够的可用数量。 如果无法提供需要的数量，则不会更新工作行，且将显示列表。 

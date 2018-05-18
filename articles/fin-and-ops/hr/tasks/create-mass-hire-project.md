@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="create-a-mass-hire-project"></a>创建大批雇用项目
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此程序简单说明了一个大型招聘项目的设置流程。 招聘人员通过大型雇用项目轻松创建多个职位，并且为这些职位雇用若干个员工。 启动此程序，请转到“人力资源”>“人才招聘”>“大型招聘项目”。 创建此程序的演示数据公司是 USMF。
 

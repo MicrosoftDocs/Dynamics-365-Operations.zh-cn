@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="create-rules-for-optimization-advisor"></a>为优化顾问创建规则
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题介绍如何为**优化顾问**创建新规则。 例如，可创建一个新规则来识别哪些询价单 (RFQ) 案例的标题为空。 可通过案例的标题轻松识别和搜索案例。 此示例非常简单，介绍了通过优化规则可达到哪些目的。 
 

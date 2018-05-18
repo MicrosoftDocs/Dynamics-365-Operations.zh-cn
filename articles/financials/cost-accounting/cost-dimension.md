@@ -28,7 +28,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="create-dimensions-and-import-dimension-members"></a>创建维度并导入维度成员
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 成本核算是一个独立的模块，需要来自其他模块的数据。 该数据分为以下类别：
 

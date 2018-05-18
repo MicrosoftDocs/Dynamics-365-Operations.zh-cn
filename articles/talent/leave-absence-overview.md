@@ -27,7 +27,7 @@ ms.lasthandoff: 03/07/2018
 ---
 # <a name="leave-and-absence-management-overview"></a>休假和缺勤管理概览
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 **休假爱喝缺勤管理**模块提供灵活的框架，用于定义缺勤管理流程。 可以创建休假和缺勤计划以确定员工累积假期或如何赠予休假。 员工在计划中登记后，可以提交休假申请供经理审批。 休假跟踪荣一线经理和人力资源 (HR) 经理都可以看到谁在休假，以及每位员工剩余的假期量。  
 

@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>使用供应商协作监控托运库存
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何通过供应商协作查看有关您在客户托运中发放的物料的存货级别的信息。 也可以在客户接管库存的所有权时监控存货的消耗情况。 您可以在 USMF 演示数据公司中使用此过程。 此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 

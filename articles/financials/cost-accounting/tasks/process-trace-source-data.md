@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="process-and-trace-source-data"></a>处理和跟踪源数据
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 所有数据处理通过作业运行。 将为每个作业和数据提供方创建一个日记帐，用于记录已运行流程，以及条目是在当前作业中处理的。 此过程用于设置数据源，然后跟踪特定成本条目的来源。 此录制使用 USP2 演示数据公司 USP2。 完成此任务之前，确保播放以下任务指南：“创建成本核算分类帐”、“定义成本控制单元”和“管理成本核算分类帐的数据源”。
 

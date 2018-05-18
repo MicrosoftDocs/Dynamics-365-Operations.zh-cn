@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>设置销售税组和物料销售税组
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此任务记录向您介绍销售税和物料销售税组的设置。 增值税组是附加到客户和供应商的增值税代码组。 它们也附加到了交易记录的会计科目，这些会计科目没有过账到某个特定的供应商或客户。  物料销售税组是附到产品等资源中的销售税代码组。  应用到特定交易记录的增值税由该交易记录的增值税组及增值税（物料）组中包括的增值税代码决定。  仅当为必须及时或记录增值税的每个交易记录选择了增值税组合物料增值税组，才能计算增值税。  
 

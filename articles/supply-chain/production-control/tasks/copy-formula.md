@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="copy-a-formula"></a>复制配方
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程重点是创建包括相同的成分作为现有配方的配方，不过差异很小。 若要创建配方行，您可以使用“复制”功能复制具有大多数所需成分的现有配方。 然后可以对新版本中各行进行必要的更改。 通过使用“复制”功能，您不必创建几乎完全相同的多个配方。 使用 USP2 公司演示数据创建此任务。
 

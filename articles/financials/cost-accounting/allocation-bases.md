@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="allocation-bases"></a>分配基础 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 分配基础是成本核算分配开销成本的基础。 分配基础可以是数量，例如使用机器的时间、消耗的千瓦时 (kWh) 或占用的平方英尺。 分配基础最常用于为生产的库存分配开销成本。 例如，IT 部门根据各部门使用的计算机数量分配其支出。
 

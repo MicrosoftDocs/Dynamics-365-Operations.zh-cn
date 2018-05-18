@@ -29,7 +29,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="information-used-in-bom-calculations-with-standard-costs"></a>在使用标准成本进行的物料清单计算中使用的信息
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 物料清单 (BOM) 计算利用来自若干来源的数据，以便计算制造物料的标准成本。 这些来源包括与物料、物料清单工艺路线、间接成本计算公式和成本计算版本有关的信息。
 

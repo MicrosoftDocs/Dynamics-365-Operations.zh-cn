@@ -29,7 +29,7 @@ ms.lasthandoff: 04/13/2018
 
 # <a name="payment-methods-in-a-call-center"></a>呼叫中心内的付款方法
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 在 Microsoft Dynamics 365 for Retail 中，呼叫中心渠道配置中包含一个名称为**启用订单完成**的设置。 此设置有助于确保仅当渠道用户的预付款或预授权付款在批准的容差范围内时，才发放其创建的所有订单以执行其他处理。 如果开启了**启用订单完成**设置，则呼叫中心用户可通过使用呼叫中心的付款处理功能为客户输入销售订单付款。 如果关闭此设置，则呼叫中心用户不能使用呼叫中心付款处理功能，但是仍然可以通过使用标准的应收帐款功能对销售订单应用预付款。
 

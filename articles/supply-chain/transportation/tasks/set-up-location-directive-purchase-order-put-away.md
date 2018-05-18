@@ -25,7 +25,7 @@ ms.lasthandoff: 11/02/2017
 ---
 # <a name="set-up-a-location-directive-for-purchase-order-put-away"></a>设置采购订单储存的位置指令
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何设置简单的位置指令。 显示的示例创建将用于确定在何处放置已收到的采购订单的物料的位置指令。 您可以使用演示数据公司 USMF 提及的数据运行此任务指南。 先决条件：您需要创建一个处置代码。 在该过程中，我们使用了一个被称为“重新贴标签”的处置代码。 如果您正使用您自己的数据创建位置指令，您需要为您的仓库和物料设置高级仓库管理。  该过程专门面向仓库经理。
 

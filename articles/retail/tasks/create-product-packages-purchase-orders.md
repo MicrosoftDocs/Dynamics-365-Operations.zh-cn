@@ -25,7 +25,7 @@ ms.lasthandoff: 02/07/2018
 ---
 # <a name="create-product-packages-for-purchase-orders"></a>创建采购订单的产品包装
 
-[!INCLUDE [task guide banner](../includes/task-guide-banner.md)]
+[!include [task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建产品包装，以及在采购订单上使用它。 采购订单将被用于创建预定义集合产品的订单。 此程序使用 USRT 演示数据公司。
 

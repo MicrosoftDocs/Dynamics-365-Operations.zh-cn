@@ -24,7 +24,7 @@ ms.lasthandoff: 04/13/2018
 ---
 # <a name="loan-items-to-a-worker"></a>向工作人员借出物品
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何借出物品给工作人员和记录工作人员返还物品。 工作人员还可通过其员工自助服务页请求借出物品。 创建此程序的演示数据公司是 USMF。
 

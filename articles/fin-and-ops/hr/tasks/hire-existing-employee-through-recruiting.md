@@ -24,7 +24,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="hire-an-existing-employee-through-recruiting"></a>通过招聘雇用现有员工
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 开放职位有时可由公司内的员工作为职位候选人。 此过程介绍通过招聘流程雇用现有员工的步骤。 在此过程中，招聘项目已设置好，并且现有员工已提交招聘项目申请表。 创建此程序的演示数据公司是 USMF。
 

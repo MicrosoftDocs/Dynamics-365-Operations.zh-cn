@@ -25,7 +25,7 @@ ms.lasthandoff: 09/29/2017
 ---
 # <a name="prepare-a-process-kanban-job-when-materials-are-not-available-for-the-work-cell"></a>在物料对于工作单元不可用时准备处理看板作业
 
-[!INCLUDE [task guide banner](../../includes/task-guide-banner.md)]
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程的重点是在某些物料不可用于工作单元时准备流程看板作业，因此对于从仓库领料很有必要。 “在物料可用时准备流程看板作业”这一过程是创建此过程的先决条件。 此过程是专为机器操作员设计的。 创建此程序的演示数据公司是 USMF。
 

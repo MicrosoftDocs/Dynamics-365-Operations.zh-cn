@@ -27,7 +27,7 @@ ms.lasthandoff: 11/03/2017
 
 # <a name="fixed-asset-mass-update"></a>固定资产成批更新
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 如果您使用帐簿，则可以更改同属于一个帐簿的资产组的折旧惯例。
 

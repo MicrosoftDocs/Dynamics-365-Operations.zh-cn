@@ -6,6 +6,7 @@
 ## [删除 Talent 环境](remove-talent-environment.md)
 ## [配置 Microsoft Dynamics 365 for Talent 模块化应用](modular-app-tech-faq.md)
 ## [扩展 Talent 功能](extend-talent-functionality.md)
+## [访问 Dynamics 365 for Talent: Attract 中的预览功能](access-preview-feature.md)
 
 # [制定人力资源战略](departments-jobs-positions.md)
 ## [设置作业组成部分](create-job.md)
