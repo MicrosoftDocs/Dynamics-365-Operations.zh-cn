@@ -18,10 +18,10 @@ ms.author: cgarty
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0b839a4b16095cf5d357b8405baf1a695b1bb955
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: d68ec828f031fcb031dfbaa5aed2020a779d1207
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -37,9 +37,6 @@ ms.lasthandoff: 05/08/2018
 > <span data-ttu-id="e65f2-108">如果将您的 Microsoft Azure Active Directory (Azure AD) 租户配置为使用 Active Directory Federation Services (AD FS)，则必须确保已应用了 2016 年 5 月的 Office 更新，以便 Excel 加载项可以让您正确登录。</span><span class="sxs-lookup"><span data-stu-id="e65f2-108">If your Microsoft Azure Active Directory (Azure AD) tenant is configured to use Active Directory Federation Services (AD FS), you must make sure that the May 2016 update for Office has been applied, so that the Excel add-in can correctly sign you in.</span></span>
 
 <span data-ttu-id="e65f2-109">若要了解有关如何使用 Excel 加载项的详细信息，请观看短片[在 Dynamics 365 for Finance and Operations 中为标头和行模式创建 Excel 模板](https://youtu.be/RTicLb-6dbI)。</span><span class="sxs-lookup"><span data-stu-id="e65f2-109">To learn more about using the Excel add-in, watch the short [Create an Excel template for header and line patterns in Dynamics 365 for Finance and Operations](https://youtu.be/RTicLb-6dbI) video.</span></span>
-
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
 
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a><span data-ttu-id="e65f2-110">从 Finance and Operations 开始时在 Excel 中打开实体数据</span><span class="sxs-lookup"><span data-stu-id="e65f2-110">Open entity data in Excel when you start from Finance and Operations</span></span>
 1. <span data-ttu-id="e65f2-111">在 Finance and Operations 中的一个页面内，选择**在 Microsoft Office 中打开**。</span><span class="sxs-lookup"><span data-stu-id="e65f2-111">On a page in Finance and Operations, select **Open in Microsoft Office**.</span></span>

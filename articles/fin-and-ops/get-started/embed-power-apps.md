@@ -16,10 +16,10 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0754b4361f2fe940f6c6d4168ac44f234fd363f8
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 58b6b934c2cf65ff1f9362ce948474e374892999
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -32,8 +32,6 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="faa8b-104">在平台更新 14 中，Microsoft Dynamics 365 for Finance and Operations 支持与 Microsoft PowerApps 集成，这是一项面向为移动设备、平板电脑和 Web 构建自定义企业应用、而无需编写代码的开发人员和非技术用户的服务。</span><span class="sxs-lookup"><span data-stu-id="faa8b-104">In Platform update 14, Microsoft Dynamics 365 for Finance and Operations supports integration with Microsoft PowerApps, a service for developers and non-technical users to build custom business apps for mobile devices, tablets, and the web without writing code.</span></span> <span data-ttu-id="faa8b-105">由您、您的组织或者更广泛的生态系统开发的 PowerApps 反之可以嵌入到 Finance and Operations 客户端以细分产品的功能。</span><span class="sxs-lookup"><span data-stu-id="faa8b-105">PowerApps developed by you, your organization, or the broader ecosystem can then be embedded in the Finance and Operations client to augment the product's functionality.</span></span> <span data-ttu-id="faa8b-106">例如，您可以构建 PowerApp 来使用从其他系统检索的信息补充 Finance and Operations。</span><span class="sxs-lookup"><span data-stu-id="faa8b-106">For example, you might build a PowerApp to supplement Finance and Operations with information retrieved from another system.</span></span> 
 
 <span data-ttu-id="faa8b-107">若要了解有关嵌入 PowerApp 的详细信息，请观看视频短片[如何在 Dynamics 365 for Finance and Operations 中嵌入 PowerApp](https://www.youtube.com/watch?v=x3qyA1bH-NY)。</span><span class="sxs-lookup"><span data-stu-id="faa8b-107">To learn more about embedding PowerApps, watch the short [How to embed PowerApps in Dynamics 365 for Finance and Operations](https://www.youtube.com/watch?v=x3qyA1bH-NY) video.</span></span>
-
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
 
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a><span data-ttu-id="faa8b-108">将嵌入的 PowerApp 添加到页面</span><span class="sxs-lookup"><span data-stu-id="faa8b-108">Adding an embedded PowerApp to a page</span></span>
 ### <a name="overview"></a><span data-ttu-id="faa8b-109">概览</span><span class="sxs-lookup"><span data-stu-id="faa8b-109">Overview</span></span>
