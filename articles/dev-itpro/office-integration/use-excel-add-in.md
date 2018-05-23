@@ -38,9 +38,6 @@ ms.lasthandoff: 04/13/2018
 
 若要了解有关如何使用 Excel 加载项的详细信息，请观看短片[在 Dynamics 365 for Finance and Operations 中为标头和行模式创建 Excel 模板](https://youtu.be/RTicLb-6dbI)。
 
-> [!Video https://www.youtube.com/embed/RTicLb-6dbI]
-
-
 ## <a name="open-entity-data-in-excel-when-you-start-from-finance-and-operations"></a>从 Finance and Operations 开始时在 Excel 中打开实体数据
 1. 在 Finance and Operations 中的一个页面内，选择**在 Microsoft Office 中打开**。
 
