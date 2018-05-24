@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a56e6ea0a8470f205b1c74379c887c0cac85a6b4
-ms.openlocfilehash: c290bcd4787144fb4dd4232c06d2fb9e1e67ca3e
+ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
+ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 04/26/2018
 
 ---
 
@@ -59,7 +59,7 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="generate-a-catalog-import-file-template"></a>生成目录导入文件模板
 
-目录导入文件模板是您用于为供应商产品创建的 CMR 文件的行业标准 XSD 文件。 您可以使用 CMR 文件创建新的目录，替换现有目录或修改现有的目录。
+目录导入文件模板是您用于为供应商产品创建的 CMR 文件的 XSD 文件。 您可以使用 CMR 文件创建新的目录，替换现有目录或修改现有的目录。
 
 1.  选择**采购** \> **目录** \> **供应商目录**，然后双击要使用的目录。
 

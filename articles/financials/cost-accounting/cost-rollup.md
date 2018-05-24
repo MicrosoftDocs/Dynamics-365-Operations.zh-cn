@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 044a943eeba91f5dbebd4dcd70bc8152c4109037
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>成本累积政策和开销计算 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 成本核算让您能够了解成本流与在组织中交付的产品和服务之间的关联。 若要查看成本的透明度，基于适当的分配基础实现成本对象间的成本分配十分重要。 默认情况下，为主要成本元素实现成本分配，这在有些情况下有利，但它有一些应该考虑的影响。
 
@@ -297,7 +297,7 @@ HR 服务由以下度量值分配使用。
 
 
 
-## <a name="see-also"></a>请参阅
+## <a name="additional-resources"></a>其他资源
 -  [成本对象维度](cost-objects.md)
 -  [成本元素维度](cost-elements.md)
 -  [维度层次结构](dimension-hierarchy.md)

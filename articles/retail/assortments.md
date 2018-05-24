@@ -3,27 +3,28 @@ title: "分类管理"
 description: "此主题介绍 Microsoft Dynamics 365 for Retail 中分类管理的基本概念，并提供有关项目的实施注意事项。"
 author: jblucher
 manager: AnnBe
-ms.date: 3/12/2018
+ms.date: 03/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
 audience: Application user
+ms.reviewer: josaw
 ms.search.scope: Retail, Operations
 ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
 ms.translationtype: HT
-ms.sourcegitcommit: 44b0c4e39ac7410d27ce531c898bb8c423af334a
-ms.openlocfilehash: 303f86d6a57e039cb51700744697949845239b10
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/12/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="assortment-management"></a>分类管理
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 ## <a name="overview"></a>概览
 Microsoft Dynamics 365 for Retail 提供*分类*，供您管理渠道中的产品可用性。 分类决定哪些产品在特定商店和特定时间段内可用。
@@ -35,25 +36,25 @@ Microsoft Dynamics 365 for Retail 提供*分类*，供您管理渠道中的产�
 ### <a name="basic-assortment-setup"></a>基本分类设置
 在以下示例中，为每个商店配置了一个唯一的分类。 在此情况下，商店 1 中只有产品 1 可用，商店 2 中只有产品 2 可用。
 
-![每个产品在一个商店中可用](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure1.png?raw=true "每个产品在一个商店中可用")
+![每个产品可在一个商店提供](./media/Managing-assortments-figure1.png)
 
 若要让产品 2 在商店 1 可用，可将该产品添加到分类 1。
 
-![产品 2 已添加到分类 1](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure2.png?raw=true "产品 2 已添加到分类 1")
+![添加到分类 1 的产品 2](./media/Managing-assortments-figure2.png)
 
 也可以将商店 1 添加到分类 2。
 
-![商店 1 已添加到分类 2](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure3.png?raw=true "商店 1 已添加到分类 2")
+![添加到分类 2 的商店 1](./media/Managing-assortments-figure3.png)
 
 ### <a name="organization-hierarchies"></a>组织层次结构
 如果多个渠道共用同一个产品分类，则可使用零售分类组织层次结构配置分类。 添加此层次结构中的节点时，将包括该节点及其子节点中的所有渠道。
 
-![组织层次结构](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure4.png?raw=true "组织层次结构")
+![组织层次结构](./media/Managing-assortments-figure4.png)
 
 ### <a name="product-categories"></a>产品类别
 同样，在产品方面，可使用产品类别层次结构包括产品组。 可通过包括一个或多个类别层次结构节点配置分类。 在此情况下，分类将包括该类别节点及其子节点中的所有产品。
 
-![产品类别](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure5.png?raw=true "产品类别")
+![产品类别](./media/Managing-assortments-figure5.png)
 
 ### <a name="excluded-products-or-categories"></a>排除的产品或类别
 除了在分类中包括产品和类别，还可以使用“排除”选项定义分类中应排除的特定产品或类别。 在以下示例中，要包括特定类别中除产品 2 之外的所有产品。 在此情况下，不必逐个产品定义分类或创建更多分类节点。 而是只需包括分类，但排除该产品。
@@ -61,7 +62,7 @@ Microsoft Dynamics 365 for Retail 提供*分类*，供您管理渠道中的产�
 > [!NOTE]
 > 如果按照定义某个产品同时在一个或多个分类中既包括又排除，将始终把该产品视为排除。
 
-![排除的产品](https://github.com/MicrosoftDocs/Dynamics-365-Operations/blob/jblucher-manage-assortments/articles/retail/media/Managing-assortments-figure6.png?raw=true "排除的产品")
+![排除的产品](./media/Managing-assortments-figure6.png)
 
 ### <a name="global-and-released-products"></a>全局产品和已发放产品
 分类在全局级别定义，可包含来自多个法人的渠道。 分类中包含的产品和类别也在法人之间共享。 但是，产品必须先发放，才能真正在渠道（例如，销售点 \[POS\]）中出售、订购、盘点或接收。 因此，尽管不同法人的两家商店可以共享包含相同产品的分类，但是这些产品仅当已发放给这些法人时，才可用。

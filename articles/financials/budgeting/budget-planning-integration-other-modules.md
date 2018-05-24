@@ -19,16 +19,16 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 6db51f9fa180f0b8ce203fd2812c562b0201afa8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="budget-planning-integration-with-other-modules"></a>预算计划与其他模块的集成
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 预算计划可以从多个不同资源生成。 所有资源的周期性流程的基本元素相同。 
 
@@ -68,13 +68,13 @@ ms.lasthandoff: 04/13/2018
 
 该页顶部的**聚合总计**字段还确定要使用的日期。 此字段合计金额，并且可以选择将生效日期设置为会计年度或会计期间的第一天。 
 
-<strong>目标</strong>选项卡上的很多字段将变为可编辑或只读，具体取决于您选择的操作。 在您将创建新预算计划更改为更新现有计划时，<strong>预算计划名称</strong>字段将变为不可用，与选择现有计划相关的字段将变为可用。 在<strong>目标</strong>选项卡和<strong>源</strong>选项卡上，因此，**分类帐**字段始终不可用，因为此值由所选预算计划流程确定。 
+<strong>目标</strong>选项卡上的很多字段将变为可编辑或只读，具体取决于您选择的操作。 在您将创建新预算计划更改为更新现有计划时，**预算计划名称**字段将变为不可用，与选择现有计划相关的字段将变为可用。 在**目标**选项卡和**源**选项卡上，因此，**分类帐**字段始终不可用，因为此值由所选预算计划流程确定。 
 
 **预算类**字段可以将预算计划行设置为支出交易记录或收入交易记录。 通常，收入交易记录是会计科目的贷方，因此存储为负金额。 通常，这些交易记录在预算计划中同时显示为负金额。 不过，通过在计划布局中作为字段添加预算类，您可以启用收入显示为正金额。
 
 ### <a name="generation-rules"></a>生成规则
 
-三个字段提供其他功能：**系数**、**最小值**和**舍入规则**。 
+三个字段提供其他功能：**系数**、**最小值**和**舍入** **规则**。 
 
 **系数**字段中的值乘以源金额来设置预算计划中的金额。 然后在您创建预算计划行时，您可以进行调整。 例如，可以为提高 3% 输入 **1.03**。 系数必须为正数。 
 

@@ -1,5 +1,5 @@
 ---
-title: "将产品和仓库管理从 AX 2012 迁移到 Finance and Operations"
+title: "将仓库管理从Microsoft Dynamics AX 2012 升级到 Finance and Operations"
 description: "此主题提供产品和仓库管理迁移选项的概览。"
 author: perlynne
 manager: AnnBe
@@ -19,56 +19,52 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 92d0b4dd9611de4d717f30dc8736c673835bea29
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="migrate-products-and-warehouse-management-from-ax-2012-to-finance-and-operations"></a>将产品和仓库管理从 AX 2012 迁移到 Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>将仓库管理从Microsoft Dynamics AX 2012 升级到 Finance and Operations
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-本主题提供关于 Microsoft Dynamics 365 for Finance and Operations 中的产品和仓库管理迁移选项的概览。
+此主题概述运行 WMSII 模块从 Microsoft Dynamics AX 2012 R3 升级到 Microsoft Dynamics 365 for Finance and Operations 的过程。
 
-<a name="introduction"></a>介绍
-------------
+Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WMSII** 模块。 相反，您可以使用**仓库管理**模块。 在 WMSII 模块中，可为财务库存选择“库位”和“托盘 ID”库存维度，但是在 Finance and Operations 中，不能将“托盘 ID”库存维度用于财务库存。
 
-在升级到 Finance and Operations 期间，如果产品所关联的存储维度组的设置与 Finance and Operations 中对存储维度组设置的要求不匹配，则该产品被锁定。 但是，在升级后，您可以使用**更改物料的存储维度组**流程中的一组迁移选项取消锁定在升级期间被锁定的产品。 之后可以处理这些产品的交易记录。 您的一些物料可能已经与其站点、仓库和库位库存维度处于活动状态且被物理跟踪的存储维度组关联。 在这种情况下，您可以使用**更改物料的存储维度组**流程允许这些物料在仓库管理流程中使用。 如果您要为现有物料使用仓库管理功能，此功能十分有用。
+升级期间，将标识与使用“托盘 ID”库存维度的存储维度组关联的所有产品，并标记为已锁定，不可为升级处理。
 
 ## <a name="upgrading-to-finance-and-operations-when-ax-2012-r3-wmsii-is-used"></a>使用 AX 2012 R3 WMSII 时，升级到 Finance and Operations
-Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WMSII** 模块。 相反，您可以使用新的**仓库管理**模块。 在以前的版本中，可能为财务库存选择库位和托盘 ID 库存维度。 但是，作为升级流程的一部分，不可以再为财务库存启用托盘 ID 库存维度。 所有与使用托盘 ID 库存维度的存储维度组关联的产品将被锁定且不会被处理。
+在升级后，您可以使用**更改物料的存储维度组**窗体中的一组选项取消锁定在升级期间被锁定的产品，然后处理这些产品的交易记录。
 
 ### <a name="enabling-items-in-finance-and-operations"></a>在 Finance and Operations 中启用物料
+需要执行此更改，因为在 Finance and Operations 中，物料跟踪是仓库管理流程的一部分。 对于这些流程，所有仓库及其库位必须与库位模板相关联。 如果您要使用仓库管理流程，则必须配置以下设置：
+-   必须启用现有仓库以使用仓库管理流程 
+-   现有的已发布的产品必须与使用仓库管理流程的存储维度组相关联 
 
-在 Finance and Operations 中，作为仓库管理流程一部分使用的物料必须与选择了**使用仓库管理流程**参数的存储维度组相关联。 选择此设置后，站点、仓库、库存状态、库位和牌照库存维度变为活动状态。 您可以仅为已经与库位库存维度处于活动状态的存储维度组关联的物料更改此类型的存储维度组。
+如果源存储维度组使用托盘 ID 库存维度，使用托盘 ID 库位维度的现有库存的库位必须与选择了**使用牌照跟踪**参数的库位模板相关联。 如果不应启用现有仓库以使用仓库管理流程，您可以将现有库存的存储维度组更改为仅处理站点、仓库和库位库存维度的组。 
 
-### <a name="items-that-are-blocked-for-inventory-updates"></a>已针对库存更新锁定的物料
+> [!NOTE] 
+>  即使存在未结的库存交易记录，您也可以更改物料的存储维度组。
 
+## <a name="find-products-that-were-blocked-because-of-pallet-id"></a>找到因为托盘 ID 而锁定的产品
 要查看在升级期间已锁定且无法处理的已发布产品的列表，请单击**库存管理** &gt; **设置** &gt; **库存** &gt; **针对库存更新锁定的物料**。
 
-### <a name="reapplying-blocked-products"></a>重新应用锁定的产品
+## <a name="change-storage-dimension-group-for-blocked-products"></a>更改已锁定产品的存储维度组 
+ 
+若要作为仓库管理流程一部分使用，物料必须与“库位”库存维度处于活动状态且选择了**使用仓库管理流程**参数的存储维度组相关联。 选择此设置后，站点、仓库、库存状态、库位和牌照库存维度变为活动状态。
 
 要取消锁定在升级期间已锁定的产品，必须为该产品选择新的存储维度组。 请注意，即使存在未结的库存交易记录，您也可以更改存储维度组。 要使用在升级期间已锁定的物料，您有两个选项：
 
 -   将物料的存储维度组更改为仅使用站点、仓库和库位库存维度的存储维度组。 进行此更改后，不再使用托盘 ID 库存维度。
 -   将物料的存储维度组更改为使用仓库管理流程的存储维度组。 进行此更改后，现在开始使用牌照库存维度。
 
-### <a name="migration-processes"></a>迁移流程
-
-在 Finance and Operations 中，物料跟踪是仓库管理流程的一部分。 对于这些流程，所有仓库及其库位必须与库位模板相关联。 从概念上讲，如果您要使用仓库管理流程，必须处理两个流程：
-
--   必须启用现有仓库以使用仓库管理流程。
--   现有的已发布的产品必须与使用仓库管理流程的新的存储维度组相关联。
-
-如果源存储维度组使用托盘 ID 库存维度，使用托盘 ID 库位维度的现有库存的库位必须与选择了**使用牌照跟踪**参数的库位模板相关联。 如果不应启用现有仓库以使用仓库管理流程，您可以将现有库存的存储维度组更改为仅处理站点、仓库和库位库存维度的组。
-
-### <a name="using-the-warehouse-management-processes"></a>使用仓库管理流程
-
+## <a name="configure-warehouse-management-processes"></a>配置仓库管理流程
 在您可以使用**仓库管理**模块中的已发布产品前，产品必须使用选择了**使用仓库管理流程**参数的存储维度组。
 
-#### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>启用仓库以使用仓库管理流程
+### <a name="enable-warehouses-to-use-warehouse-management-processes"></a>启用仓库以使用仓库管理流程
 
 1.  创建至少一个新的库位模板。
 2.  单击**仓库管理** &gt; **设置** &gt;**启用仓库管理流程** &gt;**启用仓库设置**。
@@ -77,7 +73,7 @@ Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WM
 5.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 6.  处理更改。
 
-#### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>更改物料的存储维度组，以便其使用仓库管理流程
+### <a name="change-the-storage-dimension-group-for-items-so-that-it-uses-warehouse-management-processes"></a>更改物料的存储维度组，以便其使用仓库管理流程
 
 1.  创建新的**库存状态**值，并将它分配为**仓库管理参数**设置中的**默认库存状态 ID**值。
 2.  创建选择了**使用仓库管理流程**参数的新的存储维度组。
@@ -87,6 +83,4 @@ Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WM
 6.  在**更改物料的存储维度组**页，添加物料编号、存储维度组和单位序列组。 您可以直接在页面上、使用 Microsoft Office 集成或使用 [数据管理](../../dev-itpro/data-entities/data-entities.md) 中的数据实体流程完成此步骤。
 7.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 8.  处理更改。 更新所有库存维度可能需要一段时间。 您可以使用批处理作业任务监控进度。
-
-
 

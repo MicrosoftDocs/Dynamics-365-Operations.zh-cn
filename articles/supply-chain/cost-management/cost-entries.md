@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4d8a443d03f8eb2d6ff44d869964b47b6569ce4c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ac83ec4f37f5bafde30e5afc131a138df8dae419
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-entries"></a>成本条目
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供有关成本条目及其何时创建的信息。 成本条目是登记指定事件的数量和成本的记录。
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/03/2017
 登记采购订单的产品收据事件。 该事件登记 100 件物料 A（单位成本为 10.00 美元 (USD)）。 由于物料 A 使用序列号跟踪库存管理的目的，因此将为接收的每个物料创建一个唯一的序列号。 因此，该事件将创建 100 个库存交易记录和一个成本条目。
 
 ## <a name="cost-entries-page"></a>成本条目页面
-利用新的**“成本条目”**页面，可以查看和控制数量和成本的登记。 此页面对**“库存交易记录”**和**“库存结算”**页面进行了补充。 按时间顺序登记事件的记录。 因此，您可以快速查找和控制与文档相关的一个特定事件或所有事件的累计成本。 以下是一个示例：
+利用新的**成本条目**页面，可以查看和控制数量和成本的登记。 此页面对**库存交易记录**和**库存结算**页面进行了补充。 按时间顺序登记事件的记录。 因此，您可以快速查找和控制与文档相关的一个特定事件或所有事件的累计成本。 以下是一个示例：
 
 -   为物料 A 登记产品收据事件。以单位成本 10.00 美元接收 100 件物料。
 -   在登记发票事件几天后，单位成本增加到 11.00 美元。 因此，总金额为 1,100 美元。 创建另一个凭证来说明 100 美元的差额。
@@ -61,12 +61,12 @@ ms.lasthandoff: 11/03/2017
 | 00002   | 20-01-2015 | 采购订单 | 100001 | 0000101 |          | 100.00  |
 | 00003   | 31-01-2015 | 调整     | 100001 | 0000101 |          | 15.00   |
 
-**“成本条目”**页面支持按文档 ID 和文档日期进行筛选。 
+**成本条目**页面支持按文档 ID 和文档日期进行筛选。 
 
 > [!NOTE]
 > 成本条目仅适用于[成本对象](cost-object.md)或已发布的产品。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [成本对象](cost-object.md)

@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0235cf112b59ee86f77d26044e47eb9bff8f67db
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>产品配置模型中的表达式约束和表约束
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题介绍的是表达式约束和表约束的使用。 约束控制的对象是您在配置销售订单、销售报价单、采购订单或生产订单的产品时您可以选择的属性值。 您可以根据自己喜欢的构建约束方式来选择使用表达式约束或表约束。 
 
@@ -43,14 +43,14 @@ ms.lasthandoff: 04/13/2018
 
 ### <a name="example-of-a-table-constraint"></a>表约束示例
 
-此示例显示如何如何将扬声器的配置限制到特定的机柜表面处理和格栅。 第一个表显示通常可用于配置的机柜表面处理和格栅。 这些值是针对**“机柜表面处理”**和**“格栅”**属性类型定义的。
+此示例显示如何如何将扬声器的配置限制到特定的机柜表面处理和格栅。 第一个表显示通常可用于配置的机柜表面处理和格栅。 这些值是针对**机柜表面处理**和**格栅**属性类型定义的。
 
 | 属性类型 | 值                      |
 |----------------|-----------------------------|
 | 机柜表面处理 | 黑色、橡木、红木、白色 |
 | 前格栅    | 黑色、金属、白色         |
 
-下一个表显示由**“颜色和表面处理”**表约束定义的组合。 通过使用此表约束，您可以配置具有橡木表面处理和黑色格栅的扬声器、具有红木表面处理和白色格栅的扬声器，等等。
+下一个表显示由**颜色和表面处理**表约束定义的组合。 通过使用此表约束，您可以配置具有橡木表面处理和黑色格栅的扬声器、具有红木表面处理和白色格栅的扬声器，等等。
 
 | 完成         | 格栅                       |
 |----------------|-----------------------------|
@@ -87,7 +87,7 @@ ms.lasthandoff: 04/13/2018
 (颜色 == “黑色” & (尺寸 == “30” | 尺寸 == “50”)) | (颜色 ==“红色” & 大小 = “20” ）
 
 ## <a name="should-i-use-operators-or-infix-notation-when-i-write-expression-constraints"></a>当我编写表达式约束时，我应该使用运算符还是中缀表示法？
-您既可以使用运算符又可以使用中缀表示法来编写表达式约束。 对于**“Min”**、**“Max”**和**“Abs”**运算符，您不能使用中缀表示法。 这些运算符作为标准运算符包括在大多数编程语言中。
+您既可以使用运算符又可以使用中缀表示法来编写表达式约束。 对于**Min**、**Max**和**Abs**运算符，您不能使用中缀表示法。 这些运算符作为标准运算符包括在大多数编程语言中。
 
 ## <a name="what-operators-and-infix-notation-can-i-use-when-i-write-expression-constraints"></a>在编写表达式约束时，我可以使用哪些运算符和中缀表示法？
 下表列出的是您在产品配置模型中为组件编写表达式约束时，可以使用的运算符和中缀表示法。 第一个表中的示例显示如何使用中缀表示法或运算符编写表达式。
@@ -179,13 +179,13 @@ ms.lasthandoff: 04/13/2018
 </tr>
 <tr class="odd">
 <td>最大值</td>
-<td>生成最大条件。 如果条件数为 0 (零)，则生成结果为<strong>“无穷大”</strong>。</td>
+<td>生成最大条件。 如果条件数为 0 (零)，则生成结果为<strong>无穷大</strong>。</td>
 <td>最大值[args]</td>
 <td><strong>运算符：</strong>Max[x, y, 2] == z</td>
 </tr>
 <tr class="even">
 <td>最小值</td>
-<td>生成最小条件。 如果条件数为 0 (零)，则生成结果为<strong>“无穷大”</strong>。</td>
+<td>生成最小条件。 如果条件数为 0 (零)，则生成结果为<strong>无穷大</strong>。</td>
 <td>最小值[args]</td>
 <td><strong>运算符：</strong>Min[x, y, 2] == z</td>
 </tr>
@@ -235,7 +235,7 @@ ms.lasthandoff: 04/13/2018
 -   提示
 -   日志
 -   最大
--   最小值
+-   分钟
 -   减
 -   加
 -   幂
@@ -246,7 +246,7 @@ ms.lasthandoff: 04/13/2018
 -   目标
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [创建表达式约束（任务指南）](tasks/add-expression-constraint-product-configuration-model.md)

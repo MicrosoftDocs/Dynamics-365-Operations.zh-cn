@@ -20,10 +20,10 @@ ms.author: yuyus
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4eacafdf9b9e0eabe7fe599e679fca18c749733
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -38,8 +38,7 @@ ms.lasthandoff: 04/13/2018
 > [!Note]
 > 本主题中介绍的**成本管理** Power BI 内容适用于 Dynamics 365 for Finance and Operations 8.0。
 > 
-> 已废弃了 PowerBI.com 站点中发布的**成本管理** Power BI 内容包。 有关此项废弃的详细信息，请参阅 [Power BI 内容包发布到 PowerBI.com](../migration-upgrade/deprecated-features.md#power-bi-content-packs-published-to-powerbicom)。
-
+> 已废弃了 AppSource 站点中的**成本管理** Power BI 内容包。 有关此项废弃的详细信息，请参阅 [AppSource 中的 Power BI 内容包](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)。
 
 此 Power BI 内容提供分类格式，帮助您监控库存性能，并显示库存中的成本分布。 您可获取管理见解，如周转率、现货库存天数，以及首选聚合级别的“ABC 分类”（公司、物料、物料组或站点）。 也可以将可用信息用作财务报表的详细补充。
 

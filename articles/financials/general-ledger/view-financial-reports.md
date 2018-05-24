@@ -19,16 +19,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 055001c992e70ceacf57cf25a8bf83207d8d7334
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d9c7bcb8cae7b17636ffc0c87bb1147b9d27a6c8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-financial-reports"></a>查看财务报表
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 
@@ -84,7 +84,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="export-a-financial-report"></a>导出财务报表
 若要导出财务报表，在操作窗格中，单击**导出**。 报表导出到 Microsoft Excel，并且，您的浏览器将提示您打开或保存导出的文件。 在报表设计中定义的导出设置应用到导出的报表。    
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [Microsoft Dynamics AX 的财务报告](../../dev-itpro/analytics/financial-reporting-intro.md)

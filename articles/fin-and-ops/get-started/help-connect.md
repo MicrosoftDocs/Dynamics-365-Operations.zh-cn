@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c0942b66859da3659be49b19986bfd146ac43130
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="connect-the-help-system"></a>连接帮助系统
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题介绍 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件。 它提供如何连接这些组件的概览和如何创建自定义帮助的摘要。 
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 11/03/2017
     - 对于 Retail，我们将在不久后发布一个库。 
     - 您无需为 Talent 选择库，因为已经为您建立了与正确库的连接。 
 
-3.  选择 BPM 库的显示顺序。 它决定库中的任务录制在**“帮助”**窗格中的显示顺序。
+3.  选择 BPM 库的显示顺序。 它决定库中的任务录制在**帮助**窗格中的显示顺序。
 
 完成这些步骤后，您可以打开**帮助**窗格并单击**任务指南**选项卡。您现在将看到适用于您当前在 Finance and Operations 中所处页面的任务指南。 如果未找到任何任务指南，您可以输入关键字来调整搜索。
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 11/03/2017
 
 对于合作伙伴，如果您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。 您还可以复制 APQC Unified 全局库，然后打开您的副本，从它打开任务录制，然后修改它们，并保存具有所做更改的录制。 有关详细信息，请参阅[如何创建任务录制以用作文档或培训](../../dev-itpro/user-interface/task-recorder.md)。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [帮助概览](help-overview.md)

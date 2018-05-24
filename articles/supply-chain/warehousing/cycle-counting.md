@@ -19,16 +19,16 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ddb035eaa496a7c84f117f0523d509eccdf58505
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cycle-counting"></a>周期盘点
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍如何使用仓库管理中提供的仓库解决方案使用周期盘点。 本文不适用于可用于库存管理的仓库解决方案。
 
@@ -125,7 +125,7 @@ ms.lasthandoff: 11/03/2017
 
 1.  在移动设备上，选择处理现场周期盘点的菜单项。
 2.  登记要为其执行现场周期盘点的库位。
-3.  登记并确认物料编号和已盘点的物料数量。 **注意：**根据在**工作人员**页中设置的参数，周期盘点工作的状态在**所有工作**页中更新至**待审核**或**已关闭**。
+3.  登记并确认物料编号和已盘点的物料数量。 **注意：** 根据在**工作人员**页中设置的参数，周期盘点工作的状态在**所有工作**页中更新至**待审核**或**已关闭**。
 4.  可选择：为该库位中的剩余物料重复步骤 3，并确认没有更多的物料以供盘点。
 
 ## <a name="resolve-cycle-counting-differences"></a>解决周期盘点差异
@@ -136,7 +136,7 @@ ms.lasthandoff: 11/03/2017
 
 您可以调整盘点结果值的差异，然后在**待审阅的周期盘点**页上接受该盘点结果值。 您可以在**按库位显示的现有量**页中验证修改后的物料数量的盘点。 如果差异未被批准则盘点结果值将被拒绝。
 
-## <a name="see-also"></a>请参阅
+## <a name="additional-resources"></a>其他资源
 [为仓库工作配置移动设备](configure-mobile-devices-warehouse.md)
 
 

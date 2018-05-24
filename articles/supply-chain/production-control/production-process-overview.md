@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
-ms.search.form: JmgProdStatusListPage, JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview
+ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: yuyus
 ms.search.scope: Core, Operations
@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 779b27574a9d6d7e7aa6b71f468ba3cff8d4085a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="production-process-overview"></a>生产流程概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。 
 
@@ -78,14 +78,14 @@ ms.lasthandoff: 11/03/2017
 12. **期间关闭** – 某些成本核算原则，例如定期平均、倒冲成本计算、先进先出或者后进先出，要求定期活动以关闭库存或财务期间。 通常，系统在期间关闭之前报告所有物料和资源的消耗，以及库存和报废的更正。 此报告通常通过使用库存变动日记帐或调整日记帐执行。 目标是按期间评估运营单位的经济业绩。 在某些情况下，当使用跨财务申报期间的长时间运行的生产订单时，生产日记帐将用于在期间结束时报告生产进度和资源消耗。
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [生产反馈](production-feedback.md)
 
 [产品配置模型](../pim/product-configuration-models.md)
 
-[精益制造](lean-manufacturing-overview.md)
+[Lean manufacturing](lean-manufacturing-overview.md)
 
 
 

@@ -33,8 +33,6 @@ ms.lasthandoff: 04/13/2018
 
 若要了解有关嵌入 PowerApp 的详细信息，请观看视频短片[如何在 Dynamics 365 for Finance and Operations 中嵌入 PowerApp](https://www.youtube.com/watch?v=x3qyA1bH-NY)。
 
-> [!Video https://www.youtube.com/embed/x3qyA1bH-NY]
-
 ## <a name="adding-an-embedded-powerapp-to-a-page"></a>将嵌入的 PowerApp 添加到页面
 ### <a name="overview"></a>概览
 在将 PowerApp 嵌入到 Finance and Operations 客户端之前，您首先需要使用所需的视觉对象和/或功能找到或构建 PowerApp。 我们在这里不介绍构建 PowerApp 的详细流程。 如果您是 PowerApps 的新用户，[PowerApps 简介](https://docs.microsoft.com/en-us/powerapps/getting-started)主题是一个好的起始点。

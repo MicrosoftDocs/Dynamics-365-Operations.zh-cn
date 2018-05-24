@@ -20,16 +20,16 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad425ab0848ab04003b7378cb5c488650f01c441
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9082c156fde52aa0c822f8e4753de816f8cc0558
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-screen-layouts-for-pos"></a>配置 POS 的屏幕布局
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 此主题提供有关 Microsoft Dynamics 365 for Retail 销售点 (POS) 体验的屏幕布局的信息。
 
@@ -91,7 +91,7 @@ ms.lasthandoff: 11/03/2017
 
 **推荐产品** - 如果为环境配置了推荐产品控件，则将根据机器学习显示产品建议。 推荐产品控件仅可用于 Dynamics 365 for Retail 版本 1611 中的完整型布局。 **自定义控件**- 自定义控件充当屏幕布局内的占位符，供用户为自定义内容预留空间。 自定义控件仅可用于完整型布局。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [安装 Retail POS 布局设计器](install-pos-layout-designer.md)

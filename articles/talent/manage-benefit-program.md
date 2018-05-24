@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7344fad7c4dffabd99993924604e2e497bebc5ef
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fc325b519299098a4f8257c013bce0842237f9ea
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="define-and-manage-a-benefits-program"></a>定义和管理福利计划
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 人力资源提供一组工具，可使用这组工具设置和维护组织提供或为其工作人员处理的福利、扣缴和工作人员的薪酬计划。 本主题提供了有关如何设置并管理福利的信息。
 
@@ -53,7 +53,7 @@ ms.lasthandoff: 04/13/2018
 ## <a name="eligibility"></a>资格
 许多因素决定工作人员有资格享有雇主提供的各种类型福利。 当您在 Microsoft Talent 中创建福利时，可以设置应用于该福利的资格类型。 
 
-您可以向所有工作人员提供福利。 例如，某些公司向所有员工提供停车证作为附加福利。 当您创建此福利时，将资格设置为**“所有工作人员均符合资格”**。 
+您可以向所有工作人员提供福利。 例如，某些公司向所有员工提供停车证作为附加福利。 当您创建此福利时，将资格设置为**所有工作人员均符合资格**。 
 
 对于其他福利（例如扣押和征收税款），资格不适用。 当您创建这些类型的福利时，将资格设置为**跳过资格处理**。 
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 04/13/2018
 
 同样，如果您决定提供的福利期限比原始计划期限更长，则大批福利到期也让您可以同时扩展福利和已登记该福利的工作人员的到期日期。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [福利资格策略](benefit-eligibility-policies.md)

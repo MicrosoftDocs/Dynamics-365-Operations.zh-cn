@@ -19,16 +19,16 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 31308e64d4871a4d09540df16fdcd02cc83bd0be
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 4f3905f364ea67eab226323fd3450ebed30e4735
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="order-entry-deadlines"></a>订单输入截止时间
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供有关订单条目截止时间的信息。 订单条目截止日期是确定客户订单是否被视作（并履行）在当前日期或第二天接收。
 
@@ -73,7 +73,7 @@ ms.lasthandoff: 11/03/2017
 |---------------------|--------------------|-----------------------|--------------------|
 | 13:00               | 14:00              | 14:00                 | 12:00              |
 
-**注意：**如果夏时制保存时间调整生效，则相应调整订单输入截止时间。
+**注意：** 如果夏时制保存时间调整生效，则相应调整订单输入截止时间。
 
 ## <a name="example-same-order-entry-deadline-per-site"></a>示例：每个站点相同的订单输入截止时间
 您的公司由两个站点构成。 如下表中所示，这些站点位于不同的时区。
@@ -101,9 +101,9 @@ ms.lasthandoff: 11/03/2017
 |---------------------|--------------------|-----------------------|--------------------|
 | 13:00               | 14:00              | 13:00                 | 11:00              |
 
-**注意：**如果夏时制保存时间调整生效，则相应调整订单输入截止时间。
+**注意：** 如果夏时制保存时间调整生效，则相应调整订单输入截止时间。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [交货计划](delivery-schedules.md)

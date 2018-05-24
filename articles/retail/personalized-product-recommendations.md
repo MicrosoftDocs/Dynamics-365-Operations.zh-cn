@@ -20,19 +20,19 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: c5b9ee57b0b855766628caca239059205c103b86
-ms.openlocfilehash: 4a0586324dddc10d64ad6760222f2540f31d6bce
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 006ea02d4fb10092fed82516f1d17d0da750c6a1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/08/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="personalized-product-recommendations-overview"></a>个性化产品建议概览
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 > [!NOTE]
-> 我们将移除当前的产品建议服务版本，因为我们为这项功能重新设计了更出色的算法和更新的面向零售的功能。 有关详细信息，请参阅[已删除或弃用的功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/migration-upgrade/deprecated-features)。 如果您在针对您的环境的已启用产品建议方面遇到问题，请导航到页面底部。 
+> 我们将移除当前的产品建议服务版本，因为我们为这项功能重新设计了更出色的算法和更新的面向零售的功能。 有关详细信息，请参阅[已删除或弃用的功能](../dev-itpro/migration-upgrade/deprecated-features.md)。 如果您在针对您的环境的已启用产品建议方面遇到问题，请导航到页面底部。 
 
 在 Dynamics 365 for Retail 中，可在销售点 (POS) 设备中显示产品建议。 建议是客户可能根据其购买历史记录感兴趣的商品、其愿望列表中的商品，以及其他客户在线商店和实体商店购买的商品。 对于目录丰富的零售商，建议可以帮助客户发现产品。 通过展示针对客户兴趣和购买习惯的产品，产品建议可以帮助零售商开展追加销售和交叉销售，以及增强客户的凝聚力。 在 Dynamics 365 for Retail 中，认知服务和 Microsoft Azure 机器学习为产品建议提供支持。
 
@@ -72,7 +72,7 @@ ms.lasthandoff: 03/08/2018
 4.  转至**零售参数**，选择**机器学习**，然后在**启用 POS 建议**下选择**是**。
 5.  若要在 POS 中查看建议，请运行全局配置作业 **1110**。 若要体现对 POS 屏幕布局设计器所做更改，请运行渠道配置作业 **1070**。
 
-## <a name="how-does-it-work"></a>[]()工作原理
+## <a name="how-does-it-work"></a>工作原理
 刷新**实体商店**实体时，将执行以下操作。
 
 -   从 Dynamics 365 for Retail 操作数据库提取认知服务所需格式的数据并发送到实体商店。
@@ -91,7 +91,7 @@ ms.lasthandoff: 03/08/2018
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [向 POS 设备上的交易记录页添加建议控件](add-recommendations-control-pos-screen.md)

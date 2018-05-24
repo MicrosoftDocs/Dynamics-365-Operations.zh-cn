@@ -18,15 +18,15 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b4b54e97bdebc158adc3bc6d57a6661cd536f5fb
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 # <a name="provision-microsoft-dynamics-365-for-talent"></a>配置 Microsoft Dynamics 365 for Talent
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新生产环境。 此主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Talent。 如果您有已包括 Talent 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本主题中的步骤，请联系支持人员。
 
@@ -54,17 +54,18 @@ ms.lasthandoff: 04/13/2018
     > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 PowerApps P2 许可证。 如果您的组织没有 PowerApps P2 许可证，则可以从 CSP 或从 [PowerApps 定价页面](https://powerapps.microsoft.com/en-us/pricing/)获取一个。
 
 4. 选择**添加**，然后选择要为 Talent 配置的环境。
-5. 选择**是**同意条款并开始部署。
+5. 如果希望环境中包含 Talent 测试驱动器体验中使用的相同演示数据集，请选择“包括演示数据”选项。  这对长期演示或培训环境有益，但切勿用于生产环境。  请注意，初始部署后就必须选择此选项，因为以后不能更新现有部署。
+6. 选择**是**同意条款并开始部署。
 
     您的新环境将出现在左侧导航窗格的环境列表中。 不过，在部署状态更新为**已部署**前，您无法开始使用此环境。 此过程通常需要几分钟。 如果配置过程失败，您必须与支持人员联系。
 
-6. 选择**登录 Talent** 来使用您的新环境。
+7. 选择**登录 Talent** 来使用您的新环境。
 
 > [!NOTE]
 > 如果您尚未验证最终要求，您可以在项目中部署 Talent 的测试实例。 您可以随后使用此实例来测试您的解决方案，直到验证完成。 如果您使用新环境进行测试，那么您必须重复此过程来创建一个生产环境。
 
 > [!NOTE]
-> 通过 LCS 设置的 Talent 环境不包含为人力资源 (HR) 任务配置的演示数据或特定于 Talent 的演示数据。 如果需要包含演示数据的环境，建议您注册 60 天的免费 [Talent 试用环境](https://dynamics.microsoft.com/en-us/talent/overview/)。 尽管试用环境归其请求用户所有，仍然可以通过 Core HR 的系统管理体验邀请其他用户。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 不应将其用作生产环境。 请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。 现有环境过期后，可以注册新试用环境。
+> 由于 Talent 预订中仅允许两个 LCS 环境，所以也可以考虑利用免费的 60 天的 [Talent 试用环境](https://dynamics.microsoft.com/en-us/talent/overview/)。 尽管试用环境归其请求用户所有，仍然可以通过 Core HR 的系统管理体验邀请其他用户。 试用环境中包含可用于以安全方式探索该程序的虚拟数据。 不应将其用作生产环境。 请注意，如果试用环境在 60 天后到期，其中的所有数据都将被删除且不可恢复。 现有环境过期后，可以注册新试用环境。
 
 ## <a name="select-a-powerapps-environment"></a>选择 PowerApps 环境
 
@@ -104,13 +105,15 @@ ms.lasthandoff: 04/13/2018
 
 1. 从以下位置下载 ProvisionCDSEnvironment.zip 文件：[ProvisionCDSEnvironment 脚本](https://go.microsoft.com/fwlink/?linkid=870436)  
 
-2. 将整个 ProvisionCDSEnviroinment.zip 文件的内容解压缩到文件夹中。
+2. 在下载文件夹中，右键单击刚才下载的 ProvisionCDSEnvironment.zip 文件，然后选择**属性**。  如果对话框底部有安全声明宣称“此文件来自另一台计算机，可能已锁定，以帮助保护此计算机”，请将复选框标记为**解锁**，单击**应用**，然后单击**确定**。
 
-3. 作为管理员运行 Windows PowerShell 或 Windows PowerShell ISE 程序。
+3. 将整个 ProvisionCDSEnviroinment.zip 文件的内容解压缩到非根文件夹中。
 
-   访问[设置执行策略](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6)主题，了解有关设置执行策略以使脚本运行的详细信息。
+4. 作为管理员运行 Windows PowerShell 或 Windows PowerShell ISE 程序。
+
+   访问[设置执行策略](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6)主题，了解有关设置执行策略以使脚本运行的详细信息。 建议使用下面的的“Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process”，但务必遵守公司的安全策略，并在完成时关闭 PowerShell 窗口。 
   
-4. 在 PowerShell 中，导航到您解压缩文件的文件夹并运行以下命令，按下方指示替换值：
+5. 在 PowerShell 中，导航到您解压缩文件的文件夹并运行以下命令，按下方指示替换值：
  
    ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
 
@@ -121,18 +124,10 @@ ms.lasthandoff: 04/13/2018
 
    **-Verbose** 是可选的，将提供在出现问题时发送的用于提供支持的详细信息。
 
-5. 继续配置流程。
+6. 继续配置流程。
  
 
-
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
-默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 要授予访问权限，请在 Core HR 环境中[添加用户](../dev-itpro/sysadmin/tasks/create-new-users.md)并[为其分配相应角色](../dev-itpro/sysadmin/tasks/assign-users-security-roles.md)。 还必须将这些用户添加到 PowerApps 环境，以便他们可以访问 Attract 和 Onboard 应用程序。 下面概述此过程。 如果需要帮助才能完成这些步骤，请参阅博客文章[介绍 PowerApps 管理中心](https://powerapps.microsoft.com/en-us/blog/introducing-admin-center-for-powerapps/)。
+默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 要授予访问权限，请在 Core HR 环境中[添加用户](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)并[为其分配相应角色](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 部署了 Talent 的全局管理员还必须启动 Attract 和 Onboard 应用程序以完成初始化和允许其他租户用户访问。  在此之前，其他用户不能访问 Attract 和 Onboard 应用程序，并且将发生访问冲突错误。
 
-应由部署 Talent 环境的全局管理员完成此过程。
-
-1. 打开 [PowerApps 管理中心](https://preview.admin.powerapps.com/environments)。
-2. 选择相应环境。
-3. 在**安全性**选项卡中，将所需用户添加到**环境制造者**角色。
-
-    请注意，将用户手动添加到 PowerApps 环境这一最后步骤是暂时的。 在 Core HR 中添加用户时，将最终自动完成此步骤。
 

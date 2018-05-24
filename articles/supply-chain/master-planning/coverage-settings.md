@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 591b1cd739bb3be61299f33f180ca7c264d21a35
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="coverage-settings"></a>覆盖范围设置
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 主计划编制使用覆盖范围设置计算物料需求。 
 
@@ -45,11 +45,11 @@ ms.lasthandoff: 04/13/2018
 
 <!-- -->
 
-- 为维度组指定覆盖范围设置。 单击<strong>产品信息管理 &gt; 通用 &gt; 已发布产品</strong>。 在<strong>已发布产品详细信息</strong>页上，在**常规**选项卡上，在<strong>管理</strong>组中，单击<strong>存储维度组</strong>链接。 在<strong>存储维度组</strong>页，选择<strong>按维度的覆盖范围计划</strong>字段为存储维度组中的维度创建覆盖范围设置。 所有产品维度，例如配置、颜色、尺寸、样式，必须选择<strong>按维度的覆盖范围计划</strong>字段。
+- 为维度组指定覆盖范围设置。 单击**产品信息管理 &gt; 通用 &gt; 已发布产品**。 在**已发布产品详细信息**页上，在**常规**选项卡上，在**管理**组中，单击**存储维度组**链接。 在**存储维度组**页，选择**按维度的覆盖范围计划**字段为存储维度组中的维度创建覆盖范围设置。 所有产品维度，例如配置、颜色、尺寸、样式，必须选择**按维度的覆盖范围计划**字段。
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [主计划](master-plans.md)

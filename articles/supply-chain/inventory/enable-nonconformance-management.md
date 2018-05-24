@@ -19,16 +19,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 28037713a51a83f4b792adef8a26f02960fa6b07
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="nonconformance-management"></a>不符合项管理
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍使用未达标所需的基本设置。 如果要使用质检订单还需要其他设置。
 
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 6.  定义将分配给未达标的相关工序。 使用**工序**页定义可以对已审核的未达标执行的工作的分类。 向未达标分配相关工序时，可以提供详细信息，如有关执行该工序所需的关联物料、工时和杂项费用的信息。 此信息用于计算工序的估计成本。 这些详细信息和预估成本用于参考。 针对质量的相关工序不同于可以为生产工艺路线定义的工序。
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [创建和处理未达标（任务指南）](tasks/create-process-non-conformance.md)

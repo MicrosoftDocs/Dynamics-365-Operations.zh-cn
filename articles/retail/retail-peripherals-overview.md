@@ -19,16 +19,16 @@ ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: ba9c828efc39d45a78500d30295e5d1d6c770c99
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 77f475b0937672af268d6da938d5b2a1c9f6448b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-peripherals-overview"></a>硬件外围设备概览
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 此主题介绍与零售外设有关的概念。 它描述可用于将外设连接到销售点 (POS) 的各种方法，以及负责管理与 POS 之间的连接的组件。
 
@@ -121,7 +121,7 @@ POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设
 -   **控件对象** – 设备类（如行显示器）的控件对象提供软件程序的界面。 Monroe Consulting Services ([www.monroecs.com](http://www.monroecs.com/)) 提供一组标准的 OPOS 控件对象，称为公共控件对象 (CCO)。 CCO 用于测试 Microsoft Dynamics 365 for Retail 的 POS 组件。 因此，如果 Microsoft Dynamics 365 for Retail 通过 OPOS 为设备类提供支持，并且制造商提供为 OPOS 构建的服务对象，此项测试有助于确保可以支持多种设备类型。 无需明确测试每个设备类型。
 -   **服务对象** – 服务对象提供控件对象 (CCO) 与设备之间的通信。 设备的服务对象通常由设备制造商提供。 但是在某些情况下，您可能必须从制造商的网站下载服务对象。 例如，可能提供了更新的服务对象。 若要查找制造商的网站地址，请参阅您的硬件文档。
 
-[![控件对象和服务对象](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) 对 OLE for POS 的 OPOS 实施的支持有助于确保当设备制造商和 POS 发布商正确实施标准时，POS 系统和支持的设备可以协同工作，即使以前未一起测试时也不例外。 **注释：**支持 OPOS 不保证支持采用了 OPOS 驱动设备的所有设备。 Microsoft Dynamics 365 for Retail 必须首先通过 OPOS 支持该设备类型（即类）。 此外，服务对象可能并非始终安装了最新版本的 CCO。 您还应注意，服务对象的质量往往参差不齐。
+[![控件对象和服务对象](./media/retail_peripherals_overview01.png)](./media/retail_peripherals_overview01.png) 对 OLE for POS 的 OPOS 实施的支持有助于确保当设备制造商和 POS 发布商正确实施标准时，POS 系统和支持的设备可以协同工作，即使以前未一起测试时也不例外。 **注释：** 支持 OPOS 不保证支持采用了 OPOS 驱动设备的所有设备。 Microsoft Dynamics 365 for Retail 必须首先通过 OPOS 支持该设备类型（即类）。 此外，服务对象可能并非始终安装了最新版本的 CCO。 您还应注意，服务对象的质量往往参差不齐。
 
 ### <a name="windows"></a>窗口
 
@@ -201,8 +201,8 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 有关 OPOS 组件的详细信息，请参阅本文的“支持的接口”。 OPOS 驱动程序通常由设备制造商提供。 安装 OPOS 设备驱动程序时，将在 Windows 注册表中的以下位置添加一个键：
 
--   **32 位系统：**HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
--   **64 位系统：**HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
+-   **32 位系统：** HKEY\_LOCAL\_MACHINESOFTWAREOLEforRetailServiceOPOS
+-   **64 位系统：** HKEY\_LOCAL\_MACHINESOFTWAREWOW6432NodeOLEforRetailServiceOPOS
 
 在 ServiceOPOS 注册表位置中，配置的设备根据 OPOS 设备类组织。 将保存多个设备驱动程序。
 
@@ -332,7 +332,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 ### <a name="all-modern-pos-clients-that-have-a-dedicated-iis-hardware-station"></a>有专用 IIS 硬件工作站的所有 Modern POS 客户端
 
-**注释：**当 IIS 硬件工作站为“专用”时，POS 客户端与硬件工作站之间存在一对一关系。
+**注释：** 当 IIS 硬件工作站为“专用”时，POS 客户端与硬件工作站之间存在一对一关系。
 
 <table>
 <colgroup>
@@ -416,7 +416,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 ### <a name="all-modern-pos-clients-that-have-a-shared-iis-hardware-station"></a>有共享 IIS 硬件工作站的所有 Modern POS 客户端
 
-**注释：**当 IIS 硬件工作站为“共享”时，多台设备可同时使用该硬件工作站。 对于此方案，应仅使用下表中列出的设备。 如果尝试共享此处未列出的设备（如条码扫描仪和 MSR），多台设备尝试声明同一外设时，将出错。 将来将明确阻止此类配置。
+**注释：** 当 IIS 硬件工作站为“共享”时，多台设备可同时使用该硬件工作站。 对于此方案，应仅使用下表中列出的设备。 如果尝试共享此处未列出的设备（如条码扫描仪和 MSR），多台设备尝试声明同一外设时，将出错。 将来将明确阻止此类配置。
 
 <table>
 <colgroup>
@@ -471,7 +471,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 </table>
 
 ## <a name="configuration-for-supported-scenarios"></a>支持的方案的配置
-有关如何创建硬件配置文件的详细信息，请参阅[定义和维护渠道客户端，包括收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)。 **注释：**对于 Microsoft Dynamics 365 for Retail 版本 1611，将不再使用硬件工作站配置文件。 以前在硬件工作站中设置的属性现在成为了硬件工作站本身的一部分。
+有关如何创建硬件配置文件的详细信息，请参阅[定义和维护渠道客户端，包括收银机和硬件工作站](define-maintain-channel-clients-registers-hw-stations.md)。 **注释：** 对于 Microsoft Dynamics 365 for Retail 版本 1611，将不再使用硬件工作站配置文件。 以前在硬件工作站中设置的属性现在成为了硬件工作站本身的一部分。
 
 ### <a name="modern-pos-for-windows-with-an-ipc-built-in-hardware-station"></a>带 IPC（内置）硬件工作站的 Modern POS for Windows
 
@@ -479,7 +479,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 1.  创建在其中配置所有所需外设的硬件配置文件。
 2.  将硬件配置文件映射到 POS 收银机。
-3.  为将使用该 POS 收银机的零售商店创建一个类型为**专用**的硬件工作站。 描述可选。 **注释：**不必在硬件工作站中设置其他任何属性。 其他所有所需信息（如硬件配置文件）将来自收银机本身。
+3.  为将使用该 POS 收银机的零售商店创建一个类型为**专用**的硬件工作站。 描述可选。 **注释：** 不必在硬件工作站中设置其他任何属性。 其他所有所需信息（如硬件配置文件）将来自收银机本身。
 4.  单击**零售** &gt; **零售 IT** &gt; **配送计划**。
 5.  选择 **1090** 配送计划，将新硬件配置文件同步到商店。 单击**立即运行**将更改同步到 POS。
 6.  选择 **1040** 配送计划，将新硬件工作站同步到商店。 单击**立即运行**将更改同步到 POS。
@@ -493,7 +493,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 1.  创建在其中配置所有所需外设的硬件配置文件。
 2.  为将使用该 POS 收银机的零售商店创建一个类型为**专用**的硬件工作站。
 3.  在专用硬件工作站中，设置以下属性：
-    -   **主机名** – 将运行硬件工作站的主计算机的名称。 **注释：**Cloud POS 可以解析 **localhost** 以确定运行 Cloud POS 的本地计算机。 但是，将 Cloud POS 与硬件工作站配对所需证书必须也采用“Localhost”来充当计算机名称。 若要避免问题，建议您根据列出商店每个专用硬件工作站的实例。 对于每个硬件工作站，主机名应该是将部署硬件工作站的具体计算机名称。
+    -   **主机名** – 将运行硬件工作站的主计算机的名称。 **注释：** Cloud POS 可以解析 **localhost** 以确定运行 Cloud POS 的本地计算机。 但是，将 Cloud POS 与硬件工作站配对所需证书必须也采用“Localhost”来充当计算机名称。 若要避免问题，建议您根据列出商店每个专用硬件工作站的实例。 对于每个硬件工作站，主机名应该是将部署硬件工作站的具体计算机名称。
     -   **端口** – 硬件工作站用于与 Modern POS 客户端通信的端口。
     -   **硬件配置文件** – 如果硬件工作站本身中不提供硬件配置文件，将使用为收银机分配的硬件配置文件。
     -   **EFT POS 号** – 发送 EFT 授权时使用的 EFT 终端 ID。 此 ID 由信用卡处理方提供。
@@ -546,10 +546,10 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 有关硬件工作站的可扩展性方案的信息，请参阅[硬件工作站可扩展性](dev-itpro/hardware-station-extensibility.md)。
 
 ## <a name="security"></a>安全性
-根据当前安全标准，可以在生产环境中使用以下设置：**注释：**硬件工作站安装程序将在安装期间通过自助服务自动执行这些注册表编辑。
+根据当前安全标准，可以在生产环境中使用以下设置：**注释：** 硬件工作站安装程序将在安装期间通过自助服务自动执行这些注册表编辑。
 
 -   应禁用安全套接字层 (SSL)。
--   应启用并使用传输层安全性 (TLS) 版本 1.2（或当前最高版本）。 **注释：**默认情况下，已禁用 SSL 和除 TLS 1.2 外的所有 TLS 版本。 要编辑或启用这些值，请执行以下步骤：
+-   应启用并使用传输层安全性 (TLS) 版本 1.2（或当前最高版本）。 **注释：** 默认情况下，已禁用 SSL 和除 TLS 1.2 外的所有 TLS 版本。 要编辑或启用这些值，请执行以下步骤：
     1.  按 Windows 徽标键+R 打开**运行**窗口。
     2.  在**打开**字段中，键入 **Regedit**，然后单击**确定**。
     3.  如果显示**用户帐户控制**消息框，请单击**是**。
@@ -570,7 +570,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 -   必须禁用跨源资源共享，并且必须指定允许接受的源。
 -   应仅使用可信证书机构获取将在运行硬件工作站的计算机上使用的证书。
 
-**注释：**请务必仔细阅读 IIS 和 Payment Card Industry (PCI) 要求的安全指南。
+**注释：** 请务必仔细阅读 IIS 和 Payment Card Industry (PCI) 要求的安全指南。
 
 ## <a name="peripheral-simulator"></a>外围设备模拟器
 有关信息，请参阅 [Retail 外设模拟器](dev-itpro/retail-peripheral-simulator.md)。
@@ -725,7 +725,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 ### <a name="shared-iis-hardware-station"></a>共享 IIS 硬件工作站
 
-已使用共享 IIS 硬件工作站和 Modern POS for Windows 及 Cloud POS 测试了以下外设。 **注释：**仅支持打印机、付款终端和银箱。
+已使用共享 IIS 硬件工作站和 Modern POS for Windows 及 Cloud POS 测试了以下外设。 **注释：** 仅支持打印机、付款终端和银箱。
 
 #### <a name="printer"></a>打印机
 
@@ -756,7 +756,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 ## <a name="troubleshooting"></a>疑难解答
 ### <a name="modern-pos-can-detect-the-hardware-station-in-its-list-for-selection-but-it-cant-complete-the-pairing"></a>Modern POS 可以在其列表中检测硬件工作站以进行选择，但是不能完成配对。
 
-**解决方案：**验证以下潜在故障点列表：
+**解决方案：** 验证以下潜在故障点列表：
 
 -   运行 Modern POS 的计算机信任运行硬件工作站的计算机上使用的证书。
     -   若要验证此设置，请转至以下 URL：https://&lt;Computer Name&gt;:&lt;Port Number&gt;/HardwareStation/ping。
@@ -766,18 +766,18 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 ### <a name="modern-pos-cant-detect-the-hardware-station-in-its-list-for-selection"></a>Modern POS 不能在其列表中检测到硬件工作站来进行选择。
 
-**解决方案：**以下因素之一可能导致此问题：
+**解决方案：** 以下因素之一可能导致此问题：
 
 -   硬件工作站尚未在总部正确设置。 使用本主题前面的步骤验证是否正确输入了硬件工作站配置文件和硬件工作站。
 -   尚未运行作业以更新渠道配置。 在这种情况下，请运行作业 1070 以配置渠道。
 
 ### <a name="modern-pos-doesnt-reflect-new-cash-drawer-settings"></a>Modern POS 不体现新的银箱设置
 
-**解决方案：**关闭当前批处理。 关闭当前批处理之前，不会将对银箱的更改更新到 Modern POS。
+**解决方案：** 关闭当前批处理。 关闭当前批处理之前，不会将对银箱的更改更新到 Modern POS。
 
 ### <a name="modern-pos-is-reporting-an-issue-with-a-retail-peripheral"></a>Modern POS 报告零售外设有问题
 
-**解决方案：**下面是此问题的一些典型原因：
+**解决方案：** 下面是此问题的一些典型原因：
 
 -   确保关闭了其他设备驱动程序配置实用程序。 如果打开了这些实用程序，可能会阻止 Modern POS 或硬件工作站声明设备。
 -   如果将零售外设与多台 POS 设备共享，请确保其属于以下类别之一：
@@ -801,10 +801,10 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
     6.  关闭 DLL 主机后，重新启动 Modern POS。
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
-[零售外设模拟器](dev-itpro/retail-peripheral-simulator.md)
+[零售外围设备模拟器](dev-itpro/retail-peripheral-simulator.md)
 
 
 

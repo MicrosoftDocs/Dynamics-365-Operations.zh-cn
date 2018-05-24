@@ -20,24 +20,22 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 23683ff3b232d485d0e4386963b3dcf37cd96c6f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="register-serial-numbers-in-the-sales-process"></a>在销售流程中登记序列号
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 本主题说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。
 
 许多公司捕获序列号只是为了用于服务和保修用途，因此不必在从收货到发货的库存中维护序列号。 在这些情况下，Microsoft Dynamics 365 for Finance and Operations 在产品销售时可以登记装箱单或发票的序列号。 如果产品后来退货，您可以跟踪每个发票的产品以确定是否销售产品，服务或保修合同是否有效。
-有什么先决条件吗？
-----------------------------
 
 您必须通过选择**跟踪维度组**页的**在销售流程中有效**选项来启用销售流程的序列号。 以下事件随后在 Microsoft Dynamics 365 for Finance and Operations 中发生：
 -   在**序列号**快速选项卡上，选择**序列号控制**选项。 如果选中此选项，则必须在装箱单或发票上登记每个物料的序列号。
@@ -71,8 +69,8 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="can-i-register-serial-numbers-for-catchweight-items"></a>可以为实际称重物料登记序列号吗？
 不可以，在销售流程中不能为实际称重物料登记序列号。 此外，如果产品设置为非定重物料，您无法将产品分配到设置为仅在销售流程中使用序列号的跟踪维度组。
-我可以在 Retail POS 登记序列号吗？
-------------------------------------------------
+
+## <a name="can-i-register-serial-numbers-at-the-retail-pos"></a>我可以在 Retail POS 登记序列号吗？
 
 可以，当用户销售分配到设置为仅在销售流程中使用序列号的跟踪维度组的物料时，零售销售点 (POS) 将提示用户输入序列号。
 

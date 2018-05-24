@@ -16,30 +16,28 @@ ms.assetid:
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: bbf4da5a33876973a376a0580fd553e15bd6febc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="data-validation-workspace"></a>数据验证工作区
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题提供**数据验证核对清单工作区**和相关配置的概览。
-
-## <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 
 **数据验证核对清单**工作区可以跟踪跨公司、区域和人员的数据验证流程。 核对清单可以在新实现期间、升级后或迁移后使用。 根据**数据验证核对清单**工作区的视图，您将看到数据验证项目的所有任务和状态，或仅分配给您的任务。
 
 首先必须在该工作区顶部选择一个数据验证项目。 然后按所选数据验证项目筛选该工作区中显示的所有数据。
 
-### <a name="summary-tiles"></a>汇总磁贴
+## <a name="summary-tiles"></a>汇总磁贴
 
 **汇总**磁贴为您提供流程概览以及帮助您跟踪数据验证流程的指示器。您可以查看该流程的所有剩余任务、已完成任务、正在进行的任务和尚未开始的任务。 此信息针对包含在所选数据验证项目内的所有公司。
 
-### <a name="tasks-and-status-section"></a>任务和状态部分
+## <a name="tasks-and-status-section"></a>任务和状态部分
 
 在**任务和状态**部分，总体数据验证项目的状态以不同的方式显示：按法人、区域和任务列表显示的状态。 您可以选择筛选器以查看特定公司的状态。 每个状态选项卡同时按已完成百分比和剩余任务数量提供细分。
 
@@ -52,11 +50,11 @@ ms.lasthandoff: 03/26/2018
 
 任务完成后，将使用完成该任务的工作人员的名称自动填充**完成人**选项。 任务标记为已完成时，**完成日期**字段将自动更新为当前日期和时间。
 
-### <a name="configure-data-validation-project-page"></a>配置数据验证项目页
+## <a name="configure-data-validation-project-page"></a>配置数据验证项目页
 
 在您可以使用**数据验证核对清单**工作区之前，必须使用**配置数据验证项目**页配置流程。 （单击**工作区** \> **数据验证核对清单** \> **配置数据验证项目**。）
 
-### <a name="task-areas"></a>任务区域
+## <a name="task-areas"></a>任务区域
 
 您使用任务区域将数据验证任务分组到您的组织中的逻辑所有权区域。 例如，应付账款、应收账款或总帐可以使用为任务区域。
 

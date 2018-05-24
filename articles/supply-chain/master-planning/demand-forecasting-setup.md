@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 974edd06460df4afe594b0a033a042b8c2763f7f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="demand-forecasting-setup"></a>需求预测设置
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题介绍为准备需求预测您必须执行的设置任务。  
 
@@ -71,14 +71,14 @@ ms.lasthandoff: 11/03/2017
 -   Azure 存储帐户名称
 -   Azure 存储帐户密钥
 
-**注意：**只有当您使用的是自定义存储帐户时才需要 Azure 存储帐户名称和密钥。 如果部署本地版本，必须在 Azure 有自定义存储帐户，以便机器学习服务可以访问历史数据。 
+**注意：** 只有当您使用的是自定义存储帐户时才需要 Azure 存储帐户名称和密钥。 如果部署本地版本，必须在 Azure 有自定义存储帐户，以便机器学习服务可以访问历史数据。 
 
 若要创建预测，可以通过使用机器学习工作室或 Finance and Operations 需求预测实验来部署您自己的服务。 有关将 Finance and Operations 需求预测实验部署为 Web 服务的说明，可在 Finance and Operations 中找到。 在**需求预测参数**页上，单击选项卡 **Azure 机器学习**。
 
 ## <a name="settings-for-the-finance-and-operations-demand-forecasting-machine-learning-service"></a>Finance and Operations 需求预测机器学习服务的设置
 若要查看可为 Finance and Operations 需求预测服务配置的参数，请转到**主计划** &gt; **设置** &gt; **需求预测** &gt; **预测算法参数**。 **预测算法参数**页显示参数的默认值。 您可以在**需求预测参数**页覆盖这些参数。 使用**常规**选项卡全局覆盖参数，或使用**物料分配参数**选项卡依据物料分配参数来覆盖参数。 针对某个物料分配参数覆盖的参数只影响与该物料分配参数关联的物料的预测。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [需求预测简介](introduction-demand-forecasting.md)

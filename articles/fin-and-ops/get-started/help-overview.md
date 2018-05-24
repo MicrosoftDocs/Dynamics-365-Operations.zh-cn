@@ -19,16 +19,16 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 5adf73c1316f701b3b5e9b9a22fa5743ba1cc419
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="help-system-overview"></a>帮助系统概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。 
 
@@ -60,7 +60,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](.
 
 -   **访问最新的内容** – 该站点能让我们以更快、更灵活的方式创建、交付和更新产品文档。 因此，它有助于确保您有权访问最新技术信息。
 -   **由专家编写的内容** – 该站点提供更丰富的产品文档集，可由 Microsoft 内外的社区成员增强。
--   **访问不同类型的内容** – 该站点能让您快速访问有关 Finance and Operations 的不同类型的内容，如 Microsoft Office 组合演示文稿、任务指南、视频和主题。
+-   **访问不同类型的内容** – 该站点能让您快速访问有关 Finance and Operations 的不同类型的内容，如任务指南、视频和主题。
 -   **支持您的业务流程的内容** – 该站点包括侧重于业务流程的内容，这些内容利用 Microsoft Dynamics Lifecycle Services (LCS) 中的 Business Process Modeler (BPM)。
 
 ### <a name="searching-on-docsmicrosoftcom"></a>在 docs.microsoft.com 上搜索
@@ -135,7 +135,7 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 任务是通过使用任务录制器创建的。 当您使用任务录制器时，您在 Finance and Operations UI 中执行的所有操作（如单击菜单、更改设置和输入数据）都将被记录。 您记录的步骤统称为任务录制。 如同我们在前一部分说明的，任务录制可以显示在“帮助”窗格中和作为任务指南播放。 不过，您可以通过其他方法来使用任务录制：
 
--   **将任务录制保存到 BPM** – 可以将任务录制保存到 LCS 中的一个 BPM 库中的层次结构行。 当您将任务录制保存到 BPM 时，会连同录制的步骤一起，生成并显示流程图。 **注意：**若要在 Finance and Operations 的“帮助”窗格中显示任务录制并将其作为任务指南播放，您必须将录制保存到 BPM 库。
+-   **将任务录制保存到 BPM** – 可以将任务录制保存到 LCS 中的一个 BPM 库中的层次结构行。 当您将任务录制保存到 BPM 时，会连同录制的步骤一起，生成并显示流程图。 **注意：** 若要在 Finance and Operations 的“帮助”窗格中显示任务录制并将其作为任务指南播放，您必须将录制保存到 BPM 库。
 -   **将任务录制保存为 Word 文档** – 通过将任务录制保存为 Microsoft Word 文档，您可以轻松地为您的组织生成可打印的培训指南。
 
 有关任务录制器的详细信息，请参阅 [Finance and Operations 中的任务录制器](../../dev-itpro/user-interface/task-recorder.md)。
@@ -168,7 +168,7 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 在**系统参数**页上，执行以下步骤：
 
-1.  **重要：**首次打开帮助选项卡时，必须连接到 Lifecycle Services。 请确保单击窗体中间的链接，等待连接，关闭对话框，单后单击**确定**以转至参数窗体。
+1.  **重要：** 首次打开帮助选项卡时，必须连接到 Lifecycle Services。 请确保单击窗体中间的链接，等待连接，关闭对话框，单后单击**确定**以转至参数窗体。
 ![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png)
 2.  选择要连接到的 Lifecycle Services 项目。
 3.  选择要从中检索任务录制的 BPM 库（在所选项目内）。
@@ -204,7 +204,7 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 [Finance and Operations 帮助系统（可下载资料页）](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
 

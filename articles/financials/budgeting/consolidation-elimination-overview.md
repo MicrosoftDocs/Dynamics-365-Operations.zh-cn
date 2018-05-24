@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 60dd33f296a37f0010a948c410738ce5486b780e
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d4c966badd87b80e203f475cc632f5388ad1d8e5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="consolidation-and-elimination-overview"></a>合并和清除概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供有关合并和清除流程的一般信息。 它包含对一些常见问题的回答。
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 11/03/2017
 通过使用**导出公司余额**选项从一个实例导出，然后使用其他实例的**与导入合并**选项，可以合并数据。
 
 
-有关详细信息，请参阅[合并公司中的币种重估](..\general-ledger\currency-revaluation-consolidation-company.md)。
+有关详细信息，请参阅[合并公司中的币种重估](../general-ledger/currency-revaluation-consolidation-company.md)。
 
 
 

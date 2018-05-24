@@ -20,16 +20,16 @@ ms.search.industry: Manufacturing
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7af00d0c66f70aa41cfab0ffccef39ba4c115803
-ms.openlocfilehash: 4026fa937ddf88f006cdcd13a8eda10c326ada62
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 95e7f5179ac88c0cd6b2336a914c2c527d37d57f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/09/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="routes-and-operations"></a>工艺路线和工序
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题提供了有关工艺路线和工序的信息。 工艺路线定义生产产品或产品变型的流程。 它描述生产流程中的各步骤（工序）和这些步骤必须遵循的执行顺序。 对于每个步骤，工艺路线还定义所需工序资源、所需设置时间和运行时间，以及应如何计算成本。
 
@@ -123,7 +123,7 @@ ms.lasthandoff: 03/09/2018
 
 工序关系让您在定义工艺路线时可以灵活多变。 此外，由于可以定义默认属性，所以有助于减少必须维护的主数据。 但是，这种灵活也意味着您必须了解修改工序关系的环境。  
 
-**注意：**因为操作属性存储按照每个工艺路线的工序存储在工序关系中，所以同一道工序（如“装配”）的所有发生次数具有相同的设置时间、运行时间、资源要求等。 因此，如果一道工序的两个发生次数必须在同一个工艺路线中发生，但是具有不同的运行时间，您必须创建两个不同的工序，如“装配1”和“装配2”。
+**注意：** 因为操作属性存储按照每个工艺路线的工序存储在工序关系中，所以同一道工序（如“装配”）的所有发生次数具有相同的设置时间、运行时间、资源要求等。 因此，如果一道工序的两个发生次数必须在同一个工艺路线中发生，但是具有不同的运行时间，您必须创建两个不同的工序，如“装配1”和“装配2”。
 
 ### <a name="modifying-product-specific-routes"></a>修改产品特定的工艺路线
 
@@ -133,7 +133,7 @@ ms.lasthandoff: 03/09/2018
 
 还可以通过使用**复制和编辑关系**功能，手动创建特定于某个工艺路线和发布的产品的工序。  
 
-**注释：**如果在**工艺路线**页中向工艺路线添加新工序，将仅为当前发布的产品创建工序关系。 因此，如果也将此工艺路线用于生产发布的其他产品，则这些发布的产品无适用的工序关系，并且不再将该工艺路线用于这些发布的产品。
+**注释：** 如果在**工艺路线**页中向工艺路线添加新工序，将仅为当前发布的产品创建工序关系。 因此，如果也将此工艺路线用于生产发布的其他产品，则这些发布的产品无适用的工序关系，并且不再将该工艺路线用于这些发布的产品。
 
 ### <a name="maintaining-operation-relations-per-route"></a>按工艺路线维护工序关系
 
@@ -230,7 +230,7 @@ ms.lasthandoff: 03/09/2018
 -   **资源批次** – 此选项基本与**批次**选项相同。 但是，计算中包含工序资源中的**批次产能**。 因此，时间与资源相关。
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [物料清单和配方](bill-of-material-bom.md)

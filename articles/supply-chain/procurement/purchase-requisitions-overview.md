@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5d379b034c996cb0eff20a44960ba1e2701af81a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-requisition-overview"></a>采购申请概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题介绍了采购申请工作流和采购申请可能具有的不同状态。
 
@@ -157,7 +157,7 @@ ms.lasthandoff: 04/13/2018
 
 您可以通过选中**采购申请详细信息**页上的**暂停**复选框来将采购申请置于暂停状态。 处理采购申请只能在您通过清除此复选框删除暂停后继续。  
 
-**注意：**在电子采购中，您的采购申请的询价可能允许供应商添加备选行。 在此情况下，采购申请将反映已审核的备选项。
+**注意：** 在电子采购中，您的采购申请的询价可能允许供应商添加备选行。 在此情况下，采购申请将反映已审核的备选项。
 
 ## <a name="demand-consolidation"></a>需求合并
 通过合并来自多个采购申请的采购申请行，您可以增加与您的供应商协商的能力，以实现更好的定价、更低的装运和处理的费用，并降低开销成本。  
@@ -173,7 +173,7 @@ ms.lasthandoff: 04/13/2018
 
 在将申请行添加到合并机会并作出所需更改后，您可以为该合并采购申请行创建采购订单。  
 
-**注意：**您为在**采购申请合并**页中的某一采购申请行做出的更改反映在您创建的采购订单上。 但是在采购申请中，该行保持不变，以便保留其历史记录。  
+**注意：** 您为在**采购申请合并**页中的某一采购申请行做出的更改反映在您创建的采购订单上。 但是在采购申请中，该行保持不变，以便保留其历史记录。  
 
 若要为没有资格享受需求合并或没有为合并机会选择的采购申请行创建采购订单，您必须手动处理行。
 
@@ -192,7 +192,7 @@ ms.lasthandoff: 04/13/2018
 5.  创建合并机会中的合并申请行或采购申请行的采购订单。
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [创建消耗量申请（任务指南）](tasks/create-requisition-consumption.md)

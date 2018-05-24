@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1c7209c91f3821a77e9b127d767c78df403ff6cc
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 475470fa87455e187e0a93148046cb1df634da1f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 本文介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。
 
@@ -75,14 +75,14 @@ ms.lasthandoff: 11/03/2017
 
 订单被确认后，不能再将其删除。 但是，您可以取消总数量或订单上的任何剩余数量，前提是尚未收到该数量或未对该数量开票。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [采购订单概览](purchase-order-overview.md)
 
 [采购订单创建](purchase-order-creation.md)
 
-[采购订单的产品收据](product-receipt-against-purchase-orders.md)
+[针对采购订单的物料收货](product-receipt-against-purchase-orders.md)
 
 [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
 

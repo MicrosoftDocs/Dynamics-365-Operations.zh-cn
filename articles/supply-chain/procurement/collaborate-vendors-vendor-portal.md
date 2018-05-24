@@ -19,16 +19,16 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 25dd62081e4a6e196bffaa6cc72ff40ed68c736c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>通过使用供应商门户与供应商协作
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题说明在采购订单确认流程中采购代理如何使用供应商门户来与外部供应商协作。 此信息仅适用于 Dynamics AX 2016 年 2 月 &amp; 2016 年 5 月版本。
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 04/13/2018
 ## <a name="po-confirmation-and-rejection"></a>PO 确认和拒绝
 PO 在 Dynamics AX 中准备。 在您具有状态为**已审核**的 PO 时，您通过生成确认请求将其发送到供应商。 如果您希望供应商注意新的 PO，也可以使用打印管理系统通过电子邮件发送 PO。 PO 出现在供应商门户中，并包括供应商可用于确认或拒绝的选项。 供应商还可以添加注释来沟通信息，如对 PO 的更改。  
 
-在供应商门户中，供应商可以看到订单行。 这些行包含诸如外部产品编号、维度、价格信息、数量、交货日期和交货地址等信息。 供应商可以生成报告来显示 PO 信息以及总价。 如果供应商单击标题或行上的**费用**按钮，与供应商相关的费用将显示。 供应商可以使用**“导出至 Excel”**功能将 PO 信息导入到他们自己的系统。  
+在供应商门户中，供应商可以看到订单行。 这些行包含诸如外部产品编号、维度、价格信息、数量、交货日期和交货地址等信息。 供应商可以生成报告来显示 PO 信息以及总价。 如果供应商单击标题或行上的**费用**按钮，与供应商相关的费用将显示。 供应商可以使用**导出至 Excel**功能将 PO 信息导入到他们自己的系统。  
 
 下表将展示典型的信息交换，具体取决于您向他们发送要确认的 PO 时供应商如何响应。
 
@@ -75,7 +75,7 @@ PO 在 Dynamics AX 中准备。 在您具有状态为**已审核**的 PO 时，�
 
 供应商不必在供应商门户中确认 PO。 它们还可通过其他渠道发送电子邮件或传达对 PO 的接受。 然后您可以在 Dynamics AX 中手动确认该订单。 在这种情况下，您将收到警告——该订单正在确认，即使没有供应商响应。 PO 然后将在供应商门户中的确认历史记录中显示为没有任何响应的未结已确认订单。 此外，供应商将不能再选择确认或拒绝 PO。  
 
-**注意：**对 Dynamics AX 中的其他流程可用的 PO 版本始终是最新版本，即使该版本尚未登记。
+**注意：** 对 Dynamics AX 中的其他流程可用的 PO 版本始终是最新版本，即使该版本尚未登记。
 
 ### <a name="change-management"></a>更改管理
 
@@ -96,7 +96,7 @@ PO 在 Dynamics AX 中准备。 在您具有状态为**已审核**的 PO 时，�
 |                           您将 PO 的新版本发送到供应商门户。                            |                                                                                                                                                                    供应商门户上注册了新版本，状态更改为<strong>正在进行外部审查</strong>。                                                                                                                                                                     |
 |                                供应商批准了 PO 的新版本。                                 |                                                                                                                                                     状态将自动更改为<strong>已确认</strong>，或者在您收到供应商响应并确认 PO 时更改为“已确认”。                                                                                                                                                     |
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [为供应商协作用户配置安全性](configure-security-vendor-portal-users.md)

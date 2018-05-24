@@ -19,16 +19,16 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0164d64b8c37c19a3b8b13970dbda5927073eca8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d1ee87dbe9dab089a893d9c69d2573a4c4b11b58
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-and-export-field-descriptions"></a>查看和导出字段描述
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍了如何查看字段描述以及如何使用字段描述页导出描述。
 
@@ -97,7 +97,7 @@ Microsoft Dynamics 365 for Finance and Operations 具有某些较为复杂的字
 
 有关查找页面的各种方式的信息，请参阅本文先前部分的“搜索页面”部分。 如果已键入了页的精确名称，但是多页同名，可能不显示字段描述。 单击**选择页面**字段中的箭头打开筛选后的可用页列表。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [自定义字段帮助](../../dev-itpro/user-interface/customize-field-help.md)

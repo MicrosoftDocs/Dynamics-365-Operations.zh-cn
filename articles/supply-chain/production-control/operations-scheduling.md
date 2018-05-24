@@ -20,16 +20,16 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 81dec9d988b22959df5421b7b84ef532a28e1228
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 660d6b2dfb5fbed58a5c28b77aac3bb4604c7d8d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="operations-scheduling"></a>工序级排产
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题提供了有关工序级排产的信息。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 11/03/2017
 -   将开始和结束生产的日期
 -   执行生产活动的资源的产能预留
 
-为生产中的工序设置设置时间、处理时间和运行时间。 在运行工序级排产后，生产订单的状态为“**已排产**”，并且所有工序都按生产工艺路线中指定的顺序排产。 但是，只考虑工序的持续时间。 未计划开始时间和结束时间。
+为生产中的工序设置设置时间、处理时间和运行时间。 在运行工序级排产后，生产订单的状态为**已排产**，并且所有工序都按生产工艺路线中指定的顺序排产。 但是，只考虑工序的持续时间。 未计划开始时间和结束时间。
 
 ## <a name="scheduling-direction-and-date"></a>计划编制说明和日期
 计划编制说明对计划编制进程至关重要。 生产将根据时间和计划编制的要求，从任意日期正推或倒推。
@@ -75,7 +75,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="finite-materials"></a>有限物料
 如果您使用有限物料，该排产还取决于生产所需物料的可用性。 如果可用组件无法满足生产，生成可能延误。 您可以根据指定必须可用于生产的物料的使用编制计划。 在您对资源产能和物料的可用性同时进行优化生产时，根据这些限制计算生产。 在产能和物料按所需数量同时可用前，生产订单不能计划开始。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [工序级排产选项](operation-scheduling-options.md)

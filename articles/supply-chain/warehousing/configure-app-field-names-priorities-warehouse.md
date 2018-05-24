@@ -20,20 +20,20 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2fbf9d84fa0fec32004936542003115cf580d91c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d029481d31a0064a193e2cb9eeaf79df28bfa159
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-app-field-names-in-warehousing-app"></a>配置 Warehousing 应用程序中的应用程序字段名
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题介绍如何在 Dynamics 365 for Finance and Operations 中定义和配置仓库应用程序字段名和优先级。 
 
-**注意：**本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 Finance and Operations - Warehousing 是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 此主题说明如何在 Finance and Operations - Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。 有关如何配置与 Finance and Operations - Warehousing 之间的连接的详细信息，请参阅教程 [安装和配置 Finance and Operations - Warehousing](install-configure-warehousing-app.md)。
+**注意：** 本主题适用于仓库管理中的功能。 它不适用于库存管理中的功能。 Finance and Operations - Warehousing 是可用于执行仓库任务的应用程序。 可定义和配置此应用程序中使用的字段名，以及配置应该为字段名分配的优先级。 此主题说明如何在 Finance and Operations - Warehousing 中定义、配置和使用这些仓库应用程序字段名和优先级。 有关如何配置与 Finance and Operations - Warehousing 之间的连接的详细信息，请参阅教程 [安装和配置 Finance and Operations - Warehousing](install-configure-warehousing-app.md)。
 
 ## <a name="configure-warehouse-app-field-names"></a>配置仓库应用程序字段名
 
@@ -140,7 +140,7 @@ ms.lasthandoff: 11/03/2017
 
 其余元数据（如位置）将不在任务页面中显示，但是将在详细信息页面中显示。 若要详细了解和查看用户界面的示例，请参阅博客文章 [介绍 Finance and Operations - Warehousing](https://blogs.msdn.microsoft.com/dynamicsaxscm/2017/01/20/announcing-dynamics-365-for-operations-warehousing/)。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing](install-configure-warehousing-app.md)
