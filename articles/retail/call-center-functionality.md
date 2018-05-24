@@ -3,7 +3,7 @@ title: "呼叫中心功能"
 description: "本主题提供 Microsoft Dynamics 365 for Retail 中呼叫中心销售功能的概览。"
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 04/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -20,35 +20,44 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: dd35e895cdfe402b9d22e710c7b0166eadf412ff
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="call-center-functionality"></a><span data-ttu-id="b4107-103">呼叫中心功能</span><span class="sxs-lookup"><span data-stu-id="b4107-103">Call center functionality</span></span>
+# <a name="call-center"></a><span data-ttu-id="7eabf-103">呼叫中心</span><span class="sxs-lookup"><span data-stu-id="7eabf-103">Call center</span></span> 
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
-<span data-ttu-id="b4107-104">本文提供 Microsoft Dynamics 365 for Retail 中呼叫中心销售功能的概览。</span><span class="sxs-lookup"><span data-stu-id="b4107-104">This article provides an overview of the call center sales functionality in Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="7eabf-104">在 Dynamics 365 for Retail 中，呼叫中心是一种可在应用程序中定义的零售渠道。</span><span class="sxs-lookup"><span data-stu-id="7eabf-104">In Dynamics 365 for Retail, a call center is a type of Retail channel that can be defined in the application.</span></span> <span data-ttu-id="7eabf-105">通过为呼叫中心实体定义特定渠道，可以让系统将特定数据默认值和订单处理默认值与呼叫中心渠道用户创建的销售订单绑定。</span><span class="sxs-lookup"><span data-stu-id="7eabf-105">Defining a specific channel for your call center entities allows the system to tie specific data defaults and order processing defaults to sales orders created by a user of the call center channel.</span></span>
 
-<span data-ttu-id="b4107-105">Dynamics 365 for Retail 支持电话中心作为一类零售渠道。</span><span class="sxs-lookup"><span data-stu-id="b4107-105">Dynamics 365 for Retail supports call centers as a type of retail channel.</span></span> <span data-ttu-id="b4107-106">在呼叫中心，工作人员通过电话接收客户的订单并创建销售订单。</span><span class="sxs-lookup"><span data-stu-id="b4107-106">In a call center, workers take orders from customers over the phone and create sales orders.</span></span> <span data-ttu-id="b4107-107">呼叫中心功能包括旨在简化接收电话订单并通过订单填写流程处理客户服务。</span><span class="sxs-lookup"><span data-stu-id="b4107-107">Call center functionality includes features that are designed to make it easier to take phone orders and handle customer service throughout the order fulfillment process.</span></span> <span data-ttu-id="b4107-108">例如，呼叫中心员工可直接将付款信息输入到销售订单，并可以在提交订单前查看费用和付款的详细摘要。</span><span class="sxs-lookup"><span data-stu-id="b4107-108">For example, call center workers can enter payment information directly into the sales order, and can view a detailed summary of charges and payments before they submit the order.</span></span> <span data-ttu-id="b4107-109">工作人员还可以控制定价，以及在**“销售订单”**页中访问有关客户、产品和价格的各种数据。</span><span class="sxs-lookup"><span data-stu-id="b4107-109">Workers also have options for controlling pricing, and can access various data about customers, products, and prices from the **Sales order** page.</span></span> <span data-ttu-id="b4107-110">此外，呼叫中心也增强了跟踪客户历史记录和订单状态的功能。</span><span class="sxs-lookup"><span data-stu-id="b4107-110">Additionally, call centers have enhanced functionality for tracking customer history and order status.</span></span> <span data-ttu-id="b4107-111">每个呼叫中心可以拥有自己的用户、付款方式、价格组、财务维度和交货方式。</span><span class="sxs-lookup"><span data-stu-id="b4107-111">Each call center can have its own users, payment methods, price groups, financial dimensions, and modes of delivery.</span></span> <span data-ttu-id="b4107-112">当您创建呼叫中心时，可以配置这些选项。</span><span class="sxs-lookup"><span data-stu-id="b4107-112">You can configure these options when you create the call center.</span></span> <span data-ttu-id="b4107-113">此外，您还可以使用**“呼叫中心”**页来启用或禁用对呼叫中心唯一的以下功能组：</span><span class="sxs-lookup"><span data-stu-id="b4107-113">Additionally, you can use the **Call center** page to enable or disable the following groups of features that are unique to call centers:</span></span>
+<span data-ttu-id="7eabf-106">呼叫中心功能包括高级零售价和促销、目录、礼品卡、会员计划，以及优惠券。</span><span class="sxs-lookup"><span data-stu-id="7eabf-106">Call center features include advanced retail price and promotions, catalogs, gift cards, loyalty programs, and coupons.</span></span> <span data-ttu-id="7eabf-107">销售点 (POS) 应用程序也可以利用呼叫中心订单为跨渠道订单履行方案提供支持。</span><span class="sxs-lookup"><span data-stu-id="7eabf-107">Call center orders are also leveraged by the point of sale (POS) application to support cross-channel order fulfillment scenarios.</span></span>
 
--   <span data-ttu-id="b4107-114">**订单完成** - 此组包括与**“销售订单”**页上的付款和订单完成相关的功能。</span><span class="sxs-lookup"><span data-stu-id="b4107-114">**Order completion** – This group includes features that are related to payments and order completion on the **Sales order** page.</span></span>
--   <span data-ttu-id="b4107-115">**直接销售** - 此组包括与源代码、脚本和目录请求相关的功能。</span><span class="sxs-lookup"><span data-stu-id="b4107-115">**Directed selling** – This group includes features that are related to source codes, scripts, and catalog requests.</span></span>
+<span data-ttu-id="7eabf-108">请务必注意，虽然呼叫中心模块可以在零售外部供其他行业利用，但是尚未针对企业到企业 (B2B) 订单处理方案或订单有大量销售行的方案中的使用优化 Dynamics 365 for Retail 呼叫中心应用程序的当前版本。</span><span class="sxs-lookup"><span data-stu-id="7eabf-108">It's important to note that while the call center module can be utilized by other industries outside of Retail, the current release of the Dynamics 365 for Retail call center application hasn't been optimized for use in business-to-business (B2B) order processing scenarios, or scenarios where orders have a large amount of sales lines.</span></span> <span data-ttu-id="7eabf-109">建议除了直接面向消费者的典型交易记录处理之外，还希望利用呼叫中心功能处理订单的用户花费足够时间测试和验证启用呼叫中心功能是否可以满足功能需求和性能需求。</span><span class="sxs-lookup"><span data-stu-id="7eabf-109">It's recommended that users who want to utilize the call center features for order processing outside of typical direct-to-consumer transaction processing, take adequate time to test and validate that enabling call center functionality will meet functional and performance needs.</span></span>
 
-<span data-ttu-id="b4107-116">在呼叫中心设置中启用这些功能后，与呼叫中心关联的用户便可以在**“销售订单”**页上使用它们。</span><span class="sxs-lookup"><span data-stu-id="b4107-116">After you enable these features in the call center settings, they are available on the **Sales order** page to users who are associated with the call center.</span></span> <span data-ttu-id="b4107-117">在可以使用这些功能之前，大多数功能都需要进行其他设置。</span><span class="sxs-lookup"><span data-stu-id="b4107-117">Most of these features require additional setup before they can be used.</span></span> <span data-ttu-id="b4107-118">您必须先将这些用户作为呼叫中心用户添加到呼叫中心，然后这些用户才能创建呼叫中心订单。</span><span class="sxs-lookup"><span data-stu-id="b4107-118">Before users can create call center orders, you must add those users to the call center as call center users.</span></span> <span data-ttu-id="b4107-119">此步骤将启用呼叫中心渠道特定配置和功能。</span><span class="sxs-lookup"><span data-stu-id="b4107-119">This step enables the call center channel-specific configuration and functionality.</span></span> <span data-ttu-id="b4107-120">下面是变得可用的功能的一些示例：</span><span class="sxs-lookup"><span data-stu-id="b4107-120">Here are some examples of the functionality that becomes available:</span></span>
+<span data-ttu-id="7eabf-110">除了支持创建订单，呼叫中心模块还提供易用的客户服务应用程序，因此用户可以更轻松地找到客户帐户和查看所有相关客户订单和属性。</span><span class="sxs-lookup"><span data-stu-id="7eabf-110">In addition to supporting order creation, the call center module also provides a user-friendly customer service application that makes it easier for users to locate customer accounts and review all of the related customer order data and attributes.</span></span> <span data-ttu-id="7eabf-111">此客户服务屏幕旨在让用户快速访问与订单有关的数据，从而让他们可以快速回答从客户处收到且与订单有关的最常见问题。</span><span class="sxs-lookup"><span data-stu-id="7eabf-111">The customer service screen is designed to enable a user to quickly access order related data that will allow them to answer the most common order-related questions received from customers.</span></span>
 
--   <span data-ttu-id="b4107-121">引导式销售为远程销售脚本和产品图像提供了配置选项，以便在销售员接受订单时为其提供帮助和指导。</span><span class="sxs-lookup"><span data-stu-id="b4107-121">Guided selling provides configuration options for tele-sales scripts and product images to help and guide sales clerks while they take orders.</span></span>
--   <span data-ttu-id="b4107-122">订单在销售员捕获至少一种付款方式后才能完成。</span><span class="sxs-lookup"><span data-stu-id="b4107-122">Orders can't be completed until sales clerks have captured at least one payment method.</span></span>
--   <span data-ttu-id="b4107-123">可配置追加销售和交叉销售规则来提示销售员将特定产品推销给客户。</span><span class="sxs-lookup"><span data-stu-id="b4107-123">Upsell and cross-sell rules can be configured to prompt sales clerks to promote specific products to the customer.</span></span>
--   <span data-ttu-id="b4107-124">销售员可为客户正在从中订购产品的目录捕获源代码。</span><span class="sxs-lookup"><span data-stu-id="b4107-124">Sales clerks can capture the source code for the catalog that a customer is ordering from.</span></span>
--   <span data-ttu-id="b4107-125">销售员可将零售商添加优惠券到订单。</span><span class="sxs-lookup"><span data-stu-id="b4107-125">Sales clerks can add a retailer's coupons to the order.</span></span>
--   <span data-ttu-id="b4107-126">销售员可销售连续性计划。</span><span class="sxs-lookup"><span data-stu-id="b4107-126">Sales clerks can sell continuity programs.</span></span>
--   <span data-ttu-id="b4107-127">可以手动或自动暂停订单，以指示需要先进行额外调查才能处理订单。</span><span class="sxs-lookup"><span data-stu-id="b4107-127">Orders can be put on hold manually or automatically, to indicate that additional investigation is required before the order can be processed.</span></span>
+<span data-ttu-id="7eabf-112">此页提供指向与设置、配置和功能性使用 Dynamics 365 for Retail 中的呼叫中心功能有关的相关文档的链接。</span><span class="sxs-lookup"><span data-stu-id="7eabf-112">This page provides links to relevant documentation related to the setup, configuration, and functional use of the call center features in Dynamics 365 for Retail.</span></span>
 
+## <a name="configure-the-call-center"></a><span data-ttu-id="7eabf-113">配置呼叫中心</span><span class="sxs-lookup"><span data-stu-id="7eabf-113">Configure the call center</span></span>
+[<span data-ttu-id="7eabf-114">设置订单处理选项</span><span class="sxs-lookup"><span data-stu-id="7eabf-114">Set up order processing options</span></span>](set-up-order-processing-options.md)
 
+## <a name="configure-order-processing"></a><span data-ttu-id="7eabf-115">配置订单处理</span><span class="sxs-lookup"><span data-stu-id="7eabf-115">Configure order processing</span></span>
+<span data-ttu-id="7eabf-116">[设置欺诈预警](set-up-fraud-alerts.md)
+[手动保留订单](work-with-order-holds.md)</span><span class="sxs-lookup"><span data-stu-id="7eabf-116">[Set up fraud alerts](set-up-fraud-alerts.md)
+[Manual Order Holds](work-with-order-holds.md)</span></span>
 
+## <a name="configure-payment-processing"></a><span data-ttu-id="7eabf-117">配置付款处理</span><span class="sxs-lookup"><span data-stu-id="7eabf-117">Configure payment processing</span></span>
+[<span data-ttu-id="7eabf-118">呼叫中心内的付款方法</span><span class="sxs-lookup"><span data-stu-id="7eabf-118">Payment methods in a call center</span></span>](work-with-payments.md)
+
+## <a name="configure-direct-marketing"></a><span data-ttu-id="7eabf-119">配置直接营销</span><span class="sxs-lookup"><span data-stu-id="7eabf-119">Configure direct marketing</span></span>
+[<span data-ttu-id="7eabf-120">呼叫中心目录</span><span class="sxs-lookup"><span data-stu-id="7eabf-120">Call center catalogs</span></span>](call-center-catalogs.md)
+
+[<span data-ttu-id="7eabf-121">设置 RFM 分析</span><span class="sxs-lookup"><span data-stu-id="7eabf-121">Set up RFM analysis</span></span>](set-up-rfm-analysis.md)
+
+## <a name="configure-continuity-programs"></a><span data-ttu-id="7eabf-122">配置连续性计划</span><span class="sxs-lookup"><span data-stu-id="7eabf-122">Configure continuity programs</span></span>
+[<span data-ttu-id="7eabf-123">设置呼叫中心的连续性计划</span><span class="sxs-lookup"><span data-stu-id="7eabf-123">Set up a continuity program for a call center</span></span>](set-up-continuity-program.md)
 
 

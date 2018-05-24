@@ -19,23 +19,23 @@ ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 273beb0acef51059b40f9842062ed4dbba770160
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6bebe9ce83c4b979ffbb7c86ef67ad03a650e0c2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="audit-policy-rules"></a><span data-ttu-id="479e7-106">审计策略规则</span><span class="sxs-lookup"><span data-stu-id="479e7-106">Audit policy rules</span></span>
+# <a name="audit-policy-rules"></a><span data-ttu-id="bc02a-106">审计策略规则</span><span class="sxs-lookup"><span data-stu-id="bc02a-106">Audit policy rules</span></span>
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="479e7-107">您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。</span><span class="sxs-lookup"><span data-stu-id="479e7-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="479e7-108">根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。</span><span class="sxs-lookup"><span data-stu-id="479e7-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="479e7-109">每个策略过账都是某个策略规则类型的实例。</span><span class="sxs-lookup"><span data-stu-id="479e7-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="479e7-110">对于每个策略规则类型，一次仅有一个策略规则可以有效。</span><span class="sxs-lookup"><span data-stu-id="479e7-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
+<span data-ttu-id="bc02a-107">您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。</span><span class="sxs-lookup"><span data-stu-id="bc02a-107">You can use audit policies to evaluate expense reports, vendor invoices, and purchase orders to make sure that they comply with policy rules that you create.</span></span> <span data-ttu-id="bc02a-108">根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。</span><span class="sxs-lookup"><span data-stu-id="bc02a-108">All of the rules that are associated with an audit policy are run in batch mode, according to a schedule that you specify.</span></span>  <span data-ttu-id="bc02a-109">每个策略过账都是某个策略规则类型的实例。</span><span class="sxs-lookup"><span data-stu-id="bc02a-109">Each policy rule is an instance of a policy rule type.</span></span> <span data-ttu-id="bc02a-110">对于每个策略规则类型，一次仅有一个策略规则可以有效。</span><span class="sxs-lookup"><span data-stu-id="bc02a-110">For each policy rule type, only one policy rule can be active at a time.</span></span> 
 
-<a name="queries-and-query-types"></a><span data-ttu-id="479e7-111">查询和查询类型</span><span class="sxs-lookup"><span data-stu-id="479e7-111">Queries and query types</span></span>
+<a name="queries-and-query-types"></a><span data-ttu-id="bc02a-111">查询和查询类型</span><span class="sxs-lookup"><span data-stu-id="bc02a-111">Queries and query types</span></span>
 -----------------------
 
-<span data-ttu-id="479e7-112">当您创建了审核策略规则时，您要首先选择一个策略规则类型。</span><span class="sxs-lookup"><span data-stu-id="479e7-112">When you create an audit policy rule, you first select a policy rule type.</span></span> <span data-ttu-id="479e7-113">该策略规则类型指定 Application Object Tree (AOT) 查询用作创建策略规则的起点。</span><span class="sxs-lookup"><span data-stu-id="479e7-113">The policy rule type specifies the Application Object Tree (AOT) query to use as the starting point for creating the policy rule.</span></span> <span data-ttu-id="479e7-114">它还指定用于策略规则的查询类型。</span><span class="sxs-lookup"><span data-stu-id="479e7-114">It also specifies the query type to use for the policy rule.</span></span> <span data-ttu-id="479e7-115">该查询确定了策略规则进行评估的原始凭证。</span><span class="sxs-lookup"><span data-stu-id="479e7-115">The query determines the source document that the policy rule evaluates.</span></span> <span data-ttu-id="479e7-116">它还指定了原始凭证中选择文件供审核时使用的标识法人和日期的字段。</span><span class="sxs-lookup"><span data-stu-id="479e7-116">It also specifies the fields in the source document that identify both the legal entity and the date to use when documents are selected for audit.</span></span> <span data-ttu-id="479e7-117">查询类型控制查询页和“审计策略规则”页中的默认字段。</span><span class="sxs-lookup"><span data-stu-id="479e7-117">The query type controls the default fields in the query page and in the Audit policy rule page.</span></span> <span data-ttu-id="479e7-118">下表显示了对审核策略规则可用的查询类型。</span><span class="sxs-lookup"><span data-stu-id="479e7-118">The following table shows the query types that are available for audit policy rules.</span></span>
+<span data-ttu-id="bc02a-112">当您创建了审核策略规则时，您要首先选择一个策略规则类型。</span><span class="sxs-lookup"><span data-stu-id="bc02a-112">When you create an audit policy rule, you first select a policy rule type.</span></span> <span data-ttu-id="bc02a-113">该策略规则类型指定 Application Object Tree (AOT) 查询用作创建策略规则的起点。</span><span class="sxs-lookup"><span data-stu-id="bc02a-113">The policy rule type specifies the Application Object Tree (AOT) query to use as the starting point for creating the policy rule.</span></span> <span data-ttu-id="bc02a-114">它还指定用于策略规则的查询类型。</span><span class="sxs-lookup"><span data-stu-id="bc02a-114">It also specifies the query type to use for the policy rule.</span></span> <span data-ttu-id="bc02a-115">该查询确定了策略规则进行评估的原始凭证。</span><span class="sxs-lookup"><span data-stu-id="bc02a-115">The query determines the source document that the policy rule evaluates.</span></span> <span data-ttu-id="bc02a-116">它还指定了原始凭证中选择文件供审核时使用的标识法人和日期的字段。</span><span class="sxs-lookup"><span data-stu-id="bc02a-116">It also specifies the fields in the source document that identify both the legal entity and the date to use when documents are selected for audit.</span></span> <span data-ttu-id="bc02a-117">查询类型控制查询页和“审计策略规则”页中的默认字段。</span><span class="sxs-lookup"><span data-stu-id="bc02a-117">The query type controls the default fields in the query page and in the Audit policy rule page.</span></span> <span data-ttu-id="bc02a-118">下表显示了对审核策略规则可用的查询类型。</span><span class="sxs-lookup"><span data-stu-id="bc02a-118">The following table shows the query types that are available for audit policy rules.</span></span>
 
 <table>
 <colgroup>
@@ -45,61 +45,61 @@ ms.lasthandoff: 04/13/2018
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="479e7-119">查询类型</span><span class="sxs-lookup"><span data-stu-id="479e7-119">Query type</span></span></th>
-<th><span data-ttu-id="479e7-120">用途</span><span class="sxs-lookup"><span data-stu-id="479e7-120">Purpose</span></span></th>
-<th><span data-ttu-id="479e7-121">更多信息</span><span class="sxs-lookup"><span data-stu-id="479e7-121">More information</span></span></th>
+<th><span data-ttu-id="bc02a-119">查询类型</span><span class="sxs-lookup"><span data-stu-id="bc02a-119">Query type</span></span></th>
+<th><span data-ttu-id="bc02a-120">用途</span><span class="sxs-lookup"><span data-stu-id="bc02a-120">Purpose</span></span></th>
+<th><span data-ttu-id="bc02a-121">更多信息</span><span class="sxs-lookup"><span data-stu-id="bc02a-121">More information</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="479e7-122">条件</span><span class="sxs-lookup"><span data-stu-id="479e7-122">Conditional</span></span></td>
-<td><span data-ttu-id="479e7-123">根据指定值评估原始凭证属性。</span><span class="sxs-lookup"><span data-stu-id="479e7-123">Evaluate source document attributes against specified values.</span></span></td>
+<td><span data-ttu-id="bc02a-122">条件</span><span class="sxs-lookup"><span data-stu-id="bc02a-122">Conditional</span></span></td>
+<td><span data-ttu-id="bc02a-123">根据指定值评估原始凭证属性。</span><span class="sxs-lookup"><span data-stu-id="bc02a-123">Evaluate source document attributes against specified values.</span></span></td>
 <td></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="479e7-124">聚合</span><span class="sxs-lookup"><span data-stu-id="479e7-124">Aggregate</span></span></td>
-<td><span data-ttu-id="479e7-125">根据聚合数值策略规则评估多个原始凭证或原始凭证行。</span><span class="sxs-lookup"><span data-stu-id="479e7-125">Evaluate multiple source documents or source document lines against a policy rule by aggregating numeric values.</span></span></td>
+<td><span data-ttu-id="bc02a-124">聚合</span><span class="sxs-lookup"><span data-stu-id="bc02a-124">Aggregate</span></span></td>
+<td><span data-ttu-id="bc02a-125">根据聚合数值策略规则评估多个原始凭证或原始凭证行。</span><span class="sxs-lookup"><span data-stu-id="bc02a-125">Evaluate multiple source documents or source document lines against a policy rule by aggregating numeric values.</span></span></td>
 <td></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="479e7-126">抽样</span><span class="sxs-lookup"><span data-stu-id="479e7-126">Sampling</span></span></td>
-<td><span data-ttu-id="479e7-127">随机选择原始凭证的指定百分比来评估策略违规情况。</span><span class="sxs-lookup"><span data-stu-id="479e7-127">Randomly select a specified percentage of the source documents to evaluate for policy violations.</span></span></td>
-<td><span data-ttu-id="479e7-128">当您选择此选项时，使用“审计策略规则”页指定随机选择供审核凭证的百分比。</span><span class="sxs-lookup"><span data-stu-id="479e7-128">When you select this option, use the Audit policy rule page to specify the percentage of documents to randomly select for audit.</span></span></td>
+<td><span data-ttu-id="bc02a-126">抽样</span><span class="sxs-lookup"><span data-stu-id="bc02a-126">Sampling</span></span></td>
+<td><span data-ttu-id="bc02a-127">随机选择原始凭证的指定百分比来评估策略违规情况。</span><span class="sxs-lookup"><span data-stu-id="bc02a-127">Randomly select a specified percentage of the source documents to evaluate for policy violations.</span></span></td>
+<td><span data-ttu-id="bc02a-128">当您选择此选项时，使用“审计策略规则”页指定随机选择供审核凭证的百分比。</span><span class="sxs-lookup"><span data-stu-id="bc02a-128">When you select this option, use the Audit policy rule page to specify the percentage of documents to randomly select for audit.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="479e7-129">复制</span><span class="sxs-lookup"><span data-stu-id="479e7-129">Duplicate</span></span></td>
-<td><span data-ttu-id="479e7-130">评估原始凭证以确定是否在指定的字段中包含重复的条目。</span><span class="sxs-lookup"><span data-stu-id="479e7-130">Evaluate source documents to determine whether they contain duplicate entries in specified fields.</span></span></td>
-<td><span data-ttu-id="479e7-131">当您选择此选项时，使用“审计策略规则”页指定针对重复条目对凭证进行评估时要添加到凭证选择日期范围的天数。</span><span class="sxs-lookup"><span data-stu-id="479e7-131">When you select this option, use the Audit policy rule page to specify the number of days to add to the start of the document selection date range when documents are evaluated for duplicate entries.</span></span></td>
+<td><span data-ttu-id="bc02a-129">复制</span><span class="sxs-lookup"><span data-stu-id="bc02a-129">Duplicate</span></span></td>
+<td><span data-ttu-id="bc02a-130">评估原始凭证以确定是否在指定的字段中包含重复的条目。</span><span class="sxs-lookup"><span data-stu-id="bc02a-130">Evaluate source documents to determine whether they contain duplicate entries in specified fields.</span></span></td>
+<td><span data-ttu-id="bc02a-131">当您选择此选项时，使用“审计策略规则”页指定针对重复条目对凭证进行评估时要添加到凭证选择日期范围的天数。</span><span class="sxs-lookup"><span data-stu-id="bc02a-131">When you select this option, use the Audit policy rule page to specify the number of days to add to the start of the document selection date range when documents are evaluated for duplicate entries.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="479e7-132">列表搜索</span><span class="sxs-lookup"><span data-stu-id="479e7-132">List search</span></span></td>
-<td><span data-ttu-id="479e7-133">针对特定条目评估原始凭证。</span><span class="sxs-lookup"><span data-stu-id="479e7-133">Evaluate source documents for specific entities.</span></span></td>
-<td><span data-ttu-id="479e7-134">查询的根凭证定义了正被审核的凭证。</span><span class="sxs-lookup"><span data-stu-id="479e7-134">The root document of the query defines the document that is being audited.</span></span> <span data-ttu-id="479e7-135">查询必须是包括 Dirpartytable 表的参考的列表查询。</span><span class="sxs-lookup"><span data-stu-id="479e7-135">The query must be a list query that includes a reference to the dirpartytable table.</span></span> <span data-ttu-id="479e7-136">此选项只能与以下 AOT 查询一起使用：</span><span class="sxs-lookup"><span data-stu-id="479e7-136">This option can be used only with the following AOT queries:</span></span>
+<td><span data-ttu-id="bc02a-132">列表搜索</span><span class="sxs-lookup"><span data-stu-id="bc02a-132">List search</span></span></td>
+<td><span data-ttu-id="bc02a-133">针对特定条目评估原始凭证。</span><span class="sxs-lookup"><span data-stu-id="bc02a-133">Evaluate source documents for specific entities.</span></span></td>
+<td><span data-ttu-id="bc02a-134">查询的根凭证定义了正被审核的凭证。</span><span class="sxs-lookup"><span data-stu-id="bc02a-134">The root document of the query defines the document that is being audited.</span></span> <span data-ttu-id="bc02a-135">查询必须是包括 Dirpartytable 表的参考的列表查询。</span><span class="sxs-lookup"><span data-stu-id="bc02a-135">The query must be a list query that includes a reference to the dirpartytable table.</span></span> <span data-ttu-id="bc02a-136">此选项只能与以下 AOT 查询一起使用：</span><span class="sxs-lookup"><span data-stu-id="bc02a-136">This option can be used only with the following AOT queries:</span></span>
 <ul>
-<li><span data-ttu-id="479e7-137"><span class="ui">AuditPolicyExpenseList</span>（支出报表监控的员工）</span><span class="sxs-lookup"><span data-stu-id="479e7-137"><span class="ui">AuditPolicyExpenseList</span> (Expense report monitored employees)</span></span></li>
-<li><span data-ttu-id="479e7-138"><span class="ui">AuditPolicyPurchList</span>（采购订单监控的供应商）</span><span class="sxs-lookup"><span data-stu-id="479e7-138"><span class="ui">AuditPolicyPurchList</span> (Purchase order monitored vendors)</span></span></li>
-<li><span data-ttu-id="479e7-139"><span class="ui">AuditPolicyVendInvoiceList</span>（供应商发票监控的供应商）</span><span class="sxs-lookup"><span data-stu-id="479e7-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Vendor invoice monitored vendors)</span></span></li>
+<li><span data-ttu-id="bc02a-137"><span class="ui">AuditPolicyExpenseList</span>（支出报表监控的员工）</span><span class="sxs-lookup"><span data-stu-id="bc02a-137"><span class="ui">AuditPolicyExpenseList</span> (Expense report monitored employees)</span></span></li>
+<li><span data-ttu-id="bc02a-138"><span class="ui">AuditPolicyPurchList</span>（采购订单监控的供应商）</span><span class="sxs-lookup"><span data-stu-id="bc02a-138"><span class="ui">AuditPolicyPurchList</span> (Purchase order monitored vendors)</span></span></li>
+<li><span data-ttu-id="bc02a-139"><span class="ui">AuditPolicyVendInvoiceList</span>（供应商发票监控的供应商）</span><span class="sxs-lookup"><span data-stu-id="bc02a-139"><span class="ui">AuditPolicyVendInvoiceList</span> (Vendor invoice monitored vendors)</span></span></li>
 </ul>
-<span data-ttu-id="479e7-140">当您选择此选项时，在“审计策略规则”页中指定要监控的实体。</span><span class="sxs-lookup"><span data-stu-id="479e7-140">When you select this option, specify the monitored entities in the Audit policy rule page.</span></span></td>
+<span data-ttu-id="bc02a-140">当您选择此选项时，在“审计策略规则”页中指定要监控的实体。</span><span class="sxs-lookup"><span data-stu-id="bc02a-140">When you select this option, specify the monitored entities in the Audit policy rule page.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="479e7-141">关键字搜索</span><span class="sxs-lookup"><span data-stu-id="479e7-141">Keyword search</span></span></td>
-<td><span data-ttu-id="479e7-142">评估原始凭证以确定它们是否包含某些特定的单词。</span><span class="sxs-lookup"><span data-stu-id="479e7-142">Evaluate source documents to determine whether they contain certain words.</span></span></td>
-<td><span data-ttu-id="479e7-143">当您选择此选项时，在“审计策略规则”页中输入要查找的字词。</span><span class="sxs-lookup"><span data-stu-id="479e7-143">When you select this option, enter the words to look for in the Audit policy rule page.</span></span> <span data-ttu-id="479e7-144">“审计策略规则”页中也包含了选项让您指定表和字段用来评估您输入的单词。</span><span class="sxs-lookup"><span data-stu-id="479e7-144">The Audit policy rule page also includes options that let you specify the tables and fields to evaluate for the words you entered.</span></span></td>
+<td><span data-ttu-id="bc02a-141">关键字搜索</span><span class="sxs-lookup"><span data-stu-id="bc02a-141">Keyword search</span></span></td>
+<td><span data-ttu-id="bc02a-142">评估原始凭证以确定它们是否包含某些特定的单词。</span><span class="sxs-lookup"><span data-stu-id="bc02a-142">Evaluate source documents to determine whether they contain certain words.</span></span></td>
+<td><span data-ttu-id="bc02a-143">当您选择此选项时，在“审计策略规则”页中输入要查找的字词。</span><span class="sxs-lookup"><span data-stu-id="bc02a-143">When you select this option, enter the words to look for in the Audit policy rule page.</span></span> <span data-ttu-id="bc02a-144">“审计策略规则”页中也包含了选项让您指定表和字段用来评估您输入的单词。</span><span class="sxs-lookup"><span data-stu-id="bc02a-144">The Audit policy rule page also includes options that let you specify the tables and fields to evaluate for the words you entered.</span></span></td>
 </tr>
 </tbody>
 </table>
 
-## <a name="common-parameters"></a><span data-ttu-id="479e7-145">共同参数</span><span class="sxs-lookup"><span data-stu-id="479e7-145">Common parameters</span></span>
-<span data-ttu-id="479e7-146">某个特定审核策略的所有策略规则共享相同的批处理参数和相同的凭证选择日期范围。</span><span class="sxs-lookup"><span data-stu-id="479e7-146">All of the policy rules for a particular audit policy share the same batch parameters and the same document selection date range.</span></span> <span data-ttu-id="479e7-147">在“审计策略规则”页中为该策略指定这些参数。</span><span class="sxs-lookup"><span data-stu-id="479e7-147">These parameters are specified for the policy in the Additional options page.</span></span>
+## <a name="common-parameters"></a><span data-ttu-id="bc02a-145">共同参数</span><span class="sxs-lookup"><span data-stu-id="bc02a-145">Common parameters</span></span>
+<span data-ttu-id="bc02a-146">某个特定审核策略的所有策略规则共享相同的批处理参数和相同的凭证选择日期范围。</span><span class="sxs-lookup"><span data-stu-id="bc02a-146">All of the policy rules for a particular audit policy share the same batch parameters and the same document selection date range.</span></span> <span data-ttu-id="bc02a-147">在“审计策略规则”页中为该策略指定这些参数。</span><span class="sxs-lookup"><span data-stu-id="bc02a-147">These parameters are specified for the policy in the Additional options page.</span></span>
 
 
 
-<a name="see-also"></a><span data-ttu-id="479e7-148">请参阅</span><span class="sxs-lookup"><span data-stu-id="479e7-148">See also</span></span>
+<a name="additional-resources"></a><span data-ttu-id="bc02a-148">其他资源</span><span class="sxs-lookup"><span data-stu-id="bc02a-148">Additional resources</span></span>
 --------
 
-<span data-ttu-id="479e7-149">[审计政策违规记录和案例](audit-policy-violations-cases.md)
-[定义原始单据的审计策略](tasks/define-audit-policies-source-documents.md)</span><span class="sxs-lookup"><span data-stu-id="479e7-149">[Audit policy violations and cases](audit-policy-violations-cases.md)
+<span data-ttu-id="bc02a-149">[审计政策违规记录和案例](audit-policy-violations-cases.md)
+[定义原始单据的审计策略](tasks/define-audit-policies-source-documents.md)</span><span class="sxs-lookup"><span data-stu-id="bc02a-149">[Audit policy violations and cases](audit-policy-violations-cases.md)
 [Define audit policies for source documents](tasks/define-audit-policies-source-documents.md)</span></span>
 
 
