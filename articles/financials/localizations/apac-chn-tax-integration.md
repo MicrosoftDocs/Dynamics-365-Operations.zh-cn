@@ -19,16 +19,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a523ff097eedf9a4a2cb0341b3be9d05abfa09fa
-ms.openlocfilehash: 4e403f29c79286add175724b00803e54ceecdc3b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7f5a0049c1d32ab29ac8602bf32e9973eb923ce2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题描述配置中国的税务集成的流程。
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 01/23/2018
 下图是税务集成流程的示例。
 [![IC666469](./media/ic666469.gif)](./media/ic666469.gif)
 
-## <a name="see-also"></a>请参阅
+## <a name="additional-resources"></a>其他资源
 
 - [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)
 

@@ -20,16 +20,16 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0e0f9d81f4d5943a89d8ac87776e05acb32cb8d9
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 643d9a07681beeffe90f39e5a0dc5ed9ad71b097
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="partial-location-cycle-counting"></a>部分库位周期盘点
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 周期盘点计划指导实际盘点操作。 您可以要求仅盘点特定的产品和产品变型，无需对库位中的所有现有库存进行盘点。
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [周期盘点](cycle-counting.md)

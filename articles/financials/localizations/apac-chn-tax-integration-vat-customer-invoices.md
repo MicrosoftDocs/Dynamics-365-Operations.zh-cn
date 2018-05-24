@@ -18,16 +18,16 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1b8f3feb880e61c699a152441f63c8397f1d88ee
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3c4beb43bebc02dfbf806370f3c8bf9aec74c82f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a>增值税客户发票的中国税务集成修改常见问题
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 您可以生成增值税 (VAT) 客户发票，然后以文本文件导出。 接下来，您可以导入可与原始发票关联的增值税客户发票的参考编号。
 
@@ -59,7 +59,7 @@ ms.lasthandoff: 11/03/2017
 
 1. 在**电子申报**页中，选择**申报配置**以打开**配置**。
 2. 在树结构中，选择**金税(CN)**。
-3. 单击“设计器”****。 在树结构中的**导出的发票** &gt; **发票**下添加其他字段，然后保存 GER 模型。
+3. 单击**设计器**。 在树结构中的**导出的发票** &gt; **发票**下添加其他字段，然后保存 GER 模型。
 4. 单击**将模型映射到数据源**，然后选择**金税** &gt; **设计器**。
 5. 单击**保存**并返回到**配置**。
 6. 将添加的字段映射到表。 
@@ -79,7 +79,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [配置中国的税务集成](apac-chn-tax-integration.md)

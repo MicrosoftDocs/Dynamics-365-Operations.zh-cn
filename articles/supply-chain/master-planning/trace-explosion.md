@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f3891688542ac6d4f9afce026808c65992a592d4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2642ced283d815ad671512cc5a17e531e9169f91
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="use-tracing-for-explosion"></a>使用跟踪进行分解
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文说明如何可以使用跟踪来探索订单分解结果背后的原因。
 
@@ -40,9 +40,9 @@ ms.lasthandoff: 11/03/2017
 -   模拟计划结果以确定计划参数是否最佳。
 -   标识如何确定信息（如订单的生产日期、数量和优先级）。
 
-您可以查看有关所选订单的预期和操作的详细信息。 在**“分解”**页中，跟踪信息在上部窗格的**“说明”**选项卡中提供。 跟踪在分解订单时进行。 若要开始跟踪计划订单，请单击**“更新”**，然后选中**“启用跟踪功能”**复选框。 您可以使用**“查找文本”**字段搜索记录的特定信息。 搜索结果在树中突出显示。
+您可以查看有关所选订单的预期和操作的详细信息。 在**分解**页中，跟踪信息在上部窗格的**说明**选项卡中提供。 跟踪在分解订单时进行。 若要开始跟踪计划订单，请单击**更新**，然后选中**启用跟踪功能**复选框。 您可以使用**查找文本**字段搜索记录的特定信息。 搜索结果在树中突出显示。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [主计划](master-plans.md)

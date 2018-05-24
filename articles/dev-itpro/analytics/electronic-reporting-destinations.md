@@ -19,16 +19,16 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5c92c1ca3f46d80a58ca315f1f695f082d1929ca
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: fb7d0dc8b3ff9e8f1e4ade5cacfeed8f1a6871ab
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="electronic-reporting-destinations"></a>电子申报目标
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 您可以为每个电子申报 (ER) 格式配置和及其输出组件（文件夹或文件）配置目标。 被授予适当访问权限的用户还可以在运行时修改目标设置。 本文介绍 ER 目标管理，支持的目标类型，以及安全考虑。
 
@@ -51,7 +51,8 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 [![创建文件目标](./media/ger-destinations-1611-1024x586.jpg)](./media/ger-destinations-1611.jpg)
 
-> ![注意] 您可以为同一格式的每个输出组件创建一个文件目标，如在**文件名**字段中选择的文件夹或文件。 然后可以在**目标设置**对话框中单独启用和禁用文件目标的目标。 **设置**按钮用来控制所选文件目标的所有目标。 在**目标设置**对话框中，您可以通过设置目标的**已启用**选项来分别控制每个目标。
+> [!NOTE] 
+> 您可以为同一格式的每个输出组件创建一个文件目标，如在**文件名**字段中选择的文件夹或文件。 然后可以在**目标设置**对话框中单独启用和禁用文件目标的目标。 **设置**按钮用来控制所选文件目标的所有目标。 在**目标设置**对话框中，您可以通过设置目标的**已启用**选项来分别控制每个目标。
 
 [![“目标设置”对话框](./media/ger-destinations-settings-1611-1024x589.jpg)](./media/ger-destinations-settings-1611.jpg)
 
@@ -88,7 +89,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 [![分配电子邮件目标的电子邮件地址数据源](./media/ger-destinations-email-4-1611-1024x587.jpg)](./media/ger-destinations-email-4-1611.jpg) 
 
-**注意︰**简单邮件传输协议 (SMTP) 服务器必须配置并可用。 您可以在**系统管理** &gt; **设置** &gt; **电子邮件** &gt; **电子邮件参数**在 Finance and Operations 中指定 SMTP 服务器。
+**注意︰** 简单邮件传输协议 (SMTP) 服务器必须配置并可用。 您可以在**系统管理** &gt; **设置** &gt; **电子邮件** &gt; **电子邮件参数**在 Finance and Operations 中指定 SMTP 服务器。
 
 ### <a name="archive-destination"></a>归档目标
 
@@ -96,7 +97,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 [![文档类型页面](./media/ger_documenttypefile-1024x542.jpg)](./media/ger_documenttypefile.jpg) 
 
-位置确定文件保存的位置。 启用**存档**目标之后，可将配置的执行结果保存到作业存档中。 可以在**组织管理** &gt; **电子申报** &gt; **电子申报存档作业**中查看结果。 **注意：**可在 Finance and Operations 中的**组织管理** &gt; **工作区** &gt; **电子申报** &gt; **电子申报参数**中为作业存档选择票据类型。
+位置确定文件保存的位置。 启用**存档**目标之后，可将配置的执行结果保存到作业存档中。 可以在**组织管理** &gt; **电子申报** &gt; **电子申报存档作业**中查看结果。 **注意：** 可在 Finance and Operations 中的**组织管理** &gt; **工作区** &gt; **电子申报** &gt; **电子申报参数**中为作业存档选择票据类型。
 
 #### <a name="sharepoint"></a>SharePoint
 
@@ -118,7 +119,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 ### <a name="power-bi-destination"></a>Power BI 目标
 
-将**已启用**设置为**是**，以便使用您的 ER 配置安排数据从您的 Finance and Operations 实例转移至 Microsoft Power BI 服务。 转移的文件存储在必须为该目的而配置的 Microsoft SharePoint Server 实例上。 有关详细信息，请参阅 [使用电子申报配置为 Power BI 提供来自 Finance and Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)。 **提示：**要覆盖默认行为（即，配置的对话框），您可以创建主输出组件的目标引用和文件目标，然后禁用所有目标。
+将**已启用**设置为**是**，以便使用您的 ER 配置安排数据从您的 Finance and Operations 实例转移至 Microsoft Power BI 服务。 转移的文件存储在必须为该目的而配置的 Microsoft SharePoint Server 实例上。 有关详细信息，请参阅 [使用电子申报配置为 Power BI 提供来自 Finance and Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)。 **提示：** 要覆盖默认行为（即，配置的对话框），您可以创建主输出组件的目标引用和文件目标，然后禁用所有目标。
 
 ## <a name="security-considerations"></a>安全考虑
 两类权限和职责用于 ER 目标。 仅类型控制维护为法人配置的整体目标的功能（即，控制对**电子申报目标**页的访问）。 其他类型控制在运行时应用程序用户覆盖 ER 开发人员或 ER 功能顾问配置的目标设置的功能。
@@ -130,7 +131,8 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 | PaymAccountsPayablePaymentsClerk    | 应付账款付款员            | ERFormatDestinationRuntimeConfigure | 在运行时配置电子报告格式目标 |
 | PaymAccountsReceivablePaymentsClerk | 应收账款付款员         | ERFormatDestinationRuntimeConfigure | 在运行时配置电子报告格式目标 |
 
-> ![注意] 两个权限用于先前职责。 这些权限与对应职责具有相同名称：**ERFormatDestinationConfigure** 和 **ERFormatDestinationRuntimeConfigure**。
+> [!NOTE]
+> 两个权限用于先前职责。 这些权限与对应职责具有相同名称：**ERFormatDestinationConfigure** 和 **ERFormatDestinationRuntimeConfigure**。
 
 ## <a name="frequently-asked-questions"></a>常见问题
 ### <a name="i-have-imported-electronic-configurations-and-i-see-them-on-the-electronic-reporting-configurations-page-but-why-dont-i-see-them-on-the-electronic-reporting-destinations-page"></a>我已导入了电子配置，并在电子申报页看到了它们。 但为何我没在电子申报目标页看到它们？
@@ -151,9 +153,9 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 ### <a name="one-of-my-format-configurations-contains-multiple-files-that-are-group-into-one-folder-for-example-folder1-contains-file1-file2-and-file3-how-do-i-set-up-destinations-so-that-folder1zip-isnt-created-at-all-file1-is-sent-by-email-file2-is-sent-to-sharepoint-and-i-can-open-file3-immediately-after-the-configuration-is-run"></a>格式配置中的一个包含分组到一个文件夹的多个文件（例如，Folder1 包含 File1、File2 和 File3）。 我如何设置目标才能够不创建 Folder1.zip，通过电子邮件 File1，将 File2 发送到 SharePoint，且在配置运行后我可以立即打开 File3？
 
-先决条件是您的格式必须在 ER 配置中可用。 如果您有格式，打开**电子申报目标**页，创建此配置的一个新引用。 然后，您必须有四个文件目标，每个输出组件一个。 创建第一个文件目标，为其命名，如 **Folder**，并选择在您的配置中表示文件夹的文件名。 然后单击**设置**，并确保禁用所有目标。 对于此文件目标，将不创建文件夹。 默认情况下，由于文件和父文件夹之间的层次结果依赖性，文件将以相同方式运行。 换言之，它们不会被随处发送 若要覆盖默认行为，必须再创建三个文件目标，每个文件一个。 在每个目标的目标设置中，必须启用文件应发送到的目标。
+先决条件是您的格式必须在 ER 配置中可用。 如果您有格式，打开**电子申报目标**页，创建此配置的一个新引用。 然后，您必须有四个文件目标，每个输出组件一个。 创建第一个文件目标，为其命名，如 **Folder**，并选择在您的配置中表示文件夹的文件名。 然后单击**设置**，并确保禁用所有目标。 对于此文件目标，将不创建文件夹。 默认情况下，由于文件和父文件夹之间的层次结构依赖性，文件将以相同方式运行。 换言之，它们不会被随处发送 若要覆盖默认行为，必须再创建三个文件目标，每个文件一个。 在每个目标的目标设置中，必须启用文件应发送到的目标。
 
-## <a name="see-also"></a>请参阅
+## <a name="additional-resources"></a>其他资源
 
 [电子申报概览](general-electronic-reporting.md)
 

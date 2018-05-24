@@ -3,7 +3,7 @@ title: "自定义字段"
 description: "本主题介绍 Microsoft Dynamics 365 for Finance and Operations 如何允许用户创建自定义字段以根据业务调整应用程序。"
 author: jasongre
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 04/18/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -17,18 +17,18 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: 4420eeb249a4d1bdac203e32d017dcebbddf95c3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="custom-fields"></a>自定义字段
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [banner](../includes/pre-release.md)]
+[!include [banner](../includes/pre-release.md)]
 
 尽管 Microsoft Dynamics 365 for Finance and Operations 提供了大量的现成字段来管理各种业务流程，公司有时也需要跟踪系统中的更多信息。 为了满足这样的需要，Finance and Operations 允许用户创建自定义字段以根据业务调整应用程序，前提是该用户拥有此项功能的权限。 
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 03/23/2018
 8.   如果这是需要为此窗体创建的唯一字段，请单击 **保存**。 如果需要创建更多字段，请单击**保存并新建**，然后返回到步骤 7。 请注意，目前存在**每个表 20 个自定义字段**这一限制。
 9.   如果离开**创建新字段**对话框，将返回到**插入字段**对话框。 刚才创建的所有自定义字段将在字段列表中自动标记为要插入窗体中。  
 10.   单击**插入**将标记的字段插入窗体中的所选区域。 
-11.   **可选：**从个性化工具栏启用**移动**模式，以便将新字段移动到所选区域中的所需位置。 有关如何使用各种个性化功能针对个人使用优化窗体的详细信息，请参阅[打造个性化的用户体验](personalize-user-experience.md)。  
+11.   **可选：** 从个性化工具栏启用**移动**模式，以便将新字段移动到所选区域中的所需位置。 有关如何使用各种个性化功能针对个人使用优化窗体的详细信息，请参阅[打造个性化的用户体验](personalize-user-experience.md)。  
 
 ## <a name="sharing-custom-fields-with-other-users"></a>与其他用户共享自定义字段
 创建自定义字段并在窗体中显示之后，可能需要将这个更新后的页面视图（包括新字段）共享给系统中的其他用户。 可使用本产品的个性化功能以两种不同的方法达到此目的：

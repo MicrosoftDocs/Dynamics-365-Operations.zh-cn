@@ -19,18 +19,18 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ee9baefc95c24d23edca8438792c9648f77e1bdf
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d01ef1c496c7c79795d9d740ee755e84434dfdf1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="purchase-order-overview"></a>采购订单概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 本文提供有关采购订单 (PO)，以及与采购订单所经历的各个阶段相关的其他文章的链接的一般信息。
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/03/2017
 
 -   **未结订单** – 已创建订单，数量在订单上。
 -   **已接收** – 已收到部分数量，但它们尚未开票。
--   **已开票** – 订单上的整个数量已开票。 **注意︰**如果订单已经*部分*开票，**已接收**状态和**已开票**状态均不合适。 因此，订单仍将具有状态**未结订单**。
+-   **已开票** – 订单上的整个数量已开票。 **注意︰** 如果订单已经*部分*开票，**已接收**状态和**已开票**状态均不合适。 因此，订单仍将具有状态**未结订单**。
 -   **已取消** – 订单已确认，但稍后取消。 因此，此状态表示订单上不再有任何未结数量。
 
 **文档状态**字段可帮助您快速审查订单已处理文档的进度。 它显示订单已完成的最新文档的状态。 提供以下值：
@@ -82,7 +82,7 @@ ms.lasthandoff: 11/03/2017
 -   **已确认** – 订单已被确认后，将分配此状态。 通常，此状态是分配给订单的最后审核状态。
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [采购订单创建](purchase-order-creation.md)

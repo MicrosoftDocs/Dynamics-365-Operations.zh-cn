@@ -20,16 +20,16 @@ ms.author: yuyus
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7cc6ba50b8df54eadc9a23990a58d1d37365cb6a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="cost-control-overview"></a>成本控制概览 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 **成本控制**工作区是负责控制一个维度内或跨维度（例如，成本中心和产品组）的一个成本对象或一组成本对象的经理可以访问报表的一个中心点。 此工作区中的报表由成本会计员完全管理，因此版式和用于报表的数据可以在整个组织中保持一致。
 
@@ -84,7 +84,7 @@ ms.lasthandoff: 11/03/2017
 | 当前期间       | 显示当前会计期间的余额。<blockquote>[!NOTE]<br>默认情况下，当前期间由会话日期确定。 在**成本控制**工作区中，可以选择特定的会计期间。 然后，选定值表示当前期间。</blockquote> |
 | 上一期      | 显示上一个会计期间的余额。 使用以下公式：<br>当前会计期间 - 1<blockquote>[!NOTE]<br>默认情况下，上一个期间衍生自会话日期。 在**成本控制**工作区中，可以选择特定的会计期间作为当前期间。 之后将重新计算相应的**上一个期间**。</blockquote> |
 | 本年迄今         | 显示本年迄今。 使用以下公式：<br>YearToDate（当前会计期间）<blockquote>[!NOTE]<br>默认情况下，当前期间由会话日期确定。 在**成本控制**工作区中，可以选择特定的会计期间。 然后，选定值表示当前期间，并将更新相应的**本年迄今**值。</blockquote> |
-| 本年迄今平均 | 显示本年迄今平均。 使用以下公式：<br>（YearToDate [当前会计期间]）÷（计数 [当前会计期间]）<p><strong>示例</strong></p><ul><li>**统计维度成员：**全职员工</li><li>**当前日期：**3-21-2017</li><li>**期间：**会计期间 1，会计期间 2，会计期间 3</li><li>**度量值：**10，10，12</li></ul>在这种情况下，**本年迄今平均** = (10 + 10 + 12) ÷ 3 = 10.67<p>可以计算成本元素维度成员和统计维度成员的**本年迄今平均**值。</p><blockquote>[!NOTE]<br>默认情况下，当前期间由会话日期确定。 在**成本控制**工作区中，可以选择特定的会计期间。 然后，选定值表示当前期间，并将更新相应的**本年迄今**和**本年迄今平均**值。</blockquote> |
+| 本年迄今平均 | 显示本年迄今平均。 使用以下公式：<br>（YearToDate [当前会计期间]）÷（计数 [当前会计期间]）<p><strong>示例</strong></p><ul><li>**统计维度成员：** 全职员工</li><li>**当前日期：** 3-21-2017</li><li>**期间：** 会计期间 1，会计期间 2，会计期间 3</li><li>**度量值：** 10，10，12</li></ul>在这种情况下，**本年迄今平均** = (10 + 10 + 12) ÷ 3 = 10.67<p>可以计算成本元素维度成员和统计维度成员的**本年迄今平均**值。</p><blockquote>[!NOTE]<br>默认情况下，当前期间由会话日期确定。 在**成本控制**工作区中，可以选择特定的会计期间。 然后，选定值表示当前期间，并将更新相应的**本年迄今**和**本年迄今平均**值。</blockquote> |
 
 ### <a name="columns-to-display-for-costs"></a>为成本显示的列
 
@@ -154,7 +154,7 @@ ms.lasthandoff: 11/03/2017
 
 ![每个成本对象的计算](./media/cost-entries-allocation-base.png)
 
-请参阅 
+其他资源 
 
 [定义成本对象控制员的访问权限](access-rights-cost-object-controller.md)
 

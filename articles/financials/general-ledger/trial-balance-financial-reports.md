@@ -19,16 +19,16 @@ ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 77e46e8693c65410ac7c44754edcb3c181f2aa18
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: a61369033202bdb99fe4b36b24051c64cb9ca4b1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。 
 
@@ -65,7 +65,7 @@ Microsoft Dynamics 365 for Finance and Operations 的财务报表中提供三个
 
 每个试算平衡表使用不同的列定义。 这些列定义包含不同的列类型以提供不同级别的详细信息和财务数据。
 
--   **“试算平衡表 – 默认”列类型：**
+-   **试算平衡表 – 默认列类型：**
     -   **DESC** – 行定义的描述
     -   **ACCT** – 科目代码
     -   **ATTR (3)** – 属性：
@@ -75,7 +75,7 @@ Microsoft Dynamics 365 for Finance and Operations 的财务报表中提供三个
     -   **FD** – 只包含借方的财务数据
     -   **FD** – 只包含贷方的财务数据
     -   **CALC** – 净差额
--   **“试算平衡表汇总 – 默认”列类型：**
+-   **试算平衡表汇总 – 默认列类型：**
     -   **ACCT** – 科目代码
     -   **DESC** – 行定义的描述
     -   **ATTR** – 属性：
@@ -100,7 +100,7 @@ Microsoft Dynamics 365 for Finance and Operations 的财务报表中提供三个
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [财务申报](financial-reporting-getting-started.md)

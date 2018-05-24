@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 825dba31a7093e9d9460f5aab59a96507dafeb8a
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 9768154e117ca09ae84c6a9c82d43000752c2b34
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="view-journal-entries-and-transactions"></a>查看日记帐分录和交易记录
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文说明您可以查看日记帐条目和交易记录的各种方式。 
 
@@ -54,9 +54,9 @@ ms.lasthandoff: 11/03/2017
 -   **交易记录来源** – 此交易记录报表按日记帐，以及按交易记录、核算和申报币种显示帐户。 它还显示用作对方的每一行。
 
 
-## <a name="see-also"></a>请参阅
+## <a name="additional-resources"></a>其他资源
 - [总帐科目余额](general-ledger-account-balances.md) 
-- [会计源资源管理器](..\accounts-payable\accounting-source-explorer.md)
+- [会计源资源管理器](../accounts-payable/accounting-source-explorer.md)
 - [财务申报](financial-reporting-getting-started.md)
 - [查看日记帐条目](tasks/view-journal-entries-or-transactions.md)
 

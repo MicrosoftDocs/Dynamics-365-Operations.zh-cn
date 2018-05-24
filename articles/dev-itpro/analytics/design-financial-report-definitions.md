@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 58030df8db467f754ec93ecc3f41585b20f03893
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="report-definitions-in-financial-report-designer"></a>财务报表设计器中的报表定义
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供了有关报表定义的信息。 报表定义是使用行定义、列定义和可选报告结构树定义创建报表的报表组件（或构建基块）。 报表定义还提供自定义报表的选项和设置。 
 
@@ -41,8 +41,8 @@ ms.lasthandoff: 11/03/2017
 但是，根据数据在 Microsoft Dynamics ERP 系统中的存储方式，可能无法在报表中使用交易记录明细。
 
 ## <a name="create-a-report-definition"></a>创建报表定义
-1.  在报表设计器的**“文件”**菜单上，单击**“新建”**，然后选择**“报表定义”**。
-2.  在**“报表”**、**“输出和分配”**、**“页眉和页脚”**以及**“设置”**选项卡上指定相应信息。
+1.  在报表设计器的**文件**菜单上，单击**新建**，然后选择**报表定义**。
+2.  在**报表**、**输出和分配**、**页眉和页脚**以及**设置**选项卡上指定相应信息。
 
 ## <a name="contents-of-a-report-definition"></a>报表定义的内容
 下表说明了报表定义中的各个选项卡以及如何使用这些信息。
@@ -79,8 +79,8 @@ ms.lasthandoff: 11/03/2017
 <li>设置明细报表的格式</li>
 <li>设置报告树的格式</li>
 <li>生成异常报表</li>
-<li>指定货币转换</li>
-<li>对科目详细信息进行小计和筛选</li>
+<li>指定币种转换</li>
+<li>小计和筛选会计科目明细</li>
 </ul></td>
 </tr>
 </tbody>
@@ -88,7 +88,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [财务申报](financial-reporting-intro.md)

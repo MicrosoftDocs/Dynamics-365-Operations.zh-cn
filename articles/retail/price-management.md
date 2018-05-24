@@ -3,7 +3,7 @@ title: "零售销售价管理"
 description: "本主题介绍在 Microsoft Dynamics 365 for Retail 中创建和管理销售价的概念。"
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/27/2018
+ms.date: 04/20/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-retail
@@ -18,16 +18,16 @@ ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a7e6babe1bfec60ece4f84a77bbd838faf7274e0
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="retail-sales-price-management"></a>零售销售价管理
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本主题提供有关 Microsoft Dynamics 365 for Retail 中的销售价创建和管理流程的信息。 重点介绍此流程中涉及的概念，以及各种配置选项对销售价的影响。
 
@@ -198,32 +198,6 @@ Microsoft SQL Server Express 因为成本原因（免费），通常用于渠道
 在 Microsoft Dynamics 365 中设置销售价时，不指定要设置的价格值含税还是不含税。 该值就只是价格。 但是，可通过零售渠道的**价格含销售税**设置配置零售渠道，以便让价格含税或不含税。 此设置对渠道设置，即使在单个公司内也可以更改。
 
 如果同时使用含税类型和不含税类型，请务必正确设置价格，因为如果更改了**价格含销售税**设置，客户支付的总额将改变。
-
-### <a name="effect-of-the-price-includes-sales-tax-setting-on-financial-postings"></a>“价格含销售税”设置对财务过帐的影响
-**价格含销售税**设置将影响过帐到收入和折扣科目总帐的全部金额。 以下示例显示此设置如何影响财务过帐。
-
-此示例仅探讨销售过帐，因为**价格含销售税**设置不影响库存成本过帐。
-
-#### <a name="example"></a>示例
-在此示例中，配置了折扣金额，以便从收入单独过帐。
-
-您销售了税率为 10% 的 $100 产品，并应用了 5% 的折扣。 将使用 USRT 演示数据中的以下科目：
-
-- **收入：**401100
-- **折扣：**403200
-- **税额：**202100
-
-**案例 1：不含税（也称为销售税）**
-
-- **收入：**$100
-- **折扣：**$5
-- **税额** $9.5（= $95 的 10%）
-
-**案例 2：含税（也称为增值税 (\[VAT\])）**
-
-- **收入：**$90
-- **折扣：**$4.5（= $90 的 5%）
-- **税额：**$10
 
 ## <a name="differences-between-retail-pricing-and-non-retail-pricing"></a>零售定价与非零售定价之间的区别
 使用单个定价引擎计算所有渠道的零售价：呼叫中心、零售商店和在线商店。 这有助于实现统一的商务方案。 

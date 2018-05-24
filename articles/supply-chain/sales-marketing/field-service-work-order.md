@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 08cfd2cfa24bef0f0c92126f5d1052a12ceba37a
-ms.openlocfilehash: 854240bef9d6193c8f0f608687b68e6842fe272c
+ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
+ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/11/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 04/11/2018
 
 ### <a name="names-of-the-templates-in-data-integration"></a>数据集成中的模板名称
 
-**工作订单到销售订单（Field Service 到 Fin and Ops）**模板用于运行同步。
+**工作订单到销售订单（Field Service 到 Fin and Ops）** 模板用于运行同步。
 
 ### <a name="names-of-the-tasks-in-the-data-integration-project"></a>数据集成项目中的任务名称
 
@@ -128,8 +128,8 @@ ms.lasthandoff: 04/11/2018
 
     **系统状态**值为**打开 – 已计划**。
 
-    - **产品行：**估计数量 = 5ea，已使用数量 = 0ea，行状态 = 估计，已分配 = 否
-    - **服务行：**估计数量 = 2h，已使用数量 = 0h，行状态 = 估计
+    - **产品行：** 估计数量 = 5ea，已使用数量 = 0ea，行状态 = 估计，已分配 = 否
+    - **服务行：** 估计数量 = 2h，已使用数量 = 0h，行状态 = 估计
 
     在此示例中，将把产品的**已使用数量**值 **0**（零）和服务的**估计数量**值 **2h** 同步到 Finance and Operations。
 
@@ -137,8 +137,8 @@ ms.lasthandoff: 04/11/2018
 
     **系统状态**值为**打开 – 已计划**。
 
-    - **产品行：**估计数量 = 5ea，已使用数量 = 0ea，行状态 = 估计，已分配 = 是
-    - **服务行：**估计数量 = 2h，已使用数量 = 0h，行状态 = 估计
+    - **产品行：** 估计数量 = 5ea，已使用数量 = 0ea，行状态 = 估计，已分配 = 是
+    - **服务行：** 估计数量 = 2h，已使用数量 = 0h，行状态 = 估计
 
     在此示例中，将把产品的**估计数量**值 **5ea**和服务的**估计数量**值 **2h** 同步到 Finance and Operations。
 
@@ -146,8 +146,8 @@ ms.lasthandoff: 04/11/2018
 
     **系统状态**值为**打开 – 正在进行**。
 
-    - **产品行：**估计数量 = 5ea，已使用数量 = 6ea，行状态 = 已使用，已分配 = 是
-    - **服务行：**估计数量 = 2h，已使用数量 = 0h，行状态 = 估计
+    - **产品行：** 估计数量 = 5ea，已使用数量 = 6ea，行状态 = 已使用，已分配 = 是
+    - **服务行：** 估计数量 = 2h，已使用数量 = 0h，行状态 = 估计
 
     在此示例中，将把产品的**已使用数量**值 **6** 和服务的**估计数量**值 **2h** 同步到 Finance and Operations。
 
@@ -155,8 +155,8 @@ ms.lasthandoff: 04/11/2018
 
     **系统状态**值为**打开 – 已完成**。
 
-    - **产品行：**估计数量 = 5ea，已使用数量 = 6ea，行状态 = 已使用，已分配 = 是
-    - **服务行：**估计数量 = 2h，已使用数量 = 1.5h，行状态 = 已使用
+    - **产品行：** 估计数量 = 5ea，已使用数量 = 6ea，行状态 = 已使用，已分配 = 是
+    - **服务行：** 估计数量 = 2h，已使用数量 = 1.5h，行状态 = 已使用
 
     在此示例中，将把产品的**已使用数量**值 **6** 和服务的**估计数量**值 **1.5h** 同步到 Finance and Operations。
 
@@ -230,7 +230,47 @@ ms.lasthandoff: 04/11/2018
 6. 将**销售订单来源类型**字段设置为**工作订单集成**。
 7. 选择**保存**。
 
-### <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
-（即将推出）
+### <a name="setup-in-data-integration"></a>数据集成中的设置
+
+确保有 **msdyn_workorders** 的**集成键**
+1. 转至“数据集成”
+2. 选择**连接集** 选项卡
+3. 选择用于工作订单同步的连接集
+4. 选择**集成键**选项卡
+5. 找到 msdyn_workorders 并检查是否添加了 **msdyn_name (Work Order Number)** 键。 如果不显示，请通过单击页面顶部的**添加键**，然后单击**保存**添加。
+
+## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
+
+下图显示了数据集成中的模板映射。
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderheader"></a>工作订单到销售订单（Field Service 到 Fin and Ops）：WorkOrderHeader
+
+筛选器：(msdyn_systemstatus ne 690970005) 和 (msdyn_systemstatus ne 690970000) 与 (msdynce_hasexternallymaintainedproductsonly eq true)
+
+[![数据集成中的模板映射](./media/FSWorkOrder1.png )](./media/FSWorkOrder1.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineestimate"></a>工作订单到销售订单（Field Service 到 Fin and Ops）：WorkOrderServiceLineEstimate
+
+筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 与 (msdyn_linestatus eq 690970000) 和 (msdynce_headersystemstatus ne 690970004)
+
+[![数据集成中的模板映射](./media/FSWorkOrder2.png )](./media/FSWorkOrder2.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderservicelineused"></a>工作订单到销售订单（Field Service 到 Fin and Ops）：WorkOrderServiceLineUsed
+
+筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 与（(msdyn_linestatus eq 690970001) 或 (msdynce_headersystemstatus eq 690970004)）
+
+[![数据集成中的模板映射](./media/FSWorkOrder3.png )](./media/FSWorkOrder3.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineestimate"></a>工作订单到销售订单（Field Service 到 Fin and Ops）：WorkOrderProductLineEstimate
+
+筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 与 (msdyn_linestatus eq 690970000) 和 (msdynce_headersystemstatus ne 690970004) 及 (msdyn_allocated eq true)
+
+[![数据集成中的模板映射](./media/FSWorkOrder4.png )](./media/FSWorkOrder4.png)
+
+### <a name="work-orders-to-sales-orders-field-service-to-fin-and-ops-workorderproductlineused"></a>工作订单到销售订单（Field Service 到 Fin and Ops）：WorkOrderProductLineUsed
+
+筛选器：(msdynce_headersystemstatus ne 690970005) 和 (msdynce_headersystemstatus ne 690970000) 及 (msdynce_orderhasexternalmaintainedproductsonly eq true) 和（(msdyn_linestatus eq 690970001) 或 (msdynce_headersystemstatus eq 690970004) 或 (msdyn_allocated ne true)）
+
+[![数据集成中的模板映射](./media/FSWorkOrder5.png )](./media/FSWorkOrder5.png)
 

@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5ce38e94ae4c7b28b4e182018add7c046f685e46
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 64838fd20349c21bf3c0a3b9a3c68d4f19f60745
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="authorize-an-adjusted-forecast"></a>授权调整后的预测
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 不必立即授权所有预测数据。 本文介绍如何指定为预测授权的期间。 还说明如何可以授权特定公司和预测模型的预测。
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 11/03/2017
 
 您知道复选框**保存对基准需求预测进行的手动调整**如何工作非常重要。 如果您已手动调整统计基准预测，则授权使用调整的值，即使清除此复选框也是如此。 但是，在此授权之后将放弃更改。 因此，下次预测生成时，该预测只是统计预测，不具有任何手动覆盖，即使选择了**转移对需求预测进行的手动调整**。 因此，您可以视**保存对基准需求预测进行的手动调整**复选框为可以保留或放弃所有手动更改的机制。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)

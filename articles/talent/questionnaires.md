@@ -19,16 +19,16 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc7194e7f95a6a99587a6f7e8ab8a30957bbbd90
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d5c3e02bf5bc17db7232ccbb56e4dfbc062795b4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="questionnaires"></a>调查表
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 本主题提供了有关调查表的一般信息以及指向更多详细信息的链接。 调查表是一组问题，用于收集信息以达到各种目的。 您可以设计、创建、分发和完成调查表，然后对结果进行分析。 
 
@@ -50,7 +50,7 @@ ms.lasthandoff: 03/26/2018
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [设计调查表](design-questionnaires.md)

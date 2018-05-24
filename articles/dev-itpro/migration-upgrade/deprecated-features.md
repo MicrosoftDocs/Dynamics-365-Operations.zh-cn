@@ -3,7 +3,7 @@ title: "弃用功能"
 description: "本主题介绍已经删除或计划删除的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 03/22/2018
+ms.date: 05/09/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e629673c3a923ec74809e276ec39464bfacda124
+ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
+ms.openlocfilehash: c935b0c14f09b0a3a738266e4c9c577c96f0ea77
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/09/2018
 
 ---
 
@@ -78,13 +78,13 @@ ms.lasthandoff: 04/13/2018
 | **部署选项**        | 全部|
 | **状态**                       | 已弃用：两个分析表的菜单项在版本 7.3 中已移除。 但这些分析表的代码仍然保留在产品中。 在将来的发行中计划移除该代码。 |
 
-### <a name="power-bi-content-packs-published-to-powerbicom"></a>Power BI 内容包发布到 PowerBI.com
-已发布到 PowerBI.com 站点的**成本管理**、**财务绩效**和**零售渠道绩效**内容包因为 Microsoft Power BI 中的产品更新而被弃用。 过去将这些内容包部署到 PowerBI.com 的系统管理窗体在 Finance and Operations 中也被弃用。
+### <a name="power-bi-content-packs-available-on-appsource"></a>AppSource 中的 Power BI 内容包
+[Microsoft AppSource](https://appsource.microsoft.com) 上提供的**成本管理**、**财务绩效**和**零售渠道绩效**内容包因为 Microsoft Power BI 中的产品更新而被弃用。 过去将这些内容包部署到 PowerBI.com 的系统管理窗体在 Finance and Operations 中也被弃用。
 
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | Microsoft Power BI 中进行产品更新。 |
-| **被另一个功能取代？**   | Power BI 内容包（发布到 PowerBI.com）由分析应用程序取代，该应用程序支持数据库级别的解决方案集成。 有关分析应用程序的详细信息，请参阅[工作区中的嵌入式 Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md)。    |
+| **被另一个功能取代？**   | [AppSource](https://appsource.microsoft.com) 站点上提供的**成本管理**、**财务绩效**和**零售渠道绩效**内容包将被分析应用程序替代，以便在数据库级别集成解决方案。 有关分析应用程序的详细信息，请参阅[工作区中的嵌入式 Power BI](../../dev-itpro/analytics/embed-power-bi-workspaces.md)。    |
 | **影响的产品区域**         | 成本管理、财务和零售                                                                                               |
 | **部署选项**              | 仅适用于云（在本地部署中不再支持与 PowerBI.com 集成）。                                                                                                            |
 | **状态**                         | 已弃用：移除功能的目标时间范围为 2018 年第二季度。    |
@@ -839,12 +839,12 @@ Microsoft Dynamics AX 2012 允许在数据库和文件共享中存储附件。 �
 
 ### <a name="gl-ssrs-reports"></a>GL SSRS 报表
 
-包括以下菜单项的报表已被删除：**“试算平衡表(汇总)”**、**“试算平衡表(明细)”**、**“会计科目表”**、**“审计线索”**、**“余额”**和**“余额表”**。
+包括以下菜单项的报表已被删除：**试算平衡表(汇总)**、**试算平衡表(明细)**、**会计科目表**、**审计线索**、**余额**和**余额表**。
 
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 财务 Microsoft SQL Server Reporting Services (SSRS) 报表已经被 Management Reporter 功能和默认报表取代。 |
-| **被另一个功能取代？**   | Management Reporter（在 Dynamics AX 的当前版本中标记为**“财务报告”**。）    |
+| **被另一个功能取代？**   | Management Reporter（在 Dynamics AX 的当前版本中标记为**财务报告**。）    |
 | **影响的产品区域**         | 总帐   |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。   |
 
@@ -863,8 +863,8 @@ Microsoft Dynamics AX 2012 允许在数据库和文件共享中存储附件。 �
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 余额信息现在在**“试算余额表”**列表页上按帐户和维度提供。  |
-| **被另一个功能取代？**   | **“主科目”**包含**“主科目”**列表页所包含的相同科目列表。 **“主科目”**中的网格视图还显示一个更小的、如网格般的视图。 |
+| **弃用/移除的原因** | 余额信息现在在**试算余额表**列表页上按帐户和维度提供。  |
+| **被另一个功能取代？**   | **主科目**包含**主科目**列表页所包含的相同科目列表。 **主科目**中的网格视图还显示一个更小的、如网格般的视图。 |
 | **影响的产品区域**         | 总帐      |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。    |
 
@@ -1039,7 +1039,7 @@ Windows 8 平板电脑应用提供用于费用录入和审核的功能。
 |                                                 |                                                                                                          |
 |-------------------------------------------------|----------------------------------------------------------------------------------------------------------|
 | <strong>弃用/移除的原因</strong> |                         此功能已被另一个功能取代。                         |
-|  <strong>被另一个功能取代？</strong>  | Management Reporter（在 Dynamics AX 的当前版本中标记为<strong>“财务报告”</strong>。） |
+|  <strong>被另一个功能取代？</strong>  | Management Reporter（在 Dynamics AX 的当前版本中标记为<strong>财务报告</strong>。） |
 |     <strong>影响的产品区域</strong>     |                                              总帐                                              |
 |             <strong>状态</strong>             |                                      从 Dynamics AX 2012 开始移除                                      |
 

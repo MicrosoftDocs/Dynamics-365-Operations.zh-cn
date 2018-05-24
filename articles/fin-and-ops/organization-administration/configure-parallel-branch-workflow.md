@@ -18,16 +18,16 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 41bd03757a347a1b5f189bd50dae2545baaddf20
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: d0e45f4a6b1f6bcf94103dbcf4a8ca01457dc85d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="configure-a-parallel-branch-in-a-workflow"></a>配置工作流中的并行分支
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 要配置并行分支，请在工作流编辑器中完成以下过程。
 
@@ -35,10 +35,10 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="name-a-branch"></a>为分支命名
 按照以下步骤为并行分支输入名称。
-1.  右键单击并行分支，然后单击“**属性**”。 将显示“**属性**”窗体。
+1.  右键单击并行分支，然后单击**属性**。 将显示**属性**窗体。
 2.  在左侧窗格中，单击**基本设置**。
-3.  在“**名称**”字段中，为该并行分支输入唯一名称。
-4.  单击**“关闭”**。
+3.  在**名称**字段中，为该并行分支输入唯一名称。
+4.  单击**关闭**。
 
 ## <a name="design-and-configure-the-elements-of-a-branch"></a>设计和配置分支的元素
 按照以下步骤可以设计和配置并行分支的元素。
@@ -47,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [创建工作流](create-workflow.md)

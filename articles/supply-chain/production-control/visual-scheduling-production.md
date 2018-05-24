@@ -20,16 +20,16 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f7001158a498aa28028167a0f76ad610ec09b43c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: c3726038d9782891988e16cb98cf04cf47b7e66c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="gantt-chart-for-job-scheduling"></a>用于作业级排产的甘特图
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 甘特图旨在授权生产规划人员控制和优化生产计划。 甘特图使操作流透明，且易于在考虑材料或资源短缺的情况下调整生产计划。 这有助于规划人员最佳地利用可用资源、尽量减少在制品和优化生产订单的吞吐时间。
 
@@ -156,7 +156,7 @@ ms.lasthandoff: 04/13/2018
 |           <strong>要完成的作业</strong>（<strong>生产车间管理</strong>工作区中的列表）            |                                                                                               <strong>生产车间管理中要完成的作业列表</strong>工作区显示来自工作区选定资源上正在进行的生产和批次订单的作业。 在<strong>甘特图</strong>菜单项上可以打开甘特图，其中列表中的所有选定作业将加载到图表。                                                                                               |
 | <strong>要下达的生产订单</strong>（从<strong>生产车间管理</strong>工作区打开） |                                                                                                                                         要下达的生产订单页从<strong>生产车间管理</strong>工作区打开。 此页显示等待下达的已计划生产和批次订单。 在此页上可以打开选定生产订单的甘特图。                                                                                                                                          |
 
-## <a name="see-also"></a>请参阅  
+## <a name="additional-resources"></a>其他资源  
 [使用用于生产和批次订单的甘特图进行可视排产（视频）](https://youtu.be/BtbuShkGj4I)
 
 [可视生产排产（演示脚本）](https://mbs.microsoft.com/customersource/northamerica/365Enterprise/learning/documentation/how-to-articles/365finoptvisschep)

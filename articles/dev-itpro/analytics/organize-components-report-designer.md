@@ -19,28 +19,28 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 850a40cc29f51521636c01f6ac1cfa54d3bd7798
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 7207febc58dbab1df5551ae0f74ad74d9ced8e56
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="organize-report-components-in-report-designer"></a>整理报表设计器中的报表组件
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 在您设计构建基块并生成报表后，组织这些对象以便用户更容易地找到它们，这种方法非常有用。 本文介绍了如何组织现有报表、构建基块和报表设计器中的对象。
 
 您可以在报表设计器中重命名文件夹、报表、构建基块和其他对象以帮助整理您的文件。 根据重命名的对象的类型，您可能必须更新与该对象的关联。
 
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>在报表设计器中重命名文件夹或构建基块
-在报表设计器中，您可以重命名文件夹、报表、列定义、行定义和报告结构树定义。 **注意︰**重命名一个构建基块时，您必须更新使用构建基块的所有报告定义。 否则，不能生成新的报表。
+在报表设计器中，您可以重命名文件夹、报表、列定义、行定义和报告结构树定义。 **注意︰** 重命名一个构建基块时，您必须更新使用构建基块的所有报告定义。 否则，不能生成新的报表。
 
 ### <a name="rename-a-folder-or-building-block-in-report-designer"></a>在报表设计器中重命名文件夹或构建基块
 
 1.  在报表设计器中，使用导航窗格找到要重命名的文件夹或对象。
-2.  右键单击该文件夹或对象，然后单击**“重命名”**。 导航窗格中的**名称**字段将变为可用。
+2.  右键单击该文件夹或对象，然后单击**重命名**。 导航窗格中的**名称**字段将变为可用。
 3.  键入新名称，然后按 Enter。
 4.  如果构建基块是行定义、列定义或报告结构树定义，则必须更新与其关联的其他构建基块。 右键单击在步骤 3 中重命名的构建基块，选择**关联**，然后选择列表中的某个项目以更新它。
 5.  重复步骤 4，直到所有关联项目都已更新。
@@ -64,7 +64,7 @@ ms.lasthandoff: 04/13/2018
 3.  在**报表组**选项卡上，进行所需的更改。
 4.  在**文件**菜单中，单击**保存**保存修改过的报表组，或者单击工具栏中的**保存**按钮 ![保存](https://i-technet.sec.s-msft.com/dynimg/IC679516.gif "保存")。
 
-**注意：**如果您已计划了报表以便它们以设置的间隔生成，则可以覆盖这些设置并立即生成报表。
+**注意：** 如果您已计划了报表以便它们以设置的间隔生成，则可以覆盖这些设置并立即生成报表。
 
 ### <a name="generate-a-report-group-report"></a>生成报表组报表
 
@@ -105,7 +105,7 @@ ms.lasthandoff: 04/13/2018
 <td>详细程度</td>
 <td>指定报表中包含的详细信息级别。
 <ul>
-<li>“财务”<strong></strong>− 高级别的摘要报表。 您无法深化到科目和维度（通过报告结构树添加的帐户和维度除外）。</li>
+<li><strong>财务</strong>− 高级别的摘要报表。 您无法深化到科目和维度（通过报告结构树添加的帐户和维度除外）。</li>
 <li><strong>财务 &amp; 科目</strong> - 包含高度概括性汇总和科目详细信息的报表。</li>
 <li><strong>财务、科目 &amp; 交易记录</strong> - 包含高度概括性汇总和交易记录详细信息的报表。</li>
 </ul></td>
@@ -121,7 +121,7 @@ ms.lasthandoff: 04/13/2018
 </tr>
 <tr class="odd">
 <td>包括所有申报币种</td>
-<td>在 Microsoft Dynamics ERP 系统中配置的所有其他申报币种均在此处列出。 选择此复选框以生成使用指定的币种的其他报表。 若要在 Web 查看器中查看这些报表，请单击“币种”<strong></strong>，然后选择一种货币。</td>
+<td>在 Microsoft Dynamics ERP 系统中配置的所有其他申报币种均在此处列出。 选择此复选框以生成使用指定的币种的其他报表。 若要在 Web 查看器中查看这些报表，请单击<strong>币种</strong>，然后选择一种货币。</td>
 </tr>
 <tr class="even">
 <td>不与报表定义一起保存的日期信息</td>
@@ -143,8 +143,8 @@ ms.lasthandoff: 04/13/2018
 <td>组中的报表</td>
 <td>添加、删除和重新排序报表组中的报表。
 <ul>
-<li>若要将报表定义添加到报表组，请双击该报表组以将其打开，然后单击“添加”<strong></strong>。 选择要包含在报表组中的报表，然后单击“确定”<strong></strong>。</li>
-<li>若要从报表组删除报表，选中该报表，然后单击“删除”<strong></strong>。</li>
+<li>若要将报表定义添加到报表组，请双击该报表组以将其打开，然后单击<strong>添加</strong>。 选择要包含在报表组中的报表，然后单击<strong>确定</strong>。</li>
+<li>若要从报表组删除报表，选中该报表，然后单击<strong>删除</strong>。</li>
 <li>要修改生成报表的顺序，请在列表中选择一个报表，然后单击<strong>上移</strong>或<strong>下移</strong>。</li>
 </ul></td>
 </tr>
@@ -153,7 +153,7 @@ ms.lasthandoff: 04/13/2018
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [财务申报](financial-reporting-intro.md)

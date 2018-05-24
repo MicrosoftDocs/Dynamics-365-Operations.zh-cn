@@ -19,16 +19,16 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d0307db3a49bcdb62146b815383f744c5b8e0fde
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="user-preferences-in-financial-report-designer"></a>财务报表设计器中的用户首选项
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文介绍如何设置用户首选项来自定义财务报表设计器中的用户交互和控制初始登录体验。 您还可以控制各个报表、报表库和默认文件位置的显示方式。 
 
@@ -36,8 +36,8 @@ ms.lasthandoff: 04/13/2018
 --------------------
 
 1.  在报表设计器的**工具**菜单上，单击**选项**。
-2.  在**“选项”**对话框中，选择您的首选项。
-3.  单击“**OK**”。
+2.  在**选项**对话框中，选择您的首选项。
+3.  单击**OK**。
 
 ## <a name="options-dialog-box-options"></a>选择对话框选项
 <table>
@@ -74,7 +74,7 @@ ms.lasthandoff: 04/13/2018
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [财务申报](financial-reporting-intro.md)

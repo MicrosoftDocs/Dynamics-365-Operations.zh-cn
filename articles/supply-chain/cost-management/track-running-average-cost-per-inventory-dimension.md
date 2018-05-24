@@ -20,18 +20,18 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb2a3a193585944810c5dfac1eb3c019e074008f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 48db7ff047a50343bd473d2c71f878e4ee2201e5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
-# <a name="tracking-running-average-cost-per-inventory-dimension"></a>按库存维度跟踪移动平均成本
+# <a name="track-running-average-cost-per-inventory-dimension"></a>按库存维度跟踪移动平均成本
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
-[!INCLUDE [retail name](../includes/retail-name.md)]
+[!include [retail name](../includes/retail-name.md)]
 
 库存维度组附加到每个库存物料。 因此，基于选择的在财务上正跟踪的库存维度，计算某一物料的经常性平均成本价。
 
@@ -49,7 +49,7 @@ ms.lasthandoff: 11/03/2017
 
 **示例 2**如果附加到物料的存储维度组按仓库从财务上跟踪，并按批号从财务上跟踪跟踪维度组，则为每个批次计算移动平均成本价。 
 
-**注意：**我们建议您始终查看正在跟踪的所有财务维度的成本价。 以下采购订单已开票：
+**注意：** 我们建议您始终查看正在跟踪的所有财务维度的成本价。 以下采购订单已开票：
 
 -   数量为 2 且成本价为 USD 10.00 的采购订单已为仓库 GW 和批处理 AAA 开票。
 -   数量为 3 且成本价为 USD 12.00 的采购订单已为仓库 GW 和批处理 AAA 开票。

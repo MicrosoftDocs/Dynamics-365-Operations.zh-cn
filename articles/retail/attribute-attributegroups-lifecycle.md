@@ -1,8 +1,9 @@
 ---
 title: "Finance and Operations 中各种零售实体的属性、属性组及其关联"
+description: "此主题介绍如何使用属性通过用户定义的字段介绍产品及其特征。"
 author: ashishmsft
 manager: AnnBe
-ms.date: 03/12/2018
+ms.date: 04/28/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -19,16 +20,16 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 53af4335146be6c163a6d84b60155e1a741c0be4
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 5e04b1f6ef58836eeac85be074e295e6d1f42c52
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Finance and Operations 中各种零售实体的属性、属性组及其关联
 
-[!INCLUDE [banner](includes/banner.md)]
+[!include [banner](includes/banner.md)]
 
 可通过*属性*和用户定义的字段（**如内存大小**、**硬盘容量**、**符合能源之星的要求**等）进一步描述产品及其特征。 在 Microsoft Dynamics 365 for Finance and Operations 中，可以将属性与各种零售实体（如产品类别和零售通道）关联，并且可以为属性设置默认值。 当产品与产品类别或销售渠道关联时，产品将继承属性及默认值。 默认值可在单个产品级别、在零售渠道级别或在零售目录中覆盖。
  

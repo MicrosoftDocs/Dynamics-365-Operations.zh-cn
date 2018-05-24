@@ -19,22 +19,22 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: ce9bc42751cf0f537a0ddb5069aca7c9779a6bb1
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 75daeed0d0e979165d3669e83e98cf278d7fb736
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="procurement-and-sourcing-workflows"></a>采购工作流
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 某些组织要求采购申请和采购订单由输入交易记录的人之外的用户进行审核。 若要设置审核流程，您可以创建一个工作流。
 
 “工作流”代表业务流程。 它定义单据如何在系统中流动并指示必须由谁完成任务或审核单据。 在组织内使用工作流系统具有若干优点：
--   “**一致的流程**”— 您可定义特定单据（如采购申请和支出报表）的审核流程。 使用工作流系统有助于确保以一致且有效的方式来处理和审核单据。
--   “**流程可见性**”— 您可跟踪特定工作流实例的状态、历史记录和绩效指标。 这帮助您确定是否需要对该工作流做出更改，以提高效率。
+-   **一致的流程**— 您可定义特定单据（如采购申请和支出报表）的审核流程。 使用工作流系统有助于确保以一致且有效的方式来处理和审核单据。
+-   **流程可见性**— 您可跟踪特定工作流实例的状态、历史记录和绩效指标。 这帮助您确定是否需要对该工作流做出更改，以提高效率。
 -   **集中的工作列表**— 用户可以查看集中的工作列表，以便跨他们所参与的所有工作流查看分配给他们的工作流任务和审核。 这在“工作项”页上可用。
 
 ## <a name="the-types-of-workflows-that-you-can-create"></a>您可以创建的工作流类型
@@ -68,7 +68,7 @@ ms.lasthandoff: 12/14/2017
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [定义采购申请的业务流程工作流](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)

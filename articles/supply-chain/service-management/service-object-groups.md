@@ -3,7 +3,7 @@ title: "服务对象组"
 description: "对象组有用于排序和筛选有关报告和统计对象的数据。"
 author: YuyuScheller
 manager: AnnBe
-ms.date: 02/21/2018
+ms.date: 05/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: fa503ac82286099a0eafc7034d169e165b538e2c
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 2ab3ed8a8f36f980473b17b5dfed8cb3d0054253
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/21/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="service-object-groups"></a>服务对象组 
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 对象组有用于排序和筛选有关报告和统计对象的数据。 例如，您可以按地理位置或按类型对对象进行分组。
 
@@ -48,6 +48,23 @@ ms.lasthandoff: 02/21/2018
 
 一个客户致电并想要为空调机器 HIJ 设置一个服务协议。 您还没有此机器的记录。 但是，您设置了名为“空调”的对象组，而且您已将此组附加到了所有空调对象。 因此，您可以快速搜索并标识所有其他空调器并使用来自这些对象的模板信息以为 HIJ 创建服务协议行。 通过以这种方式使用对象组，您可以迅速设置新对象并确定必须在这些对象上执行的服务任务。 
 
+## <a name="create-service-object-groups"></a>创建服务对象组
+
+创建可将服务对象分配给的组。 服务对象是执行服务的库存物料和其他产品。 通过对服务对象分组，您可以为类似和相关服务对象创建报表。 例如，服务对象组中可包括两个服务对象：一个服务对象是配套件，第二个服务对象是安装配套件的服务。
+
+若要创建服务对象组，请执行以下步骤：
+
+1. 单击**服务管理 > 设置 > 服务对象 > 服务对象组**。
+
+2. 单击**新建**创建一个新的服务对象组。
+
+3. 为该服务对象组输入唯一名称和描述（可选）。
+
+通过使用**服务对象**窗体，您可以将服务对象分配给组。 
+
+## <a name="see-also"></a>请参阅
+
+[创建服务对象](create-service-objects.md)
 
 
 

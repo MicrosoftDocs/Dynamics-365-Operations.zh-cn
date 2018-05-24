@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8fae33fbe2d1433e4263ed4087dad2bc894e0b84
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 1a4e8c25fb65b35a52a0d1bc0f1a745c06ca53ab
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="download-electronic-reporting-configurations-from-lifecycle-services"></a>从 Lifecycle Services 下载电子申报配置
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题介绍如何从 Microsoft Dynamics Lifecycle Services (LCS) 下载电子申报 (ER) 配置。
 
@@ -54,11 +54,11 @@ ms.lasthandoff: 11/03/2017
 6.  单击**打开**查看选择的存储库的 ER 配置列表。 [![update-er-from-lcs-for-ms-make-lcs-repository](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)](./media/update-er-from-lcs-for-ms-make-lcs-repository.png)
 7.  在左侧窗格的配置树中，选择您所需的 ER 配置。
 8.  在**版本**快速选项卡上，选择所选 ER 配置所需的版本。
-9.  单击**导入**将所选版本从 LCS 下载到当前 Finance and Operations 实例。 **注意：****导入**按钮对当前 Finance and Operations 实例中已呈现的 ER 配置版本不可用。 [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
+9.  单击**导入**将所选版本从 LCS 下载到当前 Finance and Operations 实例。 **注意：导入**按钮对当前 Finance and Operations 实例中已呈现的 ER 配置版本不可用。 [![update-er-from-lcs-for-ms-download-configuration](./media/update-er-from-lcs-for-ms-download-configuration.png)](./media/update-er-from-lcs-for-ms-download-configuration.png)
 
-**注意：**根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 在可以使用导入的配置版本之前，必须解决这些问题。 有关详细信息，请参阅本主题的相关文章列表。
+**注意：** 根据 ER 设置，配置在导入后进行验证。 您可能会收到发现的任何不一致问题。 在可以使用导入的配置版本之前，必须解决这些问题。 有关详细信息，请参阅本主题的相关文章列表。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [电子申报概览](general-electronic-reporting.md)

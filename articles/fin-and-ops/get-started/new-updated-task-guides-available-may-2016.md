@@ -18,20 +18,20 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c301f27504f7f1545608bb214a4f1b4d4cecc47f
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="new-or-updated-task-guides-may-2016"></a>新的或更新任务指南（2016 年 5 月）
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 5 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>[]()Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 5 月 - 所有语言）
+<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 5 月 - 所有语言）
 ------------------------------------------------------------------------------------------------
 
 （2016 年 5 月）APQC 标准库包含旨在用于帮助 Microsoft Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月发布的任务指南。 （2016 年 2 月）APQC 标准库中发布的任务指南的本地化版本在此库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。 <strong>注意︰</strong>业务流程建模器 (BPM) 行的标题旁边的星号 (<strong>\</strong>*) 表示该业务流程的任务指南是为 Dynamics AX 2016 年 5 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。
@@ -186,7 +186,7 @@ ms.lasthandoff: 04/13/2018
 |                  设置物料的运输约束                   |     全局     |
 |                <strong>\</strong>*设置仓库工作策略                 |     全局     |
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)

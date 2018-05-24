@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: adbbb36da2bc1e9a2211c703823370571105ecab
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="formula-designer-in-electronic-reporting"></a>电子申报中的配方设计器
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题说明如何在电子申报 (ER) 中使用配方设计器。 在您在 ER 中为特定电子文档设计格式时，您可以使用公式转换数据，以便使其满足该文档的履行和格式的要求。 这些公式类似 Microsoft Excel 中的公式。 公式中支持各种函数类型：文本、日期和时间、数学、逻辑、信息、数据类型转换和其他（企业域特定函数）。
 
@@ -127,7 +127,7 @@ ER 表达式可以包含任意或所有以下元素：
 
 #### <a name="constants"></a>常量
 
-您可以在设计表达式时使用文本和数值常量（即未计算的值）。 例如，表达式 **VALUE ("100") + 20** 使用数值常量 **20** 和字符串常量 **“100”**，返回数值 **120**。 ER 公式设计器支持转义序列。 因此，可以指定应以不同方式处理的表达式字符串。 例如，表达式 **"Leo Tolstoy ""War and Peace"" Volume 1"** 返回文本字符串 **Leo Tolstoy "War and Peace" Volume 1**。
+您可以在设计表达式时使用文本和数值常量（即未计算的值）。 例如，表达式 **VALUE ("100") + 20** 使用数值常量 **20** 和字符串常量 **100**，返回数值 **120**。 ER 公式设计器支持转义序列。 因此，可以指定应以不同方式处理的表达式字符串。 例如，表达式 **"Leo Tolstoy ""War and Peace"" Volume 1"** 返回文本字符串 **Leo Tolstoy "War and Peace" Volume 1**。
 
 #### <a name="operators"></a>运算符
 
@@ -179,7 +179,7 @@ ER 表达式可以包含任意或所有以下元素：
 
 不代表字母的引用数据源的名称中的所有字符必须前加单引号 (')。 如果引用数据源的名称包含至少一个不代表字母的符号，名称必须以单引号括起。 （例如，这些非字母符号可以是标点符号或其他书面符号。）下面是一些示例：
 
-- **今日日期和时间**数据源必须在 ER 表达式中引用，如下所示：**“今日日期和时间”**。
+- **今日日期和时间**数据源必须在 ER 表达式中引用，如下所示：**今日日期和时间**。
 - **Customers** 数据源的 **name()** 方法必须在 ER 表达式中引用，如下所示：**Customers.'name()'**。
 
 如果 Finance and Operations 数据源的方法有参数，则使用下面的语法调用这些方法：
@@ -638,8 +638,8 @@ ER 表达式可以包含任意或所有以下元素：
 | CN\_GBT\_AdditionalDimensionID （字符串，数字） | 获取额外财务维度 ID。 维度在此字符串中显示为以逗号分隔的 ID。 在此字符串中，数字定义所请求维度的序列代码。 | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** 返回 **"CC"**。 |
 | GetCurrentCompany () | 返回用户目前已登录到的法人（公司）的代码的文本表示形式。 | **GETCURRENTCOMPANY ()** 为在 Finance and Operations 中已登录 的 **Contoso Entertainment System USA** 公司的用户返回 **USMF**。 |
 | CH\_BANK\_MOD\_10（位数） | 基于指定发票编号的数字返回贷方引用为 MOD10 表达式。 | **CH\_BANK\_MOD\_10 ("VEND-200002")** 返回 **3**。 |
-| FA\_SUM（固定资产代码，值模型代码，开始日期，结束日期） | 返回指定期间的固定资产金额的准备的数据容器。 | **FA\_SUM ("COMP-000001", "Current", Date1, Date2)** 返回具有值模型 **“Current”** 的固定资产 **"COMP-000001"** 从 **Date1** 到 **Date2** 期间的已准备的数据容器。 |
-| FA\_BALANCE（固定资产代码，值模型代码，报告年度，报告日期） | 返回固定资产余额的准备的数据容器。 报告年度必须在 Finance and Operations 中指定为 **AssetYear** 枚举的值。 | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** 返回具有值模型 **“Current”** 的固定资产 **"COMP-000001"** 的余额在当前 Finance and Operations 会话日期的准备的数据容器。 |
+| FA\_SUM（固定资产代码，值模型代码，开始日期，结束日期） | 返回指定期间的固定资产金额的准备的数据容器。 | **FA\_SUM ("COMP-000001", "Current", Date1, Date2)** 返回具有值模型 **Current** 的固定资产 **"COMP-000001"** 从 **Date1** 到 **Date2** 期间的已准备的数据容器。 |
+| FA\_BALANCE（固定资产代码，值模型代码，报告年度，报告日期） | 返回固定资产余额的准备的数据容器。 报告年度必须在 Finance and Operations 中指定为 **AssetYear** 枚举的值。 | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** 返回具有值模型 **Current** 的固定资产 **"COMP-000001"** 的余额在当前 Finance and Operations 会话日期的准备的数据容器。 |
 | TABLENAME2ID（字符串） | 为指定表名返回表 ID 的整数表示形式。 | **TABLENAME2ID ("Intrastat")** 返回 **1510**。 |
 | ISVALIDCHARACTERISO7064（字符串） | 当指定字符串表示有效的国际银行帐号 (IBAN) 时，返回布尔值 **TRUE**。 否则，返回布尔值 **FALSE**。 | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** 返回 **TRUE**。 **ISVALIDCHARACTERISO7064 ("AT61")** 返回 **FALSE**。 |
 
@@ -647,7 +647,7 @@ ER 表达式可以包含任意或所有以下元素：
 
 ER 允许您扩展 ER 表达式中使用的函数列表的功能。 需要执行一些工程工作。 有关详细信息，请参阅[扩展电子申报查询功能的列表](general-electronic-reporting-formulas-list-extension.md)。
 
-## <a name="see-also"></a>请参阅
+## <a name="additional-resources"></a>其他资源
 
 [电子申报概览](general-electronic-reporting.md)
 

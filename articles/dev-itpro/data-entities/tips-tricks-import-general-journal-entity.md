@@ -18,16 +18,16 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 688fa17072cb340d6d02be31528339fb98601825
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: eea226fae902c19d66aff83b7ee2786d1586ef39
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="best-practices-for-importing-vouchers-using-the-general-journal-entity"></a>使用普通日记帐实体导入凭证的最佳实践
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本主题提供使用普通日记帐实体将数据导入到普通日记帐的建议。  
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="voucher-number"></a>凭证号
 
--   当您在普通日记帐实体中使用**基于集的处理**设置时，凭证号必须在导入的文件中提供。 普通日记帐中的每个交易记录被分配在导入文件中提供的凭证编号，即使凭证不均衡。 如果您想要使用基于集的处理，但还需要使用为凭证号定义的编号规则，则为 2016 年 2 月版本提供修复程序。 修补程序编号为 3170316，可从 Lifecycle services (LCS) 下载。 有关详细信息，请参阅[从 Lifecycle Services 下载修补程序](..\migration-upgrade\download-hotfix-lcs.md)。
+-   当您在普通日记帐实体中使用**基于集的处理**设置时，凭证号必须在导入的文件中提供。 普通日记帐中的每个交易记录被分配在导入文件中提供的凭证编号，即使凭证不均衡。 如果您想要使用基于集的处理，但还需要使用为凭证号定义的编号规则，则为 2016 年 2 月版本提供修复程序。 修补程序编号为 3170316，可从 Lifecycle services (LCS) 下载。 有关详细信息，请参阅[从 Lifecycle Services 下载修补程序](../migration-upgrade/download-hotfix-lcs.md)。
     -   若要启用此功能，在用于导入的日记帐名称中，将**过帐时分配编号**设置为**是**。
     -   仍然必须在导入文件中定义一个凭证号。 但是，此数字是临时的并在过帐日记帐时由凭证号覆盖。 您必须确保日记帐的各行按临时凭证号进行正确分组。 例如，在过帐期间，发现三行具有临时凭证号 1。 所有三个行的临时凭证号由编号规则中的下一个编号覆盖。 如果这三行不是平衡条目，将不过帐凭证。 接下来，如果找到具有临时凭证号 2 的行，这个数字将由编号规则中的下个凭证号覆盖，依此类推。
 

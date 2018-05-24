@@ -3,7 +3,7 @@ title: "从目标客户到现金"
 description: "本主题提供在 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Sales 之间从目标客户到现金解决方案的概述。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/03/2018
+ms.date: 04/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,22 +20,24 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: bc0fa8fe3e20ae4be3e572932f99ccc54e3b746b
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: f43b3943ce27c44cc0b4756d1d5f23e3be093273
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="prospect-to-cash"></a>从目标客户到现金
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 从目标客户到现金解决方案提供跨 Dynamics 365 for Finance and Operations 与 Dynamics 365 for Sales 的直接同步。 提供“数据集成”功能的“从目标客户到现金”模板启用 Finance and Operations 与 Sales 之间的帐户、联系人、产品、销售报价、销售订单和销售发票的数据流。 当数据在 Finance and Operations 与 Sales 之间流动时，您可以在 Sales 中执行销售和市场营销活动，并可以使用 Finance and Operations 中的库存管理处理订单履行。 
 
 有关“从目标客户到现金”集成的详细信息，请观看下面的 YouTube 短视频：
 
 > [!Video https://www.youtube.com/embed/AVV9x5x-XCg]
+
+[现金集成的目标客户（YouTube 视频）](https://youtu.be/AVV9x5x-XCg) 
 
 在当前版本中，从目标客户到现金解决方案提供以下类型的直接同步：
 
@@ -76,7 +78,7 @@ ms.lasthandoff: 04/13/2018
   - **[KB4033093](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4033093&bugId=3824604&qc=bd7e15e1fb56066b3a82ce48b691cf1ffbc934a7473fa888545b2211a8d416c5)** - 需要支持通过数据实体进行从目标客户到现金的集成。
     
     > [!NOTE]
-    > 安装修补程序后，您必须从 **SalesPopulateProspectToCash** 窗体触发以下批处理作业。 因为只需要一次，因此此窗体会隐藏。 若要访问此窗体，请登录环境，然后将以下信息添加到您的浏览器地址中的 URL：&mi=action:SalesPopulateProspectToCash，例如，`https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`。 打开窗体后，单击“确定”。 这将在 **SalesLine**、**SalesQuotationLine** 和 **CustInvoiceTrans** 表中使用唯一值填充新的 **LineCreationSequnceNumber** 字段，并刷新产品列表。 这是执行从目标客户到现金的集成所必需的。
+    > 安装修补程序后，您必须从 **SalesPopulateProspectToCash** 窗体触发以下批处理作业。 因为只需要一次，因此此窗体会隐藏。 若要访问此窗体，请登录环境，然后将以下信息添加到您的浏览器地址中的 URL：*&mi=action:SalesPopulateProspectToCash*，例如，`https://ax123456.cloud.test.dynamics.com/?cmp=USMF&mi=action:SalesPopulateProspectToCash`。 打开窗体后，单击“确定”。 这将在 **SalesLine**、**SalesQuotationLine** 和 **CustInvoiceTrans** 表中使用唯一值填充新的 **LineCreationSequnceNumber** 字段，并刷新产品列表。 这是执行从目标客户到现金的集成所必需的。
 
 
 ## <a name="system-requirements-for-sales"></a>Sales 的系统要求

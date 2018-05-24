@@ -19,16 +19,16 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ea9550b7209064a2842d7e5efe55e9e51c23b9f8
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 8f0bc18dd7ead37e970b659afbb10243dac5f967
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="electronic-reporting-overview"></a>电子申报概览
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 此主题概要介绍了电子申报 (ER) 工具。 内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。
 
@@ -271,7 +271,7 @@ ER 能够将设计的格式（与已配置的数据映射一起）存储为当�
 ## <a name="handling-er-components"></a>处理 ER 组件
 ### <a name="publishing-an-er-component-in-lcs-to-offer-it-externally-localization"></a>在 LCS 中发布 ER 组件以在外部提供该组件（本地化）
 
-创建的组件（模型或格式）的所有者能够使用 ER 将已完成版本的组件发布到 LCS。 需要当前 ER 配置提供商的 **LCS 项目**类型的存储库。 当已完成版本的组件的状态从**“已完成”**更改为**“共享”**时，此版本将在 LCS 中发布。 当某个组件已发布到 LCS 时，此组件的所有者将成为支持此组件的服务的提供商。 例如，如果此格式组件可生成法律要求的电子单据（例如，根据本地化方案），将假设此格式与法律更改保持一致，且提供商将发布新的组件版本，无论是否必须满足新出现的法律要求。 若要详细了解此方案，播放 **ER 上载配置到 Lifecycle Services** 任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）以。
+创建的组件（模型或格式）的所有者能够使用 ER 将已完成版本的组件发布到 LCS。 需要当前 ER 配置提供商的 **LCS 项目**类型的存储库。 当已完成版本的组件的状态从**已完成**更改为**共享**时，此版本将在 LCS 中发布。 当某个组件已发布到 LCS 时，此组件的所有者将成为支持此组件的服务的提供商。 例如，如果此格式组件可生成法律要求的电子单据（例如，根据本地化方案），将假设此格式与法律更改保持一致，且提供商将发布新的组件版本，无论是否必须满足新出现的法律要求。 若要详细了解此方案，播放 **ER 上载配置到 Lifecycle Services** 任务指南（**7.5.4.3 获取/开发 IT 服务/解决方案组件 (10677)** 业务流程的一部分）以。
 
 ### <a name="importing-an-er-component-from-lcs-to-use-it-internally"></a>从 LCS 导入 ER 组件以在内部使用该组件
 
@@ -369,7 +369,7 @@ ER 支持在当前草稿版的派生组件中自动采用最新版本的基础�
 
 
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [本地化要求 – 创建电子申报配置](electronic-reporting-configuration.md)

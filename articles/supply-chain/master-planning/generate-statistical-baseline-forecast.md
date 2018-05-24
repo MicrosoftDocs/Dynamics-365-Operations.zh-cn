@@ -20,16 +20,16 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c71d7632cfdafe48eee49c848982dfa85116df75
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="generate-a-statistical-baseline-forecast"></a>生成统计基准预测
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文提供有关用于需求预测计算的参数和筛选器的信息。 
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 11/03/2017
 
 如果没有为大物料组生成预测，但是，例如，一次为一个物料或一个物料分配参数生成，那么为了达到更好的效果，您可以选中**主计划 - 设置 - 需求预测**  -  **需求预测参数 - Azure 机器学习**选项卡上的**使用请求响应模式**复选框。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [需求预测设置](demand-forecasting-setup.md)

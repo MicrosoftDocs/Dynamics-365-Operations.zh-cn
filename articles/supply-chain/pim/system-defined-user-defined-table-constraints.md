@@ -20,16 +20,16 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4da560ca3cce5a28edd2a00506f825d5d88ef0f3
+ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
+ms.openlocfilehash: cd5fc329877bbb1f8f4ec26191e66914da29d034
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 05/08/2018
 
 ---
 
 # <a name="system-defined-and-user-defined-table-constraints"></a>系统定义和用户定义的表约束
 
-[!INCLUDE [banner](../includes/banner.md)]
+[!include [banner](../includes/banner.md)]
 
 本文说明产品配置模型中的组件的表约束的两个类型 - 用户定义和系统定义。 表约束表示允许的属性组合的矩阵，在其中每行定义一组可能的属性值。
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 02/07/2018
 本文描述用户定义和系统定义的用于产品配置模型中的组件的表约束。
 
 ## <a name="user-defined-table-constraints"></a>用户定义的表约束
-用户定义的表约束是一种可于描述属性类型定义的属性值组合的矩阵。 例如，如果生产扬声器，您可以在用户定义的表约束中包括用于机柜表面处理和前格栅的列。 机柜表面处理的属性类型有四个值，前格栅的属性类型有三个值。 因此，如果不使用约束，有 4 × 3 = 12 个可能组合。 但是，在本示例中，只允许六个组合，如下表中所示。 此信息显示在**“编辑表约束”**页上的**“允许的组合”**选项卡上。
+用户定义的表约束是一种可于描述属性类型定义的属性值组合的矩阵。 例如，如果生产扬声器，您可以在用户定义的表约束中包括用于机柜表面处理和前格栅的列。 机柜表面处理的属性类型有四个值，前格栅的属性类型有三个值。 因此，如果不使用约束，有 4 × 3 = 12 个可能组合。 但是，在本示例中，只允许六个组合，如下表中所示。 此信息显示在**编辑表约束**页上的**允许的组合**选项卡上。
 
 | 机柜表面处理 | 前格栅 |
 |----------------|-------------|
@@ -61,7 +61,7 @@ ms.lasthandoff: 02/07/2018
 
 在表约束可以在产品配置模型上生效之前，表约束必须包括在一个模型的组件上的约束中。 过程是创建新约束，选择表约束类型，然后选择要使用的表约束定义。 最后，表中的所有字段都必须映射到产品配置模型中的属性。
 
-<a name="see-also"></a>请参阅
+<a name="additional-resources"></a>其他资源
 --------
 
 [产品配置模型中的重要概念](product-configuration-models.md)
