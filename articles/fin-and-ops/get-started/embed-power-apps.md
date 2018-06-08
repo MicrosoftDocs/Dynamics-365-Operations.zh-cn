@@ -3,7 +3,7 @@ title: "嵌入 PowerApps"
 description: "此主题描述如何将 PowerApps 嵌入到 Finance and Operations 客户端以细分该产品的功能。"
 author: jasongre
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -16,18 +16,16 @@ ms.author: jasongre
 ms.search.validFrom: 2018-02-28
 ms.dyn365.ops.version: Platform update 14
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 58b6b934c2cf65ff1f9362ce948474e374892999
+ms.sourcegitcommit: aa5eab6dbf2cc604239cac199817ead6bef6f3de
+ms.openlocfilehash: ad9fa08d22b949a61dabbb2abf5d87a612a1db7c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 06/08/2018
 
 ---
 
 # <a name="embed-powerapps"></a><span data-ttu-id="faa8b-103">嵌入 PowerApps</span><span class="sxs-lookup"><span data-stu-id="faa8b-103">Embed PowerApps</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 <span data-ttu-id="faa8b-104">在平台更新 14 中，Microsoft Dynamics 365 for Finance and Operations 支持与 Microsoft PowerApps 集成，这是一项面向为移动设备、平板电脑和 Web 构建自定义企业应用、而无需编写代码的开发人员和非技术用户的服务。</span><span class="sxs-lookup"><span data-stu-id="faa8b-104">In Platform update 14, Microsoft Dynamics 365 for Finance and Operations supports integration with Microsoft PowerApps, a service for developers and non-technical users to build custom business apps for mobile devices, tablets, and the web without writing code.</span></span> <span data-ttu-id="faa8b-105">由您、您的组织或者更广泛的生态系统开发的 PowerApps 反之可以嵌入到 Finance and Operations 客户端以细分产品的功能。</span><span class="sxs-lookup"><span data-stu-id="faa8b-105">PowerApps developed by you, your organization, or the broader ecosystem can then be embedded in the Finance and Operations client to augment the product's functionality.</span></span> <span data-ttu-id="faa8b-106">例如，您可以构建 PowerApp 来使用从其他系统检索的信息补充 Finance and Operations。</span><span class="sxs-lookup"><span data-stu-id="faa8b-106">For example, you might build a PowerApp to supplement Finance and Operations with information retrieved from another system.</span></span> 
 
