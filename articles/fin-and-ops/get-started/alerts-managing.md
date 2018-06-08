@@ -3,7 +3,7 @@ title: "预警的批处理执行"
 description: "此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 中预警的批处理的信息。"
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 06/08/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -25,8 +25,6 @@ ms.lasthandoff: 03/23/2018
 
 # <a name="batch-processing-for-alerts"></a>预警的批处理
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 预警由 Microsoft Dynamics 365 for Finance and Operations 中的批处理功能处理。 您必须首先设置批处理，然后才可以发出预警。
 
