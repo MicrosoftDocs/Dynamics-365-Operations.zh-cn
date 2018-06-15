@@ -1,9 +1,9 @@
 ---
 title: Microsoft Dynamics 365 for Talent
 description: "Talent 简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 这些流程包括员工挽留、福利管理、培训、绩效评审和变更管理。"
-author: rschloma
+author: josaw
 manager: AnnBe
-ms.date: 09/19/2017
+ms.date: 06/04/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: db8b2e87ad020dac16ec74f2fea62e445c38e116
+ms.sourcegitcommit: bde68c9167e18cae6be4988865123d20274753c0
+ms.openlocfilehash: 9bc09a822f78b9792c2afdb0d297809edea7551a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/06/2018
 
 ---
 
@@ -42,6 +42,9 @@ Microsoft Dynamics 365 for Talent 简化了很多例行记录保留任务，并�
 + 评审绩效和实现工作人员目标。
 + 设置、提供并分析包含议程、授课和跟踪的培训课程。
 
+观看视频[如何开始使用 Dynamics 365 for Talent](https://www.youtube.com/watch?v=6rg2ByadbN0)，探索 Dynamics 365 for Talent。
+
+
 > [!NOTE] 
 > Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations 中的“人力资源”密切相关。 这两种产品的功能可能存在重合。 因此，在主要涉及“人力资源”的主题中，产品名称将为 Dynamics 365 for Finance and Operations；在主要涉及 Talent 的主题中，产品名称将为 Dynamics 365 for Talent。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
@@ -55,6 +58,8 @@ Microsoft Dynamics 365 for Talent 简化了很多例行记录保留任务，并�
 -   [跨法人设置人力资源参数](set-up-hr-parameters-across-legal-entities.md) 
 -   [人事行动常见问题](personnel-actions-faq.md)
 -   [休假和缺勤概览](leave-absence-overview.md)
+-   [如何使用 Dynamics 365 for Talent：休假和缺勤（视频）](https://www.youtube.com/watch?v=1q1UhKmO4tw)
+-   [如何在 Dynamics 365 for Talent 中管理人员（视频）](https://www.youtube.com/watch?v=h1T5IjKKAuA)
 
 ## <a name="staffing-your-organization"></a>组织人员配备
 
@@ -71,6 +76,7 @@ Dynamics 365 for Talent 包括 Attract 应用，该应用可帮助您挖掘、�
 -   [薪酬流程](process-compensation.md)
 -   [创建固定薪酬计划](create-fixed-compensation-plans.md)
 -   [创建可变薪酬计划](create-variable-compensation-plans.md)
+-   [如何在 Dynamics 365 for Talent 中管理薪酬（视频）](https://www.youtube.com/watch?v=lEw5oKopHDk)
 
 ## <a name="develop-and-train-employees"></a>培养和培训员工
 
@@ -79,6 +85,7 @@ Dynamics 365 for Talent 包括 Attract 应用，该应用可帮助您挖掘、�
 -   [绩效管理](performance-management-overview.md)
 -   [使劳动力技能符合业务需求](skills.md)
 -   [通过课程管理培训](courses.md)
+-   [如何在 Dynamics 365 for Talent 中管理员工发展（视频）](https://www.youtube.com/watch?v=xB8SU7fqBOQ)
 
 ## <a name="create-and-maintain-benefits"></a>创建和维护福利
 
@@ -87,6 +94,7 @@ Dynamics 365 for Talent 包括 Attract 应用，该应用可帮助您挖掘、�
 -   [管理福利计划](manage-benefit-program.md)
 -   [福利资格策略](benefit-eligibility-policies.md)
 -   [管理借给工作人员的物品](loan-items.md)
+-   [如何在 Dynamics 365 for Talent 中管理员工福利（视频）](https://www.youtube.com/watch?v=nUWkeJTad1o)
 
 ## <a name="maintain-workplace-safety-and-compliance"></a>维护工作场所的安全和合规
 

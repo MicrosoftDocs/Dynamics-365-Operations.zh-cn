@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c925b2e996f51b8c5d5332217643c3155cfc03c0
+ms.sourcegitcommit: 4c61cb81368251540e0015e155b1cc932bf7b948
+ms.openlocfilehash: 6360bbc8e5abd94cfd1c2853bc384598047eec39
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/16/2018
 
 ---
 
@@ -106,22 +106,9 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[全球产品�
 -   [税金支付](../../financials/localizations/latam-bra-tax-payments.md)
 -   [税金](../../financials/localizations/latam-bra-calculate-taxes.md)
 
-### <a name="china"></a>中国
--   [物料清单比较](../../financials/localizations/apac-chn-bom-comparison.md)
--   [中国式凭证](../../financials/localizations/apac-chn-vouchers.md)
--   [配置税务集成](../../financials/localizations/apac-chn-tax-integration.md)
-    -   [增值税客户发票常见问题](../../financials/localizations/apac-chn-tax-integration-vat-customer-invoices.md)
-    -   [固定资产折旧方法](../../financials/localizations/apac-chn-depreciation-methods-fixed-assets.md)
--   [导入中国金税数据实体](../../financials/localizations/apac-chn-import-golden-tax-data-entity.md)
--   [每月平均成本模型](../../financials/localizations/apac-chn-monthly-average-cost-model.md)
--   [按站点过帐库存主科目](../../financials/localizations/apac-chn-post-inventory-main-accounts-by-site.md)
--   [显示会计科目的借方和贷方金额](../../financials/localizations/apac-chn-negative-debits-credits.md)
-
+### <a name="chinafinancialslocalizationschinamd"></a>[中国](../../financials/localizations/china.md)
 ### <a name="the-czech-republicfinancialslocalizationsczech-republicmd"></a>[捷克共和国](../../financials/localizations/czech-republic.md)
-
-### <a name="estonia"></a>爱沙尼亚
--   [爱沙尼亚的增值税报表明细](../../financials/localizations/emea-est-vat-statement-details.md)
--   [固定资产处置](../../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md)
+### <a name="estoniafinancialslocalizationsestoniamd"></a>[爱沙尼亚](../../financials/localizations/estonia.md)
 
 ### <a name="europe"></a>欧洲
 - [预付款持有人](../../financials/localizations/emea-advance-holders.md)
