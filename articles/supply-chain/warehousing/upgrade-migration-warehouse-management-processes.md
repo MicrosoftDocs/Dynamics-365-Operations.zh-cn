@@ -28,6 +28,7 @@ ms.lasthandoff: 05/08/2018
 
 # <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>将仓库管理从Microsoft Dynamics AX 2012 升级到 Finance and Operations
 
+
 [!include [banner](../includes/banner.md)]
 
 此主题概述运行 WMSII 模块从 Microsoft Dynamics AX 2012 R3 升级到 Microsoft Dynamics 365 for Finance and Operations 的过程。
