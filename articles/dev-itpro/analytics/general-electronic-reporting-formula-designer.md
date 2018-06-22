@@ -3,7 +3,7 @@ title: "电子申报中的配方设计器"
 description: "本主题说明如何在电子申报 (ER) 中使用配方设计器。"
 author: NickSelin
 manager: AnnBe
-ms.date: 11/27/2017
+ms.date: 04/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3988c437afda3d57e56a03264d3c1588af497920
+ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
+ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/25/2018
 
 ---
 
@@ -223,7 +223,7 @@ ER 表达式可以包含任意或所有以下元素：
 | DATEFORMAT（日期，格式） | 以指定格式返回指定日期的字符串表示形式。 | **DATEFORMAT (SESSIONTODAY (), "dd-MM-yyyy")** 根据指定的自定义格式返回当前的 Finance and Operations 会话日期 2015 年 12 月 24 日为 **"24-12-2015"**。 |
 | DATEFORMAT（日期，格式，区域性） | 转换指定的日期值为指定格式和[区域性](https://msdn.microsoft.com/en-us/goglobal/bb896001.aspx)的字符串。 （有关支持格式的信息，请参阅[标准](https://msdn.microsoft.com/en-us/library/az4se3k1(v=vs.110).aspx)和[自定义](https://msdn.microsoft.com/en-us/library/8kb3ddd4(v=vs.110).aspx)。） | **DATETIMEFORMAT (SESSIONNOW (), "d", "de")** 根据所选的德国区域性返回当前的 Finance and Operations 会话日期 2015 年 12 月 24 日为 **"24.12.2015"**。 |
 | DAYOFYEAR（日期） | 返回 1 月 1 日与指定日期之间的天数的整数表现形式。 | **DAYOFYEAR (DATEVALUE ("01-03-2016", "dd-MM-yyyy"))** 返回 **61**。 **DAYOFYEAR (DATEVALUE ("01-01-2016", "dd-MM-yyyy"))** 返回 **1**。 |
-| DAYS (date 1, date 2) | 返回指定的第一个日期与第二个日期之间的天数。 第一个日期比第二个日期晚时返回正值，第一个日期等于第二个日期时返回 **0**，否则返回负值。 | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** 返回 **-1**。 |
+| DAYS (date 1, date 2) | 返回指定的第一个日期与第二个日期之间的天数。 第一个日期比第二个日期晚时返回正值，第一个日期等于第二个日期时返回 **0**，第一个日期比第二个日期早时返回负值。 | **DAYS (TODAY (), DATEVALUE( DATETIMEFORMAT( ADDDAYS(NOW(), 1), "yyyyMMdd"), "yyyyMMdd"))** 返回 **-1**。 |
 
 ### <a name="data-conversion-functions"></a>数据转换函数
 
@@ -238,113 +238,125 @@ ER 表达式可以包含任意或所有以下元素：
 ### <a name="list-functions"></a>列表函数
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>职能</th>
 <th>说明</th>
 <th>示例</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>拆分（输入，长度）</td>
 <td>拆分指定的输入字符串为子字符串，每个子字符串具有指定的长度。 返回结果为新的列表。</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> 返回包含具有 <strong>STRING</strong> 字段的两个记录的新列表。 第一个记录中的字段包含文本 <strong>&quot;abc&quot;</strong>，第二个记录中的字段包含文本 <strong>&quot;d&quot;</strong>。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>拆分列表（列表，数字）</td>
 <td>将指定的列表拆分为多个批次，每个批次包含指定的记录数。 返回结果为包含以下元素的批次的新列表：
 <ul>
 <li>作为常规列表的批次（<strong>值</strong>组件）</li>
 <li>当前批处理号（<strong>BatchNumber</strong> 组件）</li>
-</ul></td>
+</ul>
+</td>
 <td>下图中，将创建一个<strong>行</strong>数据源以充当三条记录组成的记录列表。 此列表分为多个批次，每个批次中最多包含两条记录。
 <p><a href="./media/picture-splitlist-datasource.jpg"><img src="./media/picture-splitlist-datasource.jpg" alt="Data source that is divided into batches" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></p>
 <p>下图显示设计的格式布局。 在此格式布局中，创建了与<strong>行</strong>数据源的绑定，以便生成 XML 格式的输出。 此输出为各批次及其中的记录提供单个节点。</p>
 <p><a href="./media/picture-splitlist-format.jpg"><img src="./media/picture-splitlist-format.jpg" alt="Format layout that has bindings to a data source" class="alignnone wp-image-290691 size-full" width="374" height="161" /></a></p>
 <p>下图显示运行设计的格式的结果。</p>
-<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a></td>
+<a href="./media/picture-splitlist-result.jpg"><img src="./media/picture-splitlist-result.jpg" alt="Result of running the format" class="alignnone wp-image-290701 size-full" width="358" height="191" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LIST (record 1 [, record 2, …])</td>
 <td>返回从指定的参数创建的新列表。</td>
 <td><strong>LIST (model.MainData, model.OtherData)</strong> 返回空记录，在其中字段列表包含 <strong>MainData</strong> 和 <strong>OtherData</strong> 记录列表的所有字段。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTJOIN (list 1, list 2, …)</td>
 <td>返回从指定的参数列表的连接列表。</td>
 <td><strong>LISTJOIN (SPLIT (&quot;abc&quot;, 1), SPLIT (&quot;def&quot;, 1))</strong> 返回六个记录的列表，在其中 <strong>STRING</strong> 数据类型的一个字段包含一个字母。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>ISEMPTY（列表）</td>
 <td>如果指定的列表不包含任何元素，返回 <strong>TRUE</strong>。 否则，返回 <strong>FALSE</strong>。</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>EMPTYLIST（列表）</td>
 <td>通过使用指定的列表返回空列表为列表结构的来源。</td>
 <td><strong>EMPTYLIST (SPLIT (&quot;abc&quot;, 1))</strong> 返回具有与 <strong>SPLIT</strong> 函数返回的列表相同结构的新空列表。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>FIRST（列表）</td>
 <td>如果该记录不为空，返回指定列表的第一个记录。 否则，将引发异常。</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>FIRSTORNULL（列表）</td>
 <td>如果该记录不为空，返回指定列表的第一个记录。 否则，将返回<strong>空</strong>记录。</td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIRSTITEM（列表）</td>
 <td>返回仅包含指定列表的第一项的列表。</td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>ALLITEMS（路径）</td>
-<td>返回表示匹配指定路径的所有项的新的平展表。 路径必须定义为记录列表数据类型的数据源元素的有效数据源路径。 路径字符串和日期等数据元素应在 ER 表达式生成器中设计时引发错误。</td>
+<td>此函数作为内存内选择运行。 它返回表示匹配指定路径的所有项的新的平展表。 路径必须定义为记录列表数据类型的数据源元素的有效数据源路径。 路径字符串和日期等数据元素应在 ER 表达式生成器中设计时引发错误。</td>
 <td>如果您输入 <strong>SPLIT(&quot;abcdef&quot; , 2)</strong> 为数据源 (DS)，<strong>COUNT( ALLITEMS (DS.Value))</strong> 返回 <strong>3</strong>。</td>
 </tr>
-<tr class="odd">
+<tr>
+<td>ALLITEMSQUERY（路径）</td>
+<td>此函数返回一个联接的 SQL 查询。 它返回表示匹配指定路径的所有项的新的平展表。 指定的路径必须定义为记录列表数据类型的数据源元素的有效数据源路径，并且必须至少包含一个关系。 路径字符串和日期等数据元素应在 ER 表达式生成器中设计时引发错误。</td>
+<td>在模型映射中定义以下数据源：
+<ul>
+<li><strong>CustInv</strong>（<strong>表记录</strong>类型），引用的是 CustInvoiceTable 表</li> 
+<li><strong>FilteredInv</strong>（<strong>计算字段</strong>类型），其中包含表达式 <strong>FILTER (CustInv, CustInv.InvoiceAccount = &quot;US-001&quot;)</strong></li>
+<li><strong>JourLines</strong>（<strong>计算字段</strong>类型），其中包含表达式 <strong>ALLITEMSQUERY (FilteredInv.'&lt;Relations'.CustInvoiceJour.'&lt;Relations'.CustInvoiceTrans)</strong></li>
+</ul>
+<p>运行模型映射以调用 <strong>JourLines</strong> 数据源时，将运行以下 SQL 语句：</p>
+SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUSTINVOICETRANS T3 WHERE...
+</td>
+</tr>
+<tr>
 <td>ORDERBY（列表 [，表达式 1，表达式 2，...]）</td>
 <td>根据指定变量排序后返回指定的列表。 可将这些变量定义为表达式。</td>
 <td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> 返回升序排列的按名称排序的供应商列表。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REVERSE（列表）</td>
 <td>以反转排序顺序返回指定的列表。</td>
 <td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> 返回降序排列的按名称排序的供应商列表。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>WHERE（列表，条件）</td>
 <td>根据指定条件筛选后返回指定的列表。 将对内存中的列表应用指定条件。 因此，<strong>WHERE</strong> 函数与 <strong>FILTER</strong> 函数不同。</td>
 <td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>WHERE(Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> 返回仅包含属于供应商组 40 的供应商的列表。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>ENUMERATE（列表）</td>
 <td>返回包括指定列表的枚举记录并显示以下元素的新列表：
 <ul>
 <li>作为常规列表的指定列表记录（<strong>值</strong>组件）</li>
 <li>当前记录索引（<strong>编号</strong>组件）</li>
-</ul></td>
+</ul>
+</td>
 <td>在下图中中，<strong>枚举</strong>数据源创建为引用 VendTable 表的<strong>供应商</strong>数据源的供应商记录的枚举列表。
 <p><a href="./media/picture-enumerate-datasource.jpg"><img src="./media/picture-enumerate-datasource.jpg" alt="Enumerated data source" class="alignnone wp-image-290711 size-full" width="387" height="136" /></a></p>
 <p>下图显示格式。 在此格式布局中，创建了数据绑定，以便生成 XML 格式的输出。 此输出将单个供应商表示为枚举的节点。</p>
 <p><a href="./media/picture-enumerate-format.jpg"><img src="./media/picture-enumerate-format.jpg" alt="Format that has data bindings" class="alignnone wp-image-290721 size-full" width="414" height="138" /></a></p>
 <p>下图显示运行设计的格式的结果。</p>
-<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a></td>
+<a href="./media/picture-enumerate-result.jpg"><img src="./media/picture-enumerate-result.jpg" alt="Result of running the format" class="alignnone wp-image-290731 size-full" width="567" height="176" /></a>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>COUNT（列表）</td>
 <td>如果列表不为空，返回指定列表中的记录数。 否则，返回 <strong>0</strong>（零）。</td>
 <td><strong>COUNT (SPLIT(&quot;abcd&quot; , 3))</strong> 返回 <strong>2</strong>，因为 <strong>SPLIT</strong> 函数创建包含两个记录的列表。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LISTOFFIELDS（路径）</td>
 <td>返回从以下其中一种类型的参数创建的记录列表：
 <ul>
@@ -358,7 +370,8 @@ ER 表达式可以包含任意或所有以下元素：
 <li>标签</li>
 <li>说明</li>
 </ul>
-运行时，<strong>标签</strong>和<strong>说明</strong>字段将返回基于格式的语言设置的值。</td>
+运行时，<strong>标签</strong>和<strong>说明</strong>字段将返回基于格式的语言设置的值。
+</td>
 <td>在下图中，数据模型中引入了枚举。
 <p><a href="./media/ger-listoffields-function-model-enumeration.png"><img src="./media/ger-listoffields-function-model-enumeration-e1474545790761.png" alt="Enumeration in a model" class="alignnone wp-image-1203943 size-full" width="514" height="155" /></a></p>
 <p>下图显示以下详细信息：</p>
@@ -372,10 +385,10 @@ ER 表达式可以包含任意或所有以下元素：
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>下图显示运行设计的格式的结果。</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>
-根据父 FILE 和 FOLDER 格式元素的语言设置，在 ER 格式的输出中输入了经过翻译的标签和说明文本。</blockquote></td>
+<blockquote>[!NOTE]<br>根据父 FILE 和 FOLDER 格式元素的语言设置，在 ER 格式的输出中输入了经过翻译的标签和说明文本。</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LISTOFFIELDS (path, language)</td>
 <td>返回从变量（如模型枚举、格式枚举或容器）创建的记录列表。 创建的列表由具有以下字段的记录组成：
 <ul>
@@ -384,26 +397,27 @@ ER 表达式可以包含任意或所有以下元素：
 <li>说明</li>
 <li>已翻译</li>
 </ul>
-<p>运行时，<strong>标签</strong>和<strong>说明</strong>字段将返回基于格式的语言设置和指定语言的值。 <strong>已翻译</strong>字段指示<strong>标签</strong>字段已翻译为指定语言。</td>
+运行时，<strong>标签</strong>和<strong>说明</strong>字段将返回基于格式的语言设置和指定语言的值。 <strong>已翻译</strong>字段指示<strong>标签</strong>字段已翻译为指定语言。
+</td>
 <td>例如，使用<strong>计算字段</strong>数据源类型为 <strong>enumType</strong> 数据模型枚举配置 <strong>enumType_de</strong> 和 <strong>enumType_deCH</strong> 数据源：
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-在此情况下，可使用以下表达式获取瑞士德语（如果此翻译可用）的枚举值标签。 如果瑞士德语翻译不可用，则该标签为德语：<strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>。</td>
+在此情况下，可使用以下表达式获取瑞士德语（如果此翻译可用）的枚举值标签。 如果瑞士德语翻译不可用，则该标签为德语：<strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>。
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>STRINGJOIN（列表、字段名称，分隔符）</td>
 <td>返回由指定列表中的指定字段的连接值组成的字符串。 这些值通过指定分隔符分隔。</td>
-
-<td>如果输入 <strong>SPLIT(&quot;abc&quot; , 1)</strong> 作为数据源 (DS)，则表达式 <strong>STRINGJOIN (DS, DS.Value, &quot;:&quot;)</strong> 返回 <strong>&quot;a</strong><strong>:b</strong><strong>:c&quot;</strong>。</td>
-
+<td>如果输入 <strong>SPLIT(&quot;abc&quot; , 1)</strong> 作为数据源 (DS)，则 <strong>STRINGJOIN (DS, DS.Value, &quot;-&quot;)</strong> 返回 <strong>&quot;a-b-c&quot;</strong>。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>SPLITLISTBYLIMIT（列表、限值，源限制）</td>
-<td>将指定列表拆分为子列表组成的新列表，并返回记录列表内容的结果。 限值参数定义拆分原始列表的限值。 限制源参数定义增加总和的步骤。 如果限值源超过定义的限值时，限值不适用于原始列表的单个项目。</td>
-<td>下图显示格式及采用该格式的数据源。 
+<td>将指定列表拆分为子列表组成的新列表，并返回记录列表内容的结果。 <strong>限值</strong>参数定义拆分原始列表的限值。 <strong>限制源</strong>参数定义增加总和的步骤。 如果限值源超过定义的限值时，限值不适用于原始列表的单个项目。</td>
+<td>下图显示一个格式。 
 <p><a href="./media/ger-splitlistbylimit-format.png"><img src="./media/ger-splitlistbylimit-format.png" alt="Format" class="alignnone size-full wp-image-1204063" width="396" height="195" /></a></p>
+<p>下图显示用于该格式的数据源。</p>
 <p><a href="./media/ger-splitlistbylimit-datasources.png"><img src="./media/ger-splitlistbylimit-datasources.png" alt="Data sources" class="alignnone size-full wp-image-1204073" width="320" height="208" /></a></p>
 <p>下图显示运行该格式的结果。 在此情况下，输出为商品项目的简单列表。</p>
 <p><a href="./media/ger-splitlistbylimit-output.png"><img src="./media/ger-splitlistbylimit-output.png" alt="Output" class="alignnone size-full wp-image-1204083" width="462" height="204" /></a></p>
@@ -412,13 +426,13 @@ ER 表达式可以包含任意或所有以下元素：
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>下图显示运行调整后的格式的结果。</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>
-此限值不适用于原始列表的最后一个物料，因为其限值源（重量）的值 (11) 超出定义的限值 (9)。 在报表生成过程中（如有必要）使用相应格式元素的 <strong>WHERE</strong> 函数或 <strong>Enabled</strong> 表达式忽略（跳过）子列表。</blockquote></td>
+<blockquote>[!NOTE]<br>此限值不适用于原始列表的最后一个物料，因为其限值源（重量）的值 (11) 超出定义的限值 (9)。 在报表生成过程中（如有必要）使用相应格式元素的 <strong>WHERE</strong> 函数或 <strong>Enabled</strong> 表达式忽略（跳过）子列表。</blockquote>
+</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FILTER（列表，条件）</td>
 <td>已修改查询以针对指定条件进行筛选后，返回指定列表。 此函数与 <strong>WHERE</strong> 函数，因为指定条件适用于数据库级别的<strong>表格记录</strong>类型的任何 ER 数据源。 可使用表格和关系定义列表和条件。</td>
-  <td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> 返回仅包含属于供应商组 40 的供应商的列表。 如果<strong>供应商</strong>配置为引用 <strong>VendTable</strong> 表的 ER 数据源，并且配置为 ER 数据源的 <strong>parmVendorBankGroup</strong> 返回字符串数据类型的值，则 <strong>FILTER (Vendor.&#39;&lt;Relations&#39;.VendBankAccount, Vendor.&#39;&lt;Relations&#39;.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> 返回仅包含属于特定空白组的供应商帐户的列表。</td>
+<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> 返回仅包含属于供应商组 40 的供应商的列表。 如果 <strong>Vendor</strong> 供应商配置为引用 <strong>VendTable</strong> 表的 ER 数据源，并且配置为 ER 数据源的 <strong>parmVendorBankGroup</strong> 返回<strong>字符串</strong>数据类型的值，则 <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> 返回仅包含属于特定空白组的供应商帐户的列表。</td>
 </tr>
 </tbody>
 </table>
@@ -441,9 +455,9 @@ ER 表达式可以包含任意或所有以下元素：
 | POWER（数字，功率） | 返回将指定的正数增加到指定的功率的结果。 | **POWER (10, 2)** 返回 **100**。 |
 | NUMBERVALUE（字符串，小数分隔符，数字分组分隔符） | 将指定的字符串转换为数字。 将在十进制数字的整数和小数部分之间使用小数点分隔符。 指定的数字分组分隔符用作千分位分隔符。 | **NUMBERVALUE("1 234,56", ",", " ")** 返回值 **1234.56**。 |
 | VALUE（字符串） | 将指定的字符串转换为数字。 逗号和点字符 (.) 被视为小数分隔符，前导连字符 (-) 用作负号。 如果指定字符串中包含其他非数值字符，将引发异常。 | **VALUE ("1 234,56")** 引发异常。 |
-| ROUND（数字，小数位） | 返回已舍入到指定小数位数的指定数字：<ul><li>如果小数参数的值大于 0（零），则指定的数值舍入到这个多位小数位数。</li><li>如果小数参数的值为 **0**（零），则指定的数值舍入到最近的整数。</li><li>如果小数参数的值小于 0（零），则指定的数值舍入到小数点左边。</li></ul> | **ROUND (1200.767, 2)** 舍入到两位小数，返回 **1200.77**。 **ROUND (1200.767, -3)** 舍入到最接近的 1,000 的倍数，返回 **1000**。 |
-| ROUNDDOWN（数字，小数位） | 返回已向下舍入到指定小数位数的指定数字。<blockquote>[!NOTE]<br>此函数类似 <strong>ROUND</strong>，但始终向下（朝零）舍入到指定的数字。</blockquote> | **ROUNDDOWN (1200.767, 2)** 向下舍入到两位小数，返回 **1200.76**。 **ROUNDDOWN (1700.767, -3)** 向下舍入到最接近的 1,000 的倍数，返回 **1000**。 |
-| ROUNDUP（数字，小数位） | 返回已向上舍入到指定小数位数的指定数字。<blockquote>[!NOTE]<br>此函数类似 <strong>ROUND</strong>，但始终向上（不朝零）舍入到指定的数字。</blockquote> | **ROUNDUP (1200.763, 2)** 向上舍入到两位小数，返回 **1200.77**。 **ROUNDUP (1200.767, -3)** 向上舍入到最接近的 1,000 的倍数，返回 **2000**。 |
+| ROUND（数字，小数位） | 返回已舍入到指定小数位数的指定数字：<ul><li>如果**小数**参数的值大于 0（零），则指定的数值舍入到这个多位小数位数。</li><li>如果**小数**参数的值为 **0**（零），则指定的数值舍入到最近的整数。</li><li>如果**小数**参数的值小于 0（零），则指定的数值舍入到小数点左边。</li></ul> | **ROUND (1200.767, 2)** 舍入到两位小数，返回 **1200.77**。 **ROUND (1200.767, -3)** 舍入到最接近的 1,000 的倍数，返回 **1000**。 |
+| ROUNDDOWN（数字，小数位） | 返回已向下舍入到指定小数位数的指定数字。<blockquote>[!NOTE]<br>此函数类似 **ROUND**，但始终向下（朝零）舍入到指定的数字。</blockquote> | **ROUNDDOWN (1200.767, 2)** 向下舍入到两位小数，返回 **1200.76**。 **ROUNDDOWN (1700.767, -3)** 向下舍入到最接近的 1,000 的倍数，返回 **1000**。 |
+| ROUNDUP（数字，小数位） | 返回已向上舍入到指定小数位数的指定数字。<blockquote>[!NOTE]<br>此函数类似 **ROUND**，但始终向上（不朝零）舍入到指定的数字。</blockquote> | **ROUNDUP (1200.763, 2)** 向上舍入到两位小数，返回 **1200.77**。 **ROUNDUP (1200.767, -3)** 向上舍入到最接近的 1,000 的倍数，返回 **2000**。 |
 
 ### <a name="data-conversion-functions"></a>数据转换函数
 
@@ -460,87 +474,80 @@ ER 表达式可以包含任意或所有以下元素：
 
 | 职能 | 说明 | 示例 |
 |----------|-------------|---------|
-| NULLCONTAINER（列表） | 返回与指定的记录列表或记录具有相同结构的**空**记录。<blockquote>[!NOTE]<br>此函数已废弃。 使用 <strong>EMPTYRECORD</strong>。</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。 |
-| EMPTYRECORD（记录） | 返回与指定的记录列表或记录具有相同结构的**空**记录。<blockquote>[!NOTE]<br><strong>null</strong> 记录为其中的所有字符串都有空值的记录。 空值对于数字来说为 <strong>0</strong>（零），对于字符串来说为空字符串，依此类推。</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。 |
+| NULLCONTAINER（列表） | 返回与指定的记录列表或记录具有相同结构的**空**记录。<blockquote>[!NOTE]<br>此函数已废弃。 使用 **EMPTYRECORD**。</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。 |
+| EMPTYRECORD（记录） | 返回与指定的记录列表或记录具有相同结构的**空**记录。<blockquote>[!NOTE]<br>**null** 记录为其中的所有字符串都有空值的记录。 空值对于数字来说为 **0**（零），对于字符串来说为空字符串，依此类推。</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。 |
 
 ### <a name="text-functions"></a>文本函数
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>职能</th>
 <th>说明</th>
 <th>示例</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>UPPER（字符串）</td>
 <td>返回已转换为大写字母的指定字符串。</td>
 <td><strong>UPPER(&quot;Sample&quot;)</strong> 返回 <strong>&quot;SAMPLE&quot;</strong>。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LOWER（字符串）</td>
 <td>返回已转换为小写字母的指定字符串。</td>
 <td><strong>LOWER (&quot;Sample&quot;)</strong> 返回 <strong>&quot;sample&quot;</strong>。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>LEFT（字符串，字符数）</td>
 <td>从指定字符串的开头返回指定数目的字符。</td>
 <td><strong>LEFT (&quot;Sample&quot;, 3)</strong> 返回 <strong>&quot;Sam&quot;</strong>。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>RIGHT（字符串，字符数）</td>
 <td>从指定字符串的结尾返回指定数目的字符。</td>
 <td><strong>RIGHT (&quot;Sample&quot;, 3)</strong> 返回 <strong>&quot;ple&quot;</strong>。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>MID（字符串，起始位置，字符数）</td>
 <td>从指定位置开始返回指定字符串的指定数目的字符。</td>
 <td><strong>MID (&quot;Sample&quot;, 2, 3)</strong> 返回 <strong>&quot;amp&quot;</strong>。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>LEN（字符串）</td>
 <td>返回指定字符串中的字符数。</td>
 <td><strong>LEN (&quot;Sample&quot;)</strong> 返回 <strong>6</strong>。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>CHAR（数字）</td>
 <td>返回指定的 Unicode 数值引用的字符的字符串。</td>
 <td><strong>CHAR (255)</strong> 返回 <strong>&quot;ÿ&quot;</strong>。
-<blockquote>[!NOTE]<br>
-此函数返回的字符串取决于在父 FILE 格式元素中选择的编码。 有关支持的编码的列表，请参阅<a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">编码类</a>。</blockquote>
+<blockquote>[!NOTE]<br>此函数返回的字符串取决于在父 FILE 格式元素中选择的编码。 有关支持的编码的列表，请参阅<a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">编码类</a>。</blockquote>
 </td>
 </tr>
-<tr class="even">
+<tr>
 <td>CONCATENATE（字符串 1 [，2，…]）</td>
 <td>返回已联接为一个字符串的所有指定文本字符串。</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong>返回 <strong>&quot;abcdef&quot;</strong>。
-<blockquote>[!NOTE]<br>
-表达式 <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> 也返回 <strong>&quot;abcdef&quot;</strong>。</blockquote>
+<blockquote>[!NOTE]<br>表达式 <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> 也返回 <strong>&quot;abcdef&quot;</strong>。</blockquote>
 </td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TRANSLATE（字符串，模式，替换）</td>
 <td>返回指定串字符，其中所有在指定模式字符串中出现的字符已由指定替换字符相应位置的字符替换。</td>
 <td><strong>TRANSLATE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;)</strong> 将模式 <strong>&quot;cd&quot;</strong> 替换为字符串 <strong>&quot;GH&quot;</strong>，并返回 <strong>&quot;abGHef&quot;</strong>。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>REPLACE（字符串，模式，替换，正则表达式标志）</td>
 <td>在指定的正则表达式标记为 <strong>True</strong> 时，返回指定字符串，并且其已通过应用指定为此函数的模式参数的正则表达式来修改。 此表达式用于查找必须替换的字符。 指定的替换参数的字符用于替换找到的字符。 在指定的正则表达式标志为 <strong>False</strong> 时，此函数类似 <strong>TRANSLATE</strong>。</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> 应用删除所有非数字符号的正则表达式，并返回 <strong>&quot;19234564971&quot;</strong>。 <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> 将模式 <strong>&quot;cd&quot;</strong> 替换为字符串 <strong>&quot;GH&quot;</strong>，并返回 <strong>&quot;abGHef&quot;</strong>。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>TEXT（输入）</td>
 <td>返回指定的输入，并且其已转换为根据当前 Finance and Operations 实例的服务器区域设置设置格式的文本字符串。 对于 <strong>real</strong> 类型的值，字符串转换被限制为两位小数。</td>
 <td>如果将 Finance and Operations 实例服务器区域定义为 <strong>EN-US</strong>，<strong>TEXT (NOW ())</strong> 返回当前 Finance and Operations 会话日期 2015 年 12 月 17 日为文本字符串 <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>。 <strong>TEXT (1/3)</strong> 返回 <strong>&quot;0.33&quot;</strong>。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>FORMAT (string 1, string 2[, string 3, …])</td>
 <td>返回指定字符串，并且其已通过代替任何出现的带有第 <em>n</em> 个参数的 <strong>%N</strong> 设置格式。 这些参数是字符串。 如果参数不是为参量提供，则参量在字符串中返回为 <strong>&quot;%N&quot;</strong>。 对于 <strong>real</strong> 类型的值，字符串转换被限制为两位小数。</td>
 <td>在下图中，数据源 <strong>PaymentModel</strong> 通过<strong>客户</strong>组件返回客户记录列表，通过 <strong>ProcessingDate</strong> 字段返回处理日期值。
@@ -563,37 +570,38 @@ ER 表达式可以包含任意或所有以下元素：
 <p>如果报表于 2015 年 12 月 17 日为 <strong>Litware 零售</strong>客户处理，在 <strong>EN-US</strong> 区域性和 <strong>EN-US</strong> 语言中，此公式返回以下文本，其可能呈现为用户的异常消息：</p>
 <p>&quot;没有要打印的内容。 客户 Litware 零售已于 2015 年 12 月 17 日停止。&quot;</p>
 <p>如果 2015 年 12 月 17 日为 <strong>Litware 零售</strong>客户处理同一个报表，在 <strong>DE</strong> 区域性和 <strong>DE</strong> 语言中，此公式返回以下文本（使用不同的日期格式）：</p>
-<p>&quot;Nichts zu drucken. Debitor &#39;Litware Retail&#39; wird für 17.12.2015 gesperrt.&quot;</p>
-<blockquote>[!NOTE]<br>
-以下语法在标签的 ER 公式中应用：
+<p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt。&quot;</p>
+<blockquote>[!NOTE]<br>以下语法在标签的 ER 公式中应用：
 <ul>
 <li><strong>对于 Finance and Operations 资源的标签：</strong><strong>@&quot;X&quot;</strong>，其中 X 是应用程序对象树 (AOT) 中的标签 ID</li>
 <li><strong>对于位于 ER 配置中的标签：</strong><strong>@&quot;GER_LABEL:X&quot;</strong>，其中 X 是 ER 配置中的标签 ID</li>
-</ul></blockquote></td>
+</ul>
+</blockquote>
+</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>NUMBERFORMAT（数字，格式）</td>
 <td>以指定格式返回指定数值的字符串表示形式。 （有关支持的格式的信息，请参阅<a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">标准</a>和<a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">自定义</a>。）此函数在其中运行的环境确定设置数字格式的区域性。</td>
 <td>对于 EN-US 区域性，<strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> 返回 <strong>&quot;45.00 %&quot;</strong>。 <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> 返回 <strong>&quot;10&quot;</strong>。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>NUMERALSTOTEXT（数字，语言，币种，打印币种名称标志，小数点）</td>
-<td>返回已拼出（转换）为指定语言的文本字符串的指定数字。 语言代码可选。 定义为空字符串时，将改用运行上下文的语言代码。 （运行上下文语言代码是为生成文件夹或文件定义的。）币种代码也可选。 定义为空字符串时，采用公司币种。
-<blockquote>[!NOTE]<br>
-仅为以下语言代码分析打印币种名称标记和小数点参数：<strong>CS</strong>、<strong>ET</strong>、<strong>HU</strong>、<strong>LT</strong>、<strong>LV</strong>、<strong>PL</strong> 和 <strong>RU</strong>。 此外，仅为国家或地区的上下文支持币种名称偏差的 Finance and Operations 公司分析打印币种名称标记参数。</blockquote></td>
+<td>返回已以指定语言拼出（转换为文本字符串）的指定数字。 语言代码可选。 定义为空字符串时，将使用运行上下文的语言代码。 （运行上下文的语言代码是为生成文件夹或文件定义的。）币种代码也可选。 定义为空字符串时，采用公司币种。
+<blockquote>[!NOTE]<br>仅为以下语言代码分析<strong>打印币种名称标记</strong>和<strong>小数点</strong>参数：<strong>CS</strong>、<strong>ET</strong>、<strong>HU</strong>、<strong>LT</strong>、<strong>LV</strong>、<strong>PL</strong> 和 <strong>RU</strong>。 此外，仅为国家或地区的上下文支持币种名称偏差的 Finance and Operations 公司分析<strong>打印币种名称标记</strong>参数。</blockquote>
+</td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> 返回 <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>。 <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> 返回 <strong>&quot;Sto dwadzieścia&quot;</strong>。 <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> 返回 <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>PADLEFT（字符串，长度，填充字符）</td>
 <td>返回指定长度的字符串，其中指定字符串的开头是使用指定字符填充的。</td>
 <td><strong>PADLEFT (&quot;1234&quot;, 10, &quot;&nbsp;&quot;)</strong> 返回文本字符串 <strong>&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1234&quot;</strong>。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>TRIM（字符串）</td>
 <td>返回已截断前导空格和尾随空格且已除去单词之间的多个空格的指定文本字符串。</td>
 <td><strong>TRIM (&quot;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sample&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;text&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&quot;)</strong> 返回 <strong>&quot;Sample text&quot;</strong>。</td>
 </tr>
-<tr class="odd">
+<tr>
 <td>GETENUMVALUEBYNAME（枚举数据源路径，枚举值标签文本）</td>
 <td>根据枚举标签的指定文本返回指定枚举数据源的值。</td>
 <td>在下图中，数据模型中引入了 <strong>ReportDirection</strong> 枚举。 请注意，为枚举值定义标签。
@@ -603,7 +611,24 @@ ER 表达式可以包含任意或所有以下元素：
 <li><strong>ReportDirection</strong> 模型枚举作为数据源 <strong>$Direction</strong> 插入了报表中。</li>
 <li>ER 表达式 <strong>$IsArrivals</strong> 设计为将该模型枚举用作此函数的参数。 此表达式的值为 <strong>TRUE</strong>。</li>
 </ul>
-<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a></td>
+<a href="./media/ER-data-model-enumeration-usage.PNG"><img src="./media/ER-data-model-enumeration-usage.PNG" alt="Example of data model enumeration" class="alignnone wp-image-290681 size-full" width="397" height="136" /></a>
+</td>
+</tr>
+<tr>
+<td>GUIDVALUE（输入）</td>
+<td>将<strong>字符串</strong>数据类型的指定输入转换为 <strong>GUID</strong> 数据类型的数据项。</td>
+<td>在模型映射中定义以下数据源：
+<ul>
+<li><strong>myID</strong>（<strong>计算字段</strong>类型），其中包含表达式 <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
+<li><strong>Users</strong>（<strong>表记录</strong>类型），引用的是 UserInfo 表</li>
+</ul>
+如果定义了这些数据源，就可以使用 <strong>FILTER (Users, Users.objectId = myID)</strong> 之类表达式按 <strong>GUID</strong> 数据类型的 <strong>objectId</strong> 字段筛选 UserInfo 表。
+</td>
+</tr>
+<tr>
+<td>JSONVALUE（ID、路径）</td>
+<td>分析按指定路径访问且格式为 JavaScript Object Notation (JSON) 的数据，以便提取基于指定 ID 的标量值。</td>
+<td>数据源 <strong>$JsonField</strong> 中包含 JSON 格式的以下数据：<strong>{&quot;BuildNumber&quot;:&quot;7.3.1234.1&quot;, &quot;KeyThumbprint&quot;:&quot;7366E&quot;}</strong>。 对于此数据源，</strong>JSONVALUE ( &quot;BuildNumber&quot;, $JsonField)</strong> 返回<strong>字符串</strong>数据类型的值 <strong>7.3.1234.1</strong>。</td>
 </tr>
 </tbody>
 </table>
@@ -613,7 +638,7 @@ ER 表达式可以包含任意或所有以下元素：
 | 职能 | 说明 | 示例 |
 |----------|-------------|---------|
 | TEXT（输入） | 返回指定的输入，并且其已转换为根据当前 Finance and Operations 实例的服务器区域设置设置格式的文本字符串。 对于 **real** 类型的值，字符串转换被限制为两位小数。 | 如果将 Finance and Operations 实例服务器区域定义为 **EN-US**，**TEXT (NOW ())** 返回当前 Finance and Operations 会话日期 2015 年 12 月 17 日为文本字符串 **"12/17/2015 07:59:23 AM"**。 **TEXT (1/3)** 返回 **"0.33"**。 |
-| QRCODE（字符串） | 为指定字符串返回 base64 二进制格式的 QR 代码图像。 | **QRCODE ("Sample text")** 返回 **U2FtcGxlIHRleHQ=**。 |
+| QRCODE（字符串） | 为指定字符串返回 base64 二进制格式的快速响应码 (QR 代码) 图像。 | **QRCODE ("Sample text")** 返回 **U2FtcGxlIHRleHQ=**。 |
 
 ### <a name="data-collection-functions"></a>数据收集功能
 
@@ -623,19 +648,19 @@ ER 表达式可以包含任意或所有以下元素：
 | SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 返回 XML 节点（其名称定义为键）值的总和，该总和在执行此格式期间收集且满足指定条件（范围和值配对）。 在当前文件的**收集输出详细信息**标记关闭时返回 **0**（零）值。 | |
 | SUMIF（要合计的键字符串，条件范围字符串，条件值字符串） | 返回 XML 节点（其名称定义为键）值的总和，该总和在执行此格式期间收集且满足指定条件（范围和值）。 在当前文件的**收集输出详细信息**标记关闭时返回 **0**（零）值。 | |
 | COUNTIFS (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 返回 XML 节点的数量，该数量在此格式执行期间收集且满足指定条件（范围和值配对）。 在当前文件的**收集输出详细信息**标记关闭时返回 **0**（零）值。 | |
-| COUNTIF（范围条件字符串，条件值字符串） | 返回 XML 节点的数量，该数量在此格式执行期间收集且满足输入的条件（范围和值）。 在当前文件的标记**收集输出详细信息**关闭时返回 **0**（零）值。 | |
-| COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 返回 XML 节点的值的列表，该列表在此格式执行期间收集且满足输入的条件（范围和值）。 在当前文件的**收集输出详细信息**标记关闭时返回空列表。 | |
+| COUNTIF（范围条件字符串，条件值字符串） | 返回 XML 节点的数量，该数量在此格式执行期间收集且满足指定条件（范围和值）。 在当前文件的标记**收集输出详细信息**关闭时返回 **0**（零）值。 | |
+| COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 返回 XML 节点的值的列表，该列表在此格式执行期间收集且满足指定条件（范围和值）。 在当前文件的**收集输出详细信息**标记关闭时返回空列表。 | |
 
 ### <a name="other-business-domainspecific-functions"></a>其他（业务域特定的）函数
 
 | 职能 | 说明 | 示例 |
 |----------|-------------|---------|
 | CONVERTCURRENCY（金额，源币种，目标币种，日期，格式） | 通过使用指定日期的指定 Finance and Operations 公司的设置，将指定的货币金额从指定源币种转换为指定目标币种。 | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** 基于 DEMF 公司的设置返回当前会话日期一欧元的等额美元。 |
-| ROUNDAMOUNT（数字，小数位，舍入规则） | 根据指定的舍入规则将指定金额舍入为指定小数位数。<blockquote>[!NOTE]<br>舍入规则必须指定为 Finance and Operations <strong>RoundOffType</strong> 枚举的值。</blockquote> | 如果 **model.RoundOff** 参数设置为 **Downward**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.78**。 如果 **model.RoundOff** 参数设置为 **Normal** 或 **Rounding-up**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.79**。 |
+| ROUNDAMOUNT（数字，小数位，舍入规则） | 根据指定的舍入规则将指定金额舍入为指定小数位数。<blockquote>[!NOTE]<br>舍入规则必须指定为 Finance and Operations **RoundOffType** 枚举的值。</blockquote> | 如果 **model.RoundOff** 参数设置为 **Downward**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.78**。 如果 **model.RoundOff** 参数设置为 **Normal** 或 **Rounding-up**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.79**。 |
 | CURCredRef（位数） | 基于指定发票编号的数字返回贷方引用。 | **CURCredRef ("VEND-200002")** 返回 **"2200002"**。 |
 | MOD\_97（位数） | 基于指定发票编号的数字返回贷方引用为 MOD97 表达式。 | **MOD\_97 ("VEND-200002")** 返回 **"20000285"**。 |
 | ISOCredRef（位数） | 基于指定发票编号的数字和字母符号返回国际标准化组织 (ISO) 贷方引用。<blockquote>[!NOTE]<br>若要从不是 ISO 兼容的字母表中清除符号，输入参数必须在传递给此函数前转换。</blockquote> | **ISOCredRef ("VEND-200002")** 返回 **"RF23VEND-200002"**。 |
-| CN\_GBT\_AdditionalDimensionID （字符串，数字） | 获取额外财务维度 ID。 维度在此字符串中显示为以逗号分隔的 ID。 在此字符串中，数字定义所请求维度的序列代码。 | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** 返回 **"CC"**。 |
+| CN\_GBT\_AdditionalDimensionID （字符串，数字） | 获取指定的额外财务维度 ID。 在 **string** 参数中，维度在此字符串中显示为以逗号分隔的 ID。 **number** 参数定义字符串中所请求维度的序列代码。 | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** 返回 **"CC"**。 |
 | GetCurrentCompany () | 返回用户目前已登录到的法人（公司）的代码的文本表示形式。 | **GETCURRENTCOMPANY ()** 为在 Finance and Operations 中已登录 的 **Contoso Entertainment System USA** 公司的用户返回 **USMF**。 |
 | CH\_BANK\_MOD\_10（位数） | 基于指定发票编号的数字返回贷方引用为 MOD10 表达式。 | **CH\_BANK\_MOD\_10 ("VEND-200002")** 返回 **3**。 |
 | FA\_SUM（固定资产代码，值模型代码，开始日期，结束日期） | 返回指定期间的固定资产金额的准备的数据容器。 | **FA\_SUM ("COMP-000001", "Current", Date1, Date2)** 返回具有值模型 **Current** 的固定资产 **"COMP-000001"** 从 **Date1** 到 **Date2** 期间的已准备的数据容器。 |

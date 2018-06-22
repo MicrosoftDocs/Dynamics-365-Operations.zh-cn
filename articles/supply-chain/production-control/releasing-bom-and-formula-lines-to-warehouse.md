@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 838dc1e5867b8380823275aba5fc425003a54523
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -43,8 +43,7 @@ ms.lasthandoff: 03/07/2018
 - **作为生产或批次订单下达的一部分发放物料清单和配方行** - 在该方法中，用于生产或批次订单的物料清单和配方行作为下达订单流程的一部分进行发放。 通常在下达生产或批次订单的过程中，生产作业发放到车间工作人员，并打印生产单。 在此过程中，订单的状态也更改为**已发放**。
 - **通过批处理作业或作为手动交互发放物料清单和配方行** - 在此方法中，物料清单和配方行仅可通过**自动发放物料清单和配方行**批处理作业或作为手动交互进行发放。 要手动发放物料清单和配方行，在生产订单列表页或生产订单详细信息页的操作窗格上，选择**发放到仓库**。
 
-有关如何使用批处理作业将物料清单和配方行发布到生产的快速演示，请观看以下 YouTube 短视频：
-[!Video <https://www.youtube.com/embed/8urAJn50dQ8>]
+有关如何使用批处理作业将物料清单和配方行发布到生产的快速演示，请观看以下 YouTube 短片：[批量向仓库发放生产领料](https://www.youtube.com/watch?v=8urAJn50dQ8)。
 
 ## <a name="releasing-the-bom-and-formula-lines-by-using-a-batch-job"></a>使用批处理作业发放物料清单和配方行
 
@@ -85,8 +84,7 @@ ms.lasthandoff: 03/07/2018
 
 ![按工序编号发放物料的示例](media/two-operations.PNG)
 
-有关如何按成品数量的比例发放物料的快速演示，请观看以下 YouTube 短视频：
-[!Video <https://www.youtube.com/embed/Rm3ojAz6Zu0>]
+有关如何按照成品数量按比例发放物料的快速演示，请观看下面的 YouTube 短片：[Dynamics 365 for Finance and Operations 中的生产订单发放流程增强](https://www.youtube.com/watch?v=Rm3ojAz6Zu0)
 
 ### <a name="release-material-in-proportion-to-the-amount-of-finished-goods"></a>按成品数量的比例发放物料
 

@@ -19,16 +19,16 @@ ms.author: YuyuScheller
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1fcd82f34178e9bac72dc387399fc78e1bc5529e
+ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
+ms.openlocfilehash: 5211270eb45749529c38b3d3d9af974e7650d632
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/24/2018
 
 ---
 
 # <a name="create-service-subscriptions-from-a-project"></a>从项目创建服务预订    
 
-[包括[横幅](../includes/banner.md)
+[!include [banner](../includes/banner.md)]
 
 
 您可以从**项目管理与核算**中的项目创建服务预定。

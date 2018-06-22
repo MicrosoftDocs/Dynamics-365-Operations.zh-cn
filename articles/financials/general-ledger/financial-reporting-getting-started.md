@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fecdca72839ef8ce204b62db6e02e8fa809a30d5
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: 613fcf941576b9fb05f5c059699e4cc9c4cabe3e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -117,12 +117,9 @@ ms.lasthandoff: 05/08/2018
 ## <a name="creating-and-modifying-financial-reports"></a>创建和修改财务报表
 从财务报表列表中，您可以创建一个新的报表或修改现有的报表。 如果您具有相应的权限，则可以通过单击操作窗格上的**新建**以创建新财务报表 。 报表设计器程序将下载到您的设备。 报表设计器启动之后，您就可以创建新报表。 在您保存新的报表后，它显示在财务报表列表中。 此列表仅显示为您在 Finance and Operations 中使用的公司创建的报表。 有关在 Finance and Operations 中创建和修改财务报表的过程的详细信息，请参阅 Dynamics 财务申报博客中的 [博客文章](https://blogs.msdn.microsoft.com/dynamics_financial_reporting/tag/learning/)。 **注释：** 您用于下载报表设计器客户端的计算机上必须已安装了 Microsoft .NET Framework 版本 4.6.2。 可从[此处](https://www.microsoft.com/en-us/download/details.aspx?id=53345)下载和安装此版本的 Microsoft .NET Framework。 如果使用的是 Chrome，则必须安装 ClickOnce 扩展才能下载报表设计器客户端。 如果以匿名模式运行，请确保为匿名模式启用了 ClickOnce 扩展。 您还可以修改在财务报表列表中显示的报表。 当选择围绕报告名称的区域时，请在操作窗格上单击**编辑**。 报表设计器程序将会启动。
 
-<a name="additional-resources"></a>其他资源
---------
-
-[查看财务报表](view-financial-reports.md)
-
-[Dynamics 财务报表博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
+## <a name="additional-resources"></a>其他资源
+- [查看财务报表](view-financial-reports.md)
+- [Dynamics 财务报表博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 
