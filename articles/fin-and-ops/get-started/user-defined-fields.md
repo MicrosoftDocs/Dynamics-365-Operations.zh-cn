@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6f0257d6a16d3d53953e1fbbf023109425fa6844
+ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
+ms.openlocfilehash: f2aa55ae4258f5ef81456b92278415297c194d66
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/23/2018
 
 ---
 
@@ -34,10 +34,7 @@ ms.lasthandoff: 05/08/2018
 
 添加自定义字段功能将在平台更新 13 及以后提供。
 
-本视频体现了向页面添加自定义字段有多简单。
-
-
-> [!Video https://www.youtube.com/embed/gWSGZI9Vtnc]
+以下视频介绍向页面添加自定义字段有多轻松：[在 Dynamics 365 for Finance and Operations 中添加自定义字段](https://www.youtube.com/watch?v=gWSGZI9Vtnc)。
 
 ## <a name="creating-custom-fields"></a>创建自定义字段
 确定要在应用程序中跟踪的更多信息之后，可在相应表中创建自定义字段，并在页面中显示这个新字段。   

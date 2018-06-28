@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e85b65e116b32adca09e46252d7d3bbe5101e1cf
+ms.sourcegitcommit: 6e4f89d86b64e0c8c76c15d3c2c1c00af353e9ca
+ms.openlocfilehash: e76b29cf6312959ee84c251d582310ce4822945f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 05/17/2018
 
 ---
 
@@ -46,10 +46,14 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="configure-order-processing"></a>配置订单处理
 [设置欺诈预警](set-up-fraud-alerts.md)
+
 [手动保留订单](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>配置付款处理
 [呼叫中心内的付款方法](work-with-payments.md)
+
+## <a name="configure-delivery-modes"></a>配置交货方式
+[配置呼叫中心交货方式和费用](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>配置直接营销
 [呼叫中心目录](call-center-catalogs.md)

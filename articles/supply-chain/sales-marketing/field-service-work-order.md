@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 933d9755085d507310dd46d96a492d2124647ec3
+ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
+ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 06/07/2018
 
 ---
 
@@ -158,7 +158,7 @@ ms.lasthandoff: 05/08/2018
     - **产品行：** 估计数量 = 5ea，已使用数量 = 6ea，行状态 = 已使用，已分配 = 是
     - **服务行：** 估计数量 = 2h，已使用数量 = 1.5h，行状态 = 已使用
 
-    在此示例中，将把产品的**已使用数量**值 **6** 和服务的**估计数量**值 **1.5h** 同步到 Finance and Operations。
+    在此示例中，将把产品的**已使用数量**值 **6** 和服务的**已使用数量**值 **1.5h** 同步到 Finance and Operations。
 
 ## <a name="sales-order-origin-and-status"></a>销售订单来源和状态
 

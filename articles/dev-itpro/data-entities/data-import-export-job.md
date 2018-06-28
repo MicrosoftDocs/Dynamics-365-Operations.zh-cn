@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fc47f6cd9cfe4a850e0959bf89da086ca82f3b69
+ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
+ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 05/22/2018
 
 ---
 
@@ -96,6 +96,9 @@ ms.lasthandoff: 04/13/2018
 
 #### <a name="sorting"></a>排序
 用户可以使用**排序依据**选项按顺序查看实体列表。
+
+### <a name="truncating"></a>截断
+对于导入项目，可在导入前选择截断实体中的记录。 如果必须将记录导入一套干净的表中，这很有用。 默认情况下，此设置已关闭。
 
 ## <a name="validate-that-the-source-data-and-target-data-are-mapped-correctly"></a>验证源数据和目标数据是否正确映射
 映射是同时适用于导入和导出作业的一项功能。

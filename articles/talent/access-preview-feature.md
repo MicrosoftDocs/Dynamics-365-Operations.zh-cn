@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2e5dd8f852ac1a6c2997a50a60f03db6adfd218c
-ms.openlocfilehash: 5500bfc1cdd1949d301ae82fad5506dfdbeb59f3
+ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
+ms.openlocfilehash: 63e0a52919e12c1f497e6809244939c6047826a7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/01/2018
+ms.lasthandoff: 05/15/2018
 
 ---
 
@@ -72,8 +72,6 @@ ms.lasthandoff: 05/01/2018
     > 只有订阅了一个或多个 LinkedIn 工作清单产品的客户才可查看发布的工作。 否则，客户只有明确搜索某个工作，才能看到该工作。 工作发布到 LinkedIn 时，存在延迟。 工作从 Attract 发布后，可能需要几小时才会显示。
 
 - **候选人申请** – 内部候选人和外部候选人现在都可以直接从求职站点的工作页申请。
-- **评估** – 在可配置聘用流程中，不论是针对具体工作还是使用工作模板，用户现在都可以访问新的**评估**活动类型。 用户可以使用 Talent 中的“项目: Gauge”应用程序创建可发给候选人的基本评估。 “项目: Gauge”也处于公开预览状态。 将来会增加更多提供程序。
-- **项目: Gauge** –“项目: Gauge”是 Talent 中的一个应用程序，用于供用户创建简单评估或调查。
 - **聘约管理** – 用户现在可通过包含占位符的模板创建录用信。 在候选人推进到聘约阶段，招聘人员和和招聘经理可使用录用工具通过模板准备候选人的正式聘约，发送聘约供内部批准，最后将聘约发给候选人签署。 将随时间向聘约工具增加大量新功能，而在我们准备好发布这些功能供预览时，将使用这些功能更新以前的功能。
 
 ### <a name="core-hr"></a>Core HR
@@ -90,7 +88,7 @@ ms.lasthandoff: 05/01/2018
     - [Attract 观点](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract)
     - [Core HR](https://powerusers.microsoft.com/t5/Ideas-for-Human-Resources/idb-p/HumanResources)
 
-请勿在提交反馈或产品评论时包含个人数据（可用于确认您的身份的任何信息）。 可能会对收集的信息进行更深入的分析，但在适用的隐私法律下不会用于回应申请。 在这些计划下单独收集的个人数据应遵守 [Microsoft 隐私声明](https://privacy.microsoft.com/en-us/privacystatement)。
+请勿在提交反馈或产品评论时包含个人数据（可用于确认您的身份的任何信息）。 可能会对收集的信息进行更深入的分析，但在适用的隐私法律下不会用于回应申请。 在这些计划下单独收集的个人数据应遵守 [Microsoft 隐私声明](https://privacy.microsoft.com/privacystatement)。
 
 > [!TIP]
 > 将本主题加入书签，并经常回访以在我们发布新预览功能后随时掌握相关数据。
