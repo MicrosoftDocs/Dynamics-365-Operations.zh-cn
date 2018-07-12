@@ -78,7 +78,12 @@
         }
       }
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+         "searchScope": {
+	        "articles/talent/**.md": ["Dynamics 365", "Talent"]
+        }
+      
+    },
     "template": [],
     "dest": "d365F-O",
     "markdownEngineName": "markdig"
