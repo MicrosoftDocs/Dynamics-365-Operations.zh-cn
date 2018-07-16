@@ -3,7 +3,7 @@ title: "预警概述"
 description: "此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 中预警的一般信息。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。"
 author: tjvass
 manager: AnnBe
-ms.date: 03/20/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -27,8 +27,6 @@ ms.lasthandoff: 04/13/2018
 # <a name="alerts-overview"></a>预警概述
 
 [!include [banner](../includes/banner.md)]
-
-[!include [banner](../includes/pre-release.md)]
 
 ## <a name="about-alerts"></a>关于预警
 预警构成了 Microsoft Dynamics 365 for Finance and Operations 中重要事件的通知系统。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。 您可轻松创建自己的一套预警规则，以便获得有关逾期交货、删除订单、价格更改或其他必须响应的事件的预警。
