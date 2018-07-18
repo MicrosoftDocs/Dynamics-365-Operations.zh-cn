@@ -18,10 +18,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: d1307729945494ee78c0ca6089b384d666fe5f20
+ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
+ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 07/10/2018
 
 ---
 
@@ -87,7 +87,7 @@ ms.lasthandoff: 03/26/2018
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">智能</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">分析</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">业务文档</a></p>
-<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">财务申报</a></p>
+<p><a href="../dev-itpro/analytics/financial-reporting-intro.md">财务报告</a></p>
 <p><a href="../dev-itpro/analytics/general-electronic-reporting.md">法规报告</a></p>
 
 
@@ -114,16 +114,16 @@ ms.lasthandoff: 03/26/2018
 </td>
 <td>
 <h3>相关产品</h3>
-<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
-<p><a href="../talent/manage-benefit-program.md">福利</a></p>
-<p><a href="../talent/performance-management-overview.md">员工发展和培训</a></p>
-<p><a href="../talent/questionnaires.md">调查表</a></p>
-
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">呼叫中心</p>
 <p><a href="../retail/define-maintain-retail-channels.md">通道设置和管理</p>
 <p><a href="../retail/retail-peripherals-overview.md">MPOS 和 Cloud POS</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">Retail 开发人员和管理</p>
+
+<h4><a href="../talent/index.md">Dynamics 365 for Talent</a></h4>
+<p><a href="../talent/manage-benefit-program.md">福利</a></p>
+<p><a href="../talent/performance-management-overview.md">员工发展和培训</a></p>
+<p><a href="../talent/questionnaires.md">调查表</a></p>
 
 </td>
 </tr>
