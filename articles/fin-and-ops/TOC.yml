@@ -1653,6 +1653,7 @@
                 - name: 年终结算
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: 丹麦
+              href: ../financials/localizations/denmark.md
               items:
                 - name: 向客户帐户分配付款单格式
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1684,6 +1685,7 @@
                 - name: 增值税报表
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: 法国
+              href: ../financials/localizations/france.md
               items:
                 - name: 公共部门
                   items:
@@ -1760,6 +1762,7 @@
                 - name: 设置电子纳税申报
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: 匈牙利
+              href: ../financials/localizations/hungary.md
               items:
                 - name: 汇率计算
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1774,6 +1777,7 @@
                 - name: 年终结算
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: 冰岛
+              href: ../financials/localizations/iceland.md
               items:
                 - name: 创建供应商帐户和附加发票申报类别
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1784,6 +1788,7 @@
                 - name: 更新供应商发票申报并生成报表
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: 意大利
+              href: ../financials/localizations/italy.md
               items:
                 - name: 增值税报表明细
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1806,6 +1811,7 @@
                 - name: 预缴税金
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: 拉脱维亚
+              href: ../financials/localizations/latvia.md
               items:
                 - name: 固定资产会计
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1818,6 +1824,7 @@
                 - name: 增值税报表明细
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: 立陶宛
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: 固定资产维修报表
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1828,12 +1835,14 @@
                 - name: 增值税报表明细
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: 荷兰
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: 电子纳税申报 (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL 集成
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: 挪威
+              href: ../financials/localizations/norway.md
               items:
                 - name: 客户和供应商的付款形式
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1848,6 +1857,7 @@
                 - name: 收银机部署指南
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: 波兰
+              href: ../financials/localizations/poland.md
               items:
                 - name: 根据单位价格计算行折扣
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1870,6 +1880,7 @@
                 - name: 交易额余额对帐单
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: 西班牙
+              href: ../financials/localizations/spain.md
               items:
                 - name: 发票中含现金折扣
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1898,6 +1909,7 @@
                 - name: 特殊条目和期初单
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: 瑞典
+              href: ../financials/localizations/sweden.md
               items:
                 - name: 为瑞典审计员导出财务信息
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1906,10 +1918,12 @@
                 - name: 收银机
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: 瑞士
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: 在 ESR 中导入客户付款
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: 英国
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: '建筑行业方案 '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
