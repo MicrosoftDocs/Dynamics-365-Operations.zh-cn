@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 69b9c5590e6f9311696bbbed2e63a6eeba2a90bf
-ms.openlocfilehash: 1b93cfaf098b4cff3e72ee9bb599eadfdac2a9b9
+ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
+ms.openlocfilehash: ba2386ba51a018990cf879edcdbbaa716437a216
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/03/2018
+ms.lasthandoff: 07/21/2018
 
 ---
 

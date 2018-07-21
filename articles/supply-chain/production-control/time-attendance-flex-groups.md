@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e21a2de2f46c619f27eddad4d7cced260a90bbb8
-ms.openlocfilehash: 20f317ff57fac25b5b5b0d702fe64845eb849e87
+ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
+ms.openlocfilehash: d627f9a4a751748b534eba570d8c2423d58ce8dd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/09/2018
+ms.lasthandoff: 07/21/2018
 
 ---
 
@@ -85,7 +85,7 @@ ms.lasthandoff: 04/09/2018
 <span data-ttu-id="7ad15-142">工作人员与具有以下配置的弹性组关联：</span><span class="sxs-lookup"><span data-stu-id="7ad15-142">The worker is associated with a flex group that has the following configuration:</span></span>
 
 - <span data-ttu-id="7ad15-143">**最小弹性值：**-0.5</span><span class="sxs-lookup"><span data-stu-id="7ad15-143">**Flex minimum:** -0.5</span></span>
-- <span data-ttu-id="7ad15-144">**最小值付薪类型：**1302</span><span class="sxs-lookup"><span data-stu-id="7ad15-144">**Minimum pay type:** 1302</span></span>
+- <span data-ttu-id="7ad15-144">**最小值付薪类型：** 1302</span><span class="sxs-lookup"><span data-stu-id="7ad15-144">**Minimum pay type:** 1302</span></span>
 - <span data-ttu-id="7ad15-145">**付薪类型系数：**-1.00</span><span class="sxs-lookup"><span data-stu-id="7ad15-145">**Pay type factor:** -1.00</span></span>
 
 <span data-ttu-id="7ad15-146">按照工作人员的弹性科目与允许的弹性最小值之差的指示，超出了工作人员的允许弹性最小值 3.5 个小时。</span><span class="sxs-lookup"><span data-stu-id="7ad15-146">As the difference between the worker's flex account and his allowed flex minimum indicates, the worker has exceeded his allowed flex minimum by 3.5 hours.</span></span>
@@ -99,12 +99,12 @@ ms.lasthandoff: 04/09/2018
 
 <span data-ttu-id="7ad15-155">可弹性工作的工作人员具有正弹性科目。</span><span class="sxs-lookup"><span data-stu-id="7ad15-155">A worker who can work flexible hours has a positive flex account.</span></span>
 
-- <span data-ttu-id="7ad15-156">**弹性科目：**6</span><span class="sxs-lookup"><span data-stu-id="7ad15-156">**Flex account:** 6</span></span>
+- <span data-ttu-id="7ad15-156">**弹性科目：** 6</span><span class="sxs-lookup"><span data-stu-id="7ad15-156">**Flex account:** 6</span></span>
 
 <span data-ttu-id="7ad15-157">工作人员与具有以下配置的弹性组关联：</span><span class="sxs-lookup"><span data-stu-id="7ad15-157">The worker is associated with a flex group that has the following configuration:</span></span>
 
-- <span data-ttu-id="7ad15-158">**最大弹性值：**2.0</span><span class="sxs-lookup"><span data-stu-id="7ad15-158">**Flex maximum:** 2.0</span></span>
-- <span data-ttu-id="7ad15-159">**最小值付薪类型：**1302</span><span class="sxs-lookup"><span data-stu-id="7ad15-159">**Minimum pay type:** 1302</span></span>
+- <span data-ttu-id="7ad15-158">**最大弹性值：** 2.0</span><span class="sxs-lookup"><span data-stu-id="7ad15-158">**Flex maximum:** 2.0</span></span>
+- <span data-ttu-id="7ad15-159">**最小值付薪类型：** 1302</span><span class="sxs-lookup"><span data-stu-id="7ad15-159">**Minimum pay type:** 1302</span></span>
 - <span data-ttu-id="7ad15-160">**付薪类型系数：**-1.0</span><span class="sxs-lookup"><span data-stu-id="7ad15-160">**Pay type factor:** -1.0</span></span>
 
 <span data-ttu-id="7ad15-161">按照工作人员的弹性科目与允许的弹性最大值之差的指示，超出了工作人员的允许弹性最大值 4.0 个小时。</span><span class="sxs-lookup"><span data-stu-id="7ad15-161">As the difference between the worker's flex account and her allowed flex maximum indicates, the worker has exceeded her allowed flex maximum by 4.0 hours.</span></span>

@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
-ms.openlocfilehash: 0c1268d2fddcf7b28ecfc3197f21e9d30a5a5855
+ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
+ms.openlocfilehash: 29e5748a1e1c381febae80d02b4ac311c3f0008e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 07/21/2018
 
 ---
 
