@@ -1,16 +1,16 @@
 ---
 title: "预算计划"
-description: "此实验室的目的是提供预算计划领域中 Microsoft Dynamics 365 for Finance and Operations 功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据"
-author: twheeloc
+description: "此实验室的目的是提供预算计划领域中 Microsoft Dynamics 365 for Finance and Operations 功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。"
+author: ShylaThompson
 manager: AnnBe
-ms.date: 01/12/2018
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 10763
 ms.assetid: 0f2ba752-1f6d-4f28-b9e9-b2e97d10b6d1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 59781da7681ece1c0c013f59e0d1a5d7efc51c3a
+ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
+ms.openlocfilehash: ac2e98dbbd45becf06e28b6ea4eb9d0ec15e30f6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -30,7 +30,13 @@ ms.lasthandoff: 03/26/2018
 
 [!include [banner](../includes/banner.md)]
 
-此实验室的目的是提供预算计划领域中 Microsoft Dynamics 365 for Finance and Operations 功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：- 为预算计划创建组织层次结构和配置用户安全 - 定义预算计划方案、预算计划列、布局和 Excel 模板 - 创建和启用预算计划流程 - 通过从总帐拉出实际值创建预算计划文档 - 使用分配调整预算计划文档数据 - 在 Excel 中编辑预算计划文档数据 
+此实验室的目的是提供预算计划领域中 Microsoft Dynamics 365 for Finance and Operations 功能更新的指导性视图。 此实验室的目的是说明预算计划模块的快速配置示例，并显示如何使用此配置完成预算计划。  此实验室专门介绍以下业务流程或任务：
+- 为预算规划和配置用户安全性创建组织层次结构
+- 定义预算计划方案、预算计划列、布局和 Excel 模板
+- 创建和激活预算计划流程
+- 通过从总帐提取实际值创建预算计划文档
+- 使用分配调整预算计划文档数据
+- 在 Excel 中编辑预算计划文档数据 
 
 <a name="prerequisites"></a>必备项 
 ------------------
@@ -104,8 +110,6 @@ Julia 使用以下 Excel 模板编制预算：
 2.5。 选择“授予访问特定组织的权限”。 在第一步中选择创建的组织层次结构。 选择财务节点然后单击“授予组织及其子组织的访问权限”按钮 
 
 ***重要信息！*** *确保在执行此任务时您位于 DEMF 法人环境中，因为组织安全按法人应用* 
-
-[![授予访问权](./media/screenshot14.png)](./media/screenshot14.png)
 
 ### <a name="task-3-create-scenarios"></a>任务 3：创建方案
 3.1. 导航到“预算编制”&gt;“设置”&gt;“预算计划”&gt;>“预算计划配置”。 在“方案”页，请注意我们在此实验室将进一步使用的方案：上一年实际和预算。 

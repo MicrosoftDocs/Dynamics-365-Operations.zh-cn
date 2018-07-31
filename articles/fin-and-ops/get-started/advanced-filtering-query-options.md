@@ -1,6 +1,6 @@
 ---
 title: "高级筛选和查询语法"
-description: "本文介绍当您在“高级筛选/排序”对话框中使用“matches”运算符时可用的筛选和查询选项。"
+description: "本文介绍在“过滤器”窗格或网格列标题过滤器中使用“高级过滤器/排序”对话框或**匹配**运算符时的可用过滤和查询选项。"
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
@@ -19,10 +19,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 4361311be0cf5c33c9b2fa4700b084a7b43f5b65
+ms.sourcegitcommit: edff2fba7e231ae52abf7828d55c1fe4841ccd7f
+ms.openlocfilehash: 3e7127a9412dcf9324872c06fbf6cc3cf61bf063
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 07/06/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 04/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍当您在“高级筛选/排序”对话框中使用“matches”运算符时可用的筛选和查询选项。
+本文介绍在“过滤器”窗格或网格列标题过滤器中使用“高级过滤器/排序”对话框或**匹配**运算符时的可用过滤和查询选项。 
 
 <a name="advanced-query-syntax"></a>高级查询语法
 ---------------------
@@ -146,7 +146,7 @@ ms.lasthandoff: 04/13/2018
 <li>在<strong>表</strong>字段中，选择<strong>未结客户交易记录</strong>。</li>
 <li>在<strong>字段</strong>字段中，选择<strong>到期日期</strong>。</li>
 <li>在<strong>条件</strong>字段中，输入 <strong>(yearRange(-2,0))</strong>。</li>
-<li>单击“<strong>OK</strong>”。 更新列表页并列出与输入的条件匹配的发票。 对于此示例，在前两年到期的发票将列出。</li>
+<li>单击<strong>OK</strong>。 更新列表页并列出与输入的条件匹配的发票。 对于此示例，在前两年到期的发票将列出。</li>
 </ol>
 请参阅下一部分中的表了解有关 <strong>SysQueryRangeUtil</strong> 的其他详细信息和若干示例。</td>
 </tr>

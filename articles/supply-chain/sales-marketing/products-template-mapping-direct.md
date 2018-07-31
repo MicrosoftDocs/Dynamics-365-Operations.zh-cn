@@ -3,7 +3,7 @@ title: "将直接来自 Finance and Operations 的产品同步到 Sales"
 description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的产品同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 06/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3ae50372edcd473f2288f8172b71eac33e24b636
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 66506953790fd77c2105591d3211c76991eced08
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -48,8 +48,8 @@ ms.lasthandoff: 03/26/2018
 
 以下模板和基础任务用于将来自 Finance and Operations 的产品同步到 Sales。
 
-- **“数据集成”中模板的名称：**产品（Fin and Ops 到 Sales）- 直接
-- **数据集成项目中的任务名称：**产品
+- **数据集成中模板的名称：** 产品（Fin and Ops 到 Sales）- 直接
+- **数据集成项目中的任务名称：** 产品
 
 不需要同步任务即可进行产品同步。
 
@@ -78,7 +78,8 @@ ms.lasthandoff: 03/26/2018
 外部维护的产品自动添加到具有相同币种的第一个有效的价目表。 价目表按名称的字母顺序排列。 来自 Finance and Operations 的产品销售价格用作价目表价格。 因此，在 Sales 中必须为 Finance and Operations 中的每个产品销售币种存在一个价目表。 已发布的适售产品上的币种设置为从中导出产品的法人的记帐币种。
 
 > [!NOTE]
-> 产品同步不会成功，除非存在具有匹配币种的价目表。
+> - 产品同步不会成功，除非存在具有匹配币种的价目表。
+> - 您可以通过在数据集成项目中映射 pricelevelid.name [Default Price List (Name)]，使用集成控制所用价目表。 输入必须全部为小写字母。 例如，Sales 中名称为“Standard”的价目表的默认值为 pricelevelid.name [Default Price List (Name)]，映射类型为 [ { "transformType": "Default", "defaultValue": "standard" } ]。
 
 ## <a name="preconditions-and-mapping-setup"></a>先决条件和映射设置
 
@@ -87,7 +88,7 @@ ms.lasthandoff: 03/26/2018
     1. 在 Finance and Operations 中，使用“搜索”搜索**填充独特产品表**。
     2. 选择**填充独特产品表**以运行作业。 此作业必须只运行一次。
 
-- 确保在 **SalesUnitSymbol** 到 **DefaultUnit（名称）**的映射中存在 Finance and Operations 与 Sales 之间所需的销售度量单位 (UOM) 的值映射。
+- 确保在 **SalesUnitSymbol** 到 **DefaultUnit（名称）** 的映射中存在 Finance and Operations 与 Sales 之间所需的销售度量单位 (UOM) 的值映射。
 - 更新**单位组** (**defaultuomscheduleid.name**) 的值映射以便与 Sales 中的**单位组**匹配。
 
     默认模板值是**默认单位**。
