@@ -19,10 +19,10 @@ ms.author: twheeloc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2177110dc16528de7eddedb0667faae553a36b12
+ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
+ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -54,23 +54,24 @@ ms.lasthandoff: 02/07/2018
 
 ## <a name="additional-resources"></a>其他资源
 
-### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
+### <a name="whats-new"></a>新增功能
 
-转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。 
+转至[发行说明](https://docs.microsoft.com/en-us/business-applications-release-notes/)查看已发布了哪些新功能。 
+
+### <a name="videos"></a>视频
+
+查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
 
 ### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关应付账款的意见、新闻和其他信息以及其他解决方案。
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关应付帐款的意见、新闻和其他信息以及其他解决方案。
 
 [Microsoft Dynamics AX 产品团队博客](https://blogs.msdn.microsoft.com/dax/)上有很多有关总帐的帖子。 尽管一些文章是针对总帐的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
 
-### <a name="task-guides"></a>任务指南
-其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。
+#### <a name="community-blogs"></a>社区博客
 
-### <a name="videos"></a>视频
-
-查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
+- [Dynamics 365 for Finance and Operations 中应该了解的分类帐信息](https://financefunction.tech/2018/04/29/what-you-should-know-about-ledger-in-dynamics-365-for-finance-and-operations)
 
 

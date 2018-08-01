@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e63f2b4289b640e601492425331ea8f3804d139a
-ms.openlocfilehash: 4f505a2de89863d1a12d415795fdfb82b3557bc0
+ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
+ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
 ms.contentlocale: zh-cn
-ms.lasthandoff: 01/17/2018
+ms.lasthandoff: 06/25/2018
 
 ---
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 01/17/2018
 
 **4. 定义与标准成本差异相关的库存参数。** 
 
--  使用**库存参数**页面中的**物料清单**选项卡可以定义与标准成本有关的两个成本控制参数。 
+-  使用**库存会计政策设置 > 参数**页面中的**库存会计**选项卡可以定义与标准成本有关的两个成本控制参数。
 
     -  在**成本细分**字段中，选择**无**或**子分类帐**。 如果选择**子分类帐**，则该成本分解为*有效*成本分解。 对于跨标准成本物料的多级产品结构计算、保留和查看成本组细分，有效成本细分十分重要。 在成本细分有效时，您可以采用单个级别、多个级别或总计格式，报告和分析每个成本组的库存、在制品 (WIP) 和所售货物成本 (COGS)。 成本分解有效时，如果激活制造物料的成本，将把成本组分解存储在物料的成本记录内。 
 

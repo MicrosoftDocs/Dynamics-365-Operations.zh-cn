@@ -17,10 +17,10 @@ ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 86b301833f3655f7172e2d38ddca4239be71760c
-ms.openlocfilehash: bcb4af426e5967643a1c438bb19495576ce51b63
+ms.sourcegitcommit: 4961ee7fcc56af0646e421c9e040e2129cc322c4
+ms.openlocfilehash: e6d6ede65764c0b35c9ce0985af0d9f2cd6653c0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/26/2018
+ms.lasthandoff: 06/12/2018
 
 ---
 
@@ -58,6 +58,8 @@ Finance and Operations 中包含与以下配置键有关的验证：
 - **禁用所需的盘点** – 如果此选项设置为**是**，则继续执行对帐单过帐过程，即使对帐单的盘点金额与交易金额之差超出了零售商店的**对帐单**快速选项卡中定义的阈值。
 
 此外，**批处理**快速选项卡中已引入了**并行对帐单过帐的最大数目**字段。 此字段定义应同时运行的批处理任务数量。 现在，必须手动设置此字段的值。
+
+此外，在使用新的过帐流程时，需要在**零售参数**页**过帐**选项卡上的**礼品卡**快速选项卡中定义**礼品卡产品**。 即使组织不使用礼品卡，这一条也成立。 
 
 请注意，与对帐单过帐有关的所有设置和参数，以及在零售商店上定义和在**零售参数**页上定义的设置和参数适用于改进的对帐单过帐功能。
 

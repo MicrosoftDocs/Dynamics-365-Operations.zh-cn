@@ -1,84 +1,87 @@
-- name: 欢迎使用 Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
-- name: 入门
-  href: talent-get-started.md
   items:
-    - name: 系统要求和更新策略
-      href: talent-versions-update-policy.md
-    - name: 配置 Microsoft Dynamics 365 for Talent
-      href: provisioning-talent.md
-    - name: 删除 Talent 环境
-      href: remove-talent-environment.md
-    - name: 配置 Microsoft Dynamics 365 for Talent 模块化应用
-      href: modular-app-tech-faq.md
-    - name: 扩展 Talent 功能
-      href: extend-talent-functionality.md
-    - name: 访问 Dynamics 365 for Talent 中的预览功能
-      href: access-preview-feature.md
-- name: 制定人力资源战略
-  href: departments-jobs-positions.md
-  items:
-    - name: 设置作业组成部分
-      href: create-job.md
-    - name: 创建一个部门并将其与部门层次结构关联
-      href: create-department-add-department-hierarchy.md
-    - name: 跨法人设置人力资源参数
-      href: set-up-hr-parameters-across-legal-entities.md
-    - name: 设置特定于公司的人力资源参数
-      href: set-up-company-specific-hr-parameters.md
-    - name: 人事行动常见问题
-      href: personnel-actions-faq.md
-    - name: 确定业务流程
-      href: formalize-business-processes.md
-    - name: 使用工作流管理员工信息
-      href: workflow-manage-employee-information.md
-    - name: 休假和缺勤概览
-      href: leave-absence-overview.md
-- name: 组织人员配备
-  items:
-    - name: Attract 概述
-      href: attract-overview.md
-    - name: Onboard 概述
-      href: create-onboarding-experience.md
-- name: 激励员工
-  items:
-    - name: 薪酬计划
-      href: compensation-plans.md
-    - name: 创建固定薪酬计划
-      href: create-fixed-compensation-plans.md
-    - name: 创建可变薪酬计划
-      href: create-variable-compensation-plans.md
-    - name: 薪酬流程
-      href: process-compensation.md
-- name: 培养和培训员工
-  items:
-    - name: 绩效管理概览
-      href: performance-management-overview.md
-    - name: 使劳动力技能符合业务需求
-      href: skills.md
-    - name: 设置培训课程
-      href: courses.md
-- name: 创建和维护福利
-  href: manage-benefit-program.md
-- name: 福利资格策略
-  href: benefit-eligibility-policies.md
-  items:
-    - name: 管理借给工作人员的物品
-      href: loan-items.md
-- name: 使用调查表收集信息
-  href: questionnaires.md
-  items:
-    - name: 设计调查表
-      href: design-questionnaires.md
-    - name: 分发和完成调查表
-      href: distribute-questionnaires.md
-    - name: 评估调查表的结果
-      href: evaluate-questionnaire-results.md
-- name: 工作场所安全和合规（美国）
-  items:
-    - name: 使用 Talent 响应个人数据请求
-      href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
-    - name: 表格 I-9 工作证明
-      href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
-    - name: 符合 ADA
-      href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json
+    - name: 入门
+      href: talent-get-started.md
+      items:
+        - name: 系统要求和更新策略
+          href: talent-versions-update-policy.md
+        - name: 配置 Microsoft Dynamics 365 for Talent
+          href: provisioning-talent.md
+        - name: 删除 Talent 环境
+          href: remove-talent-environment.md
+        - name: 配置 Microsoft Dynamics 365 for Talent 模块化应用
+          href: modular-app-tech-faq.md
+        - name: 扩展 Talent 功能
+          href: extend-talent-functionality.md
+        - name: 访问 Dynamics 365 for Talent 中的预览功能
+          href: access-preview-feature.md
+        - name: 配置 Talent 以便支持工资单集成
+          href: configure-payroll-integration.md
+    - name: 制定人力资源战略
+      href: departments-jobs-positions.md
+      items:
+        - name: 设置作业组成部分
+          href: create-job.md
+        - name: 创建一个部门并将其与部门层次结构关联
+          href: create-department-add-department-hierarchy.md
+        - name: 跨法人设置人力资源参数
+          href: set-up-hr-parameters-across-legal-entities.md
+        - name: 设置特定于公司的人力资源参数
+          href: set-up-company-specific-hr-parameters.md
+        - name: 人事行动常见问题
+          href: personnel-actions-faq.md
+        - name: 确定业务流程
+          href: formalize-business-processes.md
+        - name: 使用工作流管理员工信息
+          href: workflow-manage-employee-information.md
+        - name: 休假和缺勤概览
+          href: leave-absence-overview.md
+    - name: 组织人员配备
+      items:
+        - name: Attract 概述
+          href: attract-overview.md
+        - name: Onboard 概述
+          href: create-onboarding-experience.md
+    - name: 激励员工
+      items:
+        - name: 薪酬计划
+          href: compensation-plans.md
+        - name: 创建固定薪酬计划
+          href: create-fixed-compensation-plans.md
+        - name: 创建可变薪酬计划
+          href: create-variable-compensation-plans.md
+        - name: 薪酬流程
+          href: process-compensation.md
+    - name: 培养和培训员工
+      items:
+        - name: 绩效管理概览
+          href: performance-management-overview.md
+        - name: 使劳动力技能符合业务需求
+          href: skills.md
+        - name: 设置培训课程
+          href: courses.md
+    - name: 创建和维护福利
+      href: manage-benefit-program.md
+    - name: 福利资格策略
+      href: benefit-eligibility-policies.md
+      items:
+        - name: 管理借给工作人员的物品
+          href: loan-items.md
+    - name: 使用调查表收集信息
+      href: questionnaires.md
+      items:
+        - name: 设计调查表
+          href: design-questionnaires.md
+        - name: 分发和完成调查表
+          href: distribute-questionnaires.md
+        - name: 评估调查表的结果
+          href: evaluate-questionnaire-results.md
+    - name: 工作场所安全和合规（美国）
+      items:
+        - name: 使用 Talent 响应个人数据请求
+          href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/talent/toc.json
+        - name: 表格 I-9 工作证明
+          href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/talent/toc.json
+        - name: 符合 ADA
+          href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/talent/toc.json

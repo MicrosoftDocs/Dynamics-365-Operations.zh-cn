@@ -410,151 +410,6 @@
     - name: 财务管理
       href: ../financials/index.md
       items:
-        - name: 总帐
-          href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: 帐户
-              items:
-                - name: 应计项目概览
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: 清除规则
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: 帐户和维度组合
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: 单位间核算的平衡日记帐
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: 过帐定义
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: '过帐定义示例 '
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: 总帐科目余额
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: 定义财务维度
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: 维护财务维度默认模板
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: 创建科目结构
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: 创建应计方案
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: 创建合并组和其他合并帐户
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: 主科目类型
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: 创建主科目
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: 计划您的会计科目表
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: 结算会计科目之间的交易记录
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: 设置会计科目别名
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: 设置主科目类别
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: 会计源资源管理器
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: 会计分配
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: 处理分配
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: 财务维度
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: 转换记帐或申报币种
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: 合并帐户组和帐户
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: 合并和清除概览
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 会计日历、会计年度和期间
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: 配置科目结构
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: 日记帐和分类帐
-              items:
-                - name: 普通日记帐处理
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: 过帐期间日记帐
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: 处理分类帐分配日记帐
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: 内部公司会计设置
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: 分类帐分配规则
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: 创建日记帐高级规则
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: 创建和分配高级规则结构
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: 分类帐日记帐类型
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: 创建和验证日记帐
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: 查看日记帐条目或交易记录
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: 查看日记帐的相关内部公司凭证
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: 使用模板创建日记帐条目
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: 创建分类帐应计交易记录
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: 从 Excel 发布日记帐行和单据
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: 查看日记帐条目和交易记录
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: 将过帐日记帐条目记入日记帐
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: 合并公司中的币种重估
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: 总帐的外币重估
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: 导入币种汇率
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-            - name: 期间结束关闭
-              items:
-                - name: 在期间结束时关闭总帐
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: 财务期间结帐工作区
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: 年终结算
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: 结算会计年度
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: 批量财务期间结帐
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: 销售税
-              items:
-                - name: 销售税概览
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: 基于边际基数和计算方法的销售税率
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: 销售税支付和舍入规则
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: “源”字段中的销售税计算方法
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: 全部金额和销售税代码的间隔计算选项
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: 计算和调整供应商发票上的销售税
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: 创建销售税支付
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: 在单据中创建销售税交易记录
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: 设置销售税分类帐记帐组
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: 设置销售税主管机构
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: 设置销售税代码
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: 设置销售税组和物料销售税组
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: 设置销售税申报代码
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: 设置销售税结算期间
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: 设置预缴税金
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: 查看已过帐的销售税交易记录
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: 应付帐款
           href: ../financials/accounts-payable/accounts-payable.md
           items:
@@ -660,11 +515,15 @@
               href: ../financials/accounts-receivable/sepa-direct-debit-overview.md
             - name: SEPA 直接借记授权单
               href: ../financials/accounts-receivable/sepa-direct-debit-mandate.md
-            - name: 信用卡设置、授权和捕获
+            - name: 信用卡设置、授权和获取
               href: ../financials/accounts-receivable/credit-card-authorizations.md
+            - name: 创建普通发票
+              href: ../financials/accounts-receivable/create-free-text-invoice-new.md
+            - name: 创建普通发票模板
+              href: ../financials/accounts-receivable/create-free-text-invoice-template-new.md
             - name: 更正普通发票
               href: ../financials/accounts-receivable/correct-free-text-invoice.md
-            - name: 为利息代码设置多种利率
+            - name: 设置利息代码利率
               href: ../financials/accounts-receivable/set-up-interest-rates-interest-code.md
             - name: 停征、复征或冲销利息费
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
@@ -682,12 +541,6 @@
                   href: ../financials/accounts-receivable/tasks/assign-free-text-invoice-template-customer.md
                 - name: 创建催款单序列
                   href: ../financials/accounts-receivable/tasks/create-collection-letter-sequence.md
-                - name: 为客户创建直接借记授权单
-                  href: ../financials/accounts-receivable/tasks/create-direct-debit-mandate-customer.md
-                - name: 创建普通发票
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice.md
-                - name: 创建普通发票模板
-                  href: ../financials/accounts-receivable/tasks/create-free-text-invoice-template.md
                 - name: 创建带范围的利息代码
                   href: ../financials/accounts-receivable/tasks/create-interest-code-range.md
                 - name: 创建销售订单发票
@@ -732,6 +585,31 @@
                   href: ../financials/accounts-receivable/reimburse-customers.md
                 - name: 部分金额的客户付款
                   href: ../financials/accounts-receivable/customer-payments-partial-amount.md
+        - name: 预算编制
+          href: ../financials/budgeting/budgeting-overview.md
+          items:
+            - name: '预算计划概览 '
+              href: ../financials/budgeting/budget-planning-overview-configuration.md
+            - name: '预算控制概览 '
+              href: ../financials/budgeting/budget-control-overview-configuration.md
+            - name: '预算编制概览 '
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: 职位预测
+              href: ../financials/budgeting/position-forecasting.md
+            - name: 预算计划证明文档
+              href: ../financials/budgeting/budget-planning-justification-docs.md
+            - name: 从交易记录科目和合计科目创建预算
+              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
+            - name: Excel 的预算计划模板
+              href: ../financials/budgeting/budget-planning-excel-templates.md
+            - name: 职位预算编制故障排除
+              href: ../financials/budgeting/position-budgeting-set-up-issues.md
+            - name: 预算计划
+              href: ../financials/budgeting/budget-plan.md
+            - name: 预算计划数据分配
+              href: ../financials/budgeting/budget-planning-data-allocation.md
+            - name: 预算计划与其他模块的集成
+              href: ../financials/budgeting/budget-planning-integration-other-modules.md
         - name: 现金和银行管理
           href: ../financials/cash-bank-management/cash-bank-management.md
           items:
@@ -811,6 +689,112 @@
                   href: ../financials/cash-bank-management/import-bank-statement-file-failed-incorrect-results.md
                 - name: 更新银行日记帐组合实体
                   href: ../financials/cash-bank-management/upgrade-bank-journal-composite-entity.md
+        - name: 成本核算
+          href: ../financials/cost-accounting/cost-accounting-home-page.md
+          items:
+            - name: 成本核算术语
+              href: ../financials/cost-accounting/terms-cost-accounting.md
+            - name: 会计日历、会计年度和期间
+              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+            - name: 财务维度
+              href: ../financials/general-ledger/financial-dimensions.md
+            - name: 科目结构
+              href: ../financials/general-ledger/Default-dimensions.md
+            - name: 创建科目结构
+              href: ../financials/general-ledger/tasks/create-account-structures.md
+            - name: 预算编制概览
+              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
+            - name: 创建维度并导入维度成员
+              href: ../financials/cost-accounting/cost-dimension.md
+            - name: 成本元素维度
+              href: ../financials/cost-accounting/cost-elements.md
+            - name: 创建成本元素
+              href: ../financials/cost-accounting/tasks/create-cost-elements.md
+            - name: 成本对象维度
+              href: ../financials/cost-accounting/cost-objects.md
+            - name: 创建成本对象
+              href: ../financials/cost-accounting/tasks/create-cost-objects.md
+            - name: 将成本元素维度成员映射到一组常用维度成员
+              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
+            - name: 映射成本元素维度
+              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
+            - name: 维度层次结构
+              href: ../financials/cost-accounting/dimension-hierarchy.md
+            - name: 创建组织报告层次结构
+              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
+            - name: 成本对象控制器的访问权限
+              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
+            - name: 配置成本对象控制器的访问权限
+              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
+            - name: 定义成本控制单元
+              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
+            - name: 创建成本核算分类帐
+              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
+            - name: 统计维度成员和统计度量提供方模板
+              href: ../financials/cost-accounting/statistical-measure-provider-template.md
+            - name: 分配基数
+              href: ../financials/cost-accounting/allocation-bases.md
+            - name: 创建成本分配政策并将其分配到成本控制单元
+              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
+            - name: 创建成本行为策略并将其分配到成本控制单元
+              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
+            - name: 创建成本分配政策并将其分配到成本控制单元
+              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
+            - name: 创建成本累积政策
+              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
+            - name: 管理成本核算分类帐的数据源
+              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
+            - name: 处理和跟踪源数据
+              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
+            - name: 开销计算
+              href: ../financials/cost-accounting/overhead-calculation.md
+            - name: 成本累积政策和开销计算
+              href: ../financials/cost-accounting/cost-rollup.md
+            - name: 配置成本控制工作区
+              href: ../financials/cost-accounting/cost-control-workspace.md
+            - name: 配置成本控制工作区参数
+              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
+            - name: 了解 Microsoft Power BI 中的访问权限列表安全和 RLS
+              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: 使用针对 Microsoft Power BI 报告的内容包
+              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
+            - name: 使用针对 Finance and Operations 移动应用程序的成本控制工作区
+              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+        - name: 费用管理
+          href: ../financials/expense-management/expense-management.md
+          items:
+            - name: 计划费用管理
+              href: ../financials/expense-management/plan-expense-management.md
+            - name: 费用管理参数
+              href: ../financials/expense-management/Expense-Management-Parameters.md
+            - name: 费用管理移动工作区
+              href: ../financials/expense-management/expense-management-mobile-workspace.md
+            - name: 设置费用管理的工作流
+              href: ../financials/expense-management/expense-workflows.md
+            - name: 出差费用管理工作流
+              href: ../financials/expense-management/expense-workflow.md
+            - name: 导入和维护信用卡交易记录
+              href: ../financials/expense-management/import-credit-card.md
+            - name: 费用报表上的分配
+              href: ../financials/expense-management/expense-report-distributions.md
+            - name: 内部公司支出
+              href: ../financials/expense-management/intercompany-expense.md
+            - name: 支出策略
+              href: ../financials/expense-management/travel-expense-policies.md
+            - name: 查看支出报表
+              href: ../financials/expense-management/view-expense-report.md
+            - name: 发布支出报表
+              href: ../financials/expense-management/post-expense.md
+            - name: 支出报表和多个审核人
+              href: ../financials/expense-management/expense-report-multiple-approvers.md
+            - name: 支出管理中的增值税退税
+              href: ../financials/expense-management/VAT-expense-report.md
+            - name: 出差津贴规则
+              href: ../financials/expense-management/per-diem.md
+            - name: 出差申请
+              href: ../financials/expense-management/travel-req.md
+            - name: 支出报表上的人员支出
+              href: ../financials/expense-management/personal-expenses.md
         - name: 固定资产
           href: ../financials/fixed-assets/fixed-assets.md
           items:
@@ -916,152 +900,151 @@
                   href: ../financials/fixed-assets/tasks/split-fixed-asset.md
                 - name: 转移固定资产
                   href: ../financials/fixed-assets/tasks/transfer-fixed-asset.md
-        - name: 费用管理
-          href: ../financials/expense-management/expense-management.md
+        - name: 总帐
+          href: ../financials/general-ledger/general-ledger.md
           items:
-            - name: 计划费用管理
-              href: ../financials/expense-management/plan-expense-management.md
-            - name: 费用管理参数
-              href: ../financials/expense-management/Expense-Management-Parameters.md
-            - name: 费用管理移动工作区
-              href: ../financials/expense-management/expense-management-mobile-workspace.md
-            - name: 设置费用管理的工作流
-              href: ../financials/expense-management/expense-workflows.md
-            - name: 出差费用管理工作流
-              href: ../financials/expense-management/expense-workflow.md
-            - name: 导入和维护信用卡交易记录
-              href: ../financials/expense-management/import-credit-card.md
-            - name: 费用报表上的分配
-              href: ../financials/expense-management/expense-report-distributions.md
-            - name: 内部公司支出
-              href: ../financials/expense-management/intercompany-expense.md
-            - name: 支出策略
-              href: ../financials/expense-management/travel-expense-policies.md
-            - name: 查看支出报表
-              href: ../financials/expense-management/view-expense-report.md
-            - name: 发布支出报表
-              href: ../financials/expense-management/post-expense.md
-            - name: 支出报表和多个审核人
-              href: ../financials/expense-management/expense-report-multiple-approvers.md
-            - name: 支出管理中的增值税退税
-              href: ../financials/expense-management/VAT-expense-report.md
-            - name: 出差津贴规则
-              href: ../financials/expense-management/per-diem.md
-            - name: 出差申请
-              href: ../financials/expense-management/travel-req.md
-            - name: 支出报表上的人员支出
-              href: ../financials/expense-management/personal-expenses.md
-        - name: 预算编制
-          href: ../financials/budgeting/budgeting-overview.md
-          items:
-            - name: '预算计划概览 '
-              href: ../financials/budgeting/budget-planning-overview-configuration.md
-            - name: '预算控制概览 '
-              href: ../financials/budgeting/budget-control-overview-configuration.md
-            - name: '预算编制概览 '
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: 职位预测
-              href: ../financials/budgeting/position-forecasting.md
-            - name: 预算计划证明文档
-              href: ../financials/budgeting/budget-planning-justification-docs.md
-            - name: 从交易记录科目和合计科目创建预算
-              href: ../financials/budgeting/create-budget-transaction-accounts-total-accounts.md
-            - name: Excel 的预算计划模板
-              href: ../financials/budgeting/budget-planning-excel-templates.md
-            - name: 职位预算编制故障排除
-              href: ../financials/budgeting/position-budgeting-set-up-issues.md
-            - name: 预算计划
-              href: ../financials/budgeting/budget-plan.md
-            - name: 预算计划数据分配
-              href: ../financials/budgeting/budget-planning-data-allocation.md
-            - name: 预算计划与其他模块的集成
-              href: ../financials/budgeting/budget-planning-integration-other-modules.md
-        - name: 申报
-          href: ../financials/general-ledger/financial-reporting-getting-started.md
-          items:
-            - name: 资产负债表财务报表
-              href: ../financials/general-ledger/balance-sheet-financial-reports.md
-            - name: 生成财务报表
-              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-            - name: 收入报表财务报告
-              href: ../financials/general-ledger/income-statement-financial-report.md
-            - name: 试算平衡表财务报表
-              href: ../financials/general-ledger/trial-balance-financial-reports.md
-            - name: 查看财务报表
-              href: ../financials/general-ledger/view-financial-reports.md
-            - name: 报表设计器
-              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: 成本核算
-          href: ../financials/cost-accounting/cost-accounting-home-page.md
-          items:
-            - name: 成本核算术语
-              href: ../financials/cost-accounting/terms-cost-accounting.md
-            - name: 会计日历、会计年度和期间
-              href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-            - name: 财务维度
-              href: ../financials/general-ledger/financial-dimensions.md
-            - name: 科目结构
-              href: ../financials/general-ledger/Default-dimensions.md
-            - name: 创建科目结构
-              href: ../financials/general-ledger/tasks/create-account-structures.md
-            - name: 预算编制概览
-              href: ../financials/budgeting/basic-budgeting-overview-configuration.md
-            - name: 创建维度并导入维度成员
-              href: ../financials/cost-accounting/cost-dimension.md
-            - name: 成本元素维度
-              href: ../financials/cost-accounting/cost-elements.md
-            - name: 创建成本元素
-              href: ../financials/cost-accounting/tasks/create-cost-elements.md
-            - name: 成本对象维度
-              href: ../financials/cost-accounting/cost-objects.md
-            - name: 创建成本对象
-              href: ../financials/cost-accounting/tasks/create-cost-objects.md
-            - name: 将成本元素维度成员映射到一组常用维度成员
-              href: ../financials/cost-accounting/map-cost-elements-dimension-members.md
-            - name: 映射成本元素维度
-              href: ../financials/cost-accounting/tasks/map-cost-element-dimension.md
-            - name: 维度层次结构
-              href: ../financials/cost-accounting/dimension-hierarchy.md
-            - name: 创建组织报告层次结构
-              href: ../financials/cost-accounting/tasks/create-an-organization-report-hierarchy.md
-            - name: 成本对象控制器的访问权限
-              href: ../financials/cost-accounting/access-rights-cost-object-controller.md
-            - name: 配置成本对象控制器的访问权限
-              href: ../financials/cost-accounting/tasks/configure-access-rights-cost-object-controller.md
-            - name: 定义成本控制单元
-              href: ../financials/cost-accounting/tasks/define-cost-control-units.md
-            - name: 创建成本核算分类帐
-              href: ../financials/cost-accounting/tasks/create-cost-accounting-ledger.md
-            - name: 统计维度成员和统计度量提供方模板
-              href: ../financials/cost-accounting/statistical-measure-provider-template.md
-            - name: 分配基数
-              href: ../financials/cost-accounting/allocation-bases.md
-            - name: 创建成本分配政策并将其分配到成本控制单元
-              href: ../financials/cost-accounting/tasks/create-assign-cost-allocation-policy-cost-control-unit.md
-            - name: 创建成本行为策略并将其分配到成本控制单元
-              href: ../financials/cost-accounting/tasks/create-assign-cost-behavior-policy-cost-control-unit.md
-            - name: 创建成本分配政策并将其分配到成本控制单元
-              href: ../financials/cost-accounting/tasks/create-assign-cost-distribution-policy-cost-control-unit.md
-            - name: 创建成本累积政策
-              href: ../financials/cost-accounting/tasks/create-cost-rollup-policy.md
-            - name: 管理成本核算分类帐的数据源
-              href: ../financials/cost-accounting/tasks/manage-data-source-cost-accounting-ledger.md
-            - name: 处理和跟踪源数据
-              href: ../financials/cost-accounting/tasks/process-trace-source-data.md
-            - name: 开销计算
-              href: ../financials/cost-accounting/overhead-calculation.md
-            - name: 成本累积政策和开销计算
-              href: ../financials/cost-accounting/cost-rollup.md
-            - name: 配置成本控制工作区
-              href: ../financials/cost-accounting/cost-control-workspace.md
-            - name: 配置成本控制工作区参数
-              href: ../financials/cost-accounting/tasks/configure-cost-control-workspace-parameters.md
-            - name: 了解 Microsoft Power BI 中的访问权限列表安全和 RLS
-              href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: 使用针对 Microsoft Power BI 报告的内容包
-              href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: 使用针对 Finance and Operations 移动应用程序的成本控制工作区
-              href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
+            - name: 帐户
+              items:
+                - name: 应计项目概览
+                  href: ../financials/general-ledger/accruals-overview.md
+                - name: 清除规则
+                  href: ../financials/general-ledger/elimination-rules.md
+                - name: 帐户和维度组合
+                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
+                - name: 单位间核算的平衡日记帐
+                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
+                - name: 过帐定义
+                  href: ../financials/general-ledger/posting-definitions.md
+                - name: '过帐定义示例 '
+                  href: ../financials/general-ledger/example-posting-definitions.md
+                - name: 总帐科目余额
+                  href: ../financials/general-ledger/general-ledger-account-balances.md
+                - name: 定义财务维度
+                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
+                - name: 维护财务维度默认模板
+                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
+                - name: 创建科目结构
+                  href: ../financials/general-ledger/tasks/create-account-structures.md
+                - name: 创建应计方案
+                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
+                - name: 创建合并组和其他合并帐户
+                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
+                - name: 主科目类型
+                  href: ../financials/general-ledger/main-account-types.md
+                - name: 创建主科目
+                  href: ../financials/general-ledger/tasks/create-main-account.md
+                - name: 计划您的会计科目表
+                  href: ../financials/general-ledger/plan-chart-of-accounts.md
+                - name: 结算会计科目之间的交易记录
+                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
+                - name: 设置会计科目别名
+                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
+                - name: 设置主科目类别
+                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
+                - name: 会计源资源管理器
+                  href: ../financials/accounts-payable/accounting-source-explorer.md
+                - name: 会计分配
+                  href: ../financials/accounts-payable/accounting-distributions.md
+                - name: 处理分配
+                  href: ../financials/general-ledger/process-allocations.md
+                - name: 财务维度
+                  href: ../financials/general-ledger/financial-dimensions.md
+                - name: 转换记帐或申报币种
+                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
+                - name: 合并帐户组和帐户
+                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
+                - name: 合并和清除概览
+                  href: ../financials/budgeting/consolidation-elimination-overview.md
+                - name: 会计日历、会计年度和期间
+                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
+                - name: 配置科目结构
+                  href: ../financials/general-ledger/configure-account-structures.md
+            - name: 日记帐和分类帐
+              items:
+                - name: 普通日记帐处理
+                  href: ../financials/general-ledger/general-journal-processing.md
+                - name: 过帐期间日记帐
+                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
+                - name: 处理分类帐分配日记帐
+                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
+                - name: 内部公司会计设置
+                  href: ../financials/general-ledger/intercompany-accounting-setup.md
+                - name: 分类帐分配规则
+                  href: ../financials/general-ledger/ledger-allocation-rules.md
+                - name: 创建日记帐高级规则
+                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
+                - name: 创建和分配高级规则结构
+                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
+                - name: 分类帐日记帐类型
+                  href: ../financials/general-ledger/ledger-journal-types.md
+                - name: 创建和验证日记帐
+                  href: ../financials/general-ledger/tasks/create-validate-journals.md
+                - name: 查看日记帐条目或交易记录
+                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
+                - name: 查看日记帐的相关内部公司凭证
+                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
+                - name: 使用模板创建日记帐条目
+                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
+                - name: 创建分类帐应计交易记录
+                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
+                - name: 从 Excel 发布日记帐行和单据
+                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
+                - name: 查看日记帐条目和交易记录
+                  href: ../financials/general-ledger/view-journal-entries-transactions.md
+                - name: 将过帐日记帐条目记入日记帐
+                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
+                - name: 合并公司中的币种重估
+                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
+                - name: 总帐的外币重估
+                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
+                - name: 导入币种汇率
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
+            - name: 期间结束关闭
+              items:
+                - name: 在期间结束时关闭总帐
+                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
+                - name: 财务期间结帐工作区
+                  href: ../financials/general-ledger/financial-period-close-workspace.md
+                - name: 年终结算
+                  href: ../financials/general-ledger/year-end-close.md
+                - name: 结算会计年度
+                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
+                - name: 批量财务期间结帐
+                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
+            - name: 销售税
+              items:
+                - name: 销售税概览
+                  href: ../financials/general-ledger/indirect-taxes-overview.md
+                - name: 基于边际基数和计算方法的销售税率
+                  href: ../financials/general-ledger/marginal-base-field.md
+                - name: 销售税支付和舍入规则
+                  href: ../financials/general-ledger/round-sales-tax-payments.md
+                - name: “源”字段中的销售税计算方法
+                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+                - name: 全部金额和销售税代码的间隔计算选项
+                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+                - name: 计算和调整供应商发票上的销售税
+                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
+                - name: 创建销售税支付
+                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
+                - name: 在单据中创建销售税交易记录
+                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
+                - name: 设置销售税分类帐记帐组
+                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
+                - name: 设置销售税主管机构
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
+                - name: 设置销售税代码
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
+                - name: 设置销售税组和物料销售税组
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
+                - name: 设置销售税申报代码
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
+                - name: 设置销售税结算期间
+                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
+                - name: 设置预缴税金
+                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
+                - name: 查看已过帐的销售税交易记录
+                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
         - name: 公共部门
           href: ../financials/public-sector/public-sector-functionality.md
           items:
@@ -1149,31 +1132,41 @@
                   href: ../financials/public-sector/tasks/set-up-fund-public-sector.md
                 - name: 在公共部门中设置采购协议分类
                   href: ../financials/public-sector/tasks/set-up-purchase-agreement-classifications-public-sector.md
-    - name: 财务申报
-      href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
-      items:
-        - name: 生成财务报表
-          href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
-        - name: 财务报表组件
-          href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
-        - name: 报表设计器
-          href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
-        - name: 用户首选项
-          href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: 高级格式选项
-          href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: 组织报表组件
-          href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
-        - name: 报表定义
-          href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
-        - name: 行定义
-          href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: 列定义
-          href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
-        - name: 修改行定义单元格
-          href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
-        - name: 还原数据库后重置财务申报数据市场
-          href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: 财务报告
+          href: ../financials/general-ledger/financial-reporting-getting-started.md
+          items:
+            - name: 财务报告概览
+              href: ../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json
+            - name: 财务报告组件
+              href: ../dev-itpro/analytics/financial-report-components.md?toc=/fin-and-ops/toc.json
+            - name: 资产负债表财务报表
+              href: ../financials/general-ledger/balance-sheet-financial-reports.md
+            - name: 生成财务报表
+              href: ../dev-itpro/analytics/generate-financial-report.md?toc=/fin-and-ops/toc.json
+            - name: 收入报表财务报告
+              href: ../financials/general-ledger/income-statement-financial-report.md
+            - name: 试算平衡表财务报表
+              href: ../financials/general-ledger/trial-balance-financial-reports.md
+            - name: 查看财务报表
+              href: ../financials/general-ledger/view-financial-reports.md
+            - name: 报表设计器
+              href: ../dev-itpro/analytics/report-designer-interface.md?toc=/fin-and-ops/toc.json
+            - name: 用户首选项
+              href: ../dev-itpro/analytics/user-preferences-financial-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: 高级格式选项
+              href: ../dev-itpro/analytics/advanced-formatting-options-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: 组织报表组件
+              href: ../dev-itpro/analytics/organize-components-report-designer.md?toc=/fin-and-ops/toc.json
+            - name: 报表定义
+              href: ../dev-itpro/analytics/design-financial-report-definitions.md?toc=/fin-and-ops/toc.json
+            - name: 行定义
+              href: ../dev-itpro/analytics/row-definitions-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: 列定义
+              href: ../dev-itpro/analytics/column-definitions-financial-reports.md?toc=/fin-and-ops/toc.json
+            - name: 修改行定义单元格
+              href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
+            - name: 还原数据库后重置财务报告数据市场
+              href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
     - name: 本地化和监管功能
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -1660,6 +1653,7 @@
                 - name: 年终结算
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: 丹麦
+              href: ../financials/localizations/denmark.md
               items:
                 - name: 向客户帐户分配付款单格式
                   href: ../financials/localizations/tasks/assign-payment-slip-format-customer-account.md
@@ -1691,6 +1685,7 @@
                 - name: 增值税报表
                   href: ../financials/localizations/emea-est-vat-statement-details.md
             - name: 法国
+              href: ../financials/localizations/france.md
               items:
                 - name: 公共部门
                   items:
@@ -1767,6 +1762,7 @@
                 - name: 设置电子纳税申报
                   href: ../dev-itpro/analytics/tasks/setup-electronic-tax-declaration-germany.md?toc=/fin-and-ops/toc.json
             - name: 匈牙利
+              href: ../financials/localizations/hungary.md
               items:
                 - name: 汇率计算
                   href: ../financials/localizations/tasks/hu-00001-exchange-rate-calculation.md
@@ -1781,6 +1777,7 @@
                 - name: 年终结算
                   href: ../financials/localizations/emea-cze-hun-year-end.md
             - name: 冰岛
+              href: ../financials/localizations/iceland.md
               items:
                 - name: 创建供应商帐户和附加发票申报类别
                   href: ../financials/localizations/tasks/create-vendor-account-attach-invoice-declaration-category.md
@@ -1791,6 +1788,7 @@
                 - name: 更新供应商发票申报并生成报表
                   href: ../financials/localizations/tasks/update-vendor-invoice-declarations-report.md
             - name: 意大利
+              href: ../financials/localizations/italy.md
               items:
                 - name: 增值税报表明细
                   href: ../financials/localizations/emea-ita-vat-statements-details.md
@@ -1813,6 +1811,7 @@
                 - name: 预缴税金
                   href: ../financials/localizations/emea-ita-withholding-tax.md
             - name: 拉脱维亚
+              href: ../financials/localizations/latvia.md
               items:
                 - name: 固定资产会计
                   href: ../financials/localizations/emea-lva-fixed-assets-accounting.md
@@ -1825,6 +1824,7 @@
                 - name: 增值税报表明细
                   href: ../financials/localizations/emea-lva-vat-statement-details.md
             - name: 立陶宛
+              href: ../financials/localizations/lithuania.md
               items:
                 - name: 固定资产维修报表
                   href: ../financials/localizations/emea-ltu-fixed-asset-repair-statement.md
@@ -1835,12 +1835,14 @@
                 - name: 增值税报表明细
                   href: ../financials/localizations/emea-ltu-vat-statement-details.md
             - name: 荷兰
+              href: ../financials/localizations/netherlands.md
               items:
                 - name: 电子纳税申报 (EVAT)
                   href: ../financials/localizations/tasks/nl-00010-electronic-tax-declarations-evat.md
                 - name: Semansys XBRL 集成
                   href: ../financials/localizations/tasks/nl-00003-semansys-xbrl-integration.md
             - name: 挪威
+              href: ../financials/localizations/norway.md
               items:
                 - name: 客户和供应商的付款形式
                   href: ../financials/localizations/tasks/no-00003-customer-vendor-payment-formats.md
@@ -1855,6 +1857,7 @@
                 - name: 收银机部署指南
                   href: ../retail/localizations/emea-nor-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
             - name: 波兰
+              href: ../financials/localizations/poland.md
               items:
                 - name: 根据单位价格计算行折扣
                   href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
@@ -1877,6 +1880,7 @@
                 - name: 交易额余额对帐单
                   href: ../financials/localizations/emea-pol-turnover-balances-statement.md
             - name: 西班牙
+              href: ../financials/localizations/spain.md
               items:
                 - name: 发票中含现金折扣
                   href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
@@ -1905,6 +1909,7 @@
                 - name: 特殊条目和期初单
                   href: ../financials/localizations/emea-esp-opening-sheets-spain.md
             - name: 瑞典
+              href: ../financials/localizations/sweden.md
               items:
                 - name: 为瑞典审计员导出财务信息
                   href: ../financials/localizations/emea-swe-sie-standard-report.md
@@ -1913,10 +1918,12 @@
                 - name: 收银机
                   href: ../retail/localizations/emea-swe-cash-registers.md?toc=/fin-and-ops/toc.json
             - name: 瑞士
+              href: ../financials/localizations/switzerland.md
               items:
                 - name: 在 ESR 中导入客户付款
                   href: ../financials/localizations/emea-che-esr-customer-payments-import.md
             - name: 英国
+              href: ../financials/localizations/united-kingdom.md
               items:
                 - name: '建筑行业方案 '
                   href: ../financials/localizations/emea-gbr-cis-construction-industry-scheme.md
@@ -3994,5 +4001,3 @@
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-- name: Dynamics 365 for Talent
-  href: ../talent/toc.yml
