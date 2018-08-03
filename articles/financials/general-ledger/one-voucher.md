@@ -17,12 +17,12 @@ ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-03-16
-ms.dyn365.ops.version: 
+ms.dyn365.ops.version: 8.0.2
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 54da64f4407d2fca9bd48e2014ff327640a4d5aa
+ms.sourcegitcommit: fa342ba6746490f1738d4c944cff9687736df3ff
+ms.openlocfilehash: a4be73a38d66ff20bf82c5838a59d2418f82c7ad
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/03/2018
 
 ---
 
