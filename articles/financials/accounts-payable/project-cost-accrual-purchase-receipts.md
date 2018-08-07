@@ -1,7 +1,7 @@
 ---
 title: "采购收据中的应计项目成本"
 description: "此主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中跟踪采购收据内的应计项目成本。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CostControlCommittedCost
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
@@ -51,7 +51,7 @@ Contoso Consulting 已启动了一个新的云部署项目。 创建了采购订
 
 我们同样使用这个方案查看过帐产品收据对总帐和项目信息有何影响。 
 
-**步骤 1：**为项目创建一个新采购订单并确认，以便记录采购费用为 1500 美元，安装服务费为 150 美元的一台计算机的购买。
+**步骤 1：** 为项目创建一个新采购订单并确认，以便记录采购费用为 1500 美元，安装服务费为 150 美元的一台计算机的购买。
 [![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png) 
 
 确认了采购订单之后，将为该项目创建承诺成本的交易记录。 
@@ -60,7 +60,7 @@ Contoso Consulting 已启动了一个新的云部署项目。 创建了采购订
 > [!NOTE]
 > 承诺成本的交易记录的**交易记录来源**字段设置为**采购订单**。 创建并确认采购订单不会为项目创建交易记录。 
 
-**步骤 2：**交付货物和服务，并登记产品收据。 
+**步骤 2：** 交付货物和服务，并登记产品收据。 
 
 过帐产品收据将生成凭证并过帐到分类帐。 凭证将把采购支出、未开票的科目和应计科目记入借方。 
 [![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)
@@ -71,7 +71,7 @@ Contoso Consulting 已启动了一个新的云部署项目。 创建了采购订
 可以在**采购类别**页面中将采购类别映射到项目类别。
 [![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)
 
-**步骤 3：**创建供应商形式发票。 
+**步骤 3：** 创建供应商形式发票。 
 
 在 Finance and Operations 中，过帐产品收据不影响项目信息。 解决方案是，过帐采购收据后立即生成供应商形式发票。 转至**采购订单**页面 &gt; **发票**选项卡 &gt; **生成** &gt; **发票**。 这将创建一张待定发票单据，用于更新项目信息。 
 

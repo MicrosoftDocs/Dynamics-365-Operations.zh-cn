@@ -1,7 +1,7 @@
 ---
 title: "销售和收益率绩效 Power BI 内容"
 description: "此主题介绍销售和收益率绩效 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
@@ -119,7 +119,7 @@ ms.lasthandoff: 04/13/2018
 | 15    | 15                                             | 0.230769231     | 3.461538462                                                           |
 | 20    | 20                                             | 0.307692308     | 6.153846154                                                           |
 | 25    | 30                                             | 0.461538462     | 11.53846154                                                           |
-|       | **总计：**65，总重。 |                 | **总计：**21.5384615，四舍五入为 21（最接近的增量） |
+|       | **总计：** 65，总重。 |                 | **总计：** 21.5384615，四舍五入为 21（最接近的增量） |
 
 ## <a name="what-if-the-batches-have-different-batch-dates"></a>批次具有不同的批次日期怎么办？
 如果批次具有不同的批次日期，某些日期基于**批次合并**页的**合并批次**快速选项卡上的**批次日期**组中的值计算。 系统计算**批次日期**组中的字段的值。 这些值包括生产日期、过期日期、建议存储日期以及最佳使用日期。 日期是基于**已发布产品详细信息**页上**物料数据**字段组中的物料的设置而计算的。 您可以更改值或手动输入值。 对于所有其他日期，不会进行计算。 批次属性值适用相同的原则。 如果对于所有源批次日期都相同，则将会为合并批次建议此日期。 如果所有源批次的日期并不相同，则合并批次的日期将留空，您可以手动输入日期。

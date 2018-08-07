@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
@@ -35,7 +35,7 @@ ms.lasthandoff: 03/26/2018
 <a name="example-three-way-matching-for-items"></a>示例：物料的三向匹配
 -------------------------------------
 
-**汇总：**Ken 是名为 Fabrikam 的法人的公司总部的审计员。 Ken 决定基于采购订单的所有供应商发票都应与采购订单行匹配（双向匹配）。 对于将用作固定资产的物料采购，发票应同时与采购订单行和产品收货行匹配（三向匹配）。
+**汇总：** Ken 是名为 Fabrikam 的法人的公司总部的审计员。 Ken 决定基于采购订单的所有供应商发票都应与采购订单行匹配（双向匹配）。 对于将用作固定资产的物料采购，发票应同时与采购订单行和产品收货行匹配（三向匹配）。
 
 Fabrikam 按照世界上所有地区的多个法人和员工运行。 当交易记录的数量增加时，收货和发票之间的差异也增加。 已销帐资产的结果。 当物料数量少于您以前订购的数量或尚未收到某物料时，要支付来自供应商的发票，但该流程不包括标识差异。 因为员工仍需要工具和其他材料进行其工作，所以支出还会增加。 Ken 要确保供应商装运已订购的产品，且这些物料由 Fabrikam 员工收货。 因此，Ken 要求组织中的所有法人都双向和三个向匹配。 发票匹配有助于确保已消失或尚未收到的物料的问题能够跟踪和解决。 
 

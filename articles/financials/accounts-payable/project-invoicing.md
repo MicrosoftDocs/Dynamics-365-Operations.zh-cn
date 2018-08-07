@@ -1,7 +1,7 @@
 ---
 title: "项目开票"
 description: "本文提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
@@ -61,7 +61,7 @@ ms.lasthandoff: 11/03/2017
 
 若要创建多个项目的客户发票，则必须为每张发票创建发票方案。 例如，可以基于交易记录类型创建发票。 若要在一个客户发票上指定工时，在另一个客户发票上指定物料，则必须为工时交易记录创建一个发票方案，为费用交易记录创建单独的发票方案。 
 
-如果项目具有多个融资来源，可以为每个融资来源创建单独的发票方案。 在**“融资规则分配”**页上，可以定义交易记录金额的百分比以分配给每个融资来源，并定义来源以过帐舍入差额。
+如果项目具有多个融资来源，可以为每个融资来源创建单独的发票方案。 在 **“融资规则分配”** 页上，可以定义交易记录金额的百分比以分配给每个融资来源，并定义来源以过帐舍入差额。
 
 ### <a name="creating-customer-invoices-from-invoice-proposals"></a>从发票方案创建客户发票
 

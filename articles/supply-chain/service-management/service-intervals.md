@@ -1,7 +1,7 @@
 ---
 title: "服务间隔"
 description: "服务间隔指示在您创建服务订单时为服务协议行创建服务订单行所采用的频率。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAAgreementTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

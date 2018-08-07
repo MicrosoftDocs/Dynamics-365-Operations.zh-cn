@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -45,7 +45,7 @@ ms.lasthandoff: 03/26/2018
 
 以下模板和基础任务用于将来自 Finance and Operations 的销售发票标题和行同步到 Sales：
 
-- **“数据集成”中模板的名称：**销售发票（Fin and Ops 到 Sales）- 直接
+- **“数据集成”中模板的名称：** 销售发票（Fin and Ops 到 Sales）- 直接
 - **数据集成项目中的任务名称：**
 
     - SalesInvoiceHeader

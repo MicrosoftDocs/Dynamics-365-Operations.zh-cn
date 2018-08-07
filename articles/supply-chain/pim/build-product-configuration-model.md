@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
@@ -110,7 +110,7 @@ ms.lasthandoff: 02/07/2018
 
 ### <a name="the-configuration-page"></a>管理页面
 
-要在组件之间导航，请单击**“下一个”**或单击产品配置模型树中的组件以将焦点设置在其上。
+要在组件之间导航，请单击 **“下一个”** 或单击产品配置模型树中的组件以将焦点设置在其上。
 
 ## <a name="finalizing-a-model-for-configuration"></a>为配置完成模型
 当产品配置模型已准备好在配置到订购方案中使用时，必须创建一个版本。 但是，有几个可改善建模经验的选项。

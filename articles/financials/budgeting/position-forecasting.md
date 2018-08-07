@@ -1,7 +1,7 @@
 ---
 title: "职位预测"
 description: "与工作人员相关的费用通常在组织成本中占较大比例。 职位预测让您计划这些费用并将它们包含在预算计划中。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: HcmPositionForecast
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 64413
 ms.assetid: 35e791d2-1905-4808-a579-7f181ddddd91

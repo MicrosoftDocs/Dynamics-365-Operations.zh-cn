@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMDesignerEditBOM, BOMTable, ProdBOM
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 53401
 ms.assetid: 9cff88e4-0425-4707-9178-3c2cb10df7c2

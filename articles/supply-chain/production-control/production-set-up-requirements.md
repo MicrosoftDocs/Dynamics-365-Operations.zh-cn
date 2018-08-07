@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 55561
 ms.assetid: 1953059f-478d-4706-b461-25b89ace5fc3
@@ -60,10 +60,10 @@ ms.lasthandoff: 11/03/2017
 **生产日记帐名称** – 指定用于记录和过帐交易记录的生产日记帐名称。
 
 ## <a name="setup-if-you-use-operations"></a>使用工序情况下的设置
-工序表示为生产成品而完成的特定活动。 **注意：**您必须知道为生产物料而需要的活动的类型，以及这些活动的顺序和优先级。 您还必须知道涉及哪些资源，以及涉及多少资源。
+工序表示为生产成品而完成的特定活动。 **注意：** 您必须知道为生产物料而需要的活动的类型，以及这些活动的顺序和优先级。 您还必须知道涉及哪些资源，以及涉及多少资源。
 
 1.  **工序** – 设置工序以表示生产成品而必须完成的任务。
-2.  **关系** – 设置用于确立详细属性的工序关系。 若要定义工序关系，请单击**“操作”**页上的**“关系”**。
+2.  **关系** – 设置用于确立详细属性的工序关系。 若要定义工序关系，请单击 **“操作”** 页上的 **“关系”**。
 
 ## <a name="setup-if-you-use-routes"></a>使用工艺路线情况下的设置
 如果您在使用工艺路线，则必须为您设置的每个生产工艺路线定义工序。 工艺路线表示物料在各工序间流动的路线，从生产流程开始直到结束。

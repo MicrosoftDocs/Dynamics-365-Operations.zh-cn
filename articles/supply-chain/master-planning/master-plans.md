@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqParameters, ReqPlanSched
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 7911
 ms.assetid: a116b7de-3d6d-4321-87ba-5a5d99c2f64e

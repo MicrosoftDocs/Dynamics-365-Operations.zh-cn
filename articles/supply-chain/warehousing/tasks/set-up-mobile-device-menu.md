@@ -1,7 +1,7 @@
 --- 
 title: "为完成采购订单中的工作设置移动设备菜单项"
 description: "此过程演示如何设置“移动设备”菜单项。"
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/25/2016
 ms.topic: business-process
@@ -9,11 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

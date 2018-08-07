@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
@@ -98,7 +98,7 @@ ms.lasthandoff: 11/03/2017
 -   对于生产和批次订单，只能通过使用**已转包工作**列表页中的领料单日记帐，以逻辑方式转移半成品。 此日记帐将创建可用于把半成品和原料转移到供应商的交货通知票据。
 -   对于生产流中的已转包工序，将由供应商位置的提款或生产看板的收据记录半成品的转移。 若要为显式转移活动建模，可以以额外的转移活动结束生产看板。
 
-**注释：**一个生产订单的生产工艺路线不能跨多个站点。 此规则也适用于已转包工作。 因此，必须在与工艺路线中所用内部资源相同的站点中定义表示供应商所管理位置的仓库。 尽管生产流可以跨站点，但不能将半成品从一个站点运输到另一个站点，因为该工序表示了成本上下文的变化。  
+**注释：** 一个生产订单的生产工艺路线不能跨多个站点。 此规则也适用于已转包工作。 因此，必须在与工艺路线中所用内部资源相同的站点中定义表示供应商所管理位置的仓库。 尽管生产流可以跨站点，但不能将半成品从一个站点运输到另一个站点，因为该工序表示了成本上下文的变化。  
 
 通常，直接将已转包资源组的输出仓库和位置分配给工艺路线或生产流中工序下一步骤的仓库和位置。 此设置有助于减少产品的作业报告量或必须建模的额外转移工序的数量。
 

@@ -1,7 +1,7 @@
 --- 
 title: "配置波次处理"
 description: "此指南描述了如何设置确定在处理波次时为仓库生成的工作的条件，以及是手动还是自动处理波次。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/07/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution

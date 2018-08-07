@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -40,7 +40,7 @@ ms.lasthandoff: 03/26/2018
 
 以下模板和基础任务用于将来自 Sales 的销售报价单标头和行直接同步到 Finance and Operations：
 
-- **“数据集成”中模板的名称：**销售报价（从 Sales 到 Fin and Ops）- 直接
+- **“数据集成”中模板的名称：** 销售报价（从 Sales 到 Fin and Ops）- 直接
 - **数据集成项目中的任务名称：**
 
     - QuoteHeader

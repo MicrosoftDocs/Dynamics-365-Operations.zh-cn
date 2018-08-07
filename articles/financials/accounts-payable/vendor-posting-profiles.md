@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendPosting
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
@@ -44,7 +44,7 @@ ms.lasthandoff: 04/13/2018
 
 指定在使用所选过帐模板对交易记录进行过帐时所使用的会计科目。 为所选的过帐模板选择帐户编码；只要可能，还选择帐户/组编号。 在过帐过程中，定位每个交易记录的最合适过帐模板的方法是搜索针对性最强的帐户编码、帐号或组编号组合，其优先级如下：
 
-| **“帐户编码”**字段值 | **“帐户/组编号”**字段值        | 搜索优先级 |
+| **“帐户编码”** 字段值 | **“帐户/组编号”** 字段值        | 搜索优先级 |
 |------------------------------|---------------------------------------------|-----------------|
 | **表**                    | 特定供应商帐户                     | 1               |
 | **组**                    | 分配给供应商的供应商组 | 2               |

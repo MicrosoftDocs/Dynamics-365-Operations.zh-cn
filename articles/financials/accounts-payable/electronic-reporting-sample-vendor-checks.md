@@ -1,7 +1,7 @@
 ---
 title: "电子申报示例供应商支票"
 description: "此主题提供有关如何使用电子申报示例支票格式的一般信息。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/14/2017
 ms.topic: article
@@ -9,11 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
@@ -28,7 +28,7 @@ ms.lasthandoff: 03/26/2018
 
 # <a name="electronic-reporting-sample-check-formats"></a>电子申报示例支票格式
 
-您可以使用电子申报 (ER) 来确定供应商支票格式。 市场上提供许多银行和支票提供商特定的支票格式。 ER 工具库中的付款支票模型已经包含示例支票格式。 这些示例支票标记为**支票在中间（美国）**和**支票在上面，存根在下面（美国）**。
+您可以使用电子申报 (ER) 来确定供应商支票格式。 市场上提供许多银行和支票提供商特定的支票格式。 ER 工具库中的付款支票模型已经包含示例支票格式。 这些示例支票标记为**支票在中间（美国）** 和**支票在上面，存根在下面（美国）**。
 
 ## <a name="what-check-formats-are-currently-supported"></a>目前支持哪些支票格式？
 

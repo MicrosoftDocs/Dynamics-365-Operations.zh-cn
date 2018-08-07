@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -69,7 +69,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 
 ### <a name="item-arrival"></a>物料到达
 
-您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从**“到达概览”**页上创建到达日记帐，作为到达管理的一部分，也可以手动从**“物料到达”**页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Finance and Operations 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
+您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从 **“到达概览”** 页上创建到达日记帐，作为到达管理的一部分，也可以手动从 **“物料到达”** 页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Finance and Operations 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
 
 ### <a name="production-input"></a>生产输入
 

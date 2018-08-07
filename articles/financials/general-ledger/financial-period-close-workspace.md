@@ -1,7 +1,7 @@
 ---
 title: "财务期间结帐工作区"
 description: "本文提供财务期间结帐工作区和相关配置的概览。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 13791
 ms.assetid: 6ee51758-639b-448e-9cb2-56cf1d804273

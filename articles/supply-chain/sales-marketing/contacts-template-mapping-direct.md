@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -73,8 +73,8 @@ ms.lasthandoff: 03/26/2018
 
 Sales 中的联系人可以成为 Finance and Operations 中的联系人或客户。 为了确定在 Sales 中的联系人是否应该作为联系人或客户同步到 Finance and Operations，系统将在 Sales 中查看联系人的以下属性：
 
-- **同步到 Finance and Operations 中的客户：**联系人的**是可用客户**设置为**是**
-- **同步到 Finance and Operations 中的联系人：**联系人的**是可用客户**设置为**否**且**公司**（上级单位/联系人）指向帐户（不是联系人）
+- **同步到 Finance and Operations 中的客户：** 联系人的**是可用客户**设置为**是**
+- **同步到 Finance and Operations 中的联系人：** 联系人的**是可用客户**设置为**否**且**公司**（上级单位/联系人）指向帐户（不是联系人）
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 

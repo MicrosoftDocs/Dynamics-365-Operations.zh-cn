@@ -1,7 +1,7 @@
 --- 
 title: "设置人工装箱（仅 2016 年 2 月和 5 月）"
 description: "包装流程允许您验证并将产品包装到集装箱中。"
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/04/2016
 ms.topic: business-process
@@ -9,11 +9,11 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

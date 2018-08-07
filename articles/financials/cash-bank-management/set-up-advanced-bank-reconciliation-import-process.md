@@ -1,7 +1,7 @@
 ---
 title: "设置高级银行对帐导入流程"
 description: "高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Finance and Operations 中的银行交易记录自动对帐。 本文介绍如何设置银行对账单的导入功能。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BankStatementFormat
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 106853
 ms.assetid: 45dae275-ea45-4c7e-b38f-89297c7b5352
@@ -70,7 +70,7 @@ ms.lasthandoff: 03/26/2018
 7.  银行对账单实体上载且映射完成后，请单击实体的**查看地图**操作。
 8.  银行对账单实体是由四个单独的实体组成一个复合实体。 在列表中，选择 **BankStatementDocumentEntity**，然后单击**查看地图**操作。
 9.  在**转换**选项卡上，单击**新建**。
-10. 对于序列号 1，请单击**上载文件**，并选择以前保存的 **ISO20022XML-to-Reconciliation.xslt** 文件。 **注意︰**Finance and Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
+10. 对于序列号 1，请单击**上载文件**，并选择以前保存的 **ISO20022XML-to-Reconciliation.xslt** 文件。 **注意︰** Finance and Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!-- For details about the expected format for ISO20022, see [Dynamics AX ISO20022 Layout](./media/dynamicsaxiso20022layout1.xlsx).-->
 11. 单击**新建**。
 12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **BankReconciliation-to-Composite.xslt** 文件。
 13. 单击**应用转换**。
@@ -86,7 +86,7 @@ ms.lasthandoff: 03/26/2018
 
 最后一步是启用高级银行对帐并设置银行帐户的对账单格式。
 
-1.  转**“现金和银行管理** &gt; **银行帐户**。
+1.  转 **“现金和银行管理** &gt; **银行帐户**。
 2.  选择银行帐户并打开帐户以查看详细信息。
 3.  在**对帐**选项卡上，设置**高级银行对帐**选项为**是**。
 4.  将**对账单格式**字段设置为之前创建的格式，如 **ISO20022**。
@@ -105,7 +105,7 @@ ms.lasthandoff: 03/26/2018
 9.  在**转换**选项卡上，单击**新建**。
 10. 对于序列号 1，请单击**上载文件**，并选择以前保存的 **MT940TXT-to-MT940XML.xslt** 文件。
 11. 单击“**新建**”。
-12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **MT940XML-to-Reconciliation.xslt** 文件。 **注意︰**Finance and Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
+12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **MT940XML-to-Reconciliation.xslt** 文件。 **注意︰** Finance and Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!--- For details about the expected format for MT940, see [Dynamics AX MT940 Layout](./media/dynamicsaxmt940layout1.xlsx)-->
 13. 单击**新建**。
 14. 对于序列号 3，请单击**上载文件**，并选择以前保存的 **BankReconciliation-to-Composite.xslt** 文件。
 15. 单击**应用转换**。
@@ -121,7 +121,7 @@ ms.lasthandoff: 03/26/2018
 
 最后一步是启用高级银行对帐并设置银行帐户的对账单格式。
 
-1.  转**“现金和银行管理** &gt; **银行帐户**。
+1.  转 **“现金和银行管理** &gt; **银行帐户**。
 2.  选择银行帐户并打开帐户以查看详细信息。
 3.  在**对帐**选项卡上，设置**高级银行对帐**选项为**是**。
 4.  当提示您确认您的选择并启用高级银行对帐时，请单击**确定**。
@@ -141,7 +141,7 @@ ms.lasthandoff: 03/26/2018
 9.  在**转换**选项卡上，单击**新建**。
 10. 对于序列号 1，请单击**上载文件**，并选择以前保存的 **BAI2CSV-to-BAI2XML.xslt** 文件。
 11. 单击“**新建**”。
-12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **BAI2XML-to-Reconciliation.xslt** 文件。 **注意︰**Finance and Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
+12. 对于序列号 2，请单击**上载文件**，并选择以前保存的 **BAI2XML-to-Reconciliation.xslt** 文件。 **注意︰** Finance and Operations 转换文件使用标准格式构建。 因为银行经常偏离这种格式，您可能必须更新要映射到您的银行帐单格式的转换文件。 <!--- For details about the expected format for BAI2, see [Dynamics AX BAI2 Layout](./media/dynamicsaxbai2layout1.xlsx).-->
 13. 单击**新建**。
 14. 对于序列号 3，请单击**上载文件**，并选择以前保存的 **BankReconciliation-to-Composite.xslt** 文件。
 15. 单击**应用转换**。
@@ -157,7 +157,7 @@ ms.lasthandoff: 03/26/2018
 
 最后一步是启用高级银行对帐并设置银行帐户的对账单格式。
 
-1.  转**“现金和银行管理** &gt; **银行帐户**。
+1.  转 **“现金和银行管理** &gt; **银行帐户**。
 2.  选择银行帐户并打开帐户以查看详细信息。
 3.  在**对帐**选项卡上，设置**高级银行对帐**选项为**是**。
 4.  当提示您确认您的选择并启用高级银行对帐时，请单击**确定**。
@@ -166,7 +166,7 @@ ms.lasthandoff: 03/26/2018
 ## <a name="test-the-bank-statement-import"></a>测试银行对账单导入
 最后一步是测试您是否可以导入银行对账单。
 
-1.  转**“现金和银行管理** &gt; **银行帐户**。
+1.  转 **“现金和银行管理** &gt; **银行帐户**。
 2.  选择为其启用高级银行对帐功能的银行帐户。
 3.  在**对帐**选项卡上，单击**银行对账单**。
 4.  在**银行对账单**页面上，单击**导入对账单**。

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
@@ -39,7 +39,7 @@ ms.lasthandoff: 03/26/2018
 可使用一种或多种布局查看和编辑预算计划文档。 每种布局可以有一个关联预算计划文档模板，用于使用 Excel 工作表查看和编辑预算计划数据。 在此主题中，将使用现有布局配置生成预算计划文档模板。 
 
 1. 打开**预算计划列表**（**预算编制** &gt; **预算计划**）。 
-2. 单击**“新建”**创建新的预算计划文档。 
+2. 单击 **“新建”** 创建新的预算计划文档。 
 
    [![预算计划列表](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 

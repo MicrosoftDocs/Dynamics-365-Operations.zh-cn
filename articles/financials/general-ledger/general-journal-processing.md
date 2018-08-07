@@ -1,7 +1,7 @@
 ---
 title: "普通日记帐处理"
 description: "本文介绍 Microsoft Dynamics 365 for Finance and Operations 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
@@ -36,7 +36,7 @@ ms.lasthandoff: 03/26/2018
 
 要设置的最重要的区域之一是日记帐名称。 最好为每个用途定义特定的日记帐名称，如内部公司、应计调整和错误纠正。 您可以定制每个日记帐名称以便让每个用途的数据输入都简单且安全。 
 
-在**“日记帐名称”**页上，您可以设置以下因素：
+在 **“日记帐名称”** 页上，您可以设置以下因素：
 
 -   **工作流审核** - 要增强内部控制，请基于总借方金额等条件定义日记帐工作流（用于确定审查和审核步骤的重要性限制）。 您在 **总帐工作流** 页上为普通日记帐设置工作流。
 -   **默认值** - 为对方科目、币种和财务维度选择的默认值。
@@ -44,18 +44,18 @@ ms.lasthandoff: 03/26/2018
 
 **示例**
 
-日记帐名称只能用于调整。 在这种情况下，您可以指定只有**“分类帐”**科目类型在所有公司都有效。 [![日记帐控制科目类型](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
+日记帐名称只能用于调整。 在这种情况下，您可以指定只有 **“分类帐”** 科目类型在所有公司都有效。 [![日记帐控制科目类型](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)
 
 日记帐名称只能用于某个特定科目段或用于主科目的某个范围。 [![日记帐控制科目段](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)
 
-**“自动冲销”**选项可用于普通日记帐。 例如，您有一个应计调整，其中的实际单据尚未处理，如下图所示。
+**“自动冲销”** 选项可用于普通日记帐。 例如，您有一个应计调整，其中的实际单据尚未处理，如下图所示。
 [![普通日记帐冲销](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png) 
 
-用于日记帐条目的 Microsoft Excel 加载项进一步提高了自动化水平并使数据输入更容易。 **“在 Excel 中打开行”**操作可用于**“普通日记帐”**和**日记帐凭证**页。 
+用于日记帐条目的 Microsoft Excel 加载项进一步提高了自动化水平并使数据输入更容易。 **“在 Excel 中打开行”** 操作可用于 **“普通日记帐”** 和**日记帐凭证**页。 
 
-在**“期间日记帐”**页上，您可以设置重复日记帐以自动执行日记帐处理。 
+在 **“期间日记帐”** 页上，您可以设置重复日记帐以自动执行日记帐处理。 
 
-您可以随时使用凭证模板。 在**“普通日记帐”**页上，**“保存”**和**“选择凭证模板”**操作可在**“日志凭证”**页上找到（位于凭证行的**“功能”**下）。
+您可以随时使用凭证模板。 在 **“普通日记帐”** 页上，**“保存”** 和 **“选择凭证模板”** 操作可在 **“日志凭证”** 页上找到（位于凭证行的 **“功能”** 下）。
 
 ## <a name="related-setup"></a>相关设置
 以下设置不是特定于普通日记帐的，但有助于确保数据输入正确且容易。
@@ -71,7 +71,7 @@ ms.lasthandoff: 03/26/2018
 -   **默认/验证币种**
 -   **法人覆盖** - 此设置特定于已定义的公司/法人：
     -   **默认/验证销售税**
-    -   **默认维度** - **“不固定”**或**“固定值”**。 **“固定值”**将帮助确保此主科目的所有过帐始终使用设置为**“固定”**的任何维度值。
+    -   **默认维度** - **“不固定”** 或 **“固定值”**。 **“固定值”** 将帮助确保此主科目的所有过帐始终使用设置为 **“固定”** 的任何维度值。
 -   **过帐验证**
     -   **用户验证** - 此选项控制允许哪些用户过帐到主科目。
     -   **过帐类型验证** - 此选项控制可对主科目使用的过帐类型。

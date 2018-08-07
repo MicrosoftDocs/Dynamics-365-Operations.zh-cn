@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
@@ -38,7 +38,7 @@ ms.lasthandoff: 03/26/2018
 
 在您启用内部公司费用时，您允许和法人和员工代表您组织中的其他法人产生费用，从您组织中的雇佣法人那里收取付款。 例如，法人 A 中的一名员工完成法人 B 的一个项目，且该项目产生出差费用。 如果启用内部公司费用，则该员工可以提交费用报表，将费用过帐到法人 B，且该费用必须由法人 A 支付。如果您的组织不具有多个法人，您就不需要启用内部公司费用。
 
-**决策：**是否要启用内部公司费用？
+**决策：** 是否要启用内部公司费用？
 
 ## <a name="financial-management"></a>财务管理
 

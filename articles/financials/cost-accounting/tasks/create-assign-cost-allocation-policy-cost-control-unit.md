@@ -1,7 +1,7 @@
 --- 
 title: "创建成本分摊策略并将其分配到成本控制单元"
 description: "此过程用于创建和分配成本分配政策，以及为成本控制单元分配相应规则。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/28/2017
 ms.topic: business-process
@@ -9,10 +9,10 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

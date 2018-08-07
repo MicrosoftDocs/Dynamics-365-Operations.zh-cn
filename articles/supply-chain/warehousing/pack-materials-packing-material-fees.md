@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
@@ -56,9 +56,9 @@ ms.lasthandoff: 11/03/2017
 采购订单行的包装材料交易记录不是由系统创建的。 您将手动在“包装材料交易记录”**** 页中为已开票采购订单行创建交易记录。
 
 ## <a name="set-up-customer-packaging-material-fee-license-numbers"></a>设置客户的包装材料费用许可证编号
-如果客户支付包装材料费用，请在“客户”**** 页中指定客户的包装材料费用许可证编号。 如果为客户指定了许可证编号，则对销售订单开票时将自动计算包装材料费用。 开票后，**“计算费用”**复选框将在**“包装材料交易记录”**页中被取消选中，因为您不必计算和打印报表。 您可以在发票上打印包装材料重量并告知客户由他们支付该费用。 
+如果客户支付包装材料费用，请在“客户”**** 页中指定客户的包装材料费用许可证编号。 如果为客户指定了许可证编号，则对销售订单开票时将自动计算包装材料费用。 开票后，**“计算费用”** 复选框将在 **“包装材料交易记录”** 页中被取消选中，因为您不必计算和打印报表。 您可以在发票上打印包装材料重量并告知客户由他们支付该费用。 
 
-如果您的公司支付包装材料费用，请不要指定客户许可证编号。 开票后，**“计算费用”**复选框在**“包装材料交易记录”**页中被选中。 这表示创建报表时计算费用。 您可以在发票上打印重量并指明由您的公司支付费用。
+如果您的公司支付包装材料费用，请不要指定客户许可证编号。 开票后，**“计算费用”** 复选框在 **“包装材料交易记录”** 页中被选中。 这表示创建报表时计算费用。 您可以在发票上打印重量并指明由您的公司支付费用。
 
 ## <a name="print-packaging-material-weights-on-invoices"></a>在发票上打印包装材料重量
 可以在发票上打印包装材料重量并指明由谁来支付包装材料费用。 重量按包装代码来汇总。

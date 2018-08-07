@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/03/2017
 -   设置内部公司会计。
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a>为集中付款设置组织的层次结构。
-您必须为集中付款设置组织的层次结构。 将相同的组织层次结构用于处理集中的供应商付款和集中的客户付款。 **注意：**对于集中付款，该层次结构的结构不会产生影响。 层次结构中的任何法人都将能代表层次结构中的任何其他法人处理付款。 在**组织层次结构**页上，您可以创建一个新的组织层次结构。 在**用途**字段中，必须选择**集中付款**。 
+您必须为集中付款设置组织的层次结构。 将相同的组织层次结构用于处理集中的供应商付款和集中的客户付款。 **注意：** 对于集中付款，该层次结构的结构不会产生影响。 层次结构中的任何法人都将能代表层次结构中的任何其他法人处理付款。 在**组织层次结构**页上，您可以创建一个新的组织层次结构。 在**用途**字段中，必须选择**集中付款**。 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a>为集中付款设置内部公司帐户
 在对照其他法人中的发票结算当前法人中的付款交易记录时，将为每个法人创建相应的应付和应收交易记录。 您必须指定过帐任何适用现金折扣和已有损益金额的法人。 在开始前，确定您将使用哪一法人处理供应商和客户付款。 如果一个法人处理供应商付款，另一个法人处理客户付款，您必须切换到各法人。 在**内部公司会计**页上，可以为将代表其处理付款的法人选择内部公司关系记录。 

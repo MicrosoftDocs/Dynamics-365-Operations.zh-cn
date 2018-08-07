@@ -1,7 +1,7 @@
 ---
 title: "成本核算术语"
 description: "本主题定义了成本核算中使用的重要术语。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
@@ -122,7 +122,7 @@ ms.lasthandoff: 03/26/2018
 -  Dynamics 365 for Finance and Operations（预配置）
 -  Dynamics AX（需要配置）
 
-**注意：**数据连接器导入的交易记录基于数据实体。
+**注意：** 数据连接器导入的交易记录基于数据实体。
 
 **数据提供程序**
 

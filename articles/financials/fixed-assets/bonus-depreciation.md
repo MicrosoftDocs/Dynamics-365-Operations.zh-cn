@@ -1,7 +1,7 @@
 ---
 title: "额外折旧"
 description: "本文提供红利折旧功能的概览。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetBonus
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3621
 ms.assetid: 835ec594-744e-461c-a676-1b9abc094173
@@ -45,7 +45,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="example"></a>示例
 以下额外折旧与资产帐簿相关联：
 
--   **第 179 条：**1,000.00，优先级 1
+-   **第 179 条：** 1,000.00，优先级 1
 -   **自由区**：30%，优先级 2
 
 资产购置成本为 5,000.00。 计算额外折旧时，根据第 179 条的折旧规定，第一笔额外折旧金额为 1,000.00 美元。 
