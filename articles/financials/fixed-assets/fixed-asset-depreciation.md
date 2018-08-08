@@ -1,7 +1,7 @@
 ---
 title: "固定资产折旧"
 description: "文主题提供固定资产折旧的概览。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3121
 ms.assetid: 98ff891f-e0e2-4184-b618-28107a50851f
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b1d4ced73ed3ce486c33a59ae1de40b8b8444673
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: a82e14e12cbde29e5619518481d0c22f6fa1a37a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

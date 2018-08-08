@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SysOperationTemplateForm
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validfrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 08d122fd8e394622337c950e8fb8189dd5fda7b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

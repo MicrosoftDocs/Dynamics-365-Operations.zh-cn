@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations, Core
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2017-12-01
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

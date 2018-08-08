@@ -1,7 +1,7 @@
 --- 
 title: "创建单个公司的已发布产品"
 description: "此过程介绍如何在单个法定单位背景下创建单个已发布产品。"
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f23ddf59d986f16c350e9e978333cd7c9b47389a
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 3449952684d557f410f9b5b9410f94197e12c897
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-released-product-for-a-single-company"></a><span data-ttu-id="cc3ce-103">创建单个公司的已发布产品</span><span class="sxs-lookup"><span data-stu-id="cc3ce-103">Create a released product for a single company</span></span>

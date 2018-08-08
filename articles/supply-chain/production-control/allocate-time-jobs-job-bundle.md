@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 55591
 ms.assetid: 358efce7-73c8-4d2a-a7f7-cb99b88ab6ee
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3bebc1dc75c00a76ada34dc31cb875b9b11579f6
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 33d6bab9beb28d18e2094d7fb5e670e9425aac39
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/08/2018
 -   <span data-ttu-id="b1e0a-109">**估计** – 基于作业的估计时间，将时间划分到各作业上。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-109">**Estimation** – Time is divided among the jobs, based on the estimated time for the jobs.</span></span>
 -   <span data-ttu-id="b1e0a-110">**作业** – 根据捆绑的作业总数以及完成所有作业所用的时间，对时间进行划分。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-110">**Jobs** – Time is divided according to total jobs that are bundled and how much time was spent finishing all the jobs.</span></span>
 -   <span data-ttu-id="b1e0a-111">**净时间** – 时间随时均匀划分到捆绑作业中的各作业之间。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-111">**Net time** – Time is divided equally among the jobs that are in the bundle at any time.</span></span>
--   <span data-ttu-id="b1e0a-112">**实时** – 分配实际作业时间。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-112">**Real time** – Actual job time is allocated.</span></span> <span data-ttu-id="b1e0a-113">可以基于实际工资成本计算成本。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-113">The cost can be calculated based on the actual payroll cost.</span></span> <span data-ttu-id="b1e0a-114">**注意：**只有当您的公司在“考勤管理”中使用工资单功能时**实时**分配参数才可用。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-114">**Note:** The **Real time** allocation key is available only if your company uses the payroll functionality in Time and attendance.</span></span>
+-   <span data-ttu-id="b1e0a-112">**实时** – 分配实际作业时间。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-112">**Real time** – Actual job time is allocated.</span></span> <span data-ttu-id="b1e0a-113">可以基于实际工资成本计算成本。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-113">The cost can be calculated based on the actual payroll cost.</span></span> <span data-ttu-id="b1e0a-114">**注意：** 只有当您的公司在“考勤管理”中使用工资单功能时**实时**分配参数才可用。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-114">**Note:** The **Real time** allocation key is available only if your company uses the payroll functionality in Time and attendance.</span></span>
 
 <span data-ttu-id="b1e0a-115">下面的示例显示了各个分配参数的结果。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-115">The following examples show the results of the various allocation keys.</span></span>
 
@@ -108,7 +108,7 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="b1e0a-246">作业 2</span><span class="sxs-lookup"><span data-stu-id="b1e0a-246">Job 2</span></span> | <span data-ttu-id="b1e0a-247">(1.33 ÷ 3) × USD 12.00</span><span class="sxs-lookup"><span data-stu-id="b1e0a-247">(1.33 ÷ 3) × USD 12.00</span></span>                 | <span data-ttu-id="b1e0a-248">5.33 美元</span><span class="sxs-lookup"><span data-stu-id="b1e0a-248">USD 5.33</span></span>                | <span data-ttu-id="b1e0a-249">3 小时</span><span class="sxs-lookup"><span data-stu-id="b1e0a-249">3 hours</span></span>        | <span data-ttu-id="b1e0a-250">16.00 美元</span><span class="sxs-lookup"><span data-stu-id="b1e0a-250">USD 16.00</span></span>         |
 | <span data-ttu-id="b1e0a-251">作业 3</span><span class="sxs-lookup"><span data-stu-id="b1e0a-251">Job 3</span></span> | <span data-ttu-id="b1e0a-252">(3.33 ÷ 5) × USD 12.00</span><span class="sxs-lookup"><span data-stu-id="b1e0a-252">(3.33 ÷ 5) × USD 12.00</span></span>                 | <span data-ttu-id="b1e0a-253">8.00 美元</span><span class="sxs-lookup"><span data-stu-id="b1e0a-253">USD 8.00</span></span>                | <span data-ttu-id="b1e0a-254">5 小时</span><span class="sxs-lookup"><span data-stu-id="b1e0a-254">5 hours</span></span>        | <span data-ttu-id="b1e0a-255">40.00 美元</span><span class="sxs-lookup"><span data-stu-id="b1e0a-255">USD 40.00</span></span>         |
 
-<span data-ttu-id="b1e0a-256">更正后的每小时成本和作业时间都在生产日志中过帐。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-256">The corrected cost per hour and the job time are posted in a production journal.</span></span> <span data-ttu-id="b1e0a-257">**注意：**如果您在**生产订单默认值**页的**常规**选项卡上选择**成本类别**选项，每个作业的实际时间转移到生产日记帐，在其中成本应用于特定作业的成本类别。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-257">**Note:** If you select the **Cost category** option on the **General** tab on the **Production order defaults** page, the actual time for each job is transferred to a production journal, where the cost is applied to the cost category of the specific job.</span></span>
+<span data-ttu-id="b1e0a-256">更正后的每小时成本和作业时间都在生产日志中过帐。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-256">The corrected cost per hour and the job time are posted in a production journal.</span></span> <span data-ttu-id="b1e0a-257">**注意：** 如果您在**生产订单默认值**页的**常规**选项卡上选择**成本类别**选项，每个作业的实际时间转移到生产日记帐，在其中成本应用于特定作业的成本类别。</span><span class="sxs-lookup"><span data-stu-id="b1e0a-257">**Note:** If you select the **Cost category** option on the **General** tab on the **Production order defaults** page, the actual time for each job is transferred to a production journal, where the cost is applied to the cost category of the specific job.</span></span>
 
 
 

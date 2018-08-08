@@ -1,7 +1,7 @@
 --- 
 title: "查看传出计划内部公司需求"
 description: "此过程显示如何查看内部公司供应商将满足的所有计划订单。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e8963aadbd166db420e67bd8a80324cdd157e2ac
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: ce22ed284e35668c9eddd1c4d460dad73d987b7d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="view-outbound-planned-intercompany-demand"></a><span data-ttu-id="2bcbf-103">查看传出计划内部公司需求</span><span class="sxs-lookup"><span data-stu-id="2bcbf-103">View outbound planned intercompany demand</span></span>

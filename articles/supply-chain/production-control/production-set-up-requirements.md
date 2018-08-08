@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 55561
 ms.assetid: 1953059f-478d-4706-b461-25b89ace5fc3
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: ade7e55e0568acd7eff3ceead29c3c6d0ca2da1e
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -60,10 +60,10 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="7f39f-130">**生产日记帐名称** – 指定用于记录和过帐交易记录的生产日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="7f39f-130">**Production journal names** – Specify the production journal names that are used to record and post transactions.</span></span>
 
 ## <a name="setup-if-you-use-operations"></a><span data-ttu-id="7f39f-131">使用工序情况下的设置</span><span class="sxs-lookup"><span data-stu-id="7f39f-131">Setup if you use operations</span></span>
-<span data-ttu-id="7f39f-132">工序表示为生产成品而完成的特定活动。</span><span class="sxs-lookup"><span data-stu-id="7f39f-132">Operations represent the specific activities that are completed to produce the finished product.</span></span> <span data-ttu-id="7f39f-133">**注意：**您必须知道为生产物料而需要的活动的类型，以及这些活动的顺序和优先级。</span><span class="sxs-lookup"><span data-stu-id="7f39f-133">**Note:** You must know the types of activities that are required in order to produce your item, and the order and priorities of those activities.</span></span> <span data-ttu-id="7f39f-134">您还必须知道涉及哪些资源，以及涉及多少资源。</span><span class="sxs-lookup"><span data-stu-id="7f39f-134">You must also know which resources are involved, and how many.</span></span>
+<span data-ttu-id="7f39f-132">工序表示为生产成品而完成的特定活动。</span><span class="sxs-lookup"><span data-stu-id="7f39f-132">Operations represent the specific activities that are completed to produce the finished product.</span></span> <span data-ttu-id="7f39f-133">**注意：** 您必须知道为生产物料而需要的活动的类型，以及这些活动的顺序和优先级。</span><span class="sxs-lookup"><span data-stu-id="7f39f-133">**Note:** You must know the types of activities that are required in order to produce your item, and the order and priorities of those activities.</span></span> <span data-ttu-id="7f39f-134">您还必须知道涉及哪些资源，以及涉及多少资源。</span><span class="sxs-lookup"><span data-stu-id="7f39f-134">You must also know which resources are involved, and how many.</span></span>
 
 1.  <span data-ttu-id="7f39f-135">**工序** – 设置工序以表示生产成品而必须完成的任务。</span><span class="sxs-lookup"><span data-stu-id="7f39f-135">**Operations** – Set up operations to represent the tasks that must be completed to produce the finished item.</span></span>
-2.  <span data-ttu-id="7f39f-136">**关系** – 设置用于确立详细属性的工序关系。</span><span class="sxs-lookup"><span data-stu-id="7f39f-136">**Relations** – Set up operation relations to establish detailed properties.</span></span> <span data-ttu-id="7f39f-137">若要定义工序关系，请单击**“操作”**页上的**“关系”**。</span><span class="sxs-lookup"><span data-stu-id="7f39f-137">To define operation relations, click **Relations** on the **Operations** page.</span></span>
+2.  <span data-ttu-id="7f39f-136">**关系** – 设置用于确立详细属性的工序关系。</span><span class="sxs-lookup"><span data-stu-id="7f39f-136">**Relations** – Set up operation relations to establish detailed properties.</span></span> <span data-ttu-id="7f39f-137">若要定义工序关系，请单击 **“操作”** 页上的 **“关系”**。</span><span class="sxs-lookup"><span data-stu-id="7f39f-137">To define operation relations, click **Relations** on the **Operations** page.</span></span>
 
 ## <a name="setup-if-you-use-routes"></a><span data-ttu-id="7f39f-138">使用工艺路线情况下的设置</span><span class="sxs-lookup"><span data-stu-id="7f39f-138">Setup if you use routes</span></span>
 <span data-ttu-id="7f39f-139">如果您在使用工艺路线，则必须为您设置的每个生产工艺路线定义工序。</span><span class="sxs-lookup"><span data-stu-id="7f39f-139">If you're working with routes, operations must be defined for every production route that you set up.</span></span> <span data-ttu-id="7f39f-140">工艺路线表示物料在各工序间流动的路线，从生产流程开始直到结束。</span><span class="sxs-lookup"><span data-stu-id="7f39f-140">The route represents the path that the item takes from operation to operation, from the start of the production process to the end.</span></span>

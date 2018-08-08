@@ -1,7 +1,7 @@
 ---
 title: "基于“边际基数”和“计算方法”的销售税比率"
 description: "本主题说明字段“边际基数”和“计算方法”中的值如何确定销售和采购交易记录的税率。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: TaxTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 7171
 ms.assetid: 381fc309-b32a-4927-b5b8-fa1c31b0bd72
@@ -19,10 +19,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9bd67a2c7eed658b27b208bdb428bb880708cd31
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 0128743e608ec56bea2301ac576551065a1ff290
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

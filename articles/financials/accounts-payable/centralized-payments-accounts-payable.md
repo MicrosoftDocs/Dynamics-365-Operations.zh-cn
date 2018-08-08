@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14341
 ms.assetid: 7bd02e32-2416-4ac6-8a60-85525267fdb7
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: bd40a0a95469300e51646f099db594fb92b2a53f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -39,8 +39,8 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="53fc8-116">以下示例说明如何在不同的环境中处理过帐。</span><span class="sxs-lookup"><span data-stu-id="53fc8-116">The following examples illustrate how posting is handled in various scenarios.</span></span> <span data-ttu-id="53fc8-117">假定所有这些示例都采用以下配置：</span><span class="sxs-lookup"><span data-stu-id="53fc8-117">The following configuration is assumed for all these examples:</span></span>
 
 -   <span data-ttu-id="53fc8-118">法人分别为 Fabrikam、Fabrikam East 和 Fabrikam West。</span><span class="sxs-lookup"><span data-stu-id="53fc8-118">The legal entities are Fabrikam, Fabrikam East, and Fabrikam West.</span></span> <span data-ttu-id="53fc8-119">从 Fabrikam 进行付款。</span><span class="sxs-lookup"><span data-stu-id="53fc8-119">Payments are made from Fabrikam.</span></span>
--   <span data-ttu-id="53fc8-120">**“内部公司”**页上的**“过帐现金折扣”**字段设置为**“发票法人”**。</span><span class="sxs-lookup"><span data-stu-id="53fc8-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
--   <span data-ttu-id="53fc8-121">**“内部公司”**页上的**“过帐币种汇兑损益”**字段设置为**“付款法人”**。</span><span class="sxs-lookup"><span data-stu-id="53fc8-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
+-   <span data-ttu-id="53fc8-120">**“内部公司”** 页上的 **“过帐现金折扣”** 字段设置为 **“发票法人”**。</span><span class="sxs-lookup"><span data-stu-id="53fc8-120">The **Post cash discount** field on the **Intercompany accounting** page is set to **Legal entity of the invoice**.</span></span>
+-   <span data-ttu-id="53fc8-121">**“内部公司”** 页上的 **“过帐币种汇兑损益”** 字段设置为 **“付款法人”**。</span><span class="sxs-lookup"><span data-stu-id="53fc8-121">The **Post currency exchange gain or loss** field on the **Intercompany accounting** page is set to **Legal entity of the payment**.</span></span>
 -   <span data-ttu-id="53fc8-122">客户 Fourth Coffee 在每个法人中设置为一个供应商。</span><span class="sxs-lookup"><span data-stu-id="53fc8-122">The vendor Fourth Coffee is set up as a vendor in each legal entity.</span></span> <span data-ttu-id="53fc8-123">来自不同法人的供应商被标识为同一供应商，因为他们共享相同的全球通讯簿 ID。</span><span class="sxs-lookup"><span data-stu-id="53fc8-123">The vendors from the various legal entities are identified as the same vendor because they share the same global address book ID.</span></span>
 
 | <span data-ttu-id="53fc8-124">名录 ID</span><span class="sxs-lookup"><span data-stu-id="53fc8-124">Directory ID</span></span> | <span data-ttu-id="53fc8-125">供应商帐户</span><span class="sxs-lookup"><span data-stu-id="53fc8-125">Vendor account</span></span> | <span data-ttu-id="53fc8-126">姓名</span><span class="sxs-lookup"><span data-stu-id="53fc8-126">Name</span></span>          | <span data-ttu-id="53fc8-127">法人</span><span class="sxs-lookup"><span data-stu-id="53fc8-127">Legal entity</span></span>  |

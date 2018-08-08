@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 51631
 ms.assetid: 3fedeaaf-502f-483c-93d2-ab266828189e
@@ -19,10 +19,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6ed803e0c4558a8118c4a9aa11d7a9ec1cf2aa7d
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 05/08/2018
 
 ### <a name="item-arrival"></a><span data-ttu-id="db145-141">物料到达</span><span class="sxs-lookup"><span data-stu-id="db145-141">Item arrival</span></span>
 
-<span data-ttu-id="db145-142">您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。</span><span class="sxs-lookup"><span data-stu-id="db145-142">You can use the item arrival journal to register the receipt of items (for example, from purchase orders).</span></span> <span data-ttu-id="db145-143">可以从**“到达概览”**页上创建到达日记帐，作为到达管理的一部分，也可以手动从**“物料到达”**页创建日记帐条目。</span><span class="sxs-lookup"><span data-stu-id="db145-143">An item arrival journal can be created as part of arrival management from the **Arrival overview** page, or you can manually create a journal entry from the **Item arrival** page.</span></span> <span data-ttu-id="db145-144">如果您启用物料到达日志名称检查领料库位，Finance and Operations 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。</span><span class="sxs-lookup"><span data-stu-id="db145-144">If you enable the item arrival journal name to check for picking locations, Finance and Operations looks for a location for received items and, if there is room, generates location destinations for the incoming items.</span></span>
+<span data-ttu-id="db145-142">您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。</span><span class="sxs-lookup"><span data-stu-id="db145-142">You can use the item arrival journal to register the receipt of items (for example, from purchase orders).</span></span> <span data-ttu-id="db145-143">可以从 **“到达概览”** 页上创建到达日记帐，作为到达管理的一部分，也可以手动从 **“物料到达”** 页创建日记帐条目。</span><span class="sxs-lookup"><span data-stu-id="db145-143">An item arrival journal can be created as part of arrival management from the **Arrival overview** page, or you can manually create a journal entry from the **Item arrival** page.</span></span> <span data-ttu-id="db145-144">如果您启用物料到达日志名称检查领料库位，Finance and Operations 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。</span><span class="sxs-lookup"><span data-stu-id="db145-144">If you enable the item arrival journal name to check for picking locations, Finance and Operations looks for a location for received items and, if there is room, generates location destinations for the incoming items.</span></span>
 
 ### <a name="production-input"></a><span data-ttu-id="db145-145">生产输入</span><span class="sxs-lookup"><span data-stu-id="db145-145">Production input</span></span>
 

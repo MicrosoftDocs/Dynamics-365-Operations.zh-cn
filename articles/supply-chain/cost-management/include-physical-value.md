@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventModelGroup
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 79033
 ms.assetid: 1928c145-bf82-436d-87ca-e7a173e31923
@@ -20,10 +20,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 28f51524e4818558716b3f7a82ffcb301fee883d
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: e96d5e2a658a027d66663868329cf4eedcb1d46f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 05/08/2018
 -   <span data-ttu-id="62f90-117">数量为 2 且成本价为 USD 10.00 的采购订单已更新装箱单。</span><span class="sxs-lookup"><span data-stu-id="62f90-117">A purchase order for a quantity of 2 and a cost price of USD 10.00 that has been packing slip–updated</span></span>
 -   <span data-ttu-id="62f90-118">数量为 3 且成本价为 USD 12.00 的采购订单已更新发票。</span><span class="sxs-lookup"><span data-stu-id="62f90-118">A purchase order for a quantity of 3 and a cost price of USD 12.00 that has been invoice-updated</span></span>
 
-<span data-ttu-id="62f90-119">在此示例中，移动平均成本价将是 USD 11.20，因为物理更新的交易记录和财务更新的交易记录都用于计算该成本价。</span><span class="sxs-lookup"><span data-stu-id="62f90-119">In this case, the running average cost price will be USD 11.20, because both physically updated transactions and financially updated transactions are used to calculate the cost price.</span></span> <span data-ttu-id="62f90-120">**示例 2**您未选中**包括实际成本**复选框，物料设置的成本价是 USD 10.00。</span><span class="sxs-lookup"><span data-stu-id="62f90-120">**Example 2** You haven't selected the **Include physical value** check box, and the cost price on the item setup is USD 10.00.</span></span> <span data-ttu-id="62f90-121">您收到已更新装箱单的数量为 20 且成本价为 USD 12.00 的采购订单。</span><span class="sxs-lookup"><span data-stu-id="62f90-121">You receive a purchase order for a quantity of 20 and a cost price of USD 12.00 that has been packing slip–updated.</span></span> <span data-ttu-id="62f90-122">当过账销售订单时，过账的成本金额为 USD 10.00，因为移动平均成本价将不包括实际过账的交易记录。</span><span class="sxs-lookup"><span data-stu-id="62f90-122">When a sales order is posted, the posted cost amount is USD 10.00, because the running average cost price won't include physically posted transactions.</span></span> <span data-ttu-id="62f90-123">**注意：**对于比较，如果为此物料选中**包括实际成本**复选框，在过帐某一销售订单时，过帐的成本金额将是 USD 12.00。</span><span class="sxs-lookup"><span data-stu-id="62f90-123">**Note:** For comparison, if you select the **Include physical value** check box for this item, when a sales order is posted, the posted cost amount will be USD 12.00.</span></span>
+<span data-ttu-id="62f90-119">在此示例中，移动平均成本价将是 USD 11.20，因为物理更新的交易记录和财务更新的交易记录都用于计算该成本价。</span><span class="sxs-lookup"><span data-stu-id="62f90-119">In this case, the running average cost price will be USD 11.20, because both physically updated transactions and financially updated transactions are used to calculate the cost price.</span></span> <span data-ttu-id="62f90-120">**示例 2**您未选中**包括实际成本**复选框，物料设置的成本价是 USD 10.00。</span><span class="sxs-lookup"><span data-stu-id="62f90-120">**Example 2** You haven't selected the **Include physical value** check box, and the cost price on the item setup is USD 10.00.</span></span> <span data-ttu-id="62f90-121">您收到已更新装箱单的数量为 20 且成本价为 USD 12.00 的采购订单。</span><span class="sxs-lookup"><span data-stu-id="62f90-121">You receive a purchase order for a quantity of 20 and a cost price of USD 12.00 that has been packing slip–updated.</span></span> <span data-ttu-id="62f90-122">当过账销售订单时，过账的成本金额为 USD 10.00，因为移动平均成本价将不包括实际过账的交易记录。</span><span class="sxs-lookup"><span data-stu-id="62f90-122">When a sales order is posted, the posted cost amount is USD 10.00, because the running average cost price won't include physically posted transactions.</span></span> <span data-ttu-id="62f90-123">**注意：** 对于比较，如果为此物料选中**包括实际成本**复选框，在过帐某一销售订单时，过帐的成本金额将是 USD 12.00。</span><span class="sxs-lookup"><span data-stu-id="62f90-123">**Note:** For comparison, if you select the **Include physical value** check box for this item, when a sales order is posted, the posted cost amount will be USD 12.00.</span></span>
 
 
 

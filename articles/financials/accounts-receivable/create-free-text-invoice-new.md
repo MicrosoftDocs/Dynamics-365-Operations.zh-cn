@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f69505f0c6137121cae92d42d052b244326c8436
-ms.openlocfilehash: 2a611bdd4dd97109709ed355eb80471e27413744
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: e6f89a6d77ff8e1cd88632df0d9a72915086ee1e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/28/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

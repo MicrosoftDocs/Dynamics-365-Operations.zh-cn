@@ -1,7 +1,7 @@
 ---
 title: "成本核算主页"
 description: "本主题提供可用于成本核算的帮助主题和其他资源列表。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostControlWorkspace, CAMCostControlWorkspaceConfiguration, CAMCostAccountingLedgerAdminWorkspace
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 256254
 ms.assetid: e1b0a6e3-0c72-4a7d-90e1-20f870c6dbad
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 8f4a371664ceb7df9ac28cececc456bc73d655cb
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 707cbb8f4a4a71d147e1aa3c048fb1eb3872f8d9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/23/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

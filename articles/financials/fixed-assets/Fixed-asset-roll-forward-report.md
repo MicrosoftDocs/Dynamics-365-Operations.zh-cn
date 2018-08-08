@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2017-12-20
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4bb3865488c7dcb5a8417d277bdae52c2abb23de
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="fixed-assets-roll-forward-report"></a><span data-ttu-id="1e3f7-103">固定资产前滚报表</span><span class="sxs-lookup"><span data-stu-id="1e3f7-103">Fixed assets roll forward report</span></span>
@@ -35,9 +35,9 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="1e3f7-110">此报表在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中提供，或作为 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）的修补程序提供。</span><span class="sxs-lookup"><span data-stu-id="1e3f7-110">This report is available in Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3, or as a hotfix for Microsoft Dynamics 365 for Finance and Operations, Enterprise edition (July 2017).</span></span> <span data-ttu-id="1e3f7-111">必须为安装了 2017 年 7 月版本的环境应用三个修补程序：</span><span class="sxs-lookup"><span data-stu-id="1e3f7-111">Three hotfixes must be applied to environments that have the July 2017 release:</span></span>
 
-- <span data-ttu-id="1e3f7-112">**KB 4041754：**不能从 LCS 下载电子申报 (ER) 配置，因为应用了平台更新包后不适用于当前应用程序版本。</span><span class="sxs-lookup"><span data-stu-id="1e3f7-112">**KB 4041754:** Electronic reporting (ER) configuration can't be downloaded from LCS as not applicable for the current application version after applying the platform update package</span></span>
-- <span data-ttu-id="1e3f7-113">**KB 4056107：**电子申报 (GER) 累积更新 5</span><span class="sxs-lookup"><span data-stu-id="1e3f7-113">**KB 4056107:** Electronic reporting (GER) cumulative update 5</span></span>
-- <span data-ttu-id="1e3f7-114">**KB 4056353：**固定资产对帐单报表和附注报表不满足 GAAP 和 IFRS 中的要求</span><span class="sxs-lookup"><span data-stu-id="1e3f7-114">**KB 4056353:** Fixed assets Statement and Notes reports don't meet the requirements in GAAP and IFRS</span></span>
+- <span data-ttu-id="1e3f7-112">**KB 4041754：** 不能从 LCS 下载电子申报 (ER) 配置，因为应用了平台更新包后不适用于当前应用程序版本。</span><span class="sxs-lookup"><span data-stu-id="1e3f7-112">**KB 4041754:** Electronic reporting (ER) configuration can't be downloaded from LCS as not applicable for the current application version after applying the platform update package</span></span>
+- <span data-ttu-id="1e3f7-113">**KB 4056107：** 电子申报 (GER) 累积更新 5</span><span class="sxs-lookup"><span data-stu-id="1e3f7-113">**KB 4056107:** Electronic reporting (GER) cumulative update 5</span></span>
+- <span data-ttu-id="1e3f7-114">**KB 4056353：** 固定资产对帐单报表和附注报表不满足 GAAP 和 IFRS 中的要求</span><span class="sxs-lookup"><span data-stu-id="1e3f7-114">**KB 4056353:** Fixed assets Statement and Notes reports don't meet the requirements in GAAP and IFRS</span></span>
 
 <span data-ttu-id="1e3f7-115">下表说明报表中的可用字段。</span><span class="sxs-lookup"><span data-stu-id="1e3f7-115">The following table describes the fields that are available on the report.</span></span>
 

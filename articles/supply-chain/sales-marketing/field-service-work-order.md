@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: 8914723f6ef436bfc9e3a98cc82d5486042b0761
-ms.openlocfilehash: 250b7caa1e1495140d0d4f688ecae4acb8814467
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 49cb5942532e4feab64aa271ebfecf5cb60b1c61
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/07/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

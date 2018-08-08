@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 96b670531249175de938694d9b97b6e94461df42
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 99e038ef7fa5a6a2f3beb41f817b21503d92556e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a><span data-ttu-id="4f6d7-103">根据物料需求接收采购订单上的物料</span><span class="sxs-lookup"><span data-stu-id="4f6d7-103">Receive items on purchase order from item requirement</span></span>

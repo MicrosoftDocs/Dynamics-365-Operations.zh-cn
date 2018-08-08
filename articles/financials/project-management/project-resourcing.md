@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 82022
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6d5d21cebc42cb044172d61916f26b815bb96737
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -107,10 +107,10 @@ ms.lasthandoff: 05/08/2018
 ## <a name="create-a-new-project"></a><span data-ttu-id="4a675-172">创建新项目</span><span class="sxs-lookup"><span data-stu-id="4a675-172">Create a new project</span></span>
 1. <span data-ttu-id="4a675-173">在**项目管理**页上，选择**新项目**，并输入以下值：</span><span class="sxs-lookup"><span data-stu-id="4a675-173">On the **Project management** page, select **New project**, and enter the following values:</span></span>
 
-    - <span data-ttu-id="4a675-174">**项目类型：**时间和材料</span><span class="sxs-lookup"><span data-stu-id="4a675-174">**Project type:** Time and material</span></span>
-    - <span data-ttu-id="4a675-175">**项目名称：**XYZ 升级第 2 阶段</span><span class="sxs-lookup"><span data-stu-id="4a675-175">**Project name:** XYZ Upgrade Phase 2</span></span>
-    - <span data-ttu-id="4a675-176">**项目组：**TM\_WIP</span><span class="sxs-lookup"><span data-stu-id="4a675-176">**Project group:** TM\_WIP</span></span>
-    - <span data-ttu-id="4a675-177">**项目合同 ID：**00000002</span><span class="sxs-lookup"><span data-stu-id="4a675-177">**Project contract ID:** 00000002</span></span>
+    - <span data-ttu-id="4a675-174">**项目类型：** 时间和材料</span><span class="sxs-lookup"><span data-stu-id="4a675-174">**Project type:** Time and material</span></span>
+    - <span data-ttu-id="4a675-175">**项目名称：** XYZ 升级第 2 阶段</span><span class="sxs-lookup"><span data-stu-id="4a675-175">**Project name:** XYZ Upgrade Phase 2</span></span>
+    - <span data-ttu-id="4a675-176">**项目组：** TM\_WIP</span><span class="sxs-lookup"><span data-stu-id="4a675-176">**Project group:** TM\_WIP</span></span>
+    - <span data-ttu-id="4a675-177">**项目合同 ID：** 00000002</span><span class="sxs-lookup"><span data-stu-id="4a675-177">**Project contract ID:** 00000002</span></span>
 
 2. <span data-ttu-id="4a675-178">选择**创建项目**。</span><span class="sxs-lookup"><span data-stu-id="4a675-178">Select **Create project**.</span></span>
 
@@ -135,8 +135,8 @@ ms.lasthandoff: 05/08/2018
 
 1. <span data-ttu-id="4a675-200">在**设置角色**页上，选择**新建**，并输入以下值：</span><span class="sxs-lookup"><span data-stu-id="4a675-200">On the **Setup roles** page, select **New**, and enter the following values:</span></span>
 
-    - <span data-ttu-id="4a675-201">**角色 ID：**高级项目经理</span><span class="sxs-lookup"><span data-stu-id="4a675-201">**Role ID:** Senior Project Manager</span></span>
-    - <span data-ttu-id="4a675-202">**描述：**高级项目经理</span><span class="sxs-lookup"><span data-stu-id="4a675-202">**Description:** Senior Project Manager</span></span>
+    - <span data-ttu-id="4a675-201">**角色 ID：** 高级项目经理</span><span class="sxs-lookup"><span data-stu-id="4a675-201">**Role ID:** Senior Project Manager</span></span>
+    - <span data-ttu-id="4a675-202">**描述：** 高级项目经理</span><span class="sxs-lookup"><span data-stu-id="4a675-202">**Description:** Senior Project Manager</span></span>
 
 2. <span data-ttu-id="4a675-203">选择**创建**。</span><span class="sxs-lookup"><span data-stu-id="4a675-203">Select **Create**.</span></span>
 3. <span data-ttu-id="4a675-204">选择**高级项目经理**角色，然后选择**配置特性**。</span><span class="sxs-lookup"><span data-stu-id="4a675-204">Select the **Senior Project Manager** role, and then select **Configure characteristics**.</span></span>
@@ -154,9 +154,9 @@ ms.lasthandoff: 05/08/2018
 5. <span data-ttu-id="4a675-214">在**资源可用性**页上，选择**查看设置**。</span><span class="sxs-lookup"><span data-stu-id="4a675-214">On the **Resource availability** page, select **View settings**.</span></span>
 6. <span data-ttu-id="4a675-215">在**调整视图设置**页上，输入以下值：</span><span class="sxs-lookup"><span data-stu-id="4a675-215">On the **Adjust view settings** page, enter the following values:</span></span>
 
-    - <span data-ttu-id="4a675-216">**日期范围视图的格式：**天</span><span class="sxs-lookup"><span data-stu-id="4a675-216">**Format for date range view:** Day</span></span>
-    - <span data-ttu-id="4a675-217">**显示可用性描述：**是</span><span class="sxs-lookup"><span data-stu-id="4a675-217">**Display availability descriptions:** Yes</span></span>
-    - <span data-ttu-id="4a675-218">**显示剩余产能：**是</span><span class="sxs-lookup"><span data-stu-id="4a675-218">**Display remaining capacity:** Yes</span></span>
+    - <span data-ttu-id="4a675-216">**日期范围视图的格式：** 天</span><span class="sxs-lookup"><span data-stu-id="4a675-216">**Format for date range view:** Day</span></span>
+    - <span data-ttu-id="4a675-217">**显示可用性描述：** 是</span><span class="sxs-lookup"><span data-stu-id="4a675-217">**Display availability descriptions:** Yes</span></span>
+    - <span data-ttu-id="4a675-218">**显示剩余产能：** 是</span><span class="sxs-lookup"><span data-stu-id="4a675-218">**Display remaining capacity:** Yes</span></span>
 
 7. <span data-ttu-id="4a675-219">在资源列表中，选择某一资源。</span><span class="sxs-lookup"><span data-stu-id="4a675-219">In the list of resources, select a resource.</span></span>
 8. <span data-ttu-id="4a675-220">选择**硬性预订**和**全部产能**。</span><span class="sxs-lookup"><span data-stu-id="4a675-220">Select **Hard book** and **Full capacity**.</span></span>
@@ -168,14 +168,14 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="4a675-227">在资源预留期间，项目经理可以筛选可参与项目的角色资源。</span><span class="sxs-lookup"><span data-stu-id="4a675-227">During resource reservation, project managers can filter the role resources that are available to work on projects.</span></span> <span data-ttu-id="4a675-228">在履行资源期间执行多条件决定分析时，他们可以使用此信息作为一个条件。</span><span class="sxs-lookup"><span data-stu-id="4a675-228">They can use this information as one criterion when they perform multi-criteria decision analysis during resource fulfillment.</span></span> <span data-ttu-id="4a675-229">他们还可以添加其他资源特征到筛选器来搜索具有指定项目的特定技能、教育和经验的资源。</span><span class="sxs-lookup"><span data-stu-id="4a675-229">They can also add other resource characteristics to the filter to search for resources that have specific skills, education, and experience for a given project.</span></span>
 
-<span data-ttu-id="4a675-230">**场景：**已审核的项目已启动，并且高级项目经理角色在项目计划阶段预留为计划的资源。</span><span class="sxs-lookup"><span data-stu-id="4a675-230">**Scenario:** An approved project has started, and the Senior project manager role was reserved as a planned resource during the project planning stage.</span></span> <span data-ttu-id="4a675-231">资源经理现在已获得履行高级项目经理角色的资源。</span><span class="sxs-lookup"><span data-stu-id="4a675-231">The resource manager has now acquired a resource to fulfill the Senior project manager role.</span></span>
+<span data-ttu-id="4a675-230">**场景：** 已审核的项目已启动，并且高级项目经理角色在项目计划阶段预留为计划的资源。</span><span class="sxs-lookup"><span data-stu-id="4a675-230">**Scenario:** An approved project has started, and the Senior project manager role was reserved as a planned resource during the project planning stage.</span></span> <span data-ttu-id="4a675-231">资源经理现在已获得履行高级项目经理角色的资源。</span><span class="sxs-lookup"><span data-stu-id="4a675-231">The resource manager has now acquired a resource to fulfill the Senior project manager role.</span></span>
 
 1. <span data-ttu-id="4a675-232">在**资源列表**页上，选择 **Daniel Goldschmidt**。</span><span class="sxs-lookup"><span data-stu-id="4a675-232">On the **Resources list** page, select **Daniel Goldschmidt**.</span></span>
 2. <span data-ttu-id="4a675-233">在**资源角色**页上，选择**新建**，并输入以下值：</span><span class="sxs-lookup"><span data-stu-id="4a675-233">On the **Resource role** page, select **New**, and enter the following values:</span></span>
 
-    - <span data-ttu-id="4a675-234">**生效日期：**输入当前日期。</span><span class="sxs-lookup"><span data-stu-id="4a675-234">**Effective:** Enter the current date.</span></span>
-    - <span data-ttu-id="4a675-235">**到期日期：**输入**从不**。</span><span class="sxs-lookup"><span data-stu-id="4a675-235">**Expiration:** Enter **Never**.</span></span>
-    - <span data-ttu-id="4a675-236">**角色：**输入**高级项目经理**。</span><span class="sxs-lookup"><span data-stu-id="4a675-236">**Role:** Enter **Senior Project Manager**.</span></span>
+    - <span data-ttu-id="4a675-234">**生效日期：** 输入当前日期。</span><span class="sxs-lookup"><span data-stu-id="4a675-234">**Effective:** Enter the current date.</span></span>
+    - <span data-ttu-id="4a675-235">**到期日期：** 输入**从不**。</span><span class="sxs-lookup"><span data-stu-id="4a675-235">**Expiration:** Enter **Never**.</span></span>
+    - <span data-ttu-id="4a675-236">**角色：** 输入**高级项目经理**。</span><span class="sxs-lookup"><span data-stu-id="4a675-236">**Role:** Enter **Senior Project Manager**.</span></span>
 
 3. <span data-ttu-id="4a675-237">选择**保存**，然后关闭页面。</span><span class="sxs-lookup"><span data-stu-id="4a675-237">Select **Save**, and then close the page.</span></span>
 4. <span data-ttu-id="4a675-238">在**能力**选项卡上，添加 **ProjectMgmt** 技能和 **PMP** 证书。</span><span class="sxs-lookup"><span data-stu-id="4a675-238">On the **Competencies** tab, add the **ProjectMgmt** skill and the **PMP** certificate.</span></span>

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WHSTransportLoad
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
@@ -19,10 +19,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
-ms.openlocfilehash: 4c64c4934be035262d33983af64c6c9c8961affd
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 8c172f1b66e56f60e89f56ea98910f8d0e4f3e36
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/21/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

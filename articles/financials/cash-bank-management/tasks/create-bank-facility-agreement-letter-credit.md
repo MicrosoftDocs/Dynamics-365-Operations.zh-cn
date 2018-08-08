@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c0a06c2c7a9c0cb12e0b451b49be5fb98a10eaca
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 00562a15028106c8d065ab9514621c505b1b9709
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-bank-facility-agreement-for-a-letter-of-credit"></a><span data-ttu-id="28a97-103">创建信用证的银行信贷协议</span><span class="sxs-lookup"><span data-stu-id="28a97-103">Create a bank facility agreement for a letter of credit</span></span>

@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMActualVersion, CAMBudgetVersion, CAMOverheadCalculation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 272163
 ms.assetid: 93119afb-47ed-4786-ba44-ba93576d3e28
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2f37b5957974c927ade698fea65de7e3807d998a
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: be548959985a6fcaabf482f1e5951024633283cf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -725,7 +725,7 @@ ms.lasthandoff: 05/08/2018
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-523">**注意：**在 Finance and Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。</span><span class="sxs-lookup"><span data-stu-id="faef6-523">**Note:** In Finance and Operations, statistical measures such as the production hours that a product consumes can be derived from source data.</span></span> <span data-ttu-id="faef6-524">关于统计度量的更多详细信息，请参阅“统计度量提供方模板”。</span><span class="sxs-lookup"><span data-stu-id="faef6-524">For more detailed information about statistical measure providers, see Statistical measure provider template.</span></span> <span data-ttu-id="faef6-525">（请注意，此主题尚未完成，不过将很快推出。）下表显示 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faef6-525">(Note that this topic isn't completed yet but is coming soon.) The following table shows the result when the HR services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
+<span data-ttu-id="faef6-523">**注意：** 在 Finance and Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。</span><span class="sxs-lookup"><span data-stu-id="faef6-523">**Note:** In Finance and Operations, statistical measures such as the production hours that a product consumes can be derived from source data.</span></span> <span data-ttu-id="faef6-524">关于统计度量的更多详细信息，请参阅“统计度量提供方模板”。</span><span class="sxs-lookup"><span data-stu-id="faef6-524">For more detailed information about statistical measure providers, see Statistical measure provider template.</span></span> <span data-ttu-id="faef6-525">（请注意，此主题尚未完成，不过将很快推出。）下表显示 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faef6-525">(Note that this topic isn't completed yet but is coming soon.) The following table shows the result when the HR services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
 
 <table>
 <thead>

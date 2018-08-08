@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 890d501bf8b111ccd0698372f9df1dd63c2039a0
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 43083d52b6b656cd7dd31f4d4cf4225efd8fd28c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="c3164-103">调整仓库中的库存级别（基本仓库）</span><span class="sxs-lookup"><span data-stu-id="c3164-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>

@@ -1,7 +1,7 @@
 --- 
 title: "创建产品配置模型"
 description: "该过程显示如何创建产品配置模型和输入基础信息，如属性和子组件。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0a731a2a0fedcb92523b3f345abb49a18ff0e56a
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: e521cb9d19f2af8f931795b64ab338a3c6692399
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-product-configuration-model"></a><span data-ttu-id="4b20f-103">创建产品配置模型</span><span class="sxs-lookup"><span data-stu-id="4b20f-103">Create a product configuration model</span></span>

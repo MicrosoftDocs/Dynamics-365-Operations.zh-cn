@@ -1,7 +1,7 @@
 --- 
 title: "处理和跟踪源数据"
 description: "所有数据处理通过作业运行。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d7470c53c3fe48e4adb584847dbb3b7dc931e578
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: e476416420875ba0f2401cf251d34977ae84b8f5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="process-and-trace-source-data"></a><span data-ttu-id="ea87e-103">处理和跟踪源数据</span><span class="sxs-lookup"><span data-stu-id="ea87e-103">Process and trace source data</span></span>

@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 77df61bd85d3c296e44d3a2cfb0fce8b16eaaf9f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 4221acf200f41ca39803bcd56c1b05e0d87bd948
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a><span data-ttu-id="713c3-103">计算各个法人的固定资产折旧</span><span class="sxs-lookup"><span data-stu-id="713c3-103">Calculate fixed asset depreciation across legal entities</span></span>

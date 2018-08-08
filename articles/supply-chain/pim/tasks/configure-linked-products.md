@@ -1,7 +1,7 @@
 --- 
 title: "配置链接的产品"
 description: "此程序会逐步演示如何配置链接产品。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 95eb2d061fe76147ef24bf0bda1b705d8ba7b076
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 9f3ef8314c3b6122627de0a730e912c7ebcd99be
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="configure-linked-products"></a><span data-ttu-id="60e53-103">配置链接的产品</span><span class="sxs-lookup"><span data-stu-id="60e53-103">Configure linked products</span></span>

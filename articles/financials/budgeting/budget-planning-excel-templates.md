@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 261794
 ms.assetid: 1d8e99c1-b70d-41ba-991e-ab50b16797e0
@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eaf491d458643a3c31d8654ead86b3ca709bd0be
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="efa5b-109">可使用一种或多种布局查看和编辑预算计划文档。</span><span class="sxs-lookup"><span data-stu-id="efa5b-109">Budget plan documents can be viewed and edited using one or more layouts.</span></span> <span data-ttu-id="efa5b-110">每种布局可以有一个关联预算计划文档模板，用于使用 Excel 工作表查看和编辑预算计划数据。</span><span class="sxs-lookup"><span data-stu-id="efa5b-110">Each layout can have an associated budget plan document template to view and edit the budget plan data in an Excel worksheet.</span></span> <span data-ttu-id="efa5b-111">在此主题中，将使用现有布局配置生成预算计划文档模板。</span><span class="sxs-lookup"><span data-stu-id="efa5b-111">In this topic, a budget plan document template will be generated using an existing layout configuration.</span></span> 
 
 1. <span data-ttu-id="efa5b-112">打开**预算计划列表**（**预算编制** &gt; **预算计划**）。</span><span class="sxs-lookup"><span data-stu-id="efa5b-112">Open the **Budget plans list** (**Budgeting** &gt; **Budget plans**).</span></span> 
-2. <span data-ttu-id="efa5b-113">单击**“新建”**创建新的预算计划文档。</span><span class="sxs-lookup"><span data-stu-id="efa5b-113">Click **New** to create a new budget plan document.</span></span> 
+2. <span data-ttu-id="efa5b-113">单击 **“新建”** 创建新的预算计划文档。</span><span class="sxs-lookup"><span data-stu-id="efa5b-113">Click **New** to create a new budget plan document.</span></span> 
 
    <span data-ttu-id="efa5b-114">[![预算计划列表](./media/bpt11-1024x552.png)](./media/bpt11.png)</span><span class="sxs-lookup"><span data-stu-id="efa5b-114">[![Budget plans list](./media/bpt11-1024x552.png)](./media/bpt11.png)</span></span> 
 

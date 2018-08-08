@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0039521b5177b2879e0b1fc7a63fe6e188196872
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 95b7d5be86676a1442df1c71308cb978b854d2c8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -73,8 +73,8 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="8edc5-131">Sales 中的联系人可以成为 Finance and Operations 中的联系人或客户。</span><span class="sxs-lookup"><span data-stu-id="8edc5-131">A contact in Sales can become either a contact or a customer in Finance and Operations.</span></span> <span data-ttu-id="8edc5-132">为了确定在 Sales 中的联系人是否应该作为联系人或客户同步到 Finance and Operations，系统将在 Sales 中查看联系人的以下属性：</span><span class="sxs-lookup"><span data-stu-id="8edc5-132">To determine whether a contact in Sales should be synchronized to Finance and Operations as a contact or a customer, the system looks at the following properties on the contact in Sales:</span></span>
 
-- <span data-ttu-id="8edc5-133">**同步到 Finance and Operations 中的客户：**联系人的**是可用客户**设置为**是**</span><span class="sxs-lookup"><span data-stu-id="8edc5-133">**Synchronization to a customer in Finance and Operations:** Contacts where **Is Active Customer** is set to **Yes**</span></span>
-- <span data-ttu-id="8edc5-134">**同步到 Finance and Operations 中的联系人：**联系人的**是可用客户**设置为**否**且**公司**（上级单位/联系人）指向帐户（不是联系人）</span><span class="sxs-lookup"><span data-stu-id="8edc5-134">**Synchronization to a contact in Finance and Operations:** Contacts where **Is Active Customer** is set to **No** and **Company** (parent account/contact) points to an account (not a contact)</span></span>
+- <span data-ttu-id="8edc5-133">**同步到 Finance and Operations 中的客户：** 联系人的**是可用客户**设置为**是**</span><span class="sxs-lookup"><span data-stu-id="8edc5-133">**Synchronization to a customer in Finance and Operations:** Contacts where **Is Active Customer** is set to **Yes**</span></span>
+- <span data-ttu-id="8edc5-134">**同步到 Finance and Operations 中的联系人：** 联系人的**是可用客户**设置为**否**且**公司**（上级单位/联系人）指向帐户（不是联系人）</span><span class="sxs-lookup"><span data-stu-id="8edc5-134">**Synchronization to a contact in Finance and Operations:** Contacts where **Is Active Customer** is set to **No** and **Company** (parent account/contact) points to an account (not a contact)</span></span>
 
 ## <a name="prospect-to-cash-solution-for-sales"></a><span data-ttu-id="8edc5-135">用于 Sales 的“从目标客户到现金”解决方案</span><span class="sxs-lookup"><span data-stu-id="8edc5-135">Prospect to cash solution for Sales</span></span>
 

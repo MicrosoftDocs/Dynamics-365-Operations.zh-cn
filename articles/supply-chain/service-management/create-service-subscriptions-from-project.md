@@ -1,7 +1,7 @@
 ---
 title: "从项目创建服务预订"
 description: "您可以从“项目管理与核算”中的项目创建服务预定。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMASubscriptionTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 862bbf4d1d9b0dc2b6dc418ee766ed4dedef49fe
-ms.openlocfilehash: 5211270eb45749529c38b3d3d9af974e7650d632
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 8524072425babc8ceb55e8268f64083cd2e6bc9c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/24/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

@@ -1,7 +1,7 @@
 --- 
 title: "设置集装化"
 description: "此过程描述如何在“仓库管理”中自动进行装载集装化。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
@@ -17,10 +17,10 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4e7a2fde65c8dba8b16c5a87eae0ec2bbebc3388
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 387caf5b8882b768993dbdcfb2b0b10131640dfa
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-containerization"></a><span data-ttu-id="a9092-103">设置集装化</span><span class="sxs-lookup"><span data-stu-id="a9092-103">Set up containerization</span></span>

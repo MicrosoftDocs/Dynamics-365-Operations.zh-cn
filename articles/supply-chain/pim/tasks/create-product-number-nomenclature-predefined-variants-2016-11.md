@@ -1,7 +1,7 @@
 --- 
 title: "为预定义的产品变型创建产品编号"
 description: "此指南显示如何为预定义的产品变型设置产品编号命名法，以及如何将其分配给适当的产品维度组。"
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 81242773342bc40b89b470a3fd60e2bb3c3eeaa6
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 7881701385c802578e5e5c412951a1507efa5acf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-product-number-for-predefined-product-variants"></a><span data-ttu-id="bfc64-103">为预定义的产品变型创建产品编号</span><span class="sxs-lookup"><span data-stu-id="bfc64-103">Create a product number for predefined product variants</span></span>

@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3a42873cde84d67e1a4dd8c01f97b125b3a4f8cf
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 58b725af456f1a5c7f158f01ffe48a2d8cdf056b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-subcontracted-work-cell-for-lean-manufacturing"></a><span data-ttu-id="029e5-103">创建 lean manufacturing 的转包工作单元</span><span class="sxs-lookup"><span data-stu-id="029e5-103">Create a subcontracted work cell for lean manufacturing</span></span>

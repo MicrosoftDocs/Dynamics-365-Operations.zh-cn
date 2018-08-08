@@ -1,7 +1,7 @@
 --- 
 title: "设置物料的运输约束"
 description: "此过程将设置运输约束以阻止所选物料通过所选中心运输。"
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/07/2016
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 92ad8afe8eb2943377a1a130f466b0dd833b8015
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c7a160ca2ba3de16fe2aefc736f6f1e0bbbd5af0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-transportation-constraints-for-an-item"></a><span data-ttu-id="43b54-103">设置物料的运输约束</span><span class="sxs-lookup"><span data-stu-id="43b54-103">Set up transportation constraints for an item</span></span>

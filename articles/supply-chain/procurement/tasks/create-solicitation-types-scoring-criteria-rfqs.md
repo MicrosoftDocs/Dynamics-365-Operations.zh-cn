@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6876f8ed0f69ec5a34c4c9671081c76245945b1e
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 94bede40e8830f8d51dde5e34a03a9ad0c0144eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="9b93d-103">创建询价的申请类型和计分条件</span><span class="sxs-lookup"><span data-stu-id="9b93d-103">Create solicitation types and scoring criteria for RFQs</span></span>

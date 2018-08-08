@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f6c5bc43c4a4af610bfc056a97dcd1181f626470
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -63,7 +63,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="88e70-147">您可以从头创建供应商联系人。</span><span class="sxs-lookup"><span data-stu-id="88e70-147">You can create vendor contacts from scratch.</span></span> <span data-ttu-id="88e70-148">或者，您可以从已在 Microsoft Dynamics 365 for Finance and Operations 注册的其他人员那里复制详细信息，并根据需要进行编辑。</span><span class="sxs-lookup"><span data-stu-id="88e70-148">Alternatively, you can copy details from another person who is already registered in Microsoft Dynamics 365 for Finance and Operations, and edit the information as you require.</span></span>  
 
-<span data-ttu-id="88e70-149">**注意：**添加供应商的联系人不同于为该供应商添加联系信息。</span><span class="sxs-lookup"><span data-stu-id="88e70-149">**Note:** Adding a contact for a vendor isn't the same as adding contact information for that vendor.</span></span> <span data-ttu-id="88e70-150">尽管您可能为供应商添加一般联系信息，您可能还有是该公司联系人的若干特定人员，并且他们都有自己的联系信息。</span><span class="sxs-lookup"><span data-stu-id="88e70-150">Although you might add general contact information for a vendor, you might also have several specific people who are contacts at that company, and who all have their own contact information.</span></span>  
+<span data-ttu-id="88e70-149">**注意：** 添加供应商的联系人不同于为该供应商添加联系信息。</span><span class="sxs-lookup"><span data-stu-id="88e70-149">**Note:** Adding a contact for a vendor isn't the same as adding contact information for that vendor.</span></span> <span data-ttu-id="88e70-150">尽管您可能为供应商添加一般联系信息，您可能还有是该公司联系人的若干特定人员，并且他们都有自己的联系信息。</span><span class="sxs-lookup"><span data-stu-id="88e70-150">Although you might add general contact information for a vendor, you might also have several specific people who are contacts at that company, and who all have their own contact information.</span></span>  
 
 <span data-ttu-id="88e70-151">如果联系人在文档中引用，您无法删除联系人记录。</span><span class="sxs-lookup"><span data-stu-id="88e70-151">You can't delete a contact person record if the contact is referenced on a document.</span></span> <span data-ttu-id="88e70-152">相反，可以直接停用该联系人。</span><span class="sxs-lookup"><span data-stu-id="88e70-152">Instead, you can inactivate the contact.</span></span>  
 

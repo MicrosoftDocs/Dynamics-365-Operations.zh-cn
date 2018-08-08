@@ -1,7 +1,7 @@
 ---
 title: "电子申报示例供应商支票"
 description: "此主题提供有关如何使用电子申报示例支票格式的一般信息。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/14/2017
 ms.topic: article
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c583c3d82ce7273c49144561c51cfbec932d3ae8
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 6cae0ce1ec88f0500f8d281d314d59dc7001a384
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -28,7 +28,7 @@ ms.lasthandoff: 05/08/2018
 
 # <a name="electronic-reporting-sample-check-formats"></a><span data-ttu-id="ae0fc-103">电子申报示例支票格式</span><span class="sxs-lookup"><span data-stu-id="ae0fc-103">Electronic reporting sample check formats</span></span>
 
-<span data-ttu-id="ae0fc-104">您可以使用电子申报 (ER) 来确定供应商支票格式。</span><span class="sxs-lookup"><span data-stu-id="ae0fc-104">You can use Electronic reporting (ER) to format vendor checks.</span></span> <span data-ttu-id="ae0fc-105">市场上提供许多银行和支票提供商特定的支票格式。</span><span class="sxs-lookup"><span data-stu-id="ae0fc-105">Many bank-specific and check provider–specific check formats are available on the market.</span></span> <span data-ttu-id="ae0fc-106">ER 工具库中的付款支票模型已经包含示例支票格式。</span><span class="sxs-lookup"><span data-stu-id="ae0fc-106">Sample check formats have been included in the Payment check model in the ER tool repository.</span></span> <span data-ttu-id="ae0fc-107">这些示例支票标记为**支票在中间（美国）**和**支票在上面，存根在下面（美国）**。</span><span class="sxs-lookup"><span data-stu-id="ae0fc-107">These sample checks are labeled **Check in the middle (US)** and **Check on top stub below (US)**.</span></span>
+<span data-ttu-id="ae0fc-104">您可以使用电子申报 (ER) 来确定供应商支票格式。</span><span class="sxs-lookup"><span data-stu-id="ae0fc-104">You can use Electronic reporting (ER) to format vendor checks.</span></span> <span data-ttu-id="ae0fc-105">市场上提供许多银行和支票提供商特定的支票格式。</span><span class="sxs-lookup"><span data-stu-id="ae0fc-105">Many bank-specific and check provider–specific check formats are available on the market.</span></span> <span data-ttu-id="ae0fc-106">ER 工具库中的付款支票模型已经包含示例支票格式。</span><span class="sxs-lookup"><span data-stu-id="ae0fc-106">Sample check formats have been included in the Payment check model in the ER tool repository.</span></span> <span data-ttu-id="ae0fc-107">这些示例支票标记为**支票在中间（美国）** 和**支票在上面，存根在下面（美国）**。</span><span class="sxs-lookup"><span data-stu-id="ae0fc-107">These sample checks are labeled **Check in the middle (US)** and **Check on top stub below (US)**.</span></span>
 
 ## <a name="what-check-formats-are-currently-supported"></a><span data-ttu-id="ae0fc-108">目前支持哪些支票格式？</span><span class="sxs-lookup"><span data-stu-id="ae0fc-108">What check formats are currently supported?</span></span>
 

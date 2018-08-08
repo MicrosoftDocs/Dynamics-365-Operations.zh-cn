@@ -1,7 +1,7 @@
 ---
 title: "总帐和财务报表主页"
 description: "使用总帐定义和管理法人的财务记录。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: GeneralJournalEntryWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 65431
 ms.assetid: d2c604df-daae-42cd-82d9-c80e3dee4a60
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 03bab1d03be71c0e23a6ea93f542d6a52a212a1f
-ms.openlocfilehash: 9ee3f73cd11b38ed2237ea3fe08db18000e55f07
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 85afebcc88ad1c087d5f1dabaac56f694534cf98
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

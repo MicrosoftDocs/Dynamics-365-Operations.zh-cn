@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 75023
 ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
@@ -20,10 +20,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6cd4ef72ff88d58d4d10d3451897100212f4b35a
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -55,7 +55,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="29193-122">以移动平均成本价过帐增加数量的交易记录。</span><span class="sxs-lookup"><span data-stu-id="29193-122">Transactions that increase quantity are posted at the running average cost price.</span></span> <span data-ttu-id="29193-123">Finance and Operations 计算移动平均成本价（基于每个财务跟踪的库存维度的上述各交易记录的成本）。</span><span class="sxs-lookup"><span data-stu-id="29193-123">Finance and Operations calculates a running average cost price that is based on the cost of each of these transactions for each inventory dimension that is being tracked financially.</span></span> <span data-ttu-id="29193-124">有关移动平均成本价的信息，请参阅[移动平均成本价](running-average-cost-price.md)。</span><span class="sxs-lookup"><span data-stu-id="29193-124">For information about running average cost prices, see [Running average cost price](running-average-cost-price.md).</span></span>
 
 ## <a name="transactions-that-decrease-quantity"></a><span data-ttu-id="29193-125">减少数量的交易记录</span><span class="sxs-lookup"><span data-stu-id="29193-125">Transactions that decrease quantity</span></span>
-<span data-ttu-id="29193-126">过帐减少数量的交易记录时，Finance and Operations 使用计算出的移动平均成本价，而不考虑与该库存关联的库存模型。</span><span class="sxs-lookup"><span data-stu-id="29193-126">Finance and Operations uses the calculated running average cost price when a transaction that decreases quantity is posted, regardless of the inventory model that is associated with that inventory.</span></span> <span data-ttu-id="29193-127">减少数量的交易记录不得在另一个交易记录过帐前标记为该交易记录。</span><span class="sxs-lookup"><span data-stu-id="29193-127">The transaction that decreases quantity must not have been marked to another transaction before it was posted.</span></span> <span data-ttu-id="29193-128">如果实际现有库存量变为负值，Finance and Operations 使用为**物料**页上的物料定义的库存成本。</span><span class="sxs-lookup"><span data-stu-id="29193-128">If the physical on-hand inventory becomes negative, Finance and Operations uses the inventory cost that is defined for the item on the **Item** page.</span></span> <span data-ttu-id="29193-129">**注意：**如果启用多站点功能，则该成本将改为在**默认订单设置**页上定义的库存成本。</span><span class="sxs-lookup"><span data-stu-id="29193-129">**Note:** If multisite functionality is enabled, this cost will instead be the inventory cost that is defined for a site on the **Default order settings** page.</span></span>
+<span data-ttu-id="29193-126">过帐减少数量的交易记录时，Finance and Operations 使用计算出的移动平均成本价，而不考虑与该库存关联的库存模型。</span><span class="sxs-lookup"><span data-stu-id="29193-126">Finance and Operations uses the calculated running average cost price when a transaction that decreases quantity is posted, regardless of the inventory model that is associated with that inventory.</span></span> <span data-ttu-id="29193-127">减少数量的交易记录不得在另一个交易记录过帐前标记为该交易记录。</span><span class="sxs-lookup"><span data-stu-id="29193-127">The transaction that decreases quantity must not have been marked to another transaction before it was posted.</span></span> <span data-ttu-id="29193-128">如果实际现有库存量变为负值，Finance and Operations 使用为**物料**页上的物料定义的库存成本。</span><span class="sxs-lookup"><span data-stu-id="29193-128">If the physical on-hand inventory becomes negative, Finance and Operations uses the inventory cost that is defined for the item on the **Item** page.</span></span> <span data-ttu-id="29193-129">**注意：** 如果启用多站点功能，则该成本将改为在**默认订单设置**页上定义的库存成本。</span><span class="sxs-lookup"><span data-stu-id="29193-129">**Note:** If multisite functionality is enabled, this cost will instead be the inventory cost that is defined for a site on the **Default order settings** page.</span></span>
 
 ## <a name="physical-issues-vs-financial-issues"></a><span data-ttu-id="29193-130">实际发货与财务发货</span><span class="sxs-lookup"><span data-stu-id="29193-130">Physical issues vs. financial issues</span></span>
 <span data-ttu-id="29193-131">在过帐某一实际发货交易记录时，该交易记录的状态为**已减少**。</span><span class="sxs-lookup"><span data-stu-id="29193-131">When a physical issue transaction is posted, the status of the transaction record is **Deducted**.</span></span> <span data-ttu-id="29193-132">以下交易记录被视为实际发货：</span><span class="sxs-lookup"><span data-stu-id="29193-132">The following transactions are considered physical issues:</span></span>

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 30211
 ms.assetid: 3c7e0e1c-703c-4bbf-b90c-84d29a131360
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4e14d0674ea20524b86669977db8db6a013aca4d
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -58,7 +58,7 @@ ms.lasthandoff: 05/08/2018
 2. <span data-ttu-id="7d6e8-139">通过使用**外部目录图像**操作添加图像。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-139">Add an image by using the **External catalog image** action.</span></span> <span data-ttu-id="7d6e8-140">此图像将出现在代表外部目录的购物车中，显示给创建申请的员工。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-140">The image will appear on the cart that represents the external catalog that is shown to employees who create a requisition.</span></span> <span data-ttu-id="7d6e8-141">请注意，图像的宽度和高度必须相等。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-141">Note that the image’s width and height must be equal.</span></span> <span data-ttu-id="7d6e8-142">否则图像不会正确显示。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-142">Otherwise the image won’t be displayed correctly.</span></span>
 3. <span data-ttu-id="7d6e8-143">选择供应商的外部目录网站是否应显示在员工创建申请时的相同浏览器窗口中，或者是否应在新窗口中打开。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-143">Select whether the vendor’s external catalog website should appear in the same browser window as the one where the employee has created the requisition, or if it should open in a new window.</span></span>
 4. <span data-ttu-id="7d6e8-144">选择目录的供应商。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-144">Select the vendor for the catalog.</span></span> <span data-ttu-id="7d6e8-145">在**法人**列表中，每个法人都有一行用于设置供应商。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-145">In the **Legal entities** list, there is a row for each legal entity where the vendor is set up.</span></span> <span data-ttu-id="7d6e8-146">要允许用户直接从某人法人（而不从其他法人）的供应商目录中申请产品，您可以对您希望提供或不提供目录的各个法人使用**禁止访问**或**允许访问**按钮。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-146">To allow users to request products directly from the vendor’s catalog in some legal entities but not others, you can use the **Prevent access** or **Allow access** button for each legal entity where you want the catalog to be or not to be available.</span></span>
-5. <span data-ttu-id="7d6e8-147">在**默认到期（天数）**字段中，输入从外部目录收到的报价单有效，且可以用来从外部供应商进行采购的天数。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-147">In the **Default expiration (Days)** field, enter the number of days that a quotation received from the external catalog is valid and can be used to purchase from the external vendor.</span></span> <span data-ttu-id="7d6e8-148">从供应商外部目录站点创建和检索报价单时，报价单截至当前系统日期有效，且在您在此字段输入的天数内一直有效。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-148">When a quotation is created and retrieved from the vendor’s external catalog site, the quotation is valid as of the current system date and remains valid for the number of days that you enter in this field.</span></span>
+5. <span data-ttu-id="7d6e8-147">在**默认到期（天数）** 字段中，输入从外部目录收到的报价单有效，且可以用来从外部供应商进行采购的天数。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-147">In the **Default expiration (Days)** field, enter the number of days that a quotation received from the external catalog is valid and can be used to purchase from the external vendor.</span></span> <span data-ttu-id="7d6e8-148">从供应商外部目录站点创建和检索报价单时，报价单截至当前系统日期有效，且在您在此字段输入的天数内一直有效。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-148">When a quotation is created and retrieved from the vendor’s external catalog site, the quotation is valid as of the current system date and remains valid for the number of days that you enter in this field.</span></span>
 6. <span data-ttu-id="7d6e8-149">单击**添加**按钮以开始将采购目录映射到外部目录。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-149">Click the **Add** button to start mapping the procurement categories to the external catalog.</span></span> <span data-ttu-id="7d6e8-150">然后，在目录名称列表中，选择一个类别。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-150">Then, in the Category name list, select a category.</span></span> <span data-ttu-id="7d6e8-151">类别列表是为供应商设置的所有法人中的供应商已经映射到的采购类别的超集。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-151">The list of categories is a superset of procurement categories that the vendor has been mapped to in all the legal entities that are set up for the vendor.</span></span>
 [!NOTE]
 <span data-ttu-id="7d6e8-152">采购策略用于允许或限制对采购法人或接收运营单位的类别的访问权限。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-152">Procurement policies are used to allow or restrict access to categories for the buying legal entity or receiving operating unit.</span></span> <span data-ttu-id="7d6e8-153">发包到外部目录要求允许访问至少一个映射到目录的采购类别。</span><span class="sxs-lookup"><span data-stu-id="7d6e8-153">Punchout to an external catalog requires that access be allowed to at least one of the procurement categories that is mapped to the catalog.</span></span>

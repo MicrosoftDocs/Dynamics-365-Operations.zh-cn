@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14511
 ms.assetid: 3e42ccb5-b9d7-4a70-8db9-4206d10fd433
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b7ca1ca030463ae08759accda8f77c0a0df1d384
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: a358af4878de0d02ce4dd3520e786d8779d7f030
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -88,7 +88,7 @@ ms.lasthandoff: 05/08/2018
 2.  <span data-ttu-id="ff50b-282">发票 FTI-10041 尚未结算。</span><span class="sxs-lookup"><span data-stu-id="ff50b-282">Invoice FTI-10041 isn't settled at all.</span></span> <span data-ttu-id="ff50b-283">发票 FTI-10041 和 FTI-10042 在同一日期输入。</span><span class="sxs-lookup"><span data-stu-id="ff50b-283">Invoices FTI-10041 and FTI-10042 were entered on the same date.</span></span> <span data-ttu-id="ff50b-284">然而，有 1% 的折扣可用于发票 FTI-10041，并且 2% 的折扣可用于发票 FTI-10042。</span><span class="sxs-lookup"><span data-stu-id="ff50b-284">However, a 1-percent discount is available to invoice FTI-10041, and a 2-percent discount is available to invoice FTI-10042.</span></span> <span data-ttu-id="ff50b-285">由于更好的折扣可用于发票 FTI-10042，其余的 485.00 使用发票 FTI-10042 结算。</span><span class="sxs-lookup"><span data-stu-id="ff50b-285">Because a better discount is available to invoice FTI-10042, the remaining 485.00 is settled with invoice FTI-10042.</span></span>
 3.  <span data-ttu-id="ff50b-286">发票 FTI-10042 使用剩余的 485.00 结算。</span><span class="sxs-lookup"><span data-stu-id="ff50b-286">Invoice FTI-10042 is settled with the remaining 485.00.</span></span> <span data-ttu-id="ff50b-287">Fabrikam 提供部分折扣。</span><span class="sxs-lookup"><span data-stu-id="ff50b-287">Fabrikam offers partial discounts.</span></span> <span data-ttu-id="ff50b-288">在这种情况下，折扣为 9.90 (= 485.00 ÷ 0.98 × 0.02)。</span><span class="sxs-lookup"><span data-stu-id="ff50b-288">In this case, the discount is 9.90 (= 485.00 ÷ 0.98 × 0.02).</span></span> <span data-ttu-id="ff50b-289">金额 (485.00) 除以 0.98，因为具有 2% 的折扣（因此，该客户支付发票的 98%）。</span><span class="sxs-lookup"><span data-stu-id="ff50b-289">The amount (485.00) is divided by 0.98, because there is a 2-percent discount (therefore, the customer pays 98 percent of the invoice).</span></span> <span data-ttu-id="ff50b-290">结果通过折扣百分比或 2 的折扣相乘。</span><span class="sxs-lookup"><span data-stu-id="ff50b-290">The result is then multiplied by the discount percentage, or 2 percent.</span></span> <span data-ttu-id="ff50b-291">485.00 的付款加上 9.90 的折扣等于 494.90。</span><span class="sxs-lookup"><span data-stu-id="ff50b-291">The payment of 485.00 plus the discount of 9.90 equals 494.90.</span></span> <span data-ttu-id="ff50b-292">原始发票的金额为 1.000.00。</span><span class="sxs-lookup"><span data-stu-id="ff50b-292">The amount of the original invoice was 1,000.00.</span></span> <span data-ttu-id="ff50b-293">因此交易记录具有 505.10 的余额 (= 1,000.00 – 494.90)。</span><span class="sxs-lookup"><span data-stu-id="ff50b-293">Therefore, the transaction has a balance of 505.10 (= 1,000.00 – 494.90).</span></span>
 
-<span data-ttu-id="ff50b-294">Arnie 在**“客户交易记录”**页上查看信息。</span><span class="sxs-lookup"><span data-stu-id="ff50b-294">Arnie views the information on the **Customer transactions** page.</span></span>
+<span data-ttu-id="ff50b-294">Arnie 在 **“客户交易记录”** 页上查看信息。</span><span class="sxs-lookup"><span data-stu-id="ff50b-294">Arnie views the information on the **Customer transactions** page.</span></span>
 
 | <span data-ttu-id="ff50b-295">凭证</span><span class="sxs-lookup"><span data-stu-id="ff50b-295">Voucher</span></span>    | <span data-ttu-id="ff50b-296">交易记录类型</span><span class="sxs-lookup"><span data-stu-id="ff50b-296">Transaction type</span></span> | <span data-ttu-id="ff50b-297">日期</span><span class="sxs-lookup"><span data-stu-id="ff50b-297">Date</span></span>      | <span data-ttu-id="ff50b-298">开票</span><span class="sxs-lookup"><span data-stu-id="ff50b-298">Invoice</span></span> | <span data-ttu-id="ff50b-299">交易币种借方金额</span><span class="sxs-lookup"><span data-stu-id="ff50b-299">Amount in transaction currency debit</span></span> | <span data-ttu-id="ff50b-300">交易币种贷方金额</span><span class="sxs-lookup"><span data-stu-id="ff50b-300">Amount in transaction currency credit</span></span> | <span data-ttu-id="ff50b-301">余额</span><span class="sxs-lookup"><span data-stu-id="ff50b-301">Balance</span></span>  | <span data-ttu-id="ff50b-302">货币</span><span class="sxs-lookup"><span data-stu-id="ff50b-302">Currency</span></span> |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 268174
 ms.assetid: fe47c498-4f48-42a2-a0cf-5436c19ab3ea
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9d665b7f6308618d34695626371dfc9dc1c6f2e7
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -98,7 +98,7 @@ ms.lasthandoff: 05/08/2018
 -   <span data-ttu-id="8df9c-195">对于生产和批次订单，只能通过使用**已转包工作**列表页中的领料单日记帐，以逻辑方式转移半成品。</span><span class="sxs-lookup"><span data-stu-id="8df9c-195">For production and batch orders, semi-finished products can only be transferred logically by using the Picking list journal from the **Subcontracted work** list page.</span></span> <span data-ttu-id="8df9c-196">此日记帐将创建可用于把半成品和原料转移到供应商的交货通知票据。</span><span class="sxs-lookup"><span data-stu-id="8df9c-196">This journal will create a delivery note document that can be used to transfer semi-finished and raw material to the vendor.</span></span>
 -   <span data-ttu-id="8df9c-197">对于生产流中的已转包工序，将由供应商位置的提款或生产看板的收据记录半成品的转移。</span><span class="sxs-lookup"><span data-stu-id="8df9c-197">For subcontracted operations in production flows, the transfer of semi-finished products is documented by the receipt of withdrawal or production kanbans at the vendor location.</span></span> <span data-ttu-id="8df9c-198">若要为显式转移活动建模，可以以额外的转移活动结束生产看板。</span><span class="sxs-lookup"><span data-stu-id="8df9c-198">To model an explicit transfer activity, you can end a production kanban with an additional transfer activity.</span></span>
 
-<span data-ttu-id="8df9c-199">**注释：**一个生产订单的生产工艺路线不能跨多个站点。</span><span class="sxs-lookup"><span data-stu-id="8df9c-199">**Note:** A production route for a single production order can't cross multiple sites.</span></span> <span data-ttu-id="8df9c-200">此规则也适用于已转包工作。</span><span class="sxs-lookup"><span data-stu-id="8df9c-200">This rule also applies to the subcontracted work.</span></span> <span data-ttu-id="8df9c-201">因此，必须在与工艺路线中所用内部资源相同的站点中定义表示供应商所管理位置的仓库。</span><span class="sxs-lookup"><span data-stu-id="8df9c-201">Therefore, the warehouses that represent the vendor-managed material locations must be defined in the same site as the internal resources that are used in the route.</span></span> <span data-ttu-id="8df9c-202">尽管生产流可以跨站点，但不能将半成品从一个站点运输到另一个站点，因为该工序表示了成本上下文的变化。</span><span class="sxs-lookup"><span data-stu-id="8df9c-202">Although production flows can cross sites, they can't transport semi-finished products from one site to another, because that operation implies a change of cost context.</span></span>  
+<span data-ttu-id="8df9c-199">**注释：** 一个生产订单的生产工艺路线不能跨多个站点。</span><span class="sxs-lookup"><span data-stu-id="8df9c-199">**Note:** A production route for a single production order can't cross multiple sites.</span></span> <span data-ttu-id="8df9c-200">此规则也适用于已转包工作。</span><span class="sxs-lookup"><span data-stu-id="8df9c-200">This rule also applies to the subcontracted work.</span></span> <span data-ttu-id="8df9c-201">因此，必须在与工艺路线中所用内部资源相同的站点中定义表示供应商所管理位置的仓库。</span><span class="sxs-lookup"><span data-stu-id="8df9c-201">Therefore, the warehouses that represent the vendor-managed material locations must be defined in the same site as the internal resources that are used in the route.</span></span> <span data-ttu-id="8df9c-202">尽管生产流可以跨站点，但不能将半成品从一个站点运输到另一个站点，因为该工序表示了成本上下文的变化。</span><span class="sxs-lookup"><span data-stu-id="8df9c-202">Although production flows can cross sites, they can't transport semi-finished products from one site to another, because that operation implies a change of cost context.</span></span>  
 
 <span data-ttu-id="8df9c-203">通常，直接将已转包资源组的输出仓库和位置分配给工艺路线或生产流中工序下一步骤的仓库和位置。</span><span class="sxs-lookup"><span data-stu-id="8df9c-203">Typically, the output warehouse and location of a subcontracted resource group are directly allocated to the warehouse and location of the next step of the operation in the route or production flow.</span></span> <span data-ttu-id="8df9c-204">此设置有助于减少产品的作业报告量或必须建模的额外转移工序的数量。</span><span class="sxs-lookup"><span data-stu-id="8df9c-204">This setup helps reduce the amount of job reporting that occurs or the number additional transfer operations that must be modeled.</span></span>
 

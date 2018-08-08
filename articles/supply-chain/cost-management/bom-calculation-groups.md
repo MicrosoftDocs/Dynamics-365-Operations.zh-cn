@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 94063
 ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8285305466a3762d3dab8a7975dfa51b994f1e6f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -95,7 +95,7 @@ ms.lasthandoff: 05/08/2018
 -   <span data-ttu-id="d24cd-196">标识物料清单行中的物料何时具有过期成本。</span><span class="sxs-lookup"><span data-stu-id="d24cd-196">Identify when the item on a BOM line has an out-of-date cost.</span></span> <span data-ttu-id="d24cd-197">警告反映计算日期与成本的最大年限的指定天数之间的比较。</span><span class="sxs-lookup"><span data-stu-id="d24cd-197">The warning reflects a comparison of the calculation date to the specified days for a maximum age of cost.</span></span>
 -   <span data-ttu-id="d24cd-198">标识物料清单行中的物料何时具有少于您所需的收益率百分比。</span><span class="sxs-lookup"><span data-stu-id="d24cd-198">Identify when the item on a BOM line has a profitability percentage that is less than you want.</span></span>
 
-<span data-ttu-id="d24cd-199">您可以定义多个物料清单计算组，具体取决于您在警告消息中的变型要求。</span><span class="sxs-lookup"><span data-stu-id="d24cd-199">You can define multiple BOM calculation groups, depending on your requirements for variations in warning messages.</span></span> <span data-ttu-id="d24cd-200">例如，具有与有效物料清单、0（零）组件数量和0（零）组件成本有关的警告条件的一个物料清单计算组可能就足够了。</span><span class="sxs-lookup"><span data-stu-id="d24cd-200">For example, one BOM calculation group that has warning conditions about an active BOM, a component quantity of 0 (zero), and component cost of 0 (zero) might be enough.</span></span> <span data-ttu-id="d24cd-201">在您开始执行物料清单计算时，可以覆盖与物料清单计算组相关联的警告条件。</span><span class="sxs-lookup"><span data-stu-id="d24cd-201">When you start a BOM calculation, you can override the warning conditions that are associated with the BOM calculation group.</span></span> <span data-ttu-id="d24cd-202">您还可以添加或删除警告条件。</span><span class="sxs-lookup"><span data-stu-id="d24cd-202">You can also add or remove warning conditions.</span></span> <span data-ttu-id="d24cd-203">例如，如果当前情况不涉及路线选择数据，您可以取消与有效工艺路线有关的警告条件。</span><span class="sxs-lookup"><span data-stu-id="d24cd-203">For example, if the current situation doesn't involve routing data, you can remove the warning condition about an active route.</span></span> <span data-ttu-id="d24cd-204">**注意︰**时间和出勤包括**计算组**页，但是该页与物料清单计算组没有关系。</span><span class="sxs-lookup"><span data-stu-id="d24cd-204">**Note:** Time and attendance includes a **Calculation groups** page, but that page has no relationship to BOM calculation groups.</span></span> <span data-ttu-id="d24cd-205">在“时间和出勤”中，可以将工作人员分配至反映与相同主管或经理相关联的工作人员分组的计算组。</span><span class="sxs-lookup"><span data-stu-id="d24cd-205">In Time and attendance, workers can be assigned to calculation groups that reflect the grouping of workers who are associated with the same supervisor or manager.</span></span> <span data-ttu-id="d24cd-206">工作人员的登记计算可由主管或经理自动或手动完成。</span><span class="sxs-lookup"><span data-stu-id="d24cd-206">Calculation of worker registrations can be done either automatically or manually by a supervisor or manager.</span></span>
+<span data-ttu-id="d24cd-199">您可以定义多个物料清单计算组，具体取决于您在警告消息中的变型要求。</span><span class="sxs-lookup"><span data-stu-id="d24cd-199">You can define multiple BOM calculation groups, depending on your requirements for variations in warning messages.</span></span> <span data-ttu-id="d24cd-200">例如，具有与有效物料清单、0（零）组件数量和0（零）组件成本有关的警告条件的一个物料清单计算组可能就足够了。</span><span class="sxs-lookup"><span data-stu-id="d24cd-200">For example, one BOM calculation group that has warning conditions about an active BOM, a component quantity of 0 (zero), and component cost of 0 (zero) might be enough.</span></span> <span data-ttu-id="d24cd-201">在您开始执行物料清单计算时，可以覆盖与物料清单计算组相关联的警告条件。</span><span class="sxs-lookup"><span data-stu-id="d24cd-201">When you start a BOM calculation, you can override the warning conditions that are associated with the BOM calculation group.</span></span> <span data-ttu-id="d24cd-202">您还可以添加或删除警告条件。</span><span class="sxs-lookup"><span data-stu-id="d24cd-202">You can also add or remove warning conditions.</span></span> <span data-ttu-id="d24cd-203">例如，如果当前情况不涉及路线选择数据，您可以取消与有效工艺路线有关的警告条件。</span><span class="sxs-lookup"><span data-stu-id="d24cd-203">For example, if the current situation doesn't involve routing data, you can remove the warning condition about an active route.</span></span> <span data-ttu-id="d24cd-204">**注意︰** 时间和出勤包括**计算组**页，但是该页与物料清单计算组没有关系。</span><span class="sxs-lookup"><span data-stu-id="d24cd-204">**Note:** Time and attendance includes a **Calculation groups** page, but that page has no relationship to BOM calculation groups.</span></span> <span data-ttu-id="d24cd-205">在“时间和出勤”中，可以将工作人员分配至反映与相同主管或经理相关联的工作人员分组的计算组。</span><span class="sxs-lookup"><span data-stu-id="d24cd-205">In Time and attendance, workers can be assigned to calculation groups that reflect the grouping of workers who are associated with the same supervisor or manager.</span></span> <span data-ttu-id="d24cd-206">工作人员的登记计算可由主管或经理自动或手动完成。</span><span class="sxs-lookup"><span data-stu-id="d24cd-206">Calculation of worker registrations can be done either automatically or manually by a supervisor or manager.</span></span>
 
 
 

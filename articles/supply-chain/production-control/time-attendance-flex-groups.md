@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: JmgFlexGroup
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.assetid: 427e01b3-4968-4cff-9b85-1717530f72e4
@@ -19,10 +19,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
-ms.openlocfilehash: d627f9a4a751748b534eba570d8c2423d58ce8dd
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: aae00f3605a6598a34e58fad3e06e687476dd859
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/21/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

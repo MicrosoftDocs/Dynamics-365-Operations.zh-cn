@@ -1,7 +1,7 @@
 --- 
 title: "为产品创建条码"
 description: "此过程显示以物料编号 M0001 为例如何手动创建条码。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/26/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a3434c7f96122ec7aa2f7f9b0eefbe12d089b4f3
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: b48975d819ea4643fa61d3f2ca536b07d1c665eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-bar-code-for-a-product"></a><span data-ttu-id="4e062-103">为产品创建条码</span><span class="sxs-lookup"><span data-stu-id="4e062-103">Create a bar code for a product</span></span>

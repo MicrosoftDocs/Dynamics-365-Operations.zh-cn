@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4948122e9eb07afe93503e12c84bca71f12be92f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 715b7057b48b14145f49d5f83e7d0008ce9146ca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="d08d0-103">使用普通发票处置固定资产</span><span class="sxs-lookup"><span data-stu-id="d08d0-103">Dispose of a fixed asset using a free text invoice</span></span>

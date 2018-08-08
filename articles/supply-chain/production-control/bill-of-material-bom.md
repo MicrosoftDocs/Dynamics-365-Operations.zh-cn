@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 19331
 ms.assetid: c19b437a-2de2-4728-9477-2bcb0c2b1f5e
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4fd2c6355611812432ee47241f6d37bc2fb508c6
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 0833143722df5402a17e4f8f456a923792c478a5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -99,23 +99,23 @@ ms.lasthandoff: 05/08/2018
 
 ### <a name="item"></a><span data-ttu-id="e7c67-179">物料</span><span class="sxs-lookup"><span data-stu-id="e7c67-179">Item</span></span>
 
-<span data-ttu-id="e7c67-180">为直接消耗但不需要进一步分解或限定供应的物料和服务选择**“物料”**行类型。</span><span class="sxs-lookup"><span data-stu-id="e7c67-180">Select the **Item** line type for materials or services that are directly consumed, and that don't require further explosion or pegged supply.</span></span>
+<span data-ttu-id="e7c67-180">为直接消耗但不需要进一步分解或限定供应的物料和服务选择 **“物料”** 行类型。</span><span class="sxs-lookup"><span data-stu-id="e7c67-180">Select the **Item** line type for materials or services that are directly consumed, and that don't require further explosion or pegged supply.</span></span>
 
 ### <a name="phantom"></a><span data-ttu-id="e7c67-181">虚拟</span><span class="sxs-lookup"><span data-stu-id="e7c67-181">Phantom</span></span>
 
-<span data-ttu-id="e7c67-182">当您要分解在物料清单行上包含的任何更低级别的物料清单物料时，请选择**“虚拟”**。</span><span class="sxs-lookup"><span data-stu-id="e7c67-182">Select the **Phantom** line type when you want to explode any lower-level BOM items that are contained on the BOM line.</span></span> <span data-ttu-id="e7c67-183">在主计划编制中，在计划成本计算中，或者在使用**“虚拟”**类型的物料清单行的生产订单的估计中，引用具有虚拟物料清单的产品变型的父物料清单行将替换为在该物料清单中作为物料清单行列出的构成物料（由该产品变型的适用的有效物料清单版本确定）。</span><span class="sxs-lookup"><span data-stu-id="e7c67-183">In Master scheduling, in planned cost calculation, or on estimation of a production order that uses BOM lines of the **Phantom** type, the parent BOM line that refers to a product variant that has a phantom BOM is replaced by the component items that are listed as BOM lines in that BOM, as determined by the applicable active BOM version of that product variant.</span></span> <span data-ttu-id="e7c67-184">如果产品变型具有适用的有效工艺路线，该工艺路线的工序将合并到父工艺路线中。</span><span class="sxs-lookup"><span data-stu-id="e7c67-184">If the product variant has an applicable active route, the operations of that route are merged into the parent route.</span></span>  
+<span data-ttu-id="e7c67-182">当您要分解在物料清单行上包含的任何更低级别的物料清单物料时，请选择 **“虚拟”**。</span><span class="sxs-lookup"><span data-stu-id="e7c67-182">Select the **Phantom** line type when you want to explode any lower-level BOM items that are contained on the BOM line.</span></span> <span data-ttu-id="e7c67-183">在主计划编制中，在计划成本计算中，或者在使用 **“虚拟”** 类型的物料清单行的生产订单的估计中，引用具有虚拟物料清单的产品变型的父物料清单行将替换为在该物料清单中作为物料清单行列出的构成物料（由该产品变型的适用的有效物料清单版本确定）。</span><span class="sxs-lookup"><span data-stu-id="e7c67-183">In Master scheduling, in planned cost calculation, or on estimation of a production order that uses BOM lines of the **Phantom** type, the parent BOM line that refers to a product variant that has a phantom BOM is replaced by the component items that are listed as BOM lines in that BOM, as determined by the applicable active BOM version of that product variant.</span></span> <span data-ttu-id="e7c67-184">如果产品变型具有适用的有效工艺路线，该工艺路线的工序将合并到父工艺路线中。</span><span class="sxs-lookup"><span data-stu-id="e7c67-184">If the product variant has an applicable active route, the operations of that route are merged into the parent route.</span></span>  
 
 <span data-ttu-id="e7c67-185">请注意，虚拟通常用于简化工程流程。</span><span class="sxs-lookup"><span data-stu-id="e7c67-185">Note that phantoms are typically used to simplify the engineering process.</span></span> <span data-ttu-id="e7c67-186">在多个级别广泛使用虚拟物料清单会影响性能，尤其是在高度重复的制造方案中。</span><span class="sxs-lookup"><span data-stu-id="e7c67-186">Extensive use of phantom BOMs in many levels has an effect on performance, especially in highly repetitive manufacturing scenarios.</span></span> <span data-ttu-id="e7c67-187">为了提高性能，您应该避免为虚拟设置较深的层次结构。</span><span class="sxs-lookup"><span data-stu-id="e7c67-187">To improve performance, you should avoid deep hierarchies of phantoms.</span></span> <span data-ttu-id="e7c67-188">相反，您应使用预先分解的生产物料清单和工艺路线。</span><span class="sxs-lookup"><span data-stu-id="e7c67-188">Instead, use pre-exploded production BOMs and routes.</span></span>
 
 ### <a name="pegged-supply"></a><span data-ttu-id="e7c67-189">限定供应</span><span class="sxs-lookup"><span data-stu-id="e7c67-189">Pegged supply</span></span>
 
-<span data-ttu-id="e7c67-190">当您要创建子生产、创建物料清单行事件看板或创建物料清单行引用的任何产品变型的直接采购订单时，请选择**“限定供应“**。</span><span class="sxs-lookup"><span data-stu-id="e7c67-190">Select the **Pegged supply** line type when you want to create a subproduction, a BOM line event kanban, or a direct purchase order for any product variant that the BOM line references.</span></span> <span data-ttu-id="e7c67-191">子生产、事件看板或采购订单在您估计生产订单时创建。</span><span class="sxs-lookup"><span data-stu-id="e7c67-191">The subproduction, event kanban, or purchase order is created when you estimate the production order.</span></span> <span data-ttu-id="e7c67-192">将自动为消耗生产订单预留所需的物料数量。</span><span class="sxs-lookup"><span data-stu-id="e7c67-192">The required item quantities are automatically reserved for the consuming production order.</span></span>
+<span data-ttu-id="e7c67-190">当您要创建子生产、创建物料清单行事件看板或创建物料清单行引用的任何产品变型的直接采购订单时，请选择 **“限定供应“**。</span><span class="sxs-lookup"><span data-stu-id="e7c67-190">Select the **Pegged supply** line type when you want to create a subproduction, a BOM line event kanban, or a direct purchase order for any product variant that the BOM line references.</span></span> <span data-ttu-id="e7c67-191">子生产、事件看板或采购订单在您估计生产订单时创建。</span><span class="sxs-lookup"><span data-stu-id="e7c67-191">The subproduction, event kanban, or purchase order is created when you estimate the production order.</span></span> <span data-ttu-id="e7c67-192">将自动为消耗生产订单预留所需的物料数量。</span><span class="sxs-lookup"><span data-stu-id="e7c67-192">The required item quantities are automatically reserved for the consuming production order.</span></span>
 
 ### <a name="vendor"></a><span data-ttu-id="e7c67-193">供应商</span><span class="sxs-lookup"><span data-stu-id="e7c67-193">Vendor</span></span>
 
-<span data-ttu-id="e7c67-194">如果生产流程利用了某个转包商，并且您想要自动为该转包商创建子生产或采购订单，请选择**“供应商”**行类型。</span><span class="sxs-lookup"><span data-stu-id="e7c67-194">Select the **Vendor** line type if the production process uses a subcontractor, and you want a subproduction or purchase order to be created automatically for the subcontractor.</span></span>  
+<span data-ttu-id="e7c67-194">如果生产流程利用了某个转包商，并且您想要自动为该转包商创建子生产或采购订单，请选择 **“供应商”** 行类型。</span><span class="sxs-lookup"><span data-stu-id="e7c67-194">Select the **Vendor** line type if the production process uses a subcontractor, and you want a subproduction or purchase order to be created automatically for the subcontractor.</span></span>  
 
-<span data-ttu-id="e7c67-195">**有关物料清单中的转包工序的注释：**由转包商执行的服务或工作必须作为在库存中跟踪的服务项创建。</span><span class="sxs-lookup"><span data-stu-id="e7c67-195">**Note about subcontracted operations in a BOM:** The service or work that is performed by the subcontractor must be created as service item that is tracked in inventory.</span></span> <span data-ttu-id="e7c67-196">您必须将服务项作为物料清单行附加到父项。</span><span class="sxs-lookup"><span data-stu-id="e7c67-196">You must attach the service item to the parent item as a BOM line.</span></span> <span data-ttu-id="e7c67-197">工艺路线必须包含分配给转包商的运营资源。</span><span class="sxs-lookup"><span data-stu-id="e7c67-197">The route must contain an operation that is assigned to the subcontractor's operations resource.</span></span>
+<span data-ttu-id="e7c67-195">**有关物料清单中的转包工序的注释：** 由转包商执行的服务或工作必须作为在库存中跟踪的服务项创建。</span><span class="sxs-lookup"><span data-stu-id="e7c67-195">**Note about subcontracted operations in a BOM:** The service or work that is performed by the subcontractor must be created as service item that is tracked in inventory.</span></span> <span data-ttu-id="e7c67-196">您必须将服务项作为物料清单行附加到父项。</span><span class="sxs-lookup"><span data-stu-id="e7c67-196">You must attach the service item to the parent item as a BOM line.</span></span> <span data-ttu-id="e7c67-197">工艺路线必须包含分配给转包商的运营资源。</span><span class="sxs-lookup"><span data-stu-id="e7c67-197">The route must contain an operation that is assigned to the subcontractor's operations resource.</span></span>
 
 
 

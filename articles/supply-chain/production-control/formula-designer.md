@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: baf7a3fa0cce7a6e2521b07169a99aa7d0999bb1
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 31a46230251be3a654092a4acc05a404533001b2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="10c15-107">单击**设置**可选择不同的配置并指定要在树的行上显示哪些信息。</span><span class="sxs-lookup"><span data-stu-id="10c15-107">Click **Setup** to select different configurations and specify what information appears on the lines of the tree.</span></span>
 
-<span data-ttu-id="10c15-108">单击**“筛选器”**以更改视图中的初始选择。</span><span class="sxs-lookup"><span data-stu-id="10c15-108">Click **Filter** to change the initial selection in the view.</span></span> <span data-ttu-id="10c15-109">如果将显示原则设置为**选定/有效**或**选定**，可以选择要在视图中使用的单个配方或工艺路线版本。</span><span class="sxs-lookup"><span data-stu-id="10c15-109">If you set the display principle to **Selected/Active** or **Selected**, you can select individual formula or route versions to use in the view.</span></span> <span data-ttu-id="10c15-110">您可以选择要在配方设计器中显示或维护的未经审核和无效的配方版本。</span><span class="sxs-lookup"><span data-stu-id="10c15-110">You can select non-approved and non-active formula versions to show or maintain in the formula designer.</span></span>  
+<span data-ttu-id="10c15-108">单击 **“筛选器”** 以更改视图中的初始选择。</span><span class="sxs-lookup"><span data-stu-id="10c15-108">Click **Filter** to change the initial selection in the view.</span></span> <span data-ttu-id="10c15-109">如果将显示原则设置为**选定/有效**或**选定**，可以选择要在视图中使用的单个配方或工艺路线版本。</span><span class="sxs-lookup"><span data-stu-id="10c15-109">If you set the display principle to **Selected/Active** or **Selected**, you can select individual formula or route versions to use in the view.</span></span> <span data-ttu-id="10c15-110">您可以选择要在配方设计器中显示或维护的未经审核和无效的配方版本。</span><span class="sxs-lookup"><span data-stu-id="10c15-110">You can select non-approved and non-active formula versions to show or maintain in the formula designer.</span></span>  
 
 > [!NOTE]
 > <span data-ttu-id="10c15-111">如果您从**物料清单**列表页打开了**配方设计器**页，该设计器不会显示工艺路线信息。</span><span class="sxs-lookup"><span data-stu-id="10c15-111">If you open the **Formula designer** page from the **Bills of materials** list page, it doesn't show route information.</span></span> <span data-ttu-id="10c15-112">目前，配方的选择或工艺路线版本应用于配方设计器的所有实例。</span><span class="sxs-lookup"><span data-stu-id="10c15-112">Currently, the selection of a formula or route version applies to all instances of the formula designer.</span></span>  
@@ -50,13 +50,13 @@ ms.lasthandoff: 05/08/2018
 -   <span data-ttu-id="10c15-116">配方结构的树视图。</span><span class="sxs-lookup"><span data-stu-id="10c15-116">The tree view of the formula structure.</span></span>
 -   <span data-ttu-id="10c15-117">详细信息部分中，显示所选数据的详细信息。</span><span class="sxs-lookup"><span data-stu-id="10c15-117">The details section, which shows details of the selected data.</span></span> <span data-ttu-id="10c15-118">当您选择树视图中的节点时，详细信息部分中的 FastTabs 将基于该节点进行更新：</span><span class="sxs-lookup"><span data-stu-id="10c15-118">When you select a node in the tree view, the FastTabs in the details section are updated based on that node:</span></span>
     -   <span data-ttu-id="10c15-119">**配方行详细信息** - 查看在树视图中选择的配方行的详细信息。</span><span class="sxs-lookup"><span data-stu-id="10c15-119">**Formula line details** – View the details of the formula line that is selected in the tree view.</span></span>
-    -   <span data-ttu-id="10c15-120">**物料数据** - 查看主要物料或在所选节点中使用的物料的详细信息。</span><span class="sxs-lookup"><span data-stu-id="10c15-120">**Item data** – View the details of the main item or the item that is used in the selected node.</span></span> <span data-ttu-id="10c15-121">您可以单击**“编辑已发布产品”**以维护所选物料。</span><span class="sxs-lookup"><span data-stu-id="10c15-121">You can click **Edit released product** to maintain the selected item.</span></span>
+    -   <span data-ttu-id="10c15-120">**物料数据** - 查看主要物料或在所选节点中使用的物料的详细信息。</span><span class="sxs-lookup"><span data-stu-id="10c15-120">**Item data** – View the details of the main item or the item that is used in the selected node.</span></span> <span data-ttu-id="10c15-121">您可以单击 **“编辑已发布产品”** 以维护所选物料。</span><span class="sxs-lookup"><span data-stu-id="10c15-121">You can click **Edit released product** to maintain the selected item.</span></span>
     -   <span data-ttu-id="10c15-122">**工艺路线** - 查看与所选节点相关的配方的标题。</span><span class="sxs-lookup"><span data-stu-id="10c15-122">**Formula** – View the header of the formula that is related to the selected node.</span></span>
     -   <span data-ttu-id="10c15-123">**工艺路线** - 查看与所选节点相关的工艺路线的标题。</span><span class="sxs-lookup"><span data-stu-id="10c15-123">**Route** – View the header of the route that is related to the selected node.</span></span>
     -   <span data-ttu-id="10c15-124">**工艺路线工序** - 查看工艺路线的工序的预览。</span><span class="sxs-lookup"><span data-stu-id="10c15-124">**Route operations** – View a preview of the operations for the route.</span></span> <span data-ttu-id="10c15-125">当物料清单行 (BOM) 分配给所选的特定工序后，该工序将标记为**工序中需要的组件**。</span><span class="sxs-lookup"><span data-stu-id="10c15-125">When a bill of materials (BOM) line that is assigned to a specific operation is selected, the operation is marked as **Component needed at operations**.</span></span>
 
 ## <a name="select-a-formula-and-route"></a><span data-ttu-id="10c15-126">选择配方和工艺路线</span><span class="sxs-lookup"><span data-stu-id="10c15-126">Select a formula and route</span></span>
-<span data-ttu-id="10c15-127">为配方和工艺路线应用的筛选器将显示在配方设计器的标题中。</span><span class="sxs-lookup"><span data-stu-id="10c15-127">The filter that is applied for the formula and route is shown in the header of the formula designer.</span></span> <span data-ttu-id="10c15-128">您可以使用**“筛选器”**对话框更改筛选器。</span><span class="sxs-lookup"><span data-stu-id="10c15-128">You can change the filter by using the **Filter** dialog box.</span></span> <span data-ttu-id="10c15-129">下表描述了此对话框中的字段。</span><span class="sxs-lookup"><span data-stu-id="10c15-129">The following table describes the fields in this dialog box.</span></span>
+<span data-ttu-id="10c15-127">为配方和工艺路线应用的筛选器将显示在配方设计器的标题中。</span><span class="sxs-lookup"><span data-stu-id="10c15-127">The filter that is applied for the formula and route is shown in the header of the formula designer.</span></span> <span data-ttu-id="10c15-128">您可以使用 **“筛选器”** 对话框更改筛选器。</span><span class="sxs-lookup"><span data-stu-id="10c15-128">You can change the filter by using the **Filter** dialog box.</span></span> <span data-ttu-id="10c15-129">下表描述了此对话框中的字段。</span><span class="sxs-lookup"><span data-stu-id="10c15-129">The following table describes the fields in this dialog box.</span></span>
 
 <table>
 <thead>

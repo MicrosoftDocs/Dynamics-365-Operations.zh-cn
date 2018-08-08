@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fda4dff829f933eca8b1e3e6bba5e56dd3304190
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="0b9c1-113">以下模板和基础任务用于将来自 Finance and Operations 的销售发票标题和行同步到 Sales：</span><span class="sxs-lookup"><span data-stu-id="0b9c1-113">The following template and underlying tasks are used to synchronize sales invoice headers and lines from Finance and Operations to Sales:</span></span>
 
-- <span data-ttu-id="0b9c1-114">**“数据集成”中模板的名称：**销售发票（Fin and Ops 到 Sales）- 直接</span><span class="sxs-lookup"><span data-stu-id="0b9c1-114">**Name of the template in Data integration:** Sales Invoices (Fin and Ops to Sales) - Direct</span></span>
+- <span data-ttu-id="0b9c1-114">**“数据集成”中模板的名称：** 销售发票（Fin and Ops 到 Sales）- 直接</span><span class="sxs-lookup"><span data-stu-id="0b9c1-114">**Name of the template in Data integration:** Sales Invoices (Fin and Ops to Sales) - Direct</span></span>
 - <span data-ttu-id="0b9c1-115">**数据集成项目中的任务名称：**</span><span class="sxs-lookup"><span data-stu-id="0b9c1-115">**Names of the tasks in the Data integration project:**</span></span>
 
     - <span data-ttu-id="0b9c1-116">SalesInvoiceHeader</span><span class="sxs-lookup"><span data-stu-id="0b9c1-116">SalesInvoiceHeader</span></span>

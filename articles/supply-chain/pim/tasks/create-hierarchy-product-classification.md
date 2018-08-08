@@ -1,7 +1,7 @@
 --- 
 title: "创建产品分类的层次结构"
 description: "该过程会显示如何创建新类别层次结构，和分配商品代码层次结构类型。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 93ad9888f37c90057de93aa8f328d77bcf626a3c
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 86f4627688e46f98895eda0a6f1a113742c215d9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-hierarchy-of-product-classification"></a><span data-ttu-id="82743-103">创建产品分类的层次结构</span><span class="sxs-lookup"><span data-stu-id="82743-103">Create a hierarchy of product classification</span></span>

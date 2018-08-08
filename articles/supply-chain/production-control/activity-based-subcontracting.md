@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9be74afb2187ca8638102f09ea79497e228df906
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c219208c7ba5dd3686473d094658ab7f4c1b2b59
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -65,10 +65,10 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="d330d-168">基于活动的转包中使用的付款项必须是具有以下属性的产品：</span><span class="sxs-lookup"><span data-stu-id="d330d-168">The payment item that is used in activity-based subcontracting must be a product that has the following properties:</span></span>
 
--   <span data-ttu-id="d330d-169">**产品类型：**服务</span><span class="sxs-lookup"><span data-stu-id="d330d-169">**Product type:** Service</span></span>
--   <span data-ttu-id="d330d-170">**库存模型组：**非贮存</span><span class="sxs-lookup"><span data-stu-id="d330d-170">**Inventory model group:** Non stocked</span></span>
+-   <span data-ttu-id="d330d-169">**产品类型：** 服务</span><span class="sxs-lookup"><span data-stu-id="d330d-169">**Product type:** Service</span></span>
+-   <span data-ttu-id="d330d-170">**库存模型组：** 非贮存</span><span class="sxs-lookup"><span data-stu-id="d330d-170">**Inventory model group:** Non stocked</span></span>
 
-<span data-ttu-id="d330d-171">此要求强制使用先进先出 (FIFO) 库存模型。</span><span class="sxs-lookup"><span data-stu-id="d330d-171">This requirement enforces the use of the first in, first out (FIFO) inventory model.</span></span> <span data-ttu-id="d330d-172">**注释：**产品的成本计算要求定义服务的标准成本。</span><span class="sxs-lookup"><span data-stu-id="d330d-172">**Note:** Cost calculation of the products requires that the standard cost of the service be defined.</span></span> <span data-ttu-id="d330d-173">需要与供应商之间的采购协议。</span><span class="sxs-lookup"><span data-stu-id="d330d-173">A purchase agreement with the vendor is required.</span></span> <span data-ttu-id="d330d-174">否则，不能将服务用于基于活动的转包。</span><span class="sxs-lookup"><span data-stu-id="d330d-174">Otherwise, the service can't be used for activity-based subcontracting.</span></span>
+<span data-ttu-id="d330d-171">此要求强制使用先进先出 (FIFO) 库存模型。</span><span class="sxs-lookup"><span data-stu-id="d330d-171">This requirement enforces the use of the first in, first out (FIFO) inventory model.</span></span> <span data-ttu-id="d330d-172">**注释：** 产品的成本计算要求定义服务的标准成本。</span><span class="sxs-lookup"><span data-stu-id="d330d-172">**Note:** Cost calculation of the products requires that the standard cost of the service be defined.</span></span> <span data-ttu-id="d330d-173">需要与供应商之间的采购协议。</span><span class="sxs-lookup"><span data-stu-id="d330d-173">A purchase agreement with the vendor is required.</span></span> <span data-ttu-id="d330d-174">否则，不能将服务用于基于活动的转包。</span><span class="sxs-lookup"><span data-stu-id="d330d-174">Otherwise, the service can't be used for activity-based subcontracting.</span></span>
 
 ### <a name="subcontracted-process-activities"></a><span data-ttu-id="d330d-175">已转包流程活动</span><span class="sxs-lookup"><span data-stu-id="d330d-175">Subcontracted process activities</span></span>
 

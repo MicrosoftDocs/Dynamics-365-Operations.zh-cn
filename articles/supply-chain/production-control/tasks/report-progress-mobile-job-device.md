@@ -1,7 +1,7 @@
 --- 
 title: "在移动作业设备上报告进度"
 description: "该过程向您展示如何在一个生产作业和工作设备登记表中开始并报告生产作业进度。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8096f703ecf2dc9e8ac33b3e93d698a2de7cf372
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 72381d2037373cf48ee208629e4f79f201409d89
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="report-progress-on-a-mobile-job-device"></a><span data-ttu-id="d9ea1-103">在移动作业设备上报告进度</span><span class="sxs-lookup"><span data-stu-id="d9ea1-103">Report progress on a mobile job device</span></span>

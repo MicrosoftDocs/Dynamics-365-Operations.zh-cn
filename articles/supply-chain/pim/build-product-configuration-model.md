@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 75083
 ms.assetid: f08072b8-cb0b-43aa-9509-f5ec32caecd9
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78e296cd032b9e11071a2c52407ccec5ab1daa69
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -110,7 +110,7 @@ ms.lasthandoff: 05/08/2018
 
 ### <a name="the-configuration-page"></a><span data-ttu-id="7abea-184">管理页面</span><span class="sxs-lookup"><span data-stu-id="7abea-184">The configuration page</span></span>
 
-<span data-ttu-id="7abea-185">要在组件之间导航，请单击**“下一个”**或单击产品配置模型树中的组件以将焦点设置在其上。</span><span class="sxs-lookup"><span data-stu-id="7abea-185">To navigate between components, click **Next**, or click a component in the product configuration model tree to set focus on it.</span></span>
+<span data-ttu-id="7abea-185">要在组件之间导航，请单击 **“下一个”** 或单击产品配置模型树中的组件以将焦点设置在其上。</span><span class="sxs-lookup"><span data-stu-id="7abea-185">To navigate between components, click **Next**, or click a component in the product configuration model tree to set focus on it.</span></span>
 
 ## <a name="finalizing-a-model-for-configuration"></a><span data-ttu-id="7abea-186">为配置完成模型</span><span class="sxs-lookup"><span data-stu-id="7abea-186">Finalizing a model for configuration</span></span>
 <span data-ttu-id="7abea-187">当产品配置模型已准备好在配置到订购方案中使用时，必须创建一个版本。</span><span class="sxs-lookup"><span data-stu-id="7abea-187">When a product configuration model is ready to be used in configure-to-order scenarios, a version must be created.</span></span> <span data-ttu-id="7abea-188">但是，有几个可改善建模经验的选项。</span><span class="sxs-lookup"><span data-stu-id="7abea-188">However, there are several options that can enhance the modeling experience.</span></span>

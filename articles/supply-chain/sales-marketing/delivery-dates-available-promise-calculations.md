@@ -1,7 +1,7 @@
 ---
 title: "订单承诺"
 description: "本文提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 193933
 ms.assetid: 676fc53a-fa25-4688-9f26-1005316763b8
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1581fb0e30260acb84f7e77cb3571055181d8bdc
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -56,17 +56,17 @@ ms.lasthandoff: 05/08/2018
 
 ### <a name="example"></a><span data-ttu-id="68ee3-132">示例</span><span class="sxs-lookup"><span data-stu-id="68ee3-132">Example</span></span>
 
-<span data-ttu-id="68ee3-133">**“ATP 后向需求时限”**字段控制向后多长时间查找延期需求订单或库存发货。</span><span class="sxs-lookup"><span data-stu-id="68ee3-133">The **ATP backward demand time fence** field controls how far back in time to look for delayed demand orders or inventory issues.</span></span> <span data-ttu-id="68ee3-134">**“ATP 后向供应时限”**字段控制向后多长时间查找延期供应订单或库存收货。</span><span class="sxs-lookup"><span data-stu-id="68ee3-134">The **ATP backward supply time fence** field controls how far back in time to look for delayed supply orders or inventory receipts.</span></span> <span data-ttu-id="68ee3-135">例如，如果只延迟七天的订单应被考虑到 ATP 计算中，则两个字段都应设置为 **7**。</span><span class="sxs-lookup"><span data-stu-id="68ee3-135">For example, if orders that are delayed by only seven days should be considered in the ATP calculation, both fields should be set to **7**.</span></span>  
+<span data-ttu-id="68ee3-133">**“ATP 后向需求时限”** 字段控制向后多长时间查找延期需求订单或库存发货。</span><span class="sxs-lookup"><span data-stu-id="68ee3-133">The **ATP backward demand time fence** field controls how far back in time to look for delayed demand orders or inventory issues.</span></span> <span data-ttu-id="68ee3-134">**“ATP 后向供应时限”** 字段控制向后多长时间查找延期供应订单或库存收货。</span><span class="sxs-lookup"><span data-stu-id="68ee3-134">The **ATP backward supply time fence** field controls how far back in time to look for delayed supply orders or inventory receipts.</span></span> <span data-ttu-id="68ee3-135">例如，如果只延迟七天的订单应被考虑到 ATP 计算中，则两个字段都应设置为 **7**。</span><span class="sxs-lookup"><span data-stu-id="68ee3-135">For example, if orders that are delayed by only seven days should be considered in the ATP calculation, both fields should be set to **7**.</span></span>  
 
-<span data-ttu-id="68ee3-136">**“ATP 延迟需求偏移时间”**和**“ATP 延迟供应偏移时间”**字段控制何时将延期需求或供应考虑到 ATP 计算中。</span><span class="sxs-lookup"><span data-stu-id="68ee3-136">The **ATP delayed demand offset time** and **ATP delayed supply offset time** fields control when the delayed demand or supply will be considered in the ATP calculation.</span></span> <span data-ttu-id="68ee3-137">例如，如果延期供应和需求应被考虑到 ATP 计算中，则两个字段都应设置为 **2**。</span><span class="sxs-lookup"><span data-stu-id="68ee3-137">For example, if the delayed supply and demand should be considered in the ATP calculation the day after tomorrow, both fields should be set to **2**.</span></span> <span data-ttu-id="68ee3-138">值为**“2”**表示应被考虑到 ATP 计算中的延期采购订单的物料数量将在当前日期之后两天可供查看。</span><span class="sxs-lookup"><span data-stu-id="68ee3-138">A value of **2** means that the quantity of an item on a delayed purchase order that should be considered in the ATP calculation will be seen as available two days after the current date.</span></span>  
+<span data-ttu-id="68ee3-136">**“ATP 延迟需求偏移时间”** 和 **“ATP 延迟供应偏移时间”** 字段控制何时将延期需求或供应考虑到 ATP 计算中。</span><span class="sxs-lookup"><span data-stu-id="68ee3-136">The **ATP delayed demand offset time** and **ATP delayed supply offset time** fields control when the delayed demand or supply will be considered in the ATP calculation.</span></span> <span data-ttu-id="68ee3-137">例如，如果延期供应和需求应被考虑到 ATP 计算中，则两个字段都应设置为 **2**。</span><span class="sxs-lookup"><span data-stu-id="68ee3-137">For example, if the delayed supply and demand should be considered in the ATP calculation the day after tomorrow, both fields should be set to **2**.</span></span> <span data-ttu-id="68ee3-138">值为 **“2”** 表示应被考虑到 ATP 计算中的延期采购订单的物料数量将在当前日期之后两天可供查看。</span><span class="sxs-lookup"><span data-stu-id="68ee3-138">A value of **2** means that the quantity of an item on a delayed purchase order that should be considered in the ATP calculation will be seen as available two days after the current date.</span></span>  
 
-<span data-ttu-id="68ee3-139">对于以下示例，在**“ATP 后向需求时限”**和**“ATP 后向供应时限”**字段中输入了**“7”**，在**“ATP 延迟需求偏移时间”**和**“ATP 延迟供应偏移时间”**字段中输入了**“1”**。</span><span class="sxs-lookup"><span data-stu-id="68ee3-139">For the following example, **7** is entered in the **ATP backward demand time fence** and **ATP backward supply time fence** fields, and **1** is entered in the **ATP delayed demand offset time** and **ATP delayed supply offset time** fields.</span></span>  
+<span data-ttu-id="68ee3-139">对于以下示例，在 **“ATP 后向需求时限”** 和 **“ATP 后向供应时限”** 字段中输入了 **“7”**，在 **“ATP 延迟需求偏移时间”** 和 **“ATP 延迟供应偏移时间”** 字段中输入了 **“1”**。</span><span class="sxs-lookup"><span data-stu-id="68ee3-139">For the following example, **7** is entered in the **ATP backward demand time fence** and **ATP backward supply time fence** fields, and **1** is entered in the **ATP delayed demand offset time** and **ATP delayed supply offset time** fields.</span></span>  
 
 <span data-ttu-id="68ee3-140">应在三天之前收到的 200 件产品的采购订单尚未接收。</span><span class="sxs-lookup"><span data-stu-id="68ee3-140">A purchase order for 200 pieces of a product that should have been received three days ago hasn't been received yet.</span></span> <span data-ttu-id="68ee3-141">因此，昨天应装运的 75件 相同产品的销售订单行尚未装运。</span><span class="sxs-lookup"><span data-stu-id="68ee3-141">Therefore, a sales order line for 75 pieces of the same product that should have been shipped yesterday hasn't been shipped.</span></span>  
 
 <span data-ttu-id="68ee3-142">客户致电并要订购 150 件同一产品。</span><span class="sxs-lookup"><span data-stu-id="68ee3-142">A customer calls and wants to order 150 pieces of the same product.</span></span> <span data-ttu-id="68ee3-143">在您确认产品的可用性时，您会发现将在 10 天交货的其他 100 件产品的采购订单。</span><span class="sxs-lookup"><span data-stu-id="68ee3-143">When you verify the availability of the product, you find that another purchase order for 100 pieces of the product will be delivered 10 days later.</span></span>  
 
-<span data-ttu-id="68ee3-144">您为该产品创建销售订单行并输入**“150”**的数量。</span><span class="sxs-lookup"><span data-stu-id="68ee3-144">You create a sales order line for the product and enter **150** as the quantity.</span></span>  
+<span data-ttu-id="68ee3-144">您为该产品创建销售订单行并输入 **“150”** 的数量。</span><span class="sxs-lookup"><span data-stu-id="68ee3-144">You create a sales order line for the product and enter **150** as the quantity.</span></span>  
 
 <span data-ttu-id="68ee3-145">由于交货日期控制方法是 ATP，所以会计算 ATP 数据以找到最早的可能装运日期。</span><span class="sxs-lookup"><span data-stu-id="68ee3-145">Because the delivery date control is method is ATP, the ATP data is calculated to find the earliest possible ship date.</span></span> <span data-ttu-id="68ee3-146">基于设置，延期采购订单和销售订单会被考虑，并且当前日期生成的 ATP 数量是 0。</span><span class="sxs-lookup"><span data-stu-id="68ee3-146">Based on the settings, the delayed purchase order and sales order are considered, and the resulting ATP quantity for the current date is 0.</span></span> <span data-ttu-id="68ee3-147">明天，当预计会收到延期采购订单时，会将 ATP 数量计算为大于 0（在这种情况下，它被计算为 125）。</span><span class="sxs-lookup"><span data-stu-id="68ee3-147">Tomorrow, when the delayed purchase order is expected to be received, the ATP quantity is calculated as more than 0 (in this case, it's calculated as 125).</span></span> <span data-ttu-id="68ee3-148">但是，从现在起 10 天，当预期接收 100 件的其他采购订单时，ATP 数量将变为超过 150。</span><span class="sxs-lookup"><span data-stu-id="68ee3-148">However, 10 days from now, when the additional purchase order for 100 pieces is expected to be received, the ATP quantity becomes more than 150.</span></span>  
 

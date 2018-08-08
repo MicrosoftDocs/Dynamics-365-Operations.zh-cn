@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: efa869fc737912d4eb2685ad1e395547c45e6296
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: dd9d40bb331b9e024617c8be55330dfce8ba1cc6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="assign-a-product-lifecycle-state-to-a-released-product-master"></a><span data-ttu-id="5fcef-103">对已发布的基础产品分配产品生命周期状态</span><span class="sxs-lookup"><span data-stu-id="5fcef-103">Assign a product lifecycle state to a released product master</span></span>

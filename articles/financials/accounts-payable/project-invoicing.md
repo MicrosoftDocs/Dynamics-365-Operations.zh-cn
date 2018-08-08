@@ -1,7 +1,7 @@
 ---
 title: "项目开票"
 description: "本文提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 23111
 ms.assetid: 1812d6f2-8b34-4258-8f5f-dcf12281547f
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c4b53775c9c11a86fcd4fa0c57c6de9d458f93bb
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="19315-137">若要创建多个项目的客户发票，则必须为每张发票创建发票方案。</span><span class="sxs-lookup"><span data-stu-id="19315-137">To create multiple customer invoices for a project, you must create an invoice proposal for each invoice.</span></span> <span data-ttu-id="19315-138">例如，可以基于交易记录类型创建发票。</span><span class="sxs-lookup"><span data-stu-id="19315-138">For example, you can create invoices based on transaction type.</span></span> <span data-ttu-id="19315-139">若要在一个客户发票上指定工时，在另一个客户发票上指定物料，则必须为工时交易记录创建一个发票方案，为费用交易记录创建单独的发票方案。</span><span class="sxs-lookup"><span data-stu-id="19315-139">To specify hours on one customer invoice and items on another, you must create separate invoice proposals for hour transactions and fee transactions.</span></span> 
 
-<span data-ttu-id="19315-140">如果项目具有多个融资来源，可以为每个融资来源创建单独的发票方案。</span><span class="sxs-lookup"><span data-stu-id="19315-140">If a project has more than one funding source, you can create a separate invoice proposal for each funding source.</span></span> <span data-ttu-id="19315-141">在**“融资规则分配”**页上，可以定义交易记录金额的百分比以分配给每个融资来源，并定义来源以过帐舍入差额。</span><span class="sxs-lookup"><span data-stu-id="19315-141">On the **Funding rule allocations** page, you can define the percentage of the transaction amount to allocate to each funding source, and the source to post rounding differences.</span></span>
+<span data-ttu-id="19315-140">如果项目具有多个融资来源，可以为每个融资来源创建单独的发票方案。</span><span class="sxs-lookup"><span data-stu-id="19315-140">If a project has more than one funding source, you can create a separate invoice proposal for each funding source.</span></span> <span data-ttu-id="19315-141">在 **“融资规则分配”** 页上，可以定义交易记录金额的百分比以分配给每个融资来源，并定义来源以过帐舍入差额。</span><span class="sxs-lookup"><span data-stu-id="19315-141">On the **Funding rule allocations** page, you can define the percentage of the transaction amount to allocate to each funding source, and the source to post rounding differences.</span></span>
 
 ### <a name="creating-customer-invoices-from-invoice-proposals"></a><span data-ttu-id="19315-142">从发票方案创建客户发票</span><span class="sxs-lookup"><span data-stu-id="19315-142">Creating customer invoices from invoice proposals</span></span>
 

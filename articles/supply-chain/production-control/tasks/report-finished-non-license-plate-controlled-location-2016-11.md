@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
@@ -17,10 +17,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9e4cf2b2d4fe1170c75514a1e554d54dc8c32140
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: dcf78f54422f8c17e4965cc5d664cd9bdbc3f440
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="report-as-finished-to-a-plate-controlled-location"></a><span data-ttu-id="cd1d6-103">报告为已完工入库到非牌照控制的库位</span><span class="sxs-lookup"><span data-stu-id="cd1d6-103">Report as finished to a plate-controlled location</span></span> 

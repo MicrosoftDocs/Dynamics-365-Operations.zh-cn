@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: EcoResStorageDimensionGroup, InventItemOrderSetup, ReqItemTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 52931
 ms.assetid: 2e8b5fd1-cee9-45da-a3ae-6961fb020b89
@@ -20,10 +20,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b3159fe3fa744b38ddef8ebc0824399cff650d2c
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 8e6a896b2a073e189b956ef189f63908f08606ed
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -42,9 +42,9 @@ ms.lasthandoff: 05/08/2018
 ## <a name="supply-policies"></a><span data-ttu-id="10fe8-114">供应策略</span><span class="sxs-lookup"><span data-stu-id="10fe8-114">Supply policies</span></span>
 <span data-ttu-id="10fe8-115">Finance and Operations 混合模式计划可控制产品的供应方式（基于供应）以及针对派生的需求（物料清单 \[BOM\] 中的物料消耗量）的发货方式。</span><span class="sxs-lookup"><span data-stu-id="10fe8-115">Finance and Operations mixed mode planning controls how a product is supplied and, based on the supply, how derived requirements (consumption of items from a bill of materials \[BOM\]) are issued.</span></span> <span data-ttu-id="10fe8-116">系统将基于订单类型自动采购物料以满足需求。</span><span class="sxs-lookup"><span data-stu-id="10fe8-116">Based on the order type, the system automatically sources materials to match the requirements.</span></span>  
 
-<span data-ttu-id="10fe8-117">可在产品级别或以任何支持需求的粒度定义供应策略。</span><span class="sxs-lookup"><span data-stu-id="10fe8-117">Supply policies can be defined at the product level or at any granularity that supports your requirements.</span></span> <span data-ttu-id="10fe8-118">您在**“默认订单设置”**页面上定义供应策略的粒度。</span><span class="sxs-lookup"><span data-stu-id="10fe8-118">You define the granularity of supply policies on the **Default order settings** page.</span></span>  
+<span data-ttu-id="10fe8-117">可在产品级别或以任何支持需求的粒度定义供应策略。</span><span class="sxs-lookup"><span data-stu-id="10fe8-117">Supply policies can be defined at the product level or at any granularity that supports your requirements.</span></span> <span data-ttu-id="10fe8-118">您在 **“默认订单设置”** 页面上定义供应策略的粒度。</span><span class="sxs-lookup"><span data-stu-id="10fe8-118">You define the granularity of supply policies on the **Default order settings** page.</span></span>  
 
-<span data-ttu-id="10fe8-119">供应策略可按产品、物料维度（配置、颜色和大小）、站点和仓库控制。</span><span class="sxs-lookup"><span data-stu-id="10fe8-119">Supply policies can be controlled by product, item dimensions (configuration, color, and size), site, and warehouse.</span></span> <span data-ttu-id="10fe8-120">在**“物料覆盖范围”**页面上进行此设置。</span><span class="sxs-lookup"><span data-stu-id="10fe8-120">This setup is done on the **Item coverage** page.</span></span>  
+<span data-ttu-id="10fe8-119">供应策略可按产品、物料维度（配置、颜色和大小）、站点和仓库控制。</span><span class="sxs-lookup"><span data-stu-id="10fe8-119">Supply policies can be controlled by product, item dimensions (configuration, color, and size), site, and warehouse.</span></span> <span data-ttu-id="10fe8-120">在 **“物料覆盖范围”** 页面上进行此设置。</span><span class="sxs-lookup"><span data-stu-id="10fe8-120">This setup is done on the **Item coverage** page.</span></span>  
 
 <span data-ttu-id="10fe8-121">默认订单类型控制主计划生成的订单。</span><span class="sxs-lookup"><span data-stu-id="10fe8-121">The default order type controls what order master planning generates.</span></span>  
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="10fe8-137">对于与供应策略无关的工作，如果供应发生更改，您无需更改物料清单上的信息。</span><span class="sxs-lookup"><span data-stu-id="10fe8-137">For work that is independent of a supply policy, you don't have to change information on the BOM if the supply is changed.</span></span> <span data-ttu-id="10fe8-138">对于临时更改，Finance and Operations 可确保从正确的仓库领取物料。</span><span class="sxs-lookup"><span data-stu-id="10fe8-138">For ad-hoc changes, Finance and Operations makes sure that materials are sourced from the right warehouse.</span></span>
 
 ## <a name="process-manufacturing--the-production-type"></a><span data-ttu-id="10fe8-139">流程制造 – 生产类型</span><span class="sxs-lookup"><span data-stu-id="10fe8-139">Process manufacturing – The production type</span></span>
-<span data-ttu-id="10fe8-140">对于混合模式中的完整灵活性，建议您对所有产品使用生产类型 BOM。</span><span class="sxs-lookup"><span data-stu-id="10fe8-140">For full flexibility in mixed mode, we recommend that you use production type BOMs for all products.</span></span> <span data-ttu-id="10fe8-141">随后，您可以使用生产订单、看板、转移单或采购订单来供应产品。</span><span class="sxs-lookup"><span data-stu-id="10fe8-141">You can then use production orders, kanbans, transfer orders, or purchase orders to supply a product.</span></span> <span data-ttu-id="10fe8-142">对于流程制造，您必须使用以下生产类型：**“配方”**、**“联产品”**、**“副产品”**或**“计划物料”**。</span><span class="sxs-lookup"><span data-stu-id="10fe8-142">For process manufacturing, you must use a production type of **Formula**, **Co-product**, **By-product**, or **Planning item**.</span></span> <span data-ttu-id="10fe8-143">看板和生产订单不能用于这些生产类型。</span><span class="sxs-lookup"><span data-stu-id="10fe8-143">Kanbans and production orders can't be used for these production types.</span></span>
+<span data-ttu-id="10fe8-140">对于混合模式中的完整灵活性，建议您对所有产品使用生产类型 BOM。</span><span class="sxs-lookup"><span data-stu-id="10fe8-140">For full flexibility in mixed mode, we recommend that you use production type BOMs for all products.</span></span> <span data-ttu-id="10fe8-141">随后，您可以使用生产订单、看板、转移单或采购订单来供应产品。</span><span class="sxs-lookup"><span data-stu-id="10fe8-141">You can then use production orders, kanbans, transfer orders, or purchase orders to supply a product.</span></span> <span data-ttu-id="10fe8-142">对于流程制造，您必须使用以下生产类型：**“配方”**、**“联产品”**、**“副产品”** 或 **“计划物料”**。</span><span class="sxs-lookup"><span data-stu-id="10fe8-142">For process manufacturing, you must use a production type of **Formula**, **Co-product**, **By-product**, or **Planning item**.</span></span> <span data-ttu-id="10fe8-143">看板和生产订单不能用于这些生产类型。</span><span class="sxs-lookup"><span data-stu-id="10fe8-143">Kanbans and production orders can't be used for these production types.</span></span>
 
 
 

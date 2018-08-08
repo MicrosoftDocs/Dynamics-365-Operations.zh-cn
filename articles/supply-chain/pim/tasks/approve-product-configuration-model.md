@@ -1,7 +1,7 @@
 --- 
 title: "审核产品配置模型"
 description: "该过程的运行要求至少有一个产品配置模型可用。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 03/02/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5a514d7d524c055b3fe37df524186c55a26fb233
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: e0abc73543fef662e6070408324bac5d1f41f4d4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="approve-a-product-configuration-model"></a><span data-ttu-id="07c0d-103">审核产品配置模型</span><span class="sxs-lookup"><span data-stu-id="07c0d-103">Approve a product configuration model</span></span>

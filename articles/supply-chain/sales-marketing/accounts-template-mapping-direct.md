@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c7a4f54412808d2fd2fec6d213ce8a5a98d3e881
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 0e917634572efcb7fcfa277d5b3fb479bffd1366
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -48,8 +48,8 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="b370f-114">以下模板和基础任务用于将 Sales 的帐户同步到 Finance and Operations：</span><span class="sxs-lookup"><span data-stu-id="b370f-114">The following template and underlying task are used to synchronize accounts from Sales to Finance and Operations:</span></span>
 
-- <span data-ttu-id="b370f-115">**“数据集成”中的模板名称：**帐户（Sales 到 Fin and Ops）- 直接</span><span class="sxs-lookup"><span data-stu-id="b370f-115">**Name of the template in Data integration:** Accounts (Sales to Fin and Ops) - Direct</span></span>
-- <span data-ttu-id="b370f-116">**项目中的任务名称：**帐户 - 客户</span><span class="sxs-lookup"><span data-stu-id="b370f-116">**Name of the task in the project:** Accounts - Customers</span></span>
+- <span data-ttu-id="b370f-115">**“数据集成”中的模板名称：** 帐户（Sales 到 Fin and Ops）- 直接</span><span class="sxs-lookup"><span data-stu-id="b370f-115">**Name of the template in Data integration:** Accounts (Sales to Fin and Ops) - Direct</span></span>
+- <span data-ttu-id="b370f-116">**项目中的任务名称：** 帐户 - 客户</span><span class="sxs-lookup"><span data-stu-id="b370f-116">**Name of the task in the project:** Accounts - Customers</span></span>
 
 <span data-ttu-id="b370f-117">不需要同步任务即可进行帐户/客户同步。</span><span class="sxs-lookup"><span data-stu-id="b370f-117">No synchronization tasks are required before Account/Customer synchronization can occur.</span></span>
 

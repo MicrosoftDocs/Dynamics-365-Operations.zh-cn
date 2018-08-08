@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustPosting
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 24651
 ms.assetid: cb82245e-8c02-429c-b36e-8db0e3e6f7e5
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0147ea5ee908995686ac56ca2c5811184e2f74c3
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 956dca24c2cfa7e22d718ff84b338bc4ba030394
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 05/08/2018
 ## <a name="creating-a-posting-profile"></a><span data-ttu-id="743ab-113">创建过帐模板</span><span class="sxs-lookup"><span data-stu-id="743ab-113">Creating a posting profile</span></span>
 <span data-ttu-id="743ab-114">指定在使用所选过帐模板对交易记录进行过帐时所使用的会计科目。</span><span class="sxs-lookup"><span data-stu-id="743ab-114">Specify the ledger accounts that are used in the posting of transactions that use the selected posting profile.</span></span> <span data-ttu-id="743ab-115">为所选的过帐模板选择帐户编码；只要可能，还选择帐户/组编号。</span><span class="sxs-lookup"><span data-stu-id="743ab-115">Select an account code and, whenever possible, an account or group number for the selected posting profile.</span></span> <span data-ttu-id="743ab-116">在过帐过程中，定位每个交易记录的最合适过帐模板的方法是搜索针对性最强的帐户编码、帐号或组编号组合，其优先级如下：</span><span class="sxs-lookup"><span data-stu-id="743ab-116">In the posting process, the most appropriate posting profile for each transaction is located by searching for the most specific account code, account number, or group and number combination in the following priority:</span></span>
 
-| <span data-ttu-id="743ab-117">**“帐户编码”**字段值</span><span class="sxs-lookup"><span data-stu-id="743ab-117">**Account code** field value</span></span> | <span data-ttu-id="743ab-118">**“帐户/组编号”**字段值</span><span class="sxs-lookup"><span data-stu-id="743ab-118">**Account/Group number** field value</span></span>            | <span data-ttu-id="743ab-119">搜索优先级</span><span class="sxs-lookup"><span data-stu-id="743ab-119">Search priority</span></span> |
+| <span data-ttu-id="743ab-117">**“帐户编码”** 字段值</span><span class="sxs-lookup"><span data-stu-id="743ab-117">**Account code** field value</span></span> | <span data-ttu-id="743ab-118">**“帐户/组编号”** 字段值</span><span class="sxs-lookup"><span data-stu-id="743ab-118">**Account/Group number** field value</span></span>            | <span data-ttu-id="743ab-119">搜索优先级</span><span class="sxs-lookup"><span data-stu-id="743ab-119">Search priority</span></span> |
 |------------------------------|-------------------------------------------------|-----------------|
 | <span data-ttu-id="743ab-120">**表**</span><span class="sxs-lookup"><span data-stu-id="743ab-120">**Table**</span></span>                    | <span data-ttu-id="743ab-121">特定的客户帐户</span><span class="sxs-lookup"><span data-stu-id="743ab-121">Specific customer account</span></span>                       | <span data-ttu-id="743ab-122">1</span><span class="sxs-lookup"><span data-stu-id="743ab-122">1</span></span>               |
 | <span data-ttu-id="743ab-123">**组**</span><span class="sxs-lookup"><span data-stu-id="743ab-123">**Group**</span></span>                    | <span data-ttu-id="743ab-124">分配到客户的客户组</span><span class="sxs-lookup"><span data-stu-id="743ab-124">Customer group that is assigned to the customer</span></span> | <span data-ttu-id="743ab-125">2</span><span class="sxs-lookup"><span data-stu-id="743ab-125">2</span></span>               |

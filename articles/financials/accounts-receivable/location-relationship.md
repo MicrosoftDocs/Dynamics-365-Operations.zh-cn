@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
-ms.openlocfilehash: 7d223e863b36f28f04c323315647dee5cf76ed2e
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c8de9d6b57da6de8aa6340c97dbd63662e95706f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/21/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

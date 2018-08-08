@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqGroup
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 19411
 ms.assetid: 52b46d93-7d02-46b5-aad1-9fd08206bf9d
@@ -19,10 +19,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 10db562a74b13aa968aca705bb02b061c9eb64c5
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 0a417abc8b725f4d57ada595da57505ae1347bfc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -40,12 +40,12 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="select-action-messages"></a><span data-ttu-id="78ac4-111">选择行动消息</span><span class="sxs-lookup"><span data-stu-id="78ac4-111">Select action messages</span></span>
 
-<span data-ttu-id="78ac4-112">在**“覆盖范围组”**页上，您可以选择您希望系统生成的行动消息和消息适用的覆盖范围组或物料。</span><span class="sxs-lookup"><span data-stu-id="78ac4-112">On the **Coverage groups** page, you can select the action messages that you want the system to generate, and the coverage groups or items that the messages apply to.</span></span> <span data-ttu-id="78ac4-113">您可以选择以下行动消息。</span><span class="sxs-lookup"><span data-stu-id="78ac4-113">You can select the following action messages.</span></span>
+<span data-ttu-id="78ac4-112">在 **“覆盖范围组”** 页上，您可以选择您希望系统生成的行动消息和消息适用的覆盖范围组或物料。</span><span class="sxs-lookup"><span data-stu-id="78ac4-112">On the **Coverage groups** page, you can select the action messages that you want the system to generate, and the coverage groups or items that the messages apply to.</span></span> <span data-ttu-id="78ac4-113">您可以选择以下行动消息。</span><span class="sxs-lookup"><span data-stu-id="78ac4-113">You can select the following action messages.</span></span>
 
 | <span data-ttu-id="78ac4-114">消息</span><span class="sxs-lookup"><span data-stu-id="78ac4-114">Message</span></span>             | <span data-ttu-id="78ac4-115">描述</span><span class="sxs-lookup"><span data-stu-id="78ac4-115">Description</span></span>                                                                                                                                                                                                                                              |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="78ac4-116">**提前**</span><span class="sxs-lookup"><span data-stu-id="78ac4-116">**Advance**</span></span>         | <span data-ttu-id="78ac4-117">如果您选择此消息，系统将在需要时生成行动消息，以将订单移动到更早的日期。</span><span class="sxs-lookup"><span data-stu-id="78ac4-117">If you select this message, the system will generate action messages, when needed, to move orders to an earlier date.</span></span> <span data-ttu-id="78ac4-118">在**“提前宽限期”**字段中，您还可以指定无提前行动的收货与发货之间的最大天数。</span><span class="sxs-lookup"><span data-stu-id="78ac4-118">In the **Advance margin** field, you can also specify the maximum number of days between receipt and issue without advance action.</span></span> |
-| <span data-ttu-id="78ac4-119">**延期**</span><span class="sxs-lookup"><span data-stu-id="78ac4-119">**Postpone**</span></span>        | <span data-ttu-id="78ac4-120">如果您选择此消息，系统将在需要时生成行动消息，以将订单移动到更晚的日期。</span><span class="sxs-lookup"><span data-stu-id="78ac4-120">If you select this message, the system will generate action messages, when needed, to move orders to a later date.</span></span> <span data-ttu-id="78ac4-121">在**“延长宽限期”**字段中，您还可以指定无延迟行动的收货与发货之间的最大天数。</span><span class="sxs-lookup"><span data-stu-id="78ac4-121">In the **Postpone margin** field, you can specify the maximum number of days between receipt and issue without postpone action.</span></span>       |
+| <span data-ttu-id="78ac4-116">**提前**</span><span class="sxs-lookup"><span data-stu-id="78ac4-116">**Advance**</span></span>         | <span data-ttu-id="78ac4-117">如果您选择此消息，系统将在需要时生成行动消息，以将订单移动到更早的日期。</span><span class="sxs-lookup"><span data-stu-id="78ac4-117">If you select this message, the system will generate action messages, when needed, to move orders to an earlier date.</span></span> <span data-ttu-id="78ac4-118">在 **“提前宽限期”** 字段中，您还可以指定无提前行动的收货与发货之间的最大天数。</span><span class="sxs-lookup"><span data-stu-id="78ac4-118">In the **Advance margin** field, you can also specify the maximum number of days between receipt and issue without advance action.</span></span> |
+| <span data-ttu-id="78ac4-119">**延期**</span><span class="sxs-lookup"><span data-stu-id="78ac4-119">**Postpone**</span></span>        | <span data-ttu-id="78ac4-120">如果您选择此消息，系统将在需要时生成行动消息，以将订单移动到更晚的日期。</span><span class="sxs-lookup"><span data-stu-id="78ac4-120">If you select this message, the system will generate action messages, when needed, to move orders to a later date.</span></span> <span data-ttu-id="78ac4-121">在 **“延长宽限期”** 字段中，您还可以指定无延迟行动的收货与发货之间的最大天数。</span><span class="sxs-lookup"><span data-stu-id="78ac4-121">In the **Postpone margin** field, you can specify the maximum number of days between receipt and issue without postpone action.</span></span>       |
 | <span data-ttu-id="78ac4-122">**减少**</span><span class="sxs-lookup"><span data-stu-id="78ac4-122">**Decrease**</span></span>        | <span data-ttu-id="78ac4-123">如果您选择此消息，则生产订单、采购订单或其他收货交易记录应减少，以避免超出库存水平。</span><span class="sxs-lookup"><span data-stu-id="78ac4-123">If you select this message, production orders, purchase orders, and other receipt transactions should be decreased to prevent excess inventory levels.</span></span>                                                                                                   |
 | <span data-ttu-id="78ac4-124">**增加**</span><span class="sxs-lookup"><span data-stu-id="78ac4-124">**Increase**</span></span>        | <span data-ttu-id="78ac4-125">如果您选择此消息，则生产订单、采购订单或其他收货交易记录应增加，以避免库存出现短缺。</span><span class="sxs-lookup"><span data-stu-id="78ac4-125">If you select this message, production orders, purchase orders, and other receipt transactions should be increased to prevent shortages in inventory.</span></span>                                                                                                    |
 | <span data-ttu-id="78ac4-126">**派生的行动**</span><span class="sxs-lookup"><span data-stu-id="78ac4-126">**Derived actions**</span></span> | <span data-ttu-id="78ac4-127">如果选择此消息，则会为派生的需求创建行动消息，例如，针对组件订单满足生产的行动。</span><span class="sxs-lookup"><span data-stu-id="78ac4-127">If you select this message, action messages are created for derived requirements, for example, actions for component orders fulfilling the production.</span></span>                                                                                                   |

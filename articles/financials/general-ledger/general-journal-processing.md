@@ -1,7 +1,7 @@
 ---
 title: "普通日记帐处理"
 description: "本文介绍 Microsoft Dynamics 365 for Finance and Operations 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15721
 ms.assetid: b4b406fa-b772-44ec-8dd8-8eb818a921ef
@@ -19,10 +19,10 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d3f34933e64babfe2f5a9a6018e1a18844a88d4c
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 82d08a76c0d52719330960b85b3cca9b1440406b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -36,7 +36,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="43612-106">要设置的最重要的区域之一是日记帐名称。</span><span class="sxs-lookup"><span data-stu-id="43612-106">One of the most important areas to set up is journal names.</span></span> <span data-ttu-id="43612-107">最好为每个用途定义特定的日记帐名称，如内部公司、应计调整和错误纠正。</span><span class="sxs-lookup"><span data-stu-id="43612-107">It's a good idea to define specific journal names for each purpose, such as intercompany, accrual adjustment, and error correction.</span></span> <span data-ttu-id="43612-108">您可以定制每个日记帐名称以便让每个用途的数据输入都简单且安全。</span><span class="sxs-lookup"><span data-stu-id="43612-108">You can tailor each journal name to help make data entry for each purpose easy and secure.</span></span> 
 
-<span data-ttu-id="43612-109">在**“日记帐名称”**页上，您可以设置以下因素：</span><span class="sxs-lookup"><span data-stu-id="43612-109">On the **Journal names** page, you can set up the following elements:</span></span>
+<span data-ttu-id="43612-109">在 **“日记帐名称”** 页上，您可以设置以下因素：</span><span class="sxs-lookup"><span data-stu-id="43612-109">On the **Journal names** page, you can set up the following elements:</span></span>
 
 -   <span data-ttu-id="43612-110">**工作流审核** - 要增强内部控制，请基于总借方金额等条件定义日记帐工作流（用于确定审查和审核步骤的重要性限制）。</span><span class="sxs-lookup"><span data-stu-id="43612-110">**Workflow approval** – To increase internal control, define journal workflows that establish materiality limits for review and approval steps, based on criteria such as total debit amount.</span></span> <span data-ttu-id="43612-111">您在 **总帐工作流** 页上为普通日记帐设置工作流。</span><span class="sxs-lookup"><span data-stu-id="43612-111">You set up workflows for the general journals on the** General ledger workflows** page.</span></span>
 -   <span data-ttu-id="43612-112">**默认值** - 为对方科目、币种和财务维度选择的默认值。</span><span class="sxs-lookup"><span data-stu-id="43612-112">**Default values** – Select default values for offset accounts, currency, and financial dimensions.</span></span>
@@ -44,18 +44,18 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="43612-114">**示例**</span><span class="sxs-lookup"><span data-stu-id="43612-114">**Examples**</span></span>
 
-<span data-ttu-id="43612-115">日记帐名称只能用于调整。</span><span class="sxs-lookup"><span data-stu-id="43612-115">A journal name can be used only for adjustments.</span></span> <span data-ttu-id="43612-116">在这种情况下，您可以指定只有**“分类帐”**科目类型在所有公司都有效。</span><span class="sxs-lookup"><span data-stu-id="43612-116">In this case, you can specify that only the **Ledger** account type is valid across all companies.</span></span> <span data-ttu-id="43612-117">[![日记帐控制科目类型](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)</span><span class="sxs-lookup"><span data-stu-id="43612-117">[![Journal control account types](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)</span></span>
+<span data-ttu-id="43612-115">日记帐名称只能用于调整。</span><span class="sxs-lookup"><span data-stu-id="43612-115">A journal name can be used only for adjustments.</span></span> <span data-ttu-id="43612-116">在这种情况下，您可以指定只有 **“分类帐”** 科目类型在所有公司都有效。</span><span class="sxs-lookup"><span data-stu-id="43612-116">In this case, you can specify that only the **Ledger** account type is valid across all companies.</span></span> <span data-ttu-id="43612-117">[![日记帐控制科目类型](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)</span><span class="sxs-lookup"><span data-stu-id="43612-117">[![Journal control account types](./media/journal-control-account-types1.png)](./media/journal-control-account-types1.png)</span></span>
 
 <span data-ttu-id="43612-118">日记帐名称只能用于某个特定科目段或用于主科目的某个范围。</span><span class="sxs-lookup"><span data-stu-id="43612-118">A journal name can be used only for a specific segment or for a range for main accounts.</span></span> <span data-ttu-id="43612-119">[![日记帐控制科目段](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)</span><span class="sxs-lookup"><span data-stu-id="43612-119">[![Journal control segment](./media/journal-control-segment1.png)](./media/journal-control-segment1.png)</span></span>
 
-<span data-ttu-id="43612-120">**“自动冲销”**选项可用于普通日记帐。</span><span class="sxs-lookup"><span data-stu-id="43612-120">The **Automatic reversal** option is available in general journals.</span></span> <span data-ttu-id="43612-121">例如，您有一个应计调整，其中的实际单据尚未处理，如下图所示。</span><span class="sxs-lookup"><span data-stu-id="43612-121">For example, you have an accrual adjustment where the actual document hasn't yet been processed, as shown in the following illustration.</span></span>
+<span data-ttu-id="43612-120">**“自动冲销”** 选项可用于普通日记帐。</span><span class="sxs-lookup"><span data-stu-id="43612-120">The **Automatic reversal** option is available in general journals.</span></span> <span data-ttu-id="43612-121">例如，您有一个应计调整，其中的实际单据尚未处理，如下图所示。</span><span class="sxs-lookup"><span data-stu-id="43612-121">For example, you have an accrual adjustment where the actual document hasn't yet been processed, as shown in the following illustration.</span></span>
 <span data-ttu-id="43612-122">[![普通日记帐冲销](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png)</span><span class="sxs-lookup"><span data-stu-id="43612-122">[![General journal reversing](./media/general-journal-reversing1.png)](./media/general-journal-reversing1.png)</span></span> 
 
-<span data-ttu-id="43612-123">用于日记帐条目的 Microsoft Excel 加载项进一步提高了自动化水平并使数据输入更容易。</span><span class="sxs-lookup"><span data-stu-id="43612-123">The Microsoft Excel add-in for journal entry provides an additional level of automation and makes data entry easier.</span></span> <span data-ttu-id="43612-124">**“在 Excel 中打开行”**操作可用于**“普通日记帐”**和**日记帐凭证**页。</span><span class="sxs-lookup"><span data-stu-id="43612-124">The **Open lines in Excel** action is available on the **General journal** and **Journal voucher** pages.</span></span> 
+<span data-ttu-id="43612-123">用于日记帐条目的 Microsoft Excel 加载项进一步提高了自动化水平并使数据输入更容易。</span><span class="sxs-lookup"><span data-stu-id="43612-123">The Microsoft Excel add-in for journal entry provides an additional level of automation and makes data entry easier.</span></span> <span data-ttu-id="43612-124">**“在 Excel 中打开行”** 操作可用于 **“普通日记帐”** 和**日记帐凭证**页。</span><span class="sxs-lookup"><span data-stu-id="43612-124">The **Open lines in Excel** action is available on the **General journal** and **Journal voucher** pages.</span></span> 
 
-<span data-ttu-id="43612-125">在**“期间日记帐”**页上，您可以设置重复日记帐以自动执行日记帐处理。</span><span class="sxs-lookup"><span data-stu-id="43612-125">On the **Periodic journals** page, you can set up recurring journals to automate journal processing.</span></span> 
+<span data-ttu-id="43612-125">在 **“期间日记帐”** 页上，您可以设置重复日记帐以自动执行日记帐处理。</span><span class="sxs-lookup"><span data-stu-id="43612-125">On the **Periodic journals** page, you can set up recurring journals to automate journal processing.</span></span> 
 
-<span data-ttu-id="43612-126">您可以随时使用凭证模板。</span><span class="sxs-lookup"><span data-stu-id="43612-126">You can use voucher templates at any time.</span></span> <span data-ttu-id="43612-127">在**“普通日记帐”**页上，**“保存”**和**“选择凭证模板”**操作可在**“日志凭证”**页上找到（位于凭证行的**“功能”**下）。</span><span class="sxs-lookup"><span data-stu-id="43612-127">On the **General journals** page, the **Save** and **Select voucher template** actions are found on the **Journal voucher** page, under **Functions** for the voucher lines.</span></span>
+<span data-ttu-id="43612-126">您可以随时使用凭证模板。</span><span class="sxs-lookup"><span data-stu-id="43612-126">You can use voucher templates at any time.</span></span> <span data-ttu-id="43612-127">在 **“普通日记帐”** 页上，**“保存”** 和 **“选择凭证模板”** 操作可在 **“日志凭证”** 页上找到（位于凭证行的 **“功能”** 下）。</span><span class="sxs-lookup"><span data-stu-id="43612-127">On the **General journals** page, the **Save** and **Select voucher template** actions are found on the **Journal voucher** page, under **Functions** for the voucher lines.</span></span>
 
 ## <a name="related-setup"></a><span data-ttu-id="43612-128">相关设置</span><span class="sxs-lookup"><span data-stu-id="43612-128">Related setup</span></span>
 <span data-ttu-id="43612-129">以下设置不是特定于普通日记帐的，但有助于确保数据输入正确且容易。</span><span class="sxs-lookup"><span data-stu-id="43612-129">The following setup isn't specific to general journals, but will help guarantee that data entry is correct data and easy.</span></span>
@@ -71,7 +71,7 @@ ms.lasthandoff: 05/08/2018
 -   <span data-ttu-id="43612-137">**默认/验证币种**</span><span class="sxs-lookup"><span data-stu-id="43612-137">**Default/Validate currency**</span></span>
 -   <span data-ttu-id="43612-138">**法人覆盖** - 此设置特定于已定义的公司/法人：</span><span class="sxs-lookup"><span data-stu-id="43612-138">**Legal entity override** – This setup is specific to the defined company/legal entity:</span></span>
     -   <span data-ttu-id="43612-139">**默认/验证销售税**</span><span class="sxs-lookup"><span data-stu-id="43612-139">**Default/Validate sales tax**</span></span>
-    -   <span data-ttu-id="43612-140">**默认维度** - **“不固定”**或**“固定值”**。</span><span class="sxs-lookup"><span data-stu-id="43612-140">**Default dimension** – **Not fixed** or **Fixed value**.</span></span> <span data-ttu-id="43612-141">**“固定值”**将帮助确保此主科目的所有过帐始终使用设置为**“固定”**的任何维度值。</span><span class="sxs-lookup"><span data-stu-id="43612-141">**Fixed value** will help guarantee that all postings for this main account always use any dimension value that is set up as **Fixed**.</span></span>
+    -   <span data-ttu-id="43612-140">**默认维度** - **“不固定”** 或 **“固定值”**。</span><span class="sxs-lookup"><span data-stu-id="43612-140">**Default dimension** – **Not fixed** or **Fixed value**.</span></span> <span data-ttu-id="43612-141">**“固定值”** 将帮助确保此主科目的所有过帐始终使用设置为 **“固定”** 的任何维度值。</span><span class="sxs-lookup"><span data-stu-id="43612-141">**Fixed value** will help guarantee that all postings for this main account always use any dimension value that is set up as **Fixed**.</span></span>
 -   <span data-ttu-id="43612-142">**过帐验证**</span><span class="sxs-lookup"><span data-stu-id="43612-142">**Posting validation**</span></span>
     -   <span data-ttu-id="43612-143">**用户验证** - 此选项控制允许哪些用户过帐到主科目。</span><span class="sxs-lookup"><span data-stu-id="43612-143">**User validation** – This option controls which users are allowed to post to a main account.</span></span>
     -   <span data-ttu-id="43612-144">**过帐类型验证** - 此选项控制可对主科目使用的过帐类型。</span><span class="sxs-lookup"><span data-stu-id="43612-144">**Posting type validation** – This option controls which posting types are allowed for a main account.</span></span>

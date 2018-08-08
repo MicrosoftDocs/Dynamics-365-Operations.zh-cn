@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 62153
 ms.assetid: 842e8561-560f-4cc6-8668-70cca60b1ba3
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 16fc19cb1e0d99eb2bbfb63a16bc96c4f1980308
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -51,10 +51,10 @@ ms.lasthandoff: 05/08/2018
 -   <span data-ttu-id="554ff-128">为币种重估指定已实现利润、已有损失、或有利润和或有损失科目。</span><span class="sxs-lookup"><span data-stu-id="554ff-128">Specify the realized gain, realized loss, unrealized gain, and unrealized loss accounts for currency revaluation.</span></span> <span data-ttu-id="554ff-129">已实现利润和已有损失在结算 AR 和 AP 交易记录时使用，或有利润和或有损失在重估未结交易记录和总帐主科目时使用。</span><span class="sxs-lookup"><span data-stu-id="554ff-129">Realized gain and realized loss accounts are used when settling AR and AP transactions, and unrealized gain and unrealized loss accounts are used for revaluing open transactions and general ledger main accounts.</span></span>
 
 -   <span data-ttu-id="554ff-130">在“**币种重估科目**”页面上：</span><span class="sxs-lookup"><span data-stu-id="554ff-130">On the **Currency revaluation accounts** page:</span></span>
--   <span data-ttu-id="554ff-131">为每个币种和公司选择不同的币种重估科目。</span><span class="sxs-lookup"><span data-stu-id="554ff-131">Select different currency revaluation accounts for each currency and company.</span></span> <span data-ttu-id="554ff-132">如果未定义任何科目，则使用**“分类帐”**页面中的科目。</span><span class="sxs-lookup"><span data-stu-id="554ff-132">If no accounts are defined, the accounts from the **Ledger** page are used.</span></span>
+-   <span data-ttu-id="554ff-131">为每个币种和公司选择不同的币种重估科目。</span><span class="sxs-lookup"><span data-stu-id="554ff-131">Select different currency revaluation accounts for each currency and company.</span></span> <span data-ttu-id="554ff-132">如果未定义任何科目，则使用 **“分类帐”** 页面中的科目。</span><span class="sxs-lookup"><span data-stu-id="554ff-132">If no accounts are defined, the accounts from the **Ledger** page are used.</span></span>
 
 ## <a name="process-foreign-currency-revaluation"></a><span data-ttu-id="554ff-133">处理外币重估</span><span class="sxs-lookup"><span data-stu-id="554ff-133">Process foreign currency revaluation</span></span>
-<span data-ttu-id="554ff-134">在完成此设置后，使用**“外币重估”**页面重估主科目的余额。</span><span class="sxs-lookup"><span data-stu-id="554ff-134">After the setup is complete, use the **Foreign currency revaluation** page to revalue the balances of the main accounts.</span></span> <span data-ttu-id="554ff-135">您可以通过使用批处理实时运行此流程或计划此流程以进行运行。</span><span class="sxs-lookup"><span data-stu-id="554ff-135">You can run the process in real time or schedule it to run by using a batch.</span></span> 
+<span data-ttu-id="554ff-134">在完成此设置后，使用 **“外币重估”** 页面重估主科目的余额。</span><span class="sxs-lookup"><span data-stu-id="554ff-134">After the setup is complete, use the **Foreign currency revaluation** page to revalue the balances of the main accounts.</span></span> <span data-ttu-id="554ff-135">您可以通过使用批处理实时运行此流程或计划此流程以进行运行。</span><span class="sxs-lookup"><span data-stu-id="554ff-135">You can run the process in real time or schedule it to run by using a batch.</span></span> 
 
 <span data-ttu-id="554ff-136">**外币重估**页面将显示每个重估流程的历史记录，包括运行流程的时间，定义的条件，关联到为重估创建的凭证，以及是否已冲销上一次重估的记录。</span><span class="sxs-lookup"><span data-stu-id="554ff-136">The **Foreign currency revaluation** page will display the history of each revaluation process, including when the process was run, what criteria was defined, a link to the voucher created for the revaluation, and a record if a previous revaluation was reversed.</span></span> <span data-ttu-id="554ff-137">若要运行重估流程，请选择**外币重估**按钮。</span><span class="sxs-lookup"><span data-stu-id="554ff-137">To run the revaluation process, select the **Foreign currency revaluation** button.</span></span> 
 

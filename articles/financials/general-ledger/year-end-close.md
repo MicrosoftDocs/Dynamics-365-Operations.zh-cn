@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerClosingSheet
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14091
 ms.assetid: c64eed1d-df17-448e-8bb6-d94d63b14607
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c7ce7939f4efeeabf9ea16fb7e51724d0f0b5601
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 9ec2316dd259cd12a5cab187b08dbd17ca100572
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -48,7 +48,7 @@ ms.lasthandoff: 05/08/2018
 
 -   <span data-ttu-id="13cfe-122">**除年末结转交易记录**选项用于指定再次运行年终结算时，是否应删除上一年终结算中系统生成的期初交易记录。</span><span class="sxs-lookup"><span data-stu-id="13cfe-122">The **Delete close of year transactions** option is used to specify whether the system-generated Opening transaction from a previous year-end close should be deleted when the year-end close is run again.</span></span> <span data-ttu-id="13cfe-123">如果此选项设置为**是**，将删除上一个期初交易记录，并根据当前余额创建新期初交易记录。</span><span class="sxs-lookup"><span data-stu-id="13cfe-123">If this option is set to **Yes**, the previous Opening transaction is deleted and a new Opening transaction is created based on the current balances.</span></span> <span data-ttu-id="13cfe-124">如果此选项设置为**否**，将保留上一个期初交易记录，并再创建一个期初交易记录，以便从上一个年终关帐后过帐的调整交易记录结转余额。</span><span class="sxs-lookup"><span data-stu-id="13cfe-124">If this option is set to **No**, the previous Opening transaction remains and an additional Opening transaction is created to move the balances forward from adjusting transactions posted after the previous year-end close.</span></span>
 -   <span data-ttu-id="13cfe-125">**在结转期间创建期末交易记录**选项用于在正在结算的会计年度中创建期末交易记录，以便将损益科目的余额归零。</span><span class="sxs-lookup"><span data-stu-id="13cfe-125">The **Create closing transactions during transfer** option is used to create Closing transactions in the fiscal year being closed in order to bring the balances of the profit and loss accounts to zero.</span></span> <span data-ttu-id="13cfe-126">如果此选项设置为**是**，将同时创建期初交易记录和期末交易记录。</span><span class="sxs-lookup"><span data-stu-id="13cfe-126">If this option is set to **Yes**, both the Opening transaction and Closing transaction is created.</span></span> <span data-ttu-id="13cfe-127">如果此选项设置为**否**，则在下一个会计年度中仅创建期初交易记录，以便结转余额。</span><span class="sxs-lookup"><span data-stu-id="13cfe-127">If this option is set to **No**, only the Opening transaction is created in the next fiscal year to transfer the balances.</span></span> <span data-ttu-id="13cfe-128">会计年度结尾时保留损益科目余额。</span><span class="sxs-lookup"><span data-stu-id="13cfe-128">The profit and loss account balances remain at the end of the fiscal year.</span></span>
--   <span data-ttu-id="13cfe-129">**将会计年度状态设置为“永久关闭”**选项用于将会计年度的状态设置为永久关闭。</span><span class="sxs-lookup"><span data-stu-id="13cfe-129">The **Set fiscal year status to permanently closed** option is used to set the fiscal year to a permanently closed status.</span></span> <span data-ttu-id="13cfe-130">使用此设置时请谨慎，因为不能重新打开永久关闭状态的所有期间，以防将调整过帐到会计年度。</span><span class="sxs-lookup"><span data-stu-id="13cfe-130">Use this setting with caution, because all periods with a permanently closed status cannot be reopened, preventing adjustments from being posted to the fiscal year.</span></span> <span data-ttu-id="13cfe-131">最好是将此选项设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="13cfe-131">It's a best practice to set this to **No**.</span></span>
+-   <span data-ttu-id="13cfe-129">**将会计年度状态设置为“永久关闭”** 选项用于将会计年度的状态设置为永久关闭。</span><span class="sxs-lookup"><span data-stu-id="13cfe-129">The **Set fiscal year status to permanently closed** option is used to set the fiscal year to a permanently closed status.</span></span> <span data-ttu-id="13cfe-130">使用此设置时请谨慎，因为不能重新打开永久关闭状态的所有期间，以防将调整过帐到会计年度。</span><span class="sxs-lookup"><span data-stu-id="13cfe-130">Use this setting with caution, because all periods with a permanently closed status cannot be reopened, preventing adjustments from being posted to the fiscal year.</span></span> <span data-ttu-id="13cfe-131">最好是将此选项设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="13cfe-131">It's a best practice to set this to **No**.</span></span>
 -   <span data-ttu-id="13cfe-132">**必须填写凭证号**选项用于定义运行年终结算流程时是否需要凭证号。</span><span class="sxs-lookup"><span data-stu-id="13cfe-132">The **Voucher number must be filled in** option is used to define whether a voucher number is required when running the year-end close process.</span></span> <span data-ttu-id="13cfe-133">最好需要凭证号，以便轻松识别期初交易记录。</span><span class="sxs-lookup"><span data-stu-id="13cfe-133">It’s a best practice to require a voucher number in order to easily identify the Opening transaction.</span></span>
 
 <span data-ttu-id="13cfe-134">在**会计日历**页面中：</span><span class="sxs-lookup"><span data-stu-id="13cfe-134">On the **Fiscal calendar** page:</span></span>

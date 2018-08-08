@@ -1,7 +1,7 @@
 --- 
 title: "设置人工装箱（仅 2016 年 2 月和 5 月）"
 description: "包装流程允许您验证并将产品包装到集装箱中。"
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/04/2016
 ms.topic: business-process
@@ -9,18 +9,18 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 714fd4762ae54f8f6638e81dd19fdd636091b88e
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 7e776a08ec2adc48b77c86c16e1f291e524a8d00
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-manual-packing-february--may-2016-only"></a><span data-ttu-id="3db85-103">设置人工装箱（仅 2016 年 2 月和 5 月）</span><span class="sxs-lookup"><span data-stu-id="3db85-103">Set up manual packing (February & May 2016 only)</span></span>

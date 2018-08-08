@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: WMSSpaceUtilSetup
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 269384
 ms.search.region: Global
@@ -18,10 +18,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
-ms.openlocfilehash: 88dfa11c508ff23faadeccef8a24a3eef556904b
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 15f3735f79671ac41789d39a5473722a5f35fde0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/21/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

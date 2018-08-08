@@ -1,7 +1,7 @@
 ---
 title: "预算控制概览"
 description: "本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations 中配置预算控制，以便您可以管理财务资源的信息。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetControlConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 60493
 ms.assetid: be964167-43bc-431d-9adb-48bff32d68d5
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 225f502bc155ed57e7d3e45646418ae7d22e68ef
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -87,7 +87,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="1a598-155">接下来，在**单据和日记帐**选项卡上，您可以选择哪些原始单据和日记帐将要进行预算控制检查以及检查是将发生在行条目还是发生在整个单据级别。</span><span class="sxs-lookup"><span data-stu-id="1a598-155">Next, on the **Documents and journals** tab, you can select which source documents and journals will be subject to budget control checks, and whether the checks will occur at the level of the line entry or the whole document.</span></span> 
 
-<span data-ttu-id="1a598-156">您应将所选的原始单据与包含在可用预算资金计算中的余额的复选框匹配。</span><span class="sxs-lookup"><span data-stu-id="1a598-156">You should match the source documents that are selected with the check boxes for balances that are included in the calculation of available budget funds.</span></span> <span data-ttu-id="1a598-157">例如，如果选择了**“保留款的预算预留”**，您应选择**“采购订单”**选项。</span><span class="sxs-lookup"><span data-stu-id="1a598-157">For example, if you selected **Budget reservations for encumbrances**, you should select the **Purchase orders** option.</span></span> <span data-ttu-id="1a598-158">当针对采购行上的金额和科目执行预算检查时，分配到预留上的预算控制类别为**“保留款”**。</span><span class="sxs-lookup"><span data-stu-id="1a598-158">When a budget check is performed for the amounts and accounts on a purchase line, the budget control category that is assigned to the reservation is **Encumbrance**.</span></span> <span data-ttu-id="1a598-159">当针对采购申请上的金额和科目执行预算检查时，分配到预留上的预算控制类别为**预留款**。</span><span class="sxs-lookup"><span data-stu-id="1a598-159">When a budget check is performed for the amounts and accounts on a purchase requisition, the budget control category that is assigned to the reservation is **Pre-encumbrance**.</span></span> 
+<span data-ttu-id="1a598-156">您应将所选的原始单据与包含在可用预算资金计算中的余额的复选框匹配。</span><span class="sxs-lookup"><span data-stu-id="1a598-156">You should match the source documents that are selected with the check boxes for balances that are included in the calculation of available budget funds.</span></span> <span data-ttu-id="1a598-157">例如，如果选择了 **“保留款的预算预留”**，您应选择 **“采购订单”** 选项。</span><span class="sxs-lookup"><span data-stu-id="1a598-157">For example, if you selected **Budget reservations for encumbrances**, you should select the **Purchase orders** option.</span></span> <span data-ttu-id="1a598-158">当针对采购行上的金额和科目执行预算检查时，分配到预留上的预算控制类别为 **“保留款”**。</span><span class="sxs-lookup"><span data-stu-id="1a598-158">When a budget check is performed for the amounts and accounts on a purchase line, the budget control category that is assigned to the reservation is **Encumbrance**.</span></span> <span data-ttu-id="1a598-159">当针对采购申请上的金额和科目执行预算检查时，分配到预留上的预算控制类别为**预留款**。</span><span class="sxs-lookup"><span data-stu-id="1a598-159">When a budget check is performed for the amounts and accounts on a purchase requisition, the budget control category that is assigned to the reservation is **Pre-encumbrance**.</span></span> 
 
 <span data-ttu-id="1a598-160">如果**保留款的预算预留**和/或**预留款的预算预留**包含在可用预算资金计算中并必须通过总帐过帐进行反映，则应在**总帐参数**页面上启用承诺确认会计。</span><span class="sxs-lookup"><span data-stu-id="1a598-160">If **Budget reservations for encumbrance** and/or **Budget reservations for pre-encumbrance** is included in the calculation of available budget funds and must be reflected through postings in the general ledger, you should enable commitment accounting on the **General ledger parameters** page.</span></span>  
 
@@ -125,7 +125,7 @@ ms.lasthandoff: 05/08/2018
 ## <a name="using-budget-control"></a><span data-ttu-id="1a598-188">使用预算控制</span><span class="sxs-lookup"><span data-stu-id="1a598-188">Using budget control</span></span>
 <span data-ttu-id="1a598-189">启用了预算控制后，用户即将在为预算控制配置的单据和日记帐中收到预算控制警告和错误消息。</span><span class="sxs-lookup"><span data-stu-id="1a598-189">After budget control is turned on, users will receive budget control warning and error messages in documents and journals that are configured for budget control.</span></span> <span data-ttu-id="1a598-190">请记住，您可以配置控制预算，以便用户在超出预算资金时收到警报，不过，仍可以继续确认或过帐交易记录。</span><span class="sxs-lookup"><span data-stu-id="1a598-190">Remember, you can configure budget control so that users are warned when they exceed the budget funds, but can still continue to confirm or post the transaction.</span></span> <span data-ttu-id="1a598-191">用户可以在**预算控制错误和警告**页上查看失败预算检查的详细信息。</span><span class="sxs-lookup"><span data-stu-id="1a598-191">Users can view the details of failed budget checks on the **Budget control errors and warnings** page.</span></span>   
 
-<span data-ttu-id="1a598-192">从此页，用户可以深入到**预算控制统计（按期间）**页来查看所选预算控制维度组合的预算可用性详细信息和预留。</span><span class="sxs-lookup"><span data-stu-id="1a598-192">From this page, users can drill into the **Budget control statistics by period** page to view budget availability details and reservations for a selected budget control dimension combination.</span></span> <span data-ttu-id="1a598-193">用户也可以深入到**预算控制统计**页查看用于预算控制的所有财务维度组合的预算可用性。</span><span class="sxs-lookup"><span data-stu-id="1a598-193">Users can also drill into the **Budget control statistic** page to view the budget availability for all financial dimension combinations that are used in budget control.</span></span> 
+<span data-ttu-id="1a598-192">从此页，用户可以深入到**预算控制统计（按期间）** 页来查看所选预算控制维度组合的预算可用性详细信息和预留。</span><span class="sxs-lookup"><span data-stu-id="1a598-192">From this page, users can drill into the **Budget control statistics by period** page to view budget availability details and reservations for a selected budget control dimension combination.</span></span> <span data-ttu-id="1a598-193">用户也可以深入到**预算控制统计**页查看用于预算控制的所有财务维度组合的预算可用性。</span><span class="sxs-lookup"><span data-stu-id="1a598-193">Users can also drill into the **Budget control statistic** page to view the budget availability for all financial dimension combinations that are used in budget control.</span></span> 
 
 <span data-ttu-id="1a598-194">如果为采购订单启用预算控制，则预算经理可使用**分类帐预算和预测**工作区检查具有预算检查警告和错误的所有未确认采购订单的队列。</span><span class="sxs-lookup"><span data-stu-id="1a598-194">If budget control is turned on for purchase orders, the budget manager can use the **Ledger budgets and forecasts** workspace to review the queue of all unconfirmed purchase orders that have budget check warnings and errors.</span></span> <span data-ttu-id="1a598-195">如果预算经理具有配置的超出预算权限，则他或她可以直接在该工作区中确认采购订单。</span><span class="sxs-lookup"><span data-stu-id="1a598-195">If the budget manager has over-budget permissions configured, he or she can confirm purchase orders directly in the workspace.</span></span>    
 

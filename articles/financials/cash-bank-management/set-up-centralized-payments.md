@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerInterCompany
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 62243
 ms.assetid: ffd17b5f-9aea-40e0-be49-d8702f615256
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 52e48c0d1b0ef41074538180556f96fe65c206e7
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/08/2018
 -   <span data-ttu-id="2a143-109">设置内部公司会计。</span><span class="sxs-lookup"><span data-stu-id="2a143-109">Set up intercompany accounting.</span></span>
 
 ## <a name="set-up-an-organizational-hierarchy-for-centralized-payments"></a><span data-ttu-id="2a143-110">为集中付款设置组织的层次结构。</span><span class="sxs-lookup"><span data-stu-id="2a143-110">Set up an organizational hierarchy for centralized payments</span></span>
-<span data-ttu-id="2a143-111">您必须为集中付款设置组织的层次结构。</span><span class="sxs-lookup"><span data-stu-id="2a143-111">You must set up an organizational hierarchy for centralized payments.</span></span> <span data-ttu-id="2a143-112">将相同的组织层次结构用于处理集中的供应商付款和集中的客户付款。</span><span class="sxs-lookup"><span data-stu-id="2a143-112">The same organizational hierarchy is used to process centralized vendor payments and centralized customer payments.</span></span> <span data-ttu-id="2a143-113">**注意：**对于集中付款，该层次结构的结构不会产生影响。</span><span class="sxs-lookup"><span data-stu-id="2a143-113">**Note:** For centralized payments, the structure of the hierarchy doesn't matter.</span></span> <span data-ttu-id="2a143-114">层次结构中的任何法人都将能代表层次结构中的任何其他法人处理付款。</span><span class="sxs-lookup"><span data-stu-id="2a143-114">Any legal entity in the hierarchy will be able to process payments on behalf of any other legal entity in the hierarchy.</span></span> <span data-ttu-id="2a143-115">在**组织层次结构**页上，您可以创建一个新的组织层次结构。</span><span class="sxs-lookup"><span data-stu-id="2a143-115">On the **Organization hierarchies** page, you can create a new organization hierarchy.</span></span> <span data-ttu-id="2a143-116">在**用途**字段中，必须选择**集中付款**。</span><span class="sxs-lookup"><span data-stu-id="2a143-116">In the **Purpose** field, you must select **Centralized payments**.</span></span> 
+<span data-ttu-id="2a143-111">您必须为集中付款设置组织的层次结构。</span><span class="sxs-lookup"><span data-stu-id="2a143-111">You must set up an organizational hierarchy for centralized payments.</span></span> <span data-ttu-id="2a143-112">将相同的组织层次结构用于处理集中的供应商付款和集中的客户付款。</span><span class="sxs-lookup"><span data-stu-id="2a143-112">The same organizational hierarchy is used to process centralized vendor payments and centralized customer payments.</span></span> <span data-ttu-id="2a143-113">**注意：** 对于集中付款，该层次结构的结构不会产生影响。</span><span class="sxs-lookup"><span data-stu-id="2a143-113">**Note:** For centralized payments, the structure of the hierarchy doesn't matter.</span></span> <span data-ttu-id="2a143-114">层次结构中的任何法人都将能代表层次结构中的任何其他法人处理付款。</span><span class="sxs-lookup"><span data-stu-id="2a143-114">Any legal entity in the hierarchy will be able to process payments on behalf of any other legal entity in the hierarchy.</span></span> <span data-ttu-id="2a143-115">在**组织层次结构**页上，您可以创建一个新的组织层次结构。</span><span class="sxs-lookup"><span data-stu-id="2a143-115">On the **Organization hierarchies** page, you can create a new organization hierarchy.</span></span> <span data-ttu-id="2a143-116">在**用途**字段中，必须选择**集中付款**。</span><span class="sxs-lookup"><span data-stu-id="2a143-116">In the **Purpose** field, you must select **Centralized payments**.</span></span> 
 
 ## <a name="set-up-an-intercompany-account-for-centralized-payments"></a><span data-ttu-id="2a143-117">为集中付款设置内部公司帐户</span><span class="sxs-lookup"><span data-stu-id="2a143-117">Set up an intercompany account for centralized payments</span></span>
 <span data-ttu-id="2a143-118">在对照其他法人中的发票结算当前法人中的付款交易记录时，将为每个法人创建相应的应付和应收交易记录。</span><span class="sxs-lookup"><span data-stu-id="2a143-118">When payment transactions in the current legal entity are settled against invoices in other legal entities, the appropriate due-to and due-from transactions are created for each legal entity.</span></span> <span data-ttu-id="2a143-119">您必须指定过帐任何适用现金折扣和已有损益金额的法人。</span><span class="sxs-lookup"><span data-stu-id="2a143-119">You must specify the legal entity where any applicable cash discounts and realized gain or loss amounts are posted.</span></span> <span data-ttu-id="2a143-120">在开始前，确定您将使用哪一法人处理供应商和客户付款。</span><span class="sxs-lookup"><span data-stu-id="2a143-120">Before you begin, decide which legal entity you will use to process vendor and customer payments.</span></span> <span data-ttu-id="2a143-121">如果一个法人处理供应商付款，另一个法人处理客户付款，您必须切换到各法人。</span><span class="sxs-lookup"><span data-stu-id="2a143-121">If one legal entity processes vendor payments but another legal entity processes customer payments, you will have to switch to each legal entity.</span></span> <span data-ttu-id="2a143-122">在**内部公司会计**页上，可以为将代表其处理付款的法人选择内部公司关系记录。</span><span class="sxs-lookup"><span data-stu-id="2a143-122">On the **Intercompany accounting** page, you can select an intercompany relationship record for a legal entity that you will process payments on behalf of.</span></span> 

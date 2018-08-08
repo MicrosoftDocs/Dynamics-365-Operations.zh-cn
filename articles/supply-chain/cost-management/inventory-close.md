@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventClosing
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 730bb51547bd161a30dcae96b0fe716a916ea25c
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -86,7 +86,7 @@ ms.lasthandoff: 05/08/2018
 ## <a name="reversing-a-completed-inventory-close"></a><span data-ttu-id="bd238-155">冲销已完成的库存结转</span><span class="sxs-lookup"><span data-stu-id="bd238-155">Reversing a completed inventory close</span></span>
 <span data-ttu-id="bd238-156">您偶尔可能必须冲销已完成的库存结转，以将结算返回到执行调整前的状态。</span><span class="sxs-lookup"><span data-stu-id="bd238-156">Occasionally, you might have to reverse a completed inventory close to return settlements to the state that they had before adjustments were made.</span></span> <span data-ttu-id="bd238-157">在您冲销已完成的库存结转时，库存还会重新打开，以可以在库存转结涵盖期间中过帐。</span><span class="sxs-lookup"><span data-stu-id="bd238-157">When you reverse a completed inventory close, inventory is reopened to enable posting in the period that the inventory close covers.</span></span> <span data-ttu-id="bd238-158">也可能在总账中进行相关的更改。</span><span class="sxs-lookup"><span data-stu-id="bd238-158">Related changes might also be made in the general ledger.</span></span> <span data-ttu-id="bd238-159">在完成调整后，您可以为您正在使用的期间再次运行库存结转。</span><span class="sxs-lookup"><span data-stu-id="bd238-159">After you've finished making adjustments, you can run inventory close again for the period that you're working with.</span></span> 
 
-<span data-ttu-id="bd238-160">**注意：**只有最后关闭的库存期间可以重新打开。</span><span class="sxs-lookup"><span data-stu-id="bd238-160">**Note:** Only the last inventory period that was closed can be reopened.</span></span> <span data-ttu-id="bd238-161">若要冲销更早的库存结转，必须一次冲销一个后续库存，从最近的结转开始。</span><span class="sxs-lookup"><span data-stu-id="bd238-161">To reverse an earlier inventory close, you must reverse each subsequent inventory close one at a time, starting with the most recent close.</span></span>
+<span data-ttu-id="bd238-160">**注意：** 只有最后关闭的库存期间可以重新打开。</span><span class="sxs-lookup"><span data-stu-id="bd238-160">**Note:** Only the last inventory period that was closed can be reopened.</span></span> <span data-ttu-id="bd238-161">若要冲销更早的库存结转，必须一次冲销一个后续库存，从最近的结转开始。</span><span class="sxs-lookup"><span data-stu-id="bd238-161">To reverse an earlier inventory close, you must reverse each subsequent inventory close one at a time, starting with the most recent close.</span></span>
 
 
 

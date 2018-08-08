@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 26515140b020d824f99441b9f1ee560a44e28f8f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 5711bd71f3da13c05a8bd6dc6756e648c302b5ef
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a><span data-ttu-id="14a46-103">在发票日记帐中记录供应商发票</span><span class="sxs-lookup"><span data-stu-id="14a46-103">Record a vendor invoice in the invoice journal</span></span>

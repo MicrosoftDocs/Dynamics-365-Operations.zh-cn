@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
@@ -19,10 +19,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f85556123d79bdef8ed9a4b97efaa40cb9df482e
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: cae6334cd39a91eaf3a2a79f30edc705f484bc8c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -46,12 +46,12 @@ ms.lasthandoff: 05/08/2018
 
 1.  <span data-ttu-id="7d94e-115">登录后，单击 Microsoft Dynamics Office Add-in 中的**设计**。</span><span class="sxs-lookup"><span data-stu-id="7d94e-115">Click **Design** in the Microsoft Dynamics Office Add-in after you’ve logged in.</span></span>
 2.  <span data-ttu-id="7d94e-116">对于标题信息，请使用**添加字段**按钮。</span><span class="sxs-lookup"><span data-stu-id="7d94e-116">For header information, use the **Add fields** button.</span></span>
-3.  <span data-ttu-id="7d94e-117">选择实体数据源 BudgetPlanJustification，然后单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="7d94e-117">Select the entity data source of BudgetPlanJustification, and click **Next**.</span></span> <span data-ttu-id="7d94e-118">**注释：**所有理由文档都需要此实体。</span><span class="sxs-lookup"><span data-stu-id="7d94e-118">**Note:** This entity is required for any justification document.</span></span> <span data-ttu-id="7d94e-119">可以使用其他实体，但是如果不包含此实体，上传回 Microsoft Dynamics 365 for Finance and Operations 将失败。</span><span class="sxs-lookup"><span data-stu-id="7d94e-119">Other entities can be used but the upload back to Microsoft Dynamics 365 for Finance and Operations will fail if this entity isn’t included.</span></span>
-4.  <span data-ttu-id="7d94e-120">在 Word 文档中添加 BudgetPlanName、BudgetPlanPreparer、ResponsibilityCenter 和 DocumentNumber 标签和值。</span><span class="sxs-lookup"><span data-stu-id="7d94e-120">Add the BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter, and DocumentNumber labels and values in the Word document.</span></span> <span data-ttu-id="7d94e-121">**注释：**如果需要，您可以使用之间的自定义标签，而不是标准标签。</span><span class="sxs-lookup"><span data-stu-id="7d94e-121">**Note:** You can use your own custom labels, rather than the standard labels, if needed.</span></span>
+3.  <span data-ttu-id="7d94e-117">选择实体数据源 BudgetPlanJustification，然后单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="7d94e-117">Select the entity data source of BudgetPlanJustification, and click **Next**.</span></span> <span data-ttu-id="7d94e-118">**注释：** 所有理由文档都需要此实体。</span><span class="sxs-lookup"><span data-stu-id="7d94e-118">**Note:** This entity is required for any justification document.</span></span> <span data-ttu-id="7d94e-119">可以使用其他实体，但是如果不包含此实体，上传回 Microsoft Dynamics 365 for Finance and Operations 将失败。</span><span class="sxs-lookup"><span data-stu-id="7d94e-119">Other entities can be used but the upload back to Microsoft Dynamics 365 for Finance and Operations will fail if this entity isn’t included.</span></span>
+4.  <span data-ttu-id="7d94e-120">在 Word 文档中添加 BudgetPlanName、BudgetPlanPreparer、ResponsibilityCenter 和 DocumentNumber 标签和值。</span><span class="sxs-lookup"><span data-stu-id="7d94e-120">Add the BudgetPlanName, BudgetPlanPreparer, ResponsibilityCenter, and DocumentNumber labels and values in the Word document.</span></span> <span data-ttu-id="7d94e-121">**注释：** 如果需要，您可以使用之间的自定义标签，而不是标准标签。</span><span class="sxs-lookup"><span data-stu-id="7d94e-121">**Note:** You can use your own custom labels, rather than the standard labels, if needed.</span></span>
 5.  <span data-ttu-id="7d94e-122">单击**完成**完成标题部分。</span><span class="sxs-lookup"><span data-stu-id="7d94e-122">Click **Done** to complete the header section.</span></span>
 6.  <span data-ttu-id="7d94e-123">对于预算计划金额的行级别详细信息，请单击**添加表**。</span><span class="sxs-lookup"><span data-stu-id="7d94e-123">For line level detail of budget plan amounts, click **Add table**.</span></span>
 7.  <span data-ttu-id="7d94e-124">再次选择实体数据源 BudgetPlanJustification，然后单击**下一步**。</span><span class="sxs-lookup"><span data-stu-id="7d94e-124">Again, select the entity data source of BudgetPlanJustification, and click **Next**.</span></span>
-8.  <span data-ttu-id="7d94e-125">为 EffectiveDate、ScenarioName、AccountDisplayValue 和 AccountingCurrencyExpenseAmount 添加标签。</span><span class="sxs-lookup"><span data-stu-id="7d94e-125">Add fields for EffectiveDate, ScenarioName, AccountDisplayValue, and AccountingCurrencyExpenseAmount.</span></span> <span data-ttu-id="7d94e-126">**注释：**如果可以在单个预算计划行内添加注释，可以在此处将其添加到表。</span><span class="sxs-lookup"><span data-stu-id="7d94e-126">**Note:** If comments are available to add within individual budget plan lines, those can be added to the table here.</span></span>
+8.  <span data-ttu-id="7d94e-125">为 EffectiveDate、ScenarioName、AccountDisplayValue 和 AccountingCurrencyExpenseAmount 添加标签。</span><span class="sxs-lookup"><span data-stu-id="7d94e-125">Add fields for EffectiveDate, ScenarioName, AccountDisplayValue, and AccountingCurrencyExpenseAmount.</span></span> <span data-ttu-id="7d94e-126">**注释：** 如果可以在单个预算计划行内添加注释，可以在此处将其添加到表。</span><span class="sxs-lookup"><span data-stu-id="7d94e-126">**Note:** If comments are available to add within individual budget plan lines, those can be added to the table here.</span></span>
 9.  <span data-ttu-id="7d94e-127">添加任何附加说明以提供给最终用户，并对文档执行任何必要的格式或样式设置。</span><span class="sxs-lookup"><span data-stu-id="7d94e-127">Add any additional instructions to provide to the end user, and perform any necessary formatting or styling to the document.</span></span>
 10. <span data-ttu-id="7d94e-128">将该文档保持到您的本地计算机，然后在继续操作之前关闭该文件。</span><span class="sxs-lookup"><span data-stu-id="7d94e-128">Save the document to your local computer and close the file before continuing.</span></span>
 

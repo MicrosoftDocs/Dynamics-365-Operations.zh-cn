@@ -1,7 +1,7 @@
 ---
 title: "额外折旧"
 description: "本文提供红利折旧功能的概览。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetBonus
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3621
 ms.assetid: 835ec594-744e-461c-a676-1b9abc094173
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 89814bf54f09b91d7c23904c2f1ac31d5b284824
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 5e05c0c195ddb948547ae008d050686bbcdc6ed3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -45,7 +45,7 @@ ms.lasthandoff: 05/08/2018
 ## <a name="example"></a><span data-ttu-id="580b7-120">示例</span><span class="sxs-lookup"><span data-stu-id="580b7-120">Example</span></span>
 <span data-ttu-id="580b7-121">以下额外折旧与资产帐簿相关联：</span><span class="sxs-lookup"><span data-stu-id="580b7-121">The following bonus depreciations are associated with an asset book:</span></span>
 
--   <span data-ttu-id="580b7-122">**第 179 条：**1,000.00，优先级 1</span><span class="sxs-lookup"><span data-stu-id="580b7-122">**Section 179:** 1,000.00, Priority 1</span></span>
+-   <span data-ttu-id="580b7-122">**第 179 条：** 1,000.00，优先级 1</span><span class="sxs-lookup"><span data-stu-id="580b7-122">**Section 179:** 1,000.00, Priority 1</span></span>
 -   <span data-ttu-id="580b7-123">**自由区**：30%，优先级 2</span><span class="sxs-lookup"><span data-stu-id="580b7-123">**Liberty Zone:** 30 percent, Priority 2</span></span>
 
 <span data-ttu-id="580b7-124">资产购置成本为 5,000.00。</span><span class="sxs-lookup"><span data-stu-id="580b7-124">The asset acquisition cost is 5,000.00.</span></span> <span data-ttu-id="580b7-125">计算额外折旧时，根据第 179 条的折旧规定，第一笔额外折旧金额为 1,000.00 美元。</span><span class="sxs-lookup"><span data-stu-id="580b7-125">When bonus depreciation is calculated, the first bonus depreciation amount is 1,000.00 for the Section 179 depreciation.</span></span> 

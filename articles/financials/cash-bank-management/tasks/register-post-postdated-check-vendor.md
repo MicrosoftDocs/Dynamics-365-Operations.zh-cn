@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d00dcdf5bbc30f2e3b3c4a8f344701b0347638f8
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: a276f67c47bf5ac714713c829da5a2e5aeacb1d9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a><span data-ttu-id="2bedd-103">为供应商登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="2bedd-103">Register and post a postdated check for a vendor</span></span>

@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Service industries
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 81c41b121732cb72a40ab3d89075770e5404e3c0
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: cd871f1182217bf5cab34c1e38e8f0d9cc3808cd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="configure-intercompany-project-invoicing"></a><span data-ttu-id="5ff27-103">配置内部公司项目开票</span><span class="sxs-lookup"><span data-stu-id="5ff27-103">Configure intercompany project invoicing</span></span>

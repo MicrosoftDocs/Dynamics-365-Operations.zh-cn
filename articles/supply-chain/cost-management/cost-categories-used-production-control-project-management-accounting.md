@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjCategory
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 78253
 ms.assetid: cfdd58a0-8afa-4a6f-a208-a76e2c162429
@@ -20,10 +20,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f4c03d886a7a6e98276422cd954954fe6e8a12e
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: cab4629740e92f9075b7afc7a5d228b2e01c4664
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="1eae9-107">某些生产工作类型可以应用于项目时间评估和报告。</span><span class="sxs-lookup"><span data-stu-id="1eae9-107">Some types of production work can apply to project time estimates and reporting.</span></span> <span data-ttu-id="1eae9-108">在这种情况下，成本类别需要用于生产和项目目的。</span><span class="sxs-lookup"><span data-stu-id="1eae9-108">In this case, a cost category is required for production and project purposes.</span></span> <span data-ttu-id="1eae9-109">在将某一成本类别用于生产和项目时，必须定义附加的与项目相关的信息。</span><span class="sxs-lookup"><span data-stu-id="1eae9-109">When a cost category is used in production and projects, additional project-related information must be defined.</span></span> <span data-ttu-id="1eae9-110">例如，与项目相关联的每小时成本可以不同于与生产相关联的每小时成本。</span><span class="sxs-lookup"><span data-stu-id="1eae9-110">For example, the hourly costs that are associated with projects can differ from the hourly costs that are associated with production.</span></span> <span data-ttu-id="1eae9-111">您可以使用**成本类别**页来定义用于生产控制和项目管理核算的成本类别。</span><span class="sxs-lookup"><span data-stu-id="1eae9-111">You can use the **Cost categories** page to define a cost category that is used in Production control and Project management accounting.</span></span> 
 
-<span data-ttu-id="1eae9-112">**注意：**成本核算具有**项目类别**页，但此页没有与在此主题中描述的功能的关系。</span><span class="sxs-lookup"><span data-stu-id="1eae9-112">**Note:** Cost accounting has a **Project categories** page, but this page has no relationship to the functionality that is described in this topic.</span></span> <span data-ttu-id="1eae9-113">在项目中使用成本类别时，**成本类别**页具有显示附加的项目相关信息的其他选项卡。</span><span class="sxs-lookup"><span data-stu-id="1eae9-113">When you use a cost category in projects, the **Cost categories** page has additional tabs that show additional project-related information.</span></span> <span data-ttu-id="1eae9-114">此信息包括类别组、行属性和已分配给成本类别的会计科目。</span><span class="sxs-lookup"><span data-stu-id="1eae9-114">This information includes the category group, a line property, and ledger accounts that are assigned to the cost category.</span></span>
+<span data-ttu-id="1eae9-112">**注意：** 成本核算具有**项目类别**页，但此页没有与在此主题中描述的功能的关系。</span><span class="sxs-lookup"><span data-stu-id="1eae9-112">**Note:** Cost accounting has a **Project categories** page, but this page has no relationship to the functionality that is described in this topic.</span></span> <span data-ttu-id="1eae9-113">在项目中使用成本类别时，**成本类别**页具有显示附加的项目相关信息的其他选项卡。</span><span class="sxs-lookup"><span data-stu-id="1eae9-113">When you use a cost category in projects, the **Cost categories** page has additional tabs that show additional project-related information.</span></span> <span data-ttu-id="1eae9-114">此信息包括类别组、行属性和已分配给成本类别的会计科目。</span><span class="sxs-lookup"><span data-stu-id="1eae9-114">This information includes the category group, a line property, and ledger accounts that are assigned to the cost category.</span></span>
 
 -   <span data-ttu-id="1eae9-115">该成本类别必须分配给支持**工时**交易记录类型的某一类别组。</span><span class="sxs-lookup"><span data-stu-id="1eae9-115">The cost category must be assigned to a category group that supports a transaction type of **Hours**.</span></span>
 -   <span data-ttu-id="1eae9-116">行属性将指示如何对项目向报告的时间收费的默认信息。</span><span class="sxs-lookup"><span data-stu-id="1eae9-116">The line property indicates default information about how reported time can be charged to a project.</span></span>

@@ -1,7 +1,7 @@
 ---
 title: "高级银行对帐 MT940 导入 - 综合数据实体升级"
 description: "需要将序列号添加到银行对账单导入实体以支持 MT940 格式。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221594
 ms.assetid: dddc99ae-56ae-48df-856a-131079c17dcb
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7bb78afe2fa1b17bcec013f54f929c4181fae812
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 6c0eeb59726422177ed1122767b9d3142a1311a2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "交货计划"
 description: "当您为单个销售订单、销售报价单或采购订单使用多个交货时，可利用交货计划跟踪订单行数量。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchDeliverySchedule, SalesDeliverySchedule, SalesQuotationDeliverySchedule
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 213984
 ms.assetid: 44cac104-c36c-4371-a992-9178b3fd65e9
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5e48d8f0ec434acdcfb72a38ccbf8dbc6938a256
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 068a881a7fa9b19198bd3ad22988465be49c1fa3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -44,11 +44,11 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="dc59c-116">在这种情况下，该客户请求跨六个月的期间按批处理 100 把椅子的方式完成 600 把椅子的发货。</span><span class="sxs-lookup"><span data-stu-id="dc59c-116">In this scenario, the customer requests delivery of 600 chairs in batches of 100 chairs over a period of six months.</span></span> <span data-ttu-id="dc59c-117">若要记录交货要求，您可创建一个交货计划。</span><span class="sxs-lookup"><span data-stu-id="dc59c-117">To keep track of the delivery requirements, you create a delivery schedule.</span></span> <span data-ttu-id="dc59c-118">在交货计划页上，创建六个单独的交货行。</span><span class="sxs-lookup"><span data-stu-id="dc59c-118">On the delivery schedule page, you create six separate delivery lines.</span></span> <span data-ttu-id="dc59c-119">每个交货行包含 100 把椅子，并指示这 100 把椅子的交货日期。</span><span class="sxs-lookup"><span data-stu-id="dc59c-119">Each delivery line contains 100 chairs and indicates the delivery date for those 100 chairs.</span></span> <span data-ttu-id="dc59c-120">在这种情况下，在连续六个月的每月第一天抵消每一行。</span><span class="sxs-lookup"><span data-stu-id="dc59c-120">In this case, each line is offset on the first of the month for six consecutive months.</span></span>  
 
-<span data-ttu-id="dc59c-121">在您创建一个交货计划时，原始订单行的类型将自动更改为**“包含多个交货的订单行”**。</span><span class="sxs-lookup"><span data-stu-id="dc59c-121">When you create a delivery schedule, the type of the original order line is automatically changed to **Order line with multiple deliveries**.</span></span> <span data-ttu-id="dc59c-122">此类型的行称作业务行，并用图标标记。</span><span class="sxs-lookup"><span data-stu-id="dc59c-122">A line of this type is referred to as a commercial line and is marked by an icon.</span></span> <span data-ttu-id="dc59c-123">交货行由不同图标标记。</span><span class="sxs-lookup"><span data-stu-id="dc59c-123">The delivery line is marked by a different icon.</span></span> <span data-ttu-id="dc59c-124">如果更改交货行的数量，业务行将更新为交货计划的总数量。</span><span class="sxs-lookup"><span data-stu-id="dc59c-124">If you change a quantity on a delivery line, the commercial line is updated to the total quantity of the delivery schedule.</span></span> <span data-ttu-id="dc59c-125">如果贸易协议为订单定义了总折扣，则交货计划可确保您的订单符合总订单折扣条件，即便订单拆分为单独的交货也是如此。</span><span class="sxs-lookup"><span data-stu-id="dc59c-125">If a trade agreement has defined a total discount for the order, the delivery schedule ensures that your order is eligible for the total order discount, even when the order is split into separate deliveries.</span></span>  
+<span data-ttu-id="dc59c-121">在您创建一个交货计划时，原始订单行的类型将自动更改为 **“包含多个交货的订单行”**。</span><span class="sxs-lookup"><span data-stu-id="dc59c-121">When you create a delivery schedule, the type of the original order line is automatically changed to **Order line with multiple deliveries**.</span></span> <span data-ttu-id="dc59c-122">此类型的行称作业务行，并用图标标记。</span><span class="sxs-lookup"><span data-stu-id="dc59c-122">A line of this type is referred to as a commercial line and is marked by an icon.</span></span> <span data-ttu-id="dc59c-123">交货行由不同图标标记。</span><span class="sxs-lookup"><span data-stu-id="dc59c-123">The delivery line is marked by a different icon.</span></span> <span data-ttu-id="dc59c-124">如果更改交货行的数量，业务行将更新为交货计划的总数量。</span><span class="sxs-lookup"><span data-stu-id="dc59c-124">If you change a quantity on a delivery line, the commercial line is updated to the total quantity of the delivery schedule.</span></span> <span data-ttu-id="dc59c-125">如果贸易协议为订单定义了总折扣，则交货计划可确保您的订单符合总订单折扣条件，即便订单拆分为单独的交货也是如此。</span><span class="sxs-lookup"><span data-stu-id="dc59c-125">If a trade agreement has defined a total discount for the order, the delivery schedule ensures that your order is eligible for the total order discount, even when the order is split into separate deliveries.</span></span>  
 
 <span data-ttu-id="dc59c-126">具有交货的计划订单是比对交货行处理的。</span><span class="sxs-lookup"><span data-stu-id="dc59c-126">Orders that have a delivery schedule are processed against the delivery lines.</span></span> <span data-ttu-id="dc59c-127">处理包括过帐装箱单、产品收据和开票。</span><span class="sxs-lookup"><span data-stu-id="dc59c-127">Processing includes the posting of packing slips, product receipts, and invoicing.</span></span>  
 
-<span data-ttu-id="dc59c-128">具有交货计划的订单和报价单的单据打印输出只显示交货行。</span><span class="sxs-lookup"><span data-stu-id="dc59c-128">Document printouts of orders and quotations that have a delivery schedule show only the delivery lines.</span></span> <span data-ttu-id="dc59c-129">它们不显示原始行（业务行）。</span><span class="sxs-lookup"><span data-stu-id="dc59c-129">They don't show the original lines (commercial lines).</span></span> <span data-ttu-id="dc59c-130">**注意：**此外，当您执行这些操作时，只显示交货行：</span><span class="sxs-lookup"><span data-stu-id="dc59c-130">**Note:** In addition, only the delivery lines are shown when you perform these actions:</span></span>
+<span data-ttu-id="dc59c-128">具有交货计划的订单和报价单的单据打印输出只显示交货行。</span><span class="sxs-lookup"><span data-stu-id="dc59c-128">Document printouts of orders and quotations that have a delivery schedule show only the delivery lines.</span></span> <span data-ttu-id="dc59c-129">它们不显示原始行（业务行）。</span><span class="sxs-lookup"><span data-stu-id="dc59c-129">They don't show the original lines (commercial lines).</span></span> <span data-ttu-id="dc59c-130">**注意：** 此外，当您执行这些操作时，只显示交货行：</span><span class="sxs-lookup"><span data-stu-id="dc59c-130">**Note:** In addition, only the delivery lines are shown when you perform these actions:</span></span>
 
 -   <span data-ttu-id="dc59c-131">发布</span><span class="sxs-lookup"><span data-stu-id="dc59c-131">Post</span></span>
 -   <span data-ttu-id="dc59c-132">复制页</span><span class="sxs-lookup"><span data-stu-id="dc59c-132">Copy pages</span></span>

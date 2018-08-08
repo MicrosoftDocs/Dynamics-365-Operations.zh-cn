@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14262
 ms.assetid: af95c48a-afd1-476c-978d-e34995100be4
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 87cc2d65d15a1914550825b9f0e7a4a2db6f31f9
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c697d20bcbe6ab8f2bc38c03b181104db1f36838
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="f104c-105">如果某发票在五天内付清，则供应商 3054 向 Fabrikam 提供 2% 的现金折扣发票；而如果某发票在 14 天内付清，则现金折扣为 1%。</span><span class="sxs-lookup"><span data-stu-id="f104c-105">Vendor 3054 offers Fabrikam a cash discount of 2 percent if an invoice is paid in five days and a cash discount of 1 percent if the invoice is paid in 14 days.</span></span>
 
 ## <a name="invoice"></a><span data-ttu-id="f104c-106">开票</span><span class="sxs-lookup"><span data-stu-id="f104c-106">Invoice</span></span>
-<span data-ttu-id="f104c-107">6 月 28 日，April 为供应商 3054 创建 1,000.00 的发票。</span><span class="sxs-lookup"><span data-stu-id="f104c-107">On June 28, April creates an invoice for 1,000.00 for vendor 3054.</span></span> <span data-ttu-id="f104c-108">April 可以在**“供应商交易记录”**页上查看该交易记录。</span><span class="sxs-lookup"><span data-stu-id="f104c-108">April can view this transaction on the **Vendor transactions** page.</span></span>
+<span data-ttu-id="f104c-107">6 月 28 日，April 为供应商 3054 创建 1,000.00 的发票。</span><span class="sxs-lookup"><span data-stu-id="f104c-107">On June 28, April creates an invoice for 1,000.00 for vendor 3054.</span></span> <span data-ttu-id="f104c-108">April 可以在 **“供应商交易记录”** 页上查看该交易记录。</span><span class="sxs-lookup"><span data-stu-id="f104c-108">April can view this transaction on the **Vendor transactions** page.</span></span>
 
 | <span data-ttu-id="f104c-109">凭证</span><span class="sxs-lookup"><span data-stu-id="f104c-109">Voucher</span></span>   | <span data-ttu-id="f104c-110">日期</span><span class="sxs-lookup"><span data-stu-id="f104c-110">Date</span></span>      | <span data-ttu-id="f104c-111">开票</span><span class="sxs-lookup"><span data-stu-id="f104c-111">Invoice</span></span> | <span data-ttu-id="f104c-112">交易币种借方金额</span><span class="sxs-lookup"><span data-stu-id="f104c-112">Amount in transaction currency debit</span></span> | <span data-ttu-id="f104c-113">交易币种贷方金额</span><span class="sxs-lookup"><span data-stu-id="f104c-113">Amount in transaction currency credit</span></span> | <span data-ttu-id="f104c-114">余额</span><span class="sxs-lookup"><span data-stu-id="f104c-114">Balance</span></span>   | <span data-ttu-id="f104c-115">货币</span><span class="sxs-lookup"><span data-stu-id="f104c-115">Currency</span></span> |
 |-----------|-----------|---------|--------------------------------------|---------------------------------------|-----------|----------|
@@ -56,7 +56,7 @@ ms.lasthandoff: 05/08/2018
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | <span data-ttu-id="f104c-152">标准</span><span class="sxs-lookup"><span data-stu-id="f104c-152">Normal</span></span>            | <span data-ttu-id="f104c-153">Inv-10060</span><span class="sxs-lookup"><span data-stu-id="f104c-153">Inv-10060</span></span> | <span data-ttu-id="f104c-154">3054</span><span class="sxs-lookup"><span data-stu-id="f104c-154">3054</span></span>    | <span data-ttu-id="f104c-155">6/28/2015</span><span class="sxs-lookup"><span data-stu-id="f104c-155">6/28/2015</span></span> | <span data-ttu-id="f104c-156">7/28/2015</span><span class="sxs-lookup"><span data-stu-id="f104c-156">7/28/2015</span></span> | <span data-ttu-id="f104c-157">10060</span><span class="sxs-lookup"><span data-stu-id="f104c-157">10060</span></span>   | <span data-ttu-id="f104c-158">1,000.00</span><span class="sxs-lookup"><span data-stu-id="f104c-158">1,000.00</span></span>                       | <span data-ttu-id="f104c-159">美元</span><span class="sxs-lookup"><span data-stu-id="f104c-159">USD</span></span>      | <span data-ttu-id="f104c-160">300.00</span><span class="sxs-lookup"><span data-stu-id="f104c-160">300.00</span></span>           |
 
-<span data-ttu-id="f104c-161">折扣信息显示在**“结算未结交易记录”**页的底部。</span><span class="sxs-lookup"><span data-stu-id="f104c-161">Discount information appears at the bottom of the **Settle open transactions** page.</span></span>
+<span data-ttu-id="f104c-161">折扣信息显示在 **“结算未结交易记录”** 页的底部。</span><span class="sxs-lookup"><span data-stu-id="f104c-161">Discount information appears at the bottom of the **Settle open transactions** page.</span></span>
 
 |                              |           |
 |------------------------------|-----------|
@@ -72,7 +72,7 @@ ms.lasthandoff: 05/08/2018
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | <span data-ttu-id="f104c-184">标准</span><span class="sxs-lookup"><span data-stu-id="f104c-184">Normal</span></span>            | <span data-ttu-id="f104c-185">Inv-10060</span><span class="sxs-lookup"><span data-stu-id="f104c-185">Inv-10060</span></span> | <span data-ttu-id="f104c-186">3054</span><span class="sxs-lookup"><span data-stu-id="f104c-186">3054</span></span>    | <span data-ttu-id="f104c-187">6/28/2015</span><span class="sxs-lookup"><span data-stu-id="f104c-187">6/28/2015</span></span> | <span data-ttu-id="f104c-188">7/28/2015</span><span class="sxs-lookup"><span data-stu-id="f104c-188">7/28/2015</span></span> | <span data-ttu-id="f104c-189">10060</span><span class="sxs-lookup"><span data-stu-id="f104c-189">10060</span></span>   | <span data-ttu-id="f104c-190">1,000.00</span><span class="sxs-lookup"><span data-stu-id="f104c-190">1,000.00</span></span>                       | <span data-ttu-id="f104c-191">美元</span><span class="sxs-lookup"><span data-stu-id="f104c-191">USD</span></span>      | <span data-ttu-id="f104c-192">294.00</span><span class="sxs-lookup"><span data-stu-id="f104c-192">294.00</span></span>           |
 
-<span data-ttu-id="f104c-193">折扣信息显示在**“结算未结交易记录”**页的底部。</span><span class="sxs-lookup"><span data-stu-id="f104c-193">Discount information appears at the bottom of the **Settle open transactions** page.</span></span>
+<span data-ttu-id="f104c-193">折扣信息显示在 **“结算未结交易记录”** 页的底部。</span><span class="sxs-lookup"><span data-stu-id="f104c-193">Discount information appears at the bottom of the **Settle open transactions** page.</span></span>
 
 |                              |           |
 |------------------------------|-----------|
@@ -105,7 +105,7 @@ ms.lasthandoff: 05/08/2018
 |------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 |      | <span data-ttu-id="f104c-261">标准</span><span class="sxs-lookup"><span data-stu-id="f104c-261">Normal</span></span>            | <span data-ttu-id="f104c-262">Inv-10060</span><span class="sxs-lookup"><span data-stu-id="f104c-262">Inv-10060</span></span> | <span data-ttu-id="f104c-263">3054</span><span class="sxs-lookup"><span data-stu-id="f104c-263">3054</span></span>    | <span data-ttu-id="f104c-264">6/28/2015</span><span class="sxs-lookup"><span data-stu-id="f104c-264">6/28/2015</span></span> | <span data-ttu-id="f104c-265">7/28/2015</span><span class="sxs-lookup"><span data-stu-id="f104c-265">7/28/2015</span></span> | <span data-ttu-id="f104c-266">10060</span><span class="sxs-lookup"><span data-stu-id="f104c-266">10060</span></span>   | <span data-ttu-id="f104c-267">1,000.00</span><span class="sxs-lookup"><span data-stu-id="f104c-267">1,000.00</span></span>                       | <span data-ttu-id="f104c-268">美元</span><span class="sxs-lookup"><span data-stu-id="f104c-268">USD</span></span>      | <span data-ttu-id="f104c-269">495.00</span><span class="sxs-lookup"><span data-stu-id="f104c-269">495.00</span></span>           |
 
-<span data-ttu-id="f104c-270">折扣信息显示在**“结算未结交易记录”**页的底部。</span><span class="sxs-lookup"><span data-stu-id="f104c-270">Discount information appears at the bottom of the **Settle open transactions** page.</span></span>
+<span data-ttu-id="f104c-270">折扣信息显示在 **“结算未结交易记录”** 页的底部。</span><span class="sxs-lookup"><span data-stu-id="f104c-270">Discount information appears at the bottom of the **Settle open transactions** page.</span></span>
 
 |                              |           |
 |------------------------------|-----------|

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanBoardTransferJob, KanbanBoardWorkCell, KanbanJobSchedulingListPage, LeanProductionFlow
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 19371
 ms.assetid: 026c5605-6be7-4fdb-a6f2-8e37a806796c
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f1e0b5e4186527316ff10df40cb2043e873565c4
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c6db940548018c9d6bbb31891c21f7c334ba8956
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -52,9 +52,9 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="using-kanbans-to-signal-demand-requirements"></a><span data-ttu-id="256ec-129">使用看板标记需求的要求</span><span class="sxs-lookup"><span data-stu-id="256ec-129">Using kanbans to signal demand requirements</span></span>
 <span data-ttu-id="256ec-130">货物在需要的情况下，系统下拉生产物料。</span><span class="sxs-lookup"><span data-stu-id="256ec-130">A pull system produces goods only when goods are needed.</span></span> <span data-ttu-id="256ec-131">此操作将减少交货提前期和额外库存。</span><span class="sxs-lookup"><span data-stu-id="256ec-131">This practice reduces delivery lead times and excess inventory.</span></span> <span data-ttu-id="256ec-132">您可以使用看板计划、跟踪和处理基于生产流程的需求。</span><span class="sxs-lookup"><span data-stu-id="256ec-132">You can use kanbans to plan, track, and process requirements that are based on production flows.</span></span> <span data-ttu-id="256ec-133">若要创建看板结构，创建看板时，创建看板规则定义，并且要求如何执行。</span><span class="sxs-lookup"><span data-stu-id="256ec-133">To create a kanban framework, create kanban rules that define when kanbans are created, and how the requirements are fulfilled.</span></span> <span data-ttu-id="256ec-134">您可以创建规则的两种类型。</span><span class="sxs-lookup"><span data-stu-id="256ec-134">You can create two types of kanban rules.</span></span> <span data-ttu-id="256ec-135">制造规则创建处理看板作业，并且，提领看板的规则创建转移看板作业。</span><span class="sxs-lookup"><span data-stu-id="256ec-135">Manufacturing rules create process kanban jobs, and withdrawal kanban rules create transfer kanban jobs.</span></span> <span data-ttu-id="256ec-136">可以设置以下补货策略：</span><span class="sxs-lookup"><span data-stu-id="256ec-136">You can set up the following replenishment strategies:</span></span>
--   <span data-ttu-id="256ec-137">**“固定数量”**看板规则与处理单位的固定编号相关，这意味着，活动看板的数量是固定的。</span><span class="sxs-lookup"><span data-stu-id="256ec-137">**Fixed quantity** kanban rules are related to a fixed number of handling units, which means that the numbers of active kanbans are constant.</span></span> <span data-ttu-id="256ec-138">只要使用了看板中的所有产品并手动清空了处理单元，将创建同一类型的新看板。</span><span class="sxs-lookup"><span data-stu-id="256ec-138">Whenever all the products from a Kanban are consumed and the handling units are manually emptied, a new kanban of the same type is created.</span></span> <span data-ttu-id="256ec-139">在创建固定数量看板规则时，您可以计算最佳看板数量和使用的产品数量。</span><span class="sxs-lookup"><span data-stu-id="256ec-139">When you create fixed quantity kanban rules, you can calculate the optimal kanban quantities and the product quantities that are used.</span></span> <span data-ttu-id="256ec-140">该计算考虑到预测、未结订单的实际需求、补货物料的提前期以及历史需求。</span><span class="sxs-lookup"><span data-stu-id="256ec-140">The calculation takes into account forecast, actual demand from open orders, lead time to replenish items, and historical demands.</span></span>
--   <span data-ttu-id="256ec-141">**“计划”**的看板规则由主计划计算的补货需求。</span><span class="sxs-lookup"><span data-stu-id="256ec-141">**Scheduled** kanban rules replenish requirements that are calculated by master planning.</span></span> <span data-ttu-id="256ec-142">主计划生成可以确定到看板的计划看板。</span><span class="sxs-lookup"><span data-stu-id="256ec-142">Master planning generates planned kanbans that can be firmed to kanbans.</span></span>
--   <span data-ttu-id="256ec-143">**“事件”**看板规则源自销售订单行、生产物料清单行的行或最小库存量设置的补货要求。</span><span class="sxs-lookup"><span data-stu-id="256ec-143">**Event** kanban rules replenish requirements that originate from sales order lines, production BOM lines, kanban lines, or minimum inventory settings.</span></span> <span data-ttu-id="256ec-144">在生成事件看板时，这些限定为源需求。</span><span class="sxs-lookup"><span data-stu-id="256ec-144">When event kanbans are generated, they are pegged to the source requirements.</span></span>
+-   <span data-ttu-id="256ec-137">**“固定数量”** 看板规则与处理单位的固定编号相关，这意味着，活动看板的数量是固定的。</span><span class="sxs-lookup"><span data-stu-id="256ec-137">**Fixed quantity** kanban rules are related to a fixed number of handling units, which means that the numbers of active kanbans are constant.</span></span> <span data-ttu-id="256ec-138">只要使用了看板中的所有产品并手动清空了处理单元，将创建同一类型的新看板。</span><span class="sxs-lookup"><span data-stu-id="256ec-138">Whenever all the products from a Kanban are consumed and the handling units are manually emptied, a new kanban of the same type is created.</span></span> <span data-ttu-id="256ec-139">在创建固定数量看板规则时，您可以计算最佳看板数量和使用的产品数量。</span><span class="sxs-lookup"><span data-stu-id="256ec-139">When you create fixed quantity kanban rules, you can calculate the optimal kanban quantities and the product quantities that are used.</span></span> <span data-ttu-id="256ec-140">该计算考虑到预测、未结订单的实际需求、补货物料的提前期以及历史需求。</span><span class="sxs-lookup"><span data-stu-id="256ec-140">The calculation takes into account forecast, actual demand from open orders, lead time to replenish items, and historical demands.</span></span>
+-   <span data-ttu-id="256ec-141">**“计划”** 的看板规则由主计划计算的补货需求。</span><span class="sxs-lookup"><span data-stu-id="256ec-141">**Scheduled** kanban rules replenish requirements that are calculated by master planning.</span></span> <span data-ttu-id="256ec-142">主计划生成可以确定到看板的计划看板。</span><span class="sxs-lookup"><span data-stu-id="256ec-142">Master planning generates planned kanbans that can be firmed to kanbans.</span></span>
+-   <span data-ttu-id="256ec-143">**“事件”** 看板规则源自销售订单行、生产物料清单行的行或最小库存量设置的补货要求。</span><span class="sxs-lookup"><span data-stu-id="256ec-143">**Event** kanban rules replenish requirements that originate from sales order lines, production BOM lines, kanban lines, or minimum inventory settings.</span></span> <span data-ttu-id="256ec-144">在生成事件看板时，这些限定为源需求。</span><span class="sxs-lookup"><span data-stu-id="256ec-144">When event kanbans are generated, they are pegged to the source requirements.</span></span>
 
 <span data-ttu-id="256ec-145">在创建看板时，基于定义在看板规则中的看板流活动中将生成一个或多个看板作业。</span><span class="sxs-lookup"><span data-stu-id="256ec-145">When kanbans are created, one or more kanban jobs are generated based on the kanban flow activities that are defined in the kanban rules.</span></span>
 

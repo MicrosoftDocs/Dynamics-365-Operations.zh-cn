@@ -1,7 +1,7 @@
 ---
 title: "销售和收益率绩效 Power BI 内容"
 description: "此主题介绍销售和收益率绩效 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
@@ -19,10 +19,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 30df26aad5b29d8db89b4acd82cbd9aef05f60a0
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 9e6db59eeee61bc2d1d223a5718d74900bbed391
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

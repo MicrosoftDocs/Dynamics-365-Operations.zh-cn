@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d1439a52c6096be93902f812aa912959347e8009
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c8c1b90b7b2c02a53e53cc13d70445a237b126d4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="881f6-116">您可以通过两种方式标识取消和更正发票：</span><span class="sxs-lookup"><span data-stu-id="881f6-116">You can identify canceling and correcting invoices in two ways:</span></span>
 
--   <span data-ttu-id="881f6-117">**“所有普通发票”**页包括**“更正”**列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。</span><span class="sxs-lookup"><span data-stu-id="881f6-117">The **All free text invoices** page includes a **Correction** column, where you can see which invoices are canceling invoices and corrected invoices.</span></span>
+-   <span data-ttu-id="881f6-117">**“所有普通发票”** 页包括 **“更正”** 列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。</span><span class="sxs-lookup"><span data-stu-id="881f6-117">The **All free text invoices** page includes a **Correction** column, where you can see which invoices are canceling invoices and corrected invoices.</span></span>
 -   <span data-ttu-id="881f6-118">普通发票的标题显示状态**正在取消发票‘\[发票编号\]** 或**已更正的发票‘\[发票编号\]**。</span><span class="sxs-lookup"><span data-stu-id="881f6-118">The header of the free text invoice shows a status of **Cancelling invoice '\[invoice number\]'** or **Corrected invoice '\[invoice number\]'**.</span></span>
 
 > [!NOTE]

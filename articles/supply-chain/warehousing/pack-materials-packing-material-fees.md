@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventPackagingGroup, InventPackagingMaterialCode, InventPackagingMaterialFee, InventPackagingMaterialTrans, InventPackagingMaterialTransPurch, InventPackagingUnit
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 2194
 ms.assetid: 040b65dc-43c9-4256-b69f-b2d6e736fbe9
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 602be91bff1bd90b3888b7861907c23f334b0d02
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c188651fe8ba3fe3f9678f36ab11ae886ef6f1cf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -56,9 +56,9 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="0460f-136">采购订单行的包装材料交易记录不是由系统创建的。</span><span class="sxs-lookup"><span data-stu-id="0460f-136">Packing material transactions for a purchase order line are not created by the system.</span></span> <span data-ttu-id="0460f-137">您将手动在“包装材料交易记录”**** 页中为已开票采购订单行创建交易记录。</span><span class="sxs-lookup"><span data-stu-id="0460f-137">You create transactions for invoiced purchase order lines manually in the **Packing material transactions** page.</span></span>
 
 ## <a name="set-up-customer-packaging-material-fee-license-numbers"></a><span data-ttu-id="0460f-138">设置客户的包装材料费用许可证编号</span><span class="sxs-lookup"><span data-stu-id="0460f-138">Set up customer packaging-material-fee license numbers</span></span>
-<span data-ttu-id="0460f-139">如果客户支付包装材料费用，请在“客户”**** 页中指定客户的包装材料费用许可证编号。</span><span class="sxs-lookup"><span data-stu-id="0460f-139">If the customers pay the packaging material fees, specify the customers' packaging-material-fee license numbers in the **Customers** page.</span></span> <span data-ttu-id="0460f-140">如果为客户指定了许可证编号，则对销售订单开票时将自动计算包装材料费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-140">When a license number has been assigned to a customer, the packaging material fees are calculated automatically when sales orders are invoiced.</span></span> <span data-ttu-id="0460f-141">开票后，**“计算费用”**复选框将在**“包装材料交易记录”**页中被取消选中，因为您不必计算和打印报表。</span><span class="sxs-lookup"><span data-stu-id="0460f-141">After invoicing, the **Calculate fee** check box is cleared in the **Packing material transactions** page, because you do not have to calculate and print a report.</span></span> <span data-ttu-id="0460f-142">您可以在发票上打印包装材料重量并告知客户由他们支付该费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-142">You can print the packaging material weights on the invoice, and inform the customers that they pay the fees.</span></span> 
+<span data-ttu-id="0460f-139">如果客户支付包装材料费用，请在“客户”**** 页中指定客户的包装材料费用许可证编号。</span><span class="sxs-lookup"><span data-stu-id="0460f-139">If the customers pay the packaging material fees, specify the customers' packaging-material-fee license numbers in the **Customers** page.</span></span> <span data-ttu-id="0460f-140">如果为客户指定了许可证编号，则对销售订单开票时将自动计算包装材料费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-140">When a license number has been assigned to a customer, the packaging material fees are calculated automatically when sales orders are invoiced.</span></span> <span data-ttu-id="0460f-141">开票后，**“计算费用”** 复选框将在 **“包装材料交易记录”** 页中被取消选中，因为您不必计算和打印报表。</span><span class="sxs-lookup"><span data-stu-id="0460f-141">After invoicing, the **Calculate fee** check box is cleared in the **Packing material transactions** page, because you do not have to calculate and print a report.</span></span> <span data-ttu-id="0460f-142">您可以在发票上打印包装材料重量并告知客户由他们支付该费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-142">You can print the packaging material weights on the invoice, and inform the customers that they pay the fees.</span></span> 
 
-<span data-ttu-id="0460f-143">如果您的公司支付包装材料费用，请不要指定客户许可证编号。</span><span class="sxs-lookup"><span data-stu-id="0460f-143">If your company pays the packaging material fees, do not specify the customer license numbers.</span></span> <span data-ttu-id="0460f-144">开票后，**“计算费用”**复选框在**“包装材料交易记录”**页中被选中。</span><span class="sxs-lookup"><span data-stu-id="0460f-144">After invoicing, the **Calculate fee** check box is selected in the **Packing material transactions** page.</span></span> <span data-ttu-id="0460f-145">这表示创建报表时计算费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-145">This indicates that the fees are calculated when a report is created.</span></span> <span data-ttu-id="0460f-146">您可以在发票上打印重量并指明由您的公司支付费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-146">You can print the weights on the invoice, and indicate that your company pays the fees.</span></span>
+<span data-ttu-id="0460f-143">如果您的公司支付包装材料费用，请不要指定客户许可证编号。</span><span class="sxs-lookup"><span data-stu-id="0460f-143">If your company pays the packaging material fees, do not specify the customer license numbers.</span></span> <span data-ttu-id="0460f-144">开票后，**“计算费用”** 复选框在 **“包装材料交易记录”** 页中被选中。</span><span class="sxs-lookup"><span data-stu-id="0460f-144">After invoicing, the **Calculate fee** check box is selected in the **Packing material transactions** page.</span></span> <span data-ttu-id="0460f-145">这表示创建报表时计算费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-145">This indicates that the fees are calculated when a report is created.</span></span> <span data-ttu-id="0460f-146">您可以在发票上打印重量并指明由您的公司支付费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-146">You can print the weights on the invoice, and indicate that your company pays the fees.</span></span>
 
 ## <a name="print-packaging-material-weights-on-invoices"></a><span data-ttu-id="0460f-147">在发票上打印包装材料重量</span><span class="sxs-lookup"><span data-stu-id="0460f-147">Print packaging material weights on invoices</span></span>
 <span data-ttu-id="0460f-148">可以在发票上打印包装材料重量并指明由谁来支付包装材料费用。</span><span class="sxs-lookup"><span data-stu-id="0460f-148">You can print the packaging material weights on the invoice, and indicate who pays the packaging material fees.</span></span> <span data-ttu-id="0460f-149">重量按包装代码来汇总。</span><span class="sxs-lookup"><span data-stu-id="0460f-149">The weights are summarized by packaging code.</span></span>

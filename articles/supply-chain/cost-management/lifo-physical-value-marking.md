@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 55021
 ms.assetid: 49c492b0-b018-44e0-928f-9671e54eee20
 ms.search.region: Global
 ms.search.industry: Retail
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5e66335a6cf0e7b7b73033a51b727611e4869d33
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c0ea2c71458f92d048706a6e263d0da1830bdcde
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -69,7 +69,7 @@ ms.lasthandoff: 05/08/2018
 - <span data-ttu-id="0d82f-149">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="0d82f-149">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
 - <span data-ttu-id="0d82f-150">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="0d82f-150">Each new receipt or issue transaction is designated by a new label.</span></span>
 - <span data-ttu-id="0d82f-151">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="0d82f-151">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="0d82f-152">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="0d82f-152">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
-- <span data-ttu-id="0d82f-153">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="0d82f-153">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
+- <span data-ttu-id="0d82f-153">库存结转用红色的垂直虚线以及 *“库存结转”* 标签表示。</span><span class="sxs-lookup"><span data-stu-id="0d82f-153">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
 - <span data-ttu-id="0d82f-154">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="0d82f-154">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
 
 ## <a name="lifo-with-the-include-physical-value-option"></a><span data-ttu-id="0d82f-155">具有“包括实际成本”选项的后进先出</span><span class="sxs-lookup"><span data-stu-id="0d82f-155">LIFO with the Include physical value option</span></span>
@@ -103,7 +103,7 @@ ms.lasthandoff: 05/08/2018
 - <span data-ttu-id="0d82f-197">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="0d82f-197">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
 - <span data-ttu-id="0d82f-198">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="0d82f-198">Each new receipt or issue transaction is designated by a new label.</span></span>
 - <span data-ttu-id="0d82f-199">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="0d82f-199">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="0d82f-200">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="0d82f-200">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
-- <span data-ttu-id="0d82f-201">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="0d82f-201">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
+- <span data-ttu-id="0d82f-201">库存结转用红色的垂直虚线以及 *“库存结转”* 标签表示。</span><span class="sxs-lookup"><span data-stu-id="0d82f-201">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
 - <span data-ttu-id="0d82f-202">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="0d82f-202">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
 
 ## <a name="lifo-with-marking"></a><span data-ttu-id="0d82f-203">具有标记的后进先出</span><span class="sxs-lookup"><span data-stu-id="0d82f-203">LIFO with marking</span></span>
@@ -113,7 +113,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="0d82f-213">在执行库存结转前，仍可以彼此标记这两个交易记录。</span><span class="sxs-lookup"><span data-stu-id="0d82f-213">Before inventory close is performed, these two transactions can still be marked to each other.</span></span> 
 
-<span data-ttu-id="0d82f-214">在过账交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0d82f-214">You can mark an issue transaction to a receipt before the transaction is posted.</span></span> <span data-ttu-id="0d82f-215">您可以从**“销售订单详细信息”**页上的销售订单行执行此操作。</span><span class="sxs-lookup"><span data-stu-id="0d82f-215">You can do this from a sales order line on the **Sales order details** page.</span></span> <span data-ttu-id="0d82f-216">您可以在**“标记”**页上查看未结收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0d82f-216">You can view the open receipt transactions on the **Marking** page.</span></span> 
+<span data-ttu-id="0d82f-214">在过账交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0d82f-214">You can mark an issue transaction to a receipt before the transaction is posted.</span></span> <span data-ttu-id="0d82f-215">您可以从 **“销售订单详细信息”** 页上的销售订单行执行此操作。</span><span class="sxs-lookup"><span data-stu-id="0d82f-215">You can do this from a sales order line on the **Sales order details** page.</span></span> <span data-ttu-id="0d82f-216">您可以在 **“标记”** 页上查看未结收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0d82f-216">You can view the open receipt transactions on the **Marking** page.</span></span> 
 
 <span data-ttu-id="0d82f-217">在过帐交易记录后，您还可以将某一发货交易记录标记到某一收货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0d82f-217">You can also mark an issue transaction to a receipt after the transaction is posted.</span></span> <span data-ttu-id="0d82f-218">您可以匹配或标记已过帐库存调整日记帐的清查过物料的未结收货交易记录的发货交易记录。</span><span class="sxs-lookup"><span data-stu-id="0d82f-218">You can match or mark an issue transaction for an open receipt transaction for an inventoried item from a posted inventory adjustment journal.</span></span> 
 
@@ -145,7 +145,7 @@ ms.lasthandoff: 05/08/2018
 - <span data-ttu-id="0d82f-252">未用括号括起来的库存交易记录值指示该库存交易记录财务过帐到库存中。</span><span class="sxs-lookup"><span data-stu-id="0d82f-252">An inventory transaction value that isn't enclosed in parentheses indicates that the inventory transaction is financially posted into inventory.</span></span>
 - <span data-ttu-id="0d82f-253">每个新的收货或发货交易记录都用一个新标签标明。</span><span class="sxs-lookup"><span data-stu-id="0d82f-253">Each new receipt or issue transaction is designated by a new label.</span></span>
 - <span data-ttu-id="0d82f-254">每个垂直箭头用连续标识符标记，例如 *1a*。</span><span class="sxs-lookup"><span data-stu-id="0d82f-254">Each vertical arrow is labeled with a sequential identifier, such as *1a*.</span></span> <span data-ttu-id="0d82f-255">这些标识符指示时间线中库存交易记录过帐的顺序。</span><span class="sxs-lookup"><span data-stu-id="0d82f-255">The identifiers indicate the order of inventory transaction postings in the timeline.</span></span>
-- <span data-ttu-id="0d82f-256">库存结转用红色的垂直虚线以及*“库存结转”*标签表示。</span><span class="sxs-lookup"><span data-stu-id="0d82f-256">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
+- <span data-ttu-id="0d82f-256">库存结转用红色的垂直虚线以及 *“库存结转”* 标签表示。</span><span class="sxs-lookup"><span data-stu-id="0d82f-256">Inventory closings are represented by a red vertical dashed line and the label *Inventory Close*.</span></span>
 - <span data-ttu-id="0d82f-257">由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。</span><span class="sxs-lookup"><span data-stu-id="0d82f-257">Settlements that are performed by inventory close are represented by red diagonal dashed arrows that go from a receipt to an issue.</span></span>
 
 

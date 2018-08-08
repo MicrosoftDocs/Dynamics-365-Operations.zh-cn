@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 089f429357ca3adefdc4e444abde3715aed979c3
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 7150afe451808a9dbe79ce4a78eef51f31e8f09c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -88,13 +88,13 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="adcaa-158">**从 Sales 同步到 Finance and Operations**</span><span class="sxs-lookup"><span data-stu-id="adcaa-158">**Synchronization from Sales to Finance and Operations**</span></span>
 
-- <span data-ttu-id="adcaa-159">**Sales：**数量 = 3，每行折扣 = 10.00 美元</span><span class="sxs-lookup"><span data-stu-id="adcaa-159">**Sales:** Quantity = 3, per-line discount = $10.00</span></span>
-- <span data-ttu-id="adcaa-160">**Finance and Operations：**数量 = 3，行折扣金额 = 3.33 美元，销售费用 = -0.01 美元</span><span class="sxs-lookup"><span data-stu-id="adcaa-160">**Finance and Operations:** Quantity = 3, line discount amount = $3.33, sales charge = -$0.01</span></span> 
+- <span data-ttu-id="adcaa-159">**Sales：** 数量 = 3，每行折扣 = 10.00 美元</span><span class="sxs-lookup"><span data-stu-id="adcaa-159">**Sales:** Quantity = 3, per-line discount = $10.00</span></span>
+- <span data-ttu-id="adcaa-160">**Finance and Operations：** 数量 = 3，行折扣金额 = 3.33 美元，销售费用 = -0.01 美元</span><span class="sxs-lookup"><span data-stu-id="adcaa-160">**Finance and Operations:** Quantity = 3, line discount amount = $3.33, sales charge = -$0.01</span></span> 
 
 <span data-ttu-id="adcaa-161">**从 Finance and Operations 同步到 Sales**</span><span class="sxs-lookup"><span data-stu-id="adcaa-161">**Synchronization from Finance and Operations to Sales**</span></span>
 
-- <span data-ttu-id="adcaa-162">**Finance and Operations：**数量 = 3，行折扣金额 = 3.33 美元，销售费用 = -0.01 美元</span><span class="sxs-lookup"><span data-stu-id="adcaa-162">**Finance and Operations:** Quantity = 3, line discount amount = $3.33, sales charge = -$0.01</span></span>
-- <span data-ttu-id="adcaa-163">**Sales：**数量 = 3，每行折扣 = (3 × $3.33) + $0.01 = $10.00</span><span class="sxs-lookup"><span data-stu-id="adcaa-163">**Sales:** Quantity = 3, per-line discount = (3 × $3.33) + $0.01 = $10.00</span></span>
+- <span data-ttu-id="adcaa-162">**Finance and Operations：** 数量 = 3，行折扣金额 = 3.33 美元，销售费用 = -0.01 美元</span><span class="sxs-lookup"><span data-stu-id="adcaa-162">**Finance and Operations:** Quantity = 3, line discount amount = $3.33, sales charge = -$0.01</span></span>
+- <span data-ttu-id="adcaa-163">**Sales：** 数量 = 3，每行折扣 = (3 × $3.33) + $0.01 = $10.00</span><span class="sxs-lookup"><span data-stu-id="adcaa-163">**Sales:** Quantity = 3, per-line discount = (3 × $3.33) + $0.01 = $10.00</span></span>
 
 ## <a name="prospect-to-cash-solution-for-sales"></a><span data-ttu-id="adcaa-164">用于 Sales 的“从目标客户到现金”解决方案</span><span class="sxs-lookup"><span data-stu-id="adcaa-164">Prospect to cash solution for Sales</span></span>
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 2761
 ms.assetid: 70f3cb1a-18b7-4474-95ec-28b2410dd8f8
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7b2d9b07acff05e7dc5b1e3bb5b010efa989a2c7
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: f02f6831709dcc0998c74a9ddd04216a2213970d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/08/2018
 <a name="example-three-way-matching-for-items"></a><span data-ttu-id="9d75c-105">示例：物料的三向匹配</span><span class="sxs-lookup"><span data-stu-id="9d75c-105">Example: Three-way matching for items</span></span>
 -------------------------------------
 
-<span data-ttu-id="9d75c-106">**汇总：**Ken 是名为 Fabrikam 的法人的公司总部的审计员。</span><span class="sxs-lookup"><span data-stu-id="9d75c-106">**Summary:** Ken is the controller at the corporate headquarters of a legal entity named Fabrikam.</span></span> <span data-ttu-id="9d75c-107">Ken 决定基于采购订单的所有供应商发票都应与采购订单行匹配（双向匹配）。</span><span class="sxs-lookup"><span data-stu-id="9d75c-107">Ken decides that all vendor invoices that are based on purchase orders should be matched with purchase order lines (two-way matching).</span></span> <span data-ttu-id="9d75c-108">对于将用作固定资产的物料采购，发票应同时与采购订单行和产品收货行匹配（三向匹配）。</span><span class="sxs-lookup"><span data-stu-id="9d75c-108">For purchases of items that will be used as fixed assets, invoices should be matched with both the purchase order lines and the product receipt lines (three-way matching).</span></span>
+<span data-ttu-id="9d75c-106">**汇总：** Ken 是名为 Fabrikam 的法人的公司总部的审计员。</span><span class="sxs-lookup"><span data-stu-id="9d75c-106">**Summary:** Ken is the controller at the corporate headquarters of a legal entity named Fabrikam.</span></span> <span data-ttu-id="9d75c-107">Ken 决定基于采购订单的所有供应商发票都应与采购订单行匹配（双向匹配）。</span><span class="sxs-lookup"><span data-stu-id="9d75c-107">Ken decides that all vendor invoices that are based on purchase orders should be matched with purchase order lines (two-way matching).</span></span> <span data-ttu-id="9d75c-108">对于将用作固定资产的物料采购，发票应同时与采购订单行和产品收货行匹配（三向匹配）。</span><span class="sxs-lookup"><span data-stu-id="9d75c-108">For purchases of items that will be used as fixed assets, invoices should be matched with both the purchase order lines and the product receipt lines (three-way matching).</span></span>
 
 <span data-ttu-id="9d75c-109">Fabrikam 按照世界上所有地区的多个法人和员工运行。</span><span class="sxs-lookup"><span data-stu-id="9d75c-109">Fabrikam operates with multiple legal entities and employees in all parts of the world.</span></span> <span data-ttu-id="9d75c-110">当交易记录的数量增加时，收货和发票之间的差异也增加。</span><span class="sxs-lookup"><span data-stu-id="9d75c-110">As the volume of transactions increases, discrepancies between receipts and invoices are also increasing.</span></span> <span data-ttu-id="9d75c-111">已销帐资产的结果。</span><span class="sxs-lookup"><span data-stu-id="9d75c-111">This results in assets being written off.</span></span> <span data-ttu-id="9d75c-112">当物料数量少于您以前订购的数量或尚未收到某物料时，要支付来自供应商的发票，但该流程不包括标识差异。</span><span class="sxs-lookup"><span data-stu-id="9d75c-112">Invoices from vendors are being paid, but the process does not include identifying discrepancies when fewer items are received than were ordered, or when items are not received at all.</span></span> <span data-ttu-id="9d75c-113">因为员工仍需要工具和其他材料进行其工作，所以支出还会增加。</span><span class="sxs-lookup"><span data-stu-id="9d75c-113">Spending also increases because employees still need tools and other materials to do their jobs.</span></span> <span data-ttu-id="9d75c-114">Ken 要确保供应商装运已订购的产品，且这些物料由 Fabrikam 员工收货。</span><span class="sxs-lookup"><span data-stu-id="9d75c-114">Ken wants to make sure that vendors are shipping the products that are ordered and the items are being received by Fabrikam employees.</span></span> <span data-ttu-id="9d75c-115">因此，Ken 要求组织中的所有法人都双向和三个向匹配。</span><span class="sxs-lookup"><span data-stu-id="9d75c-115">Therefore, Ken requires two-way and three-way matching for all legal entities in the organization.</span></span> <span data-ttu-id="9d75c-116">发票匹配有助于确保已消失或尚未收到的物料的问题能够跟踪和解决。</span><span class="sxs-lookup"><span data-stu-id="9d75c-116">Invoice matching helps make sure that problems with items that have disappeared or not been received can be tracked and resolved.</span></span> 
 

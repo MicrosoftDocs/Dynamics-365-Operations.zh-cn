@@ -1,7 +1,7 @@
 ---
 title: "处理超额支付的现金折扣"
 description: "本文提供显示在客户执行现金折扣同时超额支付时如何处理付款的情况。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustOpenTrans, CustParameters, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans, VendParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14171
 ms.assetid: a94d0fd0-57ba-4054-93c8-519d01d50e19
@@ -19,10 +19,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: af38e156a37dce31498e361a97f187cceaa285f7
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: b1af073e1f5a2e36be24fe0b57a878c77bff8907
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -32,14 +32,14 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="a5e27-104">本文提供显示在客户执行现金折扣同时超额支付时如何处理付款的情况。</span><span class="sxs-lookup"><span data-stu-id="a5e27-104">This article provides scenarios that show how a payment is handled when the customer takes a cash discount but also overpays.</span></span> 
 
-<span data-ttu-id="a5e27-105">当付款金额高于发票金额减去现金折扣后的金额时，应被视为超额支付。</span><span class="sxs-lookup"><span data-stu-id="a5e27-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="a5e27-106">要指定在超额支付发票时处理可获得的现金折扣差额的方式，请使用**“应收账款参数”**页面上的**“现金折扣管理”**和**“最大超额支付或支付不足”**。</span><span class="sxs-lookup"><span data-stu-id="a5e27-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="a5e27-107">在以下示例中，客户对发票超额支付了 0.50。</span><span class="sxs-lookup"><span data-stu-id="a5e27-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
+<span data-ttu-id="a5e27-105">当付款金额高于发票金额减去现金折扣后的金额时，应被视为超额支付。</span><span class="sxs-lookup"><span data-stu-id="a5e27-105">An invoice is considered overpaid when the payment amount is more than the invoice amount minus the cash discount.</span></span> <span data-ttu-id="a5e27-106">要指定在超额支付发票时处理可获得的现金折扣差额的方式，请使用 **“应收账款参数”** 页面上的 **“现金折扣管理”** 和 **“最大超额支付或支付不足”**。</span><span class="sxs-lookup"><span data-stu-id="a5e27-106">To specify how an obtainable cash discount difference is handled when an invoice is overpaid, use the **Cash discount administration** and **Maximum overpayment or underpayment** fields on the **Accounts receivable parameters** page.</span></span> <span data-ttu-id="a5e27-107">在以下示例中，客户对发票超额支付了 0.50。</span><span class="sxs-lookup"><span data-stu-id="a5e27-107">In the following example, the customer has overpaid the invoice by 0.50.</span></span>
 
 | <span data-ttu-id="a5e27-108">发票合计</span><span class="sxs-lookup"><span data-stu-id="a5e27-108">Invoice total</span></span> | <span data-ttu-id="a5e27-109">可用的现金折扣</span><span class="sxs-lookup"><span data-stu-id="a5e27-109">Cash discount available</span></span> | <span data-ttu-id="a5e27-110">要支付的金额，其中包括现金折扣</span><span class="sxs-lookup"><span data-stu-id="a5e27-110">Amount to be paid, which includes the cash discount</span></span> | <span data-ttu-id="a5e27-111">客户实际支付金额</span><span class="sxs-lookup"><span data-stu-id="a5e27-111">Amount the customer actually pays</span></span> |
 |---------------|-------------------------|-----------------------------------------------------|-----------------------------------|
 | <span data-ttu-id="a5e27-112">105.00</span><span class="sxs-lookup"><span data-stu-id="a5e27-112">105.00</span></span>        | <span data-ttu-id="a5e27-113">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-113">10.50</span></span>                   | <span data-ttu-id="a5e27-114">94.50</span><span class="sxs-lookup"><span data-stu-id="a5e27-114">94.50</span></span>                                               | <span data-ttu-id="a5e27-115">95.00</span><span class="sxs-lookup"><span data-stu-id="a5e27-115">95.00</span></span>                             |
 
 ## <a name="cash-discount-administration--specific"></a><span data-ttu-id="a5e27-116">现金折扣管理 = 特定</span><span class="sxs-lookup"><span data-stu-id="a5e27-116">Cash discount administration = Specific</span></span>
-<span data-ttu-id="a5e27-117">当在**“自动交易记录帐户”**页面上的**“现金折扣管理”**字段中选择看**“特定”**时，将获得完全现金折扣。</span><span class="sxs-lookup"><span data-stu-id="a5e27-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="a5e27-118">超额支付金额或者被过帐到现金折扣差额分类帐帐户或作为余额留在客户帐户上。</span><span class="sxs-lookup"><span data-stu-id="a5e27-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="a5e27-119">该行为取决于超额支付金额是否介于 0.00 和在**“最大超额支付或支付不足”**字段中输入的金额之间，或者超额支付金额是否大于**“最大超额支付或支付不足”**。</span><span class="sxs-lookup"><span data-stu-id="a5e27-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
+<span data-ttu-id="a5e27-117">当在 **“自动交易记录帐户”** 页面上的 **“现金折扣管理”** 字段中选择看 **“特定”** 时，将获得完全现金折扣。</span><span class="sxs-lookup"><span data-stu-id="a5e27-117">When **Specific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the full cash discount is taken.</span></span> <span data-ttu-id="a5e27-118">超额支付金额或者被过帐到现金折扣差额分类帐帐户或作为余额留在客户帐户上。</span><span class="sxs-lookup"><span data-stu-id="a5e27-118">The overpayment amount either is posted to a cash discount difference ledger account or remains a balance on the customer’s account.</span></span> <span data-ttu-id="a5e27-119">该行为取决于超额支付金额是否介于 0.00 和在 **“最大超额支付或支付不足”** 字段中输入的金额之间，或者超额支付金额是否大于 **“最大超额支付或支付不足”**。</span><span class="sxs-lookup"><span data-stu-id="a5e27-119">The behavior depends on whether the overpayment amount is between 0.00 and the amount that is entered in the **Maximum overpayment or underpayment** field, or whether the overpayment amount is more than the **Maximum overpayment or underpayment** amount.</span></span>
 
 ### <a name="scenario-1"></a><span data-ttu-id="a5e27-120">方案 1</span><span class="sxs-lookup"><span data-stu-id="a5e27-120">Scenario 1</span></span>
 
@@ -68,9 +68,9 @@ ms.lasthandoff: 05/08/2018
 
 | <span data-ttu-id="a5e27-154">帐户</span><span class="sxs-lookup"><span data-stu-id="a5e27-154">Account</span></span>                                                                                                          | <span data-ttu-id="a5e27-155">借方金额</span><span class="sxs-lookup"><span data-stu-id="a5e27-155">Debit amount</span></span> | <span data-ttu-id="a5e27-156">贷方金额</span><span class="sxs-lookup"><span data-stu-id="a5e27-156">Credit amount</span></span> |
 |------------------------------------------------------------------------------------------------------------------|--------------|---------------|
-| <span data-ttu-id="a5e27-157">现金折扣（**“现金折扣”**页面上的**“客户折扣的主科目”**字段）</span><span class="sxs-lookup"><span data-stu-id="a5e27-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="a5e27-158">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-158">10.50</span></span>        |               |
+| <span data-ttu-id="a5e27-157">现金折扣（**“现金折扣”** 页面上的 **“客户折扣的主科目”** 字段）</span><span class="sxs-lookup"><span data-stu-id="a5e27-157">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span>                 | <span data-ttu-id="a5e27-158">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-158">10.50</span></span>        |               |
 | <span data-ttu-id="a5e27-159">应收账款</span><span class="sxs-lookup"><span data-stu-id="a5e27-159">Accounts receivable</span></span>                                                                                              |              | <span data-ttu-id="a5e27-160">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-160">10.50</span></span>         |
-| <span data-ttu-id="a5e27-161">客户现金折扣（**“自动交易记录帐户”**页面上的**“客户现金折扣”**字段）</span><span class="sxs-lookup"><span data-stu-id="a5e27-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="a5e27-162">0.50</span><span class="sxs-lookup"><span data-stu-id="a5e27-162">0.50</span></span>          |
+| <span data-ttu-id="a5e27-161">客户现金折扣（**“自动交易记录帐户”** 页面上的 **“客户现金折扣”** 字段）</span><span class="sxs-lookup"><span data-stu-id="a5e27-161">Customer cash discount (the **Customer cash discount** field on the **Account for automatic transactions** page)</span></span> |              | <span data-ttu-id="a5e27-162">0.50</span><span class="sxs-lookup"><span data-stu-id="a5e27-162">0.50</span></span>          |
 | <span data-ttu-id="a5e27-163">应收账款</span><span class="sxs-lookup"><span data-stu-id="a5e27-163">Accounts receivable</span></span>                                                                                              | <span data-ttu-id="a5e27-164">0.50</span><span class="sxs-lookup"><span data-stu-id="a5e27-164">0.50</span></span>         |               |
 
 ### <a name="scenario-2"></a><span data-ttu-id="a5e27-165">方案 2</span><span class="sxs-lookup"><span data-stu-id="a5e27-165">Scenario 2</span></span>
@@ -100,11 +100,11 @@ ms.lasthandoff: 05/08/2018
 
 | <span data-ttu-id="a5e27-200">帐户</span><span class="sxs-lookup"><span data-stu-id="a5e27-200">Account</span></span>                                                                                          | <span data-ttu-id="a5e27-201">借方金额</span><span class="sxs-lookup"><span data-stu-id="a5e27-201">Debit amount</span></span> | <span data-ttu-id="a5e27-202">贷方金额</span><span class="sxs-lookup"><span data-stu-id="a5e27-202">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| <span data-ttu-id="a5e27-203">现金折扣（**“现金折扣”**页面上的**“客户折扣的主科目”**字段）</span><span class="sxs-lookup"><span data-stu-id="a5e27-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="a5e27-204">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-204">10.50</span></span>        |               |
+| <span data-ttu-id="a5e27-203">现金折扣（**“现金折扣”** 页面上的 **“客户折扣的主科目”** 字段）</span><span class="sxs-lookup"><span data-stu-id="a5e27-203">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="a5e27-204">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-204">10.50</span></span>        |               |
 | <span data-ttu-id="a5e27-205">应收账款</span><span class="sxs-lookup"><span data-stu-id="a5e27-205">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="a5e27-206">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-206">10.50</span></span>         |
 
 ## <a name="cash-discount-administration--unspecific"></a><span data-ttu-id="a5e27-207">现金折扣管理 = 非特定</span><span class="sxs-lookup"><span data-stu-id="a5e27-207">Cash discount administration = Unspecific</span></span>
-<span data-ttu-id="a5e27-208">当在**“自动交易记录帐户”**页面上的**“现金折扣管理”**字段中选择看**“非特定”**时，应将现金折扣金额减去超额支付金额。</span><span class="sxs-lookup"><span data-stu-id="a5e27-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="a5e27-209">此行为始终适用，无论超额支付金额高于还是低于在**“最大超额支付或支付不足”**字段中输入的金额。</span><span class="sxs-lookup"><span data-stu-id="a5e27-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
+<span data-ttu-id="a5e27-208">当在 **“自动交易记录帐户”** 页面上的 **“现金折扣管理”** 字段中选择看 **“非特定”** 时，应将现金折扣金额减去超额支付金额。</span><span class="sxs-lookup"><span data-stu-id="a5e27-208">When **Unspecific** is selected in the **Cash discount administration** field on the **Accounts for automatic transactions** page, the cash discount amount is reduced by the overpayment amount.</span></span> <span data-ttu-id="a5e27-209">此行为始终适用，无论超额支付金额高于还是低于在 **“最大超额支付或支付不足”** 字段中输入的金额。</span><span class="sxs-lookup"><span data-stu-id="a5e27-209">This behavior always applies, regardless of whether the overpayment amount is over or under the amount that is entered in the **Maximum overpayment or underpayment** field.</span></span>
 
 ### <a name="scenario-3"></a><span data-ttu-id="a5e27-210">方案 3</span><span class="sxs-lookup"><span data-stu-id="a5e27-210">Scenario 3</span></span>
 
@@ -133,7 +133,7 @@ ms.lasthandoff: 05/08/2018
 
 | <span data-ttu-id="a5e27-244">帐户</span><span class="sxs-lookup"><span data-stu-id="a5e27-244">Account</span></span>                                                                                          | <span data-ttu-id="a5e27-245">借方金额</span><span class="sxs-lookup"><span data-stu-id="a5e27-245">Debit amount</span></span> | <span data-ttu-id="a5e27-246">贷方金额</span><span class="sxs-lookup"><span data-stu-id="a5e27-246">Credit amount</span></span> |
 |--------------------------------------------------------------------------------------------------|--------------|---------------|
-| <span data-ttu-id="a5e27-247">现金折扣（**“现金折扣”**页面上的**“客户折扣的主科目”**字段）</span><span class="sxs-lookup"><span data-stu-id="a5e27-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="a5e27-248">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-248">10.50</span></span>        |               |
+| <span data-ttu-id="a5e27-247">现金折扣（**“现金折扣”** 页面上的 **“客户折扣的主科目”** 字段）</span><span class="sxs-lookup"><span data-stu-id="a5e27-247">Cash discount (the **Main account for customer discounts** field on the **Cash discounts** page)</span></span> | <span data-ttu-id="a5e27-248">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-248">10.50</span></span>        |               |
 | <span data-ttu-id="a5e27-249">应收账款</span><span class="sxs-lookup"><span data-stu-id="a5e27-249">Accounts receivable</span></span>                                                                              |              | <span data-ttu-id="a5e27-250">1050</span><span class="sxs-lookup"><span data-stu-id="a5e27-250">10.50</span></span>         |
 
 

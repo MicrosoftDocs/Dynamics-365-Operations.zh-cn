@@ -1,7 +1,7 @@
 ---
 title: "成本核算术语"
 description: "本主题定义了成本核算中使用的重要术语。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CAMCostAccountingLedger
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 223114
 ms.assetid: 1c798592-77d0-4a8f-beaa-9159c75957da
 ms.search.region: global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c39b16256fdd31d3ac63590ca7ee64ef43eda9a0
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 702fa3cb4219aecd95a74d3c225e104be5f281fc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -122,7 +122,7 @@ ms.lasthandoff: 05/08/2018
 -  <span data-ttu-id="c5ee5-196">Dynamics 365 for Finance and Operations（预配置）</span><span class="sxs-lookup"><span data-stu-id="c5ee5-196">Dynamics 365 for Finance and Operations (pre-configured)</span></span>
 -  <span data-ttu-id="c5ee5-197">Dynamics AX（需要配置）</span><span class="sxs-lookup"><span data-stu-id="c5ee5-197">Dynamics AX (configuration required)</span></span>
 
-<span data-ttu-id="c5ee5-198">**注意：**数据连接器导入的交易记录基于数据实体。</span><span class="sxs-lookup"><span data-stu-id="c5ee5-198">**Note:** The data connector Imported transactions is based on data entities.</span></span>
+<span data-ttu-id="c5ee5-198">**注意：** 数据连接器导入的交易记录基于数据实体。</span><span class="sxs-lookup"><span data-stu-id="c5ee5-198">**Note:** The data connector Imported transactions is based on data entities.</span></span>
 
 <span data-ttu-id="c5ee5-199">**数据提供程序**</span><span class="sxs-lookup"><span data-stu-id="c5ee5-199">**Data provider**</span></span>
 

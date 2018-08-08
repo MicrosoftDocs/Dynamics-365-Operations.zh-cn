@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: VendPosting
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 24691
 ms.assetid: 18def866-7655-4f0b-b299-eec83098d23a
@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 10e6e88ca8e03c75896d0b9d43afad129d2cb1c8
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: ae019ebec2788fc499b0f2ef27a7eb2832ceaa9d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -44,7 +44,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="1b5d0-115">指定在使用所选过帐模板对交易记录进行过帐时所使用的会计科目。</span><span class="sxs-lookup"><span data-stu-id="1b5d0-115">Specify the ledger accounts that are used in the posting of transactions that use the selected posting profile.</span></span> <span data-ttu-id="1b5d0-116">为所选的过帐模板选择帐户编码；只要可能，还选择帐户/组编号。</span><span class="sxs-lookup"><span data-stu-id="1b5d0-116">Select an account code and, whenever possible, an account or group number for the selected posting profile.</span></span> <span data-ttu-id="1b5d0-117">在过帐过程中，定位每个交易记录的最合适过帐模板的方法是搜索针对性最强的帐户编码、帐号或组编号组合，其优先级如下：</span><span class="sxs-lookup"><span data-stu-id="1b5d0-117">In the posting process, the most appropriate posting profile for each transaction is located by searching for the most specific account code, account number, or group and number combination in the following priority:</span></span>
 
-| <span data-ttu-id="1b5d0-118">**“帐户编码”**字段值</span><span class="sxs-lookup"><span data-stu-id="1b5d0-118">**Account code** field value</span></span> | <span data-ttu-id="1b5d0-119">**“帐户/组编号”**字段值</span><span class="sxs-lookup"><span data-stu-id="1b5d0-119">**Account/Group number** field value</span></span>        | <span data-ttu-id="1b5d0-120">搜索优先级</span><span class="sxs-lookup"><span data-stu-id="1b5d0-120">Search priority</span></span> |
+| <span data-ttu-id="1b5d0-118">**“帐户编码”** 字段值</span><span class="sxs-lookup"><span data-stu-id="1b5d0-118">**Account code** field value</span></span> | <span data-ttu-id="1b5d0-119">**“帐户/组编号”** 字段值</span><span class="sxs-lookup"><span data-stu-id="1b5d0-119">**Account/Group number** field value</span></span>        | <span data-ttu-id="1b5d0-120">搜索优先级</span><span class="sxs-lookup"><span data-stu-id="1b5d0-120">Search priority</span></span> |
 |------------------------------|---------------------------------------------|-----------------|
 | <span data-ttu-id="1b5d0-121">**表**</span><span class="sxs-lookup"><span data-stu-id="1b5d0-121">**Table**</span></span>                    | <span data-ttu-id="1b5d0-122">特定供应商帐户</span><span class="sxs-lookup"><span data-stu-id="1b5d0-122">Specific vendor account</span></span>                     | <span data-ttu-id="1b5d0-123">1</span><span class="sxs-lookup"><span data-stu-id="1b5d0-123">1</span></span>               |
 | <span data-ttu-id="1b5d0-124">**组**</span><span class="sxs-lookup"><span data-stu-id="1b5d0-124">**Group**</span></span>                    | <span data-ttu-id="1b5d0-125">分配给供应商的供应商组</span><span class="sxs-lookup"><span data-stu-id="1b5d0-125">vendor group that is assigned to the vendor</span></span> | <span data-ttu-id="1b5d0-126">2</span><span class="sxs-lookup"><span data-stu-id="1b5d0-126">2</span></span>               |

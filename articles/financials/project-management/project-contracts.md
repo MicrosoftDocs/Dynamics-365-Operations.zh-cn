@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5e01815268dce0bae66e51302a888af92eabf54d
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: c0f0fcec64ce03c6e1d877fb1c8d004bb416bd95
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -266,7 +266,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="6ea3f-257">对于计费规则的所有类型，可以指定从客户发票中扣减的保留百分比，直至项目达到商定的阶段。</span><span class="sxs-lookup"><span data-stu-id="6ea3f-257">For all types of billing rules, you can specify a retention percentage that is deducted from customer invoices until a project reaches an agreed-upon stage.</span></span> <span data-ttu-id="6ea3f-258">在项目合同中指定付款保留百分比。</span><span class="sxs-lookup"><span data-stu-id="6ea3f-258">The payment retention percentage is specified in the project contract.</span></span> <span data-ttu-id="6ea3f-259">该金额基于客户发票中相应行的总值计算并从中扣除。</span><span class="sxs-lookup"><span data-stu-id="6ea3f-259">The amount is calculated based on, and subtracted from, the total value of the lines in a customer invoice.</span></span> 
 
-<span data-ttu-id="6ea3f-260">对于**“时间和材料”**和**“进度”**计费规则，您可以分配可计费的类别。</span><span class="sxs-lookup"><span data-stu-id="6ea3f-260">For **Time and material** and **Progress** billing rules, you can assign chargeable categories.</span></span> <span data-ttu-id="6ea3f-261">计费类别指示这些交易记录应包括在客户发票中。</span><span class="sxs-lookup"><span data-stu-id="6ea3f-261">Chargeable categories indicate the transactions that should be included in customer invoices.</span></span> 
+<span data-ttu-id="6ea3f-260">对于 **“时间和材料”** 和 **“进度”** 计费规则，您可以分配可计费的类别。</span><span class="sxs-lookup"><span data-stu-id="6ea3f-260">For **Time and material** and **Progress** billing rules, you can assign chargeable categories.</span></span> <span data-ttu-id="6ea3f-261">计费类别指示这些交易记录应包括在客户发票中。</span><span class="sxs-lookup"><span data-stu-id="6ea3f-261">Chargeable categories indicate the transactions that should be included in customer invoices.</span></span> 
 
 <span data-ttu-id="6ea3f-262">当您准备为客户开票数时，发票项目的金额是基于计费规则计算的，并且将产生一个项目发票提案。</span><span class="sxs-lookup"><span data-stu-id="6ea3f-262">When you are ready to invoice the customer, the amount to invoice for the project is calculated based on the billing rules, and a project invoice proposal is generated.</span></span> 
 

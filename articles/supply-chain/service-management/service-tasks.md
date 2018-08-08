@@ -1,7 +1,7 @@
 ---
 title: "服务任务"
 description: "使用服务任务可以描述要在服务订单期间完成的任务。 技术人员和客户都可以看到此信息。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceTask
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6504fa18fe983607f74670e043ae6713b3d5a7af
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: f2538a7b4a4c13a299afb37dd336f2f5d6f36a23
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

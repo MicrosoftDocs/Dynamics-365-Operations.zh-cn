@@ -1,7 +1,7 @@
 --- 
 title: "创建物料清单（仅 2016 年 2 月）"
 description: "此任务的重点是为一件成品和一件半成品创建物料清单结构。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6c5473a0786ba0348701e8e106de46f811571f07
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: f132a3865b180a74d328ebc76ca29b2fc8aee85f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-boms-february-2016-only"></a><span data-ttu-id="268d3-103">创建物料清单（仅 2016 年 2 月）</span><span class="sxs-lookup"><span data-stu-id="268d3-103">Create BOMs (February 2016 only)</span></span>

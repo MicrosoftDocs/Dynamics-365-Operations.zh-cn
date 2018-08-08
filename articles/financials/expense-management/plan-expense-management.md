@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: GlobalCategory, ProjCategory, TrvLocations, TrvParameters, TrvPaymethod, TrvPerDiems
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 23001
 ms.assetid: aa3fd14d-7e94-4603-985f-ca26d6f860ea
@@ -19,10 +19,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e213c4436452ddf1d0e22d791c7ee2cee803edc7
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 5ac9959a4ee66e52ead5050897403602e407ca10
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="6946d-108">在您启用内部公司费用时，您允许和法人和员工代表您组织中的其他法人产生费用，从您组织中的雇佣法人那里收取付款。</span><span class="sxs-lookup"><span data-stu-id="6946d-108">When you enable intercompany expenses, you allow legal entities and employees to incur expenses on behalf of another legal entity, and collect payment from the legal entity of employment within your organization.</span></span> <span data-ttu-id="6946d-109">例如，法人 A 中的一名员工完成法人 B 的一个项目，且该项目产生出差费用。</span><span class="sxs-lookup"><span data-stu-id="6946d-109">For example, an employee in legal entity A completes a project for legal entity B, and the project incurs travel related expenses.</span></span> <span data-ttu-id="6946d-110">如果启用内部公司费用，则该员工可以提交费用报表，将费用过帐到法人 B，且该费用必须由法人 A 支付。如果您的组织不具有多个法人，您就不需要启用内部公司费用。</span><span class="sxs-lookup"><span data-stu-id="6946d-110">If intercompany expenses are enabled, the employee can then file an expense report that will post the expense to legal entity B, and the expense must then be paid by legal entity A. If your organization doesn’t have multiple legal entities, you don’t have to enable intercompany expenses.</span></span>
 
-<span data-ttu-id="6946d-111">**决策：**是否要启用内部公司费用？</span><span class="sxs-lookup"><span data-stu-id="6946d-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
+<span data-ttu-id="6946d-111">**决策：** 是否要启用内部公司费用？</span><span class="sxs-lookup"><span data-stu-id="6946d-111">**Decision:** Do you want to enable intercompany expenses?</span></span>
 
 ## <a name="financial-management"></a><span data-ttu-id="6946d-112">财务管理</span><span class="sxs-lookup"><span data-stu-id="6946d-112">Financial management</span></span>
 

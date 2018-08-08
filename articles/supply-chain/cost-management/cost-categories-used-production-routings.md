@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 78153
 ms.assetid: a3fdc76c-0a27-4723-b1c7-4322f707d89e
@@ -20,10 +20,10 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1eb7da2ce5323fe0c06c57855435510f88f0601f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="e445d-105">成本类别应用于使用工艺路线的制造环境。</span><span class="sxs-lookup"><span data-stu-id="e445d-105">Cost categories apply to manufacturing environments that use routing.</span></span> <span data-ttu-id="e445d-106">将成本类别分配给运营资源和工艺路线工序，以便用于在制造物料的计算成本中定义每小时成本和对成本份额进行细分。</span><span class="sxs-lookup"><span data-stu-id="e445d-106">They are assigned to operations resources and routing operations to define hourly costs and to segment cost contributions in a manufactured item’s calculated costs.</span></span> <span data-ttu-id="e445d-107">分配给成本类别的成本组基于运营资源和活动类型（例如设置时间和运行时间）划分制造成本份额。</span><span class="sxs-lookup"><span data-stu-id="e445d-107">The cost groups that are assigned to cost categories classify manufacturing cost contributions, based on the operation resources and the type of activity, such as setup time and run time.</span></span> <span data-ttu-id="e445d-108">成本组分配的特性基于工艺路线信息启用要计算的制造开销。</span><span class="sxs-lookup"><span data-stu-id="e445d-108">The specificity of cost group assignments enables manufacturing overhead to be calculated based on routing information.</span></span> 
 
-<span data-ttu-id="e445d-109">**注意：**在制造环境内成本类别具有若干同义词，例如人工费率代码或机器费率代码。</span><span class="sxs-lookup"><span data-stu-id="e445d-109">**Note:** In manufacturing environments, cost categories are known by several other names, such as labor rate codes or machine rate codes.</span></span> 
+<span data-ttu-id="e445d-109">**注意：** 在制造环境内成本类别具有若干同义词，例如人工费率代码或机器费率代码。</span><span class="sxs-lookup"><span data-stu-id="e445d-109">**Note:** In manufacturing environments, cost categories are known by several other names, such as labor rate codes or machine rate codes.</span></span> 
 
 <span data-ttu-id="e445d-110">每个成本类别都有自己的关联成本记录和分配的成本组。</span><span class="sxs-lookup"><span data-stu-id="e445d-110">Each cost category has associated cost records and an assigned cost group.</span></span> <span data-ttu-id="e445d-111">需要使用不同的成本类别来用于不同的生产目的。</span><span class="sxs-lookup"><span data-stu-id="e445d-111">Different cost categories are required for different production purposes.</span></span>
 

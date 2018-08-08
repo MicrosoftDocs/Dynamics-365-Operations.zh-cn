@@ -1,7 +1,7 @@
 --- 
 title: "为可配置产品设置基于属性的定价"
 description: "此过程显示如何设置基于属性的定价。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/12/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a3afc9b268e9bab1b33013cc49ca372f89d8957c
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: f1eaa53a652a59d4d970781f734e1332aa762ca2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="set-up-attribute-based-pricing-for-configurable-products"></a><span data-ttu-id="8e1ae-103">为可配置产品设置基于属性的定价</span><span class="sxs-lookup"><span data-stu-id="8e1ae-103">Set up attribute-based pricing for configurable products</span></span>

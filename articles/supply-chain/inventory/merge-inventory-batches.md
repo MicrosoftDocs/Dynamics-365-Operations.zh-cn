@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 39782
 ms.assetid: 07c5e98b-10fd-4f5c-b471-41d2150f47b0
@@ -19,10 +19,10 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 22d495fd1c9e7c2d4ef31e3fd99e37fac6ffb175
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -119,7 +119,7 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="31a72-209">15</span><span class="sxs-lookup"><span data-stu-id="31a72-209">15</span></span>    | <span data-ttu-id="31a72-210">15</span><span class="sxs-lookup"><span data-stu-id="31a72-210">15</span></span>                                             | <span data-ttu-id="31a72-211">0.230769231</span><span class="sxs-lookup"><span data-stu-id="31a72-211">0.230769231</span></span>     | <span data-ttu-id="31a72-212">3.461538462</span><span class="sxs-lookup"><span data-stu-id="31a72-212">3.461538462</span></span>                                                           |
 | <span data-ttu-id="31a72-213">20</span><span class="sxs-lookup"><span data-stu-id="31a72-213">20</span></span>    | <span data-ttu-id="31a72-214">20</span><span class="sxs-lookup"><span data-stu-id="31a72-214">20</span></span>                                             | <span data-ttu-id="31a72-215">0.307692308</span><span class="sxs-lookup"><span data-stu-id="31a72-215">0.307692308</span></span>     | <span data-ttu-id="31a72-216">6.153846154</span><span class="sxs-lookup"><span data-stu-id="31a72-216">6.153846154</span></span>                                                           |
 | <span data-ttu-id="31a72-217">25</span><span class="sxs-lookup"><span data-stu-id="31a72-217">25</span></span>    | <span data-ttu-id="31a72-218">30</span><span class="sxs-lookup"><span data-stu-id="31a72-218">30</span></span>                                             | <span data-ttu-id="31a72-219">0.461538462</span><span class="sxs-lookup"><span data-stu-id="31a72-219">0.461538462</span></span>     | <span data-ttu-id="31a72-220">11.53846154</span><span class="sxs-lookup"><span data-stu-id="31a72-220">11.53846154</span></span>                                                           |
-|       | <span data-ttu-id="31a72-221">**总计：**65，总重。</span><span class="sxs-lookup"><span data-stu-id="31a72-221">**Total:** 65, which is the sum of the weights</span></span> |                 | <span data-ttu-id="31a72-222">**总计：**21.5384615，四舍五入为 21（最接近的增量）</span><span class="sxs-lookup"><span data-stu-id="31a72-222">**Total:** 21.5384615, which is rounded to 21 (the nearest increment)</span></span> |
+|       | <span data-ttu-id="31a72-221">**总计：** 65，总重。</span><span class="sxs-lookup"><span data-stu-id="31a72-221">**Total:** 65, which is the sum of the weights</span></span> |                 | <span data-ttu-id="31a72-222">**总计：** 21.5384615，四舍五入为 21（最接近的增量）</span><span class="sxs-lookup"><span data-stu-id="31a72-222">**Total:** 21.5384615, which is rounded to 21 (the nearest increment)</span></span> |
 
 ## <a name="what-if-the-batches-have-different-batch-dates"></a><span data-ttu-id="31a72-223">批次具有不同的批次日期怎么办？</span><span class="sxs-lookup"><span data-stu-id="31a72-223">What if the batches have different batch dates?</span></span>
 <span data-ttu-id="31a72-224">如果批次具有不同的批次日期，某些日期基于**批次合并**页的**合并批次**快速选项卡上的**批次日期**组中的值计算。</span><span class="sxs-lookup"><span data-stu-id="31a72-224">If the batches have different batch dates, some of the dates are calculated based on the values in the **Batch dates** group on the **Merged batch** FastTab of the **Batch merge** page.</span></span> <span data-ttu-id="31a72-225">系统计算**批次日期**组中的字段的值。</span><span class="sxs-lookup"><span data-stu-id="31a72-225">The system calculates values for the fields in the **Batch dates** group.</span></span> <span data-ttu-id="31a72-226">这些值包括生产日期、过期日期、建议存储日期以及最佳使用日期。</span><span class="sxs-lookup"><span data-stu-id="31a72-226">These values include the manufacturing date, expiration date, shelf advice date, and best-before date.</span></span> <span data-ttu-id="31a72-227">日期是基于**已发布产品详细信息**页上**物料数据**字段组中的物料的设置而计算的。</span><span class="sxs-lookup"><span data-stu-id="31a72-227">The dates are calculated based on settings for the item in the **Item data** field group of the **Released product details** page.</span></span> <span data-ttu-id="31a72-228">您可以更改值或手动输入值。</span><span class="sxs-lookup"><span data-stu-id="31a72-228">You can change the values or enter them manually.</span></span> <span data-ttu-id="31a72-229">对于所有其他日期，不会进行计算。</span><span class="sxs-lookup"><span data-stu-id="31a72-229">For all other dates, no calculation is done.</span></span> <span data-ttu-id="31a72-230">批次属性值适用相同的原则。</span><span class="sxs-lookup"><span data-stu-id="31a72-230">The same principle is used for batch attribute values.</span></span> <span data-ttu-id="31a72-231">如果对于所有源批次日期都相同，则将会为合并批次建议此日期。</span><span class="sxs-lookup"><span data-stu-id="31a72-231">If a date is the same for all the source batches, that date is suggested for the merged batch.</span></span> <span data-ttu-id="31a72-232">如果所有源批次的日期并不相同，则合并批次的日期将留空，您可以手动输入日期。</span><span class="sxs-lookup"><span data-stu-id="31a72-232">If the date isn't the same for all source batches, the date is blank on the merged batch, and you can enter it manually.</span></span>

@@ -1,7 +1,7 @@
 ---
 title: "折旧帐簿升级概览"
 description: "在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User, Developer
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 221624
 ms.assetid: cf434099-36f9-4b0f-a7c8-bed091e34f39
@@ -18,10 +18,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7093023713a81980010b8254708801b58bc68475
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 

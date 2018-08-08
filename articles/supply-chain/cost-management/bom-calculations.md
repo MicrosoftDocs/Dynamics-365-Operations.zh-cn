@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 273763
 ms.assetid: c6fa3348-eafa-4847-9132-e65c5f55cbf4
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 15e9981955fd2b8e1cedad3c70e4a4b6ab9b56bc
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 29ea9ddefba3416a33cd0e2f873624cc5c781a55
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -38,7 +38,7 @@ ms.lasthandoff: 05/08/2018
 -   <span data-ttu-id="bf745-109">计算制造物料的成本，并在成本计算版本内生成关联的物料成本记录。</span><span class="sxs-lookup"><span data-stu-id="bf745-109">Calculate the cost of a manufactured item, and generate an associated item cost record within a costing version.</span></span>
 -   <span data-ttu-id="bf745-110">计算制造物料的销售价，并在成本计算版本内生成关联的物料销售价记录。</span><span class="sxs-lookup"><span data-stu-id="bf745-110">Calculate the sales price of a manufactured item, and generate an associated item sales price record within a costing version.</span></span>
 
-<span data-ttu-id="bf745-111">您使用**计算**页的方法可能稍有不同，取决于如何启动物料清单计算。</span><span class="sxs-lookup"><span data-stu-id="bf745-111">The way that you use the **Calculations** page varies slightly, depending on how you initiate the BOM calculations.</span></span> <span data-ttu-id="bf745-112">使用**计算**页的方法还取决于物料清单计算是涉及标准成本还是计划成本的成本计算版本，并且取决于在物料清单计算中正使用的成本计算版本内定义的若干策略。</span><span class="sxs-lookup"><span data-stu-id="bf745-112">The way that you use the **Calculations** page also depends on whether the BOM calculations involve a costing version for standard costs or planned costs, and on several policies that are defined in the costing version that is used in the BOM calculations.</span></span> <span data-ttu-id="bf745-113">**注意：**在销售订单、销售报价单或服务订单行项的上下文中将使用**计算**页的变体。</span><span class="sxs-lookup"><span data-stu-id="bf745-113">**Note:** A variation of the **Calculations** page is used in the context of a sales order, sales quotation, or service order line item.</span></span> <span data-ttu-id="bf745-114">这些计算称为订单特定的物料清单计算。</span><span class="sxs-lookup"><span data-stu-id="bf745-114">These calculations are known as order-specific BOM calculations.</span></span> <span data-ttu-id="bf745-115">特定于订单的物料清单计算并不在某一成本计算版本内生成物料成本记录。</span><span class="sxs-lookup"><span data-stu-id="bf745-115">An order-specific BOM calculation doesn't generate an item cost record within a costing version.</span></span> <span data-ttu-id="bf745-116">相反，它生成显示在**物料清单计算详细信息**页的计算记录。</span><span class="sxs-lookup"><span data-stu-id="bf745-116">Instead, it generates a calculation record that appears on the **BOM calculation details** page.</span></span> <span data-ttu-id="bf745-117">该计算记录包括计算出的成本和计算出的销售价。</span><span class="sxs-lookup"><span data-stu-id="bf745-117">The calculation record includes a calculated cost and a calculated sales price.</span></span> <span data-ttu-id="bf745-118">可以为单个制造物料或成本计算版本打开**计算**页。</span><span class="sxs-lookup"><span data-stu-id="bf745-118">The **Calculations** page can be opened for a single manufactured item or for a costing version:</span></span>
+<span data-ttu-id="bf745-111">您使用**计算**页的方法可能稍有不同，取决于如何启动物料清单计算。</span><span class="sxs-lookup"><span data-stu-id="bf745-111">The way that you use the **Calculations** page varies slightly, depending on how you initiate the BOM calculations.</span></span> <span data-ttu-id="bf745-112">使用**计算**页的方法还取决于物料清单计算是涉及标准成本还是计划成本的成本计算版本，并且取决于在物料清单计算中正使用的成本计算版本内定义的若干策略。</span><span class="sxs-lookup"><span data-stu-id="bf745-112">The way that you use the **Calculations** page also depends on whether the BOM calculations involve a costing version for standard costs or planned costs, and on several policies that are defined in the costing version that is used in the BOM calculations.</span></span> <span data-ttu-id="bf745-113">**注意：** 在销售订单、销售报价单或服务订单行项的上下文中将使用**计算**页的变体。</span><span class="sxs-lookup"><span data-stu-id="bf745-113">**Note:** A variation of the **Calculations** page is used in the context of a sales order, sales quotation, or service order line item.</span></span> <span data-ttu-id="bf745-114">这些计算称为订单特定的物料清单计算。</span><span class="sxs-lookup"><span data-stu-id="bf745-114">These calculations are known as order-specific BOM calculations.</span></span> <span data-ttu-id="bf745-115">特定于订单的物料清单计算并不在某一成本计算版本内生成物料成本记录。</span><span class="sxs-lookup"><span data-stu-id="bf745-115">An order-specific BOM calculation doesn't generate an item cost record within a costing version.</span></span> <span data-ttu-id="bf745-116">相反，它生成显示在**物料清单计算详细信息**页的计算记录。</span><span class="sxs-lookup"><span data-stu-id="bf745-116">Instead, it generates a calculation record that appears on the **BOM calculation details** page.</span></span> <span data-ttu-id="bf745-117">该计算记录包括计算出的成本和计算出的销售价。</span><span class="sxs-lookup"><span data-stu-id="bf745-117">The calculation record includes a calculated cost and a calculated sales price.</span></span> <span data-ttu-id="bf745-118">可以为单个制造物料或成本计算版本打开**计算**页。</span><span class="sxs-lookup"><span data-stu-id="bf745-118">The **Calculations** page can be opened for a single manufactured item or for a costing version:</span></span>
 
 -   <span data-ttu-id="bf745-119">若要计算单个制造物料的成本，从**物料价格**页启动物料清单计算。</span><span class="sxs-lookup"><span data-stu-id="bf745-119">To calculate costs for a single manufactured item, you initiate BOM calculations from the **Item price** page.</span></span> <span data-ttu-id="bf745-120">**计算**页继承物料标识符。</span><span class="sxs-lookup"><span data-stu-id="bf745-120">The **Calculations** page inherits the item identifier.</span></span> <span data-ttu-id="bf745-121">必须指定成本计算版本、物料清单版本、工艺路线版本、计算数量、计算日期和站点。</span><span class="sxs-lookup"><span data-stu-id="bf745-121">The costing version, BOM version, route version, calculation quantity, calculation date, and site must be specified.</span></span>
     -   <span data-ttu-id="bf745-122">默认情况下，物料清单版本和工艺路线版本设置为物料、站点、日期和计算数量的有效版本。</span><span class="sxs-lookup"><span data-stu-id="bf745-122">By default, the BOM version and route version are set to the active versions for the item, site, date, and calculation quantity.</span></span> <span data-ttu-id="bf745-123">不过，您可以使用审核后的版本覆盖这些默认值。</span><span class="sxs-lookup"><span data-stu-id="bf745-123">However, you can override the default values with approved versions.</span></span>

@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 26aa675e51957596cce9a1147df1fa300fcfe351
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 8bd223f3bdcd9c389cd2f0c21805b9232f371950
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="approve-vendors-for-specific-procurement-categories"></a><span data-ttu-id="6e6df-103">审核特定采购类别的供应商</span><span class="sxs-lookup"><span data-stu-id="6e6df-103">Approve vendors for specific procurement categories</span></span>

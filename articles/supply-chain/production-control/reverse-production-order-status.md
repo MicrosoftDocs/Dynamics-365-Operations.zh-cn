@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProdParmStatusDecrease
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 70131
 ms.assetid: b1e0df43-b388-4326-8fb7-501f30c89776
@@ -20,10 +20,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 22e1aa484b8032b8780d8d9a80087a5f5295eb63
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 7ca5a62b4509f0c7e49da94128e72eae5f35829e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="f61f3-104">此主题描述如何反转生产订单状态。</span><span class="sxs-lookup"><span data-stu-id="f61f3-104">This topic describes how to reverse production order status.</span></span> 
 
-<span data-ttu-id="f61f3-105">如果您反转生产订单的状态，订单以及与工艺路线相关联的所有工序都反转到生产生命周期中的前一个步骤。</span><span class="sxs-lookup"><span data-stu-id="f61f3-105">If you reverse the status of a production order, the order and all operations that are associated with the routes revert to a previous step in the production life cycle.</span></span> <span data-ttu-id="f61f3-106">例如，生产订单状态为**已计划**，您将状态更改回**已创建**。</span><span class="sxs-lookup"><span data-stu-id="f61f3-106">For example, a production order has a status of **Scheduled**, and you change the status back to **Created**.</span></span> <span data-ttu-id="f61f3-107">在这种情况下，系统必须首先将状态更改为“**已估计**”，此状态将立即位于“**已计划**”之前。</span><span class="sxs-lookup"><span data-stu-id="f61f3-107">In this case, the system must first change the status to **Estimated**, which is the status that immediately precedes **Scheduled**.</span></span> <span data-ttu-id="f61f3-108">然后可以将状态更改为所需的状态，**已创建**。</span><span class="sxs-lookup"><span data-stu-id="f61f3-108">It can then change the status to the status that you want, **Created**.</span></span> <span data-ttu-id="f61f3-109">**注意：**如果您的订单已达到状态**完工入库**，您仍然可以将该订单反转回更早的状态。</span><span class="sxs-lookup"><span data-stu-id="f61f3-109">**Note:** If your order has reached the **Report as finished** status, you can still reverse it to an earlier status.</span></span> <span data-ttu-id="f61f3-110">但是，您必须重新运行估计和工序级排产、作业级排产或两类排产同时运行，继续更新有关该订单的信息。</span><span class="sxs-lookup"><span data-stu-id="f61f3-110">However, you must re-run estimation and operations scheduling, job scheduling, or both types of scheduling, to update the information on the order.</span></span> <span data-ttu-id="f61f3-111">需要此步骤的原因在于，也必须重置剩余物料消耗量和运营资源消耗量的任何预留。</span><span class="sxs-lookup"><span data-stu-id="f61f3-111">This step is required, because any reservations of remaining item consumption and operations resource consumption must also be reset.</span></span> <span data-ttu-id="f61f3-112">本文其余部分将说明在反转生产订单的状态时，通过以下方式查看发生的情况：</span><span class="sxs-lookup"><span data-stu-id="f61f3-112">The rest of this article explains what occurs when you reverse the status of a production order in the following ways:</span></span>
+<span data-ttu-id="f61f3-105">如果您反转生产订单的状态，订单以及与工艺路线相关联的所有工序都反转到生产生命周期中的前一个步骤。</span><span class="sxs-lookup"><span data-stu-id="f61f3-105">If you reverse the status of a production order, the order and all operations that are associated with the routes revert to a previous step in the production life cycle.</span></span> <span data-ttu-id="f61f3-106">例如，生产订单状态为**已计划**，您将状态更改回**已创建**。</span><span class="sxs-lookup"><span data-stu-id="f61f3-106">For example, a production order has a status of **Scheduled**, and you change the status back to **Created**.</span></span> <span data-ttu-id="f61f3-107">在这种情况下，系统必须首先将状态更改为“**已估计**”，此状态将立即位于“**已计划**”之前。</span><span class="sxs-lookup"><span data-stu-id="f61f3-107">In this case, the system must first change the status to **Estimated**, which is the status that immediately precedes **Scheduled**.</span></span> <span data-ttu-id="f61f3-108">然后可以将状态更改为所需的状态，**已创建**。</span><span class="sxs-lookup"><span data-stu-id="f61f3-108">It can then change the status to the status that you want, **Created**.</span></span> <span data-ttu-id="f61f3-109">**注意：** 如果您的订单已达到状态**完工入库**，您仍然可以将该订单反转回更早的状态。</span><span class="sxs-lookup"><span data-stu-id="f61f3-109">**Note:** If your order has reached the **Report as finished** status, you can still reverse it to an earlier status.</span></span> <span data-ttu-id="f61f3-110">但是，您必须重新运行估计和工序级排产、作业级排产或两类排产同时运行，继续更新有关该订单的信息。</span><span class="sxs-lookup"><span data-stu-id="f61f3-110">However, you must re-run estimation and operations scheduling, job scheduling, or both types of scheduling, to update the information on the order.</span></span> <span data-ttu-id="f61f3-111">需要此步骤的原因在于，也必须重置剩余物料消耗量和运营资源消耗量的任何预留。</span><span class="sxs-lookup"><span data-stu-id="f61f3-111">This step is required, because any reservations of remaining item consumption and operations resource consumption must also be reset.</span></span> <span data-ttu-id="f61f3-112">本文其余部分将说明在反转生产订单的状态时，通过以下方式查看发生的情况：</span><span class="sxs-lookup"><span data-stu-id="f61f3-112">The rest of this article explains what occurs when you reverse the status of a production order in the following ways:</span></span>
 
 -   <span data-ttu-id="f61f3-113">从**已估计**到**已创建**</span><span class="sxs-lookup"><span data-stu-id="f61f3-113">From **Estimated** to **Created**</span></span>
 -   <span data-ttu-id="f61f3-114">从**已计划**到**已估计**</span><span class="sxs-lookup"><span data-stu-id="f61f3-114">From **Scheduled** to **Estimated**</span></span>

@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.search.industry: Service industries
@@ -17,10 +17,10 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f1d6121ecadc7ebb4d41139d0505ba35790eee55
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: d001cd3d922fc4790a1e5288f432df13e90ce03c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="allocate-a-project-budget-or-budget-revision-across-periods"></a><span data-ttu-id="4a2c7-103">跨期间分配一个项目预算或预算修订</span><span class="sxs-lookup"><span data-stu-id="4a2c7-103">Allocate a project budget or budget revision across periods</span></span>

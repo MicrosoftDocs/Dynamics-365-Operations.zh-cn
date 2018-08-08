@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventModelGroup
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 65531
 ms.assetid: dfd10099-8f7f-44b1-917e-df37c2fe8773
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 05ac3b28c4d0806f71f1e0cb069c0d48137a4332
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -37,10 +37,10 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="f7556-111">在您使用移动平均成本作为成本计算方法时，以下选项是先决条件。</span><span class="sxs-lookup"><span data-stu-id="f7556-111">The following are prerequisites when you use moving average cost as a costing method.</span></span>
 
-1.  <span data-ttu-id="f7556-112">在**物料模型组**页中，设置在**库存模型**字段中选择了“移动平均”的物料模型组。</span><span class="sxs-lookup"><span data-stu-id="f7556-112">In the **Item model groups** page, set up an item model group that has Moving average selected in the **Inventory model** field.</span></span> <span data-ttu-id="f7556-113">**注意：**默认情况下，当选择了“移动平均”后，**过帐实际库存**和**过帐财务库存**字段也将选择。</span><span class="sxs-lookup"><span data-stu-id="f7556-113">**Note:** By default, when Moving average is selected, the **Post physical inventory** and **Post financial inventory** fields are also selected.</span></span> 
+1.  <span data-ttu-id="f7556-112">在**物料模型组**页中，设置在**库存模型**字段中选择了“移动平均”的物料模型组。</span><span class="sxs-lookup"><span data-stu-id="f7556-112">In the **Item model groups** page, set up an item model group that has Moving average selected in the **Inventory model** field.</span></span> <span data-ttu-id="f7556-113">**注意：** 默认情况下，当选择了“移动平均”后，**过帐实际库存**和**过帐财务库存**字段也将选择。</span><span class="sxs-lookup"><span data-stu-id="f7556-113">**Note:** By default, when Moving average is selected, the **Post physical inventory** and **Post financial inventory** fields are also selected.</span></span> 
 
 2.  <span data-ttu-id="f7556-114">在**过帐**页中，将科目分配到**库存**选项卡上的**移动平均价差**和**重估移动平均成本**帐户。成本必须按比例支出时，您可以使用**移动平均价差**帐户。</span><span class="sxs-lookup"><span data-stu-id="f7556-114">In the **Posting** page, assign accounts to the **Price difference for moving average** and the **Cost revaluation for moving average** accounts on the **Inventory** tab. You use the **Price difference for moving average** account when cost has to be proportionally expensed.</span></span> <span data-ttu-id="f7556-115">由于在原始库存数量和现有数量之间的差异，以及采购收货和采购发票之间的成本差异，此情况发生。</span><span class="sxs-lookup"><span data-stu-id="f7556-115">This occurs because of a difference in cost between a purchase receipt and the purchase invoice, and because of a difference between the original inventory quantity and the current on-hand quantity.</span></span> <span data-ttu-id="f7556-116">当您要为产品调整移动平均成本到新的单位价格时，使用**重估移动平均成本**帐户。</span><span class="sxs-lookup"><span data-stu-id="f7556-116">Use the **Cost revaluation for moving average** account when you want to adjust the moving average cost for a product to a new unit price.</span></span>
-3.  <span data-ttu-id="f7556-117">在**已发布产品**页中，分配移动平均物料模型组到产品。</span><span class="sxs-lookup"><span data-stu-id="f7556-117">In the **Released products** page, assign the moving average item model group to the product.</span></span> <span data-ttu-id="f7556-118">**注意：**库存结转过程只结束会计期间。</span><span class="sxs-lookup"><span data-stu-id="f7556-118">**Note:** The inventory close process only closes the accounting period.</span></span> <span data-ttu-id="f7556-119">不影响具有作为物料模型组分配到它们的移动平均的产品。</span><span class="sxs-lookup"><span data-stu-id="f7556-119">It does not affect products that have moving average assigned to them as an item model group.</span></span>
+3.  <span data-ttu-id="f7556-117">在**已发布产品**页中，分配移动平均物料模型组到产品。</span><span class="sxs-lookup"><span data-stu-id="f7556-117">In the **Released products** page, assign the moving average item model group to the product.</span></span> <span data-ttu-id="f7556-118">**注意：** 库存结转过程只结束会计期间。</span><span class="sxs-lookup"><span data-stu-id="f7556-118">**Note:** The inventory close process only closes the accounting period.</span></span> <span data-ttu-id="f7556-119">不影响具有作为物料模型组分配到它们的移动平均的产品。</span><span class="sxs-lookup"><span data-stu-id="f7556-119">It does not affect products that have moving average assigned to them as an item model group.</span></span>
 
 ## <a name="convert-to-the-moving-average-costing-method"></a><span data-ttu-id="f7556-120">转换到移动平均成本计算方法</span><span class="sxs-lookup"><span data-stu-id="f7556-120">Convert to the moving average costing method</span></span>
 <span data-ttu-id="f7556-121">转换产品使用移动平均库存评估方法。</span><span class="sxs-lookup"><span data-stu-id="f7556-121">Products can be converted to use the moving average inventory valuation method.</span></span> <span data-ttu-id="f7556-122">在当前年度的最后一个月结束后，转换的此类型通常在年末完成。</span><span class="sxs-lookup"><span data-stu-id="f7556-122">This type of conversion is usually done at the end of the year, after the last month of the current year is closed.</span></span> <span data-ttu-id="f7556-123">通过使用产品的当前成本模型执行。</span><span class="sxs-lookup"><span data-stu-id="f7556-123">It is done by using the product’s current costing model.</span></span> <span data-ttu-id="f7556-124">您可以从基于平均成本或标准成本的成本计算方法更改您的库存结转法到基于移动平均的方法。</span><span class="sxs-lookup"><span data-stu-id="f7556-124">You can change your inventory costing method from a costing method that is based on average cost or standard cost to a method that is based on moving average.</span></span> 
@@ -53,7 +53,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="f7556-129">您不能将您的库存结转法从移动平均方法更改到先进先出 (FIFO) 方法、后进先出 (LIFO) 方法或加权平均方法。</span><span class="sxs-lookup"><span data-stu-id="f7556-129">You cannot change your inventory costing method from a moving average method to a First in, First out (FIFO) method, a Last in, First out (LIFO) method, or a weighted average method.</span></span>
 
-<span data-ttu-id="f7556-130">**注意：**从未标准成本到移动加权平均的转换是手动程序。</span><span class="sxs-lookup"><span data-stu-id="f7556-130">**Note:** Converting from standard cost to moving weighted average is a manual process.</span></span>
+<span data-ttu-id="f7556-130">**注意：** 从未标准成本到移动加权平均的转换是手动程序。</span><span class="sxs-lookup"><span data-stu-id="f7556-130">**Note:** Converting from standard cost to moving weighted average is a manual process.</span></span>
 
 <span data-ttu-id="f7556-131">以下示例说明使用移动平均成本计算方法的影响。</span><span class="sxs-lookup"><span data-stu-id="f7556-131">The following examples illustrate the effect of using the moving average costing method.</span></span> <span data-ttu-id="f7556-132">有以下四种配置：</span><span class="sxs-lookup"><span data-stu-id="f7556-132">There are four configurations:</span></span>
 -   <span data-ttu-id="f7556-133">采购订单和比例支出的成本差异</span><span class="sxs-lookup"><span data-stu-id="f7556-133">Purchase order and proportionally expensed cost difference</span></span>
@@ -82,7 +82,7 @@ ms.lasthandoff: 05/08/2018
 2.  <span data-ttu-id="f7556-158">更新**单位成本**字段为 16.00。</span><span class="sxs-lookup"><span data-stu-id="f7556-158">Update the **Unit cost** field to 16.00.</span></span> <span data-ttu-id="f7556-159">系统计算其余字段。</span><span class="sxs-lookup"><span data-stu-id="f7556-159">The system calculates the remaining fields.</span></span>
 3.  <span data-ttu-id="f7556-160">过帐调整。</span><span class="sxs-lookup"><span data-stu-id="f7556-160">The adjustment is posted.</span></span>
 
-<span data-ttu-id="f7556-161">**注意：**您可以从今天的日期仅调整移动平均成本。</span><span class="sxs-lookup"><span data-stu-id="f7556-161">**Note:** You can only adjust the moving average cost as of today’s date.</span></span>
+<span data-ttu-id="f7556-161">**注意：** 您可以从今天的日期仅调整移动平均成本。</span><span class="sxs-lookup"><span data-stu-id="f7556-161">**Note:** You can only adjust the moving average cost as of today’s date.</span></span>
 
 <span data-ttu-id="f7556-162">在**凭证的结算**页中，您可以看到调整 4.00 过帐到成本重估。</span><span class="sxs-lookup"><span data-stu-id="f7556-162">In the **Settlements for voucher** page, you can see an adjustment of 4.00 posted to the Cost revaluation for moving average account.</span></span>
 
@@ -113,7 +113,7 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="f7556-220">10 月 8 日</span><span class="sxs-lookup"><span data-stu-id="f7556-220">October 8</span></span>        | <span data-ttu-id="f7556-221">10 月 8 日</span><span class="sxs-lookup"><span data-stu-id="f7556-221">October 8</span></span>    | <span data-ttu-id="f7556-222">移动平均重估</span><span class="sxs-lookup"><span data-stu-id="f7556-222">Moving average revaluation</span></span> |          | <span data-ttu-id="f7556-223">4.00</span><span class="sxs-lookup"><span data-stu-id="f7556-223">4.00</span></span>   | <span data-ttu-id="f7556-224">16.00</span><span class="sxs-lookup"><span data-stu-id="f7556-224">16.00</span></span>             |
 |                  | <span data-ttu-id="f7556-225">10 月 31 日</span><span class="sxs-lookup"><span data-stu-id="f7556-225">October 31</span></span>   | <span data-ttu-id="f7556-226">合计</span><span class="sxs-lookup"><span data-stu-id="f7556-226">Total</span></span>                      | <span data-ttu-id="f7556-227">2</span><span class="sxs-lookup"><span data-stu-id="f7556-227">2</span></span>        | <span data-ttu-id="f7556-228">32.00</span><span class="sxs-lookup"><span data-stu-id="f7556-228">32.00</span></span>  | <span data-ttu-id="f7556-229">16.00</span><span class="sxs-lookup"><span data-stu-id="f7556-229">16.00</span></span>             |
 
- <span data-ttu-id="f7556-230">**注意：**您不能通过使用**交易记录时间排序**选项对帐具有库存的总帐。</span><span class="sxs-lookup"><span data-stu-id="f7556-230">**Note:** You cannot reconcile the general ledger with inventory by using the **Transaction time sorting** option.</span></span> <span data-ttu-id="f7556-231">必须通过使用**过帐日期**选项打印报表。</span><span class="sxs-lookup"><span data-stu-id="f7556-231">The report must be printed by using the **Posting date** option.</span></span>
+ <span data-ttu-id="f7556-230">**注意：** 您不能通过使用**交易记录时间排序**选项对帐具有库存的总帐。</span><span class="sxs-lookup"><span data-stu-id="f7556-230">**Note:** You cannot reconcile the general ledger with inventory by using the **Transaction time sorting** option.</span></span> <span data-ttu-id="f7556-231">必须通过使用**过帐日期**选项打印报表。</span><span class="sxs-lookup"><span data-stu-id="f7556-231">The report must be printed by using the **Posting date** option.</span></span>
 
 
 

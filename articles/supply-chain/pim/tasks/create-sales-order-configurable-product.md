@@ -1,7 +1,7 @@
 --- 
 title: "创建可配置产品的销售订单"
 description: "此过程显示如何将配置模板应用于销售订单中的一个产品。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/12/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e9b42a7343dacc1bcd995c10a4b90a87998a31ba
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: f00eb49a7f4c664a523f0646d0c9fc56625e10a6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a><span data-ttu-id="d7c6e-103">创建可配置产品的销售订单</span><span class="sxs-lookup"><span data-stu-id="d7c6e-103">Create a sales order for a configurable product</span></span>

@@ -1,7 +1,7 @@
 ---
 title: "预算计划数据分配"
 description: "本文介绍 Microsoft Dynamics 365 for Finance and Operations 中可用的不同分配方法以及如何使用它们。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 15191
 ms.assetid: 89a918e8-59a4-4711-a2e9-b41989ddd0f1
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 20dd11ad8b632de279855c1641f7bdeddb33cb4b
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -62,18 +62,18 @@ ms.lasthandoff: 05/08/2018
 **Copy from budget plan** – As in the Distribute allocation method, budget plan lines are created in the destination, based on lines in a related budget plan.</span></span> <span data-ttu-id="98725-121">但是，对于此方法，源预算计划不必为父计划但可以是预算计划层次结构中的任何较高级别。</span><span class="sxs-lookup"><span data-stu-id="98725-121">However, for this method, the source budget plan doesn't have to be the parent but can be at any higher level in the budget plan hierarchy.</span></span> <span data-ttu-id="98725-122">此分配方法在以下情况下有用：合并的金额最初在非常高级别处进行预算，而且必须先转移到组织的较低级别以实现详细审核和调整，然后金额才能收到父审批。</span><span class="sxs-lookup"><span data-stu-id="98725-122">This allocation method is useful if consolidated amounts are originally budgeted at a much higher level, and must be transferred to a lower level of the organization for detailed review and adjustment before they can receive upper-level approval.</span></span>          
 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a><span data-ttu-id="98725-123">在预算计划中使用分配方法</span><span class="sxs-lookup"><span data-stu-id="98725-123">Using allocation methods in a budget plan</span></span>
-<span data-ttu-id="98725-124">要在预算计划页面上执行分配，请选择要分配的行，然后单击**“分配预算”**。</span><span class="sxs-lookup"><span data-stu-id="98725-124">To perform allocations on the budget plan page, select the lines to allocate, and then click **Allocate budget**.</span></span>
+<span data-ttu-id="98725-124">要在预算计划页面上执行分配，请选择要分配的行，然后单击 **“分配预算”**。</span><span class="sxs-lookup"><span data-stu-id="98725-124">To perform allocations on the budget plan page, select the lines to allocate, and then click **Allocate budget**.</span></span>
 
 <span data-ttu-id="98725-125">[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png)</span><span class="sxs-lookup"><span data-stu-id="98725-125">[![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png)</span></span> 
 
-<span data-ttu-id="98725-126">接下来，选择分配方法。</span><span class="sxs-lookup"><span data-stu-id="98725-126">Next, select an allocation method.</span></span> <span data-ttu-id="98725-127">然后基于所选的方法设置剩余字段。</span><span class="sxs-lookup"><span data-stu-id="98725-127">The remaining fields are then set, based on the method that you selected.</span></span> <span data-ttu-id="98725-128">这些字段包含预算计划数据的源和目标以及一个选项，利用此选项，您可以在创建目标金额时用源乘以某个指定的系数，以便简化大量调整。</span><span class="sxs-lookup"><span data-stu-id="98725-128">These fields include the source and destination of the budget plan data, and an option that lets you multiply the source by a specified factor when the destination amounts are created, to simplify bulk adjustment.</span></span> <span data-ttu-id="98725-129">您还可以设置**“追加到计划”**选项。</span><span class="sxs-lookup"><span data-stu-id="98725-129">You can also set the **Append to plan** option.</span></span> <span data-ttu-id="98725-130">选择**“否”**替换现有预算计划行，或者选择**“是”**保留现有预算计划行并为分配的金额添加新行。</span><span class="sxs-lookup"><span data-stu-id="98725-130">Select **No** to replace the existing budget plan lines, or select **Yes** to retain the existing budget plan lines and add new lines for the allocated amounts.</span></span>
+<span data-ttu-id="98725-126">接下来，选择分配方法。</span><span class="sxs-lookup"><span data-stu-id="98725-126">Next, select an allocation method.</span></span> <span data-ttu-id="98725-127">然后基于所选的方法设置剩余字段。</span><span class="sxs-lookup"><span data-stu-id="98725-127">The remaining fields are then set, based on the method that you selected.</span></span> <span data-ttu-id="98725-128">这些字段包含预算计划数据的源和目标以及一个选项，利用此选项，您可以在创建目标金额时用源乘以某个指定的系数，以便简化大量调整。</span><span class="sxs-lookup"><span data-stu-id="98725-128">These fields include the source and destination of the budget plan data, and an option that lets you multiply the source by a specified factor when the destination amounts are created, to simplify bulk adjustment.</span></span> <span data-ttu-id="98725-129">您还可以设置 **“追加到计划”** 选项。</span><span class="sxs-lookup"><span data-stu-id="98725-129">You can also set the **Append to plan** option.</span></span> <span data-ttu-id="98725-130">选择 **“否”** 替换现有预算计划行，或者选择 **“是”** 保留现有预算计划行并为分配的金额添加新行。</span><span class="sxs-lookup"><span data-stu-id="98725-130">Select **No** to replace the existing budget plan lines, or select **Yes** to retain the existing budget plan lines and add new lines for the allocated amounts.</span></span>
 
 ## <a name="automating-allocations-during-a-workflow"></a><span data-ttu-id="98725-131">自动工作流期间的分配</span><span class="sxs-lookup"><span data-stu-id="98725-131">Automating allocations during a workflow</span></span>
 <span data-ttu-id="98725-132">一种强大的功能使得分配能够作为预算计划工作流中的一部分自动执行。</span><span class="sxs-lookup"><span data-stu-id="98725-132">One powerful feature enables allocations to be performed automatically as part of a budget planning workflow.</span></span> <span data-ttu-id="98725-133">由于预算计划在其工作流中移动，因此自动化任务可在某个指定预算计划阶段中调用分配。</span><span class="sxs-lookup"><span data-stu-id="98725-133">As a budget plan moves through its workflow, automated tasks can invoke an allocation at a specified budget planning stage.</span></span> 
 
-<span data-ttu-id="98725-134">要设置自动化分配，您必须先在**“预算计划配置”**页面上创建分配计划。</span><span class="sxs-lookup"><span data-stu-id="98725-134">To set up automated allocation, you must first create an allocation schedule on the **Budget planning configuration** page.</span></span> <span data-ttu-id="98725-135">此分配计划定义在运行自动化分配时将使用的分配方法以及各种分配选项的值（请参阅上一部分中说明）。</span><span class="sxs-lookup"><span data-stu-id="98725-135">The allocation schedule defines the allocation method that will be used when the automated allocation is run, and the values of the various allocation options (see the previous section for descriptions).</span></span> 
+<span data-ttu-id="98725-134">要设置自动化分配，您必须先在 **“预算计划配置”** 页面上创建分配计划。</span><span class="sxs-lookup"><span data-stu-id="98725-134">To set up automated allocation, you must first create an allocation schedule on the **Budget planning configuration** page.</span></span> <span data-ttu-id="98725-135">此分配计划定义在运行自动化分配时将使用的分配方法以及各种分配选项的值（请参阅上一部分中说明）。</span><span class="sxs-lookup"><span data-stu-id="98725-135">The allocation schedule defines the allocation method that will be used when the automated allocation is run, and the values of the various allocation options (see the previous section for descriptions).</span></span> 
 
-<span data-ttu-id="98725-136">然后，在**“预算计划配置”**页面上创建阶段分配。</span><span class="sxs-lookup"><span data-stu-id="98725-136">Next, you create a stage allocation on the **Budget planning configuration** page.</span></span> <span data-ttu-id="98725-137">阶段分配会将分配计划分配到预算计划工作流和阶段。</span><span class="sxs-lookup"><span data-stu-id="98725-137">The stage allocation assigns an allocation schedule to the budget planning workflow and stage.</span></span> 
+<span data-ttu-id="98725-136">然后，在 **“预算计划配置”** 页面上创建阶段分配。</span><span class="sxs-lookup"><span data-stu-id="98725-136">Next, you create a stage allocation on the **Budget planning configuration** page.</span></span> <span data-ttu-id="98725-137">阶段分配会将分配计划分配到预算计划工作流和阶段。</span><span class="sxs-lookup"><span data-stu-id="98725-137">The stage allocation assigns an allocation schedule to the budget planning workflow and stage.</span></span> 
 
 <span data-ttu-id="98725-138">最后，在所需的工作流阶段处为预算计划阶段分配添加自动化任务。</span><span class="sxs-lookup"><span data-stu-id="98725-138">Finally, add an automated task for budget planning stage allocation at the desired workflow stage.</span></span> <span data-ttu-id="98725-139">在以下示例中，两个预算计划阶段分配（用红色标出）已插入到工作流中。</span><span class="sxs-lookup"><span data-stu-id="98725-139">In the following example, two budget planning stage allocations (outlined in red) have been inserted into the workflow.</span></span>
 

@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d617302e020c21a7a7fb077e4ce9481b6c80b796
-ms.openlocfilehash: 80eb886c70e3bfde3a9eff87be48498aa48d7234
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 91f2ec2f8ab21616c6a1b886ee89d6faf84023e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/06/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-free-text-invoice-template"></a><span data-ttu-id="05e47-103">创建普通发票模板</span><span class="sxs-lookup"><span data-stu-id="05e47-103">Create a free text invoice template</span></span>

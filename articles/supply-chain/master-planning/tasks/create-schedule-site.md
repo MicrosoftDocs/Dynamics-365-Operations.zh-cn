@@ -1,7 +1,7 @@
 --- 
 title: "创建站点计划"
 description: "此过程显示如何计划没有为站点开始的生产订单。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/10/2016
 ms.topic: business-process
@@ -9,17 +9,17 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: dc3d6790e6fde3efac948773996894daa0be4143
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 0afc49f8da3aa20d4002517834b7ddc41a7fc827
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 # <a name="create-a-schedule-for-a-site"></a><span data-ttu-id="e4a3e-103">创建站点计划</span><span class="sxs-lookup"><span data-stu-id="e4a3e-103">Create a schedule for a site</span></span>

@@ -1,7 +1,7 @@
 ---
 title: "固定资产集成"
 description: "固定资产可以与总帐、库存管理、应收账款和应付账款一起集成。 您也可以设置固定资产，以便与采购订单相集成。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
@@ -19,10 +19,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: cd78323c4fd02a6682c26c825e5e73dfe2c83e4c
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="998f0-139">同样，可以设置供内部使用的固定资产，以便具有“**固定资产发货**”帐户类型。</span><span class="sxs-lookup"><span data-stu-id="998f0-139">Similarly, fixed assets that are for internal use can be set up so that they have an account type of **Fixed asset issue**.</span></span> <span data-ttu-id="998f0-140">此账户类型用于跟踪收据的固定资产的签发。</span><span class="sxs-lookup"><span data-stu-id="998f0-140">This account type is used to track the issuing of the fixed asset to the recipient.</span></span> <span data-ttu-id="998f0-141">在使用采购订单购置资产时，该固定资产发货帐户抵销固定资产借方账户。</span><span class="sxs-lookup"><span data-stu-id="998f0-141">When an asset is acquired by using a purchase order, the fixed asset issue account offsets the fixed asset debit account.</span></span> <span data-ttu-id="998f0-142">在您过帐供货商发票或在固定资产日记帐中过帐该资产购置时，可以通过使用购置方案过帐资产购置。</span><span class="sxs-lookup"><span data-stu-id="998f0-142">The asset acquisition can be posted either when you post a vendor invoice or when you post the asset acquisition in the Fixed assets journal, possibly by using an acquisition proposal.</span></span> <span data-ttu-id="998f0-143">通过使用“**物料组**”或“**物料过帐**”页中的“**库存**”选项卡，您可为物料组或单独的物料设置“**固定资产发货**”帐户类型。</span><span class="sxs-lookup"><span data-stu-id="998f0-143">You can set up the **Fixed asset issue** account type for either an item group or an individual item by using the **Inventory** tab on the **Item group** or **Item posting** page.</span></span> 
 
 <span data-ttu-id="998f0-144">最终，用于过帐的主科目由该选项为物料模型组指定的分类帐集成确定。</span><span class="sxs-lookup"><span data-stu-id="998f0-144">Ultimately, the main accounts that are used for posting are determined by the options for ledger integration that are specified for the item model group.</span></span> <span data-ttu-id="998f0-145">此外，使用的主科目各不相同，取决于是否将资产分配到采购订单行。</span><span class="sxs-lookup"><span data-stu-id="998f0-145">Additionally, the main accounts that are used vary, depending on whether an asset is assigned to the purchase order line.</span></span> <span data-ttu-id="998f0-146">这些会计科目从用于各个物料组的过帐模板派生。</span><span class="sxs-lookup"><span data-stu-id="998f0-146">The accounts are derived from the posting profile for each item group.</span></span> 
-<span data-ttu-id="998f0-147">**注意：**在产品收据过帐后，如果存在某一库存预留，则您不能分配固定资产或从该行创建固定资产。</span><span class="sxs-lookup"><span data-stu-id="998f0-147">**Note:** If an inventory reservation exists when product receipts are posted, you can’t assign a fixed asset or create a fixed asset from the line.</span></span> 
+<span data-ttu-id="998f0-147">**注意：** 在产品收据过帐后，如果存在某一库存预留，则您不能分配固定资产或从该行创建固定资产。</span><span class="sxs-lookup"><span data-stu-id="998f0-147">**Note:** If an inventory reservation exists when product receipts are posted, you can’t assign a fixed asset or create a fixed asset from the line.</span></span> 
 
 <span data-ttu-id="998f0-148">固定资产交易记录要过帐到的账户取决于该资产是由法人采购还是由法人构建，还取决于该资产的交易记录类型。</span><span class="sxs-lookup"><span data-stu-id="998f0-148">The accounts that fixed asset transactions are posted to depend on two factors: whether the assets are purchased or constructed by the legal entity, and the transaction type of the asset.</span></span> 
 

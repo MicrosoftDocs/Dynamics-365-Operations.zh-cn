@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 221264
 ms.assetid: dde49743-1541-4353-a030-63ca3069cd7d
@@ -19,10 +19,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0c035f73fb35c6390be3c665c2645b1fdc411650
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -76,7 +76,7 @@ ms.lasthandoff: 05/08/2018
 
 ### <a name="confirmation-and-acceptance-of-a-po-by-a-vendor"></a><span data-ttu-id="8d91e-147">供应商确认和接受采购订单</span><span class="sxs-lookup"><span data-stu-id="8d91e-147">Confirmation and acceptance of a PO by a vendor</span></span>
 
-<span data-ttu-id="8d91e-148">在供应商接受 PO 后，可以自动确认 PO，否则可能必须手动确认。</span><span class="sxs-lookup"><span data-stu-id="8d91e-148">After a vendor accepts a PO, the PO can be automatically confirmed, or it might have to be manually confirmed.</span></span> <span data-ttu-id="8d91e-149">该行为取决于**协作激活**字段对供应商设置为**活动（自动确认采购订单）**或**活动（不自动确认采购订单）**。</span><span class="sxs-lookup"><span data-stu-id="8d91e-149">The behavior depends on whether the **Collaboration activation** field is set to **Active (PO is auto-confirmed)** or **Active (PO is not auto-confirmed)** for the vendor.</span></span>
+<span data-ttu-id="8d91e-148">在供应商接受 PO 后，可以自动确认 PO，否则可能必须手动确认。</span><span class="sxs-lookup"><span data-stu-id="8d91e-148">After a vendor accepts a PO, the PO can be automatically confirmed, or it might have to be manually confirmed.</span></span> <span data-ttu-id="8d91e-149">该行为取决于**协作激活**字段对供应商设置为**活动（自动确认采购订单）** 或**活动（不自动确认采购订单）**。</span><span class="sxs-lookup"><span data-stu-id="8d91e-149">The behavior depends on whether the **Collaboration activation** field is set to **Active (PO is auto-confirmed)** or **Active (PO is not auto-confirmed)** for the vendor.</span></span>
 
 <span data-ttu-id="8d91e-150">下表显示了典型的信息交换，具体取决于您向供应商发送要确认的采购订单时他们如何响应。</span><span class="sxs-lookup"><span data-stu-id="8d91e-150">The following table shows the typical exchange of information, depending on the vendor's response when you send a PO for confirmation.</span></span>
 
@@ -165,9 +165,9 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="8d91e-213">在响应上，行状态将告知您供应商做出的更改类型。</span><span class="sxs-lookup"><span data-stu-id="8d91e-213">On the response, the line statuses tell you the types of changes that the vendor made.</span></span> <span data-ttu-id="8d91e-214">此外，所有更改的字段显示为粗体以帮助您识别更改。</span><span class="sxs-lookup"><span data-stu-id="8d91e-214">Additionally, all fields that were changed appear bold to help you identify the changes.</span></span>
 
-<span data-ttu-id="8d91e-215">您可以通过在响应上或一次在一行上选择**处理采购订单更新**的方式更新采购订单。</span><span class="sxs-lookup"><span data-stu-id="8d91e-215">You can update a PO by selecting **Process PO update** on the response or on one line at a time.</span></span> <span data-ttu-id="8d91e-216">标题和行上的**是否已处理采购订单更新？**字段指示系统是否已处理标题或行以使用源自响应的更改更新采购订单。</span><span class="sxs-lookup"><span data-stu-id="8d91e-216">An **Is PO update processed?** field on the header and the lines indicates whether the system has processed the header or lines to update the PO with changes that originate from the response.</span></span> <span data-ttu-id="8d91e-217">每个标题或行仅可以运行一次**处理采购订单更新**操作。</span><span class="sxs-lookup"><span data-stu-id="8d91e-217">You can run the **Process PO update** action only one time per header or line.</span></span>
+<span data-ttu-id="8d91e-215">您可以通过在响应上或一次在一行上选择**处理采购订单更新**的方式更新采购订单。</span><span class="sxs-lookup"><span data-stu-id="8d91e-215">You can update a PO by selecting **Process PO update** on the response or on one line at a time.</span></span> <span data-ttu-id="8d91e-216">标题和行上的**是否已处理采购订单更新？** 字段指示系统是否已处理标题或行以使用源自响应的更改更新采购订单。</span><span class="sxs-lookup"><span data-stu-id="8d91e-216">An **Is PO update processed?** field on the header and the lines indicates whether the system has processed the header or lines to update the PO with changes that originate from the response.</span></span> <span data-ttu-id="8d91e-217">每个标题或行仅可以运行一次**处理采购订单更新**操作。</span><span class="sxs-lookup"><span data-stu-id="8d91e-217">You can run the **Process PO update** action only one time per header or line.</span></span>
 
-<span data-ttu-id="8d91e-218">并非所有建议的更改都可以在采购订单上进行更新。</span><span class="sxs-lookup"><span data-stu-id="8d91e-218">Not all suggested changes can be updated on a PO.</span></span> <span data-ttu-id="8d91e-219">仅标题上的更新以及行上的日期和数量更新可以自动在采购订单上进行更新。</span><span class="sxs-lookup"><span data-stu-id="8d91e-219">Only updates on the header, and updates of dates and quantities on lines, can be automatically updated on the PO.</span></span> <span data-ttu-id="8d91e-220">对于其他更改，您必须手动更新采购订单。</span><span class="sxs-lookup"><span data-stu-id="8d91e-220">For other changes, you must manually update the PO.</span></span> <span data-ttu-id="8d91e-221">在这种情况下，**是否已处理采购订单更新？**字段的值为**手动更新**。</span><span class="sxs-lookup"><span data-stu-id="8d91e-221">In this case, the value of the **Is PO update processed?** field is **Manual update**.</span></span> <span data-ttu-id="8d91e-222">例如，如果供应商建议将行拆分为计划，必须手动进行此更改。</span><span class="sxs-lookup"><span data-stu-id="8d91e-222">For example, if a vendor suggests that a line be split into a schedule, this change must be made manually.</span></span>
+<span data-ttu-id="8d91e-218">并非所有建议的更改都可以在采购订单上进行更新。</span><span class="sxs-lookup"><span data-stu-id="8d91e-218">Not all suggested changes can be updated on a PO.</span></span> <span data-ttu-id="8d91e-219">仅标题上的更新以及行上的日期和数量更新可以自动在采购订单上进行更新。</span><span class="sxs-lookup"><span data-stu-id="8d91e-219">Only updates on the header, and updates of dates and quantities on lines, can be automatically updated on the PO.</span></span> <span data-ttu-id="8d91e-220">对于其他更改，您必须手动更新采购订单。</span><span class="sxs-lookup"><span data-stu-id="8d91e-220">For other changes, you must manually update the PO.</span></span> <span data-ttu-id="8d91e-221">在这种情况下，**是否已处理采购订单更新？** 字段的值为**手动更新**。</span><span class="sxs-lookup"><span data-stu-id="8d91e-221">In this case, the value of the **Is PO update processed?** field is **Manual update**.</span></span> <span data-ttu-id="8d91e-222">例如，如果供应商建议将行拆分为计划，必须手动进行此更改。</span><span class="sxs-lookup"><span data-stu-id="8d91e-222">For example, if a vendor suggests that a line be split into a schedule, this change must be made manually.</span></span>
 
 <span data-ttu-id="8d91e-223">处于**已接受**状态的每一行都将具有一个确认的交货日期。</span><span class="sxs-lookup"><span data-stu-id="8d91e-223">Every line that has a status of **Accepted** will have a confirmed delivery date.</span></span> <span data-ttu-id="8d91e-224">在您运行**处理采购订单更新**操作时，采购订单上的此日期进行更新。</span><span class="sxs-lookup"><span data-stu-id="8d91e-224">When you run the **Process PO update** action, this date is updated on the PO.</span></span> <span data-ttu-id="8d91e-225">注释和附件不自动转移到当前采购订单。</span><span class="sxs-lookup"><span data-stu-id="8d91e-225">Notes and attachments aren't automatically transferred to the current PO.</span></span> <span data-ttu-id="8d91e-226">此外，当您通过**处理采购订单更新**操作更新当前采购订单时，将不会在采购订单行上重新评估贸易协议。</span><span class="sxs-lookup"><span data-stu-id="8d91e-226">Additionally, trade agreements aren't reassessed on the PO lines when you update the current PO via the **Process PO update** action.</span></span>
 

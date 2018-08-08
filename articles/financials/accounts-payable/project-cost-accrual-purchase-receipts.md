@@ -1,7 +1,7 @@
 ---
 title: "采购收据中的应计项目成本"
 description: "此主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中跟踪采购收据内的应计项目成本。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CostControlCommittedCost
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 266984
 ms.assetid: 61e7d2a3-5aab-4113-bccc-213f932885d2
@@ -19,10 +19,10 @@ ms.author: sigitac
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 91c605eedeb84243c15cf372e4f25fb7587a00e1
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: bc822652abbba68f094fe5b8a65f796165a92c4c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/07/2018
 
 ---
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 05/08/2018
 
 <span data-ttu-id="1b5ca-122">我们同样使用这个方案查看过帐产品收据对总帐和项目信息有何影响。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-122">Using this same scenario, let's see how posting a product receipt will impact General ledger and Project information.</span></span> 
 
-<span data-ttu-id="1b5ca-123">**步骤 1：**为项目创建一个新采购订单并确认，以便记录采购费用为 1500 美元，安装服务费为 150 美元的一台计算机的购买。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-123">**Step 1:** Create and confirm a new purchase order for the project to record the purchase of a computer for $1500 and installation services for $150.</span></span>
+<span data-ttu-id="1b5ca-123">**步骤 1：** 为项目创建一个新采购订单并确认，以便记录采购费用为 1500 美元，安装服务费为 150 美元的一台计算机的购买。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-123">**Step 1:** Create and confirm a new purchase order for the project to record the purchase of a computer for $1500 and installation services for $150.</span></span>
 <span data-ttu-id="1b5ca-124">[![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png)</span><span class="sxs-lookup"><span data-stu-id="1b5ca-124">[![accruals4](./media/accruals4-1024x497.png)](./media/accruals4.png)</span></span> 
 
 <span data-ttu-id="1b5ca-125">确认了采购订单之后，将为该项目创建承诺成本的交易记录。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-125">When the purchase order is confirmed, transactions for the committed cost are created for the project.</span></span> 
@@ -60,7 +60,7 @@ ms.lasthandoff: 05/08/2018
 > [!NOTE]
 > <span data-ttu-id="1b5ca-127">承诺成本的交易记录的**交易记录来源**字段设置为**采购订单**。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-127">The transactions for the committed cost will have the **Transaction Origin** field set to **Purchase Order**.</span></span> <span data-ttu-id="1b5ca-128">创建并确认采购订单不会为项目创建交易记录。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-128">Creating and confirming a purchase order does not create transactions for a project.</span></span> 
 
-<span data-ttu-id="1b5ca-129">**步骤 2：**交付货物和服务，并登记产品收据。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-129">**Step 2:** Goods and services get delivered and a product receipt is registered.</span></span> 
+<span data-ttu-id="1b5ca-129">**步骤 2：** 交付货物和服务，并登记产品收据。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-129">**Step 2:** Goods and services get delivered and a product receipt is registered.</span></span> 
 
 <span data-ttu-id="1b5ca-130">过帐产品收据将生成凭证并过帐到分类帐。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-130">Posting a product receipt will generate and post a voucher to the ledger.</span></span> <span data-ttu-id="1b5ca-131">凭证将把采购支出、未开票的科目和应计科目记入借方。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-131">The voucher will debit the purchase expenditure, un-invoiced account, and credit purchase accrual account.</span></span> 
 <span data-ttu-id="1b5ca-132">[![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)</span><span class="sxs-lookup"><span data-stu-id="1b5ca-132">[![accruals6](./media/accruals6-1024x214.png)](./media/accruals6.png)</span></span>
@@ -71,7 +71,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="1b5ca-135">可以在**采购类别**页面中将采购类别映射到项目类别。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-135">It is possible to map procurement categories to project categories on the **Procurement category** page.</span></span>
 <span data-ttu-id="1b5ca-136">[![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)</span><span class="sxs-lookup"><span data-stu-id="1b5ca-136">[![accruals7](./media/accruals7-1024x390.png)](./media/accruals7.png)</span></span>
 
-<span data-ttu-id="1b5ca-137">**步骤 3：**创建供应商形式发票。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-137">**Step 3:** Create a draft vendor invoice.</span></span> 
+<span data-ttu-id="1b5ca-137">**步骤 3：** 创建供应商形式发票。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-137">**Step 3:** Create a draft vendor invoice.</span></span> 
 
 <span data-ttu-id="1b5ca-138">在 Finance and Operations 中，过帐产品收据不影响项目信息。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-138">In Finance and Operations, posting a product receipt does not impact project information.</span></span> <span data-ttu-id="1b5ca-139">解决方案是，过帐采购收据后立即生成供应商形式发票。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-139">As a workaround, you could generate a draft vendor invoice right after posting the purchase receipt.</span></span> <span data-ttu-id="1b5ca-140">转至**采购订单**页面 &gt; **发票**选项卡 &gt; **生成** &gt; **发票**。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-140">Go to the **Purchase Order** page &gt; **Invoice tab** &gt; **Generate** &gt; **Invoice**.</span></span> <span data-ttu-id="1b5ca-141">这将创建一张待定发票单据，用于更新项目信息。</span><span class="sxs-lookup"><span data-stu-id="1b5ca-141">This creates a pending invoice document that updates project information.</span></span> 
 
