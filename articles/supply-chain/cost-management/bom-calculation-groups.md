@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 94063
 ms.assetid: 63e1b7dc-c2c5-41b0-81ed-e3e02d1b39e0
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
@@ -95,7 +95,7 @@ ms.lasthandoff: 11/03/2017
 -   标识物料清单行中的物料何时具有过期成本。 警告反映计算日期与成本的最大年限的指定天数之间的比较。
 -   标识物料清单行中的物料何时具有少于您所需的收益率百分比。
 
-您可以定义多个物料清单计算组，具体取决于您在警告消息中的变型要求。 例如，具有与有效物料清单、0（零）组件数量和0（零）组件成本有关的警告条件的一个物料清单计算组可能就足够了。 在您开始执行物料清单计算时，可以覆盖与物料清单计算组相关联的警告条件。 您还可以添加或删除警告条件。 例如，如果当前情况不涉及路线选择数据，您可以取消与有效工艺路线有关的警告条件。 **注意︰**时间和出勤包括**计算组**页，但是该页与物料清单计算组没有关系。 在“时间和出勤”中，可以将工作人员分配至反映与相同主管或经理相关联的工作人员分组的计算组。 工作人员的登记计算可由主管或经理自动或手动完成。
+您可以定义多个物料清单计算组，具体取决于您在警告消息中的变型要求。 例如，具有与有效物料清单、0（零）组件数量和0（零）组件成本有关的警告条件的一个物料清单计算组可能就足够了。 在您开始执行物料清单计算时，可以覆盖与物料清单计算组相关联的警告条件。 您还可以添加或删除警告条件。 例如，如果当前情况不涉及路线选择数据，您可以取消与有效工艺路线有关的警告条件。 **注意︰** 时间和出勤包括**计算组**页，但是该页与物料清单计算组没有关系。 在“时间和出勤”中，可以将工作人员分配至反映与相同主管或经理相关联的工作人员分组的计算组。 工作人员的登记计算可由主管或经理自动或手动完成。
 
 
 

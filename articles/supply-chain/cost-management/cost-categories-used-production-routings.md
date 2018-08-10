@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 78153
 ms.assetid: a3fdc76c-0a27-4723-b1c7-4322f707d89e
@@ -35,7 +35,7 @@ ms.lasthandoff: 11/03/2017
 
 成本类别应用于使用工艺路线的制造环境。 将成本类别分配给运营资源和工艺路线工序，以便用于在制造物料的计算成本中定义每小时成本和对成本份额进行细分。 分配给成本类别的成本组基于运营资源和活动类型（例如设置时间和运行时间）划分制造成本份额。 成本组分配的特性基于工艺路线信息启用要计算的制造开销。 
 
-**注意：**在制造环境内成本类别具有若干同义词，例如人工费率代码或机器费率代码。 
+**注意：** 在制造环境内成本类别具有若干同义词，例如人工费率代码或机器费率代码。 
 
 每个成本类别都有自己的关联成本记录和分配的成本组。 需要使用不同的成本类别来用于不同的生产目的。
 

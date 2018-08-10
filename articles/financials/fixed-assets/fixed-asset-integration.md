@@ -1,7 +1,7 @@
 ---
 title: "固定资产集成"
 description: "固定资产可以与总帐、库存管理、应收账款和应付账款一起集成。 您也可以设置固定资产，以便与采购订单相集成。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetTable
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3501
 ms.assetid: f0639053-d99c-432a-8ead-5c26e0d4eaec
@@ -61,7 +61,7 @@ ms.lasthandoff: 11/03/2017
 同样，可以设置供内部使用的固定资产，以便具有“**固定资产发货**”帐户类型。 此账户类型用于跟踪收据的固定资产的签发。 在使用采购订单购置资产时，该固定资产发货帐户抵销固定资产借方账户。 在您过帐供货商发票或在固定资产日记帐中过帐该资产购置时，可以通过使用购置方案过帐资产购置。 通过使用“**物料组**”或“**物料过帐**”页中的“**库存**”选项卡，您可为物料组或单独的物料设置“**固定资产发货**”帐户类型。 
 
 最终，用于过帐的主科目由该选项为物料模型组指定的分类帐集成确定。 此外，使用的主科目各不相同，取决于是否将资产分配到采购订单行。 这些会计科目从用于各个物料组的过帐模板派生。 
-**注意：**在产品收据过帐后，如果存在某一库存预留，则您不能分配固定资产或从该行创建固定资产。 
+**注意：** 在产品收据过帐后，如果存在某一库存预留，则您不能分配固定资产或从该行创建固定资产。 
 
 固定资产交易记录要过帐到的账户取决于该资产是由法人采购还是由法人构建，还取决于该资产的交易记录类型。 
 

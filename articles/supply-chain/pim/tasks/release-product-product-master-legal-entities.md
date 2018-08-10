@@ -1,7 +1,7 @@
 --- 
 title: "向法人发布产品/基础产品"
 description: "此程序会逐步演示如何向一个或多个法人发布产品或基础产品。"
-author: BibiSp
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -12,7 +12,7 @@ audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
 ms.search.region: Global
-ms.author: bis
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

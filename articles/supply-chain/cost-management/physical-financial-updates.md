@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 75023
 ms.assetid: 128340e1-c573-48e6-b835-6c350d8dd0fb
@@ -55,7 +55,7 @@ ms.lasthandoff: 11/03/2017
 以移动平均成本价过帐增加数量的交易记录。 Finance and Operations 计算移动平均成本价（基于每个财务跟踪的库存维度的上述各交易记录的成本）。 有关移动平均成本价的信息，请参阅[移动平均成本价](running-average-cost-price.md)。
 
 ## <a name="transactions-that-decrease-quantity"></a>减少数量的交易记录
-过帐减少数量的交易记录时，Finance and Operations 使用计算出的移动平均成本价，而不考虑与该库存关联的库存模型。 减少数量的交易记录不得在另一个交易记录过帐前标记为该交易记录。 如果实际现有库存量变为负值，Finance and Operations 使用为**物料**页上的物料定义的库存成本。 **注意：**如果启用多站点功能，则该成本将改为在**默认订单设置**页上定义的库存成本。
+过帐减少数量的交易记录时，Finance and Operations 使用计算出的移动平均成本价，而不考虑与该库存关联的库存模型。 减少数量的交易记录不得在另一个交易记录过帐前标记为该交易记录。 如果实际现有库存量变为负值，Finance and Operations 使用为**物料**页上的物料定义的库存成本。 **注意：** 如果启用多站点功能，则该成本将改为在**默认订单设置**页上定义的库存成本。
 
 ## <a name="physical-issues-vs-financial-issues"></a>实际发货与财务发货
 在过帐某一实际发货交易记录时，该交易记录的状态为**已减少**。 以下交易记录被视为实际发货：

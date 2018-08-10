@@ -1,7 +1,7 @@
 ---
 title: "服务对象关系"
 description: "您可以在服务对象和服务协议或服务订单之间创建服务对象关系。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
@@ -10,12 +10,12 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
 ms.search.region: Global
-ms.author: YuyuScheller
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT

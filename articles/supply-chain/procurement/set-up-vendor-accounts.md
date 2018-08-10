@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 191053
 ms.assetid: 06168199-7c54-40e9-a038-4eb274ca958d
@@ -63,7 +63,7 @@ ms.lasthandoff: 11/03/2017
 
 您可以从头创建供应商联系人。 或者，您可以从已在 Microsoft Dynamics 365 for Finance and Operations 注册的其他人员那里复制详细信息，并根据需要进行编辑。  
 
-**注意：**添加供应商的联系人不同于为该供应商添加联系信息。 尽管您可能为供应商添加一般联系信息，您可能还有是该公司联系人的若干特定人员，并且他们都有自己的联系信息。  
+**注意：** 添加供应商的联系人不同于为该供应商添加联系信息。 尽管您可能为供应商添加一般联系信息，您可能还有是该公司联系人的若干特定人员，并且他们都有自己的联系信息。  
 
 如果联系人在文档中引用，您无法删除联系人记录。 相反，可以直接停用该联系人。  
 

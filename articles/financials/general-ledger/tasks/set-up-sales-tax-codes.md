@@ -1,7 +1,7 @@
 --- 
 title: "设置销售税代码"
 description: "为法人实体必须计算、征收和向销售税主管机构缴纳的所有间接税或关税创建销售税代码。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman

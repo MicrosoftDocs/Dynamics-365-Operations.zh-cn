@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -88,13 +88,13 @@ Sales 中的折扣计算模型不同于 Finance and Operations。 在 Finance an
 
 **从 Sales 同步到 Finance and Operations**
 
-- **Sales：**数量 = 3，每行折扣 = 10.00 美元
-- **Finance and Operations：**数量 = 3，行折扣金额 = 3.33 美元，销售费用 = -0.01 美元 
+- **Sales：** 数量 = 3，每行折扣 = 10.00 美元
+- **Finance and Operations：** 数量 = 3，行折扣金额 = 3.33 美元，销售费用 = -0.01 美元 
 
 **从 Finance and Operations 同步到 Sales**
 
-- **Finance and Operations：**数量 = 3，行折扣金额 = 3.33 美元，销售费用 = -0.01 美元
-- **Sales：**数量 = 3，每行折扣 = (3 × $3.33) + $0.01 = $10.00
+- **Finance and Operations：** 数量 = 3，行折扣金额 = 3.33 美元，销售费用 = -0.01 美元
+- **Sales：** 数量 = 3，每行折扣 = (3 × $3.33) + $0.01 = $10.00
 
 ## <a name="prospect-to-cash-solution-for-sales"></a>用于 Sales 的“从目标客户到现金”解决方案
 

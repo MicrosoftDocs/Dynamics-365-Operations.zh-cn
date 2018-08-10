@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User, IT Pro
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -48,8 +48,8 @@ ms.lasthandoff: 03/26/2018
 
 以下模板和基础任务用于将 Sales 的帐户同步到 Finance and Operations：
 
-- **“数据集成”中的模板名称：**帐户（Sales 到 Fin and Ops）- 直接
-- **项目中的任务名称：**帐户 - 客户
+- **“数据集成”中的模板名称：** 帐户（Sales 到 Fin and Ops）- 直接
+- **项目中的任务名称：** 帐户 - 客户
 
 不需要同步任务即可进行帐户/客户同步。
 

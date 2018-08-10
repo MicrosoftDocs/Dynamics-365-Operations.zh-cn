@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustFreeInvoice
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 13991
 ms.assetid: 2a0a4789-8619-4974-bef9-0923cc848420
@@ -44,7 +44,7 @@ ms.lasthandoff: 11/03/2017
 
 您可以通过两种方式标识取消和更正发票：
 
--   **“所有普通发票”**页包括**“更正”**列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。
+-   **“所有普通发票”** 页包括 **“更正”** 列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。
 -   普通发票的标题显示状态**正在取消发票‘\[发票编号\]** 或**已更正的发票‘\[发票编号\]**。
 
 > [!NOTE]

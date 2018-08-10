@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 267034
 ms.assetid: 15c76a51-fa6d-42d2-994a-c67df6bae6a9
@@ -65,10 +65,10 @@ ms.lasthandoff: 11/03/2017
 
 基于活动的转包中使用的付款项必须是具有以下属性的产品：
 
--   **产品类型：**服务
--   **库存模型组：**非贮存
+-   **产品类型：** 服务
+-   **库存模型组：** 非贮存
 
-此要求强制使用先进先出 (FIFO) 库存模型。 **注释：**产品的成本计算要求定义服务的标准成本。 需要与供应商之间的采购协议。 否则，不能将服务用于基于活动的转包。
+此要求强制使用先进先出 (FIFO) 库存模型。 **注释：** 产品的成本计算要求定义服务的标准成本。 需要与供应商之间的采购协议。 否则，不能将服务用于基于活动的转包。
 
 ### <a name="subcontracted-process-activities"></a>已转包流程活动
 

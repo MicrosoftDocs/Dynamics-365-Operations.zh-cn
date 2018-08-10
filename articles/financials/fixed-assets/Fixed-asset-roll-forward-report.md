@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 23021
 ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
@@ -35,9 +35,9 @@ ms.lasthandoff: 04/13/2018
 
 此报表在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中提供，或作为 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）的修补程序提供。 必须为安装了 2017 年 7 月版本的环境应用三个修补程序：
 
-- **KB 4041754：**不能从 LCS 下载电子申报 (ER) 配置，因为应用了平台更新包后不适用于当前应用程序版本。
-- **KB 4056107：**电子申报 (GER) 累积更新 5
-- **KB 4056353：**固定资产对帐单报表和附注报表不满足 GAAP 和 IFRS 中的要求
+- **KB 4041754：** 不能从 LCS 下载电子申报 (ER) 配置，因为应用了平台更新包后不适用于当前应用程序版本。
+- **KB 4056107：** 电子申报 (GER) 累积更新 5
+- **KB 4056353：** 固定资产对帐单报表和附注报表不满足 GAAP 和 IFRS 中的要求
 
 下表说明报表中的可用字段。
 

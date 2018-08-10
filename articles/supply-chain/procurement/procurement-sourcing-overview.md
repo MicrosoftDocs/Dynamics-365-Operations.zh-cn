@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable
 audience: Application User
-ms.reviewer: bis
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 58021
 ms.assetid: eea24e23-a803-4de0-a218-6485757cde1b

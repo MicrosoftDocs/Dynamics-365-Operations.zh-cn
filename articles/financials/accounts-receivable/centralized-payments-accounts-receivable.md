@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14151
 ms.assetid: 3d43ba40-780c-459a-a66f-9a01d556e674
@@ -39,8 +39,8 @@ ms.lasthandoff: 11/03/2017
 以下示例说明如何在不同的环境中处理过帐。 假定所有这些示例都采用以下配置：
 
 -   法人分别为 Fabrikam、Fabrikam East 和 Fabrikam West。 客户付款输入 Fabrikam。
--   **“内部公司”**页上的**“过帐现金折扣”**字段设置为**“发票法人”**。
--   **“内部公司”**页上的**“过帐币种汇兑损益”**字段设置为**“付款法人”**。
+-   **“内部公司”** 页上的 **“过帐现金折扣”** 字段设置为 **“发票法人”**。
+-   **“内部公司”** 页上的 **“过帐币种汇兑损益”** 字段设置为 **“付款法人”**。
 -   客户 Northwind Traders 在每个法人中设置为一个客户。 来自不同法人的客户被标识为同一客户，因为他们共享相同的全球通讯簿 ID。
 
 | 通讯簿 ID | 客户帐户 | 姓名              | 法人  |

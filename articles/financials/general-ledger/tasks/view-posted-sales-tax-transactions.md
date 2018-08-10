@@ -1,7 +1,7 @@
 --- 
 title: "查看已过帐的销售税交易记录"
 description: "您可以从不同页面查看已过帐销售税交易记录，取决于您想要查看哪部分。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
@@ -9,7 +9,7 @@ ms.prod:
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: vstehman

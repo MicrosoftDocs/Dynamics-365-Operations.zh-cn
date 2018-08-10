@@ -1,7 +1,7 @@
 ---
 title: "主计划主页"
 description: "主计划允许公司确定和平衡原材料和产能的将来需求，以实现公司目标。"
-author: YuyuScheller
+author: ShylaThompson
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 

@@ -3,13 +3,13 @@ title: "创建普通发票模板"
 description: "此过程说明如何创建普通发票模板。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 05/29/2019
+ms.date: 05/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Operations
 ms.search.region: Global
 ms.author: shpandey

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: BudgetPlanJustificationTemplate
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 259594
 ms.assetid: 52576fad-32b9-48f2-8197-c11ec313fc29
@@ -46,12 +46,12 @@ ms.lasthandoff: 03/26/2018
 
 1.  登录后，单击 Microsoft Dynamics Office Add-in 中的**设计**。
 2.  对于标题信息，请使用**添加字段**按钮。
-3.  选择实体数据源 BudgetPlanJustification，然后单击**下一步**。 **注释：**所有理由文档都需要此实体。 可以使用其他实体，但是如果不包含此实体，上传回 Microsoft Dynamics 365 for Finance and Operations 将失败。
-4.  在 Word 文档中添加 BudgetPlanName、BudgetPlanPreparer、ResponsibilityCenter 和 DocumentNumber 标签和值。 **注释：**如果需要，您可以使用之间的自定义标签，而不是标准标签。
+3.  选择实体数据源 BudgetPlanJustification，然后单击**下一步**。 **注释：** 所有理由文档都需要此实体。 可以使用其他实体，但是如果不包含此实体，上传回 Microsoft Dynamics 365 for Finance and Operations 将失败。
+4.  在 Word 文档中添加 BudgetPlanName、BudgetPlanPreparer、ResponsibilityCenter 和 DocumentNumber 标签和值。 **注释：** 如果需要，您可以使用之间的自定义标签，而不是标准标签。
 5.  单击**完成**完成标题部分。
 6.  对于预算计划金额的行级别详细信息，请单击**添加表**。
 7.  再次选择实体数据源 BudgetPlanJustification，然后单击**下一步**。
-8.  为 EffectiveDate、ScenarioName、AccountDisplayValue 和 AccountingCurrencyExpenseAmount 添加标签。 **注释：**如果可以在单个预算计划行内添加注释，可以在此处将其添加到表。
+8.  为 EffectiveDate、ScenarioName、AccountDisplayValue 和 AccountingCurrencyExpenseAmount 添加标签。 **注释：** 如果可以在单个预算计划行内添加注释，可以在此处将其添加到表。
 9.  添加任何附加说明以提供给最终用户，并对文档执行任何必要的格式或样式设置。
 10. 将该文档保持到您的本地计算机，然后在继续操作之前关闭该文件。
 

@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 23561
 ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
@@ -261,7 +261,7 @@ ms.lasthandoff: 03/26/2018
 
 对于计费规则的所有类型，可以指定从客户发票中扣减的保留百分比，直至项目达到商定的阶段。 在项目合同中指定付款保留百分比。 该金额基于客户发票中相应行的总值计算并从中扣除。 
 
-对于**“时间和材料”**和**“进度”**计费规则，您可以分配可计费的类别。 计费类别指示这些交易记录应包括在客户发票中。 
+对于 **“时间和材料”** 和 **“进度”** 计费规则，您可以分配可计费的类别。 计费类别指示这些交易记录应包括在客户发票中。 
 
 当您准备为客户开票数时，发票项目的金额是基于计费规则计算的，并且将产生一个项目发票提案。 
 

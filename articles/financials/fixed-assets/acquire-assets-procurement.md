@@ -1,7 +1,7 @@
 ---
 title: "通过采购获得资产"
 description: "本主题介绍如何设置固定资产和应付账款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: AssetParameters
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 3481
 ms.assetid: d4e73a3f-633b-48b2-b8db-7a4a59a4d7ec

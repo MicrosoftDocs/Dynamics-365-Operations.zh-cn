@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CurrencyLedgerGainLossAccount
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 62153
 ms.assetid: 842e8561-560f-4cc6-8668-70cca60b1ba3
@@ -51,10 +51,10 @@ ms.lasthandoff: 11/03/2017
 -   为币种重估指定已实现利润、已有损失、或有利润和或有损失科目。 已实现利润和已有损失在结算 AR 和 AP 交易记录时使用，或有利润和或有损失在重估未结交易记录和总帐主科目时使用。
 
 -   在“**币种重估科目**”页面上：
--   为每个币种和公司选择不同的币种重估科目。 如果未定义任何科目，则使用**“分类帐”**页面中的科目。
+-   为每个币种和公司选择不同的币种重估科目。 如果未定义任何科目，则使用 **“分类帐”** 页面中的科目。
 
 ## <a name="process-foreign-currency-revaluation"></a>处理外币重估
-在完成此设置后，使用**“外币重估”**页面重估主科目的余额。 您可以通过使用批处理实时运行此流程或计划此流程以进行运行。 
+在完成此设置后，使用 **“外币重估”** 页面重估主科目的余额。 您可以通过使用批处理实时运行此流程或计划此流程以进行运行。 
 
 **外币重估**页面将显示每个重估流程的历史记录，包括运行流程的时间，定义的条件，关联到为重估创建的凭证，以及是否已冲销上一次重估的记录。 若要运行重估流程，请选择**外币重估**按钮。 
 

@@ -10,13 +10,13 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventClosing
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 61973
 ms.assetid: c210c882-6849-4704-b78c-a777dd6cfdb6
 ms.search.region: Global
 ms.search.industry: Manufacturing
-ms.author: yuyus
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
@@ -86,7 +86,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="reversing-a-completed-inventory-close"></a>冲销已完成的库存结转
 您偶尔可能必须冲销已完成的库存结转，以将结算返回到执行调整前的状态。 在您冲销已完成的库存结转时，库存还会重新打开，以可以在库存转结涵盖期间中过帐。 也可能在总账中进行相关的更改。 在完成调整后，您可以为您正在使用的期间再次运行库存结转。 
 
-**注意：**只有最后关闭的库存期间可以重新打开。 若要冲销更早的库存结转，必须一次冲销一个后续库存，从最近的结转开始。
+**注意：** 只有最后关闭的库存期间可以重新打开。 若要冲销更早的库存结转，必须一次冲销一个后续库存，从最近的结转开始。
 
 
 

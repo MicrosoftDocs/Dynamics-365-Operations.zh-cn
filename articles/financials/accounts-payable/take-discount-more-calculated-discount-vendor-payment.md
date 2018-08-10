@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 14281
 ms.assetid: 7f0a4197-95dd-4969-ade9-154815cf659e
@@ -38,7 +38,7 @@ ms.lasthandoff: 11/03/2017
 |----------|-------------------|-----------|---------|-----------|-----------|---------|--------------------------------|----------|------------------|
 | 已选择 | 标准            | Inv-10040 | 3051    | 6/29/2015 | 7/29/2015 | 10040   | 1,000.00                       | 美元      | 940.00           |
 
-折扣信息显示在**“结算交易记录”**页的底部。
+折扣信息显示在 **“结算交易记录”** 页的底部。
 
 |                              |           |
 |------------------------------|-----------|
