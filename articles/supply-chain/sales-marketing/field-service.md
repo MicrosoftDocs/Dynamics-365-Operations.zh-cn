@@ -46,8 +46,6 @@ Field Service 与 Finance and Operations 集成的第二阶段是实现以下项
 
 若要查看有关如何在 Field Service 与 Finance and Operations 之间同步工作订单的示例，请观看下面的 YouTube 短片：[在 Dynamics 365 for Field Service 与 Finance and Operations 之间同步工作订单](https://www.youtube.com/watch?v=hAB4TDVMjxU)。
 
-[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
-
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations 的系统要求
 Field Service 集成支持以下版本：
 
