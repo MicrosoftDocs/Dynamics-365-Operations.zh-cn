@@ -1,7 +1,7 @@
 ---
 title: "产品标识符"
 description: "此主题提供有关不同类型的产品标识符的信息，并说明了如何在您的产品数据中添加产品标识符。"
-auhor: cvocph
+author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article

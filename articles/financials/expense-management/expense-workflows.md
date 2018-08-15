@@ -1,7 +1,7 @@
 ---
 title: "设置费用的工作流"
 description: "您可以设置用于查看和审核出差和支出单据的工作流流程。"
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
@@ -13,10 +13,8 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b

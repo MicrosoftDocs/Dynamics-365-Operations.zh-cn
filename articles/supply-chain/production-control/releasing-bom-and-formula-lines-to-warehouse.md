@@ -15,7 +15,7 @@ ms.search.scope: Core, Operations
 ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
-ms.search.validfrom: 2017-12-31
+ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
 ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
