@@ -19,10 +19,10 @@ ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 63432fe5fe98b2c20ddbf9ebec6ac14b981f0106
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 05/08/2018
 <span data-ttu-id="16558-105">此主题介绍**招聘** Microsoft Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="16558-105">This topic describes the **Recruiting** Microsoft Power BI content.</span></span> <span data-ttu-id="16558-106">它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。</span><span class="sxs-lookup"><span data-stu-id="16558-106">It explains how to access the Power BI reports, and provides information about the data model and entities that were used to build the content.</span></span>
 
 ## <a name="accessing-the-power-bi-content"></a><span data-ttu-id="16558-107">访问 Power BI 内容</span><span class="sxs-lookup"><span data-stu-id="16558-107">Accessing the Power BI content</span></span>
-<span data-ttu-id="16558-108">**招聘** Power BI 内容显示在**招聘管理**工作区。</span><span class="sxs-lookup"><span data-stu-id="16558-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span> 
+<span data-ttu-id="16558-108">**招聘** Power BI 内容显示在**招聘管理**工作区。</span><span class="sxs-lookup"><span data-stu-id="16558-108">The **Recruiting** Power BI content is shown in the **Recruitment management** workspace.</span></span>
 
 ## <a name="reports-and-visuals-in-the-recruitment-management-workspace"></a><span data-ttu-id="16558-109">招聘管理工作区的报表和视觉对象</span><span class="sxs-lookup"><span data-stu-id="16558-109">Reports and visuals in the Recruitment management workspace</span></span>
 <span data-ttu-id="16558-110">**招聘管理**工作区包含一个**分析**选项卡。此选项卡包含用于招聘的嵌入的 Power BI 内容。</span><span class="sxs-lookup"><span data-stu-id="16558-110">The **Recruitment management** workspace contains an **Analytics** tab. This tab contains the embedded Power BI content for recruiting.</span></span> <span data-ttu-id="16558-111">此内容包括一个概览选项卡和包含详细信息的附加选项卡。</span><span class="sxs-lookup"><span data-stu-id="16558-111">The content consists of an overview tab and additional tabs that contain details.</span></span> <span data-ttu-id="16558-112">下表对每个选项卡上的报表进行介绍。</span><span class="sxs-lookup"><span data-stu-id="16558-112">The following table describes the reports on each tab.</span></span>
@@ -66,6 +66,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="16558-163">绩效</span><span class="sxs-lookup"><span data-stu-id="16558-163">Performance</span></span>          | <span data-ttu-id="16558-164">评级，描述和评级模型</span><span class="sxs-lookup"><span data-stu-id="16558-164">Rating, description, and rating model</span></span>                            | <span data-ttu-id="16558-165">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="16558-165">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="16558-166">招聘项目</span><span class="sxs-lookup"><span data-stu-id="16558-166">Recruitment Project</span></span>  | <span data-ttu-id="16558-167">项目描述、项目状态和空缺</span><span class="sxs-lookup"><span data-stu-id="16558-167">Project description, project status, and openings</span></span>                | <span data-ttu-id="16558-168">申请人、已雇用的申请人、已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="16558-168">Applicant, Employed Applicant, Terminated Applicant</span></span> |
 | <span data-ttu-id="16558-169">已离职的申请人</span><span class="sxs-lookup"><span data-stu-id="16558-169">Terminated Applicant</span></span> | <span data-ttu-id="16558-170">已离职的申请人、原因、表现和离职日期</span><span class="sxs-lookup"><span data-stu-id="16558-170">Terminated applicants, reason, performance, and termination date</span></span> | <span data-ttu-id="16558-171">公司、日历偏差、日期、地理位置、绩效、人口统计数据、雇用、媒体、招聘项目、申请人姓名</span><span class="sxs-lookup"><span data-stu-id="16558-171">Company, Calendar Offset, Date, Geographic Location, Performance, Demographics, Employment, Media, Recruitment Project, Applicant Name</span></span> |
-
-
 

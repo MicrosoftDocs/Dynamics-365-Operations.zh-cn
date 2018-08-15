@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 2ef7f71dc6d58108b498ed89e9175ff2ce900cda
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 31f496dccc410f8d12d99359493193853999abc6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -45,8 +45,6 @@ ms.lasthandoff: 08/07/2018
 - [<span data-ttu-id="ce096-116">Field Service 中的发票到 Finance and Operations 中的普通发票</span><span class="sxs-lookup"><span data-stu-id="ce096-116">Invoices in Field Service to free text invoices in Finance and Operations</span></span>](field-service-invoice.md)
 
 <span data-ttu-id="ce096-117">若要查看有关如何在 Field Service 与 Finance and Operations 之间同步工作订单的示例，请观看下面的 YouTube 短片：[在 Dynamics 365 for Field Service 与 Finance and Operations 之间同步工作订单](https://www.youtube.com/watch?v=hAB4TDVMjxU)。</span><span class="sxs-lookup"><span data-stu-id="ce096-117">To see an example of how you can synchronize a work order between Field Service and Finance and Operations, watch the short YouTube video [Synchronize a work order between Dynamics 365 for Field Service and Finance and Operations](https://www.youtube.com/watch?v=hAB4TDVMjxU).</span></span>
-
-[![](https://img.youtube.com/vi/hAB4TDVMjxU/0.jpg)](https://www.youtube.com/watch?v=hAB4TDVMjxU)
 
 ## <a name="system-requirements-for-finance-and-operations"></a><span data-ttu-id="ce096-118">Finance and Operations 的系统要求</span><span class="sxs-lookup"><span data-stu-id="ce096-118">System requirements for Finance and Operations</span></span>
 <span data-ttu-id="ce096-119">Field Service 集成支持以下版本：</span><span class="sxs-lookup"><span data-stu-id="ce096-119">Field Service integration supports the following versions:</span></span>

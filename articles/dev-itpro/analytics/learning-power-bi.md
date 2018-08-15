@@ -16,10 +16,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6a0c1459da8770a8cc880a48483102494feb38bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -64,6 +64,4 @@ ms.lasthandoff: 05/08/2018
 | <span data-ttu-id="e0f37-162">位置</span><span class="sxs-lookup"><span data-stu-id="e0f37-162">Position</span></span>         | <span data-ttu-id="e0f37-163">职位、职务和全职等效 (FTE)</span><span class="sxs-lookup"><span data-stu-id="e0f37-163">Position, title, and full-time equivalent (FTE)</span></span>                  | <span data-ttu-id="e0f37-164">课程安排、课程参与者</span><span class="sxs-lookup"><span data-stu-id="e0f37-164">Course Agenda, Course Attendees</span></span> |
 | <span data-ttu-id="e0f37-165">员工姓名</span><span class="sxs-lookup"><span data-stu-id="e0f37-165">Employee Name</span></span>    | <span data-ttu-id="e0f37-166">名字、姓氏和全名</span><span class="sxs-lookup"><span data-stu-id="e0f37-166">First name, last name, and full name</span></span>                             | <span data-ttu-id="e0f37-167">课程参与者</span><span class="sxs-lookup"><span data-stu-id="e0f37-167">Course Attendees</span></span> |
 | <span data-ttu-id="e0f37-168">员工职务</span><span class="sxs-lookup"><span data-stu-id="e0f37-168">Employee Title</span></span>   | <span data-ttu-id="e0f37-169">职务和资历日期</span><span class="sxs-lookup"><span data-stu-id="e0f37-169">Title and seniority date</span></span>                                         | <span data-ttu-id="e0f37-170">课程参与者</span><span class="sxs-lookup"><span data-stu-id="e0f37-170">Course Attendees</span></span> |
-
-
 
