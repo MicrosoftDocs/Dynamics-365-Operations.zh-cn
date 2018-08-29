@@ -1,5 +1,5 @@
 --- 
-title: "执行自助服务以下载硬件工作站"
+title: "使用自助服务下载硬件工作站"
 description: "此程序会逐步演示如何下载预定义的硬件工作站。"
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: a896ff1f2bf60a12b415a270853ae25f8af0f813
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 6b44f1360977fd0c224d009cc8ca3c1b54f092a1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="perform-self-service-to-download-hardware-station"></a>执行自助服务以下载硬件工作站
+# <a name="download-hardware-stations-by-using-self-service"></a>使用自助服务下载硬件工作站
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

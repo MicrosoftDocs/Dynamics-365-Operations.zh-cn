@@ -3,7 +3,7 @@ title: "Dynamics 365 for Retail 的新增功能或变更功能"
 description: "此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Retail 最新版本的新功能的资源。"
 author: sericks007
 manager: AnnBe
-ms.date: 02/26/2018
+ms.date: 08/09/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
@@ -17,10 +17,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 74e45d86c6d9f45ca9b1a4b0e60860a793b537a0
+ms.sourcegitcommit: fce666a4eba83e6be14a461d00232e4af177ffd7
+ms.openlocfilehash: 05db53b1d1eb7977be4d169d7819fec6f52b9e5d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/09/2018
 
 ---
 
@@ -36,9 +36,11 @@ ms.lasthandoff: 04/13/2018
 
 |版本 | 内部版本号 | 可用性 | 了解更多 |
 |--------|--------------|--------------|------------|
+|Dynamics 365 for Retail 7.3.3 | 7.3.11971.64183 及**待定** | 2018 年 7 月 | [KB 4456699：版本 7.3.3 - 缺陷修复包 2*](https://fix.lcs.dynamics.com/Issue/Details?kb=4456699&bugId=235982&qc=e7d86ad6505eb37945b31374adfae2c6133ee737dde2e044a4aa5260c4f8edc1) |
+|Dynamics 365 for Retail 7.3.2.5 | 7.3.11971.63858 和 8.0.35.15211 | 2018 年 6 月 | [KB 4338874：版本 7.3.2.5 - 缺陷修复包 1*](https://fix.lcs.dynamics.com/Issue/Details?kb=4342134&bugId=225730&qc=9b98d165f3d71ea36abe15b7acb33c9d59199e95915f4de9486313d1b02665e3)  |
 |Dynamics 365 for Retail 7.3.2 | 7.3.21971.64040 | 2018 年 3 月 | [KB 4093263：版本 7.3.2*](https://fix.lcs.dynamics.com/Issue/Details?kb=4093263&bugId=3937220&qc=63d57de184b7b2ac5563767292dacaea8621707198b55ea9c5f08b106a4c5132) |
 |Dynamics 365 for Retail 7.3.1 | 7.3.21971.64032 | 2018 年 3 月 | [KB 4092799：版本 7.3.1*](https://fix.lcs.dynamics.com/Issue/Details?kb=4092799&bugId=3936439&qc=b095917f0b114a26af430086cd5dc7eb4d383b6bcf225a62952cacff0f730c06) |
-|Dynamics 365 for Retail 7.3 | 7.3.21971.64028 | 2018 年 2 月 | **即将到期** |
+|Dynamics 365 for Retail 7.3 | 7.3.21971.64028 | 2018 年 2 月 | |
 |应用程序更新 5 | 7.2.21792.64093 | 2018 年 2 月 | [KB 4089596：更新 5*](https://fix.lcs.dynamics.com/Issue/Details?kb=4089596&bugId=3893142&qc=ee9db96dd13dc341e7019fad3d36d01c6dfc4edf631f752f66d87f2ebbd256f5) |
 |应用程序更新 4 | 7.2.21792.64070 | 2017 年 10 月 | [KB 4052437：更新 4*](https://fix.lcs.dynamics.com/Issue/Details?kb=4052437&bugId=3866274&qc=dfcd40f8c5d0d863cc6ae10fe7dd3fb57450327d4f82f10c57886d579e6d4838) |
 |应用程序更新 3 | 7.2.21792.64062 | 2017 年 9 月 |[KB 4045959：更新 3*](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045959&bugId=3857200&qc=a4c0715ff69d491d63c424f56b124f458ac3ca422e4a74c67d23a58b16050ad1)|

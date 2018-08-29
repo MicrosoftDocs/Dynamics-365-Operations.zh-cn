@@ -1,5 +1,5 @@
 ---
-title: "配置 Microsoft Dynamics 365 for Talent"
+title: "配置 Talent"
 description: "此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新环境。"
 author: rschloma
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 343e372ad9e29372649e975a5bee16e8913b66c8
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 2fc4119f3b33aa583274f4d823e296752cdde41d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="provision-microsoft-dynamics-365-for-talent"></a>配置 Microsoft Dynamics 365 for Talent
+# <a name="provision-talent"></a>配置 Talent
 
 [!include [banner](includes/banner.md)]
 

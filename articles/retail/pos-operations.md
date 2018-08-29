@@ -1,5 +1,5 @@
 ---
-title: "POS 操作（联机和脱机）"
+title: "销售点 (POS) 联机和脱机操作"
 description: "此主题提供有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。"
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 8a24f8adc4f7886a1f942d83f7a4eb12e7034fcd
-ms.openlocfilehash: d8cf283321b81c377498cd449b098f8fac1fe01f
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/22/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="pos-operations-online-and-offline"></a>POS 操作（联机和脱机）
+# <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
 [!include [banner](includes/banner.md)]
 

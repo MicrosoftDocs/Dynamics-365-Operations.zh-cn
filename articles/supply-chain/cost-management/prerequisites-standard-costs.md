@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: InventStdCostConv, CostingVersion
 audience: Application User
-ms.reviewer: yuyus
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.custom: 
 ms.assetid: 
@@ -20,10 +20,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 338e0847ea91ee2582df0aab3e31a97c4f24113e
-ms.openlocfilehash: 016eec12c31398beede7fdddc4548ec196ebd704
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: d5a4a4e49ef1cee923011ddab24497c65f85c1e3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -75,4 +75,10 @@ ms.lasthandoff: 06/25/2018
 
 [标准成本转换概览](standard-cost-conversion-overview.md)
 
+### <a name="blogs"></a>博客
+
+#### <a name="community-blogs"></a>社区博客
+
+- [如何在 Dynamics 365 for Finance and Operations 中为直接材料设置标准成本](https://financefunction.tech/2018/06/07/how-to-set-up-standard-costs-for-direct-materials-in-dynamics-365-for-finance-and-operations)
+- [Dynamics 365 for Finance and Operations 中的标准直接人工成本](https://financefunction.tech/2018/07/16/standard-direct-labor-cost-in-dynamics-365-for-finance-and-operations)
 

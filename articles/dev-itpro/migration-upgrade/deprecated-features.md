@@ -1,9 +1,9 @@
 ---
-title: "弃用功能"
+title: "已删除或弃用的功能"
 description: "本主题介绍已经删除或计划删除的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 05/09/2018
+ms.date: 08/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 65101b5f0030a25973a584b68ec9697506868294
-ms.openlocfilehash: 6b954d1eedb7c7af1c9a5eda92aa1dd6132a19fa
+ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
+ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/30/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -38,6 +38,9 @@ ms.lasthandoff: 05/30/2018
 
 > [!Note]
 > 从具有平台更新 8 的 Dynamics 365 for Finance and Operations 2017 年 7 月版开始，每一个已移除或弃用的功能均备注了部署类型。 本主题中提及的所有之前的版本仅支持云部署。
+
+> [!Note]
+> [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations 中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 各版本中已更改或已删除的对象。
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>具有平台更新 15 的 Dynamics 365 for Finance and Operations 8.0
 此版本中未移除或弃用任何功能。 平台更新 15 是累积功能，其中包含平台更新 13、14 和 15 中的新增功能或更改功能。

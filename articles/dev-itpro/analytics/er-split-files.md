@@ -1,5 +1,5 @@
 ---
-title: "基于文件大小和内容数量拆分生成的文件"
+title: "基于文件大小和内容数量拆分生成的 XML 文件"
 description: "本主题提供有关如何基于文件大小和内容项数量拆分生成的文件的信息。"
 author: NickSelin
 manager: AnnBe
@@ -18,10 +18,10 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: afdf5b2596af7641182be50ced8159967164b115
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 0f13194575e2f19f585f09ffad99144c9a9fc3b1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -49,5 +49,4 @@ ms.lasthandoff: 05/25/2018
 [电子申报目标](electronic-reporting-destinations.md)
 
 [电子申报中的配方设计器](general-electronic-reporting-formula-designer.md)
-
 

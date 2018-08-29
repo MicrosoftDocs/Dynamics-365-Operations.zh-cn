@@ -1,5 +1,5 @@
 ---
-title: "创建平价医疗法案报告"
+title: "创建平价医疗法案 (ACA) 报告"
 description: "功能可用于协助需要跟踪表单 1095-B 和 1095-C 上申报的信息的雇主支持平价医疗法案的雇主授权单。请注意，仅可为美国的法人启用此功能。"
 author: kherr75
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 1994edc5d6c932be3a285f9bb328a05504c90f07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="generate-affordable-care-act-reports"></a>创建平价医疗法案报告
+# <a name="generate-affordable-care-act-aca-reports"></a>创建平价医疗法案 (ACA) 报告
 
 [!include [banner](includes/banner.md)]
 
@@ -69,5 +69,5 @@ ms.lasthandoff: 03/07/2018
 
 如果您需要报告投保的个人，因为作为雇主，您提供自保型保险范围，您还可以通过选择操作窗格条上的查看依赖方保险范围操作查看已标记为 **ACA 可申报**的福利计划下涵盖的任何依赖方。
 
-**注意：**仅其计划已标记为 **ACA 可申报**的福利才会显示在查询窗口中。
+**注意：** 仅其计划已标记为 **ACA 可申报**的福利才会显示在查询窗口中。
 

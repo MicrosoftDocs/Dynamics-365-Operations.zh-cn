@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 for Talent
+title: "欢迎使用 Dynamics 365 for Talent"
 description: "Talent 简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 这些流程包括员工挽留、福利管理、培训、绩效评审和变更管理。"
 author: josaw
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: bde68c9167e18cae6be4988865123d20274753c0
-ms.openlocfilehash: 9bc09a822f78b9792c2afdb0d297809edea7551a
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/06/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="welcome-to-microsoft-dynamics-365-for-talent"></a>欢迎使用 Microsoft Dynamics 365 for Talent
+# <a name="welcome-to-dynamics-365-for-talent"></a>欢迎使用 Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
 
@@ -100,7 +100,7 @@ Dynamics 365 for Talent 包括 Attract 应用，该应用可帮助您挖掘、�
 
 Talent 可帮助您维护符合适用法律的安全工作环境，包括美国残疾人法案和移民与入籍法，等等。 例如，您可以管理特定工作的物理要求，并跟踪可以帮助您的组织优化其劳动力技能的便利设施要求。
 
--   [表格 I-9 雇用验证](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
+-   [表格 I-9 工作证明](../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md)
 -   [符合《美国残疾人法案》](../fin-and-ops/hr/localizations/noam-usa-comply-ada.md)
 
 ## <a name="gather-information-using-questionnaires"></a>使用调查表收集信息

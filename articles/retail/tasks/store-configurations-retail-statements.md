@@ -1,5 +1,5 @@
 --- 
-title: "零售报表的商店配置"
+title: "配置可影响零售报表的商店设置"
 description: "此程序会逐步演示零售商店的配置（这会影响到如何创建和过帐零售报表）。"
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 441ba692f559f9966f3e2512c7760ad2f732b768
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: fdfb233a3e6c3ab17577afb67aa0fdd0d4588020
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
+# <a name="configure-store-settings-that-affect-retail-statements"></a>配置可影响零售报表的商店设置
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

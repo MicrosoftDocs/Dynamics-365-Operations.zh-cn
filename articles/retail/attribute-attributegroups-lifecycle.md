@@ -1,5 +1,5 @@
 ---
-title: "Finance and Operations 中各种零售实体的属性、属性组及其关联"
+title: "属性和属性组"
 description: "此主题介绍如何使用属性通过用户定义的字段介绍产品及其特征。"
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5e04b1f6ef58836eeac85be074e295e6d1f42c52
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 918f8555bc3d2e4a79262b428d5c7ba278fa7409
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="attributes-attribute-groups-and-their-associations-with-various-retail-entities-in-finance-and-operations"></a>Finance and Operations 中各种零售实体的属性、属性组及其关联
+# <a name="attributes-and-attribute-groups"></a>属性和属性组
 
 [!include [banner](includes/banner.md)]
 

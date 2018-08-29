@@ -1,5 +1,5 @@
 ---
-title: "人事行动 [常见问题]"
+title: "人事行动常见问题"
 description: "如果您的组织使用人事行动，该主题包括对可能有的问题的解答。 人事行动是执行特定与人事相关任务时必须完成的附加步骤。"
 author: ShielaSogge
 manager: AnnBe
@@ -18,20 +18,20 @@ ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 58089418ac233d31a2a4f0298af5e884d77a67d3
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="personnel-actions-faq"></a>人事行动 [常见问题]
+# <a name="personnel-actions-faq"></a>人事行动常见问题
 
 [!include [banner](includes/banner.md)]
 
 如果您的组织使用人事行动，该主题包括对可能有的问题的解答。 人事行动是执行特定与人事相关任务时必须完成的附加步骤。 关于可能需要人事行动的示例包括您创建新职位、修改现有职位值、雇用新工作人员、转移工作人员、更改工作员工薪酬、更改职位分配或中止工作人员。
 
-**注意：**仅当**人力资源共享参数**页上的**人事行动**选项卡中的**启用工作人员变动**和**启用职位变动**自动设置为**是**时，人事行动才可用。 
+**注意：** 仅当**人力资源共享参数**页上的**人事行动**选项卡中的**启用工作人员变动**和**启用职位变动**自动设置为**是**时，人事行动才可用。 
 
 ## <a name="how-can-i-tell-if-my-organization-requires-personnel-actions"></a>如何判断我的组织是否需要人事行动？
 当您创建新职位、更改现有职位、雇用新工作人员、转移工作人员、更改工作人员薪酬、更改职位分配、中止人员或工作人员入职离开时，如果要求您选择人事行动，则您的组织需要人事行动。 

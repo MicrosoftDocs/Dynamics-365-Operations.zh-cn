@@ -1,5 +1,5 @@
 ---
-title: "Microsoft Dynamics 365 for Talent 入门"
+title: "Talent 入门"
 description: "此主题提供有关如何让用户界面适应您的偏好，以及如何连接到产品内和 docs.microsoft.com 站点提供的帮助资源的信息。"
 author: rschloma
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3eb642944a31aad983758fc28bc692800bb6b4d2
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="getting-started-with-microsoft-dynamics-365-for-talent"></a>Microsoft Dynamics 365 for Talent 入门
+# <a name="get-started-with-talent"></a>Talent 入门
 
 [!include [banner](includes/banner.md)]
 

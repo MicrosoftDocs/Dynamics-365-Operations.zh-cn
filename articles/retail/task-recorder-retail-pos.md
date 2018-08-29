@@ -1,5 +1,5 @@
 ---
-title: "POS 的任务录制器和帮助"
+title: "Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助"
 description: "此主题介绍如何在 Retail Modern POS 和 Cloud POS 中使用任务录制器。"
 author: mugunthanm
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 12aa71843fa8b22eb7ae688ed3600168760d90da
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 0077bac6eef5c4b4925c9464d47a1297aa1177e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="task-recorder-and-help-for-pos"></a>POS 的任务录制器和帮助
+# <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助
 
 [!include [banner](includes/banner.md)]
 
@@ -108,7 +108,7 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 
 ### <a name="start-task-and-end-task"></a>开始任务和结束任务
 
-可以通过使用**开始任务**和**结束任务**按钮来指定一组已分组步骤的开始和结束。 单击**开始任务**添加“开始任务”步骤，然后执行组中应包括的步骤。 在您完成该组步骤的执行后，单击**结束任务**。 任务帮助您组织您的过程。 任务可以嵌套在其他任务内。 这样，您就可以更好地组织非常长的复杂业务流程。
+可以通过使用**开始任务**和**结束** **任务**按钮来指定一组已分组步骤的开始和结束。 单击**开始任务**添加“开始任务”步骤，然后执行组中应包括的步骤。 在您完成该组步骤的执行后，单击**结束任务**。 任务帮助您组织您的过程。 任务可以嵌套在其他任务内。 这样，您就可以更好地组织非常长的复杂业务流程。
 
 ## <a name="adding-annotations"></a>添加注释
 注释是您在录制中添加到步骤的其他文本。 例如，您可以使用注释为用户提供更多上下文或说明。 您可以在一个步骤之前或之后添加注释。 您可以通过单击步骤右侧的**编辑**按钮（铅笔符号）将注释添加到任何步骤。 

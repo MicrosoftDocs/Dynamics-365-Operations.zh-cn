@@ -1,5 +1,5 @@
 ---
-title: "使用部门、工作和职位组织您的员工"
+title: "使用部门、工作和职位组织您的劳动力"
 description: "部门、作业和职位在人力资源中维护的组织元素。 本主题介绍有关这些元素的概念信息。"
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5799db0354e0e2bb766284ef2d87e8da9a956958
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="organize-your-workforce-using-departments-jobs-and-positions"></a>使用部门、工作和职位组织您的员工
+# <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>使用部门、工作和职位组织您的劳动力
 
 [!include [banner](includes/banner.md)]
 

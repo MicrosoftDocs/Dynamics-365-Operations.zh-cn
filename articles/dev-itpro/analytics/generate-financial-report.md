@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 68843
 ms.assetid: 271df6f4-12b7-4b3e-b2d7-36ea98ef1871
@@ -19,14 +19,14 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 73d1a3316db7589d114c70a4dbf847dc67aa077b
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: b47c22576b3735fbc499c7ceed3f6a4637c2785c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="generate-a-financial-report"></a>生成财务报表
+# <a name="generate-financial-reports"></a>生成财务报表
 
 [!include [banner](../includes/banner.md)]
 

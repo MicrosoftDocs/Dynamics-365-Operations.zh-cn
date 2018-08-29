@@ -1,5 +1,5 @@
 ---
-title: "呼叫中心内的付款方法"
+title: "呼叫中心内的付款方式"
 description: "本主题介绍 Microsoft Dynamics 365 for Retail 中可在呼叫中心内使用的各种付款方式。"
 author: josaw1
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: d709a7f0e087178c0961c268a78a9206ea656bbc
-ms.openlocfilehash: ca32e74b8b9f35dd9a1a48f942766bce98c5ea4b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 0b86388efab113af605d62c6ad76c8169d9c4643
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="payment-methods-in-a-call-center"></a>呼叫中心内的付款方法
+# <a name="payment-methods-in-call-centers"></a>呼叫中心内的付款方式
 
 [!include [banner](includes/banner.md)]
 

@@ -3,7 +3,7 @@ title: "本地化和监管功能"
 description: "本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2018
+ms.date: 07/18/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 4485bd6442d186e5a6bac90e0a9041566e2e26d0
-ms.openlocfilehash: efa82abcd25101fc7be772c32e6c4fee7976d4bb
+ms.sourcegitcommit: 46165351f3c9048cfbecf25a1c49d8aeac1f3e1e
+ms.openlocfilehash: 787ce11701a9df951b38af5209206902d7c98019
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -147,33 +147,9 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
 - [增值税申报](../../financials/localizations/emea-vat-reporting.md)
 - [查看有关结算的交易记录](../../financials/localizations/emea-transactions-settlement-form.md)
 
-### <a name="france"></a>法国
--   [按时间顺序排序的发票和凭证编号](../../financials/localizations/emea-fra-chronological-invoices-vouchers.md)
--   [法国的贬损折旧](../../financials/localizations/emea-fra-derogatory-depreciation.md)
--   [NAF 代码和 Siret 号码](../../financials/localizations/emea-fra-naf-codes-siret-numbers.md)
--   [法国的逾期客户付款罚金](../../financials/localizations/emea-fra-apply-penalty-customer-payment-past-due.md)
--   [在客户发票上打印延时付款罚息总额文字](../../financials/localizations/emea-fra-print-lump-sum-recovery-text.md)
--   [RB/SL 折旧](../../financials/localizations/emea-fra-rbsl-depreciation.md)
-
-#### <a name="public-sector"></a>公共部门
-   -   [公共部门中的承诺](../../financials/localizations/emea-fra-commitments-public-sector.md)
-   -   [公共部门中的 Mandats de paiement](../../financials/localizations/emea-fra-mandats-de-paiement.md)
-   -   [采购](../../financials/localizations/emea-fra-procurement-sourcing-public-sector.md)
-   -   [公共部门会计](../../financials/localizations/emea-fra-public-sector-accounting.md)
-   -   [Titres de recette](../../financials/localizations/emea-fra-titres-de-recette-public-sector.md)
-   -   [供应商发票付款暂停](../../financials/localizations/emea-fra-vendor-invoice-payment-holds-public-sector.md)
-
-### <a name="germany"></a>德国
--   [其他购置折旧](../../financials/localizations/emea-deu-additional-acquisition-depreciation.md)
--   [德国审计文件 (GDPdU/GoBD)](../../financials/localizations/emea-deu-gdpdu-audit-data-export.md)
--   [德国日记帐清单报告](../../financials/localizations/emea-deu-journal-list-report.md)
--   [为源自销售的贷项通知单打印单独的标签](../../financials/localizations/emea-deu-print-separate-label-credit-memo-originating-sales.md)
-
-### <a name="hungary"></a>匈牙利
-
--   [固定资产折旧方法](../../financials/localizations/emea-hun-fixed-assets-depreciation-methods.md)    
--   [将固定资产移动到库存](../../financials/localizations/emea-hun-fixed-asset-to-inventory.md)
--   [低成本固定资产](../../financials/localizations/emea-hun-low-cost-fixed-assets.md)
+### <a name="francefinancialslocalizationsfrancemd"></a>[法国](../../financials/localizations/france.md)
+### <a name="germanyfinancialslocalizationsgermanymd"></a>[德国](../../financials/localizations/germany.md)
+### <a name="hungaryfinancialslocalizationshungarymd"></a>[匈牙利](../../financials/localizations/hungary.md)
 
 ### <a name="india"></a>印度
 
@@ -190,18 +166,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
     - [税金阈值常见问题](../../financials/localizations/apac-ind-tax-thresholds.md)
     - [扩展税引擎](../../financials/general-ledger/extend-tax-engine-configurations.md)
 
-### <a name="italy"></a>意大利
-
--   [意大利黑名单报告](../../financials/localizations/emea-ita-black-list-report.md)
--   [增值税报表明细](../../financials/localizations/emea-ita-vat-statements-details.md)
--   [交易记录的生效日期](../../financials/localizations/emea-ita-competence-date.md)
--   [固定资产的手动折旧](../../financials/localizations/emea-ita-depreciation-of-fixed-assets.md)
--   [Modello 770](../../financials/localizations/emea-ita-modello770.md)
--   [意大利的发票上的装箱单日期验证](../../financials/localizations/emea-ita-packing-slip-date-verification-on-invoice.md)
--   [意大利销售税帐簿](../../financials/localizations/emea-ita-fiscal-books.md)
--   [拆分签发给公共行政部门的发票的付款](../../financials/localizations/emea-ita-split-payment-invoices-issued-public-administration.md)
--   [预缴税金](../../financials/localizations/emea-ita-withholding-tax.md)
-
+### <a name="italyfinancialslocalizationsitalymd"></a>[意大利](../../financials/localizations/italy.md)
 ### <a name="japan"></a>日本
 
 -  [供应商涵盖的银行付款费用](../../financials/localizations/apac-jpn-bank-payment-fees-vendors.md)
@@ -216,19 +181,8 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
 -  [通过背书汇票向供应商付款](../../financials/localizations/apac-jpn-endorse-bill-of-exchange.md)
 -  [累进预缴税金计算](../../financials/localizations/apac-jpn-progressive-withholding-tax-calculation.md)
 
-### <a name="latvia"></a>拉脱维亚
-
--   [用于缴税目的的固定资产会计](../../financials/localizations/emea-lva-fixed-assets-accounting.md)
--   [固定资产位置更改跟踪](../../financials/localizations/emea-lva-fixed-assets-location-fields-change.md)
--   [发票和装箱单编号](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [自然资源税报表](../../financials/localizations/emea-lva-tax-natural-resources.md)
--   [增值税报表明细](../../financials/localizations/emea-lva-vat-statement-details.md)
-
-### <a name="lithuania"></a>立陶宛
-
--   [固定资产维修报表](../../financials/localizations/emea-ltu-fixed-asset-repair-statement.md)
--   [发票和装箱单编号](../../financials/localizations/emea-invoices-packing-slips-numbering.md)
--   [增值税报表明细](../../financials/localizations/emea-ltu-vat-statement-details.md)
+### <a name="latviafinancialslocalizationslatviamd"></a>[拉脱维亚](../../financials/localizations/latvia.md)
+### <a name="lithuaniafinancialslocalizationslithuaniamd"></a>[立陶宛](../../financials/localizations/lithuania.md)
 
 ### <a name="mexico"></a>墨西哥
 
@@ -242,29 +196,9 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
 
 -   [商品劳务税 (GST)](../../financials/localizations/apac-mys-gst.md)
 
-### <a name="netherlands"></a>荷兰
-
--   [发票签发截止时间](../../financials/localizations/emea-invoice-issue-deadline.md)
-
-### <a name="norway"></a>挪威
-
--   [适用于挪威的收银机](../../retail/localizations/emea-nor-cash-registers.md)
--   [适用于挪威的收银机的部署指南](../../retail/localizations/emea-nor-loc-deployment-guidelines.md)
--   [净导入格式](../../financials/localizations/emea-nor-nets-import-format.md)
--   [增值税报表](../../financials/localizations/emea-nor-sales-tax-payment-report.md)
-
-### <a name="poland"></a>波兰
-
--   [根据单位价格计算行折扣](../../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md)
--   [更正说明](../../financials/localizations/emea-pol-correction-notes.md)
--   [重复销售发票编号](../../financials/localizations/emea-pol-sales-invoice-duplicates-numbering.md)
--   [固定资产折旧](../../financials/localizations/emea-pol-fixed-assets-depreciation.md)
--   [固定资产处置](../../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md)
--   [可回收包装](../../financials/localizations/emea-pol-returnable-packages.md)
--   [销售税报表](../../financials/localizations/emea-pol-sales-tax-reports.md)
--   [标准审计文件 (SAF)](../../financials/localizations/emea-pol-standard-audit-file-saf.md)
--   [交易额和余额对帐单](../../financials/localizations/emea-pol-turnover-balances-statement.md)
-
+### <a name="netherlandsfinancialslocalizationsnetherlandsmd"></a>[荷兰](../../financials/localizations/netherlands.md)
+### <a name="norwayfinancialslocalizationsnorwaymd"></a>[挪威](../../financials/localizations/norway.md)
+### <a name="polandfinancialslocalizationspolandmd"></a>[波兰](../../financials/localizations/poland.md)
 ### <a name="saudi-arabia"></a>沙特阿拉伯
 
 -   [Zakat 报告](../../financials/localizations/emea-sau-zakat-reporting.md)
@@ -273,29 +207,9 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
 
 -   [生成新加坡 GST-05 报表](../../financials/localizations/apac-sgp-generate-gst-05-report.md)
 
-### <a name="spain"></a>西班牙
-
--   [西班牙汇票选项](../../financials/localizations/emea-esp-bill-of-exchange-options.md)
--   [在发票参数中应用现金折扣](../../financials/localizations/emea-esp-cash-discount-applied-invoice.md)
--   [特殊销售税](../../financials/localizations/emea-esp-conditional-sales-tax.md)
--   [固定资产重估组](../../financials/localizations/emea-esp-fixed-asset-group-revaluation.md)
--   [集团内部增值税](../../financials/localizations/emea-esp-intra-community-vat.md)
--   [零星客户](../../financials/localizations/emea-esp-no-one-time-customer-for-project-contracts.md)
--   [以西班牙版式打印支票](../../financials/localizations/emea-esp-print-checks-with-spanish-layout.md)
--   [西班牙本票选项](../../financials/localizations/emea-esp-promissory-note-options.md)
--   [销售和采购周期](../../financials/localizations/emea-esp-sales-purchase-cycle.md)
--   [特殊条目和期初单](../../financials/localizations/emea-esp-opening-sheets-spain.md)
--   [使用来自发票帐户的财务数据](../../financials/localizations/emea-esp-fiscal-data-invoice-account.md)
-
-### <a name="sweden"></a>瑞典
-
--   [导入适用于瑞典的付款形式](../../financials/localizations/emea-swe-payment-formats-import.md)
--   [适用于瑞典的收银机](../../retail/localizations/emea-swe-cash-registers.md)
-
-### <a name="switzerland"></a>瑞士
-
--   [ESR 客户付款导入](../../financials/localizations/emea-che-esr-customer-payments-import.md)
-
+### <a name="spainfinancialslocalizationsspainmd"></a>[西班牙](../../financials/localizations/spain.md)
+### <a name="swedenfinancialslocalizationsswedenmd"></a>[瑞典](../../financials/localizations/sweden.md)
+### <a name="switzerlandfinancialslocalizationsswitzerlandmd"></a>[瑞士](../../financials/localizations/switzerland.md)
 ### <a name="thailand"></a>泰国
 
 -   [存货卡报表](../../financials/localizations/apac-tha-stock-card-reports.md)
@@ -303,10 +217,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
 -   [未实现的增值税](../../financials/localizations/apac-tha-unrealized-vat.md)
 -   [预缴税金](../../financials/localizations/apac-tha-withholding-tax.md)
 
-### <a name="united-kingdom"></a>英国
-
--   [英国的建筑行业方案](../../financials/localizations/emea-gbr-cis-construction-industry-scheme.md)
-
+### <a name="united-kingdomfinancialslocalizationsunited-kingdommd"></a>[英国](../../financials/localizations/united-kingdom.md)
 ### <a name="united-states"></a>美国
 
 -   [公共部门中的 1099 表格](../../financials/localizations/noam-usa-form-1099-public-sector.md)   

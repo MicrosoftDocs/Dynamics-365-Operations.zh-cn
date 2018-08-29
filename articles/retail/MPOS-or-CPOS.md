@@ -1,5 +1,5 @@
 ---
-title: "在 Modern POS 和 Cloud POS 之间选择"
+title: "在 Retail Modern POS (MPOS) 和 Cloud POS 之间选择"
 description: "本主题说明 Retail Modern POS 和 Cloud POS 之间的主要差别。 它还描述实现 Microsoft Dynamics 365 for Retail 的零售商应考虑的以帮助他们作出满足自己要求的最佳选择的各个因素。"
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 7eb15f9f73f4773d98160e1b0ec5ce74c159cdea
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: aff9485789a3c7cedcea1a66e233603332c143b2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="choose-between-modern-pos-and-cloud-pos"></a>在 Modern POS 和 Cloud POS 之间选择
+# <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>在 Retail Modern POS (MPOS) 和 Cloud POS 之间选择
 
 [!include [banner](includes/banner.md)]
 

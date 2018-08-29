@@ -1,5 +1,5 @@
 ---
-title: "设置法人之间的 HR 参数"
+title: "跨法人设置人力资源 (HR) 参数"
 description: "您必须为在公司间共享的记录设置共享参数，例如职位记录。 本文说明如何设置跨法人的人力资源参数。"
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1241d8da101af094ac510819376908727f9bcf07
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: cc5acf7ba1b350ee2c91923c7de3b4780385f3ef
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-hr-parameters-across-legal-entities"></a>设置法人之间的 HR 参数
+# <a name="set-up-human-resources-hr-parameters-across-legal-entities"></a>跨法人设置人力资源 (HR) 参数
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "设计表达式以调用应用类方法 (ER)"
+title: "设计 ER 表达式以调用应用类方法"
 description: "本指南提供有关如何通过在 ER 表达式中调用必需的应用类方法来在电子报告 (ER) 配置中重用现有应用逻辑的信息。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 631fa7bae808856efb8b95700fd2a85e6d5f8725
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-expressions-to-call-application-class-methods-er"></a>设计表达式以调用应用类方法 (ER)
+# <a name="design-er-expressions-to-call-application-class-methods"></a>设计 ER 表达式以调用应用类方法
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

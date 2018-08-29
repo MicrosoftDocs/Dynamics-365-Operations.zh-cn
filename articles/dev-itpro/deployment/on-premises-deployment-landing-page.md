@@ -1,9 +1,9 @@
 ---
-title: "本地部署"
+title: "本地部署主页"
 description: "本主题提供有关本地部署的信息和内容链接。"
 author: kfend
 manager: AnnBe
-ms.date: 03/15/2018
+ms.date: 07/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,13 +18,13 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fa43f6683d43dfb62e8dc2c194ff2b82fe629fe3
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: aba11ae99393eb0d8c3e1df2276faa95ad831d29
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="on-premises-deployment-home-page"></a>本地部署主页
+# <a name="on-premises-deployments-home-page"></a>本地部署主页
 
 [!include [banner](../includes/banner.md)]
 
@@ -61,6 +61,6 @@ ms.lasthandoff: 03/26/2018
 - [Dynamics 365 for Finance and Operations 本地故障排除](troubleshoot-on-prem.md)
 - [未在本地部署中实现的功能](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [弃用的功能](../migration-upgrade/deprecated-features.md)
-- [软件生命周期政策和版本列表](../migration-upgrade/versions-update-policy.md)
+- [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)
  
 

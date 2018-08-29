@@ -1,5 +1,5 @@
 ---
-title: "创建零售销售优惠券"
+title: "设置零售销售优惠券"
 description: "此主题提供零售优惠券概览并阐述如何进行设置。"
 author: scott-tucker
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 9b4e792cae66e38546b3bdfdfbd59a2e36d891c2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: c718a71ca270c67118a90456bac0cf182032d3db
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="create-coupons-for-retail-sales"></a>创建零售销售优惠券
+# <a name="set-up-coupons-for-retail-sales"></a>设置零售销售优惠券
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "运行使用可水平扩展的范围在 Excel 报表中动态添加列的格式"
+title: "运行格式以将列动态添加到 Excel 报表充当可水平扩展的范围"
 description: "下列步骤介绍指定为系统管理员或电子申报开发人员角色的用户如何配置电子申报 (ER) 格式，以便将报表生成为 OPENXML 工作表 (Excel) 文件格式，在这种文件中，可以根据可水平扩展的范围动态创建所需列。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 2d705d0d2803b5254adc27e6715c1eac311898a7
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: c7d563da9a02c91cce17cfa1d4a6915dd768ac3d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="run-a-format-that-uses-horizontally-expandable-ranges-to-dynamically-add-columns-in-excel-reports"></a>运行使用可水平扩展的范围在 Excel 报表中动态添加列的格式
+# <a name="run-formats-to-dynamically-add-columns-to-excel-reports-as-horizontally-expandable-ranges"></a>运行格式以将列动态添加到 Excel 报表充当可水平扩展的范围
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "使用电子申报工具生成电子文档并更新申请表数据"
+title: "使用 ER 创建电子单据和更新应用程序数据"
 description: "您可以设计可在 Finance and Operations 应用中用来生成传出电子文档的电子申报 (ER) 格式。 您还可以设计用于分析传入电子文档并使用这些文档中的内容更新应用程序数据的 ER 格式。"
 author: NickSelin
 manager: AnnBe
@@ -19,18 +19,18 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: af7f9a373496eee4df354d5dd9e5a25c51317c43
-ms.openlocfilehash: e2447274016f517db3ec0eb8f55c6b3163822f50
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/27/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="generate-electronic-documents-and-update-application-data-using-the-electronic-reporting-tool"></a>使用电子申报工具生成电子文档并更新申请表数据
+# <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>使用 ER 创建电子单据和更新应用程序数据
 
 [!include [banner](../includes/banner.md)]
 
-您可以设计可在 Finance and Operations 应用中用来生成传出电子文档的电子申报 (ER) 格式。 您还可以设计用于分析传入电子文档并使用这些文档中的内容更新应用程序数据的 ER 格式。 
+您可以设计可在 Finance and Operations 应用中用来生成传出电子文档的电子申报 (ER) 格式。 您还可以设计用于分析传入电子文档并使用这些文档中的内容更新应用程序数据的 ER 格式。
 
 借助此功能，可使用单个 ER 格式生成传出电子文档后再更新应用程序数据。 此功能还可用于以下方案：
 

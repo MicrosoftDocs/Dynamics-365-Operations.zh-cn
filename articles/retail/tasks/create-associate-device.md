@@ -1,5 +1,5 @@
 --- 
-title: "创建和关联设备"
+title: "创建设备并与收银机关联"
 description: "此程序会逐步演示如何创建新设备并将其与收银机关联起来。"
 author: jashanno
 manager: AnnBe
@@ -17,13 +17,13 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 19be7c38e9612b54fe56ef6e0fd942587dd64a69
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 7df1111a00fc8ad7f684075fb772b1e33916b687
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-and-associate-a-device"></a>创建和关联设备
+# <a name="create-devices-and-associate-them-with-registers"></a>创建设备并与收银机关联
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 

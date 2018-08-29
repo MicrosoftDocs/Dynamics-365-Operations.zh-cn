@@ -1,5 +1,5 @@
 ---
-title: "为 POS 配置现金面额"
+title: "配置销售点 (POS) 的现金面额"
 description: "可以在后端办公系统中定义商店的收银员、销售内勤和经理从 POS 内使用的纸币和硬币的现金面额。"
 author: jblucher
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: afe7c359f284fde10ada377fb19add9819a8dd21
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: afc53754c3ff5b1afed2380369cf8280cfffc5e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-cash-denominations-for-pos"></a>为 POS 配置现金面额
+# <a name="configure-cash-denominations-for-the-point-of-sale-pos"></a>配置销售点 (POS) 的现金面额
 
 [!include [banner](includes/banner.md)]
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 11/03/2017
 ![现金面额](./media/image1-denomination.png)
 
 若要定义面额：
-1. 单击“**新建**”。
+1. 单击**新建**。
 1. 指定类型（硬币还是纸币）。
 1. 指定金额（值）。
 

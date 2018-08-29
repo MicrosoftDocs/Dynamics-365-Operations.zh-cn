@@ -1,5 +1,5 @@
 ---
-title: "Attract 概述"
+title: "Attract 特性和功能"
 description: "Attract 提供用于管理新人才雇用流程的功能。 可以将应聘者添加到空缺职位并逐级提升，直到发出聘约或申请被拒绝。"
 author: rschloma
 manager: AnnBe
@@ -18,13 +18,13 @@ ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b64a97897a1ea75eb2a9681bc9357433a570dd74
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: 37dd0396787375fccd4082f392e079ed5dab04e9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="attract-overview"></a>Attract 概述
+# <a name="attract-features-and-capabilities"></a>Attract 特性和功能
 
 [!include [banner](includes/banner.md)]
 

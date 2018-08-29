@@ -1,5 +1,5 @@
 ---
-title: "电子申报概览"
+title: "电子申报 (ER)"
 description: "此主题概要介绍了电子申报 (ER) 工具。 内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。"
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8f0bc18dd7ead37e970b659afbb10243dac5f967
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: a271887c4d2cfe4d0ee6518482dc4ebe407ebe56
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="electronic-reporting-overview"></a>电子申报概览
+# <a name="electronic-reporting-er"></a>电子申报 (ER)
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "设计配置以分析应用程序数据更新的传入单据 (ER)"
+title: "设计 ER 配置以分析传入单据"
 description: "此过程显示如何设计电子报告 (ER) 配置以分析传入电子单据。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 74606b1378e94e8a6945a408520c8b68648970d8
-ms.openlocfilehash: 96c9397c6a83d61b679492f66f4aa6661f1f8621
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 9e5f826afa141c0851a963b33e40c58513e60a07
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="design-configurations-to-parse-incoming-documents-for-application-data-updates-er"></a>设计配置以分析应用程序数据更新的传入单据 (ER)
+# <a name="design-er-configurations-to-parse-incoming-documents"></a>设计 ER 配置以分析传入单据
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 02/07/2018
 
 此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 
 
-可使用任何数据集完成这些步骤。 首先，下载并保存主题“分析传入单据以更新应用程序数据”(https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents) 中列出的文件。 文件为：EFSTA model.xml、EFSTA format.xml、Response1.xml、Response2.xml、Response3.xml、Response4.xml。
+可使用任何数据集完成这些步骤。 首先，请下载并保存“分析传入的文档以更新申请表数据”主题中列举的文件 (https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/parse-incoming-electronic-documents)。 文件为：EFSTA model.xml、EFSTA format.xml、Response1.xml、Response2.xml、Response3.xml、Response4.xml。
 
 1. 转到“组织管理”>“工作区”>“电子申报”。
     * 确保示例公司 Litware 公司的配置提供程序可用且标记为“有效”。 如果没有看到此配置提供程序，请首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。  

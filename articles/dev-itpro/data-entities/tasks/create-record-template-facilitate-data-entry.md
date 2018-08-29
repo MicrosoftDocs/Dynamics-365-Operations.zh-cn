@@ -16,13 +16,13 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6f8d804133f8e9c6f47420d41df8d9430381e2fe
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: afe2da72ef6a6451e797ed6098df164e765e503e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-a-record-template-to-facilitate-data-entry"></a>创建记录模板以加快数据输入
+# <a name="create-record-templates-to-facilitate-data-entry"></a>创建记录模板以加快数据输入
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

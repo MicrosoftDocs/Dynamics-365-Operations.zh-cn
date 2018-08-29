@@ -23,7 +23,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: 6e4f89d86b64e0c8c76c15d3c2c1c00af353e9ca
 ms.openlocfilehash: e64ec1191d82b9f1418e86ce819736903c0137aa
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/17/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365 for Retail
+title: "欢迎使用 Dynamics 365 for Retail"
 description: "Dynamics 365 for Retail 的主页"
 author: josaw1
 manager: AnnBe
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 164932ac3bc701696f5c0b08c5e2d585d9a8ba6a
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -48,7 +48,7 @@ Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供�
 此外，客户可以随意选择购买哪种产品、何时购买产品及以期望的价格购买产品。 为了维持客户忠诚度，您可以使用可简化购物流程的个性化通知和服务。
 
 ## <a name="hardware-and-peripherals"></a>硬件和外围设备
-Modern Point of Sale (MPOS) 和 Cloud POS 可以使用各种硬件外设。 MPOS 和 Cloud POS 均提供多个界面和部署选项，帮助您应对各种业务场景。
+Retail Modern Point of Sale (MPOS) 和 Cloud POS 可以使用各种硬件外设。 MPOS 和 Cloud POS 均提供多个界面和部署选项，帮助您应对各种业务场景。
 
 Retail 的外围设备模拟器包括一个虚拟外围设备模拟器和一个 POS 模拟器。 虚拟外围设备模拟器主要支持对通常需要实际 POS 外围设备的方案进行测试。 使用 POS 模拟器，您可以通过 Retail 测试实际外围设备的兼容性，而不必部署 POS 客户端。
 

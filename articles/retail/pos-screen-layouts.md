@@ -1,5 +1,5 @@
 ---
-title: "配置 POS 的屏幕布局"
+title: "销售点 (POS) 的屏幕布局"
 description: "此主题提供有关 Microsoft Dynamics 365 for Retail 销售点 (POS) 体验的屏幕布局的信息。"
 author: jblucher
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: e6d5cb4c5744f843ea2b877103f55f327d371eee
-ms.openlocfilehash: e8606c149db4e821bed02d28c607546ec6ce6956
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/23/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-screen-layouts-for-pos"></a>配置 POS 的屏幕布局
+# <a name="screen-layouts-for-the-point-of-sale-pos"></a>销售点 (POS) 的屏幕布局
 
 [!include [banner](includes/banner.md)]
 

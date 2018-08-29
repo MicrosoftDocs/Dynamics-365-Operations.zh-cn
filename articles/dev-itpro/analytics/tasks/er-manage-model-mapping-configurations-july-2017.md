@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 管理模型映射配置"
+title: "管理单独 ER 配置中的 ER 模型映射"
 description: "以下步骤说明了指派为“系统管理员”或者“电子电子报表开发人员”角色的用户如何管理单独 ER 配置中的电子申报 (ER) 模型映射。"
 author: NickSelin
 manager: AnnBe
@@ -16,19 +16,19 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 35fdc1e98897d449ce18fe38cc6b7896ca5c5278
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="manage-model-mapping-configurations-for-electronic-reporting-er"></a>针对电子申报 (ER) 管理模型映射配置
+# <a name="manage-er-model-mapping-in-separate-er-configurations"></a>管理单独 ER 配置中的 ER 模型映射
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
 以下步骤说明了指派为“系统管理员”或者“电子电子报表开发人员”角色的用户如何管理单独 ER 配置中的电子申报 (ER) 模型映射。 在此任务指南中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成此任务指南，您必须首先完成任务指南“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 
 
-由于 ER 配置在公司之间共享，所以您可以使用所选公司数据集完成此任务指南。 如果您已安装了以下修补程序之一，则可使用此任务指南的功能：针对 Dynamics AX 7.0 版本的 https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 或针对 Dynamics 365 for Operations 版本的 https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871。
+由于 ER 配置在公司之间共享，所以您可以使用所选公司数据集完成此任务指南。 如果已安装了下列修补程序之一，则此任务指南的功能可用：适用于 Dynamics AX 7.0 版的 https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012872 或适用于 Dynamics 365 for Operations 版的 https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871。
 
 1. 转到“组织管理”>“工作区”>“电子申报”。
     * 验证示例公司 Litware 公司的配置提供程序可用且标记为有效。 如果没有看到此配置提供程序，您必须首先完成“创建配置提供程序并标记为有效”这一任务指南中的步骤。   

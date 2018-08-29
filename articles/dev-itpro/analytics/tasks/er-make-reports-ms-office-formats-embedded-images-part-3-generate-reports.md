@@ -1,5 +1,5 @@
 --- 
-title: "生成 Microsoft Office 格式的包含嵌入图像的报表"
+title: "以 Office 格式生成包含嵌入图像的报表"
 description: "以下步骤说明“系统管理员”或“电子申报开发人员”角色的用户如何设计电子申报 (ER) 配置，以便生成包含嵌入图像的 MS office 格式（Excel 和 Word）的电子单据。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: e2ab89857f4bf4844123508837c8faa504bc8839
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 5ef7ec2f8b5b7fdf456ebb71b863e620ae21e6b5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="generate-reports-in-microsoft-office-formats-with-embedded-images"></a>生成 Microsoft Office 格式的包含嵌入图像的报表
+# <a name="generate-reports-in-office-format-that-have-embedded-images"></a>以 Office 格式生成包含嵌入图像的报表
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

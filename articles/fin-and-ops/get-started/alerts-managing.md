@@ -1,5 +1,5 @@
 ---
-title: "预警的批处理执行"
+title: "预警的批处理"
 description: "此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 中预警的批处理的信息。"
 author: tjvass
 manager: AnnBe
@@ -16,14 +16,14 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: 454368ab5a467002ebf973db97fd98e31885dfe0
-ms.openlocfilehash: f4c874c148dc10ac658f659896009981962a5802
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/23/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="batch-processing-for-alerts"></a>预警的批处理
+# <a name="batch-processing-of-alerts"></a>预警的批处理
 [!include [banner](../includes/banner.md)]
 
 预警由 Microsoft Dynamics 365 for Finance and Operations 中的批处理功能处理。 您必须首先设置批处理，然后才可以发出预警。

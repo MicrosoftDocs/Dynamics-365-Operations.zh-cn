@@ -16,13 +16,13 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 317f361cbd7d63a1017cfa085afee80a5c67e0eb
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 5ae80e9c1c36ea983b21da2d9c7cca5148157b67
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-an-open-ended-question"></a>创建开放式问题
+# <a name="create-open-ended-questions"></a>创建开放式问题
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "智能"
+title: "“商业智能 (BI) 与报告”主页"
 description: "此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations 中提供的商业智能和报告工具的详细信息。"
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 14a18681a98a2efbf6e3cfdbe77d282e74374c71
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="intelligence"></a>智能
+# <a name="business-intelligence-bi-and-reporting-home-page"></a>“商业智能 (BI) 与报告”主页
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,13 +43,13 @@ Finance and Operations 提供无缝集成到应用程序工作区的交互式报
 
 ![工作区中的 Power BI 示例](./media/Power-BI-in-D365-Workspace.png)
 
- 若要了解详细信息，请参阅以下主题：
+若要了解详细信息，请参阅以下主题：
 
- - [工作区中的嵌入式 Power BI](embed-power-bi-workspaces.md)
- - [Power BI Embedded 集成](power-bi-embedded-integration.md)
- - [使用 Power BI Embedded 将分析添加到工作区](add-analytics-tab-workspaces.md)
- - [使用 Power BI Embedded 帮助保护分析工作区和报表](secure-analytical-workspaces.md)
- - [用于 Finance and Operations 的 Power BI 内容](power-bi-home-page.md)
+- [工作区中的嵌入式 Power BI](embed-power-bi-workspaces.md)
+- [Power BI Embedded 集成](power-bi-embedded-integration.md)
+- [使用 Power BI Embedded 将分析添加到工作区](add-analytics-tab-workspaces.md)
+- [使用 Power BI Embedded 帮助保护分析工作区和报表](secure-analytical-workspaces.md)
+- [用于 Finance and Operations 的 Power BI 内容](power-bi-home-page.md)
 
 ## <a name="business-documents-and-printing"></a>业务文档和打印
 报告解决方案通常用于捕获和沟通业务事务的详细信息。 因此，报告解决方案必须能够通过使用现有设备，如网络打印机，生成业务数据的实体。 业务文档的示例包括销售发票、客户对帐单和支票。

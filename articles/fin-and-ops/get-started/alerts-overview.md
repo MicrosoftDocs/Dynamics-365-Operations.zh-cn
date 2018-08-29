@@ -1,5 +1,5 @@
 ---
-title: "预警概述"
+title: "预警"
 description: "此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 中预警的一般信息。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。"
 author: tjvass
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ad9373faa19761cccca2b5d581de05f0ac9dd165
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="alerts-overview"></a>预警概述
+# <a name="alerts"></a>预警
 
 [!include [banner](../includes/banner.md)]
 
