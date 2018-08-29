@@ -1,4 +1,4 @@
-- name: Dynamics 365 for Finance and Operations 的开发和管理
+- name: Finance and Operations 的开发和管理
   href: index.md
 - name: 云部署的系统要求
   href: ../fin-and-ops/get-started/system-requirements.md?toc=/dev-itpro/toc.json
@@ -7,7 +7,7 @@
 - name: 演示数据
   href: ../fin-and-ops/get-started/demo-data.md?toc=/dev-itpro/toc.json
   items:
-    - name: 生成演示数据包
+    - name: 使用数据包生成演示数据
       href: data-entities/generate-demo-data-packages.md
 - name: 使用 Visual Studio 进行开发和自定义
   href: dev-tools/developer-home-page.md
@@ -16,18 +16,18 @@
       href: dev-tools/application-stack-server-architecture.md
     - name: 获取评估副本
       href: dev-tools/get-evaluation-copy.md
-    - name: 注册订阅
+    - name: 注册预览订阅
       href: dev-tools/sign-up-preview-subscription.md
     - name: 部署和访问开发环境
       href: dev-tools/access-instances.md
       items:
-        - name: 配置开发人员 VM
+        - name: 配置一体框开发环境
           href: dev-tools/configure-developer-vm.md
         - name: 在开发计算机上创建新用户
           href: dev-tools/enable-development-machine.md
-        - name: 开发和创建不允许管理员访问常见问题的 VM
+        - name: 开发和构建不允许管理员访问常见问题的 VM
           href: sysadmin/VMs-no-admin-access.md
-        - name: 重命名本地环境以支持对 Visual Studio Team Services 的访问
+        - name: 重命名本地环境以访问 Visual Studio Team Services
           href: migration-upgrade/vso-machine-renaming.md
         - name: 开发系统要求
           href: dev-tools/development-system-requirements.md
@@ -35,13 +35,13 @@
       href: dev-tools/version-control-metadata-navigation.md
     - name: 车队管理示例应用程序
       items:
-        - name: 车队管理示例应用程序
+        - name: 车队管理应用范例的端到端方案
           href: dev-tools/fleet-management-sample.md
-        - name: 车队管理示例应用程序概览
+        - name: 车队管理示例应用程序
           href: dev-tools/introduction-fleet-management-sample.md
     - name: Visual Studio Tools
       items:
-        - name: 开发工具概览
+        - name: 开发工具
           href: dev-tools/development-tools-overview.md
         - name: 开发工具教程
           href: dev-tools/introduction-visual-studio.md
@@ -51,12 +51,12 @@
           href: dev-tools/build-debug-project.md
         - name: 生成操作
           href: dev-tools/build-operations.md
-        - name: 代码编辑器
+        - name: 代码编辑器功能
           href: dev-tools/code-editor.md
         - name: 创建模型和数据模型元素
           href: dev-tools/create-data-model-elements.md
           items:
-            - name: 命名准则
+            - name: 扩展的命名准则
               href: extensibility/NamingGuidelines.md
             - name: 关闭模型自定义和弃用功能
               href: dev-tools/lock-models.md
@@ -64,15 +64,15 @@
           href: dev-tools/customization-analysis-report.md
         - name: 元素设计器
           href: dev-tools/element-designers.md
-        - name: 元素使用
+        - name: 用于确定元素使用的命令
           href: dev-tools/element-usage.md
         - name: 导出和导入模型
           href: dev-tools/models-export-import.md
         - name: Visual Studio 中的元数据搜索
           href: dev-tools/metadata-search-visual-studio.md
-        - name: 模型
+        - name: 模型和包装
           href: dev-tools/models.md
-        - name: Dynamics 365 for Finance and Operations 中的项目
+        - name: Finance and Operations 项目类型
           href: dev-tools/projects.md
         - name: Visual Studio Tools 加载项
           href: dev-tools/developer-tools-add-ins.md
@@ -80,7 +80,7 @@
           href: dev-tools/update-development-tools.md
     - name: X++ 编程语言
       items:
-        - name: 'X++ 和调试器功能  '
+        - name: X++ 和调试器功能
           href: dev-tools/new-x-debugger-features.md
         - name: 针对生产数据库的副本调试 X++
           href: dev-tools/debug-x-issue-against-copy-of-production.md
@@ -88,13 +88,13 @@
           href: dev-tools/debug-xpp.md
         - name: 请求或响应方案中的 EventHandlerResult 类
           href: dev-tools/event-handler-result-class.md
-        - name: '使用 C\# 和 X++ 源代码编写业务逻辑'
+        - name: '使用 C# 和 X++ 源代码编写业务逻辑'
           href: dev-tools/write-business-logic.md
-        - name: 编程语言支持
+        - name: X++ 和 X++ 编译器中的更改
           href: dev-tools/programming-language-support.md
-        - name: 'C\# 的 LINQ 提供程序'
+        - name: 'C# 的 LINQ 提供程序'
           href: dev-tools/linq-provider-c.md
-        - name: 创作最佳实践
+        - name: 编写最佳实践规则
           href: dev-tools/author-best-practice-rules.md
         - name: 应用程序资源管理器属性
           href: dev-ref/application-explorer-aot-properties.md
@@ -118,7 +118,7 @@
               href: dev-ref/xpp-macros.md
             - name: X++ 属性类
               href: dev-ref/xpp-attribute-classes.md
-            - name: 'X++ 和 C\# 比较'
+            - name: 'X++ 和 C# 对比'
               href: dev-ref/xpp-cs-comparison.md
             - name: X++ 语法
               href: dev-ref/xpp-syntax.md
@@ -160,29 +160,29 @@
               href: dev-ref/d-classes.md
             - name: E 类
               href: dev-ref/e-classes.md
-            - name: F 类：FieldBinding 到 FormBuildAnimateControl
+            - name: F 类（FieldBinding 到 FormBuildAnimateControl）
               href: dev-ref/fieldbinding-classes.md
-            - name: F 类：FormBuildButtonControl 到 FormBuildFastTabSummarySeparator
+            - name: F 类（FormBuildButtonControl 到 FormBuildFastTabSummarySeparator）
               href: dev-ref/formbuildbuttoncontrol-classes.md
-            - name: F 类：FormBuildFilterPaneControl 到 FormBuildRealControl
+            - name: F 类（FormBuildFilterPaneControl 到 FormBuildRealControl）
               href: dev-ref/formbuildfilterpanecontrol-classes.md
-            - name: F 类：FormBuildReferenceControl 到o FormButtonSeparatorControl
+            - name: F 类（FormBuildReferenceControl 到 FormButtonSeparatorControl）
               href: dev-ref/formbuildreferencecontrol-classes.md
-            - name: F 类：FormChangeTracker 到 FormControlEventArgs
+            - name: F 类（FormChangeTracker 到 FormControlEventArgs）
               href: dev-ref/formchangetracker-classes.md
-            - name: F 类：FormDataObject 到 FormFastTabHeaderControl
+            - name: F 类（FormDataObject 到 FormFastTabHeaderControl）
               href: dev-ref/formdataobject-classes.md
-            - name: F 类：FormFastTabSummarySeparator 到 FormGridControl
+            - name: F 类（FormFastTabSummarySeparator 到 FormGridControl）
               href: dev-ref/formfasttabsummaryseparator-classes.md
-            - name: F 类：FormGroupControl 到 FormIntControl
+            - name: F 类（FormGroupControl 到 FormIntControl）
               href: dev-ref/formgroupcontrol-classes.md
-            - name: F 类：FormListBoxControl 到 FormNotifyEventArgs
+            - name: F 类（FormListBoxControl 到 FormNotifyEventArgs）
               href: dev-ref/formlistboxcontrol-classes.md
-            - name: F 类：FormObject 到 FormRealControl
+            - name: F 类（FormObject 到 FormRealControl）
               href: dev-ref/formobject-classes.md
-            - name: F 类：FormReferenceControl 到 FormStringControl
+            - name: F 类（FormReferenceControl 到 FormStringControl）
               href: dev-ref/formreferencecontrol-classes.md
-            - name: F 类：FormTabControl 到 FormWindowControl
+            - name: F 类（FormTabControl 到 FormWindowControl）
               href: dev-ref/formtabcontrol-classes.md
             - name: G 类
               href: dev-ref/g-classes.md
@@ -229,43 +229,49 @@
               href: extensibility/extensibility-roadmap.md
             - name: 可扩展性请求
               href: extensibility/extensibility-requests.md
-            - name: 常见问题
+            - name: 可扩展性常见问题
               href: extensibility/app-sealing-faq.md
             - name: 从覆盖迁移到扩展
               href: extensibility/migrate-overlayer-extension.md
-            - name: 使用扩展自定义模型元素（教程）
+            - name: 通过扩展自定义模型元素（教程）
               href: extensibility/customize-model-elements-extensions.md
-            - name: 自定义：覆盖和扩展
+            - name: 通过扩展和覆盖进行自定义
               href: extensibility/customization-overlayering-extensions.md
         - name: 新增功能
           items:
             - name: 可扩展性更改，2017 年 7 月
               href: extensibility/changes-july-2017.md
-            - name: 可扩展性更改版本 7.3
+            - name: 版本 7.3 中的可扩展性更改
               href: extensibility/extensibility-changes-73.md
-            - name: 可扩展性更改版本 8.0
+            - name: 版本 8.0 中的可扩展性更改
               href: extensibility/changes-80.md
+            - name: 可扩展性更改版本 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: 可扩展性更改版本 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: 可扩展性更改版本 8.0.3
+              href: extensibility/extensibility-changes-803.md
         - name: 基本原理
           items:
             - name: 自动插入的自定义项
               href: extensibility/intrusive-customizations.md
-            - name: 类扩展
+            - name: 类扩展模型
               href: extensibility/class-extensions.md
-            - name: 类扩展：方法包装和命令链
+            - name: 通过方法包装和命令链实现的类扩展
               href: extensibility/method-wrapping-coc.md
-            - name: 命名准则
+            - name: 模型扩展的命名准则
               href: extensibility/naming-guidelines-extensions.md
-            - name: 放宽模型限制以支持将重叠重构到扩展
+            - name: 放宽模型限制以将覆盖重构到扩展
               href: extensibility/refactoring-over-layering.md
         - name: 如何做？
           items:
-            - name: 添加枚举值
+            - name: 将值添加到 enums
               href: extensibility/add-enum-value.md
             - name: 修改扩展数据类型
               href: extensibility/modify-edt.md
             - name: 登记工厂方法子类
               href: extensibility/register-subclass-factory-methods.md
-            - name: 使用 EventHandlerResult 响应
+            - name: 使用 EventHandlerResult 进行响应
               href: extensibility/respond-event-handler-result.md
             - name: 扩展 RunBase 类
               href: extensibility/extend-runbase-class.md
@@ -273,31 +279,31 @@
               href: extensibility/startup-customizations.md
             - name: 修改表中的现有字段
               href: extensibility/modify-existing-field.md
-            - name: 向现有表添加新字段
+            - name: 将字段添加到表
               href: extensibility/add-field-extension.md
-            - name: 向现有表添加索引
+            - name: 将索引添加到表
               href: extensibility/add-index.md
-            - name: 向现有表添加关系
+            - name: 将关系添加到表
               href: extensibility/add-relation.md
-            - name: 修改现有表上的属性
+            - name: 修改表属性
               href: extensibility/modify-properties.md
-            - name: 向表添加方法
+            - name: 将方法添加到表
               href: extensibility/add-method-table.md
             - name: 在表记录的整个生命周期执行业务行动
               href: extensibility/subscribe-table-events.md
-            - name: 向窗体添加新数据源
+            - name: 将数据源添加到窗体
               href: extensibility/add-datasource.md
-            - name: 更改窗体上的标题
+            - name: 更改窗体标题
               href: extensibility/change-caption-form.md
             - name: 修改窗体控件属性
               href: extensibility/modify-control-properties.md
-            - name: 更改标签
+            - name: 使用标签扩展文件更改标签
               href: extensibility/change-label.md
-            - name: 扩展编号规则作用域
+            - name: 扩展编号规则的作用域
               href: extensibility/extend-number-sequence-scope.md
             - name: 添加新库存维度
               href: extensibility/inventory-dimensions.md
-            - name: 价格和折扣可扩展性的更改
+            - name: 价格和折扣可扩展性
               href: extensibility/pricing-app73.md
             - name: 表映射扩展
               href: extensibility/map-extensions.md
@@ -309,9 +315,11 @@
       items:
         - name: 使用跟踪分析器跟踪
           href: perf-test/trace-trace-tutorial.md
-        - name: 使用 Visual Studio Team Services 进行的 PerfSDK 和多用户测试
+        - name: 通过 Visual Studio Online 进行性能 SDK 和多用户测试
           href: perf-test/perfsdk-tutorial.md
-        - name: 使用跟踪分析器诊断问题和分析性能问题
+        - name: 本地环境中的性能 SDK 和多用户测试
+          href: perf-test/perfsdk-tutorial-lbd.md
+        - name: 使用跟踪分析器诊断问题和分析性能
           href: perf-test/trace-parser.md
         - name: 性能计时器
           href: perf-test/performance-timer.md
@@ -321,7 +329,7 @@
           href: perf-test/testing-validation.md
         - name: Visual Studio 中的测试项目
           href: perf-test/testing-support.md
-        - name: 采用连续生成和测试自动化的部署
+        - name: 部署支持持续构建和测试自动化的拓扑
           href: perf-test/continuous-build-test-automation.md
     - name: 日期有效性
       href: dev-tools/date-effectivity.md
@@ -344,19 +352,19 @@
           href: user-interface/build-workspace.md
     - name: 窗体
       items:
-        - name: Dynamics 365 for Finance and Operations 中的导航
+        - name: 导航概念
           href: user-interface/page-navigation.md
-        - name: Dynamics 365 for Finance and Operations 中的布局
+        - name: Web 客户端中的页面布局
           href: user-interface/page-layout.md
-        - name: Symbol 字体
+        - name: Dynamics 符号字体
           href: user-interface/symbol-font.md
-        - name: 具有自定义模式的测试窗体
+        - name: 使用自定义模式的测试窗体
           href: user-interface/testing-forms-custom-patterns.md
-        - name: 创建并使用深层链接
+        - name: 创建可共享且安全的 URL（深层链接）
           href: user-interface/create-deep-links.md
         - name: 窗体、产品和控件中的辅助功能
           href: user-interface/enable-accessibility.md
-        - name: 自定义字段帮助
+        - name: 自定义字段描述
           href: user-interface/customize-field-help.md
     - name: 控件
       items:
@@ -366,7 +374,7 @@
           href: user-interface/sizing-input-controls-grid-columns.md
         - name: 树型控件中的复选框支持
           href: user-interface/check-box-tree-controls.md
-        - name: 筛选器
+        - name: 筛选选项
           href: user-interface/filtering.md
         - name: PowerApps 主机控制
           href: user-interface/powerapps-host-control.md
@@ -374,7 +382,7 @@
       items:
         - name: 迁移上下文菜单代码
           href: migration-upgrade/code-migration-context-menus.md
-        - name: 迁移鼠标双击代码
+        - name: 迁移鼠标双击逻辑
           href: migration-upgrade/code-migration-double-click.md
         - name: 查找的上下文数据条目
           href: user-interface/contextual-data-entry-lookups.md
@@ -386,7 +394,7 @@
           href: user-interface/file-upload-control.md
         - name: 系统定义的按钮
           href: user-interface/system-defined-buttons.md
-        - name: 图像
+        - name: 页面上或网格中的图像
           href: user-interface/images-form-grid.md
         - name: 输入、表和网格控件的字体和背景颜色
           href: user-interface/specify-color-font-background-controls.md
@@ -394,13 +402,13 @@
           href: user-interface/bidirectional-support.md
         - name: 创建工作区磁贴的图标
           href: user-interface/create-icons-workspace-tiles.md
-        - name: 可扩展控件 - 公共 JavaScript API
+        - name: 可扩展控件的公共 JavaScript API
           href: user-interface/public-javascript-apis.md
         - name: 控制核对清单
           href: user-interface/control-checklist.md
     - name: 消息
       items:
-        - name: 滑块和消息框
+        - name: 滑块和消息框对话框
           href: user-interface/slider-messagebox.md
         - name: 消息中心、消息栏和消息详细信息 API
           href: user-interface/messaging-api-center-bar-details.md
@@ -408,11 +416,11 @@
           href: user-interface/messaging-user.md
     - name: 主窗体模式准则
       items:
-        - name: 选择窗体模式
+        - name: 已迁移窗体的窗体模式
           href: user-interface/select-form-pattern.md
         - name: 窗体样式和模式
           href: user-interface/form-styles-patterns.md
-        - name: 窗体模式加载项
+        - name: 支持窗体模式的 Visual Studio 加载项
           href: user-interface/form-pattern-add-ins.md
     - name: 窗体模式
       items:
@@ -498,7 +506,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: 控件可扩展性
       items:
-        - name: 构建可扩展控件
+        - name: 构建 aextensible 控件
           href: user-interface/build-extensible-control.md
         - name: 可扩展控件的键盘快捷键
           href: user-interface/keyboard-shortcuts-controls.md
@@ -523,17 +531,17 @@
       items:
         - name: 任务录制器快速参考
           href: user-interface/task-recorder-quick-reference.md
-        - name: 使用任务录制器创建文档或培训
+        - name: 通过任务录制器创建文档或培训
           href: user-interface/task-recorder-training-docs.md
 - name: 移动平台
   href: mobile-apps/platform/mobile-platform-home-page.md
   items:
-    - name: 入门
+    - name: 开始
       href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
-        - name: 体系结构
+        - name: 体系结构和设计注意事项
           href: mobile-apps/platform/mobile-platform-architecture.md
-        - name: 业务逻辑事件概述
+        - name: 业务逻辑事件
           href: mobile-apps/platform/business-logic-events-overview.md
         - name: 页面设计准则
           href: mobile-apps/platform/page-design-guidelines.md
@@ -545,13 +553,13 @@
       items:
         - name: 使用 SysAppWorkspace 类配置工作区
           href: mobile-apps/platform/scenarios/mobile-workspace-configuration.md
-        - name: 自定义字段显示以使其可点击
+        - name: 使移动应用页面上的字段可单击
           href: mobile-apps/platform/scenarios/make-workspace-field-clickable.md
         - name: 在字段中显示计数
           href: mobile-apps/platform/scenarios/display-count-workspace.md
-        - name: 帮助保护移动应用工作区
+        - name: 帮助保护移动工作区
           href: mobile-apps/platform/scenarios/secure-mobile-workspace.md
-        - name: 在服务器上本地化工作区
+        - name: 本地化移动工作区
           href: mobile-apps/platform/scenarios/localize-workspaces-on-server.md
         - name: 使用工作区类将字段设置为必填字段
           href: mobile-apps/platform/scenarios/make-field-mandatory.md
@@ -561,7 +569,7 @@
           href: mobile-apps/platform/mobile-workspace-server-apis.md
     - name: 客户端开发参考
       items:
-        - name: 客户端设计 API 概览
+        - name: 客户端设计 API
           href: mobile-apps/platform/scenarios/client-api-design-overview.md
         - name: 客户端 API
           href: mobile-apps/platform/client-apis/client-apis-reference.md
@@ -598,7 +606,7 @@
               href: mobile-apps/platform/client-apis/modules/view-model-control-lookup-imultilookup.md
             - name: 页面模块
               href: mobile-apps/platform/client-apis/modules/view-model-ipage.md
-            - name: 页面链接模块
+            - name: Pagelink 模块
               href: mobile-apps/platform/client-apis/modules/view-model-control-pagelink-ipagelink.md
             - name: 部件模块
               href: mobile-apps/platform/client-apis/modules/view-model-control-part-ipart.md
@@ -606,7 +614,7 @@
               href: mobile-apps/platform/client-apis/modules/services-business-logic-services.md
             - name: 值模块
               href: mobile-apps/platform/client-apis/modules/view-model-control-value-ivalue.md
-            - name: Application 类型
+            - name: 应用程序类型
               href: mobile-apps/platform/client-apis/interfaces/services-application-iapplication.md
             - name: ApplicationMetadata 类型
               href: mobile-apps/platform/client-apis/interfaces/services-application-iapplicationmetadata.md
@@ -626,11 +634,11 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrolmetadata.md
             - name: DataService 类型
               href: mobile-apps/platform/client-apis/interfaces/services-business-logic-services-idataservice.md
-            - name: Deferred 类型
+            - name: Deferred 类型<T>
               href: mobile-apps/platform/client-apis/interfaces/defer-ideferred.md
             - name: Design 类型
               href: mobile-apps/platform/client-apis/interfaces/view-model-ipage-idesign.md
-            - name: EventHook 类型
+            - name: EventHook 类型<T>
               href: mobile-apps/platform/client-apis/interfaces/event-ievent-ieventhook.md
             - name: Field 类型
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-field-ifield-ifield.md
@@ -646,7 +654,7 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-fileuploader-ifileuploader-ifileuploadermetadata.md
             - name: GenericValue 类型
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-igenericvalue.md
-            - name: getDataSource
+            - name: getDataSource 类型
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-basecontrol-icontrol-icontrol.md
             - name: Group 类型
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-group-igroup-igroup.md
@@ -734,24 +742,24 @@
       href: data-entities/integration-overview.md
     - name: 数据集成 API
       items:
-        - name: 数据管理包 API
+        - name: 数据管理包 REST API
           href: data-entities/data-management-api.md
         - name: 服务终结点
           href: data-entities/services-home-page.md
           items:
-            - name: 服务身份验证故障排除
+            - name: 对服务身份验证进行故障排除
               href: data-entities/troubleshoot-service-authentication.md
         - name: OData
           href: data-entities/odata.md
-        - name: 客户服务
+        - name: 自定义服务开发
           href: data-entities/custom-services.md
         - name: 定期集成
           href: data-entities/recurring-integrations.md
-        - name: 使用第三方服务测试带有服务的实用程序
+        - name: 使用第三方实用程序测试服务
           href: data-entities/third-party-service-test.md
     - name: 集成开发
       items:
-        - name: 使用数据实体进行数据集成
+        - name: 使用数据实体进行数据管理和集成
           href: data-entities/data-management-integration-data-entity.md
           items:
             - name: 开发数据迁移实体
@@ -762,7 +770,7 @@
               href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
             - name: 创建记录模板以加快数据输入
               href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: 使用记录模板创建新记录
+            - name: 使用记录模板创建记录
               href: data-entities/tasks/use-record-template-new-record.md
         - name: 使用 Common Data Service 进行数据集成
           href: data-entities/data-integration-cds.md
@@ -791,6 +799,21 @@
                   href: ../supply-chain/sales-marketing/field-service-work-order.md
                 - name: 将 Field Service 的协议发票同步到 Finance and Operations 的普通发票
                   href: ../supply-chain/sales-marketing/field-service-invoice.md
+            - name: 配置 Project Service Automation 集成
+              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
+              items:
+                - name: Project Service Automation 集成参数
+                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
+                - name: 同步项目合同和项目
+                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
+                - name: 同步项目任务
+                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
+                - name: 同步项目支出类别
+                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
+                - name: 将项目评估同步到项目预测
+                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
+                - name: 将项目实际值同步到项目集成日记帐
+                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
         - name: 使用外部 Web 服务
           href: data-entities/consume-external-web-service.md
 - name: 数据管理
@@ -809,7 +832,7 @@
           href: data-entities/configuration-data-templates.md
         - name: 带有多个工作表的数据模板
           href: data-entities/excel-template-multiple.md
-        - name: 跟踪实体更改
+        - name: 启用对实体的更改跟踪
           href: data-entities/entity-change-track.md
         - name: 配置键和数据实体
           href: data-entities/config-key-entities.md
@@ -826,13 +849,13 @@
           href: dev-tools/design-best-practices.md
         - name: 创建新数据实体
           href: data-entities/build-consuming-data-entities.md
-        - name: 数据实体属性
+        - name: 数据实体行为属性
           href: data-entities/behavioral-properties-data-entities.md
         - name: 创建计算列和虚拟字段
           href: data-entities/data-entity-computed-columns-virtual-fields.md
         - name: 跨公司行为
           href: data-entities/cross-company-behavior.md
-        - name: 处理国家/地区代码
+        - name: 国家/地区代码和 Configuration Key
           href: data-entities/countryregion-codes-configuration-keys.md
         - name: 继承模式
           href: data-entities/support-super-type-sub-type.md
@@ -844,7 +867,7 @@
           href: data-entities/validations-defaults-unmapped-fields.md
         - name: 安全和数据实体
           href: data-entities/security-data-entities.md
-        - name: 生成用于公开财务维度的只读实体
+        - name: 创建用于公开财务维度的只读实体
           href: financial/read-only-entity-financial.md
     - name: 提供您自己的数据库
       href: analytics/export-entities-to-your-own-database.md
@@ -853,11 +876,11 @@
     - name: 用于响应 GDPR 数据请求的资源
       href: gdpr/gdpr-home-page.md
       items:
-        - name: 适用于 Microsoft Dynamics 365 for Finance and Operations 的 GDPR 指南
+        - name: 适用于 Finance and Operations 的 GDPR 指南
           href: gdpr/gdpr-guide.md
         - name: 资产分类
           href: gdpr/gdpr-asset-classification-values.md
-        - name: 使用人员搜索报表
+        - name: 人员搜索报告
           href: gdpr/gdpr-person-search-report.md
         - name: 扩展人员搜索报表
           href: gdpr/gdpr-extend-person-search-report.md
@@ -865,11 +888,11 @@
           href: gdpr/gdpr-auditing-sensitive-data.md
         - name: 使用 Talent 响应个人数据请求
           href: gdpr/respond-dsr-request-talent.md
-        - name: 使用 Microsoft Dynamics AX 2012 响应个人数据请求
+        - name: 响应对 AX 2012 中的个人数据的请求
           href: gdpr/gdpr-ax2012.md
         - name: LCS 的 GDPR 数据请求
           href: gdpr/gdpr-lcs.md
-    - name: 数据验证工作区
+    - name: 数据验证核对清单工作区
       href: user-interface/data-validation-workspace.md
 - name: 连续交货
   href: dev-tools/continuous-delivery-home-page.md
@@ -880,7 +903,7 @@
       href: dev-tools/exclude-test-packages.md
     - name: 使用源代码管理来管理第三方模型和运行时包
       href: dev-tools/manage-runtime-packages.md
-    - name: 自动生成中的版本模型
+    - name: 更新自动生成中的模型版本
       href: dev-tools/version-models-build.md
 - name: 使用 Lifecycle Services 发布解决方案
   items:
@@ -900,63 +923,63 @@
       href: lcs-solutions/process-data-packages-lcs-solutions.md
     - name: 备份解决方案数据库
       href: lcs-solutions/database-backup-lcs-solutions.md
-    - name: 本地化
+    - name: 本地化和监管功能
       href: lcs-solutions/country-region.md
       items:
-        - name: 为本地化功能分类
+        - name: 本地化功能的分类
           href: lcs-solutions/classify-localization-features.md
-        - name: 国家/地区上下文
+        - name: 应用国家/地区上下文
           href: lcs-solutions/apply-country-context.md
-        - name: 监管认证
+        - name: 功能标题中的管理认证信息
           href: lcs-solutions/regulatory-certifications.md
         - name: 监管更新
           href: lcs-solutions/regulatory-watch-communication.md
-        - name: 独立的本地化模型
+        - name: 本地化模型的独立
           href: lcs-solutions/separate-localization-models.md
         - name: 提交监管预警
           href: lcs-solutions/submit-localization-alerts.md
 - name: 财务开发
   href: financial/financial-dev-home-page.md
   items:
-    - name: 维度
+    - name: 对不同维度模式的支持
       href: financial/dimensions.md
     - name: 将维度添加到 Excel 模板
       href: financial/dimensions-overview.md
-    - name: 维度条目控件对话框支持
+    - name: 对对话框上的维度条目控件的支持
       href: financial/dimension-entry-control-dialog-support.md
-    - name: '维度条目控件迁移 '
+    - name: 将默认维度控件迁移到维度条目控件
       href: financial/dimension-entry-control-migration.md
-    - name: 维度条目控件摄入
+    - name: 维度条目控件的摄入
       href: financial/dimension-entry-control-uptake.md
     - name: 维度表达式生成器子模式
       href: financial/dimension-expression-builder-subpattern.md
-    - name: 用于集成应用程序的财务维度配置
+    - name: 财务维度配置
       href: financial/financial-dimension-configuration-integration.md
-    - name: 激活财务维度
+    - name: 财务维度激活
       href: financial/activate-financial-dimensions.md
     - name: 从右到左的语言中的财务维度和主科目
       href: financial/financial-dimensions-main-accounts-right-left-language.md
     - name: 使后备表可作为财务维度使用
       href: financial/dimensionable-entities.md
-    - name: '分段条目控件迁移  '
+    - name: 迁移分段条目控件
       href: financial/segmented-entry-control-conversion.md
-    - name: 分段条目控件对话框支持
+    - name: 对对话框上的分段条目控件的支持
       href: financial/segmented-entry-control-dialog-support.md
-    - name: 分段条目控件元数据
+    - name: 分段条目控件的设计时间元数据
       href: financial/segmented-entry-control-metadata-specification.md
-    - name: 分段条目控件迁移指南
+    - name: 分段条目控件的迁移指南
       href: financial/segmented-entry-control-migration-guidance.md
-    - name: 分段条目控件参数方法
+    - name: 分段条目控件的 Parm 方法
       href: financial/segmented-entry-control-parm-method-specification.md
-    - name: 添加在 Microsoft Excel 模板中查找财务维度值的功能
+    - name: 将财务维度的查找值添加到 Excel 模板
       href: financial/add-dimensions-excel-templates.md
     - name: 创建汇率提供方
       href: financial/create-exchange-rate-providers.md
-    - name: 在 Microsoft Dynamics Finance and Operations 版本 8.0 中创建汇率提供方
+    - name: 在 Operations 版本 8.0 中创建汇率提供方
       href: financial/create-exchange-rate-8.md
 - name: 供应链开发
   items:
-    - name: 甘特图开发指南
+    - name: 甘特图控件开发指南
       href: user-interface/gantt-development-guide.md
     - name: 创建新的运输管理引擎
       href: ../supply-chain/transportation/create-new-transportation-management-engine.md
@@ -966,29 +989,29 @@
       href: deployment/deploy-demo-environment.md
     - name: 云部署
       items:
-        - name: Azure Resource Manager 使用培训
+        - name: 完成 Azure Resource Manager 使用培训
           href: deployment/arm-onboarding.md
-        - name: Azure ExpressRoute 和 Dynamics 365 for Finance and Operations
+        - name: Azure ExpressRoute 和 Finance and Operations
           href: deployment/expressroute.md
         - name: Finance and Operations 体系结构
           href: ../fin-and-ops/imp-lifecycle/architecture-overview.md
     - name: 本地部署
       href: deployment/on-premises-deployment-landing-page.md
       items:
-        - name: 本地概览
+        - name: 本地部署选项
           href: deployment/on-premises-overview.md
-        - name: 规划本地部署
+        - name: 计划和准备本地部署
           href: deployment/plan-onprem-deployment.md
-        - name: 硬件规模调整
+        - name: 硬件规模调整要求
           href: ../fin-and-ops/get-started/hardware-sizing-on-premises-environments.md?toc=/dev-itpro/toc.json
-        - name: 创建本地项目
+        - name: 设置本地项目
           href: lifecycle-services/lbd-create-lcs-on-prem-project.md
         - name: 设置并部署本地环境
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: 使用 Platform update 12 部署本地环境
+            - name: 在 Platform update 12 上部署本地环境
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: 使用 Platform update 8 和 11 部署本地环境
+            - name: 在 Platform update 8 和 11 上部署本地环境
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
         - name: 开发自定义模型并将其部署到本地环境
           href: deployment/develop-deploy-custom-models-on-premises.md
@@ -996,23 +1019,25 @@
           href: deployment/onprem-reverseproxy.md
         - name: 将更新应用于本地部署
           href: deployment/apply-updates-on-premises.md
+        - name: 本地诊断
+          href: deployment/on-premises-diagnostics.md
         - name: 重新部署本地部署
           href: deployment/redeploy-on-prem.md
         - name: 更新本地代理
           href: lifecycle-services/update-local-agent.md
-        - name: 重新配置您的环境
+        - name: 重新配置环境
           href: lifecycle-services/reconfigure-environment.md
         - name: 客户端 Internet 连接
           href: user-interface/client-disconnected.md
-        - name: Dynamics 365 for Finance and Operations 本地故障排除
+        - name: 对本地部署进行故障排除
           href: deployment/troubleshoot-on-prem.md
     - name: 部署自定义代码
       items:
-        - name: 创建可部署包
+        - name: 创建模型的可部署包
           href: deployment/create-apply-deployable-package.md
-        - name: 将更新应用至云环境
+        - name: 将更新应用于云环境
           href: deployment/apply-deployable-package-system.md
-        - name: 安装可部署包
+        - name: 安装来自命令行的可部署包
           href: deployment/install-deployable-package.md
         - name: 卸载包
           href: deployment/uninstall-deployable-package.md
@@ -1021,24 +1046,24 @@
 - name: 升级、更新和修补程序
   href: migration-upgrade/upgrade-home-page.md
   items:
-    - name: 从 AX 2012 升级到 Dynamics 365 for Finance and Operations
+    - name: 从 AX 2012 升级到 Finance and Operations
       href: migration-upgrade/upgrade-overview-2012.md
       items:
         - name: AX 2012 升级 - 使用升级分析器工具进行计划
           href: migration-upgrade/upgrade-analyzer-tool.md
-        - name: AX 2012 升级 – 使用代码升级服务评估工作
+        - name: AX 2012 升级 - 使用代码升级服务评估工作
           href: migration-upgrade/analyze-code-upgrade.md
-        - name: AX 2012 升级 - 部署沙盒环境
+        - name: AX 2012 升级 - 部署用于分析的演示环境
           href: migration-upgrade/analysis-sandbox.md
         - name: AX 2012 升级 - 开发环境中的数据升级
           href: migration-upgrade/data-upgrade-2012.md
-        - name: AX 2012 升级 - AX 2012 数据升级任务
+        - name: AX 2012 升级 - 数据升级的升级前核对清单
           href: migration-upgrade/prepare-data-upgrade.md
         - name: AX 2012 升级 - 沙盒环境中的数据升级
           href: migration-upgrade/upgrade-data-sandbox.md
         - name: AX 2012 升级 - 直接转换测试
           href: migration-upgrade/upgrade-cutover-testing.md
-        - name: AX 2012 升级 - 升级后要完成的任务
+        - name: AX 2012 升级 - 升级后任务
           href: migration-upgrade/app-validation-process.md
         - name: AX 2012 升级 - 功能测试传递
           href: migration-upgrade/upgrade-functional-validation.md
@@ -1048,15 +1073,15 @@
           href: migration-upgrade/2012-upgrade-cutover.md
         - name: 影响从 AX 2012 升级的更改
           items:
-            - name: 会计科目表分隔符必须是唯一的
+            - name: 使会计科目表分隔符的成为唯一的
               href: migration-upgrade/chart-accounts-delimiter-unique.md
-            - name: 单一凭证和货币重估升级
+            - name: 升级单一凭证日记帐和货币重估
               href: migration-upgrade/single-voucher-and-currency-revaluation-upgrade.md
             - name: 项目资源计划数据模型
               href: migration-upgrade/data-model-changes-resource-management.md
             - name: 工作流子系统更改
               href: migration-upgrade/workflow-subsystem.md
-            - name: 我们为什么从多维数据集移至聚合模型
+            - name: 聚合使用的模型而不是用于分析的多维数据集
               href: migration-upgrade/in-memory-real-time-aggregate-models.md
             - name: 将升级的销售多维数据集迁移至实体商店
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
@@ -1067,9 +1092,9 @@
       items:
         - name: 准备迁移代码
           href: migration-upgrade/prepare-migration.md
-        - name: 在代码迁移期间配置 Visual Studio Team Services 映射
+        - name: 配置 Visual Studio Team Services 映射
           href: migration-upgrade/configure-vso-solution.md
-        - name: 拆分模型
+        - name: 模型拆分
           href: dev-tools/model-split.md
         - name: 使用委托解决模型之间的依赖关系
           href: migration-upgrade/delegates-migration.md
@@ -1077,15 +1102,15 @@
       items:
         - name: 升级到最新更新的流程
           href: migration-upgrade/upgrade-latest-update.md
-        - name: 生命周期策略
+        - name: 软件生命周期策略和云版本
           href: migration-upgrade/versions-update-policy.md
-        - name: 将最新 Platform update 应用到您的环境
+        - name: 将最新平台更新应用于环境
           href: migration-upgrade/upgrade-latest-platform-update.md
-        - name: 将 Dynamics 平台升级到 2016 年 8 月的版本
+        - name: 将 Dynamics AX 平台升级到 2016 年 8 月的版本
           href: migration-upgrade/update-platform-each-release.md
         - name: 升级沙盒环境
           href: migration-upgrade/upgrade-sandbox-environment.md
-        - name: 在开发或演示环境中升级数据
+        - name: 在开发、演示或沙盒环境中升级数据
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: 更新开发工具
           href: dev-tools/update-development-tools.md
@@ -1099,9 +1124,9 @@
       items:
         - name: 从 Lifecycle Services 下载修补程序
           href: migration-upgrade/download-hotfix-lcs.md
-        - name: 将更新应用至云环境
+        - name: 将更新应用于云环境
           href: deployment/apply-deployable-package-system.md
-        - name: 安装元数据修补程序
+        - name: 在开发环境中安装元数据修补程序
           href: migration-upgrade/install-metadata-hotfix-package.md
         - name: 在一体框环境中修补 Reporting Services
           href: migration-upgrade/patch-reporting-service-environment.md
@@ -1116,9 +1141,9 @@
 - name: 系统管理
   href: sysadmin/system-administration-home-page.md
   items:
-    - name: 平台每月更新常见问题
+    - name: 云平台每月更新常见问题
       href: sysadmin/faq-platform-monthly-updates.md
-    - name: 添加指向您的组织的法律条款和隐私声明的链接
+    - name: 添加指向您的法律条款和隐私声明的链接
       href: sysadmin/legal-terms-privacy-statement.md
     - name: 许可证代码和 Configuration Key 报表
       href: sysadmin/license-codes-configuration-keys-report.md
@@ -1135,7 +1160,7 @@
       items:
         - name: 安全体系结构
           href: sysadmin/security-architecture.md
-        - name: 安全报告
+        - name: 现成安全报表
           href: sysadmin/security-reports.md
         - name: 创建新用户
           href: sysadmin/tasks/create-new-users.md
@@ -1150,18 +1175,18 @@
     - name: 批处理
       href: sysadmin/batch-processing-overview.md
       items:
-        - name: 批处理服务器概览
+        - name: 批处理和批处理服务器
           href: sysadmin/batch-server-overview.md
         - name: 创建批处理作业
           href: sysadmin/tasks/create-batch-job.md
-    - name: 优化顾问概览
+    - name: 优化顾问
       href: sysadmin/optimization-advisor-overview.md
       items:
         - name: 创建优化顾问规则
           href: sysadmin/create-rules-optimization-advisor.md
 - name: Lifecycle Services
   items:
-    - name: Lifecycle Services 概览
+    - name: Lifecycle Services 的资源
       href: lifecycle-services/lcs.md
       items:
         - name: 适用于客户的 LCS
@@ -1172,7 +1197,7 @@
           href: lifecycle-services/whats-new-lcs.md
         - name: 已知问题
           href: lifecycle-services/known-issues.md
-    - name: Dynamics Lifecycle Services 用户指南
+    - name: Lifecycle Services 用户指南
       href: lifecycle-services/lcs-user-guide.md
     - name: 订阅估算器
       href: lifecycle-services/subscription-estimator.md
@@ -1187,27 +1212,27 @@
           href: lifecycle-services/set-up-configuration-manager-lcs.md
     - name: 配置代码升级服务
       href: lifecycle-services/configure-execute-code-upgrade.md
-    - name: '创建方法  '
+    - name: 创建或更新方法
       href: lifecycle-services/create-methodology.md
     - name: 业务流程建模器
       href: lifecycle-services/bpm-overview.md
     - name: 业务流程建模器中的业务流程库
       href: lifecycle-services/business-process-libraries-business-process-modeler.md
-    - name: 创建、编辑或浏览 BPM 库
+    - name: 创建、编辑并浏览业务流程建模器库
       href: lifecycle-services/creating-editing-browsing.md
-    - name: 在 BPM 库中完成任务
+    - name: 在业务流程建模器中完成任务
       href: lifecycle-services/complete-tasks-bpm.md
-    - name: 使用活动图
+    - name: 使用 BPM 库中的活动图
       href: lifecycle-services/using-activity-diagrams.md
-    - name: 使用 Visual Studio Team Services (VSTS) 同步 BPM 库
+    - name: 使用 Visual Studio Team Services 同步 BPM 库
       href: lifecycle-services/synchronize-bpm-vsts.md
-    - name: 使用任务指南和 BPM 创建接受度测试套件
+    - name: 使用任务指南和 BPM 创建用户接受度测试库
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
-    - name: 业务流程建模器流程图
+    - name: 业务流程建模器中的流程图
       href: lifecycle-services/flowcharts-business-process-modeler.md
-    - name: 上载自定义业务流程
+    - name: 将自定义业务流程上载到业务流程建模器
       href: lifecycle-services/upload-business-processes-bpm-task-recorder.md
-    - name: '监控和诊断 '
+    - name: 监控和诊断
       href: lifecycle-services/monitoring-diagnostics.md
     - name: 重新启动服务环境
       href: lifecycle-services/restart-environment-services.md
@@ -1215,166 +1240,15 @@
       href: lifecycle-services/user-logins.md
     - name: 资产库
       href: lifecycle-services/asset-library.md
-    - name: Microsoft Dynamics 365 - 翻译服务概览
+    - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
-        - name: 'Microsoft Dynamics 365 翻译服务用户指南  '
+        - name: 翻译用户界面文件
           href: lifecycle-services/use-translation-service.md
-        - name: Microsoft Dynamics 365 翻译服务 - 文档文件翻译
+        - name: 翻译文档文件
           href: lifecycle-services/use-translation-service-ua.md
-        - name: Microsoft Dynamics 365 翻译服务 - 翻译记忆库
+        - name: 翻译记忆库文件
           href: lifecycle-services/use-translation-service-tm.md
-    - name: Dynamics AX 2012 Lifecycle Services 功能
-      items:
-        - name: 部署
-          items:
-            - name: 云托管的环境
-              href: lifecycle-services/ax-2012/cloud-hosted-environments-lcs.md
-            - name: 复制配置
-              href: lifecycle-services/copy-configuration-lcs.md
-            - name: 计划在 Azure 上部署 Dynamics AX 2012 R3
-              href: lifecycle-services/ax-2012/plan-2012-r3-deployment-azure.md
-            - name: 在 Azure 上部署 Dynamics AX 2012 R3
-              href: lifecycle-services/ax-2012/deploy-2012-r3-azure-lcs.md
-            - name: 部署 Dynamics AX 2012 R3 演示环境
-              href: lifecycle-services/ax-2012/deploy-ax-2012-r3-ax-2012-r3-cu8-demo-environment-azure.md
-            - name: 在 Azure 上部署开发环境
-              href: lifecycle-services/ax-2012/deploy-development-environment-azure.md
-            - name: 在 Azure 上部署高可用性环境
-              href: lifecycle-services/ax-2012/deploy-high-availability-environment-azure.md
-            - name: 在 Azure 上部署测试环境
-              href: lifecycle-services/ax-2012/deploy-test-environment-azure.md
-            - name: 管理您在 Azure 上部署的 Dynamics AX 2012 R3
-              href: lifecycle-services/ax-2012/manage-2012-r3-deployment-azure.md
-            - name: 将企业门户服务器联接到单个服务器场
-              href: lifecycle-services/ax-2012/join-enterprise-portal-servers-single-server-farm.md
-            - name: 在 Dynamics AX 企业门户中记录入口点
-              href: lifecycle-services/ax-2012/record-entry-points-enterprise-portal.md
-            - name: 在 Azure 上部署零售电子商务开发/测试环境
-              href: lifecycle-services/ax-2012/deploy-retail-ecommerce-devtest-environment-azure.md
-            - name: 在 Azure 上部署零售要素演示环境
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-demo-environment-azure.md
-            - name: 在 Azure 上部署零售要素开发/测试环境
-              href: lifecycle-services/ax-2012/deploy-retail-essentials-devtest-environment-azure.md
-            - name: 在 Azure 上部署零售移动性开发/测试环境
-              href: lifecycle-services/ax-2012/deploy-retail-mobility-devtest-environment-azure.md
-            - name: 对您在 Azure 上部署的 Dynamics AX 2012 R3 执行故障排除
-              href: lifecycle-services/ax-2012/troubleshoot-2012-r3-deployment-azure.md
-            - name: Dynamics AX 2012 R3 的更新
-              href: lifecycle-services/ax-2012/update-2012-r3-lcs.md
-        - name: 数据导入/导出框架用户指南
-          href: lifecycle-services/ax-2012/user-guide-dixf.md
-          items:
-            - name: 安装
-              href: lifecycle-services/ax-2012/install-dixf.md
-              items:
-                - name: 安装 AX 2012 R3
-                  href: lifecycle-services/ax-2012/install-ax-2012-r3.md
-                - name: 安装适用于 SQL Server 2014 的 Dynamics AX 2012 R2 CU7 版本
-                  href: lifecycle-services/ax-2012/install-dixf-ax-2012-r2-cu7-ss-2014.md
-            - name: 迁移数据
-              href: lifecycle-services/ax-2012/migrate-data-dixf.md
-            - name: 配置 SSIS 的版本
-              href: lifecycle-services/ax-2012/configure-sql-server-integration-services-multiple-versions-dixf.md
-            - name: 复制并比较公司间的实体数据
-              href: lifecycle-services/ax-2012/copy-compare-entity-data-between-companies-dixf.md
-            - name: 复制 Dynamics AX 公司间的数据
-              href: lifecycle-services/ax-2012/copy-data-between-companies-dixf.md
-            - name: 复制 Dynamics AX 实例间的数据
-              href: lifecycle-services/ax-2012/copy-data-between-instances-dixf.md
-            - name: 创建自定义目标实体
-              href: lifecycle-services/ax-2012/create-custom-target-entity-dixf.md
-            - name: 数据导入/导出框架实体
-              href: lifecycle-services/ax-2012/entities-dixf.md
-            - name: 从 CSV 数据源导入数据
-              href: lifecycle-services/ax-2012/import-data-csv-data-source-dixf.md
-            - name: 从 ODBC 数据源导入数据
-              href: lifecycle-services/ax-2012/import-data-odbc-data-source-dixf.md
-            - name: 演示文件
-              href: lifecycle-services/ax-2012/demo-files-dixf.md
-            - name: 快速导入/导出
-              href: lifecycle-services/ax-2012/quick-import-export.md
-        - name: 表
-          items:
-            - name: 创建表
-              href: lifecycle-services/ax-2012/create-tables.md
-            - name: 表属性
-              href: lifecycle-services/ax-2012/table-properties.md
-        - name: Dynamics AX 2012 LCS 工具
-          items:
-            - name: 项目
-              href: lifecycle-services/ax-2012/projects-lcs.md
-            - name: 方法
-              href: lifecycle-services/ax-2012/methodologies-lcs.md
-            - name: '定制分析  '
-              href: lifecycle-services/ax-2012/customization-analysis-lcs.md
-            - name: 基础架构估算器
-              href: lifecycle-services/ax-2012/infrastructure-estimator-lcs.md
-            - name: 许可证规模估算器
-              href: lifecycle-services/ax-2012/license-sizing-estimator-lcs.md
-            - name: 招标书 (lifecycle-services/RFP.md) 响应
-              href: lifecycle-services/ax-2012/rfp-responses-lcs.md
-            - name: 系统诊断
-              href: lifecycle-services/ax-2012/system-diagnostics-lcs.md
-            - name: 安装并运行系统诊断
-              href: lifecycle-services/ax-2012/install-run-system-diagnostics-lcs.md
-            - name: 升级分析
-              href: lifecycle-services/ax-2012/upgrade-analysis-lcs.md
-            - name: 使用情况分析器
-              href: lifecycle-services/ax-2012/usage-profiler-lcs.md
-        - name: Dynamics AX 2012 可下载的工具
-          items:
-            - name: 代码升级工具用户指南 (已弃用)
-              href: lifecycle-services/ax-2012/code-upgrade-tool-user-guide.md
-            - name: Lifecycle Services 可下载的工具
-              href: lifecycle-services/ax-2012/lcs-downloadable-tools-formerly-informationsource.md
-            - name: 测试数据传输工具(测试版)
-              href: lifecycle-services/ax-2012/test-data-transfer-tool-beta-2012.md
-              items:
-                - name: 安装
-                  href: lifecycle-services/ax-2012/install-test-data-transfer-tool-beta.md
-                - name: 运行
-                  href: lifecycle-services/ax-2012/run-test-data-transfer-tool-beta.md
-                - name: 导入 AX 2012 R3 的演示数据
-                  href: lifecycle-services/ax-2012/import-demo-data-ax-2012-r3-test-data-transfer-tool.md
-            - name: 安全开发工具
-              href: lifecycle-services/ax-2012/overview-security-development-tool-user-interface.md
-              items:
-                - name: 安装
-                  href: lifecycle-services/ax-2012/install-security-development-tool.md
-                - name: 用户指南
-                  href: lifecycle-services/ax-2012/security-development-tool-user-guide.md
-                - name: 定义或编辑入口点权限
-                  href: lifecycle-services/ax-2012/define-edit-entry-point-permissions.md
-            - name: 绩效基准软件开发工具包
-              href: lifecycle-services/ax-2012/performance-benchmark-software-development-toolkit-sdk-2012.md
-            - name: 安全升级顾问工具
-              href: lifecycle-services/ax-2012/security-upgrade-advisor-tool-user-guide.md
-            - name: 智能数据管理框架 (IDMF)
-              href: lifecycle-services/ax-2012/microsoft-idmf.md
-              items:
-                - name: 概览
-                  href: lifecycle-services/ax-2012/overview-idmf.md
-                - name: 安装指南
-                  href: lifecycle-services/ax-2012/installation-guide-idmf.md
-                - name: 配置
-                  href: lifecycle-services/ax-2012/configuration-functionality-idmf-workspace.md
-                - name: 分析
-                  href: lifecycle-services/ax-2012/analysis-functionality-idmf-workspace.md
-                - name: 清除和存档对象
-                  href: lifecycle-services/ax-2012/work-with-purge-objects-archive-objects.md
-                - name: 创建存档对象
-                  href: lifecycle-services/ax-2012/create-archive-objects.md
-                - name: 创建清除对象
-                  href: lifecycle-services/ax-2012/create-purge-objects.md
-                - name: 计划清除和分析任务
-                  href: lifecycle-services/ax-2012/schedule-purge-analysis-tasks.md
-                - name: 查看清除或存档作业
-                  href: lifecycle-services/ax-2012/view-status-purge-archive-jobs.md
-                - name: 维护
-                  href: lifecycle-services/ax-2012/maintain-idmf.md
-                - name: 故障排除
-                  href: lifecycle-services/ax-2012/troubleshoot-idmf.md
 - name: 数据库管理
   items:
     - name: 将数据库从 Azure SQL 数据库复制到 SQL Server 环境
@@ -1389,13 +1263,13 @@
       href: database/database-refresh.md
 - name: 支持
   items:
-    - name: 获取对 Dynamics 365 for Finance and Operations 和 Lifecycle Services 的支持
+    - name: 获取对 Finance and Operations 和 Lifecycle Services 的支持
       href: lifecycle-services/lcs-support.md
     - name: 记录顶级支持票证
       href: lifecycle-services/premier-support.md
     - name: 将请求提交给 Dynamics Service 工程团队
       href: lifecycle-services/submit-request-dynamics-service-engineering-team.md
-    - name: 设置对 Dynamics 365 for Finance and Operations 的技术支持
+    - name: 设置对 Finance and Operations 的技术支持
       href: lifecycle-services/support-experience.md
     - name: 计划的维护时段常见问题
       href: lifecycle-services/planned-maintenance-window-faq.md
