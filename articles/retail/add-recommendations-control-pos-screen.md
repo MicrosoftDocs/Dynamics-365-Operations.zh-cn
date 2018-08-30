@@ -1,5 +1,5 @@
 ---
-title: "向 POS 设备上的交易记录页添加建议控件"
+title: "向 POS 设备上的交易记录屏幕添加建议控件"
 description: "此主题介绍如何使用 Microsoft Dynamics 365 for Retail 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。"
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: eac70614770189d1e45f347b282c94e645e95b00
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 26b03b6712c97b12e1221598de308813c7986179
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="add-a-recommendations-control-to-the-transaction-page-on-a-pos-device"></a>向 POS 设备上的交易记录页添加建议控件
+# <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>向 POS 设备上的交易记录屏幕添加建议控件
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "运行格式以在格式输出中使用票据管理文件"
+title: "运行在 ER 输出中使用票据管理文件的格式"
 description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 554de60fb8d2b6cb03cac5dc8d01df98390ad844
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: e0c01a44bde47860b3ad587da73dc2760e9ef4fc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="run-format-to-use-document-management-files-in-format-outputs"></a>运行格式以在格式输出中使用票据管理文件 
+# <a name="run-formats-to-use-document-management-files-in-er-output"></a>运行在 ER 输出中使用票据管理文件的格式
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

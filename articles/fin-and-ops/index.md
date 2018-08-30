@@ -18,14 +18,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e7e10768dd1e0a441842d5b13964f49153c35be3
-ms.openlocfilehash: cced03d29bb04182a3f5bae86c3bec6d3c086cde
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: edacf76866cf3e078e08dd6e5a69132d0eb15176
 ms.contentlocale: zh-cn
-ms.lasthandoff: 07/10/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="introduction-to-microsoft-dynamics-365-for-finance-and-operations"></a>Microsoft Dynamics 365 for Finance and Operations 简介
+# <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations 文档
 [!include [banner](includes/banner.md)]
 
 使用以下资源查找适用于最终用户、开发人员和 IT 专业人员的重要内容，了解如何让 Microsoft Dynamics 365 for Finance and Operations 为您的组织服务。 
@@ -56,7 +56,7 @@ ms.lasthandoff: 07/10/2018
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">应收帐款</a></p>
 <p><a href="../financials/budgeting/budgeting-overview.md">预算编制</a></p>
 <p><a href="../financials/cash-bank-management/cash-bank-management.md">现金和银行管理</a></p>
-<p><a href="../financials/general-ledger/audit-policy-rules.md">符合性</a></p>
+<p><a href="../financials/general-ledger/audit-policy-rules.md">合规性</a></p>
 <p><a href="../financials/cost-accounting/cost-accounting-home-page.md">成本核算</a></p>
 <p><a href="../financials/fixed-assets/fixed-assets.md">固定资产</a></p>
 <p><a href="../financials/general-ledger/general-ledger.md">总帐</a></p>
@@ -105,7 +105,7 @@ ms.lasthandoff: 07/10/2018
 
 <h3><a href="../dev-itpro/sysadmin/system-administration-home-page.md">管理</h3>
 <p><a href="../dev-itpro/deployment/cloud-deployment-overview.md">云部署</a></p>
-<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">内部部署</a></p>
+<p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">本地部署</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">升级</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">服务</a></p>
 <p><a href="../dev-itpro/data-entities/data-entities.md">数据管理框架</a></p>
@@ -116,7 +116,7 @@ ms.lasthandoff: 07/10/2018
 <h3>相关产品</h3>
 <h4><a href="../retail/index.md">Dynamics 365 for Retail</a></h4>
 <p><a href="../retail/call-center-functionality.md">呼叫中心</p>
-<p><a href="../retail/define-maintain-retail-channels.md">通道设置和管理</p>
+<p><a href="../retail/define-maintain-retail-channels.md">渠道设置和管理</p>
 <p><a href="../retail/retail-peripherals-overview.md">MPOS 和 Cloud POS</p>
 <p><a href="../retail/dev-itpro/dev-retail-home-page.md">Retail 开发人员和管理</p>
 

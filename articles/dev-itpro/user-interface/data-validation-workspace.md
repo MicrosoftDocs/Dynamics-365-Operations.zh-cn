@@ -1,5 +1,5 @@
 ---
-title: "数据验证工作区"
+title: "数据验证核对清单工作区"
 description: "数据验证核对清单工作区可以跟踪跨公司、区域和人员的数据验证流程。 核对清单可以在新实现期间、升级后或迁移后使用。"
 author: bking
 manager: AnnBe
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: DataValidationWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.assetid: 
 ms.search.region: Global
 ms.author: bking
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7046b687f99df32a3e1410c37c9a30ca285fa08f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="data-validation-workspace"></a>数据验证工作区
+# <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 
 [!include [banner](../includes/banner.md)]
 

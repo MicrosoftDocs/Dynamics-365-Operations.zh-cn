@@ -1,5 +1,5 @@
 ---
-title: "工作流操作"
+title: "工作流审核流程中的操作"
 description: "本文说明每个工作流审核流程的参与者可以采取的操作。"
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2a4717accfa7e5879ee757820c39f000fa7d3e95
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 07f1ca7db8580041c412361a710d4ec97b3d0fd8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="workflow-actions"></a>工作流操作
+# <a name="actions-in-workflow-approval-processes"></a>工作流审核流程中的操作
 
 [!include [banner](../includes/banner.md)]
 
@@ -38,14 +38,14 @@ ms.lasthandoff: 11/03/2017
 以下部分说明各个组可以执行的工作流操作。
 
 ## <a name="actions-that-an-originator-can-perform"></a>发起方可以执行的操作
-发起方通过提交文档进行审查来启动工作流实例。 例如，Sam 必须在**“支出报表”**页上单击**“提交”**按钮，才能提交其支出报表。
+发起方通过提交文档进行审查来启动工作流实例。 例如，Sam 必须在**支出报表**页上单击**提交**按钮，才能提交其支出报表。
 
 ## <a name="actions-that-a-task-assignee-can-perform"></a>任务受托人可执行的操作
 一个任务可分配给多个人员或到由若干人员监控的工作项队列。 不过，只能由一个人来完成任务。 例如，Sam 提交了一份支出报表并将其收据发送到其组织的支出报表部门进行审查。 
 
 Adventure Works 支出报表部门的成员监控该队列。 该部门的成员 Julie 接受了审查 Sam 的支出报表和收据的任务。 她现在可以执行以下操作之一：完成、拒绝、委托、请求更改、重新分配或下达。 
 
-**注释：**可用操作将随软件开发人员设计任务的方式而变化。
+**注释：** 可用操作将随软件开发人员设计任务的方式而变化。
 
 ### <a name="complete"></a>完成
 
@@ -90,11 +90,11 @@ Sam 可以重新提交该支出报表。 他可以首先进行所请求的更改
 例如，Adventure Works 支出报表部门的成员 Julie 接受审查 Sam 的支出报表和收据的任务。 如果 Julie 确定她不能完成此任务，则她可以下达文档。 支出报表返回到该队列，以便 Adventure Works 支出报表部门的其他成员可以完成任务。
 
 ## <a name="actions-that-a-decision-maker-can-perform"></a>决策者可以执行的操作
-通常，文档分配给决策者，因为有必须由决策者回答的问题。 该问题的答案通常是“**是**”或“**否**”或者是“**True**”或“**False**”。 如果决策者不选择这些选项之一，他或她可以委托决策。
+通常，文档分配给决策者，因为有必须由决策者回答的问题。 该问题的答案通常是**是**或**否**或者是**True**或**False**。 如果决策者不选择这些选项之一，他或她可以委托决策。
 
 ### <a name="choice-1-or-choice-2"></a>\[选择 1\] 或\[选择 2\]
 
-决策者必须回答与文档相关的问题。 该问题的答案通常是“**是**”或“**否**”或者是“**True**”或“**False**”。 决策者选择的回答确定使用哪个分支处理文档。 
+决策者必须回答与文档相关的问题。 该问题的答案通常是**是**或**否**或者是**True**或**False**。 决策者选择的回答确定使用哪个分支处理文档。 
 
 例如，Sam 的支出报表分配给 John。 John 必须确定文档中的信息是否要求致电 Sam 的经理。 如果 John 确定需要呼叫，则支出报表分配给 Aretha，然后 Aretha 必须致电 Sam 的经理。 如果 John 决定不需要通话，则支出报表分配给 Frank 进行审核。
 

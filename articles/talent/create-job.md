@@ -1,5 +1,5 @@
 ---
-title: "设置工作的组件"
+title: "设置作业组件"
 description: "此主题介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。"
 author: rschloma
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 88e8c1ae98ad5618feff3d2bb88d8f8cfe2ff9ba
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="setting-up-the-components-of-a-job"></a>设置工作的组件
+# <a name="set-up-the-components-of-a-job"></a>设置作业组件
 
 [!include [banner](includes/banner.md)]
 

@@ -1,5 +1,5 @@
 ---
-title: "在工作流中配置自动化任务"
+title: "配置工作流中的自动化任务"
 description: "本主题说明如何配置自动化任务的属性。"
 author: sericks007
 manager: AnnBe
@@ -18,14 +18,14 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e8189f8d16e9b6dcbc339a23c1af5402c0316ce3
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="configure-an-automated-task-in-a-workflow"></a>在工作流中配置自动化任务
+# <a name="configure-automated-tasks-in-a-workflow"></a>配置工作流中的自动化任务
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,8 +44,8 @@ ms.lasthandoff: 11/03/2017
 
 1.  在左窗格中，单击**通知**。
 2.  选中要对其发送通知的事件旁边的复选框：
-    -   “**执行**”– 在运行任务时发送通知。
-    -   “**已取消**”– 在取消任务时发送通知。
+    -   **执行**– 在运行任务时发送通知。
+    -   **已取消**– 在取消任务时发送通知。
 
 3.  为您在第 2 步中选择的事件选择行。
 4.  在**通知文本**选项卡上，在文本框中输入通知的文本。
@@ -53,7 +53,7 @@ ms.lasthandoff: 11/03/2017
     1.  在文本框中，单击应该出现占位符的位置。
     2.  单击**插入占位符**。
     3.  在出现的列表中，选择要插入的占位符。
-    4.  单击“**插入**”。
+    4.  单击**插入**。
 
 6.  若要添加通知的翻译，请执行以下步骤：
     1.  单击**翻译**。
@@ -61,7 +61,7 @@ ms.lasthandoff: 11/03/2017
     3.  在出现的列表中，选择您输入文本使用的语言。
     4.  在**已翻译的文本**字段中，输入文本。
     5.  如果要对文本进行个性化设置，可以如步骤 5 所述插入占位符。
-    6.  单击**“关闭”**。
+    6.  单击**关闭**。
 
 7.  在**接收人**选项卡上，指定向谁发送通知。 选择下表中的选项之一，然后按照该选项的其他步骤转到第 8 步。
     <table>

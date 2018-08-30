@@ -1,9 +1,9 @@
 ---
-title: "帮助概览"
+title: "Finance and Operations 帮助系统"
 description: "本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。"
 author: margoc
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 07/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,14 +19,14 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2c02af887e662fd346d5e3e09cce755bfb58d520
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="help-system-overview"></a>帮助系统概览
+# <a name="finance-and-operations-help-system"></a>Finance and Operations 帮助系统
 
 [!include [banner](../includes/banner.md)]
 
@@ -82,27 +82,19 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 [RSS 源](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
 ### <a name="give-feedback"></a>提供反馈 
-我们真心欢迎客户反馈。 您可以通过 GitHub 进行评论或对我们的内容提出更改建议。
+我们真心欢迎客户反馈。 您可以通过 GitHub 进行评论或对我们的内容提出更改建议。 有关我们的反馈系统的详细信息，请参阅[此博客文章](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)。
 
-##### <a name="leave-us-a-comment"></a>对我们作出评论 
+##### <a name="leave-us-feedback"></a>为我们提供反馈 
 如果您有有关某个主题的反馈或问题，请在页面底部对我们作出评论。  
 
-1 单击**评论**到达页面底部的评论。
+1. 单击 **反馈**访问页面底部的评论，然后单击**产品反馈**或**登录以提供文档反馈**。
 
-![评论](./media/comments.png)
+![反馈](./media/comments.png)
 
-2 开始键入您的评论，然后单击**发布评论**。
+2. 开始键入您的评论，然后单击**提交反馈**。
 
-![发布评论](./media/before-signin.png)
+![发布评论](./media/feedback.png)
 
-3 选择要用于登录的帐户的类型：  
-单击左侧图标之一，将此站点与现有帐户关联，如 Twitter、Facebook 或 Microsoft 帐户。 
-
-或 
-
-在右边，输入电子邮件地址和新密码来创建站点的新帐户。 
-
-![登录选项](./media/signin-options.png)
 
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>通过 GitHub 提出更改建议或贡献内容
@@ -115,7 +107,6 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 > [!NOTE]
 > 目前，我们只接受向我们的英语存储库贡献的内容。  
-> 我们不接受通过 GitHub 报告的问题--请确保使用拉取请求提出内容建议。 产品和功能反馈最好通过 Dynamics 365 思想门户：https://experience.dynamics.com/ideas/ 处理。 
 
 
 ## <a name="task-guides"></a>任务指南

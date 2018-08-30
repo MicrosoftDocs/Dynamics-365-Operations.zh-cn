@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 通过重新应用 Microsoft Excel 模板修改格式"
+title: "通过重新应用 Excel 模板修改格式"
 description: "为了完成此过程中的步骤，您首先必须完成“ER - 设计用于以 OPENXML 格式生成报表的配置”这一过程中的步骤。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b49cfe39732a450e4723419c50d8bcc3d64b7ec9
-ms.openlocfilehash: 2f35727376812b0de428ce929ebe0d33bc497984
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 3d5752caba9327475bb28c7bc6b0ee7e072f44f3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="modify-a-format-by-reapplying-a-microsoft-excel-template-for-electronic-reporting-er"></a>针对电子申报 (ER) 通过重新应用 Microsoft Excel 模板修改格式
+# <a name="modify-formats-by-reapplying-excel-templates"></a>通过重新应用 Excel 模板修改格式
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

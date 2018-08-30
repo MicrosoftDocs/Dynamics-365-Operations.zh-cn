@@ -18,14 +18,14 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 013901724864092571099835b2c71b297710ff03
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="use-lookups-to-find-information"></a>使用查询查找信息
+# <a name="find-information-by-using-lookups"></a>使用查询查找信息
 
 [!include [banner](../includes/banner.md)]
 
@@ -74,7 +74,7 @@ ms.lasthandoff: 11/03/2017
 
 ![emptyitemlookup](./media/emptyitemlookup.png) 
 
-相反，用户需要清除查询控件的值，打开查询下拉菜单，然后使用网格列标题筛选下拉菜单，如下所示。 鼠标（或触控）用户只需单击（或点按）任何列标题即可访问该列的筛选和排序选项。 对于键盘用户，用户只需再次按 **Alt**+**向下****键**将焦点移到下拉菜单中，之后，用户可以切换到正确的列，然后按 **Ctrl**+**G** 打开网格列标题下拉菜单。 
+相反，用户需要清除查询控件的值，打开查询下拉菜单，然后使用网格列标题筛选下拉菜单，如下所示。 鼠标（或触控）用户只需单击（或点按）任何列标题即可访问该列的筛选和排序选项。 对于键盘用户，用户只需再次按 **Alt**+**向下键**将焦点移到下拉菜单中，之后，用户可以切换到正确的列，然后按 **Ctrl**+**G** 打开网格列标题下拉菜单。 
 
 [![gridfilteritemlookup](./media/gridfilteritemlookup.png)](./media/gridfilteritemlookup.png) 
 

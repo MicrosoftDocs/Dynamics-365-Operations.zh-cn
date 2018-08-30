@@ -1,5 +1,5 @@
 ---
-title: "计划如何配置全局通讯簿和附加通讯簿"
+title: "规划全球通讯簿和其他通讯簿"
 description: "本主题介绍您在 Microsoft Dynamics 365 for Finance and Operations 中设置和配置全球通讯簿和任何其他通讯簿前，在计划流程中的考虑事项和必须做的决定。 某些决策需要您确认已为产品的其他区域做出了决策，例如组织层次结构。"
 author: ShivamPandey-msft
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b872603f987b72faacc0a987aa44c31e773636f8
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 69f1136e113fae5859d34a9a467da9c9cf4bf7dc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="plan-how-to-configure-the-global-address-book-and-additional-address-books"></a>计划如何配置全局通讯簿和附加通讯簿
+# <a name="plan-for-the-global-address-book-and-other-address-books"></a>规划全球通讯簿和其他通讯簿
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 11/03/2017
 
 **决策：**
 
--   对于**“人员”**类型的当事方记录，名称应以何种顺序显示？ 例如一个顺序是姓氏、中间名、名字。
+-   对于**人员**类型的当事方记录，名称应以何种顺序显示？ 例如一个顺序是姓氏、中间名、名字。
 -   在删除角色记录时，是否应从通讯簿中删除当事方记录？ 例如，如果删除了客户记录，是否还应删除相应的当事方记录？
 -   创建新记录时，如果在全球通讯簿中找到重复的记录，是否应通知用户？
 -   是否应在当事方记录信息中包括数据统一编码系统 (DUNS) 编号？

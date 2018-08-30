@@ -1,5 +1,5 @@
 ---
-title: "个性化产品建议概览"
+title: "个性化产品建议"
 description: "此主题提供可以在销售点 (POS) 设备上显示的 Dynamics 365 for Retail 产品建议的信息。"
 author: ashishmsft
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 006ea02d4fb10092fed82516f1d17d0da750c6a1
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 368468a1c1cd023862f1405dddf3a90574edce22
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="personalized-product-recommendations-overview"></a>个性化产品建议概览
+# <a name="personalized-product-recommendations"></a>个性化产品建议
 
 [!include [banner](includes/banner.md)]
 

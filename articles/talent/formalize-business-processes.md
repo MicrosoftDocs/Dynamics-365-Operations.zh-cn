@@ -22,7 +22,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/19/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 # <a name="formalize-business-processes"></a>确定业务流程

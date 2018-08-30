@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报创建一个配置提供程序，并标记其为当前运行的 (ER)"
+title: "创建配置提供程序并标记为当前运行的"
 description: "以下步骤说明了用户如何指派“系统管理员”或者“电子电子报表开发人员”为“电子申报 (ER)”新建一个配置提供程序。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 018aee917c13f576759ebd812d31cbc9d83e2d1a
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 37957f224cb57fd9f6c5014740bcea124a99a03a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/23/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-a-configuration-provider-and-mark-it-as-active-for-electronic-reporting-er"></a>针对电子申报创建一个配置提供程序，并标记其为当前运行的 (ER)
+# <a name="create-configuration-providers-and-mark-them-as-active"></a>创建配置提供程序并标记为当前运行的
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

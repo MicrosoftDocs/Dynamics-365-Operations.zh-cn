@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 使用格式配置生成付款的电子单据"
+title: "使用格式配置生成付款的电子单据"
 description: "以下步骤说明属于系统管理员或电子申报开发人员的用户如何使用新电子申报 (ER) 格式配置来生成用于处理付款的电子单据。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: a5d958d3b55bfa76f3cfbb3c1a289e4e89c49146
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 805e6f377d452e9c50240c8c9fc2ea6f5cb487e6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="generate-electronic-documents-for-payments-using-a-format-configuration-for-electronic-reporting-er"></a>针对电子申报 (ER) 使用格式配置生成付款的电子单据
+# <a name="generate-electronic-documents-for-payments-by-using-format-configurations"></a>使用格式配置生成付款的电子单据
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

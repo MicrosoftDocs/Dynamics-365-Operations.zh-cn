@@ -1,5 +1,5 @@
 --- 
-title: "使用应用程序数据生成单据"
+title: "生成包含应用程序数据的单据"
 description: "若要完成此过程中的步骤，首先必须完成“ER 使用应用程序数据更新生成单据（第 4 部分 - 修改格式）”这一过程。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 5001adbc1c7fae96e94e7b31a64a5a04ba886dc8
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 90c6ebc456d3e137e43022fad7d59ce3ca2cdcab
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="generate-documents-with-application-data"></a>使用应用程序数据生成单据
+# <a name="generate-documents-that-have-application-data"></a>生成包含应用程序数据的单据
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

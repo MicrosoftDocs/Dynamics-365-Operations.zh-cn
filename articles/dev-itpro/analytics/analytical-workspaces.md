@@ -19,7 +19,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 7e2a9297a417fb25384341dcabcafa41c50f8c84
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/22/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -32,7 +32,7 @@ ms.lasthandoff: 05/22/2018
 - [CFO 概览 Power BI 内容](CFO-power-bi.md)
 - [薪酬 Power BI 内容](compensation-power-bi.md)
 - [成本核算分析 Power BI 内容](cost-accounting-analysis-content-pack.md) 
-- [成本管理 Power BI 内容](cost-management-content-pack.md)    
+- [成本管理 Power BI 内容](cost-management-content-pack.md)
 - [信用和收款管理 Power BI 内容](../../financials/accounts-receivable/credit-collections-power-bi.md)
 - [员工发展 Power BI 内容](employee-development-PBI.md) 
 - [财务见解 Power BI 内容](financial-insights.md)
@@ -46,5 +46,5 @@ ms.lasthandoff: 05/22/2018
 - [销售和收益率绩效 Power BI 内容](sales-profitability-performance-content-pack.md)
 - [供应商付款 Power BI 内容](../../financials/accounts-payable/Vendor-payments-workspace.md)
 - [仓库性能 Power BI 内容](warehouse-power-bi-content.md)
-- [劳动力指标 Power BI 内容](workforce-analysis-power-bi-content-pack.md)  
+- [劳动力指标 Power BI 内容](workforce-analysis-power-bi-content-pack.md)
 

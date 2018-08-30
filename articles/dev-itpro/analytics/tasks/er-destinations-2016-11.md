@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 配置目标"
+title: "针对电子申报 (ER) 输出配置目标"
 description: "此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: afe9d397872b9328b59f4036049ab53b3bba2aec
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 7c84464f426d6bedff092fd918fcabbc35600f3c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="configure-destinations-for-electronic-reporting-er"></a>针对电子申报 (ER) 配置目标
+# <a name="configure-destinations-for-electronic-reporting-er-output"></a>针对电子申报 (ER) 输出配置目标
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

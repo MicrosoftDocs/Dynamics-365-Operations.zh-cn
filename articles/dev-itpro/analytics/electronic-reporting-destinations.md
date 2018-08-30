@@ -1,5 +1,5 @@
 ---
-title: "电子申报目标"
+title: "电子申报 (ER) 目标"
 description: "您可以为每个电子申报 (ER) 格式配置和及其输出组件（文件夹或文件）配置目标。 被授予适当访问权限的用户还可以在运行时修改目标设置。 本文介绍 ER 目标管理，支持的目标类型，以及安全考虑。"
 author: ShylaThompson
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fb7d0dc8b3ff9e8f1e4ade5cacfeed8f1a6871ab
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 3aa27b3ac263c6c952de7e4b508f48f21ba489ad
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="electronic-reporting-destinations"></a>电子申报目标
+# <a name="electronic-reporting-er-destinations"></a>电子申报 (ER) 目标
 
 [!include [banner](../includes/banner.md)]
 

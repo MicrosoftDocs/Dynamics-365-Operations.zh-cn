@@ -1,7 +1,7 @@
 ---
 title: "应收帐款主页"
 description: "使用应收帐款可以跟踪客户发票和收入付款。"
-author: twheeloc
+author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: 
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
 ms.search.region: Global
-ms.author: twheeloc
+ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
-ms.openlocfilehash: 9fcf106b03cd1abdd135681ceefbb7877f07c773
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -43,17 +43,24 @@ ms.lasthandoff: 06/25/2018
 
 使用应收帐款可以跟踪从客户收到的客户发票和付款。 您可以设置客户组、客户、过帐模板、利息单、催款单、佣金、与客户有关的参数、计费、交货和目的地、汇票和其他类型的应收帐款信息。 
 
-:::row::: :::column::: - [会计分配和普通发票的子分类日记帐分录](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+:::row:::
+    :::column:::
+        - [普通发票的会计分配和子分类日记帐条目](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [客户过帐模板](customer-posting-profiles.md)
         - [信用卡设置、授权和获取](credit-card-authorizations.md)
         - [创建客户发票](configure-customer-invoices.md)
         - [设置和处理重复发票](set-up-process-recurring-invoices.md)
-        - [更正普通发票](correct-free-text-invoice.md) :::column-end::: :::column::: - [设置汇票](set-up-bills-exchange.md)
-        - [设置利息代码的利率](set-up-interest-rates-interest-code.md)
+        - [更正普通发票](correct-free-text-invoice.md)
+    :::column-end:::
+    :::column:::
+        - [设置汇票](set-up-bills-exchange.md)
+        - [设置利息代码利率](set-up-interest-rates-interest-code.md)
         - [停征、复征或冲销利息费](waive-reinstate-reverse-interest-fees.md)
         - [SEPA 直接借记概览](sepa-direct-debit-overview.md)
         - [设置 SEPA 直接借记授权单](sepa-direct-debit-mandate.md)
-        - [应收帐款关帐](close-accounts-receivable.md) :::column-end::: :::row-end:::
+        - [应收帐款关帐](close-accounts-receivable.md)
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="set-up-credit-and-collections"></a>设置信用和收款
@@ -70,13 +77,20 @@ ms.lasthandoff: 06/25/2018
 
 接受来自客户的不同类型的付款，如汇票、现金、支票、信用卡和电子付款。 
 
-:::row::: :::column::: - [使用客户付款结算跨多个折扣时段的多个发票](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
+:::row:::
+    :::column:::
+        - [使用一次客户付款来结算跨多个折扣期间的多张发票](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
         - [应收帐款的集中付款](centralized-payments-accounts-receivable.md)
-        - [在折扣日期前结算部分客户付款和全额最终付款](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [在折扣日期前结算部分客户付款并在折扣日期后结算最终付款](settle-partial-customer-payment-before-discount-or-final-payment-after.md) :::column-end::: :::column::: - [结算部分贷方通知单有折扣的客户付款](settle-partial-customer-payment-discounts-credit-notes.md)
-        - [结算部分有多个折扣时段的客户付款](settle-partial-customer-payment-multiple-discount-periods.md)
+        - [在折扣日期之前结算部分客户付款并完全结算最后付款](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
+        - [在折扣日期之前结算部分客户付款并在折扣日期之后完成最终付款](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+    :::column-end:::
+    :::column:::
+        - [结算在贷方通知单上已折扣的部分客户付款](settle-partial-customer-payment-discounts-credit-notes.md)
+        - [结算具有多个折扣期间的部分客户付款](settle-partial-customer-payment-multiple-discount-periods.md)
         - [补偿客户](reimburse-customers.md)
-        - [部分金额的客户付款](customer-payments-partial-amount.md) :::column-end::: :::row-end:::
+        - [部分金额的客户付款](customer-payments-partial-amount.md)
+    :::column-end:::
+:::row-end:::
 
 
 ### <a name="additional-resources"></a>其他资源

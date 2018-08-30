@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -33,18 +33,18 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="overview"></a>概览
 
-**成本核算分析** Power BI 内容面向成本总监或负责执行组织的成本控制的任何人。 其中包含关键指标，如成本、度量值，以及按实际成本、预算成本和可变预算成本的成本率。 它使用来自**成本核算**模块中的交易记录数据，并使用一种申报币种提供整个组织的成本聚合视图。 经理可以按成本对象筛选这些数据，以便对其组织单元执行成本控制，即使该组织有多个法人。 
+**成本核算分析** Power BI 内容面向成本总监或负责执行组织的成本控制的任何人。 其中包含关键指标，如成本、度量值，以及按实际成本、预算成本和可变预算成本的成本率。 它使用来自**成本核算**模块中的交易记录数据，并使用一种申报币种提供整个组织的成本聚合视图。 经理可以按成本对象筛选这些数据，以便对其组织单元执行成本控制，即使该组织有多个法人。
 
-由于**成本核算分析**内容突出显示实际成本与预算成本之间的差异，所以可以通知经理有关其运营单位正负趋势的信息。 经理可以向下钻取到成本元素层次结构或单独的成本元素。 这样，经理可详细了解成本差异是如何发生的，并采取有效的行动。 
+由于**成本核算分析**内容突出显示实际成本与预算成本之间的差异，所以可以通知经理有关其运营单位正负趋势的信息。 经理可以向下钻取到成本元素层次结构或单独的成本元素。 这样，经理可详细了解成本差异是如何发生的，并采取有效的行动。
 
-成本会计员可通过**成本核算分析**内容分析成本在整个组织的成本对象中的流向。 
+成本会计员可通过**成本核算分析**内容分析成本在整个组织的成本对象中的流向。
 
-若要了解有关成本核算的详细信息，请参阅[成本核算主页](../../financials/cost-accounting/cost-accounting-home-page.md)。 
+若要了解有关成本核算的详细信息，请参阅[成本核算主页](../../financials/cost-accounting/cost-accounting-home-page.md)。
 
 通过在成本核算中定义访问级安全并将其与 Power BI 中的行级安全结合，可以授予所有成本对象所有者**成本核算分析** Power BI 内容的访问权限。 然后将根据成本核算中控制的访问级别筛选可视化中的所有数据。 若要了解有关访问级安全和行级安全的详细信息，请参阅[设置成本核算 Power BI 内容的安全](setup-security-cost-accounting-content-pack.md)。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**成本核算分析** Power BI。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)。 
+Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**成本核算分析** Power BI。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)。
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -75,7 +75,7 @@ Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**成�
 |                                  | 按成本对象维度成员名称和成本元素维度成员名称的实际成本                                       |                                               |
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-以下数据用于填充**成本核算分析** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。 
+以下数据用于填充**成本核算分析** Power BI 内容中的报表页。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。
 
 以下关键聚合度量用作该内容的基础。
 
@@ -113,20 +113,18 @@ Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**成�
 
 以下关键维度用作筛选器以切分聚合度量，以便获得粒度更细微，更深入的分析洞察。
 
-
-|               实体               |                                                属性示例                                                |
+| 实体                             | 属性示例                                                                                               |
 |------------------------------------|----------------------------------------------------------------------------------------------------------------------|
-|      成本核算分类帐       |                                                成本核算分类帐                                                |
-|         成本控制单元         |                                                成本控制单元名称                                                |
-|      成本元素维度       |     成本元素维度名称、成本元素维度成员名称、成本元素维度成员描述      |
-|       成本对象维度       |       成本对象维度名称、成本对象维度成员名称、成本对象维度成员描述        |
-|       统计维度       |       统计维度名称、统计维度成员名称、统计维度成员描述        |
-| 成本对象维度层次结构  |  成本对象维度层次结构名称、成本对象维度层次结构级别、成本对象维度层次结构树   |
+| 成本核算分类帐            | 成本核算分类帐                                                                                               |
+| 成本控制单元                 | 成本控制单元名称                                                                                               |
+| 成本元素维度            | 成本元素维度名称、成本元素维度成员名称、成本元素维度成员描述          |
+| 成本对象维度             | 成本对象维度名称、成本对象维度成员名称、成本对象维度成员描述              |
+| 统计维度             | 统计维度名称、统计维度成员名称、统计维度成员描述              |
+| 成本对象维度层次结构  | 成本对象维度层次结构名称、成本对象维度层次结构级别、成本对象维度层次结构树    |
 | 成本元素维度层次结构 | 成本元素维度层次结构名称、成本元素维度层次结构级别、成本元素维度层次结构树 |
-| 统计维度层次结构  |  统计维度层次结构名称、统计维度层次结构级别、统计维度层次结构树   |
-|        交易记录版本        |                                                     版本名                                                     |
-|          会计日历          |                                            日历、日历描述                                            |
-|            会计年度            |                                                    日历年度                                                     |
-|           会计期间           |                                                 日历年度期间                                                 |
-
+| 统计维度层次结构  | 统计维度层次结构名称、统计维度层次结构级别、统计维度层次结构树    |
+| 交易记录版本               | 版本名                                                                                                         |
+| 会计日历                   | 日历、日历描述                                                                                       |
+| 会计年度                       | 日历年度                                                                                                        |
+| 会计期间                     | 日历年度期间                                                                                                 |
 

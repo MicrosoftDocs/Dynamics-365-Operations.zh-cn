@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 从 Lifecycle Services 导入配置"
+title: "从 Lifecycle Services 导入电子申报配置"
 description: "以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Lifecycle Services (LCS) 导入新电子申报 (ER) 配置版本。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 9eb4f54897c84b98828c927f0f93613583fd4599
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: f3b8cdb722cf49194faccc19fbb95265a230d48b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="import-a-configuration-from-lifecycle-services-for-electronic-reporting-er"></a>针对电子申报 (ER) 从 Lifecycle Services 导入配置
+# <a name="import-electronic-reporting-configurations-from-lifecycle-services"></a>从 Lifecycle Services 导入电子申报配置
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

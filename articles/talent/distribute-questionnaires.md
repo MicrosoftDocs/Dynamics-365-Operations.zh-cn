@@ -1,5 +1,5 @@
 ---
-title: "分配和完成调查表"
+title: "分发和计划调查表"
 description: "本主题描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。"
 author: kherr75
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 61aebf9190bd7f76a8d4d3e80c06adae1d27f7a3
+ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.openlocfilehash: eafcb047117eab73fddbd93c4c1d0aafb0023ebd
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="distribute-and-complete-a-questionnaire"></a>分配和完成调查表
+# <a name="distribute-and-schedule-questionnaires"></a>分发和计划调查表
 
 [!include [banner](includes/banner.md)]
 

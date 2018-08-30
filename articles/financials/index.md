@@ -21,7 +21,7 @@ ms.translationtype: HT
 ms.sourcegitcommit: b8f2f3a33dc19c2ebc941d1a504eae0c276f3cdf
 ms.openlocfilehash: a64621c5310e5f68b9d6f1545bb39ce1519d71cf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 06/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
@@ -33,16 +33,23 @@ ms.lasthandoff: 06/25/2018
 
 选择一个功能区域以了解有关它的更多信息。
 
-:::row::: :::column::: - [应付帐款](accounts-payable/accounts-payable.md) 
+:::row:::
+    :::column:::
+        - [应付帐款](accounts-payable/accounts-payable.md) 
         - [应收帐款](accounts-receivable/accounts-receivable.md)
         - [预算编制](budgeting/budgeting-overview.md) 
         - [现金和银行管理](cash-bank-management/cash-bank-management.md)
-        - [成本核算](cost-accounting/cost-accounting-home-page.md) :::column-end::: :::column::: - [费用管理](expense-management/expense-management.md)
+        - [成本核算](cost-accounting/cost-accounting-home-page.md)
+    :::column-end:::
+    :::column:::
+        - [费用管理](expense-management/expense-management.md)
         - [财务报告](../dev-itpro/analytics/financial-reporting-intro.md?toc=/fin-and-ops/toc.json)
         - [固定资产](fixed-assets/fixed-assets.md)
         - [总帐](general-ledger/general-ledger.md) 
         - [项目管理](project-management/overview-project-management-accounting.md)
-        - [公共部门](public-sector/public-sector-functionality.md) :::column-end::: :::row-end:::
+        - [公共部门](public-sector/public-sector-functionality.md) 
+    :::column-end:::
+:::row-end:::
 
 
 ## <a name="additional-resources"></a>其他资源

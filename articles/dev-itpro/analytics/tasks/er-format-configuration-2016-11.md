@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 创建格式配置"
+title: "创建电子申报 (ER) 格式"
 description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 04817d1f1851e43679995641e8b0ff99edaa83ad
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8c11f64fd899b8be4e6c3179913787eb2c32c6c6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="create-a-format-configuration-for-electronic-reporting-er"></a>针对电子申报 (ER) 创建格式配置
+# <a name="create-electronic-reporting-er-format-configurations"></a>创建电子申报 (ER) 格式
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

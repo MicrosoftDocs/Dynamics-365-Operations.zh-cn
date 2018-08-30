@@ -1,5 +1,5 @@
 ---
-title: "POS 硬件外围设备"
+title: "Microsoft 测试过的销售点 (POS) 硬件外设"
 description: "Retail Modern 销售点 (POS) 和 Cloud POS 可以使用一系列广泛的 POS 硬件外设，具有多个界面和部署选项以满足零售商的各种业务场景。"
 author: jblucher
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4fbfb176f2504be8aaf67992d094da1daeefeb76
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: e4191f6765faf9de5cbf8acf16dbd54d6b478252
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="pos-hardware-peripherals"></a>POS 硬件外围设备
+# <a name="microsoft-tested-point-of-sale-pos-hardware-peripherals"></a>Microsoft 测试过的销售点 (POS) 硬件外设
 
 [!include [banner](includes/banner.md)]
 

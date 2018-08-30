@@ -1,5 +1,5 @@
 --- 
-title: "更改会话日期"
+title: "更改会话的日期"
 description: "默认情况下，在输入和过账日志条目或原始凭证时使用当前日期。"
 author: pvillads
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 69a449766f2e5d9a6833127fcd28a2959d4578fc
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: cf637e40395c70f0579cced3581ebd57ebe243a5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="change-the-date-for-the-session"></a>更改会话日期
+# <a name="change-the-date-for-a-session"></a>更改会话的日期
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

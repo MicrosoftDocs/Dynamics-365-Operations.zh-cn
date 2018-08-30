@@ -1,5 +1,5 @@
 ---
-title: "零售考勤管理"
+title: "Retail 中的工时和出勤管理"
 description: "此主题介绍 Microsoft Dynamics 365 for Retail 中零售工时和出勤管理支持的方案。"
 author: aamirallaqaband
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: d5672579c1e2d51e4b6494a1e86e3606c09a93a2
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 21c29c3c37dfacdd98f5c3ec7698f07623da2285
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="retail-time-and-attendance"></a>零售考勤管理
+# <a name="time-and-attendance-management-in-retail"></a>Retail 中的工时和出勤管理
 
 [!include [banner](includes/banner.md)]
 
@@ -43,9 +43,9 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="plan-worker-schedules"></a>计划工作人员计划
 
--   使用工作进度表应用模板。 有关详细信息，请参阅 <https://technet.microsoft.com/en-us/library/aa551234.aspx>。
+-   使用工作进度表应用模板。 有关详细信息，请参阅<https://technet.microsoft.com/en-us/library/aa551234.aspx>。
 
-有关配置步骤的信息，请参阅 <https://technet.microsoft.com/en-us/library/aa496971.aspx>。
+有关配置步骤的信息，请参阅<https://technet.microsoft.com/en-us/library/aa496971.aspx>。
 
 ### <a name="retail-specific-configuration"></a>零售特定配置
 
@@ -135,7 +135,7 @@ Dynamics 365 for Retail 用户按照工作流计算、审核和将时间登记�
 -   批量下班打卡
 -   登记缺勤
 
-有关如何处理时间和出勤登记的详细信息，请参阅 <https://technet.microsoft.com/en-us/library/aa573180.aspx>。
+有关如何处理工时和出勤登记的详细信息，请参阅<https://technet.microsoft.com/en-us/library/aa573180.aspx>。
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Finance and Operations 财务申报"
+title: "财务申报"
 description: "Finance and Operations 财务申报允许财务和业务专业人员创建、维护、部署和查看财务报表。 它超出了传统报告约束，可以帮助您高效地设计各种类型的报表。"
 author: aprilolson
 manager: AnnBe
@@ -10,7 +10,7 @@ ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: FinanicalReportingSetup
 audience: Application User
-ms.reviewer: twheeloc
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 68813
 ms.assetid: fe8b27e7-a40a-4689-ac6a-7f7401c387f5
@@ -19,14 +19,14 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 54a3409e7bd0f1c704cf9f7dd1d860100ec83d7f
+ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.openlocfilehash: 3e12037f14e7e01764fd6d18f52854c35a09d196
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="financial-reporting-for-finance-and-operations"></a>Finance and Operations 财务申报
+# <a name="financial-reporting"></a>财务申报
 
 [!include [banner](../includes/banner.md)]
 

@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 将数据模型映射到所选的数据源"
+title: "将电子申报 (ER) 数据模型映射到所选的数据源"
 description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何映射电子报表 (ER) 数据模型到所选的 Dynamics 365 for Finance and Operations Enterprise Edition（2016 年 11 月）数据源中。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 13b7fe7f7bfe24bd275428e931993aa46ecb9945
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: f347c19d940330c830509be4d11127f9e3324deb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="map-a-data-model-to-selected-data-sources-for-electronic-reporting-er"></a>针对电子申报 (ER) 将数据模型映射到所选的数据源
+# <a name="map-electronic-reporting-er-data-models-to-selected-data-sources"></a>将电子申报 (ER) 数据模型映射到所选的数据源
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

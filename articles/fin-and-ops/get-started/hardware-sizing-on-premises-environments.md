@@ -18,20 +18,20 @@ ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: 92a52646063c145d733b9d2960253004e8eab80a
-ms.openlocfilehash: 32b0d71d98c64ce998acbf5cdc03645401a2be7b
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: 269eb1f1c59ef52ce14da11c99fd6d292b9c0b4f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="hardware-sizing-for-on-premises-environments"></a>针对本地环境的硬件规模调整
+# <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
 [!include [banner](../includes/banner.md)]
 
 在你开始对本地环境执行硬件和基础结构规模调整流程前，请熟悉[系统要求](system-requirements.md) 和[设置和部署说明](../../dev-itpro/deployment/setup-deploy-on-premises-environments.md) 以充分了解基础结构。 
 
-  **注意：**密切关注可实现最优性能的系统设置最佳实践。 
+  **注意：** 密切关注可实现最优性能的系统设置最佳实践。 
 
 在查看文档后，你可以开始评估你的事务性和并发用户数量并基于平均核心吞吐量对环境调整规模的流程。
 
@@ -67,7 +67,7 @@ ms.lasthandoff: 03/05/2018
 ## <a name="sizing-your-finance-and-operations-environment"></a>对你的 Finance and Operations 环境进行规模调整
 若要了解你的规模调整需求，你需要知道你需要处理的峰值交易记录量。 大多数辅助系统，例如 Management Reporter 或 SSRS，对任务没有那么关键。 因此，文档主要关注 AOS 和 SQL Server。 
 
-**注意：**一般来说，计算层扩大且应按 N+1 的方式设置，意味着如果你估计有三个 AOS，则添加第四个 AOS。 数据库层应在 Always On 高可用性设置中进行设置。 
+**注意：** 一般来说，计算层扩大且应按 N+1 的方式设置，意味着如果你估计有三个 AOS，则添加第四个 AOS。 数据库层应在 Always On 高可用性设置中进行设置。 
 
 
 ## <a name="sql-server-oltp"></a>SQL Server (OLTP)

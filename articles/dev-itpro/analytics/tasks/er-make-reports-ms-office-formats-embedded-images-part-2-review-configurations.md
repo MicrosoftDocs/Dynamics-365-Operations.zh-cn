@@ -1,5 +1,5 @@
 --- 
-title: "检查配置以创建包含嵌入图像的 Microsoft Office 格式报表"
+title: "检查配置以生成 Office 格式的包含嵌入图像的报表"
 description: "若要完成这些步骤，必须首先完成“ER 创建包含嵌入图像的 MS Office 格式报表（第 1 部分 - 设置参数）”任务指南中的步骤。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fe58809c60fa27a605d84a61893ff569ded058ef
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 8f3462f16ad7638071ab0aa2175d0bc291eeae89
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="review-configurations-to-make-reports-in-microsoft-office-formats-with-embedded-images"></a>检查配置以创建包含嵌入图像的 Microsoft Office 格式报表
+# <a name="review-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>检查配置以生成 Office 格式的包含嵌入图像的报表
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

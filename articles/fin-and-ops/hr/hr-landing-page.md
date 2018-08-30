@@ -17,14 +17,14 @@ ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: 4ded4aee8f7cb15960bcecd30ec30b812b086d92
+ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
+ms.openlocfilehash: fdf139fc5b4227c91f6430fad8752b9fc3027119
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="welcome-to-human-resources"></a>欢迎使用“人力资源”
+# <a name="human-resources"></a>人力资源
 
 [!include [banner](../includes/banner.md)]
 

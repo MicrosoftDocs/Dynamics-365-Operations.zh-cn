@@ -18,13 +18,13 @@ ms.author: sarvanis
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2ecfb759a59292ddbce484b3ae20368c486fedd9
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: b18050aa3c01db5667f0a529e3eb0c5eba971dc8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="configure-sql-server-reporting-services-for-an-on-premises-deployment"></a>为本地部署配置 SQL Server Reporting Services
+# <a name="configure-sql-server-reporting-services-for-on-premises-deployments"></a>为本地部署配置 SQL Server Reporting Services
 
 [!include [banner](../includes/banner.md)]
 
@@ -44,11 +44,11 @@ ms.lasthandoff: 03/26/2018
 
     [![Web 服务 URL 选项卡](./media/ssrs-config-manager-03.png)](./media/ssrs-config-manager-03.png) 
     
-6. 单击**数据库**选项卡并验证**数据库名称**和**凭据设置**是否与以下图形匹配。 **注意：**你需要创建一个新的数据库。 为此，请单击**更改数据库**，然后验证新的数据库名称是否为：**DynamicsAxReportServer**。
+6. 单击**数据库**选项卡并验证**数据库名称**和**凭据设置**是否与以下图形匹配。 **注意：** 你需要创建一个新的数据库。 为此，请单击**更改数据库**，然后验证新的数据库名称是否为：**DynamicsAxReportServer**。
 
     [![数据库选项卡](./media/ssrs-config-manager-04.png)](./media/ssrs-config-manager-04.png)
     
-7. 单击 **Web 门户 URL** 选项卡并验证设置是否与以下图形匹配。 **注意：**你必须单击**应用**以创建和正确配置门户。
+7. 单击 **Web 门户 URL** 选项卡并验证设置是否与以下图形匹配。 **注意：** 你必须单击**应用**以创建和正确配置门户。
 
     [![Web 门户 URL 选项卡](./media/ssrs-config-manager-05.png)](./media/ssrs-config-manager-05.png)
     

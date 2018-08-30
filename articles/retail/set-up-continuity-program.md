@@ -20,14 +20,14 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0fa2c5aaf6953eed75729017cca8cf3c2220e80d
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 9952785afd8e5d1877e96239ee23f9de1c332bcf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="set-up-a-continuity-program-for-a-call-center"></a>设置呼叫中心的连续性计划
+# <a name="set-up-continuity-programs-for-call-centers"></a>设置呼叫中心的连续性计划
 
 [!include [banner](includes/banner.md)]
 

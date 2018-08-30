@@ -1,5 +1,5 @@
 ---
-title: "电子申报中的配方设计器"
+title: "电子申报中 (ER) 的配方设计器"
 description: "本主题说明如何在电子申报 (ER) 中使用配方设计器。"
 author: NickSelin
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc887668171175d436b9eb281a35c1c9d089591
-ms.openlocfilehash: 8d8ab61b7aea84332120e6de9fc29a2a4c9598ca
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/25/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="formula-designer-in-electronic-reporting"></a>电子申报中的配方设计器
+# <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
 [!include [banner](../includes/banner.md)]
 
@@ -385,7 +385,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <p><a href="./media/ger-listoffields-function-format-design.png"><img src="./media/ger-listoffields-function-format-design.png" alt="Format design" class="alignnone size-full wp-image-1204043" width="466" height="221" /></a></p>
 <p>下图显示运行设计的格式的结果。</p>
 <p><a href="./media/ger-listoffields-function-format-output.png"><img src="./media/ger-listoffields-function-format-output.png" alt="Format output" class="alignnone size-full wp-image-1204053" width="585" height="158" /></a></p>
-<blockquote>[!NOTE]<br>根据父 FILE 和 FOLDER 格式元素的语言设置，在 ER 格式的输出中输入了经过翻译的标签和说明文本。</blockquote>
+<blockquote>[!NOTE] 根据父 FILE 和 FOLDER 格式元素的语言设置，在 ER 格式的输出中输入了经过翻译的标签和说明文本。</blockquote>
 </td>
 </tr>
 <tr>
@@ -426,7 +426,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <p><a href="./media/ger-splitlistbylimit-datasources-1.png"><img src="./media/ger-splitlistbylimit-datasources-1.png" alt="Data sources for the adjusted format" class="alignnone size-full wp-image-1204093" width="645" height="507" /></a></p>
 <p>下图显示运行调整后的格式的结果。</p>
 <p><a href="./media/ger-splitlistbylimit-output-1.png"><img src="./media/ger-splitlistbylimit-output-1.png" alt="Output of the adjusted format" class="alignnone size-full wp-image-1204113" width="676" height="611" /></a></p>
-<blockquote>[!NOTE]<br>此限值不适用于原始列表的最后一个物料，因为其限值源（重量）的值 (11) 超出定义的限值 (9)。 在报表生成过程中（如有必要）使用相应格式元素的 <strong>WHERE</strong> 函数或 <strong>Enabled</strong> 表达式忽略（跳过）子列表。</blockquote>
+<blockquote>[!NOTE] 此限值不适用于原始列表的最后一个物料，因为其限值源（重量）的值 (11) 超出定义的限值 (9)。 在报表生成过程中（如有必要）使用相应格式元素的 <strong>WHERE</strong> 函数或 <strong>Enabled</strong> 表达式忽略（跳过）子列表。</blockquote>
 </td>
 </tr>
 <tr>
@@ -456,8 +456,8 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 | NUMBERVALUE（字符串，小数分隔符，数字分组分隔符） | 将指定的字符串转换为数字。 将在十进制数字的整数和小数部分之间使用小数点分隔符。 指定的数字分组分隔符用作千分位分隔符。 | **NUMBERVALUE("1 234,56", ",", " ")** 返回值 **1234.56**。 |
 | VALUE（字符串） | 将指定的字符串转换为数字。 逗号和点字符 (.) 被视为小数分隔符，前导连字符 (-) 用作负号。 如果指定字符串中包含其他非数值字符，将引发异常。 | **VALUE ("1 234,56")** 引发异常。 |
 | ROUND（数字，小数位） | 返回已舍入到指定小数位数的指定数字：<ul><li>如果**小数**参数的值大于 0（零），则指定的数值舍入到这个多位小数位数。</li><li>如果**小数**参数的值为 **0**（零），则指定的数值舍入到最近的整数。</li><li>如果**小数**参数的值小于 0（零），则指定的数值舍入到小数点左边。</li></ul> | **ROUND (1200.767, 2)** 舍入到两位小数，返回 **1200.77**。 **ROUND (1200.767, -3)** 舍入到最接近的 1,000 的倍数，返回 **1000**。 |
-| ROUNDDOWN（数字，小数位） | 返回已向下舍入到指定小数位数的指定数字。<blockquote>[!NOTE]<br>此函数类似 **ROUND**，但始终向下（朝零）舍入到指定的数字。</blockquote> | **ROUNDDOWN (1200.767, 2)** 向下舍入到两位小数，返回 **1200.76**。 **ROUNDDOWN (1700.767, -3)** 向下舍入到最接近的 1,000 的倍数，返回 **1000**。 |
-| ROUNDUP（数字，小数位） | 返回已向上舍入到指定小数位数的指定数字。<blockquote>[!NOTE]<br>此函数类似 **ROUND**，但始终向上（不朝零）舍入到指定的数字。</blockquote> | **ROUNDUP (1200.763, 2)** 向上舍入到两位小数，返回 **1200.77**。 **ROUNDUP (1200.767, -3)** 向上舍入到最接近的 1,000 的倍数，返回 **2000**。 |
+| ROUNDDOWN（数字，小数位） | 返回已向下舍入到指定小数位数的指定数字。<blockquote>[!NOTE] 此函数类似 **ROUND**，但始终向下（朝零）舍入到指定的数字。</blockquote> | **ROUNDDOWN (1200.767, 2)** 向下舍入到两位小数，返回 **1200.76**。 **ROUNDDOWN (1700.767, -3)** 向下舍入到最接近的 1,000 的倍数，返回 **1000**。 |
+| ROUNDUP（数字，小数位） | 返回已向上舍入到指定小数位数的指定数字。<blockquote>[!NOTE] 此函数类似 **ROUND**，但始终向上（不朝零）舍入到指定的数字。</blockquote> | **ROUNDUP (1200.763, 2)** 向上舍入到两位小数，返回 **1200.77**。 **ROUNDUP (1200.767, -3)** 向上舍入到最接近的 1,000 的倍数，返回 **2000**。 |
 
 ### <a name="data-conversion-functions"></a>数据转换函数
 
@@ -474,8 +474,8 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 
 | 职能 | 说明 | 示例 |
 |----------|-------------|---------|
-| NULLCONTAINER（列表） | 返回与指定的记录列表或记录具有相同结构的**空**记录。<blockquote>[!NOTE]<br>此函数已废弃。 使用 **EMPTYRECORD**。</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。 |
-| EMPTYRECORD（记录） | 返回与指定的记录列表或记录具有相同结构的**空**记录。<blockquote>[!NOTE]<br>**null** 记录为其中的所有字符串都有空值的记录。 空值对于数字来说为 **0**（零），对于字符串来说为空字符串，依此类推。</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。 |
+| NULLCONTAINER（列表） | 返回与指定的记录列表或记录具有相同结构的**空**记录。<blockquote>[!NOTE] 此函数已废弃。 使用 **EMPTYRECORD**。</blockquote> | **NULLCONTAINER (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。 |
+| EMPTYRECORD（记录） | 返回与指定的记录列表或记录具有相同结构的**空**记录。<blockquote>[!NOTE] **null** 记录为其中的所有字符串都有空值的记录。 空值对于数字来说为 **0**（零），对于字符串来说为空字符串，依此类推。</blockquote> | **EMPTYRECORD (SPLIT ("abc", 1))** 返回具有与 **SPLIT** 函数返回的列表相同结构的新空记录。 |
 
 ### <a name="text-functions"></a>文本函数
 
@@ -522,14 +522,14 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <td>CHAR（数字）</td>
 <td>返回指定的 Unicode 数值引用的字符的字符串。</td>
 <td><strong>CHAR (255)</strong> 返回 <strong>&quot;ÿ&quot;</strong>。
-<blockquote>[!NOTE]<br>此函数返回的字符串取决于在父 FILE 格式元素中选择的编码。 有关支持的编码的列表，请参阅<a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">编码类</a>。</blockquote>
+<blockquote>[!NOTE] 此函数返回的字符串取决于在父 FILE 格式元素中选择的编码。 有关支持的编码的列表，请参阅<a href="https://msdn.microsoft.com/en-us/library/system.text.encoding(v=vs.110).aspx">编码类</a>。</blockquote>
 </td>
 </tr>
 <tr>
 <td>CONCATENATE（字符串 1 [，2，…]）</td>
 <td>返回已联接为一个字符串的所有指定文本字符串。</td>
 <td><strong>CONCATENATE (&quot;abc&quot;, &quot;def&quot;)</strong>返回 <strong>&quot;abcdef&quot;</strong>。
-<blockquote>[!NOTE]<br>表达式 <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> 也返回 <strong>&quot;abcdef&quot;</strong>。</blockquote>
+<blockquote>[!NOTE] 表达式 <strong>&quot;abc&quot; &amp; &quot;def&quot;</strong> 也返回 <strong>&quot;abcdef&quot;</strong>。</blockquote>
 </td>
 </tr>
 <tr>
@@ -571,7 +571,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <p>&quot;没有要打印的内容。 客户 Litware 零售已于 2015 年 12 月 17 日停止。&quot;</p>
 <p>如果 2015 年 12 月 17 日为 <strong>Litware 零售</strong>客户处理同一个报表，在 <strong>DE</strong> 区域性和 <strong>DE</strong> 语言中，此公式返回以下文本（使用不同的日期格式）：</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt。&quot;</p>
-<blockquote>[!NOTE]<br>以下语法在标签的 ER 公式中应用：
+<blockquote>[!NOTE] 以下语法在标签的 ER 公式中应用：
 <ul>
 <li><strong>对于 Finance and Operations 资源的标签：</strong><strong>@&quot;X&quot;</strong>，其中 X 是应用程序对象树 (AOT) 中的标签 ID</li>
 <li><strong>对于位于 ER 配置中的标签：</strong><strong>@&quot;GER_LABEL:X&quot;</strong>，其中 X 是 ER 配置中的标签 ID</li>
@@ -587,7 +587,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <tr>
 <td>NUMERALSTOTEXT（数字，语言，币种，打印币种名称标志，小数点）</td>
 <td>返回已以指定语言拼出（转换为文本字符串）的指定数字。 语言代码可选。 定义为空字符串时，将使用运行上下文的语言代码。 （运行上下文的语言代码是为生成文件夹或文件定义的。）币种代码也可选。 定义为空字符串时，采用公司币种。
-<blockquote>[!NOTE]<br>仅为以下语言代码分析<strong>打印币种名称标记</strong>和<strong>小数点</strong>参数：<strong>CS</strong>、<strong>ET</strong>、<strong>HU</strong>、<strong>LT</strong>、<strong>LV</strong>、<strong>PL</strong> 和 <strong>RU</strong>。 此外，仅为国家或地区的上下文支持币种名称偏差的 Finance and Operations 公司分析<strong>打印币种名称标记</strong>参数。</blockquote>
+<blockquote>[!NOTE] 仅为以下语言代码分析<strong>打印币种名称标记</strong>和<strong>小数点</strong>参数：<strong>CS</strong>、<strong>ET</strong>、<strong>HU</strong>、<strong>LT</strong>、<strong>LV</strong>、<strong>PL</strong> 和 <strong>RU</strong>。 此外，仅为国家或地区的上下文支持币种名称偏差的 Finance and Operations 公司分析<strong>打印币种名称标记</strong>参数。</blockquote>
 </td>
 <td><strong>NUMERALSTOTEXT (1234.56, &quot;EN&quot;, &quot;&quot;, false, 2)</strong> 返回 <strong>&quot;One Thousand Two Hundred Thirty Four and 56&quot;</strong>。 <strong>NUMERALSTOTEXT (120, &quot;PL&quot;, &quot;&quot;, false, 0)</strong> 返回 <strong>&quot;Sto dwadzieścia&quot;</strong>。 <strong>NUMERALSTOTEXT (120.21, &quot;RU&quot;, &quot;EUR&quot;, true, 2)</strong> 返回 <strong>&quot;Сто двадцать евро 21 евроцент&quot;</strong>。</td>
 </tr>
@@ -656,10 +656,10 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 | 职能 | 说明 | 示例 |
 |----------|-------------|---------|
 | CONVERTCURRENCY（金额，源币种，目标币种，日期，格式） | 通过使用指定日期的指定 Finance and Operations 公司的设置，将指定的货币金额从指定源币种转换为指定目标币种。 | **CONVERTCURRENCY (1, "EUR", "USD", TODAY(), "DEMF")** 基于 DEMF 公司的设置返回当前会话日期一欧元的等额美元。 |
-| ROUNDAMOUNT（数字，小数位，舍入规则） | 根据指定的舍入规则将指定金额舍入为指定小数位数。<blockquote>[!NOTE]<br>舍入规则必须指定为 Finance and Operations **RoundOffType** 枚举的值。</blockquote> | 如果 **model.RoundOff** 参数设置为 **Downward**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.78**。 如果 **model.RoundOff** 参数设置为 **Normal** 或 **Rounding-up**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.79**。 |
+| ROUNDAMOUNT（数字，小数位，舍入规则） | 根据指定的舍入规则将指定金额舍入为指定小数位数。<blockquote>[!NOTE] 舍入规则必须指定为 Finance and Operations **RoundOffType** 枚举的值。</blockquote> | 如果 **model.RoundOff** 参数设置为 **Downward**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.78**。 如果 **model.RoundOff** 参数设置为 **Normal** 或 **Rounding-up**，**ROUNDAMOUNT (1000.787, 2, model.RoundOff)** 返回值 **1000.79**。 |
 | CURCredRef（位数） | 基于指定发票编号的数字返回贷方引用。 | **CURCredRef ("VEND-200002")** 返回 **"2200002"**。 |
 | MOD\_97（位数） | 基于指定发票编号的数字返回贷方引用为 MOD97 表达式。 | **MOD\_97 ("VEND-200002")** 返回 **"20000285"**。 |
-| ISOCredRef（位数） | 基于指定发票编号的数字和字母符号返回国际标准化组织 (ISO) 贷方引用。<blockquote>[!NOTE]<br>若要从不是 ISO 兼容的字母表中清除符号，输入参数必须在传递给此函数前转换。</blockquote> | **ISOCredRef ("VEND-200002")** 返回 **"RF23VEND-200002"**。 |
+| ISOCredRef（位数） | 基于指定发票编号的数字和字母符号返回国际标准化组织 (ISO) 贷方引用。<blockquote>[!NOTE] 若要从不是 ISO 兼容的字母表中清除符号，输入参数必须在传递给此函数前转换。</blockquote> | **ISOCredRef ("VEND-200002")** 返回 **"RF23VEND-200002"**。 |
 | CN\_GBT\_AdditionalDimensionID （字符串，数字） | 获取指定的额外财务维度 ID。 在 **string** 参数中，维度在此字符串中显示为以逗号分隔的 ID。 **number** 参数定义字符串中所请求维度的序列代码。 | **CN\_GBT\_AdditionalDimensionID ("AA,BB,CC,DD,EE,FF,GG,HH",3)** 返回 **"CC"**。 |
 | GetCurrentCompany () | 返回用户目前已登录到的法人（公司）的代码的文本表示形式。 | **GETCURRENTCOMPANY ()** 为在 Finance and Operations 中已登录 的 **Contoso Entertainment System USA** 公司的用户返回 **USMF**。 |
 | CH\_BANK\_MOD\_10（位数） | 基于指定发票编号的数字返回贷方引用为 MOD10 表达式。 | **CH\_BANK\_MOD\_10 ("VEND-200002")** 返回 **3**。 |

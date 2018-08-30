@@ -1,5 +1,5 @@
 ---
-title: "在线商店概述"
+title: "设置在线商店"
 description: "本文提供有关 Retail 在线商店以及如何在 Microsoft Dynamics 365 for Retail 中设置它们的信息。"
 author: kfend
 manager: AnnBe
@@ -20,14 +20,14 @@ ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3814e5a4a88f439c89981f191e8896afb2ced68b
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 640f134dff19b60c2b14259f8a6c838e44c8926e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="online-store-overview"></a>在线商店概览
+# <a name="set-up-online-stores"></a>设置在线商店
 
 [!include [banner](includes/banner.md)]
 
@@ -47,7 +47,7 @@ Dynamics 365 for Retail 支持多个零售渠道。 这些零售渠道包括在�
 7.  如果您允许顾客在线订购产品，然后在当地商店领取，则将商店定位符组分配给在线商店。
 8.  将渠道、产品和销售订单的属性分配给在线商店。 渠道属性适用于整个在线商店，产品属性适用于在线商店中提供的产品，而销售订单属性适用于从在线商店生成的销售订单。
 9.  映射特性以定义决定这些特性在在线商店中的行为方式的属性。 例如，属性可以定义为必需或可搜索。
-10. 发布在线商店以在您选择的第三方在线商店中生成商店结构。 **重要提示：**在发布在线商店之前，必须为在线商店设置配送地。
+10. 发布在线商店以在您选择的第三方在线商店中生成商店结构。 **重要提示：** 在发布在线商店之前，必须为在线商店设置配送地。
 
 ## <a name="retail-channel-navigation-hierarchies"></a>零售渠道导航层次结构
 必须先定义您用于在线商店的零售渠道导航层次结构，然后才能创建在线商店。 零售渠道导航层次结构表示发布商店后显示在在线商店中的类别导航。 将零售产品目录发布到在线商店时，目录中的产品会映射到零售渠道导航层次结构中的目录。 顾客然后使用该层次结构在在线商店中进行导航。

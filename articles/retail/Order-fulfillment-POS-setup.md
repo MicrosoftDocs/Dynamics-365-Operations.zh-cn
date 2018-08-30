@@ -1,5 +1,5 @@
 ---
-title: "商店履行设置"
+title: "设置商店订单履行"
 description: "此主题概要介绍如何设置商店订单履行。"
 author: rubencdelgado
 manager: AnnBe
@@ -18,10 +18,10 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: ccff6533257379c0305f7414dd36e17d1c323c21
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: eee96463099fb14ec5b2b0e29a406ae7fdc7496d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 

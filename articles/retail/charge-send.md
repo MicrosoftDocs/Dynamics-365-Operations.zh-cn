@@ -1,5 +1,5 @@
 ---
-title: "装运来自不同商店的订单"
+title: "使用“费用发送”功能从其他商店装运订单"
 description: "此主题描述“费用发送”功能。"
 author: ashishmsft
 manager: AnnBe
@@ -19,14 +19,14 @@ ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 797058bdbbdb63a08eb35034ffe3c913307f38df
-ms.openlocfilehash: 41434614b01f9a00f2b8a56765ecb90ee07e3d90
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 50f51a7cc043b3c638ae58bffbd988a6db148004
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/05/2018
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="ship-an-order-from-a-different-store"></a>装运来自不同商店的订单
+# <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>使用“费用发送”功能从其他商店装运订单
 
 [!include [banner](includes/banner.md)]
 

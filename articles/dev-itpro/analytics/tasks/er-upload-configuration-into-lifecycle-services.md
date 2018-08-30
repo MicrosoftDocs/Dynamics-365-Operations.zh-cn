@@ -1,5 +1,5 @@
 --- 
-title: "针对电子申报 (ER) 将配置上传到 Lifecycle Services 中"
+title: "将电子申报配置上载到 Lifecycle Services 中"
 description: "以下步骤说明属于系统管理员或电子报表开发人员用户如何创建新电子申报 (ER) 配置并将其上载到 Microsoft Lifecycle Services (LCS)。"
 author: NickSelin
 manager: AnnBe
@@ -16,13 +16,13 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3d9c2192bac8477e9c9376aab3e3b561da777569
+ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
+ms.openlocfilehash: 6aa6bf7e08285d18210741ba6618878955009280
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/08/2018
 
 ---
-# <a name="upload-a-configuration-into-lifecycle-services-for-electronic-reporting-er"></a>针对电子申报 (ER) 将配置上传到 Lifecycle Services 中
+# <a name="upload-electronic-reporting-configurations-into-lifecycle-services"></a>将电子申报配置上载到 Lifecycle Services 中
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -92,6 +92,6 @@ ms.lasthandoff: 03/26/2018
 10. 单击“打开”。
     * 选择 LCS 存储库然后打开它。  
     * 请注意，所选配置显示为所选 LCS 项目的资产。  
-    * 使用 https://lcs.dynamics.com 打开 LCS。打开之前用于存储库登记的项目，打开此项目的“资产库”，然后展开“GER 配置”资产类型 – 上载的的 ER 配置将可用。 请注意，如果提供程序有权访问此 LCS 项目，上载的 LCS 配置可以导入到其他 Microsoft Dynamics 365 for Finance and Operations 实例。  
+    * 使用 https://lcs.dynamics.com 打开 LCS。 打开之前用于存储库登记的项目，打开此项目的“资产库”，然后展开“GER 配置”资产类型 – 上载的的 ER 配置将可用。 请注意，如果提供程序有权访问此 LCS 项目，上载的 LCS 配置可以导入到其他 Microsoft Dynamics 365 for Finance and Operations 实例。  
 
 

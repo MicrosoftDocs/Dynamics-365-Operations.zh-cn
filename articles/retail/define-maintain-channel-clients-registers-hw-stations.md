@@ -1,5 +1,5 @@
 ---
-title: "定义和维护渠道客户端、收银机和硬件工作站"
+title: "将外设连接到销售点 (POS)"
 description: "此主题介绍如何将外设连接到 Retail POS。"
 author: rubencdelgado
 manager: AnnBe
@@ -20,20 +20,20 @@ ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: efce1a6f8b87cbaebcf4436e33e832d49a040329
+ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.openlocfilehash: 9952ece965f467a19c911219382da00dd25a29e7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 08/08/2018
 
 ---
 
-# <a name="define-and-maintain-channel-clients-registers-and-hardware-stations"></a>定义和维护渠道客户端、收银机和硬件工作站
+# <a name="connect-peripherals-to-the-point-of-sale-pos"></a>将外设连接到销售点 (POS)
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何将外设连接到 Retail POS。
 
-**注意︰**要获取特定的安装说明，请参阅 [Retail Hardware Station 部署和安装](retail-hardware-station-configuration-installation.md)和[Retail Modern POS 自助服务下载/安装以及 Modern POS 和 Cloud POS 的设备激活](retail-modern-pos-device-activation.md)。
+**注意︰** 要获取特定的安装说明，请参阅 [Retail Hardware Station 部署和安装](retail-hardware-station-configuration-installation.md)和[Retail Modern POS 自助服务下载/安装以及 Modern POS 和 Cloud POS 的设备激活](retail-modern-pos-device-activation.md)。
 
 ## <a name="key-components"></a>重要组件
 有几个组件用于定义商店、销售点 (POS) 收银机或商店内渠道，以及这些收银机或渠道用于处理交易的零售外设之间的关系。 此部分介绍每个组件，并说明它在零售商店部署中的使用方式。
@@ -71,7 +71,7 @@ Cloud POS 是基于浏览器的 POS。 因为在浏览器中运行，Cloud POS �
 
 [![传统的固定销售点](./media/traditional-300x279.png)](./media/traditional.png) 
 
-若要在传统的固定 POS 情景中将 MPOS 连接到 POS 外设，首先导航到收银机本身，并为其分配一个硬件配置文件。 您可以在**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**找到 POS 收银机。 分配硬件配置文件后，通过使用“收银机”分配计划同步对渠道数据库的更改。 您可以在**零售** &gt; **零售 IT** &gt; **分配计划**找到分配计划。 接下来，设置渠道中的“本地”硬件工作站。 单击**零售** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**，然后选择一个商店。 然后，在**硬件工作站**快速选项卡上，单击**添加**添加硬件工作站。 输入描述，输入 **localhost** 作为主机名，然后通过使用“渠道配置”分配计划同步对渠道的更改。 您可以在**零售** &gt; **零售 IT** &gt; **分配计划**找到分配计划。 最后，在 MPOS，使用**选择硬件工作站**操作来选择 **localhost** 硬件工作站。 设置硬件工作站为**有效**。 在此情景中使用的硬件配置文件应来自 POS 收银机本身。 此情况不需要硬件工作站配置文件。 **注意︰**某些硬件配置文件的更改（如对银箱的更改）需要在与渠道同步更改后打开新班次。 **注意︰**Cloud POS 必须使用独立的硬件工作站来与零售外设通信。
+若要在传统的固定 POS 情景中将 MPOS 连接到 POS 外设，首先导航到收银机本身，并为其分配一个硬件配置文件。 您可以在**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **收银机**找到 POS 收银机。 分配硬件配置文件后，通过使用“收银机”分配计划同步对渠道数据库的更改。 您可以在**零售** &gt; **零售 IT** &gt; **分配计划**找到分配计划。 接下来，设置渠道中的“本地”硬件工作站。 单击**零售** &gt; **渠道** &gt; **零售商店** &gt; **所有零售商店**，然后选择一个商店。 然后，在**硬件工作站**快速选项卡上，单击**添加**添加硬件工作站。 输入描述，输入 **localhost** 作为主机名，然后通过使用“渠道配置”分配计划同步对渠道的更改。 您可以在**零售** &gt; **零售 IT** &gt; **分配计划**找到分配计划。 最后，在 MPOS，使用**选择硬件工作站**操作来选择 **localhost** 硬件工作站。 设置硬件工作站为**有效**。 在此情景中使用的硬件配置文件应来自 POS 收银机本身。 此情况不需要硬件工作站配置文件。 **注意︰** 某些硬件配置文件的更改（如对银箱的更改）需要在与渠道同步更改后打开新班次。 **注意︰** Cloud POS 必须使用独立的硬件工作站来与零售外设通信。
 
 ### <a name="mpos-or-cloud-pos-with-a-stand-alone-hardware-station"></a>具有独立硬件工作站的 MPOS 或 Cloud POS
 [![共享外设](./media/shared-300x254.png)](./media/shared.png)
