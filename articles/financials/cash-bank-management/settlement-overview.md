@@ -3,7 +3,7 @@ title: "结算概览"
 description: "本文提供有关结算流程的一般信息。 介绍可以结算的交易记录类型，可以在何时和如何结算交易记录，以及结算流程的结果。"
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,13 +16,13 @@ ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: a96bdd8088e72bc0526589bde94242c3acf39a54
+ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
+ms.openlocfilehash: dc986b083082b590627f171a359f95099e21d2f5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 08/31/2018
 
 ---
 
@@ -51,7 +51,6 @@ ms.lasthandoff: 08/07/2018
 -   <span data-ttu-id="ded94-152">如果付款金额等于发票金额，则付款和发票均关闭，二者余额为 0.00。</span><span class="sxs-lookup"><span data-stu-id="ded94-152">If the payment amount equals the invoice amount, both the payment and the invoice are closed, and the balance of both is 0.00.</span></span>
 
 <span data-ttu-id="ded94-153">如果由于现金折扣、勾销或未足额支付[付款少于发票金额](../accounts-payable/vendor-payments-partial-amount.md)，发票和付款可能仍将关闭，取决于应付账款参数和应收账款参数中结算的设置。</span><span class="sxs-lookup"><span data-stu-id="ded94-153">If a [payment is less than the invoice amount](../accounts-payable/vendor-payments-partial-amount.md) because of a cash discount, write-off, or underpayment, the invoice and payment might still be closed, depending on the setup of settlement in Accounts payable parameters and Accounts receivable parameters.</span></span> <span data-ttu-id="ded94-154">结算还可以生成交易记录。</span><span class="sxs-lookup"><span data-stu-id="ded94-154">Settlement can also generate transactions.</span></span> <span data-ttu-id="ded94-155">例如，发票和付款的结算可能产生现金折扣、已有损益、销售税调整、勾销或尾差。</span><span class="sxs-lookup"><span data-stu-id="ded94-155">For example, the settlement of an invoice and payment might produce a cash discount, realized gain or loss, sales tax adjustments, write-offs, or penny differences.</span></span>
-
 
 
 
