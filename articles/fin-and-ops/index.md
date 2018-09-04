@@ -3,7 +3,7 @@ title: "Microsoft Dynamics 365 for Finance and Operations 文档"
 description: "Microsoft Dynamics 365 for Finance and Operations 的文档。"
 author: margoc
 manager: AnnBe
-ms.date: 03/02/2018
+ms.date: 08/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -26,6 +26,7 @@ ms.lasthandoff: 08/08/2018
 ---
 
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations 文档
+
 [!include [banner](includes/banner.md)]
 
 使用以下资源查找适用于最终用户、开发人员和 IT 专业人员的重要内容，了解如何让 Microsoft Dynamics 365 for Finance and Operations 为您的组织服务。 
