@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 056bc38fc69422b17b1b7720ce37089b27e8aa2e
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -55,11 +55,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="generate-the-recurring-invoices"></a><span data-ttu-id="a52b7-125">生成重复发票</span><span class="sxs-lookup"><span data-stu-id="a52b7-125">Generate the recurring invoices</span></span>
 <span data-ttu-id="a52b7-126">在**重复发票**页，存在处理重复发票模板的任务。</span><span class="sxs-lookup"><span data-stu-id="a52b7-126">On the **Recurring invoices** page, there is a task that processes recurring invoice templates.</span></span> <span data-ttu-id="a52b7-127">您指定发票日期和以及从中生成发票的模板。</span><span class="sxs-lookup"><span data-stu-id="a52b7-127">You specify the invoice date and the template to generate the invoices from.</span></span> <span data-ttu-id="a52b7-128">发票将生成并且为处理的每个发票组分配单一重复执行 ID 号。</span><span class="sxs-lookup"><span data-stu-id="a52b7-128">Invoices will be generated and assigned a single recurrence ID number for each group of invoices that is processed.</span></span>
-<span data-ttu-id="a52b7-129">过帐重复执行普通发票</span><span class="sxs-lookup"><span data-stu-id="a52b7-129">Post recurring free text invoices</span></span>
+
+<a name="post-recurring-free-text-invoices"></a><span data-ttu-id="a52b7-129">过帐重复执行普通发票</span><span class="sxs-lookup"><span data-stu-id="a52b7-129">Post recurring free text invoices</span></span>
 ---------------------------------
 
 <span data-ttu-id="a52b7-130">在重复发票生成后，发票重复执行 ID 出现在**重复发票**页的过帐任务中。</span><span class="sxs-lookup"><span data-stu-id="a52b7-130">After recurring invoices are generated, the invoice recurrence IDs appear in a posting task on the **Recurring invoices** page.</span></span> <span data-ttu-id="a52b7-131">您可以通过单击该链接查看重复执行 ID 的所有发票。</span><span class="sxs-lookup"><span data-stu-id="a52b7-131">You can view all of the invoices for a recurrence ID by clicking the link.</span></span> <span data-ttu-id="a52b7-132">在您审查重复执行 ID 的发票时，您可以删除单个发票。</span><span class="sxs-lookup"><span data-stu-id="a52b7-132">During your review of the invoices for the recurrence ID, you can delete individual invoices.</span></span> <span data-ttu-id="a52b7-133">客户的重复执行设置将为该模板重置，以便它可在以后重新生成。</span><span class="sxs-lookup"><span data-stu-id="a52b7-133">The customer's recurrence settings will be reset for that template, so that it can be regenerated later.</span></span> <span data-ttu-id="a52b7-134">您可以过帐一个、许多或所有重复执行 ID 的发票。</span><span class="sxs-lookup"><span data-stu-id="a52b7-134">You can post one, many, or all of the invoices for a recurrence ID.</span></span> <span data-ttu-id="a52b7-135">如果启用工作流，您必须单击**提交**，然后才能过帐发票。</span><span class="sxs-lookup"><span data-stu-id="a52b7-135">If workflows are enabled, you must click **Submit** before you can post the invoices.</span></span>
-<span data-ttu-id="a52b7-136">打印重复执行普通发票</span><span class="sxs-lookup"><span data-stu-id="a52b7-136">Print recurring free text invoices</span></span>
+
+<a name="print-recurring-free-text-invoices"></a><span data-ttu-id="a52b7-136">打印重复执行普通发票</span><span class="sxs-lookup"><span data-stu-id="a52b7-136">Print recurring free text invoices</span></span>
 ----------------------------------
 
 <span data-ttu-id="a52b7-137">在重复发票过帐后，可以从普通发票列表页打印发票。</span><span class="sxs-lookup"><span data-stu-id="a52b7-137">After recurring invoices are posted, you can print the invoices from the free text invoice list page.</span></span> <span data-ttu-id="a52b7-138">您可以打印选择的发票，或者可以选择要打印的发票范围。</span><span class="sxs-lookup"><span data-stu-id="a52b7-138">You can print the invoices that are selected, or you can select a range of invoices to print.</span></span>
