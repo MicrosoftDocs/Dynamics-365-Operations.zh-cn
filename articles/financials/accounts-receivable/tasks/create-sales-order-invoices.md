@@ -3,23 +3,24 @@ title: "创建销售订单发票"
 description: "此任务指南介绍如何给销售订单开票，包括合并发票以及成批处理。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesEditLines,  SysQueryForm, SysRecurrence
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 7b5c7419e1f8a775ce4b5b9ba46f582c9be23ad0
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 6f687816fc6393de2a587273a5350858b3503945
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-sales-order-invoices"></a><span data-ttu-id="e67d6-103">创建销售订单发票</span><span class="sxs-lookup"><span data-stu-id="e67d6-103">Create sales order invoices</span></span>

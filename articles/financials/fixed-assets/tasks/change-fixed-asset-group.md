@@ -3,23 +3,24 @@ title: "更改固定资产组"
 description: "应将固定资产分配给正确的固定资产组。"
 author: saraschi2
 manager: AnnBe
-ms.date: 11/15/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetTable, AssetChangeGroup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 194129f15fe16f1d6582b9c5c3a9c8ee9f8bdd75
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 15e725d409addd46973c2b6a4615c1a50ab75f4d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="change-a-fixed-asset-group"></a><span data-ttu-id="9d9a0-103">更改固定资产组</span><span class="sxs-lookup"><span data-stu-id="9d9a0-103">Change a fixed asset group</span></span>

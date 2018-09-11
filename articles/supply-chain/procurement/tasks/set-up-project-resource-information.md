@@ -3,24 +3,25 @@ title: "设置项目资源信息"
 description: "此过程显示如何设置项目资源。"
 author: mkirknel
 manager: AnnBe
-ms.date: 02/09/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ResResourcesListPage, ResAddResourceForm, ProjCostPriceHour, ProjSalesPriceHour
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 232c68c6e0b099d45cfd22e8aab17c9042f1665b
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 98a683e8dcb101393a91f66281578c2e0a2bc3e4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-project-resource-information"></a><span data-ttu-id="070ba-103">设置项目资源信息</span><span class="sxs-lookup"><span data-stu-id="070ba-103">Set up project resource information</span></span>

@@ -3,23 +3,24 @@ title: "设置固定资产过帐模板"
 description: "此任务指南将设置固定资产过帐模板。"
 author: saraschi2
 manager: AnnBe
-ms.date: 02/24/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetPosting
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: dd4c2d67188b6c2c34f9046a6388de292d6c291e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: b00ad7f8dc77eb80e0ed322c1e09624398cfc4d5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a><span data-ttu-id="2cb9a-103">设置固定资产过帐模板</span><span class="sxs-lookup"><span data-stu-id="2cb9a-103">Set up fixed asset posting profiles</span></span>

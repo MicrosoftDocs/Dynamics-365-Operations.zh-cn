@@ -1,26 +1,26 @@
----
+--- 
 title: "检查存货可用性"
 description: "此过程显示如何检查特定物料编号的现有和实际现有库存量。"
-author: perlynne
+author: 
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventOnHandItemListPage, SysQueryForm, InventDimParmFixed, InventSupply, DefaultDashboard, WHSInventPhysicalOnhand, WHSOnHand
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: 
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: 
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: b1c5331379ec1b16ef13ea64ee7f0324828e50a2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 4be343a38f3f428261cf30c5b92c7a34d1f1ffa4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="check-the-availability-of-stock"></a><span data-ttu-id="3c7d5-103">检查库存可用性</span><span class="sxs-lookup"><span data-stu-id="3c7d5-103">Check the availability of stock</span></span>
@@ -67,4 +67,5 @@ ms.lasthandoff: 08/07/2018
 4. <span data-ttu-id="3c7d5-144">单击“显示维度”。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-144">Click Display Dimensions.</span></span>
 5. <span data-ttu-id="3c7d5-145">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-145">Click OK.</span></span>
 6. <span data-ttu-id="3c7d5-146">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="3c7d5-146">Close the page.</span></span>
+
 

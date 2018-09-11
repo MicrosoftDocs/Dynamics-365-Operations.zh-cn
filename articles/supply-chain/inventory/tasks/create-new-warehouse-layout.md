@@ -1,26 +1,27 @@
----
+--- 
 title: "创建新仓库布局"
 description: "该程序将向您说明如何设置有关仓库库位的信息。"
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 11ad27e68e8eb499b2cf8e477d3dbf51d930b736
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 7db15eb5d80291641f0d0398d236b5e883cafcaf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-new-warehouse-layout"></a><span data-ttu-id="672a5-103">创建新仓库布局</span><span class="sxs-lookup"><span data-stu-id="672a5-103">Create a new warehouse layout</span></span>
@@ -49,7 +50,7 @@ ms.lasthandoff: 08/07/2018
 7. <span data-ttu-id="672a5-122">切换到“库位名称”部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="672a5-122">Toggle the expansion of the Location names section.</span></span>
     * <span data-ttu-id="672a5-123">此部分中的选项定义库位名称的默认格式。</span><span class="sxs-lookup"><span data-stu-id="672a5-123">The options in this section define the default format for location names.</span></span> <span data-ttu-id="672a5-124">在我们的示例中，我们增加了通道编号、货架编号和货位编号。</span><span class="sxs-lookup"><span data-stu-id="672a5-124">In our example, we'll include the aisle number, rack number and shelf number.</span></span>  
 8. <span data-ttu-id="672a5-125">将“包括通道”选项设置为“是”。</span><span class="sxs-lookup"><span data-stu-id="672a5-125">Set the Include aisle option to Yes.</span></span>
-9. <span data-ttu-id="672a5-126">将“包括货架”选项设置为“是”。</span><span class="sxs-lookup"><span data-stu-id="672a5-126">Set the Include rack option to Yes.</span></span>
+9. <span data-ttu-id="672a5-126">将“包括货架”选项设置为“是”。</span><span class="sxs-lookup"><span data-stu-id="672a5-126">Set the Include rack option to Yes.</span></span> 
 10. <span data-ttu-id="672a5-127">在货架的“格式”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="672a5-127">In the Format field, for the rack, type a value.</span></span>
     * <span data-ttu-id="672a5-128">例如：-##</span><span class="sxs-lookup"><span data-stu-id="672a5-128">For example: -##</span></span>  
 11. <span data-ttu-id="672a5-129">将“包括货位”选项设置为“是”。</span><span class="sxs-lookup"><span data-stu-id="672a5-129">Set the Include shelf option to Yes.</span></span>
@@ -74,4 +75,5 @@ ms.lasthandoff: 08/07/2018
 14. <span data-ttu-id="672a5-147">单击“完成”。</span><span class="sxs-lookup"><span data-stu-id="672a5-147">Click Finish.</span></span>
 15. <span data-ttu-id="672a5-148">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="672a5-148">Close the page.</span></span>
 16. <span data-ttu-id="672a5-149">刷新该页面。</span><span class="sxs-lookup"><span data-stu-id="672a5-149">Refresh the page.</span></span>
+
 

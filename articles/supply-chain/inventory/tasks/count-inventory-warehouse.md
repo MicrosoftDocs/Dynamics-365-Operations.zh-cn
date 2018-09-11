@@ -1,26 +1,27 @@
----
+--- 
 title: "盘点仓库中的库存"
 description: "该过程介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 5099e82aa3f0408cbfbf816a69c38c5d48989dd2
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: cff65842f9eefb4365aaec86822173c6cfd35473
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="count-inventory-in-a-warehouse"></a><span data-ttu-id="0eef4-103">盘点仓库中的库存</span><span class="sxs-lookup"><span data-stu-id="0eef4-103">Count inventory in a warehouse</span></span>
@@ -68,4 +69,5 @@ ms.lasthandoff: 08/07/2018
 1. <span data-ttu-id="0eef4-141">单击“库存”。</span><span class="sxs-lookup"><span data-stu-id="0eef4-141">Click Inventory.</span></span>
 2. <span data-ttu-id="0eef4-142">单击“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="0eef4-142">Click Transactions.</span></span>
     * <span data-ttu-id="0eef4-143">在这里，您可以查看过帐库存盘点日记帐时创建的所有相关交易记录。</span><span class="sxs-lookup"><span data-stu-id="0eef4-143">Here you can see any related transactions that will be created when you post your inventory counting journal.</span></span>   
+
 

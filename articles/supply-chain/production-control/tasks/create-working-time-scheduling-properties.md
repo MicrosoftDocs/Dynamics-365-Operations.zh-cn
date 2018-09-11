@@ -3,24 +3,25 @@ title: "创建工作时间计划属性"
 description: "工时安排属性用于对工时间隔进行分类和定义操作人员必须考虑的设置。"
 author: sorenva
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OpResLifeCycleManagementWorkspace, WrkCtrProperty
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 8f4d618147d957c9bde39551e7aef63d75b901ee
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 488d8bbba7abea0c45193f3cdae395db4bcf996b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="f8943-103">创建工作时间计划属性</span><span class="sxs-lookup"><span data-stu-id="f8943-103">Create working time scheduling properties</span></span>

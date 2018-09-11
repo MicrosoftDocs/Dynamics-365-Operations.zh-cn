@@ -1,26 +1,27 @@
----
+--- 
 title: "跟踪物料或原材料"
 description: "该过程演示如何使用物料跟踪确定使用或正在使用物料或原材料的位置。"
 author: pjacobse
 manager: AnnBe
-ms.date: 06/21/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventTrackingDimTracing, InventTrackingDimTracingCriteria, InventTrackingItemIdLookup, InventBatchIdLookup, CustTable, SalesLine
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: pjacobse
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: bc68fe6e6b87075c5406b5b6a8e89f4da8bd1166
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 3597091d62b9a6c0fc41d47e66490ff61c0226ec
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="trace-an-item-or-raw-material"></a><span data-ttu-id="5a449-103">跟踪物料或原材料</span><span class="sxs-lookup"><span data-stu-id="5a449-103">Trace an item or raw material</span></span>
@@ -54,4 +55,5 @@ ms.lasthandoff: 08/07/2018
 8. <span data-ttu-id="5a449-129">在“操作窗格”上单击“跟踪”。</span><span class="sxs-lookup"><span data-stu-id="5a449-129">On the Action Pane, click Tracing.</span></span>
 9. <span data-ttu-id="5a449-130">单击“装运的销售订单”。</span><span class="sxs-lookup"><span data-stu-id="5a449-130">Click Shipped sales orders.</span></span>
 10. <span data-ttu-id="5a449-131">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="5a449-131">Close the page.</span></span>
+
 

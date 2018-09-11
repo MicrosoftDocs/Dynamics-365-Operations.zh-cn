@@ -3,23 +3,24 @@ title: "销售税分配和覆盖"
 description: "此过程演示如何为零售渠道分配增值税组。"
 author: mkirknel
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailStoreTable, RetailTaxOverrideCode, RetailTaxOverrideGroup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 05f3abf7359a9bfb3c708739551498333802dd0c
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 2420dceeb321ed11dbf6d7d9c09e3a579d65134c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="sales-tax-assignment-and-overrides"></a><span data-ttu-id="067af-103">销售税分配和覆盖</span><span class="sxs-lookup"><span data-stu-id="067af-103">Sales tax assignment and overrides</span></span>

@@ -1,26 +1,27 @@
----
+--- 
 title: "创建托运补货订单"
 description: "此过程显示如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。"
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 6366d6188d97ca54ba65c11699140be9ae2d4002
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 686a4bc1e9d752cc6d33354d03ba3c536c0854dc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-consignment-replenishment-order"></a><span data-ttu-id="c6818-103">创建托运补货订单</span><span class="sxs-lookup"><span data-stu-id="c6818-103">Create a consignment replenishment order</span></span>
@@ -60,7 +61,7 @@ ms.lasthandoff: 08/07/2018
 ## <a name="receive-items"></a><span data-ttu-id="c6818-132">接收多个物料</span><span class="sxs-lookup"><span data-stu-id="c6818-132">Receive items</span></span>
 1. <span data-ttu-id="c6818-133">单击“产品收据”。</span><span class="sxs-lookup"><span data-stu-id="c6818-133">Click Product receipt.</span></span>
 2. <span data-ttu-id="c6818-134">在“外部物料收据”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="c6818-134">In the External product receipt field, type a value.</span></span>
-3. <span data-ttu-id="c6818-135">在”数量“字段中，输入一个比此处显示的数字更小的数字。</span><span class="sxs-lookup"><span data-stu-id="c6818-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span>
+3. <span data-ttu-id="c6818-135">在”数量“字段中，输入一个比此处显示的数字更小的数字。</span><span class="sxs-lookup"><span data-stu-id="c6818-135">In the Quantity field, enter a number that’s lower than the number that’s shown there.</span></span> 
 4. <span data-ttu-id="c6818-136">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="c6818-136">Click OK.</span></span>
 
 ## <a name="check-the-on-hand-inventory"></a><span data-ttu-id="c6818-137">检查现有库存量</span><span class="sxs-lookup"><span data-stu-id="c6818-137">Check the on-hand inventory</span></span>
@@ -70,4 +71,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="c6818-141">已作为供应商拥有的托运库存接收的物料现有可用。</span><span class="sxs-lookup"><span data-stu-id="c6818-141">The items that have been received as consignment inventory owned by the vendor are available on-hand.</span></span> <span data-ttu-id="c6818-142">托运补货订单的剩余数量在“订购总数”字段中显示。</span><span class="sxs-lookup"><span data-stu-id="c6818-142">The remaining quantity on the consignment replenishment order is shown in the Ordered in total field.</span></span>  
 4. <span data-ttu-id="c6818-143">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c6818-143">Close the page.</span></span>
 5. <span data-ttu-id="c6818-144">单击“关闭”。</span><span class="sxs-lookup"><span data-stu-id="c6818-144">Click Close.</span></span>
+
 

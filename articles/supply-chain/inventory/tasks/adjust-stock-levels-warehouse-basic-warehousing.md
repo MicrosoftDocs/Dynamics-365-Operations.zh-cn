@@ -1,26 +1,27 @@
----
+--- 
 title: "调整仓库中的库存级别（基本仓库）"
 description: "该过程向您介绍创建和过帐库存调整日记帐以调整仓库中的产品库存水平。"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalLossProfit, InventJournalCreate, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 43083d52b6b656cd7dd31f4d4cf4225efd8fd28c
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 75ff53872fd81d5b25964c1ba65127f9feaf2b45
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="adjust-stock-levels-in-the-warehouse-basic-warehousing"></a><span data-ttu-id="c3164-103">调整仓库中的库存级别（基本仓库）</span><span class="sxs-lookup"><span data-stu-id="c3164-103">Adjust stock levels in the warehouse (basic warehousing)</span></span>
@@ -58,4 +59,5 @@ ms.lasthandoff: 08/07/2018
 4. <span data-ttu-id="c3164-133">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="c3164-133">Click OK.</span></span>
 5. <span data-ttu-id="c3164-134">关闭窗体。</span><span class="sxs-lookup"><span data-stu-id="c3164-134">Close the form.</span></span>
 6. <span data-ttu-id="c3164-135">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c3164-135">Close the page.</span></span>
+
 

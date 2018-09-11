@@ -3,23 +3,24 @@ title: "创建成本元素"
 description: "可通过几种方法在成本核算中创建成本要素。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/25/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: CAMDimension, CAMAXMainAccountDimensionMemberProviderConfiguration, CAMDimensionMember
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 0a7e7778f655fef80b31414c672529821f6fa829
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 23c93cdcee3dbab4c5e480cc48001cd2a80be5b6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-cost-elements"></a><span data-ttu-id="8ffbf-103">创建成本元素</span><span class="sxs-lookup"><span data-stu-id="8ffbf-103">Create cost elements</span></span> 

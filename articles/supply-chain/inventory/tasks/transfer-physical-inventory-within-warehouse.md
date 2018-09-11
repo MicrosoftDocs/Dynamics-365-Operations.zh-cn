@@ -1,26 +1,27 @@
----
+--- 
 title: "转移仓库内的实际库存"
 description: "该过程向您介绍创建和过帐库存转移日记帐，以登记物料在仓库内的库位转移。"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalTransfer, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 8569ff744e11fb0348dedc4e1e56894203b7b7a3
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 41057d0a35cab122840a20a5c65ab7ae3133052c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="transfer-physical-inventory-within-the-warehouse"></a><span data-ttu-id="a3674-103">转移仓库内的实际库存</span><span class="sxs-lookup"><span data-stu-id="a3674-103">Transfer physical inventory within the warehouse</span></span>
@@ -67,4 +68,5 @@ ms.lasthandoff: 08/07/2018
 1. <span data-ttu-id="a3674-142">单击“库存”。</span><span class="sxs-lookup"><span data-stu-id="a3674-142">Click Inventory.</span></span>
 2. <span data-ttu-id="a3674-143">单击“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="a3674-143">Click Transactions.</span></span>
     * <span data-ttu-id="a3674-144">在这里，您可以查看过帐日记帐时创建的交易记录。</span><span class="sxs-lookup"><span data-stu-id="a3674-144">Here you can see the transactions that were created when you posted your journal.</span></span>  
+
 

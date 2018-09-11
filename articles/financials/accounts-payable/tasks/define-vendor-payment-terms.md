@@ -3,23 +3,24 @@ title: "定义供应商付款期限"
 description: "设置供应商发票的付款条款。"
 author: abruer
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PaymTerm, CashDisc
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 4e38b01eb29702be0cc608489aa33277aa2de50a
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 6d9eaf271220437869ff90610e9953a6e2f8a474
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="define-vendor-payment-terms"></a><span data-ttu-id="1db6d-103">定义供应商付款期限</span><span class="sxs-lookup"><span data-stu-id="1db6d-103">Define vendor payment terms</span></span>

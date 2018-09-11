@@ -3,23 +3,24 @@ title: "设置会计科目别名"
 description: "该过程显示如何创建可提供科目编号快捷输入方式的科目别名。"
 author: aprilolson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerAccountAlias
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 79f24776b7511e899090b085c5bb7db8870a6a67
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 422380f030a0f92aa10647fbb5d4fc189fe2bd99
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-a-ledger-account-alias"></a><span data-ttu-id="23807-103">设置会计科目别名</span><span class="sxs-lookup"><span data-stu-id="23807-103">Set up a ledger account alias</span></span>

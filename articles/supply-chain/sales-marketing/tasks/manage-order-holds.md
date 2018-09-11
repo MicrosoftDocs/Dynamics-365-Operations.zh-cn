@@ -3,23 +3,24 @@ title: "管理订单保留"
 description: "此过程演示如何将销售订单置于暂停状态、如何使用订单保留签出，以及如何删除订单保留。"
 author: omulvad
 manager: AnnBe
-ms.date: 01/09/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MCRHoldCodeTable, SalesTableListPage, SalesCreateOrder, SalesTable, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 957e2ca47fd493121c6497677a0d958618cc5561
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5e51cd1245c578762791e7fe023c36e6fd779086
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="manage-order-holds"></a><span data-ttu-id="537e6-103">管理订单保留</span><span class="sxs-lookup"><span data-stu-id="537e6-103">Manage order holds</span></span>

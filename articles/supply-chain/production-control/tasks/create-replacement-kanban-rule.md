@@ -3,24 +3,25 @@ title: "创建替换看板规则"
 description: "此过程介绍在特定日期将现有看板规则替换为新看板规则。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanRules, KanbanRuleDuplicate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: aea96d8e5d4b1f3a8451e5fbcf5dc70eada0f8f4
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 68fb6cf58b1181131ab8fcf65c0ef4cd72e86905
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-replacement-kanban-rule"></a><span data-ttu-id="3d704-103">创建替换看板规则</span><span class="sxs-lookup"><span data-stu-id="3d704-103">Create a replacement kanban rule</span></span>

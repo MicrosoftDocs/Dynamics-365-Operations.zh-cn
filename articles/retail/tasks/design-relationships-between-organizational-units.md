@@ -3,29 +3,30 @@ title: "设计组织部门之间的关系"
 description: "此过程可以通过设计组织单位关系的方式完成。"
 author: mugunthanm
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner, OMNodeSelection,  HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7c00940d3c839702ef66a45a8ab9c878e8d2c542
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: b0e013d2987514594e027e3b2a2f0eb19d44c968
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="design-the-relationships-between-organizational-units"></a><span data-ttu-id="ab092-103">设计组织部门之间的关系</span><span class="sxs-lookup"><span data-stu-id="ab092-103">Design the relationships between organizational units</span></span>
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 <span data-ttu-id="ab092-104">此过程可以通过设计组织单位关系的方式完成。</span><span class="sxs-lookup"><span data-stu-id="ab092-104">This procedure walks through how to design the relationship between organizational units.</span></span> <span data-ttu-id="ab092-105">您必须在定义组织单位关系之前创建一个新的组织用途，也可以使用现有的组织用途。</span><span class="sxs-lookup"><span data-stu-id="ab092-105">You must create a new organization purpose before defining the relationship, or you can use the existing organization purpose.</span></span> <span data-ttu-id="ab092-106">使用 USRT 公司演示数据完成此过程。</span><span class="sxs-lookup"><span data-stu-id="ab092-106">The demo data company used to complete this procedure is USRT.</span></span> <span data-ttu-id="ab092-107">此任务专门面向管理人员。</span><span class="sxs-lookup"><span data-stu-id="ab092-107">This task is intended for the administrator role.</span></span>
 

@@ -3,23 +3,24 @@ title: "设置固定资产组"
 description: "此过程显示如何创建新的固定资产组。"
 author: saraschi2
 manager: AnnBe
-ms.date: 02/23/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetGroup, AssetGroupBookSetup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: d6a4468a05e3e9560c52b9b88071ec5893610c24
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 50942d6bb8da8ec7b63f3c18ef0421d69fb76859
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-fixed-asset-groups"></a><span data-ttu-id="0b442-103">设置固定资产组</span><span class="sxs-lookup"><span data-stu-id="0b442-103">Set up fixed asset groups</span></span>

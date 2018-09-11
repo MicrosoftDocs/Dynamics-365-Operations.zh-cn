@@ -3,23 +3,24 @@ title: "将过帐日记帐条目记入日记帐"
 description: "该过程显示如何将过帐的日记帐条目记入日记帐。"
 author: aprilolson
 manager: AnnBe
-ms.date: 10/24/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerParameters, SysQueryForm
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 94849370d10ddfeedeee0d51e62afdd975ef69ac
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 7936c5e99397eb635568fc6b754132541f957002
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="journalize-posted-journal-entries"></a><span data-ttu-id="139ff-103">将过帐日记帐条目记入日记帐</span><span class="sxs-lookup"><span data-stu-id="139ff-103">Journalize posted journal entries</span></span>

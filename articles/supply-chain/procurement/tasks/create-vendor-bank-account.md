@@ -3,23 +3,24 @@ title: "创建供应商银行帐户"
 description: "此过程演示如何为供应商创建银行帐户。"
 author: mkirknel
 manager: AnnBe
-ms.date: 08/25/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: VendTable, VendBankAccounts, LogisticsPostalAddressSingle
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 636bbafc87835f1cfe5de0301e3f020a8ac01a56
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: c3dd97e2125bc9dfafa799d528f3294b20d1f9e0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="create-a-vendor-bank-account"></a><span data-ttu-id="cd97c-103">创建供应商银行帐户</span><span class="sxs-lookup"><span data-stu-id="cd97c-103">Create a vendor bank account</span></span>

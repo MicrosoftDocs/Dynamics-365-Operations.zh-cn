@@ -1,26 +1,27 @@
----
+--- 
 title: "设置质检订单"
 description: "此过程说明了如何启用到达登记后必须立即检查传入库存的质量管理流程。"
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, InventTestReportSetup, InventTestTable, DefaultDashboard, InventTestVariable, InventTestVariableOutcome, InventItemSampling, InventTestQualityGroup, InventTestItemQualityGroupAdd, SysQueryForm, InventTestItemQualityGroup, InventTestGroup, InventTestAssociationTable
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: f43c2cb9dca441a796d1ec2ec2e17da063dddaa9
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: c36e35f45709d32db7bc1a625d4bcc30cf543fb0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-quality-orders"></a><span data-ttu-id="38e3f-103">设置质检订单</span><span class="sxs-lookup"><span data-stu-id="38e3f-103">Set up quality orders</span></span>
@@ -142,4 +143,5 @@ ms.lasthandoff: 08/07/2018
 15. <span data-ttu-id="38e3f-218">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="38e3f-218">In the list, find and select the desired record.</span></span>
 16. <span data-ttu-id="38e3f-219">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="38e3f-219">Click Save.</span></span>
 17. <span data-ttu-id="38e3f-220">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="38e3f-220">Close the page.</span></span>
+
 

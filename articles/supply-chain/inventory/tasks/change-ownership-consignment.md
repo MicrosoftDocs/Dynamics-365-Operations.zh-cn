@@ -1,26 +1,27 @@
----
+--- 
 title: "根据生产需求更改托运库存的所有权"
 description: "此过程显示在生产需要库存时，如何将托运库存的所有者从供应商更改为法人。"
 author: perlynne
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalOwnershipChange, InventJournalCreate
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: a665387244c571907afab24a54bc88580eca093e
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 5dd00e6f53d13305949d225e73223ab54947c804
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="change-the-ownership-of-consignment-inventory-based-on-production-demand"></a><span data-ttu-id="9aaf6-103">根据生产需求更改托运库存的所有权</span><span class="sxs-lookup"><span data-stu-id="9aaf6-103">Change the ownership of consignment inventory based on production demand</span></span>
@@ -51,4 +52,5 @@ ms.lasthandoff: 08/07/2018
     * <span data-ttu-id="9aaf6-131">在过帐日记帐时，将使用“所有权更改”引用发放供应商拥有的库存。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-131">When the journal is posted, the vendor-owned inventory is released by using an "Ownership change" reference.</span></span> <span data-ttu-id="9aaf6-132">然后使用通过采购订单物料收据更新的库存交易，将库存作为现有量接收。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-132">The inventory is then received as on-hand by using an inventory transaction that is updated with a purchase order product receipt.</span></span> <span data-ttu-id="9aaf6-133">请注意，将仅创建与过帐的日记帐有关的交易。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-133">Note that only transactions that are related to the posted journal are created.</span></span> <span data-ttu-id="9aaf6-134">不创建任何预期库存交易。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-134">No expected inventory transactions are created.</span></span>  
 2. <span data-ttu-id="9aaf6-135">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-135">Click OK.</span></span>
 3. <span data-ttu-id="9aaf6-136">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="9aaf6-136">Close the page.</span></span>
+
 

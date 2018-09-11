@@ -3,24 +3,25 @@ title: "销售订单的精益限定标准"
 description: "该过程主要为验证看板生产物料的销售行限定标准树形图而设计的。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, LeanPeggingTree
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 4d695ea58c331e9783404bb357edbe2af586ad19
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 3a8d5b074a5d56b55d1f239269b8a851f02376ed
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="lean-pegging-from-sales-orders"></a><span data-ttu-id="b9a23-103">销售订单的精益限定标准</span><span class="sxs-lookup"><span data-stu-id="b9a23-103">Lean pegging from sales orders</span></span>

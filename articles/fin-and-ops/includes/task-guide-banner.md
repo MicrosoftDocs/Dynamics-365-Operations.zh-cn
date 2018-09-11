@@ -1,2 +1,1 @@
-> [!NOTE]
-> <span data-ttu-id="1ab68-101">此主题是由 Lifecycle Services 中的业务流程生成的，因此，我们不接受对它进行编辑。</span><span class="sxs-lookup"><span data-stu-id="1ab68-101">We will not be accepting edits to this topic, because it is generated from a business process in Lifecycle Services.</span></span>
+

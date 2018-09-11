@@ -1,25 +1,26 @@
 --- 
 title: "设置销售税组和物料销售税组"
 description: "此任务记录向您介绍销售税和物料销售税组的设置。"
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 11/10/2015
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 4488f271d55b849641dfd84a5a9c0691efb5dbad
+ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
+ms.openlocfilehash: 70805fd7def60f85a96c0957f8a35abd6b56588c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/11/2018
 
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a><span data-ttu-id="82115-103">设置销售税组和物料销售税组</span><span class="sxs-lookup"><span data-stu-id="82115-103">Set up sales tax groups and item sales tax groups</span></span>
