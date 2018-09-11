@@ -1,31 +1,32 @@
 --- 
-title: "创建硬件工作站"
+title: "创建和关联硬件工作站"
 description: "此程序会逐步演示如何创建新的硬件工作站。"
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailHardwareStation, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 3551e37c6aae37c01b5cacff8b908faaf75fb3e2
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 7a43edf71a1a77ea0d6014266bdd95d563a08cc4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-hardware-stations"></a>创建硬件工作站
+# <a name="create-and-associate-a-hardware-station"></a>创建和关联硬件工作站
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建新的硬件工作站。 新硬件配置文件将被创建和用于添加新的硬件工作站到预定义的商店（渠道）。 此程序使用 USRT 演示数据公司。
 

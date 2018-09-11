@@ -1,21 +1,22 @@
----
+--- 
 title: "设置物料到达概览配置文件"
 description: "此任务侧重于到货概览配置文件的设置。"
-author: perlynne
+author: ShylaThompson
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
-ms.author: perlynne
+ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
 ms.openlocfilehash: 5ddc491d73bbb6ac02e37a9c9b9d93545f6f9556
@@ -62,4 +63,5 @@ ms.lasthandoff: 02/07/2018
     * 从转移订单选择收据行。  
 17. 单击“保存”。
 18. 关闭该页面。
+
 

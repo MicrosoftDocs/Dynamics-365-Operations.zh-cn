@@ -1,31 +1,32 @@
 --- 
-title: "创建销售点（收银机）"
+title: "创建和关联收银机"
 description: "此过程演示如何创建销售点 (POS) 收银机。"
 author: rubencdelgado
 manager: AnnBe
-ms.date: 10/05/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: b477b201df62c9fbbbb18978a4a15fa3b4a964ae
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 1de4e71fd554ba0486a5d2f65803f0806df37fe4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="create-point-of-sale-registers"></a>创建销售点（收银机）
+# <a name="create-and-associate-registers"></a>创建和关联收银机
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 此过程演示如何创建销售点 (POS) 收银机。 此过程使用了演示数据公司 USRT。
 

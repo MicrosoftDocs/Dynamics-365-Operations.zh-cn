@@ -3,29 +3,30 @@ title: "配置销售代表的功能模板"
 description: "此过程演示如何配置应用于销售代表的商店功能配置文件设置。"
 author: jblucher
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: b9cec2059fa35a632593b4b90bd30fadfde4212d
+ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
+ms.openlocfilehash: 2652a75f9c4509addd5804d4798f1bc142106c60
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2018
 
 ---
-# <a name="configure-functionality-profiles-for-sales-representatives"></a>配置销售代表的功能模板
+# <a name="configure-the-functionality-profile-for-a-sales-representative"></a>配置销售代表的功能模板
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 此过程演示如何配置应用于销售代表的商店功能配置文件设置。 此过程使用 USRT 演示数据公司。
 

@@ -3,18 +3,19 @@ title: "创建询价的申请类型和计分条件"
 description: "此指南演示如何创建申请类型和将其与计分方法关联。"
 author: mkirknel
 manager: AnnBe
-ms.date: 08/23/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
@@ -42,6 +43,7 @@ ms.lasthandoff: 09/29/2017
 1. 转到“采购”>“询价”>“所有询价”。
 2. 单击“新建”。
 3. 在“申请类型”字段中，选择刚才创建的申请类型。 
+    *   
 4. 单击“确定”。
 5. 单击“计分条件”。
     * 显示的计分条件来自您为申请类型关联的计分方法。 您可以选择在此页中添加或删除条件。 还可以通过从其他计分方法复制条件来添加新条件。  

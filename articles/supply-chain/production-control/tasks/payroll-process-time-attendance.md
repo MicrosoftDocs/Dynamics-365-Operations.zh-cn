@@ -1,21 +1,22 @@
----
+--- 
 title: "启用考勤管理的工资流程"
 description: "此程序说明如何根据工时与出勤率来生成工资。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 02/12/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: JmgPayTable, JmgPayRate, JmgPayAgreementTable, JmgPayAgreementLine, HcmWorker
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
 ms.openlocfilehash: 16d8fc2120dfb7b356b238957019a29d05963f9a
@@ -68,4 +69,5 @@ ms.lasthandoff: 02/06/2018
 6. 展开“时间登记”部分。
 7. 单击“编辑”。
 8. 在“支付协议”字段中，输入或选择一个值。
+
 

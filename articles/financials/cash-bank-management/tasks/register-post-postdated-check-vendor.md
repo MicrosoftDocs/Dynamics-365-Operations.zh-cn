@@ -3,23 +3,24 @@ title: "为供应商登记和过帐远期支票"
 description: "在通过使用日记帐凭证给供应商签发支票之前，先注册远期支票的详细信息。"
 author: kweekley
 manager: AnnBe
-ms.date: 10/31/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 632b04848cdb6d71e7e7dbd6c6bc710d0577950a
-ms.openlocfilehash: 776121532c42fde8b1c3e29b4af0bf833952c0cd
+ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
+ms.openlocfilehash: dd1c9d29d34e51a479d4df4086e97269f71f7448
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/31/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="register-and-post-a-postdated-check-for-a-vendor"></a>为供应商登记和过帐远期支票
@@ -34,7 +35,7 @@ ms.lasthandoff: 10/31/2017
 
 此任务指南的角色是出纳员。 本任务使用 USMF 公司进行演示。
 
-1. 转至“应付帐款”>“付款”>“付款日记帐”
+1. 转到“应付账款”>“付款”>“付款日记帐”
 2. 单击“新建”。
 3. 在“名称”字段中，键入“VendPay”。
 4. 单击“行”。

@@ -3,23 +3,24 @@ title: "创建分类帐应计交易记录"
 description: "此任务指南介绍生成基于应计架构的分类帐应计交易记录的步骤。"
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransAccrual, LedgerJournalTransAccrualTrans
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: a05f0777a14d627dc57ef4f4666abb6f92eee59a
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 368614ff447ae9f5cb6e74274558b92a0873ec7a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="create-ledger-accrual-transactions"></a>创建分类帐应计交易记录
@@ -33,7 +34,7 @@ ms.lasthandoff: 10/26/2017
 3. 单击以访问“日记帐批号”字段中的链接。
 4. 在列表中，标记所选的行。
 5. 在“帐户”字段中，指定所需值。
-    * 在此示例中，我们将定义保险的费用。 这将成为定期费用金额。  
+    * 在此示例中，我们将定义保险的费用。 这将会是定期费用金额。  
 6. 在“描述”字段中，键入一个值。
 7. 在“借方”字段中，输入一个数值。
 8. 在“抵销帐户”字段中，指定所需值。

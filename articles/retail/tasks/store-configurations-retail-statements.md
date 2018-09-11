@@ -1,31 +1,32 @@
 --- 
-title: "配置可影响零售报表的商店设置"
+title: "零售报表的商店配置"
 description: "此程序会逐步演示零售商店的配置（这会影响到如何创建和过帐零售报表）。"
 author: jashanno
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fdfb233a3e6c3ab17577afb67aa0fdd0d4588020
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: cac676c9c6ebb6769fe7e30ac08a2c8334befc24
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="configure-store-settings-that-affect-retail-statements"></a>配置可影响零售报表的商店设置
+# <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示零售商店的配置（这会影响到如何创建和过帐零售报表）。 零售商店的财务维度将在另一个程序中论述。 此程序使用 USRT 演示公司。
 

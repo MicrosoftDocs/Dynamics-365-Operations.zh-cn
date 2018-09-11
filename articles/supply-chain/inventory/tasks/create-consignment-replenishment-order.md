@@ -1,21 +1,22 @@
----
+--- 
 title: "创建托运补货订单"
 description: "此过程显示如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。"
 author: mkirknel
 manager: AnnBe
-ms.date: 10/13/2016
+ms.date: 8/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
 ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
@@ -60,7 +61,7 @@ ms.lasthandoff: 09/29/2017
 ## <a name="receive-items"></a>接收多个物料
 1. 单击“产品收据”。
 2. 在“外部物料收据”字段中，输入一个值。
-3. 在”数量“字段中，输入一个比此处显示的数字更小的数字。
+3. 在”数量“字段中，输入一个比此处显示的数字更小的数字。 
 4. 单击“确定”。
 
 ## <a name="check-the-on-hand-inventory"></a>检查现有库存量
@@ -70,4 +71,5 @@ ms.lasthandoff: 09/29/2017
     * 已作为供应商拥有的托运库存接收的物料现有可用。 托运补货订单的剩余数量在“订购总数”字段中显示。  
 4. 关闭该页面。
 5. 单击“关闭”。
+
 
