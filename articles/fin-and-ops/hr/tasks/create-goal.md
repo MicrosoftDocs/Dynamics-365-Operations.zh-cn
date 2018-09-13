@@ -3,7 +3,7 @@ title: "创建目标"
 description: "可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

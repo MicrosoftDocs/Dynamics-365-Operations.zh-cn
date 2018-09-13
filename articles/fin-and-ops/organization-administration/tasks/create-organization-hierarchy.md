@@ -3,7 +3,7 @@ title: "创建组织层次结构。"
 description: "使用以下过程创建组织层次结构。"
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

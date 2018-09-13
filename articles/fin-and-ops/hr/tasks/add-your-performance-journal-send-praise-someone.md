@@ -3,7 +3,7 @@ title: "添加到绩效日记帐并向某人发送表扬"
 description: "绩效日记帐中包含与如何满足目标或您在某个期间的表现有关的信息。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

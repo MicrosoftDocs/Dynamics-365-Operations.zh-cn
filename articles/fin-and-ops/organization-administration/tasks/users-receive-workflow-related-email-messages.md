@@ -3,7 +3,7 @@ title: "使得用户能够接收工作流相关的电子邮件消息"
 description: "在工作流相关事件发生时，您可以配置系统将电子邮件消息发送给用户。"
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

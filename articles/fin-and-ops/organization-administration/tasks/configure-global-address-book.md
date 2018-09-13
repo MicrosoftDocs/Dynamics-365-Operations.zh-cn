@@ -3,7 +3,7 @@ title: "配置全球通讯簿"
 description: "使用该过程设置全球通讯簿的默认值和安全策略。"
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

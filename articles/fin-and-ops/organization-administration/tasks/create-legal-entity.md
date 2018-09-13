@@ -3,7 +3,7 @@ title: "创建法人"
 description: "法人是通过在法律机关注册标识的组织。"
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

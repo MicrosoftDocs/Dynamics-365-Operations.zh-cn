@@ -3,7 +3,7 @@ title: "单个设置编号规则"
 description: "“数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。"
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

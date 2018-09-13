@@ -3,7 +3,7 @@ title: "创建绩效审核"
 description: "此过程显示如何创建绩效审核和介绍审核各部分的目的。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

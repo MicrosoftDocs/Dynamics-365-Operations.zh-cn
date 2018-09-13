@@ -3,7 +3,7 @@ title: "查看工作流历史记录"
 description: "使用这些步骤可以查看提交给工作流系统进行处理和审核的单据的状态。"
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

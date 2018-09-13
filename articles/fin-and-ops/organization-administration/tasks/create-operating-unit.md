@@ -3,7 +3,7 @@ title: "创建运营单位"
 description: "运营单位是用来拆分企业中的经济资源和运营流程的控件的组织。"
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
