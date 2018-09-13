@@ -3,7 +3,7 @@ title: "在工作流中委托工作项"
 description: "如果您计划外出一段时间或无法对工作项进行操作，则您可以将您的工作项委托或重新分配给其他用户。"
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 978f2956e25d3b92edea9e611e7b20155c22e411
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="delegate-work-items-in-a-workflow"></a><span data-ttu-id="7978b-103">在工作流中委托工作项</span><span class="sxs-lookup"><span data-stu-id="7978b-103">Delegate work items in a workflow</span></span>

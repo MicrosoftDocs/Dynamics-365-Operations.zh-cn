@@ -3,7 +3,7 @@ title: "单个设置编号规则"
 description: "“数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。"
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: cb2d54da25e5ee73b466f7943521f697838cee98
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: 6734d66a06f8a8dc90a48bd68b7b4e22177b4672
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a><span data-ttu-id="3b087-103">单个设置编号规则</span><span class="sxs-lookup"><span data-stu-id="3b087-103">Set up number sequences on an individual basis</span></span>

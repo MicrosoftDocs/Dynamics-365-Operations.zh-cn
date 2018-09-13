@@ -3,7 +3,7 @@ title: "通过使用向导设置编号规则"
 description: "“数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。"
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 1aaea94678e9ddfa771c21063f53aefa172b5e97
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: 1808ab9240ab291f9d203893a634bd390f16e2e7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a><span data-ttu-id="d466a-103">通过使用向导设置编号规则</span><span class="sxs-lookup"><span data-stu-id="d466a-103">Set up number sequences by using a wizard</span></span>

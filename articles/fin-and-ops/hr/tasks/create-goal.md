@@ -3,7 +3,7 @@ title: "创建目标"
 description: "可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: cfea518c866fe23094119868b580a453cb06c612
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="create-a-goal"></a><span data-ttu-id="08b8c-103">创建目标</span><span class="sxs-lookup"><span data-stu-id="08b8c-103">Create a goal</span></span>

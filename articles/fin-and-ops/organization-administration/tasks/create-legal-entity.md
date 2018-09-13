@@ -3,7 +3,7 @@ title: "创建法人"
 description: "法人是通过在法律机关注册标识的组织。"
 author: sericks007
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 157e60a2a3676aed1769e89bb4b007364ec2c891
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: 2b1869afa9ebbfc81ca321c57cc8e01739103d16
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="create-a-legal-entity"></a><span data-ttu-id="c85f9-103">创建法人</span><span class="sxs-lookup"><span data-stu-id="c85f9-103">Create a legal entity</span></span>

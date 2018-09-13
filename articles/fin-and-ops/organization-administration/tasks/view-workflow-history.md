@@ -3,7 +3,7 @@ title: "查看工作流历史记录"
 description: "使用这些步骤可以查看提交给工作流系统进行处理和审核的单据的状态。"
 author: jasongre
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: bd0376879206c3b751cce820037ac1d39e120b4c
+ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
+ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 # <a name="view-workflow-history"></a><span data-ttu-id="77474-103">查看工作流历史记录</span><span class="sxs-lookup"><span data-stu-id="77474-103">View workflow history</span></span>
