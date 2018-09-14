@@ -19,10 +19,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 5a950a100fd5e9026300ea08eb1a6311a8e63129
+ms.sourcegitcommit: 033c9bdfce0840e1af1c63708905aec6829bbe90
+ms.openlocfilehash: 7a1d3c73e4305375ddf356b93b9502b0255df99b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/13/2018
 
 ---
 
@@ -44,11 +44,13 @@ ms.lasthandoff: 08/07/2018
 
 ## <a name="adding-a-new-credit-card"></a><span data-ttu-id="b8174-117">添加新的信用卡</span><span class="sxs-lookup"><span data-stu-id="b8174-117">Adding a new credit card</span></span>
 <span data-ttu-id="b8174-118">通过使用“客户”、“设置”、“信用卡”在“客户”页创建新的信用卡记录。</span><span class="sxs-lookup"><span data-stu-id="b8174-118">You can create new credit card records on the Customers page by using Customer, Set up, Credit card.</span></span> <span data-ttu-id="b8174-119">在“销售订单”页输入销售订单时，还可以通过使用“管理”、“客户”、“信用卡”、“登记”创建信用卡记录。</span><span class="sxs-lookup"><span data-stu-id="b8174-119">You can also create credit card records when you enter sales orders on the Sales order page, by using Manage, Customer, Credit card, Register.</span></span>
-<span data-ttu-id="b8174-120">将信用卡添加到销售订单</span><span class="sxs-lookup"><span data-stu-id="b8174-120">Adding a credit card to a sales order</span></span>
+
+<a name="adding-a-credit-card-to-a-sales-order"></a><span data-ttu-id="b8174-120">将信用卡添加到销售订单</span><span class="sxs-lookup"><span data-stu-id="b8174-120">Adding a credit card to a sales order</span></span>
 -------------------------------------
 
 <span data-ttu-id="b8174-121">您可以添加信用卡到销售订单，方法是通过在“销售订单”页的“价格和折扣”快速选项卡上的信用卡查找中选择信用卡。</span><span class="sxs-lookup"><span data-stu-id="b8174-121">You can add a credit card to a sales order by selecting a credit card in the credit card lookup on the Price and discounts FastTab on the Sales order page.</span></span> <span data-ttu-id="b8174-122">若要开始授权流程，在“操作窗格”，在“管理”选项卡上，选择“信用卡和授权”。</span><span class="sxs-lookup"><span data-stu-id="b8174-122">To start the authorization process, on the Action Pane, on the Manage tab, select Credit card and Authorize.</span></span>
-<span data-ttu-id="b8174-123">授权信用卡</span><span class="sxs-lookup"><span data-stu-id="b8174-123">Authorizing a credit card</span></span>
+
+<a name="authorizing-a-credit-card"></a><span data-ttu-id="b8174-123">授权信用卡</span><span class="sxs-lookup"><span data-stu-id="b8174-123">Authorizing a credit card</span></span>
 -------------------------
 
 <span data-ttu-id="b8174-124">在对某一信用卡进行授权时，验证信用卡号和持卡人的名字，并且确认可用的信用卡余额。</span><span class="sxs-lookup"><span data-stu-id="b8174-124">When a credit card is authorized, the card number and cardholder's name are verified, and the available credit balance is confirmed.</span></span> <span data-ttu-id="b8174-125">或者，验证卡验证值和持卡人的地址。</span><span class="sxs-lookup"><span data-stu-id="b8174-125">Optionally, the card verification value and the cardholder’s address are verified.</span></span> <span data-ttu-id="b8174-126">然后，从该客户的可用信用卡余额中减去发票金额。</span><span class="sxs-lookup"><span data-stu-id="b8174-126">The customer's available credit balance is then reduced by the amount of the invoice.</span></span> <span data-ttu-id="b8174-127">付款服务将发送信用卡已核准或拒绝的信息。</span><span class="sxs-lookup"><span data-stu-id="b8174-127">The payment service sends information that the credit card has been approved or declined.</span></span> <span data-ttu-id="b8174-128">在给销售订单开票时，按发票金额对信用卡计费（已捕获）。</span><span class="sxs-lookup"><span data-stu-id="b8174-128">When the sales order is invoiced, the credit card is charged (captured) for the invoice amount.</span></span>
