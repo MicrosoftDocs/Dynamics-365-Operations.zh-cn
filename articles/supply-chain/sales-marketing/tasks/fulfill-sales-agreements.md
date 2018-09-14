@@ -3,7 +3,7 @@ title: "履行销售协议"
 description: "此过程向您显示如何通过将销售订单与销售协议关联来履行销售协议。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: e257f04746c0ce9255c14eecff4244b2ea4cd98a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f03f05b85b8d242db1c85d0e84667949e241f1f7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="fulfill-sales-agreements"></a><span data-ttu-id="f8e98-103">履行销售协议</span><span class="sxs-lookup"><span data-stu-id="f8e98-103">Fulfill sales agreements</span></span>

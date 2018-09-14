@@ -3,7 +3,7 @@ title: "创建、计算和过帐零售商店的报表"
 description: "此程序会逐步演示如何手动创建、计算和过帐某一商店的报表。"
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: d949cf46857992d5f16d349862ff67cccf417fed
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9ea30e7e008bfcce77a7ee2f4d7d01a6cf1ababc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-calculate-and-post-a-statement-for-a-retail-store"></a><span data-ttu-id="adbf3-103">创建、计算和过帐零售商店的报表</span><span class="sxs-lookup"><span data-stu-id="adbf3-103">Create, calculate, and post a statement for a retail store</span></span>

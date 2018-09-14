@@ -3,7 +3,7 @@ title: "成批创建销售报价单"
 description: "该过程演示如何有效创建发送一组产品或服务给多个客户的报价单。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: fe2d4cff512c32069f6aef3134e604b0ce6e47cc
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e0e9ddf38106fce3ed6a6f908826f2196c97a45a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="mass-create-sales-quotations"></a><span data-ttu-id="2cea2-103">成批创建销售报价单</span><span class="sxs-lookup"><span data-stu-id="2cea2-103">Mass create sales quotations</span></span>

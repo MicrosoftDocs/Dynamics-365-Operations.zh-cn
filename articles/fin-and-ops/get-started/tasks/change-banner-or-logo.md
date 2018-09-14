@@ -3,7 +3,7 @@ title: "更改横幅或徽标"
 description: "系统管理员可以用以下过程列出的步骤更新法人展示所用的横幅或形象标识。"
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 50303f683518762290d7c3a63244b846d708e044
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: ed0a4e31e840f771f1620b42518ed0e03dbad151
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="change-the-banner-or-logo"></a><span data-ttu-id="42dec-103">更改横幅或徽标</span><span class="sxs-lookup"><span data-stu-id="42dec-103">Change the banner or logo</span></span>

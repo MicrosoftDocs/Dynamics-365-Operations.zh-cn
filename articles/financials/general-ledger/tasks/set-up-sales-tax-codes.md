@@ -3,7 +3,7 @@ title: "设置销售税代码"
 description: "为法人实体必须计算、征收和向销售税主管机构缴纳的所有间接税或关税创建销售税代码。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: f0e078b9c700570b775f91b34a55f2ef490f329a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f29442c2ef2e3d0008a74298fda218e4cbd93f8e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-sales-tax-codes"></a><span data-ttu-id="63420-103">设置销售税代码</span><span class="sxs-lookup"><span data-stu-id="63420-103">Set up sales tax codes</span></span>

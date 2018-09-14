@@ -3,7 +3,7 @@ title: "下达生产订单"
 description: "此程序显示了如何发放生产订单。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 8086098d9ccccfc64c17cbabf709e389f5ac1907
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 917fe1ef826c9b112be29ebce78ebd750652db64
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="release-a-production-order"></a><span data-ttu-id="c0334-103">下达生产订单</span><span class="sxs-lookup"><span data-stu-id="c0334-103">Release a production order</span></span>

@@ -3,7 +3,7 @@ title: "在发票日记帐中记录供应商发票"
 description: "此任务指南将显示如何记录与采购订单无关的供应商发票。"
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 9109144feee2cb5c813e00a04e78e4291d7f3bfd
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 775f3764d34cecbfc071ff7420d32c7832b42308
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="record-a-vendor-invoice-in-the-invoice-journal"></a><span data-ttu-id="14a46-103">在发票日记帐中记录供应商发票</span><span class="sxs-lookup"><span data-stu-id="14a46-103">Record a vendor invoice in the invoice journal</span></span>

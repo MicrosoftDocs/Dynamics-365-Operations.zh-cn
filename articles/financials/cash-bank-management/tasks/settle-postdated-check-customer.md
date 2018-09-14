@@ -3,7 +3,7 @@ title: "结算客户的远期支票"
 description: "该支票由银行清算后，您可以结算过期支票。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: aaaee86d966e7144911f36a8d1419d991ace10d8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 86cefaac99a1ce5aa777f4f62456c3248045cc27
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="settle-a-postdated-check-from-a-customer"></a><span data-ttu-id="71a2b-103">结算客户的远期支票</span><span class="sxs-lookup"><span data-stu-id="71a2b-103">Settle a postdated check from a customer</span></span>

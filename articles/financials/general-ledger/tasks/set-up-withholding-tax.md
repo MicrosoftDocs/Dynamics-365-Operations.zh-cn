@@ -3,7 +3,7 @@ title: "设置预缴税金"
 description: "预缴税金是针对供应商的一种不创建增值税交易记录的税金。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: a2867bcbef7aa9e41b35603276742be448317221
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 382b6332665af2491563960a75d498a4f007aba8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-withholding-tax"></a><span data-ttu-id="79258-103">设置预缴税金</span><span class="sxs-lookup"><span data-stu-id="79258-103">Set up withholding tax</span></span>

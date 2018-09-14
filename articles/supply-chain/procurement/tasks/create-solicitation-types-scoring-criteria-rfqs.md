@@ -3,7 +3,7 @@ title: "创建询价的申请类型和计分条件"
 description: "此指南演示如何创建申请类型和将其与计分方法关联。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 5d2b0d1e998149a5045c655d74591c56bff81246
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 14fd7d0bfa17427883f97c5e0a72044016d4965e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a><span data-ttu-id="9b93d-103">创建询价的申请类型和计分条件</span><span class="sxs-lookup"><span data-stu-id="9b93d-103">Create solicitation types and scoring criteria for RFQs</span></span>

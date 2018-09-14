@@ -3,7 +3,7 @@ title: "设置 ISO20022 直接借记的公司银行帐户"
 description: "此任务通过设置所需的特定于公司的银行帐户信息以生成客户付款文件。"
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 71ea8d1e03115480e8148d66af31e5edb618e557
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 290d0eeb383dc3808935809e21b1bf6c99a8550a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a><span data-ttu-id="44232-103">设置 ISO20022 直接借记的公司银行帐户</span><span class="sxs-lookup"><span data-stu-id="44232-103">Set up company bank accounts for ISO20022 direct debits</span></span>

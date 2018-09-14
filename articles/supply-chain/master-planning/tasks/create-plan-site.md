@@ -3,7 +3,7 @@ title: "创建站点计划"
 description: "生产规划人员计算特定物料生产的物料和产能需求。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: ebe3841720b4eb76e58e2d6e2f557558b03156d6
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f34d694171e690354721c87f07aa81e811ecdfdc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-plan-for-a-site"></a><span data-ttu-id="10979-103">创建站点计划</span><span class="sxs-lookup"><span data-stu-id="10979-103">Create a plan for a site</span></span>

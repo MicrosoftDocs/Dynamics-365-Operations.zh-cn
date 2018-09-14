@@ -3,7 +3,7 @@ title: "设置中国的基本税务集成模板"
 description: "此过程显示如何设置税务集成模板，更新有关颁发增值税发票的客户设置，以及为中国设置增值税发票说明。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 145a0f8958c80ebad5dba045214a63927b2fb5ad
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d856ed53792cb70b1b9e083cb11d6b557a4d48e8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-basic-tax-integration-profile-for-china"></a><span data-ttu-id="6a284-103">设置中国的基本税务集成模板</span><span class="sxs-lookup"><span data-stu-id="6a284-103">Set up basic tax integration profile for China</span></span>

@@ -3,7 +3,7 @@ title: "设置增值税主管机构"
 description: "销售税主管机构是收缴需要申报和缴纳的销售税的实体。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: c3d6ab08c91dba035891509bc5cc33db39a726c2
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 909433a04c1185039938f6233b30c235e7b8ed8b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-sales-tax-authorities"></a><span data-ttu-id="480e7-103">设置增值税主管机构</span><span class="sxs-lookup"><span data-stu-id="480e7-103">Set up sales tax authorities</span></span>

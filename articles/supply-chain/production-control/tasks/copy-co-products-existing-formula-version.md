@@ -3,7 +3,7 @@ title: "从现有配方版本中复制联产品"
 description: "该过程展示如何为发布的产品从现有配方版本向不同的配方版本中复制联产品。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 91212851a011536f17acef57e842587be1934e3e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 179c12da0c2ddc7b5e2f2fdddd21168eac121811
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="copy-co-products-from-an-existing-formula-version"></a><span data-ttu-id="91350-103">从现有配方版本中复制联产品</span><span class="sxs-lookup"><span data-stu-id="91350-103">Copy co-products from an existing formula version</span></span>

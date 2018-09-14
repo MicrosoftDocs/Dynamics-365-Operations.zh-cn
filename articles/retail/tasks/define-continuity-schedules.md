@@ -3,7 +3,7 @@ title: "定义连续性计划"
 description: "本主题逐步演示如何设置连续性计划（也称为重复订单）。"
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 82f88fdf23a7f1b3920bb8fce4d1b535856eaf53
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dd70780927bb9aaa19c196705d6e8fa1c247ea66
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-continuity-schedules"></a><span data-ttu-id="a14ba-103">定义连续性计划</span><span class="sxs-lookup"><span data-stu-id="a14ba-103">Define continuity schedules</span></span>

@@ -3,7 +3,7 @@ title: "创建封闭式问题"
 description: "封闭式问题允许您为回答者提供供选择的选项。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: b725866216c4f01d853be78fa3c4de0f91ad4de3
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6b08988a3872cec39b7592732d23862e959aae79
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-closed-ended-question"></a><span data-ttu-id="eb57a-103">创建封闭式问题</span><span class="sxs-lookup"><span data-stu-id="eb57a-103">Create a closed ended question</span></span>

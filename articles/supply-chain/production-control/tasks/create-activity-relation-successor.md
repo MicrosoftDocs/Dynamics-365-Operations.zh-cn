@@ -3,7 +3,7 @@ title: "创建活动关系 - 后续活动"
 description: "精益生产流的活动流通过活动关系记录。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 4ca13d2f1c904fb30cc33e4455010584e7fdd150
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e5e5844939e1eb40e31530c434c096c5b3be7abe
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-activity-relation-successor"></a><span data-ttu-id="866de-103">创建活动关系：后续活动</span><span class="sxs-lookup"><span data-stu-id="866de-103">Create activity relation: Successor</span></span>

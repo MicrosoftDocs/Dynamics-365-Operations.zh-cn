@@ -3,7 +3,7 @@ title: "确定和部署候选人选择工具"
 description: "找到符合条件的候选人填补空缺不是一件容易的事，尤其是在该职位需要一系列独特技能时。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 552009ae1cae0797191b4cdaeba3a1731b501a7d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: df7956cfdc3c470b5e652b62e659060120cdd770
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a><span data-ttu-id="c8284-103">确定和部署候选人选择工具</span><span class="sxs-lookup"><span data-stu-id="c8284-103">Identify and deploy candidate selection tools</span></span>

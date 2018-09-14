@@ -3,7 +3,7 @@ title: "审核申请表收件箱记录"
 description: "此过程显示如何通过员工自助服务页查看接收的申请表。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: c69ee4f317e7fb6cd7ae0e3069685758efa0f049
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 87a08b33e0dc004fd836142121dca9da6d6e1a6d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="approve-application-inbox-records"></a><span data-ttu-id="03212-103">审核申请表收件箱记录</span><span class="sxs-lookup"><span data-stu-id="03212-103">Approve application inbox records</span></span>

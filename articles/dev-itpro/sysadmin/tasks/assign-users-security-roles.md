@@ -3,7 +3,7 @@ title: "将用户分配给安全角色"
 description: "若要访问 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，必须为用户分配安全角色。"
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: c08c9ee27bef3ec8c51df558766f55d3ea4ac48a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 55cb085bb5170aa4894a2240a12f6ca451b922fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="assign-users-to-security-roles"></a><span data-ttu-id="dbb39-103">将用户分配给安全角色</span><span class="sxs-lookup"><span data-stu-id="dbb39-103">Assign users to security roles</span></span>

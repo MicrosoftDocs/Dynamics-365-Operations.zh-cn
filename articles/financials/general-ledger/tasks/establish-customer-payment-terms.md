@@ -3,7 +3,7 @@ title: "设定客户付款期限"
 description: "此程序定义了一个现金折扣和到期日期设置。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 7557350e1946498d577b9ad31c54c90895c8d9c0
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 49f4047ab4bff6bdfbe8326a6680f9d8f9762c95
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="establish-customer-payment-terms"></a><span data-ttu-id="86251-103">设定客户付款期限</span><span class="sxs-lookup"><span data-stu-id="86251-103">Establish customer payment terms</span></span>

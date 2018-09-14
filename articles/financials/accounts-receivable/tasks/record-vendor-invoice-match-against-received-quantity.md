@@ -3,7 +3,7 @@ title: "记录供应商发票和匹配接收的数量"
 description: "在您从供应商处收到针对采购订单上的货物或服务的发票时，该业务流程可能要求首先接收货物或服务，然后才能对发票进行审核以便付款。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 791ae82b60afd4c67e1a90b8ef8fd3feb2e50171
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5d7458c62b3b71adf981a1ce5a7260da9bfdbcd2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a><span data-ttu-id="8a324-103">记录供应商发票和匹配接收的数量</span><span class="sxs-lookup"><span data-stu-id="8a324-103">Record vendor invoice and match against received quantity</span></span>

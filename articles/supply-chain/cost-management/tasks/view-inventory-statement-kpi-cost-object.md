@@ -3,7 +3,7 @@ title: "按成本对象查看库存报表和 KPI"
 description: "创建此程序的演示数据公司是 USMF。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: dee7cfd4a24673e9ca1067d2aa54eee5188a3f44
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 7c43acef9e6716158a832dc398363ecf707105ff
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a><span data-ttu-id="bd00f-103">按成本对象查看库存报表和 KPI</span><span class="sxs-lookup"><span data-stu-id="bd00f-103">View inventory statement and KPI by cost object</span></span>

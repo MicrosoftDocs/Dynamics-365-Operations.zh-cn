@@ -3,7 +3,7 @@ title: "将生产订单报告为已完工入库"
 description: "该过程显示如何报告生产订单为完工入库。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 3ad1027eccd543adf883890d343705b928daa405
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 97e67ff51e4bc4533aeb2485c34cd5ec8a882bb6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="report-a-production-order-as-finished"></a><span data-ttu-id="bd1e6-103">将生产订单报告为已完工入库</span><span class="sxs-lookup"><span data-stu-id="bd1e6-103">Report a production order as finished</span></span>

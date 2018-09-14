@@ -3,7 +3,7 @@ title: "客户付款概览"
 description: "本任务指南逐步介绍用于输入客户付款的各种方法。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 0e534a468a49f0221c3ee2b8999264a3fbeaf774
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6e82be0d68165f62bbdc72a70b0675c7418b14ae
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="customer-payment-overview"></a><span data-ttu-id="786dc-103">客户付款概览</span><span class="sxs-lookup"><span data-stu-id="786dc-103">Customer payment overview</span></span>

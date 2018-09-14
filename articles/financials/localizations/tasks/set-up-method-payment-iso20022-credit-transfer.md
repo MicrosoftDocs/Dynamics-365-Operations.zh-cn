@@ -3,7 +3,7 @@ title: "设置 ISO20022 贷方转帐的付款方式"
 description: "此过程显示如何通过电子申报生成文件来为 ISO20022 贷方转帐或其他任何付款类型设置供应商付款方式。"
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 2c8e858f15047652b9d6561bc1a4ff8e09ea02d5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c9209006074fb9da2c3c2ffaa2af4adecfcc1aa9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a><span data-ttu-id="f1b6c-103">设置 ISO20022 贷方转帐的付款方式</span><span class="sxs-lookup"><span data-stu-id="f1b6c-103">Set up method of payment for ISO20022 credit transfer</span></span>

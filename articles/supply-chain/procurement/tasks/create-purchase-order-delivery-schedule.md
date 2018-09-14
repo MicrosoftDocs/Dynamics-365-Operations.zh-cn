@@ -3,7 +3,7 @@ title: "创建含交货计划的采购订单"
 description: "此过程显示如何为采购订单创建交货计划。"
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: ae57d8e64b4888e6ff4678437d0b3da8eb05867d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0a9b7b233339d41605e1b115bd14a18b706ef226
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a><span data-ttu-id="a7608-103">创建含交货计划的采购订单</span><span class="sxs-lookup"><span data-stu-id="a7608-103">Create a purchase order with a delivery schedule</span></span>

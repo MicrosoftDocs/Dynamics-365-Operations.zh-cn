@@ -3,7 +3,7 @@ title: "零售价调整"
 description: "此程序将逐步演示如何创建零售价格调整。"
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: d66d9db8014356e3cb6ca99a8e9b00d7fe2acb4e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9427d3955e5442e301c416e2960e071ca5d85a3c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="retail-price-adjustments"></a><span data-ttu-id="b709d-103">零售价调整</span><span class="sxs-lookup"><span data-stu-id="b709d-103">Retail price adjustments</span></span>

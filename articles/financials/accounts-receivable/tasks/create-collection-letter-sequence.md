@@ -3,7 +3,7 @@ title: "创建催款单序列"
 description: "使用此任务指南创建收款单序列。"
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 63f28194065821f898cc73678a9868ec9ee2c64b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: db5264f6d8d7723ff01d13e99728c2bfebcb4515
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-collection-letter-sequence"></a><span data-ttu-id="dd8f9-103">创建催款单序列</span><span class="sxs-lookup"><span data-stu-id="dd8f9-103">Create a collection letter sequence</span></span>

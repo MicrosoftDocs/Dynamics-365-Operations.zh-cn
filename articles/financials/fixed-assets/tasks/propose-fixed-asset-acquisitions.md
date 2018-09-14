@@ -3,7 +3,7 @@ title: "建议固定资产购置"
 description: "此过程显示如何使用固定资产日记帐中的购置方案购置固定资产。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 34638f9dc88eb3850f659e4b9741d02418213112
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1891206bb266b126eccfa789b8c8062c9bfa688b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="propose-fixed-asset-acquisitions"></a><span data-ttu-id="ca527-103">建议固定资产购置</span><span class="sxs-lookup"><span data-stu-id="ca527-103">Propose fixed asset acquisitions</span></span>

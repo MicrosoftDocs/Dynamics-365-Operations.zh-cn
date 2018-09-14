@@ -3,7 +3,7 @@ title: "对货运进行手动对帐"
 description: "此过程显示如何手动对帐货运。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 3d871ab5395cbaf5e5039dcf8ebf39ade6752a29
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: ee2d114b0a725b947add3e155cc6445021fee998
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="reconcile-freight-manually"></a><span data-ttu-id="cd212-103">对货运进行手动对帐</span><span class="sxs-lookup"><span data-stu-id="cd212-103">Reconcile freight manually</span></span>

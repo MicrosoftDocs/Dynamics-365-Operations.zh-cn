@@ -3,7 +3,7 @@ title: "设置伤害和疾病信息"
 description: "雇主需要了解员工受伤或者生病是否是由于工作场所的危险而造成的。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 80b103b57d8dca0384778aab47427af4fe5f7eef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9fcc924e11ac17b561c5f5840a4fe1b183a8232d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="set-up-injury-and-illness-information"></a><span data-ttu-id="ef48c-103">设置伤害和疾病信息</span><span class="sxs-lookup"><span data-stu-id="ef48c-103">Set up injury and illness information</span></span>

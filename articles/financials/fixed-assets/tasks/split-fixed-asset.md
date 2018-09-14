@@ -3,7 +3,7 @@ title: "拆分固定资产"
 description: "此任务指南将把一个资产帐簿的一定百分百拆分到新资产帐簿。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 9126514d397250f52633554a1df2f66f4747d42a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6be9de64265a4d7b5c91af3ee8acfce80c78e0f1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="split-a-fixed-asset"></a><span data-ttu-id="93b0d-103">拆分固定资产</span><span class="sxs-lookup"><span data-stu-id="93b0d-103">Split a fixed asset</span></span>

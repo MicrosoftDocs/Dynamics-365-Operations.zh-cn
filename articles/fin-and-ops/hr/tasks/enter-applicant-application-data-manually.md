@@ -3,7 +3,7 @@ title: "手动输入申请人和申请表数据"
 description: "此过程显示如何手动维护申请人及其申请表的信息。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 27f9c43f517e85a6196beed3165680cf5a6185ca
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 60b3d155826d234744c9805b18edf0226e237ed3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="enter-applicant-and-application-data-manually"></a><span data-ttu-id="47e28-103">手动输入申请人和申请表数据</span><span class="sxs-lookup"><span data-stu-id="47e28-103">Enter applicant and application data manually</span></span>

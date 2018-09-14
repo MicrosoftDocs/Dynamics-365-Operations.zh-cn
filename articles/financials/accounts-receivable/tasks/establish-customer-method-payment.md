@@ -3,7 +3,7 @@ title: "设定客户付款方式"
 description: "为客户付款创建一种付款方式。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 4dd61e24f882292a8bf6aec96037845ecbf7f1e8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: ab035c6268b701c78da32d589e99ece38c31781d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="establish-customer-method-of-payment"></a><span data-ttu-id="bda8b-103">设定客户付款方式</span><span class="sxs-lookup"><span data-stu-id="bda8b-103">Establish customer method of payment</span></span>

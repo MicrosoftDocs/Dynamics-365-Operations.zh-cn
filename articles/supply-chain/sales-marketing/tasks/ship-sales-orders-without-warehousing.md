@@ -3,7 +3,7 @@ title: "装运无仓库的销售订单"
 description: "本指南演示在将产品发运给客户时如何更新销售订单。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 1d4d43ca62901ecd2280f21dfbeee9cb70ec600e
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: ae70e09dbc4da90b7d1802d076384eae2d00da0e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="ship-sales-orders-without-warehousing"></a><span data-ttu-id="6b0a0-103">装运无仓库的销售订单</span><span class="sxs-lookup"><span data-stu-id="6b0a0-103">Ship sales orders without warehousing</span></span>

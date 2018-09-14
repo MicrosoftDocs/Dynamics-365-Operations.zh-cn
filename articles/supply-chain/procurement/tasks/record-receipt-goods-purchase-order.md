@@ -3,7 +3,7 @@ title: "记录采购订单上的收货"
 description: "此过程演示如何直接在采购订单中记录收货。"
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 991d9923bc8ef9f411ef6120e63b8e31ccddf566
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 14d1d43479f9864d8fd5ed94a98a654e75eeedf0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a><span data-ttu-id="50f46-103">记录采购订单上的收货</span><span class="sxs-lookup"><span data-stu-id="50f46-103">Record the receipt of goods on the purchase order</span></span>

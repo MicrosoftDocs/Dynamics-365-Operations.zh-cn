@@ -3,7 +3,7 @@ title: "创建 lean manufacturing 的转移活动"
 description: "创建 lean manufacturing 的转移活动。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: e50b2fc071c3f89b8bf1b118da2b46a0b44d6c25
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 36f79ef189924b0f3bd38cb764e73c6a0793353e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-transfer-activities-for-lean-manufacturing"></a><span data-ttu-id="134a9-103">创建 lean manufacturing 的转移活动</span><span class="sxs-lookup"><span data-stu-id="134a9-103">Create transfer activities for lean manufacturing</span></span>

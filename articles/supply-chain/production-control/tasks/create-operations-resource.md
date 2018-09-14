@@ -3,7 +3,7 @@ title: "创建运营资源"
 description: "运营资源执行项目或生产流程的活动。"
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: f0a77e9fc474a90c31dde8b4e8b12c2456cee4c8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f9d8f13e29ea813eb9721ddca795b67837e2aa5e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-an-operations-resource"></a><span data-ttu-id="4f8f9-103">创建运营资源</span><span class="sxs-lookup"><span data-stu-id="4f8f9-103">Create an operations resource</span></span>

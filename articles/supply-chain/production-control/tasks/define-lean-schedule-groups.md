@@ -3,7 +3,7 @@ title: "定义精益计划组"
 description: "精益计划组被定义为组，可区分看板计划中的产品。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: dcb8c82af7d3bcd95a13cef49c5606ea8781e459
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 787694b094f343445cca784d035554a8bfa25f5a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-lean-schedule-groups"></a><span data-ttu-id="1e3e8-103">定义精益计划组</span><span class="sxs-lookup"><span data-stu-id="1e3e8-103">Define lean schedule groups</span></span>

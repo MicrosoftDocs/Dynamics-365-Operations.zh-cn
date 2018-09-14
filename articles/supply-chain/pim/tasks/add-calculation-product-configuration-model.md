@@ -3,7 +3,7 @@ title: "将计算添加到产品配置模型"
 description: "该过程显示如何添加新计算到产品配置模型。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: bdd596e93301bceb9261d531264dc42299ca36c6
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9754c46010e7bbdb2edef0d6e68162f344bb1257
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a><span data-ttu-id="6ecac-103">将计算添加到产品配置模型</span><span class="sxs-lookup"><span data-stu-id="6ecac-103">Add a calculation to a product configuration model</span></span>

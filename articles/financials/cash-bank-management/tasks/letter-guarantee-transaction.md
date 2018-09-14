@@ -3,7 +3,7 @@ title: "保函交易记录"
 description: "该过程简单介绍了保函的处理流程。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 3b15133106d751c28029862217427e47085044f4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 4dc6ee178121fae05d538f5103919442d91e65eb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="letter-of-guarantee-transaction"></a><span data-ttu-id="14bed-103">保函交易记录</span><span class="sxs-lookup"><span data-stu-id="14bed-103">Letter of guarantee transaction</span></span>

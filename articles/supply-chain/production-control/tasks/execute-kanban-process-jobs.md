@@ -3,7 +3,7 @@ title: "执行看板处理作业"
 description: "此过程介绍看板流程作业的执行。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: d9505b74e5fbb14882356968d0f0273ef2b3feb8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 62be1f116dfecbc4c6ba11053b94efc874baa3e3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="execute-kanban-process-jobs"></a><span data-ttu-id="61d11-103">执行看板处理作业</span><span class="sxs-lookup"><span data-stu-id="61d11-103">Execute kanban process jobs</span></span>

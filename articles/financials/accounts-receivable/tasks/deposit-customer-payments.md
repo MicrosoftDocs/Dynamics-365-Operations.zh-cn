@@ -3,7 +3,7 @@ title: "存放客户付款"
 description: "存入客户付款。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: e40a468373a3358bba9eff328a774c3f65242226
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f58cebce20e8516dc918e0bad1e020ffd7f791ee
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="deposit-customer-payments"></a><span data-ttu-id="53d36-103">存放客户付款</span><span class="sxs-lookup"><span data-stu-id="53d36-103">Deposit customer payments</span></span>

@@ -3,7 +3,7 @@ title: "创建和分配高级规则结构"
 description: "此任务指南介绍创建高级规则结构并分配至帐户结构的步骤。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: a371e2bd08ee3f65658e015990d46a430267add2
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dd62254c20cf5d77677d03c7d7335fb793d7f5f2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-and-assign-advanced-rule-structures"></a><span data-ttu-id="4daed-103">创建和分配高级规则结构</span><span class="sxs-lookup"><span data-stu-id="4daed-103">Create and assign advanced rule structures</span></span>

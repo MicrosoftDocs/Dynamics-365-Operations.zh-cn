@@ -3,7 +3,7 @@ title: "更改会话日期"
 description: "默认情况下，在输入和过账日志条目或原始凭证时使用当前日期。"
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: pvillads
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: cb226db81fa00add06594b34085d26b172fc5f20
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3d27a4d36ff8c8192d2342cd97f29c556540d00b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="change-the-date-for-the-session"></a><span data-ttu-id="aa044-103">更改会话日期</span><span class="sxs-lookup"><span data-stu-id="aa044-103">Change the date for the session</span></span>

@@ -3,7 +3,7 @@ title: "定义新工作"
 description: "此任务的重点是创建新工作。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 68f49bf9b543b53398a1093f18e9dc2ef51d365a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-new-jobs"></a><span data-ttu-id="20b20-103">定义新工作</span><span class="sxs-lookup"><span data-stu-id="20b20-103">Define new jobs</span></span>

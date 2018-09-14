@@ -3,7 +3,7 @@ title: "结算会计年度"
 description: "此过程介绍将余额转移到新会计年度的年终结算的步骤。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: f68152d1164f446be7e08d45e7187169c4324d9d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 628b084dbcc85c3f7c08f209bdb325a110554ad9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="close-the-fiscal-year"></a><span data-ttu-id="d9aff-103">结算会计年度</span><span class="sxs-lookup"><span data-stu-id="d9aff-103">Close the fiscal year</span></span>

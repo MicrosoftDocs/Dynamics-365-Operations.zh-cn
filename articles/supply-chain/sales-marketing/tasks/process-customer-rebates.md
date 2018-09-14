@@ -3,7 +3,7 @@ title: "生成和处理客户返利"
 description: "该过程会说明如何处理从要求生成到将它们作为应计项目过帐到“应收账款”的客户返利。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: d22d4527ee08c2b5251077cfde352b56b9e0e19f
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="generate-and-process-customer-rebates"></a><span data-ttu-id="0e2fd-103">生成和处理客户返利</span><span class="sxs-lookup"><span data-stu-id="0e2fd-103">Generate and process customer rebates</span></span>

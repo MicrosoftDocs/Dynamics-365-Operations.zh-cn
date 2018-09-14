@@ -3,7 +3,7 @@ title: "修改职位的报告关系"
 description: "该过程展示如何更改员工的报告关系。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: f227afcb8d2c8a5e4b7502e907721c4dff532881
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e779a337ff8f8e0199a60e094f4bec9eba49e701
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="modify-reporting-relationships-for-a-position"></a><span data-ttu-id="b0ef5-103">修改职位的报告关系</span><span class="sxs-lookup"><span data-stu-id="b0ef5-103">Modify reporting relationships for a position</span></span>

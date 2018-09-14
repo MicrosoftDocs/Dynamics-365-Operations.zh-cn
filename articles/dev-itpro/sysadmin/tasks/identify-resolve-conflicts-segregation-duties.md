@@ -3,7 +3,7 @@ title: "确定和解决职责划分冲突"
 description: "您可以设置规则，以分离必须由不同用户执行的任务。"
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 49ed5c80dc47d917a162057e15ee42493d9bc3ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 9d4a6bd14090213cc19a072d030bc26886c7a8d0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a><span data-ttu-id="aaf78-103">确定和解决职责划分冲突</span><span class="sxs-lookup"><span data-stu-id="aaf78-103">Identify and resolve conflicts in segregation of duties</span></span>

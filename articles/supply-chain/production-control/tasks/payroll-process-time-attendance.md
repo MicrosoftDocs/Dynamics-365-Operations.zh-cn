@@ -3,7 +3,7 @@ title: "启用考勤管理的工资流程"
 description: "此程序说明如何根据工时与出勤率来生成工资。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: acf355a3b822cb880b5b1d9348cac5ccd6fe2b42
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 0174f438396d814d153befe4a59a79b6eebb2288
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="enable-the-payroll-process-for-time-and-attendance"></a><span data-ttu-id="e5f7a-103">启用考勤管理的工资流程</span><span class="sxs-lookup"><span data-stu-id="e5f7a-103">Enable the payroll process for time and attendance</span></span>

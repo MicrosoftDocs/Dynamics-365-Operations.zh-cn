@@ -3,7 +3,7 @@ title: "创建和验证日记帐"
 description: "此任务指南创建并验证日记帐和日记帐行。"
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 30234edff99fba8313d6bfb01d5eff5edb921e59
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: c94d992b97e9a2a18299f97c982430f8205cabf2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-and-validate-journals"></a><span data-ttu-id="7cfee-103">创建和验证日记帐</span><span class="sxs-lookup"><span data-stu-id="7cfee-103">Create and validate journals</span></span>

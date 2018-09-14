@@ -3,7 +3,7 @@ title: "与内部供应链客户协作"
 description: "此过程显示如何查看内部公司供应商将满足的所有计划订单。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 32d71167fdad65cb1dec37671999a497759ca484
-ms.openlocfilehash: 19a4083fc0f5339ba357be1fcef6be3119388ae2
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 44b9f516835acc792ec1edba0b5efdcbd2823422
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/11/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="collaborate-with-internal-supply-chain-customers"></a><span data-ttu-id="f4d87-103">与内部供应链客户协作</span><span class="sxs-lookup"><span data-stu-id="f4d87-103">Collaborate with internal supply chain customers</span></span>
