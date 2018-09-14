@@ -3,7 +3,7 @@ title: "维护财务维度默认模板"
 description: "此过程显示如何设置财务维度默认模板。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建产品"
 description: "此程序会逐步演示如何在零售产品层次结构中创建新产品。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

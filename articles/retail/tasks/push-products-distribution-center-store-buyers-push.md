@@ -3,7 +3,7 @@ title: "使用集中采购配送将产品从配送中心配送到商店"
 description: "此程序会逐步演示如何创建和处理集中采购配送，以将产品从一个位置配送到一个或许多商店。"
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

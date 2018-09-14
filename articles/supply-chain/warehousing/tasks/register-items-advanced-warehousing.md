@@ -3,7 +3,7 @@ title: "使用物料到达日记帐登记启用了高级仓库的物料"
 description: "此过程说明了在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

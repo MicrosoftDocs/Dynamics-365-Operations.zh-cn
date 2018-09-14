@@ -3,7 +3,7 @@ title: "根据生产需求更改托运库存的所有权"
 description: "此过程显示在生产需要库存时，如何将托运库存的所有者从供应商更改为法人。"
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "根据前一个问题的回答设定问题依赖项"
 description: "有条件问题允许您根据前一问题的回答，指定向回答者显示哪些后续问题。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

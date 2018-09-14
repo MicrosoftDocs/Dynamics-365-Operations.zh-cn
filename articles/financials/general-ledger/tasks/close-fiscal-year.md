@@ -3,7 +3,7 @@ title: "结算会计年度"
 description: "此过程介绍将余额转移到新会计年度的年终结算的步骤。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

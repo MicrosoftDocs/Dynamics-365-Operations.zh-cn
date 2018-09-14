@@ -3,7 +3,7 @@ title: "创建产品分类的层次结构"
 description: "该过程会显示如何创建新类别层次结构，和分配商品代码层次结构类型。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

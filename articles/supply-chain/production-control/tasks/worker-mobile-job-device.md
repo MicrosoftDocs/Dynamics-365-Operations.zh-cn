@@ -3,7 +3,7 @@ title: "使用移动作业设备配置工作人员"
 description: "该过程向您显示如何给工作人员的用户帐户分配正确的角色，并使工作人员执行车间登记。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

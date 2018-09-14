@@ -3,7 +3,7 @@ title: "零售报表的参数配置"
 description: "此程序会演示零售参数的配置，这些参数会影响如何创建和过帐零售报表。"
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

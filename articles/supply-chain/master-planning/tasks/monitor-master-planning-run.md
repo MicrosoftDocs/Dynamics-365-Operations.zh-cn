@@ -3,7 +3,7 @@ title: "监控主计划运行"
 description: "生产规划员想要查看主计划运行是否在进行中。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

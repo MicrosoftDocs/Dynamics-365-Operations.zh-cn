@@ -3,7 +3,7 @@ title: "导入 ISO20022 贷方转帐配置"
 description: "此过程显示如何导入供应商付款电子申报配置。"
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

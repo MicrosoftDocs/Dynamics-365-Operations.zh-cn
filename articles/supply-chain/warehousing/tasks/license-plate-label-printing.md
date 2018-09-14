@@ -3,7 +3,7 @@ title: "启用牌照标签打印"
 description: "销售领料工作流程的最后一项工作是库存拣货，此程序适用于在此之后的串行装运集装箱码 (SSCC) 标签的自动打印。"
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

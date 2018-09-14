@@ -3,7 +3,7 @@ title: "创建可配置产品的销售订单"
 description: "此过程显示如何将配置模板应用于销售订单中的一个产品。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

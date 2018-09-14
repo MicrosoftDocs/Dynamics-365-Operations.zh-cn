@@ -3,7 +3,7 @@ title: "设置主科目类别"
 description: "主科目类别用于财务报表和 Power BI 中的默认报表。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "设置和创建折旧模板"
 description: "折旧模板定义资产折旧的类型和频率。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "设置销售税结算期间"
 description: "销售税结算期间含有有关需要申报和缴纳的销售税的期间间隔的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

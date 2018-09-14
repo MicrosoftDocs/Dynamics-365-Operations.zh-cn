@@ -3,7 +3,7 @@ title: "创建使用询价的申请"
 description: "此指南演示如何将价格和供应商信息添加到询价流程的采购申请。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

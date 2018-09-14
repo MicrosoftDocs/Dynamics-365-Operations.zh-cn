@@ -3,7 +3,7 @@ title: "使用工序级和作业级排产计划生产订单"
 description: "此过程的重点是使用工序级排产和作业级排产计划生产订单。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

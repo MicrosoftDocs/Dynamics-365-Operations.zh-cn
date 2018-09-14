@@ -3,7 +3,7 @@ title: "为有直接借记授权单的客户创建付款"
 description: "此过程显示如何为有直接借记配置和有要付款发票的客户生成 ISO20022 直接借记付款文件。"
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

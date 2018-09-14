@@ -3,7 +3,7 @@ title: "停用生产流版本"
 description: "如果不再需要某个有效生产流版本，可将其停用。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

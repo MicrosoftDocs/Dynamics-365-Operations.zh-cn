@@ -3,7 +3,7 @@ title: "更改会话日期"
 description: "默认情况下，在输入和过账日志条目或原始凭证时使用当前日期。"
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

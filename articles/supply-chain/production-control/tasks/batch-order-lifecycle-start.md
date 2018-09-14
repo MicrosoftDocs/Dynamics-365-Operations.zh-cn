@@ -3,7 +3,7 @@ title: "从创建到开始的批次订单生命周期"
 description: "该过程向您介绍批次订单生命周期中的第一部分。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

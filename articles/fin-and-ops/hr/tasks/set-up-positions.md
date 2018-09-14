@@ -3,7 +3,7 @@ title: "设置职位"
 description: "职位是更低级别的组织层次结构中的重要元素。"
 author: DarinKramer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

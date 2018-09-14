@@ -3,7 +3,7 @@ title: "创建替换看板规则"
 description: "此过程介绍在特定日期将现有看板规则替换为新看板规则。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

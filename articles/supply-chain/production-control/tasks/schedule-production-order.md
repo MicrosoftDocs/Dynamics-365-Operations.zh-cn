@@ -3,7 +3,7 @@ title: "计划生产订单"
 description: "该过程说明安排一个生产订单。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

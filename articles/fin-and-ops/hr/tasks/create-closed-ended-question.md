@@ -3,7 +3,7 @@ title: "创建封闭式问题"
 description: "封闭式问题允许您为回答者提供供选择的选项。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

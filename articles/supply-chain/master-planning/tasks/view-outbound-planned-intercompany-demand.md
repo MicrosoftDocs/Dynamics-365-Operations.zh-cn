@@ -3,7 +3,7 @@ title: "查看传出计划内部公司需求"
 description: "此过程显示如何查看内部公司供应商将满足的所有计划订单。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

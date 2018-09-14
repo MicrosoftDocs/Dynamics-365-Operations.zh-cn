@@ -3,7 +3,7 @@ title: "保函交易记录"
 description: "该过程简单介绍了保函的处理流程。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

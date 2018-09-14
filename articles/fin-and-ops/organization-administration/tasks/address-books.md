@@ -3,7 +3,7 @@ title: "配置通讯簿"
 description: "使用该过程以及您在规划中作出的决定、全球通讯簿的配置和其他通讯簿主题，为您的组织设置其他通讯簿。"
 author: kfend
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

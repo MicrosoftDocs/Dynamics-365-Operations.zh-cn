@@ -3,7 +3,7 @@ title: "设置质检订单"
 description: "此过程说明了如何启用到达登记后必须立即检查传入库存的质量管理流程。"
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

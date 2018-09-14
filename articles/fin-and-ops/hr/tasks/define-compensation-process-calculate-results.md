@@ -3,7 +3,7 @@ title: "定义薪酬流程并计算结果"
 description: "薪酬流程用于确定在固定和可变薪酬计划中登记的员工的新的薪酬金额和奖励。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

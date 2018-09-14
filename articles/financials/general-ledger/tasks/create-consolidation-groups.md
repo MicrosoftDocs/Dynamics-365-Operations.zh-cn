@@ -3,7 +3,7 @@ title: "创建合并组和其他合并帐户"
 description: "该过程显示如何创建合并帐户组，然后添加帐户到组中。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "手动输入申请人和申请表数据"
 description: "此过程显示如何手动维护申请人及其申请表的信息。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

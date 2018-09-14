@@ -3,7 +3,7 @@ title: "创建和分配高级规则结构"
 description: "此任务指南介绍创建高级规则结构并分配至帐户结构的步骤。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

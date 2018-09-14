@@ -3,7 +3,7 @@ title: "创建大批雇用项目"
 description: "此程序简单说明了一个大型招聘项目的设置流程。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

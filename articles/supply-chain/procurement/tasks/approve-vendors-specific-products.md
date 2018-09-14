@@ -3,7 +3,7 @@ title: "审核特定产品的供应商"
 description: "此过程显示如何审核特定产品的供应商。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "发布基于维度的基础产品"
 description: "该过程会显示如何发布基础物料（将被用于基于维度的配置）。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

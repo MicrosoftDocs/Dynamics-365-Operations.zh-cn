@@ -3,7 +3,7 @@ title: "设置 ISO20022 直接借记的公司银行帐户"
 description: "此任务通过设置所需的特定于公司的银行帐户信息以生成客户付款文件。"
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

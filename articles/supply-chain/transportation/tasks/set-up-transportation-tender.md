@@ -3,7 +3,7 @@ title: "设置运输支付方式"
 description: "此过程显示如何设置运输支付方式。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

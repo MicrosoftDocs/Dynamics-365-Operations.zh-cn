@@ -3,7 +3,7 @@ title: "设置用户的首选时区"
 description: "以下过程说明系统管理员角色的用户可以如何为用户设置时区。"
 author: pvillads
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

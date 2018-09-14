@@ -3,7 +3,7 @@ title: "创建记录模板以加快数据输入"
 description: "此过程演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。"
 author: margoc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

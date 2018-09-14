@@ -3,7 +3,7 @@ title: "设置项目发票的付款单格式"
 description: "企业通常将打印的付款单附加到发票上以帮助客户，并提供用于过帐和结算的付款参考。"
 author: EvgenyPopovMBS
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

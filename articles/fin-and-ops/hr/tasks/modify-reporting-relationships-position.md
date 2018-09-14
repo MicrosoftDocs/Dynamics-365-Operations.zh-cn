@@ -3,7 +3,7 @@ title: "修改职位的报告关系"
 description: "该过程展示如何更改员工的报告关系。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

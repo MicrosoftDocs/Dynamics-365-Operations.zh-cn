@@ -3,7 +3,7 @@ title: "转移产品模型的数据"
 description: "产品配置模型的导出数据要求至少有一个可用的产品模型。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

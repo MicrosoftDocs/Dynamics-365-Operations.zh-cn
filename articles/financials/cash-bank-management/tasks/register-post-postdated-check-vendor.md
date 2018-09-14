@@ -3,7 +3,7 @@ title: "为供应商登记和过帐远期支票"
 description: "在通过使用日记帐凭证给供应商签发支票之前，先注册远期支票的详细信息。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

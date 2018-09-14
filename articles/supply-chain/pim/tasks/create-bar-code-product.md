@@ -3,7 +3,7 @@ title: "为产品创建条码"
 description: "此过程显示以物料编号 M0001 为例如何手动创建条码。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

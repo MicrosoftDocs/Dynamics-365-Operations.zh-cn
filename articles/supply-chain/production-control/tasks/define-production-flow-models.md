@@ -3,7 +3,7 @@ title: "定义生产流模型"
 description: "生产流模型描述如何计算并维持精益制造工作单元的产能。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

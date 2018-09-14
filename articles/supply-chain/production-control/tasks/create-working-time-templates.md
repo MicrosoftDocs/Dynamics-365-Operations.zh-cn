@@ -3,7 +3,7 @@ title: "创建工作时间模板"
 description: "工作时间模板定义一周内的工作时间，可用于生成一段时期的工作时间。"
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

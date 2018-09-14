@@ -3,7 +3,7 @@ title: "生成和处理客户返利"
 description: "该过程会说明如何处理从要求生成到将它们作为应计项目过帐到“应收账款”的客户返利。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

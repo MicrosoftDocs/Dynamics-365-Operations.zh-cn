@@ -3,7 +3,7 @@ title: "创建信用证的银行信贷协议"
 description: "此任务可以简单了解如何创建银行信贷协议以办理信用证。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

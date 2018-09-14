@@ -3,7 +3,7 @@ title: "创建供应商帐户"
 description: "该过程会显示如何创建供应商帐户，以及添加地址和联系信息。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

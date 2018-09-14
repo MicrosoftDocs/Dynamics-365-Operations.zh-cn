@@ -3,7 +3,7 @@ title: "管理电子邮件模板"
 description: "您可以将组织数据库的信息转移到新文件的书签中，并在有助于您与申请人和职位候选人有效沟通的模板中使用。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

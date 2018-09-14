@@ -3,7 +3,7 @@ title: "定义会员奖励分"
 description: "此程序会逐步演示如何定义会员奖励积分。"
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

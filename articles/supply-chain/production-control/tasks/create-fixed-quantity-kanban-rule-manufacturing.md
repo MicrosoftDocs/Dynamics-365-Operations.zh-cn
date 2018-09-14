@@ -3,7 +3,7 @@ title: "创建制造的固定数量看板规则"
 description: "该过程的重点是为触发精益环境的工作单元的转换活动创建固定的制造看板规则所需的设置。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "搜索供应商"
 description: "了解如何基于特定条件检索供应商。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

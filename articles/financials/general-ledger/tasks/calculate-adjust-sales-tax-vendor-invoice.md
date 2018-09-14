@@ -3,7 +3,7 @@ title: "计算和调整供应商发票上的销售税"
 description: "如果原始单据显示计算的不同税额，您可在过帐前调整这些税额。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

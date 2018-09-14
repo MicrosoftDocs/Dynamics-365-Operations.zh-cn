@@ -3,7 +3,7 @@ title: "创建催款单序列"
 description: "使用此任务指南创建收款单序列。"
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

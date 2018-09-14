@@ -3,7 +3,7 @@ title: "在单据中创建销售税交易记录"
 description: "单据上的销售税通过在单据行上提供销售税组和物料销售税组计算。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

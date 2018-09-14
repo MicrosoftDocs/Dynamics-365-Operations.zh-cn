@@ -3,7 +3,7 @@ title: "生成和过帐重复执行普通发票"
 description: "使用重复发票定期给客户开相同金额的发票。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

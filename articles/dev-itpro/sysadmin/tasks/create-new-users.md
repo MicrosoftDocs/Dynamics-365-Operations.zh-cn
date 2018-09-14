@@ -3,7 +3,7 @@ title: "创建新用户"
 description: "用户是您的组织的内部员工或外部客户和供应商，该用户需要访问系统以履行职责。"
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

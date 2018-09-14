@@ -3,7 +3,7 @@ title: "创建带范围的利息代码"
 description: "可以设置利息代码，根据值范围以计算不同的利息金额。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

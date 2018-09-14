@@ -3,7 +3,7 @@ title: "执行看板处理作业"
 description: "此过程介绍看板流程作业的执行。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

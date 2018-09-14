@@ -3,7 +3,7 @@ title: "创建新产品"
 description: "此任务显示如何创建新的共享的产品。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

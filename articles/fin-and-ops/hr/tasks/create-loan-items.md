@@ -3,7 +3,7 @@ title: "创建借出物品"
 description: "借出物品是帮助您跟踪您的公司借出给工作人员的实际物品（如手机或电脑）的记录。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

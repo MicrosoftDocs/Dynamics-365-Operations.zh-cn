@@ -3,7 +3,7 @@ title: "设置职责划分"
 description: "您可以设置规则，以分离必须由不同用户执行的任务。"
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

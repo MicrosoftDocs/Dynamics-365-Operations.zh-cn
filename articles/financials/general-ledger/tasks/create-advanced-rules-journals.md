@@ -3,7 +3,7 @@ title: "创建日记帐高级规则"
 description: "该过程介绍创建日记帐高级规则的步骤。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

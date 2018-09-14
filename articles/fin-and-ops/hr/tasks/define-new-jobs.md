@@ -3,7 +3,7 @@ title: "定义新工作"
 description: "此任务的重点是创建新工作。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

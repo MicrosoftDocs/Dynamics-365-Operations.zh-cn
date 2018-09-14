@@ -3,7 +3,7 @@ title: "以直接交运方式装运订单"
 description: "该过程显示如何为销售订单创建直接交货。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

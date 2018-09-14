@@ -3,7 +3,7 @@ title: "将现有活动添加到生产流版本"
 description: "创建生产流的新版本时，可以选择将为较低版本创建的活动添加到新版本。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

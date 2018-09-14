@@ -3,7 +3,7 @@ title: "客户付款概览"
 description: "本任务指南逐步介绍用于输入客户付款的各种方法。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

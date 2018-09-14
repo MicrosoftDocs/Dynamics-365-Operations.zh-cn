@@ -3,7 +3,7 @@ title: "创建询价的申请类型和计分条件"
 description: "此指南演示如何创建申请类型和将其与计分方法关联。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

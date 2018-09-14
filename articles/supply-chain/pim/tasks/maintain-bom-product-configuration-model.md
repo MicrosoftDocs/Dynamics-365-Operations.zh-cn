@@ -3,7 +3,7 @@ title: "维护产品配置模型的物料清单"
 description: "运行该过程要求有现有的产品配置模型。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

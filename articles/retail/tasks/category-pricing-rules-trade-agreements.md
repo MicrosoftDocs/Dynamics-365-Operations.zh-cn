@@ -3,7 +3,7 @@ title: "创建贸易协议使用的类别定价规则"
 description: "该过程说明了如何使用分类价格规则创建销售价格贸易协议。"
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "更正库存跟踪信息"
 description: "该过程让您了解创建和过帐库存转移日志的流程，以纠正库存跟踪信息。"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

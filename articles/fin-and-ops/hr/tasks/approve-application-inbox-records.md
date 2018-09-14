@@ -3,7 +3,7 @@ title: "审核申请表收件箱记录"
 description: "此过程显示如何通过员工自助服务页查看接收的申请表。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

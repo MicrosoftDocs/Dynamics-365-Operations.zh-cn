@@ -3,7 +3,7 @@ title: "处理会员奖励分调整"
 description: "该过程说明了如何查看积分卡信息，以及如何调整奖励积分点数。"
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

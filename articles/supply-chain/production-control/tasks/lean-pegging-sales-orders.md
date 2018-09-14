@@ -3,7 +3,7 @@ title: "销售订单的精益限定标准"
 description: "该过程主要为验证看板生产物料的销售行限定标准树形图而设计的。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

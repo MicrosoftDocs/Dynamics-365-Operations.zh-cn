@@ -3,7 +3,7 @@ title: "定义连续性计划"
 description: "本主题逐步演示如何设置连续性计划（也称为重复订单）。"
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

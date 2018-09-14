@@ -3,7 +3,7 @@ title: "更改多项固定资产的折旧惯例"
 description: "此任务更新特定固定资产组的折旧惯例。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

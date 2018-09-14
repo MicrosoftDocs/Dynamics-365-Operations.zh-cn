@@ -3,7 +3,7 @@ title: "定义供应商付款费用"
 description: "设置供应商付款费用。"
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

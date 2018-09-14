@@ -3,7 +3,7 @@ title: "设定客户付款费用"
 description: "为客户付款创建付款费用。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

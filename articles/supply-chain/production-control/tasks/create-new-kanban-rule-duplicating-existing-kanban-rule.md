@@ -3,7 +3,7 @@ title: "通过复制现有看板规则创建新看板规则"
 description: "该过程的重点是创建现有看板规则的副本。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

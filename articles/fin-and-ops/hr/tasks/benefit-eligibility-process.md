@@ -3,7 +3,7 @@ title: "福利资格处理"
 description: "该过程显示了福利资格流程的工作原理。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

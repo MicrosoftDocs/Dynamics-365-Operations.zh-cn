@@ -3,7 +3,7 @@ title: "导入 ISO20022 直接借记配置"
 description: "此过程演示如何导入客户付款电子申报配置。"
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

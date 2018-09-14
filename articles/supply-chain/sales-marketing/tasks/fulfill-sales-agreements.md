@@ -3,7 +3,7 @@ title: "履行销售协议"
 description: "此过程向您显示如何通过将销售订单与销售协议关联来履行销售协议。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

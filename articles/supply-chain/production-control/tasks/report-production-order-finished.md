@@ -3,7 +3,7 @@ title: "将生产订单报告为已完工入库"
 description: "该过程显示如何报告生产订单为完工入库。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

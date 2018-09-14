@@ -3,7 +3,7 @@ title: "零售价调整"
 description: "此程序将逐步演示如何创建零售价格调整。"
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建内部公司计划"
 description: "此过程显示如何创建内部公司计划。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

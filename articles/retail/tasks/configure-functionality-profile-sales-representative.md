@@ -3,7 +3,7 @@ title: "配置销售代表的功能模板"
 description: "此过程演示如何配置应用于销售代表的商店功能配置文件设置。"
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

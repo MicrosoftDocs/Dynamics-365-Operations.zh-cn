@@ -3,7 +3,7 @@ title: "创建新仓库布局"
 description: "该程序将向您说明如何设置有关仓库库位的信息。"
 author: perlynne
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

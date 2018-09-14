@@ -3,7 +3,7 @@ title: "配置跨公司财务数据共享"
 description: "此过程显示在公司间共享数据时，如何配置、启用、验证和解决冲突。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

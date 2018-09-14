@@ -3,7 +3,7 @@ title: "启用考勤管理的工资流程"
 description: "此程序说明如何根据工时与出勤率来生成工资。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

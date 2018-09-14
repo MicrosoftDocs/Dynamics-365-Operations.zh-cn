@@ -3,7 +3,7 @@ title: "盘点仓库中的库存"
 description: "该过程介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

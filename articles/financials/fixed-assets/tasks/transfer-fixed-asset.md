@@ -3,7 +3,7 @@ title: "转移固定资产"
 description: "此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

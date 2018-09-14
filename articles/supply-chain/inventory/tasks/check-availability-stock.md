@@ -3,7 +3,7 @@ title: "检查存货可用性"
 description: "此过程显示如何检查特定物料编号的现有和实际现有库存量。"
 author: 
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

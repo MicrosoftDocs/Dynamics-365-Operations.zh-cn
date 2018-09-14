@@ -3,7 +3,7 @@ title: "创建价值流"
 description: "价值流是归于一个或多个生产流的运营单位。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

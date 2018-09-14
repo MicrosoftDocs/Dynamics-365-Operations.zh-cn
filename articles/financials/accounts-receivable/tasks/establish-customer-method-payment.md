@@ -3,7 +3,7 @@ title: "设定客户付款方式"
 description: "为客户付款创建一种付款方式。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

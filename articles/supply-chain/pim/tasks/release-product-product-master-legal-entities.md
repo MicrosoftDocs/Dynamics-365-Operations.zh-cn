@@ -3,7 +3,7 @@ title: "向法人发布产品/基础产品"
 description: "此程序会逐步演示如何向一个或多个法人发布产品或基础产品。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

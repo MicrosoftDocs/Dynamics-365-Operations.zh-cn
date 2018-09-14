@@ -3,7 +3,7 @@ title: "设置预缴税金"
 description: "预缴税金是针对供应商的一种不创建增值税交易记录的税金。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

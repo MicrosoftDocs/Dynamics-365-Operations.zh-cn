@@ -3,7 +3,7 @@ title: "生成受约束计划"
 description: "此过程显示如何创建涉及物料和产能限制的计划。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

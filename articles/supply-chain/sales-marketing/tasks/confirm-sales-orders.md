@@ -3,7 +3,7 @@ title: "确认销售订单"
 description: "该过程说明了如何确认销售订单。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建站点计划"
 description: "此过程显示如何计划没有为站点开始的生产订单。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

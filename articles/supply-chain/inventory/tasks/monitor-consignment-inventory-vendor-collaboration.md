@@ -3,7 +3,7 @@ title: "使用供应商协作监控托运库存"
 description: "此过程显示如何通过供应商协作查看有关您在客户托运中发放的物料的存货级别的信息。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

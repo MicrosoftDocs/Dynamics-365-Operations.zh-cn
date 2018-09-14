@@ -3,7 +3,7 @@ title: "创建基准预测"
 description: "生产规划员可通过使用时间序列预测模型或复制历史需求来创建基线预测。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

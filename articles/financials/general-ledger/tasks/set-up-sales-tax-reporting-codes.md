@@ -3,7 +3,7 @@ title: "设置销售税申报代码"
 description: "销售税报表代码指销售税报表上的字段编号。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "设置并生成应收账款的帐龄信息"
 description: "本指南将帮助您设置帐龄期间定义、帐龄客户余额以及查看“帐龄余额表”和“收款”页的余额。"
 author: mikefalkner
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

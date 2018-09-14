@@ -3,7 +3,7 @@ title: "管理休假"
 description: "此过程为员工休假记录的创建。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

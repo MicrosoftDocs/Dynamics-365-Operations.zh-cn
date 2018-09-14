@@ -3,7 +3,7 @@ title: "创建销售税支付"
 description: "结算和过帐销售税作业结算销售税帐户的销售税余额，并冲销特定期间内的销售税结算帐户。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

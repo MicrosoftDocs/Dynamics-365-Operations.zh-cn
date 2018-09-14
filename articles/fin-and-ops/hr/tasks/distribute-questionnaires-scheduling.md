@@ -3,7 +3,7 @@ title: "使用计划分发调查表"
 description: "调查表编制计划允许您将调查表分发给多个回应者。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

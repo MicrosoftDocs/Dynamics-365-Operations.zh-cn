@@ -3,7 +3,7 @@ title: "查看生产订单当前的 WIP 状态"
 description: "该过程显示如何查看生产订单的“WIP 报表”。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "登记销售佣金"
 description: "该过程显示如何计算和登记销售佣金。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "转移仓库内的实际库存"
 description: "该过程向您介绍创建和过帐库存转移日记帐，以登记物料在仓库内的库位转移。"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

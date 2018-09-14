@@ -3,7 +3,7 @@ title: "创建采购协议"
 description: "该过程会从头至尾指导您创建一份采购协议。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "比较生产订单上的有效、估计和实际成本"
 description: "此程序显示如何查看生产订单出现高产量差异的原因。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "恢复看板作业状态"
 description: "该过程用于恢复一个不正确的看板作业状态。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

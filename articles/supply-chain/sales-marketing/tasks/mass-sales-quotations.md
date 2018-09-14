@@ -3,7 +3,7 @@ title: "成批创建销售报价单"
 description: "该过程演示如何有效创建发送一组产品或服务给多个客户的报价单。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

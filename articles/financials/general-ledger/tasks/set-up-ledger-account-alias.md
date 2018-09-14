@@ -3,7 +3,7 @@ title: "设置会计科目别名"
 description: "该过程显示如何创建可提供科目编号快捷输入方式的科目别名。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "装运无仓库的销售订单"
 description: "本指南演示在将产品发运给客户时如何更新销售订单。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "维护员工伤害和疾病信息"
 description: "建议首先完成“设置伤害和疾病”任务指南，因为此处使用这些设置信息中的一部分。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

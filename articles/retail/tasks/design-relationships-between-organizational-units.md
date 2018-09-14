@@ -3,7 +3,7 @@ title: "设计组织部门之间的关系"
 description: "此过程可以通过设计组织单位关系的方式完成。"
 author: mugunthanm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

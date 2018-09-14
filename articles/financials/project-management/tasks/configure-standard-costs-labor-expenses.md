@@ -3,7 +3,7 @@ title: "配置人工和支出的标准成本"
 description: "此过程显示如何为项目的人工和费用设置标准价。"
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

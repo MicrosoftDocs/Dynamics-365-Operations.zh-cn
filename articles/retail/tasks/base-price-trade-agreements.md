@@ -3,7 +3,7 @@ title: "基价和贸易协议"
 description: "此程序会逐步演示如何创建渠道特定销售价格贸易协议。"
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

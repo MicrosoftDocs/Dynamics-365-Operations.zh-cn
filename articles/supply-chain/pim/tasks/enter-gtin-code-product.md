@@ -3,7 +3,7 @@ title: "输入产品的 GTIN 代码"
 description: "GTIN 代码由 GS1 组织分配。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

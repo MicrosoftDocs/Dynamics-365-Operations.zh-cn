@@ -3,7 +3,7 @@ title: "管理订单保留"
 description: "此过程演示如何将销售订单置于暂停状态、如何使用订单保留签出，以及如何删除订单保留。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

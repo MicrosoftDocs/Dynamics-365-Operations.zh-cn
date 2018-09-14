@@ -3,7 +3,7 @@ title: "审核收款信息"
 description: "该过程简单说明了如何查看收款信息以及如何设置各种选项和收款交易记录。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

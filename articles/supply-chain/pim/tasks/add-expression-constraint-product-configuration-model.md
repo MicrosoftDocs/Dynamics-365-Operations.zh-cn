@@ -3,7 +3,7 @@ title: "将表达式约束添加到产品配置模型"
 description: "该过程显示如何添加新的约束表达式到产品配置模型。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "对货运进行手动对帐"
 description: "此过程显示如何手动对帐货运。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

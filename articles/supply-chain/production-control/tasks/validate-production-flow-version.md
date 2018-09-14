@@ -3,7 +3,7 @@ title: "验证生产流和版本"
 description: "该过程显示如何创建新的生产流以及 lean manufacturing 的第一个版本。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

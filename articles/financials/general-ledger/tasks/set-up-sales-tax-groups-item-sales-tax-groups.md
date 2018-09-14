@@ -3,7 +3,7 @@ title: "设置销售税组和物料销售税组"
 description: "此任务记录向您介绍销售税和物料销售税组的设置。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "结算供应商的远期支票"
 description: "在支票过期银行清算之后，如果银行已清算支票交易记录，签发一张远期支票给供应商进行结算。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

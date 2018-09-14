@@ -3,7 +3,7 @@ title: "处理催款单"
 description: "该过程说明如何创建、打印并过帐收款单。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "设置薪酬网格"
 description: "薪酬网格用于定义及维持固定薪酬计划的工资结构。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

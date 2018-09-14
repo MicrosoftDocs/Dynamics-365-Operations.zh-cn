@@ -3,7 +3,7 @@ title: "中国式凭证连续性检查"
 description: "每个凭证类型的中国式凭证号必须从 1 开始并且具有连续性，才能结转会计期间。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

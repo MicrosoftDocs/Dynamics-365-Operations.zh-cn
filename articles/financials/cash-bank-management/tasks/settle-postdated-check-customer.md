@@ -3,7 +3,7 @@ title: "结算客户的远期支票"
 description: "该支票由银行清算后，您可以结算过期支票。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "调整仓库中的库存级别（基本仓库）"
 description: "该过程向您介绍创建和过帐库存调整日记帐以调整仓库中的产品库存水平。"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

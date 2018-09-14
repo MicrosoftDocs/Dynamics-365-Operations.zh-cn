@@ -3,7 +3,7 @@ title: "完成已发布基础产品的基本设置"
 description: "该过程会显示在基础产品可用于物料清单版本之前，如何完成所需的最低设置。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

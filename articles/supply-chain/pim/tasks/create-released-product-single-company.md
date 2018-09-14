@@ -3,7 +3,7 @@ title: "创建单个公司的已发布产品"
 description: "此过程介绍如何在单个法定单位背景下创建单个已发布产品。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

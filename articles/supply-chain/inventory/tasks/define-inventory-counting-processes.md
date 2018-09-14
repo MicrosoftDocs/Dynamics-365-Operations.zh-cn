@@ -3,7 +3,7 @@ title: "定义库存盘点流程"
 description: "此过程向您介绍，通过创建一个盘点组和盘点日记帐，配置基本存货盘点过程。"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

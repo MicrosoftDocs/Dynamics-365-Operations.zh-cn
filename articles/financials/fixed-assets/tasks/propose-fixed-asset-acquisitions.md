@@ -3,7 +3,7 @@ title: "建议固定资产购置"
 description: "此过程显示如何使用固定资产日记帐中的购置方案购置固定资产。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

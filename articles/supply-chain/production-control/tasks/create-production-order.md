@@ -3,7 +3,7 @@ title: "创建生产订单"
 description: "此程序说明如何创建一个生产订单。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

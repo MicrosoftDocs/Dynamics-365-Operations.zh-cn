@@ -3,7 +3,7 @@ title: "创建和关联收银机"
 description: "此过程演示如何创建销售点 (POS) 收银机。"
 author: rubencdelgado
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

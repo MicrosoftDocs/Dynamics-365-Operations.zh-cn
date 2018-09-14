@@ -3,7 +3,7 @@ title: "创建采购策略"
 description: "此过程演示如何创建与您的采购业务流程一致的采购政策。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

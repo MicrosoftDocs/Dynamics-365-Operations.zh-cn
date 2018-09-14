@@ -3,7 +3,7 @@ title: "从现有配方版本中复制联产品"
 description: "该过程展示如何为发布的产品从现有配方版本向不同的配方版本中复制联产品。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

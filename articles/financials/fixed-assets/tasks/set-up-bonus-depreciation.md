@@ -3,7 +3,7 @@ title: "设置额外折旧"
 description: "此过程显示如何创建特殊折旧补偿并将其与固定资产帐簿关联。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建活动关系 - 后续活动"
 description: "精益生产流的活动流通过活动关系记录。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

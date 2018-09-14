@@ -3,7 +3,7 @@ title: "设置集装化"
 description: "此过程描述如何在“仓库管理”中自动进行装载集装化。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

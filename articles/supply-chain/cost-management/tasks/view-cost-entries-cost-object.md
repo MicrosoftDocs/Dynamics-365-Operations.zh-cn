@@ -3,7 +3,7 @@ title: "查看成本对象的成本条目"
 description: "该过程说明如何查看成本对象的成本条目。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

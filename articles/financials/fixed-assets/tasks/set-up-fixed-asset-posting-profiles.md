@@ -3,7 +3,7 @@ title: "设置固定资产过帐模板"
 description: "此任务指南将设置固定资产过帐模板。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建固定资产"
 description: "此任务指南使用 USMF 公司演示。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

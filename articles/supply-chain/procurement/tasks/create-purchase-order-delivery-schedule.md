@@ -3,7 +3,7 @@ title: "创建含交货计划的采购订单"
 description: "此过程显示如何为采购订单创建交货计划。"
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建站点计划"
 description: "生产规划人员计算特定物料生产的物料和产能需求。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

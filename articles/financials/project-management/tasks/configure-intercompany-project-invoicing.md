@@ -3,7 +3,7 @@ title: "配置内部公司项目开票"
 description: "此过程显示如何设置贵组织内部两个公司之间的项目开票。"
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

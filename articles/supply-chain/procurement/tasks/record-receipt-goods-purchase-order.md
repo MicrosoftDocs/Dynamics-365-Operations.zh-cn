@@ -3,7 +3,7 @@ title: "记录采购订单上的收货"
 description: "此过程演示如何直接在采购订单中记录收货。"
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

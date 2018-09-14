@@ -3,7 +3,7 @@ title: "计划看板作业"
 description: "此程序是为特定工作单元调度处理看板作业而设计的。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建分类帐应计交易记录"
 description: "此任务指南介绍生成基于应计架构的分类帐应计交易记录的步骤。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建销售订单发票"
 description: "此任务指南介绍如何给销售订单开票，包括合并发票以及成批处理。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

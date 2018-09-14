@@ -3,7 +3,7 @@ title: "设置增值税主管机构"
 description: "销售税主管机构是收缴需要申报和缴纳的销售税的实体。"
 author: twheeloc
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

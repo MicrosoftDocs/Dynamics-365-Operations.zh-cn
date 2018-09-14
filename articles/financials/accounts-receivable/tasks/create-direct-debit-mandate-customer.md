@@ -3,7 +3,7 @@ title: "为客户创建直接借记授权单"
 description: "此任务指南向您演示如何创建直接借记授权并将其使用在发票上。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

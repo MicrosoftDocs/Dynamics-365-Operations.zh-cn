@@ -3,7 +3,7 @@ title: "创建提款看板规则"
 description: "此过程显示在精益环境中创建转移物料的提领看板规则所需的设置。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建基于维度的配置"
 description: "此过程显示如何定义基于维度的产品的配置。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

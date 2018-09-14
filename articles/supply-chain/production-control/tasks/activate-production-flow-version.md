@@ -3,7 +3,7 @@ title: "启用生产流版本"
 description: "应先启用生产流版本，才能为该版本创建看板作业和处理活动。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

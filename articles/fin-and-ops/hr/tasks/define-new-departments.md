@@ -3,7 +3,7 @@ title: "定义新部门"
 description: "部门作为运作单位代表一个商业职能范围，如销售或财务部门。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "更改处理作业的看板规则"
 description: "该过程旨在更改一个给定看板的惯用看板规则。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

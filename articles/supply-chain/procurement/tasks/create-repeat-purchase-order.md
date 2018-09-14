@@ -3,7 +3,7 @@ title: "创建重复采购订单"
 description: "此过程演示如何通过将早期采购订单 (PO) 单据中的行复制到新采购订单或现有采购订单，创建重复采购订单。"
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

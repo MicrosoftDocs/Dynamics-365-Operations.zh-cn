@@ -3,7 +3,7 @@ title: "创建配置规则"
 description: "该过程创建配置规则，以用于基于维度的配置，从而执行或防止物料清单行的某些组合。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

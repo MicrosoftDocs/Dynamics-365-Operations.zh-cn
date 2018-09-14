@@ -3,7 +3,7 @@ title: "对流程制造的生产作业排序"
 description: "此过程使用油漆产品作为示例显示如何根据颜色和包装大小的优先级排序计划订单。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "按成本对象查看库存报表和 KPI"
 description: "创建此程序的演示数据公司是 USMF。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

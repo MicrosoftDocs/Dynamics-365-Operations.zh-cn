@@ -3,7 +3,7 @@ title: "零售报表的商店配置"
 description: "此程序会逐步演示零售商店的配置（这会影响到如何创建和过帐零售报表）。"
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "更改横幅或徽标"
 description: "系统管理员可以用以下过程列出的步骤更新法人展示所用的横幅或形象标识。"
 author: aneesmsft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

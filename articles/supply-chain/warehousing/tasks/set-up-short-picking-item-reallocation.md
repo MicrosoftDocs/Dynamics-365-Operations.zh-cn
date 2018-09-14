@@ -3,7 +3,7 @@ title: "设置领料短缺的物料重新分配"
 description: "此过程显示如何启用仓库工作人员，以便在为其指示的库位的库存不足时，快速找到备用库位。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

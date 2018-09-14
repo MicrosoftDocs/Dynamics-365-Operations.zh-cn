@@ -3,7 +3,7 @@ title: "创建和验证日记帐"
 description: "此任务指南创建并验证日记帐和日记帐行。"
 author: ryansandness
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

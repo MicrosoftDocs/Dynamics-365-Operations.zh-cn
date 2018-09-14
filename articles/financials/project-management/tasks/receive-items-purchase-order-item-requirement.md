@@ -3,7 +3,7 @@ title: "根据物料需求接收采购订单上的物料"
 description: "此过程显示如何根据物料需求接收某一采购订单的物料。"
 author: KimANelson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

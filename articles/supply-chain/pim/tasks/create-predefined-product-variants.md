@@ -3,7 +3,7 @@ title: "创建预定义的产品变型"
 description: "此过程全面介绍如何使用产品维度的组合创建基础产品的产品变型。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

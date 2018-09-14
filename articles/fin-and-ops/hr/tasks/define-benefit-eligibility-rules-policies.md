@@ -3,7 +3,7 @@ title: "定义福利资格规则和策略"
 description: "此记录将显示您创建福利资格规则和政策并将规则分配给福利的方法。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

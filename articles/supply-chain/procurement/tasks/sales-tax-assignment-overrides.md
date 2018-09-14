@@ -3,7 +3,7 @@ title: "销售税分配和覆盖"
 description: "此过程演示如何为零售渠道分配增值税组。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

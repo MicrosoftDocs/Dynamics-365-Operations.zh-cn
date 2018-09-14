@@ -3,7 +3,7 @@ title: "通过从现有配方复制来创建配方"
 description: "该过程显示如何通过复制现有配方，快速创建新的配方。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

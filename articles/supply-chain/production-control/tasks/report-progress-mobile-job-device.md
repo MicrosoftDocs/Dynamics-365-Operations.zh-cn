@@ -3,7 +3,7 @@ title: "在移动作业设备上报告进度"
 description: "该过程向您展示如何在一个生产作业和工作设备登记表中开始并报告生产作业进度。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "管理度量单位"
 description: "此过程显示如何定义度量单位，提供单位换算及其描述，以及定义相关单位的转换规则。"
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

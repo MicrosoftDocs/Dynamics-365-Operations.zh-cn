@@ -3,7 +3,7 @@ title: "创建工作时间计划属性"
 description: "工时安排属性用于对工时间隔进行分类和定义操作人员必须考虑的设置。"
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

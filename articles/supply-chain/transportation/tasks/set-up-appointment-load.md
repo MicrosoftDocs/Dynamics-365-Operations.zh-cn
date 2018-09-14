@@ -3,7 +3,7 @@ title: "为负荷设置约会"
 description: "此过程显示如何为负荷设置和计划码头预约。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

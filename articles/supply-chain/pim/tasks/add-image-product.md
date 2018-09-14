@@ -3,7 +3,7 @@ title: "向产品添加图像"
 description: "此过程显示如何向产品添加图像。用于创建此任务的演示数据公司为 USMF。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

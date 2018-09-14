@@ -3,7 +3,7 @@ title: "输入销售协议"
 description: "该过程向您显示如何创建销售协议，以向一位客户承诺在一段时间内购买的产品达到协商的金额时获得特别折扣。"
 author: omulvad
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

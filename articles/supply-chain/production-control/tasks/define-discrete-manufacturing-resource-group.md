@@ -3,7 +3,7 @@ title: "定义离散制造资源组"
 description: "一个资源组通常对应于工作单元里的某个物理组织的一组操作资源，由生产车间的黄线定义。"
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

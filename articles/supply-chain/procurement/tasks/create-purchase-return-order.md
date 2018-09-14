@@ -3,7 +3,7 @@ title: "创建采购退货单"
 description: "此过程演示如何通过使用“贷方通知单”操作将供应商发票单据中的行复制到新采购订单中来创建采购退货单。"
 author: FrankDahl
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

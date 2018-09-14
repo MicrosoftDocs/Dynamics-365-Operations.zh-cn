@@ -3,7 +3,7 @@ title: "配置工作人员"
 description: "此过程演示如何将零售工作人员配置为有资格享受 POS 中的销售佣金的销售代表。"
 author: jblucher
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

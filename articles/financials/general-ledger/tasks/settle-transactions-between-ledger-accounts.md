@@ -3,7 +3,7 @@ title: "结算会计科目之间的交易记录"
 description: "该过程显示如何结算会计科目间的交易和取消分类帐结算。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

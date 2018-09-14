@@ -3,7 +3,7 @@ title: "设定客户付款期限"
 description: "此程序定义了一个现金折扣和到期日期设置。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

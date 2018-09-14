@@ -3,7 +3,7 @@ title: "创建 POS 权限组"
 description: "此程序将会显示如何创建 POS 权限组。"
 author: scott-tucker
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "创建产品配置模型"
 description: "该过程显示如何创建产品配置模型和输入基础信息，如属性和子组件。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

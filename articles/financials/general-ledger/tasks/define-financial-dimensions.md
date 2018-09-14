@@ -3,7 +3,7 @@ title: "定义财务维度"
 description: "此任务指南演示如何添加实体支持的财务维度和自定义的财务维度。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

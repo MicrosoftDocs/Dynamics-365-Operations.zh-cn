@@ -3,7 +3,7 @@ title: "创建成本元素"
 description: "可通过几种方法在成本核算中创建成本要素。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

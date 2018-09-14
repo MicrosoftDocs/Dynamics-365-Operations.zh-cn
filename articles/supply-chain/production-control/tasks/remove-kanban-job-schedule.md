@@ -3,7 +3,7 @@ title: "从计划中删除看板作业"
 description: "此程序用于通过恢复一个作业的“无计划”状态，从预定计划中移除该计划处理的看板作业。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

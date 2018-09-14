@@ -3,7 +3,7 @@ title: "创建物料清单行事件看板规则"
 description: "此任务介绍在混合精益和经典生产环境中创建事件看板规则以确保生产物料清单行的供应所需的设置。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

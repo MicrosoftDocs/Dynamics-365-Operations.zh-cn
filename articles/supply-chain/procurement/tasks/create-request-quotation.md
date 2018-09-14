@@ -3,7 +3,7 @@ title: "创建询价"
 description: "此过程向您说明如何创建询价。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

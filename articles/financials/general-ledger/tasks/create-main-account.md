@@ -3,7 +3,7 @@ title: "创建主科目"
 description: "此任务指南介绍添加主科目到现有会计科目表的步骤。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

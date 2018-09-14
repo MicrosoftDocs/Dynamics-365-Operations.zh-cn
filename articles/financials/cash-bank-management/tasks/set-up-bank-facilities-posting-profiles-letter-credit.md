@@ -3,7 +3,7 @@ title: "设置信用证的银行设施和过帐模板"
 description: "该过程会从始至终引导您创建所需的“银行融资和过帐模板”，以便处理“信用证”。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

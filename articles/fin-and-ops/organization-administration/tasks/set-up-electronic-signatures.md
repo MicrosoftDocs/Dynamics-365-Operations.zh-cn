@@ -3,7 +3,7 @@ title: "设置电子签名"
 description: "使用该过程设置电子签名。"
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "设置 ISO20022 贷方转帐的付款方式"
 description: "此过程显示如何通过电子申报生成文件来为 ISO20022 贷方转帐或其他任何付款类型设置供应商付款方式。"
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

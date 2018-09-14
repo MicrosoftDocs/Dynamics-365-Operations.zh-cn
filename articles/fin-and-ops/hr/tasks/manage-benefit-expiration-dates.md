@@ -3,7 +3,7 @@ title: "管理福利到期日期"
 description: "此过程显示如何终止或延长福利，以及管理在福利日期内招聘的工作人员的招聘日期。"
 author: ShielaSogge
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

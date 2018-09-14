@@ -3,7 +3,7 @@ title: "创建、计算和过帐零售商店的报表"
 description: "此程序会逐步演示如何手动创建、计算和过帐某一商店的报表。"
 author: jashanno
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

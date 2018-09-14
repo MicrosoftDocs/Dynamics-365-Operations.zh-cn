@@ -3,7 +3,7 @@ title: "查看日记帐条目或交易记录"
 description: "此过程显示如何使用凭证交易记录查询搜索日记帐分录或交易记录。"
 author: aprilolson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

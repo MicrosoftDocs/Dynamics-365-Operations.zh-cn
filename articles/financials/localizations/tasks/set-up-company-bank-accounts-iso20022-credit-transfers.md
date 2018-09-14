@@ -3,7 +3,7 @@ title: "设置 ISO20022 贷方转帐的公司银行帐户"
 description: "此过程显示如何设置生成付款文件所需的，公司具体的银行帐户信息。"
 author: mrolecki
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

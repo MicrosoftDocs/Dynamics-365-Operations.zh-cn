@@ -3,7 +3,7 @@ title: "审核产品配置模型"
 description: "该过程的运行要求至少有一个产品配置模型可用。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

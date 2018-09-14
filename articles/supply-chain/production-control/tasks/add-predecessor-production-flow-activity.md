@@ -3,7 +3,7 @@ title: "将前导活动添加到生产流活动"
 description: "在生产流版本中，必须为所有活动排序。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

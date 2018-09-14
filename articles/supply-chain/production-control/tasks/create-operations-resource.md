@@ -3,7 +3,7 @@ title: "创建运营资源"
 description: "运营资源执行项目或生产流程的活动。"
 author: sorenva
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

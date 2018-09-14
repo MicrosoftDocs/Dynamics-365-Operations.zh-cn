@@ -3,7 +3,7 @@ title: "在发票日记帐中记录供应商发票"
 description: "此任务指南将显示如何记录与采购订单无关的供应商发票。"
 author: abruer
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

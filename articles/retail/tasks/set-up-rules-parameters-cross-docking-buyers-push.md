@@ -3,7 +3,7 @@ title: "设置越库配送和集中采购配送的规则和参数"
 description: "此程序会演示补货规则的创建步骤。"
 author: josaw1
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "更新看板状态"
 description: "在看板由错误清空或收到的看板需要清空时，需要更新看板状态。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

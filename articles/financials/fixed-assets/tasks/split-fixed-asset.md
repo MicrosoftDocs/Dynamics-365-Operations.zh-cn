@@ -3,7 +3,7 @@ title: "拆分固定资产"
 description: "此任务指南将把一个资产帐簿的一定百分百拆分到新资产帐簿。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

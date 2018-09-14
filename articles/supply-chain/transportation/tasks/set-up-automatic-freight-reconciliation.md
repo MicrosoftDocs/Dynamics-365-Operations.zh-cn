@@ -3,7 +3,7 @@ title: "设置自动装运对帐"
 description: "此过程显示如何为自动货运对帐设置数据。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

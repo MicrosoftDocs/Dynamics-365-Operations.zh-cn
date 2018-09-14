@@ -3,7 +3,7 @@ title: "处理利息"
 description: "此过程将向您展示如何创建、打印和过帐利息单。"
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

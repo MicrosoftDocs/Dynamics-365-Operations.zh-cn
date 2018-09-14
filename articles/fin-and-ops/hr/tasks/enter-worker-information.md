@@ -3,7 +3,7 @@ title: "输入工作人员信息"
 description: "在招聘人员创建了批量雇用项目并生成职位后，下一步是输入受雇人员的信息。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

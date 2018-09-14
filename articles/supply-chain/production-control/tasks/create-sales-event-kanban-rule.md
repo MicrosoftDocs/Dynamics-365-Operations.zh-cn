@@ -3,7 +3,7 @@ title: "创建销售事件看板规则"
 description: "该过程的重点是创建在销售订单创建期间触发的看板规则所需的设置。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

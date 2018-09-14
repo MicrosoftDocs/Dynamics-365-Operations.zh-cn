@@ -3,7 +3,7 @@ title: "定义 lean manufacturing 工作单元"
 description: "工作单元是可用于精益制造流程活动的特定形式的资源组。"
 author: cvocph
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "设置采购订单的工作模板"
 description: "该过程的重点是设置物料入库时使用的简单工作模板。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

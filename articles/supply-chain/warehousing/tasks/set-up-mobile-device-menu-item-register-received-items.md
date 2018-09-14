@@ -3,7 +3,7 @@ title: "设置登记已接收物料的移动设备菜单项"
 description: "此任务重点是设置移动设备菜单项。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "设置中国式凭证"
 description: "此过程逐步演示如何使用特定演示数据设置中国式凭证。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

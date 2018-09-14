@@ -3,7 +3,7 @@ title: "设置采购类别层次结构的策略"
 description: "使用此过程设置类别中订购产品的规则。"
 author: mkirknel
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

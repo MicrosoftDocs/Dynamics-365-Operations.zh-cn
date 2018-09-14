@@ -3,7 +3,7 @@ title: "确定和部署候选人选择工具"
 description: "找到符合条件的候选人填补空缺不是一件容易的事，尤其是在该职位需要一系列独特技能时。"
 author: kherr75
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

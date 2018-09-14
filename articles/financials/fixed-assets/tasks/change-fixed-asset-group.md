@@ -3,7 +3,7 @@ title: "更改固定资产组"
 description: "应将固定资产分配给正确的固定资产组。"
 author: saraschi2
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

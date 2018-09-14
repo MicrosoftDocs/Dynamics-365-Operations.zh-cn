@@ -3,7 +3,7 @@ title: "使用看板行事件创建看板规则"
 description: "此过程通过使用看板行事件设置触发从进程活动的提取来创建看板规则。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

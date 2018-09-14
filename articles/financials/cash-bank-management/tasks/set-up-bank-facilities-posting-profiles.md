@@ -3,7 +3,7 @@ title: "设置保函的银行设施和过帐模板"
 description: "此任务会创建所需的银行融资和过帐模板，以便处理保函。"
 author: kweekley
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

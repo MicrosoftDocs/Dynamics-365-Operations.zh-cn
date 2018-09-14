@@ -3,7 +3,7 @@ title: "创建基于维度的基础产品"
 description: "该过程会显示如何使用基于维度的配置技术新建基础产品。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

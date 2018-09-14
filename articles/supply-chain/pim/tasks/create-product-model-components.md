@@ -3,7 +3,7 @@ title: "创建产品模型组件"
 description: "基于约束的产品配置模型使用组件作为基本结构块以建立产品模型结构。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

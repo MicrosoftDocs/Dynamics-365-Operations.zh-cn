@@ -3,7 +3,7 @@ title: "创建基于维度的基础产品的物料清单"
 description: "对于此过程，您应该已经以八个记录的这个顺序完成之前的 4 个指南。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

@@ -3,7 +3,7 @@ title: "在物料对于工作单元可用时准备处理看板作业"
 description: "此任务的重点是在所有物料可用于工作单元时准备处理看板作业。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

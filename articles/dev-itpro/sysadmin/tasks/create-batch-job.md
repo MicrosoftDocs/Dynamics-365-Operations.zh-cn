@@ -3,7 +3,7 @@ title: "创建批处理作业"
 description: "批处理作业是提交到某一应用程序对象服务器 (AOS) 实例以供自动处理的一组任务。"
 author: maertenm
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications

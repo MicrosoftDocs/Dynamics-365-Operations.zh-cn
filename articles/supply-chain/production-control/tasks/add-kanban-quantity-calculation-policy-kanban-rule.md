@@ -3,7 +3,7 @@ title: "向看板规则中添加看板数量计算策略"
 description: "此过程重点是创建看板数量计算策略，并将其添加到看板规则，以优化看板大小和数量。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 8/29/2018
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
