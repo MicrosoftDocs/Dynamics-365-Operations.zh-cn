@@ -99,8 +99,6 @@
       href: call-center-functionality.md
     - name: 呼叫中心目录
       href: call-center-catalogs.md
-    - name: 创建呼叫中心目录
-      href: create-call-center-catalogs.md
     - name: 配置交货方式和费用
       href: configure-call-center-delivery.md
     - name: 设置和使用欺骗预警
@@ -133,6 +131,8 @@
       href: MPOS-or-CPOS.md
     - name: 联机和脱机 POS 操作
       href: pos-operations.md
+    - name: 自定义 Retail Modern POS 的设备激活
+      href: dev-itpro/retail-POS-activation-changes.md
     - name: MPOS 和 POS 中的演示数据屏幕布局
       href: demo-data.md
     - name: POS 中的产品和客户搜索
