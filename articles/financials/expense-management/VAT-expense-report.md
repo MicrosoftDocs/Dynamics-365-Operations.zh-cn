@@ -17,14 +17,16 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: cf5277bf90799692b4d9d43e3279dae6e1e1bdf7
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
 # <a name="vat-recovery-in-expense-management"></a><span data-ttu-id="0137c-103">费用报销管理中的增值税退税</span><span class="sxs-lookup"><span data-stu-id="0137c-103">VAT recovery in Expense management</span></span>
+
+[!include [banner](../includes/banner.md)]
 
 <span data-ttu-id="0137c-104">要接收符合条件的增值税 (VAT) 交易记录的退税，公司或组织必须标识、收集、验证并提交准确信息。</span><span class="sxs-lookup"><span data-stu-id="0137c-104">To receive refunds on eligible value-added tax (VAT) transactions, a company or organization must identify, collect, verify, and submit accurate information.</span></span> <span data-ttu-id="0137c-105">此过程包括多个任务，并根据您公司的大小，可以包括若干员工或角色。</span><span class="sxs-lookup"><span data-stu-id="0137c-105">This process includes multiple tasks and, depending on the size of your company, can include several employees or roles.</span></span>
 
