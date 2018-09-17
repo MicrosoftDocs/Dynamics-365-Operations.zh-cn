@@ -27,6 +27,8 @@ ms.lasthandoff: 08/08/2018
 
 # <a name="axerd-page-has-been-retired"></a>AxErd 页面已停用
 
+[!include [banner](../includes/banner.md)]
+
 不幸的是，我们必须停用 AxErd Web 页面，该页面提供大量 Microsoft Dynamics AX 2012 表的实体关系图 (ERD)。 我们已经可以发布项目的源代码和 GitHub 存储库中的 Web 页面的 HTML 文件：https://github.com/Microsoft/ax-2012-doc-tools
 
 这些 HTML 页面位于该存储库中，地址为 [https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm](https://github.com/Microsoft/ax-2012-doc-tools/tree/master/AxErd/AxErd/_RelatedFiles_AxErd/Deploy/Default.htm)

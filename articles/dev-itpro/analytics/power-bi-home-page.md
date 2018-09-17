@@ -27,6 +27,9 @@ ms.lasthandoff: 08/08/2018
 ---
 
 # <a name="powerbicom-solutions-home-page"></a>PowerBI.com 解决方案主页
+
+[!include [banner](../includes/banner.md)]
+
 以下 PowerBI.com 解决方案可用于 Dynamics 365 for Finance and Operations 环境。
 
 ## <a name="powerbicom-solutions-available-from-lifecycle-services-lcs"></a>Lifecycle Services (LCS) 提供的 PowerBI.com 解决方案
