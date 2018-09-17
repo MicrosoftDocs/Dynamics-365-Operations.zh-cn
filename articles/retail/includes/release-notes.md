@@ -1,6 +1,6 @@
 > [!IMPORTANT]
-> **发布 Dynamics 365 2018 春季版本说明**
+> **发布 Dynamics 365 版本说明**
 >
 > 是否对我们的任何商业应用或平台即将推出和最近发布的功能感兴趣？ 
 > 
-> [下载 2018 春季版本说明](http://download.microsoft.com/download/1/C/0/1C0A4DB7-9CE8-4D25-AC7F-65579E713BA8/ReleaseNotes_Dynamics365_03192018.pdf)。 此 PDF 文件汇总了所有端到端、上至下的详细信息，可用其进行规划。 
+> 查看[业务应用程序和平台版本说明](https://go.microsoft.com/fwlink/?linkid=2010158)。 此文件总了所有端到端、上至下的详细信息，可用其进行规划。 根据版本说明的版本，您可以找到新服务和新功能，以及未来将发布的新功能。

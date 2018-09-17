@@ -3,7 +3,7 @@ title: "结算概览"
 description: "本文提供有关结算流程的一般信息。 介绍可以结算的交易记录类型，可以在何时和如何结算交易记录，以及结算流程的结果。"
 author: kweekley
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 08/24/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,8 +16,8 @@ ms.custom: 14551
 ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0
+ms.search.validFrom: 2018-10-31
+ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
 ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
 ms.openlocfilehash: 2f1f11a7f1340d408374e658ae616ffa99f3c911
@@ -51,7 +51,6 @@ ms.lasthandoff: 11/03/2017
 -   如果付款金额等于发票金额，则付款和发票均关闭，二者余额为 0.00。
 
 如果由于现金折扣、勾销或未足额支付[付款少于发票金额](../accounts-payable/vendor-payments-partial-amount.md)，发票和付款可能仍将关闭，取决于应付账款参数和应收账款参数中结算的设置。 结算还可以生成交易记录。 例如，发票和付款的结算可能产生现金折扣、已有损益、销售税调整、勾销或尾差。
-
 
 
 

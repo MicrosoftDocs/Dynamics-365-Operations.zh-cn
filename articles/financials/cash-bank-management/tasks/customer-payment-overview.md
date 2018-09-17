@@ -3,23 +3,24 @@ title: "客户付款概览"
 description: "本任务指南逐步介绍用于输入客户付款的各种方法。"
 author: kweekley
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, CustPaymEntry, CustTableLookup, LedgerJournalTransCustPaym, CustOpenTrans, BankAccountTableLookUp
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 621ad64c06a6cebff90e888ac89bba922052cf35
-ms.openlocfilehash: de2526d5c674de9505174d3f40f9ae597b8a0a6b
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: e6e10d0d0a05b0594ba5cf6a77f474b461bd9dca
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/29/2017
 
 ---
 # <a name="customer-payment-overview"></a>客户付款概览
@@ -53,8 +54,8 @@ ms.lasthandoff: 10/26/2017
 15. 单击“新建”创建另一项付款。 
 16. 选择您接收其付款的客户。
     * 如果您不知道客户，但知道付款支付的发票，则使用“发票”字段手动输入或选择发票。 选择发票后，客户将默认填充。  
-17. 单击“结算交易”以标记已付款发票。
-    * 您无需结算付款，以开具发票。 如果是预付款，或您不知道已支付的发票，您可以输入并过帐付款。 付款可以稍后结算到发票。  
+17. 单击“结算交易记录”标记已支付的发票。
+    * 您无需将付款结算到任何发票。 如果是预付款，或您不知道已支付的发票，您可以输入并过帐付款。 付款可以稍后结算到发票。  
 18. 标记付款已支付的发票。 
 19. 输入将结算以标记发票的付款金额。
 20. 单击“确定”。

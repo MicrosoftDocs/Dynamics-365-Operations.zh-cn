@@ -3,26 +3,27 @@ title: "创建批处理作业"
 description: "批处理作业是提交到某一应用程序对象服务器 (AOS) 实例以供自动处理的一组任务。"
 author: maertenm
 manager: AnnBe
-ms.date: 11/10/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: BatchJob, SysRecurrence, BatchAlerts
 audience: Application User
-ms.reviewer: sericks
-ms.search.scope: Operations
+ms.reviewer: margoc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b32c16a0c0045e22128746f81c6e9fd03370ac1f
+ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
+ms.openlocfilehash: 31c8e2ba87ef8c17a3147e1159104585258d4164
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/29/2017
 
 ---
-# <a name="create-batch-jobs"></a>创建批处理作业
+# <a name="create-a-batch-job"></a>创建批处理作业
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

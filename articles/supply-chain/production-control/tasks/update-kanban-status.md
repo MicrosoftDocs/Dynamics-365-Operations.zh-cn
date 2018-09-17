@@ -3,19 +3,20 @@ title: "更新看板状态"
 description: "在看板由错误清空或收到的看板需要清空时，需要更新看板状态。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: Kanban, KanbanResetEmpty
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 3c2b5a5fbfc5bd83cc68ffafaa243dac9244c003

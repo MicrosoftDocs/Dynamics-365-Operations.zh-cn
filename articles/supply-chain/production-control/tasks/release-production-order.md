@@ -1,20 +1,21 @@
----
+--- 
 title: "下达生产订单"
 description: "此程序显示了如何发放生产订单。"
 author: johanhoffmann
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProdTableListPage, ProdParmRelease, SrsReportViewerForm
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
 ms.openlocfilehash: 6e628d8564c093c5d75fffe268b2107262d508c3
@@ -39,4 +40,5 @@ ms.lasthandoff: 02/06/2018
 5. 单击“打印工艺卡”复选框。
 6. 单击“确定”。
 7. 关闭该页面。
+
 

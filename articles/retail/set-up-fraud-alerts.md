@@ -8,7 +8,7 @@ ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-retail
 ms.technology: 
-ms.search.form: SalesPostingHistory, MCRHoldCodeTrans, SysOperationTemplateForm
+ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail

@@ -263,9 +263,9 @@
               href: extensibility/naming-guidelines-extensions.md
             - name: 放宽模型限制以将覆盖重构到扩展
               href: extensibility/refactoring-over-layering.md
-        - name: 如何做？
+        - name: 创建扩展
           items:
-            - name: 将值添加到 enums
+            - name: 将值添加到枚举
               href: extensibility/add-enum-value.md
             - name: 修改扩展数据类型
               href: extensibility/modify-edt.md
@@ -311,15 +311,37 @@
               href: extensibility/maps-as-interfaces.md
             - name: 扩展用于版本控制的表映射
               href: extensibility/maps-with-versioning.md
-    - name: 绩效
+        - name: 创建可扩展解决方案
+          items:
+            - name: 编写可扩展代码
+              href: extensibility/writing-extensible-code.md
+            - name: 类
+              href: extensibility/extensible-classes.md
+            - name: 方法
+              href: extensibility/extensible-methods.md
+            - name: 窗体
+              href: extensibility/extensible-forms.md
+            - name: 扩展数据类型
+              href: extensibility/extensible-edts.md
+            - name: 可扩展枚举
+              href: extensibility/extensible-enums.md
+            - name: 委托人
+              href: extensibility/extensible-code-delegates.md
+            - name: 表
+              href: extensibility/extensible-tables.md
+            - name: 方法的可扩展性属性
+              href: extensibility/extensibility-attributes.md
+            - name: 破坏性的更改
+              href: extensibility/breaking-changes.md
+    - name: 性能
       items:
-        - name: 使用跟踪分析器跟踪
+        - name: 使用 Trace 分析器跟踪
           href: perf-test/trace-trace-tutorial.md
         - name: 通过 Visual Studio Online 进行性能 SDK 和多用户测试
           href: perf-test/perfsdk-tutorial.md
         - name: 本地环境中的性能 SDK 和多用户测试
           href: perf-test/perfsdk-tutorial-lbd.md
-        - name: 使用跟踪分析器诊断问题和分析性能
+        - name: 使用 Trace 分析器诊断问题和分析性能
           href: perf-test/trace-parser.md
         - name: 性能计时器
           href: perf-test/performance-timer.md
@@ -975,7 +997,7 @@
       href: financial/add-dimensions-excel-templates.md
     - name: 创建汇率提供方
       href: financial/create-exchange-rate-providers.md
-    - name: 在 Operations 版本 8.0 中创建汇率提供方
+    - name: 在 Finance and Operations 版本 8.0 中创建汇率提供方
       href: financial/create-exchange-rate-8.md
 - name: 供应链开发
   items:
@@ -1184,6 +1206,8 @@
       items:
         - name: 创建优化顾问规则
           href: sysadmin/create-rules-optimization-advisor.md
+    - name: 报告生产中断
+      href: lifecycle-services/report-production-outage.md
 - name: Lifecycle Services
   items:
     - name: Lifecycle Services 的资源
@@ -1236,6 +1260,8 @@
       href: lifecycle-services/monitoring-diagnostics.md
     - name: 重新启动服务环境
       href: lifecycle-services/restart-environment-services.md
+    - name: 报告生产中断
+      href: lifecycle-services/report-production-outage.md
     - name: 跟踪用户登录
       href: lifecycle-services/user-logins.md
     - name: 资产库

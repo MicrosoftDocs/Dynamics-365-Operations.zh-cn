@@ -3,7 +3,7 @@ title: "嵌入 PowerApps 应用程序"
 description: "此主题描述如何将 PowerApps 嵌入到 Finance and Operations 客户端以细分该产品的功能。"
 author: jasongre
 manager: AnnBe
-ms.date: 06/08/2018
+ms.date: 09/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -105,15 +105,15 @@ If(!IsBlank(Param("EntityId")), Set(FinOpsInput, Param("EntityId")), Set(FinOpsI
 public final class ClassTest_Extension
 {
 
-    public static boolean isPowerAppPresonalizationEnabled(str pageName)
+    public static boolean isPowerAppPersonalizationEnabled(str pageName)
     {
-        var result = next isPowerAppPresonalizationEnabled(pageName);
+        var result = next isPowerAppPersonalizationEnabled(pageName);
         return true;
     }
 
-    public static boolean isPowerAppTabPresonalizationEnabled(str pageName)   
+    public static boolean isPowerAppTabPersonalizationEnabled(str pageName)   
     {
-        var result = next isPowerAppTabPresonalizationEnabled(pageName);
+        var result = next isPowerAppTabPersonalizationEnabled(pageName);
         return true;
     }
     ```

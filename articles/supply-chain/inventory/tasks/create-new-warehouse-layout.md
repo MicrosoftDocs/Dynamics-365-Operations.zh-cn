@@ -1,21 +1,22 @@
----
+--- 
 title: "创建新仓库布局"
 description: "该程序将向您说明如何设置有关仓库库位的信息。"
 author: perlynne
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventParameters, DefaultDashboard, InventLocation, WMSLocationWizard
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
 ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
 ms.openlocfilehash: 253440d81edd6f71b52ae349398e3c6a895bf05c
@@ -49,7 +50,7 @@ ms.lasthandoff: 09/29/2017
 7. 切换到“库位名称”部分的扩展项。
     * 此部分中的选项定义库位名称的默认格式。 在我们的示例中，我们增加了通道编号、货架编号和货位编号。  
 8. 将“包括通道”选项设置为“是”。
-9. 将“包括货架”选项设置为“是”。
+9. 将“包括货架”选项设置为“是”。 
 10. 在货架的“格式”字段中，键入一个值。
     * 例如：-##  
 11. 将“包括货位”选项设置为“是”。
@@ -74,4 +75,5 @@ ms.lasthandoff: 09/29/2017
 14. 单击“完成”。
 15. 关闭该页面。
 16. 刷新该页面。
+
 
