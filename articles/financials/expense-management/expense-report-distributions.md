@@ -1,7 +1,7 @@
 ---
 title: "费用报表上的分配"
 description: "在支出报表输入费用时，您可以在您的组织中配送多个项目、法人或帐户。"
-author: saraschi2
+author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2017
 ms.topic: article
@@ -12,16 +12,14 @@ audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
-ms.search.validFrom:
-- month/year of release that feature was introduced in
-- in format yyyy-mm-dd
+ms.author: shylaw
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0f3f50061fc5b9b4cfc00000492840061fc3b386
+ms.sourcegitcommit: 384c38f3e154495c882434d1c85cef63396cd897
+ms.openlocfilehash: 00d051a8f644a6a0bedb0acc3eaac9a3dd1109e7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/15/2018
 
 ---
 
@@ -36,10 +34,10 @@ ms.lasthandoff: 04/13/2018
 由于南希在法兰克福时从事在两个不同的项目，当她输入支出报表时，她根据需要为每个项目分配相应的费用。 下表显示南希如何分配自己的费用。
 
 
-| <strong>支出类型</strong> | <strong>支出总金额</strong> | <strong>金额已分配到项目 A。</strong> | <strong>金额已分配到项目 B。</strong> |
-|-------------------------------|---------------------------------------|--------------------------------------------------|--------------------------------------------------|
-|          火车票价           |                DKK 578                |                     DKK 405                      |                     DKK 173                      |
-|             酒店             |                725 欧元                |                     557 欧元                      |                     168 欧元                      |
-|             餐费             |                346 欧元                |                     284 欧元                      |                      62 欧元                      |
+| 支出类型 | 支出总金额|金额已分配到项目 A。| 金额已分配到项目 B。 |
+|--------------|---------------------|-------------------------------|---------------------------------|
+|火车票价   |DKK 578              |DKK 405                        |DKK 173                          |
+|酒店         |725 欧元              |557 欧元                        |168 欧元                          |
+|餐费         |346 欧元              |284 欧元                        |62 欧元                           |
 
 

@@ -17,10 +17,10 @@ ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 532834b377cfb8eda4902c387a850314302b22d8
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -39,13 +39,12 @@ ms.lasthandoff: 03/26/2018
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 **福利** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
 
-| 报告                       | 内容                                                                                       |
-|------------------------------|------------------------------------------------------------------------------------------------|
-| 福利登记概览  | 登记人数最多和登记人数最少的计划、按员工组分类的登记以及所选福利计划选项 |
-| 员工福利            | 按所选福利分类的员工登记                                                        |
-                                                                                             
-可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
+| 报告                      | 内容                                                                                       |
+|-----------------------------|------------------------------------------------------------------------------------------------|
+| 福利登记概览 | 登记人数最多和登记人数最少的计划、按员工组分类的登记以及所选福利计划选项 |
+| 员工福利           | 按所选福利分类的员工登记                                                        |
 
+可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
 
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 以下数据用于填充**福利** Power BI 内容中的报表。 此表显示内容所基于的实体。
@@ -72,6 +71,4 @@ ms.lasthandoff: 03/26/2018
 | 员工姓名            | 名字、姓氏和全名                                                                       | 当前员工、已离职的员工、员工趋势 |
 | 员工职务           | 职务和资历日期                                                                                   | 当前员工、已离职的员工、员工趋势 |
 | 员工趋势           | 一段时间的工作人员，人数，公司和职位                                                        | 公司、薪酬、地理位置、员工姓名、报告至、日历偏差、日期、员工职务、人口统计学、雇用、作业、福利 |
-
-
 
