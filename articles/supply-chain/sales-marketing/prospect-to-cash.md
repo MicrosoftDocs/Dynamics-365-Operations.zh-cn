@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
-ms.openlocfilehash: 9d20a0ba92010be17029b1b0fc826eee1cded279
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -33,8 +33,7 @@ ms.lasthandoff: 05/31/2018
 
 从目标客户到现金解决方案提供跨 Dynamics 365 for Finance and Operations 与 Dynamics 365 for Sales 的直接同步。 提供“数据集成”功能的“从目标客户到现金”模板启用 Finance and Operations 与 Sales 之间的帐户、联系人、产品、销售报价、销售订单和销售发票的数据流。 当数据在 Finance and Operations 与 Sales 之间流动时，您可以在 Sales 中执行销售和市场营销活动，并可以使用 Finance and Operations 中的库存管理处理订单履行。 
 
-有关“从目标客户到现金”集成的详细信息，请观看下面的 YouTube 短视频：[![](https://img.youtube.com/vi/AVV9x5x-XCg/0.jpg)](https://www.youtube.com/watch?v=AVV9x5x-XCg)
-
+有关“从目标客户到现金”集成的详细信息，请观看下面的 YouTube 短视频：[现金集成的目标客户](https://www.youtube.com/watch?v=AVV9x5x-XCg)。
 
 在当前版本中，从目标客户到现金解决方案提供以下类型的直接同步：
 

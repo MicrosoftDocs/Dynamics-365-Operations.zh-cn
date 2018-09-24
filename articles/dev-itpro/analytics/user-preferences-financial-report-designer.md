@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 78b41010e4ab56675121ab5479cada37645e9ee3
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -30,25 +30,24 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何设置用户首选项来自定义财务报表设计器中的用户交互和控制初始登录体验。 您还可以控制各个报表、报表库和默认文件位置的显示方式。 
+本文介绍如何设置用户首选项来自定义财务报表设计器中的用户交互和控制初始登录体验。 您还可以控制各个报表、报表库和默认文件位置的显示方式。
 
-<a name="set-user-preferences"></a>设置用户首选项
---------------------
+## <a name="set-user-preferences"></a>设置用户首选项
 
-1.  在报表设计器的**工具**菜单上，单击**选项**。
-2.  在**选项**对话框中，选择您的首选项。
-3.  单击**OK**。
+1. 在报表设计器的**工具**菜单上，单击**选项**。
+2. 在**选项**对话框中，选择您的首选项。
+3. 单击**OK**。
 
 ## <a name="options-dialog-box-options"></a>选择对话框选项
 <table>
 <thead>
-<tr class="header">
+<tr>
 <th>用户选项</th>
 <th>说明</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>启动时</td>
 <td>选择报表设计器启动时可以看到的内容。 选择以下选项之一：
 <ul>
@@ -57,28 +56,22 @@ ms.lasthandoff: 08/08/2018
 <li><strong>显示空环境</strong> – 打开一个空的设计器窗口。</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>在退出报表设计器之前显示确认</td>
 <td>选择是否要在退出应用程序时收到警告消息。 此消息有助于确保不会无意中退出程序。</td>
 </tr>
-<tr class="odd">
-<td>自动在列标题中应用单元格下划线</td>
+<tr>
+<td>在列标题中自动应用单元格下划线</td>
 <td>选择是否在新的列标题的单元格中插入下划线。</td>
 </tr>
-<tr class="even">
+<tr>
 <td>Management Reporter 文件位置</td>
 <td>指定文件的默认位置。 导出构建基块组时，应用程序将使用默认的位置。</td>
 </tr>
 </tbody>
 </table>
 
-
-
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [财务申报](financial-reporting-intro.md)
-
-
-
 

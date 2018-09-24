@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 58653d6e991f1896673a07e3057bd516c74edd76
+ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
+ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/04/2018
 
 ---
 
@@ -49,6 +49,8 @@ ms.lasthandoff: 08/08/2018
 | 707 | 启用设备 | 通过允许经过身份验证的用户提供连接信息和分配设备和登记 ID 来激活当前设备。 | 无 | 无 | 无 | 无 | 无 |
 | 134 | 添加隶属关系 | 向交易记录中添加预先选择的从属项。 在**按钮属性**页面上选择该隶属关系。 | 是 | 是 | 无 | 是 | 无 |
 | 135 | 从列表中添加隶属关系 | 通过从列表中选择，将隶属关系添加到交易记录中。 | 是 | 是 | 是 | 是 | 无 |
+| 137 | 将隶属关系添加到客户 | 在**客户详细信息**页中向客户添加隶属关系。 | 无 | 无 | 无 | 是 | 无 |
+| 138 | 删除客户的隶属关系 | 从**客户详细信息**页中删除隶属关系。 | 无 | 无 | 无 | 是 | 无 |
 | 643 | 添加优惠券代码 | 通过在 POS 中输入优惠券代码来添加优惠券。 | 是 | 是 | 无 | 是 | 无 |
 | 117 | 添加会员卡 | 提示用户输入要添加到当前交易记录的会员卡号。 | 是 | 是 | 无 | 是 | 无 |
 | 136 | 添加序列号 | 此操作允许用户为当前所选的产品指定序列号。 | 是 | 是 | 无 | 是 | 无 |

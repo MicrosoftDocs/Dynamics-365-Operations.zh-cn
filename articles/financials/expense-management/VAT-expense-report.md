@@ -26,6 +26,8 @@ ms.lasthandoff: 03/13/2018
 
 # <a name="vat-recovery-in-expense-management"></a>费用报销管理中的增值税退税
 
+[!include [banner](../includes/banner.md)]
+
 要接收符合条件的增值税 (VAT) 交易记录的退税，公司或组织必须标识、收集、验证并提交准确信息。 此过程包括多个任务，并根据您公司的大小，可以包括若干员工或角色。
 
 要使用费用报销管理增值税退税，必须完成以下先决任务：

@@ -35,7 +35,9 @@ ms.lasthandoff: 08/08/2018
 项目是一组专门用来提供服务、生产产品或实现结果的活动。 项目消耗资源，并生成收入或资产形式的财务结果。
 
 ## <a name="projects-across-industries"></a>跨行业的项目
-项目管理和核算功能可在多个行业中使用，如下图所示。 [![跨行业的项目](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
+项目管理和核算功能可在多个行业中使用，如下图所示。
+
+[![跨行业的项目](./media/projects-accross-industries.jpg)](./media/projects-accross-industries.jpg) 
 
 在呼叫中心，票据可用于描述解决呼叫所需的一系列行动。 咨询公司（如管理或技术咨询组织或广告代理）将其活动称为项目。 在市场营销中，市场活动表示必须完成的一系列工作。 在基于项目的制造中，生产订单与必须完成才能生产某些成品的各种工作相关。 无论对这类项目使用哪种名称，它都涉及资源、计划和成本，而 Microsoft Dynamics 365 for Finance and Operations 中的项目管理和核算功能可帮助规划、执行和分析这些项目。
 

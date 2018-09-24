@@ -28,6 +28,8 @@ ms.lasthandoff: 06/12/2018
 
 # <a name="add-location-roles-and-party-relationship-types"></a>添加位置角色和当事方关系类型 
 
+[!include [banner](../includes/banner.md)]
+
 ## <a name="add-location-roles"></a>添加位置角色
 
 可通过两种方法为地址和联系人信息添加新的位置角色：

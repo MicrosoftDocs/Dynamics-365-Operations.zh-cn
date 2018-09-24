@@ -3,7 +3,7 @@ title: "与 Microsoft Dynamics 365 for Field Service 集成"
 description: "此主题概述与 Microsoft Dynamics 365 for Field Service 集成。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 04/25/2018
+ms.date: 08/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a57e23691a6b4d48c6b8dd6d1f61fc9730365b39
-ms.openlocfilehash: 0c1268d2fddcf7b28ecfc3197f21e9d30a5a5855
+ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
+ms.openlocfilehash: cb21667021a32381fd8038e1c9f0182b05622e3d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/31/2018
+ms.lasthandoff: 08/29/2018
 
 ---
 
@@ -44,7 +44,7 @@ Field Service 与 Finance and Operations 集成的第二阶段是实现以下项
 - [Field Service 中的工作订单到 Finance and Operations 中的销售订单](field-service-work-order.md)
 - [Field Service 中的发票到 Finance and Operations 中的普通发票](field-service-invoice.md)
 
-若要查看有关如何在 Field Service 与 Finance and Operations 之间同步工作订单的示例，请观看下面的 YouTube 短片：[在 Dynamics 365 for Field Service 与 Finance and Operations 之间同步工作订单](https://www.youtube.com/watch?v=hAB4TDVMjxU)。
+若要查看有关如何在 Field Service 与 Finance and Operations 之间同步工作订单的示例，请观看下面的 YouTube 短片：[如何使用 Microsoft Dynamics 365 集成同步工作订单](https://www.youtube.com/watch?v=46ylO7raZAo)。
 
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations 的系统要求
 Field Service 集成支持以下版本：

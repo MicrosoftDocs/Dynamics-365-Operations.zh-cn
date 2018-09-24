@@ -16,10 +16,10 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
-ms.openlocfilehash: d58bab48c65bb891155af95c79738b019e5760bf
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -66,13 +66,11 @@ ms.lasthandoff: 08/08/2018
 ### <a name="set-the-data-format-for-the-job"></a>设置作业的数据格式
 选择一个实体后，必须选择要导出或导入的数据的格式。 使用**数据源设置**磁贴定义格式。 源数据格式是**类型**、**文件格式**、**行分隔符**和**列分隔符**的组合。 还有其他属性，但以上属性则是需要了解的关键属性。 下表列出了有效组合。
 
-| **文件格式**        | **行/列分隔符**                   | **XML 样式**             |
+| 文件格式            | 行/列分隔符                       | XML 样式                 |
 |------------------------|--------------------------------------------|---------------------------|
 | Excel                  | Excel                                      | \-NA-                     |
 | XML                    | \-NA-                                      | XML 元素 XML 属性 |
 | 分隔，固定宽度 | 逗号、分号、制表符、竖线、冒号 | \-NA-                     |
-
-
 
 ### <a name="sequence-the-entities"></a>给实体排序
 实体可以在数据模板或导入和导出作业中排序。 运行的作业包含多个数据实体时，必须确保数据实体的序列正确。 给实体排序的主要目的是为了解决实体中的任何功能依赖项。 如果实体不具有任何功能依赖项，可以计划并行导入或导出。

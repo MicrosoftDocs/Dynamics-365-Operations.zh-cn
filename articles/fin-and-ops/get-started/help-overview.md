@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: e1ffd9cb90b2ffac8f89885aac2f614e2ae3cb71
+ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
+ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -74,7 +74,7 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](.
 Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内容表，使客户能够查看他们所处的主题的上下文。 它还使您能够使用目录上的筛选器控件来查找您正在查找的主题。
 
 ### <a name="follow-a-topic"></a>关注主题
-若要关注主题，单击评论框下的“+关注”按钮。 您需要先登录才能够关注主题。 请参阅[对我们作出评论](#leave-us-a-comment) 了解详细信息。  
+若要关注主题，单击评论框下的“+关注”按钮。 您需要先登录才能够关注主题。 请参阅[对我们提供反馈](#leave-us-feedback)了解详细信息。  
 
 ### <a name="use-an-rss-feed"></a>使用 RSS 源
 若要订阅 Unified Operations 内容的所有更新的 RSS 源，请在支持 RSS 源的浏览器（如 Internet Explorer或 RSS 源管理器）中使用以下链接： 

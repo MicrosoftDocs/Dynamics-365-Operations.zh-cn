@@ -25,6 +25,8 @@ ms.lasthandoff: 08/08/2018
 
 # <a name="new-or-updated-task-guides-december-2017"></a>新的或更新任务指南（2017 年 12 月）
 
+[!include [banner](../includes/banner.md)]
+
 本主题列出了发布到 Microsoft Dynamics 365 for Operations 的 Microsoft（2016 年 12 月 - 所有语言）APQC 标准库的新增或更新任务指南。
 
 

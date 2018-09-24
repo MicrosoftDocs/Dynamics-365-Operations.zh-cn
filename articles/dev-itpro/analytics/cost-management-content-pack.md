@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 88bbc54721f5da94dd811ef155e8d3bcf8c2b53c
-ms.openlocfilehash: b06abae184d07cd3b914caf74bdb16a7803919af
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/09/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -35,7 +35,7 @@ ms.lasthandoff: 05/09/2018
 
 **成本管理** Microsoft Power BI 内容面向库存核算师或负责库存或在制品 (WIP) 的状态或对此类状态感兴趣的个人，或负责分析标准成本差异或对此类差异感兴趣的人员。
 
-> [!Note]
+> [!NOTE]
 > 本主题中介绍的**成本管理** Power BI 内容适用于 Dynamics 365 for Finance and Operations 8.0。
 > 
 > 已废弃了 AppSource 站点中的**成本管理** Power BI 内容包。 有关此项废弃的详细信息，请参阅 [AppSource 中的 Power BI 内容包](../migration-upgrade/deprecated-features.md#power-bi-content-packs-available-on-appsource)。
@@ -171,7 +171,7 @@ ms.lasthandoff: 05/09/2018
 |                                         | 按不利生产差异分类的前 10 项资源  |
 |                                         | 按有利生产差异分类的前 10 项资源    |
 
-### <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
+## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 
 将使用来自 Microsoft Dynamics 365 for Finance and Operations 的数据填充**成本管理** Power BI 内容中的报表页。 这些数据表示为实体商店（这是针对分析进行了优化的 Microsoft SQL Server 数据库）中暂存的聚合度量。 有关详细信息，请参阅 [Power BI 与实体商店集成](power-bi-integration-entity-store.md)。
 
@@ -188,26 +188,25 @@ ms.lasthandoff: 05/09/2018
 
 | 度量                            | 计算 |
 |------------------------------------|-------------|
-| 期初余额                  | 期初余额 = [期末余额]-[净改变] |
-| 期初余额数量             | 期初余额数量 = [期末余额数量]-[净改变数量] |
-| 期末余额                     | 期末余额 = (CALCULATE(SUM([Amount]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE])))) |
-| 期末余额数量                | 期末余额数量 = CALCULATE(SUM([QTY]), FILTER(ALL(FiscalCalendar),FiscalCalendar[MONTHSTARTDATE] \<= MAX(FiscalCalendar[MONTHSTARTDATE]))) |
-| 净改变                         | 净改变 = SUM([AMOUNT]) |
-| 净改变数量                    | 净改变数量 = SUM([QTY]) |
-| 按金额分类的库存周转率 | 按金额分类的库存周转率 = if(OR([Inventory average balance] \<= 0, [Inventory sold or consumed issues] \>= 0), 0, ABS([Inventory sold or consumed issues])/[Inventory average balance]) |
-| 库存平均余额          | 库存平均余额 = (([期末余额] + [期初余额]) / 2) |
-| 现货库存天数             | 现货库存天数 = 365 / CostObjectStatementEntries[Inventory turnover ratio by amount] |
-| 库存准确性                 | 按金额的库存准确性 = IF([Ending balance] \<= 0, IF(OR([Inventory counted amount] \<\> 0, [Ending balance] \< 0), 0, 1), MAX(0, ([Ending balance] - ABS([Inventory counted amount]))/[Ending balance])) |
+| 期初余额                  | 期初余额 = \[期末余额\]-\[净改变\] |
+| 期初余额数量             | 期初余额数量 = \[期末余额数量\]-\[净改变数量\] |
+| 期末余额                     | 期末余额 = (CALCULATE(SUM(\[Amount\]), FILTER(ALL(FiscalCalendar) ,FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\])))) |
+| 期末余额数量                | 期末余额数量 = CALCULATE(SUM(\[QTY\]), FILTER(ALL(FiscalCalendar),FiscalCalendar\[MONTHSTARTDATE\] \<= MAX(FiscalCalendar\[MONTHSTARTDATE\]))) |
+| 净改变                         | 净改变 = SUM(\[AMOUNT\]) |
+| 净改变数量                    | 净改变数量 = SUM(\[QTY\]) |
+| 按金额分类的库存周转率 | 按金额分类的库存周转率 = if(OR(\[Inventory average balance\] \<= 0, \[Inventory sold or consumed issues\] \>= 0), 0, ABS(\[Inventory sold or consumed issues\])/\[Inventory average balance\]) |
+| 库存平均余额          | 库存平均余额 = ((\[期末余额\] + \[期初余额\]) / 2) |
+| 现货库存天数             | 现货库存天数 = 365 / CostObjectStatementEntries\[Inventory turnover ratio by amount\] |
+| 库存准确性                 | 按金额的库存准确性 = IF(\[Ending balance\] \<= 0, IF(OR(\[Inventory counted amount\] \<\> 0, \[Ending balance\] \< 0), 0, 1), MAX(0, (\[Ending balance\] - ABS(\[Inventory counted amount\]))/\[Ending balance\])) |
 
 以下关键维度用作筛选器以切分聚合度量，以便获得粒度更细微，更深入的分析洞察。
 
 
-|                         实体                          |             属性示例              |
+| 实体                                                  | 属性示例                          |
 |---------------------------------------------------------|-------------------------------------------------|
-|                        产品                         | 产品编号、产品名称、单位、物料组 |
-| 类别层次结构（已分配给角色成本管理） |       类别层次结构，类别级别        |
-|                     法人                      |               法人名称                |
-|                    会计日历                     |  会计日历、年、季度、期间、月  |
-|                          站点                           |        ID、名称、地址、省/市/自治区、国家/地区        |
-
+| 产品                                                | 产品编号、产品名称、单位、物料组 |
+| 类别层次结构（已分配给角色成本管理） | 类别层次结构，类别级别              |
+| 法人                                          | 法人名称                              |
+| 会计日历                                        | 会计日历、年、季度、期间、月   |
+| 站点                                                    | ID、名称、地址、省/市/自治区、国家/地区               |
 

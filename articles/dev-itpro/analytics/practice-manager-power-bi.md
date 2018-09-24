@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 44f017fc3460b83b730f2f7c909c6b88480dd918
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -42,7 +42,6 @@ ms.lasthandoff: 12/18/2017
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
 **实践经理** Power BI 内容显示在**管理项目**工作区。
-
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 
@@ -65,7 +64,7 @@ ms.lasthandoff: 12/18/2017
 以下部分说明用于每个实体的聚合度量。
 
 ### <a name="entity-projectaccountingcubeactualhourutilization"></a>实体：ProjectAccountingCube\_ActualHourUtilization
-**数据源：**ProjEmplTrans
+**数据源：** ProjEmplTrans
 
 | 关键聚合度量      | 字段                              | 说明 |
 |--------------------------------|------------------------------------|-------------|
@@ -73,7 +72,7 @@ ms.lasthandoff: 12/18/2017
 | 实际收费无偿工时数   | Sum(ActualBurdenBillableRate)      | 实际负担总计比率。 |
 
 ### <a name="entity-projectaccountingcubeactuals"></a>实体：ProjectAccountingCube\_Actuals
-**数据源：**ProjTransPosting
+**数据源：** ProjTransPosting
 
 | 关键聚合度量 | 字段              | 说明 |
 |---------------------------|--------------------|-------------|
@@ -81,15 +80,14 @@ ms.lasthandoff: 12/18/2017
 | 实际成本               | Sum(ActualCost)    | 已过帐的所有交易记录类型的成本总计。 |
 
 ### <a name="entity-projectaccountingcubecustomer"></a>实体：ProjectAccountingCube\_Customer
-**数据源：**CustTable
+**数据源：** CustTable
 
 | 关键聚合度量 | 字段                                             | 说明 |
 |---------------------------|---------------------------------------------------|-------------|
-| 项目数量        | COUNTA(ProjectAccountingCube\_Projects[PROJECTS]) | 可用项目计数。 |
-
+| 项目数量        | COUNTA(ProjectAccountingCube\_Projects\[PROJECTS\]) | 可用项目计数。 |
 
 ### <a name="entity-projectaccountingcubeforecasts"></a>实体：ProjectAccountingCube\_Forecasts
-**数据源：**ProjTransBudget
+**数据源：** ProjTransBudget
 
 | 关键聚合度量 | 字段                  | 说明 |
 |---------------------------|------------------------|-------------|
@@ -98,29 +96,27 @@ ms.lasthandoff: 12/18/2017
 | 预算毛利       | Sum(BudgetGrossMargin) | 总预测收入总和与总预测成本总和之间的差异。 |
 
 ### <a name="entity-projectaccountingcubeprojectplancostsview"></a>实体：ProjectAccountingCube\_ProjectPlanCostsView
-**数据源：**项目
+**数据源：** 项目
 
 | 关键聚合度量 | 字段                    | 说明 |
 |---------------------------|--------------------------|-------------|
 | 计划成本              | Sum(SumOfTotalCostPrice) | 含计划任务在内估计的所有项目交易记录类型的总成本价。 |
 
 ### <a name="entity-projectaccountingcubeprojects"></a>实体：ProjectAccountingCube\_Projects
-**数据源：**项目
+**数据源：** 项目
 
 | 关键聚合度量    | 字段 | 说明 |
 |------------------------------|-------|-------------|
-| 成本绩效指数       | ProjectAccountingCube\_Projects[挣值] ÷ ProjectAccountingCube\_Projects[已完成任务的总实际成本] | 计算为总挣值除以总实际成本。 |
-| 计划绩效指数   | ProjectAccountingCube\_Projects[挣值] ÷ ProjectAccountingCube\_Projects[已完成任务的总计划成本] | 计算为总挣值除以总计划成本。 |
-| 已完成工作的百分比 | 工作完成百分比 = ProjectAccountingCube\_Projects[已完成任务的总实际成本] ÷ (ProjectAccountingCube\_Projects[已完成任务的总实际成本] + ProjectAccountingCube\_Projects[项目的总计划成本] – ProjectAccountingCube\_Projects[已完成任务的总计划成本]) | 已完成工作的总百分比，基于已完成任务的总实际成本和项目的计划成本。 |
-| 实际收费工时数比率  | ProjectAccountingCube\_Projects[项目实际收费有偿工时总数] ÷ (ProjectAccountingCube\_Projects[项目实际收费有偿工时总数] + ProjectAccountingCube\_Projects[项目实际收费无偿工时总数]) | 总实际计费工时数，基于有偿工时数和无偿工时数。 |
-| 挣值                 | ProjectAccountingCube\_Projects[项目的总计划成本] × ProjectAccountingCube\_Projects[已完成工作的百分比] | 总计划成本乘以已完成工作的百分比。 |
+| 成本绩效指数       | ProjectAccountingCube\_Projects\[挣值\] ÷ ProjectAccountingCube\_Projects\[已完成任务的总实际成本\] | 计算为总挣值除以总实际成本。 |
+| 计划绩效指数   | ProjectAccountingCube\_Projects\[挣值\] ÷ ProjectAccountingCube\_Projects\[已完成任务的总计划成本\] | 计算为总挣值除以总计划成本。 |
+| 已完成工作的百分比 | 工作完成百分比 = ProjectAccountingCube\_Projects\[已完成任务的总实际成本\] ÷ (ProjectAccountingCube\_Projects\[已完成任务的总实际成本\] + ProjectAccountingCube\_Projects\[项目的总计划成本\] – ProjectAccountingCube\_Projects\[已完成任务的总计划成本\]) | 已完成工作的总百分比，基于已完成任务的总实际成本和项目的计划成本。 |
+| 实际收费工时数比率  | ProjectAccountingCube\_Projects\[项目实际收费有偿工时总数\] ÷ (ProjectAccountingCube\_Projects\[项目实际收费有偿工时总数\] + ProjectAccountingCube\_Projects\[项目实际收费无偿工时总数\]) | 总实际计费工时数，基于有偿工时数和无偿工时数。 |
+| 挣值                 | ProjectAccountingCube\_Projects\[项目的总计划成本\] × ProjectAccountingCube\_Projects\[已完成工作的百分比\] | 总计划成本乘以已完成工作的百分比。 |
 
 ### <a name="entity-projectaccountingcubetotalestimatedcosts"></a>实体：ProjectAccountingCube\_TotalEstimatedCosts 
-**数据源：**ProjTable
+**数据源：** ProjTable
 
-
-|    关键聚合度量    |        字段        |                                          说明                                           |
-|---------------------------------|---------------------|------------------------------------------------------------------------------------------------|
+| 关键聚合度量       | 字段               | 说明 |
+|---------------------------------|---------------------|-------------|
 | 已完成活动的计划成本 | Sum(TotalCostPrice) | 含已完成任务在内估计的所有项目交易记录类型的总成本价。 |
-
 

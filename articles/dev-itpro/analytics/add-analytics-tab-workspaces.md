@@ -16,10 +16,10 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d8cd3a6b3cbfa1219f0ebcf9d4d2132197167220
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -54,7 +54,7 @@ ms.lasthandoff: 04/13/2018
 执行以下步骤以将 .pbix 文件添加为 Visual Studio 项目。
 
 1. 在相应的模型中创建新项目。
-2. 在“解决方案资源管理器”中，选择项目，右键单击，然后选择**添加** > **新物料**。
+2. 在“解决方案资源管理器”中，选择项目，右键单击，然后选择**添加** \> **新物料**。
 3. 在**添加新物料**对话框中，在 **Operations 项目**下，选择**资源**模板。
 4. 输入将用于在 X++ 元数据中引用报表的名称，然后单击**添加**。
 
@@ -77,7 +77,7 @@ ms.lasthandoff: 04/13/2018
 
 1. 打开设计器窗体以扩展设计定义。
 2. 在设计定义中，请选择标记为**设计|模式：工作区运营**的顶部元素。
-3. 右键单击，然后选择**新** > **选项卡**以添加命名为 **FormTabControl1** 的新控件。
+3. 右键单击，然后选择**新** \> **选项卡**以添加命名为 **FormTabControl1** 的新控件。
 4. 在窗体设计器中，选择 **FormTabControl1**。
 5. 右键单击，然后选择**新选项卡页**以添加新的选项卡页。
 6. 将选项卡页重命名为有意义的名称，例如**工作区**。
@@ -86,12 +86,12 @@ ms.lasthandoff: 04/13/2018
 9. 将选项卡页重命名为有意义的名称，例如**分析**。
 10. 在窗体设计器，选择**分析（选项卡页）**。
 11. 将**标题**属性设置为**分析**。
-12. 右键单击控件，然后选择**新** > **组**以添加新的窗体组控件。
+12. 右键单击控件，然后选择**新** \> **组**以添加新的窗体组控件。
 13. 将窗体组重命名为有意义的名称，例如 **powerBIReportGroup**。
 14. 在窗体设计器中，选择 **PanoramaBody（选项卡）**，然后将控件拖动到**工作区**选项卡上。
 15. 在设计定义中，请选择标记为**设计|模式：工作区运营**的顶部元素。
 16. 右键单击，然后选择**删除模式**。
-17. 再次右键单击，然后选择**添加模式** > **工作区选项卡式**。
+17. 再次右键单击，然后选择**添加模式** \> **工作区选项卡式**。
 18. 执行内部版本以验证你的更改。
 
 下图显示设计在应用这些更改后的外观。
@@ -116,7 +116,7 @@ ms.lasthandoff: 04/13/2018
     [Form] 
     public class FMClerkWorkspace extends FormRun
     {
-        private boolean initReportControl = true;     
+        private boolean initReportControl = true;
         protected void initAnalyticalReport()
         {
             if (!initReportControl)
@@ -126,11 +126,11 @@ ms.lasthandoff: 04/13/2018
             // Note: secure entry point into the Workspace's Analytics report
             if (Global::hasMenuItemAccess(menuItemDisplayStr(FMClerkWorkspace), MenuItemType::Display))
             {
-                FMPBIWorkspaceController controller = new FMPBIWorkspaceController();
+                // initialize the PBI report control using shared helper
                 PBIReportHelper::initializeReportControl('FMPBIWorkspaces', powerBIReportGroup);
             }
             initReportControl = false;
-    }
+        }
         /// <summary>
         /// Initializes the form.
         /// </summary>
@@ -159,23 +159,22 @@ ms.lasthandoff: 04/13/2018
 #### <a name="syntax"></a>语法
 ```
 public static void initializeReportControl(
-     str                 _resourceName,
-     FormGroupControl    _formGroupControl,
-     str                 _defaultPageName = '',
-     boolean             _showFilterPane = false,
-     boolean             _showNavPane = false,
-     List                _defaultFilters = new List(Types::Class))
+    str                 _resourceName,
+    FormGroupControl    _formGroupControl,
+    str                 _defaultPageName = '',
+    boolean             _showFilterPane = false,
+    boolean             _showNavPane = false,
+    List                _defaultFilters = new List(Types::Class))
 ```
 
 #### <a name="parameters"></a>参数设置
 
-|       姓名       |                                                              说明                                                               |
-|------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-|   resourceName   |                                                    .pbix 资源的名称。                                                     |
-| formGroupControl |                                    要应用 Power BI 报表控件的窗体组控件。                                     |
-| defaultPageName  |                                                         默认页名称。                                                         |
-|  showFilterPane  |   指示是否应显示 (<strong>true</strong>) 或隐藏 (<strong>false</strong>) 筛选器窗格的布尔值。   |
-|   showNavPane    | 指示是否应显示 (<strong>true</strong>) 或隐藏 (<strong>false</strong>) 导航窗格的布尔值。 |
-|  defaultFilters  |                                              Power BI 报表的默认筛选器。                                              |
-
+| 姓名             | 说明                                                                                                  |
+|------------------|--------------------------------------------------------------------------------------------------------------|
+| resourceName     | .pbix 资源的名称。                                                                              |
+| formGroupControl | 要应用 Power BI 报表控件的窗体组控件。                                              |
+| defaultPageName  | 默认页名称。                                                                                       |
+| showFilterPane   | 指示是否应显示 (**true**) 或隐藏 (**false**) 筛选器窗格的布尔值。     |
+| showNavPane      | 指示是否应显示 (**true**) 或隐藏 (**false**) 导航窗格的布尔值。 |
+| defaultFilters   | Power BI 报表的默认筛选器。                                                                 |
 

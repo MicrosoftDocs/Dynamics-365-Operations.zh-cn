@@ -19,10 +19,10 @@ ms.author: fdahl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: 07b6f433a8355d7f9ed6dce8e26f78d38a86a713
+ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
+ms.openlocfilehash: 069c4dc21959ab603ba6ca3da0ac68ef20325265
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2017
+ms.lasthandoff: 08/13/2018
 
 ---
 
@@ -36,32 +36,27 @@ ms.lasthandoff: 12/18/2017
 
 **采购支出分析** Power BI 内容的设计是为了帮助采购经理和负责预算的经理密切注意采购支出。 经理可以通过以下方式分析采购支出：
 
--   本年迄今的采购（按供应商组和单个供应商、采购类别和单个产品，以及供应商位置）
--   各年的采购变化（按供应商组和采购类别）
+- 本年迄今的采购（按供应商组和单个供应商、采购类别和单个产品，以及供应商位置）
+- 各年的采购变化（按供应商组和采购类别）
 
 该内容使用采购交易数据，并且同时提供公司范围的采购数据聚合视图和按供应商与产品分类的采购支出分解。 报表突出显示一段时间的采购支出变化。 因此，这些报表可用于提醒经理有关单个供应商和产品的正负支出趋势的信息。 此外，图表显示不同采购类别和供应商组的采购支出。 因此，类别和区域经理可以使用这些图表来帮助识别支出行为的变化。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-**采购花费分析** Power BI 内容显示在**采购和花费分析**页面（**采购** > **查询和报表** > **采购绩效分析** > **采购和花费分析**）。 
+**采购花费分析** Power BI 内容显示**在采购和花费分析**页面（**采购** \> **查询和报表** \> **采购绩效分析** \> **采购和花费分析**）。
 
 ## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
 **采购支出分析** Power BI 内容包含一个由一组指标构成的报表。 这些指标显示为图表、磁贴和表。 下表提供对可视化项的概览。
 
 <table>
-<colgroup>
-<col width="33%" />
-<col width="33%" />
-<col width="33%" />
-</colgroup>
 <thead>
-<tr class="header">
+<tr>
 <th>报表页</th>
 <th>图表</th>
 <th>磁贴</th>
 </tr>
 </thead>
 <tbody>
-<tr class="odd">
+<tr>
 <td>按供应商的采购</td>
 <td><ul>
 <li>按采购排名前 10 位的供应商（堆积条形图）</li>
@@ -76,7 +71,7 @@ ms.lasthandoff: 12/18/2017
 <li>有效供应商总数</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>按产品的采购</td>
 <td><ul>
 <li>按采购类别/产品名称的采购（柱形图）</li>
@@ -89,7 +84,7 @@ ms.lasthandoff: 12/18/2017
 <li>占采购中的 80% 的产品的数量</li>
 </ul></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>按期间的采购*</td>
 <td><ul>
 <li>按月/天的采购（柱形图）</li>
@@ -102,7 +97,7 @@ ms.lasthandoff: 12/18/2017
 <li>YOY 采购增长百分比</li>
 </ul></td>
 </tr>
-<tr class="even">
+<tr>
 <td>按供应商位置的采购</td>
 <td><ul>
 <li>按城市的采购</li>
@@ -111,7 +106,7 @@ ms.lasthandoff: 12/18/2017
 </ul></td>
 <td></td>
 </tr>
-<tr class="odd">
+<tr>
 <td>按时间的采购支出分析</td>
 <td><ul>
 <li>按月/日的本年采购（折线图）</li>
@@ -119,7 +114,7 @@ ms.lasthandoff: 12/18/2017
 </ul></td>
 <td></td>
 </tr>
-<tr class="even">
+<tr>
 <td>按供应商的采购支出分析</td>
 <td><ul>
 <li>排名前 10 位的供应商所占采购百分比（漏斗图）</li>
