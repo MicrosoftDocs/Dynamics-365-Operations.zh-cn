@@ -13,14 +13,14 @@ audience: Application User
 ms.reviewer: 
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: 
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: e1fc241ef281df522f89afa66e4faca3c91819cf
+ms.sourcegitcommit: 6db29d422e7dfd7b2481b4fcbc404278e37511d1
+ms.openlocfilehash: 26a8f51eda1f4249862a23fa0103b7a144d974a1
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/17/2018
+ms.lasthandoff: 10/08/2018
 
 ---
 # <a name="check-the-availability-of-stock"></a><span data-ttu-id="3c7d5-103">检查库存可用性</span><span class="sxs-lookup"><span data-stu-id="3c7d5-103">Check the availability of stock</span></span>
