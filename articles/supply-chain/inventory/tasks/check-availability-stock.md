@@ -13,7 +13,7 @@ audience: Application User
 ms.reviewer: 
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: 
+ms.author: ShylaThompson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
