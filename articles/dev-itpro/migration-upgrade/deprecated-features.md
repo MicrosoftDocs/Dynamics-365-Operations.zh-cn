@@ -3,7 +3,7 @@ title: "已删除或弃用的功能"
 description: "本主题介绍已经删除或计划删除的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 08/07/2018
+ms.date: 10/01/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 8a3c4ed8f3ed79ab0cb3e59076734877d270bd68
-ms.openlocfilehash: cd620dcdeb1cd5fd3a89be9ae31c4d35e29a03d0
+ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
+ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -41,6 +41,52 @@ ms.lasthandoff: 08/08/2018
 
 > [!Note]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations 中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 各版本中已更改或已删除的对象。
+
+## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>具有平台更新 20 的 Dynamics 365 for Finance and Operations 8.1
+
+### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>子分类日记帐科目分录的批处理转移规则
+总帐参数中已弃用了同步转移模式。  此模式刚被异步和计划批处理，后者表示为转移选项。 
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 因为对系统存在影响，我们将移除同步选项。 |
+| **被另一个功能取代？**   | 异步和计划批处理选项取代了同步。   |
+| **影响的产品区域**         | 总帐、应付帐款、应收帐款、采购、支出    |
+| **部署选项**              | 所有  |
+| **状态**                         | 已弃用 - 移除功能的目标时间范围为 10.0 版本。|
+
+### <a name="electronic-reporting-for-russia"></a>俄罗斯的电子报告格式
+用于配置申报的 .txt 和 .xml 文件格式的功能。 
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 已被电子申报取代。 |
+| **被另一个功能取代？**   | 是。 |
+| **影响的产品区域**         | 总帐 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已从带平台更新 20 的 Dynamics 365 for Finance and Operations 8.1 开始移除。 |
+
+### <a name="financial-reports-generator-for-russia"></a>俄罗斯的财务报表生成器
+用于设置会计和纳税报表的数据收集，以及用于将数据导出到 XLS 和 DOC 报表模板的工具。 功能部件：已移除了将数据导出到 XLS 和 DOC 报表模板、查询和固定必备项这一功能。 
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 移除的部件已被电子申报取代。 |
+| **被另一个功能取代？**   | 是。 应使用财务报表设置用户界面按总帐科目和税务登记簿设置数据收集规则。 应在电子申报中配置将数据导出到各种文件类型、固定必备项和类似查询的数据收集规则。 |
+| **影响的产品区域**         | 总帐。 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已从带平台更新 20 的 Dynamics 365 for Finance and Operations 8.1 开始移除。 |
+
+### <a name="integration-with-external-providers-for-sending-electronic-reporting-through-communication-channels-for-russia"></a>俄罗斯的与外部提供商集成以通过通信通道发送电子报告
+用于将生成的电子版申报文件导出到文件夹以进一步发送给正式的电子申报提供商和导入回状态的功能。
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 已被电子消息可配置功能取代。 |
+| **被另一个功能取代？**   | 是。  |
+| **影响的产品区域**         | 总帐、税务 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已从带平台更新 20 的 Dynamics 365 for Finance and Operations 8.1 开始移除。 |
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>具有平台更新 15 的 Dynamics 365 for Finance and Operations 8.0
 此版本中未移除或弃用任何功能。 平台更新 15 是累积功能，其中包含平台更新 13、14 和 15 中的新增功能或更改功能。

@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 807e6a41d603a5327d713d1ab742cc0d961a7784
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d346c3277e8f19020d6aa96cf6961c4c52ac28fb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>定义福利资格规则和策略

@@ -1,28 +1,29 @@
 --- 
-title: "过帐其他模块的凭证（中国）"
+title: "从其他模块（如销售发票）过帐凭证"
 description: "可以从总帐、库存变动日记帐、销售发票和采购发票过帐中国式凭证。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, InventProductDimensionLookup, DimensionLookup, InventTrans, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustTrans
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 99b886e15a3d7f7944b8bbe211679a6c254a30f5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 245c0bfaab80084e427ce3d803004be78e7d4238
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="post-vouchers-from-other-modules-china"></a>过帐其他模块的凭证（中国）
+# <a name="post-vouchers-from-other-modules-like-sales-invoices"></a>从其他模块（如销售发票）过帐凭证
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

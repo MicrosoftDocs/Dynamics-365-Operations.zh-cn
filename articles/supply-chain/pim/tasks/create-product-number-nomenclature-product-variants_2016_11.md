@@ -1,28 +1,29 @@
 --- 
-title: "为预配置的产品变型创建产品编号"
+title: "为配置的产品变型创建产品编号命名法"
 description: "此步骤显示如何为配置的产品变型设置产品编号命名法，以及如何将其附加到可配置的基础产品。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/25/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductListPage, EcoResProductDetails, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e70a5f28635e75a69811085637f7e7431c0f1d40
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 800afdf075f0675185514158f3b712a0fe7675e3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-a-product-number-for-configured-product-variants"></a>为预配置的产品变型创建产品编号
+# <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>为配置的产品变型创建产品编号命名法
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

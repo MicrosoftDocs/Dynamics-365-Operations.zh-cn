@@ -1,28 +1,29 @@
 --- 
-title: "将数据模型扩展为在 ER 输出中使用票据管理文件"
+title: "ER 在格式输出中使用票据管理文件（第 2 部分 - 扩展数据模型）"
 description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。"
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 8363dd2af728577175a620d7b645d90cea84803a
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: cb4c58dc86a159a70634c05408a8db471ebcae4c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="extend-data-models-to-use-document-management-files-in-er-output"></a>将数据模型扩展为在 ER 输出中使用票据管理文件
+# <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>ER 在格式输出中使用票据管理文件（第 2 部分：扩展数据模型）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -57,7 +58,7 @@ ms.lasthandoff: 08/08/2018
 17. 在“物料类型”字段中，选择“字符串”。
 18. 单击“添加”。
 
-## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-data-sources"></a>将新数据模型元素映射到 Dynamics 365 for Finance and Operations 数据源
+## <a name="map-new-data-model-elements-to-dynamics-365-for-finance-and-operations-enterprise-edition-data-sources"></a>将新数据模型元素映射到 Dynamics 365 for Finance and Operations Enterprise Edition 数据源
 1. 单击“映射模型到数据源”。
 2. 使用快速筛选来筛选值为“InvoiceCustomer”的“定义”字段。
     * InvoiceCustomer  

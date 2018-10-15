@@ -1,25 +1,26 @@
 --- 
 title: "设计 ER 配置以生成 Word 格式的报表"
-description: "以下步骤说明属于系统管理员或电子申报开发人员的用户如何配置电子申报 (ER) 格式，以便生成 Microsoft Word 文件格式的报表。"
+description: "以下步骤说明属于系统管理员或电子申报开发人员的用户如何配置电子申报格式，以便生成 Microsoft Word 文件格式的报表。"
 author: NickSelin
 manager: AnnBe
-ms.date: 12/21/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 615ab4a4f932478b8b847112d4fed8310187f03b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>设计 ER 配置以生成 Word 格式的报表
@@ -30,9 +31,9 @@ ms.lasthandoff: 08/08/2018
 
 为了完成这些步骤，您首先必须完成任务指南“创建用于以 OPENXML 格式生成报表的 ER 配置”中的步骤。 您还必须提前为同一个报表下载以下模板并保存到本地：
 
-[付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)
+- [付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)
+- [绑定付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)
 
-[绑定付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)
 
 此过程针对 Microsoft Dynamics 365 for Operations 版本 1611 中增加的一项功能。
 
@@ -49,7 +50,7 @@ ms.lasthandoff: 08/08/2018
 ## <a name="replace-the-excel-template-with-the-word-template"></a>将 Excel 模板替换为 Word 模板
     * 目前使用 Excel 文档作为模板生成 OPENXML 格式的输出。 我们将导入 Word 格式的报表模板。  
 1. 单击“附加”。
-    * 将现有 Excel 模板替换为前面下载的 Word 模板“付款报表模板”。 请注意，此模板中仅包含要作为 ER 输出生成的文档的布局。  
+    * 将现有 Excel 模板替换为前面下载的 Word 模板 SampleVendPaymDocReport.docx。 请注意，此模板中仅包含要作为 ER 输出生成的文档的布局。  
 2. 单击“删除”。
 3. 单击“是”。
 4. 单击“新建”。

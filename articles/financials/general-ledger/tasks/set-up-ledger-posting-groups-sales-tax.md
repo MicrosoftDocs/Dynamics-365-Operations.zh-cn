@@ -1,28 +1,29 @@
 --- 
-title: "设置增值税分类帐记帐组"
+title: "设置销售税分类帐过帐组"
 description: "将计算销售税，并过帐到分类帐过帐组中指定的主科目。"
-author: ShylaThompson
+author: twheeloc
 manager: AnnBe
-ms.date: 10/26/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: TaxAccountGroup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ef3cad6538d9efbd1c1881f4b7d771382d9b1ba8
-ms.openlocfilehash: e50fc2b6b8f4cd91e9a5593297fff2e9a6ef5525
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/26/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-ledger-posting-groups-for-sales-tax"></a>设置增值税分类帐记帐组
+# <a name="set-up-ledger-posting-groups-for-sales-tax"></a>设置销售税分类帐过帐组
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

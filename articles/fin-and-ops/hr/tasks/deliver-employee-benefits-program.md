@@ -3,26 +3,27 @@ title: "交付员工福利计划"
 description: "该任务将向您显示，如何创建在创建新福利时需要使用的福利元素。"
 author: kherr75
 manager: AnnBe
-ms.date: 12/01/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: HcmBenefitElementSetup, HcmBenefit, HcmBenefitNewBenefit, HcmBenefitPlanLookup
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Operations, Talent
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c94f731cbdd62d51a21a42e8fcc86c5711c0e965
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 5bf886086fe7ebe20e329c3b69697c390e1db998
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="deliver-an-employee-benefits-program"></a>交付员工福利计划
+# <a name="deliver-employee-benefits-program"></a>交付员工福利计划
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,28 +1,29 @@
 --- 
-title: "创建电子申报 (ER) 格式"
+title: "ER 创建格式配置（2016 年 11 月）"
 description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。"
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 8c11f64fd899b8be4e6c3179913787eb2c32c6c6
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 803ed4a1018d344f1b40fa1f2338fc066e784c3c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-electronic-reporting-er-format-configurations"></a>创建电子申报 (ER) 格式
+# <a name="er-create-a-format-configuration-november-2016"></a>ER 创建格式配置（2016 年 11 月）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

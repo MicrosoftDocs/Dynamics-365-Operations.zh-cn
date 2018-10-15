@@ -1,29 +1,30 @@
 --- 
-title: "为完成采购订单中的工作设置移动设备菜单项"
+title: "设置用于完成采购订单类型工作的移动设备菜单项"
 description: "此过程演示如何设置“移动设备”菜单项。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/25/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSRFMenuItem, WHSRFAutoConfirm, WHSRFMenu
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b80c258d6a779a8fc5bb6c846abd3af7e69d5e06
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 326a0039d2769ee5f459a87c302c93604d2379aa
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-a-mobile-device-menu-item-for-completing-work-in-a-purchase-order"></a>为完成采购订单中的工作设置移动设备菜单项
+# <a name="set-up-a-mobile-device-menu-item-for-completing-work-of-type-purchase-order"></a>设置用于完成采购订单类型工作的移动设备菜单项
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

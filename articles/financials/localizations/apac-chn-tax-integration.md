@@ -19,10 +19,10 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 7f5a0049c1d32ab29ac8602bf32e9973eb923ce2
+ms.sourcegitcommit: f526a4bf7cb7c0a48f3d7b1c4f53705f0cdb41b5
+ms.openlocfilehash: 1a4cfe2923c347d404057ce1651f41770fb49546
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/26/2018
 
 ---
 
@@ -39,7 +39,7 @@ ms.lasthandoff: 08/08/2018
 
 1.  在**增值税发票描述**页中新建一个增值税发票描述。 例如，可能需要设置以下参数：
     -   将**增值税发票描述 ID** 设置为 InvoiceDescID01
-    -   将**描述**设置为“详见销售清单”
+    -   **说明**设置为“设备”
     -   将**单位**设置为“箱子”
 
 2.  在**税务集成模板**页中创建一个新税务集成模板。 可以设置导入或导出发票时使用的税务集成模板。 在税务集成模板中，可以指定以下信息：

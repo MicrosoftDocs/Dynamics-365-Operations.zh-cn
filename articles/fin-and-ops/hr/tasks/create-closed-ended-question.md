@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: fdfac92b80774adb8376d5c2e945d063173188c8
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 6b08988a3872cec39b7592732d23862e959aae79
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/14/2018
 
 ---
 # <a name="create-a-closed-ended-question"></a>创建封闭式问题

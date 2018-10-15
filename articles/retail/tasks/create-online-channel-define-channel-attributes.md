@@ -1,31 +1,32 @@
 --- 
-title: "创建在线渠道并定义渠道属性"
+title: "创建在线渠道和定义渠道属性"
 description: "此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。"
 author: jashanno
 manager: AnnBe
-ms.date: 03/02/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailSPOnlineStoreDetailPage, SysLookupMultiSelectGrid, DimensionLookup, OMHierarchyManager, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 6bbefc2d6810617090dbf9b27d5248d195d5929b
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-online-channels-and-define-channel-attributes"></a>创建在线渠道并定义渠道属性
+# <a name="create-online-channel-and-define-channel-attributes"></a>创建在线渠道和定义渠道属性
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。 在创建新的在线渠道之前，您必须创建组织层次结构。 此程序使用 USRT 演示数据公司。
 

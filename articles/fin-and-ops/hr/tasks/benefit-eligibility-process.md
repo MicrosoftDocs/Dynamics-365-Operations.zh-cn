@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: fe773bd2375b2dea8e13a57918ad584f83f61073
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 859bf2ef369173ce4b6bc380820ea157ae86e13a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/14/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 # <a name="benefit-eligibility-process"></a>福利资格处理

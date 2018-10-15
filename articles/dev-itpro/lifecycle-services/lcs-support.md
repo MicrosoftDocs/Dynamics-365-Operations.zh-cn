@@ -18,10 +18,10 @@ ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
-ms.openlocfilehash: 7061ee2e8b22d29381131815898902a482b7b730
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 09/20/2018
 
 ---
 
@@ -31,8 +31,7 @@ ms.lasthandoff: 08/29/2018
 
 本文介绍如何获取有关 Finance and Operations Enterprise Edition 或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。 
 
-<a name="contact-support"></a>联系支持人员
----------------
+## <a name="contact-support"></a>联系支持人员
 
 如果有关于 Finance and Operations 的疑问，或访问 Microsoft Dynamics Lifecycle Services (LCS) 时需要帮助，可使用本文中的信息联系 Microsoft。
 
@@ -89,8 +88,10 @@ ms.lasthandoff: 08/29/2018
 </tbody>
 </table>
 
-有关 Microsoft Dynamics 支持产品的详细信息，请参阅 [Microsoft Dynamics Online 支持](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx)。
 
-
+## <a name="additional-resources"></a>其他资源
+- [获取 Dynamics 365 for Retail 的帮助](../../retail/retail-support.md)
+- [获取 Dynamics 365 for Talent 的帮助](../../talent/talent-support.md)
+- 有关 Microsoft Dynamics 支持产品的详细信息，请参阅 [Microsoft Dynamics Online 支持](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx)。
 
 

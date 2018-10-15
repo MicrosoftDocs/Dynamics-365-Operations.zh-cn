@@ -1,29 +1,29 @@
 --- 
-title: "设置折旧帐簿"
+title: "设置折旧帐簿（2016 年 5 月）"
 description: "此任务指南将创建新的折旧帐簿并将其与固定资产组关联。"
 author: saraschi2
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d06d5f92e91e33dc752bf45ab890c37dfea3888d
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 1fd53ea1dff9b116d19c525c5d6967ece0993b6f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-
-# <a name="set-up-depreciation-books"></a>设置折旧帐簿 
+# <a name="set-up-depreciation-books-may-2016"></a>设置折旧帐簿（2016 年 5 月）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

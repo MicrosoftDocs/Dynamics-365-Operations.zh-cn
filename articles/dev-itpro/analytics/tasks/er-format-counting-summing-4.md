@@ -1,28 +1,29 @@
 --- 
-title: "运行电子申报 (ER) 格式以执行盘点和合计"
+title: "ER 配置格式以执行盘点和合计（第 4 部分 - 运行格式）"
 description: "以下步骤介绍指定为系统管理或电子申报开发人员角色的用户如何配置电子申报 (ER) 格式，以便基于已生成的文本输出的数据执行盘点和合计。"
 author: NickSelin
 manager: AnnBe
-ms.date: 10/28/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, IntrastatParameters, Intrastat, InventItemIdLookupSimple, IntrastatCommodityLookup, ERFormatMappingRunLogTable, DocuView
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: c6d309416a3a0c4da07a76c90246f492585deef5
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 17989b7fa2baf14472ec19a041cb5ce7e5c0380d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="run-electronic-reporting-er-formats-to-do-counting-and-summing"></a>运行电子申报 (ER) 格式以执行盘点和合计
+# <a name="er-configure-format-to-do-counting-and-summing-part-4-run-format"></a>ER 配置格式以执行盘点和合计（第 4 部分：运行格式）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

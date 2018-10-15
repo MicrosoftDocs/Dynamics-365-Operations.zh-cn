@@ -1,28 +1,29 @@
 --- 
-title: "针对电子申报 (ER) 输出配置目标"
+title: "ER 配置目标"
 description: "此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。"
 author: NickSelin
 manager: AnnBe
-ms.date: 10/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7c84464f426d6bedff092fd918fcabbc35600f3c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="configure-destinations-for-electronic-reporting-er-output"></a>针对电子申报 (ER) 输出配置目标
+# <a name="er-configure-destinations"></a>ER 配置目标
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

@@ -1,28 +1,29 @@
 --- 
-title: "审核应付账款中的发票和关键数据"
+title: "审核 AP 系统中的发票和关键数据"
 description: "在您从供应商处收到针对采购订单上的货物或服务的发票时，该业务流程可能要求首先接收货物或服务，然后才能对发票进行审核以便付款。"
 author: saraschi2
 manager: AnnBe
-ms.date: 02/16/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.reviewer: twheeloc
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 5cd9448c95b7ec0c4a82aca3d21d961259dfb109
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 70a7a1f7d7a8221a72addfbee1d21f813df4eb46
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="audit-invoices-and-key-data-in-accounts-payable"></a>审核应付账款中的发票和关键数据
+# <a name="audit-invoices-and-key-data-in-ap-system"></a>审核 AP 系统中的发票和关键数据
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

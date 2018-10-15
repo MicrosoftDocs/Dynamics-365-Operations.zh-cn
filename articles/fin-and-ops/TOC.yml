@@ -38,12 +38,18 @@
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: 软件生命周期策略和本地版本
               href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
+            - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
+              href: get-started/mainstream-support-ax-2009-2012.md
             - name: 已删除或弃用的功能
               href: ../dev-itpro/migration-upgrade/deprecated-features.md?toc=/fin-and-ops/toc.json
             - name: 延迟发布的 AX 2012 功能
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 未在本地部署中实现的功能
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations 版本 8.1（2018 年 10 月）
+              href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 20（2018 年 9 月）
+              href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations 版本 8.0（2018 年 4 月）
               href: get-started/whats-new-changed-8-0-April-2018.md
             - name: Platform update 15（2018 年 3 月）
@@ -452,10 +458,14 @@
               items:
                 - name: 设置应付帐款发票匹配验证
                   href: ../financials/accounts-payable/tasks/set-up-accounts-payable-invoice-matching-validation.md
-            - name: 会计分配和供应商发票的子分类日记帐分录
+            - name: 供应商发票的会计分配和子分类日记帐条目
               href: ../financials/accounts-payable/accounting-distributions-subledger-journal-entries-vendor-invoices.md
             - name: 发票匹配和内部公司采购订单
               href: ../financials/accounts-payable/invoice-matching-intercompany-purchase-orders.md
+            - name: 设置供应商发票策略
+              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
+            - name: 记录供应商发票和匹配接收的数量
+              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: 付款确认概览
               href: ../financials/accounts-payable/positive-pay-overview.md
             - name: 设置和生成付款确认文件
@@ -538,7 +548,7 @@
               href: ../financials/accounts-receivable/tasks/review-collections-information.md
             - name: 设置和处理重复发票
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
-            - name: 会计分配和普通发票的子分类日记帐分录
+            - name: 会计分配和普通发票的子分类日记帐条目
               href: ../financials/accounts-receivable/accounting-distributions-subledger-journal-entries-free-text-invoices.md
             - name: 客户过帐模板
               href: ../financials/accounts-receivable/customer-posting-profiles.md
@@ -566,10 +576,6 @@
               href: ../financials/accounts-receivable/waive-reinstate-reverse-interest-fees.md
             - name: 处理利息
               href: ../financials/accounts-receivable/tasks/process-interest.md
-            - name: 设置供应商发票策略
-              href: ../financials/accounts-receivable/tasks/set-up-vendor-invoice-policies.md
-            - name: 记录供应商发票和匹配接收的数量
-              href: ../financials/accounts-receivable/tasks/record-vendor-invoice-match-against-received-quantity.md
             - name: 创建客户发票
               href: ../financials/accounts-receivable/configure-customer-invoices.md
             - name: 存放客户付款
@@ -596,6 +602,8 @@
               href: ../financials/accounts-receivable/tasks/create-write-off-journal-customer.md
             - name: 设置并生成应收帐款的帐龄信息
               href: ../financials/accounts-receivable/tasks/set-up-accounts-receivable-aging-information.md
+            - name: 使用共享的编号规则复制客户
+              href: ../financials/accounts-receivable/copy-customer.md
             - name: 客户工作流
               href: ../financials/accounts-receivable/customer-workflow.md
             - name: 付款和结算
@@ -791,7 +799,7 @@
               href: ../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md?toc=/fin-and-ops/toc.json
             - name: 使用针对 Microsoft Power BI 报告的内容包
               href: ../dev-itpro/analytics/cost-accounting-analysis-content-pack.md?toc=/fin-and-ops/toc.json
-            - name: 使用针对 Finance and Operations 移动应用程序的成本控制工作区
+            - name: 使用针对 Finance and Operations Mobile 应用程序的成本控制工作区
               href: ../financials/cost-accounting/cost-controlling-mobile-workspace.md
         - name: 费用管理
           href: ../financials/expense-management/expense-management.md
@@ -1543,8 +1551,6 @@
               href: ../financials/localizations/emea-fiscal-service-integration.md
             - name: 爱沙尼亚和立陶宛的固定资产处置
               href: ../financials/localizations/emea-credit-note-reverse-fixed-asset-sale.md
-            - name: 外币重估
-              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: 为内部库存转移生成转移文档
               href: ../financials/localizations/tasks/transfer-document-internal-inventory-transfer.md
             - name: 生成欧盟销售清单报表
@@ -2104,6 +2110,8 @@
               href: ../financials/localizations/emea-pol-fixed-assets-depreciation.md
             - name: 固定资产处置功能扩展
               href: ../financials/localizations/emea-pol-fixed-asset-disposal-functionality-extension.md
+            - name: 外币重估
+              href: ../financials/localizations/emea-foreign-currency-revaluation.md
             - name: 可回收包装
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: 销售税报表
@@ -2114,6 +2122,42 @@
               href: ../financials/localizations/emea-pol-interest-calculation.md
             - name: 交易额余额对帐单
               href: ../financials/localizations/emea-pol-turnover-balances-statement.md
+        - name: 俄罗斯
+          href: ../financials/localizations/russia.md
+          items:
+            - name: 预付款持有人
+              href: ../financials/localizations/rus-advance-holders.md
+              items:
+                - name: 创建预付款持有人
+                  href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
+                - name: 预付款持有人的日常运营
+                  href: ../financials/localizations/rus-advance-holders-daily-operations.md
+            - name: 固定资产
+              items:
+                - name: 购置固定资产并将其投入运营
+                  href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: 创建和过帐固定资产购置预算日记帐
+                  href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
+                - name: 固定资产盘点
+                  href: ../financials/localizations/rus-fixed-assets-counting.md
+                - name: 固定资产货币重估
+                  href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: 部分固定资产拆卸（清算）
+                  href: ../financials/localizations/rus-fixed-assets-disassembly.md
+            - name: 设置和处理付款单
+              href: ../financials/localizations/rus-payment-order-settings-processing.md
+            - name: 设置币种交易的汇率
+              href: ../financials/localizations/rus-exchange-difference.md
+            - name: 预览分录
+              href: ../financials/localizations/rus-ledger-transactions-preview.md
+            - name: 设置行政人员
+              href: ../financials/localizations/rus-officials.md
+            - name: 设置银行帐户
+              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+            - name: 税务代理的增值税 (VAT)
+              href: ../financials/localizations/rus-tax-agent.md
+            - name: 设置结算的维度控制
+              href: ../financials/localizations/rus-transactions-settlement-date.md
         - name: 沙特阿拉伯
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2133,6 +2177,8 @@
               href: ../financials/localizations/emea-esp-cash-discount-applied-invoice.md
             - name: 汇票选项
               href: ../financials/localizations/emea-esp-bill-of-exchange-options.md
+            - name: 计算到期日并报告平均付款期间
+              href: ../financials/localizations/emea-esp-invoice-due-dates.md
             - name: 特殊销售税
               href: ../financials/localizations/emea-esp-conditional-sales-tax.md
             - name: 贷记开票
@@ -2857,7 +2903,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: 手动修改需求预测
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Dynamics 365 for Unified Operations 移动应用
+    - name: Dynamics 365 for Unified Operations Mobile 应用
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: 可用移动工作区

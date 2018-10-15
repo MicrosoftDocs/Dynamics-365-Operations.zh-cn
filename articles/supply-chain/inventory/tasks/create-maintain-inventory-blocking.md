@@ -1,29 +1,30 @@
----
+--- 
 title: "创建和维护库存锁定"
 description: "此过程显示如何通过使用库存锁定防止实际现有库存由其他出货原始凭证预留。"
 author: perlynne
 manager: AnnBe
-ms.date: 12/02/2015
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: InventBlocking, InventItemIdLookupSimple, InventLocationIdLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7272349cf16b9459823a752b8d3df915f42606ef
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 09789dc0b89f8bd36cca9b3e5be366bf17246243
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-and-maintain-inventory-blocking"></a>创建和维护库存锁定
+# <a name="create-and-maintain-an-inventory-blocking"></a>创建和维护库存锁定
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,7 @@ ms.lasthandoff: 09/29/2017
 1. 转到“库存管理”>“定期任务”>“库存锁定”。
 2. 单击“新建”。
 3. 在“物料编号”字段中，单击下拉按钮以打开查找。
-4. 在列表中，选择您想选的物料。
+4. 在列表中，选择您想选的物料。 
     * 选择物料编号以及您想要锁定的实际现有库存。 如果您使用 USMF，您可以选择物料 M9201。  
 5. 在“数量”字段中，输入一个数字。
     * 如果您使用物料 M9201，需要选择少于 200。  
@@ -55,4 +56,5 @@ ms.lasthandoff: 09/29/2017
 1. 单击“删除”。
 2. 单击“是”。
 3. 关闭该页面。
+
 

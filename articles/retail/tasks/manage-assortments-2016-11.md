@@ -1,31 +1,32 @@
 --- 
-title: "管理分类"
+title: "管理分类（2016 年 11 月）"
 description: "此过程演示如何创建和发布新产品分类，并使用演示数据公司 USRT。"
 author: jashanno
 manager: AnnBe
-ms.date: 10/31/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: DefaultDashboard, RetailCategoryAndProductWorkspace, RetailCategoryAndProductAssortment, RetailAssortmentDetails, RetailOperatingUnitPicker, EcoResCategorySingleLookup
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1c353a135559a1901f98ae6e7c9671254ab625c3
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: f96c79558c3248406a1b5988f9c9dc9783db4406
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="manage-assortments"></a>管理分类 
+# <a name="manage-assortments-november-2016"></a>管理分类（2016 年 11 月）
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 此过程演示如何创建和发布新产品分类，并使用演示数据公司 USRT。 此过程需要 Dynamics AX 应用程序 7.0.1 或更高版本，以及 Dynamics AX 平台 7.1。  
 

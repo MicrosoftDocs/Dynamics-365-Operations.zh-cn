@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: e4c1f8c7435a901431286960581754e5b2820dad
+ms.openlocfilehash: 34e744884b4bae890d7990103ecc7157c6883869
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/03/2018
 
 ---
 
@@ -71,7 +71,7 @@ ms.lasthandoff: 08/08/2018
 
 ### <a name="assignment"></a>赋值
 
-可在商店、收银机或用户级别分配屏幕布局。 用户的分配将覆盖收银机和商店的分配，而收银机分配则覆盖商店分配。 在简单方案中（即无论任何收银机或角色，所有用户都使用相同布局），只能在商店级别设计屏幕布局。 如果特定收银机或用户需要定制布局，可以为其分配这些布局。
+可在商店或用户级别分配屏幕布局。 用户的分配将覆盖收银机和商店的分配，而收银机分配则覆盖商店分配。 在简单方案中（即无论任何收银机或角色，所有用户都使用相同布局），只能在商店级别设计屏幕布局。 如果特定收银机或用户需要定制布局，可以为其分配这些布局。
 
 ### <a name="layout-sizes"></a>布局大小
 

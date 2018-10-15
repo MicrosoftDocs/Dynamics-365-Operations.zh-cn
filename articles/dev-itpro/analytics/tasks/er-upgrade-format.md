@@ -1,28 +1,29 @@
 --- 
-title: "通过采用新基本版本升级格式"
+title: "ER 通过采用该格式的新的基本版本升级格式"
 description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何维护电子申报 (ER) 格式配置。"
 author: NickSelin
 manager: AnnBe
-ms.date: 02/06/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7a14299c3bdcc33a4441d1cc096b198af4d4ae4c
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="upgrade-formats-by-adopting-new-base-versions"></a>通过采用新基本版本升级格式
+# <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER 通过采用该格式的新的基本版本升级格式
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -35,7 +36,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="select-format-configuration-for-customization"></a>选择自定义格式配置
 1. 转到“组织管理”>“工作区”>“电子申报”。
-    * 在此示例中，示例公司 Litware 公司 (`http://www.litware.com`) 将充当支持特定国家/地区的电子付款的格式配置的配置提供商。  示例公司 Proseware 公司 (`http://www.proseware.com`) 将充当 Litware 公司提供的格式配置的使用者。 Proseware 公司在该国家/地区的某些地区使用格式。  
+    * 在此示例中，示例公司 Litware 公司 (http://www.litware.com) 将充当支持特定国家/地区的电子付款的格式配置的配置提供商。    示例公司 Proseware 公司 (http://www.proseware.com) 将充当 Litware 公司提供的格式配置的使用者。 Proseware 公司在该国家/地区的某些地区使用格式。  
 2. 单击“申报配置”。
 3. 单击“显示筛选器”。
 4. 应用以下筛选器：使用“开头为”筛选器运算符在“名称”字段中输入筛选器值“BACS（英国虚构）”。
@@ -46,7 +47,7 @@ ms.lasthandoff: 08/08/2018
     * 状态为“已完成”的格式的版本将由 Proseware, Inc 用于 自定义。  
 
 ## <a name="create-a-new-configuration-for-your-custom-format-of-electronic-document"></a>为您的电子单据自定义格式创建新配置
-Proseware 公司收到包含初始格式的 BACS（英国虚构）配置的版本 1.1 以根据其服务订阅从 Litware 公司生成电子付款单据。 Proseware 公司想要开始使用此作为他们的国家/地区的标准，但支持特定的地区要求需要部分自定义。 Proseware 公司还想要保留 Litware 公司一提供自定义格式的新版本（通过对支持新国家/地区特定要求的更改）即升级自定义格式的能力，并希望以最低的成本执行此项升级。  因此，Proseware 公司需要以 Litware 公司配置 BACS（英国虚构）为基础创建配置。  
+    * Proseware 公司收到包含初始格式的 BACS（英国虚构）配置的版本 1.1 以根据其服务订阅从 Litware 公司生成电子付款单据。 Proseware 公司想要开始使用此作为他们的国家/地区的标准，但支持特定的地区要求需要部分自定义。 Proseware 公司还想要保留 Litware 公司一提供自定义格式的新版本（通过对支持新国家/地区特定要求的更改）即升级自定义格式的能力，并希望以最低的成本执行此项升级。  因此，Proseware 公司需要以 Litware 公司配置 BACS（英国虚构）为基础创建配置。  
 1. 关闭该页面。
 2. 选择 Proseware 公司将其设置为有效的提供商。
 3. 单击“设置有效”。
@@ -107,13 +108,11 @@ Proseware 公司收到包含初始格式的 BACS（英国虚构）配置的版�
     * 请注意已创建配置保存为已完成版本 1.1.1。 这意味着它是自定义 BACS（英国虚构自定义）格式的版本 1，其基于 BACS（英国虚构）格式的版本 1，且基于付款（简化模型）数据模型的版本 1。  
 
 ## <a name="test-the-customized-format-to-generate-payment-files"></a>测试自定义格式以生成付款文件
-在一个并行 Dynamics 365 for Finance and Operations 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择 BACS（英国虚构自定义）格式。 确保创建的付款文件包含最近引入的根据区域要求呈现 IBAN 代码的 XML 代码。  
+    * 在一个并行 Dynamics 365 for Finance and Operations Enterprise Edition 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择 BACS（英国虚构自定义）格式。 确保创建的付款文件包含最近引入的根据区域要求呈现 IBAN 代码的 XML 代码。  
 
 ## <a name="update-the-existing-country-specific-configuration"></a>更新现有国家/地区特定配置
-Litware 公司需要更新 BACS（英国虚构）配置并采用管理电子单据格式的新的国家/地区要求。 随后，这将包括在将为服务订阅者（包括 Proseware, Inc.）提供的此配置的新版本中。  
-
-在实际的服务设置相关流程中，BACS（英国虚构）的每个新版本可由 Proseware 公司从 Litware 公司配置的 LCS 存储库导入。 在此过程中，我们将通过代表服务提供商更新 BACS（英国虚构）来模拟此操作。
-
+    * Litware 公司需要更新 BACS（英国虚构）配置并采用管理电子单据格式的新的国家/地区要求。 随后，这将包括在将为服务订阅者（包括 Proseware, Inc.）提供的此配置的新版本中。  
+    * 在实际的服务设置相关流程中，BACS（英国虚构）的每个新版本可由 Proseware 公司从 Litware 公司配置的 LCS 存储库导入。 在此过程中，我们将通过代表服务提供商更新 BACS（英国虚构）来模拟此操作。  
 1. 关闭该页面。
 2. 选择 Litware 公司 提供程序。
 3. 单击“设置有效”。
@@ -123,12 +122,9 @@ Litware 公司需要更新 BACS（英国虚构）配置并采用管理电子单�
     * Litware 公司提供商 BACS（英国虚构）拥有的草稿版本被选择引入更改以支持新的特定于国家/地区的要求。  
 
 ## <a name="localize-the-base-format-of-the-electronic-document"></a>本地化电子单据的基本格式
-假定具有某些由 Litware 支持的新的国家/地区特定要求：  
-- 每个付款交易记录中的贷方银行 SWIFT 代码的值。  
-- 生成文件时供应商名称的文本长度限制为 100 个字符。  
- 
-选择所需配置的草稿版本以引入所需的更改。  
-
+    * 假定具有某些由 Litware 公司支持的新的国家/地区特定要求：- 每个付款交易记录中的贷方银行 SWIFT 代码的值。  - 生成文件时供应商名称的文本长度限制为 100 个字符。  
+    * 新国家/地区特定要求  
+    * 选择所需配置的草稿版本以引入所需的更改。  
 1. 单击“设计器”。
 2. 单击”展开/折叠“。
 3. 单击”展开/折叠“。
@@ -159,7 +155,7 @@ Litware 公司需要更新 BACS（英国虚构）配置并采用管理电子单�
 2. 关闭该页面。
 
 ## <a name="change-the-status-of-the-current-version-of-the-base-format-configuration"></a>更改基本格式配置的当前版本状态
-将更新的基本格式配置的状态从“草稿”更改为“已完成”，以使它可用于付款单据的生成以及从其派生的格式配置的更新。  
+    * 将更新的基本格式配置的状态从“草稿”更改为“已完成”，以使它可用于付款单据的生成以及从其派生的格式配置的更新。  
 1. 单击“更改状态”。
     * 请注意，所选配置的当前版本为“草稿”状态。  
 2. 单击“完成”。
@@ -168,8 +164,7 @@ Litware 公司需要更新 BACS（英国虚构）配置并采用管理电子单�
 5. 在列表中，找到并选择所需记录。
 
 ## <a name="change-the-base-version-for-the-custom-format-configuration"></a>更改自定义格式配置的基本版本
-Proseware 公司获知 BACS（英国虚构）配置的新版本 1.2 可用于根据最近颁布的特定于国家/地区的要求生成电子付款单据。 Proseware 公司想要开始使用其作为国家/地区的标准。  因此，Proseware 公司需要更改自定义配置 BACS（英国虚构自定义）的基本配置版本。 使用新版本 1.2，而不是 BACS（英国虚构）的版本 1.1。  
-
+    * Proseware 公司获知 BACS（英国虚构）配置的新版本 1.2 可用于根据最近颁布的特定于国家/地区的要求生成电子付款单据。 Proseware 公司想要开始使用其作为国家/地区的标准。  因此，Proseware 公司需要更改自定义配置 BACS（英国虚构自定义）的基本配置版本。 使用新版本 1.2，而不是 BACS（英国虚构）的版本 1.1。  
 1. 转到“组织管理”>“工作区”>“电子申报”。
 2. 选择 Proseware 公司提供商将其设置为有效的提供商。
 3. 单击“设置有效”。
@@ -203,6 +198,6 @@ Proseware 公司获知 BACS（英国虚构）配置的新版本 1.2 可用于根
     * 请注意，已创建的配置保存为已完成的版本 1.2.2：基本 BACS（英国虚构自定义）格式的版本 2，基于基本 BACS（英国虚构）格式的版本 2，基于付款（简化模型）数据模型的版本 1。  
 
 ## <a name="test-the-customized-format-for-payment-files-generation"></a>测试付款文件生成的自定义格式
-在一个并行 Dynamics 365 for Finance and Operations 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择已创建的“BACS（英国虚构自定义）”格式。 确保创建的付款文件包含 Proseware 公司最近引入的根据区域要求呈现 IBAN 帐户代码的 XML 代码。 该文件还应包含 Litware 公司近期根据国家/地区要求引入的 呈现 SWIFT 银行代码到的 XML 节点。  
+    * 在一个并行 Dynamics 365 for Finance and Operations Enterprise Edition 会话中完成“使用创建的格式生成付款电子单据”过程中的步骤。 在电子付款方式参数中选择已创建的“BACS（英国虚构自定义）”格式。 确保创建的付款文件包含 Proseware 公司最近引入的根据区域要求呈现 IBAN 帐户代码的 XML 代码。 该文件还应包含 Litware 公司近期根据国家/地区要求引入的 呈现 SWIFT 银行代码到的 XML 节点。  
 
 

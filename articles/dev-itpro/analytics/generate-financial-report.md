@@ -3,7 +3,7 @@ title: "生成财务报表"
 description: "本主题提供了有关生成财务报表的信息。"
 author: aprilolson
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 09/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: b1dea07589b7fe953ec47b204441d044c19b5020
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -34,15 +34,12 @@ ms.lasthandoff: 08/13/2018
 
 要生成报表，请打开报表定义然后单击工具栏中的“生成”按钮。 “报表队列状态”窗口将打开并指示您的报表在队列中的位置。 默认情况下，生成的报表将在 Web 查看器中打开。
 
-> [!NOTE]
-> 您只能在有权访问的文件夹和位置生成报表。
-
 以下选项可用于生成报表：
 
 - 设置计划以自动生成报表或报表组
 - 检查报表中是否有缺少的科目或数据，并验证报表的准确性
 
-当您生成报表时，将使用您在报表定义选项卡上指定的选项。 输出和分配选项卡可让您指定报表库位置，从而提供了一个共享报表的简单方式。
+当您生成报表时，将使用您在报表定义选项卡上指定的选项。
 
 ## <a name="generate-a-financial-report"></a>生成财务报表
 
@@ -56,9 +53,6 @@ ms.lasthandoff: 08/13/2018
 您可以选择**查看**或**删除**报表。
 
 若要使用**报表设计器**生成报表，请打开报表定义，然后单击工具栏中的“生成”按钮。 “报表队列状态”窗口将打开并指示您的报表在队列中的位置。 默认情况下，生成的报表将在 Web 查看器中打开。
-
-> [!NOTE]
-> 您只能在有权访问的文件夹和位置生成报表。
 
 ## <a name="schedule-report-generation"></a>安排报表生成
 许多公司都有一组按计划时间间隔运行的核心报表，以便符合其业务流程。 您可以将报表计划为定期生成，如每天，每周、每月或每年。 这可以是单个报表或者包括多个公司的报表组。 您必须为指定的每个公司（例如报告树定义中的公司）输入您的凭据。 如果凭据无效，报表将仅显示您有权访问的信息，如您当时登录的公司。 输出信息首先从报表组读取，然后从各个报表读取。

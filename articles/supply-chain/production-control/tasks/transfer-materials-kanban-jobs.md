@@ -1,29 +1,30 @@
 --- 
-title: "转移具有看板作业的物料（仅 2016 年 2 月）"
+title: "转移物料与看板作业"
 description: "此过程重点是撤销看板作业，以转移物料。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 02/07/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: KanbanBoardTransferJob
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c79480d844627a7eed8129515924f1f70ad04f95
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a2db7b9fb960beb5b4a851aabb9f28a0f9e3d3da
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="transfer-materials-with-kanban-jobs-february-2016-only"></a>转移具有看板作业的物料（仅 2016 年 2 月）
+# <a name="transfer-materials-with-kanban-jobs"></a>转移物料与看板作业
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

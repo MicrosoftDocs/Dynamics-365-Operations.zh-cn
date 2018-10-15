@@ -1,31 +1,32 @@
 --- 
-title: "配置和运行过帐报表作业"
+title: "配置和运行作业以过帐报表"
 description: "此程序会逐步演示如何配置和运行某一重复批处理作业，以过帐选定商店或商店组的报表。"
 author: josaw1
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f3587fe70dc6a0d8330063db77e625040a53da98
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 676216d90c50c0d3fa1a839cab7a734e624708ba
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="configure-and-run-a-job-to-post-statements"></a>配置和运行过帐报表作业
+# <a name="configure-and-run-job-to-post-statements"></a>配置和运行作业以过帐报表
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 此程序会逐步演示如何配置和运行某一重复批处理作业，以过帐选定商店或商店组的报表。 此程序使用 USRT 演示数据公司。
 
