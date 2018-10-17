@@ -3,7 +3,7 @@ title: "开销计算"
 description: "此主题描述计算和分配间接成本的典型流程。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,1399 +20,1399 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: be548959985a6fcaabf482f1e5951024633283cf
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
+ms.lasthandoff: 10/05/2018
 
 ---
 
-# <a name="overhead-calculation"></a><span data-ttu-id="faef6-103">开销计算</span><span class="sxs-lookup"><span data-stu-id="faef6-103">Overhead calculation</span></span>
+# <a name="overhead-calculation"></a><span data-ttu-id="faf1a-103">开销计算</span><span class="sxs-lookup"><span data-stu-id="faf1a-103">Overhead calculation</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="faef6-104">此主题描述计算和分配间接成本的典型流程。</span><span class="sxs-lookup"><span data-stu-id="faef6-104">This topic describes the typical processes for calculating and allocating overhead costs.</span></span>
+<span data-ttu-id="faf1a-104">此主题描述计算和分配间接成本的典型流程。</span><span class="sxs-lookup"><span data-stu-id="faf1a-104">This topic describes the typical processes for calculating and allocating overhead costs.</span></span>
 
-<a name="term-definition"></a><span data-ttu-id="faef6-105">术语定义</span><span class="sxs-lookup"><span data-stu-id="faef6-105">Term definition</span></span>
+<a name="term-definition"></a><span data-ttu-id="faf1a-105">术语定义</span><span class="sxs-lookup"><span data-stu-id="faf1a-105">Term definition</span></span>
 ---------------
 
-<span data-ttu-id="faef6-106">间接成本是为业务运营支出的成本，但是不能直接归为任何具体的业务活动、产品或服务。</span><span class="sxs-lookup"><span data-stu-id="faef6-106">Overhead costs are the costs that are incurred in order to run a business, but that can't be directly attributed to any specific business activity, product, or service.</span></span> <span data-ttu-id="faef6-107">间接成本为营利活动的生成提供重要支持。</span><span class="sxs-lookup"><span data-stu-id="faef6-107">Overhead costs provide critical support for the generation of profit-making activities.</span></span> <span data-ttu-id="faef6-108">以下是一些开销成本示例：</span><span class="sxs-lookup"><span data-stu-id="faef6-108">Here are some examples of overhead costs:</span></span>
+<span data-ttu-id="faf1a-106">间接成本是为业务运营支出的成本，但是不能直接归为任何具体的业务活动、产品或服务。</span><span class="sxs-lookup"><span data-stu-id="faf1a-106">Overhead costs are the costs that are incurred in order to run a business, but that can't be directly attributed to any specific business activity, product, or service.</span></span> <span data-ttu-id="faf1a-107">间接成本为营利活动的生成提供重要支持。</span><span class="sxs-lookup"><span data-stu-id="faf1a-107">Overhead costs provide critical support for the generation of profit-making activities.</span></span> <span data-ttu-id="faf1a-108">以下是一些开销成本示例：</span><span class="sxs-lookup"><span data-stu-id="faf1a-108">Here are some examples of overhead costs:</span></span>
 
--   <span data-ttu-id="faef6-109">租金</span><span class="sxs-lookup"><span data-stu-id="faef6-109">Rent</span></span>
--   <span data-ttu-id="faef6-110">电</span><span class="sxs-lookup"><span data-stu-id="faef6-110">Electricity</span></span>
--   <span data-ttu-id="faef6-111">管理薪金</span><span class="sxs-lookup"><span data-stu-id="faef6-111">Administrative salaries</span></span>
+-   <span data-ttu-id="faf1a-109">租金</span><span class="sxs-lookup"><span data-stu-id="faf1a-109">Rent</span></span>
+-   <span data-ttu-id="faf1a-110">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-110">Electricity</span></span>
+-   <span data-ttu-id="faf1a-111">管理薪金</span><span class="sxs-lookup"><span data-stu-id="faf1a-111">Administrative salaries</span></span>
 
-## <a name="overhead-calculation-overview"></a><span data-ttu-id="faef6-112">开销计算概览</span><span class="sxs-lookup"><span data-stu-id="faef6-112">Overhead calculation overview</span></span>
-<span data-ttu-id="faef6-113">开销计算按正确顺序运行会计政策。</span><span class="sxs-lookup"><span data-stu-id="faef6-113">Overhead calculation runs the cost accounting policies in the correct order.</span></span> <span data-ttu-id="faef6-114">如果成本核算政策更改或检测到特定错误，您可以为同一个会计期间多次运行开销计算。</span><span class="sxs-lookup"><span data-stu-id="faef6-114">You can run overhead calculation multiple times for the same fiscal period if cost accounting policies have been changed or specific errors have been detected.</span></span> <span data-ttu-id="faef6-115">每次运行的开销计算将被存储并收到唯一版本 ID，让您可以比较各个版本的计算。</span><span class="sxs-lookup"><span data-stu-id="faef6-115">Each run of the overhead calculation is stored and receives a unique version ID that lets you compare the calculations in various versions.</span></span> <span data-ttu-id="faef6-116">开销计算生成的成本条目接收会计日期。</span><span class="sxs-lookup"><span data-stu-id="faef6-116">The cost entries that the overhead calculation generates receive an accounting date.</span></span> <span data-ttu-id="faef6-117">此会计日期与计算中使用的会计期间的结束日期一致。</span><span class="sxs-lookup"><span data-stu-id="faef6-117">This accounting date matches the end date of the fiscal period that is used in the calculation.</span></span> <span data-ttu-id="faef6-118">唯一版本 ID 由以下元素组成：</span><span class="sxs-lookup"><span data-stu-id="faef6-118">The unique version ID consists of the following elements:</span></span>
+## <a name="overhead-calculation-overview"></a><span data-ttu-id="faf1a-112">开销计算概览</span><span class="sxs-lookup"><span data-stu-id="faf1a-112">Overhead calculation overview</span></span>
+<span data-ttu-id="faf1a-113">开销计算按正确顺序运行会计政策。</span><span class="sxs-lookup"><span data-stu-id="faf1a-113">Overhead calculation runs the cost accounting policies in the correct order.</span></span> <span data-ttu-id="faf1a-114">如果成本核算政策更改或检测到特定错误，您可以为同一个会计期间多次运行开销计算。</span><span class="sxs-lookup"><span data-stu-id="faf1a-114">You can run overhead calculation multiple times for the same fiscal period if cost accounting policies have been changed or specific errors have been detected.</span></span> <span data-ttu-id="faf1a-115">每次运行的开销计算将被存储并收到唯一版本 ID，让您可以比较各个版本的计算。</span><span class="sxs-lookup"><span data-stu-id="faf1a-115">Each run of the overhead calculation is stored and receives a unique version ID that lets you compare the calculations in various versions.</span></span> <span data-ttu-id="faf1a-116">开销计算生成的成本条目接收会计日期。</span><span class="sxs-lookup"><span data-stu-id="faf1a-116">The cost entries that the overhead calculation generates receive an accounting date.</span></span> <span data-ttu-id="faf1a-117">此会计日期与计算中使用的会计期间的结束日期一致。</span><span class="sxs-lookup"><span data-stu-id="faf1a-117">This accounting date matches the end date of the fiscal period that is used in the calculation.</span></span> <span data-ttu-id="faf1a-118">唯一版本 ID 由以下元素组成：</span><span class="sxs-lookup"><span data-stu-id="faf1a-118">The unique version ID consists of the following elements:</span></span>
 
--   <span data-ttu-id="faef6-119">版本类型</span><span class="sxs-lookup"><span data-stu-id="faef6-119">Version type</span></span>
--   <span data-ttu-id="faef6-120">日期和时间</span><span class="sxs-lookup"><span data-stu-id="faef6-120">Date and time</span></span>
--   <span data-ttu-id="faef6-121">成本核算分类帐</span><span class="sxs-lookup"><span data-stu-id="faef6-121">Cost accounting ledger</span></span>
--   <span data-ttu-id="faef6-122">会计年度</span><span class="sxs-lookup"><span data-stu-id="faef6-122">Fiscal year</span></span>
--   <span data-ttu-id="faef6-123">会计期间</span><span class="sxs-lookup"><span data-stu-id="faef6-123">Fiscal period</span></span>
+-   <span data-ttu-id="faf1a-119">版本类型</span><span class="sxs-lookup"><span data-stu-id="faf1a-119">Version type</span></span>
+-   <span data-ttu-id="faf1a-120">日期和时间</span><span class="sxs-lookup"><span data-stu-id="faf1a-120">Date and time</span></span>
+-   <span data-ttu-id="faf1a-121">成本核算分类帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-121">Cost accounting ledger</span></span>
+-   <span data-ttu-id="faf1a-122">会计年度</span><span class="sxs-lookup"><span data-stu-id="faf1a-122">Fiscal year</span></span>
+-   <span data-ttu-id="faf1a-123">会计期间</span><span class="sxs-lookup"><span data-stu-id="faf1a-123">Fiscal period</span></span>
 
-<span data-ttu-id="faef6-124">开销计算独立于版本运行。</span><span class="sxs-lookup"><span data-stu-id="faef6-124">Overhead calculation is run independently of the version.</span></span> <span data-ttu-id="faef6-125">因此，可以在实际版本前计算预算版本。</span><span class="sxs-lookup"><span data-stu-id="faef6-125">Therefore, you can calculate the Budget version before the Actual version.</span></span> <span data-ttu-id="faef6-126">开销计算包括四个步骤，如下图所示。</span><span class="sxs-lookup"><span data-stu-id="faef6-126">Overhead calculation consists of four steps, as shown in the following illustration.</span></span> <span data-ttu-id="faef6-127">在每个步骤中，创建包含日记帐条目的日记帐标头。</span><span class="sxs-lookup"><span data-stu-id="faef6-127">In each step, a journal header is created that has journal entries.</span></span> <span data-ttu-id="faef6-128">此日记帐标头为每个计算步骤保留输入数据。</span><span class="sxs-lookup"><span data-stu-id="faef6-128">This journal header keeps the input data for each calculation step.</span></span> <span data-ttu-id="faef6-129">政策和规则应用于每个日记帐行，成本条目生成为输出。</span><span class="sxs-lookup"><span data-stu-id="faef6-129">Policies and rules are applied to each journal line, and cost entries are generated as output.</span></span> <span data-ttu-id="faef6-130">因此，您始终具有完全的可跟踪性。</span><span class="sxs-lookup"><span data-stu-id="faef6-130">Therefore, you always have full traceability.</span></span> 
+<span data-ttu-id="faf1a-124">开销计算独立于版本运行。</span><span class="sxs-lookup"><span data-stu-id="faf1a-124">Overhead calculation is run independently of the version.</span></span> <span data-ttu-id="faf1a-125">因此，可以在实际版本前计算预算版本。</span><span class="sxs-lookup"><span data-stu-id="faf1a-125">Therefore, you can calculate the Budget version before the Actual version.</span></span> <span data-ttu-id="faf1a-126">开销计算包括四个步骤，如下图所示。</span><span class="sxs-lookup"><span data-stu-id="faf1a-126">Overhead calculation consists of four steps, as shown in the following illustration.</span></span> <span data-ttu-id="faf1a-127">在每个步骤中，创建包含日记帐条目的日记帐标头。</span><span class="sxs-lookup"><span data-stu-id="faf1a-127">In each step, a journal header is created that has journal entries.</span></span> <span data-ttu-id="faf1a-128">此日记帐标头为每个计算步骤保留输入数据。</span><span class="sxs-lookup"><span data-stu-id="faf1a-128">This journal header keeps the input data for each calculation step.</span></span> <span data-ttu-id="faf1a-129">政策和规则应用于每个日记帐行，成本条目生成为输出。</span><span class="sxs-lookup"><span data-stu-id="faf1a-129">Policies and rules are applied to each journal line, and cost entries are generated as output.</span></span> <span data-ttu-id="faf1a-130">因此，您始终具有完全的可跟踪性。</span><span class="sxs-lookup"><span data-stu-id="faf1a-130">Therefore, you always have full traceability.</span></span> 
 
-<span data-ttu-id="faef6-131">[![开销计算](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span><span class="sxs-lookup"><span data-stu-id="faef6-131">[![Overhead calculation](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span></span>
+<span data-ttu-id="faf1a-131">[![开销计算](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span><span class="sxs-lookup"><span data-stu-id="faf1a-131">[![Overhead calculation](./media/period-cost-calculation.png)](./media/period-cost-calculation.png)</span></span>
 
-## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a><span data-ttu-id="faef6-132">计算和分摊电间接成本</span><span class="sxs-lookup"><span data-stu-id="faef6-132">Calculate and allocate the Electricity overhead cost</span></span>
-<span data-ttu-id="faef6-133">在财务会计中，有些成本（如电）登记为总计。</span><span class="sxs-lookup"><span data-stu-id="faef6-133">In Financial accounting, some costs, such as electricity, are registered as a lump sum.</span></span> <span data-ttu-id="faef6-134">因此，不为成本核算提供详细的管理洞察。</span><span class="sxs-lookup"><span data-stu-id="faef6-134">Therefore, detailed managerial insight isn't provided for Cost accounting.</span></span> <span data-ttu-id="faef6-135">在成本核算中，为提供跨所有组织单位和级别的正确的管理洞察，成本必须流过各个组织单位。</span><span class="sxs-lookup"><span data-stu-id="faef6-135">In Cost accounting, to provide correct managerial insight across all organizational units and levels, costs must flow through the organizational units.</span></span> <span data-ttu-id="faef6-136">此流必须基于消耗量的准确记录或公平评估。</span><span class="sxs-lookup"><span data-stu-id="faef6-136">This flow must be based on either an accurate record of the consumption or a fair assessment.</span></span> <span data-ttu-id="faef6-137">在总帐中，可以过帐电成本，如下表所示。</span><span class="sxs-lookup"><span data-stu-id="faef6-137">In the general ledger, an electricity cost can be posted as shown in the following table.</span></span>
+## <a name="calculate-and-allocate-the-electricity-overhead-cost"></a><span data-ttu-id="faf1a-132">计算和分摊电间接成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-132">Calculate and allocate the Electricity overhead cost</span></span>
+<span data-ttu-id="faf1a-133">在财务会计中，有些成本（如电）登记为总计。</span><span class="sxs-lookup"><span data-stu-id="faf1a-133">In Financial accounting, some costs, such as electricity, are registered as a lump sum.</span></span> <span data-ttu-id="faf1a-134">因此，不为成本核算提供详细的管理洞察。</span><span class="sxs-lookup"><span data-stu-id="faf1a-134">Therefore, detailed managerial insight isn't provided for Cost accounting.</span></span> <span data-ttu-id="faf1a-135">在成本核算中，为提供跨所有组织单位和级别的正确的管理洞察，成本必须流过各个组织单位。</span><span class="sxs-lookup"><span data-stu-id="faf1a-135">In Cost accounting, to provide correct managerial insight across all organizational units and levels, costs must flow through the organizational units.</span></span> <span data-ttu-id="faf1a-136">此流必须基于消耗量的准确记录或公平评估。</span><span class="sxs-lookup"><span data-stu-id="faf1a-136">This flow must be based on either an accurate record of the consumption or a fair assessment.</span></span> <span data-ttu-id="faf1a-137">在总帐中，可以过帐电成本，如下表所示。</span><span class="sxs-lookup"><span data-stu-id="faf1a-137">In the general ledger, an electricity cost can be posted as shown in the following table.</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="faef6-138">会计日期</span><span class="sxs-lookup"><span data-stu-id="faef6-138">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-139">成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-139">Cost center</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-140">主科目</span><span class="sxs-lookup"><span data-stu-id="faef6-140">Main account</span></span></th>
-<th><span data-ttu-id="faef6-141">按记帐币种计算的金额</span><span class="sxs-lookup"><span data-stu-id="faef6-141">Amount in the accounting currency</span></span></th>
+<th><span data-ttu-id="faf1a-138">会计日期</span><span class="sxs-lookup"><span data-stu-id="faf1a-138">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-139">成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-139">Cost center</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-140">主科目</span><span class="sxs-lookup"><span data-stu-id="faf1a-140">Main account</span></span></th>
+<th><span data-ttu-id="faf1a-141">按记帐币种计算的金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-141">Amount in the accounting currency</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-142">2017 年 1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="faef6-142">January 3, 2017</span></span></td>
-<td><span data-ttu-id="faef6-143">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-143">CC099</span></span></td>
-<td><span data-ttu-id="faef6-144">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-144">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-145">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-145">10001</span></span></td>
-<td><span data-ttu-id="faef6-146">电</span><span class="sxs-lookup"><span data-stu-id="faef6-146">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-147">10,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-147">10,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-142">2017 年 1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-142">January 3, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-143">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-143">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-144">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-144">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-145">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-145">10001</span></span></td>
+<td><span data-ttu-id="faf1a-146">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-146">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-147">10,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-147">10,000.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-### <a name="step-1-process-the-cost-behavior-calculation"></a><span data-ttu-id="faef6-148">步骤 1：处理成本行为计算</span><span class="sxs-lookup"><span data-stu-id="faef6-148">Step 1: Process the cost behavior calculation</span></span>
+### <a name="step-1-process-the-cost-behavior-calculation"></a><span data-ttu-id="faf1a-148">步骤 1：处理成本行为计算</span><span class="sxs-lookup"><span data-stu-id="faf1a-148">Step 1: Process the cost behavior calculation</span></span>
 
-<span data-ttu-id="faef6-149">默认情况下，当成本条目从源数据导入时，它们在成本核算中接收**未分类**成本行为分类。</span><span class="sxs-lookup"><span data-stu-id="faef6-149">By default, when cost entries are imported from the source data, they receive the **Unclassified** cost behavior classification in Cost accounting.</span></span> <span data-ttu-id="faef6-150">通过应用成本行为政策规则，您可以将成本条目重新分类为**固定成本**或**可变成本**。</span><span class="sxs-lookup"><span data-stu-id="faef6-150">By applying cost behavior policy rules, you can reclassify cost entries as either **Fixed cost** or **Variable cost**.</span></span>
+<span data-ttu-id="faf1a-149">默认情况下，当成本条目从源数据导入时，它们在成本核算中接收**未分类**成本行为分类。</span><span class="sxs-lookup"><span data-stu-id="faf1a-149">By default, when cost entries are imported from the source data, they receive the **Unclassified** cost behavior classification in Cost accounting.</span></span> <span data-ttu-id="faf1a-150">通过应用成本行为政策规则，您可以将成本条目重新分类为**固定成本**或**可变成本**。</span><span class="sxs-lookup"><span data-stu-id="faf1a-150">By applying cost behavior policy rules, you can reclassify cost entries as either **Fixed cost** or **Variable cost**.</span></span>
 
-#### <a name="define-the-cost-behavior-rule"></a><span data-ttu-id="faef6-151">定义成本行为规则</span><span class="sxs-lookup"><span data-stu-id="faef6-151">Define the cost behavior rule</span></span>
+#### <a name="define-the-cost-behavior-rule"></a><span data-ttu-id="faf1a-151">定义成本行为规则</span><span class="sxs-lookup"><span data-stu-id="faf1a-151">Define the cost behavior rule</span></span>
 
-<span data-ttu-id="faef6-152">在某些情况下，一部分成本是一项固定费用，其余成本基于消耗量。</span><span class="sxs-lookup"><span data-stu-id="faef6-152">In some cases, part of the cost is a fixed fee, and the remaining cost is based on consumption.</span></span> <span data-ttu-id="faef6-153">通常电费帐单与此定义一致。</span><span class="sxs-lookup"><span data-stu-id="faef6-153">Electricity bills often match this definition.</span></span> <span data-ttu-id="faef6-154">在支付特定固定费用后，您按千瓦时 (Kwh) 支付消耗量。</span><span class="sxs-lookup"><span data-stu-id="faef6-154">After you pay a specific fixed fee, you pay for consumption per kilowatt hour (Kwh).</span></span> <span data-ttu-id="faef6-155">例如，如果固定成本费用为 1,000.00，以下是成本行为规则的定义：</span><span class="sxs-lookup"><span data-stu-id="faef6-155">For example, if the fixed cost fee is 1,000.00, here is how the cost behavior rule is defined:</span></span>
+<span data-ttu-id="faf1a-152">在某些情况下，一部分成本是一项固定费用，其余成本基于消耗量。</span><span class="sxs-lookup"><span data-stu-id="faf1a-152">In some cases, part of the cost is a fixed fee, and the remaining cost is based on consumption.</span></span> <span data-ttu-id="faf1a-153">通常电费帐单与此定义一致。</span><span class="sxs-lookup"><span data-stu-id="faf1a-153">Electricity bills often match this definition.</span></span> <span data-ttu-id="faf1a-154">在支付特定固定费用后，您按千瓦时 (Kwh) 支付消耗量。</span><span class="sxs-lookup"><span data-stu-id="faf1a-154">After you pay a specific fixed fee, you pay for consumption per kilowatt hour (Kwh).</span></span> <span data-ttu-id="faf1a-155">例如，如果固定成本费用为 1,000.00，以下是成本行为规则的定义：</span><span class="sxs-lookup"><span data-stu-id="faf1a-155">For example, if the fixed cost fee is 1,000.00, here is how the cost behavior rule is defined:</span></span>
 
--   <span data-ttu-id="faef6-156">固定金额 1,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-156">Fixed amount 1,000.00</span></span>
-    -   <span data-ttu-id="faef6-157">0 &lt;= 1,000.00 = 固定</span><span class="sxs-lookup"><span data-stu-id="faef6-157">0 &lt;= 1,000.00 = Fixed</span></span>
-    -   <span data-ttu-id="faef6-158">1000,01 &lt; N = 可变</span><span class="sxs-lookup"><span data-stu-id="faef6-158">1000,01 &lt; N = Variable</span></span>
+-   <span data-ttu-id="faf1a-156">固定金额 1,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-156">Fixed amount 1,000.00</span></span>
+    -   <span data-ttu-id="faf1a-157">0 &lt;= 1,000.00 = 固定</span><span class="sxs-lookup"><span data-stu-id="faf1a-157">0 &lt;= 1,000.00 = Fixed</span></span>
+    -   <span data-ttu-id="faf1a-158">1000,01 &lt; N = 可变</span><span class="sxs-lookup"><span data-stu-id="faf1a-158">1000,01 &lt; N = Variable</span></span>
 
-##### <a name="journal"></a><span data-ttu-id="faef6-159">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-159">Journal</span></span>
+##### <a name="journal"></a><span data-ttu-id="faf1a-159">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-159">Journal</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="faef6-160">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-160">Journal</span></span></th>
-<th><span data-ttu-id="faef6-161">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="faef6-161">Journal type</span></span></th>
-<th colspan="3"><span data-ttu-id="faef6-162">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="faef6-162">Fiscal calendar period</span></span></th>
-<th><span data-ttu-id="faef6-163">版本</span><span class="sxs-lookup"><span data-stu-id="faef6-163">Version</span></span></th>
+<th><span data-ttu-id="faf1a-160">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-160">Journal</span></span></th>
+<th><span data-ttu-id="faf1a-161">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="faf1a-161">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="faf1a-162">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="faf1a-162">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="faf1a-163">版本</span><span class="sxs-lookup"><span data-stu-id="faf1a-163">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-164">00001</span><span class="sxs-lookup"><span data-stu-id="faef6-164">00001</span></span></td>
-<td><span data-ttu-id="faef6-165">成本行为计算日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-165">Cost behavior calculation journal</span></span></td>
-<td><span data-ttu-id="faef6-166">会计</span><span class="sxs-lookup"><span data-stu-id="faef6-166">Fiscal</span></span></td>
-<td><span data-ttu-id="faef6-167">2017</span><span class="sxs-lookup"><span data-stu-id="faef6-167">2017</span></span></td>
-<td><span data-ttu-id="faef6-168">期间 1</span><span class="sxs-lookup"><span data-stu-id="faef6-168">Period 1</span></span></td>
-<td><span data-ttu-id="faef6-169">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="faef6-169">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
+<td><span data-ttu-id="faf1a-164">00001</span><span class="sxs-lookup"><span data-stu-id="faf1a-164">00001</span></span></td>
+<td><span data-ttu-id="faf1a-165">成本行为计算日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-165">Cost behavior calculation journal</span></span></td>
+<td><span data-ttu-id="faf1a-166">会计</span><span class="sxs-lookup"><span data-stu-id="faf1a-166">Fiscal</span></span></td>
+<td><span data-ttu-id="faf1a-167">2017</span><span class="sxs-lookup"><span data-stu-id="faf1a-167">2017</span></span></td>
+<td><span data-ttu-id="faf1a-168">期间 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-168">Period 1</span></span></td>
+<td><span data-ttu-id="faf1a-169">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-169">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="faef6-170">日记帐条目（成本对象余额日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="faef6-170">Journal entries (Cost object balance journal entries)</span></span>
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="faf1a-170">日记帐条目（成本对象余额日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="faf1a-170">Journal entries (Cost object balance journal entries)</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="faef6-171">会计日期</span><span class="sxs-lookup"><span data-stu-id="faef6-171">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-172">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-172">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-173">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-173">Cost element</span></span></th>
-<th><span data-ttu-id="faef6-174">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-174">Cost behavior</span></span></th>
-<th><span data-ttu-id="faef6-175">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-175">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-171">会计日期</span><span class="sxs-lookup"><span data-stu-id="faf1a-171">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-172">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-172">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-173">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-173">Cost element</span></span></th>
+<th><span data-ttu-id="faf1a-174">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-174">Cost behavior</span></span></th>
+<th><span data-ttu-id="faf1a-175">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-175">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-176">2017 年 1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="faef6-176">January 3, 2017</span></span></td>
-<td><span data-ttu-id="faef6-177">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-177">CC099</span></span></td>
-<td><span data-ttu-id="faef6-178">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-178">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-179">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-179">10001</span></span></td>
-<td><span data-ttu-id="faef6-180">电</span><span class="sxs-lookup"><span data-stu-id="faef6-180">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-181">未分类</span><span class="sxs-lookup"><span data-stu-id="faef6-181">Unclassified</span></span></td>
-<td><span data-ttu-id="faef6-182">10,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-182">10,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-176">2017 年 1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-176">January 3, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-177">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-177">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-178">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-178">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-179">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-179">10001</span></span></td>
+<td><span data-ttu-id="faf1a-180">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-180">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-181">未分类</span><span class="sxs-lookup"><span data-stu-id="faf1a-181">Unclassified</span></span></td>
+<td><span data-ttu-id="faf1a-182">10,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-182">10,000.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a><span data-ttu-id="faef6-183">成本条目</span><span class="sxs-lookup"><span data-stu-id="faef6-183">Cost entries</span></span>
+##### <a name="cost-entries"></a><span data-ttu-id="faf1a-183">成本条目</span><span class="sxs-lookup"><span data-stu-id="faf1a-183">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-184">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-184">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-185">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-185">Cost element</span></span></th>
-<th><span data-ttu-id="faef6-186">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-186">Cost behavior</span></span></th>
-<th><span data-ttu-id="faef6-187">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-187">Amount</span></span></th>
-<th><span data-ttu-id="faef6-188">会计日期</span><span class="sxs-lookup"><span data-stu-id="faef6-188">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-184">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-184">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-185">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-185">Cost element</span></span></th>
+<th><span data-ttu-id="faf1a-186">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-186">Cost behavior</span></span></th>
+<th><span data-ttu-id="faf1a-187">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-187">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-188">会计日期</span><span class="sxs-lookup"><span data-stu-id="faf1a-188">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-189">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-189">CC099</span></span></td>
-<td><span data-ttu-id="faef6-190">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-190">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-191">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-191">10001</span></span></td>
-<td><span data-ttu-id="faef6-192">电</span><span class="sxs-lookup"><span data-stu-id="faef6-192">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-193">未分类</span><span class="sxs-lookup"><span data-stu-id="faef6-193">Unclassified</span></span></td>
-<td><span data-ttu-id="faef6-194">10,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-194">10,000.00</span></span></td>
-<td><span data-ttu-id="faef6-195">2017 年 1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="faef6-195">January 3, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-189">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-189">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-190">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-190">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-191">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-191">10001</span></span></td>
+<td><span data-ttu-id="faf1a-192">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-192">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-193">未分类</span><span class="sxs-lookup"><span data-stu-id="faf1a-193">Unclassified</span></span></td>
+<td><span data-ttu-id="faf1a-194">10,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-194">10,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-195">2017 年 1 月 3 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-195">January 3, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-196">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-196">CC099</span></span></td>
-<td><span data-ttu-id="faef6-197">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-197">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-198">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-198">10001</span></span></td>
-<td><span data-ttu-id="faef6-199">电</span><span class="sxs-lookup"><span data-stu-id="faef6-199">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-200">未分类</span><span class="sxs-lookup"><span data-stu-id="faef6-200">Unclassified</span></span></td>
-<td><span data-ttu-id="faef6-201">-10,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-201">-10,000.00</span></span></td>
-<td><span data-ttu-id="faef6-202">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-202">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-196">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-196">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-197">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-197">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-198">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-198">10001</span></span></td>
+<td><span data-ttu-id="faf1a-199">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-199">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-200">未分类</span><span class="sxs-lookup"><span data-stu-id="faf1a-200">Unclassified</span></span></td>
+<td><span data-ttu-id="faf1a-201">-10,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-201">-10,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-202">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-202">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-203">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-203">CC099</span></span></td>
-<td><span data-ttu-id="faef6-204">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-204">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-205">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-205">10001</span></span></td>
-<td><span data-ttu-id="faef6-206">电</span><span class="sxs-lookup"><span data-stu-id="faef6-206">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-207">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-207">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-208">1,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-208">1,000.00</span></span></td>
-<td><span data-ttu-id="faef6-209">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-209">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-203">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-203">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-204">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-204">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-205">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-205">10001</span></span></td>
+<td><span data-ttu-id="faf1a-206">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-206">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-207">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-207">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-208">1,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-208">1,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-209">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-209">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-210">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-210">CC099</span></span></td>
-<td><span data-ttu-id="faef6-211">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-211">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-212">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-212">10001</span></span></td>
-<td><span data-ttu-id="faef6-213">电</span><span class="sxs-lookup"><span data-stu-id="faef6-213">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-214">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-214">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-215">9,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-215">9,000.00</span></span></td>
-<td><span data-ttu-id="faef6-216">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-216">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-210">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-210">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-211">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-211">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-212">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-212">10001</span></span></td>
+<td><span data-ttu-id="faf1a-213">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-213">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-214">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-214">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-215">9,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-215">9,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-216">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-216">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-217">有关成本行为的详细信息，请参阅“成本行为政策”。</span><span class="sxs-lookup"><span data-stu-id="faef6-217">For detailed information about cost behavior, see Cost behavior policy.</span></span> <span data-ttu-id="faef6-218">（请注意，此主题尚未完成，不过将很快推出。）</span><span class="sxs-lookup"><span data-stu-id="faef6-218">(Note that this topic isn't competed yet but is coming soon.)</span></span>
+<span data-ttu-id="faf1a-217">有关详细信息，请参阅[创建成本行为策略并将其分配到成本控制单元](tasks/create-assign-cost-behavior-policy-cost-control-unit.md)。</span><span class="sxs-lookup"><span data-stu-id="faf1a-217">For more information, see [Create and assign a cost behavior policy to a cost control unit](tasks/create-assign-cost-behavior-policy-cost-control-unit.md).</span></span>
+### <a name="step-2-process-the-cost-distribution-calculation"></a><span data-ttu-id="faf1a-218">步骤 2：处理成本分配计算</span><span class="sxs-lookup"><span data-stu-id="faf1a-218">Step 2: Process the cost distribution calculation</span></span>
 
-### <a name="step-2-process-the-cost-distribution-calculation"></a><span data-ttu-id="faef6-219">步骤 2：处理成本分配计算</span><span class="sxs-lookup"><span data-stu-id="faef6-219">Step 2: Process the cost distribution calculation</span></span>
+<span data-ttu-id="faf1a-219">成本分配用于通过应用相关的分摊基数将成本从一个成本对象重新分配到一个或多个其他成本对象。</span><span class="sxs-lookup"><span data-stu-id="faf1a-219">Cost distribution is used to redistribute cost from one cost object to one or more other cost objects by applying a relevant allocation base.</span></span> <span data-ttu-id="faf1a-220">成本分配和成本分摊的不同之处在于，成本分配始终发生在原始成本的主要成本元素级别。</span><span class="sxs-lookup"><span data-stu-id="faf1a-220">Cost distribution and cost allocation differ in that cost distribution always occurs at the level of the primary cost element of the original cost.</span></span>
 
-<span data-ttu-id="faef6-220">成本分配用于通过应用相关的分摊基数将成本从一个成本对象重新分配到一个或多个其他成本对象。</span><span class="sxs-lookup"><span data-stu-id="faef6-220">Cost distribution is used to redistribute cost from one cost object to one or more other cost objects by applying a relevant allocation base.</span></span> <span data-ttu-id="faef6-221">成本分配和成本分摊的不同之处在于，成本分配始终发生在原始成本的主要成本元素级别。</span><span class="sxs-lookup"><span data-stu-id="faef6-221">Cost distribution and cost allocation differ in that cost distribution always occurs at the level of the primary cost element of the original cost.</span></span>
+#### <a name="define-the-cost-distribution-rule"></a><span data-ttu-id="faf1a-221">定义成本分配规则</span><span class="sxs-lookup"><span data-stu-id="faf1a-221">Define the cost distribution rule</span></span>
 
-#### <a name="define-the-cost-distribution-rule"></a><span data-ttu-id="faef6-222">定义成本分配规则</span><span class="sxs-lookup"><span data-stu-id="faef6-222">Define the cost distribution rule</span></span>
-
-<span data-ttu-id="faef6-223">在财务会计中，电成本通常登记为总计。</span><span class="sxs-lookup"><span data-stu-id="faef6-223">In Financial accounting, electricity costs are often registered as a lump sum.</span></span> <span data-ttu-id="faef6-224">在成本核算中，此方法不足够详细。</span><span class="sxs-lookup"><span data-stu-id="faef6-224">In Cost accounting, this approach isn't detailed enough.</span></span> <span data-ttu-id="faef6-225">可变成本应公平分配到各个成本对象。</span><span class="sxs-lookup"><span data-stu-id="faef6-225">The variable cost should be distributed to the individual cost objects on a fair basis.</span></span> <span data-ttu-id="faef6-226">最合理的分配基础是电的消耗量 (Kwh)。</span><span class="sxs-lookup"><span data-stu-id="faef6-226">The most logical allocation basis is the consumption of electricity (Kwh).</span></span> <span data-ttu-id="faef6-227">创建名为“电”的统计维度成员并记录电的消耗量。</span><span class="sxs-lookup"><span data-stu-id="faef6-227">A statistical dimension member that is named Electricity is created, and electricity consumption is recorded.</span></span> <span data-ttu-id="faef6-228">默认情况下，所有统计维度成员均可作为分配基础。</span><span class="sxs-lookup"><span data-stu-id="faef6-228">By default, all statistical dimension members become available as allocation bases.</span></span>
+<span data-ttu-id="faf1a-222">在财务会计中，电成本通常登记为总计。</span><span class="sxs-lookup"><span data-stu-id="faf1a-222">In Financial accounting, electricity costs are often registered as a lump sum.</span></span> <span data-ttu-id="faf1a-223">在成本核算中，此方法不足够详细。</span><span class="sxs-lookup"><span data-stu-id="faf1a-223">In Cost accounting, this approach isn't detailed enough.</span></span> <span data-ttu-id="faf1a-224">可变成本应公平分配到各个成本对象。</span><span class="sxs-lookup"><span data-stu-id="faf1a-224">The variable cost should be distributed to the individual cost objects on a fair basis.</span></span> <span data-ttu-id="faf1a-225">最合理的分配基础是电的消耗量 (Kwh)。</span><span class="sxs-lookup"><span data-stu-id="faf1a-225">The most logical allocation basis is the consumption of electricity (Kwh).</span></span> <span data-ttu-id="faf1a-226">创建名为“电”的统计维度成员并记录电的消耗量。</span><span class="sxs-lookup"><span data-stu-id="faf1a-226">A statistical dimension member that is named Electricity is created, and electricity consumption is recorded.</span></span> <span data-ttu-id="faf1a-227">默认情况下，所有统计维度成员均可作为分配基础。</span><span class="sxs-lookup"><span data-stu-id="faf1a-227">By default, all statistical dimension members become available as allocation bases.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-229">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-229">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-230">Kwh</span><span class="sxs-lookup"><span data-stu-id="faef6-230">Kwh</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-228">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-228">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-229">Kwh</span><span class="sxs-lookup"><span data-stu-id="faf1a-229">Kwh</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-231">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-231">CC001</span></span></td>
-<td><span data-ttu-id="faef6-232">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-232">HR</span></span></td>
-<td><span data-ttu-id="faef6-233">1,000</span><span class="sxs-lookup"><span data-stu-id="faef6-233">1,000</span></span></td>
+<td><span data-ttu-id="faf1a-230">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-230">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-231">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-231">HR</span></span></td>
+<td><span data-ttu-id="faf1a-232">1,000</span><span class="sxs-lookup"><span data-stu-id="faf1a-232">1,000</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-234">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-234">CC002</span></span></td>
-<td><span data-ttu-id="faef6-235">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-235">Finance</span></span></td>
-<td><span data-ttu-id="faef6-236">6,000</span><span class="sxs-lookup"><span data-stu-id="faef6-236">6,000</span></span></td>
+<td><span data-ttu-id="faf1a-233">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-233">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-234">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-234">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-235">6,000</span><span class="sxs-lookup"><span data-stu-id="faf1a-235">6,000</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-237">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-237">CC003</span></span></td>
-<td><span data-ttu-id="faef6-238">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-238">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-239">0</span><span class="sxs-lookup"><span data-stu-id="faef6-239">0</span></span></td>
+<td><span data-ttu-id="faf1a-236">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-236">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-237">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-237">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-238">0</span><span class="sxs-lookup"><span data-stu-id="faf1a-238">0</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-240">下表显示当电消耗量用作可变成本的分配基础时的结果。</span><span class="sxs-lookup"><span data-stu-id="faef6-240">The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
+<span data-ttu-id="faf1a-239">下表显示当电消耗量用作可变成本的分配基础时的结果。</span><span class="sxs-lookup"><span data-stu-id="faf1a-239">The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-241">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-241">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-242">度量值</span><span class="sxs-lookup"><span data-stu-id="faef6-242">Magnitude</span></span></th>
-<th><span data-ttu-id="faef6-243">分配系数</span><span class="sxs-lookup"><span data-stu-id="faef6-243">Allocation factor</span></span></th>
-<th><span data-ttu-id="faef6-244">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-244">Amount</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-240">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-240">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-241">度量值</span><span class="sxs-lookup"><span data-stu-id="faf1a-241">Magnitude</span></span></th>
+<th><span data-ttu-id="faf1a-242">分配系数</span><span class="sxs-lookup"><span data-stu-id="faf1a-242">Allocation factor</span></span></th>
+<th><span data-ttu-id="faf1a-243">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-243">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-245">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-245">CC001</span></span></td>
-<td><span data-ttu-id="faef6-246">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-246">HR</span></span></td>
-<td><span data-ttu-id="faef6-247">1,000</span><span class="sxs-lookup"><span data-stu-id="faef6-247">1,000</span></span></td>
-<td><span data-ttu-id="faef6-248">(1,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-248">(1,000 ÷ 7,000) × 9,000.00</span></span></td>
-<td><span data-ttu-id="faef6-249">1,285.71</span><span class="sxs-lookup"><span data-stu-id="faef6-249">1,285.71</span></span></td>
+<td><span data-ttu-id="faf1a-244">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-244">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-245">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-245">HR</span></span></td>
+<td><span data-ttu-id="faf1a-246">1,000</span><span class="sxs-lookup"><span data-stu-id="faf1a-246">1,000</span></span></td>
+<td><span data-ttu-id="faf1a-247">(1,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-247">(1,000 ÷ 7,000) × 9,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-248">1,285.71</span><span class="sxs-lookup"><span data-stu-id="faf1a-248">1,285.71</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-250">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-250">CC002</span></span></td>
-<td><span data-ttu-id="faef6-251">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-251">Finance</span></span></td>
-<td><span data-ttu-id="faef6-252">6,000</span><span class="sxs-lookup"><span data-stu-id="faef6-252">6,000</span></span></td>
-<td><span data-ttu-id="faef6-253">(6,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-253">(6,000 ÷ 7,000) × 9,000.00</span></span></td>
-<td><span data-ttu-id="faef6-254">7,714.29</span><span class="sxs-lookup"><span data-stu-id="faef6-254">7,714.29</span></span></td>
+<td><span data-ttu-id="faf1a-249">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-249">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-250">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-250">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-251">6,000</span><span class="sxs-lookup"><span data-stu-id="faf1a-251">6,000</span></span></td>
+<td><span data-ttu-id="faf1a-252">(6,000 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-252">(6,000 ÷ 7,000) × 9,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-253">7,714.29</span><span class="sxs-lookup"><span data-stu-id="faf1a-253">7,714.29</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-255">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-255">CC003</span></span></td>
-<td><span data-ttu-id="faef6-256">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-256">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-257">0</span><span class="sxs-lookup"><span data-stu-id="faef6-257">0</span></span></td>
-<td><span data-ttu-id="faef6-258">(0 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-258">(0 ÷ 7,000) × 9,000.00</span></span></td>
-<td><span data-ttu-id="faef6-259">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-259">0.00</span></span></td>
+<td><span data-ttu-id="faf1a-254">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-254">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-255">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-255">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-256">0</span><span class="sxs-lookup"><span data-stu-id="faf1a-256">0</span></span></td>
+<td><span data-ttu-id="faf1a-257">(0 ÷ 7,000) × 9,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-257">(0 ÷ 7,000) × 9,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-258">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-258">0.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-260">固定成本应平均分配到消耗了电的单个成本对象。</span><span class="sxs-lookup"><span data-stu-id="faef6-260">The fixed cost should be distributed evenly to the individual cost objects that have consumed electricity.</span></span> <span data-ttu-id="faef6-261">可以通过在公式分配基础中使用电统计维度成员取得此结果：（电 &gt; 0.00）下表显示当电消耗量用作可变成本的分配基础时的结果。</span><span class="sxs-lookup"><span data-stu-id="faef6-261">You can achieve this result by using the Electricity statistical dimension member in a formula allocation base: (Electricity &gt; 0.00) The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
+<span data-ttu-id="faf1a-259">固定成本应平均分配到消耗了电的单个成本对象。</span><span class="sxs-lookup"><span data-stu-id="faf1a-259">The fixed cost should be distributed evenly to the individual cost objects that have consumed electricity.</span></span> <span data-ttu-id="faf1a-260">可以通过在公式分配基础中使用电统计维度成员取得此结果：（电 &gt; 0.00）下表显示当电消耗量用作可变成本的分配基础时的结果。</span><span class="sxs-lookup"><span data-stu-id="faf1a-260">You can achieve this result by using the Electricity statistical dimension member in a formula allocation base: (Electricity &gt; 0.00) The following table shows the result when electricity consumption is applied as an allocation base for variable costs.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-262">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-262">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-263">配方</span><span class="sxs-lookup"><span data-stu-id="faef6-263">Formula</span></span></th>
-<th><span data-ttu-id="faef6-264">度量值</span><span class="sxs-lookup"><span data-stu-id="faef6-264">Magnitude</span></span></th>
-<th><span data-ttu-id="faef6-265">分配系数</span><span class="sxs-lookup"><span data-stu-id="faef6-265">Allocation factor</span></span></th>
-<th><span data-ttu-id="faef6-266">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-266">Amount</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-261">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-261">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-262">配方</span><span class="sxs-lookup"><span data-stu-id="faf1a-262">Formula</span></span></th>
+<th><span data-ttu-id="faf1a-263">度量值</span><span class="sxs-lookup"><span data-stu-id="faf1a-263">Magnitude</span></span></th>
+<th><span data-ttu-id="faf1a-264">分配系数</span><span class="sxs-lookup"><span data-stu-id="faf1a-264">Allocation factor</span></span></th>
+<th><span data-ttu-id="faf1a-265">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-265">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-267">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-267">CC001</span></span></td>
-<td><span data-ttu-id="faef6-268">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-268">HR</span></span></td>
-<td><span data-ttu-id="faef6-269">(1,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="faef6-269">(1,000 &gt; 0.00)</span></span></td>
-<td><span data-ttu-id="faef6-270">1</span><span class="sxs-lookup"><span data-stu-id="faef6-270">1</span></span></td>
-<td><span data-ttu-id="faef6-271">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-271">(1 ÷ 2) × 1,000.00</span></span></td>
-<td><span data-ttu-id="faef6-272">500.00</span><span class="sxs-lookup"><span data-stu-id="faef6-272">500.00</span></span></td>
+<td><span data-ttu-id="faf1a-266">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-266">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-267">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-267">HR</span></span></td>
+<td><span data-ttu-id="faf1a-268">(1,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="faf1a-268">(1,000 &gt; 0.00)</span></span></td>
+<td><span data-ttu-id="faf1a-269">1</span><span class="sxs-lookup"><span data-stu-id="faf1a-269">1</span></span></td>
+<td><span data-ttu-id="faf1a-270">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-270">(1 ÷ 2) × 1,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-271">500.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-271">500.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-273">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-273">CC002</span></span></td>
-<td><span data-ttu-id="faef6-274">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-274">Finance</span></span></td>
-<td><span data-ttu-id="faef6-275">(6,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="faef6-275">(6,000 &gt; 0.00)</span></span></td>
-<td><span data-ttu-id="faef6-276">1</span><span class="sxs-lookup"><span data-stu-id="faef6-276">1</span></span></td>
-<td><span data-ttu-id="faef6-277">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-277">(1 ÷ 2) × 1,000.00</span></span></td>
-<td><span data-ttu-id="faef6-278">500.00</span><span class="sxs-lookup"><span data-stu-id="faef6-278">500.00</span></span></td>
+<td><span data-ttu-id="faf1a-272">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-272">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-273">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-273">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-274">(6,000 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="faf1a-274">(6,000 &gt; 0.00)</span></span></td>
+<td><span data-ttu-id="faf1a-275">1</span><span class="sxs-lookup"><span data-stu-id="faf1a-275">1</span></span></td>
+<td><span data-ttu-id="faf1a-276">(1 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-276">(1 ÷ 2) × 1,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-277">500.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-277">500.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-279">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-279">CC003</span></span></td>
-<td><span data-ttu-id="faef6-280">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-280">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-281">(0 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="faef6-281">(0 &gt; 0.00)</span></span></td>
-<td><span data-ttu-id="faef6-282">0</span><span class="sxs-lookup"><span data-stu-id="faef6-282">0</span></span></td>
-<td><span data-ttu-id="faef6-283">(0 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-283">(0 ÷ 2) × 1,000.00</span></span></td>
-<td><span data-ttu-id="faef6-284">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-284">0.00</span></span></td>
+<td><span data-ttu-id="faf1a-278">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-278">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-279">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-279">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-280">(0 &gt; 0.00)</span><span class="sxs-lookup"><span data-stu-id="faf1a-280">(0 &gt; 0.00)</span></span></td>
+<td><span data-ttu-id="faf1a-281">0</span><span class="sxs-lookup"><span data-stu-id="faf1a-281">0</span></span></td>
+<td><span data-ttu-id="faf1a-282">(0 ÷ 2) × 1,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-282">(0 ÷ 2) × 1,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-283">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-283">0.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal"></a><span data-ttu-id="faef6-285">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-285">Journal</span></span>
+##### <a name="journal"></a><span data-ttu-id="faf1a-284">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-284">Journal</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="faef6-286">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-286">Journal</span></span></th>
-<th><span data-ttu-id="faef6-287">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="faef6-287">Journal type</span></span></th>
-<th colspan="3"><span data-ttu-id="faef6-288">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="faef6-288">Fiscal calendar period</span></span></th>
-<th><span data-ttu-id="faef6-289">版本</span><span class="sxs-lookup"><span data-stu-id="faef6-289">Version</span></span></th>
+<th><span data-ttu-id="faf1a-285">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-285">Journal</span></span></th>
+<th><span data-ttu-id="faf1a-286">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="faf1a-286">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="faf1a-287">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="faf1a-287">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="faf1a-288">版本</span><span class="sxs-lookup"><span data-stu-id="faf1a-288">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-290">00002</span><span class="sxs-lookup"><span data-stu-id="faef6-290">00002</span></span></td>
-<td><span data-ttu-id="faef6-291">成本分配计算日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-291">Cost distribution calculation journal</span></span></td>
-<td><span data-ttu-id="faef6-292">会计</span><span class="sxs-lookup"><span data-stu-id="faef6-292">Fiscal</span></span></td>
-<td><span data-ttu-id="faef6-293">2017</span><span class="sxs-lookup"><span data-stu-id="faef6-293">2017</span></span></td>
-<td><span data-ttu-id="faef6-294">期间 1</span><span class="sxs-lookup"><span data-stu-id="faef6-294">Period 1</span></span></td>
-<td><span data-ttu-id="faef6-295">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="faef6-295">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
+<td><span data-ttu-id="faf1a-289">00002</span><span class="sxs-lookup"><span data-stu-id="faf1a-289">00002</span></span></td>
+<td><span data-ttu-id="faf1a-290">成本分配计算日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-290">Cost distribution calculation journal</span></span></td>
+<td><span data-ttu-id="faf1a-291">会计</span><span class="sxs-lookup"><span data-stu-id="faf1a-291">Fiscal</span></span></td>
+<td><span data-ttu-id="faf1a-292">2017</span><span class="sxs-lookup"><span data-stu-id="faf1a-292">2017</span></span></td>
+<td><span data-ttu-id="faf1a-293">期间 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-293">Period 1</span></span></td>
+<td><span data-ttu-id="faf1a-294">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-294">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="faef6-296">日记帐条目（成本对象余额日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="faef6-296">Journal entries (Cost object balance journal entries)</span></span>
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="faf1a-295">日记帐条目（成本对象余额日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="faf1a-295">Journal entries (Cost object balance journal entries)</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="faef6-297">会计日期</span><span class="sxs-lookup"><span data-stu-id="faef6-297">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-298">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-298">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-299">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-299">Cost element</span></span></th>
-<th><span data-ttu-id="faef6-300">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-300">Cost behavior</span></span></th>
-<th><span data-ttu-id="faef6-301">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-301">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-296">会计日期</span><span class="sxs-lookup"><span data-stu-id="faf1a-296">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-297">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-297">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-298">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-298">Cost element</span></span></th>
+<th><span data-ttu-id="faf1a-299">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-299">Cost behavior</span></span></th>
+<th><span data-ttu-id="faf1a-300">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-300">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-302">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-302">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-303">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-303">CC099</span></span></td>
-<td><span data-ttu-id="faef6-304">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-304">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-305">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-305">10001</span></span></td>
-<td><span data-ttu-id="faef6-306">电</span><span class="sxs-lookup"><span data-stu-id="faef6-306">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-307">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-307">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-308">1,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-308">1,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-301">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-301">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-302">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-302">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-303">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-303">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-304">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-304">10001</span></span></td>
+<td><span data-ttu-id="faf1a-305">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-305">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-306">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-306">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-307">1,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-307">1,000.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-309">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-309">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-310">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-310">CC099</span></span></td>
-<td><span data-ttu-id="faef6-311">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-311">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-312">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-312">10001</span></span></td>
-<td><span data-ttu-id="faef6-313">电</span><span class="sxs-lookup"><span data-stu-id="faef6-313">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-314">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-314">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-315">9,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-315">9,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-308">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-308">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-309">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-309">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-310">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-310">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-311">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-311">10001</span></span></td>
+<td><span data-ttu-id="faf1a-312">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-312">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-313">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-313">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-314">9,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-314">9,000.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a><span data-ttu-id="faef6-316">成本条目</span><span class="sxs-lookup"><span data-stu-id="faef6-316">Cost entries</span></span>
+##### <a name="cost-entries"></a><span data-ttu-id="faf1a-315">成本条目</span><span class="sxs-lookup"><span data-stu-id="faf1a-315">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-317">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-317">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-318">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-318">Cost element</span></span></th>
-<th><span data-ttu-id="faef6-319">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-319">Cost behavior</span></span></th>
-<th><span data-ttu-id="faef6-320">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-320">Amount</span></span></th>
-<th><span data-ttu-id="faef6-321">会计日期</span><span class="sxs-lookup"><span data-stu-id="faef6-321">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-316">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-316">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-317">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-317">Cost element</span></span></th>
+<th><span data-ttu-id="faf1a-318">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-318">Cost behavior</span></span></th>
+<th><span data-ttu-id="faf1a-319">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-319">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-320">会计日期</span><span class="sxs-lookup"><span data-stu-id="faf1a-320">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-322">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-322">CC099</span></span></td>
-<td><span data-ttu-id="faef6-323">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-323">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-324">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-324">10001</span></span></td>
-<td><span data-ttu-id="faef6-325">电</span><span class="sxs-lookup"><span data-stu-id="faef6-325">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-326">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-326">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-327">-1,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-327">-1,000.00</span></span></td>
-<td><span data-ttu-id="faef6-328">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-328">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-321">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-321">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-322">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-322">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-323">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-323">10001</span></span></td>
+<td><span data-ttu-id="faf1a-324">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-324">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-325">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-325">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-326">-1,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-326">-1,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-327">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-327">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-329">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-329">CC001</span></span></td>
-<td><span data-ttu-id="faef6-330">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-330">HR</span></span></td>
-<td><span data-ttu-id="faef6-331">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-331">10001</span></span></td>
-<td><span data-ttu-id="faef6-332">电</span><span class="sxs-lookup"><span data-stu-id="faef6-332">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-333">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-333">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-334">500.00</span><span class="sxs-lookup"><span data-stu-id="faef6-334">500.00</span></span></td>
-<td><span data-ttu-id="faef6-335">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-335">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-328">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-328">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-329">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-329">HR</span></span></td>
+<td><span data-ttu-id="faf1a-330">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-330">10001</span></span></td>
+<td><span data-ttu-id="faf1a-331">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-331">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-332">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-332">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-333">500.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-333">500.00</span></span></td>
+<td><span data-ttu-id="faf1a-334">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-334">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-336">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-336">CC002</span></span></td>
-<td><span data-ttu-id="faef6-337">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-337">Finance</span></span></td>
-<td><span data-ttu-id="faef6-338">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-338">10001</span></span></td>
-<td><span data-ttu-id="faef6-339">电</span><span class="sxs-lookup"><span data-stu-id="faef6-339">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-340">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-340">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-341">500.00</span><span class="sxs-lookup"><span data-stu-id="faef6-341">500.00</span></span></td>
-<td><span data-ttu-id="faef6-342">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-342">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-335">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-335">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-336">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-336">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-337">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-337">10001</span></span></td>
+<td><span data-ttu-id="faf1a-338">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-338">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-339">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-339">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-340">500.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-340">500.00</span></span></td>
+<td><span data-ttu-id="faf1a-341">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-341">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-343">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-343">CC099</span></span></td>
-<td><span data-ttu-id="faef6-344">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faef6-344">Default cost center</span></span></td>
-<td><span data-ttu-id="faef6-345">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-345">10001</span></span></td>
-<td><span data-ttu-id="faef6-346">电</span><span class="sxs-lookup"><span data-stu-id="faef6-346">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-347">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-347">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-348">-9,000.00</span><span class="sxs-lookup"><span data-stu-id="faef6-348">-9,000.00</span></span></td>
-<td><span data-ttu-id="faef6-349">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-349">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-342">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-342">CC099</span></span></td>
+<td><span data-ttu-id="faf1a-343">默认成本中心</span><span class="sxs-lookup"><span data-stu-id="faf1a-343">Default cost center</span></span></td>
+<td><span data-ttu-id="faf1a-344">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-344">10001</span></span></td>
+<td><span data-ttu-id="faf1a-345">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-345">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-346">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-346">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-347">-9,000.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-347">-9,000.00</span></span></td>
+<td><span data-ttu-id="faf1a-348">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-348">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-350">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-350">CC001</span></span></td>
-<td><span data-ttu-id="faef6-351">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-351">HR</span></span></td>
-<td><span data-ttu-id="faef6-352">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-352">10001</span></span></td>
-<td><span data-ttu-id="faef6-353">电</span><span class="sxs-lookup"><span data-stu-id="faef6-353">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-354">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-354">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-355">1,285.71</span><span class="sxs-lookup"><span data-stu-id="faef6-355">1,285.71</span></span></td>
-<td><span data-ttu-id="faef6-356">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-356">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-349">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-349">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-350">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-350">HR</span></span></td>
+<td><span data-ttu-id="faf1a-351">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-351">10001</span></span></td>
+<td><span data-ttu-id="faf1a-352">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-352">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-353">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-353">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-354">1,285.71</span><span class="sxs-lookup"><span data-stu-id="faf1a-354">1,285.71</span></span></td>
+<td><span data-ttu-id="faf1a-355">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-355">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-357">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-357">CC002</span></span></td>
-<td><span data-ttu-id="faef6-358">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-358">Finance</span></span></td>
-<td><span data-ttu-id="faef6-359">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-359">10001</span></span></td>
-<td><span data-ttu-id="faef6-360">电</span><span class="sxs-lookup"><span data-stu-id="faef6-360">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-361">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-361">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-362">7,714.29</span><span class="sxs-lookup"><span data-stu-id="faef6-362">7,714.29</span></span></td>
-<td><span data-ttu-id="faef6-363">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-363">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-356">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-356">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-357">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-357">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-358">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-358">10001</span></span></td>
+<td><span data-ttu-id="faf1a-359">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-359">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-360">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-360">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-361">7,714.29</span><span class="sxs-lookup"><span data-stu-id="faf1a-361">7,714.29</span></span></td>
+<td><span data-ttu-id="faf1a-362">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-362">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-364">有关成本分配和分配基础的详细信息，请参阅“成本分配成本”和“分配基础”。</span><span class="sxs-lookup"><span data-stu-id="faef6-364">For detailed information about cost distribution and allocation bases, see Cost distribution policy and Allocation bases.</span></span> <span data-ttu-id="faef6-365">（请注意，此主题尚未完成，不过将很快推出。）</span><span class="sxs-lookup"><span data-stu-id="faef6-365">(Note that this topic isn't competed yet but is coming soon.)</span></span>
+<span data-ttu-id="faf1a-363">有关详细信息，请参阅[创建成本分配策略并将其分配到成本控制单元](tasks/create-assign-cost-distribution-policy-cost-control-unit.md)。</span><span class="sxs-lookup"><span data-stu-id="faf1a-363">For more information, see [Create and assign a cost distribution policy to a cost control unit](tasks/create-assign-cost-distribution-policy-cost-control-unit.md).</span></span> 
 
-### <a name="step-3-process-the-overhead-rate-calculation"></a><span data-ttu-id="faef6-366">步骤 3：处理开销比率计算</span><span class="sxs-lookup"><span data-stu-id="faef6-366">Step 3: Process the overhead rate calculation</span></span>
+### <a name="step-3-process-the-overhead-rate-calculation"></a><span data-ttu-id="faf1a-364">步骤 3：处理开销比率计算</span><span class="sxs-lookup"><span data-stu-id="faf1a-364">Step 3: Process the overhead rate calculation</span></span>
 
-<span data-ttu-id="faef6-367">开销比率用于向一个或多个特定成本对象收费。</span><span class="sxs-lookup"><span data-stu-id="faef6-367">The overhead rate is used to charge one or more specific cost objects.</span></span> <span data-ttu-id="faef6-368">费用基于预先确定的成本率和来自指定的分配基础的度量值。</span><span class="sxs-lookup"><span data-stu-id="faef6-368">The charge is based on a predetermined cost rate and the magnitude from the assigned allocation base.</span></span> 
+<span data-ttu-id="faf1a-365">开销比率用于向一个或多个特定成本对象收费。</span><span class="sxs-lookup"><span data-stu-id="faf1a-365">The overhead rate is used to charge one or more specific cost objects.</span></span> <span data-ttu-id="faf1a-366">费用基于预先确定的成本率和来自指定的分配基础的度量值。</span><span class="sxs-lookup"><span data-stu-id="faf1a-366">The charge is based on a predetermined cost rate and the magnitude from the assigned allocation base.</span></span> 
 
-#### <a name="define-the-overhead-rate"></a><span data-ttu-id="faef6-369">定义开销比率</span><span class="sxs-lookup"><span data-stu-id="faef6-369">Define the overhead rate</span></span>
+#### <a name="define-the-overhead-rate"></a><span data-ttu-id="faf1a-367">定义开销比率</span><span class="sxs-lookup"><span data-stu-id="faf1a-367">Define the overhead rate</span></span>
 
-<span data-ttu-id="faef6-370">成本对象 CC001 HR 生成一组内部项目。</span><span class="sxs-lookup"><span data-stu-id="faef6-370">Cost object CC001 HR contributes to a set of internal projects.</span></span> <span data-ttu-id="faef6-371">创建名为“HR 项目”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faef6-371">A statistical dimension member that is named HR projects is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="faf1a-368">成本对象 CC001 HR 生成一组内部项目。</span><span class="sxs-lookup"><span data-stu-id="faf1a-368">Cost object CC001 HR contributes to a set of internal projects.</span></span> <span data-ttu-id="faf1a-369">创建名为“HR 项目”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faf1a-369">A statistical dimension member that is named HR projects is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-372">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-372">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-373">工时</span><span class="sxs-lookup"><span data-stu-id="faef6-373">Hours</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-370">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-370">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-371">工时</span><span class="sxs-lookup"><span data-stu-id="faf1a-371">Hours</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-374">项目 1</span><span class="sxs-lookup"><span data-stu-id="faef6-374">Proj 1</span></span></td>
-<td><span data-ttu-id="faef6-375">项目 1</span><span class="sxs-lookup"><span data-stu-id="faef6-375">Project 1</span></span></td>
-<td><span data-ttu-id="faef6-376">3</span><span class="sxs-lookup"><span data-stu-id="faef6-376">3</span></span></td>
+<td><span data-ttu-id="faf1a-372">项目 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-372">Proj 1</span></span></td>
+<td><span data-ttu-id="faf1a-373">项目 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-373">Project 1</span></span></td>
+<td><span data-ttu-id="faf1a-374">3</span><span class="sxs-lookup"><span data-stu-id="faf1a-374">3</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-377">项目 2</span><span class="sxs-lookup"><span data-stu-id="faef6-377">Proj 2</span></span></td>
-<td><span data-ttu-id="faef6-378">项目 2</span><span class="sxs-lookup"><span data-stu-id="faef6-378">Project 2</span></span></td>
-<td><span data-ttu-id="faef6-379">1</span><span class="sxs-lookup"><span data-stu-id="faef6-379">1</span></span></td>
+<td><span data-ttu-id="faf1a-375">项目 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-375">Proj 2</span></span></td>
+<td><span data-ttu-id="faf1a-376">项目 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-376">Project 2</span></span></td>
+<td><span data-ttu-id="faf1a-377">1</span><span class="sxs-lookup"><span data-stu-id="faf1a-377">1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-380">成本项目份额预先确定的成本率已定义。</span><span class="sxs-lookup"><span data-stu-id="faef6-380">A predetermined cost rate for the cost projects contribution has been defined.</span></span>
+<span data-ttu-id="faf1a-378">成本项目份额预先确定的成本率已定义。</span><span class="sxs-lookup"><span data-stu-id="faf1a-378">A predetermined cost rate for the cost projects contribution has been defined.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-381">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-381">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-382">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-382">Cost element</span></span></th>
-<th><span data-ttu-id="faef6-383">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-383">Cost behavior</span></span></th>
-<th><span data-ttu-id="faef6-384">单位</span><span class="sxs-lookup"><span data-stu-id="faef6-384">Units</span></span></th>
-<th><span data-ttu-id="faef6-385">比率</span><span class="sxs-lookup"><span data-stu-id="faef6-385">Rate</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-379">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-379">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-380">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-380">Cost element</span></span></th>
+<th><span data-ttu-id="faf1a-381">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-381">Cost behavior</span></span></th>
+<th><span data-ttu-id="faf1a-382">单位</span><span class="sxs-lookup"><span data-stu-id="faf1a-382">Units</span></span></th>
+<th><span data-ttu-id="faf1a-383">比率</span><span class="sxs-lookup"><span data-stu-id="faf1a-383">Rate</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-386">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-386">CC001</span></span></td>
-<td><span data-ttu-id="faef6-387">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-387">HR</span></span></td>
-<td><span data-ttu-id="faef6-388">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-388">10001</span></span></td>
-<td><span data-ttu-id="faef6-389">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-389">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-390">1</span><span class="sxs-lookup"><span data-stu-id="faef6-390">1</span></span></td>
-<td><span data-ttu-id="faef6-391">10</span><span class="sxs-lookup"><span data-stu-id="faef6-391">10</span></span></td>
+<td><span data-ttu-id="faf1a-384">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-384">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-385">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-385">HR</span></span></td>
+<td><span data-ttu-id="faf1a-386">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-386">10001</span></span></td>
+<td><span data-ttu-id="faf1a-387">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-387">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-388">1</span><span class="sxs-lookup"><span data-stu-id="faf1a-388">1</span></span></td>
+<td><span data-ttu-id="faf1a-389">10</span><span class="sxs-lookup"><span data-stu-id="faf1a-389">10</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-392">下表显示 HR 项目用作分配基础时的结果。</span><span class="sxs-lookup"><span data-stu-id="faef6-392">The following table shows the result when the HR projects are applied as an allocation base.</span></span>
+<span data-ttu-id="faf1a-390">下表显示 HR 项目用作分配基础时的结果。</span><span class="sxs-lookup"><span data-stu-id="faf1a-390">The following table shows the result when the HR projects are applied as an allocation base.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-393">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-393">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-394">度量值</span><span class="sxs-lookup"><span data-stu-id="faef6-394">Magnitude</span></span></th>
-<th><span data-ttu-id="faef6-395">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-395">Cost element</span></span></th>
-<th><span data-ttu-id="faef6-396">分配系数</span><span class="sxs-lookup"><span data-stu-id="faef6-396">Allocation factor</span></span></th>
-<th><span data-ttu-id="faef6-397">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-397">Amount</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-391">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-391">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-392">度量值</span><span class="sxs-lookup"><span data-stu-id="faf1a-392">Magnitude</span></span></th>
+<th><span data-ttu-id="faf1a-393">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-393">Cost element</span></span></th>
+<th><span data-ttu-id="faf1a-394">分配系数</span><span class="sxs-lookup"><span data-stu-id="faf1a-394">Allocation factor</span></span></th>
+<th><span data-ttu-id="faf1a-395">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-395">Amount</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-398">项目 1</span><span class="sxs-lookup"><span data-stu-id="faef6-398">Proj 1</span></span></td>
-<td><span data-ttu-id="faef6-399">项目 1</span><span class="sxs-lookup"><span data-stu-id="faef6-399">Project 1</span></span></td>
-<td><span data-ttu-id="faef6-400">3</span><span class="sxs-lookup"><span data-stu-id="faef6-400">3</span></span></td>
-<td><span data-ttu-id="faef6-401">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-401">10001</span></span></td>
-<td><span data-ttu-id="faef6-402">(3 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="faef6-402">(3 ÷ 1) × 10.00</span></span></td>
-<td><span data-ttu-id="faef6-403">30.00</span><span class="sxs-lookup"><span data-stu-id="faef6-403">30.00</span></span></td>
+<td><span data-ttu-id="faf1a-396">项目 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-396">Proj 1</span></span></td>
+<td><span data-ttu-id="faf1a-397">项目 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-397">Project 1</span></span></td>
+<td><span data-ttu-id="faf1a-398">3</span><span class="sxs-lookup"><span data-stu-id="faf1a-398">3</span></span></td>
+<td><span data-ttu-id="faf1a-399">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-399">10001</span></span></td>
+<td><span data-ttu-id="faf1a-400">(3 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-400">(3 ÷ 1) × 10.00</span></span></td>
+<td><span data-ttu-id="faf1a-401">30.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-401">30.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-404">项目 2</span><span class="sxs-lookup"><span data-stu-id="faef6-404">Proj 2</span></span></td>
-<td><span data-ttu-id="faef6-405">项目 2</span><span class="sxs-lookup"><span data-stu-id="faef6-405">Project 2</span></span></td>
-<td><span data-ttu-id="faef6-406">1</span><span class="sxs-lookup"><span data-stu-id="faef6-406">1</span></span></td>
-<td><span data-ttu-id="faef6-407">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-407">10001</span></span></td>
-<td><span data-ttu-id="faef6-408">(1 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="faef6-408">(1 ÷ 1) × 10.00</span></span></td>
-<td><span data-ttu-id="faef6-409">10.00</span><span class="sxs-lookup"><span data-stu-id="faef6-409">10.00</span></span></td>
+<td><span data-ttu-id="faf1a-402">项目 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-402">Proj 2</span></span></td>
+<td><span data-ttu-id="faf1a-403">项目 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-403">Project 2</span></span></td>
+<td><span data-ttu-id="faf1a-404">1</span><span class="sxs-lookup"><span data-stu-id="faf1a-404">1</span></span></td>
+<td><span data-ttu-id="faf1a-405">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-405">10001</span></span></td>
+<td><span data-ttu-id="faf1a-406">(1 ÷ 1) × 10.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-406">(1 ÷ 1) × 10.00</span></span></td>
+<td><span data-ttu-id="faf1a-407">10.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-407">10.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal"></a><span data-ttu-id="faef6-410">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-410">Journal</span></span>
+##### <a name="journal"></a><span data-ttu-id="faf1a-408">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-408">Journal</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="faef6-411">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-411">Journal</span></span></th>
-<th><span data-ttu-id="faef6-412">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="faef6-412">Journal type</span></span></th>
-<th colspan="3"><span data-ttu-id="faef6-413">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="faef6-413">Fiscal calendar period</span></span></th>
-<th><span data-ttu-id="faef6-414">版本</span><span class="sxs-lookup"><span data-stu-id="faef6-414">Version</span></span></th>
+<th><span data-ttu-id="faf1a-409">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-409">Journal</span></span></th>
+<th><span data-ttu-id="faf1a-410">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="faf1a-410">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="faf1a-411">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="faf1a-411">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="faf1a-412">版本</span><span class="sxs-lookup"><span data-stu-id="faf1a-412">Version</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-415">00003</span><span class="sxs-lookup"><span data-stu-id="faef6-415">00003</span></span></td>
-<td><span data-ttu-id="faef6-416">开销比率计算日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-416">Overhead rate calculation journal</span></span></td>
-<td><span data-ttu-id="faef6-417">会计</span><span class="sxs-lookup"><span data-stu-id="faef6-417">Fiscal</span></span></td>
-<td><span data-ttu-id="faef6-418">2017</span><span class="sxs-lookup"><span data-stu-id="faef6-418">2017</span></span></td>
-<td><span data-ttu-id="faef6-419">期间 1</span><span class="sxs-lookup"><span data-stu-id="faef6-419">Period 1</span></span></td>
-<td><span data-ttu-id="faef6-420">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="faef6-420">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
+<td><span data-ttu-id="faf1a-413">00003</span><span class="sxs-lookup"><span data-stu-id="faf1a-413">00003</span></span></td>
+<td><span data-ttu-id="faf1a-414">开销比率计算日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-414">Overhead rate calculation journal</span></span></td>
+<td><span data-ttu-id="faf1a-415">会计</span><span class="sxs-lookup"><span data-stu-id="faf1a-415">Fiscal</span></span></td>
+<td><span data-ttu-id="faf1a-416">2017</span><span class="sxs-lookup"><span data-stu-id="faf1a-416">2017</span></span></td>
+<td><span data-ttu-id="faf1a-417">期间 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-417">Period 1</span></span></td>
+<td><span data-ttu-id="faf1a-418">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-418">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="journal-entries-journal-entries-for-overhead-rate-calculation"></a><span data-ttu-id="faef6-421">日记帐条目（开销比率计算的日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="faef6-421">Journal entries (Journal entries for overhead rate calculation)</span></span>
+##### <a name="journal-entries-journal-entries-for-overhead-rate-calculation"></a><span data-ttu-id="faf1a-419">日记帐条目（开销比率计算的日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="faf1a-419">Journal entries (Journal entries for overhead rate calculation)</span></span>
 
 <table>
 <thead>
 <tr>
-<th><span data-ttu-id="faef6-422">会计日期</span><span class="sxs-lookup"><span data-stu-id="faef6-422">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-423">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-423">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-424">度量值</span><span class="sxs-lookup"><span data-stu-id="faef6-424">Magnitude</span></span></th>
+<th><span data-ttu-id="faf1a-420">会计日期</span><span class="sxs-lookup"><span data-stu-id="faf1a-420">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-421">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-421">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-422">度量值</span><span class="sxs-lookup"><span data-stu-id="faf1a-422">Magnitude</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-425">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-425">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-426">项目 1</span><span class="sxs-lookup"><span data-stu-id="faef6-426">Proj 1</span></span></td>
-<td><span data-ttu-id="faef6-427">内部项目 1</span><span class="sxs-lookup"><span data-stu-id="faef6-427">Internal Proj 1</span></span></td>
-<td><span data-ttu-id="faef6-428">3.00</span><span class="sxs-lookup"><span data-stu-id="faef6-428">3.00</span></span></td>
+<td><span data-ttu-id="faf1a-423">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-423">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-424">项目 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-424">Proj 1</span></span></td>
+<td><span data-ttu-id="faf1a-425">内部项目 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-425">Internal Proj 1</span></span></td>
+<td><span data-ttu-id="faf1a-426">3.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-426">3.00</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-429">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-429">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-430">项目 2</span><span class="sxs-lookup"><span data-stu-id="faef6-430">Proj 2</span></span></td>
-<td><span data-ttu-id="faef6-431">内部项目 2</span><span class="sxs-lookup"><span data-stu-id="faef6-431">Internal Proj 2</span></span></td>
-<td><span data-ttu-id="faef6-432">1.00</span><span class="sxs-lookup"><span data-stu-id="faef6-432">1.00</span></span></td>
+<td><span data-ttu-id="faf1a-427">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-427">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-428">项目 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-428">Proj 2</span></span></td>
+<td><span data-ttu-id="faf1a-429">内部项目 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-429">Internal Proj 2</span></span></td>
+<td><span data-ttu-id="faf1a-430">1.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-430">1.00</span></span></td>
 </tr>
 </tbody>
 </table>
 
-##### <a name="cost-entries"></a><span data-ttu-id="faef6-433">成本条目</span><span class="sxs-lookup"><span data-stu-id="faef6-433">Cost entries</span></span>
+##### <a name="cost-entries"></a><span data-ttu-id="faf1a-431">成本条目</span><span class="sxs-lookup"><span data-stu-id="faf1a-431">Cost entries</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-434">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-434">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-435">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-435">Cost element</span></span></th>
-<th><span data-ttu-id="faef6-436">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-436">Cost behavior</span></span></th>
-<th><span data-ttu-id="faef6-437">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-437">Amount</span></span></th>
-<th><span data-ttu-id="faef6-438">会计日期</span><span class="sxs-lookup"><span data-stu-id="faef6-438">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-432">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-432">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-433">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-433">Cost element</span></span></th>
+<th><span data-ttu-id="faf1a-434">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-434">Cost behavior</span></span></th>
+<th><span data-ttu-id="faf1a-435">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-435">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-436">会计日期</span><span class="sxs-lookup"><span data-stu-id="faf1a-436">Accounting date</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-439">CC0001</span><span class="sxs-lookup"><span data-stu-id="faef6-439">CC0001</span></span></td>
-<td><span data-ttu-id="faef6-440">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-440">HR</span></span></td>
-<td><span data-ttu-id="faef6-441">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-441">10001</span></span></td>
-<td><span data-ttu-id="faef6-442">电</span><span class="sxs-lookup"><span data-stu-id="faef6-442">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-443">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-443">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-444">-30.00</span><span class="sxs-lookup"><span data-stu-id="faef6-444">-30.00</span></span></td>
-<td><span data-ttu-id="faef6-445">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-445">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-437">CC0001</span><span class="sxs-lookup"><span data-stu-id="faf1a-437">CC0001</span></span></td>
+<td><span data-ttu-id="faf1a-438">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-438">HR</span></span></td>
+<td><span data-ttu-id="faf1a-439">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-439">10001</span></span></td>
+<td><span data-ttu-id="faf1a-440">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-440">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-441">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-441">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-442">-30.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-442">-30.00</span></span></td>
+<td><span data-ttu-id="faf1a-443">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-443">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-446">项目 1</span><span class="sxs-lookup"><span data-stu-id="faef6-446">Proj 1</span></span></td>
-<td><span data-ttu-id="faef6-447">内部项目 1</span><span class="sxs-lookup"><span data-stu-id="faef6-447">Internal Proj 1</span></span></td>
-<td><span data-ttu-id="faef6-448">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-448">10001</span></span></td>
-<td><span data-ttu-id="faef6-449">电</span><span class="sxs-lookup"><span data-stu-id="faef6-449">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-450">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-450">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-451">30.00</span><span class="sxs-lookup"><span data-stu-id="faef6-451">30.00</span></span></td>
-<td><span data-ttu-id="faef6-452">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-452">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-444">项目 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-444">Proj 1</span></span></td>
+<td><span data-ttu-id="faf1a-445">内部项目 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-445">Internal Proj 1</span></span></td>
+<td><span data-ttu-id="faf1a-446">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-446">10001</span></span></td>
+<td><span data-ttu-id="faf1a-447">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-447">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-448">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-448">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-449">30.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-449">30.00</span></span></td>
+<td><span data-ttu-id="faf1a-450">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-450">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-453">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-453">CC001</span></span></td>
-<td><span data-ttu-id="faef6-454">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-454">HR</span></span></td>
-<td><span data-ttu-id="faef6-455">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-455">10001</span></span></td>
-<td><span data-ttu-id="faef6-456">电</span><span class="sxs-lookup"><span data-stu-id="faef6-456">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-457">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-457">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-458">-10.00</span><span class="sxs-lookup"><span data-stu-id="faef6-458">-10.00</span></span></td>
-<td><span data-ttu-id="faef6-459">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-459">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-451">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-451">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-452">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-452">HR</span></span></td>
+<td><span data-ttu-id="faf1a-453">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-453">10001</span></span></td>
+<td><span data-ttu-id="faf1a-454">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-454">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-455">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-455">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-456">-10.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-456">-10.00</span></span></td>
+<td><span data-ttu-id="faf1a-457">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-457">January 31, 2017</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-460">项目 2</span><span class="sxs-lookup"><span data-stu-id="faef6-460">Proj 2</span></span></td>
-<td><span data-ttu-id="faef6-461">内部项目 2</span><span class="sxs-lookup"><span data-stu-id="faef6-461">Internal Proj 2</span></span></td>
-<td><span data-ttu-id="faef6-462">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-462">10001</span></span></td>
-<td><span data-ttu-id="faef6-463">电</span><span class="sxs-lookup"><span data-stu-id="faef6-463">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-464">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-464">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-465">10.00</span><span class="sxs-lookup"><span data-stu-id="faef6-465">10.00</span></span></td>
-<td><span data-ttu-id="faef6-466">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-466">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-458">项目 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-458">Proj 2</span></span></td>
+<td><span data-ttu-id="faf1a-459">内部项目 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-459">Internal Proj 2</span></span></td>
+<td><span data-ttu-id="faf1a-460">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-460">10001</span></span></td>
+<td><span data-ttu-id="faf1a-461">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-461">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-462">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-462">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-463">10.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-463">10.00</span></span></td>
+<td><span data-ttu-id="faf1a-464">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-464">January 31, 2017</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-467">有关开销比率政策的详细信息，请参阅“开销比率政策”和“分配基础”。</span><span class="sxs-lookup"><span data-stu-id="faef6-467">For detailed information about overhead rate policy, see Overhead rate policy and Allocation bases.</span></span> <span data-ttu-id="faef6-468">（请注意，此主题尚未完成，不过将很快推出。）</span><span class="sxs-lookup"><span data-stu-id="faef6-468">(Note that this topic isn't competed yet but is coming soon.)</span></span>
+<span data-ttu-id="faf1a-465">有关详细信息，请参阅 [执行开销计算](cost-rollup.md#perform-overhead-calculation)。</span><span class="sxs-lookup"><span data-stu-id="faf1a-465">For more information, see [Perform overhead calculation](cost-rollup.md#perform-overhead-calculation).</span></span>
 
-### <a name="step-4-process-the-cost-allocation-calculation"></a><span data-ttu-id="faef6-469">步骤 4：处理成本分摊计算</span><span class="sxs-lookup"><span data-stu-id="faef6-469">Step 4: Process the cost allocation calculation</span></span>
+### <a name="step-4-process-the-cost-allocation-calculation"></a><span data-ttu-id="faf1a-466">步骤 4：处理成本分摊计算</span><span class="sxs-lookup"><span data-stu-id="faf1a-466">Step 4: Process the cost allocation calculation</span></span>
 
-<span data-ttu-id="faef6-470">分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。</span><span class="sxs-lookup"><span data-stu-id="faef6-470">Allocation is used to allocate the balance of a cost object to other cost objects by applying an allocation base.</span></span> <span data-ttu-id="faef6-471">Finance and Operations 支持互惠分摊方法。</span><span class="sxs-lookup"><span data-stu-id="faef6-471">Finance and Operations supports the reciprocal allocation method.</span></span> <span data-ttu-id="faef6-472">在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。</span><span class="sxs-lookup"><span data-stu-id="faef6-472">In the reciprocal allocation method, the mutual services that auxiliary cost objects exchange are fully recognized.</span></span> <span data-ttu-id="faef6-473">系统自动确定执行分摊的正确顺序。</span><span class="sxs-lookup"><span data-stu-id="faef6-473">The system automatically determines the correct order to perform the allocations in.</span></span> <span data-ttu-id="faef6-474">成本对象的余额按单一分配基础分配。</span><span class="sxs-lookup"><span data-stu-id="faef6-474">The balance of a cost object is allocated by a single allocation base.</span></span> <span data-ttu-id="faef6-475">支持跨成本对象维度及其各自成员的分摊。</span><span class="sxs-lookup"><span data-stu-id="faef6-475">Allocations across cost objects dimensions and their respective members are supported.</span></span> <span data-ttu-id="faef6-476">分摊顺序由成本控制单元控制。</span><span class="sxs-lookup"><span data-stu-id="faef6-476">The allocation order is controlled by the cost control unit.</span></span> 
+<span data-ttu-id="faf1a-467">分摊用于通过应用分配基础将成本对象的余额分配给其他成本对象。</span><span class="sxs-lookup"><span data-stu-id="faf1a-467">Allocation is used to allocate the balance of a cost object to other cost objects by applying an allocation base.</span></span> <span data-ttu-id="faf1a-468">Finance and Operations 支持互惠分摊方法。</span><span class="sxs-lookup"><span data-stu-id="faf1a-468">Finance and Operations supports the reciprocal allocation method.</span></span> <span data-ttu-id="faf1a-469">在互惠分摊方法中，辅助成本对象交换的互助服务被完全识别。</span><span class="sxs-lookup"><span data-stu-id="faf1a-469">In the reciprocal allocation method, the mutual services that auxiliary cost objects exchange are fully recognized.</span></span> <span data-ttu-id="faf1a-470">系统自动确定执行分摊的正确顺序。</span><span class="sxs-lookup"><span data-stu-id="faf1a-470">The system automatically determines the correct order to perform the allocations in.</span></span> <span data-ttu-id="faf1a-471">成本对象的余额按单一分配基础分配。</span><span class="sxs-lookup"><span data-stu-id="faf1a-471">The balance of a cost object is allocated by a single allocation base.</span></span> <span data-ttu-id="faf1a-472">支持跨成本对象维度及其各自成员的分摊。</span><span class="sxs-lookup"><span data-stu-id="faf1a-472">Allocations across cost objects dimensions and their respective members are supported.</span></span> <span data-ttu-id="faf1a-473">分摊顺序由成本控制单元控制。</span><span class="sxs-lookup"><span data-stu-id="faf1a-473">The allocation order is controlled by the cost control unit.</span></span> 
 
-<span data-ttu-id="faef6-477">[![互惠方法](./media/reciprocal-method.png)](./media/reciprocal-method.png)</span><span class="sxs-lookup"><span data-stu-id="faef6-477">[![Reciprocal method](./media/reciprocal-method.png)](./media/reciprocal-method.png)</span></span>
+<span data-ttu-id="faf1a-474">[![互惠方法](./media/reciprocal-method.png)](./media/reciprocal-method.png)</span><span class="sxs-lookup"><span data-stu-id="faf1a-474">[![Reciprocal method](./media/reciprocal-method.png)](./media/reciprocal-method.png)</span></span>
 
-#### <a name="define-the-cost-allocation"></a><span data-ttu-id="faef6-478">定义成本分摊</span><span class="sxs-lookup"><span data-stu-id="faef6-478">Define the cost allocation</span></span>
+#### <a name="define-the-cost-allocation"></a><span data-ttu-id="faf1a-475">定义成本分摊</span><span class="sxs-lookup"><span data-stu-id="faf1a-475">Define the cost allocation</span></span>
 
-<span data-ttu-id="faef6-479">这是说明如何跟踪成本流的简单示例。</span><span class="sxs-lookup"><span data-stu-id="faef6-479">Here is a simple example that explains how you can trace the flow of cost.</span></span> <span data-ttu-id="faef6-480">成本对象 CC001 HR 生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="faef6-480">Cost object CC001 HR contributes to several cost objects.</span></span> <span data-ttu-id="faef6-481">创建名为“HR 服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faef6-481">A statistical dimension member that is named HR services is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="faf1a-476">这是说明如何跟踪成本流的简单示例。</span><span class="sxs-lookup"><span data-stu-id="faf1a-476">Here is a simple example that explains how you can trace the flow of cost.</span></span> <span data-ttu-id="faf1a-477">成本对象 CC001 HR 生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="faf1a-477">Cost object CC001 HR contributes to several cost objects.</span></span> <span data-ttu-id="faf1a-478">创建名为“HR 服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faf1a-478">A statistical dimension member that is named HR services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-482">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-482">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-483">HR 服务</span><span class="sxs-lookup"><span data-stu-id="faef6-483">HR services</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-479">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-479">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-480">HR 服务</span><span class="sxs-lookup"><span data-stu-id="faf1a-480">HR services</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-484">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-484">CC002</span></span></td>
-<td><span data-ttu-id="faef6-485">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-485">Finance</span></span></td>
-<td><span data-ttu-id="faef6-486">35</span><span class="sxs-lookup"><span data-stu-id="faef6-486">35</span></span></td>
+<td><span data-ttu-id="faf1a-481">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-481">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-482">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-482">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-483">35</span><span class="sxs-lookup"><span data-stu-id="faf1a-483">35</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-487">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-487">CC003</span></span></td>
-<td><span data-ttu-id="faef6-488">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-488">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-489">55</span><span class="sxs-lookup"><span data-stu-id="faef6-489">55</span></span></td>
+<td><span data-ttu-id="faf1a-484">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-484">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-485">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-485">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-486">55</span><span class="sxs-lookup"><span data-stu-id="faf1a-486">55</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-490">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-490">CC004</span></span></td>
-<td><span data-ttu-id="faef6-491">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-491">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-492">10</span><span class="sxs-lookup"><span data-stu-id="faef6-492">10</span></span></td>
+<td><span data-ttu-id="faf1a-487">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-487">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-488">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-488">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-489">10</span><span class="sxs-lookup"><span data-stu-id="faf1a-489">10</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-493">成本对象 CC002 财务生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="faef6-493">Cost object CC002 Finance contributes to several cost objects.</span></span> <span data-ttu-id="faef6-494">创建名为“财务服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faef6-494">A statistical dimension member that is named Finance services is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="faf1a-490">成本对象 CC002 财务生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="faf1a-490">Cost object CC002 Finance contributes to several cost objects.</span></span> <span data-ttu-id="faf1a-491">创建名为“财务服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faf1a-491">A statistical dimension member that is named Finance services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-495">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-495">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-496">财务服务</span><span class="sxs-lookup"><span data-stu-id="faef6-496">Finance services</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-492">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-492">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-493">财务服务</span><span class="sxs-lookup"><span data-stu-id="faf1a-493">Finance services</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-497">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-497">CC003</span></span></td>
-<td><span data-ttu-id="faef6-498">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-498">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-499">65</span><span class="sxs-lookup"><span data-stu-id="faef6-499">65</span></span></td>
+<td><span data-ttu-id="faf1a-494">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-494">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-495">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-495">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-496">65</span><span class="sxs-lookup"><span data-stu-id="faf1a-496">65</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-500">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-500">CC004</span></span></td>
-<td><span data-ttu-id="faef6-501">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-501">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-502">35</span><span class="sxs-lookup"><span data-stu-id="faef6-502">35</span></span></td>
+<td><span data-ttu-id="faf1a-497">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-497">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-498">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-498">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-499">35</span><span class="sxs-lookup"><span data-stu-id="faf1a-499">35</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-503">成本对象 CC003 装配生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="faef6-503">Cost object CC003 Assembly contributes to several cost objects.</span></span> <span data-ttu-id="faef6-504">创建名为“装配服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faef6-504">A statistical dimension member that is named Assembly services is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="faf1a-500">成本对象 CC003 装配生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="faf1a-500">Cost object CC003 Assembly contributes to several cost objects.</span></span> <span data-ttu-id="faf1a-501">创建名为“装配服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faf1a-501">A statistical dimension member that is named Assembly services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-505">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-505">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-506">装配服务（小时）</span><span class="sxs-lookup"><span data-stu-id="faef6-506">Assembly services (hours)</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-502">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-502">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-503">装配服务（小时）</span><span class="sxs-lookup"><span data-stu-id="faf1a-503">Assembly services (hours)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-507">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-507">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-508">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-508">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-509">60</span><span class="sxs-lookup"><span data-stu-id="faef6-509">60</span></span></td>
+<td><span data-ttu-id="faf1a-504">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-504">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-505">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-505">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-506">60</span><span class="sxs-lookup"><span data-stu-id="faf1a-506">60</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-510">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-510">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-511">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-511">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-512">20</span><span class="sxs-lookup"><span data-stu-id="faef6-512">20</span></span></td>
+<td><span data-ttu-id="faf1a-507">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-507">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-508">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-508">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-509">20</span><span class="sxs-lookup"><span data-stu-id="faf1a-509">20</span></span></td>
 </tr>
 </tbody>
 </table>
 
-<span data-ttu-id="faef6-513">成本对象 CC004 包装生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="faef6-513">Cost object CC004 Packaging contributes to several cost objects.</span></span> <span data-ttu-id="faef6-514">创建名为“包装服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faef6-514">A statistical dimension member that is named Packaging services is created to measure the consumed magnitude.</span></span>
+<span data-ttu-id="faf1a-510">成本对象 CC004 包装生成若干成本对象。</span><span class="sxs-lookup"><span data-stu-id="faf1a-510">Cost object CC004 Packaging contributes to several cost objects.</span></span> <span data-ttu-id="faf1a-511">创建名为“包装服务”的统计维度成员来测量消耗度量值。</span><span class="sxs-lookup"><span data-stu-id="faf1a-511">A statistical dimension member that is named Packaging services is created to measure the consumed magnitude.</span></span>
 
 <table>
 <thead>
 <tr>
-<th colspan="2"><span data-ttu-id="faef6-515">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-515">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-516">包装服务（小时）</span><span class="sxs-lookup"><span data-stu-id="faef6-516">Packaging services (hours)</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-512">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-512">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-513">包装服务（小时）</span><span class="sxs-lookup"><span data-stu-id="faf1a-513">Packaging services (hours)</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><span data-ttu-id="faef6-517">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-517">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-518">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-518">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-519">80</span><span class="sxs-lookup"><span data-stu-id="faef6-519">80</span></span></td>
+<td><span data-ttu-id="faf1a-514">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-514">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-515">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-515">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-516">80</span><span class="sxs-lookup"><span data-stu-id="faf1a-516">80</span></span></td>
 </tr>
 <tr>
-<td><span data-ttu-id="faef6-520">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-520">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-521">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-521">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-522">15</span><span class="sxs-lookup"><span data-stu-id="faef6-522">15</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="faef6-523">**注意：** 在 Finance and Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。</span><span class="sxs-lookup"><span data-stu-id="faef6-523">**Note:** In Finance and Operations, statistical measures such as the production hours that a product consumes can be derived from source data.</span></span> <span data-ttu-id="faef6-524">关于统计度量的更多详细信息，请参阅“统计度量提供方模板”。</span><span class="sxs-lookup"><span data-stu-id="faef6-524">For more detailed information about statistical measure providers, see Statistical measure provider template.</span></span> <span data-ttu-id="faef6-525">（请注意，此主题尚未完成，不过将很快推出。）下表显示 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faef6-525">(Note that this topic isn't completed yet but is coming soon.) The following table shows the result when the HR services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="faef6-526">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-526">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-527">度量值</span><span class="sxs-lookup"><span data-stu-id="faef6-527">Magnitude</span></span></th>
-<th><span data-ttu-id="faef6-528">分配系数</span><span class="sxs-lookup"><span data-stu-id="faef6-528">Allocation factor</span></span></th>
-<th><span data-ttu-id="faef6-529">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-529">Amount</span></span></th>
-<th><span data-ttu-id="faef6-530">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-530">Cost behavior</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="faef6-531">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-531">CC002</span></span></td>
-<td><span data-ttu-id="faef6-532">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-532">Finance</span></span></td>
-<td><span data-ttu-id="faef6-533">35</span><span class="sxs-lookup"><span data-stu-id="faef6-533">35</span></span></td>
-<td><span data-ttu-id="faef6-534">(35 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="faef6-534">(35 ÷ 100) × 500.00</span></span></td>
-<td><span data-ttu-id="faef6-535">175.00</span><span class="sxs-lookup"><span data-stu-id="faef6-535">175.00</span></span></td>
-<td><span data-ttu-id="faef6-536">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-536">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-537">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-537">CC003</span></span></td>
-<td><span data-ttu-id="faef6-538">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-538">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-539">55</span><span class="sxs-lookup"><span data-stu-id="faef6-539">55</span></span></td>
-<td><span data-ttu-id="faef6-540">(55 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="faef6-540">(55 ÷ 100) × 500.00</span></span></td>
-<td><span data-ttu-id="faef6-541">275.00</span><span class="sxs-lookup"><span data-stu-id="faef6-541">275.00</span></span></td>
-<td><span data-ttu-id="faef6-542">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-542">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-543">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-543">CC004</span></span></td>
-<td><span data-ttu-id="faef6-544">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-544">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-545">10</span><span class="sxs-lookup"><span data-stu-id="faef6-545">10</span></span></td>
-<td><span data-ttu-id="faef6-546">(10 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="faef6-546">(10 ÷ 100) × 500.00</span></span></td>
-<td><span data-ttu-id="faef6-547">50.00</span><span class="sxs-lookup"><span data-stu-id="faef6-547">50.00</span></span></td>
-<td><span data-ttu-id="faef6-548">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-548">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-549">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-549">CC002</span></span></td>
-<td><span data-ttu-id="faef6-550">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-550">Finance</span></span></td>
-<td><span data-ttu-id="faef6-551">35</span><span class="sxs-lookup"><span data-stu-id="faef6-551">35</span></span></td>
-<td><span data-ttu-id="faef6-552">(35 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="faef6-552">(35 ÷ 100) × 1,245.71</span></span></td>
-<td><span data-ttu-id="faef6-553">436.00</span><span class="sxs-lookup"><span data-stu-id="faef6-553">436.00</span></span></td>
-<td><span data-ttu-id="faef6-554">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-554">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-555">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-555">CC003</span></span></td>
-<td><span data-ttu-id="faef6-556">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-556">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-557">55</span><span class="sxs-lookup"><span data-stu-id="faef6-557">55</span></span></td>
-<td><span data-ttu-id="faef6-558">(55 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="faef6-558">(55 ÷ 100) × 1,245.71</span></span></td>
-<td><span data-ttu-id="faef6-559">685.14</span><span class="sxs-lookup"><span data-stu-id="faef6-559">685.14</span></span></td>
-<td><span data-ttu-id="faef6-560">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-560">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-561">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-561">CC004</span></span></td>
-<td><span data-ttu-id="faef6-562">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-562">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-563">10</span><span class="sxs-lookup"><span data-stu-id="faef6-563">10</span></span></td>
-<td><span data-ttu-id="faef6-564">(10 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="faef6-564">(10 ÷ 100) × 1,245.71</span></span></td>
-<td><span data-ttu-id="faef6-565">124.57</span><span class="sxs-lookup"><span data-stu-id="faef6-565">124.57</span></span></td>
-<td><span data-ttu-id="faef6-566">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-566">Variable cost</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="faef6-567">下表显示当财务服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faef6-567">The following table shows the result when the Finance services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="faef6-568">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-568">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-569">度量值</span><span class="sxs-lookup"><span data-stu-id="faef6-569">Magnitude</span></span></th>
-<th><span data-ttu-id="faef6-570">分配系数</span><span class="sxs-lookup"><span data-stu-id="faef6-570">Allocation factor</span></span></th>
-<th><span data-ttu-id="faef6-571">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-571">Amount</span></span></th>
-<th><span data-ttu-id="faef6-572">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-572">Cost behavior</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="faef6-573">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-573">CC003</span></span></td>
-<td><span data-ttu-id="faef6-574">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-574">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-575">65</span><span class="sxs-lookup"><span data-stu-id="faef6-575">65</span></span></td>
-<td><span data-ttu-id="faef6-576">(65 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="faef6-576">(65 ÷ 100) × (500.00 + 175.00)</span></span></td>
-<td><span data-ttu-id="faef6-577">438.75</span><span class="sxs-lookup"><span data-stu-id="faef6-577">438.75</span></span></td>
-<td><span data-ttu-id="faef6-578">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-578">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-579">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-579">CC004</span></span></td>
-<td><span data-ttu-id="faef6-580">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-580">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-581">35</span><span class="sxs-lookup"><span data-stu-id="faef6-581">35</span></span></td>
-<td><span data-ttu-id="faef6-582">(35 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="faef6-582">(35 ÷ 100) × (500.00 + 175.00)</span></span></td>
-<td><span data-ttu-id="faef6-583">236.25</span><span class="sxs-lookup"><span data-stu-id="faef6-583">236.25</span></span></td>
-<td><span data-ttu-id="faef6-584">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-584">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-585">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-585">CC003</span></span></td>
-<td><span data-ttu-id="faef6-586">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-586">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-587">65</span><span class="sxs-lookup"><span data-stu-id="faef6-587">65</span></span></td>
-<td><span data-ttu-id="faef6-588">(65 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="faef6-588">(65 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
-<td><span data-ttu-id="faef6-589">5,297.69</span><span class="sxs-lookup"><span data-stu-id="faef6-589">5,297.69</span></span></td>
-<td><span data-ttu-id="faef6-590">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-590">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-591">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-591">CC004</span></span></td>
-<td><span data-ttu-id="faef6-592">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-592">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-593">35</span><span class="sxs-lookup"><span data-stu-id="faef6-593">35</span></span></td>
-<td><span data-ttu-id="faef6-594">(35 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="faef6-594">(35 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
-<td><span data-ttu-id="faef6-595">2,852.60</span><span class="sxs-lookup"><span data-stu-id="faef6-595">2,852.60</span></span></td>
-<td><span data-ttu-id="faef6-596">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-596">Variable cost</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="faef6-597">下表显示当装配服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faef6-597">The following table shows the result when the Assembly services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="faef6-598">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-598">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-599">度量值</span><span class="sxs-lookup"><span data-stu-id="faef6-599">Magnitude</span></span></th>
-<th><span data-ttu-id="faef6-600">分配系数</span><span class="sxs-lookup"><span data-stu-id="faef6-600">Allocation factor</span></span></th>
-<th><span data-ttu-id="faef6-601">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-601">Amount</span></span></th>
-<th><span data-ttu-id="faef6-602">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-602">Cost behavior</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="faef6-603">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-603">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-604">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-604">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-605">60</span><span class="sxs-lookup"><span data-stu-id="faef6-605">60</span></span></td>
-<td><span data-ttu-id="faef6-606">(60 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="faef6-606">(60 ÷ 80) × (275.00 + 438.75)</span></span></td>
-<td><span data-ttu-id="faef6-607">535.31</span><span class="sxs-lookup"><span data-stu-id="faef6-607">535.31</span></span></td>
-<td><span data-ttu-id="faef6-608">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-608">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-609">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-609">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-610">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-610">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-611">20</span><span class="sxs-lookup"><span data-stu-id="faef6-611">20</span></span></td>
-<td><span data-ttu-id="faef6-612">(20 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="faef6-612">(20 ÷ 80) × (275.00 + 438.75)</span></span></td>
-<td><span data-ttu-id="faef6-613">178.44</span><span class="sxs-lookup"><span data-stu-id="faef6-613">178.44</span></span></td>
-<td><span data-ttu-id="faef6-614">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-614">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-615">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-615">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-616">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-616">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-617">60</span><span class="sxs-lookup"><span data-stu-id="faef6-617">60</span></span></td>
-<td><span data-ttu-id="faef6-618">(60 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="faef6-618">(60 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
-<td><span data-ttu-id="faef6-619">4,487.12</span><span class="sxs-lookup"><span data-stu-id="faef6-619">4,487.12</span></span></td>
-<td><span data-ttu-id="faef6-620">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-620">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-621">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-621">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-622">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-622">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-623">20</span><span class="sxs-lookup"><span data-stu-id="faef6-623">20</span></span></td>
-<td><span data-ttu-id="faef6-624">(20 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="faef6-624">(20 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
-<td><span data-ttu-id="faef6-625">1,495.71</span><span class="sxs-lookup"><span data-stu-id="faef6-625">1,495.71</span></span></td>
-<td><span data-ttu-id="faef6-626">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-626">Variable cost</span></span></td>
-</tr>
-</tbody>
-</table>
-
-<span data-ttu-id="faef6-627">下表显示当包装服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faef6-627">The following table shows the result when the Packaging services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="faef6-628">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-628">Cost object</span></span></th>
-<th><span data-ttu-id="faef6-629">度量值</span><span class="sxs-lookup"><span data-stu-id="faef6-629">Magnitude</span></span></th>
-<th><span data-ttu-id="faef6-630">分配系数</span><span class="sxs-lookup"><span data-stu-id="faef6-630">Allocation factor</span></span></th>
-<th><span data-ttu-id="faef6-631">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-631">Amount</span></span></th>
-<th><span data-ttu-id="faef6-632">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-632">Cost behavior</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="faef6-633">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-633">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-634">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-634">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-635">80</span><span class="sxs-lookup"><span data-stu-id="faef6-635">80</span></span></td>
-<td><span data-ttu-id="faef6-636">(80 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="faef6-636">(80 ÷ 95) × (50.00 + 236.25)</span></span></td>
-<td><span data-ttu-id="faef6-637">241.05</span><span class="sxs-lookup"><span data-stu-id="faef6-637">241.05</span></span></td>
-<td><span data-ttu-id="faef6-638">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-638">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-639">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-639">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-640">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-640">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-641">15</span><span class="sxs-lookup"><span data-stu-id="faef6-641">15</span></span></td>
-<td><span data-ttu-id="faef6-642">(15 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="faef6-642">(15 ÷ 95) × (50.00 + 236.25)</span></span></td>
-<td><span data-ttu-id="faef6-643">45.20</span><span class="sxs-lookup"><span data-stu-id="faef6-643">45.20</span></span></td>
-<td><span data-ttu-id="faef6-644">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-644">Fixed cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-645">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-645">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-646">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-646">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-647">80</span><span class="sxs-lookup"><span data-stu-id="faef6-647">80</span></span></td>
-<td><span data-ttu-id="faef6-648">(80 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="faef6-648">(80 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
-<td><span data-ttu-id="faef6-649">2,507.09</span><span class="sxs-lookup"><span data-stu-id="faef6-649">2,507.09</span></span></td>
-<td><span data-ttu-id="faef6-650">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-650">Variable cost</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-651">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-651">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-652">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-652">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-653">15</span><span class="sxs-lookup"><span data-stu-id="faef6-653">15</span></span></td>
-<td><span data-ttu-id="faef6-654">(15 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="faef6-654">(15 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
-<td><span data-ttu-id="faef6-655">470.08</span><span class="sxs-lookup"><span data-stu-id="faef6-655">470.08</span></span></td>
-<td><span data-ttu-id="faef6-656">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-656">Variable cost</span></span></td>
-</tr>
-</tbody>
-</table>
-
-##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="faef6-657">日记帐条目（成本对象余额日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="faef6-657">Journal entries (cost object balance journal entries)</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="faef6-658">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-658">Journal</span></span></th>
-<th><span data-ttu-id="faef6-659">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="faef6-659">Journal type</span></span></th>
-<th colspan="3"><span data-ttu-id="faef6-660">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="faef6-660">Fiscal calendar period</span></span></th>
-<th><span data-ttu-id="faef6-661">版本</span><span class="sxs-lookup"><span data-stu-id="faef6-661">Version</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="faef6-662">00004</span><span class="sxs-lookup"><span data-stu-id="faef6-662">00004</span></span></td>
-<td><span data-ttu-id="faef6-663">成本分配日记帐</span><span class="sxs-lookup"><span data-stu-id="faef6-663">Cost allocation journal</span></span></td>
-<td><span data-ttu-id="faef6-664">会计</span><span class="sxs-lookup"><span data-stu-id="faef6-664">Fiscal</span></span></td>
-<td><span data-ttu-id="faef6-665">2017</span><span class="sxs-lookup"><span data-stu-id="faef6-665">2017</span></span></td>
-<td><span data-ttu-id="faef6-666">期间 1</span><span class="sxs-lookup"><span data-stu-id="faef6-666">Period 1</span></span></td>
-<td><span data-ttu-id="faef6-667">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="faef6-667">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
-</tr>
-</tbody>
-</table>
-
-##### <a name="journal-lines"></a><span data-ttu-id="faef6-668">日记帐行</span><span class="sxs-lookup"><span data-stu-id="faef6-668">Journal lines</span></span>
-
-<table>
-<thead>
-<tr>
-<th><span data-ttu-id="faef6-669">会计日期</span><span class="sxs-lookup"><span data-stu-id="faef6-669">Accounting date</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-670">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-670">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-671">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-671">Cost element</span></span></th>
-<th><span data-ttu-id="faef6-672">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-672">Cost behavior</span></span></th>
-<th><span data-ttu-id="faef6-673">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-673">Amount</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="faef6-674">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-674">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-675">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-675">CC001</span></span></td>
-<td><span data-ttu-id="faef6-676">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-676">HR</span></span></td>
-<td><span data-ttu-id="faef6-677">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-677">10001</span></span></td>
-<td><span data-ttu-id="faef6-678">电</span><span class="sxs-lookup"><span data-stu-id="faef6-678">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-679">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-679">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-680">500.00</span><span class="sxs-lookup"><span data-stu-id="faef6-680">500.00</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-681">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-681">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-682">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-682">CC001</span></span></td>
-<td><span data-ttu-id="faef6-683">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-683">HR</span></span></td>
-<td><span data-ttu-id="faef6-684">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-684">10001</span></span></td>
-<td><span data-ttu-id="faef6-685">电</span><span class="sxs-lookup"><span data-stu-id="faef6-685">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-686">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-686">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-687">1,245.71</span><span class="sxs-lookup"><span data-stu-id="faef6-687">1,245.71</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-688">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-688">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-689">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-689">CC002</span></span></td>
-<td><span data-ttu-id="faef6-690">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-690">Finance</span></span></td>
-<td><span data-ttu-id="faef6-691">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-691">10001</span></span></td>
-<td><span data-ttu-id="faef6-692">电</span><span class="sxs-lookup"><span data-stu-id="faef6-692">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-693">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-693">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-694">675.00</span><span class="sxs-lookup"><span data-stu-id="faef6-694">675.00</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-695">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-695">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-696">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-696">CC002</span></span></td>
-<td><span data-ttu-id="faef6-697">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-697">Finance</span></span></td>
-<td><span data-ttu-id="faef6-698">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-698">10001</span></span></td>
-<td><span data-ttu-id="faef6-699">电</span><span class="sxs-lookup"><span data-stu-id="faef6-699">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-700">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-700">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-701">8,150.29</span><span class="sxs-lookup"><span data-stu-id="faef6-701">8,150.29</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-702">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-702">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-703">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-703">CC003</span></span></td>
-<td><span data-ttu-id="faef6-704">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-704">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-705">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-705">10001</span></span></td>
-<td><span data-ttu-id="faef6-706">电</span><span class="sxs-lookup"><span data-stu-id="faef6-706">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-707">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-707">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-708">713.75</span><span class="sxs-lookup"><span data-stu-id="faef6-708">713.75</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-709">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-709">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-710">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-710">CC003</span></span></td>
-<td><span data-ttu-id="faef6-711">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-711">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-712">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-712">10001</span></span></td>
-<td><span data-ttu-id="faef6-713">电</span><span class="sxs-lookup"><span data-stu-id="faef6-713">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-714">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-714">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-715">5,982.83</span><span class="sxs-lookup"><span data-stu-id="faef6-715">5,982.83</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-716">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-716">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-717">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-717">CC003</span></span></td>
-<td><span data-ttu-id="faef6-718">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-718">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-719">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-719">10001</span></span></td>
-<td><span data-ttu-id="faef6-720">电</span><span class="sxs-lookup"><span data-stu-id="faef6-720">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-721">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-721">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-722">286.25</span><span class="sxs-lookup"><span data-stu-id="faef6-722">286.25</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-723">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-723">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-724">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-724">CC003</span></span></td>
-<td><span data-ttu-id="faef6-725">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-725">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-726">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-726">10001</span></span></td>
-<td><span data-ttu-id="faef6-727">电</span><span class="sxs-lookup"><span data-stu-id="faef6-727">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-728">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-728">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-729">2,977.17</span><span class="sxs-lookup"><span data-stu-id="faef6-729">2,977.17</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-730">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-730">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-731">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-731">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-732">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-732">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-733">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-733">10001</span></span></td>
-<td><span data-ttu-id="faef6-734">电</span><span class="sxs-lookup"><span data-stu-id="faef6-734">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-735">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-735">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-736">776.36</span><span class="sxs-lookup"><span data-stu-id="faef6-736">776.36</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-737">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-737">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-738">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-738">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-739">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-739">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-740">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-740">10001</span></span></td>
-<td><span data-ttu-id="faef6-741">电</span><span class="sxs-lookup"><span data-stu-id="faef6-741">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-742">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-742">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-743">6,994.21</span><span class="sxs-lookup"><span data-stu-id="faef6-743">6,994.21</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-744">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-744">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-745">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-745">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-746">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-746">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-747">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-747">10001</span></span></td>
-<td><span data-ttu-id="faef6-748">电</span><span class="sxs-lookup"><span data-stu-id="faef6-748">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-749">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-749">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-750">223.64</span><span class="sxs-lookup"><span data-stu-id="faef6-750">223.64</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-751">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-751">January 31, 2017</span></span></td>
-<td><span data-ttu-id="faef6-752">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-752">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-753">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-753">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-754">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-754">10001</span></span></td>
-<td><span data-ttu-id="faef6-755">电</span><span class="sxs-lookup"><span data-stu-id="faef6-755">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-756">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-756">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-757">1,965.79</span><span class="sxs-lookup"><span data-stu-id="faef6-757">1,965.79</span></span></td>
-</tr>
-</tbody>
-</table>
-
-##### <a name="cost-entries"></a><span data-ttu-id="faef6-758">成本条目</span><span class="sxs-lookup"><span data-stu-id="faef6-758">Cost entries</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2"><span data-ttu-id="faef6-759">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-759">Cost object</span></span></th>
-<th colspan="2"><span data-ttu-id="faef6-760">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-760">Cost element</span></span></th>
-<th><span data-ttu-id="faef6-761">成本行为</span><span class="sxs-lookup"><span data-stu-id="faef6-761">Cost behavior</span></span></th>
-<th><span data-ttu-id="faef6-762">本币金额</span><span class="sxs-lookup"><span data-stu-id="faef6-762">Amount</span></span></th>
-<th><span data-ttu-id="faef6-763">会计日期</span><span class="sxs-lookup"><span data-stu-id="faef6-763">Accounting date</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span data-ttu-id="faef6-764">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-764">CC001</span></span></td>
-<td><span data-ttu-id="faef6-765">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-765">HR</span></span></td>
-<td><span data-ttu-id="faef6-766">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-766">10001</span></span></td>
-<td><span data-ttu-id="faef6-767">电</span><span class="sxs-lookup"><span data-stu-id="faef6-767">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-768">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-768">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-769">-500.00</span><span class="sxs-lookup"><span data-stu-id="faef6-769">-500.00</span></span></td>
-<td><span data-ttu-id="faef6-770">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-770">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-771">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-771">CC002</span></span></td>
-<td><span data-ttu-id="faef6-772">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-772">Finance</span></span></td>
-<td><span data-ttu-id="faef6-773">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-773">10001</span></span></td>
-<td><span data-ttu-id="faef6-774">电</span><span class="sxs-lookup"><span data-stu-id="faef6-774">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-775">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-775">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-776">175.00</span><span class="sxs-lookup"><span data-stu-id="faef6-776">175.00</span></span></td>
-<td><span data-ttu-id="faef6-777">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-777">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-778">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-778">CC003</span></span></td>
-<td><span data-ttu-id="faef6-779">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-779">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-780">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-780">10001</span></span></td>
-<td><span data-ttu-id="faef6-781">电</span><span class="sxs-lookup"><span data-stu-id="faef6-781">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-782">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-782">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-783">275.00</span><span class="sxs-lookup"><span data-stu-id="faef6-783">275.00</span></span></td>
-<td><span data-ttu-id="faef6-784">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-784">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-785">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-785">CC004</span></span></td>
-<td><span data-ttu-id="faef6-786">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-786">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-787">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-787">10001</span></span></td>
-<td><span data-ttu-id="faef6-788">电</span><span class="sxs-lookup"><span data-stu-id="faef6-788">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-789">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-789">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-790">50,00</span><span class="sxs-lookup"><span data-stu-id="faef6-790">50,00</span></span></td>
-<td><span data-ttu-id="faef6-791">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-791">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-792">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-792">CC001</span></span></td>
-<td><span data-ttu-id="faef6-793">HR</span><span class="sxs-lookup"><span data-stu-id="faef6-793">HR</span></span></td>
-<td><span data-ttu-id="faef6-794">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-794">10001</span></span></td>
-<td><span data-ttu-id="faef6-795">电</span><span class="sxs-lookup"><span data-stu-id="faef6-795">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-796">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-796">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-797">-1,245.71</span><span class="sxs-lookup"><span data-stu-id="faef6-797">-1,245.71</span></span></td>
-<td><span data-ttu-id="faef6-798">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-798">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-799">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-799">CC002</span></span></td>
-<td><span data-ttu-id="faef6-800">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-800">Finance</span></span></td>
-<td><span data-ttu-id="faef6-801">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-801">10001</span></span></td>
-<td><span data-ttu-id="faef6-802">电</span><span class="sxs-lookup"><span data-stu-id="faef6-802">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-803">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-803">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-804">436.00</span><span class="sxs-lookup"><span data-stu-id="faef6-804">436.00</span></span></td>
-<td><span data-ttu-id="faef6-805">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-805">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-806">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-806">CC003</span></span></td>
-<td><span data-ttu-id="faef6-807">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-807">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-808">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-808">10001</span></span></td>
-<td><span data-ttu-id="faef6-809">电</span><span class="sxs-lookup"><span data-stu-id="faef6-809">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-810">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-810">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-811">685.14</span><span class="sxs-lookup"><span data-stu-id="faef6-811">685.14</span></span></td>
-<td><span data-ttu-id="faef6-812">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-812">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-813">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-813">CC004</span></span></td>
-<td><span data-ttu-id="faef6-814">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-814">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-815">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-815">10001</span></span></td>
-<td><span data-ttu-id="faef6-816">电</span><span class="sxs-lookup"><span data-stu-id="faef6-816">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-817">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-817">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-818">124.57</span><span class="sxs-lookup"><span data-stu-id="faef6-818">124.57</span></span></td>
-<td><span data-ttu-id="faef6-819">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-819">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-820">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-820">CC002</span></span></td>
-<td><span data-ttu-id="faef6-821">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-821">Finance</span></span></td>
-<td><span data-ttu-id="faef6-822">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-822">10001</span></span></td>
-<td><span data-ttu-id="faef6-823">电</span><span class="sxs-lookup"><span data-stu-id="faef6-823">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-824">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-824">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-825">-675.00</span><span class="sxs-lookup"><span data-stu-id="faef6-825">-675.00</span></span></td>
-<td><span data-ttu-id="faef6-826">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-826">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-827">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-827">CC003</span></span></td>
-<td><span data-ttu-id="faef6-828">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-828">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-829">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-829">10001</span></span></td>
-<td><span data-ttu-id="faef6-830">电</span><span class="sxs-lookup"><span data-stu-id="faef6-830">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-831">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-831">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-832">438.75</span><span class="sxs-lookup"><span data-stu-id="faef6-832">438.75</span></span></td>
-<td><span data-ttu-id="faef6-833">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-833">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-834">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-834">CC004</span></span></td>
-<td><span data-ttu-id="faef6-835">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-835">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-836">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-836">10001</span></span></td>
-<td><span data-ttu-id="faef6-837">电</span><span class="sxs-lookup"><span data-stu-id="faef6-837">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-838">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-838">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-839">236.25</span><span class="sxs-lookup"><span data-stu-id="faef6-839">236.25</span></span></td>
-<td><span data-ttu-id="faef6-840">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-840">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-841">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-841">CC002</span></span></td>
-<td><span data-ttu-id="faef6-842">财务</span><span class="sxs-lookup"><span data-stu-id="faef6-842">Finance</span></span></td>
-<td><span data-ttu-id="faef6-843">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-843">10001</span></span></td>
-<td><span data-ttu-id="faef6-844">电</span><span class="sxs-lookup"><span data-stu-id="faef6-844">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-845">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-845">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-846">-8,150.29</span><span class="sxs-lookup"><span data-stu-id="faef6-846">-8,150.29</span></span></td>
-<td><span data-ttu-id="faef6-847">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-847">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-848">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-848">CC003</span></span></td>
-<td><span data-ttu-id="faef6-849">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-849">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-850">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-850">10001</span></span></td>
-<td><span data-ttu-id="faef6-851">电</span><span class="sxs-lookup"><span data-stu-id="faef6-851">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-852">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-852">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-853">5,297.69</span><span class="sxs-lookup"><span data-stu-id="faef6-853">5,297.69</span></span></td>
-<td><span data-ttu-id="faef6-854">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-854">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-855">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-855">CC004</span></span></td>
-<td><span data-ttu-id="faef6-856">包装</span><span class="sxs-lookup"><span data-stu-id="faef6-856">Packaging</span></span></td>
-<td><span data-ttu-id="faef6-857">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-857">10001</span></span></td>
-<td><span data-ttu-id="faef6-858">电</span><span class="sxs-lookup"><span data-stu-id="faef6-858">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-859">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-859">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-860">2,852.60</span><span class="sxs-lookup"><span data-stu-id="faef6-860">2,852.60</span></span></td>
-<td><span data-ttu-id="faef6-861">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-861">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-862">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-862">CC003</span></span></td>
-<td><span data-ttu-id="faef6-863">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-863">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-864">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-864">10001</span></span></td>
-<td><span data-ttu-id="faef6-865">电</span><span class="sxs-lookup"><span data-stu-id="faef6-865">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-866">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-866">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-867">-713.75</span><span class="sxs-lookup"><span data-stu-id="faef6-867">-713.75</span></span></td>
-<td><span data-ttu-id="faef6-868">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-868">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-869">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-869">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-870">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-870">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-871">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-871">10001</span></span></td>
-<td><span data-ttu-id="faef6-872">电</span><span class="sxs-lookup"><span data-stu-id="faef6-872">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-873">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-873">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-874">535.31</span><span class="sxs-lookup"><span data-stu-id="faef6-874">535.31</span></span></td>
-<td><span data-ttu-id="faef6-875">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-875">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-876">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-876">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-877">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-877">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-878">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-878">10001</span></span></td>
-<td><span data-ttu-id="faef6-879">电</span><span class="sxs-lookup"><span data-stu-id="faef6-879">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-880">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-880">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-881">178.44</span><span class="sxs-lookup"><span data-stu-id="faef6-881">178.44</span></span></td>
-<td><span data-ttu-id="faef6-882">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-882">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-883">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-883">CC003</span></span></td>
-<td><span data-ttu-id="faef6-884">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-884">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-885">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-885">10001</span></span></td>
-<td><span data-ttu-id="faef6-886">电</span><span class="sxs-lookup"><span data-stu-id="faef6-886">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-887">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-887">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-888">-5,982.83</span><span class="sxs-lookup"><span data-stu-id="faef6-888">-5,982.83</span></span></td>
-<td><span data-ttu-id="faef6-889">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-889">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-890">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-890">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-891">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-891">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-892">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-892">10001</span></span></td>
-<td><span data-ttu-id="faef6-893">电</span><span class="sxs-lookup"><span data-stu-id="faef6-893">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-894">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-894">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-895">4,487.12</span><span class="sxs-lookup"><span data-stu-id="faef6-895">4,487.12</span></span></td>
-<td><span data-ttu-id="faef6-896">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-896">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-897">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-897">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-898">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-898">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-899">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-899">10001</span></span></td>
-<td><span data-ttu-id="faef6-900">电</span><span class="sxs-lookup"><span data-stu-id="faef6-900">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-901">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-901">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-902">1,495.71</span><span class="sxs-lookup"><span data-stu-id="faef6-902">1,495.71</span></span></td>
-<td><span data-ttu-id="faef6-903">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-903">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-904">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-904">CC003</span></span></td>
-<td><span data-ttu-id="faef6-905">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-905">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-906">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-906">10001</span></span></td>
-<td><span data-ttu-id="faef6-907">电</span><span class="sxs-lookup"><span data-stu-id="faef6-907">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-908">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-908">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-909">-286.25</span><span class="sxs-lookup"><span data-stu-id="faef6-909">-286.25</span></span></td>
-<td><span data-ttu-id="faef6-910">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-910">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-911">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-911">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-912">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-912">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-913">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-913">10001</span></span></td>
-<td><span data-ttu-id="faef6-914">电</span><span class="sxs-lookup"><span data-stu-id="faef6-914">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-915">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-915">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-916">241.05</span><span class="sxs-lookup"><span data-stu-id="faef6-916">241.05</span></span></td>
-<td><span data-ttu-id="faef6-917">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-917">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-918">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-918">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-919">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-919">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-920">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-920">10001</span></span></td>
-<td><span data-ttu-id="faef6-921">电</span><span class="sxs-lookup"><span data-stu-id="faef6-921">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-922">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-922">Fixed cost</span></span></td>
-<td><span data-ttu-id="faef6-923">45.20</span><span class="sxs-lookup"><span data-stu-id="faef6-923">45.20</span></span></td>
-<td><span data-ttu-id="faef6-924">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-924">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-925">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-925">CC003</span></span></td>
-<td><span data-ttu-id="faef6-926">程序集</span><span class="sxs-lookup"><span data-stu-id="faef6-926">Assembly</span></span></td>
-<td><span data-ttu-id="faef6-927">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-927">10001</span></span></td>
-<td><span data-ttu-id="faef6-928">电</span><span class="sxs-lookup"><span data-stu-id="faef6-928">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-929">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-929">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-930">-2,977.17</span><span class="sxs-lookup"><span data-stu-id="faef6-930">-2,977.17</span></span></td>
-<td><span data-ttu-id="faef6-931">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-931">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-932">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-932">Prod 1</span></span></td>
-<td><span data-ttu-id="faef6-933">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-933">Product 1</span></span></td>
-<td><span data-ttu-id="faef6-934">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-934">10001</span></span></td>
-<td><span data-ttu-id="faef6-935">电</span><span class="sxs-lookup"><span data-stu-id="faef6-935">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-936">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-936">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-937">2,507.09</span><span class="sxs-lookup"><span data-stu-id="faef6-937">2,507.09</span></span></td>
-<td><span data-ttu-id="faef6-938">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-938">January 31, 2017</span></span></td>
-</tr>
-<tr>
-<td><span data-ttu-id="faef6-939">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-939">Prod 2</span></span></td>
-<td><span data-ttu-id="faef6-940">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-940">Product 2</span></span></td>
-<td><span data-ttu-id="faef6-941">10001</span><span class="sxs-lookup"><span data-stu-id="faef6-941">10001</span></span></td>
-<td><span data-ttu-id="faef6-942">电</span><span class="sxs-lookup"><span data-stu-id="faef6-942">Electricity</span></span></td>
-<td><span data-ttu-id="faef6-943">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-943">Variable cost</span></span></td>
-<td><span data-ttu-id="faef6-944">470.08</span><span class="sxs-lookup"><span data-stu-id="faef6-944">470.08</span></span></td>
-<td><span data-ttu-id="faef6-945">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faef6-945">January 31, 2017</span></span></td>
-</tr>
-</tbody>
-</table>
-
-## <a name="conclusion"></a><span data-ttu-id="faef6-946">结论</span><span class="sxs-lookup"><span data-stu-id="faef6-946">Conclusion</span></span>
-<span data-ttu-id="faef6-947">在财务会计中，10,000.00 电成本过帐到虚拟成本中心 ID。</span><span class="sxs-lookup"><span data-stu-id="faef6-947">In Financial accounting, a cost of 10,000.00 for Electricity is posted to a dummy cost center ID.</span></span> <span data-ttu-id="faef6-948">因此，成本会计员将了解必须分摊此成本。</span><span class="sxs-lookup"><span data-stu-id="faef6-948">Therefore, cost accountants will know that this cost must be allocated.</span></span> <span data-ttu-id="faef6-949">在成本核算中，跨组织单位和级别的成本流，基于所应用的政策和规则。</span><span class="sxs-lookup"><span data-stu-id="faef6-949">In Cost accounting, the costs flow across organizational units and levels, based on the policies and rules that are applied.</span></span> <span data-ttu-id="faef6-950">每项成本已与为成本分摊提供最佳评估的分配基础关联。</span><span class="sxs-lookup"><span data-stu-id="faef6-950">Each cost has been associated with an allocation base that provides the best assessment for the allocation of costs.</span></span>
-
-<table>
-<thead>
-<tr>
-<th colspan="2" rowspan="2"><span data-ttu-id="faef6-951">成本元素</span><span class="sxs-lookup"><span data-stu-id="faef6-951">Cost element</span></span></th>
-<th colspan="9"><span data-ttu-id="faef6-952">成本对象</span><span class="sxs-lookup"><span data-stu-id="faef6-952">Cost object</span></span></th>
-<th rowspan="2"><span data-ttu-id="faef6-953">合计</span><span class="sxs-lookup"><span data-stu-id="faef6-953">Total</span></span></th>
-</tr>
-<tr>
-<th><span data-ttu-id="faef6-954">CC099</span><span class="sxs-lookup"><span data-stu-id="faef6-954">CC099</span></span></th>
-<th><span data-ttu-id="faef6-955">CC001</span><span class="sxs-lookup"><span data-stu-id="faef6-955">CC001</span></span></th>
-<th><span data-ttu-id="faef6-956">CC002</span><span class="sxs-lookup"><span data-stu-id="faef6-956">CC002</span></span></th>
-<th><span data-ttu-id="faef6-957">CC003</span><span class="sxs-lookup"><span data-stu-id="faef6-957">CC003</span></span></th>
-<th><span data-ttu-id="faef6-958">CC004</span><span class="sxs-lookup"><span data-stu-id="faef6-958">CC004</span></span></th>
-<th><span data-ttu-id="faef6-959">项目 1</span><span class="sxs-lookup"><span data-stu-id="faef6-959">Proj 1</span></span></th>
-<th><span data-ttu-id="faef6-960">项目 2</span><span class="sxs-lookup"><span data-stu-id="faef6-960">Proj 2</span></span></th>
-<th><span data-ttu-id="faef6-961">产品 1</span><span class="sxs-lookup"><span data-stu-id="faef6-961">Prod 1</span></span></th>
-<th><span data-ttu-id="faef6-962">产品 2</span><span class="sxs-lookup"><span data-stu-id="faef6-962">Prod 2</span></span></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td colspan="2"><span data-ttu-id="faef6-963">10001 电</span><span class="sxs-lookup"><span data-stu-id="faef6-963">10001 Electricity</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-964"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-964"><strong>0.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-965"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-965"><strong>0.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-966"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-966"><strong>0.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-967"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-967"><strong>0.00</strong></span></span></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-968"><strong>30.00</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-968"><strong>30.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-969"><strong>10.00</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-969"><strong>10.00</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-970"><strong>7,770.57</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-970"><strong>7,770.57</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-971"><strong>2,189.43</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-971"><strong>2,189.43</strong></span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-972"><strong>10,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-972"><strong>10,000.00</strong></span></span></td>
-</tr>
-<tr>
-<td></td>
-<td style="text-align: left;"><span data-ttu-id="faef6-973">未分类</span><span class="sxs-lookup"><span data-stu-id="faef6-973">Unclassified</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-974">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-974">0.00</span></span></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;"><span data-ttu-id="faef6-975">固定成本</span><span class="sxs-lookup"><span data-stu-id="faef6-975">Fixed cost</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-976">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-976">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-977">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-977">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-978">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-978">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-979">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-979">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-980">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-980">0.00</span></span></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-981">776.36</span><span class="sxs-lookup"><span data-stu-id="faef6-981">776.36</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-982">223.64</span><span class="sxs-lookup"><span data-stu-id="faef6-982">223.64</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-983"><strong>1,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-983"><strong>1,000.00</strong></span></span></td>
-</tr>
-<tr>
-<td style="text-align: right;"></td>
-<td style="text-align: left;"><span data-ttu-id="faef6-984">可变成本</span><span class="sxs-lookup"><span data-stu-id="faef6-984">Variable cost</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-985">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-985">000</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-986">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-986">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-987">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-987">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-988">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-988">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-989">0.00</span><span class="sxs-lookup"><span data-stu-id="faef6-989">0.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-990">30.00</span><span class="sxs-lookup"><span data-stu-id="faef6-990">30.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-991">10.00</span><span class="sxs-lookup"><span data-stu-id="faef6-991">10.00</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-992">6,994.21</span><span class="sxs-lookup"><span data-stu-id="faef6-992">6,994.21</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-993">1,965.79</span><span class="sxs-lookup"><span data-stu-id="faef6-993">1,965.79</span></span></td>
-<td style="text-align: right;"><span data-ttu-id="faef6-994"><strong>9,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="faef6-994"><strong>9,000.00</strong></span></span></td>
+<td><span data-ttu-id="faf1a-517">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-517">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-518">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-518">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-519">15</span><span class="sxs-lookup"><span data-stu-id="faf1a-519">15</span></span></td>
 </tr>
 </tbody>
 </table>
 
 > [!NOTE]
-> <span data-ttu-id="faef6-995">此主题显示主要成本元素“10001 电”如何流过成本对象。</span><span class="sxs-lookup"><span data-stu-id="faef6-995">This topic shows how a primary cost element, 10001 Electricity, flows through the cost objects.</span></span> <span data-ttu-id="faef6-996">因此，此间接成本分摊到组织的最低级别。</span><span class="sxs-lookup"><span data-stu-id="faef6-996">Therefore, this overhead cost is allocated to the lowest level in the organization.</span></span> <span data-ttu-id="faef6-997">换言之，最低级别的成本对象承担成本。</span><span class="sxs-lookup"><span data-stu-id="faef6-997">In other words, the cost objects at the lowest level bear the cost.</span></span> <span data-ttu-id="faef6-998">如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。</span><span class="sxs-lookup"><span data-stu-id="faef6-998">If you require a visual flow of the cost between the cost objects, you can use the cost roll-up policy rules to visualize the flow of the cost.</span></span> <span data-ttu-id="faef6-999">更多详细信息，请参阅“成本累积政策”。</span><span class="sxs-lookup"><span data-stu-id="faef6-999">For more detailed information, see Cost roll-up policy.</span></span> <span data-ttu-id="faef6-1000">（请注意，此主题尚未完成，不过将很快推出。）</span><span class="sxs-lookup"><span data-stu-id="faef6-1000">(Note that this topic isn't competed yet but is coming soon.)</span></span>
+> <span data-ttu-id="faf1a-520">在 Finance and Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。</span><span class="sxs-lookup"><span data-stu-id="faf1a-520">In Finance and Operations, statistical measures such as the production hours that a product consumes can be derived from source data.</span></span> <span data-ttu-id="faf1a-521">有关详细信息，请参阅[统计度量提供方模板](statistical-measure-provider-template.md#statistical-measure-provider-template)。</span><span class="sxs-lookup"><span data-stu-id="faf1a-521">For more information, see [Statistical measure provider template](statistical-measure-provider-template.md#statistical-measure-provider-template).</span></span> <span data-ttu-id="faf1a-522">下表显示当 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faf1a-522">The following table shows the result when the HR services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="faf1a-523">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-523">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-524">度量值</span><span class="sxs-lookup"><span data-stu-id="faf1a-524">Magnitude</span></span></th>
+<th><span data-ttu-id="faf1a-525">分配系数</span><span class="sxs-lookup"><span data-stu-id="faf1a-525">Allocation factor</span></span></th>
+<th><span data-ttu-id="faf1a-526">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-526">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-527">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-527">Cost behavior</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="faf1a-528">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-528">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-529">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-529">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-530">35</span><span class="sxs-lookup"><span data-stu-id="faf1a-530">35</span></span></td>
+<td><span data-ttu-id="faf1a-531">(35 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-531">(35 ÷ 100) × 500.00</span></span></td>
+<td><span data-ttu-id="faf1a-532">175.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-532">175.00</span></span></td>
+<td><span data-ttu-id="faf1a-533">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-533">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-534">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-534">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-535">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-535">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-536">55</span><span class="sxs-lookup"><span data-stu-id="faf1a-536">55</span></span></td>
+<td><span data-ttu-id="faf1a-537">(55 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-537">(55 ÷ 100) × 500.00</span></span></td>
+<td><span data-ttu-id="faf1a-538">275.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-538">275.00</span></span></td>
+<td><span data-ttu-id="faf1a-539">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-539">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-540">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-540">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-541">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-541">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-542">10</span><span class="sxs-lookup"><span data-stu-id="faf1a-542">10</span></span></td>
+<td><span data-ttu-id="faf1a-543">(10 ÷ 100) × 500.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-543">(10 ÷ 100) × 500.00</span></span></td>
+<td><span data-ttu-id="faf1a-544">50.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-544">50.00</span></span></td>
+<td><span data-ttu-id="faf1a-545">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-545">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-546">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-546">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-547">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-547">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-548">35</span><span class="sxs-lookup"><span data-stu-id="faf1a-548">35</span></span></td>
+<td><span data-ttu-id="faf1a-549">(35 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="faf1a-549">(35 ÷ 100) × 1,245.71</span></span></td>
+<td><span data-ttu-id="faf1a-550">436.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-550">436.00</span></span></td>
+<td><span data-ttu-id="faf1a-551">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-551">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-552">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-552">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-553">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-553">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-554">55</span><span class="sxs-lookup"><span data-stu-id="faf1a-554">55</span></span></td>
+<td><span data-ttu-id="faf1a-555">(55 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="faf1a-555">(55 ÷ 100) × 1,245.71</span></span></td>
+<td><span data-ttu-id="faf1a-556">685.14</span><span class="sxs-lookup"><span data-stu-id="faf1a-556">685.14</span></span></td>
+<td><span data-ttu-id="faf1a-557">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-557">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-558">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-558">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-559">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-559">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-560">10</span><span class="sxs-lookup"><span data-stu-id="faf1a-560">10</span></span></td>
+<td><span data-ttu-id="faf1a-561">(10 ÷ 100) × 1,245.71</span><span class="sxs-lookup"><span data-stu-id="faf1a-561">(10 ÷ 100) × 1,245.71</span></span></td>
+<td><span data-ttu-id="faf1a-562">124.57</span><span class="sxs-lookup"><span data-stu-id="faf1a-562">124.57</span></span></td>
+<td><span data-ttu-id="faf1a-563">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-563">Variable cost</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<span data-ttu-id="faf1a-564">下表显示当财务服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faf1a-564">The following table shows the result when the Finance services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="faf1a-565">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-565">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-566">度量值</span><span class="sxs-lookup"><span data-stu-id="faf1a-566">Magnitude</span></span></th>
+<th><span data-ttu-id="faf1a-567">分配系数</span><span class="sxs-lookup"><span data-stu-id="faf1a-567">Allocation factor</span></span></th>
+<th><span data-ttu-id="faf1a-568">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-568">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-569">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-569">Cost behavior</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="faf1a-570">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-570">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-571">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-571">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-572">65</span><span class="sxs-lookup"><span data-stu-id="faf1a-572">65</span></span></td>
+<td><span data-ttu-id="faf1a-573">(65 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="faf1a-573">(65 ÷ 100) × (500.00 + 175.00)</span></span></td>
+<td><span data-ttu-id="faf1a-574">438.75</span><span class="sxs-lookup"><span data-stu-id="faf1a-574">438.75</span></span></td>
+<td><span data-ttu-id="faf1a-575">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-575">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-576">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-576">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-577">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-577">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-578">35</span><span class="sxs-lookup"><span data-stu-id="faf1a-578">35</span></span></td>
+<td><span data-ttu-id="faf1a-579">(35 ÷ 100) × (500.00 + 175.00)</span><span class="sxs-lookup"><span data-stu-id="faf1a-579">(35 ÷ 100) × (500.00 + 175.00)</span></span></td>
+<td><span data-ttu-id="faf1a-580">236.25</span><span class="sxs-lookup"><span data-stu-id="faf1a-580">236.25</span></span></td>
+<td><span data-ttu-id="faf1a-581">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-581">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-582">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-582">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-583">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-583">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-584">65</span><span class="sxs-lookup"><span data-stu-id="faf1a-584">65</span></span></td>
+<td><span data-ttu-id="faf1a-585">(65 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="faf1a-585">(65 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
+<td><span data-ttu-id="faf1a-586">5,297.69</span><span class="sxs-lookup"><span data-stu-id="faf1a-586">5,297.69</span></span></td>
+<td><span data-ttu-id="faf1a-587">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-587">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-588">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-588">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-589">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-589">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-590">35</span><span class="sxs-lookup"><span data-stu-id="faf1a-590">35</span></span></td>
+<td><span data-ttu-id="faf1a-591">(35 ÷ 100) × (7,714.29 + 436.00)</span><span class="sxs-lookup"><span data-stu-id="faf1a-591">(35 ÷ 100) × (7,714.29 + 436.00)</span></span></td>
+<td><span data-ttu-id="faf1a-592">2,852.60</span><span class="sxs-lookup"><span data-stu-id="faf1a-592">2,852.60</span></span></td>
+<td><span data-ttu-id="faf1a-593">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-593">Variable cost</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<span data-ttu-id="faf1a-594">下表显示当装配服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faf1a-594">The following table shows the result when the Assembly services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="faf1a-595">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-595">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-596">度量值</span><span class="sxs-lookup"><span data-stu-id="faf1a-596">Magnitude</span></span></th>
+<th><span data-ttu-id="faf1a-597">分配系数</span><span class="sxs-lookup"><span data-stu-id="faf1a-597">Allocation factor</span></span></th>
+<th><span data-ttu-id="faf1a-598">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-598">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-599">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-599">Cost behavior</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="faf1a-600">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-600">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-601">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-601">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-602">60</span><span class="sxs-lookup"><span data-stu-id="faf1a-602">60</span></span></td>
+<td><span data-ttu-id="faf1a-603">(60 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="faf1a-603">(60 ÷ 80) × (275.00 + 438.75)</span></span></td>
+<td><span data-ttu-id="faf1a-604">535.31</span><span class="sxs-lookup"><span data-stu-id="faf1a-604">535.31</span></span></td>
+<td><span data-ttu-id="faf1a-605">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-605">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-606">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-606">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-607">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-607">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-608">20</span><span class="sxs-lookup"><span data-stu-id="faf1a-608">20</span></span></td>
+<td><span data-ttu-id="faf1a-609">(20 ÷ 80) × (275.00 + 438.75)</span><span class="sxs-lookup"><span data-stu-id="faf1a-609">(20 ÷ 80) × (275.00 + 438.75)</span></span></td>
+<td><span data-ttu-id="faf1a-610">178.44</span><span class="sxs-lookup"><span data-stu-id="faf1a-610">178.44</span></span></td>
+<td><span data-ttu-id="faf1a-611">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-611">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-612">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-612">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-613">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-613">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-614">60</span><span class="sxs-lookup"><span data-stu-id="faf1a-614">60</span></span></td>
+<td><span data-ttu-id="faf1a-615">(60 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="faf1a-615">(60 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
+<td><span data-ttu-id="faf1a-616">4,487.12</span><span class="sxs-lookup"><span data-stu-id="faf1a-616">4,487.12</span></span></td>
+<td><span data-ttu-id="faf1a-617">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-617">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-618">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-618">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-619">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-619">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-620">20</span><span class="sxs-lookup"><span data-stu-id="faf1a-620">20</span></span></td>
+<td><span data-ttu-id="faf1a-621">(20 ÷ 80) × (5,297.69 + 685.14)</span><span class="sxs-lookup"><span data-stu-id="faf1a-621">(20 ÷ 80) × (5,297.69 + 685.14)</span></span></td>
+<td><span data-ttu-id="faf1a-622">1,495.71</span><span class="sxs-lookup"><span data-stu-id="faf1a-622">1,495.71</span></span></td>
+<td><span data-ttu-id="faf1a-623">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-623">Variable cost</span></span></td>
+</tr>
+</tbody>
+</table>
+
+<span data-ttu-id="faf1a-624">下表显示当包装服务用作总成本的分配基础时的结果（固定成本和可变成本）。</span><span class="sxs-lookup"><span data-stu-id="faf1a-624">The following table shows the result when the Packaging services are applied as an allocation base for total cost (fixed cost and variable cost).</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="faf1a-625">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-625">Cost object</span></span></th>
+<th><span data-ttu-id="faf1a-626">度量值</span><span class="sxs-lookup"><span data-stu-id="faf1a-626">Magnitude</span></span></th>
+<th><span data-ttu-id="faf1a-627">分配系数</span><span class="sxs-lookup"><span data-stu-id="faf1a-627">Allocation factor</span></span></th>
+<th><span data-ttu-id="faf1a-628">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-628">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-629">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-629">Cost behavior</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="faf1a-630">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-630">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-631">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-631">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-632">80</span><span class="sxs-lookup"><span data-stu-id="faf1a-632">80</span></span></td>
+<td><span data-ttu-id="faf1a-633">(80 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="faf1a-633">(80 ÷ 95) × (50.00 + 236.25)</span></span></td>
+<td><span data-ttu-id="faf1a-634">241.05</span><span class="sxs-lookup"><span data-stu-id="faf1a-634">241.05</span></span></td>
+<td><span data-ttu-id="faf1a-635">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-635">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-636">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-636">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-637">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-637">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-638">15</span><span class="sxs-lookup"><span data-stu-id="faf1a-638">15</span></span></td>
+<td><span data-ttu-id="faf1a-639">(15 ÷ 95) × (50.00 + 236.25)</span><span class="sxs-lookup"><span data-stu-id="faf1a-639">(15 ÷ 95) × (50.00 + 236.25)</span></span></td>
+<td><span data-ttu-id="faf1a-640">45.20</span><span class="sxs-lookup"><span data-stu-id="faf1a-640">45.20</span></span></td>
+<td><span data-ttu-id="faf1a-641">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-641">Fixed cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-642">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-642">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-643">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-643">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-644">80</span><span class="sxs-lookup"><span data-stu-id="faf1a-644">80</span></span></td>
+<td><span data-ttu-id="faf1a-645">(80 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="faf1a-645">(80 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
+<td><span data-ttu-id="faf1a-646">2,507.09</span><span class="sxs-lookup"><span data-stu-id="faf1a-646">2,507.09</span></span></td>
+<td><span data-ttu-id="faf1a-647">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-647">Variable cost</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-648">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-648">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-649">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-649">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-650">15</span><span class="sxs-lookup"><span data-stu-id="faf1a-650">15</span></span></td>
+<td><span data-ttu-id="faf1a-651">(15 ÷ 95) × (2,852.60 + 124.57)</span><span class="sxs-lookup"><span data-stu-id="faf1a-651">(15 ÷ 95) × (2,852.60 + 124.57)</span></span></td>
+<td><span data-ttu-id="faf1a-652">470.08</span><span class="sxs-lookup"><span data-stu-id="faf1a-652">470.08</span></span></td>
+<td><span data-ttu-id="faf1a-653">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-653">Variable cost</span></span></td>
+</tr>
+</tbody>
+</table>
+
+##### <a name="journal-entries-cost-object-balance-journal-entries"></a><span data-ttu-id="faf1a-654">日记帐条目（成本对象余额日记帐条目）</span><span class="sxs-lookup"><span data-stu-id="faf1a-654">Journal entries (cost object balance journal entries)</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="faf1a-655">生产订单日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-655">Journal</span></span></th>
+<th><span data-ttu-id="faf1a-656">日记帐类型</span><span class="sxs-lookup"><span data-stu-id="faf1a-656">Journal type</span></span></th>
+<th colspan="3"><span data-ttu-id="faf1a-657">会计日历期间</span><span class="sxs-lookup"><span data-stu-id="faf1a-657">Fiscal calendar period</span></span></th>
+<th><span data-ttu-id="faf1a-658">版本</span><span class="sxs-lookup"><span data-stu-id="faf1a-658">Version</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="faf1a-659">00004</span><span class="sxs-lookup"><span data-stu-id="faf1a-659">00004</span></span></td>
+<td><span data-ttu-id="faf1a-660">成本分配日记帐</span><span class="sxs-lookup"><span data-stu-id="faf1a-660">Cost allocation journal</span></span></td>
+<td><span data-ttu-id="faf1a-661">会计</span><span class="sxs-lookup"><span data-stu-id="faf1a-661">Fiscal</span></span></td>
+<td><span data-ttu-id="faf1a-662">2017</span><span class="sxs-lookup"><span data-stu-id="faf1a-662">2017</span></span></td>
+<td><span data-ttu-id="faf1a-663">期间 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-663">Period 1</span></span></td>
+<td><span data-ttu-id="faf1a-664">开销计算 / 01-02-2017 11:51:00 PM / 分类帐 /2017 / 期间 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-664">Overhead calculation / 01-02-2017 11:51:00 PM / Ledger /2017 / Period 1</span></span></td>
+</tr>
+</tbody>
+</table>
+
+##### <a name="journal-lines"></a><span data-ttu-id="faf1a-665">日记帐行</span><span class="sxs-lookup"><span data-stu-id="faf1a-665">Journal lines</span></span>
+
+<table>
+<thead>
+<tr>
+<th><span data-ttu-id="faf1a-666">会计日期</span><span class="sxs-lookup"><span data-stu-id="faf1a-666">Accounting date</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-667">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-667">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-668">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-668">Cost element</span></span></th>
+<th><span data-ttu-id="faf1a-669">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-669">Cost behavior</span></span></th>
+<th><span data-ttu-id="faf1a-670">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-670">Amount</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="faf1a-671">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-671">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-672">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-672">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-673">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-673">HR</span></span></td>
+<td><span data-ttu-id="faf1a-674">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-674">10001</span></span></td>
+<td><span data-ttu-id="faf1a-675">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-675">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-676">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-676">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-677">500.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-677">500.00</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-678">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-678">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-679">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-679">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-680">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-680">HR</span></span></td>
+<td><span data-ttu-id="faf1a-681">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-681">10001</span></span></td>
+<td><span data-ttu-id="faf1a-682">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-682">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-683">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-683">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-684">1,245.71</span><span class="sxs-lookup"><span data-stu-id="faf1a-684">1,245.71</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-685">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-685">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-686">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-686">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-687">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-687">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-688">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-688">10001</span></span></td>
+<td><span data-ttu-id="faf1a-689">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-689">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-690">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-690">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-691">675.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-691">675.00</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-692">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-692">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-693">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-693">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-694">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-694">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-695">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-695">10001</span></span></td>
+<td><span data-ttu-id="faf1a-696">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-696">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-697">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-697">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-698">8,150.29</span><span class="sxs-lookup"><span data-stu-id="faf1a-698">8,150.29</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-699">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-699">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-700">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-700">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-701">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-701">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-702">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-702">10001</span></span></td>
+<td><span data-ttu-id="faf1a-703">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-703">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-704">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-704">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-705">713.75</span><span class="sxs-lookup"><span data-stu-id="faf1a-705">713.75</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-706">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-706">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-707">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-707">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-708">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-708">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-709">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-709">10001</span></span></td>
+<td><span data-ttu-id="faf1a-710">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-710">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-711">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-711">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-712">5,982.83</span><span class="sxs-lookup"><span data-stu-id="faf1a-712">5,982.83</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-713">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-713">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-714">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-714">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-715">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-715">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-716">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-716">10001</span></span></td>
+<td><span data-ttu-id="faf1a-717">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-717">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-718">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-718">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-719">286.25</span><span class="sxs-lookup"><span data-stu-id="faf1a-719">286.25</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-720">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-720">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-721">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-721">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-722">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-722">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-723">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-723">10001</span></span></td>
+<td><span data-ttu-id="faf1a-724">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-724">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-725">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-725">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-726">2,977.17</span><span class="sxs-lookup"><span data-stu-id="faf1a-726">2,977.17</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-727">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-727">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-728">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-728">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-729">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-729">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-730">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-730">10001</span></span></td>
+<td><span data-ttu-id="faf1a-731">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-731">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-732">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-732">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-733">776.36</span><span class="sxs-lookup"><span data-stu-id="faf1a-733">776.36</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-734">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-734">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-735">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-735">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-736">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-736">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-737">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-737">10001</span></span></td>
+<td><span data-ttu-id="faf1a-738">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-738">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-739">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-739">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-740">6,994.21</span><span class="sxs-lookup"><span data-stu-id="faf1a-740">6,994.21</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-741">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-741">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-742">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-742">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-743">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-743">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-744">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-744">10001</span></span></td>
+<td><span data-ttu-id="faf1a-745">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-745">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-746">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-746">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-747">223.64</span><span class="sxs-lookup"><span data-stu-id="faf1a-747">223.64</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-748">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-748">January 31, 2017</span></span></td>
+<td><span data-ttu-id="faf1a-749">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-749">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-750">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-750">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-751">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-751">10001</span></span></td>
+<td><span data-ttu-id="faf1a-752">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-752">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-753">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-753">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-754">1,965.79</span><span class="sxs-lookup"><span data-stu-id="faf1a-754">1,965.79</span></span></td>
+</tr>
+</tbody>
+</table>
+
+##### <a name="cost-entries"></a><span data-ttu-id="faf1a-755">成本条目</span><span class="sxs-lookup"><span data-stu-id="faf1a-755">Cost entries</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2"><span data-ttu-id="faf1a-756">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-756">Cost object</span></span></th>
+<th colspan="2"><span data-ttu-id="faf1a-757">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-757">Cost element</span></span></th>
+<th><span data-ttu-id="faf1a-758">成本行为</span><span class="sxs-lookup"><span data-stu-id="faf1a-758">Cost behavior</span></span></th>
+<th><span data-ttu-id="faf1a-759">本币金额</span><span class="sxs-lookup"><span data-stu-id="faf1a-759">Amount</span></span></th>
+<th><span data-ttu-id="faf1a-760">会计日期</span><span class="sxs-lookup"><span data-stu-id="faf1a-760">Accounting date</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span data-ttu-id="faf1a-761">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-761">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-762">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-762">HR</span></span></td>
+<td><span data-ttu-id="faf1a-763">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-763">10001</span></span></td>
+<td><span data-ttu-id="faf1a-764">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-764">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-765">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-765">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-766">-500.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-766">-500.00</span></span></td>
+<td><span data-ttu-id="faf1a-767">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-767">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-768">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-768">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-769">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-769">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-770">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-770">10001</span></span></td>
+<td><span data-ttu-id="faf1a-771">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-771">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-772">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-772">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-773">175.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-773">175.00</span></span></td>
+<td><span data-ttu-id="faf1a-774">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-774">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-775">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-775">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-776">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-776">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-777">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-777">10001</span></span></td>
+<td><span data-ttu-id="faf1a-778">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-778">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-779">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-779">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-780">275.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-780">275.00</span></span></td>
+<td><span data-ttu-id="faf1a-781">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-781">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-782">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-782">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-783">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-783">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-784">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-784">10001</span></span></td>
+<td><span data-ttu-id="faf1a-785">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-785">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-786">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-786">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-787">50,00</span><span class="sxs-lookup"><span data-stu-id="faf1a-787">50,00</span></span></td>
+<td><span data-ttu-id="faf1a-788">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-788">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-789">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-789">CC001</span></span></td>
+<td><span data-ttu-id="faf1a-790">HR</span><span class="sxs-lookup"><span data-stu-id="faf1a-790">HR</span></span></td>
+<td><span data-ttu-id="faf1a-791">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-791">10001</span></span></td>
+<td><span data-ttu-id="faf1a-792">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-792">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-793">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-793">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-794">-1,245.71</span><span class="sxs-lookup"><span data-stu-id="faf1a-794">-1,245.71</span></span></td>
+<td><span data-ttu-id="faf1a-795">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-795">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-796">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-796">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-797">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-797">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-798">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-798">10001</span></span></td>
+<td><span data-ttu-id="faf1a-799">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-799">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-800">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-800">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-801">436.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-801">436.00</span></span></td>
+<td><span data-ttu-id="faf1a-802">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-802">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-803">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-803">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-804">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-804">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-805">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-805">10001</span></span></td>
+<td><span data-ttu-id="faf1a-806">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-806">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-807">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-807">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-808">685.14</span><span class="sxs-lookup"><span data-stu-id="faf1a-808">685.14</span></span></td>
+<td><span data-ttu-id="faf1a-809">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-809">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-810">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-810">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-811">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-811">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-812">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-812">10001</span></span></td>
+<td><span data-ttu-id="faf1a-813">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-813">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-814">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-814">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-815">124.57</span><span class="sxs-lookup"><span data-stu-id="faf1a-815">124.57</span></span></td>
+<td><span data-ttu-id="faf1a-816">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-816">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-817">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-817">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-818">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-818">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-819">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-819">10001</span></span></td>
+<td><span data-ttu-id="faf1a-820">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-820">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-821">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-821">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-822">-675.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-822">-675.00</span></span></td>
+<td><span data-ttu-id="faf1a-823">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-823">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-824">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-824">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-825">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-825">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-826">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-826">10001</span></span></td>
+<td><span data-ttu-id="faf1a-827">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-827">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-828">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-828">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-829">438.75</span><span class="sxs-lookup"><span data-stu-id="faf1a-829">438.75</span></span></td>
+<td><span data-ttu-id="faf1a-830">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-830">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-831">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-831">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-832">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-832">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-833">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-833">10001</span></span></td>
+<td><span data-ttu-id="faf1a-834">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-834">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-835">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-835">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-836">236.25</span><span class="sxs-lookup"><span data-stu-id="faf1a-836">236.25</span></span></td>
+<td><span data-ttu-id="faf1a-837">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-837">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-838">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-838">CC002</span></span></td>
+<td><span data-ttu-id="faf1a-839">财务</span><span class="sxs-lookup"><span data-stu-id="faf1a-839">Finance</span></span></td>
+<td><span data-ttu-id="faf1a-840">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-840">10001</span></span></td>
+<td><span data-ttu-id="faf1a-841">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-841">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-842">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-842">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-843">-8,150.29</span><span class="sxs-lookup"><span data-stu-id="faf1a-843">-8,150.29</span></span></td>
+<td><span data-ttu-id="faf1a-844">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-844">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-845">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-845">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-846">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-846">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-847">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-847">10001</span></span></td>
+<td><span data-ttu-id="faf1a-848">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-848">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-849">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-849">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-850">5,297.69</span><span class="sxs-lookup"><span data-stu-id="faf1a-850">5,297.69</span></span></td>
+<td><span data-ttu-id="faf1a-851">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-851">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-852">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-852">CC004</span></span></td>
+<td><span data-ttu-id="faf1a-853">包装</span><span class="sxs-lookup"><span data-stu-id="faf1a-853">Packaging</span></span></td>
+<td><span data-ttu-id="faf1a-854">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-854">10001</span></span></td>
+<td><span data-ttu-id="faf1a-855">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-855">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-856">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-856">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-857">2,852.60</span><span class="sxs-lookup"><span data-stu-id="faf1a-857">2,852.60</span></span></td>
+<td><span data-ttu-id="faf1a-858">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-858">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-859">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-859">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-860">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-860">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-861">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-861">10001</span></span></td>
+<td><span data-ttu-id="faf1a-862">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-862">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-863">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-863">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-864">-713.75</span><span class="sxs-lookup"><span data-stu-id="faf1a-864">-713.75</span></span></td>
+<td><span data-ttu-id="faf1a-865">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-865">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-866">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-866">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-867">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-867">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-868">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-868">10001</span></span></td>
+<td><span data-ttu-id="faf1a-869">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-869">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-870">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-870">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-871">535.31</span><span class="sxs-lookup"><span data-stu-id="faf1a-871">535.31</span></span></td>
+<td><span data-ttu-id="faf1a-872">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-872">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-873">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-873">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-874">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-874">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-875">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-875">10001</span></span></td>
+<td><span data-ttu-id="faf1a-876">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-876">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-877">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-877">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-878">178.44</span><span class="sxs-lookup"><span data-stu-id="faf1a-878">178.44</span></span></td>
+<td><span data-ttu-id="faf1a-879">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-879">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-880">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-880">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-881">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-881">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-882">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-882">10001</span></span></td>
+<td><span data-ttu-id="faf1a-883">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-883">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-884">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-884">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-885">-5,982.83</span><span class="sxs-lookup"><span data-stu-id="faf1a-885">-5,982.83</span></span></td>
+<td><span data-ttu-id="faf1a-886">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-886">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-887">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-887">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-888">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-888">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-889">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-889">10001</span></span></td>
+<td><span data-ttu-id="faf1a-890">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-890">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-891">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-891">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-892">4,487.12</span><span class="sxs-lookup"><span data-stu-id="faf1a-892">4,487.12</span></span></td>
+<td><span data-ttu-id="faf1a-893">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-893">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-894">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-894">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-895">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-895">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-896">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-896">10001</span></span></td>
+<td><span data-ttu-id="faf1a-897">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-897">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-898">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-898">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-899">1,495.71</span><span class="sxs-lookup"><span data-stu-id="faf1a-899">1,495.71</span></span></td>
+<td><span data-ttu-id="faf1a-900">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-900">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-901">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-901">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-902">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-902">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-903">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-903">10001</span></span></td>
+<td><span data-ttu-id="faf1a-904">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-904">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-905">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-905">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-906">-286.25</span><span class="sxs-lookup"><span data-stu-id="faf1a-906">-286.25</span></span></td>
+<td><span data-ttu-id="faf1a-907">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-907">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-908">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-908">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-909">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-909">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-910">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-910">10001</span></span></td>
+<td><span data-ttu-id="faf1a-911">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-911">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-912">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-912">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-913">241.05</span><span class="sxs-lookup"><span data-stu-id="faf1a-913">241.05</span></span></td>
+<td><span data-ttu-id="faf1a-914">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-914">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-915">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-915">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-916">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-916">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-917">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-917">10001</span></span></td>
+<td><span data-ttu-id="faf1a-918">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-918">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-919">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-919">Fixed cost</span></span></td>
+<td><span data-ttu-id="faf1a-920">45.20</span><span class="sxs-lookup"><span data-stu-id="faf1a-920">45.20</span></span></td>
+<td><span data-ttu-id="faf1a-921">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-921">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-922">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-922">CC003</span></span></td>
+<td><span data-ttu-id="faf1a-923">程序集</span><span class="sxs-lookup"><span data-stu-id="faf1a-923">Assembly</span></span></td>
+<td><span data-ttu-id="faf1a-924">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-924">10001</span></span></td>
+<td><span data-ttu-id="faf1a-925">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-925">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-926">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-926">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-927">-2,977.17</span><span class="sxs-lookup"><span data-stu-id="faf1a-927">-2,977.17</span></span></td>
+<td><span data-ttu-id="faf1a-928">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-928">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-929">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-929">Prod 1</span></span></td>
+<td><span data-ttu-id="faf1a-930">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-930">Product 1</span></span></td>
+<td><span data-ttu-id="faf1a-931">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-931">10001</span></span></td>
+<td><span data-ttu-id="faf1a-932">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-932">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-933">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-933">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-934">2,507.09</span><span class="sxs-lookup"><span data-stu-id="faf1a-934">2,507.09</span></span></td>
+<td><span data-ttu-id="faf1a-935">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-935">January 31, 2017</span></span></td>
+</tr>
+<tr>
+<td><span data-ttu-id="faf1a-936">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-936">Prod 2</span></span></td>
+<td><span data-ttu-id="faf1a-937">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-937">Product 2</span></span></td>
+<td><span data-ttu-id="faf1a-938">10001</span><span class="sxs-lookup"><span data-stu-id="faf1a-938">10001</span></span></td>
+<td><span data-ttu-id="faf1a-939">电</span><span class="sxs-lookup"><span data-stu-id="faf1a-939">Electricity</span></span></td>
+<td><span data-ttu-id="faf1a-940">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-940">Variable cost</span></span></td>
+<td><span data-ttu-id="faf1a-941">470.08</span><span class="sxs-lookup"><span data-stu-id="faf1a-941">470.08</span></span></td>
+<td><span data-ttu-id="faf1a-942">2017 年 1 月 31 日</span><span class="sxs-lookup"><span data-stu-id="faf1a-942">January 31, 2017</span></span></td>
+</tr>
+</tbody>
+</table>
+
+## <a name="conclusion"></a><span data-ttu-id="faf1a-943">结论</span><span class="sxs-lookup"><span data-stu-id="faf1a-943">Conclusion</span></span>
+<span data-ttu-id="faf1a-944">在财务会计中，10,000.00 电成本过帐到虚拟成本中心 ID。</span><span class="sxs-lookup"><span data-stu-id="faf1a-944">In Financial accounting, a cost of 10,000.00 for Electricity is posted to a dummy cost center ID.</span></span> <span data-ttu-id="faf1a-945">因此，成本会计员将了解必须分摊此成本。</span><span class="sxs-lookup"><span data-stu-id="faf1a-945">Therefore, cost accountants will know that this cost must be allocated.</span></span> <span data-ttu-id="faf1a-946">在成本核算中，跨组织单位和级别的成本流，基于所应用的政策和规则。</span><span class="sxs-lookup"><span data-stu-id="faf1a-946">In Cost accounting, the costs flow across organizational units and levels, based on the policies and rules that are applied.</span></span> <span data-ttu-id="faf1a-947">每项成本已与为成本分摊提供最佳评估的分配基础关联。</span><span class="sxs-lookup"><span data-stu-id="faf1a-947">Each cost has been associated with an allocation base that provides the best assessment for the allocation of costs.</span></span>
+
+<table>
+<thead>
+<tr>
+<th colspan="2" rowspan="2"><span data-ttu-id="faf1a-948">成本元素</span><span class="sxs-lookup"><span data-stu-id="faf1a-948">Cost element</span></span></th>
+<th colspan="9"><span data-ttu-id="faf1a-949">成本对象</span><span class="sxs-lookup"><span data-stu-id="faf1a-949">Cost object</span></span></th>
+<th rowspan="2"><span data-ttu-id="faf1a-950">合计</span><span class="sxs-lookup"><span data-stu-id="faf1a-950">Total</span></span></th>
+</tr>
+<tr>
+<th><span data-ttu-id="faf1a-951">CC099</span><span class="sxs-lookup"><span data-stu-id="faf1a-951">CC099</span></span></th>
+<th><span data-ttu-id="faf1a-952">CC001</span><span class="sxs-lookup"><span data-stu-id="faf1a-952">CC001</span></span></th>
+<th><span data-ttu-id="faf1a-953">CC002</span><span class="sxs-lookup"><span data-stu-id="faf1a-953">CC002</span></span></th>
+<th><span data-ttu-id="faf1a-954">CC003</span><span class="sxs-lookup"><span data-stu-id="faf1a-954">CC003</span></span></th>
+<th><span data-ttu-id="faf1a-955">CC004</span><span class="sxs-lookup"><span data-stu-id="faf1a-955">CC004</span></span></th>
+<th><span data-ttu-id="faf1a-956">项目 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-956">Proj 1</span></span></th>
+<th><span data-ttu-id="faf1a-957">项目 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-957">Proj 2</span></span></th>
+<th><span data-ttu-id="faf1a-958">产品 1</span><span class="sxs-lookup"><span data-stu-id="faf1a-958">Prod 1</span></span></th>
+<th><span data-ttu-id="faf1a-959">产品 2</span><span class="sxs-lookup"><span data-stu-id="faf1a-959">Prod 2</span></span></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td colspan="2"><span data-ttu-id="faf1a-960">10001 电</span><span class="sxs-lookup"><span data-stu-id="faf1a-960">10001 Electricity</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-961"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-961"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-962"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-962"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-963"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-963"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-964"><strong>0.00</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-964"><strong>0.00</strong></span></span></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-965"><strong>30.00</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-965"><strong>30.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-966"><strong>10.00</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-966"><strong>10.00</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-967"><strong>7,770.57</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-967"><strong>7,770.57</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-968"><strong>2,189.43</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-968"><strong>2,189.43</strong></span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-969"><strong>10,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-969"><strong>10,000.00</strong></span></span></td>
+</tr>
+<tr>
+<td></td>
+<td style="text-align: left;"><span data-ttu-id="faf1a-970">未分类</span><span class="sxs-lookup"><span data-stu-id="faf1a-970">Unclassified</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-971">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-971">0.00</span></span></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><span data-ttu-id="faf1a-972">固定成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-972">Fixed cost</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-973">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-973">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-974">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-974">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-975">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-975">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-976">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-976">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-977">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-977">0.00</span></span></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-978">776.36</span><span class="sxs-lookup"><span data-stu-id="faf1a-978">776.36</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-979">223.64</span><span class="sxs-lookup"><span data-stu-id="faf1a-979">223.64</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-980"><strong>1,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-980"><strong>1,000.00</strong></span></span></td>
+</tr>
+<tr>
+<td style="text-align: right;"></td>
+<td style="text-align: left;"><span data-ttu-id="faf1a-981">可变成本</span><span class="sxs-lookup"><span data-stu-id="faf1a-981">Variable cost</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-982">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-982">000</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-983">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-983">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-984">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-984">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-985">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-985">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-986">0.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-986">0.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-987">30.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-987">30.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-988">10.00</span><span class="sxs-lookup"><span data-stu-id="faf1a-988">10.00</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-989">6,994.21</span><span class="sxs-lookup"><span data-stu-id="faf1a-989">6,994.21</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-990">1,965.79</span><span class="sxs-lookup"><span data-stu-id="faf1a-990">1,965.79</span></span></td>
+<td style="text-align: right;"><span data-ttu-id="faf1a-991"><strong>9,000.00</strong></span><span class="sxs-lookup"><span data-stu-id="faf1a-991"><strong>9,000.00</strong></span></span></td>
+</tr>
+</tbody>
+</table>
+
+> [!NOTE]
+> <span data-ttu-id="faf1a-992">此主题显示主要成本元素“10001 电”如何流过成本对象。</span><span class="sxs-lookup"><span data-stu-id="faf1a-992">This topic shows how a primary cost element, 10001 Electricity, flows through the cost objects.</span></span> <span data-ttu-id="faf1a-993">因此，此间接成本分摊到组织的最低级别。</span><span class="sxs-lookup"><span data-stu-id="faf1a-993">Therefore, this overhead cost is allocated to the lowest level in the organization.</span></span> <span data-ttu-id="faf1a-994">换言之，最低级别的成本对象承担成本。</span><span class="sxs-lookup"><span data-stu-id="faf1a-994">In other words, the cost objects at the lowest level bear the cost.</span></span> <span data-ttu-id="faf1a-995">如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。</span><span class="sxs-lookup"><span data-stu-id="faf1a-995">If you require a visual flow of the cost between the cost objects, you can use the cost roll-up policy rules to visualize the flow of the cost.</span></span> <span data-ttu-id="faf1a-996">有关详细信息，请参阅[成本累积](cost-rollup.md)。</span><span class="sxs-lookup"><span data-stu-id="faf1a-996">For more information, see [Cost roll-up](cost-rollup.md).</span></span>
 
 
 

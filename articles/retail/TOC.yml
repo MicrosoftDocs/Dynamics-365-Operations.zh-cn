@@ -12,6 +12,8 @@
       href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
     - name: 部署选项
       href: dev-itpro/choose-deployment.md
+    - name: 获取 Retail 支持
+      href: retail-support.md
 - name: 了解实施生命周期
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -37,7 +39,7 @@
       href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
     - name: 实施 Finance and Operations Retail 项目
       href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
-    - name: 为 Retail 项目设置新的环境、VSTS 和分支
+    - name: 为 Retail 项目设置新的环境、Azure DevOps 和分支
       href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
     - name: 为 Retail 项目更新代码和环境
       href: dev-itpro/updating-environments.md
@@ -305,6 +307,14 @@
       href: ../talent/create-job.md
 - name: 本地化和监管功能
   items:
+    - name: 东欧
+      items:
+        - name: 东欧 Retail 预付款发票
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: 东欧 Retail 备用金管理
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: 东欧国家/地区的 Retail 客户发票和退货销售订单
+          href: localizations/emea-eeu-retail-invoices.md
     - name: 法国
       items:
         - name: 收银机功能
@@ -317,6 +327,8 @@
           href: localizations/apac-ind-cash-registers.md
         - name: 收银机部署指南
           href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: 适用于印度的升级和 N-1 支持
+          href: localizations/apac-ind-n-1-for-india.md
     - name: 挪威
       items:
         - name: 收银机功能

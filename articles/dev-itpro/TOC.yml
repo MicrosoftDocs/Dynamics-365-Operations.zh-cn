@@ -9,7 +9,7 @@
   items:
     - name: 使用数据包生成演示数据
       href: data-entities/generate-demo-data-packages.md
-- name: 使用 Visual Studio 进行开发和自定义
+- name: 开发和定制
   href: dev-tools/developer-home-page.md
   items:
     - name: 应用程序堆栈和服务器体系结构
@@ -25,9 +25,9 @@
           href: dev-tools/configure-developer-vm.md
         - name: 在开发计算机上创建新用户
           href: dev-tools/enable-development-machine.md
-        - name: 开发和构建不允许管理员访问常见问题的 VM
+        - name: 开发和构建不允许管理员访问的 VM 的常见问题
           href: sysadmin/VMs-no-admin-access.md
-        - name: 重命名本地环境以访问 Visual Studio Team Services
+        - name: 重命名本地环境以访问 Azure DevOps
           href: migration-upgrade/vso-machine-renaming.md
         - name: 开发系统要求
           href: dev-tools/development-system-requirements.md
@@ -106,6 +106,8 @@
               href: dev-ref/xpp-variables-data-types.md
             - name: X++ 语句、循环和异常处理
               href: dev-ref/xpp-statements-loops.md
+            - name: SQL 连接错误 X++ 异常
+              href: dev-ref/sql-connection-error.md
             - name: X++ 运算符
               href: dev-ref/xpp-operators.md
             - name: X++ 运算符优先级
@@ -251,6 +253,10 @@
               href: extensibility/extensibility-changes-802.md
             - name: 可扩展性更改版本 8.0.3
               href: extensibility/extensibility-changes-803.md
+            - name: 可扩展性更改版本 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: 可扩展性更改版本 8.1
+              href: extensibility/extensibility-changes-81.md
         - name: 基本原理
           items:
             - name: 自动插入的自定义项
@@ -916,6 +922,8 @@
           href: gdpr/gdpr-lcs.md
     - name: 数据验证核对清单工作区
       href: user-interface/data-validation-workspace.md
+    - name: 数据管理错误描述
+      href: data-entities/dm-error-descriptions.md
 - name: 连续交货
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1109,12 +1117,27 @@
               href: migration-upgrade/migrate-upgraded-cube-entity-store.md
             - name: 升级预算计划
               href: migration-upgrade/upgrade-budget-planning.md
+    - name: 将数据从 AX 2009 迁移至 Finance and Operations
+      href: migration-upgrade/data-migration-tool.md
+      items:
+        - name: AX 2009 迁移 - 安装数据迁移工具
+          href: migration-upgrade/install-dmt.md
+        - name: AX 2009 迁移 - 生成映射
+          href: migration-upgrade/generate-maps.md
+        - name: AX 2009 迁移 - 创建模板
+          href: migration-upgrade/create-package-templates-dmt.md
+        - name: AX 2009 迁移 - 创建迁移组
+          href: migration-upgrade/create-definition.md
+        - name: AX 2009 迁移 - 导出包
+          href: migration-upgrade/ax2009-upgrade-export-package.md
+        - name: AX 2009 迁移 - 导入包
+          href: migration-upgrade/ax2009-upgrade-import-package.md
     - name: 代码迁移和升级
       href: migration-upgrade/code-migration-home-page.md
       items:
         - name: 准备迁移代码
           href: migration-upgrade/prepare-migration.md
-        - name: 配置 Visual Studio Team Services 映射
+        - name: 配置 Azure DevOps 映射
           href: migration-upgrade/configure-vso-solution.md
         - name: 模型拆分
           href: dev-tools/model-split.md
@@ -1124,6 +1147,8 @@
       items:
         - name: 升级到最新更新的流程
           href: migration-upgrade/upgrade-latest-update.md
+        - name: 将环境从版本 8.0 更新为 8.1
+          href: migration-upgrade/appupdate-80-81.md
         - name: 软件生命周期策略和云版本
           href: migration-upgrade/versions-update-policy.md
         - name: 将最新平台更新应用于环境
@@ -1248,7 +1273,7 @@
       href: lifecycle-services/complete-tasks-bpm.md
     - name: 使用 BPM 库中的活动图
       href: lifecycle-services/using-activity-diagrams.md
-    - name: 使用 Visual Studio Team Services 同步 BPM 库
+    - name: 将 BPM 库与 Azure DevOps 同步
       href: lifecycle-services/synchronize-bpm-vsts.md
     - name: 使用任务指南和 BPM 创建用户接受度测试库
       href: lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
@@ -1266,6 +1291,10 @@
       href: lifecycle-services/user-logins.md
     - name: 资产库
       href: lifecycle-services/asset-library.md
+    - name: 使用 LCS 中的工具进行性能疑难解答
+      href: lifecycle-services/performancetroubleshooting.md
+    - name: 查询指南
+      href: lifecycle-services/querycookbook.md
     - name: Microsoft Dynamics 365 Translation Service
       href: lifecycle-services/translation-service-overview.md
       items:
