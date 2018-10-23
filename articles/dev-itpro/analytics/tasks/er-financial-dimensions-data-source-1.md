@@ -1,28 +1,29 @@
 --- 
-title: "将数据模型设计为使用财务维度作为数据源"
+title: "ER 将财务维度用作数据源（第 1 部分 - 设计数据模型）"
 description: "以下步骤说明系统管理员或电子申报开发人员可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。"
 author: NickSelin
 manager: AnnBe
-ms.date: 10/18/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionTable, ERSolutionCreateDropDialog, ERDataModelDesigner, ERDataModelContentsItemCreationDialog
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 9b33d78b60ca4e4813dd4b158febee2323cea476
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 84f546b73eefe3ead78c6ab3fdbbc05d0db5fef5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-data-models-to-use-financial-dimensions-as-data-sources"></a>将数据模型设计为使用财务维度作为数据源
+# <a name="er-use-financial-dimensions-as-a-data-source-part-1-design-data-model"></a>ER 将财务维度用作数据源（第 1 部分：设计数据模型）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

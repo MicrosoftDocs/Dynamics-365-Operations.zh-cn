@@ -18,10 +18,10 @@ ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 85318332b802aace7d705289e6a298b49799b847
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -47,7 +47,7 @@ Microsoft Dynamics 365 for Talent Web 应用程序可在指定操作系统上运
 > * Workflow Editor 作为 ClickOnce 应用程序启动。 只有 Microsoft Edge 和 Internet Explorer（在支持的 Microsoft Windows 版本上）才支持 ClickOnce 应用程序。 Workflow Editor ClickOnce 应用程序需要 64 位兼容操作系统。
 > * 若要预览 PDF 文件，我们建议您使用现代浏览器，如 Windows 10 上的 Microsoft Edge（最新公开提供的版本）或 Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）。
 >   网络要求
-> * Dynamics 365 for Talent 适用于延迟在 250-300 毫秒 (ms) 或更低的网络。 这是从浏览器客户端到主管 Dynamics 365 for Talent 的 Microsoft Azure 数据中心的延迟。 建议在 [www.azurespeed.com](http://www.azurespeed.com "延迟测试") 测试网络延迟。
+> * Dynamics 365 for Talent 适用于延迟在 250-300 毫秒 (ms) 或更低的网络。 这是从浏览器客户端到主管 Dynamics 365 for Talent 的 Microsoft Azure 数据中心的延迟。 建议在 [www.azurespeed.com](https://www.azurespeed.com "延迟测试") 测试网络延迟。
 > * Dynamics 365 for Talent 的带宽要求取决于您的方案。 大多数典型方案要求带宽超过每秒 50 千字节 (KBps)。
 > 
 > [!WARNING]

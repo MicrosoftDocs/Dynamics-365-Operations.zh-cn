@@ -1,28 +1,29 @@
 --- 
-title: "修改和运行在 ER 输出中使用票据管理文件的格式"
+title: "ER 在格式输出中使用票据管理文件（第 5 部分 - 修改和运行格式）"
 description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。"
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, EROperationDesigner, ERComponentTypeDropDialog, ERExpressionDesignerFormula, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 5effbecf98e633d07f9e5eb22d3df1a12967c1e4
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 23e91b6aee62157da9141cc7b6c4fae39c19ce32
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="modify-and-run-formats-to-use-document-management-files-in-er-output"></a>修改和运行在 ER 输出中使用票据管理文件的格式
+# <a name="er-use-document-management-files-in-format-outputs-part-5-modify-and-run-format"></a>ER 在格式输出中使用票据管理文件（第 5 部分：修改和运行格式）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

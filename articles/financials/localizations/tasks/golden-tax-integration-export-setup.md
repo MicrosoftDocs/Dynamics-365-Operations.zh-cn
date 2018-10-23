@@ -1,28 +1,29 @@
 --- 
-title: "金税集成导出设置（中国）"
+title: "金税集成导出设置"
 description: "此过程显示如何配置金税集成的导出格式。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9a840e7934ad87ef7bfd0cd4ff2423b0d9072013
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 092cf8876a89a1155f5326b3104e6a02e61c941d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="golden-tax-integration-export-setup-china"></a>金税集成导出设置（中国）
+# <a name="golden-tax-integration-export-setup"></a>金税集成导出设置
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

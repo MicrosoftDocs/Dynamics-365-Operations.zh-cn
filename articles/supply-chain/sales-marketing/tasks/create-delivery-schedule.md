@@ -3,26 +3,27 @@ title: "创建交货计划"
 description: "此过程显示如何为销售订单创建交货计划。"
 author: omulvad
 manager: AnnBe
-ms.date: 02/09/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, SalesDeliverySchedule, SalesEditLines,  SrsReportViewerForm
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 956edeac33f8531ecebef64301f2318333000429
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d99dfae5e045262d34daf3529a6a3f4716b4afe3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-a-delivery-schedule"></a>创建交货计划
+# <a name="create-delivery-schedule"></a>创建交货计划
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

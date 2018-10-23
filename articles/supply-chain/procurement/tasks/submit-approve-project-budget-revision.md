@@ -1,29 +1,30 @@
 --- 
-title: "提交和审核项目预算修订"
+title: "提交和审查项目预算修订"
 description: "此过程提供有关如何修订项目预算的信息。"
 author: mkirknel
 manager: AnnBe
-ms.date: 02/13/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ProjProjectsListPage, ProjTable, ProjBudget, ProjBudgetRevision, WorkflowSubmitDialog
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 154c60b766aa034bb986e2d35bc92e6e9e0cf0d9
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 24f7f0b8238b017cd7e2dab65a1c0be98e425c40
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="submit-and-approve-project-budget-revisions"></a>提交和审核项目预算修订
+# <a name="submit-and-approve-project-budget-revision"></a>提交和审查项目预算修订
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

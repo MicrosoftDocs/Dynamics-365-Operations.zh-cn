@@ -16,10 +16,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 9399df070d450b6eb89dc33ca47ddb77fe8e60b1
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 
@@ -27,7 +27,7 @@ ms.lasthandoff: 08/13/2018
 
 [!include [banner](../includes/banner.md)]
 
-本主题中包含的信息和资源链接可帮助您为主要地址在巴西的法人设置 Dynamics 365 for Finance and Operations。 
+本主题中包含的信息和资源链接可帮助您为主要地址在欧洲的法人设置 Dynamics 365 for Finance and Operations。 
 
 - [预付款持有人](emea-advance-holders.md)
  - [预付款持有人交易记录](emea-advance-holders-transactions.md)
@@ -44,9 +44,7 @@ ms.lasthandoff: 08/13/2018
 - [付款方式的文件格式](emea-select-file-formats-for-the-method-of-payments.md)
 - [会计服务 (ESR) 集成](emea-fiscal-service-integration.md)
 - [爱沙尼亚和立陶宛的固定资产处置](emea-credit-note-reverse-fixed-asset-sale.md)
-- [外币重估](emea-foreign-currency-revaluation.md)
 - [为内部库存转移生成转移文档](tasks/transfer-document-internal-inventory-transfer.md)
-- [生成欧盟内部统计申报](tasks/eur-00002-eu-intrastat-declaration.md)
 - [生成欧盟销售清单报表](tasks/eur-00011-eu-sales-list-report.md)
 - ISO20022 文件
   - [导入 ISO20022 文件](emea-ISO20022-file-formats.md)
@@ -61,6 +59,8 @@ ms.lasthandoff: 08/13/2018
   - [使用 ISO20022 付款格式创建和导出供应商付款](tasks/create-export-vendor-payments-iso20022-payment-format.md)
 - [内部统计](emea-intrastat.md)
   - [将交易记录转移到内部统计](tasks/transfer-transactions-intrastat.md)
+  - [为集团内部交易指定装货地址](tasks/eur-00002-specify-lading-address-intra-community.md)
+  - [生成欧盟内部统计申报](tasks/eur-00002-eu-intrastat-declaration.md)
 - [库存日记帐报表](emea-set-up-report-inventory-journal-names.md)
 - [发票签发截止时间](emea-invoice-issue-deadline.md)
 - [发票处理](emea-invoice-processing.md)
@@ -82,8 +82,6 @@ ms.lasthandoff: 08/13/2018
 - [设置欧盟销售清单报表](tasks/eur-00011-eu-sales-list-reporting.md)
 - [设置项目发票的付款单格式](tasks/set-up-payment-slip-format-project-invoices.md)
 - [设置打印表格的签名人](emea-set-up-signers-for-printing-forms.md)
-- [为公司内货物转移设置转移文档](tasks/set-up-transfer-documents-goods-movement-inside-company.md)
-- [为集团内部交易指定装货地址](tasks/eur-00002-specify-lading-address-intra-community.md)
 - [Storno 核算](emea-storno.md)
 - [税务指令](emea-tax-directives.md)
 - [更新金额在报表和单据上显示的方式](emea-amount-printing-forms.md)

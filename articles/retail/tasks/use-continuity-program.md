@@ -1,31 +1,32 @@
 --- 
-title: "销售连续性计划和处理相关销售订单"
+title: "使用连续性计划"
 description: "此过程逐步演示如何销售连续性计划和如何处理相关销售订单。"
 author: scott-tucker
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
-ms.service: dynamics-365-retail
+ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: MCRCustomerService, MCRCustSearch, SalesTable, MCRContinuityCustInfo, MCRCustPaymLookup, CreditCardTokenization, CreditCardLookup, MCRSalesOrderRecap
 audience: Application User
 ms.reviewer: josaw
-ms.search.scope: Operations, Retail
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 5fe1823c9b684bbc5ac5bd0871cc5c0a0e6ce678
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 45bd4a3cc9f9b03c713d33638d6dc93aa696c581
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="selling-continuity-programs-and-processing-related-sales-orders"></a>销售连续性计划和处理相关销售订单
+# <a name="using-continuity-program"></a>使用连续性计划
 
-[!include [task guide banner](../includes/task-guide-banner.md)]
+[!include[task guide banner](../includes/task-guide-banner.md)]
 
 此过程逐步演示如何销售连续性计划和如何处理相关销售订单。 若要完成此过程，必须将用户设置为呼叫中心用户。 此程序使用 USRT 演示数据公司。
 

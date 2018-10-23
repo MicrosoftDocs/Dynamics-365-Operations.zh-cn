@@ -3,13 +3,13 @@ title: "配置 Talent"
 description: "此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新环境。"
 author: rschloma
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 09/27/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: josaw
 ms.search.scope: Talent
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 2fc4119f3b33aa583274f4d823e296752cdde41d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 # <a name="provision-talent"></a>配置 Talent
@@ -30,7 +30,7 @@ ms.lasthandoff: 08/08/2018
 
 此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新生产环境。 此主题假设您已通过云解决方案提供商 (CSP) 或企业体系结构 (EA) 协议购买了 Talent。 如果您有已包括 Talent 服务计划的现有 Microsoft Dynamics 365 许可证，但无法完成本主题中的步骤，请联系支持人员。
 
-若要开始，全局管理员应登录到 [Microsoft Dynamics Lifecycle Services](http://lcs.dynamics.com) (LCS) 并创建新的 Talent 项目。 除非许可问题妨碍了您配置 Talent，否则不需要从支持人员或 Dynamics Service 工程 (DSE) 代表处获得帮助。
+若要开始，全局管理员应登录到 [Microsoft Dynamics Lifecycle Services](https://lcs.dynamics.com) (LCS) 并创建新的 Talent 项目。 除非许可问题妨碍了您配置 Talent，否则不需要从支持人员或 Dynamics Service 工程 (DSE) 代表处获得帮助。
 
 ## <a name="create-an-lcs-project"></a>创建 LCS 项目
 若要使用 LCS 来管理您的 Talent 环境，您必须先创建 LCS 项目。
@@ -48,7 +48,6 @@ ms.lasthandoff: 08/08/2018
 
 1. 在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。
 2. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 PowerApps 环境”部分。 
-3. 如果您还没有 PowerApps 环境，在继续前请先执行本主题“创建新的 PowerApps 环境（如果需要）”部分中的步骤。
 
     > [!NOTE]
     > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 PowerApps P2 许可证。 如果您的组织没有 PowerApps P2 许可证，则可以从 CSP 或从 [PowerApps 定价页面](https://powerapps.microsoft.com/en-us/pricing/)获取一个。
@@ -78,11 +77,6 @@ ms.lasthandoff: 08/08/2018
 4. 应该考虑数据集成和测试策略，例如：沙盒、UAT、生产。 因此，建议您考虑对您的部署的各种影响，因为以后不容易更改将哪个 Talent 环境映射到 PowerApps 环境。
 5. 以下 PowerApps 环境不能用于 Talent，将从 LCS 内的选择列表中筛除：
  
-    **CDS 2.0 环境** CDS 2.0 将于 2018 年 3 月 21 日公开提供；不过，Talent 尚不支持 CDS 2.0。 尽管您可以在 PowerApps 管理员中心查看和创建 CDS 2.0 数据库，但它们不能在 Talent 中使用。 Talent 部署中的使用 2.0 CDS 环境选项将在以后提供。
-   
-   > [!Note]
-   > 若要区分管理门户中的 CDS 1.0 和 2.0 环境，选择环境并查看**详细信息**。 CDS 2.0 环境全部参考“您可以在 Dynamics 365 管理中心管理这些设置”的事实，指向实例版本，并且没有“数据库”选项卡。 
- 
    **默认 PowerApps 环境**虽然每个租户均自动配置为默认的 PowerApps 环境，但我们不建议在 Talent 中使用它们，因为所有租户用户均有权访问 PowerApps 环境，有可能会在使用 PowerApps 或流集成进行测试和探索时意外损坏生产数据。
    
    <strong>测试驱动器环境</strong>具有类似“TestDrive – alias@domain”这样的名称的环境创建后有 60 天的到期期间，此时间过后，会导致您的环境自动删除。
@@ -91,42 +85,6 @@ ms.lasthandoff: 08/08/2018
   
 6. 一旦您确定了要使用的正确环境，则没有要采取的特定行动。 继续配置流程。 
  
-## <a name="create-a-new-powerapps-environment-if-required"></a>创建新的 PowerApps 环境（如果需要）
-
-运行 PowerShell 脚本以在具有 PowerApps 计划 2 许可证的租户管理员上下文中为 Talent 创建新 PowerApps 环境。 脚本将自动完成以下步骤：
-
-
- + 创建 PowerApps 环境
- + 创建 CDS 1.0 数据库
- + 清除 CDS 1.0 数据库中的所有示例数据
-
-
-完成以下说明中的步骤以运行脚本：
-
-1. 从以下位置下载 ProvisionCDSEnvironment.zip 文件：[ProvisionCDSEnvironment 脚本](https://go.microsoft.com/fwlink/?linkid=870436)  
-
-2. 在下载文件夹中，右键单击刚才下载的 ProvisionCDSEnvironment.zip 文件，然后选择**属性**。  如果对话框底部有安全声明宣称“此文件来自另一台计算机，可能已锁定，以帮助保护此计算机”，请将复选框标记为**解锁**，单击**应用**，然后单击**确定**。
-
-3. 将整个 ProvisionCDSEnviroinment.zip 文件的内容解压缩到非根文件夹中。
-
-4. 作为管理员运行 Windows PowerShell 或 Windows PowerShell ISE 程序。
-
-   访问[设置执行策略](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-6)主题，了解有关设置执行策略以使脚本运行的详细信息。 建议使用下面的的“Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope Process”，但务必遵守公司的安全策略，并在完成时关闭 PowerShell 窗口。 
-  
-5. 在 PowerShell 中，导航到您解压缩文件的文件夹并运行以下命令，按下方指示替换值：
- 
-   ```.\ProvisionCDSEnvironment -EnvironmentName MyNewEnvironment -Location YourLocation```
-
-    
-   **MyNewEnvironment** 应该替换为您的环境名称。 此名称将出现在 LCS 中，并且在用户选择要使用的 Talent 环境时可见。 
-
-   **YourLocation** 应替换为以下一个支持 Talent 的地区：美国、欧洲、澳大利亚。 
-
-   **-Verbose** 是可选的，将提供在出现问题时发送的用于提供支持的详细信息。
-
-6. 继续配置流程。
- 
-
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
 默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 要授予访问权限，请在 Core HR 环境中[添加用户](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)并[为其分配相应角色](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 部署了 Talent 的全局管理员还必须启动 Attract 和 Onboard 应用程序以完成初始化和允许其他租户用户访问。  在此之前，其他用户不能访问 Attract 和 Onboard 应用程序，并且将发生访问冲突错误。
 

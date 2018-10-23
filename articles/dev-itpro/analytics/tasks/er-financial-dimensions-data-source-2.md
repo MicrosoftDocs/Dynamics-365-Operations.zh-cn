@@ -1,28 +1,29 @@
 --- 
-title: "将模型映射为使用财务维度作为数据源"
+title: "ER 将财务维度用作数据源（第 2 部分 - 模型映射）"
 description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。"
 author: NickSelin
 manager: AnnBe
-ms.date: 10/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 4d9c0f50a724582941ac11e4f01b3cfd3b1cf262
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="map-models-to-use-financial-dimensions-as-data-sources"></a>将模型映射为使用财务维度作为数据源 
+# <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER 将财务维度用作数据源（第 2 部分：模型映射）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

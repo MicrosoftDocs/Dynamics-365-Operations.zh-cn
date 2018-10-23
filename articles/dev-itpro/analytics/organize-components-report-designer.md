@@ -19,10 +19,10 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: c9772d45cf9d9941dd8fe0de13ce624ea3aa3b53
+ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
+ms.openlocfilehash: 3f2b34cccfd84a9e4bb76e7a1da64e5cefa9982e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 09/27/2018
 
 ---
 
@@ -36,9 +36,6 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="rename-a-folder-or-building-block-in-report-designer"></a>在报表设计器中重命名文件夹或构建基块
 在报表设计器中，你可以重命名文件夹、报表定义、行定义、列定义和报告树定义。
-
-> [!NOTE]
-> 重命名一个构建基块时，您必须更新使用构建基块的所有报告定义。 否则，不能生成新的报表。
 
 ### <a name="rename-a-folder-or-building-block-in-report-designer"></a>在报表设计器中重命名文件夹或构建基块
 

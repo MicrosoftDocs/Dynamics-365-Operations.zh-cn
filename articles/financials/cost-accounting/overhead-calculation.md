@@ -3,7 +3,7 @@ title: "开销计算"
 description: "此主题描述计算和分配间接成本的典型流程。"
 author: AndersGirke
 manager: AnnBe
-ms.date: 04/20/2017
+ms.date: 10/04/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: shylaw
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 549e9b4b073a4e93dd3a1dd52dd6f43e7420a31b
+ms.sourcegitcommit: 12ae99c15bafcd9cc08b30903fe3f251f446b17d
+ms.openlocfilehash: 4de705324ac497cfb11fae3dadc6f57d038fd0b5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
+ms.lasthandoff: 10/05/2018
 
 ---
 
@@ -191,8 +191,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
-有关成本行为的详细信息，请参阅“成本行为政策”。 （请注意，此主题尚未完成，不过将很快推出。）
-
+有关详细信息，请参阅[创建成本行为策略并将其分配到成本控制单元](tasks/create-assign-cost-behavior-policy-cost-control-unit.md)。
 ### <a name="step-2-process-the-cost-distribution-calculation"></a>步骤 2：处理成本分配计算
 
 成本分配用于通过应用相关的分摊基数将成本从一个成本对象重新分配到一个或多个其他成本对象。 成本分配和成本分摊的不同之处在于，成本分配始终发生在原始成本的主要成本元素级别。
@@ -430,7 +429,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
-有关成本分配和分配基础的详细信息，请参阅“成本分配成本”和“分配基础”。 （请注意，此主题尚未完成，不过将很快推出。）
+有关详细信息，请参阅[创建成本分配策略并将其分配到成本控制单元](tasks/create-assign-cost-distribution-policy-cost-control-unit.md)。 
 
 ### <a name="step-3-process-the-overhead-rate-calculation"></a>步骤 3：处理开销比率计算
 
@@ -618,7 +617,7 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
-有关开销比率政策的详细信息，请参阅“开销比率政策”和“分配基础”。 （请注意，此主题尚未完成，不过将很快推出。）
+有关详细信息，请参阅 [执行开销计算](cost-rollup.md#perform-overhead-calculation)。
 
 ### <a name="step-4-process-the-cost-allocation-calculation"></a>步骤 4：处理成本分摊计算
 
@@ -725,7 +724,8 @@ ms.lasthandoff: 11/03/2017
 </tbody>
 </table>
 
-**注意：** 在 Finance and Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。 关于统计度量的更多详细信息，请参阅“统计度量提供方模板”。 （请注意，此主题尚未完成，不过将很快推出。）下表显示 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。
+> [!NOTE]
+> 在 Finance and Operations 中，产品消耗的生产工时等统计度量可以派生自源数据。 有关详细信息，请参阅[统计度量提供方模板](statistical-measure-provider-template.md#statistical-measure-provider-template)。 下表显示当 HR 服务用作总成本的分配基础时的结果（固定成本和可变成本）。
 
 <table>
 <thead>
@@ -1412,7 +1412,7 @@ ms.lasthandoff: 11/03/2017
 </table>
 
 > [!NOTE]
-> 此主题显示主要成本元素“10001 电”如何流过成本对象。 因此，此间接成本分摊到组织的最低级别。 换言之，最低级别的成本对象承担成本。 如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。 更多详细信息，请参阅“成本累积政策”。 （请注意，此主题尚未完成，不过将很快推出。）
+> 此主题显示主要成本元素“10001 电”如何流过成本对象。 因此，此间接成本分摊到组织的最低级别。 换言之，最低级别的成本对象承担成本。 如果您需要成本对象之间的可视成本流，可以使用成本累积政策规则实现成本流可视化。 有关详细信息，请参阅[成本累积](cost-rollup.md)。
 
 
 

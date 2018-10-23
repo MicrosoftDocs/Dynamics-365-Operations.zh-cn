@@ -6,6 +6,14 @@
       items:
         - name: 新增功能或更改的功能
           items:
+            - name: Dynamics 365 for Talent Core HR（2018 年 10 月 1 日）中的新增功能或更改的功能
+              href: whats-new-talent-october-01.md
+            - name: Dynamics 365 for Talent Core HR（2018 年 9 月 24 日）中的新增功能或更改的功能
+              href: whats-new-talent-september-24.md
+            - name: Dynamics 365 for Talent Core HR（2018 年 9 月 17 日）中的新增功能或更改的功能
+              href: whats-new-talent-september-17-2018.md
+            - name: Dynamics 365 for Talent Core HR（2018 年 9 月 10 日）中的新增功能或更改的功能
+              href: whats-new-talent-september-10.md
             - name: Dynamics 365 for Talent Core HR（2018 年 8 月）中的新增功能或更改的功能
               href: whats-new-talent-august2018.md
             - name: Dynamics 365 for Talent Core HR（2018 年 7 月）中的新增功能或更改的功能
@@ -20,10 +28,14 @@
           href: modular-app-tech-faq.md
         - name: 嵌入 PowerApps 应用
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR 和 Common Data Service for Apps
+          href: CoreHREntities.md
         - name: 访问预览功能
           href: access-preview-feature.md
         - name: 配置 Talent 和 Dayforce 之间的工资单集成
           href: configure-payroll-integration.md
+        - name: 获取 Talent 支持
+          href: talent-support.md
     - name: 使用部门、工作和职位组织您的劳动力
       href: departments-jobs-positions.md
       items:
@@ -41,11 +53,16 @@
           href: formalize-business-processes.md
         - name: 使用工作流管理员工信息
           href: workflow-manage-employee-information.md
-        - name: 休假和缺勤管理
-          href: leave-absence-overview.md
+    - name: 管理休假和缺勤
+      href: leave-absence-overview.md
+      items:
+        - name: 根据工作时数累积休假时间
+          href: leave-accrue-hours-worked.md
+        - name: 工作时间日历
+          href: working-time-calendars.md
     - name: 组织人员配备
       items:
-        - name: 吸引特色和功能
+        - name: Attract 特色和功能
           href: attract-overview.md
         - name: 打造一个有吸引力的入职体验
           href: create-onboarding-experience.md
@@ -59,6 +76,8 @@
           href: create-variable-compensation-plans.md
         - name: 薪酬流程
           href: process-compensation.md
+        - name: 设置作业组件
+          href: create-job.md
     - name: 培养和培训员工
       items:
         - name: 绩效管理

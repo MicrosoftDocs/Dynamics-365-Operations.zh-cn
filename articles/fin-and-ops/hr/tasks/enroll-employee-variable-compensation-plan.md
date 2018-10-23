@@ -17,10 +17,10 @@ ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 58895bfd2ef5ec5e8f6f1500158376b9140775d7
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: 6ab2533293b5c8cb37953427893b75a98ddf3976
 ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>在可变薪酬计划中登记员工

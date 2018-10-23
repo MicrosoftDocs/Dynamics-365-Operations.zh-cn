@@ -1,28 +1,29 @@
 --- 
-title: "创建电子申报格式以执行盘点和合计"
+title: "ER 配置格式以执行盘点和合计（第 1 部分 - 创建格式）"
 description: "以下步骤介绍指定为系统管理或电子申报开发人员角色的用户如何配置电子申报 (ER) 格式，以便基于已生成的文本输出的数据执行盘点和合计。"
 author: NickSelin
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 7261a2324b61cacfca8d69ad52762aa545b70220
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d1f925ef8d772189a505f2793de1176756866bf4
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-electronic-reporting-er-formats-to-do-counting-and-summing"></a>创建电子申报 (ER) 格式以执行盘点和合计
+# <a name="er-configure-format-to-do-counting-and-summing-part-1-create-format"></a>ER 配置格式以执行盘点和合计（第 1 部分：创建格式）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

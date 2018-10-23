@@ -1,28 +1,29 @@
 --- 
-title: "设计 ER 配置以生成 OpenXML 格式的报表"
+title: "ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）"
 description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何创建新电子报表 (ER) 配置，使其包含用于生成 OPENXML 格式的电子文档的模板。"
 author: NickSelin
 manager: AnnBe
-ms.date: 01/16/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERVendorPart, ERSolutionRepositoryTable, ERSolutionRepositoryCreateDropDialog, ERSolutionImport,  ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERDataSourceAddDropDialog, ERModelGroupByFunctionEditor, VendPaymMode, LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: b42cfe36c57a9526e585bbad0fcd31ff60b90397
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 3e6b6b16f202af051ccff02051eb438ea49ff6da
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="design-er-configurations-to-generate-reports-in-openxml-format"></a>设计 ER 配置以生成 OpenXML 格式的报表
+# <a name="er-design-a-configuration-for-generating-reports-in-openxml-format-november-2016"></a>ER 设计以 OPENXML 格式生成报表的配置（2016 年 11 月）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
@@ -34,7 +35,8 @@ ms.lasthandoff: 08/08/2018
 
 
 
-为了完成这些步骤，您必须首先完成“创建配置提供商并标记为有效”这一过程中的步骤。 您还必须下载和保存 Microsoft Excel 文件[付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)。 
+为了完成这些步骤，您必须首先完成“创建配置提供商并标记为有效”这一过程中的步骤。 您还必须具有在创建模板时将导入的 Excel 文件。 可从[付款报表模板](https://go.microsoft.com/fwlink/?linkid=862266)访问此文件。
+
 
 ## <a name="upload-the-payments-data-model-configuration"></a>上载付款数据模型配置
 1. 转到“组织管理”>“工作区”>“电子申报”。

@@ -3,7 +3,7 @@ title: "本地部署主页"
 description: "本主题提供有关本地部署的信息和内容链接。"
 author: kfend
 manager: AnnBe
-ms.date: 07/16/2018
+ms.date: 09/11/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: aba11ae99393eb0d8c3e1df2276faa95ad831d29
+ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
+ms.openlocfilehash: e65edc9d613c9898776e30ea5ab4104a3ce5b4c8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/17/2018
 
 ---
 # <a name="on-premises-deployments-home-page"></a>本地部署主页
@@ -59,6 +59,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="other-resources"></a>其他资源
 - [Dynamics 365 for Finance and Operations 本地故障排除](troubleshoot-on-prem.md)
+- [本地诊断](on-premises-diagnostics.md)
 - [未在本地部署中实现的功能](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [弃用的功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)

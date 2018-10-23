@@ -3,7 +3,7 @@ title: "本地化和监管功能"
 description: "本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 09/05/2018
+ms.date: 09/30/2018
 ms.topic: index-page
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
-ms.openlocfilehash: db18906739529e04710507ee9ff088540894171d
+ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
+ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/05/2018
+ms.lasthandoff: 10/01/2018
 
 ---
 
@@ -107,6 +107,7 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
     :::column-end:::
     :::column:::
         - [波兰](../../financials/localizations/poland.md)
+        - [俄罗斯](../../financials/localizations/russia.md)
         - [沙特阿拉伯](../../financials/localizations/saudi-arabia.md)
         - [新加坡](../../financials/localizations/singapore.md)
         - [西班牙](../../financials/localizations/spain.md)

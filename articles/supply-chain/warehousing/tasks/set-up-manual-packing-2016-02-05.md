@@ -1,33 +1,34 @@
 --- 
-title: "设置人工装箱（仅 2016 年 2 月和 5 月）"
+title: "设置手动包装（2016 年 2 月和 2016 年 5 月）"
 description: "包装流程允许您验证并将产品包装到集装箱中。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/04/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: WHSLocationProfile, WHSParameters, WHSContainerType, WHSPackProfile, WHSCloseContainerProfile, InventLocationIdLookup, UnitOfMeasureLookup
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Operations
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f992a6a1655cd868d79228c490d59b46bfae715
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: b90b4a71e2447e942dbb4a9645ef93064da630d3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="set-up-manual-packing-february--may-2016-only"></a>设置人工装箱（仅 2016 年 2 月和 5 月）
+# <a name="set-up-manual-packing-february-2016--may-2016"></a>设置手动包装（2016 年 2 月和 2016 年 5 月）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-包装流程允许您验证并将产品包装到集装箱中。 在此流程中，仓库工作人员从存储位置的拣选产品并将它们移到包装站，他们在包装站检查物料数量和类型，并将其分配到相应的集装箱。 在完全包装容器时，可以封闭它并将其移至出货台，然后产品可进行装运。 该程序适用于 USMF 演示公司。
+包装流程允许您验证并将产品包装到集装箱中。 在此流程中，仓库工作人员从存储位置的拣选产品并将它们移到包装站，他们在包装站检查物料数量和类型，并将其分配到相应的集装箱。 在完全包装容器时，可以封闭它并将其移至出货台，然后产品可进行装运。 该程序适用于 USMF 演示公司。 此过程仅适用于 Dynamics 365 for Operations 的 2016 年 2 月 和 2016 年 5 月版本。
 
 
 ## <a name="set-up-location-profiles"></a>设置位置配置文件

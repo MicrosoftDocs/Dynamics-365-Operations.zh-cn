@@ -3,7 +3,7 @@ title: "物料清单模板"
 description: "使用物料清单模板提供定期提供服务的服务对象组件的标准化列表。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/01/2018
+ms.date: 09/19/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,10 +19,10 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6e3a16b9938f6d4222e0a95078356f457e71a1bb
+ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
+ms.openlocfilehash: f9c61ecd79f38301f46e3c21a33ec2801f33d19f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 09/20/2018
 
 ---
 
@@ -105,7 +105,7 @@ ms.lasthandoff: 05/08/2018
 
 
 > [!NOTE]
-> <P>编号规则在 Microsoft Dynamics AX 中用于分配标识到需要他们的记录。 在您可以将某一编号规则分配给物料清单模板或物料清单历史记录行编号之前，必须设置编号规则代码。</P>
+> <P>编号规则用于分配标识到需要它们的记录。 在您可以将某一编号规则分配给物料清单模板或物料清单历史记录行编号之前，必须设置编号规则代码。</P>
 
 
 ## <a name="set-up-number-sequences"></a>设置编号规则

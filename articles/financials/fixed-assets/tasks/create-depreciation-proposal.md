@@ -1,28 +1,30 @@
---- 
+---
 title: "创建折旧方案"
 description: "本程序描述了批处理折旧方案的工作原理，并说明了如何为固定资产建议折旧方案。"
-author: saraschi2
+author: abruer
 manager: AnnBe
-ms.date: 11/14/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: abruer
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07d8cf2f1c46b99dfcd1d7c3419fe835f37c5a02
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: d11554ee5f26ef5a85e799194d2f75757a31c254
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="create-a-depreciation-proposal"></a>创建折旧方案
+
+# <a name="create-depreciation-proposal"></a>创建折旧方案
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

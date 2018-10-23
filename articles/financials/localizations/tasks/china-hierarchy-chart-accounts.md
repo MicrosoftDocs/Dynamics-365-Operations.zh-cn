@@ -1,28 +1,29 @@
 --- 
-title: "中国式会计科目表层次结构"
+title: "CN-00010 中国会计科目表的层次结构"
 description: "此过程演示如何通过设置多个会计科目级别在层次结构树状结构中创建会计科目表。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2016
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: LedgerChartOfAccounts, LedgerChartOfAccountsTreeLevel_CN, LedgerCreateAccount_CN, MainAccount
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3cd32fe45281a1fd8cf65947233dedb90b624b24
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: 655777b49a37dec7ccaa7ff417d8bea3baa35412
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="chinese-hierarchy-of-chart-of-accounts"></a>中国式会计科目表层次结构
+# <a name="cn-00010-china-hierarchy-of-chart-of-accounts"></a>CN-00010 中国会计科目表的层次结构
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 

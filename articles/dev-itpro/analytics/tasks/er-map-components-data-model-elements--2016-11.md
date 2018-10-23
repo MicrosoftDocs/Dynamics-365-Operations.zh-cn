@@ -1,28 +1,29 @@
 --- 
-title: "将格式的组件映射到数据模型元素"
+title: "ER 将创建的格式的组件映射到数据模型元素（2016 年 11 月）"
 description: "以下过程显示属于系统管理员或电子报表开发人员的用户如何将数据模型元素映射到创建的电子申报 (ER) 配置的组件，该配置用于定义付款业务域的电子单据格式。"
 author: NickSelin
 manager: AnnBe
-ms.date: 02/27/2017
+ms.date: 08/29/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
 ms.technology: 
+ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
-ms.search.scope: Operations
+ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: AX 7.0.0
+ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: e065cfbfc645bb7ac48134fe43d87bec013e8c81
+ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
+ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 09/14/2018
 
 ---
-# <a name="map-the-components-of-formats-to-data-model-elements"></a>将格式的组件映射到数据模型元素
+# <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER 将创建的格式的组件映射到数据模型元素（2016 年 11 月）
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
