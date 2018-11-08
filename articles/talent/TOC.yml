@@ -1,11 +1,20 @@
-- name: 欢迎使用 Dynamics 365 for Talent
+- name: Dynamics 365 for Talent
   href: index.md
   items:
     - name: 开始
       href: talent-get-started.md
       items:
         - name: 新增功能或更改的功能
+          href: whats-new.md
           items:
+            - name: Dynamics 365 for Talent Core HR（2018 年 10 月 31 日）中的新增功能或更改的功能
+              href: whats-new-talent-october-31.md
+            - name: Dynamics 365 for Talent Core HR（2018 年 10 月 19 日）中的新增功能或更改的功能
+              href: whats-new-talent-october-19.md
+            - name: Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改的功能
+              href: whats-new-talent-october-11.md
+            - name: Dynamics 365 for Talent Core HR（2018 年 10 月 8 日）中的新增功能或更改的功能
+              href: whats-new-talent-october-8.md
             - name: Dynamics 365 for Talent Core HR（2018 年 10 月 1 日）中的新增功能或更改的功能
               href: whats-new-talent-october-01.md
             - name: Dynamics 365 for Talent Core HR（2018 年 9 月 24 日）中的新增功能或更改的功能
@@ -30,6 +39,8 @@
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR 和 Common Data Service for Apps
           href: CoreHREntities.md
+        - name: 集成
+          href: talent-financeandoperations-integration.md
         - name: 访问预览功能
           href: access-preview-feature.md
         - name: 配置 Talent 和 Dayforce 之间的工资单集成
@@ -64,7 +75,35 @@
       items:
         - name: Attract 特色和功能
           href: attract-overview.md
-        - name: 打造一个有吸引力的入职体验
+        - name: 在 Attract 中创建流程模板
+          href: Process-templates-Attract.md
+        - name: 在 Attract 中创建、审核和过帐作业
+          href: Creating-jobs-Attract.md
+        - name: 具有人才池的来源添加
+          href: attract-talent-pools.md
+        - name: 具有 LinkedIn Recruiter 的来源添加
+          href: attract-linked-in-recruiter.md
+        - name: Attract 中的招聘流程活动
+          href: activities-attract.md
+        - name: 可扩展性
+          href: extensibility-attract.md
+        - name: 求职站点和应聘者体验
+          href: career-site.md
+        - name: 设置聘约管理
+          href: offer-setup.md
+        - name: 创建、审核和签署聘约
+          href: creating-offers.md
+        - name: 创建和管理电子邮件模板
+          href: email-templates.md
+        - name: 报告和分析
+          href: Reporting-Analytics-Attract.md
+        - name: Attract 中的安全和角色管理
+          href: security-attract.md
+        - name: Attract 中的管理员设置
+          href: Admin-Settings-Attract.md
+        - name: 智能建议
+          href: Intelligent-Recommendations.md
+        - name: 打造富有吸引力的入职体验
           href: create-onboarding-experience.md
     - name: 激励员工
       items:

@@ -29,11 +29,13 @@
               href: get-started/public-preview-releases.md
             - name: 购买 Finance and Operations
               items:
-                - name: 购买 Finance and Operations（本地）
+                - name: 购买 Finance and Operations (on-premises)
                   href: get-started/purchase-on-premises.md
         - name: 新增功能或更改的功能
           href: get-started/whats-new-changed.md
           items:
+            - name: 一个版本服务更新常见问题
+              href: get-started/one-version.md
             - name: 软件生命周期策略和云版本
               href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
             - name: 软件生命周期策略和本地版本
@@ -46,8 +48,16 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 未在本地部署中实现的功能
               href: get-started/features-not-implemented-on-prem.md
+            - name: Platform update 22（2018 年 11 月）
+              href: get-started/whats-new-platform-update-22.md
+            - name: Finance and Operations 版本 8.1.2（2018 年 11 月）
+              href: get-started/whats-new-changed-8-1-2.md
+            - name: Finance and Operations 版本 8.1.1（2018 年 10 月）
+              href: get-started/whats-new-changed-8-1-1.md
             - name: Finance and Operations 版本 8.1（2018 年 10 月）
               href: get-started/whats-new-changed-8-1-October-2018.md
+            - name: Platform update 21（2018 年 10 月）
+              href: get-started/whats-new-platform-update-21.md
             - name: Platform update 20（2018 年 9 月）
               href: get-started/whats-new-platform-update-20.md
             - name: Finance and Operations 版本 8.0（2018 年 4 月）
@@ -300,7 +310,7 @@
           href: ../dev-itpro/data-entities/integration-overview.md?toc=/fin-and-ops/toc.json
         - name: 数据集成 API
           items:
-            - name: 数据管理包 API
+            - name: 数据管理包 REST API
               href: ../dev-itpro/data-entities/data-management-api.md?toc=/fin-and-ops/toc.json
             - name: 服务终结点
               href: ../dev-itpro/data-entities/services-home-page.md?toc=/fin-and-ops/toc.json
@@ -309,10 +319,12 @@
                   href: ../dev-itpro/data-entities/troubleshoot-service-authentication.md?toc=/fin-and-ops/toc.json
             - name: OData
               href: ../dev-itpro/data-entities/odata.md?toc=/fin-and-ops/toc.json
-            - name: 自定义服务
+            - name: 自定义服务开发
               href: ../dev-itpro/data-entities/custom-services.md?toc=/fin-and-ops/toc.json
             - name: 定期集成
               href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
+            - name: 使用第三方实用程序测试服务
+              href: ../dev-itpro/data-entities/third-party-service-test.md
         - name: 集成开发
           items:
             - name: 使用数据实体进行数据集成
@@ -326,7 +338,7 @@
                   href: ../dev-itpro/data-entities/tasks/configure-financial-cross-company-data-sharing.md?toc=/fin-and-ops/toc.json
                 - name: 创建记录模板以加快数据输入
                   href: ../dev-itpro/data-entities/tasks/create-record-template-facilitate-data-entry.md?toc=/fin-and-ops/toc.json
-                - name: 使用记录模板创建新记录
+                - name: 使用记录模板创建记录
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: 使用 Common Data Service 进行数据集成
               href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
@@ -383,6 +395,8 @@
             - name: 在公司或法人之间复制配置数据
               href: ../dev-itpro/data-entities/copy-configuration.md?toc=/fin-and-ops/toc.json
               items:
+                - name: 配置数据包
+                  href: ../dev-itpro/data-entities/configuration-data-packages.md
                 - name: 配置数据包（仅 2017 年 7 月版本）
                   href: ../dev-itpro/data-entities/configuration-data-packages.md?toc=/fin-and-ops/toc.json
             - name: 配置数据模板
@@ -391,6 +405,10 @@
               href: ../dev-itpro/data-entities/entity-change-track.md?toc=/fin-and-ops/toc.json
             - name: 查找有关标准数据实体的信息
               href: ../dev-itpro/data-entities/data-entities-report.md?toc=/fin-and-ops/toc.json
+            - name: 带有多个工作表的数据模板
+              href: ../dev-itpro/data-entities/excel-template-multiple.md
+            - name: 启用对实体的更改跟踪
+              href: ../dev-itpro/data-entities/entity-change-track.md
             - name: 配置键和数据实体
               href: ../dev-itpro/data-entities/config-key-entities.md?toc=/fin-and-ops/toc.json
             - name: 配置数据包
@@ -402,6 +420,8 @@
               href: ../dev-itpro/data-entities/tips-tricks-import-general-journal-entity.md?toc=/fin-and-ops/toc.json
         - name: 数据实体开发
           items:
+            - name: 数据实体的设计原则和最佳实践
+              href: ../dev-itpro/dev-tools/design-best-practices.md
             - name: 创建新数据实体
               href: ../dev-itpro/data-entities/build-consuming-data-entities.md?toc=/fin-and-ops/toc.json
             - name: 数据实体属性
@@ -424,12 +444,16 @@
               href: ../dev-itpro/data-entities/security-data-entities.md?toc=/fin-and-ops/toc.json
             - name: 使用第三方服务测试实用程序
               href: ../dev-itpro/data-entities/third-party-service-test.md?toc=/fin-and-ops/toc.json
+            - name: 创建用于公开财务维度的只读实体
+              href: ../dev-itpro/financial/read-only-entity-financial.md?toc=/fin-and-ops/toc.json
         - name: 提供您自己的数据库
           href: ../dev-itpro/analytics/export-entities-to-your-own-database.md?toc=/fin-and-ops/toc.json
         - name: 数据任务自动化
           href: ../dev-itpro/data-entities/data-task-automation.md
-        - name: 数据验证工作区
+        - name: 数据验证核对清单工作区
           href: ../dev-itpro/user-interface/data-validation-workspace.md
+        - name: 数据管理错误描述
+          href: ../dev-itpro/data-entities/dm-error-descriptions.md
     - name: 财务管理
       href: ../financials/index.md
       items:
@@ -1007,6 +1031,8 @@
                   href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
                 - name: 配置科目结构
                   href: ../financials/general-ledger/configure-account-structures.md
+                - name: 双货币
+                  href: ../financials/general-ledger/dual-currency.md
             - name: 日记帐和分类帐
               items:
                 - name: 普通日记帐处理
@@ -1049,6 +1075,8 @@
                   href: ../financials/general-ledger/import-currency-exchange-rates.md
                 - name: 一个凭证
                   href: ../financials/general-ledger/one-voucher.md
+                - name: 分类帐结算
+                  href: ../financials/general-ledger/ledger-settlements.md
             - name: 期间结束关闭
               items:
                 - name: 在期间结束时关闭总帐
@@ -1799,6 +1827,10 @@
             - name: 税引擎概览
               href: ../financials/general-ledger/tax-engine.md
               items:
+                - name: 导入配置
+                  href: ../financials/general-ledger/tax-engine-import-configuration.md
+                - name: 税引擎适用性
+                  href: ../financials/general-ledger/tax-engine-applicability.md
                 - name: 税引擎集成
                   href: ../financials/general-ledger/tax-engine-integration.md
                 - name: 扩展税引擎
@@ -2100,6 +2132,8 @@
         - name: 波兰
           href: ../financials/localizations/poland.md
           items:
+            - name: 激活 Storno 核算
+              href: ../financials/localizations/emea-pol-red-storno.md
             - name: 根据单位价格计算行折扣
               href: ../financials/localizations/emea-pol-line-discount-calculation-from-unit-price.md
             - name: 更正说明
@@ -2116,6 +2150,8 @@
               href: ../financials/localizations/emea-pol-returnable-packages.md
             - name: 销售税报表
               href: ../financials/localizations/emea-pol-sales-tax-reports.md
+            - name: 按仓库设置编号规则
+              href: ../financials/localizations/emea-pol-number-sequence-warehouses.md
             - name: 标准审计文件
               href: ../financials/localizations/emea-pol-standard-audit-file-saf.md
             - name: 税利息和自由利息
@@ -2132,32 +2168,60 @@
                   href: '../financials/localizations/emea-advance-holders.md#create-an-advance-holder'
                 - name: 预付款持有人的日常运营
                   href: ../financials/localizations/rus-advance-holders-daily-operations.md
+                - name: 预算控制中的预付款报表
+                  href: ../financials/localizations/rus-advance-holders-reports-dailyops.md
+                - name: 重新评估预付款持有人的外币
+                  href: ../financials/localizations/rus-advance-adjustment-parameters.md
+                - name: 预付款持有人报表
+                  href: ../financials/localizations/rus-local-management-reports-primary-forms.md
+            - name: 银行
+              items:
+                - name: 设置银行帐户
+                  href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
+                - name: 设置和处理付款单
+                  href: ../financials/localizations/rus-payment-order-settings-processing.md
             - name: 固定资产
               items:
                 - name: 购置固定资产并将其投入运营
                   href: ../financials/localizations/rus-fixed-asset-acquisition.md
+                - name: 登记固定资产购置
+                  href: ../financials/localizations/rus-register-acquisition.md
                 - name: 创建和过帐固定资产购置预算日记帐
                   href: ../financials/localizations/rus-post-budget-fixed-asset-acquisition.md
                 - name: 固定资产盘点
                   href: ../financials/localizations/rus-fixed-assets-counting.md
                 - name: 固定资产货币重估
                   href: ../financials/localizations/rus-fixed-asset-currency-revaluation.md
+                - name: 重新评估固定资产成本和折旧
+                  href: ../financials/localizations/rus-fixed-assets-revaluation.md
                 - name: 部分固定资产拆卸（清算）
                   href: ../financials/localizations/rus-fixed-assets-disassembly.md
-            - name: 设置和处理付款单
-              href: ../financials/localizations/rus-payment-order-settings-processing.md
+                - name: 销售、处置和勾销资产
+                  href: ../financials/localizations/rus-sell-dispose-write-off-fixed-assets.md
+                - name: 设置固定资产位置和编号
+                  href: ../financials/localizations/rus-fixed-assets-locations-numbering.md
+                - name: 设置折旧
+                  href: ../financials/localizations/rus-depreciation-setup.md
+                - name: 折旧方法
+                  href: ../financials/localizations/rus-depreciation-methods.md
+                - name: 折旧奖励
+                  href: ../financials/localizations/rus-bonus-depreciation.md
+                - name: 计算折旧
+                  href: ../financials/localizations/rus-depreciation-calculation.md
+            - name: 公司分部
+              href: ../financials/localizations/rus-company-divisions.md
             - name: 设置币种交易的汇率
               href: ../financials/localizations/rus-exchange-difference.md
-            - name: 预览分录
+            - name: 预览分类帐交易记录
               href: ../financials/localizations/rus-ledger-transactions-preview.md
             - name: 设置行政人员
               href: ../financials/localizations/rus-officials.md
-            - name: 设置银行帐户
-              href: ../financials/localizations/rus-local-settings-requisites-bank-module.md
             - name: 税务代理的增值税 (VAT)
               href: ../financials/localizations/rus-tax-agent.md
             - name: 设置结算的维度控制
               href: ../financials/localizations/rus-transactions-settlement-date.md
+            - name: 付款发票
+              href: ../financials/localizations/rus-invoice-payment.md
         - name: 沙特阿拉伯
           href: ../financials/localizations/saudi-arabia.md
           items:
