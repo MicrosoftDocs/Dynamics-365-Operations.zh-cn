@@ -257,6 +257,10 @@
               href: extensibility/extensibility-changes-804.md
             - name: 可扩展性更改版本 8.1
               href: extensibility/extensibility-changes-81.md
+            - name: 可扩展性更改版本 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: 可扩展性更改版本 8.1.2
+              href: extensibility/extensibility-changes-812.md
         - name: 基本原理
           items:
             - name: 自动插入的自定义项
@@ -303,8 +307,6 @@
               href: extensibility/change-caption-form.md
             - name: 修改窗体控件属性
               href: extensibility/modify-control-properties.md
-            - name: 使用标签扩展文件更改标签
-              href: extensibility/change-label.md
             - name: 扩展编号规则的作用域
               href: extensibility/extend-number-sequence-scope.md
             - name: 添加新库存维度
@@ -317,6 +319,8 @@
               href: extensibility/maps-as-interfaces.md
             - name: 扩展用于版本控制的表映射
               href: extensibility/maps-with-versioning.md
+            - name: 扩展用于选定数据类型的小数点精度
+              href: extensibility/decimal-point-precision.md
         - name: 创建可扩展解决方案
           items:
             - name: 编写可扩展代码
@@ -534,7 +538,7 @@
           href: user-interface/workspace-filter-group-subpattern.md
     - name: 控件可扩展性
       items:
-        - name: 构建 aextensible 控件
+        - name: 构建可扩展控件
           href: user-interface/build-extensible-control.md
         - name: 可扩展控件的键盘快捷键
           href: user-interface/keyboard-shortcuts-controls.md
@@ -764,153 +768,17 @@
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluedesign.md
             - name: ValueMetadata 类型
               href: mobile-apps/platform/client-apis/interfaces/view-model-control-value-ivalue-ivaluemetadata.md
-- name: 数据集成
+- name: 一般数据保护条例 (GDPR)
+  href: gdpr/gdpr-guide.md
   items:
-    - name: 选择数据集成（导入/导出）策略
-      href: data-entities/integration-overview.md
-    - name: 数据集成 API
-      items:
-        - name: 数据管理包 REST API
-          href: data-entities/data-management-api.md
-        - name: 服务终结点
-          href: data-entities/services-home-page.md
-          items:
-            - name: 对服务身份验证进行故障排除
-              href: data-entities/troubleshoot-service-authentication.md
-        - name: OData
-          href: data-entities/odata.md
-        - name: 自定义服务开发
-          href: data-entities/custom-services.md
-        - name: 定期集成
-          href: data-entities/recurring-integrations.md
-        - name: 使用第三方实用程序测试服务
-          href: data-entities/third-party-service-test.md
-    - name: 集成开发
-      items:
-        - name: 使用数据实体进行数据管理和集成
-          href: data-entities/data-management-integration-data-entity.md
-          items:
-            - name: 开发数据迁移实体
-              href: data-entities/develop-entity-for-data-migration.md
-            - name: 开发复合数据实体
-              href: data-entities/develop-composite-data-entities.md
-            - name: 配置跨公司财务数据共享
-              href: data-entities/tasks/configure-financial-cross-company-data-sharing.md
-            - name: 创建记录模板以加快数据输入
-              href: data-entities/tasks/create-record-template-facilitate-data-entry.md
-            - name: 使用记录模板创建记录
-              href: data-entities/tasks/use-record-template-new-record.md
-        - name: 使用 Common Data Service 进行数据集成
-          href: data-entities/data-integration-cds.md
-          items:
-            - name: 配置现金方案的目标客户
-              href: ../supply-chain/sales-marketing/prospect-to-cash.md
-              items:
-                - name: 将 Sales 的客户直接同步到 Finance and Operations
-                  href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                - name: 将 Finance and Operations 的产品直接同步到 Sales
-                  href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                - name: 将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户
-                  href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                - name: 将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
-                  href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
-                  href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                - name: 将 Finance and Operations 的销售发票标题和行直接同步到 Sales
-                  href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-            - name: 配置与 Field Service 的集成
-              href: ../supply-chain/sales-marketing/field-service.md
-              items:
-                - name: 将 Finance and Operations 的产品与 Field Service 的产品同步
-                  href: ../supply-chain/sales-marketing/field-service-product.md
-                - name: 将 Field Service 的工作订单同步到 Finance and Operations 的销售订单
-                  href: ../supply-chain/sales-marketing/field-service-work-order.md
-                - name: 将 Field Service 的协议发票同步到 Finance and Operations 的普通发票
-                  href: ../supply-chain/sales-marketing/field-service-invoice.md
-            - name: 配置 Project Service Automation 集成
-              href: ../financials/project-management/PSA-integration.md?toc=/dev-itpro/toc.json
-              items:
-                - name: Project Service Automation 集成参数
-                  href: ../financials/project-management/PSA-parameters.md?toc=/dev-itpro/toc.json
-                - name: 同步项目合同和项目
-                  href: ../financials/project-management/project-contracts-templates.md?toc=/dev-itpro/toc.json
-                - name: 同步项目任务
-                  href: ../financials/project-management/project-tasks-template.md?toc=/dev-itpro/toc.json
-                - name: 同步项目支出类别
-                  href: ../financials/project-management/project-categories-templates.md?toc=/dev-itpro/toc.json
-                - name: 将项目评估同步到项目预测
-                  href: ../financials/project-management/project-estimates-templates.md?toc=/dev-itpro/toc.json
-                - name: 将项目实际值同步到项目集成日记帐
-                  href: ../financials/project-management/project-actuals-templates.md?toc=/dev-itpro/toc.json
-        - name: 使用外部 Web 服务
-          href: data-entities/consume-external-web-service.md
-- name: 数据管理
-  href: data-entities/data-entities-data-packages.md
-  items:
-    - name: 数据实体
-      href: data-entities/data-entities.md
-      items:
-        - name: 配置数据项目
-          href: data-entities/configuration-data-projects.md
-        - name: 配置数据包
-          href: data-entities/configuration-data-packages.md
-        - name: 在公司间复制配置数据
-          href: data-entities/copy-configuration.md
-        - name: 配置数据模板
-          href: data-entities/configuration-data-templates.md
-        - name: 带有多个工作表的数据模板
-          href: data-entities/excel-template-multiple.md
-        - name: 启用对实体的更改跟踪
-          href: data-entities/entity-change-track.md
-        - name: 配置键和数据实体
-          href: data-entities/config-key-entities.md
-        - name: 查找有关标准数据实体的信息
-          href: data-entities/data-entities-report.md
-    - name: 数据导入和导出作业
-      href: data-entities/data-import-export-job.md
-      items:
-        - name: 使用普通日记帐实体导入凭证的最佳实践
-          href: data-entities/tips-tricks-import-general-journal-entity.md
-    - name: 数据实体开发
-      items:
-        - name: 数据实体的设计原则和最佳实践
-          href: dev-tools/design-best-practices.md
-        - name: 创建新数据实体
-          href: data-entities/build-consuming-data-entities.md
-        - name: 数据实体行为属性
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 创建计算列和虚拟字段
-          href: data-entities/data-entity-computed-columns-virtual-fields.md
-        - name: 跨公司行为
-          href: data-entities/cross-company-behavior.md
-        - name: 国家/地区代码和 Configuration Key
-          href: data-entities/countryregion-codes-configuration-keys.md
-        - name: 继承模式
-          href: data-entities/support-super-type-sub-type.md
-        - name: 数据实体向导规则
-          href: data-entities/data-entity-wizard-rules.md
-        - name: 元数据属性
-          href: data-entities/behavioral-properties-data-entities.md
-        - name: 验证、默认值和未映射的字段
-          href: data-entities/validations-defaults-unmapped-fields.md
-        - name: 安全和数据实体
-          href: data-entities/security-data-entities.md
-        - name: 创建用于公开财务维度的只读实体
-          href: financial/read-only-entity-financial.md
-    - name: 提供您自己的数据库
-      href: analytics/export-entities-to-your-own-database.md
-    - name: 数据任务自动化
-      href: data-entities/data-task-automation.md
     - name: 用于响应 GDPR 数据请求的资源
       href: gdpr/gdpr-home-page.md
       items:
-        - name: 适用于 Finance and Operations 的 GDPR 指南
-          href: gdpr/gdpr-guide.md
         - name: 资产分类
           href: gdpr/gdpr-asset-classification-values.md
         - name: 人员搜索报告
           href: gdpr/gdpr-person-search-report.md
-        - name: 扩展人员搜索报表
+        - name: 扩展人员搜索报告
           href: gdpr/gdpr-extend-person-search-report.md
         - name: 管理对敏感数据的访问权限
           href: gdpr/gdpr-auditing-sensitive-data.md
@@ -920,10 +788,6 @@
           href: gdpr/gdpr-ax2012.md
         - name: LCS 的 GDPR 数据请求
           href: gdpr/gdpr-lcs.md
-    - name: 数据验证核对清单工作区
-      href: user-interface/data-validation-workspace.md
-    - name: 数据管理错误描述
-      href: data-entities/dm-error-descriptions.md
 - name: 连续交货
   href: dev-tools/continuous-delivery-home-page.md
   items:
@@ -1039,10 +903,12 @@
         - name: 设置并部署本地环境
           href: deployment/setup-deploy-on-premises-environments.md
           items:
-            - name: 在 Platform update 12 上部署本地环境
+            - name: 部署本地环境（Platform update 12 及更高版本）
               href: deployment/setup-deploy-on-premises-pu12.md
-            - name: 在 Platform update 8 和 11 上部署本地环境
+            - name: 部署本地环境（Platform update 8 和 11）
               href: deployment/setup-deploy-on-premises-pu8-pu11.md
+            - name: 本地环境中零售渠道组件的安装步骤
+              href: deployment/deploy-retail-onprem.md
         - name: 开发自定义模型并将其部署到本地环境
           href: deployment/develop-deploy-custom-models-on-premises.md
         - name: 为本地环境配置反向代理
@@ -1161,6 +1027,8 @@
           href: migration-upgrade/upgrade-data-to-latest-update.md
         - name: 更新开发工具
           href: dev-tools/update-development-tools.md
+        - name: 针对最新更新计划和准备代码编译
+          href: migration-upgrade/compile-considerations.md
     - name: 升级到最近更新（本地）
       items:
         - name: 将更新应用于本地部署
@@ -1226,6 +1094,12 @@
           href: sysadmin/batch-server-overview.md
         - name: 创建批处理作业
           href: sysadmin/tasks/create-batch-job.md
+        - name: 复制批处理作业
+          href: sysadmin/copy-batch-job.md
+        - name: 活动批处理期间
+          href: sysadmin/activeperiod.md
+        - name: 批处理经理安全角色
+          href: sysadmin/runby.md
     - name: 优化顾问
       href: sysadmin/optimization-advisor-overview.md
       items:
