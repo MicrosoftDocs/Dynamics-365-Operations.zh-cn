@@ -25,6 +25,7 @@ ms.lasthandoff: 09/24/2018
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>使用普通发票处置固定资产
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 此过程显示如何使用普通发票处置固定资产。
 
