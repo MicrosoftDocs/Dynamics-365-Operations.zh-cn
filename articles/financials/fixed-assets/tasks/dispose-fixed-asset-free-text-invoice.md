@@ -17,14 +17,15 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 92cd1ea0a6ab6039da7074e032e0f78dd7443cba
-ms.openlocfilehash: 1b1c9719f0697e9d5a51b0e769b3f850dc1690e5
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 1c58cef0609c8f931eace13ee0dec89f3eee7fed
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/24/2018
+ms.lasthandoff: 11/12/2018
 
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a><span data-ttu-id="1099c-103">使用普通发票处置固定资产</span><span class="sxs-lookup"><span data-stu-id="1099c-103">Dispose of a fixed asset using a free text invoice</span></span>
 
+[!include [task guide banner](../../includes/task-guide-banner.md)]
 
 <span data-ttu-id="1099c-104">此过程显示如何使用普通发票处置固定资产。</span><span class="sxs-lookup"><span data-stu-id="1099c-104">This procedure shows how to dispose of a fixed asset using the free text invoice.</span></span>
 
