@@ -3,7 +3,7 @@ title: "设置销售税结算期间"
 description: "销售税结算期间含有有关需要申报和缴纳的销售税的期间间隔的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/15/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,46 +17,48 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
-ms.openlocfilehash: fbe31ee6a66733087677f8083c1047552d4ecffc
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
+ms.lasthandoff: 10/16/2018
 
 ---
-# <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="9b1d8-103">设置销售税结算期间</span><span class="sxs-lookup"><span data-stu-id="9b1d8-103">Set up sales tax settlement periods</span></span>
+# <a name="set-up-sales-tax-settlement-periods"></a><span data-ttu-id="2e774-103">设置销售税结算期间</span><span class="sxs-lookup"><span data-stu-id="2e774-103">Set up sales tax settlement periods</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="9b1d8-104">销售税结算期间含有有关需要申报和缴纳的销售税的期间间隔的信息。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-104">Sales tax settlement periods contain information about the period intervals for which sales tax needs to be reported and paid.</span></span> <span data-ttu-id="9b1d8-105">结算流程可在结算期间或特定日期间隔内运行。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-105">A settlement process can be run for a settlement period for a specific date interval.</span></span> <span data-ttu-id="9b1d8-106">所有与结算期间相关的税务代码将进行结算。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-106">All tax codes associated with the settlement period will be settled.</span></span> <span data-ttu-id="9b1d8-107">根据相关销售税主管机构的设置，应交税金过帐到供应商或总帐科目。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-107">Depending on the set up of the related Sales tax authority, the tax liability is posted either to a vendor or a General ledger account.</span></span>
+<span data-ttu-id="2e774-104">销售税结算期间含有有关需要申报和缴纳的销售税的期间间隔的信息。</span><span class="sxs-lookup"><span data-stu-id="2e774-104">Sales tax settlement periods contain information about the period intervals for which sales tax needs to be reported and paid.</span></span> <span data-ttu-id="2e774-105">结算流程可在结算期间或特定日期间隔内运行。</span><span class="sxs-lookup"><span data-stu-id="2e774-105">A settlement process can be run for a settlement period for a specific date interval.</span></span> <span data-ttu-id="2e774-106">所有与结算期间相关的税务代码将进行结算。</span><span class="sxs-lookup"><span data-stu-id="2e774-106">All tax codes associated with the settlement period will be settled.</span></span> <span data-ttu-id="2e774-107">根据相关销售税主管机构的设置，应交税金过帐到供应商或总帐科目。</span><span class="sxs-lookup"><span data-stu-id="2e774-107">Depending on the set up of the related Sales tax authority, the tax liability is posted either to a vendor or a General ledger account.</span></span>
 
 
 
-<span data-ttu-id="9b1d8-108">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-108">This task uses the USMF demo company.</span></span>
+<span data-ttu-id="2e774-108">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="2e774-108">This task uses the USMF demo company.</span></span>
 
 
 
-1. <span data-ttu-id="9b1d8-109">转到“纳税”>“间接税”>“销售税”>“销售税结算期间”。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
-2. <span data-ttu-id="9b1d8-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-110">Click New.</span></span>
-3. <span data-ttu-id="9b1d8-111">在“结算期间”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-111">In the Settlement period field, type a value.</span></span>
-4. <span data-ttu-id="9b1d8-112">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-112">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="9b1d8-113">在“主管机构”字段中，选择接收为结算期间创建的报表和付款的销售税主管机构。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-113">In the Authority field, select the sales tax authority that receives the reports and the payments that are created for the settlement period.</span></span>
-6. <span data-ttu-id="9b1d8-114">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-114">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="9b1d8-115">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-115">In the list, click the link in the selected row.</span></span>
-8. <span data-ttu-id="9b1d8-116">在“付款”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-116">In the Terms of payment field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="9b1d8-117">相关销售税主管机构可以设置为供应商，销售税结算将创建开放式供应商发票。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-117">The related Sales tax authority can be set up as a vendor and the Sales tax settlement will create an open vendor invoice.</span></span> <span data-ttu-id="9b1d8-118">付款期限定义开放式供应商发票的到期日期。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-118">The Terms of payment defines the Due date for the open vendor invoice.</span></span>  
-9. <span data-ttu-id="9b1d8-119">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-119">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="9b1d8-120">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-120">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="9b1d8-121">为结算期间间隔选择类型。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-121">Select a type for the settlement period intervals.</span></span>
-12. <span data-ttu-id="9b1d8-122">输入每一期间的期间间隔单位数。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-122">Enter the number of Period interval units per period.</span></span> <span data-ttu-id="9b1d8-123">例如，1 个季度有 3 个月。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-123">For example, a quarter has 3 months.</span></span>
-13. <span data-ttu-id="9b1d8-124">选择或清除销售税清算复选框上的“使用批处理”。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-124">Select or clear the Use batch processing for sales tax settlement check box.</span></span>
-    * <span data-ttu-id="9b1d8-125">结算期的结算流程可在后台将交易记录作为批处理作业。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-125">The settlement process for the settlement period can be processed as batch job in the background.</span></span> <span data-ttu-id="9b1d8-126">这是对在期间间隔内的大量涉税交易记录的建议。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-126">This is recommended for a large number of tax transactions within a period interval.</span></span>  
-14. <span data-ttu-id="9b1d8-127">展开“期间间隔”选项卡。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-127">Expand the Period intervals tab.</span></span>
-15. <span data-ttu-id="9b1d8-128">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-128">Click Add.</span></span>
-16. <span data-ttu-id="9b1d8-129">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-129">In the list, mark the selected row.</span></span>
-17. <span data-ttu-id="9b1d8-130">在“开始日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-130">In the From date field, enter a date.</span></span>
-18. <span data-ttu-id="9b1d8-131">在“结束日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-131">In the To date field, enter a date.</span></span>
-19. <span data-ttu-id="9b1d8-132">单击“新建期间间隔”。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-132">Click New period interval.</span></span>
-    * <span data-ttu-id="9b1d8-133">一旦输入第一个期间间隔，可自动创建新期间。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-133">Once the first period interval has been entered, new periods can be created automatically.</span></span> <span data-ttu-id="9b1d8-134">您可以返回和根据需要添加新期间间隔。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-134">You can come back and add new period intervals as required.</span></span>  
-20. <span data-ttu-id="9b1d8-135">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="9b1d8-135">Close the page.</span></span>
+1. <span data-ttu-id="2e774-109">转到“纳税”>“间接税”>“销售税”>“销售税结算期间”。</span><span class="sxs-lookup"><span data-stu-id="2e774-109">Go to Tax > Indirect taxes > Sales tax > Sales tax settlement periods.</span></span>
+2. <span data-ttu-id="2e774-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="2e774-110">Click New.</span></span>
+3. <span data-ttu-id="2e774-111">在“结算期间”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="2e774-111">In the Settlement period field, type a value.</span></span>
+4. <span data-ttu-id="2e774-112">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="2e774-112">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="2e774-113">在“主管机构”字段中，选择接收为结算期间创建的报表和付款的销售税主管机构。</span><span class="sxs-lookup"><span data-stu-id="2e774-113">In the Authority field, select the sales tax authority that receives the reports and the payments that are created for the settlement period.</span></span>
+6. <span data-ttu-id="2e774-114">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="2e774-114">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="2e774-115">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="2e774-115">In the list, click the link in the selected row.</span></span>
+8. <span data-ttu-id="2e774-116">在“付款”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="2e774-116">In the Terms of payment field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="2e774-117">相关销售税主管机构可以设置为供应商，销售税结算将创建开放式供应商发票。</span><span class="sxs-lookup"><span data-stu-id="2e774-117">The related Sales tax authority can be set up as a vendor and the Sales tax settlement will create an open vendor invoice.</span></span> <span data-ttu-id="2e774-118">付款期限定义开放式供应商发票的到期日期。</span><span class="sxs-lookup"><span data-stu-id="2e774-118">The Terms of payment defines the Due date for the open vendor invoice.</span></span>  
+9. <span data-ttu-id="2e774-119">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="2e774-119">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="2e774-120">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="2e774-120">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="2e774-121">为结算期间间隔选择类型。</span><span class="sxs-lookup"><span data-stu-id="2e774-121">Select a type for the settlement period intervals.</span></span>
+12. <span data-ttu-id="2e774-122">输入每一期间的期间间隔单位数。</span><span class="sxs-lookup"><span data-stu-id="2e774-122">Enter the number of Period interval units per period.</span></span> <span data-ttu-id="2e774-123">例如，1 个季度有 3 个月。</span><span class="sxs-lookup"><span data-stu-id="2e774-123">For example, a quarter has 3 months.</span></span>
+13. <span data-ttu-id="2e774-124">选择或清除销售税清算复选框上的“使用批处理”。</span><span class="sxs-lookup"><span data-stu-id="2e774-124">Select or clear the Use batch processing for sales tax settlement check box.</span></span>
+    * <span data-ttu-id="2e774-125">结算期的结算流程可在后台将交易记录作为批处理作业。</span><span class="sxs-lookup"><span data-stu-id="2e774-125">The settlement process for the settlement period can be processed as batch job in the background.</span></span> <span data-ttu-id="2e774-126">这是对在期间间隔内的大量涉税交易记录的建议。</span><span class="sxs-lookup"><span data-stu-id="2e774-126">This is recommended for a large number of tax transactions within a period interval.</span></span>  
+14. <span data-ttu-id="2e774-127">选择或清除“防止生成抵消税交易记录”复选框。</span><span class="sxs-lookup"><span data-stu-id="2e774-127">Select or clear the Prevent generating offset tax transactions check box.</span></span>
+    * <span data-ttu-id="2e774-128">默认情况下，系统在结算过程中生成抵消税交易记录，如果在某期间间隔内存在大量税交易记录，这可能造成性能问题。</span><span class="sxs-lookup"><span data-stu-id="2e774-128">By default, the system generates offset tax transactions during the settlement process, which cause can performance issue if there are a large number of tax transactions within a period interval.</span></span> <span data-ttu-id="2e774-129">选择此复选框以防止生成抵消税交易记录。</span><span class="sxs-lookup"><span data-stu-id="2e774-129">Select this check box to prevent generating offset tax transactions.</span></span>
+15. <span data-ttu-id="2e774-130">展开“期间间隔”选项卡。</span><span class="sxs-lookup"><span data-stu-id="2e774-130">Expand the Period intervals tab.</span></span>
+16. <span data-ttu-id="2e774-131">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="2e774-131">Click Add.</span></span>
+17. <span data-ttu-id="2e774-132">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="2e774-132">In the list, mark the selected row.</span></span>
+18. <span data-ttu-id="2e774-133">在“开始日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="2e774-133">In the From date field, enter a date.</span></span>
+19. <span data-ttu-id="2e774-134">在“结束日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="2e774-134">In the To date field, enter a date.</span></span>
+20. <span data-ttu-id="2e774-135">单击“新建期间间隔”。</span><span class="sxs-lookup"><span data-stu-id="2e774-135">Click New period interval.</span></span>
+    * <span data-ttu-id="2e774-136">一旦输入第一个期间间隔，可自动创建新期间。</span><span class="sxs-lookup"><span data-stu-id="2e774-136">Once the first period interval has been entered, new periods can be created automatically.</span></span> <span data-ttu-id="2e774-137">您可以返回和根据需要添加新期间间隔。</span><span class="sxs-lookup"><span data-stu-id="2e774-137">You can come back and add new period intervals as required.</span></span>  
+21. <span data-ttu-id="2e774-138">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="2e774-138">Close the page.</span></span>
 
 
