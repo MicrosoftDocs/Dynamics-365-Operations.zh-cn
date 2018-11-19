@@ -27,7 +27,6 @@ ms.lasthandoff: 10/12/2018
 # <a name="ledger-settlements"></a>分类帐结算
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 分类帐结算让您可以匹配总帐中的借方和贷方交易记录，并将其标记为已结算。 通过此方法，您可以确保清除相关的交易记录。 您还可以冲销错误执行的结算。
 
