@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: d6b7b1219974cb5de1a625d87c3bce2a4439470b
-ms.openlocfilehash: ea24d6d63edc6f3bb1bf4a99d24d348af0d6cdbf
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -234,7 +234,7 @@ ms.lasthandoff: 10/01/2018
 | **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅 [安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app)。 |
 | **影响的产品区域**         | 仓库管理，运输管理     |
 | **部署选项**              | 仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。               |
-| **状态**                         | 已弃用：尚未确定此功能的移除日期。   |
+| **状态**                         | 已弃用：移除功能的目标时间范围为 2019 年第四季度。   |
 
 ### <a name="advanced-bank-reconciliation-matching-rule-for-manual-matching"></a>用于手动匹配的高级银行对帐匹配规则
 

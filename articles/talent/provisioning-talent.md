@@ -18,10 +18,10 @@ ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: d28ca1f9cf2bef73dc687a85592056cccc767da5
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 # <a name="provision-talent"></a>配置 Talent
@@ -47,7 +47,7 @@ ms.lasthandoff: 10/01/2018
 在创建 LCS 项目之后，您可以将 Talent 配置到环境中。
 
 1. 在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。
-2. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 PowerApps 环境”部分。 
+2. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 PowerApps 环境”部分。 如果您没有 PowerApps 环境，在 LCS 中选择“管理环境”或导航到 PowerApps 管理员中心。 然后按照步骤[创建 PowerApps 环境](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment)。
 
     > [!NOTE]
     > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 PowerApps P2 许可证。 如果您的组织没有 PowerApps P2 许可证，则可以从 CSP 或从 [PowerApps 定价页面](https://powerapps.microsoft.com/en-us/pricing/)获取一个。
@@ -73,7 +73,7 @@ ms.lasthandoff: 10/01/2018
 在确定部署 Talent 的目标 PowerApps 环境时请使用以下指南： 
 1. 在 LCS 中，选择“管理环境”，或直接导航到“PowerApps 管理员中心”，您可以在那里查看现有的环境和创建新的环境。
 2. 单个 Talent 环境映射到单个 PowerApps 环境。
-3. PowerApps 环境“包含”Talent 应用程序，以及相应的 PowerApps、流和 CDS 应用程序。 如果 PowerApps 环境被删除，其中的应用也会被删除。
+3. PowerApps 环境“包含”Talent 应用程序，以及相应的 PowerApps、流和 CDS 应用程序。 如果 PowerApps 环境被删除，其中的应用也会被删除。 在设置人才环境时，可以设置“试用”或“生产”。 根据环境使用方式选择环境类型。 
 4. 应该考虑数据集成和测试策略，例如：沙盒、UAT、生产。 因此，建议您考虑对您的部署的各种影响，因为以后不容易更改将哪个 Talent 环境映射到 PowerApps 环境。
 5. 以下 PowerApps 环境不能用于 Talent，将从 LCS 内的选择列表中筛除：
  

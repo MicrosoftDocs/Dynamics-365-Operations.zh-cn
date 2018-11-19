@@ -3,7 +3,7 @@ title: "比较云和本地功能"
 description: "此主题显示在云和本地支持的功能。"
 author: robinarh
 manager: AnnBe
-ms.date: 03/05/2018
+ms.date: 11/02/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.translationtype: HT
-ms.sourcegitcommit: b59921820f02e2ac026873ce45fdecd104fef544
-ms.openlocfilehash: 4354b9d55cc84f7c74020d95617c406dc5fb225c
+ms.sourcegitcommit: 53c0da5e9697deaf946ccd4fbcd2102faa62b195
+ms.openlocfilehash: bc2b8aafa28d3998e223891fa95e3fe8175349e6
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/25/2018
+ms.lasthandoff: 11/02/2018
 
 ---
 
@@ -116,11 +116,8 @@ ms.lasthandoff: 10/25/2018
 | Visual Studio 开发 |  | 是 | 是 |
 
 
-## <a name="dynamics-365-for-retail"></a>Dynamics 365 for Retail 
-
-| 范围 | 功能 | 云 | 本地|
-|---|---|---|---|
-| 所有零售区域 | 所有零售功能 | 是 | 无 |
+### <a name="retail"></a>Retail 
+若要查看本地部署中提供的零售功能的列表，请参阅[本地部署中提供的零售功能](../../retail/retail-onprem.md)。
 
 ## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 

@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: eb99f169ada2a227ebe8e64ee56bbb38cdfda4e0
+ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
+ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -48,7 +48,8 @@ ms.lasthandoff: 08/08/2018
 1. 登录 Microsoft Dynamics 365 for Talent: Attract。
 2. 在右上角的**设置**菜单（齿轮符号）中，选择**管理员设置**。
 3. 在**功能管理**选项卡上，选择**预览功能**旁边的选项，使其变为蓝色。
-4. 刷新浏览器以开始查看新功能。 （所有已登录用户都会在下次登录时看到这些功能，这些用户也可以刷新浏览器以立即查看这些功能。）
+4. 您可以选择通过启用/禁用此页面上的特定功能来控制各个功能。
+5. 刷新浏览器以开始查看新功能。 （所有已登录用户都会在下次登录时看到这些功能，这些用户也可以刷新浏览器以立即查看这些功能。）
 
 #### <a name="core-hr"></a>Core HR
 
@@ -61,12 +62,11 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="features-that-are-currently-in-preview"></a>当前的预览功能
 
-### <a name="attract"></a>Attract
+### <a name="attract"></a>吸引
 
-- **工作模板** – 现在可以创建聘用流程模板。 用户已经可以自定义特定工作的聘用流程。 但是，现在则可以为该流程创建模板，然后在创建特定工作时选择相应模板。 因此，此功能可帮助简化工作设置流程。
-- **求职站点** – 现在的求职站点版本仅列举所有开放工作。 但是，以后将向该站点添加更多功能。 可以将工作标记为内部或外部。 登录该站点的内部用户将看到内部工作和外部工作。 但是，非内部用户和未登录用户只能查看外部工作。
-- **工作发布** – 现在可向求职站点发布工作。
-- **LinkedIn 工作发布** – 现在可向 LinkedIn 发布工作。
+- **工作中的相关应聘者** – 招聘人员和招聘经理可以轻松地查看哪些应聘者与跨所有申请人的工作最相关。 根据简历/模板与工作描述的相关性显示前 5 个申请人。
+- **相关工作** – 应聘者现在可以看到根据其简历/模板和工作描述与其相关的其他工作的列表。  现在，当应聘者作为建议申请其他机会时，这将显示给应聘者。
+- **EEO/OFCCP 支持** – 新活动类型允许使用预定义的窗体从应聘者处收集平等就业机会 (EEO) 和联邦合同合规性计划办公室 (OFCCP) 数据。  这是预定义的窗体，不可编辑。
 
     > [!NOTE]
     > 只有订阅了一个或多个 LinkedIn 工作清单产品的客户才可查看发布的工作。 否则，客户只有明确搜索某个工作，才能看到该工作。 工作发布到 LinkedIn 时，存在延迟。 工作从 Attract 发布后，可能需要几小时才会显示。

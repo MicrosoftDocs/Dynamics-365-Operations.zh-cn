@@ -3,7 +3,7 @@ title: "将 Sales 的销售报价单标题和行直接同步到 Finance and Oper
 description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的销售报价单标头和行直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。"
 author: ChristianRytt
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 97536c27dea113cc3c019473f22d1925e7617f8f
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: efe943f5c874ed041ce7984272ebc19f57cca6ef
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -34,13 +34,19 @@ ms.lasthandoff: 03/26/2018
 本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的销售报价单标头和行直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
 
 > [!NOTE]
-> 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉 [Dynamics 365 数据集成](/common-data-service/entity-reference/dynamics-365-integration)。
+> 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)。
+
+## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
+
+“从目标客户到现金”使用“数据集成”功能来同步 Finance and Operations 与 Sales 之间的示例的数据。 提供“数据集成”功能的“从目标客户到现金”模板启用 Finance and Operations 与 Sales 之间的帐户、联系人、产品、销售报价、销售订单和销售发票的数据流。 下图显示 Finance and Operations 与 Sales 之间的数据如何同步。
+
+[![“从目标客户到现金”中的数据流](./media/prospect-to-cash-data-flow.png)](./media/prospect-to-cash-data-flow.png)
 
 ## <a name="template-and-tasks"></a>模板和任务
 
 以下模板和基础任务用于将来自 Sales 的销售报价单标头和行直接同步到 Finance and Operations：
 
-- **“数据集成”中模板的名称：** 销售报价（从 Sales 到 Fin and Ops）- 直接
+- **数据集成中模板的名称：** 销售报价（从 Sales 到 Fin and Ops）- 直接
 - **数据集成项目中的任务名称：**
 
     - QuoteHeader

@@ -3,7 +3,7 @@ title: "设置销售税结算期间"
 description: "销售税结算期间含有有关需要申报和缴纳的销售税的期间间隔的信息。"
 author: twheeloc
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/15/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -17,10 +17,10 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: ab7d3a00a327f42a9f70c954d9b64a360a7f9163
+ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
+ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/16/2018
 
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
@@ -50,13 +50,15 @@ ms.lasthandoff: 09/29/2017
 12. 输入每一期间的期间间隔单位数。 例如，1 个季度有 3 个月。
 13. 选择或清除销售税清算复选框上的“使用批处理”。
     * 结算期的结算流程可在后台将交易记录作为批处理作业。 这是对在期间间隔内的大量涉税交易记录的建议。  
-14. 展开“期间间隔”选项卡。
-15. 单击“添加”。
-16. 在列表中，标记所选的行。
-17. 在“开始日期”字段中输入日期。
-18. 在“结束日期”字段中输入日期。
-19. 单击“新建期间间隔”。
+14. 选择或清除“防止生成抵消税交易记录”复选框。
+    * 默认情况下，系统在结算过程中生成抵消税交易记录，如果在某期间间隔内存在大量税交易记录，这可能造成性能问题。 选择此复选框以防止生成抵消税交易记录。
+15. 展开“期间间隔”选项卡。
+16. 单击“添加”。
+17. 在列表中，标记所选的行。
+18. 在“开始日期”字段中输入日期。
+19. 在“结束日期”字段中输入日期。
+20. 单击“新建期间间隔”。
     * 一旦输入第一个期间间隔，可自动创建新期间。 您可以返回和根据需要添加新期间间隔。  
-20. 关闭该页面。
+21. 关闭该页面。
 
 

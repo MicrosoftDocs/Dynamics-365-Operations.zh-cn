@@ -3,7 +3,7 @@ title: "将项目合同和项目直接从 Project Service Automation 同步到 F
 description: "本主题介绍用于将项目合同和项目直接从 Project Service Automation 同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。"
 author: KimANelson
 manager: AnnBe
-ms.date: 07/20/2018
+ms.date: 10/25/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
-ms.openlocfilehash: 65a274323a2d95c9c76727c9e40aa7e649e6350a
+ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
+ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 11/01/2018
 
 ---
 
@@ -95,8 +95,8 @@ Project Service Automation 到 Finance and Operations 集成解决方案使用�
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 
 - 必须先同步科目，才能同步项目合同和项目。
-- 在连接集中，向 **msdyn\_name \[Name\]** 添加 **msdyn\_organizationalunits** 的集成密钥字段映射。 可能首先必须向连接集添加一个项目。 有关集成密钥的详细信息，请参阅 [Dynamics 365 数据集成](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration)。
-- 在连接集中，向 **msdynce\_projectnumber \[Project Number\]** 添加 **msdyn\_projects** 的集成密钥字段映射。 可能首先必须向连接集添加一个项目。 有关集成密钥的详细信息，请参阅 [Dynamics 365 数据集成](https://docs.microsoft.com/en-us/common-data-service/entity-reference/dynamics-365-integration)。
+- 在连接集中，向 **msdyn\_name \[Name\]** 添加 **msdyn\_organizationalunits** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)。
+- 在连接集中，向 **msdynce\_projectnumber \[Project Number\]** 添加 **msdyn\_projects** 的集成密钥字段映射。 可能首先需要向连接集添加一个项目。 有关详细信息，请参阅[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)。
 - 可将项目合同和项目的 **SourceDataID** 更新为其他值，也可以将其从映射中移除。 默认模板值为 **Project Service Automation**。
 - 必须更新 **PaymentTerms** 映射，才能在 Finance and Operations 中体现有效的付款期限。 也可以从项目任务中移除映射。 默认值映射具有演示数据的默认值。 下表显示 Project Service Automation 中的值。
 

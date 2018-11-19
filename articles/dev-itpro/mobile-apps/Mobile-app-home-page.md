@@ -3,7 +3,7 @@ title: "Dynamics 365 for Unified Operations Mobile 应用程序主页"
 description: "此主题描述 Microsoft Dynamics 365 for Unified Operations 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。"
 author: sericks007
 manager: AnnBe
-ms.date: 06/16/2017
+ms.date: 10/26/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: d6d26da330974305fa3725fe7c2506d198b17e2c
+ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
+ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 10/26/2018
 
 ---
 
@@ -61,7 +61,7 @@ ms.lasthandoff: 09/04/2018
 ## <a name="implementation-process"></a>实施流程
 下图显示实现由 Microsoft 和自定义移动工作区提供的两个移动工作区的流程。 
 
-![移动应用实现流程](./media/Mobile-implementation-process-5.png)
+[![移动应用实现流程](./media/Mobile-implementation-process-5.png)](./media/Mobile-implementation-process-5.png)
 
 下表包括可以帮助您实现由 Microsoft 和自定义移动工作区提供的两个移动工作区的资源的链接。 第一列的数字对应上一图中已编号的步骤。
 
