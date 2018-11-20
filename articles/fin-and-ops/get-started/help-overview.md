@@ -3,7 +3,7 @@ title: "Finance and Operations 帮助系统"
 description: "本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。"
 author: margoc
 manager: AnnBe
-ms.date: 07/12/2018
+ms.date: 10/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
-ms.openlocfilehash: 3f18a5d7b7f7639b864f579b758005c7a30803a2
+ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
+ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 10/17/2018
 
 ---
 
@@ -45,14 +45,14 @@ Finance and Operations 包括一个帮助系统，基于两个主要组件：
 -   文档站点
 -   任务指南
 
-您可以从您正在使用的任何产品的帮助窗格访问帮助主题和任务指南。 以下屏幕截图显示 Dynamics 365 for Finance and Operations
+您可以在您使用的任何产品中从“帮助”窗格访问帮助。 以下屏幕截图显示 Finance and Operations。
 
 ![帮助窗格](./media/help-pane-ops-task-guides.png)
 
 本主题描述帮助系统，并说明如何为您的组织创建自定义文档和培训资源。
 
 > [!IMPORTANT]
-> **任务指南**选项卡目前在 Microsoft Dynamics 365 for Talent 和 Microsoft Dynamics 365 for Retail 中不可用。 我们目前正在努力在将来的版本中启用此功能。 Talent 中的入门中的任务指南体验可用，以涵盖基本功能。 docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) 上还提供用于 Retail 和 Talent 的过程帮助。
+> **任务指南**当前未向 Retail 提供，也未在 Talent 的“帮助”窗格中（Talent 的“入门”窗格中提供了一些任务指南）。 docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) 上提供用于 Retail 和 Talent 的过程帮助。
 
 ## <a name="help-on-docsmicrosoftcom"></a>docs.microsoft.com 中的“帮助”
 
@@ -64,17 +64,16 @@ docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](.
 -   **支持您的业务流程的内容** – 该站点包括侧重于业务流程的内容，这些内容利用 Microsoft Dynamics Lifecycle Services (LCS) 中的 Business Process Modeler (BPM)。
 
 ### <a name="searching-on-docsmicrosoftcom"></a>在 docs.microsoft.com 上搜索
-有关如何搜索我们的内容，我们收到了很多问题。 在我们的站点上，如果您从与 Finance and Operations 有关的页面开始，我们只将您的搜索限定为 Finance and Operations 内容。 您可以通过单击搜索框中“操作”旁边的 X 来删除限定范围。 
+有关如何搜索我们的内容，我们收到了很多问题。 在我们的站点上，如果您从与 Finance and Operations 有关的页面开始，我们只将您的搜索限定为 Finance and Operations 内容。 您可以通过单击搜索框中 Unified Operations 旁边的 X 来删除限定范围。 
 
 ![搜索订单](./media/search-scope-2.png)
 
 您还可以使用任何搜索引擎查找我们的内容。 为达到最佳效果，建议您使用站点搜索，如 site:docs.microsoft.com dynamics 365“搜索词”。  
 
 ### <a name="the-docsmicrosoftcom-table-of-contents"></a>docs.microsoft.com 目录
-Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内容表，使客户能够查看他们所处的主题的上下文。 它还使您能够使用目录上的筛选器控件来查找您正在查找的主题。
+Finance and Operations 和 Retail 均共用文档站点上的一个内容表，使客户能够查看他们所处的主题的上下文。 它还使您能够使用目录上的筛选器控件来查找您正在查找的主题。 
 
-### <a name="follow-a-topic"></a>关注主题
-若要关注主题，单击评论框下的“+关注”按钮。 您需要先登录才能够关注主题。 请参阅[对我们提供反馈](#leave-us-feedback)了解详细信息。  
+您可以通过搜索或单击站点痕迹导航中的 Dynamics 365 到达我们的中心页面，来获取其他 Dynamics 365 产品的帮助。 
 
 ### <a name="use-an-rss-feed"></a>使用 RSS 源
 若要订阅 Unified Operations 内容的所有更新的 RSS 源，请在支持 RSS 源的浏览器（如 Internet Explorer或 RSS 源管理器）中使用以下链接： 
@@ -106,17 +105,18 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 
 > [!NOTE]
-> 目前，我们只接受向我们的英语存储库贡献的内容。  
+> 目前，我们只接受向我们的英语内容集贡献的内容。  
 
 
 ## <a name="task-guides"></a>任务指南
 任务指南是受控的、引导式、交互式的体验，带领您完成任务或业务流程中的步骤。 您可以从“帮助”窗格中打开（播放）任务指南。 当您首次单击任务指南时，“帮助”窗格将显示任务的分步说明。 本地化的任务指南现已提供。 
 
-我们为 Dynamics 365 for Retail、Dynamics 365 for Finance and Operations 或 Dynamics 365 for Talent 之类每个产品提供不同的任务指南集。 来自帮助窗格的获取任务指南部分介绍如何查找适用于您的产品的正确的任务指南。 
+Microsoft 为 Finance and Operations 2017 年 12 月及以前的版本配送了任务指南库。 [从“帮助”窗格获取任务指南](help-overview.md#accessing-task-guides-from-the-help-pane)部分介绍如何查找适用于您的产品的正确的任务指南。 
 
 ![任务指南阅读视图](./media/task-guide-ops.png)
 
 若要开始引导式、交互式的体验，请在“帮助”窗格底部单击**启动任务指南**。 黑色指针打开并指示您必须执行的操作。 按照 UI 中显示的指导进行操作，并按照指示输入数据。 
+
 ![任务指南步骤说明](./media/task-guide-step-1-ops.png)
 
 > [!IMPORTANT] 
@@ -126,7 +126,11 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 任务是通过使用任务录制器创建的。 当您使用任务录制器时，您在 Finance and Operations UI 中执行的所有操作（如单击菜单、更改设置和输入数据）都将被记录。 您记录的步骤统称为任务录制。 如同我们在前一部分说明的，任务录制可以显示在“帮助”窗格中和作为任务指南播放。 不过，您可以通过其他方法来使用任务录制：
 
--   **将任务录制保存到 BPM** – 可以将任务录制保存到 LCS 中的一个 BPM 库中的层次结构行。 当您将任务录制保存到 BPM 时，会连同录制的步骤一起，生成并显示流程图。 **注意：** 若要在 Finance and Operations 的“帮助”窗格中显示任务录制并将其作为任务指南播放，您必须将录制保存到 BPM 库。
+-   **将任务录制保存到 BPM** – 可以将任务录制保存到 LCS 中的一个 BPM 库中的层次结构行。 当您将任务录制保存到 BPM 时，会连同录制的步骤一起，生成并显示流程图。 
+
+    > [!Note]
+    > 若要在 Finance and Operations 的“帮助”窗格中显示任务录制并将其作为任务指南播放，您必须将录制保存到 BPM 库。
+    
 -   **将任务录制保存为 Word 文档** – 通过将任务录制保存为 Microsoft Word 文档，您可以轻松地为您的组织生成可打印的培训指南。
 
 有关任务录制器的详细信息，请参阅 [Finance and Operations 中的任务录制器](../../dev-itpro/user-interface/task-recorder.md)。
@@ -142,7 +146,7 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 ### <a name="accessing-help-topics-from-the-help-pane"></a>从“帮助”窗格中访问帮助主题
 
-从“帮助”窗格中，您可以访问适用于 Finance and Operations 客户端的文章。 在您首次打开“帮助”窗格并单击 **Wiki** 选项卡时，您将看到适用于您当前在 Finance and Operations 中所处页面的文章。 如果未找到任何文章，您可以输入关键字来调整搜索。 当您在“帮助”窗格中单击一篇文章时，新的选项卡会在 Web 浏览器中打开并显示文章。 
+从“帮助”窗格中，您可以访问适用于 Finance and Operations 客户端的文章。 在您首次打开“帮助”窗格并单击**帮助**选项卡时，您将看到适用于您当前在 Finance and Operations 中所处页面的文章。 如果未找到任何文章，您可以输入关键字来调整搜索。 当您在“帮助”窗格中单击一篇文章时，新的选项卡会在 Web 浏览器中打开并显示文章。 
 
 > [!IMPORTANT]
 > 本节不适用于 Dynamics 365 for Talent。 Talent 的帮助系统自动连接至产品的任务指南。 此外，您无法为 Talent 创建自定义任务指南。 
@@ -160,7 +164,9 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 在**系统参数**页上，执行以下步骤：
 
 1.  **重要：** 首次打开帮助选项卡时，必须连接到 Lifecycle Services。 请确保单击窗体中间的链接，等待连接，关闭对话框，单后单击**确定**以转至参数窗体。
+
 ![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png)
+
 2.  选择要连接到的 Lifecycle Services 项目。
 3.  选择要从中检索任务录制的 BPM 库（在所选项目内）。
     - 对于 Finance and Operations 的 Microsoft 内容，选择 Microsoft Dynamics 365 for Finance and Operations 的 2017 年 2 月 QPC 标准库。 
@@ -173,38 +179,29 @@ Finance and Operations、Retail 和 Talent 均共用文档站点上的一个内�
 
 ![任务指南阅读视图](./media/task-guide-ops.png)
 
-### <a name="where-are-the-translated-task-guides"></a>翻译的任务指南在哪里？
+### <a name="where-are-the-translated-task-guides-for-microsoft-libraries"></a>翻译后的 Microsoft 任务指南库在哪里？
 
 翻译后的任务指南在标题中带有“所有语言”的库中发布。 在 Finance and Operations 中，若要查看本地化的任务指南帮助，请确保您已连接到相应库。 每个用户的任务指南的显示语言由**选项** &gt; **首选项**下的“语言设置”控制。 
 -   如果已翻译任务指南，在您打开任务指南时，所有任务指南文本都将显示为您选择的语言。
 -   如果尚未翻译任务指南，在您打开任务指南时，仅部分文本（控制文本）显示为您选择的语言。
 
 ## <a name="additional-resources"></a>其他资源
-下表列出了我们的网站。 我们的内容网站经过了组织，用以支持客户生命周期。 每个阶段由不同站点集支持。 名称旁边具有星号 (\*) 的站点要求您使用与服务计划关联的帐户登录。
+
+- [Finance and Operations 帮助系统（可下载资料页）](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
+- [任务录制器](../../dev-itpro/user-interface/task-recorder.md)
+- [使用任务录制创建文档或培训](../../dev-itpro/user-interface/task-recorder.md)
+
+下表列出了我们的网站。 名称旁边具有星号 (\*) 的站点要求您使用与服务计划关联的帐户登录。
 
 | 站点                                                                     | 说明                                                                                                                                                                                                                                |
 |--------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [Docs.microsoft.com](/dynamics365/) | 承载或链接到 Dynamics 365 的所有产品文档。                                                                                                                                                               |
-| [Lifecycle Services](http://lcs.dynamics.com/en/)\*                      | 提供基于云的协作工作区，可供客户和合作伙伴用来从售前到执行和运营阶段管理 Dynamics 365 for Finance and Operations 项目。 此站点在执行的所有阶段都很有用。 |
-| [CustomerSource](http://www.customersource.com/)\*                       | 承载广泛的培训资源，并且是 Dynamics 365 for Finance and Operations 的主要支持站点。 可能需要登录才能访问该站点上的特定资源。                                                                      |
+| [Microsoft 学习](https://docs.microsoft.com/learn/) | Microsoft 免费的网络培训站点。                                                                                                                                                               |
+| [Lifecycle Services](https://lcs.dynamics.com/en/)\*                      | 提供基于云的协作工作区，可供客户和合作伙伴用来从售前到执行和运营阶段管理 Dynamics 365 for Finance and Operations 项目。 此站点在执行的所有阶段都很有用。 |
 | [支持博客](http://aka.ms/AXSupportBlog)                              | 提供 Dynamics 365 for Finance and Operations 支持团队发布的提示和窍门。                                                                                                                                                  |
-| [MSDN](http://aka.ms/AXMSDN)                                             | 承载为开发人员编写的来自以前版本的内容。                                                                                                                                                                       |
-| [TechNet](http://aka.ms/TechNet)                                         | 承载 IT 专业和应用程序用户编写的来自以前版本的内容。                                                                                                                                           |
-| [Dynamics 社区](http://community.dynamics.com/)                  | 承载博客、论坛和视频。                                                                                                                                                                                                           |
+| [Docs.microsoft.com/previous versions](https://docs.microsoft.com/en-us/previous-versions/dynamics/)                                             | 承载以前版本的内容。                                                                                                                                                                       |
+| [Dynamics 社区](https://community.dynamics.com/)                  | 承载博客、论坛和视频。                                                                                                                                                                                                           |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/en-us/dynamics365/home)                 | 提供评估和销售信息。                                                                                                                                                                                                 |
+| [CustomerSource](https://mbs.microsoft.com/customersource/)\*                      | 承载 Finance and Operations 一些培训资源、可下载报告和白皮书，是服务计划持有人的主要支持站点。 可能需要服务计划才能在站点上访问某些资源。     |
 
-
-
-<a name="additional-resources"></a>其他资源
---------
-[Finance and Operations 帮助系统（可下载资料页）](https://mbs.microsoft.com/customersource/global/AX/learning/fact-sheets/msdaxhelpsystemfactsheet)
-
-[任务录制器](../../dev-itpro/user-interface/task-recorder.md)
-
-[使用任务录制创建文档或培训](../../dev-itpro/user-interface/task-recorder.md)
-
-[新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
-[新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
-[新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
-[新的或更新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
 

@@ -3,7 +3,7 @@ title: "新增功能或更改功能"
 description: "此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations 最新版本的新功能的主题。"
 author: josaw1
 manager: AnnBe
-ms.date: 08/27/2018
+ms.date: 11/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
 ms.translationtype: HT
-ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
-ms.openlocfilehash: 201068db3b1bd27438b16ff3f1f51f8a1eb972c5
+ms.sourcegitcommit: 9b72fe490601d474c54c8bee556719608f4379d3
+ms.openlocfilehash: cd5403a5ab5a4be06b5565528ced30fa0be3cee0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/02/2018
+ms.lasthandoff: 11/03/2018
 
 ---
 
@@ -61,6 +61,18 @@ ms.lasthandoff: 10/02/2018
 <tbody>
 <tr class="even">
 </tr>
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.1.2</td>
+<td>8.1.195  </td>
+<td>2018 年 11 月</td>
+  <td><a href="whats-new-changed-8-1-2.md">Dynamics 365 for Finance and Operations 版本 8.1.2（2018 年 11 月）中的新增功能或更改内容</a></td>
+<tr class="even">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>8.1.1</td>
+<td>8.1.170  </td>
+<td>2018 年 10 月</td>
+  <td><a href="whats-new-changed-8-1-1.md">Dynamics 365 for Finance and Operations 版本 8.1.1（2018 年 10 月）中的新增功能或更改内容</a></td>
 <tr class="even">
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1</td>
@@ -134,10 +146,22 @@ ms.lasthandoff: 10/02/2018
 <tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>平台 update 22</td>
+<td>7.0.5095</td>
+<td>2018 年 10 月</td>
+<td><a href="whats-new-platform-update-22.md">Dynamics 365 for Finance and Operations 平台更新 22（2018 年 11 月）的新增或更改内容</a></td><tbody><tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>平台 update 21</td>
+<td>7.0.5073</td>
+<td>2018 年 10 月</td>
+<td><a href="whats-new-platform-update-21.md">Dynamics 365 for Finance and Operations 平台更新 21（2018 年 10 月）的新增或更改内容</a></td><tbody>
+<tr class="odd">
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>平台 update 20</td>
 <td>7.0.5030</td>
 <td>2018 年 9 月</td>
-<td><a href="whats-new-platform-update-20.md">Dynamics 365 for Finance and Operations 平台更新 20（2018 年 9 月）的新增或更改内容</a></td><tbody>
+<td><a href="whats-new-platform-update-20.md">Dynamics 365 for Finance and Operations 平台更新 20（2018 年 9 月）的新增或更改内容</a></td>
+<tbody>
 <tr class="odd">
 <td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
 <td>平台 update 15</td>

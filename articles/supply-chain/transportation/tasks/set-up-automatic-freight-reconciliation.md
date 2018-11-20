@@ -3,7 +3,7 @@ title: "设置自动装运对帐"
 description: "此过程显示如何为自动货运对帐设置数据。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 10/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 97f0c4d8fe06ab2fc252b9543cb688306214c79f
+ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
+ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 10/17/2018
 
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>设置自动装运对帐
@@ -36,9 +36,9 @@ ms.lasthandoff: 09/29/2017
     * 货运帐单类型定义应如何匹配货运帐单和承运人发票。  
 2. 单击“新建”。
 3. 在“货运帐单类型”字段中，键入一个值。
-4. 在“引擎程序集”字段中，键入“Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer”。
+4. 在“引擎程序集”字段中，键入“Microsoft.Dynamics.Ax.Tms.dll”。
     * 这是标准运输管理匹配引擎代码库。  
-5. 在“引擎类”字段中，键入“Microsoft.Dynamics.Ax.Tms.dll”。
+5. 在“引擎类”字段中，键入“Microsoft.Dynamics.Ax.Tms.Bll.GenericNormalizer”。
     * 这是标准运输管理匹配引擎类。  
 6. 单击“新建”。
 7. 在"描述"字段中，选择在货运帐单和承运人发票上应匹配的值。  

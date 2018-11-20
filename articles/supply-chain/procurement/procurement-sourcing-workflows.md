@@ -50,11 +50,12 @@ ms.lasthandoff: 05/08/2018
 | 供应商添加申请工作流  | 为通过供应商请求添加新供应商创建审核和批准工作流。 |
 
 ## <a name="creating-a-workflow"></a>创建工作流
+
 若要创建工作流，请转到“采购”&gt;“设置”&gt;“采购”工作流，并通过选择您要创建的工作流类型创建新工作流。  
 
 在工作流画布中，您可以将工作流元素拖动到设计器并将元素链接到流。 应配置工作流元素。 对于审核和任务工作流元素，您可以配置哪个参与者应采取行动。
-参与者类型
-----------------------
+
+## <a name="types-of-participants"></a>参与者类型
 
 您可以将审核步骤分配到以下的参与者组。
 
@@ -68,13 +69,12 @@ ms.lasthandoff: 05/08/2018
 
 
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
-[定义采购申请的业务流程工作流](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
+- [定义采购申请的业务流程工作流](https://mbs.microsoft.com/customersource/Global/AX/learning/documentation/white-papers/Defining_business_process_workflows_for_purchase_requisitions)
 
-[采购申请工作流](purchase-requisitions-workflow.md)
+- [采购申请工作流](purchase-requisitions-workflow.md)
 
-[载入供应商](vendor-onboarding.md)
+- [载入供应商](vendor-onboarding.md)
 
 

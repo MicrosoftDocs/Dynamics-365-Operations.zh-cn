@@ -3,14 +3,14 @@ title: "电子申报中 (ER) 的配方设计器"
 description: "本主题说明如何在电子申报 (ER) 中使用配方设计器。"
 author: NickSelin
 manager: AnnBe
-ms.date: 04/04/2018
+ms.date: 10/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58771
 ms.assetid: 24223e13-727a-4be6-a22d-4d427f504ac9
@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: d3ac6ea7b104428f364385e1fd3ed221cae8498d
+ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
+ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 10/22/2018
 
 ---
 
@@ -192,7 +192,7 @@ ER 表达式可以包含任意或所有以下元素：
 可限制值传递到此类型方法的参数的方式：
 
 - 只有常量可传递到此类型的方法。 常量的值定义为设计时间。
-- 此类型的参数仅支持原始（基本）数据类型。 （原始数据类型为整数、实数、布尔值、字符串等）。
+- 此类型的参数仅支持原始（基本）数据类型。 （原始数据类型为整数、实数、布尔值、字符串等。）
 
 #### <a name="paths"></a>路径
 
@@ -250,6 +250,12 @@ ER 表达式可以包含任意或所有以下元素：
 <td>拆分（输入，长度）</td>
 <td>拆分指定的输入字符串为子字符串，每个子字符串具有指定的长度。 返回结果为新的列表。</td>
 <td><strong>SPLIT (&quot;abcd&quot;, 3)</strong> 返回包含具有 <strong>STRING</strong> 字段的两个记录的新列表。 第一个记录中的字段包含文本 <strong>&quot;abc&quot;</strong>，第二个记录中的字段包含文本 <strong>&quot;d&quot;</strong>。</td>
+</tr>
+<tr>
+<td>SPLIT（输入、分隔符）</td>
+<td>根据指定的分隔符拆分指定的输入字符串为子字符串。</td>
+<td><strong>SPLIT (&quot;XAb aBy&quot;, &quot;aB&quot;)</strong> 返回包含具有 <strong>STRING</strong> 字段的三个记录的新列表。 第一个记录中的字段包含文本 <strong>&quot;X&quot;</strong>，第二个记录中的字段包含文本 &quot;&nbsp;&quot;，第三个记录中的字段包含文本 <strong>&quot;y&quot;</strong>。 如果分隔符是空的，将返回一个新列表，其中包括具有包含输入文本的 <strong>STRING</strong> 字段的一个记录。 如果输入为空，新的空列表将返回。
+如果输入或分隔符未指定（空），将引发应用程序异常。</td>
 </tr>
 <tr>
 <td>拆分列表（列表，数字）</td>
@@ -323,12 +329,12 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <tr>
 <td>ORDERBY（列表 [，表达式 1，表达式 2，...]）</td>
 <td>根据指定变量排序后返回指定的列表。 可将这些变量定义为表达式。</td>
-<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>ORDERBY (Vendors, Vendors.&#39;name()&#39;)</strong> 返回升序排列的按名称排序的供应商列表。</td>
+<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>ORDERBY (Vendors, Vendors.'name()')</strong> 返回升序排列的按名称排序的供应商列表。</td>
 </tr>
 <tr>
 <td>REVERSE（列表）</td>
 <td>以反转排序顺序返回指定的列表。</td>
-<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>REVERSE (ORDERBY (Vendors, Vendors.&#39;name()&#39;)) )</strong> 返回降序排列的按名称排序的供应商列表。</td>
+<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>REVERSE (ORDERBY (Vendors, Vendors.'name()')) )</strong> 返回降序排列的按名称排序的供应商列表。</td>
 </tr>
 <tr>
 <td>WHERE（列表，条件）</td>
@@ -399,12 +405,13 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 </ul>
 运行时，<strong>标签</strong>和<strong>说明</strong>字段将返回基于格式的语言设置和指定语言的值。 <strong>已翻译</strong>字段指示<strong>标签</strong>字段已翻译为指定语言。
 </td>
-<td>例如，使用<strong>计算字段</strong>数据源类型为 <strong>enumType</strong> 数据模型枚举配置 <strong>enumType_de</strong> 和 <strong>enumType_deCH</strong> 数据源：
+<td>例如，使用<strong>计算字段</strong>数据源类型为 <strong>enumType</strong> 数据模型枚举配置 <strong>enumType_de</strong> 和 <strong>enumType_deCH</strong> 数据源。
 <ul>
 <li>enumType_de = <strong>LISTOFFIELDS</strong> (enumType, &quot;de&quot;)</li>
 <li>enumType_deCH = <strong>LISTOFFIELDS</strong> (enumType, &quot;de-CH&quot;)</li>
 </ul>
-在此情况下，可使用以下表达式获取瑞士德语（如果此翻译可用）的枚举值标签。 如果瑞士德语翻译不可用，则该标签为德语：<strong>IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)</strong>。
+<p>在此情况下，可使用以下表达式获取瑞士德语（如果此翻译可用）的枚举值标签。 如果瑞士德语翻译不可用，标签将为德语。</p>
+IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 </td>
 </tr>
 <tr>
@@ -432,7 +439,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <tr>
 <td>FILTER（列表，条件）</td>
 <td>已修改查询以针对指定条件进行筛选后，返回指定列表。 此函数与 <strong>WHERE</strong> 函数，因为指定条件适用于数据库级别的<strong>表格记录</strong>类型的任何 ER 数据源。 可使用表格和关系定义列表和条件。</td>
-<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> 返回仅包含属于供应商组 40 的供应商的列表。 如果 <strong>Vendor</strong> 供应商配置为引用 <strong>VendTable</strong> 表的 ER 数据源，并且配置为 ER 数据源的 <strong>parmVendorBankGroup</strong> 返回<strong>字符串</strong>数据类型的值，则 <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> 返回仅包含属于特定空白组的供应商帐户的列表。</td>
+<td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> 返回仅包含属于供应商组 40 的供应商的列表。 如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，并且配置为 ER 数据源的 <strong>parmVendorBankGroup</strong> 返回<strong>字符串</strong>数据类型的值，则 <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> 返回仅包含属于特定空白组的供应商帐户的列表。</td>
 </tr>
 </tbody>
 </table>
@@ -446,10 +453,67 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 | NOT（条件） | 返回指定条件的冲销逻辑值。 | **NOT (TRUE)** 返回 **FALSE**。 |
 | AND (condition 1\[, condition 2, …\]) | 如果指定的*所有*条件均为 True，返回 **TRUE**。 否则，返回 **FALSE**。 | **AND (1=1, "a"="a")** 返回 **TRUE**。 **AND (1=2, "a"="a")** 返回 **FALSE**。 |
 | OR (condition 1\[, condition 2, …\]) | 如果指定的*所有*条件均为 False，返回 **FALSE**。 如果指定的*任何*条件均为 True，返回 **TRUE**。 | **OR (1=2, "a"="a")** 返回 **TRUE**。 |
+| VALUEIN（输入、列表、列表项表达式） | 确定指定的输入是否匹配指定列表中任何项目的值。 如果指定的输入与运行至少一个记录的指定表达式的结果匹配，则返回 **TRUE**。 否则，返回 **FALSE**。 **输入**参数表示数据源元素的路径。 将匹配此元素的值。 **列表**参数将记录列表类型的数据源元素的路径表示为包含表达式的记录的列表。 此元素的值将与指定输入比较。 **列表项表达式**参数表示指向或包含应用于匹配的指定列表的一个字段的表达式。 | 有关示例，请参阅随后的[示例：VALUEIN（输入、列表、列表项表达式）](#examples-valuein-input-list-list-item-expression)部分。 |
+
+#### <a name="examples-valuein-input-list-list-item-expression"></a>示例：VALUEIN（输入、列表、列表项表达式）
+一般来说，**VALUEIN** 函数转换为一组 **OR** 条件：
+
+(input = list.item1.value) OR (input = list.item2.value) OR …
+
+##### <a name="example-1"></a>示例 1
+您在模型映射中定义以下数据源：**列表**（**计算字段**类型）。 此数据源包含表达式 **SPLIT ("a,b,c", ",")**。
+
+在调用配置为 **VALUEIN ("B", List, List.Value)** 表达式的数据源时，它将返回 **TRUE**。 在这种情况下，**VALUEIN** 函数转换为以下一组条件：
+
+**(("B" = "a") or ("B" = "b") or ("B" = "c"))**, where **("B" = "b")** is equal to **TRUE**
+
+在调用配置为 **VALUEIN ("B", List, LEFT(List.Value, 0))** 表达式的数据源时，它将返回 **FALSE**。 在这种情况下，**VALUEIN** 函数转换为以下条件：
+
+**("B" = "")**, which isn't equal to **TRUE**
+
+请注意，此条件的文本中的字符数的上限为 32,768 个字符。 因此，您不应该在运行时创建可能超出此限制的数据源。 如果超出限制，应用程序将停止运行，并将引发异常。 例如，如果数据源被配置为 **WHERE (List1, VALUEIN (List1.ID, List2, List2.ID)**，并且 **List1** 和 **List2** 列表包含大量记录，将发生此情况。
+
+在某些情况下，**VALUEIN** 函数通过使用 **EXISTS JOIN** 运算符转换为数据库语句。 此行为会在使用 **FILTER** 函数并且当满足以下条件时发生：
+
+- **ASK FOR QUERY** 选项将对引用记录列表的 **VALUEIN** 函数的数据源关闭。 （附加条件不会在运行时应用于此数据源。）
+- 不会为引用记录列表的 **VALUEIN** 函数的数据源配置嵌套表达式。
+- **VALUEIN** 函数的列表项引用指定数据源的字段（不是表达式或方法）。
+
+请考虑使用此选项而不是 **WHERE** 函数，如本示例前面所述。
+
+##### <a name="example-2"></a>示例 2
+
+在模型映射中定义以下数据源：
+
+- **In**（**表记录**类型），引用的是 Intrastat 表
+- **Port**（**表记录**类型），引用的是 IntrastatPort 表
+
+在调用配置为 **FILTER (In, VALUEIN(In.Port, Port, Port.PortId)** 表达式的数据源时，以下 SQL 语句将生成以返回筛选的内部统计表记录：
+
+```
+select … from Intrastat
+exists join TableId from IntrastatPort
+where IntrastatPort.PortId = Intrastat.Port
+```
+
+对于 **dataAreaId** 字段，最后的 SQL 语句使用 **IN** 运算符生成。
+
+##### <a name="example-3"></a>示例 3
+
+在模型映射中定义以下数据源：
+
+- **Le**（**计算字段**类型），包含表达式 **SPLIT ("DEMF,GBSI,USMF", ",")**
+- **In**（**表记录**类型），引用内部统计表，其**跨公司**选项打开
+
+在调用配置为 **FILTER (In, VALUEIN (In.dataAreaId, Le, Le.Value)** 表达式的数据源时，最后的 SQL 语句包含以下条件：
+
+```
+Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
+```
 
 ### <a name="mathematical-functions"></a>数学函数
 
-| 职能 | 描述 | 示例 |
+| 职能 | 说明 | 示例 |
 |----------|-------------|---------|
 | ABS（数字） | 返回指定数字的绝对值。 （即，返回不带符号的数字。） | **ABS (-1)** 返回 **1**。 |
 | POWER（数字，功率） | 返回将指定的正数增加到指定的功率的结果。 | **POWER (10, 2)** 返回 **100**。 |
@@ -539,13 +603,13 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 </tr>
 <tr>
 <td>REPLACE（字符串，模式，替换，正则表达式标志）</td>
-<td>在指定的正则表达式标记为 <strong>True</strong> 时，返回指定字符串，并且其已通过应用指定为此函数的模式参数的正则表达式来修改。 此表达式用于查找必须替换的字符。 指定的替换参数的字符用于替换找到的字符。 在指定的正则表达式标志为 <strong>False</strong> 时，此函数类似 <strong>TRANSLATE</strong>。</td>
+<td>在指定的<strong>正则表达式标记</strong>参数为 <strong>True</strong> 时，返回指定字符串，并且其已通过应用指定为此函数的<strong>模式</strong>参数的正则表达式来修改。 此表达式用于查找必须替换的字符。 指定的<strong>替换</strong>参数的字符用于替换找到的字符。 在指定的<strong>正则表达式标记</strong>参数为 <strong>False</strong> 时，此函数类似 <strong>TRANSLATE</strong>。</td>
 <td><strong>REPLACE (&quot;+1 923 456 4971&quot;, &quot;[^0-9]&quot;, &quot;&quot;, true)</strong> 应用删除所有非数字符号的正则表达式，并返回 <strong>&quot;19234564971&quot;</strong>。 <strong>REPLACE (&quot;abcdef&quot;, &quot;cd&quot;, &quot;GH&quot;, false)</strong> 将模式 <strong>&quot;cd&quot;</strong> 替换为字符串 <strong>&quot;GH&quot;</strong>，并返回 <strong>&quot;abGHef&quot;</strong>。</td>
 </tr>
 <tr>
 <td>TEXT（输入）</td>
 <td>返回指定的输入，并且其已转换为根据当前 Finance and Operations 实例的服务器区域设置设置格式的文本字符串。 对于 <strong>real</strong> 类型的值，字符串转换被限制为两位小数。</td>
-<td>如果将 Finance and Operations 实例服务器区域定义为 <strong>EN-US</strong>，<strong>TEXT (NOW ())</strong> 返回当前 Finance and Operations 会话日期 2015 年 12 月 17 日为文本字符串 <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>。 <strong>TEXT (1/3)</strong> 返回 <strong>&quot;0.33&quot;</strong>。</td>
+<td>如果将 Finance and Operations 实例的服务器区域定义为 <strong>EN-US</strong>，<strong>TEXT (NOW ())</strong> 返回当前 Finance and Operations 会话日期 2015 年 12 月 17 日为文本字符串 <strong>&quot;12/17/2015 07:59:23 AM&quot;</strong>。 <strong>TEXT (1/3)</strong> 返回 <strong>&quot;0.33&quot;</strong>。</td>
 </tr>
 <tr>
 <td>FORMAT (string 1, string 2[, string 3, …])</td>
@@ -562,19 +626,19 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 <li>Finance and Operations 标签 SYS18389，具有以下文本：
 <ul>
 <li><strong>对于 EN-US 语言：</strong>&quot;Customer %1 is stopped for %2&quot;。</li>
-<li><strong>对于 DE 语言：</strong>&quot;Debitor &#39;%1&#39; wird für %2 gesperrt.&quot;</li>
+<li><strong>对于 DE 语言：</strong>&quot;Debitor '%1' wird für %2 gesperrt&quot;。</li>
 </ul></li>
 </ul>
 <p>这是一个可设计的公式：</p>
 <p>FORMAT (CONCATENATE (@&quot;SYS70894&quot;, &quot;. &quot;, @&quot;SYS18389&quot;), model.Customer.Name, DATETIMEFORMAT (model.ProcessingDate, &quot;d&quot;))</p>
-<p>如果报表于 2015 年 12 月 17 日为 <strong>Litware 零售</strong>客户处理，在 <strong>EN-US</strong> 区域性和 <strong>EN-US</strong> 语言中，此公式返回以下文本，其可能呈现为用户的异常消息：</p>
+<p>如果报表于 2015 年 12 月 17 日为 <strong>Litware 零售</strong>客户处理，在 <strong>EN-US</strong> 区域性和 <strong>EN-US</strong> 语言中，此公式返回以下文本，其可能向用户呈现为异常消息：</p>
 <p>&quot;没有要打印的内容。 客户 Litware 零售已于 2015 年 12 月 17 日停止。&quot;</p>
 <p>如果 2015 年 12 月 17 日为 <strong>Litware 零售</strong>客户处理同一个报表，在 <strong>DE</strong> 区域性和 <strong>DE</strong> 语言中，此公式返回以下文本（使用不同的日期格式）：</p>
 <p>&quot;Nichts zu drucken. Debitor 'Litware Retail' wird für 17.12.2015 gesperrt。&quot;</p>
 <blockquote>[!NOTE] 以下语法在标签的 ER 公式中应用：
 <ul>
-<li><strong>对于 Finance and Operations 资源的标签：</strong><strong>@&quot;X&quot;</strong>，其中 X 是应用程序对象树 (AOT) 中的标签 ID</li>
-<li><strong>对于位于 ER 配置中的标签：</strong><strong>@&quot;GER_LABEL:X&quot;</strong>，其中 X 是 ER 配置中的标签 ID</li>
+<li><strong>对于 Finance and Operations 资源的标签：</strong><strong>@&quot;X&quot;</strong>，其中 <strong>X</strong> 是应用程序对象树 (AOT) 中的标签 ID</li>
+<li><strong>对于位于 ER 配置中的标签：</strong><strong>@&quot;GER_LABEL:X&quot;</strong>，其中 <strong>X</strong> 是 ER 配置中的标签 ID</li>
 </ul>
 </blockquote>
 </td>
@@ -616,7 +680,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 </tr>
 <tr>
 <td>GUIDVALUE（输入）</td>
-<td>将<strong>字符串</strong>数据类型的指定输入转换为 <strong>GUID</strong> 数据类型的数据项。</td>
+<td>将<strong>字符串</strong>数据类型的指定输入转换为 <strong>GUID</strong> 数据类型的数据项。<blockquote>[!NOTE] 若要执行反向转换（即，将指定的 <strong>GUID</strong> 数据类型的输入转换为<strong>字符串</strong>数据类型的数据项），您可以使用 <strong>TEXT()</strong> 函数。</blockquote></td>
 <td>在模型映射中定义以下数据源：
 <ul>
 <li><strong>myID</strong>（<strong>计算字段</strong>类型），其中包含表达式 <strong>GUIDVALUE(&quot;AF5CCDAC-F728-4609-8C8B- A4B30B0C0AA0&quot;)</strong></li>
@@ -637,7 +701,7 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 
 | 职能 | 说明 | 示例 |
 |----------|-------------|---------|
-| TEXT（输入） | 返回指定的输入，并且其已转换为根据当前 Finance and Operations 实例的服务器区域设置设置格式的文本字符串。 对于 **real** 类型的值，字符串转换被限制为两位小数。 | 如果将 Finance and Operations 实例服务器区域定义为 **EN-US**，**TEXT (NOW ())** 返回当前 Finance and Operations 会话日期 2015 年 12 月 17 日为文本字符串 **"12/17/2015 07:59:23 AM"**。 **TEXT (1/3)** 返回 **"0.33"**。 |
+| TEXT（输入） | 返回指定的输入，并且其已转换为根据当前 Finance and Operations 实例的服务器区域设置设置格式的文本字符串。 对于 **real** 类型的值，字符串转换被限制为两位小数。 | 如果将 Finance and Operations 实例的服务器区域定义为 **EN-US**，**TEXT (NOW ())** 返回当前 Finance and Operations 会话日期 2015 年 12 月 17 日为文本字符串 **"12/17/2015 07:59:23 AM"**。 **TEXT (1/3)** 返回 **"0.33"**。 |
 | QRCODE（字符串） | 为指定字符串返回 base64 二进制格式的快速响应码 (QR 代码) 图像。 | **QRCODE ("Sample text")** 返回 **U2FtcGxlIHRleHQ=**。 |
 
 ### <a name="data-collection-functions"></a>数据收集功能
@@ -645,11 +709,11 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 | 职能 | 说明 | 示例 |
 |----------|-------------|---------|
 | FORMATELEMENTNAME () | 返回当前格式的元素的名称。 在当前文件的**收集输出详细信息**标记关闭时返回空字符串。 | 有关如何使用此函数的详细信息，请参阅**盘点和合计格式输出的 ER 使用数据**任务指南，这是**购置/开发 IT 服务/解决方案组件**业务流程的一部分。 |
-| SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 返回 XML 节点（其名称定义为键）值的总和，该总和在执行此格式期间收集且满足指定条件（范围和值配对）。 在当前文件的**收集输出详细信息**标记关闭时返回 **0**（零）值。 | |
-| SUMIF（要合计的键字符串，条件范围字符串，条件值字符串） | 返回 XML 节点（其名称定义为键）值的总和，该总和在执行此格式期间收集且满足指定条件（范围和值）。 在当前文件的**收集输出详细信息**标记关闭时返回 **0**（零）值。 | |
-| COUNTIFS (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 返回 XML 节点的数量，该数量在此格式执行期间收集且满足指定条件（范围和值配对）。 在当前文件的**收集输出详细信息**标记关闭时返回 **0**（零）值。 | |
-| COUNTIF（范围条件字符串，条件值字符串） | 返回 XML 节点的数量，该数量在此格式执行期间收集且满足指定条件（范围和值）。 在当前文件的标记**收集输出详细信息**关闭时返回 **0**（零）值。 | |
-| COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 返回 XML 节点的值的列表，该列表在此格式执行期间收集且满足指定条件（范围和值）。 在当前文件的**收集输出详细信息**标记关闭时返回空列表。 | |
+| SUMIFS (key string for summing, criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 在此格式运行且满足指定条件（范围和值配对）时，返回为 XML 节点（其名称定义为键）收集的值的总和。 在当前文件的**收集输出详细信息**标记关闭时返回 **0**（零）值。 | |
+| SUMIF（要合计的键字符串，条件范围字符串，条件值字符串） | 在此格式运行且满足指定条件（范围和值）时，返回为 XML 节点（其名称定义为键）收集的值的总和。 在当前文件的**收集输出详细信息**标记关闭时返回 **0**（零）值。 | |
+| COUNTIFS (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 在此格式运行且满足指定条件（范围和值配对）时，返回收集的 XML 节点的数量。 在当前文件的**收集输出详细信息**标记关闭时返回 **0**（零）值。 | |
+| COUNTIF（范围条件字符串，条件值字符串） | 在此格式运行且满足指定条件（范围和值）时，返回收集的 XML 节点的数量。 在当前文件的标记**收集输出详细信息**关闭时返回 **0**（零）值。 | |
+| COLLECTEDLIST (criteria range1 string, criteria value1 string \[, criteria range2 string, criteria value2 string, …\]) | 在此格式运行且满足指定条件（范围和值）时，返回为 XML 节点收集的值的列表。 在当前文件的**收集输出详细信息**标记关闭时返回空列表。 | |
 
 ### <a name="other-business-domainspecific-functions"></a>其他（业务域特定的）函数
 
@@ -667,6 +731,9 @@ SELECT ... FROM CUSTINVOICETABLE T1 CROSS JOIN CUSTINVOICEJOUR T2 CROSS JOIN CUS
 | FA\_BALANCE（固定资产代码，值模型代码，报告年度，报告日期） | 返回固定资产余额的准备的数据容器。 报告年度必须在 Finance and Operations 中指定为 **AssetYear** 枚举的值。 | **FA\_SUM ("COMP-000001", "Current", AxEnumAssetYear.ThisYear, SESSIONTODAY ())** 返回具有值模型 **Current** 的固定资产 **"COMP-000001"** 的余额在当前 Finance and Operations 会话日期的准备的数据容器。 |
 | TABLENAME2ID（字符串） | 为指定表名返回表 ID 的整数表示形式。 | **TABLENAME2ID ("Intrastat")** 返回 **1510**。 |
 | ISVALIDCHARACTERISO7064（字符串） | 当指定字符串表示有效的国际银行帐号 (IBAN) 时，返回布尔值 **TRUE**。 否则，返回布尔值 **FALSE**。 | **ISVALIDCHARACTERISO7064 ("AT61 1904 3002 3457 3201")** 返回 **TRUE**。 **ISVALIDCHARACTERISO7064 ("AT61")** 返回 **FALSE**。 |
+| NUMSEQVALUE（编号规则代码、作用域、作用域 ID） | 基于指定的编号规则代码、作用域和作用域 ID 返回新生成的编号规则值。 作用域必须指定为 **ERExpressionNumberSequenceScopeType**枚举（**共享**、**法人**或**公司**）的值。 对于**共享**作用域，指定一个空字符串作为作用域 ID。 对于**公司**和**法人**作用域，指定公司代码作为作用域 ID。 对于**公司**和**法人**作用域，如果您指定空字符串作为作用域 ID，则将使用当前的公司代码。 | 在模型映射中定义以下数据源：<ul><li>**enumScope**（**Dynamics 365 for Operations 枚举**类型），引用 **ERExpressionNumberSequenceScopeType** 枚举</li><li>**NumSeq**（**计算字段**类型），包含表达式 **NUMSEQVALUE ("Gene\_1", enumScope.Company, "")**</li></ul>在调用 **NumSeq** 数据源时，将返回为提供 ER 格式在其中运行的上下文的公司配置的 **Gene\_1** 编号规则的新生成值。 |
+| NUMSEQVALUE（编号规则代码） | 基于指定的编号规则、**公司**作用域，以及提供 ER 格式在其中运行的上下文的公司的代码（作为作用域 ID）返回新生成的编号规则值。 | 您在模型映射中定义以下数据源：**NumSeq**（**计算字段**类型）。 此数据源包含表达式 **NUMSEQVALUE ("Gene\_1")**。 在调用 **NumSeq** 数据源时，将返回为提供 ER 格式在其中运行的上下文的公司配置的 **Gene\_1** 编号规则的新生成值。 |
+| NUMSEQVALUE（编号规则记录 ID） | 基于指定的编号规则记录 ID 返回新生成的编号规则值。 | 在模型映射中定义以下数据源：<ul><li>**LedgerParms**（**表**类型），引用的是 LedgerParameters 表</li><li>**NumSeq**（**计算字段**类型），包含表达式 **NUMSEQVALUE (LedgerParameters.'numRefJournalNum()'.NumberSequenceId)**</li></ul>在调用 **NumSeq** 数据源时，将返回在提供 ER 格式在其中运行的上下文的公司的总帐参数中配置的编号规则的新生成值。 此编号规则唯一标识日记帐，并充当将交易记录链接在一起的批号。 |
 
 ### <a name="functions-list-extension"></a>函数的列表扩展
 
@@ -674,7 +741,6 @@ ER 允许您扩展 ER 表达式中使用的函数列表的功能。 需要执行
 
 ## <a name="additional-resources"></a>其他资源
 
-[电子申报概览](general-electronic-reporting.md)
-
-[扩展电子申报 (ER) 功能的列表](general-electronic-reporting-formulas-list-extension.md)
+- [电子申报概览](general-electronic-reporting.md)
+- [扩展电子申报 (ER) 功能的列表](general-electronic-reporting-formulas-list-extension.md)
 

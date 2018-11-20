@@ -14,6 +14,8 @@
       href: dev-itpro/choose-deployment.md
     - name: 获取 Retail 支持
       href: retail-support.md
+    - name: 一个版本服务更新常见问题
+      href: ../fin-and-ops/get-started/one-version.md
 - name: 了解实施生命周期
   href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
   items:
@@ -145,8 +147,6 @@
       items:
         - name: 零售外围设备
           href: retail-peripherals-overview.md
-        - name: Microsoft 测试过的 POS 硬件外围设备
-          href: microsoft-tested-pos-hardware-peripherals.md
         - name: 零售外围设备模拟器
           href: dev-itpro/retail-peripheral-simulator.md
         - name: 将外围设备连接到 POS
@@ -229,7 +229,9 @@
       href: set-up-rfm-analysis.md
 - name: 折扣和价格调整
   items:
-    - name: Retail 销售价格管理
+    - name: 零售折扣
+      href: retail-discounts-overview.md
+    - name: 零售销售价格管理
       href: price-management.md
     - name: 价格调整和折扣
       href: price-adjustments-discounts.md
@@ -269,9 +271,9 @@
       href: ../supply-chain/production-control/default-order-settings.md
     - name: 在订单输入期间搜索产品和产品变型
       href: ../supply-chain/pim/search-products-product-variants.md
-- name: 忠诚度
+- name: 会员
   items:
-    - name: 设置客户会员计划
+    - name: 会员概览
       href: set-up-customer-loyalty-program.md
 - name: 库存
   items:
@@ -307,6 +309,8 @@
       href: ../talent/create-job.md
 - name: 本地化和监管功能
   items:
+    - name: 零售渠道的会计集成
+      href: localizations/fiscal-integration-for-retail-channel.md
     - name: 东欧
       items:
         - name: 东欧 Retail 预付款发票
@@ -315,6 +319,8 @@
           href: localizations/emea-eeu-petty-cash-for-retail.md
         - name: 东欧国家/地区的 Retail 客户发票和退货销售订单
           href: localizations/emea-eeu-retail-invoices.md
+        - name: 面向捷克共和国、匈牙利和波兰的收银机部署指南
+          href: localizations/emea-eeu-deployment.md
     - name: 法国
       items:
         - name: 收银机功能
@@ -329,6 +335,10 @@
           href: localizations/apac-ind-loc-deployment-guidelines.md
         - name: 适用于印度的升级和 N-1 支持
           href: localizations/apac-ind-n-1-for-india.md
+    - name: 意大利
+      items:
+        - name: 税控打印机集成
+          href: localizations/emea-ita-fpi-sample.md
     - name: 挪威
       items:
         - name: 收银机功能
@@ -490,6 +500,8 @@
           href: dev-itpro/pos-custom-control.md
         - name: 使用按钮网格设计器将 POS 操作添加到 POS 布局
           href: dev-itpro/add-POS-operations.md
+        - name: Retail POS API
+          href: dev-itpro/POS-APIs.md
         - name: POS 付款扩展
           href: dev-itpro/pos-payment-extension.md
         - name: 对外部礼品卡的支持
