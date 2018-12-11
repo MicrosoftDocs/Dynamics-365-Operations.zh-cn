@@ -47,6 +47,8 @@
       href: dev-itpro/updating-environments.md
     - name: 测试和性能问题
       href: dev-itpro/retail-implementation-testing-performance.md
+- name: 分配的订单管理 (DOM)
+  href: dom.md
 - name: 付款
   items:
     - name: 付款方式
@@ -55,6 +57,8 @@
       href: ../financials/accounts-receivable/credit-card-authorizations.md
     - name: 为 POS 配置现金面额
       href: cash-denominations.md
+    - name: 设置付款发票方案
+      href: payinvoice.md
     - name: 付款常见问题
       href: dev-itpro/payments-retail.md
 - name: 采购订单
@@ -213,6 +217,8 @@
       href: Order-fulfillment-POS-setup.md
     - name: 在 POS 中显示订单通知
       href: Notifications-POS.md
+- name: 配置和处理有关退货单的交换
+  href: orderexchanges.md
 - name: 监控和分析
   items:
     - name: 监控销售和利润率
@@ -235,6 +241,8 @@
       href: price-management.md
     - name: 价格调整和折扣
       href: price-adjustments-discounts.md
+    - name: 对产品应用多个零售折扣
+      href: Apply-multiple-retail-discounts.md
     - name: 确定叠加折扣的最佳组合
       href: optimal-combination-overlapping-discounts.md
     - name: 定义特定于渠道的折扣
@@ -488,6 +496,8 @@
       items:
         - name: Retail POS 屏幕布局
           href: pos-screen-layouts.md
+        - name: 在 POS 中打开 URL
+          href: Open-URL-in-POS.md
         - name: 安装 POS 布局设计器
           href: install-pos-layout-designer.md
         - name: 脱机模式下的 Retail Modern POS
@@ -508,6 +518,10 @@
           href: dev-itpro/gift-card.md
         - name: 创建品牌并将其应用于 Retail Experience 应用
           href: dev-itpro/create-retail-experience-app.md
+        - name: 在 Android 和 iOS 中安装 POS Hybrid 应用
+          href: dev-itpro/hybridApp.md
+        - name: 覆盖 POS 请求处理程序
+          href: dev-itpro/pos-handler.md
     - name: Hardware Station 和可扩展性
       href: dev-itpro/hardware-station-extensibility.md
     - name: Retail Server 可扩展性
@@ -562,9 +576,13 @@
           href: dev-itpro/payment-custom-error-messages.md
         - name: 为付款连接器创建 Windows 安装程序
           href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: 付款数据使用
+          href: payment-connector-data-fields.md
     - name: Retail SDK
       href: dev-itpro/retail-sdk/retail-sdk-overview.md
       items:
+        - name: Retail SDK 中即将进行的更改
+          href: dev-itpro/UpcomingSDKChanges.md
         - name: 合并 Retail 和 Finance and Operations 的生成系统
           href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
         - name: Retail SDK 可扩展性示例
