@@ -1,0 +1,628 @@
+- name: 欢迎使用 Dynamics 365 for Retail
+  href: index.md
+- name: 开始
+  items:
+    - name: 新增功能或更改的功能
+      href: get-started/whats-new.md
+    - name: 购买 Retail 之前
+      href: get-started/before-you-buy.md
+    - name: 注册预览订阅
+      href: ../dev-itpro/dev-tools/sign-up-preview-subscription.md?toc=/retail/toc.json
+    - name: 部署演示环境
+      href: ../dev-itpro/deployment/deploy-demo-environment.md?toc=/retail/toc.json
+    - name: 部署选项
+      href: dev-itpro/choose-deployment.md
+    - name: 获取 Retail 支持
+      href: retail-support.md
+    - name: 一个版本服务更新常见问题
+      href: ../fin-and-ops/get-started/one-version.md
+- name: 了解实施生命周期
+  href: ../fin-and-ops/imp-lifecycle/implementation-lifecycle.md
+  items:
+    - name: Microsoft FastTrack for Dynamics 365
+      href: ../fin-and-ops/get-started/fasttrack-dynamics-365-overview.md
+    - name: 入职
+      href: ../fin-and-ops/imp-lifecycle/onboard.md
+    - name: 准备实施
+      href: ../fin-and-ops/imp-lifecycle/prepare-go-live.md
+    - name: 实施常见问题
+      href: ../fin-and-ops/imp-lifecycle/go-live-faq.md
+    - name: 提交服务请求
+      href: ../dev-itpro/lifecycle-services/submit-request-dynamics-service-engineering-team.md?toc=/fin-and-ops/toc.json
+    - name: 订阅、LCS 项目和 Azure Active Directory 租户常见问题
+      href: ../fin-and-ops/get-started/subscription-overview.md
+    - name: 在数据中心之间移动环境
+      href: ../fin-and-ops/get-started/move-environments-data-center.md
+    - name: 在协议类型之间移动许可证
+      href: ../fin-and-ops/get-started/move-licenses-between-agreement-types.md
+    - name: 将 LCS 实施项目移到其他 Azure Active Directory 租户
+      href: ../fin-and-ops/get-started/move-lcs-implementation-project-tenant.md
+    - name: 在同一个 Azure Active Directory 租户中实施多个 LCS 项目和生产环境
+      href: ../fin-and-ops/get-started/implement-multiple-projects-aad-tenant.md
+    - name: 实施 Finance and Operations Retail 项目
+      href: dev-itpro/implementing-dynamics-365-fin-and-ops-retail-projects.md
+    - name: 为 Retail 项目设置新的环境、Azure DevOps 和分支
+      href: dev-itpro/new-environments-visual-studio-teams-branch-retail-projects.md
+    - name: 为 Retail 项目更新代码和环境
+      href: dev-itpro/updating-environments.md
+    - name: 测试和性能问题
+      href: dev-itpro/retail-implementation-testing-performance.md
+- name: 分配的订单管理 (DOM)
+  href: dom.md
+- name: 付款
+  items:
+    - name: 付款方式
+      href: payment-methods.md
+    - name: 信用卡设置、授权和获取
+      href: ../financials/accounts-receivable/credit-card-authorizations.md
+    - name: 为 POS 配置现金面额
+      href: cash-denominations.md
+    - name: 设置付款发票方案
+      href: payinvoice.md
+    - name: 付款常见问题
+      href: dev-itpro/payments-retail.md
+- name: 采购订单
+  items:
+    - name: 采购订单概览
+      href: ../supply-chain/procurement/purchase-order-overview.md
+    - name: 创建采购订单
+      href: ../supply-chain/procurement/purchase-order-creation.md
+    - name: 针对采购订单的物料收货
+      href: ../supply-chain/procurement/product-receipt-against-purchase-orders.md
+    - name: 审核和确认采购订单
+      href: ../supply-chain/procurement/purchase-order-approval-confirmation.md
+    - name: 采购订单审核移动工作区
+      href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
+- name: 对帐单
+  items:
+    - name: 零售对帐单
+      href: retail-statements.md
+    - name: 创建、计算和过帐零售商店的对帐单
+      href: tasks/create-calculate-post-statement-retail-store.md
+    - name: 对帐单过帐功能的改进
+      href: statement-posting-EOD.md
+    - name: 配置影响零售对帐单的 Retail 参数
+      href: tasks/parameter-configurations-retail-statements.md
+    - name: 配置影响零售对帐单的付款方式设置
+      href: tasks/payment-configurations-retail-statements.md
+    - name: 配置和运行计算对帐单作业
+      href: tasks/run-job-calculate-statements.md
+    - name: 配置和运行过帐对帐单作业
+      href: tasks/run-job-post-statements.md
+    - name: 配置影响零售对帐单的商店设置
+      href: tasks/store-configurations-retail-statements.md
+- name: 销售税
+  items:
+    - name: 销售税概览
+      href: ../financials/general-ledger/indirect-taxes-overview.md
+    - name: “源”字段中的销售税计算方法
+      href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
+    - name: ' 销售税分配和覆盖'
+      href: ../supply-chain/procurement/tasks/sales-tax-assignment-overrides.md
+    - name: 全部金额和销售税代码的间隔计算选项
+      href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
+- name: 呼叫中心
+  items:
+    - name: 呼叫中心销售功能
+      href: call-center-functionality.md
+    - name: 呼叫中心目录
+      href: call-center-catalogs.md
+    - name: 配置交货方式和费用
+      href: configure-call-center-delivery.md
+    - name: 设置和使用欺骗预警
+      href: set-up-fraud-alerts.md
+    - name: 设置呼叫中心渠道
+      href: set-up-order-processing-options.md
+    - name: 设置呼叫中心的连续性计划
+      href: set-up-continuity-program.md
+    - name: 配置和使用呼叫中心订单保留
+      href: work-with-order-holds.md
+    - name: 付款方式
+      href: work-with-payments.md
+- name: 渠道设置和管理
+  items:
+    - name: 初始化新 Retail 环境中的种子数据
+      href: enable-configure-retail-functionality.md
+    - name: 定义和维护零售渠道
+      href: define-maintain-retail-channels.md
+    - name: 分类管理
+      href: assortments.md
+    - name: 设置在线商店
+      href: online-stores.md
+    - name: 配置并安装 Retail Hardware Station
+      href: retail-hardware-station-configuration-installation.md
+    - name: Retail 中的时间和考勤管理
+      href: retail-time-attendance.md
+- name: Modern Point of Sale (MPOS) 和 Cloud POS
+  items:
+    - name: 在 MPOS 和 Cloud POS 之间选择
+      href: MPOS-or-CPOS.md
+    - name: 联机和脱机 POS 操作
+      href: pos-operations.md
+    - name: 自定义 Retail Modern POS 的设备激活
+      href: dev-itpro/retail-POS-activation-changes.md
+    - name: MPOS 和 POS 中的演示数据屏幕布局
+      href: demo-data.md
+    - name: POS 中的产品和客户搜索
+      href: POS-search-improvements.md
+    - name: POS 中的库存查找
+      href: product-variants-POS.md
+    - name: 硬件外围设备
+      items:
+        - name: 零售外围设备
+          href: retail-peripherals-overview.md
+        - name: 零售外围设备模拟器
+          href: dev-itpro/retail-peripheral-simulator.md
+        - name: 将外围设备连接到 POS
+          href: define-maintain-channel-clients-registers-hw-stations.md
+    - name: 屏幕布局
+      items:
+        - name: POS 的屏幕布局
+          href: pos-screen-layouts.md
+        - name: 安装 Retail POS 布局设计器
+          href: install-pos-layout-designer.md
+        - name: 选择通知设置
+          href: Notifications-POS.md
+        - name: POS 应用程序和用户语言设置
+          href: pos-application-user-language-settings.md
+        - name: 设置和管理 MPOS 的图像
+          href: set-up-manage-images-retail-mpos.md
+    - name: 信息代码和信息代码组
+      href: info-codes-retail.md
+    - name: 序列化产品的 POS 改进
+      href: serialized-inventory.md
+    - name: 产品建议
+      items:
+        - name: 个性化产品建议
+          href: personalized-product-recommendations.md
+        - name: 在 POS 设备上添加建议控制
+          href: add-recommendations-control-pos-screen.md
+    - name: 脱机 POS 功能
+      href: pos-offline-functionality.md
+    - name: 班次和银箱管理
+      href: shift-drawer-management.md
+    - name: 客户订单
+      items:
+        - name: MPOS 中的客户订单
+          href: customer-orders-overview.md
+        - name: 混合客户订单
+          href: hybrid-customer-orders.md
+    - name: 销售关联
+      items:
+        - name: 使用销售组跟踪 POS 中的佣金
+          href: pos-sales-groups-track-commissions.md
+    - name: 装运来自其他商店的订单
+      href: charge-send.md
+    - name: 设备激活
+      items:
+        - name: 配置、安装和激活 MPOS
+          href: retail-modern-pos-device-activation.md
+        - name: 为 MPOS 和 Cloud MPOS 设置扩展登录功能
+          href: extended-logon.md
+        - name: 管理 Retail 激活帐户并验证设备
+          href: set-up-activation-accounts-validate-devices-hq.md
+    - name: 收据
+      items:
+        - name: 设置和设计收据格式
+          href: receipt-templates-printing.md
+        - name: 从 MPOS 发送电子邮件收据
+          href: email-receipts.md
+    - name: MPOS 和 Cloud POS 的任务录制器和帮助
+      href: task-recorder-retail-pos.md
+- name: 订单履行
+  items:
+    - name: 商店订单履行
+      href: Order-fulfillment-overview.md
+    - name: 设置商店订单履行
+      href: Order-fulfillment-POS-setup.md
+    - name: 在 POS 中显示订单通知
+      href: Notifications-POS.md
+- name: 配置和处理有关退货单的交换
+  href: orderexchanges.md
+- name: 监控和分析
+  items:
+    - name: 监控销售和利润率
+      href: monitor-sales-margin-performance.md
+    - name: 分析销售趋势和模式
+      href: analyze-sales-trends-patterns.md
+    - name: 按产品评估销售业绩
+      href: sales-performance-products.md
+    - name: 评估客户和产品收益率
+      href: assess-customer-product-profitability.md
+    - name: 分析商店业绩
+      href: store-performance-information.md
+    - name: 设置 Recency、频率和货币 (RFM) 分析
+      href: set-up-rfm-analysis.md
+- name: 折扣和价格调整
+  items:
+    - name: 零售折扣
+      href: retail-discounts-overview.md
+    - name: 零售销售价格管理
+      href: price-management.md
+    - name: 价格调整和折扣
+      href: price-adjustments-discounts.md
+    - name: 对产品应用多个零售折扣
+      href: Apply-multiple-retail-discounts.md
+    - name: 确定叠加折扣的最佳组合
+      href: optimal-combination-overlapping-discounts.md
+    - name: 定义特定于渠道的折扣
+      href: define-channel-specific-discounts.md
+    - name: 用于禁止零售产品的折扣的选项
+      href: prevent-discounts.md
+    - name: 设置零售销售优惠券
+      href: retail-coupons.md
+- name: 产品和促销
+  items:
+    - name: 产品信息概览
+      href: ../supply-chain/pim/product-information.md
+    - name: Retail 层次结构
+      href: retail-hierarchies.md
+    - name: 属性和属性组
+      href: attribute-attributegroups-lifecycle.md
+    - name: 创建和管理属性
+      href: create-manage-attributes.md
+    - name: 设置零售产品
+      href: set-up-retail-products.md
+    - name: 管理 Retail 产品类别和产品
+      href: category-management-product-creation.md
+    - name: 产品维度
+      href: ../supply-chain/pim/product-dimensions.md
+    - name: 设置条码
+      href: set-up-bar-codes.md
+    - name: 设置条码掩码
+      href: set-up-bar-code-masks.md
+    - name: 设置分类
+      href: set-up-assortments.md
+    - name: 销售和退回未包含在商店的分类中的产品
+      href: sell-return-outside-assortments.md
+    - name: 维度和产品变型的默认订单设置
+      href: ../supply-chain/production-control/default-order-settings.md
+    - name: 在订单输入期间搜索产品和产品变型
+      href: ../supply-chain/pim/search-products-product-variants.md
+- name: 会员
+  items:
+    - name: 会员概览
+      href: set-up-customer-loyalty-program.md
+- name: 库存
+  items:
+    - name: 商店库存管理
+      href: work-with-store-inventory.md
+    - name: 在销售流程中登记序列号
+      href: ../supply-chain/sales-marketing/register-serial-numbers-sales-process.md
+    - name: 库存日记帐
+      href: ../supply-chain/inventory/inventory-journals.md
+    - name: 库存标签盘点
+      href: ../supply-chain/inventory/inventory-tag-counting.md
+    - name: 具有实际成本和标记的先进先出
+      href: ../supply-chain/cost-management/fifo-physical-value-marking.md
+    - name: 具有实际成本和标记的后进先出日期
+      href: ../supply-chain/cost-management/lifo-date-physical-value-marking.md
+    - name: 具有实际成本和标记的后进先出
+      href: ../supply-chain/cost-management/lifo-physical-value-marking.md
+    - name: 加权平均日期
+      href: ../supply-chain/cost-management/weighted-average-date.md
+    - name: 具有实际成本和标记的加权平均
+      href: ../supply-chain/cost-management/weighted-average-physical-value-marking.md
+    - name: 检验单
+      href: ../supply-chain/inventory/quarantine-orders.md
+    - name: 移动平均成本价
+      href: ../supply-chain/cost-management/running-average-cost-price.md
+    - name: 按库存维度跟踪移动平均成本
+      href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
+- name: 人力资源
+  items:
+    - name: 使用部门、工作和职位组织您的劳动力
+      href: ../talent/departments-jobs-positions.md
+    - name: 设置作业组件
+      href: ../talent/create-job.md
+- name: 本地化和监管功能
+  items:
+    - name: 零售渠道的会计集成
+      href: localizations/fiscal-integration-for-retail-channel.md
+    - name: 东欧
+      items:
+        - name: 东欧 Retail 预付款发票
+          href: localizations/emea-eeu-advance-invoices-for-retail.md
+        - name: 东欧 Retail 备用金管理
+          href: localizations/emea-eeu-petty-cash-for-retail.md
+        - name: 东欧国家/地区的 Retail 客户发票和退货销售订单
+          href: localizations/emea-eeu-retail-invoices.md
+        - name: 面向捷克共和国、匈牙利和波兰的收银机部署指南
+          href: localizations/emea-eeu-deployment.md
+    - name: 法国
+      items:
+        - name: 收银机功能
+          href: localizations/emea-fra-cash-registers.md
+        - name: 收银机部署指南
+          href: localizations/emea-fra-deployment.md
+    - name: 印度
+      items:
+        - name: 收银机的商品劳务税 (GST) 集成
+          href: localizations/apac-ind-cash-registers.md
+        - name: 收银机部署指南
+          href: localizations/apac-ind-loc-deployment-guidelines.md
+        - name: 适用于印度的升级和 N-1 支持
+          href: localizations/apac-ind-n-1-for-india.md
+    - name: 意大利
+      items:
+        - name: 税控打印机集成
+          href: localizations/emea-ita-fpi-sample.md
+    - name: 挪威
+      items:
+        - name: 收银机功能
+          href: localizations/emea-nor-cash-registers.md
+        - name: 收银机部署指南
+          href: localizations/emea-nor-loc-deployment-guidelines.md
+    - name: 瑞典
+      items:
+        - name: 收银机功能
+          href: localizations/emea-swe-cash-registers.md
+        - name: Retail POS 与控制单元集成的示例
+          href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+- name: Retail 任务
+  items:
+    - name: 创建产品
+      href: ../supply-chain/pim/tasks/create-product.md
+    - name: 配置链接的产品
+      href: ../supply-chain/pim/tasks/configure-linked-products.md
+    - name: 向法人发布产品/基础产品
+      href: ../supply-chain/pim/tasks/release-product-product-master-legal-entities.md
+    - name: 创建特定于渠道的贸易协议
+      href: tasks/base-price-trade-agreements.md
+    - name: 使用类别定价规则创建贸易协议
+      href: tasks/category-pricing-rules-trade-agreements.md
+    - name: 配置信用卡处理
+      href: tasks/configure-credit-card-processing.md
+    - name: 为销售代表配置功能配置文件
+      href: tasks/configure-functionality-profile-sales-representative.md
+    - name: 配置机器学习支持的产品建议
+      href: tasks/configure-machine-learning-product-recommendations.md
+    - name: 创建设备并将其与收银机关联
+      href: tasks/create-associate-device.md
+    - name: 创建硬件工作站
+      href: tasks/create-associate-hardware-station.md
+    - name: 创建 POS 收银机
+      href: tasks/create-associate-registers.md
+    - name: 创建呼叫中心订单
+      href: tasks/create-call-center-orders.md
+    - name: 创建 POS 收银机的财务维度并配置收银机上的维度值
+      href: tasks/create-financial-dimensions-pos.md
+    - name: 创建零售渠道的财务维度并配置商店上的维度值
+      href: tasks/create-financial-dimensions-retail-channels.md
+    - name: 创建在线渠道并定义渠道属性
+      href: tasks/create-online-channel-define-channel-attributes.md
+    - name: 创建 POS 权限组
+      href: tasks/create-pos-permission-groups.md
+    - name: 创建 POS 可视化配置文件
+      href: tasks/create-pos-visual-profile-2016-02.md
+    - name: 创建采购订单的产品包装
+      href: tasks/create-product-packages-purchase-orders.md
+    - name: 创建呼叫中心渠道并定义渠道属性
+      href: tasks/define-call-center-channel-channel-attributes.md
+    - name: 定义渠道属性
+      href: tasks/define-channel-attributes.md
+    - name: 定义连续性计划
+      href: tasks/define-continuity-schedules.md
+    - name: 定义会员计划
+      href: tasks/define-loyalty-programs.md
+    - name: 定义会员奖励分
+      href: tasks/define-loyalty-reward-points.md
+    - name: 定义会员方案
+      href: tasks/define-loyalty-schemes.md
+    - name: 设计组织单位之间的关系
+      href: tasks/design-relationships-between-organizational-units.md
+    - name: 管理分类
+      href: tasks/manage-assortments-2016-11.md
+    - name: 使用自助服务下载硬件工作站
+      href: tasks/perform-self-service-download-hardware-station.md
+    - name: 过帐联机销售和付款
+      href: tasks/posting-online-sales-payments.md
+    - name: 处理会员奖励分的调整
+      href: tasks/process-loyalty-reward-point-adjustments.md
+    - name: 通过集中采购配送将产品从配送中心配送到商店
+      href: tasks/push-products-distribution-center-store-buyers-push.md
+    - name: 创建零售价格调整
+      href: tasks/retail-price-adjustments.md
+    - name: 生成和运行现成报表
+      href: tasks/run-out-box-reports.md
+    - name: 设置越库配送和集中采购配送的规则和参数
+      href: tasks/set-up-rules-parameters-cross-docking-buyers-push.md
+    - name: 销售连续性计划和处理销售订单
+      href: tasks/use-continuity-program.md
+    - name: 配置零售工作人员
+      href: tasks/worker.md
+- name: 零售开发和管理
+  href: dev-itpro/dev-retail-home-page.md
+  items:
+    - name: 体系结构
+      items:
+        - name: Retail 组件
+          href: retail-components.md
+        - name: Retail Server 体系结构
+          href: dev-itpro/retail-server-architecture.md
+        - name: Commerce Data Exchange 和零售渠道通信
+          href: dev-itpro/define-retail-channel-communications-cdx.md
+        - name: Retail Modern POS 体系结构
+          href: dev-itpro/retail-modern-pos-architecture.md
+        - name: 零售在线商店发布体系结构
+          href: dev-itpro/retail-online-store-publishing-architecture.md
+        - name: Retail Channel Performance Power BI 内容
+          href: ../dev-itpro/analytics/retail-channel-performance-dashboard-power-bi-data.md?toc=/retail/toc.json
+        - name: 支付应用数据安全标准 (PA-DSS) 认证
+          href: dev-itpro/PA-DSS-Certification.md
+        - name: 本地部署中提供的 Retail 功能
+          href: retail-onprem.md
+    - name: 部署和修补程序
+      items:
+        - name: Retail Store Scale Unit
+          href: dev-itpro/retail-store-system-begin.md
+        - name: 配置和安装 Retail Store Scale Unit
+          href: dev-itpro/retail-store-scale-unit-configuration-installation.md
+        - name: Retail Modern POS 配置和安装
+          href: retail-modern-pos-device-activation.md
+        - name: 从总部管理 Retail 帐户和设备
+          href: set-up-activation-accounts-validate-devices-hq.md
+        - name: Retail POS 设备启用
+          href: dev-itpro/retail-device-activation.md
+        - name: 在共享环境中帮助保护 Cloud POS
+          href: dev-itpro/secure-retail-cloud-pos.md
+        - name: Retail Hardware Station 配置和安装
+          href: retail-hardware-station-configuration-installation.md
+        - name: Retail 自助服务组件批量部署
+          href: dev-itpro/retail-mass-deployment.md
+        - name: Retail 组件的诊断和故障排除事件
+          href: dev-itpro/retail-component-events-diagnostics-troubleshooting.md
+        - name: 应用可部署包
+          href: ../dev-itpro/deployment/apply-deployable-package-system.md?toc=/retail/toc.json
+    - name: 升级和 N-1 支持
+      items:
+        - name: Retail 的升级和 N-1 支持
+          href: dev-itpro/overview-upgrade-n-minus1.md
+        - name: 分阶段推出 (N-1) 安装、配置和直接转换
+          href: dev-itpro/n-1-installation-configuration.md
+    - name: 实现指南
+      items:
+        - name: 设备管理实现指南
+          href: implementation-considerations-devices.md
+    - name: 环境配置
+      items:
+        - name: 添加指向您的组织的法律条款和隐私声明的链接
+          href: ../dev-itpro/sysadmin/legal-terms-privacy-statement.md?toc=/retail/toc.json
+        - name: 管理必应地图
+          href: dev-itpro/manage-bing-maps.md
+    - name: 本地化 Retail 扩展资源和标签文件
+      href: dev-itpro/extension-resource-localization.md
+    - name: 销售点可扩展性
+      items:
+        - name: Retail POS 屏幕布局
+          href: pos-screen-layouts.md
+        - name: 在 POS 中打开 URL
+          href: Open-URL-in-POS.md
+        - name: 安装 POS 布局设计器
+          href: install-pos-layout-designer.md
+        - name: 脱机模式下的 Retail Modern POS
+          href: dev-itpro/retail-modern-pos-offline.md
+        - name: 扩展 POS Dual 显示视图
+          href: dev-itpro/pos-dual-display-extension.md
+        - name: Retail Modern POS 和 Cloud POS 触发了可扩展性
+          href: dev-itpro/modern-pos-trigger-extensibility.md
+        - name: 将自定义控件添加到 POS 视图
+          href: dev-itpro/pos-custom-control.md
+        - name: 使用按钮网格设计器将 POS 操作添加到 POS 布局
+          href: dev-itpro/add-POS-operations.md
+        - name: Retail POS API
+          href: dev-itpro/POS-APIs.md
+        - name: POS 付款扩展
+          href: dev-itpro/pos-payment-extension.md
+        - name: 对外部礼品卡的支持
+          href: dev-itpro/gift-card.md
+        - name: 创建品牌并将其应用于 Retail Experience 应用
+          href: dev-itpro/create-retail-experience-app.md
+        - name: 在 Android 和 iOS 中安装 POS Hybrid 应用
+          href: dev-itpro/hybridApp.md
+        - name: 覆盖 POS 请求处理程序
+          href: dev-itpro/pos-handler.md
+    - name: Hardware Station 和可扩展性
+      href: dev-itpro/hardware-station-extensibility.md
+    - name: Retail Server 可扩展性
+      items:
+        - name: 扩展 Retail Server OData 控制器
+          href: dev-itpro/extend-retail-server-odata-controller.md
+        - name: 为 Retail Server 创建 Web API 控制器
+          href: dev-itpro/odata-controllers-api.md
+        - name: Retail Server 客户和用户 API
+          href: dev-itpro/retail-server-customer-consumer-api.md
+        - name: 扩展默认 Retail Server 元数据控制器
+          href: dev-itpro/extend-metadata.md
+        - name: 调用脱机模式下的 CRT 服务
+          href: dev-itpro/call-crt-service-offline.md
+    - name: Commerce runtime (CRT) 可扩展性
+      items:
+        - name: CRT 体系结构和配置
+          href: dev-itpro/commerce-runtime-overview.md
+        - name: CRT 服务
+          href: dev-itpro/crt-services.md
+        - name: CRT 和 Retail Server 可扩展性
+          href: dev-itpro/commerce-runtime-extensibility.md
+        - name: 将客户首选项数据添加到渠道数据库
+          href: dev-itpro/add-customer-preference-channel.md
+        - name: 将属性添加到销售订单
+          href: dev-itpro/add-properties-sales-order.md
+        - name: CRT 可扩展性和触发器
+          href: dev-itpro/commerce-runtime-extensibility-trigger.md
+        - name: 使用触发器锁定交易记录
+          href: dev-itpro/trigger-example-blocking-transaction.md
+        - name: 使用实施器实施退货政策
+          href: dev-itpro/trigger-example-return-policy.md
+    - name: 电子商务可扩展性
+      items:
+        - name: 配置在线商店
+          href: dev-itpro/configure-online-store.md
+        - name: 配置身份验证提供程序
+          href: dev-itpro/configure-authentication-providers.md
+        - name: 电子商务平台
+          href: dev-itpro/ecommerce-platform.md
+        - name: 电子商务平台 SDK
+          href: dev-itpro/ecommerce-platform-sdk.md
+    - name: 付款连接器可扩展性
+      items:
+        - name: 为付款终端创建付款集成
+          href: dev-itpro/end-to-end-payment-extension.md
+        - name: 实施付款连接器和付款设备（白皮书）
+          href: 'http://download.microsoft.com/download/4/D/7/4D7C6B05-0C23-4C6C-BA13-AB62ED08AA61/The%20Guide%20to%20Implementing%20Payment%20Connector%20and%20Payment%20Device.docx'
+        - name: 部署付款连接器
+          href: dev-itpro/deploy-payment-connector.md
+        - name: 为付款终端扩展创建自定义本地化错误消息
+          href: dev-itpro/payment-custom-error-messages.md
+        - name: 为付款连接器创建 Windows 安装程序
+          href: dev-itpro/create-windows-installer-payment-connector.md
+        - name: 付款数据使用
+          href: payment-connector-data-fields.md
+    - name: Retail SDK
+      href: dev-itpro/retail-sdk/retail-sdk-overview.md
+      items:
+        - name: Retail SDK 中即将进行的更改
+          href: dev-itpro/UpcomingSDKChanges.md
+        - name: 合并 Retail 和 Finance and Operations 的生成系统
+          href: dev-itpro/retail-sdk/integrate-retail-sdk-continuous-build.md
+        - name: Retail SDK 可扩展性示例
+          href: dev-itpro/retail-sdk/retail-sdk-extensibility-samples.md
+        - name: 创建零售可部署包
+          href: dev-itpro/retail-sdk/retail-sdk-packaging.md
+        - name: Retail SDK 示例
+          href: dev-itpro/retail-sdk/retail-sdk-samples.md
+          items:
+            - name: 装箱单的扩展点
+              href: dev-itpro/extensions-shipping-carrier-integration.md
+        - name: 渠道数据库扩展
+          href: dev-itpro/channel-db-extensions.md
+        - name: 通过扩展启用自定义 CDX 同步
+          href: dev-itpro/cdx-extensibility.md
+        - name: 将自定义字段添加到 POS 总计面板
+          href: dev-itpro/custom-field-pos-totals.md
+        - name: 定义和设置订单属性
+          href: dev-itpro/order-attributes.md
+        - name: 客户属性
+          href: dev-itpro/customer-attributes.md
+        - name: 'Retail Typescript 和 C# 代理'
+          href: dev-itpro/typescript-proxy-retail-pos.md
+        - name: 运行 Retail POS 示例
+          href: dev-itpro/pos-run-samples.md
+        - name: 扩展 POS 视图，以添加自定义列和应用程序栏按钮
+          href: dev-itpro/pos-view-extension.md
+        - name: 将自定义控件添加到 Retail Modern POS 交易记录页
+          href: dev-itpro/pos-custom-transaction.md
+        - name: 将自定义列添加到 POS 交易记录网格
+          href: dev-itpro/pos-custom-transaction-column.md
+        - name: 从 POS 扩展调用 POS API 或操作
+          href: dev-itpro/pos-api-extension.md
+        - name: Retail Modern POS 触发器和打印
+          href: dev-itpro/pos-trigger-printing.md
+        - name: 将定义自控件添加到基于设计器的非屏幕 POS 视图
+          href: dev-itpro/pos-control-non-screen.md
+        - name: 没有管理员访问权限的云托管开发环境中的部署
+          href: dev-itpro/cloud-dev-box.md
+    - name: Commerce Runtime
+      items:
+        - name: 会员扩展
+          href: dev-itpro/retail-sdk/loyalty-extension-sample.md
