@@ -7,6 +7,10 @@
         - name: 新增功能或更改的功能
           href: whats-new.md
           items:
+            - name: Dynamics 365 for Talent Core HR（2018 年 11 月 27 日）中的新增功能或更改的功能
+              href: whats-new-talent-november-27.md
+            - name: Dynamics 365 for Talent Core HR（2018 年 11 月 15 日）中的新增功能或更改的功能
+              href: whats-new-talent-november-15.md
             - name: Dynamics 365 for Talent Core HR（2018 年 10 月 31 日）中的新增功能或更改的功能
               href: whats-new-talent-october-31.md
             - name: Dynamics 365 for Talent Core HR（2018 年 10 月 19 日）中的新增功能或更改的功能
@@ -81,7 +85,7 @@
           href: Creating-jobs-Attract.md
         - name: 具有人才池的来源添加
           href: attract-talent-pools.md
-        - name: 具有 LinkedIn Recruiter 的来源添加
+        - name: 具有 LinkedIn 招聘人员的来源添加
           href: attract-linked-in-recruiter.md
         - name: Attract 中的招聘流程活动
           href: activities-attract.md
@@ -95,8 +99,6 @@
           href: creating-offers.md
         - name: 创建和管理电子邮件模板
           href: email-templates.md
-        - name: 报告和分析
-          href: Reporting-Analytics-Attract.md
         - name: Attract 中的安全和角色管理
           href: security-attract.md
         - name: Attract 中的管理员设置
@@ -266,3 +268,27 @@
           href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: 创建绩效审核
           href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: Talent 疑难解答
+      items:
+        - name: 未更新分析报表
+          href: analytic-reports-not-updated.md
+        - name: 无法在 PowerApps 管理员中心内创建环境
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Talent 客户端断开连接
+          href: client-disconnects.md
+        - name: 处理数据库备份的方式
+          href: database-backups.md
+        - name: 避免职位层次结构的文本截断并导出到 Visio
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: 执行薪酬流程
+          href: run-compensation-process.md
+        - name: 将任务指南保存到 LCS 并重新播放它们
+          href: save-play-task-guides-LCS.md
+        - name: 通过安全角色访问专用地址
+          href: security-roles-addresses.md
+        - name: Talent 未在 Microsoft Dynamics 365 应用 (CDS1.0) 中显示
+          href: talent-not-in-home-CDS.md
+        - name: 用户可以访问 Core HR，但无法访问 Onboard 或 Attract 应用
+          href: user-access-core-hr.md
+        - name: Talent 中的报告选项
+          href: talent-reporting-options.md
