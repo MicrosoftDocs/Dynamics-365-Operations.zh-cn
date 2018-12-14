@@ -3,7 +3,7 @@ title: "主计划主页"
 description: "主计划允许公司确定和平衡原材料和产能的将来需求，以实现公司目标。"
 author: ShylaThompson
 manager: AnnBe
-ms.date: 11/20/2017
+ms.date: 12/03/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 18ed011fa1c1aa35b4a401d51bffc6af19395577
-ms.openlocfilehash: 030579ac73d6333ac4ed55433b9679a58247c088
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 02/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -58,13 +58,13 @@ ms.lasthandoff: 02/13/2018
 
 ## <a name="quick-links"></a>快速链接
 
-|      |   |
-|------|---|
-|        [主计划](master-plans.md)       |     [生成受约束计划](./tasks/constrained-plan.md)  |
-| [创建联产品的物料计划](./tasks/create-material-plan-co-products.md)   |  [主计划和多站点功能](master-plan-multisite-functionality.md)  |
-| [创建内部公司计划](./tasks/create-intercompany-plan.md) | [需求预测概览](introduction-demand-forecasting.md)  | 
-|[缩减参数](reduction-keys.md)| [主计划基础](https://mbspartner.microsoft.com/AX/CourseOverview/1275)（网络培训）（需要 CustomerSource 帐户）     |
-|  [流程制造的主计划](https://mbspartner.microsoft.com/D365E/CourseOverview/1514)（网络培训）（需要 CustomerSource 帐户） | [内部公司主计划](https://mbspartner.microsoft.com/AX/CourseOverview/1276)（网络培训）（需要 CustomerSource 帐户）|
+- [主计划](master-plans.md)  
+- [生成受约束计划](./tasks/constrained-plan.md)
+- [创建联产品的物料计划](./tasks/create-material-plan-co-products.md)
+- [主计划和多站点功能](master-plan-multisite-functionality.md)
+- [创建内部公司计划](./tasks/create-intercompany-plan.md)
+- [需求预测概览](introduction-demand-forecasting.md)
+- [缩减参数](reduction-keys.md)
                                   
 ## <a name="additional-resources"></a>其他资源
 
