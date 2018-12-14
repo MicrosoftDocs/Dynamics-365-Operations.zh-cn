@@ -3,7 +3,7 @@ title: "创建新的贸易协议"
 description: "该过程会显示如何创建贸易协议，您可在其中登记您与特定客户达成的新产品销售价格。"
 author: omulvad
 manager: AnnBe
-ms.date: 11/11/2016
+ms.date: 11/16/2018
 ms.topic: business-process
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -16,10 +16,10 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb7a945243387f85ec5f38cc3b969d8d030ff25
+ms.sourcegitcommit: f7df0a91948a494465fbd55af99757e3890357ce
+ms.openlocfilehash: e132cd20437b7929e81fcaa123d70bb57fb320c8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
+ms.lasthandoff: 12/04/2018
 
 ---
 # <a name="create-a-new-trade-agreement"></a>创建新的贸易协议
@@ -66,4 +66,7 @@ ms.lasthandoff: 09/29/2017
     * 审查您刚创建的价格贸易协议的详情。    
 5. 关闭该页面。
 
+## <a name="additional-resources"></a>其他资源
+### <a name="community-blogs"></a>社区博客
+- [Dynamics 365 for Finance and Operations 中的销售价](https://financefunction.tech/2018/11/14/sales-prices-in-dynamics-365-for-finance-and-operations/#sales_price_in_trade_agreements)
 

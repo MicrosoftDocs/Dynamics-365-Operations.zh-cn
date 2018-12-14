@@ -18,10 +18,10 @@ ms.author: hasrivas
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 54c80f3d785ba7a7e0158c51201468f45796c193
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 2b9cac68093be65584192757229c20b1a1546342
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 

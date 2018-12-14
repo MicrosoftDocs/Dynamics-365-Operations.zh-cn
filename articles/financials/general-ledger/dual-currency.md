@@ -17,14 +17,16 @@ ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: c026a540fb7d30644d485b6a057c2c46bd7c091d
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
 # <a name="dual-currency"></a>双货币
+
+[!include [banner](../includes/banner.md)]
 
 Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月）中引入的功能支持重新确定申报币种的用途，可以将其用作第二记帐币种。 此功能称为*双货币*。 双货币的更改不能通过 Configuration Key 或参数关闭。 由于申报币种用作第二记帐币种，申报币种在过帐逻辑中的计算方法已更改。
 
@@ -67,8 +69,8 @@ Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月�
 
 - [总帐](#general-ledger)
 - [财务申报](#financial-reporting)
-- [应付帐款](#accounts-payable/accounts-receivable)
-- [应收帐款](#accounts-payable/accounts-receivable)
+- [应付帐款](#accounts-payable-and-accounts-receivable)
+- [应收帐款](#accounts-payable-and-accounts-receivable)
 - [现金和银行管理](#cash-and-bank-management)
 - [固定资产](#fixed-assets)
 
@@ -90,7 +92,7 @@ Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月�
 
 此更改通过列定义的**币种显示**设置提供。 如果您选择**从分类帐申报币种**，列中的金额将不转换。 而是直接从总帐申报。 如果您希望列显示转换的金额，请选择**转换到 XXXX** 选项，其中 *XXXX* 是列应显示的申报币种。 在这种情况下，记帐币种金额将使用现有的转换功能转换为所选币种。
 
-### <a name="accounts-payableaccounts-receivable"></a>应付账款/应收账款
+### <a name="accounts-payable-and-accounts-receivable"></a>应付帐款和应收帐款
 
 **应付帐款**和**应收帐款**模块已经跟踪申报币种金额。 但是，金额不为各个流程显示或使用。 进行了下列更改：
 

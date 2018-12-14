@@ -1,6 +1,6 @@
 ---
 title: "预订组"
-description: 
+description: "此主题概括介绍在预订组中定义的内容。"
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
@@ -19,10 +19,10 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 05ef3a68d1763b3fcaa9d79680c2055317c144ce
+ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.openlocfilehash: 75fd373908fad29f7f604ff6642753ba731775c8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 

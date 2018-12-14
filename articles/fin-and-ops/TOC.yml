@@ -29,7 +29,7 @@
               href: get-started/public-preview-releases.md
             - name: 购买 Finance and Operations
               items:
-                - name: 购买 Finance and Operations (on-premises)
+                - name: 购买 Finance and Operations（本地）
                   href: get-started/purchase-on-premises.md
         - name: 新增功能或更改的功能
           href: get-started/whats-new-changed.md
@@ -48,6 +48,10 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 未在本地部署中实现的功能
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations 版本 8.1.3（2018 年 12 月）
+              href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 23（2018 年 12 月）
+              href: get-started/whats-new-platform-update-23.md
             - name: Platform update 22（2018 年 11 月）
               href: get-started/whats-new-platform-update-22.md
             - name: Finance and Operations 版本 8.1.2（2018 年 11 月）
@@ -152,6 +156,8 @@
               href: get-started/help-overview.md
             - name: 连接帮助系统
               href: get-started/help-connect.md
+            - name: 连接自定义帮助站点
+              href: get-started/help-custom.md
             - name: 查看和导出字段描述
               href: get-started/view-export-field-descriptions.md
             - name: 任务指南和任务录制器
@@ -1243,6 +1249,8 @@
               href: ../dev-itpro/analytics/modify-row-definition-cells-financial-reporting.md?toc=/fin-and-ops/toc.json
             - name: 重置财务报告数据市场
               href: ../dev-itpro/analytics/reset-financial-reporting-datamart-after-restore.md?toc=/fin-and-ops/toc.json
+        - name: 电子消息
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: 本地化和监管功能
       href: ../dev-itpro/lcs-solutions/country-region.md?toc=/fin-and-ops/toc.json
       items:
@@ -2222,6 +2230,10 @@
               href: ../financials/localizations/rus-transactions-settlement-date.md
             - name: 付款发票
               href: ../financials/localizations/rus-invoice-payment.md
+            - name: 财务报告
+              href: ../financials/localizations/rus-financial-reports.md
+            - name: 创建采购帐簿
+              href: ../financials/localizations/rus-sales-books-purchase-books.md
         - name: 沙特阿拉伯
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2741,6 +2753,8 @@
                   href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
                 - name: 从 Lifecycle Services 导入配置
                   href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: 从监管配置服务 (RCS) 导入电子报告 (ER) 配置
+                  href: ../dev-itpro/analytics/rcs-download-configurations.md
                 - name: 从 Lifecycle Services 下载配置
                   href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
                 - name: 导入配置
@@ -4149,6 +4163,8 @@
               href: ../supply-chain/warehousing/display-older-batches-within-warehouses.md
             - name: 在移动设备上领取最早的批次
               href: ../supply-chain/warehousing/pick-oldest-batch.md
+            - name: 流程指南框架
+              href: ../supply-chain/warehousing/process-guide-framework.md
         - name: 升级和迁移
           items:
             - name: 将仓库管理流程从 Microsoft Dynamics AX 2012 升级到 Finance and Operations

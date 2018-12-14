@@ -3,7 +3,7 @@ title: "连接帮助系统"
 description: "此主题介绍 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件，并且提供如何连接它们的概览以及如何创建自定义帮助的摘要。"
 author: margoc
 manager: AnnBe
-ms.date: 09/11/2017
+ms.date: 11/16/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1449d44149f328f780f02e798c5200595557474
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: a2ca5f5302751ad2c4ddc3c6921a8a9b6c2d57df
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -68,9 +68,19 @@ ms.lasthandoff: 08/08/2018
 > -   如果尚未翻译任务指南，在您打开任务指南时，仅部分文本（控制文本）显示为您选择的语言。
 
 ## <a name="creating-custom-help"></a>创建客户帮助
+您可以使用任务指南创建自定义帮助，或者将网站连接到帮助窗格。 
+
+### <a name="create-custom-help-with-task-guides"></a>使用任务指南创建定制帮助
 您可以通过创建反映您的实施的任务录制并将其保存到 LCS 业务流程库中，为 Finance and Operations 和 Retail 创建自定义帮助。 您无法为 Talent 创建自定义任务指南。 
 
 对于合作伙伴，如果您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。 您还可以复制 APQC Unified 全局库，然后打开您的副本，从它打开任务录制，然后修改它们，并保存具有所做更改的录制。 有关详细信息，请参阅[如何创建任务录制以用作文档或培训](../../dev-itpro/user-interface/task-recorder.md)。
+
+### <a name="connect-a-custom-site"></a>连接自定义站点
+Microsoft 提供了介绍如何创建自定义帮助站点并将其连接到帮助窗格的白皮书和示例代码。 有关详细信息，请参阅： 
+- [为 Finance and Operations 创建自定义帮助（白皮书）](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [自定义帮助 GitHub 知识库](https://github.com/microsoft/dynamics356f-o-custom-help)
+
+
 
 <a name="additional-resources"></a>其他资源
 --------

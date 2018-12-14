@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 96a9075294c1f2a9cfde03be1aaaa26af90de4c2
-ms.openlocfilehash: f68e89422e7124874004a20c2bae5809dcdfb099
+ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
+ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 09/04/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -152,6 +152,7 @@ ms.lasthandoff: 09/04/2018
 | 644 | 删除优惠券代码 | 提示用户通过在当前与交易关联的优惠券列表中选中优惠券来将其删除。 | 是 | 是 | 无 | 是 | 无 |
 | 1057 | 重印 Z | 重新打印上一个班次或所选班次的 Z 报表。 | 是 | 是 | 是 | 无 | 无 |
 | 1216 | 请输入一个新密码 | 此操作允许具有重置密码权限的用户通过使用临时密码重置其他员工的密码。 | 是 | 是 | 是 | 无 | 无 |
+| 1219 | 在 POS 中打开 URL | 此操作让用户可以在 POS 中打开管理员配置的 URL。 | 是 | 是 | 是 | 是 | 无 | 
 | 109 | 退回产品 | 执行单独的产品退货。 将下一个扫描的产品作为带负数数量和价格的退回产品显示。 | 是 | 是 | 无 | 是 | 无 |
 | 114 | 退货交易记录 | 按收据编号撤回以前的交易以退回部分或全部产品。 | 是 | 是 | 是 | 是§ | 无 |
 | 1211 | 金库投箱 | 执行金库投箱以将钱币从收银机移到保险箱。 | 是 | 是 | 是 | 是 | 无 |

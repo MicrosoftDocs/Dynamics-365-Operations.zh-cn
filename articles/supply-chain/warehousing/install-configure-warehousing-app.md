@@ -3,7 +3,7 @@ title: "安装和配置 Microsoft Dynamics 365 for Finance and Operations &#8211
 description: "此主题描述如何安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing。"
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 11/02/2017
+ms.date: 11/12/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -20,10 +20,10 @@ ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 608543c9cfd93c4772e93089e1d174312d8b23a6
-ms.openlocfilehash: 411bb28668f5aa9d07774211814da4e9757ac43c
+ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
+ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
 ms.contentlocale: zh-cn
-ms.lasthandoff: 03/06/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -65,7 +65,7 @@ Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商
 4.  确保 Finance and Operations 使用的是 Active Directory 实例。
 5.  在列表中，单击**应用程序注册**。 [![WMA-02-active-directory-app-registrations](./media/WMA-02-active-directory-app-registrations.png)](./media/WMA-02-active-directory-app-registrations.png)
 6.  在顶部窗格中，单击 **新应用程序注册**。 将启动**添加应用程序**向导。
-7.  输入应用程序的名称，然后选择 **Web 应用程序/Web API**。 输入登录 URL，这是您的 Web 应用 URL。 此 URL 与您的部署 URL 相同，但 Oauth 添加到末尾。 单击“**创建**”。 [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
+7.  输入应用程序的名称，然后选择 **Web 应用程序/Web API**。 输入登录 URL，这是您的 Web 应用 URL。 此 URL 与您的部署 URL 相同，但 Oauth 添加到末尾。 单击**创建**。 [![WMA-03-active-directory-add-application](./media/WMA-03-active-directory-add-application.png)](./media/WMA-03-active-directory-add-application.png)
 8.  在列表中选择新应用程序。 [![WMA-04-active-directory-configure-app](./media/WMA-04-active-directory-configure-app.png)](./media/WMA-04-active-directory-configure-app.png)
 9.  记住**应用程序 ID**，后面需要它。 **应用程序 ID** 在后文称为**客户端 ID**。
 10. 在**设置窗格**中，单击**密钥**。 通过在**密码**部分中输入密钥说明和持续时间创建密码。 
@@ -74,13 +74,12 @@ Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商
 ## <a name="create-and-configure-a-user-account-in-finance-and-operations"></a>在 Finance and Operations 中创建和配置用户帐户
 若要使 Finance and Operations 使用您的 Azure AD 应用程序，需要完成以下配置步骤：
 
-1.  在 Azure Active Directory 中为 Finance and Operations 租户创建一个新用户帐户。 此用户帐户用于访问 Finance and Operations 服务器提供的 Warehousing 应用程序的特定自定义服务。 完成此步骤之后，您将拥有 WMDP 用户凭据，其中包含 WMDP 电子邮件地址和 WMDP 密码。 若要了解有关如何向 Azure AD 和 Finance and Operations 添加用户的基本步骤，请参阅以下教程：[注册 Finance and Operations 订阅](../../dev-itpro/dev-tools/sign-up-preview-subscription.md)。
-2.  创建与 Warehousing 应用程序用户凭据对应的 Finance and Operations 用户。
+1.  创建与 Warehousing 应用程序用户凭据对应的 Finance and Operations 用户。
     1.  在 Finance and Operations 中，转至**系统管理** &gt; **常用** &gt; **用户**。
     2.  创建新用户。
     3.  指定 Warehouse 移动设备用户，如以下屏幕截图所示。 [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-3.  将您的 Azure Active Directory 应用程序与该 Warehousing 应用程序用户关联。
+2.  将您的 Azure Active Directory 应用程序与该 Warehousing 应用程序用户关联。
     1.  在 Finance and Operations 中，转至**系统管理** &gt; **设置** &gt; **Azure Active Directory 应用程序**。
     2.  创建新行。
     3.  输入（上一部分中获取的）**客户端 ID**，为其命名，然后选择以前创建的用户。 建议您标记自己的所有设备，这样就可以从该页面中轻松取消其对 Finance and Operations 的访问权限，以防这些设备丢失。 [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)

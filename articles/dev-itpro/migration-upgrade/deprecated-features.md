@@ -3,7 +3,7 @@ title: "已删除或弃用的功能"
 description: "本主题介绍已经删除或计划删除的功能。"
 author: sericks007
 manager: AnnBe
-ms.date: 10/01/2018
+ms.date: 12/10/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 6750cfc62e2d151ddf760ff3dc36bab9c078b2d9
+ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
+ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -87,6 +87,19 @@ ms.lasthandoff: 11/01/2018
 | **影响的产品区域**         | 总帐、税务 |
 | **部署选项**              | 所有 |
 | **状态**                         | 已从带平台更新 20 的 Dynamics 365 for Finance and Operations 8.1 开始移除。 |
+
+
+### <a name="profit-tax-register-wizard"></a>利润税登记向导
+为新利润税登记创建模板的功能。 此功能为新登记创建 X++ 对象，其然后被创建为添加了适当的计算逻辑的模板。
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 功能与 Dynamics 365 for Finance and Operations 延伸性模型不兼容。 |
+| **被另一个功能取代？**   | 无 |
+| **影响的产品区域**         | 税金 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已从带平台更新 20 的 Dynamics 365 for Finance and Operations 8.1 开始移除。 |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>具有平台更新 15 的 Dynamics 365 for Finance and Operations 8.0
 此版本中未移除或弃用任何功能。 平台更新 15 是累积功能，其中包含平台更新 13、14 和 15 中的新增功能或更改功能。
@@ -993,6 +1006,17 @@ Microsoft Dynamics AX 2012 通过使用“未实现的增值税”的墨西哥�
 | **被另一个功能取代？**   | 是。 已经公布在将来的版本中弃用产品生成器的 Dynamics AX 2012 中引入了基于约束的配置。 在基础产品上选择基于约束的配置技术，以启用配置。 若要了解更多信息，请参阅[生成产品配置模型](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model)。 |
 | **影响的产品区域**         | 产品信息管理、销售和市场营销  |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。      |
+
+### <a name="production-floor-app"></a>生产车间应用
+这是适用于运行 Windows 8.1 RT 和 Windows 8.1 Pro 的平板设备的应用。
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 通过对基于 Web 的客户端的更改，可以通过本机 Dynamics AX 7.0 客户端提供类似的功能。 作业卡设备提供为触摸和平板窗体因子优化的生产车间用户界面。 |
+| **被另一个功能取代？**   | 是。 作业卡设备是 Dynamics AX 7.0 的一个本机部分。                                                                           |
+| **影响的产品区域**         | 生产控制                                                |
+| **状态**                         | 已弃用：从 Microsoft Store 的删除日期尚未为此功能设置。                                                |
+
 
 ### <a name="rename-product-dimension"></a>重命名产品维度
 

@@ -1,9 +1,9 @@
 ---
 title: "Finance and Operations 帮助系统"
-description: "本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。"
+description: "本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。"
 author: margoc
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 11/13/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
@@ -19,10 +19,10 @@ ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 75be5c5f675885aececb8ac0b25e699882ea77ab
-ms.openlocfilehash: dc2a3d49041acf42814149eb71d4cc021bdad838
+ms.sourcegitcommit: 87ca6afe817d27de12479f1b7d8155d11d800233
+ms.openlocfilehash: dc057faf3cd08ea1c939d0cc35ae404bde59e514
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/17/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -30,7 +30,7 @@ ms.lasthandoff: 10/17/2018
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 另外还说明如何向您的组织提供自定义文档和培训。 
+本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。 
 
 > [!NOTE] 
 > 以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
@@ -48,8 +48,6 @@ Finance and Operations 包括一个帮助系统，基于两个主要组件：
 您可以在您使用的任何产品中从“帮助”窗格访问帮助。 以下屏幕截图显示 Finance and Operations。
 
 ![帮助窗格](./media/help-pane-ops-task-guides.png)
-
-本主题描述帮助系统，并说明如何为您的组织创建自定义文档和培训资源。
 
 > [!IMPORTANT]
 > **任务指南**当前未向 Retail 提供，也未在 Talent 的“帮助”窗格中（Talent 的“入门”窗格中提供了一些任务指南）。 docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) 上提供用于 Retail 和 Talent 的过程帮助。
@@ -83,7 +81,7 @@ Finance and Operations 和 Retail 均共用文档站点上的一个内容表，�
 ### <a name="give-feedback"></a>提供反馈 
 我们真心欢迎客户反馈。 您可以通过 GitHub 进行评论或对我们的内容提出更改建议。 有关我们的反馈系统的详细信息，请参阅[此博客文章](https://docs.microsoft.com/teamblog/a-new-feedback-system-is-coming-to-docs)。
 
-##### <a name="leave-us-feedback"></a>为我们提供反馈 
+#### <a name="leave-us-feedback"></a>为我们提供反馈 
 如果您有有关某个主题的反馈或问题，请在页面底部对我们作出评论。  
 
 1. 单击 **反馈**访问页面底部的评论，然后单击**产品反馈**或**登录以提供文档反馈**。
@@ -93,8 +91,6 @@ Finance and Operations 和 Retail 均共用文档站点上的一个内容表，�
 2. 开始键入您的评论，然后单击**提交反馈**。
 
 ![发布评论](./media/feedback.png)
-
-
 
 ##### <a name="suggest-a-change-or-contribute-content-through-github"></a>通过 GitHub 提出更改建议或贡献内容
 若要提出更改建议，您需要一个 GitHub 帐户，并签署“贡献者许可协议”。  在提交拉取请求后，我们将审查您建议的更改。 如果需要，我们将展开内部讨论，然后回复您。  
@@ -122,22 +118,7 @@ Microsoft 为 Finance and Operations 2017 年 12 月及以前的版本配送了�
 > [!IMPORTANT] 
 > 您在播放任务指南时输入的数据是真实的。 如果您处于生产环境中，则数据将输入您当前使用的公司中。
 
-### <a name="it-all-begins-with-task-recorder"></a>它全都从任务录制器开始
-
-任务是通过使用任务录制器创建的。 当您使用任务录制器时，您在 Finance and Operations UI 中执行的所有操作（如单击菜单、更改设置和输入数据）都将被记录。 您记录的步骤统称为任务录制。 如同我们在前一部分说明的，任务录制可以显示在“帮助”窗格中和作为任务指南播放。 不过，您可以通过其他方法来使用任务录制：
-
--   **将任务录制保存到 BPM** – 可以将任务录制保存到 LCS 中的一个 BPM 库中的层次结构行。 当您将任务录制保存到 BPM 时，会连同录制的步骤一起，生成并显示流程图。 
-
-    > [!Note]
-    > 若要在 Finance and Operations 的“帮助”窗格中显示任务录制并将其作为任务指南播放，您必须将录制保存到 BPM 库。
-    
--   **将任务录制保存为 Word 文档** – 通过将任务录制保存为 Microsoft Word 文档，您可以轻松地为您的组织生成可打印的培训指南。
-
-有关任务录制器的详细信息，请参阅 [Finance and Operations 中的任务录制器](../../dev-itpro/user-interface/task-recorder.md)。
-
-### <a name="creating-customized-task-recordings"></a>创建自定义的任务录制
-
-您可以创建自己的任务录制，也可以下载 Microsoft 提供的自定义任务录制。 因此，您可以为您的组织创建反映您的特定 Finance and Operations 实施的自定义帮助。 若要在 Finance and Operations 的“帮助”窗格中显示任务录制并将其作为任务指南播放，您必须将录制保存到 LCS 的 BPM 库。 如果您是合作伙伴，并且您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。 有关完整指南，请参阅[使用任务录制创建文档或培训](../../dev-itpro/user-interface/task-recorder.md)。
+您可以使用任务录制器创建您自己的自定义任务指南。 有关详细信息，请参阅[使用任务录制创建文档或培训](../../dev-itpro/user-interface/task-recorder-training-docs.md)。
 
 ## <a name="in-product-help"></a>产品内帮助
 若要访问 Finance and Operations 内的帮助内容，请单击**帮助** (**?**) 图标，然后选择“帮助”或按 Ctrl+Shift+?。 在这两种情况下，“帮助”窗格将会打开。 从“帮助”窗格中，您可以访问文章或任务指南。 
@@ -184,6 +165,11 @@ Microsoft 为 Finance and Operations 2017 年 12 月及以前的版本配送了�
 翻译后的任务指南在标题中带有“所有语言”的库中发布。 在 Finance and Operations 中，若要查看本地化的任务指南帮助，请确保您已连接到相应库。 每个用户的任务指南的显示语言由**选项** &gt; **首选项**下的“语言设置”控制。 
 -   如果已翻译任务指南，在您打开任务指南时，所有任务指南文本都将显示为您选择的语言。
 -   如果尚未翻译任务指南，在您打开任务指南时，仅部分文本（控制文本）显示为您选择的语言。
+
+## <a name="creating-custom-help"></a>创建客户帮助
+您可以通过创建自定义任务指南为用户创建帮助，或者将您自己的网站连接到帮助窗格。 有关详细信息，请参阅： 
+- [如何创建任务录制以用作文档或培训](../../dev-itpro/user-interface/task-recorder.md)。
+- [为 Finance and Operations 创建自定义帮助（白皮书）](https://go.microsoft.com/fwlink/?linkid=2041185)
 
 ## <a name="additional-resources"></a>其他资源
 

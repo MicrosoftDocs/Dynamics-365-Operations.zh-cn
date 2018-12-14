@@ -19,10 +19,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 185d1adc88a29bc3ae722ae2c6f0a2769428bce3
+ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
+ms.openlocfilehash: f27f228e48da653a9caf666f9053fe45a7c23745
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
@@ -164,13 +164,23 @@ ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方�
 
 #### <a name="repository"></a>知识库
 
-ER 存储库中会存储 ER 配置。 目前支持两种 ER 存储库类型：**运营资源**和 **LCS 项目**。
+ER 存储库中会存储 ER 配置。 四个 ER 存储库类型当前受支持：**运营资源**、**LCS 项目 (LCS)**、**文件系统**和**监管配置服务 (RCS)**。
 
 **运营资源**存储库允许你访问由 Microsoft 作为 EER 配置提供商发布的作为 Finance and Operations 解决方案的一部分的配置的列表。 这些配置可以导入到当前的 Finance and Operations 实例，并且可以用于电子申报。 它们还可以用于其他本地化和自定义。
 
 **LCS 项目**存储库允许您访问在存储库登记阶段选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前 Finance and Operations 实例将共享配置上载到特定 **LCS 项目**存储库。 你还可以从 **LCS 项目**存储库将配置导入到当前的 Finance and Operations 实例。
 
-可分别为当前 Finance and Operations 实例的每个配置提供商登记所需的 **LCS 项目**存储库。 每个存储库可专门针对一个特定配置提供商。
+**文件系统**存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 你可以从**文件系统**存储库将配置导入到当前的 Finance and Operations 实例。 请注意，请存储库类型在以下 Dynamics 365 for Finance and Operations 环境中可访问：
+- 为开发目的部署的云托管环境（包含所含套件的测试模型）
+- 本地部署环境（内部或本地业务数据部署 (LBD)）
+
+有关详细信息，请访问[导入电子申报配置 (ER) 配置](/electronic-reporting-import-ger-configurations.md)页面。
+
+**RCS 实例**存储库允许您访问在存储库登记阶段选择的特定 RCS 实例的配置列表。 ER 让您可以将完成的或共享的配置从所选的 RCS 实例导入到当前的 Finance and Operations 实例并用于电子申报。
+
+有关详细信息，请访问[从监管配置服务 (RCS) 导入电子报告 (ER) 配置](/rcs-download-configurations.md)页面。
+
+可分别为当前 Finance and Operations 实例的每个配置提供商登记所需的 **LCS 项目**、**文件系统**和**监管配置服务 (RCS)** 存储库。 每个存储库可专门针对一个特定配置提供商。
 
 ## <a name="supported-scenarios"></a>支持的方案
 ### <a name="building-a-data-model"></a>构建数据模型

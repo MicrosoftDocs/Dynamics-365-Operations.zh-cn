@@ -1,9 +1,9 @@
 ---
-title: "采购订单的产品收货"
-description: "本文介绍了用于将产品登记为已接收状态的各种选项。"
+title: "针对采购订单的物料收货"
+description: "本主题介绍了用于将产品登记为已接收状态的各种选项。"
 author: FrankDahl
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 11/15/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-applications
@@ -19,20 +19,20 @@ ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c227664da360f6f8d54b49f15e1b7160aa142ba9
+ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
+ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
 ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
+ms.lasthandoff: 12/04/2018
 
 ---
 
-# <a name="product-receipt-against-purchase-orders"></a>采购订单的产品收货
+# <a name="product-receipt-against-purchase-orders"></a>针对采购订单的物料收货
 
 [!include [banner](../includes/banner.md)]
 
 [!include [retail name](../includes/retail-name.md)]
 
-本文介绍了用于将产品登记为已接收状态的各种选项。
+本主题介绍了用于将产品登记为已接收状态的各种选项。
 
 产品收货是录制已收到所订购的产品的流程，以便可以处理采购订单 (PO) 以进行开票。 在某些情况下，产品经过预登记，其中在收到产品前记录来自供应商的其他信息。 当产品到达时，它们第一次被标记为**已登记**。 在产品最后被标记为**已接收**前，它们可能经过其他流程，如质量管理。
 
@@ -46,8 +46,6 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="product-receipt"></a>物料收货
 大多数情况下，**采购订单**页的**产品收货**操作用于在采购订单上标记产品为**已接收**。 **过帐产品收货**页面有各种核算为已接收的数量的选项。 例如，可以设置**数量**字段为**订购数量**或**当前接收量**。 或者，如果已使用仓库到达流程，您将经常将此字段设置为**登记数量**。 您可以修改每个订单行上将标记为**已接收**的数量，以解决任何差异，例如欠交和超交。 产品收货期间，您必须指定一个产品收货标识符，通常是对供应商装箱单的引用。 会计核算需要此标识符，因为它允许对照收到的产品和核算的库存或费用检查或审核供应商装箱单。  
-
-如果员工通过使用采购申请订购货物，则可能要求该员工自我确认产品收货。 您通过使用工作流来配置此行为。 您可以配置工作流条件，使其与您的业务流程匹配。  
 
 采购订单可以为不能用作库存，但被视为费用的产品创建。 此类别包含在其中按库存模型组将产品标记为**非贮存**的订单行，以及使用采购类别的行。 在这种情况下，物料可能不在仓库中经过到达登记和收货。 而**产品收货**操作用来记录采购订单的直接收货，收货基于订购数量，不基于登记数量。  
 
