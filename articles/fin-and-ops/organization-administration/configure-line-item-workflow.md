@@ -18,10 +18,10 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: 66e79389bba4566176330914ace462110cd0aa22
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -34,27 +34,26 @@ ms.lasthandoff: 08/08/2018
 <span data-ttu-id="9c0f1-105">要配置行项工作流元素，在工作流编辑器中，右键单击该元素，然后单击**属性**以打开**属性**页。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-105">To configure a line-item workflow element, in the workflow editor, right-click the element, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="9c0f1-106">然后使用以下过程配置行项工作流元素的属性。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-106">Then use the following procedures to configure the properties of the line-item workflow element.</span></span>
 
 ## <a name="name-the-line-item-workflow-element"></a><span data-ttu-id="9c0f1-107">对行项工作流元素命名。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-107">Name the line-item workflow element</span></span>
+
 <span data-ttu-id="9c0f1-108">按照以下步骤为行项工作流元素输入一个名称。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-108">Follow these steps to enter a name for the line-item workflow element.</span></span>
 
-1.  <span data-ttu-id="9c0f1-109">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-109">In the left pane, click **Basic Settings**.</span></span>
-2.  <span data-ttu-id="9c0f1-110">在**名称**字段中，为行项工作流元素输入唯一名称。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-110">In the **Name** field, enter a unique name for the line-item workflow element.</span></span>
+1. <span data-ttu-id="9c0f1-109">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-109">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="9c0f1-110">在**名称**字段中，为行项工作流元素输入唯一名称。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-110">In the **Name** field, enter a unique name for the line-item workflow element.</span></span>
 
 ## <a name="specify-whether-the-same-workflow-is-used-to-process-all-line-items"></a><span data-ttu-id="9c0f1-111">指定是否使用相同工作流处理所有行项</span><span class="sxs-lookup"><span data-stu-id="9c0f1-111">Specify whether the same workflow is used to process all line items</span></span>
+
 <span data-ttu-id="9c0f1-112">按照以下步骤指定是否使用相同的工作流处理在文档中的所有行项。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-112">Follow these steps to specify whether the same workflow is used to process all the line items on a document.</span></span>
 
-1.  <span data-ttu-id="9c0f1-113">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-113">In the left pane, click **Basic Settings**.</span></span>
-2.  <span data-ttu-id="9c0f1-114">如果相同的工作流处理单据上的所有行项，则单击**为所有行项调用一个单一工作流**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-114">If the same workflow should process all the line items on a document, click **Invoke a single workflow for all line-items**.</span></span> <span data-ttu-id="9c0f1-115">然后，选择用于处理行项的工作流。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-115">Then select the workflow to use to process the line items.</span></span>
-3.  <span data-ttu-id="9c0f1-116">如果特定工作流应处理满足一组特定条件的行项，则单击**为每个行项调用一个工作流**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-116">If a specific workflow should process line items that meet a specific set of conditions, click **Invoke a workflow for each line-item**.</span></span> <span data-ttu-id="9c0f1-117">然后按照以下步骤定义一组条件：</span><span class="sxs-lookup"><span data-stu-id="9c0f1-117">Then follow these steps to define the set of conditions:</span></span>
-    1.  <span data-ttu-id="9c0f1-118">单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-118">Click **Add**.</span></span>
-    2.  <span data-ttu-id="9c0f1-119">选择表中的条件。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-119">Select the condition in the table.</span></span>
-    3.  <span data-ttu-id="9c0f1-120">在**条件名称**选项卡上，输入您定义的一组条件的名称。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-120">On the **Condition name** tab, enter a name for the set of conditions that you're defining.</span></span>
-    4.  <span data-ttu-id="9c0f1-121">单击**添加条件**输入条件。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-121">Click **Add condition** to enter a condition.</span></span>
-    5.  <span data-ttu-id="9c0f1-122">输入需要的任何其他条件。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-122">Enter any additional conditions that are required.</span></span>
-    6.  <span data-ttu-id="9c0f1-123">要验证输入的该组条件是否配置正确，请单击**测试**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-123">To verify that the set of conditions that you entered is configured correctly, click **Test**.</span></span> <span data-ttu-id="9c0f1-124">在**测试工作流条件**页面，在**验证条件**区域，选择一条记录，然后单击**测试**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-124">On the **Test workflow condition** page, in the **Validate condition** area, select a record, and then click **Test**.</span></span> <span data-ttu-id="9c0f1-125">系统对该记录进行评估，判断其是否符合您定义的条件。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-125">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span> <span data-ttu-id="9c0f1-126">单击**确定**或**取消**返回到**属性**页面。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-126">Click **OK** or **Cancel** to return to the **Properties** page.</span></span>
+1. <span data-ttu-id="9c0f1-113">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-113">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="9c0f1-114">如果相同的工作流处理单据上的所有行项，则单击**为所有行项调用一个单一工作流**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-114">If the same workflow should process all the line items on a document, click **Invoke a single workflow for all line-items**.</span></span> <span data-ttu-id="9c0f1-115">然后，选择用于处理行项的工作流。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-115">Then select the workflow to use to process the line items.</span></span>
+3. <span data-ttu-id="9c0f1-116">如果特定工作流应处理满足一组特定条件的行项，则单击**为每个行项调用一个工作流**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-116">If a specific workflow should process line items that meet a specific set of conditions, click **Invoke a workflow for each line-item**.</span></span> <span data-ttu-id="9c0f1-117">然后按照以下步骤定义一组条件：</span><span class="sxs-lookup"><span data-stu-id="9c0f1-117">Then follow these steps to define the set of conditions:</span></span>
+
+    1. <span data-ttu-id="9c0f1-118">单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-118">Click **Add**.</span></span>
+    2. <span data-ttu-id="9c0f1-119">选择表中的条件。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-119">Select the condition in the table.</span></span>
+    3. <span data-ttu-id="9c0f1-120">在**条件名称**选项卡上，输入您定义的一组条件的名称。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-120">On the **Condition name** tab, enter a name for the set of conditions that you're defining.</span></span>
+    4. <span data-ttu-id="9c0f1-121">单击**添加条件**输入条件。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-121">Click **Add condition** to enter a condition.</span></span>
+    5. <span data-ttu-id="9c0f1-122">输入需要的任何其他条件。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-122">Enter any additional conditions that are required.</span></span>
+    6. <span data-ttu-id="9c0f1-123">要验证输入的该组条件是否配置正确，请单击**测试**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-123">To verify that the set of conditions that you entered is configured correctly, click **Test**.</span></span> <span data-ttu-id="9c0f1-124">在**测试工作流条件**页面，在**验证条件**区域，选择一条记录，然后单击**测试**。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-124">On the **Test workflow condition** page, in the **Validate condition** area, select a record, and then click **Test**.</span></span> <span data-ttu-id="9c0f1-125">系统对该记录进行评估，判断其是否符合您定义的条件。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-125">The system evaluates the record to determine whether it meets the conditions that you defined.</span></span> <span data-ttu-id="9c0f1-126">单击**确定**或**取消**返回到**属性**页面。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-126">Click **OK** or **Cancel** to return to the **Properties** page.</span></span>
 
     <span data-ttu-id="9c0f1-127">在**工作流**选项卡，选择处理满足您定义的一组条件的行项时要使用的工作流。</span><span class="sxs-lookup"><span data-stu-id="9c0f1-127">On the **Workflow** tab, select the workflow select the workflow to use to process line items that meet the set of conditions that you defined.</span></span>
-
-
-
-
 
