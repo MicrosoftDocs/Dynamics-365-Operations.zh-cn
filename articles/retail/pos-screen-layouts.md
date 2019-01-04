@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/13/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![POS 屏幕布局实体](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a><span data-ttu-id="eb1f8-108">可视化配置文件</span><span class="sxs-lookup"><span data-stu-id="eb1f8-108">Visual profile</span></span>
+
 <span data-ttu-id="eb1f8-109">视觉配置文件分配给收银机，用于指定收银机特定且在用户中共享的视觉元素。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-109">Visual profiles are assigned to registers, and they specify the visual elements that are register-specific and shared across users.</span></span> <span data-ttu-id="eb1f8-110">每位登录收银机的用户都将看到相同的主题、颜色和图像。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-110">Every user who signs in to the register sees the same theme, colors, and images.</span></span>
 
 ![采用浅色主题的 POS 欢迎使用屏幕](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - <span data-ttu-id="eb1f8-123">**应用程序背景** – 您可以指定整个应用程序中使用的背景图像来代替纯色主题色。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-123">**Application background** – You can specify a background image that is used instead of the solid theme color throughout the application.</span></span> <span data-ttu-id="eb1f8-124">至于登录背景，文件大小应该尽量小。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-124">As for login backgrounds, the file size should be kept as small as possible.</span></span>
 
 ## <a name="screen-layouts"></a><span data-ttu-id="eb1f8-125">屏幕布局</span><span class="sxs-lookup"><span data-stu-id="eb1f8-125">Screen layouts</span></span>
+
 <span data-ttu-id="eb1f8-126">屏幕布局配置决定 POS 欢迎屏幕和**交易记录**屏幕中的 UI 控件的操作、内容和位置。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-126">Screen layout configurations determine the actions, content, and placement of UI controls on the POS welcome screen and **Transaction** screen.</span></span>
 
 ![POS 屏幕布局视图](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![POS 布局尺寸](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a><span data-ttu-id="eb1f8-163">按钮网格</span><span class="sxs-lookup"><span data-stu-id="eb1f8-163">Button grids</span></span>
+
 <span data-ttu-id="eb1f8-164">对于屏幕布局的各布局尺寸，可以为 POS 欢迎屏幕和**交易记录**屏幕配置和分配按钮网格。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-164">For each layout size in a screen layout, you can configure and assign button grids for the POS welcome screen and **Transaction** screen.</span></span> <span data-ttu-id="eb1f8-165">欢迎屏幕的按钮网格自动从左到右，从最小编号（欢迎屏幕 1）到最大编号分布。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-165">Button grids for the welcome screen are automatically laid out from left to right, from the lowest number (Welcome screen 1) to the highest number.</span></span>
 
 <span data-ttu-id="eb1f8-166">在完整型 POS 布局中，按钮网格的放置在屏幕布局设计器中指定。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-166">In Full POS layouts, the placement of button grids is specified in the screen layout designer.</span></span>
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![精简型布局按钮网格](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a><span data-ttu-id="eb1f8-170">图像</span><span class="sxs-lookup"><span data-stu-id="eb1f8-170">Images</span></span>
+
 <span data-ttu-id="eb1f8-171">对于屏幕布局中的每种布局尺寸，您可以指定 POS UI 中要包含的图像。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-171">For each layout size in a screen layout, you can specify images to include in the POS UI.</span></span> <span data-ttu-id="eb1f8-172">对于完整型 POS 布局，只能为欢迎屏幕指定一个图像。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-172">For Full POS layouts, a single image can be specified for the welcome screen.</span></span> <span data-ttu-id="eb1f8-173">此图像显示为左侧的第一个 UI 元素。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-173">This image appears as the first UI element on the left.</span></span> <span data-ttu-id="eb1f8-174">在**交易记录**屏幕上，可以将图像用作标签图像或徽标。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-174">On the **Transaction** screen, images can be used as tab images or as a logo.</span></span> <span data-ttu-id="eb1f8-175">精简型 POS 布局不使用这些图像。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-175">Compact POS layouts don't use these images.</span></span>
 
 ### <a name="screen-layout-designer"></a><span data-ttu-id="eb1f8-176">屏幕布局设计器</span><span class="sxs-lookup"><span data-stu-id="eb1f8-176">Screen layout designer</span></span>
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - <span data-ttu-id="eb1f8-222">**自定义控件** – 自定义控件充当屏幕布局内的占位符，用于为自定义内容预留空间。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-222">**Custom control** – The custom control acts as a placeholder in the screen layout and lets you reserve space for custom content.</span></span> <span data-ttu-id="eb1f8-223">自定义控件仅可用于完整型布局。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-223">The custom control is available only for Full layouts.</span></span>
 
 ### <a name="compact-layout-designer"></a><span data-ttu-id="eb1f8-224">精简型布局设计器</span><span class="sxs-lookup"><span data-stu-id="eb1f8-224">Compact layout designer</span></span>
+
 <span data-ttu-id="eb1f8-225">和完整型布局设计器一样，精简型布局设计器可用于针对手机和小型平板电脑配置 POS 屏幕布局。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-225">Like the Full layout designer, the Compact layout designer lets you configure the POS screen layout for phones and small tablets.</span></span> <span data-ttu-id="eb1f8-226">但是，在这种情况下，布局本身是固定的。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-226">However, in this case, the layout itself is fixed.</span></span> <span data-ttu-id="eb1f8-227">可通过右键单击和使用快捷菜单在布局中配置控件。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-227">You can configure the controls in the layout by right-clicking and using the shortcut menu.</span></span> <span data-ttu-id="eb1f8-228">但是，您不能为其他内容使用拖放操作。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-228">However, you can't use drag-and-drop operations for additional content.</span></span>
 
 ![精简型布局设计器](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a><span data-ttu-id="eb1f8-230">按钮网格设计器</span><span class="sxs-lookup"><span data-stu-id="eb1f8-230">Button grid designer</span></span>
+
 <span data-ttu-id="eb1f8-231">可通过按钮网格设计器为完整型布局和精简型布局配置 POS 欢迎屏幕和**交易记录**屏幕上可使用的按钮网格。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-231">The button grid designer lets you configure button grids that can be used on the POS welcome screen and **Transaction** screen for both Full and Compact layouts.</span></span> <span data-ttu-id="eb1f8-232">可跨布局和布局类型使用同一个按钮网格。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-232">The same button grid can be used across layouts and layout types.</span></span> <span data-ttu-id="eb1f8-233">和屏幕布局设计器一样，只要用户访问应用程序，按钮网格设计器都将使用 ClickOnce 部署技术下载、安装和启动应用程序的最新版本。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-233">Like the screen layout designer, the button grid designer uses the ClickOnce deployment technology to download, install, and start the latest version of the application every time that users access it.</span></span> <span data-ttu-id="eb1f8-234">请确保检查 ClickOnce 的浏览器要求。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-234">Be sure to check the browser requirements for ClickOnce.</span></span> <span data-ttu-id="eb1f8-235">某些浏览器（如 Google Chrome）需要扩展。</span><span class="sxs-lookup"><span data-stu-id="eb1f8-235">Some browsers, such as Google Chrome, require extensions.</span></span>
 
 ![按钮网格设计器](../retail/media/Button-Grid-Designer.png)

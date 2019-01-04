@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 2b536ad4f29a3bb76294ef2fba30c529c24f1375
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8b78762ce70b318e1f77e1e49ffaa7b72f01667f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -42,25 +42,30 @@ ms.lasthandoff: 08/08/2018
 <span data-ttu-id="69267-112">此页提供指向与设置、配置和功能性使用 Dynamics 365 for Retail 中的呼叫中心功能有关的相关文档的链接。</span><span class="sxs-lookup"><span data-stu-id="69267-112">This page provides links to relevant documentation related to the setup, configuration, and functional use of the call center features in Dynamics 365 for Retail.</span></span>
 
 ## <a name="configure-the-call-center"></a><span data-ttu-id="69267-113">配置呼叫中心</span><span class="sxs-lookup"><span data-stu-id="69267-113">Configure the call center</span></span>
+
 [<span data-ttu-id="69267-114">设置订单处理选项</span><span class="sxs-lookup"><span data-stu-id="69267-114">Set up order processing options</span></span>](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a><span data-ttu-id="69267-115">配置订单处理</span><span class="sxs-lookup"><span data-stu-id="69267-115">Configure order processing</span></span>
+
 [<span data-ttu-id="69267-116">设置欺诈预警</span><span class="sxs-lookup"><span data-stu-id="69267-116">Set up fraud alerts</span></span>](set-up-fraud-alerts.md)
 
 [<span data-ttu-id="69267-117">手动保留订单</span><span class="sxs-lookup"><span data-stu-id="69267-117">Manual Order Holds</span></span>](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a><span data-ttu-id="69267-118">配置付款处理</span><span class="sxs-lookup"><span data-stu-id="69267-118">Configure payment processing</span></span>
+
 [<span data-ttu-id="69267-119">呼叫中心内的付款方法</span><span class="sxs-lookup"><span data-stu-id="69267-119">Payment methods in a call center</span></span>](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a><span data-ttu-id="69267-120">配置交货方式</span><span class="sxs-lookup"><span data-stu-id="69267-120">Configure delivery modes</span></span>
+
 [<span data-ttu-id="69267-121">配置呼叫中心交货方式和费用</span><span class="sxs-lookup"><span data-stu-id="69267-121">Configure call center delivery modes and charges</span></span>](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a><span data-ttu-id="69267-122">配置直接营销</span><span class="sxs-lookup"><span data-stu-id="69267-122">Configure direct marketing</span></span>
+
 [<span data-ttu-id="69267-123">呼叫中心目录</span><span class="sxs-lookup"><span data-stu-id="69267-123">Call center catalogs</span></span>](call-center-catalogs.md)
 
 [<span data-ttu-id="69267-124">设置 RFM 分析</span><span class="sxs-lookup"><span data-stu-id="69267-124">Set up RFM analysis</span></span>](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a><span data-ttu-id="69267-125">配置连续性计划</span><span class="sxs-lookup"><span data-stu-id="69267-125">Configure continuity programs</span></span>
-[<span data-ttu-id="69267-126">设置呼叫中心的连续性计划</span><span class="sxs-lookup"><span data-stu-id="69267-126">Set up a continuity program for a call center</span></span>](set-up-continuity-program.md)
 
+[<span data-ttu-id="69267-126">设置呼叫中心的连续性计划</span><span class="sxs-lookup"><span data-stu-id="69267-126">Set up a continuity program for a call center</span></span>](set-up-continuity-program.md)
 

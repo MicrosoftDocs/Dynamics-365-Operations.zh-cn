@@ -19,10 +19,10 @@ ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -66,7 +66,7 @@ ms.lasthandoff: 08/08/2018
 - <span data-ttu-id="fc033-145">零售商现在可以将产品搜索配置为当用户键入产品名称时显示搜索建议。</span><span class="sxs-lookup"><span data-stu-id="fc033-145">Retailers can now configure product search to show search suggestions as users type product names.</span></span> <span data-ttu-id="fc033-146">此功能的新设置在 POS 功能配置文件中命名为**产品搜索**的组中可用。</span><span class="sxs-lookup"><span data-stu-id="fc033-146">A new setting for this functionality is available in the POS functionality profile, in a group that is named **Product search**.</span></span> <span data-ttu-id="fc033-147">设置命名为**在键入时显示搜索建议**。</span><span class="sxs-lookup"><span data-stu-id="fc033-147">The setting is named **Show search suggestions while typing**.</span></span> <span data-ttu-id="fc033-148">此功能使员工无需手动键入全部名称，因此可以帮助员工快速查找其搜索的产品。</span><span class="sxs-lookup"><span data-stu-id="fc033-148">This functionality can help employees quickly find the product that they are searching for, because they don't have to type the whole name manually.</span></span>
 - <span data-ttu-id="fc033-149">产品搜索算法现在可以搜索在产品的**搜索名称**属性中搜索的词语。</span><span class="sxs-lookup"><span data-stu-id="fc033-149">The product search algorithm now also searches for the searched terms in the **Search name** property of the product.</span></span>
 
-<span data-ttu-id="fc033-150">![产品建议](./media/Productsuggestions.png "产品建议")</span><span class="sxs-lookup"><span data-stu-id="fc033-150">![Product suggestions](./media/Productsuggestions.png "Product suggestions")</span></span>
+    <span data-ttu-id="fc033-150">![产品建议](./media/Productsuggestions.png "产品建议")</span><span class="sxs-lookup"><span data-stu-id="fc033-150">![Product suggestions](./media/Productsuggestions.png "Product suggestions")</span></span>
 
 ## <a name="customer-search"></a><span data-ttu-id="fc033-151">客户搜索</span><span class="sxs-lookup"><span data-stu-id="fc033-151">Customer search</span></span>
 
