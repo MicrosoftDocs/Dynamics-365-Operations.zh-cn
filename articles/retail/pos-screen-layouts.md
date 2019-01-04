@@ -40,6 +40,7 @@ ms.lasthandoff: 11/13/2018
 ![POS 屏幕布局实体](../retail/media/POS-layout-configuration-entities-diagram.png)
 
 ## <a name="visual-profile"></a>可视化配置文件
+
 视觉配置文件分配给收银机，用于指定收银机特定且在用户中共享的视觉元素。 每位登录收银机的用户都将看到相同的主题、颜色和图像。
 
 ![采用浅色主题的 POS 欢迎使用屏幕](../retail/media/POS-Welcome-Screen-with-Light-theme.png)
@@ -55,6 +56,7 @@ ms.lasthandoff: 11/13/2018
 - **应用程序背景** – 您可以指定整个应用程序中使用的背景图像来代替纯色主题色。 至于登录背景，文件大小应该尽量小。
 
 ## <a name="screen-layouts"></a>屏幕布局
+
 屏幕布局配置决定 POS 欢迎屏幕和**交易记录**屏幕中的 UI 控件的操作、内容和位置。
 
 ![POS 屏幕布局视图](../retail/media/POS-Screen-Layout-View.png)
@@ -95,6 +97,7 @@ ms.lasthandoff: 11/13/2018
 ![POS 布局尺寸](../retail/media/POS-Session-Information.png)
 
 ### <a name="button-grids"></a>按钮网格
+
 对于屏幕布局的各布局尺寸，可以为 POS 欢迎屏幕和**交易记录**屏幕配置和分配按钮网格。 欢迎屏幕的按钮网格自动从左到右，从最小编号（欢迎屏幕 1）到最大编号分布。
 
 在完整型 POS 布局中，按钮网格的放置在屏幕布局设计器中指定。
@@ -104,6 +107,7 @@ ms.lasthandoff: 11/13/2018
 ![精简型布局按钮网格](../retail/media/Compact-View-Button-Grids.png)
 
 ### <a name="images"></a>图像
+
 对于屏幕布局中的每种布局尺寸，您可以指定 POS UI 中要包含的图像。 对于完整型 POS 布局，只能为欢迎屏幕指定一个图像。 此图像显示为左侧的第一个 UI 元素。 在**交易记录**屏幕上，可以将图像用作标签图像或徽标。 精简型 POS 布局不使用这些图像。
 
 ### <a name="screen-layout-designer"></a>屏幕布局设计器
@@ -141,11 +145,13 @@ ms.lasthandoff: 11/13/2018
     - **自定义控件** – 自定义控件充当屏幕布局内的占位符，用于为自定义内容预留空间。 自定义控件仅可用于完整型布局。
 
 ### <a name="compact-layout-designer"></a>精简型布局设计器
+
 和完整型布局设计器一样，精简型布局设计器可用于针对手机和小型平板电脑配置 POS 屏幕布局。 但是，在这种情况下，布局本身是固定的。 可通过右键单击和使用快捷菜单在布局中配置控件。 但是，您不能为其他内容使用拖放操作。
 
 ![精简型布局设计器](../retail/media/Compact-Layout-Designer.png)
 
 ### <a name="button-grid-designer"></a>按钮网格设计器
+
 可通过按钮网格设计器为完整型布局和精简型布局配置 POS 欢迎屏幕和**交易记录**屏幕上可使用的按钮网格。 可跨布局和布局类型使用同一个按钮网格。 和屏幕布局设计器一样，只要用户访问应用程序，按钮网格设计器都将使用 ClickOnce 部署技术下载、安装和启动应用程序的最新版本。 请确保检查 ClickOnce 的浏览器要求。 某些浏览器（如 Google Chrome）需要扩展。
 
 ![按钮网格设计器](../retail/media/Button-Grid-Designer.png)

@@ -42,25 +42,30 @@ ms.lasthandoff: 08/08/2018
 此页提供指向与设置、配置和功能性使用 Dynamics 365 for Retail 中的呼叫中心功能有关的相关文档的链接。
 
 ## <a name="configure-the-call-center"></a>配置呼叫中心
+
 [设置订单处理选项](set-up-order-processing-options.md)
 
 ## <a name="configure-order-processing"></a>配置订单处理
+
 [设置欺诈预警](set-up-fraud-alerts.md)
 
 [手动保留订单](work-with-order-holds.md)
 
 ## <a name="configure-payment-processing"></a>配置付款处理
+
 [呼叫中心内的付款方法](work-with-payments.md)
 
 ## <a name="configure-delivery-modes"></a>配置交货方式
+
 [配置呼叫中心交货方式和费用](configure-call-center-delivery.md)
 
 ## <a name="configure-direct-marketing"></a>配置直接营销
+
 [呼叫中心目录](call-center-catalogs.md)
 
 [设置 RFM 分析](set-up-rfm-analysis.md)
 
 ## <a name="configure-continuity-programs"></a>配置连续性计划
-[设置呼叫中心的连续性计划](set-up-continuity-program.md)
 
+[设置呼叫中心的连续性计划](set-up-continuity-program.md)
 
