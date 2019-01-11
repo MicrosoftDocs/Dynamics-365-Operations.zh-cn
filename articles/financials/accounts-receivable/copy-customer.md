@@ -17,10 +17,10 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: 08e939f87bc4a1769533b205bc5706648e1d1dce
+ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/01/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -62,7 +62,7 @@ ms.lasthandoff: 10/01/2018
 
 ## <a name="copy-a-customer-by-using-tax-exempt-number-search-feature"></a>使用免税编号搜索功能复制客户
 
-您还可以使用**所有客户**页面操作窗格上**客户**选项卡内**登记**组中的免税编号搜索功能来复制供应商。  出现的**免税编号搜索**对话框会显示免税编号、客户 ID、客户名称以及使用免税 ID 的法人。 只有当客户在非当前法人中时，您才能复制客户。 在选择满足此标准的客户后，请执行以下步骤。
+您还可以使用**所有客户**页面操作窗格上**客户**选项卡内**登记**组中的免税编号搜索功能来复制客户。 出现的**免税编号搜索**对话框会显示免税编号、客户 ID、客户名称以及使用免税 ID 的法人。 只有当客户在非当前法人中时，您才能复制客户。 在选择满足此标准的客户后，请执行以下步骤。
 
 1. **复制客户**选项将会出现。 默认情况下，此选项设置为**否**。 要将客户复制到当前法人，请将此选项设置为**是**。 
 2. 选择**选择**。 此时会创建新客户。
