@@ -3,7 +3,7 @@ title: "在 Attract 中创建、审核和发布工作"
 description: "此主题描述 Attract 中的工作元素。 它还介绍了如何创建工作。"
 author: josaw
 manager: AnnBe
-ms.date: 10/24/2018
+ms.date: 12/21/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: af945042c150fff1a95cdb046f2a712cb2c2c061
+ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
+ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/23/2018
 
 ---
 
@@ -75,7 +75,25 @@ Attract 包含一组默认的**公司行业**。 您可以通过在字段中输�
 
 ## <a name="postings"></a>过帐记录
 
-在激活工作后，便可以发布工作。 只有招聘人员和管理员可以发布工作。 工作可以发布到 Talent Careers（ Microsoft Dynamics 365 for Talent 求职站点）或 LinkedIn。 Attract 团队将持续努力与工作面板整合者合作。 因此，此列表一段时间后将扩展。
+在激活工作后，便可以发布工作。 只有招聘人员和管理员可以发布工作。 工作可以发布到 Talent Careers（ Microsoft Dynamics 365 for Talent 求职站点）或 LinkedIn。 
+
+> [!NOTE]
+> 将流程发布到 LinkedIn 的作业有三个重要事项需要说明。
+> 1. 发布到 LinkedIn 的作业作为“限制清单”作业发布。 限制清单作业不能跨 LinkedIn 站点提升。 如果您要从 Attract 提升发布到 LinkedIn 的限制清单作业，您应使用 LinkedIn 启用“作业包装”。 有关更多详细信息，请参阅以下链接或联系 LinkedIn 支持。
+>
+>    [作业包装的限制清单与津贴作业时隙](https://www.linkedin.com/help/recruiter/answer/79049/limited-listings-vs-premium-job-slots-for-job-wrapping)
+>
+>    [作业包装常见问题](https://www.linkedin.com/help/recruiter/answer/79050/job-wrapping-frequently-asked-questions)
+>
+> 1. 在将作业发布到 LinkedIn 时，Attract 根据作业传递 Microsoft 365 组织的名称。 LinkedIn 基于传递的组织名称将作业链接到 LinkedIn 端的公司。 如果您的作业根据 LinkedIn 上的错误公司列出，请检查您的 Microsoft 365 组织的名称是否与 LinkedIn 上的公司名称匹配。  
+>
+>    [更改地址联系人等信息](https://docs.microsoft.com/en-us/office365/admin/manage/change-address-contact-and-more)
+>
+>    如果您在执行此步骤后有问题，请与 LinkedIn 支持联系。 
+> 
+> 1. 由于当前的 LinkedIn 批处理作业发布流程，发布到 LinkedIn 的作业在 LinkedIn 中最多可能需要 24 小时显示给应聘者。
+
+Attract 团队正在继续努力与工作面板整合者合作。 此列表一段时间后将扩展。
 
 有关工作发布的详细信息，请参阅 [Attract 中的求职站点功能](./career-site.md)。
 

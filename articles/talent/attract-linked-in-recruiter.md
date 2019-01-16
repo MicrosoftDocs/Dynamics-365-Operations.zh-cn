@@ -3,7 +3,7 @@ title: "具有 LinkedIn 招聘人员的来源添加"
 description: "此主题提供有关如何使用机器学习获得工作和工作应聘者推荐的信息。"
 author: josaw
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: 2fc6bf25d303d7d8de8002a923a080b90dcfbeab
-ms.openlocfilehash: 106103e2c3d8f3d89aac5140174e5794da22536f
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/24/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -83,7 +83,12 @@ Attract 系统将列出，并有可以打开的两三个选项。
 
 您可以在 Attract 中查看应聘者的 LinkedIn 个人资料。 在 ATS 信息与其用户的 LinkedIn 信息匹配时，LinkedIn 小组件将显示应聘者的个人资料。
 
-若要查看个人资料，请从工作或人才池转到应聘者个人资料。 在应聘者个人资料中，请选择 **LinkedIn** 选项卡，模板小组件将加载。 使用模板小组件，指示这是否是正确的匹配。 如果不是，请查找正确的人员。 您还可以从此页将应聘者保存到您的 LinkedIn Recruiter 项目。
+若要查看个人资料，请从工作或人才池转到应聘者个人资料。 在应聘者个人资料中，请选择 **LinkedIn** 选项卡，模板小组件将加载。 您还可以从此页将应聘者保存到您的 LinkedIn Recruiter 项目。
+1. 如果 LinkedIn 找到了基于电子邮件和 LinkedIn 成员 ID 的匹配项（精确匹配），应聘者的个人资料将显示。 用户仍可以选择链接/取消链接个人资料。
+
+2. 如果 LinkedIn 根据电子邮件或成员 ID 找不到应聘者，它会显示基于应聘者姓名的可能的应聘者匹配项列表，用户可以从中选择一个并链接个人资料。  
+
+3. 如果 LinkedIn 基于姓名找不到任何应聘者，它将返回未找到匹配项。
 
 ### <a name="1-click-export"></a>一键导出 
 
@@ -117,11 +122,14 @@ Attract 系统将列出，并有可以打开的两三个选项。
 
 6.  选择**注释**选项卡查看在 Attract 中为此申请人获取的注释。
 
+> [!NOTE]
+> 如果应聘者未移过“应聘者”阶段，应聘者和申请数据不会同步到 LinkedIn Recruiter。
+
 ### <a name="inmail-history"></a>InMail 历史记录
 
 LinkedIn InMail 历史记录可以通过 LinkedIn Recruiter 的合同级别访问获取。 在启用后，您可以查看应聘者的整个 InMail 历史记录。 您还可以看到组织中还有哪些人与应聘者交换了 InMail，但是不能查看他们之间发送的消息。
 
-要查看 InMail 历史记录，转到应聘者的个人资料，转到 **LinkedIn** 选项卡并滚动到页面底部查看历史记录。 只有当应聘者响应了您的请求并且选择在 LinkedIn 中与您共享其个人资料时，您才可以查看 InMail 历史记录。 InMail 的消息每隔几小时与 Attract 同步一次。
+要查看 InMail 历史记录，转到应聘者的个人资料，转到 **LinkedIn** 选项卡并滚动到页面底部查看历史记录。 如果您与应聘者之间有讨论，您可以查看 InMail 历史记录。 InMail 的消息每隔几小时与 Attract 同步一次。
 
 ### <a name="notes-history"></a>注释历史记录 
 
@@ -131,7 +139,7 @@ LinkedIn 注释历史记录可以通过 LinkedIn Recruiter 的合同级别访问
 
 ### <a name="inmail-stub-profile"></a>InMail 存根模板
 
-InMail 存根模板可以通过 LinkedIn Recruiter 的合同级别访问获取。 如果应聘者同意与您组织中的任何用户共享其 LinkedIn 个人资料，您可以在 Attract 中跟踪该应聘者，并且新应聘者记录将为每个应聘者创建。
+InMail 存根模板可以通过 LinkedIn Recruiter 的合同级别访问获取。 如果应聘者同意与您组织中的任何用户共享其 LinkedIn 个人资料，您可以在 Attract 中跟踪该应聘者，并且新应聘者记录将为每个应聘者创建。 如果应聘者已经存在于系统中并具有电子邮件地址或已选择与招聘人员共享其地址，您可以查看应聘者的电子邮件地址。
 
 若要查看应聘者列表，请转到**人才池**查看系统创建的 LinkedIn 人才池。 此人才池包含从 LinkedIn 收到的应聘者及其存根模板的列表，显示应聘者的名字和姓氏。 如果应聘者选择共享其电子邮件地址，该候选人的电子邮件 ID 将显示。
 

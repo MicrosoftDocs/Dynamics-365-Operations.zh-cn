@@ -16,10 +16,10 @@ ms.author: tlefor
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.3
 ms.translationtype: HT
-ms.sourcegitcommit: a67b51ced4bea11be258aed359a758d88294beb1
-ms.openlocfilehash: bc48aa5ccf50705ef0c5087608798875953fe888
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 11/05/2018
 
 使用导航窗格（最左边的空格）菜单访问的所有页面，也通过**搜索**框提供。 按 Alt+G 将焦点移至**搜索**框，然后键入页面的名称或描述。
 
-![在搜索框中输入的“银行帐户”](media/6d08b0be32808221023e2aa92d69fd70.png  "在搜索框中输入的“银行帐户”")
+![在搜索框中输入的“银行帐户”](media/6d08b0be32808221023e2aa92d69fd70.png "在搜索框中输入的“银行帐户”")
 
 有关详细信息，请参阅[导航搜索](navigation-search.md)。
 
@@ -56,17 +56,17 @@ ms.lasthandoff: 11/05/2018
 
 您想要运行在“操作”窗格中**销售订单**选项卡上的**电子邮件通知**组中出现的**电子邮件通知日志**操作。
 
-![“操作”窗格上的电子邮件通知日志操作](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg  "“操作”窗格上的“电子邮件通知日志”操作")
+![“操作”窗格上的电子邮件通知日志操作](media/f0d78399e7fafcd85ded1cd1e3d34f3c.jpg "“操作”窗格上的“电子邮件通知日志”操作")
 
 一个选择是使用您的键盘。 按 Ctrl+F6 将焦点移至“操作”窗格，然后反复按 Tab 在所有选项卡和操作之间移动，直到**电子邮件通知日志**操作获得焦点。
 
 不过您还可以更直接地运行操作。 从页面的任何位置，按 Ctrl+Apostrophe (') 可以显示操作的搜索框。
 
-![操作的搜索框](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg  "操作的搜索框")
+![操作的搜索框](media/80f7e8c5ac412fdf2c8a12f7728f135a.jpg "操作的搜索框")
 
 在搜索框中，键入描述操作的文字。 操作已对您可用，您可以直接运行它。 例如，通过键入**电子邮件**、**通**（部分文字）或**日志**，您可以“跳”到电子邮件通知日志功能。
 
-![在“搜索”框内输入的“电子邮件”](media/image4.png "在“搜索”框内输入的“电子邮件”") 
+![在“搜索”框内输入的“电子邮件”](media/image4.png "在“搜索”框内输入的“电子邮件”")
 
 ![在“搜索”框内输入的“通”](media/image5.png "在“搜索”框内输入的“通”")
 
@@ -82,7 +82,7 @@ ms.lasthandoff: 11/05/2018
 
 但是，您可能会发现经常用于执行任务的某些字段未包括在默认的 Tab 序列中。 在这种情况下，如果您使用 Windows Narrator，您可以使用 Windows Narrator 的键盘操作来访问这些字段并检查其内容。 或者，您可以打开**选项**页上的**增强的 Tab 序列**选项。 此选项让所有可编辑的只读字段成为 Tab 序列的一部分。 然后，您可以使用页面个性化来创建自定义 Tab 序列，并忽略不必作为 Tab 序列一部分的字段。 有关个性化的详细信息，请参阅[打造个性化的用户体验](personalize-user-experience.md)。
 
-![“增强的选项卡序列”选项](media/8c0f12bbb3f26032997ef0ba95d89b6a.png  "“增强的选项卡序列”选项")
+![“增强的选项卡序列”选项](media/8c0f12bbb3f26032997ef0ba95d89b6a.png "“增强的选项卡序列”选项")
 
 ## <a name="form-patterns"></a>窗体模式
 

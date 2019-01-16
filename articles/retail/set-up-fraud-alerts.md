@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 6cca9e5b606f298d000354f6aeb01fbe2c8f2141
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -38,13 +38,13 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="turning-on-the-fraud-check-feature"></a>开启欺诈检查功能
 
-若要使用欺诈检查功能，[定义了](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-order-processing-options)呼叫中心渠道后，必须将渠道上的**启用订单完成**选项设置为**是**。 如果开启了订单完成，呼叫中心用户必须在销售订单页为创建的所有销售订单选择**完成**。 完成操作将导致打开**销售订单摘要**页。 用户在**销售订单摘要**页中输入必填的付款数据之后，选择**提交**以完成订单。 提交订单时，将触发欺诈检查功能，并自动验证系统中的所有有效规则。
+若要使用欺诈检查功能，[定义了](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-order-processing-options)呼叫中心渠道后，必须将渠道上的**启用订单完成**选项设置为**是**。 如果开启了订单完成，呼叫中心用户必须在销售订单页为创建的所有销售订单选择**完成**。 完成操作将导致打开**销售订单摘要**页。 用户在**销售订单摘要**页中输入必填的付款数据之后，选择**提交**以完成订单。 提交订单时，将触发欺诈检查功能，并自动验证系统中的所有有效规则。
 
-呼叫中心用户在选择**提交**之前，也可以手动保留订单以执行欺诈检查。 若要手动保留订单，请在**销售订单摘要**页中选择**保留** \> **手动欺诈保留**。 然后，将提示您输入注释以说明保留订单的原因。 此注释将在[订单保留](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds)工作台中显示，为检查保留订单的用户提供上下文，以确定是否应释放该订单。
+呼叫中心用户在选择**提交**之前，也可以手动保留订单以执行欺诈检查。 若要手动保留订单，请在**销售订单摘要**页中选择**保留** \> **手动欺诈保留**。 然后，将提示您输入注释以说明保留订单的原因。 此注释将在[订单保留](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds)工作台中显示，为检查保留订单的用户提供上下文，以确定是否应释放该订单。
 
 除了在渠道上配置**启用订单完成**选项，还必须在“呼叫中心参数”中配置欺诈检查功能。 转至**零售** \> **渠道设置** \> **呼叫中心设置** \> **呼叫中心参数**。 在**呼叫中心参数** 页上的**保留** 选项卡中，将**欺诈检查**选项设置为**是**。
 
-在**保留**选项卡中，还应定义[保留代码](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds)，该保留代码将应用于为了执行欺诈检查手动或自动保留的订单。 请在**手动欺诈保留代码**和**欺诈保留代码**字段中设置保留代码。 您可能会发现创建两个唯一的保留代码很有用，因为这样在保留工作台中工作的用户就可以轻松地筛选和区分自动保留与手动保留。
+在**保留**选项卡中，还应定义[保留代码](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds)，该保留代码将应用于为了执行欺诈检查手动或自动保留的订单。 请在**手动欺诈保留代码**和**欺诈保留代码**字段中设置保留代码。 您可能会发现创建两个唯一的保留代码很有用，因为这样在保留工作台中工作的用户就可以轻松地筛选和区分自动保留与手动保留。
 
 要让欺诈检查功能高效工作，还必须设置**最低分数**字段。 系统中定义的每个欺诈条件和规则都有一个分数。 检查销售订单是否有欺诈匹配项时，如果找到了一个或多个匹配项，将把分数相加以计算订单的欺诈总分。 如果订单的欺诈总分超过了**最低分数**字段的值，将自动保留该订单。 您可以选择使用**保留**选项卡上与分数有关的其他字段定义电子邮件分数、电话分数、邮政编码分数和邮政区号分数。 如果在**静态欺诈数据**页面中定义这些静态欺诈条件时不为其中的任何一个指定分数，系统将使用您在**呼叫中心参数**页的**保留**选项卡上指定的默认分数为这些条件评分。
 
@@ -68,5 +68,5 @@ ms.lasthandoff: 08/08/2018
 
 若要查看和管理已保留待执行欺诈检查的订单，请转至**零售** \> **客户** \> **订单保留**。 在**订单保留**页，选择列表中的一个条目，然后单击**订单保留**以查看包含有关保留原因的更详细的视图。 在**欺诈详细信息**快速选项卡上，可查看被发现与订单匹配的系统的欺诈条件和应用的分数。 如果订单已手动保留，则可通过查看**注释**快速选项卡上的**欺诈注释**部分，查看保留该订单的用户输入的任何注释。
 
-有关如何处理保留订单的详细信息，请参阅[订单保留](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/work-with-order-holds)。
+有关如何处理保留订单的详细信息，请参阅[订单保留](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds)。
 

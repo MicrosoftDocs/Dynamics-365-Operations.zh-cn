@@ -20,10 +20,10 @@ ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 41930e89a7cae5cdb84e728da47de3bc5de312ca
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -41,7 +41,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="anatomy-of-a-screen-layout-id"></a>屏幕布局 ID 的分类
 
-若要查找 Retail 中的屏幕布局，请转到 **Retail** > **渠道设置** > **POS 设置** > **POS** > **屏幕布局**。
+若要查找 Retail 中的屏幕布局，请转到 **Retail** \> **渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局**。
 
 ![Retail 中的屏幕布局页面](../retail/media/demo-screen-layouts-fig-2-1.png)
 
@@ -107,10 +107,8 @@ F3MGR
 
 \*这些额外的布局大小仅在 Adventure Works 和 Fabrikam 布局中提供。
 
-
->[!TIP]
-> POS 基于与可用于当前应用窗口的屏幕分辨率最接近的大小自动选择布局大小。 若要查找当前使用的屏幕布局 ID 和布局分辨率，在 Retail Modern POS (MPOS) 或 Retail Cloud POS 中，打开**设置**页，然后在**会话信息**部分查找。 您还可以看到当前应用程序或浏览器框架的实际窗口分辨率。 在具有此信息后，可以查找 Retail 中布局内容的源，方法是转到**渠道设置** > **POS 设置** > **POS** > **屏幕布局**。
-
+> [!TIP]
+> POS 基于与可用于当前应用窗口的屏幕分辨率最接近的大小自动选择布局大小。 若要查找当前使用的屏幕布局 ID 和布局分辨率，在 Retail Modern POS (MPOS) 或 Retail Cloud POS 中，打开**设置**页，然后在**会话信息**部分查找。 您还可以看到当前应用程序或浏览器框架的实际窗口分辨率。 在具有此信息后，可以查找 Retail 中布局内容的源，方法是转到**渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局**。
 
 ![Retail 和 POS 中的屏幕布局和布局分辨率/大小](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -126,10 +124,8 @@ F3MGR
 | Fabrikam        | 休斯敦  | 风格        | 绿色  | 浅 |
 | Contoso         | 波士顿   | 电子    | 红色    | 深色  |
 
-
->[!NOTE]
+> [!NOTE]
 > Adventure Works 和 Fabrikam 为两个旗舰品牌。 Contoso 可用，但并不提供所有布局。
-
 
 下图显示了三个虚构公司的欢迎页面和交易页面示例。
 
@@ -153,28 +149,26 @@ F3MGR
 
 已为各个屏幕布局提供了用户。 通过使用下表，您应该能够访问任何屏幕。 使用相应的操作员 ID 登录。
 
-| 公司         | 屏幕布局 ID | 人员          | 操作员 ID           |
-|-----------------|------------------|---------------   |------------------------|
-| Adventure Works | A3MGR            | 商店经理    | 000154、000137、000073 |
-| Adventure Works | A3CSH            | 出纳          | 000150、000175、000165 |
-| Adventure Works | A3STK            | 保管员      | 000155、000181、000152 |
-| Fabrikam        | F3MGR            | 商店经理    | 000160、000168、000163 |
-| Fabrikam        | F3CSH            | 出纳          | 000161、000113、000114 |
-| Fabrikam        | F3STK            | 保管员      | 000164、000112、000123 |
-| Contoso         | C3MGR            | 商店经理    | 000100、000111         |
-| Contoso         | C3CSH            | 出纳          | 000110、000120         |
-| Contoso         | 不适用   | 保管员      | 不适用         |
+| 公司         | 屏幕布局 ID | 人员       | 操作员 ID           |
+|-----------------|------------------|---------------|------------------------|
+| Adventure Works | A3MGR            | 商店经理 | 000154、000137、000073 |
+| Adventure Works | A3CSH            | 出纳       | 000150、000175、000165 |
+| Adventure Works | A3STK            | 保管员   | 000155、000181、000152 |
+| Fabrikam        | F3MGR            | 商店经理 | 000160、000168、000163 |
+| Fabrikam        | F3CSH            | 出纳       | 000161、000113、000114 |
+| Fabrikam        | F3STK            | 保管员   | 000164、000112、000123 |
+| Contoso         | C3MGR            | 商店经理 | 000100、000111         |
+| Contoso         | C3CSH            | 出纳       | 000110、000120         |
+| Contoso         | 不适用   | 保管员   | 不适用         |
 
-
->[!TIP]
+> [!TIP]
 > 为了达到最佳效果，请在相应的商店位置激活收银机，然后将公司设置为您计划在登录时使用的人员的公司。 这样，您可以帮助确保视觉形象和品牌图像与整个体验一致。 例如，如果您有兴趣查看出纳的 Fabrikam 布局，则应该在休斯敦商店激活收银机。
-
 
 <!-- Hiding until the content page is available on CustomerSource -->
 
 <!-- ## Reference icons and images -->
 
-<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail > Channel setup > POS setup > POS > Images**. -->
+<!-- The screen layouts, button grids, and visual profiles were created using images and icons that can be found in **Retail \> Channel setup \> POS setup \> POS \> Images**. -->
 
 <!-- ![Images in Dynamics 365 for Retail](../retail/media/demo-screen-layouts-fig-5-1.png) -->
 

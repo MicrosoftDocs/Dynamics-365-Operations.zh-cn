@@ -19,10 +19,10 @@ ms.author: prabhup
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 17981cef401085ad3af784950fff6260c2c6d9ee
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 653a388de1a972fae488abd81f349d1b138fc716
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -31,14 +31,15 @@ ms.lasthandoff: 08/08/2018
 [!include [banner](includes/banner.md)]
 
 对于任何零售商的一个常见方案是将产品销售给他们的客户或接受客户的退货，即使他们在商店并不存放特定的产品（换言之，该产品未分类到商店）。
+
 下面是一些典型方案：
 
 + 零售商不将它的所有产品存放在特定的商店中。 剩余的产品存储在仓库中。 商店的同事可以协助客户在仓库中搜索或浏览产品，将其添加到购物车，并通过选择交货方法（例如，装运到来自仓库的地址或让客户从当前商店或其他商店提取产品）完成结帐。
 + 零售商不将特定产品存放在商店中，或者在客户访问的商店中没有存货，但在其他商店提供该产品。 商店同事可以协助客户在其他商店中搜索或浏览产品，将其添加到购物车中，并通过选择交货方法完成结帐。
 + 零售商在特定的城市或邮政编码区范围内和附近有许多家商店，并且不想强迫客户将产品退回到购买产品时的同一家商店。 相反，客户可以将产品退回到任何一家商店。
 
-
 这些常见方案对使用 Dynamics 365 for Retail 的零售商提供。 借助 Retail，您可以：
+
 + 搜索或浏览其他商店的产品。
 + 搜索或浏览所有已发布的产品。
 + 创建现金和结转交易记录或客户订单。

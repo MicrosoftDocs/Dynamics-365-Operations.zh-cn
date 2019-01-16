@@ -20,10 +20,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 8dcba52526dd9dad1bd8b9753224f6386923f5a1
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 08/08/2018
 
 如果呼叫中心渠道中的**启用订单完成**标志已开启，则不必为已保留的订单应用付款。 相反，对于未保留的销售订单，应用付款之前，用户不能离开销售订单录入页。 当然，解除订单保留之前，需要付款。
 
-此外，呼叫中心用户还可以出于某种原因手动保留可疑订单。 也可以手动保留匹配有效欺诈条件和规则的订单。 有关这种订单保留的详细信息，请参阅[设置欺诈警示](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/set-up-fraud-alerts)。
+此外，呼叫中心用户还可以出于某种原因手动保留可疑订单。 也可以手动保留匹配有效欺诈条件和规则的订单。 有关这种订单保留的详细信息，请参阅[设置欺诈警示](https://docs.microsoft.com/dynamics365/unified-operations/retail/set-up-fraud-alerts)。
 
 ## <a name="viewing-and-managing-orders-that-are-on-hold"></a>查看和管理保留的订单
 

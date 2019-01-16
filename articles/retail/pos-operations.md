@@ -19,10 +19,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: c9f9368dc3e0fb4ed63250889016d6abe7d15a8c
-ms.openlocfilehash: 557e43c05f7015b04380f45fbd69f58a7250829a
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -42,7 +42,8 @@ ms.lasthandoff: 12/04/2018
 - **交易记录屏幕** – 操作可从在 POS 交易记录屏幕中配置的 POS 按钮网格调用。
 - **欢迎屏幕** – 操作可从在 POS 欢迎屏幕中配置的 POS 按钮网格调用。
 
-注意：下面列出的工序适用于最新版本的 Dynamics 365 for Retail。 某些工序可能已更改或可能不在以前版本中提供。
+> [!NOTE]
+> 下面列出的工序适用于最新版本的 Dynamics 365 for Retail。 某些工序可能已更改或可能不在以前版本中提供。
 
 | ID | 工序 | 说明 | 按钮网格 | 交易记录屏幕 | 欢迎屏幕 | 脱机可用 | 区域特定 |
 |----|-----------|-------------|-------------|--------------------|----------------|-------------------|-----------------|
