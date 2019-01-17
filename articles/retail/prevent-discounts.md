@@ -20,10 +20,10 @@ ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: eaee79e2a20ab443cf3779e8499bf29d63ad3dfc
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2018
+ms.lasthandoff: 01/16/2019
 
 ---
 
@@ -35,11 +35,11 @@ ms.lasthandoff: 08/29/2018
 
 可通过以下选项（位于所发布产品的**零售**选项卡上）将产品配置为阻止全部折扣或手动折扣。 也可以从零售类别层次结构的类别级别指定这些设置。
 
-**阻止所有折扣**：选择此选项将阻止为此产品应用所有类型的折扣。 包括促销，如组合购买和阈值折扣，以及 POS 用户执行销售期间应用的手动行和交易记录折扣。
+- **阻止所有折扣** – 选择此选项将阻止为此产品应用所有类型的折扣。 包括促销，如组合购买和阈值折扣，以及 POS 用户执行销售期间应用的手动行和交易记录折扣。
+- **阻止手动折扣** – 选择此选项将仅阻止 POS 用户执行销售期间应用的手动行和交易记录折扣。 选择了此选项的产品仍然有资格享受促销，如组合购买和数量以及阈值折扣。
 
-**阻止手动折扣**：选择此选项将仅阻止 POS 用户执行销售期间应用的手动行和交易记录折扣。 选择了此选项的产品仍然有资格享受促销，如组合购买和数量以及阈值折扣。
+> [!NOTE]
+> 这些设置不限制价格覆盖操作，因为此操作设置基础价格，不被视为折扣。
 
-**注意**：这些设置不限制价格覆盖操作，因为此操作设置基础价格，不被视为折扣。  
-
-[![“阻止折扣”字段](./media/prevent discounts.png)](./media/prevent discounts.png)
+[![“阻止折扣”字段](./media/prevent-discounts.png)](./media/prevent-discounts.png)
 

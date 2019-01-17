@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: 
 ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
-ms.openlocfilehash: 53c4b9a9c9dac1add7021d909b2c8900d11e5c0c
+ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.openlocfilehash: b7132dc9b3c78fa04fcfc38ea72b5678ad08deb2
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 # <a name="set-up-pay-invoice-scenarios"></a>设置付款发票方案
@@ -30,21 +30,18 @@ ms.lasthandoff: 12/04/2018
 [!include [banner](includes/banner.md)]
 
 Dynamics 365 for Retail 中的“付款发票”功能已扩展为支持：
+
 - 单一 POS 交易中多个销售订单发票的结算。
 - 各种客户发票类型的支付，包括普通发票、基于项目的发票和贷方通知单。
 
-要启用这些方案，必须按如下所述配置商店的功能配置文件。  
+要启用这些方案，必须按如下所述配置商店的功能配置文件。
 
-1. 转到 **Retail > 渠道设置 > POS 设置 > POS 配置文件 > 功能配置文件**，然后选择与您要更改的商店相链接的配置文件。
-
-1. 在**功能**选项卡上，根据需要配置以下参数。
+1. 转到**零售 \> 渠道设置 \> POS 设置 \> POS 配置文件 \> 功能配置文件**，然后选择与您要更改的商店关联的配置文件。
+2. 在**功能**选项卡上，根据需要配置以下参数。
 
     - **销售订单发票** - 选择**是**以允许用户在单一 POS 交易中支付一个或多个基于销售订单的发票。
-
     - **普通发票** - 选择**是**以允许用户在单一 POS 交易中支付一个或多个普通发票。
-
     - **项目发票** - 选择**是**以允许用户在单一 POS 交易中支付一个或多个基于项目的发票。
-
     - **销售订单贷方通知单** - 选择**是**以允许用户针对未结发票结算多个基于销售订单的贷方通知单，或者向未结贷方通知单的客户处理退款。
 
 > [!NOTE]

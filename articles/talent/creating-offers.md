@@ -3,7 +3,7 @@ title: "创建、审核和签署聘约"
 description: "此主题详细介绍如何使用 Dynamics 365 for Talent 为应聘者创建、审核和签署聘约。"
 author: josaw
 manager: AnnBe
-ms.date: 10/19/2018
+ms.date: 12/07/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -19,10 +19,10 @@ ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: f6b17dca13431a9d674920833b4a44141fac0bd8
+ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
+ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 
@@ -104,6 +104,11 @@ ms.lasthandoff: 10/22/2018
 -  您可以指定聘约到期日期。 应聘者应该在到期日期前接受或拒绝聘约。  系统会在聘约到期前 48 小时向应聘者发送提醒。
 
 -  您可能有想要加入聘约接受流程的其他一些文档。 您可以选择列出所需的文档类型。
+
+- 电子签名选项：如果 Adobe Sign 被选择作为首选电子签名方法，聘约创建者将需要连接其 Adobe Sign 许可证。 有两种方法可以执行此操作。 转到**聘约**中的用户**设置**，在**连接**下连接到 **Adobe Sign**。 或者，如果未根据用户设置建立连接，将要求您连接“将聘约发送给应聘者”屏幕。 
+
+> [!NOTE]
+> 用户只需连接其 Adobe Sign 帐户一次。 同一个用户许可证用于由同一用户发出的所有未来的聘约包。 
 
 -  您可以根据需要查看和编辑电子邮件模板。
 

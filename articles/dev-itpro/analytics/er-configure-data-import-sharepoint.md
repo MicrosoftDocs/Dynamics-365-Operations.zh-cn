@@ -3,13 +3,13 @@ title: "配置从 SharePoint 的数据导入"
 description: "本主题介绍如何从 Microsoft SharePoint 导入数据。"
 author: NickSelin
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 11/29/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-ax-platform
 ms.technology: 
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 220314
 ms.assetid: 2685df16-5ec8-4fd7-9495-c0f653e82567
@@ -18,17 +18,17 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 9f23f73e9a98fc50c622255bf6ed027c41ec8010
+ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
+ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
+ms.lasthandoff: 12/07/2018
 
 ---
 # <a name="configure-data-import-from-sharepoint"></a>配置从 SharePoint 的数据导入
 
 [!include[banner](../includes/banner.md)]
 
-若要使用电子申报 (ER) 框架从传入文件导入数据，必须配置用于为导入提供支持的 ER 格式，然后运行将该格式用作数据源且类型为**截止目标**的模型映射。 若要导入数据，您必须导航到要导入的文件。 用户可以手动选择传入文件。 在新的 ER 功能中，为了为从 Microsoft SharePoint 导入数据提供支持，可将此过程配置为无人值守过程。 您可以使用 ER 配置从 Microsoft SharePoint 文件夹中存储的文件导入数据。 本主题介绍如何完成导入从 SharePoint 到 Microsoft Dynamics 365 for Finance and Operations 的导入。 示例将供应商交易记录用作业务数据。
+若要使用电子申报 (ER) 框架从传入文件导入数据，必须配置用于为导入提供支持的 ER 格式，然后运行将该格式用作数据源且类型为**截止目标**的模型映射。 若要导入数据，您必须导航到要导入的文件。 用户可以手动选择传入文件。 在新的 ER 功能中，为了为从 Microsoft SharePoint 导入数据提供支持，可将此过程配置为无人值守。 您可以使用 ER 配置从 Microsoft SharePoint 文件夹中存储的文件导入数据。 本主题介绍如何完成导入从 SharePoint 到 Microsoft Dynamics 365 for Finance and Operations 的导入。 示例将供应商交易记录用作业务数据。
 
 ## <a name="prerequisites"></a>必备项
 要完成本主题中的示例，您必须具有以下访问权限：
@@ -40,65 +40,70 @@ ms.lasthandoff: 08/13/2018
     - 系统管理员
 
 - 已针对与 Finance and Operations 配合使用配置了 Microsoft SharePoint Server 实例的访问权限。
-- 1099 付款的 ER 格式和模型配置
+- 1099 付款的 ER 格式和模型配置。
 
 ### <a name="create-required-er-configurations"></a>创建所需的 ER 配置
-播放 **ER 从 Microsoft Excel 文件导入数据**任务指南，该任务指南属于 **7.5.4.3 获取/开发 IT 服务/解决方案产品 (10677)** 业务流程。. 这些任务指南将引导您完成设计和使用 ER 配置以便以交互方式从外部 Microsoft Excel 文件导入供应商交易记录这一过程。 有关详细信息，请参阅[分析 Microsoft Excel 格式的传入文档](parse-incoming-documents-excel.md)。 最后，您将获得：
+播放 **ER 从 Microsoft Excel 文件导入数据**任务指南，该任务指南属于 **7.5.4.3 获取/开发 IT 服务/解决方案产品 (10677)** 业务流程。. 这些任务指南将引导您完成设计和使用 ER 配置以便以交互方式从 Microsoft Excel 文件导入供应商交易记录这一过程。 有关详细信息，请参阅[分析 Microsoft Excel 格式的传入文档](parse-incoming-documents-excel.md)。 在您完成任务指南后，将具有以下设置。
 
-- ER 配置：
+#### <a name="er-configurations"></a>ER 配置
 
-    - ER 模型配置 **1099 付款模型**
-    - ER 格式配置**用于从 Excel 导入供应商的交易记录的格式**
+- ER 模型配置 **1099 付款模型**
+- ER 格式配置**用于从 Excel 导入供应商的交易记录的格式**
 
-    [![用于从 SharePoint 导入数据的 ER 配置](./media/GERImportFromSharePoint-01-Configurations.PNG)](./media/GERImportFromSharePoint-01-Configurations.PNG)
+![用于从 SharePoint 导入数据的 ER 配置](./media/GERImportFromSharePoint-01-Configurations.PNG)
 
-- 用于数据导入的传入文件示例：
+#### <a name="sample-of-the-incoming-file-for-data-import"></a>用于数据导入的传入文件示例
 
-    - Excel 文件 **1099import-data.xlsx**，其中包含应导入 Finance and Operations 的供应商交易记录
+- Excel 文件 **1099import-data.xlsx**，其中包含应导入 Finance and Operations 的供应商交易记录。
 
-    [![要从 SharePoint 导入的 Microsoft Excel 示例文件](./media/GERImportFromSharePoint-02-Excel.PNG)](./media/GERImportFromSharePoint-02-Excel.PNG)
-
+![要从 SharePoint 导入的 Microsoft Excel 示例文件](./media/GERImportFromSharePoint-02-Excel.PNG)
+    
 > [!NOTE]
 > 将选择用于导入供应商交易记录的格式作为默认模型映射。 因此，如果运行 **1099 付款模型**的模型映射，并且该模型映射类型为**截止目标**，则该模型映射运行此格式以从外部文件导入数据。 然后使用这些数据更新申请表。
 
-## <a name="configure-document-management-parameters"></a>配置文档管理参数
-1. 在**文档管理参数**页面上，配置您登录的公司中使用的 SharePoint Server 实例访问权限。 在此示例中，该公司为 USMF。
-2. 测试与 SharePoint Server 实例的连接性，确保您已被授予访问权限。
+## <a name="configure-access-to-sharepoint-for-file-storage"></a>配置对用于文件存储的 SharePoint 的访问
+要在 SharePoint 位置存储电子报表文件，您必须配置对当前公司将使用的 SharePoint Server 实例的访问。 在此示例中，该公司为 USMF。 有关说明，请参阅[配置 SharePoint 存储](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)。
 
-    [![文档管理设置 – SharePoint 服务器](./media/GERImportFromSharePoint-03-SharePointSetup.png)](./media/GERImportFromSharePoint-03-SharePointSetup.png)
+1. 完成[配置 SharePoint 存储](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)中的步骤。
+2. 打开配置的 SharePoint 站点。
+3. 创建以下可以存储传入的电子报告文件的文件夹：
 
-3. 打开配置的 SharePoint 站点，然后创建以下文件夹，用于存储传入的文件：
+     - 文件导入源（主）（以下屏幕截图中显示的示例）
+     - 文件导入源（备用）
 
-    - 文件导入源（主）
-    - 文件导入源（备用）
+    ![文件导入源（主）](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
 
-    [![文档管理设置 – SharePoint 服务器](./media/GERImportFromSharePoint-04-SharePointFolder1.png)](./media/GERImportFromSharePoint-04-SharePointFolder1.png)
+4. （可选）创建以下可以在文件导入后存储文件的文件夹。 
 
-    [![文档管理设置 – SharePoint 服务器](./media/GERImportFromSharePoint-05-SharePointFolder2.png)](./media/GERImportFromSharePoint-05-SharePointFolder2.png)
+    - 文件存档文件夹 - 此文件夹将是成功导入的文件。
+    - 文件警告文件夹 - 此文件夹将是包含警告的导入文件。
+    - 文件错误文件夹 - 此文件夹将是导入失败的文件。
 
-4. 在 Finance and Operations 中的**文档类型**页面上创建将用来访问您刚才创建的 SharePoint 文件夹的以下文档类型：
+4. 在 Finance and Operations 中，转到**组织管理 > 文档管理 > 文档类型**。
+5. 创建将用于访问您刚才创建的 SharePoint 文件夹的以下文档类型。 有关说明，请参阅[配置文档类型](../../fin-and-ops/organization-administration/configure-document-management.md#configure-document-types)。
 
-    - SP 主
-    - SP 备用
+|单据类型       | 组合              | 库位      | SharePoint 文件夹      |
+|--------------------|--------------------|---------------|------------------------|
+|SP 主             |文件                |SharePoint     |文件导入源（主）|
+|SP 备用             |文件                |SharePoint     |文件导入源（备用）|
+|SP 存档             |文件                |SharePoint     |文件存档文件夹|
+|SP 警告             |文件                |SharePoint     |文件警告文件夹|
+|SP 错误             |文件                |SharePoint     |文件错误文件夹|
 
-5. 对于创建的文档类型，在**组**字段中输入**文件**，在**位置**字段中输入 **SharePoint**。 然后输入 SharePoint 文件夹的地址：
-
-    - 对于 **SP 主**文档类型：文件导入源（主）
-    - 对于 **SP 备用**文档类型：文件导入源（备用）
-
-    [![SharePoint 设置 – 新文档类型](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
+![SharePoint 设置 – 新文档类型](./media/GERImportFromSharePoint-06-SharePointDocumentTypesSetup.png)
 
 ## <a name="configure-er-sources-for-the-er-format"></a>为 ER 格式配置 ER 源
 1. 单击**组织管理** \> **电子申报** \> **电子申报来源**。
 2. 在**电子申报来源**页面中，使用配置的 ER 格式为数据导入配置源文件。
 3. 定义一个文件名掩码，以便导入 .xlsx 扩展名的文件。 该文件名掩码可选，仅当定义了才使用。 只能为每个 ER 定义一种掩码。
-4. 选择前面创建的两个 SharePoint 文件夹。
+4. 如果存在许多要导入的文件，并且导入顺序不重要，将**导入文件前先进行排序**更改为**不排序**
+5. 选择前面创建的所有 SharePoint 文件夹。
 
     [![ER 文件来源设置](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)](./media/GERImportFromSharePoint-07-FormatSourceSetup.PNG)
 
 > [!NOTE]
 > - 将为每家申请公司分别定义 ER *来源*。 相反，ER *配置*则由多家公司共用。
-> - 如果删除 ER 格式的 ER 来源设置，也将删除所有连接的文件的状态（见下文）。
+> - 如果删除 ER 格式的 ER 来源设置，也将通过确认删除所有连接的文件的状态（见下文）。
 
 ## <a name="review-the-files-states-for-the-er-format"></a>检查 ER 格式的文件状态
 1. 在**电子申报来源**页中，选择**来源的文件状态**检查为当前 ER 格式配置的文件来源的内容。
@@ -114,13 +119,13 @@ ms.lasthandoff: 08/13/2018
 
     [![SharePoint 内容 – 要导入的 Microsoft Excel 文件](./media/GERImportFromSharePoint-08-UploadFile.png)](./media/GERImportFromSharePoint-08-UploadFile.png)
 
-2. 在 Finance and Operations 中的**源的文件状态**页上，选择**刷新**以刷新页面。 请注意，此窗体中将显示已上传到 SharePoint 的 Excel 文件，其状态为**就绪**。 现在支持以下状态：
+2. 在 Finance and Operations 中的**源的文件状态**页上，选择**刷新**以刷新页面。 请注意，此页面中将显示已上传到 SharePoint 的 Excel 文件，其状态为**就绪**。 现在支持以下状态：
 
     - **就绪** – 为 SharePoint 文件夹中的每个新文件自动分配的状态。 此状态表示该文件已准备就绪，可以导入。
     - **正在导入** – 导入过程（如果正在同时运行多个过程）将锁定文件以防其他过程使用时 ER 报表自动分配的状态。
     - **已导入** – 文件导入成功完成时 ER 报表自动分配的状态。 此状态表示已从配置的文件来源（SharePoint 文件夹）删除了导入的文件。
     - **失败** – 文件导入完成，但出现错误或异常时，ER 报表自动分配的状态。
-    - **保留** – 用户在此窗体中手动分配的状态。 此状态表示暂时不导入该文件。 此状态可用于推迟导入某些文件。
+    - **保留** – 用户在此页面中手动分配的状态。 此状态表示暂时不导入该文件。 此状态可用于推迟导入某些文件。
 
     [![所选来源的 ER 文件状态页](./media/GERImportFromSharePoint-09-FileStatesForm.png)](./media/GERImportFromSharePoint-09-FileStatesForm.png)
 
@@ -130,19 +135,15 @@ ms.lasthandoff: 08/13/2018
 
     [![所选来源的 ER 文件状态页](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)](./media/GERImportFromSharePoint-10-SelectModelMapping.PNG)
 
-3. 选择**运行**以运行所选模型映射。 因为您为 ER 格式配置了文件源，所以可以根据需要更改**文件源**选项的设置。 如果保留此选项的设置，将从配置的源（本示例中为 SharePoint 文件夹）导入 .xslx 文件。
+3. 选择**运行**以运行所选模型映射。 因为您为 ER 格式配置了文件源，所以，如果需要，可以更改**文件源**选项的设置。 如果保留此选项的设置，将从配置的源（本示例中为 SharePoint 文件夹）导入 .xslx 文件。
 
     在本示例中，仅导入一个文件。 但是，如果有多个文件，将按这些文件添加到 SharePoint 文件夹的顺序选择导入。 每次运行 ER 格式都将导入选择的一个文件。
 
     [![运行 ER 模型映射](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)](./media/GERImportFromSharePoint-11-RunModelMapping.PNG)
 
-4. 该模型映射可以以无人值守模式运行。 在这种情况下，只要批处理运行该 ER 格式，都将从配置的文件源导入一个文件。 使用以下代码实施此批处理运行。
+4. 该模型映射可以以无人值守模式运行。 在这种情况下，只要批处理运行该 ER 格式，都将从配置的文件源导入一个文件。
 
-    ```
-    ERObjectsFactory::createMappingDestinationRunByImportFormatMappingId().run()
-    ```
-
-    如果将一个文件从 SharePoint 文件夹成功导入，将在该文件夹中删除这个文件。
+    将文件从 SharePoint 文件夹成功导入时，它将从该文件夹中删除并移到存储成功导入文件的文件夹或存储包含警告的导入文件的文件夹。 否则，它将移到失败文件的文件夹或如果未设置失败文件的文件夹将留在此文件夹中。 
 
 5. 输入凭证 ID（如 **V-00001**），然后选择**确定**。
 
@@ -178,7 +179,7 @@ ms.lasthandoff: 08/13/2018
 8. 选择**运行**以运行修改后的 ER 模型映射。
 9. 输入凭证 ID（如 **V-00002**），然后选择**确定**。
 
-    请注意，信息日志中包含用于说明 SharePoint folder 文件夹中的文件包含不正确的供应商科目，因此不能导入的通知。
+    请注意，信息日志中包含用于说明 SharePoint 文件夹中存在包含不正确的供应商科目的文件，因此不能导入的通知。
 
     [![运行 ER 模型映射](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)](./media/GERImportFromSharePoint-17-ModelMappingRunFinished.PNG)
 
@@ -186,10 +187,9 @@ ms.lasthandoff: 08/13/2018
 
     [![所选来源的 ER 文件状态页](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)](./media/GERImportFromSharePoint-18-FileStatesForm.PNG)
 
-    **导入格式的源日志**部分指示导入过程失败，文件仍然在 SharePoint 文件夹中（**已删除**复选框未选中）。 如果在 SharePoint 中通过添加正确的供应商代码修改该文件，然后在**导入格式的源日志**部分中将该文件的状态从**失败**更改为**就绪**，则可再次导入该文件。
+   **导入格式的源日志**部分指示导入过程失败，文件在“文件错误”SharePoint 文件夹中（**已删除**复选框未选中）。 如果您通过添加适当的供应商代码在 SharePoint 上修复了此文件，并将其移到“文件导入源（主）”SharePoint 文件夹，您可以再次导入该文件。
 
-11. 检查**文件导入源（主）** SharePoint 文件夹。 请注意，未导入的 Excel file 文件仍在该文件夹中。
-12. 在 Finance and Operations 中，选择**应付帐款** \> **定期任务** \> **1099税** \> **1099 的供应商结算**，在**开始日期**和**结束日期**字段中输入相应值，然后选择**手动 1099 交易记录**。
+11. 在 Finance and Operations 中，选择**应付帐款** \> **定期任务** \> **1099税** \> **1099 的供应商结算**，在**开始日期**和**结束日期**字段中输入相应值，然后选择**手动 1099 交易记录**。
 
     只有凭证 V-00001 的交易记录。 即使在 Excel 文件中发现了上次导入的交易记录的错误，也没有凭证 V-00002 的交易记录。
 

@@ -51,7 +51,7 @@ ms.lasthandoff: 08/08/2018
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">入职项目</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">准备实施</a></p>
-  
+
 <h3><a href="../financials/index.md">财务管理</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">应付帐款</a></p>
 <p><a href="../financials/accounts-receivable/accounts-receivable.md">应收帐款</a></p>
@@ -65,7 +65,7 @@ ms.lasthandoff: 08/08/2018
 <p><a href="../financials/public-sector/public-sector-functionality.md">公共部门</a></p>
 <p><a href="../dev-itpro/lcs-solutions/country-region.md">地区监管功能</a></p>
 
-<H3><a href="hr/hr-landing-page.md">人力资源</a></h3>
+<h3><a href="hr/hr-landing-page.md">人力资源</a></h3>
 <p><a href="../talent/manage-benefit-program.md">福利</a></p>
 <p><a href="../talent/performance-management-overview.md">员工发展和培训</a></p>
 <p><a href="../talent/questionnaires.md">调查表</a></p>

@@ -18,10 +18,10 @@ ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 237ff2935ab8e2dee90bd716179b45c5fca455c3
+ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/18/2018
 
 ---
 
@@ -31,10 +31,12 @@ ms.lasthandoff: 08/08/2018
 
 本文列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 5 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。 
 
-<a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 5 月 - 所有语言）
-------------------------------------------------------------------------------------------------
+## <a name="task-guides-in-the-may-2016---all-languages-apqc-unified-library-for-microsoft-dynamics-ax"></a>Microsoft Dynamics AX 的 APQC 标准库中的任务指南（2016 年 5 月 - 所有语言）
 
-（2016 年 5 月）APQC 标准库包含旨在用于帮助 Microsoft Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月发布的任务指南。 （2016 年 2 月）APQC 标准库中发布的任务指南的本地化版本在此库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。 <strong>注意︰</strong>业务流程建模器 (BPM) 行的标题旁边的星号 (<strong>\</strong>*) 表示该业务流程的任务指南是为 Dynamics AX 2016 年 5 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。
+（2016 年 5 月）APQC 标准库包含旨在用于帮助 Microsoft Dynamics AX 2016 年 5 月更新和 Microsoft Dynamics AX 2016 年 2 月发布的任务指南。 （2016 年 2 月）APQC 标准库中发布的任务指南的本地化版本在此库中提供。 有关如何将帮助系统连接到任务指南库的详细信息，请参阅[帮助入门](help-overview.md)。
+
+> [!NOTE]
+> 业务流程建模器 (BPM) 行的标题旁边的星号 (\*) 表示该业务流程的任务指南是为 Dynamics AX 2016 年 5 月更新创建，不支持 Microsoft Dynamics AX 的早期版本。
 
 ### <a name="countryregion-functionality"></a>国家/地区功能
 
@@ -62,15 +64,15 @@ ms.lasthandoff: 08/08/2018
 
 ### <a name="electronic-reporting"></a>电子申报
 
-|                                  BPM line / 磁墨字符识别行                                  | 国家/地区 |
+| BPM line / 磁墨字符识别行                                                                   | 国家/地区 |
 |----------------------------------------------------------------------------|----------------|
-|                         ER 配置目标                          |     全局     |
-|     ER 设计以 OPENXML 格式生成报表的配置     |     全局     |
-| ER 使用格式配置生成付款的电子单据 |     全局     |
-|             ER 从 Lifecycle Services 导入配置              |     全局     |
-|               <strong>\</strong>*ER 选择服务提供商                |     全局     |
-|   ER 通过采用该格式的新的基本版本升级格式    |     全局     |
-|             ER 上载配置到 Lifecycle Services              |     全局     |
+| ER 配置目标                                                  | 全局         |
+| ER 设计以 OPENXML 格式生成报表的配置         | 全局         |
+| ER 使用格式配置生成付款的电子单据 | 全局         |
+| ER 从 Lifecycle Services 导入配置                          | 全局         |
+| \*ER 选择服务提供商                                               | 全局         |
+| ER 通过采用该格式的新的基本版本升级格式      | 全局         |
+| ER 上载配置到 Lifecycle Services                          | 全局         |
 
 ### <a name="human-capital-management"></a>人力资本管理
 
@@ -176,25 +178,21 @@ ms.lasthandoff: 08/08/2018
 
 ### <a name="warehouse-and-transportation"></a>仓库和运输
 
-|                                     BPM line / 磁墨字符识别行                                     | 国家/地区 |
-|----------------------------------------------------------------------------------|----------------|
-|                            配置波次处理                             |     全局     |
-| <strong>\</strong>*完工入库到非牌照控制的库位 |     全局     |
-|                      设置最小-最大补货流程                      |     全局     |
-|                             设置集装化                              |     全局     |
-|                              设置手动包装                               |     全局     |
-|                  设置物料的运输约束                   |     全局     |
-|                <strong>\</strong>*设置仓库工作策略                 |     全局     |
+|                                     BPM line / 磁墨字符识别行                    | 国家/地区 |
+|-----------------------------------------------------------------|----------------|
+| 配置波次处理                                       | 全局         |
+| \*完工入库到非牌照控制的库位 | 全局         |
+| 设置最小-最大补货流程                          | 全局         |
+| 设置集装化                                         | 全局         |
+| 设置手动包装                                           | 全局         |
+| 设置物料的运输约束                   | 全局         |
+| \*设置仓库工作策略                                | 全局         |
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [新任务指南（2016 年 2 月）](new-task-guides-available-february-2016.md)
 
 [新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
 
 [新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
-
-
-
 

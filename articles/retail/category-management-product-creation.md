@@ -59,4 +59,3 @@ ms.lasthandoff: 08/08/2018
 
 ![“更新产品”对话框](media/NewUpdateProductsEnhancedView.PNG)
 
-

@@ -147,11 +147,13 @@
       href: POS-search-improvements.md
     - name: POS 中的库存查找
       href: product-variants-POS.md
+    - name: POS 中封存和恢复的交易记录
+      href: pos-suspend-recall-transactions.md
     - name: 硬件外围设备
       items:
-        - name: 零售外围设备
+        - name: Retail 外围设备
           href: retail-peripherals-overview.md
-        - name: 零售外围设备模拟器
+        - name: Retail 外围设备模拟器
           href: dev-itpro/retail-peripheral-simulator.md
         - name: 将外围设备连接到 POS
           href: define-maintain-channel-clients-registers-hw-stations.md
@@ -480,6 +482,8 @@
           href: dev-itpro/overview-upgrade-n-minus1.md
         - name: 分阶段推出 (N-1) 安装、配置和直接转换
           href: dev-itpro/n-1-installation-configuration.md
+        - name: 将 Retail 渠道扩展升级到最新的 Retail SDK
+          href: dev-itpro/retailSDK-update.md
     - name: 实现指南
       items:
         - name: 设备管理实现指南

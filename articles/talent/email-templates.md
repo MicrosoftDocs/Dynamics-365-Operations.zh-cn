@@ -19,10 +19,10 @@ ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 85581968d9d242460117693174acbf906463997f
+ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
+ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
 ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
+ms.lasthandoff: 01/04/2019
 
 ---
 
@@ -30,6 +30,9 @@ ms.lasthandoff: 10/22/2018
 [!include[banner](../includes/banner.md)]
 
 通过使用电子邮件模板库，管理员可以为通过 Microsoft Dynamics 365 for Talent: Attrac 发送的所有电子邮件创建统一的主题和品牌。 管理员还可以组织一个其他用户可以使用的电子邮件内容模板的集合。 招聘团队可以在其工作流中使用这些模板来更高效地发送电子邮件。 Attract 中的有些电子邮件被配置为自动发送，管理员可以使用电子邮件模板库来自定义这些电子邮件的内容。
+
+> [!NOTE]
+> 若要使用电子邮件模板，您的组织必须具有综合招聘附件。
 
 ## <a name="global-template-configurations"></a>全局模板配置
 

@@ -3,7 +3,7 @@ title: "财务维度"
 description: "本主题介绍财务维度的不同类型以及如何设置。"
 author: aprilolson
 manager: AnnBe
-ms.date: 10/26/2018
+ms.date: 01/03/2019
 ms.topic: article
 ems.prod: 
 ms.service: dynamics-ax-applications
@@ -18,10 +18,10 @@ ms.author: aolson
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.1
 ms.translationtype: HT
-ms.sourcegitcommit: 003b7eac16c1be50bc982da0672df42a87a69722
-ms.openlocfilehash: bda8b14b1752ca67fc4eeec6d6345dcf3968179d
+ms.sourcegitcommit: 92d1f2997ca8ea1bd47dfe47d91bf7f6234833b0
+ms.openlocfilehash: 2fb325e143eff067e1c9d0f23a1f913fc2dc36f3
 ms.contentlocale: zh-cn
-ms.lasthandoff: 11/05/2018
+ms.lasthandoff: 01/03/2019
 
 ---
 
@@ -93,6 +93,8 @@ ms.lasthandoff: 11/05/2018
 此功能由维度中的设置控制。 此设置的名称为**在创建的每个新 DimensionName 上将值复制到此维度**，其中 **DimensionName** 是维度的名称。 默认情况下，已关闭此功能。 但是，随时可以打开。
 
 如果维度已经有记录，打开此功能时，将更新主记录。 但是，不更新现有单据和交易记录。
+
+如果您使用模板创建主记录，请确保主维度的模板值为空。 例如，如果您从模板创建客户，则请确保模板中的客户维度为空。 当您创建新客户时，客户维度值将默认为新客户编号。  
 
 ## <a name="derived-dimensions"></a>派生的维度
 

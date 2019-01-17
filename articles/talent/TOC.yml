@@ -7,6 +7,10 @@
         - name: 新增功能或更改的功能
           href: whats-new.md
           items:
+            - name: Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改的功能
+              href: whats-new-talent-december-14.md
+            - name: Dynamics 365 for Talent Core HR（2018 年 12 月 6 日）中的新增功能或更改的功能
+              href: whats-new-talent-december-6.md
             - name: Dynamics 365 for Talent Core HR（2018 年 11 月 27 日）中的新增功能或更改的功能
               href: whats-new-talent-november-27.md
             - name: Dynamics 365 for Talent Core HR（2018 年 11 月 15 日）中的新增功能或更改的功能
@@ -71,6 +75,8 @@
     - name: 管理休假和缺勤
       href: leave-absence-overview.md
       items:
+        - name: 休假和缺勤概念
+          href: leave-absence-concepts.md
         - name: 根据工作时数累积休假时间
           href: leave-accrue-hours-worked.md
         - name: 工作时间日历
@@ -128,10 +134,13 @@
         - name: 设置培训课程
           href: courses.md
     - name: 定义和管理福利计划
-      href: manage-benefit-program.md
-    - name: 福利资格策略
-      href: benefit-eligibility-policies.md
       items:
+        - name: 管理福利计划
+          href: manage-benefit-program.md
+        - name: 福利资格策略
+          href: benefit-eligibility-policies.md
+        - name: 创建平价医疗法案 (ACA) 报告
+          href: generate-aca-reports.md
         - name: 管理借给工作人员的物品
           href: loan-items.md
     - name: 使用调查表收集信息
@@ -276,8 +285,6 @@
           href: create-envi-powerapps-admin-ctr.md
         - name: Talent 客户端断开连接
           href: client-disconnects.md
-        - name: 处理数据库备份的方式
-          href: database-backups.md
         - name: 避免职位层次结构的文本截断并导出到 Visio
           href: avoid-text-truncation-position-hierarchy-visio.md
         - name: 执行薪酬流程

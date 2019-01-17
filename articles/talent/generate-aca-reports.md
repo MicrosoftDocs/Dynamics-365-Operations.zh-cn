@@ -3,7 +3,7 @@ title: "创建平价医疗法案 (ACA) 报告"
 description: "功能可用于协助需要跟踪表单 1095-B 和 1095-C 上申报的信息的雇主支持平价医疗法案的雇主授权单。请注意，仅可为美国的法人启用此功能。"
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 12/17/2018
 ms.topic: article
 ms.prod: 
 ms.service: dynamics-365-talent
@@ -18,10 +18,10 @@ ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 25d2b8326bba69ac627f3fa7e05a6c850bd04c91
+ms.sourcegitcommit: f1456b91d6fc29ec65d0e9382d3f5f7682a8b516
+ms.openlocfilehash: 0ea2824093d33b9f233cd992399de22198bfc27a
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 12/17/2018
 
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>创建平价医疗法案 (ACA) 报告
@@ -54,7 +54,7 @@ ms.lasthandoff: 08/08/2018
 ## <a name="generate-1095b-and-1095c-forms"></a>生成 1095B 和 1095C 表单
 您还可以从产品内部生成 109-B 和 109-C 表单，并将其分配到每位员工。 电子生成 1095-C 和可发送到 IRS 的相应的 1094-C 传送单也可以从系统中生成。  
 
-生成 1095-C 表单时，输入相应的日历或纳税年度以及您是否要打印两页或三页表单。 仅当雇主提供自保型保险且员工的投保依赖方（包括自己在内）超过六位时，才需要三页表单。 生成两页表单时，系统将自动检测员工是否有 6 位以上投保依赖方，且在生成表单时不会包括此员工。 此外，在生成三页表单时，系统将仅包括有六位以上投保依赖方的员工。
+在生成 1095-C 表单时，请进入相应的纳税年度并指示是否应隐藏社会保险号。 如果您为 500 名以上员工打印 1095-C 表单，您将收到多个 PDF 文件。 建议您在**文档管理参数**窗口中将**最大文件大小**增加到 150 MB。
 
 ## <a name="viewing-information"></a>查看信息
 您可以使用**工作人员的平价医疗保险范围**页查看哪些员工已分配到各保险范围组、哪些员工不需要包括在报表上以及哪些员工未分配。
