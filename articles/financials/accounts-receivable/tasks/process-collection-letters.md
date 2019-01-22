@@ -26,7 +26,6 @@ ms.lasthandoff: 12/06/2018
 # <a name="process-collection-letters"></a>处理催款单
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 该过程说明如何创建、打印并过帐收款单。 本任务使用 USMF 公司进行演示。
 
