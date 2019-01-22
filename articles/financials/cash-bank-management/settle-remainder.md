@@ -14,21 +14,19 @@ ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
-ms.search.validFrom: 2018-11-30
-ms.dyn365.ops.version: 8.1.1
+ms.search.validFrom: 2018-12-01
+ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
+ms.sourcegitcommit: 18eaadf417ce6d0aacf0b13b3e4f857e06031e66
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/06/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 
 # <a name="settle-remainder"></a><span data-ttu-id="5af50-103">结算余额</span><span class="sxs-lookup"><span data-stu-id="5af50-103">Settle remainder</span></span>
 
 [!include [banner](../includes/banner.md)]
-
-[!include [preview banner](../includes/preview-banner.md)]
 
 <span data-ttu-id="5af50-104">您可以通过将余额应用到会计科目或其他客户来结算结算活动的剩余金额。</span><span class="sxs-lookup"><span data-stu-id="5af50-104">You can settle the amount remaining from settlement activity by applying that amount to a ledger account or another customer.</span></span> <span data-ttu-id="5af50-105">您可以在结算输入到日记帐的金额时，或者在只结算未结交易记录时结算余额。</span><span class="sxs-lookup"><span data-stu-id="5af50-105">You can settle the remainder when you are settling amounts entered into a journal or when you are only settling open transactions.</span></span>
 

@@ -17,16 +17,15 @@ ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
+ms.sourcegitcommit: 18eaadf417ce6d0aacf0b13b3e4f857e06031e66
+ms.openlocfilehash: 8a3f74d2891c050294e089eae14ba2386449d7c9
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/06/2018
+ms.lasthandoff: 01/22/2019
 
 ---
 # <a name="process-collection-letters"></a><span data-ttu-id="4c13e-103">处理催款单</span><span class="sxs-lookup"><span data-stu-id="4c13e-103">Process collection letters</span></span>
 
 [!include [banner](../../includes/banner.md)]
-[!include [preview banner](../../includes/preview-banner.md)]
 
 <span data-ttu-id="4c13e-104">该过程说明如何创建、打印并过帐收款单。</span><span class="sxs-lookup"><span data-stu-id="4c13e-104">This procedure shows how to create, print, and post collection letters.</span></span> <span data-ttu-id="4c13e-105">本任务使用 USMF 公司进行演示。</span><span class="sxs-lookup"><span data-stu-id="4c13e-105">This task uses the USMF demo company.</span></span>
 
