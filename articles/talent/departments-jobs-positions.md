@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 部门、作业和职位在人力资源中维护的组织元素。 本主题介绍有关这些元素的概念信息。 
 
