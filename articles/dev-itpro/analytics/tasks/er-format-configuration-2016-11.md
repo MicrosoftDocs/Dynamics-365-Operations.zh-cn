@@ -17,10 +17,10 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
+ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 6fa5023a29c95ab9f10d8aacd51edc1a06c3c152
 ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
+ms.lasthandoff: 02/06/2019
 
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a><span data-ttu-id="2ded3-103">ER 创建格式配置（2016 年 11 月）</span><span class="sxs-lookup"><span data-stu-id="2ded3-103">ER Create a format configuration (November 2016)</span></span>
@@ -35,8 +35,10 @@ ms.lasthandoff: 12/18/2018
 2. <span data-ttu-id="2ded3-109">单击**申报配置**。</span><span class="sxs-lookup"><span data-stu-id="2ded3-109">Click **Reporting configurations**.</span></span>
 3. <span data-ttu-id="2ded3-110">在树结构中，选择**付款（简化模型）**。</span><span class="sxs-lookup"><span data-stu-id="2ded3-110">In the tree, select **Payments (simplified model)**.</span></span>
 4. <span data-ttu-id="2ded3-111">单击**创建配置**，以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="2ded3-111">Click **Create configuration** to open the drop dialog.</span></span>
+
  > [!NOTE]
  > <span data-ttu-id="2ded3-112">如果您没有看到**创建配置**，您必须在**电子申报参数**页启用设计模式。</span><span class="sxs-lookup"><span data-stu-id="2ded3-112">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span> 
+ 
 5. <span data-ttu-id="2ded3-113">在**新建**字段中，输入**基于数据模型付款模型的格式**。</span><span class="sxs-lookup"><span data-stu-id="2ded3-113">In the **New** field, enter **Format based on data model PaymentModel**.</span></span>
 6. <span data-ttu-id="2ded3-114">在**名称**字段中，键入**银行自动对帐系统（英国虚构）**。</span><span class="sxs-lookup"><span data-stu-id="2ded3-114">In the **Name** field, type **BACS (UK fictitious)**.</span></span>
 7. <span data-ttu-id="2ded3-115">在**描述**字段中，键入**银行自动对帐系统供应商付款格式（英国虚拟）**。</span><span class="sxs-lookup"><span data-stu-id="2ded3-115">In the **Description** field, type **BACS vendor payment format (UK fictitious)**.</span></span>
@@ -44,6 +46,7 @@ ms.lasthandoff: 12/18/2018
     * <span data-ttu-id="2ded3-119">电子文档的特定格式可进行定义。</span><span class="sxs-lookup"><span data-stu-id="2ded3-119">A particular format of electronic document can be defined.</span></span> <span data-ttu-id="2ded3-120">如果您想要选择运行时间的格式，则将此字段保留为空。</span><span class="sxs-lookup"><span data-stu-id="2ded3-120">Leave this field blank if you want to select a format at run-time.</span></span>  
 8. <span data-ttu-id="2ded3-121">在**数据模型定义**字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="2ded3-121">In the **Data model definition** field, enter or select a value.</span></span>
 9. <span data-ttu-id="2ded3-122">单击**创建配置**。</span><span class="sxs-lookup"><span data-stu-id="2ded3-122">Click **Create configuration**.</span></span> <span data-ttu-id="2ded3-123">已创建新的配置。</span><span class="sxs-lookup"><span data-stu-id="2ded3-123">A new configuration has been created.</span></span> <span data-ttu-id="2ded3-124">草稿版本可用于存储用于管理电子文档的设计格式。</span><span class="sxs-lookup"><span data-stu-id="2ded3-124">The draft version can be used to store the design format for managing electronic documents.</span></span>  
+
  > [!NOTE]
  > <span data-ttu-id="2ded3-125">如果您没有看到**创建配置**，您必须在**电子申报参数**页启用设计模式。</span><span class="sxs-lookup"><span data-stu-id="2ded3-125">If you don't see **Create configuration**, you must enable design mode on the **Electronic reporting parameters** page.</span></span>
 
