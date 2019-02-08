@@ -19,10 +19,10 @@ ms.search.region: Global
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b40b81fc24086e73b54cfe0cb5e6a81ec5838ab5
+ms.sourcegitcommit: 901ab6e309754338925c34c2cbecb3b83a0b0452
+ms.openlocfilehash: 48787d1eb662322c726698573b27023ae9eed56f
 ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
+ms.lasthandoff: 02/07/2019
 
 ---
 
@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 <span data-ttu-id="02f69-104">此主题介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。</span><span class="sxs-lookup"><span data-stu-id="02f69-104">This topic describes the conceptual elements that a job can include and provides examples of how you can use those elements in your organization.</span></span> 
 
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/08/2018
 ## <a name="job-titles"></a><span data-ttu-id="02f69-115">职称</span><span class="sxs-lookup"><span data-stu-id="02f69-115">Job titles</span></span>
 <span data-ttu-id="02f69-116">创建工作前，您必须为这些工作设置职称。</span><span class="sxs-lookup"><span data-stu-id="02f69-116">Before you create jobs, you must set up titles for those jobs.</span></span> <span data-ttu-id="02f69-117">职位从这些职位所关联的作业中继承工作职称。</span><span class="sxs-lookup"><span data-stu-id="02f69-117">Positions inherit job titles from the jobs that the positions are associated with.</span></span> 
 
-<span data-ttu-id="02f69-118">可使用**职称**页面维护职称，可通过使用搜索功能打开该页面。</span><span class="sxs-lookup"><span data-stu-id="02f69-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="02f69-119">在 **职称** 页面中，输入计划用于工作的职称。</span><span class="sxs-lookup"><span data-stu-id="02f69-119">On the **Titles **page, enter the titles that you plan to use for your jobs.</span></span>
+<span data-ttu-id="02f69-118">可使用**职称**页面维护职称，可通过使用搜索功能打开该页面。</span><span class="sxs-lookup"><span data-stu-id="02f69-118">Maintain job titles using the **Titles** page, which you can open by using the Search function.</span></span> <span data-ttu-id="02f69-119">在 **职称** 页面中，输入计划用于工作的职称。</span><span class="sxs-lookup"><span data-stu-id="02f69-119">On the \*\*Titles \*\*page, enter the titles that you plan to use for your jobs.</span></span>
 
 ## <a name="job-types"></a><span data-ttu-id="02f69-120">工作类型</span><span class="sxs-lookup"><span data-stu-id="02f69-120">Job types</span></span>
 <span data-ttu-id="02f69-121">可使用工作类型将类似的工作分组为类别。</span><span class="sxs-lookup"><span data-stu-id="02f69-121">You use job types to group similar jobs into categories.</span></span> <span data-ttu-id="02f69-122">不需要工作类型。</span><span class="sxs-lookup"><span data-stu-id="02f69-122">Job types aren't required.</span></span> <span data-ttu-id="02f69-123">但是，如果您在设置薪酬管理的资格规则时计划使用作业类型，则您应在设置作业前设置作业类型。</span><span class="sxs-lookup"><span data-stu-id="02f69-123">However, if you plan to use job types when you set up eligibility rules for compensation management, you should set up job types before you set up jobs.</span></span> <span data-ttu-id="02f69-124">例如，工作类型可以是全职、兼职或工资和小时工资。.</span><span class="sxs-lookup"><span data-stu-id="02f69-124">Some examples of job types are full-time and part-time, or salary and hourly pay.</span></span> <span data-ttu-id="02f69-125">可通过使用**工作类型**页面维护工作类型。</span><span class="sxs-lookup"><span data-stu-id="02f69-125">You maintain job types by using the **Job types** page.</span></span> <span data-ttu-id="02f69-126">在**工作类型**页面中，输入工作类型的名称和简要描述。</span><span class="sxs-lookup"><span data-stu-id="02f69-126">On the **Job types** page, enter a name and a brief description for the job type.</span></span> <span data-ttu-id="02f69-127">在**免除情况**字段中，选择以下选项之一以指示拥有此工作类型工作的公平劳动标准法案 (FLSA) 免除情况。</span><span class="sxs-lookup"><span data-stu-id="02f69-127">In the **Exempt status** field, select one of the following options to indicate the Fair Labor Standards Act (FLSA) exempt status of jobs that have this job type:</span></span>
