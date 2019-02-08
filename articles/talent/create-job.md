@@ -30,7 +30,6 @@ ms.lasthandoff: 08/08/2018
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 此主题介绍工作中可包含的概念性元素，并提供有关如何在组织中使用这些元素的示例。 
 
