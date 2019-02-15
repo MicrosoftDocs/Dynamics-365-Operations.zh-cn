@@ -1,13 +1,13 @@
 ---
-title: "本地化和监管功能"
-description: "本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。"
+title: 本地化和监管功能
+description: 本主题包含可帮助您详细了解有关国家/地区特定功能的一系列资源。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/30/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8207af4dc9d5059d487bda97959eff559b7ca06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c5d4fb53939d88fcb1bd83d70bc361ed9879f298
-ms.openlocfilehash: e74ad4442e1b6851812f889e79f2fb09060fb87a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/01/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301979"
 ---
-
 # <a name="localization-and-regulatory-features"></a>本地化和监管功能
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地化和翻译可用性指南](https://aka.ms/ax-availabilityguide)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
+Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地化和翻译可用性指南](https://aka.ms/dynamics_365_international_availability_deck)中记录的国家/地区的功能。 此功能基于有效法人的主要地址启用。 
 
 本主题包含可帮助您达到以下目的的一系列资源： 
 - 更多了解发展中国家/地区的特定解决方案
@@ -45,10 +44,11 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
 -   [为本地化功能分类](classify-localization-features.md)
 -   [国家/地区代码 - ISO 3166](https://www.iso.org/iso-3166-country-codes.html)
 
-## <a name="localization-updates-and-communication"></a>本地化更新和通信
+## <a name="regulatory-updates-and-communication"></a>监管更新和通信
 以下资源提供了有关计划的本地化功能和新本地化功能的信息。 
 
-### <a name="localization-updates"></a>本地化更新
+### <a name="regulatory-updates"></a>监管更新
+-   [监管更新](../../financials/localizations/regulatory-updates.md)
 -   [本地化门户](https://mbs.microsoft.com/customersource/northamerica/ax/support/support-news/GFMLocalizationPortalMC)（每周更新）
 -   [LCS 问题搜索](../lifecycle-services/issue-search-lcs.md)（每天更新）
 
@@ -118,7 +118,6 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
         - [美国](../../financials/localizations/united-states.md)
     :::column-end:::
 :::row-end:::
-
 
 
 

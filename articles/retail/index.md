@@ -1,31 +1,30 @@
 ---
-title: "欢迎使用 Dynamics 365 for Retail"
-description: "Dynamics 365 for Retail 的主页"
+title: 欢迎使用 Dynamics 365 for Retail
+description: Dynamics 365 for Retail 的主页
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2017-6-19
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: bc1c74ab6940fe0f7ed2e541edad0bce657faeb5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: fbdcfc747186e2d8f55ff294a477226a83fbe1b2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301967"
 ---
-
 # <a name="welcome-to-dynamics-365-for-retail"></a>欢迎使用 Dynamics 365 for Retail
 
 [!include [banner](includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 08/08/2018
 Microsoft Dynamics 365 for Retail 是一个端到端零售解决方案，提供跨所有渠道的统一商务。 其中包括销售、移动性、智能和工作效率解决方案，帮助零售商和工作人员以云优先和移动优先的方式实现更多目标。 Retail 为实施各类业务流程提供全面的支持，如促销活动、库存和渠道管理功能。 它还跨所有接触点提供沉浸式客户体验。
 
 > [!NOTE]
-> Dynamics 365 for Retail 与 Dynamics 365 for Finance and Operations 和 Dynamics 365 for Talent 密切相关。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Microsoft Dynamics 365 for Retail；在主要与核心产品 (Finance and Operations) 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations；在主要与人力资源有关的主题中，产品名称将为 Dynamics 365 for Talent。
+> Dynamics 365 for Retail 与 Dynamics 365 for Finance and Operations 和 Dynamics 365 for Talent 紧密相关。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Retail；在主要与核心产品 (Finance and Operations) 有关的主题中，产品名称将为 Microsoft Dynamics 365 for Finance and Operations；在主要与人力资源有关的主题中，产品名称将为 Dynamics 365 for Talent。
 
 在左侧窗格中，选择一个功能区域以了解有关它的更多信息。
 
@@ -95,4 +94,3 @@ MPOS 是适用于 PC、平板电脑和手机的 POS 应用。 销售人员可在
 [Microsoft Dynamics AX 产品团队博客](https://blogs.msdn.microsoft.com/dax/)上有很多有关 Retail 的帖子。 虽然其中某些帖子是针对以前版本的 Retail 撰写的，但同一概念仍然适用， 而且相关程序也与当前版本类似。
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
-

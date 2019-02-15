@@ -1,13 +1,13 @@
 ---
-title: "使用共享的编号规则复制客户"
-description: "本主题说明如何使用共享的编号规则将客户复制到另一个法人但却保持相同的客户 ID。"
+title: 使用共享的编号规则复制客户
+description: 本主题说明如何使用共享的编号规则将客户复制到另一个法人但却保持相同的客户 ID。
 author: mikefalkner
 manager: aolson
 ms.date: 08/31/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: c093c9af7184d93b1200a8bcab16573f2bb4be09
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301939"
 ---
-
 # <a name="copy-customers-by-using-shared-number-sequences"></a>使用共享的编号规则复制客户
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ ms.lasthandoff: 01/03/2019
 
 ## <a name="copy-a-customer"></a>复制客户
 
-要复制客户，请选择**所有客户**列表页面上的**新建**以打开**创建客户**对话框。 请注意，系统未立即分配新的客户 ID。 此行为与以前版本的 Microsoft Dynamics 365 for Finance and Operations 中的行为不同。 由于您尚未选择客户组，因此系统无法确定要使用的正确编号规则。 此外，系统无法确定您是要尝试创建新客户还是复制客户。 因此，在对话框底部选择**保存**之前，不会分配客户 ID。
+要复制客户，请选择**所有客户**列表页面上的**新建**以打开**创建客户**对话框。 请注意，系统未立即分配新的客户 ID。 此行为与先前版本的 Microsoft Dynamics 365 for Finance and Operations 中的行为不同。 由于您尚未选择客户组，因此系统无法确定要使用的正确编号规则。 此外，系统无法确定您是要尝试创建新客户还是复制客户。 因此，在对话框底部选择**保存**之前，不会分配客户 ID。
 
 如果您要创建新客户，则可以像往常一样继续填写所有字段。 在完成并选择**保存**时，您将会发现系统自动分配了客户 ID。 或者，您将发现对手动编号规则使用了手动客户 ID。
 
@@ -66,4 +65,3 @@ ms.lasthandoff: 01/03/2019
 
 1. **复制客户**选项将会出现。 默认情况下，此选项设置为**否**。 要将客户复制到当前法人，请将此选项设置为**是**。 
 2. 选择**选择**。 此时会创建新客户。
-

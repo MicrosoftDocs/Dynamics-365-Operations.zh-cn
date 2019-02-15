@@ -1,13 +1,13 @@
 ---
-title: "预算编制主页"
-description: "此主题概要介绍了 Microsoft Dynamics 365 for Finance and Operations 中的预算编制功能组件、预算编制工具和申报功能。"
+title: 预算编制主页
+description: 此主题概要介绍了 Microsoft Dynamics 365 for Finance and Operations 中的预算编制功能组件、预算编制工具和报告功能。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/09/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: efe348d9967ab7594afd22a3ebb4df76dc6607f8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301973"
 ---
-
 # <a name="budgeting-home-page"></a>预算编制主页
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ ms.lasthandoff: 03/26/2018
 -   [预算计划：概述和配置](budget-planning-overview-configuration.md)
 -   [职位预测](position-forecasting.md)
 -   [预算计划证明文档](budget-planning-justification-docs.md)
--   [适用于预算计划的 Microsoft Excel 模板](budget-planning-excel-templates.md)
+-   [用于预算计划的 Microsoft Excel 模板](budget-planning-excel-templates.md)
 
 ## <a name="budgeting-tools-in-finance-and-operations"></a>Finance and Operations 中的预算工具
 [![预算工具](./media/budgeting-tools.jpg)](./media/budgeting-tools.jpg) 
@@ -66,7 +65,6 @@ ms.lasthandoff: 03/26/2018
 在 Finance and Operations 中，用户可以直接在 Finance and Operations 客户端中创建预算计划（通过使用可配置预算计划文档页），也可以通过 Excel 创建预算计划。 Excel 提供了几个额外功能。 例如，您可以使用外部数据作为预算计划的来源，执行自定义计算，并使用 Microsoft 数据透视表和图表。 预算计划流程中的大多数变量都可配置。 
 
 例如，您可以定义执行预算的人员、预算的对象以及具体流程。 尽管您可以使用 Excel 进行预算计划，但 Finance and Operations 仍将作为唯一的数据来源，帮助防止预算控制问题。 周期性流程可用于将预算的初始数据纳入预算计划。 对于报告，Finance and Operations 提供了一系列标准查询页，供您查看和分析预算数据。 预算计划数据可通过 Management Reporter 访问，单独的预算计划方案可在 Management Reporter 报告中显示为列。
-
 
 
 

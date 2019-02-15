@@ -1,29 +1,29 @@
 ---
-title: "分配的订单管理 (DOM)"
-description: "本主题将介绍 Microsoft Dynamics 365 for Retail 中的“分配的订单管理 (DOM)”功能。"
+title: 分配的订单管理 (DOM)
+description: 本主题将介绍 Microsoft Dynamics 365 for Retail 中的“分配的订单管理 (DOM)”功能。
 author: josaw1
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 8f1b07243ec2d42e47073d8d90f00ea563020d82
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301969"
 ---
 # <a name="distributed-order-management-dom"></a>分配的订单管理 (DOM)
 
@@ -229,4 +229,3 @@ DOM 将仅在批处理作业中运行。 要为 DOM 运行配置批处理作业�
 - 当前，DOM 仅查看从零售渠道创建的订单。 当**零售销售**选项设置为**是**时，销售订单将标识为零售销售订单。
 - Microsoft 未使用高级仓库管理功能对 DOM 进行测试。 客户和合作伙伴必须仔细判断 DOM 是否与高级仓库管理功能及其相关流程兼容。
 - DOM 仅在云版本的 Retail 中可用。 它在本地部署中不受支持。
-
