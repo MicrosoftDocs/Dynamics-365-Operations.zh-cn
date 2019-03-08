@@ -1,13 +1,13 @@
 ---
-title: "连接帮助系统"
-description: "此主题介绍 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件，并且提供如何连接它们的概览以及如何创建自定义帮助的摘要。"
+title: 连接帮助系统
+description: 此主题介绍 Microsoft Dynamics 365 for Finance and Operations的“帮助”系统的组件，并且提供如何连接它们的概览以及如何创建自定义帮助的摘要。
 author: margoc
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,88 +18,86 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317721"
 ---
-
-# <a name="connect-the-help-system"></a><span data-ttu-id="e03af-103">连接帮助系统</span><span class="sxs-lookup"><span data-stu-id="e03af-103">Connect the Help system</span></span>
+# <a name="connect-the-help-system"></a><span data-ttu-id="bf307-103">连接帮助系统</span><span class="sxs-lookup"><span data-stu-id="bf307-103">Connect the Help system</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="e03af-104">此主题介绍 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件。</span><span class="sxs-lookup"><span data-stu-id="e03af-104">This topic describes the components of the Help system for Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="e03af-105">它提供如何连接这些组件的概览和如何创建自定义帮助的摘要。</span><span class="sxs-lookup"><span data-stu-id="e03af-105">It provides an overview of how to connect these components and a summary of how to create custom help.</span></span>
+<span data-ttu-id="bf307-104">此主题介绍了 Microsoft Dynamics 365 for Finance and Operations 的帮助系统的组件。</span><span class="sxs-lookup"><span data-stu-id="bf307-104">This topic describes the components of the Help system for Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="bf307-105">它提供如何连接这些组件的概览和如何创建自定义帮助的摘要。</span><span class="sxs-lookup"><span data-stu-id="bf307-105">It provides an overview of how to connect these components and a summary of how to create custom help.</span></span>
 
-## <a name="help-architecture"></a><span data-ttu-id="e03af-106">帮助体系结构</span><span class="sxs-lookup"><span data-stu-id="e03af-106">Help architecture</span></span>
+## <a name="help-architecture"></a><span data-ttu-id="bf307-106">帮助体系结构</span><span class="sxs-lookup"><span data-stu-id="bf307-106">Help architecture</span></span>
 
-<span data-ttu-id="e03af-107">下图显示 Finance and Operations 帮助系统的各个部分。</span><span class="sxs-lookup"><span data-stu-id="e03af-107">The following illustration shows the parts of the Finance and Operations Help system.</span></span> <span data-ttu-id="e03af-108">产品内帮助系统从 Finance and Operations 站点 https://docs.microsoft.com 拉取文章，以及 Lifecycle Services (LCS) 中的业务流程建模器中存储的任务指南。</span><span class="sxs-lookup"><span data-stu-id="e03af-108">The in-product Help system pulls articles from the Finance and Operations site on https://docs.microsoft.com, as well as task guides stored in Business Process Modeler in Lifecycle Services (LCS).</span></span>
-
-> [!NOTE]
-> <span data-ttu-id="e03af-109">图形中列出的带有星号 (\*) 的功能已计划，但还不可用。</span><span class="sxs-lookup"><span data-stu-id="e03af-109">The features listed in the diagram with an asterisk (\*) are planned, but are not available yet.</span></span>
-
-<span data-ttu-id="e03af-110">[![帮助体系结构](./media/help-architecture.png)](./media/help-architecture.png)</span><span class="sxs-lookup"><span data-stu-id="e03af-110">[![Help architecture](./media/help-architecture.png)](./media/help-architecture.png)</span></span>
-
-## <a name="connecting-the-help-system"></a><span data-ttu-id="e03af-111">连接帮助系统</span><span class="sxs-lookup"><span data-stu-id="e03af-111">Connecting the Help system</span></span>
+<span data-ttu-id="bf307-107">下图显示 Finance and Operations 帮助系统的各个部分。</span><span class="sxs-lookup"><span data-stu-id="bf307-107">The following illustration shows the parts of the Finance and Operations Help system.</span></span> <span data-ttu-id="bf307-108">产品内帮助系统从 Finance and Operations 站点 https://docs.microsoft.com 拉取文章，以及 Lifecycle Services (LCS) 中的业务流程建模器中存储的任务指南。</span><span class="sxs-lookup"><span data-stu-id="bf307-108">The in-product Help system pulls articles from the Finance and Operations site on https://docs.microsoft.com, as well as task guides stored in Business Process Modeler in Lifecycle Services (LCS).</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e03af-112">**任务指南**选项卡目前在 Microsoft Dynamics 365 for Talent 和 Microsoft Dynamics 365 for Retail 中不可用。</span><span class="sxs-lookup"><span data-stu-id="e03af-112">The **Task guides** tab is currently not available in Microsoft Dynamics 365 for Talent and Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="e03af-113">我们目前正在努力在将来的版本中启用此功能。</span><span class="sxs-lookup"><span data-stu-id="e03af-113">We are currently working to enable this functionality in a future release.</span></span> <span data-ttu-id="e03af-114">Talent 中的入门中的任务指南体验可用，以涵盖基本功能。</span><span class="sxs-lookup"><span data-stu-id="e03af-114">The Task guides in the Getting Started experience in Talent remain available to cover basic functionality.</span></span> <span data-ttu-id="e03af-115">docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) 上还提供用于 Retail 和 Talent 的过程帮助。</span><span class="sxs-lookup"><span data-stu-id="e03af-115">Procedural help is also available on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) for both Retail and Talent.</span></span>
+> <span data-ttu-id="bf307-109">图形中列出的带有星号 (\*) 的功能已计划，但还不可用。</span><span class="sxs-lookup"><span data-stu-id="bf307-109">The features listed in the diagram with an asterisk (\*) are planned, but are not available yet.</span></span>
 
-<span data-ttu-id="e03af-116">使用**系统参数**页，系统管理员连接有关实施的部分帮助系统。</span><span class="sxs-lookup"><span data-stu-id="e03af-116">Using the **System Parameters** page, system administrators connect the pieces of the Help system for an implementation.</span></span>
+<span data-ttu-id="bf307-110">[![帮助体系结构](./media/help-architecture.png)](./media/help-architecture.png)</span><span class="sxs-lookup"><span data-stu-id="bf307-110">[![Help architecture](./media/help-architecture.png)](./media/help-architecture.png)</span></span>
 
-<span data-ttu-id="e03af-117">[![具有帮助设置的系统参数窗体](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)</span><span class="sxs-lookup"><span data-stu-id="e03af-117">[![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)</span></span>
+## <a name="connecting-the-help-system"></a><span data-ttu-id="bf307-111">连接帮助系统</span><span class="sxs-lookup"><span data-stu-id="bf307-111">Connecting the Help system</span></span>
 
-<span data-ttu-id="e03af-118">在**系统参数**页上，执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="e03af-118">On the **System parameters** page, follow these steps:</span></span>
+> [!NOTE]
+> <span data-ttu-id="bf307-112">**任务指南**选项卡目前在 Microsoft Dynamics 365 for Talent 和 Microsoft Dynamics 365 for Retail 中不可用。</span><span class="sxs-lookup"><span data-stu-id="bf307-112">The **Task guides** tab is currently not available in Microsoft Dynamics 365 for Talent and Microsoft Dynamics 365 for Retail.</span></span> <span data-ttu-id="bf307-113">我们目前正在努力在将来的版本中启用此功能。</span><span class="sxs-lookup"><span data-stu-id="bf307-113">We are currently working to enable this functionality in a future release.</span></span> <span data-ttu-id="bf307-114">Talent 中的入门中的任务指南体验可用，以涵盖基本功能。</span><span class="sxs-lookup"><span data-stu-id="bf307-114">The Task guides in the Getting Started experience in Talent remain available to cover basic functionality.</span></span> <span data-ttu-id="bf307-115">docs.microsoft.com 站点 ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) 上还提供用于 Retail 和 Talent 的过程帮助。</span><span class="sxs-lookup"><span data-stu-id="bf307-115">Procedural help is also available on the docs.microsoft.com site ([docs.microsoft.com/dynamics365/unified-operations](../../index.md)) for both Retail and Talent.</span></span>
+
+<span data-ttu-id="bf307-116">使用**系统参数**页，系统管理员连接有关实施的部分帮助系统。</span><span class="sxs-lookup"><span data-stu-id="bf307-116">Using the **System Parameters** page, system administrators connect the pieces of the Help system for an implementation.</span></span>
+
+<span data-ttu-id="bf307-117">[![具有帮助设置的系统参数窗体](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)</span><span class="sxs-lookup"><span data-stu-id="bf307-117">[![System Parameters form with Help settings](./media/system-parameters_ops-1024x437.png)](./media/system-parameters_ops.png)</span></span>
+
+<span data-ttu-id="bf307-118">在**系统参数**页上，执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="bf307-118">On the **System parameters** page, follow these steps:</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="e03af-119">首次打开**帮助**选项卡时，必须连接到 Lifecycle Services。</span><span class="sxs-lookup"><span data-stu-id="e03af-119">The first time that you open the **Help** tab, you must connect to Lifecycle Services.</span></span> <span data-ttu-id="e03af-120">请确保单击窗体中间的链接，等待连接，关闭对话框，单后单击**确定**以转至**系统参数**页面。</span><span class="sxs-lookup"><span data-stu-id="e03af-120">Be sure to click the link in the middle of the form, wait for the connection, close the dialog box, and then click **OK** to get to the **System Parameters** page.</span></span>
+> <span data-ttu-id="bf307-119">首次打开**帮助**选项卡时，必须连接到 Lifecycle Services。</span><span class="sxs-lookup"><span data-stu-id="bf307-119">The first time that you open the **Help** tab, you must connect to Lifecycle Services.</span></span> <span data-ttu-id="bf307-120">请确保单击窗体中间的链接，等待连接，关闭对话框，单后单击**确定**以转至**系统参数**页面。</span><span class="sxs-lookup"><span data-stu-id="bf307-120">Be sure to click the link in the middle of the form, wait for the connection, close the dialog box, and then click **OK** to get to the **System Parameters** page.</span></span>
 >
-> <span data-ttu-id="e03af-121">[![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png "连接到 LCS")](./media/connect-to-lcs-crop.png)</span><span class="sxs-lookup"><span data-stu-id="e03af-121">[![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png "Connect to LCS")](./media/connect-to-lcs-crop.png)</span></span>
+> <span data-ttu-id="bf307-121">[![连接到 LCS](./media/connect-to-lcs-crop-1024x365.png "连接到 LCS")](./media/connect-to-lcs-crop.png)</span><span class="sxs-lookup"><span data-stu-id="bf307-121">[![Connect to LCS](./media/connect-to-lcs-crop-1024x365.png "Connect to LCS")](./media/connect-to-lcs-crop.png)</span></span>
 
-1. <span data-ttu-id="e03af-122">选择要连接到的 Lifecycle Services 项目。</span><span class="sxs-lookup"><span data-stu-id="e03af-122">Select the Lifecycle Services project to connect to.</span></span>
-2. <span data-ttu-id="e03af-123">选择要从中检索任务录制的 BPM 库（在所选项目内）。</span><span class="sxs-lookup"><span data-stu-id="e03af-123">Select the BPM libraries (within the selected project) to retrieve task recordings from.</span></span>
+1. <span data-ttu-id="bf307-122">选择要连接到的 Lifecycle Services 项目。</span><span class="sxs-lookup"><span data-stu-id="bf307-122">Select the Lifecycle Services project to connect to.</span></span>
+2. <span data-ttu-id="bf307-123">选择要从中检索任务录制的 BPM 库（在所选项目内）。</span><span class="sxs-lookup"><span data-stu-id="bf307-123">Select the BPM libraries (within the selected project) to retrieve task recordings from.</span></span>
 
-    - <span data-ttu-id="e03af-124">对于 Finance and Operations 的 Microsoft 内容，选择 Finance and Operations 最新的 APQC 标准库。</span><span class="sxs-lookup"><span data-stu-id="e03af-124">For Finance and Operations, for Microsoft content, select the most recent APQC Unified Library for Finance and Operations.</span></span>
-    - <span data-ttu-id="e03af-125">对于 Retail，我们将在不久后发布一个库。</span><span class="sxs-lookup"><span data-stu-id="e03af-125">For Retail, we will be releasing a library in the near future.</span></span>
-    - <span data-ttu-id="e03af-126">您无需为 Talent 选择库，因为已经为您建立了与正确库的连接。</span><span class="sxs-lookup"><span data-stu-id="e03af-126">You do not need to select a library for Talent—the connection to the correct library is established for you.</span></span>
+    - <span data-ttu-id="bf307-124">对于 Finance and Operations 的 Microsoft 内容，选择 Finance and Operations 最新的 APQC 标准库。</span><span class="sxs-lookup"><span data-stu-id="bf307-124">For Finance and Operations, for Microsoft content, select the most recent APQC Unified Library for Finance and Operations.</span></span>
+    - <span data-ttu-id="bf307-125">对于 Retail，我们将在不久后发布一个库。</span><span class="sxs-lookup"><span data-stu-id="bf307-125">For Retail, we will be releasing a library in the near future.</span></span>
+    - <span data-ttu-id="bf307-126">您无需为 Talent 选择库，因为已经为您建立了与正确库的连接。</span><span class="sxs-lookup"><span data-stu-id="bf307-126">You do not need to select a library for Talent—the connection to the correct library is established for you.</span></span>
 
-3. <span data-ttu-id="e03af-127">选择 BPM 库的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="e03af-127">Set the display order of the BPM libraries.</span></span> <span data-ttu-id="e03af-128">它决定库中的任务录制在**帮助**窗格中的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="e03af-128">This determines the order in which task recordings from the libraries will appear in the **Help** pane.</span></span>
+3. <span data-ttu-id="bf307-127">选择 BPM 库的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="bf307-127">Set the display order of the BPM libraries.</span></span> <span data-ttu-id="bf307-128">它决定库中的任务录制在**帮助**窗格中的显示顺序。</span><span class="sxs-lookup"><span data-stu-id="bf307-128">This determines the order in which task recordings from the libraries will appear in the **Help** pane.</span></span>
 
-<span data-ttu-id="e03af-129">完成这些步骤后，您可以打开**帮助**窗格并单击**任务指南**选项卡。您现在将看到适用于您当前在 Finance and Operations 中所处页面的任务指南。</span><span class="sxs-lookup"><span data-stu-id="e03af-129">After you complete these steps, you can open the **Help** pane and click the **Task guides** tab. You'll now see the task guides that apply to the page that you're currently on in Finance and Operations.</span></span> <span data-ttu-id="e03af-130">如果未找到任何任务指南，您可以输入关键字来调整搜索。</span><span class="sxs-lookup"><span data-stu-id="e03af-130">If no task guides are found, you can enter keywords to refine your search.</span></span>
+<span data-ttu-id="bf307-129">完成这些步骤后，您可以打开**帮助**窗格并单击**任务指南**选项卡。您现在将看到适用于您当前在 Finance and Operations 中所处页面的任务指南。</span><span class="sxs-lookup"><span data-stu-id="bf307-129">After you complete these steps, you can open the **Help** pane and click the **Task guides** tab. You'll now see the task guides that apply to the page that you're currently on in Finance and Operations.</span></span> <span data-ttu-id="bf307-130">如果未找到任何任务指南，您可以输入关键字来调整搜索。</span><span class="sxs-lookup"><span data-stu-id="bf307-130">If no task guides are found, you can enter keywords to refine your search.</span></span>
 
-### <a name="showing-translated-task-guides"></a><span data-ttu-id="e03af-131">显示翻译的任务指南</span><span class="sxs-lookup"><span data-stu-id="e03af-131">Showing translated task guides</span></span>
+### <a name="showing-translated-task-guides"></a><span data-ttu-id="bf307-131">显示翻译的任务指南</span><span class="sxs-lookup"><span data-stu-id="bf307-131">Showing translated task guides</span></span>
 
-<span data-ttu-id="e03af-132">翻译的任务指南首次随 2016 年 5 月 APQC 标准库和入门库提供。</span><span class="sxs-lookup"><span data-stu-id="e03af-132">Translated task guides were first shipped in the May 2016 APQC Unified Library, and the Getting Started library.</span></span> <span data-ttu-id="e03af-133">在 Finance and Operations 中，若要查看本地化的任务指南帮助，请确保您已连接到五月库。</span><span class="sxs-lookup"><span data-stu-id="e03af-133">In Finance and Operations, to see localized task guide help, make sure that you are connected to the May library.</span></span> <span data-ttu-id="e03af-134">每个用户的任务指南的显示语言由**选项** &gt; **首选项**下的语言”设置控制。</span><span class="sxs-lookup"><span data-stu-id="e03af-134">The language that a task guide appears in is controlled for each user by the Language settings under **Options** &gt; **Preferences**.</span></span>
+<span data-ttu-id="bf307-132">翻译的任务指南首次随 2016 年 5 月 APQC 标准库和入门库提供。</span><span class="sxs-lookup"><span data-stu-id="bf307-132">Translated task guides were first shipped in the May 2016 APQC Unified Library, and the Getting Started library.</span></span> <span data-ttu-id="bf307-133">在 Finance and Operations 中，若要查看本地化的任务指南帮助，请确保您已连接到五月库。</span><span class="sxs-lookup"><span data-stu-id="bf307-133">In Finance and Operations, to see localized task guide help, make sure that you are connected to the May library.</span></span> <span data-ttu-id="bf307-134">每个用户的任务指南的显示语言由**选项** &gt; **首选项**下的语言”设置控制。</span><span class="sxs-lookup"><span data-stu-id="bf307-134">The language that a task guide appears in is controlled for each user by the Language settings under **Options** &gt; **Preferences**.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="e03af-135">虽然许多任务指南已被翻译了，但现在，Finance and Operations 客户端不显示翻译的任务指南名称。</span><span class="sxs-lookup"><span data-stu-id="e03af-135">Even though many task guides have been translated, right now the Finance and Operations client is not showing the translated task guide names.</span></span> <span data-ttu-id="e03af-136">此外，五月库中仅提供在 2016 年 2 月发布的任务指南的翻译。</span><span class="sxs-lookup"><span data-stu-id="e03af-136">Also, only the task guides that were released in February 2016 are available in translation in the May library.</span></span> <span data-ttu-id="e03af-137">我们将发布包含其它翻译的更新库。</span><span class="sxs-lookup"><span data-stu-id="e03af-137">We will release an updated library with additional translations.</span></span>
+> <span data-ttu-id="bf307-135">虽然许多任务指南已被翻译了，但现在，Finance and Operations 客户端不显示翻译的任务指南名称。</span><span class="sxs-lookup"><span data-stu-id="bf307-135">Even though many task guides have been translated, right now the Finance and Operations client is not showing the translated task guide names.</span></span> <span data-ttu-id="bf307-136">此外，五月库中仅提供在 2016 年 2 月发布的任务指南的翻译。</span><span class="sxs-lookup"><span data-stu-id="bf307-136">Also, only the task guides that were released in February 2016 are available in translation in the May library.</span></span> <span data-ttu-id="bf307-137">我们将发布包含其它翻译的更新库。</span><span class="sxs-lookup"><span data-stu-id="bf307-137">We will release an updated library with additional translations.</span></span>
 >
-> - <span data-ttu-id="e03af-138">如果已翻译任务指南，在您打开任务指南时，所有任务指南文本都将显示为您选择的语言。</span><span class="sxs-lookup"><span data-stu-id="e03af-138">If a task guide has been translated, when you open that task guide all the text of the task guide will appear in your selected language.</span></span>
-> - <span data-ttu-id="e03af-139">如果尚未翻译任务指南，在您打开任务指南时，仅部分文本（控制文本）显示为您选择的语言。</span><span class="sxs-lookup"><span data-stu-id="e03af-139">If a task guide has not yet been translated, when you open it, only some of the text (the text of the controls) will appear in your selected language.</span></span>
+> - <span data-ttu-id="bf307-138">如果已翻译任务指南，在您打开任务指南时，所有任务指南文本都将显示为您选择的语言。</span><span class="sxs-lookup"><span data-stu-id="bf307-138">If a task guide has been translated, when you open that task guide all the text of the task guide will appear in your selected language.</span></span>
+> - <span data-ttu-id="bf307-139">如果尚未翻译任务指南，在您打开任务指南时，仅部分文本（控制文本）显示为您选择的语言。</span><span class="sxs-lookup"><span data-stu-id="bf307-139">If a task guide has not yet been translated, when you open it, only some of the text (the text of the controls) will appear in your selected language.</span></span>
 
-## <a name="creating-custom-help"></a><span data-ttu-id="e03af-140">创建客户帮助</span><span class="sxs-lookup"><span data-stu-id="e03af-140">Creating custom help</span></span>
+## <a name="creating-custom-help"></a><span data-ttu-id="bf307-140">创建客户帮助</span><span class="sxs-lookup"><span data-stu-id="bf307-140">Creating custom help</span></span>
 
-<span data-ttu-id="e03af-141">您可以使用任务指南创建自定义帮助，或者将网站连接到帮助窗格。</span><span class="sxs-lookup"><span data-stu-id="e03af-141">You can use task guides to create custom help, or connect a website to the Help pane.</span></span>
+<span data-ttu-id="bf307-141">您可以使用任务指南创建自定义帮助，或者将网站连接到帮助窗格。</span><span class="sxs-lookup"><span data-stu-id="bf307-141">You can use task guides to create custom help, or connect a website to the Help pane.</span></span>
 
-### <a name="create-custom-help-with-task-guides"></a><span data-ttu-id="e03af-142">使用任务指南创建定制帮助</span><span class="sxs-lookup"><span data-stu-id="e03af-142">Create custom help with task guides</span></span>
+### <a name="create-custom-help-with-task-guides"></a><span data-ttu-id="bf307-142">使用任务指南创建定制帮助</span><span class="sxs-lookup"><span data-stu-id="bf307-142">Create custom help with task guides</span></span>
 
-<span data-ttu-id="e03af-143">您可以通过创建反映您的实施的任务录制并将其保存到 LCS 业务流程库中，为 Finance and Operations 和 Retail 创建自定义帮助。</span><span class="sxs-lookup"><span data-stu-id="e03af-143">You can create custom help for Finance and Operations, and for Retail by creating task recordings that reflect your implementation, and saving them to an LCS Business Process Library.</span></span> <span data-ttu-id="e03af-144">您无法为 Talent 创建自定义任务指南。</span><span class="sxs-lookup"><span data-stu-id="e03af-144">You cannot create custom task guides for Talent.</span></span>
+<span data-ttu-id="bf307-143">您可以通过创建反映您的实施的任务录制并将其保存到 LCS 业务流程库中，为 Finance and Operations 和 Retail 创建自定义帮助。</span><span class="sxs-lookup"><span data-stu-id="bf307-143">You can create custom help for Finance and Operations, and for Retail by creating task recordings that reflect your implementation, and saving them to an LCS Business Process Library.</span></span> <span data-ttu-id="bf307-144">您无法为 Talent 创建自定义任务指南。</span><span class="sxs-lookup"><span data-stu-id="bf307-144">You cannot create custom task guides for Talent.</span></span>
 
-<span data-ttu-id="e03af-145">对于合作伙伴，如果您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。</span><span class="sxs-lookup"><span data-stu-id="e03af-145">For partners, if you promote a library to be a corporate library, and include it in a solution, it will be available to your customers.</span></span> <span data-ttu-id="e03af-146">您还可以复制 APQC Unified 全局库，然后打开您的副本，从它打开任务录制，然后修改它们，并保存具有所做更改的录制。</span><span class="sxs-lookup"><span data-stu-id="e03af-146">You can also make a copy of the APQC Unified global library, and then open your copy, open task recordings from it, modify them, and save the recordings with your changes.</span></span> <span data-ttu-id="e03af-147">有关详细信息，请参阅[如何创建任务录制以用作文档或培训](../../dev-itpro/user-interface/task-recorder.md)。</span><span class="sxs-lookup"><span data-stu-id="e03af-147">For more information, see [How to create a task recording to use as documentation or training](../../dev-itpro/user-interface/task-recorder.md).</span></span>
+<span data-ttu-id="bf307-145">对于合作伙伴，如果您要将一个库提升到公司库并将其包括到解决方案中，它将可供您的客户使用。</span><span class="sxs-lookup"><span data-stu-id="bf307-145">For partners, if you promote a library to be a corporate library, and include it in a solution, it will be available to your customers.</span></span> <span data-ttu-id="bf307-146">您还可以复制 APQC Unified 全局库，然后打开您的副本，从它打开任务录制，然后修改它们，并保存具有所做更改的录制。</span><span class="sxs-lookup"><span data-stu-id="bf307-146">You can also make a copy of the APQC Unified global library, and then open your copy, open task recordings from it, modify them, and save the recordings with your changes.</span></span> <span data-ttu-id="bf307-147">有关详细信息，请参阅[如何创建任务录制以用作文档或培训](../../dev-itpro/user-interface/task-recorder.md)。</span><span class="sxs-lookup"><span data-stu-id="bf307-147">For more information, see [How to create a task recording to use as documentation or training](../../dev-itpro/user-interface/task-recorder.md).</span></span>
 
-### <a name="connect-a-custom-site"></a><span data-ttu-id="e03af-148">连接自定义站点</span><span class="sxs-lookup"><span data-stu-id="e03af-148">Connect a custom site</span></span>
+### <a name="connect-a-custom-site"></a><span data-ttu-id="bf307-148">连接自定义站点</span><span class="sxs-lookup"><span data-stu-id="bf307-148">Connect a custom site</span></span>
 
-<span data-ttu-id="e03af-149">Microsoft 提供了介绍如何创建自定义帮助站点并将其连接到帮助窗格的白皮书和示例代码。</span><span class="sxs-lookup"><span data-stu-id="e03af-149">Microsoft has provided a white paper and sample code that describe how to create and connect a custom help site to the Help pane.</span></span> <span data-ttu-id="e03af-150">有关详细信息，请参阅：</span><span class="sxs-lookup"><span data-stu-id="e03af-150">For more information, see:</span></span>
+<span data-ttu-id="bf307-149">Microsoft 提供了介绍如何创建自定义帮助站点并将其连接到帮助窗格的白皮书和示例代码。</span><span class="sxs-lookup"><span data-stu-id="bf307-149">Microsoft has provided a white paper and sample code that describe how to create and connect a custom help site to the Help pane.</span></span> <span data-ttu-id="bf307-150">有关详细信息，请参阅：</span><span class="sxs-lookup"><span data-stu-id="bf307-150">For more information, see:</span></span>
 
-- [<span data-ttu-id="e03af-151">为 Finance and Operations 创建自定义帮助（白皮书）</span><span class="sxs-lookup"><span data-stu-id="e03af-151">Create Custom Help for Finance and Operations (white paper)</span></span>](https://go.microsoft.com/fwlink/?linkid=2041185)
-- [<span data-ttu-id="e03af-152">自定义帮助 GitHub 知识库</span><span class="sxs-lookup"><span data-stu-id="e03af-152">Custom help GitHub repository</span></span>](https://github.com/microsoft/dynamics356f-o-custom-help)
+- [<span data-ttu-id="bf307-151">为 Finance and Operations 创建自定义帮助（白皮书）</span><span class="sxs-lookup"><span data-stu-id="bf307-151">Create Custom Help for Finance and Operations (white paper)</span></span>](https://go.microsoft.com/fwlink/?linkid=2041185)
+- [<span data-ttu-id="bf307-152">自定义帮助 GitHub 知识库</span><span class="sxs-lookup"><span data-stu-id="bf307-152">Custom help GitHub repository</span></span>](https://github.com/microsoft/dynamics356f-o-custom-help)
 
-## <a name="additional-resources"></a><span data-ttu-id="e03af-153">其他资源</span><span class="sxs-lookup"><span data-stu-id="e03af-153">Additional resources</span></span>
+## <a name="additional-resources"></a><span data-ttu-id="bf307-153">其他资源</span><span class="sxs-lookup"><span data-stu-id="bf307-153">Additional resources</span></span>
 
-[<span data-ttu-id="e03af-154">帮助概览</span><span class="sxs-lookup"><span data-stu-id="e03af-154">Help overview</span></span>](help-overview.md)
+[<span data-ttu-id="bf307-154">帮助概览</span><span class="sxs-lookup"><span data-stu-id="bf307-154">Help overview</span></span>](help-overview.md)
 
-[<span data-ttu-id="e03af-155">任务录制器概览</span><span class="sxs-lookup"><span data-stu-id="e03af-155">Task recorder overview</span></span>](../../dev-itpro/user-interface/task-recorder.md)
+[<span data-ttu-id="bf307-155">任务录制器概览</span><span class="sxs-lookup"><span data-stu-id="bf307-155">Task recorder overview</span></span>](../../dev-itpro/user-interface/task-recorder.md)
 
-[<span data-ttu-id="e03af-156">如何创建任务录制以用作文档或培训</span><span class="sxs-lookup"><span data-stu-id="e03af-156">How to create a task recording to use as documentation or training</span></span>](../../dev-itpro/user-interface/task-recorder-training-docs.md)
-
+[<span data-ttu-id="bf307-156">如何创建任务录制以用作文档或培训</span><span class="sxs-lookup"><span data-stu-id="bf307-156">How to create a task recording to use as documentation or training</span></span>](../../dev-itpro/user-interface/task-recorder-training-docs.md)

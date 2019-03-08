@@ -1,13 +1,13 @@
---- 
-title: "定义 ER 模型映射并从中选择数据源"
-description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何为电子报表数据模型选择数据源。"
+---
+title: 定义 ER 模型映射并从中选择数据源
+description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何为电子报表数据模型选择数据源。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,146 +16,145 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348863"
 ---
-# <a name="define-er-model-mappings-and-select-data-sources-for-them"></a><span data-ttu-id="b0860-103">定义 ER 模型映射并从中选择数据源</span><span class="sxs-lookup"><span data-stu-id="b0860-103">Define ER model mappings and select data sources for them</span></span>
+# <a name="define-er-model-mappings-and-select-data-sources-for-them"></a><span data-ttu-id="cec31-103">定义 ER 模型映射并从中选择数据源</span><span class="sxs-lookup"><span data-stu-id="cec31-103">Define ER model mappings and select data sources for them</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="b0860-104">以下步骤说明属于系统管理员或电子报表开发人员的用户如何为电子报表 (ER) 数据模型选择数据源。</span><span class="sxs-lookup"><span data-stu-id="b0860-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can select data sources for an Electronic reporting (ER) data model.</span></span> <span data-ttu-id="b0860-105">数据源将绑定到设计时所选数据模型的各个部分中，并在运行时间生成该数据模型的业务数据。</span><span class="sxs-lookup"><span data-stu-id="b0860-105">The data sources will be bound to individual components of the selected data model at design time and populate business data to that data model at run-time.</span></span> <span data-ttu-id="b0860-106">在此示例中，您将为给示例公司 Litware，Inc. 创建的现有数据模型选择数据源。为了完成这些步骤，您首先必须完成“创建新数据模型”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="b0860-106">In this example, you will select data sources for an existing data model that has been created for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the “Create a new data model” procedure.</span></span>
+<span data-ttu-id="cec31-104">以下步骤说明属于系统管理员或电子报表开发人员的用户如何为电子报表 (ER) 数据模型选择数据源。</span><span class="sxs-lookup"><span data-stu-id="cec31-104">The following steps explain how a user in the System Administrator or Electronic Reporting Developer role can select data sources for an Electronic reporting (ER) data model.</span></span> <span data-ttu-id="cec31-105">数据源将绑定到设计时所选数据模型的各个部分中，并在运行时间生成该数据模型的业务数据。</span><span class="sxs-lookup"><span data-stu-id="cec31-105">The data sources will be bound to individual components of the selected data model at design time and populate business data to that data model at run-time.</span></span> <span data-ttu-id="cec31-106">在此示例中，您将为给示例公司 Litware，Inc. 创建的现有数据模型选择数据源。为了完成这些步骤，您首先必须完成“创建新数据模型”这一过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="cec31-106">In this example, you will select data sources for an existing data model that has been created for sample company, Litware, Inc. To complete these steps, you must first complete the steps in the “Create a new data model” procedure.</span></span>
 
 
-## <a name="open-the-electronic-reporting-configurations-tree"></a><span data-ttu-id="b0860-107">打开“电子申报配置”树结构</span><span class="sxs-lookup"><span data-stu-id="b0860-107">Open the Electronic Reporting configurations tree</span></span>
-1. <span data-ttu-id="b0860-108">转到“组织管理”>“工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="b0860-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
-2. <span data-ttu-id="b0860-109">单击“申报配置”。</span><span class="sxs-lookup"><span data-stu-id="b0860-109">Click Reporting configurations.</span></span>
+## <a name="open-the-electronic-reporting-configurations-tree"></a><span data-ttu-id="cec31-107">打开“电子申报配置”树结构</span><span class="sxs-lookup"><span data-stu-id="cec31-107">Open the Electronic Reporting configurations tree</span></span>
+1. <span data-ttu-id="cec31-108">转到“组织管理”>“工作区”>“电子申报”。</span><span class="sxs-lookup"><span data-stu-id="cec31-108">Go to Organization administration > Workspaces > Electronic reporting.</span></span>
+2. <span data-ttu-id="cec31-109">单击“申报配置”。</span><span class="sxs-lookup"><span data-stu-id="cec31-109">Click Reporting configurations.</span></span>
 
-## <a name="insert-a-new-model-mapping"></a><span data-ttu-id="b0860-110">插入新的模型映射</span><span class="sxs-lookup"><span data-stu-id="b0860-110">Insert a new model mapping</span></span>
-1. <span data-ttu-id="b0860-111">在树结构中，选择“付款（简化模型）”。</span><span class="sxs-lookup"><span data-stu-id="b0860-111">In the tree, select 'Payments (simplified model)'.</span></span>
-2. <span data-ttu-id="b0860-112">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="b0860-112">Click Designer.</span></span>
-3. <span data-ttu-id="b0860-113">单击“映射模型到数据源”。</span><span class="sxs-lookup"><span data-stu-id="b0860-113">Click Map model to datasource.</span></span>
-4. <span data-ttu-id="b0860-114">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="b0860-114">Click New.</span></span>
-    * <span data-ttu-id="b0860-115">这将创建映射数据模型到数据源的新记录。</span><span class="sxs-lookup"><span data-stu-id="b0860-115">This will create a new record that will map the data model to data sources.</span></span> <span data-ttu-id="b0860-116">在此示例中，您将映射数据模型到所需付款类型 — 贷方转帐的数据源中。</span><span class="sxs-lookup"><span data-stu-id="b0860-116">In this example, you will map the data model to data sources for the desired payment type: credit transfer.</span></span>     <span data-ttu-id="b0860-117">可以为特定数据模型设计多个映射。</span><span class="sxs-lookup"><span data-stu-id="b0860-117">It is possible to design more than one mapping for a particular data model.</span></span> <span data-ttu-id="b0860-118">例如，您可以为不同类型的付款创建一个映射，如直接借记或贷方转帐。</span><span class="sxs-lookup"><span data-stu-id="b0860-118">For example, you could create a mapping for the different types of payments, such as for direct debit or for credit transfers.</span></span> <span data-ttu-id="b0860-119">在此示例中，您将创建贷方转帐的映射。</span><span class="sxs-lookup"><span data-stu-id="b0860-119">In this example, you will create a mapping for credit transfers.</span></span>  
-5. <span data-ttu-id="b0860-120">在“名称”字段中，键入“CT 映射”。</span><span class="sxs-lookup"><span data-stu-id="b0860-120">In the Name field, type 'CT mapping'.</span></span>
-    * <span data-ttu-id="b0860-121">CT 映射</span><span class="sxs-lookup"><span data-stu-id="b0860-121">CT mapping</span></span>  
-6. <span data-ttu-id="b0860-122">在“描述”字段，键入“付款模型映射 CT”。</span><span class="sxs-lookup"><span data-stu-id="b0860-122">In the Description field, type 'Payment model mapping CT'.</span></span>
-    * <span data-ttu-id="b0860-123">付款模型映射 CT</span><span class="sxs-lookup"><span data-stu-id="b0860-123">Payment model mapping CT</span></span>  
-7. <span data-ttu-id="b0860-124">在“定义”字段中，键入“客户贷方转帐发起”。</span><span class="sxs-lookup"><span data-stu-id="b0860-124">In the Definition field, type 'CustomerCreditTransferInitiation'.</span></span>
-    * <span data-ttu-id="b0860-125">客户贷方转帐发起</span><span class="sxs-lookup"><span data-stu-id="b0860-125">CustomerCreditTransferInitiation</span></span>  
-8. <span data-ttu-id="b0860-126">改变定义。</span><span class="sxs-lookup"><span data-stu-id="b0860-126">ResolveChanges the Definition.</span></span>
-9. <span data-ttu-id="b0860-127">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="b0860-127">Click Save.</span></span>
+## <a name="insert-a-new-model-mapping"></a><span data-ttu-id="cec31-110">插入新的模型映射</span><span class="sxs-lookup"><span data-stu-id="cec31-110">Insert a new model mapping</span></span>
+1. <span data-ttu-id="cec31-111">在树结构中，选择“付款（简化模型）”。</span><span class="sxs-lookup"><span data-stu-id="cec31-111">In the tree, select 'Payments (simplified model)'.</span></span>
+2. <span data-ttu-id="cec31-112">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="cec31-112">Click Designer.</span></span>
+3. <span data-ttu-id="cec31-113">单击“映射模型到数据源”。</span><span class="sxs-lookup"><span data-stu-id="cec31-113">Click Map model to datasource.</span></span>
+4. <span data-ttu-id="cec31-114">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="cec31-114">Click New.</span></span>
+    * <span data-ttu-id="cec31-115">这将创建映射数据模型到数据源的新记录。</span><span class="sxs-lookup"><span data-stu-id="cec31-115">This will create a new record that will map the data model to data sources.</span></span> <span data-ttu-id="cec31-116">在此示例中，您将映射数据模型到所需付款类型 — 贷方转帐的数据源中。</span><span class="sxs-lookup"><span data-stu-id="cec31-116">In this example, you will map the data model to data sources for the desired payment type: credit transfer.</span></span>     <span data-ttu-id="cec31-117">可以为特定数据模型设计多个映射。</span><span class="sxs-lookup"><span data-stu-id="cec31-117">It is possible to design more than one mapping for a particular data model.</span></span> <span data-ttu-id="cec31-118">例如，您可以为不同类型的付款创建一个映射，如直接借记或贷方转帐。</span><span class="sxs-lookup"><span data-stu-id="cec31-118">For example, you could create a mapping for the different types of payments, such as for direct debit or for credit transfers.</span></span> <span data-ttu-id="cec31-119">在此示例中，您将创建贷方转帐的映射。</span><span class="sxs-lookup"><span data-stu-id="cec31-119">In this example, you will create a mapping for credit transfers.</span></span>  
+5. <span data-ttu-id="cec31-120">在“名称”字段中，键入“CT 映射”。</span><span class="sxs-lookup"><span data-stu-id="cec31-120">In the Name field, type 'CT mapping'.</span></span>
+    * <span data-ttu-id="cec31-121">CT 映射</span><span class="sxs-lookup"><span data-stu-id="cec31-121">CT mapping</span></span>  
+6. <span data-ttu-id="cec31-122">在“描述”字段，键入“付款模型映射 CT”。</span><span class="sxs-lookup"><span data-stu-id="cec31-122">In the Description field, type 'Payment model mapping CT'.</span></span>
+    * <span data-ttu-id="cec31-123">付款模型映射 CT</span><span class="sxs-lookup"><span data-stu-id="cec31-123">Payment model mapping CT</span></span>  
+7. <span data-ttu-id="cec31-124">在“定义”字段中，键入“客户贷方转帐发起”。</span><span class="sxs-lookup"><span data-stu-id="cec31-124">In the Definition field, type 'CustomerCreditTransferInitiation'.</span></span>
+    * <span data-ttu-id="cec31-125">客户贷方转帐发起</span><span class="sxs-lookup"><span data-stu-id="cec31-125">CustomerCreditTransferInitiation</span></span>  
+8. <span data-ttu-id="cec31-126">改变定义。</span><span class="sxs-lookup"><span data-stu-id="cec31-126">ResolveChanges the Definition.</span></span>
+9. <span data-ttu-id="cec31-127">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cec31-127">Click Save.</span></span>
 
-## <a name="define-required-data-sources-for-the-current-model-mapping"></a><span data-ttu-id="b0860-128">定义当前模型映射所需的数据源</span><span class="sxs-lookup"><span data-stu-id="b0860-128">Define required data sources for the current model mapping</span></span>
-1. <span data-ttu-id="b0860-129">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="b0860-129">Click Designer.</span></span>
-2. <span data-ttu-id="b0860-130">在树结构中，选择“Dynamics 365 for Operations\表格记录”。</span><span class="sxs-lookup"><span data-stu-id="b0860-130">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
-3. <span data-ttu-id="b0860-131">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="b0860-131">Click Add root.</span></span>
-    * <span data-ttu-id="b0860-132">输入此数据源以访问付款交易记录。</span><span class="sxs-lookup"><span data-stu-id="b0860-132">Enter this data source to access payment transactions.</span></span>  
-4. <span data-ttu-id="b0860-133">在“名称”字段中，键入“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="b0860-133">In the Name field, type 'Transactions'.</span></span>
-    * <span data-ttu-id="b0860-134">交易</span><span class="sxs-lookup"><span data-stu-id="b0860-134">Transactions</span></span>  
-5. <span data-ttu-id="b0860-135">在“标签”字段中，输入“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="b0860-135">In the Label field, enter 'Transactions'.</span></span>
-    * <span data-ttu-id="b0860-136">交易</span><span class="sxs-lookup"><span data-stu-id="b0860-136">Transactions</span></span>  
-6. <span data-ttu-id="b0860-137">在“帮助”字段中，输入“分类日记帐行”。</span><span class="sxs-lookup"><span data-stu-id="b0860-137">In the Help field, enter 'Ledger journal lines'.</span></span>
-    * <span data-ttu-id="b0860-138">分类日记帐行</span><span class="sxs-lookup"><span data-stu-id="b0860-138">Ledger journal lines</span></span>  
-7. <span data-ttu-id="b0860-139">在“要求查询”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="b0860-139">Select Yes in the Ask for query field.</span></span>
-    * <span data-ttu-id="b0860-140">选择“是”。</span><span class="sxs-lookup"><span data-stu-id="b0860-140">Select Yes.</span></span>  
-8. <span data-ttu-id="b0860-141">在“表格”字段中，键入“分类日记帐交易记录”。</span><span class="sxs-lookup"><span data-stu-id="b0860-141">In the Table field, type 'LedgerJournalTrans'.</span></span>
-    * <span data-ttu-id="b0860-142">分类日记帐交易记录</span><span class="sxs-lookup"><span data-stu-id="b0860-142">LedgerJournalTrans</span></span>  
-9. <span data-ttu-id="b0860-143">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b0860-143">Click OK.</span></span>
-    * <span data-ttu-id="b0860-144">为当前数据模型选择“分类日记帐交易记录”表作为数据源。</span><span class="sxs-lookup"><span data-stu-id="b0860-144">Select the LedgerJournalTrans table as a data source for the current data model.</span></span>  
-10. <span data-ttu-id="b0860-145">在树结构中，选择“功能\计算字段”。</span><span class="sxs-lookup"><span data-stu-id="b0860-145">In the tree, select 'Functions\Calculated field'.</span></span>
-11. <span data-ttu-id="b0860-146">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="b0860-146">Click Add.</span></span>
-    * <span data-ttu-id="b0860-147">单击“添加”以添加新的计算字段。</span><span class="sxs-lookup"><span data-stu-id="b0860-147">Click Add to add a new calculated field.</span></span>  
-12. <span data-ttu-id="b0860-148">在“名称”字段中，键入“$EndToEndID”。</span><span class="sxs-lookup"><span data-stu-id="b0860-148">In the Name field, type '$EndToEndID'.</span></span>
-    * <span data-ttu-id="b0860-149">$EndToEndID</span><span class="sxs-lookup"><span data-stu-id="b0860-149">$EndToEndID</span></span>  
-13. <span data-ttu-id="b0860-150">单击“编辑公式”。</span><span class="sxs-lookup"><span data-stu-id="b0860-150">Click Edit formula.</span></span>
-14. <span data-ttu-id="b0860-151">在树结构中，选择“字符串\连接”。</span><span class="sxs-lookup"><span data-stu-id="b0860-151">In the tree, select 'String\CONCATENATE'.</span></span>
-15. <span data-ttu-id="b0860-152">单击“添加”功能。</span><span class="sxs-lookup"><span data-stu-id="b0860-152">Click Add function.</span></span>
-16. <span data-ttu-id="b0860-153">在树结构中，展开“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="b0860-153">In the tree, expand 'Transactions'.</span></span>
-17. <span data-ttu-id="b0860-154">在树结构中，选择“交易记录\凭证”。</span><span class="sxs-lookup"><span data-stu-id="b0860-154">In the tree, select 'Transactions\Voucher'.</span></span>
-18. <span data-ttu-id="b0860-155">单击“添加数据源”。</span><span class="sxs-lookup"><span data-stu-id="b0860-155">Click Add data source.</span></span>
-19. <span data-ttu-id="b0860-156">在“公式”字段中，输入“CONCATENATE(Transactions.Voucher, "-",”。</span><span class="sxs-lookup"><span data-stu-id="b0860-156">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", '.</span></span>
-    * <span data-ttu-id="b0860-157">在公式结尾键入[ , “-“, ]。</span><span class="sxs-lookup"><span data-stu-id="b0860-157">Type [ , “-“, ] at the end of the formula.</span></span>  
-20. <span data-ttu-id="b0860-158">在树结构中，选择“字符串\文本”。</span><span class="sxs-lookup"><span data-stu-id="b0860-158">In the tree, select 'String\TEXT'.</span></span>
-21. <span data-ttu-id="b0860-159">单击“添加”功能。</span><span class="sxs-lookup"><span data-stu-id="b0860-159">Click Add function.</span></span>
-22. <span data-ttu-id="b0860-160">在树结构中，选择“交易记录\记录 ID”。</span><span class="sxs-lookup"><span data-stu-id="b0860-160">In the tree, select 'Transactions\Record-ID(RecId)'.</span></span>
-23. <span data-ttu-id="b0860-161">单击“添加数据源”。</span><span class="sxs-lookup"><span data-stu-id="b0860-161">Click Add data source.</span></span>
-24. <span data-ttu-id="b0860-162">在“公式”字段中，输入“CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))”。</span><span class="sxs-lookup"><span data-stu-id="b0860-162">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.</span></span>
-    * <span data-ttu-id="b0860-163">在公式结尾键入[))]。</span><span class="sxs-lookup"><span data-stu-id="b0860-163">Type [))] at the end of the formula.</span></span>  
-25. <span data-ttu-id="b0860-164">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="b0860-164">Click Save.</span></span>
-    * <span data-ttu-id="b0860-165">确保创建的公式没有发现错误。</span><span class="sxs-lookup"><span data-stu-id="b0860-165">Make sure that no errors have been discovered for the created formula.</span></span> <span data-ttu-id="b0860-166">查看公式编辑器控制项下的“错误”选项卡。</span><span class="sxs-lookup"><span data-stu-id="b0860-166">See the ERRORS tab below the formula editor control.</span></span>  
-26. <span data-ttu-id="b0860-167">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b0860-167">Close the page.</span></span>
-27. <span data-ttu-id="b0860-168">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b0860-168">Click OK.</span></span>
-    * <span data-ttu-id="b0860-169">添加计算字段到此数据源中。</span><span class="sxs-lookup"><span data-stu-id="b0860-169">Add the calculated field to this data source.</span></span>  
-28. <span data-ttu-id="b0860-170">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="b0860-170">Click Add.</span></span>
-    * <span data-ttu-id="b0860-171">单击“添加”以添加新的计算字段。</span><span class="sxs-lookup"><span data-stu-id="b0860-171">Click Add to add a new calculated field.</span></span>  
-29. <span data-ttu-id="b0860-172">在“名称”字段中，键入“$金额”。</span><span class="sxs-lookup"><span data-stu-id="b0860-172">In the Name field, type '$Amount'.</span></span>
-    * <span data-ttu-id="b0860-173">$金额</span><span class="sxs-lookup"><span data-stu-id="b0860-173">$Amount</span></span>  
-30. <span data-ttu-id="b0860-174">单击“编辑公式”。</span><span class="sxs-lookup"><span data-stu-id="b0860-174">Click Edit formula.</span></span>
-31. <span data-ttu-id="b0860-175">在树结构中，展开“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="b0860-175">In the tree, expand 'Transactions'.</span></span>
-32. <span data-ttu-id="b0860-176">在树结构中，选择“交易记录\借方（借方币种金额）”。</span><span class="sxs-lookup"><span data-stu-id="b0860-176">In the tree, select 'Transactions\Debit(AmountCurDebit)'.</span></span>
-33. <span data-ttu-id="b0860-177">单击“添加数据源”。</span><span class="sxs-lookup"><span data-stu-id="b0860-177">Click Add data source.</span></span>
-34. <span data-ttu-id="b0860-178">在“公式”字段中，输入“Transactions.AmountCurDebit -”。</span><span class="sxs-lookup"><span data-stu-id="b0860-178">In the Formula field, enter 'Transactions.AmountCurDebit - '.</span></span>
-    * <span data-ttu-id="b0860-179">在公式结尾键入[ - ]。</span><span class="sxs-lookup"><span data-stu-id="b0860-179">Type [ - ] at the end of the formula.</span></span>  
-35. <span data-ttu-id="b0860-180">在树结构中，选择“交易记录\贷方（贷方币种金额）”。</span><span class="sxs-lookup"><span data-stu-id="b0860-180">In the tree, select 'Transactions\Credit(AmountCurCredit)'.</span></span>
-36. <span data-ttu-id="b0860-181">单击“添加数据源”。</span><span class="sxs-lookup"><span data-stu-id="b0860-181">Click Add data source.</span></span>
-37. <span data-ttu-id="b0860-182">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="b0860-182">Click Save.</span></span>
-38. <span data-ttu-id="b0860-183">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b0860-183">Close the page.</span></span>
-39. <span data-ttu-id="b0860-184">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b0860-184">Click OK.</span></span>
-    * <span data-ttu-id="b0860-185">这将添加“$计算金额”字段到当前数据模型的所选数据源中。</span><span class="sxs-lookup"><span data-stu-id="b0860-185">This will add the $Amount calculated field to the selected data source for the current data model.</span></span>  
-40. <span data-ttu-id="b0860-186">在树结构中，选择“交易记录\$金额”。</span><span class="sxs-lookup"><span data-stu-id="b0860-186">In the tree, select 'Transactions\$Amount'.</span></span>
-41. <span data-ttu-id="b0860-187">在树结构中，展开“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="b0860-187">In the tree, expand 'Transactions'.</span></span>
-42. <span data-ttu-id="b0860-188">在树结构中，展开或折叠“交易记录\$金额”。</span><span class="sxs-lookup"><span data-stu-id="b0860-188">In the tree, expand or collapse 'Transactions\$Amount'.</span></span>
-43. <span data-ttu-id="b0860-189">在树中，展开或折叠“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="b0860-189">In the tree, expand or collapse 'Transactions'.</span></span>
-44. <span data-ttu-id="b0860-190">在树结构中，选择“Dynamics 365 for Operations\表格记录”。</span><span class="sxs-lookup"><span data-stu-id="b0860-190">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
-45. <span data-ttu-id="b0860-191">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="b0860-191">Click Add root.</span></span>
-    * <span data-ttu-id="b0860-192">输入此数据源以访问公司的银行帐户详细信息。</span><span class="sxs-lookup"><span data-stu-id="b0860-192">Enter this data source to access the company’s bank account details.</span></span>  
-46. <span data-ttu-id="b0860-193">在“名称”字段中，键入“银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="b0860-193">In the Name field, type 'BankAccount'.</span></span>
-    * <span data-ttu-id="b0860-194">银行帐户</span><span class="sxs-lookup"><span data-stu-id="b0860-194">BankAccount</span></span>  
-47. <span data-ttu-id="b0860-195">在“标签”字段中，输入“银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="b0860-195">In the Label field, enter 'Bank Account'.</span></span>
-    * <span data-ttu-id="b0860-196">银行帐户</span><span class="sxs-lookup"><span data-stu-id="b0860-196">Bank Account</span></span>  
-48. <span data-ttu-id="b0860-197">在“帮助”字段中，输入“银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="b0860-197">In the Help field, enter 'Bank Account'.</span></span>
-    * <span data-ttu-id="b0860-198">银行帐户</span><span class="sxs-lookup"><span data-stu-id="b0860-198">Bank Account</span></span>  
-49. <span data-ttu-id="b0860-199">在“要求查询”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="b0860-199">Select Yes in the Ask for query field.</span></span>
-    * <span data-ttu-id="b0860-200">选择“是”。</span><span class="sxs-lookup"><span data-stu-id="b0860-200">Select Yes.</span></span>  
-50. <span data-ttu-id="b0860-201">在“表格”字段中，键入“银行帐户表”。</span><span class="sxs-lookup"><span data-stu-id="b0860-201">In the Table field, type 'BankAccountTable'.</span></span>
-    * <span data-ttu-id="b0860-202">银行帐户表</span><span class="sxs-lookup"><span data-stu-id="b0860-202">BankAccountTable</span></span>  
-51. <span data-ttu-id="b0860-203">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b0860-203">Click OK.</span></span>
-    * <span data-ttu-id="b0860-204">为当前数据模型选择“银行帐户表”作为数据源。</span><span class="sxs-lookup"><span data-stu-id="b0860-204">Select the BankAccountTable table as a data source for the current data model.</span></span>  
-52. <span data-ttu-id="b0860-205">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="b0860-205">Click Add root.</span></span>
-    * <span data-ttu-id="b0860-206">输入此数据源以访问公司的基本信息。</span><span class="sxs-lookup"><span data-stu-id="b0860-206">Enter this data source to access the company’s requisites.</span></span>  
-53. <span data-ttu-id="b0860-207">在“名称”字段中，键入“公司”。</span><span class="sxs-lookup"><span data-stu-id="b0860-207">In the Name field, type 'Company'.</span></span>
-    * <span data-ttu-id="b0860-208">公司</span><span class="sxs-lookup"><span data-stu-id="b0860-208">Company</span></span>  
-54. <span data-ttu-id="b0860-209">在“标签”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="b0860-209">In the Label field, type a value.</span></span>
-    * <span data-ttu-id="b0860-210">公司信息</span><span class="sxs-lookup"><span data-stu-id="b0860-210">Company information</span></span>  
-55. <span data-ttu-id="b0860-211">在“帮助”字段中，输入“公司信息”。</span><span class="sxs-lookup"><span data-stu-id="b0860-211">In the Help field, enter 'Company information'.</span></span>
-    * <span data-ttu-id="b0860-212">公司信息</span><span class="sxs-lookup"><span data-stu-id="b0860-212">Company information</span></span>  
-56. <span data-ttu-id="b0860-213">在“要求查询”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="b0860-213">Select Yes in the Ask for query field.</span></span>
-    * <span data-ttu-id="b0860-214">选择“是”。</span><span class="sxs-lookup"><span data-stu-id="b0860-214">Select Yes.</span></span>  
-57. <span data-ttu-id="b0860-215">在“表格”字段中，键入“公司信息”。</span><span class="sxs-lookup"><span data-stu-id="b0860-215">In the Table field, type 'CompanyInfo'.</span></span>
-    * <span data-ttu-id="b0860-216">公司信息</span><span class="sxs-lookup"><span data-stu-id="b0860-216">CompanyInfo</span></span>  
-58. <span data-ttu-id="b0860-217">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b0860-217">Click OK.</span></span>
-    * <span data-ttu-id="b0860-218">为当前数据模型选择“公司信息”表作为数据源。</span><span class="sxs-lookup"><span data-stu-id="b0860-218">Select the CompanyInfo table as a data source for the current data model.</span></span>  
-59. <span data-ttu-id="b0860-219">在树结构中，选择“功能\计算字段”。</span><span class="sxs-lookup"><span data-stu-id="b0860-219">In the tree, select 'Functions\Calculated field'.</span></span>
-60. <span data-ttu-id="b0860-220">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="b0860-220">Click Add root.</span></span>
-    * <span data-ttu-id="b0860-221">插入“计算”字段作为新数据源。</span><span class="sxs-lookup"><span data-stu-id="b0860-221">Insert a calculated field as a new data source.</span></span>  
-61. <span data-ttu-id="b0860-222">在“名称”字段中，键入“处理日期时间”“。</span><span class="sxs-lookup"><span data-stu-id="b0860-222">In the Name field, type 'ProcessingDateTime'.</span></span>
-    * <span data-ttu-id="b0860-223">处理日期时间</span><span class="sxs-lookup"><span data-stu-id="b0860-223">ProcessingDateTime</span></span>  
-62. <span data-ttu-id="b0860-224">在“标签”字段中，输入“处理日期和时间”。</span><span class="sxs-lookup"><span data-stu-id="b0860-224">In the Label field, enter 'Processing date & time'.</span></span>
-    * <span data-ttu-id="b0860-225">处理日期和时间</span><span class="sxs-lookup"><span data-stu-id="b0860-225">Processing date & time</span></span>  
-63. <span data-ttu-id="b0860-226">单击“编辑公式”。</span><span class="sxs-lookup"><span data-stu-id="b0860-226">Click Edit formula.</span></span>
-64. <span data-ttu-id="b0860-227">在树结构中，选择“日期/时间\SESSIONNOW”。</span><span class="sxs-lookup"><span data-stu-id="b0860-227">In the tree, select 'Date/time\SESSIONNOW'.</span></span>
-65. <span data-ttu-id="b0860-228">单击“添加”功能。</span><span class="sxs-lookup"><span data-stu-id="b0860-228">Click Add function.</span></span>
-66. <span data-ttu-id="b0860-229">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="b0860-229">Click Save.</span></span>
-67. <span data-ttu-id="b0860-230">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b0860-230">Close the page.</span></span>
-68. <span data-ttu-id="b0860-231">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b0860-231">Click OK.</span></span>
-    * <span data-ttu-id="b0860-232">为当前数据模型添加“处理日期时间”计算字段作为数据源。</span><span class="sxs-lookup"><span data-stu-id="b0860-232">Add the ProcessingDateTime calculated field as a data source for the current data model.</span></span>  
-69. <span data-ttu-id="b0860-233">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="b0860-233">Click Save.</span></span>
-70. <span data-ttu-id="b0860-234">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b0860-234">Close the page.</span></span>
-71. <span data-ttu-id="b0860-235">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b0860-235">Close the page.</span></span>
-72. <span data-ttu-id="b0860-236">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="b0860-236">Close the page.</span></span>
-
+## <a name="define-required-data-sources-for-the-current-model-mapping"></a><span data-ttu-id="cec31-128">定义当前模型映射所需的数据源</span><span class="sxs-lookup"><span data-stu-id="cec31-128">Define required data sources for the current model mapping</span></span>
+1. <span data-ttu-id="cec31-129">单击“设计器”。</span><span class="sxs-lookup"><span data-stu-id="cec31-129">Click Designer.</span></span>
+2. <span data-ttu-id="cec31-130">在树中，选择“Dynamics 365 for Operations\表记录”'。</span><span class="sxs-lookup"><span data-stu-id="cec31-130">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+3. <span data-ttu-id="cec31-131">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="cec31-131">Click Add root.</span></span>
+    * <span data-ttu-id="cec31-132">输入此数据源以访问付款交易记录。</span><span class="sxs-lookup"><span data-stu-id="cec31-132">Enter this data source to access payment transactions.</span></span>  
+4. <span data-ttu-id="cec31-133">在“名称”字段中，键入“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="cec31-133">In the Name field, type 'Transactions'.</span></span>
+    * <span data-ttu-id="cec31-134">交易</span><span class="sxs-lookup"><span data-stu-id="cec31-134">Transactions</span></span>  
+5. <span data-ttu-id="cec31-135">在“标签”字段中，输入“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="cec31-135">In the Label field, enter 'Transactions'.</span></span>
+    * <span data-ttu-id="cec31-136">交易</span><span class="sxs-lookup"><span data-stu-id="cec31-136">Transactions</span></span>  
+6. <span data-ttu-id="cec31-137">在“帮助”字段中，输入“分类日记帐行”。</span><span class="sxs-lookup"><span data-stu-id="cec31-137">In the Help field, enter 'Ledger journal lines'.</span></span>
+    * <span data-ttu-id="cec31-138">分类日记帐行</span><span class="sxs-lookup"><span data-stu-id="cec31-138">Ledger journal lines</span></span>  
+7. <span data-ttu-id="cec31-139">在“要求查询”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="cec31-139">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="cec31-140">选择“是”。</span><span class="sxs-lookup"><span data-stu-id="cec31-140">Select Yes.</span></span>  
+8. <span data-ttu-id="cec31-141">在“表格”字段中，键入“分类日记帐交易记录”。</span><span class="sxs-lookup"><span data-stu-id="cec31-141">In the Table field, type 'LedgerJournalTrans'.</span></span>
+    * <span data-ttu-id="cec31-142">分类日记帐交易记录</span><span class="sxs-lookup"><span data-stu-id="cec31-142">LedgerJournalTrans</span></span>  
+9. <span data-ttu-id="cec31-143">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="cec31-143">Click OK.</span></span>
+    * <span data-ttu-id="cec31-144">为当前数据模型选择“分类日记帐交易记录”表作为数据源。</span><span class="sxs-lookup"><span data-stu-id="cec31-144">Select the LedgerJournalTrans table as a data source for the current data model.</span></span>  
+10. <span data-ttu-id="cec31-145">在树结构中，选择“功能\计算字段”。</span><span class="sxs-lookup"><span data-stu-id="cec31-145">In the tree, select 'Functions\Calculated field'.</span></span>
+11. <span data-ttu-id="cec31-146">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cec31-146">Click Add.</span></span>
+    * <span data-ttu-id="cec31-147">单击“添加”以添加新的计算字段。</span><span class="sxs-lookup"><span data-stu-id="cec31-147">Click Add to add a new calculated field.</span></span>  
+12. <span data-ttu-id="cec31-148">在“名称”字段中，键入“$EndToEndID”。</span><span class="sxs-lookup"><span data-stu-id="cec31-148">In the Name field, type '$EndToEndID'.</span></span>
+    * <span data-ttu-id="cec31-149">$EndToEndID</span><span class="sxs-lookup"><span data-stu-id="cec31-149">$EndToEndID</span></span>  
+13. <span data-ttu-id="cec31-150">单击“编辑公式”。</span><span class="sxs-lookup"><span data-stu-id="cec31-150">Click Edit formula.</span></span>
+14. <span data-ttu-id="cec31-151">在树结构中，选择“字符串\连接”。</span><span class="sxs-lookup"><span data-stu-id="cec31-151">In the tree, select 'String\CONCATENATE'.</span></span>
+15. <span data-ttu-id="cec31-152">单击“添加”功能。</span><span class="sxs-lookup"><span data-stu-id="cec31-152">Click Add function.</span></span>
+16. <span data-ttu-id="cec31-153">在树结构中，展开“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="cec31-153">In the tree, expand 'Transactions'.</span></span>
+17. <span data-ttu-id="cec31-154">在树结构中，选择“交易记录\凭证”。</span><span class="sxs-lookup"><span data-stu-id="cec31-154">In the tree, select 'Transactions\Voucher'.</span></span>
+18. <span data-ttu-id="cec31-155">单击“添加数据源”。</span><span class="sxs-lookup"><span data-stu-id="cec31-155">Click Add data source.</span></span>
+19. <span data-ttu-id="cec31-156">在“公式”字段中，输入“CONCATENATE(Transactions.Voucher, "-",”。</span><span class="sxs-lookup"><span data-stu-id="cec31-156">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", '.</span></span>
+    * <span data-ttu-id="cec31-157">在公式结尾键入[ , “-“, ]。</span><span class="sxs-lookup"><span data-stu-id="cec31-157">Type [ , “-“, ] at the end of the formula.</span></span>  
+20. <span data-ttu-id="cec31-158">在树结构中，选择“字符串\文本”。</span><span class="sxs-lookup"><span data-stu-id="cec31-158">In the tree, select 'String\TEXT'.</span></span>
+21. <span data-ttu-id="cec31-159">单击“添加”功能。</span><span class="sxs-lookup"><span data-stu-id="cec31-159">Click Add function.</span></span>
+22. <span data-ttu-id="cec31-160">在树结构中，选择“交易记录\记录 ID”。</span><span class="sxs-lookup"><span data-stu-id="cec31-160">In the tree, select 'Transactions\Record-ID(RecId)'.</span></span>
+23. <span data-ttu-id="cec31-161">单击“添加数据源”。</span><span class="sxs-lookup"><span data-stu-id="cec31-161">Click Add data source.</span></span>
+24. <span data-ttu-id="cec31-162">在“公式”字段中，输入“CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))”。</span><span class="sxs-lookup"><span data-stu-id="cec31-162">In the Formula field, enter 'CONCATENATE(Transactions.Voucher, "-", TEXT(Transactions.RecId))'.</span></span>
+    * <span data-ttu-id="cec31-163">在公式结尾键入[))]。</span><span class="sxs-lookup"><span data-stu-id="cec31-163">Type [))] at the end of the formula.</span></span>  
+25. <span data-ttu-id="cec31-164">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cec31-164">Click Save.</span></span>
+    * <span data-ttu-id="cec31-165">确保创建的公式没有发现错误。</span><span class="sxs-lookup"><span data-stu-id="cec31-165">Make sure that no errors have been discovered for the created formula.</span></span> <span data-ttu-id="cec31-166">查看公式编辑器控制项下的“错误”选项卡。</span><span class="sxs-lookup"><span data-stu-id="cec31-166">See the ERRORS tab below the formula editor control.</span></span>  
+26. <span data-ttu-id="cec31-167">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="cec31-167">Close the page.</span></span>
+27. <span data-ttu-id="cec31-168">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="cec31-168">Click OK.</span></span>
+    * <span data-ttu-id="cec31-169">添加计算字段到此数据源中。</span><span class="sxs-lookup"><span data-stu-id="cec31-169">Add the calculated field to this data source.</span></span>  
+28. <span data-ttu-id="cec31-170">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cec31-170">Click Add.</span></span>
+    * <span data-ttu-id="cec31-171">单击“添加”以添加新的计算字段。</span><span class="sxs-lookup"><span data-stu-id="cec31-171">Click Add to add a new calculated field.</span></span>  
+29. <span data-ttu-id="cec31-172">在“名称”字段中，键入“$金额”。</span><span class="sxs-lookup"><span data-stu-id="cec31-172">In the Name field, type '$Amount'.</span></span>
+    * <span data-ttu-id="cec31-173">$金额</span><span class="sxs-lookup"><span data-stu-id="cec31-173">$Amount</span></span>  
+30. <span data-ttu-id="cec31-174">单击“编辑公式”。</span><span class="sxs-lookup"><span data-stu-id="cec31-174">Click Edit formula.</span></span>
+31. <span data-ttu-id="cec31-175">在树结构中，展开“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="cec31-175">In the tree, expand 'Transactions'.</span></span>
+32. <span data-ttu-id="cec31-176">在树结构中，选择“交易记录\借方（借方币种金额）”。</span><span class="sxs-lookup"><span data-stu-id="cec31-176">In the tree, select 'Transactions\Debit(AmountCurDebit)'.</span></span>
+33. <span data-ttu-id="cec31-177">单击“添加数据源”。</span><span class="sxs-lookup"><span data-stu-id="cec31-177">Click Add data source.</span></span>
+34. <span data-ttu-id="cec31-178">在“公式”字段中，输入“Transactions.AmountCurDebit -”。</span><span class="sxs-lookup"><span data-stu-id="cec31-178">In the Formula field, enter 'Transactions.AmountCurDebit - '.</span></span>
+    * <span data-ttu-id="cec31-179">在公式结尾键入[ - ]。</span><span class="sxs-lookup"><span data-stu-id="cec31-179">Type [ - ] at the end of the formula.</span></span>  
+35. <span data-ttu-id="cec31-180">在树结构中，选择“交易记录\贷方（贷方币种金额）”。</span><span class="sxs-lookup"><span data-stu-id="cec31-180">In the tree, select 'Transactions\Credit(AmountCurCredit)'.</span></span>
+36. <span data-ttu-id="cec31-181">单击“添加数据源”。</span><span class="sxs-lookup"><span data-stu-id="cec31-181">Click Add data source.</span></span>
+37. <span data-ttu-id="cec31-182">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cec31-182">Click Save.</span></span>
+38. <span data-ttu-id="cec31-183">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="cec31-183">Close the page.</span></span>
+39. <span data-ttu-id="cec31-184">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="cec31-184">Click OK.</span></span>
+    * <span data-ttu-id="cec31-185">这将添加“$计算金额”字段到当前数据模型的所选数据源中。</span><span class="sxs-lookup"><span data-stu-id="cec31-185">This will add the $Amount calculated field to the selected data source for the current data model.</span></span>  
+40. <span data-ttu-id="cec31-186">在树结构中，选择“交易记录\$金额”。</span><span class="sxs-lookup"><span data-stu-id="cec31-186">In the tree, select 'Transactions\$Amount'.</span></span>
+41. <span data-ttu-id="cec31-187">在树结构中，展开“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="cec31-187">In the tree, expand 'Transactions'.</span></span>
+42. <span data-ttu-id="cec31-188">在树结构中，展开或折叠“交易记录\$金额”。</span><span class="sxs-lookup"><span data-stu-id="cec31-188">In the tree, expand or collapse 'Transactions\$Amount'.</span></span>
+43. <span data-ttu-id="cec31-189">在树中，展开或折叠“交易记录”。</span><span class="sxs-lookup"><span data-stu-id="cec31-189">In the tree, expand or collapse 'Transactions'.</span></span>
+44. <span data-ttu-id="cec31-190">在树中，选择“Dynamics 365 for Operations\表记录”'。</span><span class="sxs-lookup"><span data-stu-id="cec31-190">In the tree, select 'Dynamics 365 for Operations\Table records'.</span></span>
+45. <span data-ttu-id="cec31-191">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="cec31-191">Click Add root.</span></span>
+    * <span data-ttu-id="cec31-192">输入此数据源以访问公司的银行帐户详细信息。</span><span class="sxs-lookup"><span data-stu-id="cec31-192">Enter this data source to access the company’s bank account details.</span></span>  
+46. <span data-ttu-id="cec31-193">在“名称”字段中，键入“银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="cec31-193">In the Name field, type 'BankAccount'.</span></span>
+    * <span data-ttu-id="cec31-194">银行帐户</span><span class="sxs-lookup"><span data-stu-id="cec31-194">BankAccount</span></span>  
+47. <span data-ttu-id="cec31-195">在“标签”字段中，输入“银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="cec31-195">In the Label field, enter 'Bank Account'.</span></span>
+    * <span data-ttu-id="cec31-196">银行帐户</span><span class="sxs-lookup"><span data-stu-id="cec31-196">Bank Account</span></span>  
+48. <span data-ttu-id="cec31-197">在“帮助”字段中，输入“银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="cec31-197">In the Help field, enter 'Bank Account'.</span></span>
+    * <span data-ttu-id="cec31-198">银行帐户</span><span class="sxs-lookup"><span data-stu-id="cec31-198">Bank Account</span></span>  
+49. <span data-ttu-id="cec31-199">在“要求查询”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="cec31-199">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="cec31-200">选择“是”。</span><span class="sxs-lookup"><span data-stu-id="cec31-200">Select Yes.</span></span>  
+50. <span data-ttu-id="cec31-201">在“表格”字段中，键入“银行帐户表”。</span><span class="sxs-lookup"><span data-stu-id="cec31-201">In the Table field, type 'BankAccountTable'.</span></span>
+    * <span data-ttu-id="cec31-202">银行帐户表</span><span class="sxs-lookup"><span data-stu-id="cec31-202">BankAccountTable</span></span>  
+51. <span data-ttu-id="cec31-203">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="cec31-203">Click OK.</span></span>
+    * <span data-ttu-id="cec31-204">为当前数据模型选择“银行帐户表”作为数据源。</span><span class="sxs-lookup"><span data-stu-id="cec31-204">Select the BankAccountTable table as a data source for the current data model.</span></span>  
+52. <span data-ttu-id="cec31-205">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="cec31-205">Click Add root.</span></span>
+    * <span data-ttu-id="cec31-206">输入此数据源以访问公司的基本信息。</span><span class="sxs-lookup"><span data-stu-id="cec31-206">Enter this data source to access the company’s requisites.</span></span>  
+53. <span data-ttu-id="cec31-207">在“名称”字段中，键入“公司”。</span><span class="sxs-lookup"><span data-stu-id="cec31-207">In the Name field, type 'Company'.</span></span>
+    * <span data-ttu-id="cec31-208">公司</span><span class="sxs-lookup"><span data-stu-id="cec31-208">Company</span></span>  
+54. <span data-ttu-id="cec31-209">在“标签”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="cec31-209">In the Label field, type a value.</span></span>
+    * <span data-ttu-id="cec31-210">公司信息</span><span class="sxs-lookup"><span data-stu-id="cec31-210">Company information</span></span>  
+55. <span data-ttu-id="cec31-211">在“帮助”字段中，输入“公司信息”。</span><span class="sxs-lookup"><span data-stu-id="cec31-211">In the Help field, enter 'Company information'.</span></span>
+    * <span data-ttu-id="cec31-212">公司信息</span><span class="sxs-lookup"><span data-stu-id="cec31-212">Company information</span></span>  
+56. <span data-ttu-id="cec31-213">在“要求查询”字段中选择“是”。</span><span class="sxs-lookup"><span data-stu-id="cec31-213">Select Yes in the Ask for query field.</span></span>
+    * <span data-ttu-id="cec31-214">选择“是”。</span><span class="sxs-lookup"><span data-stu-id="cec31-214">Select Yes.</span></span>  
+57. <span data-ttu-id="cec31-215">在“表格”字段中，键入“公司信息”。</span><span class="sxs-lookup"><span data-stu-id="cec31-215">In the Table field, type 'CompanyInfo'.</span></span>
+    * <span data-ttu-id="cec31-216">公司信息</span><span class="sxs-lookup"><span data-stu-id="cec31-216">CompanyInfo</span></span>  
+58. <span data-ttu-id="cec31-217">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="cec31-217">Click OK.</span></span>
+    * <span data-ttu-id="cec31-218">为当前数据模型选择“公司信息”表作为数据源。</span><span class="sxs-lookup"><span data-stu-id="cec31-218">Select the CompanyInfo table as a data source for the current data model.</span></span>  
+59. <span data-ttu-id="cec31-219">在树结构中，选择“功能\计算字段”。</span><span class="sxs-lookup"><span data-stu-id="cec31-219">In the tree, select 'Functions\Calculated field'.</span></span>
+60. <span data-ttu-id="cec31-220">单击“添加根”。</span><span class="sxs-lookup"><span data-stu-id="cec31-220">Click Add root.</span></span>
+    * <span data-ttu-id="cec31-221">插入“计算”字段作为新数据源。</span><span class="sxs-lookup"><span data-stu-id="cec31-221">Insert a calculated field as a new data source.</span></span>  
+61. <span data-ttu-id="cec31-222">在“名称”字段中，键入“处理日期时间”“。</span><span class="sxs-lookup"><span data-stu-id="cec31-222">In the Name field, type 'ProcessingDateTime'.</span></span>
+    * <span data-ttu-id="cec31-223">处理日期时间</span><span class="sxs-lookup"><span data-stu-id="cec31-223">ProcessingDateTime</span></span>  
+62. <span data-ttu-id="cec31-224">在“标签”字段中，输入“处理日期和时间”。</span><span class="sxs-lookup"><span data-stu-id="cec31-224">In the Label field, enter 'Processing date & time'.</span></span>
+    * <span data-ttu-id="cec31-225">处理日期和时间</span><span class="sxs-lookup"><span data-stu-id="cec31-225">Processing date & time</span></span>  
+63. <span data-ttu-id="cec31-226">单击“编辑公式”。</span><span class="sxs-lookup"><span data-stu-id="cec31-226">Click Edit formula.</span></span>
+64. <span data-ttu-id="cec31-227">在树结构中，选择“日期/时间\SESSIONNOW”。</span><span class="sxs-lookup"><span data-stu-id="cec31-227">In the tree, select 'Date/time\SESSIONNOW'.</span></span>
+65. <span data-ttu-id="cec31-228">单击“添加”功能。</span><span class="sxs-lookup"><span data-stu-id="cec31-228">Click Add function.</span></span>
+66. <span data-ttu-id="cec31-229">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cec31-229">Click Save.</span></span>
+67. <span data-ttu-id="cec31-230">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="cec31-230">Close the page.</span></span>
+68. <span data-ttu-id="cec31-231">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="cec31-231">Click OK.</span></span>
+    * <span data-ttu-id="cec31-232">为当前数据模型添加“处理日期时间”计算字段作为数据源。</span><span class="sxs-lookup"><span data-stu-id="cec31-232">Add the ProcessingDateTime calculated field as a data source for the current data model.</span></span>  
+69. <span data-ttu-id="cec31-233">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cec31-233">Click Save.</span></span>
+70. <span data-ttu-id="cec31-234">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="cec31-234">Close the page.</span></span>
+71. <span data-ttu-id="cec31-235">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="cec31-235">Close the page.</span></span>
+72. <span data-ttu-id="cec31-236">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="cec31-236">Close the page.</span></span>
 

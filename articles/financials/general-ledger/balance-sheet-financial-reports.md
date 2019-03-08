@@ -1,13 +1,13 @@
 ---
-title: "资产负债表财务报表"
-description: "本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。"
+title: 资产负债表财务报表
+description: 本文介绍资产负债表的默认报表。 还介绍这些报表的关联构建块。
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinanicalReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,69 +18,67 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 9ff778af1bb3af3a10132ab3193ad1cd5daa24e1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342285"
 ---
-
-# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="9e3c9-104">资产负债表财务报表</span><span class="sxs-lookup"><span data-stu-id="9e3c9-104">Balance sheet financial reports</span></span>
+# <a name="balance-sheet-financial-reports"></a><span data-ttu-id="39e7e-104">资产负债表财务报表</span><span class="sxs-lookup"><span data-stu-id="39e7e-104">Balance sheet financial reports</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="9e3c9-105">本文介绍资产负债表的默认报表。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="9e3c9-106">还介绍这些报表的关联构建块。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-106">It also describes the building blocks that are associated with these reports.</span></span> 
+<span data-ttu-id="39e7e-105">本文介绍资产负债表的默认报表。</span><span class="sxs-lookup"><span data-stu-id="39e7e-105">This article describes the default reports for balance sheets.</span></span> <span data-ttu-id="39e7e-106">还介绍这些报表的关联构建块。</span><span class="sxs-lookup"><span data-stu-id="39e7e-106">It also describes the building blocks that are associated with these reports.</span></span> 
 
-<a name="default-balance-sheet-reports"></a><span data-ttu-id="9e3c9-107">默认资产负债表</span><span class="sxs-lookup"><span data-stu-id="9e3c9-107">Default balance sheet reports</span></span>
+<a name="default-balance-sheet-reports"></a><span data-ttu-id="39e7e-107">默认资产负债表</span><span class="sxs-lookup"><span data-stu-id="39e7e-107">Default balance sheet reports</span></span>
 -----------------------------
 
-<span data-ttu-id="9e3c9-108">有两个默认的资产负债表。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="9e3c9-109">在一个报表中，这些部分堆积起来。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="9e3c9-110">在另一个报表中，这些部分是并行的。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-110">On the other report, the sections are side by side.</span></span>
+<span data-ttu-id="39e7e-108">有两个默认的资产负债表。</span><span class="sxs-lookup"><span data-stu-id="39e7e-108">There are two default balance sheet reports.</span></span> <span data-ttu-id="39e7e-109">在一个报表中，这些部分堆积起来。</span><span class="sxs-lookup"><span data-stu-id="39e7e-109">On one report, the sections are stacked.</span></span> <span data-ttu-id="39e7e-110">在另一个报表中，这些部分是并行的。</span><span class="sxs-lookup"><span data-stu-id="39e7e-110">On the other report, the sections are side by side.</span></span>
 
-| <span data-ttu-id="9e3c9-111">默认报表</span><span class="sxs-lookup"><span data-stu-id="9e3c9-111">Default report</span></span>                       | <span data-ttu-id="9e3c9-112">作用</span><span class="sxs-lookup"><span data-stu-id="9e3c9-112">What it does</span></span>                                                                                                                           |
+| <span data-ttu-id="39e7e-111">默认报表</span><span class="sxs-lookup"><span data-stu-id="39e7e-111">Default report</span></span>                       | <span data-ttu-id="39e7e-112">作用</span><span class="sxs-lookup"><span data-stu-id="39e7e-112">What it does</span></span>                                                                                                                           |
 |--------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="9e3c9-113">资产负债表 – 默认</span><span class="sxs-lookup"><span data-stu-id="9e3c9-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="9e3c9-114">提供组织的年度财务状况视图。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
-| <span data-ttu-id="9e3c9-115">并排资产负债表 – 默认</span><span class="sxs-lookup"><span data-stu-id="9e3c9-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="9e3c9-116">提供组织的年度财务状况视图。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="9e3c9-117">资产和负债，以及股东权益是并排的。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
+| <span data-ttu-id="39e7e-113">资产负债表 – 默认</span><span class="sxs-lookup"><span data-stu-id="39e7e-113">Balance Sheet – Default</span></span>              | <span data-ttu-id="39e7e-114">提供组织的年度财务状况视图。</span><span class="sxs-lookup"><span data-stu-id="39e7e-114">Provides a view of the organization's financial position for the year.</span></span>                                                                 |
+| <span data-ttu-id="39e7e-115">并排资产负债表 – 默认</span><span class="sxs-lookup"><span data-stu-id="39e7e-115">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="39e7e-116">提供组织的年度财务状况视图。</span><span class="sxs-lookup"><span data-stu-id="39e7e-116">Provides a view of the organization's financial position for the year.</span></span> <span data-ttu-id="39e7e-117">资产和负债，以及股东权益是并排的。</span><span class="sxs-lookup"><span data-stu-id="39e7e-117">Assets and liability and shareholder’s equity are side by side.</span></span> |
 
-## <a name="building-blocks"></a><span data-ttu-id="9e3c9-118">构建基块</span><span class="sxs-lookup"><span data-stu-id="9e3c9-118">Building blocks</span></span>
-<span data-ttu-id="9e3c9-119">资产负债表财务报表使用以下构建基块。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-119">The balance sheet financial reports use the following building blocks.</span></span>
+## <a name="building-blocks"></a><span data-ttu-id="39e7e-118">构建基块</span><span class="sxs-lookup"><span data-stu-id="39e7e-118">Building blocks</span></span>
+<span data-ttu-id="39e7e-119">资产负债表财务报表使用以下构建基块。</span><span class="sxs-lookup"><span data-stu-id="39e7e-119">The balance sheet financial reports use the following building blocks.</span></span>
 
-| <span data-ttu-id="9e3c9-120">默认报表</span><span class="sxs-lookup"><span data-stu-id="9e3c9-120">Default report</span></span>                       | <span data-ttu-id="9e3c9-121">行定义</span><span class="sxs-lookup"><span data-stu-id="9e3c9-121">Row definition</span></span>                       | <span data-ttu-id="9e3c9-122">列定义</span><span class="sxs-lookup"><span data-stu-id="9e3c9-122">Column definition</span></span>             |
+| <span data-ttu-id="39e7e-120">默认报表</span><span class="sxs-lookup"><span data-stu-id="39e7e-120">Default report</span></span>                       | <span data-ttu-id="39e7e-121">行定义</span><span class="sxs-lookup"><span data-stu-id="39e7e-121">Row definition</span></span>                       | <span data-ttu-id="39e7e-122">列定义</span><span class="sxs-lookup"><span data-stu-id="39e7e-122">Column definition</span></span>             |
 |--------------------------------------|--------------------------------------|-------------------------------|
-| <span data-ttu-id="9e3c9-123">资产负债表 - 默认</span><span class="sxs-lookup"><span data-stu-id="9e3c9-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="9e3c9-124">资产负债表 - 默认</span><span class="sxs-lookup"><span data-stu-id="9e3c9-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="9e3c9-125">YTD 和差异 - 默认</span><span class="sxs-lookup"><span data-stu-id="9e3c9-125">YTD and Variance - Default</span></span>    |
-| <span data-ttu-id="9e3c9-126">并排资产负债表 – 默认</span><span class="sxs-lookup"><span data-stu-id="9e3c9-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="9e3c9-127">并排资产负债表 – 默认</span><span class="sxs-lookup"><span data-stu-id="9e3c9-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="9e3c9-128">本年迄今列 - 默认</span><span class="sxs-lookup"><span data-stu-id="9e3c9-128">Year to Date Column - Default</span></span> |
+| <span data-ttu-id="39e7e-123">资产负债表 - 默认</span><span class="sxs-lookup"><span data-stu-id="39e7e-123">Balance Sheet - Default</span></span>              | <span data-ttu-id="39e7e-124">资产负债表 - 默认</span><span class="sxs-lookup"><span data-stu-id="39e7e-124">Balance Sheet - Default</span></span>              | <span data-ttu-id="39e7e-125">YTD 和差异 - 默认</span><span class="sxs-lookup"><span data-stu-id="39e7e-125">YTD and Variance - Default</span></span>    |
+| <span data-ttu-id="39e7e-126">并排资产负债表 – 默认</span><span class="sxs-lookup"><span data-stu-id="39e7e-126">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="39e7e-127">并排资产负债表 – 默认</span><span class="sxs-lookup"><span data-stu-id="39e7e-127">Side by Side Balance Sheet – Default</span></span> | <span data-ttu-id="39e7e-128">本年迄今列 - 默认</span><span class="sxs-lookup"><span data-stu-id="39e7e-128">Year to Date Column - Default</span></span> |
 
-### <a name="row-definition"></a><span data-ttu-id="9e3c9-129">行定义</span><span class="sxs-lookup"><span data-stu-id="9e3c9-129">Row definition</span></span>
+### <a name="row-definition"></a><span data-ttu-id="39e7e-129">行定义</span><span class="sxs-lookup"><span data-stu-id="39e7e-129">Row definition</span></span>
 
-<span data-ttu-id="9e3c9-130">两个资产负债表的行定义包含传统资产负债表中每个部分的部分。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="9e3c9-131">并排报表包括分列符，以使债务和所有者权益显示在资产旁边。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="9e3c9-132">主科目类别维度用于构建两个行定义。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="9e3c9-133">因此，任何人都可以生成报表，而不必进行任何修改。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
+<span data-ttu-id="39e7e-130">两个资产负债表的行定义包含传统资产负债表中每个部分的部分。</span><span class="sxs-lookup"><span data-stu-id="39e7e-130">The row definitions for both balance sheet reports contain sections for each part of a traditional balance sheet.</span></span> <span data-ttu-id="39e7e-131">并排报表包括分列符，以使债务和所有者权益显示在资产旁边。</span><span class="sxs-lookup"><span data-stu-id="39e7e-131">The side-by-side report includes a column break, so that liability and the owner’s equity appear next to assets.</span></span> <span data-ttu-id="39e7e-132">主科目类别维度用于构建两个行定义。</span><span class="sxs-lookup"><span data-stu-id="39e7e-132">The Main Account Category dimension is used to build both row definitions.</span></span> <span data-ttu-id="39e7e-133">因此，任何人都可以生成报表，而不必进行任何修改。</span><span class="sxs-lookup"><span data-stu-id="39e7e-133">Therefore, anyone can generate the reports without having to make any modifications.</span></span>
 
-### <a name="column-definition"></a><span data-ttu-id="9e3c9-134">列定义</span><span class="sxs-lookup"><span data-stu-id="9e3c9-134">Column definition</span></span>
+### <a name="column-definition"></a><span data-ttu-id="39e7e-134">列定义</span><span class="sxs-lookup"><span data-stu-id="39e7e-134">Column definition</span></span>
 
-<span data-ttu-id="9e3c9-135">列定义包含不同的列类型以提供不同级别的详细信息和财务数据。</span><span class="sxs-lookup"><span data-stu-id="9e3c9-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
+<span data-ttu-id="39e7e-135">列定义包含不同的列类型以提供不同级别的详细信息和财务数据。</span><span class="sxs-lookup"><span data-stu-id="39e7e-135">The column definitions contain different types of columns to provide different levels of detail and financial data.</span></span>
 
--   <span data-ttu-id="9e3c9-136">**YTD 和差异 – 默认列类型：**</span><span class="sxs-lookup"><span data-stu-id="9e3c9-136">**YTD and Variance – Default column types:**</span></span>
-    -   <span data-ttu-id="9e3c9-137">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="9e3c9-137">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="9e3c9-138">**FD** – 当前年度的本年迄今财务数据</span><span class="sxs-lookup"><span data-stu-id="9e3c9-138">**FD** – Year-to-date financial data for the current year</span></span>
-    -   <span data-ttu-id="9e3c9-139">**FD** – 上一年度的本年迄今财务数据</span><span class="sxs-lookup"><span data-stu-id="9e3c9-139">**FD** – Year-to-date financial data for the last year</span></span>
-    -   <span data-ttu-id="9e3c9-140">**CALC** – 从今年减去去年所得的差异</span><span class="sxs-lookup"><span data-stu-id="9e3c9-140">**CALC** – The variance from subtracting last year from this year</span></span>
+-   <span data-ttu-id="39e7e-136">**YTD 和差异 – 默认列类型：**</span><span class="sxs-lookup"><span data-stu-id="39e7e-136">**YTD and Variance – Default column types:**</span></span>
+    -   <span data-ttu-id="39e7e-137">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="39e7e-137">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="39e7e-138">**FD** – 当前年度的本年迄今财务数据</span><span class="sxs-lookup"><span data-stu-id="39e7e-138">**FD** – Year-to-date financial data for the current year</span></span>
+    -   <span data-ttu-id="39e7e-139">**FD** – 上一年度的本年迄今财务数据</span><span class="sxs-lookup"><span data-stu-id="39e7e-139">**FD** – Year-to-date financial data for the last year</span></span>
+    -   <span data-ttu-id="39e7e-140">**CALC** – 从今年减去去年所得的差异</span><span class="sxs-lookup"><span data-stu-id="39e7e-140">**CALC** – The variance from subtracting last year from this year</span></span>
 
 <!-- -->
 
--   <span data-ttu-id="9e3c9-141">**本年迄今列 – 默认：**</span><span class="sxs-lookup"><span data-stu-id="9e3c9-141">**Year to Date Column – Default:**</span></span>
-    -   <span data-ttu-id="9e3c9-142">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="9e3c9-142">**DESC** – The description from the row definition</span></span>
-    -   <span data-ttu-id="9e3c9-143">**FD** – 当前年度的本年迄今财务数据</span><span class="sxs-lookup"><span data-stu-id="9e3c9-143">**FD** – Year-to-date financial data for the current year</span></span>
+-   <span data-ttu-id="39e7e-141">**本年迄今列 – 默认：**</span><span class="sxs-lookup"><span data-stu-id="39e7e-141">**Year to Date Column – Default:**</span></span>
+    -   <span data-ttu-id="39e7e-142">**DESC** – 行定义的描述</span><span class="sxs-lookup"><span data-stu-id="39e7e-142">**DESC** – The description from the row definition</span></span>
+    -   <span data-ttu-id="39e7e-143">**FD** – 当前年度的本年迄今财务数据</span><span class="sxs-lookup"><span data-stu-id="39e7e-143">**FD** – Year-to-date financial data for the current year</span></span>
 
 
 
-<a name="additional-resources"></a><span data-ttu-id="9e3c9-144">其他资源</span><span class="sxs-lookup"><span data-stu-id="9e3c9-144">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="39e7e-144">其他资源</span><span class="sxs-lookup"><span data-stu-id="39e7e-144">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="9e3c9-145">财务申报</span><span class="sxs-lookup"><span data-stu-id="9e3c9-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
+[<span data-ttu-id="39e7e-145">财务申报</span><span class="sxs-lookup"><span data-stu-id="39e7e-145">Financial reporting</span></span>](financial-reporting-getting-started.md)
 
-[<span data-ttu-id="9e3c9-146">查看财务报表</span><span class="sxs-lookup"><span data-stu-id="9e3c9-146">View financial reports</span></span>](view-financial-reports.md)
+[<span data-ttu-id="39e7e-146">查看财务报表</span><span class="sxs-lookup"><span data-stu-id="39e7e-146">View financial reports</span></span>](view-financial-reports.md)
 
-[<span data-ttu-id="9e3c9-147">Dynamics 财务申报博客</span><span class="sxs-lookup"><span data-stu-id="9e3c9-147">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
+[<span data-ttu-id="39e7e-147">Dynamics 财务申报博客</span><span class="sxs-lookup"><span data-stu-id="39e7e-147">Dynamics Financial Reporting Blog</span></span>](http://blogs.msdn.com/b/dynamics_financial_reporting/)
 
 
 

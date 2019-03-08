@@ -1,46 +1,45 @@
 ---
-title: "Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改的功能"
-description: "此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新功能和更改的功能。"
+title: Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-11
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: 1d48bc4bad795611ce322b5f09b78886a50c415c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303367"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-15-2018"></a><span data-ttu-id="6b428-103">Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改的功能</span><span class="sxs-lookup"><span data-stu-id="6b428-103">What's new or changed in Dynamics 365 for Talent Core HR (October 15, 2018)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-15-2018"></a><span data-ttu-id="52087-103">Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="52087-103">What's new or changed in Dynamics 365 for Talent Core HR (October 15, 2018)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="6b428-104">**内部版本 8.1.1056**</span><span class="sxs-lookup"><span data-stu-id="6b428-104">**Build 8.1.1056**</span></span>
+<span data-ttu-id="52087-104">**内部版本 8.1.1056**</span><span class="sxs-lookup"><span data-stu-id="52087-104">**Build 8.1.1056**</span></span>
 
-<span data-ttu-id="6b428-105">此主题介绍了 Core HR 中的新增功能和更改的功能。</span><span class="sxs-lookup"><span data-stu-id="6b428-105">This topic describes features that are either new or changed in Core HR.</span></span>
+<span data-ttu-id="52087-105">此主题介绍了 Core HR 中的新增功能和更改的功能。</span><span class="sxs-lookup"><span data-stu-id="52087-105">This topic describes features that are either new or changed in Core HR.</span></span>
 
 
-## <a name="changes"></a><span data-ttu-id="6b428-106">更改</span><span class="sxs-lookup"><span data-stu-id="6b428-106">Changes</span></span>
-<span data-ttu-id="6b428-107">除了杂项修复之外，此版本还进行了以下更新：</span><span class="sxs-lookup"><span data-stu-id="6b428-107">In addition to miscellanous fixes, the following updates have been made in this release:</span></span>
-- <span data-ttu-id="6b428-108">现在，在招聘或设置雇用结束日期时，将设置最后工作日期。</span><span class="sxs-lookup"><span data-stu-id="6b428-108">Last Day worked now set when hiring or setting an employment end date.</span></span>
-- <span data-ttu-id="6b428-109">在非美国公司时删除了美国符合性引用（ACA、ADA 和 I9）。</span><span class="sxs-lookup"><span data-stu-id="6b428-109">US compliance references removed when in non US companies (ACA, ADA, and I9).</span></span>
-- <span data-ttu-id="6b428-110">无效日期 (1/1/1900) 现在在分析页面上隐藏。</span><span class="sxs-lookup"><span data-stu-id="6b428-110">Invalid dates (1/1/1900) are now hidden on analytics pages.</span></span>
+## <a name="changes"></a><span data-ttu-id="52087-106">更改</span><span class="sxs-lookup"><span data-stu-id="52087-106">Changes</span></span>
+<span data-ttu-id="52087-107">除了杂项修复之外，此版本还进行了以下更新：</span><span class="sxs-lookup"><span data-stu-id="52087-107">In addition to miscellanous fixes, the following updates have been made in this release:</span></span>
+- <span data-ttu-id="52087-108">现在，在招聘或设置雇用结束日期时，将设置最后工作日期。</span><span class="sxs-lookup"><span data-stu-id="52087-108">Last Day worked now set when hiring or setting an employment end date.</span></span>
+- <span data-ttu-id="52087-109">在非美国公司时删除了美国符合性引用（ACA、ADA 和 I9）。</span><span class="sxs-lookup"><span data-stu-id="52087-109">US compliance references removed when in non US companies (ACA, ADA, and I9).</span></span>
+- <span data-ttu-id="52087-110">无效日期 (1/1/1900) 现在在分析页面上隐藏。</span><span class="sxs-lookup"><span data-stu-id="52087-110">Invalid dates (1/1/1900) are now hidden on analytics pages.</span></span>
 
-## <a name="known-issue"></a><span data-ttu-id="6b428-111">已知问题</span><span class="sxs-lookup"><span data-stu-id="6b428-111">Known issue</span></span>
+## <a name="known-issue"></a><span data-ttu-id="52087-111">已知问题</span><span class="sxs-lookup"><span data-stu-id="52087-111">Known issue</span></span>
 
-<span data-ttu-id="6b428-112">**问题：** 向工作人员添加新附件时，**新建**和**编辑**按钮灰显。**解决方法：** 打开附件页面之前，确保已关闭**工作人员**页面中的速见表。</span><span class="sxs-lookup"><span data-stu-id="6b428-112">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="6b428-113">如果加载**工作人员**页面时速见表已关闭，将启用附件按钮。</span><span class="sxs-lookup"><span data-stu-id="6b428-113">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="6b428-114">（下一个平台更新中将解决这个问题。）</span><span class="sxs-lookup"><span data-stu-id="6b428-114">(This issue will be fixed in the next platform update.)</span></span>
-
+<span data-ttu-id="52087-112">**问题：** 向工作人员添加新附件时，**新建**和**编辑**按钮灰显。**解决方法：** 打开附件页面之前，确保已关闭**工作人员**页面中的速见表。</span><span class="sxs-lookup"><span data-stu-id="52087-112">**Issue:** When adding a new attachment to a worker, the **New** and **Edit** buttons are grayed out. **Workaround:** Before opening the attachment page, make sure that the FactBoxes on the **Worker** page are closed.</span></span> <span data-ttu-id="52087-113">如果加载**工作人员**页面时速见表已关闭，将启用附件按钮。</span><span class="sxs-lookup"><span data-stu-id="52087-113">If the FactBoxes are closed when the **Worker** page is loaded, the attachments buttons will be enabled.</span></span> <span data-ttu-id="52087-114">（下一个平台更新中将解决这个问题。）</span><span class="sxs-lookup"><span data-stu-id="52087-114">(This issue will be fixed in the next platform update.)</span></span>

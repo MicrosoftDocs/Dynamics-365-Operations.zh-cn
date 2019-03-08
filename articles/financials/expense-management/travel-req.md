@@ -1,13 +1,13 @@
 ---
-title: "出差申请"
-description: "此主题提供了有关出差申请的信息。 出差申请记录出于出差目的引发的费用。"
+title: 出差申请
+description: 此主题提供了有关出差申请的信息。 出差申请记录出于出差目的引发的费用。
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
 ms.reviewer: shylaw
@@ -16,23 +16,21 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: e69cf1112dcb4fd31c79592bf0d7a2ecd4a21adf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339709"
 ---
-
-# <a name="travel-requisitions"></a><span data-ttu-id="5485c-104">出差申请</span><span class="sxs-lookup"><span data-stu-id="5485c-104">Travel requisitions</span></span>
+# <a name="travel-requisitions"></a><span data-ttu-id="b1cb0-104">出差申请</span><span class="sxs-lookup"><span data-stu-id="b1cb0-104">Travel requisitions</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="5485c-105">*出差申请*是列举出于出差目的引发的费用的源文档。</span><span class="sxs-lookup"><span data-stu-id="5485c-105">A *travel requisition* is a source document that lists the expenses that will be incurred for the purpose of travel.</span></span> <span data-ttu-id="5485c-106">提交出差申请审核，然后可以使用授权费用。</span><span class="sxs-lookup"><span data-stu-id="5485c-106">A travel requisition is submitted for review and can then be used to authorize expenses.</span></span>
+<span data-ttu-id="b1cb0-105">*出差申请*是列举出于出差目的引发的费用的源文档。</span><span class="sxs-lookup"><span data-stu-id="b1cb0-105">A *travel requisition* is a source document that lists the expenses that will be incurred for the purpose of travel.</span></span> <span data-ttu-id="b1cb0-106">提交出差申请审核，然后可以使用授权费用。</span><span class="sxs-lookup"><span data-stu-id="b1cb0-106">A travel requisition is submitted for review and can then be used to authorize expenses.</span></span>
 
-<span data-ttu-id="5485c-107">您的组织可能要求在员工产生向组织收取的任何费用前，提交出差申请。</span><span class="sxs-lookup"><span data-stu-id="5485c-107">Your organization might require that a travel requisition be submitted before employees incur any expense that is charged to the organization.</span></span> <span data-ttu-id="5485c-108">无论员工是为公司信用卡支出费用，从预付现金处收到现金支出，还是产生由组织偿还的付现支出，此要求均适用。</span><span class="sxs-lookup"><span data-stu-id="5485c-108">This requirement applies, regardless of whether employees charge expenses to a corporate credit card, spend cash that they received from a cash advance, or incur out-of-pocket expenses that will be reimbursed by the organization.</span></span>
+<span data-ttu-id="b1cb0-107">您的组织可能要求在员工产生向组织收取的任何费用前，提交出差申请。</span><span class="sxs-lookup"><span data-stu-id="b1cb0-107">Your organization might require that a travel requisition be submitted before employees incur any expense that is charged to the organization.</span></span> <span data-ttu-id="b1cb0-108">无论员工是为公司信用卡支出费用，从预付现金处收到现金支出，还是产生由组织偿还的付现支出，此要求均适用。</span><span class="sxs-lookup"><span data-stu-id="b1cb0-108">This requirement applies, regardless of whether employees charge expenses to a corporate credit card, spend cash that they received from a cash advance, or incur out-of-pocket expenses that will be reimbursed by the organization.</span></span>
 
-<span data-ttu-id="5485c-109">出差申请和策略可用于帮助预算控制。</span><span class="sxs-lookup"><span data-stu-id="5485c-109">Travel requisitions and policies can be used to help with budget control.</span></span> <span data-ttu-id="5485c-110">例如，如果您的组织实施需要出差的固定价格项目，项目团队成员的出差费用必须符合该项目中的预算。</span><span class="sxs-lookup"><span data-stu-id="5485c-110">For example, if your organization is working on a fixed-price project that requires travel, the travel expenses of the project's team members must fit within the budget for the project.</span></span> <span data-ttu-id="5485c-111">通过在产生出差费用前要求审核出差费用，组织可以帮助确保该项目不超过预算。</span><span class="sxs-lookup"><span data-stu-id="5485c-111">By requiring that travel expenses be approved before they are incurred, the organization can help make sure that the project remains within budget.</span></span>
+<span data-ttu-id="b1cb0-109">出差申请和策略可用于帮助预算控制。</span><span class="sxs-lookup"><span data-stu-id="b1cb0-109">Travel requisitions and policies can be used to help with budget control.</span></span> <span data-ttu-id="b1cb0-110">例如，如果您的组织实施需要出差的固定价格项目，项目团队成员的出差费用必须符合该项目中的预算。</span><span class="sxs-lookup"><span data-stu-id="b1cb0-110">For example, if your organization is working on a fixed-price project that requires travel, the travel expenses of the project's team members must fit within the budget for the project.</span></span> <span data-ttu-id="b1cb0-111">通过在产生出差费用前要求审核出差费用，组织可以帮助确保该项目不超过预算。</span><span class="sxs-lookup"><span data-stu-id="b1cb0-111">By requiring that travel expenses be approved before they are incurred, the organization can help make sure that the project remains within budget.</span></span>
 
-<span data-ttu-id="5485c-112">您可以从**出差申请**页设置出差申请的策略。</span><span class="sxs-lookup"><span data-stu-id="5485c-112">You can set up policies for travel requisitions from the **Travel requisition** page.</span></span>
-
+<span data-ttu-id="b1cb0-112">您可以从**出差申请**页设置出差申请的策略。</span><span class="sxs-lookup"><span data-stu-id="b1cb0-112">You can set up policies for travel requisitions from the **Travel requisition** page.</span></span>

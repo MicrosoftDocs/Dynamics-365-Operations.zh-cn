@@ -1,13 +1,13 @@
 ---
-title: "配置工作流中的手动决策"
-description: "本主题说明如何配置手动决策的属性。"
+title: 配置工作流中的手动决策
+description: 本主题说明如何配置手动决策的属性。
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,359 +17,357 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341388"
 ---
-
-# <a name="configure-manual-decisions-in-a-workflow"></a><span data-ttu-id="86868-103">配置工作流中的手动决策</span><span class="sxs-lookup"><span data-stu-id="86868-103">Configure manual decisions in a workflow</span></span>
+# <a name="configure-manual-decisions-in-a-workflow"></a><span data-ttu-id="cd151-103">配置工作流中的手动决策</span><span class="sxs-lookup"><span data-stu-id="cd151-103">Configure manual decisions in a workflow</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="86868-104">本主题说明如何配置手动决策的属性。</span><span class="sxs-lookup"><span data-stu-id="86868-104">This topic explains how to configure the properties of a manual decision.</span></span>
+<span data-ttu-id="cd151-104">本主题说明如何配置手动决策的属性。</span><span class="sxs-lookup"><span data-stu-id="cd151-104">This topic explains how to configure the properties of a manual decision.</span></span>
 
-<span data-ttu-id="86868-105">要配置手动决策，在工作流编辑器中，右键单击“手动决策”，然后单击**属性**打开**属性**页面。</span><span class="sxs-lookup"><span data-stu-id="86868-105">To configure a manual decision in the workflow editor, right-click the manual decision, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="86868-106">然后使用以下过程配置手动决策的属性。</span><span class="sxs-lookup"><span data-stu-id="86868-106">Then use the following procedures to configure the properties of the manual decision.</span></span>
+<span data-ttu-id="cd151-105">要配置手动决策，在工作流编辑器中，右键单击“手动决策”，然后单击**属性**打开**属性**页面。</span><span class="sxs-lookup"><span data-stu-id="cd151-105">To configure a manual decision in the workflow editor, right-click the manual decision, and then click **Properties** to open the **Properties** page.</span></span> <span data-ttu-id="cd151-106">然后使用以下过程配置手动决策的属性。</span><span class="sxs-lookup"><span data-stu-id="cd151-106">Then use the following procedures to configure the properties of the manual decision.</span></span>
 
-## <a name="name-the-decision"></a><span data-ttu-id="86868-107">为决策命名</span><span class="sxs-lookup"><span data-stu-id="86868-107">Name the decision</span></span>
+## <a name="name-the-decision"></a><span data-ttu-id="cd151-107">为决策命名</span><span class="sxs-lookup"><span data-stu-id="cd151-107">Name the decision</span></span>
 
-<span data-ttu-id="86868-108">按照以下为手动决策输入名称。</span><span class="sxs-lookup"><span data-stu-id="86868-108">Follow these steps to enter a name for the manual decision.</span></span>
+<span data-ttu-id="cd151-108">按照以下为手动决策输入名称。</span><span class="sxs-lookup"><span data-stu-id="cd151-108">Follow these steps to enter a name for the manual decision.</span></span>
 
-1. <span data-ttu-id="86868-109">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="86868-109">In the left pane, click **Basic Settings**.</span></span>
-2. <span data-ttu-id="86868-110">在**名称**字段中，为手动决策输入唯一名称。</span><span class="sxs-lookup"><span data-stu-id="86868-110">In the **Name** field, enter a unique name for the manual decision.</span></span>
+1. <span data-ttu-id="cd151-109">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="cd151-109">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="cd151-110">在**名称**字段中，为手动决策输入唯一名称。</span><span class="sxs-lookup"><span data-stu-id="cd151-110">In the **Name** field, enter a unique name for the manual decision.</span></span>
 
-## <a name="enter-a-subject-line-and-instructions"></a><span data-ttu-id="86868-111">输入主题行和说明</span><span class="sxs-lookup"><span data-stu-id="86868-111">Enter a subject line and instructions</span></span>
+## <a name="enter-a-subject-line-and-instructions"></a><span data-ttu-id="cd151-111">输入主题行和说明</span><span class="sxs-lookup"><span data-stu-id="cd151-111">Enter a subject line and instructions</span></span>
 
-<span data-ttu-id="86868-112">必须为分配到手动决策的用户提供主题行和说明。</span><span class="sxs-lookup"><span data-stu-id="86868-112">You must provide a subject line and instructions to users who are assigned to the manual decision.</span></span> <span data-ttu-id="86868-113">例如，如果您在为采购申请配置决策，则分配到该决策的用户在**采购申请**页面看到主题行和说明。</span><span class="sxs-lookup"><span data-stu-id="86868-113">For example, if you're configuring a decision for purchase requisitions, the user who is assigned to the decision sees the subject line and instructions on the **Purchase requisitions** page.</span></span> <span data-ttu-id="86868-114">主题行显示在页面的消息栏中。</span><span class="sxs-lookup"><span data-stu-id="86868-114">The subject line appears in a message bar on the page.</span></span> <span data-ttu-id="86868-115">然后用户可单击消息栏中的图标查看说明。</span><span class="sxs-lookup"><span data-stu-id="86868-115">The user can then click the icon in the message bar to view the instructions.</span></span> <span data-ttu-id="86868-116">按照以下步骤输入主题行和说明。</span><span class="sxs-lookup"><span data-stu-id="86868-116">Follow these steps to enter a subject line and instructions.</span></span>
+<span data-ttu-id="cd151-112">必须为分配到手动决策的用户提供主题行和说明。</span><span class="sxs-lookup"><span data-stu-id="cd151-112">You must provide a subject line and instructions to users who are assigned to the manual decision.</span></span> <span data-ttu-id="cd151-113">例如，如果您在为采购申请配置决策，则分配到该决策的用户在**采购申请**页面看到主题行和说明。</span><span class="sxs-lookup"><span data-stu-id="cd151-113">For example, if you're configuring a decision for purchase requisitions, the user who is assigned to the decision sees the subject line and instructions on the **Purchase requisitions** page.</span></span> <span data-ttu-id="cd151-114">主题行显示在页面的消息栏中。</span><span class="sxs-lookup"><span data-stu-id="cd151-114">The subject line appears in a message bar on the page.</span></span> <span data-ttu-id="cd151-115">然后用户可单击消息栏中的图标查看说明。</span><span class="sxs-lookup"><span data-stu-id="cd151-115">The user can then click the icon in the message bar to view the instructions.</span></span> <span data-ttu-id="cd151-116">按照以下步骤输入主题行和说明。</span><span class="sxs-lookup"><span data-stu-id="cd151-116">Follow these steps to enter a subject line and instructions.</span></span>
 
-1. <span data-ttu-id="86868-117">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="86868-117">In the left pane, click **Basic Settings**.</span></span>
-2. <span data-ttu-id="86868-118">在**说明**选项卡上，在**工作项主题**字段中，输入主题行。</span><span class="sxs-lookup"><span data-stu-id="86868-118">On the **Instructions** tab, in the **Work item subject** field, enter the subject line.</span></span>
-3. <span data-ttu-id="86868-119">要个性化主题行，可以插入占位符。</span><span class="sxs-lookup"><span data-stu-id="86868-119">To personalize the subject line, you can insert placeholders.</span></span> <span data-ttu-id="86868-120">向用户显示主题行时，占位符由适当的数据代替。</span><span class="sxs-lookup"><span data-stu-id="86868-120">Placeholders are replaced with appropriate data when the subject line is shown to users.</span></span> <span data-ttu-id="86868-121">按照以下步骤插入占位符：</span><span class="sxs-lookup"><span data-stu-id="86868-121">Follow these steps to insert a placeholder:</span></span>
+1. <span data-ttu-id="cd151-117">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="cd151-117">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="cd151-118">在**说明**选项卡上，在**工作项主题**字段中，输入主题行。</span><span class="sxs-lookup"><span data-stu-id="cd151-118">On the **Instructions** tab, in the **Work item subject** field, enter the subject line.</span></span>
+3. <span data-ttu-id="cd151-119">要个性化主题行，可以插入占位符。</span><span class="sxs-lookup"><span data-stu-id="cd151-119">To personalize the subject line, you can insert placeholders.</span></span> <span data-ttu-id="cd151-120">向用户显示主题行时，占位符由适当的数据代替。</span><span class="sxs-lookup"><span data-stu-id="cd151-120">Placeholders are replaced with appropriate data when the subject line is shown to users.</span></span> <span data-ttu-id="cd151-121">按照以下步骤插入占位符：</span><span class="sxs-lookup"><span data-stu-id="cd151-121">Follow these steps to insert a placeholder:</span></span>
 
-    1. <span data-ttu-id="86868-122">在文本框中，单击应该出现占位符的位置。</span><span class="sxs-lookup"><span data-stu-id="86868-122">In the text box, click where the placeholder should appear.</span></span>
-    2. <span data-ttu-id="86868-123">单击**插入占位符**。</span><span class="sxs-lookup"><span data-stu-id="86868-123">Click **Insert placeholder**.</span></span>
-    3. <span data-ttu-id="86868-124">在出现的列表中，选择要插入的占位符。</span><span class="sxs-lookup"><span data-stu-id="86868-124">In the list that appears, select the placeholder to insert.</span></span>
-    4. <span data-ttu-id="86868-125">单击**插入**。</span><span class="sxs-lookup"><span data-stu-id="86868-125">Click **Insert**.</span></span>
+    1. <span data-ttu-id="cd151-122">在文本框中，单击应该出现占位符的位置。</span><span class="sxs-lookup"><span data-stu-id="cd151-122">In the text box, click where the placeholder should appear.</span></span>
+    2. <span data-ttu-id="cd151-123">单击**插入占位符**。</span><span class="sxs-lookup"><span data-stu-id="cd151-123">Click **Insert placeholder**.</span></span>
+    3. <span data-ttu-id="cd151-124">在出现的列表中，选择要插入的占位符。</span><span class="sxs-lookup"><span data-stu-id="cd151-124">In the list that appears, select the placeholder to insert.</span></span>
+    4. <span data-ttu-id="cd151-125">单击**插入**。</span><span class="sxs-lookup"><span data-stu-id="cd151-125">Click **Insert**.</span></span>
 
-4. <span data-ttu-id="86868-126">若要添加主题行的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="86868-126">To add translations of the subject line, follow these steps:</span></span>
+4. <span data-ttu-id="cd151-126">若要添加主题行的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="cd151-126">To add translations of the subject line, follow these steps:</span></span>
 
-    1. <span data-ttu-id="86868-127">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="86868-127">Click **Translations**.</span></span>
-    2. <span data-ttu-id="86868-128">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="86868-128">On the page that appears, click **Add**.</span></span>
-    3. <span data-ttu-id="86868-129">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="86868-129">In the list that appears, select the language that you're entering the text in.</span></span>
-    4. <span data-ttu-id="86868-130">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="86868-130">In the **Translated text** field, enter the text.</span></span>
-    5. <span data-ttu-id="86868-131">如果要对文本进行个性化设置，可以如步骤 3 所述插入占位符。</span><span class="sxs-lookup"><span data-stu-id="86868-131">To personalize the text, you can insert placeholders as described in step 3.</span></span>
-    6. <span data-ttu-id="86868-132">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="86868-132">Click **Close**.</span></span>
+    1. <span data-ttu-id="cd151-127">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="cd151-127">Click **Translations**.</span></span>
+    2. <span data-ttu-id="cd151-128">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="cd151-128">On the page that appears, click **Add**.</span></span>
+    3. <span data-ttu-id="cd151-129">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="cd151-129">In the list that appears, select the language that you're entering the text in.</span></span>
+    4. <span data-ttu-id="cd151-130">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="cd151-130">In the **Translated text** field, enter the text.</span></span>
+    5. <span data-ttu-id="cd151-131">如果要对文本进行个性化设置，可以如步骤 3 所述插入占位符。</span><span class="sxs-lookup"><span data-stu-id="cd151-131">To personalize the text, you can insert placeholders as described in step 3.</span></span>
+    6. <span data-ttu-id="cd151-132">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="cd151-132">Click **Close**.</span></span>
 
-5. <span data-ttu-id="86868-133">在**工作项说明**字段中，输入说明。</span><span class="sxs-lookup"><span data-stu-id="86868-133">In the **Work item instructions** field, enter the instructions.</span></span>
-6. <span data-ttu-id="86868-134">要对说明进行个性化设置，可以插入占位符。</span><span class="sxs-lookup"><span data-stu-id="86868-134">To personalize the instructions, you can insert placeholders.</span></span> <span data-ttu-id="86868-135">向用户显示说明时，占位符由适当的数据代替。</span><span class="sxs-lookup"><span data-stu-id="86868-135">Placeholders are replaced with appropriate data when the instructions are shown to users.</span></span> <span data-ttu-id="86868-136">按照以下步骤插入占位符：</span><span class="sxs-lookup"><span data-stu-id="86868-136">Follow these steps to insert a placeholder:</span></span>
+5. <span data-ttu-id="cd151-133">在**工作项说明**字段中，输入说明。</span><span class="sxs-lookup"><span data-stu-id="cd151-133">In the **Work item instructions** field, enter the instructions.</span></span>
+6. <span data-ttu-id="cd151-134">要对说明进行个性化设置，可以插入占位符。</span><span class="sxs-lookup"><span data-stu-id="cd151-134">To personalize the instructions, you can insert placeholders.</span></span> <span data-ttu-id="cd151-135">向用户显示说明时，占位符由适当的数据代替。</span><span class="sxs-lookup"><span data-stu-id="cd151-135">Placeholders are replaced with appropriate data when the instructions are shown to users.</span></span> <span data-ttu-id="cd151-136">按照以下步骤插入占位符：</span><span class="sxs-lookup"><span data-stu-id="cd151-136">Follow these steps to insert a placeholder:</span></span>
 
-    1. <span data-ttu-id="86868-137">在文本框中，单击应该出现占位符的位置。</span><span class="sxs-lookup"><span data-stu-id="86868-137">In the text box, click where the placeholder should appear.</span></span>
-    2. <span data-ttu-id="86868-138">单击**插入占位符**。</span><span class="sxs-lookup"><span data-stu-id="86868-138">Click **Insert placeholder**.</span></span>
-    3. <span data-ttu-id="86868-139">在出现的列表中，选择要插入的占位符。</span><span class="sxs-lookup"><span data-stu-id="86868-139">In the list that appears, select the placeholder to insert.</span></span>
-    4. <span data-ttu-id="86868-140">单击**插入**。</span><span class="sxs-lookup"><span data-stu-id="86868-140">Click **Insert**.</span></span>
+    1. <span data-ttu-id="cd151-137">在文本框中，单击应该出现占位符的位置。</span><span class="sxs-lookup"><span data-stu-id="cd151-137">In the text box, click where the placeholder should appear.</span></span>
+    2. <span data-ttu-id="cd151-138">单击**插入占位符**。</span><span class="sxs-lookup"><span data-stu-id="cd151-138">Click **Insert placeholder**.</span></span>
+    3. <span data-ttu-id="cd151-139">在出现的列表中，选择要插入的占位符。</span><span class="sxs-lookup"><span data-stu-id="cd151-139">In the list that appears, select the placeholder to insert.</span></span>
+    4. <span data-ttu-id="cd151-140">单击**插入**。</span><span class="sxs-lookup"><span data-stu-id="cd151-140">Click **Insert**.</span></span>
 
-7. <span data-ttu-id="86868-141">若要添加说明的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="86868-141">To add translations of the instructions, follow these steps:</span></span>
+7. <span data-ttu-id="cd151-141">若要添加说明的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="cd151-141">To add translations of the instructions, follow these steps:</span></span>
 
-    1. <span data-ttu-id="86868-142">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="86868-142">Click **Translations**.</span></span>
-    2. <span data-ttu-id="86868-143">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="86868-143">On the page that appears, click **Add**.</span></span>
-    3. <span data-ttu-id="86868-144">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="86868-144">In the list that appears, select the language that you're entering the text in.</span></span>
-    4. <span data-ttu-id="86868-145">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="86868-145">In the **Translated text** field, enter the text.</span></span>
-    5. <span data-ttu-id="86868-146">如果要对文本进行个性化设置，可以如步骤 6 所述插入占位符。</span><span class="sxs-lookup"><span data-stu-id="86868-146">To personalize the text, you can insert placeholders as described in step 6.</span></span>
-    6. <span data-ttu-id="86868-147">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="86868-147">Click **Close**.</span></span>
+    1. <span data-ttu-id="cd151-142">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="cd151-142">Click **Translations**.</span></span>
+    2. <span data-ttu-id="cd151-143">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="cd151-143">On the page that appears, click **Add**.</span></span>
+    3. <span data-ttu-id="cd151-144">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="cd151-144">In the list that appears, select the language that you're entering the text in.</span></span>
+    4. <span data-ttu-id="cd151-145">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="cd151-145">In the **Translated text** field, enter the text.</span></span>
+    5. <span data-ttu-id="cd151-146">如果要对文本进行个性化设置，可以如步骤 6 所述插入占位符。</span><span class="sxs-lookup"><span data-stu-id="cd151-146">To personalize the text, you can insert placeholders as described in step 6.</span></span>
+    6. <span data-ttu-id="cd151-147">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="cd151-147">Click **Close**.</span></span>
 
-## <a name="specify-the-possible-outcomes-of-a-decision"></a><span data-ttu-id="86868-148">指定决策的可能结果</span><span class="sxs-lookup"><span data-stu-id="86868-148">Specify the possible outcomes of a decision</span></span>
+## <a name="specify-the-possible-outcomes-of-a-decision"></a><span data-ttu-id="cd151-148">指定决策的可能结果</span><span class="sxs-lookup"><span data-stu-id="cd151-148">Specify the possible outcomes of a decision</span></span>
 
-<span data-ttu-id="86868-149">通常，将文档分配给决策者时，决策者将询问问题。</span><span class="sxs-lookup"><span data-stu-id="86868-149">Typically, when a document is assigned to a decision maker, the decision maker is asked a question.</span></span> <span data-ttu-id="86868-150">该问题的答案通常是**是**或**否**或者是 **True** 或 **False**。</span><span class="sxs-lookup"><span data-stu-id="86868-150">The answer to this question is usually **Yes** or **No**, or **True** or **False**.</span></span> <span data-ttu-id="86868-151">按照以下步骤指定手动决策的可能结果。</span><span class="sxs-lookup"><span data-stu-id="86868-151">Follow these steps to specify the possible outcomes of the manual decision.</span></span>
+<span data-ttu-id="cd151-149">通常，将文档分配给决策者时，决策者将询问问题。</span><span class="sxs-lookup"><span data-stu-id="cd151-149">Typically, when a document is assigned to a decision maker, the decision maker is asked a question.</span></span> <span data-ttu-id="cd151-150">该问题的答案通常是**是**或**否**或者是 **True** 或 **False**。</span><span class="sxs-lookup"><span data-stu-id="cd151-150">The answer to this question is usually **Yes** or **No**, or **True** or **False**.</span></span> <span data-ttu-id="cd151-151">按照以下步骤指定手动决策的可能结果。</span><span class="sxs-lookup"><span data-stu-id="cd151-151">Follow these steps to specify the possible outcomes of the manual decision.</span></span>
 
-1. <span data-ttu-id="86868-152">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="86868-152">In the left pane, click **Basic Settings**.</span></span>
-2. <span data-ttu-id="86868-153">在**结果**选项卡上，在**结果 1** 字段中，输入结果的名称或者选项。</span><span class="sxs-lookup"><span data-stu-id="86868-153">On the **Outcomes** tab, in the **Outcome 1** field, enter the name of the outcome, or the option.</span></span>
-3. <span data-ttu-id="86868-154">若要添加结果的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="86868-154">To add translations of the outcome, follow these steps:</span></span>
+1. <span data-ttu-id="cd151-152">在左侧窗格中，单击**基本设置**。</span><span class="sxs-lookup"><span data-stu-id="cd151-152">In the left pane, click **Basic Settings**.</span></span>
+2. <span data-ttu-id="cd151-153">在**结果**选项卡上，在**结果 1** 字段中，输入结果的名称或者选项。</span><span class="sxs-lookup"><span data-stu-id="cd151-153">On the **Outcomes** tab, in the **Outcome 1** field, enter the name of the outcome, or the option.</span></span>
+3. <span data-ttu-id="cd151-154">若要添加结果的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="cd151-154">To add translations of the outcome, follow these steps:</span></span>
 
-    1. <span data-ttu-id="86868-155">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="86868-155">Click **Translations**.</span></span>
-    2. <span data-ttu-id="86868-156">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="86868-156">On the page that appears, click **Add**.</span></span>
-    3. <span data-ttu-id="86868-157">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="86868-157">In the list that appears, select the language that you're entering the text in.</span></span>
-    4. <span data-ttu-id="86868-158">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="86868-158">In the **Translated text** field, enter the text.</span></span>
-    5. <span data-ttu-id="86868-159">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="86868-159">Click **Close**.</span></span>
+    1. <span data-ttu-id="cd151-155">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="cd151-155">Click **Translations**.</span></span>
+    2. <span data-ttu-id="cd151-156">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="cd151-156">On the page that appears, click **Add**.</span></span>
+    3. <span data-ttu-id="cd151-157">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="cd151-157">In the list that appears, select the language that you're entering the text in.</span></span>
+    4. <span data-ttu-id="cd151-158">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="cd151-158">In the **Translated text** field, enter the text.</span></span>
+    5. <span data-ttu-id="cd151-159">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="cd151-159">Click **Close**.</span></span>
 
-4. <span data-ttu-id="86868-160">在**结果 2** 字段中，输入结果的名称或选项。</span><span class="sxs-lookup"><span data-stu-id="86868-160">In the **Outcome 2** field, enter the name of the outcome, or the option.</span></span>
-5. <span data-ttu-id="86868-161">若要添加结果的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="86868-161">To add translations of the outcome, follow these steps:</span></span>
+4. <span data-ttu-id="cd151-160">在**结果 2** 字段中，输入结果的名称或选项。</span><span class="sxs-lookup"><span data-stu-id="cd151-160">In the **Outcome 2** field, enter the name of the outcome, or the option.</span></span>
+5. <span data-ttu-id="cd151-161">若要添加结果的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="cd151-161">To add translations of the outcome, follow these steps:</span></span>
 
-    1. <span data-ttu-id="86868-162">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="86868-162">Click **Translations**.</span></span>
-    2. <span data-ttu-id="86868-163">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="86868-163">On the page that appears, click **Add**.</span></span>
-    3. <span data-ttu-id="86868-164">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="86868-164">In the list that appears, select the language that you're entering the text in.</span></span>
-    4. <span data-ttu-id="86868-165">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="86868-165">In the **Translated text** field, enter the text.</span></span>
-    5. <span data-ttu-id="86868-166">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="86868-166">Click **Close**.</span></span>
+    1. <span data-ttu-id="cd151-162">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="cd151-162">Click **Translations**.</span></span>
+    2. <span data-ttu-id="cd151-163">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="cd151-163">On the page that appears, click **Add**.</span></span>
+    3. <span data-ttu-id="cd151-164">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="cd151-164">In the list that appears, select the language that you're entering the text in.</span></span>
+    4. <span data-ttu-id="cd151-165">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="cd151-165">In the **Translated text** field, enter the text.</span></span>
+    5. <span data-ttu-id="cd151-166">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="cd151-166">Click **Close**.</span></span>
 
-## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="86868-167">指定发送通知的时间</span><span class="sxs-lookup"><span data-stu-id="86868-167">Specify when notifications are sent</span></span>
+## <a name="specify-when-notifications-are-sent"></a><span data-ttu-id="cd151-167">指定发送通知的时间</span><span class="sxs-lookup"><span data-stu-id="cd151-167">Specify when notifications are sent</span></span>
 
-<span data-ttu-id="86868-168">制定、委托、呈报决策时，您可以向人员发送通知。</span><span class="sxs-lookup"><span data-stu-id="86868-168">You can send notifications to people when a decision has been made, delegated, or escalated.</span></span> <span data-ttu-id="86868-169">按照以下步骤指定发送通知的时间以通知发送给哪些人员。</span><span class="sxs-lookup"><span data-stu-id="86868-169">Follow these steps to specify when notifications are sent, and who the notifications are sent to.</span></span>
+<span data-ttu-id="cd151-168">制定、委托、呈报决策时，您可以向人员发送通知。</span><span class="sxs-lookup"><span data-stu-id="cd151-168">You can send notifications to people when a decision has been made, delegated, or escalated.</span></span> <span data-ttu-id="cd151-169">按照以下步骤指定发送通知的时间以通知发送给哪些人员。</span><span class="sxs-lookup"><span data-stu-id="cd151-169">Follow these steps to specify when notifications are sent, and who the notifications are sent to.</span></span>
 
-1. <span data-ttu-id="86868-170">在左窗格中，单击**通知**。</span><span class="sxs-lookup"><span data-stu-id="86868-170">In the left pane, click **Notifications**.</span></span>
-2. <span data-ttu-id="86868-171">选中应针对其发送通知的事件旁边的复选框：</span><span class="sxs-lookup"><span data-stu-id="86868-171">Select the check box next to the events that notifications should be sent for:</span></span>
+1. <span data-ttu-id="cd151-170">在左窗格中，单击**通知**。</span><span class="sxs-lookup"><span data-stu-id="cd151-170">In the left pane, click **Notifications**.</span></span>
+2. <span data-ttu-id="cd151-171">选中应针对其发送通知的事件旁边的复选框：</span><span class="sxs-lookup"><span data-stu-id="cd151-171">Select the check box next to the events that notifications should be sent for:</span></span>
 
-    - <span data-ttu-id="86868-172">**\[选择 1\]** – 分配的用户选择了**\[选择 1\]**。</span><span class="sxs-lookup"><span data-stu-id="86868-172">**\[Choice 1\]** – The assigned user has selected **\[Choice 1\]**.</span></span>
-    - <span data-ttu-id="86868-173">**\[选择 2\]** – 分配的用户选择了**\[选择 2\]**。</span><span class="sxs-lookup"><span data-stu-id="86868-173">**\[Choice 2\]** – The assigned user has selected **\[Choice 2\]**.</span></span>
-    - <span data-ttu-id="86868-174">**委托** – 分配的用户将决策分配给其他用户。</span><span class="sxs-lookup"><span data-stu-id="86868-174">**Delegate** – The assigned user has assigned the decision to another user.</span></span>
-    - <span data-ttu-id="86868-175">**呈报** – 分配的用户未在分配的时间内制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-175">**Escalate** – The assigned user hasn't made the decision in the allotted time.</span></span>
+    - <span data-ttu-id="cd151-172">**\[选择 1\]** – 分配的用户选择了**\[选择 1\]**。</span><span class="sxs-lookup"><span data-stu-id="cd151-172">**\[Choice 1\]** – The assigned user has selected **\[Choice 1\]**.</span></span>
+    - <span data-ttu-id="cd151-173">**\[选择 2\]** – 分配的用户选择了**\[选择 2\]**。</span><span class="sxs-lookup"><span data-stu-id="cd151-173">**\[Choice 2\]** – The assigned user has selected **\[Choice 2\]**.</span></span>
+    - <span data-ttu-id="cd151-174">**委托** – 分配的用户将决策分配给其他用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-174">**Delegate** – The assigned user has assigned the decision to another user.</span></span>
+    - <span data-ttu-id="cd151-175">**呈报** – 分配的用户未在分配的时间内制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-175">**Escalate** – The assigned user hasn't made the decision in the allotted time.</span></span>
 
-3. <span data-ttu-id="86868-176">为您在第 2 步中选择的事件选择行。</span><span class="sxs-lookup"><span data-stu-id="86868-176">Select the row for an event that you selected in step 2.</span></span>
-4. <span data-ttu-id="86868-177">在**通知文本**选项卡上，在文本框中输入通知的文本。</span><span class="sxs-lookup"><span data-stu-id="86868-177">On the **Notification text** tab, in the text box, enter the text of the notification.</span></span>
-5. <span data-ttu-id="86868-178">要对通知进行个性化设置，可以插入占位符。</span><span class="sxs-lookup"><span data-stu-id="86868-178">To personalize the notification, you can insert placeholders.</span></span> <span data-ttu-id="86868-179">向用户显示通知时，占位符由适当的数据代替。</span><span class="sxs-lookup"><span data-stu-id="86868-179">Placeholders are replaced with appropriate data when the notification is show to users.</span></span> <span data-ttu-id="86868-180">按照以下步骤插入占位符：</span><span class="sxs-lookup"><span data-stu-id="86868-180">Follow these steps to insert a placeholder:</span></span>
+3. <span data-ttu-id="cd151-176">为您在第 2 步中选择的事件选择行。</span><span class="sxs-lookup"><span data-stu-id="cd151-176">Select the row for an event that you selected in step 2.</span></span>
+4. <span data-ttu-id="cd151-177">在**通知文本**选项卡上，在文本框中输入通知的文本。</span><span class="sxs-lookup"><span data-stu-id="cd151-177">On the **Notification text** tab, in the text box, enter the text of the notification.</span></span>
+5. <span data-ttu-id="cd151-178">要对通知进行个性化设置，可以插入占位符。</span><span class="sxs-lookup"><span data-stu-id="cd151-178">To personalize the notification, you can insert placeholders.</span></span> <span data-ttu-id="cd151-179">向用户显示通知时，占位符由适当的数据代替。</span><span class="sxs-lookup"><span data-stu-id="cd151-179">Placeholders are replaced with appropriate data when the notification is show to users.</span></span> <span data-ttu-id="cd151-180">按照以下步骤插入占位符：</span><span class="sxs-lookup"><span data-stu-id="cd151-180">Follow these steps to insert a placeholder:</span></span>
 
-    1. <span data-ttu-id="86868-181">在文本框中，单击应该出现占位符的位置。</span><span class="sxs-lookup"><span data-stu-id="86868-181">In the text box, click where the placeholder should appear.</span></span>
-    2. <span data-ttu-id="86868-182">单击**插入占位符**。</span><span class="sxs-lookup"><span data-stu-id="86868-182">Click **Insert placeholder**.</span></span>
-    3. <span data-ttu-id="86868-183">在出现的列表中，选择要插入的占位符。</span><span class="sxs-lookup"><span data-stu-id="86868-183">In the list that appears, select the placeholder to insert.</span></span>
-    4. <span data-ttu-id="86868-184">单击**插入**。</span><span class="sxs-lookup"><span data-stu-id="86868-184">Click **Insert**.</span></span>
+    1. <span data-ttu-id="cd151-181">在文本框中，单击应该出现占位符的位置。</span><span class="sxs-lookup"><span data-stu-id="cd151-181">In the text box, click where the placeholder should appear.</span></span>
+    2. <span data-ttu-id="cd151-182">单击**插入占位符**。</span><span class="sxs-lookup"><span data-stu-id="cd151-182">Click **Insert placeholder**.</span></span>
+    3. <span data-ttu-id="cd151-183">在出现的列表中，选择要插入的占位符。</span><span class="sxs-lookup"><span data-stu-id="cd151-183">In the list that appears, select the placeholder to insert.</span></span>
+    4. <span data-ttu-id="cd151-184">单击**插入**。</span><span class="sxs-lookup"><span data-stu-id="cd151-184">Click **Insert**.</span></span>
 
-6. <span data-ttu-id="86868-185">若要添加通知的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="86868-185">To add translations of the notification, follow these steps:</span></span>
+6. <span data-ttu-id="cd151-185">若要添加通知的翻译，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="cd151-185">To add translations of the notification, follow these steps:</span></span>
 
-    1. <span data-ttu-id="86868-186">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="86868-186">Click **Translations**.</span></span>
-    2. <span data-ttu-id="86868-187">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="86868-187">On the page that appears, click **Add**.</span></span>
-    3. <span data-ttu-id="86868-188">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="86868-188">In the list that appears, select the language that you're entering the text in.</span></span>
-    4. <span data-ttu-id="86868-189">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="86868-189">In the **Translated text** field, enter the text.</span></span>
-    5. <span data-ttu-id="86868-190">如果要对文本进行个性化设置，可以如步骤 5 所述插入占位符。</span><span class="sxs-lookup"><span data-stu-id="86868-190">To personalize the text, you can insert placeholders as described in step 5.</span></span>
-    6. <span data-ttu-id="86868-191">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="86868-191">Click **Close**.</span></span>
+    1. <span data-ttu-id="cd151-186">单击**翻译**。</span><span class="sxs-lookup"><span data-stu-id="cd151-186">Click **Translations**.</span></span>
+    2. <span data-ttu-id="cd151-187">在出现的页面上，单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="cd151-187">On the page that appears, click **Add**.</span></span>
+    3. <span data-ttu-id="cd151-188">在出现的列表中，选择您输入文本使用的语言。</span><span class="sxs-lookup"><span data-stu-id="cd151-188">In the list that appears, select the language that you're entering the text in.</span></span>
+    4. <span data-ttu-id="cd151-189">在**已翻译的文本**字段中，输入文本。</span><span class="sxs-lookup"><span data-stu-id="cd151-189">In the **Translated text** field, enter the text.</span></span>
+    5. <span data-ttu-id="cd151-190">如果要对文本进行个性化设置，可以如步骤 5 所述插入占位符。</span><span class="sxs-lookup"><span data-stu-id="cd151-190">To personalize the text, you can insert placeholders as described in step 5.</span></span>
+    6. <span data-ttu-id="cd151-191">单击**关闭**。</span><span class="sxs-lookup"><span data-stu-id="cd151-191">Click **Close**.</span></span>
 
-7. <span data-ttu-id="86868-192">在**接收人**选项卡上，指定向谁发送通知。</span><span class="sxs-lookup"><span data-stu-id="86868-192">On the **Recipient** tab, specify who the notifications are sent to.</span></span> <span data-ttu-id="86868-193">选择下表中的选项之一，然后按照该选项的其他步骤转到第 8 步。</span><span class="sxs-lookup"><span data-stu-id="86868-193">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 8.</span></span>
+7. <span data-ttu-id="cd151-192">在**接收人**选项卡上，指定向谁发送通知。</span><span class="sxs-lookup"><span data-stu-id="cd151-192">On the **Recipient** tab, specify who the notifications are sent to.</span></span> <span data-ttu-id="cd151-193">选择下表中的选项之一，然后按照该选项的其他步骤转到第 8 步。</span><span class="sxs-lookup"><span data-stu-id="cd151-193">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 8.</span></span>
 
     <table>
     <thead>
     <tr>
-    <th><span data-ttu-id="86868-194">选项</span><span class="sxs-lookup"><span data-stu-id="86868-194">Option</span></span></th>
-    <th><span data-ttu-id="86868-195">通知收件人。</span><span class="sxs-lookup"><span data-stu-id="86868-195">Notification recipients</span></span></th>
-    <th><span data-ttu-id="86868-196">附加步骤</span><span class="sxs-lookup"><span data-stu-id="86868-196">Additional steps</span></span></th>
+    <th><span data-ttu-id="cd151-194">选项</span><span class="sxs-lookup"><span data-stu-id="cd151-194">Option</span></span></th>
+    <th><span data-ttu-id="cd151-195">通知收件人。</span><span class="sxs-lookup"><span data-stu-id="cd151-195">Notification recipients</span></span></th>
+    <th><span data-ttu-id="cd151-196">附加步骤</span><span class="sxs-lookup"><span data-stu-id="cd151-196">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr>
-    <td><span data-ttu-id="86868-197">参与者</span><span class="sxs-lookup"><span data-stu-id="86868-197">Participant</span></span></td>
-    <td><span data-ttu-id="86868-198">分配到特定组或角色的用户</span><span class="sxs-lookup"><span data-stu-id="86868-198">Users who are assigned to a specific group or role</span></span></td>
+    <td><span data-ttu-id="cd151-197">参与者</span><span class="sxs-lookup"><span data-stu-id="cd151-197">Participant</span></span></td>
+    <td><span data-ttu-id="cd151-198">分配到特定组或角色的用户</span><span class="sxs-lookup"><span data-stu-id="cd151-198">Users who are assigned to a specific group or role</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="86868-199">在您选择<strong>参与者</strong>后，在选项卡<strong>基于角色</strong>上，在<strong>参与者类型</strong>列表中，选择要向其发送通知的组或角色的类型。</span><span class="sxs-lookup"><span data-stu-id="86868-199">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
-    <li><span data-ttu-id="86868-200">在<strong>参与者</strong>列表中，选择向其发送通知的组。</span><span class="sxs-lookup"><span data-stu-id="86868-200">In the <strong>Participant</strong> list, select the group or to send notifications to.</span></span></li>
+    <li><span data-ttu-id="cd151-199">在您选择<strong>参与者</strong>后，在选项卡<strong>基于角色</strong>上，在<strong>参与者类型</strong>列表中，选择要向其发送通知的组或角色的类型。</span><span class="sxs-lookup"><span data-stu-id="cd151-199">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to send notifications to.</span></span></li>
+    <li><span data-ttu-id="cd151-200">在<strong>参与者</strong>列表中，选择向其发送通知的组。</span><span class="sxs-lookup"><span data-stu-id="cd151-200">In the <strong>Participant</strong> list, select the group or to send notifications to.</span></span></li>
     </ol>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="86868-201">工作流用户</span><span class="sxs-lookup"><span data-stu-id="86868-201">Workflow user</span></span></td>
-    <td><span data-ttu-id="86868-202">当前工作流中的用户</span><span class="sxs-lookup"><span data-stu-id="86868-202">Users in the current workflow</span></span></td>
+    <td><span data-ttu-id="cd151-201">工作流用户</span><span class="sxs-lookup"><span data-stu-id="cd151-201">Workflow user</span></span></td>
+    <td><span data-ttu-id="cd151-202">当前工作流中的用户</span><span class="sxs-lookup"><span data-stu-id="cd151-202">Users in the current workflow</span></span></td>
     <td>
     <ul>
-    <li><span data-ttu-id="86868-203">在您选择<strong>工作流用户</strong>后，在选项卡<strong>工作流用户</strong>上，在<strong>工作流用户</strong>列表中，选择参与工作流的用户。</span><span class="sxs-lookup"><span data-stu-id="86868-203">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
+    <li><span data-ttu-id="cd151-203">在您选择<strong>工作流用户</strong>后，在选项卡<strong>工作流用户</strong>上，在<strong>工作流用户</strong>列表中，选择参与工作流的用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-203">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="86868-204">用户</span><span class="sxs-lookup"><span data-stu-id="86868-204">User</span></span></td>
-    <td><span data-ttu-id="86868-205">特定的 Microsoft Dynamics 365 for Finance and Operations 用户</span><span class="sxs-lookup"><span data-stu-id="86868-205">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
+    <td><span data-ttu-id="cd151-204">用户</span><span class="sxs-lookup"><span data-stu-id="cd151-204">User</span></span></td>
+    <td><span data-ttu-id="cd151-205">特定 Microsoft Dynamics 365 for Finance and Operations 用户</span><span class="sxs-lookup"><span data-stu-id="cd151-205">Specific Microsoft Dynamics 365 for Finance and Operations users</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="86868-206">在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="86868-206">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
-    <li><span data-ttu-id="86868-207"><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="86868-207">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="86868-208">选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</span><span class="sxs-lookup"><span data-stu-id="86868-208">Select the users to send notifications to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
+    <li><span data-ttu-id="cd151-206">在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="cd151-206">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="cd151-207"><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-207">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="cd151-208">选择向其发送通知的用户，然后将这些用户移动到<strong>所选用户</strong>列表中。</span><span class="sxs-lookup"><span data-stu-id="cd151-208">Select the users to send notifications to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol>
     </td>
     </tr>
     </tbody>
     </table>
 
-8. <span data-ttu-id="86868-209">对您在第 2 步中选择的每个事件重复 第 3 步到第 7 步。</span><span class="sxs-lookup"><span data-stu-id="86868-209">Repeat steps 3 through 7 for each event that you selected in step 2.</span></span>
+8. <span data-ttu-id="cd151-209">对您在第 2 步中选择的每个事件重复 第 3 步到第 7 步。</span><span class="sxs-lookup"><span data-stu-id="cd151-209">Repeat steps 3 through 7 for each event that you selected in step 2.</span></span>
 
-## <a name="assign-a-decision"></a><span data-ttu-id="86868-210">分配决策</span><span class="sxs-lookup"><span data-stu-id="86868-210">Assign a decision</span></span>
+## <a name="assign-a-decision"></a><span data-ttu-id="cd151-210">分配决策</span><span class="sxs-lookup"><span data-stu-id="cd151-210">Assign a decision</span></span>
 
-<span data-ttu-id="86868-211">按照以下步骤指定应向手动决策分配的人员。</span><span class="sxs-lookup"><span data-stu-id="86868-211">Follow these steps to specify who a manual decision should be assigned to.</span></span>
+<span data-ttu-id="cd151-211">按照以下步骤指定应向手动决策分配的人员。</span><span class="sxs-lookup"><span data-stu-id="cd151-211">Follow these steps to specify who a manual decision should be assigned to.</span></span>
 
-1. <span data-ttu-id="86868-212">在左窗格中，单击**分配**。</span><span class="sxs-lookup"><span data-stu-id="86868-212">In the left pane, click **Assignment**.</span></span>
-2. <span data-ttu-id="86868-213">在**分配类型**选项卡上，选择下表中的选项之一，然后按照该选项的其他步骤转到步骤 3。</span><span class="sxs-lookup"><span data-stu-id="86868-213">On the **Assignment type** tab, select one of the options in the following table, and then follow the additional steps for that option before you go to step 3.</span></span>
+1. <span data-ttu-id="cd151-212">在左窗格中，单击**分配**。</span><span class="sxs-lookup"><span data-stu-id="cd151-212">In the left pane, click **Assignment**.</span></span>
+2. <span data-ttu-id="cd151-213">在**分配类型**选项卡上，选择下表中的选项之一，然后按照该选项的其他步骤转到步骤 3。</span><span class="sxs-lookup"><span data-stu-id="cd151-213">On the **Assignment type** tab, select one of the options in the following table, and then follow the additional steps for that option before you go to step 3.</span></span>
 
     <table>
     <thead>
     <tr>
-    <th><span data-ttu-id="86868-214">选项</span><span class="sxs-lookup"><span data-stu-id="86868-214">Option</span></span></th>
-    <th><span data-ttu-id="86868-215">决策分配到的用户</span><span class="sxs-lookup"><span data-stu-id="86868-215">Users that the decision is assigned to</span></span></th>
-    <th><span data-ttu-id="86868-216">附加步骤</span><span class="sxs-lookup"><span data-stu-id="86868-216">Additional steps</span></span></th>
+    <th><span data-ttu-id="cd151-214">选项</span><span class="sxs-lookup"><span data-stu-id="cd151-214">Option</span></span></th>
+    <th><span data-ttu-id="cd151-215">决策分配到的用户</span><span class="sxs-lookup"><span data-stu-id="cd151-215">Users that the decision is assigned to</span></span></th>
+    <th><span data-ttu-id="cd151-216">附加步骤</span><span class="sxs-lookup"><span data-stu-id="cd151-216">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr>
-    <td><span data-ttu-id="86868-217">参与者</span><span class="sxs-lookup"><span data-stu-id="86868-217">Participant</span></span></td>
-    <td><span data-ttu-id="86868-218">分配到特定组或角色的用户</span><span class="sxs-lookup"><span data-stu-id="86868-218">Users who are assigned to a specific group or role</span></span></td>
+    <td><span data-ttu-id="cd151-217">参与者</span><span class="sxs-lookup"><span data-stu-id="cd151-217">Participant</span></span></td>
+    <td><span data-ttu-id="cd151-218">分配到特定组或角色的用户</span><span class="sxs-lookup"><span data-stu-id="cd151-218">Users who are assigned to a specific group or role</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="86868-219">在您选择<strong>参与者</strong>后，在选项卡<strong>基于角色</strong>上，在<strong>参与者类型</strong>列表中，选择要向其分配决策的组或角色的类型。</span><span class="sxs-lookup"><span data-stu-id="86868-219">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to assign the decision to.</span></span></li>
-    <li><span data-ttu-id="86868-220">在<strong>参与者</strong>列表中，选择向其分配决策的组或角色的类型。</span><span class="sxs-lookup"><span data-stu-id="86868-220">In the <strong>Participant</strong> list, select the group or role to assign the decision to.</span></span></li>
+    <li><span data-ttu-id="cd151-219">在您选择<strong>参与者</strong>后，在选项卡<strong>基于角色</strong>上，在<strong>参与者类型</strong>列表中，选择要向其分配决策的组或角色的类型。</span><span class="sxs-lookup"><span data-stu-id="cd151-219">After you select <strong>Participant</strong>, on the <strong>Role based</strong> tab, in the <strong>Type of participant</strong> list, select the type of group or role to assign the decision to.</span></span></li>
+    <li><span data-ttu-id="cd151-220">在<strong>参与者</strong>列表中，选择向其分配决策的组或角色的类型。</span><span class="sxs-lookup"><span data-stu-id="cd151-220">In the <strong>Participant</strong> list, select the group or role to assign the decision to.</span></span></li>
     </ol>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="86868-221">层次结构</span><span class="sxs-lookup"><span data-stu-id="86868-221">Hierarchy</span></span></td>
-    <td><span data-ttu-id="86868-222">特定组织层次结构中的用户</span><span class="sxs-lookup"><span data-stu-id="86868-222">Users in a specific organizational hierarchy</span></span></td>
+    <td><span data-ttu-id="cd151-221">层次结构</span><span class="sxs-lookup"><span data-stu-id="cd151-221">Hierarchy</span></span></td>
+    <td><span data-ttu-id="cd151-222">特定组织层次结构中的用户</span><span class="sxs-lookup"><span data-stu-id="cd151-222">Users in a specific organizational hierarchy</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="86868-223">在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其分配决策的层次结构的类型。</span><span class="sxs-lookup"><span data-stu-id="86868-223">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to assign the decision to.</span></span></li>
-    <li><span data-ttu-id="86868-224">系统必须从层次结构中检索一系列用户姓名。</span><span class="sxs-lookup"><span data-stu-id="86868-224">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="86868-225">这些姓名代表可向其分配决策的用户。</span><span class="sxs-lookup"><span data-stu-id="86868-225">These names represent users that the decision can be assigned to.</span></span> <span data-ttu-id="86868-226">按照以下步骤指定系统检索的用户名范围的起点和终点：</span><span class="sxs-lookup"><span data-stu-id="86868-226">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
-    <li><span data-ttu-id="86868-227">若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</span><span class="sxs-lookup"><span data-stu-id="86868-227">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
-    <li><span data-ttu-id="86868-228">若要指定终点，请单击<strong>添加条件</strong>。</span><span class="sxs-lookup"><span data-stu-id="86868-228">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="86868-229">然后输入一个确定系统停止检索姓名的层次结构的条件。</span><span class="sxs-lookup"><span data-stu-id="86868-229">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
+    <li><span data-ttu-id="cd151-223">在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其分配决策的层次结构的类型。</span><span class="sxs-lookup"><span data-stu-id="cd151-223">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to assign the decision to.</span></span></li>
+    <li><span data-ttu-id="cd151-224">系统必须从层次结构中检索一系列用户姓名。</span><span class="sxs-lookup"><span data-stu-id="cd151-224">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="cd151-225">这些姓名代表可向其分配决策的用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-225">These names represent users that the decision can be assigned to.</span></span> <span data-ttu-id="cd151-226">按照以下步骤指定系统检索的用户名范围的起点和终点：</span><span class="sxs-lookup"><span data-stu-id="cd151-226">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+    <li><span data-ttu-id="cd151-227">若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</span><span class="sxs-lookup"><span data-stu-id="cd151-227">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+    <li><span data-ttu-id="cd151-228">若要指定终点，请单击<strong>添加条件</strong>。</span><span class="sxs-lookup"><span data-stu-id="cd151-228">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="cd151-229">然后输入一个确定系统停止检索姓名的层次结构的条件。</span><span class="sxs-lookup"><span data-stu-id="cd151-229">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
     </ol>
     </li>
-    <li><span data-ttu-id="86868-230">在<strong>层次结构选项</strong>选项卡上，指定应向其分配决策的范围内的用户：</span><span class="sxs-lookup"><span data-stu-id="86868-230">On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be assigned to:</span></span> <ul>
-    <li><span data-ttu-id="86868-231"><strong>分配给所有检索到的用户</strong> – 此决策将分配给范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="86868-231"><strong>Assign to all users retrieved</strong> – The decision is assigned to all users in the range.</span></span></li>
-    <li><span data-ttu-id="86868-232"><strong>仅分配给最后检索到的用户</strong> – 此决策将分配给范围内的最后一名用户。</span><span class="sxs-lookup"><span data-stu-id="86868-232"><strong>Assign only to last user retrieved</strong> – The decision is assigned to only the last user in the range.</span></span></li>
-    <li><span data-ttu-id="86868-233"><strong>排除满足以下条件的用户</strong> – 此决策不分配给满足特定条件的范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="86868-233"><strong>Exclude users with the following condition</strong> – The decision isn't assigned to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="86868-234">单击<strong>添加条件</strong>以指定条件。</span><span class="sxs-lookup"><span data-stu-id="86868-234">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
+    <li><span data-ttu-id="cd151-230">在<strong>层次结构选项</strong>选项卡上，指定应向其分配决策的范围内的用户：</span><span class="sxs-lookup"><span data-stu-id="cd151-230">On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be assigned to:</span></span> <ul>
+    <li><span data-ttu-id="cd151-231"><strong>分配给所有检索到的用户</strong> – 此决策将分配给范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-231"><strong>Assign to all users retrieved</strong> – The decision is assigned to all users in the range.</span></span></li>
+    <li><span data-ttu-id="cd151-232"><strong>仅分配给最后检索到的用户</strong> – 此决策将分配给范围内的最后一名用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-232"><strong>Assign only to last user retrieved</strong> – The decision is assigned to only the last user in the range.</span></span></li>
+    <li><span data-ttu-id="cd151-233"><strong>排除满足以下条件的用户</strong> – 此决策不分配给满足特定条件的范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-233"><strong>Exclude users with the following condition</strong> – The decision isn't assigned to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="cd151-234">单击<strong>添加条件</strong>以指定条件。</span><span class="sxs-lookup"><span data-stu-id="cd151-234">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
     </ul>
     </li>
     </ol>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="86868-235">工作流用户</span><span class="sxs-lookup"><span data-stu-id="86868-235">Workflow user</span></span></td>
-    <td><span data-ttu-id="86868-236">当前工作流中的用户</span><span class="sxs-lookup"><span data-stu-id="86868-236">Users in the current workflow</span></span></td>
+    <td><span data-ttu-id="cd151-235">工作流用户</span><span class="sxs-lookup"><span data-stu-id="cd151-235">Workflow user</span></span></td>
+    <td><span data-ttu-id="cd151-236">当前工作流中的用户</span><span class="sxs-lookup"><span data-stu-id="cd151-236">Users in the current workflow</span></span></td>
     <td>
     <ul>
-    <li><span data-ttu-id="86868-237">在您选择<strong>工作流用户</strong>后，在选项卡<strong>工作流用户</strong>上，在<strong>工作流用户</strong>列表中，选择参与工作流的用户。</span><span class="sxs-lookup"><span data-stu-id="86868-237">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
+    <li><span data-ttu-id="cd151-237">在您选择<strong>工作流用户</strong>后，在选项卡<strong>工作流用户</strong>上，在<strong>工作流用户</strong>列表中，选择参与工作流的用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-237">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="86868-238">用户</span><span class="sxs-lookup"><span data-stu-id="86868-238">User</span></span></td>
-    <td><span data-ttu-id="86868-239">特定 Finance and Operations 用户</span><span class="sxs-lookup"><span data-stu-id="86868-239">Specific Finance and Operations users</span></span></td>
+    <td><span data-ttu-id="cd151-238">用户</span><span class="sxs-lookup"><span data-stu-id="cd151-238">User</span></span></td>
+    <td><span data-ttu-id="cd151-239">特定 Finance and Operations 用户</span><span class="sxs-lookup"><span data-stu-id="cd151-239">Specific Finance and Operations users</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="86868-240">在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="86868-240">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
-    <li><span data-ttu-id="86868-241"><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="86868-241">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="86868-242">选择要向其分配决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</span><span class="sxs-lookup"><span data-stu-id="86868-242">Select the users to assign the decision to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
+    <li><span data-ttu-id="cd151-240">在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="cd151-240">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="cd151-241"><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-241">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="cd151-242">选择要向其分配决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</span><span class="sxs-lookup"><span data-stu-id="cd151-242">Select the users to assign the decision to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="86868-243">队列</span><span class="sxs-lookup"><span data-stu-id="86868-243">Queue</span></span></td>
-    <td><span data-ttu-id="86868-244">工作项队列</span><span class="sxs-lookup"><span data-stu-id="86868-244">A work item queue</span></span></td>
+    <td><span data-ttu-id="cd151-243">队列</span><span class="sxs-lookup"><span data-stu-id="cd151-243">Queue</span></span></td>
+    <td><span data-ttu-id="cd151-244">工作项队列</span><span class="sxs-lookup"><span data-stu-id="cd151-244">A work item queue</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="86868-245">在选择<strong>队列</strong>后，单击<strong>基于队列</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="86868-245">After you select <strong>Queue</strong>, click the <strong>Queue based</strong> tab.</span></span></li>
-    <li><span data-ttu-id="86868-246">要将决策分配到特定的队列，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="86868-246">To assign the decision to a specific queue, follow these steps:</span></span> <ol>
-    <li><span data-ttu-id="86868-247">在<strong>队列类型</strong>列表中，选择<strong>工作项队列</strong>。</span><span class="sxs-lookup"><span data-stu-id="86868-247">In the <strong>Queue type</strong> list, select <strong>Work item queues</strong>.</span></span></li>
-    <li><span data-ttu-id="86868-248">在<strong>队列名称</strong>列表中，选择该队列。</span><span class="sxs-lookup"><span data-stu-id="86868-248">In the <strong>Queue name</strong> list, select the queue.</span></span></li>
+    <li><span data-ttu-id="cd151-245">在选择<strong>队列</strong>后，单击<strong>基于队列</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="cd151-245">After you select <strong>Queue</strong>, click the <strong>Queue based</strong> tab.</span></span></li>
+    <li><span data-ttu-id="cd151-246">要将决策分配到特定的队列，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="cd151-246">To assign the decision to a specific queue, follow these steps:</span></span> <ol>
+    <li><span data-ttu-id="cd151-247">在<strong>队列类型</strong>列表中，选择<strong>工作项队列</strong>。</span><span class="sxs-lookup"><span data-stu-id="cd151-247">In the <strong>Queue type</strong> list, select <strong>Work item queues</strong>.</span></span></li>
+    <li><span data-ttu-id="cd151-248">在<strong>队列名称</strong>列表中，选择该队列。</span><span class="sxs-lookup"><span data-stu-id="cd151-248">In the <strong>Queue name</strong> list, select the queue.</span></span></li>
     </ol>
     </li>
-    <li><span data-ttu-id="86868-249">如果特定条件应确定将决策分配到的队列，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="86868-249">If a specific condition should determine which queue the decision is assigned to, follow these steps:</span></span> <ol>
-    <li><span data-ttu-id="86868-250">在<strong>队列类型</strong>列表中，选择<strong>条件工作项队列</strong>。</span><span class="sxs-lookup"><span data-stu-id="86868-250">In the <strong>Queue type</strong> list, select <strong>Conditional work item queues</strong>.</span></span></li>
-    <li><span data-ttu-id="86868-251">在<strong>队列名称</strong>列表中，选择<strong>条件队列</strong>。</span><span class="sxs-lookup"><span data-stu-id="86868-251">In the <strong>Queue name</strong> list, select <strong>Conditional queue</strong>.</span></span></li>
+    <li><span data-ttu-id="cd151-249">如果特定条件应确定将决策分配到的队列，请执行以下步骤：</span><span class="sxs-lookup"><span data-stu-id="cd151-249">If a specific condition should determine which queue the decision is assigned to, follow these steps:</span></span> <ol>
+    <li><span data-ttu-id="cd151-250">在<strong>队列类型</strong>列表中，选择<strong>条件工作项队列</strong>。</span><span class="sxs-lookup"><span data-stu-id="cd151-250">In the <strong>Queue type</strong> list, select <strong>Conditional work item queues</strong>.</span></span></li>
+    <li><span data-ttu-id="cd151-251">在<strong>队列名称</strong>列表中，选择<strong>条件队列</strong>。</span><span class="sxs-lookup"><span data-stu-id="cd151-251">In the <strong>Queue name</strong> list, select <strong>Conditional queue</strong>.</span></span></li>
     </ol>
     </li>
     </ol>
-    <blockquote>[!NOTE] <span data-ttu-id="86868-252">此选项仅用于几个工作流，如案例管理。</span><span class="sxs-lookup"><span data-stu-id="86868-252">This option is used for only a few workflows, such as Case management.</span></span></blockquote>
+    <blockquote>[!NOTE] <span data-ttu-id="cd151-252">此选项仅用于几个工作流，如案例管理。</span><span class="sxs-lookup"><span data-stu-id="cd151-252">This option is used for only a few workflows, such as Case management.</span></span></blockquote>
     </td>
     </tr>
     </tbody>
     </table>
 
-3. <span data-ttu-id="86868-253">在**时间限制**选项卡上，在**持续时间**字段中，指定指定用户必须在多长时间内制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-253">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to make the decision.</span></span> <span data-ttu-id="86868-254">选择以下选项之一：</span><span class="sxs-lookup"><span data-stu-id="86868-254">Select one of the following options:</span></span>
+3. <span data-ttu-id="cd151-253">在**时间限制**选项卡上，在**持续时间**字段中，指定指定用户必须在多长时间内制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-253">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to make the decision.</span></span> <span data-ttu-id="cd151-254">选择以下选项之一：</span><span class="sxs-lookup"><span data-stu-id="cd151-254">Select one of the following options:</span></span>
 
-    - <span data-ttu-id="86868-255">**小时** – 输入用户必须在几小时内制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-255">**Hours** – Enter the number of hours that the user has to make the decision.</span></span> <span data-ttu-id="86868-256">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="86868-256">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="86868-257">**天** – 输入用户必须在几天内制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-257">**Days** – Enter the number of days that the user has to make the decision.</span></span> <span data-ttu-id="86868-258">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="86868-258">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="86868-259">**周** – 输入用户必须在几周内制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-259">**Weeks** – Enter the number of weeks that the user has to make the decision.</span></span>
-    - <span data-ttu-id="86868-260">**月** – 选择用户必须在哪一天和哪一周前制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-260">**Months** – Select the day and week that the user must make the decision by.</span></span> <span data-ttu-id="86868-261">例如，您可能希望用户在当月第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-261">For example, you might want the user to make the decision by Friday of the third week of the month.</span></span>
-    - <span data-ttu-id="86868-262">**年** – 选择用户必须在哪一天、哪一周和哪一月前制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-262">**Years** – Select the day, week, and month that the user must make the decision by.</span></span> <span data-ttu-id="86868-263">例如，您可能希望用户在十二月的第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-263">For example, you might want the user to make the decision by Friday of the third week of December.</span></span>
+    - <span data-ttu-id="cd151-255">**小时** – 输入用户必须在几小时内制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-255">**Hours** – Enter the number of hours that the user has to make the decision.</span></span> <span data-ttu-id="cd151-256">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="cd151-256">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="cd151-257">**天** – 输入用户必须在几天内制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-257">**Days** – Enter the number of days that the user has to make the decision.</span></span> <span data-ttu-id="cd151-258">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="cd151-258">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="cd151-259">**周** – 输入用户必须在几周内制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-259">**Weeks** – Enter the number of weeks that the user has to make the decision.</span></span>
+    - <span data-ttu-id="cd151-260">**月** – 选择用户必须在哪一天和哪一周前制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-260">**Months** – Select the day and week that the user must make the decision by.</span></span> <span data-ttu-id="cd151-261">例如，您可能希望用户在当月第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-261">For example, you might want the user to make the decision by Friday of the third week of the month.</span></span>
+    - <span data-ttu-id="cd151-262">**年** – 选择用户必须在哪一天、哪一周和哪一月前制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-262">**Years** – Select the day, week, and month that the user must make the decision by.</span></span> <span data-ttu-id="cd151-263">例如，您可能希望用户在十二月的第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-263">For example, you might want the user to make the decision by Friday of the third week of December.</span></span>
 
-    <span data-ttu-id="86868-264">如果用户未在分配的时间内制定决策，则决策逾期。</span><span class="sxs-lookup"><span data-stu-id="86868-264">If the user doesn't make the decision in the allotted time, the decision is overdue.</span></span> <span data-ttu-id="86868-265">逾期的决策基于您在此页面**呈报**区域中选择的选项呈报。</span><span class="sxs-lookup"><span data-stu-id="86868-265">A decision that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
+    <span data-ttu-id="cd151-264">如果用户未在分配的时间内制定决策，则决策逾期。</span><span class="sxs-lookup"><span data-stu-id="cd151-264">If the user doesn't make the decision in the allotted time, the decision is overdue.</span></span> <span data-ttu-id="cd151-265">逾期的决策基于您在此页面**呈报**区域中选择的选项呈报。</span><span class="sxs-lookup"><span data-stu-id="cd151-265">A decision that is overdue is escalated, based on the options that you select in the **Escalation** area of the page.</span></span>
 
-## <a name="specify-what-happens-when-a-decision-is-overdue"></a><span data-ttu-id="86868-266">指定决策逾期时执行的操作</span><span class="sxs-lookup"><span data-stu-id="86868-266">Specify what happens when a decision is overdue</span></span>
+## <a name="specify-what-happens-when-a-decision-is-overdue"></a><span data-ttu-id="cd151-266">指定决策逾期时执行的操作</span><span class="sxs-lookup"><span data-stu-id="cd151-266">Specify what happens when a decision is overdue</span></span>
 
-<span data-ttu-id="86868-267">如果用户未在分配的时间内制定决策，则决策逾期。</span><span class="sxs-lookup"><span data-stu-id="86868-267">If a user doesn't make the decision in the allotted time, the decision is overdue.</span></span> <span data-ttu-id="86868-268">可呈报逾期的决策，或自动将该单据分配给其他用户。</span><span class="sxs-lookup"><span data-stu-id="86868-268">A decision that is overdue can be escalated, or automatically assigned to another user.</span></span> <span data-ttu-id="86868-269">如果决策逾期，请执行以下步骤进行呈报。</span><span class="sxs-lookup"><span data-stu-id="86868-269">Follow these steps to escalate the decision if it's overdue.</span></span>
+<span data-ttu-id="cd151-267">如果用户未在分配的时间内制定决策，则决策逾期。</span><span class="sxs-lookup"><span data-stu-id="cd151-267">If a user doesn't make the decision in the allotted time, the decision is overdue.</span></span> <span data-ttu-id="cd151-268">可呈报逾期的决策，或自动将该单据分配给其他用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-268">A decision that is overdue can be escalated, or automatically assigned to another user.</span></span> <span data-ttu-id="cd151-269">如果决策逾期，请执行以下步骤进行呈报。</span><span class="sxs-lookup"><span data-stu-id="cd151-269">Follow these steps to escalate the decision if it's overdue.</span></span>
 
-1. <span data-ttu-id="86868-270">在左窗格中，单击**呈报**。</span><span class="sxs-lookup"><span data-stu-id="86868-270">In the left pane, click **Escalation**.</span></span>
-2. <span data-ttu-id="86868-271">选择**使用呈报路线**复选框创建呈报路线。</span><span class="sxs-lookup"><span data-stu-id="86868-271">Select the **Use escalation path** check box to create an escalation path.</span></span> <span data-ttu-id="86868-272">系统自动将决策分配给呈报路线中列出的用户。</span><span class="sxs-lookup"><span data-stu-id="86868-272">The system automatically assigns the decision to the users who are listed in the escalation path.</span></span> <span data-ttu-id="86868-273">例如，下表显示呈报路线。</span><span class="sxs-lookup"><span data-stu-id="86868-273">For example, the following table represents an escalation path.</span></span>
+1. <span data-ttu-id="cd151-270">在左窗格中，单击**呈报**。</span><span class="sxs-lookup"><span data-stu-id="cd151-270">In the left pane, click **Escalation**.</span></span>
+2. <span data-ttu-id="cd151-271">选择**使用呈报路线**复选框创建呈报路线。</span><span class="sxs-lookup"><span data-stu-id="cd151-271">Select the **Use escalation path** check box to create an escalation path.</span></span> <span data-ttu-id="cd151-272">系统自动将决策分配给呈报路线中列出的用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-272">The system automatically assigns the decision to the users who are listed in the escalation path.</span></span> <span data-ttu-id="cd151-273">例如，下表显示呈报路线。</span><span class="sxs-lookup"><span data-stu-id="cd151-273">For example, the following table represents an escalation path.</span></span>
 
-    | <span data-ttu-id="86868-274">序列</span><span class="sxs-lookup"><span data-stu-id="86868-274">Sequence</span></span> | <span data-ttu-id="86868-275">呈报路线</span><span class="sxs-lookup"><span data-stu-id="86868-275">Escalation path</span></span>            |
+    | <span data-ttu-id="cd151-274">序列</span><span class="sxs-lookup"><span data-stu-id="cd151-274">Sequence</span></span> | <span data-ttu-id="cd151-275">呈报路线</span><span class="sxs-lookup"><span data-stu-id="cd151-275">Escalation path</span></span>            |
     |----------|----------------------------|
-    | <span data-ttu-id="86868-276">1</span><span class="sxs-lookup"><span data-stu-id="86868-276">1</span></span>        | <span data-ttu-id="86868-277">分配给：Donna</span><span class="sxs-lookup"><span data-stu-id="86868-277">Assign to: Donna</span></span>           |
-    | <span data-ttu-id="86868-278">2</span><span class="sxs-lookup"><span data-stu-id="86868-278">2</span></span>        | <span data-ttu-id="86868-279">分配给：Erin</span><span class="sxs-lookup"><span data-stu-id="86868-279">Assign to: Erin</span></span>            |
-    | <span data-ttu-id="86868-280">3</span><span class="sxs-lookup"><span data-stu-id="86868-280">3</span></span>        | <span data-ttu-id="86868-281">最后操作：\[选择 1\]</span><span class="sxs-lookup"><span data-stu-id="86868-281">Final action: \[Choice 1\]</span></span> |
+    | <span data-ttu-id="cd151-276">1</span><span class="sxs-lookup"><span data-stu-id="cd151-276">1</span></span>        | <span data-ttu-id="cd151-277">分配给：Donna</span><span class="sxs-lookup"><span data-stu-id="cd151-277">Assign to: Donna</span></span>           |
+    | <span data-ttu-id="cd151-278">2</span><span class="sxs-lookup"><span data-stu-id="cd151-278">2</span></span>        | <span data-ttu-id="cd151-279">分配给：Erin</span><span class="sxs-lookup"><span data-stu-id="cd151-279">Assign to: Erin</span></span>            |
+    | <span data-ttu-id="cd151-280">3</span><span class="sxs-lookup"><span data-stu-id="cd151-280">3</span></span>        | <span data-ttu-id="cd151-281">最后操作：\[选择 1\]</span><span class="sxs-lookup"><span data-stu-id="cd151-281">Final action: \[Choice 1\]</span></span> |
 
-    <span data-ttu-id="86868-282">在此示例中，系统将逾期决策分配给 Donna。</span><span class="sxs-lookup"><span data-stu-id="86868-282">In this example, the system assigns the overdue decision to Donna.</span></span> <span data-ttu-id="86868-283">如果 Donna 未在分配的时间内制定决策，则系统将决策分配给 Erin。</span><span class="sxs-lookup"><span data-stu-id="86868-283">If Donna doesn't make the decision in the allotted time, the system assigns the decision to Erin.</span></span> <span data-ttu-id="86868-284">如果 Erin 未在分配的时间内制定决策，则系统选择**\[选择 1\]** 作为决策。</span><span class="sxs-lookup"><span data-stu-id="86868-284">If Erin doesn't make the decision in the allotted time, the system selects **\[Choice 1\]** as the decision.</span></span>
+    <span data-ttu-id="cd151-282">在此示例中，系统将逾期决策分配给 Donna。</span><span class="sxs-lookup"><span data-stu-id="cd151-282">In this example, the system assigns the overdue decision to Donna.</span></span> <span data-ttu-id="cd151-283">如果 Donna 未在分配的时间内制定决策，则系统将决策分配给 Erin。</span><span class="sxs-lookup"><span data-stu-id="cd151-283">If Donna doesn't make the decision in the allotted time, the system assigns the decision to Erin.</span></span> <span data-ttu-id="cd151-284">如果 Erin 未在分配的时间内制定决策，则系统选择**\[选择 1\]** 作为决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-284">If Erin doesn't make the decision in the allotted time, the system selects **\[Choice 1\]** as the decision.</span></span>
 
-3. <span data-ttu-id="86868-285">要将用户添加到呈报路线中，单击**添加呈报**。</span><span class="sxs-lookup"><span data-stu-id="86868-285">To add a user to the escalation path, click **Add escalation**.</span></span> <span data-ttu-id="86868-286">选择下表中的选项之一，然后按照该选项的其他步骤转到第 4 步。</span><span class="sxs-lookup"><span data-stu-id="86868-286">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 4.</span></span>
+3. <span data-ttu-id="cd151-285">要将用户添加到呈报路线中，单击**添加呈报**。</span><span class="sxs-lookup"><span data-stu-id="cd151-285">To add a user to the escalation path, click **Add escalation**.</span></span> <span data-ttu-id="cd151-286">选择下表中的选项之一，然后按照该选项的其他步骤转到第 4 步。</span><span class="sxs-lookup"><span data-stu-id="cd151-286">Select one of the options in the following table, and then follow the additional steps for that option before you go to step 4.</span></span>
 
     <table>
     <thead>
     <tr>
-    <th><span data-ttu-id="86868-287">选项</span><span class="sxs-lookup"><span data-stu-id="86868-287">Option</span></span></th>
-    <th><span data-ttu-id="86868-288">决策呈报到的用户</span><span class="sxs-lookup"><span data-stu-id="86868-288">Users that the decision is escalated to</span></span></th>
-    <th><span data-ttu-id="86868-289">附加步骤</span><span class="sxs-lookup"><span data-stu-id="86868-289">Additional steps</span></span></th>
+    <th><span data-ttu-id="cd151-287">选项</span><span class="sxs-lookup"><span data-stu-id="cd151-287">Option</span></span></th>
+    <th><span data-ttu-id="cd151-288">决策呈报到的用户</span><span class="sxs-lookup"><span data-stu-id="cd151-288">Users that the decision is escalated to</span></span></th>
+    <th><span data-ttu-id="cd151-289">附加步骤</span><span class="sxs-lookup"><span data-stu-id="cd151-289">Additional steps</span></span></th>
     </tr>
     </thead>
     <tbody>
     <tr>
-    <td><span data-ttu-id="86868-290">层次结构</span><span class="sxs-lookup"><span data-stu-id="86868-290">Hierarchy</span></span></td>
-    <td><span data-ttu-id="86868-291">特定组织层次结构中的用户</span><span class="sxs-lookup"><span data-stu-id="86868-291">Users in a specific organizational hierarchy</span></span></td>
+    <td><span data-ttu-id="cd151-290">层次结构</span><span class="sxs-lookup"><span data-stu-id="cd151-290">Hierarchy</span></span></td>
+    <td><span data-ttu-id="cd151-291">特定组织层次结构中的用户</span><span class="sxs-lookup"><span data-stu-id="cd151-291">Users in a specific organizational hierarchy</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="86868-292">在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其呈报决策的层次结构的类型。</span><span class="sxs-lookup"><span data-stu-id="86868-292">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the decision to.</span></span></li>
-    <li><span data-ttu-id="86868-293">系统必须从层次结构中检索一系列用户姓名。</span><span class="sxs-lookup"><span data-stu-id="86868-293">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="86868-294">这些姓名代表可向其呈报决策的用户。</span><span class="sxs-lookup"><span data-stu-id="86868-294">These names represent users that the decision can be escalated to.</span></span> <span data-ttu-id="86868-295">按照以下步骤指定系统检索的用户名范围的起点和终点：</span><span class="sxs-lookup"><span data-stu-id="86868-295">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
-    <li><span data-ttu-id="86868-296">若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</span><span class="sxs-lookup"><span data-stu-id="86868-296">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
-    <li><span data-ttu-id="86868-297">若要指定终点，请单击<strong>添加条件</strong>。</span><span class="sxs-lookup"><span data-stu-id="86868-297">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="86868-298">然后输入一个确定系统停止检索姓名的层次结构的条件。</span><span class="sxs-lookup"><span data-stu-id="86868-298">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
+    <li><span data-ttu-id="cd151-292">在您选择<strong>层次结构</strong>后，在选项卡<strong>层次结构选择</strong>上，在<strong>层次结构类型</strong>列表中，选择要向其呈报决策的层次结构的类型。</span><span class="sxs-lookup"><span data-stu-id="cd151-292">After you select <strong>Hierarchy</strong>, on the <strong>Hierarchy selection</strong> tab, in the <strong>Hierarchy type</strong> list, select the type of hierarchy to escalate the decision to.</span></span></li>
+    <li><span data-ttu-id="cd151-293">系统必须从层次结构中检索一系列用户姓名。</span><span class="sxs-lookup"><span data-stu-id="cd151-293">The system must retrieve a range of user names from the hierarchy.</span></span> <span data-ttu-id="cd151-294">这些姓名代表可向其呈报决策的用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-294">These names represent users that the decision can be escalated to.</span></span> <span data-ttu-id="cd151-295">按照以下步骤指定系统检索的用户名范围的起点和终点：</span><span class="sxs-lookup"><span data-stu-id="cd151-295">Follow these steps to specify the starting point and ending point of the range of user names that the system retrieves:</span></span> <ol>
+    <li><span data-ttu-id="cd151-296">若要指定起点，请在<strong>启动自</strong>列表中选择一名人员。</span><span class="sxs-lookup"><span data-stu-id="cd151-296">To specify the starting point, select a person in the <strong>Start from</strong> list.</span></span></li>
+    <li><span data-ttu-id="cd151-297">若要指定终点，请单击<strong>添加条件</strong>。</span><span class="sxs-lookup"><span data-stu-id="cd151-297">To specify the ending point, click <strong>Add condition</strong>.</span></span> <span data-ttu-id="cd151-298">然后输入一个确定系统停止检索姓名的层次结构的条件。</span><span class="sxs-lookup"><span data-stu-id="cd151-298">Then enter a condition that determines where in the hierarchy the system stops retrieving names.</span></span></li>
     </ol>
     </li>
-    <li><span data-ttu-id="86868-299">在<strong>层次结构选项</strong>选项卡上，指定应向其呈报决策的范围内的用户：</span><span class="sxs-lookup"><span data-stu-id="86868-299">On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be escalated to:</span></span> <ul>
-    <li><span data-ttu-id="86868-300"><strong>分配给所有检索到的用户</strong> – 决策将呈报给范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="86868-300"><strong>Assign to all users retrieved</strong> – The decision is escalated to all users in the range.</span></span></li>
-    <li><span data-ttu-id="86868-301"><strong>仅分配给最后检索到的用户</strong> – 决策将呈报给范围内的最后一名用户。</span><span class="sxs-lookup"><span data-stu-id="86868-301"><strong>Assign only to last user retrieved</strong> – The decision is escalated to only the last user in the range.</span></span></li>
-    <li><span data-ttu-id="86868-302"><strong>排除满足以下条件的用户：</strong> – 此决策不呈报给满足特定条件的范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="86868-302"><strong>Exclude users with the following condition:</strong> – The decision isn't escalated to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="86868-303">单击<strong>添加条件</strong>以指定条件。</span><span class="sxs-lookup"><span data-stu-id="86868-303">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
+    <li><span data-ttu-id="cd151-299">在<strong>层次结构选项</strong>选项卡上，指定应向其呈报决策的范围内的用户：</span><span class="sxs-lookup"><span data-stu-id="cd151-299">On the <strong>Hierarchy options</strong> tab, specify which users in the range the decision should be escalated to:</span></span> <ul>
+    <li><span data-ttu-id="cd151-300"><strong>分配给所有检索到的用户</strong> – 决策将呈报给范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-300"><strong>Assign to all users retrieved</strong> – The decision is escalated to all users in the range.</span></span></li>
+    <li><span data-ttu-id="cd151-301"><strong>仅分配给最后检索到的用户</strong> – 决策将呈报给范围内的最后一名用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-301"><strong>Assign only to last user retrieved</strong> – The decision is escalated to only the last user in the range.</span></span></li>
+    <li><span data-ttu-id="cd151-302"><strong>排除满足以下条件的用户：</strong> – 此决策不呈报给满足特定条件的范围内的所有用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-302"><strong>Exclude users with the following condition:</strong> – The decision isn't escalated to any users in the range who meet a specific condition.</span></span> <span data-ttu-id="cd151-303">单击<strong>添加条件</strong>以指定条件。</span><span class="sxs-lookup"><span data-stu-id="cd151-303">Click <strong>Add condition</strong> to specify the condition.</span></span></li>
     </ul>
     </li>
     </ol>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="86868-304">工作流用户</span><span class="sxs-lookup"><span data-stu-id="86868-304">Workflow user</span></span></td>
-    <td><span data-ttu-id="86868-305">当前工作流中的用户</span><span class="sxs-lookup"><span data-stu-id="86868-305">Users in the current workflow</span></span></td>
+    <td><span data-ttu-id="cd151-304">工作流用户</span><span class="sxs-lookup"><span data-stu-id="cd151-304">Workflow user</span></span></td>
+    <td><span data-ttu-id="cd151-305">当前工作流中的用户</span><span class="sxs-lookup"><span data-stu-id="cd151-305">Users in the current workflow</span></span></td>
     <td>
     <ul>
-    <li><span data-ttu-id="86868-306">在您选择<strong>工作流用户</strong>后，在选项卡<strong>工作流用户</strong>上，在<strong>工作流用户</strong>列表中，选择参与工作流的用户。</span><span class="sxs-lookup"><span data-stu-id="86868-306">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
+    <li><span data-ttu-id="cd151-306">在您选择<strong>工作流用户</strong>后，在选项卡<strong>工作流用户</strong>上，在<strong>工作流用户</strong>列表中，选择参与工作流的用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-306">After you select <strong>Workflow user</strong>, on the <strong>Workflow user</strong> tab, in the <strong>Workflow user</strong> list, select a user who participates in the workflow.</span></span></li>
     </ul>
     </td>
     </tr>
     <tr>
-    <td><span data-ttu-id="86868-307">用户</span><span class="sxs-lookup"><span data-stu-id="86868-307">User</span></span></td>
-    <td><span data-ttu-id="86868-308">特定 Finance and Operations 用户</span><span class="sxs-lookup"><span data-stu-id="86868-308">Specific Finance and Operations users</span></span></td>
+    <td><span data-ttu-id="cd151-307">用户</span><span class="sxs-lookup"><span data-stu-id="cd151-307">User</span></span></td>
+    <td><span data-ttu-id="cd151-308">特定 Finance and Operations 用户</span><span class="sxs-lookup"><span data-stu-id="cd151-308">Specific Finance and Operations users</span></span></td>
     <td>
     <ol>
-    <li><span data-ttu-id="86868-309">在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="86868-309">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
-    <li><span data-ttu-id="86868-310"><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="86868-310">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="86868-311">选择要向其呈报决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</span><span class="sxs-lookup"><span data-stu-id="86868-311">Select the users to escalate the decision to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
+    <li><span data-ttu-id="cd151-309">在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</span><span class="sxs-lookup"><span data-stu-id="cd151-309">After you select <strong>User</strong>, click the <strong>User</strong> tab.</span></span></li>
+    <li><span data-ttu-id="cd151-310"><strong>可用用户</strong>列表包含所有 Finance and Operations 用户。</span><span class="sxs-lookup"><span data-stu-id="cd151-310">The <strong>Available users</strong> list includes all Finance and Operations users.</span></span> <span data-ttu-id="cd151-311">选择要向其呈报决策的用户，然后将这些用户移动到<strong>所选用户</strong>列表。</span><span class="sxs-lookup"><span data-stu-id="cd151-311">Select the users to escalate the decision to, and then move those users to the <strong>Selected users</strong> list.</span></span></li>
     </ol>
     </td>
     </tr>
     </tbody>
     </table>
 
-4. <span data-ttu-id="86868-312">在**时间限制**选项卡上，在**持续时间**字段中，指定指定用户必须在多长时间内制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-312">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to make the decision.</span></span> <span data-ttu-id="86868-313">选择以下选项之一：</span><span class="sxs-lookup"><span data-stu-id="86868-313">Select one of the following options:</span></span>
+4. <span data-ttu-id="cd151-312">在**时间限制**选项卡上，在**持续时间**字段中，指定指定用户必须在多长时间内制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-312">On the **Time limit** tab, in the **Duration** field, specify how much time the user has to make the decision.</span></span> <span data-ttu-id="cd151-313">选择以下选项之一：</span><span class="sxs-lookup"><span data-stu-id="cd151-313">Select one of the following options:</span></span>
 
-    - <span data-ttu-id="86868-314">**小时** – 输入用户必须在几小时内制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-314">**Hours** – Enter the number of hours that the user has to make the decision.</span></span> <span data-ttu-id="86868-315">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="86868-315">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="86868-316">**天** – 输入用户必须在几天内制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-316">**Days** – Enter the number of days that the user has to make the decision.</span></span> <span data-ttu-id="86868-317">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="86868-317">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="86868-318">**周** – 输入用户必须在几周内制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-318">**Weeks** – Enter the number of weeks that the user has to make the decision.</span></span>
-    - <span data-ttu-id="86868-319">**月** – 选择用户必须在哪一天和哪一周前制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-319">**Months** – Select the day and week that the user must make the decision by.</span></span> <span data-ttu-id="86868-320">例如，您可能希望用户在当月第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-320">For example, you might want the user to make the decision by Friday of the third week of the month.</span></span>
-    - <span data-ttu-id="86868-321">**年** – 选择用户必须在哪一天、哪一周和哪一月前制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-321">**Years** – Select the day, week, and month that the user must make the decision by.</span></span> <span data-ttu-id="86868-322">例如，您可能希望用户在十二月的第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-322">For example, you might want the user to make the decision by Friday of the third week of December.</span></span>
+    - <span data-ttu-id="cd151-314">**小时** – 输入用户必须在几小时内制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-314">**Hours** – Enter the number of hours that the user has to make the decision.</span></span> <span data-ttu-id="cd151-315">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="cd151-315">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="cd151-316">**天** – 输入用户必须在几天内制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-316">**Days** – Enter the number of days that the user has to make the decision.</span></span> <span data-ttu-id="cd151-317">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="cd151-317">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="cd151-318">**周** – 输入用户必须在几周内制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-318">**Weeks** – Enter the number of weeks that the user has to make the decision.</span></span>
+    - <span data-ttu-id="cd151-319">**月** – 选择用户必须在哪一天和哪一周前制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-319">**Months** – Select the day and week that the user must make the decision by.</span></span> <span data-ttu-id="cd151-320">例如，您可能希望用户在当月第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-320">For example, you might want the user to make the decision by Friday of the third week of the month.</span></span>
+    - <span data-ttu-id="cd151-321">**年** – 选择用户必须在哪一天、哪一周和哪一月前制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-321">**Years** – Select the day, week, and month that the user must make the decision by.</span></span> <span data-ttu-id="cd151-322">例如，您可能希望用户在十二月的第三周的周五之前制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-322">For example, you might want the user to make the decision by Friday of the third week of December.</span></span>
 
-5. <span data-ttu-id="86868-323">对每个应添加到呈报路线的用户重复第 3 步到第 4 步。</span><span class="sxs-lookup"><span data-stu-id="86868-323">Repeat steps 3 through 4 for each user that should be added to the escalation path.</span></span> <span data-ttu-id="86868-324">您可以更改用户的顺序。</span><span class="sxs-lookup"><span data-stu-id="86868-324">You can change the order of the users.</span></span>
-6. <span data-ttu-id="86868-325">如果呈报路线中的用户未在分配的时间内制定决策，则系统制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-325">If the users in the escalation path don't make the decision in the allotted time, the system makes the decision.</span></span> <span data-ttu-id="86868-326">若要指定系统选择的选项，选择**操作**行，然后，在**结束操作**选项卡上，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="86868-326">To specify the option that the system selects, select the **Action** row, and then, on the **End action** tab, select an option.</span></span>
+5. <span data-ttu-id="cd151-323">对每个应添加到呈报路线的用户重复第 3 步到第 4 步。</span><span class="sxs-lookup"><span data-stu-id="cd151-323">Repeat steps 3 through 4 for each user that should be added to the escalation path.</span></span> <span data-ttu-id="cd151-324">您可以更改用户的顺序。</span><span class="sxs-lookup"><span data-stu-id="cd151-324">You can change the order of the users.</span></span>
+6. <span data-ttu-id="cd151-325">如果呈报路线中的用户未在分配的时间内制定决策，则系统制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-325">If the users in the escalation path don't make the decision in the allotted time, the system makes the decision.</span></span> <span data-ttu-id="cd151-326">若要指定系统选择的选项，选择**操作**行，然后，在**结束操作**选项卡上，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="cd151-326">To specify the option that the system selects, select the **Action** row, and then, on the **End action** tab, select an option.</span></span>
 
-## <a name="set-a-time-limit"></a><span data-ttu-id="86868-327">设置时间限制</span><span class="sxs-lookup"><span data-stu-id="86868-327">Set a time limit</span></span>
+## <a name="set-a-time-limit"></a><span data-ttu-id="cd151-327">设置时间限制</span><span class="sxs-lookup"><span data-stu-id="cd151-327">Set a time limit</span></span>
 
-<span data-ttu-id="86868-328">如果必须在特定时间制定决策，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="86868-328">Follow these steps if the decision must be made in a specific time.</span></span>
+<span data-ttu-id="cd151-328">如果必须在特定时间制定决策，请执行以下步骤。</span><span class="sxs-lookup"><span data-stu-id="cd151-328">Follow these steps if the decision must be made in a specific time.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="86868-329">您在此过程中选择的选项将覆盖您在页面的**分配**和**呈报**区域选择的选项。</span><span class="sxs-lookup"><span data-stu-id="86868-329">The options that you select in this procedure override the options that you selected in the **Assignment** and **Escalation** areas of the page.</span></span>
+> <span data-ttu-id="cd151-329">您在此过程中选择的选项将覆盖您在页面的**分配**和**呈报**区域选择的选项。</span><span class="sxs-lookup"><span data-stu-id="cd151-329">The options that you select in this procedure override the options that you selected in the **Assignment** and **Escalation** areas of the page.</span></span>
 
-1. <span data-ttu-id="86868-330">在左侧窗格中，单击**高级设置**。</span><span class="sxs-lookup"><span data-stu-id="86868-330">In the left pane, click **Advanced settings**.</span></span>
-2. <span data-ttu-id="86868-331">选中**为工作流元素设置时间限制**复选框。</span><span class="sxs-lookup"><span data-stu-id="86868-331">Select the **Set a time limit for the workflow element** check box.</span></span>
-3. <span data-ttu-id="86868-332">在**持续时间**字段中，指定必须在何时制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-332">In the **Duration** field, specify when the decision must be made.</span></span> <span data-ttu-id="86868-333">选择以下选项之一：</span><span class="sxs-lookup"><span data-stu-id="86868-333">Select one of the following options:</span></span>
+1. <span data-ttu-id="cd151-330">在左侧窗格中，单击**高级设置**。</span><span class="sxs-lookup"><span data-stu-id="cd151-330">In the left pane, click **Advanced settings**.</span></span>
+2. <span data-ttu-id="cd151-331">选中**为工作流元素设置时间限制**复选框。</span><span class="sxs-lookup"><span data-stu-id="cd151-331">Select the **Set a time limit for the workflow element** check box.</span></span>
+3. <span data-ttu-id="cd151-332">在**持续时间**字段中，指定必须在何时制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-332">In the **Duration** field, specify when the decision must be made.</span></span> <span data-ttu-id="cd151-333">选择以下选项之一：</span><span class="sxs-lookup"><span data-stu-id="cd151-333">Select one of the following options:</span></span>
 
-    - <span data-ttu-id="86868-334">**小时** – 输入小时数。</span><span class="sxs-lookup"><span data-stu-id="86868-334">**Hours** – Enter the number of hours.</span></span> <span data-ttu-id="86868-335">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="86868-335">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="86868-336">**天** – 输入天数。</span><span class="sxs-lookup"><span data-stu-id="86868-336">**Days** – Enter the number of days.</span></span> <span data-ttu-id="86868-337">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="86868-337">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
-    - <span data-ttu-id="86868-338">**周** – 输入周数。</span><span class="sxs-lookup"><span data-stu-id="86868-338">**Weeks** – Enter the number of weeks.</span></span>
-    - <span data-ttu-id="86868-339">**月** – 选择必须在哪一天和哪一周前制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-339">**Months** – Select the day and week that the decision must be made by.</span></span> <span data-ttu-id="86868-340">例如，您可能希望决策在当月第三周的周五之前制定。</span><span class="sxs-lookup"><span data-stu-id="86868-340">For example, you might want the decision to be made by Friday of the third week of the month.</span></span>
-    - <span data-ttu-id="86868-341">**年** – 选择决策必须在哪一天、哪一周和哪一月前制定。</span><span class="sxs-lookup"><span data-stu-id="86868-341">**Years** – Select the day, week, and month that the decision must be made by.</span></span> <span data-ttu-id="86868-342">例如，您可能希望决策在十二月第三周的周五之前制定。</span><span class="sxs-lookup"><span data-stu-id="86868-342">For example, you might want the decision to be made by Friday of the third week of December.</span></span>
+    - <span data-ttu-id="cd151-334">**小时** – 输入小时数。</span><span class="sxs-lookup"><span data-stu-id="cd151-334">**Hours** – Enter the number of hours.</span></span> <span data-ttu-id="cd151-335">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="cd151-335">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="cd151-336">**天** – 输入天数。</span><span class="sxs-lookup"><span data-stu-id="cd151-336">**Days** – Enter the number of days.</span></span> <span data-ttu-id="cd151-337">然后选择您的组织使用的日历，并输入有关您的组织的工作周的信息。</span><span class="sxs-lookup"><span data-stu-id="cd151-337">Then select the calendar that your organization uses, and enter information about your organization's work week.</span></span>
+    - <span data-ttu-id="cd151-338">**周** – 输入周数。</span><span class="sxs-lookup"><span data-stu-id="cd151-338">**Weeks** – Enter the number of weeks.</span></span>
+    - <span data-ttu-id="cd151-339">**月** – 选择必须在哪一天和哪一周前制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-339">**Months** – Select the day and week that the decision must be made by.</span></span> <span data-ttu-id="cd151-340">例如，您可能希望决策在当月第三周的周五之前制定。</span><span class="sxs-lookup"><span data-stu-id="cd151-340">For example, you might want the decision to be made by Friday of the third week of the month.</span></span>
+    - <span data-ttu-id="cd151-341">**年** – 选择决策必须在哪一天、哪一周和哪一月前制定。</span><span class="sxs-lookup"><span data-stu-id="cd151-341">**Years** – Select the day, week, and month that the decision must be made by.</span></span> <span data-ttu-id="cd151-342">例如，您可能希望决策在十二月第三周的周五之前制定。</span><span class="sxs-lookup"><span data-stu-id="cd151-342">For example, you might want the decision to be made by Friday of the third week of December.</span></span>
 
-4. <span data-ttu-id="86868-343">如果超出时间限制，系统将制定决策。</span><span class="sxs-lookup"><span data-stu-id="86868-343">If the time limit is exceeded, the system makes the decision.</span></span> <span data-ttu-id="86868-344">在**操作**列表中选择系统应选择的选项。</span><span class="sxs-lookup"><span data-stu-id="86868-344">In the **Action** list, select the option that the system should select.</span></span>
-
+4. <span data-ttu-id="cd151-343">如果超出时间限制，系统将制定决策。</span><span class="sxs-lookup"><span data-stu-id="cd151-343">If the time limit is exceeded, the system makes the decision.</span></span> <span data-ttu-id="cd151-344">在**操作**列表中选择系统应选择的选项。</span><span class="sxs-lookup"><span data-stu-id="cd151-344">In the **Action** list, select the option that the system should select.</span></span>
