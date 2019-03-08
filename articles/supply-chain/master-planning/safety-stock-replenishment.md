@@ -1,32 +1,31 @@
 ---
-title: "物料的安全存货履行"
-description: "此主题讨论安全存货履行以及如何设置物料的安全存货数量。"
+title: 物料的安全存货履行
+description: 此主题讨论安全存货履行以及如何设置物料的安全存货数量。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 11/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqSafetyKey, ReqItemTableSetup, ReqItemJournalName, ReqItemTable, EcoResProductDetailsExtended
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 147cc3984e6dc641209beefdb3545615b42767a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: d6ecb346f7bfa54a4e16307f623c82acb3a86892
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341526"
 ---
-
 # <a name="safety-stock-fulfillment-for-items"></a>物料的安全存货履行
 
 [!include [banner](../includes/banner.md)]
@@ -117,4 +116,3 @@ ms.lasthandoff: 12/14/2017
 在主计划的覆盖范围阶段，不再降低安全存货补货的优先级。 现有库存量可以在任何其他需求类型前使用。 在延迟计算过程中，将添加新的逻辑来检查延迟的销售行、物料清单行需求以及所有其他需求类型，以确定在使用安全存货的前提下是否可以按时交付。 如果系统确定使用安全存货可以最大程度地减少延迟，则销售行或物料清单行将使用安全存货替代其初始覆盖范围，并且系统将改为针对安全存货触发补货。
 
 如果没有为延迟计算设置计划或物料，则安全存货约束将具有与任何其他需求类型相同的优先级。 这意味着在其他需求类型前存在现有和其他可用库存的预留。
-

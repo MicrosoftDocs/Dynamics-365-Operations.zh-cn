@@ -1,13 +1,13 @@
 ---
-title: "配置工作流中的手动决策"
-description: "本主题说明如何配置手动决策的属性。"
+title: 配置工作流中的手动决策
+description: 本主题说明如何配置手动决策的属性。
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341388"
 ---
-
 # <a name="configure-manual-decisions-in-a-workflow"></a>配置工作流中的手动决策
 
 [!include [banner](../includes/banner.md)]
@@ -164,7 +163,7 @@ ms.lasthandoff: 12/18/2018
     </tr>
     <tr>
     <td>用户</td>
-    <td>特定的 Microsoft Dynamics 365 for Finance and Operations 用户</td>
+    <td>特定 Microsoft Dynamics 365 for Finance and Operations 用户</td>
     <td>
     <ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
@@ -372,4 +371,3 @@ ms.lasthandoff: 12/18/2018
     - **年** – 选择决策必须在哪一天、哪一周和哪一月前制定。 例如，您可能希望决策在十二月第三周的周五之前制定。
 
 4. 如果超出时间限制，系统将制定决策。 在**操作**列表中选择系统应选择的选项。
-

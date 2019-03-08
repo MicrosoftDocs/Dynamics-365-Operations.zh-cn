@@ -1,13 +1,13 @@
---- 
-title: "ER 从 Lifecycle Services 导入配置"
-description: "以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Lifecycle Services (LCS) 导入新电子申报 (ER) 配置版本。"
+---
+title: ER 从 Lifecycle Services 导入配置
+description: 以下步骤说明系统管理员或电子报表开发人员角色的用户可如何从 Microsoft Lifecycle Services (LCS) 导入新电子申报 (ER) 配置版本。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable,  ERSolutionRepositoryTable, ERSolutionImport
 audience: Application User
 ms.reviewer: kfend
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 036d7e7e3f79e0945d6fef866a30edd41e688c07
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337248"
 ---
-
 # <a name="er-import-a-configuration-from-lifecycle-services"></a>ER 从 Lifecycle Services 导入配置
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -70,5 +69,4 @@ ms.lasthandoff: 09/14/2018
 11. 在列表中，找到并选择所需记录。
     * 选择状态为“已共享”的此配置的版本。  
     * 请注意，所选数据模型配置的共享版本 1 现在也可用。  
-
 

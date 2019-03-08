@@ -1,13 +1,13 @@
 ---
-title: "发票审核移动工作区"
-description: "此主题提供有关发票审核移动工作区的信息。 此工作区提供通过供应商发票抬头工作流程分配给您的发票的列表。"
+title: 发票审核移动工作区
+description: 此主题提供有关发票审核移动工作区的信息。 此工作区提供通过供应商发票抬头工作流程分配给您的发票的列表。
 author: abruer
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: ff726670e0fd7566a74e6def73555a7c53b86f97
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6c95c2779d996f489679c8dda4cda462ba0a05ac
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326990"
 ---
-
 # <a name="invoice-approvals-mobile-workspace"></a>发票审核移动工作区
 
 [!include [banner](../includes/banner.md)]
 
 此主题提供有关**发票审核**移动工作区的信息。 此工作区提供通过供应商发票抬头工作流程分配给您的发票的列表。 
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。
+将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
 
 ## <a name="overview"></a>概览
 
@@ -88,4 +87,3 @@ ms.lasthandoff: 03/26/2018
 7.  选择**附件**以查看附加到发票的所有附注或文件。
 8.  在**发票详细信息**页，选择相应的工作流操作完成您的审核流程。
 9.  选择**完成**。
-

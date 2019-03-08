@@ -1,13 +1,13 @@
 ---
-title: "会计源资源管理器"
-description: "本文提供有关会计源资源管理器的信息，您可用此信息来进行总帐会计条目后源信息的详细分析。"
+title: 会计源资源管理器
+description: 本文提供有关会计源资源管理器的信息，您可用此信息来进行总帐会计条目后源信息的详细分析。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AccountingSourceExplorer
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: de5de039c0e3332943bae4846768fc628810906e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: d21f214ef8a29c19f0af1d4a2bdfc3264987f0b8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330187"
 ---
-
 # <a name="accounting-source-explorer"></a>会计源资源管理器
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 12/14/2017
 -   每个供应商、产品、部门的折扣
 
 对于这些凭证，您还可以导航到会计源资源管理器的实际原始凭证。
-
 
 
 

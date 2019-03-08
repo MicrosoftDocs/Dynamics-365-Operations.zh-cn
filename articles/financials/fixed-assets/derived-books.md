@@ -1,13 +1,13 @@
 ---
-title: "派生帐簿"
-description: "本文提供衍生帐簿功能的概览。"
+title: 派生帐簿
+description: 本文提供衍生帐簿功能的概览。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 153b6437205d5a849fa6a90c0d3b9f3d51dd6768
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e43dcc15212ae90a33d59fa32692aabcba7a19cb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313903"
 ---
-
 # <a name="derived-books"></a>派生帐簿
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ ms.lasthandoff: 11/03/2017
 > 对于设置为按并非主要帐簿间隔的其他间隔过帐交易记录的帐簿，必须将它们作为单独的帐簿附加到固定资产，而不作为衍生帐簿附加。  
 
 有关详细信息，请参阅[使用衍生帐簿过帐](post-derived-value-models.md)。
-
 
 
 

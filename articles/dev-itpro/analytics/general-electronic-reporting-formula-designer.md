@@ -1,13 +1,13 @@
 ---
-title: "电子申报中 (ER) 的配方设计器"
-description: "本主题说明如何在电子申报 (ER) 中使用配方设计器。"
+title: 电子申报中 (ER) 的配方设计器
+description: 本主题说明如何在电子申报 (ER) 中使用配方设计器。
 author: NickSelin
 manager: AnnBe
 ms.date: 10/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERDataModelDesigner, ERExpressionDesignerFormula, ERMappedFormatDesigner, ERModelMappingDesigner
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: f0ded563ecf0b6d0ce67f046f631d8c4dcfc7802
 ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331268"
 ---
-
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
 [!include [banner](../includes/banner.md)]
@@ -625,8 +624,8 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 </ul></li>
 <li>Finance and Operations 标签 SYS18389，具有以下文本：
 <ul>
-<li><strong>对于 EN-US 语言：</strong>&quot;Customer %1 is stopped for %2&quot;。</li>
-<li><strong>对于 DE 语言：</strong>&quot;Debitor '%1' wird für %2 gesperrt&quot;。</li>
+<li><strong>对于 EN-US 语言：</strong>&quot;Customer %1 is stopped for %2.&quot;</li>
+<li><strong>对于 DE 语言：</strong>&quot;Debitor '%1' wird für %2 gesperrt.&quot;</li>
 </ul></li>
 </ul>
 <p>这是一个可设计的公式：</p>
@@ -743,4 +742,3 @@ ER 允许您扩展 ER 表达式中使用的函数列表的功能。 需要执行
 
 - [电子申报概览](general-electronic-reporting.md)
 - [扩展电子申报 (ER) 功能的列表](general-electronic-reporting-formulas-list-extension.md)
-

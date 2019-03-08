@@ -1,13 +1,13 @@
 ---
-title: "创造一个有吸引力的入职体验"
-description: "入职工作做得好，可以帮助新员工在新组织中获得一种归属感。"
+title: 创造一个有吸引力的入职体验
+description: 入职工作做得好，可以帮助新员工在新组织中获得一种归属感。
 author: tbisaacs
-manager: 
+manager: ''
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.reviewer: rschloma
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: tbisaacs
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: 0dbc3247e1a5a8134184c8fe98fa8692fbf27c94
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 54caf2648766053ec5a662f48bd50a1ec9b8911a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303387"
 ---
-
 # <a name="create-an-engaging-onboarding-experience"></a>创造一个有吸引力的入职体验
 
 [!include [banner](includes/banner.md)]
 
-有效完成入职工作将帮助新员工提高效率，同时获得一种融入新角色的归属感。 与其他途径相比，入职可以帮助新员工更快更准确地了解他们的新角色，让他们抢先建立帮助他们获得成功的关系。 相反，无效的入职体验可能让员工怀疑他们加入贵公司的决定是否正确。 高德纳在 2014 年开展的一项研究中发现，在 1,005 名入职不到六个月便辞职的回应者中，有近三分之一的人是因为领导给他们的指导方针不明确、他们的培训没有效果或因为他们在新环境中没有建立有效的关系。
+有效完成入职工作将帮助新员工提高效率，同时获得一种融入新角色的归属感。 与其他途径相比，入职可以帮助新员工更快更准确地了解他们的新角色，让他们抢先建立帮助他们获得成功的关系。 相反，无效的入职体验可能让员工怀疑他们加入贵公司的决定是否正确。 Gartner 在 2014 年开展的一项研究中发现，在 1,005 名入职不到六个月便辞职的回应者中，有近三分之一的人是因为领导给他们的指导方针不明确、他们的培训没有效果或因为他们在新环境中没有建立有效的关系。
 
 ## <a name="have-an-onboarding-program-in-place"></a>制定入职计划
 了解如何改进和在哪些地方改进入职流程非常重要。 下面的问题或许可以帮助您系统地分析和改进您的入职流程。
@@ -90,5 +89,4 @@ ms.lasthandoff: 03/07/2018
 - 新员工的满意度是否在增加？ 
 
 衡量这些详细信息并在每一次招聘时做一些小小的改进。
-
 

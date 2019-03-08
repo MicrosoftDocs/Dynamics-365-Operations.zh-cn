@@ -1,13 +1,13 @@
---- 
-title: "检查货物质量"
-description: "此过程显示如何处理质检订单。"
+---
+title: 检查货物质量
+description: 此过程显示如何处理质检订单。
 author: perlynne
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventQualityOrderTable, InventQualityOrderLineResults, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f9e9d750f116db62519ac7148f19bf62050430e9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: aeed7eab750c606ea0009fa7c51baf96e2f9de51
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315421"
 ---
 # <a name="inspect-the-quality-of-goods"></a>检查货物质量
 
@@ -56,5 +56,4 @@ ms.lasthandoff: 09/29/2017
 4. 单击“选择”。
 5. 单击“确定”。
 6. 关闭该页面。
-
 

@@ -1,13 +1,13 @@
 ---
-title: "预算计划的 Excel 模板"
-description: "此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。"
+title: Excel 的预算计划模板
+description: 此主题描述如何创建可用于预算计划的 Microsoft Excel 模板。
 author: ryansandness
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanSetLayout
 audience: Application User
 ms.reviewer: shylaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 079aa6bb4be020fc050b81c400050ed23d48f6ca
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 156688b705337331e083ebc19fded57b028acb67
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337041"
 ---
-
-# <a name="budget-planning-templates-for-excel"></a>预算计划的 Excel 模板
+# <a name="budget-planning-templates-for-excel"></a>Excel 的预算计划模板
 
 [!include [banner](../includes/banner.md)]
 
@@ -39,7 +38,7 @@ ms.lasthandoff: 03/26/2018
 可使用一种或多种布局查看和编辑预算计划文档。 每种布局可以有一个关联预算计划文档模板，用于使用 Excel 工作表查看和编辑预算计划数据。 在此主题中，将使用现有布局配置生成预算计划文档模板。 
 
 1. 打开**预算计划列表**（**预算编制** &gt; **预算计划**）。 
-2. 单击 **“新建”** 创建新的预算计划文档。 
+2. 单击**新建**创建新的预算计划文档。 
 
    [![预算计划列表](./media/bpt11-1024x552.png)](./media/bpt11.png) 
 
@@ -136,7 +135,6 @@ ms.lasthandoff: 03/26/2018
 还可以为预算数据的更多分组和可视化创建和使用透视表和图表。 在**数据**选项卡上的**连接**组中，单击**全部刷新**，然后单击**连接属性**。 单击**用法**选项卡。在**刷新**下，选中**打开文件时刷新数据**复选框。 
 
 [![bpt17](./media/bpt17-1024x614.png)](./media/bpt17.png)
-
 
 
 

@@ -1,32 +1,31 @@
 ---
-title: "具有 LinkedIn 招聘人员的来源添加"
-description: "此主题提供有关如何使用机器学习获得工作和工作应聘者推荐的信息。"
+title: 具有 LinkedIn 招聘人员的来源添加
+description: 此主题提供有关如何使用机器学习获得工作和工作应聘者推荐的信息。
 author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303369"
 ---
-
 # <a name="sourcing-with-linkedin-recruiter"></a>具有 LinkedIn 招聘人员的来源添加
 [!include[banner](../includes/banner.md)]
 
@@ -142,4 +141,3 @@ LinkedIn 注释历史记录可以通过 LinkedIn Recruiter 的合同级别访问
 InMail 存根模板可以通过 LinkedIn Recruiter 的合同级别访问获取。 如果应聘者同意与您组织中的任何用户共享其 LinkedIn 个人资料，您可以在 Attract 中跟踪该应聘者，并且新应聘者记录将为每个应聘者创建。 如果应聘者已经存在于系统中并具有电子邮件地址或已选择与招聘人员共享其地址，您可以查看应聘者的电子邮件地址。
 
 若要查看应聘者列表，请转到**人才池**查看系统创建的 LinkedIn 人才池。 此人才池包含从 LinkedIn 收到的应聘者及其存根模板的列表，显示应聘者的名字和姓氏。 如果应聘者选择共享其电子邮件地址，该候选人的电子邮件 ID 将显示。
-

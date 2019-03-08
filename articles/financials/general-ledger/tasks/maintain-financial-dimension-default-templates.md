@@ -1,13 +1,13 @@
---- 
-title: "维护财务维度默认模板"
-description: "此过程显示如何设置财务维度默认模板。"
+---
+title: 维护财务维度默认模板
+description: 此过程显示如何设置财务维度默认模板。
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialDimensionDefaultTemplates, DimensionLookup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 374c162fce2bc9ff5006737ac31fcb3d436fd540
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6a4cb15bdfc89081e0dc9d1161670eddc412281d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349231"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>维护财务维度默认模板
 
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 10. 再输入一个百分比，这样将让百分比总数等于 100%。
 11. 输入与所输入百分比对应的财务维度值。
 12. 单击“保存”。
-
 

@@ -1,13 +1,13 @@
 ---
-title: "条码扫描仪的看板转移面板支持"
-description: "看板转移面板支持从小组件条码扫描器到选择、开始、完成和清空看板作业的扫描器输入。"
+title: 条码扫描仪的看板转移面板支持
+description: 看板转移面板支持从小组件条码扫描器到选择、开始、完成和清空看板作业的扫描器输入。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e63a33af63144b78d0c375022b9802e11c255598
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a8393efd51032271d3023f1e0569425a16222cc3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319446"
 ---
-
 # <a name="kanban-transfer-board-support-for-barcode-scanners"></a>条码扫描仪的看板转移面板支持
 
 [!include [banner](../includes/banner.md)]
@@ -45,11 +44,11 @@ ms.lasthandoff: 11/03/2017
 | 空                 | 将由看板卡引用的物料处理单元登记为空。              |
 | 选择                | 登记看板卡号并在看板列表中自动选择引用的作业。 |
 
- 
-<a name="registration-mode-select"></a>登记模式选择
+ 
+登记模式选择
 ------------------------
 
-当您使用条码阅读器选择作业时，看板面板的显示方式更改。 在此模式中，以下条件适用：
+当您使用条码阅读器选择作业时，看板面板的显示方式更改。在此模式中，以下条件适用：
 
 -   仅显示扫描的看板作业。
 -   所选作业的详细信息显示在**详细信息**快速选项卡中。
@@ -188,7 +187,6 @@ ms.lasthandoff: 11/03/2017
 </tr>
 </tbody>
 </table>
-
 
 
 

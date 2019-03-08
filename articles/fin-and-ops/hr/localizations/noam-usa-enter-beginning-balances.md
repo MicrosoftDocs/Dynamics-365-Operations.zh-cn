@@ -1,13 +1,13 @@
 ---
-title: "输入工资期初余额"
-description: "此主题介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。 此信息对于要从其他系统迁移或转移用于新的工资单实现方式的数据的合作伙伴十分重要。"
+title: 输入工资期初余额
+description: 此主题介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。 此信息对于要从其他系统迁移或转移用于新的工资单实现方式的数据的合作伙伴十分重要。
 author: kherr75
 manager: AnnBe
 ms.date: 07/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1e7bdfca55e1bdaba0b5ebdf55b46744e584ab2c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 93333757995c874c2cf03514acff28a54ae7f787
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312983"
 ---
-
 # <a name="enter-payroll-beginning-balances"></a>输入工资期初余额
 
 [!include [banner](../../includes/banner.md)]
@@ -168,4 +167,3 @@ ms.lasthandoff: 04/13/2018
 2. 显示以下消息时单击**是**：“在您冲销此工资单时，将创建冲销中工资单用于抵消此工资单。 任何一个工资单均无法编辑。 是否希望冲销此工资单？” 。 
 
 在你冲销工资单后，可以从你以前创建的收益表为工作人员生成新的工资单。 在生成新的工资单前，确保更正收益表上的任何不正确的行，然后使用正确的金额生成新的工资单。 
-

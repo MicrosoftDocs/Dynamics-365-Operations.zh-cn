@@ -1,13 +1,13 @@
---- 
-title: "设计组织部门之间的关系"
-description: "此过程可以通过设计组织单位关系的方式完成。"
+---
+title: 设计组织部门之间的关系
+description: 此过程可以通过设计组织单位关系的方式完成。
 author: mugunthanm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMHierarchyPurposeAssociation, OMHierarchySelection, HierarchyDesigner, OMNodeSelection,  HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7e0f775d2d0994708da1435523e0d1f497af127c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: b2ecf9fb75f67b4ff505598e7a38f4cc3ee328d7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314432"
 ---
 # <a name="design-the-relationships-between-organizational-units"></a>设计组织部门之间的关系
 
@@ -62,5 +62,4 @@ ms.lasthandoff: 02/07/2018
 28. 在“变量描述”字段中，输入一个值。
 29. 单击“发布”。
 30. 单击“关闭”。
-
 

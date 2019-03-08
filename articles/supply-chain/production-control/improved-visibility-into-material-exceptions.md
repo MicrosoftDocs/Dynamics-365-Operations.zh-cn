@@ -1,13 +1,13 @@
 ---
-title: "物料异常的可见性"
-description: "此主题介绍如何提高用于生产订单和批次订单的原材料异常的可见性。"
+title: 物料异常的可见性
+description: 此主题介绍如何提高用于生产订单和批次订单的原材料异常的可见性。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -16,13 +16,13 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: eca3141fc48aea24411524e5fc84686d9e4bfaa7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344746"
 ---
 # <a name="visibility-into-material-exceptions"></a>物料异常的可见性
 
@@ -67,4 +67,3 @@ ms.lasthandoff: 03/07/2018
 **需要关注的开放仓库工作**磁贴显示已发放到仓库、具有未处理工作以及原材料日期早于工作区日期或与工作区日期相同的物料清单和配方行的数量。 应用到工作区筛选器的操作资源也必须使用该行。
 
 选择磁贴后，**所有工作**页打开。 此页按包含来自满足该磁贴条件的已发放物料清单和配方行的工作行的开放工作标题的数量进行筛选。 在**所有工作**页上，您可以手动处理工作。
-

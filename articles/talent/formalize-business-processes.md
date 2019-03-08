@@ -1,13 +1,13 @@
 ---
-title: "确定业务流程"
-description: "本主题介绍如何使用业务流程功能创建必须在组织内完成的流程的业务流程模板。"
+title: 确定业务流程
+description: 本主题介绍如何使用业务流程功能创建必须在组织内完成的流程的业务流程模板。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ShielaS
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: ee4035f3156a91faecdecba45289dbb1ca6e947a
 ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303479"
 ---
 # <a name="formalize-business-processes"></a>确定业务流程
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 08/08/2018
 流程负责人不能新建业务流程或业务流程模板，也不能删除有效业务流程或业务流程模板。
 
 ## <a name="tasks"></a>任务
-业务流程通常包含多个任务。 可以在 Microsoft Dynamics 365 for Talent 内完成某些任务，如审核内部课程产品。 在这种情况下，已在**任务链接**字段中选择了一个选项。 其他任务可能涉及查看或填写网站上的页面。 在此情况下，**任务链接**字段中已选中 **URL**，然后就可以输入网址。 您可以输入外部和内部站点的 URL。 您还可以为手动完成的活动创建任务，例如审核所有结构的辅助功能。 在此情况下，不需要任务链接。 这种灵活性使您可以在一个综合流程中跟踪多种任务。
+业务流程通常包含多个任务。 可以在 Microsoft Dynamics 365 for Talent[?] 内完成某些任务，如审核内部课程产品。 在这种情况下，已在**任务链接**字段中选择了一个选项。 其他任务可能涉及查看或填写网站上的页面。 在此情况下，**任务链接**字段中已选中 **URL**，然后就可以输入网址。 您可以输入外部和内部站点的 URL。 您还可以为手动完成的活动创建任务，例如审核所有结构的辅助功能。 在此情况下，不需要任务链接。 这种灵活性使您可以在一个综合流程中跟踪多种任务。
 
 任务可以分配给特定工作人员或职位。 例如，薪酬福利经理始终是执行保险费审核的人员。 因此，在创建此任务时，请在**分配类型**中选择**职位**，然后在**职位**列表中选择**薪酬福利经理**。 在业务流程开始时，该任务将被分配给处于**薪酬福利经理**职位的工作人员。 如要将任务分配给特定工作人员，请在**分配类型**字段中选择**工作人员**，然后选择适当的人员。
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 08/08/2018
 - 选择**开始流程**将开始所选业务流程、分配任务并计算到期日期。
 
 若要查看活动的流程和关联的任务，请打开**业务流程**工作区。
-
 

@@ -1,13 +1,13 @@
---- 
-title: "ER 将创建的格式的组件映射到数据模型元素（2016 年 11 月）"
-description: "以下过程显示属于系统管理员或电子报表开发人员的用户如何将数据模型元素映射到创建的电子申报 (ER) 配置的组件，该配置用于定义付款业务域的电子单据格式。"
+---
+title: ER 将创建的格式的组件映射到数据模型元素（2016 年 11 月）
+description: 以下过程显示属于系统管理员或电子报表开发人员的用户如何将数据模型元素映射到创建的电子申报 (ER) 配置的组件，该配置用于定义付款业务域的电子单据格式。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: a24ef0e091379f14a163a6385be988143a1ec608
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323540"
 ---
 # <a name="er-map-components-of-the-created-format-to-data-model-elements-november-2016"></a>ER 将创建的格式的组件映射到数据模型元素（2016 年 11 月）
 
@@ -113,5 +113,4 @@ ms.lasthandoff: 09/14/2018
 ## <a name="restrict-access-to-created-format-from-companies"></a>限制公司对创建的格式的访问
 1. 展开“ISO 国家/地区代码”部分。
     * 每种格式访问可通过识别格式适用的特定国家/地区来设定限制。 如果特定格式的国家/地区列表为空，此格式可供所有公司使用。 在该国家/地区列表中插入某些 ISO 国家/地区代码时，此格式仅可以在其主要地址位于该国家/地区中的公司中使用。  
-
 

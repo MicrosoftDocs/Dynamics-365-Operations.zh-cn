@@ -1,13 +1,13 @@
---- 
-title: "创建活动关系 - 后续活动"
-description: "精益生产流的活动流通过活动关系记录。"
+---
+title: 创建活动关系 - 后续活动
+description: 精益生产流的活动流通过活动关系记录。
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity, PlanActivityRelationNew, PlanActivityLookup, DefaultDashboard
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e5e5844939e1eb40e31530c434c096c5b3be7abe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 75a76252cc3cb6f3e7516309a7d9a6f2d1934ccd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325449"
 ---
 # <a name="create-activity-relation-successor"></a>创建活动关系：后续活动
 
@@ -65,5 +65,4 @@ ms.lasthandoff: 09/29/2017
 11. 单击“网格面板”选项卡。
 12. 关闭该页面。
 13. 刷新该页面。
-
 

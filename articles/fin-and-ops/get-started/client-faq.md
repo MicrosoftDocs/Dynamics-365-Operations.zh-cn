@@ -1,13 +1,13 @@
 ---
-title: "Finance and Operations 客户端常见问题"
-description: "本文提供对有关 Microsoft Dynamics 365 for Finance and Operations 客户端的常见问题的解答。"
+title: Finance and Operations 客户端常见问题
+description: 本文提供对有关 Microsoft Dynamics 365 for Finance and Operations 客户端的常见问题的解答。
 author: jasongre
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 74f85f7a1c390d1f21d0423a794ff16c7250d9fa
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316709"
 ---
-
 # <a name="finance-and-operations-client-faq"></a>Finance and Operations 客户端常见问题
 
 [!include [banner](../includes/banner.md)]
@@ -56,4 +55,3 @@ ms.lasthandoff: 12/18/2018
 
 - 如果某个控件拥有**查看详细信息**功能，并且该控件具有值，该值将显示为超链接。 您可以单击超链接以打开包含其他详细信息的页面。
 - **查看详细信息**也是 Finance and Operations 快捷菜单上的选项。 有关在右键单击后何时显示 Finance and Operations 快捷菜单的详细信息，请参阅上一节。
-

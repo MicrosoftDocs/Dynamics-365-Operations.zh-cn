@@ -1,13 +1,13 @@
 ---
-title: "供应商返利"
-description: "本主题对您在使用供应商返利时可能要执行的最常见任务进行了概述。 供应商返利有助于公司自动执行管理、跟踪和索赔其所获返利所需的任务，从而更好地管理其供应商返利计划。"
+title: 供应商返利
+description: 本主题对您在使用供应商返利时可能要执行的最常见任务进行了概述。 供应商返利有助于公司自动执行管理、跟踪和索赔其所获返利所需的任务，从而更好地管理其供应商返利计划。
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TAMVendRebateAgreement
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 2012
+ms.openlocfilehash: 90bee2925f135b3d626ba898a0e9995b5b8437ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8ae5ee60238b951779c7790870e6c6adfba55d7d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341066"
 ---
-
 # <a name="vendor-rebates"></a>供应商返利
 [!include [banner](../includes/banner.md)]
 
@@ -159,4 +158,3 @@ ms.lasthandoff: 11/03/2017
 - 生成准确的返利索赔
 - 在总帐中应计预期应收账款和临时收益
 - 使用到期的折让更新供应商余额和利润表
-

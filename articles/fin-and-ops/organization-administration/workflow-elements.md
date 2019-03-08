@@ -1,13 +1,13 @@
 ---
-title: "工作流元素"
-description: "本主题介绍构成工作流的不同元素。"
+title: 工作流元素
+description: 本主题介绍构成工作流的不同元素。
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 48fa9613b37fceeda1ea73c5fd5d4f7a7edc74cf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8bbdbf882f6f73d03be0a036cb975109396e4a0d
-ms.openlocfilehash: 15cac09a97305c1b467cbb97da2d4b8a864ccbc7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/14/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333798"
 ---
-
 # <a name="workflow-elements"></a>工作流元素
 
 [!include [banner](../includes/banner.md)]
@@ -91,4 +90,3 @@ ms.lasthandoff: 11/14/2017
 ### <a name="subworkflow"></a>子工作流
 
 *子工作流*是在其他工作流的上下文中运行的工作流。
-

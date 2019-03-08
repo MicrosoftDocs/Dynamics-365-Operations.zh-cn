@@ -1,13 +1,13 @@
 ---
-title: "配置 Talent"
-description: "此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新环境。"
+title: 配置 Talent
+description: 此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新环境。
 author: rschloma
 manager: AnnBe
 ms.date: 09/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 6fb41a8c1ff4ce95bab5b169256955f244e66071
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303468"
 ---
 # <a name="provision-talent"></a>配置 Talent
 
@@ -87,5 +87,4 @@ ms.lasthandoff: 11/01/2018
  
 ## <a name="grant-access-to-the-environment"></a>授予对环境的访问
 默认情况下，创建环境的全局管理员可以访问环境。 但是，必须为更多应用程序用户明确授予访问权限。 要授予访问权限，请在 Core HR 环境中[添加用户](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/create-new-users)并[为其分配相应角色](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/sysadmin/tasks/assign-users-security-roles)。 部署了 Talent 的全局管理员还必须启动 Attract 和 Onboard 应用程序以完成初始化和允许其他租户用户访问。  在此之前，其他用户不能访问 Attract 和 Onboard 应用程序，并且将发生访问冲突错误。
-
 

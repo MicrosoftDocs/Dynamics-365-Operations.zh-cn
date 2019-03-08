@@ -1,13 +1,13 @@
 ---
-title: "现有库存量移动工作区"
-description: "此主题提供有关现有库存量移动工作区的信息。 此工作区可帮助您随时随地从移动角度洞察预留库存和可用库存。"
+title: 现有库存量移动工作区
+description: 此主题提供有关现有库存量移动工作区的信息。 此工作区可帮助您随时随地从移动角度洞察预留库存和可用库存。
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e2a99476da7ce3feab1d2c37e8510f0042cf4b63
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 735a25d625774892ff71d4799932f15c258dfbfa
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335592"
 ---
-
 # <a name="inventory-on-hand-mobile-workspace"></a>现有库存量移动工作区
 
 [!include [banner](../includes/banner.md)]
 
 此主题提供有关**现有库存量**移动工作区的信息。 此工作区可帮助您随时随地洞察预留库存和可用库存。
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。
+将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
 
 ## <a name="overview"></a>概览
 公司的库存通常每天有多次装运和多次收货。 这些活动不断改变现有库存状态。 可通过**现有库存量**移动工作区查看跨公司现有库存状态，以便您在所选移动设备上洞察最新的库存数据。 无论在处理仓库、采购销售、制造或管理，还是充当其他角色，都可以随时随地访问现有库存数据。 
@@ -56,11 +55,11 @@ ms.lasthandoff: 03/26/2018
     -   按物理预留（此视图显示预留金额。）
     -   按物理可用量（此视图显示无预留的可用金额。）
 
-## <a name="prerequisites"></a>必备项
+## <a name="prerequisites"></a>先决条件
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
-如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**现有库存量**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
+如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**现有库存**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-operations-version-1611-with-platform-update-3-or-later"></a>使用带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611 时的先决条件
 如果已经为您的组织部署带平台更新 3 或更高版本的 Microsoft Dynamics 365 for Operations 版本 1611，系统管理员必须完成以下先决条件。 
@@ -131,4 +130,3 @@ ms.lasthandoff: 03/26/2018
     -   按物理库存（此视图显示总金额。）
     -   按物理预留（此视图显示预留金额。）
     -   按物理可用量（此视图显示无预留的可用金额。）
-

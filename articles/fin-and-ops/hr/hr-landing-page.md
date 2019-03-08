@@ -1,13 +1,13 @@
 ---
-title: "人力资源"
-description: "“人力资源”简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 它还提供了一个框架，供人力资源员工管理监督领域。 这些领域包括员工招聘和挽留、福利管理、培训、绩效评审和变更管理。"
+title: 人力资源
+description: “人力资源”简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 它还提供了一个框架，供人力资源员工管理监督领域。 这些领域包括员工招聘和挽留、福利管理、培训、绩效评审和变更管理。
 author: rschloma
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: faf9b9a70d959719f381ec5171e4fb96af208478
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341756"
 ---
-
 # <a name="human-resources"></a>人力资源
 
 [!include [banner](../includes/banner.md)]
@@ -95,4 +94,3 @@ Microsoft Dynamics AX 可帮助您维护符合适用法律的安全工作环境�
 - [设计调查表](../../talent/design-questionnaires.md)
 - [分发和完成调查表](../../talent/distribute-questionnaires.md)
 - [查看和评估调查表的结果](../../talent/evaluate-questionnaire-results.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "创建和使用自定义字段"
-description: "本主题介绍 Microsoft Dynamics 365 for Finance and Operations 如何允许用户创建自定义字段以根据业务调整应用程序。"
+title: 创建并使用自定义字段
+description: 本主题介绍 Microsoft Dynamics 365 for Finance and Operations 如何允许用户创建自定义字段以根据业务调整应用程序。
 author: jasongre
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysCustomFieldManageFields
 audience: Application User
 ms.reviewer: sericks
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2018-1-31
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 18402579789c17de7b46dd7a013b3b6327ea5d4f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348012"
 ---
-
-# <a name="create-and-work-with-custom-fields"></a>创建和使用自定义字段
+# <a name="create-and-work-with-custom-fields"></a>创建并使用自定义字段
 
 [!include [banner](../includes/banner.md)]
 
@@ -32,7 +31,7 @@ ms.lasthandoff: 12/18/2018
 
 添加自定义字段功能将在平台更新 13 及以后提供。
 
-以下视频介绍向页面添加自定义字段有多轻松：[在 Dynamics 365 for Finance and Operations 中添加自定义字段](https://www.youtube.com/watch?v=gWSGZI9Vtnc)。
+本视频体现了向页面添加自定义字段有多简单：[在 Dynamics 365 for Finance and Operations 中添加自定义字段](https://www.youtube.com/watch?v=gWSGZI9Vtnc)。
 
 ## <a name="creating-custom-fields"></a>创建自定义字段
 
@@ -160,4 +159,3 @@ ms.lasthandoff: 12/18/2018
 - 表不能扩展其他表。
 - 表不能标记为系统表。
 - 表不能为临时表。
-

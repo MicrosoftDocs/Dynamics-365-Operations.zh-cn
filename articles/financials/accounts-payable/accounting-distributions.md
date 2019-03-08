@@ -1,13 +1,13 @@
 ---
-title: "会计分配"
-description: "本文提供有关会计分配的信息并介绍可用于处理它们的选项。 会计分配用于将原始凭证的货币金额分配到特定会计科目。"
+title: 会计分配
+description: 本文提供有关会计分配的信息并介绍可用于处理它们的选项。 会计分配用于将原始凭证的货币金额分配到特定会计科目。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AccountingDistribution
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ba6a581efe8353ccb9e02606db58d18550d71af
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 52cb689723584c862d85fa51a643b42096372a29
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320458"
 ---
-
 # <a name="accounting-distributions"></a>会计分配
 
 [!include [banner](../includes/banner.md)]
@@ -57,6 +56,5 @@ ms.lasthandoff: 11/03/2017
 
 
 有关详细信息，请参阅[会计分配和普通发票的子分类日记帐条目](accounting-distributions-subledger-journal-entries-vendor-invoices.md)。
-
 
 

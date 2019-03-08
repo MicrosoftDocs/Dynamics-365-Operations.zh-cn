@@ -1,13 +1,13 @@
---- 
-title: "在工作流中委托工作项"
-description: "如果您计划外出一段时间或无法对工作项进行操作，则您可以将您的工作项委托或重新分配给其他用户。"
+---
+title: 在工作流中委托工作项
+description: 如果您计划外出一段时间或无法对工作项进行操作，则您可以将您的工作项委托或重新分配给其他用户。
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserSetup, WorkflowDelegationUserListLookup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4765fec0cdce0e2f8859c979ff97d20aa6b20bfa
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346241"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>在工作流中委托工作项
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
 8. 选中“启用”复选框以启用该委托规则。
     * 如果已将“模块”选择为“范围”，则必须在“名称”字段中选择该模块。    如果已将“工作流”选择为“范围”，则必须在“名称”字段中选择要委托的具体工作流。  
 9. 在“注释”字段中，输入说明您委托工作项的原因的注释。
-
 

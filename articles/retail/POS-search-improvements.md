@@ -1,31 +1,30 @@
 ---
-title: "销售点 (POS) 中的产品搜索和客户搜索"
-description: "此主题概述 Microsoft Dynamics 365 for Retail 中的产品和客户搜索的增强功能。"
+title: 销售点 (POS) 中的产品搜索和客户搜索
+description: 此主题概述 Microsoft Dynamics 365 for Retail 中的产品和客户搜索的增强功能。
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
+ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 50b0cec27e343b3b6aba464a04c9883160ab263a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313581"
 ---
-
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 
 [!include [banner](includes/banner.md)]
@@ -102,4 +101,3 @@ ms.lasthandoff: 08/08/2018
 
 > [!NOTE]
 > 添加到枚举的自定义属性不影响标准客户搜索算法。 换言之，客户搜索算法不在自定义属性中进行搜索。 仅当自定义属性添加为快捷方式时或替代了默认搜索算法时，用户才能将该自定义属性用于搜索。
-

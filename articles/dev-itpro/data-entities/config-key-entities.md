@@ -1,13 +1,13 @@
 ---
-title: "配置键和数据实体"
-description: "本主题介绍 Microsoft Dynamics 365 for Finance and Operations 中配置键与数据实体之间的关系。"
+title: 配置键和数据实体
+description: 此主题介绍 Microsoft Dynamics 365 for Finance and Operations 中配置键和数据实体之间的关系。
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 8d07a0572e56e97d42c0e1b841905f828edc6f51
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336466"
 ---
-
 # <a name="configuration-keys-and-data-entities"></a>配置键和数据实体
 
 [!include [banner](../includes/banner.md)]
@@ -96,4 +95,3 @@ ms.lasthandoff: 08/13/2018
 只要在实体、表或字段级别更新配置键，都必须刷新数据管理框架中的实体列表。 此流程确保该框架拾取最新的配置键设置。 刷新实体列表前，实体列表页面中将显示以下警告。 刷新实体列表之后，更新后的配置键更改将立即生效。 建议在配置键更改生效后，验证现有数据对象和作业，以确保其功能正常。
 
 ![目标字段](./media/Target_fields_3.png)
-

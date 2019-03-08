@@ -1,13 +1,13 @@
 ---
-title: "生成可打印的 FTI 表单"
-description: "本主题说明如何使用电子申报 (ER) 框架生成 Microsoft Office 文档格式的可打印普通发票 (FTI) 表单。"
+title: 生成可打印的 FTI 表单
+description: 本主题说明如何使用电子申报 (ER) 框架生成 Microsoft Office 文档格式的可打印普通发票 (FTI) 表单。
 author: NickSelin
 manager: AnnBe
 ms.date: 07/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1d98cbff30620256c9d13e7b4a90314db150e33e
 ms.openlocfilehash: d27a11a0d925b0f1164578f9c04e6abd4736b2b2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325518"
 ---
-
-# <a name="generate-printable-fti-forms"></a>生成可打印的 FTI 表单
+# <a name="generate-printable-fti-forms"></a>生成可打印的 FTI 窗体
 
 [!include[banner](../includes/banner.md)]
 
@@ -226,4 +225,3 @@ ER 框架当前支持生成的文档采用以下目标：
 
 ## <a name="additional-resources"></a>其他资源
 [电子申报概览](general-electronic-reporting.md)
-

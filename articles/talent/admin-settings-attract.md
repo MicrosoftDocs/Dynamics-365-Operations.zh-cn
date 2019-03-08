@@ -1,14 +1,14 @@
 ---
-title: "Attract 中的管理员设置"
-description: "本主题说明如何为 Attract 中的组织和用户启用功能。"
-author: 
+title: Attract 中的管理员设置
+description: 本主题说明如何为 Attract 中的组织和用户启用功能。
+author: ''
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: fb7b5e5b98ddb8e0e44fccbb0ddbb05199265414
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303409"
 ---
-
 # <a name="admin-settings-in-attract"></a>Attract 中的管理员设置
 [!include[banner](../includes/banner.md)]
 
@@ -69,4 +68,3 @@ Microsoft Dynamics 365 for Talent: Attract 中的管理员中心包含配置设�
 您还可以设置并强制执行聘约的到期日期。 如果您将**所有聘约均必须设置到期日期**选项设置为**是**，聘约将在您指定的小时数或天数后过期。
 
 有关聘约管理的详细信息，请参阅[设置聘约管理](./offer-setup.md)。
-

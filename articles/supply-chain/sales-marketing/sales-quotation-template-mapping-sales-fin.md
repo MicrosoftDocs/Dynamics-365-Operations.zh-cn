@@ -1,37 +1,36 @@
 ---
-title: "将 Sales 的销售报价单标题和行直接同步到 Finance and Operations"
-description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的销售报价单标头和行直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。"
+title: 将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
+description: 本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的销售报价单标题和行直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: efe943f5c874ed041ce7984272ebc19f57cca6ef
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313788"
 ---
-
 # <a name="synchronize-sales-quotation-headers-and-lines-directly-from-sales-to-finance-and-operations"></a>将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
 
 [!include [banner](../includes/banner.md)]
 
-本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的销售报价单标头和行直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
+本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的销售报价单标题和行直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
 
 > [!NOTE]
 > 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)。
@@ -141,5 +140,4 @@ ms.lasthandoff: 11/01/2018
 ## <a name="related-topics"></a>相关主题
 
 [从目标客户到现金](prospect-to-cash.md)
-
 

@@ -1,13 +1,13 @@
 ---
-title: "客户的信用额度"
-description: "本文对 Microsoft Dynamics 365 for Finance and Operations 中的信用额度如何运作进行概述。"
+title: 客户的信用额度
+description: 本文提供信用额度如何在 Microsoft Dynamics 365 for Finance and Operations 中运作的概述。
 author: omulvad
 manager: AnnBe
 ms.date: 09/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8fd7022eb1ed2671fcfc2861eb8ec7504ebf9f98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e00828ea24434da6dfd7443153b007ea728375f3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312661"
 ---
-
 # <a name="credit-limits-for-customers"></a>客户的信用额度
 
 [!include [banner](../includes/banner.md)]
@@ -139,4 +138,3 @@ ms.lasthandoff: 11/03/2017
 1.  单击**销售和市场营销** \> **通用** \> **销售订单** \> **所有销售订单**。 双击销售订单。
 
 2.  在**销售订单**窗体的操作窗格中，在**管理**选项卡上单击**检查信用额度**。
-

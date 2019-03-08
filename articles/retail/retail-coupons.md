@@ -1,31 +1,30 @@
 ---
-title: "设置零售销售优惠券"
-description: "此主题提供零售优惠券概览并阐述如何进行设置。"
+title: 设置零售销售优惠券
+description: 此主题提供零售优惠券概览并阐述如何进行设置。
 author: scott-tucker
 manager: AnnBe
 ms.date: 05/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailCoupon, RetailParameters, RetailSharedParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
 ms.search.industry: retail
 ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336581"
 ---
-
 # <a name="set-up-coupons-for-retail-sales"></a>设置零售销售优惠券
 
 [!include [banner](includes/banner.md)]
@@ -38,7 +37,7 @@ ms.lasthandoff: 01/04/2019
 
 优惠券基本上是零售折扣顶部的附加验证。 优惠券提供必需的优惠券代码和条码，以及这些代码的日期范围。 优惠券还提供可选使用限制和客户要求的属性。 折扣提供优惠券对其有效的产品集。 折扣的价格组提供优惠券对其有效的客户、渠道或目录集。
 
-要创建优惠券，须分开创建折扣和优惠券。 然后通过选择 Microsoft Dynamics 365 for Retail 优惠券页面的折扣进行关联。
+要创建优惠券，须分开创建折扣和优惠券。 之后可以在 Microsoft Dynamics 365 for Retail 中通过选择优惠券页面上的折扣将它们关联。
 
 > [!NOTE]
 > 优惠券关联到折扣后，Microsoft Dynamics 365 for Retail 折扣页上的多个字段变为只读，因为其由优惠券的设置管理。 这些字段包括用于状态和标准日期范围的字段。
@@ -81,4 +80,3 @@ ms.lasthandoff: 01/04/2019
 - **HQ 被部分更新，但 Retail 服务器和 POS 不更新。** 在 HQ 更新中，优惠券和折扣页更新，零售价格引擎也更新。 如果两个组件中仅有一个更新，则 Retail 中的部分页面与价格计算数据不匹配。 因此，在折扣计算期间可能发生意外折扣计算或错误。
 - **HQ 更新，但 Retail 服务器和 POS 不更新 (N-1)。** 由于并非所有的零售商店可以同时更新，因此我们建议您在更新零售商店前更新 HQ。 在 N-1 方案中，与优惠券相关的新功能在尚未更新的商店中不可用。 例如，优惠券功能引入“排除”行。 如果您对折扣使用排除行，则其不会应用在运行较早版本的零售商店中。
 - **HQ 不更新，但 Retail 服务器和 POS 更新 (N+1)。** 由于在 Retail 服务器中更新的价格引擎在价格计算期间可以处理旧折扣，因此更新应该对此方案没有功能影响。
-

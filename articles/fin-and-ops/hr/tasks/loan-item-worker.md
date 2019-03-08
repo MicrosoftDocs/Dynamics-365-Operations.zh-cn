@@ -1,13 +1,13 @@
---- 
-title: "借出物品给工作人员"
-description: "此过程显示如何借出物品给工作人员和记录工作人员返还物品。"
+---
+title: 借出物品给工作人员
+description: 此过程显示如何借出物品给工作人员和记录工作人员返还物品。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPersonLoan, HcmPersonLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9041a24a7197c350a38339408197f643f2b9b6dd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332211"
 ---
 # <a name="loan-item-to-a-worker"></a>借出物品给工作人员
 
@@ -43,5 +43,4 @@ ms.lasthandoff: 09/14/2018
 1. 转到“人力资源”>“工作人员”>“借出物品”>“借出的设备”。
 2. 单击“编辑”。
 3. 在“实际归还日期”字段中输入日期。
-
 

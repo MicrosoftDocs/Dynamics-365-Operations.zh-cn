@@ -1,13 +1,13 @@
---- 
-title: "使用模板创建日记帐分录"
-description: "已过帐的日记帐凭证可以保存为凭证模板并应用到新日记帐凭证中。"
+---
+title: 使用模板创建日记帐分录
+description: 已过帐的日记帐凭证可以保存为凭证模板并应用到新日记帐凭证中。
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransDaily, LedgerJournalTransVoucherTemplate
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4a749740b62e39202d502a112f947679f85ca085
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316801"
 ---
 # <a name="create-a-journal-entry-using-template"></a>使用模板创建日记帐分录
 
@@ -63,5 +63,4 @@ ms.lasthandoff: 09/14/2018
 29. 在“金额”字段中，输入要应用于凭证的金额。
     * 仅当凭证模板是百分比类型时才会显示金额字段。  
 30. 单击“确定”。
-
 

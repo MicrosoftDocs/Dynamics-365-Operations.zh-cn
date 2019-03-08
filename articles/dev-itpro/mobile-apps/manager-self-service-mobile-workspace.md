@@ -1,13 +1,13 @@
 ---
-title: "我的团队移动工作区"
-description: "此主题提供关于我的团队移动工作区的信息，此工作区允许经理查看其直接下属和扩展职员。 用户还可以向其报告链中的人员发送表扬。"
+title: 我的团队移动工作区
+description: 此主题提供关于我的团队移动工作区的信息，此工作区允许经理查看其直接下属和扩展职员。 用户还可以向其报告链中的人员发送表扬。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: fccbedea611228cc57531c89406f72a6664153c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d049c55a40761d0663e3d558b47b4840e5db9bf1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346908"
 ---
-
 # <a name="my-team-mobile-workspace"></a>我的团队移动工作区
 
 [!include [banner](../includes/banner.md)]
 
 此主题提供有关**我的团队**移动工作区的信息。 此工作区允许经理查看其直接下属和扩展职员。 他们还可以向其报告链中的人员发送表扬。
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。
+将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
 
 ## <a name="overview"></a>概览 
 **我的团队**移动工作区让经理能够执行以下任务：
@@ -58,7 +57,7 @@ ms.lasthandoff: 04/13/2018
 </ul>
 </td>
 <td>系统管理员</td>
-<td>如果您的组织中没有部署 Finance and Operations，请查阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果您已经在您的组织中部署人才，系统管理员可以从<a href="https://www.microsoft.com/en-us/dynamics365/talent">人才网页</a>访问试用版本。
+<td>如果您的组织中没有部署 Finance and Operations，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果您已经在您的组织中部署人才，系统管理员可以从<a href="https://www.microsoft.com/en-us/dynamics365/talent">人才网页</a>访问试用版本。
 </td>
 </tr>
 <tr class="even">
@@ -99,4 +98,3 @@ ms.lasthandoff: 04/13/2018
 1.  选择**发送表扬**。 
 1. 输入您要发送的表扬的文本。 
 1. 选择**完成**。
-

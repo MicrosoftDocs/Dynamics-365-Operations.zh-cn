@@ -1,30 +1,29 @@
 ---
-title: "针对本地环境的硬件规模调整要求"
-description: "本主题列出了针对本地环境的硬件规模调整要求。"
+title: 针对本地环境的硬件规模调整要求
+description: 本主题列出了针对本地环境的硬件规模调整要求。
 author: kfend
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340721"
 ---
-
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Orchestrator 服务是用于管理你的部署和与 LCS 的相关通信的服�
 ## <a name="virtualization-and-oversubscription"></a>虚拟化和过度订阅
 
 关键任务服务（如 AOS）应在具有专用资源（核心、内存和磁盘）的虚拟机上托管。
-

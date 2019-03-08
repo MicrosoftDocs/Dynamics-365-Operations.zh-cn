@@ -1,13 +1,13 @@
 ---
-title: "配置工作流中的审核流程"
-description: "使用以下过程配置审核流程的属性。"
+title: 配置工作流中的审核流程
+description: 使用以下过程配置审核流程的属性。
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 08641eaac31813a8bee3231118f8e2bf802ea3e1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325633"
 ---
-
 # <a name="configure-approval-processes-in-a-workflow"></a>配置工作流中的审核流程
 
 [!include [banner](../includes/banner.md)]
@@ -124,7 +123,7 @@ ms.lasthandoff: 12/18/2018
     </tr>
     <tr>
     <td><strong>用户</strong></td>
-    <td>特定的 Microsoft Dynamics 365 for Finance and Operations 用户</td>
+    <td>特定 Microsoft Dynamics 365 for Finance and Operations 用户</td>
     <td>
     <ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
@@ -184,4 +183,3 @@ ms.lasthandoff: 12/18/2018
 1. 在工作流编辑器中，双击审核流程。 工作流编辑器显示审核流程的步骤。
 2. 要添加审核步骤，请将步骤从**工作流元素**区域拖到画布。
 3. 要配置审核步骤，请参阅“[配置审核步骤](configure-approval-step-workflow.md)”。
-

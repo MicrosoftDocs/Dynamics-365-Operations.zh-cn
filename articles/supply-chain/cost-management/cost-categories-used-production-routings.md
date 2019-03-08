@@ -1,13 +1,13 @@
 ---
-title: "在生产工艺路线中使用的成本类别"
-description: "本文提供有关应用于使用工艺路线的制造环境的成本类别的信息。"
+title: 在生产工艺路线中使用的成本类别
+description: 本文提供有关应用于使用工艺路线的制造环境的成本类别的信息。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCategory, RouteCostCategoryPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 90177a6b8dd277ba1180073c9cf416f857c5d730
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 53e038183a10b8732a9a5e0f25aac440c224400e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315789"
 ---
-
 # <a name="cost-categories-used-in-production-routing"></a>在生产工艺路线中使用的成本类别
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ ms.lasthandoff: 11/03/2017
 某一工艺路线工序通常继承分配给该运营资源或主工序的成本类别。 在创建某一生产订单时，该生产工艺路线内的工艺路线工序将反映所选工艺路线版本。 您可以覆盖分配给生产工艺路线内的工序的成本类别。 
 
 某些生产工作类型可以应用于项目时间评估和报告。 在这种情况下，成本类别需要用于生产和项目目的。 在将某一成本类别标记为用于项目时，必须定义附加的与项目相关的信息。
-
 
 
 

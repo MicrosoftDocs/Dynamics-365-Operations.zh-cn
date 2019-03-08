@@ -1,13 +1,13 @@
---- 
-title: "记录采购订单上的收货"
-description: "此过程演示如何直接在采购订单中记录收货。"
+---
+title: 记录采购订单上的收货
+description: 此过程演示如何直接在采购订单中记录收货。
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 14d1d43479f9864d8fd5ed94a98a654e75eeedf0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 9b2300a593c9e153ee598fa72e29907c82f2b79e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343205"
 ---
 # <a name="record-the-receipt-of-goods-on-the-purchase-order"></a>记录采购订单上的收货
 
@@ -52,5 +52,4 @@ ms.lasthandoff: 09/29/2017
 6. 折叠“行”部分。
 7. 单击“确定”。
     * 此货物现已在采购订单中记录为已接收，并已创建了单据格式的产品收货日记帐以体现此信息。 可使用“产品收货”操作审查随采购订单创建的日记帐，以了解产品的收货内容和收货时间。  
-
 

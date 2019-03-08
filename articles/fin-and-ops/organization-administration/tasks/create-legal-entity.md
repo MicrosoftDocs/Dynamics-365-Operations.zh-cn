@@ -1,13 +1,13 @@
---- 
-title: "创建法人"
-description: "法人是通过在法律机关注册标识的组织。"
+---
+title: 创建法人
+description: 法人是通过在法律机关注册标识的组织。
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, OMNewLegalEntity
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2b1869afa9ebbfc81ca321c57cc8e01739103d16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 89d3babc4447ca7398521b93634db7ecb6cfb5de
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338536"
 ---
 # <a name="create-a-legal-entity"></a>创建法人
 
@@ -57,5 +57,4 @@ ms.lasthandoff: 09/29/2017
 16. 展开“1099 税”部分。
     * 在“1099 税”部分，输入法人的 1099 信息。  
 17. 单击“保存”。
-
 

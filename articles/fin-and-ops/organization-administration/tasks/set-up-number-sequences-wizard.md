@@ -1,13 +1,13 @@
---- 
-title: "通过使用向导设置编号规则"
-description: "“数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。"
+---
+title: 通过使用向导设置编号规则
+description: “数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceWizard
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1808ab9240ab291f9d203893a634bd390f16e2e7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 96c1bc711350b447611977c3f2070fbc08fbae0f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328232"
 ---
 # <a name="set-up-number-sequences-by-using-a-wizard"></a>通过使用向导设置编号规则
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 09/29/2017
     * 如果您必须为该编号规则分配编号，请不要选择“连续”选项。     为了将范围段落添加到编号规则的格式，请在列表中选择该格式，然后单击“将范围包括在格式中”。     为了将范围段落从编号规则的格式中删除，请在列表中选择该格式，然后单击“从格式中删除范围”。     为了将编号规则从自动生成中排除，请在列表中选择该编号规则，然后单击“删除”。  
 4. 单击“下一步”。
 5. 单击“完成”。
-
 

@@ -1,13 +1,13 @@
 ---
-title: "175% 余额递减法折旧"
-description: "本主题提供了 175% 余额递减法折旧方法的概览。"
+title: 175% 余额递减法折旧
+description: 本主题提供了 175% 余额递减法折旧方法的概览。
 author: saraschi2
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a63293dbf24c27733f8013947aeab5792fa0db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8f78eb06930eab26d300fba6fd28333a5ce39cf8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320159"
 ---
-
 # <a name="175-percent-reducing-balance-depreciation"></a>175% 余额递减法折旧
 
 [!include [banner](../includes/banner.md)]
@@ -80,13 +79,12 @@ ms.lasthandoff: 05/08/2018
 
 | 期间 | 年折旧金额的计算 | 帐面值                  | 年末帐面净值 |
 |--------|-----------------------------------------------|-----------------------------|---------------------------------------|
-| 第 1 年 | (11,000 – 1,000) × 35% = 3,500                | 11,000 – 3,500 = 7,500      | 11,000 – 1,000 – 3,500 = 6,500        |
-| 第 2 年 | 6,500 × 35% = 2,275                           | 7,500 – 2,275 = 5,225       | 6,500 – 2,275 = 4,225                 |
-| 第 3 年 | 4,225 × 35% = 1,478.75                        | 5,225 – 1,478.75 = 3,746.25 | 4,225 – 1,478.75 = 2,746.25           |
+| 第 1 年 | (11,000 – 1,000) × 35% = 3,500                | 11,000 – 3,500 = 7,500      | 11,000 – 1,000 – 3,500 = 6,500        |
+| 第 2 年 | 6,500 × 35% = 2,275                           | 7,500 – 2,275 = 5,225       | 6,500 – 2,275 = 4,225                 |
+| 第 3 年 | 4,225 × 35% = 1,478.75                        | 5,225 – 1,478.75 = 3,746.25 | 4,225 – 1,478.75 = 2,746.25           |
 
 > [!NOTE] 
 > 通常，当使用 175% 余额递减折旧法计算的金额小于使用直线法计算的金额时，对剩余年限转换到直线法。
-
 
 
 

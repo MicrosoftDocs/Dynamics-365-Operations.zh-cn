@@ -1,13 +1,13 @@
---- 
-title: "管理成本核算分类帐的数据源"
-description: "此过程用于管理成本核算分类帐的总帐数据源。"
+---
+title: 管理成本核算分类帐的数据源
+description: 此过程用于管理成本核算分类帐的总帐数据源。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f53101d73bc69199fafb00de0fa1759d59ea4ce8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5735cabd5a1eab23fbe2b92cf1395110cb33a93c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319308"
 ---
 # <a name="manage-a-data-source-for-the-cost-accounting-ledger"></a>管理成本核算分类帐的数据源
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 13. 单击“新建”。
 14. 在“过帐层”字段中，选择“当前”。
 15. 单击“确定”。
-
 

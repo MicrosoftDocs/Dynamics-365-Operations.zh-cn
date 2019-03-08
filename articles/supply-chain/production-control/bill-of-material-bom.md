@@ -1,13 +1,13 @@
 ---
-title: "物料清单和配方"
-description: "本主题提供有关物料清单 (BOM) 和配方的信息，物料清单和配方是产品和产品变型定义的核心部分。"
+title: 物料清单和配方
+description: 本主题提供有关物料清单 (BOM) 和配方的信息，物料清单和配方是产品和产品变型定义的核心部分。
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, BOMTable, EcoResProductProcessManufacturingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0833143722df5402a17e4f8f456a923792c478a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 430e2ab0c4438222ceb9102c011940af803acfbc
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317100"
 ---
-
 # <a name="bills-of-materials-and-formulas"></a>物料清单和配方
 
 [!include [banner](../includes/banner.md)]
@@ -95,28 +94,27 @@ ms.lasthandoff: 11/03/2017
 ## <a name="bom-and-formula-lines"></a>物料清单和配方行
 将为每个物料、服务或成分创建物料清单行。 该行定义了指定产品变型的计划消耗量，还定义了与计划消耗量相关的各种属性。  
 
-物料清单行可以具有以下行类型：**“物料”**、**“虚拟”**、**“限定供应”**、**“供应商”**。
+物料清单行可以具有以下行类型：**物料**、**虚拟**、**限定供应**、**供应商**。
 
 ### <a name="item"></a>物料
 
-为直接消耗但不需要进一步分解或限定供应的物料和服务选择 **“物料”** 行类型。
+为直接消耗但不需要进一步分解或限定供应的物料和服务选择**物料**行类型。
 
 ### <a name="phantom"></a>虚拟
 
-当您要分解在物料清单行上包含的任何更低级别的物料清单物料时，请选择 **“虚拟”**。 在主计划编制中，在计划成本计算中，或者在使用 **“虚拟”** 类型的物料清单行的生产订单的估计中，引用具有虚拟物料清单的产品变型的父物料清单行将替换为在该物料清单中作为物料清单行列出的构成物料（由该产品变型的适用的有效物料清单版本确定）。 如果产品变型具有适用的有效工艺路线，该工艺路线的工序将合并到父工艺路线中。  
+当您要分解在物料清单行上包含的任何更低级别的物料清单物料时，请选择**虚拟**。 在主计划编制中，在计划成本计算中，或者在使用**虚拟**类型的物料清单行的生产订单的估计中，引用具有虚拟物料清单的产品变型的父物料清单行将替换为在该物料清单中作为物料清单行列出的构成物料（由该产品变型的适用的有效物料清单版本确定）。 如果产品变型具有适用的有效工艺路线，该工艺路线的工序将合并到父工艺路线中。  
 
 请注意，虚拟通常用于简化工程流程。 在多个级别广泛使用虚拟物料清单会影响性能，尤其是在高度重复的制造方案中。 为了提高性能，您应该避免为虚拟设置较深的层次结构。 相反，您应使用预先分解的生产物料清单和工艺路线。
 
 ### <a name="pegged-supply"></a>限定供应
 
-当您要创建子生产、创建物料清单行事件看板或创建物料清单行引用的任何产品变型的直接采购订单时，请选择 **“限定供应“**。 子生产、事件看板或采购订单在您估计生产订单时创建。 将自动为消耗生产订单预留所需的物料数量。
+当您要创建子生产、创建物料清单行事件看板或创建物料清单行引用的任何产品变型的直接采购订单时，请选择**限定供应**。 子生产、事件看板或采购订单在您估计生产订单时创建。 将自动为消耗生产订单预留所需的物料数量。
 
 ### <a name="vendor"></a>供应商
 
-如果生产流程利用了某个转包商，并且您想要自动为该转包商创建子生产或采购订单，请选择 **“供应商”** 行类型。  
+如果生产流程利用了某个转包商，并且您想要自动为该转包商创建子生产或采购订单，请选择**供应商**行类型。  
 
 **有关物料清单中的转包工序的注释：** 由转包商执行的服务或工作必须作为在库存中跟踪的服务项创建。 您必须将服务项作为物料清单行附加到父项。 工艺路线必须包含分配给转包商的运营资源。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "移动平均"
-description: "移动平均是一种基于平均原则的永久成本方法，在执行采购成本时在库存发货的成本不更改。 该差异基于一种比例的计算资本化。 支出剩余金额。"
+title: 移动平均
+description: 移动平均是一种基于平均原则的永久成本方法，在执行采购成本时在库存发货的成本不更改。 该差异基于一种比例的计算资本化。 支出剩余金额。
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: c1f8a8cf4a58177d423709f245760a5ba9ca7e4e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348058"
 ---
-
 # <a name="moving-average"></a>移动平均
 
 [!include [banner](../includes/banner.md)]
@@ -78,7 +77,7 @@ ms.lasthandoff: 11/03/2017
 
 在此示例中，移动平均成本为产品进行调整。
 
-1.  选择要调整移动平均成本的产品。 **注意：****重估移动平均**页检查库存是否可用于产品。 所选产品具有已过帐的数量 1，过帐值 12.00，已过帐的单位成本 12.00 和单位成本 12.00。
+1.  选择要调整移动平均成本的产品。 **注意：重估移动平均**页检查库存是否可用于产品。 所选产品具有已过帐的数量 1，过帐值 12.00，已过帐的单位成本 12.00 和单位成本 12.00。
 2.  更新**单位成本**字段为 16.00。 系统计算其余字段。
 3.  过帐调整。
 
@@ -113,8 +112,7 @@ ms.lasthandoff: 11/03/2017
 | 10 月 8 日        | 10 月 8 日    | 移动平均重估 |          | 4.00   | 16.00             |
 |                  | 10 月 31 日   | 合计                      | 2        | 32.00  | 16.00             |
 
- **注意：** 您不能通过使用**交易记录时间排序**选项对帐具有库存的总帐。 必须通过使用**过帐日期**选项打印报表。
-
+ **注意：** 您不能通过使用**交易记录时间排序**选项对帐具有库存的总帐。 必须通过使用**过帐日期**选项打印报表。
 
 
 

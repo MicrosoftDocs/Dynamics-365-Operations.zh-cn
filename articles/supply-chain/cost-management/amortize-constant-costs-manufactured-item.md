@@ -1,13 +1,13 @@
 ---
-title: "为制造物料摊销固定成本"
-description: "制造物料的固定成本反映工序设置时间以及具有固定数量或固定残值金额的组件。"
+title: 为制造物料摊销固定成本
+description: 制造物料的固定成本反映工序设置时间以及具有固定数量或固定残值金额的组件。
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, BOMCalcTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 7ccd5ce3e2ed58db8f13eebbcfa6fe5fb544d6c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 75c0f5bcff0aae63aa8c7dae9b0767f8c7e6a81c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329451"
 ---
-
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>为制造物料摊销固定成本
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ ms.lasthandoff: 11/03/2017
 -   特定于订单的物料清单计算中的指定计算数量 − 可为销售订单、销售报价单或服务订单上的行项执行特定于订单的物料清单计算。 该指定的计算数量使用原始行项上的数量，但是可以覆盖该默认数量。 您可以选择特定于订单的物料清单计算是使用按订单生产还是多级分解模式。
 
 制造物料的摊销固定成本的计算出的金额称作费用。
-
 
 
 

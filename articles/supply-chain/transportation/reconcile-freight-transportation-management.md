@@ -1,13 +1,13 @@
 ---
-title: "在运输管理中对运费进行对帐"
-description: "本文介绍了运费对帐流程。"
+title: 在运输管理中对运费进行对帐
+description: 本文介绍了运费对帐流程。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSAuditMaster, TMSFreightBillInvoiceReconcile, TMSFreightBillSummary, TMSFreightBillType, TMSFreightMatchReason, TMSInvoiceTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f92808f904ba93513e20b74bd2b597712cb93d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 722c52c22a98317dd67887f50fc95f3e3764ed83
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344769"
 ---
-
 # <a name="reconcile-freight-in-transportation-management"></a>在运输管理中对运费进行对帐
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,6 @@ ms.lasthandoff: 11/03/2017
 [![Dynamics AX 中的运费对帐任务](./media/processflowforfreightreconciliation.jpg)](./media/processflowforfreightreconciliation.jpg)
 ## <a name="automatic-reconciliation"></a>自动对帐
 若要使用自动对帐，您必须指定对帐计划和发票，以及要使用的装运承运人。 发票行和运费帐单的匹配根据审计主数据和运费帐单类型的设置进行。 运行自动对帐后，必须处理所有系统不能匹配的发票。 然后，您必须手动处理这些发票，然后才能过帐所有付款发票。
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "创建成本分配政策并将其分配到成本控制单元"
-description: "成本分配规则用于分配集体成本中心中已财务盘点的成本。"
+---
+title: 创建成本分配政策并将其分配到成本控制单元
+description: 成本分配规则用于分配集体成本中心中已财务盘点的成本。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 46ba6322f2cea7828033c214502accdf73f073be
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fbd44816fc2f2569dd477fc21f59418a575bb835
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308452"
 ---
 # <a name="create-and-assign-a-cost-distribution-policy-to-a-cost-control-unit"></a>创建成本分配政策并将其分配到成本控制单元
 
@@ -71,5 +71,4 @@ ms.lasthandoff: 09/29/2017
     * 在“有效会计年度”中选择“9 月 1 日”。  
 5. 在“成本控制单元”字段中，输入或选择一个值。
 6. 单击“保存”。
-
 

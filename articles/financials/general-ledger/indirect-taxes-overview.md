@@ -1,13 +1,13 @@
 ---
-title: "销售税概览"
-description: "本主题提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。"
+title: 销售税概览
+description: 本主题提供销售税系统的概览。 它说明销售税的元素，以及如何一同使用。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority, TaxPeriod, TaxTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 11fe694af6180419460ba5dbf4c55f760a38f987
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 02d28aef2316d7cfe5ad4eb45272dc1a22c96789
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311350"
 ---
-
 # <a name="sales-tax-overview"></a>销售税概览
 
 [!include [banner](../includes/banner.md)]
@@ -70,10 +69,10 @@ ms.lasthandoff: 03/26/2018
 ## <a name="sales-tax-on-transactions"></a>交易记录上的销售税
 在每个交易记录（销售/采购单据行、日记帐等），您必须输入销售税组和物料销售税组，才能计算销售税。 默认组是在主数据（例如，客户、供应商、物料和采购类别）中指定的，不过，您可以手动在交易记录上更改该组（如果必须）。 这两个组包含销售税代码的列表，而且两个销售税代码列表的交集确定交易记录的适用销售税代码的列表。 
 
-在每个交易记录上，您可以通过打开“**销售税交易记录**”页查看计算所得的销售税。 您可以对一个文档行或整个文档查找销售税。 对于某些文档（例如，供应商发票和普通日记帐），如果原始文档显示异常金额，则可以调整计算所得的销售税。
+在每个交易记录上，您可以通过打开**销售税交易记录**页查看计算所得的销售税。 您可以对一个文档行或整个文档查找销售税。 对于某些文档（例如，供应商发票和普通日记帐），如果原始文档显示异常金额，则可以调整计算所得的销售税。
 
 ## <a name="sales-tax-settlement-and-reporting"></a>销售税结算和申报
-必须按规定的间隔（每月、每季度等）向税务主管机构申报和缴纳销售税。 Microsoft Dynamics 365 for Finance and Operations 提供的功能可让您按时间间隔结算税帐户并将余额抵消给在分类帐记帐组中指定的税结算帐户 您可以在**结算并过帐销售税**页上访问此功能。 您必须指定应结算销售税的销售税结算期间。 
+必须按规定的间隔（每月、每季度等）向税务主管机构申报和缴纳销售税。 Microsoft Dynamics 365 for Finance and Operations 提供的功能可让您按时间间隔结算税帐户并将余额抵消给在分类帐记帐组中指定的税结算帐户。 您可以在**结算并过帐销售税**页上访问此功能。 您必须指定应结算销售税的销售税结算期间。 
 
 在支付销售税后，销售税结算帐户上的余额应与银行帐户平衡。 如果在销售税结算期间上指定的销售税主管机构与供应商帐户相关，则销售税余额作为未结供应商发票过帐，并可以包括在普通付款方案中。
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 03/26/2018
 
 
 有关详细信息，请参阅[设置预缴税金](tasks/set-up-withholding-tax.md)。
-

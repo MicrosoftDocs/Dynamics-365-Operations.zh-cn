@@ -1,13 +1,13 @@
---- 
-title: "ER 在格式输出中使用票据管理文件（第 2 部分 - 扩展数据模型）"
-description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。"
+---
+title: ER 在格式输出中使用票据管理文件（第 2 部分 - 扩展数据模型）
+description: 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERDataModelContentsItemCreationDialog, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: cb4c58dc86a159a70634c05408a8db471ebcae4c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320941"
 ---
 # <a name="er-use-document-management-files-in-format-outputs-part-2-extend-data-model"></a>ER 在格式输出中使用票据管理文件（第 2 部分：扩展数据模型）
 
@@ -91,5 +91,4 @@ ms.lasthandoff: 09/14/2018
 25. 单击“更改状态”。
 26. 单击“完成”。
 27. 单击“确定”。
-
 

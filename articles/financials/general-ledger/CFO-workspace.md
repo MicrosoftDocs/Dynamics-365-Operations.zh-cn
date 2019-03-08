@@ -1,14 +1,14 @@
 ---
-title: "向 CFO 工作区添加财务维度"
-description: "本主题说明如何向 CFO 工作区添加财务维度，以便可将其用于分类帐和预算报表。"
+title: 向 CFO 工作区添加财务维度
+description: 本主题说明如何向 CFO 工作区添加财务维度，以便可将其用于分类帐和预算报表。
 author: aprilolson
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a15414eff99751d4e77e5b3bf315a556efb7ad5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5faefe5da8c3a64987a38ebef92eb87049ebe874
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332671"
 ---
-
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>向 CFO 工作区添加财务维度
 
 [!include [banner](../includes/banner.md)]
@@ -57,4 +56,3 @@ ms.lasthandoff: 11/03/2017
 16. 构建项目，然后打开应用程序查看结果。
 
     [![已完成的工作区](./media/workspace.png)](./media/workspace.png)
-

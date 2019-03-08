@@ -1,13 +1,13 @@
 ---
-title: "Microsoft Project Client 集成"
-description: "规划和维护项目计划可能非常复杂，因此项目经理需要使用工具来帮助管理此任务。 与 Microsoft Project Client 的集成提供了对打开和管理项目工作分解结构的支持。"
+title: Microsoft Project Client 集成
+description: 规划和维护项目计划可能非常复杂，因此项目经理需要使用工具来帮助管理此任务。 与 Microsoft Project Client 的集成提供了对打开和管理项目工作分解结构的支持。
 author: KimANelson
 manager: AnnBe
 ms.date: 12/11/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjWbsTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-04
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 48feb0182c623714b2acffafc42016c0471ba6c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4a3445417d5ae88e2ff3676962a82921a7ab475d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317468"
 ---
-
 # <a name="microsoft-project-client-integration"></a>Microsoft Project Client 集成
 
 [!include [banner](../includes/banner.md)]
@@ -33,7 +32,7 @@ ms.lasthandoff: 03/26/2018
 规划和维护项目计划可能非常复杂，因此项目经理需要使用工具来帮助管理此任务。 与 Microsoft Project Client 的集成提供了对打开和管理项目工作分解结构的支持。 项目经理可将任何更改发布回 Finance and Operations 项目工作分解结构。
 
 > [!NOTE]
-> 如果你正在使用 Microsoft Dynamics 365 for Finance and Operations 2017 年 7 月更新，你必须安装 KB 4054797 和 4055884。
+> 如果您在使用 Microsoft Dynamics 365 for Finance and Operations 7 月更新，您必须安装 KB 4054797 和 4055884。
 
 ## <a name="configure-the-microsoft-project-client-add-in"></a>配置 Microsoft Project Client 加载项
 若要实现与 Microsoft Project Client 集成，需要在用户的客户端 Microsoft Project 应用程序中安装 Microsoft Dynamics 365 加载项。 方法是打开**项目管理工作区**。
@@ -43,7 +42,7 @@ ms.lasthandoff: 03/26/2018
 •   单击**打开**，然后在系统提示时单击**运行**。
 
 ## <a name="open-and-edit-an-existing-draft-work-breakdown-structure-in-microsoft-project-client"></a>在 Microsoft Project Client 中打开和编辑现有草稿工作分解结构。
-如果已为 Finance and Operations 中的某个项目创建了工作分解结构，并且该工作分解结构处于草稿状态，则可在 Microsoft Project Client 应用程序中打开该工作分解结构。 若要从**项目**页面打开，请单击**计划**选项卡中的**在 Microsoft Project 中打开**链接。也可以从 Microsoft Project Client 应用程序内部打开该页面，方法是单击 **Microsoft Dynamics 365** 中的**打开**。从列表中选择**法人**和**项目**。
+如果已为 Finance and Operations 中的某个项目创建了工作分解结构，并且该工作分解结构处于草稿状态，则可在 Microsoft Project Client 应用程序中打开该工作分解结构。 若要从**项目**页面打开，请单击**计划**选项卡中的**在 Microsoft Project 中打开**链接。也可以从 Microsoft Project Client 应用程序内部打开该页面，方法是单击 **Microsoft Dynamics 365** 选项卡中的**打开**。从列表中选择**法人**和**项目**。
 
 > [!NOTE]
 > 如果浏览器使用的是 Internet Explorer，则需要单击**保存**手动从文件下载到的位置打开。 或者，单击 **保存并打开**以在 Microsoft Project Client 中打开文件。 保存时，请勿重命名文件。
@@ -89,7 +88,7 @@ ms.lasthandoff: 03/26/2018
 
 4.  选择**项目**。
 
-5.  在 **Microsoft Dynamics 365** 选项卡上单击**签出**。
+5.  单击 **Microsoft Dynamics 365** 选项卡上的**签出**。
 
 6.  准备好发布到 Finance and Operations 时，在 **Microsoft Dynamics 365** 选项卡上单击**签入**。
 
@@ -100,7 +99,7 @@ ms.lasthandoff: 03/26/2018
 
 2.  在 Microsoft Project Client 中创建计划。
 
-3.  在 **Microsoft Dynamics 365** 选项卡上，单击 **保存更改** > **替换现有项目**。
+3.  在 **Microsoft Dynamics 365** 选项卡上，单击**保存更改** > **替换现有项目**。
 
 4.  选择项目的**法人**。
 
@@ -115,7 +114,7 @@ ms.lasthandoff: 03/26/2018
 
 2.  在 Microsoft Project Client 中创建计划。
 
-3.  在 **Microsoft Dynamics 365** 选项卡上，单击 **保存更改** > **保存到新项目**。
+3.  在 **Microsoft Dynamics 365** 选项卡上，单击**保存更改** > **保存到新项目**。
 
 4.  选择项目的**法人**。
 
@@ -128,4 +127,3 @@ ms.lasthandoff: 03/26/2018
 8.  选择要用于安排资源的**日历**。
 
 11. 单击**确定**。
-

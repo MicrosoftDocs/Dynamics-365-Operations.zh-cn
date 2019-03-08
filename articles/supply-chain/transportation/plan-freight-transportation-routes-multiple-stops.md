@@ -1,13 +1,13 @@
 ---
-title: "计划具有多个停止点的货运运输路线"
-description: "本文介绍用于在 Dynamics 365 for Finance and Operations 中计划运输路线的各种元素。"
+title: 计划具有多个停止点的货运运输路线
+description: 本文介绍用于在 Dynamics 365 for Finance and Operations 中计划运输路线的各种元素。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSHubMaster, TMSLoadBuildTemplates, TMSRateRouteWorkbench, TMSRouteGuide, TMSRoutePlan, TMSRouteWorkbench, WHSLoadTemplate
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36cb454477c0d296246c061d2573954a81c9efd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 16255e812773ed35c0e34ec26a8a689ea09632bd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328301"
 ---
-
 # <a name="plan-freight-transportation-routes-with-multiple-stops"></a>计划具有多个停止点的货运运输路线
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="load-building-workbench"></a>装载计划工作台
 装载计划工作台使用销售订单的客户地址和交货日期以及可用的计划路线建议负荷。 默认情况下，在工作台上输入路线的值。 但是，您可以选择早于路线上的“起始”日期的“起始”日期。 当建议负荷时，将检查所有未结销售订单的交货地址和交货日期。 如果交货地址的邮政编码与路线计划中的枢纽邮政编码匹配，且如果交货日期是在条件中选择的范围内，将为负荷建议销售订单。 此外还考虑负荷模板的产能。 一次只建议一个负荷。 如果您有不包含的销售订单，您可能必须使用不同的负荷模板（例如，更大的卡车或集装箱的负荷模板），或者计划额外交货。
-
 
 
 

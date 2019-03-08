@@ -1,13 +1,13 @@
 ---
-title: "为利息代码设置多种利率"
-description: "利息代码包含相关的设置利息时计费，以及如何在逾期科目计算。"
+title: 为利息代码设置多种利率
+description: 利息代码包含相关的设置利息时计费，以及如何在逾期科目计算。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Interest
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 665c58fd29fb986bf51e10f5814c4793940c0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1c19cb68df5be5245722da43f3ef9c2072873a34
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317767"
 ---
-
 # <a name="set-up-interest-rates-for-an-interest-code"></a>为利息代码设置多种利率
 
 [!include [banner](../includes/banner.md)]
@@ -129,7 +128,6 @@ ms.lasthandoff: 05/08/2018
 利息代码是有生效日期的。 如果您要修改利率，您可以创建截至将来日期生效的**新版本**。
 
 若要查看不同的版本，您可以使用**开始日期**菜单选项来选择截止日期。 您还可以选择**显示所有记录**来查看该页中的所有利息代码。
-
 
 
 

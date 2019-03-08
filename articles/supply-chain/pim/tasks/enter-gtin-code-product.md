@@ -1,13 +1,13 @@
---- 
-title: "输入产品的 GTIN 代码"
-description: "GTIN 代码由 GS1 组织分配。"
+---
+title: 输入产品的 GTIN 代码
+description: GTIN 代码由 GS1 组织分配。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductMaintainWorkspace, EcoResProductOpenCasesFormPart, EcoResProductDetailsExtended, InventItemGTIN, UnitOfMeasureLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: df5a1ee72514cfa19e242cbc3d306027ab8d100b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 07b815d58299909f7c2a9231bca1969f61f5f8a2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328738"
 ---
 # <a name="enter-the-gtin-code-for-a-product"></a>输入产品的 GTIN 代码
 
@@ -41,5 +41,4 @@ GTIN 代码由 GS1 组织分配。 在此示例中，您将为演示数据公司
 10. 在“GTIN 代码”字段中，选择一个选项。
 11. 在“GTIN”字段中，键入一个值。
 12. 关闭该页面。
-
 

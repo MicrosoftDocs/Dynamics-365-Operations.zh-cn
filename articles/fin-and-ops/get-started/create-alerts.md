@@ -1,13 +1,13 @@
 ---
-title: "创建预警规则"
-description: "此主题提供有关预警的信息，并说明如何创建预警规则以通知您各个事件（例如到达的日期或发生的特定更改）。"
+title: 创建预警规则
+description: 此主题提供有关预警的信息，并说明如何创建预警规则以通知您各个事件（例如到达的日期或发生的特定更改）。
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: cbf4917424e72a70a6d513b5daf45f6bf9cd57c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 78e1e6f7be04e1d4fecae080cbd4a285358590fb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329405"
 ---
-
 # <a name="create-alert-rules"></a>创建预警规则
 
 [!include [banner](../includes/banner.md)]
@@ -84,4 +83,3 @@ ms.lasthandoff: 08/08/2018
 7. 在**提示以下内容**快速选项卡上，在**主题**字段中，接受默认的电子邮件主题标题或输入新的主题。 文本用作触发预警时所收到电子邮件的主题标题。
 8. 在**消息**字段中，输入可选消息 文本用作触发预警时收到的消息。
 9. 选择**确定**保存设置和创建预警规则。
-

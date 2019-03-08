@@ -1,13 +1,13 @@
---- 
-title: "创建生产流版本"
-description: "该过程主要讲述创建新的生产流版本。"
+---
+title: 创建生产流版本
+description: 该过程主要讲述创建新的生产流版本。
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9a76e5bb6f63f793e4644c2ccf70cef21785ff10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8903e618a35e66742b5c2ebcb5b6f0da3853fcaf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320665"
 ---
 # <a name="create-a-production-flow-version"></a>创建生产流版本
 
@@ -63,5 +63,4 @@ ms.lasthandoff: 11/03/2017
 12. 在“实际周期期间”字段中，输入一个数字。
     * 在“周期”中，输入实际的周期天数。 实际周期为从实际分钟数向后计算实际周期时间的合并工作天数。 可以随时更改该值，且该值只能用来计算实际周期时间。  
 13. 单击“保存”。
-
 

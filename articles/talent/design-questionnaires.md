@@ -1,13 +1,13 @@
 ---
-title: "设计调查表"
-description: "本主题描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。"
+title: 设计调查表
+description: 本主题描述创建调查表的过程。 第一步是设计调查表。 在您设计调查表时，您不仅编写问题和回答，还要创建结构，以便对回答进行记录和制表。
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KCMCollectionType, KMAnswerCollection, KMCollection
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: cd13fa1c424d1769b356d90012b187a77473473d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303428"
 ---
-
 # <a name="design-questionnaires"></a>设计调查表
 
 [!include [banner](includes/banner.md)]
@@ -94,7 +93,7 @@ ms.lasthandoff: 08/08/2018
 在开始创建数据之前，应先定义所有参数。 可以随时修改调查表参数设置。
 
 ## <a name="questionnaire-components"></a>调查表组成部分
-调查表包含三个主要元素：包含多选问题回答的回答组、问题和调查表本身。 您可以（可选）将调查表上的问题分成结果组。 结果组能让您对问题进行分类，并提供对调查表的进一步分析。 
+调查表包含三个主要元素：包含多选问题回答的回答组、问题和调查表本身。您可以（可选）将调查表上的问题分成结果组。 结果组能让您对问题进行分类，并提供对调查表的进一步分析。 
 
 [![调查表组成部分](./media/questionnairecomponents-1024x615.png)](./media/questionnairecomponents.png)
 
@@ -238,5 +237,4 @@ ms.lasthandoff: 08/08/2018
 [分发和完成调查表](distribute-questionnaires.md)
 
 [查看和评估调查表的结果](evaluate-questionnaire-results.md)
-
 

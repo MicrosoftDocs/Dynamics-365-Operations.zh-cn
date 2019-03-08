@@ -1,32 +1,31 @@
 ---
-title: "产品标识符"
-description: "此主题提供有关不同类型的产品标识符的信息，并说明了如何在您的产品数据中添加产品标识符。"
+title: 产品标识符
+description: 此主题提供有关不同类型的产品标识符的信息，并说明了如何在您的产品数据中添加产品标识符。
 author: cvocph
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductEntityIdentifierCode
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 19cc8f92b5bb6d9ddfdc77785e48de17ed005703
-ms.openlocfilehash: afd542a652abdf6e45c83a6097dc8f0d36efa905
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/23/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335408"
 ---
-
 # <a name="product-identifiers"></a>产品标识符 
 
 [!include [banner](../includes/banner.md)]
@@ -186,4 +185,3 @@ Finance and Operations 为产品也为物料（已发布产品）提供辅助搜
 ## <a name="related-topic"></a>相关主题
 
 [在输入订单时搜索产品和产品变型](search-products-product-variants.md)
-

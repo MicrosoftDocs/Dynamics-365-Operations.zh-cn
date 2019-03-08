@@ -1,13 +1,13 @@
 ---
-title: "系统定义和用户定义的表约束"
-description: "本文说明产品配置模型中的组件的表约束的两个类型 - 用户定义和系统定义。 表约束表示允许的属性组合的矩阵，在其中每行定义一组可能的属性值。"
+title: 系统定义和用户定义的表约束
+description: 本文说明产品配置模型中的组件的表约束的两个类型 - 用户定义和系统定义。 表约束表示允许的属性组合的矩阵，在其中每行定义一组可能的属性值。
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCTableConstraintAttachAttributeTree, PCTableConstraintColumnSystem, PCTableConstraintContentUserDef, PCTableConstraintDefinition, PCTableConstraintWizard
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2c29adc87b9ef435b714a46ba1a96ef8226759b6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: cd5fc329877bbb1f8f4ec26191e66914da29d034
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314984"
 ---
-
 # <a name="system-defined-and-user-defined-table-constraints"></a>系统定义和用户定义的表约束
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [产品配置模型中的重要概念](product-configuration-models.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "配置电子申报 (ER) 以便将数据导入 Power BI"
-description: "本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的 Finance and Operations 实例转移至 Power BI 服务。"
+title: 配置电子申报 (ER) 以便将数据导入 Power BI
+description: 本主题说明您可以如何使用您的电子申报 (ER) 配置安排数据从您的 Finance and Operations 实例转移至 Power BI 服务。
 author: NickSelin
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e2d3c03a75fd03dfd3a96a181eff20f934546ec4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335776"
 ---
-
 # <a name="configure-electronic-reporting-er-to-pull-data-into-power-bi"></a>配置电子申报 (ER) 以便将数据导入 Power BI
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
 - 使用转移的数据创建 Power BI 报表。
 - 使 Power BI 报表在 Finance and Operations 中可访问。
 
-## <a name="prerequisites"></a>必备项
+## <a name="prerequisites"></a>先决条件
 要完成本主题中的示例，您必须具有以下访问权限：
 
 - 访问 Finance and Operations 的以下其中一个角色：
@@ -60,7 +59,7 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
     [![文档管理参数页面](./media/ger-power-bi-sharepoint-server-setting-1024x369.png)](./media/ger-power-bi-sharepoint-server-setting.png)
 
 3. 打开配置的 SharePoint 站点。 创建 ER 将存储 Excel 文件的新文件夹，这些 Excel 文件中含有 Power BI 报表要求用作 Power BI 数据集源的业务数据。
-4. 在 Finance and Operations 中的**文档类型**页面上创建将用来访问您刚才创建的 SharePoint 文件夹的新文档类型。 在**组**字段中输入**文件**，在**位置**字段中输入**SharePoint**，然后输入 SharePoint 文件夹的地址。
+4. 在 Finance and Operations 中的**文档类型**页面上创建将用来访问您刚才创建的 SharePoint 文件夹的新文档类型。 在**组**字段中输入**文件**，在**位置**字段中输入 **SharePoint**，然后输入 SharePoint 文件夹的地址。
 
     [![文档类型页面](./media/ger-power-bi-sharepoint-document-type-1024x485.png)](./media/ger-power-bi-sharepoint-document-type.png)
 
@@ -123,8 +122,8 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
 
 单击新目标记录的**设置**按钮。 然后在**目标设置**对话框中执行以下步骤。
 
-1. 在**Power BI**选项卡上，将**启用**选项设置为**是**。
-2. 在**SharePoint**字段中，选择您先前创建的**共享**文档类型。
+1. 在 **Power BI** 选项卡上，将**已启用**选项设置为**是**。
+2. 在 **SharePoint** 字段中，选择您先前创建的**共享**文档类型。
 
 ## <a name="schedule-execution-of-the-configured-er-format"></a>计划配置的 ER 格式的执行
 1. 在**配置**页面（**组织管理** &gt; **电子申报** &gt; **配置**）上的配置树中，选择您先前创建的**导入/导出活动**配置。
@@ -185,10 +184,10 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
     [![更新地图](./media/ger-power-bi-new-run-new-map-1024x511.png)](./media/ger-power-bi-new-run-new-map.png)
 
 ## <a name="access-power-bi-report-in-finance-and-operations"></a>访问 Finance and Operations 中的 Power BI 报表
-设置 Finance and Operations 与 Power BI 之间的集成。 有关详细信息，请参阅“[配置工作区的 Power BI 集成](configure-power-bi-integration.md)”。
+设置 Finance and Operations 与 Power BI 之间的集成。 有关详细信息，请参阅[配置工作区的 Power BI 集成](configure-power-bi-integration.md)。
 
-1. 在支持 Power BI 集成的**电子申报**工作区页面上（**组织管理** &gt; **工作区** &gt; **电子申报工作区**），单击**选项** &gt; **打开报表目录**。
-2. 选择您创建的**导入和导出详细信息**Power BI 报表使报表在选择的页面上显示为操作项。
+1. 在支持 Power BI 集成的**电子申报**工作区页面上（**组织管理** &gt; **工作区s** &gt; **电子申报工作区**），单击**选项** &gt; **打开报表目录**。
+2. 选择您创建的**导入和导出详细信息** Power BI 报表使报表在选择的页面上显示为操作项。
 3. 单击操作项以打开显示您在 Power BI 中设计的报表的 Finance and Operations 页面。
 
     [![导入和导出详细报表](./media/ger-power-bi-review-bi-report-in-ax-form-1024x586.png)](./media/ger-power-bi-review-bi-report-in-ax-form.png)
@@ -198,4 +197,3 @@ Microsoft Power BI 是一组软件服务、应用程序和连接器的集合，�
 [电子申报目标](electronic-reporting-destinations.md)
 
 [电子申报概览](general-electronic-reporting.md)
-

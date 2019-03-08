@@ -1,13 +1,13 @@
---- 
-title: "设置销售税分类帐过帐组"
-description: "将计算销售税，并过帐到分类帐过帐组中指定的主科目。"
+---
+title: 设置销售税分类帐过帐组
+description: 将计算销售税，并过帐到分类帐过帐组中指定的主科目。
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAccountGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 15421da6f325dfee22a303e9fe83a0e72895fa08
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308337"
 ---
 # <a name="set-up-ledger-posting-groups-for-sales-tax"></a>设置销售税分类帐过帐组
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
 11. 在“客户折扣”字段中，选择主科目，以过帐与此分类帐过帐组相关的销售税代码的现金折扣。
     * 此为可选项，如果未输入科目，将使用现金折扣代码的主科目。 如果使用销售税组中的“冲销现金折扣的销售税”选项，每个分类帐过帐组使用不同的帐户会很有帮助。  
 12. 单击“保存”。
-
 

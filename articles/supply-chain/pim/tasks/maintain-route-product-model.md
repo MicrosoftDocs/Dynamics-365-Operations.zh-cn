@@ -1,13 +1,13 @@
---- 
-title: "维护产品模型路线"
-description: "该过程的运行要求有现有的产品配置模型。"
+---
+title: 维护产品模型路线
+description: 该过程的运行要求有现有的产品配置模型。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCRouteOperationDetails, WrkCtrCapabilityLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 0e793466e021671501570aed06959d684d5e9c15
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317146"
 ---
 # <a name="maintain-route-for-a-product-model"></a>维护产品模型路线
 
@@ -66,5 +66,4 @@ ms.lasthandoff: 09/14/2018
     * 确定是否要指定必须拥有的特定资源或功能。  
 15. 在“要求”字段中，输入或选择一个值。
 16. 单击“确定”。
-
 

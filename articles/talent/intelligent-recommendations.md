@@ -1,14 +1,14 @@
 ---
-title: "智能建议"
-description: "此主题说明如何使用机器学习来为工作和工作应聘者提供建议。"
+title: 智能建议
+description: 此主题说明如何使用机器学习来为工作和工作应聘者提供建议。
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: fea36661c65739ef09261c82ec44e16c29fad0e7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303427"
 ---
-
 # <a name="intelligent-recommendations"></a>智能建议
 
 [!include[banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ ms.lasthandoff: 10/22/2018
 ## <a name="job-recommendations"></a>工作推荐 
 
 在潜在的员工使用求职站点申请工作时，将推荐组织中的其他空缺职位。 这些推荐基于应聘者过去的申请，以及其简历或应聘者个人资料。 因此，工作推荐帮助应聘者快速发现最适合自己的工作。 如果有超过十个工作在求职站点上发布，将为应聘者提供工作推荐。 应聘者可以从推荐卡打开工作发布的详细信息。 他们还可以提供有关推荐的反馈以帮助改进将来的推荐。
-

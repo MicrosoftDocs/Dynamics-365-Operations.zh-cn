@@ -1,14 +1,14 @@
 ---
-title: "访问 Talent 中的预览功能"
-description: "此主题介绍管理员可如何启用预览功能，并且列出了当前可预览的功能。"
+title: 访问 Talent 中的预览功能
+description: 此主题介绍管理员可如何启用预览功能，并且列出了当前可预览的功能。
 author: rschloma
 manager: AnnBe
 ms.date: 04/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: cd738cafc97477182e574ee0f363fdcf1df7da7a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303403"
 ---
-
 # <a name="access-preview-features-in-talent"></a>访问 Talent 中的预览功能
 
 [!include[banner](../includes/banner.md)]
@@ -43,9 +42,9 @@ ms.lasthandoff: 10/22/2018
 
 ### <a name="enable-or-disable-preview-features-for-your-organization"></a>为组织启用或禁用预览功能
 
-#### <a name="attract"></a>Attract
+#### <a name="attract"></a>吸引
 
-1. 登录 Microsoft Dynamics 365 for Talent: Attract。
+1. 登录到 Microsoft Dynamics 365 for Talent: Attract。
 2. 在右上角的**设置**菜单（齿轮符号）中，选择**管理员设置**。
 3. 在**功能管理**选项卡上，选择**预览功能**旁边的选项，使其变为蓝色。
 4. 您可以选择通过启用/禁用此页面上的特定功能来控制各个功能。
@@ -92,4 +91,3 @@ ms.lasthandoff: 10/22/2018
 
 > [!TIP]
 > 将本主题加入书签，并经常回访以在我们发布新预览功能后随时掌握相关数据。
-

@@ -1,13 +1,13 @@
 ---
-title: "创建采购订单"
-description: "本文介绍手动创建采购订单的流程和选项。"
+title: 创建采购订单
+description: 本文介绍手动创建采购订单的流程和选项。
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cb703ff7419a59aa174e16d8d988a96814e4fec6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c71ce3045bd91a136288016cb55b460f7ac787ae
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350082"
 ---
-
 # <a name="create-purchase-orders"></a>创建采购订单
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ ms.lasthandoff: 05/08/2018
 [采购订单的产品收据](product-receipt-against-purchase-orders.md)
 
 [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

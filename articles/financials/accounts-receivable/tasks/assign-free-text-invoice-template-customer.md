@@ -1,13 +1,13 @@
---- 
-title: "将普通发票模板分配给客户"
-description: "此任务展示的是如何将普通发票模板分配到客户。"
+---
+title: 将普通发票模板分配给客户
+description: 此任务展示的是如何将普通发票模板分配到客户。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, CustRecurrenceInvoice
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 317b3bd4c1f395987ef3dbbd268c40be5c688320
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318917"
 ---
 # <a name="assign-free-text-invoice-template-to-a-customer"></a>将普通发票模板分配给客户
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
 10. 选择重复执行模式。
     * 每日 – 选择此选项并在“每”字段中输入天数。 例如，如果您输入 15，将为此客户每 15 天生成一次发票。  每周 - 选择此选项并在“每”字段中输入周数。 例如，如果您输入 2，将为此客户每两周生成一次发票。  每月 - 选择此选项并在“每”字段中输入月数。 例如，如果您输入 6，将为此客户每六个月生成一次发票。  每年 - 选择此选项并在“每”字段中输入年数。 例如，如果您输入 2，将为此客户每两年生成一次发票。  
 11. 在“每”字段中，输入一个数字。
-
 

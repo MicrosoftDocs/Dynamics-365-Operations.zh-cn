@@ -1,13 +1,13 @@
 ---
-title: "组织和组织层次结构"
-description: "组织是共同工作以执行业务流程的群体。 组织层次结构表示构成您的公司的组织之间的关系。"
+title: 组织和组织层次结构
+description: 组织是共同工作以执行业务流程的群体。 组织层次结构表示构成您的公司的组织之间的关系。
 author: sericks007
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMOperatingUnit,
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 72834769e393382ac511ad3af21544efddb049d3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f8afc37e8d69b06622176d4f6cfb3ff06a0ab54
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322229"
 ---
-
 # <a name="organizations-and-organizational-hierarchies"></a>组织和组织层次结构
 
 [!include [banner](../includes/banner.md)]
@@ -36,7 +35,7 @@ ms.lasthandoff: 11/03/2017
 
 在 Microsoft Dynamics 365 for Finance and Operations 中，您可以定义以下类型的内部组织：法人、运营单位和团队。
 
-所有内部组织都为“**聚会**”实体的类型。 因此，这些组织使用通讯簿功能储存地址和联系信息。 当事人（可以是人员或组织）可以属于一个或多个通讯簿。
+所有内部组织都为**聚会**实体的类型。 因此，这些组织使用通讯簿功能储存地址和联系信息。 当事人（可以是人员或组织）可以属于一个或多个通讯簿。
 
 ### <a name="legal-entities"></a>法人
 
@@ -48,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 
 运营单位是用来拆分企业中的经济资源和运营流程的控件的组织。 运营单位中的人有义务最大化对稀有资源的使用、改进流程和记录他们的业绩。
 
-在 Microsoft Dynamics 365 for Finance and Operations 中，运营单位的类型包括成本中心、业务单位、价值流、部门和零售渠道。 下表提供了有关每个类型的运营单位的详细信息。
+在 Microsoft Dynamics 365 for Finance and Operations 中，运营单位的类型包括成本中心、业务单位、价值流、部门以及零售渠道。 下表提供了有关每个类型的运营单位的详细信息。
 
 | 运营单位类型 | 描述 | 用途 |
 |---------------------|-------------|---------|
@@ -69,4 +68,3 @@ ms.lasthandoff: 11/03/2017
 每个层次结构都将分配 Microsoft Dynamics 365 for Finance and Operations 的用途。 层次结构用途确定可以包括在层次结构中的组织的类型。 该用途还决定着哪些应用程序方案能够在该层次结构中使用。
 
 层次结构中的组织可以共享参数、策略和交易记录。 组织可以继承或覆盖其父级组织的参数。 但是，产品和地址簿等共享的主数据适用于整个组织，但是不能被单个组织覆盖。 创建组织和层次结构要求详细计划。 有关详细信息，请参阅[计划组织层次结构](plan-organizational-hierarchy.md)。
-

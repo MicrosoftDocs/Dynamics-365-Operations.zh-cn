@@ -1,13 +1,13 @@
 ---
-title: "员工发展 Power BI 内容"
-description: "此主题描述员工发展 Power BI 内容。"
+title: 员工发展 Power BI 内容
+description: 此主题描述员工发展 Power BI 内容。
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6b934b87cb5098641fba8c5b9214a0b2b6cde40d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347161"
 ---
-
 # <a name="employee-development-power-bi-content"></a>员工发展 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -70,4 +69,3 @@ ms.lasthandoff: 08/13/2018
 | 员工技能分析  | 已认证、级别、级别日期和技能                                                                    | 员工姓名、技能 |
 | 绩效              | 评级，描述和评级模型                                                                      | 当前员工、当前职位、员工趋势、作业首选技能、过去的职位分配、职位趋势、已离职的员工 |
 | 技能                    | 技能、技能类型和评级                                                                              | 员工技能分析、作业首选技能 |
-

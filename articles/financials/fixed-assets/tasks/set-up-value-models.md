@@ -1,13 +1,13 @@
---- 
-title: "设置价值模型"
-description: "此过程显示如何创建新固定资产帐簿并将其与固定资产组关联。"
+---
+title: 设置价值模型
+description: 此过程显示如何创建新固定资产帐簿并将其与固定资产组关联。
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, AssetGroupBookSetup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e067173b27488422fd05ad45f37528f00f04a2bd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311787"
 ---
 # <a name="set-up-value-models"></a>设置价值模型
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/14/2018
 3. 在“使用年限”字段中，输入一个数字。
     * 请注意，在设置使用年限后，计算“折旧期间”。  
     * 您可以为税务目的将折扣惯例设置为必需。  
-
 

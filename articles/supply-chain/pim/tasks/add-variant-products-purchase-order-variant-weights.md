@@ -1,13 +1,13 @@
---- 
-title: "使用可变权重将变型产品添加到采购订单"
-description: "此程序会逐步演示如何使用变型权重，自动填充每个产品变型的采购订单行。"
+---
+title: 使用可变权重将变型产品添加到采购订单
+description: 此程序会逐步演示如何使用变型权重，自动填充每个产品变型的采购订单行。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 446260a09bd5177877637ac8a288ad584dfa2b2b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3db13646c82ea6dc6949aaa714a5769f9c5ad2a9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345482"
 ---
 # <a name="add-variant-products-to-purchase-orders-using-variant-weights"></a>使用可变权重将变型产品添加到采购订单
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 16. 在“物料编号”字段中，输入“0140”。
 17. 将“数量”设置为“1000”。
 18. 单击“保存”。
-
 

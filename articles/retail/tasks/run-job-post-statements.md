@@ -1,13 +1,13 @@
---- 
-title: "配置和运行作业以过帐报表"
-description: "此程序会逐步演示如何配置和运行某一重复批处理作业，以过帐选定商店或商店组的报表。"
+---
+title: 配置和运行作业以过帐报表
+description: 此程序会逐步演示如何配置和运行某一重复批处理作业，以过帐选定商店或商店组的报表。
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelOperationsWorkspace, RetailOperatingUnitPicker, SysRecurrence
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 676216d90c50c0d3fa1a839cab7a734e624708ba
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346287"
 ---
 # <a name="configure-and-run-job-to-post-statements"></a>配置和运行作业以过帐报表
 
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/14/2018
     * 选择您是否想要在特定运行数量或特定日期之后结束重复，或从不结束重复。 然后选择不同选项，以定义您希望作业的运行频率是什么。  
 8. 单击“确定”。
 9. 单击“确定”。
-
 

@@ -1,13 +1,13 @@
---- 
-title: "雇用验证 i9 验证"
-description: "《移民改革和控制法案》要求美国雇主验证新雇用员工的雇用资格状态。"
+---
+title: 雇用验证 i9 验证
+description: 《移民改革和控制法案》要求美国雇主验证新雇用员工的雇用资格状态。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmPersonIdentificationNumber, Hcmi9Document
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4d7346507179d237f60459978b9b7c6351f48611
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333315"
 ---
 # <a name="employment-verification-i9-verification"></a>雇用验证 i9 验证
 
@@ -54,5 +54,4 @@ ms.lasthandoff: 09/14/2018
 21. 在“I-9 文件类型”字段中，选择该员工提供的文件类型。
 22. 在“单据编号”字段中，输入或选择一个值。
 23. 单击“保存”。
-
 

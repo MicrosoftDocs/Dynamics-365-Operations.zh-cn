@@ -1,13 +1,13 @@
---- 
-title: "ER 创建从外部文件导入数据所需配置"
-description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入 Dynamics 365 for Finance and Operations Enterprise Edition 应用程序中。"
+---
+title: ER 创建从外部文件导入数据所需配置
+description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入 Dynamics 365 for Finance and Operations Enterprise edition 应用程序中。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERSolutionCreateDropDialog, EROperationDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula, Tax1099Summary, VendSettlementTax1099
 audience: Application User
 ms.reviewer: kfend
@@ -16,20 +16,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6675f35c9ec163a620e63af32ecdbff02197d3c3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "337363"
 ---
 # <a name="er-create-required-configurations-to-import-data-from-an-external-file"></a>ER 创建从外部文件导入数据所需配置
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入 Dynamics 365 for Finance and Operations Enterprise Edition 应用程序中。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成任务指南“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 可使用 USMF 数据集完成这些步骤。 还必须使用“电子申报概述”主题中的链接下载以下文件并保存到本地 (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml、1099format.xml、1099entries.xml、1099entries.xlsx。
+以下步骤说明属于系统管理员或电子报表开发人员的用户如何设计电子报表 (ER) 配置，以便将数据从外部文件导入 Dynamics 365 for Finance and Operations Enterprise edition 应用程序中。 在此示例中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成任务指南“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 可使用 USMF 数据集完成这些步骤。 还必须使用“电子申报概述”主题中的链接下载以下文件并保存到本地 (https://go.microsoft.com/fwlink/?linkid=852550): 1099model.xml、1099format.xml、1099entries.xml、1099entries.xlsx。
 
-    * ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入 Dynamics 365 for Finance and Operations Enterprise Edition 中的表的过程。 首先，必须设计抽象数据模型和 ER 数据模型配置来表示要导入的数据。 接下来，需要定义要导入的文件的结构和将用于把数据从文件移植到抽象数据模型的方法。 必须为该抽象数据模型创建映射到设计的数据模型的 ER 格式配置。 然后，必须使用映射扩展数据模型，该映射介绍导入的数据如何作为抽象数据模型长期存在和如何在 Dynamics 365 for Finance and Operations Enterprise Edition 中用于更新表。  必须为 ER 数据模型配置追加一个新模型映射，该映射介绍如何将数据模型绑定到应用程序的目标。  
+    * ER 让用户可以配置将外部数据文件以 .XML 或 .TXT 格式导入 Dynamics 365 for Finance and Operations Enterprise edition 中的表的过程。 首先，必须设计抽象数据模型和 ER 数据模型配置来表示要导入的数据。 接下来，需要定义要导入的文件的结构和将用于把数据从文件移植到抽象数据模型的方法。 必须为该抽象数据模型创建映射到设计的数据模型的 ER 格式配置。 然后，必须使用映射扩展数据模型，该映射介绍导入的数据如何作为抽象数据模型长期存在和如何在 Dynamics 365 for Finance and Operations Enterprise edition 中用于更新表。  必须为 ER 数据模型配置追加一个新模型映射，该映射介绍如何将数据模型绑定到应用程序的目标。  
     * 以下方案演示 ER 数据导入功能。 其中包括在外部跟踪，然后导入 Dynamics 365 for Finance and Operations Enterprise Edition，以便以后在 1099 的供应商结算中报告的供应商交易。   
 
 ## <a name="add-a-new-er-model-configuration"></a>添加新 ER 模型配置
@@ -177,17 +177,16 @@ ms.lasthandoff: 09/14/2018
 18. 关闭该页面。
 19. 关闭该页面。
 20. 单击“编辑”。
-    * 如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 for Finance and Operations，Enterprise edition 上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 )，请为输入的格式配置执行下一步“开启标记‘模型映射的默认值’”、 否则跳过下一步。  
+    * 如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 for Finance and Operations Enterprise edition 上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)，请为输入的格式配置执行下一步“开启标记‘模型映射的默认值’”、 否则跳过下一步。  
 21. 在“模型映射的默认值”字段中选择“是”。
 22. 在树结构中，选择“1099 付款模型”。
 23. 单击“设计器”。
 24. 单击“映射模型到数据源”。
 25. 单击“运行”。
-    * 如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 for Finance and Operations，Enterprise edition 上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871 )，请在查找字段中选择首选模型映射、 如果您尚未安装此修补程序，请跳至下一步，因为默认格式配置的定义已选择了映射。  
+    * 如果您安装了修补程序“KB 4012871 在单独的配置中支持 GER 模型映射，以便可以为在不同版本的 Dynamics 365 for Finance and Operations Enterprise edition 上部署指定不同类型的先决条件”(https://fix.lcs.dynamics.com/Issue/Resolved?kb=4012871)，请在查找字段中选择首选模型映射。 如果您尚未安装此修补程序，请跳至下一步，因为默认格式配置的定义已选择了映射。  
     * 如果您尚未安装修补程序 KB 4012871，请注意对话框中还包含一个模型映射问题，用于解析您要导入的文件。 然后将数据从对话框移植到数据模型。 目前，您可以根据计划导入的文件类型选择必须使用哪种格式映射。  
     * 如果您计划从 Dynamics 365 for Finance and Operations Enterprise Edition 中专为此操作设计的某一点调用此模型映射，则必须将 ER 目标和格式映射标记为集成的组成部分。  
 26. 单击“取消”。
 27. 关闭该页面。
 28. 关闭该页面。
-
 

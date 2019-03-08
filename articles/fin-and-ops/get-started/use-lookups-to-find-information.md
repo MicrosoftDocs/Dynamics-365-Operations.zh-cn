@@ -1,13 +1,13 @@
 ---
-title: "使用查询查找信息"
-description: "在 Microsoft Dynamics 365 for Finance and Operations 中，许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。"
+title: 使用查询来查找信息
+description: 在 Microsoft Dynamics 365 for Finance and Operations 中，许多字段有查询功能，可帮助您轻松找到正确或需要的值。 已为查询增加了多项增强，提高了这些控件的可用性，提高了用户的工作效率。 在此主题中，您将了解这些新的查询功能，以及一些有用的提示，从而充分利用系统中的查询功能。
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a0722f057c1613fdc03281ca68a90608a701aef
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 9de957490b2ca87949a7cbcecc9acb4e8b98aaaf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328347"
 ---
-
-# <a name="find-information-by-using-lookups"></a>使用查询查找信息
+# <a name="find-information-by-using-lookups"></a>使用查询来查找信息
 
 [!include [banner](../includes/banner.md)]
 
@@ -85,4 +84,3 @@ ms.lasthandoff: 08/08/2018
 应用筛选器之后（见下图），用户可以照常找到并选择行。
 
 ![filtereditemlookup](./media/filtereditemlookup.png)
-

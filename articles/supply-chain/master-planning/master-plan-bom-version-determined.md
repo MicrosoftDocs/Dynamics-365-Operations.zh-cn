@@ -1,13 +1,13 @@
 ---
-title: "确定物料清单版本"
-description: "在需求分解过程中，如果某一物料具有“生产”这一默认订单类型，计划引擎将基于站点查找有效的物料清单版本。"
+title: 确定物料清单版本
+description: 在需求分解过程中，如果某一物料具有“生产”这一默认订单类型，计划引擎将基于站点查找有效的物料清单版本。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, BOMDesigner, InventItemOrderSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cf125e2b75c4dfa406f4f05b249e6fdb49c84b7d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7e6745a52138e545b557fa1aa286cd49481b2ecd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325081"
 ---
-
 # <a name="determine-the-bom-version"></a>确定物料清单版本
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,6 @@ ms.lasthandoff: 11/03/2017
 -   如果没有可供使用的通用物料清单，需求分解将到此为止。
 
 有效的物料清单版本，不论是特定于站点还是通用，都必须符合要求的日期和数量条件。
-
 
 
 

@@ -1,32 +1,31 @@
 ---
-title: "主计划主页"
-description: "主计划允许公司确定和平衡原材料和产能的将来需求，以实现公司目标。"
+title: 主计划主页
+description: 主计划允许公司确定和平衡原材料和产能的将来需求，以实现公司目标。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/03/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 99c10649d7683265fcac86c1825c5a965bbdb415
 ms.openlocfilehash: 1a294327149cf46202fed8b63377ee77f13c11d5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314777"
 ---
-
 # <a name="master-planning-home-page"></a>主计划主页
 
 [!include [banner](../includes/banner.md)]
@@ -84,7 +83,6 @@ ms.lasthandoff: 12/04/2018
 -  [扩展需求预测功能](https://www.youtube.com/watch?v=4OIKIXLiNjI&feature=youtu.be)
 -  [主计划 - 有关性能疑难解答的提示和窍门](https://youtu.be/7v8BPmEs9Dg)
 -  [求助! MRP 太慢！](https://youtu.be/RLXybx20B5o)
-
 
 
 

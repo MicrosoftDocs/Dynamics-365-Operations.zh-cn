@@ -1,13 +1,13 @@
 ---
-title: "财务绩效 PowerBI.com 解决方案"
-description: "此主题描述财务绩效 PowerBI.com 解决方案。"
+title: 财务绩效 PowerBI.com 解决方案
+description: 此主题描述财务绩效 PowerBI.com 解决方案。
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 78512e39e82e24f94dae93bbac116e6f07d25438
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315099"
 ---
-
 # <a name="financial-performance-powerbicom-solution"></a>财务绩效 PowerBI.com 解决方案
 
 [!include [banner](../includes/banner.md)]
@@ -90,4 +89,3 @@ ms.lasthandoff: 08/13/2018
 - ChartofAccounts
 
 这些实体用于在数据模型中创建计算度量值。 计算的度量值用于计算在内容中使用的关键绩效指标 (KPI) 和报表。 默认情况下，内容提供过去三年和未来一年的数据。 若要在报表和仪表板中包括其他计算，您可以修改 [Microsoft Excel 工作簿](https://mbs.microsoft.com/customersource/global/AX/downloads/reports/msdaxfinpercontentpowerbi)。 此工作簿是用于创建内容的默认数据模型。
-

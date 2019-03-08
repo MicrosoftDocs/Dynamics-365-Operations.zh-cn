@@ -1,13 +1,13 @@
 ---
-title: "使用 ER 创建电子单据和更新应用程序数据"
-description: "您可以设计可在 Finance and Operations 应用中用来生成传出电子文档的电子申报 (ER) 格式。 您还可以设计用于分析传入电子文档并使用这些文档中的内容更新应用程序数据的 ER 格式。"
+title: 使用 ER 创建电子单据和更新应用程序数据
+description: 您可以设计可在 Finance and Operations 应用中用来生成传出电子文档的电子申报 (ER) 格式。 您还可以设计用于分析传入电子文档并使用这些文档中的内容更新应用程序数据的 ER 格式。
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERVendorTable, ERWorkspace
 audience: Developer, IT Pro, Application user
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2a989b0000766478c71b243d7793b2fc8c4ece28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 6bb2b2480b619a8aee72c2d65052ed419c9a7c7d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349208"
 ---
-
 # <a name="generate-electronic-documents-and-update-application-data-by-using-er"></a>使用 ER 创建电子单据和更新应用程序数据
 
 [!include [banner](../includes/banner.md)]
@@ -42,4 +41,3 @@ ms.lasthandoff: 08/08/2018
 - [ER 数据模型配置：内部统计（模型）](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER 模型映射配置：内部统计（映射）](https://go.microsoft.com/fwlink/?linkid=849038)
 - [ER 格式配置：内部统计（格式）](https://go.microsoft.com/fwlink/?linkid=849038)
-

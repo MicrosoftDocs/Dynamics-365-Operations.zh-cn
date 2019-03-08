@@ -1,31 +1,30 @@
 ---
-title: "时间范围"
-description: "您可以使用时间范围优化服务订单行的计划。"
+title: 时间范围
+description: 您可以使用时间范围优化服务订单行的计划。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMATimeAgreement
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6f748268f6cb85ff835919485da2828689eee23c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: b7268870aa9065e4e52d936e819107094bad3663
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/20/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347207"
 ---
-
 # <a name="time-windows"></a>时间范围  
 
 [!include [banner](../includes/banner.md)]
@@ -45,5 +44,4 @@ ms.lasthandoff: 02/20/2018
 ## <a name="related-topics"></a>相关主题
 
 [创建时间范围](create-time-windows.md)
-
 

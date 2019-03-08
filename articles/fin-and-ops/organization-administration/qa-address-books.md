@@ -1,13 +1,13 @@
 ---
-title: "通讯簿常见问题"
-description: "本主题提供对 Microsoft Dynamics 365 for Finance and Operations 中有关通讯簿的常见问题的解答。"
+title: 通讯簿常见问题
+description: 本主题提供对 Microsoft Dynamics 365 for Finance and Operations 中有关通讯簿的常见问题的解答。
 author: kfend
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartyCheckDuplicate, DirPartyTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: bb0239fd9bd80ae15bd2cca08d5a5f5258aef638
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337800"
 ---
-
 # <a name="address-books-faq"></a>通讯簿常见问题
 
 [!include [banner](../includes/banner.md)]
@@ -68,5 +67,4 @@ ms.lasthandoff: 12/18/2018
 
 ## <a name="can-i-translate-address-information-for-party-records"></a>是否可以转换当事方记录的地址信息？
 
-您可以设置地址信息的转换以便该信息在 Microsoft Dynamics 365 for Finance and Operations 中用您的用户语言（系统语言）显示，但在文档上用其他语言，如销售订单。 您可以输入国家/地区名称的转换、地址目的和姓名顺序。 例如，您的系统语言为丹麦语，并且您用法语为客户创建销售订单。 在这种情况下，您可以在程序中用丹麦语查看客户记录，但在打印的销售订单上用法语显示地址信息。 在您设置转换时，在列表中应输入每个物料的一个转换。 未输入转换的所有物料将出现在系统语言。 例如，您的系统语言为丹麦语，并且您用西班牙语发送文档到一个客户。 如果您未输入地址信息的西班牙语 (ESP) 转换，该信息在程序中和文档上用丹麦语显示。
-
+您可以设置地址信息的转换以便该信息在 Microsoft Dynamics 365 for Finance and Operations 中用您的用户语言（系统语言）显示，不过在文档上用其他语言，如用销售订单。 您可以输入国家/地区名称的转换、地址目的和姓名顺序。 例如，您的系统语言为丹麦语，并且您用法语为客户创建销售订单。 在这种情况下，您可以在程序中用丹麦语查看客户记录，但在打印的销售订单上用法语显示地址信息。 在您设置转换时，在列表中应输入每个物料的一个转换。 未输入转换的所有物料将出现在系统语言。 例如，您的系统语言为丹麦语，并且您用西班牙语发送文档到一个客户。 如果您未输入地址信息的西班牙语 (ESP) 转换，该信息在程序中和文档上用丹麦语显示。

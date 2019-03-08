@@ -1,13 +1,13 @@
---- 
-title: "设置销售税组和物料销售税组"
-description: "此任务记录向您介绍销售税和物料销售税组的设置。"
+---
+title: 设置销售税组和物料销售税组
+description: 此任务记录向您介绍销售税和物料销售税组的设置。
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxGroup,  TaxItemGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ec5bbe37aa06f18172c417e903538cadc8a6f312
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4d7f1093edcfff65fd466fa8138b1bb5203648b3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320044"
 ---
 # <a name="set-up-sales-tax-groups-and-item-sales-tax-groups"></a>设置销售税组和物料销售税组
 
@@ -49,5 +49,4 @@ ms.lasthandoff: 09/29/2017
 18. 在“销售税代码”字段中，单击下拉按钮以打开查找。
 19. 在列表中，单击所选行中的链接。
 20. 单击“保存”。
-
 

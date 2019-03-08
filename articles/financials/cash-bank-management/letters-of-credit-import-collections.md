@@ -1,13 +1,13 @@
 ---
-title: "信用证和进口托收"
-description: "本文提供有关信用证和进口托收的一般信息。 两种银行单据类型经常用于跨国界限的货物采购和销售。"
+title: 信用证和进口托收
+description: 本文提供有关信用证和进口托收的一般信息。 两种银行单据类型经常用于跨国界限的货物采购和销售。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankLCImport
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2b5deef65cc4af2fdfee6549660527007c3bed3a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ebabff4d467df54b2e79485ba3a16344435140e6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323034"
 ---
-
 # <a name="letters-of-credit-and-import-collections"></a>信用证和进口托收
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ ms.lasthandoff: 11/03/2017
 进口托收是银行和出口商（卖方）直接的协议，在其中银行同意将装运文档传送到国际进口商（买方）。 银行预期根据以现金显示的已装运货物的付款收据或根据针对付款的签名收据传送装运文档。 
 
 进口托收帮助确保卖家付款（当买家收集装运文档以获取进口货物交货时）。
-
 
 
 

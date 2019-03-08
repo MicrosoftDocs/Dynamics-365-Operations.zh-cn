@@ -1,13 +1,13 @@
 ---
-title: "供应商工作流"
-description: "修改供应商信息和使用工作流进行审核。"
+title: 供应商工作流
+description: 修改供应商信息和使用工作流进行审核。
 author: mikefalkner
 manager: annbe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Vendor
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 950a1852acf9f3e4747ce2d55738c0eb3a646897
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329681"
 ---
-
 # <a name="vendor-workflow"></a>供应商工作流
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,7 @@ ms.lasthandoff: 08/31/2018
 
 ## <a name="change-vendor-information-and-submit-the-changes-to-the-workflow"></a>更改供应商信息并将更改提交给工作流
 
-更改为工作流启用的字段时，将显示**建议的更改**页。 此页显示字段的原始值和您输入的新值。 将把您更改的字段恢复为原始值。 还会通过状态消息告知您尚未提交您的更改。 
+更改为工作流启用的字段时，将显示**建议的更改**页。 此页面显示字段的原始值和您输入的新值。 将把您更改的字段恢复为原始值。 还会通过状态消息告知您尚未提交您的更改。 
 
 只要更改了为工作流启用的字段，都将把该字段添加到**建议的更改**页上的列表中。 若要放弃字段的建议值，请使用列表中该字段旁边的**放弃**按钮。 若要放弃所有更改，请使用页面底部的**放弃所有更改**按钮。 选择**确定**关闭页面。
 
@@ -59,7 +58,6 @@ ms.lasthandoff: 08/31/2018
 1. 选择 **建议的更改**打开**建议的更改** 页并查看您的更改。
 2. 选择**工作流 \> 提交**以提交对工作流的更改。
 
-    页面上的状态更改为**更改待审核**。
+    页面上的状态将更改为**更改待审核**。
 
-此工作流执行 Microsoft Dynamics 365 for Finance and Operations 中的标准工作流流程。 将把审核者定向到**供应商**页面，可在此处查看**建议的更改**页中的更改，然后选择**工作流 \> 审核**以审核工作流。 完成所有审核之后，将使用您建议的值更新字段。
-
+工作流执行 Microsoft Dynamics 365 for Finance and Operations 中的标准工作流程。 将把审核者定向到**供应商**页面，可在此处查看**建议的更改**页中的更改，然后选择**工作流 \> 审核**以审核工作流。 在完成所有审核后，字段将更新为您建议的值。

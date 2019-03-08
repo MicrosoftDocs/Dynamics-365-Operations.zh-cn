@@ -1,13 +1,13 @@
 ---
-title: "合并公司中的币种重估"
-description: "此主题描述如何重估合并公司中的币种。"
+title: 合并公司中的币种重估
+description: 此主题描述如何重估合并公司中的币种。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerExchAdjHist
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: hminzner
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: ad0083018d2734cb1e36cbf5f94105376c57cdf9
 ms.openlocfilehash: 76290564037ab6f5c7a1cd4508a819bd603e8148
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/02/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338743"
 ---
-
 # <a name="currency-revaluation-in-a-consolidation-company"></a>合并公司中的币种重估
 
 [!include [banner](../includes/banner.md)]
@@ -85,7 +84,6 @@ ms.lasthandoff: 10/02/2018
 | 130100         | 欧元      | -500.00 | 原金额为 -500 × 1                          |
 | 801400         | 欧元      | 250     | 500 – 333.33 = 166.67 166.67 + 83.33 = 250           |
 | 801600         | 欧元      | -250    | -500 – (-333.33) = -166.67 -166.67 + (-83.33) = -250 |
-
 
 
 

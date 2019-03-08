@@ -1,14 +1,14 @@
 ---
-title: "Attract 的可扩展性"
-description: "此主题介绍如何使用 Microsoft Power Platform 扩展 Microsoft Dynamics 365 for Talent - Attract 应用程序。"
+title: Attract 的可扩展性
+description: 此主题介绍如何使用 Microsoft Power 平台扩展 Microsoft Dynamics 365 for Talent - Attract 应用程序。
 author: josaw
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,23 +18,22 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: d9e1dd3a67c5f64b5d05f0f171226085138e0b44
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
-ms.openlocfilehash: 0af60a0aea0f7a5de793631445aaebb37dbb0d74
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303397"
 ---
-
 # <a name="extensibility-in-attract"></a>Attract 的可扩展性
 
 [!include[banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent 在 Common Data Service (CDS) for Apps 平台基础上构建，可以使用 Microsoft Power Platform 和 Common Data Service for Apps 提供的功能以各种方式扩展。 因此，您可以使用 Microsoft PowerApps 和 Microsoft Flow 来配置和个性化系统。 还可以使用 Microsoft Power BI 获取有关人员的附加分析。 此外，PowerApps 和 Web 内容 (iframe) 活动等新的自定义活动让招聘流程的适应性比以往更强。 通过使用这些活动，您可以针对您的业务需要和流程来定制招聘流程，并且可以确保招聘团队和应聘者具有无缝的自定义体验。
+Microsoft Dynamics 365 for Talent 在 Common Data Service (CDS) for Apps 平台基础上构建，可以使用 Microsoft Power 平台和 Common Data Service for Apps 提供的功能以各种方式扩展。 因此，您可以使用 Microsoft PowerApps 和 Microsoft Flow 来配置和个性化系统。 还可以使用 Microsoft Power BI 获取有关人员的附加分析。 此外，PowerApps 和 Web 内容 (iframe) 活动等新的自定义活动让招聘流程的适应性比以往更强。 通过使用这些活动，您可以针对您的业务需要和流程来定制招聘流程，并且可以确保招聘团队和应聘者具有无缝的自定义体验。
 
 ## <a name="take-advantage-of-the-microsoft-power-platform"></a>利用 Microsoft Power Platform 
 
-由于 Attract 的所有数据均位于 Common Data Service for Apps 中，您可以使用 Microsoft Power Platform 的工具来将您的独特业务需求合并到 Attract 中。
+由于 Attract 的所有数据均位于 Common Data Service for Apps 中，您可以使用 Microsoft Power 平台的工具来将您的独特业务需求合并到 Attract 中。
 
 ### <a name="powerapps"></a>PowerApps
 
@@ -67,4 +66,3 @@ Web 内容 (iframe) 活动允许您嵌入在招聘流程或应聘者门户构建
 
 > [!NOTE]
 > Web 内容活动仅通过综合招聘附件提供。
-

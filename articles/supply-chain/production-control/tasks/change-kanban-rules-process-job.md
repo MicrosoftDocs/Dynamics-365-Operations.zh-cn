@@ -1,13 +1,13 @@
---- 
-title: "更改处理作业的看板规则"
-description: "该过程旨在更改一个给定看板的惯用看板规则。"
+---
+title: 更改处理作业的看板规则
+description: 该过程旨在更改一个给定看板的惯用看板规则。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, KanbanJobSchedulingListPage, LeanRuleReassignmentWizard, KanbanReassignRuleLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 38d9ff0a7d6aeb0a589fd6b9ab34b818c46644cc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7f8b2a67e03a64deae9d4bc9c7e3e714d134443c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314938"
 ---
 # <a name="change-kanban-rules-for-a-process-job"></a>更改处理作业的看板规则
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
     * 选择之前所创建的看板规则。 这是看板规则的最高值。  
 7. 单击“完成”。
     * 现在该看板作业正在使用另一种看板规则。 此适用于水平负荷工作单元。  
-
 

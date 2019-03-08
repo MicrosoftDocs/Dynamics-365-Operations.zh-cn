@@ -1,13 +1,13 @@
---- 
-title: "从应付账款创建和购置资产"
-description: "本指到任务帮助了解如何遵照采购流程来创建和购置固定资产。 "
+---
+title: 从应付账款创建和购置资产
+description: '本指到任务帮助了解如何遵照采购流程来创建和购置固定资产。 '
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetParameters, VendInvoiceWorkspace, VendEditInvoice, VendTableLookup, InventItemIdLookupSimple, AssetTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e6c36338cc67855c79ec97d88bb8b633417b85c7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316410"
 ---
 # <a name="create-and-acquire-assets-from-accounts-payable"></a>从应付账款创建和购置资产
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 09/14/2018
 17. 在列表中，单击所选行中的链接。
 18. 单击“过帐”。
     * 在过帐发票时，将会创建和购置固定资产。  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "通过从现有配方复制来创建配方"
-description: "该过程显示如何通过复制现有配方，快速创建新的配方。"
+---
+title: 通过从现有配方复制来创建配方
+description: 该过程显示如何通过复制现有配方，快速创建新的配方。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable, BOMRouteCopyDialog, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c831f3ac78e5ee7b348c72b9e7ebc699a62ec013
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d34ca5befd04b0f82bf9564fd3976f4c2daab0ce
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328922"
 ---
 # <a name="create-a-formula-by-copying-from-an-existing-formula"></a>通过从现有配方复制来创建配方
 
@@ -56,5 +56,4 @@ ms.lasthandoff: 09/29/2017
 2. 在“已审核”字段中，输入或选择一个值。
 3. 单击“确定”。
 4. 关闭该页面。
-
 

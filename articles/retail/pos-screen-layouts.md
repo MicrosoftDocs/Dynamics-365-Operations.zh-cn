@@ -1,13 +1,13 @@
 ---
-title: "销售点 (POS) 的屏幕布局"
-description: "此主题提供有关 Microsoft Dynamics 365 for Retail 销售点 (POS) 体验的屏幕布局的信息。"
+title: 销售点 (POS) 的屏幕布局
+description: 此主题提供有关 Microsoft Dynamics 365 for Retail 销售点 (POS) 体验的屏幕布局的信息。
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 91d6e34c25710716788542dabb3bd7d935b2d4ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dda9c8cb7f3da99fb2e7df0372e59769cfaf77d1
-ms.openlocfilehash: ced27adb8fe481270cb008e187693cda96773339
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321884"
 ---
-
 # <a name="screen-layouts-for-the-point-of-sale-pos"></a>销售点 (POS) 的屏幕布局
 
 [!include [banner](includes/banner.md)]
@@ -194,4 +193,3 @@ ms.lasthandoff: 11/13/2018
 ## <a name="additional-resources"></a>其他资源
 
 [安装 Retail POS 布局设计器](install-pos-layout-designer.md)
-

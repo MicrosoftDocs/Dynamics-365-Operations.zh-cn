@@ -1,13 +1,13 @@
---- 
-title: "创建内部公司计划"
-description: "此过程显示如何创建内部公司计划。"
+---
+title: 创建内部公司计划
+description: 此过程显示如何创建内部公司计划。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup,  ReqCreatePlanWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: d378a89bbb4de6d67db0019dc72a27945d50c4e9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: da186f7ad74bb607fd6e7220d77c2f414789f29c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333729"
 ---
 # <a name="create-an-intercompany-plan"></a>创建内部公司计划
 
@@ -60,5 +60,4 @@ ms.lasthandoff: 09/29/2017
 2. 在列表中，单击所选行中的链接。
     * 单击 StaticPlan 的链接。 您需要是 USMF 公司的。  
 3. 单击“计划订单”。
-
 

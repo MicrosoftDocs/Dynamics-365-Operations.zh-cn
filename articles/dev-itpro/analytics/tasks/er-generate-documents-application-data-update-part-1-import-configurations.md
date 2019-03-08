@@ -1,13 +1,13 @@
---- 
-title: "导入配置以生成包含应用程序数据的单据"
-description: "为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。"
+---
+title: 导入配置以生成包含应用程序数据的单据
+description: 为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。
 author: NickSelin
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340790"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>导入配置以生成包含应用程序数据的单据
 
@@ -75,5 +75,4 @@ ms.lasthandoff: 08/08/2018
 29. 在树中，选择“文件”。
     * 检查用于生成内部统计报表的格式的结构。 请注意，这设计为通过填充来自数据模型的数据生成 XML 文件，该文件基于根项“用于传出单据”。 验证用户对话框窗体（为其使用了“fn”数据源）中是否定义了所生成文件的名称。   
 30. 关闭该页面。
-
 

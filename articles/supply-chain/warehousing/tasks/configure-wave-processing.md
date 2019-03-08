@@ -1,13 +1,13 @@
---- 
-title: "配置波次处理"
-description: "此指南描述了如何设置确定在处理波次时为仓库生成的工作的条件，以及是手动还是自动处理波次。"
+---
+title: 配置波次处理
+description: 此指南描述了如何设置确定在处理波次时为仓库生成的工作的条件，以及是手动还是自动处理波次。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWaveTemplateTable, InventLocationIdLookup, WHSParameters, ProdParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399146d35388a0151abb23e57bc36ec0173be928
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f7a6db585468c235e07c4a0117a83995ec93f4b0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337501"
 ---
 # <a name="configure-wave-processing"></a>配置波次处理
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 24. 在“发放到仓库”字段中，选择一个选项。
     * 对于销售订单和看板订单，在订单发放到仓库前，必须预留库存。 否则，无法以波次处理物料或分配行。 对于生产订单，您还可以选择“允许部分预留”。 例如，如果您有开始生产所需的材料，然后可以等待附加材料变为可用以完成此流程，这很有用。 如果选择此选项，则当附加材料变为可用时必须手动重复对仓库流程的发放。  
 25. 关闭该页面。
-
 

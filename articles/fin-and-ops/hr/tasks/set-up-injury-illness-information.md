@@ -1,13 +1,13 @@
---- 
-title: "设置伤害和疾病信息"
-description: "雇主需要了解员工受伤或者生病是否是由于工作场所的危险而造成的。"
+---
+title: 设置伤害和疾病信息
+description: 雇主需要了解员工受伤或者生病是否是由于工作场所的危险而造成的。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjurySetup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9fcc924e11ac17b561c5f5840a4fe1b183a8232d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316019"
 ---
 # <a name="set-up-injury-and-illness-information"></a>设置伤害和疾病信息
 
@@ -64,5 +64,4 @@ ms.lasthandoff: 09/14/2018
 22. 单击“报告机构”选项卡。
     * 报告机构是指需要向其报告事故的机构。 在复选框中选择该机构为默认项，该机构为报告受伤与疾病的默认机构。  
 23. 单击“保存”。
-
 

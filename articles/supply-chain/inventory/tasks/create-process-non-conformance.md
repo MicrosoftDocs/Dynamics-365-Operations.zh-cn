@@ -1,13 +1,13 @@
 ---
-title: "创建和处理符合项"
-description: "使用此过程可以执行不符合项管理，基于现有的质检订单。"
+title: 创建和处理符合项
+description: 使用此过程可以执行不符合项管理，基于现有的质检订单。
 author: perlynne
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e5187c44aac881273900b2fc0ca91045a65cd838
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336282"
 ---
 # <a name="create-and-process-a-conformance"></a>创建和处理符合项
 
@@ -78,4 +78,3 @@ ms.lasthandoff: 09/29/2017
 3. 单击“是”。
 4. 关闭该页面。
 5. 关闭该页面。
-

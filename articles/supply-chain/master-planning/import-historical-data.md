@@ -1,13 +1,13 @@
 ---
-title: "导入需求预测的历史数据"
-description: "若要获取准确的需求预测，您需要每个物料或物料分配参数的历史需求数据。 本主题说明如何使用数据实体从任何一个系统导入历史需求数据，以便您具有需求预测数据的更长历史记录。"
+title: 导入需求预测的历史数据
+description: 若要获取准确的需求预测，您需要每个物料或物料分配参数的历史需求数据。 本主题说明如何使用数据实体从任何一个系统导入历史需求数据，以便您具有需求预测数据的更长历史记录。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 05/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 018694c79c6dd64e19b010848aad8acd36b0a9a8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e7975003620d951717c66144c8d0521de0f69158
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328600"
 ---
-
 # <a name="import-historical-data-for-demand-forecasts"></a>导入需求预测的历史数据
 
 [!include [banner](../includes/banner.md)]
@@ -60,4 +59,3 @@ ms.lasthandoff: 05/08/2018
 ## <a name="additional-resources"></a>其他资源
 
 [生成统计基准预测](generate-statistical-baseline-forecast.md)
-

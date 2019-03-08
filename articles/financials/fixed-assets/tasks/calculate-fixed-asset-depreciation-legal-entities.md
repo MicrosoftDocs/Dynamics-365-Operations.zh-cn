@@ -1,13 +1,13 @@
---- 
-title: "计算各个法人的固定资产折旧"
-description: "固定资产折旧可以一步跨多个法人运行。"
+---
+title: 计算各个法人的固定资产折旧
+description: 固定资产折旧可以一步跨多个法人运行。
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetParameters, AssetProposalDepreciation, DefaultDashboard, LedgerJournalTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b2575354af322827972ffa650e9c732170c5a6eb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316985"
 ---
 # <a name="calculate-fixed-asset-depreciation-across-legal-entities"></a>计算各个法人的固定资产折旧
 
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/14/2018
     * “批处理”选项默认情况下启用。 启用此选项后，折旧日记帐创建和过帐将在后台运行。  
 5. 单击“创建日记帐”。
 6. 转到固定资产>流水输入项>固定资产流水。
-
 

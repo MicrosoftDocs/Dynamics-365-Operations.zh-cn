@@ -1,13 +1,13 @@
 ---
-title: "设置和处理重复发票"
-description: "本文说明如何设置和处理重复发票。 如果您必须定期为客户开具相同金额的发票，可以使用重复发票。"
+title: 设置和处理重复发票
+description: 本文说明如何设置和处理重复发票。 如果您必须定期为客户开具相同金额的发票，可以使用重复发票。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustInvoiceTemplate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 5c5fbe1791161b8d06cd1539b1717ba8690a8e05
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350197"
 ---
-
 # <a name="set-up-and-process-recurring-invoices"></a>设置和处理重复发票
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ ms.lasthandoff: 11/03/2017
 ----------------------------------
 
 在重复发票过帐后，可以从普通发票列表页打印发票。 您可以打印选择的发票，或者可以选择要打印的发票范围。
-
 
 
 

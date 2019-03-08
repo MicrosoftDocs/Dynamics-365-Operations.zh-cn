@@ -1,13 +1,13 @@
---- 
-title: "通过招聘雇用候选人"
-description: "此过程使得招聘人员能够雇用通过特定招聘项目提交申请表的申请人。"
+---
+title: 通过招聘雇用候选人
+description: 此过程使得招聘人员能够雇用通过特定招聘项目提交申请表的申请人。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplication, HcmWorkerNewWorker, HcmPositionLookup, HcmWorker, HcmPosition, HcmPositionDateManager,  DefaultDashboard
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 9057a3ada63ab91f25475a07266f45acd5088af4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328278"
 ---
 # <a name="hiring-candidate-through-recruiting"></a>通过招聘雇用候选人
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/14/2018
 14. 展开或折叠“地址”部分。
 15. 展开或折叠“联系信息”部分。
 16. 展开或折叠“个人信息”部分。
-
 

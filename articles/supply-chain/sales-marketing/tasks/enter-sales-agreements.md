@@ -1,13 +1,13 @@
---- 
-title: "输入销售协议"
-description: "该过程向您显示如何向您的客户创建承诺：在超限时间采购议定数量的产品将获得特定的销售折扣的的销售协议。"
+---
+title: 输入销售协议
+description: 该过程向您显示如何向您的客户创建承诺：在超限时间采购议定数量的产品将获得特定的销售折扣的的销售协议。
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreementListPage, SalesAgreementCreate, SalesAgreement, InventItemIdLookupSimple, AgreementConfirmRunForm, SrsReportViewerForm
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 025c9fe2f769f37b63bd79c6c3afedc31a955310
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: a0d49068d2c6a62bf7912c2fd7cccd53308bd196
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346862"
 ---
 # <a name="enter-sales-agreements"></a>输入销售协议
 
@@ -66,5 +66,4 @@ ms.lasthandoff: 02/13/2018
 13. 单击“确定”。
 14. 关闭该页面。
     * 协议现在生效，您可以将客户订单链接到协议，来抵消承诺目标。  
-
 

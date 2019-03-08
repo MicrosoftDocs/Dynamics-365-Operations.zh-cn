@@ -1,13 +1,13 @@
---- 
-title: "批量财务期间结帐"
-description: "此过程显示如何暂停期间，或一次性永久关闭一个期间或多个法人。"
+---
+title: 批量财务期间结帐
+description: 此过程显示如何暂停期间，或一次性永久关闭一个期间或多个法人。
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerCalendar, LedgerPeriodModuleAccessControlUpdate, SysLookupPicklist, LedgerFiscalCalendarPeriodStatus
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a2988b7ab0837cc9a3e4f1c4eaf3fe6e219fa721
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8d7151cbcd02f9312ca6b0de5e27231a0b0dc9d6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311373"
 ---
 # <a name="mass-financial-period-close"></a>批量财务期间结帐
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 11. 选择“更新期间状态”，然后将状态设置为“暂停”、“打开”或“永久关闭”。
     * “开放”表示期间内可进行过帐，但用户必须有访问权限。 “暂停”表示期间内不能过帐，但是可以重新打开期间。 “永久关闭”表示期间已关闭，永远不能打开。 不能过帐调整。 不建议在完成所有调整和审计前设置期间为“永久关闭”。  
 12. 单击“更新”。
-
 

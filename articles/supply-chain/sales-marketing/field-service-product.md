@@ -1,37 +1,36 @@
 ---
-title: "将 Finance and Operations 中的产品同步到 Field Service 中的产品"
-description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的产品同步到 Microsoft Dynamics 365 for Field Service 的模板和基础任务。"
+title: 将 Finance and Operations 中的产品同步到 Field Service 中的产品
+description: 此主题介绍用于同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Field Service 的产品的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 3f26240ec289f5ddcc2682e598bbf93f516b99af
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: bf5de13fee6db1b467c1cf4d5cc65b46c67b29fe
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316318"
 ---
-
-# <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>将 Finance and Operations 中的产品同步到 Field Service 中的产品
+# <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>将 Finance and Operations 的产品与 Field Service 的产品同步
 
 [!include[banner](../includes/banner.md)]
 
-本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的产品同步到 Microsoft Dynamics 365 for Field Service 的模板和基础任务。
+此主题介绍用于同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Field Service 的产品的模板和基础任务。
 
 使用的 **Field Service 产品（Fin and Ops 到 Field Service）** 模板基于“从目标客户到现金”中的**产品（Fin and Ops 到Sales）– 直接**模板。 有关详细信息，请参阅[产品（Fin and Ops 到Sales）– 直接](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct)。
 
@@ -74,4 +73,3 @@ service       :  690970002
 ### <a name="field-service-products-fin-and-ops-to-field-service-products---products"></a>Field Service 产品（Fin and Ops 到 Field Service）：产品 - 产品
 
 [![数据集成中的模板映射](./media/FSProduct.png)](./media/FSProduct.png)
-

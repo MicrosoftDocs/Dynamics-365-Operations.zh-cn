@@ -1,13 +1,13 @@
 ---
-title: "Dynamics 365 for Unified Operations Mobile 应用程序主页"
-description: "此主题描述 Microsoft Dynamics 365 for Unified Operations 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。"
+title: Dynamics 365 for Unified Operations Mobile 应用程序主页
+description: 此主题描述 Microsoft Dynamics 365 for Unified Operations mobile 应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 author: sericks007
 manager: AnnBe
 ms.date: 10/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
-ms.translationtype: HT
-ms.sourcegitcommit: 3e9ec83e2cecdf8a7ec4ce3db1a80a310fe07255
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321378"
 ---
-
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Dynamics 365 for Unified Operations Mobile 应用程序主页
 
 [!include [banner](../includes/banner.md)]
 
-此主题描述 Microsoft Dynamics 365 for Unified Operations 移动应用，并提供可以帮助您在组织中实施此应用的资源的链接。
+此主题描述 Microsoft Dynamics 365 for Unified Operations mobile 应用，并提供可以帮助您在组织中实施此应用的资源的链接。
 
 > [!NOTE]
 > 此移动应用以前称为 *Microsoft Dynamics 365 for Finance and Operations*。
@@ -90,7 +89,7 @@ ms.lasthandoff: 10/26/2018
 <tr class="even">
 <td>2</td>
 <td>系统管理员</td>
-<td><strong>如果您使用的是 Microsoft Dynamics 365 for Operations 版本 1611：</strong>下载并安装启用 Microsoft 提供的移动工作区的 KB。</td>
+<td><strong>如果您使用的是 Microsoft Dynamics 365 for Operations 版本 1611：</strong>下载并安装支持 Microsoft 提供的移动工作区的 KB。</td>
 <td>有关详细信息，请参阅以下主题：
 <ul>
 
@@ -139,7 +138,7 @@ ms.lasthandoff: 10/26/2018
 <td>用户</td>
 <td>下载并安装移动应用。</td>
 <td>
-<a href="https://go.microsoft.com/fwlink/?linkid=850662">适用于 Android 的 Unified Operations 应用程序</a><BR/>
+<a href="https://go.microsoft.com/fwlink/?linkid=850662">适用于 Android 的 Unified Operations 应用</a><BR/>
 <a href="https://go.microsoft.com/fwlink/?linkid=850663">适用于 iOS 的 Unified Operations 应用程序</a><BR/>
 （支持 Windows Phone）
 </td>
@@ -153,4 +152,3 @@ ms.lasthandoff: 10/26/2018
 </tr>
 </tbody>
 </table>
-

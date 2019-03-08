@@ -1,13 +1,13 @@
 ---
-title: "采购订单审核移动工作区"
-description: "此主题提供有关采购订单审核移动工作区的信息，以便您查看采购订单和通过操作作出响应。 例如，您可以审核或拒绝采购订单。"
+title: 采购订单审核移动工作区
+description: 此主题提供有关采购订单审核移动工作区的信息，以便您查看采购订单和通过操作作出响应。 例如，您可以审核或拒绝采购订单。
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 75a38b99fe0aee7d4dd386191be236e54097e867
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2f495fa3507fd54499e29b4c09f504dd037c0a6c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348840"
 ---
-
 # <a name="purchase-order-approval-mobile-workspace"></a>采购订单审核移动工作区
 
 [!include [banner](../includes/banner.md)]
@@ -36,9 +35,9 @@ ms.lasthandoff: 03/26/2018
 ## <a name="overview"></a>概览 
 要求审核的采购订单通过审核工作流。 工作流可能包括要求一个或多个人员采取操作的不同步骤。 例如，人员可能必须完成任务或审核采购订单。 
 
-**采购订单审核**移动工作区能让您轻松地从移动设备查看和响应采购订单。 此工作区还可以让您执行可从 Microsoft Dynamics 365 for Finance and Operations Web 客户端执行的相同工作流操作。
+**采购订单审核**移动工作区能让您轻松地从移动设备查看和响应采购订单。 此工作区还可以让您执行可从 Microsoft Dynamics 365 for Finance and Operations 客户端执行的相同工作流操作。
 
-## <a name="prerequisites"></a>必备项
+## <a name="prerequisites"></a>先决条件
 先决条件根据为您的组织部署的 Finance and Operations 版本不同。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
@@ -76,7 +75,7 @@ ms.lasthandoff: 03/26/2018
 </table>
 
 ## <a name="download-and-install-the-mobile-app"></a>下载并安装移动应用
-下载并安装 Microsoft Dynamics 365 for Unified Operations 移动应用程序：
+下载并安装 Microsoft Dynamics 365 for Unified Operations mobile 应用：
 
 - [适用于 Android 手机](https://go.microsoft.com/fwlink/?linkid=850662)
 - [适用于 iPhones](https://go.microsoft.com/fwlink/?linkid=850663)
@@ -116,4 +115,3 @@ ms.lasthandoff: 03/26/2018
 5. 选择相应的操作。
 6. 在**完成任务**页输入注释。 请注意，如果选择**委托**操作，必须选择要委托任务的用户。
 7. 选择**完成**。 刷新您的工作区后，采购订单不再显示在列表中。 
-

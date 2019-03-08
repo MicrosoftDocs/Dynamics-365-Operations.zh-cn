@@ -1,13 +1,13 @@
---- 
-title: "创建工艺路线（仅 2016 年 2 月）"
-description: "此任务的重点是为一件成品和一件半成品创建生产工艺路线。"
+---
+title: 创建工艺路线（仅 2016 年 2 月）
+description: 此任务的重点是为一件成品和一件半成品创建生产工艺路线。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/07/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 63ad2cc0c41a5931750dffbfc64bc7ce965a1da4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a1c4b7623f3409d4474adcd04fb1331b944b9fbb
-ms.openlocfilehash: a1da6a38e9e70efdbbd04e85318f208c82ab39ed
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316456"
 ---
 # <a name="create-routes-february-2016-only"></a>创建工艺路线（仅 2016 年 2 月）
 
@@ -106,5 +106,4 @@ ms.lasthandoff: 02/13/2018
     * 设置时间通常是为某项计算的价格的组成部分。  
 5. 单击“保存”。
 6. 关闭该页面。
-
 

@@ -1,13 +1,13 @@
---- 
-title: "确定和部署候选人选择工具"
-description: "找到符合条件的候选人填补空缺不是一件容易的事，尤其是在该职位需要一系列独特技能时。"
+---
+title: 确定和部署候选人选择工具
+description: 找到符合条件的候选人填补空缺不是一件容易的事，尤其是在该职位需要一系列独特技能时。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkillMapping, HcmJobLookup, HcmSkillMappingLine, HcmPersonCertificate, CCHTMLPrintPreview
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: df7956cfdc3c470b5e652b62e659060120cdd770
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1eb6e6121d39f9fc089afe38354b96eb88e5501d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332717"
 ---
 # <a name="identify-and-deploy-candidate-selection-tools"></a>确定和部署候选人选择工具
 
@@ -57,5 +57,4 @@ ms.lasthandoff: 09/29/2017
     * 报表将在报表顶部列出最佳匹配。  您可以看到列出了一个差距元素。  这是技能表上列出的级别与分配给该人员的技能级别之间的差异。  
 24. 关闭该页面。
 25. 单击“保存”。
-
 

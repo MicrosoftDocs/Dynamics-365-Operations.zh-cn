@@ -1,31 +1,30 @@
 ---
-title: "移动服务订单行"
-description: "移动服务订单行。"
+title: 移动服务订单行
+description: 移动服务订单行。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1ae467efc273e112ea9330d8578d57ae3e22240f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9658b64fc7d4b2340eee5a322e808be1ef941188
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312822"
 ---
-
 # <a name="move-service-order-lines"></a>移动服务订单行 
 
 [!include [banner](../includes/banner.md)]
@@ -54,6 +53,5 @@ ms.lasthandoff: 05/08/2018
 [服务订单](service-orders.md)
 
   
-
 
 

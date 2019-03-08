@@ -1,13 +1,13 @@
 ---
-title: "订单承诺"
-description: "本文提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。"
+title: 订单承诺
+description: 本文提供有关订单承诺的信息。 订单承诺帮助您向客户确切承诺交货日期，并给予您履行这些日期的灵活性。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesATP, SalesAvailableDlvDates
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ad70e94521fdb8c6d3f9a76a84aa9da5759fcf89
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 039bc5c572d204d9fa3e10a9f33cb4f4eb00b31c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312339"
 ---
-
 # <a name="order-promising"></a>订单承诺
 
 [!include [banner](../includes/banner.md)]
@@ -56,22 +55,21 @@ ATP = 前一期间的 ATP + 当前期间的收货 - 当前期间的发货 - 截�
 
 ### <a name="example"></a>示例
 
-**“ATP 后向需求时限”** 字段控制向后多长时间查找延期需求订单或库存发货。 **“ATP 后向供应时限”** 字段控制向后多长时间查找延期供应订单或库存收货。 例如，如果只延迟七天的订单应被考虑到 ATP 计算中，则两个字段都应设置为 **7**。  
+**ATP 后向需求时限**字段控制向后多长时间查找延期需求订单或库存发货。 **ATP 后向供应时限**字段控制向后多长时间查找延期供应订单或库存收货。 例如，如果只延迟七天的订单应被考虑到 ATP 计算中，则两个字段都应设置为 **7**。  
 
-**“ATP 延迟需求偏移时间”** 和 **“ATP 延迟供应偏移时间”** 字段控制何时将延期需求或供应考虑到 ATP 计算中。 例如，如果延期供应和需求应被考虑到 ATP 计算中，则两个字段都应设置为 **2**。 值为 **“2”** 表示应被考虑到 ATP 计算中的延期采购订单的物料数量将在当前日期之后两天可供查看。  
+**ATP 延迟需求偏移时间**和**ATP 延迟供应偏移时间**字段控制何时将延期需求或供应考虑到 ATP 计算中。 例如，如果延期供应和需求应被考虑到 ATP 计算中，则两个字段都应设置为 **2**。 值为**2**表示应被考虑到 ATP 计算中的延期采购订单的物料数量将在当前日期之后两天可供查看。  
 
-对于以下示例，在 **“ATP 后向需求时限”** 和 **“ATP 后向供应时限”** 字段中输入了 **“7”**，在 **“ATP 延迟需求偏移时间”** 和 **“ATP 延迟供应偏移时间”** 字段中输入了 **“1”**。  
+对于以下示例，在**ATP 后向需求时限**和**ATP 后向供应时限**字段中输入了**7**，在**ATP 延迟需求偏移时间**和**ATP 延迟供应偏移时间**字段中输入了**1**。  
 
 应在三天之前收到的 200 件产品的采购订单尚未接收。 因此，昨天应装运的 75件 相同产品的销售订单行尚未装运。  
 
 客户致电并要订购 150 件同一产品。 在您确认产品的可用性时，您会发现将在 10 天交货的其他 100 件产品的采购订单。  
 
-您为该产品创建销售订单行并输入 **“150”** 的数量。  
+您为该产品创建销售订单行并输入**150**的数量。  
 
 由于交货日期控制方法是 ATP，所以会计算 ATP 数据以找到最早的可能装运日期。 基于设置，延期采购订单和销售订单会被考虑，并且当前日期生成的 ATP 数量是 0。 明天，当预计会收到延期采购订单时，会将 ATP 数量计算为大于 0（在这种情况下，它被计算为 125）。 但是，从现在起 10 天，当预期接收 100 件的其他采购订单时，ATP 数量将变为超过 150。  
 
 因此，基于 ATP 计算，装运日期被设置为从现在起 10 天。 因此，您告知客户请求数量的可以为从现在起的 10 天交货。
-
 
 
 

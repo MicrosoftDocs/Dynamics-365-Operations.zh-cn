@@ -1,13 +1,13 @@
 ---
-title: "将外设连接到销售点 (POS)"
-description: "此主题介绍如何将外设连接到 Retail POS。"
+title: 将外设连接到销售点 (POS)
+description: 此主题介绍如何将外设连接到 Retail POS。
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 544f109a4f46bd7511ee564902f627beddd29f15
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308774"
 ---
-
 # <a name="connect-peripherals-to-the-point-of-sale-pos"></a>将外设连接到销售点 (POS)
 
 [!include [banner](includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 01/04/2019
 此主题介绍如何将外设连接到 Retail POS。
 
 > [!NOTE]
-> 要获取特定的安装说明，请参阅 [Retail Hardware Station 部署和安装](retail-hardware-station-configuration-installation.md)和 [Retail Modern POS 自助服务下载/安装以及 Modern POS 和 Cloud POS 的设备激活](retail-modern-pos-device-activation.md)。
+> 要获取特定的安装说明，请参阅 [Retail Hardware Station 配置和安装](retail-hardware-station-configuration-installation.md)和 [Retail Modern POS 自助服务下载/安装以及 Modern POS 和 Cloud POS 的设备激活](retail-modern-pos-device-activation.md)。
 
 ## <a name="key-components"></a>重要组件
 
@@ -188,4 +187,3 @@ POS 收银机主要通过收银机本身管理，同时还通过分配到收银�
 ### <a name="client-data-synchronization"></a>客户端数据同步
 
 对 POS 客户端的所有更改（除设备启用状态的更改），均必须与渠道数据库同步以使其生效。 要同步对渠道数据库的更改，请导航到**零售** &gt; **零售 IT** &gt; **配送计划**，并运行所需的配送计划。 对于客户端更改，应运行“收银机”和“渠道配置”配送计划。
-

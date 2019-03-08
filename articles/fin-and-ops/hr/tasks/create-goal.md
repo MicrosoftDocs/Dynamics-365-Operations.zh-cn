@@ -1,13 +1,13 @@
---- 
-title: "创建目标"
-description: "可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。"
+---
+title: 创建目标
+description: 可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmGoal, HcmMeasurementDetailDialog, HcmPerfJournalAdd, HcmGoalChangeSettings
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: e3f3bc01113099c5b28f10e702ebf981e26c196a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350703"
 ---
 # <a name="create-a-goal"></a>创建目标
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/13/2018
     * 团队成员或所有员工通常有一些相同或相似的目标。     人力资源管理员或经理可以为这些目标创建目标模板。 可以从模板添加目标，然后修改以匹配您的日程表。  
     * 团队成员或所有员工通常有若干相同或相似的目标。     您的人力资源管理员或经理可创建包含一个或多个目标模板的目标组。 可以从目标组添加目标，然后修改以匹配您的日程表。  
     * 创建审核时，可以向其添加目标。 请参阅审核的任务指南以了解如何向审核添加目标。  
-
 

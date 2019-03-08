@@ -1,13 +1,13 @@
---- 
-title: "定义福利资格规则和策略"
-description: "此记录将显示您创建福利资格规则和政策并将规则分配给福利的方法。"
+---
+title: 定义福利资格规则和策略
+description: 此记录将显示您创建福利资格规则和政策并将规则分配给福利的方法。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicySourceDocumentRuleType, SysPolicyListPage, SysPolicy, HcmBenefitEligibilityPolicy, HcmBenefit
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: d346c3277e8f19020d6aa96cf6961c4c52ac28fb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341664"
 ---
 # <a name="define-benefit-eligibility-rules-and-policies"></a>定义福利资格规则和策略
 
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/14/2018
 9. 在列表中，单击所选行中的链接。
 10. 单击“保存”。
 11. 关闭窗体。
-
 

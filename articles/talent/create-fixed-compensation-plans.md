@@ -1,13 +1,13 @@
 ---
-title: "创建固定薪酬计划"
-description: "固定薪酬指员工的标准总薪水或工资。 本文介绍在创建固定薪酬和登记员工前必须设置的组件。"
+title: 创建固定薪酬计划
+description: 固定薪酬指员工的标准总薪水或工资。 本文介绍在创建固定薪酬和登记员工前必须设置的组件。
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRCCompGrid, HRCCompRefPointSetup, HRMCompEligibility, HRMCompEvent, HRMFixedCompPlanTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: cea4aec80bc0b519a6b393724835555b4d0937a8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303497"
 ---
-
 # <a name="create-fixed-compensation-plans"></a>创建固定薪酬计划
 
 [!include [banner](includes/banner.md)]
@@ -105,7 +104,6 @@ ms.lasthandoff: 08/08/2018
 --------
 
 [薪酬计划](compensation-plans.md)
-
 
 
 

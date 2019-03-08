@@ -1,13 +1,13 @@
 ---
-title: "出库流程"
-description: "此主题概要介绍了库存管理中的出库流程。"
+title: 出库流程
+description: 此主题概要介绍了库存管理中的出库流程。
 author: perlynne
 manager: AnnBe
 ms.date: 10/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSOrder, WMSShipment, MCRPickingWorkbench, WMSPickingRegistration, CustomFilterGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 5ac3260f128acbc819d7207f68f17adb085da11c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0ca19ab9ed7a52328c5dd5252c418bb9343bdc2b
-ms.openlocfilehash: f2cae64263769b5168d2bb9614d6388b42e23b49
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334373"
 ---
-
 # <a name="outbound-process"></a>出库流程
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ ms.lasthandoff: 12/14/2017
 一旦领取完**领料单登记**页上的所有领料行，关联的装运即已完成。 之后可以基于领取的库存启动销售订单装箱单流程。
 
 [![更新出站装运](./media/outbound-shipments.png)](./media/outbound-shipments.png)
-

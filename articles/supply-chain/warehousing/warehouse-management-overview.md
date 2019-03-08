@@ -1,13 +1,13 @@
 ---
-title: "仓库管理"
-description: "使用仓库管理进行监控并使仓库流程自动化。"
+title: 仓库管理
+description: 使用仓库管理进行监控并使仓库流程自动化。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSParameters
 audience: Application User
 ms.reviewer: josaw
@@ -16,18 +16,18 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7c9613070e077bced4b272b136985de5f4ddbdd0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: fc039b3c35c9ff8f40bf671e523104031c598171
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335247"
 ---
 # <a name="warehouse-management"></a>仓库管理
 
 [!include [banner](../includes/banner.md)]
 
-用于 Dynamics 365 for Finance and Operations 的仓库管理模块可用于管理制造、分配和零售公司中的仓库流程。 此模块具有多种功能以随时为仓库设施提供最优级别的支持。 仓库管理与 Finance and Operations 中的其他业务流程完全集成，如运输、制造、质量控制、采购、转移、销售和退货。
+Dynamics 365 for Finance and Operations 的仓库管理模块让您在制造商、分销商和零售公司中管理仓库流程。 此模块具有多种功能以随时为仓库设施提供最优级别的支持。 仓库管理与 Finance and Operations 中的其他业务流程完全集成，如运输、制造、质量控制、采购、转移、销售和退货。
 
 ## <a name="get-started"></a>开始
 若要开始使用仓库管理，您需完成常规仓库参数的设置，以支持公司的业务流程。
@@ -55,7 +55,7 @@ ms.lasthandoff: 03/26/2018
 - 用于仓库流程的托盘/容器类型
 - 高级计数功能
 - 支持使用 Zebra ZPL 进行标签打印和标签路线选择
-- 在 Power BI 集成商业智能
+- 在 Power BI 内集成商业智能
 - 自动和手动移动库存
 - 完全集成的质量控制 (QMS)
 - 工作人员物料处理的完全可跟踪性
@@ -73,5 +73,4 @@ ms.lasthandoff: 03/26/2018
 
 
  
-
 

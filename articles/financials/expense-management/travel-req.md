@@ -1,13 +1,13 @@
 ---
-title: "出差申请"
-description: "此主题提供了有关出差申请的信息。 出差申请记录出于出差目的引发的费用。"
+title: 出差申请
+description: 此主题提供了有关出差申请的信息。 出差申请记录出于出差目的引发的费用。
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvRequisitionList
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e69cf1112dcb4fd31c79592bf0d7a2ecd4a21adf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: 135d787d03fe6d3ec3ca8d2324ac3055b72f2962
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339709"
 ---
-
 # <a name="travel-requisitions"></a>出差申请
 
 [!include [banner](../includes/banner.md)]
@@ -35,4 +34,3 @@ ms.lasthandoff: 03/13/2018
 出差申请和策略可用于帮助预算控制。 例如，如果您的组织实施需要出差的固定价格项目，项目团队成员的出差费用必须符合该项目中的预算。 通过在产生出差费用前要求审核出差费用，组织可以帮助确保该项目不超过预算。
 
 您可以从**出差申请**页设置出差申请的策略。
-

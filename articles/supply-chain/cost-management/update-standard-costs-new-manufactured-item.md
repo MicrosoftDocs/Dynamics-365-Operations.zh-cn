@@ -1,13 +1,13 @@
 ---
-title: "为新的制造物料更新标准成本"
-description: "本文提供更新新制造物料的标准成本的指导。"
+title: 为新的制造物料更新标准成本
+description: 本文提供更新新制造物料的标准成本的指导。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc8725bcab61fa20a4c35a83473b00e54cf0bf28
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1cfb04a98f7d01f7766bea97157ca3c44c51e326
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325495"
 ---
-
 # <a name="update-standard-costs-for-a-new-manufactured-item"></a>为新的制造物料更新标准成本
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ ms.lasthandoff: 11/03/2017
 5.  使用**成本计算版本设置**页更改锁定标志，以便允许启用在第二个成本计算版本中的未决成本记录。
 6.  使用**启用价格**页（您从**成本计算版本维护**页打开的页面）启用第二个成本计算版本中的所有未决物料成本记录。 您还可以通过单击**物料价格**页上的**启用**按钮，启用单独物料的未决成本记录。
 7.  使用**成本计算版本设置**页更改在第二个成本计算版本内的锁定标志来阻止进一步的数据维护。 这些锁定策略将阻止输入新的未决成本和启用未决成本。
-
 
 
 

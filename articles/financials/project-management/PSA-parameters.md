@@ -1,13 +1,13 @@
 ---
-title: "Project Service Automation 集成参数"
-description: "本主题介绍在将 Microsoft Dynamics 365 for Project Service Automation 与 Microsoft Dynamics 365 for Finance and Operations 集成时，如何配置默认数据的输入方式。"
+title: Project Service Automation 集成参数
+description: 本主题介绍在将 Microsoft Dynamics 365 for Project Service Automation 与 Microsoft Dynamics 365 for Finance and Operations 集成时，如何配置默认数据的输入方式。
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347046"
 ---
-
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation 集成参数
 
 [!include[banner](../includes/banner.md)]
@@ -46,4 +45,3 @@ ms.lasthandoff: 08/08/2018
 | 计费类型默认值  | 计费类型         | 单击**新建**添加一行，可在该行中选择要为默认行属性设置的计费类型。 在配置中，特定计费类型只能选择一次。 |
 |                        | 行属性        | 为所选计费类型选择默认行属性。 从 Project Service Automation 同步新工时估计值、新费用估计值或新实际值时，**行属性**字段将设置为计费类型的默认值。 |
 | 功能锁定  | 不适用       | 为源自 Project Service Automation 的项目和合同选择要在 Finance and Operations 中禁用的功能。 例如，可关闭 Finance and Operations 中的编辑合同和项目，创建工作分解结构以及输入工时单功能。 将继续启用与核算有关的字段，即使根据参数设置这些字段不可用也不例外。 默认情况下，将启用所有功能。 |
-

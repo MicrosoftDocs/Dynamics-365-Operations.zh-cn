@@ -1,13 +1,13 @@
 ---
-title: "配置呼叫中心交货方式和费用"
-description: "本主题介绍如何在 Microsoft Dynamics 365 for Retail 中为呼叫中心订单设置交货方式和费用。"
+title: 配置呼叫中心交货方式和费用
+description: 本主题介绍如何在 Microsoft Dynamics 365 for Retail 中为呼叫中心订单设置交货方式和费用。
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 2571b4ffd6c13dbf755ef2dfa93b757822890d96
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dc2ab66bf6e3195e1ebf394f99182f59c3ee2125
-ms.openlocfilehash: ebc8ee52da7d10ca18147684a0190e52a495ad5a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328416"
 ---
-
 # <a name="configure-call-center-delivery-modes-and-charges"></a>配置呼叫中心交货方式和费用
 
 [!INCLUDE [banner](includes/banner.md)]
@@ -96,4 +95,3 @@ Retail 有一些功能可供用户限制渠道可使用的交货方式、可用�
 例如，对于次日空运的订单，必须在每天下午 1 点前完成拣货。 在这种情况下，可以创建加速代码，并且可以将该代码链接到系统中配置的任何次日交货方式。 仓库创建其拣货波次时，可将**加速**字段中的相应加速代码用作筛选器，以便仅对交货方式链接至该代码的订单运行拣货。
 
 此外，输入呼叫中心订单时，可以将加速代码手动应用于销售订单头或单独的销售订单行。 再有，可将该代码用于排序或报告目的。 有时因为客户服务问题，必须仔细处理某个订单。 在此情况下，可以为订单头或行应用特定加速代码，以便在实施过程中帮助识别订单和优先处理该订单。
-

@@ -1,13 +1,13 @@
 ---
-title: "具有多个客户或供应商记录的一个凭证"
-description: "此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 for Finance and Operations 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。"
+title: 具有多个客户或供应商记录的一个凭证
+description: 此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 for Finance and Operations 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 4c499e31fb42a69dff6ac41faac0c78f7f4d1876
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330348"
 ---
-
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>具有多个客户或供应商记录的一个凭证
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 03/26/2018
 
 可以使用以下其中一种方法输入包含多个客户或供应商的凭证：
 
--   使用选择了“**仅一个凭证号**”选项的日记帐，以便添加到日记帐的每一行都包含在同一个凭证中。
+-   使用选择了**仅一个凭证号**选项的日记帐，以便添加到日记帐的每一行都包含在同一个凭证中。
 -   使用包含多个客户或供应商的不具有对方会计科目的多行凭证。
 -   输入科目和对方科目为供应商/供应商、客户/客户、供应商/客户或客户/供应商的凭证。
 
@@ -49,7 +48,7 @@ ms.lasthandoff: 03/26/2018
 
 ### <a name="one-voucher-with-multiple-vendors-and-the-impact-on-cash-discount-accounting"></a>具有多个供应商的一个凭证以及对现金折扣会计的影响
 
-在以下示例中，在“**普通日记帐**”页面中在一个凭证的总帐中记录多个供应商发票。 这些发票在多个科目维度之间分配。
+在以下示例中，在**普通日记帐**页面中在一个凭证的总帐中记录多个供应商发票。 这些发票在多个科目维度之间分配。
 
 |             |                  |              |                 |           |            |
 |-------------|------------------|--------------|-----------------|-----------|------------|
@@ -119,7 +118,7 @@ ms.lasthandoff: 03/26/2018
 | GNJL001     | 供应商           | 1001        | INV1            |           | 100.00     | 分类帐           | 606300-001-- |
 | GNJL001     | 供应商           | 1001        | INV2            |           | 200.00     | 分类帐           | 606300-002-- |
 
-在以下示例中，在“**普通日记帐**”页面中在一个凭证的总帐中记录多个供应商发票。 这些发票在多个科目维度之间分配。 在过帐后，创建一个凭证。
+在以下示例中，在**普通日记帐**页面中在一个凭证的总帐中记录多个供应商发票。 这些发票在多个科目维度之间分配。 在过帐后，创建一个凭证。
 
 |             |              |                  |                                          |                                         |
 |-------------|--------------|------------------|------------------------------------------|-----------------------------------------|
@@ -249,7 +248,6 @@ ms.lasthandoff: 03/26/2018
 | **凭证** | **科目类型** | **科目** | **描述** | **借记卡** | **信用卡** | **对方类型** | **对方科目** |
 | 001         | 客户         | US-008      |                 |           |  75.00     | 分类帐          | 999999---          |
 | 002         | 供应商           | 1001        |                 |  75.00    |            | 分类帐          | 999999---          |
-
 
 
 

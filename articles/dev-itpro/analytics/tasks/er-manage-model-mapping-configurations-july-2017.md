@@ -1,13 +1,13 @@
---- 
-title: "管理单独 ER 配置中的 ER 模型映射"
-description: "以下步骤说明了指派为“系统管理员”或者“电子电子报表开发人员”角色的用户如何管理单独 ER 配置中的电子申报 (ER) 模型映射。"
+---
+title: 管理单独 ER 配置中的 ER 模型映射
+description: 以下步骤说明了指派为“系统管理员”或者“电子电子报表开发人员”角色的用户如何管理单独 ER 配置中的电子申报 (ER) 模型映射。
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 24ca4124d190df94e7ca9ac31c2ea757fe9ff242
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349139"
 ---
 # <a name="manage-er-model-mapping-in-separate-er-configurations"></a>管理单独 ER 配置中的 ER 模型映射
 
@@ -70,7 +70,7 @@ ms.lasthandoff: 08/08/2018
 6. 单击“设计器”。
     * 请注意，创建的模型映射配置中包含一个与创建的配置同名的新空白映射。 请注意，如果所选父模型配置中包含模型映射，将把这些映射复制到新模型映射配置。   
 7. 单击“设计器”。
-8. 在树结构中，选择“Dynamics 365 for Operations\表格”。
+8. 在树中，选择“Dynamics 365 for Operations\表”'。
 9. 单击“添加根”。
 10. 在“名称”字段中，键入“公司”。
     * 公司  
@@ -123,7 +123,7 @@ ms.lasthandoff: 08/08/2018
 5. 单击“创建配置”。
 6. 单击“设计器”。
 7. 单击“设计器”。
-8. 在树结构中，选择“Dynamics 365 for Operations\表格”。
+8. 在树中，选择“Dynamics 365 for Operations\表”'。
 9. 单击“添加根”。
 10. 在“名称”字段中，键入“公司”。
     * 公司  
@@ -161,5 +161,4 @@ ms.lasthandoff: 08/08/2018
 6. 单击“运行”。
 7. 单击“确定”。
     * 请注意，默认模型映射配置供此格式配置用于生成电子单据（创建的输出中包含公司代码）。  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "安装 Retail 销售点 (POS) 布局设计器"
-description: "您可以使用一键式设计器在横向或纵向模式下为商店、收银机、出纳和经理设计不同的 Retail Modern POS (MPOS) 和 Cloud POS 布局。"
+title: 安装 Retail 销售点 (POS) 布局设计器
+description: 您可以使用一键式设计器在横向或纵向模式下为商店、收银机、出纳和经理设计不同的 Retail Modern POS (MPOS) 和 Cloud POS 布局。
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7fc5b48b71816b662f016f4a2d909526da0595f4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 4c647f49101dcbbe7dd1feac2dd9aad5c6dd5bcc
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327634"
 ---
-
 # <a name="install-the-retail-point-of-sale-pos-layout-designer"></a>安装 Retail 销售点 (POS) 布局设计器
 
 [!include [banner](includes/banner.md)]
@@ -37,11 +36,11 @@ MPOS 或 Cloud POS 的图形设计界面由钱柜布局控制。 格式控制各
 
 ## <a name="install-the-one-click-designer"></a>安装一键式设计器。
 
-1. 在 Microsoft Dynamics 365 for Retail 中，使用左上角的菜单导航到**零售和商务** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS** &gt; **屏幕布局**。
+1. 在 Microsoft Dynamics 365 for Retail 中，使用左上角的菜单导航到**零售**和**商务** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS** &gt; **屏幕布局**。
 2. 选择应用程序类型为**适用于 Windows 的 Modern POS** 或**云 POS** 的任何布局，然后单击**布局设计器**。
 3. 在出现在 Internet Explorer 窗口底部的通知栏上，单击**打开**开始安装一键式设计器。 （通知栏可能在其他浏览器的不同位置显示。）
 4. 在显示的**应用程序运行 - 安全警告**消息框中，单击**运行**以安装 Retail 设计器主机。 进度指示器显示安装进度。
-5. 在安装完成后，在**登录**页面上输入您的 Microsoft Dynamics 365 for Retail 用户名和密码，然后单击**登录**以启动设计器。
+5. 在安装完成后，在**登录**页面输入您的 Microsoft Dynamics 365 for Retail 用户名和密码，然后单击**登录**启动设计器。
 6. 在您的凭据验证和设计器启动后，可以开始设计自己的布局或修订现有布局。
 
     [![一键式设计器中的布局](./media/screenlayoutdesign_mposdownload-1024x664.png)](./media/screenlayoutdesign_mposdownload.png)
@@ -64,4 +63,3 @@ MPOS 或 Cloud POS 的图形设计界面由钱柜布局控制。 格式控制各
 ## <a name="additional-resources"></a>其他资源
 
 [配置、下载、安装和激活 Retail Modern POS](retail-modern-pos-device-activation.md)
-

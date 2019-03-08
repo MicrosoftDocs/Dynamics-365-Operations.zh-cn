@@ -1,13 +1,13 @@
---- 
-title: "创建采购协议"
-description: "该过程会从头至尾指导您创建一份采购协议。"
+---
+title: 创建采购协议
+description: 该过程会从头至尾指导您创建一份采购协议。
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchAgreement, PurchAgreementCreate, InventItemIdLookupSimple, AgreementConfirmRunForm, PurchAgreementHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b317f0a0fc8f198bad9501f325557ac2a4796989
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 0d0cc6508071bea3f622bc21f06aa55d2b757b6f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338605"
 ---
 # <a name="create-a-purchase-agreement"></a>创建采购协议
 
@@ -84,5 +84,4 @@ ms.lasthandoff: 09/29/2017
 5. 单击“采购协议确认”。
     * “预览/打印”选项允许您生成一份采购协议文件，然后您可以打印或发送给供应商。 如果您随后更新并再次确认该协议，则会在此显示两个版本的协议。  
 6. 关闭该页面。
-
 

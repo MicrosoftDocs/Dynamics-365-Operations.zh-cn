@@ -1,13 +1,13 @@
 ---
-title: "生成统计基准预测"
-description: "本文提供有关用于需求预测计算的参数和筛选器的信息。"
+title: 生成统计基准预测
+description: 本文提供有关用于需求预测计算的参数和筛选器的信息。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanCreateForecastDialog
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 42ea3a6cf85802fc42c53111d17afbce042a6d44
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326415"
 ---
-
 # <a name="generate-a-statistical-baseline-forecast"></a>生成统计基准预测
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,6 @@ ms.lasthandoff: 05/08/2018
 [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
 
 [授权调整后的需求预测](authorize-adjusted-forecast.md)
-
 
 
 

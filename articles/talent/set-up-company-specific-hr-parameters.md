@@ -1,13 +1,13 @@
 ---
-title: "设置特定于公司的人力资源 (HR) 参数"
-description: "某些人力资源 (HR) 参数的设置在公司间共享，而其他参数设置是特定于公司的。 本文说明如何设置特定于公司的人力资源参数。"
+title: 设置特定于公司的人力资源 (HR) 参数
+description: 某些人力资源 (HR) 参数的设置在公司间共享，而其他参数设置是特定于公司的。 本文说明如何设置特定于公司的人力资源参数。
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303484"
 ---
-
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>设置特定于公司的人力资源 (HR) 参数
 
 [!include [banner](includes/banner.md)]
@@ -50,7 +49,7 @@ ms.lasthandoff: 08/08/2018
 ### <a name="previously-released-functionality"></a>以前发布的功能
 **编号规则**选项卡上的设置确定用于自动将 ID 分配到人力资源中的项目（例如，申请、缺勤登记、薪酬流程结果、案例编号、课程和课程安排）的顺序。 要维护编号规则引用和代码，可使用**编号规则**列表页（单击**组织管理** &gt; **编号规则** &gt; **编号规则**）。
 
-### <a name="if-youre-using-dynamics-365-for-talent"></a>如果您正在使用 Dynamics 365 for Talent
+### <a name="if-youre-using-dynamics-365-for-talent"></a>如果您使用的是 Dynamics 365 for Talent
 **编号规则**选项卡上的设置确定用于自动将 ID 分配到人力资源中的项目（例如，申请、缺勤登记、薪酬流程结果、案例编号、课程和课程安排）的顺序。 要维护编号规则引用和代码，可使用**编号规则**列表页（单击**系统管理** &gt; **链接选项卡** &gt; **编号规则** &gt; **编号规则**）。 
 
 **FMLA**选项卡上的设置定义员工为获得享受 FMLA 权益的资格而必须工作的小时数、获得资格所需的雇用时长以及用于确定雇用时长的雇用开始日期。 此类设置还定义员工有资格获得的 FMLA 小时数以及用于计算员工已使用的 FMLA 小时数的 FMLA 假期日历。 **FMLA**选项卡仅对位于美国的公司可用。 
@@ -61,7 +60,6 @@ ms.lasthandoff: 08/08/2018
 --------
 
 [跨法人设置人力资源参数](set-up-hr-parameters-across-legal-entities.md)
-
 
 
 

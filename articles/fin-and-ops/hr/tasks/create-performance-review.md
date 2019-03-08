@@ -1,13 +1,13 @@
---- 
-title: "创建绩效审核"
-description: "此过程显示如何创建绩效审核和介绍审核各部分的目的。"
+---
+title: 创建绩效审核
+description: 此过程显示如何创建绩效审核和介绍审核各部分的目的。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EssWorkspace, HcmDiscussionNewDialog, HcmDiscussion, HcmDiscussionChangeSettings, HcmDiscussionAddGoalDialog, HcmTopicCreate, HcmMeasurementDetailDialog, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: abd59b96a2e5dceb2492c2db2c617485b332fbd3
 ms.openlocfilehash: 437a63159f0333434175acce081fa4ff417c334b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338467"
 ---
 # <a name="create-a-performance-review"></a>创建绩效审核
 
@@ -79,5 +79,4 @@ ms.lasthandoff: 09/13/2018
     * 随着审核经历这些状态，员工和经理可以为每个目标或能力添加注释。  
 42. 单击“签核”选项卡。
     * 工作人员和经理可以签核审核。 当所有必需签核均已完成时，状态将更改为“已完成”，并且再也不能执行更改。  
-
 

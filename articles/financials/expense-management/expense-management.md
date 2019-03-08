@@ -1,13 +1,13 @@
 ---
-title: "费用报销管理"
-description: "使用“费用管理”创建集成的工作流，从中您可以存储付款方式信息、导入信用卡交易记录和在员工产生业务支出时跟踪所花的金钱。"
+title: 费用报销管理
+description: 使用“费用管理”创建集成的工作流，从中您可以存储付款方式信息、导入信用卡交易记录和在员工产生业务支出时跟踪所花的金钱。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvExpenseWorkspace
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 1e075a7f114efdea1d9cc62cf302eaaba63c7ba0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313397"
 ---
-
 # <a name="expense-management"></a>费用报销管理
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,6 @@ ms.lasthandoff: 02/07/2018
 #### <a name="videos"></a>视频
 
 查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
-
 
 
 

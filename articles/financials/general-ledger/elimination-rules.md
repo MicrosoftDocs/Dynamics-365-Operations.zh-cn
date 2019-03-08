@@ -1,13 +1,13 @@
 ---
-title: "清除规则"
-description: "本主题提供有关清除规则和有关清除的不同报告选项的信息。"
+title: 清除规则
+description: 本主题提供有关清除规则和有关清除的不同报告选项的信息。
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0736d63c9a582948d197dc267f9941cbbd3e3c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 882b8f21be94b8cbb0c162c965ffc129b47d7edf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333085"
 ---
-
 # <a name="elimination-rules"></a>清除规则
 
 [!include [banner](../includes/banner.md)]
@@ -153,7 +152,6 @@ ms.lasthandoff: 03/26/2018
 在定义为清除公司的公司中，在“合并”模块中选择**清除日记帐**， 已选择了日记帐名称之后，单击**行**。 可以通过选择**方案**菜单，然后选择**清除方案**来运行方案。
 
 选择充当合并的数据的源的公司，然后选择要处理的规则。 输入开始搜索清除金额的开始日期，以及结束清除金额的搜索日期的结束日期。 **GL 过帐日期**字段是用于将日记帐过帐到总帐的日期。 单击**确定**之后，可以查看金额和过帐日记帐。
-
 
 
 

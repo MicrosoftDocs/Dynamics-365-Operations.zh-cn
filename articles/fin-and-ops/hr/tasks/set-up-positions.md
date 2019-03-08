@@ -1,13 +1,13 @@
---- 
-title: "设置职位"
-description: "职位是更低级别的组织层次结构中的重要元素。"
+---
+title: 设置职位
+description: 职位是更低级别的组织层次结构中的重要元素。
 author: DarinKramer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmWorkforceWorkspace, HcmWorkerActivityChart, HcmAllWorkersListPart, HcmPosition, HcmPositionNewPosition, HcmJobLookup, HcmPositionReportsToDialog, HcmPositionLookup, FinancialDimensionDefaultTemplatesLookup, DimensionLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 5d69e6b926a047888a162dae1cdc870718d8f945
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337869"
 ---
 # <a name="set-up-positions"></a>设置职位
 
@@ -66,5 +66,4 @@ ms.lasthandoff: 09/14/2018
 29. 在“分配模板”字段中，输入或选择一个值。
 30. 在“部门”字段中，输入或选择一个值。
 31. 单击“保存”。
-
 

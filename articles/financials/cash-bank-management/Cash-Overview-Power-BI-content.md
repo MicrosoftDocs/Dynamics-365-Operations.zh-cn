@@ -1,13 +1,13 @@
 ---
-title: "现金概览 Power BI 内容"
-description: "此主题介绍现金概览 Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 现金概览 Power BI 内容
+description: 此主题介绍现金概览 Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: saraschi2
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 5d02a009ca988f91a212e467d4f9784248bbae76
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318641"
 ---
-
 # <a name="cash-overview-power-bi-content"></a>现金概览 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ ms.lasthandoff: 12/19/2017
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 下表提供有关在**现金概览** Power BI 内容中的每个报表页找到的指标的详细信息。
 
-| 报告                                | 内容 |
+| 报表                                | 内容 |
 |---------------------------------------|----------|
 | 现金概览 - 所有公司         | <ul><li>系统币种的流入量和流出量</li><li>预测币种余额</li><li>系统币种的银行总余额</li><li>按法人分类的余额</li><li>银行帐户币种的今日实际余额与预测余额比较</li></ul> |
 | 现金概览 - 当前公司       | <ul><li>记帐币种的流入量和流出量</li><li>预测币种余额</li><li>记帐币种的银行总余额</li><li>银行帐户币种的今日实际余额与预测余额比较</li></ul> |
@@ -68,6 +67,5 @@ ms.lasthandoff: 12/19/2017
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | 使用公司记帐币种的汇总的现金流入量、流出量和余额 |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | 使用系统币种的用于所有公司的汇总的现金流入量、流出量和余额 |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | 使用交易币种的汇总的净交易记录金额和币种余额 |
-
 
 

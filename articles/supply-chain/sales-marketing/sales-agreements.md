@@ -1,13 +1,13 @@
 ---
-title: "销售协议"
-description: "此主题提供了有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。"
+title: 销售协议
+description: 此主题提供了有关销售协议的信息。 销售协议是使客户在一段时间用购买特定数量或特定金额的产品作交换获得特定价格和折扣的合同。
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesAgreement, SalesAgreementGenerateReleaseOrder, SalesAgreementListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f4ab396d06383e3d6fc7bfab2e01f1afe4aa8fc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4db47f445fe820e65389799ddcb6ea4a99949178
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309510"
 ---
-
 # <a name="sales-agreements"></a>销售协议
 
 [!include [banner](../includes/banner.md)]
@@ -111,7 +110,6 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="financial-dimensions-on-sales-agreements"></a>销售协议财务维度
 您可以将财务维度复制到销售协议的文档抬头或单独的行。 您可以在任何时间更改该协议标题或协议行的维度。 在这种情况下，维度将自动复制到下达单的下达标头或下达行。
-
 
 
 

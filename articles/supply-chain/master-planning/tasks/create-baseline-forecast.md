@@ -1,13 +1,13 @@
---- 
-title: "创建基准预测"
-description: "生产规划员可通过使用时间序列预测模型或复制历史需求来创建基线预测。"
+---
+title: 创建基准预测
+description: 生产规划员可通过使用时间序列预测模型或复制历史需求来创建基线预测。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqIntercompanyPlanningGroupSetup, ReqIntercompanyPlanningGroupAllocKeys, ReqDemPlanForecastParameters, ReqDemPlanCreateForecastDialog, SysQueryForm, ReqDemPlanForecastViewer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0d23e245ed1c084c26554ef3f859fdadaef9990d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e6363ee48c0d13c79a6c623205dfa10f50d6070f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310039"
 ---
 # <a name="create-a-baseline-forecast"></a>创建基准预测
 
@@ -81,5 +81,4 @@ ms.lasthandoff: 09/29/2017
 4. 您已手动调整预测。 请注意在下一步的图形指示。
 5. 单击“预测行详细信息”。
     * 在此页面中，您可以查看准确值、历史需求和预测。 您还可以对预测进行更改。  
-
 

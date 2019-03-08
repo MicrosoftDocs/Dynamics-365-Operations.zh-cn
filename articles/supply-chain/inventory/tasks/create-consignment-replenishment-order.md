@@ -1,13 +1,13 @@
---- 
-title: "创建托运补货订单"
-description: "此过程显示如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。"
+---
+title: 创建托运补货订单
+description: 此过程显示如何创建托运补货订单，可将其用于跟踪供应商预期交货到您的托运库存。
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentReplenishmentOrder, ConsignmentReplenishmentOrderCreate, InventTrans, ConsignmentDraftReplenishmentOrderJournal, InventOnhandMovement, InventOnhandItem, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d3e33008d04ea8bb7d145c7b63cec23a4a45dd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: f7f8005ec9e723c94d53e6ab81f04ee388c83faa
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315490"
 ---
 # <a name="create-a-consignment-replenishment-order"></a>创建托运补货订单
 
@@ -71,5 +71,4 @@ ms.lasthandoff: 09/29/2017
     * 已作为供应商拥有的托运库存接收的物料现有可用。 托运补货订单的剩余数量在“订购总数”字段中显示。  
 4. 关闭该页面。
 5. 单击“关闭”。
-
 

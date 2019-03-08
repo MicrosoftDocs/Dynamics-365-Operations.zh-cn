@@ -1,13 +1,13 @@
---- 
-title: "创建含交货计划的采购订单"
-description: "此过程显示如何为采购订单创建交货计划。"
+---
+title: 创建含交货计划的采购订单
+description: 此过程显示如何为采购订单创建交货计划。
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchDeliverySchedule, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0a9b7b233339d41605e1b115bd14a18b706ef226
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1e4a0204d74c8966cd90b52ae13c88e222ebc3ef
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333821"
 ---
 # <a name="create-a-purchase-order-with-a-delivery-schedule"></a>创建含交货计划的采购订单
 
@@ -75,5 +75,4 @@ ms.lasthandoff: 09/29/2017
     * 请注意如何为两个交付行创建产品收货，而不是为原始订单行创建。 如果收货已在仓库中记录，则还会在交货计划行中记录。  
 7. 折叠“行”部分。
 8. 单击“确定”以过帐收据。
-
 

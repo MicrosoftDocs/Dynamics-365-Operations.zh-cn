@@ -1,31 +1,30 @@
 ---
-title: "物料清单模板"
-description: "使用物料清单模板提供定期提供服务的服务对象组件的标准化列表。"
+title: 物料清单模板
+description: 使用物料清单模板提供定期提供服务的服务对象组件的标准化列表。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMATemplateBOMTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
 ms.openlocfilehash: f9c61ecd79f38301f46e3c21a33ec2801f33d19f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341296"
 ---
-
 # <a name="template-boms"></a>物料清单模板    
 
 [!include [banner](../includes/banner.md)]
@@ -133,6 +132,5 @@ ms.lasthandoff: 09/20/2018
 [修改服务项清单](modify-service-bom.md)
 
  
-
 
 

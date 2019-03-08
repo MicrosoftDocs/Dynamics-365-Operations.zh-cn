@@ -1,13 +1,13 @@
 ---
-title: "现金折扣"
-description: "为应付账款和应收账款设置和共享现金折扣。  可用现金折扣可以在客户发票或供应商发票上定义，并在现金折扣日期内支付发票时执行。"
+title: 现金折扣
+description: 为应付账款和应收账款设置和共享现金折扣。  可用现金折扣可以在客户发票或供应商发票上定义，并在现金折扣日期内支付发票时执行。
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CashDisc
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dd15a021244e55ea988a95184a758a321ebeafb3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5ccf41d1184280d3c4a000db13847733fd2cf4d2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320021"
 ---
-
 # <a name="cash-discounts"></a>现金折扣
 
 [!include [banner](../includes/banner.md)]
@@ -65,6 +64,5 @@ ms.lasthandoff: 05/08/2018
 2 月 15 日按照现金折扣条例 20D2% 过账 1000 USD 的发票。 该发票的记账币种金额为 1100 EUR。 3 月 1 日使用发票结算 980 USD 的付款。 现金折扣金额为 20 USD。 付款的记账币种金额为 784 EUR。 使用汇率（3 月 1 日：20 \* 80 / 100 = 16 EUR）计算现金折扣的记账币种金额。
 
 > [!NOTE]
-> 如果“计算部分付款的现金折扣”选项在“应收账款参数”或“应付账款参数”页中被选定时，会使用在每个部分付款的日期有效的汇率。 
-
+> 如果“计算部分付款的现金折扣”选项在“应收帐款参数”或“应付帐款参数”页中被选定时，会使用在每个部分付款的日期有效的汇率。 
 

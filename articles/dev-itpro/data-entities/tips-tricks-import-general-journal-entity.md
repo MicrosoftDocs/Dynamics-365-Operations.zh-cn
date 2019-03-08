@@ -1,13 +1,13 @@
 ---
-title: "使用普通日记帐实体导入凭证的最佳实践"
-description: "本主题提供使用普通日记帐实体将数据导入到普通日记帐的建议。"
+title: 使用普通日记帐实体导入凭证的最佳实践
+description: 本主题提供使用普通日记帐实体将数据导入到普通日记帐的建议。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 29cb4b940875b96cabaff540360674da528f8f39
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322505"
 ---
-
 # <a name="best-practices-for-importing-vouchers-by-using-the-general-journal-entity"></a>使用普通日记帐实体导入凭证的最佳实践
 
 [!include [banner](../includes/banner.md)]
@@ -67,4 +66,3 @@ ms.lasthandoff: 08/13/2018
 - 如果**凭证号**字段设置为**自动生成**，导入将不会成功。 **凭证号**字段的**自动生成**设置不受支持。
 
 默认情况下，普通日记帐实体使用基于集的处理。 评估您的组织的业务需求之后，您可以通过单击**数据管理**工作区的**数据实体**更改**基于集的处理**设置。 基于集的处理用于加快导入流程。 如果不使用基于集的处理，普通日记帐实体导入的导入将变慢。
-

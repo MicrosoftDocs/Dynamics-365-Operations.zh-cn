@@ -1,13 +1,13 @@
 ---
-title: "电子签名"
-description: "本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Finance and Operations 中使用它们。"
+title: 电子签名
+description: 本文提供电子签名的概览并说明如何在 Microsoft Dynamics 365 for Finance and Operations 中使用它们。
 author: maertenm
 manager: AnnBe
 ms.date: 08/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SIGParameters, SIGProcSetup, SIGReasonCode
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 676510ef503d51d914ba762e7ac15e2c4811c6ba
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325656"
 ---
-
 # <a name="electronic-signatures"></a>电子签名
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ms.lasthandoff: 12/18/2018
 > [!NOTE]
 > 电子签名本身与数字签名不同。 电子签名只是手写签名的替代品，而数字签名还提供其他安全措施。 数字签名可以帮助标识其他用户或进程是否篡改了数据。 还可以验证数字签名，并且用于对数据签名的证书所有者不能驳倒此验证。 如下所述，Microsoft Dynamics 365 for Finance and Operations 中的电子签名具有内置数字签名功能。
 
-## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations 中的电子签名
+## <a name="electronic-signatures-in-dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations 中的电子签名
 
 在 Finance and Operations 中，可以对关键业务流程使用电子签名。 一些流程具有内置电子签名功能。 还可以为任意数据库表和字段创建自定义签名要求。
 
@@ -111,4 +110,3 @@ ms.lasthandoff: 12/18/2018
 1. 在**选项**页，在**帐户**选项卡上，单击**指定审核人**。
 2. 在**审核人用户 ID** 字段中，选择必须为其他用户的更改签名的用户的 ID。
 3. 在**为其签名的用户 ID** 字段中，选择必须为其更改签名的用户的 ID。
-

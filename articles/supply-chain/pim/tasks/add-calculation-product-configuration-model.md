@@ -1,13 +1,13 @@
---- 
-title: "将计算添加到产品配置模型"
-description: "该过程显示如何添加新计算到产品配置模型。"
+---
+title: 将计算添加到产品配置模型
+description: 该过程显示如何添加新计算到产品配置模型。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9754c46010e7bbdb2edef0d6e68162f344bb1257
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2db8fb922b085a7f118822ef4fd974ac338f4d99
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343159"
 ---
 # <a name="add-a-calculation-to-a-product-configuration-model"></a>将计算添加到产品配置模型
 
@@ -38,5 +38,4 @@ ms.lasthandoff: 09/29/2017
 3. 单击“验证”。
 4. 单击“关闭”。
 5. 单击“确定”。
-
 

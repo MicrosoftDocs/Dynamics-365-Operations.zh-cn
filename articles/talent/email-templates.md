@@ -1,14 +1,14 @@
 ---
-title: "电子邮件模板"
-description: "此主题提供有关您可以在 Microsoft Dynamics 365 for Talent - Attract 中创建和使用的电子邮件模板的信息。"
+title: 电子邮件模板
+description: 此主题提供有关您可以在 Microsoft Dynamics 365 for Talent - Attract 中创建和使用的电子邮件模板的信息。
 author: josaw
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303463"
 ---
-
 # <a name="email-templates"></a>电子邮件模板
 [!include[banner](../includes/banner.md)]
 
@@ -81,4 +80,3 @@ ms.lasthandoff: 01/04/2019
 
 > [!NOTE] 
 > 对于自动发送的电子邮件，可以创建多个模板。 不过，只有一个模板可以设置为有效模板。 由于此流程由事件触发，因此，只有管理员可以基于模板库中的**默认**和**已自动发送**组合标记确定应使用的模板。
-

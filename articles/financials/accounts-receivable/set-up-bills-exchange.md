@@ -1,13 +1,13 @@
 ---
-title: "设置汇票"
-description: "此主题描述设置汇票的步骤。"
+title: 设置汇票
+description: 此主题描述设置汇票的步骤。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 09/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustBillOfExchangeJour
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: c9d6866bb994cb9fb411bdd6a9ccae0e67d2d6f3
 ms.openlocfilehash: cda597b1d99e99ac5c5c396bcfcec9c0712f0eb1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344700"
 ---
-
 # <a name="set-up-bills-of-exchange"></a>设置汇票
 
 [!include [banner](../includes/banner.md)]
@@ -82,7 +81,6 @@ ms.lasthandoff: 09/17/2018
 ## <a name="set-up-customers-for-bills-of-exchange"></a>为汇票设置客户
 
 在**客户**页面中的**付款默认值**选项卡上，对于同意通过使用汇票支付的每个客户，您可以设置汇票的默认付款方式。
-
 
 
 

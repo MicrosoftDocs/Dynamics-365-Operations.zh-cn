@@ -1,13 +1,13 @@
---- 
-title: "复制配方"
-description: "此过程重点是创建包括相同的成分作为现有配方的配方，不过差异很小。"
+---
+title: 复制配方
+description: 此过程重点是创建包括相同的成分作为现有配方的配方，不过差异很小。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dd87ded3bcc20b94fae723424d9cc6b94049a1a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 036bd9f592ca584afad9d4b9b7a49a9787076056
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312431"
 ---
 # <a name="copy-a-formula"></a>复制配方
 
@@ -64,5 +64,4 @@ ms.lasthandoff: 09/29/2017
 4. 在列表中，单击所选行中的链接。
 5. 单击“选择”。
 6. 单击“确定”。
-
 

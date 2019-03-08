@@ -1,13 +1,13 @@
 ---
-title: "载入供应商"
-description: "此主题介绍新供应商载入流程。 它介绍了各种角色在此过程中需要采取的操作。"
+title: 载入供应商
+description: 此主题介绍新供应商载入流程。 它介绍了各种角色在此过程中需要采取的操作。
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests,SysUserRequestListPage
 audience: Application User
 ms.reviewer: josaw
@@ -15,16 +15,15 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 5fda191a41300eea7f3036af54852857d8ff653d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: f831d986d7b534bf030bee0fa0c5dcb97af03289
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322137"
 ---
-
-# <a name="onboard-vendors"></a>供应商载入
+# <a name="onboard-vendors"></a>载入供应商
 [!include [banner](../includes/banner.md)]
 
 ---
@@ -49,7 +48,7 @@ ms.lasthandoff: 05/23/2018
 | 管理员            | | | 在 Finance and Operations 和 Microsoft Azure 中创建用户 | | | |
 | 供应商联系人    | | | 向联系人发送电子邮件。 | 登记供应商信息。 | | |
 
-有关供应商入职流程的快速演示，请观看下面的 YouTube 短片：[在 Dynamics 365 for Finance and Operations 中为新供应商办理入职](https://www.youtube.com/watch?v=0KUc3AGaTKk}。
+若要了解供应商入职流程的快速演示，请观看下面的 YouTube 短视频：[在 Dynamics 365 for Finance and Operations 中为新供应商办理入职](https://www.youtube.com/watch?v=0KUc3AGaTKk}。
 
 ## <a name="importing-the-prospective-vendor-registration-request"></a>导入潜在供应商注册请求
 
@@ -174,5 +173,4 @@ ms.lasthandoff: 05/23/2018
 |  已创建供应商请求  |                                                                     供应商注册向导已经完成。                                                                      | 创建停用用户的请求，并且删除潜在供应商注册请求、在供应商注册向导中输入的数据以及供应商请求。<blockquote>[!NOTE]<br>当供应商请求处于工作流的审核流程中时，不能使用<strong>删除</strong>操作。</blockquote> |
 |         已批准         |                                                                               审核供应商请求。                                                                               |                                                                                                   删除潜在供应商注册请求、在供应商注册向导中输入的数据，以及供应商请求。                                                                                                    |
 |         已拒绝         |                                                                               拒绝供应商请求。                                                                               |                                                                                                   删除潜在供应商注册请求、在供应商注册向导中输入的数据，以及供应商请求。                                                                                                    |
-
 

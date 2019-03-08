@@ -1,13 +1,13 @@
 ---
-title: "使用工作流管理员工信息"
-description: "本主题说明如何使用人力资源的工作流功能管理员工信息。 例如，可以将工作流与职位关联，以及配置员工更改其记录时启动的批准工作流。"
+title: 使用工作流管理员工信息
+description: 本主题说明如何使用人力资源的工作流功能管理员工信息。 例如，可以将工作流与职位关联，以及配置员工更改其记录时启动的批准工作流。
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0ffae206ae1956e5dc41487f04561ed2c48bd20b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: abc52192848649672cbcb8c770d74ba2aef139be
-ms.openlocfilehash: cf2200057053f5a6d4754d37111ebe34849bb99d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/14/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303354"
 ---
-
 # <a name="use-workflows-to-manage-employee-information"></a>使用工作流管理员工信息
 
 [!include [banner](includes/banner.md)]
@@ -65,11 +64,10 @@ ms.lasthandoff: 02/14/2018
     3.  添加停止条件，然后关闭该页。
 
 8.  完成其他所有说明（不应存在更多警告）。
-9.  单击**“保存并关闭”**。 对话框打开时激活新工作流，然后选择**激活**。
+9.  单击**保存并关闭**。 对话框打开时激活新工作流，然后选择**激活**。
 10. 转至**人力资源** &gt; **职位** &gt; **职位层次结构类型**。
 11. 选择**矩阵**。
 12. 将**工作人员标识号**工作流添加到列表。
-
 
 
 

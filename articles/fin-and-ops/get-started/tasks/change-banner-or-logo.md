@@ -1,13 +1,13 @@
---- 
-title: "更改横幅或徽标"
-description: "系统管理员可以用以下过程列出的步骤更新法人展示所用的横幅或形象标识。"
+---
+title: 更改横幅或徽标
+description: 系统管理员可以用以下过程列出的步骤更新法人展示所用的横幅或形象标识。
 author: aneesmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMLegalEntity, DefaultDashboard
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ed0a4e31e840f771f1620b42518ed0e03dbad151
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d2dac4d1799a958b6eff4c7aa134fe0b136089ca
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332947"
 ---
 # <a name="change-the-banner-or-logo"></a>更改横幅或徽标
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 09/29/2017
 8. 转到“通用”>“通用”>“默认仪表板”。
     * 您可以在仪表板上查看新的横幅或形象标识。  
     * 您可能需要使用公司选择器把您公司的横幅改为您所上传的图像。  
-
 

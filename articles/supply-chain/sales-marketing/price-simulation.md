@@ -1,13 +1,13 @@
 ---
-title: "价格模拟"
-description: "本文提供有关报价单价格模拟的信息。 价格模拟帮助您在确定特定价格前评估报价流程中将来销售价格扣除额的效果。"
+title: 价格模拟
+description: 本文提供有关报价单价格模拟的信息。 价格模拟帮助您在确定特定价格前评估报价流程中将来销售价格扣除额的效果。
 author: omulvad
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationPriceSimulation
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0369c1a4bbc893a86cf14bd59a2d28a7bbca15c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6df840de688975b9fa11b866361d88a730426bd0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316525"
 ---
-
 # <a name="price-simulation"></a>价格模拟
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ ms.lasthandoff: 05/08/2018
 
 ### <a name="types-of-discounts-in-trade-agreements"></a>贸易协议中的折扣类型
 
-Microsoft Dynamics 365 for Finance and Operations 中的贸易协议可能有四种类型的价格折扣。 可为不同的物料、客户或价格组设置这些折扣，并且可按日期限定折扣。 若要避免错误计算，在运行价格模拟时，您必须考虑贸易协议。 下面是贸易协议中的四种折扣类型：
+在 Microsoft Dynamics 365 for Finance and Operations 中的贸易协议可能有四种类型的价格折扣。 可为不同的物料、客户或价格组设置这些折扣，并且可按日期限定折扣。 若要避免错误计算，在运行价格模拟时，您必须考虑贸易协议。 下面是贸易协议中的四种折扣类型：
 
 -   **销售价** – 可以为物料指定单独的销售价。 在创建报价单行时，程序将搜索物料的正确的销售价并将其转移到报价单行。 因此，在具有类折扣的贸易协议并不影响价格模拟。 用于询价行的销售价反映贸易协议。
 -   **单行折扣** – 根据订购的金额，为物料指定特别折扣。 在运行价格模拟前，通常从行金额中减去单行折扣。 因此，在具有类折扣的贸易协议影响价格模拟。
@@ -143,7 +142,6 @@ Microsoft Dynamics 365 for Finance and Operations 中的贸易协议可能有四
 | 新的总贡献率                      | \[(302.88 – 184.96) ÷ 302.88\] × 100    | 38.93%   |
 
 价格模拟只影响它所应用的行，并减少该行的合计。
-
 
 
 

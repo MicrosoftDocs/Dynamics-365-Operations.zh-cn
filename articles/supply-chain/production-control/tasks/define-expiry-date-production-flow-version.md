@@ -1,13 +1,13 @@
---- 
-title: "定义生产流版本的到期日期"
-description: "若要在给定日期终止某个生产流版本的有效性和处理，或计划将某个有效版本替换为新版本，必须为该版本设置到期日期。"
+---
+title: 定义生产流版本的到期日期
+description: 若要在给定日期终止某个生产流版本的有效性和处理，或计划将某个有效版本替换为新版本，必须为该版本设置到期日期。
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: aa0bde90273f9392a36732ed79afdad2eea8bf86
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6fabeb31720a60bf97d08dabf8ed87ac6af7cbf7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323517"
 ---
 # <a name="define-an-expiry-date-for-a-production-flow-version"></a>定义生产流版本的到期日期
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/29/2017
 5. 在列表中，标记所选的行。
 6. 在“到期日期”字段中，输入日期和时间。
     * 对于到期日期，新版本将不启动或进入已激活状态。 并且还不能为此生产流创建或启动作业。 到期日期后，仍然可以完成已开始的作业。  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "配置信用卡处理"
-description: "此程序会逐步演示如何查看付款提供商列表，以及如何配置应收账款的付款帐户。"
+---
+title: 配置信用卡处理
+description: 此程序会逐步演示如何查看付款提供商列表，以及如何配置应收账款的付款帐户。
 author: jashanno
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Retail
@@ -16,12 +16,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d75ff895c252bfd4f70f8bcc4c4adece585d9a22
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 0cc3289ed8a5cb993a449c3fe3f0e9006b40170c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320389"
 ---
 # <a name="configure-credit-card-processing"></a>配置信用卡处理
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 02/07/2018
 23. 单击“验证”。
 24. 单击“新信用卡的默认处理程序”复选框。
 25. 单击“保存”。
-
 

@@ -1,13 +1,13 @@
---- 
-title: "创建销售税支付"
-description: "结算和过帐销售税作业结算销售税帐户的销售税余额，并冲销特定期间内的销售税结算帐户。"
+---
+title: 创建销售税支付
+description: 结算和过帐销售税作业结算销售税帐户的销售税余额，并冲销特定期间内的销售税结算帐户。
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Dialog
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: b0d72c88d6ba851e96ca07b896630549690e9396
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ee84da7fd055c8b0b50c43f134c0fc048ecfaeb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321746"
 ---
 # <a name="create-a-sales-tax-payment"></a>创建销售税支付
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 09/29/2017
     * 如果未选择总帐参数页面的“包括更正”选项，会进行不同版本的结算处理。 原始结算为某个期间间隔的首次结算，并且一个期间间隔只能处理一次。 最新更正将结算在原始版本创建后过帐的销售税交易记录。   
 5. 在“交易记录日期”字段中，输入日期。
 6. 单击“确定”。
-
 

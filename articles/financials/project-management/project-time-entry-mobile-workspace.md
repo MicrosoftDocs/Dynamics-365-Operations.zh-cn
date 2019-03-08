@@ -1,13 +1,13 @@
 ---
-title: "项目时间条目移动工作区"
-description: "此主题提供有关项目时间条目移动工作区的信息。 此工作区让用户可以使用其移动设备根据项目输入和保存时间。"
+title: 项目时间条目移动工作区
+description: 此主题提供有关项目时间条目移动工作区的信息。 此工作区让用户可以使用其移动设备根据项目输入和保存时间。
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: e671fe6e7c99bfb6d66f3b00560c3b0c404d2343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 9bf79af6eea6f899158fc3c8d523587cb11c90ad
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332993"
 ---
-
 # <a name="project-time-entry-mobile-workspace"></a>项目时间条目移动工作区
 
 [!include [banner](../includes/banner.md)]
 
 此主题提供有关**项目时间条目**移动工作区的信息。 此工作区让用户可以使用其移动设备根据项目输入和保存时间。
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。 
+将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。 
 
 ## <a name="overview"></a>概览
 作为其日常工作的一部分，项目资源通常是在现场或出差。 **项目时间条目**移动工作区让用户可以在所选择的移动设备上根据项目输入计费或非计费时间。 因此，项目资源可以随时随地记录时间条目。 他们还可以查看已记录的时间条目。 
@@ -45,7 +44,7 @@ ms.lasthandoff: 03/26/2018
 -   将项目时间记录为计费或非计费。
 -   可以选择输入任何外部或内部注释。
 
-## <a name="prerequisites"></a>必备项
+## <a name="prerequisites"></a>先决条件
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件
@@ -114,4 +113,3 @@ ms.lasthandoff: 03/26/2018
 11. 选择记录属性
 12. 可选：输入任何外部和内部注释。
 13. 选择**完成**。
-

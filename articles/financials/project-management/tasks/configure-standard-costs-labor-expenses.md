@@ -1,13 +1,13 @@
---- 
-title: "配置人工和支出的标准成本"
-description: "此过程显示如何为项目的人工和费用设置标准价。"
+---
+title: 配置人工和支出的标准成本
+description: 此过程显示如何为项目的人工和费用设置标准价。
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjCostPriceHour, ProjSalesPriceHour, ProjCostPriceExpense, ProjSalesPriceCost
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f89590c87aec1a7200e95aeac6b2765fc64bb623
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 432b5b195b29fb03786cb0560e277735b531b7d7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339387"
 ---
 # <a name="configure-standard-costs-for-labor-and-expenses"></a>配置人工和支出的标准成本
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/29/2017
 24. 在“定价”字段中输入数字。
     * 工作人员在费用日记帐凭证中输入交易记录时使用的实际销售价是最详细的销售价。 例如，如果同时设置了日记帐和工作人员特定的销售价，将使用工作人员特定的销售价。  
 25. 单击“保存”。
-
 

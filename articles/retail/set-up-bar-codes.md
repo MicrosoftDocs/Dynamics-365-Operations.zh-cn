@@ -1,13 +1,13 @@
 ---
-title: "设置条码"
-description: "本文介绍如何在 Microsoft Dynamics 365 for Retail 中使用条码。"
+title: 设置条码
+description: 本文介绍如何在 Microsoft Dynamics 365 for Retail 中使用条码。
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 15d12abe32d3f5a47348016c67a4fb02d0a5d8e3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347345"
 ---
-
 # <a name="set-up-bar-codes"></a>设置条码
 
 [!include [banner](includes/banner.md)]
@@ -48,4 +47,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="additional-resources"></a>其他资源
 
 [设置条码掩码](set-up-bar-code-masks.md)
-

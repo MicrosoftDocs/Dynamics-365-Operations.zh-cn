@@ -1,13 +1,13 @@
 ---
-title: "财务维度和过帐"
-description: "在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。 这些组件包括科目结构、高级规则和平衡与固定维度。 本主题介绍各组件的定义及其协同工作方式。"
+title: 财务维度和过帐
+description: 在计划和设置会计科目表时，必须考虑过帐单据或日记帐时，各组件如何协同工作。 这些组件包括科目结构、高级规则和平衡与固定维度。 本主题介绍各组件的定义及其协同工作方式。
 author: aprilolson
 manager: AnnBe
 ms.date: 08/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartofAccounts,DimensionDetails
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 89bc6f1f01f77dac4c24419705737783b07e4ac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a0530a569978bafffcdcc63c8d502b9bfa645bc5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327933"
 ---
-
 # <a name="financial-dimensions-and-posting"></a>财务维度和过帐 
 
 [!include [banner](../includes/banner.md)]
@@ -128,4 +127,3 @@ Microsoft Dynamics 365 for Finance and Operations 拥有基于规则的丰富系
 [会计分配中的维度默认设置](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2013/12/16/dimension-defaulting-in-accounting-distributions-part-1-introduction/)
 
 [维度框架中的维度默认设置](https://blogs.msdn.microsoft.com/ax_gfm_framework_team_blog/2014/09/)
-

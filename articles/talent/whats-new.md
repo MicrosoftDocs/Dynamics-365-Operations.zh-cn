@@ -1,32 +1,31 @@
 ---
-title: "Dynamics 365 for Talent Core HR 中的新增功能或更改的功能"
-description: "此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新功能和更改的功能。"
+title: Dynamics 365 for Talent Core HR 中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 author: tfehr
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: tfehr
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2018-08-27
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 71946d84f8e3cd8eafe50651cb845cb0371bebd2
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 5e329b4a18b07e047f8e992f43e9463361dd36ed
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/19/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303357"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr"></a>Dynamics 365 for Talent Core HR 中的新增功能或更改的功能 
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr"></a>Dynamics 365 for Talent Core HR 中的新增功能或更改 
 
 [!include [banner](includes/banner.md)]
 
@@ -37,4 +36,3 @@ ms.lasthandoff: 10/19/2018
 目录将继续每周更新，请返回查找 Talent 最新版本的所有新功能和更改。
 
 [!include [release notes](../fin-and-ops/includes/release-notes.md)]
-

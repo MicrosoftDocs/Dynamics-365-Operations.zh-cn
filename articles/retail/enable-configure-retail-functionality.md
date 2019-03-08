@@ -1,13 +1,13 @@
 ---
-title: "初始化新 Retail 环境中的种子数据"
-description: "本主题介绍 Microsoft Dynamics 365 for Retail 的初始化流程期间创建的数据。"
+title: 初始化新 Retail 环境中的种子数据
+description: 本主题介绍 Microsoft Dynamics 365 for Retail 的初始化流程期间创建的数据。
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 52f0c52748958f0bebb6c40df01cfac10c0ed427
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327887"
 ---
-
 # <a name="initialize-seed-data-in-new-retail-environments"></a>初始化新 Retail 环境中的种子数据
 
 [!include [banner](includes/banner.md)]
@@ -56,7 +55,7 @@ ms.lasthandoff: 01/04/2019
 - 渠道报表
 - 属性元数据
 - 实体验证模板
-- 清除商业数据交换的会话历史记录的批处理作业
+- 清除 Commerce Data Exchange 会话历史记录的批处理作业
 
 此外，与支付卡行业 (PCI) 相关的日志记录为 Dynamics 365 for Retail 数据库启用。
 
@@ -70,4 +69,3 @@ ms.lasthandoff: 01/04/2019
 - 零售渠道
 - 登记簿和设备
 - 分类
-

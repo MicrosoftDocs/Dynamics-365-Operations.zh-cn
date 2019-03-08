@@ -1,13 +1,13 @@
 ---
-title: "将仓库管理从Microsoft Dynamics AX 2012 升级到 Finance and Operations"
-description: "此主题提供产品和仓库管理迁移选项的概览。"
+title: 将仓库管理从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
+description: 此主题提供产品和仓库管理迁移选项的概览。
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocationWHSProcessEnablement, WHSLocationProfile, InventTableStorageDimensionGroupChange, InventUpdateBlockedItem, WHSParameters, WHSReservationHierarchy, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 768d0bd16a41a3458b25606b74d606318d176ff0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: e0ff3a22b89ce22096198d2e1dd1ea9ed10239a9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324460"
 ---
-
-# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>将仓库管理从Microsoft Dynamics AX 2012 升级到 Finance and Operations
+# <a name="upgrade-warehouse-management-from-microsoft-dynamics-ax-2012-to-finance-and-operations"></a>将仓库管理从 Microsoft Dynamics AX 2012 升级到 Finance and Operations
 
 
 [!include [banner](../includes/banner.md)]
@@ -81,7 +80,6 @@ Finance and Operations 不再支持来自 Microsoft Dynamics AX 2012 的旧 **WM
 3.  在**预留层次结构**页，根据物料的存储和跟踪维度组定义新的预留层次结构。
 4.  创建一个或多个单位序列组且序列组至少包括与用于物料的库存单位相同的单位。
 5.  单击**仓库管理** &gt; **设置** &gt;**启用仓库管理流程** &gt;**更改物料的存储维度组**。
-6.  在**更改物料的存储维度组**页，添加物料编号、存储维度组和单位序列组。 您可以直接在页面上、使用 Microsoft Office 集成或使用 [数据管理](../../dev-itpro/data-entities/data-entities.md) 中的数据实体流程完成此步骤。
+6.  在**更改物料的存储维度组**页，添加物料编号、存储维度组和单位序列组。 您可以直接在页面上、使用 Microsoft Office 集成或使用[数据管理](../../dev-itpro/data-entities/data-entities.md)中的数据实体流程完成此步骤。
 7.  验证更改。 作为验证过程的一部分，发生不同的数据完整性验证。 作为更大的升级流程的一部分，可能必须在源实现上调整发生的发货。 在这种情况下，需要附加数据升级。
 8.  处理更改。 更新所有库存维度可能需要一段时间。 您可以使用批处理作业任务监控进度。
-

@@ -1,13 +1,13 @@
 ---
-title: "将项目合同和项目直接从 Project Service Automation 同步到 Finance and Operations"
-description: "本主题介绍用于将项目合同和项目直接从 Project Service Automation 同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。"
+title: 将项目合同和项目直接从 Project Service Automation 同步到 Finance and Operations
+description: 此主题介绍用于直接同步 Microsoft Dynamics 365 for Project Service Automation 与 Microsoft Dynamics 365 for Finance and Operations 的项目合同和项目的模板和基础任务。
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,22 +17,21 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312109"
 ---
-
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>将项目合同和项目直接从 Project Service Automation 同步到 Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-本主题介绍用于将项目合同和项目直接从 Project Service Automation 同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
+此主题介绍用于直接同步 Microsoft Dynamics 365 for Project Service Automation 与 Microsoft Dynamics 365 for Finance and Operations 的项目合同和项目的模板和基础任务。
 
 > [!NOTE] 
-> 如果您正在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.300，您必须安装 KB 4074835。
+> 如果在使用 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3.0，则必须安装 KB 4074835。
 
 ## <a name="data-flow-for-project-service-automation-to-finance-and-operations"></a>Project Service Automation 到 Finance and Operations 的数据传输
 
@@ -135,4 +134,3 @@ Project Service Automation 到 Finance and Operations 集成解决方案使用�
 [![模板映射](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
 [![模板映射](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
-

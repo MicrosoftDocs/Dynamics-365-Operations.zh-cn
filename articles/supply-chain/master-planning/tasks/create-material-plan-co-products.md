@@ -1,13 +1,13 @@
---- 
-title: "创建联产品的物料计划"
-description: "生产规划员为属于配方联产品的物料规划物料要求。"
+---
+title: 创建联产品的物料计划
+description: 生产规划员为属于配方联产品的物料规划物料要求。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, SalesOrderProcessingWorkspace, SalesCreateOrder, SalesTable, ReqCreatePlanWorkspace, ReqTransPlanCard, SysQueryForm, ReqTransPo
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 2958f1e5c2e8a0cfa9cc6312f688d3b11b8e013c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337133"
 ---
 # <a name="create-a-material-plan-for-co-products"></a>创建联产品的物料计划
 
@@ -110,5 +110,4 @@ ms.lasthandoff: 09/14/2018
 18. 转到“主计划”>“设置”>“主计划参数”。
 19. 在“禁用所有计划过程”字段中选择“否”。
 20. 关闭该页面。
-
 

@@ -1,32 +1,31 @@
 ---
-title: "在 Attract 中创建、审核和发布工作"
-description: "此主题描述 Attract 中的工作元素。 它还介绍了如何创建工作。"
+title: 在 Attract 中创建、审核和发布工作
+description: 此主题描述 Attract 中的工作元素。 它还介绍了如何创建工作。
 author: josaw
 manager: AnnBe
 ms.date: 12/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: josaw
 ms.search.validFrom: 2018-10-24
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 95031534c43dc0578e258bc3e5376c429d72b0ab
 ms.openlocfilehash: 6c5daa4050d63303f1ac10c24901e5b1182cb62b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/23/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303443"
 ---
-
 # <a name="create-approve-and-post-jobs-in-attract"></a>在 Attract 中创建、审核和发布工作
 
 [!include [banner](includes/banner.md)]
@@ -75,7 +74,7 @@ Attract 包含一组默认的**公司行业**。 您可以通过在字段中输�
 
 ## <a name="postings"></a>过帐记录
 
-在激活工作后，便可以发布工作。 只有招聘人员和管理员可以发布工作。 工作可以发布到 Talent Careers（ Microsoft Dynamics 365 for Talent 求职站点）或 LinkedIn。 
+在激活工作后，便可以发布工作。 只有招聘人员和管理员可以发布工作。 工作可以发布到 Talent Careers（Microsoft Dynamics 365 for Talent 求职站点）或 LinkedIn。 
 
 > [!NOTE]
 > 将流程发布到 LinkedIn 的作业有三个重要事项需要说明。
@@ -169,4 +168,3 @@ Attract 工作可以提交以供审核。 并非所有工作都需要审核。 �
 
 13. 若要激活工作，请选择**激活**。
 14. 要发布工作，请转到**发布**，然后选择 Talent Careers 站点或 LinkedIn 下的**立即发布**。
-

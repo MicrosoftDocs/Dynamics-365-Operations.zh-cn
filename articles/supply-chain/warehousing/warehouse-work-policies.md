@@ -1,13 +1,13 @@
 ---
-title: "仓库工作策略"
-description: "仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。"
+title: 仓库工作策略
+description: 仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWorkPolicy
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0710eac8daba7f51f6b5d1522476b812a130960d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: c2d72509b0dc4d0cea5b4f2478ae7f8fc163e78c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325587"
 ---
-
 # <a name="warehouse-work-policies"></a>仓库工作策略
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。
+Microsoft Dynamics 365 for Finance and Operations 中的仓库工作策略控制是否通过仓库流程在制造中基于工作订单类型、库存库位和产品创建仓库工作。
 
-此工作策略控制是否为生产中的仓库流程创建仓库工作。 您可以使用“**工作订单类型**”、“**库存库位**”和“**产品**”组合设置工作策略。 例如，产品 L0101 报告为完工入库到输出库位 001。 成品稍后将在输出库位 001 的另一个生产订单中使用。 在这种情况下，您可以设置工作策略，阻止在您将产品 L0101 报告为完工入库到输出库位 001 时创建产品储存的工作。 工作策略是可以通过以下信息描述的单个实体：
+此工作策略控制是否为生产中的仓库流程创建仓库工作。 您可以使用**工作订单类型**、**库存库位**和**产品**组合设置工作策略。 例如，产品 L0101 报告为完工入库到输出库位 001。 成品稍后将在输出库位 001 的另一个生产订单中使用。 在这种情况下，您可以设置工作策略，阻止在您将产品 L0101 报告为完工入库到输出库位 001 时创建产品储存的工作。 工作策略是可以通过以下信息描述的单个实体：
 
 -   **工作策略名称**（工作策略的唯一标识符）
 -   **工作订单类型**和**工作创建方法**
@@ -47,22 +46,22 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 -   联产品和副产品储存
 -   原材料领取
 
-“**工作创建方法**”字段的值为“**从不**”。 该值表示工作策略将阻止为选定的工作订单类型创建仓库工作。
+**工作创建方法**字段的值为**从不**。 该值表示工作策略将阻止为选定的工作订单类型创建仓库工作。
 
 ## <a name="inventory-locations"></a>库存库位
-您可以选择应用工作策略的位置。 如果工作策略没有关联任何位置，则工作策略不会应用到任何流程。 在“**位置**”页面，您还可以选择或取消选择特定位置的工作策略。
+您可以选择应用工作策略的位置。 如果工作策略没有关联任何位置，则工作策略不会应用到任何流程。 在**位置**页面，您还可以选择或取消选择特定位置的工作策略。
 
 ## <a name="products"></a>产品
 您可以选择应用工作策略的产品。 您可以将工作策略应用到所有产品或所选的产品。
 
 ## <a name="example"></a>示例
-在以下示例中，有两个生产订单，PRD-001 和 PRD-00*2*。 生产订单 PRD-001 具有名为“**装配**”的工序，此时产品 SC1 正在报告为完工入库到库位 O1。 生产订单 PRD-002 具有名为“**喷涂**”的工序，使用来自库位 O1 的产品 SC1。 生产订单 PRD-002 还使用来自库位 O1 的原材料 RM1。 RM1 存储在仓库库位 BULK-001，将通过原材料领料的仓库工作领取到库位 O1。 生产 PRD-002 放行时生成领料工作。 
+在以下示例中，有两个生产订单，PRD-001 和 PRD-00*2*。 生产订单 PRD-001 具有名为**装配**的工序，此时产品 SC1 正在报告为完工入库到库位 O1。 生产订单 PRD-002 具有名为**喷涂**的工序，使用来自库位 O1 的产品 SC1。 生产订单 PRD-002 还使用来自库位 O1 的原材料 RM1。 RM1 存储在仓库库位 BULK-001，将通过原材料领料的仓库工作领取到库位 O1。 生产 PRD-002 放行时生成领料工作。 
 
 [![仓库工作策略](./media/warehouse-work-policies.png)](./media/warehouse-work-policies.png) 
 
 当您计划为此场景配置仓库工作策略时，您应该考虑以下信息：
 
--   当您报告产品 SC1 从生产订单 PRD-001 完工到库位 O1 时，不要求创建成品储存的仓库工作。 这是因为生产订单 PRD-002 的“**喷涂**”工序使用同一位置的 SC1。
+-   当您报告产品 SC1 从生产订单 PRD-001 完工到库位 O1 时，不要求创建成品储存的仓库工作。 这是因为生产订单 PRD-002 的**喷涂**工序使用同一位置的 SC1。
 -   为了将原材料 RM1 从仓库库位 BULK-001 移到库位 O1，要求创建原材料领料的仓库工作。
 
 这是您基于这些注意事项可以设置的工作策略示例。
@@ -126,7 +125,7 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 <tr>
 <td></td>
 <td>2.</td>
-<td>在列表中选择资源组“5102”。</td>
+<td>在列表中选择资源组 &#39;5102&#39;。</td>
 </tr>
 <tr>
 <td></td>
@@ -136,12 +135,12 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 <tr>
 <td></td>
 <td>4.</td>
-<td>在“输出仓库”字段中，输入“51”。</td>
+<td>在“输出仓库”字段中，输入 &#39;51&#39;。</td>
 </tr>
 <tr>
 <td></td>
 <td>5.</td>
-<td>在“输出库位”字段中，输入“001”。</td>
+<td>在“输出库位”字段中，输入 &#39;001&#39;。</td>
 </tr>
 <tr>
 <td></td>
@@ -169,7 +168,7 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 <tr>
 <td></td>
 <td>4.</td>
-<td>在“物料编号”字段中输入“L0101”。</td>
+<td>在“物料编号”字段中输入 &#39;L0101&#39;。</td>
 </tr>
 <tr>
 <td></td>
@@ -204,7 +203,7 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 <tr>
 <td></td>
 <td>11.</td>
-<td>在“自动物料清单消耗量”字段中，选择“从不”。</td>
+<td>在“自动物料清单消耗量”字段中，选择&#39;从不&#39;。</td>
 </tr>
 <tr>
 <td></td>
@@ -248,7 +247,6 @@ Microsoft Dynamics 365 for Finance and Operations 仓库工作策略控制是否
 </tr>
 </tbody>
 </table>
-
 
 
 

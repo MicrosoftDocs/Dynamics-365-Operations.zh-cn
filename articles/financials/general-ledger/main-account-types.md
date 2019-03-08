@@ -1,13 +1,13 @@
 ---
-title: "主科目类型"
-description: "主科目类型确定主科目如何用于会计科目表。"
+title: 主科目类型
+description: 主科目类型确定主科目如何用于会计科目表。
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5aadac3defc01be10daf5f3737d428135f4fb544
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cba8d8483323c591deb6de5530cc809781707fbf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313857"
 ---
-
 # <a name="main-account-types"></a>主科目类型
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ ms.lasthandoff: 04/13/2018
 -   报告 – 这些主科目仅用于巴西财务报表报告。
 
 有关详细信息，请参阅[设置主科目类别](tasks/set-up-main-account-categories.md)。
-
 
 
 

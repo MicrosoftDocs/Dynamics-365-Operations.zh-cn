@@ -1,13 +1,13 @@
 ---
-title: "公司目录移动电话工作区"
-description: "此主题提供有关公司目录移动工作区的信息，此工作区让用户能够查看和联系其组织中的其他员工。"
+title: 公司目录移动电话工作区
+description: 此主题提供有关公司目录移动工作区的信息，此工作区让用户能够查看和联系其组织中的其他员工。
 author: jcart1106
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Talent
@@ -15,21 +15,20 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 527d40452bcf52875e3f7b04d328110147417072
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308613"
 ---
-
 # <a name="company-directory-mobile-workspace"></a>公司目录移动电话工作区
 
 [!include [banner](../includes/banner.md)]
 
 此主题提供有关**公司目录**移动工作区的信息。 此工作区让用户能够查看和联系其组织中的其他员工。
 
-将此工作区可与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。
+将此工作区可与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
 
 ## <a name="overview"></a>概览
 **公司目录**移动工作区让用户能够执行以下任务：
@@ -58,7 +57,7 @@ ms.lasthandoff: 08/29/2018
 </ul>
 </td>
 <td>系统管理员</td>
-<td>如果您的组织中没有部署 Finance and Operations，请查阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果您已经在您的组织中部署人才，系统管理员可以从<a href="https://www.microsoft.com/en-us/dynamics365/talent">人才网页</a>访问试用版本。
+<td>如果您的组织中没有部署 Finance and Operations，请参阅<a href="../deployment/deploy-demo-environment.md">部署演示环境</a>。 如果您已经在您的组织中部署人才，系统管理员可以从<a href="https://www.microsoft.com/en-us/dynamics365/talent">人才网页</a>访问试用版本。
 </td>
 </tr>
 <tr class="even">
@@ -91,4 +90,3 @@ ms.lasthandoff: 08/29/2018
 1.  在移动应用中，选择**公司目录**工作区。
 2.  在**搜索**字段中，输入员工的名字、姓氏、职务或部门开始搜索。
 3.  选择某一员工。 此时将显示**员工模板**页。 此页上的信息包括员工的名字、姓氏、职务和部门。
-

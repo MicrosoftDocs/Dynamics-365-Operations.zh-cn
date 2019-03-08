@@ -1,32 +1,31 @@
 ---
-title: "使用仓库配置模板设置仓库"
-description: "此主题介绍如何使用仓库配置模板设置仓库。"
+title: 使用仓库配置模板设置仓库
+description: 此主题介绍如何使用仓库配置模板设置仓库。
 author: perlynne
 manager: AnnBe
 ms.date: 11/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataManagementWorkspace, DMFQuickImportExportEnhanced, DMFDefinitionGroupTemplate, DMFEntityTemplateDefinitionLoadDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 17016d015925cd31117231799b8741ffddb793f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: e952a2f988645ccff7617817262cbf0e90bfd8ab
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338053"
 ---
-
 # <a name="set-up-a-warehouse-by-using-a-warehouse-configuration-template"></a>使用仓库配置模板设置仓库
 
 [!include [banner](../includes/banner.md)]
@@ -94,9 +93,8 @@ ms.lasthandoff: 05/23/2018
 
 **查看执行**日志提供与导入的各个数据实体有关的详细信息。 您可以使用暂存数据视图快速定位到目标数据。 这样一来，您可以看到导入的数据在应用程序中的相关页面上的外观。 当您使用默认数据模板时，各数据实体的导入顺序采用预定义的方式，以帮助保证先导入所有依赖项数据。 如果自定义数据实体是项目的一部分，必须确保定义正确的顺序。 有关详细信息，请参阅[配置数据模板](../../dev-itpro/data-entities/configuration-data-templates.md)。
 
-若要了解有关如何在同一个实例中使用仓库模板将仓库的配置从一家公司复制到一家新公司，请观看 YouTube 上下面的这部 3 分钟的视频：[使用仓库模板在 Microsoft Dynamics 365 for Finance and Operations 中复制配置](https://www.youtube.com/watch?v=K2WIfFlqJYs)。
+若要了解有关如何在同一个实例内使用仓库模板将仓库的配置从一家公司复制到新公司的详细信息，请观看 YouTube 上的这个 3 分钟的视频：[使用仓库模板在 Microsoft Dynamics 365 for Finance and Operations 中复制配置](https://www.youtube.com/watch?v=K2WIfFlqJYs)。
 
 ## <a name="related-topic"></a>相关主题
 
 [配置数据模板](../../dev-itpro/data-entities/configuration-data-templates.md)
-

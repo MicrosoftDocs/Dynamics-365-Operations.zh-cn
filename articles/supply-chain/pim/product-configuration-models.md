@@ -1,13 +1,13 @@
 ---
-title: "产品配置模型概述"
-description: "本文定义与产品配置模型有关的术语和概念。 可通过产品配置模型构建可用于为单个产品配置大量产品变型的通用产品结构。"
+title: 产品配置模型概述
+description: 本文定义与产品配置模型有关的术语和概念。 可通过产品配置模型构建可用于为单个产品配置大量产品变型的通用产品结构。
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d908b9e58da06646e07ddc5fc4d937cc1f1849cd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ddc9d43f62df937a6fb18e15c718c37442bb9b4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313949"
 ---
-
 # <a name="product-configuration-models-overview"></a>产品配置模型概述
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ms.lasthandoff: 04/13/2018
 <tbody>
 <tr class="odd">
 <td>组件</td>
-<td>组件是产品配置模型的主要构造块。 组件显示在<strong>“基于约束的产品配置模型详细信息”</strong>页上的一个树状结构中。 组件可以包含以下元素：
+<td>组件是产品配置模型的主要构造块。 组件显示在<strong>基于约束的产品配置模型详细信息</strong>页上的一个树状结构中。 组件可以包含以下元素：
 <ul>
 <li>属性</li>
 <li>约束</li>
@@ -71,7 +70,7 @@ ms.lasthandoff: 04/13/2018
 <li><strong>文本</strong>，具有或不具有固定列表</li>
 <li><strong>布尔值</strong></li>
 </ul>
-如果属性类型为<strong>“布尔值”</strong>、具有范围的<strong>“整数”</strong>或具有固定列表的<strong>“文本”</strong>，则在设置产品配置模型时，该组值会可用。 <strong>注意：</strong>产品配置求解器仅识别下列属性类型：<strong>布尔值</strong>、具有固定列表的<strong>文本</strong>和具有范围的<strong>整数</strong>。 因此，只有这些属性类型可用于表达式约束和条件。</td>
+如果属性类型为<strong>布尔值</strong>、具有范围的<strong>整数</strong>或具有固定列表的<strong>文本</strong>，则在设置产品配置模型时，该组值会可用。 <strong>注意：</strong>产品配置求解器仅识别下列属性类型：<strong>布尔值</strong>、具有固定列表的<strong>文本</strong>和具有范围的<strong>整数</strong>。 因此，只有这些属性类型可用于表达式约束和条件。</td>
 </tr>
 <tr class="even">
 <td>约束</td>
@@ -80,7 +79,7 @@ ms.lasthandoff: 04/13/2018
 <li>表达式约束仅用于与它们相关联的组件。 组件的表达式约束可以引用组件的子组件的属性。 产品配置求解器用于求解约束，并且编写约束时您必须使用求解器语法。 有关详细信息，请参阅有关表达式约束和表约束的主题链接。</li>
 <li>必须定义表约束，然后才能将其应用到产品配置模型中的组件。 表约束可以是用户定义的，也可以是系统定义的。 用户定义的表约束是一种可用于描述属性类型所定义的一组属性值组合的矩阵。 例如，如果生产扬声器，则用户定义的表约束的矩阵可能包含针对扬声器表面处理和格栅的列。</li>
 </ul>
-<strong>示例</strong>扬声器有四种表面处理：黑色、橡木、红木和白色。 扬声器可以具有三个前格栅之一：黑色、金属或白色。 黑色表面处理对所有格栅可用，但是其他表面处理仅限于特定格栅。 下表显示在<strong>“编辑表约束”</strong>页上的<strong>“允许的组合”</strong>选项卡中显示的信息的示例。
+<strong>示例</strong>扬声器有四种表面处理：黑色、橡木、红木和白色。 扬声器可以具有三个前格栅之一：黑色、金属或白色。 黑色表面处理对所有格栅可用，但是其他表面处理仅限于特定格栅。 下表显示在<strong>编辑表约束</strong>页上的<strong>允许的组合</strong>选项卡中显示的信息的示例。
 <table>
 <thead>
 <tr class="header">
@@ -123,17 +122,17 @@ ms.lasthandoff: 04/13/2018
 </tr>
 <tr class="odd">
 <td>计算</td>
-<td>计算表示对约束的补充。 您可以使用计算对<strong>“小数”</strong>和<strong>“整数”</strong>类型的属性执行算术运算，或执行涉及具有固定列表的<strong>“文本”</strong>和“<strong>布尔值”</strong>类型的属性的逻辑运算。 计算具有一个目标属性，可用于保留计算表达式的结果。 计算表达式是使用表达式编辑器构建的。</td>
+<td>计算表示对约束的补充。 您可以使用计算对<strong>小数</strong>和<strong>整数</strong>类型的属性执行算术运算，或执行涉及具有固定列表的<strong>文本</strong>和<strong>布尔值</strong>类型的属性的逻辑运算。 计算具有一个目标属性，可用于保留计算表达式的结果。 计算表达式是使用表达式编辑器构建的。</td>
 </tr>
 <tr class="even">
 <td>子组件</td>
-<td>子组件反映产品配置模型的树状结构。 您可以使用子组件构造产品配置模型的结构。 子组件将引用现有组件。 因此，子组件将促进在多个产品配置模型中重复使用组件。 在子组件的<strong>“物料清单行详细信息”</strong>页上，您可以为子组件选择不同的值。 或者，您可以选择设置产品配置模型时为其选择了值的属性。 若要将产品包括为组件或子组件，您必须在创建产品时在<strong>“创建产品”</strong>页上指定以下内容：
+<td>子组件反映产品配置模型的树状结构。 您可以使用子组件构造产品配置模型的结构。 子组件将引用现有组件。 因此，子组件将促进在多个产品配置模型中重复使用组件。 在子组件的<strong>物料清单行详细信息</strong>页上，您可以为子组件选择不同的值。 或者，您可以选择设置产品配置模型时为其选择了值的属性。 若要将产品包括为组件或子组件，您必须在创建产品时在<strong>创建产品</strong>页上指定以下内容：
 <ul>
-<li>在<strong>“产品类型”</strong>字段中，选择<strong>“物料”</strong>。</li>
-<li>在<strong>“产品子类型”</strong>字段中，选择<strong>“基础产品”</strong>。</li>
-<li>在<strong>“配置技术”</strong>字段中，选择<strong>“基于约束的配置”</strong>。</li>
+<li>在<strong>产品类型</strong>字段中，选择<strong>物料</strong>。</li>
+<li>在<strong>产品子类型</strong>字段中，选择<strong>基础产品</strong>。</li>
+<li>在<strong>配置技术</strong>字段中，选择<strong>基于约束的配置</strong>。</li>
 </ul>
-您可以查看已发布产品是否可用作<strong>“已发布产品详细信息”</strong>页的<strong>“常规”</strong>选项卡上的组件或子组件。 如果<strong>“基于约束的配置”</strong>在<strong>“配置技术”</strong>字段中被选定，则产品可以用作组件或子组件。 您可以隐藏子组件，以便配置会话期间不会向用户显示。 与子组件关联的属性、子组件和用户要求也是隐藏的。</td>
+您可以查看已发布产品是否可用作<strong>已发布产品详细信息</strong>页的<strong>常规</strong>选项卡上的组件或子组件。 如果<strong>基于约束的配置</strong>在<strong>配置技术</strong>字段中被选定，则产品可以用作组件或子组件。 您可以隐藏子组件，以便配置会话期间不会向用户显示。 与子组件关联的属性、子组件和用户要求也是隐藏的。</td>
 </tr>
 <tr class="odd">
 <td>用户要求</td>
@@ -141,15 +140,14 @@ ms.lasthandoff: 04/13/2018
 </tr>
 <tr class="even">
 <td>物料清单行</td>
-<td>物料清单行表示产品配置模型中组件的各个物料。 在<strong>“物料清单行详细信息”</strong>页上，所有物料都可供选择。 可以将条件添加到物料清单行，以便根据设置产品配置模型时的用户选择，为不同产品变型选择的物料清单行可以有所不同。 条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。 在<strong>“物料清单行详细信息”</strong>页上，您可以选择一个不同的值。 或者，您可以映射到设置产品配置模型时为其选择了值的属性。</td>
+<td>物料清单行表示产品配置模型中组件的各个物料。 在<strong>物料清单行详细信息</strong>页上，所有物料都可供选择。 可以将条件添加到物料清单行，以便根据设置产品配置模型时的用户选择，为不同产品变型选择的物料清单行可以有所不同。 条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。 在<strong>物料清单行详细信息</strong>页上，您可以选择一个不同的值。 或者，您可以映射到设置产品配置模型时为其选择了值的属性。</td>
 </tr>
 <tr class="odd">
 <td>工艺路线工序</td>
-<td>在<strong>“工艺路线工序详细信息”</strong>页上，您可以选择一个不同的值。 或者，您可以映射到设置产品配置模型时为其选择了值的属性。 已编写条件，如表达式约束。 条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。</td>
+<td>在<strong>工艺路线工序详细信息</strong>页上，您可以选择一个不同的值。 或者，您可以映射到设置产品配置模型时为其选择了值的属性。 已编写条件，如表达式约束。 条件是必须要满足的表达式，以便将属性、物料清单行和工艺路线工序包括在产品配置模型中。</td>
 </tr>
 </tbody>
 </table>
-
 
 
 

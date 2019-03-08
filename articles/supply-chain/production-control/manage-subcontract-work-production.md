@@ -1,13 +1,13 @@
 ---
-title: "管理生产中的转包工作"
-description: "此主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。"
+title: 管理生产中的转包工作
+description: 此主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中管理已转包工序。 换言之，说明供应商如何管理分配给资源的生产工序。
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanDocumentServiceCreation, PlanActivity, ProdBOMVendorListPage, ProdRoute, ProdTable, ProdTableListPage, PurchAgreementSubcontractorLookup, RouteTable, WrkCtrResourceGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f41f13bf1b587cb802579cc3b27ef4eea70a0380
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 26feea4d86cf8b976f41342c8543594593c4b135
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326576"
 ---
-
 # <a name="manage-subcontracting-work-in-production"></a>管理生产中的转包工作
 
 [!include [banner](../includes/banner.md)]
@@ -101,7 +100,6 @@ ms.lasthandoff: 11/03/2017
 **注释：** 一个生产订单的生产工艺路线不能跨多个站点。 此规则也适用于已转包工作。 因此，必须在与工艺路线中所用内部资源相同的站点中定义表示供应商所管理位置的仓库。 尽管生产流可以跨站点，但不能将半成品从一个站点运输到另一个站点，因为该工序表示了成本上下文的变化。  
 
 通常，直接将已转包资源组的输出仓库和位置分配给工艺路线或生产流中工序下一步骤的仓库和位置。 此设置有助于减少产品的作业报告量或必须建模的额外转移工序的数量。
-
 
 
 

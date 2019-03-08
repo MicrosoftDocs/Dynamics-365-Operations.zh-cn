@@ -1,13 +1,13 @@
 ---
-title: "在购买之前"
-description: "在你考虑购买 Dynamics 365 for Finance and Operations 时使用的分步指导。"
+title: 在购买之前
+description: 在考虑购买 Dynamics 365 for Finance and Operations 时要使用的分步指导。
 author: kfend
 manager: AnnBe
 ms.date: 01/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.translationtype: HT
-ms.sourcegitcommit: 8166047a768c47219855c55a1008f3dd24cd5344
 ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345459"
 ---
-
 # <a name="before-you-buy"></a>购买之前
 
 [!include [banner](../includes/banner.md)]
@@ -32,11 +31,11 @@ Dynamics 365 for Finance and Operations 的新用户？ 无论你是仍然在评
 
 ## <a name="step-one-try-out-finance-and-operations-free-for-30-days"></a>步骤一：免费试用 Finance and Operations 30 天
 
-你只需简单注册一个电子邮箱即可试用 Dynamics 365 for Finance and Operations 30 天。 Finance and Operations 试用版本包括入门任务指导，该指导提供允许你在操作中查看特定方案的分步说明。 该产品可用于探索和体验方案，但无法自定义。 包括演示数据以帮助你轻松使用产品并使体验更有意义。 在试用期到期前 3 天将发送一封提醒电子邮件。 在 [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations) 获取详细信息。
+您可以通过简单的电子邮件注册试用 Dynamics 365 for Finance and Operations 30 天。 Finance and Operations 试用版本包括入门任务指导，该指导提供允许你在操作中查看特定方案的分步说明。 该产品可用于探索和体验方案，但无法自定义。 包括演示数据以帮助你轻松使用产品并使体验更有意义。 在试用期到期前 3 天将发送一封提醒电子邮件。 在 [www.microsoft.com/dynamics365/operations](https://www.microsoft.com/dynamics365/operations) 获取详细信息。
 
 ## <a name="step-two-choose-a-deployment-option"></a>步骤二：选择部署选项
 
-你现在可以在云或本地部署 Microsoft Dynamics 365 for Finance and Operations。 云部署提供完全由 Microsoft 托管的一项 ERP 服务，而本地部署在客户的数据中心内本地部署。
+您现在可以在云或本地部署 Microsoft Dynamics 365 for Finance and Operations。 云部署提供完全由 Microsoft 托管的一项 ERP 服务，而本地部署在客户的数据中心内本地部署。
 
 选择内部部署作为部署选项时，必须注意以下事项：
 
@@ -79,7 +78,7 @@ Microsoft 云解决方案提供商可以与你密切合作以了解你的公司�
 
 ### <a name="buy-through-a-dynamics-partner-on-premises"></a>通过 Dynamics 合作伙伴购买（本地）
 
-你必须与合作伙伴合作以购买本地 Finance and Operations。 有关详细信息，请参阅[购买 Dynamics 365 for Finance and Operations（本地）](purchase-on-premises.md)
+你必须与合作伙伴合作以购买本地 Finance and Operations。 有关详细信息，请参阅[购买 Dynamics 365 for Finance and Operations (on-premises)](purchase-on-premises.md)
 
 ### <a name="choose-your-support-option"></a>选择你的支持选项
 
@@ -94,7 +93,6 @@ Microsoft 提供灵活的、业内领先的支持、服务和资源，使用户�
 
 Microsoft FastTrack for Dynamics 365 是我们的客户成功服务，旨在帮助你顺利和放心地迁移到 Dynamics 365，让你更快地实现商业价值。 你参加 FastTrack 计划后，将收到关于最佳实践和如何制定成功的推出计划的指导。 你还将了解按照自己的速度启用新用户和扩展功能的方式。 此外，你还将有权访问旨在让你成功体验 Dynamics 365 的 Microsoft 工程资源。 详细信息：[Microsoft FastTrack for Dynamics 365 概述](fasttrack-dynamics-365-overview.md)
 
-## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>如果你要从 Dynamics AX 2012 升级或从 AX 2009 迁移
+## <a name="if-you-are-upgrading-from-dynamics-ax-2012-or-migrating-from-ax-2009"></a>如果您要从 Dynamics AX 2012 升级或从 AX 2009 迁移
 
-如果你是准备从 Microsoft Dynamics AX 2012 升级或从 Microsoft Dynamics AX 2009 迁移的客户，你可能有资格获得更长的试用期。 联系 <daxcf@microsoft.com> 以获取详细信息。
-
+如果您是准备从 Microsoft Dynamics AX 2012 升级或从 Microsoft Dynamics AX 2009 迁移的客户，您可能有资格获得更长的试用期。 联系 <daxcf@microsoft.com> 以获取详细信息。

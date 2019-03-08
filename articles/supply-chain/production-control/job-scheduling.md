@@ -1,13 +1,13 @@
 ---
-title: "作业级排产"
-description: "本文提供有关作业级排产的信息，其是比工序级排产更详细的排产形式。 您可以使用作业级排产来计划单独的作业或车间订单和控制制造环境。"
+title: 作业级排产
+description: 本文提供有关作业级排产的信息，其是比工序级排产更详细的排产形式。 您可以使用作业级排产来计划单独的作业或车间订单和控制制造环境。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d506a6fbeb7e88dc6b1709203bc0822b1f4dc0f8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8162797256e221192dc3e1a12aa145e28d5bc0f5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339525"
 ---
-
 # <a name="job-scheduling"></a>作业级排产
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 作业级排产将对当前生产参考的所有生产进行排产。 如果某一生产具有一个或多个子生产，则该子生成应安排在与主生产相同的时间，因为在完成相关子生产后才能开始主生产。
 
 ## <a name="schedule-resources"></a>计划资源
-计划编制引擎将检查资源的组合以识别可满足需求的组合。 您可以通过在 **“计划编制参数”** 页上的 **“主要资源选择”** 字段中选择以下值之一来指定选择条件：
+计划编制引擎将检查资源的组合以识别可满足需求的组合。 您可以通过在**计划编制参数**页上的**主要资源选择**字段中选择以下值之一来指定选择条件：
 
 -   **持续时间** - 计划编制引擎选择具有最短提前期的资源。 **注意：** 当同一资源组包含了许多资源且使用了辅助工序时，按持续时间编制计划可能导致性能下降。 每个工序最多只能排产 32 个资源。 如果超出此数量，将显示一条信息日志消息，并且作业级排产无法找到最佳的备选资源。
 -   **优先级** - 如果两个或更多资源具有相同的功能和级别，计划编制引擎将选择具有最高优先级的资源。 此字段中具有最低的数值的资源具有最高优先级。
@@ -75,7 +74,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="resource-efficiency"></a>资源效率
 作业级排产考虑为资源指定的效率百分比。 效率百分比增减为资源预留的时间。 因此，提前期也会增减。 以下公式用于计算：计划的时间 = 时间 × 100 ÷ 效率百分比。在此公式中，*时间* 包括运行时间和设置时间。
-
 
 
 

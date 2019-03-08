@@ -1,13 +1,13 @@
 ---
-title: "构建产品配置模型"
-description: "“将产品配置为可满足特定要求”这一需求在“企业对企业”和“企业对消费者”关系中都正在成为规则而不是特例。"
+title: 构建产品配置模型
+description: “将产品配置为可满足特定要求”这一需求在“企业对企业”和“企业对消费者”关系中都正在成为规则而不是特例。
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 60a901ce9e87571b2d199a49af2cddbd72fc5808
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2bfaf16cde329909c167d1ad402e08619bdcd5a2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327450"
 ---
-
 # <a name="build-a-product-configuration-model"></a>构建产品配置模型
 
 [!include [banner](../includes/banner.md)]
@@ -110,7 +109,7 @@ ms.lasthandoff: 02/07/2018
 
 ### <a name="the-configuration-page"></a>管理页面
 
-要在组件之间导航，请单击 **“下一个”** 或单击产品配置模型树中的组件以将焦点设置在其上。
+要在组件之间导航，请单击**下一个**或单击产品配置模型树中的组件以将焦点设置在其上。
 
 ## <a name="finalizing-a-model-for-configuration"></a>为配置完成模型
 当产品配置模型已准备好在配置到订购方案中使用时，必须创建一个版本。 但是，有几个可改善建模经验的选项。
@@ -158,7 +157,6 @@ API 是使用一组 **PCAdaptor** 类实施的，这些类可公开产品配置�
 ### <a name="multiple-sites-and-intercompany"></a>多个站点和内部公司
 
 如果将对站点或者甚至是公司（不同于进行生产的站点或公司）执行配置，则会为供应公司内的供应商站点创建物料清单和工艺路线。 产品变型将在参与供应链的所有公司中发布。
-
 
 
 

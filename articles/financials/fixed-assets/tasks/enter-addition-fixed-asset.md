@@ -1,13 +1,13 @@
---- 
-title: "输入对固定资产的添加件"
-description: "本流程展示如何对现有固定资产表添加新的成员。"
+---
+title: 输入对固定资产的添加件
+description: 本流程展示如何对现有固定资产表添加新的成员。
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetAddition
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3c9733f07f995dd37669f3c33fd0f082daa34dd2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 3579148033023f648e1a78a3dd009018f153fdad
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324414"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>输入对固定资产的添加件
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
 11. 单击“常规”选项卡。
     * 如果增加物提供了资产的服务年限，设置增加服务年限  
     * 该字段仅用于提供信息。 要提高使用年限，请修改资产价值模型和折旧帐簿中的使用年限。  
-
 

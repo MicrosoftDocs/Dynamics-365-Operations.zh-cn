@@ -1,13 +1,13 @@
 ---
-title: "Retail Modern POS (MPOS) 中的客户订单"
-description: "此主题提供有关 Retail Modern POS (MPOS) 中的客户订单的信息。 客户订单也称为特殊订单。 此主题中包含对相关参数和交易记录流的讨论。"
+title: Retail Modern POS (MPOS) 中的客户订单
+description: 本主题提供有关 Retail Modern POS (MPOS) 中客户订单的信息。 客户订单也称为特殊订单。 此主题中包含对相关参数和交易记录流的讨论。
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: anpurush
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: b54f39cc7896871d77f9371e6197bf6dbaac51de
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336604"
 ---
-
 # <a name="customer-orders-in-retail-modern-pos-mpos"></a>Retail Modern POS (MPOS) 中的客户订单
 
 [!include [banner](includes/banner.md)]
 
-此主题提供有关 Retail Modern POS (MPOS) 中的客户订单的信息。 客户订单也称为特殊订单。 此主题中包含对相关参数和交易记录流的讨论。
+本主题提供有关 Retail Modern POS (MPOS) 中客户订单的信息。 客户订单也称为特殊订单。 此主题中包含对相关参数和交易记录流的讨论。
 
 在 omni 渠道零售环境中，许多零售商提供客户订单（即特殊订单）选项，以满足各种产品和履行要求。 下面是一些典型方案：
 
@@ -102,4 +101,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="additional-resources"></a>其他资源
 
 [混合客户订单](hybrid-customer-orders.md)
-

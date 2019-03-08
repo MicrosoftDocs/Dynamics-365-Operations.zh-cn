@@ -1,31 +1,30 @@
 ---
-title: "服务任务"
-description: "使用服务任务可以描述要在服务订单期间完成的任务。 技术人员和客户都可以看到此信息。"
+title: 服务任务
+description: 使用服务任务可以描述要在服务订单期间完成的任务。 技术人员和客户都可以看到此信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceTask
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f2538a7b4a4c13a299afb37dd336f2f5d6f36a23
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: de180a1258bbfb95acbfd0985cb91c88efc320f2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308590"
 ---
-
 # <a name="service-tasks"></a>服务任务  
 
 [!include [banner](../includes/banner.md)]
@@ -89,6 +88,5 @@ ms.lasthandoff: 02/21/2018
 
 1. 单击**服务管理** \> **常用** \> **服务协议** \> **服务协议**。
 2. 在**设置**选项卡中，选择**合并服务订单**字段中的**按服务任务**。
-
 
 

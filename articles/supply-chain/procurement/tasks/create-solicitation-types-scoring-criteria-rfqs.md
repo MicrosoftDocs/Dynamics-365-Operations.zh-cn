@@ -1,13 +1,13 @@
---- 
-title: "创建询价的申请类型和计分条件"
-description: "此指南演示如何创建申请类型和将其与计分方法关联。"
+---
+title: 创建询价的申请类型和计分条件
+description: 此指南演示如何创建申请类型和将其与计分方法关联。
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQSolicitationType, PurchRFQCaseTableListPage, PurchCreateRFQCase, PurchRFQCaseTable, PurchRFQScoringRFQCaseCriteria, PurchRFQScoringCriteriaCopy
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 14fd7d0bfa17427883f97c5e0a72044016d4965e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 095855d552d228375635bdbaa9fca37c47a3b952
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344608"
 ---
 # <a name="create-solicitation-types-and-scoring-criteria-for-rfqs"></a>创建询价的申请类型和计分条件
 
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/29/2017
 7. 在“计分方法”字段中，输入或选择一个值。
 8. 单击“确定”。
 9. 关闭该页面。
-
 

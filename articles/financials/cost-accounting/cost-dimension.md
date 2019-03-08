@@ -1,13 +1,13 @@
 ---
-title: "创建维度并导入维度成员"
-description: "成本核算是一个独立的模块，需要来自其他模块的主数据。"
+title: 创建维度并导入维度成员
+description: 成本核算是一个独立的模块，需要来自其他模块的主数据。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d48ba0a0b80d251e107baa0ceeb66d8e328f13dc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0012761b3aa8ce391b956329a9e249e5c9339db7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342308"
 ---
-
 # <a name="create-dimensions-and-import-dimension-members"></a>创建维度并导入维度成员
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 -  [将成本元素维度成员映射到一组常用维度成员](map-cost-elements-dimension-members.md)
 -  [映射成本元素维度（任务指南）](./tasks/map-cost-element-dimension.md)
 -  [统计维度成员和统计度量提供方模板](statistical-measure-provider-template.md)
-
 
 
 

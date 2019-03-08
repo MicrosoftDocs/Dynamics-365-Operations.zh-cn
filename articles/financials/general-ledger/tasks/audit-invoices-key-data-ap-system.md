@@ -1,13 +1,13 @@
---- 
-title: "审核 AP 系统中的发票和关键数据"
-description: "在您从供应商处收到针对采购订单上的货物或服务的发票时，该业务流程可能要求首先接收货物或服务，然后才能对发票进行审核以便付款。"
+---
+title: 审核 AP 系统中的发票和关键数据
+description: 在您从供应商处收到针对采购订单上的货物或服务的发票时，该业务流程可能要求首先接收货物或服务，然后才能对发票进行审核以便付款。
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchEditLines, VendEditInvoice, VendEditInvoiceDefaultQuantityForLinesDropDialog,  VendJournalMatch_PackingSlip, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cc995b474e86272b49629f97e1b4d4b4fb597b9d
 ms.openlocfilehash: 946076d682a10becdc2c4a8baff7f52de7893119
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331521"
 ---
 # <a name="audit-invoices-and-key-data-in-ap-system"></a>审核 AP 系统中的发票和关键数据
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 12/04/2018
 8. 单击**确定**。
 9. 在操作窗格上，单击**审核**。
 10. 单击**匹配详细信息**。
-
 

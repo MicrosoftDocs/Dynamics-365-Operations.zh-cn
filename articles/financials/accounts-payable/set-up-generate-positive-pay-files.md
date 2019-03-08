@@ -1,13 +1,13 @@
 ---
-title: "设置和生成付款确认文件"
-description: "本文说明如何设置付款确认和生成付款确认文件。"
+title: 设置和生成付款确认文件
+description: 本文说明如何设置付款确认和生成付款确认文件。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePayFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 41d7b64f8414385629acef071c47a654d56005bd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346080"
 ---
-
 # <a name="set-up-and-generate-positive-pay-files"></a>设置和生成付款确认文件
 
 [!include [banner](../includes/banner.md)]
@@ -160,7 +159,6 @@ ms.lasthandoff: 03/26/2018
 
 ## <a name="recall-a-positive-pay-file"></a>撤回付款确认文件
 如果您必须更改付款确认文件，您可以撤消它。 在**付款确认文件**页上，选择状态为**已创建**的付款确认文件，然后选择**撤回**操作。 对于付款确认文件中的每一张支票，将重置指示该支票是否包括在一个付款确认文件中的字段。 然后，您可以创建包括已撤消支票的新的付款确认文件。
-
 
 
 

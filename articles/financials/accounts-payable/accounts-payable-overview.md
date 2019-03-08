@@ -1,13 +1,13 @@
 ---
-title: "配置应付账款"
-description: "本文介绍您用于在 Microsoft Dynamics 365 for Finance and Operations 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付账款前必须完成的设置步骤。"
+title: 配置应付账款
+description: 本文介绍您用于在 Microsoft Dynamics 365 for Finance and Operations 中设置应付帐款的基本和可选功能的页面。 还介绍您在开始设置应付账款前必须完成的设置步骤。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, DeliveryMode, PaymTerm, VendGroup, VendParameters, VendPaymMode, VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6a832a30870f77578503bae6eea17ad1d0881d91
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 60313da23fdbd5a06b71c7c91a236165f8f189de
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326691"
 ---
-
 # <a name="configure-accounts-payable"></a>配置应付账款
 
 [!include [banner](../includes/banner.md)]
@@ -144,7 +143,6 @@ ms.lasthandoff: 03/26/2018
 **现金和银行管理**
 
 -   在“付款目的代码”页上，设置主办银行目的代码。
-
 
 
 

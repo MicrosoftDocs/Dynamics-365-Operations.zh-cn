@@ -1,13 +1,13 @@
 ---
-title: "供应商过帐模板"
-description: "供应商过帐模板控制将供应商交易记录过帐到总帐。"
+title: 供应商过帐模板
+description: 供应商过帐模板控制将供应商交易记录过帐到总帐。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ae019ebec2788fc499b0f2ef27a7eb2832ceaa9d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3571726fd3603371b8e1daec7d6ebe85d72d280d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346517"
 ---
-
 # <a name="vendor-posting-profiles"></a>供应商过帐模板
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ ms.lasthandoff: 04/13/2018
 
 指定在使用所选过帐模板对交易记录进行过帐时所使用的会计科目。 为所选的过帐模板选择帐户编码；只要可能，还选择帐户/组编号。 在过帐过程中，定位每个交易记录的最合适过帐模板的方法是搜索针对性最强的帐户编码、帐号或组编号组合，其优先级如下：
 
-| **“帐户编码”** 字段值 | **“帐户/组编号”** 字段值        | 搜索优先级 |
+| **帐户编码**字段值 | **帐户/组编号**字段值        | 搜索优先级 |
 |------------------------------|---------------------------------------------|-----------------|
 | **表**                    | 特定供应商帐户                     | 1               |
 | **组**                    | 分配给供应商的供应商组 | 2               |
@@ -144,7 +143,6 @@ ms.lasthandoff: 04/13/2018
 | **结算** | 选择此选项可启用具有此过帐模板的交易记录的自动结算。 如果清除此选项，您必须通过使用“结算未结交易记录”页来手动结算交易记录。 |
 | **取消**     | 如果您希望能够取消具有此过帐模板的交易记录，请选择此选项。                                                                                                               |
 | **关闭**      | 选择在您关闭具有此过帐模板的交易记录时希望更改为的过帐模板。 在完全结算某一交易记录后，该交易记录被视为已关闭。                                       |
-
 
 
 

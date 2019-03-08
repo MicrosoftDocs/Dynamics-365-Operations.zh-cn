@@ -1,13 +1,13 @@
 ---
-title: "补偿客户"
-description: "本文说明如何为一组客户创建偿还交易记录。 如果某一客户具有贷方余额，您可以为该客户偿还剩余的金额。"
+title: 补偿客户
+description: 本文说明如何为一组客户创建偿还交易记录。 如果某一客户具有贷方余额，您可以为该客户偿还剩余的金额。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36e7e684e207e13baffa7eefd13e8e4a29d99914
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01c9dcebe82544624c6dd0feb3672d1c5bdfe2d1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325219"
 ---
-
 # <a name="reimburse-customers"></a>补偿客户
 
 [!include [banner](../includes/banner.md)]
@@ -44,12 +43,11 @@ ms.lasthandoff: 11/03/2017
 1.  在“应收账款”中，请运行**偿还**流程。
 2.  按以下步骤之一：
     -   若要偿还特定的客户帐户，请单击**选择**，然后在查询中指定客户帐户。
-    -   若要偿还所有客户帐户，请单击“**确定**”。
+    -   若要偿还所有客户帐户，请单击**确定**。
 
     贷方金额将转移到客户的供应商帐户，并且按一般的付款进行处理。 如果某一客户不具有供应商帐户，则将自动为该客户创建零星供应商帐户。
 3.  若要查看创建的偿还交易记录，使用**偿还**页。
 4.  在应付账款中，为偿还流程创建的供应商发票创建付款。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "费用管理移动工作区"
-description: "本主题提供有关费用报销管理移动工作区的信息。 此工作区让用户能够捕获和上载收据，以便以后可以将其附加到支出报表。 用户还可以使用附加的收据快速创建支出行，并创建和管理其支出报表。"
+title: 费用管理移动工作区
+description: 本主题提供有关费用报销管理移动工作区的信息。 此工作区让用户能够捕获和上载收据，以便以后可以将其附加到支出报表。 用户还可以使用附加的收据快速创建支出行，并创建和管理其支出报表。
 author: KimANelson
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 6ec9966826830e9ceaa3ed7e1b06e2cb89e8a780
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6f6add07a2426b1846cbeb9dee149a63f66f779e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344332"
 ---
-
 # <a name="expense-management-mobile-workspace"></a>费用报销管理移动工作区
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 03/26/2018
 本主题提供有关**费用报销管理**移动工作区的信息。 此工作区让用户能够捕获和上载收据，以便以后可以将其附加到支出报表。 用户还可以使用附加的收据快速创建支出行，并创建和管理其支出报表。 此外，审核人可以使用**费用报销管理**移动工作区查看分配给他们的支出报表，并且审核或拒绝这些支出报表。
 
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。
+将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
 
 
 ## <a name="overview"></a>概览
@@ -57,8 +56,8 @@ ms.lasthandoff: 03/26/2018
 - 提交支出报表以供审核和补偿。
 - 审核或拒绝你作为对其分配的审核人的支出报表。
 
-## <a name="prerequisites"></a>必备项
-先决条件根据为你的组织部署的 Microsoft Dynamics 365 版本不同。
+## <a name="prerequisites"></a>先决条件
+先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本而异。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
 如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**费用管理**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
@@ -243,4 +242,3 @@ ms.lasthandoff: 03/26/2018
 22. 选择**提交**。
 23. 为审核人输入任何注释。
 24. 选择**完成**。
-

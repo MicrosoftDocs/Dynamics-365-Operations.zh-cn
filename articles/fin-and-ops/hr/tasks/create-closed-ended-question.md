@@ -1,13 +1,13 @@
---- 
-title: "创建封闭式问题"
-description: "封闭式问题允许您为回答者提供供选择的选项。"
+---
+title: 创建封闭式问题
+description: 封闭式问题允许您为回答者提供供选择的选项。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KMAnswerCollection, KMAnswer, KMQuestion
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6b08988a3872cec39b7592732d23862e959aae79
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332257"
 ---
 # <a name="create-a-closed-ended-question"></a>创建封闭式问题
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/14/2018
 4. 在“输入类型”字段中，选择一个选项。
 5. 在“回答组”字段中，输入或选择一个值。
 6. 在“文本”字段中，键入一个值。
-
 

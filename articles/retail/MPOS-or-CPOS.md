@@ -1,31 +1,30 @@
 ---
-title: "在 Retail Modern POS (MPOS) 和 Cloud POS 之间选择"
-description: "本主题说明 Retail Modern POS 和 Cloud POS 之间的主要差别。 它还描述实现 Microsoft Dynamics 365 for Retail 的零售商应考虑的以帮助他们作出满足自己要求的最佳选择的各个因素。"
+title: 在 Retail Modern POS (MPOS) 和 Cloud POS 之间选择
+description: 本主题说明 Retail Modern POS 和 Cloud POS 之间的主要差别。 它还描述实现 Microsoft Dynamics 365 for Retail 的零售商应考虑的以帮助他们作出满足自己要求的最佳选择的各个因素。
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-10-12
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0b137a21a610a8bffc10b03067b429995e8e0662
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336236"
 ---
-
 # <a name="choose-between-retail-modern-pos-mpos-and-cloud-pos"></a>在 Retail Modern POS (MPOS) 和 Cloud POS 之间选择
 
 [!include [banner](includes/banner.md)]
@@ -61,7 +60,7 @@ Retail 支持以下 POS 选项：
 Windows、iOS 或 Android 设备上的 MPOS 是在该设备上打包、安装和服务的应用程序。
 
 - **Windows** – Windows 应用程序的 MPOS 包含所有应用程序代码和嵌入的 Commerce Runtime (CRT)。 
-- **iOS/Android** – 在这些平台上，此应用程序充当 CPOS 应用程序代码的主机。 换言之，应用程序代码来自 Microsoft Azure 或零售商店扩展单位 (RSSU) 上的 CPOS 服务器。 有关详细信息，请参阅[零售商店扩展单位概览](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin)。
+- **iOS/Android** – 在这些平台上，此应用程序充当 CPOS 应用程序代码的主机。 换言之，应用程序代码来自 Microsoft Azure 或 Retail Store Scale Unit (RSSU) 上的 CPOS 服务器。 有关详细信息，请参阅 [Retail Store Scale Unit 概述](https://docs.microsoft.com/dynamics365/unified-operations/retail/dev-itpro/retail-store-system-begin)。
 
 #### <a name="cpos"></a>CPOS
 
@@ -106,4 +105,3 @@ Retail 服务器是承载 CRT 的组件。 CRT 包含 POS 使用的所有业务�
 - **硬件设备/外设** – Retail POS 系统的一个重要方面是它能够使用 POS 外设，如打印机、银箱和付款终端。 虽然所有可用 POS 选项均可以使用外设，但只有适用于 Windows 的 MPOS 直接支持它们。 对于所有其他应用程序，均需要一个或多个硬件工作站。 虽然此方法增加了灵活性，但必须部署、配置和服务其他组件。
 - **系统要求** – POS 应用程序的系统要求会发生变化。 在您进行选择前，请确保检查最新信息。 例如，因为 CPOS 在浏览器中运行，它支持各种操作系统。 有关系统要求的详细信息，请参阅[云部署的系统要求](https://docs.microsoft.com/dynamics365/unified-operations/fin-and-ops/get-started/system-requirements)。
 - **部署和服务** – 部署和服务要求的复杂程度可能因应用程序和部署选择的更改而改变。 例如，对于云托管的 CPOS 部署，您不必在每台设备上安装和更新。 因此，此方法将极大地减少复杂性和成本。 但是，如果您在每个收银机上部署 MPOS 并启用脱机模式，而且您还部署了共享的硬件工作站，这会大大增加必须管理的终结点数量。
-

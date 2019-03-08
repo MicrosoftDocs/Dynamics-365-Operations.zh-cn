@@ -1,36 +1,35 @@
 ---
-title: "Dynamics 365 for Talent Core HR（2018 年 7 月）中的新增功能或更改的功能"
-description: "此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新功能和更改的功能。"
+title: Dynamics 365 for Talent Core HR（2018 年 7 月）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 author: josaw1
 manager: AnnBe
 ms.date: 07/31/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2018-07-31
 ms.dyn365.ops.version: Talent July 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 330a4e1b820f1898bbbee15f8ec8fa427f30807f
 ms.openlocfilehash: 5cf1c17c3b833805a4797ec0fc7278ce3546ac2e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303455"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Dynamics 365 for Talent Core HR（2018 年 7 月）中的新增功能或更改的功能
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-july-2018"></a>Dynamics 365 for Talent Core HR（2018 年 7 月）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新功能和更改的功能。
+此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 
 ## <a name="powerapps-personalization"></a>PowerApps 个性化设置
 
@@ -60,4 +59,3 @@ Microsoft Dynamics 365 for Talent 支持与 Microsoft PowerApps 服务集成。 
 ## <a name="benefit-enrollment-status-report"></a>福利登记状态报表
 
 有关福利的开放登记的内置报告功能可以帮助您轻松了解员工在开放登记流程的哪个阶段。 您可以了解多少位员工已完成了该流程，多少位员工正在完成，多少位员工尚未开始。 此外，您可以迅速查看员工登记期间出现的任何问题和所有员工提交情况的完整日志。 因此，您可以轻松验证和审核员工提交的信息。
-

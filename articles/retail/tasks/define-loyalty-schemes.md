@@ -1,13 +1,13 @@
---- 
-title: "定义会员方案"
-description: "此程序会逐步演示如何定义会员方案。"
+---
+title: 定义会员方案
+description: 此程序会逐步演示如何定义会员方案。
 author: jashanno
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations, Retail
@@ -16,14 +16,13 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 362d6cf877c484c438641980d109b3bed4464b68
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: f398197566918c571128433c2fba3bf7d7c2fe3d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315145"
 ---
-
 # <a name="define-loyalty-schemes"></a>定义会员方案
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
@@ -70,5 +69,4 @@ ms.lasthandoff: 02/07/2018
 26. 单击“确定”。
 27. 单击“保存”。
     * 但凡要更改会员方案的渠道，您必须运行“处理会员方案”。 如此，渠道将会获得更新的会员方案。  
-
 

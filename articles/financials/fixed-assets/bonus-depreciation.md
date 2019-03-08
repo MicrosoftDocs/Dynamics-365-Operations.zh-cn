@@ -1,13 +1,13 @@
 ---
-title: "额外折旧"
-description: "本文提供红利折旧功能的概览。"
+title: 额外折旧
+description: 本文提供红利折旧功能的概览。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBonus
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e05c0c195ddb948547ae008d050686bbcdc6ed3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d50cbba648beb9831e186cd160853abe79c4e4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323310"
 ---
-
 # <a name="bonus-depreciation"></a>额外折旧
 
 [!include [banner](../includes/banner.md)]
 
 本文提供红利折旧功能的概览。
 
-对于额外折旧，您可以在资产投入使用并开始折旧的第一年中提取额外的折旧金额。 必须在进行任何其他折旧计算前提取额外折旧。 因此，最好是在帐簿禁用“过帐到总帐”功能时使用额外折旧。 您可以使用“**删除尚未过帐到总帐的交易记录**”选项删除未过帐到总帐的帐簿的历史交易记录。 然后，您将来可以通过删除先前过帐的折旧交易记录在资产生命周期中容纳额外折旧。 
+对于额外折旧，您可以在资产投入使用并开始折旧的第一年中提取额外的折旧金额。 必须在进行任何其他折旧计算前提取额外折旧。 因此，最好是在帐簿禁用“过帐到总帐”功能时使用额外折旧。 您可以使用**删除尚未过帐到总帐的交易记录**选项删除未过帐到总帐的帐簿的历史交易记录。 然后，您将来可以通过删除先前过帐的折旧交易记录在资产生命周期中容纳额外折旧。 
 
 您可以通过使用方案过程计算额外折旧，也可以创建手动额外折旧交易记录。 如果该资产帐簿存在折旧交易记录或折旧调整交易记录，则不能创建额外折旧交易记录。
 
@@ -63,7 +62,6 @@ ms.lasthandoff: 11/03/2017
 您可以创建数量不限的额外折旧记录。 将这些记录分配给资产组帐簿后，这些记录会应用于资产帐簿。 
 
 额外折旧作为百分比或固定金额输入。 过帐折旧方案时，额外折旧交易记录将作为不同于折旧交易记录的单独的交易记录过帐到帐簿。
-
 
 
 

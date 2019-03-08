@@ -1,13 +1,13 @@
 ---
-title: "设置呼叫中心渠道"
-description: "本主题提供有关如何使用 Microsoft Dynamics 365 for Retail 来处理呼叫中心的订单的信息。"
+title: 设置呼叫中心渠道
+description: 本主题提供有关如何使用 Microsoft Dynamics 365 for Retail 来处理呼叫中心的订单的信息。
 author: josaw1
 manager: AnnBe
 ms.date: 04/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters, MCRSalesTableOrderHistory, SalesOrderProcessingWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 0bfbb763b8ded2a0ce90b66eb686379b1dc92a6d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334833"
 ---
-
 # <a name="set-up-call-center-channels"></a>设置呼叫中心渠道
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ ms.lasthandoff: 01/04/2019
 未链接到呼叫中心渠道的用户则使用 Microsoft Dynamics 365 for Finance and Operations 的标准订单录入功能。 系统将不会把这些用户通过销售订单录入窗体输入的订单识别为 Retail 订单。 此外，这些用户输入的这些订单将不应用任何订单完成处理规则、零售定价逻辑，或可在呼叫中心渠道配置或呼叫中心系统参数中定义的其他订单验证。
 
 完成呼叫中心渠道配置和渠道用户定义之后，要帮助确保所需系统行为，请务必在 **Retail** \> **渠道设置** \> **呼叫中心设置** \> **呼叫中心参数**中定义所有必需的呼叫中心参数。 请确保还定义相关编号规则。
-

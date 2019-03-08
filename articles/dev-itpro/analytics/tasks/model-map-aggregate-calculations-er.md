@@ -1,13 +1,13 @@
---- 
-title: "使用模型映射配置在数据库级别执行聚合计算"
-description: "此过程提供有关如何设计新电子申报 (ER) 模型映射配置和使用内置 ER 执行有效聚合计算的信息。"
+---
+title: 使用模型映射配置在数据库级别执行聚合计算
+description: 此过程提供有关如何设计新电子申报 (ER) 模型映射配置和使用内置 ER 执行有效聚合计算的信息。
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: a462a3997644a494b5cea89c9530ddba67c32450
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313627"
 ---
 # <a name="use-model-mapping-configurations-for-aggregate-calculations-at-the-database-level"></a>使用模型映射配置在数据库级别执行聚合计算
 
@@ -37,7 +37,7 @@ ms.lasthandoff: 08/08/2018
 3. 在树中，选择“内部统计模型\内部统计示例映射”。
 4. 单击“设计器”。
 5. 单击“设计器”。
-6. 在树结构中，选择“Dynamics 365 for Operations\表格记录”。
+6. 在树中，选择“Dynamics 365 for Operations\表记录”'。
 7. 单击“添加根”。
     * 添加表示您要分组的记录的新数据源。  
 8. 在“名称”字段中，键入“交易记录”。
@@ -116,5 +116,4 @@ ms.lasthandoff: 08/08/2018
 67. 在树中，展开“Commodity record(Intrastat)”。
 68. 单击“保存”。
     * 请注意，“执行位置”字段指示此分组将在运行时在内存中执行，即使未定义合并，且所选的“表记录”类型的数据源引用同一个“内部统计”表。 原因在于数据源包含一些不能转换为 SQL 数据库级别的已计算字段。  
-
 

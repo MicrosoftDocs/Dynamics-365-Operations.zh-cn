@@ -1,37 +1,36 @@
 ---
-title: "将工作订单从 Finance and Operations 同步到 Field Service"
-description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Field Service 的具有项目编号的工作订单同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。"
+title: 将包含项目的工作订单从 Field Service 同步到 Finance and Operations
+description: 此主题介绍用于同步 Microsoft Dynamics 365 for Field Service 与 Microsoft Dynamics 365 for Finance and Operations 的具有项目编号的工作订单的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 12/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
+ms.openlocfilehash: 6b61411a5a235e2d0aad8bb25ae4a3bfcf1248d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 8c6cb481f1a3fe48d329c5936118d8df88a4175b
-ms.openlocfilehash: f5bd6b8c554688d0d1b2bfd93a34a60a95412bf3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/20/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329842"
 ---
-
 # <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>将包含项目的工作订单从 Field Service 同步到 Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-本主题讨论用于将来自 Microsoft Dynamics 365 for Field Service 的具有项目编号的工作订单同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
+此主题介绍用于同步 Microsoft Dynamics 365 for Field Service 与 Microsoft Dynamics 365 for Finance and Operations 的具有项目编号的工作订单的模板和基础任务。
 
 [![Finance and Operations 与 Field Service 之间的业务流程同步](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
@@ -76,4 +75,3 @@ ms.lasthandoff: 12/20/2018
 ### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderservice"></a>包含项目的工作订单（Field Service 到 Finance and Operations）：WorkOrderService
 
 [![数据集成中的模板映射](./media/FSWOP4.png)](./media/FSWOP4.png)
-

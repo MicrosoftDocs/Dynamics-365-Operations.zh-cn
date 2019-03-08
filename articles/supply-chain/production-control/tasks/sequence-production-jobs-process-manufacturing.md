@@ -1,13 +1,13 @@
---- 
-title: "对流程制造的生产作业排序"
-description: "此过程使用油漆产品作为示例显示如何根据颜色和包装大小的优先级排序计划订单。"
+---
+title: 对流程制造的生产作业排序
+description: 此过程使用油漆产品作为示例显示如何根据颜色和包装大小的优先级排序计划订单。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqTransPo, PMFSeqReqRouteChangesListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4e064f55ed451d44f58e60ba0aa722166981c129
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a25a4575ca1600b07b2dac5949c8775bcd162650
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312247"
 ---
 # <a name="sequence-production-jobs-for-process-manufacturing"></a>对流程制造的生产作业排序
 
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 7. 在列表中，单击所选行中的链接。
 8. 使用“快速筛选”来筛选带有值“P300”的“物料编号”字段。
     * 请注意，订单现在根据颜色和尺寸的优先级排序，计划订单从最早订单日期和交货日期开始。 验证“计划详细信息”速见表中的订单日期列或开始日期。  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "设置信用证的银行设施和过帐模板"
-description: "该过程会从始至终引导您创建所需的“银行融资和过帐模板”，以便处理“信用证”。"
+---
+title: 设置信用证的银行设施和过帐模板
+description: 该过程会从始至终引导您创建所需的“银行融资和过帐模板”，以便处理“信用证”。
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 3419d975c087350c01c6854dbbae07b6bb20bc03
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 43422627f8529768ab9377c04568da531d6565c6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309924"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letter-of-credit"></a>设置信用证的银行设施和过帐模板
 
@@ -73,5 +73,4 @@ ms.lasthandoff: 09/29/2017
 8. 在“利润帐户”字段中，选择交易利润适用的帐户。
     * 当过账打开的毛利时借记此科目，当过账贷款时贷记此科目。  
 9. 单击“保存”。
-
 

@@ -1,13 +1,13 @@
 ---
-title: "实际和财务更新"
-description: "本主题提供哪些类型的交易记录将增减库存数量的概要。"
+title: 实际和财务更新
+description: 本主题提供哪些类型的交易记录将增减库存数量的概要。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTrans, InventTransVoucher
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ba628dbf63d3b124583e6b873530f1459b07562
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e62bdbfb7b88f66ea1f6e4d57b6150c8b0bffb04
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322574"
 ---
-
 # <a name="physical-and-financial-updates"></a>实际和财务更新
 
 [!include [banner](../includes/banner.md)]
@@ -72,7 +71,6 @@ ms.lasthandoff: 11/03/2017
 -   负数量库存日记帐，例如移动、损益、盘点、物料清单和转移
 
 以移动平均成本价过帐减少数量的交易记录。 因此，需要库存结转过程以将发货交易记录结算到基于分配给每个物料的库存模型的收货交易记录。
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "创建默认的产品生命周期状态"
-description: "此过程显示如何创建默认产品生命周期状态以及如何将默认状态与已发布产品关联。"
+---
+title: 创建默认的产品生命周期状态
+description: 此过程显示如何创建默认产品生命周期状态以及如何将默认状态与已发布产品关联。
 author: cvocph
 manager: AnnBe
 ms.date: 12/05/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6e7e637157ee06a3d07a1a9c5da71295eb75b424
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d445ea2f2362f146a1e3e7bcf747898dc2cc89ba
-ms.openlocfilehash: 06a6c7c8fa767edf6fdf50c3c971b6d767f8755f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310821"
 ---
 # <a name="create-a-default-product-lifecycle-state"></a>创建默认的产品生命周期状态
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 02/08/2018
 
 > [!NOTE]
 > 假设您设置了活动状态，您现在可以选择此活动状态来允许产品用于主计划和物料清单级别计算。 显然，这只在为一致计划指定了所需的所有产品详细信息时才有意义。  
-
 

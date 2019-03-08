@@ -1,13 +1,13 @@
 ---
-title: "获取 Talent 的支持"
-description: "本主题说明如何获取 Dynamics 365 for Talent 的帮助。"
+title: 获取 Talent 支持
+description: 本主题说明如何获取 Dynamics 365 for Talent 的帮助。
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
@@ -15,15 +15,14 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 1bf37d65cd8ce6a98fc2d2fb11ae9587cf6958a3
 ms.openlocfilehash: 9b2d7159b458b6f3b2cbb3271210c10ab486f496
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303495"
 ---
-
-# <a name="get-support-for-talent"></a>获取 Talent 的支持
+# <a name="get-support-for-talent"></a>获取 Talent 支持
 
 [!include [banner](includes/banner.md)]
 
@@ -55,4 +54,3 @@ ms.lasthandoff: 09/27/2018
 | 报告问题                                                        | 选择菜单中的 **?** 图标，然后选择选项以报告问题。 在说明中输入问题；如果希望跟进报告的问题，请包含电子邮件地址。                                                                                           |
 | 获取与 Talent 许可有关的问题的帮助                         | 联系合作伙伴或 Microsoft 销售代表。                                                                                                                                                                                                                                        |
 | 申请 Attract 和 Onboard 内的新特性和功能 | 单击 **?** 图标并选择**想法**，或使用以下链接查看、搜索、投票或添加新想法：[Attract](https://powerusers.microsoft.com/t5/Ideas-for-Attract/idb-p/Attract) 或 [Onboard](https://powerusers.microsoft.com/t5/Ideas-for-Onboard/idb-p/Onboard)。 |
-

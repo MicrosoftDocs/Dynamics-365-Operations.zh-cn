@@ -1,13 +1,13 @@
 ---
-title: "项目开票"
-description: "本文提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。"
+title: 项目开票
+description: 本文提供时间和材料项目和固定价格项目的项目开票的概览。 它包含有关发票方案（预备发票）、发票控制、分期付款开票、供应商开票和贷方通知单的信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjInvoiceCashFlow, ProjInvoiceControl, ProjInvoiceListPage, ProjInvoiceProposalDetail, ProjInvoiceProposalListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5dd51e442479a05ce715fe91ebab0c99df9a8b6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2434e0a97846ce9ca0643327a7a032a9998bde5b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346310"
 ---
-
 # <a name="project-invoicing"></a>项目开票
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ ms.lasthandoff: 11/03/2017
 
 若要创建多个项目的客户发票，则必须为每张发票创建发票方案。 例如，可以基于交易记录类型创建发票。 若要在一个客户发票上指定工时，在另一个客户发票上指定物料，则必须为工时交易记录创建一个发票方案，为费用交易记录创建单独的发票方案。 
 
-如果项目具有多个融资来源，可以为每个融资来源创建单独的发票方案。 在 **“融资规则分配”** 页上，可以定义交易记录金额的百分比以分配给每个融资来源，并定义来源以过帐舍入差额。
+如果项目具有多个融资来源，可以为每个融资来源创建单独的发票方案。 在**融资规则分配**页上，可以定义交易记录金额的百分比以分配给每个融资来源，并定义来源以过帐舍入差额。
 
 ### <a name="creating-customer-invoices-from-invoice-proposals"></a>从发票方案创建客户发票
 
@@ -109,7 +108,7 @@ ms.lasthandoff: 11/03/2017
 在您从供应商订购物料并将物料分配给项目时，您为物料的采购订单行选择的行属性可确定是否已将采购物料开票给客户。 如果您设置了默认行属性，将在采购订单行（行明细&gt;项目&gt;行属性）上显示物料的默认行属性。 有两种方法可修改记录属性：
 
 -   对物料的项目客户开票：将物料的行属性设置为采购订单的一个应计费值，然后通过使用正确的项目开票方法对该客户开票。
--   请不要为物料的项目客户开票：不要选择物料的采购订单行上的“**应计费**”行属性。 然后您可以采购订单开票，且无需执行其他操作。
+-   请不要为物料的项目客户开票：不要选择物料的采购订单行上的**应计费**行属性。 然后您可以采购订单开票，且无需执行其他操作。
 
 ## <a name="credit-notes"></a>贷方通知单
 在客户发票的金额具有负值时，该发票将划分为贷方通知单。 当该文档打印时，该前缀为“贷方通知单”。 
@@ -121,7 +120,6 @@ ms.lasthandoff: 11/03/2017
 若要贷记已开票金额，您需要首先选择要贷记的已开票金额，然后创建贷方通知单。 您通过遵循用于生成客户发票的相同过程，创建贷方通知单。 
 
 您可以创建面额为负数的发票，此发票被归类于贷方通知单。 若要创建和打印贷方通知单，您必须为客户发票选择以前已过帐的交易记录，然后修改交易记录。 除非法人的主要地址在德国，否则发票的标题为“修正发票”。
-
 
 
 

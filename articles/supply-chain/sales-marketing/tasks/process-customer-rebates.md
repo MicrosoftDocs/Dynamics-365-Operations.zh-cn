@@ -1,13 +1,13 @@
---- 
-title: "生成和处理客户返利"
-description: "该过程会说明如何处理从要求生成到将它们作为应计项目过帐到“应收账款”的客户返利。"
+---
+title: 生成和处理客户返利
+description: 该过程会说明如何处理从要求生成到将它们作为应计项目过帐到“应收账款”的客户返利。
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsRebateAgreement, SalesTableListPage, SalesCreateOrder, SalesTable, MCRPriceHistory, SalesEditLines,  PdsRebateTableListPage
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 348793abc6d219f38bcdc2629b77343d93927005
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336443"
 ---
 # <a name="generate-and-process-customer-rebates"></a>生成和处理客户返利
 
@@ -83,5 +83,4 @@ ms.lasthandoff: 09/29/2017
 9. 在“客户”字段中，输入或选择一个值。
 10. 单击“确定”。
     * 消息显示返利已成功处理，并且该要求的状态已被更改为“标记”。 这意味着，作为返利应计项目日记帐的结果：a) 该要求现已被转移到临时客户余额，以作为扣减项目；b) 返利应计项目帐户已被记入贷方，以表示客户的未来负债；和 c) 返利费用帐户已被记入借方，以承认所发生的与销售相关的成本。   
-
 

@@ -1,13 +1,13 @@
 ---
-title: "通过将成本计算版本用于计划成本，模拟成本变化"
-description: "本文说明您如何使用针对计划成本的某一单独成本计算版本模拟成本变化对制造物料的计算成本的影响。"
+title: 通过将成本计算版本用于计划成本，模拟成本变化
+description: 本文说明您如何使用针对计划成本的某一单独成本计算版本模拟成本变化对制造物料的计算成本的影响。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3ef3cdb2ede2c30609db4addfc10b819629cdc64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8d5b6354ee8c627014a6da675bb2a7b52db97348
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318871"
 ---
-
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>通过将成本计算版本用于计划成本，模拟成本变化
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +56,6 @@ ms.lasthandoff: 11/03/2017
 -   模拟间接成本计算公式中的成本变化。 例如，成本变化可以反映制造开销中的预期增减。 若要定义间接成本计算公式中的变化，请使用**成本计算单设置**页输入模拟成本计算版本中的未决成本记录，以及验证并保存该变化。
 
 在输入模拟成本变化后，计算受成本变化影响的制造物料的成本。 使用**计算**页来用于模拟成本计算版本，并且标识将受成本变化影响的所选制造物料。 如果您没有选择特定物料，物料清单计算将适用于所有制造物料。 或者，您可以使用物料清单计算选项来用于用途更新。 查看模拟成本计算版本中的物料成本记录，以便分析模拟成本变化是如何影响所选制造物料的成本的。 使用**物料价格**页和**计算物料成本**页可以查看和分析成本。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "年终结算"
-description: "此主题描述运行总帐年终结算流程所需设置和步骤。"
+title: 年终结算
+description: 此主题描述运行总帐年终结算流程所需设置和步骤。
 author: kweekley
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerClosingSheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9ec2316dd259cd12a5cab187b08dbd17ca100572
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bf9d0a6ab0fcf7d6f5a31813d68f0bd452ce1019
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347874"
 ---
-
 # <a name="year-end-close"></a>年终结算
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ ms.lasthandoff: 11/03/2017
 ## <a name="prepare-to-run-the-year-end-close"></a>准备运行年终结算
 运行年终结算流程之前，请验证以下设置： 
 
-在“**主科目**”页面上：
+在**主科目**页面上：
 
 -   验证是否为每个主科目正确定义了**主科目类型**。 主科目类型用于确定将主科目的余额作为期初余额还是结算转到期初交易记录中的留存利润。
 -   年终结算期间，**期初科目**字段可用于将主科目的余额转移到新主科目。 将在**期初科目**字段中输入新主科目。 这通常在停用主科目并将新科目用于新会计年度时，用于资产负债表主科目。
@@ -48,7 +47,7 @@ ms.lasthandoff: 11/03/2017
 
 -   **除年末结转交易记录**选项用于指定再次运行年终结算时，是否应删除上一年终结算中系统生成的期初交易记录。 如果此选项设置为**是**，将删除上一个期初交易记录，并根据当前余额创建新期初交易记录。 如果此选项设置为**否**，将保留上一个期初交易记录，并再创建一个期初交易记录，以便从上一个年终关帐后过帐的调整交易记录结转余额。
 -   **在结转期间创建期末交易记录**选项用于在正在结算的会计年度中创建期末交易记录，以便将损益科目的余额归零。 如果此选项设置为**是**，将同时创建期初交易记录和期末交易记录。 如果此选项设置为**否**，则在下一个会计年度中仅创建期初交易记录，以便结转余额。 会计年度结尾时保留损益科目余额。
--   **将会计年度状态设置为“永久关闭”** 选项用于将会计年度的状态设置为永久关闭。 使用此设置时请谨慎，因为不能重新打开永久关闭状态的所有期间，以防将调整过帐到会计年度。 最好是将此选项设置为**是**。
+-   **将会计年度状态设置为永久关闭**选项用于将会计年度的状态设置为永久关闭。 使用此设置时请谨慎，因为不能重新打开永久关闭状态的所有期间，以防将调整过帐到会计年度。 最好是将此选项设置为**是**。
 -   **必须填写凭证号**选项用于定义运行年终结算流程时是否需要凭证号。 最好需要凭证号，以便轻松识别期初交易记录。
 
 在**会计日历**页面中：
@@ -86,7 +85,6 @@ ms.lasthandoff: 11/03/2017
 年终结算流程默认以批处理模式运行。 最好以批处理模式运行流程，以便允许用户返回到其他活动。 年终结算流程完成后，将使用会话日期更新**上一年终结算日期**。
 
 有关详细信息，请参阅[在期间结束时关闭总帐](close-general-ledger-at-period-end.md)和[关帐会计年度](tasks/close-fiscal-year.md)。
-
 
 
 

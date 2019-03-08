@@ -1,13 +1,13 @@
 ---
-title: "登记 ID"
-description: "本主题提供有关设置和使用登记 ID 的信息。"
+title: 登记 ID
+description: 本主题提供有关设置和使用登记 ID 的信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DirPartTaxRegistrationSearch, LogisticsPostalAddress, TaxRegistrationLegislationTypes, TaxRegistrationType
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: vlru
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 7b663b9a72afdd3c2e2dcf503152f02e0b7861fd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 978c6c6f2a3de803f252e93040d2d7eb2bc4a793
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350496"
 ---
-
 # <a name="registration-ids"></a>登记 ID
 
 [!include [banner](../includes/banner.md)]
@@ -55,7 +54,7 @@ ms.lasthandoff: 03/26/2018
 |-----------------------|----------------|
 | 登记类型     | 特定国家/地区的登记类型。|
 | 限制为         | 应用于登记类型的限制类型：无、人员、组织。|
-| 登记类别 | 批准在这个国家/地区中使用的唯一登录标识符。 以下是在 Microsoft Dynamics 365 for Finance and Operations 中受支持类别的完整列表。 |
+| 登记类别 | 批准在这个国家/地区中使用的唯一登录标识符。 下面是 Microsoft Dynamics 365 for Finance and Operations 类别中支持的完整列表。 |
 
 ## <a name="enter-registration-ids-for-global-address-book-records"></a>输入全球通讯簿记录的登录 ID
 
@@ -109,7 +108,6 @@ Microsoft Finance and Operations 中的全球通讯簿 (GAB) 包含客户、供�
 -   设置增值税 ID
 -   供应商的 VAT ID 登记
 -    使用增值税 ID 搜索当事方
-
 
 
 

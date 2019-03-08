@@ -1,13 +1,13 @@
 ---
-title: "基于登记付薪"
-description: "本主题说明如何基于工作人员登记计算付薪。"
+title: 基于登记付薪
+description: 本主题说明如何基于工作人员登记计算付薪。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgCalcApproveWeekView
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1ae0f142ebd2252b1df414998c153d32127bc1b7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321102"
 ---
-
 # <a name="pay-based-on-registrations"></a>基于登记付薪
 
 [!include [banner](../includes/banner.md)]
@@ -600,4 +599,3 @@ ms.lasthandoff: 04/13/2018
 - 自动插入缺勤
 
 在为启用了弹性工时的工作人员计算日常登记时，在**自动插入弹性-** 字段中指定的考勤代码将用作默认考勤代码。 如果工作人员未启用弹性工时，将使用在**自动插入缺勤**字段指定的考勤代码。 如果某个公司既有启用弹性工时的工作人员，也有未启用的工作人员，必须设置两个参数。
-

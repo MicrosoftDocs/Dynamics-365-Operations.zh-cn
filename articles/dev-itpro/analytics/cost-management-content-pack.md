@@ -1,13 +1,13 @@
 ---
-title: "成本管理 Power BI 内容"
-description: "此主题介绍成本管理 Power BI 内容中的内容。"
+title: 成本管理 Power BI 内容
+description: 此主题介绍成本管理 Power BI 内容中的内容。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f67b1c901267bdf79c94e4f4c698c8731c515bb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: caf1c13d48d1f8af5c88927ccb23118e99cb38e0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327795"
 ---
-
 # <a name="cost-management-power-bi-content"></a>成本管理 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ ms.lasthandoff: 08/13/2018
 - **制造会计分析** – 此选项卡显示 Power BI 内容。
 - **标准成本差异分析** – 此选项卡显示 Power BI 内容。
 
-## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表页
+## <a name="report-pages-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表表
 
 **成本管理** Power BI 内容包括一组含有一组指标的报表页。 这些指标显示为图表、磁贴和表。 
 
@@ -184,7 +183,7 @@ ms.lasthandoff: 08/13/2018
 | CostInventoryAccountingKPIGoal  | AnnualInventoryTurn        | CostInventoryAccountingKPIGoal         | AnnualInventoryTurn |
 | CostInventoryAccountingKPIGoal  | InventoryAccuracy          | CostInventoryAccountingKPIGoal         | InventoryAccuracy   |
 
-下表显示 Power BI content 中的关键计算度量。
+下表显示 Power BI 内容中的关键计算度量。
 
 | 度量                            | 计算 |
 |------------------------------------|-------------|
@@ -209,4 +208,3 @@ ms.lasthandoff: 08/13/2018
 | 法人                                          | 法人名称                              |
 | 会计日历                                        | 会计日历、年、季度、期间、月   |
 | 站点                                                    | ID、名称、地址、省/市/自治区、国家/地区               |
-

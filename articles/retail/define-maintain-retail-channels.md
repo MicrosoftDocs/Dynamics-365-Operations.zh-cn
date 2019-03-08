@@ -1,13 +1,13 @@
 ---
-title: "定义和维护零售渠道"
-description: "本主题提供设置实体商店（在 Microsoft Dynamics 365 for Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。"
+title: 定义和维护零售渠道
+description: 本主题提供设置实体商店（在 Microsoft Dynamics 365 for Retail 中称为零售商店）的流程的概览。 它包含有关在设置零售商店前后必须完成的任务的信息。
 author: mugunthanm
 manager: AnnBe
 ms.date: 11/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailStoreTableListPagePreviewPane
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 53ba6cdb2378ce9011c6e7e3ce4e67c789adb1e6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318618"
 ---
-
 # <a name="define-and-maintain-retail-channels"></a>定义和维护零售渠道
 
 [!include [banner](includes/banner.md)]
@@ -37,7 +36,7 @@ Dynamics 365 for Retail 支持多个零售渠道，例如在线商店、呼叫�
 
 ## <a name="setting-up-retail-stores"></a>设置零售商店
 
-您必须先完成一些先决任务，然后才能在 Dynamics 365 for Retail 中设置零售商店。 然后，您可以创建零售商店并添加详细信息。
+在您可以在 Dynamics 365 for Retail 中设置零售商店之前，必须完成某些先决任务。 然后，您可以创建零售商店并添加详细信息。
 
 ### <a name="prerequisites"></a>必备项
 
@@ -86,4 +85,3 @@ Dynamics 365 for Retail 支持多个零售渠道，例如在线商店、呼叫�
 ## <a name="organization-hierarchies"></a>组织层次结构
 
 Retail 使用组织层次机构来构造零售渠道。 组织层次结构表示构成贵企业组织之间的关系。 在您设置商店时，您可以添加到组织层次结构。 存储然后共享用于分类、补货和报告的数据。
-
