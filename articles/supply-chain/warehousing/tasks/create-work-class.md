@@ -1,13 +1,13 @@
---- 
-title: "创建工作类"
-description: "该过程会显示如何设置工作类。"
+---
+title: 创建工作类
+description: 该过程会显示如何设置工作类。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/14/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,27 +16,26 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 5def9be0966d65728ffb0897229c0d749e7e13a0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356016"
 ---
-# <a name="create-a-work-class"></a><span data-ttu-id="501f7-103">创建工作类</span><span class="sxs-lookup"><span data-stu-id="501f7-103">Create a work class</span></span>
+# <a name="create-a-work-class"></a><span data-ttu-id="9aa89-103">创建工作类</span><span class="sxs-lookup"><span data-stu-id="9aa89-103">Create a work class</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="501f7-104">该过程会显示如何设置工作类。</span><span class="sxs-lookup"><span data-stu-id="501f7-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="501f7-105">工作类用于处理和/或限制工作指令行的类型，以便仓库工作人员可以在移动设备上进行处理。</span><span class="sxs-lookup"><span data-stu-id="501f7-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="501f7-106">可以藉由仓库工作人员可以访问的移动设备菜单项上的工作类和工作行上指定的工作类，确定工作人员可以处理的行。</span><span class="sxs-lookup"><span data-stu-id="501f7-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that’s specified on the work lines.</span></span> <span data-ttu-id="501f7-107">工作类还可用于验证工作指令行的存放位置。</span><span class="sxs-lookup"><span data-stu-id="501f7-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="501f7-108">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="501f7-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="501f7-109">该过程专门面向仓库经理。</span><span class="sxs-lookup"><span data-stu-id="501f7-109">This procedure is intended for the warehouse manager.</span></span>
+<span data-ttu-id="9aa89-104">该过程会显示如何设置工作类。</span><span class="sxs-lookup"><span data-stu-id="9aa89-104">This procedure shows you how to set up a work class.</span></span> <span data-ttu-id="9aa89-105">工作类用于处理和/或限制工作指令行的类型，以便仓库工作人员可以在移动设备上进行处理。</span><span class="sxs-lookup"><span data-stu-id="9aa89-105">Work classes are used to direct and/or limit the type of work order lines that a warehouse worker can process on a mobile device.</span></span> <span data-ttu-id="9aa89-106">可以藉由仓库工作人员可以访问的移动设备菜单项上的工作类和工作行上指定的工作类，确定工作人员可以处理的行。</span><span class="sxs-lookup"><span data-stu-id="9aa89-106">The lines that a worker can process are determined from the work classes on the mobile device menu items that the warehouse worker has access to and the work class that’s specified on the work lines.</span></span> <span data-ttu-id="9aa89-107">工作类还可用于验证工作指令行的存放位置。</span><span class="sxs-lookup"><span data-stu-id="9aa89-107">Work classes can also be used to validate the put location for a work order line.</span></span> <span data-ttu-id="9aa89-108">您可以使用 USMF 公司演示数据，也可使用您自己的数据运行该过程。</span><span class="sxs-lookup"><span data-stu-id="9aa89-108">You can run this procedure in demo data company USMF or on your own data.</span></span> <span data-ttu-id="9aa89-109">该过程专门面向仓库经理。</span><span class="sxs-lookup"><span data-stu-id="9aa89-109">This procedure is intended for the warehouse manager.</span></span>
 
-1. <span data-ttu-id="501f7-110">转到“仓库管理”>“设置”>“工作”>“工作类”。</span><span class="sxs-lookup"><span data-stu-id="501f7-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
-2. <span data-ttu-id="501f7-111">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="501f7-111">Click New.</span></span>
-3. <span data-ttu-id="501f7-112">在“工作类 ID”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="501f7-112">In the Work class ID field, type a value.</span></span>
-4. <span data-ttu-id="501f7-113">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="501f7-113">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="501f7-114">在“工作订单类型”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="501f7-114">In the Work order type field, select an option.</span></span>
-6. <span data-ttu-id="501f7-115">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="501f7-115">Click New.</span></span>
-7. <span data-ttu-id="501f7-116">在“位置类型”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="501f7-116">In the Location type field, type a value.</span></span>
-    * <span data-ttu-id="501f7-117">如果您选择某一位置类型，即会限制物料在领取后的存放位置。</span><span class="sxs-lookup"><span data-stu-id="501f7-117">If you select a location type, this sets a restriction on where items can be put after they’ve been picked.</span></span> <span data-ttu-id="501f7-118">在位置指令尝试决定位置时，使用该设置，或者如果仓管人员手动提供移动设备菜单项的位置。</span><span class="sxs-lookup"><span data-stu-id="501f7-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
-8. <span data-ttu-id="501f7-119">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="501f7-119">Close the page.</span></span>
-
+1. <span data-ttu-id="9aa89-110">转到“仓库管理”>“设置”>“工作”>“工作类”。</span><span class="sxs-lookup"><span data-stu-id="9aa89-110">Go to Warehouse management > Setup > Work > Work classes.</span></span>
+2. <span data-ttu-id="9aa89-111">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9aa89-111">Click New.</span></span>
+3. <span data-ttu-id="9aa89-112">在“工作类 ID”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="9aa89-112">In the Work class ID field, type a value.</span></span>
+4. <span data-ttu-id="9aa89-113">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="9aa89-113">In the Description field, type a value.</span></span>
+5. <span data-ttu-id="9aa89-114">在“工作订单类型”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="9aa89-114">In the Work order type field, select an option.</span></span>
+6. <span data-ttu-id="9aa89-115">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9aa89-115">Click New.</span></span>
+7. <span data-ttu-id="9aa89-116">在“位置类型”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="9aa89-116">In the Location type field, type a value.</span></span>
+    * <span data-ttu-id="9aa89-117">如果您选择某一位置类型，即会限制物料在领取后的存放位置。</span><span class="sxs-lookup"><span data-stu-id="9aa89-117">If you select a location type, this sets a restriction on where items can be put after they’ve been picked.</span></span> <span data-ttu-id="9aa89-118">在位置指令尝试决定位置时，使用该设置，或者如果仓管人员手动提供移动设备菜单项的位置。</span><span class="sxs-lookup"><span data-stu-id="9aa89-118">This setting is used when a location directive tries to resolve the location, or if a warehouse worker manually provides the location for the mobile device menu item.</span></span>  
+8. <span data-ttu-id="9aa89-119">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="9aa89-119">Close the page.</span></span>
 
