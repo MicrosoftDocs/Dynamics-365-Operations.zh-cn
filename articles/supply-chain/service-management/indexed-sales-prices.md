@@ -1,31 +1,30 @@
 ---
-title: "指数化销售价"
-description: "您在创建预订费用时为预订销售价设置指数。"
+title: 指数化销售价
+description: 您在创建预订费用时为预订销售价设置指数。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionCreateDialog
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5341e760bf4cde2dcebebee0dacc1e88506368fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 23053af05afb50cc311d5ef441fe55c6a203eba9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358339"
 ---
-
 # <a name="indexed-sales-prices"></a>指数化销售价  
 
 [!include [banner](../includes/banner.md)]
@@ -42,6 +41,5 @@ ms.lasthandoff: 05/08/2018
 [创建预订费用交易记录](create-subscription-fee-transactions.md)
 
   
-
 
 

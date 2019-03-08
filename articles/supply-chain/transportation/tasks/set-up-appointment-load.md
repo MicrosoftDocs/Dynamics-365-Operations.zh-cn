@@ -1,13 +1,13 @@
---- 
-title: "为负荷设置约会"
-description: "此过程显示如何为负荷设置和计划码头预约。"
+---
+title: 为负荷设置约会
+description: 此过程显示如何为负荷设置和计划码头预约。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench, TMSAppointment
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: f5ede4ab29b5d0c3fcb057049e2abbb9f2bf16f0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8f608a38dd28a77e2a33e5c23cf35b5a9e6a8c38
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354981"
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>为负荷设置约会
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
 5. 单击“确认”。
 6. 单击“保存”。
 7. 关闭该页面。
-
 

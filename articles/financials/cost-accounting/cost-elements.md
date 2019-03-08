@@ -1,13 +1,13 @@
 ---
-title: "成本元素维度"
-description: "作为成本核算中的其中一个核心支柱，成本元素维度用来对成本分类和跟踪成本流向。"
+title: 成本元素维度
+description: 作为成本核算中的其中一个核心支柱，成本元素维度用来对成本分类和跟踪成本流向。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimension
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c703d1a9ae36d4342dc652d70dd82379187057c1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0f47c75b6f6f4533501070f78698de82cf70f9bd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366067"
 ---
-
 # <a name="cost-element-dimensions"></a>成本元素维度
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="implementation-considerations"></a>实施注意事项
 由于成本元素表示最低级别的成本详细信息，因此您应当确保在实施成本元素结构时包括管理报告所必需的所有成本元素。 为成本控制找出合适的成本元素数量是一项挑战。 如果有上千个成本元素，则难以控制每一个成本元素。 作为替代方案，您可以将成本元素分组，在聚合级别管理成本控制。
-
 
 
 

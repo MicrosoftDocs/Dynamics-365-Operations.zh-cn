@@ -1,13 +1,13 @@
---- 
-title: "运行在 ER 输出中使用票据管理文件的格式"
-description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报模型，以便在 ER 输出中使用票据管理文件。"
+---
+title: 运行在 ER 输出中使用票据管理文件的格式
+description: 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报模型，以便在 ER 输出中使用票据管理文件。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenInvoicesListPage, CustInvoiceJournal, SalesTable, ERSolutionTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364779"
 ---
 # <a name="run-formats-to-use-document-management-files-in-er-output"></a>运行在 ER 输出中使用票据管理文件的格式
 
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/14/2018
 10. 单击“确定”。
 11. 单击“确定”。
     * 检查生成的输出。 请注意，已经为每个附件创建了一个 XML 节点。 附件的内容填充到 MIME (base64) 文本格式的 XML 输出中。  
-
 

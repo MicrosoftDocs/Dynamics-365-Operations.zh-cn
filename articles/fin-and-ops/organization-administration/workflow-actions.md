@@ -1,13 +1,13 @@
 ---
-title: "工作流审核流程中的操作"
-description: "本文说明每个工作流审核流程的参与者可以采取的操作。"
+title: 工作流审核流程中的操作
+description: 本文说明每个工作流审核流程的参与者可以采取的操作。
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 829ee16b8fd72a0808a657419524487d9c1b3123
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361743"
 ---
-
 # <a name="actions-in-workflow-approval-processes"></a>工作流审核流程中的操作
 
 [!include [banner](../includes/banner.md)]
@@ -143,4 +142,3 @@ Sam 可以重新提交该支出报表。 他可以首先进行更改，或者可
 例如，Sam 提交了一份 12,000 美元的支出报表，而且该文档分配给 Sue。 如果 Sue 请求更改，该支出报表将发还 Sam。
 
 Sam 可以重新提交该支出报表。 他可以首先进行所请求的更改，或者可以重新提交支出报表的原始版本。 如果 Sam 重新提交了该支出报表，该报表将发送给 Frank 审核，因为 Frank 是审核流程中的第一位审核人。
-

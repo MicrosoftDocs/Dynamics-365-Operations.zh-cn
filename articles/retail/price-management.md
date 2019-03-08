@@ -1,14 +1,14 @@
 ---
-title: "零售销售价管理"
-description: "本主题介绍在 Microsoft Dynamics 365 for Retail 中创建和管理销售价的概念。"
+title: 零售销售价管理
+description: 本主题介绍在 Microsoft Dynamics 365 for Retail 中创建和管理销售价的概念。
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 04/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -17,15 +17,14 @@ ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 28a095588bd3c312a2d1c4b83e668487a209077f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6da38f69abe72665fc79a43e0e163a856f9ee34d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362134"
 ---
-
-# <a name="retail-sales-price-management"></a>零售销售价管理
+# <a name="retail-sales-price-management"></a>零售销售价格管理
 
 [!include [banner](includes/banner.md)]
 
@@ -232,4 +231,3 @@ Microsoft SQL Server Express 因为成本原因（免费），通常用于渠道
 
 - 价格基于产品维度，以便从最特定的变型价格到最不特定的变型价格，再到基础产品价格。 使用两个产品维度（例如“颜色”和“尺寸”）设置的价格的使用优先级高于仅使用一个产品维度（如“尺寸”）设置的价格。
 - 可使用同一个价格组控制定价和折扣。
-

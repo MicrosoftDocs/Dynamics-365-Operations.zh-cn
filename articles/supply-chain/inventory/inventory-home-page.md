@@ -1,13 +1,13 @@
 ---
-title: "库存管理主页"
-description: "本主题提供库存管理的概览。"
+title: 库存管理主页
+description: 本主题提供库存管理的概览。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5376c6c18c2d7d48d3ee253e8818e0c868a52145
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 01b51b3442ca2a924cec2e894c3840c90989791c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364917"
 ---
-
 # <a name="inventory-management"></a>库存管理 
 
 [!include [banner](../includes/banner.md)]
@@ -59,6 +58,5 @@ ms.lasthandoff: 11/03/2017
 
 ### <a name="task-guides"></a>任务指南
 其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的**帮助**按钮。
-
 
 

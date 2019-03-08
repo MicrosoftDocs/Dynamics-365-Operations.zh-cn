@@ -1,13 +1,13 @@
 ---
-title: "结算余额"
-description: "您可以通过将余额应用到会计科目来结算结算活动的剩余金额。"
+title: 结算余额
+description: 您可以通过将余额应用到会计科目来结算结算活动的剩余金额。
 author: mikefalkner
 manager: aolson
 ms.date: 10/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: e67bd36adc92bffea48087d0322ab14e9c066a4e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367194"
 ---
-
 # <a name="settle-remainder"></a>结算余额
 
 [!include [banner](../includes/banner.md)]
@@ -71,4 +70,3 @@ ms.lasthandoff: 12/06/2018
 7)  您也可以选择创建包含结算余额的付款日记帐，或只是过帐结算余额，而不通过日记帐。 为**在日记帐中编辑**选择**是**来创建付款日记帐。 您可以编辑您创建的付款日记帐。
 8)  单击**结算余额**。 如果您选择创建日记帐，按钮将更改为**创建日记帐**。 单击**创建日记帐**。
 9)  如果您创建了付款日记帐，日记帐页面将在单击**结算余额**后打开。 日记帐行将被添加到将结算余额作为此金额、将结算余额帐户作为抵销帐户的日记帐。 如果您添加了某一客户或供应商，以便您可以将结算金额移动到另一客户或供应商，则其他行将被添加到日记帐以将结算金额移至该客户或供应商。
-

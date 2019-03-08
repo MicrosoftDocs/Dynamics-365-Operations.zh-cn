@@ -1,31 +1,30 @@
 ---
-title: "销售点 (POS) 联机和脱机操作"
-description: "此主题提供有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。"
+title: 销售点 (POS) 联机和脱机操作
+description: 此主题提供有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。
 author: jblucher
 manager: AnnBe
 ms.date: 10/12/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353808"
 ---
-
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
 [!include [banner](includes/banner.md)]
@@ -199,4 +198,3 @@ ms.lasthandoff: 01/04/2019
 § 在 POS 脱机时，仅当前脱机数据库中的交易记录可以因为退货撤回。
 
 \*\* 在 POS 脱机时，仅当前脱机渠道数据库中的交易记录在日记帐中显示。
-

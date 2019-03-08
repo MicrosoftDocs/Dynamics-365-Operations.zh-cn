@@ -1,13 +1,13 @@
 ---
-title: "设置和处理呼叫中心欺诈预警"
-description: "此主题说明在订单处理过程中，如何设置预警规则来通知客户服务代表潜在的欺诈信息。 您可以定义特别的代码用以自动或手动保留可疑订单。"
+title: 设置和处理呼叫中心欺诈预警
+description: 此主题说明在订单处理过程中，如何设置预警规则来通知客户服务代表潜在的欺诈信息。 您可以定义特别的代码用以自动或手动保留可疑订单。
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesPostingHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 13b6a18750e79a17c7f6034780922c64b12390e2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361490"
 ---
-
 # <a name="set-up-and-work-with-call-center-fraud-alerts"></a>设置和处理呼叫中心欺诈预警
 
 [!include [banner](includes/banner.md)]
@@ -69,4 +68,3 @@ ms.lasthandoff: 01/04/2019
 若要查看和管理已保留待执行欺诈检查的订单，请转至**零售** \> **客户** \> **订单保留**。 在**订单保留**页，选择列表中的一个条目，然后单击**订单保留**以查看包含有关保留原因的更详细的视图。 在**欺诈详细信息**快速选项卡上，可查看被发现与订单匹配的系统的欺诈条件和应用的分数。 如果订单已手动保留，则可通过查看**注释**快速选项卡上的**欺诈注释**部分，查看保留该订单的用户输入的任何注释。
 
 有关如何处理保留订单的详细信息，请参阅[订单保留](https://docs.microsoft.com/dynamics365/unified-operations/retail/work-with-order-holds)。
-

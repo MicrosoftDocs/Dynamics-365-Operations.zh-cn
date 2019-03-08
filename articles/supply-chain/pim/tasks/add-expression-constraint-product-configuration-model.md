@@ -1,13 +1,13 @@
---- 
-title: "将表达式约束添加到产品配置模型"
-description: "该过程显示如何添加新的约束表达式到产品配置模型。"
+---
+title: 将表达式约束添加到产品配置模型
+description: 该过程显示如何添加新的约束表达式到产品配置模型。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCProductConfigurationModelDetails, SysClientPolymorphicCreateSelector, PCConstraintEditor, PCRuntimeConfiguratorValidate
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 56f94b82f8b2642b12a993bde7d6bb323da79f98
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 8db46c5b8361c96745b440c0d0684e18c06a6c6f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360570"
 ---
 # <a name="add-an-expression-constraint-to-a-product-configuration-model"></a>将表达式约束添加到产品配置模型
 
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
     * 核实功能通过约束表达式运行并检查语法错误。  
 4. 单击“关闭”。
 5. 单击“确定”。
-
 

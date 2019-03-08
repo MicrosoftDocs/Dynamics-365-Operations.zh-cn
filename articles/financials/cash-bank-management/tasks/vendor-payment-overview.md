@@ -1,13 +1,13 @@
---- 
-title: "供应商付款概览"
-description: "此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。"
+---
+title: 供应商付款概览
+description: 此任务指南将向您介绍用于创建供应商付款的各种方法，包括如何使用付款方案或手动输入一次性付款。
 author: kweekley
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d892366a11edcd92f34f37b3e855631820ba816b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
-ms.openlocfilehash: e9a94231f755ff23bb442d62e90daff8f2d1f4fb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/30/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359949"
 ---
 # <a name="vendor-payment-overview"></a>供应商付款概览
 
@@ -76,5 +76,4 @@ ms.lasthandoff: 10/30/2017
 32. 单击“确定”。
 33. 单击“确定”以生成付款。
 34. 如果所有付款已获得审批和生成，单击“过帐”。 
-
 

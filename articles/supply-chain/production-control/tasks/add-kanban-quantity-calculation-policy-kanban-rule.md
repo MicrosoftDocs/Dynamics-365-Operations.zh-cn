@@ -1,13 +1,13 @@
---- 
-title: "向看板规则中添加看板数量计算策略"
-description: "此过程重点是创建看板数量计算策略，并将其添加到看板规则，以优化看板大小和数量。"
+---
+title: 向看板规则中添加看板数量计算策略
+description: 此过程重点是创建看板数量计算策略，并将其添加到看板规则，以优化看板大小和数量。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanQuantityPolicy, KanbanRules
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: fffd623104dc403e230128c9234521ad1e39c7bb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6a947d4a5302c6ed1848396d50cfbfcb78aabf97
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352129"
 ---
 # <a name="add-a-kanban-quantity-calculation-policy-to-a-kanban-rule"></a>向看板规则中添加看板数量计算策略
 
@@ -62,5 +62,4 @@ ms.lasthandoff: 09/29/2017
 7. 在“名称”字段中，单击下拉按钮以打开查找。
 8. 在列表中，单击所选行中的链接。
     * 选择您刚刚在先前的子任务中创建的策略“Speaker2016”。  
-
 

@@ -1,32 +1,31 @@
 ---
-title: "定义成本对象控制员的访问权限"
-description: "此主题提供关于成本对象控制员访问权限的信息。"
+title: 定义成本对象控制员的访问权限
+description: 此主题提供关于成本对象控制员访问权限的信息。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspace, CAMParameters
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 290b16eeb99ac7ddb9b552b289215c99a0451660
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1cac3c3b724dda4ab39a65aa5221eda427767eb8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355533"
 ---
-
 # <a name="access-rights-of-a-cost-object-controller"></a>成本对象控制员的访问权限
 
 [!include [banner](../includes/banner.md)]
@@ -93,10 +92,10 @@ ms.lasthandoff: 05/08/2018
 
     - 卡内余额
 
-- Microsoft Power BI:
+- Microsoft Power BI：
 
     - Power BI 可视化项中显示的数据
-    - Microsoft Dynamics 365 for Finance and Operations 客户端中嵌入的数据 Power BI 可视化项
+    - 在 Microsoft Dynamics 365 for Finance and Operations 客户端中嵌入的数据 Power BI 可视化项
 
 > [!IMPORTANT]
 > - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
@@ -107,4 +106,3 @@ ms.lasthandoff: 05/08/2018
 - [成本控制工作区](cost-control-workspace.md)
 - [维度层次结构](dimension-hierarchy.md)
 - [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)
-

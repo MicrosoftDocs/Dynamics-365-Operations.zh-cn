@@ -1,32 +1,30 @@
 ---
-title: "为退货执行发票更新"
-description: "此功能支持组织选择采用的业务流程，即同时由同一人对退货单和销售订单开票。"
+title: 为退货执行发票更新
+description: 此功能支持组织选择采用的业务流程，即同时由同一人对退货单和销售订单开票。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2f962641f7fdae18a360567d6f37348fabbfc302
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 53ae1c3bda06d07a0ca633981ddd46092eae507e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364365"
 ---
-
-
 # <a name="perform-invoice-updates-for-returns"></a>为退货执行发票更新 
 
 [!include [banner](../includes/banner.md)]
@@ -57,6 +55,5 @@ ms.lasthandoff: 05/08/2018
 [退货的装箱单更新](packing-slip-updates-returns.md)
 
   
-
 
 

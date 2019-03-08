@@ -1,13 +1,13 @@
 ---
-title: "供应商协作移动工作区"
-description: "此主题提供有关供应商协作移动工作区的信息。 此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。"
+title: 供应商协作移动工作区
+description: 此主题提供有关供应商协作移动工作区的信息。 此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。
 author: mkirknel
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: mkirknel
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: df27ff3477443611278436a680d70ea81a21763e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 83fcf1d0432d5afa71d6f9d7d22cea5a583777bf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358638"
 ---
-
 # <a name="vendor-collaboration-mobile-workspace"></a>供应商协作移动工作区
 
 [!include [banner](../includes/banner.md)]
 
 此主题提供有关**供应商协作**移动工作区的信息。 此工作区帮助您的供应商实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。
+将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
 
 ## <a name="overview"></a>概览 
 **供应商协作**移动工作区通知供应商有关新采购订单的信息，以便供应商可以在 Microsoft Dynamics 365 for Finance and Operations Web 客户端中查看和响应采购订单。 
@@ -57,8 +56,8 @@ ms.lasthandoff: 04/13/2018
 -   查看为供应商帐户注册的联系人信息。 （此任务需要其他的安全角色。）
 -   查看关于供应商已提交的用户请求的信息和跟踪请求的状态。 （此任务需要其他的安全角色。）
 
-## <a name="prerequisites"></a>必备项
-先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
+## <a name="prerequisites"></a>先决条件
+先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本而异。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
 如果已经为您的组织部署 Microsoft Dynamics 365 for Finance and Operations，系统管理员必须发布**供应商协作**移动工作区。 有关说明，请查阅 [发布移动工作区](../../dev-itpro/mobile-apps/publish-mobile-workspace.md)。
@@ -171,4 +170,3 @@ ms.lasthandoff: 04/13/2018
 
 ### <a name="open-confirmed-orders"></a>打开已确认的订单
 客户确认了采购订单之后（即采购订单的状态已更改为**已确认**），将显示在未结已确认订单中。 它将一直留在列表中，直到客户将其登记为已收货。
-

@@ -1,13 +1,13 @@
 ---
-title: "延迟"
-description: "本文提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。"
+title: 延迟
+description: 本文提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqTransFuturesListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a87b19732f413aa2844101f76dea83535da86599
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fed78a7eba16d286a81b1e9ad709142422298c91
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359604"
 ---
-
 # <a name="delays"></a>延迟
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [覆盖范围设置](coverage-settings.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "将项目任务从 Project Service Automation 直接同步到 Finance and Operations "
-description: "本主题介绍用于将项目任务直接从 Microsoft Dynamics 365 for Project Service Automation 同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。"
+title: '将项目任务从 Project Service Automation 直接同步到 Finance and Operations '
+description: 此主题介绍用于直接同步 Microsoft Dynamics 365 for Project Service Automation 与 Microsoft Dynamics 365 for Finance and Operations 的项目任务的模板和基础任务。
 author: KimANelson
 manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 53e4eab0d455af4ac1e17754f31d46458db742c3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355165"
 ---
-
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>将项目任务从 Project Service Automation 直接同步到 Finance and Operations 
 
 [!include[banner](../includes/banner.md)]
 
-本主题介绍用于将项目任务直接从 Microsoft Dynamics 365 for Project Service Automation 同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
+此主题介绍用于直接同步 Microsoft Dynamics 365 for Project Service Automation 与 Microsoft Dynamics 365 for Finance and Operations 的项目任务的模板和基础任务。
 
 > [!NOTE]
 > - Microsoft Dynamics 365 for Finance and Operations 版本 8.0 中提供项目任务集成、费用交易记录类别、工时估计值、费用估计值和功能锁定。
@@ -84,4 +83,3 @@ Project Service Automation 到 Finance and Operations 集成解决方案使用�
 下图显示了数据集成中的模板任务映射的一个示例。 此映射显示将从 Project Service Automation 同步到 Finance and Operations 的字段信息。
 
 [![模板映射](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
-

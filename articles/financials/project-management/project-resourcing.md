@@ -1,13 +1,13 @@
 ---
-title: "项目资源"
-description: "本主题提供有关项目资源的信息。"
+title: 项目资源
+description: 本主题提供有关项目资源的信息。
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 34f80d283bb710d7db3137a439dbe8dc67d22682
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2d31a5dfd16a4404e19c6c9693dacecff6f2f064
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351646"
 ---
-
 # <a name="project-resourcing"></a>项目资源
 
 [!include [banner](../includes/banner.md)]
@@ -351,4 +350,3 @@ ms.lasthandoff: 03/26/2018
 ## <a name="monitor-project-teams"></a>监控项目团队
 1. 在**所有项目**页上，选择 **XYZ 升级第 2 阶段**项目的**项目 ID** 链接。
 2. 在**项目团队和计划编制**快速选项卡上，确认列出的项目资源是正确的。
-

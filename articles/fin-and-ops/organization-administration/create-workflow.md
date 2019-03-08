@@ -1,13 +1,13 @@
 ---
-title: "创建工作流"
-description: "本主题介绍如何创建工作流。"
+title: 创建工作流
+description: 本主题介绍如何创建工作流。
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowSelectTemplateRnr, WorkflowTableListPageRnr
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 7d4a3c5e12b226a7d801d8db9abcbd15738c1ce0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0edf6f1a97b3bbd074168a3cb8bb5c2375492b71
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353348"
 ---
-
 # <a name="create-workflows"></a>创建工作流
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="open-the-workflow-editor"></a>打开工作流编辑器
 
-您使用的 Microsoft Dynamics 365 for Finance and Operations 模块将确定可以创建的工作流类型。 按照以下步骤选择工作流的类型，以创建并打开工作流编辑器。
+您正在使用的 Microsoft Dynamics 365 for Finance and Operations 模块将确定可以创建的工作流的类型。 按照以下步骤选择工作流的类型，以创建并打开工作流编辑器。
 
 1. 打开要为其创建新工作流的模块。 例如，要为采购申请创建工作流，单击**采购**。
 2. 单击**设置**&gt;**\[模块名称\]工作流**。
@@ -85,4 +84,3 @@ ms.lasthandoff: 08/08/2018
 
     - 要激活工作流的此版本，请单击**激活新版本**。 当工作流处于活动状态下时，用户可向其提交文档进行处理。
     - 如果不希望激活该版本，请单击**不激活新版本**。 您可以在以后激活工作流。
-

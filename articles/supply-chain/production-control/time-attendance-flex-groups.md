@@ -1,13 +1,13 @@
 ---
-title: "弹性组"
-description: "此主题介绍考勤管理中如何使用弹性组。"
+title: 弹性组
+description: 此主题介绍考勤管理中如何使用弹性组。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgFlexGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: aae00f3605a6598a34e58fad3e06e687476dd859
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e21a2de2f46c619f27eddad4d7cced260a90bbb8
-ms.openlocfilehash: 20f317ff57fac25b5b5b0d702fe64845eb849e87
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/09/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361191"
 ---
-
 # <a name="flex-groups"></a>弹性组
 
 [!include[banner](../includes/banner.md)]
@@ -186,4 +185,3 @@ ms.lasthandoff: 04/09/2018
 | 下午 06:00 | 下午 08:00 | 2    | 1.5       | 3            |
 | 下午 08:00 | 下午 09:00 | 1    | 2         | 2            |
 |          |          |      | **合计** | **8**        |
-

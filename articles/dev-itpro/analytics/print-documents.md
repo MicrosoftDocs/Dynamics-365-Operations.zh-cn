@@ -1,13 +1,13 @@
 ---
-title: "文档打印"
-description: "在 Microsoft Dynamics 365 for Finance and Operations 中，可使用本地打印机或联网设备打印文档。 本文概述如何打印文档。"
+title: 文档打印
+description: 在 Microsoft Dynamics 365 for Finance and Operations 中，可使用本地打印机或联网设备打印文档。 本文概述如何打印文档。
 author: TJVass
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Application User
 ms.reviewer: sericks
 ms.search.scope: Operations, Core
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 4fd20022ff91fedb6d0323e82fbe3c1acae38e48
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362042"
 ---
-
 # <a name="document-printing"></a>文档打印
 
 [!include [banner](../includes/banner.md)]
@@ -76,4 +75,3 @@ Microsoft Dynamics 365 for Finance and Operations 提供集成的设备和客户
 [![网络打印的服务组件\_2016](./media/service-components-for-network-printing_2016.png)](./media/service-components-for-network-printing_2016.png)
 
 请注意，可将一台打印机与多个文档路线选择代理关联。 为了解析打印机首选项，托管服务使用用于唯一标识每台网络打印机的网络路径。 因此，即使一台打印机被多个客户端注册，也会在 Finance and Operations 应用程序中的打印机列表内显示为单项选择。
-

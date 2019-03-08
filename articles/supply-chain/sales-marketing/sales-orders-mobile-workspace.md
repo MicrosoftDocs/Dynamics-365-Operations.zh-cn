@@ -1,13 +1,13 @@
 ---
-title: "销售订单移动工作区"
-description: "此主题提供有关销售订单移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。"
+title: 销售订单移动工作区
+description: 此主题提供有关销售订单移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -18,21 +18,20 @@ ms.search.industry: Manufacturing
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 03e8908ecb78b4f72dae8426b0165f9350d5fe85
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a3b06832112779a4b0826a51b696a1ced10711ec
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365055"
 ---
-
 # <a name="sales-orders-mobile-workspace"></a>销售订单移动工作区
 
 [!include [banner](../includes/banner.md)]
 
 此主题提供有关**销售订单**移动工作区的信息。 此工作区帮助您随时随地掌握最新的销售订单。 
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。
+将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
 
 ## <a name="overview"></a>概览
 **销售订单**移动工作区可以让您查看有关各销售订单的详细信息。 此信息包括订单状态、客户的联系信息和订单员的联系信息。 **销售订单**移动工作区提供销售订单的即时视图。 您可以查看所有销售订单，按客户查看销售订单，或查看有关特定销售订单的信息。 
@@ -81,7 +80,7 @@ ms.lasthandoff: 03/26/2018
         -   订单行
         -   显示销售订单的装运方式和装运时间的装运
 
-## <a name="prerequisites"></a>必备项
+## <a name="prerequisites"></a>先决条件
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件 
@@ -143,4 +142,3 @@ ms.lasthandoff: 03/26/2018
 4.  选择客户。
 5.  选择**联系信息**或**销售订单**。 如果您选择**销售订单**，将显示该客户的销售订单列表。
 6.  选择**销售订单**。 现在可以查看有关销售订单行的信息、有关装运的信息、客户联系信息和订单员联系信息。
-

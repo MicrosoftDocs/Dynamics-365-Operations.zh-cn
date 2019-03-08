@@ -1,13 +1,13 @@
 ---
-title: "加权平均日期"
-description: "加权平均日期是基于加权平均原则的库存模型，其中，来自库存的发货按照物料的平均价值进行估价，这些物料是在库存结转期间中的每一天接收到库存中的物料。"
+title: 加权平均日期
+description: 加权平均日期是基于加权平均原则的库存模型，其中，来自库存的发货按照物料的平均价值进行估价，这些物料是在库存结转期间中的每一天接收到库存中的物料。
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9963c17d8ac1854a42cac2a0e19615f13e8cc006
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a258c7d6314546262a3f9d07d06da5cad797d99b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355395"
 ---
-
 # <a name="weighted-average-date"></a>加权平均日期
 
 [!include [banner](../includes/banner.md)]
@@ -54,7 +53,7 @@ ms.lasthandoff: 11/03/2017
 
 结算是在结转日期时将发货调整为正确的加权平均的库存结转过帐。 
 
-**注意：** 有关结算的详细信息，请参阅库存结转相关文章。 以下示例通过五个配置阐释对使用加权平均的影响：
+**注意：** 有关结算的详细信息，请参阅库存结转相关文章。 以下示例通过五个配置阐释对使用加权平均的影响：
 
 -   不使用**包括实际成本**选项时的加权平均日期直接结算
 -   不使用**包括实际成本**选项时的加权平均日期汇总结算
@@ -165,7 +164,7 @@ ms.lasthandoff: 11/03/2017
 
 例如，您的客户服务部接受了来自重要客户的一个紧急订单。 因为这是紧急订单，所以，您将需要为此物料支付更多成本以满足您的客户的请求。 您必须确定此库存物料的成本反映在此销售订单发票的毛利中或所售货物成本 (COGS) 中。 在过帐采购订单时，按 USD 120.00 的成本入库。 在装箱单或发票过帐之前，销售订单单据标记到采购订单。 然后，COGS 将是 USD 120.00 代替物料的当前移动平均成本。 如果在发生标记前过帐销售订单装箱单或发票，则将按移动平均成本价过帐 COGS。 在执行库存结转前，仍可以彼此标记这两个交易记录。 在将某一收货交易记录标记为发货交易记录时，将不考虑在该物料的物料模型组中定义的评估方法。 相反，此系统将彼此结算这些交易记录。 
 
-在过帐交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。 您可以从 **“销售订单详细信息”** 页上的销售订单行执行此操作。 您可以在**标记**页上查看未结收货交易记录。 在过帐交易记录后，您可以将某一发货交易记录标记到某一收货交易记录。 您可以匹配或标记已过帐库存调整日记帐的清查过物料的未结收货交易记录的发货交易记录。 下图显示了这些交易记录：
+在过帐交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。 您可以从**销售订单详细信息**页上的销售订单行执行此操作。 您可以在**标记**页上查看未结收货交易记录。 在过帐交易记录后，您可以将某一发货交易记录标记到某一收货交易记录。 您可以匹配或标记已过帐库存调整日记帐的清查过物料的未结收货交易记录的发货交易记录。 下图显示了这些交易记录：
 
 -   1a. 数量 1（单件成本价为 USD 10.00）的库存实际收货。
 -   1b. 数量 1（单件成本价为 USD 10.00）的库存财务收货。
@@ -195,7 +194,6 @@ ms.lasthandoff: 11/03/2017
 -   每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
 -   库存结转用红色的垂直虚线以及 *“库存结转”* 标签表示。
 -   由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。
-
 
 
 

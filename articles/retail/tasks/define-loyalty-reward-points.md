@@ -1,13 +1,13 @@
---- 
-title: "定义会员奖励分"
-description: "此程序会逐步演示如何定义会员奖励积分。"
+---
+title: 定义会员奖励分
+description: 此程序会逐步演示如何定义会员奖励积分。
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailLoyaltyRewardPoints
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 85ae26123d41fa74d32b102ddb7f021e9846a676
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 26b5615df427fb01cc4a1764507fbaa11bf0d7a0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354498"
 ---
 # <a name="define-loyalty-reward-points"></a>定义会员奖励分
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 02/07/2018
     * 奖励积分将在积分发放的指定天数、月数或年数之后过期。 值为“0”意味着会员奖励积分将永不过期。  
 10. 在“到期时间单位”字段中，选择一个选项。
 11. 单击“保存”。
-
 

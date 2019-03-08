@@ -1,13 +1,13 @@
 ---
-title: "集中付款的结算概览"
-description: "此主题介绍 Microsoft Dynamics 365 for Finance and Operations 的集中付款的结算。"
+title: 集中付款的结算概览
+description: 此主题介绍 Microsoft Dynamics 365 for Finance and Operations 的集中付款的结算。
 author: abruer
 manager: AnnBe
 ms.date: 08/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: fc5a65c299adbf86fb2f38dff1a9aaa36f7367fa
 ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358569"
 ---
-
 # <a name="settlement-overview-for-centralized-payments"></a>集中付款的结算概览
 
 [!include [banner](../includes/banner.md)]
@@ -109,4 +108,3 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="withholding-tax"></a>预缴税金
 与发票关联的供应商帐户用于确定是否应计算预缴税金。 如果预缴税金如果适用，则在与发票关联的法人中计算。 如果使用不同币种法人，则使用来自与发票关联的法人的汇率。
-

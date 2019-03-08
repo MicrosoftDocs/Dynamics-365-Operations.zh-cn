@@ -1,13 +1,13 @@
---- 
-title: "定义供应商付款费用"
-description: "设置供应商付款费用。"
+---
+title: 定义供应商付款费用
+description: 设置供应商付款费用。
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymFee, VendPaymModeFee, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 399291a98ddc6b01fb08f7a5c629ec7a6f8acfbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f62d07ffa1ee4a525f0f266922bc88e5ac8d5ada
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363192"
 ---
 # <a name="define-vendor-payment-fees"></a>定义供应商付款费用
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 09/29/2017
 17. 在“费用币种”字段中，选择评估费用的币种。
     * 该币种用于费用。 付款币种用于定义，基于付款的币种，应何时评估支出规则。 例如，当使用欧元付款时，您选择的银行可能会收取费用，但对于其他付款将不会评估费用。  
 18. 单击“保存”。
-
 

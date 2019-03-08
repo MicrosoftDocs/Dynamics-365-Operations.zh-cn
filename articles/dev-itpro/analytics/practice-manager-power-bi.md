@@ -1,30 +1,29 @@
 ---
-title: "实践经理 Power BI 内容"
-description: "此主题介绍实践经理 Power BI 内容中的内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 实践经理 Power BI 内容
+description: 此主题介绍实践经理 Power BI 内容中的内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: KimANelson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjManagementWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 7b2c13573aca2ceb0eca36cf4aeee80d2f56ab8a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367792"
 ---
-
 # <a name="practice-manager-power-bi-content"></a>实践经理 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ms.lasthandoff: 08/13/2018
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
-**实践经理** Power BI 内容显示在**管理项目**工作区。
+**实践经理** Power BI 内容显示在**项目管理**工作区。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 
@@ -119,4 +118,3 @@ ms.lasthandoff: 08/13/2018
 | 关键聚合度量       | 字段               | 说明 |
 |---------------------------------|---------------------|-------------|
 | 已完成活动的计划成本 | Sum(TotalCostPrice) | 含已完成任务在内估计的所有项目交易记录类型的总成本价。 |
-

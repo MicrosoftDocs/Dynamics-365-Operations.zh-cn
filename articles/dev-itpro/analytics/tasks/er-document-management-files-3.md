@@ -1,13 +1,13 @@
---- 
-title: "创建在 ER 输出中使用票据管理文件的格式"
-description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报模型，以便在 ER 输出中使用票据管理文件。"
+---
+title: 创建在 ER 输出中使用票据管理文件的格式
+description: 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报模型，以便在 ER 输出中使用票据管理文件。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1815a0004eee6734b3c7d2c2f9e75ce5fe16af1c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362939"
 ---
-
 # <a name="create-formats-to-use-document-management-files-in-er-output"></a>创建在 ER 输出中使用票据管理文件的格式
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -120,5 +119,4 @@ ms.lasthandoff: 09/14/2018
 22. 单击“绑定”。
 23. 单击“保存”。
 24. 关闭该页面。
-
 

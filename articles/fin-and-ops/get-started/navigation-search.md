@@ -1,13 +1,13 @@
 ---
-title: "导航搜索"
-description: "本主题说明如何使用搜索功能导航到 Microsoft Dynamics 365 for Finance and Operations 中的页面。"
+title: 导航搜索
+description: 本主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中使用搜索功能来导航到页面。
 author: aneesmsft
 manager: AnnBe
 ms.date: 04/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7c05098815c6b330cbb9c7f5ce886779927c6804
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353003"
 ---
-
 # <a name="navigation-search"></a>导航搜索
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明如何使用搜索功能导航到 Microsoft Dynamics 365 for Finance and Operations 中的页面。
+本主题说明如何在 Microsoft Dynamics 365 for Finance and Operations 中使用搜索功能来导航到页面。
 
 Finance and Operations 提供了面向一系列广泛的行业和类别的功能。 此应用程序包括大量区域和页面，可帮助您执行各种任务。 要快速查找完成任务所需的页面，请使用导航搜索功能。
 
@@ -64,4 +63,3 @@ Finance and Operations 提供了面向一系列广泛的行业和类别的功能
 ## <a name="development"></a>开发
 
 从开发角度来看，此导航搜索功能易于使用，因为在菜单项的部署和其在搜索结果中显示的能力之间几乎没有任何延迟。 只要菜单项链接到导航窗格或仪表板，它们就会自动变为可搜索。
-

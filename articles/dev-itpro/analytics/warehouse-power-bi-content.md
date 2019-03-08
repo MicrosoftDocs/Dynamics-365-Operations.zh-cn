@@ -1,13 +1,13 @@
 ---
-title: "仓库性能 Power BI 内容"
-description: "此主题介绍仓库性能 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 仓库绩效 Power BI 内容
+description: 此主题介绍仓库性能 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: Mirzaab
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSWarehousePerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,15 +18,14 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365354"
 ---
-
-# <a name="warehouse-performance-power-bi-content"></a>仓库性能 Power BI 内容
+# <a name="warehouse-performance-power-bi-content"></a>仓库绩效 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,10 +42,10 @@ ms.lasthandoff: 08/13/2018
 - **货位库存准确性** - 库存准确性是重要的内部仓库商业智能 (BI)。 您确定一般情况下如何准确盘点非常重要。 不过，您还务必确定正确货位存储物料的准确性，并突出显示差异数据，以便您可以查找更好的物料货位或对特定物料发起总盘点。 （目前，新的基于物料的盘点功能作为修补程序提供。）如果您使用此 Power BI 内容来确定每个货位现有库存量的正确性，您还可以发现商店内的被盗情况。 还可以确定是否有货位具有与企业资源规划 (ERP) 数据不同的现有数量。 这些货位可能过大，或者可能无法盘点。 或者，某些实际定位可能比较糟糕，因此，与让一个物料类型与现有数据保持同步很难。
 
 ## <a name="accessing-the-power-bi-content-pack"></a>访问 Power BI 内容包
-**库绩效绩** Power BI 内容显示在**库绩效绩**页面（**库绩管理** \> **查询和报表** \> **库绩效绩分析** \>**库绩效绩**）。
+**仓库绩效绩** Power BI 内容显示在**仓库绩效绩**页面（**仓库管理** \> **查询和报表** \> **仓库效绩分析** \> **仓库效绩**）。
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
-**仓库绩效** Power BI 内容包括报表。 此报表包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**仓库绩效** Power BI 内容的可视化。
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的度量
+**仓库绩效** Power BI 内容包括报表。 此报表包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**仓库绩效** Power BI 内容中的可视化。
 
 | 报表页                 | 图表                                   | 说明 |
 |-----------------------------|------------------------------------------|-------------|
@@ -113,4 +112,3 @@ ms.lasthandoff: 08/13/2018
 | 装运表现        | 产品装运                       | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。 |
 | 装运表现        | 客户装运                      | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。 |
 | 装运表现        | 站点/仓库装运              | CustPackingSlipOnTimeStatus           | 提前、按时和延迟（参阅此表之前的描述）。 |
-

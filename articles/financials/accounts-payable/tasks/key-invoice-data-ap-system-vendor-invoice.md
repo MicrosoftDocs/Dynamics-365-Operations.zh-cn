@@ -1,13 +1,13 @@
---- 
-title: "使用供应商发票的 AP 系统中的重要发票数据"
-description: "本任务指南将帮助您根据采购订单创建供应商发票，并查看采购订单、收据和发票的匹配结果（三向匹配）。"
+---
+title: 使用供应商发票的 AP 系统中的重要发票数据
+description: 本任务指南将帮助您根据采购订单创建供应商发票，并查看采购订单、收据和发票的匹配结果（三向匹配）。
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventItemIdLookupPurchase, PurchEditLines, VendEditInvoice, InventItemIdLookupSimple, VendInvoiceMatchingDetails
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e1d2e31a5de7cefd20996c18bf4771296a587997
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359098"
 ---
 # <a name="key-invoice-data-in-ap-system-using-vendor-invoice"></a>使用供应商发票的 AP 系统中的重要发票数据
 
@@ -79,5 +79,4 @@ ms.lasthandoff: 09/14/2018
 19. 单击“过帐”。
 20. 关闭窗体。
     * 请注意，采购订单不再列为“已接收但未开票”。  
-
 

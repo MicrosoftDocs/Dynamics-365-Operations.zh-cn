@@ -1,28 +1,27 @@
 ---
-title: "数据验证核对清单工作区"
-description: "数据验证核对清单工作区可以跟踪跨公司、区域和人员的数据验证流程。 核对清单可以在新实现期间、升级后或迁移后使用。"
+title: 数据验证核对清单工作区
+description: 数据验证核对清单工作区可以跟踪跨公司、区域和人员的数据验证流程。 核对清单可以在新实现期间、升级后或迁移后使用。
 author: bking
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DataValidationWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364181"
 ---
-
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 
 [!include [banner](../includes/banner.md)]
@@ -59,4 +58,3 @@ ms.lasthandoff: 08/08/2018
 您使用任务区域将数据验证任务分组到您的组织中的逻辑所有权区域。 例如，应付账款、应收账款或总帐可以使用为任务区域。
 
 **菜单项名称**与任务工作关联，可用于从工作区中的任务链接直接访问关联页面。 例如，要为应付账款运行**应付账款帐龄**报表的数据验证任务可以链接到**应付账款帐龄报表**页。
-

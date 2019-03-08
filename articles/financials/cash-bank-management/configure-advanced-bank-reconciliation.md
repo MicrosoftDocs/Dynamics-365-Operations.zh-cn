@@ -1,13 +1,13 @@
 ---
-title: "高级银行对帐设置流程"
-description: "高级银行对帐允许您在 Microsoft Dynamics 365 for Finance and Operations 中导入电子银行对帐单，并与银行交易记录自动对帐。  这篇文章将介绍对帐流程设置。"
+title: 高级银行对帐设置流程
+description: 高级银行对帐允许您在 Microsoft Dynamics 365 for Finance and Operations 中导入电子银行对帐单，并与银行交易记录自动对帐。  这篇文章将介绍对帐流程设置。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: f77a9c927232c95558ba78037f6a6e9f77e202c2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357327"
 ---
-
 # <a name="advanced-bank-reconciliation-setup-process"></a>高级银行对帐设置流程
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ ms.lasthandoff: 03/26/2018
 **对账单中的银行帐户名称**字段是用于电子银行对账单的银行帐户的名称。   当确定为银行帐户从可能包含多个银行帐户信息的对账单导入哪些交易记录时使用此名称。 
 
 选项**在导入后对帐**将自动验证银行对账单、创建新的银行对帐和工作表中，并运行默认匹配规则集。  此功能自动将流程运行到必须手动匹配的阶段。  导入时，将默认使用银行帐户上的设置。
-
 
 
 

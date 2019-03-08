@@ -1,32 +1,31 @@
 ---
-title: "产品信息概览"
-description: "此主题提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。"
+title: 产品信息概览
+description: 此主题提供有关产品信息管理的信息。 产品信息管理使用跨所有法人的共用的产品定义、分类和标识符以及产品的特定配置以适应业务流程。
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductMaintainWorkspace, EcoResProductListPage, EcoResProductVariantMaintainWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 72dbc5d383352d4d6444d07495fdef00137b1c7f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363008"
 ---
-
 # <a name="product-information-overview"></a>产品信息概览
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,7 @@ ms.lasthandoff: 03/26/2018
 
 可以在 Microsoft Dynamics 365 for Finance and Operations 中创建产品定义。 也可以从产品生命周期管理 (PLM)、产品数据管理 (PDM) 或产品信息管理 (PIM) 系统导入。 使用多个 Finance and Operations 实例时，一个实例通常用于所有其他实例的基础产品数据。 此方法受一组大量数据实体的支持，这些数据实体支持将产品定义数据从一个实例导出和导入到另一个实例。
 
-为了支持将产品数据分配到多个实例，Finance and Operations 允许您使用公共数据服务。 产品定义可以从 Finance and Operations 的一个实例导出到公共数据服务。 然后可以使用产品定义提供其他具有产品数据的业务应用，例如 Microsoft Dynamics 365 for Sales。
+为了支持将产品数据分配到多个实例，Finance and Operations 允许您使用 Common Data Service。 产品定义可以从 Finance and Operations 的一个实例导出到 Common Data Service。 然后可以使用产品定义提供其他具有产品数据的业务应用，例如 Microsoft Dynamics 365 for Sales。
 
 请注意，在动态和敏捷的组织中，产品信息数据每天都会更改。 因此，维护准确和真实的产品数据本身就是一个重要的业务流程。
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 03/26/2018
 ### <a name="manually-creating-a-new-released-product"></a>手动创建新发布的产品
 
 您可以根据组织的业务流程和关于是否应使用此功能的任何规则在单次运行中手动创建已发布的产品。 此功能创建新产品并自动将其发布到当前法人。 要创建新产品，单击**已发布的产品维护**工作区中或**已发布的产品**列表页上的**已发布的产品**。
-

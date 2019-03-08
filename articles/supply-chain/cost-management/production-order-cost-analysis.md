@@ -1,13 +1,13 @@
 ---
-title: "生产订单成本分析"
-description: "本文提供有关可为已完成和当前生产订单执行的成本分析的信息。 您可以使用价格计算页或成本预估和成本计算报表分析估计成本和实际成本。 您可以查看有关每个组件物料的估计和实际成本（和数量）、工艺路线工序以及间接成本的信息。"
+title: 生产订单成本分析
+description: 本文提供有关可为已完成和当前生产订单执行的成本分析的信息。 您可以使用价格计算页或成本预估和成本计算报表分析估计成本和实际成本。 您可以查看有关每个组件物料的估计和实际成本（和数量）、工艺路线工序以及间接成本的信息。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventCostTrans, ProdCalcTrans, ProdTableJour, ProdTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f027d6521d5f57a7e2d2cac1bed8dc08ae9f20f1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 40ac5108216fd6d9eb5cd6e76fefd66828a7da84
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353555"
 ---
-
 # <a name="production-order-cost-analysis"></a>生产订单成本分析
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [生产差异的常见来源](common-sources-of-production-variances.md)
-
 
 
 

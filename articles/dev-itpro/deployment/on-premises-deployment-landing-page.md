@@ -1,34 +1,34 @@
 ---
-title: "本地部署主页"
-description: "本主题提供有关本地部署的信息和内容链接。"
+title: 本地部署主页
+description: 本主题提供有关本地部署的信息和内容链接。
 author: kfend
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 02/01/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 55651
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
+ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
+ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
 ms.translationtype: HT
-ms.sourcegitcommit: b8fb8c963e2bba2e6fe7cb31e71a38232f1e8a54
-ms.openlocfilehash: c80a41427db18607577b4f89c8e30fe6c8f872d3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/02/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/01/2019
+ms.locfileid: "373269"
 ---
 # <a name="on-premises-deployments-home-page"></a>本地部署主页
 
 [!include [banner](../includes/banner.md)]
 
-您可以部署 Microsoft Dynamics 365 for Finance and Operations（本地）。 当你选择一个本地部署类型时，系统要求、硬件规模调整和功能与云部署不同。 本主题提供包含本地部署特定信息的内容链接。
+您可以部署 Microsoft Dynamics 365 for Finance and Operations (on-premises)。 当你选择一个本地部署类型时，系统要求、硬件规模调整和功能与云部署不同。 本主题提供包含本地部署特定信息的内容链接。
 
 ## <a name="get-started"></a>开始
 - [本地部署选项](on-premises-overview.md)
@@ -62,7 +62,8 @@ ms.lasthandoff: 11/02/2018
 - [配置、安装和激活 Retail Modern POS (MPOS)](../../retail/retail-modern-pos-device-activation.md)
 - [配置和安装 Retail Store Scale Unit](../../retail/dev-itpro/retail-store-scale-unit-configuration-installation.md)
 
-
+## <a name="upgrade"></a>升级
+- [本地环境的就地升级流程](../migration-upgrade/on-prem-upgrade.md)
 
 ## <a name="other-resources"></a>其他资源
 - [对本地部署进行故障排除](troubleshoot-on-prem.md)
@@ -71,4 +72,3 @@ ms.lasthandoff: 11/02/2018
 - [已删除或弃用的功能](../migration-upgrade/deprecated-features.md)
 - [软件生命周期策略和本地版本](../migration-upgrade/on-prem-version-update-policy.md)
  
-

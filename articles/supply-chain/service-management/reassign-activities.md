@@ -1,32 +1,30 @@
 ---
-title: "重新分配活动"
-description: "本主题描述如何将服务活动从一个工作人员重新分配给另一个工作人员。"
+title: 重新分配活动
+description: 本主题描述如何将服务活动从一个工作人员重新分配给另一个工作人员。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMADispatchBoard
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 215b10cc0733c1beab52fa39e09c83d40a6297a3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 3b7a88106cf1212148202917679243ce651991dd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352566"
 ---
-
-
 # <a name="reassign-activities"></a>重新分配活动 
 
 [!include [banner](../includes/banner.md)]
@@ -57,7 +55,6 @@ ms.lasthandoff: 05/08/2018
 [服务活动](service-activities.md)
 
 [发货牌](dispatch-board.md)
-
 
 
 

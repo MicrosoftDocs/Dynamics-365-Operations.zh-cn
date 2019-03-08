@@ -1,13 +1,13 @@
---- 
-title: "创建采购退货单"
-description: "此过程演示如何通过使用“贷方通知单”操作将供应商发票单据中的行复制到新采购订单中来创建采购退货单。"
+---
+title: 创建采购退货单
+description: 此过程演示如何通过使用“贷方通知单”操作将供应商发票单据中的行复制到新采购订单中来创建采购退货单。
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, PurchCopying, InventMarking, PurchEditLines
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e080252006d889e2f27db2bccb7b541f3ee4cf9e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9124100f84afb13acc2ac9dda7b9483afb01754
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354130"
 ---
 # <a name="create-a-purchase-return-order"></a>创建采购退货单
 
@@ -77,5 +77,4 @@ ms.lasthandoff: 09/29/2017
     * 此字段用于输入将用作产品收货日记帐的凭证的参考。  
 5. 单击“确定”。
     * 此货物现已在采购退货单中记录为已装运，并已创建了产品收货日记帐。 可使用“产品收货”操作审查随采购订单创建的日记帐，以了解产品的收货或退货内容和收货或退货时间。  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "审计策略违规记录和案例"
-description: "本文说明如何从审计政策规则违规生成审计案例。 它还包括有关审计策略使用文档选择日期范围的各个方式的信息。"
+title: 审计策略违规记录和案例
+description: 本文说明如何从审计政策规则违规生成审计案例。 它还包括有关审计策略使用文档选择日期范围的各个方式的信息。
 author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c3ed72f829ca4060fe0a4c03b6d4a47a98cdebd6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2376a1d6e86eba9f5021cc08dcfaea52f131a3d7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352520"
 ---
-
 # <a name="audit-policy-violations-and-cases"></a>审计策略违规记录和案例
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ ms.lasthandoff: 11/03/2017
 
 
 有关类别策略规则的详细信息，请参阅[审计策略规则](audit-policy-rules.md) 。
-
 
 
 

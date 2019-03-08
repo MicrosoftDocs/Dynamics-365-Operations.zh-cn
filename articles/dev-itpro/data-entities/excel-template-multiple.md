@@ -1,30 +1,29 @@
 ---
-title: "从包含多个工作表的 Excel 数据实体模板中导入数据"
-description: "此主题介绍如何使用 Excel 数据实体模板将数据导入 Microsoft Dynamics 365 for Finance and Operations。"
+title: 从包含多个工作表的 Excel 数据实体模板中导入数据
+description: 此主题介绍如何使用 Excel 数据实体模板将数据导入 Microsoft Dynamics 365 for Finance and Operations。
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 01/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2018-01-01
 ms.dyn365.ops.version: Platform update 13
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 48239b48cbc24e34d74bbac36e8f827a15d7b840
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351255"
 ---
-
 # <a name="import-data-from-excel-data-entity-templates-that-have-multiple-worksheets"></a>从包含多个工作表的 Excel 数据实体模板中导入数据
 
 [!include [banner](../includes/banner.md)]
@@ -51,4 +50,3 @@ Microsoft Dynamics 365 for Finance and Operations 中的数据管理支持基于
 ## <a name="upload-a-file-using-run-project"></a>使用“运行项目”上传文件
 
 您可以在使用**运行项目**选项执行导入项目时上传 Excel 文件。 您必须注意，上传的文件仅包含与数据项目中的数据实体的现有映射相同的工作表。 如果在新上传的文件中找不到某个工作表，系统将显示错误，并停止导入。 如果必须对某个实体更改到工作表的映射，必须先从数据项目内部更新数据项目中的映射，然后在**运行项目**体验中使用文件。
-

@@ -1,13 +1,13 @@
 ---
-title: "财务报表组件"
-description: "本文介绍如何在财务报告中使用报表定义的组件或构建基块。 这些构造基块包括行定义、列定义和报告树定义。 本文章介绍了如何组织和锁定构建基块，以及如何使用构建基块组。"
+title: 财务报表组件
+description: 本文介绍如何在财务报告中使用报表定义的组件或构建基块。 这些构造基块包括行定义、列定义和报告树定义。 本文章介绍了如何组织和锁定构建基块，以及如何使用构建基块组。
 author: aprilolson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0829c9eb54a8a5ca1f78bfe85de4779e541b945a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368137"
 ---
-
 # <a name="financial-report-components"></a>财务报表组件
 
 [!include [banner](../includes/banner.md)]
@@ -82,7 +81,7 @@ ms.lasthandoff: 08/13/2018
 
 ### <a name="export-a-building-block-group"></a>导出构建基块组
 
-您可以导出构建基块组或构建基块组中的特定报表构建基块。 您可以将导出的构建基块组用作备份。 您还可以复制 Finance and Operations 安装之间的导出数据。 报表设计器包括引用的字体样式和维度集以及构建基块组。
+您可以导出构建基块组或构建基块组中的特定报表构建基块。您可以将导出的构建基块组用作备份。 您还可以复制 Finance and Operations 安装之间的导出数据。报表设计器包括引用的字体样式和维度集以及构建基块组。
 
 1. 在报表设计器中，在**公司**菜单上，单击**构建基块组**。
 2. 在**构建基块组**对话框中，选择要导出的构建基块组，然后单击**导出**。
@@ -128,4 +127,3 @@ ms.lasthandoff: 08/13/2018
 ## <a name="additional-resources"></a>其他资源
 
 [财务申报](financial-reporting-intro.md)
-

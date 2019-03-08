@@ -1,13 +1,13 @@
 ---
-title: "设置群集领料"
-description: "此主题介绍如何设置群集领料和如何为群集领料应用物料确认。"
+title: 设置群集领料
+description: 此主题介绍如何设置群集领料和如何为群集领料应用物料确认。
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSClusterProfile, WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a7adec850cfb473b0bfc9536dcb1ef1cfd74129a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2ec0890963b2b01407acac8003453faf370894b4
-ms.openlocfilehash: 1c23421ddfda8c5f6fa27a31831a00ead6094db9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/11/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364089"
 ---
-
 [!include[banner](../includes/banner.md)]
 
 # <a name="set-up-cluster-picking"></a>设置群集领料
@@ -35,7 +34,7 @@ ms.lasthandoff: 04/11/2018
 
 在工作订单下达到仓库后，工作人员可以使用移动设备将订单分配到群集。 群集将为工作人员组织领料工作。 在将工作订单分配给集群后，工作人员必须使用群集领料为订单执行领料工作。 工作人员不能使用其他领料方法。 如果将工作订单错误分配到群组，工作人员必须拆分群组，然后重新创建。
 
-若有需要，工作人员可以将群集传递给其他工作人员。 此操作会将群集状态更改为“传递”。 在工作人员使用移动设备指示领料，并且完成整理后，必须在 Dynamics 365 for Finance and Operations 客户中确认装运或负荷。
+若有需要，工作人员可以将群集传递给其他工作人员。 此操作会将群集状态更改为“传递”。 在工作人员使用移动设备指示领料，并且完成整理后，必须在 Dynamics 365 for Finance and Operations 客户端中确认装运或负荷。
 
 ## <a name="set-up-cluster-picking"></a>设置群集领料
 
@@ -81,4 +80,3 @@ ms.lasthandoff: 04/11/2018
 1.  在移动设备菜单项上，打开工作确认的设置窗体：**仓库管理** \> **仓库管理** \> **设置** \> **移动设备** \> **移动设备菜单项**。
 
 2.  从移动设备菜单项打开**工作确认设置**。 **产品确认**选项允许您在扫描时从移动设备验证每件库存。
-

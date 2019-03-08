@@ -1,13 +1,13 @@
---- 
-title: "盘点仓库中的库存"
-description: "该过程介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。"
+---
+title: 盘点仓库中的库存
+description: 该过程介绍创建和过帐库存盘点日记帐，以盘点仓库一个库位的特定物料的步骤。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalCount, InventJournalCreate, HcmWorkerLookUp, InventItemIdLookupSimple, InventLocationIdLookup, WMSLocationIdLookup, InventTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8c0bbfe8f86d27f81b0d577ed89dfa34ebcf3f18
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: fa72cb0d651f5e60797fa41f6e2b2cf1891730b5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353463"
 ---
 # <a name="count-inventory-in-a-warehouse"></a>盘点仓库中的库存
 
@@ -69,5 +69,4 @@ ms.lasthandoff: 09/29/2017
 1. 单击“库存”。
 2. 单击“交易记录”。
     * 在这里，您可以查看过帐库存盘点日记帐时创建的所有相关交易记录。   
-
 

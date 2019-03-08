@@ -1,13 +1,13 @@
 ---
-title: "分类管理"
-description: "此主题介绍 Microsoft Dynamics 365 for Retail 中分类管理的基本概念，并提供有关项目的实施注意事项。"
+title: 分类管理
+description: 此主题介绍 Microsoft Dynamics 365 for Retail 中分类管理的基本概念，并提供有关项目的实施注意事项。
 author: jblucher
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: jeffbl
 ms.search.validFrom: 2017-11-21
 ms.dyn365.ops.version: Application update 5
+ms.openlocfilehash: b4de2a97a19be6d4e52c43180e36baf7adf6a649
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 033968667048faf475b13f8fb95e693dc26935ca
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365032"
 ---
-
 # <a name="assortment-management"></a>分类管理
 
 [!include [banner](../includes/banner.md)]
@@ -108,4 +107,3 @@ Microsoft Dynamics 365 for Retail 提供*分类*，供您管理渠道中的产�
 - **分类外销售和退货** – 此功能帮助零售商有效管理分类，方法是将可用产品的数量限制为属于商店核心产品组合的产品。 此功能还可以帮助零售商处理下面的情况：分类中错误地遗漏了某个产品，或者产品因超出分类的有效期而退货。
 
 如果产品数据在渠道数据库中不存在，POS 将实时调用总部数据以检索所需信息，以便出售、退回产品或将产品放入客户订单中。 通过这种方式检索的产品信息只能在交易记录范围内可用。 将不会把产品添加到分类定义。 因此，必须执行后续实时调用。
-

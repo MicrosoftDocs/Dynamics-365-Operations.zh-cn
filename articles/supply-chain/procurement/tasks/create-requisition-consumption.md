@@ -1,13 +1,13 @@
---- 
-title: "创建消耗量申请"
-description: "该过程向您介绍创建申请的流程。"
+---
+title: 创建消耗量申请
+description: 该过程向您介绍创建申请的流程。
 author: mkirknel
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e81ca3966cf7dae88468ccf107b52b8c3d7b323d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7d8ca4e7eedea140f32e264c205b243027a06d03
-ms.openlocfilehash: d1ea95d0bc283297fcedaee730e1829850f07998
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/20/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366550"
 ---
 # <a name="create-a-requisition-for-consumption"></a>创建消耗量申请
 
@@ -104,5 +104,4 @@ ms.lasthandoff: 11/20/2017
 5. 单击“提交”。
 6. 关闭该页面。
 7. 刷新该页面。
-
 

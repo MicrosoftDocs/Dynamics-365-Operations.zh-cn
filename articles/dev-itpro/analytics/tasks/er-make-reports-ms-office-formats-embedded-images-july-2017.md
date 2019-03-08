@@ -1,13 +1,13 @@
---- 
-title: "设计配置以生成 Office 格式的包含嵌入图像的报表"
-description: "本主题中的步骤提供有关如何设计电子申报 (ER) 配置，以便生成 Microsoft Office 格式（Excel 和 Word）且包含嵌入图像的电子单据的信息。"
+---
+title: 设计配置以生成 Office 格式的包含嵌入图像的报表
+description: 本主题中的步骤提供有关如何设计电子申报 (ER) 配置，以便生成 Microsoft Office 格式（Excel 和 Word）且包含嵌入图像的电子单据的信息。
 author: NickSelin
 manager: AnnBe
 ms.date: 01/23/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 1fb02e561f6792c57b924ba64a5ca3d3974289ee
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358086"
 ---
 # <a name="design-configurations-to-generate-reports-in-office-format-that-have-embedded-images"></a>设计配置以生成 Office 格式的包含嵌入图像的报表
 
@@ -91,4 +91,3 @@ ms.lasthandoff: 08/08/2018
  30. 在“允许在无效银行帐户上进行预验证创建:”字段中选择“是”。  
  31. 单击“保存”。  
  32. 关闭该页面。  
-

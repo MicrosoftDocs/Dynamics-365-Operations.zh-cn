@@ -1,13 +1,13 @@
 ---
-title: "普通日记帐处理"
-description: "本主题介绍 Microsoft Dynamics 365 for Finance and Operations 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。"
+title: 普通日记帐处理
+description: 本主题介绍 Microsoft Dynamics 365 for Finance and Operations 中可以帮助使日记帐处理更加轻松以及帮助确保获取正确数据且不影响内部控制的功能。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup, LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf744bc41ffcca6d029da5dd2031ada607a0109b
 ms.openlocfilehash: e77aafafed5c972a6ad8c064107306d3ebde0b79
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358431"
 ---
-
 # <a name="general-journal-processing"></a>普通日记帐处理
 
 [!include [banner](../includes/banner.md)]
@@ -97,4 +96,3 @@ ms.lasthandoff: 09/24/2018
 可在**验证**菜单上查找**模拟过帐**以获得更多日记帐。 使用**验证**功能验证日记帐时，系统将使用特定错误条件测试该日记帐。 如果使用**模拟过帐**功能，系统将运行过帐期间运行的全部相同过程，但不真正过帐该日记帐。 然后可以查看显示的过帐消息，修复发现的所有错误，然后单击**过帐**菜单过帐日记帐。 
 
 **模拟过帐**不可用于批处理。 但是，可通过代码批量模拟过帐，而开发人员可以扩展代码以添加该功能。  
-

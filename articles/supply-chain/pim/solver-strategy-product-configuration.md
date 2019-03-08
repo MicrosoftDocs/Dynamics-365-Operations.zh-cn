@@ -1,39 +1,38 @@
 ---
-title: "产品配置的求解器策略"
-description: "此主题介绍如何使用求解器策略改进产品配置的性能。"
+title: 产品配置的求解器策略
+description: 此主题介绍如何使用求解器策略改进产品配置的性能。
 author: cvocph
 manager: AnnBe
 ms.date: 01/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCCreateProductConfigurationModel, PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d0abb9313ec62cfdfe3bf7c810e2143dcf502bf9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 4544128e580b30b14a6236a9a6147ff0a8641d72
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351140"
 ---
-
 # <a name="solver-strategy-for-product-configuration"></a>产品配置的求解器策略
 
 [!include [banner](../includes/banner.md)]
 
 此主题介绍如何使用求解器策略改进产品配置的性能。
 
-求解器这一概念最初是在 Microsoft Dynamics AX 2012 R2 的累积更新 7 (CU7) 中引入的。 并在 Microsoft Dynamics AX 2012 R3 的累积更新 8 (CU8) 和 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中得以延伸。
+求解器这一概念最初是在 Microsoft Dynamics AX 2012 R2 的累积更新 7 (CU7) 中引入的。 并在 Microsoft Dynamics AX 2012 R3 的累积更新 8 (CU8) 和 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3 中得以延伸。
 
 求解器策略概念现在包含以下策略：
 
@@ -74,4 +73,3 @@ ms.lasthandoff: 02/07/2018
 [启发](https://techterms.com/definition/heuristic)
 
 [约束满足问题](http://aima.cs.berkeley.edu/2nd-ed/newchap05.pdf)
-

@@ -1,13 +1,13 @@
 ---
-title: "物料清单计算组"
-description: "本文提供有关物料清单 (BOM) 的计算组以及如何设置它们的信息。 若要运行物料清单计算，您必须设置计算组并将它们分配到各个物料，或设置默认计算组。 然后，计算组的计算设置在物料清单计算时用作物料清单计算页的默认值。"
+title: 物料清单计算组
+description: 本文提供有关物料清单 (BOM) 的计算组以及如何设置它们的信息。 若要运行物料清单计算，您必须设置计算组并将它们分配到各个物料，或设置默认计算组。 然后，计算组的计算设置在物料清单计算时用作物料清单计算页的默认值。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcGroup, BOMCalcTable, BOMCalcTrans, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 55bca29016e06b6ed71c0f1a4aa412401976ebdd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48d1bc67038c6080bb96d524a549deddbc8d4e0b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362870"
 ---
-
 # <a name="bom-calculations-groups"></a>物料清单计算组
 
 [!include [banner](../includes/banner.md)]
@@ -96,7 +95,6 @@ ms.lasthandoff: 11/03/2017
 -   标识物料清单行中的物料何时具有少于您所需的收益率百分比。
 
 您可以定义多个物料清单计算组，具体取决于您在警告消息中的变型要求。 例如，具有与有效物料清单、0（零）组件数量和0（零）组件成本有关的警告条件的一个物料清单计算组可能就足够了。 在您开始执行物料清单计算时，可以覆盖与物料清单计算组相关联的警告条件。 您还可以添加或删除警告条件。 例如，如果当前情况不涉及路线选择数据，您可以取消与有效工艺路线有关的警告条件。 **注意︰** 时间和出勤包括**计算组**页，但是该页与物料清单计算组没有关系。 在“时间和出勤”中，可以将工作人员分配至反映与相同主管或经理相关联的工作人员分组的计算组。 工作人员的登记计算可由主管或经理自动或手动完成。
-
 
 
 

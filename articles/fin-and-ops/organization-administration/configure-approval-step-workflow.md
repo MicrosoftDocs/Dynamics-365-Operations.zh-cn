@@ -1,13 +1,13 @@
 ---
-title: "配置工作流中的审核步骤"
-description: "本主题说明如何配置审核步骤的属性。"
+title: 配置工作流中的审核步骤
+description: 本主题说明如何配置审核步骤的属性。
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f52b6ffed7c1edb97c7a673cefbc8bf486ba831
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 813866d63f38f5865666bad96f6f3590716a93ad
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368045"
 ---
-
 # <a name="configure-approval-steps-in-a-workflow"></a>配置工作流中的审核步骤
 
 [!include [banner](../includes/banner.md)]
@@ -135,7 +134,7 @@ ms.lasthandoff: 08/08/2018
     </tr>
     <tr>
     <td>用户</td>
-    <td>特定的 Microsoft Dynamics 365 for Finance and Operations 用户</td>
+    <td>特定 Microsoft Dynamics 365 for Finance and Operations 用户</td>
     <td>
     <ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
@@ -278,4 +277,3 @@ ms.lasthandoff: 08/08/2018
 
 5. 对每个应添加到呈报路线的用户重复第 3 步到第 4 步。 您可以更改用户的顺序。
 6. 如果呈报路线中的用户未在分配的时间内响应，则系统将自动对该文档采取操作。 若要指定系统执行的操作，选择**操作**行，然后，在**结束操作**选项卡上，选择一项操作。
-

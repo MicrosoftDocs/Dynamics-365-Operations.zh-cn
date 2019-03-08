@@ -1,13 +1,13 @@
 ---
-title: "确定叠加折扣的最佳组合"
-description: "折扣叠加时，必须确定将产生最低交易记录总额或最高折扣总额的叠加折扣组合。 当折扣金额根据购买的产品价格变化时（如常见的“第二件打折”(BOGO) 零售折扣），此过程就成为了组合优化问题。"
+title: 确定叠加折扣的最佳组合
+description: 折扣叠加时，必须确定将产生最低交易记录总额或最高折扣总额的叠加折扣组合。 当折扣金额根据购买的产品价格变化时（如常见的“第二件打折”(BOGO) 零售折扣），此过程就成为了组合优化问题。
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters, RetailPeriodicDiscount,
 audience: Application User, IT Pro
 ms.reviewer: kfend
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: kfend
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: eebb532071e7c6bae7cfae93bfe795e79bb16c63
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360685"
 ---
-
 # <a name="determine-the-optimal-combination-of-overlapping-discounts"></a>确定叠加折扣的最佳组合
 
 [!include [banner](includes/banner.md)]
@@ -85,4 +84,3 @@ ms.lasthandoff: 01/04/2019
 ![叠加折扣组合 06](./media/overlapping-discount-combo-06.jpg)
 
 计算了一组共享产品的每种折扣的临界值之后，将按照从最高临界值到最低临界值的顺序，依次将折扣详尽地应用于共享产品。 对于此方法，应用了一种折扣的单个实例之后，不会每次都比较其余可行折扣。 而是比较一次叠加折扣，然后依次应用这些折扣。 无需再执行任何比较。 可以在**零售参数**页面的**折扣**选项卡上配置阈值以切换到临界值方法。 零售行业中计算折扣总额所用可接受时间多种多样。 但是，此时间的范围通常为几十毫秒到一秒。
-

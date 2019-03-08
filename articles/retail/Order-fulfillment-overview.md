@@ -1,13 +1,13 @@
 ---
-title: "商店订单履行"
-description: "此主题概要介绍了商店订单履行。"
+title: 商店订单履行
+description: 此主题概要介绍了商店订单履行。
 author: rubencdelgado
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: b3eeda217e00b33962561bcb2ee6185275f52fe2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363675"
 ---
-
 # <a name="store-order-fulfillment"></a>商店订单履行
 
 [!include [banner](includes/banner.md)]
@@ -219,4 +218,3 @@ ms.lasthandoff: 01/04/2019
 - 创建日期
 - 交货日期
 - 接收日期
-

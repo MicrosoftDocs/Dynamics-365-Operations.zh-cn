@@ -1,13 +1,13 @@
 ---
-title: "产品维度"
-description: "有四产品维度 - 颜色、配置、大小和样式。 您在维度组中合并产品维度，并将维度组分配给基础产品。 产品维度的组合确定如何定义产品变型。"
+title: 产品维度
+description: 有四产品维度 - 颜色、配置、大小和样式。 您在维度组中合并产品维度，并将维度组分配给基础产品。 产品维度的组合确定如何定义产品变型。
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDimension, EcoResProductDimensionGroup, EcoResProductMasterDimension, RetailEcoResColor, RetailEcoResSize, RetailEcoResStyle
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ccb9d47bf6f081dbcc9590bddd4516cf7385ec23
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 9cb4bded4b8d841c6d164e6b8ded2cb3fb4d0978
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363284"
 ---
-
 # <a name="product-dimensions"></a>产品维度
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ ms.lasthandoff: 02/07/2018
 | 棕 | L    |
 | 棕 | XL   |
 | 棕 | XXL  |
-
 
 
 

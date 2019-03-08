@@ -1,13 +1,13 @@
---- 
-title: "配置内部公司项目开票"
-description: "此过程显示如何设置贵组织内部两个公司之间的项目开票。"
+---
+title: 配置内部公司项目开票
+description: 此过程显示如何设置贵组织内部两个公司之间的项目开票。
 author: KimANelson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, InterCompanyTradingRelationSetupVendor, SysDataAreaSelectLookup, ProjParameters, ProjPosting, ProjTransferPrice
 audience: Application User
 ms.reviewer: twheeloc
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2fe06978d3a1c41a1133a568cca61df05b49d235
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4de7257ed5e9c9c08ec6cc423c29739a541926d5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352750"
 ---
 # <a name="configure-intercompany-project-invoicing"></a>配置内部公司项目开票
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/29/2017
 35. 在“转让价格模型”字段中，选择一个选项。
 36. 在“定价”字段中输入数字。
 37. 单击“保存”。
-
 

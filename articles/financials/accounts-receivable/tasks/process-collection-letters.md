@@ -1,13 +1,13 @@
---- 
-title: "处理催款单"
-description: "该过程说明如何创建、打印并过帐收款单。"
+---
+title: 处理催款单
+description: 该过程说明如何创建、打印并过帐收款单。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/04/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPosting, CustCollectionLetterNote
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
+ms.openlocfilehash: 8a3f74d2891c050294e089eae14ba2386449d7c9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
-ms.openlocfilehash: 33d9fd62a780ab109474eefa9e322a9c529f9e72
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/06/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358845"
 ---
 # <a name="process-collection-letters"></a>处理催款单
 
@@ -80,4 +80,3 @@ ms.lasthandoff: 12/06/2018
 若要忽略计算催款单代码时的付款及贷项通知单，请执行以下操作。
 1. 转到**信用和收款 > 设置 > 应收帐款参数**并单击**收款**选项卡。 
 2. 将**忽略计算催款单代码时的付款及贷项通知单**的值更改为**是**。
-

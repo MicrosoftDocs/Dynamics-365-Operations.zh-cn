@@ -1,13 +1,13 @@
 ---
-title: "库存锁定"
-description: "本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。"
+title: 库存锁定
+description: 本文提供库存锁定的概览，这是 Microsoft Dynamics 365 for Finance and Operations 中质量检查流程的一部分。 您可以使用库存锁定来阻止处理或消耗物料。
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBlocking, InventQualityOrderTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: eb6291e2f012f148b247b747f84155b96cf09677
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b7c788f4b054c7d20df69459c31bb16994d8a9ec
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352037"
 ---
-
 # <a name="inventory-blocking"></a>库存锁定
 
 [!include [banner](../includes/banner.md)]
@@ -68,4 +67,3 @@ ms.lasthandoff: 05/08/2018
 [质量管理流程](quality-management-processes.md)
 
 [检查货物质量（任务指南）](tasks/inspect-quality-goods.md)
-

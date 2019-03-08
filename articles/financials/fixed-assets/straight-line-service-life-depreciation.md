@@ -1,13 +1,13 @@
 ---
-title: "直线法折旧"
-description: "本文提供了直线法折旧法的概览。"
+title: 直线法折旧
+description: 本文提供了直线法折旧法的概览。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b48cf3970379f8dd2ea529cd8a434c0bdc196a1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bb5715855c7e240cddf4fd264a4b26ca09a2f6c4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365676"
 ---
-
 # <a name="straight-line-service-life-depreciation"></a>直线法折旧
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,6 @@ ms.lasthandoff: 11/03/2017
 | 第 6 年 | 余额 800\*                           | 1,800 – 800 = 1,000                   |
 
 \*由于余额小于折旧金额，因此只取扣除残值后的余额。
-
 
 
 

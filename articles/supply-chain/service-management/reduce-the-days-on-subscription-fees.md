@@ -1,32 +1,30 @@
 ---
-title: "缩减预订费用天数"
-description: "若要缩减现有预订费用的天数，可以创建一个新的交易记录，从中您删除不应继续作为预订费用间隔的一部分的时段。"
+title: 缩减预订费用天数
+description: 若要缩减现有预订费用的天数，可以创建一个新的交易记录，从中您删除不应继续作为预订费用间隔的一部分的时段。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASubscriptionTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 04b183d8fc8083c630bcb4e0e69fb755f8a50f95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: c70e393c125eecef85e8711d1635250f5ff408d9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361996"
 ---
-
-
 # <a name="reduce-the-days-on-subscription-fees"></a>缩减预订费用天数 
 
 [!include [banner](../includes/banner.md)]
@@ -55,6 +53,5 @@ ms.lasthandoff: 05/08/2018
 [缩减天数示例](reduction-days-example.md)
 
   
-
 
 

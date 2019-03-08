@@ -1,13 +1,13 @@
 ---
-title: "创建提单"
-description: "此主题介绍在使用仓库管理流程时如何创建提单。"
+title: 创建提单
+description: 此主题介绍在使用仓库管理流程时如何创建提单。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSBillOfLading, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8d5caed5553ad1c7aec5db83591024129aab1264
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ab5aa60198e442237fd85bb295589ae0ebe9c5f5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352589"
 ---
-
 # <a name="create-a-bill-of-lading"></a>创建提单
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="master-bill-of-lading"></a>主提单
 当负荷中存在多个装运，您可以生成主提单。 这与提单有相同的布局和信息，但包含所有装运的汇总内容。 如果**当负荷上存在多个装运时创建主提单**在**运输管理参数**页面选项设置为**是**，如果您从**装载计划工作台**创建提单，并且具有多个装运，主提单将自动生成。 您还可以通过单击**相关信息** &gt; **提单**获取提单的列表。 如果手动创建提单，则可以在**提单**页面创建主提单。
-
 
 
 

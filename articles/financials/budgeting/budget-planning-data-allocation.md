@@ -1,13 +1,13 @@
 ---
-title: "预算计划数据分配"
-description: "本文介绍 Microsoft Dynamics 365 for Finance and Operations 中可用的不同分配方法以及如何使用它们。"
+title: 预算计划数据分配
+description: 本文介绍 Microsoft Dynamics 365 for Finance and Operations 中可用的不同分配方法以及如何使用它们。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 430040f7b3706aa1ad913d70c0dbcab9249ea222
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b5f262318b4defb941f1216d0bfe06961f62bad4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352497"
 ---
-
 # <a name="budget-planning-data-allocation"></a>预算计划数据分配
 
 [!include [banner](../includes/banner.md)]
@@ -56,23 +55,22 @@ ms.lasthandoff: 03/26/2018
 **从预算计划复制** - 正如“分配”分配方法中一样，预算计划行将基于相关预算计划中的行在目标方案中创建。 但是，对于此方法，源预算计划不必为父计划但可以是预算计划层次结构中的任何较高级别。 此分配方法在以下情况下有用：合并的金额最初在非常高级别处进行预算，而且必须先转移到组织的较低级别以实现详细审核和调整，然后金额才能收到父审批。          
 
 ## <a name="using-allocation-methods-in-a-budget-plan"></a>在预算计划中使用分配方法
-要在预算计划页面上执行分配，请选择要分配的行，然后单击 **“分配预算”**。
+要在预算计划页面上执行分配，请选择要分配的行，然后单击**分配预算**。
 
 [![AllocateBudgetButton](./media/allocatebudgetbutton-300x84.png)](./media/allocatebudgetbutton.png) 
 
-接下来，选择分配方法。 然后基于所选的方法设置剩余字段。 这些字段包含预算计划数据的源和目标以及一个选项，利用此选项，您可以在创建目标金额时用源乘以某个指定的系数，以便简化大量调整。 您还可以设置 **“追加到计划”** 选项。 选择 **“否”** 替换现有预算计划行，或者选择 **“是”** 保留现有预算计划行并为分配的金额添加新行。
+接下来，选择分配方法。 然后基于所选的方法设置剩余字段。 这些字段包含预算计划数据的源和目标以及一个选项，利用此选项，您可以在创建目标金额时用源乘以某个指定的系数，以便简化大量调整。 您还可以设置**追加到计划**选项。 选择**否**替换现有预算计划行，或者选择**是**保留现有预算计划行并为分配的金额添加新行。
 
 ## <a name="automating-allocations-during-a-workflow"></a>自动工作流期间的分配
 一种强大的功能使得分配能够作为预算计划工作流中的一部分自动执行。 由于预算计划在其工作流中移动，因此自动化任务可在某个指定预算计划阶段中调用分配。 
 
-要设置自动化分配，您必须先在 **“预算计划配置”** 页面上创建分配计划。 此分配计划定义在运行自动化分配时将使用的分配方法以及各种分配选项的值（请参阅上一部分中说明）。 
+要设置自动化分配，您必须先在**预算计划配置**页面上创建分配计划。 此分配计划定义在运行自动化分配时将使用的分配方法以及各种分配选项的值（请参阅上一部分中说明）。 
 
-然后，在 **“预算计划配置”** 页面上创建阶段分配。 阶段分配会将分配计划分配到预算计划工作流和阶段。 
+然后，在**预算计划配置**页面上创建阶段分配。 阶段分配会将分配计划分配到预算计划工作流和阶段。 
 
 最后，在所需的工作流阶段处为预算计划阶段分配添加自动化任务。 在以下示例中，两个预算计划阶段分配（用红色标出）已插入到工作流中。
 
 [![BudgetPlanningStageAllocations](./media/budgetplanningstageallocations-300x300.png)](./media/budgetplanningstageallocations.png)
-
 
 
 

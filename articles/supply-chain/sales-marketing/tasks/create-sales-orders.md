@@ -1,13 +1,13 @@
---- 
-title: "创建销售订单"
-description: "此过程说明如何创建销售订单。"
+---
+title: 创建销售订单
+description: 此过程说明如何创建销售订单。
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, InventDimParmFixed, InventProductDimensionLookup, SalesTotals
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8af0333d979ba3a4e12d4f22b1225f3b72d66a7a
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4ccd2c4ace41f07dce14498031e3cc29ecb61b1c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352106"
 ---
 # <a name="create-sales-orders"></a>创建销售订单
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 2. 单击“总计”。
     * 总计页面显示整个订单的详细信息。 这包括小计金额（最后单行折扣调整后所有行净额的总和）、总发票金额（最后订单折扣调整后的小计金额）、费用、销售税、客户信用额度情况和其他信息。  发票金额是显示在客户的发票单据上的金额。  
 3. 单击“确定”。
-
 

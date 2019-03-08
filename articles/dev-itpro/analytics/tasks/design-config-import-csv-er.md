@@ -1,13 +1,13 @@
---- 
-title: "设计 ER 配置以从 CSV 格式的外部文件导入数据"
-description: "使用此过程可以设计电子报告 (ER) 配置以从 CSV 格式的外部文件将数据导入 Dynamics 365 for Finance and Operations 应用的信息。"
+---
+title: 设计 ER 配置以从 CSV 格式的外部文件导入数据
+description: 使用此过程可以设计电子报告 (ER) 配置以从 CSV 格式的外部文件将数据导入 Dynamics 365 for Finance and Operations 应用程序。
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,25 +15,25 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 8d3ea3d797de154979eae112658cf05d1914feeb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365216"
 ---
 # <a name="design-er-configurations-to-import-data-from-external-csv-files"></a>设计 ER 配置以从 CSV 格式的外部文件导入数据
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-使用此过程可以设计电子报告 (ER) 配置以从 CSV 格式的外部文件将数据导入 Dynamics 365 for Finance and Operations 应用的信息。 在此过程中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成过程“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 
+使用此过程可以设计电子报告 (ER) 配置以从 CSV 格式的外部文件将数据导入 Dynamics 365 for Finance and Operations 应用程序。 在此过程中，将为示例公司 Litware 公司创建所需 ER 配置。若要完成这些步骤，您必须首先完成过程“ER 创建一个配置提供程序，并标记其为当前运行的”中的步骤。 
 
 此过程是为向其分配了系统管理员角色或电子申报开发人员角色的用户创建的。 可使用 USMF 数据集完成这些步骤。 
 
 还必须下载以下文件并保存到本地：(https://go.microsoft.com/fwlink/?linkid=862266): 1099model.xml、1099formatcsv.xml、1099entriescsv.csv。
 
 1. 转到“组织管理”>“工作区”>“电子申报”。
-    * 可配置将 XML、TXT 或 CSV 格式的外部文件导入到 Dynamics 365 for Finance and Operations 应用中的表中的过程。 首先，必须从业务角度创建一个抽象数据模型来代表导入的数据 – 为此创建 ER 数据模型配置。 接下来，将映射到设计的数据模型的导入文件结构定义为将数据从文件转移到抽象数据模型的方式 – 为此创建 ER 格式配置。 然后，必须使用新的模型映射扩展 ER 数据模型配置，该映射介绍导入文件的数据和抽象数据模型的永久性数据如何用于更新申请表或数据实体。  
+    * 您可以配置一个流程，以 XML、TXT 或 CSV 格式将外部文件导入 Dynamics 365 for Finance and Operations 应用程序的表中。 首先，必须从业务角度创建一个抽象数据模型来代表导入的数据 – 为此创建 ER 数据模型配置。 接下来，将映射到设计的数据模型的导入文件结构定义为将数据从文件转移到抽象数据模型的方式 – 为此创建 ER 格式配置。 然后，必须使用新的模型映射扩展 ER 数据模型配置，该映射介绍导入文件的数据和抽象数据模型的永久性数据如何用于更新申请表或数据实体。  
     * 以下步骤显示外部跟踪的供应商交易记录如何从外部 CSV 文件导入以便以后用于 1099 窗体的供应商结算。   
     * 验证示例公司 Litware 公司的配置提供程序可用且标记为有效。 如果没有看到此配置提供程序，您必须首先完成“创建配置提供程序并标记为有效”这一过程中的步骤。  
 2. 单击“申报配置”。
@@ -119,5 +119,4 @@ ms.lasthandoff: 08/08/2018
     * 检查 XML 格式的输出，该输出表示已从所选文件导入并移植到数据模型的数据。 请注意，导入的 CSV 文件的所有 7 行都被处理。 包含字段的标题行 1 已跳过，4 个交易已正确分析，2 个交易被识别为无效。   
 3. 关闭该页面。
 4. 关闭该页面。
-
 

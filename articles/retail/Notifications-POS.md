@@ -1,13 +1,13 @@
 ---
-title: "在销售点 (POS) 中显示订单通知"
-description: "此主题介绍如何在销售点和通知框架中启用订单通知。 最终，开发人员将可以将这些通知延伸到订单履行操作之外的操作。"
+title: 在销售点 (POS) 中显示订单通知
+description: 此主题介绍如何在销售点和通知框架中启用订单通知。 最终，开发人员将可以将这些通知延伸到订单履行操作之外的操作。
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 03/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailOperations, RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.search.industry: retail
 ms.author: ShalabhjainMSFT
 ms.search.validFrom: 2017-10-30
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 41f16d13051f6095bdb04af1586ec06fe0ce93f6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361329"
 ---
-
 # <a name="show-order-notifications-in-the-point-of-sale-pos"></a>在销售点 (POS) 中显示订单通知
 
 [!include [banner](includes/banner.md)]
@@ -72,4 +71,3 @@ POS 按钮现在可以显示计数以帮助工作人员轻松确定哪些任务�
 下图显示在**内容对齐**字段中选择**靠上右对齐**与**居中**对各种尺寸的按钮的影响。
 
 ![POS 按钮上的实时内容](./media/ButtonsWithLiveContent.png "POS 按钮上的实时内容")
-

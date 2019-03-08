@@ -1,13 +1,13 @@
 ---
-title: "针对采购订单的物料收货"
-description: "本主题介绍了用于将产品登记为已接收状态的各种选项。"
+title: 针对采购订单的物料收货
+description: 本主题介绍了用于将产品登记为已接收状态的各种选项。
 author: FrankDahl
 manager: AnnBe
 ms.date: 11/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 09432d278c51301f8b01fef8cbd3353af75a88f3
 ms.openlocfilehash: fea28da19c0aa1e9083091d0693404e0d8cb173c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356660"
 ---
-
 # <a name="product-receipt-against-purchase-orders"></a>针对采购订单的物料收货
 
 [!include [banner](../includes/banner.md)]
@@ -69,7 +68,6 @@ ms.lasthandoff: 12/04/2018
 [采购订单审核和确认](purchase-order-approval-confirmation.md)
 
 [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

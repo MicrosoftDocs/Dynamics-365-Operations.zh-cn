@@ -1,13 +1,13 @@
 ---
-title: "会计分配和供应商发票的子分类日记帐条目"
-description: "会计分配用于定义将如何对账金额，例如将如何对账普通发票中的收入、税金或费用。 普通发票已记入日记帐时，必须对账的每笔金额都将具有一个或多个会计分配。"
+title: 会计分配和供应商发票的子分类日记帐条目
+description: 会计分配用于定义将如何对账金额，例如将如何对账普通发票中的收入、税金或费用。 普通发票已记入日记帐时，必须对账的每笔金额都将具有一个或多个会计分配。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendEditInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f59eb2f61bc6bc887461683408b57c4672ce5bf1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 00550b4e3fa52108533c516d7ae1de0454c065ec
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351347"
 ---
-
 # <a name="accounting-distributions-and-subledger-journal-entries-for-vendor-invoices"></a>会计分配和供应商发票的子分类日记帐条目
 
 [!include [banner](../includes/banner.md)]
@@ -36,10 +35,10 @@ ms.lasthandoff: 11/03/2017
 -------------------------
 
 您可以使用“供应商发票”页中的以下按钮查看和修改普通发票的每笔金额的会计分配。
--   **“分摊金额”**– 查看和修改单独行和任何子行的会计分配，例如税金或费用。 您还可以直接从“销售税交易记录”页或“费用交易记录”页查看和修改子行的会计分配。
+-   **分摊金额**– 查看和修改单独行和任何子行的会计分配，例如税金或费用。 您还可以直接从“销售税交易记录”页或“费用交易记录”页查看和修改子行的会计分配。
     -   修改普通发票抬头金额，如费用或币种整金额。
     -   修改供应商发票行金额。
--   **“查看分配”** – 查看文档中所有行的会计分配。 您无法从此视图修改会计分配。
+-   **查看分配** – 查看文档中所有行的会计分配。 您无法从此视图修改会计分配。
     -   查看标题和单行金额。
 
 如果供应商发票参考采购订单，才能拆分和修改包含一个物料未库存行的会计分配。 如果供应商发票行不参考采购订单行，还可以删除会计分配。 您不能拆分或删除费用、税和单行折扣行。 您可以修改会计科目，不过，您不能更改金额或百分比。
@@ -246,7 +245,6 @@ ms.lasthandoff: 11/03/2017
 将普通发票过帐前，您可以查看发票的完整的会计条目，包括借方和贷方，以验证发票已过帐到正确的账户。 完整的会计条目的此视图称作子分类日记账。 
 
 如果子分类日记账条目不正确，在预览后，分录普通发票前，您无法修改子分类日记账条目。 相反，您必须修改会计分配或过帐模板。 会计分配用于定义会计条目、借方或贷方的这一侧。 抵销子分类日记帐科目分录从过帐模板创建，如从客户帐户或税金。
-
 
 
 

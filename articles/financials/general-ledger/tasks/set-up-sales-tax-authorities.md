@@ -1,13 +1,13 @@
---- 
-title: "设置增值税主管机构"
-description: "销售税主管机构是收缴需要申报和缴纳的销售税的实体。"
+---
+title: 设置增值税主管机构
+description: 销售税主管机构是收缴需要申报和缴纳的销售税的实体。
 author: twheeloc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxAuthority
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 909433a04c1185039938f6233b30c235e7b8ed8b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f75ee28343161026a73dd889b345d65ecc345884
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366343"
 ---
 # <a name="set-up-sales-tax-authorities"></a>设置增值税主管机构
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/29/2017
 9. 在舍入表格和“舍入”字段中输入数字，以指定支付的总税额如何舍入。 所有舍入差额将过帐到总帐中设置的自动交易记录的帐户。
 10. 在“舍入”字段中，输入一个数字。
 11. 单击“保存”。
-
 

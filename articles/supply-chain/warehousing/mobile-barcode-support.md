@@ -1,13 +1,13 @@
 ---
-title: "移动条码支持"
-description: "此主题介绍如何在 Android 兼容设备上处理仓库移动扫描应用。"
+title: 移动条码支持
+description: 此主题介绍如何在 Android 兼容设备上处理仓库移动扫描应用。
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BarcodeSetup
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: Mirzaab
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85afddb34f29e13e17f2b93bb2633183a78e31f7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 05f00bfbe7ef1dfce58b242d4defa925649e1dae
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360225"
 ---
-
 # <a name="mobile-bar-code-support"></a>移动条码支持
 
 [!include [banner](../includes/banner.md)]
@@ -35,5 +34,4 @@ ms.lasthandoff: 11/03/2017
 适用于 Microsoft Dynamics 365 for Finance and Operations 的仓库应用已使用选定的 Android 支持设备针对条码扫描进行了测试。 这些测试仅覆盖市场上在售的设备样品。
 
 作为客户，我们建议在您决定要购买硬件之前，在选定的硬件上对仓库移动扫描应用进行测试。
-
 

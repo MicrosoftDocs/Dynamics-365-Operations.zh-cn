@@ -1,13 +1,13 @@
 ---
-title: "增值税客户发票的中国税务集成修改常见问题"
-description: "您可以生成增值税 (VAT) 客户发票，然后以文本文件导出。 接下来，您可以导入可与原始发票关联的增值税客户发票的参考编号。"
+title: 增值税客户发票的中国税务集成修改常见问题
+description: 您可以生成增值税 (VAT) 客户发票，然后以文本文件导出。 接下来，您可以导入可与原始发票关联的增值税客户发票的参考编号。
 author: mrolecki
 manager: AnnBe
 ms.date: 05/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, VATInvoiceDescTable_CN, TaxProfileTable_CN
 audience: Application User
 ms.reviewer: shylaw
@@ -17,14 +17,13 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 3c4beb43bebc02dfbf806370f3c8bf9aec74c82f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371889"
 ---
-
 # <a name="chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a>增值税客户发票的中国税务集成修改常见问题
 
 [!include [banner](../includes/banner.md)]
@@ -85,7 +84,6 @@ ms.lasthandoff: 08/08/2018
 [配置中国的税务集成](apac-chn-tax-integration.md)
 
 [导入中国金税数据实体](apac-chn-import-golden-tax-data-entity.md)
-
 
 
 

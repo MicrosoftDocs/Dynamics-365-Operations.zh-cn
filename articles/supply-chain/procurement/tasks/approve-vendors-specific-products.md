@@ -1,13 +1,13 @@
---- 
-title: "审核特定产品的供应商"
-description: "此过程显示如何审核特定产品的供应商。"
+---
+title: 审核特定产品的供应商
+description: 此过程显示如何审核特定产品的供应商。
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, PdsApprovedVendorList, VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8f2cd1badb0b924150ab51ef2efc049e6666562a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ffc58d2afe73fa2290e4e73a058d47ffd64b8d54
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360110"
 ---
 # <a name="approve-vendors-for-specific-products"></a>审核特定产品的供应商
 
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/29/2017
 30. 单击“按供应商显示的核准供应商列表”。
 31. 关闭该页面。
 32. 关闭该页面。
-
 

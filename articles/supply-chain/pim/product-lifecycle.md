@@ -1,32 +1,31 @@
 ---
-title: "产品生命周期状态"
-description: "产品生命周期状态记载已发布产品或产品变型的生命周期状态。"
+title: 产品生命周期状态
+description: 产品生命周期状态记载已发布产品或产品变型的生命周期状态。
 author: cvocph
 manager: AnnBe
 ms.date: 12/08/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductLifecycleState, EcoResReleasedProductLifecycleStateChanges
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
+ms.openlocfilehash: bf9e8fe828cae0f643bfb89c34f1d545e3993619
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 236b0253f20330f09f07dbcfa19257350fb5d37f
-ms.openlocfilehash: 8ef72de3f226a3270ac0145a20e4da7dfe64f4ba
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364825"
 ---
-
 # <a name="product-lifecycle-state"></a>产品生命周期状态 
 
 [!include [banner](../includes/banner.md)]
@@ -110,8 +109,7 @@ ms.lasthandoff: 02/08/2018
 
 -  [创建新产品生命周期状态（任务指南）](tasks/new-product-lifecycle-state.md)
 -  [创建默认产品生命周期状态（任务指南）](tasks/default-product-lifecycle-state.md)
--  [对已发布的基础产品分配产品生命周期状态（任务指南）](tasks/product-lifecycle-state-released-product-master.md)
+-  [为已发布的基础产品分配产品生命周期状态（任务指南）](tasks/product-lifecycle-state-released-product-master.md)
 -  [对已发布的产品分配产品生命周期状态（任务指南）](tasks/product-lifecycle-state-released-product.md)
 -  [查找过时的产品变型并分配产品生命周期状态（任务指南）](tasks/obsolete-product-variants.md)
 -  [创建产品生命周期状态以从主计划中排除产品（任务指南）](tasks/exclude-products-master-planning.md)
-

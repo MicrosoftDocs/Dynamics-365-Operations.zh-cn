@@ -1,13 +1,13 @@
 ---
-title: "费用报销管理中的增值税退税"
-description: "此主题介绍如何接收符合条件的增值税 (VAT) 交易记录的退税。"
+title: 费用报销管理中的增值税退税
+description: 此主题介绍如何接收符合条件的增值税 (VAT) 交易记录的退税。
 author: saraschi2
 manager: AnnBe
 ms.date: 02/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPerDiems
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8bc9e533de40aa8fe8ddfe422cfe0f4078a360c7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 25fa39dc81fc721d7593a25a102ce47041ebc5f0
-ms.openlocfilehash: d1c9357f8f51e1a87aebeb8f802dbe3b5fdd5aa0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359558"
 ---
-
 # <a name="vat-recovery-in-expense-management"></a>费用报销管理中的增值税退税
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ Arnie 是 Contoso 的后勤办公室处理团队的成员，负责确认所有�
 Arnie 必须验证支出报表交易记录满足增值税的条件，并且报表附加了数字收据。 为了开始处理国内退税的合理费用，Arnie 打开**费用退税**页并选择需要验证的支出报表。 他验证收据是以公司而不是员工的名义开出的。 增值税退税的收据必须以公司的名义。 Arnie 然后确认应用了正确的增值税组和增值税（物料）代码。
 
 Arnie 收到纸质收据时，将支出报表的状态更改为**准备退税**。 然后向相应的税务机构申请退税。 在这种情况下，在美国的相应的税务机构是美国国税局 (IRS)。
-

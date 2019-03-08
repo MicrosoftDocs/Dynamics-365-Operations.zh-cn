@@ -1,13 +1,13 @@
 ---
-title: "固定资产交易记录选项"
-description: "本文介绍可用来创建固定资产交易记录的不同方法。"
+title: 固定资产交易记录选项
+description: 本主题介绍可用来创建固定资产交易记录的不同方法。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, PurchCreateOrder
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 18352ad921c2e2d110a7535f979272685105662f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377174"
 ---
-
 # <a name="fixed-asset-transaction-options"></a>固定资产交易记录选项
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍可用来创建固定资产交易记录的不同方法。
+本主题介绍可用来创建固定资产交易记录的不同方法。
 
 您可以使用应收账款、应付账款、采购和源，以及总帐设置集成的固定资产。 如果您要在内部使用这些物料，您还可以将库存管理中的物料转移到固定资产。
 
@@ -63,12 +62,9 @@ ms.lasthandoff: 11/03/2017
 |                                     | 总帐           | 普通日记帐                           |
 | 处置                            | 固定资产             | 固定资产                              |
 | ** **                               | 总帐           | 普通日记帐                           |
-| ** **                               | 应收账款      | 普通发票                         |
+| ** **                               | 应收帐款      | 普通发票                         |
 
 
+固定资产的折旧期间剩余值在通过数据实体手动创建或导入折旧交易记录类型日记帐行时不更新。 在折旧方案流程用于创建日记帐行时，此值将更新。
 
 有关详细信息，请参阅[固定资产集成](fixed-asset-integration.md)。
-
-
-
-

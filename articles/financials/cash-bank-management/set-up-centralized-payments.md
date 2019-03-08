@@ -1,13 +1,13 @@
 ---
-title: "设置集中的付款"
-description: "按照以下步骤可以代表您的组织中的其他法人准备一个法人的处理付款。"
+title: 设置集中的付款
+description: 按照以下步骤可以代表您的组织中的其他法人准备一个法人的处理付款。
 author: kweekley
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bb0769d605b831da09046a1e7bf0c2a704dba398
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 2e309655bbc1d0fe7a088062b90fab34c642ab29
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361904"
 ---
-
 # <a name="set-up-centralized-payments"></a>设置集中的付款
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="set-up-default-descriptions"></a>设置默认描述
 您可为内部公司结算凭证定义默认描述。 该默认描述包括在跨公司结算过程中的应付和应收交易记录上。 在**默认描述**页上，您可以为**内部公司客户结算**和**内部公司供应商结算**创建新的描述，方法是通过选择语言然后输入文本。
-
 
 
 

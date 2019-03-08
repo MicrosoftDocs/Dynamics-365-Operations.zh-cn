@@ -1,13 +1,13 @@
 ---
-title: "新增功能或更改功能"
-description: "此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations 最新版本的新功能的主题。"
+title: 新增功能或更改功能
+description: 此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations 最新版本的新功能的主题。
 author: josaw1
 manager: AnnBe
-ms.date: 12/05/2018
+ms.date: 02/07/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
+ms.openlocfilehash: 982b72b3fd71d58038218e007f9f3790874ceddc
+ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
 ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
-ms.openlocfilehash: 7d2a334792655a762c136a367c43ad56393001f5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/07/2019
+ms.locfileid: "377197"
 ---
-
 # <a name="whats-new-or-changed"></a>新增功能或更改的功能
 
 [!include [banner](../includes/banner.md)]
 
-此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise 版本最新版本的新功能的主题。
+此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise edition 最新版本的新功能的主题。
 
 有关升级到最新版本的信息，请参阅 [升级到最新更新的流程](../../dev-itpro/migration-upgrade/upgrade-latest-update.md)。
 
@@ -44,7 +43,7 @@ ms.lasthandoff: 12/18/2018
 <table>
 <thead>
 <tr>
-<th>版本</th>
+<th>下达</th>
 <th>版本</th>
 <th>内部版本号</th>
 <th>可用性</th>
@@ -52,6 +51,13 @@ ms.lasthandoff: 12/18/2018
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0</td>
+<td>10.0.8</td>
+<td>2019 年 4 月</td>
+<td><a href="whats-new-changed-10.md">Dynamics 365 for Finance and Operations 版本 10.0（2019 年 4 月）中的新增功能或更改内容</a></td>
+</tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>8.1.3</td>
@@ -88,18 +94,18 @@ ms.lasthandoff: 12/18/2018
 <td><a href="whats-new-changed-8-0-April-2018.md">Dynamics 365 for Finance and Operations 版本 8.0（2018 年 4 月）中的新增功能或更改内容</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise edition</td>
 <td>7.3</td>
 <td>7.3.11971.56116</td>
 <td>2017 年 12 月</td>
-<td><a href="whats-new-application-7.3-update.md">Dynamics 365 for Finance and Operations Enterprise Edition 7.3 中的新增或更改内容</a></td>
+<td><a href="whats-new-application-7.3-update.md">Dynamics 365 for Finance and Operations Enterprise edition 7.3 中的新增功能或更改内容</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise edition</td>
 <td>2017 年 7 月</td>
 <td>7.2.11792.56024</td>
 <td>2017 年 6 月</td>
-<td><a href="whats-new-application-July-2017-update.md">Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）中的新增或更改内容</a></td>
+<td><a href="whats-new-application-July-2017-update.md">Dynamics 365 for Finance and Operations Enterprise edition（2017 年 7 月）中的新增功能或更改内容</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Operations</td>
@@ -140,73 +146,80 @@ ms.lasthandoff: 12/18/2018
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>平台 update 24</td>
+<td>7.0.5179</td>
+<td>2019 年 3 月</td>
+<td><a href="whats-new-platform-update-24.md">Dynamics 365 for Finance and Operations 平台更新 24（2019 年 3 月）的新增功能和更改内容</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>平台 update 23</td>
 <td>7.0.5126</td>
 <td>2019 年 1 月</td>
-<td><a href="whats-new-platform-update-23.md">Dynamics 365 for Finance and Operations 平台更新 23（2019 年 1 月）的新增或更改内容</a></td>
+<td><a href="whats-new-platform-update-23.md">Dynamics 365 for Finance and Operations 平台更新 23（2019 年 1 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>平台 update 22</td>
 <td>7.0.5095</td>
 <td>2018 年 12 月</td>
-<td><a href="whats-new-platform-update-22.md">Dynamics 365 for Finance and Operations 平台更新 22（2018 年 12 月）的新增或更改内容</a></td>
+<td><a href="whats-new-platform-update-22.md">Dynamics 365 for Finance and Operations 平台更新 22（2018 年 12 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>平台 update 21</td>
 <td>7.0.5073</td>
-<td>2018 年 10 月</td>
-<td><a href="whats-new-platform-update-21.md">Dynamics 365 for Finance and Operations 平台更新 21（2018 年 10 月）的新增或更改内容</a></td>
+<td>2018 年 11 月</td>
+<td><a href="whats-new-platform-update-21.md">Dynamics 365 for Finance and Operations 平台更新 21（2018 年 11 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>平台 update 20</td>
 <td>7.0.5030</td>
 <td>2018 年 9 月</td>
-<td><a href="whats-new-platform-update-20.md">Dynamics 365 for Finance and Operations 平台更新 20（2018 年 9 月）的新增或更改内容</a></td>
+<td><a href="whats-new-platform-update-20.md">Dynamics 365 for Finance and Operations 平台更新 20（2018 年 9 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise edition</td>
 <td>平台 update 15</td>
 <td>7.0.4841</td>
 <td>2018 年 3 月</td>
-<td><a href="whats-new-platform-update-15.md">Dynamics 365 for Finance and Operations Enterprise Edition 平台更新 15（2018 年 3 月）的新增或更改内容</a></td>
+<td><a href="whats-new-platform-update-15.md">Dynamics 365 for Finance and Operations Enterprise edition 平台更新 15（2018 年 3 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise edition</td>
 <td>平台 update 12</td>
 <td>7.0.4709</td>
 <td>2017 年 11 月</td>
-<td><a href="whats-new-platform-update-12.md">Dynamics 365 for Finance and Operations Enterprise Edition 平台更新 12（2017 年 11 月）的新增或更改内容</a></td>
+<td><a href="whats-new-platform-update-12.md">Dynamics 365 for Finance and Operations Enterprise edition 平台更新 12（2017 年 11 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise edition</td>
 <td>平台 update 11</td>
 <td>7.0.4679.35176</td>
 <td>2017 年 10 月</td>
-<td><a href="whats-new-platform-update-11.md">Dynamics 365 for Finance and Operations Enterprise Edition 平台更新 11（2017 年 10 月）的新增或更改内容</a></td>
+<td><a href="whats-new-platform-update-11.md">Dynamics 365 for Finance and Operations Enterprise edition 平台更新 11（2017 年 10 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise edition</td>
 <td>平台 update 10</td>
 <td>7.0.4641.16233</td>
 <td>2017 年 8 月</td>
-<td><a href="whats-new-platform-update-10.md">Dynamics 365 for Finance and Operations Enterprise Edition 平台更新 10（2017 年 8 月）的新增或更改内容</a></td>
+<td><a href="whats-new-platform-update-10.md">Dynamics 365 for Finance and Operations Enterprise edition 平台更新 10（2017 年 8 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise edition</td>
 <td>平台 update 9</td>
 <td>7.0.4612.35162</td>
 <td>2017 年 7 月</td>
-<td><a href="whats-new-platform-update-9.md">Dynamics 365 for Finance and Operations Enterprise edition 平台更新 9（2017 年 7 月）的新增或更改内容</a></td>
+<td><a href="whats-new-platform-update-9.md">Dynamics 365 for Finance and Operations Enterprise edition 平台更新 9（2017 年 7 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
-<td>Microsoft Dynamics 365 for Finance and Operations, Enterprise edition</td>
+<td>Microsoft Dynamics 365 for Finance and Operations Enterprise edition</td>
 <td>平台 update 8</td>
 <td>7.0.4565.16212</td>
 <td>2017 年 6 月</td>
-<td><a href="whats-new-platform-update-8.md">Dynamics 365 for Finance and Operations Enterprise edition 平台更新 8（2017 年 6 月）的新增或更改内容</a></td>
+<td><a href="whats-new-platform-update-8.md">Dynamics 365 for Finance and Operations Enterprise edition 平台更新 8（2017 年 6 月）的新增功能和更改内容</a></td>
 </tr>
 <tr>
 <td>Microsoft Dynamics 365 for Operations</td>
@@ -266,4 +279,3 @@ ms.lasthandoff: 12/18/2018
 </tr>
 </tbody>
 </table>
-

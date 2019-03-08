@@ -1,31 +1,30 @@
 ---
-title: "预订销售价"
-description: "在您创建某一预订时，销售价将从在“销售价(预订)”窗体中创建的销售价设置中导出。"
+title: 预订销售价
+description: 在您创建某一预订时，销售价将从在“销售价(预订)”窗体中创建的销售价设置中导出。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMASalespriceSubscription
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5e18690f7e9b790ecbd0ac0de1955fc95ab1f082
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: d9d462121915ce3f800581a9540dc1ef8f6e785f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352152"
 ---
-
 # <a name="subscription-sales-prices"></a>预订销售价   
 
 [!include [banner](../includes/banner.md)]
@@ -379,6 +378,5 @@ ms.lasthandoff: 05/08/2018
 [对预订销售价进行更新并编制索引](update-and-index-subscription-sales-prices.md)
 
   
-
 
 

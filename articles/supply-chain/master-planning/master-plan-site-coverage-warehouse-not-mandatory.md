@@ -1,13 +1,13 @@
 ---
-title: "站点覆盖范围的主计划，仓库非必需"
-description: "此主题介绍如何计划为覆盖范围设置站点维度的物料。"
+title: 站点覆盖范围的主计划，仓库非必需
+description: 此主题介绍如何计划为覆盖范围设置站点维度的物料。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResStorageDimensionGroup, ReqItemTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 9475a7fbe40d7feb60c23e0d7164222469dffa75
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 0b97f5f9a9a1447027e55d6c6b30253506caff70
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353923"
 ---
-
 # <a name="master-planning-for-site-coverage-warehouse-not-mandatory"></a>站点覆盖范围的主计划，仓库非必需
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ ms.lasthandoff: 05/08/2018
 [主计划 - 站点和仓库覆盖范围，仓库是必需的](master-plan-site-warehouse-coverage-warehouse-mandatory.md)
 
 [主计划 - 如何确定物料清单版本](master-plan-bom-version-determined.md)
-
 
 
 

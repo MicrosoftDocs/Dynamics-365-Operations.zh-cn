@@ -1,13 +1,13 @@
 ---
-title: "使用部门、工作和职位组织您的劳动力"
-description: "部门、作业和职位在人力资源中维护的组织元素。 本主题介绍有关这些元素的概念信息。"
+title: 使用部门、工作和职位组织您的劳动力
+description: 部门、作业和职位在人力资源中维护的组织元素。 本主题介绍有关这些元素的概念信息。
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob, HcmPosition, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,19 +18,17 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 8b74542b85810409e062a42e323c0527711d562f
+ms.sourcegitcommit: 49a642cd5e0519e381ff558f59c993ee77f55108
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: b2a79c42b67621272af8107661202ea2ce092193
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/04/2019
+ms.locfileid: "374389"
 ---
-
 # <a name="organize-your-workforce-by-using-departments-jobs-and-positions"></a>使用部门、工作和职位组织您的劳动力
 
 [!include [banner](includes/banner.md)]
 
-[!include [retail name](includes/retail-name.md)]
 
 部门、作业和职位在人力资源中维护的组织元素。 本主题介绍有关这些元素的概念信息。 
 
@@ -165,7 +163,6 @@ ms.lasthandoff: 08/08/2018
 </table>
 
 您可修改针对职位和作业的前一表中提及的信息，并指定对职位或作业进行的修改的生效日期。 例如，职位只能分配给一名工作人员，但分配到会计师-A 的 Sanjay Patel 将在两周内离职。 Joe Healy 将在 Sanjay Patel 离职时代替其职位。 即使 Sanjay 仍分配到他的位置，您仍可以将 Joe Healy 分配到同一个位置，以便分配仅在 Sanjay 的最后一天后生效。
-
 
 
 

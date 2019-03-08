@@ -1,13 +1,13 @@
 ---
-title: "包括实际成本"
-description: "您使用“物料模型组”页的“库存模型”选项卡上的“包括实际成本”复选框来指定在为物料计算移动平均成本价时是否考虑了实际更新的交易记录。"
+title: 包括实际成本
+description: 您使用“物料模型组”页的“库存模型”选项卡上的“包括实际成本”复选框来指定在为物料计算移动平均成本价时是否考虑了实际更新的交易记录。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventModelGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e96d5e2a658a027d66663868329cf4eedcb1d46f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4ea8fe31588dd0768e0651c9e1e332212a00cde2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357304"
 ---
-
 # <a name="include-physical-value"></a>包括实际成本
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,6 @@ ms.lasthandoff: 11/03/2017
 -   数量为 3 且成本价为 USD 12.00 的采购订单已更新发票。
 
 在此示例中，移动平均成本价将是 USD 11.20，因为物理更新的交易记录和财务更新的交易记录都用于计算该成本价。 **示例 2**您未选中**包括实际成本**复选框，物料设置的成本价是 USD 10.00。 您收到已更新装箱单的数量为 20 且成本价为 USD 12.00 的采购订单。 当过账销售订单时，过账的成本金额为 USD 10.00，因为移动平均成本价将不包括实际过账的交易记录。 **注意：** 对于比较，如果为此物料选中**包括实际成本**复选框，在过帐某一销售订单时，过帐的成本金额将是 USD 12.00。
-
 
 
 

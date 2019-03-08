@@ -1,31 +1,30 @@
 ---
-title: "服务间隔"
-description: "服务间隔指示在您创建服务订单时为服务协议行创建服务订单行所采用的频率。"
+title: 服务间隔
+description: 服务间隔指示在您创建服务订单时为服务协议行创建服务订单行所采用的频率。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10078cbd02209126e9655b823fcf844b692a4794
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 4ea10e4c0fbfd21538bba16d2b01deb3e4b3a10d
-ms.openlocfilehash: 4a51a3c3483e81cefdaf3d8e62a4f1f47fcd706b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/20/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352934"
 ---
-
 # <a name="service-intervals"></a>服务间隔
 
 [!include [banner](../includes/banner.md)]
@@ -83,7 +82,7 @@ ms.lasthandoff: 02/20/2018
 1. 在**服务协议**页面**操作窗格**上的**交付**选项卡中，单击**计划服务订单**。
 2. 在**创建服务订单**页面中，在**开始日期**字段中输入当前日期，在**结束日期**字段中输入距离当前日期一个月的日期。
 3. 将**工时**滑块设置为**是**。 
-4. 单击“确定”。
+4. 单击**确定**。
 
 因为不存在针对服务订单的分组（由**合并服务订单**字段中的**按服务协议**选项定义），所以，为每个服务订单创建一个服务订单行。
 
@@ -94,5 +93,4 @@ ms.lasthandoff: 02/20/2018
 ## <a name="related-topics"></a>相关主题
 
 [设置服务间隔](set-up-service-intervals.md)  
-
 

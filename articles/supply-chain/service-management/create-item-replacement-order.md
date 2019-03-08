@@ -1,30 +1,29 @@
 ---
-title: "创建物料更换单"
-description: "在退回和检查产品后，通常创建物料更换单。"
+title: 创建物料更换单
+description: 在退回和检查产品后，通常创建物料更换单。
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 784a2522c27e8131f211ffc52319552b3b928cc3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f0cd629658972f98e2233dfa287940c4444b82a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355004"
 ---
-
 # <a name="create-an-item-replacement-order"></a>创建物料更换单 
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,7 @@ ms.lasthandoff: 05/08/2018
 
 1.  单击**销售和市场营销** \> **通用** \> **退货单** \> **所有退货单**。
 
-2.  创建新的退货单，或从列表中选择退货单以打开**退货单 - 物料退回授权号: %1、%2** 窗体。
+2.  创建新的退货单，或从列表中选择退货订单以打开**退货单 - 物料退回授权号: %1、%2** 窗体。
 
 3.  如果您要标识已退回物料的销售订单，请单击**查找销售订单**。 完成**查找销售订单**窗体，然后单击**确定**以关闭该窗体并回到**退货单 - 物料退回授权号: %1、%2** 窗体。 已退回物料的销售订单行复制到退货单。
 
@@ -66,6 +65,5 @@ ms.lasthandoff: 05/08/2018
     
     如果销售协议的标识符将自动显示在**销售协议 ID** 字段中，则销售协议已与物料更换单的销售订单标题关联。 如果销售协议中存在尚未履行的承诺，并且销售订单在销售协议过期之前创建，则关联在销售协议行和销售订单行之间建立。 因此，销售协议中的信息（如，物料价格）复制到新的销售订单行。 
   
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "SEPA 贷方转帐概览"
-description: "此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。 SEPA 贷方转帐是从一个公司或个人到另一个公司或个人的一种特定类型的付款（用欧元）。 本主题还讨论如何设置和传输贷方转帐付款文件。"
+title: SEPA 贷方转帐概览
+description: 此主题提供有关 ISO 20022 贷方转帐（包括单一欧元支付区 (SEPA) 贷方转帐和针对供应商的其他任何电子付款）的一般信息。 SEPA 贷方转帐是从一个公司或个人到另一个公司或个人的一种特定类型的付款（用欧元）。 本主题还讨论如何设置和传输贷方转帐付款文件。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendInvoice, LedgerJournalTransVendPaym, VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d6081c12ea65812a15b50c627330b4566ab4c679
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 1aa70dea3b0e7056afbdba96f4475c3e7e71f57c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363767"
 ---
-
 # <a name="sepa-credit-transfer-overview"></a>SEPA 贷方转帐概览
 
 [!include [banner](../includes/banner.md)]
@@ -106,7 +105,7 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 </tr>
 <tr class="even">
 <td>打印出席单</td>
-<td>选中此复选框可打印<strong>“出席单”</strong>报表。</td>
+<td>选中此复选框可打印<strong>出席单</strong>报表。</td>
 </tr>
 <tr class="odd">
 <td>打印控制报表</td>
@@ -114,7 +113,7 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 </tr>
 <tr class="even">
 <td>打印随函</td>
-<td>选中此复选框可打印<strong>“付款通知”</strong>报表。</td>
+<td>选中此复选框可打印<strong>付款通知</strong>报表。</td>
 </tr>
 </tbody>
 </table>
@@ -124,7 +123,6 @@ SEPA 贷方转帐是从一个公司或个人付款到另一个公司或个人。
 
 ## <a name="how-do-i-transmit-a-payment-file-to-the-bank"></a>如何将付款文件发送到银行？
 在您生成付款时，将生成付款文件，并且，系统会请求您从 Web 浏览器中将其保存到任何可用的位置。 下一步是将该 XML 文件发送到您的银行。 此流程根据银行的不同而变。 按照您的银行的说明将文件提交给银行以进行处理。
-
 
 
 

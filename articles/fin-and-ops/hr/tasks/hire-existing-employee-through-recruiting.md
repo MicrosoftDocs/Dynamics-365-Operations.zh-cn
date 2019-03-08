@@ -1,13 +1,13 @@
---- 
-title: "通过招聘雇用现有员工"
-description: "开放职位有时可由公司内的员工作为职位候选人。"
+---
+title: 通过招聘雇用现有员工
+description: 开放职位有时可由公司内的员工作为职位候选人。
 author: rschloma
 manager: AnnBe
 ms.date: 02/10/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
 ms.openlocfilehash: 71793ce48142b19b288e2315dcd44a07d8e39f90
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365377"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>通过招聘雇用现有员工
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 08/08/2018
 8. 或者您可以选择原因代码。 示例：重新组织
 9. 单击“变更职位”。
     * 您这时还可更改薪酬。 如果您这时不分配薪酬，您可以转到工作人员表格，选择“薪酬”选项卡，然后选择“固定计划”来进行更改。 在选择“变更职位”后，申请表的状态会更新为“已雇用”。  
-
 

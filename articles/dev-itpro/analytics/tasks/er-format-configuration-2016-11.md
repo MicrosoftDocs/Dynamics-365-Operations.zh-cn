@@ -1,13 +1,13 @@
---- 
-title: "ER 创建格式配置（2016 年 11 月）"
-description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。"
+---
+title: ER 创建格式配置（2016 年 11 月）
+description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何创建电子报表 (ER) 的格式配置。
 author: NickSelin
 manager: AnnBe
 ms.date: 11/27/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERSolutionCreateDropDialog, EROperationDesigner, ERComponentTypeDropDialog
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 582e1a2baee805fe6770465edc7958954f638f1c
+ms.sourcegitcommit: 29e19b6d91e5761178627ef2051f3385f5d7cfe5
 ms.translationtype: HT
-ms.sourcegitcommit: 13469aad7fdcefb3a1706eec0527f29968e007eb
-ms.openlocfilehash: 10511fe5b936135471b522fc7152a54686a3be87
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/08/2019
+ms.locfileid: "377541"
 ---
 # <a name="er-create-a-format-configuration-november-2016"></a>ER 创建格式配置（2016 年 11 月）
 
@@ -35,8 +35,10 @@ ms.lasthandoff: 12/18/2018
 2. 单击**申报配置**。
 3. 在树结构中，选择**付款（简化模型）**。
 4. 单击**创建配置**，以打开下拉对话框。
+
  > [!NOTE]
  > 如果您没有看到**创建配置**，您必须在**电子申报参数**页启用设计模式。 
+ 
 5. 在**新建**字段中，输入**基于数据模型付款模型的格式**。
 6. 在**名称**字段中，键入**银行自动对帐系统（英国虚构）**。
 7. 在**描述**字段中，键入**银行自动对帐系统供应商付款格式（英国虚拟）**。
@@ -44,9 +46,6 @@ ms.lasthandoff: 12/18/2018
     * 电子文档的特定格式可进行定义。 如果您想要选择运行时间的格式，则将此字段保留为空。  
 8. 在**数据模型定义**字段中，输入或选择一个值。
 9. 单击**创建配置**。 已创建新的配置。 草稿版本可用于存储用于管理电子文档的设计格式。  
- > [!NOTE]
- > 如果您没有看到**创建配置**，您必须在**电子申报参数**页启用设计模式。
-
 
 ## <a name="design-the-format-of-an-electronic-document"></a>设计电子单据的格式
 1. 单击**设计器**。
@@ -159,5 +158,4 @@ ms.lasthandoff: 12/18/2018
 41. 单击**确定**。
 42. 单击**保存**。
 43. 关闭该页面。
-
 

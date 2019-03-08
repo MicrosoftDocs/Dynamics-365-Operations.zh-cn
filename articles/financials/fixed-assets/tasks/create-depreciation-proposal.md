@@ -1,13 +1,13 @@
 ---
-title: "创建折旧方案"
-description: "本程序描述了批处理折旧方案的工作原理，并说明了如何为固定资产建议折旧方案。"
+title: 创建折旧方案
+description: 本程序描述了批处理折旧方案的工作原理，并说明了如何为固定资产建议折旧方案。
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, LedgerJournalTransAsset
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: d11554ee5f26ef5a85e799194d2f75757a31c254
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361283"
 ---
-
 # <a name="create-depreciation-proposal"></a>创建折旧方案
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -47,5 +46,4 @@ ms.lasthandoff: 09/14/2018
 2. 在列表中，找到并选择所需记录。
 3. 单击“行”。
 4. 单击“过帐”。
-
 

@@ -1,28 +1,27 @@
 ---
-title: "电子消息"
-description: "此主题提供 Microsoft Dynamics 365 for Finance and Operations 中电子消息的概述和设置信息。"
+title: 电子消息
+description: 此主题提供 Microsoft Dynamics 365 for Finance and Operations 中电子消息的概述和设置信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2018-10-28
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 232398a6c4193d0074881e26fff361deb9784bf2
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 082ad886f40a52457900523f44158da3ed939458
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357925"
 ---
-
 # <a name="electronic-messaging"></a>电子消息
 
 [!include [banner](../includes/banner.md)]
@@ -452,4 +451,3 @@ Finance and Operations 中的电子消息功能支持在 Finance and Operations 
 ![更新消息状态](media/update-status.png)
 
 消息状态更新为**已准备**，现在，您可以通过选择**生成报表**生成报表。 将生成报表，消息状态和操作日志将更新。 若要查看生成的报表，请选择操作窗格上的**附件**按钮。
-

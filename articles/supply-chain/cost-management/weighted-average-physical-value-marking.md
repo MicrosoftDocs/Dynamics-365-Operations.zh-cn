@@ -1,13 +1,13 @@
 ---
-title: "具有实际成本和标记的加权平均"
-description: "加权平均是基于加权平均原则的一种库存模型，其中，按照在库存结转期间入库物料的平均值加上前一期间的所有现有库存量，计算库存发货量。"
+title: 具有实际成本和标记的加权平均
+description: 加权平均是基于加权平均原则的一种库存模型，其中，按照在库存结转期间入库物料的平均值加上前一期间的所有现有库存量，计算库存发货量。
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc70b9cffd8716bc1d90cdb611076b4fc0bf6b30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: ec7f1ef643d864a2729642d78d19fc43d5f6a7fb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355671"
 ---
-
 # <a name="weighted-average-with-physical-value-and-marking"></a>具有实际成本和标记的加权平均
 
 [!include [banner](../includes/banner.md)]
@@ -228,7 +227,6 @@ ms.lasthandoff: 04/13/2018
 - 每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
 - 库存结转用红色的垂直虚线以及“库存结转”标签表示。
 - 由库存结转执行的结算用红色虚线箭头（沿对角方向从收货指向发货）表示。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "职位预算编制疑难解答"
-description: "本文提供对配置职位预算时可能有的问题的解答。 其定位关于如何创建预算成本要素、薪酬组和薪酬网格的常见问题。"
+title: 职位预算编制疑难解答
+description: 本文提供对配置职位预算时可能有的问题的解答。 其定位关于如何创建预算成本要素、薪酬组和薪酬网格的常见问题。
 author: ryansandness
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBudgetPurposeType, HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0800a4a7c92a1a5f4d4f66bb37032eacccc4cb4e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f2ef04008a5e6339a2193f9fcc77f2e0e6643557
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367102"
 ---
-
 # <a name="position-budgeting-troubleshooting"></a>职位预算编制疑难解答
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,6 @@ ms.lasthandoff: 11/03/2017
 -   职位的激活和报废日期。
 -   预算成本要素的激活日期和到期日期。
 -   与预测职位的预算计划流程相关的预算周期的开始日期和结束日期。
-
 
 
 

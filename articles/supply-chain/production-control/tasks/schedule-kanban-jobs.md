@@ -1,13 +1,13 @@
---- 
-title: "计划看板作业"
-description: "此程序是为特定工作单元调度处理看板作业而设计的。"
+---
+title: 计划看板作业
+description: 此程序是为特定工作单元调度处理看板作业而设计的。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage, KanbanPeriodCapacityPart, SysLookupMultiSelectGrid, KanbanBoardScheduleJobForward
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5170fecf0190591d74f45d35fecc4472e7f5e900
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f36544993a9280ae10489a19252bc105abd40ac9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359535"
 ---
 # <a name="schedule-kanban-jobs"></a>计划看板作业
 
@@ -61,5 +61,4 @@ ms.lasthandoff: 09/29/2017
 6. 单击“计划”。
     * 请注意这两个作业都添加到了预期期间。  
     * 在“期间产能”部分中，可查看每个期间的工作量。 “消耗量”字段显示该期间内的预定消耗量。 如果该期间内预定消耗量高于可用消耗量，将选择超负荷消耗量。  
-
 

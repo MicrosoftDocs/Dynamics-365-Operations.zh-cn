@@ -1,13 +1,13 @@
---- 
-title: "创建 POS 权限组"
-description: "此程序将会显示如何创建 POS 权限组。"
+---
+title: 创建 POS 权限组
+description: 此程序将会显示如何创建 POS 权限组。
 author: scott-tucker
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailPosPermissionGroup, HcmJob
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1b30c9a1d7fe4598695423ba700ebc88a794a49c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: bcda7c3a5c2cc97fbc6e4945e4d5f0ec42a7a478
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354452"
 ---
 # <a name="create-pos-permission-groups"></a>创建 POS 权限组
 
@@ -54,5 +54,4 @@ ms.lasthandoff: 02/07/2018
     * 除非工作人员 POS 权限已在其职位级别进行覆写，此作业所对应职位的所有工作人员都将使用此 POS 权限组的设置。  
 19. 单击“保存”。
     * 在您的更改保存之后，您需要运行“人员分配计划”，以将这些更改应用到零售渠道。  
-
 

@@ -1,13 +1,13 @@
---- 
-title: "从其他模块（如销售发票）过帐凭证"
-description: "可以从总帐、库存变动日记帐、销售发票和采购发票过帐中国式凭证。"
+---
+title: 从其他模块（如销售发票）过帐凭证
+description: 可以从总帐、库存变动日记帐、销售发票和采购发票过帐中国式凭证。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalMovement, InventJournalCreate, InventItemIdLookupSimple, InventLocationIdLookup, InventProductDimensionLookup, DimensionLookup, InventTrans, SalesTableListPage, SalesCreateOrder, SalesTable, SalesEditLines,  CustInvoiceJournal, CustTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 245c0bfaab80084e427ce3d803004be78e7d4238
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371879"
 ---
 # <a name="post-vouchers-from-other-modules-like-sales-invoices"></a>从其他模块（如销售发票）过帐凭证
 
@@ -107,5 +107,4 @@ ms.lasthandoff: 09/14/2018
 35. 单击“交易记录”。
 36. 单击“凭证”。
     * 例如，可以看到为“中国式凭证类型”分配了“交易”。  
-
 

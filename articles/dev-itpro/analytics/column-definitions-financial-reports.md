@@ -1,13 +1,13 @@
 ---
-title: "财务报表中的列定义"
-description: "本文提供了有关列定义的信息。 列定义是报表组件或构建基块，在报表上定义列的内容。 和行定义一样，基本列定义可以在多个报表中使用。"
+title: 财务报表中的列定义
+description: 本文提供了有关列定义的信息。 列定义是报表组件或构建基块，在报表上定义列的内容。 和行定义一样，基本列定义可以在多个报表中使用。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e92d50828f6511329401b43154895da1244788cd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356338"
 ---
-
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 
 [!include [banner](../includes/banner.md)]
@@ -121,7 +120,7 @@ ms.lasthandoff: 08/13/2018
 | ADJ                     | 将列中的金额限制为期间调整金额（如果可以获取这些金额）。 |
 | XAD                     | 将列中的金额限制为不包括期间调整金额。 |
 | PT                      | 将列中的金额限制为仅包括已过帐的交易记录（如果可以获取这些交易记录）。 |
-| UPT                     | 将列中的金额限制为仅包括未过帐的交易记录（如果可以获取这些交易记录）。<blockquote>[!NOTE] 并非所有数据提供程序均支持未过帐的交易记录。 有关详细信息，请参阅适用于您的 Microsoft Dynamics ERP 系统的<a href='http://go.microsoft.com/fwlink/?LinkID=162565'>数据集成指南</a>。</blockquote> |
+| UPT                     | 将列中的金额限制为仅包括未过帐的交易记录（如果可以获取这些交易记录）。<blockquote>[!NOTE] 并非所有数据提供程序均支持未过帐的交易记录。 有关详细信息，请参阅你的 Microsoft Dynamics ERP 系统的<a href='http://go.microsoft.com/fwlink/?LinkID=162565'>数据集成指南</a>。</blockquote> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>将列限定为报告单位
 
@@ -171,7 +170,7 @@ ms.lasthandoff: 08/13/2018
 
 ### <a name="create-an-automatically-generated-header"></a>创建自动生成的标题
 
-报表设计器可基于自动图文集代码自动生成列标题。 自动图文集代码是在每次生成报表时更新的变量。 任何列标题都可以包括这些代码来指定不同的报表信息，例如日期或期间编号。 因此，您可以将一个列定义用于多个报表定义、时间段和报告树。 由于自动图文集代码依赖列定义的详细信息行中的日历信息，因此它们仅受 **CALC**、**FD** 和 **WKS** 列支持。 自动图文集代码在列标题单元格中的显示方式将影响该信息在报表中的显示方式。 在**列标题**对话框中，自动图文集代码将以混合大小写的形式显示。 因此，该文本将以混合大小写的形式在报表上显示。 例如，在标准日历年中，**@CalMonthLong** 将 **7** 月解析为**七月**。 如果月份名称应为大写（例如 **JULY**），则在**列标题文本**字段中输入大写字符形式的自动图文集代码。 例如，输入 **@CALMONTHLONG**。 您可将代码和文本混合。 例如，输入以下标题文本：**Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate**。 生成的报表标题类似于以下文本：**Period 1-02 from 01/01/02 to 01/31/02**。
+报表设计器可基于自动图文集代码自动生成列标题。 自动图文集代码是在每次生成报表时更新的变量。 任何列标题都可以包括这些代码来指定不同的报表信息，例如日期或期间编号。 因此，您可以将一个列定义用于多个报表定义、时间段和报告树。 由于自动图文集代码依赖列定义的详细信息行中的日历信息，因此它们仅受 **CALC**、**FD** 和 **WKS** 列支持。 自动图文集代码在列标题单元格中的显示方式将影响该信息在报表中的显示方式。 在**列标题**对话框中，自动图文集代码将以混合大小写的形式显示。 因此，该文本在报表中以混合大小写的形式显示。 例如，在标准日历年中，**@CalMonthLong** 将 **7** 月解析为**七月**。 如果月份的名称应为大写（例如**JULY**），则可在**列标题文本**字段中输入大写字符形式的自动图文集代码。 例如，输入 **@CALMONTHLONG**。 您可以将代码与文本混合。 例如，输入以下标题文本：**Period @FiscalPeriod-@FiscalYear from @StartDate to @EndDate**。 生成的报表标题类似于以下文本：**Period 1-02 from 01/01/02 to 01/31/02**。
 
 > [!NOTE]
 > 某些文本（如长日期）的格式取决于您在 Finance and Operations 服务器上的区域设置。 要更改这些设置，请单击**开始**按钮，单击**控制面板**，然后单击**区域和语言**。 下表列出了列标题的可用自动图文集选项。
@@ -179,20 +178,20 @@ ms.lasthandoff: 08/13/2018
 
 | 自动图文集选项和代码                | 说明 |
 |-----------------------------------------|-------------|
-| 月份名称 (@CalMonthLong)              | 打印列标题中当前月份的名称。 如果您决定将报表中的金额化整到千分位、百万分位或十亿分位，或者您在报表上设置列宽小于 9 个字符，则月份名称将缩写为前三个字符。 |
-| 缩写的月份名称 (@CalMonthShort) | 打印所选会计期间的月份的缩写名称。 |
-| 期间编号 (@FiscalPeriod)           | 打印为该列标识的会计期间的数字形式。 如果该列跨多个期间，则打印范围内的最后一个期间。 |
-| 期间描述 (@FiscalPeriodName)  | 打印财务数据中标识的会计期间描述。 |
-| 会计年度 (@FiscalYear)               | 打印列的数字形式的会计年度。 |
-| 日历年度 (@CalYear)                | 打印列的数字形式的日历年。 |
-| 开始日期 (@StartDate)                 | 打印列的开始日期。 |
-| 结束日期 (@EndDate)                     | 打印列的结束日期。 |
-| 树中的单位名称 (@UnitName)         | 如果您将列限制到报告结构树的特定单位，请打印列标题中的单位名称。 |
-| 单位描述 (@UnitDesc)            | 如果您将列限制到报告结构树的特定单位，请打印列标题中的单位描述。 |
-| 帐簿代码 (@BookCode)                   | 打印列中指定的帐簿代码。 |
-| 空行 (@Blank)                     | 在列标题中插入空行。 |
+| 月份名称(@CalMonthLong)              | 在列标题中打印当前月的名称。 如果您打算将报表中的金额舍入为千、百万或十亿，或将报表中的列宽设置为小于九个字符，那么月份名称将缩写为前三个字符。 |
+| 简写的月份名称(@CalMonthShort) | 打印所选会计期间月份的缩写名称。 |
+| 期间编号(@FiscalPeriod)           | 采用数字格式打印列所标识的会计期间。 如果该列跨越多个期间，则会打印期间范围内的最后一个期间。 |
+| 期间说明(@FiscalPeriodName)  | 打印财务数据中标识的会计期间说明。 |
+| 会计年度(@FiscalYear)               | 采用数字格式打印列的会计年度。 |
+| 日历年度(@CalYear)                | 采用数字格式打印列的日历年。 |
+| 开始日期(@StartDate)                 | 打印列的开始日期。 |
+| 结束日期(@EndDate)                     | 打印列的结束日期。 |
+| 树中的单位名称(@UnitName)         | 如果将列限制为报告树中的特定单位，则会在列标题中显示单位名称。 |
+| 单位说明(@UnitDesc)            | 如果将列限制为报告树中的特定单位，则会在列标题中显示单位说明。 |
+| 帐簿代码(@BookCode)                   | 打印列中指定的帐簿代码。 |
+| 空白行(@Blank)                     | 在列标题中插入一空行。 |
 
-### <a name="create-a-conditional-spanning-header"></a>创建条件跨列标题
+### <a name="create-a-conditional-spanning-header"></a>创建条件性跨越标题
 
 条件性跨越标题可以跨越基于特定期间数据的多个列。 例如，如果您具有某会计年度的预算报表，并且希望将过去月份的实际预算与将来月份的预计预算一起显示，则可以使用条件性跨越标题自动更新报表标题。 当创建条件性跨越标题时，请注意以下情形：
 
@@ -216,9 +215,9 @@ ms.lasthandoff: 08/13/2018
 Phyllis 正在为半年动态预测创建报表。 她希望在包含实际数据的列上打印“实际”一词，在包含预算预测的列上打印“预算”一词。 在运行该报表的每个月中，都有一个大于实际数据的列和一个小于预算数据的列。 尽管每次生成该报表来调整标题时，Phyllis 都可以手动修改列定义，但她想要节省时间和精力，因而决定创建条件性跨越标题，以便每次运行该报表时都能在相应列上自动创建标题。 Phyllis 打开报表设计器，单击导航窗格中的**列定义**，并打开报表的列定义。 然后，她输入了以下信息。 报表定义中的基准期间为 4。
 
 
-|                     |  A   | B             | C             | 日             | E             | 五             | G             | H             | I             | J             | K             | L             | 一             |
+|                     |  A   | B             | C             | D             | E             | F             | G             | H             | I             | J             | K             | L             | M             |
 |---------------------|------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|---------------|
-| 标题 1            |      | 实际        | 预算        |               |               |               |               |               |               |               |               |               |               |
+| 标题 1            |      | 实际值        | 预算        |               |               |               |               |               |               |               |               |               |               |
 | 标题 2            |      | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong | @CalMonthLong |
 | 标题 3            |      |               |               |               |               |               |               |               |               |               |               |               |               |
 | 列类型         | DESC | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            | FD            |
@@ -519,7 +518,7 @@ Phyllis 双击列标题单元格以打开**列标题**对话框，其中她输�
 
 ### <a name="format-a-multiple-currency-report-in-a-column-definition"></a>在列定义中设置多货币报表的格式
 
-多货币报表可以用自然货币（本地）、功能性货币（默认）或报告货币显示金额。 公司的功能性货币在 Microsoft Dynamics ERP 系统中定义。 请勿将此 ERP 设置与操作系统区域选项设置（用于配置将在报表上使用的默认货币符号）相混淆。 列定义中包括以下货币相关单元格：
+多货币报表可以用自然货币（本地）、功能性货币（默认）或报告货币显示金额。 公司的功能币种是在 Microsoft Dynamics ERP 系统中定义的。 请勿将此 ERP 设置与操作系统区域选项设置（用于配置将在报表上使用的默认货币符号）相混淆。 列定义中包括以下货币相关单元格：
 
 - **货币显示** – 指定显示交易记录采用的币种类型（自然、功能或申报）。 此功能有时称为“币种转换”。 货币转换功能既不以公司的功能性货币，也不以输入交易记录的货币报告总帐金额。
 - **币种筛选器** – 指定币种筛选器。 报表上仅显示采用选定币种输入的交易记录。
@@ -612,4 +611,3 @@ Phyllis 已在她的列定义中做出了以下货币选择：
 [财务申报中的行定义](row-definitions-financial-reporting.md)
 
 [财务申报中的高级格式设置选项](advanced-formatting-options-financial-reporting.md)
-

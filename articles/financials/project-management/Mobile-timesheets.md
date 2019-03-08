@@ -1,13 +1,13 @@
 ---
-title: "移动设备上的项目工时单"
-description: "员工可通过“我的工时单(已针对移动优化)”创建和提交工时单，以便在移动设备上记录特定项目的工时。"
+title: 移动设备上的项目工时单
+description: 员工可通过“我的工时单(已针对移动优化)”创建和提交工时单，以便在移动设备上记录特定项目的工时。
 author: abruer
 manager: AnnBe
 ms.date: 03/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
+ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3e09433a9bb819cf24ee74443dd7e2d80a2b6b2e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360938"
 ---
-
 # <a name="project-timesheets-on-a-mobile-device"></a>移动设备上的项目工时单
 
 [!include [banner](../includes/banner.md)]
@@ -51,9 +50,9 @@ Android 将兼容平台更新 16（推出后）。
 
 6.  此时将显示当前周的日历日期。
 
-7.  单击**确定”**。
+7.  单击**确定**。
 
-8.  单击“**+**”添加新行。
+8.  单击**+** 添加新行。
 
 9.  选择工时单行的客户和项目信息。
 
@@ -66,4 +65,3 @@ Android 将兼容平台更新 16（推出后）。
 13. 选项：输入更多工时单行。
 
 14. 工时单行输入完毕之后，选择**工作流** \> **提交**操作将工时单提交到工作流审核流程。
-

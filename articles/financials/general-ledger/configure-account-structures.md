@@ -1,13 +1,13 @@
 ---
-title: "配置科目结构"
-description: "此主题提供有关科目结构和财务维度的信息。"
+title: 配置科目结构
+description: 此主题提供有关科目结构和财务维度的信息。
 author: aprilolson
 manager: AnnBe
 ms.date: 05/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerEliminationRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 8435389a523d8393e9d4daa0cb1244203c0dbb12
 ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351715"
 ---
-
 # <a name="configure-account-structures"></a>配置科目结构
 
 [!include[banner](../includes/banner.md)]
@@ -100,4 +99,3 @@ ms.lasthandoff: 08/08/2018
 如果对科目结构的新设置或更改感到满意，必须将其激活。 如果为日记帐分配了科目结构，此项激活可能需要运行很长一段时间，因为必须将系统中的所有未过帐交易记录同步到新结构中。 科目结构的变化不影响已过帐交易记录。
 
 有关详细信息，请参阅[计划您的会计科目表](plan-chart-of-accounts.md)、[财务维度](financial-dimensions.md)和[输入科目和维度组合（分段式录入控件）](enter-account-dimension-combinations-segmented-entry-control.md)。
-

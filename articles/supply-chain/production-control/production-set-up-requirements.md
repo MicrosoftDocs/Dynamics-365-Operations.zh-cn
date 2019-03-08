@@ -1,13 +1,13 @@
 ---
-title: "生产设置需求"
-description: "本文提供您需要先满足才可以使用生产控制的设置要求的相关信息。"
+title: 生产设置需求
+description: 本文提供您需要先满足才可以使用生产控制的设置要求的相关信息。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdParameters, RouteOpr, RouteOprTable, WorkCalendarTable, WorkTimeTable, WrkCtrTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b811c11271097f4bb7910c34f7775955abba526d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 47fe11168ad2ddea2a7033eda8d8bd8220efea32
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366619"
 ---
-
 # <a name="production-setup-requirements"></a>生产设置需求
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ ms.lasthandoff: 11/03/2017
 工序表示为生产成品而完成的特定活动。 **注意：** 您必须知道为生产物料而需要的活动的类型，以及这些活动的顺序和优先级。 您还必须知道涉及哪些资源，以及涉及多少资源。
 
 1.  **工序** – 设置工序以表示生产成品而必须完成的任务。
-2.  **关系** – 设置用于确立详细属性的工序关系。 若要定义工序关系，请单击 **“操作”** 页上的 **“关系”**。
+2.  **关系** – 设置用于确立详细属性的工序关系。 若要定义工序关系，请单击**操作**页上的**关系**。
 
 ## <a name="setup-if-you-use-routes"></a>使用工艺路线情况下的设置
 如果您在使用工艺路线，则必须为您设置的每个生产工艺路线定义工序。 工艺路线表示物料在各工序间流动的路线，从生产流程开始直到结束。
@@ -78,7 +77,6 @@ ms.lasthandoff: 11/03/2017
 1.  **生产组** – 设置生产组，以便在生产订单和会计科目之间建立关系。 会计科目用于对订单进行过帐或分组，以便报告。
 2.  **生产池** – 创建生产池，以便对生产订单进行分组，使您能够处理紧急的生产订单，或者删除和过帐订单组。
 3.  **属性** – 定义属性可以创建可分配到您的资源控制生产订单的特殊特性。 这些属性将与工作时间模板相关联。
-
 
 
 

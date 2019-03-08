@@ -1,13 +1,13 @@
 ---
-title: "Finance and Operations 帮助系统"
-description: "本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。"
+title: Finance and Operations 帮助系统
+description: 本主题提供 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。
 author: margoc
 manager: AnnBe
 ms.date: 11/13/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,22 +18,21 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 23bf579c1a4a315d0c12f848a71f89fc297c8625
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350726"
 ---
-
 # <a name="finance-and-operations-help-system"></a>Finance and Operations 帮助系统
 
 [!include [banner](../includes/banner.md)]
 
-本主题提供对 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。
+本主题提供 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。
 
 > [!NOTE]
-> 以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+> 以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail 和 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与 Talent 有关的主题中，产品名称将为 Dynamics 365 for Talent；在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
 帮助系统由以下产品共用：
 
@@ -78,7 +77,7 @@ Finance and Operations 和 Retail 均共用文档站点上的一个内容表，�
 
 ### <a name="use-an-rss-feed"></a>使用 RSS 源
 
-若要订阅 Unified Operations 内容的所有更新的 RSS 源，请在支持 RSS 源的浏览器（如 Internet Explorer或 RSS 源管理器）中使用以下链接：
+若要订阅 Unified Operations 内容的所有更新的 RSS 源，请在支持 RSS 源的浏览器（如 Internet Explorer 或 RSS 源管理器）中使用以下链接：
 
 [RSS 源](https://docs.microsoft.com/api/search/rss?locale=en-us&$filter=scopes%2Fany(t%3A%20t%20eq%20%27Unified%20Operations%27))
 
@@ -193,11 +192,10 @@ Microsoft 为 Finance and Operations 2017 年 12 月及以前的版本配送了�
 | 站点                                                                                           | 说明 |
 |------------------------------------------------------------------------------------------------|-------------|
 | [Docs.microsoft.com](/dynamics365/)                                                            | 承载或链接到 Dynamics 365 的所有产品文档。 |
-| [Microsoft 学习](https://docs.microsoft.com/learn/)                                           | Microsoft 免费的网络培训站点。 |
-| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | 提供基于云的协作工作区，可供客户和合作伙伴用来从售前到执行和运营阶段管理 Dynamics 365 for Finance and Operations 项目。 此站点在执行的所有阶段都很有用。 |
+| [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Microsoft 免费的网络培训站点。 |
+| [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | 提供了客户和其合作伙伴可以用此从售前到执行和运营阶段管理 Dynamics 365 for Finance and Operations 项目的基于云的协作工作区。 此站点在执行的所有阶段都很有用。 |
 | [支持博客](http://aka.ms/AXSupportBlog)                                                    | 提供 Dynamics 365 for Finance and Operations 支持团队发布的提示和窍门。 |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | 承载以前版本的内容。 |
 | [Dynamics 社区](https://community.dynamics.com/)                                          | 承载博客、论坛和视频。 |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | 提供评估和销售信息。 |
 | [CustomerSource](https://mbs.microsoft.com/customersource/)\*                                  | 承载 Finance and Operations 一些培训资源、可下载报告和白皮书，是服务计划持有人的主要支持站点。 可能需要服务计划才能在站点上访问某些资源。 |
-

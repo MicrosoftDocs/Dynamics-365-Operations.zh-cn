@@ -1,13 +1,13 @@
 ---
-title: "分析销售趋势和模式"
-description: "您可以在 Microsoft Dynamics 365 for Retail 中实时研究销售趋势和模式。"
+title: 分析销售趋势和模式
+description: 您可以在 Microsoft Dynamics 365 for Retail 中实时研究销售趋势和模式。
 author: ashishmsft
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelReport, SysReportViewerForm, RetailStoreManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b2a23b6013fd9096457647142a40a6710da6ca88
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357994"
 ---
-
 # <a name="analyze-sales-trends-and-patterns"></a>分析销售趋势和模式
 
 [!include [banner](includes/banner.md)]
@@ -44,4 +43,3 @@ ms.lasthandoff: 11/03/2017
 - **零售商店管理**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店管理** &gt; **报表** &gt; **按小时排列的渠道销售额报表**
 - **零售商店财务**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店财务** &gt; **报表** &gt; **按小时排列的渠道销售额报表**
 - **查询和报表**部分 &gt; **零售** &gt; **查询和报表** &gt; **销售报表** &gt; **按小时排列的渠道销售额报表**
-

@@ -1,13 +1,13 @@
 ---
-title: "报表设计器界面"
-description: "本文介绍如何在报表设计器内导航，以及如何使用各种选项以满足您的特定要求。"
+title: 报表设计器界面
+description: 本文介绍如何在报表设计器内导航，以及如何使用各种选项以满足您的特定要求。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: e9b77e2b510a72d1e3fe3c68c997d58245a86a27
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "368022"
 ---
-
 # <a name="report-designer-interface"></a>报表设计器界面
 
 [!include [banner](../includes/banner.md)]
@@ -139,7 +138,7 @@ ms.lasthandoff: 08/13/2018
 |-------------------------------|-------------|
 | 保护                       | 对当前构建基块应用密码。 此命令适用于具有**设计人员**或**管理员**角色的用户。 |
 | 报表队列状态           | 打开**报表队列状态**对话框，您可以在此对话框中查看最近生成的所有报表以及每个报表的详细信息。 |
-| 源系统信息     | 显示您的 Microsoft Dynamics ERP 系统的设置。 此命令适用于具有**设计人员**或**管理员**角色的用户。 |
+| 源系统信息     | 显示 Microsoft Dynamics ERP 系统的设置。 此命令适用于具有**设计人员**或**管理员**角色的用户。 |
 | 已签出的项目             | 显示当前打开的行定义、列定义、报告树定义和报表定义。 此命令适用于具有**设计人员**或**管理员**角色的用户。 |
 | 刷新缓存的财务数据 | 更新财务维度列中的数据。 |
 | 选项                       | 打开**选项**对话框，您可以在此对话框中修改 Report Designer 的用户首选项。 |
@@ -229,4 +228,3 @@ ms.lasthandoff: 08/13/2018
 [财务申报](financial-reporting-intro.md)
 
 [生成财务报表](generate-financial-report.md)
-

@@ -1,13 +1,13 @@
---- 
-title: "创建供应商帐户"
-description: "该过程会显示如何创建供应商帐户，以及添加地址和联系信息。"
+---
+title: 创建供应商帐户
+description: 该过程会显示如何创建供应商帐户，以及添加地址和联系信息。
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable, LogisticsPostalAddressGrid, DirPartyLookup, LogisticsPostalAddress, SysLookupMultiSelectGrid
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 22c7a1a2b7468f00aa25a67a2c5f62b088e2fe7c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6ff2357d5266c45be2f403e463c72089d73db21b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360133"
 ---
 # <a name="create-a-vendor-account"></a>创建供应商帐户
 
@@ -62,5 +62,4 @@ ms.lasthandoff: 09/29/2017
 5. 单击“保存”。
 6. 关闭该页面。
 7. 关闭该页面。
-
 

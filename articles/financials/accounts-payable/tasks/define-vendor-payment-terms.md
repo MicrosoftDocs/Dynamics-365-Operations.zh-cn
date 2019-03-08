@@ -1,13 +1,13 @@
---- 
-title: "定义供应商付款期限"
-description: "设置供应商发票的付款条款。"
+---
+title: 定义供应商付款期限
+description: 设置供应商发票的付款条款。
 author: abruer
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 68c69d5be5ccbdfb17fea7c61121cbf26fee48d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a00ca73b1bc301960132a86846749d12c39ed3f7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358546"
 ---
 # <a name="define-vendor-payment-terms"></a>定义供应商付款期限
 
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/29/2017
 17. 输入供应商发票的现金折扣主帐户。
     * 如果将“折扣抵消帐户”设置为“使用供应商折扣的主帐号”，则应使用该“主帐号”。  如果该选项设置为“发票行上的帐号”，现金折扣将过帐到发票行上的资产或支出帐户。  
 18. 单击“保存”。
-
 

@@ -1,13 +1,13 @@
 ---
-title: "设置银行对帐匹配规则"
-description: "本主题说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。"
+title: 设置银行对帐匹配规则
+description: 本主题说明如何设置对帐匹配规则和对帐匹配规则集以帮助银行对帐流程。 对帐匹配规则是用于在对帐过程中筛选银行对账单行和银行单据行的一组条件。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/27/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule, BankReconciliationMatchRuleSet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 32a416a79802a9f1d7a6e79705c3fd088124a141
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b48accdc7aaaa65b4c620777546b20056038905b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357212"
 ---
-
 # <a name="set-up-bank-reconciliation-matching-rules"></a>设置银行对帐匹配规则
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 03/26/2018
 | **与银行单据匹配**       | 创建条件以指定在从**银行对帐工作表**页运行匹配规则时，银行单据和银行对账单行的匹配方式。 根据在快速选项卡上设置的其他条件选择交易记录行。                                | **第 1 步：定义匹配规则** – 选择条件以指定应该与 Finance and Operations 银行交易记录匹配的银行对账单。 **第 2 步（可选）：选择据其运行匹配规则的报表行：** 在要据其运行规则的报表行上应用筛选器。                                                                                                                                                                                                                                                                                                               |
 | **清除冲销对账单行** | 创建条件，以指定运行匹配规则时，应如何从**银行对帐工作表**页中删除冲销对账单行。 在银行犯错误导致在导入的银行对账单中列出两个必须对帐的银行对账单行时使用此选项。 | **第 1 步**：**查找冲销报表行** – 添加选择条件以选择冲销银行对账单行。 例如，若要选择仅支票，请在“字段”字段中选择**银行交易记录代码**，在**运算符**字段中选择加号 (+)，然后在“值”字段中输入**支票**。 **第 2 步：查找原始对账单行** – 您可以添加选择条件，以使银行单据行与银行对账单行匹配。 **第 3 步：查找 Finance and Operations 银行交易记录**– 您可以添加选择条件，以使 Finance and Operations 银行交易记录与银行对账单行匹配。 |
 | **标记新交易记录**          | 创建条件，以指定运行匹配规则时，应如何在**银行对帐工作表**页中标记新交易记录。                                                                                                                                                                 | **第 1 步：查找对账单行** – 添加选择字段以指定应从**银行对帐工作表**页中选择哪些银行对账单行。 **第 2 步：查找 Finance and Operations**– 您可以添加选择条件，以搜索银行单据行。 如果未找到任何银行单据，对账单行将标记为新交易记录。                                                                                                                                                                                                                                             |
-
 
 
 

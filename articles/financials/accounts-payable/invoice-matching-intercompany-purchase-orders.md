@@ -1,13 +1,13 @@
 ---
-title: "发票匹配和内部公司采购订单"
-description: "涉及内部公司交易的采购法人设置为使用应付账款发票匹配。 在这种情况下，内部公司交易和应付账款发票匹配的过帐需求必须满足（在内部公司供应商过帐发票前）。"
+title: 发票匹配和内部公司采购订单
+description: 涉及内部公司交易的采购法人设置为使用应付账款发票匹配。 在这种情况下，内部公司交易和应付账款发票匹配的过帐需求必须满足（在内部公司供应商过帐发票前）。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchLineMatchingPolicy
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 68b586f8afe7557bf6edee3eca0261d1e9cac0f2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3d0eb5c19c07313f4d4c0bac1b9c48375446afd9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357557"
 ---
-
 # <a name="invoice-matching-and-intercompany-purchase-orders"></a>发票匹配和内部公司采购订单
 
 [!include [banner](../includes/banner.md)]
@@ -66,7 +65,6 @@ ms.lasthandoff: 11/03/2017
 2.  在 Fabrikam Sales 中，执行 ICSO999 的发票更新。 因为物料库存不足并且尚未收货，过帐时未获成功。 因此，不能更新财务信息。
 3.  登记已接收的物料并且为 Fabrikam Sales 中的 ICSO999 过帐装箱单。 ICPO333 的产品收货在 Fabrikam Purchase 中为自动过帐。 在 Fabrikam Purchase 中为物料 B-R14 接收的数量更改为 100。
 4.  在 Fabrikam Sales 中，执行 ICSO999 的发票更新。 过帐在两法人中均成功。 在 Fabrikam Purchase 中为物料 B-R14 采购的数量更改为 100。
-
 
 
 
