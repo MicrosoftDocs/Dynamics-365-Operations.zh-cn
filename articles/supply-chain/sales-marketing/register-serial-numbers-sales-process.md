@@ -1,13 +1,13 @@
 ---
-title: "在销售流程中登记序列号"
-description: "本主题说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。"
+title: 在销售流程中登记序列号
+description: 本主题说明如何在销售流程中登记装箱单或发票的序列号。 如何公司希望捕获序列号是为了用于服务和保修用途，但不必在从收货到发货的库存中维护序列号，那么此功能很有用。
 author: omulvad
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResTrackingDimensionGroup, InventTrackingRegisterTrans, SalesEditLines, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e86c2f8d1d5920198db74dc3b64f2393c5e13ff7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 62f59c857980932f4cf75d928deb0f89fae2f8eb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350404"
 ---
-
 # <a name="register-serial-numbers-in-the-sales-process"></a>在销售流程中登记序列号
 
 [!include [banner](../includes/banner.md)]
@@ -58,8 +57,8 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="can-i-correct-or-change-the-serial-numbers-that-i-have-registered-for-a-sales-order"></a>是否能更正或更改已为销售订单登记的序列号？
 可以，则当满足以下条件时可以更正序列号：
--   **发票** – 可以更改未开发票物料的序列号。 然后还更新装箱单。 但是，若销售订单行由登记负数量更改，则不能更改销售订单行的序列号。
--   **装箱单** – 不能部分更正包含序列化物料的装箱单行。 必须冲销该行的全部数量。 若装箱单已被取消或更正，当为相同的序列化物料创建新装箱单时则不必再登记已冲销的序列号。 将使用已登记的编号。
+-   **发票**  – 可以更改未开发票物料的序列号。 然后还更新装箱单。 但是，若销售订单行由登记负数量更改，则不能更改销售订单行的序列号。
+-   **装箱单**  – 不能部分更正包含序列化物料的装箱单行。 必须冲销该行的全部数量。 若装箱单已被取消或更正，当为相同的序列化物料创建新装箱单时则不必再登记已冲销的序列号。 将使用已登记的编号。
 
 ## <a name="can-i-view-the-serial-numbers-that-were-shipped-together-with-a-specific-packing-slip-or-that-were-included-on-an-invoice"></a>可以查看随特定装箱单装运的序列号或包含在发票中的序列号吗？
 可以，则可以在装箱单日志行或发票日志行运行查询来查看包含在该文档中的所有序列号列表。
@@ -78,7 +77,6 @@ ms.lasthandoff: 05/08/2018
 此功能对可以维护销售装箱单和销售发票的所有角色均可用。 以下职责使工作人员可更正序列号，为无法读取或扫描的序列号登记空白项：
 -   维护序列号更正
 -   维护不可读序列号的登记
-
 
 
 

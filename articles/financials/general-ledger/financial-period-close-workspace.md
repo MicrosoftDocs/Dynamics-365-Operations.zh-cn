@@ -1,13 +1,13 @@
 ---
-title: "财务期间结帐工作区"
-description: "本文提供财务期间结帐工作区和相关配置的概览。"
+title: 财务期间结帐工作区
+description: 本文提供财务期间结帐工作区和相关配置的概览。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/29/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerPeriodCloseProjectWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9c3c7f00d0a0e4379547edc5199f4a9a6727f3c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: b999fd3c26304b81f24389a83faf73e1658c39b3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326898"
 ---
-
 # <a name="financial-period-close-workspace"></a>财务期间结帐工作区
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,7 @@ ms.lasthandoff: 03/26/2018
 -   感叹号图标指示任务已到期。 对于已到期的任务，还将以红色突出显示到期日期。
 -   挂锁图标指示任务依赖于尚未完成的其他任务。 不能将依赖项阻止的任务标记为已完成。 可以通过使用**设置依赖项**操作为任务设置依赖项。
 
-任务名称是 Microsoft Dynamics 365 for Operations 页面或用户必须访问才能完成工作的网页的链接。 可通过在编辑或创建任务时使用**任务链接**字段设置此超链接。 
+任务名称是链接至 Microsoft Dynamics 365 for Operations 页面或其他网页的超链接，用户必须进入该页面完成工作。 可通过在编辑或创建任务时使用**任务链接**字段设置此超链接。 
 
 可通过使用**附件**操作将文件、注释、图像和 URL 附加到任务。 例如，可以指示用作任务一部分的日记帐编号，添加有关特定任务的注释，或附加为任务打印的报表文件。 如果有附件，任务的**附件**列中将显示一个图标。 
 
@@ -106,7 +105,6 @@ ms.lasthandoff: 03/26/2018
 您还必须定义要与结算计划关联的公司。 如果模板任务分配给多个公司，单独的任务将为结算计划中的每个公司创建并且分配给模板任务。 
 
 在结算计划完成后，为其选择**已关闭**选项。 任务历史记录将仍然在**所有财务期间结帐任务**列表页显示，但是结算计划将从工作区中删除。 在结算计划标记为**已关闭**后，您不能为其添加任务、编辑任务或从中删除任务。
-
 
 
 

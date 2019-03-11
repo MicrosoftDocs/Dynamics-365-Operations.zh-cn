@@ -1,13 +1,13 @@
---- 
-title: "转移固定资产"
-description: "此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。"
+---
+title: 转移固定资产
+description: 此任务指南将一个固定资产帐簿的财务信息从一个财务维度转移到一个新的财务维度集。
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, AssetTransfer, DimensionLookup, AssetTransferConfirmation
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bb8a5b94d9a0bb510daa2a698524e0c380597991
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b193cf6fbed810f0d5234514573d0f5c23c7b2c8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357189"
 ---
 # <a name="transfer-a-fixed-asset"></a>转移固定资产
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/29/2017
     * 您可以在完成交易前预览所做更改。  
     * 在转移固定资产帐簿之前查看结果。  
 10. 单击“转移”。
-
 

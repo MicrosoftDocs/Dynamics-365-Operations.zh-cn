@@ -1,13 +1,13 @@
---- 
-title: "创建格式时选择数据模型定义"
-description: "为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。"
+---
+title: 创建格式时选择数据模型定义
+description: 为了完成此过程中的步骤，您必须首先完成“ER 创建配置提供商并标记为有效”这一过程。
 author: NickSelin
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: dc357db8acbdb98741a694a8a9d3c0c0625c50e4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334488"
 ---
 # <a name="select-data-model-definitions-when-you-create-formats"></a>创建格式时选择数据模型定义
 
@@ -81,7 +81,7 @@ ms.lasthandoff: 08/08/2018
     * 使用 ER 设计器为所需根项指定模型映射。  
 2. 单击“设计器”。
     * 模拟设置所选模型的根项的所选模型映射。  
-3. 在树结构中，选择“Dynamics 365 for Operations\表格记录”。
+3. 在树中，选择“Dynamics 365 for Operations\表记录”'。
 4. 单击“添加根”。
 5. 在“名称”字段中，键入“分类帐”。
 6. 在“表格”字段中，键入“分类日记帐交易记录”。
@@ -98,5 +98,4 @@ ms.lasthandoff: 08/08/2018
 4. 在“数据模型定义”字段中，输入或选择一个值。
     * 请注意，现在只有一个根项可映射到应用程序数据源。 如果引入了至少一个模型映射，添加 ER 格式时，只能将映射到应用程序数据源的模型根项选择为模型定义。   
 5. 关闭该页面。
-
 

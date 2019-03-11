@@ -1,13 +1,13 @@
 ---
-title: "快速导入/导出"
-description: "快速导入导出的目的是让您使用较少的步骤导入和导出。"
+title: 快速导入/导出
+description: 快速导入导出的目的是让您使用较少的步骤导入和导出。
 author: margoc
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
 ms.prod: dynamics-ax-2012
-ms.service: 
-ms.technology: 
+ms.service: ''
+ms.technology: ''
 audience: Application User
 ms.reviewer: margoc
 ms.search.scope: AX 2012
@@ -15,16 +15,15 @@ ms.custom: 89041
 ms.assetid: 990d64e6-d436-4c79-9bb5-bf8c5c5a048f
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 
+ms.search.validFrom: ''
 ms.dyn365.ops.version: AX 2012 R3 CU8
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 4f2edba4add691e9ad4c7829551c6f79b9804853
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357718"
 ---
-
 # <a name="quick-import-export"></a>快速导入/导出
 
 [!include [banner](../../includes/banner.md)]
@@ -39,7 +38,6 @@ ms.lasthandoff: 08/08/2018
 - 您不需要创建一个处理组来使用快速导入/导出，在执行导入或导出作业时系统将自动创建。 您也可以选择保留由快速导入/导出导入的数据的历史记录。
 
   请注意，快速导入导出假定您熟悉 DIXF 的概念。
-
 
 
 

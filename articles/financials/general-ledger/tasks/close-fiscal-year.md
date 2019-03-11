@@ -1,13 +1,13 @@
---- 
-title: "结算会计年度"
-description: "此过程介绍将余额转移到新会计年度的年终结算的步骤。"
+---
+title: 结算会计年度
+description: 此过程介绍将余额转移到新会计年度的年终结算的步骤。
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters, LedgerFiscalCloseGroup, LedgerFiscalCloseAddLedger, SysLookupMultiSelectGrid, LedgerFiscalCloseRunGroup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 628b084dbcc85c3f7c08f209bdb325a110554ad9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4f2f1f1206f3cb3534ef93923d4945bb63814514
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367907"
 ---
 # <a name="close-the-fiscal-year"></a>结算会计年度
 
@@ -67,5 +67,4 @@ ms.lasthandoff: 09/29/2017
 23. 年终结算默认批量运行。
     * 最好以批处理模式运行长时间运行的流程。 这通常是这些流程中的一个，也是默认使用批处理模式的原因。  
 24. 单击“确定”。
-
 

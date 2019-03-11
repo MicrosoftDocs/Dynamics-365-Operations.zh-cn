@@ -1,13 +1,13 @@
---- 
-title: "定义薪酬流程并计算结果"
-description: "薪酬流程用于确定在固定和可变薪酬计划中登记的员工的新的薪酬金额和奖励。"
+---
+title: 定义薪酬流程并计算结果
+description: 薪酬流程用于确定在固定和可变薪酬计划中登记的员工的新的薪酬金额和奖励。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompProcess, HRMCompProcessLine, HRMCompEvent, HRMCompEventEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5e5b0bb5558a8b71d02b5988c6f82f53f4f42646
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: ba28cf1fa6a8e9a4497d3bac1a2161098ec53db1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325725"
 ---
 # <a name="define-compensation-process-and-calculate-results"></a>定义薪酬流程并计算结果
 
@@ -101,5 +101,4 @@ ms.lasthandoff: 09/29/2017
 9. 单击“更改状态”。
 10. 单击“核准”。
     * 核准完该记录后，将其加载到员工的正式薪酬记录中。 新的薪酬将在薪酬流程设置的交易记录日期内均有效。  
-
 

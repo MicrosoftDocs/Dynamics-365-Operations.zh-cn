@@ -1,13 +1,13 @@
 ---
-title: "财务报表设计器中的报表定义"
-description: "本文提供了有关报表定义的信息。 报表定义是使用行定义、列定义和可选报告结构树定义创建报表的报表组件（或构建基块）。 报表定义还提供自定义报表的选项和设置。"
+title: 财务报表设计器中的报表定义
+description: 本文提供了有关报表定义的信息。 报表定义是使用行定义、列定义和可选报告结构树定义创建报表的报表组件（或构建基块）。 报表定义还提供自定义报表的选项和设置。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 322f1cca32053224e1cd6dbaf29c098b983b5e1f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: ee130dd357b5ae678f623630165a1ab787d6ae2c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327335"
 ---
-
 # <a name="report-definitions-in-financial-report-designer"></a>财务报表设计器中的报表定义
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ ms.lasthandoff: 08/08/2018
 ## <a name="additional-resources"></a>其他资源
 
 [财务申报](financial-reporting-intro.md)
-

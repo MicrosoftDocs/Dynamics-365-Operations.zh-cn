@@ -1,13 +1,13 @@
 ---
-title: "预算计划概览"
-description: "本文介绍预算计划并包含帮助您配置预算计划和设置预算计划流程的信息。"
+title: 预算计划概览
+description: 本文介绍预算计划并包含帮助您配置预算计划和设置预算计划流程的信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanningConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8a262b5200c8071bec78ff6d3ed7976d4b2057ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: b008e70c7d834c6aacad7aef4987e60b12ed8a6d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329911"
 ---
-
 # <a name="budget-planning-overview"></a>预算计划概览
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,7 @@ ms.lasthandoff: 04/13/2018
 -   自动发送预算计划以及工作表、调整文档和其他附件，以供审查和审核。
 -   将来自组织较低级别的多个预算计划合并到组织较高级别的单个父预算计划。 您还可以将单个预算计划开发到组织的更高级别并将预算分配到组织的更低级别。
 
-预算计划将与其他 Microsoft Dynamics 365 for Finance and Operations 模块集成。 因此，您可以从以前的预算、实际支出、固定资产和人力资源信息获取信息。 由于预算计划还将与 Microsoft Excel 和 Microsoft Word 集成在一起，因此，您可以使用这些计划来处理预算计划数据。 例如，预算经理可以从预算计划方案中将部门的预算请求导出到 Excel 工作表。 在工作簿中可以分析、更新和制订该数据，然后发布回预算计划行。
+预算计划已与其他 Microsoft Dynamics 365 for Finance and Operations 模块集成。 因此，您可以从以前的预算、实际支出、固定资产和人力资源信息获取信息。 由于预算计划还将与 Microsoft Excel 和 Microsoft Word 集成在一起，因此，您可以使用这些程序来处理预算计划数据。 例如，预算经理可以从预算计划方案中将部门的预算请求导出到 Excel 工作表。 在工作簿中可以分析、更新和制订该数据，然后发布回预算计划行。
 
 ## <a name="configuring-budget-planning"></a>配置预算计划
 **预算计划配置**页包含您为了设置预算计划所需的大多数设置。 以下各部分介绍您在配置预算计划时应该考虑的一些关键因素。 在您完成配置后，您设置预算计划流程。
@@ -188,7 +187,6 @@ ms.lasthandoff: 04/13/2018
 **操作**菜单的另一个有用命令是**查看预算流程状态**。 此命令以图形形式显示流程中的预算计划以及相关数据，例如计划的工作流状态，按金额和按单位汇总，以及指向预算计划本身的单击导航。
 
 [![预算计划流程状态](./media/budgetplanningprocessstatus-300x171.png)](./media/budgetplanningprocessstatus.png)
-
 
 
 

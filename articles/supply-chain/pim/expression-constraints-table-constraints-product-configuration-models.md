@@ -1,13 +1,13 @@
 ---
-title: "产品配置模型中的表达式约束和表约束"
-description: "本主题介绍的是表达式约束和表约束的使用。 约束控制的对象是您在配置销售订单、销售报价单、采购订单或生产订单的产品时您可以选择的属性值。 您可以根据自己喜欢的构建约束方式来选择使用表达式约束或表约束。"
+title: 产品配置模型中的表达式约束和表约束
+description: 本主题介绍的是表达式约束和表约束的使用。 约束控制的对象是您在配置销售订单、销售报价单、采购订单或生产订单的产品时您可以选择的属性值。 您可以根据自己喜欢的构建约束方式来选择使用表达式约束或表约束。
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCGlobalTableConstraintEdit, PCProductConfigurationModelDetails, PCTableConstraintAttachAttributeTree, PCTableConstraintDefinition
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 88d52031f4c916f5ec3e970f38864977e69a9d9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: b6b5b7e7894cb74e33e08893934b3eaede957556
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356637"
 ---
-
 # <a name="expression-constraints-and-table-constraints-in-product-configuration-models"></a>产品配置模型中的表达式约束和表约束
 
 [!include [banner](../includes/banner.md)]
@@ -223,7 +222,7 @@ ms.lasthandoff: 05/08/2018
 |        (x)        |                           括号覆盖默认优先级顺序。                            |
 
 ## <a name="why-arent-my-expression-constraints-validated-correctly"></a>为什么我的表达式约束验证为错误？
-您不能使用预留的关键字作为产品配置模型中的属性、组件或子组件的求解器名称。 下面是不能使用的预留关键字的列表：
+您不能使用预留的关键字作为产品配置模型中的属性、组件或子组件的求解器名称。下面是不能使用的预留关键字的列表：
 
 -   上限
 -   分项指标
@@ -252,7 +251,6 @@ ms.lasthandoff: 05/08/2018
 [创建表达式约束（任务指南）](tasks/add-expression-constraint-product-configuration-model.md)
 
 [将计算添加到产品配置模型（任务指南）](tasks/add-calculation-product-configuration-model.md)
-
 
 
 

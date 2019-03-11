@@ -1,13 +1,13 @@
 ---
-title: "劳动力指标 Power BI 内容"
-description: "此主题描述劳动力指标 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 劳动力指标 Power BI 内容
+description: 此主题描述劳动力指标 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorkforceWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 1bb4b55fd929c105c20a1d4b1086bbb7f07d5eb1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345781"
 ---
-
 # <a name="workforce-metrics-power-bi-content"></a>劳动力指标 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,7 @@ ms.lasthandoff: 08/13/2018
 - Microsoft Dynamics 365 for Finance and Operations
 - Microsoft Dynamics 365 for Talent
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的度量
 下表显示在每个报表上显示的指标。
 
 | 报告                                           | 指标 |
@@ -88,4 +87,3 @@ ms.lasthandoff: 08/13/2018
 | 员工趋势           | 一段时间的工作人员，人数，公司和职位                                 | 公司、地理位置、员工姓名、报告至、日历偏差、日期、员工职务、人口统计学、雇用、作业 |
 | 大批雇用项目        | 大批雇用项目数量，项目所有者和项目状态                     | 公司，大批雇用行 |
 | 大批雇用行           | 部门，雇用类型和职位                                           | 日期，作业，大批雇用项目 |
-

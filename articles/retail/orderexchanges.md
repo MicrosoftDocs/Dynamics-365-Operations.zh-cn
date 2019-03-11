@@ -1,35 +1,35 @@
 ---
-title: "配置和处理有关退货单的交换"
-description: "本主题将介绍如何在 Microsoft Dynamics 365 for Retail 中配置退货交换。"
+title: 配置和处理有关退货单的交换
+description: 本主题将介绍如何在 Microsoft Dynamics 365 for Retail 中配置退货交换。
 author: josaw1
 manager: AnnBe
 ms.date: 11/12/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
+ms.custom: ''
 ms.assetid: ed0f77f7-3609-4330-bebd-ca3134575216
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 3331b984693c58c6ee8c49b98ed7d3a8df5b79ff
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: 45b628376a483d3d639e5c018dd93570ed8ce7af
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301955"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>配置和处理有关退货单的交换
 
 [!include [banner](includes/banner.md)]
 
-在先前版本的 Microsoft Dynamics 365 for Retail 中，针对客户订单的退货是采用 Retail 总部中的退货单文档进行处理的。 但是，退货单文档仅可用于处理要退货的产品。 退货产品由退货单行上的负数量指示。 相对比的是，销量由正数量指示。 但是，退货单文档不支持正数量。 由于此限制，先前版本的 Retail 不支持使用退货单文档进行产品交换的方案。
+在先前版本的 Microsoft Dynamics 365 for Retail 中，针对客户订单的退货是采用 Retail Headquarters 中的退货单文档进行处理的。 但是，退货单文档仅可用于处理要退货的产品。 退货产品由退货单行上的负数量指示。 相对比的是，销量由正数量指示。 但是，退货单文档不支持正数量。 由于此限制，先前版本的 Retail 不支持使用退货单文档进行产品交换的方案。
 
 但是，现已添加了相应功能，可支持就退货单进行产品交换的方案。 Retail 现在使用销售订单文档而不是退货单文档来处理这些类型的交易。
 
@@ -51,4 +51,3 @@ ms.lasthandoff: 12/04/2018
 - **存款单已应用** – 当用户执行客户订单选择时应用于交易的存款金额。 如果不存在存款覆盖，并且配置了 10% 的存款，则此字段中的金额为客户订单总金额的 90%。
 - **执行金额** – 创建或编辑客户订单时或者在客户订单交换期间，交货方式设置为**执行**情况下各行的总金额。 此字段中的金额包括税款和费用。
 - **退货金额** – 客户订单交换期间具有负数量的行的总金额。 此字段中的金额包括税款和费用。
-

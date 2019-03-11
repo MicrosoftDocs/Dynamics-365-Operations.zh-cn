@@ -1,14 +1,14 @@
 ---
-title: "添加位置与当事方关系类型"
-description: "本主题介绍如何添加新的位置与当事方关系类型。"
+title: 添加位置与当事方关系类型
+description: 本主题介绍如何添加新的位置与当事方关系类型。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 543784e8072f88c10f63e1b44921b9f2d37308c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e0ab9c9894fdd5fba224c166941abbf52172ae46
-ms.openlocfilehash: 27819c922832a30eb0b20db6bffdbd4504e6d5e6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 06/12/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357488"
 ---
-
 # <a name="add-location-roles-and-party-relationship-types"></a>添加位置角色和当事方关系类型 
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ ms.lasthandoff: 06/12/2018
     3.  若要测试填充新关系类型，可创建一个可运行的类，然后在 Main() 中调用 DirDataPopulation::insertDirRelationshipTypes()。 应该会在 **DirRelationshipTypeTable** 中看到这个新关系类型，而整个新关系类型也会出现在**关系类型**页中。
 
         ![可运行的类](media/Runnable.PNG)
-

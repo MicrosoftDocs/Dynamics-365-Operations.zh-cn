@@ -1,32 +1,30 @@
 ---
-title: "服务状态和进度字段交互"
-description: "在“服务订单”窗体中，标题上的“进度”字段反映整个服务订单的状态，而“状态”报告各个服务订单行的状态。"
+title: 服务状态和进度字段交互
+description: 在“服务订单”窗体中，标题上的“进度”字段反映整个服务订单的状态，而“状态”报告各个服务订单行的状态。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 2dd7b5160149a38dd62535901c1225bf704f404d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 51ef39266e8de00488954918568d00a297a9b50a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346126"
 ---
-
-
 # <a name="service-status-and-progress-field-interaction"></a>服务状态和进度字段交互 
 
 [!include [banner](../includes/banner.md)]
@@ -95,6 +93,5 @@ ms.lasthandoff: 05/08/2018
 如果服务订单中的所有行都标记为**已过帐**，则状态订单的进度为**已过帐**。 如果有些行的状态为**已过帐**，而有些行的状态为**已取消**，则进度仍为**已过帐**。
 
   
-
 
 

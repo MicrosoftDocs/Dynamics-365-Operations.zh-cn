@@ -1,13 +1,13 @@
 ---
-title: "成本控制移动工作区"
-description: "此主题提供有关成本控制移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。"
+title: 成本控制移动工作区
+description: 此主题提供有关成本控制移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: aevengir
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: b6cdb69f32de2118e685c149605d50b78105c098
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 39578744654215795f43fec8dcc70c264b66fb0b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317560"
 ---
-
 # <a name="cost-controlling-mobile-workspace"></a>成本控制移动工作区
 
 [!include [banner](../includes/banner.md)]
 
 此主题提供有关**成本控制**移动工作区的信息。 此工作区让成本中心经理可以在任何时候任何位置查看有关成本中心绩效的信息。
 
-将此工作区用于与 Microsoft Dynamics 365 for Unified Operations 移动应用一起使用。
+将此工作区用于与 Microsoft Dynamics 365 for Unified Operations mobile 应用一起使用。
 
 ## <a name="overview"></a>概览
 **成本控制**移动工作区通过比较实际成本与预算成本，提供成本中心当前绩效的即时视图。 可以向下钻取单个成本元素的状态。
@@ -54,7 +53,7 @@ ms.lasthandoff: 03/26/2018
         > [!NOTE]
         > 显示在列表中的成本中心取决于**成本核算**模块中授予的访问权限。
 
--   **视图：**基于选择的操作和**成本核算**模块中的配置，可以查看卡中的以下信息：
+-   **视图：** 基于选择的操作和**成本核算**模块中的配置，可以查看卡中的以下信息：
 
     -   实际值与预算(当前期间)
     -   实际值与已修订的预算(当前期间)
@@ -75,7 +74,7 @@ ms.lasthandoff: 03/26/2018
     
     [![成本元素的卡](./media/Cost-controlling.png)](./media/Cost-controlling.png)
 
-## <a name="prerequisites"></a>必备项
+## <a name="prerequisites"></a>先决条件
 先决条件根据为您的组织部署的 Microsoft Dynamics 365 版本不同。
 
 ### <a name="prerequisites-if-you-use-microsoft-dynamics-365-for-finance-and-operations"></a>使用 Microsoft Dynamics 365 for Finance and Operations 的先决条件
@@ -144,5 +143,4 @@ ms.lasthandoff: 03/26/2018
 10. 选择**当前期间的详细信息**链接。
 11. 查看单个成本元素的绩效。
 12. 也可以搜索特定成本元素。
-
 

@@ -1,38 +1,37 @@
 ---
-title: "Dynamics 365 for Talent Core HR（2018 年 9 月 10 日）中的新增功能或更改的功能"
-description: "此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新功能和更改的功能。"
+title: Dynamics 365 for Talent Core HR（2018 年 9 月 10 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 09/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-09-06
 ms.dyn365.ops.version: Talent September 10, 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 7d4a049a44374276655dce696b5bbbe2e6f9fba9
 ms.openlocfilehash: b41ce93c8ae93054d2b0d71340b99e0910d4510f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/12/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303472"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Dynamics 365 for Talent Core HR（2018 年 9 月 10 日）中的新增功能或更改的功能
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-september-10-2018"></a>Dynamics 365 for Talent Core HR（2018 年 9 月 10 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
 **内部版本 8.1.138.0**
 
-此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新功能和更改的功能。
+此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 
 ## <a name="allow-specific-time-of-day-on-time-off-requests-half-days"></a>允许请特定时间段的假（半天）
 
@@ -101,4 +100,3 @@ ms.lasthandoff: 09/12/2018
 - 雇用合同工时，请求/操作页面中的**补偿**选项卡应不可用。
 - 请求终止过程中，所有必填字段均包含数据之前，不能继续操作。
 - 已解决了人员管理分析中的排序和日期显示问题。
-

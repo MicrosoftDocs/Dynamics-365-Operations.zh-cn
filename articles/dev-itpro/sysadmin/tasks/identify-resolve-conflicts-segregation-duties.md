@@ -1,13 +1,13 @@
---- 
-title: "确定和解决职责划分冲突"
-description: "您可以设置规则，以分离必须由不同用户执行的任务。"
+---
+title: 确定和解决职责划分冲突
+description: 您可以设置规则，以分离必须由不同用户执行的任务。
 author: maertenm
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysSecSegregationOfDutiesConflict, SysSecSegregationOfDutiesRule
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9d4a6bd14090213cc19a072d030bc26886c7a8d0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c3a366ea4b558ba4e4af7336992dbb091b0b1414
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353095"
 ---
 # <a name="identify-and-resolve-conflicts-in-segregation-of-duties"></a>确定和解决职责划分冲突
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
     * 选择一个规则。  
 2. 单击“核实职责和角色”。
     * 如果任何现有角色违反选定的规则，会显示包含角色名称和冲突职责的名称。 管理员必须指明减少安全风险或修改角色，以确保不违反职责划分规则。      如果没有角色违反选定的规则，会显示一条消息，以指明所有角色都遵从规则。  
-
 

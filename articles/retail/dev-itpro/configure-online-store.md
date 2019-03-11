@@ -1,13 +1,13 @@
 ---
-title: "配置在线商店"
-description: "本文提供用于帮助您配置和管理在线商店的主题的链接。"
+title: 配置在线商店
+description: 本文提供用于帮助您配置和管理在线商店的主题的链接。
 author: kfend
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations, Retail
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: meeram
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
 ms.openlocfilehash: d353baf67540b64168f29be3506d73e721e73523
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354360"
 ---
-
 # <a name="configure-online-stores"></a>配置在线商店
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ ms.lasthandoff: 08/08/2018
 | 任务                                 | 明细                                                                                                                               | 主题                                                                                                                                                                                                                                                                                  |
 |--------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 设置渠道集成模板。 | 模板使零售的组件可以彼此通信。 配置数据交换设置之前设置模板。 | [设置实时服务模板](https://technet.microsoft.com/en-us/library/hh580631.aspx)（AX 2012 的 TechNet 内容）[设置渠道模板](https://technet.microsoft.com/en-us/library/jj677402.aspx)（AX 2012 的 TechNet 内容） |
-
 
 
 

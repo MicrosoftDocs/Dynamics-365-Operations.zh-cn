@@ -1,13 +1,13 @@
---- 
-title: "添加到绩效日记帐并向某人发送表扬"
-description: "绩效日记帐中包含与如何满足目标或您在某个期间的表现有关的信息。"
+---
+title: 添加到绩效日记帐并向某人发送表扬
+description: 绩效日记帐中包含与如何满足目标或您在某个期间的表现有关的信息。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EssWorkspace, HcmPerfJournal, HcmPerfJournalAddLink, HcmPerfPraise, HcmWorkerLookUpByPerson, HcmPerfJournalAdd
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 07f5a16ccb349fbef4c0d2be14c1ef02ed8831dd
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: e232ba1f5803f6dee148f23098563c99c1622cdf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364549"
 ---
 # <a name="add-to-your-performance-journal-and-send-praise-to-someone"></a>添加到绩效日记帐并向某人发送表扬
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/29/2017
 9. 在“关键字”字段中，键入一个值。
 10. 单击“添加外部链接”。
 11. 在“描述”字段中，键入“构想”。
-12. 在“Internet 地址”字段中，键入“https://www.microsoft.com/en/envision/default”。
+12. 在”Internet 地址“字段中，键入“https://www.microsoft.com/en/envision/default”。
 13. 单击“保存”按钮下的标题“绩效日记帐”返回网格。
     * 您可以将所选日记帐添加到目标，以便其在您打开该目标时显示。 将在“链接”快速选项卡中添加一个链接。如果您向目标添加一个日记帐，然后将该目标添加到审核，将自动在该审核中显示这个日记帐。  
     * 您可以将所选日记帐添加到审核，以便其在您打开该审核时显示。    将在“链接”快速选项卡中添加一个链接。  
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/29/2017
 19. 从公司员工列表选择一个人。
 20. 在"描述"字段中，输入“感谢所有人在会议中的帮助！”。
 21. 单击“发送”。
-
 

@@ -1,32 +1,31 @@
 ---
-title: "为优化顾问创建规则"
-description: "本主题讨论如何为优化顾问添加新规则。"
+title: 为优化顾问创建规则
+description: 本主题讨论如何为优化顾问添加新规则。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: ca73120a5a0da4dc348c2d16dca8e7654876af5d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: a18fac31b5acb7d2a1ec40203122d4eb9d94a439
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354153"
 ---
-
 # <a name="create-rules-for-optimization-advisor"></a>为优化顾问创建规则
 
 [!include [banner](../includes/banner.md)]
@@ -196,7 +195,7 @@ class ScanNewRulesJob
 
 此规则将在**诊断验证规则**窗体（可从**系统管理** > **定期任务** > **维护诊断验证规则**访问）中显示。 若要评估该规则，请转到**系统管理** > **定期任务** > **计划诊断验证规则**，然后选择规则的频率，如**每日**。 单击**确定**。 转到**系统管理** > **优化顾问**以查看新商机。 
 
-以下示例是带规则摘要的代码段，其中包括所有必需的方法和属性。 可帮助您熟悉如何撰写新规则。 此示例中使用的标签和操作菜单项仅用于演示目的。
+以下示例是带规则摘要的代码段，其中包括所有必需的方法和属性。 可帮助您熟悉如何撰写新规则。此示例中使用的标签和操作菜单项仅用于演示目的。
 
 ```
 [DiagnosticsRuleAttribute]
@@ -256,4 +255,3 @@ public final class SkeletonSelfHealingRule extends SelfHealingRule implements ID
 ```
 
 有关详细信息，请观看以下 YouTube 视频短片：[Dynamics 365 for Finance and Operations 中的优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-

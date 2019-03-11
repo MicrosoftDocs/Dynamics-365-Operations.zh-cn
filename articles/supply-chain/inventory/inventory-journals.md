@@ -1,13 +1,13 @@
 ---
-title: "库存日记帐"
-description: "本主题介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。"
+title: 库存日记帐
+description: 本主题介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。
 author: perlynne
 manager: AnnBe
 ms.date: 04/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalBOM, InventJournalCount, InventJournalCountTag, InventJournalLossProfit, InventJournalMovement, InventJournalTransfer, WMSJournalTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 39d66bb9fd2e121b7ce842d869c2a0a0fa5fa8a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7e6ac46cc4d4961cdd76f6127d8900a9b3d13a39
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361674"
 ---
-
 # <a name="inventory-journals"></a>库存日记帐
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 04/13/2018
 
 本主题介绍如何使用库存日记帐过帐实际库存交易记录的不同类型。
 
-Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过帐多种类型的实际库存交易记录，如发货和收货的过帐、库存变动、物料清单的创建，以及实际库存的对帐。 所有这些库存日记帐以相同的方式被使用，不过，它们划分为不同类型。
+Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过帐多种类型的实际库存交易记录，如发货和收货的过帐、库存变动、物料清单 (BOM) 的创建，以及实际库存的对帐。 所有这些库存日记帐以相同的方式被使用，不过，它们划分为不同类型。
 
 ## <a name="types-of-inventory-journals"></a>库存日记帐的类型
 提供以下库存日记帐类型：
@@ -69,7 +68,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 
 ### <a name="item-arrival"></a>物料到达
 
-您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从 **“到达概览”** 页上创建到达日记帐，作为到达管理的一部分，也可以手动从 **“物料到达”** 页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Finance and Operations 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
+您可以使用物料到达日记帐登记物料收货（例如，从采购订单）。 可以从**到达概览**页上创建到达日记帐，作为到达管理的一部分，也可以手动从**物料到达**页创建日记帐条目。 如果您启用物料到达日志名称检查领料库位，Finance and Operations 会查找接收物料的库位，如果存在空间，则会为新进物料生成库位目标。
 
 ### <a name="production-input"></a>生产输入
 
@@ -120,4 +119,3 @@ Microsoft Dynamics 365 for Finance and Operations 中的库存日记帐用于过
 ## <a name="additional-resources"></a>其他资源
 
 [数据实体](../../dev-itpro/data-entities/data-entities.md)
-

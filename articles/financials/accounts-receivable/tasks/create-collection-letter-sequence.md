@@ -1,13 +1,13 @@
---- 
-title: "创建催款单序列"
-description: "使用此任务指南创建收款单序列。"
+---
+title: 创建催款单序列
+description: 使用此任务指南创建收款单序列。
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CollectionLetterCourse
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: db5264f6d8d7723ff01d13e99728c2bfebcb4515
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6331c3680169b305c4bfbfada4ba106b619be092
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311557"
 ---
 # <a name="create-a-collection-letter-sequence"></a>创建催款单序列
 
@@ -65,5 +65,4 @@ ms.lasthandoff: 09/29/2017
 26. 展开“注意”快速选项卡。
 27. 输入显示在所选收款单代码的收款单文本。
     * 您可以应用注释框上方的“翻译菜单”将此文本翻译为多种语言。  
-
 

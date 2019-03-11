@@ -1,13 +1,13 @@
 ---
-title: "项目合同"
-description: "此主题举例说明可以为不同类型的项目和融资来源创建的项目合同，以及如何在 Microsoft Dynamics 365 for Finance and Operations 中管理合同和发票项目客户。"
+title: 项目合同
+description: 本主题举例说明可以为不同类型的项目和融资来源创建的项目合同，以及如何在 Microsoft Dynamics 365 for Finance and Operations 中管理合同和发票项目客户。
 author: KimANelson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectContractsListPage, ProjProjectsListPage
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c0f0fcec64ce03c6e1d877fb1c8d004bb416bd95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e46393b9ac8797bf12cca12099d177980b75ba38
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310361"
 ---
-
 # <a name="project-contracts"></a>项目合同
 
 [!include [banner](../includes/banner.md)]
 
-本文提供示例，说明可以为不同类型的项目和融资来源创建的项目合同，以及如何在 Microsoft Dynamics 365 for Finance and Operations 中管理合同和发票项目客户。
+本文举例说明可以为不同类型的项目和融资来源创建的项目合同，以及如何在 Microsoft Dynamics 365 for Finance and Operations 中管理合同和发票项目客户。
 
 为项目合同所创建项目的类型会确定用于向项目客户开票的方法。 您可以更改项目合同和相关的项目，但不能更改项目类型。 
 
@@ -261,7 +260,7 @@ ms.lasthandoff: 03/26/2018
 
 对于计费规则的所有类型，可以指定从客户发票中扣减的保留百分比，直至项目达到商定的阶段。 在项目合同中指定付款保留百分比。 该金额基于客户发票中相应行的总值计算并从中扣除。 
 
-对于 **“时间和材料”** 和 **“进度”** 计费规则，您可以分配可计费的类别。 计费类别指示这些交易记录应包括在客户发票中。 
+对于**时间和材料**和**进度**计费规则，您可以分配可计费的类别。 计费类别指示这些交易记录应包括在客户发票中。 
 
 当您准备为客户开票数时，发票项目的金额是基于计费规则计算的，并且将产生一个项目发票提案。 
 
@@ -342,7 +341,6 @@ ms.lasthandoff: 03/26/2018
 -   在项目进行过程中，您在每个日历月末创建客户发票。
 
 在第一个月期间，由该项目的顾问记录总计 800 个小时。 向项目收取的办公用品成本为 2,000。 因此，在本月底，创建了 122,000 的发票：以 800 个小时，每小时 150 进行计算，外加 2,000 的办公用品费用。
-
 
 
 

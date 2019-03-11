@@ -1,13 +1,13 @@
 ---
-title: "周期盘点"
-description: "本文介绍如何使用仓库管理中提供的仓库解决方案使用周期盘点。 本文不适用于可用于库存管理的仓库解决方案。"
+title: 周期盘点
+description: 本文介绍如何使用仓库管理中提供的仓库解决方案使用周期盘点。 本文不适用于可用于库存管理的仓库解决方案。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSCycleCountPlan, WHSCycleCountPlanListPage, WHSCycleCountThreshold, WHSWorkTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3a76082a7aa375424e6f118744e2f63600a8cbda
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 9da40e90982d9d4aca38890ed121782f4236712d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323218"
 ---
-
 # <a name="cycle-counting"></a>周期盘点
 
 [!include [banner](../includes/banner.md)]
@@ -138,7 +137,6 @@ ms.lasthandoff: 05/08/2018
 
 ## <a name="additional-resources"></a>其他资源
 [为仓库工作配置移动设备](configure-mobile-devices-warehouse.md)
-
 
 
 

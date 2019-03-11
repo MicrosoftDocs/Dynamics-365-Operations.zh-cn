@@ -1,13 +1,13 @@
 ---
-title: "导入币种汇率。"
-description: "如果法人收到外币发票，则必须将外币转换为本币。 这意味着需要不同币种的最新汇率。 本主题提供导入欧洲央行和俄罗斯央行等汇率提供方通过 Internet 发布的参考汇率所需设置和处理的概览。"
+title: 导入币种汇率。
+description: 如果法人收到外币发票，则必须将外币转换为本币。 这意味着需要不同币种的最新汇率。 本主题提供导入欧洲央行和俄罗斯央行等汇率提供方通过 Internet 发布的参考汇率所需设置和处理的概览。
 author: EvgenyPopovMBS
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ExchangeRateProviderConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: epopov
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: edd72b48a640126577dd7a2add3a4891ae505fdf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: df07066371cb7d9c69976c9714b6d2fe456a0308
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333384"
 ---
-
 # <a name="import-currency-exchange-rates"></a>导入币种汇率。
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,6 @@ ms.lasthandoff: 03/26/2018
 | **创建必需的币种对**    | 如果导入的币种对不存在，此复选框管理币种对的自动创建。 此选项可能对某些提供方不可用。                                                                                                                                                                                               |
 | **重写现有汇率**   | 已存在特定日期的汇率时，此复选框管理汇率对的现有汇率更新。 如果不选中此复选框，则已存在另一个汇率时，不导入指定日期的汇率。                                                                                       |
 | **禁止在法定假日导入** | 此复选框管理假日的汇率导入。 例如，如果选中此复选框并使用欧洲央行作为汇率提供方，系统将不更新与当前法人有关的假日的汇率。 此选项可能对某些提供方不可用。 |
-
 
 
 

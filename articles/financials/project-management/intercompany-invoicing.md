@@ -1,13 +1,13 @@
 ---
-title: "内部公司开票"
-description: "本文提供 Microsoft Dynamics 365 for Finance and Operations 中项目的公司内部开票的信息和示例。"
+title: 内部公司开票
+description: 本文提供 Microsoft Dynamics 365 for Finance and Operations 中项目的公司内部开票的信息和示例。
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 857aee796db2a4743cdbd91da3eb1cf6f996f9d1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 3d4354316d0c37c6556c0ec3d27a3c62c5afb7b0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333476"
 ---
-
 # <a name="intercompany-invoicing"></a>内部公司开票
 
 [!include [banner](../includes/banner.md)]
@@ -112,6 +111,5 @@ USSI，借出法人，必须创建和过帐内部公司发票。 有两个此任
 
 
 有关详细信息，请参阅[配置内部公司项目开票](tasks/configure-intercompany-project-invoicing.md)。
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "固定资产处置过帐科目"
-description: "本主题说明如何为处理资产设置总帐过帐科目。"
+title: 固定资产处置过帐科目
+description: 本主题说明如何为处理资产设置总帐过帐科目。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a8e00c00b0cb7058858fde3774941911ce20fb6f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: bfed7657649f938c3d436468891d40d4194b555d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367171"
 ---
-
 # <a name="fixed-asset-disposal-posting-accounts"></a>固定资产处置过帐科目
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ ms.lasthandoff: 11/03/2017
 单击“处置”，然后单击“销售”或“报废”，然后设置详细帐户来冲销固定资产的帐面净值。 您还可以在“处置参数”页的“过帐值”和“销售价值类型”字段中输入信息。 
 
 低价值池中某一资产的处置交易记录将只按已处置金额减少低价值池的帐面净值。 但是，当某一资产的销售额大于低价值池的帐面净值时，帐面净值将被减少到零。
-
 
 
 

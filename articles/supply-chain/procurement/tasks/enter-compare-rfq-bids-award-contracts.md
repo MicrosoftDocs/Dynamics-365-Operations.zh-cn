@@ -1,13 +1,13 @@
---- 
-title: "输入和比较询价出价并授予合同"
-description: "此过程显示您如何输入给询价的回复，以及如何对出价评分和比较出价，然后将出价授予某一供应商。"
+---
+title: 输入和比较询价出价并授予合同
+description: 此过程显示您如何输入给询价的回复，以及如何对出价评分和比较出价，然后将出价授予某一供应商。
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, PurchRFQCaseTable, PurchRFQReplyTable, PurchRFQCompare, PurchRFQEditLines, PurchRFQEditLinesParameters, PurchTable
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7cd4876acfebcc9595abb358cfc9b355e93041d6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349990"
 ---
 # <a name="enter-and-compare-rfq-bids-and-award-contracts"></a>输入和比较询价出价并授予合同
 
@@ -116,5 +116,4 @@ ms.lasthandoff: 09/14/2018
 4. 关闭该页面。
 5. 关闭该页面。
 6. 关闭该页面。
-
 

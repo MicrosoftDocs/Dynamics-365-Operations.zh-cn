@@ -1,13 +1,13 @@
 ---
-title: "考勤管理登记"
-description: "时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。 本主题介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。"
+title: 考勤管理登记
+description: 时间登记工作人员可以输入上班打卡、下班打卡、登记间接活动、缺勤登记等不同类型的时间登记。 本主题介绍工作流的登记、计算、审核和使用以将结构和自动审核添加到时间表审核流程。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, JmgCalcApprovePickDialog, JmgGroupApprove, JmgGroupCalc, JmgGroupSigningTable, JmgRegistration, JmgTimeCalcParmeters, WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: rschloma
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ec008cd65fe7c11eb24ae8c5088d53f11dc2c88
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 29040d0c96183898672bc405364ec59707bff53a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335914"
 ---
-
 # <a name="time-and-attendance-registration"></a>考勤管理登记
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ ms.lasthandoff: 11/03/2017
 -   时间消耗量
 -   项目费用
 -   项目物料
-
 
 
 

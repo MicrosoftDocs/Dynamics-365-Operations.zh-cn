@@ -1,13 +1,13 @@
 ---
-title: "修改行定义单元格"
-description: "本文介绍财务报表中行定义的每个单元格必需的信息，并解释如何输入该信息。"
+title: 修改行定义单元格
+description: 本文介绍财务报表中行定义的每个单元格必需的信息，并解释如何输入该信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323632"
 ---
-
 # <a name="modify-row-definition-cells"></a>修改行定义单元格
 
 [!include [banner](../includes/banner.md)]
@@ -387,10 +386,10 @@ ms.lasthandoff: 08/13/2018
 某些会计系统支持在财务数据中使用会计科目属性和交易记录属性。 这些属性的作用类似于虚拟会计科目段，并且可以包含有关会计科目或交易记录的附加信息。 此附加信息可能是会计科目 ID、批次 ID、邮政编码或其他属性。 如果你的会计系统支持这些属性，则可以将会计科目属性或交易记录属性用作行定义中的行修饰符。 有关如何覆盖行信息的信息，请参阅本文前文中的“覆盖列定义”部分。
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>指定“链接到财务维度”单元格
-**链接到财务维度**单元格包含至应包含在报表每一行中的财务数据的链接。 此单元格包含维度值，而且您可指定 Microsoft Excel 工作表中的单元格，或除此之外，指定段值或维度值。 要打开**维度**对话框，请双击**链接到财务维度**单元格。
+**链接到财务维度**单元格包含至应包含在报表每一行中的财务数据的链接。 此单元格中包含维度值，但您可以指定 Microsoft Excel 工作表中的单元格而不指定科目段值或维度值，也可以同时指定单元格和科目段值或维度值。 要打开**维度**对话框，请双击**链接到财务维度**单元格。
 
 > [!NOTE]
-> 报表设计器不能选择 Microsoft Dynamics ERP 系统中包含任何下列保留字符的科目、维度或字段：&、\*、\[、\]、{ 或 }。 要为已在行定义中的行指定信息，请在**链接到财务维度**单元格中添加信息。 要添加链接到财务数据的新行，请使用**从以下位置插入行**对话框在报表定义中创建新行。 列标题会根据该列的配置方式而变化，如下表所示。
+> 报表设计器不能选择 Microsoft Dynamics ERP 系统中包含任何下列保留字符的科目、维度或字段：&、\*、\[、\]、{ 或 }。 若要为行定义中已存在的行指定信息，请将该信息添加到**指向财务维度的链接**单元格中。 要添加链接到财务数据的新行，请使用**从以下位置插入行**对话框在报表定义中创建新行。 列标题会根据该列的配置方式而变化，如下表所示。
 
 | 选定的链接类型       | “链接”列的描述将更改为 |
 |----------------------------------|----------------------------------------------------|
@@ -456,10 +455,10 @@ ms.lasthandoff: 08/13/2018
 | 减去一系列段值。                                                     | -Account=\[1200:1205\]                                                                                       |
 | 减去一系列包含通配符的段值。                    | -Account=\[120?:130?\]                                                                                       |
 
-虽然您可直接修改科目，但也可使用**维度**对话框将正确的格式应用于财务数据链接。 任何值均可包含通配符（? 或 \*）。 但是，报表设计器不能选择 Microsoft Dynamics ERP 系统中包含任何下列保留字符的科目、维度或字段：&、\*、\[、\]、{ 或 }。
+虽然您可直接修改科目，但也可使用**维度**对话框将正确的格式应用于财务数据链接。 任何值均可包含通配符（? 或 \*）。 不过，报表设计器不能选择 Microsoft Dynamics ERP 系统中包含任何下列保留字符的科目、维度或字段：&、\*、\[、\]、{ 或 }。
 
 > [!NOTE]
-> 要减去值，您必须将这些值放入圆括号中。 例如，如果您输入 **450? (- 4509)**，它将显示为 **+Account=\[4509\]-Account=\[450?\]**，并且您命令报表设计器 从以 450 开始的任何科目段的金额中减去科目段 4509 的金额。
+> 若要减去某些值，则必须将那些值用括号括起来。 例如，如果您输入 **450? (- 4509)**，它将显示为 **+Account=\[4509\]-Account=\[450?\]**，并且您命令报表设计器 从以 450 开始的任何科目段的金额中减去科目段 4509 的金额。
 
 ### <a name="add-or-subtract-accounts-from-other-accounts"></a>从其他科目中加减金额
 
@@ -533,4 +532,3 @@ ms.lasthandoff: 08/13/2018
 ## <a name="additional-resources"></a>其他资源
 
 [财务申报](financial-reporting-intro.md)
-

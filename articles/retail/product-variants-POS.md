@@ -1,32 +1,31 @@
 ---
-title: "销售点 (POS) 中的库存查找"
-description: "本主题介绍可用于在销售点 (POS) 中查看库存信息的选项。"
+title: 销售点 (POS) 中的库存查找
+description: 本主题介绍可用于在销售点 (POS) 中查看库存信息的选项。
 author: ashishmsft
 manager: AnnBe
 ms.date: 03/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application update 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: cd2dc460c9e862503ebbf1942dcf998d67829d86
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314409"
 ---
-
 # <a name="inventory-lookup-in-the-point-of-sale-pos"></a>销售点 (POS) 中的库存查找
 
 [!include [banner](includes/banner.md)]
@@ -116,4 +115,3 @@ ms.lasthandoff: 01/04/2019
 | 可用性         | 显示所选位置所选变型组合的 ATP 信息。 |
 | 显示所有位置   | 切换到标准库存查找视图，并突出显示商店定位符组中所有商店内和**标准/默认**类型的配送中心内的物料变型的库存可用性信息。 |
 | 查看产品详细信息 | 将用户重定向到关联的基础产品的**产品详细信息**页。 |
-

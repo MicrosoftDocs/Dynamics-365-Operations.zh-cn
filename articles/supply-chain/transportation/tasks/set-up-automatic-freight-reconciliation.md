@@ -1,13 +1,13 @@
---- 
-title: "设置自动装运对帐"
-description: "此过程显示如何为自动货运对帐设置数据。"
+---
+title: 设置自动装运对帐
+description: 此过程显示如何为自动货运对帐设置数据。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/16/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSFreightBillTypeAssignment, TMSCarrierCodeLookup, DefaultDashboard, TMSAuditMaster
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d990efd7c929b15d57d64e850bc3308349abb978
 ms.openlocfilehash: b7772ad779495b36941a3dc86cc456d80a964467
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357465"
 ---
 # <a name="set-up-automatic-freight-reconciliation"></a>设置自动装运对帐
 
@@ -71,5 +71,4 @@ ms.lasthandoff: 10/17/2018
     * 如果货运帐单和承运人发票上的货币金额不同，则只要差值在容差级别内，超额支付和未足额支付原因代码将指定应登记的差异金额。  
 11. 在“未足额支付原因代码”字段中，输入或选择一个值。
 12. 关闭该页面。
-
 

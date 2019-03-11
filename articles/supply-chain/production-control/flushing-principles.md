@@ -1,13 +1,13 @@
 ---
-title: "耗用原则"
-description: "本主题描述为原材料消耗量使用的四个耗用原则。"
+title: 耗用原则
+description: 本主题描述为原材料消耗量使用的四个耗用原则。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorReleaseOrders
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e4b9cd918bec9a094744b208821285c57f01798a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: f5fc4db479852ffac5f2b3401a0c1bd92c35a7cb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358293"
 ---
-
 # <a name="controlling-raw-material-consumption-by-using-flushing-principles"></a>使用耗用原则控制原材料消耗量
 
 [!include [banner](../includes/banner.md)]
@@ -64,4 +63,3 @@ ms.lasthandoff: 02/08/2018
 
 ### <a name="available-at-location"></a>在库位可用
 “在库位可用”耗用原则指示当物料登记为生产领料时自动使用物料。 当原材料领料工作完成时，或当物料在生产输入库位可用且物料行被发放到仓库时，该物料登记为从库位领料。 在批处理作业中对流程进行过帐期间生成领料单。 例如，如果一个生产订单有多个领料活动，则与此原则有关。 在这种情况下，你不必手动更新领料单，而且可以获得 WIP 余额的当前视图。
-

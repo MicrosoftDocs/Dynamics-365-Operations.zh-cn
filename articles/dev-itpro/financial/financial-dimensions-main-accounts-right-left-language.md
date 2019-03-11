@@ -1,13 +1,13 @@
 ---
-title: "从右到左的语言中的财务维度和主科目"
-description: "本主题介绍当您使用从右到左的语言时应考虑的一些实施决策以及您必须设置财务维度和主科目。"
+title: 从右到左的语言中的财务维度和主科目
+description: 本主题介绍当您使用从右到左的语言时应考虑的一些实施决策以及您必须设置财务维度和主科目。
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 9609c052083dc3157618584da9311211ea036eba
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340192"
 ---
-
 # <a name="financial-dimensions-and-main-accounts-in-right-to-left-languages"></a>从右到左的语言中的财务维度和主科目
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,6 @@ ms.lasthandoff: 08/08/2018
 -   避免在财务维度和主科目值中使用选定的会计科目分隔符。
 
 通过以下最佳实践，您将帮助保障在整个系统中一致地显示用户定义的顺序。
-
 
 
 

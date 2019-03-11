@@ -1,13 +1,13 @@
 ---
-title: "成本对象维度"
-description: "在分析成本时，使用成本元素维度确定成本流向。 您可以使用成本对象维度确定应在何处分配成本。。 本主题提供了有关成本对象维度的信息。"
+title: 成本对象维度
+description: 在分析成本时，使用成本元素维度确定成本流向。 您可以使用成本对象维度确定应在何处分配成本。。 本主题提供了有关成本对象维度的信息。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionMember
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 60a6575387a6ebe3b349a61368a7561d78dc69f3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 8195b776e5d46485172c9f5550ab4ed6d8623dfc
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310338"
 ---
-
 # <a name="cost-object-dimensions"></a>成本对象维度
 
 [!include [banner](../includes/banner.md)]
@@ -42,7 +41,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="import-cost-object-dimension-members-through-data-connectors"></a>通过数据连接器导入成本对象维度成员
 要更加轻松地导入成本对象维度成员，您可以使用数据连接器从您要作为成本对象维度使用的实体中检索值。 您可以使用预构建的数据连接器或您构建的自定义数据连接器。
-
 
 
 

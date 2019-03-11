@@ -1,13 +1,13 @@
 ---
-title: "补货"
-description: "此主题介绍可用于使用仓库管理提供功能的仓库的补货策略。"
+title: 补货
+description: 此主题介绍可用于使用仓库管理提供功能的仓库的补货策略。
 author: Mirzaab
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSReplenishmentTemplates
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 37a5509b6161caffa8f3ab65f1fd8378966c2c30
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 41f77a837f446e0ef263f1554a333d6e48248a0e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344516"
 ---
-
 # <a name="replenishment"></a>补货
 
 [!include [banner](../includes/banner.md)]
@@ -56,7 +55,7 @@ ms.lasthandoff: 04/13/2018
 ## <a name="minmax-replenishment"></a>最小/最大补货
 在最小/最大补货中，存货将得到补充，使其在设置的最小和最大限制之间。 通常情况下，此流程每天将发生一次，来保证在领料开始之前所有领料库位都填充至最大水平。 
 
-在补货模板中设置最小值和最大金额。 模板中的很多其他设置类似于波次需要补货中使用的模板中的设置。 模板应为每个物料和位置包含一行。 通过使用批处理作业运行补货时，Microsoft Dynamics 365 for Finance and Operations 将评估是否需要使用组织行的序列进行补货。 
+在补货模板中设置最小值和最大金额。 模板中的很多其他设置类似于波次需要补货中使用的模板中的设置。 模板应为每个物料和位置包含一行。 通过使用批处理作业运行补货时，Microsoft Dynamics 365 for Finance and Operations 使用所组织的行的序列评估是否需要补货。 
 
 请注意，最小/最大补货策略无法补充空位置，除非该位置设置为该物料的固定库位。 如果必须补货的库位不是固定库位，系统无法确定要补货的物料。 因此，在补货发生之前至少需要一定的现有数量。
 
@@ -77,5 +76,4 @@ ms.lasthandoff: 04/13/2018
 |    位置配置文件    |                                                                                                        创建库位需要库位配置文件。                                                                                                        |
 |   位置指令   |                                                       将工作指导到需要补货的库位以及库存来源库位需要库位指令。                                                        |
 |     工作模板      |                                                   创建补货工作以将库存移至所需库位需要<strong>补货</strong>类型的工作模板。                                                    |
-
 

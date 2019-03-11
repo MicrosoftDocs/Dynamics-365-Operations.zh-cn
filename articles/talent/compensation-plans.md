@@ -1,13 +1,13 @@
 ---
-title: "薪酬计划"
-description: "薪酬和福利经理可以使用薪酬管理来维护和处理组织的员工的固定薪酬计划和可变薪酬计划。"
+title: 薪酬计划
+description: 薪酬和福利经理可以使用薪酬管理来维护和处理组织的员工的固定薪酬计划和可变薪酬计划。
 author: kherr75
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCompensationLevel, HRCCompGrid, HRMCompFixedAction, HRMCompFixedBudget, HRMCompFixedPlanTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: e80b3ebc9c374073ff5a2dfc8c2acf1d7f6c6287
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 86070204769b866b947405436437eb0eb746de11
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303401"
 ---
-
 # <a name="compensation-plans"></a>薪酬计划
 
 [!include [banner](includes/banner.md)]
@@ -132,7 +131,6 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="recommendations"></a>建议
 在运行流程事件后，可以建议基于流程事件的计算所得指导性对员工的调薪或奖励金额的调整。 若要向员工的建议，必须在您设置了薪酬计划或设置流程事件时启用建议。
-
 
 
 

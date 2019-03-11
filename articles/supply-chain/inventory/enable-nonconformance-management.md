@@ -1,13 +1,13 @@
 ---
-title: "不符合项管理"
-description: "本文介绍使用未达标所需的基本设置。 如果要使用质检订单还需要其他设置。"
+title: 不符合项管理
+description: 本文介绍使用未达标所需的基本设置。 如果要使用质检订单还需要其他设置。
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventParameters, InventProblemType, InventProblemTypeSetup, InventQuarantineZone, InventTestDiagnosticType, InventTestReportSetup, SysUserManagement
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fc1e1eb9d8ede1d07a873ca98a1c385cf0126c3f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 93a7ed31dcad19a29a85352a2bf200915766036c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316433"
 ---
-
 # <a name="nonconformance-management"></a>不符合项管理
 
 [!include [banner](../includes/banner.md)]
@@ -55,4 +54,3 @@ ms.lasthandoff: 05/08/2018
 [质量管理流程](quality-management-processes.md)
 
 [设置不符合项管理的先决条件（任务指南）](tasks/set-up-prerequisites-nonconformance-management.md)
-

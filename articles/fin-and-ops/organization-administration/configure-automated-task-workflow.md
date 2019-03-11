@@ -1,13 +1,13 @@
 ---
-title: "配置工作流中的自动化任务"
-description: "本主题说明如何配置自动化任务的属性。"
+title: 配置工作流中的自动化任务
+description: 本主题说明如何配置自动化任务的属性。
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5a9f37228beedafa085987668d5c89b06c6c9d61
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 047abbf297b3514c7f97d2baa6c0f5cab6696cde
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365101"
 ---
-
 # <a name="configure-automated-tasks-in-a-workflow"></a>配置工作流中的自动化任务
 
 [!include [banner](../includes/banner.md)]
@@ -100,7 +99,7 @@ ms.lasthandoff: 08/08/2018
     </tr>
     <tr>
     <td>用户</td>
-    <td>特定的 Microsoft Dynamics 365 for Finance and Operations 用户</td>
+    <td>特定 Microsoft Dynamics 365 for Finance and Operations 用户</td>
     <td>
     <ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
@@ -112,4 +111,3 @@ ms.lasthandoff: 08/08/2018
     </table>
 
 8. 对您在第 2 步中选择的每个事件重复 第 3 步到第 7 步。
-

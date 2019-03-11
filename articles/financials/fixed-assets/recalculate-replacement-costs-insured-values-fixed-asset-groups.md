@@ -1,13 +1,13 @@
 ---
-title: "重新计算重置成本和固定资产组的保险额"
-description: "本文说明更新重置成本和固定资产的保险额的流程。"
+title: 重新计算重置成本和固定资产组的保险额
+description: 本文说明更新重置成本和固定资产的保险额的流程。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0756287406ad12237632ffbd455dbc6ba15d9915
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: eb3db5863bf2fcca31b6af878e7324b079f1c630
-ms.openlocfilehash: ad706a9ee441858a6f4a128ff978e24efb6ecfce
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/12/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324368"
 ---
-
 # <a name="recalculate-replacement-costs-and-insured-values-for-fixed-asset-groups"></a>重新计算重置成本和固定资产组的保险额
 
 [!include [banner](../includes/banner.md)]
@@ -74,7 +73,6 @@ ms.lasthandoff: 01/12/2018
 
 > [!NOTE]  
 > 您不能通过输入正 10 的系数冲销该 -10 系数（或者系数 2，即 -10 和 -8 之间的差值），因为这些金额将不会按您的预期想法计算。 
-
 
 
 

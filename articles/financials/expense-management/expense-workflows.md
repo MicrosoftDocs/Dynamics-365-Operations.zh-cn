@@ -1,13 +1,13 @@
 ---
-title: "设置费用的工作流"
-description: "您可以设置用于查看和审核出差和支出单据的工作流流程。"
+title: 设置费用的工作流
+description: 您可以设置用于查看和审核出差和支出单据的工作流流程。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 09/13/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowtableListPageRnr
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8294aaa344e3cb6b79fa4f33f368258ca19c8205
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: cf35406b43c1ec40a7c248b970559b65fcd8a6c6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355717"
 ---
-
 # <a name="set-up-workflows-for-expense"></a>设置费用的工作流
 
 [!include [banner](../includes/banner.md)]
@@ -32,7 +31,7 @@ ms.lasthandoff: 04/13/2018
 
 “工作流”代表业务流程。 它定义单据如何在系统中流动并指示必须由谁完成任务或审核单据。 在组织内使用工作流系统具有若干优点：
 
--   “**一致的流程**”— 您可定义特定单据（如采购申请和支出报表）的审核流程。 使用工作流系统有助于确保以一致且有效的方式来处理和审核单据。
+-   **一致的流程**— 您可定义特定单据（如采购申请和支出报表）的审核流程。 使用工作流系统有助于确保以一致且有效的方式来处理和审核单据。
 
 -   “流程可见性”— 您可跟踪特定工作流实例的状态、历史记录和绩效指标。 这帮助您确定是否需要对该工作流做出更改，以提高效率。
 
@@ -52,5 +51,4 @@ ms.lasthandoff: 04/13/2018
 |       <strong>出差申请</strong>       |          为出差申请创建审核工作流。           |
 |      <strong>预付现金请求</strong>      |         创建预付现金请求的审核工作流。          |
 |        <strong>增值税退税</strong>        | 创建增值税 (VAT) 退税审核工作流。  |
-
 

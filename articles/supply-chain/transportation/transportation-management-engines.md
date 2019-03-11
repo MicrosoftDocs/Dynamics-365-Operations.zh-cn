@@ -1,13 +1,13 @@
 ---
-title: "运输管理引擎"
-description: "运输管理引擎定义用于生成和处理运输管理中的运输费率的逻辑。"
+title: 运输管理引擎
+description: 运输管理引擎定义用于生成和处理运输管理中的运输费率的逻辑。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSFreightBillType, TMSGenericEngine, TMSMileageEngine, TMSRateEngine, TMSTransitTimeEngine, TMSZoneEngine
 audience: Application User
 ms.reviewer: josaw
@@ -18,30 +18,29 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: dff811723e25952b4c5af20262010ff4b910be7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 813d13738171969b48d16a5ed52f2b04a8beaeef
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361122"
 ---
-
 # <a name="transportation-management-engines"></a>运输管理引擎
 
 [!include [banner](../includes/banner.md)]
 
 运输管理引擎定义用于生成和处理运输管理中的运输费率的逻辑。 
 
-运输管理引擎计算任务，例如载体的运输费率。 引擎系统允许在运行期间基于在 Microsoft Dynamics 365 for Finance and Operations 中的数据更改计算策略。 运输管理引擎类似于与特定合同承运人相关的插件。
+运输管理引擎计算任务，例如载体的运输费率。 发动机系统允许在运行期间基于在 Microsoft Dynamics 365 for Finance and Operations 中的数据更改计算策略。 运输管理引擎类似于与特定合同承运人相关的插件。
 
 ## <a name="what-engines-are-available"></a>有哪些可用引擎？
-下表显示了 Microsoft Dynamics 365 for Finance and Operations 中可用的运输管理引擎。
+下表显示了 Microsoft Dynamics 365 for Finance and Operations 中可得到的运输管理引擎。
 
 | 运输管理引擎 | 说明                                                                                                                                                                                                                                                                                                                 |
 |----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **费率引擎**                  | 计算费率。                                                                                                                                                                                                                                                                                                           |
 | **通用引擎**               | 被其他引擎使用的简单辅助引擎无需来自 Microsoft Dynamics 365 for Finance and Operations 的数据，例如，分摊引擎。 分摊引擎用于减少特定订单和航线的最终运输费用，它是基于维度，例如数量和重量。 |
-| **里程引擎**               | 计算运输距离。	                                                                                                                                                                                                                                                                                     |
+| **里程引擎**               | 计算运输距离。                                                                                                                                                                                                                                                                                     |
 | **运输时间引擎**          | 计算从出发地到目的地所需的行程时间。                                                                                                                                                                                                                                       |
 | **区域引擎**                  | 计算出当前地址所在区域，并计算出为了从 A 地址到达 B 地址所需跨越的区域数量。                                                                                                                                                                    |
 | **货运帐单类型**            | 标准化货票和货运单线用于自动化货运单匹配。                                                                                                                                                                                                                |
@@ -69,7 +68,7 @@ ms.lasthandoff: 04/13/2018
 <a name="how-is-metadata-used-in-transportation-management-engines"></a>元数据如何用在运输管理引擎？
 ----------------------------------------------------------
 
-依赖于在 Dynamics 365 for Finance and Operations 中定义的数据的运输管理引擎可能使用不同的数据模式。 运输管理系统允许不同的运输管理引擎使用相同的通用物理数据库表。 为了确保运行期间引擎数据的解读正确，您可以定义数据库表的元数据。 因为其他表和表单结构无需存在于 Operations 中，这减小了构建新的运输管理引擎的代价。
+依赖于定义在 Dynamics 365 for Finance and Operations 中的数据的运输管理引擎可能使用不同的数据模式。 运输管理系统允许不同的运输管理引擎使用相同的通用物理数据库表。 为了确保运行期间引擎数据的解读正确，您可以定义数据库表的元数据。 因为其他表和表单结构无需存在于 Operations 中，这减小了构建新的运输管理引擎的代价。
 
 ## <a name="what-can-be-used-as-search-data-in-rate-calculations"></a>在费率计算中哪些可以被用作搜索数据？
 您计算 Microsoft Dynamics 365 for Finance and Operations 中的费率所使用的数据受元数据配置控制。 例如，如果您要基于邮政编码搜索费率，您必须基于查找类型为邮政编码来设置元数据。
@@ -90,7 +89,7 @@ ms.lasthandoff: 04/13/2018
 | **区域引擎**                                | 需要在主区域上直接设置元数据。                                                                                                                                                                                                                                                                                                                                                                                                          |
 | **运输时间引擎**和**里程引擎** | 直接从里程引擎的配置设置窗体检索元数据。                                                                                                                                                                                                                                                                                                                                                                                  |
 
-  **费率引擎的元数据示例**运输管理引擎需要源地址标识、目标州/国家/地区和装运的起点和终点。 通过使用这些需求，元数据将如下表数据所示。 该表还包括所需输入的数据类型的信息。
+  **费率引擎的元数据示例**运输管理引擎需要源地址标识、目标州/国家/地区和装运的起点和终点。 通过使用这些需求，元数据将如下表数据所示。 该表还包括所需输入的数据类型的信息。
 -   在**基本费率类型**页的**运输管理** &gt; **设置**中定义此信息。
 
 | 序列 | 姓名                          | 字段类型 | 数据类型 | 查找类型    | 必需 |
@@ -100,7 +99,6 @@ ms.lasthandoff: 04/13/2018
 | 3        | 目的地起始邮政编码 | 分配 | 字符串    | 邮政编码    | 已选择  |
 | 4        | 目的地终点邮政编码   | 分配 | 字符串    | 邮政编码    | 已选择  |
 | 5        | 目标国家           | 分配 | 字符串    | 国家/地区 |           |
-
 
 
 

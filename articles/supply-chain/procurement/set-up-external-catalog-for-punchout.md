@@ -1,13 +1,13 @@
 ---
-title: "为电子采购发包设置外部目录"
-description: "此主题描述使用外部目录或发包目录从供应商收集报价信息并将其添加到申请。"
+title: 为电子采购发包设置外部目录
+description: 此主题描述使用外部目录或发包目录从供应商收集报价信息并将其添加到申请。
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bc3879492f230b9477c6e5efd2edc8e1e4aca0a2
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 2892feff0ab8845515543af1a71d8f9642113726
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "368160"
 ---
-
 # <a name="set-up-an-external-catalog-for-punchout-eprocurement"></a>为电子采购发包设置外部目录
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,7 @@ ms.lasthandoff: 03/26/2018
 ### <a name="to-set-up-an-external-vendor-catalog-complete-the-following-tasks"></a>若要设置外部供应商目录，请完成以下任务：
 
 1. 设置一个采购类别层次结构。 有关详细信息，请参阅 [设置采购类别层次结构的策略](tasks/set-up-policies-procurement-category-hierarchies.md)。
-2. 在 Finance and Operations 中登记供应商。 在您可以设置访问外部供应商目录的配置时，您必须在 Microsoft Dynamics 365 中设置供应商和供应商联系人。 外部目录供应商也必须添加到所选采购类别。 有关在 Microsoft Dynamics 365 中登记供应商的详细信息，请参阅 [管理供应商协作用户](manage-vendor-collaboration-users.md)。 有关如何分配供应商到采购类别的信息，请参阅 [核准特定采购类别的供应商](tasks/approve-vendors-specific-procurement-categories.md)。
+2. 在 Finance and Operations 中登记供应商。 在您可以设置访问外部供应商目录的配置时，您必须先在 Microsoft Dynamics 365 中设置供应商和供应商联系人。 外部目录供应商也必须添加到所选采购类别。 有关在 Microsoft Dynamics 365 中登记供应商的详细信息，请参阅[管理供应商协作用户](manage-vendor-collaboration-users.md)。 有关如何分配供应商到采购类别的信息，请参阅 [核准特定采购类别的供应商](tasks/approve-vendors-specific-procurement-categories.md)。
 3. 确保设置供应商使用的度量单位和币种。 有关如何创建度量单位的信息，请参阅[管理度量单位](../pim/tasks/manage-unit-measure.md)。
 4. 使用对您的供应商的外部目录站点的要求配置外部供应商目录。 有关此任务的更多详细信息，请参阅[配置外部供应商目录](#configure-the-external-vendor-catalog)。
 5. 测试供应商外部目录配置以验证设置是有效的而且您可以访问供应商外部目录。 使用**验证设置**操作验证您定义的请求设置消息。 此消息可以导致供应商外部目录站点在浏览器窗口中打开。 在验证期间，无法从供应商订购物料和服务。 要订购物料和服务，则必须从采购申请访问供应商的目录。
@@ -55,16 +54,17 @@ ms.lasthandoff: 03/26/2018
 本节提供关于上一节中的任务 4 的更多详细信息。
 
 1. 输入供应商外部目录的名称和描述。 您输入的名称将出现在代表外部目录的购物车中，显示给创建申请的员工。 员工可以单击购物车以打开供应商外部目录站点上的目录。
-2. 通过使用**外部目录图像**操作添加图像。 此图像将出现在代表外部目录的购物车中，显示给创建申请的员工。 请注意，图像的宽度和高度必须相等。 否则图像不会正确显示。
+2. 通过使用 **外部目录图像**操作添加图像。 此图像将出现在代表外部目录的购物车中，显示给创建申请的员工。 请注意，图像的宽度和高度必须相等。 否则图像不会正确显示。
 3. 选择供应商的外部目录网站是否应显示在员工创建申请时的相同浏览器窗口中，或者是否应在新窗口中打开。
 4. 选择目录的供应商。 在**法人**列表中，每个法人都有一行用于设置供应商。 要允许用户直接从某人法人（而不从其他法人）的供应商目录中申请产品，您可以对您希望提供或不提供目录的各个法人使用**禁止访问**或**允许访问**按钮。
 5. 在**默认到期（天数）** 字段中，输入从外部目录收到的报价单有效，且可以用来从外部供应商进行采购的天数。 从供应商外部目录站点创建和检索报价单时，报价单截至当前系统日期有效，且在您在此字段输入的天数内一直有效。
-6. 单击**添加**按钮以开始将采购目录映射到外部目录。 然后，在目录名称列表中，选择一个类别。 类别列表是为供应商设置的所有法人中的供应商已经映射到的采购类别的超集。
+6. 单击**添加**按钮以开始将采购目录映射到外部目录。然后，在目录名称列表中，选择一个类别。 类别列表是为供应商设置的所有法人中的供应商已经映射到的采购类别的超集。
 [!NOTE]
-采购策略用于允许或限制对采购法人或接收运营单位的类别的访问权限。 发包到外部目录要求允许访问至少一个映射到目录的采购类别。
+采购策略用于允许或限制对采购法人或接收运营单位的类别的访问权限。发包到外部目录要求允许访问至少一个映射到目录的采购类别。
 7. 设置将发送到供应商的 cXML 设置请求消息。 自动生成的消息格式是为了启动会话所需的最小模板。 填写标记的值。
 
-在任何时候，您都可以通过单击**还原消息格式**重载系统生成的消息模板。 请注意，如果还原消息格式，当前消息将自动替换成自动生成的具有空标记的消息格式。
+在任何时候，您都可以通过单击**还原消息格式**重载系统生成的消息模板。 
+请注意，如果还原消息格式，当前消息将自动替换成自动生成的具有空标记的消息格式。
 
 ### <a name="cxml-setup-message"></a>cXML 设置消息
 您可以在下方找到模板中包含的标记的描述：
@@ -88,7 +88,7 @@ ms.lasthandoff: 03/26/2018
 有关 cXML 协议的详细信息，请参阅：http://cxml.org/。
 
 ## <a name="post-back-message"></a>回发消息
-回发消息是当用户从外部站点签出并返回到 Finance and Operations 时从供应商收到的消息。 回发消息不能进行配置。 此消息基于 cXML 协议定义。 以下信息可以是在申请行中收到的回发信息的一部分：
+回发消息是当用户从外部站点签出并返回到 Finance and Operations 时从供应商收到的消息。 回发消息不能进行配置。 此消息基于 cXML 协议定义。以下信息可以是在申请行中收到的回发信息的一部分：
 
 | 从供应商接收的消息 | 复制到 Finance and Operations 中的申请行|
 |------------------------------|----------------------------------------------------------|
@@ -106,5 +106,4 @@ ms.lasthandoff: 03/26/2018
 删除页面上具有删除操作的外部目录。
 
 如果从外部供应商的目录请求产品，不能删除外部供应商目录。 相反，外部供应商目录的状态被设置为无效。 如果您要取消对外部供应商的目录站点的访问，但是不删除它，请将外部目录的状态更改为无效。
-
 

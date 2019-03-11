@@ -1,13 +1,13 @@
 ---
-title: "计划工作量产能"
-description: "本主题介绍如何为一个仓库或全体仓库中的工作人员设置和计划工作量产能。"
+title: 计划工作量产能
+description: 本主题介绍如何为一个仓库或全体仓库中的工作人员设置和计划工作量产能。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSWorkloadCapacity
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: 1b1334dcba7d12f2da301f70e21a08fceb88e2b4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317284"
 ---
-
 # <a name="schedule-workload-capacity"></a>计划工作量产能
 
 [!include[banner](../includes/banner.md)]
@@ -81,4 +80,3 @@ ms.lasthandoff: 08/29/2018
 3. 在**订单类型**字段中，选择**已计划并确认**、**已计划**或**已确认**，以便指示要对报表预测的订单类型。
 4. 在**负载类型**字段中，选择一种负载类型以指定应预测体积还是重量的工作量产能。
 5. 在**工作量产能**字段中，选择一种工作量产能设置。
-

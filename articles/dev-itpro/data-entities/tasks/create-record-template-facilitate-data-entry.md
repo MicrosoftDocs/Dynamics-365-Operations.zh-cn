@@ -1,13 +1,13 @@
---- 
-title: "创建记录模板以加快数据输入"
-description: "此过程演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。"
+---
+title: 创建记录模板以加快数据输入
+description: 此过程演示如何创建报表模板，以便不必明确为每条记录输入常用字段值。
 author: margoc
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetTable, SysRecordInfo, SysRecordTemplatePromptOnCreate
 audience: Application User
 ms.reviewer: margoc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 36d14c386322adab0cc0ba9b7b47c874aefbe519
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6f8d804133f8e9c6f47420d41df8d9430381e2fe
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315973"
 ---
 # <a name="create-a-record-template-to-facilitate-data-entry"></a>创建记录模板以加快数据输入
 
@@ -49,5 +49,4 @@ ms.lasthandoff: 09/29/2017
     * 例如，输入“公司笔记本电脑”。  
 15. 单击“确定”。
 16. 单击“关闭”。
-
 

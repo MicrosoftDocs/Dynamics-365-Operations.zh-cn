@@ -1,13 +1,13 @@
---- 
-title: "定义新工作"
-description: "此任务的重点是创建新工作。"
+---
+title: 定义新工作
+description: 此任务的重点是创建新工作。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347920"
 ---
 # <a name="define-new-jobs"></a>定义新工作
 
@@ -57,7 +57,7 @@ ms.lasthandoff: 09/14/2018
 21. 在列表中，找到并选择所需记录。
 22. 在列表中，单击所选行中的链接。
 23. 切换“技能”部分的扩展。
-    * 请注意，技能、教育和证书的快速选项卡字段为空。 在从工作模板复制信息后，这些字段的信息将在单步操作中输入。   
+    * 请注意，技能、教育和证书的快速选项卡字段为空。 在从工作模板复制信息后，这些字段的信息将在单步操作中输入。   
 24. 单击“保存”。
 25. 单击“复制自”。
 26. 单击“从模板复制”。
@@ -70,5 +70,4 @@ ms.lasthandoff: 09/14/2018
 32. 切换“证书”部分的扩展。
 33. 切换“教育”部分的扩展。
 34. 单击“保存”。
-
 

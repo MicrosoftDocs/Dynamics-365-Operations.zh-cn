@@ -1,13 +1,13 @@
 ---
-title: "安装和配置 Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing"
-description: "此主题描述如何安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing。"
+title: 安装和配置 Microsoft Dynamics 365 for Finance and Operations &#8211; 仓库
+description: 此主题描述如何安装和配置 Microsoft Dynamics 365 for Finance and Operations - 仓库。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 11/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysAADClientTable, WHSMobileAppField, WHSMobileAppFieldPriority, WHSRFMenu, WHSRFMenuItem, WHSWorker
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Manufacturing
 ms.author: mafoge
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: f5e99351d79cb5898c6d5565d3d3197a8fe860df
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 0967b10c2037c24c044f38c49b1b998f6771c66b
-ms.openlocfilehash: a1f3cb65e370154e8f3f94780ffb5cab223c85f8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316111"
 ---
-
-# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>安装和配置 Microsoft Dynamics 365 for Finance and Operations &#8211; Warehousing
+# <a name="install-and-configure-microsoft-dynamics-365-for-finance-and-operations-8211-warehousing"></a>安装和配置 Microsoft Dynamics 365 for Finance and Operations &#8211; 仓库
 
 [!include [banner](../includes/banner.md)]
 
@@ -36,12 +35,12 @@ ms.lasthandoff: 12/04/2018
 > 此主题介绍如何为云部署配置仓库。 如果您需要了解如何为本地部署配置仓库，请参阅[用于本地部署的仓库](../../dev-itpro/deployment/warehousing-for-on-premise-deployments.md)。
 
 
-此主题描述如何安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing。
+此主题描述如何安装和配置 Microsoft Dynamics 365 for Finance and Operations - 仓库。
 
 Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商店中提供的一款应用程序。 对于当前版本的 Finance and Operations，此应用程序以独立组件的形式提供，也就是说，自行部署在用于仓库任务的设备上。 若要在 Finance and Operations 环境中使用此应用程序，必须将其下载到每台设备上并配置，以便连接到您的 Finance and Operations 环境。 此主题介绍如何在您的设备上安装此应用程序。 它还介绍如何配置此应用程序，以便连接到您的 Finance and Operations 环境。
 
-## <a name="prerequisites"></a>必备项
-此应用程序可在 Android 和 Windows 操作系统上使用。 若要使用此应用程序，设备上必须安装以下受支持操作系统之一。 还必须安装以下受支持的 Finance and Operations 版本之一。 请使用下表中的信息评估您的硬件和软件环境是否支持此项安装。
+## <a name="prerequisites"></a>先决条件
+此应用可在 Android 和 Windows 操作系统上使用。 若要使用此应用程序，设备上必须安装以下受支持操作系统之一。 还必须安装以下受支持的 Finance and Operations 版本之一。 请使用下表中的信息评估您的硬件和软件环境是否支持此项安装。
 
 | 平台                    | 版本                                                                                                                                                                     |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -54,7 +53,9 @@ Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商
      - [Windows 应用商店上的 Finance and Operations - Warehousing](https://www.microsoft.com/store/apps/9p1bffd5tstm)
 -   Android
     - [Google Play Store 上的 Finance and Operations - Warehousing](https://play.google.com/store/apps/details?id=com.Microsoft.Dynamics365forOperationsWarehousing)
-    - [Zebra App Gallery 上的 Finance and Operations - Warehousing](https://appgallery.zebra.com/showcase/apps/146?type=showcase)
+
+> [!NOTE]
+> Zebra App Gallery 已停用，这意味着 Finance and Operations - 仓库应用不能再从该位置下载。
 
 ## <a name="create-a-web-service-application-in-azure-active-directory"></a>在 Azure Active Directory 中创建 Web 服务应用程序
 若要使该应用程序与特定 Finance and Operations 服务器交互，必须在 Azure Active Directory 中注册一个 Web 服务应用程序，以便获得 Finance and Operations 租户。 出于安全原因，我们建议您为使用的每台设备创建一个 Web 服务应用程序。 若要在 Azure Active Directory (Azure AD) 中创建 Web 服务应用程序，请完成以下步骤：
@@ -79,7 +80,7 @@ Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商
     2.  创建新用户。
     3.  指定 Warehouse 移动设备用户，如以下屏幕截图所示。 [![wh-09-add-user-security-role](./media/wh-09-add-user-security-role.png)](./media/wh-09-add-user-security-role.png)
 
-2.  将您的 Azure Active Directory 应用程序与该 Warehousing 应用程序用户关联。
+2.  将您的 Azure Active Directory 应用程序与该仓库应用用户关联。
     1.  在 Finance and Operations 中，转至**系统管理** &gt; **设置** &gt; **Azure Active Directory 应用程序**。
     2.  创建新行。
     3.  输入（上一部分中获取的）**客户端 ID**，为其命名，然后选择以前创建的用户。 建议您标记自己的所有设备，这样就可以从该页面中轻松取消其对 Finance and Operations 的访问权限，以防这些设备丢失。 [![wh-10-ad-applications-form](./media/wh-10-ad-applications-form.png)](./media/wh-10-ad-applications-form.png)
@@ -98,7 +99,7 @@ Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商
     + **公司** - 在希望应用程序连接到的 Finance and Operations 中输入法人。 <br>[![wh-12-app-connection-settings](./media/wh-12-app-connection-settings-169x300.png)](./media/wh-12-app-connection-settings.png)
 4.  选择应用程序左上角中的**后退**按钮。 此应用程序现在将连接到您的 Finance and Operations 服务器，并将显示仓库工作人员的登录屏幕。 <br>[![wh-13-log-in-screen](./media/wh-13-log-in-screen-180x300.png)](./media/wh-13-log-in-screen.png)
 
-有关如何设置 Dynamics 365 for Finance and Operations – Warehousing 以使用移动设备上的摄像头扫描条码的详细信息，请参阅[在 Dynamics 365 for Finance and Operations – Warehousing 中使用摄像头扫描条码](scan-bar-codes-using-a-camera.md)
+有关如何设置 Dynamics 365 for Finance and Operations – 仓库以使用移动设备上的摄像头扫描条码的详细信息，请参阅[在 Dynamics 365 for Finance and Operations – 仓库中使用摄像头扫描条码](scan-bar-codes-using-a-camera.md)
 
 ## <a name="remove-access-for-a-device"></a>取消设备的访问权限
 如果设备丢失或被入侵，您必须取消设备对 Finance and Operations 的访问权限。 以下步骤介绍推荐的访问权限取消流程。
@@ -111,4 +112,3 @@ Finance and Operations - Warehousing 是 Google Play Store 和 Windows 应用商
 6.  确保应用程序的**客户端 ID** 与本部分步骤 2 中的相同。
 7.  单击顶部窗格中的**删除**按钮。
 8.  单击确认消息中的**是**。
-

@@ -1,13 +1,13 @@
 ---
-title: "用于标准成本转换的先决条件"
-description: "本主题讨论在运行标准成本转换前需执行的任务。"
+title: 用于标准成本转换的先决条件
+description: 本主题讨论在运行标准成本转换前需执行的任务。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 65844bd78363dc6638b16b3fd4ca163a3fde6a23
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351922"
 ---
-
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>用于标准成本转换的先决条件
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +49,6 @@ ms.lasthandoff: 11/03/2017
 
         有效成本细分意味着如果启用制造物料的成本，其结果将存储在物料的成本记录内的成本组细分中。 如果未在**成本细分**字段中放值，则不会为标准成本物料维护成本组细分。 也就是说，制造物料的标准成本将作为没有成本组细分的单个金额计算和维护，并且制造组件的成本份额将聚合到此单个金额中。
     -   使用**与标准的差异**字段选择汇总的成本组或各成本组。 按成本组的选择使您能够按成本组标识采购价差异和生产差异。 这也可以帮您标识四类生产差异（批次规模、数量、价格和替换差异）。 选择汇总将意味着您不能按成本组标识差异，并且不能标识四种类型的生产差异。 您只能查看汇总的生产差异。 与标准差异有关的策略独立于成本细分策略。 也就是说，您可以选择没有成本细分策略，并且选择按成本组差异，以便仍将捕获按成本组的生产差异。
-
 
 
 

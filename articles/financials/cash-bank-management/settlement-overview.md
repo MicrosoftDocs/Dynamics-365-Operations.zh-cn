@@ -1,13 +1,13 @@
 ---
-title: "结算概览"
-description: "本文提供有关结算流程的一般信息。 介绍可以结算的交易记录类型，可以在何时和如何结算交易记录，以及结算流程的结果。"
+title: 结算概览
+description: 本文提供有关结算流程的一般信息。 介绍可以结算的交易记录类型，可以在何时和如何结算交易记录，以及结算流程的结果。
 author: kweekley
 manager: AnnBe
 ms.date: 12/06/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym, LedgerJournalTransVendPaym, VendOpenTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,15 +17,14 @@ ms.assetid: 0968fa71-5984-415b-8689-759a0136d5d1
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: 075d0f5dc0c9dc4e46dc92a2da75da9f7a207472
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 9b82c6afa2812344ff8200e227ee8c5f2451584f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/06/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338283"
 ---
-
 # <a name="settlement-overview"></a>结算概览
 
 [!include [banner](../includes/banner.md)]
@@ -55,5 +54,4 @@ ms.lasthandoff: 12/06/2018
 
 ## <a name="additional-resources"></a>其他资源
 - [结算余额](settle-remainder.md)
-
 

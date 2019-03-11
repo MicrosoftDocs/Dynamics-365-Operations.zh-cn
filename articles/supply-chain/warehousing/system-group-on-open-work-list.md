@@ -1,13 +1,13 @@
 ---
-title: "对未结工作列表的系统分组"
-description: "此主题描述如何在移动设备上筛选未结工作列表。"
+title: 对未结工作列表的系统分组
+description: 此主题描述如何在移动设备上筛选未结工作列表。
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 73e1da37c354eecf1ef5d44e68d814664fe2be99
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: d9ca6b0d4a9909d419d6241a044336d7a02aea02
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331958"
 ---
-
 # <a name="system-grouping-on-an-open-work-list"></a>对未结工作列表的系统分组
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,6 @@ ms.lasthandoff: 04/13/2018
 |        选项         |                                                                                                                                                                                                                                                                         说明                                                                                                                                                                                                                                                                         |
 |-----------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 允许系统分组 |                                                                                                                                                                                                                                                 启用对所选工作列表进行系统分组菜单项。                                                                                                                                                                                                                                                  |
-| 系统分组字段 | 仅当<strong>允许系统工作</strong>设置为<strong>是</strong>时可用。 选择决定如何为工作人员对领料工作进行分组的字段。 例如，如果您选择“ShipmentId”<strong></strong>字段，工作人员将扫描装运 ID 来对领料工作进行分组。 然后将装运的所有工作分配给工作人员。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 使用<strong>系统分组标签</strong>字段通知工作人员要扫描的内容。 |
+| 系统分组字段 | 仅当<strong>允许系统工作</strong>设置为<strong>是</strong>时可用。 选择决定如何为工作人员对领料工作进行分组的字段。 例如，如果您选择<strong>ShipmentId</strong>字段，工作人员将扫描装运 ID 来对领料工作进行分组。 然后将装运的所有工作分配给工作人员。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 使用<strong>系统分组标签</strong>字段通知工作人员要扫描的内容。 |
 | 系统分组标签 |                       仅当<strong>允许系统工作</strong>设置为<strong>是</strong>时可用。 输入信息通知工作人员对领料工作分组时要扫描的内容。 例如，如果您使用 <strong>ShipmentId</strong> 字段按照装运分组领料工作，您可以在字段中输入装运 ID。 此字段要求您创建一个菜单项从而使用系统分组现有工作。 您还必须在<strong>系统分组</strong>字段中选择要按其分组的字段。                       |
-
 

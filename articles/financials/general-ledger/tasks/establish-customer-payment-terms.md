@@ -1,13 +1,13 @@
---- 
-title: "设定客户付款期限"
-description: "此程序定义了一个现金折扣和到期日期设置。"
+---
+title: 设定客户付款期限
+description: 此程序定义了一个现金折扣和到期日期设置。
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PaymDay, PaymTerm, CashDisc
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 49f4047ab4bff6bdfbe8326a6680f9d8f9762c95
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e0e43962bea3ff1c3adafa73da4ce3862963a51
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312477"
 ---
 # <a name="establish-customer-payment-terms"></a>设定客户付款期限
 
@@ -66,5 +66,4 @@ ms.lasthandoff: 09/29/2017
     * 如果您选择“发票行上的帐户”，现金折旧将被过帐到供应商发票行的同一资产/费用主要帐户。 如果您选择“使用供应商发票的主要帐户”，现金折旧将被过帐到您在“供应商的主要帐户”中定义的主要帐户。 对于本示例，选择“使用供应商发票的主要帐户”。  
 26. 输入一个供应商发票主要帐户，现金折旧将过帐到该主要帐户。
 27. 单击“保存”。
-
 

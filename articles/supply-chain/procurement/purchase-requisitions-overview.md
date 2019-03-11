@@ -1,13 +1,13 @@
 ---
-title: "采购申请概览"
-description: "此主题介绍了采购申请工作流和采购申请可能具有的不同状态。"
+title: 采购申请概览
+description: 此主题介绍了采购申请工作流和采购申请可能具有的不同状态。
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchReqConsolidation, PurchReqCreate, PurchReqCreatePurchDetails, PurchReqCreatePurchListPage, PurchReqTable, PurchReqTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f279474d4a1e2f76e810b0df80c8d91171352c17
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 942693ed3d2d54c6e973e5d3f86454b195f0fdee
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309832"
 ---
-
 # <a name="purchase-requisition-overview"></a>采购申请概览
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ ms.lasthandoff: 05/08/2018
 ## <a name="creating-purchase-requisitions"></a>创建采购申请
 您可以在**我的采购申请**页上创建采购申请并选择您所需的物料和服务。 通过选择采购类别和输入产品详细信息，您可以从组织创建的采购目录中选择物料，或请求目录中未找到的物料。  
 
-在可提交采购申请供查看前，必须在 Microsoft Dynamics 365 for Finance and Operations 客户端配置工作流。 您使用工作流通过审核流程移动采购申请，从**草稿**的初始状态到**已审核**最终状态。
+在可提交采购申请供查看前，必须在 Microsoft Dynamics 365 for Finance and Operations 中配置工作流。 您使用工作流通过审核流程移动采购申请，从**草稿**的初始状态到**已审核**最终状态。
 
 ### <a name="purchase-requisition-statuses"></a>采购申请状态
 
@@ -142,7 +141,7 @@ ms.lasthandoff: 05/08/2018
 
 ### <a name="requisitions-that-have-a-purpose-of-consumption"></a>申请具有消耗量的目标
 
-申请具有消耗量的目标表示将通过您的组织内部使用的物料或服务的需求。 通过此类型的申请创建需求始终按采购订单执行。 如果 Microsoft Dynamics 365 for Finance and Operations 设置为自动生成采购订单，将在采购申请审核后创建采购订单。
+申请具有消耗量的目标表示将通过您的组织内部使用的物料或服务的需求。 通过此类型的申请创建需求始终按采购订单执行。 如果 Microsoft Dynamics 365 for Finance and Operations 被设置为自动生成采购订单，采购订单将在采购申请被批准后创建。
 
 ### <a name="requisitions-that-have-a-purpose-of-replenishment"></a>申请具有补货的目标
 
@@ -198,7 +197,6 @@ ms.lasthandoff: 05/08/2018
 [创建消耗量申请（任务指南）](tasks/create-requisition-consumption.md)
 
 [采购申请工作流](purchase-requisitions-workflow.md)
-
 
 
 

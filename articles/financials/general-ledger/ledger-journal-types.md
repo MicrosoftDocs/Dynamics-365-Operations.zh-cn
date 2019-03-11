@@ -1,13 +1,13 @@
 ---
-title: "分类帐日记帐类型"
-description: "本主题描述了可以为财务日记帐设置的日记帐类型。"
+title: 分类帐日记帐类型
+description: 本主题描述了可以为财务日记帐设置的日记帐类型。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: fff557d20a230922b5512aea9e49aa9993a694dd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308659"
 ---
-
 # <a name="ledger-journal-types"></a>分类帐日记帐类型
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ ms.lasthandoff: 10/16/2018
 | 银行存款单取消    | 取消存款单。 要使用此日记帐类型，请选择**现金和银行管理参数**页上的**对存款单付款取消使用审核过程**选项。   | 存款单付款取消            |
 | 预算                            | 处理预算拨款。 要使用此日记帐类型，请选择**总帐参数**页上的**启用预算拨款**。 预算日记帐分录将包含基于在**过帐定义**页上定义的会计科目的信息。                                                        |                                                                |
 | 客户接收汇票  | 创建汇票的客户接受交易记录。             | 划拨汇票日记帐、重新签发汇票日记帐 |
-| 客户银行汇款          | 创建可发送到您的组织的银行的汇票汇款文件。 要使用此日记帐类型，请清除**应收账款参数**页上的**自动结算**选项。            | 汇款                                                     |
+| 客户银行汇款          | 创建可发送到您的组织的银行的汇票汇款文件。 要使用此日记帐类型，请清除**应收**账**款参数**页上的**自动结算**选项。            | 汇款                                                     |
 | 客户签发汇票    | 创建客户签发汇票交易记录。 要使用此日记帐类型，请清除**付款方式 - 客户**页上的**过帐发票时，自动创建和过帐借支日记帐**选项。   | 划拨汇票日记帐                                  |
 | 客户 - 付款                  | 创建客户付款交易记录。                             | 付款日记帐             |
 | 客户拒付汇票 | 创建客户拒付汇票交易记录。                    | 拒付汇票日记帐                               |
@@ -64,7 +63,6 @@ ms.lasthandoff: 10/16/2018
 | 供应商发票记录          | 过帐日记帐中的供应商发票                                                                                                                                                                                                                                                                                                                 | 发票日记帐                                                |
 | 供应商重新签发本票     | 重新签发以前已由您组织的银行承兑的本票。                                                                                                                                                                                                                                                                      | 重新签发本票日记帐                                 |
 | 供应商结算本票     | 创建供应商结算本票交易记录。                                                                                                                                                                                                                                                                                                          | 结算本票日记帐                                 |
-
 
 
 

@@ -1,29 +1,28 @@
 ---
-title: "电子申报示例供应商支票"
-description: "此主题提供有关如何使用电子申报示例支票格式的一般信息。"
+title: 电子申报示例供应商支票
+description: 此主题提供有关如何使用电子申报示例支票格式的一般信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 6cae0ce1ec88f0500f8d281d314d59dc7001a384
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 6702ac241c41cc99d96bc46a515837235b3ae651
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359673"
 ---
-
 [!include [banner](../includes/banner.md)]
 
 # <a name="electronic-reporting-sample-check-formats"></a>电子申报示例支票格式
@@ -45,4 +44,3 @@ Microsoft Dynamics 365 for Finance and Operations 包括一个示例格式，其
 - 为在付款日记帐中配置的银行帐户生成付款时，将使用指定的格式打印支票。
 
 有关详细信息，请参阅 [修改电子申报格式](../../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md)。
-

@@ -1,13 +1,13 @@
---- 
-title: "设计 ER 表达式以调用应用类方法"
-description: "本指南提供有关如何通过在 ER 表达式中调用必需的应用类方法来在电子报告 (ER) 配置中重用现有应用逻辑的信息。"
+---
+title: 设计 ER 表达式以调用应用类方法
+description: 本指南提供有关如何通过在 ER 表达式中调用必需的应用类方法来在电子报告 (ER) 配置中重用现有应用逻辑的信息。
 author: NickSelin
 manager: AnnBe
 ms.date: 12/12/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: fdacd852eeed33b443a3c79b96fc4c4af04bb6b2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "357235"
 ---
 # <a name="design-er-expressions-to-call-application-class-methods"></a>设计 ER 表达式以调用应用类方法
 
@@ -103,7 +103,7 @@ ms.lasthandoff: 08/08/2018
     * 数据模型映射  
 6. 单击“保存”。
 7. 单击“设计器”。
-8. 在树结构中，选择“Dynamics 365 for Operations\类”。
+8. 在树中，选择“Dynamics 365 for Operations\Class”。
 9. 单击“添加根”。
     * 添加新的数据源以调用 IBAN 代码验证使用的现有应用程序逻辑。  
 10. 在“名称”字段中，键入“check_codes”。
@@ -157,5 +157,4 @@ ms.lasthandoff: 08/08/2018
     * 单击“浏览”并导航到前面下载的 SampleIncomingMessage.txt 文件。  
 2. 单击“确定”。
     * 检查 XML 格式的输出，该输出表示已从所选文件导入并移植到数据模型的数据。 请注意，导入的 TXT 文件只有 3 行被处理。 无效的第 4 行中的 IBAN 代码已跳过，并在信息日志中提供错误消息。  
-
 

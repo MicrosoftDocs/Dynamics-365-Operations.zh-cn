@@ -1,32 +1,31 @@
 ---
-title: "通过提领看板补货"
-description: "此主题介绍如何使用提领看板进行物料补货用于制造活动。"
+title: 通过提领看板补货
+description: 此主题介绍如何使用提领看板进行物料补货用于制造活动。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanBoardTransferJob, KanbanFlow, KanbanRules
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7fe3ebe3c27c380d95cbc12b864264e9538d433f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 011da8cd894cc044b6af8b740e49ed8d7c3c0c67
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320918"
 ---
-
 # <a name="replenishment-with-withdrawal-kanbans"></a>通过提领看板补货
 
 [!include [banner](../includes/banner.md)]
@@ -87,5 +86,4 @@ ms.lasthandoff: 11/03/2017
 6.  制造流程
 
 在生产输入库位使用看板后，看板报告为空，并在流中添加一个新看板。 创建看板后，在看板波次中添加一个波次行。 处理看板波次后，创建看板领料的仓库工作。 仓库工作人员处理看板领料工作，并按照工作的指示在仓库库位中领取看板物料。 在此仓库工作人员确认领料后，看板自动完成，并指导仓库工作人员将物料入库到生产输入库位。
-
 

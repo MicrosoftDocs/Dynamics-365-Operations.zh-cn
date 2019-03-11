@@ -1,32 +1,31 @@
 ---
-title: "成本管理主页"
-description: "可通过成本管理处理原材料、半成品、成品和在制品资产的计价和核算。"
+title: 成本管理主页
+description: 可通过成本管理处理原材料、半成品、成品和在制品资产的计价和核算。
 author: AndersGirke
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostAdminWorkspace, CostAnalysisWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fd94ae4c5ea855139fd1c41060de7db455ffab06
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cab2f165a70e5ce8f09f0391282e055e51afb225
-ms.openlocfilehash: b1513e5a7cb3a19fd3743a5aac8efd211aa02ce8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333936"
 ---
-
 # <a name="cost-management-home-page"></a>成本管理主页
 
 [!include [banner](../includes/banner.md)]
@@ -67,9 +66,8 @@ ms.lasthandoff: 02/21/2018
 
 
 #### <a name="blogs"></a>博客
-您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的供应链管理博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关成本管理的建议、新闻和其他信息。 尽管一些文章是针对成本管理的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
+您可以在 [Dynamics AX 制造研发团队博客](https://blogs.msdn.microsoft.com/axmfg)和 [Dynamics AX 研发团队中的 Supply Chain Management 博客](https://blogs.msdn.microsoft.com/dynamicsaxscm)中找到有关成本管理的建议、新闻和其他信息。 尽管一些文章是针对成本管理的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
 
 #### <a name="task-guides"></a>任务指南
 其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。
-
 

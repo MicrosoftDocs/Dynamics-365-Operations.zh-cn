@@ -1,13 +1,13 @@
 ---
-title: "财务报表设计器中的用户首选项"
-description: "本文介绍如何设置用户首选项来自定义财务报表设计器中的用户交互和控制初始登录体验。 您还可以控制各个报表、报表库和默认文件位置的显示方式。"
+title: 财务报表设计器中的用户首选项
+description: 本文介绍如何设置用户首选项来自定义财务报表设计器中的用户交互和控制初始登录体验。 您还可以控制各个报表、报表库和默认文件位置的显示方式。
 author: aprilolson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 5483a1d40907fab3ed3da8174f1dfb8a5bc86960
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324207"
 ---
-
 # <a name="user-preferences-in-financial-report-designer"></a>财务报表设计器中的用户首选项
 
 [!include [banner](../includes/banner.md)]
@@ -74,4 +73,3 @@ ms.lasthandoff: 08/13/2018
 ## <a name="additional-resources"></a>其他资源
 
 [财务申报](financial-reporting-intro.md)
-

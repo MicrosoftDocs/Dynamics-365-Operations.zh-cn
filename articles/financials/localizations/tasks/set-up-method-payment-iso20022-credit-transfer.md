@@ -1,13 +1,13 @@
---- 
-title: "设置 ISO20022 贷方转帐的付款方式"
-description: "此过程显示如何通过电子申报生成文件来为 ISO20022 贷方转帐或其他任何付款类型设置供应商付款方式。"
+---
+title: 设置 ISO20022 贷方转帐的付款方式
+description: 此过程显示如何通过电子申报生成文件来为 ISO20022 贷方转帐或其他任何付款类型设置供应商付款方式。
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymMode
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: c9209006074fb9da2c3c2ffaa2af4adecfcc1aa9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: bed51f8749dfa0264ad39f51f9ceb295ac46fe93
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311810"
 ---
 # <a name="set-up-method-of-payment-for-iso20022-credit-transfer"></a>设置 ISO20022 贷方转帐的付款方式
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
 9. 在“帐户类型”字段中，选择“银行”。
 10. 在“付款帐户”字段中，指定“DEMF OPER”值。
 11. 单击“保存”。
-
 

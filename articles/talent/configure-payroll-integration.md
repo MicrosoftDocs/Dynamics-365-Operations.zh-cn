@@ -1,33 +1,32 @@
 ---
-title: "配置 Talent 与 Dayforce 之间的工资单集成"
-description: "本主题说明如何配置 Microsoft Dynamics 365 for Talent 与 Microsoft Dynamics 365 for Ceridian Dayforce 之间的集成，以便处理付薪。"
+title: 配置 Talent 与 Dayforce 之间的工资单集成
+description: 本主题说明如何配置 Microsoft Dynamics 365 for Talent 与 Ceridian Dayforce 之间的集成，以便处理付薪。
 author: jcart1106
 manager: AnnBe
 ms.date: 07/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations, Talent
 ms.search.region: Global
 ms.author: jcart
-ms.search.validFrom: 
-ms.dyn365.ops.version: 
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
+ms.search.validFrom: ''
+ms.dyn365.ops.version: ''
 ms.openlocfilehash: fcddf82cffb9f0ba94b83eb21809b810585ebc9e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303393"
 ---
-
-# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 与 Dayforce 之间的工资单集成
+# <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 和 Dayforce 之间的工资单集成
 
 [!include [banner](includes/banner.md)]
 
-Microsoft Dynamics 365 for Talent 与 Microsoft Dynamics 365 for Ceridian Dayforce 之间的集成依赖于本主题中介绍的几个配置步骤。 必须先在 Talent 和 Dayforce 中配置集成，才能处理付薪。
+Microsoft Dynamics 365 for Talent 与 Ceridian Dayforce 之间的集成依赖于本主题中介绍的几个配置步骤。 必须先在 Talent 和 Dayforce 中配置集成，才能处理付薪。
 
 使用 Dayforce 之类服务完成付薪时，必须在 Talent 中启用集成。 此集成需要来自 Talent 的特定数据。 因此，必须验证已按照支持集成的方式在 Talent 中配置了映射到 Dayforce 的数据。 此集成使用下面的各种数据类别：
 
@@ -662,4 +661,3 @@ Dayforce 中使用以下信息：
 - 到期日期
 
 员工可以声明**护照**身份证明类型的多个身份证明编号。 但是，仅将当前有效的护照条目集成到 Dayforce 中。 如果所有护照条目均已过期，将把最近签发的护照集成到 Dayforce 中。
-

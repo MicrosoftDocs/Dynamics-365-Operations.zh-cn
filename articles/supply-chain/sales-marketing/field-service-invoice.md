@@ -1,33 +1,32 @@
 ---
-title: "将 Field Service 中的协议发票同步到 Finance and Operations 中的普通发票"
-description: "本主题讨论用于将 Microsoft Dynamics 365 for Field Service 中的协议发票同步到 Microsoft Dynamics 365 for Finance and Operations 中的普通发票的模板和基础任务。"
+title: 将 Field Service 中的协议发票同步到 Finance and Operations 中的普通发票
+description: 本主题讨论用于将 Microsoft Dynamics 365 for Field Service 中的协议发票同步到 Microsoft Dynamics 365 for Finance and Operations 中的普通发票的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 55301ba39dd28fbae5b6c21b1da3c3d9cf6afd8a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ace66c037953f4b1b2e8b93a315faefdb090b1eb
-ms.openlocfilehash: 6672e283a5e56b068e3494d53a0fd6dd08253ba9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "333246"
 ---
-
-# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>将 Field Service 中的协议发票同步到 Finance and Operations 中的普通发票
+# <a name="synchronize-agreement-invoices-in-field-service-to-free-text-invoices-in-finance-and-operations"></a>将 Field Service 的协议发票同步到 Finance and Operations 的普通发票
 
 [!include[banner](../includes/banner.md)]
 
@@ -107,4 +106,3 @@ ms.lasthandoff: 05/08/2018
 ### <a name="agreement-invoices-field-service-to-fin-and-ops-invoice-lines"></a>协议发票（Field Service 到 Fin and Ops）：发票行
 
 [![数据集成中的模板映射](./media/FSFreeTextInvoice2.png)](./media/FSFreeTextInvoice2.png)
-

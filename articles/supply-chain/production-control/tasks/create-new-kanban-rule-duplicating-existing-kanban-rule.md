@@ -1,13 +1,13 @@
---- 
-title: "通过复制现有看板规则创建新看板规则"
-description: "该过程的重点是创建现有看板规则的副本。"
+---
+title: 通过复制现有看板规则创建新看板规则
+description: 该过程的重点是创建现有看板规则的副本。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanRules, KanbanRuleDuplicate, InventItemIdLookupSimple
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7f72dbca0debf9e6a03ee700a979d4f4c110f819
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6bdd79de9f7dd71c3acbfa32c4decbf0b4593798
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350335"
 ---
 # <a name="create-a-new-kanban-rule-by-duplicating-an-existing-kanban-rule"></a>通过复制现有看板规则创建新看板规则
 
@@ -43,5 +43,4 @@ ms.lasthandoff: 09/29/2017
     * 选择“M0007”。  
 3. 单击“确定”。
     * 请注意，已创建看板规则 000017 的副本。    
-
 

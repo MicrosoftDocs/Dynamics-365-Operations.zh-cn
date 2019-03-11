@@ -1,13 +1,13 @@
 ---
-title: "生产流程概览"
-description: "本主题提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。"
+title: 生产流程概览
+description: 本主题提供生产流程的概览。 其中介绍生产订单、批次订单和看板的不同阶段，从订单创建到关闭财务期间。
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgShopSupervisorWorkspace, Kanban, ProdTable, ProdTableOverview, EcoResProductDiscreteManufacturingWorkspace, KanbanPrepareProductForLeanWorkspace, EcoResProductProcessManufacturingWorkspace, OpResLifecycleManagementWorkspace
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cd529afa5d8117e01784ed267709e1ac8c43290d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8a12627db93b131450015539bb92ea4780518ed3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317997"
 ---
-
 # <a name="production-process-overview"></a>生产流程概览
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ ms.lasthandoff: 05/08/2018
 [产品配置模型](../pim/product-configuration-models.md)
 
 [Lean manufacturing](lean-manufacturing-overview.md)
-
 
 
 

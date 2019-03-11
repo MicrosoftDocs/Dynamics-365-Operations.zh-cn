@@ -1,13 +1,13 @@
 ---
-title: "更新制造环境中的标准成本"
-description: "本文提供有关如何在非制造环境中更新标准成本的指导。"
+title: 更新制造环境中的标准成本
+description: 本文提供有关如何在非制造环境中更新标准成本的指导。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CostingVersion, InventStdCostConv
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fccfcec3d74bd13aa1b6511ebd37ee1454d1b47b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b9ad13071c3e0c3a294e9d4413de160a58559640
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332349"
 ---
-
 # <a name="update-standard-costs-in-a-manufacturing-environment"></a>更新制造环境中的标准成本
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ ms.lasthandoff: 11/03/2017
 -   基于新制造物料的已定义、审核和活动的物料清单和工艺路线信息，计算此物料的成本。
 
 每种情况都要求仔细考虑如何更新标准成本。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "客户过帐模板"
-description: "客户过帐模板控制将客户交易记录过帐到总帐。"
+title: 客户过帐模板
+description: 客户过帐模板控制将客户交易记录过帐到总帐。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 956dca24c2cfa7e22d718ff84b338bc4ba030394
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f246780a320f9a5e25ca423a099669a4f7e57bab
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322344"
 ---
-
 # <a name="customer-posting-profiles"></a>客户过帐模板
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ ms.lasthandoff: 04/13/2018
 ## <a name="creating-a-posting-profile"></a>创建过帐模板
 指定在使用所选过帐模板对交易记录进行过帐时所使用的会计科目。 为所选的过帐模板选择帐户编码；只要可能，还选择帐户/组编号。 在过帐过程中，定位每个交易记录的最合适过帐模板的方法是搜索针对性最强的帐户编码、帐号或组编号组合，其优先级如下：
 
-| **“帐户编码”** 字段值 | **“帐户/组编号”** 字段值            | 搜索优先级 |
+| **帐户编码**字段值 | **帐户/组编号**字段值            | 搜索优先级 |
 |------------------------------|-------------------------------------------------|-----------------|
 | **表**                    | 特定的客户帐户                       | 1               |
 | **组**                    | 分配到客户的客户组 | 2               |
@@ -140,5 +139,4 @@ ms.lasthandoff: 04/13/2018
 
 
 有关详细信息，请参阅[客户付款概览](../cash-bank-management/tasks/customer-payment-overview.md)。
-
 

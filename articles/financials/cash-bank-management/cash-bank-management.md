@@ -1,13 +1,13 @@
 ---
-title: "现金和银行管理主页"
-description: "您可使用现金和银行管理来维护法人的银行帐户以及与这些银行帐户关联的财务票据。"
+title: 现金和银行管理主页
+description: 您可使用现金和银行管理来维护法人的银行帐户以及与这些银行帐户关联的财务票据。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankTreasurerWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 944030859c26a1aadeb98a070d071e30f8b86dc4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 46eeb9cb19eed71256d38db78738c09761060c66
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301981"
 ---
-
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 
 [!include [banner](../includes/banner.md)]
@@ -91,7 +90,7 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关现金和银行管理的意见、新闻和其他信息以及其他解决方案。
+您可以在 [Microsoft Dynamics 365 博客] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关现金和银行管理的意见、新闻和其他信息以及其他解决方案。
 
 [Microsoft Dynamics AX 产品团队博客](https://blogs.msdn.microsoft.com/dax/)上有很多有关现金和银行管理的文章。 尽管一些文章是针对现金和银行管理的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
 
@@ -102,5 +101,4 @@ ms.lasthandoff: 02/07/2018
 
 #### <a name="videos"></a>视频
 
-查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
-
+查看当前在 [Microsoft Dynamics 365 YouTube 频道] (https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。

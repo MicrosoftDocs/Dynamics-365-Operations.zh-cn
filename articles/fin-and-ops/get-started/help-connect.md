@@ -1,13 +1,13 @@
 ---
-title: "连接帮助系统"
-description: "此主题介绍 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件，并且提供如何连接它们的概览以及如何创建自定义帮助的摘要。"
+title: 连接帮助系统
+description: 此主题介绍 Microsoft Dynamics 365 for Finance and Operations的“帮助”系统的组件，并且提供如何连接它们的概览以及如何创建自定义帮助的摘要。
 author: margoc
 manager: AnnBe
 ms.date: 11/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SystemParameters
 audience: Application User, Developer, IT Pro
 ms.reviewer: margoc
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 673b01648127fe1d19fb3c75c4d6812c4f22c761
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317721"
 ---
-
 # <a name="connect-the-help-system"></a>连接帮助系统
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件。 它提供如何连接这些组件的概览和如何创建自定义帮助的摘要。
+此主题介绍了 Microsoft Dynamics 365 for Finance and Operations 的帮助系统的组件。 它提供如何连接这些组件的概览和如何创建自定义帮助的摘要。
 
 ## <a name="help-architecture"></a>帮助体系结构
 
@@ -102,4 +101,3 @@ Microsoft 提供了介绍如何创建自定义帮助站点并将其连接到帮�
 [任务录制器概览](../../dev-itpro/user-interface/task-recorder.md)
 
 [如何创建任务录制以用作文档或培训](../../dev-itpro/user-interface/task-recorder-training-docs.md)
-

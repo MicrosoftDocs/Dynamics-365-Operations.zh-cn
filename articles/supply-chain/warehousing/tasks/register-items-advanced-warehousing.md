@@ -1,13 +1,13 @@
---- 
-title: "使用物料到达日记帐登记启用了高级仓库的物料"
-description: "此过程说明了在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。"
+---
+title: 使用物料到达日记帐登记启用了高级仓库的物料
+description: 此过程说明了在使用高级仓库管理流程时如何使用物料到达日记帐登记物料。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSJournalTable, WMSJournalCreate, WHSLicensePlate
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 392884d2a87c10a5f38bf6f51967f879c68c1ca6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 050d1fcbc59d9bb3253bfed2433987285423b334
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355487"
 ---
 # <a name="register-items-for-an-advanced-warehousing-enabled-item-using-an-item-arrival-journal"></a>使用物料到达日记帐登记启用了高级仓库的物料
 
@@ -75,5 +75,4 @@ ms.lasthandoff: 09/29/2017
 4. 单击“确定”。
     * 单击“确定”后，请检查消息栏。 应该有条消息告知操作成功。  
 5. 关闭该页面。
-
 

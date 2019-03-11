@@ -1,13 +1,13 @@
 ---
-title: "呼叫中心目录"
-description: "本主题介绍 Microsoft Dynamics 365 for Retail 中目录的呼叫中心特定功能。"
+title: 呼叫中心目录
+description: 本主题介绍 Microsoft Dynamics 365 for Retail 中目录的呼叫中心特定功能。
 author: josaw1
 manager: AnnBe
 ms.date: 05/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailMCRChannelDetailPage, RetailCatalogDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 65c1c3070aa48bf7a2016534071693716fabe831
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322735"
 ---
-
 # <a name="call-center-catalogs"></a>呼叫中心目录
 
 [!include [banner](includes/banner.md)]
@@ -102,4 +101,3 @@ Dynamics 365 for Retail 中的目录功能具有多种用途。 最初创建目�
 ## <a name="additional-notes"></a>其他注释
 
 现在源代码 ID 在呼叫中心中应用于销售订单时，将用于推动目录特定的价格、促销、基本和向上销售/交叉销售。 系统将不禁止或阻止在销售订单中订购不在目录中的产品。 如果订购的商品不属于目录，系统将首先使用在呼叫中心渠道中定义的**价格组**（**零售** \> **渠道** \> **呼叫中心** \> **所有呼叫中心**）以获取商品价格或促销信息。 如果未找到特定渠道价格，将使用基础出售价格。
-

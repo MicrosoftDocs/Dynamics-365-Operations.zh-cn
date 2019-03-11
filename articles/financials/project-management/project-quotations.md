@@ -1,13 +1,13 @@
 ---
-title: "项目报价单"
-description: "本文介绍项目报价单的概念，您可以向客户提供有吸引力的项目报价单，以此作为项目阶段的第一步。 项目报价单可以包含进行报价的物料和服务、基本联系信息、特殊贸易协议和折扣以及可能的税金和附加费。"
+title: 项目报价单
+description: 本文介绍项目报价单的概念，您可以向客户提供有吸引力的项目报价单，以此作为项目阶段的第一步。 项目报价单可以包含进行报价的物料和服务、基本联系信息、特殊贸易协议和折扣以及可能的税金和附加费。
 author: KimANelson
 manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationProjTable
 audience: Application User, IT Pro
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bdfb1b0702ed59127e2e26589ea8e44837e81756
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c7de1d7e57a2a32c339bc576f929958b9de91fcc
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343228"
 ---
-
 # <a name="project-quotations"></a>项目报价单
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,6 @@ ms.lasthandoff: 03/26/2018
 项目报价单是对必须执行工作的无约束力的估算。 但是，当报价单中的信息被复制与项目合同相关的项目后，该信息就成为双方之间一个具有约束力的协定的一部分。 
 
 如果客户批准了项目报价单，那么您可以将该项目报价单中的信息复制到项目。 您还可以同时将项目报价单信息复制到项目预测。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "预警的批处理"
-description: "此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 中预警的批处理的信息。"
+title: 预警的批处理
+description: 此主题提供有关在 Microsoft Dynamics 365 for Finance and Operations 中批处理预警的信息。
 author: tjvass
 manager: AnnBe
 ms.date: 06/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,19 +15,18 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 482cf30b4f82e8801ebc12e3925c1efb09f7eb1e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 74db212b2086bd7c94825d8a52d9a8b86ea7b739
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341917"
 ---
-
 # <a name="batch-processing-of-alerts"></a>预警的批处理
 
 [!include [banner](../includes/banner.md)]
 
-预警由 Microsoft Dynamics 365 for Finance and Operations 中的批处理功能处理。 您必须首先设置批处理，然后才可以发出预警。
+预警由 Microsoft Dynamics 365 for Finance and Operations 中的批处理功能来处理。 您必须首先设置批处理，然后才可以发出预警。
 
 Finance and Operations 支持两个事件类型：
 
@@ -84,4 +83,3 @@ Finance and Operations 会检测到所有由到期日期导致的事件，并将
 
 1. 转到**系统管理** &gt; **定期任务** &gt; **预警** &gt; **到期日期预警**。
 2. 在**到期日期预警**对话框中，输入相应的信息。
-

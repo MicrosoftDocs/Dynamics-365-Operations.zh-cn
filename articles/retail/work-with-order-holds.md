@@ -1,13 +1,13 @@
 ---
-title: "配置和使用呼叫中心订单保留"
-description: "本主题介绍如何使用 Microsoft Dynamics 365 for Retail 处理保留订单。"
+title: 配置和使用呼叫中心订单保留
+description: 本主题介绍如何使用 Microsoft Dynamics 365 for Retail 处理保留订单。
 author: josaw1
 manager: AnnBe
 ms.date: 05/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRHoldCodeTable, MCRSalesTableOrderHistory, MCRHoldCodeTrans
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ba8fade84358c960dcfd1e8d9ffef1ffede34871
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335293"
 ---
-
 # <a name="configure-and-work-with-call-center-order-holds"></a>配置和使用呼叫中心订单保留
 
 [!include [banner](includes/banner.md)]
@@ -104,4 +103,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="reporting-options"></a>报告选项
 
 转至**零售** \> **查询和报告** \> **呼叫中心报告** \> **订单保留报告**按日期范围、保留代码或其他相关条件运行有关订单保留的报告。
-

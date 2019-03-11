@@ -1,13 +1,13 @@
 ---
-title: "可用移动工作区"
-description: "此主题列出可用的移动工作区。"
+title: 可用移动工作区
+description: 此主题列出可用的移动工作区。
 author: sericks007
 manager: AnnBe
 ms.date: 08/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 75f7df4ca3b675d720eb46395118529d09f2f9d4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354958"
 ---
-
 # <a name="available-mobile-workspaces"></a>可用移动工作区
 
 [!include [banner](../includes/banner.md)]
@@ -44,5 +43,4 @@ ms.lasthandoff: 08/08/2018
 | [现有库存量](../../supply-chain/inventory/inventory-on-hand-mobile-workspace.md)    | 洞察预留库存和可用库存。                                                                                                    |   2017 年 1 月       |
 | [销售订单](../../supply-chain/sales-marketing/sales-orders-mobile-workspace.md)         | 掌握销售订单的最新情况。                                                                                                                          |  2017 年 1 月                  |
 | [供应商协作](../../supply-chain/procurement/vendor-collaboration-mobile-workspace.md) | 供应商能够实时了解已经发送给他们进行审核的采购订单的最新信息。 它们还可以查看有关新的和更新的采购订单和联系人的信息。 |2017 年 1 月    |
-
 

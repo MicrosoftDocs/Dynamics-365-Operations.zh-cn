@@ -1,13 +1,13 @@
 ---
-title: "工序级排产选项"
-description: "本主题介绍工序级排产的选项。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。"
+title: 工序级排产选项
+description: 本主题介绍工序级排产的选项。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdSchedule
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0f3c9c40437d368b006b0f2b5a2ddd65d228ac87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 41d5d933a43f5cc4c84c33bdb0896c9d4a9a28cc
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317951"
 ---
-
 # <a name="operations-scheduling-options"></a>工序级排产选项
 
 [!include [banner](../includes/banner.md)]
@@ -132,7 +131,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [工序级排产](operations-scheduling.md)
-
 
 
 

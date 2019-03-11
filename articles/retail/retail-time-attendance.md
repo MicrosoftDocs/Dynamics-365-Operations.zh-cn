@@ -1,13 +1,13 @@
 ---
-title: "Retail 中的工时和出勤管理"
-description: "此主题介绍 Microsoft Dynamics 365 for Retail 中零售工时和出勤管理支持的方案。"
+title: Retail 中的工时和出勤管理
+description: 此主题介绍 Microsoft Dynamics 365 for Retail 中工时和出勤管理支持的方案。
 author: aamirallaqaband
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: JMGParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,19 +19,18 @@ ms.search.industry: Retail
 ms.author: aamiral
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 4c54909a02376a62a72a986e634649fa0ae54284
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321263"
 ---
-
 # <a name="time-and-attendance-management-in-retail"></a>Retail 中的工时和出勤管理
 
 [!include [banner](includes/banner.md)]
 
-此主题介绍 Microsoft Dynamics 365 for Retail 中零售工时和出勤管理支持的方案。
+此主题介绍 Microsoft Dynamics 365 for Retail 中工时和出勤管理支持的方案。
 
 ## <a name="manage-worker-setup-and-scheduling"></a>管理工作人员设置和计划
 
@@ -140,4 +139,3 @@ Dynamics 365 for Retail 用户按照工作流计算、审核和将时间登记�
 - 登记缺勤
 
 有关如何处理时间和出勤登记的详细信息，请参阅[处理时间和出勤登记](https://technet.microsoft.com/library/aa573180.aspx)。
-

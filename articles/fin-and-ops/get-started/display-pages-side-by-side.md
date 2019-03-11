@@ -1,13 +1,13 @@
 ---
-title: "使用“在新窗口中打开”功能并排显示页面"
-description: "本文说明如何在 Microsoft Dynamics 365 for Finance and Operations 中并行显示页面。"
+title: 使用“在新窗口中打开”功能并排显示页面
+description: 本文说明如何在 Microsoft Dynamics 365 for Finance and Operations 中并排显示页面。
 author: aneesmsft
 manager: AnnBe
 ms.date: 09/07/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: aneesa
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: df9b091735a4971446c5b5d0e054076260040683
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 8e3ef29618f11b0f247999e3a24e54bff44bf51a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330164"
 ---
-
 # <a name="show-pages-side-by-side-by-using-the-open-in-new-window-feature"></a>使用“在新窗口中打开”功能并排显示页面
 
 [!include [banner](../includes/banner.md)]
 
-本文说明如何在 Microsoft Dynamics 365 for Finance and Operations 中并行显示页面。
+本文说明如何在 Microsoft Dynamics 365 for Finance and Operations 中并排显示页面。
 
 Microsoft Dynamics 365 for Finance and Operations 可帮助您高效地执行任务。 在某些情况下，您可能需要并行查看多个页面以快速完成任务。 例如，您可能希望在多个日记帐中验证或输入行。 为此，您通常必须在显示日记帐列表的页面与显示给定日记帐行的页面之间来回切换。 但是，利用**在新窗口中打开**功能，您可以并行显示这些页面，以便快速执行任务。
 
@@ -50,4 +49,3 @@ Microsoft Dynamics 365 for Finance and Operations 可帮助您高效地执行任
 **在新窗口中打开**功能仅在窗口中已打开多个页面时适用。 此外，弹出窗口将在未打开多个页面时（即，该窗口中的最后一个页面关闭时）自动关闭。 Finance and Operations 还在您导航到该应用程序中的其他区域时关闭打开的页面。 因此，如果您打开弹出窗口并导航到该应用程序中的其他区域，则弹出窗口将自动关闭，因为系统已将这些窗口中的页面关闭。
 
 弹出窗口中的顶部栏显示有关页面已在其中打开且只读的公司的信息。 弹出窗口还依赖主 Finance and Operations 浏览器窗口。 如果关闭或刷新主窗口，则所有打开的弹出窗口将变为只读。 这意味着，您仍可查看这些窗口中的信息，但将无法与其进行交互。
-

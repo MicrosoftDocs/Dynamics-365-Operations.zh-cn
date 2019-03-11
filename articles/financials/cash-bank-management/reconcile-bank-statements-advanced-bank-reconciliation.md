@@ -1,13 +1,13 @@
 ---
-title: "使用高级银行对帐对银行对账单进行对帐"
-description: "高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Finance and Operations 中的银行交易记录自动对帐。 本主题说明对帐流程。"
+title: 使用高级银行对帐对银行对账单进行对帐
+description: 高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Finance and Operations 中的银行交易记录自动对帐。 本主题说明对帐流程。
 author: saraschi2
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationWorksheet
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ed3a1fae6ca30b9411fde47e7ef8a08150d7d748
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364963"
 ---
-
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>使用高级银行对帐对银行对帐单进行对帐
 
 [!include [banner](../includes/banner.md)]
 
 高级银行对帐功能让您可以导入电子银行对帐单，并可以将其与 Microsoft Dynamics 365 for Finance and Operations 中的银行交易记录自动对帐。 本主题说明对帐流程。  
 
-<a name="import-an-electronic-bank-statement"></a>导入电子银行对帐单
+<a name="import-an-electronic-bank-statement"></a>导入电子银行对账单
 -----------------------------------
 
 通过使用**银行对账单**页的**导入对账单**操作导入银行对账单。 在银行对账单上，银行帐户通过银行帐户详细信息中设置的值的组合识别。 这些值包括银行名称、银行帐号、路由号码、国际银行金融电信协会 (SWIFT) 代码和国际银行帐号 (IBAN)。 
@@ -80,11 +79,11 @@ ms.lasthandoff: 03/26/2018
 
 若要手动匹配交易记录，在**银行对账单交易记录**网格中选择交易记录，在 **Operations 银行交易记录**网格中选择对应的交易记录，然后单击**匹配**。 所选交易记录从未匹配交易记录的上部网格移至匹配交易记录的下部网格。 而且，匹配和未匹配的总额将更新。 您可以进行一对一、多对一和多对多交易记录匹配。 匹配必须遵守允许的日期差异和交易记录类型映射规则。 这些规则在**现金和银行管理参数**页设置。
 
-对帐中可能发生尾差。 如果尾差在银行帐户的**允许尾差**字段中定义的容差金额内，您可以匹配单个银行对账单交易记录和具有尾差的 Operations 银行交易记录。 金额显示在匹配的 Operations 银行交易记录上的“**冲销金额**”字段中。 银行对帐标记为已对帐后，使用在相关联的银行交易记录类型上定义的主科目自动过帐更正。 “**支票**”和“**存款**”单据类型不支持更正。 
+对帐中可能发生尾差。 如果尾差在银行帐户的**允许尾差**字段中定义的容差金额内，您可以匹配单个银行对账单交易记录和具有尾差的 Operations 银行交易记录。 金额显示在匹配的 Operations 银行交易记录上的**冲销金额**字段中。 银行对帐标记为已对帐后，使用在相关联的银行交易记录类型上定义的主科目自动过帐更正。 **支票**和**存款**单据类型不支持更正。 
 
 银行对账单交易记录冲销使用对帐工作表匹配。 如果金额相反，且其中一个交易记录标记为冲销，可以匹配两个对账单行。 您还可以为**清算冲销对账单行**操作设置匹配规则。
 
-冲销 Operations 银行交易记录必须使用“**Operations 银行交易记录**”页对帐。 如果单据具有相同的银行帐户、单据类型和付款参考，且它们具有相反金额，您可以同时对帐两个 Operations 银行交易记录。 您还可以对账单个取消的支票以阻止这些交易出现在对帐工作表中。 
+冲销 Operations 银行交易记录必须使用**Operations 银行交易记录**页对帐。 如果单据具有相同的银行帐户、单据类型和付款参考，且它们具有相反金额，您可以同时对帐两个 Operations 银行交易记录。 您还可以对账单个取消的支票以阻止这些交易出现在对帐工作表中。 
 
 如果有新的银行发起的不在 Finance and Operations 中的交易，如利息、费用和收费，您可以将这些交易添加到与所选银行对账单对帐关联的日记帐中。 在未匹配交易记录的**银行对账单交易记录**网格中选择银行对账单交易记录，然后单击**标记为新交易记录**。 交易记录的状态将设置为**新**，且交易记录将移至匹配交易记录的**银行对账单交易记录**网格。 稍后，您将从**银行对账单**页过帐标记为**新**的交易记录。 
 
@@ -93,8 +92,7 @@ ms.lasthandoff: 03/26/2018
 完成对帐流程后，您应该将银行对帐工作表标记为已对帐。  该流程将自动使用**银行交易记录类型**页上设置的科目过帐更正金额。  对账单的银行对帐可随时标记为已对帐，即使有尚未匹配的银行对账单行。  未匹配的交易记录将作为待对帐的未匹配的银行对账单交易记录自动移到下一个对帐工作表。  请注意，将银行对账单对帐标记为已对帐后，不能取消。  对帐将不可再编辑，且您将无法再对该对帐进行更新。
 
 ## <a name="post-new-transactions-that-are-associated-with-the-reconciliation"></a>过帐与对帐关联的新交易记录
-在对帐工作表中标记为“**新**”的银行对账单交易记录在“**银行对账单**”页过帐。 在**银行对账单**页，选择要查看对账单详细信息的对账单 ID。 在**会计**菜单上，您可以使用**查看分配**和**查看会计**选项查看新交易记录和相关分类帐条目后面的详细信息。 选择**过帐**选项将标记为**新**的银行对账单行过帐到总帐。 请注意，每个银行对账单只能完成一次过帐。
-
+在对帐工作表中标记为**新**的银行对账单交易记录在**银行对账单**页过帐。 在**银行对账单**页，选择要查看对账单详细信息的对账单 ID。 在**会计**菜单上，您可以使用**查看分配**和**查看会计**选项查看新交易记录和相关分类帐条目后面的详细信息。 选择**过帐**选项将标记为**新**的银行对账单行过帐到总帐。 请注意，每个银行对账单只能完成一次过帐。
 
 
 

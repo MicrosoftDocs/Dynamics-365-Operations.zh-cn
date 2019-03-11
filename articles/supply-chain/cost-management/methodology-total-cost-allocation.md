@@ -1,13 +1,13 @@
 ---
-title: "总成本分摊方法"
-description: "本主题提供使用总成本分摊 (TCA) 的指南。 TCA 是计算批次订单的主要配方物料和为配方定义的联产品之间的成本的方法。"
+title: 总成本分摊方法
+description: 本主题提供使用总成本分摊 (TCA) 的指南。 TCA 是计算批次订单的主要配方物料和为配方定义的联产品之间的成本的方法。
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMConsistOf, PmfFormulaCoBy
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: cda1c5251b81a3bb73d4d8703d7c3fa1ab4e9c16
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4f3d75411e8c99365f1aba8214c78e93b4741871
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341572"
 ---
-
 # <a name="total-cost-allocation-method"></a>总成本分摊方法
 
 [!include [banner](../includes/banner.md)]
@@ -57,11 +56,10 @@ ms.lasthandoff: 11/03/2017
 ## <a name="calculating-the-burden-for-byproducts"></a>副产品负担的计算
 **联产品**页上上的**副产品成本分配**字段是仅用于副产品的枚举器字段。 对于联产品，此字段的值始终为**无**。 对于副产品行，则此字段确定副产品行的成本额如何添加到生产的总成本。 选项如下：
 
--   **“无”** ─ 对于此副产品行没有金额添加到生产的总成本。
--   **“百分比”** ─ 成本额按在生产中消耗的原材料总成本的百分比计算。 在字段中输入用于该计算的百分比。
--   **“按系列”** ─ 成本金额按照生产订单的每条件批次规模的金额计算。 此金额与在生产中报告的数量无关。 在字段中输入用于该计算的金额。
+-   **无**─ 对于此副产品行没有金额添加到生产的总成本。
+-   **百分比**─ 成本额按在生产中消耗的原材料总成本的百分比计算。 在字段中输入用于该计算的百分比。
+-   **按系列**─ 成本金额按照生产订单的每条件批次规模的金额计算。 此金额与在生产中报告的数量无关。 在字段中输入用于该计算的金额。
 -   **按数量** ─ 成本金额按照生产中每配方物料报告的数量的金额计算。 在字段中输入用于该计算的金额。
-
 
 
 

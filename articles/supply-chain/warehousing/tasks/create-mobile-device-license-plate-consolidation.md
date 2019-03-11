@@ -1,13 +1,13 @@
---- 
-title: "创建牌照合并的移动设备菜单项"
-description: "此过程显示如何为牌照合并工作创建移动设备菜单项。"
+---
+title: 创建牌照合并的移动设备菜单项
+description: 此过程显示如何为牌照合并工作创建移动设备菜单项。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mirzaab
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: bfe07426e9ff11c60c5f703b810ba09d6c863399
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7b8d20561ff092bd64c17c5d9335e9f54a1d191b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343642"
 ---
 # <a name="create-a-mobile-device-menu-item-for-license-plate-consolidation"></a>创建牌照合并的移动设备菜单项
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 09/29/2017
 4. 在“标题”字段中，键入一个值。
 5. 在“模式”字段中，选择“间接”。
 6. 在“活动代码”字段中，选择“合并牌照”。
-
 

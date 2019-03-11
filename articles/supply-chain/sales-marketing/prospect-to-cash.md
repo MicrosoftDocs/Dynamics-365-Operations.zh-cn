@@ -1,39 +1,38 @@
 ---
-title: "从目标客户到现金"
-description: "本主题提供在 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Sales 之间从目标客户到现金解决方案的概述。"
+title: 从目标客户到现金
+description: 本主题提供在 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Sales 之间从目标客户到现金解决方案的概述。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 04/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTable, SalesTable, EcoResProductListPage
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: b46ece384a28f8e78989253fcf467fbf3feaf1b7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309487"
 ---
-
 # <a name="prospect-to-cash"></a>从目标客户到现金
 
 [!include [banner](../includes/banner.md)]
 
 从目标客户到现金解决方案提供跨 Dynamics 365 for Finance and Operations 与 Dynamics 365 for Sales 的直接同步。 提供“数据集成”功能的“从目标客户到现金”模板启用 Finance and Operations 与 Sales 之间的帐户、联系人、产品、销售报价、销售订单和销售发票的数据流。 当数据在 Finance and Operations 与 Sales 之间流动时，您可以在 Sales 中执行销售和市场营销活动，并可以使用 Finance and Operations 中的库存管理处理订单履行。 
 
-有关“从目标客户到现金”集成的详细信息，请观看下面的 YouTube 短视频：[现金集成的目标客户](https://www.youtube.com/watch?v=AVV9x5x-XCg)。
+有关“从目标客户到现金”集成的详细信息，请观看下面的 YouTube 短视频：[目标客户到现金集成](https://www.youtube.com/watch?v=AVV9x5x-XCg)。
 
 在当前版本中，从目标客户到现金解决方案提供以下类型的直接同步：
 
@@ -47,13 +46,13 @@ ms.lasthandoff: 08/13/2018
 ## <a name="system-requirements-for-finance-and-operations"></a>Finance and Operations 的系统要求
 以下版本支持“从目标客户到现金”集成：
 
-### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3（2017 年 12 月）
+### <a name="microsoft-dynamics-365-for-finance-and-operations-enterprise-edition-73-december-2017"></a>Microsoft Dynamics 365 for Finance and Operations Enterprise edition 7.3（2017 年 12 月）
 
-- Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 12 月）- 使用平台更新 12 的应用程序版本 7.3.11971.56116 (7.0.4709.41129)
+- Dynamics 365 for Finance and Operations Enterprise edition（2017 年 12 月）- 具有平台更新 12 的应用程序版本 7.3.11971.56116 (7.0.4709.41129)
 
-### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）
+### <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017"></a>Dynamics 365 for Finance and Operations Enterprise edition（2017 年 7 月）
 
-- Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）- 具有平台更新 8（使用平台版本 7.0.4565.16212 的应用程序版本 7.2.11792.56024）。
+- Dynamics 365 for Finance and Operations Enterprise edition（2017 年 7 月）- 具有平台更新 8（具有平台版本 7.0.4565.16212 的应用程序版本 7.2.11792.56024）。
 - 必须包含以下修补程序：
 
   - **[KB4045570](https://fix.lcs.dynamics.com/Issue/Resolved?kb=4045570&bugId=3851320&qc=ac1145034fd04ab71ccc4d14aa012f245176712c9af7c36bb77a118726d46160)** – 此修补程序可以通过数据集成功能将销售订单从 Sales 同步到 Finance and Operations。 它还提供多个其他增强。
@@ -83,4 +82,3 @@ ms.lasthandoff: 08/13/2018
 
 - Dynamics 365 for Sales 版本 1612 (8.2.1.207) (DB 8.2.1.207) 联机或更高版本
 - Dynamics 365 for Sales 版本 1.15.0.0 或更高版本的从目标客户到现金解决方案。 可从 AppSource 下载此解决方案。 [下载 Dynamics 365 从目标客户到现金](https://appsource.microsoft.com/en-us/product/dynamics-365/mscrm.c7a48b40-eed3-4d67-93ba-f2364281feb3)。
-

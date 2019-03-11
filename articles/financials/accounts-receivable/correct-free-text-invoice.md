@@ -1,13 +1,13 @@
 ---
-title: "更正普通发票"
-description: "本文说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。"
+title: 更正普通发票
+description: 本文说明如更正已过帐的普通发票，并作为更正发票重新签发该发票。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c8c1b90b7b2c02a53e53cc13d70445a237b126d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: cbae4c444db29a8dc7f3040aa78e45c0da092efd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364595"
 ---
-
 # <a name="correct-a-free-text-invoice"></a>更正普通发票
 
 [!include [banner](../includes/banner.md)]
@@ -44,12 +43,11 @@ ms.lasthandoff: 11/03/2017
 
 您可以通过两种方式标识取消和更正发票：
 
--   **“所有普通发票”** 页包括 **“更正”** 列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。
+-   **所有普通发票**页包括**更正**列，在其中您可以看到哪些发票是正在取消的发票和已更正的发票。
 -   普通发票的标题显示状态**正在取消发票‘\[发票编号\]** 或**已更正的发票‘\[发票编号\]**。
 
 > [!NOTE]
 > 只有当选择**普通发票更正**配置键后，此功能才可用。
-
 
 
 

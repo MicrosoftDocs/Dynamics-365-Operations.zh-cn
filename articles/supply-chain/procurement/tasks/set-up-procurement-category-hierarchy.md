@@ -1,13 +1,13 @@
---- 
-title: "设置采购类别层次结构"
-description: "该过程会显示如何在采购类别层次结构中创建新节点，以及如何配置采购类别以用于采购流程。"
+---
+title: 设置采购类别层次结构
+description: 该过程会显示如何在采购类别层次结构中创建新节点，以及如何配置采购类别以用于采购流程。
 author: mkirknel
 manager: AnnBe
 ms.date: 11/06/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 01809a8a3256342682d8a9cfb296a355310fe4ed
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ad5c8552a6989e9093d0b1325754bc0f6d19372
-ms.openlocfilehash: 4541d029c9c3be3ee42332e5d8ff183dd503f13e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/06/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334511"
 ---
 # <a name="set-up-a-procurement-category-hierarchy"></a>设置采购类别层次结构
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 11/06/2017
 6. 切换“类别页”部分的展开项。
     * 可在类别层次结构页中创建类别页。 它们包含关于采购类别的信息（例如关于类别中的产品类型信息）、类别中的产品图形或通告（例如类别中可用的折扣）。 某个类别页中的信息会显示在采购申请上。  
 7. 关闭该页面。
-
 

@@ -1,13 +1,13 @@
 ---
-title: "建模精益组织"
-description: "文本提供有关建模精益组织的重要概念的信息。"
+title: 建模精益组织
+description: 文本提供有关建模精益组织的重要概念的信息。
 author: cvocph
 manager: AnnBe
 ms.date: 09/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow, PlanActivity
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 254616174d3f3c449e2a55dfc5f080d6276105b0
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/24/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350979"
 ---
-
 # <a name="modeling-a-lean-organization"></a>建模精益组织
 
 [!include [banner](../includes/banner.md)]
@@ -65,7 +64,6 @@ Lean Manufacturing 的体系结构的灵感来源于 Womack 和 Jones 提出的 
 
 ## <a name="simplicity"></a>简易性
 对于 Lean manufacturing 的实施，我们选择生产流和支持在单个可扩展的体系结构中为简单和复杂的生产方案建模的活动方法。 如果仔细查看活动概念就会发现，有需要的用户获得了新的简易性：车间和物流工作人员。 通过针对基于活动的作业（而不是库存交易记录）进行报告，适用于所有精益制造变型的统一用户界面将业务复杂性从用户界面转移到其所属的地方：作为精益制造的支柱的生产流。
-
 
 
 

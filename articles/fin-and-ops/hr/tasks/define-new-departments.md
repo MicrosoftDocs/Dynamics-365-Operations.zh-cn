@@ -1,13 +1,13 @@
---- 
-title: "定义新部门"
-description: "部门作为运作单位代表一个商业职能范围，如销售或财务部门。"
+---
+title: 定义新部门
+description: 部门作为运作单位代表一个商业职能范围，如销售或财务部门。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMOperatingUnit, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 6dedddf305e303de5b284b34420cd0eda5170ed1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342837"
 ---
 # <a name="define-new-departments"></a>定义新部门
 
@@ -51,5 +51,4 @@ ms.lasthandoff: 09/14/2018
     * 在公布部门结构变动消息时，可选择更改生效的时间。 更改可以发生在将来某一个日期。 例如，您在财政年度一开始时就知道将要添加一个部门。 您可以在该财政年度开始时设置一个有效日期，而该结构更改将于该日期时生效。  
 16. 在“变量描述”字段中，输入一个值。
 17. 单击“发布”。
-
 

@@ -1,13 +1,13 @@
 ---
-title: "付款确认概览"
-description: "本文提供有关付款确认的信息，其用于生成一份可以呈现给银行的支票电子列表。"
+title: 付款确认概览
+description: 本文提供有关付款确认的信息，其用于生成一份可以呈现给银行的支票电子列表。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankPositivePaySummary
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
+ms.openlocfilehash: a7af2fc0e2c9915c4267f60e27dbddac320af6a5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 13a7a842e7b4522b508a34fdf86bb3bf58a0845f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315168"
 ---
-
 # <a name="positive-pay-overview"></a>付款确认概览
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ ms.lasthandoff: 03/26/2018
 如果您必须更改付款确认文件，您可以撤消它。 然后，对于付款确认文件中的每一张支票，将重置指示该支票是否包括在一个付款确认文件中的字段。
 
 有关详细信息，请参阅[设置和生成先对单再支付文件](set-up-generate-positive-pay-files.md)。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "Talent 入门"
-description: "此主题提供有关如何让用户界面适应您的偏好，以及如何连接到产品内和 docs.microsoft.com 站点提供的帮助资源的信息。"
+title: Talent 入门
+description: 此主题提供有关如何让用户界面适应您的偏好，以及如何连接到产品内和 docs.microsoft.com 站点提供的帮助资源的信息。
 author: rschloma
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303489"
 ---
 # <a name="get-started-with-talent"></a>Talent 入门
 
@@ -31,7 +31,7 @@ ms.lasthandoff: 08/08/2018
 在 Microsoft Dynamics 365 for Talent 中，可以根据您的需求轻松修改用户界面和设置让软件更加直观的选项。 此主题包括了一些主题的链接，这些主题提供了如何让用户界面适应您的偏好的信息。 主题还包括如何在系统中高效准确地查找信息的信息。 
 
 > [!NOTE] 
-> 以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail；以及 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与零售有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与人才有关的主题中，产品名称将为 Dynamics 365 for Talent；以及在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
+> 以下产品密切相关：Dynamics 365 for Finance and Operations；Dynamics 365 for Retail 和 Dynamics 365 for Talent。 这三种产品的功能可能存在重合。 因此，在主要与 Retail 有关的主题中，产品名称将为 Dynamics 365 for Retail；在主要与 Talent 有关的主题中，产品名称将为 Dynamics 365 for Talent；在主要与核心产品有关的主题中，产品名称将为 Dynamics 365 for Finance and Operations。 针对一种产品撰写的主题可能适用于其相关产品的相同功能。
 
 ## <a name="personalizing-talent"></a>个性化 Talent 
 以下主题说明如何设置 Dynamics 365 for Talent 的诸多功能，以让您更轻松地及时完成工作。 
@@ -65,5 +65,4 @@ ms.lasthandoff: 08/08/2018
 
 ### <a name="videos"></a>视频
 查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
-
 

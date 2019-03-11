@@ -1,13 +1,13 @@
---- 
-title: "停用生产流版本"
-description: "如果不再需要某个有效生产流版本，可将其停用。"
+---
+title: 停用生产流版本
+description: 如果不再需要某个有效生产流版本，可将其停用。
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlow
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 091cafd02bd568323e586373fc8b0f983afee343
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 4a7eee6617e12d59a3d06207f5f6b58c93e28240
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340744"
 ---
 # <a name="deactivate-a-production-flow-version"></a>停用生产流版本
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/29/2017
 5. 单击“停用”。
     * 如果不是百分百确定此生产流版本已过时，否则请勿继续操作。 单击“确定”将让所有有效看板规则过期，并立即停止此生产流版本的所有生产和补货活动。  
 6. 单击“确定”。
-
 

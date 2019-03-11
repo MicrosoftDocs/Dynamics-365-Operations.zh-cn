@@ -1,13 +1,13 @@
 ---
-title: "从 Excel 发布日记帐行和单据"
-description: "本主题说明如何从 Microsoft Excel 输入和发布普通日记帐的行。 其中包含有关您可使用的各种模板的信息，具体取决于您要输入的交易记录类型。"
+title: 从 Excel 发布日记帐行和单据
+description: 本主题说明如何从 Microsoft Excel 输入和发布普通日记帐的行。 其中包含有关您可使用的各种模板的信息，具体取决于您要输入的交易记录类型。
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 36eed913e658433b9200043163aad38521381be2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a2da864254efda2621e1b157413a16d251020786
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321033"
 ---
-
 # <a name="publish-journal-lines-and-documents-from-excel"></a>从 Excel 发布日记帐行和单据
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 03/26/2018
 发布行时，将验证行，以便确保其符合财务日记帐中设置的规则。 发布行之后，用户可从 Microsoft Dynamics 365 for Finance and Operations 编辑或过帐凭证。 
 
 若要向模板添加财务维度，需要执行更多更改。 有关详细信息，请参阅[向 Microsoft Excel 模板添加维度](../../dev-itpro/financial/add-dimensions-excel-templates.md)。 维度添加到实体之后，将在 Excel 设计器中可用，并可添加到模板。
-
 
 
 

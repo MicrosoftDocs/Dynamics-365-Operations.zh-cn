@@ -1,13 +1,13 @@
 ---
-title: "BOM 计算"
-description: "成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 此主题提供了有关物料清单计算的信息。"
+title: BOM 计算
+description: 成本累积和销售价计算称为物料清单 (BOM) 计算，您从“计算”页启动这些计算。 此主题提供了有关物料清单计算的信息。
 author: AndersGirke
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCalcDialog, BOMCalcTable, CostingVersion, InventItemPrice
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
+ms.openlocfilehash: 29ea9ddefba3416a33cd0e2f873624cc5c781a55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ad00a3b5e41892aaa705fd8eafa52cc199e1d806
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341549"
 ---
-
 # <a name="bom-calculations"></a>BOM 计算
 
 [!include [banner](../includes/banner.md)]
@@ -91,7 +90,6 @@ ms.lasthandoff: 11/03/2017
 
 -   特定于订单的物料清单计算并不在某一成本计算版本内生成物料成本记录。 因此，物料清单计算策略不适用于创建某一物料成本记录或覆盖某一成本记录。
 -   特定于订单的物料清单计算始终使用有效成本记录来用于组件、成本类别和间接成本计算公式。
-
 
 
 

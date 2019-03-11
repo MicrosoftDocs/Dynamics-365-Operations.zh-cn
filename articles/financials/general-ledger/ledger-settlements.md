@@ -1,13 +1,13 @@
 ---
-title: "分类帐结算"
-description: "本主题说明如何使用分类帐结算页面结算分类帐交易和冲销结算。"
+title: 分类帐结算
+description: 本主题说明如何使用分类帐结算页面结算分类帐交易和冲销结算。
 author: mikefalkner
 manager: aolson
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTransSettlement
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b02a1a066913c9959e9a55e78789e5ff1a175c56
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: ec659a53c187b1bdfd81565d6e2f20a59e08834c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308475"
 ---
-
 # <a name="ledger-settlements"></a>分类帐结算
 
 [!include [banner](../includes/banner.md)]
@@ -76,4 +75,3 @@ ms.lasthandoff: 10/12/2018
 ## <a name="update-the-list-of-accounts-that-are-included-in-the-list-of-transactions"></a>更新交易记录列表中包括的科目列表
 
 选择**分类帐结算科目**打开您可以编辑交易记录列表中包括的科目的对话框。 选择**新**向列表添加新科目。 此列表用于筛选在**分类帐结算**页显示的交易记录的列表。
-

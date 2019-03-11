@@ -1,13 +1,13 @@
 ---
-title: "员工能力与发展 Power BI 内容"
-description: "此主题描述 Finance and Operations - 员工能力与发展 Power BI 内容。"
+title: 员工能力和发展 Power BI 内容
+description: 此主题描述 Finance and Operations - 员工能力与发展 Power BI 内容。
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 0442e795eadf28a07132c160d69ad44e9fb05eed
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352911"
 ---
-
-# <a name="employee-competencies-and-development-power-bi-content"></a>员工能力与发展 Power BI 内容
+# <a name="employee-competencies-and-development-power-bi-content"></a>员工能力和发展 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
@@ -71,4 +70,3 @@ Finance and Operations 数据用于填充员工能力与发展内容包中的报
 | 劳动力\_工作人员姓名             | 名字、姓氏和全名                                                                       | |
 | 劳动力\_工作人员职务            | 职务和资历日期                                                                                   | |
 | 劳动力\_工作人员趋势             | 一段时间的工作人员，人数，公司和职位                                                        | 劳动力\_公司, 劳动力\_薪酬, 劳动力\_地理位置, 劳动力\_绩效, 劳动力\_工作人员姓名, 劳动力\_报告对象工作人员姓名, 劳动力\_日历偏差, 劳动力\_日期, 劳动力\_工作人员职务, 劳动力\_人口统计数据, 劳动力\_雇用, 劳动力\_作业 |
-

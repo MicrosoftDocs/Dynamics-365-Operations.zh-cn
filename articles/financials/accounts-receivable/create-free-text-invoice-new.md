@@ -1,13 +1,13 @@
---- 
-title: "创建普通发票"
-description: "本主题说明如何创建普通发票。"
+---
+title: 创建普通发票
+description: 本主题说明如何创建普通发票。
 author: mikefalkner
 manager: AnnBe
 ms.date: 08/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: f64292a1b3726ea9b43f959a44c4ed2a1f392484
 ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/05/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332234"
 ---
-
 # <a name="create-free-text-invoices"></a>创建普通发票
 
 [!include [banner](../includes/banner.md)]
@@ -86,4 +85,3 @@ ms.lasthandoff: 09/05/2018
 您可以通过模板创建普通发票。 如果从**发票**选项卡选择**从模板新建**，则可为新普通发票选择模板名称和客户帐户。 可以根据客户自动填充默认值（如付款期限和付款方式），也可以使用随模板保存的值。
 
 将创建新的普通发票，而您可以根据需要编辑值。
-

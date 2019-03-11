@@ -1,13 +1,13 @@
 ---
-title: "预算计划与其他模块的集成"
-description: "预算计划可以从多个不同资源生成。 所有资源的周期性流程的基本元素相同。"
+title: 预算计划与其他模块的集成
+description: 预算计划可以从多个不同资源生成。 所有资源的周期性流程的基本元素相同。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 97c33a222d31e690d2a395f972c0ddc4b89e8fdb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 4a18190152b6e5ea520a81f1db2cf67ded652bbe
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353026"
 ---
-
 # <a name="budget-planning-integration-with-other-modules"></a>预算计划与其他模块的集成
 
 [!include [banner](../includes/banner.md)]
@@ -145,7 +144,6 @@ ms.lasthandoff: 05/08/2018
 使用**供应预测**和**需求预测**按钮运行这些查询。 在这两种情况下，查询搜索可能创建了预算计划行的预测行。 
 
 其他可用的报表包括**按预算计划预测职位**报表。 当您要确定职位是否正确地分配到预算计划时，此报表尤其有用。
-
 
 
 

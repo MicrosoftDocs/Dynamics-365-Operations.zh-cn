@@ -1,13 +1,13 @@
 ---
-title: "询价 (RFQ)"
-description: "此主题对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。"
+title: 询价 (RFQ)
+description: 此主题对询价 (RFQ) 进行简要介绍。 当组织要从几个供应商手中获得他们必须购买的商品或服务的竞争性报价时，他们发出询价。
 author: mkirknel
 manager: AnnBe
 ms.date: 06/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTable, PurchRFQCaseTableListPage, PurchRFQCompare, PurchRFQReplyTable, PurchRFQVendReplyTableListPage
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 714715ccfbdd57e4450c301f5302e008c0c136b1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 9b840f5511f6a0df0e9ce3db4be69a0ab4ec3261
-ms.openlocfilehash: 8d7b07027443d1ca3894ccb7ed7f3cf49a4dc3e3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 06/21/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351278"
 ---
-
 # <a name="requests-for-quotation-rfqs"></a>询价 (RFQ)
 
 [!include [banner](../includes/banner.md)]
@@ -268,5 +267,4 @@ ms.lasthandoff: 06/21/2018
 |------------------------------------------------|-------------------------------------------------------------|--------------------------------------------------------------|------------------------------------------------|-------------------------------------------------|----------------------------------------------|-----------------------------------------------|
 | 接受其中一个投标。 （或至少一行） |                          已收到                           |                           已接受                           |                    已收到                    |                    已接受                     |                   已收到                   |                   已接受                    |
 |           拒绝所有其他出价。           |                          已拒绝                           |                           已接受                           |                    已拒绝                    |                    已接受                     |                   已拒绝                   |                   已接受                    |
-
 

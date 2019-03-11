@@ -1,13 +1,13 @@
---- 
-title: "为预定义的产品变型创建产品编号命名法"
-description: "此指南显示如何为预定义的产品变型设置产品编号命名法，以及如何将其分配给适当的产品维度组。"
+---
+title: 为预定义的产品变型创建产品编号命名法
+description: 此指南显示如何为预定义的产品变型设置产品编号命名法，以及如何将其分配给适当的产品维度组。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, EcoResNomenclature, EcoResProductDimensionGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 4b49e96677b94d5f669ea41861f64e62e118938c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364871"
 ---
 # <a name="create-a-product-number-nomenclature-for-predefined-product-variants"></a>为预定义的产品变型创建产品编号命名法
 
@@ -57,5 +57,4 @@ ms.lasthandoff: 09/14/2018
 4. 在“使用命名法”字段中选择“是”。
 5. 在“产品变型编号命名法”字段中，输入或选择一个值。
 6. 关闭该页面。
-
 

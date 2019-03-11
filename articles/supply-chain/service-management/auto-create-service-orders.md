@@ -1,31 +1,30 @@
 ---
-title: "自动创建服务订单"
-description: "您可以生成基于服务协议的有效期间的服务协议的服务订单。"
+title: 自动创建服务订单
+description: 您可以生成基于服务协议的有效期间的服务协议的服务订单。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0189a9f99ffbb6ed2387211ba9e3b9f3bcdb3b52
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2d942d4448e0f792945603d3f5960fb82095be30
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331176"
 ---
-
 # <a name="automatically-create-service-orders"></a>自动创建服务订单 
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,5 @@ ms.lasthandoff: 05/08/2018
 此服务协议从 2012 年 1 月 1 日持续到 2012 年 12 月 31 日。 将把两个服务协议行附加到此服务协议。 第一个服务协议行的开始日期为 2012 年 1 月 2 日，结束日期为 2012 年 3 月 1 日。 第二个服务协议行的开始日期为 2012 年 4 月 2 日，结束日期为 2012 年 12 月 31 日。 您将在**创建服务订单**窗体中指定一个从 2012 年 10 月 1 日到 2012 年 12 月 31 日的期间。 因此，只为第二个服务协议行生成服务订单，因为第一个协议行的开始日期和结束日期在您为该服务订单指定的期间之前。
 
   
-
 
 

@@ -1,13 +1,13 @@
 ---
-title: "行动消息"
-description: "行动消息是系统生成的关于更改现有计划订单或确定订单的建议。"
+title: 行动消息
+description: 行动消息是系统生成的关于更改现有计划订单或确定订单的建议。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 0a417abc8b725f4d57ada595da57505ae1347bfc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0990ddc9c330b1d590e4c49eba0582c9cf70aa06
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349645"
 ---
-
 # <a name="action-messages"></a>行动消息
 
 [!include [banner](../includes/banner.md)]
@@ -40,16 +39,15 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="select-action-messages"></a>选择行动消息
 
-在 **“覆盖范围组”** 页上，您可以选择您希望系统生成的行动消息和消息适用的覆盖范围组或物料。 您可以选择以下行动消息。
+在**覆盖范围组**页上，您可以选择您希望系统生成的行动消息和消息适用的覆盖范围组或物料。 您可以选择以下行动消息。
 
 | 消息             | 描述                                                                                                                                                                                                                                              |
 |---------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **提前**         | 如果您选择此消息，系统将在需要时生成行动消息，以将订单移动到更早的日期。 在 **“提前宽限期”** 字段中，您还可以指定无提前行动的收货与发货之间的最大天数。 |
-| **延期**        | 如果您选择此消息，系统将在需要时生成行动消息，以将订单移动到更晚的日期。 在 **“延长宽限期”** 字段中，您还可以指定无延迟行动的收货与发货之间的最大天数。       |
+| **提前**         | 如果您选择此消息，系统将在需要时生成行动消息，以将订单移动到更早的日期。 在**提前宽限期**字段中，您还可以指定无提前行动的收货与发货之间的最大天数。 |
+| **延期**        | 如果您选择此消息，系统将在需要时生成行动消息，以将订单移动到更晚的日期。 在**延长宽限期**字段中，您还可以指定无延迟行动的收货与发货之间的最大天数。       |
 | **减少**        | 如果您选择此消息，则生产订单、采购订单或其他收货交易记录应减少，以避免超出库存水平。                                                                                                   |
 | **增加**        | 如果您选择此消息，则生产订单、采购订单或其他收货交易记录应增加，以避免库存出现短缺。                                                                                                    |
 | **派生的行动** | 如果选择此消息，则会为派生的需求创建行动消息，例如，针对组件订单满足生产的行动。                                                                                                   |
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "单个设置编号规则"
-description: "“数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。"
+---
+title: 单个设置编号规则
+description: “数序”被用于为需要它们的主数据记录和交易记录记录生成可读的唯一的标识符。
 author: sericks007
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: NumberSequenceTableListPage, NumberSequenceDetails
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6734d66a06f8a8dc90a48bd68b7b4e22177b4672
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 4e2808e57dc8d137fac892d48e99d7687ff1bf81
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362203"
 ---
 # <a name="set-up-number-sequences-on-an-individual-basis"></a>单个设置编号规则
 
@@ -43,5 +43,4 @@ ms.lasthandoff: 09/29/2017
 8. 展开“常规”部分。
     * 在“常规”快速选项卡上，指定该编号规则是手动的、连续的还是间断的。 此外，输入可以用于该编号规则的最小编号和最大编号。     我们建议不要将间断的编号规则更改为连续的编号规则。 该编号规则将不是真正意义上的连续。 此更改还可能导致数据库中重复键违规。 此外，连续编号规则在执行时会有更大的效果。   
 9. 单击“保存”。
-
 

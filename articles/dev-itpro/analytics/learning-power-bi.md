@@ -1,13 +1,13 @@
 ---
-title: "学习 Power BI 内容"
-description: "此主题描述学习 Power BI 内容。"
+title: 学习 Power BI 内容
+description: 此主题描述学习 Power BI 内容。
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Talent
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a4ea4606f9987bc08565d43a1f05243acf88883c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 0ee0cc2e22609d1a87e7d2b6dcd031606191f879
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321447"
 ---
-
 # <a name="learning-power-bi-content"></a>学习 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -31,12 +30,12 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 
-**学习** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
+此**学习** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
 
 | 报告                | 内容 |
 |-----------------------|----------|
 | 学习概览     | 其他报表的汇总 |
-| 课程分析       | 按位置分类的登记、按状态分类的参与者、各公司按类型分类的课程，以及按作业分类的课程参与者 |
+| 课程分析       | 按位置分类的登记、按状态分类的参与者、各公司按类型分类的课程，以及按作业分类的课程参与者 |
 | 登记分析 | 登记列表 |
 | 课程类型          | 课程类型(按技能) |
 | 教师分析   | 课程与教师的比率、教师数量、按教师分类的课程、各教师的课程，以及按教师分类的课程安排 |
@@ -64,4 +63,3 @@ ms.lasthandoff: 04/13/2018
 | 位置         | 职位、职务和全职等效 (FTE)                  | 课程安排、课程参与者 |
 | 员工姓名    | 名字、姓氏和全名                             | 课程参与者 |
 | 员工职务   | 职务和资历日期                                         | 课程参与者 |
-

@@ -1,13 +1,13 @@
---- 
-title: "设置保函的银行设施和过帐模板"
-description: "此任务会创建所需的银行融资和过帐模板，以便处理保函。"
+---
+title: 设置保函的银行设施和过帐模板
+description: 此任务会创建所需的银行融资和过帐模板，以便处理保函。
 author: kweekley
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankParameters, DefaultDashboard, BankDocumentSetup, BankDocumentPosting
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0f696f5aa809692a0cc2c4ff559945a301480d7e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 022b5d411b8240390c543ba726fe0d6838752944
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321654"
 ---
 # <a name="set-up-bank-facilities-and-posting-profiles-for-letters-of-guarantee"></a>设置保函的银行设施和过帐模板
 
@@ -77,5 +77,4 @@ ms.lasthandoff: 09/29/2017
 9. 在“清算帐户”字段中，选择保函交易记录使用的清除帐户。 
 10. 单击“保存”。
 11. 关闭该页面。
-
 

@@ -1,32 +1,31 @@
 ---
-title: "成本累积政策和开销计算"
-description: "本主题提供有关如何确定正确级别的辅助成本元素和创建成本累积规则以适应组织报告和成本可跟踪性。"
+title: 成本累积政策和开销计算
+description: 本主题提供有关如何确定正确级别的辅助成本元素和创建成本累积规则以适应组织报告和成本可跟踪性。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostRollupRule, CAMDimensionHierarchy
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e809cb2cadadc623134805e028de7f2e64dd662f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1150a63fe7c9d51c5fa83f4b0295cfdca7b998dc
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356131"
 ---
-
 # <a name="cost-rollup-policy-and-overhead-calculation"></a>成本累积政策和开销计算 
 
 [!include [banner](../includes/banner.md)]
@@ -257,9 +256,9 @@ HR 服务由以下度量值分配使用。
 
 维度层次结构允许您查看不同合并级别的数据。
 
-以下是在 Excel 中报告的 Power Pivot 示例。
+以下是 Excel 中的 Power Pivot 报告示例。
 
-| **损益表** | **成本对象** |                |               |               |  **总计**    |
+| **损益表** | **成本对象** |                |               |               |  **合计**    |
 |-----------------------------|-----------------|----------------|---------------|---------------|---------------|
 |                             | **CC001**       | **CC002**      | **CC003**     | **CC004**     |               |
 | **主要成本**            | **10.100,00**   | **14.200,00**  | **14.000,00** | **8.500,00**  | **46.800,00** |
@@ -302,4 +301,3 @@ HR 服务由以下度量值分配使用。
 -  [成本元素维度](cost-elements.md)
 -  [维度层次结构](dimension-hierarchy.md)
 -  [开销计算](overhead-calculation.md)
-

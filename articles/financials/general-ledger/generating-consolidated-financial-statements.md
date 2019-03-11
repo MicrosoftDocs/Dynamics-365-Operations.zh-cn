@@ -1,14 +1,14 @@
 ---
-title: "生成合并的财务报表"
-description: "此主题描述介绍可以生成合并的财务报表的各种情况。"
+title: 生成合并的财务报表
+description: 此主题描述介绍可以生成合并的财务报表的各种情况。
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 2a9ceb774a8f205e39abe6a12a0deb69dd4cb69b
 ms.openlocfilehash: 76e675373212195cbe3f6cf43d128b2104f92fc6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355188"
 ---
-
 # <a name="generate-consolidated-financial-statements"></a>生成合并的财务报表
 
 [!include [banner](../includes/banner.md)]
@@ -225,4 +224,3 @@ ms.lasthandoff: 08/20/2018
 有关合并和货币折算的详细信息，请参阅此主题的父主题，即 [财务合并和货币折算](./financial-consolidations-currency-translation.md)。
 
 有关如何输入在线合并的详细信息的更多信息，请参阅[在线合并](./consolidate-online.md)。
-

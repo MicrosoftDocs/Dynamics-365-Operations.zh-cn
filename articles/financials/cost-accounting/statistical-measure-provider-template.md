@@ -1,32 +1,31 @@
 ---
-title: "统计维度成员和统计度量提供方模板"
-description: "此主题提供关于统计维度成员和统计度量提供方模板的信息。 统计维度成员可用作成本分配和成本分摊等策略中的分配基础。 它们还可以用于报告非货币成本消耗。"
+title: 统计维度成员和统计度量提供方模板
+description: 此主题提供关于统计维度成员和统计度量提供方模板的信息。 统计维度成员可用作成本分配和成本分摊等策略中的分配基础。 它们还可以用于报告非货币成本消耗。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostAccountingLedgerSourceEntryProvider, CAMStatisticalDimension, CAMAXStatisticalMeasureProviderTemplate
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 8c74c47a5e0ca72fc4509786b091a70b5e292b54
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360294"
 ---
-
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>统计维度成员和统计度量提供方模板
 
 [!include [banner](../includes/banner.md)]
@@ -132,7 +131,7 @@ HcmEmployment 表包含实例中的所有员工的列表。 下表是一个全�
 > [!NOTE]
 > 在此示例中，我们将仅为**实际版本**创建一种关系。
 
-转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。 对于此方案，选择 **Dynamics 365 for Finance and Operations - 统计度量**数据连接器，因为我们希望从 Finance and Operations 提取数据。
+转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。 对于此方案，选择 **Dynamics 365 for Finance and Operations – 统计度量**数据连接器，因为我们希望从 Finance and Operations 提取数据。
 
 **数据源**
 
@@ -220,7 +219,7 @@ ProdRouteTrans 表包含按法人 DataAreadID 分类的所有生产人工交易�
 > [!NOTE]
 > 在此示例中，我们将仅为**实际版本**创建一种关系。
 
-转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。 对于此方案，选择 **Dynamics 365 for Finance and Operations - 统计度量**数据连接器，因为我们希望从 Finance and Operations 提取数据。
+转到**成本核算分类帐** \> **实际版本** \> **管理** \> **统计度量**以建立关系。 对于此方案，选择 **Dynamics 365 for Finance and Operations – 统计度量**数据连接器，因为我们希望从 Finance and Operations 提取数据。
 
 **数据源**
 
@@ -347,4 +346,3 @@ ProdRouteTrans 表包含按法人 DataAreadID 分类的所有生产人工交易�
 ## <a name="additional-resources"></a>其他资源
 
 [分配基数](allocation-bases.md)
-

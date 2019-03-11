@@ -1,13 +1,13 @@
 ---
-title: "度量单位和库存政策"
-description: "本文介绍如何在仓库流程中使用默认单位、单位序列和单位换算。"
+title: 度量单位和库存政策
+description: 本文介绍如何在仓库流程中使用默认单位、单位序列和单位换算。
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetails, EcoResProductDetailsExtended, EcoResStorageDimensionGroup, InventItemOrderSetup, UnitOfMeasureConversion, WHSRFMenuItem, WHSUOMSeqGroupTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c484f814d9f1e726fd326e1cd0ea8fe694f797b9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e0a22e07f5a0e5bc30c8ad9dc87c5a506d62847d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318089"
 ---
-
 # <a name="unit-of-measure-and-stocking-policies"></a>度量单位和库存政策
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="default-order-settings"></a>默认订单设置
 作为已发布产品创建的一部分，必须选择默认的采购、销售以及库存单位来处理各个订单。 您可以使用**默认订单设置**页和**站点特定的订单设置**页来设置各个原始凭证的默认单位和数量。 您可以从**已发布产品**页访问这些页面。
-
 
 
 

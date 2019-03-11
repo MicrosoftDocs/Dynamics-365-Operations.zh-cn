@@ -1,13 +1,13 @@
 ---
-title: "仓库移动设备的显示设置"
-description: "此文章介绍如何设置移动设备显示的外观，以及如何将键盘快捷键映射到控件（例如按钮）。"
+title: 仓库移动设备的显示设置
+description: 此文章介绍如何设置移动设备显示的外观，以及如何将键盘快捷键映射到控件（例如按钮）。
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFColor, WHSRFColorPicker, WHSWorkUserDisplaySettings
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 16f332da00d2230ecb4cebc526b6456314564e55
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a1413337888c8e2da95e33ebee6528f228ad3972
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328025"
 ---
-
 # <a name="warehouse-mobile-device-display-settings"></a>仓库移动设备的显示设置
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,7 @@ Request.UserHostAddress=.\*|HostName=.\*|Request.UserAgent=MSIE\\s8\\.0
 要选择颜色，请在**选择颜色**页上单击调色板或键入十六进制颜色代码。
 
 ## <a name="define-the-date-format-to-use-on-mobile-devices"></a>定义移动设备上使用的日期格式
-您可以扩展每个安装的可接受日期格式清单。 例如，如果您希望提供便于工作人员在移动设备上输入日期的格式，此功能可能很有用。 默认格式由用户的默认语言决定，该语言在**用户选项**页上的**语言**字段中指定。 （同一页面还用于将员工与特定仓库工作用户关联。)**注意**：仓库移动设备门户不使用**言和地区首选项**页上的**日期时间和数字格式**字段的设置。 要更改日期格式，您必须熟悉 Microsoft .NET Framework 的正则表达式。 有关详细信息，请参阅 [.NET Framework 正则表达式](http://go.microsoft.com/fwlink/?LinkId=391260)。 要定义日期格式，请编辑位于仓库移动设备门户服务器上的 Content\\Settings\\Dates.ini 目录下的 Dates.ini 文件。 此文件使用 .NET 正则表达式指定日期格式。 正则表达式必须包含用于创建日、月和年 (DDMMYY) 的命名组的子表达式，如下例所示：
+您可以扩展每个安装的可接受日期格式清单。 例如，如果您希望提供便于工作人员在移动设备上输入日期的格式，此功能可能很有用。 默认格式由用户的默认语言决定，该语言在**用户选项**页上的**语言**字段中指定。 （同一页面还用于将员工与特定仓库工作用户关联。)**注意**：仓库移动设备门户不使用**言和地区首选项**页上的**日期时间和数字格式**字段的设置。 若要更改日期格式，您必须熟悉 Microsoft .NET Framework 的正则表达式。 有关详细信息，请参阅 [.NET Framework 正则表达式](http://go.microsoft.com/fwlink/?LinkId=391260)。 要定义日期格式，请编辑位于仓库移动设备门户服务器上的 Content\\Settings\\Dates.ini 目录下的 Dates.ini 文件。 此文件使用 .NET 正则表达式指定日期格式。 正则表达式必须包含用于创建日、月和年 (DDMMYY) 的命名组的子表达式，如下例所示：
 
 ^(?&lt;day&gt;\\d{2})(?&lt;month&gt;\\d{2})(?&lt;year&gt;\\d{2})$
 
@@ -101,7 +100,6 @@ Request.UserHostAddress=.\*|HostName=.\*|Request.UserAgent=MSIE\\s8\\.0
 --------
 
 [为仓库工作配置移动设备](configure-mobile-devices-warehouse.md)
-
 
 
 

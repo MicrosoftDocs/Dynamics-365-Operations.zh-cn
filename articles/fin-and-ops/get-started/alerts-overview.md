@@ -1,13 +1,13 @@
 ---
-title: "预警"
-description: "此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 中预警的一般信息。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。"
+title: 预警
+description: 本主题提供了有关 Microsoft Dynamics 365 for Finance and Operations 中的预警的一般信息。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。
 author: tjvass
 manager: AnnBe
 ms.date: 07/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EventCreateRule
 audience: Application user
 ms.reviewer: sericks
@@ -16,20 +16,19 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2018-3-30
 ms.dyn365.ops.version: Platform update 15
+ms.openlocfilehash: 28ee34cd9133c634af98a50168e22efd0f74abce
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 38309e986c1d284ed63be760745b20a5415adb4c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367447"
 ---
-
 # <a name="alerts"></a>预警
 
 [!include [banner](../includes/banner.md)]
 
 ## <a name="about-alerts"></a>关于预警
-预警构成了 Microsoft Dynamics 365 for Finance and Operations 中重要事件的通知系统。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。 您可轻松创建自己的一套预警规则，以便获得有关逾期交货、删除订单、价格更改或其他必须响应的事件的预警。
+预警在 Microsoft Dynamics 365 for Finance and Operations 中组成通知系统。 您可以使用预警保持了解有关您想要在工作日期间跟踪的事件。 您可轻松创建自己的一套预警规则，以便获得有关逾期交货、删除订单、价格更改或其他必须响应的事件的预警。
 
 在企业资源规划 (ERP) 中，有多个典型场景可以使用 Finance and Operations 的预警功能。 下面举了一些示例加以说明。
 
@@ -78,4 +77,3 @@ ms.lasthandoff: 08/08/2018
 ## <a name="email-notifications-from-alerts"></a>警报电子邮件通知
 
 尚未启用警报电子邮件通知。 以后的更新中将启用此功能。
-

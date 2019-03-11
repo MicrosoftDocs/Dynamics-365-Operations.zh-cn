@@ -1,13 +1,13 @@
 ---
-title: "向 POS 设备上的交易记录屏幕添加建议控件"
-description: "此主题介绍如何使用 Microsoft Dynamics 365 for Retail 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。"
+title: 向 POS 设备上的交易记录屏幕添加建议控件
+description: 此主题介绍如何使用 Microsoft Dynamics 365 for Retail 中的屏幕布局设计器，向销售点 (POS) 设备的交易记录屏幕添加建议控件。
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTillLayout
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320435"
 ---
-
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>向 POS 设备上的交易记录屏幕添加建议控件
 
 [!include [banner](includes/banner.md)]
@@ -67,7 +66,7 @@ ms.lasthandoff: 01/04/2019
     [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. 单击 **X** 保存并退出布局设计器。
-4. 在 Dynamics 365 for Retail 中，转至**零售** &gt; **零售 IT** &gt; **配送计划**。
+4. 在 Dynamics 365 for Retail 中，转到**零售** &gt; **零售 IT** &gt; **配送计划**。
 5. 在列表中，选择  **1090 收银机**。
 6. 单击**立即运行**。
 
@@ -88,11 +87,10 @@ ms.lasthandoff: 01/04/2019
 7. 在**图像**字段中，选择要在该选项卡上显示的图像。
 8. 单击 **确定**。 将在按钮网格中显示新选项卡。
 9. 单击 **X** 保存并退出布局设计器。
-10. 在 Dynamics 365 for Retail 中，转至**零售** &gt; **零售 IT** &gt; **配送计划**。
+10. 在 Dynamics 365 for Retail 中，转到**零售** &gt; **零售 IT** &gt; **配送计划**。
 11. 在列表中，选择 **1090 收银机**。
 12. 单击**立即运行**。
 
 ## <a name="additional-resources"></a>其他资源
 
 [个性化产品建议概览](personalized-product-recommendations.md)
-

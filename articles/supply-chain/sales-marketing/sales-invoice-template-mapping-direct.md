@@ -1,32 +1,31 @@
 ---
-title: "将直接来自 Finance and Operations 的销售发票标题和行同步到 Sales"
-description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的销售发票标题和行直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。"
+title: 将直接来自 Finance and Operations 的销售发票标题和行同步到 Sales
+description: 本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的销售发票标题和行直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
+ms.openlocfilehash: 70fc842463254b02d812447f93970a9da676057d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: afbf4a24b737cf7221bac4b688b8801b1bcd839c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319492"
 ---
-
 # <a name="synchronize-sales-invoice-headers-and-lines-directly-from-finance-and-operations-to-sales"></a>将 Finance and Operations 的销售发票标题和行直接同步到 Sales
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ ms.lasthandoff: 03/26/2018
 
 以下模板和基础任务用于将来自 Finance and Operations 的销售发票标题和行同步到 Sales：
 
-- **“数据集成”中模板的名称：** 销售发票（Fin and Ops 到 Sales）- 直接
+- **数据集成中模板的名称：** 销售发票（Fin and Ops 到 Sales）- 直接
 - **数据集成项目中的任务名称：**
 
     - SalesInvoiceHeader
@@ -139,7 +138,6 @@ ms.lasthandoff: 03/26/2018
 [将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户](contacts-template-mapping-direct.md)
 
 [将直接来自 Finance and Operations 的销售订单标题和行同步到 Sales](sales-order-template-mapping-direct-two-ways.md)
-
 
 
 

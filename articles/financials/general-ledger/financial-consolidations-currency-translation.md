@@ -1,14 +1,14 @@
 ---
-title: "财务合并和货币折算"
-description: "此主题介绍总帐中的财务合并和货币折算。"
+title: 财务合并和货币折算
+description: 此主题介绍总帐中的财务合并和货币折算。
 author: aprilolson
 manager: AnnBe
 ms.date: 07/09/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2018-5-31
 ms.dyn365.ops.version: 8.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: ce9c24a0a89dd4e6a0f3f2c7789b4f553d88d412
 ms.openlocfilehash: 8427d53bac3216d362b2bf8983a847f069351b3b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353992"
 ---
-
 # <a name="financial-consolidations-and-currency-translation"></a>财务合并和货币折算
 
 [!include [banner](../includes/banner.md)]
@@ -181,4 +180,3 @@ Finance and Operations 使用一个法人处理一项合并。 它支持单实�
 
 ## <a name="generating-consolidated-financial-statements"></a>生成合并的财务报表
 有关可以生成财务报表的方案的信息，请参阅[生成合并的财务报表](./generating-consolidated-financial-statements.md)。
-

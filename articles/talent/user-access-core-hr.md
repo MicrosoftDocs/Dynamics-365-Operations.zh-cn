@@ -1,30 +1,29 @@
 ---
-title: "用户可以访问 Core HR，但无法访问 Onboard 或 Attract 应用"
-description: "此主题介绍如何解决用户可以访问 Microsoft Dynamics 365 for Talent Core HR 但无法访问 Attract 或 Onboard 应用的问题。"
+title: 用户可以访问 Core HR，但无法访问 Onboard 或 Attract 应用
+description: 此主题介绍如何解决用户可以访问 Microsoft Dynamics 365 for Talent Core HR 但无法访问 Attract 或 Onboard 应用的问题。
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 2e5d0b1bf993aec89c7d2c6d4916732f5824310d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303456"
 ---
-
 # <a name="user-can-access-core-hr-but-not-the-onboard-or-attract-app"></a>用户可以访问 Core HR，但无法访问 Onboard 或 Attract 应用
 
 [!include [banner](includes/banner.md)]
@@ -47,4 +46,3 @@ ms.lasthandoff: 12/04/2018
 **长期解决方案**
 
 Microsoft 正在考虑当用户被添加到 Core HR 时自动向 Onboard 和 Attract 分配相应权限。
-

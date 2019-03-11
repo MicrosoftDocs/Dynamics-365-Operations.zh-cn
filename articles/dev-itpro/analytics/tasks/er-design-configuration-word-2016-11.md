@@ -1,13 +1,13 @@
---- 
-title: "设计 ER 配置以生成 Word 格式的报表"
-description: "以下步骤说明属于系统管理员或电子申报开发人员的用户如何配置电子申报格式，以便生成 Microsoft Word 文件格式的报表。"
+---
+title: 设计 ER 配置以生成 Word 格式的报表
+description: 以下步骤说明属于系统管理员或电子申报开发人员的用户如何配置电子申报格式，以便生成 Microsoft Word 文件格式的报表。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, EROperationDesigner,  LedgerJournalTable, LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362341"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>设计 ER 配置以生成 Word 格式的报表
 
@@ -99,5 +99,4 @@ ms.lasthandoff: 09/14/2018
 16. 单击“确定”。
 17. 单击“确定”。
     * 分析生成的输出。 请注意，创建的输出以 Word 格式表示，并且其中包含处理的付款的详细信息。  
-
 

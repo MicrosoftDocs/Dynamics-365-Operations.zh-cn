@@ -1,13 +1,13 @@
 ---
-title: "数据导入和导出作业"
-description: "使用数据管理工作区创建和管理数据导入和导出作业。"
+title: 数据导入和导出作业
+description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: Sunil-Garg
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: margoc
 ms.search.scope: Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360202"
 ---
-
 # <a name="data-import-and-export-jobs"></a>数据导入和导出作业
 
 [!include [banner](../includes/banner.md)]
@@ -158,4 +157,3 @@ ms.lasthandoff: 08/13/2018
 - **数据项目** - 如果仅选择一个数据项目，则删除选定数据项目的所有实体和跨所有作业的所有记录。
 
 您还可以合并这些选项以进一步限制被删除的记录集。
-

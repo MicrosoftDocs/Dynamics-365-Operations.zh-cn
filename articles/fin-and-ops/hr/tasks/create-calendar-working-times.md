@@ -1,13 +1,13 @@
---- 
-title: "创建日历和生成工作时间"
-description: "日历描述运营资源的产能和工作时间。"
+---
+title: 创建日历和生成工作时间
+description: 日历描述运营资源的产能和工作时间。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WorkCalendarTable, WorkCalendarDate
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 8a556367857890acdb926ed29518cf2f2f2b92ea
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336006"
 ---
 # <a name="create-calendar-and-generate-working-times"></a>创建日历和生成工作时间
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
     * 工作时间模板定义一周每天的工时。  
 13. 单击“确定”。
 14. 关闭该页面。
-
 

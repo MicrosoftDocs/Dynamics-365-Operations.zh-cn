@@ -1,13 +1,13 @@
---- 
-title: "成批创建销售报价单"
-description: "该过程演示如何有效创建发送一组产品或服务给多个客户的报价单。"
+---
+title: 成批创建销售报价单
+description: 该过程演示如何有效创建发送一组产品或服务给多个客户的报价单。
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesQuotationTemplateGroup, SalesQuotationListPage, SalesCreateQuotation, SalesQuotationTable, SysQueryForm
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e0e9ddf38106fce3ed6a6f908826f2196c97a45a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1fcb2c4d47f0c8e701be025e0554ed476693d732
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332004"
 ---
 # <a name="mass-create-sales-quotations"></a>成批创建销售报价单
 
@@ -100,5 +100,4 @@ ms.lasthandoff: 09/29/2017
 10. 单击“确定”。
 11. 转到“销售和市场营销”>“销售报价单”>“所有报价单”。
     * 核实已根据所选的模板，为成批更新程序中指定的所有客户创建报价单。  
-
 

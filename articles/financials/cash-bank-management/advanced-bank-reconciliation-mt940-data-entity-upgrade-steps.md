@@ -1,13 +1,13 @@
 ---
-title: "高级银行对帐 MT940 导入 - 综合数据实体升级"
-description: "需要将序列号添加到银行对账单导入实体以支持 MT940 格式。"
+title: 高级银行对帐 MT940 导入 - 综合数据实体升级
+description: 需要将序列号添加到银行对账单导入实体以支持 MT940 格式。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 6c0eeb59726422177ed1122767b9d3142a1311a2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a76558d220e98de85060d23d6e5d8df1c0cd1baf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343780"
 ---
-
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>高级银行对帐 MT940 导入 - 综合数据实体升级
 
 [!include [banner](../includes/banner.md)]
@@ -44,24 +43,23 @@ ms.lasthandoff: 11/03/2017
 2.  数据管理\\数据项目。
     1.  负荷 MT940 导入项目
         1.  变更 XSLT。
-            -   单击“**查看映射**”。
-            -   单击银行对账单单据上的“**查看映射**”。
-            -   单击“**转换**”
+            -   单击**查看映射**。
+            -   单击银行对账单单据上的**查看映射**。
+            -   单击**转换**
             -   删除 BankReconiliation-to-Composite.xslt 文件。
             -   添加 BankReconiliation-to-Composite.xsl 的新版本。
 
-        2.  在“**源数据**”版式上公开“**序列号**”。
+        2.  在**源数据**版式上公开**序列号**。
             1.  源数据格式 = XML 元素。
             2.  实体名称 = 银行对账单。
             3.  上载数据文件 = SampleBankCompositeEntity.xml 的新版本。
-            4.  单击“**是**”以覆盖现有文件。
-            5.  单击“**是**”生成新的映射。
-            6.  验证“S**equenceNumber**”是否已映射。
-                -   单击对账单实体上的“**查看映射**”。
-                -   验证“**SequenceNumber**”是否已从源映射到暂存。
+            4.  单击**是**以覆盖现有文件。
+            5.  单击**是**生成新的映射。
+            6.  验证S**equenceNumber**是否已映射。
+                -   单击对账单实体上的**查看映射**。
+                -   验证**SequenceNumber**是否已从源映射到暂存。
 
 3.  导入新的对账单。
-
 
 
 

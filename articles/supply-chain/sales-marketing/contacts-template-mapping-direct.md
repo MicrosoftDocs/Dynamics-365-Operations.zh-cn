@@ -1,32 +1,31 @@
 ---
-title: "将直接来自 Sales 的联系人同步到 Finance and Operations 的联系人或客户"
-description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的联系人（联系人）和联系人（客户）实体同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。"
+title: 将直接来自 Sales 的联系人同步到 Finance and Operations 的联系人或客户
+description: 本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的联系人（联系人）和联系人（客户）实体同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: 5363c64cd1a475f0047c079d9166718ddc765f02
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356844"
 ---
-
 # <a name="synchronize-contacts-directly-from-sales-to-contacts-or-customers-in-finance-and-operations"></a>将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 11/01/2018
 > [!NOTE]
 > 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)。
 
-本主题讨论用于将来自 Microsoft Dynamics 365 for Sales 的联系人（联系人）和联系人（客户）实体直接同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
+本主题讨论用于直接将来自 Microsoft Dynamics 365 for Sales 的联系人（联系人）和联系人（客户）实体同步到 Microsoft Dynamics 365 for Finance and Operations 的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 
@@ -139,6 +138,5 @@ Sales 中的联系人可以成为 Finance and Operations 中的联系人或客�
 [将直接来自 Finance and Operations 的销售订单标题和行同步到 Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [将直接来自 Finance and Operations 的销售发票标题和行同步到 Sales](sales-invoice-template-mapping-direct.md)
-
 
 

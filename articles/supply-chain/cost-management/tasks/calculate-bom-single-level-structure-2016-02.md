@@ -1,13 +1,13 @@
---- 
-title: "通过使用单级结构计算 BOM（2016 年 2 月）"
-description: "此过程显示如何通过使用“成本计算单”中的单级分解计算成品的成本。"
+---
+title: 通过使用单级结构计算 BOM（2016 年 2 月）
+description: 此过程显示如何通过使用“成本计算单”中的单级分解计算成品的成本。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: f74f8e4efc4474693f0a5b543c1300c3b64ecda0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361582"
 ---
 # <a name="calculate-a-bom-by-using-a-single-level-structure-february-2016"></a>通过使用单级结构计算 BOM（2016 年 2 月）
 
@@ -43,5 +43,4 @@ ms.lasthandoff: 09/14/2018
 8. 单击“查看计算明细”。
     * 可能需要单击省略号 (...) 才能在顶部菜单中看到此选项。    下面是成本的构成：  •    10 源于 ITEM_A，10 源于 ITEM_B，10 源于 BOM_2。 在此示例中，BOM_2 无详细信息，因为它是作为标准成本 10 输入的，未经计算。  •  7 源自设置时间，这是固定成本，7 源自运行时操作（流程）。  •   还有其他一些与间接成本对应的金额。  
 9. @SysTaskRecorder:_RequestClose
-
 

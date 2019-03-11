@@ -1,32 +1,31 @@
 ---
-title: "将直接来自 Finance and Operations 的产品同步到 Sales"
-description: "本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的产品同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。"
+title: 将直接来自 Finance and Operations 的产品同步到 Sales
+description: 此主题介绍用于同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Sales 的产品的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
 ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348242"
 ---
-
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>将 Finance and Operations 的产品直接同步到 Sales
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 11/01/2018
 > [!NOTE]
 > 在可以使用“从目标客户到现金”解决方案之前，您应该熟悉[将数据集成到 Common Data Service for Apps](https://docs.microsoft.com/en-us/powerapps/administrator/data-integrator)。
 
-本主题讨论用于将来自 Microsoft Dynamics 365 for Finance and Operations 的产品直接同步到 Microsoft Dynamics 365 for Sales 的模板和基础任务。
+此主题介绍用于直接同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Sales 的产品的模板和基础任务。
 
 ## <a name="data-flow-in-prospect-to-cash"></a>“从目标客户到现金”中的数据流
 
@@ -79,7 +78,7 @@ ms.lasthandoff: 11/01/2018
 
 > [!NOTE]
 > - 产品同步不会成功，除非存在具有匹配币种的价目表。
-> - 您可以通过在数据集成项目中映射 pricelevelid.name [Default Price List (Name)]，使用集成控制所用价目表。 输入必须全部为小写字母。 例如，Sales 中名称为“Standard”的价目表的默认值为 pricelevelid.name [Default Price List (Name)]，映射类型为 [ { "transformType": "Default", "defaultValue": "standard" } ]。
+> - 您可以通过在数据集成项目中映射 pricelevelid.name [Default Price List (Name)]，使用集成控制所用价目表。 输入必须全部为小写字母。 例如，Sales 中名称为“Standard”的价目表的默认值为：目标字段：pricelevelid.name [Default Price List (Name)]，映射类型：[ { "transformType": "Default", "defaultValue": "standard" } ]。
 
 ## <a name="preconditions-and-mapping-setup"></a>先决条件和映射设置
 
@@ -120,7 +119,6 @@ ms.lasthandoff: 11/01/2018
 [将 Finance and Operations 的销售订单标题和行直接同步到 Sales](sales-order-template-mapping-direct-two-ways.md)
 
 [将直接来自 Finance and Operations 的销售发票标题和行同步到 Sales](sales-invoice-template-mapping-direct.md)
-
 
 
 

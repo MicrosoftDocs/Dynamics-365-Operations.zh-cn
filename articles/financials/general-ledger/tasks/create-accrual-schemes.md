@@ -1,13 +1,13 @@
---- 
-title: "创建应计方案"
-description: "此任务指南介绍创建应计架构的步骤。"
+---
+title: 创建应计方案
+description: 此任务指南介绍创建应计架构的步骤。
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerAccrualTable
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ce96ccfb0dc3e4a723af967147dae93772c5b44f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 324be23a1e26de0d05c7cf6a61567f7260d0c390
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355280"
 ---
 # <a name="create-accrual-schemes"></a>创建应计方案
 
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 9. 在“期间频率”字段中，选择交易记录的产生频率。
 10. 在“发生次数(按期间)”字段中，输入一个数字。
 11. 在“过帐交易记录”字段中，选择交易记录过帐的时间，如每月。
-
 

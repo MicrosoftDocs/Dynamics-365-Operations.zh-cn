@@ -1,13 +1,13 @@
 ---
-title: "试算平衡表财务报表"
-description: "本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。"
+title: 试算平衡表财务报表
+description: 本文介绍试算平衡表的默认报表。 它还介绍这些报表的关联构建块，以及如何修改这些报表以符合您的业务需求。
 author: jcart1106
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c9e8c16724364df4dd62150056299e818470aa63
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: a61369033202bdb99fe4b36b24051c64cb9ca4b1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309096"
 ---
-
 # <a name="trial-balance-financial-reports"></a>试算平衡表财务报表
 
 [!include [banner](../includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 05/08/2018
 <a name="default-trial-balance-reports"></a>默认试算平衡表
 -----------------------------
 
-Microsoft Dynamics 365 for Finance and Operations 的财务报表中提供三个试算平衡表报表。
+三个试算平衡表可用于 Microsoft Dynamics 365 for Finance and Operations 的财务报表。
 
 | 默认报表                                 | 作用                                                                                                                                                                                        |
 |------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -108,7 +107,6 @@ Microsoft Dynamics 365 for Finance and Operations 的财务报表中提供三个
 [查看财务报表](view-financial-reports.md)
 
 [Dynamics 财务申报博客](http://blogs.msdn.com/b/dynamics_financial_reporting/)
-
 
 
 

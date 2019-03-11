@@ -1,33 +1,32 @@
 ---
-title: "辅助功能"
-description: "本主题介绍为帮助残障用户使用 Dynamics 365 for Finance and Operations、Dynamics 365 for Retail 和 Dynamics 365 for Talent 而设计的功能。"
+title: 辅助功能
+description: 本主题描述专门帮助有伤残用户使用 Dynamics 365 for Finance and Operations、Dynamics 365 for Retail 和 Dynamics 365 for Talent 的功能。
 author: TLeforMicrosoft
 manager: AnnBe
 ms.date: 11/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: f88b485b0bdbf66532adff530e399bdd9d5b0ed5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363399"
 ---
-
 # <a name="accessibility-features"></a>辅助功能
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍为帮助残障用户使用 Dynamics 365 for Finance and Operations、Dynamics 365 for Retail 和 Dynamics 365 for Talent 而设计的功能。 例如，有的功能供使用视觉辅助技术（如 Microsoft Windows Narrator）的人员使用。
+本主题描述专门帮助有伤残用户使用 Dynamics 365 for Finance and Operations、Dynamics 365 for Retail 和 Dynamics 365 for Talent 的功能。 例如，有的功能供使用视觉辅助技术（如 Microsoft Windows Narrator）的人员使用。
 
 ## <a name="windows-narrator-and-keyboard-only-access"></a>Windows Narrator 和仅键盘访问
 
@@ -97,4 +96,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="guidance-to-help-developers-and-customers-incorporate-accessible-thinking-in-their-customizations"></a>帮助开发人员和客户将可理解的想法与其自定义内容相结合的指导
 
 若要更多了解有关启用辅助功能的 Microsoft 最佳实践，请参阅[窗体、产品和控件中的辅助功能](../../dev-itpro/user-interface/enable-accessibility.md)。
-

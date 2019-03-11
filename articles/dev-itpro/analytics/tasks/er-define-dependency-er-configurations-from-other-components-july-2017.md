@@ -1,13 +1,13 @@
---- 
-title: "定义 ER 配置与其他组件之间的依赖关系"
-description: "若要完成这些步骤，首先必须完成任务指南“ER 管理模型映射配置”中的步骤，还必须可以访问 Microsoft Dynamics Lifecycle Services (LCS)。"
+---
+title: 定义 ER 配置与其他组件之间的依赖关系
+description: 若要完成这些步骤，首先必须完成任务指南“ER 管理模型映射配置”中的步骤，还必须可以访问 Microsoft Dynamics Lifecycle Services (LCS)。
 author: NickSelin
 manager: AnnBe
 ms.date: 06/23/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 18eb8de7c851e5477d93a00f744fe56929c43ca2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365078"
 ---
 # <a name="define-the-dependency-of-er-configurations-on-other-components"></a>定义 ER 配置与其他组件之间的依赖关系
 
@@ -46,7 +46,7 @@ ms.lasthandoff: 08/08/2018
     * 可以将所需依赖关系组合在一起。 如果选择了“所有”组类型，并且满足了此组和附属组的每个依赖关系条件，将视为满足了此组的依赖关系条件。 如果选择了“一个”组类型，并且满足了此组的至少一个依赖关系条件，将视为满足了此组的依赖关系条件。   
 5. 单击“新建”。
 6. 选择”产品必备项组件“。
-7. 选择“Microsoft Dynamics 365 for Operations (1611)”。
+7. 选择 Microsoft Dynamics 365 for Operations (1611)。
 8. 在”版本“字段中，键入”[7.1.1541.3036,8)“。
     * [7.1.1541.3036,8)  
     * 如果从任何 ER 存储库下载了此配置，将评估您输入的依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Finance and Operations 中完成，其版本必须为 7.1.1541.3036 或更高，但是不得超过主要版本 8。   
@@ -59,10 +59,10 @@ ms.lasthandoff: 08/08/2018
 15. 单击“编辑”。
 16. 单击“新建”。
 17. 选择”产品必备项组件“。
-18. 选择”Microsoft Dynamics AX 7.0 RTW“。
+18. 选择 Microsoft Dynamics AX 7.0 RTW。
 19. 在”版本“字段中，键入”[7.0.1265.3015,7.1)“。
     * [7.0.1265.3015,7.1)  
-    * 如果从任何 ER 存储库下载了此配置，将评估依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 中完成，其版本必须为 7.0.1265.3015 或更高，但是不得超过次要版本 1。   
+    * 如果从任何 ER 存储库下载了此配置，将评估依赖关系。 如果“示例数据模型”配置的版本 1 已提前准备就绪或下载，将从 ER 存储库下载此配置版本。 如果提前下载，则必须在 Microsoft Dynamics 365 for Finance and Operations 企业版中完成，其版本必须为 7.0.1265.3015 或更高，但是不得超过次要版本 1。   
 20. 单击“保存”。
 21. 关闭该页面。
 22. 单击“更改状态”。
@@ -140,5 +140,4 @@ ms.lasthandoff: 08/08/2018
 26. 在树中，展开“示例数据模型”。
     * 请注意，已下载了模型“示例映射”映射配置和所选数据模型配置。 一起下载这两个文件是因为已将“示例映射”定义为实施所选数据模型，并且其适用于 Finance and Operations。 尚未下载“示例映射（备用）”配置，因为未满足所需应用程序版本的条件。   
     * 如果登录 Dynamics 365 for Finance and Operations Enterprise edition，注册相同提供程序，访问相同 LCS 项目，然后下载相同数据模型配置，将下载“示例映射（备用）”配置，但跳过“示例映射”配置。  
-
 

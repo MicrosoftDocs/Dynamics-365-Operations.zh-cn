@@ -1,13 +1,13 @@
---- 
-title: "查找适用的价格和折扣"
-description: "该过程会显示如何查找当前对于特定客户有效的产品价格和折扣，无需创建销售订单。"
+---
+title: 查找适用的价格和折扣
+description: 该过程会显示如何查找当前对于特定客户有效的产品价格和折扣，无需创建销售订单。
 author: omulvad
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ba95e651898da0e0fbd1221f61436ffac59db09e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 809a1466b0f4674f503bc654175d8f94b37a6508
-ms.openlocfilehash: 7ef63151f352b3664bccd7a59e7417dfddc7470b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359857"
 ---
 # <a name="look-up-applicable-prices-and-discounts"></a>查找适用的价格和折扣
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 11/01/2017
 3. 单击“查看行折扣”。
     * 产品 T0012 有 2 个单行折扣协议，规定订单行数量为 1-10 的折扣百分比是 5，订单行数量为 10 以上的折扣百分比是 7。 请注意，该折扣适用于产品组，在本示例中，组代码为 01，产品 T0012 包括在其中。  
 4. 关闭该页面。
-
 

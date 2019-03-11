@@ -1,13 +1,13 @@
 ---
-title: "删除 Talent 环境"
-description: "此主题将指导您如何删除 Microsoft Dynamics 365 for Talent 的测试驱动器或生产环境。"
+title: 删除 Talent 环境
+description: 此主题将指导您如何删除 Microsoft Dynamics 365 for Talent 的测试驱动器或生产环境。
 author: rschloma
 manager: AnnBe
 ms.date: 11/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
+ms.openlocfilehash: e0422a5b7ac227ad03ccafb4e34e614dc770a363
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: 5080f1ec182b8cbdf281967185a1afeb9887f682
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303501"
 ---
 # <a name="remove-talent-environments"></a>删除 Talent 环境
 
@@ -73,5 +73,4 @@ Talent 测试驱动器设置了 60 天的到期策略。 不过，测试驱动�
 6. 在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。 
 7. 选择要删除的实例，其应标记有部署状态**失败**。
 8. 选择**删除实例**并确认您的决定。 
-
 

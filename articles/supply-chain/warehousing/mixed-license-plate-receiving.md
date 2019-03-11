@@ -1,13 +1,13 @@
 ---
-title: "正在接收混合牌照"
-description: "此主题描述如何在移动设备上使用混合牌照接收为多个物料登记和创建工作。"
+title: 正在接收混合牌照
+description: 此主题描述如何在移动设备上使用混合牌照接收为多个物料登记和创建工作。
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a44165bc59d65a9dfdf8e591152f427b97930b34
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: ec3fdff6e1118f4a4ef4146d315fe8c58664f453
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365883"
 ---
-
 # <a name="mixed-license-plate-receiving"></a>正在接收混合牌照
 
 [!include [banner](../includes/banner.md)]
@@ -50,4 +49,3 @@ ms.lasthandoff: 11/03/2017
 - 混合牌照接收和储存
 
 用于标识原始凭证行的选项为采购订单物料、采购订单行、退货订单、转移单物料和转移单行。 这些选项可以更改对单个牌照的接收单。 最后一个选项是按加载物料。 您可以将多个物料添加到牌照，但不能在多个负荷之间切换。
-

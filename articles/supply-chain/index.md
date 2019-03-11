@@ -1,31 +1,30 @@
 ---
-title: "供应链管理主页"
-description: "本页提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。"
+title: 供应链管理主页
+description: 本页提供了针对 Microsoft Dynamics 365 for Finance and Operations 中的供应链管理功能的一系列帮助主题和其他资源。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/09/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.assetid: ad2a889a-acfd-4b59-a3b3-4017dd374c7b
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 391f63fba2916b613f66bfd36cfbd3a052cbc8fe
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 02cdf4615e2071f2b7de2e86b6f9e6637c6e5d8d
-ms.openlocfilehash: df35f70d8297aa2a832d143217542e3d558040ea
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/09/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301975"
 ---
-
 # <a name="supply-chain-management-home-page"></a>供应链管理主页
 
 [!include [banner](includes/banner.md)]
@@ -57,13 +56,13 @@ ms.lasthandoff: 05/09/2018
 
 - [在 Field Service 和 Finance and Operations 之间同步工作订单](https://youtu.be/hAB4TDVMjxU)
 
-这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition 7.3（2017 年 12 月）中的新功能。
+这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition 7.3（2017 年 12 月）中的新功能。
 
 -  [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg) 
 -  [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 -  [使用仓库模板复制配置](https://www.youtube.com/watch?v=K2WIfFlqJYs&feature=youtu.be)
 
-这些视频短片帮助您了解 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition（2017 年 7 月）中的新功能。
+这些视频短片可帮助您了解 Microsoft Dynamics 365 for Finance and Operations, Enterprise edition（2017 年 7 月）中的新功能。
 
 -  [开始使用成本核算](https://youtu.be/1pUDtJQZ8FU)
 -  [成本控制移动工作区](https://youtu.be/imsuTg8rUVk)
@@ -115,6 +114,5 @@ ms.lasthandoff: 05/09/2018
 
 ## <a name="elearning-courses"></a>网络培训课程
 有关 Microsoft Dynamics 365 for Finance and Operations 培训的信息，请参阅 <a href="https://mbspartner.microsoft.com/AX/LearningPlans/">Microsoft Dynamics 学习门户</a>。 （需要 CustomerSource 帐户） 
-
 
 

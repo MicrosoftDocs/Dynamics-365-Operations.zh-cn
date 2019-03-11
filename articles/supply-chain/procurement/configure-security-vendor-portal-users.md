@@ -1,13 +1,13 @@
 ---
-title: "供应商门户用户安全性"
-description: "本文说明如何设置使用供应商门户的外部供应商的安全性。 此信息仅适用于 Dynamics AX 2016 年 2 月 &amp; 2016 年 5 月版本。"
+title: 供应商门户用户安全性
+description: 本文说明如何设置使用供应商门户的外部供应商的安全性。 此信息仅适用于 Dynamics AX 2016 年 2 月和 2016 年 5 月版本。
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 176eeb2ddb145d21f7ff9fd94a9a56e173caee59
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5819d21a91ac2a7c91f19fd6d80fd7b983411545
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "367056"
 ---
-
-# <a name="vendor-portal-user-security"></a>供应商门户用户安全性
+# <a name="vendor-portal-user-security"></a>供应商门户用户安全
 
 [!include [banner](../includes/banner.md)]
 
-本文说明如何设置使用供应商门户的外部供应商的安全性。 此信息仅适用于 Dynamics AX 2016 年 2 月 &amp; 2016 年 5 月版本。
+本文说明如何设置使用供应商门户的外部供应商的安全性。 此信息仅适用于 Dynamics AX 2016 年 2 月和 2016 年 5 月版本。
 
-在 Dynamics 365 for Operations 1611 版本中，供应商门户功能被扩展的供应商协作功能所取代。 有关设置供应商协作安全性的详细信息，请参阅[设置和维护供应商协作](set-up-maintain-vendor-collaboration.md)。 供应商门户向外部供应商公开了有关采购订单 (PO) 的一组有限的信息。 请您务必在 Microsoft Dynamics AX 中为供应商门户正确设置用户权限，这样供应商就不会意外访问您 Dynamics AX 安装中的其他信息。 **重要信息：** 与其他用户不同，外部供应商不应具有**系统用户**角色。 **系统用户**角色将授予对一组不适用于外部用户的特权的访问权限。
+在 Dynamics 365 for Operations 版本 1611 中，供应商门户功能被扩展的供应商协作功能所取代。 有关设置供应商协作安全性的详细信息，请参阅[设置和维护供应商协作](set-up-maintain-vendor-collaboration.md)。 供应商门户向外部供应商公开了有关采购订单 (PO) 的一组有限的信息。 请您务必在 Microsoft Dynamics AX 中为供应商门户正确设置用户权限，这样供应商就不会意外访问您 Dynamics AX 安装中的其他信息。 **重要信息：** 与其他用户不同，外部供应商不应具有**系统用户**角色。 **系统用户**角色将授予对一组不适用于外部用户的特权的访问权限。
 
 ## <a name="setting-up-a-vendor-portal-user"></a>设置供应商门户用户
 在为即将使用供应商门户的人创建用户帐户之前，您必须设置供应商以允许供应商门户协作。 在**供应商**页面的**常规**选项卡上，使用**采购订单协作**字段。 使用供应商门户的外部供应商必须具有以下设置：
@@ -48,7 +47,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [供应商协作](collaborate-vendors-vendor-portal.md)
-
 
 
 

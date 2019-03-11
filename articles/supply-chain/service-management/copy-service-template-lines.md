@@ -1,31 +1,30 @@
 ---
-title: "复制服务模板行"
-description: "模板信息可以复制到服务协议或服务订单。"
+title: 复制服务模板行
+description: 模板信息可以复制到服务协议或服务订单。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/19/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAAgreementTable, SMAServiceOrderTable
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 533fe7fbecb8878a7f9ddf527c33dd68b53ec698
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5424442b6698b589a55611296d3f404af7707a0b
-ms.openlocfilehash: 791b97cea9f45eff41b99a9d09f399ad1e431af9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/27/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326116"
 ---
-
 # <a name="copy-service-templates-lines"></a>复制服务模板行 
 
 [!include [banner](../includes/banner.md)]
@@ -39,7 +38,7 @@ ms.lasthandoff: 02/27/2018
 3. 单击**模板行**打开**复制服务模板行**页。
 4. 在**树型控制**选项卡上，扩展树，找到包含您要复制到服务协议的行的模板，然后选择该服务模板。
 5. 在**行**选项卡上，为您要复制的服务模板行选中**选择**复选框。
-6. 单击“确定”。
+6. 单击**确定**。
 7. 关闭页面以保存您所做更改。
 
 这些服务模板行现在将与附加的服务对象和服务任务关系一起复制到该服务协议。
@@ -51,7 +50,7 @@ ms.lasthandoff: 02/27/2018
 3. 单击“复制”\>“复制模板行”打开**复制服务模板行**页。
 4. 在**树型控制**选项卡上，扩展树，找到包含您要复制到服务订单的行的模板，然后选择该服务模板。
 5. 在**行**选项卡上，为您要复制的服务模板行选中**选择**复选框。
-6. 单击“确定”。
+6. 单击**确定**。
 7. 关闭页面以保存您所做更改。
 
 这些服务模板行将与附加的服务对象和服务任务关系一起复制到新的服务订单。 
@@ -59,6 +58,5 @@ ms.lasthandoff: 02/27/2018
 ## <a name="related-topics"></a>相关主题
 
 [服务模板](service-template.md)
-
 
 

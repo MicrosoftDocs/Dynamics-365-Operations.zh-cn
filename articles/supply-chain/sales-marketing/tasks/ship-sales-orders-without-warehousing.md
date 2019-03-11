@@ -1,13 +1,13 @@
---- 
-title: "装运无仓库的销售订单"
-description: "本指南演示在将产品发运给客户时如何更新销售订单。"
+---
+title: 装运无仓库的销售订单
+description: 本指南演示在将产品发运给客户时如何更新销售订单。
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesTable, SalesEditLines,  SrsReportViewerForm, SalesTableLineQuantity, CustPackingSlipJournal
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: ae70e09dbc4da90b7d1802d076384eae2d00da0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 3f1b9dd4b99bcbcc6cfbc5cfd8e3271fa80c628c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312960"
 ---
 # <a name="ship-sales-orders-without-warehousing"></a>装运无仓库的销售订单
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/29/2017
 20. 在操作窗格中，单击“领料和装箱”。
 21. 单击“装箱单”。
     * “装箱单日记帐”页含有您的订单生成的所有装箱单单据。 您可以在想要时查看并打印每个单据的详细信息。  
-
 

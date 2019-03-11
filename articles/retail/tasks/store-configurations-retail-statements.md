@@ -1,13 +1,13 @@
---- 
-title: "零售报表的商店配置"
-description: "此程序会逐步演示零售商店的配置（这会影响到如何创建和过帐零售报表）。"
+---
+title: 零售报表的商店配置
+description: 此程序会逐步演示零售商店的配置（这会影响到如何创建和过帐零售报表）。
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 9fddeb8434d916df1613d61da88110dec8fb4465
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: cac676c9c6ebb6769fe7e30ac08a2c8334befc24
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354705"
 ---
 # <a name="store-configurations-for-retail-statements"></a>零售报表的商店配置
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
     * 如果午夜之后发生的交易应过帐为前一天的一部分，请选择“是”。  
     * 选择“是”，以为定义的每种报表方法创建报表。 如果需要为交易数量高的商店提高过帐性能，这可能很有用，因为它将创建许多可并行处理的较小的报表。  
     * 在“默认客户”字段中，您可以选择客户科目，以用于未经预约而来的客户的销售。  
-
 

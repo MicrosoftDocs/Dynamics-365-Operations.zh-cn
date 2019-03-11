@@ -1,13 +1,13 @@
 ---
-title: "将物料清单和配方行发放到仓库"
-description: "此主题介绍将物料清单行和配方行的原材料发放到仓库的流程。"
+title: 将物料清单和配方行发放到仓库
+description: 此主题介绍将物料清单行和配方行的原材料发放到仓库的流程。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysOperationTemplateForm
 audience: Application User
 ms.reviewer: josaw
@@ -16,15 +16,14 @@ ms.custom: 1705903
 ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2017-12-31
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 8ccdb71f49652d6cca6ced2e9e9764d9ad0fffd8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 83648a93f367510d7b04bbd04a9f37689ecfaa59
-ms.openlocfilehash: 2bccabb033f5ba142b145e69930ce516aad596f2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/23/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343136"
 ---
-
 # <a name="release-bom-and-formula-lines-to-the-warehouse"></a>将物料清单和配方行发放到仓库
 
 [!include [banner](../includes/banner.md)]
@@ -99,4 +98,3 @@ ms.lasthandoff: 05/23/2018
     可用单位在成品的“单位序列组 ID”中定义。
 
     例如，成品在单位磅 (lbs.) 和托盘 (PL) 中进行以下转换：1 PL = 100 lbs。 要为 10,000 lbs 成品创建一个生产订单， 可以为计划要生产的托盘数量发放原材料。 选择 **PL** 为单位，然后在**数量**字段选择一个相应的数字。
-

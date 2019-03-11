@@ -1,13 +1,13 @@
 ---
-title: "银行对账单文件导入故障排除"
-description: "银行的银行对帐单文件与 Microsoft Dynamics 365 for Finance and Operations 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。"
+title: 银行对账单文件导入故障排除
+description: 银行的银行对帐单文件与 Microsoft Dynamics 365 for Finance and Operations 支持的布局匹配非常重要。 由于银行对账单的限制标准，大多数集成将正确工作。 但是，有时报表文件不能导入或有错误结果。 通常，这些问题由银行对账单文件中的小差异引起。 此文章说明如何修复这些差异和解决问题。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankStatementFormat
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a4006bf35673e3bb61bcf11619ecc68d295f29eb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c408f30c783d58766ab93b13c589079c3ef375de
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324437"
 ---
-
 # <a name="bank-statement-file-import-troubleshooting"></a>银行对账单文件导入故障排除
 
 [!include [banner](../includes/banner.md)]
@@ -99,7 +98,6 @@ BAI2 和 MT940 文件是基于文本的文件，并需要调整以支持可扩�
 | DynamicsAXMT940Layout                                   | MT940StatementExample                |
 | DynamicsAXISO20022Layout                                | ISO20022StatementExample             |
 | DynamicsAXBAI2Layout                                    | BAI2StatementExample                 |
-
 
 
 

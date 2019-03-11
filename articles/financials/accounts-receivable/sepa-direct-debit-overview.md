@@ -1,13 +1,13 @@
 ---
-title: "SEPA 直接借记概览"
-description: "单一欧元支付区 (SEPA) 由欧盟执委会设置，并指示所有电子付款均被视为国内行为，不论个人、企业或者组织和银行所在的国家/地区。 国内和跨境付款之间不存在差异。 SEPA 包含 28 个欧盟 (EU) 成员国，以及冰岛、列支敦斯登、挪威、瑞士、摩纳哥和圣马力诺。 SEPA 帮助在欧洲经济区域 (EEA) 中形成付款交易记录的单一市场。 最终，SEPA 会减少银行、企业和个人必须使用的支付形式数量。"
+title: SEPA 直接借记概览
+description: 单一欧元支付区 (SEPA) 由欧盟执委会设置，并指示所有电子付款均被视为国内行为，不论个人、企业或者组织和银行所在的国家/地区。 国内和跨境付款之间不存在差异。 SEPA 包含 28 个欧盟 (EU) 成员国，以及冰岛、列支敦斯登、挪威、瑞士、摩纳哥和圣马力诺。 SEPA 帮助在欧洲经济区域 (EEA) 中形成付款交易记录的单一市场。 最终，SEPA 会减少银行、企业和个人必须使用的支付形式数量。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, CustBankAccounts, CustParameters, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 23c418c6412e4bd300616eed4577e2b1d3f3d181
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: fb55f4b0b06019891c2e490eda837cfad882e6db
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359190"
 ---
-
 # <a name="sepa-direct-debit-overview"></a>SEPA 直接借记概览
 
 [!include [banner](../includes/banner.md)]
@@ -80,7 +79,6 @@ SEPA 数据格式基于 ISO 20022 消息标准。 当您配置应收账款的付
 
 ## <a name="how-do-refunds-and-returns-work-with-sepa-direct-debits"></a>如何使用 SEPA 直接借记退款和还款？
 在两个 SEPA 直接借记方案中，客户具有某些退款权限。 在到期日期后的八周内，允许客户撤消任何已授权的交易记录，而不必说明原因。 在未授权的交易记录情况下，该时间延长至到期日期的 13 个月之后。 通过使用“客户交易记录”页中的“取消付款”按钮手动完成撤消任何已执行的付款。
-
 
 
 

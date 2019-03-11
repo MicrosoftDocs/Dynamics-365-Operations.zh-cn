@@ -1,13 +1,13 @@
 ---
-title: "项目预测和预算"
-description: "Microsoft Dynamics 365 for Finance and Operations 提供项目预测和项目预算来管理和控制您的项目。"
+title: 项目预测和预算
+description: Microsoft Dynamics 365 for Finance and Operations 提供项目预测和项目预算来管理和控制您的项目。
 author: KimANelson
 manager: AnnBe
 ms.date: 10/25/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ForecastModel, ProjYearEndProcess
 audience: Application User
 ms.reviewer: shylaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 530a2717427c540d80509c4862e6fb8ea7c5694a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e31a013d6bf33b92b02bd9645a19380ba07f4a05
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310384"
 ---
-
 # <a name="project-forecasts-and-budgets"></a>项目预测和预算
 
 [!include [banner](../includes/banner.md)]
 
-Microsoft Dynamics 365 for Finance and Operations 提供两种管理和控制您的项目的方法：项目预测和项目预算。 
+Microsoft Dynamics 365 for Finance and Operations 提供两种方式管理和控制您的项目：项目预测和项目预算。 
 
 如果您的组织有操作视角，并且它侧重于产生自特定交易处理的收入和成本，请使用项目预测。 如果您的组织注重详细的财务金额，请使用项目预算。 
 
@@ -80,7 +79,6 @@ Microsoft Dynamics 365 for Finance and Operations 提供两种管理和控制您
 预测模型具有单层层次结构。 这意味着，一个项目预测必须与一个预测模型相关联。
 
 如果您使用项目预测，您可以标识设计为子模型。 然后您可以按部门、时段或地区创建预测。 例如，可以创建一年的预测模型，然后为由地区标题提交的东北部、东南部、西北部和西南部区域预测创建子模型。 通过在可用报表中选择不同的选项，可以按总预测或由子模型查看信息。
-
 
 
 

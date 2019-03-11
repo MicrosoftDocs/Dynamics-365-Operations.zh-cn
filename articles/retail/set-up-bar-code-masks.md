@@ -1,13 +1,13 @@
 ---
-title: "设置条码掩码"
-description: "此主题介绍如何设置条码掩码字符和条码掩码，以及如何为条码分配条码掩码。"
+title: 设置条码掩码
+description: 此主题介绍如何设置条码掩码字符和条码掩码，以及如何为条码分配条码掩码。
 author: rubencdelgado
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailBarcodeMaskCharacter, RetailBarcodeMaskSetup
 audience: Application User, Developer, IT Pro
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d3527807650061804212abf67e536c17078aabf9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340606"
 ---
-
 # <a name="set-up-bar-code-masks"></a>设置条码掩码
 
 [!include [banner](includes/banner.md)]
@@ -84,4 +83,3 @@ ms.lasthandoff: 01/04/2019
 5. 单击**保存**。
 
 现在可将条码掩码用于为产品创建条码。 上面的步骤是如何为产品创建条码掩码的示例，但是还说明了如何为其他任何支持的条码类型创建条码掩码。 应调整条码掩码、类型和长度，以便在您的具体环境中使用。
-

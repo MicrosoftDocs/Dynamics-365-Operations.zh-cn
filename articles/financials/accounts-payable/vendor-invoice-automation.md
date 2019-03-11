@@ -1,13 +1,13 @@
 ---
-title: "供应商发票自动化"
-description: "此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。"
+title: 供应商发票自动化
+description: 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendEditInvoiceHeaderStagingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6ea483a82b8215f0e6d8f420c007da349313daa5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 551f3d5fc52fac725fcc9fedc37dc1c85fac5a26
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324506"
 ---
 # <a name="vendor-invoice-automation"></a>供应商发票自动化
 
@@ -232,4 +232,3 @@ Contoso 还可以决定不强制执行任何安全性，因此相同用户可以
 + **应付账款职员**和**应付账款经理** – 维护供应商发票职责被分配到这些角色。
 
 默认情况下，如果用户角色提供对任何页面的编辑权限，则用户还将拥有对附件查看器执行突出显示、锁定和批注操作的编辑权限。 但是，如果有些场景中要求特定角色对页面（而不是附件查看器）具有编辑权限，则上述列表中的相应权限可用来满足该使用案例。
-

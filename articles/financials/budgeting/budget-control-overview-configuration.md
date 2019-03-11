@@ -1,13 +1,13 @@
 ---
-title: "预算控制概览"
-description: "本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations 中配置预算控制，以便您可以管理财务资源的信息。"
+title: 预算控制概览
+description: 本文介绍预算控制并提供可帮助您在 Microsoft Dynamics 365 for Finance and Operations 中配置预算控制，以便您可以管理财务资源的信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4dbbbdf403c3e3f7c1bfa391cc32f80505098db9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: e77760d6729b8faf3099590c60ea7673cfcb18ec
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308521"
 ---
-
 # <a name="budget-control-overview"></a>预算控制概览
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,7 @@ Microsoft Dynamics 365 for Finance and Operations 中的预算控制通过会计
 
 接下来，在**单据和日记帐**选项卡上，您可以选择哪些原始单据和日记帐将要进行预算控制检查以及检查是将发生在行条目还是发生在整个单据级别。 
 
-您应将所选的原始单据与包含在可用预算资金计算中的余额的复选框匹配。 例如，如果选择了 **“保留款的预算预留”**，您应选择 **“采购订单”** 选项。 当针对采购行上的金额和科目执行预算检查时，分配到预留上的预算控制类别为 **“保留款”**。 当针对采购申请上的金额和科目执行预算检查时，分配到预留上的预算控制类别为**预留款**。 
+您应将所选的原始单据与包含在可用预算资金计算中的余额的复选框匹配。 例如，如果选择了**保留款的预算预留**，您应选择**采购订单**选项。 当针对采购行上的金额和科目执行预算检查时，分配到预留上的预算控制类别为**保留款**。 当针对采购申请上的金额和科目执行预算检查时，分配到预留上的预算控制类别为**预留款**。 
 
 如果**保留款的预算预留**和/或**预留款的预算预留**包含在可用预算资金计算中并必须通过总帐过帐进行反映，则应在**总帐参数**页面上启用承诺确认会计。  
 
@@ -128,4 +127,3 @@ Microsoft Dynamics 365 for Finance and Operations 中的预算控制通过会计
 从此页，用户可以深入到**预算控制统计（按期间）** 页来查看所选预算控制维度组合的预算可用性详细信息和预留。 用户也可以深入到**预算控制统计**页查看用于预算控制的所有财务维度组合的预算可用性。 
 
 如果为采购订单启用预算控制，则预算经理可使用**分类帐预算和预测**工作区检查具有预算检查警告和错误的所有未确认采购订单的队列。 如果预算经理具有配置的超出预算权限，则他或她可以直接在该工作区中确认采购订单。    
-

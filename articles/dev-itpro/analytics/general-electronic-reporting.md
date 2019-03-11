@@ -1,13 +1,13 @@
 ---
-title: "电子申报 (ER)"
-description: "此主题概要介绍了电子申报 (ER) 工具。 内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。"
+title: 电子申报 (ER)
+description: 此主题概要介绍了电子申报 (ER) 工具。 内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。
 author: NickSelin
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 67dc5b5cdec797f19a742addd05c6002aa31cf15
 ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/03/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310798"
 ---
-
 # <a name="electronic-reporting-er"></a>电子申报 (ER)
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ER 目前支持 TEXT、XML、Microsoft Word 文档和 OPENXML 工作表格式。
 ## <a name="capabilities"></a>功能
 ER 引擎具有以下功能：
 
-- 它表示不同域中的电子申报的单一通用工具，并替换超过 20 个用于执行某种 Microsoft Dynamics 365 for Finance and Operations 电子申报的不同引擎。
+- 它表示不同域中的电子申报的单一共享工具，并替换超过 20 个用于执行某种 Microsoft Dynamics 365 for Finance and Operations 电子申报的不同引擎。
 - 它让报表的格式与当前 Dynamics 365 for Finance and Operations 实施隔离。 换句话说，该格式适用于 Finance and Operations 的不同版本。
 - 它支持创建基于原始格式的自定义格式。 它还包括当原始格式发生更改时自动升级自定义格式的功能，因为引入了本地化/自定义要求。
 - 它成为支持电子申报中的本地化要求的主要标准工具，针对 Microsoft 以及 Microsoft 合作伙伴。
@@ -170,7 +169,7 @@ ER 存储库中会存储 ER 配置。 四个 ER 存储库类型当前受支持�
 
 **LCS 项目**存储库允许您访问在存储库登记阶段选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前 Finance and Operations 实例将共享配置上载到特定 **LCS 项目**存储库。 你还可以从 **LCS 项目**存储库将配置导入到当前的 Finance and Operations 实例。
 
-**文件系统**存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 你可以从**文件系统**存储库将配置导入到当前的 Finance and Operations 实例。 请注意，请存储库类型在以下 Dynamics 365 for Finance and Operations 环境中可访问：
+**文件系统**存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 你可以从**文件系统**存储库将配置导入到当前的 Finance and Operations 实例。 请注意，存储库类型在以下 Dynamics 365 for Finance and Operations 环境中可访问：
 - 为开发目的部署的云托管环境（包含所含套件的测试模型）
 - 本地部署环境（内部或本地业务数据部署 (LBD)）
 
@@ -381,4 +380,3 @@ ER 支持在当前草稿版的派生组件中自动采用最新版本的基础�
 [本地化要求 – 创建电子申报配置](electronic-reporting-configuration.md)
 
 [管理电子申报配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
-

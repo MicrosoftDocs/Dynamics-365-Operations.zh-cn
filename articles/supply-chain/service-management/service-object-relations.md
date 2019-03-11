@@ -1,31 +1,30 @@
 ---
-title: "服务对象关系"
-description: "您可以在服务对象和服务协议或服务订单之间创建服务对象关系。"
+title: 服务对象关系
+description: 您可以在服务对象和服务协议或服务订单之间创建服务对象关系。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 02/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceObjectRelation
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 03047b3eccf3c90d4cf7426ddaec83f10dbea1b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 221b9dae7e83e7f4a535ac60f2a2011533d7861c
-ms.openlocfilehash: 0e54a0dc9b643077d45fe76e073772e81f99ea44
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/21/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314363"
 ---
-
 # <a name="service-object-relations"></a>服务对象关系 
 
 [!include [banner](../includes/banner.md)]
@@ -78,5 +77,4 @@ ms.lasthandoff: 02/21/2018
 ## <a name="automatically-created-service-orders"></a>自动创建了服务订单
 
 如果为某一服务协议自动创建服务订单，则该协议中的服务对象关系也处于已创建的服务订单中。
-
 

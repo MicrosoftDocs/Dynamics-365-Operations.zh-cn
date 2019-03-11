@@ -1,13 +1,13 @@
 ---
-title: "直接交货"
-description: "本文提供有关直接交运的信息。 直接交运是直接从供应商发送到您的客户的交货。"
+title: 直接交货
+description: 本文提供有关直接交运的信息。 直接交运是直接从供应商发送到您的客户的交货。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchCreateFromSalesOrder, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d9c4a695c591865c52ad5ee6d37a515139f58bf8
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 1f2cdae674dc88a4d533258e24b1ecf7ec4cf55b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312270"
 ---
-
 # <a name="direct-deliveries"></a>直接交货
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="warehouse"></a>仓库
 在您创建直接交运时，销售的物料永远不会实际到达您的仓库。 不过，您仍必须在销售订单行指定仓库。 相似地，领料要求可能在物料的物料模型组中指定。 但是，由于物料永远不会实际到达您的仓库，在销售订单为直接交运时，会忽略这些需求。
-
 
 
 

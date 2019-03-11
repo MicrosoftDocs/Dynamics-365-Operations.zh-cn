@@ -1,13 +1,13 @@
 ---
-title: "设置呼叫中心的连续性计划"
-description: "本文介绍如何为呼叫中心设置连续性计划。"
+title: 设置呼叫中心的连续性计划
+description: 本文介绍如何为呼叫中心设置连续性计划。
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCROrderParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 369856f33c6da49b6c6b3f51f42c99a8f07fe777
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 5098fb3339403b6f2779dfe3bb7ef5c4ca78051f
-ms.openlocfilehash: 9952785afd8e5d1877e96239ee23f9de1c332bcf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320964"
 ---
-
 # <a name="set-up-continuity-programs-for-call-centers"></a>设置呼叫中心的连续性计划
 
 [!include [banner](includes/banner.md)]
@@ -51,4 +50,3 @@ ms.lasthandoff: 08/08/2018
 - **扩展连续性行**（如果要求）– 扩展连续性事件可重复的次数。 重复装运可能超过在呼叫中心参数的**连续性重复阈值**字段中设置的限制。
 - **执行连续性更新**（如果要求）– 同步连续性计划和连续性父销售订单之间的更改。
 - **关闭连续性父行和父订单** – 关闭连续性订单。
-

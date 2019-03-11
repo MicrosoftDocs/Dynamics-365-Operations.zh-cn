@@ -1,13 +1,13 @@
 ---
-title: "财务报表中的报告结构树定义"
-description: "本文提供了有关报告结构树定义的信息。 报告结构树定义是报表组件或构造基块，可帮助定义组织的结构和层次结构。"
+title: 财务报表中的报告结构树定义
+description: 本文提供了有关报告结构树定义的信息。 报告结构树定义是报表组件或构造基块，可帮助定义组织的结构和层次结构。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 00219f21076af60f8e2f16ca365b1138bb279400
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316939"
 ---
-
 # <a name="reporting-tree-definitions-in-financial-reports"></a>财务报表中的报告结构树定义
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,7 @@ ms.lasthandoff: 08/13/2018
 
 | 报告结构树列 | 说明 |
 |-----------------------|-------------|
-| 公司               | 报告单位的公司名称。 **@ANY** 值（通常仅分配给汇总级别），使报告结构树能够用于所有公司。 所有子分支都会分得一个公司。 |
+| 公司               | 报告单位的公司名称。 **@ANY**值（通常只分派给汇总级别）允许将报告树用于所有公司。 所有子分支都会分得一个公司。 |
 | 单位名称             | 用于在图形报告结构树中标识此报告单位的代码。 请一定要建立一个一致的而且便于用户理解的唯一编码系统。 |
 | 单位描述      | 如果您输入 **UnitDesc** 作为报表定义的**页眉和页脚**选项卡上的代码，则报告单位标题将显示在报表页面或页脚中。 如果在行定义的**描述**单元格中输入 **UnitDesc**，则标题将显示在报表行描述中。 |
 | 维度            | 直接从财务数据中提取信息的报告单位。 它定义帐户和相关细分市场的逻辑定位和长度。 每个报告单位行必须在此列具有维度。 您还可以将维度放置在汇总单位行（例如，与该单位直接有关的费用）。 如果您在汇总单位行中输入维度，则不应在子单位中使用父单位中使用的帐户。 否则，金额可能会出现重复。 |
@@ -166,9 +165,9 @@ ms.lasthandoff: 08/13/2018
 3. 在**单位安全性**对话框中，选择一个名称，然后单击**删除**。
 4. 单击**OK**。
 
-### <a name="link-to-reports"></a>报表链接
+### <a name="link-toreports"></a>报表链接
 
-在行定义中创建**报表**列并指定报表包含在该报表中后，您必须使用链接的列和有关报表的信息更新报告结构树。 可将报表导入报告结构树中的任何单位。
+在行定义中创建 **报表**列并指定报表包含在该报表中后，您必须使用链接的列和有关报表的信息更新报告结构树。 可将报表导入报告结构树中的任何单位。
 
 ### <a name="identify-the-report-in-a-reporting-tree"></a>在报告结构树中标识报表
 
@@ -222,4 +221,3 @@ ms.lasthandoff: 08/13/2018
 ## <a name="additional-resources"></a>其他资源
 
 [财务申报](financial-reporting-intro.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "应收帐款主页"
-description: "使用应收帐款可以跟踪客户发票和收入付款。"
+title: 应收帐款主页
+description: 使用应收帐款可以跟踪客户发票和收入付款。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: 303d67c0b662e6c21cebb5aa10ed28555459522e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301977"
 ---
-
 # <a name="accounts-receivable-home-page"></a>应收帐款主页
 
 [!include [banner](../includes/banner.md)]
@@ -45,7 +44,7 @@ ms.lasthandoff: 08/08/2018
 
 :::row:::
     :::column:::
-        - [普通发票的会计分配和子分类日记帐条目](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [会计分配和普通发票的子分类日记帐分录](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [客户过帐模板](customer-posting-profiles.md)
         - [信用卡设置、授权和获取](credit-card-authorizations.md)
         - [创建客户发票](configure-customer-invoices.md)
@@ -54,7 +53,7 @@ ms.lasthandoff: 08/08/2018
     :::column-end:::
     :::column:::
         - [设置汇票](set-up-bills-exchange.md)
-        - [设置利息代码利率](set-up-interest-rates-interest-code.md)
+        - [为利息代码设置多种利率](set-up-interest-rates-interest-code.md)
         - [停征、复征或冲销利息费](waive-reinstate-reverse-interest-fees.md)
         - [SEPA 直接借记概览](sepa-direct-debit-overview.md)
         - [设置 SEPA 直接借记授权单](sepa-direct-debit-mandate.md)
@@ -82,7 +81,7 @@ ms.lasthandoff: 08/08/2018
         - [使用一次客户付款来结算跨多个折扣期间的多张发票](customer-payment-settle-multiple-invoices-multiple-discount-periods.md)
         - [应收帐款的集中付款](centralized-payments-accounts-receivable.md)
         - [在折扣日期之前结算部分客户付款并完全结算最后付款](../accounts-payable/settle-partial-customer-payment-or-final-payment-before-discount.md)
-        - [在折扣日期之前结算部分客户付款并在折扣日期之后完成最终付款](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
+        - [在折扣日期之前结算部分客户付款并在折扣日期之后完成最后付款](settle-partial-customer-payment-before-discount-or-final-payment-after.md)
     :::column-end:::
     :::column:::
         - [结算在贷方通知单上已折扣的部分客户付款](settle-partial-customer-payment-discounts-credit-notes.md)
@@ -113,7 +112,6 @@ ms.lasthandoff: 08/08/2018
 #### <a name="videos"></a>视频
 
 查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "销售和收益率绩效 Power BI 内容"
-description: "此主题介绍销售和收益率绩效 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 销售和收益率绩效 Power BI 内容
+description: 此主题介绍销售和收益率绩效 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesProfitabilityPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: cf4d3e12d33b67158ff4f96580b4ac2eb903bb93
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360409"
 ---
-
 # <a name="sales-and-profitability-performance-power-bi-content"></a>销售和收益率绩效 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -52,7 +51,7 @@ ms.lasthandoff: 08/13/2018
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 **销售和收益率绩效** Power BI 内容显示在**销售和收益率绩效**页面（**销售和市场** \> **查询和报表** \> **销售绩效分析** \> **销售和收益率绩效**）。
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
+## <a name="metricsthat-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的度量
 **销售和收益率绩效** Power BI 内容包括含有一组指标的报表。 这些指标显示为图表、磁贴和表。 下表概要介绍此内容中的可视化项。
 
 | 报表页            | 图表                                     | 磁贴                                                   |
@@ -80,7 +79,7 @@ ms.lasthandoff: 08/13/2018
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 以下数据用于填充**销售和收益率绩效** Power BI 内容中的报表。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](power-bi-integration-entity-store.md)。
 
-此内容中的聚合度量是 Microsoft Dynamics AX 2012 和 Microsoft Dynamics AX 2012 R3 中的销售多维数据集中提供的聚合度量子集。 若要在实体商店中暂存多维数据集的聚合度量，必须将其设置为可部署。 有关详细信息，请参阅 [Power BI 与 Dynamics 中的实体商店之间的集成](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)博客文章中在实体商店中暂存聚合度量的过程。
+此内容包中的聚合度量是 Microsoft Dynamics AX 2012 和 Microsoft Dynamics AX 2012 R3 中的销售多维数据集中提供的聚合度量子集。 若要在实体商店中暂存多维数据集的聚合度量，必须将其设置为可部署。 有关详细信息，请参阅 [Power BI 与 Dynamics 中的实体商店之间的集成](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/06/09/power-bi-integration-with-entity-store-in-dynamics-ax-7-may-update/)博客文章中在实体商店中暂存聚合度量的过程。
 
 发票行实体的以下关键聚合度量用作此内容的基础。
 
@@ -109,4 +108,3 @@ ms.lasthandoff: 08/13/2018
 | 日期            | 日期                                                |
 
 默认情况下，此内容显示当前日历年的数据。 但是，您可以更改报表筛选器部分中的数据筛选器。 还可以更改公司筛选器。
-

@@ -1,13 +1,13 @@
 ---
-title: "固定资产主页"
-description: "固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。"
+title: 固定资产主页
+description: 固定资产是个体或组织所拥有的有价值的物料，例如建筑物、车辆、土地和设备。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/31/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 78c70ade5a1ca9794760e72fb94e0735848aae79
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 3c49ff15a6ac5dddd64ded4a6e9c755504393346
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301951"
 ---
-
 # <a name="fixed-assets-home-page"></a>固定资产主页
 
 [!include [banner](../includes/banner.md)]
@@ -58,7 +57,6 @@ ms.lasthandoff: 02/07/2018
 #### <a name="videos"></a>视频
 
 查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
-
 
 
 

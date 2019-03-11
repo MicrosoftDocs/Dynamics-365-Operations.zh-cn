@@ -1,13 +1,13 @@
 ---
-title: "固定资产折旧"
-description: "文主题提供固定资产折旧的概览。"
+title: 固定资产折旧
+description: 文主题提供固定资产折旧的概览。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBonus, AssetBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a82e14e12cbde29e5619518481d0c22f6fa1a37a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e362d80f5c4a33ad604c717333777e7c5fdef489
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332786"
 ---
-
 # <a name="fixed-asset-depreciation"></a>固定资产折旧
 
 [!include [banner](../includes/banner.md)]
@@ -52,10 +51,9 @@ ms.lasthandoff: 11/03/2017
 ## <a name="depreciation-calendars"></a>折旧年份：日历
 每个帐簿都有在折旧固定资产时使用的日历。 默认情况下，如果您未在帐簿上指示日历，帐簿将使用分类帐会计日历。 如果帐簿的关联折旧模板使用会计折旧年度，您必须为该帐簿选择会计日历。 
 
-您可以在总帐中使用“**会计日历**”页创建共享日历。
+您可以在总帐中使用**会计日历**页创建共享日历。
 
 有关详细信息，请参阅[折旧法和惯例](depreciation-methods-conventions.md)。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "具有实际成本和标记的后进先出日期"
-description: "后进先出日期（LIFO 日期）是一种基于 LIFO 原则的库存模型。 基于库存交易记录的日期，按照最后入库的收货结算库存发货。 使用 LIFO 日期时，如果在发货前没有收货，则根据在发货日期后发生的任何收货结算该发货。 同一日期上的若干发货将按照最后发货、最后收货的顺序结算。"
+title: 具有实际成本和标记的后进先出日期
+description: 后进先出日期（LIFO 日期）是一种基于 LIFO 原则的库存模型。 基于库存交易记录的日期，按照最后入库的收货结算库存发货。 使用 LIFO 日期时，如果在发货前没有收货，则根据在发货日期后发生的任何收货结算该发货。 同一日期上的若干发货将按照最后发货、最后收货的顺序结算。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventJournalLossProfit, InventMarking, InventModelGroup, SalesTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 3913801eb35faec858ef4b8e1e5056b755054218
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0b94d3f23c929c45a67894bd08706144c9226491
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "311718"
 ---
-
 # <a name="lifo-date-with-physical-value-and-marking"></a>具有实际成本和标记的后进先出日期
 
 [!include [banner](../includes/banner.md)]
@@ -122,7 +121,7 @@ ms.lasthandoff: 11/03/2017
 
 例如，收货交易记录为发货交易记录标记。 这种情况下，将不考虑在物料的物料模型组中定义的评估方法，并且此系统将彼此结算这些交易记录。 
 
-在过帐交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。 您可以从 **“销售订单详细信息”** 页上的销售订单行执行此操作。 您可以在 **“标记”** 页上查看未结收货交易记录。 
+在过帐交易记录前，您可以将某一发货交易记录标记到某一收货交易记录。 您可以从**销售订单详细信息**页上的销售订单行执行此操作。 您可以在**标记**页上查看未结收货交易记录。 
 
 在过帐交易记录后，您还可以将某一发货交易记录标记到某一收货交易记录。 您可以匹配或标记已过帐库存调整日记帐的清查过物料的未结收货交易记录的发货交易记录。 
 
@@ -156,7 +155,6 @@ ms.lasthandoff: 11/03/2017
 - 每个垂直箭头用连续标识符标记，例如 *1a*。 这些标识符指示时间线中库存交易记录过帐的顺序。
 - 库存结转用红色的垂直虚线以及 *“库存结转”* 标签表示。
 - 由库存结转执行的结算用红色对角箭头（从收货指向发货）表示。
-
 
 
 

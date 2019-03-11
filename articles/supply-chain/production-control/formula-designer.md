@@ -1,32 +1,31 @@
 ---
-title: "配方设计器"
-description: "本主题说明如何使用配方设计器来分析和维护树视图中的配方。"
+title: 配方设计器
+description: 本主题说明如何使用配方设计器来分析和维护树视图中的配方。
 author: cvocph
 manager: AnnBe
 ms.date: 06/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PlanActivity, ReqSupplyDemandSchedule
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 31a46230251be3a654092a4acc05a404533001b2
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: a4cfd017fe10bbda6eda0e3a9a045e0832b08753
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348495"
 ---
-
 # <a name="formula-designer"></a>配方设计器
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 04/13/2018
 
 单击**设置**可选择不同的配置并指定要在树的行上显示哪些信息。
 
-单击 **“筛选器”** 以更改视图中的初始选择。 如果将显示原则设置为**选定/有效**或**选定**，可以选择要在视图中使用的单个配方或工艺路线版本。 您可以选择要在配方设计器中显示或维护的未经审核和无效的配方版本。  
+单击**筛选器**以更改视图中的初始选择。 如果将显示原则设置为**选定/有效**或**选定**，可以选择要在视图中使用的单个配方或工艺路线版本。 您可以选择要在配方设计器中显示或维护的未经审核和无效的配方版本。  
 
 > [!NOTE]
 > 如果您从**物料清单**列表页打开了**配方设计器**页，该设计器不会显示工艺路线信息。 目前，配方的选择或工艺路线版本应用于配方设计器的所有实例。  
@@ -50,13 +49,13 @@ ms.lasthandoff: 04/13/2018
 -   配方结构的树视图。
 -   详细信息部分中，显示所选数据的详细信息。 当您选择树视图中的节点时，详细信息部分中的 FastTabs 将基于该节点进行更新：
     -   **配方行详细信息** - 查看在树视图中选择的配方行的详细信息。
-    -   **物料数据** - 查看主要物料或在所选节点中使用的物料的详细信息。 您可以单击 **“编辑已发布产品”** 以维护所选物料。
+    -   **物料数据** - 查看主要物料或在所选节点中使用的物料的详细信息。 您可以单击**编辑已发布产品**以维护所选物料。
     -   **工艺路线** - 查看与所选节点相关的配方的标题。
     -   **工艺路线** - 查看与所选节点相关的工艺路线的标题。
     -   **工艺路线工序** - 查看工艺路线的工序的预览。 当物料清单行 (BOM) 分配给所选的特定工序后，该工序将标记为**工序中需要的组件**。
 
 ## <a name="select-a-formula-and-route"></a>选择配方和工艺路线
-为配方和工艺路线应用的筛选器将显示在配方设计器的标题中。 您可以使用 **“筛选器”** 对话框更改筛选器。 下表描述了此对话框中的字段。
+为配方和工艺路线应用的筛选器将显示在配方设计器的标题中。 您可以使用**筛选器**对话框更改筛选器。 下表描述了此对话框中的字段。
 
 <table>
 <thead>
@@ -78,7 +77,7 @@ ms.lasthandoff: 04/13/2018
 <td>显示原则</td>
 <td><p>选择适用于当前配方结构和当前工艺路线的版本显示原则：</p>
 <ul>
-<li>当原则设置为“有效”<strong></strong>或“选定/有效”<strong></strong>时，则会查找此日期的有效配方或工艺路线版本。</li>
+<li>当原则设置为<strong>有效</strong>或<strong>选定/有效</strong>时，则会查找此日期的有效配方或工艺路线版本。</li>
 <li>当该原则设置为<strong>选定/有效</strong>或<strong>选定</strong>时，您可以通过单击<strong>配方</strong> &gt; <strong>配方版本</strong> 或 <strong>工艺路线</strong> &gt; <strong>工艺路线版本</strong>来选择配方版本或工艺路线版本。</li>
 </ul></td>
 </tr>
@@ -121,5 +120,4 @@ ms.lasthandoff: 04/13/2018
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     物料清单     | 使用该复选框可选择在树结构中显示的条件。 配方设计器将在两个选项卡的底部显示所选条件。 |
 |    工艺路线    |                                           使用该复选框可选择对工艺路线显示的条件。                                           |
-
 

@@ -1,13 +1,13 @@
 ---
-title: "因素/系数折旧"
-description: "本文提供系数折旧法的概览。"
+title: 因素/系数折旧
+description: 本文提供系数折旧法的概览。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepreciationProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa8bc4566def9dd770a97facb459e6b977bfaffb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 44fa540c31e5302ccf0a65b44b3c45a4c1e1fd1f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338789"
 ---
-
 # <a name="factor-depreciation"></a>因素/系数折旧
 
 [!include [banner](../includes/banner.md)]
@@ -77,7 +76,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="straight-line-depreciation"></a>直线折旧法
 **系数**字段中的值等于 **50**。 在此情况下，折旧在每个期间中都相同，并且您应该考虑在其他字段中指定的值的意义，如[直线法折旧](straight-line-service-life-depreciation.md)中所述。
-
 
 
 

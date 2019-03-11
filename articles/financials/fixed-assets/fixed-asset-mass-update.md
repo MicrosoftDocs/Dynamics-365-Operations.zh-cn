@@ -1,13 +1,13 @@
 ---
-title: "固定资产成批更新"
-description: "如果您使用帐簿，则可以更改同属于一个帐簿的资产组的折旧惯例。"
+title: 固定资产成批更新
+description: 如果您使用帐簿，则可以更改同属于一个帐簿的资产组的折旧惯例。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b740f1fe710c2278bd5ac5f8d615f0e305cd7df1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b3fb55f1a51652299db8a31274b07f239fbaf28f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348794"
 ---
-
 # <a name="fixed-asset-mass-update"></a>固定资产成批更新
 
 [!include [banner](../includes/banner.md)]
@@ -38,7 +37,6 @@ ms.lasthandoff: 11/03/2017
 若要更新已处置的资产的折旧惯例，您必须首先删除现有处置交易记录。 您还必须删除由于处置流程生成的所有交易记录。 
 
 在您更新资产的折旧惯例后，您可以处理每个资产的折旧和特别折旧。 如果需要任何调整，您还可以进行手动折旧调整。
-
 
 
 

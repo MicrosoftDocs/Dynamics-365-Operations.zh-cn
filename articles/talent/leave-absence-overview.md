@@ -1,13 +1,13 @@
 ---
-title: "休假和缺勤管理"
-description: "此主题提供休假和缺勤管理模块的概览。"
+title: 休假和缺勤管理
+description: 此主题提供休假和缺勤管理模块的概览。
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
 ms.reviewer: rschloma
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 72bfbb878fa076e204e00c3ccaceb4ba04c00ea9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303421"
 ---
 # <a name="leave-and-absence-management"></a>休假和缺勤管理
 
@@ -68,4 +68,3 @@ ms.lasthandoff: 08/08/2018
 - **提交休假请求。**
 
     员工可针对其可用时数提交休假请求。 请求可以是简单的一天请求，也可以是包含多个休假和缺勤类型的多天请求。 如果不启用工作流，将自动批准请求。 如果启用工作流，可以自动执行审批，也可以要求签核，具体取决于工作流配置。
-

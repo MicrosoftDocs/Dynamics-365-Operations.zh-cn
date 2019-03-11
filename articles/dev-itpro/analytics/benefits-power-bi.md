@@ -1,13 +1,13 @@
 ---
-title: "福利 Power BI 内容"
-description: "此主题描述福利 Power BI 内容。 它说明如何访问包含的报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 福利 Power BI 内容
+description: 此主题描述福利 Power BI 内容。 它说明如何访问包含的报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmBenefitWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 38610815e45926aa367011c8723494615e03ee38
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355234"
 ---
-
 # <a name="benefits-power-bi-content"></a>福利 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 08/13/2018
 - Microsoft Dynamics 365 for Talent
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
-**福利** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
+此**福利** Power BI 内容中包含的报表有图表和表，其中包含更多信息。 下表对报表进行了描述。
 
 | 报告                      | 内容                                                                                       |
 |-----------------------------|------------------------------------------------------------------------------------------------|
@@ -71,4 +70,3 @@ ms.lasthandoff: 08/13/2018
 | 员工姓名            | 名字、姓氏和全名                                                                       | 当前员工、已离职的员工、员工趋势 |
 | 员工职务           | 职务和资历日期                                                                                   | 当前员工、已离职的员工、员工趋势 |
 | 员工趋势           | 一段时间的工作人员，人数，公司和职位                                                        | 公司、薪酬、地理位置、员工姓名、报告至、日历偏差、日期、员工职务、人口统计学、雇用、作业、福利 |
-

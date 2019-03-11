@@ -1,13 +1,13 @@
---- 
-title: "使得用户能够接收工作流相关的电子邮件消息"
-description: "在工作流相关事件发生时，您可以配置系统将电子邮件消息发送给用户。"
+---
+title: 使得用户能够接收工作流相关的电子邮件消息
+description: 在工作流相关事件发生时，您可以配置系统将电子邮件消息发送给用户。
 author: jasongre
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, SysUserSetup
 audience: Application User
 ms.reviewer: sericks
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6800d02878123388611d35760123d0215e9d539f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1ff7de584631563939104c87b00fdc26bdb1a3cb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344585"
 ---
 # <a name="enable-users-to-receive-workflow-related-email-messages"></a>使得用户能够接收工作流相关的电子邮件消息
 
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
     * 如果您希望用户在客户端中接收通知，则选中“以电子邮件形式发送通知”复选框。  
 6. 单击“保存”。
 7. 关闭该页面。
-
 

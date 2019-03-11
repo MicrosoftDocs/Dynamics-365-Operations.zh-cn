@@ -1,13 +1,13 @@
 ---
-title: "产品配置模型的计算常见问题"
-description: "本主题描述产品配置模型的计算。并说明如何与约束一起使用计算。"
+title: 产品配置模型的计算常见问题
+description: 本主题描述产品配置模型的计算。并说明如何与约束一起使用计算。
 author: cvocph
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCConstraintEditor, PCProductConfigurationModelDetails, PCRuntimeConfigurator
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00e1956950154051d4a916a013c2200029772e37
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: daae96502f705f05076cb351aa1baefc37957803
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363376"
 ---
-
 # <a name="calculations-for-product-configuration-models-faq"></a>产品配置模型的计算常见问题
 
 [!include [banner](../includes/banner.md)]
@@ -79,7 +78,7 @@ ms.lasthandoff: 02/07/2018
 
 1.  单击**产品信息管理** &gt; **通用** &gt; **产品配置模型**。
 2.  选择产品配置模型，然后在“操作窗格”上，单击 **编辑**。
-3.  在”**基于约束的产品配置模型详细信息**“页上，选择用作目标属性的属性。
+3.  在**基于约束的产品配置模型详细信息**页上，选择用作目标属性的属性。
 4.  在**属性**快速选项卡上，选择**隐藏**或**只读**。
 
 ## <a name="can-a-calculation-overwrite-the-values-that-i-set"></a>计算可以覆盖我设置的值吗？
@@ -102,7 +101,6 @@ ms.lasthandoff: 02/07/2018
 
 1.  单击**产品信息管理** &gt; **通用** &gt; **产品配置模型**。
 2.  选择产品配置模型，然后在“操作窗格”上，在**运行**组中单击**测试**。
-
 
 
 

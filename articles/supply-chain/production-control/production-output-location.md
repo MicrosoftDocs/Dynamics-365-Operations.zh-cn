@@ -1,13 +1,13 @@
 ---
-title: "生产输出位置"
-description: "本主题描述用于标识生产输出位置的层次结构。"
+title: 生产输出位置
+description: 本主题描述用于标识生产输出位置的层次结构。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 9445db6d78d46831ed961977d6041459f118fee9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: b1d6d1270dcbdf3baff63b2ccf300d6195329b41
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315766"
 ---
-
 # <a name="production-output-location"></a>生产输出位置
 
 [!include [banner](../includes/banner.md)]
@@ -41,4 +40,3 @@ ms.lasthandoff: 11/03/2017
 4. 如果在那里找不到任何位置，则使用在为生产订单定义的仓库上定义的输出位置。
 
 仅对使用高级仓库流程进行设置的产品设置默认生产输出位置。 在此类物料报告为已完工入库时，创建**成品储存**或**联产品和副产品储存**类型的仓库工作。 此类型工作使用生产输出位置作为领料库位。 储存库位由库位指令确定。
-

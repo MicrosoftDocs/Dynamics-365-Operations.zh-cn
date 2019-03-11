@@ -1,13 +1,13 @@
 ---
-title: "已删除或弃用的功能"
-description: "本主题介绍已经删除或计划删除的功能。"
+title: 已删除或弃用的功能
+description: 本主题介绍已经删除或计划删除的功能。
 author: sericks007
 manager: AnnBe
 ms.date: 12/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 48e2eea2cc986edc49d5192945c3d913c3bb9756
-ms.openlocfilehash: 8a3405c434e402af68e59950f1e4d1a31cbf2813
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329244"
 ---
-
 # <a name="removed-or-deprecated-features"></a>已移除或弃用的功能
 
 [!include [banner](../includes/banner.md)]
@@ -104,7 +103,7 @@ ms.lasthandoff: 12/04/2018
 ## <a name="dynamics-365-for-finance-and-operations-80-with-platform-update-15"></a>具有平台更新 15 的 Dynamics 365 for Finance and Operations 8.0
 此版本中未移除或弃用任何功能。 平台更新 15 是累积功能，其中包含平台更新 13、14 和 15 中的新增功能或更改功能。
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>具有平台更新 12 的 Dynamics 365 for Finance and Operations Enterprise Edition 7.3
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>具有平台更新 12 的 Dynamics 365 for Finance and Operations Enterprise edition 7.3
 
 ### <a name="personalized-product-recommendations"></a>个性化产品建议 
 从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参见[个性化产品建议](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations)。  
@@ -125,8 +124,8 @@ ms.lasthandoff: 12/04/2018
 | **弃用/移除的原因** | 代码密封计划  |
 | **被另一个功能取代？**   | 无。 每当需要一个新的内置函数时，必须向 ER 框架团队提交新扩展请求。<br><br>在 ER 团队开发请求的函数时，作为临时解决方案，可以将需要的逻辑作为一种自定义应用程序类方法进行编程。 此方法可以作为引用该自定义应用程序类的**应用程序\类**类型的已添加 ER 数据源的属性在 ER 表达式中访问。  |
 | **影响的产品区域**         | 电子申报框架                                                      |
-| **部署选项**              | 全部                                                                                      |
-| **状态**                         | 从 Dynamics 365 for Finance and Operations Enterprise Edition 7.3 开始移除。    |
+| **部署选项**              | 所有                                                                                      |
+| **状态**                         | 从 Dynamics 365 for Finance and Operations Enterprise edition 7.3 开始移除。    |
 
 ### <a name="inventory-by-item-group-and-inventory-by-inventory-dimension-aging-reports"></a>按物料组的库存和按库存维度的库存帐龄分析表
 
@@ -141,7 +140,7 @@ ms.lasthandoff: 12/04/2018
 | **状态**                       | 已弃用：两个分析表的菜单项在版本 7.3 中已移除。 但这些分析表的代码仍然保留在产品中。 在将来的发行中计划移除该代码。 |
 
 ### <a name="power-bi-content-packs-available-on-appsource"></a>AppSource 中的 Power BI 内容包
-[Microsoft AppSource](https://appsource.microsoft.com) 上提供的**成本管理**、**财务绩效**和**零售渠道绩效**内容包因为 Microsoft Power BI 中的产品更新而被弃用。 过去将这些内容包部署到 PowerBI.com 的系统管理窗体在 Finance and Operations 中也被弃用。
+[Microsoft AppSource](https://appsource.microsoft.com) 站点上提供的**成本管理**、**财务绩效**和**零售渠道绩效**内容包因为 Microsoft Power BI 中的产品更新而被弃用。 过去将这些内容包部署到 PowerBI.com 的系统管理窗体在 Finance and Operations 中也被弃用。
 
 |   |  |
 |------------|--------------------|
@@ -223,7 +222,7 @@ ms.lasthandoff: 12/04/2018
 | **状态**                         |从 2018 年 2 月 15 日开始移除。 这将影响运行 Dynamics 365 for Retail 7.2 及更高版本的客户。 |
 
 
-## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>具有平台更新 8 的 Dynamics 365 for Finance and Operations Enterprise Edition 2017 年 7 月
+## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-july-2017-with-platform-update-8"></a>具有平台更新 8 的 Dynamics 365 for Finance and Operations Enterprise edition（2017 年 7 月）
 
 ### <a name="currency-conversion-for-accounting-and-reporting-currencies"></a>记帐币种和申报币种的币种转换
 
@@ -244,7 +243,7 @@ ms.lasthandoff: 12/04/2018
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 重复的功能。       |
-| **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅 [安装和配置 Microsoft Dynamics 365 for Finance and Operations - Warehousing](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app)。 |
+| **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅[安装和配置 Microsoft Dynamics 365 for Finance and Operations - 仓库](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app)。 |
 | **影响的产品区域**         | 仓库管理，运输管理     |
 | **部署选项**              | 仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。               |
 | **状态**                         | 已弃用：移除功能的目标时间范围为 2019 年第四季度。   |
@@ -258,7 +257,7 @@ ms.lasthandoff: 12/04/2018
 | **弃用/移除的原因** | 有限使用。                                                                         |
 | **被另一个功能取代？**   | 编号 应使用列筛选功能查找用于对帐的单据。 |
 | **影响的产品区域**         | 现金和银行管理                                                               |
-| **部署选项**              | 全部                                                                                    |
+| **部署选项**              | 所有                                                                                    |
 | **状态**                         | 从 2017 年 7 月开始移除。                                                               |
 
 ## <a name="dynamics-365-for-operations-1611-with-platform-update-3"></a>具有平台更新 3 的 Dynamics 365 for Operations 1611
@@ -725,7 +724,7 @@ ICMS 税联邦报税单
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 此功能已被另一个功能取代。 |
-| **被另一个功能取代？**   | Common Data Service                                      |
+| **被另一个功能取代？**   | Common data service                                      |
 | **影响的产品区域**         | Connector for Microsoft Dynamics                         |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。                           |
 
@@ -771,7 +770,7 @@ ICMS 税联邦报税单
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 数据分区在 Microsoft Dynamics AX 2012 R2 引入以启用数据隔离。 在常见情况中，公司有子公司，一个子公司的数据不应对另一个子公司可见，即使两个子公司均由相同的 IT 部门管理。 不过，整个程序都需要额外的脚本和管理开销来创建新的分区并填充数据，以及备份分区数据。 在云中，在其中我们有访问平台即服务 (PaaS) 数据库服务（Microsoft SQL Azure 数据库）的权限，则使用数据库作为隔离容器比在程序中执行隔离要高效得多。 不管是子公司、多个租户，或只为规模需要进行数据分区，我们认为通过多个 Finance and Operations 实例都可以更好地处理这种情况。 |
+| **弃用/移除的原因** | 数据分区在 Microsoft Dynamics AX 2012 R2 引入以启用数据隔离。 在常见情况中，公司有子公司，一个子公司的数据不应对另一个子公司可见，即使两个子公司均由相同的 IT 部门管理。 不过，整个程序都需要额外的脚本和管理开销来创建新的分区并填充数据，以及备份分区数据。 在云中，在其中我们有访问平台即服务 (PaaS) 数据库服务（Microsoft Azure SQL 数据库）的权限，则使用数据库作为隔离容器比在程序中执行隔离要高效得多。 不管是子公司、多个租户，或只为规模需要进行数据分区，我们认为通过多个 Finance and Operations 实例都可以更好地处理这种情况。 |
 | **被另一个功能取代？**   | 如果数据库级别分隔是关键问题，使用数据分区的客户必须使用多个 Finance and Operations 实例。    |
 | **影响的产品区域**         | 所有模块  |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。  |
@@ -980,9 +979,9 @@ Microsoft Dynamics AX 2012 通过使用“未实现的增值税”的墨西哥�
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 此功能已由 Microsoft Exchange Server 集成替换。 |
+| **弃用/移除的原因** | 此功能已被 Microsoft Exchange Server 集成取代。 |
 | **被另一个功能取代？**   | 是                                                                            |
-| **影响的产品区域**         | 销售和市场营销                                                            |
+| **影响的产品区域**         | Sales and Marketing                                                            |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。                                                 |
 
 ### <a name="private-blocking-of-inventory-and-warehouse-management-journals"></a>库存和仓库管理日记帐的专用锁定
@@ -1127,5 +1126,4 @@ Windows 8 平板电脑应用提供用于费用录入和审核的功能。
 |  <strong>被另一个功能取代？</strong>  | Management Reporter（在 Dynamics AX 的当前版本中标记为<strong>财务报告</strong>。） |
 |     <strong>影响的产品区域</strong>     |                                              总帐                                              |
 |             <strong>状态</strong>             |                                      从 Dynamics AX 2012 开始移除                                      |
-
 

@@ -1,13 +1,13 @@
 ---
-title: "费用报销管理参数"
-description: "以下参数控制费用报销管理中的行为。"
+title: 费用报销管理参数
+description: 以下参数控制费用报销管理中的行为。
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: b6f67d44e0c64c145bb6d477c83d5a245b1682d4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 22f766b780d10d4fc615660990729f008007787a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355924"
 ---
-
 # <a name="expense-management-parameters"></a>费用报销管理参数
 
 [!include [banner](../includes/banner.md)]
@@ -92,5 +91,4 @@ ms.lasthandoff: 04/13/2018
 |  <strong>显示反腐败证明</strong>  | 选择此选项以在创建新的支出报表时显示反腐败文本。 之后可以启用要求在支出报表上选择反腐败证明的特定支出类别。 例如，与政府官员支出有关的礼品类别可能要求员工确认支出满足与政府官员有关的公司政策。 |
 | <strong>提交者的反腐败消息</strong> |                                                                                             输入在创建新的支出报表时要显示给员工的文本。 单击<strong>翻译</strong>按钮输入将要基于用户语言显示的特定语言的文本。                                                                                             |
 | <strong>审核人的反腐败消息</strong>  |                                                                                             输入在创建新的支出报表时要显示给审核人的文本。 单击<strong>翻译</strong>按钮输入将要基于用户语言显示的特定语言的文本。                                                                                             |
-
 

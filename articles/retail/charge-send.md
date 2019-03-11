@@ -1,31 +1,30 @@
 ---
-title: "使用“费用发送”功能从其他商店装运订单"
-description: "此主题描述“费用发送”功能。"
+title: 使用“费用发送”功能从其他商店装运订单
+description: 此主题描述“费用发送”功能。
 author: ashishmsft
 manager: AnnBe
 ms.date: 10/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2017-10-10
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: e5351086c56d13ef98937aec066be00cdf88fd37
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354061"
 ---
-
 # <a name="ship-orders-from-another-store-by-using-the-charge-send-feature"></a>使用“费用发送”功能从其他商店装运订单
 
 [!include [banner](includes/banner.md)]
@@ -43,4 +42,3 @@ ms.lasthandoff: 01/04/2019
 选择“收货”地址的功能保持不变。
 
 可用于履行订单行的装运方法基于有效的产品交货方式和地址的配置。 由于有关有效交货方式的规则仅在 Retail 总部 (HQ) 维护，POS 客户端将进行实际的调用来提取装运行的有效交货方式。
-

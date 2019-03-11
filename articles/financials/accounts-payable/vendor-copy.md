@@ -1,13 +1,13 @@
 ---
-title: "使用共享的编号规则复制供应商"
-description: "本主题说明如何使用共享的编号规则将供应商复制到另一个法人但却保持相同的供应商 ID。"
+title: 使用共享的编号规则复制供应商
+description: 本主题说明如何使用共享的编号规则将供应商复制到另一个法人但却保持相同的供应商 ID。
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendTable
 audience: Application User
 ms.reviewer: shylaw
@@ -15,15 +15,14 @@ ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 0c492cd76fc9742aa4cff8fe588541cb2c6f1863
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301983"
 ---
-
 # <a name="copy-vendors-by-using-shared-number-sequences"></a>使用共享的编号规则复制供应商
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ ms.lasthandoff: 10/11/2018
 
 ## <a name="copy-a-vendor"></a>复制供应商
 
-要复制供应商，请选择**所有供应商**列表页面上的**新建**，打开**所有供应商 - 新记录**页面。 请注意，系统不会立即分配新的供应商 ID。 此行为与以前版本的 Microsoft Dynamics 365 for Finance and Operations 中的行为不同。 由于您尚未选择供应商组，因此系统无法确定要使用的正确编号规则。 此外，系统无法确定您是要尝试创建新供应商还是复制供应商。 因此，在页面底部选择**保存**之前，不会分配供应商 ID。
+要复制供应商，请选择**所有供应商**列表页面上的**新建**，打开**所有供应商 - 新记录**页面。 请注意，系统不会立即分配新的供应商 ID。 此行为与先前版本的 Microsoft Dynamics 365 for Finance and Operations 中的行为不同。 由于您尚未选择供应商组，因此系统无法确定要使用的正确编号规则。 此外，系统无法确定您是要尝试创建新供应商还是复制供应商。 因此，在页面底部选择**保存**之前，不会分配供应商 ID。
 
 如果您要创建新供应商，则可以像往常一样继续填写所有字段。 在完成并选择**保存**时，您将会发现系统自动分配了供应商 ID。 或者，您将发现对手动编号规则使用了手动供应商 ID。
 
@@ -66,4 +65,3 @@ ms.lasthandoff: 10/11/2018
 
 1. **复制供应商**选项将会出现。 默认情况下，此选项设置为**否**。 要将供应商复制到当前法人，请将此选项设置为**是**。
 2. 选择**选择**。 此时会创建新供应商。
-

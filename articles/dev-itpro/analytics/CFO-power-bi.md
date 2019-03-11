@@ -1,13 +1,13 @@
 ---
-title: "CFO 概览 Power BI 内容"
-description: "此主题介绍 CFO 概览 Microsoft Power BI 内容。"
+title: CFO 概览 Power BI 内容
+description: 此主题介绍 CFO 概览 Microsoft Power BI 内容。
 author: kweekley
 manager: AnnBe
 ms.date: 02/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -15,14 +15,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 026274e06d27fb1254ffa971bcb0fbdbb5e7eac7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 01233890603f6f199b7a815eb91d1d5a7f2ae53e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/23/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331383"
 ---
-
 # <a name="cfo-overview-power-bi-content"></a>CFO 概览 Power BI 内容
 
 [!include [banner](../includes/banner.md)] 
@@ -45,4 +44,3 @@ ms.lasthandoff: 02/23/2018
 | [销售和收益率](sales-profitability-performance-content-pack.md) | <ul><li>按区域分类的收入</li><li>按收入排名前 10 位的客户</li><li>按收入排名前 10 位的产品</li></ul> |
 | [信用和收款管理](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>客户过期</li><li>客户超出信用额度</li><li>帐龄余额</li></ul> |
 | [采购花费分析](../../financials/accounts-receivable/credit-collections-power-bi.md) | <ul><li>按月/天显示的采购</li><li>按采购额排名 10 的供应商</li><li>按采购额排名前 10 的产品</li></ul> |
-

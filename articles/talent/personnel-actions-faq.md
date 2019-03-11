@@ -1,13 +1,13 @@
 ---
-title: "人事行动常见问题"
-description: "如果您的组织使用人事行动，该主题包括对可能有的问题的解答。 人事行动是执行特定与人事相关任务时必须完成的附加步骤。"
+title: 人事行动常见问题
+description: 如果您的组织使用人事行动，该主题包括对可能有的问题的解答。 人事行动是执行特定与人事相关任务时必须完成的附加步骤。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 0e68154ec70fdf26d1d783de29a386a336fff92f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303418"
 ---
-
 # <a name="personnel-actions-faq"></a>人事行动常见问题
 
 [!include [banner](includes/banner.md)]
@@ -94,5 +93,4 @@ ms.lasthandoff: 08/08/2018
 - **解雇工作人员**操作的标题的生效日期是您在**终止日期**字段中输入的日期。
 - **雇用工作人员**操作的生效日期是您在**雇用开始日期**字段中输入的日期。
 - **转移工作人员**操作的生效日期是您在**分配开始日期**字段中输入的日期。
-
 

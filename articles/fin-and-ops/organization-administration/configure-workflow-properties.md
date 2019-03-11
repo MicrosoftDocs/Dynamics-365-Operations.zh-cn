@@ -1,13 +1,13 @@
 ---
-title: "配置工作流属性"
-description: "本主题说明如何配置工作流的各个属性。"
+title: 配置工作流属性
+description: 本主题说明如何配置工作流的各个属性。
 author: sericks007
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 576ce368b2a8672aa39116eb0cc6e3d3f2a06bb3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "328462"
 ---
-
 # <a name="configure-workflow-properties"></a>配置工作流属性
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ ms.lasthandoff: 12/18/2018
 2. 在**输入有关工作流的注释**字段中，输入注释。
 3. 请查看您的注释。 在添加注释后，您不能修改注释。
 4. 单击**添加**将注释添加到**注释历史记录**区域。
-

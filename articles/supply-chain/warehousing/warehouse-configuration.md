@@ -1,13 +1,13 @@
 ---
-title: "仓库配置"
-description: "本文说明如何配置仓库。 它包含有关如何启用仓库布局和仓库流程的信息。"
+title: 仓库配置
+description: 本文说明如何配置仓库。 它包含有关如何启用仓库布局和仓库流程的信息。
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventLocation, WHSLocation, WHSLocationBuild, WHSLocationProfile, WHSLocationType, WHSLocDirTable, WHSParameters, WHSWaveTemplateTable, WHSWorkPool, WHSWorkTemplateTable, WHSZone, WHSZoneGroup
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7e50d03718234748d9ad5092500b970216c40284
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79e0ce728cb3c1eec450d0814d0a3aeda131fe89
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318434"
 ---
-
 # <a name="warehouse-configuration"></a>仓库配置
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ Microsoft Dynamics 365 for Finance and Operations 中的仓库管理系统允许
 --------
 
 [在启用 WMS 的仓库中配置位置（任务指南）](tasks/configure-locations-wms-enabled-warehouse.md)
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "配置行项工作流"
-description: "本主题说明如何配置行项工作流元素。"
+title: 配置行项工作流
+description: 本主题说明如何配置行项工作流元素。
 author: sericks007
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 66e79389bba4566176330914ace462110cd0aa22
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 764d4c9049d94ebcd55c61654aa2f4133b35bae6
-ms.openlocfilehash: 0a57baa3ecae727721f62477cfc5fa41f60ad06d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336098"
 ---
-
 # <a name="configure-line-item-workflows"></a>配置行项工作流
 
 [!include [banner](../includes/banner.md)]
@@ -56,4 +55,3 @@ ms.lasthandoff: 08/08/2018
     6. 要验证输入的该组条件是否配置正确，请单击**测试**。 在**测试工作流条件**页面，在**验证条件**区域，选择一条记录，然后单击**测试**。 系统对该记录进行评估，判断其是否符合您定义的条件。 单击**确定**或**取消**返回到**属性**页面。
 
     在**工作流**选项卡，选择处理满足您定义的一组条件的行项时要使用的工作流。
-

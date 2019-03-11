@@ -1,13 +1,13 @@
---- 
-title: "手动修改需求预测"
-description: "此过程显示如何修改物料预测。"
+---
+title: 手动修改需求预测
+description: 此过程显示如何修改物料预测。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, ForecastSales
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 063554c98b8a6261ebe69073f214a8e45850c623
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 2e269ef7b33b4d7e171d284d68d28c825c2fe86c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323586"
 ---
 # <a name="modify-a-demand-forecast-manually"></a>手动修改需求预测
 
@@ -43,8 +43,7 @@ ms.lasthandoff: 09/29/2017
 7. 单击“保存”。
 
 ## <a name="modify-the-forecast-in-excel"></a>在 Excel 中修改预测
-1. 单击“在 Microsoft Office 中打开”。
+1. 在 Microsoft Office 中单击“打开”。
 2. 单击“在 Excel 中编辑需求预测”。
     * 在 Excel 中，您可以添加、删除和编辑需求预测行。 如果您将无法看到在 Excel 中的数据，需要使用已启用的“登录”选项登录 Microsoft Dynamics 365 for Finance and Operations Enterprise Edition，并且需要信任数据连接应用程序。  
-
 

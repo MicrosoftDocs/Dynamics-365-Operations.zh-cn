@@ -1,13 +1,13 @@
 ---
-title: "新的或更新任务指南（2016 年 5 月）"
-description: "本文列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 5 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。"
+title: 新的或更新任务指南（2016 年 5 月）
+description: 本文列出了发布到 Microsoft Dynamics AX 的 Microsoft（2016 年 5 月 - 所有语言）APQC 标准库的新增或更新任务指南。 没有发布新入门库。
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: Platform update 1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cf12f2dfb62645fc5d6886ef429441c48982d484
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341342"
 ---
-
 # <a name="new-or-updated-task-guides-may-2016"></a>新的或更新任务指南（2016 年 5 月）
 
 [!include [banner](../includes/banner.md)]
@@ -195,4 +194,3 @@ ms.lasthandoff: 12/18/2018
 [新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
 
 [新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
-

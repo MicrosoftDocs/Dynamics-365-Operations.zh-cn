@@ -1,13 +1,13 @@
 ---
-title: "质量管理流程"
-description: "本文提供有关未达标产品的质量管理流程的信息。 它介绍了如何使用质量控制功能、如何定义和维护不符合项以及如何处理更正。"
+title: 质量管理流程
+description: 本文提供有关未达标产品的质量管理流程的信息。 它介绍了如何使用质量控制功能、如何定义和维护不符合项以及如何处理更正。
 author: perlynne
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventItemSampling, InventNonConformanceHistory, InventNonConformanceTable, InventQualityOrderLineResults, InventQualityOrderTable, InventTestCorrection, InventTestDiagnosticType, InventTestInstrument, InventTestReportSetup, InventTestTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 22372bd2d42b526d10e39174e7fb5ec5281d1b73
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 18920dd3490b69e9668e2d023c5ca1cc094c8126
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "354544"
 ---
-
 # <a name="quality-management-processes"></a>质量管理流程
 
 [!include [banner](../includes/banner.md)]
@@ -102,4 +101,3 @@ ms.lasthandoff: 05/08/2018
 [设置质检订单（任务指南）](tasks/set-up-quality-orders.md)
 
 [检查货物的质量（任务指南）](tasks/inspect-quality-goods.md)
-

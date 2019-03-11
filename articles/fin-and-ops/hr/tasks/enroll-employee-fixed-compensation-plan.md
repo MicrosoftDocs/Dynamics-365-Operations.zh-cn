@@ -1,13 +1,13 @@
---- 
-title: "在固定薪酬计划中登记员工"
-description: "薪酬福利经理可以指派不同雇员不同的固定薪酬计划以确定其各自的基本工资。"
+---
+title: 在固定薪酬计划中登记员工
+description: 薪酬福利经理可以指派不同雇员不同的固定薪酬计划以确定其各自的基本工资。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: c9c11292feec06a53cd4426a25bfb2aaac7de3e8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353325"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>在固定薪酬计划中登记员工
 
@@ -40,5 +40,4 @@ ms.lasthandoff: 09/14/2018
     * 薪酬“生效日期”与“截止日期”默认为指派工作人员职位的开始日期与结束日期。 可以根据需要更改相关日期。  
     * 如果该雇员的“固定薪酬计划”是一步计划，则选择包含相应工资标准的薪酬阶梯。 如果该雇员的固定薪酬计划是根据等级或期间设置，输入其工资标准。 该工资标准将验证该薪酬计划设置的可行性程度，以及该工作薪酬水平的最小和最大参考值。  
 8. 单击“确定”。
-
 

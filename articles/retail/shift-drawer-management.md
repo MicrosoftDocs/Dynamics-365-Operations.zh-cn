@@ -1,13 +1,13 @@
 ---
-title: "班次和银箱管理"
-description: "此主题介绍如何在零售销售点 (POS) 中设置和使用班次。"
+title: 班次和银箱管理
+description: 此主题介绍如何在零售销售点 (POS) 中设置和使用班次。
 author: jblucher
 manager: AnnBe
 ms.date: 05/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailHardwareProfile, RetailTerminalTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 7ad3c3fd17e88f364be12c122e2f5c155b7b9064
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313006"
 ---
-
 # <a name="shift-and-cash-drawer-management"></a>班次和银箱管理
 
 [!include [banner](includes/banner.md)]
 
 此主题介绍如何在零售销售点 (POS) 中设置和使用班次。
 
-在 Microsoft Dynamics 365 for Retail 中，*班次* 描述两个数据点之间对 POS 交易记录数据和活动的收集。 对于每个班次，将把预计金额与盘点和清点的金额进行比较。
+在 Microsoft Dynamics 365 for Retail 中，*班次*描述两个数据点之间对 POS 交易记录数据和活动的收集。 对于每个班次，将把预计金额与盘点和清点的金额进行比较。
 
 班次通常在营业时间开始时打开。 此时用户清点银箱内的初始金额。 然后开展全天的销售交易。 最后，日结时盘点银箱并清点结束金额。 班次关闭，生成 Z 报表。 Z 报表指示金额是否超交或不足。
 
@@ -70,7 +69,7 @@ Retail 提供多个配置选项和 POS 操作，为 POS 的各种日结业务处
 
 ## <a name="shift-and-drawer-operations"></a>班次和银箱操作
 
-可以执行各个操作来更改班次状态或者增加或减少银箱中的金额。 此部分描述 Microsoft Dynamics 365 for Retail Modern POS and Cloud POS 的这些班次操作。
+可以执行各个操作来更改班次状态或者增加或减少银箱中的金额。 此部分描述 Microsoft Dynamics 365 for Retail Modern POS 和 Cloud POS 的这些班次操作。
 
 ### <a name="open-shift"></a>未结的班次
 
@@ -159,4 +158,3 @@ POS 中使用班次和银箱对帐的方法与对帐计算期间汇总交易记�
 此项设置有助于确保后勤办公室对帐单中包含与 POS 中的班次相同的交易记录，并且按该班次汇总数据。
 
 有关对帐和结算方法的详细信息，请参阅[零售对帐单的商店配置](https://docs.microsoft.com/dynamics365/unified-operations/retail/tasks/store-configurations-retail-statements)。
-

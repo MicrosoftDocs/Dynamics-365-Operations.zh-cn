@@ -1,13 +1,13 @@
 ---
-title: "绩效管理"
-description: "绩效管理流程供员工记录自己的绩效并与经理讨论。 相应地，经理然后可以向员工提供反馈和指导。"
+title: 绩效管理
+description: 绩效管理流程供员工记录自己的绩效并与经理讨论。 相应地，经理然后可以向员工提供反馈和指导。
 author: mikefalkner
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mfalkner
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 67da25514edc6b27f8478a7b317f6690720ab592
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
-ms.openlocfilehash: e7621b4c1358d1ecd6ff1c9ce2f1de08766a4bf6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303364"
 ---
-
 # <a name="performance-management"></a>绩效管理
 
 [!include [banner](includes/banner.md)]
@@ -56,9 +55,9 @@ ms.lasthandoff: 08/08/2018
 
 也可以通过存储外部网站的 URL，将绩效日记帐链接到该网站。 如果日记帐与目标或绩效审核有关，也可以将其链接到其中的一个或多个。 如果从**MSS**页访问绩效日记帐，则可输入可为员工日记帐输入的相同信息。 此外，还可以指定正在为其创建日记帐的员工。 您可以选择是否与员工共享经理日记帐。
 
-### <a name="praise"></a>表扬
+### <a name="send-feedback"></a>发送反馈
 
-绩效日记帐中还包含一个功能，名称为“表扬”。 单击**发送表扬**时，可选择员工并通过电子邮件向该员工提供反馈。 邮件将发给被表扬的员工，该员工的经理、发送表扬的员工和该员工的经理。 将为接收表扬邮件的每个人创建一个绩效日记帐条目。
+绩效日记帐中还包含一个功能，名称为“反馈”。 单击**发送反馈**时，可选择员工并通过电子邮件向该员工提供反馈。 邮件将发给接收反馈的员工、该员工的经理、发送反馈的员工和该员工的经理。 将为接收反馈消息的每个人创建一个绩效日记帐条目。
 
 ## <a name="goals"></a>目标
 **绩效目标**页帮助跟踪您和您的经理已为您创建的目标。 可以创建任意数量的目标，这些目标可以跨不同期间和绩效审核。 也可以创建简单或复杂目标，具体取决于要输入的目标相关信息的量。 绩效审核不需要目标。 
@@ -151,7 +150,6 @@ ms.lasthandoff: 08/08/2018
 ### <a name="review-types"></a>审核类型
 
 绩效审核类型可帮助您控制审核的行为。 您可以启用或禁用审核的工作流。 如果审核不使用工作流，您可以定义将在创建审核时使用的默认状态。 您还可以确定是否需要员工和/或经理才能签核审核。
-
 
 
 

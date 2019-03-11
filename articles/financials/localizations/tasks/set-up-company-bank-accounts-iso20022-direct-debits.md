@@ -1,13 +1,13 @@
---- 
-title: "设置 ISO20022 直接借记的公司银行帐户"
-description: "此任务通过设置所需的特定于公司的银行帐户信息以生成客户付款文件。"
+---
+title: 设置 ISO20022 直接借记的公司银行帐户
+description: 此任务通过设置所需的特定于公司的银行帐户信息以生成客户付款文件。
 author: mrolecki
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankAccountTable, OMLegalEntity, BankAccountTableLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 290d0eeb383dc3808935809e21b1bf6c99a8550a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 6b61495342b18d6dbadb36d8ca146f5a68ba9f6c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "353509"
 ---
 # <a name="set-up-company-bank-accounts-for-iso20022-direct-debits"></a>设置 ISO20022 直接借记的公司银行帐户
 
@@ -59,5 +59,4 @@ ms.lasthandoff: 09/29/2017
 5. 在列表中，单击所选行中的链接。
     * 例如：选择“DEMF OPER”银行帐户。  
 6. 单击“保存”。
-
 

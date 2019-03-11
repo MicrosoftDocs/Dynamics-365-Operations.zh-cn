@@ -1,13 +1,13 @@
 ---
-title: "审计策略规则"
-description: "您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过账都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。"
+title: 审计策略规则
+description: 您可以使用审核策略对支出报告、供应商发票和采购订单做出评估，从而确保它们都符合您所创建的策略规则。 根据您指定的作业安排，所有与审计策略相关的规则都是以批模式运行的。  每个策略过账都是某个策略规则类型的实例。 对于每个策略规则类型，一次仅有一个策略规则可以有效。
 author: ryansandness
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AuditPolicyAdditionalOption, AuditPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 18b8a1649a26ebacc34b828ed25ec9646dd438a1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 6bebe9ce83c4b979ffbb7c86ef67ad03a650e0c2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310223"
 ---
-
 # <a name="audit-policy-rules"></a>审计策略规则
 
 [!include [banner](../includes/banner.md)]
@@ -100,6 +99,5 @@ ms.lasthandoff: 05/08/2018
 
 [审计政策违规记录和案例](audit-policy-violations-cases.md)
 [定义原始单据的审计策略](tasks/define-audit-policies-source-documents.md)
-
 
 

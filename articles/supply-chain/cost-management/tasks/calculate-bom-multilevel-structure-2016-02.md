@@ -1,13 +1,13 @@
---- 
-title: "通过使用多级结构计算 BOM（2016 年 2 月）"
-description: "此过程显示如何通过使用“成本计算单”中的多级分解计算成品的成本。"
+---
+title: 通过使用多级结构计算 BOM（2016 年 2 月）
+description: 此过程显示如何通过使用“成本计算单”中的多级分解计算成品的成本。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, InventItemPrice, BOMCalcDialog, BOMCalcTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: fcc1248d64145c10f1c67bfac49c053e99dc1598
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323356"
 ---
 # <a name="calculate-a-bom-by-using-a-multilevel-structure-february-2016"></a>通过使用多级结构计算 BOM（2016 年 2 月）
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/14/2018
     * 如果选择“多”，则成本根据 BOM_2 的构成,归类，其中的 10 源自 M1 成本组 (ITEM_C)，15,60 源自其制造（成本组为 L2 的情况下）。 间接成本也会不同。  
 11. 关闭该页面。
 12. 关闭该页面。
-
 

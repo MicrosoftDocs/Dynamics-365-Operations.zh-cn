@@ -1,13 +1,13 @@
 ---
-title: "应收账款的集中付款"
-description: "包括多个法人的组织可以使用处理所有付款的单个法人创建和管理付款。 因此，不必在多个法人中输入同一交易记录。 本文提供显示集中付款过帐如何在不同环境中处理的示例。"
+title: 应收账款的集中付款
+description: 包括多个法人的组织可以使用处理所有付款的单个法人创建和管理付款。 因此，不必在多个法人中输入同一交易记录。 本文提供显示集中付款过帐如何在不同环境中处理的示例。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e9eb935d32e61b2cf0ec8710f6c2cfb18ecfe034
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 7208acc35e656d12b3c4f88a090f36ecfdd4fdfb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330739"
 ---
-
 # <a name="centralized-payments-for-accounts-receivable"></a>应收账款的集中付款
 
 [!include [banner](../includes/banner.md)]
@@ -39,8 +38,8 @@ ms.lasthandoff: 11/03/2017
 以下示例说明如何在不同的环境中处理过帐。 假定所有这些示例都采用以下配置：
 
 -   法人分别为 Fabrikam、Fabrikam East 和 Fabrikam West。 客户付款输入 Fabrikam。
--   **“内部公司”** 页上的 **“过帐现金折扣”** 字段设置为 **“发票法人”**。
--   **“内部公司”** 页上的 **“过帐币种汇兑损益”** 字段设置为 **“付款法人”**。
+-   **内部公司**页上的**过帐现金折扣**字段设置为**发票法人**。
+-   **内部公司**页上的**过帐币种汇兑损益**字段设置为**付款法人**。
 -   客户 Northwind Traders 在每个法人中设置为一个客户。 来自不同法人的客户被标识为同一客户，因为他们共享相同的全球通讯簿 ID。
 
 | 通讯簿 ID | 客户帐户 | 姓名              | 法人  |
@@ -297,7 +296,6 @@ Fabrikam 从客户 4000 (Northwind Traders) 接收 75.00 的付款。 该付款�
 | 应收帐款 (Fabrikam West)    |              | 75.00         |
 | 从 Fabrikam East (Fabrikam West) 的应收金额 | 25.00        |               |
 | 应收账款 (Fabrikam West)    |              | 25.00         |
-
 
 
 

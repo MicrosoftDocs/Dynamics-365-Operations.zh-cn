@@ -1,13 +1,13 @@
 ---
-title: "导入和维护信用卡交易记录"
-description: "本主题说明如何导入和维护与费用相关的信用卡交易记录。 这些交易记录可以设置为对重复执行的计划自动导入或根据需要手动导入。"
+title: 导入和维护信用卡交易记录
+description: 本主题说明如何导入和维护与费用相关的信用卡交易记录。 这些交易记录可以设置为对重复执行的计划自动导入或根据需要手动导入。
 author: KimANelson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TrvPbsMainDataLines
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 9674cf495b7fdd40d8672580b9d10e9ebe626bb0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e640c9e44add5599be4a2e381b4ffd81f212889c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322643"
 ---
-
 # <a name="import-and-maintain-credit-card-transactions"></a>导入和维护信用卡交易记录
 
 [!include [banner](../includes/banner.md)]
@@ -53,4 +52,3 @@ ms.lasthandoff: 11/03/2017
 终止员工记录后，员工的 Active Directory 域服务 (AD DS) 帐户被禁用。 但是，可能还存在仍然必须支出和偿还的有效信用卡交易记录。 从**信用卡交易记录**页可以在相关员工已离职时为任何信用卡交易记录重新分配员工。
 
 选择一个或多个信用卡交易记录，然后选择**重新分配交易记录**。 您可以随后选择要分配信用卡交易记录的其他员工。 重新分配信用卡交易记录后，可以为费用报表选择该交易记录，并通过费用报表报销的正常流程进行支付。
-

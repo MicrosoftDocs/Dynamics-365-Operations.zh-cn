@@ -1,13 +1,13 @@
 ---
-title: "倒冲成本计算"
-description: "本主题介绍了用于 Lean manufacturing 的倒冲成本计算法概念。"
+title: 倒冲成本计算
+description: 本主题介绍了用于 Lean manufacturing 的倒冲成本计算法概念。
 author: cvocph
 manager: AnnBe
 ms.date: 04/10/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanCosting, LeanCostingTimeBucket
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
+ms.openlocfilehash: 484bac74ccb498f0b006458f5e6d8fb0e9461a8f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 9fe717752da4c697cf0d896c0d40832330f0d118
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352704"
 ---
-
 # <a name="backflush-costing"></a>倒冲成本计算
 
 [!include [banner](../includes/banner.md)]
@@ -62,7 +61,7 @@ Lean manufacturing 的成本计算支持生产流使用称为倒冲成本计算�
 
 ### <a name="calculation-that-is-based-on-the-production-flow"></a>基于生产流的计算。
 
-Microsoft Dynamics 365 for Finance and Operations 的 Lean manufacturing 与工艺路线无关。 从生产流供应的产品的成本计算可以基于生产流本身。 必须先创建在生产流之外供应产品的看板规则，然后才能进行计算。 如果产品可以在计算日期从同一站点的多个生产流供应，您可以为物料清单计算选择生产流。 在**默认生产流**页，可以为每个物料配置默认生产流。 如果在计算日期有效的同一个生产流中的同一产品存在多个看板规则，计算将选择对计算有效的第一个看板规则。
+Lean manufacturing for Microsoft Dynamics 365 for Finance and Operations 与工艺路线无关。 从生产流供应的产品的成本计算可以基于生产流本身。 必须先创建在生产流之外供应产品的看板规则，然后才能进行计算。 如果产品可以在计算日期从同一站点的多个生产流供应，您可以为物料清单计算选择生产流。 在**默认生产流**页，可以为每个物料配置默认生产流。 如果在计算日期有效的同一个生产流中的同一产品存在多个看板规则，计算将选择对计算有效的第一个看板规则。
 
 ### <a name="calculation-that-is-based-on-the-route"></a>基于工艺路线的计算
 
@@ -122,7 +121,6 @@ Microsoft Dynamics 365 for Finance and Operations 的 Lean manufacturing WIP 模
     -   计算为期间内消耗的材料计算的所有间接成本并从 WIP 中扣除。 其余间接成本过帐为差异。
 
 5.  计算标准成本的生产差异。 计算每个成本组的差异。
-
 
 
 

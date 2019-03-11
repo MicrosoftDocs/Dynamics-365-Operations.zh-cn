@@ -1,13 +1,13 @@
 ---
-title: "定义渠道特定的折扣"
-description: "零售商通常为不同渠道设置不同折扣。 此主题审查您为特定渠道创建折扣所需了解的概念。"
+title: 定义渠道特定的折扣
+description: 零售商通常为不同渠道设置不同折扣。 此主题审查您为特定渠道创建折扣所需了解的概念。
 author: scott-tucker
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailAffiliationPriceGroup, RetailCatalogPriceGroup, RetailChannelPriceGroup, RetailDiscountPriceGroup, RetailDiscountPricingWorkspace, RetailPeriodicDiscount, RetailStoreItemPriceList, RetailStoreTable
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: scotttuc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a136e245beaf8dfd8bcf19d49f8a355c8871cde7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318595"
 ---
-
 # <a name="define-channel-specific-discounts"></a>定义渠道特定的折扣
 
 [!include [banner](includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 01/04/2019
 
 零售商通常为不同渠道提供不同折扣。 这样做可以解决本地市场条件或处理竞争零售商。
 
-Microsoft Dynamics 365 for Retail 使用价格组来定义渠道特定的折扣。 价格组可分配给以下一个或多个实体：渠道、目录、隶属关系和会员计划。 本文讨论渠道，不过，相同的概念适用于目录折扣、隶属关系折扣和会员折扣。
+Microsoft Dynamics 365 for Retail 使用价格组来定义渠道特定的折扣。 价格组可分配给以下一个或多个实体：渠道、目录、隶属关系和会员计划。 本文讨论渠道，不过，相同的概念适用于目录折扣、隶属关系折扣和会员折扣。
 
 ## <a name="price-groups"></a>价格组
 
@@ -63,4 +62,3 @@ Microsoft Dynamics 365 for Retail 使用价格组来定义渠道特定的折扣
 ## <a name="additional-resources"></a>其他资源
 
 [价格调整和折扣](price-adjustments-discounts.md)
-

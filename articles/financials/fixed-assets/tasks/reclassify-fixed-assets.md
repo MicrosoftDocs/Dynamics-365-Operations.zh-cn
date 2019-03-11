@@ -1,13 +1,13 @@
---- 
-title: "将固定资产重新分类"
-description: "若要重新划分固定资产，您必须将固定资产转移到新的固定资产组，或者将新的固定资产编号分配给同一组内的固定资产。"
+---
+title: 将固定资产重新分类
+description: 若要重新划分固定资产，您必须将固定资产转移到新的固定资产组，或者将新的固定资产编号分配给同一组内的固定资产。
 author: saraschi2
 manager: AnnBe
 ms.date: 10/30/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d8e289e2c18fd28829fb4b749933ae1d84e0b631
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cafd499e849570cae7b7f58bf2d487a7ac0093e6
-ms.openlocfilehash: 6bce294329c7ec6dc436c3d3baf6597e0283c9bd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/30/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "323287"
 ---
 # <a name="reclassify-fixed-assets"></a>将固定资产重新分类
 
@@ -44,5 +44,4 @@ ms.lasthandoff: 10/30/2017
 5. 在“重新分类日期”字段中，输入一个日期。
 6. 在“凭证系列”字段中，输入或选择一个值。
 7. 单击“确定”。
-
 

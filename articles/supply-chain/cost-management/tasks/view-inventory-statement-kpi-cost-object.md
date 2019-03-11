@@ -1,13 +1,13 @@
---- 
-title: "按成本对象查看库存报表和 KPI"
-description: "创建此程序的演示数据公司是 USMF。"
+---
+title: 按成本对象查看库存报表和 KPI
+description: 创建此程序的演示数据公司是 USMF。
 author: AndersGirke
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, CostAdminWorkspace, CostLastInventoryCloseCard, CostLastBackflushCostingCard, CostStatementCacheCard, CostReleasedProductsMissingCostingDataFormPart, CostCalculationPeriodTopVariancesChartFormPart, EcoResProductDetailsExtended, InventCostOnhandItem, CostStatement, CostInventoryFlowChart, CostInventoryTurnCard, CostInventoryAccuracyCard
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7c43acef9e6716158a832dc398363ecf707105ff
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 6c83ac2ba2d93dfb0b453a93e92376f09dd86083
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355027"
 ---
 # <a name="view-inventory-statement-and-kpi-by-cost-object"></a>按成本对象查看库存报表和 KPI
 
@@ -38,5 +38,4 @@ ms.lasthandoff: 09/29/2017
 6. 单击“库存报表和 KPI”。
 7. 在“开始日期”字段中输入日期。
 8. 在“结束日期”字段中输入日期。
-
 

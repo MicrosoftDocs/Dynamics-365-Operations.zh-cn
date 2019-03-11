@@ -1,13 +1,13 @@
 ---
-title: "使用一次客户付款来结算跨多个折扣期间的多张发票"
-description: "本主题显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。"
+title: 使用一次客户付款来结算跨多个折扣期间的多张发票
+description: 本主题显示当每个发票有资格使用现金折扣时如何支付多个发票。 本文所述情况重点介绍现金折扣执行方式如何因付款时间不同而有所不同。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, LedgerJournalTransCustPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a358af4878de0d02ce4dd3520e786d8779d7f030
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 92a981cbf9803e8adce1efc26a3fcfcb998540da
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319216"
 ---
-
 # <a name="use-a-customer-payment-to-settle-multiple-invoices-that-span-multiple-discount-periods"></a>使用一次客户付款来结算跨多个折扣期间的多张发票
 
 [!include [banner](../includes/banner.md)]
@@ -88,7 +87,7 @@ Arnie 还可以在打开**结算交易记录**页之前输入付款金额 1,485.
 2.  发票 FTI-10041 尚未结算。 发票 FTI-10041 和 FTI-10042 在同一日期输入。 然而，有 1% 的折扣可用于发票 FTI-10041，并且 2% 的折扣可用于发票 FTI-10042。 由于更好的折扣可用于发票 FTI-10042，其余的 485.00 使用发票 FTI-10042 结算。
 3.  发票 FTI-10042 使用剩余的 485.00 结算。 Fabrikam 提供部分折扣。 在这种情况下，折扣为 9.90 (= 485.00 ÷ 0.98 × 0.02)。 金额 (485.00) 除以 0.98，因为具有 2% 的折扣（因此，该客户支付发票的 98%）。 结果通过折扣百分比或 2 的折扣相乘。 485.00 的付款加上 9.90 的折扣等于 494.90。 原始发票的金额为 1.000.00。 因此交易记录具有 505.10 的余额 (= 1,000.00 – 494.90)。
 
-Arnie 在 **“客户交易记录”** 页上查看信息。
+Arnie 在**客户交易记录**页上查看信息。
 
 | 凭证    | 交易记录类型 | 日期      | 开票 | 交易币种借方金额 | 交易币种贷方金额 | 余额  | 货币 |
 |------------|------------------|-----------|---------|--------------------------------------|---------------------------------------|----------|----------|
@@ -97,7 +96,6 @@ Arnie 在 **“客户交易记录”** 页上查看信息。
 | FTI-10042  | 开票          | 6/25/2015 | 10042   | 1,000.00                             |                                       | 505.10   | 美元      |
 | ARP-10040  | 付款          | 6/29/2015 |         |                                      | 1,485.00                              | 0.00     | 美元      |
 | DISC-10040 | 现金折扣    | 6/29/2015 |         |                                      | 9.90                                  | 0.00     | 美元      |
-
 
 
 

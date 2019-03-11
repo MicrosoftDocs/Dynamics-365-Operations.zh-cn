@@ -1,14 +1,14 @@
 ---
-title: "Attract 中的安全和角色管理"
-description: "此主题提供有关 Microsoft Dynamics 365 for Talent - Attract 中的角色安全性的信息。"
+title: Attract 中的安全和角色管理
+description: 此主题提供有关 Microsoft Dynamics 365 for Talent - Attract 中的角色安全性的信息。
 author: josaw1
 manager: AnnBe
 ms.date: 10/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: 0450326dce0ba6be99aede4ebc871dc58c8039ab
-ms.openlocfilehash: 9eb12bd6b9fc1aa66002908e5989b3ac504ab673
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/01/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374772"
 ---
-
 # <a name="security-and-role-management-in-attract"></a>Attract 中的安全和角色管理
 
 [!include[banner](../includes/banner.md)]
@@ -63,7 +62,7 @@ Attract 提供五个基本用户角色：
 
 分配了招聘人员角色的用户具有完全的阅读、创建、更新以及删除他们创建的工作的权限。 他们还具有创建、阅读、更新和删除与自己所有的工作关联的申请的权限。 仅分配了招聘人员角色的用户可以作为招聘人员被添加到招聘团队。
 
-## <a name="interviewer"></a>面试官
+## <a name="interviewer"></a>面试人员
 
 在组织中具有 Microsoft Azure Active Directory (Azure AD) 帐户的任何用户都可以作为面试官被添加到招聘团队。 分配了面试官角色的用户可以查看工作详细信息，以及其所在招聘团队的工作的申请人数据。 对于这些工作，面试官还可以给出招聘推荐信息并提供有关应聘者的反馈。 不过，他们不能更新工作详细信息或申请人数据。
 
@@ -108,7 +107,7 @@ Attract 提供五个基本用户角色：
 | 下一阶段           | 如果用户在招聘团队中，可以拒绝 | 如果用户在招聘团队中，可以推进 | 不允许 |
 | 启动聘约管理 | 可以开始聘约管理 | 聘约活动中存在一个配置选项。 | 不允许 |
 
-\*\*[反馈活动设置](./activities-attract.md#feedback-activity)中的配置选项控制面试官能否看到彼此的反馈。
+\*\*[反馈活动设置](activities-attract.md#feedback-activity)中的配置选项控制面试官能否看到彼此的反馈。
 
 ## <a name="process-templates"></a>流程模板
 
@@ -146,4 +145,3 @@ Attract 提供五个基本用户角色：
 |-----------------------------|----------------------------------|----------------------------------|-------------|
 | 个人资料 – 应聘者详细信息 | 创建、阅读、更新和删除 | 创建、阅读、更新和删除 | 禁止访问   |
 | 文档                   | 创建、阅读、更新和删除 | 创建、阅读、更新和删除 | 禁止访问   |
-

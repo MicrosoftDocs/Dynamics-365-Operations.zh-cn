@@ -1,31 +1,30 @@
 ---
-title: "Finance and Operations 的视频"
-description: "此页列出 Microsoft 制作的与 Dynamics 365 for Finance and Operations 有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。"
+title: Finance and Operations 的视频
+description: 此页列出 Microsoft 制作的与 Dynamics 365 for Finance and Operations 有关的“操作方法”视频和技术交流视频，可在 YouTube 和其他网站中观看。
 author: josaw1
 manager: AnnBe
 ms.date: 05/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro, Developer
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, AX 8.0
+ms.openlocfilehash: 7675ae79cb1155919f95c7f2ff1d3d72628ab731
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: d22fe0c9a38026350c839d1d7d35835bfc77d995
-ms.openlocfilehash: 7f1fb4d2094076de62873148212c76ae6812d6a2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/17/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317813"
 ---
-
-# <a name="videos-for-finance-and-operations"></a>Finance and Operations 的视频
+# <a name="videos-for-finance-and-operations"></a>适用于 Finance and Operations 的视频
 
 [!include [banner](../includes/banner.md)]
 
@@ -33,20 +32,20 @@ ms.lasthandoff: 09/17/2018
 
 ## <a name="dynamics-365-youtube-channel"></a>Dynamics 365 YouTube 频道
 
-在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)中，可找到 Microsoft 制作的视频，这些视频介绍 Dynamics 365 产品的各种业务解决方案。 此部分列出该渠道中的 Dynamics 365 for Finance and Operations “操作方法”视频。
+在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)中，可找到 Microsoft 制作的视频，这些视频介绍 Dynamics 365 产品的各种业务解决方案。 此部分列出该渠道中的 Dynamics 365 for Finance and Operations“操作方法”视频。
 
 视频按功能列举，因此向下滚动可查看完整的视频目录。
 
 #### <a name="data-integration"></a>数据集成
 
 - [现金集成的目标客户](https://youtu.be/AVV9x5x-XCg)
-- [在 Dynamics 365 for Field Service 与 Finance and Operations 之间同步工作订单](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
+- [在 Dynamics 365 for Field Service 和 Finance and Operations 之间同步工作订单](https://www.youtube.com/watch?v=46ylO7raZAo&feature=youtu.be)
 
 #### <a name="data-management"></a>数据管理
 
 - [在 Dynamics 365 for Finance and Operations 中使用数据实体和数据包](https://www.youtube.com/watch?v=UCyzbA41j8g&feature=youtu.be)
 
-#### <a name="development"></a>发展
+#### <a name="development"></a>开发
 
 - [优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ&t=4s)
 - [设置开发分支和版本](https://www.youtube.com/watch?v=qXLd-NMx9OY)
@@ -136,16 +135,16 @@ ms.lasthandoff: 09/17/2018
 
 #### <a name="develop-and-customize"></a>开发和定制
 
-- [Dynamics 365 for Finance and Operations 的 Azure 集成工具 (DYN386PAL)](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Finance and Operations (DYN386PAL) 的 Azure 集成工具](https://infopedia.eventbuilder.com/event?eventid=l7f2i9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [可扩展性 (DYN384PAL2)](https://infopedia.eventbuilder.com/event?eventid=e0x4q5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [如何扩展或构建新的分析工作区 (DYN321PAL)](https://infopedia.eventbuilder.com/event?eventid=r7z0f5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [性能测试方法 (DYN449PAL2)](https://infopedia.eventbuilder.com/event?eventid=k6c6g9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [性能测试方法 (DYN449PAL)](https://infopedia.eventbuilder.com/event?eventid=i1u5m9&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
-#### <a name="financial-reporting"></a>财务申报
+#### <a name="financial-reporting"></a>财务报告
 
 - [财务申报 (DYN305PAL)](https://infopedia.eventbuilder.com/event?eventid=s0d0n3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) 
-- [Dynamics 365 for Finance and Operations 中的申报选项 (VIR810PAL)](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [Dynamics 365 for Finance and Operations (VIR810PAL) 中的报告选项](https://infopedia.eventbuilder.com/event?eventid=p8x0s5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="integration"></a>集成
 
@@ -173,7 +172,7 @@ ms.lasthandoff: 09/17/2018
 #### <a name="retail"></a>Retail
 
 - [Dynamics 365 for Retail POS 可扩展性：深入探索 (DYN342PAL)](https://infopedia.eventbuilder.com/event?eventid=f4s5w1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-- [零售架构和零售商店扩展单位 (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [零售体系结构和 Retail Store Scale Unit (DYN307PAL)](https://infopedia.eventbuilder.com/event?eventid=j0j7h2&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [Dynamics 365 for Retail POS 可扩展性中的新增功能 (DYN339PAL2)](https://infopedia.eventbuilder.com/event?eventid=h8b0l1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 
 #### <a name="support"></a>支持
@@ -182,7 +181,7 @@ ms.lasthandoff: 09/17/2018
 
 #### <a name="upgrade-and-migration"></a>升级和迁移
 
-- [AX 2009 到 Dynamics 365 for Operations 集成工具 (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
+- [AX 2009 到 Dynamics 365 for Operations 迁移工具 (VIR809PAL)](https://infopedia.eventbuilder.com/event?eventid=c3g5k3&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [AX 2009 迁移工具 (DYN306PAL2)](https://infopedia.eventbuilder.com/event?eventid=u3g7s0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [AX 2012 到 Dynamics 365 for Operations 升级 (VIR817PAL2)](https://infopedia.eventbuilder.com/event?eventid=t9e9e5&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [如何从 7.0 (RTW)/7.1（发行版 1611）升级到 7.2（2017 年 7 月）(DYN338PAL2)](https://infopedia.eventbuilder.com/event?eventid=q0w9p0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
@@ -196,4 +195,3 @@ ms.lasthandoff: 09/17/2018
 - [逐件领料流程 (DYN330PAL2)](https://infopedia.eventbuilder.com/event?eventid=u6e0z6&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [生产订单和看板的可视计划 (DYN328PAL)](https://infopedia.eventbuilder.com/event?eventid=h0o0n0&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
 - [仓库与生产集成 (DYN344PAL)](https://infopedia.eventbuilder.com/event?eventid=y8p6o1&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks) - [仓储移动应用程序 (VIR816PAL)](https://infopedia.eventbuilder.com/event?eventid=t8t7l8&source=Dynamics_365_for_Operations_-_FastTrack_Tech_Talks)
-

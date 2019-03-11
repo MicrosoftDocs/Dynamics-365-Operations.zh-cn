@@ -1,13 +1,13 @@
 ---
-title: "生产性能 Power BI 内容"
-description: "此主题介绍生产性能 Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 生产绩效 Power BI 内容
+description: 此主题介绍生产绩效 Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProductionPerformancePowerBI
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,38 +16,37 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 2bc4c409b831b78ef737a98ce985bf144853a454
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365952"
 ---
-
-# <a name="production-performance-power-bi-content"></a>生产性能 Power BI 内容
+# <a name="production-performance-power-bi-content"></a>生产绩效 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍**生产性能** Microsoft Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题介绍**生产绩效** Microsoft Power BI 内容中包含的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="overview"></a>概览
 
-**生产性能** Power BI 内容针对的是组织中负责生产控制的生产经理或个人。
+**生产绩效** Power BI 内容针对的是组织中负责生产控制的生产经理或个人。
 
-其中包括的报表让您可以使用 Power BI 监控制造工序在及时执行、质量和成本方面的性能。 报表使用来自生产订单和批次订单的交易记录数据，并提供全公司生产指标的聚合视图和按产品和资源分类的指标明细。
+其中包括的报表让您可以使用 Power BI 监控制造工序在及时执行、质量和成本方面的绩效。 报表使用来自生产订单和批次订单的交易记录数据，并提供全公司生产指标的聚合视图和按产品和资源分类的指标明细。
 
 Power BI 内容突出显示组织按时完成全部生产的能力。 基于生产计划预测未来绩效。 综合报表提供对因生产导致的产品缺陷以及资源和工序缺陷率的详细洞察。
 
 此 Power BI 内容也可以让您分析生产差异。 生产差异计算为估计成本与实际成本之差。 当生产订单或批次订单达到**已结束**状态时计算生产差异。
 
-**生产性能** Power BI 内容包括源自生产订单和批次订单的数据。 报表不包括与看板生产有关的数据。
+**生产绩效** Power BI 内容包括源自生产订单和批次订单的数据。 报表不包括与看板生产有关的数据。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 **生产绩效** Power BI 内容显示在**生产绩效**页面（**生产控制** \> **查询和报表** \> **生产绩效分析** \> **生产绩效**）。 
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的度量
 
-**生产性能** Power BI 内容包含一组报表页面。 每个页面中包含一组可视化为图表、磁贴和表的指标。
+**生产绩效** Power BI 内容包含一组报表页面。 每个页面中包含一组可视化为图表、磁贴和表的指标。
 
 下表提供其中包括的可视化项的概览。
 
@@ -130,4 +129,3 @@ Power BI 内容突出显示组织按时完成全部生产的能力。 基于生�
 | 实体                  | ID 和名称                                                   |
 | 资源                 | 资源 ID、资源名称、资源类型和资源组 |
 | 产品                  | 产品编号、产品名称、物料 ID 和物料组         |
-

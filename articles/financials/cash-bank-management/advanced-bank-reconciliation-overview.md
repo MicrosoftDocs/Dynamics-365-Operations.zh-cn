@@ -1,13 +1,13 @@
 ---
-title: "高级银行对帐概览"
-description: "本文介绍高级银行对帐流程的流程。 高级银行对帐功能可以导入可从银行交易记录内自动对帐的银行对账单。"
+title: 高级银行对帐概览
+description: 本文介绍高级银行对帐流程的流程。 高级银行对帐功能可以导入可从银行交易记录内自动对帐的银行对账单。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BankReconciliationMatchRule
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 5c6cec76ebc8328f221ecb6c30ae93716bd9bfe9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: ff59250b836a73986848109ce48f843fed1d71a9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358201"
 ---
-
 # <a name="advanced-bank-reconciliation-overview"></a>高级银行对帐概览
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ ms.lasthandoff: 03/26/2018
     -   并行查看银行对账单和 Finance and Operations 银行交易记录。
     -   如果 Finance and Operations 银行交易记录出现在银行对账单中，但不出现在 Finance and Operations 中，则自动过帐这些银行交易记录。
     -   生成对账单。
-
 
 
 

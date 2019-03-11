@@ -1,13 +1,13 @@
 ---
-title: "质量管理概述"
-description: "本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用质量管理来帮助改进您的供应链中的产品质量。"
+title: 质量管理概述
+description: 本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用质量管理来帮助改进您的供应链中的产品质量。
 author: perlynne
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventTestAssociationTable, InventTestGroup, InventTestItemQualityGroup, InventTestTable, InventTestVariable, InventTestVariableOutcome
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Distribution
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1630d13437d7e930fdf32ed5fdc61fc62bc33817
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 79b3127f726a08cc24c20145b5ad9969157a899c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338306"
 ---
-
 # <a name="quality-management-overview"></a>质量管理概述
 
 [!include [banner](../includes/banner.md)]
 
 本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中使用质量管理来帮助改进您的供应链中的产品质量。
 
-质量管理可帮助您在处理未达标的产品时管理周转时间，而不管其源点如何。 因为诊断类型链接到更正报表，所以 Microsoft Dynamics 365 for Finance and Operations 可以计划任务以更正问题并防止再次发生。
+质量管理可帮助您在处理未达标的产品时管理周转时间，而不管其源点如何。 因为诊断类型链接到更正报表，所以 Microsoft Dynamics 365 for Finance and Operations 可以计划任务以更正问题并防止重复执行它们。
 
 除了管理不符合项的功能外，质量管理还包括按问题类型（甚至内部问题）跟踪问题以及将解决方案标识为短期或长期的功能。  有关关键绩效指标 (KPI) 的统计能让您了解以前的不符合项问题以及用于更正它们的解决方案的历史记录。 您可以使用历史数据检查以前质量度量的效果并确定相应的度量以备将来使用。
 
@@ -362,4 +361,3 @@ ms.lasthandoff: 05/08/2018
 [质量管理流程](quality-management-processes.md)
 
 [启用未达标管理](enable-nonconformance-management.md)
-

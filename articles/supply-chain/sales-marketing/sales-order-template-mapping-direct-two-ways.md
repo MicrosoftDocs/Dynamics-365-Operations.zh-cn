@@ -1,33 +1,32 @@
 ---
-title: "将 Sales 与 Finance and Operations 的销售订单直接同步"
-description: "本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations 之间直接运行销售订单同步的模板和基础任务。"
+title: 将 Sales 与 Finance and Operations 的销售订单直接同步
+description: 本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations 之间直接运行销售订单同步的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 10/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.translationtype: HT
-ms.sourcegitcommit: a8c033caa8a4c4cf579ec166dce7a9982408d816
 ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/11/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339111"
 ---
-
-# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>将 Sales 与 Finance and Operations 的销售订单直接同步
+# <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>直接在 Sales 和 Finance and Operations 之间同步销售订单
 
 [!include [banner](../includes/banner.md)]
 
@@ -198,4 +197,3 @@ Sales 中的折扣计算模型不同于 Finance and Operations。 在 Finance an
 ## <a name="related-topics"></a>相关主题
 
 [从目标客户到现金](prospect-to-cash.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "采购概览"
-description: "文本提供在采购模块中可用的功能的概览。"
+title: 采购概览
+description: 文本提供在采购模块中可用的功能的概览。
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CatProcureCatalogListPage, CatVendorCatalogListPage, PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1fc824a308d17c75d9c16391778570272e160699
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 91881ca3999b4937d20161b8beab8e80c2675eb6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351623"
 ---
-
 # <a name="procurement-and-sourcing-overview"></a>采购概览
 
 [!include [banner](../includes/banner.md)]
@@ -61,7 +60,7 @@ ms.lasthandoff: 02/08/2018
 
 ### <a name="prices-and-discounts"></a>价格和折扣
 
-价格和折扣包括有关价格、折扣及其提供的返利条款的信息。 价格和折扣可以表示为*贸易协议*。 贸易协议表示包含价格或折扣的供应商价目表，并且具有协议生效的一组特定日期。 价格和折扣可以通过包含诸如承诺等条件的*采购协议*进行协商和表示，以作为协商条款的前提条件购买特定数量或货币金额。 可以与供应商建立*返利协议*，规定特定产品或产品组的采购可以根据采购金额或数量触发从供应商的返利。
+价格和折扣包括有关价格、折扣及其提供的返利条款的信息。 价格和折扣可以表示为*贸*易*协议*。 贸易协议表示包含价格或折扣的供应商价目表，并且具有协议生效的一组特定日期。 价格和折扣可以通过包含诸如承诺等条件的*采购协议*进行协商和表示，以作为协商条款的前提条件购买特定数量或货币金额。 可以与供应商建立*返利协议*，规定特定产品或产品组的采购可以根据采购金额或数量触发从供应商的返利。
 
 ### <a name="delivery-options"></a>交货选项
 
@@ -90,7 +89,6 @@ ms.lasthandoff: 02/08/2018
 
 ## <a name="vendor-performance"></a>供应商表现
 通过*采购和应付账款报表*支持采购绩效和审查，其中包含花费分析和供应商绩效分析。
-
 
 
 

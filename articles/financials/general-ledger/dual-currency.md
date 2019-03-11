@@ -1,29 +1,28 @@
 ---
-title: "双货币"
-description: "此主题提供有关双货币的信息，其中的申报币种用作 Microsoft Dynamics 365 for Finance and Operations 的第二记帐币种。"
+title: 双货币
+description: 此主题提供有关双货币的信息，其中的申报币种用作 Microsoft Dynamics 365 for Finance and Operations 的第二记帐币种。
 author: kweekley
 manager: AnnBe
 ms.date: 10/10/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTable, Ledger, AssetTransReportingCurrencyAmountsWizard,BankAccountTransReportingCurrencyAmountsWizard, LedgerTrialBalanceListPage
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
-ms.dyn365.ops.version: 8.1
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
+ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330302"
 ---
-
 # <a name="dual-currency"></a>双货币
 
 [!include [banner](../includes/banner.md)]
@@ -184,4 +183,3 @@ Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月�
     - 如果在固定资产日记帐中输入了折旧交易记录类型，申报币种金额将显示在新列中。 这些金额可以更改。
     - 如果分类帐中的记帐币种和申报币种相同，金额将保持同步。如果您更改**贷方**金额，**以申报币种表示的贷方**金额将自动更改，以使它们相同。
     - 如果在固定资产日记帐中输入了任何其他交易记录类型，**以申报币种表示的借方**和**以申报币种表示的贷方**金额永远不会显示，不论是在过帐之前还是之后。 记帐币种和申报币种金额在过帐到总帐的凭证中仍然显示。
-

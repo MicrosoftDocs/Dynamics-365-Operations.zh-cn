@@ -1,13 +1,13 @@
---- 
-title: "制订薪水/薪酬结构和计划"
-description: "此任务指南将介绍创建固定薪酬计划的流程，以及通过资格规则筛选加入薪资计划的员工。"
+---
+title: 制订薪水/薪酬结构和计划
+description: 此任务指南将介绍创建固定薪酬计划的流程，以及通过资格规则筛选加入薪资计划的员工。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332763"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>制订薪水/薪酬结构和计划
 
@@ -74,5 +74,4 @@ ms.lasthandoff: 09/14/2018
     * 选择员工符合薪酬计划所需满足的条件。 标准包括部门、工会、位置（薪酬区域）、工作、职能、工作类型或薪酬水平。 员工必须满足所有指定条件才能符合薪酬计划。 如果未指定条件，则所有员工符合薪酬计划。 如果员工不满足指定的资格规则，或薪酬计划并未指定资格规则，那么在创建员工固定薪酬记录时，查找中将不会出现薪酬计划。  
 7. 关闭该页面。
 8. 关闭该页面。
-
 

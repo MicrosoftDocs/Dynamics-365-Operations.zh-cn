@@ -1,32 +1,31 @@
 ---
-title: "优化顾问"
-description: "此主题描述如何使用优化顾问来帮助保证 Microsoft Dynamics 365 Finance and Operations 的最佳配置。"
+title: 优化顾问
+description: 此主题描述如何使用优化顾问来帮助保证 Microsoft Dynamics 365 Finance and Operations 的最佳配置。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 03/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SelfHealingWorkspace
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: roxanad
 ms.search.validFrom: 2017-12-01
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 206b8a23a52d412d1810b8a355b09ecc461f00b3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335615"
 ---
-
 # <a name="optimization-advisor"></a>优化顾问
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,7 @@ ms.lasthandoff: 08/08/2018
 
 当您对一些优化机会采取行动时，系统将计算机会对业务流程运行时间减少的影响。 很遗憾，此功能不能用于所有优化机会。
 
-若要了解有关“优化顾问”的详细信息，请观看视频短片 [Dynamics 365 for Finance and Operations 中的顾问优化](https://www.youtube.com/watch?v=MRsAzgFCUSQ)。
+若要了解有关“优化顾问”的详细信息，请观看视频短片 [Dynamics 365 for Finance and Operations 中的优化顾问](https://www.youtube.com/watch?v=MRsAzgFCUSQ)。
 
 ## <a name="optimization-rules"></a>优化规则
 
@@ -96,4 +95,3 @@ ms.lasthandoff: 08/08/2018
 [创建新规则](./create-rules-optimization-advisor.md)
 
 [Dynamics 365 for Finance and Operations 中的优化顾问（视频）](https://www.youtube.com/watch?v=MRsAzgFCUSQ)
-

@@ -1,13 +1,13 @@
 ---
-title: "成本核算分析 Power BI 内容"
-description: "此主题介绍成本核算分析 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 成本核算分析 Power BI 内容
+description: 此主题介绍成本核算分析 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: AndersGirke
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: aevengir
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: d0b563044843157940f456b07479bbd6006a42f9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: af87f3f7c3fab9b6baecefbedcd855a764f31cbe
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347437"
 ---
-
 # <a name="cost-accounting-analysis-power-bi-content"></a>成本核算分析 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,7 @@ ms.lasthandoff: 08/08/2018
 通过在成本核算中定义访问级安全并将其与 Power BI 中的行级安全结合，可以授予所有成本对象所有者**成本核算分析** Power BI 内容的访问权限。 然后将根据成本核算中控制的访问级别筛选可视化中的所有数据。 若要了解有关访问级安全和行级安全的详细信息，请参阅[设置成本核算 Power BI 内容的安全](setup-security-cost-accounting-content-pack.md)。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**成本核算分析** Power BI。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)。
+您可以在 Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库中找到**成本核算分析** Power BI 内容。 有关如何下载内容并在您的组织中实现的详细信息，请参阅 [LCS 中 Microsoft 和合作伙伴提供的 Power BI 内容](https://blogs.msdn.microsoft.com/dynamicsaxbi/2016/12/12/power-bi-content-from-microsoft-and-your-partners/)。
 
 <!--To watch a demo that shows how to implement the Power BI content, see the [Power BI content from Microsoft and your partners in Dynamics Lifecycle Services](https://mix.office.com/watch/9puyb1b2xs1w) Office Mix.-->
 
@@ -53,7 +52,7 @@ Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**成�
 > [!NOTE]
 > KB 4011327 是此 Power BI 内容的先决条件。 登录 LCS 之后，可访问该知识库，地址为 <https://fix.lcs.dynamics.com/issue/results/?q=kb4011327>。
 
-## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的指标
+## <a name="metrics-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的度量
 此内容中包含一组报表页面。 每个页面中包含一组可视化为图表、磁贴和表的指标。 下表概要介绍**成本核算分析** Power BI 内容中的可视化。
 
 | 报表页                      | 图表                                                                                                                         | 磁贴                                          |
@@ -127,4 +126,3 @@ Microsoft Dynamics Lifecycle Services (LCS) 中的共享资产库内包含**成�
 | 会计日历                   | 日历、日历描述                                                                                       |
 | 会计年度                       | 日历年度                                                                                                        |
 | 会计期间                     | 日历年度期间                                                                                                 |
-

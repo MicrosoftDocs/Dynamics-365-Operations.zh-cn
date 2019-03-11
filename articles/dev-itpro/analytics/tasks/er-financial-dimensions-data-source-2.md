@@ -1,13 +1,13 @@
---- 
-title: "ER 将财务维度用作数据源（第 2 部分 - 模型映射）"
-description: "以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。"
+---
+title: ER 将财务维度用作数据源（第 2 部分 - 模型映射）
+description: 以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便将财务维度用作 ER 报表的数据源。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 92efd6a0b36471286c292a80542b81cd14a8eff3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319584"
 ---
 # <a name="er-use-financial-dimensions-as-a-data-source-part-2-model-mapping"></a>ER 将财务维度用作数据源（第 2 部分：模型映射）
 
@@ -43,7 +43,7 @@ ms.lasthandoff: 09/14/2018
 8. 在“描述”字段中，键入“维度数据映射”。
 9. 单击“保存”。
 10. 单击“设计器”。
-11. 在树结构中，选择“Dynamics 365 for Operations\表格”。
+11. 在树中，选择“Dynamics 365 for Operations\表”'。
 12. 单击“添加根”。
 13. 在“名称”字段中，键入“公司”。
 14. 在“表格”字段中，键入“公司信息”。
@@ -59,7 +59,7 @@ ms.lasthandoff: 09/14/2018
 21. 在“要求主科目”字段中选择“是”。
     * 将“请求主科目”设置为“是”将允许用户把主科目作为维度列表的一部分选择。   如果设置为“否”，将不会在维度列表中包含主科目，并且启用“主科目是否必填”选项。 如果“主科目是否必填”设置为“是”，无论用户如何选择，都应该在维度列表中包含主科目。  
 22. 单击“确定”。
-23. 在树结构中，选择“Dynamics 365 for Operations\表格记录”。
+23. 在树中，选择“Dynamics 365 for Operations\表记录”'。
 24. 单击“添加根”。
 25. 在“名称”字段中，键入“分类日记帐”。
 26. 在“要求查询”字段中选择“是”。
@@ -143,5 +143,4 @@ ms.lasthandoff: 09/14/2018
 3. 单击“更改状态”。
 4. 单击“完成”。
 5. 单击“确定”。
-
 

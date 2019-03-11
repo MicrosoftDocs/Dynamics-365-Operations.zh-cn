@@ -1,13 +1,13 @@
---- 
-title: "设置处置代码"
-description: "此过程在针对可以在移动设备上用于退货单接收流程的处置代码的设置。"
+---
+title: 设置处置代码
+description: 此过程在针对可以在移动设备上用于退货单接收流程的处置代码的设置。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/11/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -16,12 +16,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 85402e05d55367da5fe89b242ad8eafc727b441e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: c004543188656dfd53d7539717cd6e93d0b9f47a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "324115"
 ---
 # <a name="set-up-dispositions-codes"></a>设置处置代码
 
@@ -39,5 +39,4 @@ ms.lasthandoff: 09/29/2017
     * 选项：选择与退货单相关的一个工作模板代码。 如果没有提供任何数值，请使用系统中配置的标准规则来解决工作模板问题。 选定工作模板将会限制此处置码的使用过程。 例如，如果处置码有一个带采购订单类型的工作指令的工作模板，则其不能用于登记被客户退回的物料。  
 6. 在“退货处置码”字段中，键入一个值。
     * 退货处置码可以确定已登记物料的退货单流程的剩余部分。 在本示例中，客户应收到贷方通知单。 添加包含信贷行为的退货处置码。  
-
 

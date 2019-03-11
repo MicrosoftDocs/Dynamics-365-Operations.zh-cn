@@ -1,13 +1,13 @@
 ---
-title: "使用销售组跟踪销售点 (POS) 中的佣金"
-description: "零售业中经常由与客户打交道的销售员跟踪销售 — 提供协助、追加销售、交叉销售和处理交易记录。"
+title: 使用销售组跟踪销售点 (POS) 中的佣金
+description: 零售业中经常由与客户打交道的销售员跟踪销售 — 提供协助、追加销售、交叉销售和处理交易记录。
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: ed4f9b3055e164600827b62d57b7a5068edb3b1a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325104"
 ---
-
 # <a name="track-commissions-in-the-point-of-sale-pos-by-using-sales-groups"></a>使用销售组跟踪销售点 (POS) 中的佣金
 
 [!include [banner](includes/banner.md)]
@@ -89,4 +88,3 @@ POS 允许用户配置按钮网格，按钮网格包含在屏幕布局中，用�
 ## <a name="calculating-commissions"></a>计算佣金
 
 对账单过帐或销售订单过帐时，将为指定销售组中的工作人员计算佣金。将根据交易记录中客户和/或产品的销售组和关联佣金计算设置中定义的工作人员佣金份额，确定佣金金额。
-

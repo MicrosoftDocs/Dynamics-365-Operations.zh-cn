@@ -1,13 +1,13 @@
---- 
-title: "定义精益计划组"
-description: "精益计划组被定义为组，可区分看板计划中的产品。"
+---
+title: 定义精益计划组
+description: 精益计划组被定义为组，可区分看板计划中的产品。
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanScheduleGroup, GanttColorTableLookup
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 787694b094f343445cca784d035554a8bfa25f5a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: a5bc20c0a9e2396365caebeb3751d2090e4575a4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350519"
 ---
 # <a name="define-lean-schedule-groups"></a>定义精益计划组
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/29/2017
 2. 在“物料关系类型”字段中，选择“组”。
 3. 在“物料分配参数”字段中，单击下拉按钮以打开查找。
 4. 在列表中，单击所选行中的链接。
-
 

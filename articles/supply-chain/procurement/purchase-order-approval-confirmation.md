@@ -1,13 +1,13 @@
 ---
-title: "审核和确认采购订单"
-description: "本主题介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。"
+title: 审核和确认采购订单
+description: 本主题介绍了创建后采购订单 (PO) 所经历的状态，以及对采购订单启用更改管理的效果。
 author: FrankDahl
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable
 audience: Application User
 ms.reviewer: josaw
@@ -15,18 +15,17 @@ ms.search.scope: Core, Operations, Retail
 ms.custom: 93143
 ms.assetid: cd12a944-c52c-4579-a301-7abe1d237c72
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: fdahl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: e274f52484d3fe1884152f155b6b7f0714f8842e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336949"
 ---
-
 # <a name="approve-and-confirm-purchase-orders"></a>审核和确认采购订单
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ ms.lasthandoff: 08/29/2018
 [针对采购订单的物料收货](product-receipt-against-purchase-orders.md)
 
 [供应商发票的概览](../../financials/accounts-payable/vendor-invoices-overview.md)
-
 
 
 

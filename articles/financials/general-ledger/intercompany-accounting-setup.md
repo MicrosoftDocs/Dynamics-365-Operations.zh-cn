@@ -1,13 +1,13 @@
 ---
-title: "内部公司会计设置"
-description: "本主题说明如何设置内部公司会计，以便将内部公司日记帐用于分类帐分配和财务日记帐，如日常记帐、供应商发票日记帐和付款日记帐。"
+title: 内部公司会计设置
+description: 本主题说明如何设置内部公司会计，以便将内部公司日记帐用于分类帐分配和财务日记帐，如日常记帐、供应商发票日记帐和付款日记帐。
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: ce07a29d7aa5057d0b61c7fcc6bb87a0a2755fc9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 48e0b00e2a9bd1a1387780747e1976bd386200eb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363974"
 ---
-
 # <a name="intercompany-accounting-setup"></a>内部公司会计设置
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 11/03/2017
 最后，选择哪个法人将接收支持科目的会计，如集中付款的现金折扣或已有损益。 
 
 可以通过在创建法人对后使用**创建互惠关系**按钮，在**内部公司会计**页中轻松设置互惠关系。 创建互惠对后，将把目标公司的信息复制到源公司，反之亦然。 将保留为目标公司定义的日记帐。 大多数组织为自己的日记帐名称使用相同的命名约定，因此日记帐名称相同。 如果日记帐名称不同，将在字段中显示警告，通知您日记帐不存在，并且可以选择其他日记帐。
-
 
 
 

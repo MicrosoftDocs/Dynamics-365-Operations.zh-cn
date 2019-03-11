@@ -1,31 +1,31 @@
 ---
-title: "Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改的功能"
-description: "此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新功能和更改的功能。"
+title: Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-11
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: 1d48bc4bad795611ce322b5f09b78886a50c415c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303367"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-15-2018"></a>Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改的功能
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-15-2018"></a>Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
@@ -43,4 +43,3 @@ ms.lasthandoff: 10/22/2018
 ## <a name="known-issue"></a>已知问题
 
 **问题：** 向工作人员添加新附件时，**新建**和**编辑**按钮灰显。**解决方法：** 打开附件页面之前，确保已关闭**工作人员**页面中的速见表。 如果加载**工作人员**页面时速见表已关闭，将启用附件按钮。 （下一个平台更新中将解决这个问题。）
-

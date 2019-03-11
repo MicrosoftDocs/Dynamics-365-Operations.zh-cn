@@ -1,13 +1,13 @@
 ---
-title: "需求预测设置"
-description: "本主题介绍为准备需求预测您必须执行的设置任务。"
+title: 需求预测设置
+description: 本主题介绍为准备需求预测您必须执行的设置任务。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanDefaultAlgorithmParameters, ReqDemPlanForecastParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 59fb8938720ce1634735dd728eee3874660a4289
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: be962bffd9dfe756b444f6946990058971896a27
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330440"
 ---
-
 # <a name="demand-forecasting-setup"></a>需求预测设置
 
 [!include [banner](../includes/banner.md)]
@@ -86,7 +85,6 @@ ms.lasthandoff: 05/08/2018
 [生成统计基准预测](generate-statistical-baseline-forecast.md)
 
 [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
-
 
 
 

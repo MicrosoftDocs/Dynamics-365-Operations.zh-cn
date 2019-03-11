@@ -1,13 +1,13 @@
 ---
-title: "使会计科目表分隔符唯一"
-description: "在 Dynamics 365 for Finance and Operations 中，科目表和维度值的分隔符不能相同。 必须在升级后更改分隔符值。"
+title: 使会计科目表分隔符的成为唯一的
+description: 在 Dynamics 365 for Finance and Operations 中，科目表和维度值的分隔符不能相同。 必须在升级后更改分隔符值。
 author: ryansandness
 manager: AnnBe
 ms.date: 03/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,15 +17,14 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: 8
-ms.translationtype: HT
-ms.sourcegitcommit: d9747ba144d56c9410846769e5465372c89ea111
 ms.openlocfilehash: e197a1b44e038a97b8bf6db692dcc2eef2bc5f7b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335845"
 ---
-
-# <a name="make-the-chart-of-accounts-delimiter-unique"></a>使会计科目表分隔符唯一
+# <a name="make-the-chart-of-accounts-delimiter-unique"></a>使会计科目表分隔符的成为唯一的
 
 [!include [banner](../includes/banner.md)]
 
@@ -43,4 +42,3 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="how-to-determine-if-your-environment-requires-updated-delimiters"></a>如何确定环境是否需要更新后的分隔符 
 如果升级后的环境中的分隔符冲突，在细分条目控件或维度条目控件中输入值时，可能遇到不稳定。 这意味着输入科目和维度组合时，始终需要使用查找或弹出菜单。
-

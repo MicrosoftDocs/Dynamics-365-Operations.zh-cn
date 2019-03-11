@@ -1,13 +1,13 @@
---- 
-title: "创建基础产品"
-description: "为预定义变型创建基础产品。"
+---
+title: 创建基础产品
+description: 为预定义变型创建基础产品。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductListPage, EcoResProductCreate, EcoResProductDetails, EcoResProductInventoryDimensionGroups
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6e34f7c630e872468d888938e0f1aa57f3f0d4c4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f944258e7efdd5c9eba7daf9a80c67058a6cc055
-ms.openlocfilehash: 6e5cf92f7736523faf25ac97278a8a273e14ff88
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/25/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326070"
 ---
 # <a name="create-a-product-master"></a>创建基础产品
 
@@ -66,5 +66,4 @@ ms.lasthandoff: 10/25/2017
 9. 单击“确定”。
 10. 单击“保存”。
 11. 关闭该页面。
-
 

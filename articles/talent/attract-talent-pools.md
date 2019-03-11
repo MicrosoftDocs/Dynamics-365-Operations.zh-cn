@@ -1,31 +1,30 @@
 ---
-title: "使用人才池寻求应聘者"
-description: "本主题说明如何在 Attract 中创建和设置人才池。"
-author: 
+title: 使用人才池寻求应聘者
+description: 本主题说明如何在 Attract 中创建和设置人才池。
+author: ''
 manager: AnnBe
 ms.date: 10/22/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-22-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: 2eb46f436305a4c81ea99553e4dc07288ee74008
 ms.openlocfilehash: cac68799ee5b6e2c8f864acf6d1677a7213b4aaf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303411"
 ---
-
 # <a name="source-candidates-by-using-talent-pools"></a>使用人才池寻求应聘者
 
 [!include[banner](../includes/banner.md)]
@@ -108,7 +107,7 @@ ms.lasthandoff: 10/22/2018
 
 - **文档**选项卡显示应聘者从其个人资料或在工作申请期间添加的任何文档。 此选项卡可以用于管理应聘者的简历、求职信、工作经验等信息。 您还可以使用此选项卡添加文档。
 
-    若要查看文档，请选择文档列表中的文档名称。 您可以使用 Microsoft Office 365 查看申请中的 Microsoft Word 文档。 您还可以使用每个文档的**下载**选项将文档下载到您的本地计算机。
+    若要查看文档，请选择文档列表中的文档名称。 您可以通过使用 Microsoft Office 365 在应用程序中查看 Microsoft Word 文档。 您还可以使用每个文档的**下载**选项将文档下载到您的本地计算机。
 
 - **LinkedIn** 选项卡显示应聘者的 LinkedIn 信息。 若要使用此选项卡，您必须在用户设置中连接您的 LinkedIn 帐户，且您的环境的 LinkedIn Recruiter 连接必须建立。 有关详细信息，请参阅[使用 LinkedIn Recruiter 招聘](./attract-linked-in-recruiter.md)。
 
@@ -139,4 +138,3 @@ ms.lasthandoff: 10/22/2018
 1. 在申请页面，选择**添加到人才池**。 您具有访问权限的人才池列表将显示。
 
 1. 选择或搜索人才池，然后选择**添加**将应聘者添加到该人才池。
-

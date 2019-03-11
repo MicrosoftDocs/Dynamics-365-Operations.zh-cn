@@ -1,13 +1,13 @@
---- 
-title: "以 Office 格式生成包含嵌入图像的报表"
-description: "以下步骤说明“系统管理员”或“电子申报开发人员”角色的用户如何设计电子申报 (ER) 配置，以便生成包含嵌入图像的 MS office 格式（Excel 和 Word）的电子单据。"
+---
+title: 以 Office 格式生成包含嵌入图像的报表
+description: 以下步骤说明“系统管理员”或“电子申报开发人员”角色的用户如何设计电子申报 (ER) 配置，以便生成包含嵌入图像的 MS office 格式（Excel 和 Word）的电子单据。
 author: NickSelin
 manager: AnnBe
 ms.date: 06/13/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
 ms.openlocfilehash: 5ef7ec2f8b5b7fdf456ebb71b863e620ae21e6b5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327174"
 ---
 # <a name="generate-reports-in-office-format-that-have-embedded-images"></a>以 Office 格式生成包含嵌入图像的报表
 
@@ -119,5 +119,4 @@ ms.lasthandoff: 08/08/2018
 22. 单击“打印测试”。
 23. 单击“确定”。
     * 检查创建的输出。 请注意，已将输出生成为带有嵌入图像（用于显示公司徽标、授权人员的签名和所选水印文本）的 MS Word 文档。  
-
 

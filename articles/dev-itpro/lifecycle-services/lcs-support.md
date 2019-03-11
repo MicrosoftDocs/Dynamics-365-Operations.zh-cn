@@ -1,13 +1,13 @@
 ---
-title: "获取对 Finance and Operations 或 Lifecycle Services (LCS) 的支持"
-description: "本文介绍如何获取有关 Microsoft Dynamics 365 for Finance and Operations 或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。"
+title: 获取对 Finance and Operations 或 Lifecycle Services (LCS) 的支持
+description: 本文介绍如何获取有关 Microsoft Dynamics 365 for Finance and Operations 或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。
 author: kfend
 manager: AnnBe
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: IT Pro, Developer, Application user
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -17,21 +17,20 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 1aae5797e37b846a38f957b02870e213da528a2d
 ms.openlocfilehash: 4ad96a3aa3ac80045345b839ea8a923884061aeb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/20/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334764"
 ---
-
 # <a name="get-support-for-finance-and-operations-or-lifecycle-services-lcs"></a>获取对 Finance and Operations 或 Lifecycle Services (LCS) 的支持
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何获取有关 Finance and Operations Enterprise Edition 或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。 
+本文介绍如何获取有关 Finance and Operations 或 Microsoft Dynamics Lifecycle Services (LCS) 的帮助。 
 
-## <a name="contact-support"></a>联系支持人员
+## <a name="contact-support"></a>联系技术支持
 
 如果有关于 Finance and Operations 的疑问，或访问 Microsoft Dynamics Lifecycle Services (LCS) 时需要帮助，可使用本文中的信息联系 Microsoft。
 
@@ -90,8 +89,7 @@ ms.lasthandoff: 09/20/2018
 
 
 ## <a name="additional-resources"></a>其他资源
-- [获取 Dynamics 365 for Retail 的帮助](../../retail/retail-support.md)
-- [获取 Dynamics 365 for Talent 的帮助](../../talent/talent-support.md)
+- [获取 Dynamics 365 for Retail 支持](../../retail/retail-support.md)
+- [获取 Dynamics 365 for Talent 支持](../../talent/talent-support.md)
 - 有关 Microsoft Dynamics 支持产品的详细信息，请参阅 [Microsoft Dynamics Online 支持](https://www.microsoft.com/en-us/dynamics/dynamics-online-support.aspx)。
-
 

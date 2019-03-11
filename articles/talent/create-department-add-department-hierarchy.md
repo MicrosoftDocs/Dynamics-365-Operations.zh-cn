@@ -1,13 +1,13 @@
 ---
-title: "创建部门并将其添加到部门层次结构中"
-description: "部门是一个运营单位，表示组织的类别或功能区域。 部门负责组织的特定区域，例如，销售、会计或人力资源。 您可以在功能区中使用要上报的部门。 部门可能具有损益职责。"
+title: 创建部门并将其添加到部门层次结构中
+description: 部门是一个运营单位，表示组织的类别或功能区域。 部门负责组织的特定区域，例如，销售、会计或人力资源。 您可以在功能区中使用要上报的部门。 部门可能具有损益职责。
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HierarchyDesigner, OMOperatingUnit
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 82f039b305503c604d64610f39838fa86a8eb08a
 ms.openlocfilehash: 14e0acb2ea16641eecb81bcf23c8b7d778b2b208
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303404"
 ---
-
 # <a name="create-departments-and-include-them-in-the-department-hierarchy"></a>创建部门并将其添加到部门层次结构中
 
 [!include [banner](includes/banner.md)]
@@ -57,4 +56,3 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="steps-for-creating-a-department"></a>部门创建步骤
 请参阅[定义新部门](../fin-and-ops/hr/tasks/define-new-departments.md)主题了解创建新部门的分步过程。 
-

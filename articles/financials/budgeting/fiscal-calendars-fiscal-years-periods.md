@@ -1,13 +1,13 @@
 ---
-title: "会计日历、会计年度和期间"
-description: "本文讨论会计日历、会计年度和期间以及如何为法人、固定资产和预算使用它们。"
+title: 会计日历、会计年度和期间
+description: 本文讨论会计日历、会计年度和期间以及如何为法人、固定资产和预算使用它们。
 author: aprilolson
 manager: AnnBe
 ms.date: 01/11/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FiscalCalendars
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 431d654aaffc27d54fd590dc7d5d2ab6c2313908
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "361651"
 ---
-
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>会计日历、会计年度和期间
 
 [!include [banner](../includes/banner.md)]
@@ -60,7 +59,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="maintain-periods-for-your-organization"></a>维护您的组织的期间
 您可以使用“分类帐日历”页查看您的组织使用的会计日历、会计年度和期间的详细信息。 您还可以更改该期间的状态和选择哪些用户都可以过帐会计科目交易记录到期间。 例如，在新期间的开始，当其他组只在新期间工作时，您可能希望一组用户在前一期间完成过帐财务交易记录。
-
 
 
 

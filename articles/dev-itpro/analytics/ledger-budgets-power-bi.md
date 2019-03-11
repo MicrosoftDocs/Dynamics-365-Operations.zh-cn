@@ -1,13 +1,13 @@
 ---
-title: "实际与预算 Power BI 内容"
-description: "此主题描述实际与预算 Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 实际与预算 Power BI 内容
+description: 此主题描述实际与预算 Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: ryansandness
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetTrackingWorkspace
 audience: Application user, IT Pro
 ms.reviewer: sericks
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: c801544e9e37a528203f5a1730aa8cb526d63dbf
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: aac6439bb54b3b9cab066b06c01763e880efef8e
-ms.openlocfilehash: fa0c56f4773b9062d616772e2bca9a576ad37ce2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343481"
 ---
-
 # <a name="actual-vs-budget-power-bi-content"></a>实际与预算 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
@@ -35,12 +34,12 @@ ms.lasthandoff: 12/18/2017
 **实际与预算** Power BI 内容为负责监督组织中的实际与预算绩效的人员而创建。 **实际与预算** Power BI 内容可用于查看您的预算差异。 您可以按科目类别、预算代码、主科目、主科目描述或会计期间分析当前年度的预算，以更好地了解任何差异的原因。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
-来自**实际与预算** Power BI 内容的报表显示在**分类帐预算和预测** 和 **CFO** 工作区中。
+来自**实际与预算** Power BI 内容的报表显示在**分类帐预算和预测**和 **CFO** 工作区中。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
 下表提供有关在**实际与预算** Power BI 内容中的每个报表页找到的指标的详细信息。
 
-| 报告                      | 指标                                                                             |
+| 报表                      | 指标                                                                             |
 |-----------------------------|-------------------------------------------------------------------------------------|
 | 支出 - 实际与预算 | <ul><li>本年支出总额</li><li>本年支出总额预算</li></ul>  |
 | 收入 - 实际与预算  | <ul><li>本年收入总额</li><li>本年收入总额预算</li><ul>     |
@@ -59,4 +58,3 @@ ms.lasthandoff: 12/18/2017
 | 分类帐                   | 可用于筛选报表到当前分类帐的分类帐              |
 | 预算代码              | 充当报表筛选依据的预算代码                                                |
 | 法人            | 可用于筛选报表到当前法人的法人 |
-

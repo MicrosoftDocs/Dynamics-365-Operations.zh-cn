@@ -1,13 +1,13 @@
 ---
-title: "配置从 SharePoint 的数据导入"
-description: "本主题介绍如何从 Microsoft SharePoint 导入数据。"
+title: 配置从 SharePoint 的数据导入
+description: 本主题介绍如何从 Microsoft SharePoint 导入数据。
 author: NickSelin
 manager: AnnBe
 ms.date: 11/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,20 +17,20 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 060c3dec71e2b953d9341c5b5c89e60925fda34d
 ms.openlocfilehash: 8053b0316c86c614b87b0e658dffade3a135f2cc
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331084"
 ---
 # <a name="configure-data-import-from-sharepoint"></a>配置从 SharePoint 的数据导入
 
 [!include[banner](../includes/banner.md)]
 
-若要使用电子申报 (ER) 框架从传入文件导入数据，必须配置用于为导入提供支持的 ER 格式，然后运行将该格式用作数据源且类型为**截止目标**的模型映射。 若要导入数据，您必须导航到要导入的文件。 用户可以手动选择传入文件。 在新的 ER 功能中，为了为从 Microsoft SharePoint 导入数据提供支持，可将此过程配置为无人值守。 您可以使用 ER 配置从 Microsoft SharePoint 文件夹中存储的文件导入数据。 本主题介绍如何完成导入从 SharePoint 到 Microsoft Dynamics 365 for Finance and Operations 的导入。 示例将供应商交易记录用作业务数据。
+若要使用电子申报 (ER) 框架从传入文件导入数据，必须配置用于为导入提供支持的 ER 格式，然后运行将该格式用作数据源且类型为**截止目标**的模型映射。 若要导入数据，您必须导航到要导入的文件。 用户可以手动选择传入文件。 在新的 ER 功能中，为了为从 Microsoft SharePoint 导入数据提供支持，可将此过程配置为无人值守。 您可以使用 ER 配置从 Microsoft SharePoint 文件夹中存储的文件导入数据。 本主题介绍如何完成从 SharePoint 到 Microsoft Dynamics 365 for Finance and Operations 的导入。 示例将供应商交易记录用作业务数据。
 
-## <a name="prerequisites"></a>必备项
+## <a name="prerequisites"></a>先决条件
 要完成本主题中的示例，您必须具有以下访问权限：
 
 - 访问 Finance and Operations 的以下其中一个角色：
@@ -43,7 +43,7 @@ ms.lasthandoff: 12/07/2018
 - 1099 付款的 ER 格式和模型配置。
 
 ### <a name="create-required-er-configurations"></a>创建所需的 ER 配置
-播放 **ER 从 Microsoft Excel 文件导入数据**任务指南，该任务指南属于 **7.5.4.3 获取/开发 IT 服务/解决方案产品 (10677)** 业务流程。. 这些任务指南将引导您完成设计和使用 ER 配置以便以交互方式从 Microsoft Excel 文件导入供应商交易记录这一过程。 有关详细信息，请参阅[分析 Microsoft Excel 格式的传入文档](parse-incoming-documents-excel.md)。 在您完成任务指南后，将具有以下设置。
+播放 **ER 从 Microsoft Excel 文件导入数据**任务指南，该任务指南属于 **7.5.4.3 获取/开发 IT 服务/解决方案产品 (10677)** 业务流程。 这些任务指南将引导您完成设计和使用 ER 配置以便以交互方式从 Microsoft Excel 文件导入供应商交易记录这一过程。 有关详细信息，请参阅[分析 Microsoft Excel 格式的传入文档](parse-incoming-documents-excel.md)。 在您完成任务指南后，将具有以下设置。
 
 #### <a name="er-configurations"></a>ER 配置
 
@@ -64,7 +64,7 @@ ms.lasthandoff: 12/07/2018
 ## <a name="configure-access-to-sharepoint-for-file-storage"></a>配置对用于文件存储的 SharePoint 的访问
 要在 SharePoint 位置存储电子报表文件，您必须配置对当前公司将使用的 SharePoint Server 实例的访问。 在此示例中，该公司为 USMF。 有关说明，请参阅[配置 SharePoint 存储](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)。
 
-1. 完成[配置 SharePoint 存储](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)中的步骤。
+1. 完成[配置 SharePoint 存储中的步骤](../../fin-and-ops/organization-administration/configure-document-management.md#configure-sharepoint-storage)。
 2. 打开配置的 SharePoint 站点。
 3. 创建以下可以存储传入的电子报告文件的文件夹：
 
@@ -192,4 +192,3 @@ ms.lasthandoff: 12/07/2018
 11. 在 Finance and Operations 中，选择**应付帐款** \> **定期任务** \> **1099税** \> **1099 的供应商结算**，在**开始日期**和**结束日期**字段中输入相应值，然后选择**手动 1099 交易记录**。
 
     只有凭证 V-00001 的交易记录。 即使在 Excel 文件中发现了上次导入的交易记录的错误，也没有凭证 V-00002 的交易记录。
-

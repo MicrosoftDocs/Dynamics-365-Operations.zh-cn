@@ -1,37 +1,36 @@
 ---
-title: "获取 Dynamics 365 for Retail 的帮助"
-description: "本问说明如何获取 Microsoft Dynamics 365 for Retail 的帮助。"
+title: 获取 Dynamics 365 for Retail 支持
+description: 本文说明如何获取 Microsoft Dynamics 365 for Retail 的帮助。
 author: josaw1
 manager: AnnBe
 ms.date: 09/18/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
+ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: 2e74554338e4b12991756f63257f67ee3e2e6dc4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "364043"
 ---
-
-# <a name="get-support-for-dynamics-365-for-retail"></a>获取 Dynamics 365 for Retail 的帮助
+# <a name="get-support-for-dynamics-365-for-retail"></a>获取 Dynamics 365 for Retail 支持
 
 [!include [banner](../includes/banner.md)]
 
-本问说明如何获取 Dynamics 365 for Retail 的帮助。
+本文说明如何获取 Dynamics 365 for Retail 的帮助。
 
-## <a name="contact-support"></a>联系支持人员
+## <a name="contact-support"></a>联系技术支持
 
 如果有与 Retail 有关的技术问题，请按照本文中的信息联系 Microsoft。
 
@@ -85,5 +84,4 @@ ms.lasthandoff: 01/04/2019
 </tbody>
 </table>
 
-有关 Microsoft Dynamics 支持产品的详细信息，请参阅 [Microsoft Dynamics Online 支持](https://www.microsoft.com/dynamics/dynamics-online-support.aspx)。
-
+有关 Microsoft Dynamics 支持产品的详细信息，请参阅 [Microsoft Dynamics Online 支持](https://dynamics.microsoft.com/en-us/support/)。

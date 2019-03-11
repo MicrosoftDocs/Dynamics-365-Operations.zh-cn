@@ -1,13 +1,13 @@
 ---
-title: "运输管理概览"
-description: "本主题概述 Microsoft Dynamics 365 for Finance and Operations 中的运输管理功能。"
+title: 运输管理概览
+description: 本主题提供 Microsoft Dynamics 365 for Finance and Operations 中运输管理功能的概览。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TMSParameters,TMSRateRouteWorkbench, WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 918167a3ab72b3d3665cf710d8e509417b94a056
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f4dc2c15d35d93d1563c866b20ad7f2bbb5c8457
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355602"
 ---
-
 # <a name="transportation-management-overview"></a>运输管理概览
 
 [!include [banner](../includes/banner.md)]
 
-本主题概述 Microsoft Dynamics 365 for Finance and Operations 中的运输管理功能。
+本主题提供 Microsoft Dynamics 365 for Finance and Operations 中运输管理功能的概览。
 
 “运输管理”能让您使用公司的运输，还能让您为进货和出货订单标识供应商和路线解决方法。 例如，您可以标识装运的最快路线或最便宜费率。 下表描述在 Microsoft Dynamics 365 for Finance and Operations 中使用运输管理的主要情况。
 
@@ -85,7 +84,6 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="load-building"></a>装载计划
 Finance and Operations 提供称作“基于容量的装载计划策略”的装载计划策略。 此策略允许您在装载模板上为高度和重量指定最大值，或您可以通过输入新的值来覆盖设置。 若要使用此策略，请在**装载计划工作台**页中**设置**快速选项卡上的**装载计划策略**字段中选择。 此外，可以在应用程序对象树 (AOT) 中创建新类添加您自己的负荷创建策略。
-
 
 
 

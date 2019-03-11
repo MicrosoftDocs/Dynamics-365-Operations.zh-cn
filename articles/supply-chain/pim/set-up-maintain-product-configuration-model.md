@@ -1,13 +1,13 @@
 ---
-title: "设置产品配置模型"
-description: "本文介绍设置和创建产品模型配置的步骤。"
+title: 设置产品配置模型
+description: 本文介绍设置和创建产品模型配置的步骤。
 author: cvocph
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PCProductConfigurationModelListPage
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 10faa26a53b026a70487124d696b0313d1f5814d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8504eb789b0d449cf2e29d4314d189dc0b8a6b43
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "360662"
 ---
-
 # <a name="set-up-a-product-configuration-model"></a>设置产品配置模型
 
 [!include [banner](../includes/banner.md)]
@@ -49,7 +48,6 @@ ms.lasthandoff: 02/07/2018
 | 测试产品配置模型。                         | 从**基于约束的产品配置模型详细信息**页或**产品配置模型列表**页测试产品配置模型。 测试产品配置模型模拟在订单处理期间发生的产品模型配置流程。                                                                                                |
 | 创建产品配置模型模板。                | 在**配置模板**页创建产品配置模型模板。 配置模板包括产品配置模型中的属性的值。 在**配置行**页选择属性值。 您可以选择在产品模型配置期间加载产品模型配置模板。                                                   |
 | 配置物料。                                          | 产品配置模型可以基于销售订单、销售报价单、采购订单或生产订单配置。                                                                                                                                                                                                                                                                           |
-
 
 
 

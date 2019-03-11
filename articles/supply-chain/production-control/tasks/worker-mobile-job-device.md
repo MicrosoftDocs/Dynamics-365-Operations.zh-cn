@@ -1,13 +1,13 @@
---- 
-title: "使用移动作业设备配置工作人员"
-description: "该过程向您显示如何给工作人员的用户帐户分配正确的角色，并使工作人员执行车间登记。"
+---
+title: 使用移动作业设备配置工作人员
+description: 该过程向您显示如何给工作人员的用户帐户分配正确的角色，并使工作人员执行车间登记。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysUserManagement, HcmWorker, JmgRegistrationSetupTouch, JmgRegistrationSetupAssignUsers
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1bb4d806810660e55ef13a9ff21c07e0ce194496
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: f9de2f79c68fead5ede714ff05bba97118874aad
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327381"
 ---
 # <a name="configure-a-worker-using-the-mobile-job-device"></a>使用移动作业设备配置工作人员
 
@@ -69,5 +69,4 @@ ms.lasthandoff: 02/06/2018
 5. 单击“编辑”。
 6. 在“生产单位”字段，您可以设置工作人员的默认筛选器。 这将确保在工作人员登录到设备时，只显示所选生产单位的生产作业。
 7. 关闭该页面。
-
 

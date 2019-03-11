@@ -1,13 +1,13 @@
 ---
-title: "供应商与外部供应商的协作"
-description: "本主题说明采购代理如何与外部供应商协作交换关于采购订单和托运库存的信息。"
+title: 供应商与外部供应商的协作
+description: 本主题说明采购代理如何与外部供应商协作交换关于采购订单和托运库存的信息。
 author: mkirknel
 manager: AnnBe
 ms.date: 11/02/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchRFQCaseTableListPage, VendVendorPortalInvoicePart
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 65624ce5e668a506ae23b302559d8d0bf4141a12
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 961f0bbc4bb66536d953fa5103f98fcd6924adba
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "350013"
 ---
-
 # <a name="vendor-collaboration-with-external-vendors"></a>供应商与外部供应商的协作
 
 [!include [banner](../includes/banner.md)]
@@ -132,7 +131,7 @@ ms.lasthandoff: 04/13/2018
 
 ### <a name="canceling-a-po"></a>取消采购订单
 
-取消采购订单后，状态更改为“**已批准**”。 您必须将 PO 发送回供应商处，以便供应商确认或拒绝取消。 在取消被确认后，PO 在已确认 PO 的供应商列表中显示为**已取消**。
+取消采购订单后，状态更改为**已批准**。 您必须将 PO 发送回供应商处，以便供应商确认或拒绝取消。 在取消被确认后，PO 在已确认 PO 的供应商列表中显示为**已取消**。
 
 ### <a name="adding-attachments-to-a-po"></a>添加附加到采购订单
 
@@ -183,7 +182,7 @@ ms.lasthandoff: 04/13/2018
 |--------|--------------------|
 | PO 的初始版本是在 Finance and Operations 中创建的。 | 状态为**已审核**。 |
 | PO 已发送至供应商。 | 供应商协作界面上登记了一个版本，状态更改为**正在进行外部审核**。 |
-| 供应商发送“**已接受更改**”响应。 | 状态仍然为“**正在进行外部审核**”。 |
+| 供应商发送**已接受更改**响应。 | 状态仍然为**正在进行外部审核**。 |
 | 您按供应商要求进行了一些更改。 | 状态更改为**已批准**。 |
 | 您将 PO 的新版本发送给供应商。 | 供应商协作界面上登记了一个新版本，状态更改为**正在进行外部审核**。 |
 | 供应商接受了 PO 的新版本。 | 状态仍然为**正在进行外部审核**，直到供应商帐户被配置为供应商接受 PO 时自动将 PO 设置为**已确认**状态。 |
@@ -260,4 +259,3 @@ ms.lasthandoff: 04/13/2018
 - %createddate%
 
 如果需要改正，并且在发送询价后发送，将重新向所有受邀请的供应商发送询价。 **打开发布的询价**页面上的已发布文档也会更新。
-

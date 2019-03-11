@@ -1,13 +1,13 @@
---- 
-title: "以直接交运方式装运订单"
-description: "该过程显示如何为销售订单创建直接交货。"
+---
+title: 以直接交运方式装运订单
+description: 该过程显示如何为销售订单创建直接交货。
 author: omulvad
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SalesTableListPage, SalesCreateOrder, SalesTable, PurchCreateFromSalesOrder, VendAccountItemLookup, SalesTableReferences, PurchTable, PurchEditLines, PurchTableReferences, MCRDropShipWorkbench
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 5cd68aa1c15672c702db887c08ecf9b3d63f2618
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: f674de4877dd2d6e6f1ff02f16a68cb4805d9864
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339272"
 ---
 # <a name="ship-orders-as-direct-deliveries"></a>以直接交运方式装运订单
 
@@ -102,5 +102,4 @@ ms.lasthandoff: 09/29/2017
 14. 单击“创建直接交货”。
 15. 单击“确认”选项卡。
     * 在您创建直接交货订单后，其会自动移到“确认”选项卡。您可以选择直接从此页确认订单。 在确认采购时，将会从可登记其收货的位置自动移到“交货”选项卡。  
-
 

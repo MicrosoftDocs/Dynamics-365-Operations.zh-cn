@@ -1,31 +1,30 @@
 ---
-title: "导入供应商目录"
-description: "此主题介绍供应商目录数据导入流程。"
+title: 导入供应商目录
+description: 此主题介绍供应商目录数据导入流程。
 author: mkirknel
 manager: AnnBe
 ms.date: 03/20/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendProspectiveVendorRegistrationRequests
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
+ms.custom: ''
 ms.search.region: Global
-ms.search.industry: 
+ms.search.industry: ''
 ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ac7754bd6361ad74f7ab4d564ae3114dd4b9f165
-ms.openlocfilehash: caf801ea27ade63c24bb0907313e7f8294c50702
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362019"
 ---
-
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 [!include[banner](../includes/banner.md)]
 
@@ -70,4 +69,3 @@ ms.lasthandoff: 04/26/2018
 3. 在**另存为**对话框中，选择要存储目录文件模板和保存该文件的位置。
 
 有关更多信息和示例，请参阅以下博客文章：[Dynamics AX 中的供应商目录](https://blogs.msdn.microsoft.com/dynamicsaxscm/2016/05/25/vendor-catalogs-in-dynamics-ax/)。
-

@@ -1,13 +1,13 @@
 ---
-title: "三向匹配政策"
-description: "本主题提供三种向匹配的示例。"
+title: 三向匹配政策
+description: 本主题提供三种向匹配的示例。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendInvoicePostingHistory
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f02f6831709dcc0998c74a9ddd04216a2213970d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: c8ea45ece05f006f1649c79fcdee427a0bc4b0b5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318940"
 ---
-
 # <a name="three-way-matching-policies"></a>三向匹配政策
 
 [!include [banner](../includes/banner.md)]
@@ -143,7 +142,6 @@ Contoso 中的纸质发票包含以下信息。
 
 
 有关详细信息，请参阅[应付账款发票匹配](accounts-payable-invoice-matching.md)。
-
 
 
 

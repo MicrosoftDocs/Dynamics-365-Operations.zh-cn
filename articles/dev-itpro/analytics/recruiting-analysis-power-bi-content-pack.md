@@ -1,13 +1,13 @@
 ---
-title: "招聘 Power BI 内容"
-description: "此主题介绍招聘 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 招聘 Power BI 内容
+description: 此主题描述招聘 Power BI 内容。 它说明如何访问报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: jcart1106
 manager: AnnBe
 ms.date: 12/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmRecruitmentWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -18,19 +18,18 @@ ms.search.region: Global
 ms.author: jcart
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 2d8c0e0e52a8dba2a1ea5bf330cdea01e3cfb60d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb43245afe578341251b140383a3b03ba2abd962
-ms.openlocfilehash: 0d6bc8584d202810ed14367d36d113d9b109ea7a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/19/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347989"
 ---
-
 # <a name="recruiting-power-bi-content"></a>招聘 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
-此主题介绍**招聘** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
+此主题描述**招聘** Microsoft Power BI 内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 **招聘** Power BI 内容显示在**招聘管理**工作区。
@@ -48,7 +47,7 @@ ms.lasthandoff: 12/19/2017
 ## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
 可以筛选这些报表中的图表和磁贴，并将图表和磁贴固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards)。
 
-下表显示**招聘** Power BI 内容所基于的实体。
+下表显示充当**招聘** Power BI 内容基础的实体。
 
 | 实体               | 内容                                                         | 与其他实体之间的关系 |
 |----------------------|------------------------------------------------------------------|-----------------------------------|
@@ -66,4 +65,3 @@ ms.lasthandoff: 12/19/2017
 | 绩效          | 评级，描述和评级模型                            | 申请人、已雇用的申请人、已离职的申请人 |
 | 招聘项目  | 项目描述、项目状态和空缺                | 申请人、已雇用的申请人、已离职的申请人 |
 | 已离职的申请人 | 已离职的申请人、原因、表现和离职日期 | 公司、日历偏差、日期、地理位置、绩效、人口统计数据、雇用、媒体、招聘项目、申请人姓名 |
-

@@ -1,13 +1,13 @@
 ---
-title: "零售层次结构"
-description: "本文介绍 Microsoft Dynamics 365 for Retail 中的零售层次结构。"
+title: 零售层次结构
+description: 本文介绍 Microsoft Dynamics 365 for Retail 中的零售层次结构。
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager
 audience: Application User
 ms.reviewer: josaw
@@ -19,21 +19,20 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
+ms.openlocfilehash: 198c8da336f3e225c5d6da2eb02c86581dc9b4d6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e94b59540c9ef188a07e2e24ef4a04829b9d37f8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341894"
 ---
-
 # <a name="retail-hierarchies"></a>零售层次结构
 
 [!include [banner](includes/banner.md)]
 
 本文介绍 Microsoft Dynamics 365 for Retail 中的零售层次结构。
 
-您可以创建零售类别层次结构组织通过零售渠道销售的产品。 您可以使用零售产品层次结构来分类或组产品。 然后，可以使用这些产品来创建产品分类和客户会员计划。 您还可以分配产品特性和属性，分配定价结构，将产品包括在产品促销中，以及将产品用于报告。 您可以在您的组织中创建一个零售类别层次结构表示所有产品和类别，然后为多个目的使用该类别层次结构。 或者，您可以为特殊用途创建多个零售类别层次结构，例如产品促销。 在创建零售产品层次结构时，必须分配类别层次结构类型标识类别层次结构的用途。 例如，当您按在线类别或在销售点 (POS) 浏览产品时，只有分配了 **“零售导航层次结构”** 类型的产品层次结构会被引用。
+您可以创建零售类别层次结构组织通过零售渠道销售的产品。 您可以使用零售产品层次结构来分类或组产品。 然后，可以使用这些产品来创建产品分类和客户会员计划。 您还可以分配产品特性和属性，分配定价结构，将产品包括在产品促销中，以及将产品用于报告。 您可以在您的组织中创建一个零售类别层次结构表示所有产品和类别，然后为多个目的使用该类别层次结构。 或者，您可以为特殊用途创建多个零售类别层次结构，例如产品促销。 在创建零售产品层次结构时，必须分配类别层次结构类型标识类别层次结构的用途。 例如，当您按在线类别或在销售点 (POS) 浏览产品时，只有分配了**零售导航层次结构**类型的产品层次结构会被引用。
 
 ## <a name="retail-hierarchy-types"></a>零售层次结构类型
 
@@ -46,4 +45,3 @@ ms.lasthandoff: 11/03/2017
 | 零售导航层次结构   | 使用此层次结构类型可将产品分组并组织到类别，以便在线或在 POS 中浏览产品。 |
 
 可以通过使用零售类别层次结构构成产品，设置和维护产品属性和在类别级别的属性。 这些特性和属性包括产品维度和 POS 设置。 自动分配给类别的所有产品继承您定义的属性和属性。 您可以在所选类别的多个产品中同时复制所有产品的属性设置。
-

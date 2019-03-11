@@ -1,13 +1,13 @@
 ---
-title: "定义支出策略"
-description: "您可以通过在 Microsoft Dynamics 365 for Finance and Operations 中输入和提交费用报表和出差申请来定义工作人员必须遵守的支出策略。"
+title: 定义支出策略
+description: 您可以在 Microsoft Dynamics 365 for Finance and Operations 中定义您的工作人员在输入和提交支出报表和出差申请时必须遵守的支出政策。
 author: saraschi2
 manager: AnnBe
 ms.date: 02/23/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 3b2a28fe6acf03e52c292048a797ce997f58bcce
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342423"
 ---
-
 # <a name="expense-policies"></a>支出策略
 
 [!include [banner](../includes/banner.md)]
@@ -49,4 +48,3 @@ ms.lasthandoff: 03/26/2018
   和纽约市之间航线的飞机票的价格可能很贵。 您可以定义一个飞行支出规则，      
   将飞往纽约城的成本限制在最高 DKK 5000，并且可以指定此规则在 3 月 15 日      
   和 9 月 15 日之间具有效力。
-

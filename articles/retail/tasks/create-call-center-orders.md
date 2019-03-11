@@ -1,13 +1,13 @@
---- 
-title: "创建呼叫中心订单"
-description: "此程序会逐步演示如何查找客户，创建新订单，检索产品和收取客户的付款。"
+---
+title: 创建呼叫中心订单
+description: 此程序会逐步演示如何查找客户，创建新订单，检索产品和收取客户的付款。
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: MCRCustomerService, SalesTable, MCRSourceIdTargetLookup, MCRSalesQuickQuote, MCRSalesOrderRecap, MCRCustPaymDialog, MCRCustPaymLookup
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 4867ad67dc570ab42420ba12fc7dc2da6b5ba503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: b2e986df1e089ef2a394d0e9d9236d39f2726c77
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334304"
 ---
 # <a name="create-call-center-orders"></a>创建呼叫中心订单
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 02/07/2018
     * 对于此程序，输入与订单余额相等的金额，订单余额可在“销售订单摘要”页面的金额字段左侧看到。 这将允许您以全部付讫形式完成订单。  
 17. 单击“确定”。
 18. 单击“提交”。
-
 

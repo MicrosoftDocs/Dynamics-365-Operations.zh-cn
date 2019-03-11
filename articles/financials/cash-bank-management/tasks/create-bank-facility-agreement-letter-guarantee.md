@@ -1,13 +1,13 @@
---- 
-title: "创建保函的银行信贷协议"
-description: "此任务可以创建一个银行融资协议，以便处理保函。"
+---
+title: 创建保函的银行信贷协议
+description: 此任务可以创建一个银行融资协议，以便处理保函。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 04ee7b1483f3b8a7cda7fce5439586f0a2979e51
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7b6e35c922edeb3c3c7a33ff741a25e699242abf
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316088"
 ---
 # <a name="create-a-bank-facility-agreement-for-the-letter-of-guarantee"></a>创建保函的银行信贷协议
 
@@ -56,5 +56,4 @@ ms.lasthandoff: 09/29/2017
 4. 单击“扩展”。
 5. 单击“保存”。
 6. 关闭该页面。
-
 

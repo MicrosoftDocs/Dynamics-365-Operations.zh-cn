@@ -1,38 +1,37 @@
 ---
-title: "Dynamics 365 for Talent Core HR（2018 年 8 月）中的新增功能或更改的功能"
-description: "此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新功能和更改的功能。"
+title: Dynamics 365 for Talent Core HR（2018 年 8 月）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 08/27/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: Talent August 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: d20bc3519096f1035d26f89d42aa7e8f0fc368cd
 ms.openlocfilehash: cdf0893835c1ee9edd89c43b3c5c842d89e6d526
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/29/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303467"
 ---
-
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Dynamics 365 for Talent Core HR（2018 年 8 月）中的新增功能或更改的功能
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-august-2018"></a>Dynamics 365 for Talent Core HR（2018 年 8 月）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
 **内部版本 8.1.104**
 
-此主题介绍了 Dynamics 365 for Talent Core HR 中的新功能和更改的功能。
+此主题介绍了 Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 
 ## <a name="view-expiring-records-in-manager-self-service"></a>在经理自助服务中查看即将过期的记录
 
@@ -88,4 +87,3 @@ ms.lasthandoff: 08/29/2018
 ## <a name="other-fixes"></a>其他修复
 
 此发行版中还包含一些缺陷修复，增加了新实体，修复了现有实体，并本地化了标签更改。
-

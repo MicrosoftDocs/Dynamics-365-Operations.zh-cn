@@ -1,13 +1,13 @@
 ---
-title: "监控预测准确性"
-description: "本文介绍 Microsoft Dynamics 365 for Finance and Operations 计算的预测准确性的类型，并说明如何可以查看准确性值。"
+title: 监控预测准确性
+description: 本文介绍 Microsoft Dynamics 365 for Finance and Operations 计算的预测准确性的类型，并说明如何可以查看准确性值。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqDemPlanForecastDetails
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d7070c15f9ee23cfdba871af68d1fc5954735651
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 1f54251b6f6937c59293bd44a0fc27272ffd3d55
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356407"
 ---
-
 # <a name="monitor-forecast-accuracy"></a>监控预测准确性
 
 [!include [banner](../includes/banner.md)]
@@ -47,7 +46,6 @@ Finance and Operations 计算以下类型的预测准确性：
 [授权调整后的需求预测](authorize-adjusted-forecast.md)
 
 [在计算需求预测时，需从历史交易记录数据中删除离群值](remove-historical-outliers-calculating-demand-forecast.md)
-
 
 
 

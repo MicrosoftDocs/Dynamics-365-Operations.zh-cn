@@ -1,13 +1,13 @@
 ---
-title: "为 Retail Modern POS (MPOS) 设置和管理图像"
-description: "本文说明设置和管理显示在 Retail Modern POS (MPOS) 中的各个实体的图像所涉及的步骤。"
+title: 设置和管理 Retail Modern POS (MPOS) 的图像
+description: 本文说明设置和管理显示在 Retail Modern POS (MPOS) 中的各个实体的图像所涉及的步骤。
 author: athinesh99
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailChannelProfile, RetailMediaGallery, RetailImages,
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d2f4cc99ec239c4c35c44a226235d01e18d4185f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356729"
 ---
-
-# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>为 Retail Modern POS (MPOS) 设置和管理图像
+# <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>设置和管理 Retail Modern POS (MPOS) 的图像
 
 [!include [banner](includes/banner.md)]
 
@@ -214,4 +213,3 @@ MPOS 可以在联机模式下运行（当 MPOS 连接到零售服务器时），
 5. 对于其他实体（例如类别、员工和客户），请按照类似流程操作。
 
     [![offline2](./media/offline2.png)](./media/offline2.png)
-

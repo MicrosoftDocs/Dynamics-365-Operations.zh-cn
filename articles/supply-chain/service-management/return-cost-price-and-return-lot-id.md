@@ -1,31 +1,30 @@
 ---
-title: "退货成本价和退货批次 ID"
-description: "您可能希望在您将产品销售给客户时，退回的产品的成本等于产品的成本。 可通过使用**退货批次 ID** 执行此操作。"
+title: 退货成本价和退货批次 ID
+description: 您可能希望在您将产品销售给客户时，退回的产品的成本等于产品的成本。 可通过使用**退货批次 ID** 执行此操作。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 04/30/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReturnTableListPage
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33cd3d50fe342ba12a17419f4e759c243a60b3e0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: aeba56128ab6c9ab7d244bdf153faba8e96069d6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335132"
 ---
-
 # <a name="return-cost-price-and-return-lot-id"></a>退货成本价和退货批次 ID        
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,7 @@ ms.lasthandoff: 05/08/2018
 
 3.  在**创建退货单**窗体中，选择一个客户帐户，然后单击**确定**。
 
-4.  在**退货单 - 物料退回授权号: %1、%2**窗体中，选择某一物料，然后在**数量**字段中输入负数量。
+4.  在**退货单 - 物料退回授权号: %1、%2** 窗体中，选择某一物料，然后在**数量**字段中输入负数量。
 
 5.  单击**行明细**快速选项卡。
 
@@ -64,7 +63,7 @@ ms.lasthandoff: 05/08/2018
 
 3.  在**创建退货单**窗体中，选择一个客户帐户，然后单击**确定**。
 
-4.  在**退货单 - 物料退回授权号: %1、%2*** 窗体中的**操作窗格**上，单击**查找销售订单**。
+4.  在**退货单 - 物料退回授权号: %1、%2** 窗体中的**操作窗格**上，单击**查找销售订单**。
 
 5.  在**查找销售订单**窗体中，选择要返回的发票行，然后单击**确定**。
     
@@ -109,7 +108,6 @@ ms.lasthandoff: 05/08/2018
 10. 在库存和仓库管理中，使用**结转与调整**窗体运行 **3. 结转**过程。
     
     此操作将成本为 -35.00（5 件 \* 7.00）的原始销售订单行上的成本调整为 -30.00（5 件 \* 6.00）。 原因在于，库存模型组使用先进先出 (FIFO)，并且，每件 6.00 是来自第一采购订单的成本。 此外，该操作调整退货销售行上的成本，以匹配原始销售行上每件的成本。 因此，退货行的成本从 35.00 调整为 30.00。
-
 
 
 

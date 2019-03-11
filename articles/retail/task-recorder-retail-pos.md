@@ -1,13 +1,13 @@
 ---
-title: "Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助"
-description: "此主题介绍如何在 Retail Modern POS 和 Cloud POS 中使用任务录制器。"
+title: Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助
+description: 此主题介绍如何在 Retail Modern POS 和 Cloud POS 中使用任务录制器。
 author: mugunthanm
 manager: AnnBe
 ms.date: 06/19/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, SystemParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: mumani
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: a74a1275f08e3dba60a1002a102e143eb37fcd9a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "345988"
 ---
-
 # <a name="task-recorder-and-help-for-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) 和 Cloud POS 的任务录制器和帮助
 
 [!include [banner](includes/banner.md)]
@@ -35,7 +34,7 @@ ms.lasthandoff: 01/04/2019
 
 ## <a name="overview"></a>概览
 
-Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，注重高响应性。 它提供灵活的应用程序编程接口 (API) 以实现可扩展性，并提供与业务流程录制的使用者的无缝集成。 此外，还提供了任务录制器与Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) 上的业务流程建模器 (BPM) 工具的集成。 因此，用户能够继续从录制生成丰富的业务流程图来分析和设计自己的应用程序。
+Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，注重高响应性。 它提供灵活的应用程序编程接口 (API) 以实现可扩展性，并提供与业务流程录制的使用者的无缝集成。 此外，还提供了任务录制器与 Microsoft Dynamics Lifecycle Services ([https://bpm.lcs.dynamics.com](https://bpm.lcs.dynamics.com/)) 上的业务流程建模器 (BPM) 工具的集成。 因此，用户能够继续从录制生成丰富的业务流程图来分析和设计自己的应用程序。
 
 ## <a name="architecture"></a>体系结构
 
@@ -147,4 +146,3 @@ Retail Modern POS 或 Cloud POS 中的任务录制器是一个新解决方案，
 
 > [!NOTE]
 > Retail Modern POS 和 Cloud POS 中的帮助不会根据您所处的窗体或正在执行的操作提供任务指南。 您必须输入在搜索框中键入流程名称，然后单击**搜索**。
-

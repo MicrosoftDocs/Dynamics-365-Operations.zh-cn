@@ -1,13 +1,13 @@
 ---
-title: "使用工作模板和库位指令控制仓库的工作"
-description: "本主题介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里执行工作。"
+title: 使用工作模板和库位指令控制仓库的工作
+description: 本主题介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里执行工作。
 author: perlynne
 manager: AnnBe
 ms.date: 09/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLocDirFailure, WHSLocDirHint, WHSLocDirTable, WHSLocDirTableUOM, WHSRFMenuItem, WHSWork, WHSWorkClass, WHSWorkPool, WHSWorkTemplateTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: c4428613441424c81f4fd7dd92bbf842c62ce860
 ms.openlocfilehash: 74e7c36fb912f35252d6e40d17477ac2962cbc23
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325403"
 ---
-
 # <a name="control-warehouse-work-by-using-work-templates-and-location-directives"></a>使用工作模板和库位指令控制仓库的工作
 
 [!include [banner](../includes/banner.md)]
@@ -163,4 +162,3 @@ ms.lasthandoff: 09/22/2018
 对于本示例，请注意采购订单流程，在此流程中库位指令必须为已在收货台登记的库存物料在仓库内查找可用容量。 首先，需要通过与现有库存量合并来在仓库内查找可用容量。 如果合并是不可能的，然后需要查找空库位。 
 
 对于此情况，必须定义两个库位指令操作。 序列中的第一个操作必须使用**合并**策略，第二个应使用**没有传入工作的空库位**策略。 除非定义第三个操作来处理溢出情况，否则在仓库中没有更多容量时，有两个可能的结果：即使未定义库位也可以创建工作，或者创建工作流程可能失败。 结果将由**库位指令失败**页上的设置确定，在此页面您可以决定是否为每个工作订单类型选择**在库位指令失败时停止工作**选项。
-

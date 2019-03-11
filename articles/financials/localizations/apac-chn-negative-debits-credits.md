@@ -1,13 +1,13 @@
 ---
-title: "显示中国会计科目的借方和贷方金额"
-description: "本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。"
+title: 显示中国会计科目的借方和贷方金额
+description: 本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 03/21/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 932a6c8e1cadb65138baf63a0c9fd443207f8f48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 554c350961baed8be8f37854dd1b095d4342ae0e
-ms.openlocfilehash: 50a24bdd03c49c790ec6555ec0a58f9f3ec60f1e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/21/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371895"
 ---
-
 # <a name="display-debit-and-credit-amounts-in-ledger-accounts-for-china"></a>显示中国会计科目的借方和贷方金额
 
 [!include [banner](../includes/banner.md)]
@@ -36,5 +35,4 @@ ms.lasthandoff: 03/21/2018
 
 1.  单击**总帐** &gt; **分类帐设置** &gt; **总帐参数**。
 2.  将**在借方/贷方列中显示金额**滑块设置为**是**。
-3.  打开**总帐** &gt; **查询和报表** &gt; **凭证交易记录** 进行确认。
-
+3.  打开**总帐** &gt; **查询和报表** &gt; **凭证交易记录**进行确认。

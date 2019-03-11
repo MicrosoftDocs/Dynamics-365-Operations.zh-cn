@@ -1,13 +1,13 @@
---- 
-title: "创建采购订单"
-description: "此过程说明如何手动创建采购订单。"
+---
+title: 创建采购订单
+description: 此过程说明如何手动创建采购订单。
 author: FrankDahl
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchCreateOrder, InventDimParmFixed, InventItemIdLookupPurchase, InventProductDimensionLookup, PurchTotals
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: fdahl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 50bf9927626a2a78a5f007b0b73d338585bbf9ab
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 27ed15e6d9a376c4203e5446d056f221bd3eb730
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330900"
 ---
 # <a name="create-a-purchase-order"></a>创建采购订单
 
@@ -75,5 +75,4 @@ ms.lasthandoff: 09/29/2017
     * 此对话框显示整个订单的总计。  
     * “选择”字段允许您更改如何计算总计的基础。 例如，您可以选择“产品收货数量”来显示与已接收的产品金额相关的总计，或者选择“订购数量”来显示已订购的产品金额。  
 2. 单击“确定”。
-
 

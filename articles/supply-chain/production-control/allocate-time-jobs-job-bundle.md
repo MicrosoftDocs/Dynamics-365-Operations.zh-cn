@@ -1,13 +1,13 @@
 ---
-title: "分配时间到作业捆绑中的作业"
-description: "在“制造执行”中，您可以捆绑作业。 然后您可以在工作列表页同时开始多个作业。"
+title: 分配时间到作业捆绑中的作业
+description: 在“制造执行”中，您可以捆绑作业。 然后您可以在工作列表页同时开始多个作业。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgBundleSlize, JmgProdParameters, JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 33d6bab9beb28d18e2094d7fb5e670e9425aac39
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a5204288ce3eaabb605f136ea788d235f408f349
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329106"
 ---
-
 # <a name="allocate-time-to-jobs-in-a-job-bundle"></a>分配时间到作业捆绑中的作业
 
 [!include [banner](../includes/banner.md)]
@@ -109,7 +108,6 @@ ms.lasthandoff: 11/03/2017
 | 作业 3 | (3.33 ÷ 5) × USD 12.00                 | 8.00 美元                | 5 小时        | 40.00 美元         |
 
 更正后的每小时成本和作业时间都在生产日志中过帐。 **注意：** 如果您在**生产订单默认值**页的**常规**选项卡上选择**成本类别**选项，每个作业的实际时间转移到生产日记帐，在其中成本应用于特定作业的成本类别。
-
 
 
 

@@ -1,13 +1,13 @@
 ---
-title: "应付账款和应收账款的外币重估"
-description: "汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本文提供有关您运行的以更新应收账款和应付账款的未结交易记录的值的外币重估流程的信息。"
+title: 应付账款和应收账款的外币重估
+description: 汇率波动导致采用外币的未结交易记录的理论价值（帐面价值）在不同时间发生变化。 本文提供有关您运行的以更新应收账款和应付账款的未结交易记录的值的外币重估流程的信息。
 author: kweekley
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustExchRateAdjustment, VendExchRateAdjustment
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: da1aee4c678cb4786d52abc81b787edceaa5aa38
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 259b487b0f11b19af9609d63f12114dcaa61be52
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341319"
 ---
-
 # <a name="foreign-currency-revaluation-for-accounts-payable-and-accounts-receivable"></a>应付账款和应收账款的外币重估
 
 [!include [banner](../includes/banner.md)]
@@ -63,7 +62,6 @@ ms.lasthandoff: 11/03/2017
     -   **无** – 不过帐财务维度。 如果您的科目结构中具有所需财务维度，重估流程仍然运行并创建没有财务维度的会计条目。 您首先将收到警告消息，以便您可以取消重估。
     -   **表** – 在外币重估交易记录上过帐的客户帐户或供应商帐户的财务维度。
     -   **过帐** – 在外币重估交易记录上过帐正在重估的交易记录的财务维度。 默认情况下，原始交易记录的 AR/AP 会计科目的财务维度将用于重估交易记录的 AR/AP 主科目，原始交易记录的费用/资产/收入会计科目的财务维度将用于重估交易记录的或有损益主科目。
-
 
 
 

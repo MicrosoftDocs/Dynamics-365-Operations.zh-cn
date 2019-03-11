@@ -1,13 +1,13 @@
---- 
-title: "配置销售代表的功能模板"
-description: "此过程演示如何配置应用于销售代表的商店功能配置文件设置。"
+---
+title: 配置销售代表的功能模板
+description: 此过程演示如何配置应用于销售代表的商店功能配置文件设置。
 author: jblucher
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailFunctionalityProfile
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 650c97c5feecb674f18086e2da1e5fee0ffad254
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 2652a75f9c4509addd5804d4798f1bc142106c60
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312569"
 ---
 # <a name="configure-the-functionality-profile-for-a-sales-representative"></a>配置销售代表的功能模板
 
@@ -36,5 +36,4 @@ ms.lasthandoff: 02/07/2018
     * 可使用功能配置文件设置配置 POS，以便自动添加收银机的默认销售组，提示指定销售组，以及需要销售组。  
 4. 在“销售代表的提示”字段中，选择一个选项。
 5. 在“需要销售代表”字段中选择“是”。
-
 

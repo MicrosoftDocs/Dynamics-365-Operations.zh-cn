@@ -1,13 +1,13 @@
 ---
-title: "合并库存批次"
-description: "本文提供有关如何将两个或多个库存批次整合到单个合并批次的信息。"
+title: 合并库存批次
+description: 本文提供有关如何将两个或多个库存批次整合到单个合并批次的信息。
 author: pjacobse
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBatchJournalListPage, InventBatchJournalMerge
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 00ec888600dedbc740be0efc64cddf37c5c6f558
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: f118ef38e88171ad1eac463078acf37ba4390e57
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319814"
 ---
-
 # <a name="merge-inventory-batches"></a>合并库存批次
 
 [!include [banner](../includes/banner.md)]
@@ -141,4 +140,3 @@ ms.lasthandoff: 04/13/2018
 
 ## <a name="after-i-merged-a-catchweight-item-why-cant-i-see-the-catchweight-information-in-the-inventory-journal"></a>合并非定重物料后，我为什么看不到库存日记帐上的定重信息？
 您可以像所有其他物料那样合并定重物料批次。 但是，库存日记帐上未显示定重信息。 我们建议您先验证定重信息，然后再将批次合并转移到库存日记帐。
-

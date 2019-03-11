@@ -1,13 +1,13 @@
 ---
-title: "Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容"
-description: "本文介绍了 Microsoft Dynamics AX 7.0 中的新功能和更改的功能。 此版本包含平台和应用程序功能，于 2016 年 2 月发布。"
+title: Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
+description: 本文介绍了 Microsoft Dynamics AX 7.0 中的新功能和更改的功能。 此版本包含平台和应用程序功能，于 2016 年 2 月发布。
 author: sericks007
 manager: AnnBe
 ms.date: 10/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "334879"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,7 @@ ms.lasthandoff: 12/18/2018
 | 您能怎么做？ | Dynamics AX 2012 | Dynamics AX 7.0 | 为什么如此重要 |
 |------------------|------------------|-----------------|------------------------|
 | 在云中创建可从许多设备访问的基于 Web 的解决方案。 | 不可用 | Dynamics AX 的当前版本是以新的基于 Web 的客户端和客户端框架为基础的。 | 您可以为您的最终用户提供代下一解决方案。 |
-| 使用 Microsoft Visual Studio 开发您自己的解决方法。 | Microsoft MorphX 是主要开发环境，但某些开发在 Visual Studio 中进行。 | Visual Studio 是唯一的开发环境。 | 它保留熟悉的 Dynamics AX 2012 概念，使它们无缝满足 Visual Studio 框架和范例。 它启用与其他 .NET 语言和项目的标准互操作性。 |
+| 使用 Microsoft Visual Studio 开发解决方法。 | Microsoft MorphX 是主要开发环境，但某些开发在 Visual Studio 中进行。 | Visual Studio 是纯开发环境。 | 它保留熟悉的 Dynamics AX 2012 概念，使它们无缝满足 Visual Studio 框架和范例。 它启用与其他 .NET 语言和项目的标准互操作性。 |
 | 为所有功能编译公共中间语言 (CIL)。 | X++ 编译成 p 代码。 | 全新的 X++ 编译器为所有功能生成 CIL。 CIL 与其他基于 .NET 的语言所使用的中间语言相同。 | CIL 更快，可以高效地引用托管动态链接库 (DLL) 中的类，并且可以在 .NET 实用程序的大型工具库上运行。 |
 | 在 Microsoft Dynamics AX 客户端嵌入商业智能 (BI) 报表和可视化。 | 不可用 | 创建高度直观且可变的可视化。 | 它提供基于 BI 的决策见解。 |
 | 与 Microsoft Office 集成。 | 不可用 | 新增功能包括 Excel Data Connector 应用程序、**工作簿设计器**页、“导出 API”和文档管理。 | 您可以为您的最终用户创建工作效率解决方案。 |
@@ -124,7 +123,7 @@ ms.lasthandoff: 12/18/2018
 | 通过覆盖和扩展进行自定义。 | 扩展不可用。 | Dynamics AX 的当前版本具有一个新的自定义模型。 | 您可以自定义由 Microsoft 或第三方 Microsoft 合作伙伴交付的模型元素的源代码和元数据。 |
 | 通过使用 X++ 和一个现代 Web 框架，生成新控件和 UI 元素。 | 自定义控件依赖于外部框架，例如 Microsoft ActiveX 和 Windows Presentation Foundation (WPF)。 | 在当前版本中生成控件更容易。 X++ 框架可用于应用程序行为和业务逻辑，基于 HTML/JavaScript 的客户端允许现代化的可视化。 | 您的控件可以设计为外观和行为类似于 Dynamics AX 现成 (OOB) 控件。 |
 | 通过使用新工具，评估和优化性能。 | PerfSDK、数据扩展工具包、跟踪分析器 Web 应用程序和 PerfTimer 不可用。 | PerfSDK、数据扩展工具包、跟踪分析器 Web 应用程序和 PerfTimer 是新的。 | 软件开发配套件 (SDK) 能让您在单用户以及多用户（如果适用）中测试和验证所有关键业务流程的性能。 数据扩展工具包能让您正确展开必须让主数据和交易记录数据正确展开的所有性能测试。 跟踪分析器能让您验证单用户性能测试或多用户运行。 PerfTimer 能让您查看任何查询或任何特定方法调用是否导致性能问题。 因此，您无需执行跟踪和详细分析所有内容。 |
-| 通过使用 OData 公开可更新的视图。 | 不可用 | Dynamics AX 的当前版本引入公共 OData 服务终结点，它允许在多种类型的客户端上以一致的方式访问 Dynamics AX 数据。 | 通过使用 HTTP 堆栈协议，您的解决方法可以与 RESTful 服务交互，以可发现的方式共享数据，启用广泛的集成。 |
+| 通过使用 OData 公开可更新的视图。 | 不可用 | Dynamics AX 的当前版本引入公共 OData 服务终结点，它允许在多种类型的客户端上以一致的方式访问 Dynamics AX 数据。 | 通过使用 HTTP 堆栈协议，您的解决方案可以与 RESTful 服务交互，以可发现方式共享数据，并可启用广泛的集成。 |
 | 利用 Business Connector 编写业务逻辑和支持集成方案。 | 可使用 Business Connector 从受管代码调用 X++ 代码。 我们建议您仅将 Business Connector 用于编写 C\# 的业务逻辑，不用于集成方案。 | 不再支持 Business Connector。 只有 X++ 已编译成托管代码才会提供编写要求。 因此，互操作更容易。 通过使用 OData，满足集成方案。 | 今后您不能使用 Business Connector。 |
 | 在实际数据库字段和扩展数据类型 (EDT) 上选择标度（即小数位数）。 | 标度 16 是默认标度，不能被开发人员更改。 | EDT 和字段现在由一个标度属性，可应用于单个字段和 EDT。 默认值设置为 6，而不是 16。 | 在使用较小标度时，NCCI 表（SQL 中的内存中支持）的性能提高好几个数量级。 根据各个字段的使用需求，更改标度。 |
 
@@ -209,7 +208,7 @@ ms.lasthandoff: 12/18/2018
 <tr>
 <td>在 Microsoft Dynamics AX 客户端中查看财务报表 (Management Reporter)。</td>
 <td>单独的 Web 客户端用于查看 Management Reporter 报表。</td>
-<td>所有财务报表均可以在 Dynamics AX 客户端访问到。 用户选择要查看的报表，报表显示在客户端中。</td>
+<td>所有财务报表均可以在 Dynamics AX 客户端访问到。 用户选择要查看的报表，报表将在客户端中显示。</td>
 <td>您现在可以查看财务报表，而不必访问不同的客户端/应用程序。</td>
 </tr>
 <tr>
@@ -232,14 +231,14 @@ ms.lasthandoff: 12/18/2018
 <tr>
 <td>使用<strong>分类帐预算和预测</strong>工作区和附加的查询窗体，监控预算值与实际值，创建分类帐预测。</td>
 <td>不可用</td>
-<td> 该工作区可以通过 Dynamics AX 仪表板访问到。 包含指向若干新查询页的链接：<strong>实际和预算汇总</strong>、<strong>预算控制统计汇总</strong>、<strong>预算登记簿条目</strong>和<strong>预算计划</strong>。</td>
+<td> 该工作区可以通过 Dynamics AX 仪表板访问。 包含指向若干新查询页的链接：<strong>实际和预算汇总</strong>、<strong>预算控制统计汇总</strong>、<strong>预算登记簿条目</strong>和<strong>预算计划</strong>。</td>
 <td>新的查询页便于您输入预算信息。 该工作区将所有预算维护和监控任务组合到一个地方，便于预算经理或会计经理使用。</td>
 </tr>
 <tr>
 <td>为预算计划和预测创建布局。</td>
 <td><strong>预算计划</strong>文档显示为一个行列表，其中各行具有财务维度组合的生效日期和金额。 用户必须创建和使用 Excel 模板查看数据透视表中的预算计划数据。</td>
 <td>无限数量的布局可用于预算计划和预测。 您可以将所选的财务维度、用户定义的列和其他行属性（例如注释、项目和资产）组合到布局中。 用户可以通过使用任何所选的格式，在运行中切换预算计划文档的布局和编辑数据。 通过清除方案约束和使用布局定义在预算计划文档的每个阶段可以查看和编辑哪些数据，可简化预算计划的配置。</td>
-<td>它能让您通过使用 Excel 和 Dynamics AX 客户端，灵活地创建和编辑预算计划。 通过使用预算计划布局设置，可生成 Excel 工作簿的模板。</td>
+<td>它能让您通过使用 Excel 和 Dynamics AX 客户端，灵活地创建和编辑预算计划。 通过使用预算计划布局设置可以生成 Excel 工作簿模板。</td>
 </tr>
 <tr>
 <td>通过使用<strong>未结明细表</strong>报表（其中包括逾期天数）中的信息，打印<strong>供应商发票交易记录</strong>报表。</td>
@@ -550,7 +549,7 @@ ms.lasthandoff: 12/18/2018
 | 如果销售订单或生产订单没有做好按计划日期交货的准备，则将警告用户。 | 由主计划创建的警告叫做*预期消息*。 *预期*是两个当事方之间的合同，用于按照今天议定的价格（*预期价格*）采购或销售资产，但交货和付款在未来的时间点（*交货日期*）发生。 | *预期消息*和*将来日期*各自重命名了*计算的延迟*和*延期的日期*。 | AX 2012 中使用的术语不准确，导致不正确的翻译。 |
 | 用户可以快速了解主计划运行的状态、紧急计划订单和导致延迟的计划订单。 | 该信息可用，但分散在多个窗体中。 | **主计划**工作区提供有关上次主计划运行何时完成、是否发生任何错误、紧急计划订单是什么、以及哪个计划订单导致延迟的概览信息。 | 您可从工作区提供的概览中获益。 相关信息组合起来，可引导主计划和帮助提高生产率。 |
 | 使用 Excel 更新需求预测。 | 不可用 | 当您输入需求预测、进行更新和删除需求预测时，可以利用与 Excel 的无缝集成。 | 它有助于提高效率和生产率。 |
-| 根据历史交易记录数据来估计未来需求并创建需求预测。 | 在 Microsoft Dynamics AX 2012 R3 中，Microsoft SQL Server 分析服务中的预测模型用于创建需求预测。 | 通过使用 Microsoft Azure 机器学习云服务的功能和可扩展性来估计未来需求。 它易于使用和扩展机器学习中的预测模型以满足客户要求。 该服务执行最符合模型选择，并提供可用于计算预测的准确性 (KPI) 的关键绩效指标 (KPI)。 | 通过使用机器学习技术，生成更准确的预测。 |
+| 根据历史交易记录数据来估计未来需求并创建需求预测。 | 在 Microsoft Dynamics AX 2012 R3 中，Microsoft SQL Server 分析服务中的预测模型用于创建需求预测。 | 利用 Microsoft Azure 机器学习云服务的功能和可扩展性来估计未来需求。 它易于使用和扩展机器学习中的预测模型以满足客户要求。 该服务执行最符合模型选择，并提供可用于计算预测的准确性 (KPI) 的关键绩效指标 (KPI)。 | 通过使用机器学习技术，生成更准确的预测。 |
 | 基于主计划运行中的相关操作的可视概览，优化订单日期和数量。 | 操作图表概览可用，但会显示所有相关操作。 当应用操作时，操作将立即从视图中消失。 | 操作图表提供更好的概览。 它包含可用于仅显示已应用操作和直接相关操作的选项。 当应用操作时，操作将灰显，但仍显示。 因此，概览仍保留。 附加信息添加到操作图表，以在一页上显示数据。 | 您会生产力增强中获益，因为您只侧重于相关操作。 |
 
 ## <a name="procurement-and-sourcing"></a>采购
@@ -571,7 +570,7 @@ ms.lasthandoff: 12/18/2018
 
 ### <a name="retail-hq"></a>Retail HQ
 
-Microsoft Azure 承载的 Retail HQ 能让您通过 Web 客户端集中管理和完全查看商务操作的所有方面。
+Microsoft Azure 承载的 Retail HQ 能让您通过 Web 客户端集中管理和全面了解商务运营的各个方面。
 
 <table>
 <thead>
@@ -655,7 +654,7 @@ Microsoft Azure 承载的 Retail HQ 能让您通过 Web 客户端集中管理和
 <tr>
 <td>管理零售 IT 运营。 </td>
 <td>用户必须访问多个窗体。</td>
-<td><strong>零售 IT</strong>工作区针对给定渠道在单个位置启用 Commerce Data Exchange 查询，因此，您可以执行以下任务：
+<td><strong>零售 IT</strong> 工作区针对给定渠道在单个位置启用 Commerce Data Exchange 查询，因此，您可以执行以下任务：
 <ul>
 <li>下载会话。</li>
 <li>上载会话。</li>
@@ -679,7 +678,7 @@ Microsoft Azure 承载的 Retail HQ 能让您通过 Web 客户端集中管理和
 <tr>
 <td>通过使用“监控 Retail Channel performance”Power BI 内容来分析零售渠道销售数据。</td>
 <td>不可用</td>
-<td>在 PowerBI.com 上，选择<strong>获取数据</strong>，然后选择<strong>Dynamics AX – 零售渠道绩效</strong>内容包。 输入您的 Dynamics AX 终结点的 URL 以查看反映在仪表板中的数据。</td>
+<td>在 PowerBI.com 上，选择<strong>获取数据</strong>，然后选择 <strong>Dynamics AX – 零售渠道绩效</strong>内容包。 输入您的 Dynamics AX 终结点的 URL 以查看反映在仪表板中的数据。</td>
 <td>通过三到四次单击，组织可以部署一个包含重要财务数据的 Power BI 仪表板。 内容可由组织个性化。 此外，用户可以将 Power BI 仪表板磁贴嵌入到其在 Dynamics AX 中的个性化工作区，因此，用户随后可以快速查看分析信息。</td>
 </tr>
 <tr>
@@ -735,7 +734,7 @@ Retail Server 和数据管理允许客户和企业跨在线、商店内和呼叫
 </tr>
 <tr>
 <td>通过使用 Commerce Data Exchange，在 Microsoft Dynamics AX 后端办公室和渠道之间移动数据。</td>
-<td>Commerce Data Exchange 是一种在 Microsoft Dynamics AX 和零售渠道（例如，在线商店或实体商店）之间传送数据的系统。 有关详细信息，请参阅 <a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>。</td>
+<td>Commerce Data Exchange 是一种在 Microsoft Dynamics AX 和零售渠道（例如，在线商店或实体商店）之间传送数据的系统。 有关详细信息，请参阅<a href="https://technet.microsoft.com/library/dn741440.aspx">Commerce Data Exchange [AX 2012]</a>。</td>
 <td>与 Microsoft Dynamics AX 2012 CU8 之间有功能对等性。 不过，请注意以下详细信息：
 <ul>
 <li>Commerce Data Exchange 针对云重新进行了设计。</li>
@@ -758,7 +757,7 @@ Retail Server 和数据管理允许客户和企业跨在线、商店内和呼叫
 <td>它允许客户处理付款的信用卡/借记卡交易记录。</td>
 </tr>
 <tr>
-<td>通过使用 Microsoft account (Microsoft Azure Active Directory (Azure AD)) 启用设备。</td>
+<td>通过使用 Microsoft 帐户 (Microsoft Azure Active Directory (Azure AD)) 启用设备。</td>
 <td>不可用</td>
 <td>提供以下功能：
 <ul>
@@ -770,7 +769,7 @@ Retail Server 和数据管理允许客户和企业跨在线、商店内和呼叫
 </ul></td>
 <td>它提供了以下优点：
 <ul>
-<li>通过 Azure AD 和设备令牌/ID（使用令牌的 RS 调用，用户特定的应用程序存储）增强了安全性</li>
+<li>通过 Azure AD 和设备令牌/ID（使用令牌的 RS 调用，用户特定的应用程序存储）增强了安全性。</li>
 <li>该停止对 MPOS（传统设备）的未授权远程使用。</li>
 <li>它出于 PCI 符合性目的跟踪 MPOS 设备。</li>
 <li>它使用设备令牌映射具有企业实体的物理设备。</li>
@@ -972,7 +971,7 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 </tr>
 <tr>
 <td>监控系统的运行状况，并且诊断错误和问题。</td>
-<td>此功能需要<a href="http://www.microsoft.com/download/details.aspx?id=42636">适用于 Microsoft Dynamics AX 2012 R3 CU8 Retail 的 System Center 2012 管理包</a>。</td>
+<td>此功能需要适用于 <a href="http://www.microsoft.com/download/details.aspx?id=42636">Microsoft Dynamics AX 2012 R3 CU8 Retail 的 System Center 2012 管理包</a>。</td>
 <td>现在可以通过 LCS 中的<strong>运营见解</strong>仪表板来监控和诊断 Retail 组件。</td>
 <td><strong>运营见解</strong>仪表板是一个基于云的监控门户，有了它便不再需要安装 System Center Operations Manager (SCOM) 基础结构。</td>
 </tr>
@@ -1034,4 +1033,3 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 [新增功能或更改的功能](whats-new-changed.md)
 
 [新任务指南可用（2016 年 2 月）](new-task-guides-available-february-2016.md)
-

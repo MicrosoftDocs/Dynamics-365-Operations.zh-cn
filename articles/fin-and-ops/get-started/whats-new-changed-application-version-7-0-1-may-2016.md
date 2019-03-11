@@ -1,13 +1,13 @@
 ---
-title: "Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容"
-description: "本文介绍了 Microsoft Dynamics AX 应用程序版本 7.0.1 中的新功能和更改的功能。 本版于 2016 年 5 月发布，版本号为 7.0.1265.23014。"
+title: Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
+description: 本文介绍了 Microsoft Dynamics AX 应用程序版本 7.0.1 中的新功能和更改的功能。 本版于 2016 年 5 月发布，版本号为 7.0.1265.23014。
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: c830952b5d9e4887a816b5ab66d0944bddf5b505
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314501"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-ax-application-version-701-may-2016"></a>Dynamics AX 应用程序版本 7.0.1（2016 年 5 月）的新增功能和更改内容
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,7 @@ ms.lasthandoff: 12/18/2018
 | 您能怎么做？ | 为什么如此重要 |
 |------------------|------------------------|
 | 重新构建财务报告数据市场。 | 当在环境之间移动 Dynamics AX 数据库或对该环境进行其他入侵性更改时，可能必须重建财务报告数据库。 现提供 Windows PowerShell 脚本为您重建数据库。 |
-| 您可以不再选择无效的报表设计器选项。 | 管理报表器的市场内版本中使用的几个报表设计器选项不适用于此版本的 Dynamics AX。 这些选项与财务报表设计、输出和链接相关。 这些选项已被从财务报表设计器从删除来防止用户错误。 |
+| 您可以不再选择无效的报表设计器选项。 | Management reporter 的市场内版本中使用的几个报表设计器选项不适用于此版本的 Dynamics AX。 这些选项与财务报表设计、输出和链接相关。 这些选项已被从财务报表设计器从删除来防止用户错误。 |
 
 ## <a name="financial-management"></a>财务管理
 
@@ -107,4 +106,3 @@ ms.lasthandoff: 12/18/2018
 [新增功能或更改的功能](whats-new-changed.md)
 
 [新的或更新任务指南（2016 年 5 月）](new-updated-task-guides-available-may-2016.md)
-

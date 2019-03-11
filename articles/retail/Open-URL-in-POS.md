@@ -1,36 +1,35 @@
 ---
-title: "在 POS 中打开 URL"
-description: "此主题概述 Microsoft Dynamics 365 for Retail 中的产品和客户搜索的增强功能。"
+title: 在 POS 中打开 URL
+description: 此主题概述 Microsoft Dynamics 365 for Retail 中的产品和客户搜索的增强功能。
 author: AamirAllaq
 manager: AnnBe
-ms.date: 11/14/2018
+ms.date: 01/28/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application user
 ms.reviewer: sericks
 ms.search.scope: Core, Operations, Retail
 ms.custom: 141393
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2018-10-30
 ms.dyn365.ops.version: 8.1.1
+ms.openlocfilehash: b07406b4e218b45bdde87c4a579814fe0edbc286
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: d2b692ac86244eca31780a558112167391fc6d77
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327082"
 ---
-
 # <a name="open-url-in-pos"></a>在 POS 中打开 URL
 
 [!include [banner](includes/banner.md)]
 
-本主题介绍如何在 Retail 销售点 (POS) 中配置打开 URL 的按钮。 此功能不需要代码自定义，可以由非开发人员角色的人员配置。
+本主题介绍如何在 Retail 销售点 (POS) 中配置打开 URL 的按钮。 此功能不需要代码自定义，可以由非开发人员角色的人员配置。 此功能作为 Dynamics 365 for Finance and Operations 版本 8.1.3（内部版本 8.1.227.10014）以及更高版本的一部分提供。 
 
 此功能允许在 POS 中配置按钮，进而使用按钮网格设计器打开 URL。 目前，这在以下配置中不支持：
 
@@ -84,4 +83,3 @@ Windows、iOS 和 Android 还允许根据应用协议关联更加无缝地打开
 5. 选择**打开 URL** 作为操作。
 6. 输入要使用的 URL。
 7. 配置是否在新窗口中打开 URL。
-

@@ -1,14 +1,14 @@
 ---
-title: "指定交叉汇率"
-description: "此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 中交叉汇率的一般信息。"
+title: 指定交叉汇率
+description: 此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 中交叉汇率的一般信息。
 author: abruer
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: cf531c3a8f3bdb17314d1de436b98249169f82a3
 ms.openlocfilehash: 112f77738b33aae94babe0cf8e9e61ff2ea3d004
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320228"
 ---
-
 # <a name="specify-the-cross-rate"></a>指定交叉汇率
 
 [!include [banner](../includes/banner.md)]
@@ -45,4 +44,3 @@ ms.lasthandoff: 08/08/2018
 3.  对于客户，在**所有客户**列表页上，转至**催款 > 结算未结交易记录**。 对于供应商，则在**所有供应商**列表页上，转至**发票 > 结算未结交易记录**。 
 4.  选择作为主付款的交易记录，然后单击**标记付款**。 **标记**列中的复选框被选中，并且在**主付款**列中将出现信息图标。 
 5.  在**交叉汇率**字段中，输入截止到结算日期时发票币种和付款币种之间的汇率倍数。 
-

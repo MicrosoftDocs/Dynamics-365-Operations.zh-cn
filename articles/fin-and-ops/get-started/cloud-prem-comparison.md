@@ -1,30 +1,29 @@
 ---
-title: "比较云和本地功能"
-description: "此主题显示在云和本地支持的功能。"
+title: 比较云和本地功能
+description: 此主题显示在云和本地支持的功能。
 author: robinarh
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Operations
 ms.custom: 89563
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: robinr
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
+ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 596cfa056c6f2e64f554b643bb5a61d09c7bf20c
-ms.openlocfilehash: 58bba3dead4d2a8ed3ae424694377e410df16f4c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313972"
 ---
-
 # <a name="comparison-of-cloud-and-on-premises-features"></a>比较云和本地功能
 
 [!include [banner](../includes/banner.md)]
@@ -32,13 +31,13 @@ ms.lasthandoff: 12/04/2018
 此主题显示每个功能在这些产品中是否可用：
 
 + Dynamics 365 for Finance and Operations（云）
-+ Dynamics 365 for Finance and Operations（本地）
++ Dynamics 365 for Finance and Operations (on-premises)
 
 下表列出了产品区域。 作为整体列出功能的云和本地支持。 特定功能与总体区域不同时，在“功能”列的单独的行中列出功能。
 
 ## <a name="dynamics-365-for-finance-and-operations"></a>Dynamics 365 for Finance and Operations
 
-| 范围 | 功能 | 云 | 本地 |
+| 面积 | 功能 | 云 | 本地 |
 |---|---|---|---|
 | 符合性和证书 | | 是 | 是 |
 | | SOC 1 类型 1 认证 | 是 | 无 |
@@ -78,13 +77,13 @@ ms.lasthandoff: 12/04/2018
 | | 直接存款 | 是 | 无 |
 | 采购 | | 是 | 是 |
 | | 从采购申请发包到外部目录 | 是 | 无 |
-| | 采购支出分析 Power BI 报表 | 是 | 无 |
+| | 采购花费分析 Power BI 报表 | 是 | 无 |
 | 产品信息管理 | | 是 | 是 |
 | 基础产品数据 | | 是 | 是 |
 | 生产 | | 是 | 是 |
-| | 生产性能 Power BI 报表 | 是 | 无 |
+| | 生产绩效 Power BI 报表 | 是 | 无 |
 | 项目管理与核算 | | 是 | 是 |
-| 销售 | | 是 | 是 |
+| 销售额 | | 是 | 是 |
 | | 销售和收益率绩效 Power BI 报表 | 是 | 无 |
 | 安全性 | | 是 | 是 |
 | 服务管理 | | 是 | 是 |
@@ -93,7 +92,7 @@ ms.lasthandoff: 12/04/2018
 | 供应商协作 | | 是 | 无 |
 | 仓库管理 | | 是 | 是 |
 | | 移动仓库应用 | 是 | 是 |
-| | 仓储 Power BI 报表 | 是 | 无 |
+| | 仓库 Power BI 报表 | 是 | 无 |
 | Web 客户端 | | 是 | 是 |
 | | 任务录制器 - 从 BPM 库保存或加载任务录制 | 是 | 无 |
 | 支持 | | 是 | 是 |
@@ -120,11 +119,10 @@ ms.lasthandoff: 12/04/2018
 
 ## <a name="dynamics-365-for-talent"></a>Dynamics 365 for Talent
 
-| 范围 | 功能 | 云 | 本地 |
+| 面积 | 功能 | 云 | 本地 |
 |---|---|---|---|
 | 所有人才区域 | 所有人才功能 | 有 | 无 |
 
 ## <a name="additional-resources"></a>其他资源
 
 - [未在本地部署中实现的功能](features-not-implemented-on-prem.md)
-

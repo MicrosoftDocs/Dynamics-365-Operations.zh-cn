@@ -1,13 +1,13 @@
 ---
-title: "移动发票审核"
-description: "本主题旨在通过以供应商发票的移动审核为使用案例，提供在 Dynamics 365 for Finance and Operations 中设计移动方案的方法实践。"
+title: 移动发票审核
+description: 本主题旨在通过以供应商发票的移动审核为使用案例，在 Dynamics 365 for Finance and Operations 中提供移动方案的设计方法实践。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: fc1483285d6ec675637c013af4949b9c7acf92b3
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314386"
 ---
-
 # <a name="mobile-invoice-approvals"></a>移动发票审核
 
 [!include [banner](../includes/banner.md)]
@@ -488,7 +487,6 @@ ms.lasthandoff: 05/08/2018
     3.  理想情况下，应该在此方案中的发票行上下文内显示分配。 因此，请确保用户可以钻取到行中以查看分配页面。 请使用页面链接功能建立钻取，就如在方案 1 中对抬头和明细页面执行的操作。
 
 2.  因为方案 2 中分配上应该有多个金额类型（销售税、费用等），所以显示金额类型的描述非常有用。 （我们在方案 1 中忽略了此信息。）
-
 
 
 

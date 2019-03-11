@@ -1,13 +1,13 @@
 ---
-title: "批次属性"
-description: "文主题提供有关批属性的信息。 批次属性是构成库存批次的原材料和成品的特征。 本主题还说明如何分配批属性，以及如何在预留批处理时对它们进行搜索。"
+title: 批次属性
+description: 文主题提供有关批属性的信息。 批次属性是构成库存批次的原材料和成品的特征。 本主题还说明如何分配批属性，以及如何在预留批处理时对它们进行搜索。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 11/03/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PdsBatchAttrib, PdsBatchAttribAssociate, PdsBatchAttribByAttribGroup, PdsBatchAttribByItem, PdsBatchAttribByitemCustomer, PdsBatchAttribGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 325e647185e3eb4c0eacdfd00c320804e31ddb48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 6c18b007a72686b1ede69b750e930d72e86f0aba
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347621"
 ---
-
 # <a name="batch-attributes"></a>批次属性
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 ## <a name="reserve-batches"></a>预留批次
 在为销售订单进行批次预留以履行客户订单时，或者当您为生产订单领取和预留批次时，您可以搜索批次属性。 搜索帮助找到包含具有所需批次属性的产品的库存批次。 找到该批次或这些批次后，然后可以预留产品到起源库存交易记录行。
-
 
 
 

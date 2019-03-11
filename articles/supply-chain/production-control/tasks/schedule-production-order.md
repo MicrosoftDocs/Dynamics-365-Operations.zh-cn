@@ -1,13 +1,13 @@
---- 
-title: "计划生产订单"
-description: "该过程说明安排一个生产订单。"
+---
+title: 计划生产订单
+description: 该过程说明安排一个生产订单。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdSchedule, ProdRouteJob, WrkCtrCapResSum
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 20e7ee023f39cc5d02b0f5b80fbb3ae3ad0c9774
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: dadf0e87eac8522f61bb094c146e37f46a21fc09
-ms.openlocfilehash: 6cbbf509c9e60040e08ab7932fcb0e8eed5ddd22
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/06/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346356"
 ---
 # <a name="schedule-a-production-order"></a>计划生产订单
 
@@ -54,5 +54,4 @@ ms.lasthandoff: 02/06/2018
     * 该“产能负荷”页显示计划作业的预留产能，当前可用的预留总工时数，以及计划作业仍可用工时数。  
 6. 关闭该页面。
 7. 关闭该页面。
-
 

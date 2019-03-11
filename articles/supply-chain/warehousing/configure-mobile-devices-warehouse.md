@@ -1,13 +1,13 @@
 ---
-title: "为仓库工作设置移动设备"
-description: "此主题介绍了如何配置仓库工作人员用于在移动设备上执行工作的菜单项。"
+title: 为仓库工作设置移动设备
+description: 此主题介绍了如何配置仓库工作人员用于在移动设备上执行工作的菜单项。
 author: MarkusFogelberg
 manager: AnnBe
 ms.date: 09/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 4c200c07ad576073ab5410b52ec237d31b2415d2
 ms.openlocfilehash: cc21b62026403e37dbcb90c24dd239d295f0e04e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/03/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347943"
 ---
-
 # <a name="set-up-mobile-devices-for-warehouse-work"></a>为仓库工作设置移动设备
 
 [!include [banner](../includes/banner.md)]
@@ -208,7 +207,7 @@ ms.lasthandoff: 10/03/2018
 </thead>
 <tbody>
 <tr class="odd">
-<td>None</td>
+<td>无</td>
 <td>此默认值无法处理工作。</td>
 </tr>
 <tr class="even">
@@ -246,7 +245,7 @@ ms.lasthandoff: 10/03/2018
 </tr>
 <tr class="even">
 <td>周期盘点分组</td>
-<td>工作人员选择一个区域、工作池或地点，Microsoft Dynamics 365 for Finance and Operations 将根据选择情况分配工作。 如果您选择此选项，则可以单击操作窗格上的<strong>周期盘点</strong>，指定要显示的其他信息，您还可以指定在发现任何差异的情况下，工作人员需要重复盘点的次数。</td>
+<td>工作人员选择一个区域、工作池或地点，Microsoft Dynamics 365 for Finance and Operations 根据选择情况分配工作。 如果您选择此选项，则可以单击操作窗格上的<strong>周期盘点</strong>，指定要显示的其他信息，您还可以指定在发现任何差异的情况下，工作人员需要重复盘点的次数。</td>
 </tr>
  <tr class="odd">
 <td>运输装载</td>
@@ -334,7 +333,7 @@ ms.lasthandoff: 10/03/2018
 </tr>
 <tr class="odd">
 <td>组储存</td>
-<td>选中此选项以便对入库工作进行分组。 当您创建工作且工作创建流程为 Microsoft Dynamics 365 for Finance and Operations 时，此选项可用。 当工作人员完成组中所有的领料工作时，将创建同一组的入库工作。</td>
+<td>选中此选项以便对入库工作进行分组。 当工作由工作人员或 Microsoft Dynamics 365 for Finance and Operations 分组时，此选项可用。 当工作人员完成组中所有的领料工作时，将创建同一组的入库工作。</td>
 </tr>
 <tr class="even">
 <td>库存调整类型</td>
@@ -387,7 +386,7 @@ ms.lasthandoff: 10/03/2018
 </tr>
 <tr class="odd">
 <td>工作模板代码</td>
-<td>选择用于创建工作流程的工作模板。 例如，如果您接收了工作订单中的某个物料，那么会基于工作模板生成入库工作。 如果您没有选择某一个工作模板，Microsoft Dynamics 365 for Finance and Operations 将基于查询条件分配模板。 有关工作模板的详细信息，请参阅<a href="control-warehouse-location-directives.md">使用工作模板和库位指令控制仓库的工作</a>。</td>
+<td>选择用于创建工作流程的工作模板。 例如，如果您接收了工作订单中的某个物料，那么会基于工作模板生成入库工作。 如果您未选择工作模板，那么 Microsoft Dynamics 365 for Finance and Operations 将基于查询准则分配一个模板。 有关工作模板的详细信息，请参阅<a href="control-warehouse-location-directives.md">使用工作模板和库位指令控制仓库的工作</a>。</td>
 </tr>
 </tbody>
 </table>
@@ -420,6 +419,5 @@ ms.lasthandoff: 10/03/2018
 
 [设置登记已接收物料的移动设备菜单项（任务指南）](tasks/set-up-mobile-device-menu-item-register-received-items.md)
 [使用库存状态的优点](../inventory/inventory-statuses.md)
-
 
 

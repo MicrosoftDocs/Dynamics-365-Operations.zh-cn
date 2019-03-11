@@ -1,13 +1,13 @@
---- 
-title: "零售报表的参数配置"
-description: "此程序会演示零售参数的配置，这些参数会影响如何创建和过帐零售报表。"
+---
+title: 零售报表的参数配置
+description: 此程序会演示零售参数的配置，这些参数会影响如何创建和过帐零售报表。
 author: josaw1
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 6dacd2b80ca0d51d81d2bdf5bc2636b47da621ee
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 0c93633e92221264cc6a67c74d62edaa59bdbd2f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352612"
 ---
 # <a name="parameter-configurations-for-retail-statements"></a>零售报表的参数配置
 
@@ -42,5 +42,4 @@ ms.lasthandoff: 02/07/2018
     * 将报表过帐时，选择“是”，以并行创建和处理订单。  
     * 输入每个批处理作业任务中处理的最大订单数。  
 3. 单击“保存”。
-
 

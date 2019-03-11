@@ -1,13 +1,13 @@
 ---
-title: "批次和牌照确认"
-description: "此主题描述如何从移动设备设置和应用批次和牌照确认。"
+title: 批次和牌照确认
+description: 此主题描述如何从移动设备设置和应用批次和牌照确认。
 author: Mirzaab
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFAutoConfirm
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: efab5b11782fd2344fb5f532272007d187c1465b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0444caa0f1cc176153c322b8619db65bd377ddd0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344217"
 ---
-
 # <a name="batch-and-license-plate-confirmation"></a>批次和牌照确认
 
 [!include [banner](../includes/banner.md)]
@@ -43,4 +42,3 @@ ms.lasthandoff: 11/03/2017
 您可以从移动设备菜单项配置批次和牌照确认。  
 1.  从移动设备菜单项输入工作确认设置。  
 2.  为批次或牌照确认选择选项。 两个选项对未启用自动确认的工作类型领料均可用。  
-

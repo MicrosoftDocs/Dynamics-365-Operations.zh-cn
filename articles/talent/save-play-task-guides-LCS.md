@@ -1,30 +1,29 @@
 ---
-title: "将任务指南保存到 LCS 并重新播放它们"
-description: "本主题说明如何将任务指南保存到 Microsoft Dynamics Lifecycle Services (LCS) 然后重新播放它们。"
+title: 将任务指南保存到 LCS 并重新播放它们
+description: 本主题说明如何将任务指南保存到 Microsoft Dynamics Lifecycle Services (LCS) 然后重新播放它们。
 author: Darinkramer
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: d3f974f94b6c327fd70b8098d24f9e1f1e1e8eeb
 ms.openlocfilehash: 40b4c3154a04a557b8a670e1f1ae3722c71122fe
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303438"
 ---
-
 # <a name="save-task-guides-to-lcs-and-replay-them"></a>将任务指南保存到 LCS 并重新播放它们
 
 [!include [banner](includes/banner.md)]
@@ -66,4 +65,3 @@ Microsoft Dynamics 365 for Talent 通过 Microsoft Dynamics Lifecycle Services (
 2. 选择**从 LCS 打开**。
 3. 选择包含保存的任务指南的库和 BPM 节点。
 4. 打开任务指南。
-

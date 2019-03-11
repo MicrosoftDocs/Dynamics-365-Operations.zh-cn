@@ -1,13 +1,13 @@
 ---
-title: "配置工作流中的手动任务"
-description: "本主题说明如何配置手动任务的属性。"
+title: 配置工作流中的手动任务
+description: 本主题说明如何配置手动任务的属性。
 author: sericks007
 manager: AnnBe
 ms.date: 08/23/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 669fce3ddade4d6e0a130da2420ab33ca4ff4671
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309740"
 ---
-
 # <a name="configure-manual-tasks-in-a-workflow"></a>配置工作流中的手动任务
 
 [!include [banner](../includes/banner.md)]
@@ -136,7 +135,7 @@ ms.lasthandoff: 12/18/2018
     </tr>
     <tr>
     <td>用户</td>
-    <td>特定的 Microsoft Dynamics 365 for Finance and Operations 用户</td>
+    <td>特定 Microsoft Dynamics 365 for Finance and Operations 用户</td>
     <td>
     <ol>
     <li>在选择<strong>用户</strong>后，单击<strong>用户</strong>选项卡。</li>
@@ -383,4 +382,3 @@ ms.lasthandoff: 12/18/2018
 5. 如果用户应该能够将此任务分配给其他用户，则请选中**委托**复选框。
 6. 如果用户应该能够将任务分配给工作项队列中的其他用户，则选中**重新分配**复选框。
 7. 如果用户应该能够将任务分配给工作项队列，则选中**下达**复选框。 其他用户可以完成该任务。
-

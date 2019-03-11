@@ -1,32 +1,31 @@
 ---
-title: "维度层次结构"
-description: "此主题提供有关维度层次结构的信息。 您使用维度层次结构定义成本核算中的报告结构、成本策略和安全设置。"
+title: 维度层次结构
+description: 此主题提供有关维度层次结构的信息。 您使用维度层次结构定义成本核算中的报告结构、成本策略和安全设置。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMDimensionHierarchy,
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 55d567eb3b4ad6746f39118b575457bb00fe0a47
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 40a4a1d7549876b72186f30a9c0089f0d27cf3b6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "320205"
 ---
-
 # <a name="dimension-hierarchy"></a>维度层次结构
 
 [!include [banner](../includes/banner.md)]
@@ -329,9 +328,8 @@ ms.lasthandoff: 03/26/2018
 - Power BI：
 
     - Power BI 可视化项中显示的数据
-    - Microsoft Dynamics 365 for Finance and Operations 客户端中嵌入的数据 Power BI 可视化项
+    - 在 Microsoft Dynamics 365 for Finance and Operations 客户端中嵌入的数据 Power BI 可视化项
 
 > [!NOTE] 
 > - 在访问列表层次结构可能会影响 Power BI 中的数据前，Power BI 中的访问列表层次结构和行级别安全性必须配对。 有关详细信息，请参阅 [设置成本核算内容包的安全性](../../dev-itpro/analytics/setup-security-cost-accounting-content-pack.md)。
 > - 访问列表层次结构对将数据安全导出到 Excel 没有帮助。 因此，该报告工具应仅由必须具有查看数据的完全访问权限的成本会计师和经理使用。
-

@@ -1,13 +1,13 @@
 ---
-title: "生成财务报表"
-description: "本主题提供了有关生成财务报表的信息。"
+title: 生成财务报表
+description: 本主题提供了有关生成财务报表的信息。
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: 70fa1298c3af43f62b8fa0b833fa817f17858c47
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340882"
 ---
-
 # <a name="generate-financial-reports"></a>生成财务报表
 
 [!include [banner](../includes/banner.md)]
@@ -115,7 +114,7 @@ ms.lasthandoff: 09/27/2018
 > [!TIP]
 > 出于验证目的，应在生成月报表之前且创建新的构建基块之时执行此过程。
 
-包含值的范围的报表不太可能有缺少的科目。 请尽可能使用构建基块中的范围，以便在创建新科目后将其包含在内。 如果任何报表定义设置为 @ANY 公司，则可以登录到某个特定公司并对该公司运行缺少科目分析。
+包含值的范围的报表不太可能有缺少的科目。 如果可能，请在构建基块中使用范围来包含所创建的新会计科目。 如果有任何报表定义设置为 @ANY 公司，你可以登录到特定公司，然后对该公司运行缺少的会计科目分析。
 
 > [!NOTE]
 > 如果添加了一个新公司，您必须将该公司添加到所有现有报表中的报告结构树，否则该公司不会包含在缺少科目分析中。
@@ -158,4 +157,3 @@ ms.lasthandoff: 09/27/2018
 [财务申报](financial-reporting-intro.md)
 
 [报表设计器界面](report-designer-interface.md)
-

@@ -1,13 +1,13 @@
 ---
-title: "中国的物料清单比较"
-description: "本主题提供了有关中国的物料清单比较的信息。"
+title: 中国的物料清单比较
+description: 本主题提供了有关中国的物料清单比较的信息。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventBOMComparison_CN
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 0a7e7c7860883d6e7886ef08995b7605237e0066
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e7310abaf7c134915fa6e5f2632e700432e5548a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371873"
 ---
-
 # <a name="bill-of-materials-comparison-for-china"></a>中国的物料清单比较
 
 [!include [banner](../includes/banner.md)]
@@ -64,7 +63,6 @@ ms.lasthandoff: 11/03/2017
 | FG003   | FG003V1 |        | MT003      | 4        | 时间单位  | 30.00 美元 |
 |         |         |        | MT004      | 2        | “盒”  | 23.00 美元 |
 |         |         |        | MT005      | 3        | 千克   | 18.00 美元 |
-
 
 
 

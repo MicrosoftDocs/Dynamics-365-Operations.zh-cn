@@ -1,13 +1,13 @@
 ---
-title: "库存结转"
-description: "作为结算具有收货交易记录的发货交易记录的流程的一部分，您还可以选择更新总帐以反映已进行的调整。"
+title: 库存结转
+description: 作为结算具有收货交易记录的发货交易记录的流程的一部分，您还可以选择更新总帐以反映已进行的调整。
 author: AndersGirke
 manager: AnnBe
 ms.date: 10/24/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: InventClosing
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a705853ea27d117c99a00893b862348bbac0b9b0
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: dfb6b9c2f4bad95c165a8d8a1e888e7a67e66c69
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326484"
 ---
-
 # <a name="inventory-close"></a>库存结转
 
 [!include [banner](../includes/banner.md)]
@@ -87,7 +86,6 @@ ms.lasthandoff: 11/03/2017
 您偶尔可能必须冲销已完成的库存结转，以将结算返回到执行调整前的状态。 在您冲销已完成的库存结转时，库存还会重新打开，以可以在库存转结涵盖期间中过帐。 也可能在总账中进行相关的更改。 在完成调整后，您可以为您正在使用的期间再次运行库存结转。 
 
 **注意：** 只有最后关闭的库存期间可以重新打开。 若要冲销更早的库存结转，必须一次冲销一个后续库存，从最近的结转开始。
-
 
 
 

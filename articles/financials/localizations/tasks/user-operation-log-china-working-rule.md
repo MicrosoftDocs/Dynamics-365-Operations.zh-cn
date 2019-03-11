@@ -1,13 +1,13 @@
---- 
-title: "CN-00016 按中国工作规则的用户操作日志"
-description: "此过程演示如何创建用户操作日志。"
+---
+title: CN-00016 按中国工作规则的用户操作日志
+description: 此过程演示如何创建用户操作日志。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SysDatabaseLogSetup, SysDatabaseLogWizard, BankAccountTable, ComplianceUserOperationLogConfig_CN
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7fd291073de7d0437201a858f9ed5e4cc9cb8b27
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371885"
 ---
 # <a name="cn-00016-user-operation-log-by-china-working-rule"></a>CN-00016 按中国工作规则的用户操作日志
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/14/2018
 8. 在“结束日期”字段中输入日期。
 9. 单击“确定”。
 10. 单击“确定”。
-
 

@@ -1,13 +1,13 @@
 ---
-title: "固定资产购置过帐帐户"
-description: "本文说明如何为购置资产设置总帐过帐科目。"
+title: 固定资产购置过帐帐户
+description: 本文说明如何为购置资产设置总帐过帐科目。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: a3ac1580e33197c0cd8a82f34804d4639945d861
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: a1a7da48b45566217399bc1d01a9c6e87ad56ec8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325357"
 ---
-
 # <a name="fixed-asset-acquisition-posting-accounts"></a>固定资产购置过帐帐户
 
 [!include [banner](../includes/banner.md)]
@@ -43,7 +42,6 @@ ms.lasthandoff: 11/03/2017
 对于在“总帐”中使用“库存转为固定资产日记帐”过帐的购置，固定资产不是从外部购买的，而是从公司自己的库存转移的。 因此，对方科目是库存管理中的库存物料的发货科目。
 
 有关详细信息，请参阅[通过采购购置资产](acquire-assets-procurement.md)。
-
 
 
 

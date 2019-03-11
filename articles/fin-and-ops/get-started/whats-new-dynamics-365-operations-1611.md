@@ -1,13 +1,13 @@
 ---
-title: "Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容"
-description: "本主题介绍了 Dynamics 365 for Operations 版本 1611 中的新功能和更改的功能。"
+title: Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容
+description: 此主题介绍了 Dynamics 365 for Operations 版本 1611 中的新增功能和更改内容。
 author: sericks007
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 7e907813323ef6b1c8b83675be75456f5844fa0a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339065"
 ---
-
 # <a name="whats-new-or-changed-in-dynamics-365-for-operations-version-1611-november-2016"></a>Dynamics 365 for Operations 版本 1611（2016 年 11 月）的新增功能和更改内容
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍了 Dynamics 365 for Operations 版本 1611 中的新功能和更改的功能。
+此主题介绍了 Dynamics 365 for Operations 版本 1611 中的新增功能和更改内容。
 
 ## <a name="cost-accounting"></a>成本核算
 
@@ -643,7 +642,7 @@ ms.lasthandoff: 12/18/2018
 <tbody>
 <tr>
 <td>使用与 Microsoft Dynamics AX 2012 R3 中的<strong>工资单</strong>模块的功能等效的功能配置付薪记录和处理工资单。</td>
-<td>您现在可以使用与 AX 2012 R3 中的功能集等效的功能集配置和处理美国工资单。
+<td>您现在可以使用与 AX 2012 R3 中的功能集等效的功能集配置和处理美国工资单。
 <ul>
 <li>您可以配置付薪周期和付薪期间、工作周期和工作期间、收入代码和收入代码组、计划、休假类型和福利应计计划。</li>
 <li>您还可以为福利和税金设置强制扣减，以及为了报告和分析目的而记录职位和工作人员的工资单信息。</li>
@@ -783,8 +782,8 @@ ms.lasthandoff: 12/18/2018
 - 零售服务器和商店数据库同 Async Client 服务一起在商店内。
 - 商店内的零售服务器直接与商店系统总部的应用程序对象服务器 (AOS) 通信。
 - 支持无法连接总部时的跨终端场景。
-- Retail Modern POS 和云 POS 始终与商店内的零售服务器通信。
-- 支持无法连接总部时的 Retail Modern POS 和云 POS。
+- Retail Modern POS 和 Cloud POS 始终与商店内的零售服务器通信。
+- 支持无法连接总部时的 Retail Modern POS 和 Cloud POS。
 - 支持无法连接总部时的特定 Retail Modern POS 的脱机数据库（隔离至每个 Retail Modern POS 实例）。
 - 仅针对商店系统进行基于服务对服务的身份验证。
 - 没有网络连接时，不支持实时服务呼叫。
@@ -793,7 +792,7 @@ ms.lasthandoff: 12/18/2018
 
 | 您能做什么 | 为什么如此重要 |
 |-----------------|-----------------------|
-| 零售商从 Dynamics AX HQ 中的渠道数据库下载商店系统自助服务安装程序和下载配置文件。 | 零售商可以无缝下载自助服务包。 |
+| 零售商从 Dynamics AX HQ 中的渠道数据库下载商店系统自助服务安装程序和下载配置文件。 | 零售商可以无缝下载自助服务包。 |
 | 零售商使用自助服务安装程序安装商店系统。 | 零售商可以使用自助服务包安装商店系统。 |
 | IT 经理在 Dynamics 365 for Operations 中配置商店系统（渠道数据库、渠道配置文件、商店和可部署包）。 | IT 经理可轻松高效地配置商店系统。 |
 | 没有连接时，零售商在本地商店中操作 Retail Modern POS，并且可以执行实时操作，例如发放礼品卡。 | 有连接时，零售商可以从商店系统执行实时操作。 |
@@ -801,9 +800,9 @@ ms.lasthandoff: 12/18/2018
 | 零售商可以在本地商店系统与总部之间安全通信。 | 有连接时，零售商可以从商店系统安全通信。 |
 | IT 经理和 Microsoft Operations 可以在本地商店系统上进行监控和报告（诊断和报告更改）。 | IT 经理和 Microsoft Operations 可以安全监控商店系统和有效进行故障排除。 |
 
-### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>针对 Retail Modern POS 的通用 Windows 平台应用程序
+### <a name="universal-windows-platform-app-for-retail-modern-pos"></a>针对 Retail Modern POS 的通用 Windows 平台应用
 
-目前，Retail Modern POS 仅可用作适用于台式电脑和平板电脑的 Windows 8.1 应用程序和适用于台式电脑或平板电脑浏览器的云 POS。 在此版本中，Retail Moderns POS 被转换为通用 Windows 平台 (UWP) 应用程序。 此更改将使 Retail Modern POS 能够在任何 Windows 10 设备（台式电脑、平板电脑或电话）上运行，甚至可以在启用 Continuum 的设备的不同视图之间切换。
+目前，Retail Modern POS 仅可用作适用于台式电脑和平板电脑的 Windows 8.1 应用程序和适用于台式电脑或平板电脑浏览器的 Cloud POS。 在此版本中，Retail Moderns POS 被转换为通用 Windows 平台 (UWP) 应用程序。 此更改将使 Retail Modern POS 能够在任何 Windows 10 设备（台式电脑、平板电脑或电话）上运行，甚至可以在启用 Continuum 的设备的不同视图之间切换。
 
 | 您能做什么 | 为什么如此重要 |
 |-----------------|-----------------------|
@@ -946,4 +945,3 @@ ms.lasthandoff: 12/18/2018
 ## <a name="additional-resources"></a>其他资源
 
 [新增功能或更改的功能](whats-new-changed.md)
-

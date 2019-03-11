@@ -1,13 +1,13 @@
 ---
-title: "设置培训课程"
-description: "人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。"
+title: 设置培训课程
+description: 人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。
 author: rschloma
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmCourseType, HcmCourseTypeGroup, HRMCourseTable
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3e0a13d0b1882e6160a05925d97ecd85f1edfbaa
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 95d5bf26c22238753586cf4a7aaf5c26f061a705
-ms.openlocfilehash: 27fbc54afca384b804f2b0468206242ff89d4031
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/23/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303423"
 ---
-
 # <a name="set-up-training-courses"></a>设置培训课程
 
 [!include [banner](includes/banner.md)]
@@ -46,7 +45,7 @@ ms.lasthandoff: 02/23/2018
 -   **教师**
 
 ## <a name="course-types"></a>课程类型
-您可以使用课程类型根据课程结构或内容对课程进行分类。 您可以在**“课程类型”**页上创建课程类型。 创建课程记录时，必须选择课程类型。
+您可以使用课程类型根据课程结构或内容对课程进行分类。 您可以在**课程类型**页上创建课程类型。 创建课程记录时，必须选择课程类型。
 
 ## <a name="course-setup-type"></a>课程设置类型
 下表列出了课程的三种设置类型。 设置类型确定课程结构。
@@ -71,8 +70,8 @@ ms.lasthandoff: 02/23/2018
 <td><strong>课程安排 + 会话</strong></td>
 <td>为更复杂的课程选择此类型。 例如，您可以将课程日程分为轨道和会话。
 <ul>
-<li><strong>“班组”</strong>– 班组是课程特定的主题区域。</li>
-<li><strong>“学期”</strong>– 学期将班组划分开来，并且帮助确定与轨道相关的特定流程或技巧。</li>
+<li><strong>班组</strong>– 班组是课程特定的主题区域。</li>
+<li><strong>学期</strong>– 学期将班组划分开来，并且帮助确定与轨道相关的特定流程或技巧。</li>
 </ul></td>
 </tr>
 </tbody>
@@ -104,7 +103,7 @@ ms.lasthandoff: 02/23/2018
 <td><strong>已创建</strong></td>
 <td><ul>
 <li>输入并修改课程信息。</li>
-<li>将课程状态更改为<strong>“打开”</strong>，这样工作人员可以登记该课程。</li>
+<li>将课程状态更改为<strong>打开</strong>，这样工作人员可以登记该课程。</li>
 </ul></td>
 </tr>
 <tr class="even">
@@ -113,8 +112,8 @@ ms.lasthandoff: 02/23/2018
 <li>为课程登记参与者。</li>
 <li>将参与者从课程中移除。</li>
 <li>确认课程的参与者。</li>
-<li>将课程状态更改为<strong>“已关闭”</strong>或<strong>“已取消”</strong>。</li>
-<li>为状态为<strong>“已确认”</strong>的参与者规划调查表。</li>
+<li>将课程状态更改为<strong>已关闭</strong>或<strong>已取消</strong>。</li>
+<li>为状态为<strong>已确认</strong>的参与者规划调查表。</li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -129,13 +128,12 @@ ms.lasthandoff: 02/23/2018
 </table>
 
 ## <a name="course-participants"></a>课程参与者
-课程参与者有工作人员、申请者或参加培训课程或事件的承包商。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在**“课程”**页上的**“常规”**快速选项卡中进行了定义。
+课程参与者有工作人员、申请者或参加培训课程或事件的承包商。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在**课程**页上的**常规**快速选项卡中进行了定义。
 
 <a name="workflow"></a>工作流
 --------
 
 通过**工自助服务**页登记课程的员工可以让其注册工作流传送以供审核。  工作流可以分配到**课程**页上的**常规**快速选项卡中的课程。
-
 
 
 

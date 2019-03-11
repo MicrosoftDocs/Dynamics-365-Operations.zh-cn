@@ -1,13 +1,13 @@
---- 
-title: "维护员工伤害和疾病信息"
-description: "建议首先完成“设置伤害和疾病”任务指南，因为此处使用这些设置信息中的一部分。"
+---
+title: 维护员工伤害和疾病信息
+description: 建议首先完成“设置伤害和疾病”任务指南，因为此处使用这些设置信息中的一部分。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMInjuryIncident, HcmWorkerLookUp
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 03d1e7f7b648e65cbe628aa4ff8b39dfa03ce96b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "332602"
 ---
 # <a name="maintain-employee-injury-and-illness-information"></a>维护员工伤害和疾病信息
 
@@ -92,5 +92,4 @@ ms.lasthandoff: 09/14/2018
     * 示例：X 射线确认骨折，夹板固定  
 36. 单击“保存”。
     * 恢复状态随时更新。  如果该受伤或疾病发生在工作流程中，则设置该案件为工作中。  关闭事故后，只能添加或删除费用以及事故相关的治疗与申报情况。  若要修改其他信息，重新打开该案件。  
-
 

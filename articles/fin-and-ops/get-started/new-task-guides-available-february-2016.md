@@ -1,13 +1,13 @@
 ---
-title: "新任务指南（2016 年 2 月）"
-description: "此主题列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。"
+title: 新任务指南（2016 年 2 月）
+description: 此主题列出截止 2016 年 2 月发布到 Microsoft BPM 库的任务指南。  已发布的库包括 Microsoft Dynamics 365 for Operations 的（2016 年 2 月）APQC 标准库和（2016 年 2 月）入门。
 author: josaw1
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -17,14 +17,13 @@ ms.search.region: global
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 87384bae08e3fa78ef3deb3830583b16b9d9d6ac
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "366435"
 ---
-
 # <a name="new-task-guides-february-2016"></a>新任务指南（2016 年 2 月）
 
 [!include [banner](../includes/banner.md)]
@@ -647,4 +646,3 @@ ms.lasthandoff: 12/18/2018
 [新的或更新任务指南（2016 年 8 月）](new-updated-task-guides-available-august-2016.md)
 
 [新的或更新任务指南（2016 年 11 月）](new-task-guides-november-2016.md)
-

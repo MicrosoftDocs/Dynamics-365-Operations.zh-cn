@@ -1,13 +1,13 @@
---- 
-title: "在可变薪酬计划中登记员工"
-description: "“薪酬福利经理”招聘可变薪酬计划的雇员，需要计算雇员的现金和非现金奖金。"
+---
+title: 在可变薪酬计划中登记员工
+description: “薪酬福利经理”招聘可变薪酬计划的雇员，需要计算雇员的现金和非现金奖金。
 author: kherr75
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMCompVarEnrollEmpl
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 965826f5fddc2f53f33157434929eb265979376e
 ms.openlocfilehash: 6ab2533293b5c8cb37953427893b75a98ddf3976
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/17/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329566"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>在可变薪酬计划中登记员工
 
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/17/2018
     * 如果该雇员获得了一笔统一金额的奖金，该奖金数目可以在此设置。  
 8. 切换“组织覆盖”部分的扩展。
     * 如果需要考虑该雇员的绩效，不同部门的绩效或者同一个部门但是非其指派职位的绩效，可以用部门绩效覆盖。 “百分比”栏总分为 100 。  
-
 

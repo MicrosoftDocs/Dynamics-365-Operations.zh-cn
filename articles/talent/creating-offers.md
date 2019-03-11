@@ -1,31 +1,30 @@
 ---
-title: "创建、审核和签署聘约"
-description: "此主题详细介绍如何使用 Dynamics 365 for Talent 为应聘者创建、审核和签署聘约。"
+title: 创建、审核和签署聘约
+description: 此主题详细介绍如何使用 Dynamics 365 for Talent 为应聘者创建、审核和签署聘约。
 author: josaw
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-19
 ms.dyn365.ops.version: Talent October 2018 update
-ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
 ms.openlocfilehash: f189df052ef299a2cca1d92065a7a4d377d25399
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/07/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303465"
 ---
-
 # <a name="creating-approving-and-signing-offers"></a>创建、审核和签署聘约
 
 [!include[banner](../includes/banner.md)]
@@ -149,4 +148,3 @@ ms.lasthandoff: 12/07/2018
 ## <a name="closing-an-offer"></a>关闭聘约 
 
 当聘约被接受、拒绝或撤回且无需进一步操作时，您可以关闭该聘约，以使该聘约包无法再被进一步编辑。
-

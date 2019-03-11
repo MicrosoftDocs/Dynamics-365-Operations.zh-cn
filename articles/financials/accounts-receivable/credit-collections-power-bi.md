@@ -1,13 +1,13 @@
 ---
-title: "信用和收款管理 Power BI 内容包"
-description: "此主题介绍信用和收款管理 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。"
+title: 信用和收款管理 Power BI 内容
+description: 此主题介绍信用和收款管理 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustomerCollectionManagerWorkspace
 audience: Application User, IT Pro
 ms.reviewer: sericks
@@ -16,15 +16,14 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 6ce0b7b35264c05555d8b3a18e70484202a289d6
-ms.openlocfilehash: 3832cabb11d67eda7afd7f3d5322c005b36dc1f5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "325173"
 ---
-
-# <a name="credit-and-collections-management-power-bi-content"></a>信用和收款管理 Power BI 内容包
+# <a name="credit-and-collections-management-power-bi-content"></a>信用和收款管理 Power BI 内容
 
 [!include [banner](../includes/banner.md)]
 
@@ -88,5 +87,4 @@ ms.lasthandoff: 03/07/2018
 |        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                已创建的利息单的数量                |
 |        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 处于暂停状态的总销售单的数量。                 |
 |          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                已勾销的交易记录的总和。                 |
-
 

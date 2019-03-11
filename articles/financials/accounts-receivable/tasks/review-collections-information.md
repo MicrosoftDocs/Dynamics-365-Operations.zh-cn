@@ -1,13 +1,13 @@
---- 
-title: "审核收款信息"
-description: "该过程简单说明了如何查看收款信息以及如何设置各种选项和收款交易记录。"
+---
+title: 审核收款信息
+description: 该过程简单说明了如何查看收款信息以及如何设置各种选项和收款交易记录。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustCollectionsPool, SysQueryForm, CustCollectionsAgent, OMTeamSelectMemberDialog, CustVendReportInterval, CustParameters, CustAgingSnapshot, CustVendAgingBucketLookUp, CustCollectionsPoolsListPage, CustCollectionsContactPart, CustCollections
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 44d89d2bacc8f301a19bfd09d229809d492a55fb
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: eb0866505702ec5d047b6c8f3f0657aae787bedc
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349093"
 ---
 # <a name="review-collections-information"></a>审核收款信息
 
@@ -131,5 +131,4 @@ ms.lasthandoff: 09/29/2017
     * 选择一个分配给该客户的收款案例，或将此字段保留空白。 如果选择案例，则在此表格中仅显示与该案例相关的交易记录与行为。  
 8. 单击“显示列表”。
     * 选择一个客户帐户，或接受默认条目。 在该列表页或您所打开的表格中的所选的客户帐户为默认帐户。 如果在列表页打开该表格，则列表中的客户就是在该列表页中所用的客户，他们包含在收款池中。  
-
 

@@ -1,13 +1,13 @@
 ---
-title: "客户交易记录列表页"
-description: "此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 的“客户交易记录列表”页的信息。"
+title: 客户交易记录列表页
+description: 此主题提供有关 Microsoft Dynamics 365 for Finance and Operations 的“客户交易记录列表”页的信息。
 author: mikefalkner
 manager: aolson
 ms.date: 08/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
+ms.openlocfilehash: b9936a66cc8c8abb24601dae91dcfca77e4f58a4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: c6502a6fb0ceaed75fd5bb6ec5b2f13db1879eea
-ms.openlocfilehash: 1b359939c867ba0a0c14859c83f0560afe6ba5be
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/12/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "341687"
 ---
-
 # <a name="customer-transactions-list-page"></a>客户交易记录列表页
 
 [!include [banner](../includes/banner.md)]
@@ -40,7 +39,7 @@ ms.lasthandoff: 10/12/2018
 
 4. 可在此对话框中执行多种任务。 选择一个或多个凭证，然后选择以下按钮之一：
 
-    - –**查看相关**  – 显示在与所选单据关联的付款日记帐中创建的所有付款日记帐交易记录。 此外，还将显示与这些付款有关的所有结算。 查看相关付款时，此按钮的标签将变为**查看结算**。 选择**查看结算**将仅显示首次打开**查看结算**对话框时显示的交易记录。
+    - **查看相关** – 为在日记帐（在其中创建了列表中显示的文档）中创建的客户显示所有付款日记帐交易记录和普通日记帐交易记录。 例如，如果付款显示，那么在其中创建了此付款的付款日记帐中的所有付款都将显示。 如果发票或付款显示，并且它在普通日记帐中创建，那么它在其中创建的普通日记帐中的所有文档都将显示。 此外还将显示与文档列表相关的所有结算。 查看相关付款时，此按钮的标签将变为**查看结算**。 选择**查看结算**将仅显示首次打开**查看结算**对话框时显示的交易记录。
     - **查看历史记录** – 显示凭证的结算历史记录。 选择**关闭**关闭对话框。
     - **查看记帐** – 显示与所选单据相关的所有凭证。 选择**关闭**关闭对话框。
     - **导出** – 将所选凭证导出到 Microsoft Excel。
@@ -98,4 +97,3 @@ ms.lasthandoff: 10/12/2018
 - **编辑现金折扣期限** - 根据基准日期和现金折扣期限更改现金折扣。
 
 付款设置编辑完毕后，请选择**关闭**以保存更改。
-

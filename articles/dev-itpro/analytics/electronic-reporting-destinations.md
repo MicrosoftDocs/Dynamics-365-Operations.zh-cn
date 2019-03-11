@@ -1,13 +1,13 @@
 ---
-title: "电子申报 (ER) 目标"
-description: "您可以为每个电子申报 (ER) 格式配置和及其输出组件（文件夹或文件）配置目标。 被授予适当访问权限的用户还可以在运行时修改目标设置。 本文介绍 ER 目标管理，支持的目标类型，以及安全考虑。"
+title: 电子申报 (ER) 目标
+description: 您可以为每个电子申报 (ER) 格式配置和及其输出组件（文件夹或文件）配置目标。 被授予适当访问权限的用户还可以在运行时修改目标设置。 本文介绍 ER 目标管理，支持的目标类型，以及安全考虑。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 ms.search.form: DocuType, ERSolutionTable
 audience: Application User
 ms.reviewer: kfend
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mrolecki
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
 ms.openlocfilehash: 301dccaf154c3c12bcc4d611a147cdef03b8f851
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "314915"
 ---
-
 # <a name="electronic-reporting-er-destinations"></a>电子申报 (ER) 目标
 
 [!include [banner](../includes/banner.md)]
@@ -123,7 +122,7 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 
 ### <a name="power-bi-destination"></a>Power BI 目标
 
-将**已启用**设置为**是**，以便使用您的 ER 配置安排数据从您的 Finance and Operations 实例转移至 Microsoft Power BI 服务。 转移的文件存储在必须为该目的而配置的 Microsoft SharePoint Server 实例上。 有关详细信息，请参阅 [使用电子申报配置为 Power BI 提供来自 Finance and Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)。
+将**已启用**设置为**是**，以便使用您的 ER 配置安排数据从您的 Finance and Operations 实例转移至 Microsoft Power BI 服务。 转移的文件存储在必须为该目的而配置的 Microsoft SharePoint Server 实例上。 有关详细信息，请参阅[使用电子申报配置为 Power BI 提供来自 Finance and Operations 的数据](general-electronic-reporting-report-configuration-get-data-powerbi.md)。
 
 > [!TIP]
 > 要覆盖默认行为（即，配置的对话框），您可以创建主输出组件的目标引用和文件目标，然后禁用所有目标。
@@ -165,4 +164,3 @@ ER 目标管理功能通过**组织管理** &gt; **电子申报**提供。 在�
 ## <a name="additional-resources"></a>其他资源
 
 [电子申报概览](general-electronic-reporting.md)
-

@@ -1,13 +1,13 @@
 ---
 title: Project Service Automation
-description: "此主题提供有关 Project Service Automation 到 Finance and Operations 集成解决方案的信息。 此集成解决方案使用数据集成功能，通过 Common Data Service 跨 Microsoft Dynamics 365 for Finance and Operations 和 Microsoft Dynamics 365 for Project Service Automation 的实例同步数据。"
+description: 此主题提供有关 Project Service Automation 到 Finance and Operations 集成解决方案的信息。 此集成解决方案使用数据集成功能，通过 Common Data Service 跨 Microsoft Dynamics 365 for Finance and Operations 和 Microsoft Dynamics 365 for Project Service Automation 的实例同步数据。
 author: KimANelson
 manager: AnnBe
 ms.date: 06/29/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 4b1d2ae69899a2937d47f6547ee4ba72b2d1ece4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "335684"
 ---
-
 # <a name="project-service-automation"></a>Project Service Automation
 
 [!include[banner](../includes/banner.md)]
@@ -70,10 +69,9 @@ Project Service Automation 到 Finance and Operations 集成解决方案使用�
 若要使用 Project Service Automation 到 Finance and Operations 集成解决方案，必须安装以下组件：
 
 - Microsoft Dynamics 365 for Project Service Automation 版本 9.0.0.0 或更高版本
-- Microsoft Dynamics 365 for Sales 版本 1.14.0.0 (v14) 或更高版本的从目标客户到现金解决方案。
-- 适用于 Microsoft Dynamics 365 for Project Service Automation 的 Project Service Automation 到 Finance and Operations 解决方案版本 1.0.0.0 或更高版本
+- Microsoft Dynamics 365 for Sales 版本 1.14.0.0 (v14) 或更高版本的从目标客户到现金解决方案
+- 适用于 Microsoft Dynamics 365 for Project Service Automation 版本 1.0.0.0 或更高版本的 Project Service Automation 到 Finance and Operations 解决方案
 
 ## <a name="install-the-project-service-automation-to-finance-and-operations-integration-solution-in-your-project-service-automation-instance"></a>在 Project Service Automation 中安装 Project Service Automation 到 Finance and Operations 集成解决方案
 
 从 [Microsoft 下载中心](https://www.microsoft.com/en-us/download/details.aspx?id=57016)下载 Project Service Automation 到 Finance and Operations 集成解决方案，然后按照该解决方案随附的说明操作。
-

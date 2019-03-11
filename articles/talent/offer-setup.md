@@ -1,28 +1,28 @@
 ---
-title: "设置聘约管理"
-description: "此主题描述如何在 Talent 中设置聘约。"
+title: 设置聘约管理
+description: 此主题描述如何在 Talent 中设置聘约。
 author: josaw
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
+ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: bb90f0a3c87c64a74ca63610105abfeb8223900a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/06/2019
+ms.locfileid: "376499"
 ---
 # <a name="set-up-offer-management"></a>设置聘约管理 
 
@@ -203,5 +203,7 @@ ms.lasthandoff: 12/07/2018
 
     - ESign - 这是默认选项，现成提供，在其中，用户可以通过键入姓名和姓名首字母缩写对聘约进行签名。
 
-若要了解有关聘约创建流程的更多信息，请参阅[创建、审核和签署聘约](./creating-offers.md)。
+>[!NOTE]
+> 对于 Adobe Sign 许可证和免费试用版，请访问此[链接](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html)。
 
+若要了解有关聘约创建流程的更多信息，请参阅[创建、审核和签署聘约](./creating-offers.md)。

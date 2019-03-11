@@ -1,13 +1,13 @@
 ---
-title: "远期支票"
-description: "本文提供有关 Microsoft Dynamics 365 for Finance and Operations 中远期支票的支持的信息。 远期支票是签发用于在将来时间进行付款和收款的支票。 因此，支票在指定日期前不能兑现。"
+title: 远期支票
+description: 本文提供有关 Microsoft Dynamics 365 for Finance and Operations 中远期支票的支持的信息。 远期支票是签发用于在将来时间进行付款和收款的支票。 因此，支票在指定日期前不能兑现。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPostDatedChecks, CustPostDatedChecks
 audience: Application User
 ms.reviewer: shylaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 8fd721dc3166dcd981b749c673d3c625b4e5ae36
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "362916"
 ---
-
 # <a name="postdated-checks"></a>远期支票
 
 [!include [banner](../includes/banner.md)]
 
 本文提供有关 Microsoft Dynamics 365 for Finance and Operations 中远期支票的支持的信息。 远期支票是签发用于在将来时间进行付款和收款的支票。 因此，支票在指定日期前不能兑现。
 
-Microsoft Dynamics 365 for Finance and Operations 支持应收账款和应付账款中远期支票的完整管理周期，如下表中所示。
+Microsoft Dynamics 365 for Finance and Operations 支持应收帐款和应付帐款中远期支票的完整管理周期，如下表中所示。
 <table>
 <colgroup>
 <col width="50%" />
@@ -97,7 +96,6 @@ Microsoft Dynamics 365 for Finance and Operations 支持应收账款和应付账
 [为供应商登记和过帐远期支票](tasks/register-post-postdated-check-vendor.md) 
 
 [结算供应商的远期支票](tasks/settle-postdated-check-vendor.md)
-
 
 
 

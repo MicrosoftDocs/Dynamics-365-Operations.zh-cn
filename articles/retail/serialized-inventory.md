@@ -1,13 +1,13 @@
 ---
-title: "序列化产品的销售点 (POS) 改进"
-description: "此主题列出了为了帮助您节省时间和提高生产效率而对序列化产品做出的改进。"
+title: 序列化产品的销售点 (POS) 改进
+description: 此主题列出了为了帮助您节省时间和提高生产效率而对序列化产品做出的改进。
 author: ShalabhjainMSFT
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,14 +16,13 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-08-01
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 17cd46ba9ee972c92db8950eea1cd258d67c2e92
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346195"
 ---
-
 # <a name="point-of-sale-pos-improvements-for-serialized-products"></a>序列化产品的销售点 (POS) 改进
 
 [!include [banner](includes/banner.md)]
@@ -43,4 +42,3 @@ ms.lasthandoff: 01/04/2019
 - **下达客户订单不需要提供序列号** - 可以在一个商店下达客户订单，并从另一个商店完成该订单。 下达客户订单的出纳不必提供序列号。 在领料或装货步骤中将提供该序列号。 但是，选择了**自提**交货类型的所有行项都必须提供序列号。 否则无法完成交易记录。
 - **序列化产品没有在交易记录屏幕上聚合** - 使用**功能配置文件**页的**终端**字段组中的**聚合产品**设置可以在交易记录屏幕上聚合相同的非序列化产品。 聚合相同产品时，更容易在交易记录网格中进行查看。 但是，由于序列号通常是唯一的，且销售内勤在结帐前无需输入序列号，因此**聚合产品**设置不适用于序列化产品。 因此，如果选择了**聚合产品**设置，则不会在交易记录屏幕上聚合序列化产品。
 - **按序列号搜索日记帐的功能** – 现在可以额外按序列号搜索日记帐。 若要执行此操作，请打开“日记帐”操作，并按下应用栏上的“高级搜索”按钮。 使用“添加筛选器”按钮，也可以应用筛选器来搜索序列号。
-

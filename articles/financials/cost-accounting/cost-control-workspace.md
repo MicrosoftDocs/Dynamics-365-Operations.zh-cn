@@ -1,32 +1,31 @@
 ---
-title: "成本控制工作区"
-description: "此主题提供了有关成本控制工作区的信息。 此工作区是负责控制一个维度内或跨维度的一个成本对象或一组成本对象的经理可以访问报表的一个中心点。"
+title: 成本控制工作区
+description: 此主题提供了有关成本控制工作区的信息。 此工作区是负责控制一个维度内或跨维度的一个成本对象或一组成本对象的经理可以访问报表的一个中心点。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/16/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CAMCostControlWorkspaceConfiguration, CAMCostControlWorkspace
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: c6a196c677ed27666efec8a180f1d3b7e7ee931c
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 934ab83d45aad32c067e8422c5415d4a0a6481b4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363744"
 ---
-
 # <a name="cost-control-overview"></a>成本控制概览 
 
 [!include [banner](../includes/banner.md)]
@@ -157,6 +156,5 @@ ms.lasthandoff: 05/08/2018
 其他资源 
 
 [定义成本对象控制员的访问权限](access-rights-cost-object-controller.md)
-
 
 

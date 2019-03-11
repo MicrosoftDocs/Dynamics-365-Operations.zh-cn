@@ -1,13 +1,13 @@
---- 
-title: "配置机器学习支持的产品建议"
-description: "此过程刷新实体商店中为生产建议提供支持的机器学习系统使用的数据，然后启用有关 POS 客户端的产品建议。"
+---
+title: 配置机器学习支持的产品建议
+description: 此过程刷新实体商店中为生产建议提供支持的机器学习系统使用的数据，然后启用有关 POS 客户端的产品建议。
 author: ashishmsft
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BIMeasurementDeployManagementEntityStore, RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 700af913f18e23c66db53a92033def06818af1ec
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 277ffb879b80fe57deeaa2b52c1543baaf820274
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348518"
 ---
 # <a name="configure-machine-learning-powered-product-recommendations"></a>配置机器学习支持的产品建议
 
@@ -41,5 +41,4 @@ ms.lasthandoff: 02/07/2018
     * 如果收到消息“无法检索建议模型”，这是因为您最近刷新了实体商店，并且系统可能尚未完成新数据的吸收。 等待 2-3 小时再重试。  
 9. 单击“保存”。
 10. 关闭该页面。
-
 

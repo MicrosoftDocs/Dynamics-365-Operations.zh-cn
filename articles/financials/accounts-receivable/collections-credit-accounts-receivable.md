@@ -1,13 +1,13 @@
 ---
-title: "在应收账款中的信用和收款"
-description: "使用 Microsoft Dynamics 365 for Finance and Operations 集合页，在一个中心视图中管理应收帐款收款信息。 信用和收款经理可以使用该中央视图管理收款。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。"
+title: 在应收账款中的信用和收款
+description: 应付帐款收款信息使用 Microsoft Dynamics 365 for Finance and Operations 收款页在一个中央视图中进行管理。 信用和收款经理可以使用该中央视图管理收款。 收款代理通过使用预定义的收集标准，或者从客户页生成的客户列表收集流程开始。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustAgingSnapshot, CustBankAccounts, CustCollections, CustCollectionsActivitiesListPage, CustCollectionsAgent, CustCollectionsCaseListPage, CustCollectionsPool, CustCollectionsPoolsListPage, CustTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: c36e7a5d28baf149b982a0afd5fdd79fe8a91850
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: 23fc1a160cf25255a1677ca0e501c374746b6e34
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351669"
 ---
-
 # <a name="credit-and-collections-in-accounts-receivable"></a>在应收账款中的信用和收款
 
 [!include [banner](../includes/banner.md)]
@@ -107,7 +106,6 @@ FactBox 显示所选客户的帐龄余额和信用额度信息。 此信息存�
 --------------------------------------------
 
 您可以通过单击“收款”页的“NSF 支付”来处理 NSF 支付。 当您单击此按钮时，取消付款。 如果 NSF 费用应用于该客户，则可以在付款日记帐中创建费用交易记录。 该费用金额是基于自动费用的设置的。 申请 NSF 支付的自动费用由受影响的银行帐户的“银行帐户”页中选择的费用组指定。
-
 
 
 

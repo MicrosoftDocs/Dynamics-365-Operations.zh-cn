@@ -1,14 +1,14 @@
 ---
-title: "流程中的活动"
-description: "本主题提供有关可用于招聘流程的活动的各个类型的信息。"
-author: 
+title: 流程中的活动
+description: 本主题提供有关可用于招聘流程的活动的各个类型的信息。
+author: ''
 manager: AnnBe
-ms.date: 12/07/2018
+ms.date: 02/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent, Core
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
+ms.openlocfilehash: c32db1f563466f05b9fef1a03578392888c0b7e6
+ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
 ms.translationtype: HT
-ms.sourcegitcommit: be66d9f95551066bb8bc25445c652d4fa59066d4
-ms.openlocfilehash: 4f59193991420fd9ec05a83049e569058bf81932
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 02/05/2019
+ms.locfileid: "374749"
 ---
-
 # <a name="activities-in-the-hiring-processes"></a>招聘流程中的活动
 
 [!include[banner](../includes/banner.md)]
@@ -43,31 +42,9 @@ ms.lasthandoff: 12/07/2018
 
 申请活动是招聘流程模板的必要项目。 要在应聘者发送申请或被添加到申请阶段时向其发送电子邮件，请将**向应聘者发送邮件**选项设置为**开**。
 
-## <a name="scheduler-activity"></a>计划程序活动
+## <a name="interview-schedule-and-feedback-activity"></a>面试时间表和反馈活动
 
-计划程序活动是可选的。 此活动具有两个组件：应聘者可用日期和计划。 应聘者可用日期组件允许您使用电子邮件请求应聘者的可用日期。 计划组件提供计划应聘者和招聘团队的面试的能力。 在计划活动中，可以配置以下选项：**请求应聘者可用日期**、**联机会议**和**向应聘者发送邮件**。
-
-- 要向应聘者发送电子邮件以请求其可用日期，请将**请求应聘者可用日期**选项设置为**开**。 如果您将此选项设置为**关**，此步骤不会在工作的招聘流程中显示。
-- 若要使用 Skype for Business 实时传输或进行电话会议，请将**联机会议**字段设置为 **Skype for Business**。 正确的**加入 Skype 会议**链接随后将添加到发送给面试官的面试会议请求中。
-- 要向应聘者发送电子邮件以最终确定计划，请将**向应聘者发送邮件**选项设置为**开**。 如果您将此选项设置为**关**，仅当应聘者登录应聘者门户时他们才会收到面试计划。
-
-## <a name="feedback-activity"></a>反馈活动
-
-反馈活动是可选的。 此活动允许面试参与者为申请人输入建议。 他们还可以输入要添加的任何反馈注释。 如果打开**继承来自招聘团队的反馈参与者**选项，招聘人员、招聘经理和面试官将自动进入反馈活动。 组织可以允许面试官在提交他们自己的反馈前查看其他人员的反馈。 组织还可以允许面试官在提交反馈后编辑反馈。
-
-## <a name="interview-activity"></a>面试活动
-
-面试活动是可选的。 此活动具有三个组件：应聘者可用日期、计划和反馈。 应聘者可用日期组件允许您使用电子邮件请求应聘者的可用日期。 计划组件提供计划应聘者和招聘团队的面试的能力。 在计划活动中，可以配置以下选项：**请求应聘者可用日期**、**联机会议**和**向应聘者发送邮件**。
-
-- 要向应聘者发送电子邮件以请求其可用日期，请将**请求应聘者可用日期**选项设置为**开**。 如果您将此选项设置为**关**，此步骤不会在工作的招聘流程中显示。
-- 若要使用 Skype for Business 实时传输或进行电话会议，请将**联机会议**字段设置为 **Skype for Business**。 正确的**加入 Skype 会议**链接随后将添加到面试会议请求中。
-- 要向应聘者发送电子邮件以最终确定计划，请将**向应聘者发送邮件**选项设置为**开**。 如果您将此选项设置为**关**，仅当应聘者登录应聘者门户时他们才会收到面试计划。
-
->[!NOTE]
-> - 对于所有 1:1 面试，如果面试官尚未响应（接受或拒绝）请求，将每 24 小时向面试官发送提醒。
-> - 对于所有小组面试，没有自动的面试请求响应提醒。 若要手动触发提醒，请编辑面试并使用**更新并发送**选项将请求发送回面试官。
-
-反馈组件允许人员为申请人输入建议。 他们还可以输入要添加的任何反馈注释。 如果打开**继承来自招聘团队的反馈参与者**选项，招聘人员、招聘经理和面试官将自动进入反馈组件。 组织可以允许面试官在提交他们自己的反馈前查看其他人员的反馈。 组织还可以允许面试官在提交反馈后编辑反馈。
+此活动具有三个组件：应聘者可用日期请求、计划和反馈。 如果您希望作为流程的一部分包含候选人可用日期请求、计划和反馈，而不是作为招聘流程的一部分单独使用它们，应在工作模板中使用面试活动。 有关详细信息，请参阅[面试计划和反馈](interview-scheduling-feedback.md)。
 
 ## <a name="powerapps-activity"></a>PowerApps 活动
 
@@ -102,4 +79,3 @@ Microsoft 窗体活动让您可以在招聘流程中嵌入 Microsoft 窗体。 M
 
 > [!NOTE]
 > Microsoft 窗体活动仅通过综合招聘附件提供。
-

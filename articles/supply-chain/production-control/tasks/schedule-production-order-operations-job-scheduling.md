@@ -1,13 +1,13 @@
---- 
-title: "使用工序级和作业级排产计划生产订单"
-description: "此过程的重点是使用工序级排产和作业级排产计划生产订单。"
+---
+title: 使用工序级和作业级排产计划生产订单
+description: 此过程的重点是使用工序级排产和作业级排产计划生产订单。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProdTableListPage, ProdTableCreate, InventItemIdLookupPurchase, ProdSchedule, ProdTable, ProdRouteJob
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 00698e9cd2ed0481e5fed301c8a8c2e98690a5db
+ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: d4aac437876862e9f776264fc81f246c820bdf45
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/30/2019
+ms.locfileid: "352451"
 ---
 # <a name="schedule-a-production-order-with-operations-and-job-scheduling"></a>使用工序级和作业级排产计划生产订单
 
@@ -63,5 +63,4 @@ ms.lasthandoff: 09/29/2017
 6. 在操作窗格上单击“生产订单”。
 7. 单击“所有作业”。
     * 请注意，根据有效的工艺路线，通过作业级排产创建 5 个作业。  
-
 

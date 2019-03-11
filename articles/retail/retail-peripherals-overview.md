@@ -1,13 +1,13 @@
 ---
-title: "零售外设"
-description: "此主题介绍与零售外设有关的概念。"
+title: 零售外设
+description: 此主题介绍与零售外设有关的概念。
 author: rubencdelgado
 manager: AnnBe
-ms.date: 11/14/2017
+ms.date: 01/16/2019
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTerminalTable, RetailDevice, RetailHardwareProfile
 audience: Application User, IT Pro
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
-ms.openlocfilehash: c2539af8a29b580a10002bc8648505d42c7b8456
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347851"
 ---
-
 # <a name="retail-peripherals"></a>零售外设
 
 [!include [banner](includes/banner.md)]
@@ -127,7 +126,7 @@ POS 外设通常划分为类。 此部分描述并提供 Modern POS 支持的设
 对 OLE for POS 的 OPOS 实施的支持有助于确保当设备制造商和 POS 发布商正确实施标准时，POS 系统和支持的设备可以协同工作，即使以前未一起测试时也不例外。
 
 > [!NOTE]
-> 支持 OPOS 不保证支持采用了 OPOS 驱动设备的所有设备。 Microsoft Dynamics 365 for Retail 必须首先通过 OPOS 支持该设备类型（即类）。 此外，服务对象可能并非始终安装了最新版本的 CCO。 您还应注意，服务对象的质量往往参差不齐。
+> 支持 OPOS 不保证支持采用了 OPOS 驱动设备的所有设备。 Microsoft Dynamics 365 for Retail 必须首先通过 OPOS 支持该设备类型（或类）。 此外，服务对象可能并非始终安装了最新版本的 CCO。 您还应注意，服务对象的质量往往参差不齐。
 
 ### <a name="windows"></a>窗口
 
@@ -203,7 +202,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 ### <a name="modern-pos-for-windows-setup-and-configuration"></a>Modern POS for Windows 设置和配置
 
-有关新信息，请参阅 [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)。
+有关信息，请参阅 [Retail Modern POS 配置和安装](retail-modern-pos-device-activation.md)。
 
 ### <a name="opos-device-setup-and-configuration"></a>OPOS 设备设置和配置
 
@@ -296,7 +295,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>网络
-<blockquote>[!NOTE] 如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</blockquote>
+<blockquote>注意：如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</blockquote>
 </li>
 </ul>
 </td>
@@ -307,7 +306,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>网络
-<blockquote>[!NOTE] 如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</blockquote>
+<blockquote>注意：如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</blockquote>
 </li>
 </ul>
 </td>
@@ -375,7 +374,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>Windows 驱动程序
-<blockquote>[!NOTE] 对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</blockquote>
+<blockquote>注意：对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</blockquote>
 </li>
 <li>网络</li>
 </ul>
@@ -405,7 +404,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>网络
-<blockquote>[!NOTE] 如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</blockquote>
+<blockquote>注意：如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</blockquote>
 </li>
 </ul>
 </td>
@@ -470,7 +469,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>Windows 驱动程序
-<blockquote>[!NOTE] 对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</blockquote>
+<blockquote>注意：对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</blockquote>
 </li>
 <li>网络</li>
 </ul>
@@ -492,7 +491,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>网络
-<blockquote>[!NOTE] 如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</blockquote>
+<blockquote>注意：如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</blockquote>
 </li>
 </ul>
 </td>
@@ -743,7 +742,6 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | 自定义    | 通过网络连接     |
-| Star         | TSP100   | OPOS      | 需要 TSP650II 驱动程序 |
 | HP           | F7M67AA  | OPOS      | 带电 USB               |
 
 #### <a name="bar-code-scanner"></a>条码扫描仪
@@ -818,7 +816,6 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 | Epson        | TM-T88V  | OPOS      |                           |
 | Star         | TSP650II | OPOS      |                           |
 | Star         | TSP650II | 自定义    | 通过网络连接     |
-| Star         | TSP100   | OPOS      | 需要 TSP650II 驱动程序 |
 | HP           | F7M67AA  | OPOS      | 带电 USB               |
 
 #### <a name="payment-terminal"></a>付款终端
@@ -894,4 +891,3 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 ## <a name="additional-resources"></a>其他资源
 
 [零售外围设备模拟器](dev-itpro/retail-peripheral-simulator.md)
-

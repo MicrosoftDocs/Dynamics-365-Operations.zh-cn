@@ -1,13 +1,13 @@
 ---
-title: "对帐单过帐功能改进"
-description: "此主题介绍对对报单过帐功能的改进。"
+title: 对帐单过帐功能改进
+description: 此主题介绍对对报单过帐功能的改进。
 author: josaw1
 manager: AnnBe
 ms.date: 04/26/2016
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
@@ -16,21 +16,20 @@ ms.search.industry: retail
 ms.author: anpurush
 ms.search.validFrom: 2018-04-30
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 3e8c5466a68fa87326c46a4e36bf7399be1279c6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "321424"
 ---
-
 # <a name="improvements-to-statement-posting-functionality"></a>对帐单过帐功能改进
 
 [!include[banner](includes/banner.md)]
 
 此主题介绍对对报单过帐功能的第一组改进。 Microsoft Dynamics 365 for Finance and Operations 7.3.2 中提供了这些改进。
 
-## <a name="activation"></a>激活
+## <a name="activation"></a>启用
 
 默认情况下，部署 Finance and Operations 7.3.2 期间，程序设置为使用传统功能执行对帐单过帐。 若要启用改进的对帐单过帐功能，必须为其开启配置键。
 
@@ -171,4 +170,3 @@ Finance and Operations 中包含与以下配置键有关的验证：
 
     - 转至**零售** \> **总部设置** \> **参数** \> **零售参数**。 然后，在**过帐**选项卡上**库存更新**快速选项卡的**详细程度**字段中，选择**摘要**。
     - 转至**零售** \> **总部设置** \> **参数** \> **零售参数**。 然后，在**过帐**选项卡上的**聚合**快速选项卡中，将**凭证交易记录**选项设置为**是**。
-

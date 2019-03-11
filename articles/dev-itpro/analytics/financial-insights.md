@@ -1,13 +1,13 @@
 ---
-title: "财务见解"
-description: "财务见解使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。"
+title: 财务见解
+description: 财务见解使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。
 author: kweekley
 manager: AnnBe
 ms.date: 08/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -16,20 +16,19 @@ ms.assetid: 517e6a88-e7a1-4398-9971-b22fa83306ba
 ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: 7.3
-ms.translationtype: HT
-ms.sourcegitcommit: 4f4cb254ad2d4328e146f5dba471aafb21660986
+ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308843"
 ---
-
 # <a name="financial-insights"></a>财务见解
 
 [!include [banner](../includes/banner.md)]
 
-**财务见解**使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。 Microsoft Dynamics 365 for Finance and Operations 中已嵌入 Power BI。 **财务见解**的主要功能是分析报告。 组织中的人员可查看、研究、了解和采取行动。 
+**财务见解**使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。 Microsoft Dynamics 365 Finance and Operations 中已嵌入 Power BI。 **财务见解**的主要功能是分析报告。 组织中的人员可查看、研究、了解和采取行动。 
 
 **财务见解**合并来自总帐和子分类帐的数据，以提供更全面的组织财务状况介绍。
 
@@ -243,11 +242,10 @@ Power BI 也有一个按钮（**钻取**字段后的第二个按钮）用于转�
 Power BI 不提供用于隐藏和显示空行的选项。 如果行中没有任何数据，视觉对象中将不显示该行。
 
 
-## <a name="additional-resources-for-power-bi"></a>适用于 Power BI 的其他资源
+## <a name="additional-resources-for-power-bi"></a>Power BI 的其他资源
 
 在生产环境中，不需要以下资源中的信息即可为 **CFO 概览**或**财务见解**工作区启用嵌入式报表。 不过它们对开发箱很有帮助，而您希望将自己的 Power BI 报表嵌入 Finance and Operations 中时也有帮助。
 
 - <https://blogs.msdn.microsoft.com/dynamicsaxbi/2017/07/29/accessing-analytical-workspaces-on-1box-environment/>
 
 - <https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/analytics/add-analytics-tab-workspaces>
-

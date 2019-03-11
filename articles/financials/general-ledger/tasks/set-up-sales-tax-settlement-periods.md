@@ -1,13 +1,13 @@
---- 
-title: "设置销售税结算期间"
-description: "销售税结算期间含有有关需要申报和缴纳的销售税的期间间隔的信息。"
+---
+title: 设置销售税结算期间
+description: 销售税结算期间含有有关需要申报和缴纳的销售税的期间间隔的信息。
 author: twheeloc
 manager: AnnBe
 ms.date: 10/15/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: TaxPeriod
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 81214cc52b1488bb70ac5fd6ccc817f6f979163d
 ms.openlocfilehash: 1087ed78e91b487ca7157bfdac1d72ae3f477875
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/16/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326185"
 ---
 # <a name="set-up-sales-tax-settlement-periods"></a>设置销售税结算期间
 
@@ -60,5 +60,4 @@ ms.lasthandoff: 10/16/2018
 20. 单击“新建期间间隔”。
     * 一旦输入第一个期间间隔，可自动创建新期间。 您可以返回和根据需要添加新期间间隔。  
 21. 关闭该页面。
-
 

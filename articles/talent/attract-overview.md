@@ -1,13 +1,13 @@
 ---
-title: "Attract 特色和功能"
-description: "此主题描述 Attract 提供的用于管理招聘新人才的流程的功能。"
+title: Attract 特色和功能
+description: 此主题描述 Attract 提供的用于管理招聘新人才的流程的功能。
 author: rschloma
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: rschloma
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: e890e32049e930b70c2d0aac8aa8206ab999418a
 ms.openlocfilehash: dd65def0006445da1a8d07577cf5ef05178c19bd
-ms.contentlocale: zh-cn
-ms.lasthandoff: 10/22/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303422"
 ---
 # <a name="attract-features-and-capabilities"></a>Attract 特色和功能
 
@@ -46,4 +46,3 @@ Attract 提供预定义的招聘流程，包含四个基本阶段：申请、筛
 
 ## <a name="candidate-app"></a>应聘者应用
 应聘者被添加到工作后，便会收到一封电子邮件，其中包含获取该 Web 应用的链接。 此应用提供工作详细信息，并用于与招聘团队进行沟通。 应聘者还可以使用它来提交他们可接受面试的可用日期。
-

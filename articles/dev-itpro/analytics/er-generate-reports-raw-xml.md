@@ -1,13 +1,13 @@
 ---
-title: "通过添加原始 XML 格式的内容创建报表"
-description: "可以设计电子申报 (ER) 格式以生成 XML 格式的传出单据。"
+title: 通过添加原始 XML 格式的内容创建报表
+description: 可以设计电子申报 (ER) 格式以生成 XML 格式的传出单据。
 author: NickSelin
 manager: AnnBe
 ms.date: 05/25/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer, IT Pro
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
+ms.openlocfilehash: 39503d051e3b4686bbaa0130fe5be7cb980fbcb4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: 56a5f53e1d3da8aa57e98e7d34fbc9c4005b6df8
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312178"
 ---
-
 # <a name="generate-reports-by-adding-content-as-raw-xml"></a>通过将内容添加为原始 XML 生成报告
 
 [!include[banner](../includes/banner.md)]
@@ -39,4 +38,3 @@ ms.lasthandoff: 08/08/2018
 > 请注意，此框架不控制通过使用**原始 XML** 格式元素放入生成的单据中的 XML 内容是否正确。
 
 若要了解有关此功能的详细信息，请播放 **ER 使用原始 XML 数据生成 XML 报表（第 1 部分：设计数据模型）** 和 **ER 使用原始 XML 数据生成 XML 报表（第 2 部分：设计和运行报表）** 任务指南，这些任务指南属于 **7.5.4.3 获取/开发 IT 服务/解决方案 (10677)** 业务流程，可以从 [Microsoft 下载中心](https://go.microsoft.com/fwlink/?linkid=874684)下载。 这些任务指南引导您完成配置 ER 格式以将原始 XML 数据插入生成的文件中这一过程。
-

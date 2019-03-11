@@ -1,13 +1,13 @@
 ---
-title: "过帐定义"
-description: "本文提供示例以显示如何将过帐定义用于采购订单保留款和预算拨款。"
+title: 过帐定义
+description: 本文提供示例以显示如何将过帐定义用于采购订单保留款和预算拨款。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JournalizingDefinition, JournalizingDefinitionTrans
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: f5fb08a86639e9a9a79dca5fc1200e73e5870432
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 10015952773ce0ae6ab36912df636919b572704d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310246"
 ---
-
 # <a name="posting-definition-examples"></a>过帐定义示例
 
 [!include [banner](../includes/banner.md)]
@@ -124,7 +123,6 @@ ms.lasthandoff: 04/13/2018
 | 300146-OU\_1-OU\_3566-Training | 250.00 |        |         |
 
 在此示例中，所有科目都是科目结构的一部分 - P&L 与过账定义条件匹配。 因此，在对 606400-OU\_1-OU\_3566-Training 进行评估时，创建生成的分类帐条目。
-
 
 
 

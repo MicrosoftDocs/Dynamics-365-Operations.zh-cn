@@ -1,13 +1,13 @@
---- 
-title: "创建在线渠道和定义渠道属性"
-description: "此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。"
+---
+title: 创建在线渠道和定义渠道属性
+description: 此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。
 author: jashanno
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailSPOnlineStoreDetailPage, SysLookupMultiSelectGrid, DimensionLookup, OMHierarchyManager, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "312362"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>创建在线渠道和定义渠道属性
 
@@ -60,5 +60,4 @@ ms.lasthandoff: 09/14/2018
 9. 单击“发布”以打开下拉对话框。
 10. 在“有效日期”字段中输入日期和时间。
 11. 单击“发布”。
-
 

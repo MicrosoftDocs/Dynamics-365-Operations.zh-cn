@@ -1,13 +1,13 @@
---- 
-title: "定义资源功能"
-description: "资源功能描述了运营资源可执行的内容。"
+---
+title: 定义资源功能
+description: 资源功能描述了运营资源可执行的内容。
 author: sorenva
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WrkCtrCapability
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0940883d0e9edf56e61b5ecd817062aac5e0f8a6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 99c230c0e6a580f77d863b6f0be298615966c479
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "340146"
 ---
 # <a name="define-resource-capabilities"></a>定义资源功能
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
     * 在安排工作和操作时，可以指定是否按优先级选择资源。 如果您按优先级选择资源，并且在请求日期之前有多个可执行该工作或操作的资源，则根据所要求的功能选择最低优先级的资源。  
 5. 在“水平”字段，输入一个数值。
     * 当您指定某项工作或操作需要某种特定功能，您还可以指定所需功能的最低水平。 使用功能级别区分资源可以根据不同的速度、力量、大小等执行同类工作。  
-
 

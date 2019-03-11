@@ -1,13 +1,13 @@
---- 
-title: "管理休假"
-description: "此过程为员工休假记录的创建。"
+---
+title: 管理休假
+description: 此过程为员工休假记录的创建。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmWorker, HcmEmploymentLeave
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 7687d31fbf73a02b1b924d092e77ac28b573e694
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337961"
 ---
 # <a name="manage-leave-of-absence"></a>管理休假
 
@@ -46,5 +46,4 @@ ms.lasthandoff: 09/14/2018
 11. 在“说明”字段中，输入描述。
     * 例如：休假应用  
 12. 单击“保存”。
-
 

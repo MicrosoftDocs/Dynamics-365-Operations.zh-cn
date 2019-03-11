@@ -1,13 +1,13 @@
---- 
-title: "设置固定资产过帐模板"
-description: "此任务指南将设置固定资产过帐模板。"
+---
+title: 设置固定资产过帐模板
+description: 此任务指南将设置固定资产过帐模板。
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetPosting
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 286c8732c1f2c92d0f16582b0b9de41990280e5a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b9766d96d16429d0ce0864695a3157f54cad4054
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351094"
 ---
 # <a name="set-up-fixed-asset-posting-profiles"></a>设置固定资产过帐模板
 
@@ -132,5 +132,4 @@ ms.lasthandoff: 09/29/2017
 87. 在“过帐值”字段中，选择“帐面净值”。
 88. 在“主科目”字段中，指定所需值。
 89. 在“抵销帐户”字段中，指定所需值。
-
 

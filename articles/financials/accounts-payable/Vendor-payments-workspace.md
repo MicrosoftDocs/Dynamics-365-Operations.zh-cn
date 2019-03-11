@@ -1,30 +1,29 @@
 ---
-title: "供应商付款工作区"
-description: "此主题提供有关供应商付款工作区的信息。 供应商付款工作区显示与处理供应商付款有关的信息。"
+title: 供应商付款工作区
+description: 此主题提供有关供应商付款工作区的信息。 供应商付款工作区显示与处理供应商付款有关的信息。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 05/09/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: VendPaymentWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 03fd290f8ad780e740a8fe6552c7a64c44b65a67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: cb5a674472936a52b624c548fd37079d57eb6cb7
-ms.openlocfilehash: fa8ddf52d34c3662e120509156ab0b343bb4cc16
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/14/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346103"
 ---
-
 # <a name="vendor-payments-workspace"></a>供应商付款工作区
 
 [!include [banner](../includes/banner.md)]
@@ -69,5 +68,4 @@ ms.lasthandoff: 12/14/2017
 |         付款工作流          |                                                                                <ul><li>供应商付款工作流实例</li><li>供应商付款工作流实例(按审批人)</li><li>供应商付款工作流实例(按公司)</li><li>工作流中的平均天数(按审批人)</li></ul>                                                                                |
 |    供应商到客户余额     |                                                                                                                   <ul><li>供应商到客户余额</li><li>供应商到客户余额(按公司)</li><li>供应商到客户余额明细</li></ul>                                                                                                                    |
 |    具有付款暂停的发票     |                                                                                         <ul><li>具有付款暂停的发票</li><li>具有付款暂停的发票明细</li><li>具有付款暂停的发票(按公司)</li><li>具有付款暂停的发票(按供应商组)</li></ul>                                                                                          |
-
 

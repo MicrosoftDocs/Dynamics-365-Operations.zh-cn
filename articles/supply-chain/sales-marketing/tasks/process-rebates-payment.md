@@ -1,13 +1,13 @@
---- 
-title: "处理付款返利"
-description: "该过程说明如何将已批准和处理的客户返利转换到贷方通知单。"
+---
+title: 处理付款返利
+description: 该过程说明如何将已批准和处理的客户返利转换到贷方通知单。
 author: omulvad
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b2d97a59ae782af0a3d5ab71903961ef244a8e62
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 791ec304b9ea7c49fbea506d73c4daffd4478739
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363307"
 ---
 # <a name="process-rebates-for-payment"></a>处理付款返利
 
@@ -50,5 +50,4 @@ ms.lasthandoff: 09/29/2017
 14. 单击“结算交易记录”。
     * 请注意，负数金额的交易记录（表示总返利金额，而无发票参考编号）已被添加到客户余额。   
 15. 单击“取消”。
-
 

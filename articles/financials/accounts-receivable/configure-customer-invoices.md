@@ -1,13 +1,13 @@
 ---
-title: "创建客户发票"
-description: "**销售订单的客户发票**是与销售相关的、组织提供给客户的单据。"
+title: 创建客户发票
+description: '**销售订单的客户发票**是与销售相关的、组织提供给客户的单据。'
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustFreeInvoice
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: bb1ee5809c30b4f4836fef02a0491b6885e61219
 ms.openlocfilehash: 6d7c9a61f935503b74ac27b354c875df095d84b4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "365262"
 ---
-
 # <a name="create-a-customer-invoice"></a>创建客户发票
 
 [!include [banner](../includes/banner.md)]
@@ -97,7 +96,7 @@ ms.lasthandoff: 08/14/2018
 </ul></td>
 </tr>
 <tr class="even">
-<td>正在过帐</td>
+<td>过帐</td>
 <td><ul>
 <li>选择此选项可将销售订单记入日记帐。</li>
 <li>清除此选项可以打印估价销售订单。 <strong>注释：</strong>如果已就付款计划签订协议，付款计划不会显示在估价销售订单上。 付款计划只显示在实际销售订单上。</li>
@@ -163,7 +162,6 @@ ms.lasthandoff: 08/14/2018
 </tr>
 </tbody>
 </table>
-
 
 
 

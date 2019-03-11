@@ -1,13 +1,13 @@
---- 
-title: "使用供应商协作监控托运库存"
-description: "此过程显示如何通过供应商协作查看有关您在客户托运中发放的物料的存货级别的信息。"
+---
+title: 使用供应商协作监控托运库存
+description: 此过程显示如何通过供应商协作查看有关您在客户托运中发放的物料的存货级别的信息。
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ConsignmentProductReceiptLines, PurchVendorPortalConfirmedOrders, DefaultDashboard, ConsignmentVendorPortalOnhand
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 8186b553e8518f3153bfd88b89121d4b0567501b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 567be29bd9989b3471b22d5a970ed0e51e4549ec
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329428"
 ---
 # <a name="monitor-consignment-inventory-using-vendor-collaboration"></a>使用供应商协作监控托运库存
 
@@ -33,7 +33,7 @@ ms.lasthandoff: 09/29/2017
 
 ## <a name="view-consumed-inventory"></a>查看消耗的库存
 1. 转到“供应商协作”>“托运库存”>“从托运库存接收的产品”。
-    * 此列表显示托运库存所有权从供应商更改为客户时生成的物料收货行。 可能必须向右滚动才能看到数量和其他信息。 可以使用此列表中的信息为客户生成发票。 也可以将数据导出到 Microsoft Excel。   
+    * 此列表显示托运库存所有权从供应商更改为客户时生成的物料收货行。 可能必须向右滚动才能看到数量和其他信息。 可以使用此列表中的信息为客户生成发票。 您还可以将数据导出至 Microsoft Excel。   
 2. 单击“查看采购订单”。
 3. 展开“行明细”部分。
     * 此行标记为“托运”，并且标题部分显示状态为“入库”的采购订单。  
@@ -42,5 +42,4 @@ ms.lasthandoff: 09/29/2017
 ## <a name="view-on-hand-inventory"></a>查看现有库存量
 1. 转到“供应商协作”>“托运库存”>“现有托运库存”。
     * “现有托运库存”页面显示您在客户的仓库中拥有的存货。 可以通过单击“显示维度”选项卡显示更多维度，如站点和仓库。   
-
 

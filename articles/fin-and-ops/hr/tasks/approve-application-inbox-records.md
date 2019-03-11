@@ -1,13 +1,13 @@
---- 
-title: "审核申请表收件箱记录"
-description: "此过程显示如何通过员工自助服务页查看接收的申请表。"
+---
+title: 审核申请表收件箱记录
+description: 此过程显示如何通过员工自助服务页查看接收的申请表。
 author: ShielaSogge
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HRMApplicationBasket, HRMApplicationBasketApprove, HRMApplication
 audience: Application User
 ms.reviewer: rschloma
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 87a08b33e0dc004fd836142121dca9da6d6e1a6d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 1f614b507d28429922902d6c3676483b689ac3d2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310085"
 ---
 # <a name="approve-application-inbox-records"></a>审核申请表收件箱记录
 
@@ -48,5 +48,4 @@ ms.lasthandoff: 09/29/2017
 1. 转到“人力资源”>“招聘”>“申请人”>“申请人”。
 2. 在列表中，单击所选行中的链接。
 3. 展开“附件”部分。
-
 

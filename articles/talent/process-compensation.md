@@ -1,13 +1,13 @@
 ---
-title: "处理薪酬"
-description: "薪酬处理允许您基于权益调整、业绩调薪目标和绩效为您的员工计算新的基本薪酬金额。"
+title: 处理薪酬
+description: 薪酬处理允许您基于权益调整、业绩调薪目标和绩效为您的员工计算新的基本薪酬金额。
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: rschloma
 ms.search.scope: Core, Operations, Talent
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
+ms.openlocfilehash: 3ecadaf20ea82cd1328b266907d2ba43515d76c6
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: 0886f60dbdfc531893cd2c1b23df5b52a4a2f4b6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303440"
 ---
-
 # <a name="process-compensation"></a>处理薪酬
 
 [!include [banner](includes/banner.md)]
@@ -80,4 +79,3 @@ ms.lasthandoff: 03/07/2018
 一旦将一个或多个员工事件的状态更新为已审核，可以将其加载到员工的固定薪酬记录。 要完成此操作，可以一次选择一个员工事件，并单击**员工结果**页上的**加载员工薪酬**按钮，或单击**流程结果**页上的**加载薪酬**以一次性加载所有已审核的员工事件。
 
 单击**加载薪酬**对话框中的**确定**会将非零的薪酬操作行添加到**员工固定薪酬**页。
-

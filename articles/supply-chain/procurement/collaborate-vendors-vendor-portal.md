@@ -1,13 +1,13 @@
 ---
-title: "通过使用供应商门户与供应商协作"
-description: "本主题说明在采购订单确认流程中采购代理如何使用供应商门户来与外部供应商协作。 此信息仅适用于 Dynamics AX 2016 年 2 月 &amp; 2016 年 5 月版本。"
+title: 通过使用供应商门户与供应商协作
+description: 本主题说明在采购订单确认流程中采购代理如何使用供应商门户来与外部供应商协作。 此信息仅适用于 Dynamics AX 2016 年 2 月和 2016 年 5 月版本。
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: PurchTable, PurchVendorPortalRequests
 audience: Application User
 ms.reviewer: josaw
@@ -18,21 +18,20 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 07fbc5fea1fd44769a29bcc40297ffd02812a1e5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 2fa152c5586a1122a109762780d23fd8c2240702
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "339870"
 ---
-
-# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>通过使用供应商门户与供应商协作
+# <a name="collaborate-with-vendors-by-using-the-vendor-portal"></a>使用供应商门户与供应商协作
 
 [!include [banner](../includes/banner.md)]
 
-本主题说明在采购订单确认流程中采购代理如何使用供应商门户来与外部供应商协作。 此信息仅适用于 Dynamics AX 2016 年 2 月 &amp; 2016 年 5 月版本。
+本主题说明在采购订单确认流程中采购代理如何使用供应商门户来与外部供应商协作。 此信息仅适用于 Dynamics AX 2016 年 2 月和 2016 年 5 月版本。
 
-本主题中的信息仅适用于 Dynamics AX 2016 年 2 月和 2016 年 5 月版本。 在 Dynamics 365 for Operations 1611 版本中，供应商门户功能被扩展的供应商协作功能所取代。 有关新的供应商协作功能的详细信息，请参阅[使用供应商协作与外部供应商协作](vendor-collaboration-work-external-vendors.md)。  
+本主题中的信息仅适用于 Dynamics AX 2016 年 2 月和 2016 年 5 月版本。 在 Dynamics 365 for Operations 版本 1611 中，供应商门户功能被扩展的供应商协作功能所取代。 有关新的供应商协作功能的详细信息，请参阅[使用供应商协作与外部供应商协作](vendor-collaboration-work-external-vendors.md)。  
 
 供应商门户在没有与 Microsoft Dynamics AX 的电子数据交换 (EDI) 集成以交换采购订单 (PO) 信息的供应商处定位。 该门户允许采购代理将 PO 发送给供应商并直接在 Dynamics AX 中接收“已确认”或“已拒绝”响应。  
 
@@ -102,7 +101,6 @@ PO 在 Dynamics AX 中准备。 在您具有状态为**已审核**的 PO 时，�
 [为供应商协作用户配置安全性](configure-security-vendor-portal-users.md)
 
 [供应商协作开票工作区](../../financials/accounts-payable/vendor-portal-invoicing-workspace.md)
-
 
 
 

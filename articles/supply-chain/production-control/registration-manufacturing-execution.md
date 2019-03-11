@@ -1,13 +1,13 @@
 ---
-title: "制造执行的登记"
-description: "此主题描述您需要理解才能配置和使用制造执行的重要概念和术语。"
+title: 制造执行的登记
+description: 此主题描述您需要理解才能配置和使用制造执行的重要概念和术语。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: JmgRegistration
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1bbcd7ebea869f921c2eadd05e64509ff9246aa4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e5d4ee2fb1cd58107043939c3721fd857909f16b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "318158"
 ---
-
 # <a name="registration-for-manufacturing-execution"></a>制造执行的登记
 
 [!include [banner](../includes/banner.md)]
@@ -59,7 +58,6 @@ ms.lasthandoff: 11/03/2017
 -   **登记工间休息**（时间和出勤可用）– 在工作日，工作人员可以登记自己将离开其工作站进行休息。 可以设置许多工间休息类型。 当工作人员返回并重新登录时，系统将登记该工作人员已返回，同时工间休息登记停止。
 -   **登记间接活动**（时间和出勤可用）– 间接活动是工作人员可能在工作日期间参与的非生产活动，例如部门会议、团队会议或在车间执行的维护作业。 工作人员可以在已设置的间接活动上进行登记。
 -   **登记加班时间**（时间和出勤可用）– 被要求长时间工作的工作人员可以选择额外工时是否登记为弹性工作时间或加班时间。
-
 
 
 

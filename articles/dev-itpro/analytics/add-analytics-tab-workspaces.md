@@ -1,13 +1,13 @@
 ---
-title: "使用 Power BI Embedded 将分析添加到工作区"
-description: "本主题说明如何在工作区的“分析”选项卡上嵌入 Power BI 报表。"
+title: 使用 Power BI Embedded 将分析添加到工作区
+description: 本主题说明如何在工作区的“分析”选项卡上嵌入 Power BI 报表。
 author: tjvass
 manager: AnnBe
 ms.date: 06/21/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application user, IT Pro
 ms.reviewer: robinr
 ms.search.scope: Core, Operations
@@ -15,27 +15,26 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 821d8927211d7ac3e479848c7e7bef9f650d4340
-ms.openlocfilehash: 3f6b83166ba942e40e5e1f7c0ef9df40a44bfbc5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355211"
 ---
-
 # <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a>使用 Power BI Embedded 将分析添加到工作区
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> 此功能在 Dynamics 365 for Finance and Operations（版本 7.2 及更高版本）上受支持。
+> 此功能在 Dynamics 365 for Finance and Operations（版本 7.2 及更高版本）中受支持。
 
 ## <a name="introduction"></a>简介
-本主题说明如何在工作区的**分析**选项卡上嵌入 Microsoft Power BI 报表。 对于此处提供的示例，我们将“车队管理”应用程序中的**预订管理**工作区扩展到在**分析**选项卡上嵌入分析工作区。
+本主题说明如何在工作区的**分析s**选项卡上嵌入 Microsoft Power BI 报表。 对于此处提供的示例，我们将“车队管理”应用程序中的**预订管理**工作区扩展到在**分析**选项卡上嵌入分析工作区。
 
 ## <a name="prerequisites"></a>必备项
 + 对运行平台更新 8 或更高版本的开发人员环境的访问权限。
-+ 使用 Microsoft Power BI 桌面创建的分析报表（.pbix 文件），且具有从实体商店数据库采购的数据模型。
++ 使用 Microsoft Power BI Desktop 创建的分析报表（.pbix 文件），且具有从实体商店数据库采购的数据模型。
 
 ## <a name="overview"></a>概览
 无论你是扩展现有的应用程序工作区，还是引入你自己创建新的工作区，都可以使用嵌入的分析视图来提供对你的业务数据的具有见解和交互的视图。 添加分析工作区选项卡的流程具有四个步骤。
@@ -46,10 +45,10 @@ ms.lasthandoff: 08/13/2018
 4. 可选：添加扩展以自定义视图。
 
 > [!NOTE]
-> 有关如何创建分析报表的详细信息，请参阅 [Power BI 桌面入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。 此页是提供帮助你创建出色的分析报告解决方案的见解的出色来源。
+> 有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。 此页是提供帮助你创建出色的分析报告解决方案的见解的出色来源。
 
 ## <a name="add-a-pbix-file-as-a-resource"></a>将 .pbix 文件添加为资源。
-在开始之前，你必须创建或获得在工作区中将嵌入的 Power BI 报表。 有关如何创建分析报表的详细信息，请参阅 [Power BI 桌面入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。
+在开始之前，你必须创建或获得在工作区中将嵌入的 Power BI 报表。 有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。
 
 执行以下步骤以将 .pbix 文件添加为 Visual Studio 项目。
 
@@ -177,4 +176,3 @@ public static void initializeReportControl(
 | showFilterPane   | 指示是否应显示 (**true**) 或隐藏 (**false**) 筛选器窗格的布尔值。     |
 | showNavPane      | 指示是否应显示 (**true**) 或隐藏 (**false**) 导航窗格的布尔值。 |
 | defaultFilters   | Power BI 报表的默认筛选器。                                                                 |
-

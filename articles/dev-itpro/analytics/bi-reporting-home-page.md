@@ -1,13 +1,13 @@
 ---
-title: "“商业智能 (BI) 与报告”主页"
-description: "此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations 中提供的商业智能和报告工具的详细信息。"
+title: “商业智能 (BI) 与报告”主页
+description: 此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations 中提供的商业智能和报告工具的详细信息。
 author: sericks007
 manager: AnnBe
 ms.date: 12/18/2017
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-platform
-ms.technology: 
+ms.technology: ''
 audience: Application User, IT Pro
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: e782d33f3748524491dace28008cd9148ae70529
-ms.openlocfilehash: bd3704f3b51aad7292571e5c4e6de7b93cf9529f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301947"
 ---
-
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>“商业智能 (BI) 与报告”主页
 
 [!include [banner](../includes/banner.md)]
@@ -37,7 +36,7 @@ ms.lasthandoff: 08/08/2018
 - [Finance and Operations：商业智能](https://blogs.msdn.microsoft.com/dynamicsaxbi/)（博客）
 
 ## <a name="analytical-workspaces"></a>分析工作区
-Finance and Operations 提供无缝集成到应用程序工作区的交互式报表。 工作区可以使用在 Microsoft Power BI 中受支持的丰富的信息图和视觉对象。 这些信息图和视觉对象包括许多由第三方提供的控件。 因此，工作区可以为用户提供高度可视化的交互式体验。
+Finance and Operations 提供无缝集成到应用程序工作区的交互式报表。 工作区可以使用 Microsoft Power BI 支持的丰富信息图和视觉对象。 这些信息图和视觉对象包括许多由第三方提供的控件。 因此，工作区可以为用户提供高度可视化的交互式体验。
 
 用户可以通过单击或触摸页面上的视觉对象来与数据交互。 他们可以查看因果图，并执行简单的模拟操作，无需离开工作区。 通过令人惊叹的交互式视觉对象，您的用户将满怀乐趣地探索数据和发现隐藏的趋势。
 
@@ -73,7 +72,7 @@ Finance and Operations 提供无缝集成到应用程序工作区的交互式报
 - [管理电子申报配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
 - [创建电子申报配置](electronic-reporting-configuration.md)
 
-## <a name="financial-reporting"></a>财务申报
+## <a name="financial-reporting"></a>财务报告
 提供的标准财务报表使用 Finance and Operations 中的默认主科目类别。 您可以使用报表设计器创建或修改传统的财务报表，如利润表和资产负债表。 然后可以将结果与组织中的其他成员共享。 财务报告的示例包括各年的资产负债表、现金流和试算平衡表汇总。
 
 [![财务报告示例](./media/financial-reporting-example.png)](./media/financial-reporting-example.png)
@@ -91,4 +90,3 @@ Finance and Operations 提供无缝集成到应用程序工作区的交互式报
 - [许可证代码和 Configuration Key 报表](../sysadmin/license-codes-configuration-keys-report.md)
 - [SQL Server Reporting Services 报表报告](SSRS-report.md)
 - [工作流类型报告](../../fin-and-ops/organization-administration/workflow-types-report.md)
-

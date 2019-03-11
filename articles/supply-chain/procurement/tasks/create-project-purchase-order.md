@@ -1,13 +1,13 @@
---- 
-title: "创建项目采购订单"
-description: "此过程说明如何创建项目采购订单。"
+---
+title: 创建项目采购订单
+description: 此过程说明如何创建项目采购订单。
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, PurchCreateOrder, PurchTable, InventItemIdLookupPurchase
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 0fa5f60abafb1200a61e1c9d8013fb9e28e28f48
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 5023ca589b3ab25d808a52a9162f27430bd69241
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "315214"
 ---
 # <a name="create-project-purchase-order"></a>创建项目采购订单
 
@@ -47,5 +47,4 @@ ms.lasthandoff: 09/29/2017
 13. 单击“项目”选项卡。
     * 验证销售和成本价可用。 如果不可用但需要，请输入信息。  
 14. 单击“保存”。
-
 

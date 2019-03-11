@@ -1,13 +1,13 @@
 ---
-title: "批次平衡"
-description: "此主题介绍批次平衡流程。"
+title: 批次平衡
+description: 此主题介绍批次平衡流程。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 03/15/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
+ms.openlocfilehash: 63b986f9f3a1505dba4c2f64f872b9472e1aca87
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 7d00df6263530ba9fff4c246cb3593cd607f6719
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "358615"
 ---
-
 # <a name="batch-balancing"></a>批次平衡
 
 [!include [banner](../includes/banner.md)]
@@ -194,4 +193,3 @@ ms.lasthandoff: 04/13/2018
 如果配方中包含为仓库管理流程启用的产品的有效成分，但批次号低于预留层次结构中的位置，则批次订单不适用批次平衡。
 
 不适用批次平衡的批次订单将完成批次订单的常规流程周期。
-

@@ -1,13 +1,13 @@
---- 
-title: "移动计划的看板作业"
-description: "此程序用于将计划特殊处理的看板作业转移到另一个不同期间。"
+---
+title: 移动计划的看板作业
+description: 此程序用于将计划特殊处理的看板作业转移到另一个不同期间。
 author: ChristianRytt
 manager: AnnBe
 ms.date: 11/07/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: KanbanJobSchedulingListPage
 audience: Application User
 ms.reviewer: shylaw
@@ -16,14 +16,13 @@ ms.search.region: Global
 ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: b589a6ce02cdc02436e256f9e81346fe8b766687
 ms.openlocfilehash: f791c9048ef6efe1585c991f998099cd1fc12df7
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/04/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "310844"
 ---
-
 # <a name="move-scheduled-kanban-jobs"></a>移动计划的看板作业
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
@@ -63,4 +62,3 @@ ms.lasthandoff: 12/04/2018
 2. 单击**正推**。 请注意该作业将转移到列表的下一行。 
 
 3. 单击**后退**。 请注意该作业将转移到列表的上一行。
-

@@ -1,13 +1,13 @@
 ---
-title: "部分预留的转移单批发布"
-description: "此主题描述如何从移动设备设置和应用部分预留的转移单批发布。"
+title: 部分预留的转移单批发布
+description: 此主题描述如何从移动设备设置和应用部分预留的转移单批发布。
 author: pjacobse
 manager: AnnBe
 ms.date: 05/26/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSLoadPlanningWorkbench
 audience: Application User
 ms.reviewer: josaw
@@ -17,14 +17,13 @@ ms.search.region: Global
 ms.author: pjacobse
 ms.search.validFrom: 2017-09-20
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 578b9875deec077a077b54a9227815e2c4fd3b2d
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ba426692e2e404ab75e5730b8205115fc59e402f
-ms.openlocfilehash: 4477749c721cf8c8bd244f551d9eca7ec9449fd1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343711"
 ---
-
 # <a name="batch-release-of-partially-reserved-transfer-orders"></a>部分预留的转移单批发布
 
 [!include [banner](../includes/banner.md)]
@@ -65,4 +64,3 @@ ms.lasthandoff: 02/08/2018
 -   若要设置转移单的**数量**和**允许发布已部分发放的订单**参数，请单击**仓库管理** \> **发放到仓库** \> **自动发放转移单**。
 
 -   若要设置销售订单的**数量**和**允许发布已部分发放的订单**参数，请单击**仓库管理** \> **发放到仓库** \> **自动发放销售订单**。
-

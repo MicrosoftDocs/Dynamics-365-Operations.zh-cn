@@ -1,13 +1,13 @@
 ---
-title: "客户工作流"
-description: "本主题提供有关客户工作流的信息。 您更改客户的特定字段，然后在将字段添加到客户前使用工作流发送这些更改进行审核。"
+title: 客户工作流
+description: 本主题提供有关客户工作流的信息。 您更改客户的特定字段，然后在将字段添加到客户前使用工作流发送这些更改进行审核。
 author: mikefalkner
 manager: aolson
 ms.date: 08/24/2018
 ms.topic: index-page
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: Customer
 audience: Application User
 ms.reviewer: shylaw
@@ -16,19 +16,18 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.translationtype: HT
-ms.sourcegitcommit: 98ed3378ab05c0c69c9e5b2a82310113a81c2264
 ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/31/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "301965"
 ---
-
 # <a name="customer-workflow"></a>客户工作流
 
 [!include [banner](../includes/banner.md)]
 
-客户工作流已被添加到 Microsoft Dynamics 365 for Finance and Operations 版本 8.0.4。 您可以更改客户的特定字段，然后在将字段添加到客户前使用工作流发送这些更改进行审核。
+客户工作流已添加至 Microsoft Dynamics 365 for Finance and Operations 版本 8.0.4。 您可以更改客户的特定字段，然后在将字段添加到客户前使用工作流发送这些更改进行审核。
 
 ## <a name="set-up-the-customer-workflow"></a>设置客户工作流
 
@@ -62,4 +61,3 @@ ms.lasthandoff: 08/31/2018
     页面上的状态将更改为**更改待审核**。
 
 工作流执行 Finance and Operations 中的标准工作流程。 审核人被定向到**客户**页面，在这里用户可以查看**建议的更改**页面的更改，然后选择**工作流 \> 审核**审核工作流。 在完成所有审核后，字段将更新为您建议的值。
-

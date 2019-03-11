@@ -1,32 +1,30 @@
 ---
-title: "服务管理"
-description: "使用“服务管理”建立服务协议和服务预订、处理服务订单和客户查询以及管理和分析对客户的服务传递。"
+title: 服务管理
+description: 使用“服务管理”建立服务协议和服务预订、处理服务订单和客户查询以及管理和分析对客户的服务传递。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/24/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: SMAServiceOrderTable
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 80a3cb74279f72e8cb94f3a2c38230f409067a47
 ms.openlocfilehash: 89035687d87c674cca7fa5fd3126100c4c0ad892
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "343803"
 ---
-
-
 # <a name="service-management"></a>服务管理 
 
 [!include [banner](../includes/banner.md)]
@@ -50,7 +48,7 @@ ms.lasthandoff: 08/08/2018
 
 ## <a name="business-processes"></a>业务流程
 
-下图显示**服务管理**的高级业务流程，并显示在哪些情况下服务流程与 Microsoft Dynamics 365 for Finance and Operations 中的其他模块集成。
+下图说明了**服务管理**的最高级别的业务流程，并显示了服务流程在 Microsoft Dynamics 365 for Finance and Operations 中与其他模块集成的地点。
 
 [![服务管理业务流程图](./media/sm_home_page.gif)](./media/sm_home_page.gif)
 
@@ -72,5 +70,4 @@ ms.lasthandoff: 08/08/2018
   - [人力资源](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/index)
 
   
-
 

@@ -1,13 +1,13 @@
---- 
-title: "设置物料到达概览配置文件"
-description: "此任务侧重于到货概览配置文件的设置。"
+---
+title: 设置物料到达概览配置文件
+description: 此任务侧重于到货概览配置文件的设置。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WMSArrivalOverviewProfile
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 2b61d77072358083a35de28003176cb88e53453e
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 5ddc491d73bbb6ac02e37a9c9b9d93545f6f9556
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "338007"
 ---
 # <a name="set-up-an-item-arrival-overview-profile"></a>设置物料到达概览配置文件
 
@@ -63,5 +63,4 @@ ms.lasthandoff: 02/07/2018
     * 从转移订单选择收据行。  
 17. 单击“保存”。
 18. 关闭该页面。
-
 

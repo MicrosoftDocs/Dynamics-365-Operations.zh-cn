@@ -1,13 +1,13 @@
 ---
-title: "让劳动力技能符合业务需要"
-description: "您可以跟踪工作人员、申请人或联系人具有或应该具有的技能，以有效地履行其角色。 您还可以指定特定工作所需的技能。"
+title: 让劳动力技能符合业务需要
+description: 您可以跟踪工作人员、申请人或联系人具有或应该具有的技能，以有效地履行其角色。 您还可以指定特定工作所需的技能。
 author: kherr75
 manager: AnnBe
 ms.date: 11/01/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmSkill, HcmSkillGapProfile, HcmSkillMapping, HcmSkillType
 audience: Application User
 ms.reviewer: rschloma
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
 ms.openlocfilehash: 0b86a8d134ef553db6719f4cefb02e4acfc00ae5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303399"
 ---
-
 # <a name="align-workforce-skills-with-business-needs"></a>让劳动力技能符合业务需要
 
 [!include [banner](includes/banner.md)]
@@ -70,7 +69,6 @@ ms.lasthandoff: 08/08/2018
 --------
 
 [人力资源](index.md)
-
 
 
 

@@ -1,28 +1,27 @@
 ---
-title: "客户付款见解（预览版）"
-description: "此主题介绍客户付款见解如何帮助预测何时为发票付款，以及帮助组织创建优化策略以提高按时付款概率。"
+title: 客户付款见解（预览版）
+description: 此主题介绍客户付款见解如何帮助预测何时为发票付款，以及帮助组织创建优化策略以提高按时付款概率。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 07/17/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: shylaw
-ms.search.scope: 
+ms.search.scope: ''
 ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2018-04-02
 ms.dyn365.ops.version: AX 8.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 841ea53f754f61c2930e77fdafc85eac72f47d7a
 ms.openlocfilehash: 9e722db6302d7ef51c01601cde245d4f4a333eba
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "344654"
 ---
-
 # <a name="customer-payment-insights-preview"></a>客户付款见解（预览版）
 
 [!include[banner](../includes/banner.md)]
@@ -78,4 +77,3 @@ ms.lasthandoff: 08/08/2018
 ## <a name="privacy-statement"></a>隐私声明
 
 预览版将客户数据存储在美国。 此外，预览版 (1) 采用的隐私和安全措施可能比 Dynamics 365 for Finance and Operations 服务少，(2) 不包含在该服务的服务级别协议中，(3) 不应用于处理应遵守法律或法规合规性要求的个人数据或其他数据，以及 (4) 享受有限支持。
-

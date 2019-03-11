@@ -1,13 +1,13 @@
 ---
-title: "规划组织层次结构"
-description: "设置组织和组织层次结构之前，请确保了解如何以最好的方式为业务建模。"
+title: 规划组织层次结构
+description: 设置组织和组织层次结构之前，请确保了解如何以最好的方式为业务建模。
 author: sericks007
 manager: AnnBe
 ms.date: 08/28/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: OMHierarchyManager, OMLegalEntity, OMOperatingUnit
 audience: Application User
 ms.reviewer: sericks
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 633d85333a510cec9cee2721e6e2330a47b6c78c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331981"
 ---
-
 # <a name="plan-your-organizational-hierarchy"></a>规划组织层次结构
 
 [!include [banner](../includes/banner.md)]
@@ -34,7 +33,7 @@ ms.lasthandoff: 12/18/2018
 
 组织层次结构表示构成业务的组织之间的关系。 因此，在您建模组织时最重要的注意事项是您的业务结构。 我们建议您基于高管和各功能区域（如财务和会计、人力资源、运营、采购、销售和市场）的高级经理的反馈来定义组织结构。
 
-在您计划层次结构时，考虑组织层次结构和财务维度之间的关系也十分重要。 您可以设置多个组织层次结构来表示您业务的不同视图。 通过使用财务维度，您可以基于这些视图创建报表。 与您的 Microsoft Dynamics 365 for Finance and Operations 合作伙伴一起创建满足组织和法定申报需求的层次结构。
+在您计划层次结构时，考虑组织层次结构和财务维度之间的关系也十分重要。 您可以设置多个组织层次结构来表示您业务的不同视图。 通过使用财务维度，您可以基于这些视图创建报表。 与您的 Microsoft Dynamics 365 for Finance and Operations 合作伙伴创建满足组织和法定申报需求的层次结构。
 
 > [!NOTE]
 > 尽管在 Finance and Operations 中您可以不创建法人而是使用财务维度代表法人，但财务维度并不能用于满足法人的运营或业务需要。 将 Finance and Operations 中的单位间核算功能设计成仅满足由每个交易记录所创建的会计条目。
@@ -168,7 +167,7 @@ ms.lasthandoff: 12/18/2018
 
 #### <a name="if-the-organization-is-modeled-as-a-legal-entity"></a>如果以法人建模组织
 
-对于由 Finance and Operations 支持的国家/地区，可以创建大多数法定报表。 有关每个国家/地区可用报表的信息，请参阅 Finance and Operations 的 [Microsoft Dynamics 本地化门户](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC)。 （需要一个客户源登陆。）
+对于由 Finance and Operations 支持的国家/地区，可以创建大多数法定报表。 有关每个国家/地区可用报表的信息，请参阅 Finance and Operations 的 [Microsoft Dynamics 本地化门户](https://mbs.microsoft.com/customersource/global/ax/support/support-news/GFMLocalizationPortalMC)。 （必须登录 CustomerSource。）
 
 > [!NOTE]
 > 在 Finance and Operations 中，总帐中的过帐层允许您对母公司进行条目调整，这里与子公司相比使用了不同的会计标准。 例如，对于使用英国通用会计制度 (UK GAAP) 的公司，您可以在过帐层中进行条目调整。 这些条目可以合并入使用美国通用会计制度 (GAAP) 的母公司。 调整条目不影响英国 GAAP 报表。
@@ -243,4 +242,3 @@ ms.lasthandoff: 12/18/2018
 - 在建模主要更改结构方案之前，请使用层次结构的生效日期执行后果分析和验证测试。
 - 使用更改层次结构的草图样式，然后才可以在生产环境发布新版本。
 - 限制有权限从在生产环境中的层次结构添加或删除组织的员工的编号。 较小的编号减少可能出现最高错误的机会，并且必须进行更正。
-

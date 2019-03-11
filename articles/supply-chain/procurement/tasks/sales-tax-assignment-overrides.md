@@ -1,13 +1,13 @@
---- 
-title: "销售税分配和覆盖"
-description: "此过程演示如何为零售渠道分配增值税组。"
+---
+title: 销售税分配和覆盖
+description: 此过程演示如何为零售渠道分配增值税组。
 author: mkirknel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailStoreTable, RetailTaxOverrideCode, RetailTaxOverrideGroup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a1907b0d0266eaa405ac2b92b40d6a2d310cf07b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: f827b4787506cfdec8b9a91c4a68f3293190158a
-ms.openlocfilehash: 816e00e4238cb0d90a2aea9b2bc070d31504c2ce
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "342814"
 ---
 # <a name="sales-tax-assignment-and-overrides"></a>销售税分配和覆盖
 
@@ -58,5 +58,4 @@ ms.lasthandoff: 09/29/2017
 20. 在列表中选择前面创建的增值税覆盖。
 21. 在列表中，单击所选行中的链接。
 22. 单击“保存”。
-
 

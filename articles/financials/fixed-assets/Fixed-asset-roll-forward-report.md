@@ -1,14 +1,14 @@
 ---
-title: "固定资产前滚报表"
-description: "本主题说明如何使用固定资产前滚报表。"
+title: 固定资产前滚报表
+description: 本主题说明如何使用固定资产前滚报表。
 author: saraschi2
-manager: 
+manager: ''
 ms.date: 01/08/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,13 +17,13 @@ ms.assetid: d7e86f72-95db-4423-9b04-761e9536a959
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-12-20
-ms.dyn365.ops.version: 7.3
+ms.dyn365.ops.version: 7.2999999999999998
+ms.openlocfilehash: 3f2da6d552dd27566d3e012d3e6055fcaa194e4b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a8b5a5af5108744406a3d2fb84d7151baea2481b
-ms.openlocfilehash: 16f7c199fb4c9905c465e5d4596d3eaa90104b83
-ms.contentlocale: zh-cn
-ms.lasthandoff: 04/13/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "313742"
 ---
 # <a name="fixed-assets-roll-forward-report"></a>固定资产前滚报表
 
@@ -66,5 +66,4 @@ ms.lasthandoff: 04/13/2018
 |            处置：销售值            |                                                                                               具有处置 - 销售交易记录的固定资产帐簿的销售值。                                                                                                |
 |           处置：损耗值            |                                                                                               具有处置 - 损耗交易记录的固定资产帐簿的损耗值。                                                                                               |
 |           处置：损益            |                                                                                 作为固定资产帐簿的处置交易记录一部分计算的损益值。                                                                                 |
-
 

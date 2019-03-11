@@ -1,13 +1,13 @@
 ---
-title: "从交易记录科目和合计科目创建预算"
-description: "本文提供基于合计科目创建预算的流程的概览。 还说明如果需要预算控制，如何启用合计科目的预算控制。"
+title: 从交易记录科目和合计科目创建预算
+description: 本文提供基于合计科目创建预算的流程的概览。 还说明如果需要预算控制，如何启用合计科目的预算控制。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BudgetControlConfiguration, BudgetPlanGenerate
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6129a5431cba22ea656e4d6f473a4e93a81131ea
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 3e3c86bd32a05a392fcb82a86f2c461cc3abfb03
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "331705"
 ---
-
 # <a name="create-a-budget-from-transaction-accounts-and-total-accounts"></a>从交易记录科目和合计科目创建预算
 
 [!include [banner](../includes/banner.md)]
@@ -44,7 +43,6 @@ ms.lasthandoff: 11/03/2017
 -   直接在合计科目上输入的预算金额。
 
 因此，您可以为合计科目间隔中最重要的交易记录科目创建单独的预算，然后将剩余预算金额添加到合计科目。
-
 
 
 

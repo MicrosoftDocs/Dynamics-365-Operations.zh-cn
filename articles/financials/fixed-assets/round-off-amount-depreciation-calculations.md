@@ -1,13 +1,13 @@
 ---
-title: "计算化整折旧金额"
-description: "本文讨论在“帐簿设置”页找到的“化整折旧”字段。"
+title: 计算化整折旧金额
+description: 本文讨论在“帐簿设置”页找到的“化整折旧”字段。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetBookTable, AssetDepBookTable
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7721e46a72e0f8133ed67c597a066a97ffd61669
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 0ad57b076542c38d3c29dba4caacf830de6f7200
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "308406"
 ---
-
 # <a name="round-off-amount-for-depreciation-calculations"></a>计算化整折旧金额
 
 [!include [banner](../includes/banner.md)]
@@ -46,7 +45,6 @@ ms.lasthandoff: 11/03/2017
 | 化整 1.00   | 2,444.00            |
 | 化整 10.00  | 2,440.00            |
 | 化整 100.00 | 2,400.00            |
-
 
 
 

@@ -1,13 +1,13 @@
---- 
-title: "ER 配置目标"
-description: "此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。"
+---
+title: ER 配置目标
+description: 此过程演示如何设置和使用不同的电子申报 (ER) 输出组件的目标，例如文件夹或文件。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERFormatDestinationTable, SysLookupPicklist, ERFormatDestinationSettings, ERFormatDestinationEmailSettings, ERExpressionDesignerFormula, SRSPrintDestinationTokens
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 83c6b8db609b83f94b51800616976eb9ce08d79b
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "309855"
 ---
 # <a name="er-configure-destinations"></a>ER 配置目标
 
@@ -60,5 +60,4 @@ ms.lasthandoff: 09/14/2018
 20. 单击“确定”。
 21. 在“主题”字段中，键入一个值。
 22. 单击“确定”。
-
 

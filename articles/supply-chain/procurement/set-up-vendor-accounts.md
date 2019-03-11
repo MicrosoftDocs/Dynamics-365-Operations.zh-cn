@@ -1,13 +1,13 @@
 ---
-title: "设置供应商帐户"
-description: "此主题介绍在您创建新的供应商帐户时必须指定的信息的类型。"
+title: 设置供应商帐户
+description: 此主题介绍在您创建新的供应商帐户时必须指定的信息的类型。
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: smmContactPerson, VendBankAccounts, VendTable
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 7653b01a8d5b80d3026a04d9979906d9ddae5d27
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: 4a20fca7420e7bd546e29278b40046d69a81aac6
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "329129"
 ---
-
 # <a name="set-up-vendor-accounts"></a>设置供应商帐户
 
 [!include [banner](../includes/banner.md)]
@@ -116,7 +115,6 @@ ms.lasthandoff: 11/03/2017
 您可以指定自动出现在指定供应商的供应商发票日记帐中的默认帐户。 如果随着时间的推移，您通常为同一供应商的同类商品或服务付款，此功能将非常有用。 当您指定默认帐户时，可以快速、高效地在发票日记帐中输入日记帐条目。 您指定的默认帐户不用于采购订单或在**供应商发票**页面中输入的供应商发票。  
 
 您在**默认帐户设置**页面选择默认帐户，您可以从供应商记录的**发票**选项卡打开此页面。 您在此处选择的帐户在您输入日记帐条目时显示在供应商帐户的帐户筛选列表中。 您可以设置其中一个帐户为默认帐户。
-
 
 
 

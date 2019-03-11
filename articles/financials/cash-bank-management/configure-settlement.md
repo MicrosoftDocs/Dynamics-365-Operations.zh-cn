@@ -1,13 +1,13 @@
 ---
-title: "配置结算"
-description: "交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本主题介绍用于应付帐款和应收帐款的结算的参数。"
+title: 配置结算
+description: 交易记录的结算方式和时间可能非常复杂，因此，您理解并正确定义参数以满足您的业务需求非常重要。 本主题介绍用于应付帐款和应收帐款的结算的参数。
 author: kweekley
 manager: AnnBe
 ms.date: 05/16/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustOpenTrans, CustParameters, VendOpenTrans, VendParameters
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 66e2fdbf7038a2c15fb373d4f96cd6e6c4c87ea0
 ms.openlocfilehash: 1361bce94f6542112cf29e369f2238f211d0647e
-ms.contentlocale: zh-cn
-ms.lasthandoff: 08/08/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "319262"
 ---
-
 # <a name="configure-settlement"></a>配置结算
 
 [!include [banner](../includes/banner.md)]
@@ -68,4 +67,3 @@ ms.lasthandoff: 08/08/2018
 
 -   组织通常使用固定维度为不需要的固定维度填零。 应收帐款/应付帐款之类资产负债表科目经常出现这种情况。 不能将科目结构用于跟踪典型填零的财务维度。  可移除资产负债表科目的财务维度，以杜绝对使用固定维度的需要。
 -   如果组织的应收帐款/应付帐款主科目中需要固定维度，请想办法在付款中默认使用固定维度，以便将固定维度值存储到付款的供应商交易记录中。 这样系统就可以重构应收帐款/应付帐款主科目，以便包含固定维度值。 可在付款日记帐的供应商或日记帐名称中将固定维度值定义为默认值。
-

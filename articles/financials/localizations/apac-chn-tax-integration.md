@@ -1,13 +1,13 @@
 ---
-title: "配置中国的税务集成"
-description: "本主题描述配置中国的税务集成的流程。"
+title: 配置中国的税务集成
+description: 本主题描述配置中国的税务集成的流程。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: CustParameters, VATInvoiceDescTable_CN, TaxProfileTable_CN
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: f526a4bf7cb7c0a48f3d7b1c4f53705f0cdb41b5
 ms.openlocfilehash: 1a4cfe2923c347d404057ce1651f41770fb49546
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/26/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371881"
 ---
-
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 
 [!include [banner](../includes/banner.md)]
@@ -58,6 +57,5 @@ ms.lasthandoff: 09/26/2018
 - [增值税客户发票的中国税务集成修改常见问题](apac-chn-tax-integration-vat-customer-invoices.md)
 
 - [设置中国的基本税务集成](./tasks/set-up-basic-tax-integration-profile-china.md)
-
 
 

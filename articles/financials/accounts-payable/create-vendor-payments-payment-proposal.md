@@ -1,13 +1,13 @@
 ---
-title: "使用付款方案创建供应商付款"
-description: "本主题提供付款方案选项的概览并包括显示付款方案如何工作的一些示例。"
+title: 使用付款方案创建供应商付款
+description: 本主题提供付款方案选项的概览并包括显示付款方案如何工作的一些示例。
 author: ShivamPandey-msft
 manager: AnnBe
 ms.date: 04/04/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerJournalTransVendPaym
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 332a18eb98811505b38c023c97c22b86a9367af1
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 5afdace14d1db4b36027634b3af3df1029ae12a2
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "327404"
 ---
-
 # <a name="create-vendor-payments-by-using-a-payment-proposal"></a>使用付款方案创建供应商付款
 
 [!include [banner](../includes/banner.md)]
@@ -70,7 +69,7 @@ ms.lasthandoff: 05/08/2018
 
 ### <a name="option-1-by-cash-discount"></a>选项 1：按现金折扣
 
-April 将**现金折扣**选择作为方案类型。 她输入日期范围 6 月 26 日到 7 月 10。 以下发票包括在方案中：
+April 将 **现金折扣**选择作为方案类型。 她输入日期范围 6 月 26 日到 7 月 10 日。 以下发票包括在方案中：
 
 -   1002，因为折扣日期 7 月 4 日在付款日期范围内。
 -   1004，因为折扣日期 7 月 1 日在付款日期范围内。
@@ -82,7 +81,7 @@ April 将**现金折扣**选择作为方案类型。 她输入日期范围 6 月
 
 ### <a name="option-2-by-due-date"></a>选项 2：按到期日期
 
-April 将**按到期日期**选择作为方案类型。 她输入日期范围 6 月 26 日到 7 月 10。 以下发票包括在方案中：
+April 将**按到期日期**选择作为方案类型。 她输入日期范围 6 月 26 日到 7 月 10 日。 以下发票包括在方案中：
 
 -   1003，因为到期日期 6 月 29 日在付款日期范围内。
 
@@ -94,7 +93,7 @@ April 将**按到期日期**选择作为方案类型。 她输入日期范围 6 
 
 ### <a name="option-3-by-due-date-and-cash-discount"></a>选项 3：按到期日期和现金折扣
 
-April 将**到期日期和现金折扣**选择作为方案类型。 她输入日期范围 6 月 26 日到 7 月 10。 以下发票包括在方案中：
+April 将**到期日期和现金折扣**选择作为方案类型。 她输入日期范围 6 月 26 日到 7 月 10 日。 以下发票包括在方案中：
 
 -   1003，因为到期日期 6 月 29 日在付款日期范围内。
 -   1002，因为折扣日期 7 月 4 日在付款日期范围内。
@@ -120,8 +119,7 @@ April 将**到期日期和现金折扣**选择作为方案类型。 她输入日
 
 #### <a name="bank-account-selection"></a>银行帐户选择
 
-您可以按付款方式定义标准借记付款帐户，无论国家/地区上下文。 这将在由方案生成的付款行中设置。 通过银行账户功能，您可以定义多个通过维度和币种或其组合管理的借记银行账户，以根据每种组合使用不同的借记银行账户。 您可以在**付款方式**页使用**过帐帐户类型**  =  **银行**的每种付款方式可用的**银行帐户**按钮设置这些组合。
-
+您可以按付款方式定义标准借记付款帐户，无论国家/地区上下文。 这将在由方案生成的付款行中设置。 通过银行账户功能，您可以定义多个通过维度和币种或其组合管理的借记银行账户，以根据每种组合使用不同的借记银行账户。 您可以在**付款方式**页使用**过帐帐户类型** = **银行**的每种付款方式可用的 **银行帐户**按钮设置这些组合。
 
 
 

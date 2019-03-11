@@ -1,13 +1,13 @@
 ---
-title: "折旧帐簿升级概览"
-description: "在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。"
+title: 折旧帐簿升级概览
+description: 在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User, Developer
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,21 +17,20 @@ ms.search.region: global
 ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 805f6ab1cd1d0996e685278cc997f532213c76c3
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: e95fa9dd15dfe5e6b26de61b5dbc1a9a6c0d768d
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "359305"
 ---
-
 # <a name="depreciation-book-upgrade-overview"></a>折旧帐簿升级概览
 
 [!include [banner](../includes/banner.md)]
 
 在以前的版本中，固定资产有两种评估概念 - 价值模型和折旧帐簿。 在 Microsoft Dynamics 365 for Operations (1611) 中，价值模型功能和折旧帐簿功能已经合并为一个概念，即帐簿。 本主题介绍升级时的考虑事项。 
 
-升级流程会将您的现有设置和所有现有交易记录移动到新的帐簿结构。 价值模型将依照保留当前状态，作为过帐到总帐的帐簿。 折旧帐簿将移至“**过帐到总帐**”设置为“**否**”的帐簿。 折旧帐簿日记帐名称将移动到过帐层设置为**无**的总帐日记帐名称。 折旧帐簿交易记录将移到固定资产交易记录。 
+升级流程会将您的现有设置和所有现有交易记录移动到新的帐簿结构。 价值模型将依照保留当前状态，作为过帐到总帐的帐簿。 折旧帐簿将移至**过帐到总帐**设置为**否**的帐簿。 折旧帐簿日记帐名称将移动到过帐层设置为**无**的总帐日记帐名称。 折旧帐簿交易记录将移到固定资产交易记录。 
 
 在运行数据升级之前，应了解将折旧帐簿日志行升级到交易记录凭证的两个选项以及凭证系列将要使用的编号规则。 
 
@@ -80,8 +79,7 @@ ms.lasthandoff: 11/03/2017
 
 使用用户定义的现有编号规则方法（选项 2）时，数据升级检查具有折旧帐簿交易记录的每个分区和公司的数据库中是否存在具有指定作用域的编号规则。 如果存在，升级将通过逐行处理分配编号规则通过编号规则框架指定的凭证号。 如果不存在具有指定作用域的编号规则，升级将使用默认的系统定义的编号规则方法分配凭证号，并将在分配后使用指定的默认参数创建新的编号规则。
 
-无论使用任何一种方法，数据升级脚本都会使用为以前的折旧帐簿日记帐名称创建的新总帐日记帐名称上的“**凭证系列**”字段的编号规则。
-
+无论使用任何一种方法，数据升级脚本都会使用为以前的折旧帐簿日记帐名称创建的新总帐日记帐名称上的**凭证系列**字段的编号规则。
 
 
 

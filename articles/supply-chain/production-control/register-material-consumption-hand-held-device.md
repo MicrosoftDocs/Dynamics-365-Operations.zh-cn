@@ -1,13 +1,13 @@
 ---
-title: "使用移动设备登记物料消耗量"
-description: "此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。"
+title: 使用移动设备登记物料消耗量
+description: 此主题介绍允许使用手持设备登记生产中的原材料消耗量的工作流。
 author: johanhoffmann
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WHSRFMenuItem
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: johanho
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: b5b9c73cf9b23eb8ad9ed872b76b92b395609e9a
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 72d4ff5e1311005d3bf43a13e28208cd9b3d1457
-ms.openlocfilehash: b84b63ec519ae686b55905170c956fcb2b08334a
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336121"
 ---
-
 # <a name="register-material-consumption-using-a-mobile-device"></a>使用移动设备登记物料消耗量
 
 [!include [banner](../includes/banner.md)]
@@ -41,7 +40,7 @@ ms.lasthandoff: 03/07/2018
 
 一个连续生产流程 (5) 使用受批次控制的原材料 RM-100。 物料是牌照 PL-1 上的库位 Bulk-001 (1) 上的现有物料，具有两个批次，B1 和 B2，数量均为 100 磅。 仓库工作 (2) 为 RM-100 进行发布和处理，且物料从 Bulk-001 领取到被定义为非牌照控制的生产输入库位 PIL-01 (3)。 机器操作员从生产输入库位 (3) 称出物料并将重量和批处理号登记为已使用 (4)。 从生产输入库位，部分物料在定义的时间间隔内被手动添加到生产流程。 在机器操作员添加物料时，物料在秤上称重，并登记批号。
 
-## <a name="set-up-the-workflow-to-register-consumption-using-a-handheld-device"></a>设置工作流以使用手持设备登记消耗量
+## <a name="set-up-theworkflow-to-register-consumption-using-a-handheld-device"></a>设置工作流以使用手持设备登记消耗量
 使用具有受批次控制的原材料 RM-100 的物料清单创建成品产品 FG-100。 将数量为 100 的 RM-100 的两个批次，B1 和 B2，添加到库位：Bulk-001，牌照：PL-1。 RM-100 在物料清单行上的耗用原则设置为**手动**。 将生产输入库位设置为 PIL-01。 为此，您可以选择此库位作为仓库 51 上的默认生产输入库位。
 
 1.  创建新的移动设备菜单项： 
@@ -69,7 +68,7 @@ ms.lasthandoff: 03/07/2018
 
 在开始执行生产订单后，您可以使用用于手持设备的工作流登记物料消耗量。 我们先将批次 B1 的消耗量登记为 25 磅。
 
-6.  在手持设备的菜单中选择**登记物料消耗量**菜单项，输入以下详细信息： 
+6.  在手持设备的菜单中选择 **登记物**料**消耗量**菜单项，输入以下详细信息： 
 
 -    生产订单编号。 
 -    要消耗物料的库位，在此例中为 PIL-01。 
@@ -91,6 +90,5 @@ ms.lasthandoff: 03/07/2018
 -   新工作流还支持序列号的登记。
 -   只能登记在所选生产订单或批次订单的物料清单或配方中定义的物料编号。
 -   物料可以过度消耗。 例如，如果物料的估计消耗数量为 100 磅，则可以过度消耗，例如数量 105 磅。
-
 
 

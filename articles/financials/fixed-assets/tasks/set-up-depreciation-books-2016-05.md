@@ -1,13 +1,13 @@
---- 
-title: "设置折旧帐簿（2016 年 5 月）"
-description: "此任务指南将创建新的折旧帐簿并将其与固定资产组关联。"
+---
+title: 设置折旧帐簿（2016 年 5 月）
+description: 此任务指南将创建新的折旧帐簿并将其与固定资产组关联。
 author: saraschi2
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetDepBookTable, AssetGroupDepBookSetup
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 1fd53ea1dff9b116d19c525c5d6967ece0993b6f
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "355556"
 ---
 # <a name="set-up-depreciation-books-may-2016"></a>设置折旧帐簿（2016 年 5 月）
 
@@ -55,5 +55,4 @@ ms.lasthandoff: 09/14/2018
 5. 在“折旧惯例”字段中，选择一个选项。
 6. 在“使用年限”字段中，输入一个数字。
     * 请注意，“折旧期间”字段值将在设置使用年限后计算。  
-
 

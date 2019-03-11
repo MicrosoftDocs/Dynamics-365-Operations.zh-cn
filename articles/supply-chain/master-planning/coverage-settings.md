@@ -1,13 +1,13 @@
 ---
-title: "覆盖范围设置"
-description: "主计划编制使用覆盖范围设置计算物料需求。"
+title: 覆盖范围设置
+description: 主计划编制使用覆盖范围设置计算物料需求。
 author: roxanadiaconu
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ReqGroup, ReqItemTable, ReqItemTableWizard
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 50f47394a4d4e95b4e158ea42a630d9e6e91f05b
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 858328ec60e0ffa5ca46a98b365fb0fc599ae1f0
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "322551"
 ---
-
 # <a name="coverage-settings"></a>覆盖范围设置
 
 [!include [banner](../includes/banner.md)]
@@ -53,7 +52,6 @@ ms.lasthandoff: 05/08/2018
 --------
 
 [主计划](master-plans.md)
-
 
 
 

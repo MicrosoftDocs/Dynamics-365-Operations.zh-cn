@@ -1,13 +1,13 @@
---- 
-title: "定义生产流模型"
-description: "生产流模型描述如何计算并维持精益制造工作单元的产能。"
+---
+title: 定义生产流模型
+description: 生产流模型描述如何计算并维持精益制造工作单元的产能。
 author: cvocph
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LeanProductionFlowModel
 audience: Application User
 ms.reviewer: shylaw
@@ -17,12 +17,12 @@ ms.search.industry: Manufacturing
 ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: e410928bc850e1f3427c9536e9943d1196be7a05
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 7850a121ca06f25f6c532e49e18c0b6811bd7455
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336719"
 ---
 # <a name="define-production-flow-models"></a>定义生产流模型
 
@@ -45,5 +45,4 @@ ms.lasthandoff: 09/29/2017
     * 计划产能时限描述可为相关工作单元提供的产能预留天数。 在“计划时限”中，输入天数。   将不通过自动计划规划不在此期间的看板处理作业。 计划时限通常是生产流或工作单元内所生产产品的平均库存提前期的两倍。 EPE 周期不应超过计划时隙的一半。     
 8. 在“产能短缺反应”字段中，选择一个选项。
     * 选项包括：延期 - 将该计划事件的饱和需求量延期至下一个吞吐量的可用生产日。 取消 - 终止该计划事件的自动计划作业，并取消其关联的作业计划。   添加到所要求的日期 - 将其要求的作业安排到所要求的期间内。 这超过当天该工作单元的负荷并需要计划员进行检查和手动交互。   分配到可用期间 - 从第一个可用生产日开始为该计划事件的所有不同作业分配可用生产日。 此最小分配数量就是该看板作业的数量。 每天分配给最小计划数量（看板作业数量）充足可用的吞吐量。  
-
 

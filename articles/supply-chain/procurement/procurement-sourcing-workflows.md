@@ -1,13 +1,13 @@
 ---
-title: "采购工作流"
-description: "某些组织要求采购申请和采购订单由输入交易记录的人之外的用户进行审核。 若要设置审核流程，您可以创建一个工作流。"
+title: 采购工作流
+description: 某些组织要求采购申请和采购订单由输入交易记录的人之外的用户进行审核。 若要设置审核流程，您可以创建一个工作流。
 author: mkirknel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: WorkflowTableListPageRnr
 audience: Application User
 ms.reviewer: josaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: d25ca64fb6a3fa7d7898ec68568703f3de7b1595
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: 75daeed0d0e979165d3669e83e98cf278d7fb736
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "330072"
 ---
-
 # <a name="procurement-and-sourcing-workflows"></a>采购工作流
 
 [!include [banner](../includes/banner.md)]
@@ -76,5 +75,4 @@ ms.lasthandoff: 05/08/2018
 - [采购申请工作流](purchase-requisitions-workflow.md)
 
 - [载入供应商](vendor-onboarding.md)
-
 

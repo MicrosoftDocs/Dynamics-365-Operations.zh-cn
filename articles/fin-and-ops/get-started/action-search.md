@@ -1,13 +1,13 @@
 ---
-title: "操作搜索"
-description: "本文介绍了 Microsoft Dynamics 365 for Finance and Operations 中的操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。"
+title: 操作搜索
+description: 本文介绍 Microsoft Dynamics 365 for Finance and Operations 中的操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。
 author: jasongre
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: sericks
 ms.search.scope: Core, Operations
@@ -17,19 +17,18 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 3ee5334c87b2b0acae2afa6882feca63e3b9cc8e
 ms.openlocfilehash: 960c715c487fbda5d93630327f07380e6d8fbd3c
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "317491"
 ---
-
 # <a name="action-search"></a>操作搜索
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍了 Microsoft Dynamics 365 for Finance and Operations 中的操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。
+本文介绍 Microsoft Dynamics 365 for Finance and Operations 中的操作搜索功能。 操作搜索可以帮助您在页面中找到操作并运行。
 
 ## <a name="introduction"></a>简介
 

@@ -1,13 +1,13 @@
 ---
-title: "职位预测"
-description: "与工作人员相关的费用通常在组织成本中占较大比例。 职位预测让您计划这些费用并将它们包含在预算计划中。"
+title: 职位预测
+description: 与工作人员相关的费用通常在组织成本中占较大比例。 职位预测让您计划这些费用并将它们包含在预算计划中。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: HcmPositionForecast
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: bcd7363ba50f1c3a20d9823333df65eab9868d67
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: a0739304723d19b910388893d08e8c36a1f49d13
-ms.openlocfilehash: a44b3d2ee6e47e71103c7be04b731d4faa79c448
-ms.contentlocale: zh-cn
-ms.lasthandoff: 03/26/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356154"
 ---
-
 # <a name="position-forecasting"></a>职位预测
 
 [!include [banner](../includes/banner.md)]
@@ -216,7 +215,6 @@ Jodi 不希望经理更改福利金额。 因此，她在**预测职位覆盖**�
 预算计划行显示预算金额的来源（预测职位编号），但不链接。 因此，对预测职位的更改不在预算计划行显示，并且对预算计划行的更改在预测职位显示。 如果您更改预测职位并希望在预算计划中包含更新，则必须再次将预测职位放入计划中。 不过，请记住，此流程删除在其中分配预测职位的所有行。 因此，您对这些行进行的任何更改都将被删除。 
 
 若要查看哪些预算计划已被预测职位包括在内，则可以生成**按预算计划预测职位**报表。 或者，在预测职位中，可以打开**关联的预算计划**速见表来查看这些计划。
-
 
 
 

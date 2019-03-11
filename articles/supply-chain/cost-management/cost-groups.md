@@ -1,13 +1,13 @@
 ---
-title: "成本组"
-description: "在对制造物料的计算成本中的成本份额（例如针对材料、人工和开销的成本份额）进行细分和分析时，可将成本组作为基础。 成本组细分在制造环境中有若干同义词，例如成本细分、成本分解或成本分类。"
+title: 成本组
+description: 在对制造物料的计算成本中的成本份额（例如针对材料、人工和开销的成本份额）进行细分和分析时，可将成本组作为基础。 成本组细分在制造环境中有若干同义词，例如成本细分、成本分解或成本分类。
 author: AndersGirke
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: BOMCostGroup
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Manufacturing
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 1f1f97981c33c72c71e055848e874002dad73813
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 2771a31b5a4d418a27de0ebe1945d1fed2d8d6d6
-ms.openlocfilehash: f44099c2ce30d917838733af072721dd79148d27
-ms.contentlocale: zh-cn
-ms.lasthandoff: 11/03/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "337409"
 ---
-
 # <a name="cost-groups"></a>成本组
 
 [!include [banner](../includes/banner.md)]
@@ -51,7 +50,6 @@ ms.lasthandoff: 11/03/2017
 
 -   **成本组类型** − 每个成本组都必须分配有一个成本组类型，以指示成本组适用于直接材料、直接制造或直接外包，或将其指定为间接或未定义。 指定为直接材料的成本组可分配给物料。 直接制造成本组可分配给各成本类别。 直接业务外包成本组可分配给服务的产品类型，以便您可以对与服务采购到转包活动相关的成本进行分类。 间接成本组可分配给间接成本以用于附加费和费率。 指定为未定义的成本组可分配给物料、各成本类别或间接成本。 成本组类型的分配出于若干目的。 首先，它限制分配成本组和查看适用的成本组的列表的能力。 其次，它为报告目的提供补充细分。 第三，它可用于为差异分配会计科目。
 -   **行为** − 每个成本组都可以选择分配有某一行为，以指示该成本组适用于固定成本或可变成本。 行为是空值的成本组被视为可变成本。 行为的分配只出于报告目的。 例如，成本可以在成本计算单上和**按成本组的成本累积**页中随固定成本和可变成本的细分显示。 如果您将利润设置百分比分配到每个成本组，物料清单 (BOM) 计算将提供基于成本加上加价方法的建议销售价。
-
 
 
 

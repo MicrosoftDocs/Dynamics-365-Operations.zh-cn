@@ -1,30 +1,29 @@
 ---
-title: "固定资产管理工作区"
-description: "此主题提供有关固定资产管理工作区的信息。 此工作区显示与在系统中输入的固定资产有关的信息。 它包含一个汇总视图和一个分析视图。"
+title: 固定资产管理工作区
+description: 此主题提供有关固定资产管理工作区的信息。 此工作区显示与在系统中输入的固定资产有关的信息。 它包含一个汇总视图和一个分析视图。
 author: saraschi2
 manager: AnnBe
 ms.date: 01/12/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: AssetWorkspace
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
-ms.assetid: 
+ms.assetid: ''
 ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
+ms.openlocfilehash: 1e8e02bf308b5506aef41d302755911f6a9ce3e4
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: ea07d8e91c94d9fdad4c2d05533981e254420188
-ms.openlocfilehash: 8425387d4004e02e9b8adf9ba3b31a0b4e02b6e9
-ms.contentlocale: zh-cn
-ms.lasthandoff: 02/07/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352313"
 ---
-
 # <a name="fixed-asset-management-workspace"></a>固定资产管理工作区
 
 [!include [banner](../includes/banner.md)]
@@ -75,4 +74,3 @@ ms.lasthandoff: 02/07/2018
 | 估价地图        | 固定资产明细 |
 
 若要查看带数据的分析，必须先刷新**实体商店**页的 AssetTransactionMeasure 聚合度量。
-

@@ -1,13 +1,13 @@
---- 
-title: "CN-00010 中国会计科目表的层次结构"
-description: "此过程演示如何通过设置多个会计科目级别在层次结构树状结构中创建会计科目表。"
+---
+title: CN-00010 中国会计科目表的层次结构
+description: 此过程演示如何通过设置多个会计科目级别在层次结构树状结构中创建会计科目表。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: LedgerChartOfAccounts, LedgerChartOfAccountsTreeLevel_CN, LedgerCreateAccount_CN, MainAccount
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 655777b49a37dec7ccaa7ff417d8bea3baa35412
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "371875"
 ---
 # <a name="cn-00010-china-hierarchy-of-chart-of-accounts"></a>CN-00010 中国会计科目表的层次结构
 
@@ -56,5 +56,4 @@ ms.lasthandoff: 09/14/2018
 22. 单击“确定”。
     * 根据需要重复最后三个步骤创建更多下级科目。  
 23. 单击“保存”。
-
 

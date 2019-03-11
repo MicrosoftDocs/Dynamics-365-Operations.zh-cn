@@ -1,13 +1,13 @@
---- 
-title: "配置成本对象控制器的访问权限"
-description: "此过程用于配置成本对象总监的访问权限。"
+---
+title: 配置成本对象控制器的访问权限
+description: 此过程用于配置成本对象总监的访问权限。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 06/27/2017
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Operations
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 6b7018f9d4926321341af94efd13911e2c69f5f5
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: b0647e1ec55d23607d07f38105e42af498ad1174
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "351163"
 ---
 # <a name="configure-access-rights-for-a-cost-object-controller"></a>配置成本对象控制器的访问权限
 
@@ -68,5 +68,4 @@ ms.lasthandoff: 09/29/2017
 8. 在“已发布”字段中选择“是”。
     * 如果选择“是”，为其分配了以下四种角色之一的用户可查看“成本控制”工作区中的报表：成本核算经理、成本会计师、成本核算师和成本对象总监。 如果选择“否”，为其分配了以下角色之一的用户可查看报表：成本核算经理、成本会计师和成本核算师。    
 9. 单击“保存”。
-
 

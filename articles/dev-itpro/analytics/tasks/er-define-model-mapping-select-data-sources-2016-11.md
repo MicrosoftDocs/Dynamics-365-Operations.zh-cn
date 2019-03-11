@@ -1,13 +1,13 @@
---- 
-title: "定义 ER 模型映射并从中选择数据源"
-description: "以下步骤说明属于系统管理员或电子报表开发人员的用户如何为电子报表数据模型选择数据源。"
+---
+title: 定义 ER 模型映射并从中选择数据源
+description: 以下步骤说明属于系统管理员或电子报表开发人员的用户如何为电子报表数据模型选择数据源。
 author: NickSelin
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: ERWorkspace, ERSolutionTable, ERDataModelDesigner, ERModelMappingTable, ERModelMappingDesigner, ERExpressionDesignerFormula
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: b5f2f2c699514d723f42f5d1fb25724f46dfc4f4
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "348863"
 ---
 # <a name="define-er-model-mappings-and-select-data-sources-for-them"></a>定义 ER 模型映射并从中选择数据源
 
@@ -51,7 +51,7 @@ ms.lasthandoff: 09/14/2018
 
 ## <a name="define-required-data-sources-for-the-current-model-mapping"></a>定义当前模型映射所需的数据源
 1. 单击“设计器”。
-2. 在树结构中，选择“Dynamics 365 for Operations\表格记录”。
+2. 在树中，选择“Dynamics 365 for Operations\表记录”'。
 3. 单击“添加根”。
     * 输入此数据源以访问付款交易记录。  
 4. 在“名称”字段中，键入“交易记录”。
@@ -110,7 +110,7 @@ ms.lasthandoff: 09/14/2018
 41. 在树结构中，展开“交易记录”。
 42. 在树结构中，展开或折叠“交易记录\$金额”。
 43. 在树中，展开或折叠“交易记录”。
-44. 在树结构中，选择“Dynamics 365 for Operations\表格记录”。
+44. 在树中，选择“Dynamics 365 for Operations\表记录”'。
 45. 单击“添加根”。
     * 输入此数据源以访问公司的银行帐户详细信息。  
 46. 在“名称”字段中，键入“银行帐户”。
@@ -157,5 +157,4 @@ ms.lasthandoff: 09/14/2018
 70. 关闭该页面。
 71. 关闭该页面。
 72. 关闭该页面。
-
 

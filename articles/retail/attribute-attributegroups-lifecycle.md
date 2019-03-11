@@ -1,32 +1,31 @@
 ---
-title: "属性和属性组"
-description: "此主题介绍如何使用属性通过用户定义的字段介绍产品及其特征。"
+title: 属性和属性组
+description: 此主题介绍如何使用属性通过用户定义的字段介绍产品及其特征。
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/28/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: global
 ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326231"
 ---
-
 # <a name="attributes-and-attribute-groups"></a>属性和属性组
 
 [!include [banner](includes/banner.md)]
@@ -104,7 +103,7 @@ ms.lasthandoff: 01/04/2019
 
 这些选项最初用于改进联机店面的搜索功能。 尽管 Finance and Operations 中不包含现成的联机店面，却的确包含电子商务发布软件开发包 (SDK)。 客户可使用此 SDK 将产品放入所选搜索索引中。 尽管导入了产品数据，客户仍然应该可以区分可搜索数据、可查询的数据等。 这样他们就可以构建最佳索引以确保仅为*他们认为*应该建立索引的属性建立索引。
 
-有关其余这些选项的用途信息，请参阅 [SharePoint 2013 中的搜索架构概述](https://technet.microsoft.com/library/jj219669.aspx)。
+有关其余这些选项的用途信息，请参阅 [SharePoint Server 2013 中的搜索架构概述](https://technet.microsoft.com/library/jj219669.aspx)。
 
 ## <a name="filter-settings-for-attributes"></a>属性的筛选设置
 
@@ -257,4 +256,3 @@ ms.lasthandoff: 01/04/2019
 
     > [!NOTE]
     > 如果在 Finance and Operations 中创建共享产品介质和共享产品属性，它们将应用于所有零售产品。
-

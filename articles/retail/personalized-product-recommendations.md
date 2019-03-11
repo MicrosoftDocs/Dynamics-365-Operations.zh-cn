@@ -1,13 +1,13 @@
 ---
-title: "个性化产品建议"
-description: "此主题提供可以在销售点 (POS) 设备上显示的 Dynamics 365 for Retail 产品建议的信息。"
+title: 个性化产品建议
+description: 此主题提供可以在销售点 (POS) 设备上显示的 Dynamics 365 for Retail 产品建议的信息。
 author: ashishmsft
 manager: AnnBe
 ms.date: 02/05/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "326461"
 ---
-
 # <a name="personalized-product-recommendations"></a>个性化产品建议
 
 [!include [banner](includes/banner.md)]
@@ -94,4 +93,3 @@ ms.lasthandoff: 01/04/2019
 ## <a name="additional-resources"></a>其他资源
 
 [向 POS 设备上的交易记录页添加建议控件](add-recommendations-control-pos-screen.md)
-

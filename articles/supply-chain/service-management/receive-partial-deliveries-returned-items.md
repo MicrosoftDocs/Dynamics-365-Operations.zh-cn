@@ -1,31 +1,30 @@
 ---
-title: "接收退回物料的部分交货"
-description: "部分交货根据退货单行（而非退货单装运）定义。"
+title: 接收退回物料的部分交货
+description: 部分交货根据退货单行（而非退货单装运）定义。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 05/01/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Core, Operations
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: e2b7bfad1e0d80675848353d4118960d44f2dc01
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: efcb77ff883b29a4bbaba27551e02311742afbbd
-ms.openlocfilehash: f9f596d31f2438a353b02bf939786b284937db86
-ms.contentlocale: zh-cn
-ms.lasthandoff: 05/08/2018
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "363905"
 ---
-
 # <a name="receive-partial-deliveries-of-returned-items"></a>接收退回物料的部分交货    
 
 [!include [banner](../includes/banner.md)]
@@ -48,7 +47,6 @@ ms.lasthandoff: 05/08/2018
 4.  在**待拆分数量**字段中，输入已收到的物料的总数量，然后单击**确定**。
 
 5.  在**日记帐行，库位**窗体上，选择已到达的物料数量的行，然后单击**过帐**。 您可以在物料已到达后过帐额外的数量行。
-
 
 
 

@@ -1,32 +1,31 @@
 ---
-title: "Retail Modern POS (MPOS) 和 Cloud POS 中的演示数据屏幕布局"
-description: "本主题提供了有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 体验的演示数据集包含的屏幕布局信息。"
+title: Retail Modern POS (MPOS) 和 Cloud POS 中的演示数据屏幕布局
+description: 本主题提供了有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 体验的演示数据集包含的屏幕布局信息。
 author: zlinster
 manager: AnnBe
 ms.date: 10/05/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailTillLayout
 audience: Application user
 ms.reviewer: josaw
 ms.search.scope: Core, Operations, Retail
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Retail
 ms.author: zlinster
 ms.search.validFrom: 2017-10-05
 ms.dyn365.ops.version: Retail April 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 8fe0ea3e7715fcbebc3ed590c85ee399c6192584
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "352474"
 ---
-
 # <a name="demo-data-screen-layouts-in-retail-modern-pos-mpos-and-cloud-pos"></a>Retail Modern POS (MPOS) 和 Cloud POS 中的演示数据屏幕布局
 
 [!include [banner](includes/banner.md)]
@@ -108,7 +107,7 @@ F3MGR
 \*这些额外的布局大小仅在 Adventure Works 和 Fabrikam 布局中提供。
 
 > [!TIP]
-> POS 基于与可用于当前应用窗口的屏幕分辨率最接近的大小自动选择布局大小。 若要查找当前使用的屏幕布局 ID 和布局分辨率，在 Retail Modern POS (MPOS) 或 Retail Cloud POS 中，打开**设置**页，然后在**会话信息**部分查找。 您还可以看到当前应用程序或浏览器框架的实际窗口分辨率。 在具有此信息后，可以查找 Retail 中布局内容的源，方法是转到**渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局**。
+> POS 基于与可用于当前应用窗口的屏幕分辨率最接近的大小自动选择布局大小。 若要查找当前使用的屏幕布局 ID 和布局分辨率，在 Retail Modern POS (MPOS) 或 Retail Cloud POS (CPOS) 中，打开**设置**页，然后在**会话信息**部分查找。 您还可以看到当前应用程序或浏览器框架的实际窗口分辨率。 在具有此信息后，可以查找 Retail 中布局内容的源，方法是转到**渠道设置** \> **POS 设置** \> **POS** \> **屏幕布局**。
 
 ![Retail 和 POS 中的屏幕布局和布局分辨率/大小](../retail/media/demo-screen-layouts-fig-3-1.png)
 
@@ -175,4 +174,3 @@ F3MGR
 <!-- Use the [POS Icon and Image Mapping](../retail/media/POS_Icon_and_Image_Mapping.xlsx) reference spreadsheet to locate operation icons, reference photos, swap logos, or provide new images of your own that can be referenced in custom designs. -->
 
 <!-- END HIDDEN CONTENT -->
-

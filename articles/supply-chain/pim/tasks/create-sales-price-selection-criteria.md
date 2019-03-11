@@ -1,13 +1,13 @@
---- 
-title: "创建销售价选择条件"
-description: "此过程显示如何为基于属性的销售价模型创建销售价选择条件。"
+---
+title: 创建销售价选择条件
+description: 此过程显示如何为基于属性的销售价模型创建销售价选择条件。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DefaultDashboard, EcoResProductVariantMaintainWorkspace, PCProductConfigurationModelListPage, PCPriceModelSelectionCriteria, SysQueryForm, SysQueryTableLookUp, SysQueryFieldLookUp
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 1ce4388cc4bea8314e131690409ad181c9174bcc
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 59f6a4131f6a27c0089a1259e3f849f91a47bc87
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "336052"
 ---
 # <a name="create-sales-price-selection-criteria"></a>创建销售价选择条件
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/29/2017
     * 在此示例中，我们为选择条件使用特定客户组。  
 4. 在“条件”字段中，选择“客户组 10”。 
 5. 单击“确定”。
-
 

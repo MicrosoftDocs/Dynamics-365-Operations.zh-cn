@@ -1,13 +1,13 @@
---- 
-title: "创建成品（2016 年 2 月）"
-description: "此任务的重点是创建成品。"
+---
+title: 创建成品（2016 年 2 月）
+description: 此任务的重点是创建成品。
 author: ShylaThompson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: EcoResProductDetailsExtended, EcoResProductCreate, InventItemOrderSetup
 audience: Application User
 ms.reviewer: shylaw
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: 0312b8cfadd45f8e59225e9daba78b9e216cff51
 ms.openlocfilehash: 44b3bf17c69f37e7a96c75345a3e4f27ba9eab50
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/14/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "349714"
 ---
 # <a name="create-a-finished-product-february-2016"></a>创建成品（2016 年 2 月）
 
@@ -53,5 +53,4 @@ ms.lasthandoff: 09/14/2018
 14. 在“销售站点”字段中，输入或选择一个值。
     * 在这个例子中选择“站点 1”。  
 15. 关闭该页面。
-
 

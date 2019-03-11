@@ -1,13 +1,13 @@
 ---
-title: "零售报表"
-description: "本主题描述如何创建报表和过帐。"
+title: 零售报表
+description: 本主题描述如何创建报表和过帐。
 author: ashishmsft
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailParameters
 audience: Application User
 ms.reviewer: josaw
@@ -19,15 +19,14 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: 9e88a8b22b73aca5c2cee6984ecad3c62e597102
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/04/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "347690"
 ---
-
-# <a name="retail-statements"></a>零售报表
+# <a name="retail-statements"></a>零售对帐单
 
 [!include [banner](includes/banner.md)]
 
@@ -89,4 +88,3 @@ ms.lasthandoff: 01/04/2019
 - 在 Microsoft Dynamics 365 for Retail POS 中将客户添加到交易记录中的零售销售生成单独的销售订单和发票，每个针对一个独有客户。
 
 付款日志在报表中自动为付款创建，并且库存，为 POS 商店更新。
-

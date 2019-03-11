@@ -1,13 +1,13 @@
---- 
-title: "创建科目结构"
-description: "此任务指南介绍创建科目结构的步骤。"
+---
+title: 创建科目结构
+description: 此任务指南介绍创建科目结构的步骤。
 author: aprilolson
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: DimensionConfigureAccountStructure, DimensionCreateAccountStructure, DimensionHierarchyAddLevel, DimensionHierarchyConstraintActivate
 audience: Application User
 ms.reviewer: twheeloc
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: a7dd71cc072d49f47b1d77d3a688984cd4aaa624
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
 ms.translationtype: HT
-ms.sourcegitcommit: 7e0a5d044133b917a3eb9386773205218e5c1b40
-ms.openlocfilehash: 210bf36f0e989ce0e6ceda046f02d1091592a3c1
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/29/2017
-
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "356384"
 ---
 # <a name="create-account-structures"></a>创建科目结构
 
@@ -81,5 +81,4 @@ ms.lasthandoff: 09/29/2017
 36. 单击“验证”。
 37. 单击“启用”。
 38. 单击“启用”。
-
 

@@ -1,13 +1,13 @@
 ---
-title: "用于防止为零售产品打折的选项"
-description: "零售商可能出于多种原因不希望 POS 中某些产品在促销或销售期间不打折。"
+title: 用于防止为零售产品打折的选项
+description: 零售商可能出于多种原因不希望 POS 中某些产品在促销或销售期间不打折。
 author: jblucher
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-retail
-ms.technology: 
+ms.technology: ''
 ms.search.form: RetailPeriodicDiscount
 audience: Application User
 ms.reviewer: josaw
@@ -19,14 +19,13 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.translationtype: HT
-ms.sourcegitcommit: 190d0b59ad2e232b33b3c0d1700cbaf95c45aeca
 ms.openlocfilehash: c9d3e7af95dffddfddc34059d93a2a5a350d08e5
-ms.contentlocale: zh-cn
-ms.lasthandoff: 01/16/2019
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "346057"
 ---
-
 # <a name="options-for-preventing-discounts-for-retail-products"></a>用于防止为零售产品打折的选项
 
 [!include [banner](includes/banner.md)]
@@ -42,4 +41,3 @@ ms.lasthandoff: 01/16/2019
 > 这些设置不限制价格覆盖操作，因为此操作设置基础价格，不被视为折扣。
 
 [![“阻止折扣”字段](./media/prevent-discounts.png)](./media/prevent-discounts.png)
-

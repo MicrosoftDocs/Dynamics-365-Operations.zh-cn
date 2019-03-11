@@ -1,13 +1,13 @@
 ---
-title: "财务申报"
-description: "本主题介绍从哪里访问 Microsoft Dynamics 365 for Finance and Operations 中的财务申报，以及如何使用财务申报功能。 其中包括提供的默认财务报表的描述。"
+title: 财务申报
+description: 本主题介绍从哪里访问 Microsoft Dynamics 365 for Finance and Operations 中的财务申报，以及如何使用财务申报功能。 其中包括提供的默认财务报表的描述。
 author: aprilolson
 manager: AnnBe
 ms.date: 09/26/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: 
+ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
 ms.reviewer: shylaw
@@ -18,14 +18,13 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.translationtype: HT
-ms.sourcegitcommit: a128f326cb89ab00e69be40801553c0ac551446e
 ms.openlocfilehash: c6d504a7b0640f45de4aa9f8fb60d2b1d37818bb
-ms.contentlocale: zh-cn
-ms.lasthandoff: 09/27/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "316962"
 ---
-
 # <a name="financial-reporting"></a>财务申报
 
 [!include [banner](../includes/banner.md)]
@@ -122,7 +121,6 @@ ms.lasthandoff: 09/27/2018
 
 ## <a name="additional-resources"></a>其他资源
 - [查看财务报表](view-financial-reports.md)
-
 
 
 

@@ -1,31 +1,31 @@
 ---
-title: "Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改的功能"
-description: "此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新功能和更改的功能。"
+title: Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改
+description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
 ms.date: 12/14/2018
 ms.topic: article
-ms.prod: 
+ms.prod: ''
 ms.service: dynamics-365-talent
-ms.technology: 
-ms.search.form: 
+ms.technology: ''
+ms.search.form: ''
 audience: Application User
 ms.reviewer: josaw
 ms.search.scope: Talent
-ms.custom: 
-ms.assetid: 
+ms.custom: ''
+ms.assetid: ''
 ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.translationtype: HT
-ms.sourcegitcommit: 844c23fc908c962203e644f1154cc480425d830b
 ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.contentlocale: zh-cn
-ms.lasthandoff: 12/18/2018
-
+ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 01/29/2019
+ms.locfileid: "303346"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改的功能
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改
 
 [!include [banner](includes/banner.md)]
 
@@ -151,4 +151,3 @@ ms.lasthandoff: 12/18/2018
 ![“工作人员到工作人员”任务](./media/WorkerMapping.png)
 
 ![“性别”字段转换](./media/WorkerTransform.png)
-
