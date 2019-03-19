@@ -40,12 +40,16 @@ items:
       href: dev-tools/fleet-management-sample.md
     - name: 车队管理示例应用程序
       href: dev-tools/introduction-fleet-management-sample.md
-  - name: Visual Studio Tools
+  - name: Visual Studio 工具
     items:
     - name: 开发工具
       href: dev-tools/development-tools-overview.md
     - name: 开发工具教程
       href: dev-tools/introduction-visual-studio.md
+    - name: AppChecker
+      items:
+      - name: 安装 AppChecker 的 BaseX
+        href: dev-tools/install-basex.md
     - name: 应用程序资源管理器
       href: dev-tools/application-explorer.md
     - name: 生成和调试项目
@@ -264,6 +268,8 @@ items:
         href: extensibility/extensibility-changes-812.md
       - name: 可扩展性更改版本 8.1.3
         href: extensibility/extensibility-changes-813.md
+      - name: 可扩展性更改版本 10.0
+        href: extensibility/extensibility-changes-10.md
     - name: 基本原理
       items:
       - name: 自动插入的自定义项
@@ -887,6 +893,7 @@ items:
   - name: 部署演示环境
     href: deployment/deploy-demo-environment.md
   - name: 云部署
+    href: deployment/cloud-deployment-overview.md
     items:
     - name: 自助服务部署
       href: deployment/infrastructure-stack.md
@@ -1073,10 +1080,12 @@ items:
       href: dev-tools/update-development-tools.md
   - name: 弃用
     items:
-    - name: 弃用的 API
-      href: migration-upgrade/deprecated-apis.md
-    - name: 弃用的功能
+    - name: 已删除或弃用的功能
       href: migration-upgrade/deprecated-features.md
+    - name: 方法和元数据元素的弃用
+      href: migration-upgrade/deprecation-deletion-apis.md
+    - name: 弃用的 API（2017 年 6 月）
+      href: migration-upgrade/deprecated-apis.md
 - name: 系统管理
   href: sysadmin/system-administration-home-page.md
   items:
@@ -1120,8 +1129,10 @@ items:
       href: sysadmin/copy-batch-job.md
     - name: 活动批处理期间
       href: sysadmin/activeperiod.md
-    - name: 批处理经理安全角色
+    - name: 批处理管理器安全角色
       href: sysadmin/runby.md
+    - name: 用于处理 SQL 索引碎片整理的批处理作业
+      href: sysadmin/batch-job-SQL-defragmentation.md
   - name: 优化顾问
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1200,18 +1211,30 @@ items:
       href: lifecycle-services/use-translation-service-ua.md
     - name: 翻译记忆库文件
       href: lifecycle-services/use-translation-service-tm.md
-- name: 数据库管理
+- name: 数据库移动操作
   items:
-  - name: 将数据库从 Azure SQL 数据库复制到 SQL Server 环境
-    href: database/copy-database-from-azure-sql-to-sql-server.md
-  - name: 将数据库从 SQL Server 复制到 Azure SQL 数据库生产环境
-    href: database/copy-database-from-sql-server-to-azure-sql.md
-  - name: 在非生产环境中还原数据库
-    href: database/request-point-in-time-restore.md
-  - name: 导出数据库的副本以便今后还原
-    href: database/copy-operations-database.md
-  - name: 请求沙盒数据库刷新
-    href: database/database-refresh.md
+  - name: 概览
+    href: database/dbmovement-operations.md
+  - name: 快速入门指南
+    items:
+    - name: 刷新数据库
+      href: database/database-refresh.md
+    - name: 导出数据库
+      href: database/export-database.md
+    - name: 导入数据库
+      href: database/import-database.md
+    - name: 数据库时间点还原
+      href: database/database-point-in-time-restore.md
+  - name: 教程
+    items:
+    - name: 出于培训目的进行刷新
+      href: database/dbmovement-scenario-general-refresh.md
+    - name: 调试和诊断
+      href: database/dbmovement-scenario-debugdiag.md
+    - name: 黄金配置提升
+      href: database/dbmovement-scenario-goldenconfig.md
+    - name: 破坏性测试
+      href: database/dbmovement-scenario-destructivetests.md
 - name: 支持
   items:
   - name: 获取对 Finance and Operations 和 Lifecycle Services 的支持
@@ -1228,9 +1251,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: 管理 Finance and Operations 支持体验
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: 9baabd73eb9a6e0c33b41bc30a1ba0788a858ce9
-ms.sourcegitcommit: bacad87e2b9146e08e6fe16af01356954eb90574
+ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
+ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/01/2019
-ms.locfileid: "373315"
+ms.lasthandoff: 03/04/2019
+ms.locfileid: "773794"

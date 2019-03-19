@@ -30,17 +30,11 @@ items:
         href: get-started/public-preview-releases.md
       - name: 购买 Finance and Operations
         items:
-        - name: 购买 Finance and Operations（本地）
+        - name: 购买 Finance and Operations (on-premises)
           href: get-started/purchase-on-premises.md
     - name: 新增功能或更改
       href: get-started/whats-new-changed.md
       items:
-      - name: 一个版本服务更新常见问题
-        href: get-started/one-version.md
-      - name: 软件生命周期策略和云版本
-        href: ../dev-itpro/migration-upgrade/versions-update-policy.md?toc=/fin-and-ops/toc.json
-      - name: 软件生命周期策略和本地版本
-        href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md?toc=/fin-and-ops/toc.json
       - name: Microsoft Dynamics AX 2009 和 2012 主流支持结束
         href: get-started/mainstream-support-ax-2009-2012.md
       - name: 已删除或弃用的功能
@@ -49,10 +43,14 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: 未在本地部署中实现的功能
         href: get-started/features-not-implemented-on-prem.md
+      - name: Finance and Operations 版本 10.0.1 中的预览功能（2019 年 4 月）
+        href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations 版本 10.0（2019 年 4 月）
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations 版本 8.1.3（2019 年 1 月）
         href: get-started/whats-new-changed-8-1-3.md
+      - name: Finance and Operations platform update 25 预览功能（2019 年 4 月）
+        href: get-started/whats-new-platform-25.md
       - name: Platform update 24（2019 年 3 月）
         href: get-started/whats-new-platform-update-24.md
       - name: Platform update 23（2019 年 1 月）
@@ -202,6 +200,29 @@ items:
       href: get-started/move-lcs-implementation-project-tenant.md
     - name: 一个 Azure AD 租户上的多个 LCS 项目和生产环境
       href: get-started/implement-multiple-projects-aad-tenant.md
+  - name: 一个版本服务更新
+    href: ../dev-itpro/lifecycle-services/oneversion-overview.md
+    items:
+    - name: 一个版本服务更新常见问题
+      href: get-started/one-version.md
+    - name: 软件生命周期策略 - 云
+      href: ../dev-itpro/migration-upgrade/versions-update-policy.md
+    - name: 软件生命周期策略 - 本地
+      href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
+    - name: 标准版及首发版服务更新
+      href: get-started/public-preview-releases.md
+    - name: 将更新应用于云环境
+      href: ../dev-itpro/deployment/apply-deployable-package-system.md
+    - name: 配置服务更新
+      href: ../dev-itpro/lifecycle-services/configure-service-updates.md
+    - name: 暂停服务更新
+      href: ../dev-itpro/lifecycle-services/pause-service-updates.md
+    - name: 获取有关服务更新的通知
+      href: ../dev-itpro/lifecycle-services/notifications-service-updates.md
+    - name: 数据任务自动化
+      href: ../dev-itpro/data-entities/data-task-automation.md
+    - name: Regression Suite Automation Tool
+      href: ../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md
   - name: 业务事件
     href: ../dev-itpro/business-events/home-page.md
     items:
@@ -401,7 +422,7 @@ items:
             href: ../supply-chain/sales-marketing/synchronize-project-list.md
           - name: 将仓库从 Finance and Operations 同步到 Field Service
             href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-          - name: 将工作订单从 Finance and Operations 同步到 Field Service
+          - name: 将项目内的工作订单从 Field Service 同步到 Finance and Operations
             href: ../supply-chain/sales-marketing/synchronize-work-orders.md
         - name: 配置 Project Service Automation 集成
           href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
@@ -1416,6 +1437,8 @@ items:
           href: ../financials/localizations/tasks/br-00053-1-set-up-nf-e-federal-parameters.md
         - name: 设置财务设施的 NF-e 参数
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
+      - name: SPED ECD
+        href: ../financials/localizations/latam-bra-sped-ecd.md
       - name: SPED-Reinf 税报表
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: 法人的参数
@@ -2236,6 +2259,8 @@ items:
           href: ../financials/localizations/rus-sales-books-purchase-books.md
       - name: 固定资产
         items:
+        - name: 设置固定资产
+          href: ../financials/localizations/rus-set-up-fixed-assets.md
         - name: 购置固定资产并将其投入运营
           href: ../financials/localizations/rus-fixed-asset-acquisition.md
         - name: 登记固定资产购置
@@ -2266,6 +2291,18 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: 计算折旧
           href: ../financials/localizations/rus-depreciation-calculation.md
+      - name: 应付帐款和应收帐款
+        items:
+        - name: 付款发票
+          href: ../financials/localizations/rus-invoice-payment.md
+        - name: 设置结算的维度控制
+          href: ../financials/localizations/rus-transactions-settlement-date.md
+        - name: 现金流管理
+          href: ../financials/localizations/rus-cash-flow.md
+      - name: 报告
+        items:
+        - name: 财务报告
+          href: ../financials/localizations/rus-financial-reports.md
       - name: 公司分部
         href: ../financials/localizations/rus-company-divisions.md
       - name: 设置货币交易的汇率
@@ -2280,8 +2317,10 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: 财务报告
         href: ../financials/localizations/rus-financial-reports.md
-      - name: 创建采购帐簿
-        href: ../financials/localizations/rus-sales-books-purchase-books.md
+      - name: 电子格式的核算申报
+        href: ../financials/localizations/rus-accounting-reporting.md
+      - name: 现金流管理
+        href: ../financials/localizations/rus-cash-flow.md
     - name: 沙特阿拉伯
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2367,10 +2406,12 @@ items:
         href: ../financials/localizations/tasks/gb-00002-reverse-charge-vat-item-groups.md
       - name: 设置反向增值税的销售税组
         href: ../financials/localizations/tasks/gb-00002-sales-tax-groups-reverse-charge-vat.md
+      - name: 将增值税数字化
+        href: ../financials/localizations/emea-gbr-mtd-vat-integration.md
     - name: 美国
       href: ../financials/localizations/united-states.md
       items:
-      - name: 美国的年终 1099 申报
+      - name: 美国的年终 1099 报告
         href: ../financials/localizations/noam-usa-year-end-1099-reporting.md
       - name: 公共部门的 1099 表格
         href: ../financials/localizations/noam-usa-form-1099-public-sector.md
@@ -2827,6 +2868,8 @@ items:
           href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
         - name: 针对 Application update 7.3 的电子申报框架 API 更改
           href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+        - name: 为生成文档指定自定义存储
+          href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
     - name: 嵌入的分析解决方案
       items:
       - name: 工作区中的嵌入式 Power BI
@@ -3281,6 +3324,8 @@ items:
         href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
       - name: 工作流类型报告
         href: organization-administration/workflow-types-report.md
+      - name: 工作流常见问题
+        href: organization-administration/workflow-FAQ.md
     - name: 预警
       href: get-started/alerts-overview.md
       items:
@@ -3799,8 +3844,6 @@ items:
         href: ../supply-chain/sales-marketing/tasks/enter-sales-agreements.md
       - name: 履行销售协议
         href: ../supply-chain/sales-marketing/tasks/fulfill-sales-agreements.md
-      - name: 创建新的贸易协议
-        href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
       - name: 生成和处理客户返点
         href: ../supply-chain/sales-marketing/tasks/process-customer-rebates.md
       - name: 处理付款返点
@@ -3827,6 +3870,8 @@ items:
         href: ../supply-chain/sales-marketing/tasks/set-up-sales-commission-rules.md
     - name: 贸易折让
       href: ../supply-chain/sales-marketing/trade-allowance.md
+    - name: 创建新的贸易协议
+      href: ../supply-chain/sales-marketing/tasks/create-new-trade-agreement.md
   - name: 服务管理
     href: ../supply-chain/service-management/service-management-home-page.md
     items:
@@ -4241,9 +4286,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: cb58a9f8fa8305a3d8b956804ef74bef86ca04b9
-ms.sourcegitcommit: 7e0097bdd835e04521bffbce2fd802e6381dde0d
+ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "376910"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836388"
