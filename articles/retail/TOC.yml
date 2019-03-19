@@ -5,6 +5,10 @@ items:
   items:
   - name: 新增功能或更改
     href: get-started/whats-new.md
+  - name: Dynamics 365 for Retail 10.0.1 预览功能
+    href: get-started/whats-new-10-0-1.md
+  - name: Dynamics 365 for Retail 新增功能或更改（2019 年 4 月）
+    href: get-started/april-whats-new.md
   - name: 购买 Retail 之前
     href: get-started/before-you-buy.md
   - name: 注册预览订阅
@@ -109,7 +113,11 @@ items:
   - name: 全部金额和销售税代码的间隔计算选项
     href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
 - name: 全渠道高级自动费用
-  href: omni-auto-charges.md
+  items:
+  - name: 配置和使用高级自动费用
+    href: omni-auto-charges.md
+  - name: 标题自动费用的按比例分配和分组
+    href: pro-rate-charges-matching-lines.md
 - name: 呼叫中心
   items:
   - name: 呼叫中心销售功能
@@ -387,7 +395,7 @@ items:
     - name: 收银机功能
       href: localizations/emea-swe-cash-registers.md
     - name: Retail POS 与控制单元集成的示例
-      href: dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md
+      href: localizations/retail-sdk-control-unit-sample.md
 - name: Retail 任务
   items:
   - name: 创建产品
@@ -553,6 +561,8 @@ items:
       href: dev-itpro/hybridApp.md
     - name: 覆盖 POS 请求处理程序
       href: dev-itpro/pos-handler.md
+    - name: 查看 POS 扩展包信息
+      href: view-pos-extension-package-details.md
   - name: Hardware Station 和可扩展性
     href: dev-itpro/hardware-station-extensibility.md
   - name: Retail Server 可扩展性
@@ -659,9 +669,9 @@ items:
     items:
     - name: 会员扩展
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 1f86096b0572f0309afa04e086d53294a7a8f4fa
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
+ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377243"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791630"

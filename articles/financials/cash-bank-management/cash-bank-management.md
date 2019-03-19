@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 944030859c26a1aadeb98a070d071e30f8b86dc4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d15ff8add8a77c27a9f0153c9e881ecae3d9da78
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301981"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403300"
 ---
 # <a name="cash-and-bank-management-home-page"></a>现金和银行管理主页
 
@@ -86,13 +86,11 @@ ms.locfileid: "301981"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。 
+转到 [Microsoft Dynamics 365 发行说明](https://go.microsoft.com/fwlink/?linkid=2010158)，了解已经规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客] (https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关现金和银行管理的意见、新闻和其他信息以及其他解决方案。
-
-[Microsoft Dynamics AX 产品团队博客](https://blogs.msdn.microsoft.com/dax/)上有很多有关现金和银行管理的文章。 尽管一些文章是针对现金和银行管理的旧版本编写的，但相同的概念仍适用，并且过程在当前版本中也是相似的。
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找相关意见、资讯及其他信息。
 
 [Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
 
