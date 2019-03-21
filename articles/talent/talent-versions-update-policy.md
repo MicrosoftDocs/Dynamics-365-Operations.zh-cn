@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shielas
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 0fa2b7c2dc5b88349cb4012b6b0ba9009a361fa0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 64362ae9e4ebb63ca6da2cd2f41376d1d9047694
+ms.sourcegitcommit: c6af2de37309b574dcb69c9caad436b55136600f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303345"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768477"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Talent 系统要求和更新策略
 
@@ -36,8 +36,8 @@ Microsoft Dynamics 365 for Talent Web 应用程序可在指定操作系统上运
 
 *   Windows 10 上的 Microsoft Edge（最新公开提供的版本）
 *   Windows 10、Windows 8.1 或 Windows 7 上的 Internet Explorer 11
-*   Windows 10、Windows 8.1、Windows 8、Windows 7 或 Google Nexus 10 平板电脑上的 Google Chrome（最新公开提供的版本）
-*   Mac OS X 10.10 (Yosemite)、10.11 (Capitan)、10.12 (Sierra) 或 Apple iPad 上的 Apple Safari（最新公开提供的版本）
+*   Google Chrome（最新公开提供的版本）
+*   Apple Safari（最新公开提供的版本）
 
 要查看每个 Web 浏览器的最新版本，请转至软件制造商的网站。 
 

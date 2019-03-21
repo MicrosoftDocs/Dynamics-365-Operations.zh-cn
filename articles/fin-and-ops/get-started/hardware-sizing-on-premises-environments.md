@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: d277bc4c4c815317bade8a04b9111232fb707086
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
+ms.sourcegitcommit: 21bbdac152e0cbb0576df9d5e6e90283175834ef
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340721"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768406"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
@@ -86,7 +86,7 @@ ms.locfileid: "340721"
     - 附加功能的使用，如数据库日志和预警。 极端数据库记录将进一步将每核心每小时吞吐量降低至 3K 行以下。
     - 数据构成的复杂性 - 一个简单的会计科目表与详细的会计科目表之间的对比对吞吐量具有影响（作为示例）。
     - 交易记录特征。
-    - 每核心 2 GB 至 4 GB 内存。
+    - 每核心 2 GB 至 16 GB 内存。
     - DB 服务器上的辅助数据库，例如 Management Reporter 和 SSRS 数据库。
     - 临时 DB = DB 大小的 15%，其中文件的数量与物理处理器的数量相同。
     - 基于总并发交易记录数量/使用量的 SAN 大小和吞吐量。

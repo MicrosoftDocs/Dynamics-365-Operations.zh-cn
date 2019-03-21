@@ -3,7 +3,7 @@ title: 通过采购获得资产
 description: 本主题介绍如何设置固定资产和应付账款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/27/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eef69de1c93de5c19b9f197838f1f2d3eb2e7645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ba3484e62caa790a5b05ae0693f69926514f6425
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355786"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778216"
 ---
 # <a name="acquire-assets-through-procurement"></a>通过采购获得资产
 
 [!include [banner](../includes/banner.md)]
 
-本主题介绍如何设置固定资产和应付账款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。
+本主题介绍如何设置固定资产和应付账款之间的集成，以便自动从采购订单或供应商发票创建固定资产，或者自动为固定资产过帐购置和购置调整交易记录。 一个采购行创建一个资产，不考虑该采购行中的数量。 如果需要创建多个固定资产，必须创建多个采购行。
 
  以下方法可用于将固定资产和应付账款相集成，并且您必须为所有固定资产使用同一种方法：
 -   您手动创建某一固定资产，然后将该固定资产的编号添加到采购订单或供应商发票上的行中。 在过帐供应商发票时为该资产自动过帐购置交易记录。 此方法是默认方法。

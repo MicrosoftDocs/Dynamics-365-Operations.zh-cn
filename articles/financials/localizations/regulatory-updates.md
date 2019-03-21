@@ -3,7 +3,7 @@ title: 监管更新
 description: 此主题提供 Microsoft Dynamics 365 for Finance and Operations 的已计划和已发布监管更新的列表。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 01/25/2019
+ms.date: 02/19/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 9dcf958165cffa3e3cd62b88a71295eefae9cf8f
-ms.sourcegitcommit: f004451a260b5be6c15c3975cd9e63ba9c1a7a2e
+ms.openlocfilehash: 3beeb77819661de3f6b55766a1f8a5bd1fe023ba
+ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "375982"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "832093"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -40,6 +40,14 @@ ms.locfileid: "375982"
 |      2019 年 3 月          |   10.0.0      | 奥地利      |   Kammerumlage 2019 的更改（进项税）。    |
 |      2019 年 3 月          |   10.0.0      |   巴西    |     SPED EFD 缴纳额 - 布局 004 和 005  |
 |      2019 年 3 月          |   10.0.0      |    马来西亚     |马来西亚使用 SST 销售税和服务税替换 GST        |
+|      2019 年 4 月          |   10.0.1      |    奥地利     |Retail - 财政整合         |
+|      2019 年 4 月          |   10.0.1      |    欧洲     |电子开票 - 以 PEPPOL BIS 3 格式导出客户发票         |
+|      2019 年 4 月          |   10.0.1      |    欧洲     |电子开票 - 以 PEPPOL BIS 3 格式导入供应商发票         |
+|      2019 年 4 月          |   10.0.1      |   德国     |电子开票 - 以 xRechnung 1.1 格式导出客户发票         |
+|      2019 年 4 月          |   10.0.1      |    英国     |[增值税报表提交更改（报税电子化）](emea-gbr-mtd-vat-integration.md)    |    
+|      2019 年 4 月          |   10.0.1      |    巴西     |NF-e new NT 2018.005         |
+|      2019 年 4 月          |   10.0.1      |    俄罗斯     |2019 年开始的增值税申报格式更改         |
+|      2019 年 4 月          |   10.0.1      |    俄罗斯     |2019 年开始的增值税申报格式更改（销售帐簿和采购帐簿格式）  |
 
 ## <a name="additional-resources"></a>其他资源
 - 在 [Lifecycle Service - 问题搜索](https://lcs.dynamics.com/Logon/Index)上查找所有计划的和已发布监管更新（需要登录）。

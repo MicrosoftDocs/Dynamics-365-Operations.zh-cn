@@ -3,7 +3,7 @@ title: 应付账款的集中付款
 description: 包括多个法人的组织可以使用处理所有付款的单个法人创建和管理付款。 因此，不必在多个法人中输入同一付款。 本文提供显示集中付款过帐如何在不同环境中处理的示例。
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/12/2017
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e6744aae97499385405e192cd6d6cb8590dd79b7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b61320617dd85a880414b31ad6c88e611beca161
+ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327059"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "390158"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>应付账款的集中付款
 
@@ -33,7 +33,7 @@ ms.locfileid: "327059"
 
 包括多个法人的组织可以使用处理所有付款的法人创建和管理付款。 因此，不必在多个法人中输入同一付款。 此外，组织节省时间，因为付款流程简化。
 
-在集中付款的组织中，有很多营业的法人，且每个营业的法人都管理自己的供应商发票。 所有营业的法人的付款都是从称作付款的法人的单个法人中生成的。 在结算流程中，生成适用的应付和应收交易记录。 您可以指定组织内的哪个法人接收已有收益或已有损失交易记录，以及如何处理与跨公司付款相关的现金折扣交易记录。 
+在集中付款的组织中，有很多营业的法人，且每个营业的法人都管理自己的供应商发票。 所有营业的法人的付款都是从称作付款的法人的单个法人中生成的。 在结算流程中，生成适用的应付和应收交易记录。 您可以指定组织内的哪个法人接收已有收益或已有损失交易记录，以及如何处理与跨公司付款相关的现金折扣交易记录。 在集中支付日记帐行中，**科目类型**应设置为“供应商”。 **对方科目类型**应设置为“银行”或“分类帐”。 银行科目应在当前公司中。 
 
 以下示例说明如何在不同的环境中处理过帐。 假定所有这些示例都采用以下配置：
 

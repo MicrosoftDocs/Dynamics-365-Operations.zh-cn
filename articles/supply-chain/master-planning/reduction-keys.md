@@ -3,7 +3,7 @@ title: 缩减参数
 description: 文本提供显示如何设置缩减参数的示例。 它包含有关各种缩减参数设置以及每个结果的信息。 可以使用缩减参数以定义如何缩减预测需求。
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3e62431a1fdbeb81dda68297f034ee00adece079
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7457aca4ca4d5188bafb497d3052276cfc154ad1
+ms.sourcegitcommit: 704d273485dcdc25c97a222bc0ef0695aad334d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364802"
+ms.lasthandoff: 02/28/2019
+ms.locfileid: "770908"
 ---
 # <a name="reduction-keys"></a>缩减参数
 
@@ -98,6 +98,7 @@ ms.locfileid: "364802"
 
    在此预测中，预测日期之间没有明确的期间：在第一个和第二个日期之间有一个四天间隔，在第二个和第三个日期之间有一个七天间隔。 这些不同间隔是动态期间。
 2. 如下所示创建销售订单行。
+
    | 日期                             | 销售订单数量 |
    |----------------------------------|----------------------|
    | 上一年度的 12 月 15 日 | 500                  |

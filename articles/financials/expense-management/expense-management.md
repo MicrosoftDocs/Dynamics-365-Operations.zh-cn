@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1cd637f1b74056db89520b762255d03afa3855ba
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
+ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313397"
+ms.lasthandoff: 02/19/2019
+ms.locfileid: "403206"
 ---
 # <a name="expense-management"></a>费用报销管理
 
@@ -37,15 +37,13 @@ ms.locfileid: "313397"
 
 #### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转到 [Microsoft Dynamics 365 路线图](https://roadmap.dynamics.com/)以了解已发布和正在开发的新功能。 
+转至 [Microsoft Dynamics 365 发行说明](https://go.microsoft.com/fwlink/?linkid=2010158)查看已规划了哪些新功能。 
 
 #### <a name="blogs"></a>博客
 
-您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)上查找有关应收帐款的意见、新闻和其他信息以及其他解决方案。
+[Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - Financials 博客](https://community.dynamics.com/365/financeandoperations/b/financials)中提供了选项、新闻及其他信息。
 
-[Microsoft Dynamics AX 产品团队博客](https://blogs.msdn.microsoft.com/dax/)上有很多有关应收帐款的帖子。 虽然其中某些帖子是针对以前版本的应收帐款撰写的，但同一概念仍然适用， 而且相关程序也与当前版本类似。
-
-[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
+[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。 
 
 #### <a name="task-guides"></a>任务指南
 其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。

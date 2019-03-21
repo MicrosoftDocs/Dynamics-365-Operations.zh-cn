@@ -3,7 +3,7 @@ title: Attract 中的安全和角色管理
 description: 此主题提供有关 Microsoft Dynamics 365 for Talent - Attract 中的角色安全性的信息。
 author: josaw1
 manager: AnnBe
-ms.date: 10/18/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw1
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 5674df1657b46aa31e2011562f4ebbff2c16fee9
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374772"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789689"
 ---
 # <a name="security-and-role-management-in-attract"></a>Attract 中的安全和角色管理
 
@@ -100,14 +100,16 @@ Attract 提供五个基本用户角色：
 | 数据或操作          | 招聘人员 | 招聘经理 | 面试官 |
 |-------------------------|-----------|----------------|-------------|
 | 申请文档   | 创建、阅读、更新和删除用户所在招聘团队的工作 | 创建、阅读、更新和删除用户所在招聘团队的工作 | 只读 |
-| 申请注释       | 创建、阅读、更新和删除用户所在招聘团队的工作 | 创建、阅读、更新和删除用户所在招聘团队的工作 | 创建 |
+| 申请注释       | 创建、阅读、更新和删除用户所在招聘团队的工作 | 创建、阅读、更新和删除用户所在招聘团队的工作 | 只读|
 | 申请活动    | 查看，如果用户在招聘团队中 | 查看，如果用户在招聘团队中 | 只读 |
 | 申请反馈    | 如果用户在招聘团队中，添加并查看所有反馈 | 如果用户在招聘团队中，添加并查看所有反馈 | 可以添加反馈\*\* |
 | 拒绝申请      | 如果用户在招聘团队中，可以拒绝 | 不允许 | 不允许 |
 | 下一阶段           | 如果用户在招聘团队中，可以拒绝 | 如果用户在招聘团队中，可以推进 | 不允许 |
 | 启动聘约管理 | 可以开始聘约管理 | 聘约活动中存在一个配置选项。 | 不允许 |
 
-\*\*[反馈活动设置](activities-attract.md#feedback-activity)中的配置选项控制面试官能否看到彼此的反馈。
+
+\*\*[反馈活动设置](./activities-attract.md)中的配置选项控制面试官能否看到彼此的反馈。
+
 
 ## <a name="process-templates"></a>流程模板
 

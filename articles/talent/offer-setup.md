@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: fa6c8c80870dd7bd06498c7571ba8a110be85c86
-ms.sourcegitcommit: 3b12ff5ca81650ae666ff443b0bc998182f3931e
+ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
+ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/06/2019
-ms.locfileid: "376499"
+ms.lasthandoff: 02/26/2019
+ms.locfileid: "768874"
 ---
 # <a name="set-up-offer-management"></a>设置聘约管理 
 
@@ -199,11 +199,11 @@ ms.locfileid: "376499"
 - **应聘者的聘约体验** - 作为管理员，您可以选择设置是否所有聘约都具有到期日期，如果有，设置到期日期的默认偏移。 您还可以配置应聘者是否能够拒绝聘约。
 
 - **电子签名** - 作为管理员，您还可以选择应聘者可以用于对聘约进行签名的方法。
-    - Adobe Sign - 所有聘约包都将通过 Adobe Sign 发送和签名。 发布聘约的每个聘约创建者都需要有连接到 Attract 的 Adobe Sign 许可证。 
+    - Adobe Sign - 所有聘约包都将通过 Adobe Sign 发送和签名。 发布聘约的每个聘约创建者都需要有连接到 Attract 的 Adobe Sign 帐户。 对于 Adobe Sign 许可证和免费试用版，请访问此[链接](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html)。
 
+    - DocuSign - 所有聘约包都将通过 DocuSign 发送和签名。 发布聘约的每个聘约创建者都需要有连接到 Attract 的 DocuSign 帐户。 
+    
     - ESign - 这是默认选项，现成提供，在其中，用户可以通过键入姓名和姓名首字母缩写对聘约进行签名。
 
->[!NOTE]
-> 对于 Adobe Sign 许可证和免费试用版，请访问此[链接](https://acrobat.adobe.com/us/en/business/integrations/microsoft-dynamics-365-for-talent.html)。
 
 若要了解有关聘约创建流程的更多信息，请参阅[创建、审核和签署聘约](./creating-offers.md)。

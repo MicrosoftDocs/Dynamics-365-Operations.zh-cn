@@ -3,7 +3,7 @@ title: 使用仓库管理进行实际称重产品处理
 description: 本主题介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里完成工作。
 author: perlynne
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,23 +17,23 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 5161860e3b1c5b0ae795d109159268be085ec5af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "334051"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777264"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
-[!include [preview banner](../../includes/preview-banner.md)]
+
 [!include [banner](../includes/banner.md)]
 
-**功能曝光**
+## <a name="feature-exposure"></a>功能曝光
 
 若要使用仓库管理处理实际称重产品，必须使用许可证配置键打开功能。 （转到**系统管理 \> 设置 \> 许可证配置**。 然后，在**配置键**选项卡上，展开**贸易 \> 仓库和运输管理**，然后选择**面向仓库的实际称重**复选框）。
 
 > [!NOTE]
-> 还必须打开**仓库和运输管理**许可证配置键和**流程分配实际称重**许可证配置键。
+> 还必须打开**仓库和运输管理**许可证配置键和**流程分配 \> 实际称重**许可证配置键。
 
 在许可证配置键打开后，在您创建已发放产品时，您可以选择**实际称重**。 您还可以将发放的产品与为其选择了**使用仓库管理流程**参数的存储维度组关联。
 

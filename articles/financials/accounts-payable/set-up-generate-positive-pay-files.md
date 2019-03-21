@@ -1,9 +1,9 @@
 ---
 title: 设置和生成付款确认文件
-description: 本文说明如何设置付款确认和生成付款确认文件。
+description: 本主题说明如何设置付款确认和生成付款确认文件。
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 08/22/2017
+ms.date: 03/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: 0a15669c477223b922d8892d675eaa1df2563714
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dbc512c6d214dc8cf2527ac23103529111896ec5
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346080"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778170"
 ---
 # <a name="set-up-and-generate-positive-pay-files"></a>设置和生成付款确认文件
 
 [!include [banner](../includes/banner.md)]
 
-本文说明如何设置付款确认和生成付款确认文件。 
+本主题说明如何设置付款确认和生成付款确认文件。 
 
 设置付款确认以生成提供给银行的支票电子列表。 然后，当支票提交给银行时，银行将支票与支票的列表进行对比。 如果支票与列表中的支票相匹配，银行将清算支票。 如果支票与列表中的支票不匹配，银行将保留支票以供审查。
 
@@ -94,7 +94,7 @@ ms.locfileid: "346080"
           <xsl:value-of select="'
     '" />
           <!--Header End-->
-          <xsl:for-each select="Document/BankPositivePayExportEntity">
+          <xsl:for-each select="Document/BANKPOSITIVEPAYEXPORTENTITY">
             <!--Cheque Detail begin-->
             <xsl:value-of select='RECIPIENTACCOUNTNUM/text()'/>
             <xsl:value-of select="','" />

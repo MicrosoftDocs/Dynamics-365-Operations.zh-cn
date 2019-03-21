@@ -3,7 +3,7 @@ title: 全渠道高级自动费用
 description: 此主题描述使用高级自动费用功能管理零售渠道订单的额外订单费用的功能。
 author: hhaines
 manager: annbe
-ms.date: 01/22/2019
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: a980ae9571fb47522d3966dc172b2343641b827e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "345551"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789763"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>全渠道高级自动费用
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 此主题提供有关 Dynamics 365 for Retail 版本 10.0 中提供的高级自动费用功能的配置与部署的信息。
@@ -49,7 +48,7 @@ ms.locfileid: "345551"
 
 ![高级自动费用参数](media/advancedchargesparameter.png)
 
-在高级自动费用启用时，用户在创建全部装运或装运所选产品客户订单时将被更长时间地提示在 POS 终端手动输入费用。 POS 订单费用被系统化地计算并添加到 POS 交易记录（如果找到与正在创建的订单的条件匹配的对应的自动费用表）。 用户还可以通过可以添加到 POS 屏幕布局的新添加的 POS 操作手动添加或维护标题或行级别费用。  
+在高级自动费用启用时，在创建全部装运或装运所选产品客户订单时，不再提示用户在 POS 终端中手动输入费用。 POS 订单费用被系统化地计算并添加到 POS 交易记录（如果找到与正在创建的订单的条件匹配的对应的自动费用表）。 用户还可以通过可以添加到 POS 屏幕布局的新添加的 POS 操作手动添加或维护标题或行级别费用。  
 
 在高级自动费用启用时，不再使用**装运费用代码**和**退回装运费用**的现有**零售参数**。 仅当**使用高级自动费用**参数设置为**否**时这些参数才适用。
 
@@ -67,6 +66,8 @@ ms.locfileid: "345551"
 - **143 - 重新计算费用** - 使用此操作执行销售交易记录费用的完全重新计算。 先前用户覆盖的任何自动费用都将根据当前的配置重新计算。  
 
 与 POS 操作一样，可以进行安全配置来需要经理审批才能执行操作。
+
+请务必注意，即使禁用了**使用高级自动费用**参数，也可以将上面列出的 POS 操作添加到 POS 布局。 在此情况下，组织仍然可以享受查看手动添加的费用和使用**管理费用**操作编辑这些费用带来的优势。 即使禁用了**使用高级自动费用**参数，用户也可以为 POS 交易记录使用**添加标题费用**和**添加行费用**操作。 如果在禁用了**使用高级自动费用**时使用**重新计算费用**操作，该操作的功能将减少。 在此情况下，将不重新计算任何内容，并且手动添加到交易记录的所有费用都将重置为 $0.00。
 
 ## <a name="use-case-examples"></a>用例示例
 在此部分，将呈现示例用例以帮助您了解零售渠道订单上下文内自动费用和杂项费用的配置和使用。 这些示例说明在启用了**使用高级自动费用**参数时应用程序的行为。
@@ -207,3 +208,7 @@ ms.locfileid: "345551"
 ### <a name="preventing-charges-from-being-calculated-until-the-pos-order-is-completed"></a>防止费用在完成 POS 订单前计算
 
 某些组织可能更愿意等待用户将所有销售订单行都添加到 POS 交易记录后再计算费用。 若要防止在物料添加到 POS 交易记录时计算费用，在商店使用的**功能配置文件**中打开**手动费用计算**参数。 启用此参数将需要 POS 用户在完成向 POS 交易记录添加产品时使用**计算合计**操作。 **计算合计**操作然后将触发计算订单头或行的任何自动费用（如果适用）。
+
+### <a name="charges-override-reports"></a>费用覆盖报表
+
+如果用户手动覆盖计算费用或向交易记录添加手动费用，则可在**费用覆盖历史记录**报表中审计这些数据。 可以从**零售 \> 查询和报表 \> 费用覆盖历史记录**访问此报表。  请务必注意，此报表需要的数据是通过“P”分发计划作业从渠道数据库导入到 HQ 的。 因此，此作业将商店交易记录输入导入到 HQ 中之前，此报表中可能不会立即包含有关仅在 POS 中执行的覆盖的信息。 

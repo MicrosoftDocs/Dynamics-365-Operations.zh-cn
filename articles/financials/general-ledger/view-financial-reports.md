@@ -1,9 +1,9 @@
 ---
 title: 查看财务报表
-description: 本文介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
+description: 本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 author: kweekley
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4a939ce2f43645963392363fc6452f8bc55bd963
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
+ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312937"
+ms.lasthandoff: 03/09/2019
+ms.locfileid: "791433"
 ---
 # <a name="view-financial-reports"></a>查看财务报表
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
+本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 
 <a name="financial-reporting-overview"></a>财务报告概览
 ----------------------------
@@ -67,18 +67,15 @@ ms.locfileid: "312937"
 ## <a name="display-a-summarized-view-of-the-financial-report"></a>显示财务报表的汇总视图
 一个财务报表可以包含明细行和汇总行。 明细行是包含主科目或维度的行。 汇总行是描述、合计和计算行。 若要只显示报表的汇总行，单击**显示**，然后单击**仅汇总行**。 报表将折叠并只显示汇总行。 若要与汇总行一起查看明细行，请单击**显示**，然后再次单击**仅汇总行**。
 
-## <a name="open-a-financial-report-from-a-previous-month"></a>从上个月打开一个财务报表
-您可以查看当前月或以前月的报表，而不重新生成报表。 若要打开上个月的报表，单击**显示**，然后单击**以前的报表**。 生成报表的以前月的列表将显示。 展开要查看报表的那个月，选择该日期，然后单击**确定**。 之前月的报表将显示。 若要返回当前月的报表，请单击**取消**。
-
 ## <a name="print-a-financial-report"></a>打印财务报表
-若要打印一个财务报表，在操作窗格中，单击**打印**，然后按照一个或多个以下步骤来设置打印选项：
+打印财务报表将创建 PDF 文件，随后可手动打印该文件。 若要创建可打印的财务报表，在操作窗格中，单击**打印**，然后按照一个或多个以下步骤来设置打印选项：
 
 -   若要在打印的报表中包括各个明细级别，将滑块设置为**是**或**No**。 如果报表使用报告结构树，可以选择包括所有报告单位或只包括当前报告单位。
 -   若要设置页面尺寸，请在列表中选择页面尺寸。
 -   若要设置页面布局，选择列表中的某个布局。 如果您希望报表内容适合您选择的宽度，将滑块设置为**是**。
 -   若要设置页边距，按英寸键入顶部、底部、左边距和右边距的尺寸。
 
-在您完成设置打印选项后，单击**打印**以打印报表。 如果您决定不打印报表，则单击**取消**。 打印的报表的预览将显示。 您可以选择将报表发送到的打印机，并且，也可以调整打印选项。
+设置完打印选项之后，单击**打印**继续操作，而系统会提示要下载该文件还是将其保存到 OneDrive 或 SharePoint。 如果您决定不继续，则单击**取消**。 如果继续，将开始在服务器上呈现报表，并提示以 PDF 格式下载该报表。 现在可在 PDF 查看器中查看报表，并可以在这里选择要将报表发送到的打印机，以及进一步调整打印选项。
 
 ## <a name="export-a-financial-report"></a>导出财务报表
 若要导出财务报表，在操作窗格中，单击**导出**。 报表导出到 Microsoft Excel，并且，您的浏览器将提示您打开或保存导出的文件。 在报表设计中定义的导出设置应用到导出的报表。    
@@ -86,7 +83,7 @@ ms.locfileid: "312937"
 <a name="additional-resources"></a>其他资源
 --------
 
-[Microsoft Dynamics AX 的财务报告](../../dev-itpro/analytics/financial-reporting-intro.md)
+[财务报告](../../dev-itpro/analytics/financial-reporting-intro.md)
 
 
 

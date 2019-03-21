@@ -1,9 +1,9 @@
 ---
 title: 修改行定义单元格
-description: 本文介绍财务报表中行定义的每个单元格必需的信息，并解释如何输入该信息。
+description: 本主题介绍财务报表中行定义的每个单元格必需的信息，并解释如何输入该信息。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 02/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,18 +18,18 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 6193d70c53ee09a28aa8763cb625b315ec180b95
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d6f6e94fd8e7ddf92e89fedfab09ef0684505819
+ms.sourcegitcommit: eb24b63b10c4d06f7550bba9fbd1910ba2719b0a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "323632"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379656"
 ---
 # <a name="modify-row-definition-cells"></a>修改行定义单元格
 
 [!include [banner](../includes/banner.md)]
 
-本文介绍财务报表中行定义的每个单元格必需的信息，并解释如何输入该信息。
+本主题介绍财务报表中行定义的每个单元格必需的信息，并解释如何输入该信息。
 
 ## <a name="specify-a-row-code-in-a-row-definition"></a>在行定义中指定行代码
 
@@ -386,17 +386,15 @@ ms.locfileid: "323632"
 某些会计系统支持在财务数据中使用会计科目属性和交易记录属性。 这些属性的作用类似于虚拟会计科目段，并且可以包含有关会计科目或交易记录的附加信息。 此附加信息可能是会计科目 ID、批次 ID、邮政编码或其他属性。 如果你的会计系统支持这些属性，则可以将会计科目属性或交易记录属性用作行定义中的行修饰符。 有关如何覆盖行信息的信息，请参阅本文前文中的“覆盖列定义”部分。
 
 ## <a name="specify-a-link-to-financial-dimensions-cell"></a>指定“链接到财务维度”单元格
-**链接到财务维度**单元格包含至应包含在报表每一行中的财务数据的链接。 此单元格中包含维度值，但您可以指定 Microsoft Excel 工作表中的单元格而不指定科目段值或维度值，也可以同时指定单元格和科目段值或维度值。 要打开**维度**对话框，请双击**链接到财务维度**单元格。
+**链接到财务维度**单元格包含至应包含在报表每一行中的财务数据的链接。 此单元格中包含维度值。 要打开**维度**对话框，请双击**链接到财务维度**单元格。
 
 > [!NOTE]
 > 报表设计器不能选择 Microsoft Dynamics ERP 系统中包含任何下列保留字符的科目、维度或字段：&、\*、\[、\]、{ 或 }。 若要为行定义中已存在的行指定信息，请将该信息添加到**指向财务维度的链接**单元格中。 要添加链接到财务数据的新行，请使用**从以下位置插入行**对话框在报表定义中创建新行。 列标题会根据该列的配置方式而变化，如下表所示。
 
 | 选定的链接类型       | “链接”列的描述将更改为 |
 |----------------------------------|----------------------------------------------------|
-| 财务维度             | 指向财务维度的链接                       |
-| 外部工作表               | 指向工作表的链接                                  |
-| 财务维度 + 工作表 | 指向财务维度的链接 + 工作表           |
-| Management Reporter 报表       | Management Reporter 报表                         |
+| 财务维度             | 链接到财务维度                       |
+| 报表工作表                 | 财务报告设置                         |
 
 ### <a name="specify-a-dimension-or-range"></a>指定维度或范围
 

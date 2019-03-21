@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7eb6d743131937081ce83b31988d792185cb28b2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a35184a48eff9e320087cb9390a0f1eed1e7ba19
+ms.sourcegitcommit: 9a723737565ac78c884e40f7129d0f5aad747524
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308636"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773080"
 ---
 # <a name="workflow-system"></a>工作流系统
 
@@ -71,3 +71,4 @@ ms.locfileid: "308636"
 + [配置工作流中的并行活动](configure-parallel-activity-workflow.md)
 + [配置工作流中的并行分支](configure-parallel-branch-workflow.md)
 + [配置行项工作流](configure-line-item-workflow.md)
++ [工作流常见问题](workflow-FAQ.md)

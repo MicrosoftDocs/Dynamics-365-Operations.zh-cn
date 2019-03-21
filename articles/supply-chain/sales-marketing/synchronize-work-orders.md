@@ -3,7 +3,7 @@ title: 将包含项目的工作订单从 Field Service 同步到 Finance and Ope
 description: 此主题介绍用于同步 Microsoft Dynamics 365 for Field Service 与 Microsoft Dynamics 365 for Finance and Operations 的具有项目编号的工作订单的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 12/20/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b61411a5a235e2d0aad8bb25ae4a3bfcf1248d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5ca01b085315d916a18c512af28fc7534ce76ee8
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329842"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836434"
 ---
 # <a name="synchronize-work-orders-with-project-from-field-service-to-finance-and-operations"></a>将包含项目的工作订单从 Field Service 同步到 Finance and Operations
 
@@ -34,9 +34,11 @@ ms.locfileid: "329842"
 
 [![Finance and Operations 与 Field Service 之间的业务流程同步](./media/FSSOprojectOW.png)](./media/FSSOprojectOW.png)
 
-使用的 **Field Service 产品（Finance and Operations 到 Field Service）** 模板基于“从目标客户到现金”中的**产品（Finance and Operations 到Sales）– 直接**模板。 有关详细信息，请参阅[产品（Finance and Operations 到 Sales）– 直接](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/products-template-mapping-direct)。
+使用的**包含项目的工作订单（Field Service 到 Fin and Ops）** 模板基于**工作订单（Field Service 到 Fin and Ops）** 模板。 有关详细信息，请参阅[将 Field Service 的工作订单同步到 Finance and Operations 的销售订单](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/sales-marketing/field-service-work-order)。
 
-本主题仅介绍 **Field Service 产品（Finance and Operations 到 Field Service）** 与 **Field Service 产品（Finance and Operations 到Sales）– 直接**模板之间的差异。
+本主题仅介绍这两个模板之间的区别：
+- **包含项目的工作订单（Field Service 到 Fin and Ops）**
+- **工作订单（Field Service 到 Fin and Ops）**
 
 主要差别在于此模板包括分配到 Field Service 中的工作订单的项目编号的映射，确保在 Finance and Operations 中创建的销售订单包含项目编号，并可以在相关项目上开票。 除了此模板外，请使用“高级查询和筛选”。
 
@@ -44,7 +46,7 @@ ms.locfileid: "329842"
 
 **数据集成中的模板名称：**
 
-- 包含项目的工作订单（Field Service 到 Finance and Operations）
+- 包含项目的工作订单（Field Service 到 Fin and Ops）
 
 **数据集成项目中的任务名称：**
 
@@ -60,18 +62,18 @@ ms.locfileid: "329842"
 
 下图显示了数据集成中的模板映射。
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderheader"></a>包含项目的工作订单（Field Service 到 Finance and Operations）：WorkOrderHeader
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheader"></a>包含项目的工作订单（Field Service 到 Fin and Ops）：WorkOrderHeader
 
 [![数据集成中的模板映射](./media/FSWOP1.png)](./media/FSWOP1.png)
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderheaderproject"></a>包含项目的工作订单（Field Service 到 Finance and Operations）：WorkOrderHeaderProject
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderheaderproject"></a>包含项目的工作订单（Field Service 到 Fin and Ops）：WorkOrderHeaderProject
 
 [![数据集成中的模板映射](./media/FSWOP2.png)](./media/FSWOP2.png)
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderproduct"></a>包含项目的工作订单（Field Service 到 Finance and Operations）：WorkOrderProduct
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderproduct"></a>包含项目的工作订单（Field Service 到 Fin and Ops）：WorkOrderProduct
 
 [![数据集成中的模板映射](./media/FSWOP3.png)](./media/FSWOP3.png)
 
-### <a name="work-orders-with-project-field-service-to-finance-and-operations-workorderservice"></a>包含项目的工作订单（Field Service 到 Finance and Operations）：WorkOrderService
+### <a name="work-orders-with-project-field-service-to-fin-and-ops-workorderservice"></a>包含项目的工作订单（Field Service 到 Fin and Ops）：WorkOrderService
 
 [![数据集成中的模板映射](./media/FSWOP4.png)](./media/FSWOP4.png)
