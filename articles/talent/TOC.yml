@@ -5,48 +5,56 @@ items:
   - name: 开始
     href: talent-get-started.md
     items:
-    - name: 新增功能或更改
+    - name: Talent 新增功能或更改
       href: whats-new.md
       items:
-      - name: Dynamics 365 for Talent Core HR（2019 年 1 月 31 日）中的新增功能或更改
+      - name: 2019 年 3 月 5 日
+        href: whats-new-talent-march-5.md
+      - name: 2019 年 2 月 27 日
+        href: whats-new-talent-feb-27.md
+      - name: 2019 年 2 月 14 日
+        href: whats-new-talent-feb14.md
+      - name: 2019 年 2 月 7 日
+        href: whats-new-talent-february-7.md
+      - name: 2019 年 1 月 31 日
         href: whats-new-talent-january-29.md
-      - name: Dynamics 365 for Talent Core HR（2019 年 1 月 23 日）中的新增功能或更改
+      - name: 2019 年 1 月 23 日
         href: whats-new-talent-january-23.md
-      - name: Dynamics 365 for Talent Core HR（2019 年 1 月 17 日）中的新增功能或更改
+      - name: 2019 年 1 月 17 日
         href: whats-new-talent-january-17.md
-      - name: Dynamics 365 for Talent Core HR（2019 年 1 月 11 日）中的新增功能或更改
+      - name: 2019 年 1 月 11 日
         href: whats-new-talent-january-11.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改
+      - name: 2018 年 12 月 14 日
         href: whats-new-talent-december-14.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 12 月 6 日）中的新增功能或更改
+      - name: 2018 年 12 月 6 日
         href: whats-new-talent-december-6.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 11 月 27 日）中的新增功能或更改
+      - name: 2018 年 11 月 27 日
         href: whats-new-talent-november-27.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 11 月 15 日）中的新增功能或更改
+      - name: 2018 年 11月 15 日
         href: whats-new-talent-november-15.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 10 月 31 日）中的新增功能或更改
+      - name: 2018 年 10 月 31 日
         href: whats-new-talent-october-31.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 10 月 19 日）中的新增功能或更改
+      - name: 2018 年 10 月 19 日
         href: whats-new-talent-october-19.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 10 月 15 日）中的新增功能或更改
+      - name: 2018 年 10 月 15 日
         href: whats-new-talent-october-11.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 10 月 8 日）中的新增功能或更改
+      - name: 2018 年 10 月 8 日
         href: whats-new-talent-october-8.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 10 月 1 日）中的新增功能或更改
+      - name: 2018 年 10 月 1 日
         href: whats-new-talent-october-01.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 9 月 24 日）中的新增功能或更改
+      - name: 2018 年 9 月 24 日
         href: whats-new-talent-september-24.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 9 月 17 日）中的新增功能或更改
+      - name: 2018 年 9 月 17 日
         href: whats-new-talent-september-17-2018.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 9 月 10 日）中的新增功能或更改
+      - name: 2018 年 9 月 10日
         href: whats-new-talent-september-10.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 8 月）中的新增功能或更改
+      - name: 2018 年 8 月
         href: whats-new-talent-august2018.md
-      - name: Dynamics 365 for Talent Core HR（2018 年 7 月）中的新增功能或更改
+      - name: 2018 年 6 月
         href: whats-new-talent-july2018.md
     - name: 系统要求和更新策略
       href: talent-versions-update-policy.md
-    - name: 配置 Talent
+    - name: 供应 Talent
       href: provisioning-talent.md
     - name: 删除 Talent 环境
       href: remove-talent-environment.md
@@ -193,6 +201,8 @@ items:
       href: data-integration.md
     - name: 集成常见问题
       href: talent-fo-integration.md
+    - name: 使用 Azure 逻辑应用程序重复导出数据
+      href: tutorial-integration-recurring-export.md
   - name: Office 集成
     items:
     - name: Office 集成教程
@@ -322,9 +332,9 @@ items:
       href: talent-FO-integration.md
     - name: 未在人员选择器中找到 Azure Active Directory 用户
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 2e3035ec9aa71fd66cba7b394bf5007880646aca
-ms.sourcegitcommit: 1e32d78868098fd76124bb41363f15c4ec3ea15a
+ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
+ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/05/2019
-ms.locfileid: "374819"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "782744"

@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 45b628376a483d3d639e5c018dd93570ed8ce7af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
+ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301955"
+ms.lasthandoff: 02/12/2019
+ms.locfileid: "379916"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>配置和处理有关退货单的交换
 
@@ -44,7 +44,7 @@ ms.locfileid: "301955"
 
 在按照上一部分中所述配置系统之后，与在先前版本的 Retail 中的操作一样，销售终端 (POS) 用户仍将选择销售订单或销售发票来处理退货。 但是，在将退回物料添加到购物车之后，用户将能够向购物车添加新的销售行。
 
-对于这些新的销售行，用户必须定义所有必需的属性才能处理客户订单行。 这些属性包括交货方法和履行位置。 交易的到期付款将是退货单行和销售订单行的净额。 当支付交易付款时，退货单将在 Retail 总部中过帐为销售订单文档，系统将立即对退货行开具发票。
+对于这些新的销售行，用户必须定义所有必需的属性才能处理客户订单行。 这些属性包括交货方法和履行位置。 交易的到期付款将是退货单行和销售订单行的净额。 当支付交易付款时，退货单将在 Retail Headquarters 中过帐为销售订单文档，系统将立即根据退货行开具发票。
 
 为了让用户更好地了解购物车的各项金额，购物车中新增了三个金额字段。 您可以使用屏幕设计器，在 POS 用户界面 (UI) 中提供这些新字段。
 

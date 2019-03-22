@@ -3,7 +3,7 @@ title: 固定资产集成
 description: 固定资产可以与总帐、库存管理、应收账款和应付账款一起集成。 您也可以设置固定资产，以便与采购订单相集成。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: af5d33de3af05668bc9aedc94894b12d16daf78e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336972"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778147"
 ---
 # <a name="fixed-assets-integration"></a>固定资产集成
 
@@ -41,7 +41,7 @@ ms.locfileid: "336972"
 ## <a name="inventory-management"></a>库存管理
 在固定资产的库存日志中，您可以输入法人具有为自身生产或构建固定资产的购置。 您可以将库存物料转移到固定资产，或者将库存物料作为购置或购置的一部分。 
 
-您也可以使用采购订单购置资产。 在采购订单包含指定为固定资产的库存物料时，**固定资产**页中的**允许从采购中购置资产**选项的设置确定在过帐发票时是否为固定资产过帐购置。 固定资产购置对库存的影响取决于法人的设置。 
+您也可以使用采购订单购置资产。 在采购订单包含指定为固定资产的库存物料时，**固定资产**页中的**允许从采购中购置资产**选项的设置确定在过帐发票时是否为固定资产过帐购置。 一个采购行创建一个固定资产，不考虑数量。 固定资产购置对库存的影响取决于法人的设置。 
 
 如果库存物料通过库存日志、采购订单或购置方案变为固定资产购置，将会创建一个固定资产帐簿购置交易记录。 如果帐簿购置包括衍生帐簿，也会创建衍生帐簿购置交易记录。 
 

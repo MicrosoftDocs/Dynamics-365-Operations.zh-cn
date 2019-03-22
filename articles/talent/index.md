@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: 欢迎使用 Dynamics 365 for Talent
 description: Talent 简化了很多例行记录保留任务，并实现了与组织人员配备相关的很多流程的自动化。 这些流程包括员工挽留、福利管理、培训、绩效评审和变更管理。
 author: josaw
 manager: AnnBe
 ms.date: 06/04/2018
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-365-talent
-ms.technology: ''
+ms.technology: null
 audience: Application User
 ms.reviewer: rschloma
-ms.search.scope: Core, Operations, Talent
+ms.search.scope: 'Core, Operations, Talent'
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
 ms.search.region: Global
 ms.author: rschloma
-ms.search.validFrom: 2016-02-28
-ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: e31cd1e0acc8f3ab450ec4acda62b88b189f036d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301945"
+ms.search.validFrom: '2016-02-28'
+ms.dyn365.ops.version: 'AX 7.0.0, Talent July 2017 update'
 ---
+
 # <a name="welcome-to-dynamics-365-for-talent"></a>欢迎使用 Dynamics 365 for Talent
 
 [!include [banner](includes/banner.md)]
@@ -79,7 +75,7 @@ Dynamics 365 for Talent 包括 Attract 应用，该应用可帮助您挖掘、�
 
 ## <a name="develop-and-train-employees"></a>培养和培训员工
 
-为了帮助您的员工在满足关键需求的同时实现其职业目标，您可以设置目标、创建绩效评审和跟踪反馈。为了帮助您的员工培养所需的技能，您还可以在为课程指定教师之前安排教师、课程类型、课程、课程说明、议程、跟踪和授课，或为员工注册参加某项课程。 教师必须已经以工作人员、申请人或联系人身份存在。
+若要帮助您的员工实现职业目标，同时满足重要的业务需求，您可以设置目标、建立绩效审核并跟踪反馈。 为了帮助员工培养所需技能，您还可以设置指导员、课程类型、课程、课程描述、课程安排、跟踪和会话，然后再将指导员分配给课程或为人员登记课程。 教师必须已经以工作人员、申请人或联系人身份存在。
 
 -   [绩效管理](performance-management-overview.md)
 -   [使劳动力技能符合业务需求](skills.md)

@@ -3,7 +3,7 @@ title: 数据导入和导出作业
 description: 使用数据管理工作区创建和管理数据导入和导出作业。
 author: Sunil-Garg
 manager: AnnBe
-ms.date: 08/28/2017
+ms.date: 03/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 68cafc167c178e2feeb0a5af764a491ea6b3c60b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
+ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360202"
+ms.lasthandoff: 03/11/2019
+ms.locfileid: "834652"
 ---
 # <a name="data-import-and-export-jobs"></a>数据导入和导出作业
 
@@ -128,6 +128,9 @@ ms.locfileid: "360202"
 
 ## <a name="run-the-import-or-export-job"></a>运行导入或导出作业
 在定义作业后，您可以选择**导入**或**导出**按钮运行一次作业。 若要设置重复执行的作业，请选择**创建重复性数据作业**。
+
+[!NOTE]
+可通过选择**导入**或**导出**按钮异步运行导入或导出作业。 异步运行使用 Finance and Operations 中的异步框架，此框架与批处理框架不同。 但是，和批处理框架一样，异步框架也可能受到限制，从而可能无法立即执行作业。 也可以通过选择**立即导入**或**立即导出**同步运行作业。 之间立即启动作业，因此在因为限制而无法启动异步或批处理非常有用。 也可以通过选择**批量运行**选项批量执行作业。 批处理资源可能受到限制，因此可能无法立即启动批处理作业。 当用户直接与用户界面交互，而不是了解批处理计划的超级用户时，异步选项非常有用。 如果需要导出或导入大型卷，可以选择使用批处理。 可安排对特定批处理组运行批处理作业，这样就可以加强负载平衡角度的控制。 如果因为系统中的资源利用率高导致异步和批处理均受到限制，可使用导入/导出的同步版本作为直接解决方案。 同步选项将立即启动，并阻止用户界面，因为其同步执行。 执行同步操作期间，浏览器窗口必须始终打开。
 
 ## <a name="validate-that-the-job-ran-as-expected"></a>验证该作业按预期运行
 作业历史记录可用于导入和导出作业的故障排除和调查。 历史作业运行按时间范围进行组织。

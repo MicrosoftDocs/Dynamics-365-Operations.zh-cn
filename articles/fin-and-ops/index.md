@@ -1,29 +1,25 @@
 ---
+# required metadata
 title: Microsoft Dynamics 365 for Finance and Operations 文档
 description: 针对 Microsoft Dynamics 365 for Finance and Operations 的文档。
 author: margoc
 manager: AnnBe
-ms.date: 08/30/2018
+ms.date: 03/08/2019
 ms.topic: index-page
-ms.prod: ''
+ms.prod: null
 ms.service: dynamics-ax-applications
-ms.technology: ''
+ms.technology: null
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: Core, Operations
+ms.search.scope: 'Core, Operations'
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: 2016-02-28
+ms.search.validFrom: '2016-02-28'
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5b9921883d952ebc42eff9f678bb300d8304e379
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301949"
 ---
+
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations 文档
 
 [!include [banner](includes/banner.md)]
@@ -44,12 +40,26 @@ ms.locfileid: "301949"
 <h3><a href="get-started/before-you-buy.md">购买之前</a></h3>
 <p><a href="../dev-itpro/dev-tools/sign-up-preview-subscription.md">注册预览订阅</a></p>
  <p><a href="../dev-itpro/deployment/choose-deployment-type.md">选择部署选项</a></p>
- <p><a href="get-started/purchase-on-premises.md">购买 Finance and Operations（本地）</a></p>
+ <p><a href="get-started/purchase-on-premises.md">购买 Finance and Operations (on-premises)</a></p>
 
 <h3><a href="imp-lifecycle/implementation-lifecycle.md">实施生命周期</a></h3>
 <p><a href="get-started/fasttrack-dynamics-365-overview.md">FastTrack for Dynamics 365</a></p>
 <p><a href="imp-lifecycle/onboard.md">入职项目</a></p>
 <p><a href="imp-lifecycle/prepare-go-live.md">准备实施</a></p>
+
+<h3><a href="../dev-itpro/lifecycle-services/oneversion-overview.md">一个版本服务更新</a></h3>
+<p><a href="get-started/one-version.md">一个版本服务更新常见问题</a></p>
+<p><a href="../dev-itpro/migration-upgrade/versions-update-policy.md">软件生命周期策略：云</a></p>
+<p><a href="../dev-itpro/migration-upgrade/on-prem-version-update-policy.md">软件生命周期策略：本地</a></p>
+<p><a href="get-started/public-preview-releases.md">标准版及首发版服务更新</a></p>
+<p><a href="get-started/whats-new-changed.md">新增功能或更改</a></p>
+<p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">升级、更新和修补程序</a></p>
+<p><a href="../dev-itpro/deployment/apply-deployable-package-system.md">将更新应用于云环境</a></p>
+<p><a href="../dev-itpro/lifecycle-services/configure-service-updates.md">配置服务更新</a></p>
+<p><a href="../dev-itpro/lifecycle-services/pause-service-updates.md">暂停服务更新</a></p>
+<p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">获取有关服务更新的通知</a></p>
+<p><a href="../dev-itpro/data-entities/data-task-automation.md">数据任务自动化</a></p>
+<p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
 
 <h3><a href="../financials/index.md">财务管理</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">应付帐款</a></p>
@@ -71,6 +81,8 @@ ms.locfileid: "301949"
 <p><a href="hr/manage-recruiting-process.md">招聘</a></p>
 <p><a href="hr/localizations/noam-usa-payroll.md">美国工资单</a></p>
 
+</td>
+<td>
 <h3><a href="../supply-chain/index.md">供应链管理</a></h3>
 <p><a href="../supply-chain/cost-management/costing-sheets.md">成本管理</a></p>
 <p><a href="../supply-chain/inventory/inventory-home-page.md">库存管理</a></p>
@@ -82,8 +94,7 @@ ms.locfileid: "301949"
 <p><a href="../supply-chain/transportation/transportation-management-overview.md">运输管理</a></p>
 <p><a href="../supply-chain/warehousing/warehouse-configuration.md">仓库管理</a></p>
 
-</td>
-<td>
+
 <h3><a href="../dev-itpro/analytics/bi-reporting-home-page.md">智能</a></h3>
 <p><a href="../dev-itpro/analytics/analytics.md">分析</a></p>
  <p><a href="../dev-itpro/analytics/document-reporting-services.md">业务文档</a></p>

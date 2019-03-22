@@ -3,7 +3,7 @@ title: 已删除或弃用的功能
 description: 本主题介绍已经删除或计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 12/10/2018
+ms.date: 03/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 8f4413573f2e269e5a523940fbb841358e178d10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
+ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329244"
+ms.lasthandoff: 03/12/2019
+ms.locfileid: "836340"
 ---
 # <a name="removed-or-deprecated-features"></a>已移除或弃用的功能
 
@@ -35,11 +35,77 @@ ms.locfileid: "329244"
 
 此列表旨在帮助您在您自己的计划中考虑这些功能的移除和弃用。 
 
-> [!Note]
+> [!NOTE]
 > 从具有平台更新 8 的 Dynamics 365 for Finance and Operations 2017 年 7 月版开始，每一个已移除或弃用的功能均备注了部署类型。 本主题中提及的所有之前的版本仅支持云部署。
 
-> [!Note]
+> [!NOTE]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations 中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 各版本中已更改或已删除的对象。
+
+## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>具有平台更新 25 的 Dynamics 365 for Finance and Operations 10.0.1
+
+> [!IMPORTANT]
+> 带平台更新 25 的 Dynamics 365 for Finance and Operations 10.0.1 已作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[标准版及首发版服务更新](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases)。
+
+### <a name="deprecated-apis-and-potential-breaking-changes"></a>已弃用的 API 和可能的突破性更改
+
+#### <a name="deriving-from-internal-classes-is-deprecated"></a>已弃用从内部类派生
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 在平台更新 25 之前的版本中，可创建派生自另一个包/模块内定义的内部类/表的类或表。 这种编码行为不安全。 从平台更新 25 开始，如果尝试这样做，编译器将显示警告消息。|
+| **被另一个功能取代？**   | 在即将发布的平台更新中，此编译器警告将替换为错误。 此更改是为了在运行时向后兼容，这意味着如果运行平台更新 25 或更高版本，可以在任何沙盒或生产环境中部署此更改，不需要修改自定义代码。 此更改仅影响开发和编译时间。 |
+| **影响的产品区域**         | Visual Studio 开发工具。 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用 - 在即将发布的平台更新中，此警告将成为编译错误。 |
+
+#### <a name="overriding-internal-methods-is-deprecated"></a>已弃用替代内部方法。
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 在平台更新 25 之前的版本中，可替代另一个包/模块内定义的派生类中的内部方法。 这种编码行为不安全。 从平台更新 25 开始，如果尝试这样做，编译器将显示警告消息。|
+| **被另一个功能取代？**   | 在即将发布的平台更新中，此警告将替换为编译器错误。 此更改是为了在运行时向后兼容，这意味着如果运行平台更新 25 或更高版本，可以在任何沙盒或生产环境中部署此更改，不需要修改自定义代码。 此更改仅影响开发和编译时间。 |
+| **影响的产品区域**         | Visual Studio 开发工具。 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用 - 在即将发布的平台更新中，此警告将成为编译错误。 |
+
+## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>具有平台更新 23 的 Dynamics 365 for Finance and Operations 8.1.3
+
+### <a name="print-to-screen-functionality"></a>打印到屏幕功能
+客户可使用报表查看器控件提供的**导入**操作下载 Finance and Operations 应用程序生成的单据。 这种基于 HTML 的报表表示为用户提供不分页的单据预览。
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 基于 HTML 的预览体验的不分页特征**不能**提供 Finance and Operations 最终生成的单据实体的逼真感。 通过为业务运营完全采用 PDF 作为标准格式，可以大大简化用于与应用程序报告之间的交互选项，并简化单据呈现流程。 |
+| **被另一个功能取代？**   | 在以后，PDF 单据将成为 Finance and Operations 呈现的报表的默认格式。   |
+| **影响的产品区域**         | 此更改**不**影响以电子方式分发报表或将报表直接发送到打印机的客户场景。    |
+| **部署选项**              | 所有  |
+| **状态**                         | 已弃用：尚未确定此功能的移除日期。 按照计划，2019 年 5 月的平台更新将采用把应用程序报告以 PDF 单据的格式下载到浏览器这一功能。 <br><br>**重要：** 建议依赖“打印到屏幕”功能的现有用户提前通知[支持](../lifecycle-services/lcs-support.md)要升级到平台更新 26。 |
+
+### <a name="client-kpi-controls"></a>客户端 KPI 控件
+开发人员可以在 Visual Studio 中为嵌入式关键绩效指标 (KPI) 建模，并由最终用户进一步自定义。
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 很少客户采用用于定义 KPI 的本机客户端控件，此类控件依赖开发人员增加可跟踪的度量。 |
+| **被另一个功能取代？**   | PowerBI.com 服务提供世界级的工具，用于基于外部源的数据定义和管理 KPI。  在即将推出的版本中，计划让您可以将 PowerBI.com 中托管的解决方案嵌入到应用程序工作空间中。   |
+| **影响的产品区域**         | 此更改将阻止开发人员在 Visual Studio 设计器中引入新的 KPI 控件。    |
+| **部署选项**              | 所有  |
+| **状态**                         | 已弃用：尚未确定此功能的移除日期。 |
+
+### <a name="deprecated-apis-and-future-breaking-changes"></a>已弃用的 API 和将来的突破性更改
+
+#### <a name="field-groups-containing-invalid-field-references"></a>其中包含无效字段引用的字段组
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 表元数据定义中可以有包含无效字段引用的字段组。 此问题目前归类为*编译器警告*，而不是*错误*，这意味着可以在不解决此问题的情况下继续创建和部署可部署包。 如果部署，可能导致 Financial Reporting 和 SQL Server Reporting Services (SSRS) 中发生运行时失败。 要解决此问题，请执行以下操作：<br><br>1. 删除表字段组定义中的无效字段引用。<br><br>2. 重新编译。<br><br>3. 确保解决所有警告或错误。 |
+| **被另一个功能取代？**   | 以后此警告将替换为编译器错误。  |
+| **影响的产品区域**         | Visual Studio 开发工具。 |
+| **部署选项**              | 全部。 |
+| **状态**                         | 已弃用 - 此警告在将来将成为编译时错误。 现在的目标为平台更新 30。 |
+
+#### <a name="complete-list"></a>完整列表
+若要访问将弃用的 API 的完整列表，请参阅[弃用方法和元数据元素](deprecation-deletion-apis.md)。
 
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>具有平台更新 20 的 Dynamics 365 for Finance and Operations 8.1
 
@@ -52,7 +118,7 @@ ms.locfileid: "329244"
 | **被另一个功能取代？**   | 异步和计划批处理选项取代了同步。   |
 | **影响的产品区域**         | 总帐、应付帐款、应收帐款、采购、支出    |
 | **部署选项**              | 所有  |
-| **状态**                         | 已弃用 - 移除功能的目标时间范围为 10.0 版本。|
+| **状态**                         | 已弃用：移除功能的目标时间范围为 10.0 版本。|
 
 ### <a name="electronic-reporting-for-russia"></a>俄罗斯的电子报告格式
 用于配置申报的 .txt 和 .xml 文件格式的功能。 

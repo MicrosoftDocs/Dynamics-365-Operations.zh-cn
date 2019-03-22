@@ -3,7 +3,7 @@ title: 销售点 (POS) 中的产品搜索和客户搜索
 description: 此主题概述 Microsoft Dynamics 365 for Retail 中的产品和客户搜索的增强功能。
 author: ShalabhjainMSFT
 manager: AnnBe
-ms.date: 03/28/2018
+ms.date: 03/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: Retail April 2017 update
-ms.openlocfilehash: 1fa38002377fac24a5f3e25bd5924ecb23fec70a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1593445af41cba30bdc35933302d0873e313585
+ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313581"
+ms.lasthandoff: 03/08/2019
+ms.locfileid: "789861"
 ---
 # <a name="product-search-and-customer-search-in-the-point-of-sale-pos"></a>销售点 (POS) 中的产品搜索和客户搜索
 
@@ -69,7 +69,7 @@ ms.locfileid: "313581"
 
 ## <a name="customer-search"></a>客户搜索
 
-客户搜索用于根据不同目的查找客户。 例如，出纳可能想要查看客户的愿望列表或购买历史记录，或将客户添加到交易记录。 在多个关键字搜索的情况下，客户搜索算法返回与任何搜索的关键字匹配的所有客户。 但是，匹配最多关键字的客户显示在结果的顶部。 此行为与其他搜索引擎显示结果的方式类似。 先显示匹配最多搜索词的结果，然后显示部分匹配搜索关键字的结果。 出现出纳使用多个关键字进行搜索，但其中一个关键字拼写错误的情况下，此行为有用。
+客户搜索用于根据不同目的查找客户。 例如，出纳可能想要查看客户的愿望列表或购买历史记录，或将客户添加到交易记录。 搜索算法将搜索词与以下客户属性中的值比对：姓名、电子邮件、电话号码、会员卡号、地址和帐号。 这其中，遇到多个关键字匹配项时，姓名属性的灵活性最高，因为算法会返回所有与任何关键字匹配的客户，而匹配的关键字最多的客户则在结果最上方显示。 这种行为在以下情况下可以帮助收银员：键入全名进行搜索，但是最初录入数据时截断了姓氏和名字。 但是，出于性能原因，其他所有属性仍然保持搜索关键字顺序，所以如果搜索关键字与数据的存储顺序不匹配，则不返回任何结果。
 
 默认情况下，客户搜索在与商店关联的客户通讯簿中执行。 此类搜索被称为*本地客户搜索*。 但是，员工也可以搜索全局客户。 换而言之，他们可以跨公司及所有其他法人的商店进行搜索。 此类搜索被称为*远程客户搜索*。
 

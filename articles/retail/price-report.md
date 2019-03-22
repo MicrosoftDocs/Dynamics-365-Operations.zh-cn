@@ -3,7 +3,7 @@ title: 零售价报表
 description: 此主题提供可以用于查看分类产品的近期价格变更的价格报表功能的概览。
 author: shajain
 manager: AnnBe
-ms.date: 01/18/2019
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -19,16 +19,15 @@ ms.search.industry: Retail
 ms.author: shajain
 ms.search.validFrom: 2019-01-18
 ms.dyn365.ops.version: AX 10.0.0
-ms.openlocfilehash: 6db6d1c6b6eb1d69b40fe75d97eeb71564986707
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 72f4d248f3ac49bbfd8e5a7a12352d92b89bb0eb
+ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353049"
+ms.lasthandoff: 03/05/2019
+ms.locfileid: "777194"
 ---
 # <a name="retail-price-reports"></a>零售价报表
 
-[!include [banner](includes/preview-banner.md)]
 [!include [banner](includes/banner.md)]
 
 

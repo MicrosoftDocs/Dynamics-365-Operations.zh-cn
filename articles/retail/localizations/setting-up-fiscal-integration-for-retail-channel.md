@@ -3,7 +3,7 @@ title: 设置零售渠道的会计整合
 description: 此主题提供为零售渠道设置会计整合功能的指南。
 author: josaw
 manager: annbe
-ms.date: 2/01/2019
+ms.date: 02/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 3c2945c4310dc4c1ae74f215e9b28056e7d1ede9
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377293"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773319"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>设置零售渠道的会计整合
 
@@ -175,7 +175,7 @@ ms.locfileid: "377293"
     3. 在**财务收据文本**字段中，指定应在财务收据上打印的会计文本。
 
     > [!NOTE]
-    > 如果多个折扣应用于同一个交易记录行，财务收据将包含来自链接到这些交易记录行的所有折扣的会计文本。 
+    > 如果多个折扣应用于同一个交易记录行，财务收据将包含来自链接到这些交易记录行的所有折扣的会计文本。
 
 ## <a name="set-error-handling-settings"></a>设置错误处理设置
 
@@ -210,3 +210,4 @@ ms.locfileid: "377293"
     2. 添加新按钮，并设置**打印会计 X** 按钮属性。
     3. 添加新按钮，并设置**打印会计 Z** 按钮属性。
     4. 在**配送计划**页，运行 **1090** 作业将更改传输到渠道数据库。
+

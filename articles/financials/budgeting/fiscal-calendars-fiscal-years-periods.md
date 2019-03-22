@@ -3,7 +3,7 @@ title: 会计日历、会计年度和期间
 description: 本文讨论会计日历、会计年度和期间以及如何为法人、固定资产和预算使用它们。
 author: aprilolson
 manager: AnnBe
-ms.date: 01/11/2018
+ms.date: 03/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 360695ddfbcf1eab62dd5087e1b5bb34ccaf7c7f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
+ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361651"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "778193"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>会计日历、会计年度和期间
 
@@ -43,7 +43,7 @@ ms.locfileid: "361651"
 当您创建一个结算期间时，选择一个具有状态“未完成”并具有您要使用的日期的期间。 新的结算期间将从现有期间中复制开始日期和结束日期。 原始期间将继续存在。 例如，您选择了为该会计年度的最后一个期间并具有 8 月 1 日到 8 月 31 日这些日期的“期间 12”。 您为该结算期间输入了一个名词，如 “结算”。 当您创建了该新的结算期间后，现在您拥有原始期间和结算期间。 都含有 8 月 1 日到 8 月 31 日的日期。
 
 ## <a name="select-fiscal-calendars-for-ledgers-fixed-assets-and-budget-cycles"></a>为分类帐、固定资产和预算期间选择会计日历
-会计日历用于固定资产折旧、财务交易记录和预算期间。 在您创建某一会计日历时，您可以为多个目的使用它。 您可以选择价值模型或折旧帐簿的会计日历以使其为固定资产日历。 您可以选择分类帐的会计日历以使其为分类帐日历。 并且您可以选择预算期间的会计日历以使其为预算日历。 您可以为所有这些使用相同的会计日历。
+会计日历用于固定资产折旧、财务交易记录和预算期间。 在您创建某一会计日历时，您可以为多个目的使用它。 您可以选择固定资产帐簿的会计日历以使其为固定资产日历。 您可以选择分类帐的会计日历以使其为分类帐日历。 并且您可以选择预算期间的会计日历以使其为预算日历。 您可以为所有这些使用相同的会计日历。
 
 ### <a name="select-a-fiscal-calendar-for-your-legal-entity"></a>为您的法人选择某一会计日历
 
@@ -51,7 +51,7 @@ ms.locfileid: "361651"
 
 ### <a name="select-a-fiscal-calendar-for-fixed-assets"></a>选择固定资产的会计日历
 
-您可以为价值模型或折旧帐簿选择会计日历，并且该会计日历将由使用所选价值模型或折旧帐簿的固定资产使用。 您可以从在“会计日历”页上定义的任何会计日历中进行选择。
+您可以为固定资产帐簿选择会计日历，并且该会计日历将由使用所选帐簿的固定资产使用。 您可以从在“会计日历”页上定义的任何会计日历中进行选择。
 
 ### <a name="define-budget-cycle-time-spans"></a>定义预算周期跨度
 

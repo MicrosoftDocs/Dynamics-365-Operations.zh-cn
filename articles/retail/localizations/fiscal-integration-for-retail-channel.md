@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 2dc977e3c53b1f15b41b095f586861b67c973a6d
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
+ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377127"
+ms.lasthandoff: 03/01/2019
+ms.locfileid: "773269"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>零售渠道的会计整合概览
 
@@ -30,7 +30,7 @@ ms.locfileid: "377127"
 
 ## <a name="introduction"></a>简介
 
-此主题是 Microsoft Dynamics 365 for Retail 中可用的会计整合功能的概览。 会计整合包括与不同会计设备和服务的集成，这些设备和服务支持依据旨在防止零售行业的税收欺诈的地方政法进行零售销售的会计登记。 以下是可以使用会计整合应对的一些典型场景： 
+此主题是 Microsoft Dynamics 365 for Retail 中可用的会计整合功能的概览。 会计整合包括与不同会计设备和服务的集成，这些设备和服务支持依据旨在防止零售行业的税收欺诈的地方政法进行零售销售的会计登记。 以下是可以使用会计整合应对的一些典型场景：
 
 - 在连接到 Retail point of sale (POS) 的会计设备（如税控打印机）上登记零售销售，以及为客户打印财务收据。
 - 安全地向税务主管机构管理的外部 Web 服务提交与在 Retail POS 完成的销售和退货相关的信息。
@@ -87,6 +87,7 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 
 会计交易记录通过 *P 作业*与零售交易记录一起转移到零售总部。 在**零售商店交易记录**页的**会计交易记录**快速选项卡上，您可以查看链接到零售交易记录的会计交易记录。
 
+
 会计交易记录存储以下详细信息：
 
 - 会计登记流程详细信息（流程、连接器组、连接器等）。 另外还存储**登记编号**字段中会计设备的序列号（如果此信息包含在会计响应中）。
@@ -115,4 +116,5 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 
 - [法国数字签名](emea-fra-cash-registers.md)
 - [挪威数字签名](emea-nor-cash-registers.md)
-- [瑞典的控制单元集成示例](../dev-itpro/retail-sdk/retail-sdk-control-unit-sample.md)
+- [瑞典的控制单元集成示例](./retail-sdk-control-unit-sample.md)
+
