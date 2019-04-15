@@ -278,7 +278,7 @@ items:
         href: extensibility/class-extensions.md
       - name: 通过方法包装和命令链实现的类扩展
         href: extensibility/method-wrapping-coc.md
-      - name: 模型扩展的命名准则
+      - name: 扩展的命名准则
         href: extensibility/naming-guidelines-extensions.md
       - name: 放宽模型限制以将覆盖重构到扩展
         href: extensibility/refactoring-over-layering.md
@@ -374,6 +374,28 @@ items:
       href: perf-test/continuous-build-test-automation.md
     - name: 使用类和方法属性的 SysTest 筛选
       href: perf-test/systest-filtering.md
+    - name: 接受度测试库
+      href: perf-test/acceptance-test-library.md
+    - name: 导航概念
+      href: perf-test/concepts-navigation.md
+    - name: 测试数据方法
+      href: perf-test/test-data-methods.md
+    - name: 接受度测试库中的实体
+      href: perf-test/concepts-entities.md
+    - name: 接受度测试库命令
+      href: perf-test/concepts-commands.md
+    - name: 接受度测试库中的创建者
+      href: perf-test/concepts-creators.md
+    - name: 接受度测试库中的查询
+      href: perf-test/concepts-queries.md
+    - name: 说明类
+      href: perf-test/concepts-specifications.md
+    - name: 接受度测试库代码生成向导
+      href: perf-test/code-generation-wizard.md
+    - name: 接受度测试库的最佳实践
+      href: perf-test/atl-best-practices.md
+    - name: 常见问题
+      href: perf-test/atl-faq.md
   - name: 日期有效性
     href: dev-tools/date-effectivity.md
   - name: ISV 许可
@@ -451,6 +473,8 @@ items:
       href: user-interface/control-checklist.md
   - name: 消息
     items:
+    - name: 功能标注
+      href: user-interface/feature-callouts.md
     - name: 滑块和消息框对话框
       href: user-interface/slider-messagebox.md
     - name: 消息中心、消息栏和消息详细信息 API
@@ -920,7 +944,7 @@ items:
       href: deployment/apply-deployable-package-system.md
     - name: 将更新和扩展应用于云托管 Retail 渠道组件
       href: deployment/Update-retail-channel.md
-    - name: 初始化云托管 Retail 渠道组件
+    - name: 初始化 Retail Cloud Scale Unit
       href: deployment/Initialize-Retail-Channels.md
   - name: 本地部署
     href: deployment/on-premises-deployment-landing-page.md
@@ -1042,9 +1066,9 @@ items:
       href: migration-upgrade/delegates-migration.md
   - name: 升级到最近更新（云）
     items:
-    - name: 升级到最新更新的流程
+    - name: 升级到最近更新的流程
       href: migration-upgrade/upgrade-latest-update.md
-    - name: 将环境从版本 8.0 更新为 8.1
+    - name: 将环境从版本 8.0 更新为 8.1.X/10.X
       href: migration-upgrade/appupdate-80-81.md
     - name: 软件生命周期策略和云版本
       href: migration-upgrade/versions-update-policy.md
@@ -1133,6 +1157,12 @@ items:
       href: sysadmin/runby.md
     - name: 用于处理 SQL 索引碎片整理的批处理作业
       href: sysadmin/batch-job-SQL-defragmentation.md
+    - name: 配置批处理预警
+      href: sysadmin/alerts.md
+    - name: 增强型批处理窗体
+      href: sysadmin/enhanced-forms.md
+    - name: 清除批处理历史记录
+      href: sysadmin/batch-history-cleanup.md
   - name: 优化顾问
     href: sysadmin/optimization-advisor-overview.md
     items:
@@ -1229,8 +1259,10 @@ items:
     items:
     - name: 出于培训目的进行刷新
       href: database/dbmovement-scenario-general-refresh.md
-    - name: 调试和诊断
+    - name: 针对生产数据库的副本进行调试
       href: database/dbmovement-scenario-debugdiag.md
+    - name: 导出标准用户接受度测试 (UAT) 数据库的副本
+      href: database/dbmovement-scenario-exportuat.md
     - name: 黄金配置提升
       href: database/dbmovement-scenario-goldenconfig.md
     - name: 破坏性测试
@@ -1251,9 +1283,9 @@ items:
     href: lifecycle-services/cloud-operations-servicing.md
   - name: 管理 Finance and Operations 支持体验
     href: lifecycle-services/cloud-powered-support-lcs.md
-ms.openlocfilehash: b2462f8391ba3253b61c72bea481266d04ac8721
-ms.sourcegitcommit: 32e98213118968307c48b656b663c3df897faa79
+ms.openlocfilehash: 93081e4ccc64b68ae8f5cb3aa0f0c499bc1a426b
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/04/2019
-ms.locfileid: "773794"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "976004"

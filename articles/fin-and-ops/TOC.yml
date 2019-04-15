@@ -26,7 +26,7 @@ items:
           href: get-started/system-requirements-on-prem.md
         - name: 配置用于本地部署的仓库
           href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
-      - name: 标准版及首发版服务更新
+      - name: 服务更新可用性
         href: get-started/public-preview-releases.md
       - name: 购买 Finance and Operations
         items:
@@ -43,13 +43,17 @@ items:
         href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
       - name: 未在本地部署中实现的功能
         href: get-started/features-not-implemented-on-prem.md
-      - name: Finance and Operations 版本 10.0.1 中的预览功能（2019 年 4 月）
+      - name: Finance and Operations 版本 10.0.2（2019 年 5 月）预览功能
+        href: get-started/whats-new-changed-10-0-2.md
+      - name: Finance and Operations 版本 10.0.1（2019 年 4 月）
         href: get-started/whats-new-changed-10-0-1.md
       - name: Finance and Operations 版本 10.0（2019 年 4 月）
         href: get-started/whats-new-changed-10.md
       - name: Finance and Operations 版本 8.1.3（2019 年 1 月）
         href: get-started/whats-new-changed-8-1-3.md
-      - name: Finance and Operations platform update 25 预览功能（2019 年 4 月）
+      - name: Finance and Operations platform update 26（2019 年 5 月）预览功能
+        href: get-started/whats-new-platform-update-26.md
+      - name: Finance and Operations platform update 25（2019 年 4 月）
         href: get-started/whats-new-platform-25.md
       - name: Platform update 24（2019 年 3 月）
         href: get-started/whats-new-platform-update-24.md
@@ -209,7 +213,7 @@ items:
       href: ../dev-itpro/migration-upgrade/versions-update-policy.md
     - name: 软件生命周期策略 - 本地
       href: ../dev-itpro/migration-upgrade/on-prem-version-update-policy.md
-    - name: 标准版及首发版服务更新
+    - name: 服务更新可用性
       href: get-started/public-preview-releases.md
     - name: 将更新应用于云环境
       href: ../dev-itpro/deployment/apply-deployable-package-system.md
@@ -230,17 +234,21 @@ items:
       href: ../dev-itpro/business-events/app-business-events.md
     - name: 工作流业务事件
       href: ../dev-itpro/business-events/business-events-workflow.md
+    - name: 业务事件预警
+      href: ../dev-itpro/business-events/alerts-business-events.md
     - name: Microsoft Flow 中的业务事件
       href: ../dev-itpro/business-events/business-events-flow.md
     - name: 业务事件开发人员文档
       href: ../dev-itpro/business-events/business-events-dev-doc.md
     - name: 业务事件故障排除
       href: ../dev-itpro/business-events/troubleshooting.md
+    - name: 业务事件用例
+      href: ../dev-itpro/business-events/potential-use-cases.md
   - name: 合规性
     items:
-    - name: 审计政策规则
+    - name: 审计策略规则
       href: ../financials/general-ledger/audit-policy-rules.md
-    - name: 审计政策违规记录和案例
+    - name: 审计策略违规记录和案例
       href: ../financials/general-ledger/audit-policy-violations-cases.md
     - name: 定义原始凭证的审计策略
       href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
@@ -370,6 +378,8 @@ items:
         href: ../dev-itpro/data-entities/recurring-integrations.md?toc=/fin-and-ops/toc.json
       - name: 使用第三方实用程序测试服务
         href: ../dev-itpro/data-entities/third-party-service-test.md
+    - name: Finance and Operations 连接器
+      href: ../dev-itpro/data-entities/fin-ops-connector.md
     - name: 集成开发
       items:
       - name: 使用数据实体进行数据集成
@@ -747,6 +757,8 @@ items:
         href: ../financials/cash-bank-management/cash-flow-forecasting.md
       - name: 银行管理工作区
         href: ../financials/cash-bank-management/Bank-management-workspace.md
+      - name: 银行外币重估
+        href: ../financials/cash-bank-management/bank-revaluation.md
       - name: 现金折扣
         href: ../financials/cash-bank-management/cash-discounts.md
       - name: 超额支付的现金折扣
@@ -1439,7 +1451,7 @@ items:
           href: ../financials/localizations/tasks/br-00053-2-set-up-nf-e-parameters-fiscal-establishment.md
       - name: SPED ECD
         href: ../financials/localizations/latam-bra-sped-ecd.md
-      - name: SPED-Reinf 税报表
+      - name: SPED-Reinf 税务报表
         href: ../financials/localizations/latam-bra-sped-reinf.md
       - name: 法人的参数
         href: ../financials/localizations/latam-bra-legal-entity-parameters.md
@@ -1893,6 +1905,8 @@ items:
           href: ../financials/localizations/apac-ind-gst-reference-groups.md
         - name: 收银机 GST 集成
           href: ../retail/localizations/apac-ind-cash-registers.md?toc=/fin-and-ops/toc.json
+        - name: 从未登记的供应商处购买应纳税商品
+          href: ../financials/localizations/apac-ind-gst-unregistered-vendor-purchase.md
       - name: 收银机部署指南
         href: ../retail/localizations/apac-ind-loc-deployment-guidelines.md?toc=/fin-and-ops/toc.json
       - name: 税引擎概览
@@ -2291,6 +2305,8 @@ items:
           href: ../financials/localizations/rus-bonus-depreciation.md
         - name: 计算折旧
           href: ../financials/localizations/rus-depreciation-calculation.md
+        - name: 转移固定资产
+          href: ../financials/localizations/rus-fixed-asset-transfer.md
       - name: 应付帐款和应收帐款
         items:
         - name: 付款发票
@@ -2303,6 +2319,8 @@ items:
         items:
         - name: 财务报告
           href: ../financials/localizations/rus-financial-reports.md
+        - name: 配置 Excel 中的财务报表
+          href: ../financials/localizations/rus-excel-financial-report.md
       - name: 公司分部
         href: ../financials/localizations/rus-company-divisions.md
       - name: 设置货币交易的汇率
@@ -2317,10 +2335,14 @@ items:
         href: ../financials/localizations/rus-invoice-payment.md
       - name: 财务报告
         href: ../financials/localizations/rus-financial-reports.md
-      - name: 电子格式的核算申报
+      - name: 电子格式的会计申报
         href: ../financials/localizations/rus-accounting-reporting.md
       - name: 现金流管理
         href: ../financials/localizations/rus-cash-flow.md
+      - name: 外币销售、采购和转移
+        href: ../financials/localizations/rus-currency-sale-purchase.md
+      - name: 估定税申报
+        href: ../financials/localizations/rus-assessed-tax-declaration.md
     - name: 沙特阿拉伯
       href: ../financials/localizations/saudi-arabia.md
       items:
@@ -2669,6 +2691,8 @@ items:
         href: ../dev-itpro/analytics/employee-competencies-and-development-analysis-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: 员工发展
         href: ../dev-itpro/analytics/employee-development-PBI.md?toc=/fin-and-ops/toc.json
+      - name: 费用管理 Power BI 内容
+        href: ../dev-itpro/analytics/expense-management-content-pack.md?toc=/fin-and-ops/toc.json
       - name: 财务绩效
         href: ../dev-itpro/analytics/financial-performance-power-bi-content-pack.md?toc=/fin-and-ops/toc.json
       - name: 财务见解
@@ -3092,8 +3116,12 @@ items:
         href: ../dev-itpro/mobile-apps/invoice-approval-mobile-workspace.md?toc=/fin-and-ops/toc.json
       - name: 我的团队
         href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/fin-and-ops/toc.json
+      - name: Project 移动应用程序概览
+        href: ../financials/project-management/project-mobile-application-overview.md
       - name: 项目时间条目
         href: ../financials/project-management/project-time-entry-mobile-workspace.md
+      - name: 项目工时单
+        href: ../financials/project-management/project-timesheet.md
       - name: 采购订单审核
         href: ../supply-chain/procurement/purchase-order-mobile-workspace.md
       - name: 销售订单
@@ -3333,6 +3361,8 @@ items:
         href: get-started/create-alerts.md
       - name: 预警的批处理
         href: get-started/alerts-managing.md
+      - name: 通过电子邮件发送的客户端预警通知
+        href: get-started/alert-email-notifications.md
     - name: 电子签名
       href: organization-administration/electronic-signature-overview.md
       items:
@@ -3373,6 +3403,8 @@ items:
           href: ../supply-chain/production-control/bill-of-material-bom.md
         - name: 物料清单设计器功能
           href: ../supply-chain/production-control/bom-designer-functionality.md
+        - name: 虚拟物料
+          href: ../supply-chain/production-control/phantom-items.md
         - name: 物料清单计算
           href: ../supply-chain/cost-management/bom-calculations.md
         - name: 管理度量单位
@@ -3787,7 +3819,9 @@ items:
       href: ../financials/project-management/project-contracts.md
     - name: 项目预测和预算
       href: ../financials/project-management/project-forecasts-budgets.md
-    - name: 项目的采购订单
+    - name: 项目销售订单
+      href: ../financials/project-management/project-sales-orders.md
+    - name: 项目采购订单
       href: ../financials/project-management/project-purchase-orders.md
     - name: 项目报价单
       href: ../financials/project-management/project-quotations.md
@@ -3800,8 +3834,12 @@ items:
       items:
       - name: Microsoft Project 客户端集成
         href: ../financials/project-management/project-integration.md
+    - name: Project 移动应用程序概览
+      href: ../financials/project-management/project-mobile-application-overview.md
     - name: 项目时间条目移动工作区
       href: ../financials/project-management/project-time-entry-mobile-workspace.md
+    - name: 项目工时单移动应用
+      href: ../financials/project-management/project-timesheet.md
   - name: 销售和市场营销
     href: ../supply-chain/sales-marketing/overview-sales-marketing.md
     items:
@@ -4286,9 +4324,9 @@ items:
   href: ../dev-itpro/toc.yml
 - name: Dynamics 365 for Retail
   href: ../retail/toc.yml
-ms.openlocfilehash: a1c64fd645063db11c632b34e8e0b934c97f2251
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 9cb4d9114b745a42ad7c7650686639efe33c6192
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836388"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "975958"
