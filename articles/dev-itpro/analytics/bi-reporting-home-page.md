@@ -3,7 +3,7 @@ title: “商业智能 (BI) 与报告”主页
 description: 此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations 中提供的商业智能和报告工具的详细信息。
 author: sericks007
 manager: AnnBe
-ms.date: 12/18/2017
+ms.date: 03/27/2019
 ms.topic: index-page
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 372113f019cbce790dcd3e356a14a7bb49b8afd7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301947"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902834"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>“商业智能 (BI) 与报告”主页
 
@@ -33,7 +33,7 @@ ms.locfileid: "301947"
 ## <a name="get-started"></a>开始
 - [信息访问和报告](information-access-reporting.md)
 - [技术交流：报告选项](https://www.youtube.com/watch?v=NzZONjKs5xA)（视频）
-- [Finance and Operations：商业智能](https://blogs.msdn.microsoft.com/dynamicsaxbi/)（博客）
+- [Finance and Operations：Power BI Analytics 和 Reporting Services 博客](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting)（博客）
 
 ## <a name="analytical-workspaces"></a>分析工作区
 Finance and Operations 提供无缝集成到应用程序工作区的交互式报表。 工作区可以使用 Microsoft Power BI 支持的丰富信息图和视觉对象。 这些信息图和视觉对象包括许多由第三方提供的控件。 因此，工作区可以为用户提供高度可视化的交互式体验。
