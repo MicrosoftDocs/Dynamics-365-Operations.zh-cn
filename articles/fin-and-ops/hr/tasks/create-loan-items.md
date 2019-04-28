@@ -1,7 +1,7 @@
 ---
 title: 创建借出物品
 description: 借出物品是帮助您跟踪您的公司借出给工作人员的实际物品（如手机或电脑）的记录。
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmLoanType, DefaultDashboard, HcmLoanItem, HcmWorkerLookUp
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e17005bda302c58f5a6560fe9c4eda04e918c92f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75b2f17eb41ead7422276f72429eb6ede2ef4759
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341825"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856223"
 ---
 # <a name="create-loan-items"></a>创建借出物品
 

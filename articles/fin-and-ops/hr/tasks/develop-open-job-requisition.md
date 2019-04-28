@@ -1,7 +1,7 @@
 ---
 title: 制订和开放工作申请
 description: “招聘项目”帮助您管理招聘流程。
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMRecruitingTable, HcmWorkerLookUp, HcmJobLookup, HRMRecruitingMedia, HRMRecruitingJobAd
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e2d0dcb2e64fa7b901cdc5e4a0469e5f6a76be58
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 556f99d34521cce70efb64c5fbababd815e8429d
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "322160"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857353"
 ---
 # <a name="develop-and-open-job-requisition"></a>制订和开放工作申请
 

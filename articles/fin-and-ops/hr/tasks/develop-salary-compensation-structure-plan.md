@@ -1,7 +1,7 @@
 ---
 title: 制订薪水/薪酬结构和计划
 description: 此任务指南将介绍创建固定薪酬计划的流程，以及通过资格规则筛选加入薪资计划的员工。
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard, HcmCompensationWorkspace, HcmCompFixedPlansPart, HRMCompFixedPlanTable, HRMCompCreateGridDialog, HRCCompGridView, HRMCompEligibility,  HRCCompGrid
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichsea
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 28d044cedbcc9f483a4deb7739aef0f8e3abf9ec
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4e3b71e679539441b90f399a84ad8ef8d3decf19
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332763"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859405"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>制订薪水/薪酬结构和计划
 

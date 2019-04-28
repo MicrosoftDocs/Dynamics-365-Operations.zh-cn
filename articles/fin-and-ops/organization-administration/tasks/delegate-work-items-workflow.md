@@ -3,7 +3,7 @@ title: 在工作流中委托工作项
 description: 如果您计划外出一段时间或无法对工作项进行操作，则您可以将您的工作项委托或重新分配给其他用户。
 author: jasongre
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 04/09/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,25 +16,26 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: f85a1318822ceaf829134bf2eb3581e350d5bea4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: feace647d7acef6abf86b13fcb8019c622c55ff6
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346241"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "976773"
 ---
 # <a name="delegate-work-items-in-a-workflow"></a>在工作流中委托工作项
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-如果您计划外出一段时间或无法对工作项进行操作，则您可以将您的工作项委托或重新分配给其他用户。 此过程帮助您配置系统以自动将您的工作项委托给其他用户。
+## <a name="manually-delegate-a-work-item"></a>手动委托工作项
 
+若要委托单个工作项，请在**工作流**菜单中选择**委托**选项，然后输入要委托给的用户和注释。 这将把该工作项重新分配给该用户，以便该用户完成此工作项。
 
+## <a name="automatically-delegate-work-items"></a>自动委托工作项
 
-创建此程序的演示数据公司是 USMF。
+如果您计划外出或一段时间无法对工作项进行操作，可以使用**用户选项**页面将新工作项自动委托给其他用户。
 
-
-## <a name="set-up-automatic-delegation"></a>设置自动委托
+### <a name="set-up-automatic-delegation"></a>设置自动委托
 1. 转到“常规 > 设置 > 用户选项”。
 2. 单击“工作流”选项卡。
     * 确保已展开“委托”部分。    要将系统配置为自动将您的工作项委托给其他用户，则您必须创建委托规则，指定何时委托特定类型的工作项。 按照以下步骤创建委托规则。  

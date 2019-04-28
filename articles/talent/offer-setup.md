@@ -1,7 +1,7 @@
 ---
 title: 设置聘约管理
 description: 此主题描述如何在 Talent 中设置聘约。
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 02/04/2019
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-18
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 43cf13d96e345747e06541267d820e17de7c1763
-ms.sourcegitcommit: ea17d2e35c24a141c20ab429897eebf9fa186f61
+ms.openlocfilehash: 7fa0e5d30c06db16e105631e492af022acfcfd66
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "768874"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857861"
 ---
 # <a name="set-up-offer-management"></a>设置聘约管理 
 

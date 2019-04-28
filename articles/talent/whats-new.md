@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: tfehr
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 3dd4043273abd9aaf4842562490293f916d5fa21
-ms.sourcegitcommit: 5384200c3e33510c5b3ac31f2b22443e1076251f
+ms.openlocfilehash: 55fcec49feb27c1dd5c96b48a95e879d75e8d977
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "390600"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "855601"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent"></a>Dynamics 365 for Talent 中的新增功能或更改 
 

@@ -1,7 +1,7 @@
 ---
 title: 设置特定于公司的人力资源 (HR) 参数
 description: 某些人力资源 (HR) 参数的设置在公司间共享，而其他参数设置是特定于公司的。 本文说明如何设置特定于公司的人力资源参数。
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: HRMParameters
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 51941
 ms.assetid: 2cfb061a-a616-4bf9-9d98-9cde00039eec
 ms.search.region: Global
-ms.author: shielas
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: f7ecd72a2a6ba4ba15e412e40508462f6ef0d218
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 00facce5913fb82f67c5844d74d29032735db707
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303484"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "858991"
 ---
 # <a name="set-up-company-specific-human-resources-hr-parameters"></a>设置特定于公司的人力资源 (HR) 参数
 

@@ -1,7 +1,7 @@
 ---
 title: 定义新工作
 description: 此任务的重点是创建新工作。
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmJob
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: abb85b1e8d9bc7386bf2d2f059b78faff9933f5c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 66dcbff3e89b88100e80049c1f97bd78d5e9d0aa
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347920"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "854815"
 ---
 # <a name="define-new-jobs"></a>定义新工作
 

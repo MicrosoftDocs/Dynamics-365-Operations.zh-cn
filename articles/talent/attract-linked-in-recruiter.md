@@ -1,7 +1,7 @@
 ---
-title: 具有 LinkedIn 招聘人员的来源添加
+title: 具有 LinkedIn Recruiter 的来源添加
 description: 此主题提供有关如何使用机器学习获得工作和工作应聘者推荐的信息。
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 12/07/2018
 ms.topic: article
@@ -10,31 +10,31 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
 ms.search.industry: ''
-ms.author: josaw
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 9bb323728923ff3b09ff0bfba3849f3c5d84eb34
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 4ac7a302e5bf589beb2b560b0ff5818e90c67139
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303369"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859566"
 ---
-# <a name="sourcing-with-linkedin-recruiter"></a>具有 LinkedIn 招聘人员的来源添加
+# <a name="sourcing-with-linkedin-recruiter"></a>具有 LinkedIn Recruiter 的来源添加
 [!include[banner](../includes/banner.md)]
 
-LinkedIn 是全世界最大的人才数据库招，通常是招聘人员用来查找、联系和为招聘人员要招聘的工作寻求候选人的主要系统。 LinkedIn Recruiter 与 Dynamics 365 for Talent: Attract 集成让用户可以更轻松地招聘并在两个系统之间保持数据同步。
+LinkedIn 是全世界最大的人才数据库招，通常是招聘人员用来查找、联系和为招聘人员要招聘的工作寻求候选人的主要系统。 LinkedIn Recruiter 与  Dynamics 365 for Talent: Attract 集成让用户可以更轻松地招聘并在两个系统之间保持数据同步。
 
 > [!NOTE]
 > 您需要综合招聘附件和 LinkedIn Recruiter 席位才能够使用 LinkedIn Recruiter 与 Attract 的集成。
 
-## <a name="set-up-linkedin-recruiter-with-attract"></a>设置 LinkedIn Recruiter 与 Attract 集成 
+## <a name="set-up-linkedin-recruiter-with-attract"></a>为 LinkedIn Recruiter 设置 Attract 
 
 您必须先配置对 Attract 实例的合同级别或公司级别的访问才能够使用 LinkedIn Recruiter 功能。 若要完成配置流程，您必须与作为 LinkedIn Recruiter 合同的管理员的用户合作。 请完成以下步骤来配置 LinkedIn Recruiter 与 Attract 集成。
 
@@ -122,7 +122,7 @@ Attract 系统将列出，并有可以打开的两三个选项。
 6.  选择**注释**选项卡查看在 Attract 中为此申请人获取的注释。
 
 > [!NOTE]
-> 如果应聘者未移过“应聘者”阶段，应聘者和申请数据不会同步到 LinkedIn Recruiter。
+> 如果应聘者未通过“潜在人选”阶段，应聘者和申请数据不会同步到 LinkedIn Recruiter。
 
 ### <a name="inmail-history"></a>InMail 历史记录
 

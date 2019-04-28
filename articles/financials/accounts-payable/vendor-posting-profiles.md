@@ -1,7 +1,7 @@
 ---
 title: 供应商过帐模板
 description: 供应商过帐模板控制将供应商交易记录过帐到总帐。
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ae019ebec2788fc499b0f2ef27a7eb2832ceaa9d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e81f8b472e7ac7578c184716dcb4e5f3d7aeb65d
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346517"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896526"
 ---
 # <a name="vendor-posting-profiles"></a>供应商过帐模板
 

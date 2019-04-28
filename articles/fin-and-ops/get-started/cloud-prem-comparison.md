@@ -1,28 +1,28 @@
 ---
 title: 比较云和本地功能
 description: 此主题显示在云和本地支持的功能。
-author: robinarh
+author: sericks007
 manager: AnnBe
-ms.date: 11/02/2018
+ms.date: 04/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, Developer, IT Pro
-ms.reviewer: robinr
+ms.reviewer: sericks
 ms.search.scope: Operations
 ms.custom: 89563
 ms.assetid: ''
 ms.search.region: Global
-ms.author: robinr
+ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
-ms.openlocfilehash: 2abddec24776dc84860116cc708e4d8e102dc503
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 18f668bdc49da1022230278f1de8494150e8a5f9
+ms.sourcegitcommit: bdcdcdddcb0517f0c64d541258ccbd119b960719
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313972"
+ms.lasthandoff: 04/16/2019
+ms.locfileid: "977198"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>比较云和本地功能
 
@@ -56,9 +56,12 @@ ms.locfileid: "313972"
 | 帮助 | | 是 | 无 |
 | 人力资源 | | 是 | 是 |
 | 智能 | | 是 | 是 |
-| | 电子申报 (ER) - 与 LCS 集成 | 是 | 无 |
-| | 电子申报 (ER) - 与 SharePoint 集成 | 是 | 无 |
-| | 与 PowerBI.com 集成 | 是 | 无 |
+| | 电子申报 (ER) | 是 | 是 |
+| | ER：与 LCS 的集成 | 是 | 否 |
+| | ER：与 SharePoint 的集成 | 是 | 否 |
+| | ER：与监管配置服务 (RCS) 的集成 | 是 | 否 |
+| | ER：将本地文件系统用作可通过 ER 存储库访问的 ER 配置的存储 | 否 | 是 |
+| | 与 PowerBI.com 集成 | 是 | 否 |
 | | 分析工作区 | 是 | 无 |
 | | 智能业务流程：建议 | 是 | 无 |
 | | 使用 Power BI 桌面或 Excel PowerQuery 工具创作具有 OData 的 Power BI 报表 | 是 | 无 |

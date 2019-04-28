@@ -1,7 +1,7 @@
 ---
 title: 供应商发票自动化
 description: 此主题说明对供应商发票（甚至是包括附件的发票）端到端自动化提供的功能。
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6ea483a82b8215f0e6d8f420c007da349313daa5
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e81822294c86961137ff649be1f219b896cbc10c
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "324506"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896572"
 ---
 # <a name="vendor-invoice-automation"></a>供应商发票自动化
 

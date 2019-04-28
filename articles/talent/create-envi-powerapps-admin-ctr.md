@@ -1,7 +1,7 @@
 ---
 title: 无法在 PowerApps 管理中心创建环境
 description: 本主题说明如果管理员无法在 Microsoft PowerApps 管理中心创建环境该做什么。
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 6f9b7ceef6895b295e6ae5a50d8ac7970497efe5
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 97d44dc034cb8097fc0ecf9ac4e485425f097102
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303475"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857238"
 ---
 # <a name="cant-create-an-environment-in-the-powerapps-admin-center"></a>无法在 PowerApps 管理员中心内创建环境
 

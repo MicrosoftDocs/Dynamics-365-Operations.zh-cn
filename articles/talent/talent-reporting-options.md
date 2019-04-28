@@ -1,7 +1,7 @@
 ---
 title: Talent 中的报告选项
 description: 本主题说明如何解决客户想要自定义 Microsoft Dynamics 365 for Talent 报表或创建新报表的问题。
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 2007e6adec7255b0b3abda7490c2103a8583393f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e00a6e4fc01f72e1ef2347e08754997135215ed
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303476"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950051"
 ---
 # <a name="reporting-options-in-talent"></a>Talent 中的报告选项
 
@@ -42,10 +42,10 @@ ms.locfileid: "303476"
 
 **解决方案**
 
-- 流向 Common Data Service for Apps 的 Core HR 数据可以通过 Power BI Desktop 的 PowerApps CDS 连接器报告。 请注意，Common Data Service for Apps 包含 Core HR 数据的子集。 有关 Power BI 和仪表板的详细信息，请参阅[使用 PowerApps Common Data Service 创建 Power BI 报表和仪表板](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi)。
+- 流向Common Data Service 的 Core HR 数据可以通过 Power BI Desktop 的 PowerApps Common Data Service 连接器报告。 请注意，Common Data Service 包含 Core HR 数据的子集。 有关 Power BI 和仪表板的详细信息，请参阅[使用 PowerApps Common Data Service 创建 Power BI 报表和仪表板](https://powerapps.microsoft.com/en-us/blog/cdsconnectortopowerbi)。
 - 电子申报 (ER) 对 Talent 中的某些报表可用。 客户驱动的自定义可以通过 ER 配置选项完成。
-- 数据可以使用 Talent 通过 Microsoft Office集成提供的不同数据实体导出到 Microsoft Excel 或 Microsoft Word。
+- 数据可以使用 Talent 通过Microsoft Office 集成提供的不同数据实体导出到 Microsoft Excel 或 Microsoft Word。
 
 **长期解决方案**
 
-将推出更多 Power BI 选项，更多数据和实体将成为 Common Data Service for Apps 的一部分。
+将推出更多 Power BI 选项，更多数据和实体将成为 Common Data Service 的一部分。

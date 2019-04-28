@@ -1,7 +1,7 @@
 ---
 title: 输入项目工时单
 description: 通过该过程您可以利用空余的时间表窗体创建时间表。
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/10/2016
 ms.topic: business-process
@@ -9,19 +9,19 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Operations, Talent
 ms.search.region: Global
 ms.search.industry: Service industries
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b1ccaeffde4c288667fe797d07e08b5a346b4716
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3f1be02f0080ee23359ad905b1e997d8cd5adfd2
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329543"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859129"
 ---
 # <a name="enter-project-timesheets"></a>输入项目工时单
 
@@ -57,7 +57,7 @@ ms.locfileid: "329543"
     * 需要以十进制格式输入工时。  例如，如果您工作了两小时十五分钟，输入2.25。   
 19. 输入每天工作的工时数。
     * 需要以十进制格式输入工时。  例如，如果您工作了两小时十五分钟，输入2.25。   
-    * 在“行的详细信息”中，以下选项可用：o  添加税收和财务维度信息。  o    添加时间表行的说明。  
+    * 在“行的详细信息”中，以下选项可用：o 添加税收和财务维度信息。  o    添加时间表行的说明。  
 20. 单击“工作流程”以打开下拉对话框。
 21. 单击“提交”。
 22. 单击“提交”。

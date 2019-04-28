@@ -1,29 +1,29 @@
 ---
 title: 智能建议
 description: 此主题说明如何使用机器学习来为工作和工作应聘者提供建议。
-author: josaw
+author: andreabichsel
 manager: AnnBe
-ms.date: 10/15/2018
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: c6225a311f5ba0b65b45092a1f626b9d6aff3f5e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303427"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896549"
 ---
 # <a name="intelligent-recommendations"></a>智能建议
 
@@ -32,8 +32,9 @@ ms.locfileid: "303427"
 机器学习能够帮助招聘人员和招聘经理快速发现最适合职位的应聘者。 它还可以帮助应聘者找到最适合其个人资料和兴趣的职位。 使用这些功能并且提供反馈，推荐将有所改善。
 
 > [!NOTE] 
-> - 智能推荐功能仅通过综合招聘附件提供。
-> - 若要启用应聘者和工作推荐功能，管理员必须为其打开预览选项。 在管理员中心，在**功能管理**选项卡上，请确保**预览功能**选项设置为**开**。 然后确保各个**应聘者推荐**和**工作推荐**选项设置为**是**。
+> - 智能推荐功能仅通过[综合招聘加载项](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring)提供。
+> - 本主题中介绍的功能作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 若要使用此功能，请让管理员使用 Attract 中的**管理员设置**启用。 将**应聘者推荐**、**工作推荐**和**潜在人选推荐**设置为**开**。 有关详细信息，请参阅[访问 Talent 中的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature)。 
+
 
 ## <a name="candidate-recommendations"></a>应聘者推荐
 
@@ -43,4 +44,15 @@ ms.locfileid: "303427"
 
 ## <a name="job-recommendations"></a>工作推荐 
 
-在潜在的员工使用求职站点申请工作时，将推荐组织中的其他空缺职位。 这些推荐基于应聘者过去的申请，以及其简历或应聘者个人资料。 因此，工作推荐帮助应聘者快速发现最适合自己的工作。 如果有超过十个工作在求职站点上发布，将为应聘者提供工作推荐。 应聘者可以从推荐卡打开工作发布的详细信息。 他们还可以提供有关推荐的反馈以帮助改进将来的推荐。
+在潜在的员工使用求职站点申请工作时，Attract 将推荐组织中的其他空缺职位。 这些推荐基于潜在人选过去的申请表，以及简历或应聘者个人资料。 因此，工作推荐帮助应聘者快速发现最适合自己的工作。 如果有超过十个工作在求职站点上发布，将为应聘者提供工作推荐。 应聘者可以从推荐卡打开工作发布的详细信息。 他们还可以提供有关推荐的反馈以帮助改进将来的推荐。
+
+## <a name="prospect-recommendations"></a>潜在人选推荐 
+
+新职位开放时，浏览所有过去的申请人和整个人才网络可能需要一段时间。 若要让 Attract 帮助您执行此操作，可使用智能机器学习算法。 这意味着在您创建工作帐户，Attract 将立即查看所有应聘者，并推荐匹配度高的应聘者。 若要查看这些推荐，请为工作启用**潜在人选**阶段。 Attract 可能需要最多一分钟扫描整个应聘者数据库来作出推荐。
+
+将在已启用了**潜在人选**阶段的所有工作的**潜在人选**选项卡上以卡的形式显示建议。 这些卡列出潜在人选的个人资料中发现的技能，以及所有教育资格信息。 如果找到您喜欢的建议，可以将应聘者作为该工作的潜在人选添加。
+
+> [!NOTE]
+> 如果现在已开始使用 Attract，则需要等到有 10 个或更多具有完整个人资料或简历的申请人，才能使用此功能。
+
+为了避免推荐中存在潜在偏见，Attract 仅扫描应聘者个人资料以查找技能、资格和其他与工作描述匹配的关键字。 此外，Attract 还会在评估之前从应聘者个人资料中删除个人身份信息。

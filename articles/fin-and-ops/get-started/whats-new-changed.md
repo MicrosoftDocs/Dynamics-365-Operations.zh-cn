@@ -3,7 +3,7 @@ title: 新增功能或更改功能
 description: 此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations 最新版本的新功能的主题。
 author: josaw1
 manager: AnnBe
-ms.date: 02/07/2019
+ms.date: 04/04/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: 262d301262189ec1ba40577e962eeee2ccff0da3
-ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
+ms.openlocfilehash: 47b8a5354635303e8ce280d09201e7823137661f
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791560"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975771"
 ---
 # <a name="whats-new-or-changed"></a>新增功能或更改的功能
 
@@ -53,11 +53,19 @@ ms.locfileid: "791560"
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>10.0.2</td>
+<td>10.0.80</td>
+<td>2019 年 5 月</td>
+<td><a href="whats-new-changed-10-0-2.md">Dynamics 365 for Finance and Operations 版本 10.0.2（2019 年 5 月）中的预览功能</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.1</td>
 <td>10.0.51</td>
 <td>2019 年 4 月</td>
-<td><a href="whats-new-changed-10-0-1.md">Dynamics 365 for Finance and Operations 版本 10.0.1（2019 年 4 月）中的预览功能</a></td>
-</tr><tr>
+<td><a href="whats-new-changed-10-0-1.md">Dynamics 365 for Finance and Operations 版本 10.0.1（2019 年 4 月）中的新增功能或更改内容</a></td>
+</tr>
+<tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0</td>
 <td>10.0.8</td>
@@ -152,10 +160,17 @@ ms.locfileid: "791560"
 <tbody>
 <tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
+<td>平台 update 26</td>
+<td>7.0.5257</td>
+<td>2019 年 5 月</td>
+<td><a href="whats-new-platform-update-26.md">Dynamics 365 for Finance and Operations 平台更新 26（2019 年 5 月）中的预览功能</a></td>
+</tr>
+<tr>
+<td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>平台 update 25</td>
 <td>7.0.5222</td>
 <td>2019 年 4 月</td>
-<td><a href="whats-new-platform-25.md">Dynamics 365 for Finance and Operations 平台更新 25（2019 年 4 月）中的预览功能</a></td>
+<td><a href="whats-new-platform-25.md">Dynamics 365 for Finance and Operations 平台更新 25（2019 年 4 月）的新增功能和更改内容</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>平台 update 24</td>

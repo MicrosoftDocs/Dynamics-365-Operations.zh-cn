@@ -3,7 +3,7 @@ title: 将项目列表从 Finance and Operations 同步到 Field Service
 description: 此主题介绍用于同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Field Service 的项目的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b5aeb4c3925994d7488e8e113e88b9d06ee6b350
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ea5c188891bb97ba73d2d022e86bbff50897381b
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312500"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842596"
 ---
 # <a name="synchronize-project-list-from-finance-and-operations-to-field-service"></a>将项目列表从 Finance and Operations 同步到 Field Service
 
@@ -38,13 +38,13 @@ ms.locfileid: "312500"
 以下模板和基础任务用于运行 Microsoft Dynamics 365 for Finance and Operations 到 Microsoft Dynamics 365 for Field Service 的项目的同步。
 
 **数据集成中的模板**
-- 项目（Finance and Operations 到 Field Service）
+- 项目（Fin and Ops 到 Field Service）
 
 **数据集成项目中的任务**
 - 项目
 
 在发生项目列表同步前，需要执行以下同步任务：
-- 帐户（Sales 到 Finance and Operations） 
+- 科目（Sales 到 Fin and Ops） 
 
 ## <a name="entity-set"></a>实体集
 | Field Service           | Finance and Operations  |
@@ -64,6 +64,6 @@ ms.locfileid: "312500"
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
 
-### <a name="projects-finance-and-operations-to-field-service-projects"></a>项目（Finance and Operations 到 Field Service）：项目
+### <a name="projects-fin-and-ops-to-field-service-projects"></a>项目（Fin and Ops 到 Field Service）：项目
 
 [![数据集成中的模板映射](./media/FSProject1.png)](./media/FSProject1.png)

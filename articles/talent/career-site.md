@@ -1,29 +1,29 @@
 ---
 title: Attract 中的求职站点功能
 description: 本主题概述 Attract 中面向应聘者的求职站点功能。
-author: josaw1
+author: hasrivas
 manager: AnnBe
-ms.date: 02/12/2019
+ms.date: 03/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: josaw
+ms.author: hasrivas
 ms.search.validFrom: 2019-02-12
 ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 087ab4034a1e601e7f3514c77d56ef54b0c5c52d
-ms.sourcegitcommit: 1ee613a88edddab036d145f27f19d071a4b8ad24
+ms.openlocfilehash: a56f162ccc6b6099fd62e0cb7e10076368d8e653
+ms.sourcegitcommit: 063a9296e645e0da182241941869d8102954540a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "389950"
+ms.lasthandoff: 03/26/2019
+ms.locfileid: "898923"
 ---
 # <a name="career-site-functionality-in-attract"></a>Attract 中的求职站点功能
 
@@ -43,15 +43,15 @@ Attract 为租户中的每个环境提供一个求职站点。 例如，如果�
 
 -   **组织徽标** - 组织徽标的图像显示在求职站点的左上角。 通过选择徽标图像，应聘者可以转到列出所有空缺职位的页面。
 
-    >   [!NOTE] 
-    >   显示在求职站点的徽标图像具有固定高度 20 像素 (px)。 在管理员中心添加的图像会缩放以适应此高度。 因此，根据图像，宽度可能会变化。
+    > [!NOTE] 
+    > 显示在求职站点的徽标图像具有固定高度 20 像素 (px)。 在管理员中心添加的图像会缩放以适应此高度。 因此，根据图像，宽度可能会变化。
  
 若要设置以下项，作为管理员登录到 Attract，在**设置**菜单上选择**管理员中心**，然后选择**求职站点管理**选项卡。
 
 -   **搜索引擎优化** - 如果启用，可使用 Bing 和 Google 之类搜索引擎搜索 Attract 求职站点中发布的所有公开职位。
 
-    >   [!NOTE] 
-    >   开启此设置到搜索结果显示之间可能存在延迟，具体取决于所用搜索引擎。
+    > [!NOTE] 
+    > 开启此设置到搜索结果显示之间可能存在延迟，具体取决于所用搜索引擎。
          
 ## <a name="career-site-urls"></a>求职站点 URL
 
@@ -81,15 +81,17 @@ Attract 为租户中的每个环境提供一个求职站点。 例如，如果�
 
     -   Microsoft Azure Active Directory (Azure AD)
 
-Azure AD 登录仅用于内部应聘者。 因此，它只对使用其公司 Azure AD 凭据的内部应聘者有效。 例如，当前是 Contoso Ltd 员工的应聘者希望申请一家不相关公司 Alpine Ski House 的工作。 在这种情况下，如果员工尝试使用 Contoso Ltd 的 Azure AD 凭据，登录将不成功。
+Azure AD 登录仅用于内部应聘者。 因此，它只对使用其公司 Azure AD 凭据的内部应聘者有效。 例如，当前是 Contoso Ltd 员工的应聘者希望申请一家不相关公司 Alpine Ski House 的工作。 在这种情况下，如果员工尝试使用 Contoso Ltd 的 Azure AD 凭据，登录将不成功。 
+
+如果应聘者查看或申请的工作列出为仅限内部，则应聘者必须使用 Azure AD 登录。
 
 ## <a name="create-and-maintain-a-profile"></a>创建和维护个人资料
 
 在应聘者登录到求职站点后，他们可以在页面顶部的导航栏中选择**我的个人资料**来创建和维护其个人资料。
 个人资料包括个人信息、工作经验相关信息、教育详细信息、文档、链接以及技能信息。 个人资料创建后，可用于申请应聘者感兴趣的工作。 个人资料还可以帮助 Attract 向应聘者推荐合适的工作。
 
->   [!NOTE]
->   如果应聘者使用电子邮件 ID 和上面列举的一个身份验证提供商登录，该电子邮件 ID 默认为与个人资料关联的联系人电子邮件 ID。 但是，后者随时可更改，完全独立于前者。 Attract 将始终使用联系人电子邮件 ID 与您的个人资料关联来进行所有电子邮件通信。
+> [!NOTE]
+> 如果应聘者使用电子邮件 ID 和上面列举的一个身份验证提供商登录，该电子邮件 ID 默认为与个人资料关联的联系人电子邮件 ID。 但是，后者随时可更改，完全独立于前者。 Attract 将始终使用联系人电子邮件 ID 与您的个人资料关联来进行所有电子邮件通信。
 
 ## <a name="find-the-right-job"></a>查找合适的工作
 
@@ -97,13 +99,38 @@ Azure AD 登录仅用于内部应聘者。 因此，它只对使用其公司 Azu
 
 应聘者还可以在求职站点上查看一组推荐的工作。 向应聘者推荐的工作基于应聘者过去的申请、个人资料和简历。
 
->   [!NOTE] 
->   仅当求职站点上至少发布了 10 个工作并且应聘者已经完成了个人资料时，工作推荐才会显示。
+> [!NOTE] 
+> 仅当求职站点上至少发布了 10 个工作并且应聘者已经完成了个人资料时，工作推荐才会显示。
+
+如果内部应聘者要联系招聘团队的成员，他们也可以查看工作的招聘经理和/或招聘人员是谁。 而外部应聘者不能查看任何工作的招聘团队成员。
+
+## <a name="contact-the-hiring-team"></a>联系招聘团队
+只有内部应聘者才能联系招聘团队。 无论工作是仅限内部还是公开发布，此项限制都适用于所有工作。
+
+应聘者可能希望联系招聘团队以表示对发布的工作感兴趣或了解更多相关信息。 他们可以联系列出的任何招聘团队成员（招聘经理或招聘人员）。 他们也可以选择在邮件中附上简历，或选择个人资料中以前上传的现有简历。
+
+内部应聘者选择要联系的招聘团队成员之后，Attract 将代表应聘者向他们发送电子邮件。 同时，将把应聘者的个人资料添加到**潜在人选**阶段（如果工作支持此阶段）。 在**潜在人选**阶段，招聘人员或招聘经理可以查看与他们联系过的应聘者。 他们还可以查看应聘者个人资料和邀请潜在应聘者申请。
+
+应聘者可以申请自己已经联系招聘团队成员讨论的工作。 应聘者在申请后不再可以通过求职站点联系招聘团队。
 
 ## <a name="apply-for-jobs"></a>申请工作
 
-应聘者找到合适的工作后，可以使用**工作详细信息**页面的**申请**按钮进行申请。 此时，应聘者可以创建新的个人资料或审查现有个人资料的信息。
+应聘者找到合适的工作后，可以使用 **工作详细信息**页面的 **申请** 按钮进行申请。 此时，应聘者可以创建新的个人资料或审查现有个人资料的信息。
 应聘者还可以根据需要上载简历，然后提交工作申请。
+
+### <a name="enable-applying-for-jobs-with-linkedin-profiles"></a>启用使用 LinkedIn 个人资料申请工作
+
+可以通过将 Attract 配置为允许应聘者通过 LinkedIn 申请职位，让应聘者轻松申请。
+
+> [!NOTE] 
+> 需要先从 LinkedIn 获得一个或多个招聘人员许可证，才能允许应聘者通过 LinkedIn 申请。
+
+1. 以管理员身份登录 Attract。
+2. 选择页面右上角的**设置**按钮（齿轮符号），然后选择**管理员中心**。
+3. 选择 **LinkedIn 集成**选项卡并与 LinkedIn Recruiter 帐户连接。
+4. 在**LinkedIn Recruiter System Connect 集成**部分中，为**通过 LinkedIn 申请**设置选择**启用**。
+
+启用此设置之后，应聘者可使用自己的现有 LinkedIn 个人资料数据进行申请。 当应聘者通过选择**通过 LinkedIn 申请**按钮进行申请时，如果他们尚未登录，还将请他们向 LinkedIn 进行身份验证。 通过了身份验证之后，其 LinkedIn 个人资料将替换申请页面中显示的所有现有个人资料数据。 应聘者可以根据需要编辑信息，然后提交申请表。 如果应聘者在不申请工作的情况下离开该页面，Attract 中将不更新其个人资料数据。
 
 ## <a name="check-application-status"></a>检查申请状态
 

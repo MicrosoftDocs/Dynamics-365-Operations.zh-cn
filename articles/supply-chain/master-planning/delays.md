@@ -1,9 +1,9 @@
 ---
 title: 延迟
-description: 本文提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
+description: 本主题提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 03/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a87b19732f413aa2844101f76dea83535da86599
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7c26fedf15118a304469604527c33a25871356be
+ms.sourcegitcommit: 8eac5eee94bb32143df44c82a2dfdbe903967af8
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359604"
+ms.lasthandoff: 03/20/2019
+ms.locfileid: "878302"
 ---
 # <a name="delays"></a>延迟
 
 [!include [banner](../includes/banner.md)]
 
-本文提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
+本主题提供有关主计划中的延期日期的信息。 如果主计划计算的最早履行日期在请求日期之后，延期日期是交易记录收到的实际到期日期。
 
 主计划可以基于提前期、物料可用性、产能可用性以及各种计划参数计算交易记录的最早履行日期。 
 
@@ -42,12 +42,13 @@ ms.locfileid: "359604"
 
 在**主计划参数**页上，您可以设置延迟计算的开始时间。 如果在此时间后履行某一订单，则在该订单的延迟日期上加上一天的延迟。 
 
-**注意：** 在较早版本中，计算的延迟称为*先期备货消息*，延迟的日期称为*将来日期*，延期的交易记录称作*为将来设置的交易记录*。
+> [!注意} 在较早版本中，计算的延迟称为*先期备货消息*，延迟的日期称为*将来日期*，延期的交易记录称作为*将来设置的交易记录*。
+
+## <a name="desired-date"></a>所需的日期
+
+**计划订单**页面的**延期**选项卡下是计划订单的**所需的日期**。 计划订单的所需日期是延期的基准日期，这是等于从**净需求**计算出的**请求日期**的计算出的日期。 如果计划订单为 BOM 行、生产行或看板行，所需日期将基于**需求日期**，而**计划订单**页面中将不显示所需日期。
 
 <a name="additional-resources"></a>其他资源
 --------
 
 [覆盖范围设置](coverage-settings.md)
-
-
-

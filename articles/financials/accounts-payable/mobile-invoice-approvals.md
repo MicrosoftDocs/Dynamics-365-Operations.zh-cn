@@ -1,7 +1,7 @@
 ---
 title: 移动发票审核
 description: 本主题旨在通过以供应商发票的移动审核为使用案例，在 Dynamics 365 for Finance and Operations 中提供移动方案的设计方法实践。
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: e39d81b0d600012f936865b53f8556eb3ef0a3d9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5a48ea7b0c1faf5726de21a246e3d8b4d98f166a
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "314386"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897170"
 ---
 # <a name="mobile-invoice-approvals"></a>移动发票审核
 

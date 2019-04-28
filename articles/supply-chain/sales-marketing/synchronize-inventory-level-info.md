@@ -3,7 +3,7 @@ title: 将库存级别信息从 Finance and Operations 同步到 Field Service
 description: 本主题讨论用于将 Microsoft Dynamics 365 for Finance and Operations 中的库存水平信息同步到 Microsoft Dynamics 365 for Field Service 的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: b81694f1ed56d8542de46203ac5faf5fae2b6645
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "356775"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842548"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>将库存级别信息从 Finance and Operations 同步到 Field Service 
 
@@ -38,14 +38,14 @@ ms.locfileid: "356775"
 以下模板和基础任务用于同步 Microsoft Dynamics 365 for Finance and Operations 到 Microsoft Dynamics 365 for Field Service 的库存现有水平。
 
 **数据集成中的模板**
-- 产品库存（Finance and Operations 到 Field Service）
+- 产品库存（Fin and Ops 到 Field Service）
   
 **数据集成项目中的任务**
 - 产品库存
 
 在发生库存水平同步前，需要执行以下同步任务：
-- 仓库（Finance and Operations 到 Field Service） 
-- 具有库存单位的 Field Service 产品（Finance and Operations 到 Sales） 
+- 仓库（Fin and Ops 到 Field Service） 
+- 具有库存单位的 Field Service 产品（Fin and Ops 到 Sales） 
 
 ## <a name="entity-set"></a>实体集
 
@@ -80,6 +80,6 @@ Finance and Operations 将充当库存水平的主水平。 因此，如果在 F
 
 ## <a name="template-mapping-in-data-integration"></a>数据集成中的模板映射
 
-### <a name="product-inventory-finance-and-operations-to-field-service-product-inventory"></a>产品库存（Finance and Operations 到 Field Service）：产品库存
+### <a name="product-inventory-fin-and-ops-to-field-service-product-inventory"></a>产品库存（Fin and Ops 到 Field Service）：产品库存
 
 [![数据集成中的模板映射](./media/FSinventoryLevel1.png)](./media/FSinventoryLevel1.png)

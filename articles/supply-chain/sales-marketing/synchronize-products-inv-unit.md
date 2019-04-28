@@ -3,7 +3,7 @@ title: 将具有库存单位的产品从 Finance and Operations 同步到 Field 
 description: 此主题介绍用于同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Field Service 的具有库存单位的产品的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 8e421be79fde6103be6344040b6ae6cda0626c5a
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 080672b9a6acd9fd6137580b5b7e14d12cfccf19
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836294"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842454"
 ---
 # <a name="synchronize-products-with-inventory-unit-from-finance-and-operations-to-field-service"></a>将具有库存单位的产品从 Finance and Operations 同步到 Field Service
 
@@ -34,23 +34,23 @@ ms.locfileid: "836294"
 
 [![Finance and Operations 与 Field Service 之间的业务流程同步](./media/FSProductsOW.png)](./media/FSProductsOW.png)
 
-所用**具有库存单位的 Field Service 产品（Finance and Operations 到 Field Service）** 模板基于 **Field Service 产品（Finance and Operations 到 Field Service）** 模板。 有关详细信息，请参阅 [Field Service 产品（Finance and Operations 到 Field Service）](field-service-product.md)。
+所用**具有库存单位的 Field Service 产品（Fin and Ops 到 Field Service）** 模板基于 **Field Service 产品（Fin and Ops 到 Field Service）** 模板。 有关详细信息，请参阅 [Field Service 产品（Finance and Operations 到 Field Service）](field-service-product.md)。
 
 本主题仅介绍这两个模板之间的区别： 
-- **具有库存单位的 Field Service 产品（Finance and Operations 到 Sales）**
-- **Field Service 产品（Finance and Operations 到 Field Service）** 
+- **具有库存单位的 Field Service 产品（Fin and Ops 到 Sales）**
+- **Field Service 产品（Fin and Ops 到 Field Service）** 
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
 **数据集成中的模板名称：**
 
-- 具有库存单位的 Field Service 产品（Finance and Operations 到 Sales）
+- 具有库存单位的 Field Service 产品（Fin and Ops 到 Sales）
 
 **数据集成项目中的任务名称：**
 
 - 产品
 
-**具有库存单位的 Field Service 产品（Finance and Operations 到 Field Service）** 模板包括 **Field Service 产品（Finance and Operations 到 Field Service）** 模板中不包括的一个映射。 此映射确保包括库存水平同步所需的库存单位。
+**具有库存单位的 Field Service 产品（Fin and Ops 到 Field Service）** 模板包括 **Field Service 产品（Fin and Ops 到 Field Service）** 模板中不包括的一个映射。 此映射确保包括库存水平同步所需的库存单位。
 
 ```
 INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryunit.name [Inventory Unit(Name)] 
@@ -60,6 +60,6 @@ INVENTORYUNITSYMBOL [INVENTORYUNITSYMBOL]         Fn        msdynce_inventoryuni
 
 下图显示了数据集成中的模板映射。
 
-### <a name="field-service-products-with-inventory-unit-finance-and-operations-to-field-service-products"></a>具有库存单位的 Field Service 产品（Finance and Operations 到 Field Service）：产品
+### <a name="field-service-products-with-inventory-unit-fin-and-ops-to-field-service-products"></a>具有库存单位的 Field Service 产品（Fin and Ops 到 Field Service）：产品
 
 [![数据集成中的模板映射](./media/FSProduct1.png)](./media/FSProduct1.png)

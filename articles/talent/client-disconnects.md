@@ -1,7 +1,7 @@
 ---
 title: Talent 客户端断开连接
 description: 此主题说明如果客户与其环境断开并且不知道原因该如何做。
-author: Darinkramer
+author: andreabichsel
 manager: AnnBe
 ms.date: 11/02/2018
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
-ms.author: dkrame
+ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 4f96b986059c179268f8a96ea7e7725831a93524
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 885e2d743cd2b01588546327840508f6f7e95958
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303391"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859912"
 ---
 # <a name="talent-client-disconnects"></a>Talent 客户端断开连接
 

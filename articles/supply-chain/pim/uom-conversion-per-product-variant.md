@@ -18,10 +18,10 @@ ms.author: johanho
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 9d5d6fd65717cd886f1c6576aabf2bc59ca4fcaf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: a47f705976b7a5b34492294e28aa8cd47ea38825
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
+ms.lasthandoff: 03/22/2019
 ms.locfileid: "345919"
 ---
 # <a name="unit-of-measure-conversion-per-product-variant"></a>按照产品变型的度量单位转换
@@ -92,4 +92,4 @@ ms.locfileid: "345919"
 
 如果产品有多个具有不同单位转换的产品变型，从**单位转换**页将单位转换导出到 Excel 电子表格，更新转换，然后将其发布回 Finance and Operations 是一个好主意。
 
-导出到 Excel 并将编辑发布回 Finance and Operations 的选项从**单位转换**页的“操作窗格”上的**在 Microsoft Office 中打开**菜单项启用。
+导出到 Excel 并将编辑发布回 Finance and Operations 的选项从**单位转换**页的“操作窗格”上的**在 Microsoft office 中打开**菜单项启用。

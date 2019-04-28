@@ -1,7 +1,7 @@
 ---
 title: 在 Attract 中创建流程模板
 description: 此主题提供有关如何在 Attract 中创建流程模板的信息。
-author: hasrivas
+author: andreabichsel
 manager: AnnBe
 ms.date: 10/15/2017
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Core, Talent
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: hasrivas
+ms.author: anbichse
 ms.search.validFrom: 2018-10-01
 ms.dyn365.ops.version: AX 8.1
-ms.openlocfilehash: 2b9cac68093be65584192757229c20b1a1546342
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.openlocfilehash: ca04bb623b9ddd19f02efbf99289461a78ddd7f1
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "303417"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856615"
 ---
 # <a name="create-a-process-template-in-attract"></a>在 Attract 中创建流程模板
 

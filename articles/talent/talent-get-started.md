@@ -1,7 +1,7 @@
 ---
 title: Talent 入门
 description: 此主题提供有关如何让用户界面适应您的偏好，以及如何连接到产品内和 docs.microsoft.com 站点提供的帮助资源的信息。
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
@@ -9,20 +9,20 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Talent
 ms.custom: 17271
 ms.assetid: ba1ad49d-8232-400e-b11f-525423506a3f
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: ddd7d9315b61cb3aa5e23f86666752ca8280acbf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 0993119de785d5e3826075778c018bdfa50071e2
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303489"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859037"
 ---
 # <a name="get-started-with-talent"></a>Talent 入门
 

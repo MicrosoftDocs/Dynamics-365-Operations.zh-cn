@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 9354e0dbf8bed9383a9dfcc383a2c9db57457dd0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353808"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842714"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
@@ -93,7 +93,7 @@ ms.locfileid: "353808"
 | 614 | 编辑客户订单 | 撤回所选订单，以便可以在 POS 中修改。 | 无 | 无 | 无 | 无 | 无 |
 | 615 | 编辑报价单 | 撤回所选报价单，以便可以在 POS 中修改。 | 无 | 无 | 无 | 无 | 无 |
 | 518 | 支出帐户 | 记录从银箱中取出以用作偶尔支出的金额。 | 是 | 是 | 是 | 是 | 无 |
-| 919 | 扩展登录 | 通过扫描条码或通过刷卡分配或取消登录权限。 | 是 | 是 | 是 | 无 | 无 |
+| 919 | 扩展登录 | 通过扫描条码或通过刷卡分配或取消登录权限。 | 是 | 是 | 是 | 是 | 否 |
 | 1201 | 浮动条目 | 此操作允许用户将额外金钱添加到当前银箱或班次。 | 是 | 是 | 是 | 是 | 无 |
 | 1218 | 强制解锁外围设备 | 系统内部使用此操作来解锁 POS 外设。 | 不适用 | 不适用 | 不适用 | 不适用 | 无 |
 | 520 | 礼品卡余额 | 显示礼品卡余额。 | 是 | 是 | 无 | 无 | 无 |

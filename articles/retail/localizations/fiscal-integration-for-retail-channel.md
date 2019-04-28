@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2019-1-16
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c6fcc93cfed35d73ae749856f33857ba84dbfd82
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 3c6092a7eba328048ef2f28188c42f33cb1f7136
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773269"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "950396"
 ---
 # <a name="overview-of-fiscal-integration-for-retail-channels"></a>零售渠道的会计整合概览
 
@@ -81,12 +81,37 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 
 **跳过**和**标记为已登记**选项支持信息代码获取有关失败的一些具体信息，如失败原因或跳过会计登记或将交易标记为已登记的理由。 有关如何设置错误处理参数的更多详细信息，请参阅[设置错误处理设置](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
 
+### <a name="optional-fiscal-registration"></a>可选会计登记
+
+会计登记对某些操作而言为强制，但对其他操作则为可选。 例如，常规销售和退货的会计登记可能为强制，但是与客户存款有关的操作的会计登记可能为可选。 在此情况下，未能完成销售的会计登记可能会妨碍更多销售，但是未能完成客户存款的会计登记应该不会妨碍更多销售。 若要区分强制操作和可选操作，建议通过不同单据提供程序处理，并且在这些提供程序的会计登记流程中设置单独的步骤。 应该为与可选会计登记有关的所有步骤启用**出错时继续**参数。 有关如何设置错误处理参数的更多详细信息，请参阅[设置错误处理设置](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
+
+### <a name="manually-running-fiscal-registration"></a>手动运行会计登记
+
+如果失败后已推迟了交易记录或事件的会计登记（例如，如果操作员在错误处理对话框中选择了**取消**），可以通过调用相应操作手动重新运行会计登记。 有关更多详细信息，请参阅[启用已推迟会计登记的手动执行](setting-up-fiscal-integration-for-retail-channel.md#enable-manual-execution-of-postponed-fiscal-registration)。
+
+### <a name="fiscal-registration-health-check"></a>会计登记运行状况检查
+
+会计登记的运行状况检查过程用于在特定事件发生时验证会计设备或服务的可用性。 如果当前不能完成会计登记，将提前通知操作员。
+
+发生以下事件时，POS 将运行运行状况检查：
+
+- 开立了新交易记录。
+- 撤回了封存的交易记录。
+- 完成了销售或退货交易记录。
+
+如果运行状况检查失败，POS 将显示运行状况检查对话框。 此对话框中提供以下按钮：
+
+- **确定** – 操作员可使用此按钮忽略运行状况检查错误并继续处理操作。 仅当为其启用了**允许跳过运行状况检查错误**权限，操作员才能选择此按钮。
+- **取消** – 如果操作员选择此按钮，POS 将取消最后一个操作（例如，不向新交易记录添加某项）。
+
+> [!NOTE]
+> 仅当当前操作需要会计登记，并且为会计登记流程的当前步骤禁用了**出错时继续**参数，才会运行运行状况检查。 有关更多详细信息，请参阅[设置错误处理设置](setting-up-fiscal-integration-for-retail-channel.md#set-error-handling-settings)。
+
 ## <a name="storing-fiscal-response-in-fiscal-transaction"></a>在会计交易记录中存储会计响应
 
 当交易或事件的会计登记成功时，会计交易记录将在通道数据库中创建并链接到原始交易或事件。 同样，如果为失败的会计登记选择了**跳过**或**标记为已登记**选项，此信息将存储在会计交易记录中。 会计交易记录保留会计设备或服务的会计响应。 如果会计登记流程包括多个步骤，将为登记成功或失败的流程的每个步骤创建一个会计交易记录。
 
-会计交易记录通过 *P 作业*与零售交易记录一起转移到零售总部。 在**零售商店交易记录**页的**会计交易记录**快速选项卡上，您可以查看链接到零售交易记录的会计交易记录。
-
+会计交易记录通过 *P 作业*与零售交易记录一起转移到Retail Headquarters。 在**零售商店交易记录**页的**会计交易记录**快速选项卡上，您可以查看链接到零售交易记录的会计交易记录。
 
 会计交易记录存储以下详细信息：
 
@@ -111,10 +136,11 @@ Retail POS 中的会计登记流程可以包含一个或多个步骤。 每个�
 
 - [意大利税控打印机集成示例](emea-ita-fpi-sample.md)
 - [波兰税控打印机集成示例](emea-pol-fpi-sample.md)
+- [奥地利的会计登记服务集成示例](emea-aut-fi-sample.md)
+- [捷克共和国的会计登记服务集成示例](emea-cze-fi-sample.md)
 
 以下会计整合功能也在 Retail SDK 中可用，但当前不利用会计整合框架。 在以后的更新中已计划了将此功能迁移到会计整合框架。
 
 - [法国数字签名](emea-fra-cash-registers.md)
 - [挪威数字签名](emea-nor-cash-registers.md)
 - [瑞典的控制单元集成示例](./retail-sdk-control-unit-sample.md)
-

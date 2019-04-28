@@ -1,7 +1,7 @@
 ---
 title: 分发和计划调查表
 description: 本主题描述如何分配您设计的调查表，以便它们可供将要完成它们的一个人或一组人使用。
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 04/04/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: KMConnectionType, KMKnowledgeCollectorPlanningTabel, SysEmailParameters
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 17424
 ms.assetid: fd8d867a-2446-400a-b91f-ad4085427470
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: eafcb047117eab73fddbd93c4c1d0aafb0023ebd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303379"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857953"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>分发和计划调查表
 

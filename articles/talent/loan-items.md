@@ -1,7 +1,7 @@
 ---
 title: 管理借给工作人员的物品
 description: 借出物品是帮助经理跟踪您的公司借出给工作人员的实际物品。
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: HcmLoanItem, HcmLoanType, HcmPersonLoan
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 3581
 ms.assetid: b14bdddb-f10e-4619-9f91-8c88439da862
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 6c22e85360c3e6e40e0338960866b96d66a0ba50
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 5942016374eb2c681e65b2d6151824924f290dc2
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303361"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859014"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>管理借给工作人员的物品
 
