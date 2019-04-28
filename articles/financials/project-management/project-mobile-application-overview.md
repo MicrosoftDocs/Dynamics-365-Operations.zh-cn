@@ -1,0 +1,48 @@
+---
+title: Project 移动应用程序概览
+description: 本主题提供有关移动设备上支持，适用于 Microsoft Dynamics 365 且与项目时间有关的应用程序的一般信息。
+author: KimANelson
+manager: AnnBe
+ms.date: 04/08/2019
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+audience: Application User
+ms.reviewer: josaw
+ms.search.scope: Core, Operations
+ms.custom: ''
+ms.assetid: ''
+ms.search.region: Global
+ms.search.industry: Service industries
+ms.author: knelson
+ms.dyn365.ops.version: 10
+ms.search.validFrom: 2019-02-28
+ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "969630"
+---
+# <a name="project-mobile-applications-overview"></a><span data-ttu-id="d5896-103">Project 移动应用程序概览</span><span class="sxs-lookup"><span data-stu-id="d5896-103">Project mobile applications overview</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="d5896-104">Microsoft Dynamics 365 有三个与项目时间有关的移动应用程序： Microsoft Dynamics 365 Project Timesheet、“项目时间录入”和“我的工时单/等待我审核的工时单(已针对移动优化)”。</span><span class="sxs-lookup"><span data-stu-id="d5896-104">Three mobile applications that are related to project time are available for Microsoft Dynamics 365: Microsoft Dynamics 365 Project Timesheet, Project Time Entry, and My timesheets/Timesheets for my review (Optimized for mobile).</span></span>
+
+## <a name="project-timesheet-mobile-app"></a><span data-ttu-id="d5896-105">Project Timesheet 移动应用</span><span class="sxs-lookup"><span data-stu-id="d5896-105">Project Timesheet mobile app</span></span>
+
+<span data-ttu-id="d5896-106">用户可使用 Dynamics 365 Project Timesheet 移动应用在自己的移动设备上提交和审核项目的工时单。</span><span class="sxs-lookup"><span data-stu-id="d5896-106">The Dynamics 365 Project Timesheet mobile app lets users submit and approve timesheets for projects on their mobile device.</span></span> <span data-ttu-id="d5896-107">这款移动应用提供 Microsoft Dynamics 365 for Finance and Operations 的“项目管理与核算”区域中的工时单功能。</span><span class="sxs-lookup"><span data-stu-id="d5896-107">This mobile app surfaces the timesheet functionality in the Project management and accounting area of Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="d5896-108">它可帮助提高用户的生产力和效率，还有助于及时录入和审核项目工时单。</span><span class="sxs-lookup"><span data-stu-id="d5896-108">It helps improve user productivity and efficiency, and also helps with the timely entry and approval of project timesheets.</span></span>
+
+## <a name="project-time-entry-workspace"></a><span data-ttu-id="d5896-109">“项目时间录入”工作区</span><span class="sxs-lookup"><span data-stu-id="d5896-109">Project Time Entry workspace</span></span>
+
+<span data-ttu-id="d5896-110">用户可使用“项目时间录入”工作区输入和保存项目的时间。</span><span class="sxs-lookup"><span data-stu-id="d5896-110">The Project Time Entry workspace lets users enter and save time against a project.</span></span> <span data-ttu-id="d5896-111">但是，不能供用户提交或审核项目工时单。</span><span class="sxs-lookup"><span data-stu-id="d5896-111">However, it doesn't let users submit or approve project timesheets.</span></span> <span data-ttu-id="d5896-112">只能用于录入时间。</span><span class="sxs-lookup"><span data-stu-id="d5896-112">It can be used only for time entry.</span></span> <span data-ttu-id="d5896-113">此工作区应该与 Microsoft Dynamics 365 for Unified Operations mobile 应用程序一起使用。</span><span class="sxs-lookup"><span data-stu-id="d5896-113">This mobile workspace is intended to be used together with the Microsoft Dynamics 365 for Unified Operations mobile application.</span></span>
+
+## <a name="my-timesheetstimesheets-for-my-review"></a><span data-ttu-id="d5896-114">我的工时单/等待我审核的工时单</span><span class="sxs-lookup"><span data-stu-id="d5896-114">My timesheets/Timesheets for my review</span></span>
+
+<span data-ttu-id="d5896-115">“我的工时单(已针对移动优化)”和“等待我审核的工时单(已针对移动优化)”构成一个解决方案，供员工在移动设备上创建、提交耦合审核项目工时单。</span><span class="sxs-lookup"><span data-stu-id="d5896-115">My timesheets (Optimized for mobile) and Timesheets for my review (Optimized for mobile) make up a solution that lets employees create, submit, and approve project timesheets on a mobile device.</span></span> <span data-ttu-id="d5896-116">工作人员可通过应用程序的 URL 访问 Finance and Operations 功能。</span><span class="sxs-lookup"><span data-stu-id="d5896-116">Workers can access the Finance and Operations functionality through the URL for the application.</span></span> <span data-ttu-id="d5896-117">此解决方案不需要 Dynamics 365 for Unified Operations Mobile 应用程序。</span><span class="sxs-lookup"><span data-stu-id="d5896-117">This solution doesn't require the Dynamics 365 for Unified Operations mobile application.</span></span>
+
+## <a name="for-more-information"></a><span data-ttu-id="d5896-118">有关详细信息</span><span class="sxs-lookup"><span data-stu-id="d5896-118">For more information</span></span>
+
+<span data-ttu-id="d5896-119">有关更多详细信息，请参阅 [Microsoft Dynamics 365 Project Timesheet 移动应用程序](project-timesheet.md)、[项目时间录入]( project-time-entry-mobile-workspace.md)和[移动设备上的项目工时单](Mobile-timesheets.md)。</span><span class="sxs-lookup"><span data-stu-id="d5896-119">For more details, see [Microsoft Dynamics 365 Project timesheet mobile application](project-timesheet.md), [Project time entry]( project-time-entry-mobile-workspace.md), and [Project timesheets on a mobile device](Mobile-timesheets.md).</span></span>
