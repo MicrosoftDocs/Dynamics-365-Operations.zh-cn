@@ -1,7 +1,7 @@
 ---
 title: 结算在供应商贷方通知单上已折扣的部分供应商付款
 description: 本文向您介绍根据发票结算贷项通知单的情况。
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 5c094b0c3c580a47e7ed876e682c83afc6d9d4c6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ed8232445a89ded122108ef369357845c06b3033
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367884"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896802"
 ---
 # <a name="settle-a-partial-vendor-payment-that-has-discounts-on-vendor-credit-notes"></a>结算在供应商贷方通知单上已折扣的部分供应商付款
 

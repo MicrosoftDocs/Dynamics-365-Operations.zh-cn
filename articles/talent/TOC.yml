@@ -8,6 +8,14 @@ items:
     - name: Talent 新增功能或更改
       href: whats-new.md
       items:
+      - name: 2019 年 4 月 2 日
+        href: whats-new-talent-april-2-2019.md
+      - name: 2019 年 3 月 26 日
+        href: whats-new-talent-march-26-2019.md
+      - name: 2019 年 3 月 20 日
+        href: whats-new-talent-march-20.md
+      - name: 2019 年 3 月 14 日
+        href: whats-new-talent-march-14.md
       - name: 2019 年 3 月 5 日
         href: whats-new-talent-march-5.md
       - name: 2019 年 2 月 27 日
@@ -20,55 +28,59 @@ items:
         href: whats-new-talent-january-29.md
       - name: 2019 年 1 月 23 日
         href: whats-new-talent-january-23.md
-      - name: 2019 年 1 月 17 日
-        href: whats-new-talent-january-17.md
-      - name: 2019 年 1 月 11 日
-        href: whats-new-talent-january-11.md
-      - name: 2018 年 12 月 14 日
-        href: whats-new-talent-december-14.md
-      - name: 2018 年 12 月 6 日
-        href: whats-new-talent-december-6.md
-      - name: 2018 年 11 月 27 日
-        href: whats-new-talent-november-27.md
-      - name: 2018 年 11月 15 日
-        href: whats-new-talent-november-15.md
-      - name: 2018 年 10 月 31 日
-        href: whats-new-talent-october-31.md
-      - name: 2018 年 10 月 19 日
-        href: whats-new-talent-october-19.md
-      - name: 2018 年 10 月 15 日
-        href: whats-new-talent-october-11.md
-      - name: 2018 年 10 月 8 日
-        href: whats-new-talent-october-8.md
-      - name: 2018 年 10 月 1 日
-        href: whats-new-talent-october-01.md
-      - name: 2018 年 9 月 24 日
-        href: whats-new-talent-september-24.md
-      - name: 2018 年 9 月 17 日
-        href: whats-new-talent-september-17-2018.md
-      - name: 2018 年 9 月 10日
-        href: whats-new-talent-september-10.md
-      - name: 2018 年 8 月
-        href: whats-new-talent-august2018.md
-      - name: 2018 年 6 月
-        href: whats-new-talent-july2018.md
+      - name: 2019 年新增功能存档
+        items:
+        - name: 2019 年 1 月 17 日
+          href: whats-new-talent-january-17.md
+        - name: 2019 年 1 月 11 日
+          href: whats-new-talent-january-11.md
+      - name: 2018 年新增功能存档
+        items:
+        - name: 2018 年 12 月 14 日
+          href: whats-new-talent-december-14.md
+        - name: 2018 年 12 月 6 日
+          href: whats-new-talent-december-6.md
+        - name: 2018 年 11 月 27 日
+          href: whats-new-talent-november-27.md
+        - name: 2018 年 11 月 15 日
+          href: whats-new-talent-november-15.md
+        - name: 2018 年 10 月 31 日
+          href: whats-new-talent-october-31.md
+        - name: 2018 年 10 月 19 日
+          href: whats-new-talent-october-19.md
+        - name: 2018 年 10 月 15 日
+          href: whats-new-talent-october-11.md
+        - name: 2018 年 10 月 8 日
+          href: whats-new-talent-october-8.md
+        - name: 2018 年 10 月 1 日
+          href: whats-new-talent-october-01.md
+        - name: 2018 年 9 月 24 日
+          href: whats-new-talent-september-24.md
+        - name: 2018 年 9 月 17 日
+          href: whats-new-talent-september-17-2018.md
+        - name: 2018 年 9 月 10日
+          href: whats-new-talent-september-10.md
+        - name: 2018 年 8 月
+          href: whats-new-talent-august2018.md
+        - name: 2018 年 6 月
+          href: whats-new-talent-july2018.md
     - name: 系统要求和更新策略
       href: talent-versions-update-policy.md
-    - name: 供应 Talent
+    - name: 配置 Talent
       href: provisioning-talent.md
     - name: 删除 Talent 环境
       href: remove-talent-environment.md
-    - name: Talent 模块应用的配置
+    - name: Talent 模块应用配置
       href: modular-app-tech-faq.md
     - name: 嵌入 PowerApps 应用
       href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
-    - name: Core HR 和 Common Data Service for Apps
+    - name: Core HR 和 Common Data Service
       href: CoreHREntities.md
     - name: 访问预览功能
       href: access-preview-feature.md
     - name: 获取 Talent 支持
       href: talent-support.md
-  - name: 使用部门、工作和职位组织您的劳动力
+  - name: 使用部门、工作和职位组织您的员工
     href: departments-jobs-positions.md
     items:
     - name: 设置作业组件
@@ -100,8 +112,10 @@ items:
       href: attract-overview.md
     - name: 在 Attract 中创建流程模板
       href: Process-templates-Attract.md
-    - name: 在 Attract 中创建、审核和过帐作业
+    - name: 在 Attract 中创建、审核和发布工作
       href: Creating-jobs-Attract.md
+    - name: 将工作从 Attract 发布到外部站点
+      href: posting-jobs-external.md
     - name: 具有人才池的来源添加
       href: attract-talent-pools.md
     - name: 具有 LinkedIn Recruiter 的来源添加
@@ -128,7 +142,9 @@ items:
       href: Intelligent-Recommendations.md
     - name: 打造富有吸引力的入职体验
       href: create-onboarding-experience.md
-    - name: Attract 全面的雇用加载项功能
+    - name: 追踪应聘者个人资料和申请的来源
+      href: source-tracking.md
+    - name: Attract 综合招聘加载项功能
       href: attract-comprehensive-hiring.md
   - name: 激励员工
     items:
@@ -201,8 +217,16 @@ items:
       href: data-integration.md
     - name: 集成常见问题
       href: talent-fo-integration.md
-    - name: 使用 Azure 逻辑应用程序重复导出数据
+    - name: 使用 Azure 逻辑应用重复导出数据
       href: tutorial-integration-recurring-export.md
+  - name: 可扩展性
+    items:
+    - name: 使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
+      href: extensibility-examples.md
+    - name: Attract 的可扩展性
+      href: extensibility-attract.md
+    - name: Core HR 自定义字段
+      href: corehr-custom-fields.md
   - name: Office 集成
     items:
     - name: Office 集成教程
@@ -322,7 +346,7 @@ items:
       href: save-play-task-guides-LCS.md
     - name: 通过安全角色访问专用地址
       href: security-roles-addresses.md
-    - name: Talent 未在 Microsoft Dynamics 365 应用 (CDS1.0) 中显示
+    - name: Talent 未在 Microsoft Dynamics 365 应用 (Common Data Service 1.0) 中显示
       href: talent-not-in-home-CDS.md
     - name: 用户可以访问 Core HR，但无法访问 Onboard 或 Attract 应用
       href: user-access-core-hr.md
@@ -332,9 +356,9 @@ items:
       href: talent-FO-integration.md
     - name: 未在人员选择器中找到 Azure Active Directory 用户
       href: people-picker-user-not-found.md
-ms.openlocfilehash: 4123fb80126695bb35a02d3d2fc00b3ea38c1881
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: 0454094f05b3e571a38b8361fa9573c929647551
+ms.sourcegitcommit: 594fd4c7b937695396a7154a906563f43293926a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782744"
+ms.lasthandoff: 04/08/2019
+ms.locfileid: "969439"

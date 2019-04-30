@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-12-14
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 7d2866923efd7f115ad5290f35ed4fcac5e47573
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c2d209cac52665053b664a93bfb6c35e171b0948
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303346"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949843"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-december-14-2018"></a>Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改
 
@@ -65,7 +65,7 @@ ms.locfileid: "303346"
 
 ### <a name="integration-between-core-hr-and-attract"></a>Core HR 与 Attract 之间的集成
 
-已进行了更改以更新与要雇用的应聘者相关的 Core HR 与 Attract 之间的集成。 要使将要雇用的应聘者可以显示在**人员管理**工作区中，使用以下 CDS for Apps (CDS 2.0) 实体：
+已进行了更改以更新与要雇用的应聘者相关的 Core HR 与 Attract 之间的集成。 要使将要雇用的应聘者可以显示在**人员管理**工作区中，使用以下 Common Data Service 实体：
 
 工作申请
 - 状态描述需要设置为“已接受聘约”
@@ -139,7 +139,7 @@ ms.locfileid: "303346"
 
 “性别”字段转换也需要更新。 为“性别”选择 **fn**（功能）映射类型并更新以下值映射。
 
-| CDS 值                   | Finance and Operations 值                     |
+| Common Data Service 值                   | Finance and Operations 值                     |
 | ----------------------------|--------------------------------------------------|
 | 75440000                    | 男                                             |
 | 75440001                    | 女                                           |

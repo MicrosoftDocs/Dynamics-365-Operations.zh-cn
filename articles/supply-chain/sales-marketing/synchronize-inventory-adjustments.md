@@ -3,7 +3,7 @@ title: 将库存转移和调整从 Field Service 同步到 Finance and Operation
 description: 本主题讨论用于将 Microsoft Dynamics 365 for Finance and Operations 中的库存调整和转移同步到 Microsoft Dynamics 365 for Field Service 的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: aa54945cea5821da163e1f6ea1747ac29b31a3ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 75181661c41d238cdc06ffbb6969a2efd7d88d46
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308360"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842407"
 ---
 # <a name="synchronize-inventory-adjustments-from-field-service-to-finance-and-operations"></a>将库存调整从 Field Service 同步到 Finance and Operations
 
@@ -38,8 +38,8 @@ ms.locfileid: "308360"
 以下模板和基础任务用于同步 Microsoft Dynamics 365 for Field Service 到 Microsoft Dynamics 365 for Finance and Operations 的库存调整和转移。
 
 **数据集成中的模板**
-- 库存调整（Field Service 到 Finance and Operations）
-- 库存转移（Field Service 到 Finance and Operations）
+- 库存调整（Field Service 到 Fin and Ops）
+- 库存转移（Field Service 到 Fin and Ops）
 
 **数据集成项目中的任务**
 - 库存调整
@@ -71,11 +71,11 @@ Field Service 中进行的库存调整和转移将在**过帐状态**从**已创
 
 下图显示了数据集成中的模板映射。
 
-### <a name="inventory-adjustment-field-service-to-finance-and-operations-inventory-adjustment"></a>库存调整（Field Service 到 Finance and Operations）：库存调整
+### <a name="inventory-adjustment-field-service-to-fin-and-ops-inventory-adjustment"></a>库存调整（Field Service 到 Fin and Ops）：库存调整
 
 [![数据集成中的模板映射](./media/FSAdj1.png)](./media/FSAdj1.png)
 
 
-### <a name="inventory-transfer-field-service-to-finance-and-operations-inventory-transfer"></a>库存转移（Field Service 到 Finance and Operations）：库存转移
+### <a name="inventory-transfer-field-service-to-fin-and-ops-inventory-transfer"></a>库存转移（Field Service 到 Fin and Ops）：库存转移
 
 [![数据集成中的模板映射](./media/FSTrans1.png)](./media/FSTrans1.png)

@@ -1,7 +1,7 @@
 ---
 title: Attract 中的安全和角色管理
 description: 此主题提供有关 Microsoft Dynamics 365 for Talent - Attract 中的角色安全性的信息。
-author: josaw1
+author: andreabichsel
 manager: AnnBe
 ms.date: 03/08/2019
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: josaw1
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: bb313c489a3bdaa71f8db870cab729d86088f4db
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
+ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789689"
+ms.lasthandoff: 04/15/2019
+ms.locfileid: "993683"
 ---
 # <a name="security-and-role-management-in-attract"></a>Attract 中的安全和角色管理
 
@@ -70,6 +70,16 @@ Attract 提供五个基本用户角色：
 
 分配了只读角色的用户可以只读访问 Attract 环境中的所有数据。 不过，他们不能创建或编辑任何数据。
 
+## <a name="find-out-which-roles-you-have"></a>了解您的是哪些角色
+
+1.  在 Attract 中，单击页面右上角的问号 (**?**)。
+
+2.  单击**关于**。
+
+    将在显示的窗口中显示您的 Attract 角色是哪些。
+
+    ![查看 Attract 许可证类型](media/attract-license-types.png)
+    
 ## <a name="delegated-roles"></a>委托角色
 
 对于其所在招聘团队的每个工作，招聘人员和招聘经理可以为他们自己指定一个或多个委托人。 不过，他们不能为招聘团队的其他人员指定委托人。

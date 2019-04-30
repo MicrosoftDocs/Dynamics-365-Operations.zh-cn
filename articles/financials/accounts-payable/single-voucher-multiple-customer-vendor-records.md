@@ -1,7 +1,7 @@
 ---
 title: 具有多个客户或供应商记录的一个凭证
 description: 此主题概述了当您过帐具有多个客户或供应商记录的一个凭证时发生的情况。 此功能在将来发布的 Microsoft Dynamics 365 for Finance and Operations 版本中将不再提供，因此，鉴于其对结算处理的会计影响，我们不建议使用这种过帐方法。
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 08/22/2017
 ms.topic: article
@@ -17,12 +17,12 @@ ms.search.region: global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d27c4182703b4421763036b2a338b3598f9e969b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: acd0ca65685bc32f4601ad1e38d072f5ab79858d
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330348"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897009"
 ---
 # <a name="single-voucher-with-multiple-customer-or-vendor-records"></a>具有多个客户或供应商记录的一个凭证
 

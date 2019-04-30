@@ -1,7 +1,7 @@
 ---
 title: 借出物品给工作人员
 description: 此过程显示如何借出物品给工作人员和记录工作人员返还物品。
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HcmPersonLoan, HcmPersonLookup
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9041a24a7197c350a38339408197f643f2b9b6dd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 000d589ed4c17d9259866daf69a5abe879c61e09
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332211"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "858460"
 ---
 # <a name="loan-item-to-a-worker"></a>借出物品给工作人员
 

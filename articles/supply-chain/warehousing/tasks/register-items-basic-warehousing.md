@@ -17,18 +17,18 @@ ms.search.industry: Distribution
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 5c53a38eb6afdf8d3cc1a316c8da5e84549ab60d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e3e8ffa6cee7742de1cd98c9c83d134b6d5e4a89
+ms.sourcegitcommit: 529763612e8af315d588e85ba807a5c849df57bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361421"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894670"
 ---
 # <a name="register-items-for-a-basic-warehousing-enabled-item-using-an-item-an-item-arrival-journal"></a>使用物料到达日记帐登记启用的基础仓库物料
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-此过程说明了在库存管理模块中使用“基本仓库”时如何使用物料到达日记帐登记物料。 这将通常由一个收料员完成。 您可以使用所示的示例值运行 USMF 公司演示数据的过程。  如果您没有使用 USMF，则在开始本指南前，您需要使用未结采购订单行以确认采购订单。 该行上的物料必须进行存储，并且不可使用产品变型，亦不能具有跟踪维度。 而且物料需与存储维度组进行关联，其站点和仓库是有效的。
+此过程说明了在库存管理模块中使用“基本仓库”时如何使用物料到达日记帐登记物料。 这将通常由一个收料员完成。 您可以使用所示的示例值运行 USMF 公司演示数据的过程。  如果您没有使用 USMF，则在开始本指南前，您需要使用未结采购订单行以确认采购订单。 必须贮存行中的物料。 而且物料需与存储维度组进行关联，其站点和仓库是有效的。
 
 
 ## <a name="create-item-arrival-journal-header"></a>创建物料到达日记帐标题

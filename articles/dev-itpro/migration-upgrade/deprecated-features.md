@@ -3,7 +3,7 @@ title: 已删除或弃用的功能
 description: 本主题介绍已经删除或计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 03/12/2019
+ms.date: 04/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a4dc8f11cfef7c0f42c62c42cd984438a3e119a5
-ms.sourcegitcommit: d9ed934a142b88340d268fd2bd3753475a3712b0
+ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
+ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/12/2019
-ms.locfileid: "836340"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "992875"
 ---
 # <a name="removed-or-deprecated-features"></a>已移除或弃用的功能
 
@@ -41,45 +41,114 @@ ms.locfileid: "836340"
 > [!NOTE]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations 中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 各版本中已更改或已删除的对象。
 
+
+## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>带平台更新 26 的 Dynamics 365 for Finance and Operations 10.0.2
+
+> [!IMPORTANT]
+> 带平台更新 26 的 Dynamics 365 for Finance and Operations 10.0.2 已作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](../../fin-and-ops/get-started/public-preview-releases.md)。
+
+### <a name="legacy-default-action-behavior"></a>旧版默认操作行为
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 通过个性化为网格列重新排序之后，网格中的默认操作的旧版行为生成具有默认操作链接的意外列。 新的粘滞默认操作功能对此进行了更正。 有关更多详细信息，请参阅[网格中的粘滞默认操作](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/sticky-default-action)。 |
+| **被另一个功能取代？**   | 从平台更新 21 开始，为“粘滞默认操作”引入了一项功能。 可在**客户端性能选项**页面中启用此功能。 |
+| **影响的产品区域**         | Web 客户端中的网格 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：从 2020 年 4 月开始，粘滞默认操作将成为默认行为，但没有恢复为旧版行为的机制。 |
+
+### <a name="legacy-is-one-of-filtering-experience"></a>旧版“之一”筛选体验
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 在平台更新 22 中，“之一”筛选体验已经过重新设计，并计划此体验最终成为唯一的“之一”筛选体验。 |
+| **被另一个功能取代？**   | 从平台更新 22 开始，**客户端性能选项**页面中提供经过改进的“之一”筛选体验。 有关详细信息，请参阅[优化的“之一”筛选体验](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/improved-isoneof-filtering)。 |
+| **影响的产品区域**         | Web 客户端 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：从 2020 年 4 月开始，经过改进的“之一”体验将成为默认行为，但没有恢复为旧版行为的机制。 |
+
+### <a name="deriving-from-internal-classes-is-deprecated"></a>已弃用从内部类派生
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 在平台更新 25 之前，可创建派生自另一个包/模块内定义的内部类/表的类或表。 这种编码行为不安全。 从平台更新 25 开始，编译器将显示警告。 |
+| **被另一个功能取代？**   | 在平台更新 26 中，此编译器警告将替换为错误。 此更改是为了在运行时向后兼容，这意味着平台更新 25 或更高版本可以在任何沙盒或生产环境中部署，不需要修改自定义代码。 此更改仅影响开发和编译时间。|
+| **影响的产品区域**         | Visual Studio 开发工具 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：在平台更新 26 中，此警告将成为编译错误。 |
+
+### <a name="overriding-internal-methods-is-deprecated"></a>已弃用替代内部方法。
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 在平台更新 25 之前，可替代另一个包/模块内定义的派生类中的内部方法。 这种编码行为不安全。 从平台更新 25 开始，编译器将显示警告。 |
+| **被另一个功能取代？**   | 在平台更新 26 中，此警告将替换为编译器错误。 此更改是为了在运行时向后兼容，这意味着平台更新 25 或更高版本可以在任何沙盒或生产环境中部署，不需要修改自定义代码。 此更改仅影响开发和编译时间。 |
+| **影响的产品区域**         | Visual Studio 开发工具 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：在平台更新 26 中，此警告将成为编译错误。 |
+
+### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>用于启用包含多个项目合同融资来源的销售订单的参数
+将使用**项目管理参数**设置**允许项目的销售订单具有多个融资来源**启用对创建其中的项目合同具有多个融资来源的且基于项目的销售订单的支持。 默认情况下，不启用此参数。 
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 删除此参数之后，将始终启用此功能。 |
+| **被另一个功能取代？**   | 编号 将始终启用用于支持具有多个融资来源且基于项目的销售订单的功能。   |
+| **影响的产品区域**         |将删除**允许项目的销售订单具有多个融资来源**参数。 如果删除此选项，将修改以下方法：**ProjStatusType** 类中的 **ctrlSalesOrderTable** 方法、**ProjId** 字段的 **validate** 方法，以及 **SalescreateOrder** 窗体中的 **run** 方法。 如果删除了此参数，将废弃以下方法：**ProjTable** 表文件中的 **IsSalesOrderAllowedForMultipleFundingSources**、**ProjTable** 表文件中的 **IsAllowSalesOrdersForMultipleFundingSourcesParamEnabled** 方法、**ProjParameters** 窗体和 **ProjParameterEntity** 文件中的 **AllowSalesOrdersForMultipleFundingSources** 数据字段，以及 **ProjTable** 表文件中的 **IsAssociatedToMultipleFundingSourcesContract** 专用方法。 |
+| **部署选项**              | 所有  |
+| **状态**                         | 计划 2020 年 4 月的发布波次将弃用。 |
+
+### <a name="legacy-workflow-reports-for-tracking-and-instance-status"></a>跟踪和实例状态的旧版工作流报告
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 将弃用跟踪和实例状态的旧版工作流报告，因为导航时不再参考这些报告。 报告名为 WorkflowWorkflowInstanceByStatusReport 和 WorkflowWorkflowTrackingReport。 |
+| **被另一个功能取代？**   | 可改用工作流历史记录窗体。 |
+| **影响的产品区域**         | Web 客户端 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：移除功能的目标时间范围为 2020 年四月。 |
+
 ## <a name="dynamics-365-for-finance-and-operations-1001-with-platform-update-25"></a>具有平台更新 25 的 Dynamics 365 for Finance and Operations 10.0.1
 
 > [!IMPORTANT]
-> 带平台更新 25 的 Dynamics 365 for Finance and Operations 10.0.1 已作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[标准版及首发版服务更新](https://docs.microsoft.com/en-us/dynamics365/unified-operations/fin-and-ops/get-started/public-preview-releases)。
+> 带平台更新 25 的 Dynamics 365 for Finance and Operations 10.0.1 已作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](../../fin-and-ops/get-started/public-preview-releases.md)。
 
 ### <a name="deprecated-apis-and-potential-breaking-changes"></a>已弃用的 API 和可能的突破性更改
+
 
 #### <a name="deriving-from-internal-classes-is-deprecated"></a>已弃用从内部类派生
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 在平台更新 25 之前的版本中，可创建派生自另一个包/模块内定义的内部类/表的类或表。 这种编码行为不安全。 从平台更新 25 开始，如果尝试这样做，编译器将显示警告消息。|
-| **被另一个功能取代？**   | 在即将发布的平台更新中，此编译器警告将替换为错误。 此更改是为了在运行时向后兼容，这意味着如果运行平台更新 25 或更高版本，可以在任何沙盒或生产环境中部署此更改，不需要修改自定义代码。 此更改仅影响开发和编译时间。 |
-| **影响的产品区域**         | Visual Studio 开发工具。 |
+| **弃用/移除的原因** | 在平台更新 25 之前，可创建派生自另一个包/模块内定义的内部类/表的类或表。 这种编码行为不安全。 从平台更新 25 开始，编译器将显示警告。 |
+| **被另一个功能取代？**   | 在平台更新 26 中，此编译器警告将替换为错误。 此更改是为了在运行时向后兼容，这意味着平台更新 25 或更高版本可以在任何沙盒或生产环境中部署，不需要修改自定义代码。 此更改仅影响开发和编译时间。|
+| **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用 - 在即将发布的平台更新中，此警告将成为编译错误。 |
+| **状态**                         | 已弃用：在平台更新 26 中，此警告将成为编译错误。 |
 
 #### <a name="overriding-internal-methods-is-deprecated"></a>已弃用替代内部方法。
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 在平台更新 25 之前的版本中，可替代另一个包/模块内定义的派生类中的内部方法。 这种编码行为不安全。 从平台更新 25 开始，如果尝试这样做，编译器将显示警告消息。|
-| **被另一个功能取代？**   | 在即将发布的平台更新中，此警告将替换为编译器错误。 此更改是为了在运行时向后兼容，这意味着如果运行平台更新 25 或更高版本，可以在任何沙盒或生产环境中部署此更改，不需要修改自定义代码。 此更改仅影响开发和编译时间。 |
-| **影响的产品区域**         | Visual Studio 开发工具。 |
+| **弃用/移除的原因** | 在平台更新 25 之前，可替代另一个包/模块内定义的派生类中的内部方法。 这种编码行为不安全。 从平台更新 25 开始，编译器将显示警告。 |
+| **被另一个功能取代？**   | 在平台更新 26 中，此警告将替换为编译器错误。 此更改是为了在运行时向后兼容，这意味着平台更新 25 或更高版本可以在任何沙盒或生产环境中部署，不需要修改自定义代码。 此更改仅影响开发和编译时间。 |
+| **影响的产品区域**         | Visual Studio 开发工具 |
 | **部署选项**              | 所有 |
-| **状态**                         | 已弃用 - 在即将发布的平台更新中，此警告将成为编译错误。 |
+| **状态**                         | 已弃用：在平台更新 26 中，此警告将成为编译错误。 |
+
 
 ## <a name="dynamics-365-for-finance-and-operations-813-with-platform-update-23"></a>具有平台更新 23 的 Dynamics 365 for Finance and Operations 8.1.3
 
-### <a name="print-to-screen-functionality"></a>打印到屏幕功能
-客户可使用报表查看器控件提供的**导入**操作下载 Finance and Operations 应用程序生成的单据。 这种基于 HTML 的报表表示为用户提供不分页的单据预览。
+### <a name="sql-server-reporting-services-reportviewer-control"></a>SQL Server Reporting Services ReportViewer 控件
+客户可使用嵌入的 SQL Server Reporting Services (SSRS) ReportViewer 控件提供的**导出**操作下载 Finance and Operations 应用程序生成的单据。 这种基于 HTML 的报表表示为用户提供不分页的单据预览。
 
 |   |  |
 |------------|--------------------|
-| **弃用/移除的原因** | 基于 HTML 的预览体验的不分页特征**不能**提供 Finance and Operations 最终生成的单据实体的逼真感。 通过为业务运营完全采用 PDF 作为标准格式，可以大大简化用于与应用程序报告之间的交互选项，并简化单据呈现流程。 |
+| **弃用/移除的原因** | 基于 HTML 的预览体验的不分页特征**不能**提供 Finance and Operations 最终生成的单据实体的逼真感。 用户可通过完全接纳 PDF 充当业务文档的标准格式，在生成应用程序报告时通过改进的性能利用现代查看体验。 |
 | **被另一个功能取代？**   | 在以后，PDF 单据将成为 Finance and Operations 呈现的报表的默认格式。   |
 | **影响的产品区域**         | 此更改**不**影响以电子方式分发报表或将报表直接发送到打印机的客户场景。    |
 | **部署选项**              | 所有  |
-| **状态**                         | 已弃用：尚未确定此功能的移除日期。 按照计划，2019 年 5 月的平台更新将采用把应用程序报告以 PDF 单据的格式下载到浏览器这一功能。 <br><br>**重要：** 建议依赖“打印到屏幕”功能的现有用户提前通知[支持](../lifecycle-services/lcs-support.md)要升级到平台更新 26。 |
+| **状态**                         | 已弃用：尚未确定此功能的移除日期。 按照计划，2019 年 5 月的平台更新将使用嵌入的 PDF 查看器自动预览应用程序报告。 |
 
 ### <a name="client-kpi-controls"></a>客户端 KPI 控件
 开发人员可以在 Visual Studio 中为嵌入式关键绩效指标 (KPI) 建模，并由最终用户进一步自定义。
@@ -102,7 +171,7 @@ ms.locfileid: "836340"
 | **被另一个功能取代？**   | 以后此警告将替换为编译器错误。  |
 | **影响的产品区域**         | Visual Studio 开发工具。 |
 | **部署选项**              | 全部。 |
-| **状态**                         | 已弃用 - 此警告在将来将成为编译时错误。 现在的目标为平台更新 30。 |
+| **状态**                         | 已弃用：此警告在将来将成为编译时错误。 现在的目标为平台更新 30。 |
 
 #### <a name="complete-list"></a>完整列表
 若要访问将弃用的 API 的完整列表，请参阅[弃用方法和元数据元素](deprecation-deletion-apis.md)。
@@ -110,7 +179,7 @@ ms.locfileid: "836340"
 ## <a name="dynamics-365-for-finance-and-operations-81-with-platform-update-20"></a>具有平台更新 20 的 Dynamics 365 for Finance and Operations 8.1
 
 ### <a name="batch-transfer-rules-for-subledger-journal-account-entries"></a>子分类日记帐科目分录的批处理转移规则
-总帐参数中已弃用了同步转移模式。  此模式刚被异步和计划批处理，后者表示为转移选项。 
+总帐参数中已弃用了同步转移模式。  此模式刚被异步和计划批处理，后者表示为转移选项。 有关更多信息，请参阅[总帐参数 – 批量转移规则](https://community.dynamics.com/365/financeandoperations/b/financials/archive/2019/03/15/general-ledger-parameters-batch-transfer-rules)博客。
 
 |   |  |
 |------------|--------------------|
@@ -172,7 +241,7 @@ ms.locfileid: "836340"
 ## <a name="dynamics-365-for-finance-and-operations-enterprise-edition-73-with-platform-update-12"></a>具有平台更新 12 的 Dynamics 365 for Finance and Operations Enterprise edition 7.3
 
 ### <a name="personalized-product-recommendations"></a>个性化产品建议 
-从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参见[个性化产品建议](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations)。  
+从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参见[个性化产品建议](../../retail/personalized-product-recommendations.md)。  
 
 |   |  |
 |------------|--------------------|
@@ -277,7 +346,7 @@ ms.locfileid: "836340"
 ## <a name="dynamics-365-for-retail-72"></a>Dynamics 365 for Retail 7.2
 
 ### <a name="personalized-product-recommendations"></a>个性化产品建议 
-从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参见[个性化产品建议](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/personalized-product-recommendations)。  
+从 2018 年 2 月 15 日开始，零售商再也不能显示有关销售点 (POS) 设备的个性化产品建议。 有关详细信息，请参见[个性化产品建议](../../retail/personalized-product-recommendations.md)。  
 
 |   |  |
 |------------|--------------------|
@@ -309,7 +378,7 @@ ms.locfileid: "836340"
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 重复的功能。       |
-| **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅[安装和配置 Microsoft Dynamics 365 for Finance and Operations - 仓库](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/warehousing/install-configure-warehousing-app)。 |
+| **被另一个功能取代？**   | 是。 此功能已经由 Finance and Operations - Warehousing 取代。 有关设置和先决条件的详细信息，请参阅[安装和配置 Microsoft Dynamics 365 for Finance and Operations - 仓库](../../supply-chain/warehousing/install-configure-warehousing-app.md)。 |
 | **影响的产品区域**         | 仓库管理，运输管理     |
 | **部署选项**              | 仓库移动设备门户 (WMDP) 是用于本地自行部署的单独组件。               |
 | **状态**                         | 已弃用：移除功能的目标时间范围为 2019 年第四季度。   |
@@ -687,6 +756,17 @@ Telepay 付款格式包括供应商付款导出（贷方转帐）和客户付款
 | **被另一个功能取代？**   | 此功能由数据导入/导出框架取代，该框架支持重复执行的批量导入/导出。 对于 AxBC，我们建议您使用实际表。 |
 | **影响的产品区域**         | AxDs、AxBC 和 AIF   |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。   |
+
+### <a name="billing-code-rate-scripts"></a>计费代码费率脚本
+
+过去使用计费脚本计算计费代码的计费费率。 此脚本要求使用 C Sharp 或 Visual Basic 编程语言进行自定义开发。 在当前版本的 Dynamics AX 中，不支持**计费代码费率脚本**。
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | Dynamics AX 7.0 中未添加对自定义 C Sharp 或 Visual Basic 脚本的支持。 |
+| **被另一个功能取代？**   | 否                                                                                      |
+| **影响的产品区域**         | 公共部门，应收帐款                                    |
+| **状态**                         | 从 Dynamics AX 7.0 开始移除。                                                          |
 
 ### <a name="boms-without-bom-versions"></a>没有物料清单版本的物料清单
 
@@ -1068,7 +1148,7 @@ Microsoft Dynamics AX 2012 通过使用“未实现的增值税”的墨西哥�
 |   |  |
 |------------|--------------------|
 | **弃用/移除的原因** | 产品生成器向最终用户显示了 X++ 代码，在 Dynamics AX 的当前版本中不受支持。 它已被删除，从而避免在重叠的、庞大的代码库中进行重复的维护工作。  |
-| **被另一个功能取代？**   | 是。 已经公布在将来的版本中弃用产品生成器的 Dynamics AX 2012 中引入了基于约束的配置。 在基础产品上选择基于约束的配置技术，以启用配置。 若要了解更多信息，请参阅[生成产品配置模型](https://docs.microsoft.com/en-us/dynamics365/unified-operations/supply-chain/pim/build-product-configuration-model)。 |
+| **被另一个功能取代？**   | 是。 已经公布在将来的版本中弃用产品生成器的 Dynamics AX 2012 中引入了基于约束的配置。 在基础产品上选择基于约束的配置技术，以启用配置。 若要了解更多信息，请参阅[生成产品配置模型](../../supply-chain/pim/build-product-configuration-model.md)。 |
 | **影响的产品区域**         | 产品信息管理、销售和市场营销  |
 | **状态**                         | 从 Dynamics AX 7.0 开始移除。      |
 

@@ -3,7 +3,7 @@ title: 将仓库从 Finance and Operations 同步到 Field Service
 description: 此主题介绍用于同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Field Service 的仓库的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 01/14/2019
+ms.date: 03/13/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 34cd18a18715d12d4002e6dbeee047467ed2a5ad
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 7e6d7626c00b9d7d98ce872652653c36ce7bc975
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340307"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842525"
 ---
 # <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>将仓库从 Finance and Operations 同步到 Field Service
 
@@ -38,7 +38,7 @@ ms.locfileid: "340307"
 以下模板和基础任务用于运行 Microsoft Dynamics 365 for Finance and Operations 到 Microsoft Dynamics 365 for Field Service 的仓库的同步。
 
 **数据集成中的模板**
-- 仓库（Finance and Operations 到 Field Service）
+- 仓库（Fin and Ops 到 Field Service）
 
 **数据集成项目中的任务**
 - 存放地点
@@ -76,6 +76,6 @@ ms.locfileid: "340307"
 
 下图显示了数据集成中的模板映射。
 
-### <a name="warehouses-finance-and-operations-to-field-service-warehouse"></a>仓库（Finance and Operations 到 Field Service）：仓库
+### <a name="warehouses-fin-and-ops-to-field-service-warehouse"></a>仓库（Fin and Ops 到 Field Service）：仓库
 
 [![数据集成中的模板映射](./media/Warehouse1.png)](./media/Warehouse1.png)

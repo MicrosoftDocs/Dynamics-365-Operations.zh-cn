@@ -3,7 +3,7 @@ title: 查看财务报表
 description: 本主题介绍如何在 Microsoft Dynamics 365 for Finance and Operations 中查看和探索财务报表。 它包含有关可应用于财务报表的各个选项的信息，这些选项可以更改报表外观和它们包含的数据。
 author: kweekley
 manager: AnnBe
-ms.date: 02/11/2019
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ecdd2dd9d1eff0af358a458171ce151c9c14c71c
-ms.sourcegitcommit: 78bd8119b9fe967ba4d0adaacaf2d2227e567a91
+ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
+ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791433"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "894580"
 ---
 # <a name="view-financial-reports"></a>查看财务报表
 
@@ -46,12 +46,11 @@ ms.locfileid: "791433"
 如果数据是预算数据，您可以选择打开预算科目条目。 要关闭报表的任何级别并返回开始位置，可以按 Esc 键或单击右上方的**关闭**按钮 (**X**)。
 
 ## <a name="change-report-options"></a>更改报表选项
-您可以更改报表日期，应用属性和维度筛选器，或更改**实际与预算**报表上的预算方案。 在操作窗格上，单击**报表选项**，然后按照一个或多个以下步骤操作：
+您可以应用属性和维度筛选器，或更改**实际与预算**报表上的预算方案。 在操作窗格上，单击**报表选项**，然后按照一个或多个以下步骤操作：
 
--   若要更改报表的基准期间和基准年，选择一个基准期间和基准年，然后单击**确定**。
 -   若要将属性筛选器应用于报表，请选择**添加属性筛选器**。 选择属性，输入属性值，然后单击**确定**。 例如，如果您选择**科目类别**属性，输入 **SALES** 作为属性值。 若要删除属性筛选器，请单击**清除**。
 -   若要将维度筛选器应用于报表，请选择**添加维度筛选器**。 选择维度，然后键入维度 ID 或在列表中选择维度。 若要删除维度筛选器，请单击**清除**。
--   若要更改报表**实际与预算**中的方案，选择新的方案，然后单击**确定**。 如果所选方案是不同的年份，则确保更新基准年。 例如，如果当前方案是 FY2015，您选择 FY2016 的新方案，则应将基准年更改为 **2016**。
+-   若要更改报表**实际与预算**中的方案，选择新的方案，然后单击**确定**。 如果所选方案针对其他会计年度，将不返回任何结果。 例如，如果生成的报表针对 FY2015，而当前方案针对 FY2015，选择的新方案针对 FY2016，则不返回任何结果。 如果需要针对其他会计年度的新方案，请为与该方案有关的会计年度生成新的报表版本。
 
 当您单击**确定**后，您选择的所有选项都将应用于报表。 如果您决定不应用所选的选项，单击**取消**。
 

@@ -3,7 +3,7 @@ title: 打造个性化的用户体验
 description: 本主题说明如何个性化 Microsoft Dynamics 365 for Finance and Operations。
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 09/28/2018
+ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,16 +18,17 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 53aff09746b92372bb38908a526942ebe9bb4c52
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363468"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975843"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 本主题说明如何个性化 Microsoft Dynamics 365 for Finance and Operations。
 
@@ -47,6 +48,8 @@ Finance and Operations. 中有三类基本的个性化设置。
 - **首选项** – 用于选择每次打开 Finance and Operations 时使用的默认值。 这些值包括公司、初始页和默认查看/编辑模式。 （查看/编辑模式确定页面在每次打开时为锁定供查看，还是打开供编辑。）此选项卡中还有语言，时区及日期、时间和数字格式选项。 最后，此选项卡中包含若干杂项首选项，具体由版本决定。
 - **帐户** – 用于调整用户名和其他与帐户有关的选项。
 - **工作流** – 用于选择与工作流有关的选项。
+
+除了修改用户设置，还可以通过单击**应用数据**按钮查看和删除您的应用数据和个性化设置。 当您使用应用程序时，会记住您的很多选择，以便您以后可以更轻松地使用系统。 特别是您可以通过**个性化设置**选项卡来查看和管理您对系统中的页面曾经进行的个人更改。 您还可以通过此选项卡重置功能标注（这是平台更新 26 中提供的弹出窗口，用于为您介绍产品中的新功能），以便再次提醒您以前遇到过的功能。  
 
 ## <a name="implicit-personalizations"></a>隐式个性化设置
 
@@ -160,7 +163,7 @@ Finance and Operations. 中有三类基本的个性化设置。
 
 - **应用** –您可以导入或选择一个或多个用户的个性化设置。 若要将个性化设置应用于一位或多位用户，请首先选择一个角色和具有该角色的用户。 然后选择要为所选用户应用的现有个性化设置，或导入个性化设置文件。 将验证该个性化设置，并在所选用户下一次打开所选页面时应用。
 - **清除** – 您可以清除一个或多个用户的页面或工作区的所有个性化设置。 首先访问页面或工作区以查看已对其执行了个性化设置的用户的列表。 然后，选择应该清除该页面或工作区的个性化设置的用户，再选择**清除**。 将删除所选用户已应用于所选页面或工作区的所有个性化设置。 此操作无法撤消。 但是，如果为页面或工作区保存了个性化设置，则可以重新导入该个性化设置。
-- **按用户管理** – 选择一个用户查看其已个性化的页面的列表。 随后您可以选择启用或禁用所选用户为特定页面或为整个系统使用个性化设置的权限。 您还可以导入、导出或清除所选用户的个性化设置。
+- **按用户管理** – 选择一个用户查看该用户已个性化的页面的列表。 随后您可以选择启用或禁用所选用户为特定页面或为整个系统使用个性化设置的权限。 您还可以导入、导出或清除所选用户的个性化设置。 此外，还可以为所选用户重置功能标注，从而让以前已取消的用于介绍新功能的所有弹出窗口在用户下次遇到这些功能时再次显示。   
 - **系统** - 您可以在此临时禁用系统中所有用户的全部个性化设置。 在这种情况下，将删除个性化设置。 所有页面仅重置为针对全部用户的默认状态。 如果您在以后重新启用个性化设置，所有个性化设置将重新应用。 您还可以永久删除系统中所有用户的全部个性化设置。 不能恢复已删除的个性化设置。 因此，在执行此任务之前，请务必导出以后可能需要的任何个性化设置。
 
 ## <a name="personalization-of-inventory-dimensions"></a>库存维度的个性化

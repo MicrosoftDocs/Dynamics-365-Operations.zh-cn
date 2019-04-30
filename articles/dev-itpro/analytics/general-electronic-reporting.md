@@ -3,14 +3,14 @@ title: 电子申报 (ER)
 description: 此主题概要介绍了电子申报 (ER) 工具。 内容包含有关重要概念、ER 支持的方案以及作为解决方案的一部分进行设计和发布的格式列表的信息。
 author: NickSelin
 manager: AnnBe
-ms.date: 11/01/2017
+ms.date: 03/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User, Developer, IT Pro
-ms.reviewer: kfend
+ms.reviewer: shylaw
 ms.search.scope: Core, Operations
 ms.custom: 58941
 ms.assetid: 5d51b6a6-ad12-4af9-a66d-a1eb820ae57f
@@ -18,12 +18,12 @@ ms.search.region: global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e619b24fc790399452d6233b2d04987357d87186
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: bc544211891c19104b2b3cb704b55a074784d608
+ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310798"
+ms.lasthandoff: 03/28/2019
+ms.locfileid: "902952"
 ---
 # <a name="electronic-reporting-er"></a>电子申报 (ER)
 
@@ -41,7 +41,7 @@ ER 目前支持 TEXT、XML、Microsoft Word 文档和 OPENXML 工作表格式。
 ER 引擎具有以下功能：
 
 - 它表示不同域中的电子申报的单一共享工具，并替换超过 20 个用于执行某种 Microsoft Dynamics 365 for Finance and Operations 电子申报的不同引擎。
-- 它让报表的格式与当前 Dynamics 365 for Finance and Operations 实施隔离。 换句话说，该格式适用于 Finance and Operations 的不同版本。
+- 它让报表的格式与当前 Finance and Operations 实施隔离。 换句话说，该格式适用于 Finance and Operations 的不同版本。
 - 它支持创建基于原始格式的自定义格式。 它还包括当原始格式发生更改时自动升级自定义格式的功能，因为引入了本地化/自定义要求。
 - 它成为支持电子申报中的本地化要求的主要标准工具，针对 Microsoft 以及 Microsoft 合作伙伴。
 - 它支持通过 Microsoft Dynamics Lifecycle Services (LCS) 为合作伙伴和客户分配格式的功能。
@@ -163,21 +163,33 @@ ER 提供商是用于指示每个 ER 配置的作者（所有者）的当事方�
 
 #### <a name="repository"></a>知识库
 
-ER 存储库中会存储 ER 配置。 四个 ER 存储库类型当前受支持：**运营资源**、**LCS 项目 (LCS)**、**文件系统**和**监管配置服务 (RCS)**。
+ER 存储库中会存储 ER 配置。 目前支持以下 ER 存储库类型： 
 
-**运营资源**存储库允许你访问由 Microsoft 作为 EER 配置提供商发布的作为 Finance and Operations 解决方案的一部分的配置的列表。 这些配置可以导入到当前的 Finance and Operations 实例，并且可以用于电子申报。 它们还可以用于其他本地化和自定义。
+- LCS 共享库
+- LCS 项目
+- 文件系统
+- 监管配置服务 (RCS)
+- 运营资源
+
+
+**LCS 共享库**存储库提供对 Lifecycle Services (LCS) 中共享资产库内的配置列表的访问。 只能为 Microsoft 提供程序注册这种类型的 ER 存储库。 可将最新版本的 ER 配置从 LCS 共享资产库导入到当前 Finance and Operations 实例中。
 
 **LCS 项目**存储库允许您访问在存储库登记阶段选择的特定 LCS 项目（LCS 项目资产库）的配置列表。 ER 让你可以从当前 Finance and Operations 实例将共享配置上载到特定 **LCS 项目**存储库。 你还可以从 **LCS 项目**存储库将配置导入到当前的 Finance and Operations 实例。
 
-**文件系统**存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 你可以从**文件系统**存储库将配置导入到当前的 Finance and Operations 实例。 请注意，存储库类型在以下 Dynamics 365 for Finance and Operations 环境中可访问：
-- 为开发目的部署的云托管环境（包含所含套件的测试模型）
-- 本地部署环境（内部或本地业务数据部署 (LBD)）
+**文件系统**存储库提供对作为 xml 文件位于承载 AOS 服务的计算机的本地文件系统的特定文件夹的配置列表的访问。 所需文件夹在存储库登记阶段选择。 你可以从**文件系统**存储库将配置导入到当前的 Finance and Operations 实例。 
 
-有关详细信息，请访问[导入电子申报配置 (ER) 配置](./electronic-reporting-import-ger-configurations.md)页面。
+请注意，存储库类型在以下 Dynamics 365 for Finance and Operations 环境中可访问：
+
+- 为开发目的部署的云托管环境（包含所含套件的测试模型）
+- 本地部署的环境（本地）
+
+有关详细信息，请参阅[导入电子申报 (ER) 配置](./electronic-reporting-import-ger-configurations.md)。
 
 **RCS 实例**存储库允许您访问在存储库登记阶段选择的特定 RCS 实例的配置列表。 ER 让您可以将完成的或共享的配置从所选的 RCS 实例导入到当前的 Finance and Operations 实例并用于电子申报。
 
-有关详细信息，请访问[从监管配置服务 (RCS) 导入电子报告 (ER) 配置](./rcs-download-configurations.md)页面。
+有关详细信息，请参阅[从监管配置服务 (RCS) 导入电子申报 (ER) 配置](./rcs-download-configurations.md)。
+
+**运营资源**存储库允许您访问由 Microsoft 最初作为 EER 配置提供商发布的作为 Finance and Operations 解决方案的一部分的配置的列表。 这些配置可以导入到当前的 Finance and Operations 实例，并且可以用于电子申报或播放示例任务指南。 它们还可以用于其他本地化和自定义。 请注意，必须使用相应的 ER 存储库从 LCS 共享资产库导入 Microsoft ER 配置提供的最新版本。
 
 可分别为当前 Finance and Operations 实例的每个配置提供商登记所需的 **LCS 项目**、**文件系统**和**监管配置服务 (RCS)** 存储库。 每个存储库可专门针对一个特定配置提供商。
 
@@ -377,6 +389,5 @@ ER 支持在当前草稿版的派生组件中自动采用最新版本的基础�
 
 ## <a name="additional-resources"></a>其他资源
 
-[本地化要求 – 创建电子申报配置](electronic-reporting-configuration.md)
-
-[管理电子申报配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [本地化要求 – 创建电子申报配置](electronic-reporting-configuration.md)
+- [管理电子申报配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)

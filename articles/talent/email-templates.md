@@ -1,7 +1,7 @@
 ---
 title: 电子邮件模板
 description: 此主题提供有关您可以在 Microsoft Dynamics 365 for Talent - Attract 中创建和使用的电子邮件模板的信息。
-author: josaw
+author: andreabichsel
 manager: AnnBe
 ms.date: 10/19/2018
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: e02912ad242186fe3e2dd8d7a4cc7312aec6015e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: b88ba4386dbf3513d75990acca1c07fa6f0dc9b0
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303463"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "857052"
 ---
 # <a name="email-templates"></a>电子邮件模板
 [!include[banner](../includes/banner.md)]

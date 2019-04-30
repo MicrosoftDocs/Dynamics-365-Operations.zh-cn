@@ -1,7 +1,7 @@
 ---
 title: 大批雇用项目
 description: 大型雇用项目允许人力资源专员创建多个职位，并且高效地为这些职位雇用工作人员。
-author: rschloma
+author: andreabichsel
 manager: AnnBe
 ms.date: 06/20/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMMassHireProject
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 7481
 ms.assetid: 5f5eb271-76eb-4305-bd1c-5d171dafccc9
 ms.search.region: Global
-ms.author: rschloma
+ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e4c1bd382fa803f90a251c8c45acc556bee627d1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: f7dacc8b0ca8659d3ae69c81385918ef6fa39c04
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "361536"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "858943"
 ---
 # <a name="mass-hire-projects"></a>大批雇用项目
 

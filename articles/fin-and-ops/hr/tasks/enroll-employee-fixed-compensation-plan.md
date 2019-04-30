@@ -1,7 +1,7 @@
 ---
 title: 在固定薪酬计划中登记员工
 description: 薪酬福利经理可以指派不同雇员不同的固定薪酬计划以确定其各自的基本工资。
-author: kherr75
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/29/2018
 ms.topic: business-process
@@ -10,18 +10,18 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: HRMCompFixedEmpl, HRMCompFixedEmplActionDialog, HcmPositionLookup, HRMCompRefPointLookup
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: kherr
+ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c9c11292feec06a53cd4426a25bfb2aaac7de3e8
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ee0ba197ee47d2a2da2372b12291e5625ddc9ba1
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353325"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859935"
 ---
 # <a name="enroll-an-employee-in-a-fixed-compensation-plan"></a>在固定薪酬计划中登记员工
 

@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-03-05
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: e6b490a696dc0a00c47e56f57373f330d0e53dde
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: e4ad32ef71c87f52e59959d80c21ae7fcd6d6524
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782797"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949797"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-5-2019"></a>Dynamics 365 for Talent（2019 年 3 月 5 日）中的新增功能或更改
 
@@ -35,7 +35,7 @@ ms.locfileid: "782797"
 
 ### <a name="extending-option-sets-in-attract"></a>扩展了 Attract 中的选项集
 
-在 Attract 中，有多个字段是 Common Data Service (CDS) 内的选项集。 已引入了新功能，用于扩展选项集，从**拒绝原因**字段、**雇佣类型**字段和**任职类型**字段开始。
+在 Attract 中，有多个字段是 Common Data Service 内的选项集。 已引入了新功能，用于扩展选项集，从**拒绝原因**字段、**雇佣类型**字段和**任职类型**字段开始。
 
 > [!IMPORTANT]
 > 工作发布到 LinkedIn 这一功能要求使用**工作详细信息**页中的**雇佣类型**和**任职类型**字段。 这些字段中的默认值受 LinkedIn 支持，将在发布工作时显示。 如果要将工作发布到 LinkedIn，并且修改这些字段的现有选项集值，仍将发布工作，但是 LinkedIn 不会显示自定义的**雇佣类型**和**任职类型**值。
@@ -70,8 +70,8 @@ ms.locfileid: "782797"
 ### <a name="other-miscellaneous-bug-fixes"></a>其他杂项缺陷修复
 此版本中还包含其他小缺陷修复。
 
-### <a name="upgrade-to-cds-for-apps"></a>升级到 CDS for Apps
-很快将到达 CDS for Apps 的升级截止时间。 请登录 PowerApps 管理员中心以确定是否需要升级您的数据库。 有关截止时间和必要升级步骤的详细信息，请参阅[升级到 Common Data Service for Apps](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds)。
+### <a name="upgrade-to-common-data-service"></a>升级到 Common Data Service
+很快将到达 Common Data Service 的升级截止时间。 请登录 PowerApps 管理员中心以确定是否需要升级您的数据库。 有关截止时间和必要升级步骤的详细信息，请参阅[升级到 Common Data Service](https://docs.microsoft.com/en-us/common-data-service/upgradecds/introduction-upgrade-cds)。
 
 ## <a name="coming-soon"></a>即将到期
 

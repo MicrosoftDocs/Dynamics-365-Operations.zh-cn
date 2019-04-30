@@ -1,7 +1,7 @@
 ---
 title: 确定业务流程
 description: 本主题介绍如何使用业务流程功能创建必须在组织内完成的流程的业务流程模板。
-author: ShielaSogge
+author: andreabichsel
 manager: AnnBe
 ms.date: 01/09/2018
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: PersonnelBusinessProcessGenericWorkspace, BusinessProcessGenericTemplateListpage, BusinessProcessGenericMyTemplates, BusinessProcessGroupAssignment
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: ShielaS
+ms.author: anbichse
 ms.search.validFrom: 2018-01-09
 ms.dyn365.ops.version: AX 7.1.0, Talent October 2017 update
-ms.openlocfilehash: fd538677d897c1e7d3103cd714c688373aab8d29
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 85950a1413cfd8745bb78a52eb9f7c81b8976605
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303479"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "859705"
 ---
 # <a name="formalize-business-processes"></a>确定业务流程
 

@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-02-27
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: b622276000c56a5af1bb258dbc3c6c4a56af4d20
-ms.sourcegitcommit: 479b8cda7e411830bf1f579fab3692c980dcf850
+ms.openlocfilehash: d8e6a02b43ad60e3a0c4382f98cb808066587da7
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "782798"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "949889"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-february-27-2019"></a>Dynamics 365 for Talent（2019 年 2 月 27 日）中的新增功能或更改
 
@@ -87,7 +87,7 @@ Microsoft Power BI 中已修复了帐户的 2 月 29 日闰日问题。
 
 ## <a name="known-issues"></a>已知问题
 
-### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-for-apps-to-finance-and-operations"></a>Core HR 集成模板（Talent Common Data Service for Apps 带 Finance and Operations）的更改
+### <a name="changes-to-the-core-hr-integration-template-talent-common-data-service-to-finance-and-operations"></a>Core HR 集成模板（Talent Common Data Service 到 Finance and Operations）的更改
 Core HR 的模板已更新为“高级查询模板”。 因此，默认情况下，通过使用此模板创建的项目可使用高级查询。 次日，只有高级查询编辑器中才会显示任何默认映射功能。 （默认映射功能在映射中显示为“FN”。）
 
 有关映射错误的详细信息，请参阅 [Dynamics 365 for Talent Core HR（2018 年 12 月 14 日）中的新增功能或更改](https://docs.microsoft.com/dynamics365/unified-operations/talent/whats-new-talent-december-14)。
@@ -100,19 +100,19 @@ Core HR 的模板已更新为“高级查询模板”。 因此，默认情况�
 
     - **工作职位到职位：** 删除此映射。
     - **职位到职位父工作分配”：** 删除此映射。
-    - **工作职位到基本职位：** 添加从 Common Data Service for Apps **工作职位**实体到 Finance and Operations **基本职位**实体的新映射。 将其移到了序列中的位置 7。
+    - **工作职位到基本职位：** 添加从 Common Data Service **工作职位**实体到 Finance and Operations **基本职位**实体的新映射。 将其移到了序列中的位置 7。
 
         [![“工作职位”到“基本职位”映射](./media/CDS-Mapping1.png)](./media/CDS-Mapping1.png)
 
-    - **工作职位到职位详细信息：** 添加从 Common Data Service for Apps **工作职位**实体到 Finance and Operations **职位详细信息**实体的新映射。 将其移到了序列中的位置 8。
+    - **工作职位到职位详细信息：** 添加从 Common Data Service **工作职位**实体到 Finance and Operations **职位详细信息**实体的新映射。 将其移到了序列中的位置 8。
 
         [![“工作职位”到“职位详细信息”映射](./media/CDS-Mapping2.png)](./media/CDS-Mapping2.png)
 
-    - **工作职位到职位持续时间：** 添加从 Common Data Service for Apps **工作职位**实体到 Finance and Operations **职位持续时间**实体的新映射。
+    - **工作职位到职位持续时间：** 添加从 Common Data Service **工作职位**实体到 Finance and Operations **职位持续时间**实体的新映射。
 
         [![“工作职位”到“职位持续时间”映射](./media/CDS-Mapping3.png)](./media/CDS-Mapping3.png)
 
-    - **工作职位到职位层次结构：** 添加从 Common Data Service for Apps **工作职位**实体到 Finance and Operations **职位层次结构**实体的新映射。 选择**高级查询**可将高级查询用于您的项目。
+    - **工作职位到职位层次结构：** 添加从 Common Data Service **工作职位**实体到 Finance and Operations **职位层次结构**实体的新映射。 选择**高级查询**可将高级查询用于您的项目。
 
        [![“高级查询”按钮](./media/CDS-Advanced-Query.png)](./media/CDS-Advanced-Query.png)
 

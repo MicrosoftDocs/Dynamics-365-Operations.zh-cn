@@ -1,7 +1,7 @@
 ---
 title: 应付账款的集中付款
 description: 包括多个法人的组织可以使用处理所有付款的单个法人创建和管理付款。 因此，不必在多个法人中输入同一付款。 本文提供显示集中付款过帐如何在不同环境中处理的示例。
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 02/12/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b61320617dd85a880414b31ad6c88e611beca161
-ms.sourcegitcommit: ca1a472a670393f7aa208189dc8964c9691e2cdc
+ms.openlocfilehash: 41d94f4327268ef24388d97fc24804b650a84d57
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/13/2019
-ms.locfileid: "390158"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "897147"
 ---
 # <a name="centralized-payments-for-accounts-payable"></a>应付账款的集中付款
 

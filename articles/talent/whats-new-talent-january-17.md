@@ -10,7 +10,7 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-01-17
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 83a45a4bbf59ad99e243d0bcff72a763d771d3eb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d2c09bfb1ca96183541c937a3b641064fe82f8c6
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303435"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "855833"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-january-17-2019"></a>Dynamics 365 for Talent Core HR（2019 年 1 月 17 日）中的新增功能或更改
 

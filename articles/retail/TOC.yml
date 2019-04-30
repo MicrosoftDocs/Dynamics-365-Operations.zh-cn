@@ -5,9 +5,11 @@ items:
   items:
   - name: 新增功能或更改
     href: get-started/whats-new.md
-  - name: Dynamics 365 for Retail 10.0.1 预览功能
+  - name: Dynamics 365 for Retail 10.0.2 预览功能
+    href: get-started/whats-new-10-0-2.md
+  - name: Dynamics 365 for Retail 10.0.1 新增功能或更改
     href: get-started/whats-new-10-0-1.md
-  - name: Dynamics 365 for Retail 新增功能或更改（2019 年 4 月）
+  - name: Dynamics 365 for Retail（2019 年 4 月）新增功能或更改
     href: get-started/april-whats-new.md
   - name: 购买 Retail 之前
     href: get-started/before-you-buy.md
@@ -116,7 +118,7 @@ items:
   items:
   - name: 配置和使用高级自动费用
     href: omni-auto-charges.md
-  - name: 标题自动费用的按比例分配和分组
+  - name: 将标头费用按比例分配给匹配的销售行
     href: pro-rate-charges-matching-lines.md
 - name: 呼叫中心
   items:
@@ -274,7 +276,7 @@ items:
     href: price-management.md
   - name: 价格调整和折扣
     href: price-adjustments-discounts.md
-  - name: 对产品应用多个零售折扣
+  - name: 对产品应用多个折扣
     href: Apply-multiple-retail-discounts.md
   - name: 确定叠加折扣的最佳组合
     href: optimal-combination-overlapping-discounts.md
@@ -282,6 +284,8 @@ items:
     href: define-channel-specific-discounts.md
   - name: 用于禁止零售产品的折扣的选项
     href: prevent-discounts.md
+  - name: 装运折扣概览
+    href: retail-shipping-discount.md
   - name: 设置零售销售优惠券
     href: retail-coupons.md
 - name: 产品和促销
@@ -354,6 +358,10 @@ items:
     href: localizations/fiscal-integration-for-retail-channel.md
   - name: 设置零售渠道的会计整合
     href: localizations/setting-up-fiscal-integration-for-retail-channel.md
+  - name: 奥地利
+    items:
+    - name: 奥地利的会计登记服务集成示例
+      href: localizations/emea-aut-fi-sample.md
   - name: 东欧
     items:
     - name: 东欧 Retail 预付款发票
@@ -366,6 +374,8 @@ items:
       href: localizations/emea-eeu-deployment.md
     - name: 波兰税控打印机集成示例
       href: localizations/emea-pol-fpi-sample.md
+    - name: 捷克共和国的会计登记服务集成示例
+      href: localizations/emea-cze-fi-sample.md
   - name: 法国
     items:
     - name: 收银机功能
@@ -477,6 +487,8 @@ items:
       href: retail-components.md
     - name: Retail Server 体系结构
       href: dev-itpro/retail-server-architecture.md
+    - name: 选择商店拓扑结构
+      href: dev-itpro/retail-in-store-topology.md
     - name: Commerce Data Exchange 和零售渠道通信
       href: dev-itpro/define-retail-channel-communications-cdx.md
     - name: Retail Modern POS 体系结构
@@ -562,7 +574,7 @@ items:
     - name: 覆盖 POS 请求处理程序
       href: dev-itpro/pos-handler.md
     - name: 查看 POS 扩展包信息
-      href: view-pos-extension-package-details.md
+      href: dev-itpro/view-pos-extension-package-details.md
   - name: Hardware Station 和可扩展性
     href: dev-itpro/hardware-station-extensibility.md
   - name: Retail Server 可扩展性
@@ -669,9 +681,9 @@ items:
     items:
     - name: 会员扩展
       href: dev-itpro/retail-sdk/loyalty-extension-sample.md
-ms.openlocfilehash: 0d6ec0ba8723f81c21d735be455e35d8f1b62187
-ms.sourcegitcommit: 39c17fe619b075f56e8baffd087a830fc2fb8022
+ms.openlocfilehash: 179295f4397120f46391885760c980b2c9baa028
+ms.sourcegitcommit: 4d77340f5b3480f60a3a28c854fafc83e959f192
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/09/2019
-ms.locfileid: "791630"
+ms.lasthandoff: 04/09/2019
+ms.locfileid: "975912"

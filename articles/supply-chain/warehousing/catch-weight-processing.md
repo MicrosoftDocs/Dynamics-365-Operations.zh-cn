@@ -3,7 +3,7 @@ title: 使用仓库管理进行实际称重产品处理
 description: 本主题介绍如何使用工作模板和库位指令确定在仓库中如何以及在哪里完成工作。
 author: perlynne
 manager: AnnBe
-ms.date: 03/05/2019
+ms.date: 03/18/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: ced22a144e57b624ceacb8bb5c3032218db3a0eb
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d4082464dafebfcadd02425081f5f9b5716af01a
+ms.sourcegitcommit: 118cd383a327519a266dfe27720b12e9bbfbac14
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777264"
+ms.lasthandoff: 04/01/2019
+ms.locfileid: "946425"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 
@@ -97,7 +97,9 @@ ms.locfileid: "777264"
 
 在不使用实际称重标记跟踪时，可以针对每个维度集捕获重量（例如，对每个牌照和跟踪维度）。 或者，重量可以基于聚合级别捕获，如五个牌照（托盘）。
 
-对于捕获出货重量的方法，您可以定义是否为每个实际称重单位（即每箱）进行称重，或是否基于将要领取的数量（例如，三箱）捕获重量。 请注意，对于生产订单行领料流程，如果使用了**未捕获**选项，将使用平均重量。
+对于捕获出货重量的方法，您可以定义是否为每个实际称重单位（即每箱）进行称重，或是否基于将要领取的数量（例如，三箱）捕获重量。 请注意，对于生产订单行领料和内部移动流程，如果使用了**未捕获**选项，将使用平均重量。
+
+若要限制仓库管理领料流程捕获会产生实际称重损/益调整的重量，可使用出货重量差异方法。
 
 ## <a name="supported-scenarios"></a>支持的方案
 
@@ -121,14 +123,12 @@ ms.locfileid: "777264"
  
 ### <a name="order-processing"></a>订单处理
 
-- 不支持内部公司订单处理。
 - 发货通知（ASN/装箱结构）的创建不支持重量信息。
 - 订单数量必须基于实际称重单位维护。
  
 ### <a name="inbound-warehouse-processing"></a>进货仓库处理
 
 - 接收牌照需要重量在登记时分配，因为重量信息不支持作为发货通知的一部分。 在使用实际称重标记流程时，标记编号必须按实际称重单位手动分配。
-- 实际称重产品不支持接收混合牌照。
  
 ### <a name="inventory-and-warehouse-operations"></a>库存和仓库操作
 
@@ -169,7 +169,6 @@ ms.locfileid: "777264"
  
 ### <a name="other-restrictions-and-behaviors-for-catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理的实际称重产品处理的其他限制和行为
 
-- 在实际称重标记作为仓库应用处理的一部分捕获时，用户不能在工作流外取消。
 - 在没有提示用户标识跟踪维度的领料流程中，重量分配基于平均重量进行。 例如，此行为在以下情况下发生：在同一位置使用跟踪维度组合，并且在用户处理领料后，该位置只剩一个跟踪维度值。
 - 在库存为针对仓库管理流程配置的实际称重产品预留时，预留将基于定义的最小重量进行，即使此数量是现有的最后一个处理数量。 此行为与未为仓库管理流程配置的物料的行为不同。
 - 将重量作为产能计算（波次阈值、工作最大休息时间、集装箱最大数、库位负荷产能等）的一部分使用的流程不使用库存的实际重量。 流程基于为产品定义的实际处理重量。
@@ -193,3 +192,5 @@ ms.locfileid: "777264"
 - 在重新打开集装箱时。
 - 当配方产品使用仓库应用完工入库时。
 - 在使用仓库应用处理运输负荷时。
+
+可以使用仓库应用流程创建，在窗体中手动创建或使用数据实体流程创建实际称重标记。 如果实际称重标记与入货源文档行（如采购订单行）关联，将注册此标记。 如果该行用于出货处理。 将把该标记更新为已装运。

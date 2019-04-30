@@ -1,7 +1,7 @@
 ---
 title: 三向匹配政策
 description: 本主题提供三种向匹配的示例。
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
 ms.date: 10/26/2017
 ms.topic: article
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f02f6831709dcc0998c74a9ddd04216a2213970d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 60a8858e6bd695672d67133b252e97eed3b95434
+ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "318940"
+ms.lasthandoff: 03/25/2019
+ms.locfileid: "896917"
 ---
 # <a name="three-way-matching-policies"></a>三向匹配政策
 

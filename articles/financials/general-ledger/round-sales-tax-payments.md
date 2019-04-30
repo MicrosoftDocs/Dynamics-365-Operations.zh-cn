@@ -3,7 +3,7 @@ title: 销售税付款和舍入规则
 description: 文本说明销售税主管机构的传入规则设置如何工作，以及如何在结算和过帐销售税作业期间舍入销售税余额。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 05/30/2018
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,15 +15,15 @@ ms.search.scope: Core, Operations
 ms.custom: 6134
 ms.assetid: 7dcd3cf5-ebdf-4a9f-806c-1296c7da0331
 ms.search.region: Global
-ms.author: vstehman
+ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f03336c834e74cd12d039c7b9692874843811746
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1e1c1bb1c792eb79888a1df209f2eebaf14a38dd
+ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367838"
+ms.lasthandoff: 03/14/2019
+ms.locfileid: "842430"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>销售税付款和舍入规则
 
@@ -37,7 +37,7 @@ ms.locfileid: "367838"
 
 以下示例说明销售税主管机构的舍入规则如何工作。
 
-### <a name="example"></a>示例:
+## <a name="examples"></a>示例
 
 期间的总销售税显示贷方余额 -98,765.43。 法人征收了的增值税超过其支付的金额。 因此，该法人欠税务主管机构款项。 
 
@@ -59,6 +59,67 @@ ms.locfileid: "367838"
 | 对自身有利，对于贷方余额 | 98,765.43              | 98,765.40              | 98,765.00              | 98,700.00                |
 | 对自身有利，对于借方余额  | 98,765.43              | 98,765.50              | 98,766.00              | 98,800.00                |
 
+
+### <a name="no-rounding-at-all-since-the-round-off-is-000"></a>根本不舍入，因为化整为 0.00
+
+round(1.0151, 0.00) = 1.0151 round(1.0149, 0.00) = 1.0149
+
+### <a name="normal-round-and-round-precision-is-001"></a>正常舍入，舍入精度为 0.01
+
+<table>
+  <tr>
+    <td>舍入
+    </td>
+    <td>计算流程
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.015, 0.01) = 1.02
+    </td>
+    <td>
+      <ol>
+        <li>round(1.015 / 0.01, 0) = round(101.5, 0) = 102
+        </li>
+        <li>102 * 0.01 = 1.02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.014, 0.01) = 1.01
+    </td>
+    <td> <ol>
+        <li>round(1.014 / 0.01, 0) = round(101.4, 0) = 101
+        </li>
+        <li>101 * 0.01 = 1.01
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.011, 0.02) = 1.02
+    </td>
+    <td> <ol>
+        <li>round(1.011 / 0.02, 0) = round(50.55, 0) = 51
+        </li>
+        <li>51 * 0.02 = 1.02
+        </li>
+      </ol>
+    </td>
+  </tr>
+    <tr>
+    <td>round(1.009, 0.02) = 1.00
+    </td>
+    <td> <ol>
+        <li>round(1.009 / 0.02, 0) = round(50.45, 0) = 50
+        </li>
+        <li>50 * 0.02 = 1.00
+        </li>
+      </ol>
+    </td>
+  </tr>
+</table>
+
 > [!NOTE]                                                                                  
 > 如果您选择“对自身有利”，则舍入始终对法人有利。 
 
@@ -67,5 +128,6 @@ ms.locfileid: "367838"
 - [创建销售税支付](tasks/create-sales-tax-payment.md)
 - [在单据中创建销售交易记录](tasks/create-sales-tax-transactions-documents.md)
 - [查看已过帐的销售税交易记录](tasks/view-posted-sales-tax-transactions.md)
+- [舍入功能](https://msdn.microsoft.com/en-us/library/aa850656.aspx)
 
 

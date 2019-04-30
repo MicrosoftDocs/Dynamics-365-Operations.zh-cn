@@ -1,9 +1,9 @@
 ---
 title: 供应商发票概览
 description: 本文提供有关供应商发票的一般信息。 供应商发票收到的产品和服务的付款请求。 供应商发票可以表示正在进行中的服务的帐单，也可以基于特定物料和服务的采购订单。
-author: ShivamPandey-msft
+author: abruer
 manager: AnnBe
-ms.date: 01/10/2018
+ms.date: 03/29/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,24 +15,24 @@ ms.search.scope: Core, Operations
 ms.custom: 13971
 ms.assetid: 0ec4dbc0-2eeb-423b-8592-4b5d37e559d3
 ms.search.region: Global
-ms.author: shpandey
+ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: e563688b46c556ffbf46f9d20d9b9f248d26e02c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 1d7cec48b1e01d308cfc67260ac82a50a8d76844
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329750"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "975794"
 ---
 # <a name="vendor-invoices-overview"></a>供应商发票概览
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
 本文提供有关供应商发票的一般信息。 供应商发票收到的产品和服务的付款请求。 供应商发票可以表示正在进行中的服务的帐单，也可以基于特定物料和服务的采购订单。 
 
-<a name="vendor-invoices"></a>供应商发票
----------------
+## <a name="vendor-invoices"></a>供应商发票
 
 采购订单中的供应商发票是在根据对供应商下达的采购订单收到产品或服务时生产的发票。 供应商发票包含一个标题以及一个或多个物料或服务行。 供应商发票完成从采购订单到物料收货到供应商发票的周期。 
 
@@ -79,12 +79,19 @@ ms.locfileid: "329750"
 
 您可以同时处理多张发票以及同时全部过帐。 如果您必须创建多个发票，请使用**待定供应商发票**页。 如果您必须过帐和打印多个供应商发票，请使用发票审核日记帐页。 如果您使用发票审核日记帐，则必须针对该采购订单过帐至少一个产品收据，并且在发票登记簿中必须过帐该采购订单的发票。 该发票的财务信息来自在该发票登记簿中已过帐的发票。
 
+## <a name="recovering-vendor-invoices-that-are-in-use"></a>恢复正在使用的供应商发票
 
-有关详细信息，请参阅: 
+正在使用的供应商发票不能被其他用户编辑。 但是，有时发票的状态可能会指示正在使用该发票，尽管未在主动编辑该发票。 例如，编辑发票期间应用程序可能已停止响应，或用户可能无意间让发票在应用程序中保持打开状态。
+
+可以使用**恢复供应商发票**页面恢复或释放已在使用的时间超过了四个小时的供应商发票，使其可编辑。 可以从**供应商发票条目**工作区上的**定期任务**导航或磁贴打开此页面。 发票在恢复后可在**供应商发票**页面上编辑。
+
+仅当为您分配了**恢复正在使用的供应商发票**安全职责和权限，您才可以访问**恢复供应商发票**。 此外，还必须开启**应付帐款参数**页面上的**允许恢复供应商发票**参数。
+
+## <a name="additional-resources"></a>其他资源
 
  - [设置供应商发票策略](../accounts-receivable/tasks/set-up-vendor-invoice-policies.md) 
 
- - [使用供应商发票将发票数据键入应付账款](tasks/key-invoice-data-ap-system-vendor-invoice.md)
+ - [使用供应商发票将发票数据键入应付帐款](tasks/key-invoice-data-ap-system-vendor-invoice.md)
 
  - [使用审核日记帐将发票数据键入应付帐款](tasks/key-invoice-data-into-ap-system-approval-journal.md)
 

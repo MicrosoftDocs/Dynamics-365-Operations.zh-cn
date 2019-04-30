@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
-ms.openlocfilehash: 685340141ed35f4a2b57742328c69d3bbf9a73d2
-ms.sourcegitcommit: 70aeb93612ccd45ee88c605a1a4b87c469e3ff57
+ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
+ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773319"
+ms.lasthandoff: 04/12/2019
+ms.locfileid: "898969"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>设置零售渠道的会计整合
 
@@ -60,7 +60,7 @@ ms.locfileid: "773319"
 2. 上载会计连接器和会计单据提供程序的配置。
 
     会计单据提供程序负责生成代表零售交易和事件的会计单据，这些交易和事件以用于与会计设备或服务交互的格式在 POS 上登记。 例如，会计单据提供程序可能生成 XML 格式的财务收据的表示形式。
-    
+
     会计连接器负责与会计设备或服务的通信。 例如，会计连接器可能将会计单据提供程序以 XML 格式创建的财务收据发送到税控打印机。 有关会计整合组件的更多详细信息，请参阅[会计设备的会计整合流程和会计整合示例](fiscal-integration-for-retail-channel.md#fiscal-registration-process-and-fiscal-integration-samples-for-fiscal-devices)。
 
     1. 在**会计连接器**页（**零售  \> 渠道设置 \> 会计集成 \>会计连接器**）上，为您计划用于会计整合目的的每个设备或服务上载 XML 配置。
@@ -185,8 +185,12 @@ ms.locfileid: "773319"
 
     - **允许跳过** – 此参数启用错误处理对话框中的**跳过**选项。
     - **允许标记为已登记** – 此参数启用错误处理对话框中的**标记为已登记**选项。
+    - **出错时继续** –如果启用此参数，并且交易记录或事件的会计登记失败，POS 收银机上将继续进行会计登记流程。 但是，若要运行下一个交易记录或事件的会计登记，操作员必须重试失败的会计登记，跳过，或将交易记录或事件标记为已登记。 有关详细信息，请参阅[可选会计登记](fiscal-integration-for-retail-channel.md#optional-fiscal-registration)。
 
-2. 错误处理对话框中的**跳过**和**标记为已登记**选项需要**允许跳过或标记为已登记**权限。 因此，在**权限组**页（**零售 \> 员工 \> 权限组**），应启用**允许跳过或标记为已登记**权限。
+    > [!NOTE]
+    > 如果启用了**出错时继续**参数，将自动禁用**允许跳过**和**允许标记为已登记**参数。
+
+2. 错误处理对话框中的**跳过**和**标记为已登记**选项需要**允许跳过登记或标记为已登记**权限。 因此，在**权限组**页（**零售 \> 员工 \> 权限组**），应启用**允许跳过登记或标记为已登记**权限。
 3. **跳过**和**标记为已登记**选项让操作员可以在会计登记失败时输入附加信息。 若要让此功能可用，您应该在会计连接器组中指定**跳过**和**标记为已登记**信息代码。 操作员输入的信息然后保存为链接到会计交易记录的信息代码交易记录。 有关信息代码的更多详细信息，请参阅[信息代码和信息代码组](../info-codes-retail.md)。
 
     > [!NOTE]
@@ -200,6 +204,8 @@ ms.locfileid: "773319"
     > - **会计单据** – 应该成功登记的必需文档（例如，财务收据）。
     > - **非会计单据** – 交易或事件的补充单据（例如，礼品卡单）。
 
+4. 如果操作员必须可以在发生了运行状况检查错误之后继续处理当前操作（例如，创建或完成交易记录）您应该启用**权限组**页面上的**允许跳过运行状况检查错误**权限（**Retail \> 员工 \> 权限组**）。 有关运行状况检查过程的详细信息，请参阅[会计登记运行状况检查](fiscal-integration-for-retail-channel.md#fiscal-registration-health-check)。
+
 ## <a name="set-up-fiscal-xz-reports-from-the-pos"></a>从 POS 设置会计 X/Z 报表
 
 若要让会计 X/Z 报表从 POS 运行，您应将新按钮添加到 POS 布局。
@@ -211,3 +217,12 @@ ms.locfileid: "773319"
     3. 添加新按钮，并设置**打印会计 Z** 按钮属性。
     4. 在**配送计划**页，运行 **1090** 作业将更改传输到渠道数据库。
 
+## <a name="enable-manual-execution-of-postponed-fiscal-registration"></a>启用已推迟会计登记的手动执行
+
+若要启用已延迟会计登记的手动执行，应该向 POS 布局添加一个新按钮。
+
+- 在**按钮网格**页，请按照[将自定义操作按钮添加到零售总部的 POS 布局](../dev-itpro/add-pos-operations.md#add-a-custom-operation-button-to-the-pos-layout-in-retail-headquarters)中的说明安装设计器、更新布局。
+
+    1. 选择要更新的布局。
+    2. 添加新按钮，并设置**完成会计登记流程**按钮属性。
+    3. 在**配送计划**页，运行 **1090** 作业将更改传输到渠道数据库。

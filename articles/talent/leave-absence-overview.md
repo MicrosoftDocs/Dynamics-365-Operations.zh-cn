@@ -1,7 +1,7 @@
 ---
 title: 休假和缺勤管理
 description: 此主题提供休假和缺勤管理模块的概览。
-author: ryansandness
+author: andreabichsel
 manager: AnnBe
 ms.date: 08/01/2017
 ms.topic: article
@@ -10,20 +10,20 @@ ms.service: dynamics-365-talent
 ms.technology: ''
 ms.search.form: LeaveAbsenceWorkspace
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations, Talent
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: ryansand
+ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 72bfbb878fa076e204e00c3ccaceb4ba04c00ea9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: ebfaeb0696d7200ddf3c715f96a259b91db08e7a
+ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "303421"
+ms.lasthandoff: 03/19/2019
+ms.locfileid: "856707"
 ---
 # <a name="leave-and-absence-management"></a>休假和缺勤管理
 
