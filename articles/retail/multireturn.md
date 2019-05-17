@@ -18,27 +18,27 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: c201311028b11121d626e93859a2b98497c047d1
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.openlocfilehash: d410fde2cd127f8d644e6a385937b6bc98d74576
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777218"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517010"
 ---
-# <a name="return-items-across-multiple-customer-orders-and-invoices"></a><span data-ttu-id="4c488-103">跨多个客户订单和发票的退回物料</span><span class="sxs-lookup"><span data-stu-id="4c488-103">Return items across multiple customer orders and invoices</span></span>
+# <a name="return-items-across-multiple-customer-orders-and-invoices"></a><span data-ttu-id="1ae8f-103">跨多个客户订单和发票的退回物料</span><span class="sxs-lookup"><span data-stu-id="1ae8f-103">Return items across multiple customer orders and invoices</span></span>
 
 [!include [banner](includes/banner.md)]
 
 
-<span data-ttu-id="4c488-104">在 Dynamics 365 for Finance and Operations 版本 10.0 中，可以跨多个订单和发票处理退货，而在低于 10.0 的版本中，一次只能通过单个发票处理退货。</span><span class="sxs-lookup"><span data-stu-id="4c488-104">In Dynamics 365 for Finance and Operations version 10.0, returns can be made across multiple orders and invoices, whereas in releases prior to 10.0, returns could only be processed by a single invoice at a time.</span></span> 
+<span data-ttu-id="1ae8f-104">在 Dynamics 365 for Finance and Operations 版本 10.0 中，可以跨多个订单和发票处理退货，而在低于 10.0 的版本中，一次只能通过单个发票处理退货。</span><span class="sxs-lookup"><span data-stu-id="1ae8f-104">In Dynamics 365 for Finance and Operations version 10.0, returns can be made across multiple orders and invoices, whereas in releases prior to 10.0, returns could only be processed by a single invoice at a time.</span></span> 
 
-## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a><span data-ttu-id="4c488-105">配置 Retail 以支持跨多个客户订单和发票的退货</span><span class="sxs-lookup"><span data-stu-id="4c488-105">Configure Retail to support returns across multiple customer order and invoices</span></span>
+## <a name="configure-retail-to-support-returns-across-multiple-customer-order-and-invoices"></a><span data-ttu-id="1ae8f-105">配置 Retail 以支持跨多个客户订单和发票的退货</span><span class="sxs-lookup"><span data-stu-id="1ae8f-105">Configure Retail to support returns across multiple customer order and invoices</span></span>
 
-1. <span data-ttu-id="4c488-106">转到 **Retail 参数 \> 客户订单**。</span><span class="sxs-lookup"><span data-stu-id="4c488-106">Go to **Retail parameters \> Customer orders**.</span></span>
-1. <span data-ttu-id="4c488-107">启用**支持针对多个订单的退货**参数。</span><span class="sxs-lookup"><span data-stu-id="4c488-107">Turn on the **Enable returns for multiple orders** parameter.</span></span> 
+1. <span data-ttu-id="1ae8f-106">转到 **Retail 参数 \> 客户订单**。</span><span class="sxs-lookup"><span data-stu-id="1ae8f-106">Go to **Retail parameters \> Customer orders**.</span></span>
+1. <span data-ttu-id="1ae8f-107">启用**支持针对多个订单的退货**参数。</span><span class="sxs-lookup"><span data-stu-id="1ae8f-107">Turn on the **Enable returns for multiple orders** parameter.</span></span> 
 
-## <a name="process-returns"></a><span data-ttu-id="4c488-108">处理退货</span><span class="sxs-lookup"><span data-stu-id="4c488-108">Process returns</span></span>
+## <a name="process-returns"></a><span data-ttu-id="1ae8f-108">处理退货</span><span class="sxs-lookup"><span data-stu-id="1ae8f-108">Process returns</span></span>
 
-<span data-ttu-id="4c488-109">启用该参数并将更改同步到商店后，商店的出纳可以选择多个销售订单，以处理客户的退货。</span><span class="sxs-lookup"><span data-stu-id="4c488-109">After the parameter is turned on and the changes are synchronized to the stores, the cashier in the store can select multiple sales orders for a customer for their return.</span></span>
+<span data-ttu-id="1ae8f-109">启用该参数并将更改同步到商店后，商店的出纳可以选择多个销售订单，以处理客户的退货。</span><span class="sxs-lookup"><span data-stu-id="1ae8f-109">After the parameter is turned on and the changes are synchronized to the stores, the cashier in the store can select multiple sales orders for a customer for their return.</span></span>
 
-<span data-ttu-id="4c488-110">选中订单后，将显示所有订单发票上的所有可退产品的列表。</span><span class="sxs-lookup"><span data-stu-id="4c488-110">When the orders are selected, a list of all the returnable products across all the invoices for the orders will display.</span></span> <span data-ttu-id="4c488-111">然后，出纳可以选择要退回的产品。</span><span class="sxs-lookup"><span data-stu-id="4c488-111">The cashier can then select the products to return.</span></span> <span data-ttu-id="4c488-112">将为所有选定的产品创建单个退货单。</span><span class="sxs-lookup"><span data-stu-id="4c488-112">A single return order will be created for all the selected products.</span></span>
+<span data-ttu-id="1ae8f-110">选中订单后，将显示所有订单发票上的所有可退产品的列表。</span><span class="sxs-lookup"><span data-stu-id="1ae8f-110">When the orders are selected, a list of all the returnable products across all the invoices for the orders will display.</span></span> <span data-ttu-id="1ae8f-111">然后，出纳可以选择要退回的产品。</span><span class="sxs-lookup"><span data-stu-id="1ae8f-111">The cashier can then select the products to return.</span></span> <span data-ttu-id="1ae8f-112">将为所有选定的产品创建单个退货单。</span><span class="sxs-lookup"><span data-stu-id="1ae8f-112">A single return order will be created for all the selected products.</span></span>

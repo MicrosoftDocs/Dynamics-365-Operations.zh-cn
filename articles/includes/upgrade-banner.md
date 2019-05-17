@@ -1,0 +1,2 @@
+> [!IMPORTANT]
+> <span data-ttu-id="9bd2d-101">此功能目前仅通过邀请方式提供。</span><span class="sxs-lookup"><span data-stu-id="9bd2d-101">This feature is currently available by invitation only.</span></span> <span data-ttu-id="9bd2d-102">要推荐您的组织参与，请完成[此调查](https://aka.ms/ax2012upgrade)。</span><span class="sxs-lookup"><span data-stu-id="9bd2d-102">To nominate your organization to participate, please complete [this survey](https://aka.ms/ax2012upgrade).</span></span> 
