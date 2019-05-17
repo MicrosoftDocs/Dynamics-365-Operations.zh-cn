@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f1acf2bade2bb279a35fdf4689bbbcc49e64101f
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.openlocfilehash: 39187cf900624c5fbc7e811f0ee9632355688ba4
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403277"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507465"
 ---
 # <a name="accounts-payable-home-page"></a>应付帐款主页
 

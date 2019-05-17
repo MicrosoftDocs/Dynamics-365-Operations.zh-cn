@@ -1,25 +1,29 @@
 ---
-# required metadata
 title: Microsoft Dynamics 365 for Finance and Operations 文档
 description: 针对 Microsoft Dynamics 365 for Finance and Operations 的文档。
 author: margoc
 manager: AnnBe
-ms.date: 03/08/2019
+ms.date: 04/11/2019
 ms.topic: index-page
-ms.prod: null
+ms.prod: ''
 ms.service: dynamics-ax-applications
-ms.technology: null
+ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
 ms.reviewer: margoc
-ms.search.scope: 'Core, Operations'
+ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
-ms.search.validFrom: '2016-02-28'
+ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
+ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507581"
 ---
-
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations 文档
 
 [!include [banner](includes/banner.md)]
@@ -60,6 +64,11 @@ ms.dyn365.ops.version: AX 7.0.0
 <p><a href="../dev-itpro/lifecycle-services/notifications-service-updates.md">获取有关服务更新的通知</a></p>
 <p><a href="../dev-itpro/data-entities/data-task-automation.md">数据任务自动化</a></p>
 <p><a href="../dev-itpro/lifecycle-services/using-task-guides-and-bpm-to-create-user-acceptance-tests.md">Regression Suite Automation Tool</a></p>
+
+<h3><a href="../dev-itpro/data-entities/integration-overview.md">集成</a></h3>
+<p><a href="../dev-itpro/business-events/home-page.md">业务事件</a></p>
+<p><a href="../dev-itpro/data-entities/data-entities.md">数据实体</a></p>
+<p><a href="../dev-itpro/data-entities/fin-ops-connector.md">使用 Microsoft Flow 集成</a></p>
 
 <h3><a href="../financials/index.md">财务管理</a></h3>
 <p><a href="../financials/accounts-payable/accounts-payable.md">应付帐款</a></p>
@@ -103,12 +112,8 @@ ms.dyn365.ops.version: AX 7.0.0
 
 
 
-<h3><a href="../dev-itpro/dev-tools/developer-home-page.md">发展</h3>
+<h3><a href="../dev-itpro/dev-tools/developer-home-page.md">开发</h3>
 <p><a href="../dev-itpro/extensibility/extensibility-home-page.md">可扩展性</a></p>
-
-<p><a href="../dev-itpro/data-entities/integration-overview.md">数据集成</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">数据管理</a></p>
-
 <p><a href="../dev-itpro/office-integration/office-integration.md">Office 集成</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md">连续交货</a></p>
 <p><a href="../dev-itpro/mobile-apps/platform/mobile-platform-home-page.md">移动平台</a></p>
@@ -119,7 +124,6 @@ ms.dyn365.ops.version: AX 7.0.0
 <p><a href="../dev-itpro/deployment/on-premises-deployment-landing-page.md">本地部署</a></p>
 <p><a href="../dev-itpro/migration-upgrade/upgrade-home-page.md">升级</a></p>
 <p><a href="../dev-itpro/dev-tools/continuous-delivery-home-page.md#servicing">服务</a></p>
-<p><a href="../dev-itpro/data-entities/data-entities.md">数据管理框架</a></p>
 <p><a href="../dev-itpro/lifecycle-services/lcs.md">Lifecycle Services</a></p>
 <p><a href="organization-administration/organization-administration-home-page.md">组织管理</a></p>
 </td>

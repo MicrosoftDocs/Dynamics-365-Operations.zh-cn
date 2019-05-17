@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4f682e0c98ff70d526648bc50f8a5d6cb884ac93
-ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
+ms.openlocfilehash: 0251321f02d533326e1e8b642e30002a633b6871
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "380008"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512665"
 ---
 # <a name="distributed-order-management-dom"></a>分配的订单管理 (DOM)
 
@@ -64,7 +64,7 @@ DOM 可跨复杂的系统网络和流程优化订单履行。 它依赖整个组
         1. 在 Microsoft Dynamics Lifecycle Services 中，打开共用资产库，选择**模型**作为资产类型，并下载 **DOM 许可证**文件。
         2. 启动 Microsoft Internet 信息服务 (IIS) 管理器，右键单击 **AOSService 网站**，然后选择**浏览**。 随后，**\<AOS 服务根目录\>\\webroot** 下将打开一个 Windows 资源管理器窗口。 记下 \<AOS 服务根目录\> 路径，因为在下一步中会用到。
         3. 复制 **\<AOS Service root\>\\PackagesLocalDirectory\\DOM\\bin** 目录中的配置文件。
-        4. 转到 Retail Headquarters 客户端，然后打开 **DOM 参数**页面。 在 **Solver** 选项卡上的 **Solver type** 字段中，选择 **Production solver**，并确认未显示错误消息。
+        4. 转到 Retail Headquarters 客户端，然后打开**文档对象模型参数**页面。 在 **Solver** 选项卡上的 **Solver type** 字段中，选择 **Production solver**，并确认未显示错误消息。
 
         > [!NOTE]
         > 提供了简化求解器，这样零售商无需部署特殊许可证即可试用 DOM 功能。 组织不应在生产环境中使用简化求解器。

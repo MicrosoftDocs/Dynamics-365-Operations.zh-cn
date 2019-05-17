@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 84321b78c9869a4920c3488373876bb56bcb3a29
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: d7e755e9cbcce332bf2a010083be438a8aeb9e2f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "301973"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512090"
 ---
 # <a name="budgeting-home-page"></a>预算编制主页
 
