@@ -17,40 +17,40 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5fd332121bae2be55ada39b33e5f381096c9b74d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331567"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563708"
 ---
-# <a name="create-a-main-account"></a><span data-ttu-id="94aa3-103">创建主科目</span><span class="sxs-lookup"><span data-stu-id="94aa3-103">Create a main account</span></span>
+# <a name="create-a-main-account"></a><span data-ttu-id="9259c-103">创建主科目</span><span class="sxs-lookup"><span data-stu-id="9259c-103">Create a main account</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="94aa3-104">此任务指南介绍添加主科目到现有会计科目表的步骤。</span><span class="sxs-lookup"><span data-stu-id="94aa3-104">This task guide steps through adding a main account to an existing chart of accounts.</span></span> <span data-ttu-id="94aa3-105">此记录使用 USMF 公司演示。</span><span class="sxs-lookup"><span data-stu-id="94aa3-105">This recording uses the USMF demo company.</span></span>  
+<span data-ttu-id="9259c-104">此任务指南介绍添加主科目到现有会计科目表的步骤。</span><span class="sxs-lookup"><span data-stu-id="9259c-104">This task guide steps through adding a main account to an existing chart of accounts.</span></span> <span data-ttu-id="9259c-105">此记录使用 USMF 公司演示。</span><span class="sxs-lookup"><span data-stu-id="9259c-105">This recording uses the USMF demo company.</span></span>  
 
-1. <span data-ttu-id="94aa3-106">转到主分类记账>会计表>账户>主账户.</span><span class="sxs-lookup"><span data-stu-id="94aa3-106">Go to General ledger > Chart of accounts > Accounts > Main accounts.</span></span>
-2. <span data-ttu-id="94aa3-107">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="94aa3-107">Click New.</span></span>
-3. <span data-ttu-id="94aa3-108">在“主科目”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="94aa3-108">In the Main account field, type a value.</span></span>
-4. <span data-ttu-id="94aa3-109">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="94aa3-109">In the Name field, type a value.</span></span>
-5. <span data-ttu-id="94aa3-110">在“主科目类型”字段中，选择最能表示科目余额和财务报表位置的类型。</span><span class="sxs-lookup"><span data-stu-id="94aa3-110">In the Main account type field, select the type that best represents the accounts balance and location on financial statements.</span></span>
-6. <span data-ttu-id="94aa3-111">在列表中，选择主科目所属的科目类别。</span><span class="sxs-lookup"><span data-stu-id="94aa3-111">In the list, select the account category the main account belongs to.</span></span>
-    * <span data-ttu-id="94aa3-112">科目类别用于默认财务报表和 Power BI 仪表板内容。</span><span class="sxs-lookup"><span data-stu-id="94aa3-112">Account category is used for default financial reports and Power BI dashboard content.</span></span>  
-7. <span data-ttu-id="94aa3-113">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="94aa3-113">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="94aa3-114">更改默认借方或贷方余额。</span><span class="sxs-lookup"><span data-stu-id="94aa3-114">Change the default debit or credit balance.</span></span>  
-8. <span data-ttu-id="94aa3-115">在“默认币种”字段中，从币种列表选择一个值。</span><span class="sxs-lookup"><span data-stu-id="94aa3-115">In the Default currency field, select a value from the list of currencies.</span></span>
-9. <span data-ttu-id="94aa3-116">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="94aa3-116">In the list, find and select the desired record.</span></span>
-10. <span data-ttu-id="94aa3-117">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="94aa3-117">In the list, click the link in the selected row.</span></span>
-11. <span data-ttu-id="94aa3-118">切换“法人覆盖”部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="94aa3-118">Toggle the expansion of the Legal entity overrides section.</span></span>
-12. <span data-ttu-id="94aa3-119">单击“添加”以选择法人。</span><span class="sxs-lookup"><span data-stu-id="94aa3-119">Click Add to select a legal entity.</span></span>
-13. <span data-ttu-id="94aa3-120">在列表中，选择“法人”。</span><span class="sxs-lookup"><span data-stu-id="94aa3-120">In the list, select the Legal entity.</span></span>
-14. <span data-ttu-id="94aa3-121">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="94aa3-121">Click Add.</span></span>
-15. <span data-ttu-id="94aa3-122">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="94aa3-122">In the list, mark the selected row.</span></span>
-16. <span data-ttu-id="94aa3-123">选择或取消选择“暂停”复选框。</span><span class="sxs-lookup"><span data-stu-id="94aa3-123">Check or uncheck the Suspended checkbox.</span></span>
-17. <span data-ttu-id="94aa3-124">展开“财务报表”快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="94aa3-124">Expand the Financial reporting fast tab.</span></span>
-18. <span data-ttu-id="94aa3-125">在“汇率类型”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="94aa3-125">In the Exchange rate type field, click the drop-down button to open the lookup.</span></span>
-19. <span data-ttu-id="94aa3-126">在列表中，选择科目的汇率类型。</span><span class="sxs-lookup"><span data-stu-id="94aa3-126">In the list, select the Exchange rate type for the account.</span></span>
-20. <span data-ttu-id="94aa3-127">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="94aa3-127">In the list, click the link in the selected row.</span></span>
-21. <span data-ttu-id="94aa3-128">在“币种转换类型”字段中，选择科目汇率的计算方法。</span><span class="sxs-lookup"><span data-stu-id="94aa3-128">In the Currency translation type field, select the method for calculating exchange rates for the account.</span></span>
-22. <span data-ttu-id="94aa3-129">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="94aa3-129">Close the page.</span></span>
+1. <span data-ttu-id="9259c-106">转到主分类记账>会计表>账户>主账户.</span><span class="sxs-lookup"><span data-stu-id="9259c-106">Go to General ledger > Chart of accounts > Accounts > Main accounts.</span></span>
+2. <span data-ttu-id="9259c-107">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="9259c-107">Click New.</span></span>
+3. <span data-ttu-id="9259c-108">在“主科目”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="9259c-108">In the Main account field, type a value.</span></span>
+4. <span data-ttu-id="9259c-109">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="9259c-109">In the Name field, type a value.</span></span>
+5. <span data-ttu-id="9259c-110">在“主科目类型”字段中，选择最能表示科目余额和财务报表位置的类型。</span><span class="sxs-lookup"><span data-stu-id="9259c-110">In the Main account type field, select the type that best represents the accounts balance and location on financial statements.</span></span>
+6. <span data-ttu-id="9259c-111">在列表中，选择主科目所属的科目类别。</span><span class="sxs-lookup"><span data-stu-id="9259c-111">In the list, select the account category the main account belongs to.</span></span>
+    * <span data-ttu-id="9259c-112">科目类别用于默认财务报表和 Power BI 仪表板内容。</span><span class="sxs-lookup"><span data-stu-id="9259c-112">Account category is used for default financial reports and Power BI dashboard content.</span></span>  
+7. <span data-ttu-id="9259c-113">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9259c-113">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="9259c-114">更改默认借方或贷方余额。</span><span class="sxs-lookup"><span data-stu-id="9259c-114">Change the default debit or credit balance.</span></span>  
+8. <span data-ttu-id="9259c-115">在“默认币种”字段中，从币种列表选择一个值。</span><span class="sxs-lookup"><span data-stu-id="9259c-115">In the Default currency field, select a value from the list of currencies.</span></span>
+9. <span data-ttu-id="9259c-116">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="9259c-116">In the list, find and select the desired record.</span></span>
+10. <span data-ttu-id="9259c-117">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9259c-117">In the list, click the link in the selected row.</span></span>
+11. <span data-ttu-id="9259c-118">切换“法人覆盖”部分的扩展项。</span><span class="sxs-lookup"><span data-stu-id="9259c-118">Toggle the expansion of the Legal entity overrides section.</span></span>
+12. <span data-ttu-id="9259c-119">单击“添加”以选择法人。</span><span class="sxs-lookup"><span data-stu-id="9259c-119">Click Add to select a legal entity.</span></span>
+13. <span data-ttu-id="9259c-120">在列表中，选择“法人”。</span><span class="sxs-lookup"><span data-stu-id="9259c-120">In the list, select the Legal entity.</span></span>
+14. <span data-ttu-id="9259c-121">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="9259c-121">Click Add.</span></span>
+15. <span data-ttu-id="9259c-122">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="9259c-122">In the list, mark the selected row.</span></span>
+16. <span data-ttu-id="9259c-123">选择或取消选择“暂停”复选框。</span><span class="sxs-lookup"><span data-stu-id="9259c-123">Check or uncheck the Suspended checkbox.</span></span>
+17. <span data-ttu-id="9259c-124">展开“财务报表”快速选项卡。</span><span class="sxs-lookup"><span data-stu-id="9259c-124">Expand the Financial reporting fast tab.</span></span>
+18. <span data-ttu-id="9259c-125">在“汇率类型”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="9259c-125">In the Exchange rate type field, click the drop-down button to open the lookup.</span></span>
+19. <span data-ttu-id="9259c-126">在列表中，选择科目的汇率类型。</span><span class="sxs-lookup"><span data-stu-id="9259c-126">In the list, select the Exchange rate type for the account.</span></span>
+20. <span data-ttu-id="9259c-127">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="9259c-127">In the list, click the link in the selected row.</span></span>
+21. <span data-ttu-id="9259c-128">在“币种转换类型”字段中，选择科目汇率的计算方法。</span><span class="sxs-lookup"><span data-stu-id="9259c-128">In the Currency translation type field, select the method for calculating exchange rates for the account.</span></span>
+22. <span data-ttu-id="9259c-129">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="9259c-129">Close the page.</span></span>
 

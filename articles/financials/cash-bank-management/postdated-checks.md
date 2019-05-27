@@ -19,19 +19,19 @@ ms.author: leguo
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7ea1cd9926f3ea55d82f9030372a15b3545ed824
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "362916"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563777"
 ---
-# <a name="postdated-checks"></a><span data-ttu-id="c17c2-105">远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-105">Postdated checks</span></span>
+# <a name="postdated-checks"></a><span data-ttu-id="92259-105">远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-105">Postdated checks</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="c17c2-106">本文提供有关 Microsoft Dynamics 365 for Finance and Operations 中远期支票的支持的信息。</span><span class="sxs-lookup"><span data-stu-id="c17c2-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="c17c2-107">远期支票是签发用于在将来时间进行付款和收款的支票。</span><span class="sxs-lookup"><span data-stu-id="c17c2-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="c17c2-108">因此，支票在指定日期前不能兑现。</span><span class="sxs-lookup"><span data-stu-id="c17c2-108">Therefore, the check can't be cashed until the specified date.</span></span>
+<span data-ttu-id="92259-106">本文提供有关 Microsoft Dynamics 365 for Finance and Operations 中远期支票的支持的信息。</span><span class="sxs-lookup"><span data-stu-id="92259-106">This article provides information about support for postdated checks in Microsoft Dynamics 365 for Finance and Operations.</span></span> <span data-ttu-id="92259-107">远期支票是签发用于在将来时间进行付款和收款的支票。</span><span class="sxs-lookup"><span data-stu-id="92259-107">Postdated checks are checks that are issued to make and receive payments on a future date.</span></span> <span data-ttu-id="92259-108">因此，支票在指定日期前不能兑现。</span><span class="sxs-lookup"><span data-stu-id="92259-108">Therefore, the check can't be cashed until the specified date.</span></span>
 
-<span data-ttu-id="c17c2-109">Microsoft Dynamics 365 for Finance and Operations 支持应收帐款和应付帐款中远期支票的完整管理周期，如下表中所示。</span><span class="sxs-lookup"><span data-stu-id="c17c2-109">Microsoft Dynamics 365 for Finance and Operations supports the full management cycle for postdated checks in both Accounts receivable and Accounts payable, as shown in the following table.</span></span>
+<span data-ttu-id="92259-109">Microsoft Dynamics 365 for Finance and Operations 支持应收帐款和应付帐款中远期支票的完整管理周期，如下表中所示。</span><span class="sxs-lookup"><span data-stu-id="92259-109">Microsoft Dynamics 365 for Finance and Operations supports the full management cycle for postdated checks in both Accounts receivable and Accounts payable, as shown in the following table.</span></span>
 <table>
 <colgroup>
 <col width="50%" />
@@ -39,63 +39,63 @@ ms.locfileid: "362916"
 </colgroup>
 <thead>
 <tr class="header">
-<th><span data-ttu-id="c17c2-110">方案</span><span class="sxs-lookup"><span data-stu-id="c17c2-110">Scenario</span></span></th>
-<th><span data-ttu-id="c17c2-111">明细</span><span class="sxs-lookup"><span data-stu-id="c17c2-111">Details</span></span></th>
+<th><span data-ttu-id="92259-110">方案</span><span class="sxs-lookup"><span data-stu-id="92259-110">Scenario</span></span></th>
+<th><span data-ttu-id="92259-111">明细</span><span class="sxs-lookup"><span data-stu-id="92259-111">Details</span></span></th>
 </tr>
 </thead>
 <tbody>
 <tr class="odd">
-<td><span data-ttu-id="c17c2-112">设置远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-112">Set up postdated checks</span></span></td>
-<td><span data-ttu-id="c17c2-113">您必须设置新的付款方式，并为已签发支票、收到的支票和预缴税金的结算帐户指定付款流程。</span><span class="sxs-lookup"><span data-stu-id="c17c2-113">You must set up a new payment method, and specify the payment routine for clearing accounts for issued checks, received checks, and withholding tax.</span></span></td>
+<td><span data-ttu-id="92259-112">设置远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-112">Set up postdated checks</span></span></td>
+<td><span data-ttu-id="92259-113">您必须设置新的付款方式，并为已签发支票、收到的支票和预缴税金的结算帐户指定付款流程。</span><span class="sxs-lookup"><span data-stu-id="92259-113">You must set up a new payment method, and specify the payment routine for clearing accounts for issued checks, received checks, and withholding tax.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="c17c2-114">为供应商登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-114">Register and post a postdated check for a vendor</span></span></td>
-<td><span data-ttu-id="c17c2-115">登记您向供应商签发的远期支票的详细信息。</span><span class="sxs-lookup"><span data-stu-id="c17c2-115">Register the details of a postdated check that you issue to a vendor.</span></span> <span data-ttu-id="c17c2-116">在过帐付款时，识别供应商负债，不过，银行帐户不是贷方。</span><span class="sxs-lookup"><span data-stu-id="c17c2-116">When the payment is posted, the vendor liability is recognized, but the bank account isn’t yet credit.</span></span> <span data-ttu-id="c17c2-117">相反，结算帐户用于此目的。</span><span class="sxs-lookup"><span data-stu-id="c17c2-117">Instead, a clearing account is used for this purpose.</span></span> </td>
+<td><span data-ttu-id="92259-114">为供应商登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-114">Register and post a postdated check for a vendor</span></span></td>
+<td><span data-ttu-id="92259-115">登记您向供应商签发的远期支票的详细信息。</span><span class="sxs-lookup"><span data-stu-id="92259-115">Register the details of a postdated check that you issue to a vendor.</span></span> <span data-ttu-id="92259-116">在过帐付款时，识别供应商负债，不过，银行帐户不是贷方。</span><span class="sxs-lookup"><span data-stu-id="92259-116">When the payment is posted, the vendor liability is recognized, but the bank account isn’t yet credit.</span></span> <span data-ttu-id="92259-117">相反，结算帐户用于此目的。</span><span class="sxs-lookup"><span data-stu-id="92259-117">Instead, a clearing account is used for this purpose.</span></span> </td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="c17c2-118">为客户登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-118">Register and post a postdated check for a customer</span></span></td>
-<td><span data-ttu-id="c17c2-119">登记您从客户处接收的远期支票的详细信息。</span><span class="sxs-lookup"><span data-stu-id="c17c2-119">Register the details of a postdated check that you receive from a customer.</span></span> <span data-ttu-id="c17c2-120">在过帐付款时，应收客户是贷方，但银行帐户不是借方。</span><span class="sxs-lookup"><span data-stu-id="c17c2-120">When the payment is posted, the customer receivable is credit, but the bank account isn’t yet debit.</span></span> <span data-ttu-id="c17c2-121">相反，结算帐户用于此目的。</span><span class="sxs-lookup"><span data-stu-id="c17c2-121">Instead, a clearing account is used for this purpose.</span></span></td>
+<td><span data-ttu-id="92259-118">为客户登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-118">Register and post a postdated check for a customer</span></span></td>
+<td><span data-ttu-id="92259-119">登记您从客户处接收的远期支票的详细信息。</span><span class="sxs-lookup"><span data-stu-id="92259-119">Register the details of a postdated check that you receive from a customer.</span></span> <span data-ttu-id="92259-120">在过帐付款时，应收客户是贷方，但银行帐户不是借方。</span><span class="sxs-lookup"><span data-stu-id="92259-120">When the payment is posted, the customer receivable is credit, but the bank account isn’t yet debit.</span></span> <span data-ttu-id="92259-121">相反，结算帐户用于此目的。</span><span class="sxs-lookup"><span data-stu-id="92259-121">Instead, a clearing account is used for this purpose.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="c17c2-122">为客户或供应商登记和过帐更换远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-122">Register and post a replacement postdated check for a customer or a vendor</span></span></td>
+<td><span data-ttu-id="92259-122">为客户或供应商登记和过帐更换远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-122">Register and post a replacement postdated check for a customer or a vendor</span></span></td>
 <td>
-<span data-ttu-id="c17c2-123">如果您给供应商或从客户处收到的原始支票已丢失或损坏，您可以签发替代远期支票给供应商。</span><span class="sxs-lookup"><span data-stu-id="c17c2-123">If your original check to a vendor or from a customer is lost or damaged, you can issue a replacement postdated check.</span></span> <span data-ttu-id="c17c2-124">当您登记该支票的详细信息后，提供参考给该原始支票并指示新支票是原始支票的替代。</span><span class="sxs-lookup"><span data-stu-id="c17c2-124">When you register the check details, provide a reference to the original check, and indicate that the new check is a replacement for the original.</span></span> <span data-ttu-id="c17c2-125">您也可以过账替代支票。</span><span class="sxs-lookup"><span data-stu-id="c17c2-125">You can also post the replacement check.</span></span></td>
+<span data-ttu-id="92259-123">如果您给供应商或从客户处收到的原始支票已丢失或损坏，您可以签发替代远期支票给供应商。</span><span class="sxs-lookup"><span data-stu-id="92259-123">If your original check to a vendor or from a customer is lost or damaged, you can issue a replacement postdated check.</span></span> <span data-ttu-id="92259-124">当您登记该支票的详细信息后，提供参考给该原始支票并指示新支票是原始支票的替代。</span><span class="sxs-lookup"><span data-stu-id="92259-124">When you register the check details, provide a reference to the original check, and indicate that the new check is a replacement for the original.</span></span> <span data-ttu-id="92259-125">您也可以过账替代支票。</span><span class="sxs-lookup"><span data-stu-id="92259-125">You can also post the replacement check.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="c17c2-126">将客户远期支票转移到供应商</span><span class="sxs-lookup"><span data-stu-id="c17c2-126">Transfer a customer postdated check to a vendor</span></span></td>
-<td><span data-ttu-id="c17c2-127">当您从客户处接收了一张远期发票时，您可以将该支票作为付款转移到供应商。</span><span class="sxs-lookup"><span data-stu-id="c17c2-127">When you receive a postdated check from a customer, you can transfer that check to a vendor as a payment.</span></span></td>
+<td><span data-ttu-id="92259-126">将客户远期支票转移到供应商</span><span class="sxs-lookup"><span data-stu-id="92259-126">Transfer a customer postdated check to a vendor</span></span></td>
+<td><span data-ttu-id="92259-127">当您从客户处接收了一张远期发票时，您可以将该支票作为付款转移到供应商。</span><span class="sxs-lookup"><span data-stu-id="92259-127">When you receive a postdated check from a customer, you can transfer that check to a vendor as a payment.</span></span></td>
 </tr>
 <tr class="even">
-<td><span data-ttu-id="c17c2-128">结算客户或供应商的远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-128">Settle a postdated check for a customer or a vendor</span></span></td>
-<td><span data-ttu-id="c17c2-129">当支票最后到期时，结算过帐到客户或供应商的过渡帐户的远期支票。</span><span class="sxs-lookup"><span data-stu-id="c17c2-129">Settle a postdated check that is posted to a bridging account for a customer or a vendor when the check finally matures.</span></span> <span data-ttu-id="c17c2-130">在结算支票时，银行根据之前使用的结算帐户为最后借方或贷方。</span><span class="sxs-lookup"><span data-stu-id="c17c2-130">When the check is settled, the bank is finally debit or credit against the clearing account that was used earlier.</span></span></td>
+<td><span data-ttu-id="92259-128">结算客户或供应商的远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-128">Settle a postdated check for a customer or a vendor</span></span></td>
+<td><span data-ttu-id="92259-129">当支票最后到期时，结算过帐到客户或供应商的过渡帐户的远期支票。</span><span class="sxs-lookup"><span data-stu-id="92259-129">Settle a postdated check that is posted to a bridging account for a customer or a vendor when the check finally matures.</span></span> <span data-ttu-id="92259-130">在结算支票时，银行根据之前使用的结算帐户为最后借方或贷方。</span><span class="sxs-lookup"><span data-stu-id="92259-130">When the check is settled, the bank is finally debit or credit against the clearing account that was used earlier.</span></span></td>
 </tr>
 <tr class="odd">
-<td><span data-ttu-id="c17c2-131">取消供应商的远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-131">Cancel a postdated check for a vendor</span></span></td>
-<td><span data-ttu-id="c17c2-132">您可以在以下情况下取消已过帐的远期支票: - 银行退回了支票。</span><span class="sxs-lookup"><span data-stu-id="c17c2-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
-<span data-ttu-id="c17c2-133">- 该支票被应用于不正确的发票。</span><span class="sxs-lookup"><span data-stu-id="c17c2-133">- The check is applied to an incorrect invoice.</span></span>
-<span data-ttu-id="c17c2-134">- 现金支付是针对发票而存在的。</span><span class="sxs-lookup"><span data-stu-id="c17c2-134">- A cash payment is made against the check.</span></span>
+<td><span data-ttu-id="92259-131">取消供应商的远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-131">Cancel a postdated check for a vendor</span></span></td>
+<td><span data-ttu-id="92259-132">您可以在以下情况下取消已过帐的远期支票: - 银行退回了支票。</span><span class="sxs-lookup"><span data-stu-id="92259-132">You can cancel a posted postdated check in these situations: - The check is returned by the bank.</span></span>
+<span data-ttu-id="92259-133">- 该支票被应用于不正确的发票。</span><span class="sxs-lookup"><span data-stu-id="92259-133">- The check is applied to an incorrect invoice.</span></span>
+<span data-ttu-id="92259-134">- 现金支付是针对发票而存在的。</span><span class="sxs-lookup"><span data-stu-id="92259-134">- A cash payment is made against the check.</span></span>
   </td>
   </tr>
   <tr class="even">
-  <td><span data-ttu-id="c17c2-135">停止远期支票付款</span><span class="sxs-lookup"><span data-stu-id="c17c2-135">Stop payment for a postdated check</span></span></td>
-  <td><span data-ttu-id="c17c2-136">您可以停止对签发给供应商的远期支票的付款，原因可以是资金不足、与供应商的协议更改、供应商提供残次货物或货物返还给了供应商等。</span><span class="sxs-lookup"><span data-stu-id="c17c2-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="c17c2-137">您只能停止未清算的支票上的付款。</span><span class="sxs-lookup"><span data-stu-id="c17c2-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
+  <td><span data-ttu-id="92259-135">停止远期支票付款</span><span class="sxs-lookup"><span data-stu-id="92259-135">Stop payment for a postdated check</span></span></td>
+  <td><span data-ttu-id="92259-136">您可以停止对签发给供应商的远期支票的付款，原因可以是资金不足、与供应商的协议更改、供应商提供残次货物或货物返还给了供应商等。</span><span class="sxs-lookup"><span data-stu-id="92259-136">You can stop payment on a postdated check that was issued to a vendor, for reasons such as not sufficient funds, changes in the terms of the agreement with the vendor, supply of defective goods by the vendor, or return of goods to the vendor.</span></span> <span data-ttu-id="92259-137">您只能停止未清算的支票上的付款。</span><span class="sxs-lookup"><span data-stu-id="92259-137">You can stop payment only on checks that haven’t cleared.</span></span></td>
   </tr>
   </tbody>
   </table>
 
 
 
-<span data-ttu-id="c17c2-138">有关详细信息，请参阅以下主题：</span><span class="sxs-lookup"><span data-stu-id="c17c2-138">For more information, see the following topics:</span></span>
+<span data-ttu-id="92259-138">有关详细信息，请参阅以下主题：</span><span class="sxs-lookup"><span data-stu-id="92259-138">For more information, see the following topics:</span></span>
 
-[<span data-ttu-id="c17c2-139">设置远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-139">Set up postdated checks</span></span>](tasks/set-up-postdated-checks.md)
+[<span data-ttu-id="92259-139">设置远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-139">Set up postdated checks</span></span>](tasks/set-up-postdated-checks.md)
 
-[<span data-ttu-id="c17c2-140">为客户登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-140">Register and post a postdated check for a customer</span></span>](tasks/register-post-postdated-check-customer.md)
+[<span data-ttu-id="92259-140">为客户登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-140">Register and post a postdated check for a customer</span></span>](tasks/register-post-postdated-check-customer.md)
 
-[<span data-ttu-id="c17c2-141">结算客户的远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-141">Settle a postdated check from a customer</span></span>](tasks/settle-postdated-check-customer.md)
+[<span data-ttu-id="92259-141">结算客户的远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-141">Settle a postdated check from a customer</span></span>](tasks/settle-postdated-check-customer.md)
 
-[<span data-ttu-id="c17c2-142">为供应商登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-142">Register and post a postdated check for a vendor</span></span>](tasks/register-post-postdated-check-vendor.md) 
+[<span data-ttu-id="92259-142">为供应商登记和过帐远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-142">Register and post a postdated check for a vendor</span></span>](tasks/register-post-postdated-check-vendor.md) 
 
-[<span data-ttu-id="c17c2-143">结算供应商的远期支票</span><span class="sxs-lookup"><span data-stu-id="c17c2-143">Settle a postdated check for a vendor</span></span>](tasks/settle-postdated-check-vendor.md)
+[<span data-ttu-id="92259-143">结算供应商的远期支票</span><span class="sxs-lookup"><span data-stu-id="92259-143">Settle a postdated check for a vendor</span></span>](tasks/settle-postdated-check-vendor.md)
 
 
 

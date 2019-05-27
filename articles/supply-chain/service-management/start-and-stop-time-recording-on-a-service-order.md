@@ -19,48 +19,48 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 16d9f48ed38a5033fab94d45821f0ed6f7f1f011
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321539"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558380"
 ---
-# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="3851a-103">开始和停止针对服务订单的时间录制</span><span class="sxs-lookup"><span data-stu-id="3851a-103">Start and stop time recording on a service order</span></span> 
+# <a name="start-and-stop-time-recording-on-a-service-order"></a><span data-ttu-id="d0108-103">开始和停止针对服务订单的时间录制</span><span class="sxs-lookup"><span data-stu-id="d0108-103">Start and stop time recording on a service order</span></span> 
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="3851a-104">使用此过程为已定义的服务级别协议的服务订单开始和停止时间记录。</span><span class="sxs-lookup"><span data-stu-id="3851a-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
+<span data-ttu-id="d0108-104">使用此过程为已定义的服务级别协议的服务订单开始和停止时间记录。</span><span class="sxs-lookup"><span data-stu-id="d0108-104">Use this procedure to start and stop time recording for a service order for which a service level agreement is defined.</span></span>
 
-## <a name="start-time-recording"></a><span data-ttu-id="3851a-105">开始时间记录</span><span class="sxs-lookup"><span data-stu-id="3851a-105">Start time recording</span></span>
+## <a name="start-time-recording"></a><span data-ttu-id="d0108-105">开始时间记录</span><span class="sxs-lookup"><span data-stu-id="d0108-105">Start time recording</span></span>
 
-1.  <span data-ttu-id="3851a-106">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="3851a-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="d0108-106">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="d0108-106">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="3851a-107">单击**服务订单** 选项卡。在 **操作窗格**上，在**服务级别协议**组中，单击**开始**。</span><span class="sxs-lookup"><span data-stu-id="3851a-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
+2.  <span data-ttu-id="d0108-107">单击**服务订单** 选项卡。在 **操作窗格**上，在**服务级别协议**组中，单击**开始**。</span><span class="sxs-lookup"><span data-stu-id="d0108-107">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Start**.</span></span>
 
-3.  <span data-ttu-id="3851a-108">输入应开始时间记录的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="3851a-108">Enter the date and time that the time recording should be started.</span></span>
+3.  <span data-ttu-id="d0108-108">输入应开始时间记录的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="d0108-108">Enter the date and time that the time recording should be started.</span></span>
 
-## <a name="stop-time-recording"></a><span data-ttu-id="3851a-109">停止时间记录</span><span class="sxs-lookup"><span data-stu-id="3851a-109">Stop time recording</span></span>
+## <a name="stop-time-recording"></a><span data-ttu-id="d0108-109">停止时间记录</span><span class="sxs-lookup"><span data-stu-id="d0108-109">Stop time recording</span></span>
 
-1.  <span data-ttu-id="3851a-110">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="3851a-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="d0108-110">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="d0108-110">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="3851a-111">单击**服务订单** 选项卡。在 **操作窗格**上，在**服务级别协议**组中，单击**停止**。</span><span class="sxs-lookup"><span data-stu-id="3851a-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
+2.  <span data-ttu-id="d0108-111">单击**服务订单** 选项卡。在 **操作窗格**上，在**服务级别协议**组中，单击**停止**。</span><span class="sxs-lookup"><span data-stu-id="d0108-111">Click the **Service order** tab. On the **Action Pane**, in the **Service level agreement** group, click **Stop**.</span></span>
 
-3.  <span data-ttu-id="3851a-112">输入应停止时间记录的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="3851a-112">Enter the date and time that the time recording should be stopped.</span></span>
+3.  <span data-ttu-id="d0108-112">输入应停止时间记录的日期和时间。</span><span class="sxs-lookup"><span data-stu-id="d0108-112">Enter the date and time that the time recording should be stopped.</span></span>
 
-4.  <span data-ttu-id="3851a-113">选择**添加撤回原因**，然后在**阶段原因代码**列表中选择一个原因代码提供停止时间记录的原因。</span><span class="sxs-lookup"><span data-stu-id="3851a-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
+4.  <span data-ttu-id="d0108-113">选择**添加撤回原因**，然后在**阶段原因代码**列表中选择一个原因代码提供停止时间记录的原因。</span><span class="sxs-lookup"><span data-stu-id="d0108-113">Select **Add a revocation reason**, and select a reason code in the **Stage reason code** list to provide a reason for stopping the time recording.</span></span>
 
 
 > [!NOTE]
-> <P><span data-ttu-id="3851a-114">如果在<STRONG>服务管理参数</STRONG>窗体中选择了<STRONG>超过时间的原因代码</STRONG>，则必须先提供原因代码，才能停止时间记录。</span><span class="sxs-lookup"><span data-stu-id="3851a-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
+> <P><span data-ttu-id="d0108-114">如果在<STRONG>服务管理参数</STRONG>窗体中选择了<STRONG>超过时间的原因代码</STRONG>，则必须先提供原因代码，才能停止时间记录。</span><span class="sxs-lookup"><span data-stu-id="d0108-114">If <STRONG>Reason code on exceeding time</STRONG> is selected in the <STRONG>Service management parameters</STRONG> form, you must provide a reason code before you can stop the time recording.</span></span></P>
 
 
 
-## <a name="see-also"></a><span data-ttu-id="3851a-115">请参阅</span><span class="sxs-lookup"><span data-stu-id="3851a-115">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="d0108-115">请参阅</span><span class="sxs-lookup"><span data-stu-id="d0108-115">See also</span></span>
 
-<span data-ttu-id="3851a-116">[启动 SLA 时间记录（窗体）](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="3851a-116">[Start SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span></span>
+<span data-ttu-id="d0108-116">[启动 SLA 时间记录（窗体）](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="d0108-116">[Start SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242297\(v=ax.60\))</span></span>
 
-<span data-ttu-id="3851a-117">[停止 SLA 时间记录（窗体）](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="3851a-117">[Stop SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span></span>
+<span data-ttu-id="d0108-117">[停止 SLA 时间记录（窗体）](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="d0108-117">[Stop SLA time recording (form)](https://technet.microsoft.com/en-us/library/hh242241\(v=ax.60\))</span></span>
 
   
 

@@ -17,56 +17,56 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e87dbb0fa890f4d554c3e2ff09566fb2b1f3206b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364779"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544788"
 ---
-# <a name="run-formats-to-use-document-management-files-in-er-output"></a><span data-ttu-id="be994-103">运行在 ER 输出中使用票据管理文件的格式</span><span class="sxs-lookup"><span data-stu-id="be994-103">Run formats to use Document Management files in ER output</span></span>
+# <a name="run-formats-to-use-document-management-files-in-er-output"></a><span data-ttu-id="6949a-103">运行在 ER 输出中使用票据管理文件的格式</span><span class="sxs-lookup"><span data-stu-id="6949a-103">Run formats to use Document Management files in ER output</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="be994-104">以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。</span><span class="sxs-lookup"><span data-stu-id="be994-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="be994-105">这些步骤可以在 DEMF 公司执行。</span><span class="sxs-lookup"><span data-stu-id="be994-105">These steps can be performed in the DEMF company.</span></span>
+<span data-ttu-id="6949a-104">以下步骤说明指定为系统管理员或电子申报开发人员角色的用户可以如何配置电子申报 (ER) 模型，以便在 ER 输出中使用票据管理文件（附件）。</span><span class="sxs-lookup"><span data-stu-id="6949a-104">The following steps explain how a user assigned to the system administrator or electronic reporting developer role can configure an Electronic reporting (ER) format to use Document Management files (attachments) in ER output.</span></span> <span data-ttu-id="6949a-105">这些步骤可以在 DEMF 公司执行。</span><span class="sxs-lookup"><span data-stu-id="6949a-105">These steps can be performed in the DEMF company.</span></span>
 
-<span data-ttu-id="be994-106">若要完成这些步骤，必须首先完成“ER 在格式输出中使用票据管理文件（第 3 部分：创建格式）”过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="be994-106">To complete these steps, you must first complete the steps in the “ER Use Document Management files in format outputs (Part 3: Create format)” procedure.</span></span>
+<span data-ttu-id="6949a-106">若要完成这些步骤，必须首先完成“ER 在格式输出中使用票据管理文件（第 3 部分：创建格式）”过程中的步骤。</span><span class="sxs-lookup"><span data-stu-id="6949a-106">To complete these steps, you must first complete the steps in the “ER Use Document Management files in format outputs (Part 3: Create format)” procedure.</span></span>
 
-<span data-ttu-id="be994-107">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="be994-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+<span data-ttu-id="6949a-107">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="6949a-107">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
 
 
-## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a><span data-ttu-id="be994-108">添加单张发票的销售订单的必要附件</span><span class="sxs-lookup"><span data-stu-id="be994-108">Add necessary attachments for sales order of a single invoice</span></span>
-1. <span data-ttu-id="be994-109">转至“应收账款”>“发票”>“未结客户发票”。</span><span class="sxs-lookup"><span data-stu-id="be994-109">Go to Accounts receivable > Invoices > Open customer invoices.</span></span>
-2. <span data-ttu-id="be994-110">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="be994-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="be994-111">例如，在“发票”字段中用值“CIV-000148”进行筛选。</span><span class="sxs-lookup"><span data-stu-id="be994-111">For example, filter on the Invoice field with a value of 'CIV-000148'.</span></span>
-    * <span data-ttu-id="be994-112">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="be994-112">CIV-000148</span></span>  
-3. <span data-ttu-id="be994-113">单击以访问所选发票的链接。</span><span class="sxs-lookup"><span data-stu-id="be994-113">Click to follow the selected invoice’s link.</span></span>
-    * <span data-ttu-id="be994-114">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="be994-114">CIV-000148</span></span>  
-4. <span data-ttu-id="be994-115">单击以访问“销售订单”字段中的链接。</span><span class="sxs-lookup"><span data-stu-id="be994-115">Click to follow the link in the Sales order field.</span></span>
-    * <span data-ttu-id="be994-116">000148</span><span class="sxs-lookup"><span data-stu-id="be994-116">000148</span></span>  
-5. <span data-ttu-id="be994-117">在“行或标题”字段中，选择“标题”选项。</span><span class="sxs-lookup"><span data-stu-id="be994-117">In the Lines or header field, select the option of Header.</span></span>
-    * <span data-ttu-id="be994-118">选择“标题”以表示这将是添加附件的目标。</span><span class="sxs-lookup"><span data-stu-id="be994-118">Select Header to indicate that this will be the target for adding attachments.</span></span>  
-6. <span data-ttu-id="be994-119">单击“附加”。</span><span class="sxs-lookup"><span data-stu-id="be994-119">Click Attach.</span></span>
-    * <span data-ttu-id="be994-120">将一些文件添加为此销售订单的附件。</span><span class="sxs-lookup"><span data-stu-id="be994-120">Add a few files as attachments for this sales order.</span></span> <span data-ttu-id="be994-121">使用票据管理支持的票据类型的文件（文件扩展名为 DOCX、DPF、XML、JPG 等）。</span><span class="sxs-lookup"><span data-stu-id="be994-121">Use the files of the document types that are supported by the Document Management (with file extensions DOCX, DPF, XML, JPG, etc.).</span></span> <span data-ttu-id="be994-122">浏览并选择要附加并使用 ER 电子消息中的相关发票进一步处理的文件。</span><span class="sxs-lookup"><span data-stu-id="be994-122">Browse and select files to be attached and further processed with the related invoice in the ER electronic message.</span></span>  
-7. <span data-ttu-id="be994-123">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="be994-123">Click New.</span></span>
-8. <span data-ttu-id="be994-124">单击“文件”。</span><span class="sxs-lookup"><span data-stu-id="be994-124">Click File.</span></span>
-9. <span data-ttu-id="be994-125">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="be994-125">Click New.</span></span>
-10. <span data-ttu-id="be994-126">单击“文件”。</span><span class="sxs-lookup"><span data-stu-id="be994-126">Click File.</span></span>
-11. <span data-ttu-id="be994-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="be994-127">Close the page.</span></span>
-12. <span data-ttu-id="be994-128">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="be994-128">Close the page.</span></span>
-13. <span data-ttu-id="be994-129">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="be994-129">Close the page.</span></span>
-14. <span data-ttu-id="be994-130">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="be994-130">Close the page.</span></span>
+## <a name="add-necessary-attachments-for-sales-order-of-a-single-invoice"></a><span data-ttu-id="6949a-108">添加单张发票的销售订单的必要附件</span><span class="sxs-lookup"><span data-stu-id="6949a-108">Add necessary attachments for sales order of a single invoice</span></span>
+1. <span data-ttu-id="6949a-109">转至“应收账款”>“发票”>“未结客户发票”。</span><span class="sxs-lookup"><span data-stu-id="6949a-109">Go to Accounts receivable > Invoices > Open customer invoices.</span></span>
+2. <span data-ttu-id="6949a-110">使用“快速筛选器”以查找记录。</span><span class="sxs-lookup"><span data-stu-id="6949a-110">Use the Quick Filter to find records.</span></span> <span data-ttu-id="6949a-111">例如，在“发票”字段中用值“CIV-000148”进行筛选。</span><span class="sxs-lookup"><span data-stu-id="6949a-111">For example, filter on the Invoice field with a value of 'CIV-000148'.</span></span>
+    * <span data-ttu-id="6949a-112">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="6949a-112">CIV-000148</span></span>  
+3. <span data-ttu-id="6949a-113">单击以访问所选发票的链接。</span><span class="sxs-lookup"><span data-stu-id="6949a-113">Click to follow the selected invoice’s link.</span></span>
+    * <span data-ttu-id="6949a-114">CIV-000148</span><span class="sxs-lookup"><span data-stu-id="6949a-114">CIV-000148</span></span>  
+4. <span data-ttu-id="6949a-115">单击以访问“销售订单”字段中的链接。</span><span class="sxs-lookup"><span data-stu-id="6949a-115">Click to follow the link in the Sales order field.</span></span>
+    * <span data-ttu-id="6949a-116">000148</span><span class="sxs-lookup"><span data-stu-id="6949a-116">000148</span></span>  
+5. <span data-ttu-id="6949a-117">在“行或标题”字段中，选择“标题”选项。</span><span class="sxs-lookup"><span data-stu-id="6949a-117">In the Lines or header field, select the option of Header.</span></span>
+    * <span data-ttu-id="6949a-118">选择“标题”以表示这将是添加附件的目标。</span><span class="sxs-lookup"><span data-stu-id="6949a-118">Select Header to indicate that this will be the target for adding attachments.</span></span>  
+6. <span data-ttu-id="6949a-119">单击“附加”。</span><span class="sxs-lookup"><span data-stu-id="6949a-119">Click Attach.</span></span>
+    * <span data-ttu-id="6949a-120">将一些文件添加为此销售订单的附件。</span><span class="sxs-lookup"><span data-stu-id="6949a-120">Add a few files as attachments for this sales order.</span></span> <span data-ttu-id="6949a-121">使用票据管理支持的票据类型的文件（文件扩展名为 DOCX、DPF、XML、JPG 等）。</span><span class="sxs-lookup"><span data-stu-id="6949a-121">Use the files of the document types that are supported by the Document Management (with file extensions DOCX, DPF, XML, JPG, etc.).</span></span> <span data-ttu-id="6949a-122">浏览并选择要附加并使用 ER 电子消息中的相关发票进一步处理的文件。</span><span class="sxs-lookup"><span data-stu-id="6949a-122">Browse and select files to be attached and further processed with the related invoice in the ER electronic message.</span></span>  
+7. <span data-ttu-id="6949a-123">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="6949a-123">Click New.</span></span>
+8. <span data-ttu-id="6949a-124">单击“文件”。</span><span class="sxs-lookup"><span data-stu-id="6949a-124">Click File.</span></span>
+9. <span data-ttu-id="6949a-125">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="6949a-125">Click New.</span></span>
+10. <span data-ttu-id="6949a-126">单击“文件”。</span><span class="sxs-lookup"><span data-stu-id="6949a-126">Click File.</span></span>
+11. <span data-ttu-id="6949a-127">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="6949a-127">Close the page.</span></span>
+12. <span data-ttu-id="6949a-128">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="6949a-128">Close the page.</span></span>
+13. <span data-ttu-id="6949a-129">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="6949a-129">Close the page.</span></span>
+14. <span data-ttu-id="6949a-130">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="6949a-130">Close the page.</span></span>
 
-## <a name="run-the-designed-report-for-the-selected-invoice"></a><span data-ttu-id="be994-131">运行为所选发票设计的报表</span><span class="sxs-lookup"><span data-stu-id="be994-131">Run the designed report for the selected invoice</span></span>
-1. <span data-ttu-id="be994-132">转到“组织管理”>“电子申报”>“配置”。</span><span class="sxs-lookup"><span data-stu-id="be994-132">Go to Organization administration > Electronic reporting > Configurations.</span></span>
-2. <span data-ttu-id="be994-133">在树中，展开“客户发票模型”。</span><span class="sxs-lookup"><span data-stu-id="be994-133">In the tree, expand 'Customer invoice model'.</span></span>
-3. <span data-ttu-id="be994-134">在树中，展开“客户发票模型\客户发票模型(自定义)”。</span><span class="sxs-lookup"><span data-stu-id="be994-134">In the tree, expand 'Customer invoice model\Customer invoice model (custom)'.</span></span>
-4. <span data-ttu-id="be994-135">在树中，选择“客户发票模型\客户发票模型(自定义)\电子发票示例消息”。</span><span class="sxs-lookup"><span data-stu-id="be994-135">In the tree, select 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span></span>
-5. <span data-ttu-id="be994-136">单击“运行”。</span><span class="sxs-lookup"><span data-stu-id="be994-136">Click Run.</span></span>
-6. <span data-ttu-id="be994-137">展开“要包括的记录”部分。</span><span class="sxs-lookup"><span data-stu-id="be994-137">Expand the Records to include () section.</span></span>
-7. <span data-ttu-id="be994-138">单击“筛选器”。</span><span class="sxs-lookup"><span data-stu-id="be994-138">Click Filter.</span></span>
-8. <span data-ttu-id="be994-139">选择“客户发票日记帐”的行和“销售订单”字段。</span><span class="sxs-lookup"><span data-stu-id="be994-139">Select the row of the Customer invoice journal and the Sales order field.</span></span>
-9. <span data-ttu-id="be994-140">在“标准”字段中，键入“000148”。</span><span class="sxs-lookup"><span data-stu-id="be994-140">In the Criteria field, type '000148'.</span></span>
-    * <span data-ttu-id="be994-141">在条件的“销售订单”字段中，键入订单编号 000148。</span><span class="sxs-lookup"><span data-stu-id="be994-141">In the criteria “Sales order” field, type the order number 000148.</span></span>  
-10. <span data-ttu-id="be994-142">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="be994-142">Click OK.</span></span>
-11. <span data-ttu-id="be994-143">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="be994-143">Click OK.</span></span>
-    * <span data-ttu-id="be994-144">检查生成的输出。</span><span class="sxs-lookup"><span data-stu-id="be994-144">Review the generated output.</span></span> <span data-ttu-id="be994-145">请注意，已经为每个附件创建了一个 XML 节点。</span><span class="sxs-lookup"><span data-stu-id="be994-145">Note that for each attachment a single XML node has been created.</span></span> <span data-ttu-id="be994-146">附件的内容填充到 MIME (base64) 文本格式的 XML 输出中。</span><span class="sxs-lookup"><span data-stu-id="be994-146">The attachment’s content is populated to the XML output in MIME (base64) text format.</span></span>  
+## <a name="run-the-designed-report-for-the-selected-invoice"></a><span data-ttu-id="6949a-131">运行为所选发票设计的报表</span><span class="sxs-lookup"><span data-stu-id="6949a-131">Run the designed report for the selected invoice</span></span>
+1. <span data-ttu-id="6949a-132">转到“组织管理”>“电子申报”>“配置”。</span><span class="sxs-lookup"><span data-stu-id="6949a-132">Go to Organization administration > Electronic reporting > Configurations.</span></span>
+2. <span data-ttu-id="6949a-133">在树中，展开“客户发票模型”。</span><span class="sxs-lookup"><span data-stu-id="6949a-133">In the tree, expand 'Customer invoice model'.</span></span>
+3. <span data-ttu-id="6949a-134">在树中，展开“客户发票模型\客户发票模型(自定义)”。</span><span class="sxs-lookup"><span data-stu-id="6949a-134">In the tree, expand 'Customer invoice model\Customer invoice model (custom)'.</span></span>
+4. <span data-ttu-id="6949a-135">在树中，选择“客户发票模型\客户发票模型(自定义)\电子发票示例消息”。</span><span class="sxs-lookup"><span data-stu-id="6949a-135">In the tree, select 'Customer invoice model\Customer invoice model (custom)\Electronic invoice sample message'.</span></span>
+5. <span data-ttu-id="6949a-136">单击“运行”。</span><span class="sxs-lookup"><span data-stu-id="6949a-136">Click Run.</span></span>
+6. <span data-ttu-id="6949a-137">展开“要包括的记录”部分。</span><span class="sxs-lookup"><span data-stu-id="6949a-137">Expand the Records to include () section.</span></span>
+7. <span data-ttu-id="6949a-138">单击“筛选器”。</span><span class="sxs-lookup"><span data-stu-id="6949a-138">Click Filter.</span></span>
+8. <span data-ttu-id="6949a-139">选择“客户发票日记帐”的行和“销售订单”字段。</span><span class="sxs-lookup"><span data-stu-id="6949a-139">Select the row of the Customer invoice journal and the Sales order field.</span></span>
+9. <span data-ttu-id="6949a-140">在“标准”字段中，键入“000148”。</span><span class="sxs-lookup"><span data-stu-id="6949a-140">In the Criteria field, type '000148'.</span></span>
+    * <span data-ttu-id="6949a-141">在条件的“销售订单”字段中，键入订单编号 000148。</span><span class="sxs-lookup"><span data-stu-id="6949a-141">In the criteria “Sales order” field, type the order number 000148.</span></span>  
+10. <span data-ttu-id="6949a-142">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="6949a-142">Click OK.</span></span>
+11. <span data-ttu-id="6949a-143">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="6949a-143">Click OK.</span></span>
+    * <span data-ttu-id="6949a-144">检查生成的输出。</span><span class="sxs-lookup"><span data-stu-id="6949a-144">Review the generated output.</span></span> <span data-ttu-id="6949a-145">请注意，已经为每个附件创建了一个 XML 节点。</span><span class="sxs-lookup"><span data-stu-id="6949a-145">Note that for each attachment a single XML node has been created.</span></span> <span data-ttu-id="6949a-146">附件的内容填充到 MIME (base64) 文本格式的 XML 输出中。</span><span class="sxs-lookup"><span data-stu-id="6949a-146">The attachment’s content is populated to the XML output in MIME (base64) text format.</span></span>  
 

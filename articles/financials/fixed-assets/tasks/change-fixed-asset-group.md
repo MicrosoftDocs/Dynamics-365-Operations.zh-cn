@@ -17,32 +17,32 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 32f1daa6de6034d123b1f2cf732059759f6c10ae
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358247"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555189"
 ---
-# <a name="change-a-fixed-asset-group"></a><span data-ttu-id="5ca12-103">更改固定资产组</span><span class="sxs-lookup"><span data-stu-id="5ca12-103">Change a fixed asset group</span></span>
+# <a name="change-a-fixed-asset-group"></a><span data-ttu-id="c9c37-103">更改固定资产组</span><span class="sxs-lookup"><span data-stu-id="c9c37-103">Change a fixed asset group</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="5ca12-104">应将固定资产分配给正确的固定资产组。</span><span class="sxs-lookup"><span data-stu-id="5ca12-104">Fixed assets should be assigned to the correct fixed assets group.</span></span> <span data-ttu-id="5ca12-105">固定资产组的使用场景：</span><span class="sxs-lookup"><span data-stu-id="5ca12-105">The fixed assets group is used when you:</span></span>
+<span data-ttu-id="c9c37-104">应将固定资产分配给正确的固定资产组。</span><span class="sxs-lookup"><span data-stu-id="c9c37-104">Fixed assets should be assigned to the correct fixed assets group.</span></span> <span data-ttu-id="c9c37-105">固定资产组的使用场景：</span><span class="sxs-lookup"><span data-stu-id="c9c37-105">The fixed assets group is used when you:</span></span>
 
- - <span data-ttu-id="5ca12-106">创建查询和报告</span><span class="sxs-lookup"><span data-stu-id="5ca12-106">Create inquiries and reports</span></span>
+ - <span data-ttu-id="c9c37-106">创建查询和报告</span><span class="sxs-lookup"><span data-stu-id="c9c37-106">Create inquiries and reports</span></span>
 
- - <span data-ttu-id="5ca12-107">设置新增固定资产</span><span class="sxs-lookup"><span data-stu-id="5ca12-107">Set up new fixed assets</span></span>
+ - <span data-ttu-id="c9c37-107">设置新增固定资产</span><span class="sxs-lookup"><span data-stu-id="c9c37-107">Set up new fixed assets</span></span>
 
- - <span data-ttu-id="5ca12-108">整合分类帐并将固定资产交易记录过帐到合适的会计科目</span><span class="sxs-lookup"><span data-stu-id="5ca12-108">Integrate ledgers and post fixed asset transactions to the appropriate ledger accounts</span></span>
+ - <span data-ttu-id="c9c37-108">整合分类帐并将固定资产交易记录过帐到合适的会计科目</span><span class="sxs-lookup"><span data-stu-id="c9c37-108">Integrate ledgers and post fixed asset transactions to the appropriate ledger accounts</span></span>
 
-<span data-ttu-id="5ca12-109">此指南使用演示公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="5ca12-109">This guide uses the USMF demo company.</span></span>
+<span data-ttu-id="c9c37-109">此指南使用演示公司 USMF。</span><span class="sxs-lookup"><span data-stu-id="c9c37-109">This guide uses the USMF demo company.</span></span>
 
-1. <span data-ttu-id="5ca12-110">转到“固定资产”>“固定资产”>“固定资产”。</span><span class="sxs-lookup"><span data-stu-id="5ca12-110">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
-2. <span data-ttu-id="5ca12-111">选择要更改其固定资产组的固定资产。</span><span class="sxs-lookup"><span data-stu-id="5ca12-111">Select the fixed asset you would like to change the fixed asset group on.</span></span>
-3. <span data-ttu-id="5ca12-112">单击“更改固定资产组”。</span><span class="sxs-lookup"><span data-stu-id="5ca12-112">Click Change fixed asset group.</span></span>
-4. <span data-ttu-id="5ca12-113">在“新组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="5ca12-113">In the New group field, enter or select a value.</span></span>
-5. <span data-ttu-id="5ca12-114">选择此选项将固定资产编号分配给所选固定资产。</span><span class="sxs-lookup"><span data-stu-id="5ca12-114">Select this option to assign a fixed asset number to the selected fixed asset.</span></span>
-    * <span data-ttu-id="5ca12-115">如果选择“新增固定资产的编号”选项，则“固定资产编号”字段将可用。</span><span class="sxs-lookup"><span data-stu-id="5ca12-115">The Fixed asset number field is available if you select the New fixed asset number option.</span></span>   <span data-ttu-id="5ca12-116">如果为固定资产设置了自动编号，该字段将显示下一个可用的固定资产编号。</span><span class="sxs-lookup"><span data-stu-id="5ca12-116">If automatic numbering is set up for fixed assets, this field shows the next available fixed asset number.</span></span> <span data-ttu-id="5ca12-117">您可以更改该数量。</span><span class="sxs-lookup"><span data-stu-id="5ca12-117">You can change the number.</span></span>   <span data-ttu-id="5ca12-118">如果设置了手动编号，则该字段为空，您必须输入新增固定资产的编号。</span><span class="sxs-lookup"><span data-stu-id="5ca12-118">If manual numbering is set up, this field is blank and you must enter the new fixed asset number.</span></span>     
-6. <span data-ttu-id="5ca12-119">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="5ca12-119">Click OK.</span></span>
-7. <span data-ttu-id="5ca12-120">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="5ca12-120">Click Yes.</span></span>
+1. <span data-ttu-id="c9c37-110">转到“固定资产”>“固定资产”>“固定资产”。</span><span class="sxs-lookup"><span data-stu-id="c9c37-110">Go to Fixed assets > Fixed assets > Fixed assets.</span></span>
+2. <span data-ttu-id="c9c37-111">选择要更改其固定资产组的固定资产。</span><span class="sxs-lookup"><span data-stu-id="c9c37-111">Select the fixed asset you would like to change the fixed asset group on.</span></span>
+3. <span data-ttu-id="c9c37-112">单击“更改固定资产组”。</span><span class="sxs-lookup"><span data-stu-id="c9c37-112">Click Change fixed asset group.</span></span>
+4. <span data-ttu-id="c9c37-113">在“新组”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="c9c37-113">In the New group field, enter or select a value.</span></span>
+5. <span data-ttu-id="c9c37-114">选择此选项将固定资产编号分配给所选固定资产。</span><span class="sxs-lookup"><span data-stu-id="c9c37-114">Select this option to assign a fixed asset number to the selected fixed asset.</span></span>
+    * <span data-ttu-id="c9c37-115">如果选择“新增固定资产的编号”选项，则“固定资产编号”字段将可用。</span><span class="sxs-lookup"><span data-stu-id="c9c37-115">The Fixed asset number field is available if you select the New fixed asset number option.</span></span>   <span data-ttu-id="c9c37-116">如果为固定资产设置了自动编号，该字段将显示下一个可用的固定资产编号。</span><span class="sxs-lookup"><span data-stu-id="c9c37-116">If automatic numbering is set up for fixed assets, this field shows the next available fixed asset number.</span></span> <span data-ttu-id="c9c37-117">您可以更改该数量。</span><span class="sxs-lookup"><span data-stu-id="c9c37-117">You can change the number.</span></span>   <span data-ttu-id="c9c37-118">如果设置了手动编号，则该字段为空，您必须输入新增固定资产的编号。</span><span class="sxs-lookup"><span data-stu-id="c9c37-118">If manual numbering is set up, this field is blank and you must enter the new fixed asset number.</span></span>     
+6. <span data-ttu-id="c9c37-119">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="c9c37-119">Click OK.</span></span>
+7. <span data-ttu-id="c9c37-120">单击“是”。</span><span class="sxs-lookup"><span data-stu-id="c9c37-120">Click Yes.</span></span>
 

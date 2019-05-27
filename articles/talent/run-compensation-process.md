@@ -18,34 +18,34 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 865baedd66eb6d87d7c2ddef1b552cc831345842
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859520"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517461"
 ---
-# <a name="run-the-compensation-process"></a><span data-ttu-id="aeec6-103">执行薪酬流程</span><span class="sxs-lookup"><span data-stu-id="aeec6-103">Run the compensation process</span></span>
+# <a name="run-the-compensation-process"></a><span data-ttu-id="aa97e-103">执行薪酬流程</span><span class="sxs-lookup"><span data-stu-id="aa97e-103">Run the compensation process</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="aeec6-104">**发货**</span><span class="sxs-lookup"><span data-stu-id="aeec6-104">**Issue**</span></span>
+<span data-ttu-id="aa97e-104">**发货**</span><span class="sxs-lookup"><span data-stu-id="aa97e-104">**Issue**</span></span>
 
-<span data-ttu-id="aeec6-105">客户尝试在 Microsoft Dynamics 365 for Talent 中运行薪酬流程但从未成功。</span><span class="sxs-lookup"><span data-stu-id="aeec6-105">The customer is trying to run the compensation process in Microsoft Dynamics 365 for Talent but isn't having any success.</span></span>
+<span data-ttu-id="aa97e-105">客户尝试在 Microsoft Dynamics 365 for Talent 中运行薪酬流程但从未成功。</span><span class="sxs-lookup"><span data-stu-id="aa97e-105">The customer is trying to run the compensation process in Microsoft Dynamics 365 for Talent but isn't having any success.</span></span>
 
-<span data-ttu-id="aeec6-106">**原因**</span><span class="sxs-lookup"><span data-stu-id="aeec6-106">**Cause**</span></span>
+<span data-ttu-id="aa97e-106">**原因**</span><span class="sxs-lookup"><span data-stu-id="aa97e-106">**Cause**</span></span>
 
-<span data-ttu-id="aeec6-107">客户需要文档。</span><span class="sxs-lookup"><span data-stu-id="aeec6-107">The customer needs the documentation.</span></span>
+<span data-ttu-id="aa97e-107">客户需要文档。</span><span class="sxs-lookup"><span data-stu-id="aa97e-107">The customer needs the documentation.</span></span>
 
-<span data-ttu-id="aeec6-108">**分辨率**</span><span class="sxs-lookup"><span data-stu-id="aeec6-108">**Resolution**</span></span>
+<span data-ttu-id="aa97e-108">**分辨率**</span><span class="sxs-lookup"><span data-stu-id="aa97e-108">**Resolution**</span></span>
 
-<span data-ttu-id="aeec6-109">这里是薪酬文档：</span><span class="sxs-lookup"><span data-stu-id="aeec6-109">Here is the documentation for compensation:</span></span>
+<span data-ttu-id="aa97e-109">这里是薪酬文档：</span><span class="sxs-lookup"><span data-stu-id="aa97e-109">Here is the documentation for compensation:</span></span>
 
-- <span data-ttu-id="aeec6-110">设置：</span><span class="sxs-lookup"><span data-stu-id="aeec6-110">Setup:</span></span>
+- <span data-ttu-id="aa97e-110">设置：</span><span class="sxs-lookup"><span data-stu-id="aa97e-110">Setup:</span></span>
 
-    - [<span data-ttu-id="aeec6-111">薪酬计划</span><span class="sxs-lookup"><span data-stu-id="aeec6-111">Compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/compensation-plans)
-    - [<span data-ttu-id="aeec6-112">创建固定薪酬计划</span><span class="sxs-lookup"><span data-stu-id="aeec6-112">Create fixed compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
-    - [<span data-ttu-id="aeec6-113">创建可变薪酬计划</span><span class="sxs-lookup"><span data-stu-id="aeec6-113">Create variable compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
+    - [<span data-ttu-id="aa97e-111">薪酬计划</span><span class="sxs-lookup"><span data-stu-id="aa97e-111">Compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/compensation-plans)
+    - [<span data-ttu-id="aa97e-112">创建固定薪酬计划</span><span class="sxs-lookup"><span data-stu-id="aa97e-112">Create fixed compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-fixed-compensation-plans)
+    - [<span data-ttu-id="aa97e-113">创建可变薪酬计划</span><span class="sxs-lookup"><span data-stu-id="aa97e-113">Create variable compensation plans</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/create-variable-compensation-plans)
 
-- <span data-ttu-id="aeec6-114">流程：</span><span class="sxs-lookup"><span data-stu-id="aeec6-114">Process:</span></span>
+- <span data-ttu-id="aa97e-114">流程：</span><span class="sxs-lookup"><span data-stu-id="aa97e-114">Process:</span></span>
 
-    - [<span data-ttu-id="aeec6-115">薪酬流程</span><span class="sxs-lookup"><span data-stu-id="aeec6-115">Process compensation</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)
+    - [<span data-ttu-id="aa97e-115">薪酬流程</span><span class="sxs-lookup"><span data-stu-id="aa97e-115">Process compensation</span></span>](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/process-compensation)

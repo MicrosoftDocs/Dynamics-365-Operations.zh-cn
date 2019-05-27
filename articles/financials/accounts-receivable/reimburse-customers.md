@@ -19,35 +19,35 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 36e7e684e207e13baffa7eefd13e8e4a29d99914
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "325219"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549644"
 ---
-# <a name="reimburse-customers"></a><span data-ttu-id="5a72b-104">补偿客户</span><span class="sxs-lookup"><span data-stu-id="5a72b-104">Reimburse customers</span></span>
+# <a name="reimburse-customers"></a><span data-ttu-id="2954e-104">补偿客户</span><span class="sxs-lookup"><span data-stu-id="2954e-104">Reimburse customers</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="5a72b-105">本文说明如何为一组客户创建偿还交易记录。</span><span class="sxs-lookup"><span data-stu-id="5a72b-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="5a72b-106">如果某一客户具有贷方余额，您可以为该客户偿还剩余的金额。</span><span class="sxs-lookup"><span data-stu-id="5a72b-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
+<span data-ttu-id="2954e-105">本文说明如何为一组客户创建偿还交易记录。</span><span class="sxs-lookup"><span data-stu-id="2954e-105">This article explains how to create reimbursement transactions for a group of customers.</span></span> <span data-ttu-id="2954e-106">如果某一客户具有贷方余额，您可以为该客户偿还剩余的金额。</span><span class="sxs-lookup"><span data-stu-id="2954e-106">If a customer has a credit balance, you can reimburse the customer for the amount of the balance.</span></span> 
 
-<span data-ttu-id="5a72b-107">下表显示必须先就绪然后才能开始的先决条件。</span><span class="sxs-lookup"><span data-stu-id="5a72b-107">The following table shows the prerequisites that must be in place before you start.</span></span>
+<span data-ttu-id="2954e-107">下表显示必须先就绪然后才能开始的先决条件。</span><span class="sxs-lookup"><span data-stu-id="2954e-107">The following table shows the prerequisites that must be in place before you start.</span></span>
 
-| <span data-ttu-id="5a72b-108">先决条件</span><span class="sxs-lookup"><span data-stu-id="5a72b-108">Prerequisite</span></span>                                                            | <span data-ttu-id="5a72b-109">描述</span><span class="sxs-lookup"><span data-stu-id="5a72b-109">Description</span></span>                                                                                                                                                                                 |
+| <span data-ttu-id="2954e-108">先决条件</span><span class="sxs-lookup"><span data-stu-id="2954e-108">Prerequisite</span></span>                                                            | <span data-ttu-id="2954e-109">描述</span><span class="sxs-lookup"><span data-stu-id="2954e-109">Description</span></span>                                                                                                                                                                                 |
 |-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="5a72b-110">为法人指定最低偿还金额。</span><span class="sxs-lookup"><span data-stu-id="5a72b-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="5a72b-111">在**应收账款参数**页上，在**常规**区域中，在 **最低偿还额**字段中，输入可以偿还客户超额支付的最小金额。</span><span class="sxs-lookup"><span data-stu-id="5a72b-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
-| <span data-ttu-id="5a72b-112">可选：为每一个可获得偿还的客户添加一个供应商帐户。</span><span class="sxs-lookup"><span data-stu-id="5a72b-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="5a72b-113">在**客户**页，在**杂项详细信息**快速选项卡上，在**供应商帐户**字段中，选择客户的供应商帐户。</span><span class="sxs-lookup"><span data-stu-id="5a72b-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
+| <span data-ttu-id="2954e-110">为法人指定最低偿还金额。</span><span class="sxs-lookup"><span data-stu-id="2954e-110">Specify the minimum reimbursement amount for the legal entity.</span></span>          | <span data-ttu-id="2954e-111">在**应收账款参数**页上，在**常规**区域中，在 **最低偿还额**字段中，输入可以偿还客户超额支付的最小金额。</span><span class="sxs-lookup"><span data-stu-id="2954e-111">On the **Accounts receivable parameters** page, in the **General** area, in the **Minimum reimbursement** field, enter the minimum amount that can be reimbursed for customer overpayments.</span></span> |
+| <span data-ttu-id="2954e-112">可选：为每一个可获得偿还的客户添加一个供应商帐户。</span><span class="sxs-lookup"><span data-stu-id="2954e-112">Optional: Add a vendor account to each customer that can be reimbursed.</span></span> | <span data-ttu-id="2954e-113">在**客户**页，在**杂项详细信息**快速选项卡上，在**供应商帐户**字段中，选择客户的供应商帐户。</span><span class="sxs-lookup"><span data-stu-id="2954e-113">On the **Customers** page, on the **Miscellaneous details** FastTab, in the **Vendor account** field, select the vendor account for the customer.</span></span>                                           |
 
-<span data-ttu-id="5a72b-114">当您创建偿还交易记录时，将针对贷方余额创建供应商发票。</span><span class="sxs-lookup"><span data-stu-id="5a72b-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="5a72b-115">偿还流程移除了客户帐户的贷方余额，并创建对应客户的供应商帐户结欠金额。</span><span class="sxs-lookup"><span data-stu-id="5a72b-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
+<span data-ttu-id="2954e-114">当您创建偿还交易记录时，将针对贷方余额创建供应商发票。</span><span class="sxs-lookup"><span data-stu-id="2954e-114">When you create reimbursement transactions, a vendor invoice is created for the amount of the credit balance.</span></span> <span data-ttu-id="2954e-115">偿还流程移除了客户帐户的贷方余额，并创建对应客户的供应商帐户结欠金额。</span><span class="sxs-lookup"><span data-stu-id="2954e-115">The reimbursement process removes the credit balance for the customer account and creates a balance due for the vendor account that corresponds to the customer.</span></span>
 
-1.  <span data-ttu-id="5a72b-116">在“应收账款”中，请运行**偿还**流程。</span><span class="sxs-lookup"><span data-stu-id="5a72b-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
-2.  <span data-ttu-id="5a72b-117">按以下步骤之一：</span><span class="sxs-lookup"><span data-stu-id="5a72b-117">Follow one of these steps:</span></span>
-    -   <span data-ttu-id="5a72b-118">若要偿还特定的客户帐户，请单击**选择**，然后在查询中指定客户帐户。</span><span class="sxs-lookup"><span data-stu-id="5a72b-118">To reimburse specific customer accounts, click **Select**, and specify the customer accounts in the query.</span></span>
-    -   <span data-ttu-id="5a72b-119">若要偿还所有客户帐户，请单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="5a72b-119">To reimburse all customer accounts, click **OK**.</span></span>
+1.  <span data-ttu-id="2954e-116">在“应收账款”中，请运行**偿还**流程。</span><span class="sxs-lookup"><span data-stu-id="2954e-116">In Accounts receivable, run the **Reimbursement** process.</span></span>
+2.  <span data-ttu-id="2954e-117">按以下步骤之一：</span><span class="sxs-lookup"><span data-stu-id="2954e-117">Follow one of these steps:</span></span>
+    -   <span data-ttu-id="2954e-118">若要偿还特定的客户帐户，请单击**选择**，然后在查询中指定客户帐户。</span><span class="sxs-lookup"><span data-stu-id="2954e-118">To reimburse specific customer accounts, click **Select**, and specify the customer accounts in the query.</span></span>
+    -   <span data-ttu-id="2954e-119">若要偿还所有客户帐户，请单击**确定**。</span><span class="sxs-lookup"><span data-stu-id="2954e-119">To reimburse all customer accounts, click **OK**.</span></span>
 
-    <span data-ttu-id="5a72b-120">贷方金额将转移到客户的供应商帐户，并且按一般的付款进行处理。</span><span class="sxs-lookup"><span data-stu-id="5a72b-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="5a72b-121">如果某一客户不具有供应商帐户，则将自动为该客户创建零星供应商帐户。</span><span class="sxs-lookup"><span data-stu-id="5a72b-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
-3.  <span data-ttu-id="5a72b-122">若要查看创建的偿还交易记录，使用**偿还**页。</span><span class="sxs-lookup"><span data-stu-id="5a72b-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
-4.  <span data-ttu-id="5a72b-123">在应付账款中，为偿还流程创建的供应商发票创建付款。</span><span class="sxs-lookup"><span data-stu-id="5a72b-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
+    <span data-ttu-id="2954e-120">贷方金额将转移到客户的供应商帐户，并且按一般的付款进行处理。</span><span class="sxs-lookup"><span data-stu-id="2954e-120">The credit amounts are transferred to the vendor accounts of the customers and are processed as ordinary payments.</span></span> <span data-ttu-id="2954e-121">如果某一客户不具有供应商帐户，则将自动为该客户创建零星供应商帐户。</span><span class="sxs-lookup"><span data-stu-id="2954e-121">If a customer doesn't have a vendor account, a one-time vendor account is automatically created for the customer.</span></span>
+3.  <span data-ttu-id="2954e-122">若要查看创建的偿还交易记录，使用**偿还**页。</span><span class="sxs-lookup"><span data-stu-id="2954e-122">To view the reimbursement transactions that were created, use the **Reimbursement** page.</span></span>
+4.  <span data-ttu-id="2954e-123">在应付账款中，为偿还流程创建的供应商发票创建付款。</span><span class="sxs-lookup"><span data-stu-id="2954e-123">In Accounts payable, create a payment for the vendor invoices that were created by the reimbursement process.</span></span>
 
 
 

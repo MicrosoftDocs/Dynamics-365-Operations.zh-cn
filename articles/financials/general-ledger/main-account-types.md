@@ -19,25 +19,25 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5aadac3defc01be10daf5f3737d428135f4fb544
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313857"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561542"
 ---
-# <a name="main-account-types"></a><span data-ttu-id="2f45f-103">主科目类型</span><span class="sxs-lookup"><span data-stu-id="2f45f-103">Main account types</span></span>
+# <a name="main-account-types"></a><span data-ttu-id="8d2e7-103">主科目类型</span><span class="sxs-lookup"><span data-stu-id="8d2e7-103">Main account types</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="2f45f-104">主科目类型确定主科目如何用于会计科目表。</span><span class="sxs-lookup"><span data-stu-id="2f45f-104">The main account types determine how a main account is used in the chart of accounts.</span></span>
+<span data-ttu-id="8d2e7-104">主科目类型确定主科目如何用于会计科目表。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-104">The main account types determine how a main account is used in the chart of accounts.</span></span>
 
-<span data-ttu-id="2f45f-105">当您在“主科目 - 会计科目表”页中创建主科目时，必须选择主科目类型。</span><span class="sxs-lookup"><span data-stu-id="2f45f-105">You must select a main account type when you create a main account in the Main accounts - chart of accounts page.</span></span>
--   <span data-ttu-id="2f45f-106">损益、收入及支出 – 这些主科目用于过帐科目。</span><span class="sxs-lookup"><span data-stu-id="2f45f-106">Profit and loss, Revenue, and Expense – These main accounts are used as posting accounts.</span></span> <span data-ttu-id="2f45f-107">损益科目用于记录收入和支出。</span><span class="sxs-lookup"><span data-stu-id="2f45f-107">Profit and loss accounts are used to record revenue and expenses.</span></span> <span data-ttu-id="2f45f-108">所有损益、收入和支出科目的总和确定年末结果。</span><span class="sxs-lookup"><span data-stu-id="2f45f-108">The sum of all profit and loss, revenue, and expense accounts determines the year-end results.</span></span> <span data-ttu-id="2f45f-109">收入和支出科目具有和损益主科目相同的功能。</span><span class="sxs-lookup"><span data-stu-id="2f45f-109">Revenue and Expense main accounts have the same function as Profit and loss main accounts.</span></span>
--   <span data-ttu-id="2f45f-110">资产负债表、资产、负债和权益 – 这些主科目用作交易记录科目，以记录法人持有或赊欠的金额。</span><span class="sxs-lookup"><span data-stu-id="2f45f-110">Balance sheet, Asset, Liability, and Equity – These main accounts are used as transaction accounts to record the amounts that a legal entity owns or owes.</span></span>
--   <span data-ttu-id="2f45f-111">总计 – 这些主科目用于添加科目间隔。</span><span class="sxs-lookup"><span data-stu-id="2f45f-111">Total – These main accounts are used to add account intervals.</span></span> <span data-ttu-id="2f45f-112">通过使用“科目间隔”页配置“总计”主科目类型，该窗体将显示所有科目间隔对组余额合计。</span><span class="sxs-lookup"><span data-stu-id="2f45f-112">Configure the Total main account type by using the Account interval page, which displays the total of the group balances for all account intervals.</span></span> <span data-ttu-id="2f45f-113">一旦您选择了“总计”科目类型，通过在“常规”选项卡上单击“总计”访问“科目间隔”页。</span><span class="sxs-lookup"><span data-stu-id="2f45f-113">Access the Account interval page by click Totals on the General tab once you have selected a Total account type.</span></span>
--   <span data-ttu-id="2f45f-114">报告 – 这些主科目仅用于巴西财务报表报告。</span><span class="sxs-lookup"><span data-stu-id="2f45f-114">Reporting – These main accounts are used for financial statement reporting for Brazil only.</span></span>
+<span data-ttu-id="8d2e7-105">当您在“主科目 - 会计科目表”页中创建主科目时，必须选择主科目类型。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-105">You must select a main account type when you create a main account in the Main accounts - chart of accounts page.</span></span>
+-   <span data-ttu-id="8d2e7-106">损益、收入及支出 – 这些主科目用于过帐科目。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-106">Profit and loss, Revenue, and Expense – These main accounts are used as posting accounts.</span></span> <span data-ttu-id="8d2e7-107">损益科目用于记录收入和支出。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-107">Profit and loss accounts are used to record revenue and expenses.</span></span> <span data-ttu-id="8d2e7-108">所有损益、收入和支出科目的总和确定年末结果。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-108">The sum of all profit and loss, revenue, and expense accounts determines the year-end results.</span></span> <span data-ttu-id="8d2e7-109">收入和支出科目具有和损益主科目相同的功能。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-109">Revenue and Expense main accounts have the same function as Profit and loss main accounts.</span></span>
+-   <span data-ttu-id="8d2e7-110">资产负债表、资产、负债和权益 – 这些主科目用作交易记录科目，以记录法人持有或赊欠的金额。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-110">Balance sheet, Asset, Liability, and Equity – These main accounts are used as transaction accounts to record the amounts that a legal entity owns or owes.</span></span>
+-   <span data-ttu-id="8d2e7-111">总计 – 这些主科目用于添加科目间隔。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-111">Total – These main accounts are used to add account intervals.</span></span> <span data-ttu-id="8d2e7-112">通过使用“科目间隔”页配置“总计”主科目类型，该窗体将显示所有科目间隔对组余额合计。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-112">Configure the Total main account type by using the Account interval page, which displays the total of the group balances for all account intervals.</span></span> <span data-ttu-id="8d2e7-113">一旦您选择了“总计”科目类型，通过在“常规”选项卡上单击“总计”访问“科目间隔”页。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-113">Access the Account interval page by click Totals on the General tab once you have selected a Total account type.</span></span>
+-   <span data-ttu-id="8d2e7-114">报告 – 这些主科目仅用于巴西财务报表报告。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-114">Reporting – These main accounts are used for financial statement reporting for Brazil only.</span></span>
 
-<span data-ttu-id="2f45f-115">有关详细信息，请参阅[设置主科目类别](tasks/set-up-main-account-categories.md)。</span><span class="sxs-lookup"><span data-stu-id="2f45f-115">For more information, see [Set up main account categories](tasks/set-up-main-account-categories.md).</span></span>
+<span data-ttu-id="8d2e7-115">有关详细信息，请参阅[设置主科目类别](tasks/set-up-main-account-categories.md)。</span><span class="sxs-lookup"><span data-stu-id="8d2e7-115">For more information, see [Set up main account categories](tasks/set-up-main-account-categories.md).</span></span>
 
 
 

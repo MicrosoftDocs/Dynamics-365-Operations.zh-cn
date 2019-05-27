@@ -20,26 +20,26 @@ ms.author: asharchw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
 ms.openlocfilehash: 7ea5efd1fcde233145e97aea30d312bbe70b20ac
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357994"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557892"
 ---
-# <a name="analyze-sales-trends-and-patterns"></a><span data-ttu-id="ed6ae-103">分析销售趋势和模式</span><span class="sxs-lookup"><span data-stu-id="ed6ae-103">Analyze sales trends and patterns</span></span>
+# <a name="analyze-sales-trends-and-patterns"></a><span data-ttu-id="b1445-103">分析销售趋势和模式</span><span class="sxs-lookup"><span data-stu-id="b1445-103">Analyze sales trends and patterns</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="ed6ae-104">您可以在 Microsoft Dynamics 365 for Retail 中实时研究销售趋势和模式。</span><span class="sxs-lookup"><span data-stu-id="ed6ae-104">You can study sales trends and patterns in real time in Microsoft Dynamics 365 for Retail.</span></span>
+<span data-ttu-id="b1445-104">您可以在 Microsoft Dynamics 365 for Retail 中实时研究销售趋势和模式。</span><span class="sxs-lookup"><span data-stu-id="b1445-104">You can study sales trends and patterns in real time in Microsoft Dynamics 365 for Retail.</span></span>
 
-<span data-ttu-id="ed6ae-105">作为 Dynamics 365 for Retail 的一部分，用户可以通过使用现成的**按年排列的渠道销售额**报表，实时研究年度期间跨组织层次结构不同级别的销售趋势和模式。</span><span class="sxs-lookup"><span data-stu-id="ed6ae-105">As part of Dynamics 365 for Retail, users can study sales trends and patterns in real time across different levels of the organization hierarchy over a period of years by using the out-of-box **Channel sales by year** report.</span></span> <span data-ttu-id="ed6ae-106">您可以从以下任何位置打开此报表：</span><span class="sxs-lookup"><span data-stu-id="ed6ae-106">You can open this report from any of the following locations:</span></span>
+<span data-ttu-id="b1445-105">作为 Dynamics 365 for Retail 的一部分，用户可以通过使用现成的**按年排列的渠道销售额**报表，实时研究年度期间跨组织层次结构不同级别的销售趋势和模式。</span><span class="sxs-lookup"><span data-stu-id="b1445-105">As part of Dynamics 365 for Retail, users can study sales trends and patterns in real time across different levels of the organization hierarchy over a period of years by using the out-of-box **Channel sales by year** report.</span></span> <span data-ttu-id="b1445-106">您可以从以下任何位置打开此报表：</span><span class="sxs-lookup"><span data-stu-id="b1445-106">You can open this report from any of the following locations:</span></span>
 
-- <span data-ttu-id="ed6ae-107">**零售商店管理**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店管理** &gt; **报表** &gt; **按年排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="ed6ae-107">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
-- <span data-ttu-id="ed6ae-108">**零售商店财务**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店财务** &gt; **报表** &gt; **按年排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="ed6ae-108">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
-- <span data-ttu-id="ed6ae-109">**查询和报表**部分 &gt; **零售** &gt; **查询和报表** &gt; **销售报表** &gt; **按年排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="ed6ae-109">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by year report**</span></span>
+- <span data-ttu-id="b1445-107">**零售商店管理**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店管理** &gt; **报表** &gt; **按年排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="b1445-107">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+- <span data-ttu-id="b1445-108">**零售商店财务**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店财务** &gt; **报表** &gt; **按年排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="b1445-108">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by year report**</span></span>
+- <span data-ttu-id="b1445-109">**查询和报表**部分 &gt; **零售** &gt; **查询和报表** &gt; **销售报表** &gt; **按年排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="b1445-109">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by year report**</span></span>
 
-<span data-ttu-id="ed6ae-110">用户还可以通过使用现成的**分时渠道销售额**报表，研究所选期间跨组织层次结构不同级别的销售趋势和模式（分时）。</span><span class="sxs-lookup"><span data-stu-id="ed6ae-110">Users can also study sales trends and patterns by hour across different levels of the organization hierarchy over a selected period by using the out-of-box **Channel sales by hour** report.</span></span> <span data-ttu-id="ed6ae-111">您可以从以下任何位置打开此报表：</span><span class="sxs-lookup"><span data-stu-id="ed6ae-111">You can open this report from any of the following locations:</span></span>
+<span data-ttu-id="b1445-110">用户还可以通过使用现成的**分时渠道销售额**报表，研究所选期间跨组织层次结构不同级别的销售趋势和模式（分时）。</span><span class="sxs-lookup"><span data-stu-id="b1445-110">Users can also study sales trends and patterns by hour across different levels of the organization hierarchy over a selected period by using the out-of-box **Channel sales by hour** report.</span></span> <span data-ttu-id="b1445-111">您可以从以下任何位置打开此报表：</span><span class="sxs-lookup"><span data-stu-id="b1445-111">You can open this report from any of the following locations:</span></span>
 
-- <span data-ttu-id="ed6ae-112">**零售商店管理**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店管理** &gt; **报表** &gt; **按小时排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="ed6ae-112">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
-- <span data-ttu-id="ed6ae-113">**零售商店财务**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店财务** &gt; **报表** &gt; **按小时排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="ed6ae-113">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
-- <span data-ttu-id="ed6ae-114">**查询和报表**部分 &gt; **零售** &gt; **查询和报表** &gt; **销售报表** &gt; **按小时排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="ed6ae-114">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by hour report**</span></span>
+- <span data-ttu-id="b1445-112">**零售商店管理**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店管理** &gt; **报表** &gt; **按小时排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="b1445-112">**Retail store management** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store management** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+- <span data-ttu-id="b1445-113">**零售商店财务**工作区 &gt; **零售** &gt; **渠道** &gt; **零售商店财务** &gt; **报表** &gt; **按小时排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="b1445-113">**Retail store financials** workspace &gt; **Retail** &gt; **Channels** &gt; **Retail store financials** &gt; **Reports** &gt; **Channel sales by hour report**</span></span>
+- <span data-ttu-id="b1445-114">**查询和报表**部分 &gt; **零售** &gt; **查询和报表** &gt; **销售报表** &gt; **按小时排列的渠道销售额报表**</span><span class="sxs-lookup"><span data-stu-id="b1445-114">**Inquiries and reports** section &gt; **Retail** &gt; **Inquiries and reports** &gt; **Sales reports** &gt; **Channel sales by hour report**</span></span>

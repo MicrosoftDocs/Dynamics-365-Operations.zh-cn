@@ -17,46 +17,46 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 0bb08b422f52002c0551093e17d2d51fc8a2367d
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856247"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1510674"
 ---
-# <a name="create-a-goal"></a><span data-ttu-id="cc52b-103">创建目标</span><span class="sxs-lookup"><span data-stu-id="cc52b-103">Create a goal</span></span>
+# <a name="create-a-goal"></a><span data-ttu-id="c912f-103">创建目标</span><span class="sxs-lookup"><span data-stu-id="c912f-103">Create a goal</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="cc52b-104">可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。</span><span class="sxs-lookup"><span data-stu-id="cc52b-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="cc52b-105">创建该过程的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="cc52b-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="cc52b-106">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="cc52b-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
+<span data-ttu-id="c912f-104">可以创建目标，向目标添加活动，跟踪量化指标，以及将目标链接到审核。</span><span class="sxs-lookup"><span data-stu-id="c912f-104">You can create goals, add activities to goals, track measurements, and link the goals to a review.</span></span> <span data-ttu-id="c912f-105">创建该过程的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="c912f-105">This procedure was created using the USMF demo data company.</span></span> <span data-ttu-id="c912f-106">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="c912f-106">This procedure is for a feature that was added in Dynamics 365 for Operations, version 1611.</span></span>
 
-1. <span data-ttu-id="cc52b-107">转到“所有工作区”>“员工自助服务”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-107">Go to All workspaces > Employee self service.</span></span>
-2. <span data-ttu-id="cc52b-108">单击“查看所有目标”</span><span class="sxs-lookup"><span data-stu-id="cc52b-108">Click View all goals</span></span>
-3. <span data-ttu-id="cc52b-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-109">Click New.</span></span>
-4. <span data-ttu-id="cc52b-110">在“名称”字段中，键入“完成 Contoso 项目”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-110">In the Name field, type 'Complete the Contoso project'.</span></span>
-5. <span data-ttu-id="cc52b-111">在“概览”字段中，输入”我将在 30 天内完成 Contoso 项目“。</span><span class="sxs-lookup"><span data-stu-id="cc52b-111">In the Overview field, enter 'I will finish the Contoso project in 30 days'.</span></span>
-    * <span data-ttu-id="cc52b-112">目标可以适用于个人、团队，甚至可以适用于企业。</span><span class="sxs-lookup"><span data-stu-id="cc52b-112">Goals can apply to an individual, a team, or even a corporation.</span></span> <span data-ttu-id="cc52b-113">“员工目标”的默认设置适用于个人。</span><span class="sxs-lookup"><span data-stu-id="cc52b-113">The default setting for Employee goals is Individual.</span></span>  
-6. <span data-ttu-id="cc52b-114">在“目标类别”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="cc52b-114">In the Goal category field, enter or select a value.</span></span>
-7. <span data-ttu-id="cc52b-115">在"开始日期"字段中，更改显示的日期。</span><span class="sxs-lookup"><span data-stu-id="cc52b-115">In the Start date field, change the date shown.</span></span>
-8. <span data-ttu-id="cc52b-116">在"结束日期"字段中，更改显示的日期。</span><span class="sxs-lookup"><span data-stu-id="cc52b-116">In the End date field, change the date shown.</span></span>
-    * <span data-ttu-id="cc52b-117">完成目标时，请在此处输入目标的完成日期。</span><span class="sxs-lookup"><span data-stu-id="cc52b-117">When you complete a goal, enter the date that you completed the goal here.</span></span>  
-9. <span data-ttu-id="cc52b-118">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-118">Click Save.</span></span>
-10. <span data-ttu-id="cc52b-119">展开“量化指标”部分。</span><span class="sxs-lookup"><span data-stu-id="cc52b-119">Expand the Measurements section.</span></span> <span data-ttu-id="cc52b-120">如果已展开，请单击两次“展开”箭头。</span><span class="sxs-lookup"><span data-stu-id="cc52b-120">If it is already expanded, click the Expand arrow twice.</span></span>
-11. <span data-ttu-id="cc52b-121">单击“添加量化指标”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="cc52b-121">Click Add measurement to open the drop dialog.</span></span>
-12. <span data-ttu-id="cc52b-122">在“量化指标”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="cc52b-122">In the Measurement field, enter or select a value.</span></span>
-13. <span data-ttu-id="cc52b-123">在“目标金额”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="cc52b-123">In the Target amount field, enter a number.</span></span>
-14. <span data-ttu-id="cc52b-124">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-124">Click OK.</span></span>
-15. <span data-ttu-id="cc52b-125">展开“活动”部分。</span><span class="sxs-lookup"><span data-stu-id="cc52b-125">Expand the Activities section.</span></span> <span data-ttu-id="cc52b-126">如果已展开，请单击两次“展开”箭头。</span><span class="sxs-lookup"><span data-stu-id="cc52b-126">If it is already expanded, click the Expand arrow twice.</span></span>
-16. <span data-ttu-id="cc52b-127">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-127">Click Add.</span></span>
-17. <span data-ttu-id="cc52b-128">在“标题”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="cc52b-128">In the Title field, type a value.</span></span>
-18. <span data-ttu-id="cc52b-129">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="cc52b-129">In the Description field, type a value.</span></span>
-19. <span data-ttu-id="cc52b-130">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-130">Click Save.</span></span>
-20. <span data-ttu-id="cc52b-131">单击“显示部分”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="cc52b-131">Click Show sections to open the drop dialog.</span></span>
-21. <span data-ttu-id="cc52b-132">在“显示量化指标”字段中选择“否”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-132">Select No in the Show measurements field.</span></span>
-22. <span data-ttu-id="cc52b-133">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-133">Click Save.</span></span>
-23. <span data-ttu-id="cc52b-134">单击“显示部分”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="cc52b-134">Click Show sections to open the drop dialog.</span></span>
-24. <span data-ttu-id="cc52b-135">在“显示量化指标”字段中，选择“是”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-135">Select Yes in the Show measurements field.</span></span>
-25. <span data-ttu-id="cc52b-136">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="cc52b-136">Click Save.</span></span>
-    * <span data-ttu-id="cc52b-137">团队成员或所有员工通常有一些相同或相似的目标。</span><span class="sxs-lookup"><span data-stu-id="cc52b-137">There are often goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="cc52b-138">人力资源管理员或经理可以为这些目标创建目标模板。</span><span class="sxs-lookup"><span data-stu-id="cc52b-138">Your HR administrator or manager can create goal templates for those goals.</span></span> <span data-ttu-id="cc52b-139">可以从模板添加目标，然后修改以匹配您的日程表。</span><span class="sxs-lookup"><span data-stu-id="cc52b-139">You can add a goal from a template, and then modify it to match your timelines.</span></span>  
-    * <span data-ttu-id="cc52b-140">团队成员或所有员工通常有若干相同或相似的目标。</span><span class="sxs-lookup"><span data-stu-id="cc52b-140">There are often several goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="cc52b-141">您的人力资源管理员或经理可创建包含一个或多个目标模板的目标组。</span><span class="sxs-lookup"><span data-stu-id="cc52b-141">Your HR administrator or manager can create goal groups that contain one or more goal templates.</span></span> <span data-ttu-id="cc52b-142">可以从目标组添加目标，然后修改以匹配您的日程表。</span><span class="sxs-lookup"><span data-stu-id="cc52b-142">You can add goals from a goal group, and then modify them to match your timelines.</span></span>  
-    * <span data-ttu-id="cc52b-143">创建审核时，可以向其添加目标。</span><span class="sxs-lookup"><span data-stu-id="cc52b-143">When you create a review, you can add goals to that review.</span></span> <span data-ttu-id="cc52b-144">请参阅审核的任务指南以了解如何向审核添加目标。</span><span class="sxs-lookup"><span data-stu-id="cc52b-144">Refer to the task guide for reviews to see how you can add goals to your reviews.</span></span>  
+1. <span data-ttu-id="c912f-107">转到“所有工作区”>“员工自助服务”。</span><span class="sxs-lookup"><span data-stu-id="c912f-107">Go to All workspaces > Employee self service.</span></span>
+2. <span data-ttu-id="c912f-108">单击“查看所有目标”</span><span class="sxs-lookup"><span data-stu-id="c912f-108">Click View all goals</span></span>
+3. <span data-ttu-id="c912f-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="c912f-109">Click New.</span></span>
+4. <span data-ttu-id="c912f-110">在“名称”字段中，键入“完成 Contoso 项目”。</span><span class="sxs-lookup"><span data-stu-id="c912f-110">In the Name field, type 'Complete the Contoso project'.</span></span>
+5. <span data-ttu-id="c912f-111">在“概览”字段中，输入”我将在 30 天内完成 Contoso 项目“。</span><span class="sxs-lookup"><span data-stu-id="c912f-111">In the Overview field, enter 'I will finish the Contoso project in 30 days'.</span></span>
+    * <span data-ttu-id="c912f-112">目标可以适用于个人、团队，甚至可以适用于企业。</span><span class="sxs-lookup"><span data-stu-id="c912f-112">Goals can apply to an individual, a team, or even a corporation.</span></span> <span data-ttu-id="c912f-113">“员工目标”的默认设置适用于个人。</span><span class="sxs-lookup"><span data-stu-id="c912f-113">The default setting for Employee goals is Individual.</span></span>  
+6. <span data-ttu-id="c912f-114">在“目标类别”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="c912f-114">In the Goal category field, enter or select a value.</span></span>
+7. <span data-ttu-id="c912f-115">在"开始日期"字段中，更改显示的日期。</span><span class="sxs-lookup"><span data-stu-id="c912f-115">In the Start date field, change the date shown.</span></span>
+8. <span data-ttu-id="c912f-116">在"结束日期"字段中，更改显示的日期。</span><span class="sxs-lookup"><span data-stu-id="c912f-116">In the End date field, change the date shown.</span></span>
+    * <span data-ttu-id="c912f-117">完成目标时，请在此处输入目标的完成日期。</span><span class="sxs-lookup"><span data-stu-id="c912f-117">When you complete a goal, enter the date that you completed the goal here.</span></span>  
+9. <span data-ttu-id="c912f-118">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="c912f-118">Click Save.</span></span>
+10. <span data-ttu-id="c912f-119">展开“量化指标”部分。</span><span class="sxs-lookup"><span data-stu-id="c912f-119">Expand the Measurements section.</span></span> <span data-ttu-id="c912f-120">如果已展开，请单击两次“展开”箭头。</span><span class="sxs-lookup"><span data-stu-id="c912f-120">If it is already expanded, click the Expand arrow twice.</span></span>
+11. <span data-ttu-id="c912f-121">单击“添加量化指标”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="c912f-121">Click Add measurement to open the drop dialog.</span></span>
+12. <span data-ttu-id="c912f-122">在“量化指标”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="c912f-122">In the Measurement field, enter or select a value.</span></span>
+13. <span data-ttu-id="c912f-123">在“目标金额”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="c912f-123">In the Target amount field, enter a number.</span></span>
+14. <span data-ttu-id="c912f-124">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="c912f-124">Click OK.</span></span>
+15. <span data-ttu-id="c912f-125">展开“活动”部分。</span><span class="sxs-lookup"><span data-stu-id="c912f-125">Expand the Activities section.</span></span> <span data-ttu-id="c912f-126">如果已展开，请单击两次“展开”箭头。</span><span class="sxs-lookup"><span data-stu-id="c912f-126">If it is already expanded, click the Expand arrow twice.</span></span>
+16. <span data-ttu-id="c912f-127">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="c912f-127">Click Add.</span></span>
+17. <span data-ttu-id="c912f-128">在“标题”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c912f-128">In the Title field, type a value.</span></span>
+18. <span data-ttu-id="c912f-129">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c912f-129">In the Description field, type a value.</span></span>
+19. <span data-ttu-id="c912f-130">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="c912f-130">Click Save.</span></span>
+20. <span data-ttu-id="c912f-131">单击“显示部分”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="c912f-131">Click Show sections to open the drop dialog.</span></span>
+21. <span data-ttu-id="c912f-132">在“显示量化指标”字段中选择“否”。</span><span class="sxs-lookup"><span data-stu-id="c912f-132">Select No in the Show measurements field.</span></span>
+22. <span data-ttu-id="c912f-133">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="c912f-133">Click Save.</span></span>
+23. <span data-ttu-id="c912f-134">单击“显示部分”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="c912f-134">Click Show sections to open the drop dialog.</span></span>
+24. <span data-ttu-id="c912f-135">在“显示量化指标”字段中，选择“是”。</span><span class="sxs-lookup"><span data-stu-id="c912f-135">Select Yes in the Show measurements field.</span></span>
+25. <span data-ttu-id="c912f-136">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="c912f-136">Click Save.</span></span>
+    * <span data-ttu-id="c912f-137">团队成员或所有员工通常有一些相同或相似的目标。</span><span class="sxs-lookup"><span data-stu-id="c912f-137">There are often goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="c912f-138">人力资源管理员或经理可以为这些目标创建目标模板。</span><span class="sxs-lookup"><span data-stu-id="c912f-138">Your HR administrator or manager can create goal templates for those goals.</span></span> <span data-ttu-id="c912f-139">可以从模板添加目标，然后修改以匹配您的日程表。</span><span class="sxs-lookup"><span data-stu-id="c912f-139">You can add a goal from a template, and then modify it to match your timelines.</span></span>  
+    * <span data-ttu-id="c912f-140">团队成员或所有员工通常有若干相同或相似的目标。</span><span class="sxs-lookup"><span data-stu-id="c912f-140">There are often several goals that are the same or similar for team members or all employees.</span></span>     <span data-ttu-id="c912f-141">您的人力资源管理员或经理可创建包含一个或多个目标模板的目标组。</span><span class="sxs-lookup"><span data-stu-id="c912f-141">Your HR administrator or manager can create goal groups that contain one or more goal templates.</span></span> <span data-ttu-id="c912f-142">可以从目标组添加目标，然后修改以匹配您的日程表。</span><span class="sxs-lookup"><span data-stu-id="c912f-142">You can add goals from a goal group, and then modify them to match your timelines.</span></span>  
+    * <span data-ttu-id="c912f-143">创建审核时，可以向其添加目标。</span><span class="sxs-lookup"><span data-stu-id="c912f-143">When you create a review, you can add goals to that review.</span></span> <span data-ttu-id="c912f-144">请参阅审核的任务指南以了解如何向审核添加目标。</span><span class="sxs-lookup"><span data-stu-id="c912f-144">Refer to the task guide for reviews to see how you can add goals to your reviews.</span></span>  
 
