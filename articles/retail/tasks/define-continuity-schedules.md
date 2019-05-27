@@ -18,49 +18,49 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: dd70780927bb9aaa19c196705d6e8fa1c247ea66
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330509"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559224"
 ---
-# <a name="define-continuity-schedules"></a><span data-ttu-id="8145e-103">定义连续性计划</span><span class="sxs-lookup"><span data-stu-id="8145e-103">Define continuity schedules</span></span>
+# <a name="define-continuity-schedules"></a><span data-ttu-id="f9519-103">定义连续性计划</span><span class="sxs-lookup"><span data-stu-id="f9519-103">Define continuity schedules</span></span>
 
 [!include[task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="8145e-104">本主题逐步演示如何设置连续性计划（也称为重复订单）。</span><span class="sxs-lookup"><span data-stu-id="8145e-104">This topic walks through setting up a continuity program (otherwise known as reoccurring orders).</span></span> <span data-ttu-id="8145e-105">本主题使用演示数据中的公司 USRT。</span><span class="sxs-lookup"><span data-stu-id="8145e-105">This topic uses company USRT in the demo data.</span></span>
+<span data-ttu-id="f9519-104">本主题逐步演示如何设置连续性计划（也称为重复订单）。</span><span class="sxs-lookup"><span data-stu-id="f9519-104">This topic walks through setting up a continuity program (otherwise known as reoccurring orders).</span></span> <span data-ttu-id="f9519-105">本主题使用演示数据中的公司 USRT。</span><span class="sxs-lookup"><span data-stu-id="f9519-105">This topic uses company USRT in the demo data.</span></span>
 
 
-## <a name="create-continuity-program"></a><span data-ttu-id="8145e-106">创建连续性计划</span><span class="sxs-lookup"><span data-stu-id="8145e-106">Create continuity program</span></span>
-1. <span data-ttu-id="8145e-107">转至“零售和商业”>"连续性">“连续性计划”。</span><span class="sxs-lookup"><span data-stu-id="8145e-107">Go to Retail and commerce > Continuity > Continuity programs.</span></span>
-2. <span data-ttu-id="8145e-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="8145e-108">Click New.</span></span>
-3. <span data-ttu-id="8145e-109">在“计划 ID”字段中，键入连续性计划 ID。</span><span class="sxs-lookup"><span data-stu-id="8145e-109">In the Schedule ID field, type the continuity schedule ID.</span></span>
-4. <span data-ttu-id="8145e-110">在“订单开始”字段中，选择“第一个事件”。</span><span class="sxs-lookup"><span data-stu-id="8145e-110">In the Order start field, select 'First event'.</span></span>
-    * <span data-ttu-id="8145e-111">如果客户为连续性计划下一个新订单，产品将有两个装运选项：1.</span><span class="sxs-lookup"><span data-stu-id="8145e-111">If a customer places a new order for the continuity program, there are two options for which product will be shipped:  1.</span></span> <span data-ttu-id="8145e-112">第一个事件：将装运连续性计划中的第一个产品。</span><span class="sxs-lookup"><span data-stu-id="8145e-112">First event: the first product in the continuity program will be shipped.</span></span>  <span data-ttu-id="8145e-113">2</span><span class="sxs-lookup"><span data-stu-id="8145e-113">2.</span></span> <span data-ttu-id="8145e-114">当前事件：将装运当前产品。</span><span class="sxs-lookup"><span data-stu-id="8145e-114">Current event: the current product will be shipped.</span></span> <span data-ttu-id="8145e-115">例如，</span><span class="sxs-lookup"><span data-stu-id="8145e-115">For example.</span></span> <span data-ttu-id="8145e-116">计划中三个月，客户将收到计划中的第三个产品。</span><span class="sxs-lookup"><span data-stu-id="8145e-116">three months into the program, the customer will receive the third in the program.</span></span>  
-5. <span data-ttu-id="8145e-117">选择“是”提示输入订单的开始日期。</span><span class="sxs-lookup"><span data-stu-id="8145e-117">Select 'Yes' to prompt for the order start date.</span></span>
-6. <span data-ttu-id="8145e-118">单击“添加行”。</span><span class="sxs-lookup"><span data-stu-id="8145e-118">Click Add line.</span></span>
-7. <span data-ttu-id="8145e-119">在“物料编号”字段中，键入第一个产品的物料编号（“0013”）。</span><span class="sxs-lookup"><span data-stu-id="8145e-119">In the Item number field, type the item number for the first product ('0013').</span></span>
-8. <span data-ttu-id="8145e-120">键入“CP”。</span><span class="sxs-lookup"><span data-stu-id="8145e-120">Type 'CP'.</span></span>
-9. <span data-ttu-id="8145e-121">输入第一个产品可供订购的日期。</span><span class="sxs-lookup"><span data-stu-id="8145e-121">Enter the date when the first product will be available for order.</span></span>
-10. <span data-ttu-id="8145e-122">单击“添加行”。</span><span class="sxs-lookup"><span data-stu-id="8145e-122">Click Add line.</span></span>
-11. <span data-ttu-id="8145e-123">在“物料编号”字段中，键入“0014”。</span><span class="sxs-lookup"><span data-stu-id="8145e-123">In the Item number field, type '0014'.</span></span>
-12. <span data-ttu-id="8145e-124">在“日期间隔代码”字段中，清除值，使该字段为空。</span><span class="sxs-lookup"><span data-stu-id="8145e-124">In the Date interval code field, clear the value so the field is empty.</span></span>
-    * <span data-ttu-id="8145e-125">对于此过程，请清除日期间隔。</span><span class="sxs-lookup"><span data-stu-id="8145e-125">For this procedure, clear the date interval.</span></span> <span data-ttu-id="8145e-126">您将把该日期设置为从第一个物料的开始日期的增量。</span><span class="sxs-lookup"><span data-stu-id="8145e-126">You'll set the date as incremental from the start date of the first item.</span></span>  
-13. <span data-ttu-id="8145e-127">在这里输入产品的装运间隔。</span><span class="sxs-lookup"><span data-stu-id="8145e-127">Here you'll enter the interval at which the products are shipped.</span></span> <span data-ttu-id="8145e-128">键入“30”。</span><span class="sxs-lookup"><span data-stu-id="8145e-128">Type '30'.</span></span>
-    * <span data-ttu-id="8145e-129">对于每月计划，将为间隔输入 30 天。</span><span class="sxs-lookup"><span data-stu-id="8145e-129">For a monthly program, you'll enter 30 days for the interval.</span></span>  
-14. <span data-ttu-id="8145e-130">单击“添加行”。</span><span class="sxs-lookup"><span data-stu-id="8145e-130">Click Add line.</span></span>
-15. <span data-ttu-id="8145e-131">在“物料编号”字段中，键入“0015”。</span><span class="sxs-lookup"><span data-stu-id="8145e-131">In the Item number field, type '0015'.</span></span>
-16. <span data-ttu-id="8145e-132">键入“结束”。</span><span class="sxs-lookup"><span data-stu-id="8145e-132">Type 'End'.</span></span>
-17. <span data-ttu-id="8145e-133">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="8145e-133">Click Save.</span></span>
+## <a name="create-continuity-program"></a><span data-ttu-id="f9519-106">创建连续性计划</span><span class="sxs-lookup"><span data-stu-id="f9519-106">Create continuity program</span></span>
+1. <span data-ttu-id="f9519-107">转至“零售和商业”>"连续性&quot;&gt;“连续性计划”。</span><span class="sxs-lookup"><span data-stu-id="f9519-107">Go to Retail and commerce > Continuity > Continuity programs.</span></span>
+2. <span data-ttu-id="f9519-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="f9519-108">Click New.</span></span>
+3. <span data-ttu-id="f9519-109">在“计划 ID”字段中，键入连续性计划 ID。</span><span class="sxs-lookup"><span data-stu-id="f9519-109">In the Schedule ID field, type the continuity schedule ID.</span></span>
+4. <span data-ttu-id="f9519-110">在“订单开始”字段中，选择“第一个事件”。</span><span class="sxs-lookup"><span data-stu-id="f9519-110">In the Order start field, select 'First event'.</span></span>
+    * <span data-ttu-id="f9519-111">如果客户为连续性计划下一个新订单，产品将有两个装运选项：1.</span><span class="sxs-lookup"><span data-stu-id="f9519-111">If a customer places a new order for the continuity program, there are two options for which product will be shipped:  1.</span></span> <span data-ttu-id="f9519-112">第一个事件：将装运连续性计划中的第一个产品。</span><span class="sxs-lookup"><span data-stu-id="f9519-112">First event: the first product in the continuity program will be shipped.</span></span>  <span data-ttu-id="f9519-113">2</span><span class="sxs-lookup"><span data-stu-id="f9519-113">2.</span></span> <span data-ttu-id="f9519-114">当前事件：将装运当前产品。</span><span class="sxs-lookup"><span data-stu-id="f9519-114">Current event: the current product will be shipped.</span></span> <span data-ttu-id="f9519-115">例如，</span><span class="sxs-lookup"><span data-stu-id="f9519-115">For example.</span></span> <span data-ttu-id="f9519-116">计划中三个月，客户将收到计划中的第三个产品。</span><span class="sxs-lookup"><span data-stu-id="f9519-116">three months into the program, the customer will receive the third in the program.</span></span>  
+5. <span data-ttu-id="f9519-117">选择“是”提示输入订单的开始日期。</span><span class="sxs-lookup"><span data-stu-id="f9519-117">Select 'Yes' to prompt for the order start date.</span></span>
+6. <span data-ttu-id="f9519-118">单击“添加行”。</span><span class="sxs-lookup"><span data-stu-id="f9519-118">Click Add line.</span></span>
+7. <span data-ttu-id="f9519-119">在“物料编号”字段中，键入第一个产品的物料编号（“0013”）。</span><span class="sxs-lookup"><span data-stu-id="f9519-119">In the Item number field, type the item number for the first product ('0013').</span></span>
+8. <span data-ttu-id="f9519-120">键入“CP”。</span><span class="sxs-lookup"><span data-stu-id="f9519-120">Type 'CP'.</span></span>
+9. <span data-ttu-id="f9519-121">输入第一个产品可供订购的日期。</span><span class="sxs-lookup"><span data-stu-id="f9519-121">Enter the date when the first product will be available for order.</span></span>
+10. <span data-ttu-id="f9519-122">单击“添加行”。</span><span class="sxs-lookup"><span data-stu-id="f9519-122">Click Add line.</span></span>
+11. <span data-ttu-id="f9519-123">在“物料编号”字段中，键入“0014”。</span><span class="sxs-lookup"><span data-stu-id="f9519-123">In the Item number field, type '0014'.</span></span>
+12. <span data-ttu-id="f9519-124">在“日期间隔代码”字段中，清除值，使该字段为空。</span><span class="sxs-lookup"><span data-stu-id="f9519-124">In the Date interval code field, clear the value so the field is empty.</span></span>
+    * <span data-ttu-id="f9519-125">对于此过程，请清除日期间隔。</span><span class="sxs-lookup"><span data-stu-id="f9519-125">For this procedure, clear the date interval.</span></span> <span data-ttu-id="f9519-126">您将把该日期设置为从第一个物料的开始日期的增量。</span><span class="sxs-lookup"><span data-stu-id="f9519-126">You'll set the date as incremental from the start date of the first item.</span></span>  
+13. <span data-ttu-id="f9519-127">在这里输入产品的装运间隔。</span><span class="sxs-lookup"><span data-stu-id="f9519-127">Here you'll enter the interval at which the products are shipped.</span></span> <span data-ttu-id="f9519-128">键入“30”。</span><span class="sxs-lookup"><span data-stu-id="f9519-128">Type '30'.</span></span>
+    * <span data-ttu-id="f9519-129">对于每月计划，将为间隔输入 30 天。</span><span class="sxs-lookup"><span data-stu-id="f9519-129">For a monthly program, you'll enter 30 days for the interval.</span></span>  
+14. <span data-ttu-id="f9519-130">单击“添加行”。</span><span class="sxs-lookup"><span data-stu-id="f9519-130">Click Add line.</span></span>
+15. <span data-ttu-id="f9519-131">在“物料编号”字段中，键入“0015”。</span><span class="sxs-lookup"><span data-stu-id="f9519-131">In the Item number field, type '0015'.</span></span>
+16. <span data-ttu-id="f9519-132">键入“结束”。</span><span class="sxs-lookup"><span data-stu-id="f9519-132">Type 'End'.</span></span>
+17. <span data-ttu-id="f9519-133">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="f9519-133">Click Save.</span></span>
 
-## <a name="assign-to-continuity-item"></a><span data-ttu-id="8145e-134">分配给连续性物料</span><span class="sxs-lookup"><span data-stu-id="8145e-134">Assign to continuity item</span></span>
-1. <span data-ttu-id="8145e-135">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="8145e-135">Go to Product information management > Products > Released products.</span></span>
-2. <span data-ttu-id="8145e-136">选择物料“0016”。</span><span class="sxs-lookup"><span data-stu-id="8145e-136">Select item '0016'.</span></span>
-    * <span data-ttu-id="8145e-137">对于此过程，将选择物料编号 0016。</span><span class="sxs-lookup"><span data-stu-id="8145e-137">For this procedure, you'll select item number 0016.</span></span> <span data-ttu-id="8145e-138">通常您将已经创建了一个已发布产品，在呼叫中心中为该产品下销售订单时应用了更多连续性业务逻辑。</span><span class="sxs-lookup"><span data-stu-id="8145e-138">Normally, you'll have created a released product that has additional continuity business logic applied when it's placed on a sales order in call center.</span></span>  
-3. <span data-ttu-id="8145e-139">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="8145e-139">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="8145e-140">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="8145e-140">Click Edit.</span></span>
-5. <span data-ttu-id="8145e-141">展开或折叠“销售”部分。</span><span class="sxs-lookup"><span data-stu-id="8145e-141">Expand or collapse the Sell section.</span></span>
-6. <span data-ttu-id="8145e-142">在这里输入此物料代表的连续性计划。</span><span class="sxs-lookup"><span data-stu-id="8145e-142">Here you'll enter the continuity program that this item represents.</span></span> <span data-ttu-id="8145e-143">键入您之前创建的计划 ID。</span><span class="sxs-lookup"><span data-stu-id="8145e-143">Type the Schedule ID you created earlier.</span></span>
-    * <span data-ttu-id="8145e-144">此物料在呼叫中心售出时，将从所选连续性计划应用更多业务逻辑。</span><span class="sxs-lookup"><span data-stu-id="8145e-144">When this item is sold in a call center, additional business logic is applied from the selected continuity program.</span></span>  
-7. <span data-ttu-id="8145e-145">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="8145e-145">Click Save.</span></span>
+## <a name="assign-to-continuity-item"></a><span data-ttu-id="f9519-134">分配给连续性物料</span><span class="sxs-lookup"><span data-stu-id="f9519-134">Assign to continuity item</span></span>
+1. <span data-ttu-id="f9519-135">转到“产品信息管理”>“产品”>“已发布产品”。</span><span class="sxs-lookup"><span data-stu-id="f9519-135">Go to Product information management > Products > Released products.</span></span>
+2. <span data-ttu-id="f9519-136">选择物料“0016”。</span><span class="sxs-lookup"><span data-stu-id="f9519-136">Select item '0016'.</span></span>
+    * <span data-ttu-id="f9519-137">对于此过程，将选择物料编号 0016。</span><span class="sxs-lookup"><span data-stu-id="f9519-137">For this procedure, you'll select item number 0016.</span></span> <span data-ttu-id="f9519-138">通常您将已经创建了一个已发布产品，在呼叫中心中为该产品下销售订单时应用了更多连续性业务逻辑。</span><span class="sxs-lookup"><span data-stu-id="f9519-138">Normally, you'll have created a released product that has additional continuity business logic applied when it's placed on a sales order in call center.</span></span>  
+3. <span data-ttu-id="f9519-139">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="f9519-139">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="f9519-140">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="f9519-140">Click Edit.</span></span>
+5. <span data-ttu-id="f9519-141">展开或折叠“销售”部分。</span><span class="sxs-lookup"><span data-stu-id="f9519-141">Expand or collapse the Sell section.</span></span>
+6. <span data-ttu-id="f9519-142">在这里输入此物料代表的连续性计划。</span><span class="sxs-lookup"><span data-stu-id="f9519-142">Here you'll enter the continuity program that this item represents.</span></span> <span data-ttu-id="f9519-143">键入您之前创建的计划 ID。</span><span class="sxs-lookup"><span data-stu-id="f9519-143">Type the Schedule ID you created earlier.</span></span>
+    * <span data-ttu-id="f9519-144">此物料在呼叫中心售出时，将从所选连续性计划应用更多业务逻辑。</span><span class="sxs-lookup"><span data-stu-id="f9519-144">When this item is sold in a call center, additional business logic is applied from the selected continuity program.</span></span>  
+7. <span data-ttu-id="f9519-145">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="f9519-145">Click Save.</span></span>
 

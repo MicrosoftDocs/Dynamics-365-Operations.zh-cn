@@ -16,100 +16,100 @@ ms.author: tjvass
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: a190e15dc304f60739c80d75222830ee737c5a32
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355211"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548177"
 ---
-# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a><span data-ttu-id="f0d71-103">使用 Power BI Embedded 将分析添加到工作区</span><span class="sxs-lookup"><span data-stu-id="f0d71-103">Add analytics to workspaces by using Power BI Embedded</span></span>
+# <a name="add-analytics-to-workspaces-by-using-power-bi-embedded"></a><span data-ttu-id="aae72-103">使用 Power BI Embedded 将分析添加到工作区</span><span class="sxs-lookup"><span data-stu-id="aae72-103">Add analytics to workspaces by using Power BI Embedded</span></span>
 
 [!include [banner](../includes/banner.md)]
 
 > [!NOTE]
-> <span data-ttu-id="f0d71-104">此功能在 Dynamics 365 for Finance and Operations（版本 7.2 及更高版本）中受支持。</span><span class="sxs-lookup"><span data-stu-id="f0d71-104">This feature is supported in Dynamics 365 for Finance and Operations (version 7.2 and later).</span></span>
+> <span data-ttu-id="aae72-104">此功能在 Dynamics 365 for Finance and Operations（版本 7.2 及更高版本）中受支持。</span><span class="sxs-lookup"><span data-stu-id="aae72-104">This feature is supported in Dynamics 365 for Finance and Operations (version 7.2 and later).</span></span>
 
-## <a name="introduction"></a><span data-ttu-id="f0d71-105">简介</span><span class="sxs-lookup"><span data-stu-id="f0d71-105">Introduction</span></span>
-<span data-ttu-id="f0d71-106">本主题说明如何在工作区的**分析s**选项卡上嵌入 Microsoft Power BI 报表。</span><span class="sxs-lookup"><span data-stu-id="f0d71-106">This topic shows how to embed a Microsoft Power BI report on the **Analytics** tab of a workspace.</span></span> <span data-ttu-id="f0d71-107">对于此处提供的示例，我们将“车队管理”应用程序中的**预订管理**工作区扩展到在**分析**选项卡上嵌入分析工作区。</span><span class="sxs-lookup"><span data-stu-id="f0d71-107">For the example that is given here, we will extend the **Reservation management** workspace in the Fleet Management application to embed an analytical workspace on an **Analytics** tab.</span></span>
+## <a name="introduction"></a><span data-ttu-id="aae72-105">简介</span><span class="sxs-lookup"><span data-stu-id="aae72-105">Introduction</span></span>
+<span data-ttu-id="aae72-106">本主题说明如何在工作区的**分析s**选项卡上嵌入 Microsoft Power BI 报表。</span><span class="sxs-lookup"><span data-stu-id="aae72-106">This topic shows how to embed a Microsoft Power BI report on the **Analytics** tab of a workspace.</span></span> <span data-ttu-id="aae72-107">对于此处提供的示例，我们将“车队管理”应用程序中的**预订管理**工作区扩展到在**分析**选项卡上嵌入分析工作区。</span><span class="sxs-lookup"><span data-stu-id="aae72-107">For the example that is given here, we will extend the **Reservation management** workspace in the Fleet Management application to embed an analytical workspace on an **Analytics** tab.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="f0d71-108">必备项</span><span class="sxs-lookup"><span data-stu-id="f0d71-108">Prerequisites</span></span>
-+ <span data-ttu-id="f0d71-109">对运行平台更新 8 或更高版本的开发人员环境的访问权限。</span><span class="sxs-lookup"><span data-stu-id="f0d71-109">Access to a developer environment that runs Platform update 8 or later.</span></span>
-+ <span data-ttu-id="f0d71-110">使用 Microsoft Power BI Desktop 创建的分析报表（.pbix 文件），且具有从实体商店数据库采购的数据模型。</span><span class="sxs-lookup"><span data-stu-id="f0d71-110">An analytical report (.pbix file) that was created by using Microsoft Power BI Desktop, and that has a data model that is sourced from the Entity store database.</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="aae72-108">必备项</span><span class="sxs-lookup"><span data-stu-id="aae72-108">Prerequisites</span></span>
++ <span data-ttu-id="aae72-109">对运行平台更新 8 或更高版本的开发人员环境的访问权限。</span><span class="sxs-lookup"><span data-stu-id="aae72-109">Access to a developer environment that runs Platform update 8 or later.</span></span>
++ <span data-ttu-id="aae72-110">使用 Microsoft Power BI Desktop 创建的分析报表（.pbix 文件），且具有从实体商店数据库采购的数据模型。</span><span class="sxs-lookup"><span data-stu-id="aae72-110">An analytical report (.pbix file) that was created by using Microsoft Power BI Desktop, and that has a data model that is sourced from the Entity store database.</span></span>
 
-## <a name="overview"></a><span data-ttu-id="f0d71-111">概览</span><span class="sxs-lookup"><span data-stu-id="f0d71-111">Overview</span></span>
-<span data-ttu-id="f0d71-112">无论你是扩展现有的应用程序工作区，还是引入你自己创建新的工作区，都可以使用嵌入的分析视图来提供对你的业务数据的具有见解和交互的视图。</span><span class="sxs-lookup"><span data-stu-id="f0d71-112">Whether you extend an existing application workspace or introduce a new workspace of your own, you can use embedded analytical views to deliver insightful and interactive views of your business data.</span></span> <span data-ttu-id="f0d71-113">添加分析工作区选项卡的流程具有四个步骤。</span><span class="sxs-lookup"><span data-stu-id="f0d71-113">The process for adding an analytical workspace tab has four steps.</span></span>
+## <a name="overview"></a><span data-ttu-id="aae72-111">概览</span><span class="sxs-lookup"><span data-stu-id="aae72-111">Overview</span></span>
+<span data-ttu-id="aae72-112">无论你是扩展现有的应用程序工作区，还是引入你自己创建新的工作区，都可以使用嵌入的分析视图来提供对你的业务数据的具有见解和交互的视图。</span><span class="sxs-lookup"><span data-stu-id="aae72-112">Whether you extend an existing application workspace or introduce a new workspace of your own, you can use embedded analytical views to deliver insightful and interactive views of your business data.</span></span> <span data-ttu-id="aae72-113">添加分析工作区选项卡的流程具有四个步骤。</span><span class="sxs-lookup"><span data-stu-id="aae72-113">The process for adding an analytical workspace tab has four steps.</span></span>
 
-1. <span data-ttu-id="f0d71-114">将 .pbix 文件添加为 Dynamics 365 资源。</span><span class="sxs-lookup"><span data-stu-id="f0d71-114">Add a .pbix file as a Dynamics 365 resource.</span></span>
-2. <span data-ttu-id="f0d71-115">定义分析工作区选项卡。</span><span class="sxs-lookup"><span data-stu-id="f0d71-115">Define an analytical workspace tab.</span></span>
-3. <span data-ttu-id="f0d71-116">在工作区选项卡上嵌入 .pbix 资源。</span><span class="sxs-lookup"><span data-stu-id="f0d71-116">Embed the .pbix resource on the workspace tab.</span></span>
-4. <span data-ttu-id="f0d71-117">可选：添加扩展以自定义视图。</span><span class="sxs-lookup"><span data-stu-id="f0d71-117">Optional: Add extensions to customize the view.</span></span>
+1. <span data-ttu-id="aae72-114">将 .pbix 文件添加为 Dynamics 365 资源。</span><span class="sxs-lookup"><span data-stu-id="aae72-114">Add a .pbix file as a Dynamics 365 resource.</span></span>
+2. <span data-ttu-id="aae72-115">定义分析工作区选项卡。</span><span class="sxs-lookup"><span data-stu-id="aae72-115">Define an analytical workspace tab.</span></span>
+3. <span data-ttu-id="aae72-116">在工作区选项卡上嵌入 .pbix 资源。</span><span class="sxs-lookup"><span data-stu-id="aae72-116">Embed the .pbix resource on the workspace tab.</span></span>
+4. <span data-ttu-id="aae72-117">可选：添加扩展以自定义视图。</span><span class="sxs-lookup"><span data-stu-id="aae72-117">Optional: Add extensions to customize the view.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f0d71-118">有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。</span><span class="sxs-lookup"><span data-stu-id="f0d71-118">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span> <span data-ttu-id="f0d71-119">此页是提供帮助你创建出色的分析报告解决方案的见解的出色来源。</span><span class="sxs-lookup"><span data-stu-id="f0d71-119">This page is a great source for insights that can help you create compelling analytical reporting solutions.</span></span>
+> <span data-ttu-id="aae72-118">有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。</span><span class="sxs-lookup"><span data-stu-id="aae72-118">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span> <span data-ttu-id="aae72-119">此页是提供帮助你创建出色的分析报告解决方案的见解的出色来源。</span><span class="sxs-lookup"><span data-stu-id="aae72-119">This page is a great source for insights that can help you create compelling analytical reporting solutions.</span></span>
 
-## <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="f0d71-120">将 .pbix 文件添加为资源。</span><span class="sxs-lookup"><span data-stu-id="f0d71-120">Add a .pbix file as a resource</span></span>
-<span data-ttu-id="f0d71-121">在开始之前，你必须创建或获得在工作区中将嵌入的 Power BI 报表。</span><span class="sxs-lookup"><span data-stu-id="f0d71-121">Before you begin, you must create or obtain the Power BI report that you will embed in the workspace.</span></span> <span data-ttu-id="f0d71-122">有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。</span><span class="sxs-lookup"><span data-stu-id="f0d71-122">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span>
+## <a name="add-a-pbix-file-as-a-resource"></a><span data-ttu-id="aae72-120">将 .pbix 文件添加为资源。</span><span class="sxs-lookup"><span data-stu-id="aae72-120">Add a .pbix file as a resource</span></span>
+<span data-ttu-id="aae72-121">在开始之前，你必须创建或获得在工作区中将嵌入的 Power BI 报表。</span><span class="sxs-lookup"><span data-stu-id="aae72-121">Before you begin, you must create or obtain the Power BI report that you will embed in the workspace.</span></span> <span data-ttu-id="aae72-122">有关如何创建分析报表的详细信息，请参阅 [Power BI Desktop 入门](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/)。</span><span class="sxs-lookup"><span data-stu-id="aae72-122">For more information about how to create analytical reports, see [Getting started with Power BI Desktop](https://powerbi.microsoft.com/en-us/documentation/powerbi-desktop-getting-started/).</span></span>
 
-<span data-ttu-id="f0d71-123">执行以下步骤以将 .pbix 文件添加为 Visual Studio 项目。</span><span class="sxs-lookup"><span data-stu-id="f0d71-123">Follow these steps to add a .pbix file as a Visual Studio project artifact.</span></span>
+<span data-ttu-id="aae72-123">执行以下步骤以将 .pbix 文件添加为 Visual Studio 项目。</span><span class="sxs-lookup"><span data-stu-id="aae72-123">Follow these steps to add a .pbix file as a Visual Studio project artifact.</span></span>
 
-1. <span data-ttu-id="f0d71-124">在相应的模型中创建新项目。</span><span class="sxs-lookup"><span data-stu-id="f0d71-124">Create a new project in the appropriate model.</span></span>
-2. <span data-ttu-id="f0d71-125">在“解决方案资源管理器”中，选择项目，右键单击，然后选择**添加** \> **新物料**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-125">In Solution Explorer, select the project, right-click, and then select **Add** \> **New Item**.</span></span>
-3. <span data-ttu-id="f0d71-126">在**添加新物料**对话框中，在 **Operations 项目**下，选择**资源**模板。</span><span class="sxs-lookup"><span data-stu-id="f0d71-126">In the **Add New Item** dialog box, under **Operations Artifacts**, select the **Resource** template.</span></span>
-4. <span data-ttu-id="f0d71-127">输入将用于在 X++ 元数据中引用报表的名称，然后单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-127">Enter a name that will be used to reference the report in X++ metadata, and then click **Add**.</span></span>
+1. <span data-ttu-id="aae72-124">在相应的模型中创建新项目。</span><span class="sxs-lookup"><span data-stu-id="aae72-124">Create a new project in the appropriate model.</span></span>
+2. <span data-ttu-id="aae72-125">在“解决方案资源管理器”中，选择项目，右键单击，然后选择**添加** \> **新物料**。</span><span class="sxs-lookup"><span data-stu-id="aae72-125">In Solution Explorer, select the project, right-click, and then select **Add** \> **New Item**.</span></span>
+3. <span data-ttu-id="aae72-126">在**添加新物料**对话框中，在 **Operations 项目**下，选择**资源**模板。</span><span class="sxs-lookup"><span data-stu-id="aae72-126">In the **Add New Item** dialog box, under **Operations Artifacts**, select the **Resource** template.</span></span>
+4. <span data-ttu-id="aae72-127">输入将用于在 X++ 元数据中引用报表的名称，然后单击**添加**。</span><span class="sxs-lookup"><span data-stu-id="aae72-127">Enter a name that will be used to reference the report in X++ metadata, and then click **Add**.</span></span>
 
     ![“添加新物料”对话框](media/analytical-workspace-add.png)
 
-5. <span data-ttu-id="f0d71-129">查找包含分析报表的定义的 .pbix 文件，然后单击**打开**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-129">Find the .pbix file that contains the definition of the analytical report, and then click **Open**.</span></span>
+5. <span data-ttu-id="aae72-129">查找包含分析报表的定义的 .pbix 文件，然后单击**打开**。</span><span class="sxs-lookup"><span data-stu-id="aae72-129">Find the .pbix file that contains the definition of the analytical report, and then click **Open**.</span></span>
 
     ![选择“资源”文件对话框](media/analytical-workspace-select-resource.png)
 
-<span data-ttu-id="f0d71-131">既然你已将 .pbix 文件添加为 Dynamics 365 资源，你现在可以在工作区中嵌入报表并使用菜单项添加直接链接。</span><span class="sxs-lookup"><span data-stu-id="f0d71-131">Now that you've added the .pbix file as a Dynamics 365 resource, you can embed the reports in workspaces and add direct links by using menu items.</span></span>
+<span data-ttu-id="aae72-131">既然你已将 .pbix 文件添加为 Dynamics 365 资源，你现在可以在工作区中嵌入报表并使用菜单项添加直接链接。</span><span class="sxs-lookup"><span data-stu-id="aae72-131">Now that you've added the .pbix file as a Dynamics 365 resource, you can embed the reports in workspaces and add direct links by using menu items.</span></span>
 
-## <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="f0d71-132">将选项卡控件添加到应用程序工作区</span><span class="sxs-lookup"><span data-stu-id="f0d71-132">Add a tab control to an application workspace</span></span>
-<span data-ttu-id="f0d71-133">在此示例中，我们将通过将**分析**选项卡添加到 **FMClerkWorkspace** 窗体的定义中的方式扩展车队管理模型中的**预订管理**工作区。</span><span class="sxs-lookup"><span data-stu-id="f0d71-133">In this example, we will extend the **Reservation management** workspace in the Fleet Management model by adding the **Analytics** tab to the definition of the **FMClerkWorkspace** form.</span></span>
+## <a name="add-a-tab-control-to-an-application-workspace"></a><span data-ttu-id="aae72-132">将选项卡控件添加到应用程序工作区</span><span class="sxs-lookup"><span data-stu-id="aae72-132">Add a tab control to an application workspace</span></span>
+<span data-ttu-id="aae72-133">在此示例中，我们将通过将**分析**选项卡添加到 **FMClerkWorkspace** 窗体的定义中的方式扩展车队管理模型中的**预订管理**工作区。</span><span class="sxs-lookup"><span data-stu-id="aae72-133">In this example, we will extend the **Reservation management** workspace in the Fleet Management model by adding the **Analytics** tab to the definition of the **FMClerkWorkspace** form.</span></span>
 
-<span data-ttu-id="f0d71-134">下图显示 **FMClerkWorkspace** 窗体在 Microsoft Visual Studio 中的设计器中的外观。</span><span class="sxs-lookup"><span data-stu-id="f0d71-134">The following illustration shows what the **FMClerkWorkspace** form looks like in the designer in Microsoft Visual Studio.</span></span>
+<span data-ttu-id="aae72-134">下图显示 **FMClerkWorkspace** 窗体在 Microsoft Visual Studio 中的设计器中的外观。</span><span class="sxs-lookup"><span data-stu-id="aae72-134">The following illustration shows what the **FMClerkWorkspace** form looks like in the designer in Microsoft Visual Studio.</span></span>
 
 ![进行更改前的 FMClerkWorkspace 窗体](media/analytical-workspace-definition-before.png)
 
-<span data-ttu-id="f0d71-136">执行以下步骤扩展**预订管理**工作区中的窗体定义。</span><span class="sxs-lookup"><span data-stu-id="f0d71-136">Follow these steps to extend the form definition for the **Reservation management** workspace.</span></span>
+<span data-ttu-id="aae72-136">执行以下步骤扩展**预订管理**工作区中的窗体定义。</span><span class="sxs-lookup"><span data-stu-id="aae72-136">Follow these steps to extend the form definition for the **Reservation management** workspace.</span></span>
 
-1. <span data-ttu-id="f0d71-137">打开设计器窗体以扩展设计定义。</span><span class="sxs-lookup"><span data-stu-id="f0d71-137">Open the form designer to extend the design definition.</span></span>
-2. <span data-ttu-id="f0d71-138">在设计定义中，请选择标记为**设计|模式：工作区运营**的顶部元素。</span><span class="sxs-lookup"><span data-stu-id="f0d71-138">In the design definition, select the top element that is labeled **Design | Pattern: Workspace Operational**.</span></span>
-3. <span data-ttu-id="f0d71-139">右键单击，然后选择**新** \> **选项卡**以添加命名为 **FormTabControl1** 的新控件。</span><span class="sxs-lookup"><span data-stu-id="f0d71-139">Right-click, and then select **New** \> **Tab** to add a new control that is named **FormTabControl1**.</span></span>
-4. <span data-ttu-id="f0d71-140">在窗体设计器中，选择 **FormTabControl1**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-140">In the form designer, select **FormTabControl1**.</span></span>
-5. <span data-ttu-id="f0d71-141">右键单击，然后选择**新选项卡页**以添加新的选项卡页。</span><span class="sxs-lookup"><span data-stu-id="f0d71-141">Right-click, and then select **New Tab Page** to add a new tab page.</span></span>
-6. <span data-ttu-id="f0d71-142">将选项卡页重命名为有意义的名称，例如**工作区**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-142">Rename the tab page to something meaningful, such as **Workspace**.</span></span>
-7. <span data-ttu-id="f0d71-143">在窗体设计器中，选择 **FormTabControl1**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-143">In the form designer, select **FormTabControl1**.</span></span>
-8. <span data-ttu-id="f0d71-144">右键单击，然后选择**新选项卡页**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-144">Right-click, and then select **New Tab Page**.</span></span>
-9. <span data-ttu-id="f0d71-145">将选项卡页重命名为有意义的名称，例如**分析**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-145">Rename the tab page to something meaningful, such as **Analytics**.</span></span>
-10. <span data-ttu-id="f0d71-146">在窗体设计器，选择**分析（选项卡页）**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-146">In the form designer, select **Analytics (Tab Page)**.</span></span>
-11. <span data-ttu-id="f0d71-147">将**标题**属性设置为**分析**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-147">Set the **Caption** property to **Analytics**.</span></span>
-12. <span data-ttu-id="f0d71-148">右键单击控件，然后选择**新** \> **组**以添加新的窗体组控件。</span><span class="sxs-lookup"><span data-stu-id="f0d71-148">Right-click the control, and then select **New** \> **Group** to add a new form group control.</span></span>
-13. <span data-ttu-id="f0d71-149">将窗体组重命名为有意义的名称，例如 **powerBIReportGroup**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-149">Rename the form group to something meaningful, such as **powerBIReportGroup**.</span></span>
-14. <span data-ttu-id="f0d71-150">在窗体设计器中，选择 **PanoramaBody（选项卡）**，然后将控件拖动到**工作区**选项卡上。</span><span class="sxs-lookup"><span data-stu-id="f0d71-150">In the form designer, select **PanoramaBody (Tab)**, and then drag the control onto the **Workspace** tab.</span></span>
-15. <span data-ttu-id="f0d71-151">在设计定义中，请选择标记为**设计|模式：工作区运营**的顶部元素。</span><span class="sxs-lookup"><span data-stu-id="f0d71-151">In the design definition, select the top element that is labeled **Design | Pattern: Workspace Operational**.</span></span>
-16. <span data-ttu-id="f0d71-152">右键单击，然后选择**删除模式**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-152">Right-click, and then select **Remove pattern**.</span></span>
-17. <span data-ttu-id="f0d71-153">再次右键单击，然后选择**添加模式** \> **工作区选项卡式**。</span><span class="sxs-lookup"><span data-stu-id="f0d71-153">Right-click again, and then select **Add pattern** \> **Workspace Tabbed**.</span></span>
-18. <span data-ttu-id="f0d71-154">执行内部版本以验证你的更改。</span><span class="sxs-lookup"><span data-stu-id="f0d71-154">Perform a build to verify your changes.</span></span>
+1. <span data-ttu-id="aae72-137">打开设计器窗体以扩展设计定义。</span><span class="sxs-lookup"><span data-stu-id="aae72-137">Open the form designer to extend the design definition.</span></span>
+2. <span data-ttu-id="aae72-138">在设计定义中，请选择标记为**设计|模式：工作区运营**的顶部元素。</span><span class="sxs-lookup"><span data-stu-id="aae72-138">In the design definition, select the top element that is labeled **Design | Pattern: Workspace Operational**.</span></span>
+3. <span data-ttu-id="aae72-139">右键单击，然后选择**新** \> **选项卡**以添加命名为 **FormTabControl1** 的新控件。</span><span class="sxs-lookup"><span data-stu-id="aae72-139">Right-click, and then select **New** \> **Tab** to add a new control that is named **FormTabControl1**.</span></span>
+4. <span data-ttu-id="aae72-140">在窗体设计器中，选择 **FormTabControl1**。</span><span class="sxs-lookup"><span data-stu-id="aae72-140">In the form designer, select **FormTabControl1**.</span></span>
+5. <span data-ttu-id="aae72-141">右键单击，然后选择**新选项卡页**以添加新的选项卡页。</span><span class="sxs-lookup"><span data-stu-id="aae72-141">Right-click, and then select **New Tab Page** to add a new tab page.</span></span>
+6. <span data-ttu-id="aae72-142">将选项卡页重命名为有意义的名称，例如**工作区**。</span><span class="sxs-lookup"><span data-stu-id="aae72-142">Rename the tab page to something meaningful, such as **Workspace**.</span></span>
+7. <span data-ttu-id="aae72-143">在窗体设计器中，选择 **FormTabControl1**。</span><span class="sxs-lookup"><span data-stu-id="aae72-143">In the form designer, select **FormTabControl1**.</span></span>
+8. <span data-ttu-id="aae72-144">右键单击，然后选择**新选项卡页**。</span><span class="sxs-lookup"><span data-stu-id="aae72-144">Right-click, and then select **New Tab Page**.</span></span>
+9. <span data-ttu-id="aae72-145">将选项卡页重命名为有意义的名称，例如**分析**。</span><span class="sxs-lookup"><span data-stu-id="aae72-145">Rename the tab page to something meaningful, such as **Analytics**.</span></span>
+10. <span data-ttu-id="aae72-146">在窗体设计器，选择**分析（选项卡页）**。</span><span class="sxs-lookup"><span data-stu-id="aae72-146">In the form designer, select **Analytics (Tab Page)**.</span></span>
+11. <span data-ttu-id="aae72-147">将**标题**属性设置为**分析**。</span><span class="sxs-lookup"><span data-stu-id="aae72-147">Set the **Caption** property to **Analytics**.</span></span>
+12. <span data-ttu-id="aae72-148">右键单击控件，然后选择**新** \> **组**以添加新的窗体组控件。</span><span class="sxs-lookup"><span data-stu-id="aae72-148">Right-click the control, and then select **New** \> **Group** to add a new form group control.</span></span>
+13. <span data-ttu-id="aae72-149">将窗体组重命名为有意义的名称，例如 **powerBIReportGroup**。</span><span class="sxs-lookup"><span data-stu-id="aae72-149">Rename the form group to something meaningful, such as **powerBIReportGroup**.</span></span>
+14. <span data-ttu-id="aae72-150">在窗体设计器中，选择 **PanoramaBody（选项卡）**，然后将控件拖动到**工作区**选项卡上。</span><span class="sxs-lookup"><span data-stu-id="aae72-150">In the form designer, select **PanoramaBody (Tab)**, and then drag the control onto the **Workspace** tab.</span></span>
+15. <span data-ttu-id="aae72-151">在设计定义中，请选择标记为**设计|模式：工作区运营**的顶部元素。</span><span class="sxs-lookup"><span data-stu-id="aae72-151">In the design definition, select the top element that is labeled **Design | Pattern: Workspace Operational**.</span></span>
+16. <span data-ttu-id="aae72-152">右键单击，然后选择**删除模式**。</span><span class="sxs-lookup"><span data-stu-id="aae72-152">Right-click, and then select **Remove pattern**.</span></span>
+17. <span data-ttu-id="aae72-153">再次右键单击，然后选择**添加模式** \> **工作区选项卡式**。</span><span class="sxs-lookup"><span data-stu-id="aae72-153">Right-click again, and then select **Add pattern** \> **Workspace Tabbed**.</span></span>
+18. <span data-ttu-id="aae72-154">执行内部版本以验证你的更改。</span><span class="sxs-lookup"><span data-stu-id="aae72-154">Perform a build to verify your changes.</span></span>
 
-<span data-ttu-id="f0d71-155">下图显示设计在应用这些更改后的外观。</span><span class="sxs-lookup"><span data-stu-id="f0d71-155">The following illustration shows what the design looks like after these changes are applied.</span></span>
+<span data-ttu-id="aae72-155">下图显示设计在应用这些更改后的外观。</span><span class="sxs-lookup"><span data-stu-id="aae72-155">The following illustration shows what the design looks like after these changes are applied.</span></span>
 
 ![进行更改后的 FMClerkWorkspace](media/analytical-workspace-definition-after.png)
 
-<span data-ttu-id="f0d71-157">既然你已添加了将用于嵌入工作区报表的窗体控件，你现在必须定义父控件的大小，使之适应布局。</span><span class="sxs-lookup"><span data-stu-id="f0d71-157">Now that you've added the form controls that will be used to embed the workspace report, you must define the size of the parent control so that it accommodates the layout.</span></span> <span data-ttu-id="f0d71-158">默认情况下，**筛选器窗格**页和**选项卡**页将在报表上显示。</span><span class="sxs-lookup"><span data-stu-id="f0d71-158">By default, both the **Filters Pane** page and the **Tab** page will be visible on the report.</span></span> <span data-ttu-id="f0d71-159">但是，你可以根据报表的目标使用者相应地更改这些控件的可见性。</span><span class="sxs-lookup"><span data-stu-id="f0d71-159">However, you can change the visibility of these controls as appropriate for the target consumer of the report.</span></span>
+<span data-ttu-id="aae72-157">既然你已添加了将用于嵌入工作区报表的窗体控件，你现在必须定义父控件的大小，使之适应布局。</span><span class="sxs-lookup"><span data-stu-id="aae72-157">Now that you've added the form controls that will be used to embed the workspace report, you must define the size of the parent control so that it accommodates the layout.</span></span> <span data-ttu-id="aae72-158">默认情况下，**筛选器窗格**页和**选项卡**页将在报表上显示。</span><span class="sxs-lookup"><span data-stu-id="aae72-158">By default, both the **Filters Pane** page and the **Tab** page will be visible on the report.</span></span> <span data-ttu-id="aae72-159">但是，你可以根据报表的目标使用者相应地更改这些控件的可见性。</span><span class="sxs-lookup"><span data-stu-id="aae72-159">However, you can change the visibility of these controls as appropriate for the target consumer of the report.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="f0d71-160">对于嵌入的工作区，为了获得一致性，我们建议你使用扩展以同时隐藏**筛选器窗格**和**选项卡**页。</span><span class="sxs-lookup"><span data-stu-id="f0d71-160">For embedded workspaces, we recommend that you use extensions to hide both the **Filters Pane** and **Tab** pages, for consistency.</span></span>
+> <span data-ttu-id="aae72-160">对于嵌入的工作区，为了获得一致性，我们建议你使用扩展以同时隐藏**筛选器窗格**和**选项卡**页。</span><span class="sxs-lookup"><span data-stu-id="aae72-160">For embedded workspaces, we recommend that you use extensions to hide both the **Filters Pane** and **Tab** pages, for consistency.</span></span>
 
-<span data-ttu-id="f0d71-161">你现在已完成了扩展应用程序窗体定义的任务。</span><span class="sxs-lookup"><span data-stu-id="f0d71-161">You've now completed the task of extending the application form definition.</span></span> <span data-ttu-id="f0d71-162">有关如何使用扩展执行自定义的详细信息，请参阅[自定义：覆盖和扩展](../extensibility/customization-overlayering-extensions.md)。</span><span class="sxs-lookup"><span data-stu-id="f0d71-162">For more information about how to use extensions to do customizations, see [Customization: Overlayering and extensions](../extensibility/customization-overlayering-extensions.md).</span></span>
+<span data-ttu-id="aae72-161">你现在已完成了扩展应用程序窗体定义的任务。</span><span class="sxs-lookup"><span data-stu-id="aae72-161">You've now completed the task of extending the application form definition.</span></span> <span data-ttu-id="aae72-162">有关如何使用扩展执行自定义的详细信息，请参阅[自定义：覆盖和扩展](../extensibility/customization-overlayering-extensions.md)。</span><span class="sxs-lookup"><span data-stu-id="aae72-162">For more information about how to use extensions to do customizations, see [Customization: Overlayering and extensions](../extensibility/customization-overlayering-extensions.md).</span></span>
 
-## <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="f0d71-163">添加 X++ 业务逻辑以嵌入查看器控件</span><span class="sxs-lookup"><span data-stu-id="f0d71-163">Add X++ business logic to embed a viewer control</span></span>
-<span data-ttu-id="f0d71-164">按照下面的步骤添加初始化在**预订管理**工作区中嵌入的报表查看器控件的业务逻辑。</span><span class="sxs-lookup"><span data-stu-id="f0d71-164">Follow these steps to add business logic that initializes the report viewer control that is embedded in the **Reservation management** workspace.</span></span>
+## <a name="add-x-business-logic-to-embed-a-viewer-control"></a><span data-ttu-id="aae72-163">添加 X++ 业务逻辑以嵌入查看器控件</span><span class="sxs-lookup"><span data-stu-id="aae72-163">Add X++ business logic to embed a viewer control</span></span>
+<span data-ttu-id="aae72-164">按照下面的步骤添加初始化在**预订管理**工作区中嵌入的报表查看器控件的业务逻辑。</span><span class="sxs-lookup"><span data-stu-id="aae72-164">Follow these steps to add business logic that initializes the report viewer control that is embedded in the **Reservation management** workspace.</span></span>
 
-1. <span data-ttu-id="f0d71-165">打开 **FMClerkWorkspace** 窗体设计器以扩展设计定义。</span><span class="sxs-lookup"><span data-stu-id="f0d71-165">Open the **FMClerkWorkspace** form designer to extend the design definition.</span></span>
-2. <span data-ttu-id="f0d71-166">按 F7 访问代码定义后的代码。</span><span class="sxs-lookup"><span data-stu-id="f0d71-166">Press F7 to access the code behind the code definition.</span></span>
-3. <span data-ttu-id="f0d71-167">添加以下 X++ 代码。</span><span class="sxs-lookup"><span data-stu-id="f0d71-167">Add the following X++ code.</span></span>
+1. <span data-ttu-id="aae72-165">打开 **FMClerkWorkspace** 窗体设计器以扩展设计定义。</span><span class="sxs-lookup"><span data-stu-id="aae72-165">Open the **FMClerkWorkspace** form designer to extend the design definition.</span></span>
+2. <span data-ttu-id="aae72-166">按 F7 访问代码定义后的代码。</span><span class="sxs-lookup"><span data-stu-id="aae72-166">Press F7 to access the code behind the code definition.</span></span>
+3. <span data-ttu-id="aae72-167">添加以下 X++ 代码。</span><span class="sxs-lookup"><span data-stu-id="aae72-167">Add the following X++ code.</span></span>
 
     ```
     [Form] 
@@ -141,21 +141,21 @@ ms.locfileid: "355211"
     }
     ```
 
-4. <span data-ttu-id="f0d71-168">执行内部版本以验证你的更改。</span><span class="sxs-lookup"><span data-stu-id="f0d71-168">Perform a build to verify your changes.</span></span>
+4. <span data-ttu-id="aae72-168">执行内部版本以验证你的更改。</span><span class="sxs-lookup"><span data-stu-id="aae72-168">Perform a build to verify your changes.</span></span>
 
-<span data-ttu-id="f0d71-169">现在你已完成添加业务逻辑以初始化嵌入的报表查看器控件的任务。</span><span class="sxs-lookup"><span data-stu-id="f0d71-169">You've now completed the task of adding business logic to initialize the embedded report viewer control.</span></span> <span data-ttu-id="f0d71-170">下图显示工作区在应用这些更改后的外观。</span><span class="sxs-lookup"><span data-stu-id="f0d71-170">The following illustration shows what the workspace looks like after these changes are applied.</span></span>
+<span data-ttu-id="aae72-169">现在你已完成添加业务逻辑以初始化嵌入的报表查看器控件的任务。</span><span class="sxs-lookup"><span data-stu-id="aae72-169">You've now completed the task of adding business logic to initialize the embedded report viewer control.</span></span> <span data-ttu-id="aae72-170">下图显示工作区在应用这些更改后的外观。</span><span class="sxs-lookup"><span data-stu-id="aae72-170">The following illustration shows what the workspace looks like after these changes are applied.</span></span>
 
 ![在工作区嵌入的报表](media/analytical-workspace-final.png)
 
 > [!NOTE]
-> <span data-ttu-id="f0d71-172">你可以使用页标题下方的工作区选项卡访问现有的操作视图。</span><span class="sxs-lookup"><span data-stu-id="f0d71-172">You can access the existing operational view by using the workspace tabs below the page title.</span></span>
+> <span data-ttu-id="aae72-172">你可以使用页标题下方的工作区选项卡访问现有的操作视图。</span><span class="sxs-lookup"><span data-stu-id="aae72-172">You can access the existing operational view by using the workspace tabs below the page title.</span></span>
 
-## <a name="reference"></a><span data-ttu-id="f0d71-173">参考</span><span class="sxs-lookup"><span data-stu-id="f0d71-173">Reference</span></span>
+## <a name="reference"></a><span data-ttu-id="aae72-173">参考</span><span class="sxs-lookup"><span data-stu-id="aae72-173">Reference</span></span>
 
-### <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="f0d71-174">PBIReportHelper.initializeReportControl 方法</span><span class="sxs-lookup"><span data-stu-id="f0d71-174">PBIReportHelper.initializeReportControl method</span></span>
-<span data-ttu-id="f0d71-175">本节提供有关用于在窗体组控件中嵌入 Power BI 报表（.pbix 资源）的帮助程序类的信息。</span><span class="sxs-lookup"><span data-stu-id="f0d71-175">This section provides information about the helper class that is used to embed a Power BI report (.pbix resource) in a form group control.</span></span>
+### <a name="pbireporthelperinitializereportcontrol-method"></a><span data-ttu-id="aae72-174">PBIReportHelper.initializeReportControl 方法</span><span class="sxs-lookup"><span data-stu-id="aae72-174">PBIReportHelper.initializeReportControl method</span></span>
+<span data-ttu-id="aae72-175">本节提供有关用于在窗体组控件中嵌入 Power BI 报表（.pbix 资源）的帮助程序类的信息。</span><span class="sxs-lookup"><span data-stu-id="aae72-175">This section provides information about the helper class that is used to embed a Power BI report (.pbix resource) in a form group control.</span></span>
 
-#### <a name="syntax"></a><span data-ttu-id="f0d71-176">语法</span><span class="sxs-lookup"><span data-stu-id="f0d71-176">Syntax</span></span>
+#### <a name="syntax"></a><span data-ttu-id="aae72-176">语法</span><span class="sxs-lookup"><span data-stu-id="aae72-176">Syntax</span></span>
 ```
 public static void initializeReportControl(
     str                 _resourceName,
@@ -166,13 +166,13 @@ public static void initializeReportControl(
     List                _defaultFilters = new List(Types::Class))
 ```
 
-#### <a name="parameters"></a><span data-ttu-id="f0d71-177">参数设置</span><span class="sxs-lookup"><span data-stu-id="f0d71-177">Parameters</span></span>
+#### <a name="parameters"></a><span data-ttu-id="aae72-177">参数设置</span><span class="sxs-lookup"><span data-stu-id="aae72-177">Parameters</span></span>
 
-| <span data-ttu-id="f0d71-178">姓名</span><span class="sxs-lookup"><span data-stu-id="f0d71-178">Name</span></span>             | <span data-ttu-id="f0d71-179">说明</span><span class="sxs-lookup"><span data-stu-id="f0d71-179">Description</span></span>                                                                                                  |
+| <span data-ttu-id="aae72-178">姓名</span><span class="sxs-lookup"><span data-stu-id="aae72-178">Name</span></span>             | <span data-ttu-id="aae72-179">说明</span><span class="sxs-lookup"><span data-stu-id="aae72-179">Description</span></span>                                                                                                  |
 |------------------|--------------------------------------------------------------------------------------------------------------|
-| <span data-ttu-id="f0d71-180">resourceName</span><span class="sxs-lookup"><span data-stu-id="f0d71-180">resourceName</span></span>     | <span data-ttu-id="f0d71-181">.pbix 资源的名称。</span><span class="sxs-lookup"><span data-stu-id="f0d71-181">The name of the .pbix resource.</span></span>                                                                              |
-| <span data-ttu-id="f0d71-182">formGroupControl</span><span class="sxs-lookup"><span data-stu-id="f0d71-182">formGroupControl</span></span> | <span data-ttu-id="f0d71-183">要应用 Power BI 报表控件的窗体组控件。</span><span class="sxs-lookup"><span data-stu-id="f0d71-183">The form group control to apply the Power BI report control to.</span></span>                                              |
-| <span data-ttu-id="f0d71-184">defaultPageName</span><span class="sxs-lookup"><span data-stu-id="f0d71-184">defaultPageName</span></span>  | <span data-ttu-id="f0d71-185">默认页名称。</span><span class="sxs-lookup"><span data-stu-id="f0d71-185">The default page name.</span></span>                                                                                       |
-| <span data-ttu-id="f0d71-186">showFilterPane</span><span class="sxs-lookup"><span data-stu-id="f0d71-186">showFilterPane</span></span>   | <span data-ttu-id="f0d71-187">指示是否应显示 (**true**) 或隐藏 (**false**) 筛选器窗格的布尔值。</span><span class="sxs-lookup"><span data-stu-id="f0d71-187">A Boolean value that indicates whether the filter pane should be shown (**true**) or hidden (**false**).</span></span>     |
-| <span data-ttu-id="f0d71-188">showNavPane</span><span class="sxs-lookup"><span data-stu-id="f0d71-188">showNavPane</span></span>      | <span data-ttu-id="f0d71-189">指示是否应显示 (**true**) 或隐藏 (**false**) 导航窗格的布尔值。</span><span class="sxs-lookup"><span data-stu-id="f0d71-189">A Boolean value that indicates whether the navigation pane should be shown (**true**) or hidden (**false**).</span></span> |
-| <span data-ttu-id="f0d71-190">defaultFilters</span><span class="sxs-lookup"><span data-stu-id="f0d71-190">defaultFilters</span></span>   | <span data-ttu-id="f0d71-191">Power BI 报表的默认筛选器。</span><span class="sxs-lookup"><span data-stu-id="f0d71-191">The default filters for the Power BI report.</span></span>                                                                 |
+| <span data-ttu-id="aae72-180">resourceName</span><span class="sxs-lookup"><span data-stu-id="aae72-180">resourceName</span></span>     | <span data-ttu-id="aae72-181">.pbix 资源的名称。</span><span class="sxs-lookup"><span data-stu-id="aae72-181">The name of the .pbix resource.</span></span>                                                                              |
+| <span data-ttu-id="aae72-182">formGroupControl</span><span class="sxs-lookup"><span data-stu-id="aae72-182">formGroupControl</span></span> | <span data-ttu-id="aae72-183">要应用 Power BI 报表控件的窗体组控件。</span><span class="sxs-lookup"><span data-stu-id="aae72-183">The form group control to apply the Power BI report control to.</span></span>                                              |
+| <span data-ttu-id="aae72-184">defaultPageName</span><span class="sxs-lookup"><span data-stu-id="aae72-184">defaultPageName</span></span>  | <span data-ttu-id="aae72-185">默认页名称。</span><span class="sxs-lookup"><span data-stu-id="aae72-185">The default page name.</span></span>                                                                                       |
+| <span data-ttu-id="aae72-186">showFilterPane</span><span class="sxs-lookup"><span data-stu-id="aae72-186">showFilterPane</span></span>   | <span data-ttu-id="aae72-187">指示是否应显示 (**true**) 或隐藏 (**false**) 筛选器窗格的布尔值。</span><span class="sxs-lookup"><span data-stu-id="aae72-187">A Boolean value that indicates whether the filter pane should be shown (**true**) or hidden (**false**).</span></span>     |
+| <span data-ttu-id="aae72-188">showNavPane</span><span class="sxs-lookup"><span data-stu-id="aae72-188">showNavPane</span></span>      | <span data-ttu-id="aae72-189">指示是否应显示 (**true**) 或隐藏 (**false**) 导航窗格的布尔值。</span><span class="sxs-lookup"><span data-stu-id="aae72-189">A Boolean value that indicates whether the navigation pane should be shown (**true**) or hidden (**false**).</span></span> |
+| <span data-ttu-id="aae72-190">defaultFilters</span><span class="sxs-lookup"><span data-stu-id="aae72-190">defaultFilters</span></span>   | <span data-ttu-id="aae72-191">Power BI 报表的默认筛选器。</span><span class="sxs-lookup"><span data-stu-id="aae72-191">The default filters for the Power BI report.</span></span>                                                                 |

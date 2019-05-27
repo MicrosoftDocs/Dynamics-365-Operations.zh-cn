@@ -20,36 +20,36 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bf578d98abc4825c5607ec031da6ab6737c3183a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360455"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560364"
 ---
-# <a name="maintain-planned-orders"></a><span data-ttu-id="49257-104">维护计划订单</span><span class="sxs-lookup"><span data-stu-id="49257-104">Maintain planned orders</span></span>
+# <a name="maintain-planned-orders"></a><span data-ttu-id="123ef-104">维护计划订单</span><span class="sxs-lookup"><span data-stu-id="123ef-104">Maintain planned orders</span></span>
 
 [!include [banner](../includes/banner.md)]
 
-<span data-ttu-id="49257-105">本主题提供有关如何管理计划订单的信息。</span><span class="sxs-lookup"><span data-stu-id="49257-105">This topic provides information about how to manage planned orders.</span></span> <span data-ttu-id="49257-106">介绍如何更新计划订单的状态，确定计划订单，并筛选与所选计划订单具有相同状态的计划订单。</span><span class="sxs-lookup"><span data-stu-id="49257-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
+<span data-ttu-id="123ef-105">本主题提供有关如何管理计划订单的信息。</span><span class="sxs-lookup"><span data-stu-id="123ef-105">This topic provides information about how to manage planned orders.</span></span> <span data-ttu-id="123ef-106">介绍如何更新计划订单的状态，确定计划订单，并筛选与所选计划订单具有相同状态的计划订单。</span><span class="sxs-lookup"><span data-stu-id="123ef-106">It describes how you can update the status of planned orders, firm them, and filter for planned orders that have the same status as a selected planned order.</span></span>
 
-<span data-ttu-id="49257-107">您可以从**主计划**工作区、**计划订单**列表或**计划生产订单**、**计划采购订单**和**计划转移**列表中管理计划订单。</span><span class="sxs-lookup"><span data-stu-id="49257-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="49257-108">您可以使用**状态**字段帮助跟踪您的进度。</span><span class="sxs-lookup"><span data-stu-id="49257-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="49257-109">使用了以下值：</span><span class="sxs-lookup"><span data-stu-id="49257-109">The following values are used:</span></span>
+<span data-ttu-id="123ef-107">您可以从**主计划**工作区、**计划订单**列表或**计划生产订单**、**计划采购订单**和**计划转移**列表中管理计划订单。</span><span class="sxs-lookup"><span data-stu-id="123ef-107">You can manage planned orders from the **Master planning** workspace, the **Planned order** list, or the **Planned production orders**, **Planned purchase orders**, and **Planned transfer** lists.</span></span> <span data-ttu-id="123ef-108">您可以使用**状态**字段帮助跟踪您的进度。</span><span class="sxs-lookup"><span data-stu-id="123ef-108">You can use the **Status** field to help track your progress.</span></span> <span data-ttu-id="123ef-109">使用了以下值：</span><span class="sxs-lookup"><span data-stu-id="123ef-109">The following values are used:</span></span>
 
--   <span data-ttu-id="49257-110">当主计划生成计划订单时，该计划订单状态为**未处理**。</span><span class="sxs-lookup"><span data-stu-id="49257-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
--   <span data-ttu-id="49257-111">如果您决定不确认某一计划订单，则可以给予其状态**已完成**。</span><span class="sxs-lookup"><span data-stu-id="49257-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
--   <span data-ttu-id="49257-112">当您决定确认某一计划订单时，可以给予其状态**已审核**。</span><span class="sxs-lookup"><span data-stu-id="49257-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="49257-113">此状态表示您核准确认该计划订单，但它尚未被确认。</span><span class="sxs-lookup"><span data-stu-id="49257-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
+-   <span data-ttu-id="123ef-110">当主计划生成计划订单时，该计划订单状态为**未处理**。</span><span class="sxs-lookup"><span data-stu-id="123ef-110">When master planning generates planned orders, the planned orders have a status of **Unprocessed**.</span></span>
+-   <span data-ttu-id="123ef-111">如果您决定不确认某一计划订单，则可以给予其状态**已完成**。</span><span class="sxs-lookup"><span data-stu-id="123ef-111">If you decide not to firm a planned order, you can give it a status of **Completed**.</span></span>
+-   <span data-ttu-id="123ef-112">当您决定确认某一计划订单时，可以给予其状态**已审核**。</span><span class="sxs-lookup"><span data-stu-id="123ef-112">When you decide to firm a planned order, you can give it a status of **Approved**.</span></span> <span data-ttu-id="123ef-113">此状态表示您核准确认该计划订单，但它尚未被确认。</span><span class="sxs-lookup"><span data-stu-id="123ef-113">This status indicates that you approve firming of the planned order, but it isn't firmed yet.</span></span>
 
-<span data-ttu-id="49257-114">**注释：** 已核准的计划订单将以当前状态转移到下一主计划计算中。</span><span class="sxs-lookup"><span data-stu-id="49257-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="49257-115">可以通过单击**确认**确认计划订单。</span><span class="sxs-lookup"><span data-stu-id="49257-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="49257-116">您可以确认以下计划订单：</span><span class="sxs-lookup"><span data-stu-id="49257-116">You can firm the following planned orders:</span></span>
+<span data-ttu-id="123ef-114">**注释：** 已核准的计划订单将以当前状态转移到下一主计划计算中。</span><span class="sxs-lookup"><span data-stu-id="123ef-114">**Note:** An approved planned order is transferred, in its current state, to the next master planning calculation.</span></span> <span data-ttu-id="123ef-115">可以通过单击**确认**确认计划订单。</span><span class="sxs-lookup"><span data-stu-id="123ef-115">You can firm planned orders by clicking **Firm**.</span></span> <span data-ttu-id="123ef-116">您可以确认以下计划订单：</span><span class="sxs-lookup"><span data-stu-id="123ef-116">You can firm the following planned orders:</span></span>
 
--   <span data-ttu-id="49257-117">选择的计划订单。</span><span class="sxs-lookup"><span data-stu-id="49257-117">The planned order that is selected.</span></span>
--   <span data-ttu-id="49257-118">多个计划订单。</span><span class="sxs-lookup"><span data-stu-id="49257-118">Multiple planned orders.</span></span>
--   <span data-ttu-id="49257-119">从**分解**页中由分解生成的计划订单。</span><span class="sxs-lookup"><span data-stu-id="49257-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="49257-120">单击**计划订单**，选择计划订单，然后单击**确认**。</span><span class="sxs-lookup"><span data-stu-id="49257-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
+-   <span data-ttu-id="123ef-117">选择的计划订单。</span><span class="sxs-lookup"><span data-stu-id="123ef-117">The planned order that is selected.</span></span>
+-   <span data-ttu-id="123ef-118">多个计划订单。</span><span class="sxs-lookup"><span data-stu-id="123ef-118">Multiple planned orders.</span></span>
+-   <span data-ttu-id="123ef-119">从**分解**页中由分解生成的计划订单。</span><span class="sxs-lookup"><span data-stu-id="123ef-119">Planned orders that are generated by an explosion from the **Explosion** page.</span></span> <span data-ttu-id="123ef-120">单击**计划订单**，选择计划订单，然后单击**确认**。</span><span class="sxs-lookup"><span data-stu-id="123ef-120">Click **Planned orders**, select the planned order, and then click **Firm**.</span></span>
 
-<span data-ttu-id="49257-121">确认计划订单时，该订单将移至相关模块的订单部分。</span><span class="sxs-lookup"><span data-stu-id="49257-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> 
+<span data-ttu-id="123ef-121">确认计划订单时，该订单将移至相关模块的订单部分。</span><span class="sxs-lookup"><span data-stu-id="123ef-121">When a planned order is firmed, it's moved to the orders section of the relevant module.</span></span> 
 
-<a name="additional-resources"></a><span data-ttu-id="49257-122">其他资源</span><span class="sxs-lookup"><span data-stu-id="49257-122">Additional resources</span></span>
+<a name="additional-resources"></a><span data-ttu-id="123ef-122">其他资源</span><span class="sxs-lookup"><span data-stu-id="123ef-122">Additional resources</span></span>
 --------
 
-[<span data-ttu-id="49257-123">主计划</span><span class="sxs-lookup"><span data-stu-id="49257-123">Master plans</span></span>](master-plans.md)
+[<span data-ttu-id="123ef-123">主计划</span><span class="sxs-lookup"><span data-stu-id="123ef-123">Master plans</span></span>](master-plans.md)
 
 
 

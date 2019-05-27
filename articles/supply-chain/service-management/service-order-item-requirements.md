@@ -19,54 +19,54 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3dc7c721af4b25e1586e546392518648110a3fb6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "327496"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562292"
 ---
-# <a name="service-order-item-requirements"></a><span data-ttu-id="997bf-103">服务订单物料需求</span><span class="sxs-lookup"><span data-stu-id="997bf-103">Service order item requirements</span></span>   
+# <a name="service-order-item-requirements"></a><span data-ttu-id="82a05-103">服务订单物料需求</span><span class="sxs-lookup"><span data-stu-id="82a05-103">Service order item requirements</span></span>   
 
 [!include [banner](../includes/banner.md)]
 
 
-<span data-ttu-id="997bf-104">您可以创建服务订单跟踪和管理为您的客户提供的服务。</span><span class="sxs-lookup"><span data-stu-id="997bf-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="997bf-105">如果您需要对服务订单预留特定物料，可以创建它的库存物料需求。</span><span class="sxs-lookup"><span data-stu-id="997bf-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="997bf-106">物料需求可以从库存立即消耗，或可以启动生产订单的物料。</span><span class="sxs-lookup"><span data-stu-id="997bf-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
+<span data-ttu-id="82a05-104">您可以创建服务订单跟踪和管理为您的客户提供的服务。</span><span class="sxs-lookup"><span data-stu-id="82a05-104">You can create a service order to track and manage services that you provide to your customers.</span></span> <span data-ttu-id="82a05-105">如果您需要对服务订单预留特定物料，可以创建它的库存物料需求。</span><span class="sxs-lookup"><span data-stu-id="82a05-105">If you need to reserve specific items for a service order, you can create inventory item requirements for it.</span></span> <span data-ttu-id="82a05-106">物料需求可以从库存立即消耗，或可以启动生产订单的物料。</span><span class="sxs-lookup"><span data-stu-id="82a05-106">An item requirement can be immediately consumed from inventory, or it can initiate a production order for the item.</span></span>
 
-<span data-ttu-id="997bf-107">通过使用物料需求来代替物料交易记录，您可以计划刚好在实际使用物料之前交货，创建采购订单，在贸易协议框架中包括物料，以及在生产计划中包括物料需求。</span><span class="sxs-lookup"><span data-stu-id="997bf-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
+<span data-ttu-id="82a05-107">通过使用物料需求来代替物料交易记录，您可以计划刚好在实际使用物料之前交货，创建采购订单，在贸易协议框架中包括物料，以及在生产计划中包括物料需求。</span><span class="sxs-lookup"><span data-stu-id="82a05-107">By using an item requirement instead of an item transaction, you can plan for delivery just before the item is actually used, create a purchase order, include the item in the trade-agreement framework, and include the item requirement in production planning.</span></span>
 
-<span data-ttu-id="997bf-108">服务订单创建物料需求通过项目进行处理。</span><span class="sxs-lookup"><span data-stu-id="997bf-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="997bf-109">若要在服务订单创建物料需求，必须将服务订单附加到项目。</span><span class="sxs-lookup"><span data-stu-id="997bf-109">To create an item requirement on a service order, the service order must be attached to a project.</span></span>
+<span data-ttu-id="82a05-108">服务订单创建物料需求通过项目进行处理。</span><span class="sxs-lookup"><span data-stu-id="82a05-108">Item requirements for service orders are processed through a project.</span></span> <span data-ttu-id="82a05-109">若要在服务订单创建物料需求，必须将服务订单附加到项目。</span><span class="sxs-lookup"><span data-stu-id="82a05-109">To create an item requirement on a service order, the service order must be attached to a project.</span></span>
 
-<span data-ttu-id="997bf-110">在为服务订单创建某一物料需求后，就可以从单独服务订单中的**项目**或通过**销售订单**窗体查看该物料需求。</span><span class="sxs-lookup"><span data-stu-id="997bf-110">As soon as an item requirement is created for a service order, it can be viewed from **Project** in the individual service order or through the **Sales order** form.</span></span>
+<span data-ttu-id="82a05-110">在为服务订单创建某一物料需求后，就可以从单独服务订单中的**项目**或通过**销售订单**窗体查看该物料需求。</span><span class="sxs-lookup"><span data-stu-id="82a05-110">As soon as an item requirement is created for a service order, it can be viewed from **Project** in the individual service order or through the **Sales order** form.</span></span>
 
-## <a name="view-an-item-requirement-from-a-service-order"></a><span data-ttu-id="997bf-111">从服务订单查看物料需求</span><span class="sxs-lookup"><span data-stu-id="997bf-111">View an item requirement from a service order</span></span>
+## <a name="view-an-item-requirement-from-a-service-order"></a><span data-ttu-id="82a05-111">从服务订单查看物料需求</span><span class="sxs-lookup"><span data-stu-id="82a05-111">View an item requirement from a service order</span></span>
 
-1.  <span data-ttu-id="997bf-112">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="997bf-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="82a05-112">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="82a05-112">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="997bf-113">单击**发货**，然后单击**物料需求**打开**物料需求**窗体。</span><span class="sxs-lookup"><span data-stu-id="997bf-113">Click **Dispatch**, and then click **Item requirement** to open the **Item requirements** form.</span></span>
+2.  <span data-ttu-id="82a05-113">单击**发货**，然后单击**物料需求**打开**物料需求**窗体。</span><span class="sxs-lookup"><span data-stu-id="82a05-113">Click **Dispatch**, and then click **Item requirement** to open the **Item requirements** form.</span></span>
 
-3.  <span data-ttu-id="997bf-114">单击**项目**选项卡，然后检查**服务订单**字段以查看物料需求的服务订单。</span><span class="sxs-lookup"><span data-stu-id="997bf-114">Click the **Project** tab, and check the **Service order** field to see the service orders of the item requirement.</span></span>
+3.  <span data-ttu-id="82a05-114">单击**项目**选项卡，然后检查**服务订单**字段以查看物料需求的服务订单。</span><span class="sxs-lookup"><span data-stu-id="82a05-114">Click the **Project** tab, and check the **Service order** field to see the service orders of the item requirement.</span></span>
 
-## <a name="delete-service-orders-with-item-requirements"></a><span data-ttu-id="997bf-115">删除具有物料需求的服务订单</span><span class="sxs-lookup"><span data-stu-id="997bf-115">Delete service orders with item requirements</span></span>
+## <a name="delete-service-orders-with-item-requirements"></a><span data-ttu-id="82a05-115">删除具有物料需求的服务订单</span><span class="sxs-lookup"><span data-stu-id="82a05-115">Delete service orders with item requirements</span></span>
 
-<span data-ttu-id="997bf-116">如果针对某一服务订单创建物料需求，则不能删除该服务订单。</span><span class="sxs-lookup"><span data-stu-id="997bf-116">If an item requirement is created on a service order, you cannot delete the service order.</span></span> <span data-ttu-id="997bf-117">您必须首先删除物料需求，然后才能删除该服务订单。</span><span class="sxs-lookup"><span data-stu-id="997bf-117">You must delete the item requirement before you can delete the service order.</span></span>
+<span data-ttu-id="82a05-116">如果针对某一服务订单创建物料需求，则不能删除该服务订单。</span><span class="sxs-lookup"><span data-stu-id="82a05-116">If an item requirement is created on a service order, you cannot delete the service order.</span></span> <span data-ttu-id="82a05-117">您必须首先删除物料需求，然后才能删除该服务订单。</span><span class="sxs-lookup"><span data-stu-id="82a05-117">You must delete the item requirement before you can delete the service order.</span></span>
 
-1.  <span data-ttu-id="997bf-118">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="997bf-118">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
+1.  <span data-ttu-id="82a05-118">单击**服务管理** \> **通用** \> **服务订单** \> **服务订单**。</span><span class="sxs-lookup"><span data-stu-id="82a05-118">Click **Service management** \> **Common** \> **Service orders** \> **Service orders**.</span></span>
 
-2.  <span data-ttu-id="997bf-119">单击**发货**，然后单击**物料需求**打开**物料需求**窗体。</span><span class="sxs-lookup"><span data-stu-id="997bf-119">Click **Dispatch**, and then click **Item requirement** to open the **Item requirements** form.</span></span> <span data-ttu-id="997bf-120">此窗体将列出在该服务订单上创建的物料需求。</span><span class="sxs-lookup"><span data-stu-id="997bf-120">This form lists the item requirements that are created on the service order.</span></span>
+2.  <span data-ttu-id="82a05-119">单击**发货**，然后单击**物料需求**打开**物料需求**窗体。</span><span class="sxs-lookup"><span data-stu-id="82a05-119">Click **Dispatch**, and then click **Item requirement** to open the **Item requirements** form.</span></span> <span data-ttu-id="82a05-120">此窗体将列出在该服务订单上创建的物料需求。</span><span class="sxs-lookup"><span data-stu-id="82a05-120">This form lists the item requirements that are created on the service order.</span></span>
 
-3.  <span data-ttu-id="997bf-121">选择适当的物料需求行来删除，然后单击**删除**。</span><span class="sxs-lookup"><span data-stu-id="997bf-121">Select the item requirement to delete, and then click **Delete**.</span></span>
+3.  <span data-ttu-id="82a05-121">选择适当的物料需求行来删除，然后单击**删除**。</span><span class="sxs-lookup"><span data-stu-id="82a05-121">Select the item requirement to delete, and then click **Delete**.</span></span>
 
-<span data-ttu-id="997bf-122">–或–</span><span class="sxs-lookup"><span data-stu-id="997bf-122">–or–</span></span>
+<span data-ttu-id="82a05-122">–或–</span><span class="sxs-lookup"><span data-stu-id="82a05-122">–or–</span></span>
 
-1.  <span data-ttu-id="997bf-123">单击**项目管理与核算** \> **通用** \> **项目** \> **所有项目**。</span><span class="sxs-lookup"><span data-stu-id="997bf-123">Click **Project management and accounting** \> **Common** \> **Projects** \> **All projects**.</span></span>
+1.  <span data-ttu-id="82a05-123">单击**项目管理与核算** \> **通用** \> **项目** \> **所有项目**。</span><span class="sxs-lookup"><span data-stu-id="82a05-123">Click **Project management and accounting** \> **Common** \> **Projects** \> **All projects**.</span></span>
 
-2.  <span data-ttu-id="997bf-124">打开具有创建了物料需求的服务订单的项目。</span><span class="sxs-lookup"><span data-stu-id="997bf-124">Open the project that has the service order in which an item requirement is created.</span></span>
+2.  <span data-ttu-id="82a05-124">打开具有创建了物料需求的服务订单的项目。</span><span class="sxs-lookup"><span data-stu-id="82a05-124">Open the project that has the service order in which an item requirement is created.</span></span>
 
-3.  <span data-ttu-id="997bf-125">在**项目**窗体中，在右边的窗格，单击**物料需求** 。</span><span class="sxs-lookup"><span data-stu-id="997bf-125">In the **Projects** form, in the right pane, click **Item requirements**.</span></span> <span data-ttu-id="997bf-126">**物料需求**窗体将打开，窗体中将列出与所选项目相关联的物料需求。</span><span class="sxs-lookup"><span data-stu-id="997bf-126">The **Item requirements** form lists the item requirements that are associated with the selected project.</span></span>
+3.  <span data-ttu-id="82a05-125">在**项目**窗体中，在右边的窗格，单击**物料需求** 。</span><span class="sxs-lookup"><span data-stu-id="82a05-125">In the **Projects** form, in the right pane, click **Item requirements**.</span></span> <span data-ttu-id="82a05-126">**物料需求**窗体将打开，窗体中将列出与所选项目相关联的物料需求。</span><span class="sxs-lookup"><span data-stu-id="82a05-126">The **Item requirements** form lists the item requirements that are associated with the selected project.</span></span>
 
-4.  <span data-ttu-id="997bf-127">选择适当的物料需求行来删除，然后单击**删除**。</span><span class="sxs-lookup"><span data-stu-id="997bf-127">Select the item requirement to delete, and then click **Delete**.</span></span>
+4.  <span data-ttu-id="82a05-127">选择适当的物料需求行来删除，然后单击**删除**。</span><span class="sxs-lookup"><span data-stu-id="82a05-127">Select the item requirement to delete, and then click **Delete**.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="997bf-128">请参阅</span><span class="sxs-lookup"><span data-stu-id="997bf-128">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="82a05-128">请参阅</span><span class="sxs-lookup"><span data-stu-id="82a05-128">See also</span></span>
 
-<span data-ttu-id="997bf-129">[物料需求（窗体）](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="997bf-129">[Item requirements (form)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\))</span></span>
+<span data-ttu-id="82a05-129">[物料需求（窗体）](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\))</span><span class="sxs-lookup"><span data-stu-id="82a05-129">[Item requirements (form)](https://technet.microsoft.com/en-us/library/aa552021\(v=ax.60\))</span></span>
 

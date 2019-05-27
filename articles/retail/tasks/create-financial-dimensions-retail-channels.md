@@ -17,41 +17,41 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cf32d17a36fd699141ce697d23e20b2eb5cbfa54
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "354521"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566448"
 ---
-# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a><span data-ttu-id="c4cb0-103">创建零售渠道的财务维度和配置商店上的维度值</span><span class="sxs-lookup"><span data-stu-id="c4cb0-103">Create financial dimensions for retail channels and configure dimension values on stores</span></span>
+# <a name="create-financial-dimensions-for-retail-channels-and-configure-dimension-values-on-stores"></a><span data-ttu-id="7ac1a-103">创建零售渠道的财务维度和配置商店上的维度值</span><span class="sxs-lookup"><span data-stu-id="7ac1a-103">Create financial dimensions for retail channels and configure dimension values on stores</span></span>
 
 [!include [task guide banner](../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c4cb0-104">此程序会逐步演示如何创建带有维度值的零售渠道财务维度，以及配置零售商店的财务维度值的步骤。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-104">This procedure walks through creating a retail channel financial dimension with dimension values and steps to configure financial dimension values on retail stores.</span></span> <span data-ttu-id="c4cb0-105">该主题不包括其他相关步骤，例如创建维度集和科目结构。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-105">The topic does not include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="c4cb0-106">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-106">This procedure uses the USRT company in demo data.</span></span>
+<span data-ttu-id="7ac1a-104">此程序会逐步演示如何创建带有维度值的零售渠道财务维度，以及配置零售商店的财务维度值的步骤。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-104">This procedure walks through creating a retail channel financial dimension with dimension values and steps to configure financial dimension values on retail stores.</span></span> <span data-ttu-id="7ac1a-105">该主题不包括其他相关步骤，例如创建维度集和科目结构。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-105">The topic does not include other related steps, such as creating dimension sets and account structures.</span></span> <span data-ttu-id="7ac1a-106">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-106">This procedure uses the USRT company in demo data.</span></span>
 
-1. <span data-ttu-id="c4cb0-107">转到“总帐”>“会计科目表”>“维度”>“财务维度”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-107">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
-2. <span data-ttu-id="c4cb0-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-108">Click New.</span></span>
-3. <span data-ttu-id="c4cb0-109">在“使用以下来源中的值”字段中，选择“零售渠道”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-109">In the Use values from field, select 'Retail channels'.</span></span>
-4. <span data-ttu-id="c4cb0-110">在“维度名称”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-110">In the Dimension name field, type a value.</span></span>
-5. <span data-ttu-id="c4cb0-111">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-111">Click Activate.</span></span>
-6. <span data-ttu-id="c4cb0-112">单击“关闭”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-112">Click Close.</span></span>
-7. <span data-ttu-id="c4cb0-113">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-113">Click Activate.</span></span>
-8. <span data-ttu-id="c4cb0-114">单击“维度值”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-114">Click Dimension values.</span></span>
-9. <span data-ttu-id="c4cb0-115">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-115">Close the page.</span></span>
-10. <span data-ttu-id="c4cb0-116">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-116">Click Save.</span></span>
-11. <span data-ttu-id="c4cb0-117">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-117">Close the page.</span></span>
-12. <span data-ttu-id="c4cb0-118">转至“零售和商业”>“渠道”>“零售商店”>“所有零售商店”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-118">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
-13. <span data-ttu-id="c4cb0-119">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-119">In the list, click the link in the selected row.</span></span>
-14. <span data-ttu-id="c4cb0-120">切换“财务维度”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-120">Toggle the expansion of the Financial dimensions section.</span></span>
-15. <span data-ttu-id="c4cb0-121">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-121">Click Edit.</span></span>
-16. <span data-ttu-id="c4cb0-122">在“零售渠道”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-122">In the Retailchannel field, click the drop-down button to open the lookup.</span></span>
-17. <span data-ttu-id="c4cb0-123">在列表中，查找并选择正在更新的商店的维度值。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-123">In the list, find and select the dimension value for the store being updated.</span></span>
-18. <span data-ttu-id="c4cb0-124">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-124">In the list, click the link in the selected row.</span></span>
-19. <span data-ttu-id="c4cb0-125">在“成本中心”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-125">In the CostCenter field, click the drop-down button to open the lookup.</span></span>
-20. <span data-ttu-id="c4cb0-126">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-126">In the list, find and select the desired record.</span></span>
-21. <span data-ttu-id="c4cb0-127">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-127">In the list, click the link in the selected row.</span></span>
-22. <span data-ttu-id="c4cb0-128">在“部门”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-128">In the Department field, click the drop-down button to open the lookup.</span></span>
-23. <span data-ttu-id="c4cb0-129">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-129">In the list, find and select the desired record.</span></span>
-24. <span data-ttu-id="c4cb0-130">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-130">In the list, click the link in the selected row.</span></span>
-25. <span data-ttu-id="c4cb0-131">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="c4cb0-131">Click Save.</span></span>
+1. <span data-ttu-id="7ac1a-107">转到“总帐”>“会计科目表”>“维度”>“财务维度”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-107">Go to General ledger > Chart of accounts > Dimensions > Financial dimensions.</span></span>
+2. <span data-ttu-id="7ac1a-108">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-108">Click New.</span></span>
+3. <span data-ttu-id="7ac1a-109">在“使用以下来源中的值”字段中，选择“零售渠道”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-109">In the Use values from field, select 'Retail channels'.</span></span>
+4. <span data-ttu-id="7ac1a-110">在“维度名称”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-110">In the Dimension name field, type a value.</span></span>
+5. <span data-ttu-id="7ac1a-111">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-111">Click Activate.</span></span>
+6. <span data-ttu-id="7ac1a-112">单击“关闭”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-112">Click Close.</span></span>
+7. <span data-ttu-id="7ac1a-113">单击“启用”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-113">Click Activate.</span></span>
+8. <span data-ttu-id="7ac1a-114">单击“维度值”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-114">Click Dimension values.</span></span>
+9. <span data-ttu-id="7ac1a-115">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-115">Close the page.</span></span>
+10. <span data-ttu-id="7ac1a-116">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-116">Click Save.</span></span>
+11. <span data-ttu-id="7ac1a-117">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-117">Close the page.</span></span>
+12. <span data-ttu-id="7ac1a-118">转至“零售和商业”>“渠道”>“零售商店”>“所有零售商店”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-118">Go to Retail and commerce > Channels > Retail stores > All retail stores.</span></span>
+13. <span data-ttu-id="7ac1a-119">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-119">In the list, click the link in the selected row.</span></span>
+14. <span data-ttu-id="7ac1a-120">切换“财务维度”部分的展开项。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-120">Toggle the expansion of the Financial dimensions section.</span></span>
+15. <span data-ttu-id="7ac1a-121">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-121">Click Edit.</span></span>
+16. <span data-ttu-id="7ac1a-122">在“零售渠道”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-122">In the Retailchannel field, click the drop-down button to open the lookup.</span></span>
+17. <span data-ttu-id="7ac1a-123">在列表中，查找并选择正在更新的商店的维度值。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-123">In the list, find and select the dimension value for the store being updated.</span></span>
+18. <span data-ttu-id="7ac1a-124">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-124">In the list, click the link in the selected row.</span></span>
+19. <span data-ttu-id="7ac1a-125">在“成本中心”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-125">In the CostCenter field, click the drop-down button to open the lookup.</span></span>
+20. <span data-ttu-id="7ac1a-126">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-126">In the list, find and select the desired record.</span></span>
+21. <span data-ttu-id="7ac1a-127">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-127">In the list, click the link in the selected row.</span></span>
+22. <span data-ttu-id="7ac1a-128">在“部门”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-128">In the Department field, click the drop-down button to open the lookup.</span></span>
+23. <span data-ttu-id="7ac1a-129">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-129">In the list, find and select the desired record.</span></span>
+24. <span data-ttu-id="7ac1a-130">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-130">In the list, click the link in the selected row.</span></span>
+25. <span data-ttu-id="7ac1a-131">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="7ac1a-131">Click Save.</span></span>
 

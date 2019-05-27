@@ -17,53 +17,53 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 6e34f7c630e872468d888938e0f1aa57f3f0d4c4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "326070"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569998"
 ---
-# <a name="create-a-product-master"></a><span data-ttu-id="c7460-103">创建基础产品</span><span class="sxs-lookup"><span data-stu-id="c7460-103">Create a product master</span></span>
+# <a name="create-a-product-master"></a><span data-ttu-id="f7a0d-103">创建基础产品</span><span class="sxs-lookup"><span data-stu-id="f7a0d-103">Create a product master</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="c7460-104">为预定义变型创建基础产品。</span><span class="sxs-lookup"><span data-stu-id="c7460-104">Create a product master for the predefined variants.</span></span> <span data-ttu-id="c7460-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="c7460-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="c7460-106">此过程专门针对产品设计人员。</span><span class="sxs-lookup"><span data-stu-id="c7460-106">This procedure is intended for the product designer.</span></span>
+<span data-ttu-id="f7a0d-104">为预定义变型创建基础产品。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-104">Create a product master for the predefined variants.</span></span> <span data-ttu-id="f7a0d-105">创建此程序的演示数据公司是 USMF。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-105">The demo data company used to create this procedure is USMF.</span></span> <span data-ttu-id="f7a0d-106">此过程专门针对产品设计人员。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-106">This procedure is intended for the product designer.</span></span>
 
 
-## <a name="create-a-new-product-master"></a><span data-ttu-id="c7460-107">新建基础产品</span><span class="sxs-lookup"><span data-stu-id="c7460-107">Create a new product master</span></span>
-1. <span data-ttu-id="c7460-108">转到“产品信息管理”>“产品”>“基础产品”。</span><span class="sxs-lookup"><span data-stu-id="c7460-108">Go to Product information management > Products > Product masters.</span></span>
-2. <span data-ttu-id="c7460-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="c7460-109">Click New.</span></span>
-3. <span data-ttu-id="c7460-110">在“产品编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c7460-110">In the Product number field, type a value.</span></span>
-    * <span data-ttu-id="c7460-111">其编号必须是唯一的。</span><span class="sxs-lookup"><span data-stu-id="c7460-111">The number must be unique.</span></span> <span data-ttu-id="c7460-112">可在“产品编号”字段设置编号顺序。</span><span class="sxs-lookup"><span data-stu-id="c7460-112">A number sequence can be set for the Product number field.</span></span> <span data-ttu-id="c7460-113">在这种情况下，用户不必输入一个值。</span><span class="sxs-lookup"><span data-stu-id="c7460-113">In this case, the user doesn't have to enter a value.</span></span>  
-4. <span data-ttu-id="c7460-114">在“产品名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="c7460-114">In the Product name field, type a value.</span></span>
-    * <span data-ttu-id="c7460-115">输入产品的描述性名称。</span><span class="sxs-lookup"><span data-stu-id="c7460-115">Enter a descriptive product name.</span></span> <span data-ttu-id="c7460-116">该值默认为搜索名称，不过用户可以更改。</span><span class="sxs-lookup"><span data-stu-id="c7460-116">The value defaults to the search name, but this can be changed by the user.</span></span>  
-5. <span data-ttu-id="c7460-117">在“产品维度组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="c7460-117">In the Product dimension group field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="c7460-118">产品维度组确定可用于创建产品变型的 4 个产品维度。</span><span class="sxs-lookup"><span data-stu-id="c7460-118">The product dimension group determines which of the 4 product dimensions that can be used to create product variants.</span></span> <span data-ttu-id="c7460-119">此示例使用颜色和大小组。</span><span class="sxs-lookup"><span data-stu-id="c7460-119">This example uses a group with color and size.</span></span>  
-6. <span data-ttu-id="c7460-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c7460-120">In the list, find and select the desired record.</span></span>
-7. <span data-ttu-id="c7460-121">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c7460-121">In the list, click the link in the selected row.</span></span>
-    * <span data-ttu-id="c7460-122">默认配置技术是预定义变型。</span><span class="sxs-lookup"><span data-stu-id="c7460-122">The default configuration technology is Predefined variant.</span></span> <span data-ttu-id="c7460-123">这将在此示例中使用。</span><span class="sxs-lookup"><span data-stu-id="c7460-123">This will be used for this example.</span></span>  
-8. <span data-ttu-id="c7460-124">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="c7460-124">Click OK.</span></span>
+## <a name="create-a-new-product-master"></a><span data-ttu-id="f7a0d-107">新建基础产品</span><span class="sxs-lookup"><span data-stu-id="f7a0d-107">Create a new product master</span></span>
+1. <span data-ttu-id="f7a0d-108">转到“产品信息管理”>“产品”>“基础产品”。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-108">Go to Product information management > Products > Product masters.</span></span>
+2. <span data-ttu-id="f7a0d-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-109">Click New.</span></span>
+3. <span data-ttu-id="f7a0d-110">在“产品编号”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-110">In the Product number field, type a value.</span></span>
+    * <span data-ttu-id="f7a0d-111">其编号必须是唯一的。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-111">The number must be unique.</span></span> <span data-ttu-id="f7a0d-112">可在“产品编号”字段设置编号顺序。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-112">A number sequence can be set for the Product number field.</span></span> <span data-ttu-id="f7a0d-113">在这种情况下，用户不必输入一个值。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-113">In this case, the user doesn't have to enter a value.</span></span>  
+4. <span data-ttu-id="f7a0d-114">在“产品名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-114">In the Product name field, type a value.</span></span>
+    * <span data-ttu-id="f7a0d-115">输入产品的描述性名称。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-115">Enter a descriptive product name.</span></span> <span data-ttu-id="f7a0d-116">该值默认为搜索名称，不过用户可以更改。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-116">The value defaults to the search name, but this can be changed by the user.</span></span>  
+5. <span data-ttu-id="f7a0d-117">在“产品维度组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-117">In the Product dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f7a0d-118">产品维度组确定可用于创建产品变型的 4 个产品维度。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-118">The product dimension group determines which of the 4 product dimensions that can be used to create product variants.</span></span> <span data-ttu-id="f7a0d-119">此示例使用颜色和大小组。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-119">This example uses a group with color and size.</span></span>  
+6. <span data-ttu-id="f7a0d-120">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-120">In the list, find and select the desired record.</span></span>
+7. <span data-ttu-id="f7a0d-121">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-121">In the list, click the link in the selected row.</span></span>
+    * <span data-ttu-id="f7a0d-122">默认配置技术是预定义变型。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-122">The default configuration technology is Predefined variant.</span></span> <span data-ttu-id="f7a0d-123">这将在此示例中使用。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-123">This will be used for this example.</span></span>  
+8. <span data-ttu-id="f7a0d-124">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-124">Click OK.</span></span>
 
-## <a name="select-product-dimension-groups"></a><span data-ttu-id="c7460-125">选择产品维度组</span><span class="sxs-lookup"><span data-stu-id="c7460-125">Select product dimension groups</span></span>
-1. <span data-ttu-id="c7460-126">在“颜色组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="c7460-126">In the Color group field, click the drop-down button to open the lookup.</span></span>
-2. <span data-ttu-id="c7460-127">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c7460-127">In the list, find and select the desired record.</span></span>
-3. <span data-ttu-id="c7460-128">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c7460-128">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="c7460-129">在“大小组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="c7460-129">In the Size group field, click the drop-down button to open the lookup.</span></span>
-5. <span data-ttu-id="c7460-130">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c7460-130">In the list, find and select the desired record.</span></span>
-6. <span data-ttu-id="c7460-131">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c7460-131">In the list, click the link in the selected row.</span></span>
+## <a name="select-product-dimension-groups"></a><span data-ttu-id="f7a0d-125">选择产品维度组</span><span class="sxs-lookup"><span data-stu-id="f7a0d-125">Select product dimension groups</span></span>
+1. <span data-ttu-id="f7a0d-126">在“颜色组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-126">In the Color group field, click the drop-down button to open the lookup.</span></span>
+2. <span data-ttu-id="f7a0d-127">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-127">In the list, find and select the desired record.</span></span>
+3. <span data-ttu-id="f7a0d-128">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-128">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="f7a0d-129">在“大小组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-129">In the Size group field, click the drop-down button to open the lookup.</span></span>
+5. <span data-ttu-id="f7a0d-130">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-130">In the list, find and select the desired record.</span></span>
+6. <span data-ttu-id="f7a0d-131">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-131">In the list, click the link in the selected row.</span></span>
 
-## <a name="add-dimension-groups"></a><span data-ttu-id="c7460-132">添加维度组</span><span class="sxs-lookup"><span data-stu-id="c7460-132">Add dimension groups</span></span>
-1. <span data-ttu-id="c7460-133">在操作窗格上，单击“产品”。</span><span class="sxs-lookup"><span data-stu-id="c7460-133">On the Action Pane, click Product.</span></span>
-2. <span data-ttu-id="c7460-134">单击“维度组”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="c7460-134">Click Dimension groups to open the drop dialog.</span></span>
-3. <span data-ttu-id="c7460-135">在“存储维度组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="c7460-135">In the Storage dimension group field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="c7460-136">存储维度帮助您控制物料存储方式和库存提取方式。</span><span class="sxs-lookup"><span data-stu-id="c7460-136">The storage dimensions help you control how items are stored and taken from inventory.</span></span> <span data-ttu-id="c7460-137">例如，存储维度可包括站点和仓库。</span><span class="sxs-lookup"><span data-stu-id="c7460-137">For example, a storage dimension can include Site and Warehouse.</span></span>  
-4. <span data-ttu-id="c7460-138">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c7460-138">In the list, find and select the desired record.</span></span>
-5. <span data-ttu-id="c7460-139">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c7460-139">In the list, click the link in the selected row.</span></span>
-6. <span data-ttu-id="c7460-140">在“跟踪维度组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="c7460-140">In the Tracking dimension group field, click the drop-down button to open the lookup.</span></span>
-    * <span data-ttu-id="c7460-141">跟踪维度组确定可以添加到产品中的跟踪维度。</span><span class="sxs-lookup"><span data-stu-id="c7460-141">The tracking dimension group determines which tracking dimensions you can add to a product.</span></span> <span data-ttu-id="c7460-142">例如，批号和序列号用于跟踪库存物料。</span><span class="sxs-lookup"><span data-stu-id="c7460-142">For example, the batch number and serial number are used to track inventory items.</span></span>  
-7. <span data-ttu-id="c7460-143">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="c7460-143">In the list, find and select the desired record.</span></span>
-8. <span data-ttu-id="c7460-144">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="c7460-144">In the list, click the link in the selected row.</span></span>
-9. <span data-ttu-id="c7460-145">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="c7460-145">Click OK.</span></span>
-10. <span data-ttu-id="c7460-146">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="c7460-146">Click Save.</span></span>
-11. <span data-ttu-id="c7460-147">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="c7460-147">Close the page.</span></span>
+## <a name="add-dimension-groups"></a><span data-ttu-id="f7a0d-132">添加维度组</span><span class="sxs-lookup"><span data-stu-id="f7a0d-132">Add dimension groups</span></span>
+1. <span data-ttu-id="f7a0d-133">在操作窗格上，单击“产品”。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-133">On the Action Pane, click Product.</span></span>
+2. <span data-ttu-id="f7a0d-134">单击“维度组”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-134">Click Dimension groups to open the drop dialog.</span></span>
+3. <span data-ttu-id="f7a0d-135">在“存储维度组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-135">In the Storage dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f7a0d-136">存储维度帮助您控制物料存储方式和库存提取方式。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-136">The storage dimensions help you control how items are stored and taken from inventory.</span></span> <span data-ttu-id="f7a0d-137">例如，存储维度可包括站点和仓库。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-137">For example, a storage dimension can include Site and Warehouse.</span></span>  
+4. <span data-ttu-id="f7a0d-138">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-138">In the list, find and select the desired record.</span></span>
+5. <span data-ttu-id="f7a0d-139">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-139">In the list, click the link in the selected row.</span></span>
+6. <span data-ttu-id="f7a0d-140">在“跟踪维度组”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-140">In the Tracking dimension group field, click the drop-down button to open the lookup.</span></span>
+    * <span data-ttu-id="f7a0d-141">跟踪维度组确定可以添加到产品中的跟踪维度。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-141">The tracking dimension group determines which tracking dimensions you can add to a product.</span></span> <span data-ttu-id="f7a0d-142">例如，批号和序列号用于跟踪库存物料。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-142">For example, the batch number and serial number are used to track inventory items.</span></span>  
+7. <span data-ttu-id="f7a0d-143">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-143">In the list, find and select the desired record.</span></span>
+8. <span data-ttu-id="f7a0d-144">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-144">In the list, click the link in the selected row.</span></span>
+9. <span data-ttu-id="f7a0d-145">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-145">Click OK.</span></span>
+10. <span data-ttu-id="f7a0d-146">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-146">Click Save.</span></span>
+11. <span data-ttu-id="f7a0d-147">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="f7a0d-147">Close the page.</span></span>
 

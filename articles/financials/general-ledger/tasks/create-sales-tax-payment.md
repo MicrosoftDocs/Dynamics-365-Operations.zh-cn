@@ -17,23 +17,23 @@ ms.author: vstehman
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b0d72c88d6ba851e96ca07b896630549690e9396
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321746"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563685"
 ---
-# <a name="create-a-sales-tax-payment"></a><span data-ttu-id="ee4e2-103">创建销售税支付</span><span class="sxs-lookup"><span data-stu-id="ee4e2-103">Create a sales tax payment</span></span>
+# <a name="create-a-sales-tax-payment"></a><span data-ttu-id="b2990-103">创建销售税支付</span><span class="sxs-lookup"><span data-stu-id="b2990-103">Create a sales tax payment</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="ee4e2-104">结算和过帐销售税作业结算销售税帐户的销售税余额，并冲销特定期间内的销售税结算帐户。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-104">The settle and post sales tax job settles sales tax balances on the sales tax accounts and offsets them to the sales tax settlement account for a given period.</span></span>
+<span data-ttu-id="b2990-104">结算和过帐销售税作业结算销售税帐户的销售税余额，并冲销特定期间内的销售税结算帐户。</span><span class="sxs-lookup"><span data-stu-id="b2990-104">The settle and post sales tax job settles sales tax balances on the sales tax accounts and offsets them to the sales tax settlement account for a given period.</span></span>
 
-1. <span data-ttu-id="ee4e2-105">转到“纳税”>“申报”>“销售税”>“结算和过帐销售税”。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-105">Go to Tax > Declarations > Sales tax > Settle and post sales tax.</span></span>
-2. <span data-ttu-id="ee4e2-106">在“结算期间”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-106">In the Settlement period field, click the drop-down button to open the lookup.</span></span>
-3. <span data-ttu-id="ee4e2-107">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-107">In the list, click the link in the selected row.</span></span>
-4. <span data-ttu-id="ee4e2-108">在“开始日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-108">In the From date field, enter a date.</span></span>
-    * <span data-ttu-id="ee4e2-109">如果未选择总帐参数页面的“包括更正”选项，会进行不同版本的结算处理。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-109">If the Include corrections option is not selected on the General ledger parameters page, the settlement can be processed for different versions.</span></span> <span data-ttu-id="ee4e2-110">原始结算为某个期间间隔的首次结算，并且一个期间间隔只能处理一次。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-110">Original is the first settlement for a period interval and can only processed once for a period interval.</span></span> <span data-ttu-id="ee4e2-111">最新更正将结算在原始版本创建后过帐的销售税交易记录。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-111">Latest corrections will settle sales tax transactions which have been posted after the original version has been created.</span></span>   
-5. <span data-ttu-id="ee4e2-112">在“交易记录日期”字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-112">In the Transaction date field, enter a date.</span></span>
-6. <span data-ttu-id="ee4e2-113">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="ee4e2-113">Click OK.</span></span>
+1. <span data-ttu-id="b2990-105">转到“纳税”>“申报”>“销售税”>“结算和过帐销售税”。</span><span class="sxs-lookup"><span data-stu-id="b2990-105">Go to Tax > Declarations > Sales tax > Settle and post sales tax.</span></span>
+2. <span data-ttu-id="b2990-106">在“结算期间”字段中，单击下拉按钮以打开查找。</span><span class="sxs-lookup"><span data-stu-id="b2990-106">In the Settlement period field, click the drop-down button to open the lookup.</span></span>
+3. <span data-ttu-id="b2990-107">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="b2990-107">In the list, click the link in the selected row.</span></span>
+4. <span data-ttu-id="b2990-108">在“开始日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="b2990-108">In the From date field, enter a date.</span></span>
+    * <span data-ttu-id="b2990-109">如果未选择总帐参数页面的“包括更正”选项，会进行不同版本的结算处理。</span><span class="sxs-lookup"><span data-stu-id="b2990-109">If the Include corrections option is not selected on the General ledger parameters page, the settlement can be processed for different versions.</span></span> <span data-ttu-id="b2990-110">原始结算为某个期间间隔的首次结算，并且一个期间间隔只能处理一次。</span><span class="sxs-lookup"><span data-stu-id="b2990-110">Original is the first settlement for a period interval and can only processed once for a period interval.</span></span> <span data-ttu-id="b2990-111">最新更正将结算在原始版本创建后过帐的销售税交易记录。</span><span class="sxs-lookup"><span data-stu-id="b2990-111">Latest corrections will settle sales tax transactions which have been posted after the original version has been created.</span></span>   
+5. <span data-ttu-id="b2990-112">在“交易记录日期”字段中，输入日期。</span><span class="sxs-lookup"><span data-stu-id="b2990-112">In the Transaction date field, enter a date.</span></span>
+6. <span data-ttu-id="b2990-113">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="b2990-113">Click OK.</span></span>
 

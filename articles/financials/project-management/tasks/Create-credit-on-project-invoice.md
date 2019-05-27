@@ -17,25 +17,25 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: be337accdde23d5bd9871c75115f45474d960604
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364342"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572503"
 ---
-# <a name="create-a-credit-note-on-project-invoices"></a><span data-ttu-id="1e193-103">创建项目发票上的贷方通知单</span><span class="sxs-lookup"><span data-stu-id="1e193-103">Create a credit note on project invoices</span></span>
+# <a name="create-a-credit-note-on-project-invoices"></a><span data-ttu-id="f9061-103">创建项目发票上的贷方通知单</span><span class="sxs-lookup"><span data-stu-id="f9061-103">Create a credit note on project invoices</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-1. <span data-ttu-id="1e193-104">转到项目管理和记账>项目>全部项目。</span><span class="sxs-lookup"><span data-stu-id="1e193-104">Go to Project management and accounting > Projects > All projects.</span></span> 
-2. <span data-ttu-id="1e193-105">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="1e193-105">In the list, find and select the desired record.</span></span> 
-3. <span data-ttu-id="1e193-106">选择用于贷方通知单的项目 ID。</span><span class="sxs-lookup"><span data-stu-id="1e193-106">Select the Project ID that is used for the Credit Note.</span></span> <span data-ttu-id="1e193-107">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="1e193-107">In the list, click the link in the selected row.</span></span> 
-4. <span data-ttu-id="1e193-108">在“操作窗格”上单击“管理”。</span><span class="sxs-lookup"><span data-stu-id="1e193-108">On the Action Pane, click Manage.</span></span> 
-5. <span data-ttu-id="1e193-109">单击“发票日记帐”。</span><span class="sxs-lookup"><span data-stu-id="1e193-109">Click Invoice journals.</span></span> 
-6. <span data-ttu-id="1e193-110">为贷方通知单选择交易记录</span><span class="sxs-lookup"><span data-stu-id="1e193-110">Select the transaction for credit note.</span></span> <span data-ttu-id="1e193-111">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="1e193-111">In the list, mark the selected row.</span></span> 
-7. <span data-ttu-id="1e193-112">单击“功能”。</span><span class="sxs-lookup"><span data-stu-id="1e193-112">Click Functions.</span></span> 
-8. <span data-ttu-id="1e193-113">单击“为贷方通知单选择”。</span><span class="sxs-lookup"><span data-stu-id="1e193-113">Click Select for credit note.</span></span> 
-9. <span data-ttu-id="1e193-114">通过选中复选框来选择用于贷方通知单的交易记录。</span><span class="sxs-lookup"><span data-stu-id="1e193-114">Select the transaction for credit note by marking the check box.</span></span>
-10. <span data-ttu-id="1e193-115">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1e193-115">Click OK.</span></span> 
+1. <span data-ttu-id="f9061-104">转到项目管理和记账>项目>全部项目。</span><span class="sxs-lookup"><span data-stu-id="f9061-104">Go to Project management and accounting > Projects > All projects.</span></span> 
+2. <span data-ttu-id="f9061-105">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="f9061-105">In the list, find and select the desired record.</span></span> 
+3. <span data-ttu-id="f9061-106">选择用于贷方通知单的项目 ID。</span><span class="sxs-lookup"><span data-stu-id="f9061-106">Select the Project ID that is used for the Credit Note.</span></span> <span data-ttu-id="f9061-107">在列表中，单击所选行中的链接。</span><span class="sxs-lookup"><span data-stu-id="f9061-107">In the list, click the link in the selected row.</span></span> 
+4. <span data-ttu-id="f9061-108">在“操作窗格”上单击“管理”。</span><span class="sxs-lookup"><span data-stu-id="f9061-108">On the Action Pane, click Manage.</span></span> 
+5. <span data-ttu-id="f9061-109">单击“发票日记帐”。</span><span class="sxs-lookup"><span data-stu-id="f9061-109">Click Invoice journals.</span></span> 
+6. <span data-ttu-id="f9061-110">为贷方通知单选择交易记录</span><span class="sxs-lookup"><span data-stu-id="f9061-110">Select the transaction for credit note.</span></span> <span data-ttu-id="f9061-111">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="f9061-111">In the list, mark the selected row.</span></span> 
+7. <span data-ttu-id="f9061-112">单击“功能”。</span><span class="sxs-lookup"><span data-stu-id="f9061-112">Click Functions.</span></span> 
+8. <span data-ttu-id="f9061-113">单击“为贷方通知单选择”。</span><span class="sxs-lookup"><span data-stu-id="f9061-113">Click Select for credit note.</span></span> 
+9. <span data-ttu-id="f9061-114">通过选中复选框来选择用于贷方通知单的交易记录。</span><span class="sxs-lookup"><span data-stu-id="f9061-114">Select the transaction for credit note by marking the check box.</span></span>
+10. <span data-ttu-id="f9061-115">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="f9061-115">Click OK.</span></span> 
 
-<span data-ttu-id="1e193-116">在此步骤之后，贷方通知单将可用于发票方案。</span><span class="sxs-lookup"><span data-stu-id="1e193-116">After this step, the Credit Note will be available for Invoice Proposal.</span></span>
+<span data-ttu-id="f9061-116">在此步骤之后，贷方通知单将可用于发票方案。</span><span class="sxs-lookup"><span data-stu-id="f9061-116">After this step, the Credit Note will be available for Invoice Proposal.</span></span>

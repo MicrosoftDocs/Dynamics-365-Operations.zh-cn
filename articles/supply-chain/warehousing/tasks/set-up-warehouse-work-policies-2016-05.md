@@ -18,37 +18,37 @@ ms.author: johanho
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 34b4255c85bb53f7e238b60559890571070953a6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335316"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569071"
 ---
-# <a name="set-up-warehouse-work-policies-application-may-2016"></a><span data-ttu-id="70386-103">设置仓库工作策略（申请表，2016 年 5 月）</span><span class="sxs-lookup"><span data-stu-id="70386-103">Set up warehouse work policies (Application, May 2016)</span></span>
+# <a name="set-up-warehouse-work-policies-application-may-2016"></a><span data-ttu-id="3a27a-103">设置仓库工作策略（申请表，2016 年 5 月）</span><span class="sxs-lookup"><span data-stu-id="3a27a-103">Set up warehouse work policies (Application, May 2016)</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="70386-104">仓库流程不是始终包括仓库工作。</span><span class="sxs-lookup"><span data-stu-id="70386-104">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="70386-105">通过定义工作策略，您可以防止为原材料领料创建工作，并将一组产品的成品储存在特定位置。</span><span class="sxs-lookup"><span data-stu-id="70386-105">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="70386-106">USMF 演示数据公司用于创建此记录。</span><span class="sxs-lookup"><span data-stu-id="70386-106">The USMF demo data company was used to create this recording.</span></span> <span data-ttu-id="70386-107">此任务指南需要 Dynamics AX 应用程序 7.0.1 或更高版本。</span><span class="sxs-lookup"><span data-stu-id="70386-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
+<span data-ttu-id="3a27a-104">仓库流程不是始终包括仓库工作。</span><span class="sxs-lookup"><span data-stu-id="3a27a-104">Warehouse processes don’t always include warehouse work.</span></span> <span data-ttu-id="3a27a-105">通过定义工作策略，您可以防止为原材料领料创建工作，并将一组产品的成品储存在特定位置。</span><span class="sxs-lookup"><span data-stu-id="3a27a-105">By defining a work policy, you can prevent the creation of work for raw material picking and put-away of finished goods for a set of products at specific locations.</span></span> <span data-ttu-id="3a27a-106">USMF 演示数据公司用于创建此记录。</span><span class="sxs-lookup"><span data-stu-id="3a27a-106">The USMF demo data company was used to create this recording.</span></span> <span data-ttu-id="3a27a-107">此任务指南需要 Dynamics AX 应用程序 7.0.1 或更高版本。</span><span class="sxs-lookup"><span data-stu-id="3a27a-107">This task guide requires Dynamics AX application 7.0.1 or later.</span></span>
 
-1. <span data-ttu-id="70386-108">转到“仓库管理”>“设置”>“工作”>“工作策略”。</span><span class="sxs-lookup"><span data-stu-id="70386-108">Go to Warehouse management > Setup > Work > Work policies.</span></span>
-2. <span data-ttu-id="70386-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="70386-109">Click New.</span></span>
-3. <span data-ttu-id="70386-110">在“工作策略名称”字段中，键入“无储存工作”。</span><span class="sxs-lookup"><span data-stu-id="70386-110">In the Work policy name field, type 'No put-away work'.</span></span>
-4. <span data-ttu-id="70386-111">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="70386-111">Click Save.</span></span>
-5. <span data-ttu-id="70386-112">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="70386-112">Click Add.</span></span>
-6. <span data-ttu-id="70386-113">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="70386-113">In the list, mark the selected row.</span></span>
-7. <span data-ttu-id="70386-114">在“工作订单类型”字段中，选择“成品储存”。</span><span class="sxs-lookup"><span data-stu-id="70386-114">In the Work order type field, select 'Finished goods put away'.</span></span>
-8. <span data-ttu-id="70386-115">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="70386-115">Click Add.</span></span>
-9. <span data-ttu-id="70386-116">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="70386-116">In the list, mark the selected row.</span></span>
-10. <span data-ttu-id="70386-117">在“工作订单类型”字段中，选择“联产品和副产品储存”。</span><span class="sxs-lookup"><span data-stu-id="70386-117">In the Work order type field, select 'Co-product and by-product put away'.</span></span>
-11. <span data-ttu-id="70386-118">展开“库存库位”部分。</span><span class="sxs-lookup"><span data-stu-id="70386-118">Expand the Inventory locations section.</span></span>
-12. <span data-ttu-id="70386-119">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="70386-119">Click Add.</span></span>
-13. <span data-ttu-id="70386-120">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="70386-120">In the list, mark the selected row.</span></span>
-14. <span data-ttu-id="70386-121">在仓库列表中，输入 '51'。</span><span class="sxs-lookup"><span data-stu-id="70386-121">In the Warehouse list, enter '51'.</span></span>
-15. <span data-ttu-id="70386-122">在“位置”字段中，输入或选择 '001'。</span><span class="sxs-lookup"><span data-stu-id="70386-122">In the Location field, enter or select '001'.</span></span>
-16. <span data-ttu-id="70386-123">展开“产品”部分。</span><span class="sxs-lookup"><span data-stu-id="70386-123">Expand the Products section.</span></span>
-17. <span data-ttu-id="70386-124">在“产品选择”字段中，选择“已选择”。</span><span class="sxs-lookup"><span data-stu-id="70386-124">In the Product selection field, select 'Selected'.</span></span>
-18. <span data-ttu-id="70386-125">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="70386-125">Click Add.</span></span>
-19. <span data-ttu-id="70386-126">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="70386-126">In the list, mark the selected row.</span></span>
-20. <span data-ttu-id="70386-127">在“物料编号”字段中，输入或选择 'L0101'。</span><span class="sxs-lookup"><span data-stu-id="70386-127">In the Item number field, enter or select 'L0101'.</span></span>
-21. <span data-ttu-id="70386-128">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="70386-128">Click Save.</span></span>
+1. <span data-ttu-id="3a27a-108">转到“仓库管理”>“设置”>“工作”>“工作策略”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-108">Go to Warehouse management > Setup > Work > Work policies.</span></span>
+2. <span data-ttu-id="3a27a-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-109">Click New.</span></span>
+3. <span data-ttu-id="3a27a-110">在“工作策略名称”字段中，键入“无储存工作”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-110">In the Work policy name field, type 'No put-away work'.</span></span>
+4. <span data-ttu-id="3a27a-111">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-111">Click Save.</span></span>
+5. <span data-ttu-id="3a27a-112">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-112">Click Add.</span></span>
+6. <span data-ttu-id="3a27a-113">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="3a27a-113">In the list, mark the selected row.</span></span>
+7. <span data-ttu-id="3a27a-114">在“工作订单类型”字段中，选择“成品储存”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-114">In the Work order type field, select 'Finished goods put away'.</span></span>
+8. <span data-ttu-id="3a27a-115">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-115">Click Add.</span></span>
+9. <span data-ttu-id="3a27a-116">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="3a27a-116">In the list, mark the selected row.</span></span>
+10. <span data-ttu-id="3a27a-117">在“工作订单类型”字段中，选择“联产品和副产品储存”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-117">In the Work order type field, select 'Co-product and by-product put away'.</span></span>
+11. <span data-ttu-id="3a27a-118">展开“库存库位”部分。</span><span class="sxs-lookup"><span data-stu-id="3a27a-118">Expand the Inventory locations section.</span></span>
+12. <span data-ttu-id="3a27a-119">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-119">Click Add.</span></span>
+13. <span data-ttu-id="3a27a-120">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="3a27a-120">In the list, mark the selected row.</span></span>
+14. <span data-ttu-id="3a27a-121">在仓库列表中，输入 '51'。</span><span class="sxs-lookup"><span data-stu-id="3a27a-121">In the Warehouse list, enter '51'.</span></span>
+15. <span data-ttu-id="3a27a-122">在“位置”字段中，输入或选择 '001'。</span><span class="sxs-lookup"><span data-stu-id="3a27a-122">In the Location field, enter or select '001'.</span></span>
+16. <span data-ttu-id="3a27a-123">展开“产品”部分。</span><span class="sxs-lookup"><span data-stu-id="3a27a-123">Expand the Products section.</span></span>
+17. <span data-ttu-id="3a27a-124">在“产品选择”字段中，选择“已选择”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-124">In the Product selection field, select 'Selected'.</span></span>
+18. <span data-ttu-id="3a27a-125">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-125">Click Add.</span></span>
+19. <span data-ttu-id="3a27a-126">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="3a27a-126">In the list, mark the selected row.</span></span>
+20. <span data-ttu-id="3a27a-127">在“物料编号”字段中，输入或选择 'L0101'。</span><span class="sxs-lookup"><span data-stu-id="3a27a-127">In the Item number field, enter or select 'L0101'.</span></span>
+21. <span data-ttu-id="3a27a-128">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="3a27a-128">Click Save.</span></span>
 
