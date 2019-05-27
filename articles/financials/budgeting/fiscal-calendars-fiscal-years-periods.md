@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 01f8f939079d55d5a75d1a4b1fd718bf2a3f9700
-ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "778193"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565151"
 ---
 # <a name="fiscal-calendars-fiscal-years-and-periods"></a>会计日历、会计年度和期间
 

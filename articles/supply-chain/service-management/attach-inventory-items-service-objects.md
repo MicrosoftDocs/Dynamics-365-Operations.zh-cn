@@ -19,11 +19,11 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b8edc91a0594c32f883924c3b144616577b10bef
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321286"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563428"
 ---
 # <a name="attach-inventory-items-to-service-objects"></a>将库存物料附加到服务对象    
 

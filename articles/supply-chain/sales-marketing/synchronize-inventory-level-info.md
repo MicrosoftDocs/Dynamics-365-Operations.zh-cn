@@ -3,7 +3,7 @@ title: 将库存级别信息从 Finance and Operations 同步到 Field Service
 description: 本主题讨论用于将 Microsoft Dynamics 365 for Finance and Operations 中的库存水平信息同步到 Microsoft Dynamics 365 for Field Service 的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 03/13/2019
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
-ms.openlocfilehash: 6b2bdf1ca6f6ae43cd85c8a1353ee8305052761d
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: c7dce4427810b93e0ee4f1a27881c2b1b04fb125
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842548"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1535690"
 ---
 # <a name="synchronize-inventory-level-information-from-finance-and-operations-to-field-service"></a>将库存级别信息从 Finance and Operations 同步到 Field Service 
 
@@ -75,6 +75,14 @@ Finance and Operations 将充当库存水平的主水平。 因此，如果在 F
 
 ## <a name="prerequisites-and-mapping-setup"></a>先决条件和映射设置
 
+### <a name="data-integration"></a>数据集成
+要让该项目工作，需要确保更新 msdynce_externalproductinventories 的集成密钥。
+1.  转到**数据集成 > 连接集**。
+2.  选择使用的连接集。
+3.  在**集成密钥**选项卡中，确保向 msdynce_externalproductinventories 添加以下密钥：
+      - msdynce_productnumber（产品编号）
+      - msdynce_warehouseid（仓库 ID）
+      
 ### <a name="data-integration-project"></a>数据集成项目
 您可以应用“高级查询和筛选”的筛选器，以仅让某些产品和仓库将库存水平信息从 Finance and Operations 发送到 Field Service。
 

@@ -16,11 +16,11 @@ ms.author: mumani
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7ef094535214ecf4c65f95c36a93455446d7e388
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "346747"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556130"
 ---
 # <a name="create-call-center-channels-and-define-channel-attributes"></a>创建呼叫中心渠道和定义渠道属性
 

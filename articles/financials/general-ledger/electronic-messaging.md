@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2018-10-28
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: 2753f2828b4890d9893a1538e905bd7061e1bc33
-ms.sourcegitcommit: b95bc0f81bd3bb3d9ec4c61f64f93b5c2bef9e05
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/28/2019
-ms.locfileid: "902882"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1536863"
 ---
 # <a name="electronic-messaging"></a>电子消息
 

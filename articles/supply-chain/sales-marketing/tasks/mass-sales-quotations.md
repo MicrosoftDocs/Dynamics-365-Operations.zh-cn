@@ -17,11 +17,11 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e0e9ddf38106fce3ed6a6f908826f2196c97a45a
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332004"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562107"
 ---
 # <a name="mass-create-sales-quotations"></a>成批创建销售报价单
 

@@ -19,11 +19,11 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bc55c1ab0a9ad7af3b55e49079185062fd119cc7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "344815"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546148"
 ---
 # <a name="reverse-changes-in-a-dispatch-board"></a>冲销发货牌中的更改 
 

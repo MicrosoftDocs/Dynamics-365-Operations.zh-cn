@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0ba92ab4f751758c4adf26885ebb7b2c5290ecac
-ms.sourcegitcommit: 1e8dfa62989dbd7601bafdc933558f6bea1638ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "894580"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530791"
 ---
 # <a name="view-financial-reports"></a>查看财务报表
 

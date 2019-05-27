@@ -18,11 +18,11 @@ ms.author: sericks
 ms.dyn365.ops.version: Platform update 4
 ms.search.validFrom: 2017-02-28
 ms.openlocfilehash: 5666bee776e3d97244ce4830ac59971831848e71
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321378"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554454"
 ---
 # <a name="dynamics-365-for-unified-operations-mobile-app-home-page"></a>Dynamics 365 for Unified Operations Mobile 应用程序主页
 

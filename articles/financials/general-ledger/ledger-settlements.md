@@ -17,11 +17,11 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-11-30
 ms.dyn365.ops.version: 8.1.1
 ms.openlocfilehash: b02a1a066913c9959e9a55e78789e5ff1a175c56
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "308475"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554682"
 ---
 # <a name="ledger-settlements"></a>分类帐结算
 

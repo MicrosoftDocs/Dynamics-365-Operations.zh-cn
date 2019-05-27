@@ -16,11 +16,11 @@ ms.author: sunilg
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ceb2dfa37b53af83c4faedffa5b312d654c44593
-ms.sourcegitcommit: 7b438a94b59ab52518e03b22217cb48e41fbeb71
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "834652"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505786"
 ---
 # <a name="data-import-and-export-jobs"></a>数据导入和导出作业
 

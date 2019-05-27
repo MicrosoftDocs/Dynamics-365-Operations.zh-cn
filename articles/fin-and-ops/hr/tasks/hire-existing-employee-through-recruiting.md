@@ -16,11 +16,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: fa020f17a6f893fc1360bfdec80b478e6f5dd686
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "858851"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1510337"
 ---
 # <a name="hire-existing-employees-through-recruitment"></a>通过招聘雇用现有员工
 

@@ -18,11 +18,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: f5ede4ab29b5d0c3fcb057049e2abbb9f2bf16f0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "354981"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560853"
 ---
 # <a name="set-up-an-appointment-for-a-load"></a>为负荷设置约会
 

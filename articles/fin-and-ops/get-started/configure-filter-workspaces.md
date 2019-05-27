@@ -19,11 +19,11 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 77d30759d2a8ed85a28f8a29663057f20496f16d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "325679"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549713"
 ---
 # <a name="configure-and-filter-workspaces"></a>配置和筛选工作区
 

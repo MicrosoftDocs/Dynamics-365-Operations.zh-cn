@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 176eeb2ddb145d21f7ff9fd94a9a56e173caee59
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367056"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555076"
 ---
 # <a name="vendor-portal-user-security"></a>供应商门户用户安全
 

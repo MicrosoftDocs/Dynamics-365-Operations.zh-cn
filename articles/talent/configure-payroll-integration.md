@@ -16,11 +16,11 @@ ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 204e4554e409c39fbbf7b273ad138ce2809931a8
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/26/2019
-ms.locfileid: "898436"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517386"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 和 Dayforce 之间的工资单集成
 

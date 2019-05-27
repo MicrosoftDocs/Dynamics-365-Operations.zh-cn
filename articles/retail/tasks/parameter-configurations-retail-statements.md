@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 6dacd2b80ca0d51d81d2bdf5bc2636b47da621ee
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "352612"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564285"
 ---
 # <a name="parameter-configurations-for-retail-statements"></a>零售报表的参数配置
 

@@ -16,12 +16,12 @@ ms.search.region: China (PRC), Japan
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 9bdc139e3a65bd11d77cbaa94ddbae1e607c55aa
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 660b72c468ffb47ee8a4a5a4cdcd7bb30fa29883
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371901"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538410"
 ---
 # <a name="setup-fixed-asset-depreciation-allocation"></a>设置固定资产折旧费用分配
 

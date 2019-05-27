@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 92e4f9697fc00798d917db6f7f50d7e3b8739233
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "858644"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507830"
 ---
 # <a name="create-a-closed-ended-question"></a>创建封闭式问题
 

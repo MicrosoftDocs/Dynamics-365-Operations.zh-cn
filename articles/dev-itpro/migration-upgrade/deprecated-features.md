@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7201397cd839048465ee0cd8e97c267ab8cbfeb7
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992875"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1527663"
 ---
 # <a name="removed-or-deprecated-features"></a>已移除或弃用的功能
 
@@ -66,26 +66,6 @@ ms.locfileid: "992875"
 | **影响的产品区域**         | Web 客户端 |
 | **部署选项**              | 所有 |
 | **状态**                         | 已弃用：从 2020 年 4 月开始，经过改进的“之一”体验将成为默认行为，但没有恢复为旧版行为的机制。 |
-
-### <a name="deriving-from-internal-classes-is-deprecated"></a>已弃用从内部类派生
-
-|   |  |
-|------------|--------------------|
-| **弃用/移除的原因** | 在平台更新 25 之前，可创建派生自另一个包/模块内定义的内部类/表的类或表。 这种编码行为不安全。 从平台更新 25 开始，编译器将显示警告。 |
-| **被另一个功能取代？**   | 在平台更新 26 中，此编译器警告将替换为错误。 此更改是为了在运行时向后兼容，这意味着平台更新 25 或更高版本可以在任何沙盒或生产环境中部署，不需要修改自定义代码。 此更改仅影响开发和编译时间。|
-| **影响的产品区域**         | Visual Studio 开发工具 |
-| **部署选项**              | 所有 |
-| **状态**                         | 已弃用：在平台更新 26 中，此警告将成为编译错误。 |
-
-### <a name="overriding-internal-methods-is-deprecated"></a>已弃用替代内部方法。
-
-|   |  |
-|------------|--------------------|
-| **弃用/移除的原因** | 在平台更新 25 之前，可替代另一个包/模块内定义的派生类中的内部方法。 这种编码行为不安全。 从平台更新 25 开始，编译器将显示警告。 |
-| **被另一个功能取代？**   | 在平台更新 26 中，此警告将替换为编译器错误。 此更改是为了在运行时向后兼容，这意味着平台更新 25 或更高版本可以在任何沙盒或生产环境中部署，不需要修改自定义代码。 此更改仅影响开发和编译时间。 |
-| **影响的产品区域**         | Visual Studio 开发工具 |
-| **部署选项**              | 所有 |
-| **状态**                         | 已弃用：在平台更新 26 中，此警告将成为编译错误。 |
 
 ### <a name="parameter-to-enable-sales-orders-with-multiple-project-contract-funding-sources"></a>用于启用包含多个项目合同融资来源的销售订单的参数
 将使用**项目管理参数**设置**允许项目的销售订单具有多个融资来源**启用对创建其中的项目合同具有多个融资来源的且基于项目的销售订单的支持。 默认情况下，不启用此参数。 

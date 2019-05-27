@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 618942ff22b6a81c75bd472955e4add14e6f4d84
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347644"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548852"
 ---
 # <a name="movement-of-inventory-with-associated-work-in-warehouse-management"></a>仓库管理中关联工作的库存变动
 

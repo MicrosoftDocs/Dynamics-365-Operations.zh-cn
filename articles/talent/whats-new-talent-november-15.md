@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: b90d4230fe1e666aba4075670f6df206e8df7ce9
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "857303"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517443"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-november-15-2018"></a>Dynamics 365 for Talent Core HR（2018 年 11 月 15 日）中的新增功能或更改
 

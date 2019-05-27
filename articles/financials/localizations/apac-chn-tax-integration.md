@@ -19,11 +19,11 @@ ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f2aa323eaf5552acd4aec17145f4c95d4a335688
-ms.sourcegitcommit: b5e2835e2245414837b7b37056af228dd000f756
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "879867"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538420"
 ---
 # <a name="configure-tax-integration-for-china"></a>配置中国的税务集成
 

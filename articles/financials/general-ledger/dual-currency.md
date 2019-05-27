@@ -3,7 +3,7 @@ title: 双货币
 description: 此主题提供有关双货币的信息，其中的申报币种用作 Microsoft Dynamics 365 for Finance and Operations 的第二记帐币种。
 author: kweekley
 manager: AnnBe
-ms.date: 10/10/2018
+ms.date: 05/06/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2018-10
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: 8de178ec80f7408d657e746b633703f386c8e02d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 3665ec1cb15fc63e5707a4721699872fe81424a0
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330302"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1532240"
 ---
 # <a name="dual-currency"></a>双货币
 
@@ -61,6 +61,9 @@ Microsoft Dynamics 365 for Finance and Operations 版本 8.1（2018 年 10 月�
 ## <a name="financial-journals"></a>财务日记帐
 
 财务日记帐（例如普通日记帐和供应商发票日记帐）已经更新，以便其包括有关申报币种的附加信息。 凭证和日记帐的合计现在显示为申报币种。 此外，有关申报币种汇率的信息现在显示在日记帐行的**常规**选项卡上。 因此，在输入交易记录时，您可以覆盖申报币种的汇率。
+
+## <a name="vendor-invoices-sales-orders-and-sales-agreements"></a>供应商发票、销售订单和销售协议
+供应商订单、销售订单和销售协议已更新，现在包含申报币种的固定汇率。 可以在交易记录币种不同时同时为记帐币种和申报币种定义固定汇率。 如果记帐币种和申报币种相同，将通过把记帐币种的固定汇率用作申报币种的固定汇率来让记帐币种和申报币种保持同步。 不能更改此配置的申报币种固定汇率。 如果记帐币种与申报币种不同，可以在录入交易记录时同时为记帐币种和申报币种定义固定汇率。 如果尚未在分类帐中定义申报币种，将不启用**申报币种固定汇率**字段，也不计算申报币种金额。
 
 ## <a name="module-changes"></a>模块更改
 

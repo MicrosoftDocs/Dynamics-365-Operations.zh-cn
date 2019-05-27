@@ -17,11 +17,11 @@ ms.author: kfend
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 230d3c089189ddb6186bc2ca4b647b8ad5b003ce
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "328807"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545675"
 ---
 # <a name="configure-the-global-address-book"></a>配置全球通讯簿
 

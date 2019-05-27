@@ -18,11 +18,11 @@ ms.author: sericks
 ms.search.validFrom: 2017-11-29
 ms.dyn365.ops.version: Platform update 9
 ms.openlocfilehash: 18f668bdc49da1022230278f1de8494150e8a5f9
-ms.sourcegitcommit: bdcdcdddcb0517f0c64d541258ccbd119b960719
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/16/2019
-ms.locfileid: "977198"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528054"
 ---
 # <a name="comparison-of-cloud-and-on-premises-features"></a>比较云和本地功能
 

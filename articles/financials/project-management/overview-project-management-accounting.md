@@ -19,11 +19,11 @@ ms.author: knelson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 82a2da882ba951c2ff6420b726e0546e9073d2e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "969392"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530492"
 ---
 # <a name="project-management-and-accounting"></a>项目管理与核算
 

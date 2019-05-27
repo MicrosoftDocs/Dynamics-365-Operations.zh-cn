@@ -20,11 +20,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 16a11c5030f5641abb87830f5221ded5bb7ac038
-ms.sourcegitcommit: 0ceee30a60468a01db6f5b3526dcb9c6abc9d4dc
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/20/2019
-ms.locfileid: "403908"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560293"
 ---
 # <a name="solver-strategy-for-product-configuration"></a>产品配置的求解器策略
 

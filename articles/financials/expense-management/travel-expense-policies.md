@@ -1,27 +1,27 @@
 ---
 title: 定义支出策略
 description: 您可以在 Microsoft Dynamics 365 for Finance and Operations 中定义您的工作人员在输入和提交支出报表和出差申请时必须遵守的支出政策。
-author: saraschi2
+author: ryansandness
 manager: AnnBe
-ms.date: 02/23/2018
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.search.region: Global
-ms.author: saraschi
+ms.author: ryansand
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 04eaff110fea021ddee32be650be540894eb703b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 9f0ff56f0ff106bc168b6a27612e08743a539a07
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342423"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1514431"
 ---
 # <a name="expense-policies"></a>支出策略
 
@@ -42,9 +42,13 @@ ms.locfileid: "342423"
 
 - 错误 – 在提交支出报表或出差申请前，要求工作人员修改该费用以符合该政策。       
  
-  - 调整 – 要求工作人员或一个经理在提交支出报表或出差申请前输入超出政策金额的调整。        
- 
-  您还可以为支出政策具有效力的设置日期范围。 例如，在节假日旅行旺季，丹麦      
-  和纽约市之间航线的飞机票的价格可能很贵。 您可以定义一个飞行支出规则，      
-  将飞往纽约城的成本限制在最高 DKK 5000，并且可以指定此规则在 3 月 15 日      
-  和 9 月 15 日之间具有效力。
+ - 调整 – 要求工作人员或一个经理在提交支出报表或出差申请前输入超出政策金额的调整。        
+
+# <a name="policy-tips"></a>政策提示
+下面是一些在为费用管理新建政策时可以帮助您的建议。 
+* 政策有生效日期，如果创建政策时不为其设置费用产生后的日期，政策不会生效。 例如，如果今天创建新政策以实施最大餐费 50 美元，则不会针对此政策检查截止昨天的任何现有费用。
+* 为可明细化的费用类别创建政策时，请考虑为费用行类型添加条件。 某些政策（如索取收据）可能对明细化行无意义，只应该应用于标题行或非明细化行。 
+
+# <a name="when-to-evaluate-policies"></a>何时评估政策
+
+费用管理参数中有一个选项，用于在保存行时或在提交费用报表时评估费用管理政策。 如果选择在保存行时评估，这将确保用户可以查看需要执行哪些操作才能一次性完成所有费用报表。 否则，如果要在结束时向工作流提交期间进行验证，可以推迟政策评估并节约时间。

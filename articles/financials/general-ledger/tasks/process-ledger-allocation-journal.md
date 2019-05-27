@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d2046e25719c9023bee99736488a4ee6f22723fe
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335638"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550811"
 ---
 # <a name="process-ledger-allocation-journal"></a>处理分类帐分配日记帐
 

@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c95589b013b569f15fce80612a11eca621944f6b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357327"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561584"
 ---
 # <a name="advanced-bank-reconciliation-setup-process"></a>高级银行对帐设置流程
 

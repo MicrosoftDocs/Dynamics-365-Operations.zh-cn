@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: d6a6487b50908093f876237ffef840a3144b3fe6
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "857445"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517471"
 ---
 # <a name="analytic-reports-are-not-updated"></a>分析报告未更新
 

@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2023d68a1455c6bb5ec569b6ae19fc3268f8769d
-ms.sourcegitcommit: 065d9fab832b6bcc88c00dc78ac1ae854c762ec7
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "778147"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545478"
 ---
 # <a name="fixed-assets-integration"></a>固定资产集成
 

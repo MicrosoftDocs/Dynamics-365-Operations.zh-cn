@@ -17,11 +17,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 037a6ae00b7d559f79860901f0cb2ad6ddddd7aa
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310108"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545964"
 ---
 # <a name="expense-workflow"></a>费用工作流
 

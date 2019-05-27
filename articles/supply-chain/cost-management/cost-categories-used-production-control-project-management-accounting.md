@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cab4629740e92f9075b7afc7a5d228b2e01c4664
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "326024"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557863"
 ---
 # <a name="cost-categories-used-in-production-control-and-project-management-accounting"></a>用于项目控制和项目管理核算的成本类别
 

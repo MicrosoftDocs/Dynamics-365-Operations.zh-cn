@@ -16,11 +16,11 @@ ms.author: kweekley
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 026274e06d27fb1254ffa971bcb0fbdbb5e7eac7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331383"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548339"
 ---
 # <a name="cfo-overview-power-bi-content"></a>CFO 概览 Power BI 内容
 

@@ -20,11 +20,11 @@ ms.author: hhaines
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 6b63a1bb8791ab3f0c71a2fd03677e7d0bf71e62
-ms.sourcegitcommit: 0bd0215d0735ed47b1b8af93a80bcdbf7ca2cc49
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/08/2019
-ms.locfileid: "789763"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1525846"
 ---
 # <a name="omni-channel-advanced-auto-charges"></a>全渠道高级自动费用
 

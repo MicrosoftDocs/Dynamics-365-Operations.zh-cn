@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 2c18d753eba18c4cc7b2ba2d8dd35d8d99afae7e
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856200"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517438"
 ---
 # <a name="use-workflows-to-manage-employee-information"></a>使用工作流管理员工信息
 

@@ -18,11 +18,11 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 85ae26123d41fa74d32b102ddb7f021e9846a676
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "354498"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564308"
 ---
 # <a name="define-loyalty-reward-points"></a>定义会员奖励分
 

@@ -20,11 +20,11 @@ ms.author: yabinl
 ms.search.validFrom: 2019-02-01
 ms.dyn365.ops.version: AX 10.0.0, Retail Feb 2019 update
 ms.openlocfilehash: 6e2c32aae06ce7bbdde30809d7a197f43b856af1
-ms.sourcegitcommit: bacec397ee48ac583596be156c87ead474ee07df
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "777169"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564334"
 ---
 # <a name="restrict-payment-methods-for-returns-without-a-receipt"></a>限制没有收据的退货的付款方式
 

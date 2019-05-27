@@ -3,7 +3,7 @@ title: Attract 特色和功能
 description: 此主题描述 Attract 提供的用于管理招聘新人才的流程的功能。
 author: andreabichsel
 manager: AnnBe
-ms.date: 08/01/2017
+ms.date: 04/30/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: d80e4d6359e51841e28ab5ef96e281838831db92
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: 6b76913ea5a3e9a2e935d8b0cfde88dd721cb5db
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859728"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517463"
 ---
 # <a name="attract-features-and-capabilities"></a>Attract 特色和功能
 
@@ -46,3 +46,6 @@ Attract 提供预定义的招聘流程，包含四个基本阶段：申请、筛
 
 ## <a name="candidate-app"></a>应聘者应用
 应聘者被添加到工作后，便会收到一封电子邮件，其中包含获取该 Web 应用的链接。 此应用提供工作详细信息，并用于与招聘团队进行沟通。 应聘者还可以使用它来提交他们可接受面试的可用日期。
+
+## <a name="analytic-reports"></a>分析报告
+招聘团队可以借助 [Attract 中的分析报表](analytic-reports.md)对一个工作使用查看关键招聘流程指标，也可以对所有工作使用集成的此类指标。 拥有[综合招聘加载项](attract-comprehensive-hiring.md)的客户的[预览版](access-preview-feature.md)中现在提供此项功能。
