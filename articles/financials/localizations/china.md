@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: d9c13383401addf2d80b4f65dd2dc36d873f9ea8
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a1efece0abd8286e99acc6a30c2c4fa9811bee46
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371899"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1513254"
 ---
 # <a name="china"></a>中国
 

@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: dd70780927bb9aaa19c196705d6e8fa1c247ea66
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330509"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559224"
 ---
 # <a name="define-continuity-schedules"></a>定义连续性计划
 
@@ -32,7 +32,7 @@ ms.locfileid: "330509"
 
 
 ## <a name="create-continuity-program"></a>创建连续性计划
-1. 转至“零售和商业”>"连续性">“连续性计划”。
+1. 转至“零售和商业”>"连续性&quot;&gt;“连续性计划”。
 2. 单击“新建”。
 3. 在“计划 ID”字段中，键入连续性计划 ID。
 4. 在“订单开始”字段中，选择“第一个事件”。

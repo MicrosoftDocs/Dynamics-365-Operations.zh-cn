@@ -17,11 +17,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: ca1702002bddfacce072f8ce78ad7f503d566242
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330624"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568504"
 ---
 # <a name="create-a-dimension-based-product-master"></a>创建基于维度的基础产品
 

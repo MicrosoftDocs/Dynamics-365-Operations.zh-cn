@@ -1,12 +1,12 @@
 ---
 title: 访问 Talent 中的预览功能
 description: 此主题介绍管理员可如何启用预览功能，并且列出了当前可预览的功能。
-author: andreabichsel
+author: tracykeya
 manager: AnnBe
-ms.date: 04/17/2018
+ms.date: 04/29/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-talent
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User
@@ -15,15 +15,15 @@ ms.search.scope: Talent, Core
 ms.custom: 7521
 ms.assetid: 3b953d5f-6325-4c9e-8b9b-6ab0458a73f8
 ms.search.region: Global
-ms.author: anbichse
+ms.author: trkeya
 ms.search.validFrom: 2018-04-30
-ms.dyn365.ops.version: AX 7.1.0, Talent April 2018 update
-ms.openlocfilehash: 060a36185641d5bb7912631b7c857c5c4331c8b7
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.dyn365.ops.version: AX 7.1.0, Talent April 2019 update
+ms.openlocfilehash: 72e2a3c62c7aab0f5cf8900c540a22d91be00609
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856316"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517466"
 ---
 # <a name="access-preview-features-in-talent"></a>访问 Talent 中的预览功能
 
@@ -72,6 +72,7 @@ ms.locfileid: "856316"
 
 - **候选人申请** – 内部候选人和外部候选人现在都可以直接从求职站点的工作页申请。
 - **聘约管理** – 用户现在可通过包含占位符的模板创建录用信。 在候选人推进到聘约阶段，招聘人员和和招聘经理可使用录用工具通过模板准备候选人的正式聘约，发送聘约供内部批准，最后将聘约发给候选人签署。 将随时间向聘约工具增加大量新功能，而在我们准备好发布这些功能供预览时，将使用这些功能更新以前的功能。
+- **[分析报告](analytic-reports.md)** – 招聘团队可以通过工作分析查看单个工作的关键指标，或在分析中心中查看所有工作的聚合指标。
 
 ### <a name="core-hr"></a>Core HR
 

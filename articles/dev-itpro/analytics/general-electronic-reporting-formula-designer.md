@@ -3,7 +3,7 @@ title: 电子申报中 (ER) 的配方设计器
 description: 本主题说明如何在电子申报 (ER) 中使用配方设计器。
 author: NickSelin
 manager: AnnBe
-ms.date: 10/03/2018
+ms.date: 05/14/2014
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1dc584355c8992ee701169fd5d29ad7b0300a498
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "331268"
+ms.lasthandoff: 05/14/2019
+ms.locfileid: "1541260"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -439,6 +439,11 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <td>FILTER（列表，条件）</td>
 <td>已修改查询以针对指定条件进行筛选后，返回指定列表。 此函数与 <strong>WHERE</strong> 函数，因为指定条件适用于数据库级别的<strong>表格记录</strong>类型的任何 ER 数据源。 可使用表格和关系定义列表和条件。</td>
 <td>如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，<strong>FILTER (Vendors, Vendors.VendGroup = &quot;40&quot;)</strong> 返回仅包含属于供应商组 40 的供应商的列表。 如果<strong>供应商</strong>配置为引用 VendTable 表的 ER 数据源，并且配置为 ER 数据源的 <strong>parmVendorBankGroup</strong> 返回<strong>字符串</strong>数据类型的值，则 <strong>FILTER (Vendor.'&lt;Relations'.VendBankAccount, Vendor.'&lt;Relations'.VendBankAccount.BankGroupID = parmVendorBankGroup)</strong> 返回仅包含属于特定空白组的供应商帐户的列表。</td>
+</tr>
+<tr>
+<td>INDEX (list, index)</td>
+<td>此函数用于返回列表中的特定数字索引选择的记录。 如果索引超出了列表中的记录范围，则引发异常。</td>
+<td>如果为<strong>计算字段</strong>类型输入的数据源为 <strong>DS</strong>，而该数据源中包含表达式 <strong>SPLIT ("A|B|C", “|”), 2)</strong>，则表达式 <strong>DS.Value</strong> 将返回文本值“B”。 表达式 <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> 也返回文本值“B”。</td>
 </tr>
 </tbody>
 </table>

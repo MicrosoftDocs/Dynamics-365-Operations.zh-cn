@@ -17,11 +17,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e067173b27488422fd05ad45f37528f00f04a2bd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "311787"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571632"
 ---
 # <a name="set-up-value-models"></a>设置价值模型
 

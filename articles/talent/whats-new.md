@@ -19,11 +19,11 @@ ms.author: tfehr
 ms.search.validFrom: 2018-08-27
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: 55fcec49feb27c1dd5c96b48a95e879d75e8d977
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "855601"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517441"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent"></a>Dynamics 365 for Talent 中的新增功能或更改 
 

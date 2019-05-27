@@ -18,11 +18,11 @@ ms.author: scotttuc
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 45bd4a3cc9f9b03c713d33638d6dc93aa696c581
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358155"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564894"
 ---
 # <a name="using-continuity-program"></a>使用连续性计划
 
@@ -51,10 +51,10 @@ ms.locfileid: "358155"
 13. 单击“提交”。
     * 您已创建完了新连续性订单。 接下来，您将运行两个批处理流程，用于处理这些连续性订单。  
 14. 关闭该页面。
-15. 转至“零售和商业”>"连续性">“处理连续性付款”。
+15. 转至“零售和商业”>"连续性&quot;&gt;“处理连续性付款”。
 16. 在“连续性物料”字段中，键入“88000”，然后按 Tab 键。
 17. 单击“确定”。
-18. 转至“零售和商业”>"连续性">“创建连续性子订单”。
+18. 转至“零售和商业”>"连续性&quot;&gt;“创建连续性子订单”。
     * 此流程将基于您的连续性计划的设置创建新销售订单。  
 19. 在“连续性物料”字段中，键入“88000”，然后按 Tab 键。
     * 物料“88000”是 USRT 演示数据中的一个连续性物料。  

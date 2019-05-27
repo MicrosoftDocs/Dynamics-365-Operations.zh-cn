@@ -17,11 +17,11 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5afe2fa73e218aa9eb21aff866baa509860a83cb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336443"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554567"
 ---
 # <a name="generate-and-process-customer-rebates"></a>生成和处理客户返利
 

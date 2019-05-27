@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2018-05-02
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 543784e8072f88c10f63e1b44921b9f2d37308c3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357488"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549690"
 ---
 # <a name="add-location-roles-and-party-relationship-types"></a>添加位置角色和当事方关系类型 
 

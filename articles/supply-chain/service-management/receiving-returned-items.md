@@ -19,11 +19,11 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d46f2b16c475cda9b99c1ba084538de47ec3dc7c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "365791"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570098"
 ---
 # <a name="receive-returned-items"></a>接收退回物料 
 

@@ -16,11 +16,11 @@ ms.author: t-benebo
 ms.search.validFrom: 2018-01-31
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 907d59f850d8d761e2dd4e04bd288a696f00964d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "318802"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569186"
 ---
 # <a name="trade-allowance-management"></a>贸易折让管理
 

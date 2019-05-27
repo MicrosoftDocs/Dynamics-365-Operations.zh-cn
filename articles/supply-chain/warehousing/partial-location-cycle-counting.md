@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: cd7cb8b35023ed63af191545d01c60c2c7cc8ef5
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320642"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570566"
 ---
 # <a name="partial-location-cycle-counting"></a>部分库位周期盘点
 

@@ -18,11 +18,11 @@ ms.author: crytt
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 62be1f116dfecbc4c6ba11053b94efc874baa3e3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "357419"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567117"
 ---
 # <a name="execute-kanban-process-jobs"></a>执行看板处理作业
 

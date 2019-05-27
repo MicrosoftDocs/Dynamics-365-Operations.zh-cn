@@ -20,11 +20,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 7fe9a81f58423c3396493d0ea2c27bdea4eee102
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350979"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560132"
 ---
 # <a name="modeling-a-lean-organization"></a>建模精益组织
 
@@ -50,7 +50,7 @@ Lean Manufacturing 将库产品和半成品整合到单个框架中，从而为�
 ## <a name="value-streams-and-value-stream-mapping"></a>价值流和价值流映射
 Lean Manufacturing 的体系结构的灵感来源于 Womack 和 Jones 提出的 5 大精益原则：客户价值、价值流、流动、拉动和尽善尽美。 在现实制造世界中，实施 lean manufacturing 解决方案的一个久经考验的方法是价值流映射 (VSM)。 此方法由 Rother 和 Shook 在其 Lean Manufacturing 研究所出版物《学会观察》中引入。 
 
-在 Finance and Operations AX 中，未来状态价值流可建模为生产流版本。 价值流的所有流程都将建模为流度活动。 如果必须登记转移状态或者需要到库存领料或合并装运的集成，那么移动或转移可建模为转移活动。 
+在 Finance and Operations 中，未来状态价值流可建模为生产流版本。 价值流的所有流程都将建模为流度活动。 如果必须登记转移状态或者需要到库存领料或合并装运的集成，那么移动或转移可建模为转移活动。 
 
 价值流本身将建模为运营单位。 因此，价值流可以用作财务维度。
 

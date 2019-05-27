@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0befa0e31347c9ee15ac0426fa3314b151a0200d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "348058"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558845"
 ---
 # <a name="moving-average"></a>移动平均
 
@@ -77,7 +77,7 @@ ms.locfileid: "348058"
 
 在此示例中，移动平均成本为产品进行调整。
 
-1.  选择要调整移动平均成本的产品。 **注意：重估移动平均**页检查库存是否可用于产品。 所选产品具有已过帐的数量 1，过帐值 12.00，已过帐的单位成本 12.00 和单位成本 12.00。
+1.  选择要调整移动平均成本的产品。 **注意**：**重估移动平均**页检查库存是否可用于产品。 所选产品具有已过帐的数量 1，过帐值 12.00，已过帐的单位成本 12.00 和单位成本 12.00。
 2.  更新**单位成本**字段为 16.00。 系统计算其余字段。
 3.  过帐调整。
 

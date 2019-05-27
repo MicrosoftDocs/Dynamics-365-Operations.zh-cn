@@ -18,11 +18,11 @@ ms.author: johanho
 ms.search.validFrom: 2017-12-31
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: c7a5cc4f6c6f430a2ceb9125edb3916fe7b71ab8
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "344746"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569791"
 ---
 # <a name="visibility-into-material-exceptions"></a>物料异常的可见性
 

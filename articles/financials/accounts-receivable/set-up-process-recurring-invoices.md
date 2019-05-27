@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ac9e836b0baa24c40554844ea4f3288b80e0c654
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350197"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571686"
 ---
 # <a name="set-up-and-process-recurring-invoices"></a>设置和处理重复发票
 

@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: a15414eff99751d4e77e5b3bf315a556efb7ad5d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332671"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566803"
 ---
 # <a name="add-financial-dimensions-to-the-cfo-workspace"></a>向 CFO 工作区添加财务维度
 

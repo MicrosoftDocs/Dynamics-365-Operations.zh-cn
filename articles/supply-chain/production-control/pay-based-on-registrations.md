@@ -19,11 +19,11 @@ ms.author: johanho
 ms.search.validFrom: 2018-03-20
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: f36c411ce24dfd8cceacda3d4659ec9a98fd5aa9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321102"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548967"
 ---
 # <a name="pay-based-on-registrations"></a>基于登记付薪
 

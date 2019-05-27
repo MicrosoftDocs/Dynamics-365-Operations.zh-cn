@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 1f9e57e95a03b3e6f8bd940d38a426e9db559624
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "896687"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1508497"
 ---
 # <a name="vendor-collaboration-invoicing-workspace"></a>供应商协作开票工作区
 

@@ -17,11 +17,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d378a89bbb4de6d67db0019dc72a27945d50c4e9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "333729"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555969"
 ---
 # <a name="create-an-intercompany-plan"></a>创建内部公司计划
 

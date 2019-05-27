@@ -20,11 +20,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6743338819da3821cde18ec34a9c79290036ca23
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339939"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560970"
 ---
 # <a name="plan-loads-using-hub-consolidation"></a>使用中心合并计划装载量
 

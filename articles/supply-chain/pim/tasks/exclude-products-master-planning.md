@@ -16,11 +16,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 156972cdbf4ffb02b01b00972cc83d003d941378
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "326346"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567737"
 ---
 # <a name="create-a-product-lifecycle-state-to-exclude-products-from-master-planning"></a>创建产品生命周期状态以从主计划中排除产品
 

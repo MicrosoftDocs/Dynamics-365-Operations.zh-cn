@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3ef3cdb2ede2c30609db4addfc10b819629cdc64
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "318871"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568739"
 ---
 # <a name="simulate-cost-changes-by-using-a-costing-version-for-planned-costs"></a>通过将成本计算版本用于计划成本，模拟成本变化
 

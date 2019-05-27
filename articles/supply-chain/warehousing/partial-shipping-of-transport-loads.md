@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 8c172f1b66e56f60e89f56ea98910f8d0e4f3e36
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "318411"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545259"
 ---
 # <a name="partial-shipment-of-a-transport-load"></a>运输负荷部分装运
 

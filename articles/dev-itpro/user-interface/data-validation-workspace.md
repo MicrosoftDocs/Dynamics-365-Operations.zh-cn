@@ -16,11 +16,11 @@ ms.assetid: ''
 ms.search.region: Global
 ms.author: bking
 ms.openlocfilehash: dd758ac5698d84532c0b724485cc6f0da83bc8e0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364181"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1555553"
 ---
 # <a name="data-validation-checklist-workspace"></a>数据验证核对清单工作区
 

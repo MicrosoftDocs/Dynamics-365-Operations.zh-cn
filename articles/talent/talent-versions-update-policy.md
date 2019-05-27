@@ -3,7 +3,7 @@ title: Talent 系统要求和更新策略
 description: 此主题列出了 Dynamics 365 for Talent 的要求。 另外，还概述了更新策略。
 author: andreabichsel
 manager: AnnBe
-ms.date: 04/04/2017
+ms.date: 05/02/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 2389f00b22ec3b5284eeffb2c015533b7a3d13e0
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.openlocfilehash: ea8b7485b142245a359648a2a85d2a3e2a6d6629
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856293"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517439"
 ---
 # <a name="talent-system-requirements-and-update-policy"></a>Talent 系统要求和更新策略
 
 [!include [banner](includes/banner.md)]
 
-此主题列出了 Microsoft Dynamics 365 for Talent 的要求。 另外，还概述了更新策略。
+本主题介绍 Microsoft Dynamics 365 for Talent（包括 Attract、Onboard 和 Core HR）的要求。 还概述支持 Talent 的国家和地区，以及有关 Talent 数据的语言和本地化的信息。 此外，本主题还提供 Talent 的更新策略。
 
 ## <a name="supported-web-browsers"></a>支持的 Web 浏览器
 
@@ -57,8 +57,17 @@ Microsoft Dynamics 365 for Talent Web 应用程序可在指定操作系统上运
 * 若要运行 Microsoft Excel 和 Word 加载项，必须安装适用于 Windows 或 Mac 的 Microsoft Office 2016。 有关版本要求的更多详细信息，请参阅 [Office 集成疑难解答](../dev-itpro/office-integration/office-integration-troubleshooting.md "Office 集成疑难解答")。
 * 若要查看“导出到 Excel”或“导出到 Word”功能生成的文档，必须安装 Microsoft Office 2007 或更高版本。
 
+## <a name="regional-availability-languages-and-localization"></a>地区可用性、语言和本地化
+
+可在 [Microsoft Dynamics 365 全球可用性](https://docs.microsoft.com/dynamics365/get-started/availability)中下载 Talent 支持的国家、地区和语言的 PDF 文件。 
+
+> [!NOTE]
+> 由于用户界面已本地化为其他语言，所以所有用户数据使用输入语言存储。 可以使用其他语言创建电子邮件和模板，但是目前日程安排信息之类数据仅提供英文版。
+
+如果您是开发人员，并且有效期创建国家或地区特定的自定义项，或者有兴趣为 Microsoft 目前尚未支持的国家或地区创建解决方案，请参阅[全球化](https://docs.microsoft.com/en-us/dynamics365/unified-operations/dev-itpro/lcs-solutions/country-region)。
+
 ## <a name="update-policy"></a>更新策略
 
 Microsoft Dynamics 365 for Talent 以云产品的形式提供。 Microsoft 将持续提供并自动应用对 Dynamics 365 for Talent 的更新。
 
-更新定义发布，并针对所有环境。  对 Dynamics 365 for Talent 的支持根据 [Microsoft 支持生命周期策略](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft 支持生命周期")提供，该策略为产品支持可用性提供一致且可预测的指南。
+更新定期针对所有环境发布。 对 Dynamics 365 for Talent 的支持根据 [Microsoft 支持生命周期策略](https://support.microsoft.com/en-us/gp/lifecycle#gp/OSSLpolicy "Microsoft 支持生命周期")提供，该策略为产品支持可用性提供一致且可预测的指南。

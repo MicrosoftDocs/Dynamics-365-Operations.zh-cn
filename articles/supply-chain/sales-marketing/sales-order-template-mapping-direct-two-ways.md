@@ -3,7 +3,7 @@ title: 将 Sales 与 Finance and Operations 的销售订单直接同步
 description: 本主题讨论用于在 Microsoft Dynamics 365 for Sales 与 Microsoft Dynamics 365 for Finance and Operations 之间直接运行销售订单同步的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/11/2018
+ms.date: 05/09/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: 985a5a908308bc2268b80e8eef7117fdd6d54af6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: a427bff3cd07adbf4d3d81f98bdf7f85a194730b
+ms.sourcegitcommit: 3f02d8a874d1696cbf21d100f1ad205c57224e4b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "339111"
+ms.lasthandoff: 05/09/2019
+ms.locfileid: "1539106"
 ---
 # <a name="synchronization-of-sales-orders-directly-between-sales-and-finance-and-operations"></a>直接在 Sales 和 Finance and Operations 之间同步销售订单
 
@@ -146,6 +146,16 @@ Sales 中的折扣计算模型不同于 Finance and Operations。 在 Finance an
 ### <a name="setup-in-finance-and-operations"></a>Finance and Operations 中的设置
 
 - 转到**销售和市场** &gt; **定期任务** &gt; **计算销售额总计**，将作业设置为作为批处理作业运行。 将**计算销售订单的总计**选项设置为**是**。 此步骤很重要，因为只有计算了销售额总计的销售订单才会同步到 Sales。 应根据销售订单同步的频率调整批处理作业的频率。
+
+如果也使用工作订单集成，则需设置销售来源。 销售订单来源用于分辨 Finance and Operations 中创建自 Field Service 中的工作订单的销售订单。 如果销售订单的销售订单来源类型为**工作订单集成**，则销售订单头中将显示**外部工作订单状态**字段。 此外，销售订单来源可确保将销售订单从 Finance and Operations 同步到 Field Service 期间过滤掉创建自 Field Service 中的工作订单的销售订单。
+
+1. 转到**销售和市场营销** \> **设置** \> **销售订单** \> **销售订单来源**。
+2. 选择**新建**创建新的销售订单来源。
+3. 在**销售订单来源**字段中，输入销售订单来源的名称，如 **SalesOrder**。
+4. 在**描述**字段中，输入描述，如 **来自 Sales 的销售订单**。
+5. 选中**来源类型分配**复选框。
+6. 将**销售订单来源类型**字段设置为**销售订单集成**。
+7. 选择**保存**。
 
 ### <a name="setup-in-the-sales-orders-sales-to-fin-and-ops---direct-data-integration-project"></a>销售订单中的设置（Sales 到 Fin and Ops）- 直接数据集成项目
 

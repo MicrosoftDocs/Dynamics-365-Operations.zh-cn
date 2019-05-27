@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d120f8bb52252956d75178d2ffac6ab632385e00
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856385"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1510512"
 ---
 # <a name="enroll-an-employee-in-a-variable-compensation-plan"></a>在可变薪酬计划中登记员工
 

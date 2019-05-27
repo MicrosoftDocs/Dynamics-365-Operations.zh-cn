@@ -18,11 +18,11 @@ ms.author: rubendel
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 20c2734a8339279e3f13ca9f0a0d5398c87f846f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "343274"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550131"
 ---
 # <a name="push-products-from-distribution-center-to-store-using-buyers-push"></a>使用集中采购配送将产品从配送中心配送到商店
 

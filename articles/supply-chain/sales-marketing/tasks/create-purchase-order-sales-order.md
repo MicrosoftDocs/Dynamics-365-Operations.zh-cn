@@ -17,11 +17,11 @@ ms.author: omulvad
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 7991476b86ace92cda513ae8906c62ba7fbbe915
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "325748"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547408"
 ---
 # <a name="create-a-purchase-order-from-a-sales-order"></a>基于销售订单创建采购订单
 

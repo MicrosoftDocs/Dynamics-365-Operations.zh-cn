@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: 5942016374eb2c681e65b2d6151824924f290dc2
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859014"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517409"
 ---
 # <a name="manage-items-that-are-lent-to-workers"></a>管理借给工作人员的物品
 

@@ -1,9 +1,9 @@
 ---
-title: 费用报销管理
-description: 使用“费用管理”创建集成的工作流，从中您可以存储付款方式信息、导入信用卡交易记录和在员工产生业务支出时跟踪所花的金钱。
+title: 费用管理
+description: 本主题提供了有关费用管理的一般信息以及指向更多资源的链接。 可使用“费用管理”创建集成的工作流，从中您可以存储付款方式信息、导入信用卡交易记录和在员工产生业务支出时跟踪所花的金钱。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 10/25/2017
+ms.date: 05/07/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,41 +18,44 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 11445390acef5ddfd57a1a0017e8bc423cdb1914
-ms.sourcegitcommit: afab5269613d1d1dfd79cd39370b747dee13d3fc
+ms.openlocfilehash: fe1e92dbf63d2683a53684b350f77c978b14c75e
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/19/2019
-ms.locfileid: "403206"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538601"
 ---
-# <a name="expense-management"></a>费用报销管理
+# <a name="expense-management"></a>费用管理
 
 [!include [banner](../includes/banner.md)]
+[!include [banner](../includes/preview-banner.md)]
 
-使用“费用管理”创建集成的工作流，从中您可以存储付款方式信息、导入信用卡交易记录和在员工产生业务支出时跟踪所花的金钱。 您还可以定义支出策略并且自动化差旅费用的偿还。 
+可使用“费用管理”创建集成的工作流，从中您可以存储付款方式信息、导入信用卡交易记录和在员工产生业务支出时跟踪所花的金钱。 您还可以定义支出策略并且自动化差旅费用的偿还。
 
-[费用管理规划](plan-expense-management.md) 
+有关详细信息，请参阅[配置费用管理](plan-expense-management.md)。
 
-### <a name="additional-resources"></a>其他资源
+## <a name="additional-resources"></a>其他资源
 
-#### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
+### <a name="whats-new-and-in-development"></a>新增功能和开发中的功能
 
-转至 [Microsoft Dynamics 365 发行说明](https://go.microsoft.com/fwlink/?linkid=2010158)查看已规划了哪些新功能。 
+若要查看规划了哪些新功能，请参阅 [Microsoft Dynamics 365 发行说明](https://go.microsoft.com/fwlink/?linkid=2010158)。
 
-#### <a name="blogs"></a>博客
+#### <a name="expense-report-entry"></a>费用报表录入
 
-[Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - Financials 博客](https://community.dynamics.com/365/financeandoperations/b/financials)中提供了选项、新闻及其他信息。
+重新设计了费用报表录入，以便简化体验和减少完成费用报表所需时间。 可在功能管理中开启此功能。 可以添加新的设置页以配置费用字段的显示，以及指定在进入费用报表时哪些数据必需、可选或不可用。 如果开启此功能，则一个新的费用工作区可用。 此工作区取代了上一个费用工作区，是改进后录入体验的登录页。
 
-[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。 
+有关详细信息，请参阅[已重构的费用报表](ExpenseWorkspaceNew.md)。
 
-#### <a name="task-guides"></a>任务指南
-其他帮助在 Finance and Operations 中作为任务指南提供。 若要访问任务指南，请单击任何页面上的“帮助”按钮。
+### <a name="blogs"></a>博客
 
-#### <a name="videos"></a>视频
+您可以在 [Microsoft Dynamics 365 博客](https://community.dynamics.com/b/msftdynamicsblog?c=Enterprise)和 [Microsoft Dynamics 365 Finance and Operations - 财务博客](https://community.dynamics.com/365/financeandoperations/b/financials)上查找相关意见、资讯及其他信息。
+
+[Microsoft Dynamics Operations 合作伙伴社区博客](https://community.dynamics.com/partner/b/operationspartnercommunityblog)可为 Microsoft Dynamics 合作伙伴提供了解 MBS Operations 中的新增功能和趋势的单一资源。
+
+### <a name="task-guides"></a>任务指南
+
+其他帮助作为 Microsoft Dynamics 365 for Finance and Operations 中的任务指南提供。 若要访问任务指南，请选择任何页面上的**帮助**按钮。
+
+### <a name="videos"></a>视频
 
 查看当前在 [Microsoft Dynamics 365 YouTube 频道](https://www.youtube.com/channel/UCJGCg4rB3QSs8y_1FquelBQ)上提供的操作方法视频。
-
-
-
-
-

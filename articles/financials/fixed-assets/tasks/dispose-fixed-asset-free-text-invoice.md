@@ -17,11 +17,11 @@ ms.author: knelson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 1c58cef0609c8f931eace13ee0dec89f3eee7fed
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310729"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561052"
 ---
 # <a name="dispose-of-a-fixed-asset-using-a-free-text-invoice"></a>使用普通发票处置固定资产
 

@@ -18,11 +18,11 @@ ms.author: rubencdelgado
 ms.search.validFrom: 2017-10-30
 ms.dyn365.ops.version: ''
 ms.openlocfilehash: c8c2e56a1f65d28991dca3e1da4159efe81f2bf3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350243"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556982"
 ---
 # <a name="set-up-order-fulfillment-for-stores"></a>设置商店订单履行
 

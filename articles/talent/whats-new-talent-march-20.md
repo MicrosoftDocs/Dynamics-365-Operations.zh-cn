@@ -19,11 +19,11 @@ ms.author: dkrame
 ms.search.validFrom: 2019-03-20
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: d69294b64c841c5486d694b129cf6c0f26fd93fd
-ms.sourcegitcommit: c131672b02407a99aafd38957d04816a82997264
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/22/2019
-ms.locfileid: "892426"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517440"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-march-20-2019"></a>Dynamics 365 for Talent（2019 年 3 月 20 日）中的新增功能或更改
 

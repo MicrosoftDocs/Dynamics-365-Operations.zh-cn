@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: 8.1.3
 ms.search.validFrom: 2018-12-01
 ms.openlocfilehash: 7e6d7626c00b9d7d98ce872652653c36ce7bc975
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842525"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1535667"
 ---
 # <a name="synchronize-warehouses-from-finance-and-operations-to-field-service"></a>将仓库从 Finance and Operations 同步到 Field Service
 

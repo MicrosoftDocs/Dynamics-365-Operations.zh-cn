@@ -17,11 +17,11 @@ ms.author: mikefalkner
 ms.search.validFrom: 2018-12-01
 ms.dyn365.ops.version: 8.1.3
 ms.openlocfilehash: 408a36a7cf221463b38260bd8830b422e58ccb64
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "367194"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566217"
 ---
 # <a name="settle-remainder"></a>结算余额
 

@@ -17,11 +17,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 091b6edaf43e86e6e3665bf79871648473e284c7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351048"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552662"
 ---
 # <a name="create-raw-materials-february-2016"></a>创建原材料（2016 年 2 月）
 

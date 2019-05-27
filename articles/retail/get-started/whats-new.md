@@ -17,11 +17,11 @@ ms.author: jeffbl
 ms.search.validFrom: 2017-07-31
 ms.dyn365.ops.version: Retail July 2017 update
 ms.openlocfilehash: 50ad2f4bdc2709815ebed564c3fd24ac204dec17
-ms.sourcegitcommit: 2cf5498098e7a5ade1c16eac6df26bc98e4565cd
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/26/2019
-ms.locfileid: "760679"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572212"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-retail"></a>Dynamics 365 for Retail 中的新增功能或更改
 
