@@ -18,25 +18,25 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2d2ce787e6a7d677bc997bff363f34850ff9899b
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "338099"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568204"
 ---
 [!include [banner](../includes/banner.md)]
 
-# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="1c0fa-103">用于群集领料的产品确认</span><span class="sxs-lookup"><span data-stu-id="1c0fa-103">Product confirmation for cluster picking</span></span>
-<span data-ttu-id="1c0fa-104">群集领料让您能够同时领取多个订单的物料。</span><span class="sxs-lookup"><span data-stu-id="1c0fa-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="1c0fa-105">应用群集领料时，物料确认是验证添加到群集的物料的关键。</span><span class="sxs-lookup"><span data-stu-id="1c0fa-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="1c0fa-106">您可以在群集领料流程中验证群集领料中的物料。</span><span class="sxs-lookup"><span data-stu-id="1c0fa-106">You can verify items in cluster picking during the cluster picking process.</span></span>
+# <a name="product-confirmation-for-cluster-picking"></a><span data-ttu-id="2fb7c-103">用于群集领料的产品确认</span><span class="sxs-lookup"><span data-stu-id="2fb7c-103">Product confirmation for cluster picking</span></span>
+<span data-ttu-id="2fb7c-104">群集领料让您能够同时领取多个订单的物料。</span><span class="sxs-lookup"><span data-stu-id="2fb7c-104">Cluster picking allows you to pick items for several orders at the same time.</span></span> <span data-ttu-id="2fb7c-105">应用群集领料时，物料确认是验证添加到群集的物料的关键。</span><span class="sxs-lookup"><span data-stu-id="2fb7c-105">When cluster picking is applied, item confirmation is crucial to verify the items that are added to clusters.</span></span> <span data-ttu-id="2fb7c-106">您可以在群集领料流程中验证群集领料中的物料。</span><span class="sxs-lookup"><span data-stu-id="2fb7c-106">You can verify items in cluster picking during the cluster picking process.</span></span>
 
-## <a name="where-it-applies"></a><span data-ttu-id="1c0fa-107">适用情况</span><span class="sxs-lookup"><span data-stu-id="1c0fa-107">Where it applies</span></span>
-<span data-ttu-id="1c0fa-108">群集领料物料验证与您在非群集领料流程中验证物料的工作方式相同。</span><span class="sxs-lookup"><span data-stu-id="1c0fa-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="1c0fa-109">设置基于产品条码设置。</span><span class="sxs-lookup"><span data-stu-id="1c0fa-109">The setup is based on the product bar code setup.</span></span>
+## <a name="where-it-applies"></a><span data-ttu-id="2fb7c-107">适用情况</span><span class="sxs-lookup"><span data-stu-id="2fb7c-107">Where it applies</span></span>
+<span data-ttu-id="2fb7c-108">群集领料物料验证与您在非群集领料流程中验证物料的工作方式相同。</span><span class="sxs-lookup"><span data-stu-id="2fb7c-108">Item verification for cluster picking works the same way as when you verify items in a non-cluster picking processes.</span></span> <span data-ttu-id="2fb7c-109">设置基于产品条码设置。</span><span class="sxs-lookup"><span data-stu-id="2fb7c-109">The setup is based on the product bar code setup.</span></span>
 
-## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="1c0fa-110">设置群集领料的物料验证</span><span class="sxs-lookup"><span data-stu-id="1c0fa-110">Set up item verification with cluster picking</span></span>
-1.  <span data-ttu-id="1c0fa-111">在移动设备菜单项上，打开工作确认的设置窗体：**仓库管理** > **仓库管理** > **设置** > **移动设备** > **移动设备菜单项**。</span><span class="sxs-lookup"><span data-stu-id="1c0fa-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
-2.  <span data-ttu-id="1c0fa-112">从移动设备菜单项打开**工作确认设置**。</span><span class="sxs-lookup"><span data-stu-id="1c0fa-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
+## <a name="set-up-item-verification-with-cluster-picking"></a><span data-ttu-id="2fb7c-110">设置群集领料的物料验证</span><span class="sxs-lookup"><span data-stu-id="2fb7c-110">Set up item verification with cluster picking</span></span>
+1.  <span data-ttu-id="2fb7c-111">在移动设备菜单项上，打开工作确认的设置窗体：**仓库管理** > **仓库管理** > **设置** > **移动设备** > **移动设备菜单项**。</span><span class="sxs-lookup"><span data-stu-id="2fb7c-111">On a mobile device menu item, open the setup form for work confirmation: **Warehouse management** > **Warehouse management** > **Setup** > **Mobile device** > **Mobile device menu items**.</span></span>
+2.  <span data-ttu-id="2fb7c-112">从移动设备菜单项打开**工作确认设置**。</span><span class="sxs-lookup"><span data-stu-id="2fb7c-112">From the mobile device menu item, open **Work confirmation setup**.</span></span>
 
-|        <span data-ttu-id="1c0fa-113">选项</span><span class="sxs-lookup"><span data-stu-id="1c0fa-113">Option</span></span>        |                                    <span data-ttu-id="1c0fa-114">说明</span><span class="sxs-lookup"><span data-stu-id="1c0fa-114">Description</span></span>                                    |
+|        <span data-ttu-id="2fb7c-113">选项</span><span class="sxs-lookup"><span data-stu-id="2fb7c-113">Option</span></span>        |                                    <span data-ttu-id="2fb7c-114">说明</span><span class="sxs-lookup"><span data-stu-id="2fb7c-114">Description</span></span>                                    |
 |----------------------|-----------------------------------------------------------------------------------|
-| <span data-ttu-id="1c0fa-115">产品确认</span><span class="sxs-lookup"><span data-stu-id="1c0fa-115">Product confirmation</span></span> | <span data-ttu-id="1c0fa-116">允许您在扫描时从移动设备验证每件库存。</span><span class="sxs-lookup"><span data-stu-id="1c0fa-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
+| <span data-ttu-id="2fb7c-115">产品确认</span><span class="sxs-lookup"><span data-stu-id="2fb7c-115">Product confirmation</span></span> | <span data-ttu-id="2fb7c-116">允许您在扫描时从移动设备验证每件库存。</span><span class="sxs-lookup"><span data-stu-id="2fb7c-116">Allows you to verify each piece of inventory from the mobile device when scanned.</span></span> |
 
