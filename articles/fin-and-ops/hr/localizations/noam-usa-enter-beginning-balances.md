@@ -3,13 +3,13 @@ title: 输入工资期初余额
 description: 此主题介绍为收入代码、扣除额、福利和税款输入期初余额的步骤。 此信息对于要从其他系统迁移或转移用于新的工资单实现方式的数据的合作伙伴十分重要。
 author: kherr75
 manager: AnnBe
-ms.date: 07/01/2017
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
-ms.reviewer: rschloma
+ms.reviewer: anbichse
 ms.search.scope: Core, Operations
 ms.custom: 20931
 ms.assetid: b48b1cb2-6e66-467e-9c0e-09b6a4aeb9fe
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kherr
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 1e7bdfca55e1bdaba0b5ebdf55b46744e584ab2c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: e4bb8f565f5bf5630a7c5f8602b96e569692bc7c
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312983"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507976"
 ---
 # <a name="enter-payroll-beginning-balances"></a>输入工资期初余额
 
@@ -71,7 +71,7 @@ ms.locfileid: "312983"
     |------------------|-------------|
     | 收入代码    | 常规付薪 |
     | 数量         | 1.00        |
-    | 工资             | 30,000      |
+    | 费率             | 30,000      |
     | 行明细选项卡 |             |
     | 手动           | （已标记）    |
 

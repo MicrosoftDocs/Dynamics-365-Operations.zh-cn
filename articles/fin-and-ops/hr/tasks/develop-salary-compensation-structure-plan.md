@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4e3b71e679539441b90f399a84ad8ef8d3decf19
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859405"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1510571"
 ---
 # <a name="develop-salarycompensation-structure-and-plan"></a>制订薪水/薪酬结构和计划
 

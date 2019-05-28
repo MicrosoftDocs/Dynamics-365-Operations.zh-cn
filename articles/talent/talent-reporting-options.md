@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 7e00a6e4fc01f72e1ef2347e08754997135215ed
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "950051"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517446"
 ---
 # <a name="reporting-options-in-talent"></a>Talent 中的报告选项
 

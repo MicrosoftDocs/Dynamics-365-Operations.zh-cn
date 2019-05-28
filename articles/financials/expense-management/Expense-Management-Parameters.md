@@ -17,11 +17,11 @@ ms.author: knelson
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: b6f67d44e0c64c145bb6d477c83d5a245b1682d4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355924"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546470"
 ---
 # <a name="expense-management-parameters"></a>费用报销管理参数
 

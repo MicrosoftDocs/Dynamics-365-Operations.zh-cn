@@ -17,11 +17,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 882198bf07233867b54579b986f93f5c1b46c1b6
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364733"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564193"
 ---
 # <a name="create-a-sales-order-for-a-configurable-product"></a>创建可配置产品的销售订单
 

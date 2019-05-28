@@ -17,11 +17,11 @@ ms.author: jasongre
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: a40fe377322e2d64b751f6cace3eda20736cd321
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "309648"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560444"
 ---
 # <a name="view-workflow-history"></a>查看工作流历史记录
 
@@ -43,7 +43,7 @@ ms.locfileid: "309648"
     * “可通过”恢复“按钮恢复所选单据的工作流。  
     * 可通过”撤消“按钮撤消所选单据，以便不处理该单据。   
 2. 在列表中，单击所选行中的链接。
-    * 确保已展开“工作项”部分。    {在此部分中，可以查看与所选单据关联的工作项。 例如，可能必须完成某项任务，或者可能必须审核单据。  
+    * 确保已展开“工作项”部分。    在此部分中，可以查看与所选单据关联的工作项。 例如，可能必须完成某项任务，或者可能必须审核单据。  
     * “重新分配”按钮将打开一个对话框，从中可向其他用户重新分配工作项。  
-    * 确保已展开“跟踪详细信息”部分。    {在此部分中，可以查看所选单据的工作流历史记录。  
+    * 确保已展开“跟踪详细信息”部分。    在此部分中，可以查看所选单据的工作流历史记录。  
 

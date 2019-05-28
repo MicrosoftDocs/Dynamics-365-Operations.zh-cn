@@ -18,11 +18,11 @@ ms.author: aevengir
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: eff5e25e6a79da57e10489c86e134a2cc01d1396
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "337938"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563127"
 ---
 # <a name="view-cost-object-balance"></a>查看成本对象余额
 

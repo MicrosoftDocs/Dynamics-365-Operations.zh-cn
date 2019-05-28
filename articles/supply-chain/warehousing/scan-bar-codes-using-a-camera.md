@@ -18,11 +18,11 @@ ms.author: mafoge
 ms.search.validFrom: 2017-01-03
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: e78d0a82d3ca66a6912ea1a9517296ca241edf1c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "319423"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559023"
 ---
 # <a name="scan-bar-codes-using-a-camera-in-dynamics-365-for-finance-and-operations--warehousing"></a>在 Dynamics 365 for Finance and Operations – 仓库中使用摄像头扫描条码
 

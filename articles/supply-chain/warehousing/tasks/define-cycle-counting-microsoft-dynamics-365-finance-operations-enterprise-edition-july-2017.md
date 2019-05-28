@@ -16,11 +16,11 @@ ms.author: mafoge
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2832547f81b0153d42ac4664184f18bd66f1acdd
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "337294"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1571656"
 ---
 # <a name="define-cycle-counting"></a>定义周期盘点 
 

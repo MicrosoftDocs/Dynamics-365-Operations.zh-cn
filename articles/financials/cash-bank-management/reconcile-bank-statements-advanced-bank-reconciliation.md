@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 93b311d541ab588be82e6704dbe9ae3e43deabba
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364963"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563731"
 ---
 # <a name="reconcile-bank-statements-by-using-advanced-bank-reconciliation"></a>使用高级银行对帐对银行对帐单进行对帐
 

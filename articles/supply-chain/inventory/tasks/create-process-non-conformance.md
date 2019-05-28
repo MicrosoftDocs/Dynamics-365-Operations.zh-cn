@@ -17,11 +17,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 16ed11bce92920fe8240fc85f706a2ac6ab0a04b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336282"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1572803"
 ---
 # <a name="create-and-process-a-conformance"></a>创建和处理符合项
 

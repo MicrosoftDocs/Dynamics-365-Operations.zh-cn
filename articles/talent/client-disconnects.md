@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 885e2d743cd2b01588546327840508f6f7e95958
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859912"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517389"
 ---
 # <a name="talent-client-disconnects"></a>Talent 客户端断开连接
 

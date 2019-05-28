@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 17989b7fa2baf14472ec19a041cb5ce7e5c0380d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336190"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544556"
 ---
 # <a name="er-configure-format-to-do-counting-and-summing-part-4-run-format"></a>ER 配置格式以执行盘点和合计（第 4 部分：运行格式）
 

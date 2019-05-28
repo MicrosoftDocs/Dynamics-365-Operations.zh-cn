@@ -16,11 +16,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 90c6ebc456d3e137e43022fad7d59ce3ca2cdcab
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363882"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544487"
 ---
 # <a name="generate-documents-that-have-application-data"></a>生成包含应用程序数据的单据
 

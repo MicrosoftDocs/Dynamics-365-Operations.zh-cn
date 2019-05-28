@@ -20,11 +20,11 @@ ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
 ms.openlocfilehash: 3f26240ec289f5ddcc2682e598bbf93f516b99af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "316318"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562687"
 ---
 # <a name="synchronize-products-in-finance-and-operations-to-products-in-field-service"></a>将 Finance and Operations 的产品与 Field Service 的产品同步
 

@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 955191a32165a32c455d0dba7424a82eb2559399
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "351922"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547828"
 ---
 # <a name="prerequisites-for-a-standard-cost-conversion"></a>用于标准成本转换的先决条件
 

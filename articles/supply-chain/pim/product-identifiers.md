@@ -20,11 +20,11 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
 ms.openlocfilehash: 58a32bd7f857e8173996cd4eb21f176bae508587
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335408"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546217"
 ---
 # <a name="product-identifiers"></a>产品标识符 
 

@@ -18,11 +18,11 @@ ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "896457"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1509214"
 ---
 # <a name="vendor-payments-workspace"></a>供应商付款工作区
 

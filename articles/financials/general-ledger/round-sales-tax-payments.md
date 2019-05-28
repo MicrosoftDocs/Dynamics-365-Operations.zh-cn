@@ -19,11 +19,11 @@ ms.author: yijialuan
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1e1c1bb1c792eb79888a1df209f2eebaf14a38dd
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842430"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1531849"
 ---
 # <a name="sales-tax-payments-and-rounding-rules"></a>销售税付款和舍入规则
 

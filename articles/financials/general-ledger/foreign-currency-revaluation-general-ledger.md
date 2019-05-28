@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: bb04c5a9e7db1a6c6a8d8c7126bfa80208d1fd53
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315536"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563334"
 ---
 # <a name="foreign-currency-revaluation-for-general-ledger"></a>总帐的外币重估
 

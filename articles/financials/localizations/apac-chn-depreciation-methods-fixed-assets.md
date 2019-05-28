@@ -17,12 +17,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 996df8ad5021df455b036895336b82b9705ebc66
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: fa72ee85d00f6e7efca8200fef3ec3996a95331c
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371907"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538418"
 ---
 # <a name="fixed-assets-depreciation-methods-for-china"></a>中国的固定资产折旧法
 

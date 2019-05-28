@@ -17,11 +17,11 @@ ms.author: ryansand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: c94d992b97e9a2a18299f97c982430f8205cabf2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329957"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566664"
 ---
 # <a name="create-and-validate-journals"></a>创建和验证日记帐
 

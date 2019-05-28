@@ -18,11 +18,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 6c0eeb59726422177ed1122767b9d3142a1311a2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "343780"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554843"
 ---
 # <a name="advanced-bank-reconciliation-mt940-import--composite-data-entity-upgrade"></a>高级银行对帐 MT940 导入 - 综合数据实体升级
 

@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: b842d76d2c02b7f5daa45c5a34c8f61029f6c035
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "855624"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1507927"
 ---
 # <a name="benefit-eligibility-process"></a>福利资格处理
 

@@ -17,11 +17,11 @@ ms.author: maertenm
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 68e1a4419eaa11a59e1b634deb8e76a2bb9b6fdf
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "318779"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548084"
 ---
 # <a name="set-up-segregation-of-duties"></a>设置职责划分
 

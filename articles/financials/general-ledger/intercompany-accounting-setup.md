@@ -19,11 +19,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: ce07a29d7aa5057d0b61c7fcc6bb87a0a2755fc9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363974"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550274"
 ---
 # <a name="intercompany-accounting-setup"></a>内部公司会计设置
 

@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: cc9170f10fe2be0446b1c974a50dbdf1cb5fe236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360294"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544019"
 ---
 # <a name="statistical-dimension-members-and-statistical-measure-provider-templates"></a>统计维度成员和统计度量提供方模板
 

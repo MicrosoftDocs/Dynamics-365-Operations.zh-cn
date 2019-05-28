@@ -16,12 +16,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 092cf8876a89a1155f5326b3104e6a02e61c941d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: eee9d9a0cf6c39916a0f153d4cf2f8ee187b6e3a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371893"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512987"
 ---
 # <a name="golden-tax-integration-export-setup"></a>金税集成导出设置
 

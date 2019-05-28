@@ -18,11 +18,11 @@ ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312362"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569513"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>创建在线渠道和定义渠道属性
 

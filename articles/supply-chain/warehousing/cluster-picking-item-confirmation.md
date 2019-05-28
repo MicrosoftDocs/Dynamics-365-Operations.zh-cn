@@ -18,11 +18,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2d2ce787e6a7d677bc997bff363f34850ff9899b
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "338099"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568204"
 ---
 [!include [banner](../includes/banner.md)]
 

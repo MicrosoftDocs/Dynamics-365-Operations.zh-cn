@@ -18,11 +18,11 @@ ms.author: nselin
 ms.search.validFrom: 2018-04-01
 ms.dyn365.ops.version: Release 8.0
 ms.openlocfilehash: 3ff94c49eed378d92e995782e73d76d669b44292
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "351968"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552756"
 ---
 # <a name="cross-company-data-sources-in-electronic-reporting-er"></a>电子设备 (ER) 中的公司间数据源
 

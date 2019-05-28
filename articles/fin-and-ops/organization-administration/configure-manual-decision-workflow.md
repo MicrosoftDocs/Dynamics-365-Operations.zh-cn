@@ -18,11 +18,11 @@ ms.author: donaldc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d09e99a5bf99593a8fa7682f9d4f29eaa4e7c836
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341388"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569351"
 ---
 # <a name="configure-manual-decisions-in-a-workflow"></a>配置工作流中的手动决策
 

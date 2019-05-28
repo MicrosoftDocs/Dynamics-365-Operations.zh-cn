@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3f1be02f0080ee23359ad905b1e997d8cd5adfd2
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859129"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1510374"
 ---
 # <a name="enter-project-timesheets"></a>输入项目工时单
 

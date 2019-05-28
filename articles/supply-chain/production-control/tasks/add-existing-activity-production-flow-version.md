@@ -18,11 +18,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 032855125ccd14fbdc1e1bdb735c92ce70853fb0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "313604"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568366"
 ---
 # <a name="add-an-existing-activity-to-a-production-flow-version"></a>将现有活动添加到生产流版本
 

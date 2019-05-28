@@ -19,11 +19,11 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: e6fcdfec083aeb9c58d63f6e03542758e4d07e4d
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "325058"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1560086"
 ---
 # <a name="specify-how-to-dispose-of-returned-items"></a>指定如何处置退回物料 
 

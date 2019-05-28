@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: dc47d44285af4c720d2f450d11fb1004ef461d0f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "362341"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551500"
 ---
 # <a name="design-er-configurations-to-generate-reports-in-word-format"></a>设计 ER 配置以生成 Word 格式的报表
 

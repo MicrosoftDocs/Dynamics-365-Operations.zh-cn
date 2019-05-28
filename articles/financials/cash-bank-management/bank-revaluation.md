@@ -3,7 +3,7 @@ title: 银行外币重估
 description: 本主题概述银行外币重估流程。 其中包括有关该流程的设置、运行、计算，以及重估交易记录的冲销的信息。
 author: mikefalkner
 manager: AnnBe
-ms.date: 03/27/2019
+ms.date: 04/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2019-03-08
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 3aed5a6c12e8dd39956f906f922bfbed1b8fb680
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 4ec9814a4a35a1b3ba7ba05a04b53e5b150f4a04
+ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "976633"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538624"
 ---
 # <a name="bank-foreign-currency-revaluation"></a>银行外币重估
 
@@ -52,7 +52,7 @@ ms.locfileid: "976633"
 3. 在**编号规则** 选项卡上，添加外币重估的编号规则。
 4. 刷新浏览器以在区域页面的**定期任务**部分中显示**外币重估**。
 
-必须为每个将使用外币重估的法人开启此功能。
+必须为每个将使用外币重估的法人开启此功能。 如果为您分配了系统管理员角色或功能管理员角色，您可以通过在**功能管理**工作表中建立建立名称为**启用不包含参数的空白重估**的功能来消除此步骤。
 
 > [!NOTE]
 > 如果您的实体使用俄罗斯、波兰或匈牙利国家/区域代码，您已经可以进行银行外币重估。 不能使用其他国家或地区使用的外币重估。

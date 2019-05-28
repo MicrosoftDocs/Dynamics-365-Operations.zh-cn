@@ -19,11 +19,11 @@ ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 01a508e97721099f92b9167dfdfa1b9669b9341c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355947"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547000"
 ---
 # <a name="advanced-filtering-and-query-syntax"></a>高级筛选和查询语法
 

@@ -3,14 +3,14 @@ title: 使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
 description: 本主题介绍 Microsoft Dynamics 365 for Talent 的一些使用 Microsoft PowerApps 和 Microsoft Flow 的可扩展性方案示例。
 author: negudava
 manager: Annbe
-ms.date: 03/04/2018
+ms.date: 05/01/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
 ms.technology: Dynamics 365 for Talent;PowerApps;Flow;Common Data Service
 ms.search.form: ''
 audience: Application User
-ms.reviewer: josaw
+ms.reviewer: anbichse
 ms.search.scope: Talent;Core;Experience Apps
 ms.custom: ''
 ms.assetid: ''
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: negudava
 ms.search.validFrom: 2019-03-04
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: 0aa3578047b9397682a7039d0dbcc05cc1b167e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: c113b0f4ab2c8e44d00fcfca3f0a6ca828a854ae
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "949912"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517408"
 ---
 # <a name="extend-talent-by-using-powerapps-and-microsoft-flow---example-scenarios"></a>使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
 
@@ -101,7 +101,21 @@ ms.locfileid: "949912"
 
 若要下载**流 – SharePoint 集成**模板，请转到 Microsoft 下载中心中的[流 – SharePoint 集成](https://go.microsoft.com/fwlink/?linkid=2082109)。
 
+## <a name="admin-console-to-manage-talent-pools"></a>用于管理人才池的管理控制台
 
+启用与 LinkedIn 之间的集成时，Attract 会自动创建 LinkedIn 人才池。 当招聘人员通过 LinkedIn 与应聘者交换 InMail 时，Attract 将为此应聘者创建个人资料，而该应聘者将成为 LinkedIn 人才池的成员。 此 PowerApps 应用对根据技能重新组织人才池中的应聘者非常有用。
+
+请将该 PowerApps 应用作为管理控制台运行以执行下列任务：
+
+- 列出人才池中的应聘者
+- 在人才池中添加和删除应聘者
+- 将应聘者从一个人才池移到另一个人才池
+- 移动应聘者之前确定应聘者是否已属于某个人才池
+- 将应聘者移到其他人才池之前检查应聘者的技能
+
+此 PowerApps 应用使用多对多关系，所以您可以将其用作其他需要提取具有多对多关系的方案的模板。
+
+若要下载**用于管理人才池的管理控制台**模板，请转到 Microsoft 下载中心中的[用于管理人才池的管理控制台](http://www.microsoft.com/downloads/details.aspx?FamilyID=780a5eee-0e2a-4159-9a83-009f9ccdc469)。
 
 ## <a name="additional-resources"></a>其他资源
 

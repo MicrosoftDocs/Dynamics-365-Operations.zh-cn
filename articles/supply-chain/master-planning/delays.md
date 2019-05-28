@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c26fedf15118a304469604527c33a25871356be
-ms.sourcegitcommit: 8eac5eee94bb32143df44c82a2dfdbe903967af8
+ms.openlocfilehash: c1a8c738fffda76f2a8492c20e2c67a154c68559
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/20/2019
-ms.locfileid: "878302"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1522281"
 ---
 # <a name="delays"></a>延迟
 
@@ -42,7 +42,8 @@ ms.locfileid: "878302"
 
 在**主计划参数**页上，您可以设置延迟计算的开始时间。 如果在此时间后履行某一订单，则在该订单的延迟日期上加上一天的延迟。 
 
-> [!注意} 在较早版本中，计算的延迟称为*先期备货消息*，延迟的日期称为*将来日期*，延期的交易记录称作为*将来设置的交易记录*。
+> [!NOTE]
+> 在较早版本中，计算的延迟称为*先期备货消息*，延迟的日期称为*将来日期*，延期的交易记录称作为*将来设置的交易记录*。
 
 ## <a name="desired-date"></a>所需的日期
 

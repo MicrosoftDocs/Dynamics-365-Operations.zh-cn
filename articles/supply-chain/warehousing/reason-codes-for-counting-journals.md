@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 8.0.0
 ms.openlocfilehash: 2f4332432ad73861cd9b6b6452685d3175ace56b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320826"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569397"
 ---
 # <a name="reason-codes-for-inventory-counting"></a>库存盘点的原因代码
 

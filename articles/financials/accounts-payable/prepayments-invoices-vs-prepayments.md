@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0f97eba8831e96b43f7fe7d5ea58359cab47315c
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "897124"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1506934"
 ---
 # <a name="prepayment-invoices-vs-prepayments"></a>预付款发票与预付款
 

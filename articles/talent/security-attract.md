@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: 9c0f9d3304b1b15aa84fd1a296267d606bf9c59d
-ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "993683"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517424"
 ---
 # <a name="security-and-role-management-in-attract"></a>Attract 中的安全和角色管理
 

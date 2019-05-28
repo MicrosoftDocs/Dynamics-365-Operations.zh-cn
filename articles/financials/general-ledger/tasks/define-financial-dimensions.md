@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 20a7781486c6e0612c27af02a1bccbc48c55a932
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: c5cfe92b8733a0a6d76e074cc31eec3f3935b512
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353785"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530860"
 ---
 # <a name="define-financial-dimensions"></a>定义财务维度
 
@@ -33,7 +33,7 @@ ms.locfileid: "353785"
 ## <a name="create-an-entity-backed-financial-dimension"></a>创建实体支持的财务维度
 1. 转到“总帐”>“会计科目表”>“维度”>“财务维度”。
 2. 单击“新建”。
-3. 在“源用户值”字段中，选择系统中定义的实体作为财务维度的基础。 
+3. 在“用户值”窗体字段中，选择系统中定义的实体作为财务维度的基础。 
 4. 在“维度名称”字段中，输入描述财务维度的值。
     * 该名称可与系统定义的实体名称不同，但不能含有空格或特殊字符。  
 5. 单击“启用”。
@@ -47,7 +47,7 @@ ms.locfileid: "353785"
 ## <a name="create-a-custom-financial-dimension"></a>创建自定义的财务维度
 1. 关闭该页面。
 2. 单击“新建”。
-3. 在“使用以下来源中的值”字段中，选择 <Custom dimension>。
+3. 在“源用户值”字段中，选择“自定义维度”。
 4. 在“维度名称”字段中，输入描述财务维度的值。
     * 名称不能含有空格或特殊字符。  
     * 您还可以指定科目掩码以限制您为维度值输入的金额和信息类型。   

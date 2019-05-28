@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: b061233239fcaee768579cde9d1015ebbeaa66cb
-ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "993614"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517472"
 ---
 # <a name="which-version-of-attract"></a>哪个 Attract 版本？
 

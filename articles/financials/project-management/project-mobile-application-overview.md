@@ -19,11 +19,11 @@ ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
 ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "969630"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1529963"
 ---
 # <a name="project-mobile-applications-overview"></a>Project 移动应用程序概览
 

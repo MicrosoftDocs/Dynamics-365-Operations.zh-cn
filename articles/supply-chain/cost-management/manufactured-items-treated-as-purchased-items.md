@@ -20,11 +20,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a910b5782c8f15cfdd4cf93ea883bc28a5ce8e1a
-ms.sourcegitcommit: 2ebea3cbddfa0a5ef0e0fd13d3693da6152bc288
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/30/2019
-ms.locfileid: "338444"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552337"
 ---
 # <a name="set-up-products-that-can-be-produced-or-procured"></a>设置可以生产或采购的产品
 

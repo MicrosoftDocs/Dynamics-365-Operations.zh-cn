@@ -18,11 +18,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 8f31fbd2ed8e20b92527af88fc3c955d3c66a364
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "350381"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566524"
 ---
 # <a name="define-lean-manufacturing-work-cells"></a>定义 lean manufacturing 工作单元
 

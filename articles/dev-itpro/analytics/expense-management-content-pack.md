@@ -18,11 +18,11 @@ ms.author: shylaw
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: a07d9ed7e4c57c2444d1c2a017109509c153aad4
-ms.sourcegitcommit: 4e104ad3fc4a160a06f0d031974d60abcbb62829
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "851165"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1503119"
 ---
 # <a name="expense-management-power-bi-content"></a>费用管理 Power BI 内容
 

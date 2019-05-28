@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
 ms.openlocfilehash: ebc82ada31d2803800358cd9aecfe389ada8f0dc
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "897448"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517458"
 ---
 # <a name="track-sources-for-candidate-profiles-and-applications"></a>追踪应聘者个人资料和申请的来源 
 

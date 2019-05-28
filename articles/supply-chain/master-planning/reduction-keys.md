@@ -20,11 +20,11 @@ ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: b915570145a48db7a182b9fce34e1544e3600107
-ms.sourcegitcommit: a95ccf4cee8757c5fb2442a2aaeb45b1e33b6492
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/14/2019
-ms.locfileid: "993036"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1504071"
 ---
 # <a name="method-used-to-reduce-forecast-requirements"></a>用于减少预测需求的方法
 

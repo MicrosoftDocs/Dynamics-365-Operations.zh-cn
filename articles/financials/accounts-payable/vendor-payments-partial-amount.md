@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 617aa35cf1510e90c8c0b5dcfcff070d7db075b8
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "896595"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512137"
 ---
 # <a name="vendor-payments-for-a-partial-amount"></a>部分金额的供应商付款
 

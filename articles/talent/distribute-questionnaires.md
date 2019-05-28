@@ -19,11 +19,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 37c9392263e8c113c541b64e8e79853520a13d11
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "857953"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517384"
 ---
 # <a name="distribute-and-schedule-questionnaires"></a>分发和计划调查表
 

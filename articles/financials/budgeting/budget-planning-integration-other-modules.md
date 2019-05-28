@@ -19,11 +19,11 @@ ms.author: sigitac
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 97c33a222d31e690d2a395f972c0ddc4b89e8fdb
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353026"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558967"
 ---
 # <a name="budget-planning-integration-with-other-modules"></a>预算计划与其他模块的集成
 

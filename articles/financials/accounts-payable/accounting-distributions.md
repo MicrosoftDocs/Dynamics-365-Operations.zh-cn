@@ -19,11 +19,11 @@ ms.author: peakerbl
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 3ba6a581efe8353ccb9e02606db58d18550d71af
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "320458"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559472"
 ---
 # <a name="accounting-distributions"></a>会计分配
 
@@ -52,7 +52,7 @@ ms.locfileid: "320458"
     -   **更正**按钮显示并针对支持更正的凭证启用。 **更正**创建新的分配。 首先，创建撤消原始分配的分配。 不能修改这些分配。 接下来，创建新的正确会计分配。 如果原始分配无法修改，这些分配可以修改。
     -   当行与项目关联时，**项目详细信息**按钮作为扩展启用。 项目会计分配可以修改详细信息，例如融资来源和记录属性。
     -   您可以在**引用**中查看当前凭证会计状态。 状态针对整个凭证，并指示凭证是在进行中或已完成。
--   ** 查看分配** – 查看凭证中所有行和货币金额的会计分配。 您无法从此视图修改会计分配。
+-   **查看分配** – 查看凭证中所有行和货币金额的会计分配。 您无法从此视图修改会计分配。
 
 
 有关详细信息，请参阅[会计分配和普通发票的子分类日记帐条目](accounting-distributions-subledger-journal-entries-vendor-invoices.md)。

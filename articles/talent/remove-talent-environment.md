@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
 ms.openlocfilehash: 904c8eb1254a65e1627c33f14488a1a8e12f7c2b
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "858874"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517431"
 ---
 # <a name="remove-talent-environments"></a>删除 Talent 环境
 

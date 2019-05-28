@@ -19,11 +19,11 @@ ms.author: mirzaab
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
 ms.openlocfilehash: 99966a67fa1fd91fc54e7100f8e2e41b87f6a406
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "365354"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551128"
 ---
 # <a name="warehouse-performance-power-bi-content"></a>仓库绩效 Power BI 内容
 

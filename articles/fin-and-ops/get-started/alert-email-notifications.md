@@ -17,11 +17,11 @@ ms.author: tjvass
 ms.search.validFrom: 2019-1-29
 ms.dyn365.ops.version: Platform update 24
 ms.openlocfilehash: 9545731af20a96c322b4e92c17f3a46b7077295b
-ms.sourcegitcommit: a13f44549ab402cfd04b600f6097ba179915f233
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/05/2019
-ms.locfileid: "775056"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546954"
 ---
 # <a name="client-alert-notifications-by-email"></a>通过电子邮件发送的客户端预警通知
 

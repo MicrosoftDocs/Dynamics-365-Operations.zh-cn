@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: c8b743e667413dfc263fe640b4c6c7350e887142
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859797"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1508000"
 ---
 # <a name="human-resources"></a>人力资源
 

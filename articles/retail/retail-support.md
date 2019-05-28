@@ -18,11 +18,11 @@ ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
 ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364043"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567968"
 ---
 # <a name="get-support-for-dynamics-365-for-retail"></a>获取 Dynamics 365 for Retail 支持
 

@@ -19,11 +19,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 5cf772a0f0f9f99519322be1f37f961dc0ab2500
-ms.sourcegitcommit: dd1e1636d351a15f9c1b6808bea359417a9bd690
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/25/2019
-ms.locfileid: "896756"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1509098"
 ---
 # <a name="default-offset-accounts-for-vendor-invoice-journals-and-invoice-approval-journals"></a>供应商发票日记帐和发票审核日记帐的默认对方科目
 

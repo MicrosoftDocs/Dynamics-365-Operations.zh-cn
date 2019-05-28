@@ -1,9 +1,9 @@
 ---
-title: 供应链日历以及如何影响主计划
+title: 日历和主计划
 description: 此主题提供供应链日历及其如何影响主计划的概述。
 author: t-benebo
 manager: AnnBe
-ms.date: 01/15/2019
+ms.date: 05/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.industry: Manufacturing
 ms.author: t-benebo
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4edcb6a48f705799041d0e29ab7f1a0e52cba434
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 266eec2bb870be270b7796b35903a402e014c67c
+ms.sourcegitcommit: 1f211ac6bd384fd8a2b5352104baf264d88f39b0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363629"
+ms.lasthandoff: 05/08/2019
+ms.locfileid: "1538718"
 ---
-# <a name="supply-chain-calendars-and-how-they-affect-master-planning"></a>供应链日历以及如何影响主计划
+# <a name="calendars-and-master-planning"></a>日历和主计划
 
 [!include [banner](../includes/banner.md)]
 

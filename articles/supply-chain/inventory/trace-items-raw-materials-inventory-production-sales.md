@@ -19,11 +19,11 @@ ms.author: pjacobse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f45c39769b71832afe531db8a55097ede8a3c769
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "310062"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1562522"
 ---
 # <a name="item-and-raw-material-tracing-in-inventory-production-and-sales"></a>库存、生产和销售中的物料和原材料跟踪
 
@@ -124,7 +124,7 @@ ms.locfileid: "310062"
 -   **反向跟踪**或**正向跟踪** – 为所选节点开始执行新的跟踪，并覆盖当前跟踪的详细信息。
 -   **新建反向跟踪**或**新建正向跟踪** – 在新窗口中启动新的跟踪，并且保留当前跟踪的详细信息。
 
-在 Microsoft Dynamics AX 的当前版本中，如果您要使用**新建反向跟踪**或**新建正向跟踪**选项，则必须使用**在新窗口中打开**功能让新跟踪显示在新窗口中。
+如果您要使用**新建反向跟踪**或**新建正向跟踪**选项，则必须使用**在新窗口中打开**功能让新跟踪显示在新窗口中。
 
 ## <a name="can-i-save-the-trace-details"></a>可不可以保存跟踪详细信息？
 您可以通过在“操作”窗格上的*<strong><em>跟踪</em></strong>* 操作下单击<strong>导出</strong>将<strong>详细信息</strong>选项卡上的信息另存为 XML 文件。 除了跟踪详细信息之外，XML 文件还包括跟踪标准、母节点和现有数量。 保存跟踪的详细信息的功能很有用，例如，如果您要附加信息至质检订单或其他符合性文档。 您可以指定该文件的保存位置。 若要立刻查看文件，请选中<strong>显示文档</strong>选项。 <strong>注意：</strong>即使您只想查看它，该文件始终被保存。 默认情况下，XML 文档在浏览器窗口中打开。 但是，您可以通过右键单击该文件，选择<strong>打开方式</strong>，然后选择用于显示内容的程序将来更改。

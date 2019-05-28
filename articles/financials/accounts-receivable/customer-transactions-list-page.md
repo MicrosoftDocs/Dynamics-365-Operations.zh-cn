@@ -17,11 +17,11 @@ ms.author: mikefalkner
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: b9936a66cc8c8abb24601dae91dcfca77e4f58a4
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341687"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561075"
 ---
 # <a name="customer-transactions-list-page"></a>客户交易记录列表页
 

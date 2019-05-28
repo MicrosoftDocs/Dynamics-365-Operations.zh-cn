@@ -20,11 +20,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a73be45d183f3cbdc19efbb9ee29fa621a113c66
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330141"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548154"
 ---
 # <a name="costing-versions"></a>成本计算版本
 

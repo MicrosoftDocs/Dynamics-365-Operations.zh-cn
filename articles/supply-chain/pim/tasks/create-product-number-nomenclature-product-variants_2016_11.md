@@ -17,11 +17,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 800afdf075f0675185514158f3b712a0fe7675e3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336075"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1567140"
 ---
 # <a name="create-a-product-number-nomenclature-for-configured-product-variants"></a>为配置的产品变型创建产品编号命名法
 

@@ -18,11 +18,11 @@ ms.author: shylaw
 ms.search.validfrom: ''
 ms.dyn365.ops.version: 8.0999999999999996
 ms.openlocfilehash: a92dd82f309867586f047e0dfc36e452a44a0f9c
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "341802"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1548944"
 ---
 # <a name="phantom-items"></a>虚拟物料
 

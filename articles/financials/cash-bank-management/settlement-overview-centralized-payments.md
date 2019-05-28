@@ -19,11 +19,11 @@ ms.author: abruer
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1fecc9027d0df7b268a3241ea0f1797849db2d90
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "358569"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565454"
 ---
 # <a name="settlement-overview-for-centralized-payments"></a>集中付款的结算概览
 

@@ -16,11 +16,11 @@ ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
 ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "360938"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557321"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>移动设备上的项目工时单
 

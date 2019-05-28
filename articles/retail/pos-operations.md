@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 85708c7197a71e6ad9b814e2e63d62122c8890f6
-ms.sourcegitcommit: a6d385db6636ef2b7fb6b24d37a2160c8d5a3c0f
+ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "842714"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505088"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
@@ -70,7 +70,9 @@ ms.locfileid: "842714"
 | 106 | 清除数量 | 将当前所选行上的数量设置为 **1**。 | 是 | 是 | 无 | 是 | 无 |
 | 640 | 清除行上的销售代表 | 从当前选择的行中删除佣金销售代表组（销售代表）。 | 是 | 是 | 无 | 是 | 无 |
 | 121 | 清除销售人员 | 此操作不受支持。 | 不适用 | 不适用 | 不适用 | 不适用 | 无 |
-| 1055 | 结束班次 | 关闭当前班次，打印 Z 报表，并将用户从系统中退出。 | 是 | 是 | 是 | 无 | 无 |
+| 1055 | 结束班次 | 关闭当前班次，打印 Z 报表，并将用户从系统中退出。 | 是 | 是 | 是 | 否 | 否 |
+| 139 | 结束交易记录 | 提示用户选择付款方式 | 是 | 是 | 否 | 是 | 否 |
+| 620 | 创建客户订单 | 将 POS 交易记录转换为客户订单。 | 是 | 是 | 否 | 是\* | 否 |
 | 925 | 复制银行支票 | 此操作不受支持。 | 不适用 | 不适用 | 不适用 | 不适用 | 是 |
 | 620 | 创建客户订单 | 将 POS 交易记录转换为客户订单。 | 是 | 是 | 无 | 是\* | 无 |
 | 621 | 创建报价 | 将 POS 交易记录转换为销售报价单。 | 是 | 是 | 无 | 是\* | 无 |

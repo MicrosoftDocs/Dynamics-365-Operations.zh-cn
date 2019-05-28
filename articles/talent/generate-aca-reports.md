@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2017-07-01
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: f03e414683465e7275d6c48a843306abefbacaf0
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859451"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1505833"
 ---
 # <a name="generate-affordable-care-act-aca-reports"></a>创建平价医疗法案 (ACA) 报告
 
@@ -52,7 +52,7 @@ ms.locfileid: "859451"
 在**依赖方保险范围日期管理器**页面，可以指示福利涵盖依赖方的日期。 在此页面上输入日期将自动选择**维护福利**页面上的**已涵盖**复选框。
 
 ## <a name="generate-1095b-and-1095c-forms"></a>生成 1095B 和 1095C 表单
-您还可以从产品内部生成 109-B 和 109-C 表单，并将其分配到每位员工。 电子生成 1095-C 和可发送到 IRS 的相应的 1094-C 传送单也可以从系统中生成。  
+您还可以从产品内部生成 109-B 和 1095-C 表单，并将其分配到每位员工。 电子生成 1095-C 和可发送到 IRS 的相应的 1094-C 传送单也可以从系统中生成。  
 
 在生成 1095-C 表单时，请进入相应的纳税年度并指示是否应隐藏社会保险号。 如果您为 500 名以上员工打印 1095-C 表单，您将收到多个 PDF 文件。 建议您在**文档管理参数**窗口中将**最大文件大小**增加到 150 MB。
 

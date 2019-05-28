@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2017-06-16
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: 91b154a2379d6f0bdf8bea322c99be9e1c1925c9
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859843"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517434"
 ---
 # <a name="personnel-actions-faq"></a>人事行动常见问题
 

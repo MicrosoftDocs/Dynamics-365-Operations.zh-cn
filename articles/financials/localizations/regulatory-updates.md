@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
 ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 073257c2ec810e3599c1aad5a493bc9f16ffc30d
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "992828"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1530699"
 ---
 # <a name="regulatory-updates"></a>监管更新
 

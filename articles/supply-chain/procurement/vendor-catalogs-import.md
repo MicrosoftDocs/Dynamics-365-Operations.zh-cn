@@ -19,11 +19,11 @@ ms.author: mkirknel
 ms.search.validFrom: 2018-04-20
 ms.dyn365.ops.version: 7.2999999999999998
 ms.openlocfilehash: cf81823de46da9a834f0214896b9e634989cac0e
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "362019"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569768"
 ---
 # <a name="import-vendor-catalogs"></a>导入供应商目录
 [!include[banner](../includes/banner.md)]

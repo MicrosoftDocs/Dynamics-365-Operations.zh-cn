@@ -18,11 +18,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 557d4d1942d190760f6a3b3d0e0aca0769f8d385
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "315674"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1569117"
 ---
 # <a name="register-driver-check-in-and-check-out-for-an-appointment"></a>登记约会的驾驶员签入和签出
 

@@ -17,11 +17,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 4fd355fb6c3d2742e046a616585ca349c623341d
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "856822"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1512446"
 ---
 # <a name="set-up-positions"></a>设置职位
 

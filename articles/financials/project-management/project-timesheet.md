@@ -19,11 +19,11 @@ ms.author: josaw1
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
 ms.openlocfilehash: a475085001b8fa10814c864ef35129eb6ebfdfef
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "969629"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1529871"
 ---
 # <a name="microsoft-dynamics-365-project-timesheet-mobile-application"></a>Microsoft Dynamics 365 Project Timesheet 移动应用程序
 

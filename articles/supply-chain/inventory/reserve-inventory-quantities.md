@@ -19,11 +19,11 @@ ms.author: perlynne
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 89441ee4c799e2d1215fbd82e0490d7168e2aa1b
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "365446"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570801"
 ---
 # <a name="reserve-inventory-quantities"></a>预留库存数量
 

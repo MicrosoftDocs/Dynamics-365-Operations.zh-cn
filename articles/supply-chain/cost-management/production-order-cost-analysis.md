@@ -20,11 +20,11 @@ ms.author: mguada
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: f027d6521d5f57a7e2d2cac1bed8dc08ae9f20f1
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "353555"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547759"
 ---
 # <a name="production-order-cost-analysis"></a>生产订单成本分析
 

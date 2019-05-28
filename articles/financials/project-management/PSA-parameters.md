@@ -18,11 +18,11 @@ ms.author: knelson
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
 ms.openlocfilehash: 33960a97f69d6bcc70a3035d4d68095ca6993a10
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "347046"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557275"
 ---
 # <a name="project-service-automation-integration-parameters"></a>Project Service Automation 集成参数
 

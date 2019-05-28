@@ -18,11 +18,11 @@ ms.author: tjvass
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: a35184a48eff9e320087cb9390a0f1eed1e7ba19
-ms.sourcegitcommit: 9a723737565ac78c884e40f7129d0f5aad747524
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/01/2019
-ms.locfileid: "773080"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545801"
 ---
 # <a name="workflow-system"></a>工作流系统
 

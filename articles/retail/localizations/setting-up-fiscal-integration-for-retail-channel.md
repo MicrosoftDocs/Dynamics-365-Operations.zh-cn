@@ -18,11 +18,11 @@ ms.author: v-kikozl
 ms.search.validFrom: 2018-11-1
 ms.dyn365.ops.version: 8.1.1
 ms.openlocfilehash: 060075757dec64e83c46498380a920d580ac09e4
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "898969"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1525317"
 ---
 # <a name="set-up-the-fiscal-integration-for-retail-channels"></a>设置零售渠道的会计整合
 

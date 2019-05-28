@@ -20,11 +20,11 @@ ms.author: aevengir
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: 7ccd5ce3e2ed58db8f13eebbcfa6fe5fb544d6c7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329451"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1564216"
 ---
 # <a name="amortize-constant-costs-for-a-manufactured-item"></a>为制造物料摊销固定成本
 

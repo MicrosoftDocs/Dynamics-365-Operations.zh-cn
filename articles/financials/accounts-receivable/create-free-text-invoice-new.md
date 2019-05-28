@@ -16,11 +16,11 @@ ms.author: mfalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
 ms.openlocfilehash: f6ee6fda0b52b8af7c253b7d22e470345a8a421f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "332234"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1559426"
 ---
 # <a name="create-free-text-invoices"></a>创建普通发票
 

@@ -19,11 +19,11 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2fd5b0c3c70edb586462776d5271a397ccaf1d04
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363928"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550483"
 ---
 # <a name="create-time-windows"></a>创建时间范围   
 

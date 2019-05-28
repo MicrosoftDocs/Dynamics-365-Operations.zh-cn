@@ -3,7 +3,7 @@ title: 打造个性化的用户体验
 description: 本主题说明如何个性化 Microsoft Dynamics 365 for Finance and Operations。
 author: TLeforMicrosoft
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 04/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: tlefor
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 517e1dfa19433f19ebeb9d0a50a124002ca46a24
-ms.sourcegitcommit: 9796d022a8abf5c07abcdee6852ee34f06d2eb57
+ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "975843"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1528836"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
@@ -75,7 +75,7 @@ Finance and Operations. 中有三类基本的个性化设置。
 
 此外，大多数最基本的显式个性化设置可以通过右键单击元素再选择**个性化**来执行。 （注意，并非您页面上的所有元素都能可行化。）当您使用这种个性化设置方法时，将显示元素的属性窗口。
 
-[![个性化元素的属性](./media/personalization-element-properties.jpg)](./media/personalization-element-properties.jpg)
+[![个性化元素的属性](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
 
 可使用属性窗口通过下面的方法对元素进行个性化设置：
 
@@ -91,7 +91,7 @@ Finance and Operations. 中有三类基本的个性化设置。
 
 如果要对页面进行多项更改或要进行的更改不能通过其他机制（如为元素进行重新排序）进行，则可使用**个性化设置**工具栏。 若要打开**个性化设置**工具栏，请在元素的属性窗口中选择**个性化设置此窗体**。 也可以在各页面的操作窗格的**选项**选项卡上**个性化**组中选择**个性化设置此窗体**。
 
-[![个性化设置工具栏](./media/personalization-personalizationtoolbar.jpg)](./media/personalization-personalizationtoolbar.jpg)
+[![个性化设置工具栏](./media/restyledPersonalizationToolbar.png)](./media/restyledPersonalizationToolbar.png)
 
 #### <a name="navigating-the-page"></a>导航页面
 

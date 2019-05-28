@@ -17,11 +17,11 @@ ms.author: kweekley
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: e46b419ab613425ae2d758f80105ac94f1ec5cc2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "324322"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1565964"
 ---
 # <a name="settle-a-postdated-check-for-a-vendor"></a>结算供应商的远期支票
 

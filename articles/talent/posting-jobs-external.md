@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
 ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 1653d1e28d02f8a9a4bea8df562ac98d7a350ed1
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 04/15/2019
-ms.locfileid: "993660"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517435"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>通过 Attract 将工作发布到外部求职站点
 

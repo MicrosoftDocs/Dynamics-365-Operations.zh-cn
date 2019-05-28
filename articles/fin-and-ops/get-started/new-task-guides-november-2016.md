@@ -18,11 +18,11 @@ ms.author: josaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 9cba30560762b5f647621aafb8db19241523f904
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "348909"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561919"
 ---
 # <a name="new-or-updated-task-guides-november-2016"></a>新的或更新任务指南（2016 年 11 月）
 

@@ -19,11 +19,11 @@ ms.author: scotttuc
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
 ms.openlocfilehash: bd3596b6c78c5959ca289c73bcc5785eb770be39
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "336581"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1553545"
 ---
 # <a name="set-up-coupons-for-retail-sales"></a>设置零售销售优惠券
 

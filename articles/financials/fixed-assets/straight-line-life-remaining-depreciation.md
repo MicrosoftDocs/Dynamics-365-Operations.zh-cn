@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 720a7c581dc0f68b14b769e9c9af0df791d0c273
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "329658"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1550859"
 ---
 # <a name="straight-line-life-remaining-depreciation"></a>剩余年限法折旧
 

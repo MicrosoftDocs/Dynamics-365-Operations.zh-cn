@@ -17,11 +17,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 036d7e7e3f79e0945d6fef866a30edd41e688c07
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "337248"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1551314"
 ---
 # <a name="er-import-a-configuration-from-lifecycle-services"></a>ER 从 Lifecycle Services 导入配置
 

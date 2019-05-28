@@ -20,11 +20,11 @@ ms.author: conradv
 ms.dyn365.ops.version: 7.2999999999999998
 ms.search.validFrom: 2017-12-31
 ms.openlocfilehash: bf9e8fe828cae0f643bfb89c34f1d545e3993619
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364825"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1546194"
 ---
 # <a name="product-lifecycle-state"></a>产品生命周期状态 
 

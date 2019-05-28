@@ -17,11 +17,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 374c162fce2bc9ff5006737ac31fcb3d436fd540
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "349231"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1553146"
 ---
 # <a name="maintain-financial-dimension-default-templates"></a>维护财务维度默认模板
 

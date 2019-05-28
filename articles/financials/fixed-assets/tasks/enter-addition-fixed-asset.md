@@ -17,11 +17,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 3c9733f07f995dd37669f3c33fd0f082daa34dd2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "324414"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1566930"
 ---
 # <a name="enter-an-addition-to-a-fixed-asset"></a>输入对固定资产的添加件
 

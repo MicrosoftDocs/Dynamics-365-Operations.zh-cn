@@ -18,11 +18,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: d737f9dfd1888602266a87853e54407618ae2781
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "318020"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1558311"
 ---
 # <a name="set-up-a-work-template-for-purchase-orders"></a>设置采购订单的工作模板
 

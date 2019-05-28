@@ -18,11 +18,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 26f4b73f67064a83eb7b3d57f2dc98d90602c254
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "342515"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1568863"
 ---
 # <a name="fixed-asset-value-model-and-depreciation-book-merge"></a>固定资产价值模型和折旧帐簿合并
 

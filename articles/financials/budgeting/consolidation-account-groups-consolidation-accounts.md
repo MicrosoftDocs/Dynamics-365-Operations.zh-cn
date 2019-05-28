@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: f1c463ee54512b07f5e45c4df995aefed6110cb0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "366389"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570941"
 ---
 # <a name="consolidation-account-groups-and-additional-consolidation-accounts"></a>合并科目组和其他合并科目
 

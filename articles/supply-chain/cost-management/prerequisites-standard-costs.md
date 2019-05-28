@@ -20,11 +20,11 @@ ms.author: aevengir
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: d5a4a4e49ef1cee923011ddab24497c65f85c1e3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "359075"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1547805"
 ---
 # <a name="prerequisites-for-standard-costs"></a>针对标准成本的先决条件
 

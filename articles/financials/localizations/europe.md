@@ -16,11 +16,11 @@ ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 137fb8cae0766bed16b6b32d99e1d2c6c9f7b606
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "321723"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545454"
 ---
 # <a name="europe"></a>欧洲 
 
@@ -90,7 +90,7 @@ ms.locfileid: "321723"
   - [增值税汇率](emea-vat-exchange-rate.md)
   - [增值税对帐报表](tasks/eur-00018-vat-reconciliation-report.md)
   - [东欧的增值税登记簿交易记录](emea-vat-register-transactions.md)
-  - [增值税报告](emea-vat-reporting.md)
+  - [增值税申报](emea-vat-reporting.md)
   - [创建和提交增值税报表](tasks/create-submit-vat-report.md)
   - [查看有关结算的交易记录](emea-transactions-settlement-form.md)
 

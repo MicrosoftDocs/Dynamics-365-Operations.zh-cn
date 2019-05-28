@@ -16,11 +16,11 @@ ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 1637ba59525f5f8bd9fe41a00c34eca90f7a2751
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "340790"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1544579"
 ---
 # <a name="import-configurations-to-generate-documents-that-have-application-data"></a>导入配置以生成包含应用程序数据的单据
 

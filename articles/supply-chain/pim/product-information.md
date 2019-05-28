@@ -20,11 +20,11 @@ ms.author: conradv
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 0ac817fc4e8329563e524cea967c8337262fe2c3
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "363008"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1563520"
 ---
 # <a name="product-information-overview"></a>产品信息概览
 

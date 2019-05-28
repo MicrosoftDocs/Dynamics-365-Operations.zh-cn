@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
 ms.openlocfilehash: 39133474b4a66e53a5525e7c90216342a6f9ed34
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "859866"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517012"
 ---
 # <a name="welcome-to-dynamics-365-for-talent"></a>欢迎使用 Dynamics 365 for Talent
 
@@ -91,7 +91,7 @@ Dynamics 365 for Talent 包括 Attract 应用，该应用可帮助您挖掘、�
 除了向员工发放工资、薪水和奖金，您还可以制定福利项目，如医疗保险和退休计划。 您还可以管理福利，如借用计划，通过此计划，您的公司向员工出借物品（如计算机或手机）。
 
 -   [管理福利计划](manage-benefit-program.md)
--   [福利资格策略](benefit-eligibility-policies.md)
+-   [福利资格政策](benefit-eligibility-policies.md)
 -   [管理借给工作人员的物品](loan-items.md)
 -   [如何在 Dynamics 365 for Talent 中管理员工福利（视频）](https://www.youtube.com/watch?v=nUWkeJTad1o)
 

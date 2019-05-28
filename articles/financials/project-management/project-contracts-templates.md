@@ -18,11 +18,11 @@ ms.author: knelson
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
 ms.openlocfilehash: 0889bc233674cb80dd056ac77edb5c936c6633a7
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "312109"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561454"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>将项目合同和项目直接从 Project Service Automation 同步到 Finance and Operations
 
@@ -102,7 +102,7 @@ Project Service Automation 到 Finance and Operations 集成解决方案使用�
     | 值 | 说明   |
     |-------|---------------|
     | 1     | Net 30        |
-    | 2     | 2%10，Net 30 |
+    | 2     | 2% 10，Net 30 |
     | 3     | Net 45        |
     | 4     | Net 60        |
 

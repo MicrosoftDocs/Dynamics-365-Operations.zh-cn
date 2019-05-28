@@ -17,11 +17,11 @@ ms.author: shpandey
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
 ms.openlocfilehash: 5d7458c62b3b71adf981a1ce5a7260da9bfdbcd2
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "330210"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1549552"
 ---
 # <a name="record-vendor-invoice-and-match-against-received-quantity"></a>记录供应商发票和匹配接收的数量
 

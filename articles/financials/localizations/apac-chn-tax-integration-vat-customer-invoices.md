@@ -17,12 +17,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 3c4beb43bebc02dfbf806370f3c8bf9aec74c82f
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 89c494a429cef4330e27d08c17494fe227416e7a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "371889"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1538415"
 ---
 # <a name="chinese-tax-integration-modification-for-vat-customer-invoices-faq"></a>增值税客户发票的中国税务集成修改常见问题
 

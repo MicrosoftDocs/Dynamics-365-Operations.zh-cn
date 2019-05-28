@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-01-15
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b373ce3cfd1183a082e2b1ebaf8c907b16e581e
-ms.sourcegitcommit: ca4562fafa33b3512f0a5e246b15545fcf53e834
+ms.openlocfilehash: 972c4d6b244eebc85cc801353ce8fb25ecbc0655
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/12/2019
-ms.locfileid: "379985"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517009"
 ---
 # <a name="retail-transaction-consistency-checker"></a>零售交易记录一致性检查器
 

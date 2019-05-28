@@ -18,11 +18,11 @@ ms.author: anbichse
 ms.search.validFrom: 2018-11-02
 ms.dyn365.ops.version: Talent
 ms.openlocfilehash: 97d44dc034cb8097fc0ecf9ac4e485425f097102
-ms.sourcegitcommit: 608e68b603afef9eb98d8fb25e90109c2473ef87
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/19/2019
-ms.locfileid: "857238"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1517387"
 ---
 # <a name="cant-create-an-environment-in-the-powerapps-admin-center"></a>无法在 PowerApps 管理员中心内创建环境
 

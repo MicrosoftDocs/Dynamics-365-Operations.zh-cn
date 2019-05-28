@@ -19,11 +19,11 @@ ms.author: ShylaThompson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 2f962641f7fdae18a360567d6f37348fabbfc302
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "364365"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570590"
 ---
 # <a name="perform-invoice-updates-for-returns"></a>为退货执行发票更新 
 

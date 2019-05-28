@@ -20,11 +20,11 @@ ms.author: perlynne
 ms.dyn365.ops.version: AX 7.0.0
 ms.search.validFrom: 2016-02-28
 ms.openlocfilehash: 43e49fb6e8deead7c6dfe24a25337aeb35f1fcc0
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "355993"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557561"
 ---
 # <a name="arrival-overview"></a>到达概览
 

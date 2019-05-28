@@ -19,11 +19,11 @@ ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
 ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: f6fc90585632918d9357a384b27028f2aebe9b5a
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 03/11/2019
-ms.locfileid: "832140"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502722"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 

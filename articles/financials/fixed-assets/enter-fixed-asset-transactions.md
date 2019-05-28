@@ -19,11 +19,11 @@ ms.author: saraschi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
 ms.openlocfilehash: 6362a63bca43b5ac8da14becf6b966e459365ce1
-ms.sourcegitcommit: 68df883200b5c477ea1799cc28d3ef467cd29202
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 02/07/2019
-ms.locfileid: "377174"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1552733"
 ---
 # <a name="fixed-asset-transaction-options"></a>固定资产交易记录选项
 

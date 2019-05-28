@@ -1,16 +1,16 @@
 ---
 title: 财务申报中的高级格式设置选项
 description: 当您在财务申报中创建报表时，其他格式设置功能可用，包括维度筛选器、列和报告单位限制、非打印行和计算中的 IF/THEN/ELSE 语句。
-author: ShylaThompson
+author: ryansandness
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 04/26/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 ms.search.form: FinancialReports
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 106571
 ms.assetid: 895b5127-01d6-4495-b127-343387b743aa
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8c95f3bfc33730fcf03bd65cd1e66ec104f1e236
-ms.sourcegitcommit: 0f530e5f72a40f383868957a6b5cb0e446e4c795
+ms.openlocfilehash: 70f69fdad3d9186886190c62fba08af06d2a24d6
+ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 01/29/2019
-ms.locfileid: "335569"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "1502557"
 ---
 # <a name="advanced-formatting-options-in-financial-reporting"></a>财务申报中的高级格式设置选项
 
@@ -41,6 +41,7 @@ ms.locfileid: "335569"
 | 列限制         | 行定义中的列限制用于隐藏仅与报表的某些行相关的值。 当对行执行百分比计算时，如果这些数字不适用，列限制将阻止打印合计列或其他列。 |
 | 分列符               | 您可以在行定义中添加分列符以并排显示报表信息。 您可以在单个行定义添加多个分列符，列标题将在每个列的顶部的分列符后重复。 报表的注释在分列符之间显示。 |
 | IF/THEN/ELSE 语句     | 您可以修改行定义或列定义中的计算。 |
+| 维度值使用单引号 ('') 和与号 (&) | 设计报表时可使用维度值，包括与号字符。 |
 
 ## <a name="advanced-cell-placement"></a>高级单元格放置
 高级单元格放置（也称为*强制放置*）涉及将特定值放到特定单元格中。 例如，强制放置通常用于将正确的余额移入现金流量表。 您可以将强制放置用于以下目的：
@@ -297,3 +298,9 @@ ms.locfileid: "335569"
 
 > [!NOTE]
 > 您不能将计算的结果放入任何其他列。 结果必须在包含公式的列中。
+
+#### <a name="use-single-quotes-and-an-ampersand-for-dimension-values-in-a-row-column-or-tree"></a>行、列和树中的维度值使用单引号和与号
+
+可使用包含与号 (&) 的维度值设计报表。 
+
+在任何**链接到财务维度**字段中，均可输入 **'P&L'** 这样的值。 如果维度值两端都有单引号 (' ')，说明使用的是文字值，如包括与号字符 (&)。 
