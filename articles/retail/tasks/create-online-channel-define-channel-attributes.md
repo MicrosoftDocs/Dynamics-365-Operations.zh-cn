@@ -1,63 +1,132 @@
----
-title: 创建在线渠道和定义渠道属性
-description: 此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。
-author: jashanno
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: RetailSPOnlineStoreDetailPage, SysLookupMultiSelectGrid, DimensionLookup, OMHierarchyManager, HierarchyDesigner, OMNodeSelection, HierarchyPublishAndCloseForm
-audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
-ms.search.region: Global
-ms.search.industry: Retail
-ms.author: jashanno
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569513"
----
-# <a name="create-online-channel-and-define-channel-attributes"></a><span data-ttu-id="64f73-103">创建在线渠道和定义渠道属性</span><span class="sxs-lookup"><span data-stu-id="64f73-103">Create online channel and define channel attributes</span></span>
-
-[!include[task guide banner](../includes/task-guide-banner.md)]
-
-<span data-ttu-id="64f73-104">此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。</span><span class="sxs-lookup"><span data-stu-id="64f73-104">This procedure walks through creating a new online channel and adding it to the organization hierarchy.</span></span> <span data-ttu-id="64f73-105">在创建新的在线渠道之前，您必须创建组织层次结构。</span><span class="sxs-lookup"><span data-stu-id="64f73-105">You must create the organization hierarchy before you can create a new online channel.</span></span> <span data-ttu-id="64f73-106">此程序使用 USRT 演示数据公司。</span><span class="sxs-lookup"><span data-stu-id="64f73-106">This procedure uses the USRT demo data company.</span></span>
-
-
-## <a name="create-a-new-online-channel"></a><span data-ttu-id="64f73-107">创建新的在线渠道</span><span class="sxs-lookup"><span data-stu-id="64f73-107">Create a new online channel</span></span>
-1. <span data-ttu-id="64f73-108">转至“零售和商业”>“渠道”>“在线商店”。</span><span class="sxs-lookup"><span data-stu-id="64f73-108">Go to Retail and commerce > Channels > Online stores.</span></span>
-2. <span data-ttu-id="64f73-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="64f73-109">Click New.</span></span>
-3. <span data-ttu-id="64f73-110">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="64f73-110">In the Name field, type a value.</span></span>
-4. <span data-ttu-id="64f73-111">在“仓库”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="64f73-111">In the Warehouse field, enter or select a value.</span></span>
-5. <span data-ttu-id="64f73-112">在“商店时区”字段中，选择一个选项。</span><span class="sxs-lookup"><span data-stu-id="64f73-112">In the Store time zone field, select an option.</span></span>
-6. <span data-ttu-id="64f73-113">在“默认客户”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="64f73-113">In the Default customer field, enter or select a value.</span></span>
-7. <span data-ttu-id="64f73-114">在“客户通讯簿”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="64f73-114">In the Customer address book field, enter or select a value.</span></span>
-8. <span data-ttu-id="64f73-115">在“付款条款”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="64f73-115">In the Terms of payment field, enter or select a value.</span></span>
-9. <span data-ttu-id="64f73-116">在“付款方式”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="64f73-116">In the Method of payment field, enter or select a value.</span></span>
-10. <span data-ttu-id="64f73-117">在“电子邮件通知配置文件”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="64f73-117">In the Email notification profile field, enter or select a value.</span></span>
-11. <span data-ttu-id="64f73-118">扩展财务维度区段。</span><span class="sxs-lookup"><span data-stu-id="64f73-118">Expand the Financial dimensions section.</span></span>
-12. <span data-ttu-id="64f73-119">在“业务单位”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="64f73-119">In the BusinessUnit field, enter or select a value.</span></span>
-    * <span data-ttu-id="64f73-120">同样设置所有其他默认维度的值。</span><span class="sxs-lookup"><span data-stu-id="64f73-120">Similarly set the value for all the other default dimensions.</span></span>  
-13. <span data-ttu-id="64f73-121">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="64f73-121">Click Save.</span></span>
-
-## <a name="add-the-online-channel-to-organization-hierarchy"></a><span data-ttu-id="64f73-122">将在线渠道添加到组织层次结构</span><span class="sxs-lookup"><span data-stu-id="64f73-122">Add the online channel to organization hierarchy</span></span>
-1. <span data-ttu-id="64f73-123">关闭该页面。</span><span class="sxs-lookup"><span data-stu-id="64f73-123">Close the page.</span></span>
-2. <span data-ttu-id="64f73-124">转到“组织管理”>“组织”>“组织层次结构”。</span><span class="sxs-lookup"><span data-stu-id="64f73-124">Go to Organization administration > Organizations > Organization hierarchies.</span></span>
-3. <span data-ttu-id="64f73-125">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="64f73-125">In the list, find and select the desired record.</span></span>
-4. <span data-ttu-id="64f73-126">单击“查看”。</span><span class="sxs-lookup"><span data-stu-id="64f73-126">Click View.</span></span>
-5. <span data-ttu-id="64f73-127">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="64f73-127">Click Edit.</span></span>
-    * <span data-ttu-id="64f73-128">您可以选择您想要在其项下插入新渠道的任何层次结构节点。</span><span class="sxs-lookup"><span data-stu-id="64f73-128">You can select any hierarchy node under which you want to insert the new channel.</span></span>  
-6. <span data-ttu-id="64f73-129">单击“插入”。</span><span class="sxs-lookup"><span data-stu-id="64f73-129">Click Insert.</span></span>
-7. <span data-ttu-id="64f73-130">单击“零售渠道”。</span><span class="sxs-lookup"><span data-stu-id="64f73-130">Click Retail channel.</span></span>
-8. <span data-ttu-id="64f73-131">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="64f73-131">Click OK.</span></span>
-9. <span data-ttu-id="64f73-132">单击“发布”以打开下拉对话框。</span><span class="sxs-lookup"><span data-stu-id="64f73-132">Click Publish to open the drop dialog.</span></span>
-10. <span data-ttu-id="64f73-133">在“有效日期”字段中输入日期和时间。</span><span class="sxs-lookup"><span data-stu-id="64f73-133">In the Effective date field, enter a date and time.</span></span>
-11. <span data-ttu-id="64f73-134">单击“发布”。</span><span class="sxs-lookup"><span data-stu-id="64f73-134">Click Publish.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="create-online-channel-define-channel-attributes.md" target-language="zh-CN">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>create-online-channel-define-channel-attributes.74288c.4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>06/05/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\retail\tasks\create-online-channel-define-channel-attributes.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Create online channel and define channel attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">创建在线渠道和定义渠道属性</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This procedure walks through creating a new online channel and adding it to the organization hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Create online channel and define channel attributes</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">创建在线渠道和定义渠道属性</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This procedure walks through creating a new online channel and adding it to the organization hierarchy.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>You must create the organization hierarchy before you can create a new online channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在创建新的在线渠道之前，您必须创建组织层次结构。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This procedure uses the USRT demo data company.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">此程序使用 USRT 演示数据公司。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Create a new online channel</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">创建新的在线渠道</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Go to Retail and commerce &gt; Channels &gt; Online stores.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">转至“零售和商业”&gt;“渠道”&gt;“在线商店”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“新建”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In the Name field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“名称”字段中，键入一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In the Warehouse field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“仓库”字段中，输入或选择一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Store time zone field, select an option.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“商店时区”字段中，选择一个选项。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>In the Default customer field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“默认客户”字段中，输入或选择一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the Customer address book field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“客户通讯簿”字段中，输入或选择一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>In the Terms of payment field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“付款条款”字段中，输入或选择一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In the Method of payment field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“付款方式”字段中，输入或选择一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>In the Email notification profile field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“电子邮件通知配置文件”字段中，输入或选择一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Expand the Financial dimensions section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">扩展财务维度区段。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>In the BusinessUnit field, enter or select a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“业务单位”字段中，输入或选择一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Similarly set the value for all the other default dimensions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">同样设置所有其他默认维度的值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“保存”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Add the online channel to organization hierarchy</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">将在线渠道添加到组织层次结构</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>Close the page.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">关闭该页面。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Go to Organization administration &gt; Organizations &gt; Organization hierarchies.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">转到“组织管理”&gt;“组织”&gt;“组织层次结构”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在列表中，找到并选择所需记录。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Click View.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“查看”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“编辑”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>You can select any hierarchy node under which you want to insert the new channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">您可以选择您想要在其项下插入新渠道的任何层次结构节点。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Click Insert.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“插入”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Click Retail channel.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“零售渠道”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Click OK.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“确定”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Click Publish to open the drop dialog.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“发布”以打开下拉对话框。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>In the Effective date field, enter a date and time.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">在“有效日期”字段中输入日期和时间。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>Click Publish.</source>
+        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-tm">单击“发布”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>Configure orders for near realtime notification</source><target logoport:matchpercent="0" state="translated">为订单配置近实时通知</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>Go to Retail  &gt; Headquarters setup &gt; Parameters &gt; Retail parameters.</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">转到“Retail &gt; 总部设置 &gt; 参数 &gt; Retail 参数”。</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>Set Use realtime service for eCommerce order creation to "Yes".</source><target logoport:matchpercent="0" state="translated">将“使用实时服务创建电子商务订单”设置为“是”。</target>
+        </trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>Run the 1070 distribution schedule to sync changes to the channel database.</source><target logoport:matchpercent="91" state="translated" state-qualifier="fuzzy-match">运行 1070 配送计划将更改同步到渠道数据库。</target>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

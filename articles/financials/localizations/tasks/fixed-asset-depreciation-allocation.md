@@ -1,69 +1,117 @@
----
-title: 设置固定资产折旧费用分配
-description: 在日本， 固定资产折旧费用可以被多个部门分摊。
-author: ShylaThompson
-manager: AnnBe
-ms.date: 08/29/2018
-ms.topic: business-process
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: AssetAllocationRuleSetup_CN,  AssetPosting
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.search.region: China (PRC), Japan
-ms.author: shylaw
-ms.search.validFrom: 2016-06-30
-ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 660b72c468ffb47ee8a4a5a4cdcd7bb30fa29883
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538410"
----
-# <a name="setup-fixed-asset-depreciation-allocation"></a><span data-ttu-id="337d1-103">设置固定资产折旧费用分配</span><span class="sxs-lookup"><span data-stu-id="337d1-103">Setup fixed asset depreciation allocation</span></span>
-
-[!include [task guide banner](../../includes/task-guide-banner.md)]
-
-<span data-ttu-id="337d1-104">在日本， 固定资产折旧费用可以被多个部门分摊。</span><span class="sxs-lookup"><span data-stu-id="337d1-104">In Japan, the depreciation expenses of a particular fixed asset can be shared among multiple departments.</span></span> 
-
-
-
-<span data-ttu-id="337d1-105">这个任务帮你走一遍如何设置固定资产折旧费用分配流程。</span><span class="sxs-lookup"><span data-stu-id="337d1-105">This task walks you through setting up fixed asset depreciation allocation.</span></span> 
-
-
-
-<span data-ttu-id="337d1-106">用于创建此任务的演示数据公司是 JPMF。</span><span class="sxs-lookup"><span data-stu-id="337d1-106">This task was created using the demo data company JPMF.</span></span>
-
-
-## <a name="create-a-fixed-asset-allocation-rule"></a><span data-ttu-id="337d1-107">创建“固定资产分配规则”</span><span class="sxs-lookup"><span data-stu-id="337d1-107">Create a Fixed asset allocation rule</span></span>
-1. <span data-ttu-id="337d1-108">选择固定资产>设置>折旧费用分配规则。</span><span class="sxs-lookup"><span data-stu-id="337d1-108">Go to Fixed assets > Setup > Depreciation allocation rules.</span></span>
-2. <span data-ttu-id="337d1-109">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="337d1-109">Click New.</span></span>
-3. <span data-ttu-id="337d1-110">在“规则 ID”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="337d1-110">In the Rule ID field, type a value.</span></span>
-4. <span data-ttu-id="337d1-111">在“描述”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="337d1-111">In the Description field, type a value.</span></span>
-5. <span data-ttu-id="337d1-112">在“维度名称”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="337d1-112">In the Dimension name field, type a value.</span></span>
-6. <span data-ttu-id="337d1-113">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="337d1-113">Click Add.</span></span>
-7. <span data-ttu-id="337d1-114">在“业务单元”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="337d1-114">In the BusinessUnit field, type a value.</span></span>
-    * <span data-ttu-id="337d1-115">输入第一个分配目标的信息。</span><span class="sxs-lookup"><span data-stu-id="337d1-115">Enter the information for the first allocation target.</span></span>  
-8. <span data-ttu-id="337d1-116">在“百分比”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="337d1-116">In the Percentage field, enter a number.</span></span>
-    * <span data-ttu-id="337d1-117">所有分配目标的合计总数必须为 100。</span><span class="sxs-lookup"><span data-stu-id="337d1-117">The total of all the allocation target must be 100.</span></span>  
-9. <span data-ttu-id="337d1-118">在“抵销帐户”字段中，指定所需值。</span><span class="sxs-lookup"><span data-stu-id="337d1-118">In the Offset account field, specify the desired values.</span></span>
-10. <span data-ttu-id="337d1-119">单击“添加”。</span><span class="sxs-lookup"><span data-stu-id="337d1-119">Click Add.</span></span>
-11. <span data-ttu-id="337d1-120">在“业务单元”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="337d1-120">In the BusinessUnit field, type a value.</span></span>
-12. <span data-ttu-id="337d1-121">在“百分比”字段中，输入一个数字。</span><span class="sxs-lookup"><span data-stu-id="337d1-121">In the Percentage field, enter a number.</span></span>
-    * <span data-ttu-id="337d1-122">所有分配目标的合计总数必须为 100。</span><span class="sxs-lookup"><span data-stu-id="337d1-122">The total of all the allocation target must be 100.</span></span>  
-13. <span data-ttu-id="337d1-123">在“抵销帐户”字段中，指定所需值。</span><span class="sxs-lookup"><span data-stu-id="337d1-123">In the Offset account field, specify the desired values.</span></span>
-14. <span data-ttu-id="337d1-124">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="337d1-124">Click Save.</span></span>
-
-## <a name="assign-a-fixed-asset-allocation-rule-to-a-posting-profile"></a><span data-ttu-id="337d1-125">将固定资产分配规则分配给过帐模板。</span><span class="sxs-lookup"><span data-stu-id="337d1-125">Assign a fixed asset allocation rule to a posting profile</span></span>
-1. <span data-ttu-id="337d1-126">转到“固定资产”>“设置”>“固定资产过帐模板”。</span><span class="sxs-lookup"><span data-stu-id="337d1-126">Go to Fixed assets > Setup > Fixed asset posting profiles.</span></span>
-2. <span data-ttu-id="337d1-127">单击“编辑”。</span><span class="sxs-lookup"><span data-stu-id="337d1-127">Click Edit.</span></span>
-3. <span data-ttu-id="337d1-128">在“交易类型”字段中，选择“折旧”。</span><span class="sxs-lookup"><span data-stu-id="337d1-128">In the Transaction type field, select 'Depreciation'.</span></span>
-4. <span data-ttu-id="337d1-129">在列表中，找到并选择所需记录。</span><span class="sxs-lookup"><span data-stu-id="337d1-129">In the list, find and select the desired record.</span></span>
-    * <span data-ttu-id="337d1-130">选择您想要与分配规则链接的记录。</span><span class="sxs-lookup"><span data-stu-id="337d1-130">Select the record that you want to link the allocation rule to.</span></span>  
-5. <span data-ttu-id="337d1-131">展开“折旧费用分配规则”部分。</span><span class="sxs-lookup"><span data-stu-id="337d1-131">Expand the Depreciation allocation rules section.</span></span>
-6. <span data-ttu-id="337d1-132">在“资产折旧费用分配”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="337d1-132">In the Asset allocation rule for depreciation field, type a value.</span></span>
-7. <span data-ttu-id="337d1-133">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="337d1-133">Click Save.</span></span>
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="fixed-asset-depreciation-allocation.md" target-language="zh-CN">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>fixed-asset-depreciation-allocation.5af20c.9bdc139e3a65bd11d77cbaa94ddbae1e607c55aa.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>9bdc139e3a65bd11d77cbaa94ddbae1e607c55aa</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\fixed-asset-depreciation-allocation.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Setup fixed asset depreciation allocation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">设置固定资产折旧费用分配</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>In Japan, the depreciation expenses of a particular fixed asset can be shared among multiple departments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在日本， 固定资产折旧费用可以被多个部门分摊。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Setup fixed asset depreciation allocation</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">设置固定资产折旧费用分配</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>In Japan, the depreciation expenses of a particular fixed asset can be shared among multiple departments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在日本， 固定资产折旧费用可以被多个部门分摊。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>This task walks you through setting up fixed asset depreciation allocation.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">这个任务帮你走一遍如何设置固定资产折旧费用分配流程。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>This task was created using the demo data company JPMF.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">用于创建此任务的演示数据公司是 JPMF。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>Create a Fixed asset allocation rule</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">创建“固定资产分配规则”</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Go to Fixed assets &gt; Setup &gt; Depreciation allocation rules.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">选择固定资产&gt;设置&gt;折旧费用分配规则。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>Click New.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“新建”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>In the Rule ID field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“规则 ID”字段中，键入一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>In the Description field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“描述”字段中，键入一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>In the Dimension name field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“维度名称”字段中，输入一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Click Add.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“添加”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>In the BusinessUnit field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“业务单元”字段中，键入一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Enter the information for the first allocation target.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">输入第一个分配目标的信息。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>In the Percentage field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“百分比”字段中，输入一个数字。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>The total of all the allocation target must be 100.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">所有分配目标的合计总数必须为 100。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>In the Offset account field, specify the desired values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“抵销帐户”字段中，指定所需值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Click Add.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“添加”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>In the BusinessUnit field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“业务单元”字段中，键入一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>In the Percentage field, enter a number.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“百分比”字段中，输入一个数字。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>The total of all the allocation target must be 100.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">所有分配目标的合计总数必须为 100。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>In the Offset account field, specify the desired values.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“抵销帐户”字段中，指定所需值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“保存”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>Assign a fixed asset allocation rule to a posting profile</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">将固定资产分配规则分配给过帐模板。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Go to Fixed assets &gt; Setup &gt; Fixed asset posting profiles.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">转到“固定资产”&gt;“设置”&gt;“固定资产过帐模板”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>Click Edit.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“编辑”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>In the Transaction type field, select 'Depreciation'.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“交易类型”字段中，选择“折旧”。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>In the list, find and select the desired record.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在列表中，找到并选择所需记录。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Select the record that you want to link the allocation rule to.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">选择您想要与分配规则链接的记录。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Expand the Depreciation allocation rules section.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">展开“折旧费用分配规则”部分。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>In the Asset allocation rule for depreciation field, type a value.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“资产折旧费用分配”字段中，键入一个值。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>Click Save.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“保存”。</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

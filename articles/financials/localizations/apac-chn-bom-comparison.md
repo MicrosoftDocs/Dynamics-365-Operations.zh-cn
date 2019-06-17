@@ -1,70 +1,282 @@
----
-title: 中国的物料清单比较
-description: 本主题提供了有关中国的物料清单比较的信息。
-author: ShylaThompson
-manager: AnnBe
-ms.date: 06/20/2017
-ms.topic: article
-ms.prod: ''
-ms.service: dynamics-ax-applications
-ms.technology: ''
-ms.search.form: InventBOMComparison_CN
-audience: Application User
-ms.reviewer: shylaw
-ms.search.scope: Core, Operations
-ms.custom: 268584
-ms.assetid: e399ab34-4bfa-4b6d-a956-d425c1395ea3
-ms.search.region: China (PRC)
-ms.author: leguo
-ms.search.validFrom: 2016-11-30
-ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 20e09bb004a1fc0abd863b5d246a1c4814095633
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
-ms.translationtype: HT
-ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538419"
----
-# <a name="bill-of-materials-comparison-for-china"></a><span data-ttu-id="5db89-103">中国的物料清单比较</span><span class="sxs-lookup"><span data-stu-id="5db89-103">Bill of materials comparison for China</span></span>
-
-[!include [banner](../includes/banner.md)]
-
-<span data-ttu-id="5db89-104">本主题提供了有关中国的物料清单比较的信息。</span><span class="sxs-lookup"><span data-stu-id="5db89-104">This topic provides information about BOM comparison for China.</span></span>
-
-<span data-ttu-id="5db89-105">产品可以通过其物料清单 (BOM) 的多个版本伴随超过其生命周期的过程，因为许多产品要重新设计或修改到满足不断变化的需求。</span><span class="sxs-lookup"><span data-stu-id="5db89-105">A product might be accompanied by several versions of its bill of materials (BOM) over the course of its life cycle, because many products are redesigned or modified to meet changing requirements.</span></span> <span data-ttu-id="5db89-106">一般来说，物料清单的成本通常反映生产的实际成本并用于组件和材料中的派生，以及直接和间接的创建最终产品的成本。</span><span class="sxs-lookup"><span data-stu-id="5db89-106">In general, the cost of a BOM reflects the actual cost of production, and is derived from the components and materials that are used, in addition to the direct and indirect costs of creating the final product.</span></span> <span data-ttu-id="5db89-107">物料清单的价格可以手动分配，或者通过累计产品的制造或构造期间产生的成本计算。</span><span class="sxs-lookup"><span data-stu-id="5db89-107">The price of the BOM can be assigned manually, or it can be calculated by marking up the costs that are incurred during the manufacture or construction of the product.</span></span> <span data-ttu-id="5db89-108">使用**物料清单比较**可以比较组件数量和库存成本或不同物料清单版本之间的组件的最新采购价。</span><span class="sxs-lookup"><span data-stu-id="5db89-108">Use the **BOM comparison** page to compare the component quantities and inventory cost, or the latest purchase price of the components, among the various BOM versions.</span></span> <span data-ttu-id="5db89-109">还可以通过物料清单比较执行以下任务：</span><span class="sxs-lookup"><span data-stu-id="5db89-109">BOM comparison also lets you to perform the following tasks:</span></span>
-
--   <span data-ttu-id="5db89-110">为现有产品创建新的物料清单，并将早期版本作为这个新物料清单的基础。</span><span class="sxs-lookup"><span data-stu-id="5db89-110">Create a new BOM for an existing product, and base the new BOM on earlier versions.</span></span>
--   <span data-ttu-id="5db89-111">在一组相似的产品中比较并显示组件的差异。</span><span class="sxs-lookup"><span data-stu-id="5db89-111">Compare and highlight differences in components among a group of similar products.</span></span>
--   <span data-ttu-id="5db89-112">回答有关产品差异和使用的客户查询。</span><span class="sxs-lookup"><span data-stu-id="5db89-112">Answer customer inquiries about product differences and uses.</span></span>
--   <span data-ttu-id="5db89-113">在工业和制造环境中维护准确的库存记录。</span><span class="sxs-lookup"><span data-stu-id="5db89-113">Maintain accurate inventory records in industrial and manufacturing environments.</span></span>
--   <span data-ttu-id="5db89-114">维护准确的运营和个人记录以及精确数据。</span><span class="sxs-lookup"><span data-stu-id="5db89-114">Maintain accurate operational and personnel records, and maintain accurate data.</span></span>
--   <span data-ttu-id="5db89-115">快速响应以更改生产级别和要求。</span><span class="sxs-lookup"><span data-stu-id="5db89-115">Respond quickly to changing production levels and requirements.</span></span>
--   <span data-ttu-id="5db89-116">控制库存水平。</span><span class="sxs-lookup"><span data-stu-id="5db89-116">Control inventory levels.</span></span>
--   <span data-ttu-id="5db89-117">标识和减少过时部分的库存。</span><span class="sxs-lookup"><span data-stu-id="5db89-117">Identify and reduce inventory of obsolete parts.</span></span>
--   <span data-ttu-id="5db89-118">降低总体的制造成本。</span><span class="sxs-lookup"><span data-stu-id="5db89-118">Lower overall manufacturing costs.</span></span>
--   <span data-ttu-id="5db89-119">提高设计和构造流程。</span><span class="sxs-lookup"><span data-stu-id="5db89-119">Improve design and construction processes.</span></span>
--   <span data-ttu-id="5db89-120">通过自定义和不同预算级别的流程来满足客户的需求。</span><span class="sxs-lookup"><span data-stu-id="5db89-120">Meet client requirements by customizing designs and processes at various budget levels.</span></span>
--   <span data-ttu-id="5db89-121">基于实际经验生成概念估计或客户询价。</span><span class="sxs-lookup"><span data-stu-id="5db89-121">Generate conceptual estimates or customer quotes that are based on actual experience.</span></span>
-
-## <a name="example"></a><span data-ttu-id="5db89-122">示例</span><span class="sxs-lookup"><span data-stu-id="5db89-122">Example</span></span>
-<span data-ttu-id="5db89-123">下表显示如何完成物料清单比较。</span><span class="sxs-lookup"><span data-stu-id="5db89-123">The following table shows how a BOM comparison is done.</span></span> <span data-ttu-id="5db89-124">在此示例中，产品 FG001 和 FG003，每个都具有一个有效的物料清单与有两个有效物料清单的产品 FG002 进行比较。</span><span class="sxs-lookup"><span data-stu-id="5db89-124">In this example, products FG001 and FG003, each of which has one active BOM, and product FG002, which has two active BOMs, are compared.</span></span> <span data-ttu-id="5db89-125">该报告列出物料清单版本中的每个组件，显示相应单位中的组件数量，并显示库存成本或最新采购价。</span><span class="sxs-lookup"><span data-stu-id="5db89-125">The report lists each component in a BOM version, shows the component quantity in the appropriate units, and shows the inventory cost or latest purchase price.</span></span>
-
-| <span data-ttu-id="5db89-126">产品</span><span class="sxs-lookup"><span data-stu-id="5db89-126">Product</span></span> | <span data-ttu-id="5db89-127">物料清单</span><span class="sxs-lookup"><span data-stu-id="5db89-127">BOM</span></span>     | <span data-ttu-id="5db89-128">站点</span><span class="sxs-lookup"><span data-stu-id="5db89-128">Site</span></span>   | <span data-ttu-id="5db89-129">组件</span><span class="sxs-lookup"><span data-stu-id="5db89-129">Components</span></span> | <span data-ttu-id="5db89-130">已</span><span class="sxs-lookup"><span data-stu-id="5db89-130">Quantity</span></span> | <span data-ttu-id="5db89-131">单位</span><span class="sxs-lookup"><span data-stu-id="5db89-131">Unit</span></span> | <span data-ttu-id="5db89-132">成本</span><span class="sxs-lookup"><span data-stu-id="5db89-132">Cost</span></span>      |
-|---------|---------|--------|------------|----------|------|-----------|
-| <span data-ttu-id="5db89-133">FG001</span><span class="sxs-lookup"><span data-stu-id="5db89-133">FG001</span></span>   | <span data-ttu-id="5db89-134">FG001V1</span><span class="sxs-lookup"><span data-stu-id="5db89-134">FG001V1</span></span> |        | <span data-ttu-id="5db89-135">MT001</span><span class="sxs-lookup"><span data-stu-id="5db89-135">MT001</span></span>      | <span data-ttu-id="5db89-136">2</span><span class="sxs-lookup"><span data-stu-id="5db89-136">2</span></span>        | <span data-ttu-id="5db89-137">时间单位</span><span class="sxs-lookup"><span data-stu-id="5db89-137">pcs</span></span>  | <span data-ttu-id="5db89-138">20.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-138">USD 20.00</span></span> |
-|         |         |        | <span data-ttu-id="5db89-139">MT002</span><span class="sxs-lookup"><span data-stu-id="5db89-139">MT002</span></span>      | <span data-ttu-id="5db89-140">3</span><span class="sxs-lookup"><span data-stu-id="5db89-140">3</span></span>        | <span data-ttu-id="5db89-141">厘米</span><span class="sxs-lookup"><span data-stu-id="5db89-141">cm</span></span>   | <span data-ttu-id="5db89-142">10.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-142">USD 10.00</span></span> |
-|         |         |        | <span data-ttu-id="5db89-143">MT005</span><span class="sxs-lookup"><span data-stu-id="5db89-143">MT005</span></span>      | <span data-ttu-id="5db89-144">3</span><span class="sxs-lookup"><span data-stu-id="5db89-144">3</span></span>        | <span data-ttu-id="5db89-145">千克</span><span class="sxs-lookup"><span data-stu-id="5db89-145">kg</span></span>   | <span data-ttu-id="5db89-146">32.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-146">USD 32.00</span></span> |
-| <span data-ttu-id="5db89-147">FG002</span><span class="sxs-lookup"><span data-stu-id="5db89-147">FG002</span></span>   | <span data-ttu-id="5db89-148">FG002V1</span><span class="sxs-lookup"><span data-stu-id="5db89-148">FG002V1</span></span> |        | <span data-ttu-id="5db89-149">MT001</span><span class="sxs-lookup"><span data-stu-id="5db89-149">MT001</span></span>      | <span data-ttu-id="5db89-150">1</span><span class="sxs-lookup"><span data-stu-id="5db89-150">1</span></span>        | <span data-ttu-id="5db89-151">时间单位</span><span class="sxs-lookup"><span data-stu-id="5db89-151">pcs</span></span>  | <span data-ttu-id="5db89-152">50.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-152">USD 50.00</span></span> |
-|         |         |        | <span data-ttu-id="5db89-153">MT003</span><span class="sxs-lookup"><span data-stu-id="5db89-153">MT003</span></span>      | <span data-ttu-id="5db89-154">1</span><span class="sxs-lookup"><span data-stu-id="5db89-154">1</span></span>        | <span data-ttu-id="5db89-155">时间单位</span><span class="sxs-lookup"><span data-stu-id="5db89-155">pcs</span></span>  | <span data-ttu-id="5db89-156">12.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-156">USD 12.00</span></span> |
-|         |         |        | <span data-ttu-id="5db89-157">MT005</span><span class="sxs-lookup"><span data-stu-id="5db89-157">MT005</span></span>      | <span data-ttu-id="5db89-158">1</span><span class="sxs-lookup"><span data-stu-id="5db89-158">1</span></span>        | <span data-ttu-id="5db89-159">千克</span><span class="sxs-lookup"><span data-stu-id="5db89-159">kg</span></span>   | <span data-ttu-id="5db89-160">10.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-160">USD 10.00</span></span> |
-|         | <span data-ttu-id="5db89-161">FG002V2</span><span class="sxs-lookup"><span data-stu-id="5db89-161">FG002V2</span></span> | <span data-ttu-id="5db89-162">站点 1</span><span class="sxs-lookup"><span data-stu-id="5db89-162">Site 1</span></span> | <span data-ttu-id="5db89-163">MT002</span><span class="sxs-lookup"><span data-stu-id="5db89-163">MT002</span></span>      | <span data-ttu-id="5db89-164">3</span><span class="sxs-lookup"><span data-stu-id="5db89-164">3</span></span>        | <span data-ttu-id="5db89-165">厘米</span><span class="sxs-lookup"><span data-stu-id="5db89-165">cm</span></span>   | <span data-ttu-id="5db89-166">30.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-166">USD 30.00</span></span> |
-|         |         |        | <span data-ttu-id="5db89-167">MT004</span><span class="sxs-lookup"><span data-stu-id="5db89-167">MT004</span></span>      | <span data-ttu-id="5db89-168">2</span><span class="sxs-lookup"><span data-stu-id="5db89-168">2</span></span>        | <span data-ttu-id="5db89-169">“盒”</span><span class="sxs-lookup"><span data-stu-id="5db89-169">box</span></span>  | <span data-ttu-id="5db89-170">32.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-170">USD 32.00</span></span> |
-|         |         |        | <span data-ttu-id="5db89-171">MT005</span><span class="sxs-lookup"><span data-stu-id="5db89-171">MT005</span></span>      | <span data-ttu-id="5db89-172">1</span><span class="sxs-lookup"><span data-stu-id="5db89-172">1</span></span>        | <span data-ttu-id="5db89-173">千克</span><span class="sxs-lookup"><span data-stu-id="5db89-173">kg</span></span>   | <span data-ttu-id="5db89-174">10.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-174">USD 10.00</span></span> |
-| <span data-ttu-id="5db89-175">FG003</span><span class="sxs-lookup"><span data-stu-id="5db89-175">FG003</span></span>   | <span data-ttu-id="5db89-176">FG003V1</span><span class="sxs-lookup"><span data-stu-id="5db89-176">FG003V1</span></span> |        | <span data-ttu-id="5db89-177">MT003</span><span class="sxs-lookup"><span data-stu-id="5db89-177">MT003</span></span>      | <span data-ttu-id="5db89-178">4</span><span class="sxs-lookup"><span data-stu-id="5db89-178">4</span></span>        | <span data-ttu-id="5db89-179">时间单位</span><span class="sxs-lookup"><span data-stu-id="5db89-179">pcs</span></span>  | <span data-ttu-id="5db89-180">30.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-180">USD 30.00</span></span> |
-|         |         |        | <span data-ttu-id="5db89-181">MT004</span><span class="sxs-lookup"><span data-stu-id="5db89-181">MT004</span></span>      | <span data-ttu-id="5db89-182">2</span><span class="sxs-lookup"><span data-stu-id="5db89-182">2</span></span>        | <span data-ttu-id="5db89-183">“盒”</span><span class="sxs-lookup"><span data-stu-id="5db89-183">box</span></span>  | <span data-ttu-id="5db89-184">23.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-184">USD 23.00</span></span> |
-|         |         |        | <span data-ttu-id="5db89-185">MT005</span><span class="sxs-lookup"><span data-stu-id="5db89-185">MT005</span></span>      | <span data-ttu-id="5db89-186">3</span><span class="sxs-lookup"><span data-stu-id="5db89-186">3</span></span>        | <span data-ttu-id="5db89-187">千克</span><span class="sxs-lookup"><span data-stu-id="5db89-187">kg</span></span>   | <span data-ttu-id="5db89-188">18.00 美元</span><span class="sxs-lookup"><span data-stu-id="5db89-188">USD 18.00</span></span> |
-
-
-
-
-
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" original="apac-chn-bom-comparison.md" target-language="zh-CN">
+    <header>
+      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
+      <xliffext:skl_file_name>apac-chn-bom-comparison.519164.0a7e7c7860883d6e7886ef08995b7605237e0066.skl</xliffext:skl_file_name>
+      <xliffext:version>1.2</xliffext:version>
+      <xliffext:ms.openlocfilehash>0a7e7c7860883d6e7886ef08995b7605237e0066</xliffext:ms.openlocfilehash>
+      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
+      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
+      <xliffext:ms.openlocfilepath>articles\financials\localizations\apac-chn-bom-comparison.md</xliffext:ms.openlocfilepath>
+    </header>
+    <body>
+      <group extype="content" id="content">
+        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
+          <source>Bill of materials comparison for China</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">中国的物料清单比较</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
+          <source>This topic provides information about BOM comparison for China.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">本主题提供了有关中国的物料清单比较的信息。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="103">
+          <source>Bill of materials comparison for China</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">中国的物料清单比较</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="104">
+          <source>This topic provides information about BOM comparison for China.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">本主题提供了有关中国的物料清单比较的信息。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="105">
+          <source>A product might be accompanied by several versions of its bill of materials (BOM) over the course of its life cycle, because many products are redesigned or modified to meet changing requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">产品可以通过其物料清单 (BOM) 的多个版本伴随超过其生命周期的过程，因为许多产品要重新设计或修改到满足不断变化的需求。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="106">
+          <source>In general, the cost of a BOM reflects the actual cost of production, and is derived from the components and materials that are used, in addition to the direct and indirect costs of creating the final product.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">一般来说，物料清单的成本通常反映生产的实际成本并用于组件和材料中的派生，以及直接和间接的创建最终产品的成本。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="107">
+          <source>The price of the BOM can be assigned manually, or it can be calculated by marking up the costs that are incurred during the manufacture or construction of the product.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">物料清单的价格可以手动分配，或者通过累计产品的制造或构造期间产生的成本计算。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="108">
+          <source>Use the <bpt id="p1">**</bpt>BOM comparison<ept id="p1">**</ept> page to compare the component quantities and inventory cost, or the latest purchase price of the components, among the various BOM versions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">使用<bpt id="p1">**</bpt>物料清单比较<ept id="p1">**</ept>可以比较组件数量和库存成本或不同物料清单版本之间的组件的最新采购价。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="109">
+          <source>BOM comparison also lets you to perform the following tasks:</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">还可以通过物料清单比较执行以下任务：</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="110">
+          <source>Create a new BOM for an existing product, and base the new BOM on earlier versions.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">为现有产品创建新的物料清单，并将早期版本作为这个新物料清单的基础。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="111">
+          <source>Compare and highlight differences in components among a group of similar products.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在一组相似的产品中比较并显示组件的差异。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="112">
+          <source>Answer customer inquiries about product differences and uses.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">回答有关产品差异和使用的客户查询。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="113">
+          <source>Maintain accurate inventory records in industrial and manufacturing environments.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在工业和制造环境中维护准确的库存记录。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="114">
+          <source>Maintain accurate operational and personnel records, and maintain accurate data.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">维护准确的运营和个人记录以及精确数据。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="115">
+          <source>Respond quickly to changing production levels and requirements.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">快速响应以更改生产级别和要求。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="116">
+          <source>Control inventory levels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">控制库存水平。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="117">
+          <source>Identify and reduce inventory of obsolete parts.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">标识和减少过时部分的库存。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="118">
+          <source>Lower overall manufacturing costs.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">降低总体的制造成本。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="119">
+          <source>Improve design and construction processes.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">提高设计和构造流程。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="120">
+          <source>Meet client requirements by customizing designs and processes at various budget levels.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">通过自定义和不同预算级别的流程来满足客户的需求。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="121">
+          <source>Generate conceptual estimates or customer quotes that are based on actual experience.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">基于实际经验生成概念估计或客户询价。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="122">
+          <source>Example</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">示例</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="123">
+          <source>The following table shows how a BOM comparison is done.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">下表显示如何完成物料清单比较。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="124">
+          <source>In this example, products FG001 and FG003, each of which has one active BOM, and product FG002, which has two active BOMs, are compared.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在此示例中，产品 FG001 和 FG003，每个都具有一个有效的物料清单与有两个有效物料清单的产品 FG002 进行比较。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="125">
+          <source>The report lists each component in a BOM version, shows the component quantity in the appropriate units, and shows the inventory cost or latest purchase price.</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">该报告列出物料清单版本中的每个组件，显示相应单位中的组件数量，并显示库存成本或最新采购价。</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="126">
+          <source>Product</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">产品</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="127">
+          <source>BOM</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">物料清单</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="128">
+          <source>Site</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">站点</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="129">
+          <source>Components</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">组件</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="130">
+          <source>Quantity</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">已</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="131">
+          <source>Unit</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单位</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="132">
+          <source>Cost</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">成本</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="133">
+          <source>FG001</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FG001</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="134">
+          <source>FG001V1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FG001V1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="135">
+          <source>MT001</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT001</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="136">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="137">
+          <source>pcs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">时间单位</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="138">
+          <source>USD 20.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">20.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="139">
+          <source>MT002</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT002</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="140">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="141">
+          <source>cm</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">厘米</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="142">
+          <source>USD 10.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="143">
+          <source>MT005</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT005</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="144">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="145">
+          <source>kg</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">千克</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="146">
+          <source>USD 32.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="147">
+          <source>FG002</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FG002</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="148">
+          <source>FG002V1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FG002V1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="149">
+          <source>MT001</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT001</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="150">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="151">
+          <source>pcs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">时间单位</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="152">
+          <source>USD 50.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">50.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="153">
+          <source>MT003</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT003</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="154">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="155">
+          <source>pcs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">时间单位</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="156">
+          <source>USD 12.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">12.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="157">
+          <source>MT005</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT005</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="158">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="159">
+          <source>kg</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">千克</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="160">
+          <source>USD 10.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="161">
+          <source>FG002V2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FG002V2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="162">
+          <source>Site 1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">站点 1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="163">
+          <source>MT002</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT002</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="164">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="165">
+          <source>cm</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">厘米</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="166">
+          <source>USD 30.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">30.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="167">
+          <source>MT004</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT004</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="168">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="169">
+          <source>box</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">“盒”</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="170">
+          <source>USD 32.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">32.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="171">
+          <source>MT005</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT005</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="172">
+          <source>1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="173">
+          <source>kg</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">千克</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="174">
+          <source>USD 10.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">10.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="175">
+          <source>FG003</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FG003</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="176">
+          <source>FG003V1</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">FG003V1</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="177">
+          <source>MT003</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT003</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="178">
+          <source>4</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">4</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="179">
+          <source>pcs</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">时间单位</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="180">
+          <source>USD 30.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">30.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="181">
+          <source>MT004</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT004</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="182">
+          <source>2</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="183">
+          <source>box</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">“盒”</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="184">
+          <source>USD 23.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">23.00 美元</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="185">
+          <source>MT005</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">MT005</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="186">
+          <source>3</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">3</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="187">
+          <source>kg</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">千克</target></trans-unit>
+        <trans-unit xml:space="preserve" translate="yes" id="188">
+          <source>USD 18.00</source>
+        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">18.00 美元</target></trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>
