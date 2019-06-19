@@ -1,144 +1,71 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="user-operation-log-china-working-rule.md" target-language="zh-CN">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>user-operation-log-china-working-rule.f2c9f4.7fd291073de7d0437201a858f9ed5e4cc9cb8b27.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>7fd291073de7d0437201a858f9ed5e4cc9cb8b27</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\tasks\user-operation-log-china-working-rule.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>CN-00016 User operation log by China working rule</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CN-00016 按中国工作规则的用户操作日志</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This procedure demonstrates how to generate a user operation log.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">此过程演示如何创建用户操作日志。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>CN-00016 User operation log by China working rule</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">CN-00016 按中国工作规则的用户操作日志</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This procedure demonstrates how to generate a user operation log.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">此过程演示如何创建用户操作日志。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>The database log must be set up before you can generate the user operation log.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">必须先设置数据库日志，才能生成用户操作日志。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>Based on the criteria that you specify,  user operations are tracked and recorded in a log, including the type of operation, user name, and time and date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">根据您指定的条件跟踪用户操作并记录在日志中，包括操作类型、用户名，以及时间和日期。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>This procedure walks you through setting up criteria for tracking bank account creation, creating a bank account for demonstration purposes, and then generating the user log.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">此过程逐步演示如何为跟踪银行帐户的创建设置条件，为演示目的创建银行帐户，然后生成用户日志。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>This procedure uses the CNMF demo data.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">此程序使用 CNMF 演示数据。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Set up the database log</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">设置数据库日志</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>Go to System administration &gt; Setup &gt; Database log setup.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">转到“系统管理”&gt;“设置”&gt;“数据库日志配置”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“新建”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>Click Next.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“下一步”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>In the tree, expand 'Bank'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在树中，展开“银行”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>In the tree, check 'Bank\Bank accounts'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在树中，检查“银行\银行帐户”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>For this demonstration, we want to keep track of who creates bank accounts, but you may want to track other user actions.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">对于此演示，我们希望跟踪谁创建银行帐户，但是您可能希望跟踪其他用户操作。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>Click Next.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“下一步”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>Select the Track new transactions check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">选中“跟踪新交易记录”复选框。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>Select the Update check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">选中“更新”复选框。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>Select the Delete check box.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">选中“删除”复选框。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>Click Next.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“下一步”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>Click Finish.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“完成”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>Create a new bank account for demonstration purposes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">出于演示目的新建银行帐户</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>Go to Cash and bank management &gt; Bank statement reconciliation &gt; Bank accounts.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">转至“现金和银行管理”&gt;“银行对账单对帐”&gt;“银行帐户”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>Click New.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“新建”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>In the Bank account field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“银行帐户”字段中，键入一个值。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>In the Bank account number field, type a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“银行帐号”字段中，输入一个值。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>In the Main account field, specify the desired values.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“主科目”字段中，指定所需值。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>Click Save.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“保存”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>Print the user operation log report</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">打印用户操作日志报告</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>Go to System administration &gt; Inquiries &gt; User operation log inquiry.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">转到“系统管理”&gt;“查询”&gt;“用户操作日志查询”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>In the tree, expand 'Bank'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在树中，展开“银行”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>In the tree, check 'Bank\Bank accounts'.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在树中，检查“银行\银行帐户”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>Expand the By user section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">展开“按用户”部分。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>In the User field, enter or select a value.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“用户”字段中，输入或选择一个值。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>For this example, select your user name if you created the bank account in the previous subtask.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">对于此示例，如果您在上一个子任务中创建了银行帐户，请选择您的用户名。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>Otherwise, select another user who created a bank account recently.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">否则选择最近创建了银行帐户的其他用户。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>Expand the By date section.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">展开“按日期”部分。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>In the From date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“开始日期”字段中输入日期。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>In the To date field, enter a date.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在“结束日期”字段中输入日期。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“确定”。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Click OK.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击“确定”。</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: CN-00016 按中国工作规则的用户操作日志
+description: 此过程演示如何创建用户操作日志。
+author: ShylaThompson
+manager: AnnBe
+ms.date: 08/29/2018
+ms.topic: business-process
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: SysDatabaseLogSetup, SysDatabaseLogWizard, BankAccountTable, ComplianceUserOperationLogConfig_CN
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.search.region: China (PRC)
+ms.author: shylaw
+ms.search.validFrom: 2016-06-30
+ms.dyn365.ops.version: Version 7.0.0
+ms.openlocfilehash: 7fd291073de7d0437201a858f9ed5e4cc9cb8b27
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1557348"
+---
+# <a name="cn-00016-user-operation-log-by-china-working-rule"></a><span data-ttu-id="1d722-103">CN-00016 按中国工作规则的用户操作日志</span><span class="sxs-lookup"><span data-stu-id="1d722-103">CN-00016 User operation log by China working rule</span></span>
+
+[!include [task guide banner](../../includes/task-guide-banner.md)]
+
+<span data-ttu-id="1d722-104">此过程演示如何创建用户操作日志。</span><span class="sxs-lookup"><span data-stu-id="1d722-104">This procedure demonstrates how to generate a user operation log.</span></span> <span data-ttu-id="1d722-105">必须先设置数据库日志，才能生成用户操作日志。</span><span class="sxs-lookup"><span data-stu-id="1d722-105">The database log must be set up before you can generate the user operation log.</span></span>  
+
+<span data-ttu-id="1d722-106">根据您指定的条件跟踪用户操作并记录在日志中，包括操作类型、用户名，以及时间和日期。</span><span class="sxs-lookup"><span data-stu-id="1d722-106">Based on the criteria that you specify,  user operations are tracked and recorded in a log, including the type of operation, user name, and time and date.</span></span> <span data-ttu-id="1d722-107">此过程逐步演示如何为跟踪银行帐户的创建设置条件，为演示目的创建银行帐户，然后生成用户日志。</span><span class="sxs-lookup"><span data-stu-id="1d722-107">This procedure walks you through setting up criteria for tracking bank account creation, creating a bank account for demonstration purposes, and then generating the user log.</span></span>
+
+<span data-ttu-id="1d722-108">此程序使用 CNMF 演示数据。</span><span class="sxs-lookup"><span data-stu-id="1d722-108">This procedure uses the CNMF demo data.</span></span> <span data-ttu-id="1d722-109">此过程针对 Dynamics 365 for Operations 版本 1611 中增加的一项功能。</span><span class="sxs-lookup"><span data-stu-id="1d722-109">This procedure is for a feature that was added in Dynamics 365 for Operations version 1611.</span></span>
+
+
+## <a name="set-up-the-database-log"></a><span data-ttu-id="1d722-110">设置数据库日志</span><span class="sxs-lookup"><span data-stu-id="1d722-110">Set up the database log</span></span>
+1. <span data-ttu-id="1d722-111">转到“系统管理”>“设置”>“数据库日志配置”。</span><span class="sxs-lookup"><span data-stu-id="1d722-111">Go to System administration > Setup > Database log setup.</span></span>
+2. <span data-ttu-id="1d722-112">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="1d722-112">Click New.</span></span>
+3. <span data-ttu-id="1d722-113">单击“下一步”。</span><span class="sxs-lookup"><span data-stu-id="1d722-113">Click Next.</span></span>
+4. <span data-ttu-id="1d722-114">在树中，展开“银行”。</span><span class="sxs-lookup"><span data-stu-id="1d722-114">In the tree, expand 'Bank'.</span></span>
+5. <span data-ttu-id="1d722-115">在树中，检查“银行\银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="1d722-115">In the tree, check 'Bank\Bank accounts'.</span></span>
+    * <span data-ttu-id="1d722-116">对于此演示，我们希望跟踪谁创建银行帐户，但是您可能希望跟踪其他用户操作。</span><span class="sxs-lookup"><span data-stu-id="1d722-116">For this demonstration, we want to keep track of who creates bank accounts, but you may want to track other user actions.</span></span>  
+6. <span data-ttu-id="1d722-117">单击“下一步”。</span><span class="sxs-lookup"><span data-stu-id="1d722-117">Click Next.</span></span>
+7. <span data-ttu-id="1d722-118">选中“跟踪新交易记录”复选框。</span><span class="sxs-lookup"><span data-stu-id="1d722-118">Select the Track new transactions check box.</span></span>
+8. <span data-ttu-id="1d722-119">选中“更新”复选框。</span><span class="sxs-lookup"><span data-stu-id="1d722-119">Select the Update check box.</span></span>
+9. <span data-ttu-id="1d722-120">选中“删除”复选框。</span><span class="sxs-lookup"><span data-stu-id="1d722-120">Select the Delete check box.</span></span>
+10. <span data-ttu-id="1d722-121">单击“下一步”。</span><span class="sxs-lookup"><span data-stu-id="1d722-121">Click Next.</span></span>
+11. <span data-ttu-id="1d722-122">单击“完成”。</span><span class="sxs-lookup"><span data-stu-id="1d722-122">Click Finish.</span></span>
+
+## <a name="create-a-new-bank-account-for-demonstration-purposes"></a><span data-ttu-id="1d722-123">出于演示目的新建银行帐户</span><span class="sxs-lookup"><span data-stu-id="1d722-123">Create a new bank account for demonstration purposes</span></span>
+1. <span data-ttu-id="1d722-124">转至“现金和银行管理”>“银行对账单对帐”>“银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="1d722-124">Go to Cash and bank management > Bank statement reconciliation > Bank accounts.</span></span>
+2. <span data-ttu-id="1d722-125">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="1d722-125">Click New.</span></span>
+3. <span data-ttu-id="1d722-126">在“银行帐户”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="1d722-126">In the Bank account field, type a value.</span></span>
+4. <span data-ttu-id="1d722-127">在“银行帐号”字段中，输入一个值。</span><span class="sxs-lookup"><span data-stu-id="1d722-127">In the Bank account number field, type a value.</span></span>
+5. <span data-ttu-id="1d722-128">在“主科目”字段中，指定所需值。</span><span class="sxs-lookup"><span data-stu-id="1d722-128">In the Main account field, specify the desired values.</span></span>
+6. <span data-ttu-id="1d722-129">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="1d722-129">Click Save.</span></span>
+
+## <a name="print-the-user-operation-log-report"></a><span data-ttu-id="1d722-130">打印用户操作日志报告</span><span class="sxs-lookup"><span data-stu-id="1d722-130">Print the user operation log report</span></span>
+1. <span data-ttu-id="1d722-131">转到“系统管理”>“查询”>“用户操作日志查询”。</span><span class="sxs-lookup"><span data-stu-id="1d722-131">Go to System administration > Inquiries > User operation log inquiry.</span></span>
+2. <span data-ttu-id="1d722-132">在树中，展开“银行”。</span><span class="sxs-lookup"><span data-stu-id="1d722-132">In the tree, expand 'Bank'.</span></span>
+3. <span data-ttu-id="1d722-133">在树中，检查“银行\银行帐户”。</span><span class="sxs-lookup"><span data-stu-id="1d722-133">In the tree, check 'Bank\Bank accounts'.</span></span>
+4. <span data-ttu-id="1d722-134">展开“按用户”部分。</span><span class="sxs-lookup"><span data-stu-id="1d722-134">Expand the By user section.</span></span>
+5. <span data-ttu-id="1d722-135">在“用户”字段中，输入或选择一个值。</span><span class="sxs-lookup"><span data-stu-id="1d722-135">In the User field, enter or select a value.</span></span>
+    * <span data-ttu-id="1d722-136">对于此示例，如果您在上一个子任务中创建了银行帐户，请选择您的用户名。</span><span class="sxs-lookup"><span data-stu-id="1d722-136">For this example, select your user name if you created the bank account in the previous subtask.</span></span> <span data-ttu-id="1d722-137">否则选择最近创建了银行帐户的其他用户。</span><span class="sxs-lookup"><span data-stu-id="1d722-137">Otherwise, select another user who created a bank account recently.</span></span>  
+6. <span data-ttu-id="1d722-138">展开“按日期”部分。</span><span class="sxs-lookup"><span data-stu-id="1d722-138">Expand the By date section.</span></span>
+7. <span data-ttu-id="1d722-139">在“开始日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="1d722-139">In the From date field, enter a date.</span></span>
+8. <span data-ttu-id="1d722-140">在“结束日期”字段中输入日期。</span><span class="sxs-lookup"><span data-stu-id="1d722-140">In the To date field, enter a date.</span></span>
+9. <span data-ttu-id="1d722-141">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1d722-141">Click OK.</span></span>
+10. <span data-ttu-id="1d722-142">单击“确定”。</span><span class="sxs-lookup"><span data-stu-id="1d722-142">Click OK.</span></span>
+
