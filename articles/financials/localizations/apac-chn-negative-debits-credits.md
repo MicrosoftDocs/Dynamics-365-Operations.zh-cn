@@ -1,48 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="apac-chn-negative-debits-credits.md" target-language="zh-CN">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-7889195" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>apac-chn-negative-debits-credits.76c5d0.932a6c8e1cadb65138baf63a0c9fd443207f8f48.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>932a6c8e1cadb65138baf63a0c9fd443207f8f48</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>05/15/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\financials\localizations\apac-chn-negative-debits-credits.md</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101" restype="x-metadata">
-          <source>Display debit and credit amounts in ledger accounts for China</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">显示中国会计科目的借方和贷方金额</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102" restype="x-metadata">
-          <source>This topic shows how to display credit and debit amounts for ledger accounts in two separate columns in the general ledger for China.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Display debit and credit amounts in ledger accounts for China</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">显示中国会计科目的借方和贷方金额</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>This topic shows how to display credit and debit amounts for ledger accounts in two separate columns in the general ledger for China.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>You can view credit and debit amounts for ledger accounts in two separate columns on the <bpt id="p1">**</bpt>Voucher transactions<ept id="p1">**</ept> inquiry page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">您可以查看<bpt id="p1">**</bpt>凭证交易记录<ept id="p1">**</ept>查询页面中的两个单独列中的会计科目的贷方和借方金额。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>You can also view the negative amounts that are related to the reversing entries.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">还可以查看与冲销条目的负金额。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>All negative amounts are displayed in red letters on the <bpt id="p1">**</bpt>Voucher transactions<ept id="p1">**</ept> inquiry page.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">所有负金额在<bpt id="p1">**</bpt>凭证交易记录<ept id="p1">**</ept>查询页面中以红色字母显示。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>Click <bpt id="p1">**</bpt>General ledger<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>Ledger Setup<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>General ledger parameters<ept id="p3">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">单击<bpt id="p1">**</bpt>总帐<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph> <bpt id="p2">**</bpt>分类帐设置<ept id="p2">**</ept> <ph id="ph2">&amp;gt;</ph> <bpt id="p3">**</bpt>总帐参数<ept id="p3">**</ept>。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>Set the <bpt id="p1">**</bpt>Show amount in debit/credit columns<ept id="p1">**</ept> slider to <bpt id="p2">**</bpt>Yes<ept id="p2">**</ept>.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">将<bpt id="p1">**</bpt>在借方/贷方列中显示金额<ept id="p1">**</ept>滑块设置为<bpt id="p2">**</bpt>是<ept id="p2">**</ept>。</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>Open <bpt id="p1">**</bpt>General ledger<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph><bpt id="p2"> **</bpt>Inquiries and reports<ept id="p2">**</ept><ph id="ph2"> </ph><ph id="ph3">&amp;gt;</ph> <bpt id="p3">**</bpt>Voucher transactions<ept id="p3">**</ept> to confirm.</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">打开<bpt id="p1">**</bpt>总帐<ept id="p1">**</ept> <ph id="ph1">&amp;gt;</ph><bpt id="p2"> **</bpt>查询和报表<ept id="p2">**</ept><ph id="ph2"> </ph><ph id="ph3">&amp;gt;</ph> <bpt id="p3">**</bpt>凭证交易记录<ept id="p3">**</ept>进行确认。</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+---
+title: 显示中国会计科目的借方和贷方金额
+description: 本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。
+author: ShylaThompson
+manager: AnnBe
+ms.date: 03/21/2018
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: LedgerParameters
+audience: Application User
+ms.reviewer: shylaw
+ms.search.scope: Core, Operations
+ms.custom: 265884
+ms.assetid: 0f23b25b-45e5-4156-9e38-621a97046552
+ms.search.region: China (PRC)
+ms.author: leguo
+ms.search.validFrom: 2016-11-30
+ms.dyn365.ops.version: Version 1611
+ms.openlocfilehash: 932a6c8e1cadb65138baf63a0c9fd443207f8f48
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.translationtype: HT
+ms.contentlocale: zh-CN
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1570823"
+---
+# <a name="display-debit-and-credit-amounts-in-ledger-accounts-for-china"></a><span data-ttu-id="f5ed1-103">显示中国会计科目的借方和贷方金额</span><span class="sxs-lookup"><span data-stu-id="f5ed1-103">Display debit and credit amounts in ledger accounts for China</span></span>
+
+[!include [banner](../includes/banner.md)]
+
+<span data-ttu-id="f5ed1-104">本主题说明如何在中国的总帐中显示两个单独列中的会计科目的借方和贷方金额。</span><span class="sxs-lookup"><span data-stu-id="f5ed1-104">This topic shows how to display credit and debit amounts for ledger accounts in two separate columns in the general ledger for China.</span></span> 
+
+<span data-ttu-id="f5ed1-105">您可以查看**凭证交易记录**查询页面中的两个单独列中的会计科目的贷方和借方金额。</span><span class="sxs-lookup"><span data-stu-id="f5ed1-105">You can view credit and debit amounts for ledger accounts in two separate columns on the **Voucher transactions** inquiry page.</span></span> <span data-ttu-id="f5ed1-106">还可以查看与冲销条目的负金额。</span><span class="sxs-lookup"><span data-stu-id="f5ed1-106">You can also view the negative amounts that are related to the reversing entries.</span></span> <span data-ttu-id="f5ed1-107">所有负金额在**凭证交易记录**查询页面中以红色字母显示。</span><span class="sxs-lookup"><span data-stu-id="f5ed1-107">All negative amounts are displayed in red letters on the **Voucher transactions** inquiry page.</span></span>
+
+1.  <span data-ttu-id="f5ed1-108">单击**总帐** &gt; **分类帐设置** &gt; **总帐参数**。</span><span class="sxs-lookup"><span data-stu-id="f5ed1-108">Click **General ledger** &gt; **Ledger Setup** &gt; **General ledger parameters**.</span></span>
+2.  <span data-ttu-id="f5ed1-109">将**在借方/贷方列中显示金额**滑块设置为**是**。</span><span class="sxs-lookup"><span data-stu-id="f5ed1-109">Set the **Show amount in debit/credit columns** slider to **Yes**.</span></span>
+3.  <span data-ttu-id="f5ed1-110">打开**总帐** &gt; **查询和报表** &gt; **凭证交易记录**进行确认。</span><span class="sxs-lookup"><span data-stu-id="f5ed1-110">Open **General ledger** &gt; **Inquiries and reports** &gt; **Voucher transactions** to confirm.</span></span>
