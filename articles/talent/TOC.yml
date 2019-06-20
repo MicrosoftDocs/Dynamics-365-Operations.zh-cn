@@ -1,588 +1,383 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xliff xmlns:logoport="urn:logoport:xliffeditor:xliff-extras:1.0" xmlns:tilt="urn:logoport:xliffeditor:tilt-non-translatables:1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xliffext="urn:microsoft:content:schema:xliffextensions" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
-  <file datatype="xml" source-language="en-US" original="TOC.yml" target-language="zh-CN">
-    <header>
-      <tool tool-company="Microsoft" tool-version="1.0-d915bc8" tool-name="mdxliff" tool-id="mdxliff"/>
-      <xliffext:skl_file_name>TOC.8820d6.dea47d376e4da04c15c94a8207856ec23522f4a7.skl</xliffext:skl_file_name>
-      <xliffext:version>1.2</xliffext:version>
-      <xliffext:ms.openlocfilehash>dea47d376e4da04c15c94a8207856ec23522f4a7</xliffext:ms.openlocfilehash>
-      <xliffext:ms.sourcegitcommit>7e223ddd04184fe5a9861be1405fcc0eb8dd166c</xliffext:ms.sourcegitcommit>
-      <xliffext:ms.lasthandoff>06/04/2019</xliffext:ms.lasthandoff>
-      <xliffext:ms.openlocfilepath>articles\talent\TOC.yml</xliffext:ms.openlocfilepath>
-    </header>
-    <body>
-      <group extype="content" id="content">
-        <trans-unit xml:space="preserve" translate="yes" id="101">
-          <source>Dynamics 365 for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Dynamics 365 for Talent</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="102">
-          <source>Get started</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">入门</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="103">
-          <source>Get started with Talent</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">Talent 入门</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="104">
-          <source>What's new or changed in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Talent 新增功能或更改</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="105">
-          <source>May 28, 2019</source><target logoport:matchpercent="97" state="translated" state-qualifier="fuzzy-match">2019 年 5 月 28 日</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="106">
-          <source>May 21, 2019</source><target logoport:matchpercent="97" state="translated" state-qualifier="fuzzy-match">2019 年 5 月 21 日</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="107">
-          <source>May 13, 2019</source><target logoport:matchpercent="97" state="translated" state-qualifier="fuzzy-match">2019 年 5 月 13 日</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="108">
-          <source>May 6, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019 年 5 月 6 日</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="109">
-          <source>April 30, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019 年 4 月 30 日</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="110">
-          <source>April 25, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019 年 4 月 25 日</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="111">
-          <source>April 16, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019 年 4 月 16 日</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="112">
-          <source>April 9, 2019</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">2019 年 4 月 9 日</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="113">
-          <source>April 2, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 4 月 2 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="114">
-          <source>March 26, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 3 月 26 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="115">
-          <source>March 20, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 3 月 20 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="116">
-          <source>March 14, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 3 月 14 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="117">
-          <source>March 5, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 3 月 5 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="118">
-          <source>What's new archives 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年新增功能存档</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="119">
-          <source>February 27, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 2 月 27 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="120">
-          <source>February 14, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 2 月 14 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="121">
-          <source>February 7, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 2 月 7 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="122">
-          <source>January 31, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 1 月 31 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="123">
-          <source>January 23, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 1 月 23 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="124">
-          <source>January 17, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 1 月 17 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="125">
-          <source>January 11, 2019</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2019 年 1 月 11 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="126">
-          <source>What's new archives 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年新增功能存档</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="127">
-          <source>December 14, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 12 月 14 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="128">
-          <source>December 6, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 12 月 6 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="129">
-          <source>November 27, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 11 月 27 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="130">
-          <source>November 15, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 11 月 15 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="131">
-          <source>October 31, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 10 月 31 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="132">
-          <source>October 19, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 10 月 19 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="133">
-          <source>October 15, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 10 月 15 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="134">
-          <source>October 8, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 10 月 8 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="135">
-          <source>October 1, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 10 月 1 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="136">
-          <source>September 24, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 9 月 24 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="137">
-          <source>September 17, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 9 月 17 日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="138">
-          <source>September 10, 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 9 月 10日</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="139">
-          <source>August 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 8 月</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="140">
-          <source>July 2018</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">2018 年 6 月</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="141">
-          <source>System requirements and update policy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">系统要求和更新策略</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="142">
-          <source>Provision Talent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置 Talent</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="143">
-          <source>Remove Talent environments</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">删除 Talent 环境</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="144">
-          <source>Provisioning for the Onboard app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Onboard 应用程序配置</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="145">
-          <source>Embed PowerApps apps</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">嵌入 PowerApps 应用程序</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="146">
-          <source>Core HR and Common Data Service</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Core HR 和 Common Data Service</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="147">
-          <source>Access preview features</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">访问预览功能</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="148">
-          <source>Get support for Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">获取 Talent 支持</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="149">
-          <source>Staff your organization with Attract</source><target logoport:matchpercent="0" state="translated">通过 Attract 为您的组织配备人员</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="150">
-          <source>Which version of Attract?</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">哪个 Attract 版本？</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="151">
-          <source>Attract features and capabilities</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract 特色和功能</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="152">
-          <source>Create a process template in Attract</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在 Attract 中创建流程模板</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="153">
-          <source>Create, approve, and post jobs in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">在 Attract 中创建、审核和发布工作</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="154">
-          <source>Post jobs to external career sites from Attract</source><target logoport:matchpercent="86" state="translated" state-qualifier="fuzzy-match">将工作从 Attract 发布到外部求职站点</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="155">
-          <source>Source candidates by using talent pools</source><target logoport:matchpercent="80" state="translated" state-qualifier="fuzzy-match">使用人才池寻求应聘者</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="156">
-          <source>Sourcing with LinkedIn Recruiter</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">使用 LinkedIn Recruiter 搜寻</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="157">
-          <source>Activities in the hiring processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">招聘流程中的活动</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="158">
-          <source>Interview scheduling and feedback</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">面试计划和反馈</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="159">
-          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract 的可扩展性</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="160">
-          <source>Career site functionality in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract 中的求职站点功能</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="161">
-          <source>Set up offer management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">设置聘约管理</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="162">
-          <source>Create, approve, and sign offers</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">创建、审核和签署聘约</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="163">
-          <source>Email templates</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">电子邮件模板</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="164">
-          <source>Security and role management in Attract</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attract 中的安全和角色管理</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="165">
-          <source>Admin settings in Attract</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Attract 中的管理员设置</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="166">
-          <source>Intelligent recommendations</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">智能建议</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="167">
-          <source>Create an engaging onboarding experience</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">打造富有吸引力的入职体验</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="168">
-          <source>Track sources for candidate profiles and applications</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">追踪应聘者个人资料和申请的来源</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="169">
-          <source>Use analytic reports for hiring process insights</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">使用分析报告来获取招聘流程见解</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="170">
-          <source>Manage your workforce with Core HR</source><target logoport:matchpercent="0" state="translated">通过 Core HR 管理您的劳动力</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="171">
-          <source>Organize your workforce</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">组织您的劳动力</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="172">
-          <source>Organize your workforce by using departments, jobs, and positions</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">使用部门、工作和职位组织您的员工</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="173">
-          <source>Set up the components of a job</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">设置作业组件</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="174">
-          <source>Create departments and include them in the department hierarchy</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">创建部门并将其包含在部门层次结构中</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="175">
-          <source>Set up HR parameters across legal entities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">跨法人设置人力资源参数</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="176">
-          <source>Set up company-specific HR parameters</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">设置特定于公司的人力资源参数</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="177">
-          <source>Personnel actions FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">人事行动常见问题</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="178">
-          <source>Formalize business processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">确定业务流程</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="179">
-          <source>Use workflows to manage employee information</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">使用工作流管理员工信息</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="180">
-          <source>Set up number sequences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">设置编号规则</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="181">
-          <source>Number sequence overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">编号规则概览</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="182">
-          <source>Set up number sequences on an individual basis</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">逐个设置编号规则</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="183">
-          <source>Set up number sequences by using a wizard</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">使用向导设置编号规则</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="184">
-          <source>Configure organizations and organizational hierarchies</source><target logoport:matchpercent="84" state="translated" state-qualifier="fuzzy-match">配置组织和组织层次结构</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="185">
-          <source>Organizations overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">组织概览</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="186">
-          <source>Plan your organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">规划组织层次结构</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="187">
-          <source>Create an organizational hierarchy</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">创建组织层次结构</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="188">
-          <source>Create a legal entity</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">创建法人</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="189">
-          <source>Create an operating unit</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">创建运营单位</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="190">
-          <source>Set up a global address book</source><target logoport:matchpercent="70" state="translated" state-qualifier="fuzzy-match">设置全球通讯簿</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="191">
-          <source>Global address book overview</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">全球通讯簿概览</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="192">
-          <source>Plan for the global address book and others</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">全球通讯簿和其他通讯簿的计划</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="193">
-          <source>Configure the global address book</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">配置全球通讯簿</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="194">
-          <source>Address books FAQ</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">通讯簿常见问题</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="195">
-          <source>Configure workflows</source><target logoport:matchpercent="81" state="translated" state-qualifier="x-fuzzy-match-unedited">配置工作流</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="196">
-          <source>Workflow overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">工作流概览</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="197">
-          <source>Workflow elements</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">工作流元素</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="198">
-          <source>Actions in workflow approval processes</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">工作流审核流程中的操作</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="199">
-          <source>Create workflows</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">创建工作流</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="200">
-          <source>Configure workflow properties</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置工作流属性</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="201">
-          <source>Configure manual tasks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置手动任务</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="202">
-          <source>Configure automated tasks</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置自动化任务</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="203">
-          <source>Configure approval processes</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置审核流程</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="204">
-          <source>Configure approval steps</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置审核步骤</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="205">
-          <source>Configure manual decisions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置手动决策</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="206">
-          <source>Configure conditional decisions</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置条件决策</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="207">
-          <source>Configure parallel activities</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置并行活动</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="208">
-          <source>Configure parallel branches</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置并行分支</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="209">
-          <source>Configure line-item workflows</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置行项工作流</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="210">
-          <source>Configure the message processing batch job</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">配置消息处理批处理作业</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="211">
-          <source>Delegate work items in a workflow</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">在工作流中委托工作项</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="212">
-          <source>View workflow history</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">查看工作流历史记录</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="213">
-          <source>Enable users to receive workflow-related email messages</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">使得用户能够接收工作流相关的电子邮件</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="214">
-          <source>Set up alerts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">设置预警</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="215">
-          <source>Alerts overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">预警概述</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="216">
-          <source>Create alert rules</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">创建预警规则</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="217">
-          <source>Batch processing of alerts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">预警的批处理</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="218">
-          <source>Manage cases</source><target logoport:matchpercent="82" state="translated" state-qualifier="fuzzy-match">管理案例</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="219">
-          <source>Case management overview</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">案例管理概览</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="220">
-          <source>Plan case security, processes, and categories</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">计划案例安全、流程和类别</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="221">
-          <source>Configure document management</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">配置文档管理</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="222">
-          <source>Configure and send email</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">配置和发送电子邮件</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="223">
-          <source>Date/time data and time zones</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">日期/时间数据和时区</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="224">
-          <source>Set up leave and absence</source><target logoport:matchpercent="77" state="translated" state-qualifier="fuzzy-match">设置休假和缺勤</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="225">
-          <source>Manage leave and absence</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">管理休假和缺勤</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="226">
-          <source>Leave and absence concepts</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">休假和缺勤概念</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="227">
-          <source>Accrue time off based on hours worked</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">根据工作时数累积休假时间</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="228">
-          <source>Working time calendars</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">工作时间日历</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="229">
-          <source>Set up compensation plans</source><target logoport:matchpercent="79" state="translated" state-qualifier="fuzzy-match">设置薪酬计划</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="230">
-          <source>Compensation plans overview</source><target logoport:matchpercent="75" state="translated" state-qualifier="fuzzy-match">薪酬计划概览</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="231">
-          <source>Create fixed compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">创建固定薪酬计划</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="232">
-          <source>Create variable compensation plans</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">创建可变薪酬计划</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="233">
-          <source>Process compensation</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">薪酬流程</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="234">
-          <source>Set up the components of a job</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">设置作业组件</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="235">
-          <source>Develop and train employees</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">培养和培训员工</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="236">
-          <source>Performance management</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">绩效管理</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="237">
-          <source>Align workforce skills with business needs</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">使劳动力技能符合业务需求</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="238">
-          <source>Set up training courses</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">设置培训课程</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="239">
-          <source>Add to your performance journal and send praise to someone</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">添加到绩效日记帐并向某人发送表扬</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="240">
-          <source>Create a goal</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">创建目标</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="241">
-          <source>Create a performance review</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">创建绩效审核</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="242">
-          <source>Define and manage a benefits program</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">定义和管理福利计划</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="243">
-          <source>Define and manage a benefits program</source>
-        <target logoport:matchpercent="100" state="translated" state-qualifier="leveraged-inherited">定义和管理福利计划</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="244">
-          <source>Benefit eligibility policies</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">福利资格政策</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="245">
-          <source>Generate Affordable Care Act (ACA) reports</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">创建平价医疗法案 (ACA) 报告</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="246">
-          <source>Manage items lent to workers</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">管理借给工作人员的物品</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="247">
-          <source>Evaluate key metrics with questionnaires</source><target logoport:matchpercent="70" state="translated" state-qualifier="leveraged-mt">通过调查表评估关键指标</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="248">
-          <source>Gather information with questionnaires</source><target logoport:matchpercent="85" state="translated" state-qualifier="fuzzy-match">通过调查表收集信息</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="249">
-          <source>Design questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">设计调查表</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="250">
-          <source>Distribute and schedule questionnaires</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">分发和计划调查表</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="251">
-          <source>View and evaluate the results of questionnaires</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">查看和评估调查表的结果</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="252">
-          <source>Workplace safety and compliance (United States)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">工作场所安全和合规（美国）</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="253">
-          <source>Respond to a request for personal data in Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">响应 Talent 中的个人数据请求</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="254">
-          <source>Form I-9 employment verification</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">表格 I-9 工作证明</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="255">
-          <source>Comply with the ADA</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">符合 ADA</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="256">
-          <source>Integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">集成</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="257">
-          <source>Integrate with Dynamics 365 for Finance and Operations</source><target logoport:matchpercent="78" state="translated" state-qualifier="fuzzy-match">与 Dynamics 365 for Finance and Operations 集成</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="258">
-          <source>Configure the payroll integration between Talent and Dayforce</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">配置 Talent 和 Dayforce 之间的工资单集成</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="259">
-          <source>Data integration guidance for Dynamics 365 for Talent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">针对 Dynamics 365 for Talent 的数据集成指南</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="260">
-          <source>Integration FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">集成常见问题</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="261">
-          <source>Recurring data export using Azure Logic apps</source><target logoport:matchpercent="98" state="translated" state-qualifier="fuzzy-match">使用 Azure 逻辑应用重复导出数据</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="262">
-          <source>Office integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Office 集成</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="263">
-          <source>Office integration tutorial</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Office 集成教程</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="264">
-          <source>Update entity data in Excel</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">更新 Excel 中的实体数据</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="265">
-          <source>Create Open in Excel experiences</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">创建“在 Excel 中打开”体验</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="266">
-          <source>Troubleshoot the Office integration</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Office 集成故障排除</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="267">
-          <source>Extensibility</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">可扩展性</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="268">
-          <source>Embedded Power BI in workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">工作区中的嵌入式 Power BI</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="269">
-          <source>Extend Talent by using PowerApps and Microsoft Flow - Example scenarios</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="270">
-          <source>Mobile app</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">移动应用</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="271">
-          <source>Mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">移动工作区</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="272">
-          <source>Company directory mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">公司目录移动工作区</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="273">
-          <source>My team mobile workspace</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">我的团队移动工作区</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="274">
-          <source>Publish mobile workspaces</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">发布移动工作区</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="275">
-          <source>Track changes in recruiting data</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">跟踪招聘数据的变化</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="276">
-          <source>Extensibility in Attract</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Attract 的可扩展性</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="277">
-          <source>Custom fields in Core HR</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Core HR 自定义字段</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="278">
-          <source>Troubleshoot Talent</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">Talent 疑难解答</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="279">
-          <source>Analytic reports aren't updated</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">未更新分析报表</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="280">
-          <source>Can't create an environment in the PowerApps Admin center</source><target logoport:matchpercent="100" state="translated" state-qualifier="exact-match">无法在 PowerApps 管理员中心内创建环境</target>
-        </trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="281">
-          <source>Talent client disconnects</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent 客户端断开连接</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="282">
-          <source>Avoid text truncation on the position hierarchy and export to Visio</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">避免职位层次结构的文本截断并导出到 Visio</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="283">
-          <source>Run the compensation process</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">执行薪酬流程</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="284">
-          <source>Save task guides to LCS and replay them</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">将任务指南保存到 LCS 并重新播放它们</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="285">
-          <source>Access to private addresses by security role</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">通过安全角色访问专用地址</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="286">
-          <source>Talent doesn't appear among the Microsoft Dynamics 365 apps (Common Data Service 1.0)</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent 未在 Microsoft Dynamics 365 应用 (Common Data Service 1.0) 中显示</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="287">
-          <source>User can access Core HR but not the Onboard or Attract app</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">用户可以访问 Core HR，但无法访问 Onboard 或 Attract 应用</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="288">
-          <source>Reporting options in Talent</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">Talent 中的报告选项</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="289">
-          <source>Integration FAQ</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">集成常见问题</target></trans-unit>
-        <trans-unit xml:space="preserve" translate="yes" id="290">
-          <source>Azure Active Directory users not found in People Picker</source>
-        <target logoport:matchpercent="101" state="translated" state-qualifier="leveraged-tm">未在人员选择器中找到 Azure Active Directory 用户</target></trans-unit>
-      </group>
-    </body>
-  </file>
-</xliff>
+- name: Dynamics 365 for Talent
+  href: index.md
+  items:
+    - name: 入门
+      items:
+        - name: Talent 入门
+          href: talent-get-started.md
+        - name: Talent 新增功能或更改
+          href: whats-new.md
+          items:
+            - name: 2019 年 5 月 28 日
+              href: whats-new-talent-may-28-2019.md
+            - name: 2019 年 5 月 21 日
+              href: whats-new-talent-may-21-2019.md
+            - name: 2019 年 5 月 13 日
+              href: whats-new-talent-may-13-2019.md
+            - name: 2019 年 5 月 6 日
+              href: whats-new-talent-may-6-2019.md
+            - name: 2019 年 4 月 30 日
+              href: whats-new-talent-april-30-2019.md
+            - name: 2019 年 4 月 25 日
+              href: whats-new-talent-april-25-2019.md
+            - name: 2019 年 4 月 16 日
+              href: whats-new-talent-april-16-2019.md
+            - name: 2019 年 4 月 9 日
+              href: whats-new-talent-april-9-2019.md
+            - name: 2019 年 4 月 2 日
+              href: whats-new-talent-april-2-2019.md
+            - name: 2019 年 3 月 26 日
+              href: whats-new-talent-march-26-2019.md
+            - name: 2019 年 3 月 20 日
+              href: whats-new-talent-march-20.md
+            - name: 2019 年 3 月 14 日
+              href: whats-new-talent-march-14.md
+            - name: 2019 年 3 月 5 日
+              href: whats-new-talent-march-5.md
+            - name: 2019 年新增功能存档
+              items:
+                - name: 2019 年 2 月 27 日
+                  href: whats-new-talent-feb-27.md
+                - name: 2019 年 2 月 14 日
+                  href: whats-new-talent-feb14.md
+                - name: 2019 年 2 月 7 日
+                  href: whats-new-talent-february-7.md
+                - name: 2019 年 1 月 31 日
+                  href: whats-new-talent-january-29.md
+                - name: 2019 年 1 月 23 日
+                  href: whats-new-talent-january-23.md
+                - name: 2019 年 1 月 17 日
+                  href: whats-new-talent-january-17.md
+                - name: 2019 年 1 月 11 日
+                  href: whats-new-talent-january-11.md
+            - name: 2018 年新增功能存档
+              items:
+                - name: 2018 年 12 月 14 日
+                  href: whats-new-talent-december-14.md
+                - name: 2018 年 12 月 6 日
+                  href: whats-new-talent-december-6.md
+                - name: 2018 年 11 月 27 日
+                  href: whats-new-talent-november-27.md
+                - name: 2018 年 11 月 15 日
+                  href: whats-new-talent-november-15.md
+                - name: 2018 年 10 月 31 日
+                  href: whats-new-talent-october-31.md
+                - name: 2018 年 10 月 19 日
+                  href: whats-new-talent-october-19.md
+                - name: 2018 年 10 月 15 日
+                  href: whats-new-talent-october-11.md
+                - name: 2018 年 10 月 8 日
+                  href: whats-new-talent-october-8.md
+                - name: 2018 年 10 月 1 日
+                  href: whats-new-talent-october-01.md
+                - name: 2018 年 9 月 24 日
+                  href: whats-new-talent-september-24.md
+                - name: 2018 年 9 月 17 日
+                  href: whats-new-talent-september-17-2018.md
+                - name: 2018 年 9 月 10日
+                  href: whats-new-talent-september-10.md
+                - name: 2018 年 8 月
+                  href: whats-new-talent-august2018.md
+                - name: 2018 年 6 月
+                  href: whats-new-talent-july2018.md
+        - name: 系统要求和更新策略
+          href: talent-versions-update-policy.md
+        - name: 配置 Talent
+          href: provisioning-talent.md
+        - name: 删除 Talent 环境
+          href: remove-talent-environment.md
+        - name: Onboard 应用程序配置
+          href: modular-app-tech-faq.md
+        - name: 嵌入 PowerApps 应用程序
+          href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: Core HR 和 Common Data Service
+          href: CoreHREntities.md
+        - name: 访问预览功能
+          href: access-preview-feature.md
+        - name: 获取 Talent 支持
+          href: talent-support.md
+    - name: 通过 Attract 为您的组织配备人员
+      items:
+        - name: 哪个 Attract 版本？
+          href: attract-comprehensive-hiring.md
+        - name: Attract 特色和功能
+          href: attract-overview.md
+        - name: 在 Attract 中创建流程模板
+          href: Process-templates-Attract.md
+        - name: 在 Attract 中创建、审核和发布工作
+          href: Creating-jobs-Attract.md
+        - name: 将工作从 Attract 发布到外部求职站点
+          href: posting-jobs-external.md
+        - name: 使用人才池寻求应聘者
+          href: attract-talent-pools.md
+        - name: 使用 LinkedIn Recruiter 搜寻
+          href: attract-linked-in-recruiter.md
+        - name: 招聘流程中的活动
+          href: activities-attract.md
+        - name: 面试计划和反馈
+          href: interview-scheduling-feedback.md
+        - name: Attract 的可扩展性
+          href: extensibility-attract.md
+        - name: Attract 中的求职站点功能
+          href: career-site.md
+        - name: 设置聘约管理
+          href: offer-setup.md
+        - name: 创建、审核和签署聘约
+          href: creating-offers.md
+        - name: 电子邮件模板
+          href: email-templates.md
+        - name: Attract 中的安全和角色管理
+          href: security-attract.md
+        - name: Attract 中的管理员设置
+          href: Admin-Settings-Attract.md
+        - name: 智能建议
+          href: Intelligent-Recommendations.md
+        - name: 打造富有吸引力的入职体验
+          href: create-onboarding-experience.md
+        - name: 追踪应聘者个人资料和申请的来源
+          href: source-tracking.md
+        - name: 使用分析报告来获取招聘流程见解
+          href: analytic-reports.md
+    - name: 通过 Core HR 管理您的劳动力
+      items:
+        - name: 组织您的劳动力
+          items:
+            - name: 使用部门、工作和职位组织您的员工
+              href: departments-jobs-positions.md
+            - name: 设置作业组件
+              href: create-job.md
+            - name: 创建部门并将其包含在部门层次结构中
+              href: create-department-add-department-hierarchy.md
+            - name: 跨法人设置人力资源参数
+              href: set-up-hr-parameters-across-legal-entities.md
+            - name: 设置特定于公司的人力资源参数
+              href: set-up-company-specific-hr-parameters.md
+            - name: 人事行动常见问题
+              href: personnel-actions-faq.md
+            - name: 确定业务流程
+              href: formalize-business-processes.md
+            - name: 使用工作流管理员工信息
+              href: workflow-manage-employee-information.md
+            - name: 设置编号规则
+              items:
+                - name: 编号规则概览
+                  href: ../fin-and-ops/organization-administration/number-sequence-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 逐个设置编号规则
+                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-individual-basis.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 使用向导设置编号规则
+                  href: ../fin-and-ops/organization-administration/tasks/set-up-number-sequences-wizard.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 配置组织和组织层次结构
+              items:
+                - name: 组织概览
+                  href: ../fin-and-ops/organization-administration/organizations-organizational-hierarchies.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 规划组织层次结构
+                  href: ../fin-and-ops/organization-administration/plan-organizational-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 创建组织层次结构
+                  href: ../fin-and-ops/organization-administration/tasks/create-organization-hierarchy.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 创建法人
+                  href: ../fin-and-ops/organization-administration/tasks/create-legal-entity.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 创建运营单位
+                  href: ../fin-and-ops/organization-administration/tasks/create-operating-unit.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 设置全球通讯簿
+              items:
+                - name: 全球通讯簿概览
+                  href: ../fin-and-ops/organization-administration/overview-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 全球通讯簿和其他通讯簿的计划
+                  href: ../fin-and-ops/organization-administration/plan-configuration-global-address-book-additional-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 配置全球通讯簿
+                  href: ../fin-and-ops/organization-administration/tasks/configure-global-address-book.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 通讯簿常见问题
+                  href: ../fin-and-ops/organization-administration/qa-address-books.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 配置工作流
+              items:
+                - name: 工作流概览
+                  href: ../fin-and-ops/organization-administration/overview-workflow-system.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 工作流元素
+                  href: ../fin-and-ops/organization-administration/workflow-elements.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 工作流审核流程中的操作
+                  href: ../fin-and-ops/organization-administration/workflow-actions.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 创建工作流
+                  href: ../fin-and-ops/organization-administration/create-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                  items:
+                    - name: 配置工作流属性
+                      href: ../fin-and-ops/organization-administration/configure-workflow-properties.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 配置手动任务
+                      href: ../fin-and-ops/organization-administration/configure-manual-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 配置自动化任务
+                      href: ../fin-and-ops/organization-administration/configure-automated-task-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 配置审核流程
+                      href: ../fin-and-ops/organization-administration/configure-approval-process-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 配置审核步骤
+                      href: ../fin-and-ops/organization-administration/configure-approval-step-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 配置手动决策
+                      href: ../fin-and-ops/organization-administration/configure-manual-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 配置条件决策
+                      href: ../fin-and-ops/organization-administration/configure-conditional-decision-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 配置并行活动
+                      href: ../fin-and-ops/organization-administration/configure-parallel-activity-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 配置并行分支
+                      href: ../fin-and-ops/organization-administration/configure-parallel-branch-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                    - name: 配置行项工作流
+                      href: ../fin-and-ops/organization-administration/configure-line-item-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 配置消息处理批处理作业
+                  href: ../fin-and-ops/organization-administration/workflow-batch-job-critical.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 在工作流中委托工作项
+                  href: ../fin-and-ops/organization-administration/tasks/delegate-work-items-workflow.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 查看工作流历史记录
+                  href: ../fin-and-ops/organization-administration/tasks/view-workflow-history.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 使得用户能够接收工作流相关的电子邮件
+                  href: ../fin-and-ops/organization-administration/tasks/users-receive-workflow-related-email-messages.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 设置预警
+              items:
+                - name: 预警概述
+                  href: ../fin-and-ops/get-started/alerts-overview.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 创建预警规则
+                  href: ../fin-and-ops/get-started/create-alerts.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 预警的批处理
+                  href: ../fin-and-ops/get-started/alerts-managing.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 管理案例
+              items:
+                - name: 案例管理概览
+                  href: ../fin-and-ops/organization-administration/cases.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 计划案例安全、流程和类别
+                  href: ../fin-and-ops/organization-administration/plan-case-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 配置文档管理
+              href: ../fin-and-ops/organization-administration/configure-document-management.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 配置和发送电子邮件
+              href: ../fin-and-ops/organization-administration/configure-email.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 日期/时间数据和时区
+              href: ../fin-and-ops/organization-administration/date-time-zones.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: 设置休假和缺勤
+          items:
+            - name: 管理休假和缺勤
+              href: leave-absence-overview.md
+            - name: 休假和缺勤概念
+              href: leave-absence-concepts.md
+            - name: 根据工作时数累积休假时间
+              href: leave-accrue-hours-worked.md
+            - name: 工作时间日历
+              href: working-time-calendars.md
+        - name: 设置薪酬计划
+          items:
+            - name: 薪酬计划概览
+              href: compensation-plans.md
+            - name: 创建固定薪酬计划
+              href: create-fixed-compensation-plans.md
+            - name: 创建可变薪酬计划
+              href: create-variable-compensation-plans.md
+            - name: 薪酬流程
+              href: process-compensation.md
+            - name: 设置作业组件
+              href: create-job.md
+        - name: 培养和培训员工
+          items:
+            - name: 绩效管理
+              href: performance-management-overview.md
+            - name: 使劳动力技能符合业务需求
+              href: skills.md
+            - name: 设置培训课程
+              href: courses.md
+            - name: 添加到绩效日记帐并向某人发送表扬
+              href: ../fin-and-ops/hr/tasks/add-your-performance-journal-send-praise-someone.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 创建目标
+              href: ../fin-and-ops/hr/tasks/create-goal.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 创建绩效审核
+              href: ../fin-and-ops/hr/tasks/create-performance-review.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: 定义和管理福利计划
+          items:
+            - name: 定义和管理福利计划
+              href: manage-benefit-program.md
+            - name: 福利资格政策
+              href: benefit-eligibility-policies.md
+            - name: 创建平价医疗法案 (ACA) 报告
+              href: generate-aca-reports.md
+            - name: 管理借给工作人员的物品
+              href: loan-items.md
+        - name: 通过调查表评估关键指标
+          items:
+            - name: 通过调查表收集信息
+              href: questionnaires.md
+            - name: 设计调查表
+              href: design-questionnaires.md
+            - name: 分发和计划调查表
+              href: distribute-questionnaires.md
+            - name: 查看和评估调查表的结果
+              href: evaluate-questionnaire-results.md
+        - name: 工作场所安全和合规（美国）
+          items:
+            - name: 响应 Talent 中的个人数据请求
+              href: ../dev-itpro/gdpr/respond-dsr-request-talent.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 表格 I-9 工作证明
+              href: ../fin-and-ops/hr/localizations/noam-usa-form-i-9-verification.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 符合 ADA
+              href: ../fin-and-ops/hr/localizations/noam-usa-comply-ada.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: 集成
+      items:
+        - name: 与 Dynamics 365 for Finance and Operations 集成
+          href: talent-financeandoperations-integration.md
+        - name: 配置 Talent 和 Dayforce 之间的工资单集成
+          href: configure-payroll-integration.md
+        - name: 针对 Dynamics 365 for Talent 的数据集成指南
+          href: data-integration.md
+        - name: 集成常见问题
+          href: talent-fo-integration.md
+        - name: 使用 Azure 逻辑应用重复导出数据
+          href: tutorial-integration-recurring-export.md
+        - name: Office 集成
+          items:
+            - name: Office 集成教程
+              href: ../dev-itpro/office-integration/office-integration-tutorial.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 更新 Excel 中的实体数据
+              href: ../dev-itpro/office-integration/use-excel-add-in.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 创建“在 Excel 中打开”体验
+              href: ../dev-itpro/office-integration/office-integration-edit-excel.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: Office 集成故障排除
+              href: ../dev-itpro/office-integration/office-integration-troubleshooting.md?toc=/dynamics365/unified-operations/talent/toc.json
+    - name: 可扩展性
+      items:
+        - name: 工作区中的嵌入式 Power BI
+          href: ../dev-itpro/analytics/embed-power-bi-workspaces.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: 使用 PowerApps 和 Microsoft Flow 扩展 Talent - 示例方案
+          href: extensibility-examples.md
+        - name: 移动应用
+          items:
+            - name: 移动工作区
+              items:
+                - name: 公司目录移动工作区
+                  href: ../dev-itpro/mobile-apps/company-directory-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+                - name: 我的团队移动工作区
+                  href: ../dev-itpro/mobile-apps/manager-self-service-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+            - name: 发布移动工作区
+              href: ../dev-itpro/mobile-apps/publish-mobile-workspace.md?toc=/dynamics365/unified-operations/talent/toc.json
+        - name: 跟踪招聘数据的变化
+          href: process-auditing.md
+        - name: Attract 的可扩展性
+          href: extensibility-attract.md
+        - name: Core HR 自定义字段
+          href: corehr-custom-fields.md
+    - name: Talent 疑难解答
+      items:
+        - name: 未更新分析报表
+          href: analytic-reports-not-updated.md
+        - name: 无法在 PowerApps 管理员中心内创建环境
+          href: create-envi-powerapps-admin-ctr.md
+        - name: Talent 客户端断开连接
+          href: client-disconnects.md
+        - name: 避免职位层次结构的文本截断并导出到 Visio
+          href: avoid-text-truncation-position-hierarchy-visio.md
+        - name: 执行薪酬流程
+          href: run-compensation-process.md
+        - name: 将任务指南保存到 LCS 并重新播放它们
+          href: save-play-task-guides-LCS.md
+        - name: 通过安全角色访问专用地址
+          href: security-roles-addresses.md
+        - name: Talent 未在 Microsoft Dynamics 365 应用 (Common Data Service 1.0) 中显示
+          href: talent-not-in-home-CDS.md
+        - name: 用户可以访问 Core HR，但无法访问 Onboard 或 Attract 应用
+          href: user-access-core-hr.md
+        - name: Talent 中的报告选项
+          href: talent-reporting-options.md
+        - name: 集成常见问题
+          href: talent-FO-integration.md
+        - name: 未在人员选择器中找到 Azure Active Directory 用户
+          href: people-picker-user-not-found.md
