@@ -3,7 +3,7 @@ title: 已删除或弃用的功能
 description: 本主题介绍已经删除或计划删除的功能。
 author: sericks007
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 06/05/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7afe26b535ca2578d2db17f676c3cae4bafc355f
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9daba2449b6a20634c13117cedb6b63fcc8ee674
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1527663"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620637"
 ---
 # <a name="removed-or-deprecated-features"></a>已移除或弃用的功能
 
@@ -38,8 +38,35 @@ ms.locfileid: "1527663"
 > [!NOTE]
 > 从具有平台更新 8 的 Dynamics 365 for Finance and Operations 2017 年 7 月版开始，每一个已移除或弃用的功能均备注了部署类型。 本主题中提及的所有之前的版本仅支持云部署。
 
-> [!NOTE]
 > [技术参考报告](https://mbs.microsoft.com/customersource/northamerica/AX/downloads/reports/axtechrefrep)中提供了有关 Finance and Operations 中的对象的详细信息。 可比较这些报告的不同版本，以了解 Finance and Operations 各版本中已更改或已删除的对象。
+
+## <a name="dynamics-365-for-finance-and-operations-1004"></a>Dynamics 365 for Finance and Operations 10.0.4 
+
+### <a name="france-fec-accounting-data-export-in-xml"></a>法国：以 XML 格式导出 FEC 会计数据
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | **法国 FEC 审计文件**已替换为 TXT 格式，可以从**总帐** \> **定期任务** \> **数据导出**访问。
+| **被另一个功能取代？**   | 是 |
+| **影响的产品区域**         | 总帐 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用。 移除功能的目标时间范围为 2020 年 7 月。 |
+
+=======
+## <a name="dynamics-365-for-finance-and-operations-1004-with-platform-update-28"></a>带平台更新 28 的 Dynamics 365 for Finance and Operations 10.0.4
+
+> [!IMPORTANT]
+> 带平台更新 28 的 Dynamics 365 for Finance and Operations 10.0.4 已作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 有关预览版的详细信息，请参阅[服务更新可用性](../../fin-and-ops/get-started/public-preview-releases.md)。
+
+### <a name="legacy-navigation-bar"></a>旧导航栏
+
+|   |  |
+|------------|--------------------|
+| **弃用/移除的原因** | 标题与其他 Dynamics and Office 产品对齐 有关更多详细信息，请参阅[更新后的导航栏与 Office 标题对齐](https://docs.microsoft.com/business-applications-release-notes/October18/dynamics365-finance-operations/updatednavbar)。
+| **被另一个功能取代？**   | 从平台更新 24 开始，引入了具有搜索功能且样式已改变的导航栏。 |
+| **影响的产品区域**         | Web 客户端 |
+| **部署选项**              | 所有 |
+| **状态**                         | 已弃用：从 2020 年四月开始，不再提供旧导航栏。 在此之前，客户可以通过**客户端性能选项**页恢复为旧导航栏。 |
 
 
 ## <a name="dynamics-365-for-finance-and-operations-1002-with-platform-update-26"></a>带平台更新 26 的 Dynamics 365 for Finance and Operations 10.0.2

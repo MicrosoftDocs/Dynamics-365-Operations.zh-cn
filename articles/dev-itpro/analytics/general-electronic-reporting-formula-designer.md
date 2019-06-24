@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dc02d51cedc7f732601c77c0ba5b473272fbccb4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "1541260"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592652"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -443,7 +443,7 @@ IF (NOT (enumType_deCH.IsTranslated), enumType_de.Label, enumType_deCH.Label)
 <tr>
 <td>INDEX (list, index)</td>
 <td>此函数用于返回列表中的特定数字索引选择的记录。 如果索引超出了列表中的记录范围，则引发异常。</td>
-<td>如果为<strong>计算字段</strong>类型输入的数据源为 <strong>DS</strong>，而该数据源中包含表达式 <strong>SPLIT ("A|B|C", “|”), 2)</strong>，则表达式 <strong>DS.Value</strong> 将返回文本值“B”。 表达式 <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> 也返回文本值“B”。</td>
+<td>如果为<strong>计算字段</strong>类型输入的数据源为 <strong>DS</strong>，而该数据源中包含表达式 <strong>SPLIT ("A|B|C", “|”), 2</strong>，则表达式 <strong>DS.Value</strong> 将返回文本值“B”。 表达式 <strong>INDEX (SPLIT ("A|B|C", “|”), 2).Value</strong> 也返回文本值“B”。</td>
 </tr>
 </tbody>
 </table>

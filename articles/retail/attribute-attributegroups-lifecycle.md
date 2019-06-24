@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2018-03-30
 ms.dyn365.ops.version: Application pdate 5, AX 8.0
-ms.openlocfilehash: 76b78a898a619f1bc7faa4749e5380a0ccfef527
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 7c722c311048258ce75170ac4276d397fe2828fe
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552709"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606887"
 ---
 # <a name="attributes-and-attribute-groups"></a>属性和属性组
 
@@ -176,8 +176,8 @@ ms.locfileid: "1552709"
 > [!NOTE]
 > 此过程也可用于为渠道导航类别层次结构和补充产品类别层次结构中的列表分配属性组。 在步骤 2 中，请使用以下导航路径：
 >
-> - **零售** &gt; **类别和产品管理** &gt; **渠道导航类别**
-> - **零售** &gt; **类别和产品管理** &gt; **补充产品类别**
+> - Retail &gt; 类别和产品管理 &gt; 渠道导航类别
+> - Retail &gt; 类别和产品管理 &gt; 补充产品类别
 
 ### <a name="assign-attribute-groups-to-retail-stores"></a>将属性组分配到零售商店
 

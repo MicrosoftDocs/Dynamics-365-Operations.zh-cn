@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 17697677e0264c98088d5803e867e78ff3fdb5de
-ms.sourcegitcommit: 86d48d077589470bd1ea23b9c6fe01835088b6ae
+ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "1538948"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595631"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations 帮助系统
 
@@ -192,7 +192,7 @@ Microsoft 为 Finance and Operations 2017 年 12 月及以前的版本配送了�
 | [Docs.microsoft.com](/dynamics365/)                                                            | 承载或链接到 Dynamics 365 的所有产品文档。 |
 | [Microsoft Learn](https://docs.microsoft.com/learn/)                                           | Microsoft 免费的网络培训站点。 |
 | [Lifecycle Services](https://lcs.dynamics.com/)\*                                              | 提供了客户和其合作伙伴可以用此从售前到执行和运营阶段管理 Dynamics 365 for Finance and Operations 项目的基于云的协作工作区。 此站点在执行的所有阶段都很有用。 |
-| [支持博客](http://aka.ms/AXSupportBlog)                                                    | 提供 Dynamics 365 for Finance and Operations 支持团队发布的提示和窍门。 |
+| [支持博客](https://aka.ms/AXSupportBlog)                                                    | 提供 Dynamics 365 for Finance and Operations 支持团队发布的提示和窍门。 |
 | [Docs.microsoft.com/previous versions](https://docs.microsoft.com/previous-versions/dynamics/) | 承载以前版本的内容。 |
 | [Dynamics 社区](https://community.dynamics.com/)                                          | 承载博客、论坛和视频。 |
 | [Microsoft.com/dynamics365/](https://www.microsoft.com/dynamics365/home)                       | 提供评估和销售信息。 |

@@ -17,12 +17,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 50e9b840a3a1cb7204a92d43daf3161f89ebf2b7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1d030662b9c7776e0101665b3b9f23f166a8a2bd
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538416"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1545961"
 ---
 # <a name="chinese-vouchers"></a>中国式凭证
 

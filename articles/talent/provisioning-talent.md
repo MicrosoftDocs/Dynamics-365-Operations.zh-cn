@@ -3,7 +3,7 @@ title: 配置 Talent
 description: 此主题将指导您如何为 Microsoft Dynamics 365 for Talent 配置新环境。
 author: andreabichsel
 manager: AnnBe
-ms.date: 00/05/2019
+ms.date: 05/15/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 98f60e466b8b97215fdba0f48ca53ca57157283b
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
+ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517433"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1576913"
 ---
 # <a name="provision-talent"></a>配置 Talent
 
@@ -47,13 +47,14 @@ ms.locfileid: "1517433"
 在创建 LCS 项目之后，您可以将 Talent 配置到环境中。
 
 1. 在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。
-2. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 PowerApps 环境”部分。 如果您没有 PowerApps 环境，在 LCS 中选择“管理环境”或导航到 PowerApps 管理员中心。 然后按照步骤[创建 PowerApps 环境](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment)。
+2. 指示这是 Talent 的沙盒实例还是生产实例。 沙盒实例中可能提供提前预览功能以便提前反馈和测试。 
+3. 如果希望环境中包含 Talent 测试驱动器体验中使用的相同演示数据集，请选择**包括演示数据**选项。 这对长期演示或培训环境有益，但切勿用于生产环境。  请注意，必须在初始部署之后立即选择此选项。 不能在以后更新现有部署。
+4. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 PowerApps 环境”部分。 如果您没有 PowerApps 环境，在 LCS 中选择“管理环境”或导航到 PowerApps 管理员中心。 然后按照步骤[创建 PowerApps 环境](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment)。
 
     > [!NOTE]
     > 若要查看现有的环境或创建新环境，必须为配置 Talent 的租户管理员分配 PowerApps P2 许可证。 如果您的组织没有 PowerApps P2 许可证，则可以从 CSP 或从 [PowerApps 定价页面](https://powerapps.microsoft.com/en-us/pricing/)获取一个。
 
-4. 选择**添加**，然后选择要为 Talent 配置的环境。
-5. 如果希望环境中包含 Talent 测试驱动器体验中使用的相同演示数据集，请选择**包括演示数据**选项。 这对长期演示或培训环境有益，但切勿用于生产环境。  请注意，必须在初始部署之后立即选择此选项。 不能在以后更新现有部署。
+5. 选择要设置 Talent 的环境。
 6. 选择**是**同意条款并开始部署。
 
     您的新环境将出现在左侧导航窗格的环境列表中。 不过，在部署状态更新为**已部署**前，您无法开始使用此环境。 此过程通常需要几分钟。 如果配置过程失败，您必须与支持人员联系。

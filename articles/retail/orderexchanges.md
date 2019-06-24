@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2018-11-15
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 5a0a6a060a1b4a4d5a80c797f61b212a828d2f04
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 43571099727830e81c41416b6fe250dba398b3f8
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517011"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1561379"
 ---
 # <a name="configure-and-process-an-exchange-on-a-return-order"></a>配置和处理有关退货单的交换
 
@@ -37,7 +37,7 @@ ms.locfileid: "1517011"
 
 请按以下步骤操作，将系统配置为支持就退货单进行产品交换。
 
-1. 转到 **Retail \> 总部设置 \> 参数 \> Retail 参数**。 在**客户订单**快速选项卡上，将**将退货单作为销售订单处理**选项设置为**是**。
+1. 转到 **Retail \> 总部设置 \> 参数 \> 零售参数**。 在**客户订单**快速选项卡上，将**将退货单作为销售订单处理**选项设置为**是**。
 2. 运行**全局配置配送计划**作业 (**1110**)。
 
 ## <a name="make-an-exchange"></a>进行交换

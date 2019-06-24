@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 13a27c2fec2a2b226e9ae8d5b8f9a61e8b79ceb0
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a4b1cd7a02cdf4c650af50199f4425eb53cef0a8
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544901"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595387"
 ---
 # <a name="create-configuration-providers-and-mark-them-as-active"></a>创建配置提供程序并标记为当前运行的
 
@@ -34,11 +34,11 @@ ms.locfileid: "1544901"
 1. 转到“组织管理”>“工作区”>“电子申报”。
 2. 单击“配置提供程序”。
 3. 单击“新建”。
-    * 提供程序具有唯一名称和 URL。 如果已存在 Litware 公司 (http://www.litware.com) 的记录，则查看此页内容并跳过此步骤。  
+    * 提供程序具有唯一名称和 URL。 如果已存在 Litware 公司 (https://www.litware.com) 的记录，则查看此页内容并跳过此步骤。  
 4. 在“名称”字段中，键入 'Litware, Inc.'。
     * Litware 公司  
-5. 在”Internet 地址“字段中，键入“http://www.litware.com”。
-    * http://www.litware.com  
+5. 在”Internet 地址“字段中，键入“https://www.litware.com”。
+    * https://www.litware.com  
 6. 单击“保存”。
 7. 关闭该页面。
 

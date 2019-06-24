@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-08-30
 ms.dyn365.ops.version: 8.0.4
-ms.openlocfilehash: 71b6380e587c9d8e8c5677bfea6f2e5642fbd0d9
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1b0e1621b256e6bbb42f97134b87dd65fa146193
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1508751"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1554866"
 ---
 # <a name="customer-workflow"></a>客户工作流
 

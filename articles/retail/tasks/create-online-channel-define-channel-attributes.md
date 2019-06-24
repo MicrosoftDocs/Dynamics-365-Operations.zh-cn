@@ -3,7 +3,7 @@ title: 创建在线渠道和定义渠道属性
 description: 此程序会逐步演示如何创建新的在线渠道，然后将其添加到组织层次结构。
 author: jashanno
 manager: AnnBe
-ms.date: 08/29/2018
+ms.date: 06/04/2019
 ms.topic: business-process
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,12 +17,12 @@ ms.search.industry: Retail
 ms.author: jashanno
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: e066e9901a97bd5b72815a7af472247ef519ecb9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4547731d7e3bc56b1ba5e0a35ff4746c6c0e9863
+ms.sourcegitcommit: 901ec3b360303bb8b4d9a9dcfecc6d75d7f844a0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569513"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1618288"
 ---
 # <a name="create-online-channel-and-define-channel-attributes"></a>创建在线渠道和定义渠道属性
 
@@ -60,4 +60,10 @@ ms.locfileid: "1569513"
 9. 单击“发布”以打开下拉对话框。
 10. 在“有效日期”字段中输入日期和时间。
 11. 单击“发布”。
+
+## <a name="configure-orders-for-near-realtime-notification"></a>为订单配置近实时通知
+1. 转到“Retail > 总部设置 > 参数 > Retail 参数”。
+2. 将“使用实时服务创建电子商务订单”设置为“是”。
+3. 运行 1070 配送计划将更改同步到渠道数据库。 
+
 

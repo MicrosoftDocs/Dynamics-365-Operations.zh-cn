@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 040505f567b9db1a5987e4ada38d46f919440c96
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 151b8936a46a1945e98bfe0ed040ca50c93db4b0
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1544441"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595432"
 ---
 # <a name="er-upgrade-your-format-by-adopting-a-new-base-version-of-that-format"></a>ER 通过采用该格式的新的基本版本升级格式
 
@@ -36,7 +36,7 @@ ms.locfileid: "1544441"
 
 ## <a name="select-format-configuration-for-customization"></a>选择自定义格式配置
 1. 转到“组织管理”>“工作区”>“电子申报”。
-    * 在此示例中，示例公司 Litware 公司 (http://www.litware.com) 将充当支持特定国家/地区的电子付款的格式配置的配置提供商。    示例公司 Proseware 公司 (http://www.proseware.com) 将充当 Litware 公司提供的格式配置的使用者。 Proseware 公司在该国家/地区的某些地区使用格式。  
+    * 在此示例中，示例公司 Litware 公司 (https://www.litware.com) 将充当支持特定国家/地区的电子付款的格式配置的配置提供商。    示例公司 Proseware 公司 (http://www.proseware.com) 将充当 Litware 公司提供的格式配置的使用者。 Proseware 公司在该国家/地区的某些地区使用格式。  
 2. 单击“申报配置”。
 3. 单击“显示筛选器”。
 4. 应用以下筛选器：使用“开头为”筛选器运算符在“名称”字段中输入筛选器值“BACS（英国虚构）”。

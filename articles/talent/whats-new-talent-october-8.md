@@ -1,5 +1,5 @@
 ---
-title: Dynamics 365 for Talent Core HR（2018 年 10 月 1 日）中的新增功能或更改
+title: Dynamics 365 for Talent Core HR（2018 年 10 月 8 日）中的新增功能或更改
 description: 此主题介绍了 Microsoft Dynamics 365 for Talent Core HR 中的新增功能和更改的功能。
 author: Darinkramer
 manager: AnnBe
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2018-10-07
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 92f06d29dfa8110106a2a0e71434b2c0c75110b5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 34216e2181915cf615e6e77fa2a10d06a4e9db85
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517450"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617264"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-core-hr-october-8-2018"></a>Dynamics 365 for Talent Core HR（2018 年 10 月 8 日）中的新增功能或更改
 

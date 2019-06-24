@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: athinesh
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: d2f4cc99ec239c4c35c44a226235d01e18d4185f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c256569135a00ea98a5c059b9dd12a07a000ee6a
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546355"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606933"
 ---
 # <a name="set-up-and-manage-images-for-retail-modern-pos-mpos"></a>设置和管理 Retail Modern POS (MPOS) 的图像
 
@@ -49,11 +49,11 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dyn
 1. 打开 Dynamics 365 for Retail HQ 门户。
 2. 单击**零售** &gt; **渠道设置** &gt; **渠道配置文件**。
 
-    [![channel-profile1](./media/channel-profile1.png)](./media/channel-profile1.png)
+    [![导航](./media/channel-profile1.png)](./media/channel-profile1.png)
 
 3. 在您的商店用于 MPOS 的通道配置文件中，将**媒体基 URL**字段更新为您的媒体服务器或 CDN 的基 URL。 该基 URL 是不同实体的所有图像文件夹共享的 URL 的第一部分。
 
-    [![channel-profile2](./media/channel-profile2.png)](./media/channel-profile2.png)
+    [![“渠道配置文件”页](./media/channel-profile2.png)](./media/channel-profile2.png)
 
 ### <a name="define-the-media-template-for-an-entity"></a>为实体定义媒体模板
 
@@ -71,7 +71,7 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dyn
 8. 运行同步作业可将新模板推送到通道数据库，以便 MPOS 使用该模板访问图像。
 9. 若要在通道侧更新目录图像的媒体模板，请确保从**零售 IT** &gt; **配送计划**运行**目录作业 1150**。
 
-    [![catalog1](./media/catalog1.png)](./media/catalog1.png)
+    [![“定义媒体模板”对话框](./media/catalog1.png)](./media/catalog1.png)
 
 ## <a name="previewing-an-image-from-the-entity-level"></a>从实体级别预览图像
 
@@ -80,12 +80,12 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dyn
 3. 您可以使用**添加**和**删除**手动更改基于隐式模板并用于特定图像的路径。 有关更多信息，请参阅本文后面的[覆盖实体项目的媒体模板](#overwriting-the-media-template-for-entity-items)一节。
 4. 完成预览图像和进行所需的更改后，请启动相应商店的 MPOS 实例，查看是否显示目录图像。
 
-    [![catalog4](./media/catalog4.png)](./media/catalog4.png)
+    [![“图像”对话框](./media/catalog4.png)](./media/catalog4.png)
 
 > [!NOTE]
 > 您可以对受支持的所有五个实体使用相同的过程：工作人员、客户、目录、类别和产品。 “目录产品”（在目录级别设置的产品）和“通道目录”（在通道级别设置的产品）使用针对产品实体设置的媒体模板。 对于产品媒体模板，您可以选择每个产品要显示的产品图像数。 您也可以为给定产品设置默认图像。 这样，您可以防止 MPOS 中出现空白图像并帮助控制将哪个图像用作产品物料的默认图像。 在以下示例中，每个产品有五个图像，第一个图像设置为默认图像。 变型产品采用与基础产品相同的方式处理。 图像文件的文件名应基于产品编号。 在生成文件名时，也会跳过一些字符。 因此，最好通过使用**生成适用于 Excel 的图像 URL** 部分来验证文件名称。
 >
-> [![prods](./media/prods.png)](./media/prods.png)
+> [![“定义媒体模板”对话框](./media/prods.png)](./media/prods.png)
 
 ## <a name="synchronization-jobs-to-send-a-media-template-to-the-channel-side"></a>将媒体模板发送到通道侧的同步作业
 
@@ -111,11 +111,11 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dyn
     > [!IMPORTANT]
     > 无论何时更改媒体模板，您都必须单击**生成**才能使用“在 Excel 中编辑”功能。
 
-    [![excel1](./media/excel1.jpg)](./media/excel1.jpg)
+    [![为 Excel 快速选项卡生成图像 URL](./media/excel1.jpg)](./media/excel1.jpg)
 
     现在您可以看到基于上一次保存的媒体模板生成的图像 URL 的预览。
 
-    [![excel2](./media/excel2.png)](./media/excel2.png)
+    [![选择“生成”后为 Excel 快速选项卡生成图像 URL](./media/excel2.png)](./media/excel2.png)
 
     > [!NOTE]
     > 为 Excel 生成的 URL 使用已定义的媒体模板的路径和惯例。 这些惯例包括适用于文件名的惯例。 预期是您在 Dynamics 365 for Retail 以外设置了物理图像，且这些图像可以从派生自您之前定义的媒体模板的 URL 中检索。 您可以使用“在 Excel 中编辑”功能来覆盖这些派生的 URL。
@@ -160,11 +160,11 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dyn
 3. 如果您希望此图像在目录的 MPOS 中显示，可以将其设置为默认图像。
 4. 单击**OK**。 此时此目录图像的图像 URL 已更新，且会显示预览。
 
-    [![preview3](./media/preview3.png)](./media/preview3.png)
+    [![“新建图像”对话框中已更新的 URL](./media/preview3.png)](./media/preview3.png)
 
 5. 您也可以在**目录图像**库页面上查看所有被覆盖的图像 URL 的图像预览。
 
-    [![preview-4](./media/preview-4.png)](./media/preview-4.png)
+    [![目录图像库页面](./media/preview-4.png)](./media/preview-4.png)
 
 > [!NOTE]
 > 目前，库不会显示媒体模板图像 URL 的图像预览。 对于目录、工作人员、客户和类别实体，如果用户通过此页面明确提供 URL，我们建议您指明哪个图像是默认图像，因为零售服务器客户端仅对每个目录、客户、工作人员和类别显示一个图像。 如果用户未指定默认图像，系统将确定默认图像并将其发送到零售服务调用方（MPOS 或 Ecommerce）。
@@ -179,7 +179,7 @@ Retail Modern POS (MPOS) 中显示的图像必须在外部承载（Microsoft Dyn
 4. 单击**添加**，然后用新的 URL 覆盖图像 URL。
 5. 单击**OK**。 现在您可以看到新图像的预览，并且可以将其设置为默认图像。
 
-    [![cat3](./media/cat3.png)](./media/cat3.png)
+    [![“新建图像”对话框中的图像预览](./media/cat3.png)](./media/cat3.png)
 
 > [!NOTE]
 > 关联类别图像后，您必须发布通道并运行通道作业才能帮助确保将更改发布到通道数据库。
@@ -200,7 +200,7 @@ MPOS 可以在联机模式下运行（当 MPOS 连接到零售服务器时），
 6. 当 MPOS 处于联机模式时，在 HQ 中运行目录作业，以确保至少一次将数据发送到脱机数据库。
 7. 将 MPOS 置于脱机模式。 您应该可以在 HQ 中看到您为特定产品上载的图像。
 
-    [![offline1](./media/offline1.png)](./media/offline1.png)
+    [![脱机模式下的产品图像](./media/offline1.png)](./media/offline1.png)
 
 ### <a name="set-up-catalog-category-employee-and-customer-images-to-appear-in-offline-mode-for-mpos"></a>将目录、类别、员工和客户图像设置为在 MPOS 的脱机模式下显示
 
@@ -212,4 +212,4 @@ MPOS 可以在联机模式下运行（当 MPOS 连接到零售服务器时），
 4. 运行目录作业。 现在，此图像将在 MPOS 中用作该目录的脱机图像。
 5. 对于其他实体（例如类别、员工和客户），请按照类似流程操作。
 
-    [![offline2](./media/offline2.png)](./media/offline2.png)
+    [![脱机图像](./media/offline2.png)](./media/offline2.png)

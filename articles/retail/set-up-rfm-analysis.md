@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 4314c81823940ce3192da23dfdf777e8ebf781f2
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c7cb79fa82b579bee01e51cb635597cc5f711a98
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1553037"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606818"
 ---
 # <a name="set-up-recency-frequency-and-monetary-rfm-analysis"></a>设置 Recency、频率和货币 (RFM) 分析
 
@@ -46,7 +46,7 @@ Recency、频率和货币 (RFM) 分析是一个您的组织用来评估由客户
 
 如果您的组织使用总分数，则将各个等级加起来。 对于同一示例，客户具有等级 13 (5 + 3 + 5)。
 
-## <a name="to-set-up-rfm-analysis-for-the-customers-in-your-organization"></a>为您组织的客户设置 RFM 分析
+## <a name="set-up-rfm-analysis-for-the-customers-in-your-organization"></a>为您组织的客户设置 RFM 分析
 
 1. 转到**呼叫中心** \> **定期** \> **RFM 分析**。
 2. 在 **RFM 分析**页上，选择**新建**。 在 **RFM 定义**字段中，输入 RFM 定义的名称。 例如，您可以调用定义 RFM-A。

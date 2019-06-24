@@ -3,7 +3,7 @@ title: 通过 Attract 将工作发布到外部求职站点
 description: 本主题介绍如何使用 Dynamics 365 for Talent - Attract 将工作发布到外部招聘站点。
 author: pganapmsft
 manager: AnnBe
-ms.date: 03/20/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2019-03-19
 ms.dyn365.ops.version: Platform update 24
-ms.openlocfilehash: eca599ad189edae29ef2de496196b08799a5e745
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 9c27d1810a89ed7d7a7745e41c5f118dbdfe5dda
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517435"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590474"
 ---
 # <a name="post-jobs-to-external-career-sites-from-attract"></a>通过 Attract 将工作发布到外部求职站点
 
@@ -36,6 +36,7 @@ ms.locfileid: "1517435"
 
 > [!NOTE]
 > - 若要将工作发布到外部站点，必须安装[综合招聘加载项](https://docs.microsoft.com/dynamics365/unified-operations/talent/attract-comprehensive-hiring)。
+> - 要通过 Attract 向 Broadbean 发布工作，必须订阅 Broadbean。
 > - 此功能现在处于预览阶段。 如果要尝试，必须[在 Attract 管理员设置中开启](https://docs.microsoft.com/dynamics365/unified-operations/talent/access-preview-feature)。
 
 ### <a name="configure-broadbean-integration"></a>配置 Broadbean 集成

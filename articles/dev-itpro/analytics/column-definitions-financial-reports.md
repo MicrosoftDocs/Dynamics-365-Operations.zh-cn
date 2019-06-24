@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 872e7c833416f0f7d9aa0c55aadf72aec65ddaab
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: bb08833cca843c370e2c845bce56d6f5a8b5f2ed
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1502722"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595331"
 ---
 # <a name="column-definitions-in-financial-reports"></a>财务报表中的列定义
 
@@ -120,7 +120,7 @@ ms.locfileid: "1502722"
 | ADJ                     | 将列中的金额限制为期间调整金额（如果可以获取这些金额）。 |
 | XAD                     | 将列中的金额限制为不包括期间调整金额。 |
 | PT                      | 将列中的金额限制为仅包括已过帐的交易记录（如果可以获取这些交易记录）。 |
-| UPT                     | 将列中的金额限制为仅包括未过帐的交易记录（如果可以获取这些交易记录）。<blockquote>[!NOTE] 并非所有数据提供程序均支持未过帐的交易记录。 有关详细信息，请参阅你的 Microsoft Dynamics ERP 系统的<a href='http://go.microsoft.com/fwlink/?LinkID=162565'>数据集成指南</a>。</blockquote> |
+| UPT                     | 限制列中的金额，以便仅包含未过帐的交易记录（如果这些交易记录可用）。<p><strong>注意：</strong>并非所有数据提供商都支持未过帐的交易记录。 有关详细信息，请参阅你的 Microsoft Dynamics ERP 系统的<a href='https://go.microsoft.com/fwlink/?LinkID=162565'>数据集成指南</a>。</p> |
 
 ### <a name="restrict-a-column-to-a-reporting-unit"></a>将列限定为报告单位
 
@@ -310,7 +310,7 @@ Phyllis 双击列标题单元格以打开**列标题**对话框，其中她输�
 | 打印控制代码 | 交易记录                                     | 说明 |
 |--------------------|-------------------------------------------------|-------------|
 | NP                 | 非打印                                     | 在报表中不打印并且不计算此列中的金额。 若要在计算中加入非打印列，可在计算公式中直接引用该列。 例如，非打印列 C 包含在以下计算中：**B+C+D**。 但是，非打印列 C 未包含在以下计算中：**B:D**。 |
-| XCR                | 如果行的典型余额为贷方，则更改符号 | 创建预算或比较报表，其中任何不利的差异（如收入不足或费用超额）始终为负。 如果指定行的典型余额为信用（如行定义的**标准余额**列中的 **C** 所标识），则将此代码应用于 **CALC** 列以改变列金额的符号。<blockquote>[!NOTE] 对于一般包含信用余额的 <strong>TOT</strong> 行和 </strong>CAL</strong> 行，务必在行定义的<strong>标准余额</strong>列中输入 <strong>C</strong>。</blockquote> |
+| XCR                | 如果行的典型余额为贷方，则更改符号 | 创建预算或比较报表，其中任何不利的差异（如收入不足或费用超额）始终为负。 如果指定行的典型余额为信用（如行定义的**标准余额**列中的 **C** 所标识），则将此代码应用于 **CALC** 列以改变列金额的符号。<p><strong>注意：</strong>对于一般包含信用余额的 <strong>TOT</strong> 行和 </strong>CAL</strong> 行，务必在行定义的<strong>标准余额</strong>列中输入 <strong>C</strong>。</p> |
 | X0                 | 如果全部为零或为空白，则取消列          | 如果 **FD** 列中的所有单元格都为空或包含零，则从报表中排除此列。 |
 | SR                 | 取消舍入                               | 不舍入此列中的金额。 |
 | XR                 | 取消汇总                                 | 取消汇总。 如果报表采用报告树，则此列中的金额不会汇总到随后的父节点。 |
@@ -546,8 +546,8 @@ Phyllis 已在她的列定义中做出了以下货币选择：
 | “币种显示”单元格                        | “币种筛选器”单元格 | 报表结果 |
 |----------------------------------------------|----------------------|---------------|
 | 交易记录币种                 | **YEN**              | **Y6,000** – 结果将仅显示采用 JPY 输入的交易记录。 |
-| 分类帐的记帐币种 | **YEN**              |**$60** – 结果仅显示采用 JPY 的交易记录并且采用美元显示交易记录。<blockquote>[!NOTE] 汇率大约为 1 美元兑换 100 日元。</blockquote> |
-| 分类帐的记帐币种 | 空                | **$2,310**  – 结果将以分类帐中指定的申报币种显示所有数据。<blockquote>[!NOTE] 此金额是以申报货币显示的所有交易记录的总和。</blockquote> |
+| 分类帐的记帐币种 | **YEN**              |**$60** – 结果仅显示采用 JPY 的交易记录并且采用美元显示交易记录。<p><strong>注意：</strong>汇率约为一美元等于 100 日元。</p> |
+| 分类帐的记帐币种 | 空                | **$2,310**  – 结果将以分类帐中指定的申报币种显示所有数据。<p><strong>注意：</strong>此金额是以申报货币显示的所有交易记录的总和。</p> |
 | 交易记录币种                 | 空                | **$2,250** – 结果将以执行交易记录时采用的币种显示所有金额。 这意味着总额为不同币种的金额之和。 |
 
 ### <a name="calculation-column-in-a-column-definition"></a>列定义中的计算列
@@ -565,7 +565,7 @@ Phyllis 已在她的列定义中做出了以下货币选择：
 |----------|---------------------|-------------|
 | +        | A+C                 | 用列 A 中的金额加上列 C 中的金额。 |
 | :        | A:C A:C-D           | 添加一组连续的列。 例如，公式 **A:C** 加上列 A 到 C 的总计，公式 **A:C-D** 加上列 A 到 C 的总计，然后减去列 D 中的金额。 |
-| -        | A-C                 | 用 A 列中的金额减去 C 列中的金额。<blockquote>[!NOTE] 您还可以使用减号 (-) 更改列中的符号。 例如，使用 <strong>- A+B</strong> 在列 A 中添加与列 B 中的金额相反的金额。</blockquote> |
+| -        | A-C                 | 用 A 列中的金额减去 C 列中的金额。<p><strong>注意：</strong>您还可以使用减号 (-) 抵消列中的符号。 例如，使用 <strong>- A+B</strong> 在列 A 中添加与列 B 中的金额相反的金额。</p> |
 | \*       | A\*C                | 用列 A 中的金额乘以列 C 中的金额。 |
 | /        | A/C                 | 用列 A 中的金额除以列 C 中的金额。 |
 

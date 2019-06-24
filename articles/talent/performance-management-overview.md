@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 1954b691d84b0aa8710da621af21415c6c116539
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 05d8986d69abba4dbba7c30aad5a7e4626ceb5b1
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517423"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590497"
 ---
 # <a name="performance-management"></a>绩效管理
 
@@ -109,7 +109,7 @@ ms.locfileid: "1517423"
 
 ### <a name="ratings"></a>等级
 
-可以为审核的任何目标或能力应用等级。 可以为每个审核定义评级模型。 等级的默认值位于下的**人力资源参数**页中的**绩效**下。
+可以为审核的任何目标或能力应用等级。 可以为每个审核定义评级模型。 等级的默认值位于下的**人力资源共享参数**页中的**绩效**下。
 
 ### <a name="sign-offs"></a>签核
 

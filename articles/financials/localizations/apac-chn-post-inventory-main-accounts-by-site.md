@@ -18,12 +18,12 @@ ms.search.region: China (PRC)
 ms.author: leguo
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: c44ee5d3ab91c3b849e4620bbe2d0503d69e43b0
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: ec9cedcd93f04914a1a6e9e5ec680cb56d3f574a
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1538414"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1573388"
 ---
 # <a name="post-inventory-main-accounts-by-site-for-china"></a>按中国站点过帐主库存科目
 

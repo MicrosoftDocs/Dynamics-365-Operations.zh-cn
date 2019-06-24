@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: mikefalkner
 ms.search.validFrom: 2018-10-31
 ms.dyn365.ops.version: 8.0999999999999996
-ms.openlocfilehash: a92110cdbe58e2dbb913596ba08780ac3a6b50a7
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 7a1e6c6e3a995ad745522d58960e850d72c2ee57
+ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1507038"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "1556264"
 ---
 # <a name="copy-customers-by-using-shared-number-sequences"></a>使用共享的编号规则复制客户
 

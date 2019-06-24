@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: chwolf
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: e11742c62ea8d10f391ed2d417024f9c80e39591
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4832a056a99e0f7521e022982b7db7b16d7064a3
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561990"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595485"
 ---
 # <a name="hardware-sizing-requirements-for-on-premises-environments"></a>针对本地环境的硬件规模调整要求
 
@@ -99,7 +99,7 @@ ms.locfileid: "1561990"
 
 有关 AD FS 规模调整，请参阅 [AD FS 服务器产能文档](/windows-server/identity/ad-fs/design/planning-for-ad-fs-server-capacity)。
 
-[规模调整电子表格](http://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) 可用于规划你的部署中的实例数量。
+[规模调整电子表格](https://adfsdocs.blob.core.windows.net/adfs/ADFSCapacity2016.xlsx) 可用于规划你的部署中的实例数量。
 
 ## <a name="aos-online-and-batch"></a>AOS（联机和批处理）
 

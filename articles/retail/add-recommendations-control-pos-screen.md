@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 213b47422a5e31c2cfc2d173b8c7d9efdecc7568
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: f17da3db6fbc19548544a0c6c090a0b6db093673
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1573364"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606841"
 ---
 # <a name="add-a-recommendations-control-to-the-transaction-screen-on-pos-devices"></a>向 POS 设备上的交易记录屏幕添加建议控件
 
@@ -40,13 +40,13 @@ ms.locfileid: "1573364"
 ## <a name="open-layout-designer"></a>打开布局设计器
 
 1. 转至**零售** &gt; **渠道设置** &gt; **POS 设置** &gt; **POS** &gt; **屏幕布局**。
-2. 使用快速筛选查找要为其添加控件的屏幕。 例如，使用值“F2CP16:9M”在**屏幕布局 ID** 字段中筛选。
-3. 在列表中，找到并选择所需记录。 例如，选择“名称: F2CP16:9M 屏幕布局 ID: F2CP16:9M”。
+2. 使用快速筛选查找要为其添加控件的屏幕。 例如，使用值 **F2CP16:9M** 在**屏幕布局 ID** 字段中筛选。
+3. 在列表中，找到并选择所需记录。 例如，选择**名称: F2CP16:9M 屏幕布局 ID: F2CP16:9M**。
 4. 单击**布局设计器**。
 5. 按照提示启动布局设计器。 在提示输入凭据时，输入从**屏幕布局**页启动布局设计器时使用的相同凭据。
 6. 在登录时，将显示如下页面。 布局将由为您的商店执行的自定义决定。
 
-    [![screenlayout-pic-1](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
+    [![布局设计器](./media/screenlayout-pic-1.png)](./media/screenlayout-pic-1.png)
 
 ## <a name="choose-a-display-option"></a>选择显示选项
 
@@ -59,11 +59,11 @@ ms.locfileid: "1573364"
 
 1. 缩小交易记录行明细区域的高度，使其与其左侧的客户面板高度相同。
 
-    [![screenlayout-pic-2](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
+    [![减少的交易记录行详细信息区域高度](./media/screenlayout-pic-2.png)](./media/screenlayout-pic-2.png)
 
 2. 将建议控件从左侧菜单拖放到交易记录屏幕底部中央的交易记录行明细与按钮窗格之间。 调整控件大小，使其适合该空间。
 
-    [![screenlayout-pic-3](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
+    [![添加到布局中的建议控件](./media/screenlayout-pic-3.png)](./media/screenlayout-pic-3.png)
 
 3. 单击 **X** 保存并退出布局设计器。
 4. 在 Dynamics 365 for Retail 中，转到**零售** &gt; **零售 IT** &gt; **配送计划**。
@@ -75,13 +75,13 @@ ms.locfileid: "1573364"
 1. 在页面右侧按钮网格中最后一个选项卡下空白区域中右键单击。
 2. 单击 **自定义**。
 
-    [![pic-5](./media/pic-5.png)](./media/pic-5.png)
+    [![自定义 - 选项卡控件对话框](./media/pic-5.png)](./media/pic-5.png)
 
 3. 单击**新建选项卡**。
 4. 找到刚添加的新选项卡。 您可能需要向下滚动。
 5. 在**目录**下拉菜单中，选择**建议的产品**。
 
-    [![pic-6](./media/pic-6.png)](./media/pic-6.png)
+    [![在“目录”字段中选择“建议的产品”](./media/pic-6.png)](./media/pic-6.png)
 
 6. 在**标签**字段，键入建议选项卡的名称。例如，键入“建议的产品”。
 7. 在**图像**字段中，选择要在该选项卡上显示的图像。

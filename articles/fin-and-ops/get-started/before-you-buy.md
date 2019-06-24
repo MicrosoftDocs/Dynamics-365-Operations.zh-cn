@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: AX 7.0.0, Operations
-ms.openlocfilehash: 7aed6895d526011e353eef7b85e4e2f096a25e5a
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: dc34ca33d2844eaedfa1734fe6d7c7f2ef4a622d
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546816"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595677"
 ---
 # <a name="before-you-buy"></a>购买之前
 
@@ -63,7 +63,7 @@ Dynamics 365 for Finance and Operations 的新用户？ 无论你是仍然在评
 
 ### <a name="buy-through-volume-licensing"></a>通过批量许可购买
 
-如果你的组织有 250 个或以上 Dynamics 365 用户，你可能对[批量许可协议](https://www.microsoft.com/en-us/Licensing/product-licensing/dynamics365)有兴趣。
+如果你的组织有 250 个或以上 Dynamics 365 用户，你可能对[批量许可协议](https://www.microsoft.com/Licensing/product-licensing/dynamics365)有兴趣。
 
 在批量许可中，Finance and Operations 通过以下方式可用：
 
@@ -87,7 +87,7 @@ Microsoft 提供灵活的、业内领先的支持、服务和资源，使用户�
 详细信息：
 
 - [Dynamics 365 支持](https://www.microsoft.com/dynamics365/support)
-- [Microsoft Dynamics 云服务支持权益快速入门指南](http://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
+- [Microsoft Dynamics 云服务支持权益快速入门指南](https://go.microsoft.com/fwlink/?LinkId=530335) (PDF)
 
 ## <a name="step-four-learn-about-fasttrack-and-plan-your-deployment"></a>步骤四：了解 FastTrack 并计划你的部署
 

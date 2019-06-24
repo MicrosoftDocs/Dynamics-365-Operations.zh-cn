@@ -1,9 +1,9 @@
 ---
 title: 打造个性化的用户体验
 description: 本主题说明如何个性化 Microsoft Dynamics 365 for Finance and Operations。
-author: TLeforMicrosoft
+author: jasongre
 manager: AnnBe
-ms.date: 04/24/2019
+ms.date: 05/17/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,20 +15,19 @@ ms.search.scope: Core, Operations
 ms.custom: 62363
 ms.assetid: 57b445d7-3e9e-4228-8728-f63b9dbd77a3
 ms.search.region: Global
-ms.author: tlefor
+ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 78c96c58b8c3331fcadb3e5c9b25dfef3b1b4cbc
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
+ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1528836"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620006"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
 [!include [banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 本主题说明如何个性化 Microsoft Dynamics 365 for Finance and Operations。
 
@@ -75,7 +74,7 @@ Finance and Operations. 中有三类基本的个性化设置。
 
 此外，大多数最基本的显式个性化设置可以通过右键单击元素再选择**个性化**来执行。 （注意，并非您页面上的所有元素都能可行化。）当您使用这种个性化设置方法时，将显示元素的属性窗口。
 
-[![个性化元素的属性](./media/personalization-element-properties.png)](./media/personalization-element-properties.png)
+![个性化元素的属性](./media/personalization-element-properties.png)
 
 可使用属性窗口通过下面的方法对元素进行个性化设置：
 

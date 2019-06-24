@@ -17,18 +17,18 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 14f2c6eb3baf0de65de3b72e10b42b03a8c6b21a
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
+ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1536702"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "1617965"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 
 [!include [banner](../includes/banner.md)]
 
-[!include [preview banner](../includes/pivate-preview-banner.md)]
+[!include [banner](../includes/pivate-preview-banner.md)]
 
 
 ## <a name="feature-exposure"></a>功能曝光
@@ -138,10 +138,6 @@ ms.locfileid: "1536702"
 - 实际称重产品不支持手动创建检验单。
 - 实际称重产品不支持手动移动与工作相关的库存。
 - 实际称重产品不支持合并牌照。
-- 实际称重产品不支持作为定期任务的一部分更改仓库库存状态。
-- 实际称重产品不支持对查询定义的库存状态进行更改。 （也不支持更改质检订单库存状态。）
-- 对于实际称重产品，不能从**按库位显示的现有量**页更改库存状态。
-- 对于实际称重产品，不能作为仓库应用移动工作的一部分更改库存状态。
 - 实际称重产品不支持加载来初始化仓库库存的牌照。
 - 实际称重产品不支持批次平衡流程。
 - 实际称重产品不支持处理负实际库存。
@@ -151,7 +147,6 @@ ms.locfileid: "1536702"
 
 - 实际称重产品不支持群集领料功能。
 - 实际称重产品不支持领料和装箱仓库处理。
-- 对于实际称重产品，工作不能从**工作**页完成。
 - 对于实际称重产品，在工作模板中定义的工作可以自动运行。
 - 实际称重产品不支持冲销工作功能。
 - 对于实际称重产品，不支持在集装箱关闭后创建工作的手动装箱工作站处理。

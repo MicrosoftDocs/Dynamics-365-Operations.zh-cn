@@ -1,7 +1,7 @@
 - name: Dynamics 365 for Finance and Operations
   href: index.md
   items:
-    - name: 开始
+    - name: 入门
       items:
         - name: 购买之前
           href: get-started/before-you-buy.md
@@ -44,9 +44,11 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 未在本地部署中实现的功能
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations 版本 10.0.4（2019 年 7 月）预览功能
+              href: get-started/whats-new-changed-10-0-4.md
             - name: Finance and Operations 版本 10.0.3（2019 年 6 月）预览功能
               href: get-started/whats-new-changed-10-0-3.md
-            - name: Finance and Operations 版本 10.0.2（2019 年 5 月）预览功能
+            - name: Finance and Operations 版本 10.0.2（2019 年 5 月）
               href: get-started/whats-new-changed-10-0-2.md
             - name: Finance and Operations 版本 10.0.1（2019 年 4 月）
               href: get-started/whats-new-changed-10-0-1.md
@@ -54,9 +56,11 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations 版本 8.1.3（2019 年 1 月）
               href: get-started/whats-new-changed-8-1-3.md
+            - name: Finance and Operations platform update 28（2019 年 7 月）预览功能
+              href: get-started/whats-new-platform-update-28.md
             - name: Finance and Operations platform update 27（2019 年 6 月）预览功能
               href: get-started/whats-new-platform-update-27.md
-            - name: Finance and Operations platform update 26（2019 年 5 月）预览功能
+            - name: Platform update 26（2019 年 5 月）
               href: get-started/whats-new-platform-update-26.md
             - name: Platform update 25（2019 年 4 月）
               href: get-started/whats-new-platform-25.md
@@ -1261,6 +1265,8 @@
                   href: ../financials/public-sector/tasks/create-original-budget.md
                 - name: 为公共部门创建初步预算
                   href: ../financials/public-sector/tasks/create-preliminary-budget-public-sector.md
+                - name: 预算分析报表
+                  href: ../financials/public-sector/budget-analysis-report.md
                 - name: 公共部门中的预算分析
                   href: ../financials/public-sector/budget-analysis-public-sector.md
                 - name: 公共部门中的初步预算和分摊
@@ -2277,6 +2283,7 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: 设置货币交易的汇率
                   href: ../financials/localizations/rus-exchange-difference.md
+                - name: 从俄罗斯中央银行 (CBRF) 导入货币交易汇率 ../financials/general-ledger/import-currency-exchange-rates.md
             - name: 预付款持有人
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2638,7 +2645,6 @@
                   href: hr/localizations/noam-usa-benefit-accrual-plan-tasks.md
                 - name: 设置福利
                   href: hr/localizations/noam-usa-benefit-set-up-tasks.md
-            - name: 频率和周期
             - name: 设置付薪周期和付薪期间
               href: hr/localizations/noam-usa-pay-cycle-pay-period-tasks-sample.md
             - name: 设置工资单计算频率
@@ -2922,6 +2928,8 @@
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents.md?toc=/fin-and-ops/toc.json
             - name: 分析 CSV 格式的传入文档
               href: ../dev-itpro/analytics/parse-incoming-electronic-documents-csv-format.md?toc=/fin-and-ops/toc.json
+            - name: 跟踪电子申报格式的执行以解决性能问题
+              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md
             - name: 基于文件大小和内容数量拆分生成的 XML 文件
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
               items:
@@ -3877,6 +3885,10 @@
           href: ../financials/project-management/project-time-entry-mobile-workspace.md
         - name: 项目工时单移动应用
           href: ../financials/project-management/project-timesheet.md
+        - name: 移动设备上的项目工时单
+          href: ../financials/project-management/mobile-timesheets.md
+        - name: 为项目工时单移动应用实现自定义字段
+          href: ../financials/project-management/custom-fields-mobile.md
     - name: 销售和市场营销
       href: ../supply-chain/sales-marketing/overview-sales-marketing.md
       items:

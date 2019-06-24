@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a645ee6f7e6085abc6e872d490b078f512c15aa1
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: b71fde2d1b56b237dec2a08d3bd27e8ba6c35fef
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1552361"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595538"
 ---
 # <a name="demand-forecasting-overview"></a>需求预测概览
 
@@ -52,7 +52,7 @@ ms.locfileid: "1552361"
     -   您可以下载 Finance and Operations 需求预测实验，更改它们以满足您的业务要求，在 Azure 上作为 Web 服务发布它们，并使用它们生成需求预测。 如果您作为企业级用户购买了生产规划员的 Finance and Operations 订阅，则可以下载这些实验。
     -   您可以从 [Cortana 分析库](https://gallery.cortanaanalytics.com/)下载当前可用的任何需求预测实验。 而 Finance and Operations 需求预测实验将自动与 Finance and Operations 集成，客户和合作伙伴必须处理从 [Cortana 分析库](https://gallery.cortanaanalytics.com/) 下载的实验的集成。 因此，[Cortana 分析库](https://gallery.cortanaanalytics.com/) 的实验不如使用 Finance and Operations 需求预测实验那样简单。 您必须修改实验代码，以便它们使用 Finance and Operations 应用程序编程接口 (API)。
     -   您可以在 Microsoft Azure 机器学习工作室中创建自己的实验，在 Azure 上作为服务发布，并使用它们生成需求预测。
-    -   如果您不需要高性能，或者，如果您不需要处理大量数据，您可以使用机器学习的免费层。 我们建议始终从这一层开始，尤其是在实施和测试阶段。 如果您需要高性能和额外存储，您可以使用机器学习的标准层。 这一层要求 Azure 订阅并需要其他成本。 有关机器学习定价的详细信息，请参阅<http://aka.ms/machine-learning-price-info>。
+    -   如果您不需要高性能，或者，如果您不需要处理大量数据，您可以使用机器学习的免费层。 我们建议始终从这一层开始，尤其是在实施和测试阶段。 如果您需要高性能和额外存储，您可以使用机器学习的标准层。 这一层要求 Azure 订阅并需要其他成本。 有关机器学习定价的详细信息，请参阅[机器学习工作室定价](https://aka.ms/machine-learning-price-info)。
 -   **在任何解耦点的预测缩减** – Finance and Operations 中的需求预测构建此功能，让您可以在任何解耦点预测相关和不相关的需求。
 
 ## <a name="basic-flow-in-demand-forecasting"></a>需求预测的基本流程

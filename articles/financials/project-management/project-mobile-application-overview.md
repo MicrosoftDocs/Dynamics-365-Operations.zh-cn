@@ -3,7 +3,7 @@ title: Project 移动应用程序概览
 description: 本主题提供有关移动设备上支持，适用于 Microsoft Dynamics 365 且与项目时间有关的应用程序的一般信息。
 author: KimANelson
 manager: AnnBe
-ms.date: 04/08/2019
+ms.date: 05/28/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: knelson
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-02-28
-ms.openlocfilehash: 5b0560a8be32962f94b24754458fb2cf714a15c8
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 22ccc70e242ffc9a487720c6a25fa6c5b8d78073
+ms.sourcegitcommit: 2d4b10fb5d3d0fbe518acdd921ebdd1bdc1d135e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1529963"
+ms.lasthandoff: 05/28/2019
+ms.locfileid: "1608130"
 ---
 # <a name="project-mobile-applications-overview"></a>Project 移动应用程序概览
 
@@ -45,4 +45,4 @@ Microsoft Dynamics 365 有三个与项目时间有关的移动应用程序： Mi
 
 ## <a name="for-more-information"></a>有关详细信息
 
-有关更多详细信息，请参阅 [Microsoft Dynamics 365 Project Timesheet 移动应用程序](project-timesheet.md)、[项目时间录入]( project-time-entry-mobile-workspace.md)和[移动设备上的项目工时单](Mobile-timesheets.md)。
+有关更多详细信息，请参阅 [Microsoft Dynamics 365 Project Timesheet 移动应用程序](project-timesheet.md)、[项目时间条目]( project-time-entry-mobile-workspace.md)、[移动设备上的项目工时单](Mobile-timesheets.md)和[实施 Project Timesheet 移动应用程序的自定义字段](custom-fields-mobile.md)。

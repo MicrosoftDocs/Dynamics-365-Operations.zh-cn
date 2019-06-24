@@ -3,7 +3,7 @@ title: 已重构的费用报表
 description: 本主题介绍 Microsoft Dynamics 365 for Finance and Operations 中经过重新设计和重构的费用报表录入体验。 新体验简化了填写费用报表的流程，并缩短了所需时间。
 author: ryansandness
 manager: AnnBe
-ms.date: 05/07/2019
+ms.date: 05/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: 3039cda3f2cf9259ca06207bdf941bc6b0fb28e1
-ms.sourcegitcommit: be447fc81bc874982bc0185fcb4d87d99bd742c5
+ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
+ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/08/2019
-ms.locfileid: "1538674"
+ms.lasthandoff: 05/20/2019
+ms.locfileid: "1592629"
 ---
 # <a name="expense-reports-reimagined"></a>已重构的费用报表
 
@@ -46,10 +46,9 @@ ms.locfileid: "1538674"
 
 ## <a name="getting-started-video-for-new-users"></a>面向新用户的入门视频
 
-可观看一个短视频，该视频演示主要的费用录入功能。
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Y7gO]
 
-> [!NOTE]
-> 此视频尚未推出。 该视频推出后，将更新本主题。
+YouTube 上的 [Finance and Operations 播放列表](https://www.youtube.com/playlist?list=PLcakwueIHoT_SYfIaPGoOhloFoCXiUSyW)中包含 [Dynamics 365 for Finance and Operations 中的费用体验](https://youtu.be/Ocy-MsTvEE0)视频（上面显示的）。
 
 ## <a name="new-features"></a>新功能
 

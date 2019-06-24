@@ -3,7 +3,7 @@ title: 财务见解
 description: 财务见解使用 Microsoft Power BI 汇总财务关键绩效指标 (KPI)、图表和财务报表。
 author: kweekley
 manager: AnnBe
-ms.date: 08/14/2018
+ms.date: 05/22/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kweekley
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: 7.2999999999999998
-ms.openlocfilehash: 2c261d2aea66b578bc976a66b6184384f0a5bf5d
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9edcb192d2fac5acb954d8b87be691f0943e0db7
+ms.sourcegitcommit: 23ab3c99d05869ea2c73514754608e8684697d8c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1554084"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595068"
 ---
 # <a name="financial-insights"></a>财务见解
 
@@ -67,10 +67,9 @@ ms.locfileid: "1554084"
 
 必须更新以下实体，才能查看**财务见解**和 **CFO 概览**工作区中的数据：
 
+- 财务申报交易记录数据版本 2（**注意：** 这是版本 10.0.1 中的新增功能，取代了上一个实体。）
+- 财务报告交易数据
 - CustCollectionsBIMeasurements
-- FinancialReportingOtherData
-- FinancialReportingReferenceData
-- FinancialReportingTransactionData
 - LedgerCovLiquidityMeasurement
 - 采购多维数据集
 - 销售多维数据集

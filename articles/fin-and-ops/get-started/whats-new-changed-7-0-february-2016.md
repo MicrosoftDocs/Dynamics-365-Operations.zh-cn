@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: cdd8acea22fb3298d1d0e7ccce0ca42c1427fe80
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c5fb6b23d11ab263ed158a0a4476f77ed22b5084
+ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1561801"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "1595654"
 ---
 # <a name="whats-new-or-changed-in-dynamics-ax-70-february-2016"></a>Dynamics AX 7.0（2016 年 2 月）中的新增功能和更改内容
 
@@ -721,7 +721,7 @@ Retail Server 和数据管理允许客户和企业跨在线、商店内和呼叫
 </thead>
 <tbody>
 <tr>
-<td>连接到商务运行时 (CRT) 数据库，其中使用 CRT 服务存储渠道的业务数据。</td>
+<td>连接到 Commerce Runtime (CRT) 数据库，其中使用 CRT 服务存储渠道的业务数据。</td>
 <td>支持 OData V3。</td>
 <td>支持 OData V4。</td>
 <td>它帮助客户紧跟 OData 条件。 它还通过跨商店内、移动和在线渠道集成销售，创建可靠的 omni 渠道体验。</td>
@@ -971,7 +971,7 @@ Lifecycle Services (LCS) 提供一系列服务，可供客户和合作伙伴用�
 </tr>
 <tr>
 <td>监控系统的运行状况，并且诊断错误和问题。</td>
-<td>此功能需要适用于 <a href="http://www.microsoft.com/download/details.aspx?id=42636">Microsoft Dynamics AX 2012 R3 CU8 Retail 的 System Center 2012 管理包</a>。</td>
+<td>此功能需要适用于 <a href="https://www.microsoft.com/download/details.aspx?id=42636">Microsoft Dynamics AX 2012 R3 CU8 Retail 的 System Center 2012 管理包</a>。</td>
 <td>现在可以通过 LCS 中的<strong>运营见解</strong>仪表板来监控和诊断 Retail 组件。</td>
 <td><strong>运营见解</strong>仪表板是一个基于云的监控门户，有了它便不再需要安装 System Center Operations Manager (SCOM) 基础结构。</td>
 </tr>

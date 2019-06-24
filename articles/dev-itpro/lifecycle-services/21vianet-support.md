@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2b89d9b114f7e2793537643f903a08daa63d2783
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2143087c8d78f0b6978ed4b89c66c3bf38baecd1
+ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1506092"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1590518"
 ---
 # <a name="support-for-dynamics-365-for-finance-and-operations-operated-by-21vianet-in-china"></a>对中国世纪互联运营的 Dynamics 365 for Finance and Operations 的支持
 
@@ -32,7 +32,7 @@ Dynamics 365 for Finance and Operations 通过世纪互联提供大量自助服�
 
 
 - [Dynamics 365 for Finance and Operations 帮助文档](../../fin-and-ops/index.md)
-- [Dynamics 365 for Finance and Operations 由世纪互联运营]()
+- [Dynamics 365 for Finance and Operations 由世纪互联运营](../deployment/china-local-deployment.md)
 - [Dynamics 社区](https://community.dynamics.com/)
 - [Microsoft Learn](https://docs.microsoft.com/learn/)
 

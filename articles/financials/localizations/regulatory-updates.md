@@ -3,7 +3,7 @@ title: 监管更新
 description: 此主题提供 Microsoft Dynamics 365 for Finance and Operations 的已计划和已发布监管更新的列表。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 04/12/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 0bd72bb5bebed84c092142b2b18f8fbbc3d4f711
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
+ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1530699"
+ms.lasthandoff: 05/21/2019
+ms.locfileid: "1593335"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -52,9 +52,20 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 |      2019 年 4 月          |   10.0.1      |   德国     |电子开票 - 以 xRechnung 1.1 格式导出客户发票         |
 |      2019 年 4 月          |   10.0.1      |    英国     |[增值税报表提交更改（报税电子化）](emea-gbr-mtd-vat-integration.md)    |    
 |      2019 年 4 月          |   10.0.1      |    巴西     |NF-e new NT 2018.005         |
-|      2019 年 4 月          |   10.0.1      |    俄罗斯     |2019 年开始的增值税申报格式更改         |
-|      2019 年 4 月          |   10.0.1      |    俄罗斯     |2019 年开始的增值税申报格式更改（销售帐簿和采购帐簿） 
+|      2019 年 4 月          |   10.0.1      |    俄罗斯     |[2019 年开始的增值税申报格式更改](rus-VAT-declaration.md) |
+|      2019 年 4 月          |   10.0.1      |    俄罗斯     |2019 年开始的增值税申报格式更改（销售帐簿和采购帐簿） |
+|      2019 年 4 月          |   10.0.1      |    俄罗斯     |2018 年以来的地税申报更改 |
+|      2019 年 4 月          |   10.0.1      |    俄罗斯     |[2019 年以来的财产税申报更改](rus-assessed-tax-declaration.md)|
+|      2019 年 4 月          |   10.0.1      |    俄罗斯     |2019 年以来的运输税申报更改  |
+|      2019 年 4 月            |   10.0.1      | 匈牙利      |  匈牙利：Microsoft Dynamics 365 for Finance and Operations 中的在线开票 v.1.1 2019  |
 |      2019 年 5 月            |   10.0.2      | 巴西      |   SPED ECD 布局 7   |
+|      挂起            |   10.0.3      | 巴西      |   NF-e new NT 2018.005 - v.1.20   |
+|      挂起            |   10.0.3      | 巴西      |   SPED ECD 布局 7   |
+|      挂起            |   10.0.3      | 巴西      |   SPED ECF - Layout 5 for 2019   |
+|      挂起            |   10.0.3      | 立陶宛    |   用户可通过 i.SAF 报表定义与法定税法关联的系统销售税代码    |
+|      挂起            |   10.0.3      | 波兰     |   2019 年 7 月 1 日以来的 SAF 发票 (JPK_FA)  |
+|      挂起            |   10.0.3      | 巴西   |   ICMS 会计单据调整启用表 5.2   |
+|      挂起            |   10.0.3      | 巴西    |   NF-e Decree 54.308/18 (RS)   |
 
 
 ## <a name="additional-resources"></a>其他资源

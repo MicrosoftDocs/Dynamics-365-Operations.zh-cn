@@ -227,8 +227,9 @@
             - name: X 类
               href: dev-ref/x-classes.md
     - name: 可扩展性
-      href: extensibility/extensibility-home-page.md
       items:
+        - name: 可扩展性主页
+          href: extensibility/extensibility-home-page.md
         - name: 简介和开始
           items:
             - name: 应用程序可扩展性计划
@@ -245,36 +246,38 @@
               href: extensibility/customization-overlayering-extensions.md
         - name: 新增功能
           items:
-            - name: 可扩展性更改，2017 年 7 月
-              href: extensibility/changes-july-2017.md
-            - name: 版本 7.3 中的可扩展性更改
-              href: extensibility/extensibility-changes-73.md
-            - name: 版本 8.0 中的可扩展性更改
-              href: extensibility/changes-80.md
-            - name: 可扩展性更改版本 8.0.1
-              href: extensibility/extensibility-changes-801.md
-            - name: 可扩展性更改版本 8.0.2
-              href: extensibility/extensibility-changes-802.md
-            - name: 可扩展性更改版本 8.0.3
-              href: extensibility/extensibility-changes-803.md
-            - name: 可扩展性更改版本 8.0.4
-              href: extensibility/extensibility-changes-804.md
-            - name: 可扩展性更改版本 8.1
-              href: extensibility/extensibility-changes-81.md
-            - name: 可扩展性更改版本 8.1.1
-              href: extensibility/extensibility-changes-811.md
-            - name: 可扩展性更改版本 8.1.2
-              href: extensibility/extensibility-changes-812.md
-            - name: 可扩展性更改版本 8.1.3
-              href: extensibility/extensibility-changes-813.md
-            - name: 可扩展性更改版本 10.0
-              href: extensibility/extensibility-changes-10.md
-            - name: 可扩展性更改版本 10.0.1
-              href: extensibility/extensibility-changes-10-1.md
-            - name: 可扩展性更改版本 10.0.2
-              href: extensibility/extensibility-changes-10-2.md
+            - name: 可扩展性的新增功能或更改
+              href: extensibility/extensibility-new.md
             - name: 可扩展性更改版本 10.0.3
               href: extensibility/extensibility-changes-10-3.md
+            - name: 可扩展性更改版本 10.0.2
+              href: extensibility/extensibility-changes-10-2.md
+            - name: 可扩展性更改版本 10.0.1
+              href: extensibility/extensibility-changes-10-1.md
+            - name: 可扩展性更改版本 10.0
+              href: extensibility/extensibility-changes-10.md
+            - name: 可扩展性更改版本 8.1.3
+              href: extensibility/extensibility-changes-813.md
+            - name: 可扩展性更改版本 8.1.2
+              href: extensibility/extensibility-changes-812.md
+            - name: 可扩展性更改版本 8.1.1
+              href: extensibility/extensibility-changes-811.md
+            - name: 可扩展性更改版本 8.1
+              href: extensibility/extensibility-changes-81.md
+            - name: 可扩展性更改版本 8.0.4
+              href: extensibility/extensibility-changes-804.md
+            - name: 可扩展性更改版本 8.0.3
+              href: extensibility/extensibility-changes-803.md
+            - name: 可扩展性更改版本 8.0.2
+              href: extensibility/extensibility-changes-802.md
+            - name: 可扩展性更改版本 8.0.1
+              href: extensibility/extensibility-changes-801.md
+            - name: 版本 8.0 中的可扩展性更改
+              href: extensibility/changes-80.md
+            - name: 版本 7.3 中的可扩展性更改
+              href: extensibility/extensibility-changes-73.md
+            - name: 可扩展性更改，2017 年 7 月
+              href: extensibility/changes-july-2017.md
         - name: 基本原理
           items:
             - name: 自动插入的自定义项
@@ -361,8 +364,14 @@
       items:
         - name: 使用 Trace parser 进行跟踪
           href: perf-test/trace-trace-tutorial.md
-        - name: 通过 Visual Studio Online 进行性能 SDK 和多用户测试
-          href: perf-test/perfsdk-tutorial.md
+        - name: 通过任务录制器和性能 SDK 进行单用户测试
+          href: perf-test/single-user-test-perf-sdk.md
+        - name: 通过性能 SDK 和本地测试控制器进行多用户测试
+          href: perf-test/multi-user-testing-local-test-controller.md
+        - name: 通过 Performance SDK 和 Azure DevOps 进行多用户测试
+          href: perf-test/multi-user-testing-perfsdk-azuredevops.md
+        - name: 通过性能 SDK 进行单用户或多用户测试的故障排除指南
+          href: perf-test/troubleshoot-perf-sdk-user-testing.md
         - name: 本地环境中的性能 SDK 和多用户测试
           href: perf-test/perfsdk-tutorial-lbd.md
         - name: 使用 Trace parser 诊断问题和分析性能
@@ -609,7 +618,7 @@
 - name: 移动平台
   href: mobile-apps/platform/mobile-platform-home-page.md
   items:
-    - name: 开始
+    - name: 入门
       href: mobile-apps/platform/mobile-platform-getting-started.md
       items:
         - name: 体系结构和设计注意事项
@@ -922,6 +931,8 @@
           href: financial/create-exchange-rate-providers.md
         - name: 在 Finance and Operations 版本 8.0 中创建汇率提供方
           href: financial/create-exchange-rate-8.md
+    - name: '使用 CustTrans::settleTransaction 结算交易记录'
+      href: financial/settletransact-obsolete.md
 - name: 供应链开发
   items:
     - name: 甘特图控件开发指南

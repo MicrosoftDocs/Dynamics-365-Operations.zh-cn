@@ -19,12 +19,12 @@ ms.search.industry: Retail
 ms.author: asharchw
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: d6706cbb7630aeb230bc9eb1c187397897c9de68
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: c73bc10332329e81986a259969f8fe34b57f4ee6
+ms.sourcegitcommit: e2fb0846fcc6298050a0ec82c302e5eb5254e0b5
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559550"
+ms.lasthandoff: 05/27/2019
+ms.locfileid: "1606986"
 ---
 # <a name="personalized-product-recommendations"></a>个性化产品建议
 
@@ -44,7 +44,7 @@ ms.locfileid: "1559550"
     - 如果售货员在查看跨不同渠道的早期交易记录时访问**产品详细信息**页面，建议引擎将推荐更多可能搭配购买的物料。
     - 如果售货员将客户添加到交易记录，然后访问**产品详细信息**页面，建议引擎将使用该客户的交易记录历史信息提供个性化建议。
 
-    [![proddetails](./media/proddetails.png)](./media/proddetails.png)
+    [![有关“产品详细信息”页的建议](./media/proddetails.png)](./media/proddetails.png)
 
 2. 在**交易记录**页面中：
 
@@ -54,13 +54,11 @@ ms.locfileid: "1559550"
     > [!NOTE]
     > 若要在**交易记录**页面中显示建议，零售商需要更新 Dynamics 365 for Retail 中的屏幕布局。 必须将**建议**控件拖到**交易记录**页面中。
 
-    [![transactionscreenmultipleproductslargemessengersbag-5](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
+    [![有关“交易记录”页的建议](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)](./media/transactionscreenmultipleproductslargemessengersbag-5.jpg)
 
-3. 在**客户详细信息**页面中：
+3. 在**客户详细信息**页中，建议引擎根据客户愿望列表中的用户 ID 和物料推荐物料。
 
-    - 建议引擎根据客户愿望列表中的用户 ID 和物料推荐物料。
-
-    [![customerdetailsrecommendations](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
+    [![有关“客户详细信息”页的建议](./media/customerdetailsrecommendations.png)](./media/customerdetailsrecommendations.png)
 
 ## <a name="configure-dynamics-365-for-retail-to-enable-pos-recommendations"></a>配置 Dynamics 365 for Retail 以启用 POS 建议
 

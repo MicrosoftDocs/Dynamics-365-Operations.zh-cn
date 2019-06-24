@@ -3,7 +3,7 @@ title: 智能建议
 description: 此主题说明如何使用机器学习来为工作和工作应聘者提供建议。
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/25/2019
+ms.date: 05/16/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-10-15
 ms.dyn365.ops.version: Talent October 2018 update
-ms.openlocfilehash: fb31b413cfe3cd168bbb12ce6070325ff5f736da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 301e3213fa0988faba83ee42b840646a20c70a98
+ms.sourcegitcommit: fcae2e7938d7dbd94b76b0948b084d90d5fc919c
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517411"
+ms.lasthandoff: 06/05/2019
+ms.locfileid: "1620612"
 ---
 # <a name="intelligent-recommendations"></a>智能建议
 
@@ -33,7 +33,7 @@ ms.locfileid: "1517411"
 
 > [!NOTE] 
 > - 智能推荐功能仅通过[综合招聘加载项](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/attract-comprehensive-hiring)提供。
-> - 本主题中介绍的功能作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 若要使用此功能，请让管理员使用 Attract 中的**管理员设置**启用。 将**应聘者推荐**、**工作推荐**和**潜在人选推荐**设置为**开**。 有关详细信息，请参阅[访问 Talent 中的预览功能](https://docs.microsoft.com/en-us/dynamics365/unified-operations/talent/access-preview-feature)。 
+> - 本主题中介绍的功能作为预览版的一部分提供给目标用户。 内容和功能可能会发生变化。 若要使用此功能，请让管理员使用 Attract 中的**管理中心**启用。 将**应聘者推荐**、**工作推荐**和**潜在人选推荐**设置为**开**。 有关详细信息，请参阅[访问 Talent 中的预览功能](./access-preview-feature.md)。 
 
 
 ## <a name="candidate-recommendations"></a>应聘者推荐

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anupams
 ms.search.validFrom: 2018-09-30
 ms.dyn365.ops.version: Retail
-ms.openlocfilehash: 3d437b16e96d53216032f1f31df3d4c0ba63e117
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 280a8de4b3a1f2eafa39caac562dff7c74ee0971
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1567968"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577836"
 ---
 # <a name="get-support-for-dynamics-365-for-retail"></a>获取 Dynamics 365 for Retail 支持
 
@@ -61,7 +61,7 @@ ms.locfileid: "1567968"
 <li>在<strong>未解决问题</strong>选项卡上，选择问题，然后单击 <strong>提交给 Microsoft</strong>。</li>
 <li>在<strong>已提交给 Microsoft</strong>选项卡上，单击<strong>提交新事件</strong>以提交问题。</li>
 </ul>
-<blockquote>[!NOTE] Microsoft 顶级客户和合作伙伴也可以使用上面的步骤提交顶级支持票证。</blockquote>
+<p><strong>注意：</strong>Microsoft 顶级客户和合作伙伴也可以使用上面的步骤提交顶级支持票证。</p>
 </td>
 </tr>
 <tr>
@@ -84,4 +84,4 @@ ms.locfileid: "1567968"
 </tbody>
 </table>
 
-有关 Microsoft Dynamics 支持产品的详细信息，请参阅 [Microsoft Dynamics Online 支持](https://dynamics.microsoft.com/en-us/support/)。
+有关 Microsoft Dynamics 支持产品的详细信息，请参阅 [Microsoft Dynamics Online 支持](https://dynamics.microsoft.com/support/)。

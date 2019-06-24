@@ -3,7 +3,7 @@ title: 配置科目结构
 description: 此主题提供有关科目结构和财务维度的信息。
 author: aprilolson
 manager: AnnBe
-ms.date: 05/21/2018
+ms.date: 06/03/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: aolson
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a0665f5aec2a0809ecb383c1d4adf4c2072c9569
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5fbd4b34d09b4ba8e1d34234c8e32268bba18778
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1551991"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617288"
 ---
 # <a name="configure-account-structures"></a>配置科目结构
 
@@ -70,6 +70,16 @@ ms.locfileid: "1551991"
 
 [![允许值](./media/account.png)](./media/account.png) 
 
+在根据科目结构设置没有其他潜在值可供选择时，将把允许的值设置为日记帐或会计分配录入页中的默认值。
+
+下面是**损益科目结构**的示例。
+
+|主科目          | 业务单位    |部门          | 成本中心    |
+|----------------------|-----------|----------------------|-----------|
+|400000..999999 | 002 | 022 | 014 |
+
+输入日记帐和在损益范围内选择科目时，选择业务单位“002”将导致把值 022 和 014 设置为科目控件上的默认值。 还将在会计分配页中发生以下行为。 
+
 ## <a name="more-than-7-criteria-needed"></a>需要 7 个以上的条件
 
 如果需要的条件超过 7 个，则可在下一行中继续添加条件。 您将发现在**允许的值详细信息**部分中工作时，输入了第七个条件之后，**+新添**添加将不再处于活动状态。 原因很多，例如： 
@@ -79,8 +89,6 @@ ms.locfileid: "1551991"
  - 可用性  
  
 若要继续添加更多添加，请单击**在科目段中复制**和**允许的值部分**。 这样就会把条件复制到新行中。 然后可以再次键入或修改**允许的值详细信息**部分。
-
-(LINK TO VIDEO THAT WILL BE CREATED)
 
 ## <a name="best-practices"></a>最佳实践
 设置科目结构时，可以遵循一些最佳实践。 但是，这只是指导，所以在通盘讨论中应考虑业务、成长计划和维持计划。

@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2018-12-31
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 438c2b5689e450b9aae9c55168993f2ee84be4d5
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: db542e4df79480624ff6e5ff1996ad930fc1564b
+ms.sourcegitcommit: aec1dcd44274e9b8d0770836598fde5533b7b569
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517477"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "1617335"
 ---
 # <a name="dynamics-365-for-talent-to-dynamics-365-for-finance-and-operations-integration-faq"></a>Dynamics 365 for Talent 与 Dynamics 365 for Finance and Operations 集成的常见问题
 
@@ -46,7 +46,7 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 对于位于 Finance and Operations 但不存在于 Talent 中的数据，请使用 Talent 中的**配置链接**将两个系统链接在一起。 有关如何配置 Talent 和 Finance and Operations 之间的链接的详细信息，请参阅 [Dynamics 365 for Talent Core HR（2018 年 10 月 31 日）中的新增功能或更改](whats-new-talent-october-31.md)。
 
-![](media/MapFinancialDimensions.png)
+![映射财务维度](media/MapFinancialDimensions.png)
 
 ## <a name="sometimes-when-i-import-employees-they-go-into-inactive-workers-in-finance-and-operations-why"></a>在某些情况下，当我导入员工时，他们在 Finance and Operations 中成为空闲工作人员。 为什么？
 
@@ -60,14 +60,14 @@ Financial dimensions 当前不在 Common Data Service 中，因此不是默认�
 
 使用“高级查询”，您可以在将数据传递到目标前筛选并改造源数据。
 
-![](media/MapOnlyActiveWorkersAdvancedQuery.png)
+![可用工作人员高级查询](media/MapOnlyActiveWorkersAdvancedQuery.png)
 
 ## <a name="can-i-specify-which-fields-to-send-to-finance-and-operations-for-a-specific-entity"></a>我可以指定将特定实体的哪些字段发送到 Finance and Operations 吗？
 
 字段可以在集成任务中添加或删除。 并非 Common Data Service 实体上存在的所有数据字段都从 Core HR 填充。
 附加数据可以通过 PowerApps 填充。
 
-![](media/SpecifyFieldsIncludedInIntegration.png)
+![在集成任务中添加或删除字段](media/SpecifyFieldsIncludedInIntegration.png)
 
 ## <a name="i-set-up-integration-as-a-batch-job-but-talent-lost-connection-to-the-destination-system-how-can-i-send-the-same-set-of-changes-to-the-destination-system"></a>我将集成设置为批处理作业，但 Talent 失去了与目标系统的连接。 我如何将同一组更改发送到目标系统？
 

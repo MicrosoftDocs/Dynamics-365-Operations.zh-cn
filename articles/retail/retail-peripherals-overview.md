@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: 8fa2be91db8213845c2be16b1cc0a0f5457a708b
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
+ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1571550"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "1577920"
 ---
 # <a name="retail-peripherals"></a>零售外设
 
@@ -295,7 +295,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>网络
-<blockquote>注意：如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</blockquote>
+<p><strong>注意</strong>：如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</p>
 </li>
 </ul>
 </td>
@@ -306,7 +306,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>网络
-<blockquote>注意：如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</blockquote>
+<p><strong>注意</strong>：如果为银箱设置<strong>使用共享班次</strong>，则只能设置一个银箱。</p>
 </li>
 </ul>
 </td>
@@ -374,7 +374,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>Windows 驱动程序
-<blockquote>注意：对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</blockquote>
+<p><strong>注意</strong>：对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</p>
 </li>
 <li>网络</li>
 </ul>
@@ -404,7 +404,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>网络
-<blockquote>注意：如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</blockquote>
+<p><strong>注意</strong>：如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</p>
 </li>
 </ul>
 </td>
@@ -469,7 +469,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>Windows 驱动程序
-<blockquote>注意：对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</blockquote>
+<p><strong>注意</strong>：对于网络中的 Windows 打印机，硬件工作站的用户必须有权访问该打印机。</p>
 </li>
 <li>网络</li>
 </ul>
@@ -491,7 +491,7 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 <ul>
 <li>OPOS</li>
 <li>网络
-<blockquote>注意：如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</blockquote>
+<p><strong>注意</strong>：如果为银箱设置<strong>使用共享班次</strong>，则每个硬件配置文件只能设置一个银箱。</p>
 </li>
 </ul>
 </td>
