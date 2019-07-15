@@ -997,6 +997,8 @@
               href: deployment/deploy-retail-onprem.md
         - name: 开发自定义模型并将其部署到本地环境
           href: deployment/develop-deploy-custom-models-on-premises.md
+        - name: PowerBI.com 与本地环境集成
+          href: analytics/entity-store-on-prem.md
         - name: 为本地环境配置反向代理
           href: deployment/onprem-reverseproxy.md
         - name: 将更新应用于本地部署
@@ -1013,6 +1015,8 @@
           href: user-interface/client-disconnected.md
         - name: 对本地部署进行故障排除
           href: deployment/troubleshoot-on-prem.md
+        - name: 证书轮换
+          href: deployment/certificate-rotation-on-prem.md
     - name: 部署自定义代码
       items:
         - name: 创建模型的可部署包
