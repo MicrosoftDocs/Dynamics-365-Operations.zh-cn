@@ -4,13 +4,13 @@
   items:
     - name: 新增功能或更改
       href: get-started/whats-new.md
-    - name: Dynamics 365 for Retail 10.0.3 预览功能
+    - name: Dynamics 365 for Retail 10.0.3 新增功能或更改
       href: get-started/whats-new-10-0-3.md
     - name: Dynamics 365 for Retail 10.0.2 新增功能或更改
       href: get-started/whats-new-10-0-2.md
     - name: Dynamics 365 for Retail 10.0.1 新增功能或更改
       href: get-started/whats-new-10-0-1.md
-    - name: Dynamics 365 for Retail（2019 年 4 月）新增功能或更改
+    - name: Dynamics 365 for Retail 新增功能或更改（2019 年 4 月）
       href: get-started/april-whats-new.md
     - name: 购买 Retail 之前
       href: get-started/before-you-buy.md
@@ -407,6 +407,10 @@
       items:
         - name: 意大利税控打印机集成示例
           href: localizations/emea-ita-fpi-sample.md
+    - name: 墨西哥
+      items:
+        - name: 墨西哥全球 CFDI 电子发票
+          href: ../financials/localizations/latam-mex-global-cfdi-3-3.md
     - name: 挪威
       items:
         - name: 收银机功能
