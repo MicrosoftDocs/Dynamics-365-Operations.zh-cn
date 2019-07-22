@@ -3,7 +3,7 @@ title: 销售点 (POS) 联机和脱机操作
 description: 此主题提供有关 Microsoft Dynamics 365 for Retail 中销售点 (POS) 操作的详细信息。 它指定操作可以在应用程序的哪个位置调用，以及是否可在脱机模式下使用。
 author: jblucher
 manager: AnnBe
-ms.date: 10/12/2017
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: jeffbl
 ms.search.validFrom: 2017-09-27
 ms.dyn365.ops.version: AX 7.0.0, Retail July 2017 update
-ms.openlocfilehash: 44a2ec48f868c803c80c8df8eb809bc2254e63da
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: e21f8677144c7293409e409082e8125c05f3a8fe
+ms.sourcegitcommit: 3d8c951898e05febc160515127c1bcc5de5882a1
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1505088"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625657"
 ---
 # <a name="online-and-offline-point-of-sale-pos-operations"></a>销售点 (POS) 联机和脱机操作
 
@@ -159,9 +159,9 @@ ms.locfileid: "1505088"
 | 114 | 退货交易记录 | 按收据编号撤回以前的交易以退回部分或全部产品。 | 是 | 是 | 是 | 是§ | 无 |
 | 1211 | 金库投箱 | 执行金库投箱以将钱币从收银机移到保险箱。 | 是 | 是 | 是 | 是 | 无 |
 | 516 | 销售发票 | 此操作允许客户为选择的销售发票付款。 | 是 | 是 | 无 | 无 | 无 |
-| 502 | 销售人员 | 此操作允许用户为 POS 中的客户订单设置销售订单上的**销售处理人员**值。 | 是 | 是 | 无 | 是\* | 无 |
-| 2000 | 计划管理 | 此操作允许用户创建、修改或查看员工计划。 | 是 | 是 | 是 | 无 | 无 |
-| 2001 | 计划请求 | 此操作允许用户请求休假、交换班次或提议由其他员工接替班次。 | 是 | 是 | 是 | 无 | 无 |
+| 502 | 销售人员 | 此操作允许用户为 POS 中的客户订单设置销售订单上的**销售处理人员**值。 | 是 | 是 | 否 | 是\* | 否 |
+| 2000 | 计划管理 | 尚不支持此操作。 | 是 | 是 | 是 | 否 | 否 |
+| 2001 | 计划请求 | 尚不支持此操作。 | 是 | 是 | 是 | 否 | 否 |
 | 622 | 搜索订单 | 此操作允许用户预先配置 POS 按钮以按物料、客户或类别进行搜索。 | 是 | 是 | 是 | 是 | 无 |
 | 1213 | 搜索装运地址 | 此操作不受支持。 | 不适用 | 不适用 | 不适用 | 不适用 | 无 |
 | 709 | 选择硬件工作站 | 此操作允许用户选择可用硬件工作站列表中的硬件工作站。 | 是 | 是 | 是 | 是 | 无 |

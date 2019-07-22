@@ -3,7 +3,7 @@ title: 将直接来自 Finance and Operations 的产品同步到 Sales
 description: 此主题介绍用于同步 Microsoft Dynamics 365 for Finance and Operations 与 Microsoft Dynamics 365 for Sales 的产品的模板和基础任务。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 10/25/2018
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: ''
 ms.author: crytt
 ms.dyn365.ops.version: July 2017 update
 ms.search.validFrom: 2017-07-8
-ms.openlocfilehash: feb9fbc066162e2caa9fc5dbaeec2c063ae23060
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: ff284585a2eb4c5cf55d2e3a3e0f317d1fb218bb
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1572596"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624327"
 ---
 # <a name="synchronize-products-directly-from-finance-and-operations-to-products-in-sales"></a>将 Finance and Operations 的产品直接同步到 Sales
 
@@ -43,7 +43,7 @@ ms.locfileid: "1572596"
 
 ## <a name="templates-and-tasks"></a>模板和任务
 
-若要访问可用模板，打开 [PowerApps 管理员中心](https://preview.admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
+若要访问可用模板，打开 [PowerApps 管理员中心](https://admin.powerapps.com/dataintegration)。 选择**项目**，然后在右上角，选择**新项目**以选择公共模板。
 
 以下模板和基础任务用于将来自 Finance and Operations 的产品同步到 Sales。
 

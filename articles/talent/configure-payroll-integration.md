@@ -3,7 +3,7 @@ title: 配置 Talent 与 Dayforce 之间的工资单集成
 description: 本主题说明如何配置 Microsoft Dynamics 365 for Talent 与 Ceridian Dayforce 之间的集成，以便处理付薪。
 author: andreabichsel
 manager: AnnBe
-ms.date: 03/26/2019
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 9a88bf61dbb12520b555ceb7363b1c646d95386e
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 59234ef44ad22383ae5daf71d4b663c6183e6c05
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517386"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702810"
 ---
 # <a name="configure-the-payroll-integration-between-talent-and-dayforce"></a>配置 Talent 和 Dayforce 之间的工资单集成
 
@@ -54,6 +54,16 @@ Microsoft Dynamics 365 for Talent 与 Ceridian Dayforce 之间的集成依赖于
 
 - [关于 Azure 存储帐户](https://docs.microsoft.com/en-us/azure/storage/common/storage-create-storage-account?toc=%2fazure%2fstorage%2ffiles%2ftoc.json)
 - [配置 Azure 存储连接字符串](https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+
+### <a name="technical-details-when-payroll-integration-is-enabled"></a>启用工资单集成后的技术详细信息
+
+开启工资单集成有两大效果：
+
+- 创建一个名称为“工资单集成导出”的数据导出项目。 此项目中包含工资单集成需要的实体和字段。 若要检查此项目，请转到**系统管理**，选择**数据管理**磁贴，然后从项目列表打开数据项目。
+- 此批处理作业执行数据导出项目，加密生成的数据包，然后将数据包文件传输到**集成配置**屏幕上配置的 SFTP 终结点。
+
+> [!NOTE]
+> 将使用数据包的唯一密钥加密传输到 SFTP 终结点的数据包。 此密钥位于只有 Ceridian 才能访问的 Azure 密钥保管库。 不能解密和检查数据包内容。 如果需要检查数据包的内容，需要手动导出“工资单集成导出”数据终结点，下载，然后打开。 手动导出不会应用加密或传输包。
 
 ## <a name="configure-your-data"></a>配置数据 
 

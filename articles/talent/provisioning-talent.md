@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2017-11-20
 ms.dyn365.ops.version: Talent July 2017 update
-ms.openlocfilehash: 03edb5d626f221863f45804ce84168692c2bd1f3
-ms.sourcegitcommit: 3c4e59f55af2eafb3adbae3bb0091e4f6caacc8b
+ms.openlocfilehash: c249df697553cd42eccd59d3f2c3f5f083ead1cb
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576913"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624599"
 ---
 # <a name="provision-talent"></a>配置 Talent
 
@@ -48,6 +48,8 @@ ms.locfileid: "1576913"
 
 1. 在您的 LCS 项目中，选择 **Talent 应用管理**磁贴。
 2. 指示这是 Talent 的沙盒实例还是生产实例。 沙盒实例中可能提供提前预览功能以便提前反馈和测试。 
+    > [!NOTE]
+    > Talent 实例类型独立于 PowerApps 环境的实例类型，后者是您在 PowerApps 管理中心中设置的。
 3. 如果希望环境中包含 Talent 测试驱动器体验中使用的相同演示数据集，请选择**包括演示数据**选项。 这对长期演示或培训环境有益，但切勿用于生产环境。  请注意，必须在初始部署之后立即选择此选项。 不能在以后更新现有部署。
 4. Talent 始终配置到 Microsoft PowerApps 环境，以支持 PowerApps 集成和可扩展性。 在继续之前，请阅读本主题的“选择 PowerApps 环境”部分。 如果您没有 PowerApps 环境，在 LCS 中选择“管理环境”或导航到 PowerApps 管理员中心。 然后按照步骤[创建 PowerApps 环境](https://docs.microsoft.com/en-us/powerapps/administrator/create-environment)。
 

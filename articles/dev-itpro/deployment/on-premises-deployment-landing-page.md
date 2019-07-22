@@ -3,7 +3,7 @@ title: 本地部署主页
 description: 本主题提供有关本地部署的信息和内容链接。
 author: kfend
 manager: AnnBe
-ms.date: 02/01/2019
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: kfend
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 8
-ms.openlocfilehash: c51cce929384b7e822213dcb9df9007edfe3700c
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 01e29bb56f03223ff90343186a2e4cf3de13a27d
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1550944"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702715"
 ---
 # <a name="on-premises-deployments-home-page"></a>本地部署主页
 
@@ -67,6 +67,7 @@ ms.locfileid: "1550944"
 
 ## <a name="other-resources"></a>其他资源
 - [对本地部署进行故障排除](troubleshoot-on-prem.md)
+- [证书轮换](certificate-rotation-on-prem.md)
 - [本地诊断](on-premises-diagnostics.md)
 - [未在内部部署中实现的功能](../../fin-and-ops/get-started/features-not-implemented-on-prem.md)
 - [已删除或弃用的功能](../migration-upgrade/deprecated-features.md)

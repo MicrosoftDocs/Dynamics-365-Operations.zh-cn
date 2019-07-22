@@ -3,7 +3,7 @@ title: 功能管理概述
 description: 本主题介绍功能管理功能及其用法。
 author: mikefalkner
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,17 +18,16 @@ ms.search.validFrom:
 - month/year of release that feature was introduced in
 - in format yyyy-mm-dd
 ms.dyn365.ops.version: 10.0.2
-ms.openlocfilehash: b200156a623c67a562cc1a5952899e3a77517528
-ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.openlocfilehash: d6aea8651c00b975cf158492e38bb147e908bc56
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1619136"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1632045"
 ---
 # <a name="feature-management-overview"></a>功能管理概述
 
 [!include [banner](../../includes/banner.md)]
-[!include [banner](../../includes/preview-banner.md)]
 
 每个 Microsoft Dynamics 365 for Finance and Operations 版本中都会增加和更新功能。 功能管理体验提供一个工作区，可在其中查看各版本已交付的功能的列表。 默认情况下，新功能处于关闭状态。 可使用该工作区开启这些功能并查看其文档。
 

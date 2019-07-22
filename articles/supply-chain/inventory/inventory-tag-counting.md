@@ -1,9 +1,9 @@
 ---
 title: 库存标签盘点
-description: 本文提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。
+description: 此主题提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。
 author: MarkusFogelberg
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: mafoge
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: dff899d0e6d94287c0f1924fe1787189d79c09f4
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 704330d136afee08fcee36db19acf72297fddac8
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1570826"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624853"
 ---
 # <a name="inventory-tag-counting"></a>库存标签盘点
 
@@ -31,11 +31,10 @@ ms.locfileid: "1570826"
 
 [!include [retail name](../includes/retail-name.md)]
 
-本文提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。
+此主题提供有关您用于将仓库的实际内容与现有库存量进行比较的标签盘点的信息。
 
 通过在**标签盘点**页上创建行，您将在每个库存物料上放置一个标签编号（如从 1 到 500 的数字）。 在盘点期间，您应在相应标签上输入物料编号和数量。 此标签随后可用作标签盘点日记帐中的输入的基础。 过帐标签盘点日记帐后，将在**盘点**页上创建一个新的盘点日记帐。 新日记帐基于您创建的标签盘点日记帐行。 要按特定库存维度对物料进行标签盘点，请在创建标签盘点日记帐时在**显示维度**页上选择维度。 例如，要盘点特定仓库中的物料，请选中**仓库**复选框。 如果选择了**库存和仓库管理参数**页上的**盘点期间锁定物料**滑块，则在盘点期间无法实际更新物料。 但是，标签盘点日记帐中的物料在盘点期间不会锁定。 在将标签盘点行过帐并转移到盘点日记帐之前不会创建库存交易记录。 如果随机输入了标签并且您希望标识缺失的标签，请单击**标签**列标题以按标签为行排序。
 
-<a name="additional-resources"></a>其他资源
---------
+## <a name="additional-resources"></a>其他资源
 
 [周期盘点](../warehousing/cycle-counting.md)

@@ -3,7 +3,7 @@ title: 工序级排产
 description: 本主题提供了有关工序级排产的信息。 您可以使用工序级排产以提供生产流程的持续时间的粗略估计。
 author: ChristianRytt
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/20/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,12 +19,12 @@ ms.search.industry: Manufacturing
 ms.author: crytt
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 298c07346427a949ffa544e66eb6b01995dadc38
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 9447474e0878077659a80dc49f7c7c1313db2cbe
+ms.sourcegitcommit: 8741b4b32ef32a54de3d064bf40a9c0179d4139a
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1560247"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "1691454"
 ---
 # <a name="operations-scheduling"></a>工序级排产
 
@@ -67,6 +67,9 @@ ms.locfileid: "1560247"
 -   **订货生产** – 计划、下达或开始的产品
 -   **物料可用性** – 库存、子生产、供应商和提供商
 -   **产能可用性** – 生产所需的资源
+
+> [!NOTE]
+> 如果要使用多线程主计划和工序级排产，将不会考虑有限产能。 
 
 ## <a name="cancellations"></a>取消
 在您运行工序级排产时，您可以取消该工艺路线的特定部分。 其中包括排队时间、设置时间、处理时间、重叠时间和运输时间。

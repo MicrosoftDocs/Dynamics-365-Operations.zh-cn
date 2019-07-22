@@ -3,7 +3,7 @@ title: Finance and Operations 帮助系统
 description: 本主题提供 Microsoft Dynamics 365 for Finance and Operations 帮助系统的组件的概览。
 author: margoc
 manager: AnnBe
-ms.date: 11/13/2018
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c74ff55e0a9a81c058de802d70365d13d34c8ff
-ms.sourcegitcommit: 574d4dda83dcab94728a3d35fc53ee7e2b90feb0
+ms.openlocfilehash: da5b67bd67ff1a227a5f1812d41cdad9f062dfd0
+ms.sourcegitcommit: ad4d378afd88028d2002633a3cc8a67313cbeddd
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595631"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625321"
 ---
 # <a name="finance-and-operations-help-system"></a>Finance and Operations 帮助系统
 
@@ -95,16 +95,18 @@ Finance and Operations 和 Retail 均共用文档站点上的一个内容表，�
 
     ![发布评论](./media/feedback.png)
 
-##### <a name="suggest-a-change-or-contribute-content-through-github"></a>通过 GitHub 提出更改建议或贡献内容
+### <a name="contribute-to-the-documentation"></a>参与文档
 
-若要提出更改建议，您需要一个 GitHub 帐户，并签署“贡献者许可协议”。 在提交拉取请求后，我们将审查您建议的更改。 如果需要，我们将展开内部讨论，然后回复您。
+您可以参与和编辑 Finance and Operations 文档。 若要开始，请单击主题上的**编辑**（铅笔）按钮或转到我们的存储库：<https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>。 以下视频显示如何参与我们的文档。
 
-若要开始，请单击主题上的**编辑**（铅笔）按钮或转到我们的存储库：<https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public>。
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE36liB]
 
-有关详细信息，请参阅我们的贡献者指南：<https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>。
+YouTube 上的 [Dynamics 365 播放列表中的新增内容](https://www.youtube.com/playlist?list=PLcakwueIHoT-ErQZPP80qNKuEAr0wAAD9)中包含[如何参与 Microsoft Dynamics 365 文档](https://youtu.be/m5djioozRbg)视频（上面所示）。
+
+有关详细信息，请参阅我们的贡献者指南，地址为 <https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/blob/live/CONTRIBUTING.md>。
 
 > [!NOTE]
-> 目前，我们只接受向我们的英语内容集贡献的内容。
+> 目前，我们只接受向我们的英语内容贡献。
 
 ## <a name="task-guides"></a>任务指南
 

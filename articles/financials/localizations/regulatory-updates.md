@@ -3,7 +3,7 @@ title: 监管更新
 description: 此主题提供 Microsoft Dynamics 365 for Finance and Operations 的已计划和已发布监管更新的列表。
 author: ShylaThompson
 manager: AnnBe
-ms.date: 05/16/2019
+ms.date: 06/10/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2019-3-31
 ms.dyn365.ops.version: 10
-ms.openlocfilehash: 8b79dd65c38d878303a75490721a3c7e6f1c6d09
-ms.sourcegitcommit: d153bde74651400118bbd37b69ff5e7e161f1db7
+ms.openlocfilehash: ba01fe7ad3e4326e8ab52b78220d3ba79e94af7c
+ms.sourcegitcommit: 51dc11919fcb2324482b48cc4ce4484945ade803
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/21/2019
-ms.locfileid: "1593335"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624303"
 ---
 # <a name="regulatory-updates"></a>监管更新
 
@@ -66,6 +66,13 @@ Microsoft 致力于尽早实施新的监管要求。 实际交付日期取决于
 |      挂起            |   10.0.3      | 波兰     |   2019 年 7 月 1 日以来的 SAF 发票 (JPK_FA)  |
 |      挂起            |   10.0.3      | 巴西   |   ICMS 会计单据调整启用表 5.2   |
 |      挂起            |   10.0.3      | 巴西    |   NF-e Decree 54.308/18 (RS)   |
+  | 挂起            |   10.0.4      | 巴西    |   传入会计单据 66   |
+   | 挂起            |   10.0.4      | 巴西    |   NF-e 和 NFC-e - 解决方法 13/2019 和法令 SUCIEF 55/2019- RJ - NF-e 中的免税标记的新条件。   |
+   | 挂起            |   10.0.4      | 印度   |   GST 纳税发票中显示“供应地点”和“状态”  |
+   | 挂起            |   10.0.4      | 墨西哥   |  DIOT 第三方申报 - 布局 2019 中的更改   |
+   | 挂起            |   10.0.4      | 巴西    |   NF-e ICMS-ST - SP 州的法令 CAT 42/18 - CAT 42/18
+   | 挂起            |   10.0.4      | 巴西    |   NF-e Decree 54.308/18 - RS NF   |
+   
 
 
 ## <a name="additional-resources"></a>其他资源
