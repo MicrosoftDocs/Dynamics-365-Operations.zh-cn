@@ -18,65 +18,65 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517404"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624573"
 ---
-# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a><span data-ttu-id="ace72-103">Dynamics 365 for Talent（2019 年 4 月 23 日）中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="ace72-103">What's new or changed in Dynamics 365 for Talent (April 23, 2019)</span></span>
+# <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a><span data-ttu-id="a7af8-103">Dynamics 365 for Talent（2019 年 4 月 23 日）中的新增功能或更改</span><span class="sxs-lookup"><span data-stu-id="a7af8-103">What's new or changed in Dynamics 365 for Talent (April 23, 2019)</span></span>
 
 [!include [banner](includes/banner.md)]
 
-<span data-ttu-id="ace72-104">此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。</span><span class="sxs-lookup"><span data-stu-id="ace72-104">This topic describes features that are either new or changed in Dynamics 365 for Talent.</span></span>
+<span data-ttu-id="a7af8-104">此主题介绍了 Dynamics 365 for Talent 中的新增功能和更改的功能。</span><span class="sxs-lookup"><span data-stu-id="a7af8-104">This topic describes features that are either new or changed in Dynamics 365 for Talent.</span></span>
 
-## <a name="changes-in-attract"></a><span data-ttu-id="ace72-105">Attract 中的更改</span><span class="sxs-lookup"><span data-stu-id="ace72-105">Changes in Attract</span></span>
-<span data-ttu-id="ace72-106">本版本中包含 Dynamics 365 for Talent: Attract 的小缺陷修复。</span><span class="sxs-lookup"><span data-stu-id="ace72-106">This release includes minor bug fixes for Dynamics 365 for Talent: Attract.</span></span>
+## <a name="changes-in-attract"></a><span data-ttu-id="a7af8-105">Attract 中的更改</span><span class="sxs-lookup"><span data-stu-id="a7af8-105">Changes in Attract</span></span>
+<span data-ttu-id="a7af8-106">本版本中包含 Dynamics 365 for Talent: Attract 的小缺陷修复。</span><span class="sxs-lookup"><span data-stu-id="a7af8-106">This release includes minor bug fixes for Dynamics 365 for Talent: Attract.</span></span>
 
-## <a name="changes-in-onboard"></a><span data-ttu-id="ace72-107">Onboard 中的更改</span><span class="sxs-lookup"><span data-stu-id="ace72-107">Changes in Onboard</span></span>
-<span data-ttu-id="ace72-108">本版本中包含 Dynamics 365 for Talent: Onboard 的小缺陷修复。</span><span class="sxs-lookup"><span data-stu-id="ace72-108">This release includes minor bug fixes for Dynamics 365 for Talent: Onboard.</span></span>
+## <a name="changes-in-onboard"></a><span data-ttu-id="a7af8-107">Onboard 中的更改</span><span class="sxs-lookup"><span data-stu-id="a7af8-107">Changes in Onboard</span></span>
+<span data-ttu-id="a7af8-108">本版本中包含 Dynamics 365 for Talent: Onboard 的小缺陷修复。</span><span class="sxs-lookup"><span data-stu-id="a7af8-108">This release includes minor bug fixes for Dynamics 365 for Talent: Onboard.</span></span>
 
-## <a name="changes-in-core-hr"></a><span data-ttu-id="ace72-109">Core HR 中的更改</span><span class="sxs-lookup"><span data-stu-id="ace72-109">Changes in Core HR</span></span>
-<span data-ttu-id="ace72-110">本部分中的更改适用于内部版本号 8.1.2253。</span><span class="sxs-lookup"><span data-stu-id="ace72-110">Changes described in this section apply to build number 8.1.2253.</span></span> <span data-ttu-id="ace72-111">括号内的数字是 Lifecycle Services (LCS) 中的支持号码。</span><span class="sxs-lookup"><span data-stu-id="ace72-111">Numbers in parentheses refer to support numbers in Lifecycle Services (LCS).</span></span>
+## <a name="changes-in-core-hr"></a><span data-ttu-id="a7af8-109">Core HR 中的更改</span><span class="sxs-lookup"><span data-stu-id="a7af8-109">Changes in Core HR</span></span>
+<span data-ttu-id="a7af8-110">本部分中的更改适用于内部版本号 8.1.2253。</span><span class="sxs-lookup"><span data-stu-id="a7af8-110">Changes described in this section apply to build number 8.1.2253.</span></span> <span data-ttu-id="a7af8-111">括号内的数字是 Lifecycle Services (LCS) 中的支持号码。</span><span class="sxs-lookup"><span data-stu-id="a7af8-111">Numbers in parentheses refer to support numbers in Lifecycle Services (LCS).</span></span>
 
-### <a name="common-data-service-entity-support-for-custom-fields"></a><span data-ttu-id="ace72-112">Common Data Service 实体对自定义字段的支持</span><span class="sxs-lookup"><span data-stu-id="ace72-112">Common Data Service entity support for custom fields</span></span>
-<span data-ttu-id="ace72-113">安装本周的版本后，下列实体支持自定义字段：薪酬级别、福利选项、技能类型和薪酬区域。</span><span class="sxs-lookup"><span data-stu-id="ace72-113">With this week's release, the following entities support custom fields: Compensation level, Benefit option, Skill type, and Compensation region.</span></span>
+### <a name="common-data-service-entity-support-for-custom-fields"></a><span data-ttu-id="a7af8-112">Common Data Service 实体对自定义字段的支持</span><span class="sxs-lookup"><span data-stu-id="a7af8-112">Common Data Service entity support for custom fields</span></span>
+<span data-ttu-id="a7af8-113">安装本周的版本后，下列实体支持自定义字段：薪酬级别、福利选项、技能类型和薪酬区域。</span><span class="sxs-lookup"><span data-stu-id="a7af8-113">With this week's release, the following entities support custom fields: Compensation level, Benefit option, Skill type, and Compensation region.</span></span>
 
-### <a name="additional-odata-entities-302992"></a><span data-ttu-id="ace72-114">其他 OData 实体 (302992)</span><span class="sxs-lookup"><span data-stu-id="ace72-114">Additional OData entities (302992)</span></span>
-<span data-ttu-id="ace72-115">OData 内现在支持下列实体：工作人员工作经验和工作人员教育。</span><span class="sxs-lookup"><span data-stu-id="ace72-115">The following entities are now supported within OData: Worker professional experience and Worker education.</span></span>
+### <a name="additional-odata-entities-302992"></a><span data-ttu-id="a7af8-114">其他 OData 实体 (302992)</span><span class="sxs-lookup"><span data-stu-id="a7af8-114">Additional OData entities (302992)</span></span>
+<span data-ttu-id="a7af8-115">OData 内现在支持下列实体：工作人员工作经验和工作人员教育。</span><span class="sxs-lookup"><span data-stu-id="a7af8-115">The following entities are now supported within OData: Worker professional experience and Worker education.</span></span>
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a><span data-ttu-id="ace72-116">经理和员工的绩效日记帐附件 (308248)</span><span class="sxs-lookup"><span data-stu-id="ace72-116">Performance journal attachments for nanagers and employees (308248)</span></span>
-<span data-ttu-id="ace72-117">在此版本中，创建和更新绩效日记帐条目时，可以为经理和员工添加附件。</span><span class="sxs-lookup"><span data-stu-id="ace72-117">With this release, attachments are now available for both managers and employees when creating and updating performance journal entries.</span></span>
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a><span data-ttu-id="a7af8-116">经理和员工的绩效日记帐附件 (308248)</span><span class="sxs-lookup"><span data-stu-id="a7af8-116">Performance journal attachments for managers and employees (308248)</span></span>
+<span data-ttu-id="a7af8-117">在此版本中，创建和更新绩效日记帐条目时，可以为经理和员工添加附件。</span><span class="sxs-lookup"><span data-stu-id="a7af8-117">With this release, attachments are now available for both managers and employees when creating and updating performance journal entries.</span></span>
 
-### <a name="employee-rehire-flag-always-available-310047"></a><span data-ttu-id="ace72-118">员工重新聘用标签始终可用 (310047)</span><span class="sxs-lookup"><span data-stu-id="ace72-118">Employee rehire flag always available (310047)</span></span>
-<span data-ttu-id="ace72-119">现在可在解除雇用流程外更新员工重新雇用选项。</span><span class="sxs-lookup"><span data-stu-id="ace72-119">The employee rehire option is now available for updating outside of the termination process.</span></span> 
+### <a name="employee-rehire-flag-always-available-310047"></a><span data-ttu-id="a7af8-118">员工重新聘用标签始终可用 (310047)</span><span class="sxs-lookup"><span data-stu-id="a7af8-118">Employee rehire flag always available (310047)</span></span>
+<span data-ttu-id="a7af8-119">现在可在解除雇用流程外更新员工重新雇用选项。</span><span class="sxs-lookup"><span data-stu-id="a7af8-119">The employee rehire option is now available for updating outside of the termination process.</span></span> 
 
-### <a name="cannot-change-the-name-of-my-payment-method-308815"></a><span data-ttu-id="ace72-120">不能更改**我的付款方式**的名称 (308815)</span><span class="sxs-lookup"><span data-stu-id="ace72-120">Cannot change the name of **My payment method** (308815)</span></span>
-<span data-ttu-id="ace72-121">已启用了个性化，允许在员工自助服务中更改**我的付款方式**标签。</span><span class="sxs-lookup"><span data-stu-id="ace72-121">Personalization has been enabled to allow for the **My payment method** label to be changed in Employee self-service.</span></span>
+### <a name="cannot-change-the-name-of-my-payment-method-308815"></a><span data-ttu-id="a7af8-120">不能更改**我的付款方式**的名称 (308815)</span><span class="sxs-lookup"><span data-stu-id="a7af8-120">Cannot change the name of **My payment method** (308815)</span></span>
+<span data-ttu-id="a7af8-121">已启用了个性化，允许在员工自助服务中更改**我的付款方式**标签。</span><span class="sxs-lookup"><span data-stu-id="a7af8-121">Personalization has been enabled to allow for the **My payment method** label to be changed in Employee self-service.</span></span>
 
-### <a name="financial-dimensions-against-a-position-cant-be-deleted-293908"></a><span data-ttu-id="ace72-122">不能删除针对职位的财务维度 (293908)</span><span class="sxs-lookup"><span data-stu-id="ace72-122">Financial dimensions against a Position can't be deleted (293908)</span></span>
-<span data-ttu-id="ace72-123">请求更改现有跨公司范围的职位和财务维度时，现在可删除财务维度。</span><span class="sxs-lookup"><span data-stu-id="ace72-123">Financial dimensions can now be removed when requesting a change for an existing position and the financial dimensions cross company boundaries.</span></span> 
+### <a name="financial-dimensions-against-a-position-cant-be-deleted-293908"></a><span data-ttu-id="a7af8-122">不能删除针对职位的财务维度 (293908)</span><span class="sxs-lookup"><span data-stu-id="a7af8-122">Financial dimensions against a Position can't be deleted (293908)</span></span>
+<span data-ttu-id="a7af8-123">请求更改现有跨公司范围的职位和财务维度时，现在可删除财务维度。</span><span class="sxs-lookup"><span data-stu-id="a7af8-123">Financial dimensions can now be removed when requesting a change for an existing position and the financial dimensions cross company boundaries.</span></span> 
 
-### <a name="customer-is-unable-to-publish-back-data-into-talent-when-opening-the-data-from-excel-302955"></a><span data-ttu-id="ace72-124">从 Excel 打开数据时，客户不能将数据发布回 Talent (302955)</span><span class="sxs-lookup"><span data-stu-id="ace72-124">Customer is unable to publish back data into Talent when opening the data from Excel (302955)</span></span>
-<span data-ttu-id="ace72-125">此项更改解决了使用相关表时的发布问题。</span><span class="sxs-lookup"><span data-stu-id="ace72-125">This change corrects a publishing issue when using related tables.</span></span>
+### <a name="customer-is-unable-to-publish-back-data-into-talent-when-opening-the-data-from-excel-302955"></a><span data-ttu-id="a7af8-124">从 Excel 打开数据时，客户不能将数据发布回 Talent (302955)</span><span class="sxs-lookup"><span data-stu-id="a7af8-124">Customer is unable to publish back data into Talent when opening the data from Excel (302955)</span></span>
+<span data-ttu-id="a7af8-125">此项更改解决了使用相关表时的发布问题。</span><span class="sxs-lookup"><span data-stu-id="a7af8-125">This change corrects a publishing issue when using related tables.</span></span>
 
-## <a name="in-preview"></a><span data-ttu-id="ace72-126">预览模式</span><span class="sxs-lookup"><span data-stu-id="ace72-126">In preview</span></span>
+## <a name="in-preview"></a><span data-ttu-id="a7af8-126">预览模式</span><span class="sxs-lookup"><span data-stu-id="a7af8-126">In preview</span></span>
 
-### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a><span data-ttu-id="ace72-127">允许为休假类型指定原因代码</span><span class="sxs-lookup"><span data-stu-id="ace72-127">Allow reason codes to be specified on leave types</span></span>
-<span data-ttu-id="ace72-128">组织可能需要有关休假请求的更多信息。</span><span class="sxs-lookup"><span data-stu-id="ace72-128">Organizations might need additional information about time-off requests.</span></span> <span data-ttu-id="ace72-129">现在可指定休假类型的原因代码，并让员工在休假请求中选择原因代码。</span><span class="sxs-lookup"><span data-stu-id="ace72-129">You can now specify reason codes for leave types and enable employees to select a reason code on their time-off requests.</span></span>
+### <a name="allow-reason-codes-to-be-specified-on-leave-types"></a><span data-ttu-id="a7af8-127">允许为休假类型指定原因代码</span><span class="sxs-lookup"><span data-stu-id="a7af8-127">Allow reason codes to be specified on leave types</span></span>
+<span data-ttu-id="a7af8-128">组织可能需要有关休假请求的更多信息。</span><span class="sxs-lookup"><span data-stu-id="a7af8-128">Organizations might need additional information about time-off requests.</span></span> <span data-ttu-id="a7af8-129">现在可指定休假类型的原因代码，并让员工在休假请求中选择原因代码。</span><span class="sxs-lookup"><span data-stu-id="a7af8-129">You can now specify reason codes for leave types and enable employees to select a reason code on their time-off requests.</span></span>
 
-### <a name="require-reason-codes-for-certain-leave-types-on-time-off-requests"></a><span data-ttu-id="ace72-130">休假请求中的特定休假类型需要原因代码</span><span class="sxs-lookup"><span data-stu-id="ace72-130">Require reason codes for certain leave types on time-off requests</span></span>
-<span data-ttu-id="ace72-131">组织可能会要求当员工提交请假时为特定休假类型设置原因代码。</span><span class="sxs-lookup"><span data-stu-id="ace72-131">Organizations might require reason codes for specific leave types when employees submit time off.</span></span> <span data-ttu-id="ace72-132">可能是因为公司政策或法规要求所致。</span><span class="sxs-lookup"><span data-stu-id="ace72-132">This might be due to company policy or regulatory requirements.</span></span> <span data-ttu-id="ace72-133">现在可以指定哪些休假类型需要原因代码，并且可以要求员工为自己的休假请求中的休假类型提供原因代码。</span><span class="sxs-lookup"><span data-stu-id="ace72-133">You can now specify which leave types require a reason code, and you can require employees to provide a reason code for the leave type on their time-off requests.</span></span>
+### <a name="require-reason-codes-for-certain-leave-types-on-time-off-requests"></a><span data-ttu-id="a7af8-130">休假请求中的特定休假类型需要原因代码</span><span class="sxs-lookup"><span data-stu-id="a7af8-130">Require reason codes for certain leave types on time-off requests</span></span>
+<span data-ttu-id="a7af8-131">组织可能会要求当员工提交请假时为特定休假类型设置原因代码。</span><span class="sxs-lookup"><span data-stu-id="a7af8-131">Organizations might require reason codes for specific leave types when employees submit time off.</span></span> <span data-ttu-id="a7af8-132">可能是因为公司政策或法规要求所致。</span><span class="sxs-lookup"><span data-stu-id="a7af8-132">This might be due to company policy or regulatory requirements.</span></span> <span data-ttu-id="a7af8-133">现在可以指定哪些休假类型需要原因代码，并且可以要求员工为自己的休假请求中的休假类型提供原因代码。</span><span class="sxs-lookup"><span data-stu-id="a7af8-133">You can now specify which leave types require a reason code, and you can require employees to provide a reason code for the leave type on their time-off requests.</span></span>
 
-### <a name="provide-leave-and-absence-transaction-list-for-hr"></a><span data-ttu-id="ace72-134">为 HR 提供休假和缺勤交易记录列表</span><span class="sxs-lookup"><span data-stu-id="ace72-134">Provide leave and absence transaction list for HR</span></span>
-<span data-ttu-id="ace72-135">跟踪员工休假和了解休假的计算方法不仅可以帮助 HR 解答员工的问题，还可以确保员工的休假奖励精确无误。</span><span class="sxs-lookup"><span data-stu-id="ace72-135">Tracking employee time off and understanding how time off is calculated not only helps HR answer employee questions, but also ensures accurate time-off awards for employees.</span></span> <span data-ttu-id="ace72-136">HR 现在可以以新的视觉查看交易记录（授权、应计、调整和请求），以查看余额背后的原因。</span><span class="sxs-lookup"><span data-stu-id="ace72-136">HR now has a new view into the transactions (grants, accruals, adjustments, and requests) to see the reasons behind balances.</span></span>
+### <a name="provide-leave-and-absence-transaction-list-for-hr"></a><span data-ttu-id="a7af8-134">为 HR 提供休假和缺勤交易记录列表</span><span class="sxs-lookup"><span data-stu-id="a7af8-134">Provide leave and absence transaction list for HR</span></span>
+<span data-ttu-id="a7af8-135">跟踪员工休假和了解休假的计算方法不仅可以帮助 HR 解答员工的问题，还可以确保员工的休假奖励精确无误。</span><span class="sxs-lookup"><span data-stu-id="a7af8-135">Tracking employee time off and understanding how time off is calculated not only helps HR answer employee questions, but also ensures accurate time-off awards for employees.</span></span> <span data-ttu-id="a7af8-136">HR 现在可以以新的视觉查看交易记录（授权、应计、调整和请求），以查看余额背后的原因。</span><span class="sxs-lookup"><span data-stu-id="a7af8-136">HR now has a new view into the transactions (grants, accruals, adjustments, and requests) to see the reasons behind balances.</span></span>
 
-## <a name="coming-soon"></a><span data-ttu-id="ace72-137">即将到期</span><span class="sxs-lookup"><span data-stu-id="ace72-137">Coming soon</span></span>
+## <a name="coming-soon"></a><span data-ttu-id="a7af8-137">即将到期</span><span class="sxs-lookup"><span data-stu-id="a7af8-137">Coming soon</span></span>
 
-### <a name="improvements-to-the-user-interface-for-duplicate-employee-check"></a><span data-ttu-id="ace72-138">改进了用户界面中的重复员工检查</span><span class="sxs-lookup"><span data-stu-id="ace72-138">Improvements to the user interface for duplicate employee check</span></span>
-<span data-ttu-id="ace72-139">借助此更改，输入名称字段时可检测重复项，而状态将显示找到的重复项数量。</span><span class="sxs-lookup"><span data-stu-id="ace72-139">With this change, duplicates are detected as you enter name fields, and a status displays the number of duplicates found.</span></span> <span data-ttu-id="ace72-140">您可以选择提供的链接以打开一个新的页面来评估是否要使用检测到的匹配项。</span><span class="sxs-lookup"><span data-stu-id="ace72-140">You can select the provided link to open a new page to evaluate whether to use the detected match.</span></span> <span data-ttu-id="ace72-141">为了避免中断数据输入，重复项窗体不会自动打开。</span><span class="sxs-lookup"><span data-stu-id="ace72-141">To avoid interrupting data entry, the duplicates form doesn't automatically open.</span></span>
-## <a name="known-issues"></a><span data-ttu-id="ace72-142">已知问题</span><span class="sxs-lookup"><span data-stu-id="ace72-142">Known issues</span></span>
+### <a name="improvements-to-the-user-interface-for-duplicate-employee-check"></a><span data-ttu-id="a7af8-138">改进了用户界面中的重复员工检查</span><span class="sxs-lookup"><span data-stu-id="a7af8-138">Improvements to the user interface for duplicate employee check</span></span>
+<span data-ttu-id="a7af8-139">借助此更改，输入名称字段时可检测重复项，而状态将显示找到的重复项数量。</span><span class="sxs-lookup"><span data-stu-id="a7af8-139">With this change, duplicates are detected as you enter name fields, and a status displays the number of duplicates found.</span></span> <span data-ttu-id="a7af8-140">您可以选择提供的链接以打开一个新的页面来评估是否要使用检测到的匹配项。</span><span class="sxs-lookup"><span data-stu-id="a7af8-140">You can select the provided link to open a new page to evaluate whether to use the detected match.</span></span> <span data-ttu-id="a7af8-141">为了避免中断数据输入，重复项窗体不会自动打开。</span><span class="sxs-lookup"><span data-stu-id="a7af8-141">To avoid interrupting data entry, the duplicates form doesn't automatically open.</span></span>
+## <a name="known-issues"></a><span data-ttu-id="a7af8-142">已知问题</span><span class="sxs-lookup"><span data-stu-id="a7af8-142">Known issues</span></span>
 
-### <a name="email-support-for-alerts"></a><span data-ttu-id="ace72-143">警报的电子邮件支持</span><span class="sxs-lookup"><span data-stu-id="ace72-143">Email support for alerts</span></span>
-<span data-ttu-id="ace72-144">安装平台更新 26 之后，用户可创建警报规则，用于在被事件触发后自动向联系人发送电子邮件通知。</span><span class="sxs-lookup"><span data-stu-id="ace72-144">With Platform update 26, users can create alert rules that automatically send email notifications to contacts when triggered by an event.</span></span>
+### <a name="email-support-for-alerts"></a><span data-ttu-id="a7af8-143">警报的电子邮件支持</span><span class="sxs-lookup"><span data-stu-id="a7af8-143">Email support for alerts</span></span>
+<span data-ttu-id="a7af8-144">安装平台更新 26 之后，用户可创建警报规则，用于在被事件触发后自动向联系人发送电子邮件通知。</span><span class="sxs-lookup"><span data-stu-id="a7af8-144">With Platform update 26, users can create alert rules that automatically send email notifications to contacts when triggered by an event.</span></span>
