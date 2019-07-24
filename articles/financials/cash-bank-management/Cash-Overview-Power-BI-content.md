@@ -3,7 +3,7 @@ title: 现金概览 Power BI 内容
 description: 此主题介绍现金概览 Power BI 内容。 它说明如何访问内容中包括的报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: saraschi2
 manager: AnnBe
-ms.date: 12/19/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: saraschi
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 5dccb5c5c6c336607603dfc7a935c039e5ac4aa5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: bff0b1b0a68eccec1cebf130bc40ec3e6d88c3a9
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1568909"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702787"
 ---
 # <a name="cash-overview-power-bi-content"></a>现金概览 Power BI 内容
 
@@ -33,6 +33,17 @@ ms.locfileid: "1568909"
 
 **现金概览** Power BI 内容面向负责组织中的现金的人员创建。 **现金概览** Power BI 内容提供对您的现金流量的可见性。 它还提供预测，可以帮助您做出更好的决策并改进您的现金流量的健康状况。 您可按法人、币种和银行帐户分析现金以更好地了解盈余和赤字。
 
+## <a name="setup-needed-to-view-power-bi-content"></a>查看 Power BI 内容所需设置
+
+必须完成以下设置，才能在**现金概览**和**银行管理** Power BI 视觉对象中显示数据。
+
+1. 转到**系统管理 > 设置 > 系统参数**以设置**系统币种**和**系统汇率**。
+2. 转到**总帐 > 设置 > 分类帐**以设置**记帐币种**和**汇率类型**。
+2. 定义交易币种与记帐币种、记帐币种与系统币种，以记帐币种与银行币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
+3. 配置和运行现金流预测。 有关如何设置现金流预测的详细信息，请参阅<a href="https://docs.microsoft.com/en-us/dynamics365/unified-operations/financials/cash-bank-management/cash-flow-forecasting
+">现金流预测</a>。 
+4. 转到**系统管理 > 设置 > 实体商店**以刷新 **LedgerCovLiquidityMeasurement** 聚合度量。
+
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
 
 来自**现金概览** Power BI 内容的报表显示在**现金概览**和**银行管理**工作区。
@@ -42,6 +53,7 @@ ms.locfileid: "1568909"
 为了演示目的，你可以从演示数据模块使用**生成数据**页添加现金流量预测演示数据。  此脚本将数据插入到现金流量预测表以快速填充报表所需的信息。  仅当你在环境上部署演示数据套件模型时，此模块才可用。 
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
+
 下表提供有关在**现金概览** Power BI 内容中的每个报表页找到的指标的详细信息。
 
 | 报表                                | 内容 |
@@ -67,5 +79,3 @@ ms.locfileid: "1568909"
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceCompany    | 使用公司记帐币种的汇总的现金流入量、流出量和余额 |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityInflowOutflowBalanceEnterprise | 使用系统币种的用于所有公司的汇总的现金流入量、流出量和余额 |
 | LedgerCovLiquidityMeasurement\_LedgerCovLiquidityTransactionCurrency            | 使用交易币种的汇总的净交易记录金额和币种余额 |
-
-

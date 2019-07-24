@@ -3,7 +3,7 @@ title: 设置培训课程
 description: 人力资源管理员和经理可以使用课程功能维护有关为工作人员提供的培训的信息。
 author: andreabichsel
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 06/24/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-talent
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: anbichse
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0, Talent July 2017 update
-ms.openlocfilehash: 83f88d17c744bb53dad975b77d169a09375d20d1
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 26e76d68c6d5c8bd965e65e65d57f239fb8a2918
+ms.sourcegitcommit: 87e8b811680b1f87a973ce1680f07d657fa23046
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517385"
+ms.lasthandoff: 06/24/2019
+ms.locfileid: "1701382"
 ---
 # <a name="set-up-training-courses"></a>设置培训课程
 
@@ -128,12 +128,12 @@ ms.locfileid: "1517385"
 </table>
 
 ## <a name="course-participants"></a>课程参与者
-课程参与者有工作人员、申请者或参加培训课程或事件的承包商。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在**课程**页上的**常规**快速选项卡中进行了定义。
+课程参与者是参加培训课程或活动的工作人员。 仅可为开放式课程登记参与者。 可以为课程登记的参与者最大和最小人数在**课程**页上的**常规**快速选项卡中进行了定义。
 
 <a name="workflow"></a>工作流
 --------
 
-通过**工自助服务**页登记课程的员工可以让其注册工作流传送以供审核。  工作流可以分配到**课程**页上的**常规**快速选项卡中的课程。
+通过**工自助服务**页登记课程的员工可以让其注册工作流传送以供审核。 可以在**课程**页上的**常规**快速选项卡中为课程分配工作流。
 
 
 

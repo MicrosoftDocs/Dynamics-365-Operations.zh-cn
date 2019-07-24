@@ -3,7 +3,7 @@ title: 打造个性化的用户体验
 description: 本主题说明如何个性化 Microsoft Dynamics 365 for Finance and Operations。
 author: jasongre
 manager: AnnBe
-ms.date: 05/17/2019
+ms.date: 06/11/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: jasongre
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 67ba1a95299de09c74e2fa2808cb63f61acf5862
-ms.sourcegitcommit: c576b81dc3c93c09fb08fb0ba0c19f417360c5ab
+ms.openlocfilehash: 51c4cbbba36ed4c93fbbba907031023060d51495
+ms.sourcegitcommit: 0273905ceb371ba17d3a37d690e1f568aa968b4f
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1620006"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "1625003"
 ---
 # <a name="personalize-the-user-experience"></a>打造个性化的用户体验
 
@@ -169,6 +169,6 @@ Finance and Operations. 中有三类基本的个性化设置。
 
 个性化页面中的库存维度设置时，请注意已通过使用**显示维度**选项创建的设置。 例如，您使用个性化设置隐藏批次编号库存维度的一个列，但下次打开该页时显示这列。 发生此行为是因为**维度显示**设置控制显示的库存维度列。
 
-**维度显示**设置应用于所有页，并覆盖单个页中的库存维度字段的所有个性化设置。
+**维度显示**设置应用于所有页，并覆盖每一页中的库存维度字段的所有个性化设置。
 
-因此，在前面的示例中，如果不希望批次编号库存维度的列显示，必须在表的**显示维度**选项中清除该维度。 此项更改最终不仅在一个特定页上应用，还将在所有页中应用。
+因此，在前面的示例中，如果不希望在页中显示批次编号库存维度的列，必须在该页的**显示维度**选项中清除该维度。

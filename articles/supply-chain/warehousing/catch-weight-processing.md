@@ -9,7 +9,6 @@ ms.prod: ''
 ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: WHSCatchWeightTag, WHSCatchWeightItemHandlingPolicy
-ROBOTS: NOINDEX, NOFOLLOW
 audience: Application User
 ms.reviewer: shylaw
 ms.search.scope: Core, Operations
@@ -17,12 +16,12 @@ ms.search.region: Global
 ms.author: perlynne
 ms.search.validFrom: 2019-1-31
 ms.dyn365.ops.version: 8.1.3
-ms.openlocfilehash: 6e295456838ca0195a472518b5979dfdc7819f74
-ms.sourcegitcommit: 19859d8566a8c7840066b2c10c6b08b67f1b83f4
+ms.openlocfilehash: 85b6cad04032877b63b4da3a097cae82c63f36ad
+ms.sourcegitcommit: bf05924747368a5204c4c70882e3347bfa295e29
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "1617965"
+ms.lasthandoff: 06/17/2019
+ms.locfileid: "1633075"
 ---
 # <a name="catch-weight-product-processing-with-warehouse-management"></a>使用仓库管理进行实际称重产品处理
 

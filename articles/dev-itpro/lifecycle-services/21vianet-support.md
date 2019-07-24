@@ -15,12 +15,12 @@ ms.search.region: China (PRC)
 ms.author: shylaw
 ms.search.validFrom: 2019-04-01
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 2143087c8d78f0b6978ed4b89c66c3bf38baecd1
-ms.sourcegitcommit: cadce85ca3004d53caf6bc49147a524c1bfd421f
+ms.openlocfilehash: f6af87582fff31d22437c54e999da5fd8c56ccc0
+ms.sourcegitcommit: a1354c6218b328d4d7dcc149d1339a7af10c48bf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1590518"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "1723133"
 ---
 # <a name="support-for-dynamics-365-for-finance-and-operations-operated-by-21vianet-in-china"></a>对中国世纪互联运营的 Dynamics 365 for Finance and Operations 的支持
 
@@ -88,7 +88,7 @@ Finance and Operations 的售前支持提供有关预订功能与权益、套餐
 - [Dynamics 365 Privacy statement (Dynamics 365 隐私声明)](https://www.21vbluecloud.com/Dynamics365/d365-privacy/)
 - [Dynamics 365 Service Level agreement (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/Dynamics365/d365-sla/)
 - [Dynamics 365 Legal information (Dynamics 365 法律信息)](https://www.21vbluecloud.com/Dynamics365/dynamics365-legal/)
-- [Dynamics 365 Lifecycle Services 的服务条款](https://www.21vbluecloud.com/Dynamics365/d365-lcs/)
+- [Dynamics 365 Lifecycle Services 的服务条款](https://www.21vbluecloud.com/dynamics365/d365-lcs/)
 - [OSPT of Dynamics 365 (世纪互联在线服务的服务级别协议)](https://www.21vbluecloud.com/ostpt/)
 - [Azure 文档（中文）](https://docs.azure.cn/zh-cn/)
 - [Azure 中国世纪互联](https://docs.microsoft.com/azure/china/china-welcome)

@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 85d2370353520ee588dfe2aedf9998d707f0eda6
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 7f8461f851f6f54def8a04d0f2548961b9a1ca4d
+ms.sourcegitcommit: ce84a1faeda6013ef6a90038d811a72f375b604e
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592652"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "1625864"
 ---
 # <a name="formula-designer-in-electronic-reporting-er"></a>电子申报中 (ER) 的配方设计器
 
@@ -651,6 +651,11 @@ Intrastat.dataAreaId IN ('DEMF', 'GBSI', 'USMF')
 <td>NUMBERFORMAT（数字，格式）</td>
 <td>以指定格式返回指定数值的字符串表示形式。 （有关支持的格式的信息，请参阅<a href="https://msdn.microsoft.com/en-us/library/dwhawy9k(v=vs.110).aspx">标准</a>和<a href="https://msdn.microsoft.com/en-us/library/0c899ak8(v=vs.110).aspx">自定义</a>。）此函数在其中运行的环境确定设置数字格式的区域性。</td>
 <td>对于 EN-US 区域性，<strong>NUMBERFORMAT (0.45, &quot;p&quot;)</strong> 返回 <strong>&quot;45.00 %&quot;</strong>。 <strong>NUMBERFORMAT (10.45, &quot;#&quot;)</strong> 返回 <strong>&quot;10&quot;</strong>。</td>
+</tr>
+<tr>
+<td>NUMBERFORMAT (number, format, culture)</td>
+<td>以指定格式和给定区域性返回指定数字的字符串表示形式。 （有关支持格式的信息，请参阅<a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/standard-numeric-format-strings">标准</a>和<a href="https://docs.microsoft.com/en-us/dotnet/standard/base-types/custom-numeric-format-strings">自定义</a>。）</td>
+<td><strong>NUMBERFORMAT (10/3, “F2”, "de")</strong> 返回 <strong>3,33</strong>，而 <strong>NUMBERFORMAT (10/3, “F2”, "en-us")</strong> 则返回 <strong>3.33</strong>。</td>
 </tr>
 <tr>
 <td>NUMERALSTOTEXT（数字，语言，币种，打印币种名称标志，小数点）</td>

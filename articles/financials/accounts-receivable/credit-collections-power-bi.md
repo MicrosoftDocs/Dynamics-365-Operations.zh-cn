@@ -3,7 +3,7 @@ title: 信用和收款管理 Power BI 内容
 description: 此主题介绍信用和收款管理 Power BI 内容中的内容。 它说明如何访问 Power BI 报表，并提供有关用于构建内容的数据模型和实体的信息。
 author: ShivamPandey-msft
 manager: AnnBe
-ms.date: 12/01/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -16,12 +16,12 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: a80a180623d1cca77c633f12bcd92a088e089ee5
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 5f6b1c9338670a2f2f26ecbef1d349171457e1ac
+ms.sourcegitcommit: d599bc1fc60a010c2753ca547219ae21456b1df9
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547224"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702764"
 ---
 # <a name="credit-and-collections-management-power-bi-content"></a>信用和收款管理 Power BI 内容
 
@@ -42,7 +42,17 @@ ms.locfileid: "1547224"
 
 默认情况下，显示当前公司的信用和收款数据。 要查看跨所有公司的数据，请将 **CustCollectionsBICrossCompany** 责任分配到角色。
 
+## <a name="setup-needed-to-view-power-bi-content"></a>查看 Power BI 内容所需设置
+
+需要完成以下设置，才能在**客户信用和收款** Power BI 视觉对象中显示数据。
+
+1. 转到**系统管理 > 设置 > 系统参数**以设置**系统币种**和**系统汇率**。
+2. 转到**总帐 > 设置 > 分类帐**并设置**记帐币种**和**汇率类型**。
+3. 定义交易币种与记帐币种和记帐币种与系统币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
+4. 转到**系统管理 > 设置 > 实体商店**以刷新 **CustCollectionsBIMeasurements** 聚合度量。
+
 ## <a name="accessing-the-power-bi-content"></a>访问 Power BI 内容
+
 **信用和收款管理** Power BI 内容显示在**客户信用和收款**工作区。
 
 ## <a name="reports-that-are-included-in-the-power-bi-content"></a>此 Power BI 内容中包含的报表
@@ -63,28 +73,3 @@ ms.locfileid: "1547224"
 | 催款单         | <ul><li>收款代码金额</li><li>收款代码金额明细</li><li>催款单金额（按公司）</li><li>催款单金额（按客户组）</li><li>催款单金额（按地区）</li></ul> |
 
 所有这些报表中的图表和磁贴均可以筛选和并固定到仪表板。 有关如何在 Power BI 中筛选和固定的更多信息，请参阅[创建和配置仪表板](https://powerbi.microsoft.com/en-us/guided-learning/powerbi-learning-4-2-create-configure-dashboards/)。 您还可以使用导出基础数据功能导出在可视化中汇总的基础数据。
-
-## <a name="understanding-the-data-model-and-entities"></a>了解数据模型和实体
-
-以下数据用于填充**信用和收款管理** Power BI 内容中的报表。 此数据表示为实体商店内已分组的聚合度量。 实体商店是针对分析进行优化的 Microsoft SQL Server 数据库。 有关详细信息，请参阅 [Power BI 与实体商店集成概览](../../dev-itpro/analytics/power-bi-integration-entity-store.md)。
-
-
-|                   实体                    |      关键聚合度量      |             数据源              |                           字段                            |                                    说明                                     |
-|---------------------------------------------|--------------------------------------|--------------------------------------|------------------------------------------------------------|------------------------------------------------------------------------------------|
-| CustCollectionsBIActivitiesAverageCloseTime | NumOfActivities，AveragecClosedTime  |            smmActivities             | AverageOfChildren(AverageClosedTime) Count(ActivityNumber) |     已关闭活动的计数和关闭这些活动所用的平均时间。     |
-|       CustCollectionsBIActivitiesOpen       |            ActivityNumber            |            smmActivities             |                   Count(ActivityNumber)                    |                           未结活动的计数。                            |
-|        CustCollectionsBIAgedBalances        |             AgedBalances             |  CustCollectionsBIAgedBalancesView   |                 Sum(SystemCurrencyBalance)                 |                             帐龄余额的总和。                              |
-|        CustCollectionsBIBalancesDue         |         SystemCurrencyAmount         |   CustCollectionsBIBalanceDueView    |                 Sum(SystemCurrencyAmount)                  |                           逾期的金额。                            |
-|    CustCollectionsBICaseAverageCloseTIme    |  NumOfCases，CaseAverageClosedTime   |      CustCollectionsCaseDetail       | AverageOfChildren(CaseAverageClosedTime) Count(NumOfCases) |        已关闭案例的计数和关闭这些案例所用的平均时间。        |
-|         CustCollectionsBICasesOpen          |                CaseId                |      CustCollectionsCaseDetail       |                       Count(CaseId)                        |                              未结案例的计数。                              |
-|      CustCollectionsBICollectionLetter      |         CollectionLetterNum          |       CustCollectionLetterJour       |                 Count(CollectionLetterNum)                 |                       未结催款单的计数。                        |
-|   CustCollectionsBICollectionLetterAmount   |       CollectionLetterAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                     已过帐催款单的余额。                      |
-|      CustCollectionsBICollectionStatus      |       CollectionStatusAmounts        | CustCollectionsBIAccountsReceivables |                 Sum(SystemCurrencyAmount)                  |                具有催款状态的交易记录的余额。                 |
-|           CustCollectionsBICredit           | CreditExposed，AmountOverCreditLimit |     CustCollectionsBICreditView      |       Sum(CreditExposed), Sum(AmountOverCreditLimit)       | 信用曝光和客户超过其信用额度的金额的总和。 |
-|         CustCollectionsBICustOnHold         |               已冻结                |      CustCollectionsBICustTable      |                       Count(Blocked)                       |                     处于暂停状态的客户的数量。                      |
-|            CustCollectionsBIDSO             |                DSO30                 |       CustCollectionsBIDSOView       |                  AverageOfChildren(DSO30)                  |                        30 天销售款未清天数。                         |
-|      CustCollectionsBIExpectedPayment       |           ExpectedPayment            | CustCollectionsBIExpectedPaymentView |                 Sum(SystemCurrencyAmounts)                 |                 下一年预期付款总和。                 |
-|        CustCollectionsBIInterestNote        |             InterestNote             |           CustInterestJour           |                    Count(InterestNote)                     |                已创建的利息单的数量                |
-|        CustCollectionsBISalesOnHold         |               SalesId                |              SalesTable              |                       Count(SalesId)                       |                 处于暂停状态的总销售单的数量。                 |
-|          CustCollectionsBIWriteOff          |            WriteOffAmount            |    CustCollectionsBIWriteOffView     |                 Sum(SystemCurrencyAmount)                  |                已勾销的交易记录的总和。                 |
-

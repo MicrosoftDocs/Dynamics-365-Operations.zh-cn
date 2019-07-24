@@ -3,7 +3,7 @@ title: 现金管理改进
 description: 本主题介绍适用于 Dynamics 365 for Retail 的 POS 中的现金管理改进。
 author: anpurush
 manager: AnnBe
-ms.date: 5/21/2019
+ms.date: 05/21/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-retail
@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: josaw
 ms.search.validFrom: 2019-05-21
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: ace32148387b2244f4b600597f16dfd7ebc5d108
-ms.sourcegitcommit: 23ab3c99d05869ea2c73514754608e8684697d8c
+ms.openlocfilehash: 845cba3b536b0f800b7c7c4eecee46a068ca8cff
+ms.sourcegitcommit: 432481001b986b54937d423516efd8f2af1511d6
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "1595199"
+ms.lasthandoff: 06/13/2019
+ms.locfileid: "1630045"
 ---
 # <a name="cash-management-improvements"></a>现金管理改进
 

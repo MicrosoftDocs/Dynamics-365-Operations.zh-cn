@@ -3,7 +3,7 @@ title: 供应商付款工作区
 description: 此主题提供有关供应商付款工作区的信息。 供应商付款工作区显示与处理供应商付款有关的信息。
 author: abruer
 manager: AnnBe
-ms.date: 05/09/2017
+ms.date: 06/25/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,18 +17,26 @@ ms.search.region: Global
 ms.author: shpandey
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: 789acd3f403e322ec00388ca8184ccd30c3ea436
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 6f5ffe65b2f9be7423f1fe420594c936e15550fb
+ms.sourcegitcommit: 6f0e5bf82a5f61bab52c3cf4c82849fae5c5d50b
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1509214"
+ms.lasthandoff: 06/25/2019
+ms.locfileid: "1702927"
 ---
 # <a name="vendor-payments-workspace"></a>供应商付款工作区
 
 [!include [banner](../includes/banner.md)]
 
 **供应商付款**工作区显示与处理供应商付款有关的信息。 该工作区包括一个**我的工作**视图和一个**分析**页。 **我的工作**视图显示汇总磁贴、供应商交易记录网格和相关供应商信息。 **分析**页使用 Microsoft Power BI 的功能显示与供应商付款相关的视觉对象。
+
+## <a name="setup-needed-to-view-power-bi-content"></a>查看 Power BI 内容所需设置
+
+需要完成以下设置，才能在**供应商付款** Power BI 视觉对象中显示数据。
+1. 转到**系统管理 > 设置 > 系统参数**以设置**系统币种**和**系统汇率**。
+2. 转到**总帐 > 设置 > 分类帐**以设置**记帐币种**和**汇率类型**。 
+2. 定义交易币种与记帐币种和记帐币种与系统币种之间的汇率。 方法是，转到**总帐 > 币种 > 币种汇率**。
+3. 转到**系统管理 > 设置 > 实体商店**以刷新 **VendPaymentBIMeasure** 聚合度量。 
 
 ## <a name="my-work-view"></a>我的工作视图
 

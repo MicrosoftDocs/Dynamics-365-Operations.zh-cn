@@ -1,9 +1,9 @@
 ---
 title: 生成统计基准预测
-description: 本文提供有关用于需求预测计算的参数和筛选器的信息。
+description: 此主题提供有关用于需求预测计算的参数和筛选器的信息。
 author: roxanadiaconu
 manager: AnnBe
-ms.date: 06/20/2017
+ms.date: 07/08/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -19,18 +19,18 @@ ms.search.industry: Manufacturing
 ms.author: roxanad
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 30f2ccb8c0b4d7c4755e0b8dc66539e165265090
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 4bc5a38519efb6f4d242daca9aab5226c16e4ea0
+ms.sourcegitcommit: 3be8d2be6474264f0a530a052d19ea2635e269cf
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1546309"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "1729867"
 ---
 # <a name="generate-a-statistical-baseline-forecast"></a>生成统计基准预测
 
 [!include [banner](../includes/banner.md)]
 
-本文提供有关用于需求预测计算的参数和筛选器的信息。 
+此主题提供有关用于需求预测计算的参数和筛选器的信息。 
 
 在您创建基准预测时，必须首先指定在计算中使用的参数和筛选器。 例如，您可以创建基于指定公司和所选物料组去年、下个月的交易数据来估计需求的基准预测。 
 
@@ -49,6 +49,9 @@ ms.locfileid: "1546309"
 
 基准需求预测的开始日期不必为当前日期或未来日期。 若要设置不同的开始日期，请使用**基准预测开始日期 - 开始日期**字段。 例如，在六月，用户可以生成明年的预测。 由于历史需求的结束和基准的开始之间的预测时段缺少，预测可能不准确。 如果您使用 Microsoft Dynamics 365 for Finance and Operations 需求预测服务，您可以有四种方法填补缺失。 您可以通过在**需求预测参数**页上设置 MISSING\_VALUE\_SUBSTITUTION 参数来选择需要的方法。 
 
+> [!NOTE]
+> 只有历史数据开始日期与结束日期之间的数据之差才支持替换缺少值。 不会在最后一个物理数据点之前或之后填充数据，而是仅充当实际现有数据点之间的外延。 
+
 **基准预测开始日期**  -  **开始日期**字段必须设置为预测时段的开始，例如，在美国，如果预测时段是周则为星期日。 此系统自动调整**基准预测开始日期**  -  **开始日期**字段为与预测时段的开始匹配。 
 
 **基准预测开始日期**  -  **开始日期**字段可以设置为过去的日期。 换言之，可以生成过去的需求预测。 这很有用，因为它允许用户调整预测服务参数，以便过去生成的统计预测与实际历史需求匹配。 用户然后可以继续使用这些参数设置来生成将来的统计基准预测。 
@@ -59,18 +62,19 @@ ms.locfileid: "1546309"
 
 内部公司计划组、物料分配参数和其他筛选器可以在预测生成时应用。 它们可用于提高绩效或将数据拆分为可管理的区块。 不过，请注意，需求预测没有为不与内部公司计划组关联的任何物料分配参数的成员生成，即使物料分配参数在查询中选择。 
 
-**提示**：在某些情况下，在生成需求预测时，用户可能会收到错误消息，或预测生成在没有会话日志的情况下完成。 这可能由于之前用于预测生成的查询中的残余数据而发生。 为了修复此问题，单击**选择**打开**查询**页，单击**重置**，然后重新生成基准预测。 
+> [!TIP]
+> 在某些情况下，在生成需求预测时，用户可能会收到错误消息，或预测生成在没有会话日志的情况下完成。 这可能由于之前用于预测生成的查询中的残余数据而发生。 为了解决此问题，单击**选择**打开**查询**页，选择**重置**，然后重新生成基准预测。 
 
 如果没有为大物料组生成预测，但是，例如，一次为一个物料或一个物料分配参数生成，那么为了达到更好的效果，您可以选中**主计划 - 设置 - 需求预测**  -  **需求预测参数 - Azure 机器学习**选项卡上的**使用请求响应模式**复选框。
+
+> [!NOTE]
+> 看起来可能平稳的预测可能是较长历史时间范围（最少 3 个时间段以选出模式，如 3 年的月预测）的历史数据的结果。 若要获取更好的结果，可以尝试更改时间范围的粒度或扩大时间范围。
 
 <a name="additional-resources"></a>其他资源
 --------
 
-[需求预测设置](demand-forecasting-setup.md)
+- [需求预测设置](demand-forecasting-setup.md)
 
-[对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
+- [对基准预测进行手动调整](manual-adjustments-baseline-forecast.md)
 
-[授权调整后的需求预测](authorize-adjusted-forecast.md)
-
-
-
+- [授权调整后的需求预测](authorize-adjusted-forecast.md)

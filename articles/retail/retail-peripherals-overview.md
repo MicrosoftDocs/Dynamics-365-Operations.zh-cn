@@ -18,12 +18,12 @@ ms.search.industry: Retail
 ms.author: rubendel
 ms.search.validFrom: 2016-11-30
 ms.dyn365.ops.version: Version 1611
-ms.openlocfilehash: a9fa49d0b3553ae70547aeea19d14bc6e6e08983
-ms.sourcegitcommit: ffc37f7c2a63bada3055f37856a30424040bc9a3
+ms.openlocfilehash: eda7744a6365b4c3a884342a429c2340e5a13d66
+ms.sourcegitcommit: 7feb5d279adedd44f038195ce0f5e1c27d374049
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "1577920"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624804"
 ---
 # <a name="retail-peripherals"></a>零售外设
 
@@ -156,13 +156,13 @@ POS 的收据打印已针对 OPOS 进行了优化。 OPOS 往往比通过 Window
 
 ### <a name="network"></a>网络
 
-可通过 Modern POS for Windows 应用程序中内置的进程间通信 (IPC) 硬件工作站或其他 Modern POS 客户端的 IIS 硬件工作站，通过网络使用网络可寻址银箱、收据打印机和付款终端。
+可通过 Modern POS for Windows 和 Modern POS for Android 应用程序中内置的进程间通信 (IPC) 硬件工作站或其他 Modern POS 客户端的 IIS 硬件工作站，通过网络使用网络可寻址银箱、收据打印机和付款终端。
 
 ## <a name="hardware-station-deployment-options"></a>硬件工作站部署选项
 
 ### <a name="ipc-built-in"></a>IPC（内置）
 
-进程间通信 (IPC) 硬件工作站内置在 Modern POS for Windows 应用程序中。 若要使用 IPC 硬件工作站，请为将使用 Modern POS for Windows 应用程序的收银机分配硬件配置文件。 然后为将使用该收银机的商店创建一个类型为**专用**的硬件工作站。 启动 Modern POS 时，将激活 IPC 硬件工作站，而已配置的 POS 外设将准备就绪，可供使用。 如果因为某种原因暂时不需要本地硬件，请使用**管理硬件工作站**关闭硬件工作站功能。 Modern POS 也可以使用 IPC 硬件工作站直接与网络外设通信。
+进程间通信 (IPC) 硬件工作站内置在 Modern POS for Windows 和 Modern POS for Android 应用程序中。 若要使用 IPC 硬件工作站，请为将使用 Modern POS for Windows 应用程序的收银机分配硬件配置文件。 然后为将使用该收银机的商店创建一个类型为**专用**的硬件工作站。 启动 Modern POS 时，将激活 IPC 硬件工作站，而已配置的 POS 外设将准备就绪，可供使用。 如果因为某种原因暂时不需要本地硬件，请使用**管理硬件工作站**关闭硬件工作站功能。 Modern POS 也可以使用 IPC 硬件工作站直接与网络外设通信。
 
 ### <a name="iis"></a>IIS
 
@@ -190,7 +190,11 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 可以为两处的网络外设指定 IP 地址。 如果 Modern POS Windows 客户端使用一组网络外设，您应该通过使用收银机自身的“操作窗格”上的 **IP 配置**选项为这些设备设置 IP 地址。 对于将在 POS 收银机之间共享的网络设备，可以将为其指派的硬件配置文件直接映射到共享硬件工作站。 若要分配 IP 地址，请在**零售商店**页中选择该硬件工作站，然后使用**硬件工作站**部分中的 **IP 配置**选项指定为该硬件工作站分配的网络设备。 对于只有网络设备的硬件工作站，则不必部署硬件工作站本身。 在这种情况下，仅当要在概念上根据可网络寻址的设备在零售商店中的位置为这些设备分组时，才需要硬件工作站。
 
-#### <a name="cloud-pos-modern-pos-for-ios-and-modern-pos-for-android"></a>Cloud POS、Modern POS for iOS 和 Modern POS for Android
+#### <a name="modern-pos-for-android"></a>Modern POS for Android
+
+从 Dynamics 365 for Retail 版本 8.1.3 开始，Modern POS for Android 应用程序中包含内置 IPC 硬件工作站。 此硬件工作站支持与网络打印机和付款连接器通信。 有关详细信息，请访问 [适用于 Android docs 的 Hybrid 应用文章](https://docs.microsoft.com/en-us/dynamics365/unified-operations/retail/dev-itpro/hybridapp#dedicated-hardware-station-support-for-the-hybrid-android-app)。 
+
+#### <a name="cloud-pos-and-modern-pos-for-ios"></a>Cloud POS 和 Modern POS for iOS
 
 硬件工作站中包含驱动以物理方式相连且可网络寻址的外设的逻辑。 因此，对于除 Modern POS for Windows 之外的所有 POS 客户端，必须部署并激活 IIS 硬件工作站，以便让 POS 可以与外设通信，无论这些外设是以物理方式连接到硬件工作站还是通过网络寻址。
 
@@ -222,9 +226,9 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 | 客户      | IPC 硬件工作站 | IIS 硬件工作站 |
 |-------------|----------------------|----------------------|
 | Windows 应用程序 | 是                  | 是                  |
-| 云 POS   | 无                   | 是                  |
-| Android     | 无                   | 是                  |
-| iOS         | 无                   | 是                  |
+| 云 POS   | 否                   | 是                  |
+| Android     | 是                  | 是                  |
+| iOS         | 否                   | 是                  |
 
 ### <a name="network-peripherals"></a>网络外设
 
@@ -233,9 +237,9 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 | 客户      | IPC 硬件工作站 | IIS 硬件工作站 |
 |-------------|----------------------|----------------------|
 | Windows 应用程序 | 是                  | 是                  |
-| 云 POS   | 无                   | 是                  |
-| Android     | 无                   | 是                  |
-| iOS         | 无                   | 是                  |
+| 云 POS   | 否                   | 是                  |
+| Android     | 是                  | 是                  |
+| iOS         | 否                   | 是                  |
 
 ## <a name="supported-device-types-by-hardware-station-type"></a>硬件工作站类型支持的设备类型
 
@@ -661,14 +665,15 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 #### <a name="printer"></a>打印机
 
-| 制造商 | 型号    | 接口 | 评论                |
-|--------------|----------|-----------|-------------------------|
-| Epson        | Tm-T88IV | OPOS      |                         |
-| Epson        | TM-T88V  | OPOS      |                         |
-| Star         | TSP650II | OPOS      |                         |
-| Star         | TSP650II | 自定义    | 通过网络连接   |
-| Star         | mPOP     | OPOS      | 通过 Bluetooth 连接 |
-| HP           | F7M67AA  | OPOS      | 带电 USB             |
+| 制造商 | 型号      | 接口 | 注释                |
+|--------------|------------|-----------|-------------------------|
+| Epson        | Tm-T88IV   | OPOS      |                         |
+| Epson        | TM-T88V    | OPOS      |                         |
+| Epson        | ePOS-Print | 自定义    | 通过网络连接   |
+| Star         | TSP650II   | OPOS      |                         |
+| Star         | TSP650II   | 自定义    | 通过网络连接   |
+| Star         | mPOP       | OPOS      | 通过 Bluetooth 连接 |
+| HP           | F7M67AA    | OPOS      | 带电 USB             |
 
 #### <a name="bar-code-scanner"></a>条码扫描仪
 
@@ -688,15 +693,16 @@ Modern POS 使用**专用**类型的硬件工作站检测外设是否直接连�
 
 #### <a name="payment-terminal"></a>付款终端
 
-| 制造商 | 型号 | 接口 | 评论                                                                       |
-|--------------|-------|-----------|--------------------------------------------------------------------------------|
-| Equinox      | L5300 | 自定义    | 需要自定义付款连接器                                |
-| VeriFone     | MX925 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
-| VeriFone     | MX915 | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
+| 制造商 | 型号        | 接口 | 评论                                                                       |
+|--------------|--------------|-----------|--------------------------------------------------------------------------------|
+| Equinox      | L5300        | 自定义    | 需要自定义付款连接器                                |
+| VeriFone     | MX925        | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
+| VeriFone     | MX915        | 自定义    | 需要自定义付款连接器；通过网络和 USB 连接 |
+| Verifone     | 查看注释 | Adyen     | Adyen 连接器支持[此处](https://www.adyen.com/pos-payments/terminals)列出的所有设备 |
 
 #### <a name="cash-drawer"></a>银箱
 
-| 制造商 | 型号     | 接口 | 评论                |
+| 制造商 | 型号     | 接口 | 注释                |
 |--------------|-----------|-----------|-------------------------|
 | Star         | mPOP      | OPOS      | 通过 Bluetooth 连接 |
 | APG          | Atwood    | 自定义    | 通过网络连接   |

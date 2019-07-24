@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: dkrame
 ms.search.validFrom: 2019-04-23
 ms.dyn365.ops.version: Talent
-ms.openlocfilehash: 13cfe68e3d06001c56770fa60838404c43d0b38d
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 5ec10820761cb22cbff6229babe8a250848214b7
+ms.sourcegitcommit: 15154b0aa86110ce5fad6f63e6763103a676a1d2
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517404"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624573"
 ---
 # <a name="whats-new-or-changed-in-dynamics-365-for-talent-april-23-2019"></a>Dynamics 365 for Talent（2019 年 4 月 23 日）中的新增功能或更改
 
@@ -46,7 +46,7 @@ ms.locfileid: "1517404"
 ### <a name="additional-odata-entities-302992"></a>其他 OData 实体 (302992)
 OData 内现在支持下列实体：工作人员工作经验和工作人员教育。
    
-### <a name="performance-journal-attachments-for-nanagers-and-employees-308248"></a>经理和员工的绩效日记帐附件 (308248)
+### <a name="performance-journal-attachments-for-managers-and-employees-308248"></a>经理和员工的绩效日记帐附件 (308248)
 在此版本中，创建和更新绩效日记帐条目时，可以为经理和员工添加附件。
 
 ### <a name="employee-rehire-flag-always-available-310047"></a>员工重新聘用标签始终可用 (310047)

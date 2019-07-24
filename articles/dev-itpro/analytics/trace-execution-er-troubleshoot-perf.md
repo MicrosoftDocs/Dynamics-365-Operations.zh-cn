@@ -3,7 +3,7 @@ title: 跟踪 ER 格式的执行情况以解决性能问题
 description: 此主题介绍如何使用电子申报 (ER) 中的性能跟踪功能以解决性能问题。
 author: NickSelin
 manager: AnnBe
-ms.date: 05/08/2019
+ms.date: 06/12/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: nselin
 ms.search.validFrom: ''
 ms.dyn365.ops.version: 10.0.1
-ms.openlocfilehash: aa71db2752889bc905c22bab1cf2fa46d7ee07c7
-ms.sourcegitcommit: 67d00b95952faf0db580d341249d4e50be59119c
+ms.openlocfilehash: 55f3fd95a87bcf62824021ebfbf3bcd11af6013f
+ms.sourcegitcommit: f6581bab16225a027f4fbfad25fdef45bd286489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1576538"
+ms.lasthandoff: 06/27/2019
+ms.locfileid: "1703867"
 ---
 # <a name="trace-the-execution-of-er-formats-to-troubleshoot-performance-issues"></a>跟踪 ER 格式的执行情况以解决性能问题
 
@@ -346,3 +346,29 @@ Finance and Operations 中生成的每个 Er 性能跟踪都作为执行日志�
 重复本主题前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
 
 请注意，Web 浏览器提供一个可供下载的 zip 文件。 这个文件中包含 PerfView 格式的性能跟踪。 然后可使用 PerfView 性能分析工具分析 ER 格式执行情况的详细信息。
+
+![在 PerfView 中跟踪执行的 ER 格式的信息](./media/GER-PerfTrace2-PerfViewTrace1.PNG)
+
+## <a name="use-external-tools-to-review-an-execution-trace-that-includes-database-queries"></a>使用外部工具查看其中包含数据库查询的执行跟踪
+
+因为已改进了 ER 框架，所以以 PerfView 格式生成的绩效跟踪现在提供更多有关 ER 格式执行的详细信息。 在 Microsoft Dynamics 365 for Finance and Operations 版本 10.0.4（2019 年 7 月）中，此跟踪中也可以包含对执行的 SQL 查询的详细信息。
+
+### <a name="configure-user-parameters"></a>配置用户参数
+
+1. 在 Finance and Operations 中，转到**组织管理** \> **电子申报** \> **配置**。
+2. 在**配置**页操作窗格中**配置**选项卡的**高级设置**组中，选择**用户参数**。
+3. 在**用户参数**对话框的**执行跟踪**部分中，设置以下参数：
+
+    - 在**执行跟踪格式**字段中，选择 **PerfView XML**。
+    - 将**收集查询统计信息**选项设置为**是**。
+    - 将**跟踪查询**选项设置为**是**。
+
+    ![Finance and Operations 中的“用户参数”对话框](./media/GER-PerfTrace2-GER-UserParameters.PNG)
+
+### <a name="run-the-er-format"></a>运行 ER 格式
+
+重复本主题前面的[运行 ER 格式](#run-format)部分中的步骤生成一个新的性能跟踪。
+
+请注意，Web 浏览器提供一个可供下载的 zip 文件。 这个文件中包含 PerfView 格式的性能跟踪。 然后可使用 PerfView 性能分析工具分析 ER 格式执行情况的详细信息。 执行 ER 格式期间，此跟踪中现在包含 SQL 数据库访问权限的详细信息。
+
+![在 PerfView 中跟踪执行的 ER 格式的信息](./media/GER-PerfTrace2-PerfViewTrace2.PNG)

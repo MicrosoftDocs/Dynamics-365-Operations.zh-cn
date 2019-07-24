@@ -3,7 +3,7 @@ title: 已重构的费用报表
 description: 本主题介绍 Microsoft Dynamics 365 for Finance and Operations 中经过重新设计和重构的费用报表录入体验。 新体验简化了填写费用报表的流程，并缩短了所需时间。
 author: ryansandness
 manager: AnnBe
-ms.date: 05/20/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -15,17 +15,16 @@ ms.search.region: Global
 ms.author: ryansand
 ms.search.validFrom: 2019-6-30
 ms.dyn365.ops.version: 10.0.3
-ms.openlocfilehash: c7a2b95456e812970b135d83f0f7e503310ce185
-ms.sourcegitcommit: 97ed74889a09ef385f6ecbab69e84a05ff42ee41
+ms.openlocfilehash: 9e87a61bd6dd7bc1c7ef569882daf2074c7cade9
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "1592629"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1631947"
 ---
 # <a name="expense-reports-reimagined"></a>已重构的费用报表
 
 [!include[banner](../includes/banner.md)]
-[!include [banner](../includes/preview-banner.md)]
 
 重新设计了费用报表录入，以便简化填写费用报表的流程和缩短所需时间。 下面是新费用体验的主要组件：
 

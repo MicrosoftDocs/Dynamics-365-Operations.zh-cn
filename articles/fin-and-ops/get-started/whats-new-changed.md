@@ -3,7 +3,7 @@ title: 新增功能或更改功能
 description: 此页面向您介绍可以帮助您了解 Microsoft Dynamics 365 for Finance and Operations 最新版本的新功能的主题。
 author: josaw1
 manager: AnnBe
-ms.date: 06/04/2019
+ms.date: 06/14/2019
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-platform
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: josaw
 ms.search.validFrom: 2016-08-30
 ms.dyn365.ops.version: Platform update 2
-ms.openlocfilehash: bc13efe11f383157338ccd6b2ae378ee1f92a698
-ms.sourcegitcommit: bbc9aa0d6b94a942e1f4d5b038601509dcc87937
+ms.openlocfilehash: 42c31195a0b1a785afadfefc33f5cf7e1a6fce1f
+ms.sourcegitcommit: 672c94704e9a2b0ec7ee3c111d4ceb1bb8597969
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 06/05/2019
-ms.locfileid: "1619184"
+ms.lasthandoff: 06/14/2019
+ms.locfileid: "1631997"
 ---
 # <a name="whats-new-or-changed"></a>新增功能或更改的功能
 
@@ -63,7 +63,7 @@ ms.locfileid: "1619184"
 <td>10.0.3</td>
 <td>10.0.107</td>
 <td>2019 年六月</td>
-<td><a href="whats-new-changed-10-0-3.md">Dynamics 365 for Finance and Operations 版本 10.0.3（2019 年 6 月）中的预览功能</a></td>
+<td><a href="whats-new-changed-10-0-3.md">Dynamics 365 for Finance and Operations 版本 10.0.3（2019 年 6 月）中的新增功能或更改内容</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>10.0.2</td>
@@ -183,7 +183,7 @@ ms.locfileid: "1619184"
 <td>平台 update 27</td>
 <td>7.0.5286</td>
 <td>2019 年六月</td>
-<td><a href="whats-new-platform-update-27.md">Dynamics 365 for Finance and Operations 平台更新 27（2019 年六月）中的预览功能</a></td>
+<td><a href="whats-new-platform-update-27.md">Dynamics 365 for Finance and Operations 平台更新 27（2019 年 6 月）的新增功能和更改内容</a></td>
 </tr><tr>
 <td>Microsoft Dynamics 365 for Finance and Operations</td>
 <td>平台 update 26</td>

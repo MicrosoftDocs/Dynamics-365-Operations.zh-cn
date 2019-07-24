@@ -15,18 +15,16 @@ ms.search.region: Global
 ms.author: abruer
 ms.search.validFrom: 2018-03-16
 ms.dyn365.ops.version: April 2018 update
-ms.openlocfilehash: 96ad2af40ffb68649dca7a90d5ae14cd64b43ce9
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: a7eff0ce166785cb777fbf58ecf08ca8915be5af
+ms.sourcegitcommit: a237fc58ddb94ff798fac70feaf1431e00080489
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1557321"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "1624876"
 ---
 # <a name="project-timesheets-on-a-mobile-device"></a>移动设备上的项目工时单
 
 [!include [banner](../includes/banner.md)]
-
-# <a name="overview"></a>概览
 
 员工可通过**我的工时单(已针对移动优化)** 创建和提交工时单，以便在移动设备上记录特定项目的工时。 员工可以创建新的工时单，或复制现有工时单的数据，以确保快速，准确地录入工时。 如果指定为委托人，则您还可以输入其他工作人员的工时单。 此应用允许员工按项目、资源或审核状态进行筛选，以便快速找到和选择工时单。 还允许员工保存首选项，从而保存有关工时单的项目和活动信息。 保存的首选项可在将来用于创建工时单，从而加快工时的录入过程。 不支持使用这款移动应用编辑或查看财务维度信息。 可在移动设备上使用 Web 浏览器访问**我的工时单(已针对移动优化)**。
 
@@ -35,8 +33,7 @@ ms.locfileid: "1557321"
 此移动应用程序兼容已安装 Dynamics 365 for Finance and Operations 平台更新 15 的 iPhone。
 Android 将兼容平台更新 16（推出后）。
 
-<a name="create-a-project-timesheet-on-your-mobile-device"></a>在移动设备上创建项目工时单
-------------------------------------------------
+## <a name="create-a-project-timesheet-on-your-mobile-device"></a>在移动设备上创建项目工时单
 
 1.  记下**项目管理与核算** \> **工时单** \> **我的工时单(已针对移动优化)** 页上的 Dynamics 365 URL。
 
