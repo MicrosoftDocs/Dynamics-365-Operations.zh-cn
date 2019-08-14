@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: VendInvoiceWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 21901
 ms.assetid: 1e4c2ac4-077b-4678-8733-5cec8f6ff659
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-05-31
 ms.dyn365.ops.version: AX 7.0.1
-ms.openlocfilehash: f1acf2bade2bb279a35fdf4689bbbcc49e64101f
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 61599e13e783fef9753aadb768cf8e6cf6b5b6a6
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1559449"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1837438"
 ---
 # <a name="accounts-payable-home-page"></a>应付帐款主页
 
@@ -43,7 +43,7 @@ ms.locfileid: "1559449"
 
 [配置应付帐款](accounts-payable-overview.md)
 
-[会计分配和供应商发票的子分类日记帐分录](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
+[会计分配和供应商发票的子分类日记帐条目](accounting-distributions-subledger-journal-entries-vendor-invoices.md) 
 
 [应付帐款和应收帐款的外币重估](../cash-bank-management/foreign-currency-revaluation-accounts-payable-accounts-receivable.md)
 
@@ -93,7 +93,7 @@ ms.locfileid: "1559449"
 
 [在现金折扣期间之外执行现金折扣](take-cash-discount-outside-cash-discount-timeframe.md)
 
-[供应商支票的电子申报](electronic-reporting-sample-vendor-checks.md)
+[供应商支票的电子报告](electronic-reporting-sample-vendor-checks.md)
 
 [冲销供应商付款](reverse-vendor-payment.md)
 

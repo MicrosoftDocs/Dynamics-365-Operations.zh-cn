@@ -10,7 +10,7 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: CustomerInvoiceWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: roschlom
 ms.search.scope: Core, Operations
 ms.custom: 20671
 ms.assetid: 1040678e-ffcb-47fb-a1bc-626db8046504
@@ -18,12 +18,12 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 98ec7d9a57cc39c22a31c025754c83dc1a95139e
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: e00f982a6fd75447d0dcbe60d98e9d65189cac92
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1547248"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1835278"
 ---
 # <a name="accounts-receivable-home-page"></a>应收帐款主页
 
@@ -44,7 +44,7 @@ ms.locfileid: "1547248"
 
 :::row:::
     :::column:::
-        - [会计分配和普通发票的子分类日记帐分录](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
+        - [会计分配和普通发票的子分类日记帐条目](accounting-distributions-subledger-journal-entries-free-text-invoices.md)
         - [客户过帐模板](customer-posting-profiles.md)
         - [信用卡设置、授权和获取](credit-card-authorizations.md)
         - [创建客户发票](configure-customer-invoices.md)

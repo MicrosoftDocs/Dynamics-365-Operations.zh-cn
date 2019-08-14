@@ -1,7 +1,7 @@
 ---
 title: Microsoft Dynamics 365 for Finance and Operations 文档
 description: 针对 Microsoft Dynamics 365 for Finance and Operations 的文档。
-author: margoc
+author: robinarh
 manager: AnnBe
 ms.date: 04/11/2019
 ms.topic: index-page
@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: DefaultDashboard
 audience: Application User
-ms.reviewer: margoc
+ms.reviewer: rhaertle
 ms.search.scope: Core, Operations
 ms.custom: 62303
 ms.search.region: Global
 ms.author: margoc
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 4547a0c8d43584e4cb8981e0a055c514c184f6dd
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 3f29d8c74c0e7a4384f8e071d0b9babe5c5f630c
+ms.sourcegitcommit: 1bf6a8b2f872394a4f242f9ff13c67e8e1ae8f65
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1507581"
+ms.lasthandoff: 08/03/2019
+ms.locfileid: "1856297"
 ---
 # <a name="microsoft-dynamics-365-for-finance-and-operations-documentation"></a>Microsoft Dynamics 365 for Finance and Operations 文档
 

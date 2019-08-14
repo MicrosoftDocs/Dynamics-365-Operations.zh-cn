@@ -10,19 +10,19 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ERWorkspace
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: sericks
 ms.search.scope: Core, Operations
 ms.custom: 104173
 ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: b9815ee404981719888e4fdf637bd81f1744d7fb
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 2d2fe0b357edf3594aa7d795eb2a15f03a886d79
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1517013"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1850607"
 ---
 # <a name="globalization"></a>全球化
 
@@ -69,17 +69,17 @@ Microsoft Dynamics 365 for Finance and Operations 包含适用于[产品本地�
 #### <a name="finance-and-operations-whats-new"></a>Finance and Operations 新增功能
 [新增功能内容](../../fin-and-ops/get-started/whats-new-changed.md)列出了 Finance and Operations 特定版本中的功能。
 
-### <a name="electronic-reporting"></a>电子申报
-电子申报 (ER) 工具可让您根据各个国家/地区的法律要求配置电子单据的格式。 ER 可让您在电子单据的生命周期中管理它们。 有关详细信息，请参阅以下主题之一：
--   [电子申报概览](../analytics/general-electronic-reporting.md)
--   [管理电子申报配置生命周期](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
--   [创建电子申报配置](../analytics/electronic-reporting-configuration.md)
--   [扩展电子申报功能的列表](../analytics/general-electronic-reporting-formulas-list-extension.md)
--   [电子申报目标](../analytics/electronic-reporting-destinations.md)
--   [从 Lifecycle Services 下载电子申报配置](../analytics/download-electronic-reporting-configuration-lcs.md)
--   [导入电子申报配置](../analytics/electronic-reporting-import-ger-configurations.md)
--   [配置电子申报以便将数据导入 Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
--   [使用电子申报工具生成电子文档并更新申请表数据](../analytics/generate-electronic-documents-update-application-data.md)
+### <a name="electronic-reporting"></a>电子报告
+电子报告 (ER) 工具可让您根据各个国家/地区的法律要求配置电子单据的格式。 ER 可让您在电子单据的生命周期中管理它们。 有关详细信息，请参阅以下主题之一：
+-   [电子报告概览](../analytics/general-electronic-reporting.md)
+-   [管理电子报告配置生命周期](../analytics/general-electronic-reporting-manage-configuration-lifecycle.md)
+-   [创建电子报告配置](../analytics/electronic-reporting-configuration.md)
+-   [扩展电子报告功能的列表](../analytics/general-electronic-reporting-formulas-list-extension.md)
+-   [电子报告目标](../analytics/electronic-reporting-destinations.md)
+-   [从 Lifecycle Services 下载电子报告配置](../analytics/download-electronic-reporting-configuration-lcs.md)
+-   [导入电子报告配置](../analytics/electronic-reporting-import-ger-configurations.md)
+-   [配置电子报告以便将数据导入 Power BI](../analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md)
+-   [使用电子报告工具生成电子文档并更新申请表数据](../analytics/generate-electronic-documents-update-application-data.md)
 
 ### <a name="task-guides"></a>任务指南
 任务指南可从产品帮助窗格中找到，它们将指导您演练关键业务流程。 您可以打开任务指南以读取业务流程步骤，也可以播放任务指南以演练业务流程和输入数据。
