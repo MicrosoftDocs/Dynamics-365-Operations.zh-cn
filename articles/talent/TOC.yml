@@ -8,6 +8,12 @@
         - name: Talent 新增功能或更改
           href: whats-new.md
           items:
+            - name: 2019 年 7 月 23 日
+              href: whats-new-talent-july-24-2019.md
+            - name: 2019 年 7 月 16 日
+              href: whats-new-talent-july-16-2019.md
+            - name: 2019 年 7 月 9 日
+              href: whats-new-talent-july-9-2019.md
             - name: 2019 年 7 月 2 日
               href: whats-new-talent-july-2-2019.md
             - name: 2019 年 6 月 25 日
@@ -96,14 +102,12 @@
           href: provisioning-talent.md
         - name: 删除 Talent 环境
           href: remove-talent-environment.md
-        - name: Onboard 应用程序配置
+        - name: Onboard 应用配置
           href: modular-app-tech-faq.md
-        - name: 嵌入 PowerApps 应用程序
+        - name: 嵌入 PowerApps 应用
           href: ../fin-and-ops/get-started/embed-power-apps.md?toc=/dynamics365/unified-operations/talent/toc.json
         - name: Core HR 和 Common Data Service
           href: CoreHREntities.md
-        - name: 访问预览功能
-          href: access-preview-feature.md
         - name: 获取 Talent 支持
           href: talent-support.md
     - name: 通过 Attract 为您的组织配备人员
@@ -112,53 +116,73 @@
           href: attract-comprehensive-hiring.md
         - name: Attract 特色和功能
           href: attract-overview.md
-        - name: LinkedIn 常见问题
-          href: attract-linkedin-faq.md
-        - name: 配置电子邮件设置
-          href: attract-configure-email-settings.md
-        - name: 在 Attract 中创建流程模板
-          href: Process-templates-Attract.md
-        - name: 创建和发布工作
-          href: Creating-jobs-Attract.md
-        - name: 设置与 LinkedIn 的集成
-          href: attract-admin-linkedin.md
-        - name: 将工作从 Attract 发布到 LinkedIn
-          href: attract-post-jobs-to-linkedin.md
-        - name: 将工作从 Attract 发布到 Broadbean
-          href: posting-jobs-external.md
-        - name: 使用人才池寻求应聘者
-          href: attract-talent-pools.md
-        - name: 使用 LinkedIn Recruiter 寻求应聘者
-          href: attract-linkedin-recruiter.md
-        - name: 招聘流程中的活动
-          href: activities-attract.md
-        - name: 面试计划和反馈
-          href: interview-scheduling-feedback.md
+        - name: 常见问题
+          items:
+            - name: LinkedIn 集成常见问题
+              href: attract-linkedin-faq.md
+        - name: 配置系统设置
+          items:
+            - name: 配置公司信息
+              href: admin-settings-attract.md
+            - name: 设置用户权限
+              href: security-attract.md
+            - name: 管理功能
+              href: access-preview-feature.md
+            - name: 设置您的求职站点
+              href: career-site.md
+            - name: 启用 Broadbean 集成
+              href: attract-admin-job-board-settings.md
+            - name: 配置电子邮件设置
+              href: attract-configure-email-settings.md
+            - name: 设置 LinkedIn 集成
+              href: attract-admin-linkedin.md
+        - name: 创建招聘流程
+          items:
+            - name: 创建流程模板
+              href: process-templates-attract.md
+            - name: 招聘流程中的活动
+              href: activities-attract.md
+            - name: 电子邮件模板
+              href: email-templates.md
+            - name: 使用分析报告
+              href: analytic-reports.md
+        - name: 创建和发布职位
+          items:
+            - name: 创建职位
+              href: creating-jobs-attract.md
+            - name: 将职位发布至 LinkedIn
+              href: attract-post-jobs-to-linkedin.md
+            - name: 将职位发布至 Broadbean
+              href: posting-jobs-external.md
+            - name: 关闭职位
+              href: attract-close-job.md
+        - name: 搜寻候选人
+          items:
+            - name: 使用人才池搜寻候选人
+              href: attract-talent-pools.md
+            - name: 使用 LinkedIn Recruiter 搜寻候选人
+              href: attract-linkedin-recruiter.md
+            - name: 跟踪候选人来源
+              href: source-tracking.md
+            - name: 智能建议
+              href: Intelligent-Recommendations.md
+        - name: 安排面试
+          items:
+            - name: 面试计划和反馈
+              href: interview-scheduling-feedback.md
+        - name: 发出聘约
+          items:
+            - name: 设置聘约管理
+              href: offer-setup.md
+            - name: 创建、审核和签署聘约
+              href: creating-offers.md
         - name: Attract 的可扩展性
           href: extensibility-attract.md
-        - name: Attract 中的求职站点功能
-          href: career-site.md
-        - name: 设置聘约管理
-          href: offer-setup.md
-        - name: 创建、审核和签署聘约
-          href: creating-offers.md
-        - name: 电子邮件模板
-          href: email-templates.md
-        - name: Attract 中的安全和角色管理
-          href: security-attract.md
-        - name: Attract 中的管理员设置
-          href: Admin-Settings-Attract.md
-        - name: 智能建议
-          href: Intelligent-Recommendations.md
-        - name: 追踪应聘者个人资料和申请的来源
-          href: source-tracking.md
-        - name: 使用分析报告来获取招聘流程见解
-          href: analytic-reports.md
     - name: 欢迎新雇员使用 Onboard
       items:
         - name: Onboard 入门
           href: create-onboarding-experience.md
-        - name: 获取 Onboard 应用程序
+        - name: 获取 Onboard 应用
           href: onboard-get-app.md
         - name: 创建和发送入职指南
           href: onboard-create-guide.md
@@ -186,6 +210,8 @@
               href: set-up-hr-parameters-across-legal-entities.md
             - name: 设置特定于公司的人力资源参数
               href: set-up-company-specific-hr-parameters.md
+            - name: Talent 中的日期和时间字段
+              href: date-time-fields-in-talent.md
             - name: 人事行动常见问题
               href: personnel-actions-faq.md
             - name: 确定业务流程
@@ -391,7 +417,7 @@
           href: corehr-custom-fields.md
     - name: Talent 疑难解答
       items:
-        - name: 将工作发布到 LinkedIn 疑难解答
+        - name: 将职位发布到 LinkedIn 疑难解答
           href: attract-troubleshoot-linkedin.md
         - name: 未更新分析报表
           href: analytic-reports-not-updated.md

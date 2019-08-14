@@ -106,10 +106,28 @@
           items:
             - name: X++ 语言参考
               href: dev-ref/xpp-language-reference.md
-            - name: X++ 变量和数据类型
-              href: dev-ref/xpp-variables-data-types.md
-            - name: X++ 语句、循环和异常处理
-              href: dev-ref/xpp-statements-loops.md
+            - name: 变量和数据类型
+              items:
+                - name: 变量
+                  href: dev-ref/xpp-variables-data-types.md
+                - name: 原始数据类型
+                  href: dev-ref/xpp-data-primitive.md
+                - name: 复合数据类型
+                  href: dev-ref/xpp-data-composite.md
+                - name: 集合类
+                  href: dev-ref/xpp-data-collection.md
+                - name: 扩展数据类型
+                  href: dev-ref/xpp-data-edt.md
+            - name: 语句、循环和异常处理
+              items:
+                - name: 注释、使用和打印
+                  href: dev-ref/xpp-statements-loops.md
+                - name: 条件语句
+                  href: dev-ref/xpp-conditional.md
+                - name: 循环语句
+                  href: dev-ref/xpp-loops.md
+                - name: 异常处理
+                  href: dev-ref/xpp-exceptions.md
             - name: SQL 连接错误 X++ 异常
               href: dev-ref/sql-connection-error.md
             - name: X++ 运算符
@@ -120,6 +138,8 @@
               href: dev-ref/xpp-classes-methods.md
             - name: X++ 数据选择和操作
               href: dev-ref/xpp-data-query.md
+            - name: 使用 SysDa API 进行数据访问
+              href: dev-ref/sysda.md
             - name: X++ 宏
               href: dev-ref/xpp-macros.md
             - name: X++ 属性类
@@ -230,7 +250,7 @@
       items:
         - name: 可扩展性主页
           href: extensibility/extensibility-home-page.md
-        - name: 简介和开始
+        - name: 简介和入门
           items:
             - name: 应用程序可扩展性计划
               href: extensibility/extensibility-roadmap.md
@@ -438,6 +458,10 @@
           href: user-interface/page-layout.md
         - name: Dynamics 符号字体
           href: user-interface/symbol-font.md
+        - name: 已保存的视图
+          href: ../fin-and-ops/get-started/saved-views.md
+        - name: 生成可充分利用已保存视图的窗体
+          href: user-interface/understanding-saved-views.md
         - name: 使用自定义模式的测试窗体
           href: user-interface/testing-forms-custom-patterns.md
         - name: 创建可共享且安全的 URL（深层链接）
@@ -496,7 +520,7 @@
           href: user-interface/messaging-api-center-bar-details.md
         - name: 消息中心、消息栏和消息详细信息常见问题
           href: user-interface/messaging-user.md
-    - name: 主窗体模式准则
+    - name: 窗体模式准则
       items:
         - name: 已迁移窗体的窗体模式
           href: user-interface/select-form-pattern.md
@@ -1129,7 +1153,7 @@
           href: migration-upgrade/on-prem-upgrade.md
     - name: 修补程序
       items:
-        - name: 从 Lifecycle Services 下载修补程序
+        - name: 从 Lifecycle Services 获取更新
           href: migration-upgrade/download-hotfix-lcs.md
         - name: 将更新应用于云环境
           href: deployment/apply-deployable-package-system.md
@@ -1162,6 +1186,8 @@
       href: sysadmin/pre-configured-system-accounts.md
     - name: 将 B2B 用户导出到 Azure AD
       href: sysadmin/implement-b2b.md
+    - name: 将会话设置为空闲超时
+      href: sysadmin/session-idle-timeout.md
     - name: 基于角色的安全性
       href: sysadmin/role-based-security.md
       items:
@@ -1310,6 +1336,8 @@
   items:
     - name: 获取对 Finance and Operations 和 Lifecycle Services 的支持
       href: lifecycle-services/lcs-support.md
+    - name: Dynamics 365 支持概览
+      href: 'https://docs.microsoft.com/power-platform/admin/support-overview?toc=/dynamics365/unified-operations/fin-and-ops/toc.json&bc=/dynamics365/unified-operations/breadcrumb/toc.json'
     - name: 获取由 21Vianet 在中国运营的 Finance and Operations 的支持
       href: lifecycle-services/21vianet-support.md
     - name: 记录顶级支持票证

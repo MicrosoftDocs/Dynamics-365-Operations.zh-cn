@@ -27,6 +27,8 @@
                   href: ../dev-itpro/deployment/warehousing-for-on-premise-deployments.md?toc=/fin-and-ops/toc.json
                 - name: Finance and Operations 由 21Vianet 在中国运营
                   href: ../dev-itpro/deployment/china-local-deployment.md
+                - name: 法国 Finance and Operations
+                  href: ../dev-itpro/deployment/france-local-deployment.md
             - name: 服务更新可用性
               href: get-started/public-preview-releases.md
             - name: 购买 Finance and Operations
@@ -44,6 +46,8 @@
               href: get-started/ax-2012-features-not-implemented-but-not-deprecated.md
             - name: 未在本地部署中实现的功能
               href: get-started/features-not-implemented-on-prem.md
+            - name: Finance and Operations 版本 10.0.5（2019 年 10 月）中的预览功能
+              href: get-started/whats-new-changed-10-0-5.md
             - name: Finance and Operations 版本 10.0.4（2019 年 7 月）
               href: get-started/whats-new-changed-10-0-4.md
             - name: Finance and Operations 版本 10.0.3（2019 年 6 月）
@@ -56,6 +60,8 @@
               href: get-started/whats-new-changed-10.md
             - name: Finance and Operations 版本 8.1.3（2019 年 1 月）
               href: get-started/whats-new-changed-8-1-3.md
+            - name: Platform update 29（2019 年 10 日）预览功能
+              href: get-started/whats-new-platform-update-29.md
             - name: Platform update 28（2019 年 7 月）
               href: get-started/whats-new-platform-update-28.md
             - name: Platform update 27（2019 年 6 月）
@@ -156,9 +162,11 @@
               href: get-started/navigation-search.md
             - name: 打造个性化的用户体验
               href: get-started/personalize-user-experience.md
+            - name: 已保存的视图
+              href: get-started/saved-views.md
             - name: 创建并使用自定义字段
               href: get-started/user-defined-fields.md
-            - name: 嵌入 PowerApps 应用程序
+            - name: 嵌入 PowerApps 应用
               href: get-started/embed-power-apps.md
             - name: 使用查询来查找信息
               href: get-started/use-lookups-to-find-information.md
@@ -265,16 +273,16 @@
           href: ../dev-itpro/business-events/potential-use-cases.md
         - name: 教程
           items:
-            - name: 将业务事件用于 Microsoft Flow
+            - name: 通过 Microsoft Flow 使用业务事件
               href: ../dev-itpro/business-events/how-to/how-to-flow.md
-    - name: 合规性
-      items:
-        - name: 审计政策规则
-          href: ../financials/general-ledger/audit-policy-rules.md
-        - name: 审计政策违规记录和案例
-          href: ../financials/general-ledger/audit-policy-violations-cases.md
-        - name: 定义原始凭证的审计策略
-          href: ../financials/general-ledger/tasks/define-audit-policies-source-documents.md
+            - name: 通过 Azure 事件网格来使用业务事件
+              href: ../dev-itpro/business-events/how-to/how-to-eventgrid.md
+            - name: 通过 Azure 服务总线来使用业务事件
+              href: ../dev-itpro/business-events/how-to/how-to-servicebus.md
+            - name: 使用工作流审核业务事件
+              href: ../dev-itpro/business-events/how-to/how-to-workflow.md
+            - name: 将业务事件用于 Microsoft Forms Pro
+              href: ../dev-itpro/business-events/how-to/FormsPro.md
     - name: 成本管理
       href: ../supply-chain/cost-management/cost-management-home-page.md
       items:
@@ -419,61 +427,85 @@
                 - name: 使用记录模板创建记录
                   href: ../dev-itpro/data-entities/tasks/use-record-template-new-record.md?toc=/fin-and-ops/toc.json
             - name: 使用 Common Data Service 的数据集成
-              href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
               items:
-                - name: 配置现金方案的目标客户
-                  href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                - name: 数据集成概览
+                  href: ../dev-itpro/data-entities/data-integration-cds.md?toc=/fin-and-ops/toc.json
+                - name: 同步、双向集成
                   items:
-                    - name: 将 Sales 的客户直接同步到 Finance and Operations
-                      href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
-                    - name: 将 Finance and Operations 的产品直接同步到 Sales
-                      href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
-                    - name: 将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户
-                      href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
-                    - name: 将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
-                      href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
-                    - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
-                      href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
-                    - name: 将 Finance and Operations 的销售发票标题和行直接同步到 Sales
-                      href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
-                - name: 配置与 Field Service 的集成
-                  href: ../supply-chain/sales-marketing/field-service.md
+                    - name: 近实时数据集成
+                      href: ../dev-itpro/data-entities/dual-write-overview.md?toc=/fin-and-ops/toc.json
+                    - name: Common Data Service 上的组织层次结构
+                      href: ../dev-itpro/data-entities/dual-write-organization.md?toc=/fin-and-ops/toc.json
+                    - name: Common Data Service 中的公司概念
+                      href: ../dev-itpro/data-entities/dual-write-company.md?toc=/fin-and-ops/toc.json
+                    - name: 集成客户主数据
+                      href: ../dev-itpro/data-entities/dual-write-customer.md?toc=/fin-and-ops/toc.json
+                    - name: 集成供应商主数据
+                      href: ../dev-itpro/data-entities/dual-write-vendor.md?toc=/fin-and-ops/toc.json
+                    - name: 初始同步
+                      href: ../dev-itpro/data-entities/dual-write-initial.md?toc=/fin-and-ops/toc.json
+                    - name: 数据集成疑难解答
+                      href: ../dev-itpro/data-entities/dual-write-troubleshooting.md?toc=/fin-and-ops/toc.json
+                - name: 异步、单向集成
                   items:
-                    - name: 将 Finance and Operations 的产品与 Field Service 的产品同步
-                      href: ../supply-chain/sales-marketing/field-service-product.md
-                    - name: 将 Field Service 的工作订单同步到 Finance and Operations 的销售订单
-                      href: ../supply-chain/sales-marketing/field-service-work-order.md
-                    - name: 将 Field Service 的协议发票同步到 Finance and Operations 的普通发票
-                      href: ../supply-chain/sales-marketing/field-service-invoice.md
-                    - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
-                    - name: 将库存级别信息从 Finance and Operations 同步到 Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
-                    - name: 将具有库存单位的产品从 Finance and Operations 同步到 Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
-                    - name: 将项目列表从 Finance and Operations 同步到 Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-project-list.md
-                    - name: 将仓库从 Finance and Operations 同步到 Field Service
-                      href: ../supply-chain/sales-marketing/synchronize-warehouse.md
-                    - name: 将项目内的工作订单从 Field Service 同步到 Finance and Operations
-                      href: ../supply-chain/sales-marketing/synchronize-work-orders.md
-                - name: 配置 Project Service Automation 集成
-                  href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
-                  items:
-                    - name: Project Service Automation 集成参数
-                      href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
-                    - name: 同步项目合同和项目
-                      href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
-                    - name: 同步项目任务
-                      href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
-                    - name: 同步项目支出类别
-                      href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
-                    - name: 将项目评估同步到项目预测
-                      href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
-                    - name: 将项目实际值同步到项目集成日记帐
-                      href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
+                    - name: 现金的目标客户
+                      items:
+                        - name: 配置现金方案的目标客户
+                          href: ../supply-chain/sales-marketing/prospect-to-cash.md
+                        - name: 将 Sales 的客户直接同步到 Finance and Operations
+                          href: ../supply-chain/sales-marketing/accounts-template-mapping-direct.md
+                        - name: 将 Finance and Operations 的产品直接同步到 Sales
+                          href: ../supply-chain/sales-marketing/products-template-mapping-direct.md
+                        - name: 将 Sales 的联系人直接同步到 Finance and Operations 的联系人或客户
+                          href: ../supply-chain/sales-marketing/contacts-template-mapping-direct.md
+                        - name: 将 Sales 的销售报价单标题和行直接同步到 Finance and Operations
+                          href: ../supply-chain/sales-marketing/sales-quotation-template-mapping-sales-fin.md
+                        - name: 直接在 Sales 和 Finance and Operations 之间同步销售订单
+                          href: ../supply-chain/sales-marketing/sales-order-template-mapping-direct-two-ways.md
+                        - name: 将 Finance and Operations 的销售发票标题和行直接同步到 Sales
+                          href: ../supply-chain/sales-marketing/sales-invoice-template-mapping-direct.md
+                    - name: Field Service
+                      items:
+                        - name: 配置与 Field Service 的集成
+                          href: ../supply-chain/sales-marketing/field-service.md
+                        - name: 将 Finance and Operations 的产品与 Field Service 的产品同步
+                          href: ../supply-chain/sales-marketing/field-service-product.md
+                        - name: 将 Field Service 的工作订单同步到 Finance and Operations 的销售订单
+                          href: ../supply-chain/sales-marketing/field-service-work-order.md
+                        - name: 将 Field Service 的协议发票同步到 Finance and Operations 的普通发票
+                          href: ../supply-chain/sales-marketing/field-service-invoice.md
+                        - name: 将库存转移和调整从 Field Service 同步到 Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-adjustments.md
+                        - name: 将库存级别信息从 Finance and Operations 同步到 Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-inventory-level-info.md
+                        - name: 将具有库存单位的产品从 Finance and Operations 同步到 Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-products-inv-unit.md
+                        - name: 将项目列表从 Finance and Operations 同步到 Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-project-list.md
+                        - name: 将仓库从 Finance and Operations 同步到 Field Service
+                          href: ../supply-chain/sales-marketing/synchronize-warehouse.md
+                        - name: 将项目内的工作订单从 Field Service 同步到 Finance and Operations
+                          href: ../supply-chain/sales-marketing/synchronize-work-orders.md
+                    - name: Project Service Automation
+                      items:
+                        - name: 配置 Project Service Automation 集成
+                          href: ../financials/project-management/PSA-integration.md?toc=/fin-and-ops/toc.json
+                        - name: Project Service Automation 集成参数
+                          href: ../financials/project-management/PSA-parameters.md?toc=/fin-and-ops/toc.json
+                        - name: 同步项目合同和项目
+                          href: ../financials/project-management/project-contracts-templates.md?toc=/fin-and-ops/toc.json
+                        - name: 同步项目任务
+                          href: ../financials/project-management/project-tasks-template.md?toc=/fin-and-ops/toc.json
+                        - name: 同步项目支出类别
+                          href: ../financials/project-management/project-categories-templates.md?toc=/fin-and-ops/toc.json
+                        - name: 将项目评估同步到项目预测
+                          href: ../financials/project-management/project-estimates-templates.md?toc=/fin-and-ops/toc.json
+                        - name: 将项目实际值同步到项目集成日记帐
+                          href: ../financials/project-management/project-actuals-templates.md?toc=/fin-and-ops/toc.json
         - name: 使用外部 Web 服务
           href: ../dev-itpro/data-entities/consume-external-web-service.md?toc=/fin-and-ops/toc.json
+        - name: 电子消息
+          href: ../financials/general-ledger/electronic-messaging.md
     - name: 数据管理
       href: ../dev-itpro/data-entities/data-entities-data-packages.md?toc=/fin-and-ops/toc.json
       items:
@@ -633,7 +665,7 @@
                   href: ../financials/accounts-payable/create-vendor-payments-payment-proposal.md
                 - name: 冲销供应商付款
                   href: ../financials/accounts-payable/reverse-vendor-payment.md
-                - name: 供应商支票的电子申报
+                - name: 供应商支票的电子报告
                   href: ../financials/accounts-payable/electronic-reporting-sample-vendor-checks.md
                 - name: 预付款发票和预付款概览
                   href: ../financials/accounts-payable/prepayments-invoices-vs-prepayments.md
@@ -666,6 +698,8 @@
               href: ../financials/accounts-receivable/set-up-collections.md
             - name: 审核收款信息
               href: ../financials/accounts-receivable/tasks/review-collections-information.md
+            - name: 收入确认概览
+              href: ../financials/accounts-receivable/revenue-recognition-overview.md
             - name: 设置和处理重复发票
               href: ../financials/accounts-receivable/set-up-process-recurring-invoices.md
             - name: 会计分配和普通发票的子分类日记帐条目
@@ -1067,166 +1101,6 @@
                   href: ../financials/fixed-assets/straight-line-service-life-depreciation.md
         - name: 总帐
           href: ../financials/general-ledger/general-ledger.md
-          items:
-            - name: 帐户
-              items:
-                - name: 应计项目概览
-                  href: ../financials/general-ledger/accruals-overview.md
-                - name: 清除规则
-                  href: ../financials/general-ledger/elimination-rules.md
-                - name: 帐户和维度组合
-                  href: ../financials/general-ledger/enter-account-dimension-combinations-segmented-entry-control.md
-                - name: 单位间核算的平衡日记帐
-                  href: ../financials/general-ledger/example-balanced-journals-interunit-accounting.md
-                - name: 过帐定义
-                  href: ../financials/general-ledger/posting-definitions.md
-                - name: 过帐定义示例
-                  href: ../financials/general-ledger/example-posting-definitions.md
-                - name: 总帐科目余额
-                  href: ../financials/general-ledger/general-ledger-account-balances.md
-                - name: 定义财务维度
-                  href: ../financials/general-ledger/tasks/define-financial-dimensions.md
-                - name: 维护财务维度默认模板
-                  href: ../financials/general-ledger/tasks/maintain-financial-dimension-default-templates.md
-                - name: 创建科目结构
-                  href: ../financials/general-ledger/tasks/create-account-structures.md
-                - name: 财务维度和过帐
-                  href: ../financials/general-ledger/default-dimensions.md
-                - name: 创建应计方案
-                  href: ../financials/general-ledger/tasks/create-accrual-schemes.md
-                - name: 财务合并和货币折算
-                  href: ../financials/general-ledger/financial-consolidations-currency-translation.md
-                  items:
-                    - name: 联机合并
-                      href: ../financials/general-ledger/consolidate-online.md
-                    - name: 生成合并的财务报表
-                      href: ../financials/general-ledger/generating-consolidated-financial-statements.md
-                - name: 创建合并组和其他合并帐户
-                  href: ../financials/general-ledger/tasks/create-consolidation-groups.md
-                - name: 主科目类型
-                  href: ../financials/general-ledger/main-account-types.md
-                - name: 创建主科目
-                  href: ../financials/general-ledger/tasks/create-main-account.md
-                - name: 计划您的会计科目表
-                  href: ../financials/general-ledger/plan-chart-of-accounts.md
-                - name: 结算会计科目之间的交易记录
-                  href: ../financials/general-ledger/tasks/settle-transactions-between-ledger-accounts.md
-                - name: 设置会计科目别名
-                  href: ../financials/general-ledger/tasks/set-up-ledger-account-alias.md
-                - name: 设置主科目类别
-                  href: ../financials/general-ledger/tasks/set-up-main-account-categories.md
-                - name: 会计源资源管理器
-                  href: ../financials/accounts-payable/accounting-source-explorer.md
-                - name: 会计分配
-                  href: ../financials/accounts-payable/accounting-distributions.md
-                - name: 处理分配
-                  href: ../financials/general-ledger/process-allocations.md
-                - name: 财务维度
-                  href: ../financials/general-ledger/financial-dimensions.md
-                - name: 转换记帐或申报币种
-                  href: ../financials/general-ledger/convert-accounting-reporting-currencies.md
-                - name: 合并帐户组和帐户
-                  href: ../financials/budgeting/consolidation-account-groups-consolidation-accounts.md
-                - name: 合并和清除概览
-                  href: ../financials/budgeting/consolidation-elimination-overview.md
-                - name: 会计日历、会计年度和期间
-                  href: ../financials/budgeting/fiscal-calendars-fiscal-years-periods.md
-                - name: 配置科目结构
-                  href: ../financials/general-ledger/configure-account-structures.md
-                - name: 双货币
-                  href: ../financials/general-ledger/dual-currency.md
-            - name: 日记帐和分类帐
-              items:
-                - name: 普通日记帐处理
-                  href: ../financials/general-ledger/general-journal-processing.md
-                - name: 过帐期间日记帐
-                  href: ../financials/general-ledger/tasks/post-periodic-journals.md
-                - name: 处理分类帐分配日记帐
-                  href: ../financials/general-ledger/tasks/process-ledger-allocation-journal.md
-                - name: 内部公司会计设置
-                  href: ../financials/general-ledger/intercompany-accounting-setup.md
-                - name: 分类帐分配规则
-                  href: ../financials/general-ledger/ledger-allocation-rules.md
-                - name: 创建日记帐高级规则
-                  href: ../financials/general-ledger/tasks/create-advanced-rules-journals.md
-                - name: 创建和分配高级规则结构
-                  href: ../financials/general-ledger/tasks/create-assign-advanced-rule-structures.md
-                - name: 分类帐日记帐类型
-                  href: ../financials/general-ledger/ledger-journal-types.md
-                - name: 创建和验证日记帐
-                  href: ../financials/general-ledger/tasks/create-validate-journals.md
-                - name: 查看日记帐条目或交易记录
-                  href: ../financials/general-ledger/tasks/view-journal-entries-or-transactions.md
-                - name: 查看日记帐的相关内部公司凭证
-                  href: ../financials/general-ledger/tasks/view-related-intercompany-voucher-journal.md
-                - name: 使用模板创建日记帐条目
-                  href: ../financials/general-ledger/tasks/create-journal-entry-template.md
-                - name: 创建分类帐应计交易记录
-                  href: ../financials/general-ledger/tasks/create-ledger-accrual-transactions.md
-                - name: 从 Excel 发布日记帐行和单据
-                  href: ../financials/general-ledger/open-lines-excel-journals-documents.md
-                - name: 查看日记帐条目和交易记录
-                  href: ../financials/general-ledger/view-journal-entries-transactions.md
-                - name: 将过帐日记帐条目记入日记帐
-                  href: ../financials/general-ledger/tasks/journalize-posted-journal-entries.md
-                - name: 合并公司中的币种重估
-                  href: ../financials/general-ledger/currency-revaluation-consolidation-company.md
-                - name: 总帐的外币重估
-                  href: ../financials/general-ledger/foreign-currency-revaluation-general-ledger.md
-                - name: 导入币种汇率
-                  href: ../financials/general-ledger/import-currency-exchange-rates.md
-                - name: 一个凭证
-                  href: ../financials/general-ledger/one-voucher.md
-                - name: 分类帐结算
-                  href: ../financials/general-ledger/ledger-settlements.md
-            - name: 期间结束关闭
-              items:
-                - name: 在期间结束时关闭总帐
-                  href: ../financials/general-ledger/close-general-ledger-at-period-end.md
-                - name: 财务期间结帐工作区
-                  href: ../financials/general-ledger/financial-period-close-workspace.md
-                - name: 年终结算
-                  href: ../financials/general-ledger/year-end-close.md
-                - name: 结算会计年度
-                  href: ../financials/general-ledger/tasks/close-fiscal-year.md
-                - name: 批量财务期间结帐
-                  href: ../financials/general-ledger/tasks/mass-financial-period-close.md
-            - name: 销售税
-              items:
-                - name: 销售税概览
-                  href: ../financials/general-ledger/indirect-taxes-overview.md
-                - name: 基于边际基数和计算方法的销售税率
-                  href: ../financials/general-ledger/marginal-base-field.md
-                - name: 销售税支付和舍入规则
-                  href: ../financials/general-ledger/round-sales-tax-payments.md
-                - name: “源”字段中的销售税计算方法
-                  href: ../financials/general-ledger/sales-tax-calculation-methods-origin-field.md
-                - name: 全部金额和销售税代码的间隔计算选项
-                  href: ../financials/general-ledger/whole-amount-interval-options-sales-tax-codes.md
-                - name: 计算和调整供应商发票上的销售税
-                  href: ../financials/general-ledger/tasks/calculate-adjust-sales-tax-vendor-invoice.md
-                - name: 创建销售税支付
-                  href: ../financials/general-ledger/tasks/create-sales-tax-payment.md
-                - name: 在单据中创建销售税交易记录
-                  href: ../financials/general-ledger/tasks/create-sales-tax-transactions-documents.md
-                - name: 设置销售税分类帐记帐组
-                  href: ../financials/general-ledger/tasks/set-up-ledger-posting-groups-sales-tax.md
-                - name: 设置销售税主管机构
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-authorities.md
-                - name: 设置销售税代码
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-codes.md
-                - name: 设置销售税组和物料销售税组
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-groups-item-sales-tax-groups.md
-                - name: 设置销售税申报代码
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-reporting-codes.md
-                - name: 设置销售税结算期间
-                  href: ../financials/general-ledger/tasks/set-up-sales-tax-settlement-periods.md
-                - name: 设置预缴税金
-                  href: ../financials/general-ledger/tasks/set-up-withholding-tax.md
-                - name: 查看已过帐的销售税交易记录
-                  href: ../financials/general-ledger/tasks/view-posted-sales-tax-transactions.md
-        - name: 公共部门
-          href: ../financials/public-sector/public-sector-functionality.md
           items:
             - name: 计划公共部门功能
               href: ../financials/public-sector/plan-public-sector-functionality.md
@@ -1990,7 +1864,7 @@
                       href: ../financials/localizations/apac-ind-GST-purchase-exempted-goods.md
                     - name: 零点税率商品采购
                       href: ../financials/localizations/apac-ind-GST-purchase-zero-rated-goods.md
-                    - name: 非商品劳务税商品采购
+                    - name: 非 GST 商品采购
                       href: ../financials/localizations/apac-ind-GST-purchase-non-gst-goods.md
                     - name: 从组合经销商处采购
                       href: ../financials/localizations/apac-ind-GST-purchase-from-composite-dealer.md
@@ -2042,9 +1916,9 @@
                       href: ../financials/localizations/apac-ind-GST-return-order-form.md
                 - name: 国外交易记录
                   items:
-                    - name: 进口具有商品劳务税的商品
+                    - name: 进口具有 GST 的商品
                       href: ../financials/localizations/apac-ind-GST-import-goods-gst.md
-                    - name: 进口具有商品劳务税的服务
+                    - name: 进口具有 GST 的服务
                       href: ../financials/localizations/apac-ind-import-services-gst.md
                     - name: 出口具有零点税率税的商品
                       href: ../financials/localizations/apac-ind-GST-export-goods-zero-rated-tax.md
@@ -2429,7 +2303,8 @@
                   href: ../financials/localizations/rus-ledger-transactions-preview.md
                 - name: 设置货币交易的汇率
                   href: ../financials/localizations/rus-exchange-difference.md
-                - name: 从俄罗斯中央银行 (CBRF) 导入货币交易汇率 ../financials/general-ledger/import-currency-exchange-rates.md
+                - name: 导入俄罗斯联邦中央银行的币种汇率
+                  href: ../financials/general-ledger/import-currency-exchange-rates.md
             - name: 预付款持有人
               href: ../financials/localizations/rus-advance-holders.md
               items:
@@ -2453,6 +2328,8 @@
                   href: ../financials/localizations/rus-currency-sale-purchase.md
             - name: 增值税
               items:
+                - name: 销项增值税的本地特定过帐
+                  href: ../financials/localizations/rus-local-specific-posting-sales-vat.md
                 - name: 税务代理的增值税 (VAT)
                   href: ../financials/localizations/rus-tax-agent.md
                 - name: 增值税申报
@@ -2535,6 +2412,22 @@
                   href: ../financials/localizations/rus-officials.md
                 - name: 公司分部
                   href: ../financials/localizations/rus-company-divisions.md
+            - name: 延期
+              items:
+                - name: 设置延期
+                  href: ../financials/localizations/rus-set-up-deferrals.md
+                - name: 创建或生成延期
+                  href: ../financials/localizations/rus-create-generate-deferrals.md
+                - name: 延期接收
+                  href: ../financials/localizations/rus-deferral-transactions.md
+                - name: 勾销延期
+                  href: ../financials/localizations/rus-write-off-deferral.md
+                - name: 延期处置
+                  href: ../financials/localizations/rus-dispose-deferrals.md
+                - name: 延期盘点
+                  href: ../financials/localizations/rus-counting-deferrals.md
+                - name: 延期报告
+                  href: ../financials/localizations/rus-reporting-deferrals.md
         - name: 沙特阿拉伯
           href: ../financials/localizations/saudi-arabia.md
           items:
@@ -2949,204 +2842,204 @@
               href: ../dev-itpro/analytics/custom-designs-business-docs.md?toc=/fin-and-ops/toc.json
             - name: 使用嵌入式查看器预览 PDF 文档
               href: ../dev-itpro/analytics/preview-pdf-documents.md?toc=/fin-and-ops/toc.json
-    - name: 电子申报
-      items:
-        - name: 电子申报概览
-          href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
-        - name: 配置
+        - name: 电子报告
           items:
-            - name: 创建配置
-              href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
-            - name: 准备电子申报解决方案的组件
+            - name: 电子报告概览
+              href: ../dev-itpro/analytics/general-electronic-reporting.md?toc=/fin-and-ops/toc.json
+            - name: 配置
               items:
-                - name: 设计域特定数据模型
-                  href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: 准备应用程序特定元数据
+                - name: 创建配置
+                  href: ../dev-itpro/analytics/electronic-reporting-configuration.md?toc=/fin-and-ops/toc.json
+                - name: 准备电子报告解决方案的组件
                   items:
-                    - name: (ER) 准备要在 RCS 中使用的应用程序元数据
-                      href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) 通过使用电子申报配置访问应用程序元数据
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
-                    - name: (RCS) 通过使用互连应用程序访问应用程序元数据
-                      href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
-                - name: 定义模型映射并选择数据源
-                  href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: 将数据模型映射到所选数据源
-                  href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: 创建格式配置
-                  href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
-                - name: 将所创建格式的组件映射到数据模型元素
-                  href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
-            - name: 在目标应用程序中测试准备的电子申报解决方案
+                    - name: 设计域特定数据模型
+                      href: ../dev-itpro/analytics/tasks/er-design-domain-specific-data-model-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: 准备应用程序特定元数据
+                      items:
+                        - name: (ER) 准备要在 RCS 中使用的应用程序元数据
+                          href: ../dev-itpro/analytics/tasks/prepare-application-metadata-rcs.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) 通过使用电子报告配置访问应用程序元数据
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-er-configuration.md?toc=/fin-and-ops/toc.json
+                        - name: (RCS) 通过使用互连应用程序访问应用程序元数据
+                          href: ../dev-itpro/analytics/tasks/access-application-metadata-using-connected-applications.md?toc=/fin-and-ops/toc.json
+                    - name: 定义模型映射并选择数据源
+                      href: ../dev-itpro/analytics/tasks/er-define-model-mapping-select-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: 将数据模型映射到所选数据源
+                      href: ../dev-itpro/analytics/tasks/er-map-data-model-selected-data-sources-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: 创建格式配置
+                      href: ../dev-itpro/analytics/tasks/er-format-configuration-2016-11.md?toc=/fin-and-ops/toc.json
+                    - name: 将所创建格式的组件映射到数据模型元素
+                      href: ../dev-itpro/analytics/tasks/er-map-components-data-model-elements--2016-11.md?toc=/fin-and-ops/toc.json
+                - name: 在目标应用程序中测试准备的电子报告解决方案
+                  items:
+                    - name: (ER) 从 RCS 导入配置
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
+                    - name: 使用格式配置生成付款的电子单据
+                      href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
+                - name: 通过采用格式的新基本版本来升级格式
+                  href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
+            - name: 电子报告中的配方设计器
+              href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
+            - name: 管理单独电子报告配置中的电子报告模型映射
+              href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: 创建格式时选择数据模型定义
+              href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: 通过将内容添加为原始 XML 生成报告
+              href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
+            - name: (ER) 电子报告中的跨公司数据源
+              href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
+            - name: 设计电子报告格式以生成各种格式的传出电子单据
               items:
-                - name: (ER) 从 RCS 导入配置
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md?toc=/fin-and-ops/toc.json
-                - name: 使用格式配置生成付款的电子单据
-                  href: ../dev-itpro/analytics/tasks/er-electronic-payments.md?toc=/fin-and-ops/toc.json
-            - name: 通过采用格式的新基本版本来升级格式
-              href: ../dev-itpro/analytics/tasks/er-upgrade-format.md?toc=/fin-and-ops/toc.json
-        - name: 电子申报中的配方设计器
-          href: ../dev-itpro/analytics/general-electronic-reporting-formula-designer.md?toc=/fin-and-ops/toc.json
-        - name: 管理单独电子申报配置中的电子申报模型映射
-          href: ../dev-itpro/analytics/tasks/er-manage-model-mapping-configurations-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: 创建格式时选择数据模型定义
-          href: ../dev-itpro/analytics/tasks/er-select-data-model-definition-creating-er-format-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: 通过将内容添加为原始 XML 生成报告
-          href: ../dev-itpro/analytics/er-generate-reports-raw-xml.md?toc=/fin-and-ops/toc.json
-        - name: (ER) 电子申报中的跨公司数据源
-          href: ../dev-itpro/analytics/er-cross-company-data-sources.md?toc=/fin-and-ops/toc.json
-        - name: 设计电子申报格式以生成各种格式的传出电子单据
-          items:
-            - name: (ER) 设计用于生成 OPENXML 格式的报表的配置
-              href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: (ER) 设计配置以生成 Word 格式的报表
-              href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: 设计配置以填写 PDF 模板
-              href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
-        - name: 嵌入图像和形状
-          items:
-            - name: (ER) 在您生成的文档中嵌入图像和形状
-              href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
-            - name: 嵌入图像和形状的示例
+                - name: (ER) 设计用于生成 OPENXML 格式的报表的配置
+                  href: ../dev-itpro/analytics/tasks/er-design-reports-openxml-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: (ER) 设计配置以生成 Word 格式的报表
+                  href: ../dev-itpro/analytics/tasks/er-design-configuration-word-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: 设计配置以填写 PDF 模板
+                  href: ../dev-itpro/analytics/er-fillable-pdf.md?toc=/fin-and-ops/toc.json
+            - name: 嵌入图像和形状
               items:
-                - name: 设计配置以生成包含嵌入图像的 Office 格式报表
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
-                - name: 查看配置以生成包含嵌入图像的 Office 格式报表
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
-                - name: 生成包含嵌入图像的 Office 格式报表
-                  href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
-        - name: 通过重新应用 Excel 模板修改电子申报格式
-          href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
-        - name: 设计 Finance and Operation 版本相关的电子申报配置
-          items:
-            - name: 定义其他组件上的电子申报配置的依赖关系
-              href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
-        - name: 设计一个使用财务维度的电子申报解决方案
-          items:
-            - name: 将数据模型设计为使用财务维度作为数据源
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
-            - name: 将模型映射为使用财务维度作为数据源
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
-            - name: 将报表设计为使用财务维度作为数据源
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
-            - name: 运行使用财务维度作为数据源的报表
-              href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
-        - name: 设计电子申报格式以使用来自所生成输出的信息执行盘点和合计
-          items:
-            - name: 创建格式以执行盘点和合计
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
-            - name: 配置格式以执行盘点和合计
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
-            - name: 使用计算以生成用于盘点和合计的输出
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
-            - name: 运行格式以执行盘点和合计
-              href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
-        - name: 将作为水平扩展范围的列动态添加到 Excel 报表
-          items:
-            - name: 设计格式以将作为水平扩展范围的列动态添加到 Excel 报表
-              href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
-            - name: 运行格式以将作为水平扩展范围的列动态添加到 Excel 报表
-              href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
-        - name: 在格式输出中使用票据管理文件
-          items:
-            - name: 准备数据模型以在电子申报输出中使用票据管理文件
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
-            - name: 扩展数据模型以在电子申报输出中使用票据管理文件
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
-            - name: 创建格式以在电子申报输出中使用票据管理文件
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
-            - name: 运行格式以在电子申报输出中使用票据管理文件
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
-            - name: 修改并运行格式以在电子申报输出中使用票据管理文件
-              href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
-        - name: 使用电子申报更新应用程序数据
-          items:
-            - name: 生成电子单据并更新申请表数据
-              href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
-            - name: 导入配置以生成包含申请表数据的文档
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
-            - name: 设计配置以生成包含申请表数据的文档
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
-            - name: 修改模型和映射以生成包含申请表数据的文档
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
-            - name: 修改格式以生成包含申请表数据的文档
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
-            - name: 生成包含应用程序数据的单据
-              href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
-        - name: 通过使用电子申报解决方案从传入文件中导入数据
-          items:
-            - name: 分析不同格式的传入文档
-              href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
-            - name: 配置来自手动选择文件的数据导入
+                - name: (ER) 在您生成的文档中嵌入图像和形状
+                  href: ../dev-itpro/analytics/electronic-reporting-embed-images-shapes.md?toc=/fin-and-ops/toc.json
+                - name: 嵌入图像和形状的示例
+                  items:
+                    - name: 设计配置以生成包含嵌入图像的 Office 格式报表
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-july-2017.md?toc=/fin-and-ops/toc.json
+                    - name: 查看配置以生成包含嵌入图像的 Office 格式报表
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-2-review-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: 生成包含嵌入图像的 Office 格式报表
+                      href: ../dev-itpro/analytics/tasks/er-make-reports-ms-office-formats-embedded-images-part-3-generate-reports.md?toc=/fin-and-ops/toc.json
+            - name: 通过重新应用 Excel 模板修改电子报告格式
+              href: ../dev-itpro/analytics/modify-electronic-reporting-format-reapply-excel-template.md?toc=/fin-and-ops/toc.json
+            - name: 设计 Finance and Operation 版本相关的电子报告配置
               items:
-                - name: 创建配置以从外部 XML 文件导入数据
-                  href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
-            - name: 配置在批处理模式下来自 SharePoint 定位文件的数据导入
-              href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
-            - name: 导入 XML 格式的文件
+                - name: 定义其他组件上的电子报告配置的依赖关系
+                  href: ../dev-itpro/analytics/tasks/er-define-dependency-er-configurations-from-other-components-july-2017.md?toc=/fin-and-ops/toc.json
+            - name: 设计一个使用财务维度的电子报告解决方案
               items:
-                - name: 导入包含可选属性的 XML 格式文件
-                  href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
-                - name: 配置电子申报格式以导入包含可选属性的 XML 格式文件
-                  href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
+                - name: 将数据模型设计为使用财务维度作为数据源
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-1.md?toc=/fin-and-ops/toc.json
+                - name: 将模型映射为使用财务维度作为数据源
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-2.md?toc=/fin-and-ops/toc.json
+                - name: 将报表设计为使用财务维度作为数据源
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-3.md?toc=/fin-and-ops/toc.json
+                - name: 运行使用财务维度作为数据源的报表
+                  href: ../dev-itpro/analytics/tasks/er-financial-dimensions-data-source-4.md?toc=/fin-and-ops/toc.json
+            - name: 设计电子报告格式以使用来自所生成输出的信息执行盘点和合计
+              items:
+                - name: 创建格式以执行盘点和合计
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-1.md?toc=/fin-and-ops/toc.json
+                - name: 配置格式以执行盘点和合计
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-2.md?toc=/fin-and-ops/toc.json
+                - name: 使用计算以生成用于盘点和合计的输出
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-3.md?toc=/fin-and-ops/toc.json
+                - name: 运行格式以执行盘点和合计
+                  href: ../dev-itpro/analytics/tasks/er-format-counting-summing-4.md?toc=/fin-and-ops/toc.json
+            - name: 将作为水平扩展范围的列动态添加到 Excel 报表
+              items:
+                - name: 设计格式以将列作为水平扩展范围动态添加到 Excel 报表
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-1.md?toc=/fin-and-ops/toc.json
+                - name: 运行格式以将作为水平扩展范围的列动态添加到 Excel 报表
+                  href: ../dev-itpro/analytics/tasks/er-horizontal-2.md?toc=/fin-and-ops/toc.json
+            - name: 在格式输出中使用票据管理文件
+              items:
+                - name: 准备数据模型以在电子报告输出中使用文档管理文件
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-1.md?toc=/fin-and-ops/toc.json
+                - name: 扩展数据模型以在电子报告输出中使用文档管理文件
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-2.md?toc=/fin-and-ops/toc.json
+                - name: 创建格式以在电子报告输出中使用文档管理文件
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-3.md?toc=/fin-and-ops/toc.json
+                - name: 运行格式以在电子报告输出中使用票据管理文件
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-4.md?toc=/fin-and-ops/toc.json
+                - name: 修改并运行格式以在电子报告输出中使用票据管理文件
+                  href: ../dev-itpro/analytics/tasks/er-document-management-files-5.md?toc=/fin-and-ops/toc.json
+            - name: 使用电子报告更新应用程序数据
+              items:
+                - name: 生成电子文档并更新应用程序数据
+                  href: ../dev-itpro/analytics/generate-electronic-documents-update-application-data.md?toc=/fin-and-ops/toc.json
+                - name: 导入配置以生成包含申请表数据的文档
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-1-import-configurations.md?toc=/fin-and-ops/toc.json
+                - name: 设计配置以生成包含申请表数据的文档
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-2-generate-documents.md?toc=/fin-and-ops/toc.json
+                - name: 修改模型和映射以生成包含申请表数据的文档
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-3-modify-model-mapping.md?toc=/fin-and-ops/toc.json
+                - name: 修改格式以生成包含应用程序数据的文档
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-4-modify-format.md?toc=/fin-and-ops/toc.json
+                - name: 生成包含应用程序数据的单据
+                  href: ../dev-itpro/analytics/tasks/er-generate-documents-application-data-update-part-5-generate-documents-application-data-update.md?toc=/fin-and-ops/toc.json
+            - name: 通过使用电子报告解决方案从传入文件中导入数据
+              items:
+                - name: 分析不同格式的传入文档
+                  href: ../dev-itpro/analytics/er-parse-incoming-documents.md?toc=/fin-and-ops/toc.json
+                - name: 配置来自手动选择文件的数据导入
+                  items:
+                    - name: 创建配置以从外部 XML 文件导入数据
+                      href: ../dev-itpro/analytics/tasks/er-required-configurations-import-data.md?toc=/fin-and-ops/toc.json
+                - name: 配置在批处理模式下来自 SharePoint 定位文件的数据导入
+                  href: ../dev-itpro/analytics/er-configure-data-import-sharepoint.md?toc=/fin-and-ops/toc.json
+                - name: 导入 XML 格式的文件
+                  items:
+                    - name: 导入包含可选属性的 XML 格式文件
+                      href: ../dev-itpro/analytics/rcs-optional-attributes.md?toc=/fin-and-ops/toc.json
+                    - name: 配置电子报告格式以导入包含可选属性的 XML 格式文件
+                      href: ../dev-itpro/analytics/tasks/import-files-xml-format-optional-attributes.md
             - name: 基于文件大小和内容数量拆分生成的 XML 文件
               href: ../dev-itpro/analytics/er-split-files.md?toc=/fin-and-ops/toc.json
-        - name: 配置生命周期
-          items:
-            - name: 管理配置生命周期
-              href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
-            - name: 将配置上载到 Lifecycle Services 中
-              href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: 从 Lifecycle Services 导入配置
-              href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
-            - name: 从 Lifecycle Services 下载配置
-              href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
-            - name: 导入配置
-              href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
-            - name: 从 RCS 存储库中下载电子申报配置
+            - name: 配置生命周期
               items:
-                - name: 从 RCS 类型的电子申报存储库中下载配置
-                  href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
-                - name: 从 RCS 导入配置
-                  href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
-        - name: 在 Finance and Operations 中使用电子申报解决方案
-          items:
-            - name: 配置框架
+                - name: 管理配置生命周期
+                  href: ../dev-itpro/analytics/general-electronic-reporting-manage-configuration-lifecycle.md?toc=/fin-and-ops/toc.json
+                - name: 将配置上载到 Lifecycle Services 中
+                  href: ../dev-itpro/analytics/tasks/er-upload-configuration-into-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: 从 Lifecycle Services 导入配置
+                  href: ../dev-itpro/analytics/tasks/er-import-configuration-lifecycle-services.md?toc=/fin-and-ops/toc.json
+                - name: 从 Lifecycle Services 下载配置
+                  href: ../dev-itpro/analytics/download-electronic-reporting-configuration-lcs.md?toc=/fin-and-ops/toc.json
+                - name: 导入配置
+                  href: ../dev-itpro/analytics/electronic-reporting-import-ger-configurations.md?toc=/fin-and-ops/toc.json
+                - name: 从 RCS 存储库中下载电子报告配置
+                  items:
+                    - name: 从 RCS 类型的电子报告存储库中下载配置
+                      href: ../dev-itpro/analytics/rcs-download-configurations.md?toc=/fin-and-ops/toc.json
+                    - name: 从 RCS 导入配置
+                      href: ../dev-itpro/analytics/tasks/import-configuration-rcs.md
+            - name: 在 Finance and Operations 中使用电子报告解决方案
               items:
-                - name: 配置电子申报框架
-                  href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
-                - name: 创建配置提供程序并将其标记为有效
-                  href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: 目标
+                - name: 配置框架
+                  items:
+                    - name: 配置电子报告框架
+                      href: ../dev-itpro/analytics/electronic-reporting-er-configure-parameters.md?toc=/fin-and-ops/toc.json
+                    - name: 创建配置提供程序并将其标记为有效
+                      href: ../dev-itpro/analytics/tasks/er-configuration-provider-mark-it-active-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: 目标
+                  items:
+                    - name: 目标概览
+                      href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
+                    - name: 配置目标
+                      href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
+                - name: 自动验证生成的报表
+                  items:
+                    - name: 跟踪生成的报表结果并将其与基准值进行比较
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
+                    - name: 所生成电子报告报表的跟踪结果的改进以及与基准值的比较
+                      href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
+                    - name: 自动测试电子报告
+                      href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
+                - name: 通过使用电子报告配置自动执行业务流程
+                  items:
+                    - name: 配置电子报告以便将数据导入 Power BI
+                      href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
+                    - name: 生成可打印的普通发票 (FTI) 窗体
+                      href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
+                - name: 跟踪电子报告格式的执行以解决性能问题
+                  href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
+            - name: 电子报告框架 API
               items:
-                - name: 目标概览
-                  href: ../dev-itpro/analytics/electronic-reporting-destinations.md?toc=/fin-and-ops/toc.json
-                - name: 配置目标
-                  href: ../dev-itpro/analytics/tasks/er-destinations-2016-11.md?toc=/fin-and-ops/toc.json
-            - name: 自动验证生成的报表
-              items:
-                - name: 跟踪生成的报表结果并将其与基准值进行比较
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline.md?toc=/fin-and-ops/toc.json
-                - name: 所生成电子申报报表的跟踪结果的改进以及与基准值的比较
-                  href: ../dev-itpro/analytics/er-trace-reports-compare-baseline-replace.md?toc=/fin-and-ops/toc.json
-                - name: 自动测试电子申报
-                  href: ../dev-itpro/analytics/er-automate-testing.md?toc=/fin-and-ops/toc.json
-            - name: 通过使用电子申报配置自动执行业务流程
-              items:
-                - name: 配置电子申报以便将数据导入 Power BI
-                  href: ../dev-itpro/analytics/general-electronic-reporting-report-configuration-get-data-powerbi.md?toc=/fin-and-ops/toc.json
-                - name: 生成可打印的普通发票 (FTI) 窗体
-                  href: ../dev-itpro/analytics/er-generate-printable-fti-forms.md?toc=/fin-and-ops/toc.json
-            - name: 跟踪电子申报格式的执行以解决性能问题
-              href: ../dev-itpro/analytics/trace-execution-er-troubleshoot-perf.md?toc=/fin-and-ops/toc.json
-        - name: 电子申报框架 API
-          items:
-            - name: 扩展电子申报功能的列表
-              href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
-            - name: 针对 Application update 7.3 的电子申报框架 API 更改
-              href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
-            - name: 为生成文档指定自定义存储位置
-              href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
+                - name: 扩展电子报告功能的列表
+                  href: ../dev-itpro/analytics/general-electronic-reporting-formulas-list-extension.md?toc=/fin-and-ops/toc.json
+                - name: 针对 Application update 7.3 的电子报告框架 API 更改
+                  href: ../dev-itpro/analytics/er-apis-app73.md?toc=/fin-and-ops/toc.json
+                - name: 为生成文档指定自定义存储位置
+                  href: ../dev-itpro/analytics/er-custom-storage-generated-documents.md?toc=/fin-and-ops/toc.json
         - name: 嵌入的分析解决方案
           items:
             - name: 工作区中的嵌入式 Power BI
@@ -3281,6 +3174,97 @@
               href: ../supply-chain/cost-management/track-running-average-cost-per-inventory-dimension.md
     - name: 供应链
       href: ../supply-chain/index.md
+    - name: 资产管理
+      items:
+        - name: 资产管理概览
+          href: ../supply-chain/asset-management/index.md
+          items:
+            - name: 功能位置和资产
+              href: ../supply-chain/asset-management/overview/functional-locations-and-objects.md
+            - name: 资产和工作订单
+              href: ../supply-chain/asset-management/overview/objects-and-work-orders.md
+        - name: 功能位置设置
+          items:
+            - name: 功能位置生命周期状态
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-stages.md
+            - name: 维护属性类型
+              href: ../supply-chain/asset-management/setup-for-functional-locations/functional-location-types.md
+            - name: 功能位置类型
+              href: ../supply-chain/asset-management/setup-for-functional-locations/specification-types.md
+        - name: 功能位置
+          items:
+            - name: 功能位置简介
+              href: ../supply-chain/asset-management/functional-locations/introduction-to-functional-locations.md
+            - name: 创建功能位置
+              href: ../supply-chain/asset-management/functional-locations/create-functional-locations.md
+            - name: 在功能位置上安装资产
+              href: ../supply-chain/asset-management/functional-locations/install-objects-on-functional-locations.md
+        - name: 资产设置
+          items:
+            - name: 资产类型
+              href: ../supply-chain/asset-management/setup-for-objects/object-types.md
+            - name: 条件评估
+              href: ../supply-chain/asset-management/setup-for-objects/condition-assessment.md
+            - name: 资产制造商和模型
+              href: ../supply-chain/asset-management/setup-for-objects/product-and-model.md
+            - name: 计数器
+              href: ../supply-chain/asset-management/setup-for-objects/counters.md
+            - name: 资产管理参数
+              href: ../supply-chain/asset-management/setup-for-objects/enterprise-asset-management-parameters.md
+            - name: 资产生命周期状态
+              href: ../supply-chain/asset-management/setup-for-objects/object-stages.md
+            - name: 资产服务级别
+              href: ../supply-chain/asset-management/setup-for-objects/object-priorities.md
+            - name: 资产关键性
+              href: ../supply-chain/asset-management/setup-for-objects/object-criticalities.md
+            - name: 资产文档
+              href: ../supply-chain/asset-management/setup-for-objects/object-documents.md
+            - name: 维护工人和工作人员组
+              href: ../supply-chain/asset-management/setup-for-objects/workers-and-worker-groups.md
+        - name: 资产
+          items:
+            - name: 资产简介
+              href: ../supply-chain/asset-management/objects/introduction-to-objects.md
+            - name: 创建资产
+              href: ../supply-chain/asset-management/objects/create-an-object.md
+            - name: 多级资产
+              href: ../supply-chain/asset-management/objects/multi-level-objects.md
+            - name: 移动、替换和安装资产
+              href: ../supply-chain/asset-management/objects/move-replace-and-install-objects.md
+            - name: 基于采购订单创建资产
+              href: ../supply-chain/asset-management/objects/create-objects-based-on-purchase-orders.md
+            - name: 资产物料清单
+              href: ../supply-chain/asset-management/objects/object-bom.md
+            - name: 资产事件历史记录
+              href: ../supply-chain/asset-management/objects/object-timeline.md
+            - name: 资产视图
+              href: ../supply-chain/asset-management/objects/object-view.md
+            - name: 资产属性概览
+              href: ../supply-chain/asset-management/objects/object-specification-overview.md
+        - name: 维护请求设置
+          items:
+            - name: 维护请求
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/requests.md
+            - name: 维护请求生命周期状态
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-stages.md
+            - name: 维护请求类型
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/request-types.md
+            - name: 负责的维护工人
+              href: ../supply-chain/asset-management/setup-for-maintenance-requests/responsible-workers.md
+        - name: 管理维护请求
+          items:
+            - name: 维护请求
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-overview.md
+            - name: 创建维护请求
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-a-maintenance-request.md
+            - name: 根据维护请求创建工作订单
+              href: ../supply-chain/asset-management/manage-maintenance-requests/create-work-order-from-a-maintenance-request.md
+            - name: 租借维护资产
+              href: ../supply-chain/asset-management/manage-maintenance-requests/asset-loan.md
+            - name: 流入和流出资产
+              href: ../supply-chain/asset-management/manage-maintenance-requests/inbound-and-outbound-assets.md
+            - name: 维护请求报表
+              href: ../supply-chain/asset-management/manage-maintenance-requests/maintenance-request-reports.md
     - name: 主计划
       href: ../supply-chain/master-planning/master-planning-home-page.md
       items:
@@ -3289,6 +3273,8 @@
           items:
             - name: 设置主计划
               href: ../supply-chain/master-planning/master-planning-setup.md
+            - name: 主计划设置向导
+              href: ../supply-chain/master-planning/master-planning-setup-wizard.md
             - name: 覆盖范围设置
               href: ../supply-chain/master-planning/coverage-settings.md
             - name: 定义物料的覆盖规则
@@ -3363,7 +3349,7 @@
               href: ../supply-chain/master-planning/tasks/create-baseline-forecast.md
             - name: 手动修改需求预测
               href: ../supply-chain/master-planning/tasks/modify-demand-forecast-manually.md
-    - name: Dynamics 365 for Unified Operations Mobile 应用
+    - name: 移动应用
       href: ../dev-itpro/mobile-apps/Mobile-app-home-page.md?toc=/fin-and-ops/toc.json
       items:
         - name: 可用移动工作区
@@ -3615,6 +3601,24 @@
               href: organization-administration/tasks/view-workflow-history.md
             - name: 配置系统以向用户发送工作流相关电子邮件
               href: organization-administration/tasks/users-receive-workflow-related-email-messages.md
+            - name: 工作流类型
+              items:
+                - name: 创建工作流类型
+                  href: organization-administration/workflow-type-create.md
+                - name: 工作流类型清单
+                  href: organization-administration/workflow-type-checklist.md
+                - name: 创建工作流类别
+                  href: organization-administration/workflow-type-category.md
+                - name: 创建工作流类型查询
+                  href: organization-administration/workflow-type-query.md
+                - name: 创建新的工作流类型
+                  href: organization-administration/workflow-type-create-new.md
+                - name: 创建工作流文档类
+                  href: organization-administration/workflow-type-document-create.md
+                - name: 创建 SubmitToWorkflow 类
+                  href: organization-administration/workflow-type-submit-to-workflow.md
+                - name: 将工作流文档类与工作流类型关联
+                  href: organization-administration/workflow-type-associate-document.md
             - name: 工作流类型报告
               href: organization-administration/workflow-types-report.md
             - name: 工作流常见问题
@@ -4491,6 +4495,8 @@
               href: ../supply-chain/warehousing/tasks/create-work-class.md
             - name: 管理仓库工作人员
               href: ../supply-chain/warehousing/manage-warehouse-workers.md
+            - name: 仓库工作延期处理
+              href: ../supply-chain/warehousing/deferred-put.md
         - name: 部分解除和部分装运
           items:
             - name: 运输负荷的部分装运
