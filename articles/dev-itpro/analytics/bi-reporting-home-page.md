@@ -9,7 +9,7 @@ ms.prod: ''
 ms.service: dynamics-ax-platform
 ms.technology: ''
 audience: Application User, IT Pro
-ms.reviewer: sericks
+ms.reviewer: kfend
 ms.search.scope: Core, Operations
 ms.custom: 27681
 ms.assetid: c4624bc8-3661-49e6-9cb4-87778acdc302
@@ -17,12 +17,12 @@ ms.search.region: Global
 ms.author: sericks
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: efd96759c5fb50e30d213e9e5d58a22fd77bc7a2
-ms.sourcegitcommit: 2b890cd7a801055ab0ca24398efc8e4e777d4d8c
+ms.openlocfilehash: 1088194ca4b92bfb38dbcad43cfbb5d33f15d935
+ms.sourcegitcommit: 16bfa0fd08feec1647829630401ce62ce2ffa1a4
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "1504094"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "1848565"
 ---
 # <a name="business-intelligence-bi-and-reporting-home-page"></a>“商业智能 (BI) 与报告”主页
 
@@ -30,7 +30,7 @@ ms.locfileid: "1504094"
 
 此主题为您指引了各种资源，您可使用这些资源来了解在 Microsoft Dynamics 365 for Finance and Operations 中提供的商业智能 (BI) 和报告工具的详细信息。
 
-## <a name="get-started"></a>开始
+## <a name="get-started"></a>入门
 - [信息访问和报告](information-access-reporting.md)
 - [技术交流：报告选项](https://www.youtube.com/watch?v=NzZONjKs5xA)（视频）
 - [Finance and Operations：Power BI Analytics 和 Reporting Services 博客](https://community.dynamics.com/365/financeandoperations/b/powerbianalyticsandreporting)（博客）
@@ -61,16 +61,16 @@ Finance and Operations 提供无缝集成到应用程序工作区的交互式报
 - [在 Finance and Operations 应用程序中打印](print-documents.md)
 - [安装文档路线选择代理以启用网络打印机设备](install-document-routing-agent.md)
 
-## <a name="electronic-reporting"></a>电子申报
-电子申报 (ER) 是一种可用来根据各个国家或地区的法律要求配置电子单据格式的工具。 电子申报的应用包括财务审核、税务申报和电子开票。
+## <a name="electronic-reporting"></a>电子报告
+电子报告 (ER) 是一种可用来根据各个国家或地区的法律要求配置电子单据格式的工具。 电子报告的应用包括财务审核、税务申报和电子开票。
 
-[![电子申报示例](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
+[![电子报告示例](./media/electronic-reporting-example.png)](./media/electronic-reporting-example.png)
 
 若要了解详细信息，请参阅以下主题：
 
-- [电子申报概览](general-electronic-reporting.md)
-- [管理电子申报配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
-- [创建电子申报配置](electronic-reporting-configuration.md)
+- [电子报告概览](general-electronic-reporting.md)
+- [管理电子报告配置生命周期](general-electronic-reporting-manage-configuration-lifecycle.md)
+- [创建电子报告配置](electronic-reporting-configuration.md)
 
 ## <a name="financial-reporting"></a>财务报告
 提供的标准财务报表使用 Finance and Operations 中的默认主科目类别。 您可以使用报表设计器创建或修改传统的财务报表，如利润表和资产负债表。 然后可以将结果与组织中的其他成员共享。 财务报告的示例包括各年的资产负债表、现金流和试算平衡表汇总。

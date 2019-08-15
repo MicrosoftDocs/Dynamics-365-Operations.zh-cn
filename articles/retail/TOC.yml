@@ -4,6 +4,8 @@
   items:
     - name: 新增功能或更改
       href: get-started/whats-new.md
+    - name: Dynamics 365 for Retail 10.0.5 预览功能
+      href: get-started/whats-new-10-0-5.md
     - name: Dynamics 365 for Retail 10.0.3 新增功能或更改
       href: get-started/whats-new-10-0-3.md
     - name: Dynamics 365 for Retail 10.0.2 新增功能或更改
@@ -257,6 +259,8 @@
       href: Notifications-POS.md
 - name: 退货
   items:
+    - name: 链接的退款
+      href: dev-itpro/linked-refunds.md
     - name: 销售和退回未包含在商店的分类中的产品
       href: sell-return-outside-assortments.md
     - name: 配置和处理有关退货单的交换
