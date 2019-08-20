@@ -10,37 +10,37 @@ ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: OpResLifeCycleManagementWorkspace, WrkCtrProperty
 audience: Application User
-ms.reviewer: shylaw
+ms.reviewer: josaw
 ms.search.scope: Core, Operations
 ms.search.region: Global
 ms.search.industry: Manufacturing
 ms.author: sorenand
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: 699ba33a766f5bbb6c03a41821a3eb809e3a3e55
-ms.sourcegitcommit: 9d4c7edd0ae2053c37c7d81cdd180b16bf3a9d3b
+ms.openlocfilehash: 56621d8de89ee0a62e2ad92930b632bbce5d6b06
+ms.sourcegitcommit: 8b4b6a9226d4e5f66498ab2a5b4160e26dd112af
 ms.translationtype: HT
 ms.contentlocale: zh-CN
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "1569163"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "1843713"
 ---
-# <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="95b87-103">创建工作时间计划属性</span><span class="sxs-lookup"><span data-stu-id="95b87-103">Create working time scheduling properties</span></span>
+# <a name="create-working-time-scheduling-properties"></a><span data-ttu-id="6b94f-103">创建工作时间计划属性</span><span class="sxs-lookup"><span data-stu-id="6b94f-103">Create working time scheduling properties</span></span>
 
 [!include [task guide banner](../../includes/task-guide-banner.md)]
 
-<span data-ttu-id="95b87-104">工时安排属性用于对工时间隔进行分类和定义操作人员必须考虑的设置。</span><span class="sxs-lookup"><span data-stu-id="95b87-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="95b87-105">该程序说明如何定义工时安排属性及相关属性值。</span><span class="sxs-lookup"><span data-stu-id="95b87-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="95b87-106">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="95b87-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
+<span data-ttu-id="6b94f-104">工时安排属性用于对工时间隔进行分类和定义操作人员必须考虑的设置。</span><span class="sxs-lookup"><span data-stu-id="6b94f-104">Working time scheduling properties are used to categorize working time intervals and define the settings that operators must take into account.</span></span> <span data-ttu-id="6b94f-105">该程序说明如何定义工时安排属性及相关属性值。</span><span class="sxs-lookup"><span data-stu-id="6b94f-105">This procedure shows how to define a working time scheduling property and associated property values.</span></span> <span data-ttu-id="6b94f-106">您可以使用演示数据公司 USMF 或您自己的数据浏览此程序。</span><span class="sxs-lookup"><span data-stu-id="6b94f-106">You can walk through this procedure in demo data company USMF, or using your own data.</span></span>
 
-1. <span data-ttu-id="95b87-107">转到“所有工作区”>“资源周期管理”。</span><span class="sxs-lookup"><span data-stu-id="95b87-107">Go to All workspaces > Resource lifecycle management.</span></span>
-2. <span data-ttu-id="95b87-108">单击“属性”。</span><span class="sxs-lookup"><span data-stu-id="95b87-108">Click Properties.</span></span>
+1. <span data-ttu-id="6b94f-107">转到“所有工作区”>“资源周期管理”。</span><span class="sxs-lookup"><span data-stu-id="6b94f-107">Go to All workspaces > Resource lifecycle management.</span></span>
+2. <span data-ttu-id="6b94f-108">单击“属性”。</span><span class="sxs-lookup"><span data-stu-id="6b94f-108">Click Properties.</span></span>
 
-## <a name="create-property"></a><span data-ttu-id="95b87-109">创建属性</span><span class="sxs-lookup"><span data-stu-id="95b87-109">Create property</span></span>
-1. <span data-ttu-id="95b87-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="95b87-110">Click New.</span></span>
-2. <span data-ttu-id="95b87-111">在“属性”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="95b87-111">In the Property field, type a value.</span></span>
-3. <span data-ttu-id="95b87-112">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="95b87-112">In the Name field, type a value.</span></span>
+## <a name="create-property"></a><span data-ttu-id="6b94f-109">创建属性</span><span class="sxs-lookup"><span data-stu-id="6b94f-109">Create property</span></span>
+1. <span data-ttu-id="6b94f-110">单击“新建”。</span><span class="sxs-lookup"><span data-stu-id="6b94f-110">Click New.</span></span>
+2. <span data-ttu-id="6b94f-111">在“属性”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="6b94f-111">In the Property field, type a value.</span></span>
+3. <span data-ttu-id="6b94f-112">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="6b94f-112">In the Name field, type a value.</span></span>
 
-## <a name="create-property-values"></a><span data-ttu-id="95b87-113">创建属性值</span><span class="sxs-lookup"><span data-stu-id="95b87-113">Create property values</span></span>
-1. <span data-ttu-id="95b87-114">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="95b87-114">In the list, mark the selected row.</span></span>
-2. <span data-ttu-id="95b87-115">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="95b87-115">In the Name field, type a value.</span></span>
-3. <span data-ttu-id="95b87-116">在“值”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="95b87-116">In the Value field, type a value.</span></span>
-4. <span data-ttu-id="95b87-117">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="95b87-117">Click Save.</span></span>
+## <a name="create-property-values"></a><span data-ttu-id="6b94f-113">创建属性值</span><span class="sxs-lookup"><span data-stu-id="6b94f-113">Create property values</span></span>
+1. <span data-ttu-id="6b94f-114">在列表中，标记所选的行。</span><span class="sxs-lookup"><span data-stu-id="6b94f-114">In the list, mark the selected row.</span></span>
+2. <span data-ttu-id="6b94f-115">在“名称”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="6b94f-115">In the Name field, type a value.</span></span>
+3. <span data-ttu-id="6b94f-116">在“值”字段中，键入一个值。</span><span class="sxs-lookup"><span data-stu-id="6b94f-116">In the Value field, type a value.</span></span>
+4. <span data-ttu-id="6b94f-117">单击“保存”。</span><span class="sxs-lookup"><span data-stu-id="6b94f-117">Click Save.</span></span>
 
